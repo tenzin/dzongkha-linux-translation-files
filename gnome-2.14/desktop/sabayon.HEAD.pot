@@ -1,0 +1,794 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sabayon.Head\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-02 23:24+0200\n"
+"PO-Revision-Date: 2006-04-05 18:37-0500\n"
+"Last-Translator: \n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../admin-tool/aboutdialog.py:63
+msgid "Program to establish and edit profiles for users"
+msgstr "ལག་ལེན་པའི་དོན་ལུ་ གནད་སྡུད་ཚུ་གཞི་འཛུགས་འབད་དེ་ ཞུན་དག་འབད་ནིའི་ལས་རིམ།"
+
+#: ../admin-tool/aboutdialog.py:66
+msgid "translator-credits"
+msgstr "\"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>\""
+
+#: ../admin-tool/changeswindow.py:50
+#, python-format
+msgid "Changes in profile %s"
+msgstr "གསལ་སྡུད་%sནང་ལུ་བསྒྱུར་བཅོས།"
+
+#: ../admin-tool/changeswindow.py:106
+msgid "Ignore"
+msgstr "སྣང་མེད་བཞག"
+
+#: ../admin-tool/changeswindow.py:113
+msgid "Lock"
+msgstr "ལྡེ་མིག་རྐྱབས།"
+
+#: ../admin-tool/changeswindow.py:120
+#: ../admin-tool/editorwindow.py:224
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../admin-tool/editorwindow.py:97
+#, python-format
+msgid "Profile %s"
+msgstr "གསལ་སྡུད་%s།"
+
+#: ../admin-tool/editorwindow.py:189
+#: ../admin-tool/sessionwindow.py:174
+msgid "_Profile"
+msgstr "གསལ་སྡུད།(_p)"
+
+#: ../admin-tool/editorwindow.py:190
+#: ../admin-tool/sessionwindow.py:175
+msgid "_Save"
+msgstr "སྲུངས།(_S)"
+
+#: ../admin-tool/editorwindow.py:190
+#: ../admin-tool/sessionwindow.py:175
+msgid "Save profile"
+msgstr "གནས་སྡུད་སྲུངས།"
+
+#: ../admin-tool/editorwindow.py:191
+msgid "_Close"
+msgstr "ཁ་བསྡམས།(_C)"
+
+#: ../admin-tool/editorwindow.py:191
+#: ../admin-tool/sessionwindow.py:176
+msgid "Close the current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་དེ་ཁ་བསྡམས།"
+
+#: ../admin-tool/editorwindow.py:192
+#: ../admin-tool/sessionwindow.py:177
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../admin-tool/editorwindow.py:193
+msgid "_Delete"
+msgstr "བཏོན་གཏང་།(_D)"
+
+#: ../admin-tool/editorwindow.py:193
+msgid "Delete item"
+msgstr "རྣམ་གྲངས་བཏོན་གཏང་།"
+
+#: ../admin-tool/editorwindow.py:194
+#: ../admin-tool/sessionwindow.py:180
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../admin-tool/editorwindow.py:195
+#: ../admin-tool/sessionwindow.py:181
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../admin-tool/editorwindow.py:195
+#: ../admin-tool/sessionwindow.py:181
+msgid "About Sabayon"
+msgstr "ས་བ་ཡཱོན་གྱི་སྐོར་ལས།"
+
+#: ../admin-tool/editorwindow.py:254
+#: ../lib/sources/gconfsource.py:123
+msgid "GConf"
+msgstr "ཇི་ཀཱོནཕི།"
+
+#: ../admin-tool/editorwindow.py:258
+#: ../lib/sources/filessource.py:78
+msgid "Files"
+msgstr "ཡིག་སྣོད།"
+
+#: ../admin-tool/editorwindow.py:258
+#: ../admin-tool/lockdown/pessulus.glade.h:7
+#: ../lib/sources/paneldelegate.py:134
+msgid "Panel"
+msgstr "པེ་ནཱལ།"
+
+#: ../admin-tool/fileviewer.py:29
+#, python-format
+msgid "Profile file: %s"
+msgstr "གསལ་སྡུད་ཡིག་སྣོད་:%s"
+
+#: ../admin-tool/gconfviewer.py:59
+#: ../admin-tool/gconfviewer.py:78
+msgid "<no type>"
+msgstr "<དབྱེ་བ་མེད་>"
+
+#: ../admin-tool/gconfviewer.py:60
+msgid "<no value>"
+msgstr "<གནས་གོང་མེད་>"
+
+#: ../admin-tool/gconfviewer.py:64
+msgid "string"
+msgstr "ཡིག་རྒྱུན།"
+
+#: ../admin-tool/gconfviewer.py:66
+msgid "integer"
+msgstr "ཧྲིལ་ཨང་།"
+
+#: ../admin-tool/gconfviewer.py:68
+msgid "float"
+msgstr "ལྡིང་བ།"
+
+#: ../admin-tool/gconfviewer.py:70
+msgid "boolean"
+msgstr "བུ་ལིན།"
+
+#: ../admin-tool/gconfviewer.py:72
+msgid "schema"
+msgstr "ལས་འཆར།"
+
+#: ../admin-tool/gconfviewer.py:74
+msgid "list"
+msgstr "ཐོ་ཡིག"
+
+#: ../admin-tool/gconfviewer.py:76
+msgid "pair"
+msgstr "ཟུང་།"
+
+#: ../admin-tool/gconfviewer.py:88
+#, python-format
+msgid "Profile settings: %s"
+msgstr "གསལ་སྡུད་སྒྲིག་སྟངས་: %s།"
+
+#: ../admin-tool/gconfviewer.py:112
+#: ../admin-tool/profilesdialog.py:315
+#: ../admin-tool/usersdialog.py:85
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../admin-tool/gconfviewer.py:117
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../admin-tool/gconfviewer.py:122
+msgid "Value"
+msgstr "གནས་གོང་།"
+
+#: ../admin-tool/lockdown/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "སྒྲིག་སྟངས་འདི་ ངེས་མཁོ་མེནམ་བཟོ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../admin-tool/lockdown/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "སྒྲིག་སྟངས་འདི་ ངེས་མཁོ་བཟོ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../admin-tool/lockdown/maindialog.py:47
+msgid "Disable _command line"
+msgstr "བཀོད་ལམ་ལྕོགས་མིན་བཟོ།(_c)"
+
+#: ../admin-tool/lockdown/maindialog.py:48
+msgid "Disable _printing"
+msgstr "དཔར་བསྐྲུན་ལྕོགས་མིན་བཟོ།(_p)"
+
+#: ../admin-tool/lockdown/maindialog.py:49
+msgid "Disable print _setup"
+msgstr "དཔར་བསྐྲུན་གཞི་སྒྲིག་ ལྕོགས་མིན་བཟོ།(_s)"
+
+#: ../admin-tool/lockdown/maindialog.py:50
+msgid "Disable save to _disk"
+msgstr "ཊིཀསི་ལུ་བསྲུང་ནི་ལྕོགས་མིན་བཟོ།(_d)"
+
+#: ../admin-tool/lockdown/maindialog.py:52
+msgid "_Lock down the panels"
+msgstr "པེ་ནཱལ་ཚུ་ ལོཀ་ཌའུན་འབད།(_L)"
+
+#: ../admin-tool/lockdown/maindialog.py:53
+msgid "Disable force _quit"
+msgstr "བང་ཅན་སྦེ་སྤང་ནི་ ལྕོགས་མིན་བཟོ།(_q)"
+
+#: ../admin-tool/lockdown/maindialog.py:54
+msgid "Disable lock _screen"
+msgstr "གསལ་གཞི་ལྡེ་མིག་བརྐྱབ་ནི་ ལྕོགས་མིན་བཟོ།(_s)"
+
+#: ../admin-tool/lockdown/maindialog.py:55
+msgid "Disable log _out"
+msgstr "ཕྱིར་བསྐྱོད་ལྕོགས་མིན་བཟོ།(_o)"
+
+#: ../admin-tool/lockdown/maindialog.py:57
+msgid "Disable _quit"
+msgstr "སྤང་ནི་ལྕོགས་མིན་བཟོ།(_q)"
+
+#: ../admin-tool/lockdown/maindialog.py:58
+msgid "Disable _arbitrary URL"
+msgstr "མཐུན་སྒྲིག་ཡུ་ཨར་ཨེལ་ ལྕོགས་མིན་བཟོ།(_a)"
+
+#: ../admin-tool/lockdown/maindialog.py:59
+msgid "Disable _bookmark editing"
+msgstr "དེབ་རྟགས་ཞུན་དག་བརྐྱབ་ནི་ ལྕོགས་མིན་བཟོ།(_b)"
+
+#: ../admin-tool/lockdown/maindialog.py:60
+msgid "Disable _history"
+msgstr "ལོ་རྒྱུས་ལྕོགས་མིན་བཟོ།(_h)"
+
+#: ../admin-tool/lockdown/maindialog.py:61
+msgid "Disable _javascript chrome"
+msgstr "ཇ་བ་སི་ཀི་རིཔཊི་ ཀོརོམ་ ལྕོགས་མིན་བཟོ།(_j)"
+
+#: ../admin-tool/lockdown/maindialog.py:62
+msgid "Disable _toolbar editing"
+msgstr "ལག་ཆས་ཕྲ་རིང་ཞུན་དག་བརྐྱབ་ནི་ ལྕོགས་མིན་བཟོ།(_t)"
+
+#: ../admin-tool/lockdown/maindialog.py:63
+msgid "_Fullscreen"
+msgstr "གསལ་གཞི་གངམ།(_F)"
+
+#: ../admin-tool/lockdown/maindialog.py:64
+msgid "Hide _menubar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་སྦ་བཞག(_m)"
+
+#: ../admin-tool/lockdown/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>ལྕོགས་མིན་ཨེཔ་ལེཊི་ཚུ་</b>"
+
+#: ../admin-tool/lockdown/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>ཉེན་མེད་གནད་སྤེལ་ལམ་ལུགས་</b>"
+
+#: ../admin-tool/lockdown/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "ཉེན་ཅན་གནད་སྤེལ་ལམ་ལུགས་ ལྕོགས་མིན་བཟོ།(_u)"
+
+#: ../admin-tool/lockdown/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "ཨི་པི་ཕ་ནི་ ཝེབ་བརའུ་ཟར།"
+
+#: ../admin-tool/lockdown/pessulus.glade.h:5
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../admin-tool/lockdown/pessulus.glade.h:6
+msgid "Lockdown Editor"
+msgstr "ལོཀ་ཌའུན་ཞུན་དགཔ།"
+
+#.
+#. Translators: this string specifies how a profile
+#. name is concatenated with an integer
+#. to form a unique profile name e.g.
+#. "Artist Workstation (5)"
+#.
+#: ../admin-tool/profilesdialog.py:415
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../admin-tool/sabayon:44
+msgid "Your account does not have permissions to run the Desktop User Profiles tool"
+msgstr "ཁྱོད་ལུ་ཌེཀསི་ཊོཔ་ལག་ལེན་པའི་གསལ་སྡུད་ལག་ཆས་ གཡོག་བཀོལ་ནིའི་གནང་བ་མིན་འདུག"
+
+#: ../admin-tool/sabayon:45
+msgid "Administrator level permissions are needed to run this program because it can modify system files."
+msgstr "ལས་རིམ་འདི་གཡོག་བཀོལ་ནི་ལུ་ བདག་སྐྱོང་པའི་གནས་རིམ་ཅན་གྱི་གནང་བ་ཚུ་དགོ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་གིས་རིམ་ལུགས་ཡིག་སྣོད་ཚུ་ ལེགས་བཅོས་འབད་ཚུགས།"
+
+#: ../admin-tool/sabayon:50
+msgid "Desktop User Profiles tool is already running"
+msgstr "ཌེཀསི་ཊོཔ་ལག་ལེན་པའི་གསལ་སྡུད་ལག་ཆས་ ཧེ་མ་ལས་རང་ གཡོག་བཀོལ་ཏེ་འདུག"
+
+#: ../admin-tool/sabayon:51
+msgid "You may not use Desktop User Profiles tool from within a profile editing session"
+msgstr "ཁྱོད་ཀྱིས་གསལ་སྡུད་ཞུན་དག་ལཱ་ཡུན་ཅིག་ནང་ལས་ ཌེཀསི་ཊོཔ་ལག་ལེན་པའི་གསལ་སྡུད་ལག་ཆས་ ལག་ལེན་འཐབ་ནི་མི་འོང་།"
+
+#: ../admin-tool/sabayon:58
+#, c-format
+msgid "User account '%s' was not found"
+msgstr "ལག་ལེན་པའི་རྩིས་ཐོ་'%s'མ་ཐོབ།"
+
+#: ../admin-tool/sabayon:59
+#, c-format
+msgid "Sabayon requires a special user account '%s' to be present on this computer. Try again after creating the account (using, for example, the 'adduser' command)"
+msgstr "གློག་རིག་འདི་གུ་གནས་ནིའི་དོན་ལུ་ ས་བ་ཡཱོན་ལུ་ ལག་ལེན་པའི་དམིགས་བསལ་རྩིས་ཐོ་'%s'ཅིག་དགོ རྩིས་ཐོ་གསརཔ་ (དཔེར་ན་ 'adduser' བརྡ་བཀོད་ལག་ལེན་འཐབ་པའི་)བཟོ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../admin-tool/sabayon-apply:39
+#, c-format
+msgid "No profile for user '%s' found\n"
+msgstr "ལག་ལེན་པ་'%s'གི་དོན་ལུ་ གསལ་སྡུད་མ་ཐོབ།\n"
+
+#: ../admin-tool/sabayon-apply:44
+#, c-format
+msgid "Usage: %s [<profile-name>]\n"
+msgstr "ལག་ལེན་:%s [<profile-name>]\n"
+
+#: ../admin-tool/sabayon-session:32
+#, c-format
+msgid "Usage: %s <profile-name> <profile-path> <display-number>\n"
+msgstr "ལག་ལེན་:%s <profile-name> <profile-path> <display-number>\n"
+
+#: ../admin-tool/sabayon.desktop.in.h:1
+msgid "Establish and Edit Profiles for Users"
+msgstr "ལག་ལེན་པའི་དོན་ལུ་ གསལ་སྡུད་གཞི་འཛུགས་འབད་དེ་ ཞུན་དག་རྐྱབས།"
+
+#: ../admin-tool/sabayon.desktop.in.h:2
+#: ../admin-tool/sabayon.glade.h:4
+msgid "User Profile Editor"
+msgstr "ལག་ལེན་པའི་གསལ་སྡུད་ཞུན་དགཔ།"
+
+#: ../admin-tool/sabayon.glade.h:1
+msgid "Add Profile"
+msgstr "གསལ་སྡུད་ཁ་སྐོང་རྐྱབས།"
+
+#: ../admin-tool/sabayon.glade.h:2
+msgid "Profile _name:"
+msgstr "གསལ་སྡུད་མིང་:(_n)"
+
+#: ../admin-tool/sabayon.glade.h:3
+msgid "Use this profile for _all users"
+msgstr "ལག་ལེན་པ་ཆ་མཉམ་གྱི་དོན་ལུ་ གསལ་སྡུད་འདི་ལག་ལེན་འཐབ།(_a)"
+
+#: ../admin-tool/sabayon.glade.h:5
+msgid "_Base on:"
+msgstr "ལུ་གཞི་བཞག་སྟེ་:(_B)"
+
+#: ../admin-tool/sabayon.glade.h:6
+msgid "_Profiles:"
+msgstr "གསལ་སྡུད་:(_P)"
+
+#: ../admin-tool/sabayon.glade.h:7
+msgid "_Users"
+msgstr "ལག་ལེན་པ་:(_U)"
+
+#: ../admin-tool/sabayon.glade.h:8
+msgid "_Users:"
+msgstr "ལག་ལེན་པ་:(_U)"
+
+#: ../admin-tool/saveconfirm.py:36
+msgid "Close _Without Saving"
+msgstr "མ་བསྲུངས་པར་ཁ་བསྡམས།(_W)"
+
+#: ../admin-tool/saveconfirm.py:43
+#, python-format
+msgid "Save changes to profile \"%s\" before closing?"
+msgstr "ཁ་མ་བསྡམས་པའི་ཧེ་མར་ གསལ་སྡུད་\"%s\"ལུ་ བསྒྱུར་བཅོས་ཚུ་སྲུངས།"
+
+#: ../admin-tool/saveconfirm.py:47
+#, python-format
+msgid "If you don't save, changes from the last %ld second will be permanently lost."
+msgid_plural "If you don't save, changes from the last %ld seconds will be permanently lost."
+msgstr[0] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་སྐར་ཆ་%ldལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་སྐར་ཆ་%ldལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../admin-tool/saveconfirm.py:53
+msgid "If you don't save, changes from the last minute will be permanently lost."
+msgstr "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ མཐའ་མཇུག་གི་སྐར་མ་ལས་ཚུ་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../admin-tool/saveconfirm.py:57
+#, python-format
+msgid "If you don't save, changes from the last minute and %ld second will be permanently lost."
+msgid_plural "If you don't save, changes from the last minute and %ld seconds will be permanently lost."
+msgstr[0] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་སྐར་མ་དང་ སྐར་ཆ་%ldལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་སྐར་མ་དང་ སྐར་ཆ་%ldལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../admin-tool/saveconfirm.py:64
+#, python-format
+msgid "If you don't save, changes from the last %ld minute will be permanently lost."
+msgid_plural "If you don't save, changes from the last %ld minutes will be permanently lost."
+msgstr[0] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་སྐར་མ་%ldལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་སྐར་མ་%ldལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../admin-tool/saveconfirm.py:73
+#: ../admin-tool/saveconfirm.py:83
+#, python-format
+msgid "If you don't save, changes from the last hour will be permanently lost."
+msgid_plural "If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་ཆུ་ཚོད་ལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་ཆུ་ཚོད་%dལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../admin-tool/saveconfirm.py:76
+#, python-format
+msgid "If you don't save, changes from the last hour and %d minute will be permanently lost."
+msgid_plural "If you don't save, changes from the last hour and %d minutes will be permanently lost."
+msgstr[0] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་ཆུ་ཚོད་དང་ སྐར་མ་%dལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་མ་བསྲུངས་པ་ཅིན་ འདས་པའི་ཆུ་ཚོད་དང་ སྐར་མ་%dལས་ཚུར་ བསྒྱུར་བཅོས་འབད་མི་ཚུ་ རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../admin-tool/sessionwindow.py:153
+#, python-format
+msgid "Editing profile %s"
+msgstr "གསལ་སྡུད་%sཞུན་དག་རྐྱབ་དོ།"
+
+#: ../admin-tool/sessionwindow.py:176
+msgid "_Quit"
+msgstr "སྤངས།(_Q)"
+
+#: ../admin-tool/sessionwindow.py:178
+msgid "_Changes"
+msgstr "བསྒྱུར་བཅོས་ཚུ།(_C)"
+
+#: ../admin-tool/sessionwindow.py:178
+msgid "Edit changes"
+msgstr "བསྒྱུར་བཅོས་ཚུ་ཞུན་དག་བརྐྱབས།"
+
+#: ../admin-tool/sessionwindow.py:179
+msgid "_Lockdown"
+msgstr "ལོཀ་ཌའུན།(_L)"
+
+#: ../admin-tool/sessionwindow.py:179
+msgid "Edit Lockdown settings"
+msgstr "ལོཀ་ཌའུན་སྒྲིག་སྟངས་ཚུ་ཞུན་དག་རྐྱབས།"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "Enforce Mandatory"
+msgstr "ངེས་མཁོ་བེད་སྤྱོད་གཏང་།"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "Enforce mandatory settings in the editing session"
+msgstr "ཞུན་དག་བརྐྱབ་ནིའི་ལཱ་ཡུན་ནང་ ངེས་མཁོ་བའི་སྒྲིག་སྟངས་ཚུ་ བེད་སྤྱོད་གཏང་།"
+
+#: ../admin-tool/sessionwindow.py:273
+#, python-format
+msgid "Lockdown settings for %s"
+msgstr "%sགི་དོན་ལུ་ ལོཀ་ཌའུན་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../admin-tool/usersdialog.py:67
+#, python-format
+msgid "Users for profile %s"
+msgstr "གསལ་སྡུད་%sགི་དོན་ལུ་ལག་ལེན་པ་ཚུ།"
+
+#: ../admin-tool/usersdialog.py:95
+msgid "Use This Profile"
+msgstr "གསལ་སྡུད་འདི་ལག་ལེན་འཐབ།"
+
+#: ../lib/dirmonitor.py:151
+#, python-format
+msgid "Failed to add monitor for %s"
+msgstr "%sགི་དོན་ལུ་གསལ་འཕྲུལ་ཁ་སྐོང་རྐྱབ་མ་ཚུགས།"
+
+#: ../lib/dirmonitor.py:231
+#, python-format
+msgid "Expected event: %s %s"
+msgstr "རེ་བ་བསྐྱེད་མི་བྱུང་ལས་:%s %s"
+
+#: ../lib/protosession.py:142
+msgid "Unable to find a free X display"
+msgstr "ཨེགསི་བཀྲམ་སྟོན་དལཝ་ཅིག་ འཚོལ་མ་ཐོབ།"
+
+#: ../lib/protosession.py:409
+msgid "Failed to start Xnest: timed out waiting for USR1 signal"
+msgstr "ཨེགསི་ནེསིཊི་ འགོ་བཙུགས་མ་ཚུགས་:ངལ་མཚམས་སྦེ་ ཡུ་ཨེསི་ཨར་༡ བརྡ་རྟགས་དོན་ལུ་བསྒུག་སྡོད་དོ།"
+
+#: ../lib/protosession.py:411
+msgid "Failed to start Xnest: died during startup"
+msgstr "ཨེགསི་ནེསཊི་འགོ་བཙུགས་མ་ཚུགས་: འགོ་བཙུགས་སྐབས་ཤི་སོ་ཡི།"
+
+#: ../lib/sources/filessource.py:68
+#, python-format
+msgid "File '%s' created"
+msgstr "ཡིག་སྣོད་ '%s'གསར་བསྐྲུན་འབད་ཡི།"
+
+#: ../lib/sources/filessource.py:70
+#, python-format
+msgid "File '%s' deleted"
+msgstr "ཡིག་སྣོད་ '%s'བཏོན་བཏང་ཡི།"
+
+#: ../lib/sources/filessource.py:72
+#, python-format
+msgid "File '%s' changed"
+msgstr "ཡིག་སྣོད་ '%s'བསྒྱུར་བཅོས་འབད་ཡི།"
+
+#: ../lib/sources/filessource.py:96
+msgid "Applications menu"
+msgstr "གློག་རིམ་དཀར་ཆག"
+
+#: ../lib/sources/filessource.py:98
+msgid "Preferences menu"
+msgstr "དགའ་གདམ་དཀར་ཆག"
+
+#: ../lib/sources/filessource.py:100
+msgid "Server Settings menu"
+msgstr "སར་བར་གཞི་སྒྲིག་དཀར་ཆག"
+
+#: ../lib/sources/filessource.py:102
+msgid "System Settings menu"
+msgstr "རིམ་ལུགས་སྒྲིག་སྟངས་དཀར་ཆག"
+
+#: ../lib/sources/filessource.py:104
+msgid "Start Here menu"
+msgstr "ནཱ་ལུ་འགོ་བཙུགས་དཀར་ཆག"
+
+#: ../lib/sources/gconfsource.py:89
+#, python-format
+msgid "GConf key '%s' unset"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'གཞི་སྒྲིག་བཤོལ།"
+
+#: ../lib/sources/gconfsource.py:91
+#, python-format
+msgid "GConf key '%s' set to string '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་ '%s'ཡིག་རྒྱུན་'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:93
+#, python-format
+msgid "GConf key '%s' set to integer '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'ཧྲིལ་ཨང་%s'ལུ་ གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:95
+#, python-format
+msgid "GConf key '%s' set to float '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'ལྡིང་བ་'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:97
+#, python-format
+msgid "GConf key '%s' set to boolean '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'བུ་ལིན་'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:99
+#, python-format
+msgid "GConf key '%s' set to schema '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'ལས་འཆར'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:101
+#, python-format
+msgid "GConf key '%s' set to list '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'ཐོ་ཡིག་'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:103
+#, python-format
+msgid "GConf key '%s' set to pair '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'ཟུང་'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:105
+#, python-format
+msgid "GConf key '%s' set to '%s'"
+msgstr "ཇི་ཀཱོནཕི་ལྡེ་མིག་'%s'དེ་%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/gconfsource.py:136
+msgid "Default GConf settings"
+msgstr "སྔོན་སྒྲིག་ཇི་ཀཱོནཕི་སྒྲིག་སྟངས།"
+
+#: ../lib/sources/gconfsource.py:138
+msgid "Mandatory GConf settings"
+msgstr "ངེས་མཁོའི་ཇི་ཀཱོནཕི་སྒྲིག་སྟངས།"
+
+#: ../lib/sources/mozillasource.py:132
+#, python-format
+msgid "Mozilla key '%s' set to '%s'"
+msgstr "མོ་ཛི་ལ་ལྡེ་མིག་'%s'དེ་'%s'ལུ་གཞི་སྒྲིག་འབད་ཡི།"
+
+#: ../lib/sources/mozillasource.py:134
+#, python-format
+msgid "Mozilla key '%s' unset"
+msgstr "མོ་ཛི་ལ་ལྡེ་མིག་'%s'གཞི་སྒྲིག་བཤོལ་ཡི།"
+
+#: ../lib/sources/mozillasource.py:136
+#, python-format
+msgid "Mozilla key '%s' changed to '%s'"
+msgstr "མོ་ཛི་ལ་ལྡེ་མིག་'%s'དེ་'%s'ལུ་བསྒྱུར་བཅོས་འབད་ཡི།"
+
+#: ../lib/sources/mozillasource.py:165
+#: ../lib/sources/mozillasource.py:175
+msgid "Web browser preferences"
+msgstr "ཝེབ་བརའུ་ཟར་གྱི་དགའ་གདམ་ཚུ།"
+
+#: ../lib/sources/mozillasource.py:167
+#: ../lib/sources/mozillasource.py:177
+msgid "Web browser bookmarks"
+msgstr "ཝེབ་བརའུ་ཟར་གྱི་དེབ་རྟགས་ཚུ།"
+
+#: ../lib/sources/mozillasource.py:169
+msgid "Web browser profile list"
+msgstr "ཝེབ་བརའུ་ཟར་གྱི་གསལ་སྡུད་ཐོ་ཡིག།"
+
+#: ../lib/sources/mozillasource.py:520
+#, python-format
+msgid "File Not Found (%s)"
+msgstr "ཡིག་སྣོད་མ་ཐོབ་(%s)།"
+
+#: ../lib/sources/mozillasource.py:871
+#, python-format
+msgid "duplicate name(%(name)s) in section %(section)s"
+msgstr "མིང་རྫུན་མ་(%(name)s)འདུག་ དབྱེ་ཚན་%(section)sནང་།"
+
+#: ../lib/sources/mozillasource.py:880
+#, python-format
+msgid "redundant default in section %s"
+msgstr "དབྱེ་ཚན་%sནང་སྔོན་སྒྲིག་མང་དྲགས་པས། "
+
+#: ../lib/sources/mozillasource.py:897
+msgid "no default profile"
+msgstr "སྔོན་སྒྲིག་གསལ་སྡུད་མིན་འདུག"
+
+#: ../lib/sources/mozillasource.py:952
+#, python-format
+msgid "Mozilla bookmark created '%s' -> '%s'"
+msgstr "མོ་ཛི་ལ་དེབ་རྟགས་ཀྱིས་'%s' -> '%s'གསར་བསྐྲུན་འབད་ནུག"
+
+#: ../lib/sources/mozillasource.py:954
+#, python-format
+msgid "Mozilla bookmark folder created '%s'"
+msgstr "མོ་ཛི་ལ་དེབ་རྟགས་སྣོད་འཛིན་གྱིས་'%s'གསར་བསྐྲུན་འབད་ནུག"
+
+#: ../lib/sources/mozillasource.py:957
+#, python-format
+msgid "Mozilla bookmark deleted '%s'"
+msgstr "མོ་ཛི་ལ་དེབ་རྟགས་ཀྱིས་'%s'བཏོན་བཏང་ནུག"
+
+#: ../lib/sources/mozillasource.py:959
+#, python-format
+msgid "Mozilla bookmark folder deleted '%s'"
+msgstr "མོ་ཛི་ལ་དེབ་རྟགས་སྣོད་འཛིན་གྱིས་'%s'བཏོན་བཏང་ནུག"
+
+#: ../lib/sources/mozillasource.py:962
+#, python-format
+msgid "Mozilla bookmark changed '%s' '%s'"
+msgstr "མོ་ཛི་ལ་དེབ་རྟགས་ཀྱིས་'%s' '%s'བསྒྱུར་བཅོས་འབད་ནུག"
+
+#: ../lib/sources/mozillasource.py:964
+#, python-format
+msgid "Mozilla bookmark folder changed '%s'"
+msgstr "མོ་ཛི་ལ་དེབ་རྟགས་སྣོད་འཛིན་གྱིས་'%s'བསྒྱུར་བཅོས་འབད་ནུག"
+
+#: ../lib/sources/paneldelegate.py:58
+#, python-format
+msgid "Panel '%s' added"
+msgstr "པེ་ནཱལ་'%s'ཁ་སྐོང་བརྐྱབས་ནུག།"
+
+#: ../lib/sources/paneldelegate.py:64
+#, python-format
+msgid "Panel '%s' removed"
+msgstr "པེ་ནཱལ་'%s'རྩ་བསྐྲད་བཏང་ནུག"
+
+#: ../lib/sources/paneldelegate.py:70
+#, python-format
+msgid "Panel applet '%s' added"
+msgstr "པེ་ནཱལ་ཨེཔ་ལེཊི་'%s'ཁ་སྐོང་བརྐྱབས་ནུག"
+
+#: ../lib/sources/paneldelegate.py:76
+#, python-format
+msgid "Panel applet '%s' removed"
+msgstr "པེ་ནཱལ་ཨེཔ་ལེཊི་'%s'རྩ་བསྐྲད་བཏང་ནུག"
+
+#: ../lib/sources/paneldelegate.py:82
+#, python-format
+msgid "Panel object '%s' added"
+msgstr "པེ་ནཱལ་དངོས་པོ་'%s'ཁ་སྐོང་བརྐྱབས་ནུག"
+
+#: ../lib/sources/paneldelegate.py:94
+#, python-format
+msgid "Panel object '%s' removed"
+msgstr "པེ་ནཱལ་དངོས་པོ་'%s'རྩ་བསྐྲད་བཏང་ནུག"
+
+#: ../lib/sources/paneldelegate.py:375
+msgid "Panel File"
+msgstr "པེ་ནཱལ་ཡིག་སྣོད།"
+
+#: ../lib/storage.py:173
+#, python-format
+msgid "Failed to read file '%s': %s"
+msgstr "ཡིག་སྣོད་'%s': %sལྷག་མ་ཚུགས།"
+
+#: ../lib/storage.py:183
+#, python-format
+msgid "Failed to read metadata from '%s': %s"
+msgstr "'%s': %sནང་ལས་ མེ་ཊ་གནད་སྡུད་ལྷག་མ་ཚུགས།"
+
+#: ../lib/storage.py:189
+#, python-format
+msgid "Invalid metadata section in '%s': %s"
+msgstr "དབྱེ་ཚན་'%s': %sནང་ལུ་ ནུས་མེད་མེ་ཊ་གནད་སྡུད།"
+
+#: ../lib/storage.py:363
+#, python-format
+msgid "Cannot add non-existent file '%s'"
+msgstr "གནས་བཞིན་མེད་པའི་ཡིག་སྣོད་'%s'ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: ../lib/storage.py:540
+#, python-format
+msgid "Profile is read-only %s"
+msgstr "གསལ་སྡུད་དེ་ལྷག་ནི་ཙམ་གྱི་%sཨིན།"
+
+#: ../lib/unittests.py:38
+#: ../lib/unittests.py:39
+msgid "Ignore WARNINGs"
+msgstr "ཉེན་བརྡ་ཚུ་སྣང་མེད་བཞག"
+
+#: ../lib/unittests.py:61
+#, python-format
+msgid "Running %s tests"
+msgstr "%sབརྟག་དཔྱད་འབད་དོ།"
+
+#: ../lib/unittests.py:63
+#, python-format
+msgid "Running %s tests (%s)"
+msgstr "%s བརྟག་དཔྱད་འབད་དོ་(%s)།"
+
+#: ../lib/unittests.py:70
+msgid "Success!"
+msgstr "མཐར་འཁྱོལ!"
+
+#: ../lib/userdb.py:52
+#, python-format
+msgid "invalid type for setting %s in %s"
+msgstr "སྒྲིག་སྟངས་%sནང་ནུས་མེད་དབྱེ་བ་འདུག་ %sནང་།"
+
+#: ../lib/userdb.py:212
+#, python-format
+msgid "No search based specified for %s"
+msgstr "%sགི་དོན་ལུ་ འཚོལ་ཞིབ་གཞི་རྟེན་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../lib/userdb.py:215
+#, python-format
+msgid "No query filter specified for %s"
+msgstr "%sགི་དོན་ལུ་ དྲི་དཔྱད་ཚགས་མ་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../lib/userdb.py:218
+#, python-format
+msgid "No result attribute specified for %s"
+msgstr "%sགི་དོན་ལུ་ གྲུབ་འབྲས་ཁྱད་ཆོས་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../lib/userdb.py:227
+msgid "Scope must be one of sub, base and one"
+msgstr "འོས་སྐབས་དེ་ ཡན་ལག་དང་ གཞི་རྟེན་ གཅིག་ཚུ་གི་གྲས་ལས་ གཅིག་ཨིན་དགོ།"
+
+#: ../lib/userdb.py:247
+msgid "multiple_result must be one of first and random"
+msgstr "སྣ་མང་གྲུབ་འབྲས་དེ་ དང་པ་དང་ གང་འབྱུང་ཅིག་ཨིན་དགོ(_r)"
+
+#: ../lib/userdb.py:339
+#, python-format
+msgid "Could not open %s for writing"
+msgstr "%sའབྲི་ནིའི་དོན་ལུ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../lib/userdb.py:352
+#, python-format
+msgid "Failed to save UserDatabase to %s"
+msgstr "ལག་ལེན་པའི་གནད་སྡུད་གཞི་རྟེན་%sལུ་ བསྲུང་མ་ཚུགས།"
+
+#: ../lib/userdb.py:375
+#: ../lib/userdb.py:410
+#, python-format
+msgid "File %s is not a profile configuration"
+msgstr "ཡིག་སྣོད་%sདེ་ གསལ་སྡུད་རིམ་སྒྲིག་ཅིག་མེན་པས།"
+
+#: ../lib/userdb.py:382
+#, python-format
+msgid "Failed to add default profile %s to configuration"
+msgstr "སྔོན་སྒྲིག་གསལ་སྡུད་%sདེ་ རིམ་སྒྲིག་ལུ་ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: ../lib/userdb.py:418
+#, python-format
+msgid "Failed to add user %s to profile configuration"
+msgstr "ལག་ལེན་པ་%sདེ་ གསལ་སྡུད་རིམ་སྒྲིག་ལུ་ ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: ../lib/userdb.py:449
+msgid "Failed to get the user list"
+msgstr "ལག་ལེན་པའི་ཐོ་ཡིག་ ལེན་མ་ཚུགས།"
+
+#: ../lib/util.py:127
+msgid "Cannot find home directory: not set in /etc/passwd and no value for $HOME in environment"
+msgstr "ཁྱིམ་གྱི་སྣོད་ཐོ་འཚོལ་མ་འཐོབ་: /etc/passwd ནང་ གཞི་སྒྲིག་མ་འབད་བའི་ཁར་ མཐའ་འཁོར་ནང་ལུ་ $HOME གི་དོན་ལུ་ གནས་གོང་མིན་འདུག"
+
+#: ../lib/util.py:140
+msgid "Cannot find username: not set in /etc/passwd and no value for $USER in environment"
+msgstr "ལག་ལེན་པའི་མིང་འཚོལ་མ་ཐོབ་: /etc/passwd ནང གཞི་སྒྲིག་མ་འབད་བའི་ཁར་ མཐའ་འཁོར་ནང་$USER གི་དོན་ལུ་ གནས་གོང་མིན་འདུག"
+

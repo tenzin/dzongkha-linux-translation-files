@@ -1,0 +1,77 @@
+# translation of pref-applications.properties.po to Dzongkha
+# extracted from en-US_mozilla1.7.xpi:lang-reg/communicator/pref/pref-applications.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: pref-applications.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-04-25 13:35+0530\n"
+"Last-Translator: Norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: KBabel 1.10.2\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:55 EST 2006
+#: useSystemDefault
+msgid "Open these files using the default application"
+msgstr "སྔོན་སྒྲིག་གི་འཇུག་སྤྱོད་ལག་ལེན་འཐབ་ཐོག་ཡིག་སྣོད་ཚུ་ཁ་ཕྱེ།"
+
+#: handlerExistsTitle
+msgid "Helper Application Exists"
+msgstr "ལས་རོགས་པའི་འཇུག་སྤྱོད་ཡོདཔ་ཨིན།"
+
+#: removeHandlerTitle
+msgid "Remove File Type"
+msgstr "ཡིག་སྣོད་ཀྱི་དབྱེ་བ་རྩ་བསྐྲད་གཏང་།"
+
+#: removeHandler
+msgid "If you remove a registered type, the helper will no longer be able to automatically handle files of this type. %n%nAre you sure you want to remove this file type?"
+msgstr "ཁྱོད་ཀྱིས་ཐོ་བཀོད་འབད་འབད་བའི་དབྱེ་བ་རྩ་བསྐྲད་གཏངམ་ཨིན་པ་ཅིན་ ལས་རོགསཔ་དེ་གིས་རང་བཞིན་གྱིས་འ་ནི་དབྱེ་བ་བཟུམ་མའི་ཡིག་སྣོད་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས། %n%nཁྱོད་འ་ནི་ཡིག་སྣོད་ཀྱི་དབྱེ་བ་རྩ་བསྐྲད་གཏང་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: saveToDisk
+msgid "Save these files to disk"
+msgstr "འ་ནི་ཡིག་སྣོད་ཚུ་ཌིགསི་ནང་ལུ་སྲུང་བཞག་འབད།"
+
+#: emptyMIMEType
+msgid "You must specify a MIME type."
+msgstr "ཁྱོད་ཀྱིས་མ་ཡིམ་གྱི་དབྱེ་བ་གཅིག་གསལ་བཀོད་འབད་དགོ།"
+
+#: canHandleInternally
+msgid "%brand% can handle this type internally. For such types, a Helper Application will only be invoked if the server requests external handling."
+msgstr "%brand%གིས་འ་ནི་དབྱེ་བ་ནང་འཁོད་ལུ་རང་ལེགས་སྐྱོང་འཐབ་ཨིན། འ་ནི་དབྱེ་བ་བཟུམ་གྱི་དོན་ལུ་ ལས་རོགས་པའི་འཇུག་སྤྱོད་དེ་ སར་བར་གྱིས་ཕྱིའི་ལེགས་སྐྱོང་འཐབ་ཐངས་ཀྱི་ཞུ་བ་འབད་བ་ཅིན་རྐྱངམ་ཅིག་ལས་བཀོལ་འབདཝ་ཨིན།"
+
+#: programsFilter
+msgid "Programs"
+msgstr "ལས་རིམ་ཚུ།"
+
+#: chooseHandler
+msgid "Choose Helper Application"
+msgstr "ལས་རོགས་པའི་འཇུག་སྤྱོད་གདམ་ཁ་རྐྱབས།"
+
+#: canHandleInternallyContinue
+msgid "&Proceed anyway"
+msgstr "གང་རུང་སྦེ་འཕྲོ་མཐུད་འབད།(&P)"
+
+#: handlerExists
+msgid "A helper already exists for the MIME type '%mime%'.  Do you want to replace it?"
+msgstr "མ་ཡིམ་གྱི་དབྱེ་བ་'%mime%'གྱི་དོན་ལུ་ལས་རོགསཔ་གཅིག་ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན། ཁྱོད་ཀྱིས་འདི་གི་ཚབ་བཙུགས་ནི་ཨིན་ན?"
+
+#: handleInternally
+msgid "Display files of this type in the browser"
+msgstr "བརའུ་ཟར་ནང་ལུ་འ་ནི་དབྱེ་བ་བཟུམ་མའི་ཡིག་སྣོད་ཚུ་བཀྲམ་སྟོན་འབད།"
+
+#: canHandleInternallyTitle
+msgid "Warning"
+msgstr "ཉེན་བརྡ།"
+
+#: useHelperApp
+msgid "Open these files with %S"
+msgstr "%Sདང་ཅིག་ཁར་འ་ནི་ཡིག་སྣོད་ཚུ་ཁ་ཕྱེ།"
+

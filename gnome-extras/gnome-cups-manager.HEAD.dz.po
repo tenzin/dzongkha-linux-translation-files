@@ -1,0 +1,694 @@
+# Dzongkha translation of gnome-cups-manager
+# Copyright @ 2006 Free Software Foundation, Inc.
+# Kinley Tshering
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-cups-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-02 04:00+0000\n"
+"PO-Revision-Date: 2007-03-27 05:19+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gnome-cups-add/add-printer.c:154
+msgid "Couldn't add printer"
+msgstr "དཔར་འཕྲུལ་ཁ་སྐོང་རྐྱབ་མ་ཚུགས།"
+
+#: ../gnome-cups-add/add-printer.c:350
+msgid "Print version and exit"
+msgstr "དཔར་བསྐྲུན་འི་ཐོན་རིམ་དང་ཕྱིར་འཐོན་།"
+
+#: ../gnome-cups-add/add-printer.c:352
+msgid "CUPS Printer URI"
+msgstr "ཀཔཱས་ དཔར་འཕྲུལ་ ཡུ་ཨར་ཨའི།"
+
+#: ../gnome-cups-add/add-printer.c:374
+#: ../gnome-cups-add/gnome-cups-add.glade.h:1
+msgid "Add a Printer"
+msgstr "དཔར་འཕྲུལ་ཁ་སྐོང་རྐྱབ།"
+
+#: ../gnome-cups-add/gnome-cups-add.glade.h:2
+msgid "Step 1 of 2: Printer Connection"
+msgstr "རིམ་པ་གཉིས་པའི་དང་པ། དཔར་འཕྲུལ་  འཕྲུལ་ལམ།"
+
+#: ../gnome-cups-add/gnome-cups-add.glade.h:3
+msgid "Step 2 of 2: Printer Driver"
+msgstr "རིམ་པ་གཉིས་པའི་གཉིས་པ། དཔར་འཕྲུལ་ འདྲེན་བྱེད།"
+
+#: ../gnome-cups-add/gnome-cups-add.glade.h:4
+msgid "This assistant helps you set up a printer."
+msgstr "འ་ནི་ལས་རོགས་འདི་གིས་ ཁྱོད་ལུ་ དཔར་འཕྲུལ་གཞི་སྒྲིག་འབད་ནིའི་ གྲོགས་རམ་འབདཝ་ཨིན།"
+
+#: ../gnome-cups-manager/eggtrayicon.c:118
+msgid "Orientation"
+msgstr "ཕྱོགས།"
+
+#: ../gnome-cups-manager/eggtrayicon.c:119
+msgid "The orientation of the tray."
+msgstr "ཕྱོགས་ཀྱི་ ཤོག་སྣོད།"
+
+#: ../gnome-cups-manager.desktop.in.in.h:1
+msgid "Configure your printers"
+msgstr "ཁྱོད་རང་གི་དཔར་འཕྲུལ་ཚུ་རིམ་སྒྲིག་འབད།"
+
+#: ../gnome-cups-manager.desktop.in.in.h:2
+msgid "Printing"
+msgstr "དཔར་བསྐྲུན་འབད་དོ།"
+
+#: ../gnome-cups-manager/gnome-cups-icon.c:72
+msgid "Could not start the printer tray icon, because the CUPS server could not be contacted."
+msgstr "དཔར་འཕྲུལ་ ཤོག་སྣོད་འདི་་འགོ་བཙུགས་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཀཔཱས་ སར་བར་དེ་ མ་བཏུབ།"
+
+#: ../gnome-cups-manager/gnome-cups-icon.c:129
+msgid "Print Monitor"
+msgstr "དཔར་སྐྲུན་འབད་ནིའི་གསལ་འཕྲུལ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.c:61
+msgid "The CUPS server could not be contacted."
+msgstr "ཀཔཱས་ སར་བར་འདི་ འབྲེལ་བ་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.c:97
+#, c-format
+msgid "Printer not found: %s"
+msgstr "དཔར་འཕྲུལ་ %s འདི་མ་ཐོབ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.c:211
+msgid "Show printer properties for printers listed on the command line"
+msgstr "བཀོད་ལམ་གུར་ ཐོ་བཀོད་འབད་ཡོད་མི་ དཔར་འཕྲུལ་ཚུ་གྱི་དོན་ལུ་ དཔར་འཕྲུལ་རྒྱུ་དངོས་ དེ་ཚུ་ སྟོན།་"
+
+#: ../gnome-cups-manager/gnome-cups-manager.c:214
+msgid "View the queues of printers listed on the command line"
+msgstr "བཀོདལམ་གུར་ ཐོ་བཀོད་འབད་ཡོད་མི་ དཔར་འཕྲུལ་ཚུ་གྱི་ མི་གྲལ་དེ་ཚུ་སྟོན།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.c:217
+msgid "[PRINTER...]"
+msgstr "[དཔར་འཕྲུལ་་་]"
+
+#: ../gnome-cups-manager/gnome-cups-manager.c:239
+msgid "Printers View"
+msgstr "དཔར་འཕྲུལ་ མཐོང་སྣང།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:1
+msgid "    "
+msgstr " "
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:2
+msgid "<b>Layout</b>"
+msgstr "<b> བཀོད་སྒྲིག </b>"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:3
+msgid "<b>Media</b>"
+msgstr "<b> བརྡ་ལམ </b>"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:4
+msgid "Advanced"
+msgstr "མཐོ་རིམ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:5
+msgid "Become _Administrator"
+msgstr " བདག་སྐྱོང་པ་ལུ་འགཡུར་ནི། (_A)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:6
+msgid "Cancel Jobs"
+msgstr "ལས་གཡོག་དེ་ཚུ་ཆ་མེད་གཏང།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:7
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:8
+msgid "Make _Default"
+msgstr "སྔོན་སྒྲིག་བཟོ།(_D)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:9
+msgid "Paper"
+msgstr "ཤོག་ཀུ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:10
+msgid "Paper _type:"
+msgstr "ཤོག་ཀུའི་དབྱེ་བ།(_t)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:11
+msgid "Paper si_ze:"
+msgstr "ཤོག་ཀུའི་ཚད།(_z)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:12
+msgid "Pause Jobs"
+msgstr "ལས་གཡོག་ཐེམ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:13
+msgid "Pause Printer"
+msgstr "དཔར་འཕྲུལ་ཐེམ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:14
+msgid "Print _Test Page"
+msgstr "ཤོག་ལེབ་བརྟག་ཞིབ་ཤོག་ལེབ་ཀྱི་དཔར་སྐྲུན་འབད།(_T)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:15
+#: ../libgnomecups/gnome-cups-ui-connection.c:979
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:16
+msgid "Printer Properties"
+msgstr "དཔར་འཕྲུལ་གྱི་རྒྱུ་དངོས།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:17
+msgid "Printers"
+msgstr "དཔར་འཕྲུལ་ཚུ།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:18
+msgid "Ready or something"
+msgstr "གྲ་སྒྲིག་ཡང་ན་ག་ཅི་ཅིག།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:19
+msgid "Resume Jobs"
+msgstr "ལས་གཡོག་དེ་ཚུ་བསྐྱར་ལོག་འབད།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:20
+msgid "Set as Default"
+msgstr "སྔོན་སྒྲིག་བཟུམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:21
+msgid "Status:"
+msgstr "གནས་ཚད།:"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:22
+msgid "_Add Printer"
+msgstr "དཔར་འཕྲུལ་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:23
+msgid "_Binding:"
+msgstr "སྡམ་ཐག།(_B)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:24
+msgid "_Close"
+msgstr "ཁ་བསྡམས།"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:25
+msgid "_Description:"
+msgstr "འགྲེལ་བཤད།(_D)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:26
+msgid "_Double Sided:"
+msgstr "ཕྱོགས་གཉིས་ལྡན།(_D)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:27
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:28
+msgid "_Location:"
+msgstr "གནས་ཁོངས།(_L)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:29
+msgid "_Name:"
+msgstr "མིང།(_N)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:30
+msgid "_Orientation:"
+msgstr "ཕྱོགས།(_O)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:31
+msgid "_Pause"
+msgstr "ཐེམ།(_P)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:32
+msgid "_Print a Test Page"
+msgstr "བརྟག་ཞིབ་ཤོག་ལེབ་ཅིག་དཔར་སྐྲུན་འབད།(_P)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:33
+msgid "_Printer"
+msgstr "དཔར་འཕྲུལ།(_P)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:34
+msgid "_Properties"
+msgstr "རྒྱུ་དངོས།(_P)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:35
+msgid "_Remove Printer"
+msgstr "དཔར་འཕྲུལ་རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:36
+msgid "_Resolution:"
+msgstr "ཧུམ་ཆ།(_R)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:37
+msgid "_Resume"
+msgstr "བསྐྱར་ལོག(_R)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:38
+msgid "_Source:"
+msgstr "འབྱུང་ཁུངས།(_S)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:39
+msgid "_Status"
+msgstr "གནས་ཚད།(_S)"
+
+#: ../gnome-cups-manager/gnome-cups-manager.glade.h:40
+msgid "dummy"
+msgstr "དཔེ་གཟུགས།"
+
+#: ../gnome-cups-manager/Gnome_CupsManager.server.in.h:1
+msgid "Printer Icon"
+msgstr "དཔར་འཕྲུལ་ངོས་དཔར།"
+
+#: ../gnome-cups-manager/Gnome_CupsManager.server.in.h:2
+msgid "Printer View"
+msgstr "དཔར་འཕྲུལ་མཐོང་སྣང་།"
+
+#: ../gnome-cups-manager/gnome-printer-list.c:96
+msgid "New Printer"
+msgstr "དཔར་འཕྲུལ་གསརཔ།"
+
+#: ../gnome-cups-manager/gnome-printer-list.c:384
+msgid "Jobs"
+msgstr "ལས་གཡོག་ཚུ།"
+
+#: ../gnome-cups-manager/gnome-printer-list.c:395
+#: ../gnome-cups-manager/view-queue.c:523
+msgid "Pause"
+msgstr "ཐེམ།"
+
+#: ../gnome-cups-manager/gnome-printer-list.c:403
+#: ../gnome-cups-manager/view-queue.c:530
+msgid "Resume"
+msgstr "བསྐྱར་ལོག"
+
+#: ../gnome-cups-manager/gnome-printer-list.c:411
+msgid "Make Default"
+msgstr "སྔོན་སྒྲིག་བཟོ།"
+
+#: ../gnome-cups-manager/printer-properties.c:598
+msgid "Driver"
+msgstr "འདྲེན་བྱེད།"
+
+#: ../gnome-cups-manager/printer-properties.c:646
+msgid "Connection"
+msgstr "མཐུན་ལམ།"
+
+#: ../gnome-cups-manager/tray.c:46
+msgid "Could not launch printer view"
+msgstr "དཔར་འཕྲུལ་གྱི་མཐོང་སྣང་གསར་བཙུགས་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/tray.c:66
+msgid "Could not launch printer properties"
+msgstr "དཔར་འཕྲུལ་གྱི་རྒྱུ་དངོས་གསར་བཙུགས་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/tray.c:90
+#: ../gnome-cups-manager/tray.c:98
+#: ../gnome-cups-manager/view-queue.c:276
+#: ../gnome-cups-manager/view-queue.c:284
+msgid "Could not resume printer"
+msgstr "དཔར་འཕྲུལ་བསྐྱར་ལོག་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/tray.c:129
+#: ../gnome-cups-manager/view-queue.c:243
+msgid "_Resume Printer"
+msgstr "དཔར་འཕྲུལ་ཕསྐྱར་ལོག་འབད།"
+
+#: ../gnome-cups-manager/tray.c:131
+#: ../gnome-cups-manager/view-queue.c:245
+msgid "P_ause Printer"
+msgstr "དཔར་འཕྲུལ་ཐེམ།"
+
+#: ../gnome-cups-manager/tray.c:198
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../gnome-cups-manager/view-queue.c:57
+#, c-format
+msgid "%.1f K"
+msgstr "%.1f་ཀེ"
+
+#: ../gnome-cups-manager/view-queue.c:61
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f ཨེམ་བི།"
+
+#: ../gnome-cups-manager/view-queue.c:65
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f ཇི་བི།"
+
+#: ../gnome-cups-manager/view-queue.c:69
+#, c-format
+msgid "1 byte"
+msgid_plural "%lu bytes"
+msgstr[0] "བཱའིཊི་ ༡"
+msgstr[1] "%lu བཱའིཊི།"
+
+#: ../gnome-cups-manager/view-queue.c:80
+#, c-format
+msgid "%d of %d"
+msgstr "%d གྱི %d"
+
+#: ../gnome-cups-manager/view-queue.c:303
+#, c-format
+msgid "Could not set %s as the default"
+msgstr "%s སྔོན་སྒྲིག་སྦེ་་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/view-queue.c:400
+msgid "Could not pause job"
+msgstr "ལས་གཡོག་ཐེམ་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/view-queue.c:433
+msgid "Could not resume job"
+msgstr "ལས་གཡོག་ བསྐྱར་ལོག་འབད་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/view-queue.c:465
+msgid "Could not cancel job"
+msgstr "ལས་གཡོག་ཆ་མེད་གཏང་མ་ཚུགས།"
+
+#: ../gnome-cups-manager/view-queue.c:541
+msgid "Cancel"
+msgstr "ཆ་མེད།"
+
+#: ../gnome-cups-manager/view-queue.c:615
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../gnome-cups-manager/view-queue.c:624
+msgid "Job Number"
+msgstr "ལས་གཡོག་གི་གྲངས།"
+
+#: ../gnome-cups-manager/view-queue.c:632
+msgid "Owner"
+msgstr "བདག་པོ།"
+
+#: ../gnome-cups-manager/view-queue.c:641
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../gnome-cups-manager/view-queue.c:649
+msgid "State"
+msgstr "གནས་ལུགས།"
+
+#: ../icons/emblem-default.icon.in.h:1
+msgid "Default"
+msgstr "སྔོན་སྒྲིག"
+
+#: ../icons/emblem-paused.icon.in.h:1
+msgid "Paused"
+msgstr "ཐེམ།"
+
+#: ../libgnomecups/gnome-cups-permission.c:102
+#, c-format
+msgid ""
+"<b>Problems launching %s as root via %s</b>\n"
+"\t<small>%s</small>"
+msgstr ""
+"<b> %s་འདི་རྩ་བ་སྦེ་གསར་བཙུགས་འབད་ནི་ལུ་དཀའ་ངལ་ཚུ་  %s་བརྒྱུད་དེ་</b>\n"
+"\t<small>%s</small> "
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:775
+#, c-format
+msgid "Identity and Password for %s in workgroup %s"
+msgstr "ལས་སྡེ་ %s་ནང་གི་%s་དོན་ལུ་ ངོ་རྟགས་དང་ཆོག་ཡིག"
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:778
+#, c-format
+msgid "Identity and Password for %s"
+msgstr "%s གི་དོན་ལུ་ངོ་རྟགས་དང་ཆོག་ཡིག"
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:781
+#, c-format
+msgid "Identity and Password for workgroup %s"
+msgstr "ལས་སྡེ་ %s་གི་དོན་ལུ་ ངོ་རྟགས་དང་ཆོག་ཡིག"
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:785
+msgid "Identity and Password"
+msgstr "ངོ་རྟགས་དང་ཆོག་ཡིག"
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:789
+msgid "Authentication Required"
+msgstr "བདེན་བཤད་ དགོས་མཁོ་ཡོདཔ།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:1016
+msgid "<i>No printers detected</i>"
+msgstr "<i> དཔར་འཕྲུལ་ཚུ་སྐྱོན་འཛིན་མ་བྱུང་།</i>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.c:1091
+msgid ""
+"For example :\n"
+"\thttp://hostname:631/ipp/\n"
+"\thttp://hostname:631/ipp/port1\n"
+"\tipp://hostname/ipp/\n"
+"\tipp://hostname/ipp/port1"
+msgstr ""
+"དཔེར་བརྗོད་ཀྱི་དོནན་ལུ།:\n"
+"\thttp://hostname:631/ipp/\n"
+"\thttp://hostname:631/ipp/port1\n"
+"\tipp://hostname/ipp/\n"
+"\tipp://hostname/ipp/port1"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:1
+msgid "9100"
+msgstr "9100"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:2
+msgid "<b>P_assword:</b>"
+msgstr "<b>ཆོག་ཡིག(_a):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:3
+msgid "<b>Printer Type:</b>"
+msgstr "</b>དཔར་འཕྲུལ་གྱི་དབྱེ་བ།:</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:4
+msgid "<b>_Host:</b>"
+msgstr "</b>ཧོསཊི (_H):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:5
+msgid "<b>_Port:</b>"
+msgstr "</b>འདྲེན་ལམ (_P):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:6
+msgid "<b>_Printer:</b>"
+msgstr "</b>དཔར་འཕྲུལ།(_P) :</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:7
+msgid "<b>_Printers:</b>"
+msgstr "</b>དཔར་འཕྲུལ་ཚུ།(_P):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:8
+msgid "<b>_Queue:</b>"
+msgstr "</b>མི་གྲལ།(_Q):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:9
+msgid "<b>_URI:</b>"
+msgstr "</b>ཡུ་ཨར་ཨའི།(_U):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:10
+msgid "<b>_Username:</b>"
+msgstr "</b>ལག་ལེན་པའི་མིང་།(_U):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:11
+msgid "<b>_Workgroup:</b>"
+msgstr "</b>ལཱ་སྡེ།(_W):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:12
+msgid ""
+"CUPS Printer (IPP)\n"
+"Windows Printer (SMB)\n"
+"UNIX Printer (LPD)\n"
+"HP JetDirect"
+msgstr ""
+"ཀཔསི་དཔར་འཕྲུལ།(ཨའི་པི་པི་)\n"
+"ཝིན་ཌོས་་དཔར་འཕྲུལ།(ཨེས་ཨེམ་བཱི)\n"
+"ཡུ་ཨེན་ཨའི་ཨེགསི དཔར་འཕྲུལ(ཨེལ་པི་ཌི)\n"
+"ཨེཆ་པཱི་ ཇཱེཊ་ཌརེཀ།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:16
+msgid "Printer _Port:"
+msgstr "དཔར་འཕྲུལ་འདརེན་ལམ།(_P)"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:17
+msgid "Use _another printer by specifying a port:"
+msgstr "འདྲེན་ལམ་གསལ་བཀོད་འབད་འདི་ དཔརའཕྲུལ་གཞན་མི་ཅིག་ ལག་ལེན་འཐབ།(_a)"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:18
+msgid "_Local Printer"
+msgstr "ཉེ་གནས་དཔར་འཕྲུལ།(_L)"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:19
+msgid "_Network Printer"
+msgstr "ཡོངས་འབྲེལ་ དཔར་འཕྲུལ།(_N)"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:20
+msgid "_Scan"
+msgstr "ཞིབ་ལྟ་འབད།(_S)"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:21
+msgid "_Use a detected printer:"
+msgstr "སྐྱོན་འཛིན་བྱུང་ཡོད་པའི་ དཔར་འཕྲུལ་ ་ལག་ལེན་འཐབ།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:22
+msgid "hp"
+msgstr "ཨེཆ་པི།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:23
+msgid "ipp"
+msgstr "ཨའི་པི་པི།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:24
+msgid "local"
+msgstr "ཉེ་གནས།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:25
+msgid "lpd"
+msgstr "ཨེལ་པི་ཌི།"
+
+#: ../libgnomecups/gnome-cups-ui-connection.glade.h:26
+msgid "smb"
+msgstr "ཨེསི་ཨེམ་བི།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:292
+msgid "Generic"
+msgstr "རིགས་བརྒྱུད།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:312
+msgid "High Quality Image (GIMP-Print Inkjet)"
+msgstr "སྤུས་ཚད་མཐོ་བའི་གཟུགས་བརྙན།(ཇི་ཨའི་ཨེམ་པི་ པི་རིནཊ་ ཨིནཀ་ཇེཊ)"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:319
+#: ../libgnomecups/gnome-cups-ui-driver.c:347
+msgid "High Quality Image (GIMP-Print)"
+msgstr "སྤུས་ཚད་མཐོ་བའི་གཟུགས་བརྙན།(ཇི་ཨའི་ཨེམ་པི་ པི་རིནཊ)"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:332
+#: ../libgnomecups/gnome-cups-ui-driver.c:362
+msgid "Standard (CUPS)"
+msgstr "ཚད་ལྡན།(ཀཔསི)"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:344
+#, c-format
+msgid "High Quality Image (GIMP-Print) (%s)"
+msgstr "སྤུས་ཚད་མཐོ་བའི་གཟུགས་བརྙན།(ཇི་ཨའི་ཨེམ་པི་ པི་རིནཊ)(%s)"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:358
+msgid "Standard"
+msgstr "ཚད་ལྡན།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:476
+#: ../libgnomecups/gnome-cups-ui-driver.c:695
+msgid "(Suggested)"
+msgstr "(བསམ་འཆར་བཀོད་པ།)"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:806
+msgid "Select a PPD File"
+msgstr "པི་པི་ཌི་ ཡིག་སྣོ་ སེལ་འཐུ་འབད།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:817
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ ཆ་མཉམ།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:822
+msgid "PPD Files"
+msgstr "པི་པི་ཌི་ ཡིག་སྣོད་ཚུ།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:847
+msgid "Only files ending with .ppd or .ppd.gz will be installed"
+msgstr ".ppd or .ppd.gz བཅས་ འཇུག་བསྡུ་མི་ ཡིག་སྣོད་རྐྱངམ་གཅིག་ གཞི་བཙུགས་འབདཝ་འོང་།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:853
+#, c-format
+msgid "CUPS is installed differently than expected.  There is no directory '%s'"
+msgstr "ཀཔསི་འདི་ རེ་བ་བསྐྱེད་མི་ལས་ སོ་སོ་འབད་ གཞི་བཙུགས་འབད་ཡོད། '%s'གི་སྣོད་ཐོ་མེདཔ་ཨིན།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:883
+#, c-format
+msgid ""
+"The PPD\n"
+"\t<b>%s</b>\n"
+"is already installed"
+msgstr ""
+"པི་པི་ཌི།\n"
+"\t<b>%s</b>\n"
+"འདི་ཧེ་མ་ལས་གཞི་བཙུགས་འབད་ནུག"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:905
+#, c-format
+msgid ""
+"Unable to write to\n"
+"\t<b>%s</b>\n"
+"because %s"
+msgstr ""
+" ལུ་འབྲི་མ་ཚུགས།\n"
+"\t<b>%s</b>\n"
+"ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ %s ལུ་བརྟེན།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.c:1018
+msgid "Model"
+msgstr "དཔེ།"
+
+#: ../libgnomecups/gnome-cups-ui-driver.glade.h:1
+msgid "<b>Description:</b>"
+msgstr "<b>འགྲེལ་བཤད་ :</b>"
+
+#: ../libgnomecups/gnome-cups-ui-driver.glade.h:2
+msgid "<b>M_anufacturer:</b>"
+msgstr "<b>བཟོ་བསྐྲུན་པ:</b>"
+
+#: ../libgnomecups/gnome-cups-ui-driver.glade.h:3
+msgid "<b>_Driver:</b>"
+msgstr "</b>འདྲེན་བྱེད།(_D):</b>"
+
+#: ../libgnomecups/gnome-cups-ui-driver.glade.h:4
+msgid "<b>_Model:</b>"
+msgstr "<b>དཔེ།(_M)<b>"
+
+#: ../libgnomecups/gnome-cups-ui-driver.glade.h:5
+msgid "_Install Driver..."
+msgstr "འདྲེན་བྱེད་གཞི་བཙུགས་འབད།(_I)"
+
+#: ../libgnomecups/gnome-cups-ui-driver.glade.h:6
+msgid "make and model"
+msgstr "བཟོ་དང་དཔེ།"
+
+#: ../libgnomecups/gnome-cups-ui-init.c:47
+msgid "Password"
+msgstr "ཆོག་ཡོག"
+
+#: ../libgnomecups/gnome-cups-ui-init.c:55
+msgid "Enter a username and password to modify this printer:"
+msgstr "འ་ནི་དཔར་འཕྲུལ་འདི་ ལེགས་བཅོས་འབད་ནིའིདོན་ལུ་ ལག་ལེན་པའི་མིང་དང་ ཆོག་ཡིག་བཙུགས།"
+
+#: ../libgnomecups/gnome-cups-ui-init.c:63
+msgid "Username: "
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#: ../libgnomecups/gnome-cups-ui-init.c:75
+msgid "Password: "
+msgstr "ཆོག་ཡིག"
+
+#: ../libgnomecups/gnome-cups-ui-print.c:32
+#, c-format
+msgid ""
+"Printing to '%s' failed with error code: %d\n"
+"is the printer paused ?"
+msgstr ""
+"འཛོལ་བའི ཨང་རྟགས་དང་བཅས་ '%s'་ལུ་དཔར་བསྐྲུན་འབྱུང་ཡོད། %d\n"
+" འདི་དཔར་བསྐྲུན་ཐེམ་འབྱུང་ཡོདཔ་ཨིན་ན?"
+
+#: ../libgnomecups/gnome-cups-ui-util.c:27
+msgid "Unknown Error"
+msgstr "མ་ཤེསཔའི་འཛོལ་བ།"
+
+#: ../libgnomecups/gnome-cups-ui-util.c:88
+msgid "Test Page"
+msgstr "བརྟག་ཞིབ་ཤོག་ལེབ།"
+
+#: ../libgnomecups/gnome-cups-ui-util.c:97
+#, c-format
+msgid "%s test page has been sent to %s."
+msgstr "%s བརྟག་ཞིབ་ཤོག་ལེབ་འདི་ %s ལུ་བཏང་ཡོདཔ་ཨིན།"
+

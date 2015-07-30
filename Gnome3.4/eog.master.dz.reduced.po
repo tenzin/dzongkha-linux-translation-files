@@ -1,0 +1,2010 @@
+# Dzongkha translation of eog
+# Copyright @ 2006 Free Software Foundation, Inc.
+# Mindu Dorji.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eog.HEAD.dz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=eog&ke"
+"ywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-07 15:05+0000\n"
+"PO-Revision-Date: 2008-08-25 11:22+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Translaters: This string is for a toggle to display a toolbar.
+#. * The name of the toolbar is automatically computed from the widgets
+#. * on the toolbar, and is placed at the %s. Note the _ before the %s
+#. * which is used to add mnemonics. We know that this is likely to
+#. * produce duplicates, but don't worry about it. If your language
+#. * normally has a mnemonic at the start, please use the _. If not,
+#. * please remove.
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:988
+#, c-format
+msgid "Show “_%s”"
+msgstr "“_%s” སྟོན "
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1479
+msgid "_Move on Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་གུར་སྤོ།(_M)"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1480
+msgid "Move the selected item on the toolbar"
+msgstr "ལག་ཆས་ཀྱི་ཕྲ་རིང་གུར་སེལ་འཐུ་གྲུབ་ཡོད་པའི་རྣམ་གྲངས་ཚུ་སྤོ"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1481
+msgid "_Remove from Toolbar"
+msgstr "ལག་ཆས་ཀྱི་ཕྲ་རིང་ལས་རྩ་བསྐྲད་གཏང(_R)"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1482
+msgid "Remove the selected item from the toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་ལས་སེལ་འཐུ་གྲུབ་ཡོད་པའི་རྣམ་གྲངས་ཚུ་རྩ་བསྐྲད་གཏང་"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1483
+msgid "_Delete Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིངབཏོན་གཏང་(_D)"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1484
+msgid "Remove the selected toolbar"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ལག་ཆས་ཕྲ་རིང་རྩ་བསྐྲད་གཏང"
+
+#: ../cut-n-paste/toolbar-editor/egg-toolbar-editor.c:489
+msgid "Separator"
+msgstr "དབྱེ་བྱེད་པ"
+
+#: ../plugins/fullscreen/fullscreen.plugin.desktop.in.h:1
+msgid "Activate fullscreen mode with double-click"
+msgstr ""
+
+#: ../plugins/fullscreen/fullscreen.plugin.desktop.in.h:2
+msgid "Fullscreen with double-click"
+msgstr ""
+
+#: ../plugins/reload/eog-reload-plugin.c:53
+#: ../plugins/reload/reload.plugin.desktop.in.h:1
+#, fuzzy
+#| msgid "Load Image"
+msgid "Reload Image"
+msgstr "གཟུགས་བརྙན་མངོན་གསལ་འབད།"
+
+#: ../plugins/reload/eog-reload-plugin.c:55
+#: ../plugins/reload/reload.plugin.desktop.in.h:2
+msgid "Reload current image"
+msgstr ""
+
+#: ../plugins/statusbar-date/statusbar-date.plugin.desktop.in.h:1
+#, fuzzy
+#| msgid "Show/hide the window statusbar."
+msgid "Date in statusbar"
+msgstr "སྒོ་སྒྲིག་གི་ གནས་ཚད་ཕྲ་རིང་དེ་ སྟོན/སྦ།"
+
+#: ../plugins/statusbar-date/statusbar-date.plugin.desktop.in.h:2
+#, fuzzy
+#| msgid "Show/hide the window statusbar."
+msgid "Shows the image date in the window statusbar"
+msgstr "སྒོ་སྒྲིག་གི་ གནས་ཚད་ཕྲ་རིང་དེ་ སྟོན/སྦ།"
+
+#: ../data/eog.desktop.in.in.h:1
+msgid "Browse and rotate images"
+msgstr "གཟུགས་བརྙན་ཚུ་ བརྡ་འཚོལ་འབད་དེ་བསྒྱིར་"
+
+#: ../data/eog.desktop.in.in.h:2 ../src/eog-window.c:2642 ../src/main.c:157
+msgid "Image Viewer"
+msgstr "གཟུགས་བརྙན་མཐོང་བྱེད།"
+
+#: ../data/eog-image-properties-dialog.ui.h:1
+#, fuzzy
+#| msgid "<b>Aperture Value:</b>"
+msgid "Aperture Value:"
+msgstr "<b>པར་ཆས་དོང་ཆུང་གི་བེ་ལུ་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:2
+#, fuzzy
+#| msgid "<b>Author:</b>"
+msgid "Author:"
+msgstr "<b>རྩོམ་པ་པོ:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:3
+#, fuzzy
+#| msgid "<b>Bytes:</b>"
+msgid "Bytes:"
+msgstr "<b>བའིཊིསི་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:4
+#, fuzzy
+#| msgid "<b>Camera Model:</b>"
+msgid "Camera Model:"
+msgstr "<b>པར་ཆས་ཀྱི་དཔེ་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:5
+#, fuzzy
+#| msgid "<b>Copyright:</b>"
+msgid "Copyright:"
+msgstr "<b>འདྲ་བཤུས་དབང་ཆ:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:6
+#, fuzzy
+#| msgid "<b>Date/Time:</b>"
+msgid "Date/Time:"
+msgstr "<b>ཚེས་གྲངས་/ཆུ་ཚོད་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:7
+#, fuzzy
+#| msgid "<b>Description:</b>"
+msgid "Description:"
+msgstr "<b>འགྲེལ་བཤད:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:8
+#, fuzzy
+#| msgid "<b>Details</b>"
+msgid "Details"
+msgstr "<b>རྒྱས་བཤད་</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:9
+#, fuzzy
+#| msgid "<b>Exposure Time:</b>"
+msgid "Exposure Time:"
+msgstr "<b>མདངས་ཕོག་ཆུ་ཚོད་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:10
+#, fuzzy
+#| msgid "<b>Flash:</b>"
+msgid "Flash:"
+msgstr "<b>རིབ་སྟོན་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:11
+#, fuzzy
+#| msgid "<b>Focal Length:</b>"
+msgid "Focal Length:"
+msgstr "<b>ཕོ་ཀཱལ་རིང་ཚད་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:12
+#, fuzzy
+#| msgid "Open Folder"
+msgid "Folder:"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ།"
+
+#: ../data/eog-image-properties-dialog.ui.h:13
+msgid "General"
+msgstr "སྤྱིར་བཏང་"
+
+#: ../data/eog-image-properties-dialog.ui.h:14
+#, fuzzy
+#| msgid "_Height:"
+msgid "Height:"
+msgstr "མཐོ་ཚད:(_H)"
+
+#: ../data/eog-image-properties-dialog.ui.h:15
+#, fuzzy
+#| msgid "<b>ISO Speed Rating:</b>"
+msgid "ISO Speed Rating:"
+msgstr "<b>ཨའི་ཨེསི་ཨོ་ མགྱོགས་ཚད་གོང་ཚད་</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:16
+msgid "Image Properties"
+msgstr "གཟུགས་བརྙན་གྱི་རྒྱུ་དངོས་ཚུ་"
+
+#: ../data/eog-image-properties-dialog.ui.h:17
+#, fuzzy
+#| msgid "<b>Keywords:</b>"
+msgid "Keywords:"
+msgstr "<b>གཙོ་ཚིག་ཚུ:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:18
+#, fuzzy
+#| msgid "<b>Location:</b>"
+msgid "Location:"
+msgstr "<b>གནད་ཁོངས་:</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:19
+msgid "Metadata"
+msgstr "མེ་ཊ་གནད་སྡུད་"
+
+#: ../data/eog-image-properties-dialog.ui.h:20
+#, fuzzy
+#| msgid "<b>Metering Mode:</b>"
+msgid "Metering Mode:"
+msgstr "<b>མི་ཊ་རིང་ཐབས་ལམ་</b>"
+
+#: ../data/eog-image-properties-dialog.ui.h:21
+msgid "Name:"
+msgstr ""
+
+#: ../data/eog-image-properties-dialog.ui.h:22
+#, fuzzy
+#| msgid "_Top:"
+msgid "Type:"
+msgstr "སྤྱི་ཏོག:(_T)"
+
+#: ../data/eog-image-properties-dialog.ui.h:23
+#, fuzzy
+#| msgid "_Width:"
+msgid "Width:"
+msgstr "རྒྱ་ཚད:(_W)"
+
+#: ../data/eog-image-properties-dialog.ui.h:24
+msgid "_Next"
+msgstr "ཤུལ་མམ་(_N)"
+
+#: ../data/eog-image-properties-dialog.ui.h:25
+msgid "_Previous"
+msgstr "ཧེ་མམ་(_P)"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:2
+#, fuzzy, no-c-format
+#| msgid "<small><i><b>%f:</b> original filename</i></small>"
+msgid "<b>%f:</b> original filename"
+msgstr "<small><i><b>%f:</b> ཡིག་སྣོད་མིང་ངོ་མ</i></small>"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:4
+#, fuzzy, no-c-format
+#| msgid "<small><i><b>%n:</b> counter</i></small>"
+msgid "<b>%n:</b> counter"
+msgstr "<small><i><b>%n:</b> གདོང་ལེན</i></small>"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:5
+msgid "Choose a folder"
+msgstr "སྣོད་འཛིན་ཅིག་གདམ་ཁ་བརྐྱབས"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:6
+msgid "Destination folder:"
+msgstr "འགྲོ་་ཡུལ་སྣོད་འཛིན:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:7
+#, fuzzy
+#| msgid "<b>File Name Preview</b>"
+msgid "File Name Preview"
+msgstr "<b>ཡིག་སྣོད་མིང་གི་སྔོན་ལྟ་</b>"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:8
+#, fuzzy
+#| msgid "<b>File Path Specifications</b>"
+msgid "File Path Specifications"
+msgstr "<b>ཡིག་སྣོད་འགྲུལ་ལམ་གྱི་གསལ་བཀོད།</b>"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:9
+msgid "Filename format:"
+msgstr "ཡིག་སྣོད་མིང་་གི་རྩ་སྒྲིག:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:10
+#, fuzzy
+#| msgid "<b>Options</b>"
+msgid "Options"
+msgstr "<b>གདམ་ཁ།</b>"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:11
+msgid "Rename from:"
+msgstr " ལས་བསྐྱར་མིང་བཏགས:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:12
+msgid "Replace spaces with underscores"
+msgstr "བར་་སྟོང་ཚུ་གི་ཚབ་ལུ་ གཤམ་ཐིག་བཙུགས"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:13
+msgid "Save As"
+msgstr "དེ་སྦེ་སྲུངས།"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:14
+msgid "Start counter at:"
+msgstr "ལུ་: གདོང་ལན་འགོ་བཙུགས:"
+
+#: ../data/eog-multiple-save-as-dialog.ui.h:15
+msgid "To:"
+msgstr "ལུ:"
+
+#: ../data/eog-preferences-dialog.ui.h:1
+msgid "As _background"
+msgstr "རྒྱབ་གཞི་བཟུམ་སྦེ།(_b)"
+
+#: ../data/eog-preferences-dialog.ui.h:2
+msgid "As check _pattern"
+msgstr "ཐིག་ཁྲ་ཅན་གྱི་ དཔེ་གཞི་བཟུམ་སྦེ།(_p)"
+
+#: ../data/eog-preferences-dialog.ui.h:3
+msgid "As custom c_olor:"
+msgstr "\"སྲོལ་སྒྲིག་གི་ ཚོས་གཞི་བཟུམ་སྦེ།(_o)\""
+
+#: ../data/eog-preferences-dialog.ui.h:4
+#, fuzzy
+#| msgid "As custom c_olor:"
+msgid "As custom color:"
+msgstr "\"སྲོལ་སྒྲིག་གི་ ཚོས་གཞི་བཟུམ་སྦེ།(_o)\""
+
+#: ../data/eog-preferences-dialog.ui.h:5
+#, fuzzy
+#| msgid "As _background"
+msgid "Background"
+msgstr "རྒྱབ་གཞི་བཟུམ་སྦེ།(_b)"
+
+#: ../data/eog-preferences-dialog.ui.h:6
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:6
+#, fuzzy
+#| msgid "As _background"
+msgid "Background Color"
+msgstr "རྒྱབ་གཞི་བཟུམ་སྦེ།(_b)"
+
+#: ../data/eog-preferences-dialog.ui.h:7
+msgid "Color for Transparent Areas"
+msgstr "དྭངས་གསལ་ཅན་གྱི་ མངའ་ཁོངས་ཀྱི་དོན་ལུ་ཚོས་གཞི།"
+
+#: ../data/eog-preferences-dialog.ui.h:8
+msgid "E_xpand images to fit screen"
+msgstr "གསལ་གཞི་ཚུད་སྒྲིག་འབད་ནིའི་དོན་ལུ་ གཟུགས་བརྙན་རྒྱ་བསྐྱེད་འབད་(_x)"
+
+#: ../data/eog-preferences-dialog.ui.h:9
+#, fuzzy
+#| msgid "<b>Image Enhancements</b>"
+msgid "Image Enhancements"
+msgstr "<b>གཟུགས་བརྙན་ གོང་སྤེལ།</b>"
+
+#: ../data/eog-preferences-dialog.ui.h:10
+msgid "Image View"
+msgstr "གཟུགས་བརྙན་མཐོང་སྣང་།(_V)"
+
+#: ../data/eog-preferences-dialog.ui.h:11
+#, fuzzy
+#| msgid "<b>Image Zoom</b>"
+msgid "Image Zoom"
+msgstr "<b>གཟུགས་བརྙན་ རྒྱས་ཟུམ།</b>"
+
+#: ../data/eog-preferences-dialog.ui.h:12
+msgid "Plugins"
+msgstr "པ་ལག་ཨིནསི"
+
+#. I18N: This sentence will be displayed after a GtkSpinButton to select a number of seconds in eog's preferences dialog. The context is applied to avoid ambiguity with possible similar translations. See bug 654548 for details.
+#: ../data/eog-preferences-dialog.ui.h:14
+#, fuzzy
+#| msgid "seconds"
+msgctxt "PrefDlgSlideSwitchPostfix"
+msgid "seconds"
+msgstr "སྐར་ཆ།"
+
+#. I18N: This sentence will be displayed before a GtkSpinButton to select a number of seconds in eog's preferences dialog. The context is applied to avoid ambiguity with possible similar translations. See bug 654548 for details.
+#: ../data/eog-preferences-dialog.ui.h:16
+#, fuzzy
+#| msgid "_Switch image after:"
+msgctxt "PrefDlgSlideSwitchPrefix"
+msgid "_Switch image after:"
+msgstr "ཤུལ་ལས་གཟུགས་བརྙན་སོར་:"
+
+#: ../data/eog-preferences-dialog.ui.h:17
+#, fuzzy
+#| msgid "Prefere_nces"
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_n)"
+
+#: ../data/eog-preferences-dialog.ui.h:18
+#, fuzzy
+#| msgid "<b>Sequence</b>"
+msgid "Sequence"
+msgstr "<b>འབྱུང་རིམ།</b>"
+
+#: ../data/eog-preferences-dialog.ui.h:19
+msgid "Slideshow"
+msgstr "བཤུད་བརྙན་"
+
+#: ../data/eog-preferences-dialog.ui.h:20
+#, fuzzy
+#| msgid "Smooth images when _zoomed"
+msgid "Smooth images when zoomed-_in"
+msgstr "རྒྱས་ཟུམ་འབད་བའི་སྐབས་ལུ་ གཟུགས་བརྙན་ཚུ་ཧུམ་ཁྱུག་ཁྱུ་བཟོ་ (_z)"
+
+#: ../data/eog-preferences-dialog.ui.h:21
+#, fuzzy
+#| msgid "Smooth images when _zoomed"
+msgid "Smooth images when zoomed-_out"
+msgstr "རྒྱས་ཟུམ་འབད་བའི་སྐབས་ལུ་ གཟུགས་བརྙན་ཚུ་ཧུམ་ཁྱུག་ཁྱུ་བཟོ་ (_z)"
+
+#: ../data/eog-preferences-dialog.ui.h:22
+#, fuzzy
+#| msgid "<b>Transparent Parts</b>"
+msgid "Transparent Parts"
+msgstr "<b>དྭངས་གསལ་ཅན་གྱི་ཡན་ལག</b>"
+
+#: ../data/eog-preferences-dialog.ui.h:23
+msgid "_Automatic orientation"
+msgstr "རང་བཞིན་གྱིས་ཕྱོགས་(_A)"
+
+#: ../data/eog-preferences-dialog.ui.h:24
+msgid "_Loop sequence"
+msgstr "འབྱུང་རིམ་འཕྲལ་བཀོལ་འབད།(_L)"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:1
+msgid ""
+"A value greater than 0 determines the seconds an image stays on screen until "
+"the next one is shown automatically. Zero disables the automatic browsing."
+msgstr ""
+"༠ ལས་སྦོམ་པའི་ བེ་ལུ་གིས་ སྐར་ཆ་ངོས་འཛིན་འབད་དེ་ གཟུགས་བརྙན་ཤུལ་མམ་ཅིག་ རང་བཞིན་གྱིས་མ་ཐོན་ཚུན་"
+"ཚོད་ གསལ་གཞི་གུ་ གཟུགས་བརྙན་ཅིག་སྡོདཔ་ཨིན། ཀླད་ཀོར་གྱིས་ རང་བཞིན་བརྡ་འཚོལ་ ལྕོགས་མིན་བཟོཝ་ཨིན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:2
+msgid "Active plugins"
+msgstr "ཤུགས་ལྡན་པ་ལག་ཨིནསི"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:4
+#, no-c-format
+msgid "Allow zoom greater than 100% initially"
+msgstr "འགོ་ཐོག་བསྒང་ རྒྱས་ཟུམ་བརྒྱ་ཆ་ ༡༠༠% ལས་ལྷག་བཅུག"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:5
+msgid "Automatic orientation"
+msgstr "རང་བཞིན་གྱིས་ཕྱོགས་"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:8
+msgid "Delay in seconds until showing the next image"
+msgstr "གཟུགས་བརྙན་ཤུལ་མམ་དེ་ མ་སྟོན་ཚུན་ཚོད་ སྐར་ཆའི་ནང་ ཕྱིར་འགྱངས་འབདཝ་ཨིན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:9
+#, fuzzy
+#| msgid ""
+#| "Determines how transparency should be indicated. Valid values are "
+#| "CHECK_PATTERN, COLOR and NONE. If COLOR is choosen, then the trans_color "
+#| "key determines the used color value."
+msgid ""
+"Determines how transparency should be indicated. Valid values are "
+"CHECK_PATTERN, COLOR and NONE. If COLOR is chosen, then the trans-color key "
+"determines the color value used."
+msgstr ""
+"དྭངས་གསལ་བརྡ་སྟོན་ ག་དེ་སྦེ་ སྟོན་དགོཔ་ཨིན་ན་ ཐག་བཅདཔ་ཨིན། ནུས་ལྡན་བེ་ལུསི་ཚུ་ CHECK_PATTERN, "
+"COLOR དང་ NONE ཨིན། གལ་སྲིད་ COLOR གདམ་ཁ་བརྐྱབས་ཡོད་པ་ཅིན་ ཊཱནསི་ ཚོས་གཞིའི་ལྡེ་མིག་གིས་ ལག་"
+"ལེན་འཐབ་མི་ ཚོས་གཞིའི་བེ་ལུ་ ཐག་བཅད་འབདཝ་ཨིན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:10
+#, fuzzy
+#| msgid "Error on deleting image %s"
+msgid "External program to use for editing images"
+msgstr "གཟུགས་བརྙན་ %s བཏོན་གཏང་ནི་ལུ་འཛོལ་བ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:11
+#, fuzzy
+#| msgid "Interpolate Image"
+msgid "Extrapolate Image"
+msgstr "གཟུགས་བརྙན་བསྐྱར་བསྣོན་འབད།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:15
+msgid ""
+"If the transparency key has the value COLOR, then this key determines the "
+"color which is used for indicating transparency."
+msgstr ""
+"དྭངས་གསལ་ལྡེ་མིག་དེ་ལུ་ བེ་ལུའི་ COLOR ཡོད་པ་ཅིན་ ལྡེ་མིག་འདི་གིས་ དྭངས་གསལ་གྱི་ བརྡ་སྟོན་ནི་ལུ་ ལག་"
+"ལེན་འཐབ་མི་ ཚོས་གཞི་ཐག་་བཅད་འབདཝ་ཨིན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:17
+msgid ""
+"If this is set to FALSE small images will not be stretched to fit into the "
+"screen initially."
+msgstr ""
+"གལ་སྲིད་འདི་ FALSE ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ འགོ་ཐོག་བསྒང་ གཟུགས་བརྙན་ཆུང་ཀུ་ཚུ་ གསལ་གཞི་ནང་ཚུདཔ་"
+"སྦེ་ བསྣར་མི་འགྱོ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:18
+#, fuzzy
+#| msgid ""
+#| "Image collection pane position. Set to 0 for bottom; 1 for left; 2 for "
+#| "top; 3 for right."
+msgid ""
+"Image gallery pane position. Set to 0 for bottom; 1 for left; 2 for top; 3 "
+"for right."
+msgstr ""
+"གཟུགས་བརྙན་བསྡུ་གསོག་ པེན་ གནསས། གཤམ་ལུ་ ༠ དང་གཡོན་ལུ་ ༡ དེ་ལས་ མགུ་ལུ་ ༢ དང་གཡས་ལུ་ ༣ སྦེ་"
+"གཞི་སྒྲིག་འབད།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:19
+msgid "Interpolate Image"
+msgstr "གཟུགས་བརྙན་བསྐྱར་བསྣོན་འབད།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:20
+msgid ""
+"List of active plugins. It doesn't contain the \"Location\" of the active "
+"plugins. See the .eog-plugin file for obtaining the \"Location\" of a given "
+"plugin."
+msgstr ""
+"ཤུགས་ལྡན་པ་ལག་ཨིནསི་གྱི་ཐོ། འདི་གིས་ཤུགས་ལྡན་པ་ལག་ཨིན་ནང་ན་མེད།\"Location\" བྱིན་ཡོད་པའི་པ་ལག་"
+"ཨིན་གྱི་\"Location\" འཐོབ་ནི་གི་དོན་ལས་ཨི་ཨོ་ཇི་པ་ལག་ཨིན་ཡིག་སྣོད་བལྟ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:21
+msgid "Loop through the image sequence"
+msgstr "གཟུགས་བརྙན་གྱི་ འབྱུང་རིམ་ཐོག་ལས་ འཕྲལ་བཀོལ་འབད།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:22
+msgid "Scroll wheel zoom"
+msgstr "འཁོར་ལོ་རྒྱས་ཟུམ་ བཤུད་བསྒྲིལ་འབད་"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:23
+#, fuzzy
+#| msgid "Show/hide the image collection pane scroll buttons."
+msgid "Show/Hide the image gallery pane scroll buttons."
+msgstr "གཟུགས་བརྙན་བསྡུ་ལེན་ པེན་ བཤུད་སྒྲིལ་ཨེབ་རྟ་ཚུ་ སྟོན/སྦ་བཞག"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:24
+#, fuzzy
+#| msgid "Show/hide the image collection pane."
+msgid "Show/Hide the image gallery pane."
+msgstr "གཟུགས་བརྙན་བསྡུ་ལེན་གྱི་པེན་ སྟོན/སྦ་བཞག"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:25
+#, fuzzy
+#| msgid "Show/hide the window side pane."
+msgid "Show/Hide the window side pane."
+msgstr "སྒོ་སྒྲིག་གི་ཟུར་ཁའི་པེན་  སྟོན/སྦ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:26
+#, fuzzy
+#| msgid "Show/hide the window statusbar."
+msgid "Show/Hide the window statusbar."
+msgstr "སྒོ་སྒྲིག་གི་ གནས་ཚད་ཕྲ་རིང་དེ་ སྟོན/སྦ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:27
+#, fuzzy
+#| msgid "Show/hide the window toolbar."
+msgid "Show/Hide the window toolbar."
+msgstr "སྒོ་སྒྲིག་གི་ ལག་ཆས་ཕྲ་རིང་དེ་ སྟོན/སྦ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:31
+#, no-c-format
+msgid ""
+"The multiplier to be applied when using the mouse scroll wheel for zooming. "
+"This value defines the zooming step used for each scroll event. For example, "
+"0.05 results in a 5% zoom increment for each scroll event and 1.00 result in "
+"a 100% zoom increment."
+msgstr ""
+"རྒྱས་ཟུམ་གྱི་དོན་ལུ་ མཱའུསི་བཤུད་སྒྲིལ་འཁོར་ལོ་ ལག་ལེན་འཐབ་པའི་སྐབས་ འཇུག་སྤྱོད་འབད་ཡོད་མིའི་དགུ་མཐའ་རྐྱབ་"
+"མི། བེ་ལུ་དེ་གིས་ བཤུད་སྒྲིལ་བྱུང་ལས་རེ་རེའ་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་རྒྱས་ཟུམ་རིམ་པ་འདི་  ངེས་འཛིན་"
+"འབདཝ་ཨིན། དཔེར་ན་ ༥%རྒྱས་ཟུམ་ཡར་འཕར་ཅིག་ནང་ བཤུད་སྒྲིལ་བྱུང་ལས་ རེ་རེ་ལུ་ གྲུབ་འབྲས་ ༠་༠༥ དང་ "
+"༡༠༠% རྒྱས་ཟུམ་ཡར་འཕར་ཅིག་ནང་ ༡་༠༠ དེ་ཅིག་ཨིན། "
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:32
+msgid "Transparency color"
+msgstr "དྭངས་གསལ་གྱི་ཚོས་གཞི།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:33
+msgid "Transparency indicator"
+msgstr "དྭངས་གསལ་གྱི་ བརྡ་སྟོན་པ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:35
+#, fuzzy
+#| msgid "As custom c_olor:"
+msgid "Use a custom background color"
+msgstr "\"སྲོལ་སྒྲིག་གི་ ཚོས་གཞི་བཟུམ་སྦེ།(_o)\""
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:37
+#, fuzzy
+#| msgid "Whether the image collection pane should be resizable or not."
+msgid "Whether the image gallery pane should be resizable."
+msgstr "གཟུགས་བརྙན་བསྡུ་གསོག་ པེན་འདི་ ཚད་བསྐྱར་བཟོ་འབད་བཏུབ་ཨིན་ན་མེན་ན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:38
+#, fuzzy
+#| msgid ""
+#| "Whether the image should be interpolated on zoom or not. This leads to "
+#| "better quality but is somewhat slower than non interpolated images."
+msgid ""
+"Whether the image should be extrapolated on zoom-in. This leads to blurry "
+"quality and is somewhat slower than non-extrapolated images."
+msgstr ""
+"གཟུགས་བརྙན་དེ་ རྒྱས་ཟུམ་གུ་ བསྐྱར་བསྣོན་འབད་ནི་ཨིན་ན་མེན། འདི་གིས་སྤུས་ཚད་ལེགས་ཤོམ་བཟོཝ་ཨིན་རུང་ "
+"བསྐྱར་བསྣོན་མ་འབད་བའི་ གཟུགས་བརྙན་ཚུ་དང་ཕྱདཔ་ད་ ལྷོད་ཆ་ཆེཝ་ཨིནཝ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:39
+#, fuzzy
+#| msgid ""
+#| "Whether the image should be interpolated on zoom or not. This leads to "
+#| "better quality but is somewhat slower than non interpolated images."
+msgid ""
+"Whether the image should be interpolated on zoom-out. This leads to better "
+"quality but is somewhat slower than non-interpolated images."
+msgstr ""
+"གཟུགས་བརྙན་དེ་ རྒྱས་ཟུམ་གུ་ བསྐྱར་བསྣོན་འབད་ནི་ཨིན་ན་མེན། འདི་གིས་སྤུས་ཚད་ལེགས་ཤོམ་བཟོཝ་ཨིན་རུང་ "
+"བསྐྱར་བསྣོན་མ་འབད་བའི་ གཟུགས་བརྙན་ཚུ་དང་ཕྱདཔ་ད་ ལྷོད་ཆ་ཆེཝ་ཨིནཝ།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:40
+msgid ""
+"Whether the image should be rotated automatically based on EXIF orientation."
+msgstr ""
+"ཨི་ཨེགསི་ཨཨའི་ཨེཕ་ཕྱོགས་ལུ་གཞི་བཞག་གི་ཐོག་ལས་ གཟུགས་བརྙན་དེ་རང་བཞིན་གྱིས་བསྒྱིར་དགོཔ་ཨིན་ན་མེན་ན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:42
+#, fuzzy
+#| msgid "Whether the scroll wheel should be used for zooming or not."
+msgid "Whether the scroll wheel should be used for zooming."
+msgstr "བཤུད་སྒྲིལ་འཁོར་ལོ་འདི་ རྒྱས་ཟུམ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་དགོཔ་ཨིན་ན་མེན་ན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:43
+#, fuzzy
+#| msgid ""
+#| "Whether or not the sequence of images should be shown in an endless loop."
+msgid "Whether the sequence of images should be shown in an endless loop."
+msgstr "གཟུགས་བརྙན་གྱི་འབྱུང་རིམ་ཚུ་ རྫོགས་ནི་མེད་པའི་ འཕྲལ་བཀོལ་ཅིག་ནང་ སྟོན་དགོཔ་ཨིན་ན།"
+
+#: ../data/org.gnome.eog.gschema.xml.in.in.h:44
+msgid "Zoom multiplier"
+msgstr "རྒྱས་ཟུམ་དགུ་མཐའ་རྐྱབ་མི་"
+
+#: ../src/eog-close-confirmation-dialog.c:171
+msgid "Close _without Saving"
+msgstr ""
+
+#: ../src/eog-close-confirmation-dialog.c:217
+#, fuzzy
+#| msgid "Position"
+msgid "Question"
+msgstr "གནས་ས་"
+
+#: ../src/eog-close-confirmation-dialog.c:398
+msgid "If you don't save, your changes will be lost."
+msgstr ""
+
+#: ../src/eog-close-confirmation-dialog.c:435
+#, c-format
+msgid "Save changes to image \"%s\" before closing?"
+msgstr ""
+
+#: ../src/eog-close-confirmation-dialog.c:643
+#, c-format
+msgid "There is %d image with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d images with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/eog-close-confirmation-dialog.c:660
+msgid "S_elect the images you want to save:"
+msgstr ""
+
+#. Secondary label
+#: ../src/eog-close-confirmation-dialog.c:678
+msgid "If you don't save, all your changes will be lost."
+msgstr ""
+
+#: ../src/eog-file-chooser.c:126
+msgid "File format is unknown or unsupported"
+msgstr "ཡིག་སྣོད་ཀྱི་ རྩ་སྒྲིག་ མ་ཤེས་པས་ ཡང་ན་ རྒྱབ་སྐྱོར་མི་འབད་བས་ "
+
+#: ../src/eog-file-chooser.c:131
+#, fuzzy
+#| msgid ""
+#| "Eye of GNOME could not determine a supported writable file format based "
+#| "on the filename."
+msgid ""
+"Image Viewer could not determine a supported writable file format based on "
+"the filename."
+msgstr ""
+"ཇི་ནོམ་གྱི་ཨཱི་དེ་གིས་ ཡིག་སྣོད་ཀྱི་མིང་ལུ་གཞི་བཞག་ཐོག་ལས་ རྒྱབ་སྐྱོར་ཡོད་པའི་ འབྲི་བཏུབ་པའི་ཡིག་སྣོད་ཀྱི་ རྩ་"
+"སྒྲིག་ཅིག་ གཏན་འབེབས་བཟོ་མ་ཚུགས། "
+
+#: ../src/eog-file-chooser.c:132
+msgid "Please try a different file extension like .png or .jpg."
+msgstr "པི་ཨེན་ཇི་ ཡང་ན་ ཇེ་པི་ཇི་ བཟུམ་མའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད་སོ་སོ་ཅིག་ འབད་རྩོལ་བསྐྱེད།"
+
+#. Filter name: First description then file extension, eg. "The PNG-Format (*.png)".
+#: ../src/eog-file-chooser.c:167
+#, c-format
+msgid "%s (*.%s)"
+msgstr "%s (*.%s)"
+
+#: ../src/eog-file-chooser.c:219
+#, fuzzy
+#| msgid "All Files"
+msgid "All files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ།"
+
+#: ../src/eog-file-chooser.c:224
+msgid "Supported image files"
+msgstr ""
+
+#. Pixel size of image: width x height in pixel
+#: ../src/eog-file-chooser.c:296 ../src/eog-properties-dialog.c:138
+#: ../src/eog-properties-dialog.c:140 ../src/eog-thumb-view.c:443
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "པིག་སེལ་"
+msgstr[1] "པིག་སེལསི"
+
+#: ../src/eog-file-chooser.c:447
+#, fuzzy
+#| msgid "Save Image"
+msgid "Open Image"
+msgstr "གཟུགས་བརྙན་སྲུངས།"
+
+#: ../src/eog-file-chooser.c:455
+msgid "Save Image"
+msgstr "གཟུགས་བརྙན་སྲུངས།"
+
+#: ../src/eog-file-chooser.c:463
+msgid "Open Folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ།"
+
+#: ../src/eog-image.c:606
+#, c-format
+msgid "Transformation on unloaded image."
+msgstr "གཟུགས་བརྙན་རྐྱང་པོའི་དོན་ལས་ གཟུགས་བརྙན་གྱི་བརྡ་དོན་ སྟོན/སྦ།"
+
+#: ../src/eog-image.c:634
+#, c-format
+msgid "Transformation failed."
+msgstr "བཟོ་བསྒྱུར་འབད་ནི་ འཐུས་ཤོར་འབྱུང་ཡོདཔ། "
+
+#: ../src/eog-image.c:1095
+#, c-format
+msgid "EXIF not supported for this file format."
+msgstr "ཡིག་སྣོད་རྩ་སྒྲིག་འདི་གི་དོན་ལུ་ ཨི་ཨེགསི་ཨའི་ཨེཕ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག།"
+
+#: ../src/eog-image.c:1244
+#, c-format
+msgid "Image loading failed."
+msgstr "གཟུགས་བརྙན་ མངོན་གསལ་འབད་ནི་ འཐུས་ཤོར་བྱུང་ཡོདཔ་ "
+
+#: ../src/eog-image.c:1717 ../src/eog-image.c:1827
+#, c-format
+msgid "No image loaded."
+msgstr "གཟུགས་བརྙན་ཅིག་ཡང་ མངོན་གསལ་མ་འབད་བས།"
+
+#: ../src/eog-image.c:1725 ../src/eog-image.c:1836
+#, c-format
+msgid "You do not have the permissions necessary to save the file."
+msgstr ""
+
+#: ../src/eog-image.c:1735 ../src/eog-image.c:1847
+#, c-format
+msgid "Temporary file creation failed."
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/eog-image-jpeg.c:373
+#, c-format
+msgid "Couldn't create temporary file for saving: %s"
+msgstr " %s ཁ་ཕྱེ་ནིའི་དོན་ལུ་ གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/eog-image-jpeg.c:392
+#, c-format
+msgid "Couldn't allocate memory for loading JPEG file"
+msgstr "ཇེ་པི་ཨི་ཇི་ཡིག་སྣོད་ བཙུགས་ནིའི་དོན་ལས་ མེ་མོ་རི་ སྤྲོད་མ་ཚུགས།"
+
+#: ../src/eog-exif-details.c:69
+msgid "Camera"
+msgstr "པར་ཆས།"
+
+#: ../src/eog-exif-details.c:70
+msgid "Image Data"
+msgstr "གཟུགས་བརྙན་གྱི་གནད་སྡུད།"
+
+#: ../src/eog-exif-details.c:71
+msgid "Image Taking Conditions"
+msgstr "གཟུགས་བརྙན་འབག་ནིའི་གནས་སྟངས།"
+
+#: ../src/eog-exif-details.c:72
+msgid "GPS Data"
+msgstr ""
+
+#: ../src/eog-exif-details.c:73
+msgid "Maker Note"
+msgstr "བཟོ་མིའི་དྲན་ཐོ།"
+
+#: ../src/eog-exif-details.c:74
+msgid "Other"
+msgstr "གཞན།"
+
+#: ../src/eog-exif-details.c:76
+msgid "XMP Exif"
+msgstr " ཨེགསི་ཨེམ་པི་  ཨི་ཨེགསི་ཨའི་ཨེཕ།"
+
+#: ../src/eog-exif-details.c:77
+msgid "XMP IPTC"
+msgstr "ཨའི་པི་ཊི་སི   ཨའི་པི་ཊི་སི"
+
+#: ../src/eog-exif-details.c:78
+msgid "XMP Rights Management"
+msgstr "ཨེགསི་ ཨེམ་པི་ ཐོབ་དབང་ འཛིན་སྐྱོང་ "
+
+#: ../src/eog-exif-details.c:79
+msgid "XMP Other"
+msgstr "ཨེགསི་ ཨེམ་ པི་ གཞན།"
+
+#: ../src/eog-exif-details.c:253
+msgid "Tag"
+msgstr "ངོ་རྟགས།"
+
+#: ../src/eog-exif-details.c:260
+msgid "Value"
+msgstr "བེ་ལུ།"
+
+#: ../src/eog-exif-details.c:422
+#, fuzzy
+#| msgid "Both"
+msgid "North"
+msgstr "གཉིས་ཆ་རང་"
+
+#: ../src/eog-exif-details.c:425
+msgid "East"
+msgstr ""
+
+#: ../src/eog-exif-details.c:428
+msgid "West"
+msgstr ""
+
+#: ../src/eog-exif-details.c:431
+#, fuzzy
+#| msgid "Both"
+msgid "South"
+msgstr "གཉིས་ཆ་རང་"
+
+#. A strftime-formatted string, to display the date the image was taken.
+#: ../src/eog-exif-util.c:118 ../src/eog-exif-util.c:158
+msgid "%a, %d %B %Y  %X"
+msgstr ""
+
+#. A strftime-formatted string, to display the date the image was taken, for the case we don't have the time.
+#: ../src/eog-exif-util.c:152
+msgid "%a, %d %B %Y"
+msgstr ""
+
+#: ../src/eog-error-message-area.c:119
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/eog-error-message-area.c:124 ../src/eog-window.c:831
+msgid "_Reload"
+msgstr ""
+
+#: ../src/eog-error-message-area.c:129 ../src/eog-window.c:3848
+#, fuzzy
+#| msgid "Save As"
+msgid "Save _As…"
+msgstr "དེ་སྦེ་སྲུངས།"
+
+#: ../src/eog-error-message-area.c:171
+#, c-format
+msgid "Could not load image '%s'."
+msgstr "'%s'"
+
+#: ../src/eog-error-message-area.c:213
+#, fuzzy, c-format
+#| msgid "Could not load image '%s'."
+msgid "Could not save image '%s'."
+msgstr "'%s'"
+
+#: ../src/eog-error-message-area.c:256
+#, c-format
+msgid "No images found in '%s'."
+msgstr "'%s' ནང་ལས་ གཟུགས་བརྙན་མ་ཐོབ།"
+
+#: ../src/eog-error-message-area.c:263
+msgid "The given locations contain no images."
+msgstr "བྱིན་ཡོད་པའི་གནད་ཁོངས་ནང་ལུ་ གཟུགས་བརྙན་མེད།"
+
+#: ../src/eog-print.c:219
+msgid "Image Settings"
+msgstr "ཤོག་ལེབ་སྒྲིག་སྟངས་"
+
+#: ../src/eog-print-image-setup.c:834
+msgid "Image"
+msgstr "གཟུགས་བརྙན་"
+
+#: ../src/eog-print-image-setup.c:835
+#, fuzzy
+#| msgid "The image whose printing properties will be setup"
+msgid "The image whose printing properties will be set up"
+msgstr "དཔར་བསྐྲུན་འབད་ནི་གི་རྒྱུ་དངོས་ཚུ་གཞི་སྒྲིག་འབད་ནི་ཨིན་མི་གཟུགས་བརྙན་དེ།"
+
+#: ../src/eog-print-image-setup.c:841
+msgid "Page Setup"
+msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་"
+
+#: ../src/eog-print-image-setup.c:842
+msgid "The information for the page where the image will be printed"
+msgstr "གཟུགས་བརྙན་དེ་དཔར་བསྐྲུན་འབད་ནི་ཨིན་མི་ཤོག་ལེབ་ཀྱི་དོན་ལུ་བརྡ་དོན།"
+
+#: ../src/eog-print-image-setup.c:870
+msgid "Position"
+msgstr "གནས་ས་"
+
+#: ../src/eog-print-image-setup.c:875
+msgid "_Left:"
+msgstr "གཡོན:(_L)"
+
+#: ../src/eog-print-image-setup.c:876
+msgid "_Right:"
+msgstr "གཡས:(_R)"
+
+#: ../src/eog-print-image-setup.c:877
+msgid "_Top:"
+msgstr "སྤྱི་ཏོག:(_T)"
+
+#: ../src/eog-print-image-setup.c:878
+msgid "_Bottom:"
+msgstr "གཤམ:(_B)"
+
+#: ../src/eog-print-image-setup.c:880
+msgid "C_enter:"
+msgstr "དབུས:(_e)"
+
+#: ../src/eog-print-image-setup.c:885
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: ../src/eog-print-image-setup.c:887
+msgid "Horizontal"
+msgstr "ཐད་སྙོམས་"
+
+#: ../src/eog-print-image-setup.c:889
+msgid "Vertical"
+msgstr "ཀེར་ཕྲང་"
+
+#: ../src/eog-print-image-setup.c:891
+msgid "Both"
+msgstr "གཉིས་ཆ་རང་"
+
+#: ../src/eog-print-image-setup.c:907
+msgid "Size"
+msgstr "ཚད་"
+
+#: ../src/eog-print-image-setup.c:912
+msgid "_Width:"
+msgstr "རྒྱ་ཚད:(_W)"
+
+#: ../src/eog-print-image-setup.c:914
+msgid "_Height:"
+msgstr "མཐོ་ཚད:(_H)"
+
+#: ../src/eog-print-image-setup.c:917
+msgid "_Scaling:"
+msgstr "ཆ་ཚད་འཇལ་ནི:(_S)"
+
+#: ../src/eog-print-image-setup.c:930
+msgid "_Unit:"
+msgstr "སྡེ་ཕྲན:(_U)"
+
+#: ../src/eog-print-image-setup.c:935
+msgid "Millimeters"
+msgstr "མི་ལི་མི་ཊརསི་"
+
+#: ../src/eog-print-image-setup.c:937
+msgid "Inches"
+msgstr "ཨིན་ཅེསི་"
+
+#: ../src/eog-print-image-setup.c:967
+msgid "Preview"
+msgstr "སྔོན་བལྟ་"
+
+#: ../src/eog-properties-dialog.c:155
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#. TRANSLATORS: This is the actual focal length used when
+#. the image was taken.
+#: ../src/eog-properties-dialog.c:239
+#, c-format
+msgid "%.1f (lens)"
+msgstr ""
+
+#. Print as float to get a similar look as above.
+#. TRANSLATORS: This is the equivalent focal length assuming
+#. a 35mm film camera.
+#: ../src/eog-properties-dialog.c:250
+#, c-format
+msgid "%.1f (35mm film)"
+msgstr ""
+
+#: ../src/eog-properties-dialog.c:762 ../src/eog-window.c:3852
+msgid "Show the folder which contains this file in the file manager"
+msgstr ""
+
+#: ../src/eog-save-as-dialog-helper.c:161
+msgid "as is"
+msgstr "ཨིན་དོ་བཟུམ།"
+
+#. Translators: This string is displayed in the statusbar.
+#. * The first token is the image number, the second is total image
+#. * count.
+#. *
+#. * Translate to "%Id" if you want to use localized digits, or
+#. * translate to "%d" otherwise.
+#. *
+#. * Note that translating this doesn't guarantee that you get localized
+#. * digits. That needs support from your system and locale definition
+#. * too.
+#: ../src/eog-statusbar.c:131
+#, c-format
+msgid "%d / %d"
+msgstr ""
+
+#: ../src/eog-thumb-view.c:471
+msgid "Taken on"
+msgstr "གུ་ལུ་འབག་ཡོདཔ"
+
+#: ../src/eog-uri-converter.c:984
+#, c-format
+msgid "At least two file names are equal."
+msgstr "ཉུང་མཐའ་ལུ་ ཡིག་སྣོད་གཉིས་ཀྱི་མིང་ འདྲ་མཉམ་འདུག"
+
+#: ../src/eog-util.c:68
+#, fuzzy
+#| msgid "Could not display help for Eye of GNOME"
+msgid "Could not display help for Image Viewer"
+msgstr "ཨའི་ཨོཕ་ཇི་ནོམ་གྱི་དོན་ལུ་ གྲོགས་རམ་བཀྲམ་སྟོན་འབད་མ་ཚུགས།"
+
+#: ../src/eog-util.c:116
+msgid " (invalid Unicode)"
+msgstr "(ནུས་མེད་ཡུ་ནི་ཀོཌི།)"
+
+#. Translators: This is the string displayed in the statusbar
+#. * The tokens are from left to right:
+#. * - image width
+#. * - image height
+#. * - image size in bytes
+#. * - zoom in percent
+#: ../src/eog-window.c:525
+#, fuzzy, c-format
+#| msgid "%i x %i pixels  %s    %i%%"
+#| msgid_plural "%i x %i pixels  %s    %i%%"
+msgid "%i × %i pixel  %s    %i%%"
+msgid_plural "%i × %i pixels  %s    %i%%"
+msgstr[0] "%i x %i པིག་སེལ་%s    %i%%"
+msgstr[1] "%i x %i པིག་སེལ་%s    %i%%"
+
+#: ../src/eog-window.c:833 ../src/eog-window.c:2790
+msgctxt "MessageArea"
+msgid "Hi_de"
+msgstr ""
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/eog-window.c:843
+#, c-format
+msgid ""
+"The image \"%s\" has been modified by an external application.\n"
+"Would you like to reload it?"
+msgstr ""
+
+#: ../src/eog-window.c:1007
+#, c-format
+msgid "Use \"%s\" to open the selected image"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་གཟུགས་བརྙེན་ཁ་ཕྱེ་ནི་གི་དོན་ལུ་ \"%s\"ལག་ལེན་འཐབ"
+
+#. Translators: This string is displayed in the statusbar
+#. * while saving images. The tokens are from left to right:
+#. * - the original filename
+#. * - the current image's position in the queue
+#. * - the total number of images queued for saving
+#: ../src/eog-window.c:1163
+#, c-format
+msgid "Saving image \"%s\" (%u/%u)"
+msgstr "གཟུགས་བརྙན་ \"%s\" (%u/%u) སྲུང་བཞག་འབད་"
+
+#: ../src/eog-window.c:1534
+#, fuzzy, c-format
+#| msgid "Loading image \"%s\""
+msgid "Opening image \"%s\""
+msgstr "གཟུགས་བརྙན་ \"%s\" མངོན་གསལ་འབད་དོ་"
+
+#: ../src/eog-window.c:2211
+#, c-format
+msgid ""
+"Error printing file:\n"
+"%s"
+msgstr ""
+"ཡིག་སྣོད་དཔར་བསྐྲུན་འབད་ནི་ལུ་འཛོལ་བ་བྱུང་ནུག:\n"
+"%s"
+
+#: ../src/eog-window.c:2529
+msgid "Toolbar Editor"
+msgstr "ལག་ཆས་ཕྲ་རིང་ཞུན་དག་པ"
+
+#: ../src/eog-window.c:2532
+msgid "_Reset to Default"
+msgstr "སྔོན་སྒྲིག་ལུ་ སླར་སྒྲིག་འབད་ (_R)"
+
+#: ../src/eog-window.c:2637
+msgid "translator-credits"
+msgstr ""
+"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་"
+"དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: ../src/eog-window.c:2645
+msgid "The GNOME image viewer."
+msgstr "ཇི་ནོམ་ གཟུགས་བརྙན་ མཐོང་བྱེད། "
+
+#: ../src/eog-window.c:2737 ../src/eog-window.c:2752
+msgid "Error launching System Settings: "
+msgstr ""
+
+#. I18N: When setting mnemonics for these strings, watch out to not
+#. clash with mnemonics from eog's menubar
+#: ../src/eog-window.c:2788
+msgid "_Open Background Preferences"
+msgstr ""
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/eog-window.c:2804
+#, c-format
+msgid ""
+"The image \"%s\" has been set as Desktop Background.\n"
+"Would you like to modify its appearance?"
+msgstr ""
+
+#: ../src/eog-window.c:3277
+#, fuzzy
+#| msgid "Saving Image"
+msgid "Saving image locally…"
+msgstr "གཟུགས་བརྙན་སྲུང་དོ།"
+
+#: ../src/eog-window.c:3357
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"\"%s\" to the trash?"
+msgstr "ཁྱོད་ཀྱིས་\"%s\"ངེས་པར་དུ་ཕྱགས་ཧོད་ནང་ སྤོ་ནི་ཨིན་ན?"
+
+#: ../src/eog-window.c:3360
+#, c-format
+msgid ""
+"A trash for \"%s\" couldn't be found. Do you want to remove this image "
+"permanently?"
+msgstr ""
+
+#: ../src/eog-window.c:3365
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"the selected image to the trash?"
+msgid_plural ""
+"Are you sure you want to move\n"
+"the %d selected images to the trash?"
+msgstr[0] "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་གཟུགས་བརྙན du  ཕྱགས་ཧོད་ནང་སྤོ་ནི་ ངེས་གཏན་ཨིན་ན?"
+msgstr[1] "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་གཟུགས་བརྙན་%d ཕྱགས་ཧོད་ནང་སྤོ་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: ../src/eog-window.c:3370
+msgid ""
+"Some of the selected images can't be moved to the trash and will be removed "
+"permanently. Are you sure you want to proceed?"
+msgstr ""
+
+#: ../src/eog-window.c:3387 ../src/eog-window.c:3878 ../src/eog-window.c:3902
+msgid "Move to _Trash"
+msgstr "ཕྱགས་ཧོད་ལུ་སྤོ་བཤུད་འབད།(_T)"
+
+#: ../src/eog-window.c:3389
+msgid "_Do not ask again during this session"
+msgstr ""
+
+#: ../src/eog-window.c:3434 ../src/eog-window.c:3448
+#, c-format
+msgid "Couldn't access trash."
+msgstr "ཕྱགས་ཧོད་ནང་ འཛུལ་སྤྱོད་འབད་མ་ཚུགས།"
+
+#: ../src/eog-window.c:3456
+#, fuzzy, c-format
+#| msgid "Couldn't determine file format of %s"
+msgid "Couldn't delete file"
+msgstr "%s གི་ཡིག་སྣོད་རྩ་སྒྲིག་ ངོས་འཛིན་འབད་མ་ཚུགས།"
+
+#: ../src/eog-window.c:3552
+#, c-format
+msgid "Error on deleting image %s"
+msgstr "གཟུགས་བརྙན་ %s བཏོན་གཏང་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/eog-window.c:3799
+msgid "_Image"
+msgstr "གཟུགས་བརྙན་ཆ།(_I)"
+
+#: ../src/eog-window.c:3800
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../src/eog-window.c:3801
+msgid "_View"
+msgstr "མཐོང་སྣང་།(_V)"
+
+#: ../src/eog-window.c:3802
+msgid "_Go"
+msgstr "འགྱོ།(_G)"
+
+#: ../src/eog-window.c:3803
+msgid "_Tools"
+msgstr "ལག་ཆས་ཚུ(_T)"
+
+#: ../src/eog-window.c:3804
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../src/eog-window.c:3806
+#, fuzzy
+#| msgid "Open"
+msgid "_Open…"
+msgstr "ཁ་ཕྱེ།"
+
+#: ../src/eog-window.c:3807
+msgid "Open a file"
+msgstr "ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
+
+#: ../src/eog-window.c:3809
+msgid "_Close"
+msgstr "ཁ་བསྡམས།(_C)"
+
+#: ../src/eog-window.c:3810
+msgid "Close window"
+msgstr "སྒོ་སྒྲིག་ཁ་བསྡམས།"
+
+#: ../src/eog-window.c:3812
+msgid "T_oolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་།(_o)"
+
+#: ../src/eog-window.c:3813
+msgid "Edit the application toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་གིས་འཇུག་སྤྱོད་ཞུན་དག་འབད"
+
+#: ../src/eog-window.c:3815
+msgid "Prefere_nces"
+msgstr "དགའ་གདམ་ཚུ།(_n)"
+
+#: ../src/eog-window.c:3816
+#, fuzzy
+#| msgid "Preferences for Eye of GNOME"
+msgid "Preferences for Image Viewer"
+msgstr "ཨའི་ཨོཕ་ཇི་ནོམ་གྱི་དོན་ལུ་དགའ་གདམ་ཚུ།"
+
+#: ../src/eog-window.c:3818
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: ../src/eog-window.c:3819
+msgid "Help on this application"
+msgstr "གློག་རིམ་འདིལུ་  གྲོགས་རམ་འབད་"
+
+#: ../src/eog-window.c:3821
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../src/eog-window.c:3822
+msgid "About this application"
+msgstr "གློག་རིམ་འདི་གི་སྐོར་ལས།"
+
+#: ../src/eog-window.c:3827
+msgid "_Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་།(_T)"
+
+#: ../src/eog-window.c:3828
+msgid "Changes the visibility of the toolbar in the current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ ལག་ཆས་ཕྲ་རིང་གི་མཐོང་གསལ་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/eog-window.c:3830
+msgid "_Statusbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་།(_S)"
+
+#: ../src/eog-window.c:3831
+msgid "Changes the visibility of the statusbar in the current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ གནས་ཚད་ཕྲ་རིང་གི་མཐོང་གསལ་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/eog-window.c:3833
+#, fuzzy
+#| msgid "_Image Collection"
+msgid "_Image Gallery"
+msgstr "གཟུགས་བརྙན་བསྡུ་ལེན།(_I)"
+
+#: ../src/eog-window.c:3834
+#, fuzzy
+#| msgid ""
+#| "Changes the visibility of the image collection pane in the current window"
+msgid "Changes the visibility of the image gallery pane in the current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ གཟུགས་བརྙན་བསྡུ་ལེན་པེན་གྱི་མཐོང་གསལ་ བསྒྱུར་བཅོས་འབདཝ་ཨིན།"
+
+#: ../src/eog-window.c:3836
+msgid "Side _Pane"
+msgstr "ཟུར་ _ པེན་ (_P)"
+
+#: ../src/eog-window.c:3837
+msgid "Changes the visibility of the side pane in the current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ ཟུར་ཁའི་་པེན་གྱི་མཐོང་གསལ་ བསྒྱུར་བཅོས་འབདཝ་ཨིན་ "
+
+#: ../src/eog-window.c:3842
+msgid "_Save"
+msgstr "སྲུངས།(_S)"
+
+#: ../src/eog-window.c:3843
+msgid "Save changes in currently selected images"
+msgstr "ད་ལྟོ་ སེལ་འཐུ་གྲུབ་ཡོད་པའི་གཟུགས་ཚུ་ནང་ བསྒྱུར་བཅོས་ཚུ་ སྲུང་བཞག་འབད་ "
+
+#: ../src/eog-window.c:3845
+msgid "Open _with"
+msgstr "ཁ་ཕྱེ་(_w)"
+
+#: ../src/eog-window.c:3846
+msgid "Open the selected image with a different application"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ གཟུགས་བརྙན་དེ་ གློག་རིམ་སོ་སོ་ཅིག་དང་གཅིག་ཁར་ཁ་ཕྱེ་ "
+
+#: ../src/eog-window.c:3849
+msgid "Save the selected images with a different name"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ གཟུགས་བརྙན་དེ་ མིང་སོ་སོ་ཅིག་སྦེ་ སྲུང་བཞག་འབད་ "
+
+#: ../src/eog-window.c:3851
+msgid "Show Containing _Folder"
+msgstr ""
+
+#: ../src/eog-window.c:3854
+#, fuzzy
+#| msgid "Print"
+msgid "_Print…"
+msgstr "དཔར་བསྐྲུན།"
+
+#: ../src/eog-window.c:3855
+msgid "Print the selected image"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་གཟུགས་བརྙེན་དེ་ དཔར་བསྐྲུན་འབད། "
+
+#: ../src/eog-window.c:3857
+msgid "Prope_rties"
+msgstr "རྒྱུ་དངོས་ཚུ་ (_P)"
+
+#: ../src/eog-window.c:3858
+msgid "Show the properties and metadata of the selected image"
+msgstr "གསལ་འཐུ་གྲུབ་པའི་གཟུགས་བརྙན་དེའི་ མེ་ཊ་གནས་སྡུད་ཀྱི་ རྒྱུ་དངོས་ཚུ་ སྟོན་ "
+
+#: ../src/eog-window.c:3860
+msgid "_Undo"
+msgstr "འབད་བཤོལ།(_U)"
+
+#: ../src/eog-window.c:3861
+msgid "Undo the last change in the image"
+msgstr "གཟུགས་བརྙན་ནང་་མཇུག་གི་ བསྒྱུར་བཅོས་དེ་ འབད་བཤོལ་འབད་ "
+
+#: ../src/eog-window.c:3863
+msgid "Flip _Horizontal"
+msgstr "ཐད་སྙོམས་མྱུར་ལྷོག(_H)"
+
+#: ../src/eog-window.c:3864
+msgid "Mirror the image horizontally"
+msgstr "གཟུགས་བརྙན་དེ་ ཐད་སྙོམས་སྦེ་ ངོ་འཆར་འབད་ "
+
+#: ../src/eog-window.c:3866
+msgid "Flip _Vertical"
+msgstr "ཀེར་ཕྲང་མྱུར་ལྷོག(_V)"
+
+#: ../src/eog-window.c:3867
+msgid "Mirror the image vertically"
+msgstr "གཟུགས་བརྙན་དེ་ ཀེར་ཕྲང་ ངོ་འཆར་འབད་ "
+
+#: ../src/eog-window.c:3869
+msgid "_Rotate Clockwise"
+msgstr "གཡས་སྐོར་སྦེ་བསྒྱིར།(_R)"
+
+#: ../src/eog-window.c:3870
+msgid "Rotate the image 90 degrees to the right"
+msgstr "གཟུགས་བརྙན་དེ་ གཡས་ཁ་ཐུག་ལུ་ ཌིག་རི་ ༩༠ བསྒྱིར་ "
+
+#: ../src/eog-window.c:3872
+msgid "Rotate Counterc_lockwise"
+msgstr "གཡོན་སྐོར་སྦེ་བསྒྱིར།(_l)"
+
+#: ../src/eog-window.c:3873
+msgid "Rotate the image 90 degrees to the left"
+msgstr "གཟུགས་བརྙན་དེ་ གཡོན་་ཁ་ཐུག་ལུ་ ཌིག་རི་ ༩༠ བསྒྱིར་ "
+
+#: ../src/eog-window.c:3875
+#, fuzzy
+#| msgid "As _background"
+msgid "Set as _Desktop Background"
+msgstr "རྒྱབ་གཞི་བཟུམ་སྦེ།(_b)"
+
+#: ../src/eog-window.c:3876
+#, fuzzy
+#| msgid "Set the selected image as the desktop wallpaper"
+msgid "Set the selected image as the desktop background"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་གཟུགས་བརྙན་དེ་ ཌེཀསི་ཊོཔ་གི་ གྱང་ཤོག་སྦེ་ གཞི་སྒྲིག་འབད་ "
+
+#: ../src/eog-window.c:3879
+msgid "Move the selected image to the trash folder"
+msgstr "སེལ་འཐུ་གྲུབ་པའི་ གཟུགས་བརྙན་དེ་ ཕྱགས་ཧོད་ནང་ བཀོག་ "
+
+#: ../src/eog-window.c:3881
+#, fuzzy
+#| msgid "_Top:"
+msgid "_Copy"
+msgstr "སྤྱི་ཏོག:(_T)"
+
+#: ../src/eog-window.c:3882
+#, fuzzy
+#| msgid "Move the selected item on the toolbar"
+msgid "Copy the selected image to the clipboard"
+msgstr "ལག་ཆས་ཀྱི་ཕྲ་རིང་གུར་སེལ་འཐུ་གྲུབ་ཡོད་པའི་རྣམ་གྲངས་ཚུ་སྤོ"
+
+#: ../src/eog-window.c:3884 ../src/eog-window.c:3893 ../src/eog-window.c:3896
+msgid "_Zoom In"
+msgstr "ཕྱིར་རྒྱས།(_Z)"
+
+#: ../src/eog-window.c:3885 ../src/eog-window.c:3894
+msgid "Enlarge the image"
+msgstr "གཟུགས་བརྙན་དེ་ ཆེར་བསྐྱེད་འབད་ "
+
+#: ../src/eog-window.c:3887 ../src/eog-window.c:3899
+msgid "Zoom _Out"
+msgstr "ནང་ཟུམ།(_O)"
+
+#: ../src/eog-window.c:3888 ../src/eog-window.c:3897 ../src/eog-window.c:3900
+msgid "Shrink the image"
+msgstr "གཟུགས་བརྙན་དེ་ བསྐུམ་ "
+
+#: ../src/eog-window.c:3890
+msgid "_Normal Size"
+msgstr "སྤྱིར་བཏང་གི་ཚད།(_N)"
+
+#: ../src/eog-window.c:3891
+msgid "Show the image at its normal size"
+msgstr "གཟུགས་བརྙན་དེ་ ཁོ་རའི་སྤྱིར་གཏང་གི་ཚད་ནང་སྟོན་ "
+
+#: ../src/eog-window.c:3908
+#, fuzzy
+#| msgid "_Full Screen"
+msgid "_Fullscreen"
+msgstr "གསལ་གཞི་གངམ།(_F)"
+
+#: ../src/eog-window.c:3909
+msgid "Show the current image in fullscreen mode"
+msgstr "ད་ལྟོའི་ གཟུགས་བརྙན་དེ་  ཐབས་ལམ་གསལགཞི་གངམ་ནང་སྟོན་"
+
+#: ../src/eog-window.c:3911
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Pause Slideshow"
+msgstr "བཤུད་བརྙན་"
+
+#: ../src/eog-window.c:3912
+msgid "Pause or resume the slideshow"
+msgstr ""
+
+#: ../src/eog-window.c:3914
+#, fuzzy
+#| msgid "Best _Fit"
+msgid "_Best Fit"
+msgstr "ལེགས་སྒྲིག(_F)"
+
+#: ../src/eog-window.c:3915
+msgid "Fit the image to the window"
+msgstr "གཟུགས་བརྙན་དེ་ སྒོ་སྒྲིག་་ཅིག་ནང་བཙུགས་"
+
+#: ../src/eog-window.c:3920 ../src/eog-window.c:3935
+msgid "_Previous Image"
+msgstr "གཟུགས་བརྙན་ཧེ་མམ།(_P)"
+
+#: ../src/eog-window.c:3921
+#, fuzzy
+#| msgid "Go to the previous image of the collection"
+msgid "Go to the previous image of the gallery"
+msgstr "བསྡུ་གསོག་གི་ གཟུགས་བརྙན་ ཧེ་མམ་ནང་འགྱོ་"
+
+#: ../src/eog-window.c:3923
+msgid "_Next Image"
+msgstr "གཟུགས་བརྙན་ཤུལ་མམ།(_N)"
+
+#: ../src/eog-window.c:3924
+#, fuzzy
+#| msgid "Go to the next image of the collection"
+msgid "Go to the next image of the gallery"
+msgstr "བསྡུ་གསོག་གི་ གཟུགས་བརྙན་ ཤུལ་མམ་ནང་འགྱོ་ "
+
+#: ../src/eog-window.c:3926 ../src/eog-window.c:3938
+msgid "_First Image"
+msgstr "གཟུགས་བརྙན་དང་པམ་།(_F)"
+
+#: ../src/eog-window.c:3927
+#, fuzzy
+#| msgid "Go to the first image of the collection"
+msgid "Go to the first image of the gallery"
+msgstr "བསྡུ་གསོག་གི་ གཟུགས་བརྙན་དང་པམ་ནང་འགྱོ་"
+
+#: ../src/eog-window.c:3929 ../src/eog-window.c:3941
+msgid "_Last Image"
+msgstr "གཟུགས་བརྙན་མཐའ་མམ།(_L)"
+
+#: ../src/eog-window.c:3930
+#, fuzzy
+#| msgid "Go to the last image of the collection"
+msgid "Go to the last image of the gallery"
+msgstr "བསྡུ་གསོག་གི་ གཟུགས་བརྙན་ མཇུག་མམ་དེ་ནང་འགྱོ་ "
+
+#: ../src/eog-window.c:3932
+#, fuzzy
+#| msgid "Load Image"
+msgid "_Random Image"
+msgstr "གཟུགས་བརྙན་མངོན་གསལ་འབད།"
+
+#: ../src/eog-window.c:3933
+#, fuzzy
+#| msgid "Go to the next image of the collection"
+msgid "Go to a random image of the gallery"
+msgstr "བསྡུ་གསོག་གི་ གཟུགས་བརྙན་ ཤུལ་མམ་ནང་འགྱོ་ "
+
+#: ../src/eog-window.c:3947
+#, fuzzy
+#| msgid "Slideshow"
+msgid "S_lideshow"
+msgstr "བཤུད་བརྙན་"
+
+#: ../src/eog-window.c:3948
+msgid "Start a slideshow view of the images"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ གཟུགས་བརྙན་ཚི་གི་ བཤུད་བརྙན་ མཐོང་སྣང་ཅིག་ འགོ་བཙུགས་ "
+
+#: ../src/eog-window.c:4014
+msgid "Previous"
+msgstr "ཧེ་མམ།"
+
+#: ../src/eog-window.c:4018
+msgid "Next"
+msgstr "ཤུལ་མམ།"
+
+#: ../src/eog-window.c:4022
+msgid "Right"
+msgstr "གཡས།"
+
+#: ../src/eog-window.c:4025
+msgid "Left"
+msgstr "གཡོན།"
+
+#: ../src/eog-window.c:4028
+#, fuzzy
+#| msgid "Open Folder"
+msgid "Show Folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ།"
+
+#: ../src/eog-window.c:4031
+msgid "In"
+msgstr "ནང་ན།"
+
+#: ../src/eog-window.c:4034
+msgid "Out"
+msgstr "ཕྱི་ཁ།"
+
+#: ../src/eog-window.c:4037
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་།"
+
+#: ../src/eog-window.c:4040
+msgid "Fit"
+msgstr "ཚུད་སྒྲིག"
+
+#: ../src/eog-window.c:4043
+msgid "Gallery"
+msgstr ""
+
+#: ../src/eog-window.c:4046
+msgctxt "action (to trash)"
+msgid "Trash"
+msgstr ""
+
+#: ../src/eog-window.c:4414
+#, fuzzy, c-format
+#| msgid "Show the current image in fullscreen mode"
+msgid "Edit the current image using %s"
+msgstr "ད་ལྟོའི་ གཟུགས་བརྙན་དེ་  ཐབས་ལམ་གསལགཞི་གངམ་ནང་སྟོན་"
+
+#: ../src/eog-window.c:4416
+#, fuzzy
+#| msgid "_First Image"
+msgid "Edit Image"
+msgstr "གཟུགས་བརྙན་དང་པམ་།(_F)"
+
+#: ../src/main.c:64
+#, fuzzy
+#| msgid "Eye of GNOME Image Viewer"
+msgid "GNOME Image Viewer"
+msgstr "ཇི་ནོམ་ གཟུགས་བརྙན་སྟོན་བྱེད་ཀྱི་མིག་ཏོ་"
+
+#: ../src/main.c:71
+msgid "Open in fullscreen mode"
+msgstr "གསལ་གཞི་གངམ་གྱི་ཐབས་ལམ་ནང་ ཁ་ཕྱེ་"
+
+#: ../src/main.c:72
+#, fuzzy
+#| msgid "Disable image collection"
+msgid "Disable image gallery"
+msgstr "གཟུགས་བརྙན་བསྡུ་ལེན་ ལྕོགས་མིན་བཟོ་"
+
+#: ../src/main.c:73
+#, fuzzy
+#| msgid "Open in slide show mode"
+msgid "Open in slideshow mode"
+msgstr "བཤུད་སྟོན་ཐབས་ལམ་ནང་ ཁ་ཕྱེ་"
+
+#: ../src/main.c:74
+msgid "Start a new instance instead of reusing an existing one"
+msgstr ""
+
+#: ../src/main.c:75
+msgid ""
+"Open in a single window, if multiple windows are open the first one is used"
+msgstr ""
+
+#: ../src/main.c:77
+#, fuzzy
+#| msgid "Edit the application toolbar"
+msgid "Show the application's version"
+msgstr "ལག་ཆས་ཕྲ་རིང་གིས་འཇུག་སྤྱོད་ཞུན་དག་འབད"
+
+#: ../src/main.c:113
+#, fuzzy
+#| msgid "[FILE...]"
+msgid "[FILE…]"
+msgstr "[ཡིག་སྣོད་...]"
+
+#. I18N: The '%s' is replaced with eog's command name.
+#: ../src/main.c:126
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr ""
+
+#~ msgid "Running in fullscreen mode"
+#~ msgstr "གསལ་གཞི་གངམ་ཐབས་ལམ་ནང་ གཡོག་བཀོལ་དོ "
+
+#~ msgid "<b>Height:</b>"
+#~ msgstr "<b>མཐོ་ཚད་:</b>"
+
+#~ msgid "<b>Name:</b>"
+#~ msgstr "<b>མིང་</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>དབྱེ་བ་</b>"
+
+#~ msgid "<b>Width:</b>"
+#~ msgstr "<b>རྒྱ་ཚད་:</b>"
+
+#~ msgid "Eye of GNOME Preferences"
+#~ msgstr "ཨའི་ཨོཕ་ཇི་ནོམ་གྱི་་དགའ་གདམ།"
+
+#~ msgid "All Images"
+#~ msgstr "གཟུགས་བརྙན་ཆ་མཉམ།"
+
+#~ msgid "File exists"
+#~ msgstr "ཡིག་སྣོད་འདུག"
+
+#~ msgid "_Retry"
+#~ msgstr "ལོག་འབད་རྩོལ་བསྐྱེད(_R)"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "'%s' གི་ཐོག་ལས་ཁ་ཕྱེ་"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ msgstr ""
+#~ "ལས་རིམ་འདི་སྟོང་མར་ཐོབ་པའི་མཉེན་ཆས་ཅིག་ཨིནམ་ལས་ ཁྱོད་ཀྱིས་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་ དཔེ་"
+#~ "བསྐྲུན་འབད་མི་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ ཐོན་རིམ་ ༢ ཡང་ན་ ཁྱོད་རའི་བློ་འདོད་བཞིན་དུ་ "
+#~ "ཤུལ་ལས་ཀྱི་ཐོན་རིམ་གང་རུང་གི་ ཁ་ཚིག་དང་འཁྲིལ་ཏེ་ བསྐྱར་འགྲེམ་འབད་བ་ ཡང་ན་ ལེགས་བཅོས་འབད་"
+#~ "ཆོག\n"
+
+#~ msgid ""
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ msgstr ""
+#~ "ལས་རིམ་འདི་ ཀུན་ལུ་ཕན་པའི་རེ་བ་བསྐྱེད་དེ་འགྲེམ་སྤེལ་འབདཝ་ཨིན། དེ་འབདཝ་དང་ ཉེན་ལེན་ག་ནི་ཡང་མེད་"
+#~ "པའི་ནང་ལས་ ཐ་ན་སྐྱེལ་འདྲེན་ ཡང་ན་ དམིགས་བསལ་དགོས་དོན་ཅིག་གི་དོན་ལུ་ ཚུད་སྒྲིག་ཡོད་མེད་ཀྱི་ཉེན་"
+#~ "ལེན་ཙམ་ཡང་མེད། རྒྱས་བཤད་ཀྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་ལུ་བལྟ།\n"
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་འདྲ་ཅིག་ ལས་རིམ་འདི་དང་གཅིག་ཁར་ཐོབ་ཐོབ་འོང་། "
+#~ "གལ་སྲིད་མ་ཐོབ་ཅིན་ Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+#~ "Floor, Boston, MA  02110-1301,  USA ལུ་ ཡི་གུ་གཏང་།"
+
+#~ msgid "Eye of GNOME"
+#~ msgstr "ཨའི་ཨོཕ་ཇི་ནོམ།"
+
+#~ msgid "Move to Trash"
+#~ msgstr "ཕྱགས་ཧོད་ལུ་སྤོ་བཤུད་འབད།"
+
+#~ msgid "_File"
+#~ msgstr "ཡིག་སྣོད།(_F)"
+
+#~ msgid "_Open..."
+#~ msgstr "ཁ་ཕྱེ།...(_O)"
+
+#~ msgid "Save _As..."
+#~ msgstr "དེ་སྦེ་སྲུངས་...(_A)"
+
+#~ msgid "Page Set_up..."
+#~ msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་་་(_u)"
+
+#~ msgid "Setup the page properties for printing"
+#~ msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ ཤོག་ལེབ་ཀྱི་ རྒྱུ་དངོས་ གཞི་སྒྲིག་འབད་ "
+
+#~ msgid "_Print..."
+#~ msgstr "དཔར་བསྐྲུན་...(_P)"
+
+#~ msgid "Set As _Wallpaper"
+#~ msgstr "གྱང་ཤོག་སྦེ་ གཞི་སྒྲིག་འབད།(_W)"
+
+#~ msgid "_Slideshow"
+#~ msgstr "བཤུད་བརྙན།(_d)"
+
+#~ msgid "Collection"
+#~ msgstr "བསྡུ་གསོག་ "
+
+#~ msgid "Plugin"
+#~ msgstr "པ་ལག་ཨིན"
+
+#~ msgid "Enabled"
+#~ msgstr "ལྕོགས་ཅན་བཟོ་ཡོདཔ"
+
+#~ msgid "C_onfigure"
+#~ msgstr "རིམ་སྒྲིག་འབད(_o)"
+
+#~ msgid "A_ctivate"
+#~ msgstr "ཤུགས་ལྡན་བཟོ(_c)"
+
+#~ msgid "Ac_tivate All"
+#~ msgstr "ཆ་མཉམ་ཤུགས་ལྡན་བཟོ(_t)"
+
+#~ msgid "_Deactivate All"
+#~ msgstr "ཆ་མཉམ་ཤུགལ་མེད་བཟོ(_D)"
+
+#~ msgid "Active _Plugins:"
+#~ msgstr "ཤུགས་ལྡན་  པ་ལག་ཨིནསི: (_P)"
+
+#~ msgid "_About Plugin"
+#~ msgstr "པ་ལག་ཨིན་གྱི་སྐོར་ལས(_A)"
+
+#~ msgid "C_onfigure Plugin"
+#~ msgstr "པ་ལག་ཨིན་རིམ་སྒྲིག་འབད(_o)"
+
+#~ msgid "\n"
+#~ msgstr "\n"
+
+#~ msgid "%f"
+#~ msgstr "%f"
+
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>ཚད</b>"
+
+#~ msgid "Bottom"
+#~ msgstr "གཤམ"
+
+#~ msgid "Top"
+#~ msgstr "སྤྱི་ཏོག"
+
+#~ msgid "Use fixed size"
+#~ msgstr "གཏན་བཟོས་ཡོད་པའི་ཚད་ལག་ལེན་འཐབ"
+
+#~ msgid "label"
+#~ msgstr "ཁ་ཡིག"
+
+#~ msgid "Last collection window geometry"
+#~ msgstr "མཐའ་མཇུག་ལུ་ བསྡུ་ལེན་འབད་མི་ སྒོ་སྒྲིག་གི་ཐིག་རྩིས།"
+
+#~ msgid "Last singleton window geometry"
+#~ msgstr "མཐའ་མཇུག་ལུ་ སིང་གཱལ་ཊཱོན་འབད་མི་ སྒོ་སྒྲིག་གི་ཐིག་རྩིས།"
+
+#~ msgid ""
+#~ "Whether opening an image should create a new window instead of replacing "
+#~ "the image in the current window."
+#~ msgstr ""
+#~ "གཟུགས་བརྙན་ཅིག་ཁ་ཕྱེཝ་ད་ གཟུགས་བརྙན་དེ་ ད་ལྟོའི་སྒོ་སྒྲིག་ནང་གི་ གཟུགས་བརྙན་གྱི་ཚབ་ལུ་ མ་བཙུགས་"
+#~ "པར་ སྒོ་སྒྲིག་གསརཔ་ཅིག་ བཟོ་དགོཔ་ཨིན་ན།"
+
+#~ msgid "%s x %s pixels"
+#~ msgid_plural "%s x %s pixels"
+#~ msgstr[0] "%s x %s པིག་སེལ།"
+#~ msgstr[1] "%s x %s པིག་སེལ།"
+
+#~ msgid "The GNOME image viewing and cataloging program."
+#~ msgstr "ཇི་ནོམ་གྱི་གཟུགས་བརྙན་ བལྟ་ནི་དང་ ཐོ་གཞུང་ནང་བཀོད་ནིའི་ལས་རིམ།"
+
+#~ msgid "_Browse"
+#~ msgstr "བརྡ་འཚོལ།(_B)"
+
+#~ msgid "Show/hide image information for collection."
+#~ msgstr "བསྡུ་ལེན་གྱི་དོན་ལས་ གཟུགས་བརྙན་གྱི་བརྡ་དོན་ སྟོན/སྦ།"
+
+#~ msgid "Show/hide image information for single image."
+#~ msgstr "གཟུགས་བརྙན་རྐྱང་པོའི་དོན་ལས་ གཟུགས་བརྙན་གྱི་བརྡ་དོན་ སྟོན/སྦ།"
+
+#~ msgid "Filename"
+#~ msgstr "ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#~ msgid "Counter"
+#~ msgstr "གདོང་ལན།"
+
+#~ msgid "Comment"
+#~ msgstr "བསམ་བཀོད།"
+
+#~ msgid "Date"
+#~ msgstr "ཚེས་གྲངས།"
+
+#~ msgid "Time"
+#~ msgstr "ཆུ་ཚོད།"
+
+#~ msgid "Day"
+#~ msgstr "གཟའ།"
+
+#~ msgid "Month"
+#~ msgstr "ཟླཝ།"
+
+#~ msgid "Year"
+#~ msgstr "ལོ།"
+
+#~ msgid "Hour"
+#~ msgstr "ཆུ་ཚོད།"
+
+#~ msgid "Minute"
+#~ msgstr "སྐར་མ།"
+
+#~ msgid "Second"
+#~ msgstr "སྐར་ཆ།"
+
+#~ msgid "Option not available."
+#~ msgstr "གདམ་ཁ་མི་འཐོབ་པས།"
+
+#~ msgid ""
+#~ "To use this function you need the libexif library. Please install libexif "
+#~ "(http://libexif.sf.net) and recompile Eye of GNOME."
+#~ msgstr ""
+#~ "བྱ་བ་འདི་ལག་ལེན་འཐབ་ནི་ལུ་ ལིབ་ཨེགསི་ཨིཕ་ དཔེ་མཛོད་དགོ ལིབ་ཨེགསི་ཨིཕ (http://libexif.sf."
+#~ "net )  གཞི་བཙུགས་འབད་གནང་། དེ་ལས་ཨའི་ཨོཕ་ཇི་ནོམ་ ལོག་སྟེ་ཕྱོགས་སྒྲིག་འབད།"
+
+#~ msgid "View different types of images"
+#~ msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་བ་མ་འདྲཝ་ལེ་ཤ་སྟོན།"
+
+#~ msgid "    "
+#~ msgstr " "
+
+#~ msgid "Width"
+#~ msgstr "རྒྱ་ཚད།"
+
+#~ msgid "Height"
+#~ msgstr "མཐོ་ཚད།"
+
+#~ msgid "Filesize"
+#~ msgstr "ཡིག་སྣོད་ཀྱི་ཚད།"
+
+#~ msgid "Attribute"
+#~ msgstr "ཁྱད་ཆོས།"
+
+#~ msgid "File"
+#~ msgstr "ཡིག་སྣོད།"
+
+#~ msgid "EXIF"
+#~ msgstr "ཨི་ཨེགསི་ཨའི་ཨེཕ།"
+
+#~ msgid "Open in new window"
+#~ msgstr "སྒོ་སྒྲིག་གསར་པའི་ནང་ཁ་ཕྱེ།"
+
+#~ msgid "Cancel saving ..."
+#~ msgstr "སྲུང་བཞག་ཆ་མེད་གཏང་།་..."
+
+#~ msgid ""
+#~ "Could not display help for Eye of GNOME.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ཨའིཨོཕ་ཇི་ནོམ་དོན་ལུ་ གྲོགས་རམ་བཀྲམ་སྟོན་འབད་མ་ཚུགས།.\n"
+#~ "%s"
+
+#~ msgid "Overwrite file %s?"
+#~ msgstr "ཡིག་སྣོད་%s ཚབ་སྲུང་འབད་ནི་ཨིན་ན་?"
+
+#~ msgid "File exists. Do you want to overwrite it?"
+#~ msgstr "ཡིག་སྣོད་འདུག འདི་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#~ msgid "Skip"
+#~ msgstr "གོམ་འགྱོ།"
+
+#~ msgid "Overwrite"
+#~ msgstr "ཚབ་སྲུང་འབད།"
+
+#~ msgid "Error on saving %s."
+#~ msgstr "%s སྲུང་བཞག་ལུ་འཛོལ་བ།"
+
+#~ msgid "Couldn't determine destination uri."
+#~ msgstr "འགྲོ་ཡུལ་གྱི་ ཡུ་ཨར་ཨའི་ ངོས་འཛིན་འབད་མ་ཚུགས།"
+
+#~ msgid "Please use an appropriate filename suffix or select a file format."
+#~ msgstr ""
+#~ "ཡིག་སྣོད་ཀྱི་མཇུག་ཚིག་ འོས་ལྡན་ཅིག་ ལག་ལེན་འཐབ་གནང་ ཡང་ཅིན་ ཡིག་སྣོད་ཀྱི་རྩ་སྒྲིག་ཅིག་ སེལ་འཐུ་"
+#~ "འབད་གནང་།"
+
+#~ msgid "Error on saving images."
+#~ msgstr "གཟུགས་བརྙན་སྲུང་བཞག་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#~ msgid "Reason: %s"
+#~ msgstr "རྒྱུ་མཚན་:%s"
+
+#~ msgid "Image _Information"
+#~ msgstr "གཟུགས་བརྙན་གྱི་བརྡ་དོན།(_I)"
+
+#~ msgid "Close"
+#~ msgstr "ཁ་བསྡམས།"
+
+#~ msgid "Save"
+#~ msgstr "སྲུངས།"
+
+#~ msgid "Undo"
+#~ msgstr "འབད་བཤོལ།"
+
+#~ msgid "User interface description not found."
+#~ msgstr "ལག་ལེན་པའི་ ངོས་འདྲ་བའི་འགྲེལ་བཤད་ འཚོལ་མ་ཐོབ།"
+
+#~ msgid "Unable to create Eye of GNOME user interface"
+#~ msgstr "ཨའི་ཨོཕ་ཇི་ནོམ་ལག་ལེན་པའི་ངོས་འདྲ་བ་ གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#~ msgid "File not found."
+#~ msgid_plural "Files not found."
+#~ msgstr[0] "ཡིག་སྣོད་འཚོལ་མ་ཐོབ།"
+#~ msgstr[1] "ཡིག་སྣོད་ཚུ་ འཚོལ་མ་ཐོབ།"
+
+#~ msgid "Empty"
+#~ msgstr "སྟོངམ།"
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "<b>Image Interpolation</b>"
+#~ msgstr "<b>གཟུགས་བརྙན་ བསྐྱར་བསྣོན།</b>"
+
+#~ msgid "Allow _zoom greater than 100% initially"
+#~ msgstr "འགོ་ཐོག་བསྒང་ རྒྱས་ཟུམ་༡༠༠%ལས་ལྷག་བཅུག(_z)"
+
+#~ msgid "Slide Show"
+#~ msgstr "བཤུད་བརྙན།(_d)"
+
+#~ msgid "Rotat_e 180°"
+#~ msgstr "ཌི་གིརི་ ༡༨༠ ལུ་བསྒྱིར།(_e)"
+
+#~ msgid ""
+#~ "If this is set to TRUE images will be switched after number of seconds "
+#~ "determined by the 'full_screen/seconds' key."
+#~ msgstr ""
+#~ "འདི་བདེན་པ་གུ་ གཞི་སྒྲིག་འབད་བ་ཅིན་  གསལ་གཞི་གངམ་/སྐར་ཆའི་ལྡེ་མིག་གིས་ ཐག་བཅད་མི་དང་འཁྲིལ་"
+#~ "ཏེ་ གཟུགས་བརྙན་ཚུ་ སྐར་ཆའི་གྲངས་དག་པ་ཅིག་གི་ཤུལ་ལས་ སོར་འགྱོ་འོང་།"
+
+#~ msgid "_New Window"
+#~ msgstr "སྒོ་སྒྲིག་རྐྱང་པ་ཚུ།(_N)"
+
+#~ msgid "Open a new window"
+#~ msgstr "སྒོ་སྒྲིག་གསརཔ་ཅིག་ཁ་ཕྱེ།"
+
+#~ msgid "Open _Folder..."
+#~ msgstr "སྣོད་འཛིན་ཁ་ཕྱེ།...(_F)"
+
+#~ msgid "Delete"
+#~ msgstr "བཏོན་གཏང་།"
+
+#~ msgid "New"
+#~ msgstr "གསརཔ།"
+
+#~ msgid "Open multiple single windows?"
+#~ msgstr "སྒོ་སྒྲིག་རྐྱང་པ་ མང་རབས་ཅིག་ཁ་ཕྱེ།"
+
+#~ msgid ""
+#~ "You are about to open %i windows simultaneously. Do you want to open them "
+#~ "in a collection instead?"
+#~ msgid_plural ""
+#~ "You are about to open %i windows simultaneously. Do you want to open them "
+#~ "in a collection instead?"
+#~ msgstr[0] ""
+#~ "ྫཁྱོད་ཀྱིས་དུས་མཉམ་ལུ་ སྒོ་སྒྲིག་ %i ཁ་ཕྱེ་ནི་འབད་དོ། དེ་གི་ཚབ་ལུ་ དེ་ཚུ་བསྡུ་ལེན་ཅིག་ནང་ ཁ་ཕྱེ་ནི་ཨིན་"
+#~ "ན?\""
+#~ msgstr[1] ""
+#~ "ཁྱོད་ཀྱིས་དུས་མཉམ་ལུ་ སྒོ་སྒྲིག་ %i ཁ་ཕྱེ་ནི་འབད་དོ། དེ་གི་ཚབ་ལུ་ དེ་ཚུ་བསྡུ་ལེན་ཅིག་ནང་ ཁ་ཕྱེ་ནི་ཨིན་"
+#~ "ན?"
+
+#~ msgid "Single Windows"
+#~ msgstr "སྒོ་སྒྲིག་རྐྱང་པ་ཚུ།"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "empty file"
+#~ msgstr "ཡིག་སྣོད་སྟོངམ་བཏོན།"
+
+#~ msgid "Filenames are not disjunct."
+#~ msgstr "ཡིག་སྣོད་ཀྱི་མིང་ཚུ་ འདྲ་མིན་མ་བཟོ་བས།"

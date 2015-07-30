@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extras/gyrus.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-23 11:47+0600\n"
+"PO-Revision-Date: 2007-05-09 20:13+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gyrus.desktop.in.h:1
+msgid "Administer the mailboxes of your IMAP Cyrus servers"
+msgstr "ཁྱོད་རའི་ཨའི་ཨེམ་ཨེ་པི་སའི་རཱསི་སར་བར་གྱི་ཡིག་སྒྲོམ་ཚུ་བདག་སྐྱོང་འཐབ་"
+
+#: ../gyrus.desktop.in.h:2
+msgid "Gyrus IMAP Cyrus Administrator"
+msgstr "ཇི་རཱསི་  ཨའི་ཨེམ་ཨེ་པི་སའི་རཱསི་བདག་སྐྱོང་འཐབ་"
+
+#: ../src/glade/create_mailbox.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../src/glade/create_mailbox.glade.h:2
+msgid "<b>Name:</b>"
+msgstr "<b>མིང་:</b>"
+
+#: ../src/glade/create_mailbox.glade.h:3
+msgid "<b>Quota (MB):</b>"
+msgstr "<b>ཐོབ་སྐལ་ (ཨེམ་བི་):</b>"
+
+#: ../src/glade/create_mailbox.glade.h:4
+msgid "Assign quota"
+msgstr "ཐོབ་སྐལ་འགན་སྤྲོད་འབད་"
+
+#: ../src/glade/create_mailbox.glade.h:5
+msgid "Create mailbox"
+msgstr "ཡིག་སྒྲོམ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/glade/find.glade.h:1
+msgid "Find"
+msgstr "འཚོལ་"
+
+#: ../src/glade/find.glade.h:2
+msgid "Match _entire word only"
+msgstr "མིང་ཚིག་ཧྲིལ་བུ་རྐྱངམ་ཅིག་མཐུན་སྒྲིག་འབད། (_e)"
+
+#: ../src/glade/find.glade.h:3
+msgid "Search for:"
+msgstr "དོན་ལུ་འཚོལ:"
+
+#: ../src/glade/find.glade.h:4
+msgid "_Wrap around"
+msgstr "མཐའ་འཁོར་ལོག་མཚམས་བཟོོ། (_W)"
+
+#: ../src/glade/page.glade.h:1
+msgid "<b>Assigned space:</b>"
+msgstr "<b>བར་སྟོང་འགན་སྤྲོད་ཡོདཔ:</b>"
+
+#: ../src/glade/page.glade.h:2
+msgid "<b>Enter your password</b>"
+msgstr "<b>ཁྱོད་རའི་ཆོག་ཡིག་ཐོ་བཀོད་འབད</b>"
+
+#: ../src/glade/page.glade.h:3
+msgid "<b>Free space:</b>"
+msgstr "<b>བར་སྟོང་དལཝ:</b>"
+
+#: ../src/glade/page.glade.h:4
+msgid "<b>Host:</b>"
+msgstr "<b>ཧོསཊི:</b>"
+
+#: ../src/glade/page.glade.h:5
+msgid "<b>Owner:</b>"
+msgstr "<b>བདག་པོ:</b>"
+
+#: ../src/glade/page.glade.h:6
+msgid "<b>Port:</b>"
+msgstr "<b>འདྲེན་ལམ:</b>"
+
+#: ../src/glade/page.glade.h:7
+msgid "<b>User:</b>"
+msgstr "<b>ལག་ལེན་པ:</b>"
+
+#: ../src/glade/page.glade.h:8
+msgid "Access control list"
+msgstr "ཚད་བཟུང་ཐོ་ཡིག་འདི་འཛུལ་སྤྱོད་འབད་"
+
+#: ../src/glade/page.glade.h:9
+msgid "Modify quota"
+msgstr "ཐོབ་སྐལ་ལེགས་བཅོས་འབད་"
+
+#: ../src/glade/page.glade.h:10
+msgid "New quota (MB)"
+msgstr "ཐོབ་སྐལ་གསརཔ་  (ཨེམ་བི་)"
+
+#: ../src/glade/page.glade.h:11
+msgid "Password"
+msgstr "ཆོག་ཡིག་"
+
+#: ../src/glade/page.glade.h:12
+#: ../src/gyrus-admin.c:842
+#: ../tests/gyrus-talk.glade.h:7
+msgid "_Connect"
+msgstr "མཐུད། (_C)"
+
+#: ../src/glade/preferences.glade.h:1
+msgid "<b>Mailbox quota:</b>"
+msgstr "<b>ཡིག་སྒྲོམ་ཐོབ་སྐལ:</b>"
+
+#: ../src/glade/preferences.glade.h:2
+msgid "<b>Mailboxes tree:</b>"
+msgstr "<b>ཡིག་སྒྲོམ་ཚུ་གི་རྩ་འབྲེལ:</b>"
+
+#: ../src/glade/preferences.glade.h:3
+msgid "Default suffix for changing quota:"
+msgstr "ཐོབ་སྐལ་བསྒྱུར་བཅོས་འབད་ནི་དོན་ལུ་  སྔོན་སྒྲིག་རྗེས་ཚིག:"
+
+#: ../src/glade/preferences.glade.h:4
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../src/glade/preferences.glade.h:5
+msgid "View complete mailboxes tree"
+msgstr "ཡིག་སྒྲོམ་ཚུའི་རྩ་འབྲེལ་མཇུག་བསྡུ་འདི་སྟོན་"
+
+#: ../src/glade/report.glade.h:2
+#, no-c-format
+msgid "Over (%)"
+msgstr "ལྷག་ (%)"
+
+#: ../src/glade/report.glade.h:3
+#: ../src/gyrus-main-app.c:390
+msgid "Report"
+msgstr "སྙན་ཞུ་"
+
+#. Translate only Autodetect please.
+#: ../src/glade/sessions.glade.h:2
+msgid ""
+".\n"
+"/\n"
+"Autodetect"
+msgstr ""
+".\n"
+"/\n"
+"རང་བཞིན་སྐྱོན་འཛིན་པ་"
+
+#: ../src/glade/sessions.glade.h:5
+msgid "<b>Options</b>"
+msgstr "<b>གདམ་ཁ་ཚུ་</b>"
+
+#: ../src/glade/sessions.glade.h:6
+msgid "<b>Session details</b>"
+msgstr "<b>ལཱ་ཡུན་རྒྱས་བཤད་ཚུ་</b>"
+
+#: ../src/glade/sessions.glade.h:7
+msgid "<small><i><b>Note: </b>Uses a hostname or IP address</i></small>"
+msgstr "<ཆུང་ཀུ་><i><b>དྲན་འཛིན་: </b>ཧོསཊི་མིང་ ཡང་ན་ ཨའི་པི་ཁ་བྱང་ ལག་ལེན་འཐབ་ཨིན་</i></ཆུང་ཀུ་>"
+
+#: ../src/glade/sessions.glade.h:8
+#: ../tests/gyrus-talk.glade.h:3
+msgid "Host:"
+msgstr "ཧེསཊི:"
+
+#: ../src/glade/sessions.glade.h:9
+msgid "Mailbox hierarchy separator:"
+msgstr "ཡིག་སྒྲོམ་སྡེ་རིམ་དབྱེ་བྱེད་པ:"
+
+#: ../src/glade/sessions.glade.h:10
+msgid "Open session"
+msgstr "ལཱ་ཡུན་ཁ་ཕྱེ་"
+
+#: ../src/glade/sessions.glade.h:11
+msgid "Password:"
+msgstr "ཆོག་ཡིག:"
+
+#: ../src/glade/sessions.glade.h:12
+#: ../tests/gyrus-talk.glade.h:4
+msgid "Port:"
+msgstr "འདྲེན་ལམ:"
+
+#: ../src/glade/sessions.glade.h:13
+msgid "Save as:"
+msgstr "བཟུམ་སྦེ་སྲུངས་:"
+
+#: ../src/glade/sessions.glade.h:14
+#: ../tests/gyrus-talk.glade.h:6
+msgid "Use a secure connection"
+msgstr "མཐའ་བཙན་མཐུད་ལམ་ཅིག་ལག་ལེན་འཐབ"
+
+#: ../src/glade/sessions.glade.h:15
+msgid "Username:"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../src/gyrus-admin-acl.c:53
+#: ../src/gyrus-admin-acl.c:101
+#, c-format
+msgid "Mailbox '%s' does not exist."
+msgstr "ཡིག་སྒྲོམ་ '%s' འདི་མིན་འདུག།"
+
+#: ../src/gyrus-admin-acl.c:74
+msgid "Invalid identifier."
+msgstr "ནུས་ཅན་མེད་པའི་ངོས་འཛིན་པ།"
+
+#: ../src/gyrus-admin-acl.c:80
+msgid "Empty entry name."
+msgstr "འཛུལ་ཞུགས་མིང་སྟོངམ་སྟོན།"
+
+#: ../src/gyrus-admin-acl.c:85
+msgid "Empty mailbox name."
+msgstr "ཡིག་སྒྲོམ་མིང་སྟོངམ་སྟོན།"
+
+#: ../src/gyrus-admin-acl.c:105
+msgid "Missing required argument to Setacl"
+msgstr "སེཊི་ཨེ་སི་ཨེལ་ལུ་བརླག་སྟོར་ཞུགས་ཡོད་པའི་སྒྲུབ་རྟགས་"
+
+#: ../src/gyrus-admin-acl.c:141
+#: ../src/gyrus-admin-mailbox.c:80
+msgid "Permission denied"
+msgstr "གནང་བ་ཉན་མ་བཏུབ་"
+
+#: ../src/gyrus-admin-acl.c:173
+msgid "Empty access control list."
+msgstr "ཚད་འཛིན་ཐོ་ཡིག་འཛུལ་སྤྱོད་འབད་ནི་འདི་སྟོངམ་སྟོན།"
+
+#: ../src/gyrus-admin-mailbox.c:78
+msgid "Quota does not exist"
+msgstr "ཐོབ་སྐལ་མེད་"
+
+#: ../src/gyrus-admin-mailbox.c:172
+msgid "Quota overloaded"
+msgstr "ཐོབ་སྐལ་ལས་སྣ་མང་དྲགས་པ་"
+
+#: ../src/gyrus-admin-mailbox.c:228
+msgid "Quota not valid. Please try again."
+msgstr "ཐོབ་སྐལ་ནུས་ཅན་མེད།  ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../src/gyrus-admin-mailbox.c:242
+msgid "Unable to change quota. Are you sure do you have the appropiate permissions?"
+msgstr "ཐོབ་སྐལ་བསྒྱུར་བཅོས་འབད་མ་ཚུགས།  ཁྱོད་ལུ་འོས་ལྡན་གྱི་གནང་བ་ཡོད་ཟེར་མི་འདི་  ཁྱོད་ངེས་བདེན་ཨིན་ན?"
+
+#: ../src/gyrus-admin-mailbox.c:326
+#, c-format
+msgid "'%s' is not a valid mailbox name. Please try a different one."
+msgstr "'%s' འདི་ནུས་ཅན་ཡོད་པའི་ཡིག་སྒྲོམ་མིང་མེན།  སོ་སོ་ཅིག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../src/gyrus-admin-mailbox.c:334
+#, c-format
+msgid "Parent mailbox '%s' does not exist. Please refresh the mailboxes list and try again."
+msgstr "རྩ་ལག་ཡིག་སྒྲོམ་ '%s' མེད།  ཡིག་སྒྲོམ་ཚུའི་ཐོ་ཡིག་ཡང་སེལ་འབད་དེ་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../src/gyrus-admin-mailbox.c:344
+#, c-format
+msgid "Mailbox '%s' already exists. Please try a different name."
+msgstr "ཡིག་སྒྲོམ་ '%s' འདི་ཧེ་མ་ལས་རང་འདུག།  མིང་སོ་སོ་ཅིག་འབད་བལྟ།"
+
+#: ../src/gyrus-admin-mailbox.c:357
+msgid "Unable to create the mailbox. Are you sure do you have the appropiate permissions?"
+msgstr "ཡིག་སྒྲོམ་འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས།  ཁྱོད་ལུ་འོས་ལྡན་གྱི་གནང་བ་ཡོད་ཟེར་  ཁྱོད་ངེས་བདེན་ཨིན་ན?"
+
+#: ../src/gyrus-admin-mailbox.c:367
+msgid "Mailbox created, but could not set quota."
+msgstr "ཡིག་སྒྲོམ་གསར་བསྐྲུན་འབད་ནུག་  དེ་འབདཝ་ད་  ཐོབ་སྐལ་འདི་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../src/gyrus-admin-mailbox.c:423
+#, c-format
+msgid "Unable to delete '%s'. Permission denied."
+msgstr "'%s' བཏོན་གཏང་མ་ཚུགས།  གནང་བ་ཁས་མ་ལེན།"
+
+#: ../src/gyrus-admin-mailbox.c:624
+msgid "new entry"
+msgstr "འཛུལ་ཞུགས་གསརཔ་"
+
+#: ../src/gyrus-admin.c:484
+#: ../src/gyrus-report.c:266
+#, c-format
+msgid "Users (%d)"
+msgstr "ལག་ལེན་པ་ (%d)"
+
+#: ../src/gyrus-admin.c:490
+#, c-format
+msgid "Orphaned mailboxes (%d)"
+msgstr "ཨོར་ཕེནཌི་ཡིག་སྒྲོམ་ཚུ་  (%d)"
+
+#: ../src/gyrus-admin.c:534
+#: ../src/gyrus-admin.c:851
+msgid "Orphaned mailboxes"
+msgstr "ཨོར་ཕེནཌི་ཡིག་སྒྲོམ་ཚུ་"
+
+#: ../src/gyrus-admin.c:534
+#: ../src/gyrus-admin.c:849
+#: ../src/gyrus-report.c:150
+msgid "Users"
+msgstr "ལག་ལེན་པ་ཚུ་"
+
+#: ../src/gyrus-admin.c:605
+msgid "lookup"
+msgstr "བལྟ་བ་"
+
+#: ../src/gyrus-admin.c:606
+msgid "read"
+msgstr "ལྷག་"
+
+#: ../src/gyrus-admin.c:607
+msgid "seen"
+msgstr "མཐོང་ཡོདཔ་"
+
+#: ../src/gyrus-admin.c:608
+msgid "write"
+msgstr "འབྲི་"
+
+#: ../src/gyrus-admin.c:609
+msgid "insert"
+msgstr "བཙུགས་"
+
+#: ../src/gyrus-admin.c:610
+msgid "post"
+msgstr "གནས་བསྐྱོད་"
+
+#: ../src/gyrus-admin.c:611
+msgid "create"
+msgstr "གསར་བསྐྲུན་འབད་"
+
+#: ../src/gyrus-admin.c:612
+msgid "delete"
+msgstr "བཏོན་གཏང་"
+
+#: ../src/gyrus-admin.c:613
+msgid "admin"
+msgstr "བདག་སྐྱོང་"
+
+#: ../src/gyrus-admin.c:619
+msgid "Identifier"
+msgstr "ངོས་འཛིན་པ་"
+
+#: ../src/gyrus-admin.c:689
+#, c-format
+msgid "%s could not be found. Please check the name and try again."
+msgstr "%sའདི་འཐོབ་མ་ཚུགས།  མིང་རྟགས་ཞིབ་འབད་ཞིནམ་ལས་ལོག་འབད་བལྟ།"
+
+#: ../src/gyrus-admin.c:700
+#, c-format
+msgid "Could not connect to %s, port %d."
+msgstr "%s འདྲེན་ལམ་ %d ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../src/gyrus-admin.c:955
+msgid "Unable to connect with empty passwords. Please introduce your password."
+msgstr "ཆོག་ཡིག་སྟོངམ་ཚུ་དང་ཅིག་ཁར་མཐུད་མ་ཚུགས།  ཁྱོད་རའི་ཆོག་ཡིག་ངོ་སྤྲོད་འབད་གནང་།"
+
+#: ../src/gyrus-admin.c:962
+msgid "Incorrect login/password"
+msgstr "ནང་བསྐྱོད་/ ཆོག་ཡིག་བདེན་མེད་"
+
+#: ../src/gyrus-admin.c:970
+msgid "_Disconnect"
+msgstr "མཐུད་ལམ་བཏོག་ནི། (_D)"
+
+#: ../src/gyrus-admin.c:1317
+msgid "Could not change permission. Server error: "
+msgstr "གནང་བ་བསྒྱུར་བཅོས་འབད་མ་ཚུགས། སར་བར་འཛོལ་བ:"
+
+#: ../src/gyrus-admin.c:1358
+#, c-format
+msgid "An entry called '%s' already exists. Overwrite it?"
+msgstr "'%s' ཟེར་བའི་འཛུལ་ཞུགས་འདི་ཧེ་མ་ལས་རང་འདུག།  ཚབ་སྲུང་འབད་ག?"
+
+#: ../src/gyrus-dialog-find-mailbox.c:158
+#, c-format
+msgid "The text '%s' was not found in the mailbox list."
+msgstr "'%s'ཚིག་ཡིག་འདི་  ཡིག་སྒྲོམ་ཐོ་ཡིག་ནང་འཚོལ་མ་འཐོབ།"
+
+#: ../src/gyrus-dialog-find-mailbox.c:259
+msgid "Find mailbox"
+msgstr "ཡིག་སྒྲོམ་འཚོལ་"
+
+#: ../src/gyrus-dialog-mailbox-new.c:82
+msgid "Quota not valid"
+msgstr "ཐོབ་སྐལ་ནུས་ཅན་མེད"
+
+#: ../src/gyrus-dialog-mailbox-new.c:238
+msgid "New mailbox"
+msgstr "ཡིག་སྒྲོམ་གསརཔ་"
+
+#: ../src/gyrus-main-app.c:125
+#, c-format
+msgid "Really delete mailbox '%s' and all of its submailboxes?"
+msgstr "ཡིག་སྒྲོམ་  '%s' འདི་དང་  དེ་ལས་དེའི་ཡན་ལག་ཡིག་སྒྲོམ་ཚུ་ངོ་མ་སྦེ་རང་བཏོན་གཏང་ག?"
+
+#: ../src/gyrus-main-app.c:247
+#: ../src/gyrus-main-app.c:422
+msgid "Cyrus IMAP Administrator"
+msgstr "སའི་རཱསི་ཨའི་ཨེམ་ཨེ་པི་བདག་སྐྱོང་པ"
+
+#: ../src/gyrus-main-app.c:261
+#, c-format
+msgid "%s - Cyrus IMAP Administrator"
+msgstr "%s - སའི་རཱསི་ཨའི་ཨེམ་ཨེ་པི་བདག་སྐྱོང་པ་"
+
+#: ../src/gyrus-main-app.c:368
+msgid "_File"
+msgstr "ཡིག་སྣོད། (_F)"
+
+#: ../src/gyrus-main-app.c:369
+msgid "_Edit"
+msgstr "ཞུན་དག་འབད། (_E)"
+
+#: ../src/gyrus-main-app.c:370
+msgid "_ACL"
+msgstr "ཨེ་སི་ཨེལ། (_A)"
+
+#: ../src/gyrus-main-app.c:371
+msgid "_View"
+msgstr "མཐོང་སྣང་། (_V)"
+
+#: ../src/gyrus-main-app.c:372
+msgid "_Help"
+msgstr "གྲོགས་རམ། (_H)"
+
+#: ../src/gyrus-main-app.c:373
+msgid "Go to server..."
+msgstr "སར་བར་ལུ་འགྱོ..."
+
+#: ../src/gyrus-main-app.c:374
+msgid "Show the list of servers"
+msgstr "སར་བར་ཚུ་གི་ཐོ་ཡིག་སྟོན་"
+
+#: ../src/gyrus-main-app.c:375
+msgid "_Quit"
+msgstr "སྤོངས་(_Q)"
+
+#: ../src/gyrus-main-app.c:376
+msgid "Quit the program"
+msgstr "ལས་རིམ་སྤོང་"
+
+#: ../src/gyrus-main-app.c:377
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../src/gyrus-main-app.c:384
+msgid "Add mailbox"
+msgstr "ཡིག་སྒྲོམ་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/gyrus-main-app.c:385
+msgid "Add a mailbox under the one selected"
+msgstr "གཅིག་སེལ་འཐུ་འབད་དེ་ཡོད་ས་ལུ་  ཡིག་སྒྲོམ་ཅིག་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/gyrus-main-app.c:386
+msgid "_Find"
+msgstr "འཚོལ་(_F)"
+
+#: ../src/gyrus-main-app.c:387
+msgid "Search for a mailbox in current server"
+msgstr "ད་ལྟོའི་སར་བར་ནང་ཡིག་སྒྲོམ་ཅིག་འཚོལ་ཞིབ་འབད་"
+
+#: ../src/gyrus-main-app.c:388
+msgid "_Refresh"
+msgstr "ཡང་སེལ་(_R)"
+
+#: ../src/gyrus-main-app.c:389
+msgid "Refresh the mailbox list"
+msgstr "ཡིག་སྒྲོམ་ཐོ་ཡིག་འདི་ཡང་སེལ་འབད་"
+
+#: ../src/gyrus-main-app.c:391
+msgid "Create report of users with quota problems"
+msgstr "ཐོབ་སྐལ་དཀའ་ངལ་དང་ཅིག་ཁར་  ལག་ལེན་པ་ཚུ་གི་སྙན་ཞུ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/gyrus-main-app.c:395
+msgid "New entry"
+msgstr "ཐོ་བཀོད་གསརཔ་"
+
+#: ../src/gyrus-main-app.c:396
+msgid "Create a new ACL entry in current mailbox"
+msgstr "ད་ལྟོའི་སྒྲོམ་ནང་ལུ་  ཨེ་སི་ཨེལ་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../src/gyrus-main-app.c:397
+msgid "Remove mailbox"
+msgstr "ཡིག་སྒྲོམ་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/gyrus-main-app.c:398
+msgid "Remove current mailbox from the server"
+msgstr "སར་བར་ལས་ད་ལྟོའི་ཡིག་སྒྲོམ་འདི་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/gyrus-main-app.c:403
+msgid "Rename entry"
+msgstr "འཛུལ་ཞུགས་འདི་བསྐྱར་མིང་བཏགས་"
+
+#: ../src/gyrus-main-app.c:404
+msgid "Rename selected ACL entry"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཨེ་སི་ཨེལ་འཛུལ་ཞུགས་འདི་བསྐྱར་མིང་བཏགས་"
+
+#: ../src/gyrus-main-app.c:405
+msgid "Delete entry"
+msgstr "འཛུལ་ཞུགས་བཏོན་གཏང་"
+
+#: ../src/gyrus-main-app.c:406
+msgid "Delete selected ACL entry"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཨེ་སི་ཨེལ་འཛུལ་ཞུགས་འདི་བཏོན་གཏང་"
+
+#: ../src/gyrus-main-app.c:546
+msgid "translators-credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད་ཚུ་"
+
+#: ../src/gyrus-main-app.c:556
+msgid "GNOME Cyrus Administrator"
+msgstr "ཇི་ནོམ་སའི་རཱསི་བདག་སྐྱོང་པ་"
+
+#: ../src/gyrus-main-app.c:558
+msgid ""
+"(c) 2003-2005 GNOME Foundation\n"
+"(c) 2004-2005 Claudio Saavedra"
+msgstr ""
+"(c) 2003-2005ཇི་ནོམ་གཞི་ཚོགས་\n"
+"(c) 2004-2005 ཀོལོ་ཌིའུ་  སཱ་བི་ཌ་"
+
+#: ../src/gyrus-main-app.c:560
+msgid "Administration tool for Cyrus IMAP servers."
+msgstr "སའི་རཱསི་ཨའི་ཨེམ་ཨེ་པི་སར་བར་ཚུ་གི་དོན་ལུ་  བདག་སྐྱོང་གི་ལག་ཆས་ཚུ།"
+
+#. set title
+#: ../src/gyrus-report.c:86
+#, c-format
+msgid "Report: %s"
+msgstr "སྙན་ཞུ: %s"
+
+#: ../src/gyrus-report.c:171
+#: ../src/gyrus-report.c:458
+msgid "Quota (%)"
+msgstr "ཐོབ་སྐལ་  (%)"
+
+#: ../src/gyrus-report.c:184
+#: ../src/gyrus-report.c:461
+msgid "Assigned (KB)"
+msgstr "འགན་སྤྲོད་འབད་ཡོདཔ་ (ཀེ་བི་)"
+
+#: ../src/gyrus-report.c:195
+#: ../src/gyrus-report.c:464
+msgid "Used (KB)"
+msgstr "ལག་ལེན་འཐབ་ཡོད་པའི་ (ཀེ་བི་)"
+
+#: ../src/gyrus-report.c:384
+msgid "Print Report"
+msgstr "སྙན་ཞུ་དཔར་བསྐྲུན་འབད་"
+
+#. /my_status_bar_print ("Print previewing ...");
+#: ../src/gyrus-report.c:427
+msgid "Preview"
+msgstr "སྔོན་བལྟ་"
+
+#: ../src/gyrus-report.c:455
+msgid "User"
+msgstr "ལག་ལེན་པ་"
+
+#: ../src/gyrus-session.c:165
+msgid "Edit session"
+msgstr "ལཱ་ཡུན་ཞུན་དག་འབད་"
+
+#: ../src/gyrus-session.c:179
+msgid "New session"
+msgstr "ལཱ་ཡུན་གསརཔ་"
+
+#: ../src/gyrus-session.c:341
+msgid "A session name is required."
+msgstr "ལཱ་ཡུན་གྱི་མིང་དགོས་མཁོ་ཡོད།"
+
+#: ../src/gyrus-session.c:352
+#, c-format
+msgid "Session named \"%s\" already exists."
+msgstr " \"%s\" མིང་བཏགས་ཡོད་པའི་ལཱ་ཡུན་འདི་ཧེ་མ་ལས་རང་འདུག།"
+
+#: ../src/gyrus-session.c:390
+msgid "Session saved"
+msgstr "ལཱ་ཡུན་སྲུངས་ཡོདཔ་"
+
+#: ../src/gyrus-session.c:451
+msgid "Autodetect"
+msgstr "རང་བཞིན་སྐྱོན་འཛིན་པ་"
+
+#: ../src/gyrus-session.c:541
+msgid "Session"
+msgstr "ལཱ་ཡུན་"
+
+#: ../src/gyrus-session.c:692
+msgid "No host specified."
+msgstr "ཧོསཊི་གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../tests/gyrus-talk.glade.h:1
+msgid "<b>Connection</b>"
+msgstr "<b>མཐུད་ལམ</b>"
+
+#: ../tests/gyrus-talk.glade.h:2
+msgid "Command:"
+msgstr "བརྡ་བཀོད:"
+
+#: ../tests/gyrus-talk.glade.h:5
+msgid "Talk - Echo client"
+msgstr "ཁ་སླབ་ནི་- བྲག་ཅ་ཞབས་ཏོག་སྤྱོད་མི་"
+
+#: ../tests/gyrus-talk.glade.h:8
+msgid "_Send"
+msgstr "གཏང་། (_S)"
+
+#~ msgid "Create report..."
+#~ msgstr "སྙན་ཞུ་གསར་བསྐྲུན་འབད..."
+

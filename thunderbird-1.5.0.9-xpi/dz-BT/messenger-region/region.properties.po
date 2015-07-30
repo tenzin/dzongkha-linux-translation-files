@@ -1,0 +1,57 @@
+# extracted from dz-BT_orig/mail/chrome/messenger-region/region.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: region-properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2007-05-15 16:34+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#
+# messenger.properties
+# mailnews.js
+#: mailnews.start_page.url
+msgid "chrome://messenger/content/start.xhtml"
+msgstr "chrome://messenger/content/start.xhtml"
+
+#: releaseNotesURL
+msgid "http://www.mozilla.org/products/thunderbird/releases/%S.html"
+msgstr "http://www.mozilla.org/products/thunderbird/releases/%S.html"
+
+#: mailnews.hints_and_tips.url
+msgid "http://www.mozilla.org/support/thunderbird/"
+msgstr "http://www.mozilla.org/support/thunderbird/"
+
+#: messenger.throbber.url
+msgid "http://www.mozilla.org/products/thunderbird/"
+msgstr "http://www.mozilla.org/products/thunderbird/"
+
+# To make mapit buttons to disappear in the addressbook, specify empty string.  For example:
+# mail.addr_book.mapit_url.format=
+# The format for "mail.addr_book.mapit_url.format" is:
+# @A1 == address, part 1
+# @A2 == address, part 2
+# @CI == city
+# @ST == state
+# @ZI == zip code
+# @CO == country
+#: mail.addr_book.mapit_url.format
+msgid "http://maps.google.com/maps?q=@A1%20@A2%20@CI%20@ST%20@ZI%20@CO"
+msgstr "http://maps.google.com/maps?q=@A1%20@A2%20@CI%20@ST%20@ZI%20@CO"
+
+# This is the fallback URL for release notes. Do not change this
+# unless you are providing localized release notes!
+#: app.update.url.details
+msgid "http://www.mozilla.org/products/thunderbird/releases/"
+msgstr "http://www.mozilla.org/products/thunderbird/releases/"
+

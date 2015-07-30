@@ -1,0 +1,113 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libots.po\n"
+"Report-Msgid-Bugs-To: hazelsct@debian.org\n"
+"POT-Creation-Date: 2006-11-12 12:14+0100\n"
+"PO-Revision-Date: 2006-11-28 13:42+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Would you like to run the libots installer now?"
+msgstr "ཁྱོད་ཀྱིས་ ལི་བོཊིསི་གཞི་བཙུགས་པ་འདི་ ད་ལྟོ་གཡོག་བཀོལ་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "This is the Compaq libots installer package, it does not actually contain libots. You will need to go download libots yourself. Once you have downloaded it, you can proceed and tell the installer which directory you put it in."
+msgstr "འ་ནི་འདི་ཀམ་པེཀ་ལི་བོཊིསི་ གཞི་བཙུགས་པའི་ཐུམ་སྒྲིལ་ཨིན་ འདི་ནང་ལུ་ ལི་བོཊིསི་ཚུ་མེད། ཁྱོད་ཀྱིས་ཁྱོད་རང་གིས་འབད་ ཕབ་ལེན་ལི་བོཊིསི་ལུ་འགྱོ་དགོ། ཁྱོད་ཀྱིས་འདི་ཚར་གཅིག་ ཕབ་ལེན་འབད་ཞིནམ་ལས་ འཕྲོ་མཐུད་ཞིནམ་ལས་ ཁྱོད་ཀྱས་སྣོད་ཐོ་ག་འདི་བཙུགསཔ་ཨིན་ན་ གཞི་བཙུགས་པ་ལུ་སླབ་ཚུགས།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Location of the downloaded Compaq libots file:"
+msgstr "ཕབ་ལེན་འབད་ཡོད་པའི་ ཀམ་པེཀ་ལི་བོཊིསི་ཡིག་སྣོད་འདི་གི་གནས་ཁོངས་:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Please visit one of the Compaq FORTRAN, C or C++ Alpha Linux Compiler web pages now, all of which are linked from ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html, and if you agree to their terms and conditions, then download the Red Hat RPM of libots."
+msgstr "ཀམ་པེཀ་ཕོར་ཊེན་འདི་ཚུ་ལས་གཅིག་ སི་ ཡང་ན་ སི་++ ཨཱལ་ཕ་ལི་ནགསི་ ཕྱོགས་སྒྲིག་འབད་མི་ཝེབ་ཤོག་ལེབ་ཚུ་ད་ལྟོ་   ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html  ལས་འབྲེལ་མཐུད་འབད་ཡོད་མི་ ཚུ་ལུ་བལྟ་སྤྱོད་འབད་གནང་ དེ་ལས་ཁྱོད་ཀྱིས་འདི་ཚུ་གི་་ཐ་སྙད་དང་གནས་སྟངས་ལུ་ཁ་བཟེད་བ་ཅིན་ ལི་བོཊིསི་གི་ རེཊི་ཧེཊི་ ཨར་པི་ཨེམ་འདི་ ཕབ་ལེན་འབད།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "The file should be named ${filename}. Once you have downloaded it, enter the directory you put it in. Also make sure that permissions on the file are appropriate."
+msgstr "ཡིག་སྣོད་འདི་  ${filename}འབད་མིང་བཏགས་དགོ།  ཁྱོད་ཀྱིས་འདི་ ཚར་གཅིག་ཕབ་ལེན་འབད་ཞིནམ་ལས་ ཁྱོད་ཀྱིས་བཙུགས་མི་སྣོད་ཐོ་འདི་ ཐོ་བཀོད་འབད། ཡིག་སྣོད་གུའི་གནང་བ་ཚུ་ཡང་ འོས་ལྡན་ཨིནམ་ ངེས་ཏིག་བཟོ།"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Delete RPM file once it is installed?"
+msgstr "ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་ ཚར་གཅིག་གཞི་བཙུགས་འབད་ཞིནམ་ལས་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Please choose whether the RPM file can be deleted once it has been installed."
+msgstr "ཡང་ཅིན་ ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་ ཚར་གཅིག་གཞི་བཙུགས་འབད་ཞིནམ་ལས་ བཏོན་གཏང་བཏུབ་ཨིན་ན་ གདམ་ཁ་རྐྱབས།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "Compaq libots file not found"
+msgstr "ཀམ་པེཀ་ལི་བོཊིསི་ཡིག་སྣོད་ མ་འཐོབ་"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "The file ${filename} does not exist, or it is corrupt. You may have downloaded the wrong file, or put it in the wrong location. Please try again."
+msgstr "ཡིག་སྣོད་ ${filename} མེད་ ཡང་ན་ངན་ཅན་ཨིནམ་འོང་། ཁྱོད་ཀྱིས་ ཡིག་སྣོད་ཕྱི་འགྱུར་འདི་ ཕབ་ལེན་འབད་འབདཝ་འོང་ ཡང་ན་ གནས་ཁོངས་ཕྱི་འགྱུར་ནང་བཙུགས་བཙུགསཔ་འོང་། ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "If the file you downloaded has a different name, the filename may have changed since this installer was last updated. You can still try to use the installer; just rename the file you downloaded to ${filename} . Note that if you do this, there is no guarantee the installer will work."
+msgstr "ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་མི་ཡིག་སྣོད་འདི་ལུ་ མིང་སོ་སོ་ཅིག་ཡོདཔ་ཨིན་པ་ཅིན་ འ་ནི་གཞི་བཙུགས་པ་འདི་མཇུག་ལུ་དུས་མཐུན་བཟོ་ཡོད་མི་ལས་ཚུར་ ཡིག་སྣོད་མིང་འདི་ བསྒྱུར་བཅོས་འགྱོ་འགྱོཝ་འོང་། ཁྱོད་ཀྱིས་ད་ལྟོ་ཡང་འ་ནི་གཞི་བཙུགས་པ་འདི་ ལག་ལེན་འཐབ་ནི་འབད་རྩོལ་བསྐྱེད་བཏུབ་  ཁྱོད་ཀྱིས་ ${filename} ལུ་ཕབ་ལེན་འབད་མི་ ཡིག་སྣོད་འདི་ བསྐྱར་མིང་བཏགས། ཁྱོད་ཀྱིས་འ་ནི་འབད་བ་ཅིན་ གཞི་བཙུགས་པ་འདི་གིས་ལཱ་འབད་ནི་ཨིན་པའི་ ཉེན་ལེན་ག་ནི་ཡང་མེདཔ་དྲན།"
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Error from the Compaq libots installer"
+msgstr "ཀམ་པེཀ་ལི་བོཊིསི་གཞི་བཙུགས་པ་འདི་ལས་འཛོལ་བ་"
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "You are running in non-interactive mode, and the Compaq libots installer needs to prompt you to download a file for it to install, and cannot. The installation of this package has been aborted. Please re-install it in interactive mode."
+msgstr "ཁྱོད་ཕན་ཚུན་འབྲེལ་ལྡན་མིན་པའི་ཐབས་ལམ་ནང་ལཱ་འབདཝ་ཨིན་པས་ དེ་ལས་ གཞི་བཙུགས་འབད་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ཡིག་སྣོད་ཅིག་ཕབ་ལེན་འབད་ནིའི་དོན་ལས་ ཀམ་པེཀ་ལི་བོཊིསི་གཞི་བཙུགས་པ་འདི་ ནུས་སྤེལ་འབད་དགོ།  འ་ནི་ཐུམ་སྒྲིལ་གྱི་གཞི་བཙུགས་འདི་ བར་བཤོལ་འབད་ཡོད། འདི་ཕན་ཚུན་འབྲེལ་ལྡན་ཐབས་ལམ་ནང་ ལོག་གཞི་བཙུགས་འབད་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "Compaq libots install delayed"
+msgstr "ཀམ་པེཀ་ལི་བོཊིསི་གཞི་བཙུགས་ ཕྱིར་འགྱངས་འབད་ཡོདཔ་"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "You have chosen not to run the Compaq libots installer now. If you decide to run it later you can do so by running \"dpkg-reconfigure libots\"."
+msgstr "ཁྱོད་ཀྱིས་ ཀམ་པེཀ་ལི་བོཊིསི་གཞི་བཙུགས་པ་འདི་ ད་ལྟོ་ གཡོག་མི་བཀོལ་ནི་གདམ་ཁ་རྐྱབས་ནུག། ཁྱོད་ཀྱིས་འདི་ ཤུལ་ལས་གཡོག་བཀོལ་ནི་གི་གྲོས་ཐག་བཅདཔ་ཨིནམ་པ་ཅིན་   \"dpkg-reconfigure libots\"  གཡོག་བཀོལ་ཐིག་འབད་ཚུགས།"
+

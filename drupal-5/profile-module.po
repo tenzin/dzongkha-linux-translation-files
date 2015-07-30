@@ -1,0 +1,338 @@
+# LANGUAGE translation of Drupal (modules/profile.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: profile.module,v 1.154 2006/04/17 20:48:26 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: profile-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 14:21+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/profile/profile.module:35
+msgid "The profile module allows you to define custom fields (such as country, real name, age, ...) in the user profile. This permits users of a site to share more information about themselves, and can help community-based sites to organize users around profile fields."
+msgstr "གསལ་སྡུད་ཚད་གཞི་དེ་གིས་  ཁྱོད་ལུ་  གསལ་སྡུད་ལག་ལེན་པའི་ནང་ལུ་  (རྒྱལ་ཁབ་, མིང་ངོ་མ་, ལོ་ ལ་སོགས་པ་, ...) སྲོལ་སྒྲིག་ས་སྒོ་ཚུ་ངེས་འཛིན་འབད་བཅུགཔ་ཨིན།  དེ་གིས་  ས་ཁོངས་ཀྱི་ལག་ལེན་པ་ལུ་ ཁོང་རའི་སྐོར་ལས་བརྡ་དོན་མངམ་སླབ་བཅུག་ནི་དང་  མི་སྡེ་ལུ་བརྟེན་པའི་ས་ཁོངས་ཚུ་ལུ་  གསལ་སྡུད་ས་སྒོ་ཚུ་གི་མཐའ་འཁོར་ལུ་  ལག་ལེན་པ་ཚུ་འགོ་འདྲེན་འཐབ་ནི་ལུ་གྲོགས་རམ་འབདཝ་ཨིན། "
+
+#: modules/profile/profile.module:36
+msgid ""
+"<p>The following types of fields can be added to the user profile:</p>\n"
+"<ul>\n"
+"<li>single-line textfield</li>\n"
+"<li>multi-line textfield</li>\n"
+"<li>checkbox</li>\n"
+"<li>list selection</li>\n"
+"<li>freeform list</li>\n"
+"<li>URL</li>\n"
+"<li>date</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>འོག་ལུ་ཡོད་མི་ས་སྒོ་ཚུ་གི་དབྱེ་བ་འདི་  གསལ་སྡུད་ལག་ལེན་པ་ལུ་ཁ་སྐོང་བརྐྱབ་བཏུབ་ཨིན།:</p>\n"
+"<ul>\n"
+"<li>གྲལ་ཐིག་རྐྱང་པའི་ཚིག་ཡིག་ས་སྒོ།</li>\n"
+"<li>གྲལ་ཐིག་སྣ་མང་གི་ཚིག་ཡིག་ས་སྒོ།</li>\n"
+"<li>དཔྱད་སྒྲོམ།</li>\n"
+"<li>སེལ་འཐུ་ཚུ་ཐོ་ཡིག་བརྐྱབ།</li>\n"
+"<li>རང་དབང་ཐོ་ཡིག་</li>\n"
+"<li>ཡུ་ཨར་ཨེལ</li>\n"
+"<li>གནད་སྡུད།</li>\n"
+"</ul>\n"
+
+#: modules/profile/profile.module:47
+msgid "For more information please read the configuration and customization handbook <a href=\"@profile\">Profile page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་ནི་དང་  སྲོལ་སྒྲིག་འབད་ནི་གི་ལག་དེབ་ <a href=\"@profile\">གསལ་སདུད་ཤོག་ལེབ་</a>འདི་ལྷག་གནང་།"
+
+#: modules/profile/profile.module:50
+msgid "Here you can define custom fields that users can fill in in their user profile (such as <em>country</em>, <em>real name</em>, <em>age</em>, ...)."
+msgstr "ནཱ་ལུ་  ལག་ལེན་པའི་གསལ་སྡུད་ ( <em>རྒྱལ་ཁབ་</em>, <em>མིང་ངོ་མ་</em>, <em>ལོ་</em>, ...)གསལ་སྡུད་ལག་ལེན་པའི་ནང་ལུ་ལག་ལེན་པ་དེ་གིས་ བཙུགས་བཏུབ་  སྲོལ་སྒྲིག་ས་སྒོ་ཚུ་  ཁྱོད་ཀྱིས་ངེས་འཛིན་འབད་བཏུབ་ཨིན།"
+
+#: modules/profile/profile.module:62
+msgid "User list"
+msgstr "ལག་ལེན་པའི་ཐོ་ཡིག་"
+
+#: modules/profile/profile.module:67
+msgid "Profiles"
+msgstr "གསལ་སྡུད་ཚུ་"
+
+#: modules/profile/profile.module:68
+msgid "Create customizable fields for your users."
+msgstr "ཁྱོད་རའི་ལག་ལེན་པ་འདི་གི་དོན་ལུ་  སྲོལ་སྒྲིག་འབད་བཏུབ་པའི་ས་སྒོ་ཚུ་གསར་བསྐྲུན་འབད།"
+
+#: modules/profile/profile.module:71
+msgid "Add field"
+msgstr "ས་སྒོ་ཁ་སྐོང་བརྐྱབ་"
+
+#: modules/profile/profile.module:76
+msgid "Profile category autocomplete"
+msgstr "གསལ་སྡུད་དབྱེ་རིམ་འདི་རང་བཞིན་མཇུག་བསྡུ་"
+
+#: modules/profile/profile.module:81
+msgid "Edit field"
+msgstr "ས་སྒོ་ཞུན་དག་འབད་"
+
+#: modules/profile/profile.module:86
+msgid "Delete field"
+msgstr "ས་སྒོ་འདི་བཏོན་གཏང་"
+
+#: modules/profile/profile.module:90
+msgid "Profile autocomplete"
+msgstr "གསལ་སྡུད་འདི་རང་བཞིན་མཇུག་བསྡུ་"
+
+#: modules/profile/profile.module:105
+msgid "Author information"
+msgstr "རྩོམ་པ་པོའི་བརྡ་དོན།"
+
+#: modules/profile/profile.module:116
+msgid "Link to full user profile"
+msgstr "གསལ་སྡུད་ལག་ལེན་པ་ཆ་ཚང་ལུ་འབྲེལ་མཐུད་འབད།"
+
+#: modules/profile/profile.module:118
+msgid "Profile fields to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ཨིན་པའི་གསལ་སྡུད་ས་སྒོ་ཚུ།"
+
+#: modules/profile/profile.module:121
+msgid "Select which profile fields you wish to display in the block. Only fields designated as public in the <a href=\"@profile-admin\">profile field configuration</a> are available."
+msgstr "སྡེབ་ཚན་ནང་ལུ་  གསལ་སྡུད་ས་སྒོ་ཚུ་ག་འདི་བཀྲམ་སྟོན་འབད་ནི་ཨིན་ན་འདི་  ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད།  <a href=\"@profile-admin\">གསལ་སྡུད་ས་སྒོའི་རིམ་སྒྲིག་</a>ནང་ལུ་  མི་མང་འབད་ངོས་འཛིན་འབད་དེ་ཡོད་མི་གི་  ས་སྒོ་ཚུ་རྐྱངམ་ཅིག་  འཐོབ་ཚུགསཔ་ཡོད།"
+
+#: modules/profile/profile.module:152
+msgid "View full user profile"
+msgstr "གསལ་སྡུད་ལག་ལེན་པ་ཆ་ཚང་སྟོན།"
+
+#: modules/profile/profile.module:157
+msgid "About %name"
+msgstr "%nameསྐོར་ལས།"
+
+#: modules/profile/profile.module:204
+msgid "edit %title"
+msgstr "%titleའདི་ཞུན་དག་འབད།"
+
+#: modules/profile/profile.module:222
+msgid "add new %type"
+msgstr " %typeགསརཔ་འདི་ཁ་སྐོང་བརྐྱབ།"
+
+#: modules/profile/profile.module:227
+msgid "Field settings"
+msgstr "ས་སྒོ་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/profile/profile.module:233
+msgid "The category the new field should be part of. Categories are used to group fields logically. An example category is \"Personal information\"."
+msgstr "དབྱེ་རིམ་དང་ས་སྒོ་གསརཔ་འདི་ཚུ་ ཁ་བྲལ་དགོ།  དབྱེ་རིམ་ཚུ་  ས་སྒོ་ཚུ་གཏན་ཚིག་ཅན་གྱི་ཐོག་ལུ་འབད་སྡེ་ཚན་བཟོ་ནི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན།  དབྱེ་རིམ་གྱི་དཔེ་འདི་  \"Personal information\"ཨིན།"
+
+#: modules/profile/profile.module:239
+msgid "The title of the new field. The title will be shown to the user. An example title is \"Favorite color\"."
+msgstr "ས་སྒོ་གསརཔ་གི་མགོ་མིང་།  མགོ་མིང་འདི་ལག་ལེན་པ་ལུ་སྟོནམ་འོང་།  དེ་གི་དཔེ་འདི་  \"Favorite color\" ཨིན།"
+
+#: modules/profile/profile.module:243
+msgid "Form name"
+msgstr "འབྲི་ཤོག་མིང་།"
+
+#: modules/profile/profile.module:245
+msgid ""
+"The name of the field. The form name is not shown to the user but used internally in the HTML code and URLs.\n"
+"Unless you know what you are doing, it is highly recommended that you prefix the form name with <code>profile_</code> to avoid name clashes with other fields. Spaces or any other special characters except dash (-) and underscore (_) are not allowed. An example name is \"profile_favorite_color\" or perhaps just \"profile_color\"."
+msgstr ""
+"ས་སྒོ་གི་མིང་།  འབྲི་ཤོག་གི་མིང་འདི་ལག་ལེན་པ་ལུ་མ་སྟོན་མས་  དེ་འབདཝ་ད་  ནང་ན་ལས་  ཨེཆ་ཊི་ཨེམ་ཨེལ་ཨང་རྟགས་དང་ ཡུ་ཨར་ཨེལ་ཨེསི་ནང་ལུ་ལག་ལེན་འཐབ་ཨིན།\n"
+"ཁྱོད་ཀྱིས་ཁྱོད་རང་ག་ཅི་འབདཝ་ཨིན་མ་ཤེས་ཚུན་  ས་སྒོ་གཞན་མི་ཚུ་དང་ཅིག་ཁར་མིང་ཁ་འཐབ་བརྐྱབ་ནི་འདི་བཀག་ནིའི་དོན་ལུ་  ཁྱོད་ཀྱིས་  འབྲི་ཤོག་མིང་འདི་  <code>གསལ་སྡུད་_</code> དང་བཅས་སྔོན་ཚིག་བཟོ་དགོ་ཟེར་  འོས་སྦྱོར་འབད་ཡོད།"
+
+#: modules/profile/profile.module:250
+msgid "Explanation"
+msgstr "གསལ་བཤད།"
+
+#: modules/profile/profile.module:252
+msgid "An optional explanation to go with the new field. The explanation will be shown to the user."
+msgstr "ས་སྒོ་གསརཔ་དང་ཅིག་ཁར་འགྱོ་ནི་ལུ་  གདམ་ཁ་ཅན་གྱི་གསལ་བཤད།  གསལ་བཤད་འདི་ལག་ལེན་པ་ལུ་ སྟོན་འོང་།"
+
+#: modules/profile/profile.module:256
+msgid "Selection options"
+msgstr "སེལ་འཐུ་གི་གདམ་ཁ་ཚུ།"
+
+#: modules/profile/profile.module:258
+msgid "A list of all options. Put each option on a separate line. Example options are \"red\", \"blue\", \"green\", etc."
+msgstr "གདམ་ཁ་ཚུ་ཆ་མཉམ་གྱི་ཐོ་ཡིག།  གདམ་ཁ་རེ་ལུ་  གྲལ་ཐིག་སོ་སོ་ཅིག་བཀོད།  དཔེ་གི་གདམ་ཁ་ཚུ་  \"red\", \"blue\", \"green\", ལ་སོགས་པ་ཚུ་ཨིན།"
+
+#: modules/profile/profile.module:265
+msgid "The weights define the order in which the form fields are shown. Lighter fields \"float up\" towards the top of the category."
+msgstr "འབྲི་ཤོག་གི་ས་སྒོ་ཚུ་སྟོན་ཡོད་པའི་ནང་  ལྗིད་ཚད་དེ་གིས་ རིམ་པ་འདི་ངོས་འཛིན་འབདཝ་ཨིན།  དབྱེ་རིམ་གྱི་མགོ་ལུ་  ཡང་བའི་ས་སྒོ་ \"float up\" ཚུ།"
+
+#: modules/profile/profile.module:268
+msgid "Visibility"
+msgstr "མཐོང་གསལ།"
+
+#: modules/profile/profile.module:270
+msgid "Hidden profile field, only accessible by administrators, modules and themes."
+msgstr "སྦ་དེ་ཡོད་པའི་ས་སྒོ་འདི་  བདག་སྐྱོང་པ་ཚུ་དང་  ཚད་གཞི་  དེ་ལས་  བརྗོད་དོན་ཚུ་གིས་རྐྱངམ་ཅིག་ འཛུལ་སྤྱོད་འབད་ཚུགས།"
+
+#: modules/profile/profile.module:270
+msgid "Private field, content only available to privileged users."
+msgstr "སྒེར་དོན་ས་སྒོ་གི་ནང་དོན་རྐྱངམ་ཅིག་  ཁེ་དབང་ཅན་གྱི་ལག་ལེན་ལུ་འཐོབ་ཚུགས།"
+
+#: modules/profile/profile.module:270
+msgid "Public field, content shown on profile page but not used on member list pages."
+msgstr "མི་མང་ས་སྒོའི་ནང་དོན་འདི་  གསལ་སྡུད་ཤོག་ལེབ་གུ་སྟོན་ཡོད་  དེ་འབདཝ་ད་  འཐུས་མི་ཐོ་ཡིག་ཚུ་གི་ཤོག་ལེབ་གུ་ལག་ལེན་འཐམ་མི་མེད།"
+
+#: modules/profile/profile.module:270
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr "མི་མང་ས་སྒོའི་ནང་དོན་འདི་  གསལ་སྡུད་ཤོག་ལེབ་དང་ འཐུས་མི་ཐོ་ཡིག་ཤོག་ལེབ་གུ་སྟོན་ཡོད།"
+
+#: modules/profile/profile.module:274;281
+msgid "Page title"
+msgstr "ཤོག་ལེབ་ཀྱི་མགོ་མིང་།"
+
+#: modules/profile/profile.module:276
+msgid "To enable browsing this field by value, enter a title for the resulting page. The word <code>%value</code> will be substituted with the corresponding value. An example page title is \"People whose favorite color is %value\". This is only applicable for a public field."
+msgstr "གནས་གོང་གིས་ས་སྒོ་གི་བརྡ་འཚོལ་འབད་ནི་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་  ཤོག་ལེབ་གྲུབ་འབྲས་ཀྱི་དོན་ལུ་  མགོ་མིང་ཅིག་ཐོ་བཀོད་འབད།  <code>%value</code>མིང་ཚིག་འདི་  ཆ་མཉམ་པའི་གནས་གོང་དང་ཅིག་ཁར་ ཚབ་བཙུགས་འོང་།  ཤོག་ལེབ་མགོ་མིང་གི་དཔེ་འདི་   \"People whose favorite color is %value\"ཨིན།  འདི་ མི་མང་ས་སྒོ་ཅིག་ལུ་རྐྱངམ་ཅིག་འཇུག་སྤྱོད་འབད་བཏུབ་ཨིན།"
+
+#: modules/profile/profile.module:283
+msgid "To enable browsing this field by value, enter a title for the resulting page. An example page title is \"People who are employed\". This is only applicable for a public field."
+msgstr "ས་སྒོ་འདི་  གནས་གོང་དེ་གིས་ བརྡ་འཚོལ་འབད་ནི་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་  ཤོག་ལེབ་གྲུབ་འབྲས་ཀྱི་དོན་ལུ་  མགོ་མིང་ཅིག་ཐོ་བཀོད་འབད།  ཤོག་ལེབ་མགོ་མིང་གི་དཔེ་འདི་  \"People who are employed\" ཨིན།  འདི་  མི་མང་ས་སྒོ་ཅིག་ལུ་མཇུག་སྤྱོད་འབད་བཏུབ་ཨིན།"
+
+#: modules/profile/profile.module:287
+msgid "Form will auto-complete while user is typing."
+msgstr "ལག་ལེན་པ་འདི་ཡིག་དཔར་བརྐྱབ་ད་  རྣམ་པ་དེ་རང་བཞིན་-མཇུག་བསྡུ་ཨིནམ་འོང་།"
+
+#: modules/profile/profile.module:291
+msgid "The user must enter a value."
+msgstr "ལག་ལེན་པ་འདི་གིས་ གནས་གོང་ཅིག་ཐོ་བཀོད་འབད་དགོ།"
+
+#: modules/profile/profile.module:295
+msgid "Visible in user registration form."
+msgstr "ལག་ལེན་པའི་ཐོ་འགོད་འབྲི་ཤོག་ནང་ལུ་མཐོང་ཚུགས།"
+
+#: modules/profile/profile.module:299
+msgid "Save field"
+msgstr "ས་སྒོ་འདི་སྲུངས།"
+
+#: modules/profile/profile.module:310
+msgid "The specified form name contains one or more illegal characters. Spaces or any other special characters expect dash (-) and underscore (_) are not allowed."
+msgstr "གསལ་བཀོད་འབད་དེ་ཡོད་པའི་འབྲི་ཤོག་དེ་ལུ་  ཁྲིམས་འགལ་ཡིག་འབྲུ་གཅིག་ཡང་ན་མངམ་གནས་དེ་ཡོདཔ་ཨིན།  བར་སྟོང་ཡང་ན་  དམིགས་བསལ་གྱི་ཡིག་འབྲུ་ཚུ་  སྦྲེལ་རྟགས་(-) དང་ འོག་ཐིག་ (_) དེ་ཚུ་ མི་ཆོག"
+
+#: modules/profile/profile.module:314
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "གསལ་བཀོད་འབད་དེ་ཡོད་པའི་འབྲི་ཤོག་མིང་འདི་  ལག་ལེན་འཐབ་ནི་དོན་ལུ་ ཌུ་པཱལ་གྱིས་ཟུར་གསོག་འབད་ཡོད།"
+
+#: modules/profile/profile.module:321
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "གསལ་བཀོད་འབད་དེ་ཡོད་པའི་དབྱེ་རིམ་མིང་འདི་  ལག་ལེན་འཐབ་ནི་དོན་ལུ་  ཌུ་པཱལ་གྱིས་ཟུར་གསོག་འབད་ཡོད།"
+
+#: modules/profile/profile.module:333
+msgid "The specified title is already in use."
+msgstr "གསལ་བཀོད་འབད་དེ་ཡོད་པའི་མགོ་མིང་འདི་ ཧེ་མ་ལས་ལག་ལེན་འཐབ་དེ།"
+
+#: modules/profile/profile.module:336
+msgid "The specified name is already in use."
+msgstr "གསལ་བཀོད་འབད་དེ་ཡོད་པའི་མིང་འདི་  ཧེ་མ་ལས་རང་ ལག་ལེན་འཐབ་དེ།"
+
+#: modules/profile/profile.module:347
+msgid "The field has been created."
+msgstr "ས་སྒོ་འདི་གསར་བསྐྲུན་འབད་དེ་ཡོད།"
+
+#: modules/profile/profile.module:348
+msgid "Profile field %field added under category %category."
+msgstr "གསལ་སྡུད་ས་སྒོ་ %field འདི་  དབྱེ་རིམ་ %category འོག་ལུ་ ཁ་སྐོང་བརྐྱབ་སྟེ་ཡོད།"
+
+#: modules/profile/profile.module:353
+msgid "The field has been updated."
+msgstr "ས་སྒོ་འདི་དུས་མཐུན་བཟོ་དེ་ཡོད།"
+
+#: modules/profile/profile.module:373
+msgid "Are you sure you want to delete the field %field?"
+msgstr "ཁྱོད་ཀྱིས་ ས་སྒོ་%field འདི་ བཏོན་གཏང་ནི་ཟེར་མི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: modules/profile/profile.module:374
+msgid "This action cannot be undone. If users have entered values into this field in their profile, these entries will also be deleted. If you want to keep the user-entered data, instead of deleting the field you may wish to <a href=\"@edit-field\">edit this field</a> and change it to a hidden profile field so that it may only be accessed by administrators."
+msgstr "བྱ་བ་འདི་ མ་འབད་བར་བཞག་མི་བཏུབ།  ལག་ལེན་པ་དེ་ཚུ་གིས་ཁོང་རའི་གསལ་སྡུད་ནང་ལུ་ཡོད་པའི་  ས་སྒོ་གི་ནང་ལུ་ གནས་གོང་འདི་ཐོ་བཀོད་འབད་དེ་ཡོད་པ་ཅིན་  ཐོ་བཀོད་དེ་ཚུ་ཡང་བཏོན་གཏང་འོང་།  ཁྱོད་ཀྱིས་  ཐོ་བཀོད་འབད་དེ་ཡོད་པའི་ལག་ལེན་པའི་གནད་སྡུད་འདི་བཞག་ནི་ཨིན་པ་ཅིན་  ས་སྒོ་འདི་བཏོན་གཏང་ནི་མེན་པར་  ཁྱོད་ཀྱིས་  རེ་འདོད་ཡོད་མི་<a href=\"@edit-field\">ས་སྒོ་འདི་ཞུན་དག་འབད་</a> ལུ་བསྒྱུར་བ་ཅིན་  བདག་སྐྱོང་པ་དེ་གིས་རྐྱངམ་ཅིག་འཛུལ་སྤྱོད་འབད་ཚུགས།"
+
+#: modules/profile/profile.module:387
+msgid "The field %field has been deleted."
+msgstr "ས་སྒོ་ %field འདི་བཏོན་གཏང་ཡོད།"
+
+#: modules/profile/profile.module:388
+msgid "Profile field %field deleted."
+msgstr "གསལ་སྡུད་ས་སྒོ་ %field བཏོན་གཏང་ནུག"
+
+#: modules/profile/profile.module:404
+msgid "No fields defined."
+msgstr "ས་སྒོ་ངེས་འཛིན་མ་འབད་བས།"
+
+#: modules/profile/profile.module:410
+msgid "Add new field"
+msgstr "ས་སྒོ་གསརཔ་ཁ་སྐོང་བརྐྱབ།"
+
+#: modules/profile/profile.module:516
+msgid "user list"
+msgstr "ལག་ལེན་པའི་ཐོ་ཡིག"
+
+#: modules/profile/profile.module:617
+msgid "Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr "རྣམ་གྲངས་རེ་རེ་འབད་གྲལ་ཐིག་སོ་སོའི་ནང་བཙུགས་  ཡང་ན་  དེ་ཚུ་ལྷད་རྟགས་ཀྱིས་ཁ་འཕྱལ་ད།  ཨེཆ་ཊི་ཨེམ་ཨེལ་འདི་མི་ཆོག"
+
+#: modules/profile/profile.module:734
+msgid "The value provided for %field is not a valid URL."
+msgstr " %fieldདོན་ལུ་བྱིན་དེ་ཡོད་པའི་གནས་གོང་འདི་ ནུས་ཅན་ཡོད་པའི་ཡུ་ཨར་ཨེལ་འདི་མེད་པས།"
+
+#: modules/profile/profile.module:739
+msgid "The field %field is required."
+msgstr "ས་སྒོ་ %field འདི་དགོས་མཁོ་ཡོད།"
+
+#: modules/profile/profile.module:790
+msgid "single-line textfield"
+msgstr "གྲལ་ཐིག་རྐྱང་པའི་ཚིག་ཡིག་ས་སྒོ།"
+
+#: modules/profile/profile.module:791
+msgid "multi-line textfield"
+msgstr "སྣ་མང་གྲལ་ཐིག་ཚིག་ཡིག་ས་སྒོ།"
+
+#: modules/profile/profile.module:792
+msgid "checkbox"
+msgstr "དཔྱད་སྒྲོམ།"
+
+#: modules/profile/profile.module:793
+msgid "list selection"
+msgstr "སེལ་འཐུ་ཐོ་བཀོད་འབད།"
+
+#: modules/profile/profile.module:794
+msgid "freeform list"
+msgstr "རང་དབང་ཐོ་ཡིག་བརྐྱབ།"
+
+#: modules/profile/profile.module:796
+msgid "date"
+msgstr "ཚེས་གྲངས།"
+
+#: modules/profile/profile.module:348;388;0
+msgid "profile"
+msgstr "གསལ་སྡུད།"
+
+#: modules/profile/profile.info:0
+msgid "Profile"
+msgstr "གསལ་སྡུད་"
+
+#: modules/profile/profile.info:0
+msgid "Supports configurable user profiles."
+msgstr "རིམ་སྒྲིག་འབད་བཏུབ་པའི་ལག་ལེན་པའི་གསལ་སྡུད་འདི་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>view user <a href=\"%profile\">profiles</a>.</li>\n"
+#~ "<li>administer profile settings: <a href=\"%admin-settings-profile"
+#~ "\">administer &gt;&gt; settings &gt;&gt; profiles</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ལག་ལེན་པའི་<a href=\"%profile\">གསལ་སྡུད་འདི་སྟོན་བཏུབ་ཨིན།</a>.</li>\n"
+#~ "<li>གསལ་སྡུད་སྒྲིག་སྟངས་ཚུ་ བདག་སྐྱོང་འབད: <a href=\"%admin-settings-profile"
+#~ "\">administer &gt;&gt; settings &gt;&gt;གསལ་སྡུད་ཚུ།</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgid "hidden profile field"
+#~ msgstr "སྦ་དེ་ཡོད་པའི་གསལ་སྡུད་ས་སྒོ།"
+#~ msgid "The content of this field is private and only visible to yourself."
+#~ msgstr "ས་སྒོ་འདི་གི་ནང་དོན་འདི་སྒེར་ཨིནམ་ལས་  ཁྱོད་ལུ་རྐྱངམ་ཅིག་མཐོང་ཚུགསཔ་ཨིན།"
+

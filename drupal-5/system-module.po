@@ -1,0 +1,1014 @@
+# LANGUAGE translation of Drupal (modules/system.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: system.module,v 1.320.2.6 2006/06/01 22:08:06 killes
+# sonam pelden <sonaa_peldn@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-23 14:17+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/path/path.module:301
+#: modules/system/system.info:0
+msgid "System"
+msgstr "རིམ་ལུགས་"
+
+#: modules/system/system.module:19
+msgid "The system module provides system-wide defaults such as running jobs at a particular time, and storing web pages to improve efficiency. The ability to run scheduled jobs makes administering the web site more usable, as administrators do not have to manually start jobs. The storing of web pages, or caching, allows the site to efficiently re-use web pages and improve web site performance. The settings module provides control over preferences, behaviours including visual and operational settings."
+msgstr "རིམ་ལུགས་ཚད་གཞི་དེ་གིས་  དུས་ཚོད་བྱེ་བྲག་ལུ་ལཱ་གཡོག་བཀལ་ནི་དང་  ནུས་ཤུགས་ལེགས་བཟོ་འབད་ནི་ལུ་ཝེབ་ཤོག་ལེབ་གསོག་འཇོག་བཟུམ་གྱི་  རིམ་ལུགས་རྒྱ་ཅན་སྔོན་སྒྲིག་ཚུ་བྱིནམ་ཨིན།  འཆར་རིམ་ཅན་གྱི་ལཱ་ཚུ་གཡོག་བཀལ་ནི་གི་ལྕོགས་གྲུབ་འདི་གིས་  བདག་སྐྱོང་པ་དེ་ཚུ་ལཱ་འདི་ལག་དེབ་ཐོག་འགོ་བཙུགས་དགོཔ་མེདཔ་ལས་  ཝེབ་ཀྱི་ས་སྟོང་བདག་སྐྱོང་འབད་ནི་འདི་ ལེ་ཤ་ལག་ལེན་འཐབ་བཏུབ་བཟོཝ་ཨིན།  ཝེབ་ཤོག་ལེབ་གསོག་འཇོག་འབད་ནི་ཡང་ན་  འདྲ་མཛོད་ནང་བཙུགས་ནི་འདི་གིས་  ས་ཁོངས་དེ་ལུ་  ཝེབ་ཤོག་ལེབ་ཚུ་ནུས་ཤུགས་ཐོག་ལས་སླར་ལག་ལེན་འཐབ་ནི་དང་  ཝེབ་ས་ཁོངས་ཀྱི་ལཱ་ཤུགས་ལེགས་བཟོ་འབད་བཅུགཔ་ཨིན།  སྒྲིག་སྟངས་ཚད་གཞི་འདི་གིས་  དགའ་དམ་ཚུ་  བྱ་སྤྱོད་ཚུ་དེ་ཡང་  མཐོང་ནི་དང་བཀོལ་སྤྱོད་ཀྱི་སྒྲིག་སྟངས་དེ་ཚུ་ལུ་ཚད་གཞི་བྱིནམ་ཨིན།"
+
+#: modules/system/system.module:20
+msgid "Some modules require regularly scheduled actions, such as cleaning up logfiles. Cron, which stands for chronograph, is a periodic command scheduler executing commands at intervals specified in seconds. It can be used to control the execution of daily, weekly and monthly jobs (or anything with a period measured in seconds). The aggregator module periodically updates feeds using cron. Ping periodically notifies services of new content on your site. Search periodically indexes the content on your site. Automating tasks is one of the best ways to keep a system running smoothly, and if most of your administration does not require your direct involvement, cron is an ideal solution. Cron can, if necessary, also be run manually."
+msgstr "ཚད་གཞི་ལ་ལོ་ཅིག་ལུ་  དྲན་དེབ་ཡིག་སྣོད་ཚུ་གཙང་དག་བཟོ་ནི་བཟུམ་མའི་  དུས་རྒྱུན་འཆར་རིམ་ཅན་གྱི་བྱ་བ་ཚུ་དགོཔ་ཨིན།  དུས་མཚམས་འཇལ་ཆས་ཀྱི་ཚབ་ལུ་ཨིན་པའི་   ཀོརཱོན་འདི་   སྐར་ཆ་ཚུ་ནང་གསལ་བཀོད་འབད་དེ་ཡོད་པའི་བར་མཚམས་ལུ་ཡོད་མི་  དུས་ཡུན་བརྡ་བཀོད་འཆར་རིམ་བཀོད་མི་ལག་ལེན་འཐབ་ནིའི་བརྡ་བཀོད་ཨིན།  དེ་ཡང་  ཉིན་སྟར་གྱི་ལག་ལེན་འཐབ་ནི་  བདུན་རིམ་དང་ཟླ་བ་རེ་རེ་གི་ལཱ་ (དུས་ཡུན་དང་ཅིག་ཁར་སྐར་ཆའི་ནང་ཚད་འཇལ་ཡོད་མི་གང་རུང་ཅིག་) ཚུ་ཚད་འཛིན་འབད་ནི་ལུ་ལག་ལེན་འཐབ་བཏུབ་ཨིན།  སྤྱི་བསྡོམས་བཟོ་མིའི་ཚད་གཞི་འདི་གིས་ ཀོརཱོན་ལག་ལེན་འཐབ་སྟེ་  མཁོ་སྤྲོད་འབད་ནི་ཚུ་དུས་མཐུན་བཟོཝ་ཨིན།  པིང་སྒྲ་འདི་གིས་  ཁྱོད་རའི་ས་ཁོངས་ལུ་  དུས་ཡུན་གྱི་ཐོག་ལས་  ནང་དོན་གསརཔ་གི་ཞབས་ཏོག་འདི་བརྡ་བསྐུལ་འབདཝ་ཨིན།  འཚོལ་ཞིབ་དུས་ཡུན་ཐོག་དེ་གིས་  ཁྱོད་རའི་ས་ཁོངས་གུ་  ནང་དོན་འདི་ཟུར་སྦྲགས་འབདཝ་ཨིན།  རང་བཞིན་གྱི་ལས་ཀ་འདི་ཚུ་  རིམ་ལུགས་ལེགས་ཤོམ་འབད་གཡོག་བཀལ་ནི་ཅིག་བཞག་ནི་དོན་ལུ་ཐབས་ལམ་གཅིག་དང་  ཁྱོད་ཀྱི་བདག་སྐྱོང་དེ་གིས་  ཁྱོད་གྱལ་ཁར་མཛུལ་ནི་འདི་དགོས་མཁོ་མེད་པ་ཅིན་  ཀོརཱོན་འདི་ཐབས་ཤེས་ལེགས་ཤོམ་ཅིག་ཨིན།"
+
+#: modules/system/system.module:21
+msgid "There is a caching mechanism which stores dynamically generated web pages in a database. By caching a web page, the system module does not have to create the page each time someone wants to view it, instead it takes only one SQL query to display it, reducing response time and the server's load. Only pages requested by <em>anonymous</em> users are cached. In order to reduce server load and save bandwidth, the system module stores and sends cached pages compressed."
+msgstr "ནུས་ཅན་ཐོག་ལས་བཟོ་བཏོན་འབད་ཡོད་པའི་ཝེབ་ཤོག་ལེབ་ཚུ་  གནད་སྡུད་གཞི་རྟེན་ཅིག་ནང་གསོག་འཇོག་འབད་མི་  འདྲ་མཛོད་ཐབས་རིག་ཅིག་ཡོད།  ཝེབ་ཤོག་ལེབ་ཅིག་  འདྲ་འཛོད་འབད་དེ་  རིམ་ལུགས་ཚད་གཞི་འདི་  གཞན་གྱི་བལྟ་ནི་དོན་ལུ་ཤོག་ལེབ་འདི་ཨ་རྟག་རང་གསར་བསྐྲུན་འབད་མིང་དགོ་  དེ་གི་ཚབ་ལུ་  བཀྲམ་སྟོན་འབད་ནི་དོན་ལུ་  དེ་གིས་  ཨེསི་ཀིའུ་ཨེལ་འདྲི་དཔྱད་གཅིག་རྐྱངམ་ཅིག་འབགཔ་ཨིན་  དེ་ཡང་  ལན་གྱི་ཆུ་ཚོད་དང་  སར་བར་གྱི་མངོན་གསལ་འབད་ཐོག་ལས་ཨིན།    <em>མིང་མེདཔ་</em>ལག་ལེན་པ་གིས་ཟུ་བ་འབད་དེ་ཡོད་པའི་  ཤོག་ལེབ་རྐྱངམ་ཅིག་  འདྲ་འཛོད་ཨིན།  སར་བར་མངོན་གསལ་འདི་མར་ཕབ་འབད་ནི་དང་  བེན་ཝིཐ་སྲུང་ནི་ལུ་  རིམ་ལུགས་ཚད་གཞི་དེ་གིས་  འདྲ་མཛོད་ཤོག་ལེབ་ཚུ་ཨེབ་བཙུགས་འབད་ཡོདཔ་ཚུ་  གསོག་འཇོག་འབདཝ་ཨིན།"
+
+#: modules/system/system.module:22
+msgid "For more information please read the configuration and customization handbook <a href=\"@system\">System page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་ནི་དང་ སྲོལ་སྒྲིག་འབད་ནི་གི་ལག་དེབ་<a href=\"@system\">རིམ་ལུགས་ཤོག་ལེབ་</a>འདི་ལྷག་གནང་།"
+
+#: modules/system/system.module:25
+msgid "Welcome to the administration section. Here you may control how your site functions."
+msgstr "བདག་སྐྱོང་པའི་དབྱེ་ཚན་ལུ་བྱོན་པ་ལེགས་སོ།  འོག་ལུ་  ཁྱོད་རའི་ས་ཁོངས་དེ་གིས་ལཱ་འགན་ག་དེ་སྦེ་འབདཝ་ཨིན་ན་འདི་ཚད་འཛིན་འབད།"
+
+#: modules/system/system.module:27
+msgid "This page shows you all available administration tasks for each module."
+msgstr "ཤོག་ལེབ་དེ་གིས་  ཚད་གཞི་རེ་རེ་གི་དོན་ལུ་  ཐོབ་ཚུགས་པའི་བདག་སྐྱོང་ཆ་མཉམ་སྟོནམ་ཨིན།"
+
+#: modules/system/system.module:29
+msgid "Select which themes are available to your users and specify the default theme. To configure site-wide display settings, click the \"configure\" task above. Alternately, to override these settings in a specific theme, click the \"configure\" link for the corresponding theme. Note that different themes may have different regions available for rendering content like blocks. If you want consistency in what your users see, you may wish to enable only one theme."
+msgstr "ཁྱོད་རའི་ལག་ལེན་པ་ལུ་བརྗོད་དོན་ག་འདི་འཐོབ་ཚུགས་འདུག་ག་དང་  སྔོན་སྒྲིག་བརྗོད་དོན་གསལ་བཀོད་འབད།  ས་ཁོངས་རྒྱ་ཅན་བཀྲམ་སྟོན་སྒྲིག་སྟངས་རིམ་སྒྲིག་འབད་ནི་ལུ་  ལྟག་ལུ་ཡོད་མི་ \"configure\" འདི་གུ་ཨེབ་གཏང་འབད།  ཐབས་གཞན་གྱི་ཐོག་ལས་  སྒྲིག་སྟངས་འདི་ཚུ་  དམིགས་བསལ་གྱི་བརྗོད་དོན་ཅིག་ནང་མེདཔ་གཏང་ནི་ལུ་  ཆ་མཉམ་པའི་བརྗོད་དོན་གྱི་དོན་ལུ་  \"configure\" འབྲེལ་ལམ་ཨེབ་གཏང་འབད།  བཀག་ཆ་བཟུམ་མའི་ལྷག་སྟོན་ནང་དོན་གྱི་དོན་ལུ་  བརྗོད་དོན་སོ་སོ་ལུ་ལུང་ཕྱོགས་མ་འདྲཝ་ཚུ་འོང་ཟེར་དྲན་འཛིན་འབད།  ཁྱོད་རའི་ལག་ལེན་པ་གིས་  ག་ཅི་མཐོངམ་ཨིན་ན་ལུ་རིམ་མཐུན་དགོ་པ་ཅིན་  ཁྱོད་ཀྱིས་བརྗོད་དོན་གཅིག་རྐྱངམ་ཅིག་ལྕོགས་ཅན་བཟོ་ནི་ཟེར་རེ་འདོད་བསྐྱེད་ད།"
+
+#: modules/system/system.module:31
+msgid "These options control the default display settings for your entire site, across all themes. Unless they have been overridden by a specific theme, these settings will be used."
+msgstr "གདམ་ཁ་འདི་གིས་  ཁྱོད་རའི་ས་ཁོངས་ཆ་ཚང་གི་དོན་ལུ་  བརྗོད་དོན་ཚུ་ཆ་མཉམ་གྱི་མཐའ་འཁོར་ལུ་  སྔོན་སྒྲིག་བཀྲམ་སྟོན་སྒྲིག་སྟངས་ཚུ་ཚད་འཛིན་འབདཝ་ཨིན།  དེ་ཚུ་  དམིགས་བསལ་བརྗོད་དོན་གྱིས་མེདཔ་མ་གཏང་ཚུན་ཚོད་  སྒྲི་གསྟངས་ཚུ་ལག་ལེན་འཐབ་འོང་།"
+
+#: modules/system/system.module:35
+msgid "These options control the display settings for the <code>%template</code> theme. When your site is displayed using this theme, these settings will be used. By clicking \"Reset to defaults,\" you can choose to use the <a href=\"@global\">global settings</a> for this theme."
+msgstr "གདམ་ཁ་འདི་དེ་ཚུ་གིས་    <code>%template</code> བརྗོད་དོན་གྱི་དོན་ལུ་  བཀྲམ་སྟོན་སྒྲིག་སྟངས་འདི་ཚད་འཛིན་འབདཝ་ཨིན།  བརྗོད་དོན་འདི་ལག་ལེན་འཐབ་ཐོག་ལས་  ཁྱོད་ཀྱི་ས་ཁོངས་འདི་བཀྲམ་སྟོན་འབདཝ་ད་  སྒྲིག་སྟངས་དེ་ཚུ་ལག་ལེན་འཐབ་ཨིན།  \"Reset to defaults,\" གུ་ཨེབ་གཏང་འབད་དེ་  ཁྱོད་ཀྱིས་ བརྗོད་དོན་འདི་གི་དོན་ལུ་   <a href=\"@global\">སྤྱི་ཁྱབ་སྒྲིག་སྟངས་ཚུ་</a> ལག་ལེན་འཐབ་ནི་འདི་གདམ་ཁ་བརྐྱབ་བཏུབ་ཨིན།"
+
+#: modules/system/system.module:37
+msgid ""
+"<p>Modules are plugins for Drupal that extend its core functionality. Here you can select which modules are enabled. Click on the name of the module in the navigation menu for their individual configuration pages. Once a module is enabled, new <a href=\"@permissions\">permissions</a> might be made available. Modules can automatically be temporarily disabled to reduce server load when your site becomes extremely busy by enabling the throttle.module and checking throttle. The auto-throttle functionality must be enabled on the <a href=\"@throttle\">throttle configuration page</a> after having enabled the throttle module.</p>\n"
+"<p>It is important that <a href=\"@update-php\">update.php</a> is run every time a module is updated to a newer version.</p><p>You can find all administration tasks belonging to a particular module on the <a href=\"@by-module\">administration by module page</a>.</p>"
+msgstr ""
+"<p>ཚད་གཞི་ཚུ་  ནང་སྙིང་ལས་འགན་རྒྱ་བསྐྱེད་གཞང་མི་  ཌུ་པཱལ་དོན་ལུ་  པ་ལག་ཨིན་འདི་ཨིན།  ནཱ་ལུ་ཚད་གཞི་ག་འདི་ལྕོགས་ཅན་བཟོ་ཡོད་ག་འདི་  ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད།  ཁོང་རའི་ངོ་རྐྱང་གི་རིམ་སྒྲིག་ཤོག་ལེབ་དོན་ལུ་  འགྲུལ་བསྐྱོད་དཀར་ཆག་ནང་ལུ་  ཚད་གཞི་གི་མིང་གུ་ཨེབ་གཏང་འབད།  ཚད་གཞི་འདི་ཚར་གཅིག་ལྕོགས་ཅན་བཟོ་ཚར་བའི་ཤུལ་ལས་  <a href=\"@permissions\">གནང་བ་</a>གསརཔ་འདི་  འཐོབ་ཚུགས་བཟོ་ཚུགས།  ཁྱོད་ཀྱི་ས་ཁོངས་འདི་མ་པ་ལས་ཁོམ་མེད་འབད་ཡོདཔ་ད་  ཐོརོ་ཊཱལ་ལྕོགས་ཅན་བཟོ་ཐོག་ལས་  སར་བར་མངོན་གསལ་མར་ཕབ་འབད་ནི་ལུ་  ཚད་གཞི་ཚུ་རང་བཞིན་གྱིས་གནས་སྐབས་ཅིག་གི་དོན་ལུ་ལྕོགས་མེད་བཟོ་བཏུབ་ཨིན།  ཚད་གཞི་དང་ ཐོརོ་ཊཱལ་འདི་ཞིབ་དཔྱད་འབད་དོ།  ཐོརོ་ཊཱལ་ཚད་གཞི་འདི་ལྕོགས་ཅན་བཟོ་བའི་ཤུལ་ལས་  <a href=\"@throttle\">ཐོརོ་ཊཱལ་རིམ་སྒྲིག་ཤོག་ལེབ་</a>གུ་ རང་བཞིན་ཐོརོ་ཊཱལ་ལས་འགན་འདི་ལྕོགས་ཅན་བཟོ་དགོ།  </p>\n"
+"<p><a href=\"@update-php\">update.php</a>འདི་ ཚད་གཞི་འདི་ཨ་རྟག་རང་གཡོག་བཀལཝ་ད་  ཐོན་རིམ་གསརཔ་ལུ་དུས་མཐུན་བཟོ་ནི་འདི་ཁག་ཆེ། </p><p>ཁྱོད་ཀྱིས་  ཚད་གཞི་བྱེ་བྲག་ཅིག་ལུ་ཨིན་པའི་བདག་སྐྱོང་པ་འདི་  <a href=\"@by-module\">ཚད་གཞི་ཤོག་ལེབ་ཀྱིས་སྦེ་བདག་སྐྱོང་པ་</a>གུ་ཐོབ་ཨིན།</p>"
+
+#: modules/system/system.module:40
+msgid "The uninstall process removes all data related to a module. To uninstall a module, you must first disable it. Not all modules support this feature."
+msgstr "གཞི་བཙུག་མ་འབད་བའི་ལས་སྦྱོར་དེ་གིས་  ཚད་གཞི་ལུ་འབྲེལ་བ་ཡོད་པའི་  གནས་སྡུད་ཆ་མཉམ་རྩ་བསྐྲད་གཏངམ་ཨིན།  ཚད་གཞི་འདི་གཞི་བཙུག་འབད་བཤོལ་ནིའི་དོན་ལུ་    ཁྱོད་ཀྱིས་དང་པ་རང་དེ་ལྕོགས་མིན་བཟོ་དགོ།  ཚད་གཞི་ཆ་མཉམ་གྱིས་ཁྱད་རྣམ་འདི་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: modules/system/system.module:42
+msgid "Here you can find a short overview of your Drupal site's parameters as well as any problems detected with your installation. It is useful to copy/paste this information when you need support."
+msgstr "ནཱ་ལུ་ཁྱོད་ཀྱིས་  ཁྱོད་རའི་ཌུ་པཱལ་གྱི་ས་ཁོངས་ཚད་འཛིན་དང་གཞན་ཡང་  ཁྱོད་རའི་གཞི་བཙུགས་འབད་ནིའི་དང་ཅིག་ཁར་དཀའ་ངལ་སྐྱོན་འཛིན་བྱུང་ཡོདཔ་གང་རུང་གི་  སྤྱི་མཐོང་ཐུང་ཀུ་ཅིག་ཐོབ་ཨིན།  བརྡ་དོན་འདི་  ཁྱོད་ལུ་རྒྱབ་སྐྱོར་དགོཔ་ད་  འདྲ་བཤུས་/སྦྱར་ནི་ལུ་ཕན་ཐོག་ཡོདཔ་ཨིན།"
+
+#: modules/system/system.module:100
+msgid "Administer"
+msgstr "བདག་སྐྱོང་འཐབ་"
+
+#: modules/system/system.module:104
+msgid "Compact mode"
+msgstr "སྲབ་ཆུང་ཐབས་ལམ་"
+
+#: modules/system/system.module:108
+msgid "By task"
+msgstr "ལས་ཀ་གིས་"
+
+#: modules/system/system.module:111
+msgid "By module"
+msgstr "ཚད་གཞི་གིས་"
+
+#: modules/system/system.module:119
+msgid "Site configuration"
+msgstr "ས་ཁོངས་རིམ་སྒྲིག་"
+
+#: modules/system/system.module:120
+msgid "Adjust basic site configuration options."
+msgstr "གཞི་རིམ་ས་ཁོངས་རིམ་སྒྲིག་གི་གདམ་ཁ་ཚུ་བདེ་སྒྲིག་བཟོ།"
+
+#: modules/system/system.module:127
+msgid "Site building"
+msgstr "ས་ཁོངས་བཟོ་དོ་"
+
+#: modules/system/system.module:128
+msgid "Control how your site looks and feels."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་འདི་ག་དེ་སྦེ་མཐོངམ་ཨིན་ན་དང་ཚོར་སྣང་ཚུ་ཚད་འཛིན་འབད།"
+
+#: modules/system/system.module:136;429
+msgid "Administration theme"
+msgstr "བདག་སྐྱོང་འཐབ་ནིའི་བརྗོད་དོན་"
+
+#: modules/system/system.module:137
+msgid "Settings for how your administrative pages should look."
+msgstr "ཁྱོད་ཀྱི་བདག་སྐྱོང་པའི་ཤོག་ལེབ་ཚུ་  ག་དེ་སྦེ་མཐོང་དགོཔ་ཨིན་ན་གི་དོན་ལུ་  སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/system/system.module:147
+msgid "Themes"
+msgstr "བརྗོད་དོན་ཚུ་"
+
+#: modules/system/system.module:148
+msgid "Change which theme your site uses or allows users to set."
+msgstr "ཁྱོད་ཀྱི་ས་ཁོངས་དེ་གིས་  བརྗོད་དོན་ག་འདི་ལག་ལེན་འཐབ་ཨིན་ན་  ཡང་ན་  ལག་ལེན་པ་ཚུ་གིས་ག་གཞི་སྒྲིག་འབད་བཅུག་ནི་ཨིན་ན་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: modules/system/system.module:156
+msgid "Select the default theme."
+msgstr "སྔོན་སྒྲིག་བརྗོད་དོན་འདི་སེལ་འཐུ་འབད།"
+
+#: modules/system/system.module:171
+msgid "Global settings"
+msgstr "སྤྱི་ཁྱབ་སྒྲིག་སྟངས་ཚུ་"
+
+#: modules/system/system.module:188
+msgid "Modules"
+msgstr "ཚད་གཞི་ཚུ་"
+
+#: modules/system/system.module:189
+msgid "Enable or disable add-on modules for your site."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་ཀྱི་དོན་ལུ་  བསྣན་བྱ་ཚད་གཞི་ཚུ་ལྕོགས་ཅན་ཡང་ན་ལྕོགས་མེད་བཟོ།"
+
+#: modules/system/system.module:204;210;1625;1667;1688
+msgid "Uninstall"
+msgstr "གཞི་བཙུགས་བཤོལ་ནི་"
+
+#: modules/system/system.module:219
+msgid "Site information"
+msgstr "ས་ཁོངས་བརྡ་དོན་"
+
+#: modules/system/system.module:220
+msgid "Change basic site information, such as the site name, slogan, e-mail address, mission, front page and more."
+msgstr "ས་ཁོངས་ཀྱི་མིང་  སི་ལོ་གན་  གློག་འཕྲིན་ཁ་བྱང་  དམིགས་ལཱ་  གདོང་ཁའི་ཤོག་ལེབ་བཟུམ་དང་ གཞན་ཡང་ལེ་ཤ་ཅིག་གི་  ས་ཁོངས་བརྡ་དོན་གཞི་རིམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: modules/system/system.module:225;626
+msgid "Error reporting"
+msgstr "འཛོལ་བ་སྙན་ཞུ་འབད་དོ།"
+
+#: modules/system/system.module:226
+msgid "Control how Drupal deals with errors including 403/404 errors as well as PHP error reporting."
+msgstr "403/404 འཛོལ་བ་ཚུ་དང་གཞན་ཡང་  པི་ཨེཆ་པི་འཚོལ་བའི་སྙན་ཞུ་ཚུ་བརྩི་སྟེ་  ཌུ་པཱལ་དེ་གིས་ག་དེ་སྦེ་འབྲེལ་བ་འཐབ་ཨིན་ན་འདི་ཚད་འཛིན་འབད།"
+
+#: modules/system/system.module:231
+msgid "Performance"
+msgstr "ལཱ་ཤུལ་"
+
+#: modules/system/system.module:232
+msgid "Enable or disable page caching for anonymous users, and enable or disable CSS preprocessor."
+msgstr "མིང་མེདཔ་ལག་ལེན་པ་ཚུ་གི་དོན་ལུ་  ཤོག་ལེབ་འདྲ་མཛོད་འབད་ནི་འདི་ལྕོགས་ཅན་བཟོ་ནི་  ཡང་ན་  ལྕོགས་མེད་བཟོ་ནི་དང་  སི་ཨེསི་ཨེསི་སྔ་གོང་ལས་སྦྱོར་འཕྲུལ་ཆས་འདི་  ལྕོགས་ཅན་བཟོ་ནི་ཡང་ན་ལྕོགས་མེད་བཟོ།"
+
+#: modules/system/system.module:238
+msgid "Tell Drupal where to store uploaded files and how they are accessed."
+msgstr "སྐྱེལ་བཙུགས་པའི་ཡིག་སྣོད་ཚུ་ག་སྟེ་ལུ་གསོག་འཇོག་འབད་ནི་ཨིན་ན་དང་  དེ་ཚུ་ག་དེ་སྦེ་འཛུལ་སྤྱོད་འབད་ཡོདཔ་ཨིན་ན་ཚུ་  ཌུ་པཱལ་ལུ་སླབ་ད།"
+
+#: modules/system/system.module:243
+msgid "Image toolkit"
+msgstr "གཟུགས་བརྙན་གྱི་ཆས་སྒྲོམ་"
+
+#: modules/system/system.module:244
+msgid "Choose which image toolkit to use if you have installed optional toolkits."
+msgstr "ཁྱོད་ཀྱིས་གདམ་ཁ་ཅན་གྱི་ཆས་སྒྲོམ་ཚུ་གཞི་བཙུགས་འབད་དེ་ཡོད་པ་ཅིན་  གཟུགས་བརྙན་ཆས་སྒྲོམ་ག་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན་འདི་ གདམ་ཁ་བརྐྱབ།"
+
+#: modules/system/system.module:249
+msgid "RSS publishing"
+msgstr "ཨར་ཨེསི་ཨེསི་དེབ་སྐྲུན་"
+
+#: modules/system/system.module:250
+msgid "Configure the number of items per feed and whether feeds should be titles/teasers/full-text."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་རེ་རེའི་རྣམ་གྲངས་ཀྱི་ ཨང་གྲངས་འདི་རིམ་སྒྲིག་འབད་ནི་དང་  མཁོ་སྤྲོད་འབད་ནི་འདི་ལུ་ མགོ་མིང་/ཊི་ཟར་/ཚིག་ཡིག་ཆ་ཚང་ འབད་དགོཔ་ཨིན་ན་མེན་ན།"
+
+#: modules/system/system.module:255
+msgid "Date and time"
+msgstr "ཚེས་གྲངས་དང་དུས་ཡུན་"
+
+#: modules/system/system.module:256
+msgid "Settings for how Drupal displays date and time, as well as the system's default timezone."
+msgstr "ཌུ་པཱལ་དེ་གིས་ ཚེས་གྲངས་དང་དུས་ཡུན་  དེ་ལས་  རིམ་ལུགས་དེ་གི་སྔོན་སྒྲིག་ཆུ་ཚོད་གླིང་སྡེ་ཚུ་བཀྲམ་སྟོན་འབད་ནིའི་དོན་ལུ་  སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/system/system.module:261
+msgid "Site maintenance"
+msgstr "ས་ཁོངས་རྒྱུན་སྐྱོང་འཐབ་ནི།"
+
+#: modules/system/system.module:262
+msgid "Take the site off-line for maintenance or bring it back online."
+msgstr "ས་ཁོངས་འདི་རྒྱུན་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ གློག་ལམ་མེདཔ་གུ་བཀལ་ནི་དང་ ཡང་ན་  དེ་གློག་ཐོག་འབག་ཤོག།"
+
+#: modules/system/system.module:267;585
+msgid "Clean URLs"
+msgstr "གཙང་དག་བཟོ་བའི་ཡུ་ཨར་ཨེལ་ཨེསི།"
+
+#: modules/system/system.module:268
+msgid "Enable or disable clean URLs for your site."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་ཀྱི་དོན་ལུ་  གཙང་དག་ཡོད་པའི་ཡུ་ཨར་ཨེལ་ཨེསི་ཚུ་  ལྕོགས་ཅན་བཟོ་ཡང་ན་ལྕོགས་མེད་བཟོ།"
+
+#: modules/system/system.module:276
+msgid "Logs"
+msgstr "དྲན་དེབ་ཚུ་"
+
+#: modules/system/system.module:277
+msgid "View system logs and other status information."
+msgstr "རིམ་ལུགས་དྲན་དེབ་ཚུ་དང་ གཞན་མི་གནས་ཚད་བརྡ་དོན་འདི་སྟོན།"
+
+#: modules/system/system.module:283
+msgid "Status report"
+msgstr "གནས་ཚད་ཀྱི་སྙན་ཞུ་"
+
+#: modules/system/system.module:284
+msgid "Get a status report about your site's operation and any detected problems."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་ཀྱི་བཀོལ་སྤྱོདཔ་གི་སྐོར་ལས་དང་  སྐྱོན་འཛིན་བྱུང་ཡོད་པའི་དཀའ་ངལ་གང་རུང་ཅིག་གི་  གནས་ཚད་སྙན་ཞུ་ཅིག་ལེན།"
+
+#: modules/system/system.module:290
+msgid "Run cron"
+msgstr "ཀོརཱོན་གཡོག་བཀོལ་"
+
+#: modules/system/system.module:300
+msgid "SQL"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་"
+
+#: modules/system/system.module:330
+msgid "Selecting a different theme will change the look and feel of the site."
+msgstr "བརྗོད་དོན་སོ་སོ་སེལ་འཐུ་འབད་མི་འདི་གིས་  ས་ཁོངས་ཀྱི་སྣང་ཚུལ་དང་  ཚོར་སྣང་འདི་བསྒྱུརཝ་ཨིན།"
+
+#: modules/system/system.module:334
+msgid "Locale settings"
+msgstr "ལོ་ཀེལ་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/system/system.module:336
+msgid "Time zone"
+msgstr "ཆུ་ཚོད་གླིང་སྡེ།"
+
+#: modules/system/system.module:337
+msgid "Select your current local time. Dates and times throughout this site will be displayed using this time zone."
+msgstr "ཁྱོད་རའི་ད་ལྟོའི་ཉེ་གནས་ཆུ་ཚོད་འདི་སེལ་འཐུ་འབད།  ས་ཁོངས་ཡོངས་རྫོགས་ནང་  ཚེས་གྲངས་དང་ཆུ་ཚོད་འདི་  ཆུ་ཚོད་གླིང་སྡེ་ལག་ལེན་འཐབ་སྟེ་ བཀྲམ་སྟོན་འབད་ནི་ཨིན།"
+
+#: modules/system/system.module:358
+msgid "One or more problems were detected with your Drupal installation. Check the <a href=\"@status\">status report</a> for more information."
+msgstr "ཁྱོད་རའི་ཌུ་པཱལ་གཞི་བཙུགས་དང་ཅིག་ཁར་  དཀའ་ངལ་གཅིག་ཡང་ན་ལེ་ཤ་སྐྱོན་འཛིན་བྱུང་ནུག།  བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་  <a href=\"@status\">གནས་ཚད་སྙན་ཞུ་</a> ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: modules/system/system.module:421
+msgid "System default"
+msgstr "རིམ་ལུགས་སྔོན་སྒྲིག་"
+
+#: modules/system/system.module:430
+msgid "Choose which theme the administration pages should display in. If you choose \"System default\" the administration pages will use the same theme as the rest of the site."
+msgstr "བདག་སྐྱོང་པའི་ཤོག་ལེབ་དེ་གིས་  བརྗོད་དོན་ག་འདི་བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་ན་འདི་  གདམ་ཁ་བརྐྱབ།  ཁྱོད་ཀྱིས་  \"System default\" གདམ་ཁ་བརྐྱབ་པ་ཅིན་  བདག་སྐྱོང་པའི་ཤོག་ལེབ་དེ་གིས་  ས་ཁོངས་གཞན་མི་དང་ལྕོགས་ཐདཔ་སྦེ་  བརྗོད་དོན་ཅིག་པ་འདི་ལག་ལེན་འཐབ་ཨིན།"
+
+#: modules/system/system.module:478
+msgid "Theme configuration"
+msgstr "བརྗོད་དོན་རིམ་སྒྲིག"
+
+#: modules/system/system.module:489;1144
+msgid "Screenshot for %theme theme"
+msgstr "%themeབརྗོད་དོན་གྱི་དོན་ལུ་ གསལ་གཞིའི་པར།"
+
+#: modules/system/system.module:489;1144
+msgid "no screenshot"
+msgstr "གསལ་གཞིའི་པར་མིན་འདུག"
+
+#: modules/system/system.module:492
+msgid "(site default theme)"
+msgstr "(ས་ཁོངས་སྔོན་སྒྲིག་གི་བརྗོད་དོན།)"
+
+#: modules/system/system.module:514;1184
+msgid "Screenshot"
+msgstr "གསལ་གཞིའི་པར།"
+
+#: modules/system/system.module:535
+msgid "The name of this web site."
+msgstr "ཝེབ་ས་ཁོངས་ཀྱི་མིང་།"
+
+#: modules/system/system.module:542
+msgid "A valid e-mail address for this website, used by the auto-mailer during registration, new password requests, notifications, etc."
+msgstr "ཐོ་འགོད་ཀྱི་སྐབས་ལུ་རང་བཞིན་གྱི་སྦྲག་སྣོད་ཀྱིས་ལག་ལེན་འཐབ་མི་  ཆོག་ཡིག་གསརཔ་གི་ཞུ་བ་ཚུ་  བརྡ་བསྐུལ་ཚུ་ ལ་སོགས་པ་འདི་ཚུ་  ས་ཁོངས་འདི་གི་དོན་ལུ་  ནུས་ཅན་ཡོད་པའི་གློག་འཕྲིན་ཁ་བྱང་ཨིན།"
+
+#: modules/system/system.module:546
+msgid "Slogan"
+msgstr "འབོ་ཚིག"
+
+#: modules/system/system.module:548
+msgid "The slogan of this website. Some themes display a slogan when available."
+msgstr "ཝེབ་ཀྱི་ས་ཁོངས་འདི་གི་འབོ་ཚིག།  བརྗོད་དོན་ལ་ལོ་ཅིག་གིས་  འཐོབ་ཚུགས་ཡོདཔ་ད་  འབོ་ཚིག་འདི་བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: modules/system/system.module:553
+msgid "Mission"
+msgstr "དམིགས་ལཱ།"
+
+#: modules/system/system.module:555
+msgid "Your site's mission statement or focus."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་ཀྱི་དམིགས་ལཱའི་  གསལ་བཤད་ཡང་ན་ཆེད་དམིགས།"
+
+#: modules/system/system.module:559
+msgid "Footer message"
+msgstr "མཇུག་ཡིག་འཕྲིན་དོན།"
+
+#: modules/system/system.module:561
+msgid "This text will be displayed at the bottom of each page. Useful for adding a copyright notice to your pages."
+msgstr "ཚིག་ཡིག་འདི་  ཤོག་ལེབ་རེ་གི་མཇུག་ལུ་བཀྲམ་སྟོན་འབད་ནི་ཨིན།  ཁྱོད་རའི་ཤོག་ལེབ་ཚུ་ལུ་  འདྲ་བཤུས་དབང་ཆའི་བརྡ་བསྐུལ་ཅིག་  ཁ་སྐོང་བརྐྱབ་ནི་ལུ་ཕན་ཐོག་ཡོད།"
+
+#: modules/system/system.module:565
+msgid "Anonymous user"
+msgstr "མིང་མེདཔ་ལག་ལེན་པ།"
+
+#: modules/system/system.module:567
+msgid "The name used to indicate anonymous users."
+msgstr "མིང་མེདཔ་ལག་ལེན་པ་ཚུ་བརྡ་སྟོན་ནི་ལུ་  ལག་ལེན་འཐབ་དོ་ཡོད་པའི་མིང་།"
+
+#: modules/system/system.module:571
+msgid "Default front page"
+msgstr "སྔོན་སྒྲིག་མདོང་ཁའི་ཤོག་ལེབ།"
+
+#: modules/system/system.module:574
+msgid "The home page displays content from this relative URL. If unsure, specify \"node\"."
+msgstr "འབྲེལ་བ་ཡོད་པའི་ཡུ་ཨར་ཨེལ་འདི་ལས་  ཁྱིམ་གྱི་ཤོག་ལེབ་ཀྱིས་  ནང་དོན་བཀྲམ་སྟོན་འབདཝ་ཨིན། ངེས་བདེན་མེད་པ་ཅིན་ \"node\" གསལ་བཀོད་འབད།"
+
+#: modules/system/system.module:588
+msgid "This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> in the URL.)"
+msgstr "གདམ་ཁ་འདི་གིས་  ཌུ་པཱལ་འདི་ \"clean\" ཡུ་ཨར་ཨེལ་ཨེསི་ (i.e. without <code>?q=</code> ཡུ་ཨར་ཨེལ་ནང་ལུ།) "
+
+#: modules/system/system.module:593
+msgid " Before enabling clean URLs, you must perform a test to determine if your server is properly configured. If you are able to see this page again after clicking the \"Run the clean URL test\" link, the test has succeeded and the radio buttons above will be available. If instead you are directed to a \"Page not found\" error, you will need to change the configuration of your server. The <a href=\"@handbook\">handbook page on Clean URLs</a> has additional troubleshooting information. !run-test"
+msgstr "ཡུ་ཨར་ཨེལ་ཨེསི་གཙང་དག་འདི་  ལྕོགས་ཅན་མ་བཟོ་བའི་ཧེ་མ་  ཁྱོད་རའི་སར་བར་འདི་ཚུལ་ལྡནམ་སྦེ་རིམ་སྒྲིག་འབད་ནུག་ག་གཏན་འབེབས་བཟོ་ནི་ལུ་  ཞིབ་དཔྱད་ཅིག་ལཱ་འགན་འགྲུབ་དགོ།   \"Run the clean URL test\" འབྲེལ་ལམ་འདི་ཨེབ་གཏང་པའི་ཤུལ་ལས་  ཤོག་ལེབ་འདི་ལོག་འདི་རང་ཁྱོད་ཀྱིས་མཐོང་ཚུགས་པ་ཅིན་  ཞིབ་དཔྱད་འདི་མཐར་འཁྱོལ་བའི་རྟགས་དང་  ལྟག་ལུ་ཡོད་པའི་རེ་ཌིའོ་ཨེབ་རྟ་འདི་འཐོབ་ཚུགས།  འདི་མ་ཡིན་པ་ཁྱོད་ \"Page not found\" འཛོལ་བ་ལུ་བཀོད་རྒྱ་བྱིན་པ་ཅིན་  ཁྱོད་རའི་སར་བར་གྱི་རིམ་སྒྲིག་འདི་  བསྒྱུར་བཅོས་འབད་དགོ། གཙང་དག་བཟོ་བའི་ཡུ་ཨར་ཨེལ་ཨེསི་གུ་ཡོད་པའི་ <a href=\"@handbook\">ལག་དེབ་ཤོག་ལེབ་འདི་ལུ་  དཀའ་ངལ་སེལ་ནི་བརྡ་དོན་ཁ་སྐོང་འདི་ཡོད།  !run-test"
+
+#: modules/system/system.module:593
+msgid "Run the clean URL test"
+msgstr "གཙང་དག་བཟོ་ཡོད་པའི་ཡུ་ཨར་ཨེལ་བརྟག་ཞིབ་འདི་གཡོག་བཀལ།"
+
+#: modules/system/system.module:597
+msgid " You have successfully demonstrated that clean URLs work on your server. You may enable/disable them as you wish."
+msgstr "གཙང་དག་ཡུ་ཨར་ཨེལ་ཨེསི་འདི་ཁྱོད་རའི་སར་བར་གུ་ལཱ་འབདཝ་ཨིན་ཟེར་  ཁྱོད་ཀྱིས་མཐར་འཁྱོལཝ་འབད་འགྲེམས་སྟོན་འབད་ནུག།  ཁྱོད་རའི་དགོ་འདོད་ལྟར་དུ་  དེ་ཚུ་ ལྕོགས་ཅན་/ལྕོགས་མེད་བཟོ་ཆོགཔ་ཨིན།"
+
+#: modules/system/system.module:609
+msgid "Default 403 (access denied) page"
+msgstr "སྔོན་སྒྲིག་ ༤༠༣ (འཛུལ་སྤྱོད་འབད་ནི་འདི་ཉན་མ་བཏུབ་) ཤོག་ལེབ།"
+
+#: modules/system/system.module:612
+msgid "This page is displayed when the requested document is denied to the current user. If unsure, specify nothing."
+msgstr "ཤོག་ལེབ་འདི་ ཞུ་བ་འབད་ཡོད་པའི་ཡིག་ཆ་འདི་ ད་ལྟོའི་ལག་ལེན་པ་ལུ་དང་ལེན་འབད་མ་བཏུབ་པའི་བསྒང་ བཀྲམ་སྟོན་འབདཝ་ཨིན། ཡོད་བཞིན་པའི་འགྲུལ་ལམ་འདི་ལག་ལེན་འཐབ།  ངེས་བདེན་མེད་པ་ཅིན་ \"node\" གསལ་བཀོད་འབད།"
+
+#: modules/system/system.module:618
+msgid "Default 404 (not found) page"
+msgstr "སྔོན་སྒྲིག་ ༤༠༤ (འཚོལ་མ་འཐོབ་) ཤོག་ལེབ།"
+
+#: modules/system/system.module:621
+msgid "This page is displayed when no other content matches the requested document. If unsure, specify nothing."
+msgstr "ཤོག་ལེབ་འདི་ ནང་དོན་ག་གིས་ཡང་ ཞུ་བ་འབད་ཡོད་པའི་ཡིག་ཆ་དང་མ་མཐུན་པའི་སྐབས་ལུ་ བཀྲམ་སྟོན་འབདཝ་ཨིན།  ངེས་བདེན་མེད་པ་ཅིན་ \"node\" གསལ་བཀོད་འབད།"
+
+#: modules/system/system.module:627
+msgid "Write errors to the log"
+msgstr "འཛོལ་བ་ཚུ་དྲན་དེབ་ལུ་འབྲི།"
+
+#: modules/system/system.module:627
+msgid "Write errors to the log and to the screen"
+msgstr "འཛོལ་བ་ཚུ་  དརན་དེབ་དང་ གསལ་གཞི་ལུ་འབྲི།"
+
+#: modules/system/system.module:628
+msgid "Where Drupal, PHP and SQL errors are logged. On a production server it is recommended that errors are only written to the error log. On a test server it can be helpful to write logs to the screen."
+msgstr "ཌུ་པཱལ་  པི་ཨེཆ་པི་དང་  ཨེསི་ཀིའུ་ཨེལ་འཛོལ་བ་ཚུ་ནང་བསྐྱོད་འབད་ས་ཨིན།  ཐོན་འབྲས་སར་བར་གུ་  འཛོལ་བ་ཚུ་འཛོལ་བའི་དྲན་དེབ་གུ་རྐྱངམ་ཅིག་འབྲིཝ་ཨིན་ཟེར་  འོས་སྦྱོར་འབད་ཡོད།  ཐོན་འབྲས་སར་བར་གུ་  འཛོལ་བ་ཚུ་འཛོལ་བའི་དྲན་དེབ་གུ་འབྲི་ཡོད་ཟེར་  འོས་སྦྱོར་འབད་ཡོད།  ཞིབ་དཔྱད་སར་བར་གུ་  དྲན་དེབ་ཚུ་གསལ་གཞི་གུ་འབྲི་བ་ཅིན་ཕན་ཐོག་ཅན་འོང་།"
+
+#: modules/system/system.module:632
+msgid "Never"
+msgstr "ནམ་ཡང་།"
+
+#: modules/system/system.module:635
+msgid "Discard log entries older than"
+msgstr "རྙིངམ་ཨིན་པའི་དྲན་དེབ་ཚུ་བཏོན་བཀོག།"
+
+#: modules/system/system.module:638
+msgid "The time log entries should be kept. Older entries will be automatically discarded. Requires crontab."
+msgstr "ཆུ་ཚོད་དྲན་དེབ་འཛུལ་ཞུགས་འདི་བཞག་དགོ།  འཛུལ་ཞུགས་རྙིངམ་ཚུ་རང་བཞིན་གྱིས་ བཏོན་བཀོག་འོང་།  ཀོརཱོན་མཆོང་ལྡེ་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/system/system.module:646
+msgid "The normal cache mode is suitable for most sites and does not cause any side effects. The aggressive cache mode causes Drupal to skip the loading (init) and unloading (exit) of enabled modules when serving a cached page. This results in an additional performance boost but can cause unwanted side effects."
+msgstr "ས་ཁོངས་མང་ཤོས་ཅི་གི་དོན་ལུ་  སྤྱིར་གཏང་འདྲ་མཛོད་ཀྱི་ཐབས་ལམ་འདི་འོས་འབབ་ཡོདཔ་དང་  ཞོར་གནོད་ཚུ་གི་རྒྱུ་རྐྱེད་མི་བྱུང་།  དྲག་པོའི་འདྲ་མཛོད་ཀྱི་ཐབས་ལམ་དེ་གིས་  ཌུ་པཱལ་དེ་འདྲ་མཛོད་ཀྱི་ཤོག་ལེབ་ཅིག་སར་བིང་འབདཝ་ད་  ལྕོགས་ཅན་བཟོ་ཡོད་པའི་ཚད་གཞི་ཚུ་གི་  མངོན་གསལ་ (ཨིན་ནིཊི་) དང་མངོན་གསལ་འབད་བཤོལ་ (ཕྱིར་ཐོན་) འདི་གོམ་འགྱོ་བཅུགཔ་ཨིན།  འདི་གིས་ཁ་སྐོང་ལཱ་ཤུགས་ཀྱི་བུསཊི་ནང་གྲུབ་འབྲས་སྟོནམ་ཨིན་  དེ་འབདཝ་ད་  མ་དགོ་པའི་ཞོར་སྣོན་ཚུ་བྱུངམ་ཨིན།"
+
+#: modules/system/system.module:652
+msgid "<strong class=\"error\">The following enabled modules are incompatible with aggressive mode caching and will not function properly: %modules</strong>"
+msgstr "<strong class=\"error\"> འོག་གི་ལྕོགས་ཅན་བཟོ་ཡོད་པའི་ཚད་གཞི་ཚུ་  དྲག་པོའི་ཐབས་ལམ་གྱི་འདྲ་མཛོད་དང་ཅིག་ཁར་  མཐུན་འགྱུར་མེདཔ་དང་  དེ་གིས་ལེགས་ཤོམ་སྦེ་ལཱ་མི་འབད: %modules</strong>"
+
+#: modules/system/system.module:655
+msgid "<strong class=\"ok\">Currently, all enabled modules are compatible with the aggressive caching policy.</strong> Please note, if you use aggressive caching and enable new modules, you will need to check this page again to ensure compatibility."
+msgstr "<strong class=\"ok\">ད་ལྟོ་  ལྕོགས་ཅན་བཟོ་ཡོད་པའི་ཚད་གཞི་ཚུ་ཆ་མཉམ་  དྲག་པོའི་འདྲ་མཛོད་འབད་ནིའི་སྲིད་བྱུས་དང་ཅིག་ཁར་  མཐུན་འགྱུར་ཅན་ཨིན།  </strong> དྲན་འཛིན་འབད་གནང་  ཁྱོད་ཀྱིས་དྲག་པོའི་འདྲ་མཛོད་འདི་ལག་ལེན་འཐབ་ནི་དང་  ཚད་གཞི་གསརཔ་ཚུ་ལྕོགས་ཅན་བཟོ་བ་ཅིན་  མཐུན་འགྱུར་ཅན་ངེས་གཏན་བཟོ་ནི་ལུ་  ཁྱོད་ཀྱིས་ཤོག་ལེབ་འདི་ལོག་ཞིབ་དཔྱད་འབད་དགོ།"
+
+#: modules/system/system.module:659
+msgid "Page cache"
+msgstr "ཤོག་ལེབ་འདྲ་མཛོད།"
+
+#: modules/system/system.module:660
+msgid "Enabling the cache will offer a significant performance boost. Drupal can store and send compressed cached pages requested by <em>anonymous</em> users. By caching a web page, Drupal does not have to construct the page each time someone wants to view it."
+msgstr "འདྲ་མཛོད་ལྕོགས་ཅན་བཟོ་མི་དེ་གིས་  རྩ་ཅན་གྱི་ལཱ་ཤུགས་བུསཊི་ཅིག་བྱིནམ་ཨིན།  ཌུ་པཱལ་དེ་གིས་  <em>anonymous</em> ལག་ལེན་པ་ཚུ་གིས་ཞུ་བ་འབད་ཡོད་པའི་  ཨེབ་བཙུགས་འབད་ཡོད་པའི་འདྲ་མཛོད་ཀྱི་ཤོག་ལེབ་ཚུ་  གསོག་འཇོག་འབད་ཞིནམ་ལས་སྟངམ་ཨིན།  ཝེབ་ཤོག་ལེབ་འདི་འདྲ་མཛོད་འབད་ཐོག་ལས་  ག་གི་བལྟ་དགོ་མནོ་རུང་མནོ་ཚད་ ཌུ་པཱལ་དེ་གིས་ཤོག་ལེབ་རེ་རེ་སྦེ་བཟོ་དགོཔ་མེད།"
+
+#: modules/system/system.module:665
+msgid "Caching mode"
+msgstr "འདྲ་མཛོད་འབད་བའི་ཐབས་ལམ་"
+
+#: modules/system/system.module:667
+msgid "Normal (recommended, no side effects)"
+msgstr "སྤྱིར་གཏང་ (འོས་སྦྱོར་འབད་ཡོདཔ་  ཞོར་གནོད་ཚུ་མེད།)"
+
+#: modules/system/system.module:667
+msgid "Aggressive (experts only, possible side effects)"
+msgstr "དྲག་པོའི་ (མཁས་པ་ སྲིད་པའི་ཞོར་གནོད་ཚུ་)"
+
+#: modules/system/system.module:675
+msgid "Minimum cache lifetime"
+msgstr "འདྲ་མཛོད་ཚེ་ཡུན་ཉུང་མཐའ།"
+
+#: modules/system/system.module:678
+msgid "On high-traffic sites it can become necessary to enforce a minimum cache lifetime. The minimum cache lifetime is the minimum amount of time that will go by before the cache is emptied and recreated. A larger minimum cache lifetime offers better performance, but users will not see new content for a longer period of time."
+msgstr "འདྲ་མཛོད་ལྕོགས་ཅན་བཟོ་མི་འདི་གིས་  ལམ་འགྲུལ་ཉུང་མི་མང་ཤོས་ཅིག་གི་དོན་ལུ་དང་  ལམ་འགྲུལ་ས་ཁོངས་འབྲིང་མའི་དོན་ལུ་  ལཱ་འཐབ་ལངམ་ཅིག་བྱིནམ་ཨིན།  འགྲུལ་ལམ་མཐོ་ཤོའི་ས་ཁོངས་གུ་  འདྲ་མཛོད་ཚེ་ཡུན་ཉུང་མཐའ་ཅིག་ལུ་འགྱུར་དགོཔ་འདི་ཉེར་མཁོ་ཡོད།  འདྲ་མཛོད་ཚེ་ཡུན་ཉུང་མཐའ་ཟེར་མི་འདི་  འདྲ་མཛོད་འདི་སྟོངམ་སྟོན་ནི་དང་ སླར་གསར་བསྐྲུན་མ་འབད་ཚུན་ཚོད་ཀྱི་  ཆུ་ཚོད་ཀྱི་མང་ཉུང་ཉུང་མཐའ་འདི་ཨིན།  འདྲ་མཛོད་ཚེ་ཡུན་ཉུང་མཐའ་སྦོམ་འདི་གིས་  ལཱ་ཤུགས་ལེགས་མི་ཅིག་བྱིནམ་ཨིན་  དེ་འབདཝ་ད་  ལག་ལེན་པ་དེ་ཚུ་གིས་  དུས་ཡུན་རིངམ་གི་དོན་ལུ་  ནང་དོན་འདི་མི་མཐོང་།"
+
+#: modules/system/system.module:683
+msgid "Bandwidth optimizations"
+msgstr "བེན་ཝིཐ་ ལེགས་བཟོ་འབད་ཡོདཔ་ཚུ་"
+
+#: modules/system/system.module:684
+msgid "These options can help reduce both the size and number of requests made to your website. This can reduce the server load, the bandwidth used, and the average page loading time for your visitors."
+msgstr "གདམ་ཁ་དེ་གིས་  ཁྱོད་རའི་ཝེབ་ཀྱི་ས་ཁོངས་ལུ་ཞུ་བ་འབད་ཡོདཔ་གི་  ཚད་དང་ཨང་གྲངས་གཉིས་ཆ་རང་ཕབ་ལེན་འབད་ནི་ལུ་གྲོགས་རམ་འབདཝ་ཨིན།  འདི་གིས་  སར་བར་མངོན་གསལ་འདི་ཕབ་ལེན་འབད་ནི་  བེན་ཝིཐ་ལག་ལེན་འཐབ་ནི་དང་  ཁྱོད་རའི་བལྟ་སྤྱོད་པ་ཚུ་གི་དོན་ལུ་  ཆ་སྙོམས་པའི་ཤོག་ལེབ་མངོན་གསལ་འབད་ནི་ཚུ་ ཕབ་ཚུགསཔ་ཨིན།"
+
+#: modules/system/system.module:691
+msgid "Aggregate and compress CSS files"
+msgstr "སྤྱི་བསྡོམས་འབད་ནི་དང་  སི་ཨེསི་ཨེསི་ཡིག་སྣོད་ཚུ་ཨེབ་བཙུགས་འབད་"
+
+#: modules/system/system.module:695
+msgid "Some Drupal modules include their own CSS files. When these modules are enabled, each module's CSS file adds an additional HTTP request to the page, which can increase the load time of each page. These HTTP requests can also slightly increase server load. It is recommended to only turn this option on when your site is in production, as it can interfere with theme development. This option is disabled if you have not set up your files directory, or if your download method is set to private."
+msgstr "ཌུ་པཱལ་ཚད་གཞི་ལ་ལོ་ཅིག་གིས་  དེ་ཚུ་གི་སི་ཨེསི་ཨེསི་ཡིག་སྣོད་ཚུ་གྲངས་སུ་བརྩིཝ་ཨིན།  ཚད་གཞི་ཚུ་ལྕོགས་ཅན་བཟོ་ཞིནམ་ལས་  ཚད་གཞི་རེ་རེ་གི་སི་ཨེསི་ཨེསི་ཡིག་སྣོད་དེ་གིས་  ཤོ་ལེབ་རེ་རེ་གི་མངོན་གསལ་དུས་ཚད་ཡར་སེང་འབད་མི་  ཤོག་ལེབ་ལུ་ཞུ་བའི་ཨེཆ་ཊི་ཊི་པི་ ཁ་སྐོང་ཅིག་ཁ་སྐོང་བརྐྱབ་ཨིན།  ཨེཆ་ཊི་ཊི་པི་ཞུ་བ་འདི་  སར་བར་མངོན་འབད་ནི་འདི་ཨ་ཙི་ཅིག་ཡར་འཕར་འབད་ཚུགས།  གདམ་ཁ་འདི་  ཁྱོད་ཀྱི་ས་ཁོངས་འདི་ཐོན་འབྲས་ནང་  བརྗོད་དོན་གོང་འཕེལ་དང་ཅིག་ཁར་  ངོས་འདྲ་བ་འབད་ཚུགས་མི་གུ་འགྱུརཝ་ཨིན་ཟེར་  འོས་སྦྱོར་འབད་དེ་ཡོདཔ་ཨིན།  ཁྱོད་རའི་ཡིག་སྣོད་ཀྱི་སྣོད་ཐོ་གཞི་སྒྲིག་འབད་དེ་མེད་པ་ཅིན་  ཡང་ན་  ཁྱོད་རའི་ཕབ་ལེན་འབད་ཡོད་པའི་ཐབས་ལམ་འདི་  སྒེར་དོན་ལུ་གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་  གདམ་ཁ་འདི་ལྕོགས་མེད་བཟོ་ཡོདཔ་ཨིན།"
+
+#: modules/system/system.module:708
+msgid "File system path"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་འགྲུལ་ལམ།"
+
+#: modules/system/system.module:711
+msgid "A file system path where the files will be stored. This directory has to exist and be writable by Drupal. If the download method is set to public this directory has to be relative to the Drupal installation directory, and be accessible over the web. When download method is set to private this directory should not be accessible over the web. Changing this location after the site has been in use will cause problems so only change this setting on an existing site if you know what you are doing."
+msgstr "ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་དོ་ཡོད་པའི་  ཡིག་སྣོད་ཀྱི་རིམ་ལུགས།  སྣོད་ཐོ་འདི་གནས་དེ་འོང་དགོཔ་དང་  ཌུ་པཱལ་གྱི་འབྲི་བཏུབ་དགོ།  ཕབ་ལེན་ཐབས་ལམ་འདི་མི་མང་ལུ་གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་  སྣོད་ཐོ་འདི་  ཌུ་པཱལ་གཞི་བཙུགས་སྣོད་ཐོ་ལུ་འབྲེལ་བ་འོང་དགོཔ་དང་  ཝེབ་གུ་འཛུལ་སྤྱོད་འབད་བཏུབ་དགོ།  ཕབ་ལེན་ཐབས་ལམ་འདི་  སྒེར་སྡེ་ལུ་གཞི་སྒྲིག་འབདཝ་ད་  སྣོད་ཐོ་འདི་  ཝེབ་གུ་འཛུལ་སྤྱོད་འབད་ཚུགསཔ་མིང་དགོ།  ས་ཁོངས་ལག་ལེན་འབད་བའི་བསྒང་ཡོད་མི་འདི་གི་  གནས་ཁོངས་འདི་བསྒྱུར་བཅོས་འབད་བ་ཅིན་  དཀའ་ངལ་ཚུ་འབྱུང་འོང་  དེ་འབདཝ་ལས་  ཁྱོད་རང་ག་ཅི་འབདཝ་ཨིན་ན་ཤེས་པ་ཅིན་  སྒྲིག་སྟངས་འདི་གནས་དེ་ཡོད་པའི་ས་ཁོངས་གུ་རྐྱངམ་ཅིག་བསྒྱུར་བཅོས་འབད། "
+
+#: modules/system/system.module:717
+msgid "Temporary directory"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོ།"
+
+#: modules/system/system.module:720
+msgid "Location where uploaded files will be kept during previews. Relative paths will be resolved relative to the Drupal installation directory."
+msgstr "ཡིག་སྣོད་དུས་མཐུན་བཟོ་ཡོད་པའི་གནས་ཁོངས་འདི་  སྔོན་ལྟའི་སྐབས་ལུ་བཞགཔ་ཨིན།  འབྲེལ་བ་ཡོད་པའི་འགྲུལ་ལམ་འདི་  ཌུ་པཱལ་གཞི་བཙུགས་སྣོད་ཐོ་ལུ་  མོས་མཐུན་འབྲེལ་ལམ་ཨིན།"
+
+#: modules/system/system.module:726
+msgid "Download method"
+msgstr "ཐབས་ལམ་འདི་ཕབ་ལེན་འབད།"
+
+#: modules/system/system.module:728
+msgid "Public - files are available using HTTP directly."
+msgstr "ཨེཆ་ཊི་ཊི་པི་འདི་ཐད་ཀར་དུ་ལག་ལེན་འཐབ་ཐོག་ལས་  མི་མང་ཡིག་སྣོད་འདི་ཚུ་འཐོབ་ཚུགས།"
+
+#: modules/system/system.module:728
+msgid "Private - files are transferred by Drupal."
+msgstr "སྒེར་སྡེ་གི་ཡིག་སྣོད་ཚུ་  ཌུ་པཱལ་གྱིས་གནས་སོར་གཏང་ནུག"
+
+#: modules/system/system.module:729
+msgid "If you want any sort of access control on the downloading of files, this needs to be set to <em>private</em>. You can change this at any time, however all download URLs will change and there may be unexpected problems so it is not recommended."
+msgstr "ཡིག་སྣོད་ཚུ་ཕབ་ལེན་འབདཝ་ད་  ཁྱོད་ལུ་  འཛུལ་སྤྱོད་འབད་ནིའི་ཚད་འཛིན་གང་རུང་ཅིག་དགོ་པ་ཅིན་  དེ་ཚུ་  <em>སྒེར་སྡེ་</em> སྒྲིག་སྟངས་འབད་དགོ།  འདི་ཚུ་ཁྱོད་ཀྱིས་  ནམ་འབད་རུང་བསྒྱུར་བཅོས་འབད་བཏུབ་ཨིན་  ག་ལས་གོ་རུང་  ཕབ་ལེན་འབད་དེ་ཡོད་པའི་ཡུ་ཨར་ཨེལ་ཨེསི་འདི་བསྒྱུར་བཅོས་འབད་ནི་དང་  དེ་ནང་  རེ་བ་མེད་པའི་དཀའ་ངལ་ཚུ་འབྱུང་དོ་ཡོདཔ་ལས་ འོས་སྦྱོར་འབད་ནི་མེད།"
+
+#: modules/system/system.module:740
+msgid "Select an image processing toolkit"
+msgstr "གཟུགས་བརྙན་བཟོ་སྦྱོར་གྱི་ཆས་སྒྲོམ་འདི་སེལ་འཐུ་འབད།"
+
+#: modules/system/system.module:749
+msgid "No image toolkits found.  Drupal will use PHP's built-in GD library for image handling."
+msgstr "གཟུགས་བརྙན་ཆས་སྒྲོམ་ཚུ་མ་ཐོབ།  གཟུགས་བརྙན་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་  ཌུ་པཱལ་དེ་གིས་  པི་ཨེཆ་པི་གི་ནང་སྦྲགས་ཇི་ཌི་གི་དཔེ་མཛོད་འདི་ལག་ལེན་འཐབ་ཨིན།"
+
+#: modules/system/system.module:758
+msgid "Number of items per feed"
+msgstr "མཁོ་སྤྲོད་འབད་ནི་རེ་རེ་གི་རྣམ་གྲངས་ཀྱི་ཨང་གྲངས།"
+
+#: modules/system/system.module:761
+msgid "The default number of items to include in a feed."
+msgstr "མཁོ་སྤྲོད་ནང་ལུ་བཙུགས་ནི་ཨིན་པའི་  རྣམ་གྲངས་ཀྱི་སྔོན་སྒྲིག་ཨང་གྲངས་ཚུ།"
+
+#: modules/system/system.module:765
+msgid "Display of XML feed items"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་རྣམ་གྲངས་ཚུ་གི་ བཀྲམ་སྟོན།"
+
+#: modules/system/system.module:767
+msgid "Titles only"
+msgstr "མགོ་ཡིག་རྐྱངམ་ཅིག།"
+
+#: modules/system/system.module:767
+msgid "Titles plus teaser"
+msgstr "མགོ་ཡིག་བསྡོམས་རྟགས་དཀའ་ལས་ཆས་དྲགས།"
+
+#: modules/system/system.module:767
+msgid "Full text"
+msgstr "ཚིག་ཡིག་ཆ་ཚང་།"
+
+#: modules/system/system.module:768
+msgid "Global setting for the length of XML feed items that are output by default."
+msgstr "སྔོན་སྒྲིག་གིས་ཨའུཊི་པུཊི་འབད་དེ་ཡོད་མི་  ཨེགསི་ཨེམ་ཨེལ་མཁོ་སྤྲོད་འབད་མི་རྣམ་གྲངས་ཀྱི་རིང་ཚད་དོན་ལུ་  སྤྱི་ཁྱབ་སྒྲིག་སྟངས་འདི་ཨིན། "
+
+#: modules/system/system.module:803
+msgid "Default time zone"
+msgstr "སྔོན་སྒྲིག་ཆུ་ཚོད་གླིང་སྡེ།"
+
+#: modules/system/system.module:806
+msgid "Select the default site time zone."
+msgstr "སྔོན་སྒྲིག་ཆུ་ཚོད་གླིང་སྡེ་འདི་སེལ་འཐུ་འབད།"
+
+#: modules/system/system.module:811
+msgid "Configurable time zones"
+msgstr "རིམ་སྒྲིག་འབད་བཏུབ་པའི་ཆུ་ཚོད་གླིང་སྡེ།"
+
+#: modules/system/system.module:814
+msgid "Enable or disable user-configurable time zones. When enabled, users can set their own time zone and dates will be updated accordingly."
+msgstr "ལག་ལེན་པའི་རིམ་སྒྲིག་ཆུ་ཚོད་གླིང་སྡེ་ཚུ་  ལྕོགས་ཅན་ཡང་ན་ལྕོགས་མེད་བཟོ།  ལྕོགས་ཅན་བཟོཝ་ད་ལུ་  ལག་ལེན་པ་དེ་ཚུ་གིས་  ཁོང་རའི་ཆུ་ཚོད་གླིང་སྡེ་འདི་གཞི་སྒྲིག་འབད་ནི་དང་  ཚེས་གྲངས་ཚུ་རིམ་གྱིས་འབད་དུས་མཐུན་བཟོ་ཚུགསཔ་ཨིན།"
+
+#: modules/system/system.module:819
+msgid "Short date format"
+msgstr "ཚེས་གྲངས་ཐུང་ཀུའི་རྩ་སྒྲིག"
+
+#: modules/system/system.module:822
+msgid "The short format of date display."
+msgstr "ཚེས་གྲངས་བཀྲམ་སྟོན་གྱི་ རྩ་སྒྲིག་ཐུང་ཀུ།"
+
+#: modules/system/system.module:827
+msgid "Medium date format"
+msgstr "ཚེས་གྲངས་རྩ་སྒྲིག་བར་མ།"
+
+#: modules/system/system.module:830
+msgid "The medium sized date display."
+msgstr "ཚེས་གྲངས་བཀྲམ་སྟོན་བར་མའི་ཚད་བཟོ།"
+
+#: modules/system/system.module:835
+msgid "Long date format"
+msgstr "ཚེས་གྲངས་རྩ་སྒྲིག་རིངམ།"
+
+#: modules/system/system.module:838
+msgid "Longer date format used for detailed display."
+msgstr "རྒྱས་བཤད་བཀྲམ་སྟོན་གྱི་དོན་ལུ་  ཚེས་གྲངས་རིངམ་གྱི་རྩ་སྒྲིག་འདི་ལག་ལེན་འཐབ་ཨིན།"
+
+#: modules/system/system.module:843
+msgid "First day of week"
+msgstr "བདུན་ཕྲག་གི་ཉིནམ་དང་པ།"
+
+#: modules/system/system.module:846
+msgid "The first day of the week for calendar views."
+msgstr "ཟླ་ཐོའི་མཐོང་སྣང་གི་དོན་ལུ་  བདུན་ཕྲག་གི་ཉིནམ་དང་པ།"
+
+#: modules/system/system.module:856
+msgid "Site status"
+msgstr "ས་ཁོངས་གནས་ཚད།"
+
+#: modules/system/system.module:858
+msgid "Online"
+msgstr "གློག་ཐོག"
+
+#: modules/system/system.module:858
+msgid "Off-line"
+msgstr "གློག་ལམ་མེད་པའི།"
+
+#: modules/system/system.module:859
+msgid "When set to \"Online\", all visitors will be able to browse your site normally. When set to \"Off-line\", only users with the \"administer site configuration\" permission will be able to access your site to perform maintenance; all other visitors will see the site off-line message configured below. Authorized users can log in during \"Off-line\" mode directly via the <a href=\"@user-login\">user login</a> page."
+msgstr "\"Online\"གུ་གཞི་སྒྲིག་འབདཝ་ད་  བལྟ་སྤྱོད་པ་ཚུ་གིས་  ཁྱོད་ཀྱི་ས་ཁོངས་འདི་སྤྱིར་བཏང་གི་འབད་བརྡ་འཚོལ་འབད་ཚུགསཔ་ཨིན།  \"Off-line\" ལུ་གཞི་སྒྲིག་འབདཝ་ད་  རྒྱུན་སྐྱོང་འཐབ་ནི་དོན་ལུ་  \"administer site configuration\"གནང་བ་ ཡོད་མི་ལག་ལེན་པ་རྐྱངམ་ཅིག་གིས་  ཁྱོད་ཀྱི་ས་ཁོངས་འདི་ལུ་འཛུལ་སྤྱོད་འབད་བཏུབ་ཨིན;  བལྟ་སྤྱོད་པ་གཞན་མི་ག་རང་གིས་  ས་ཁོངས་གློག་ཐོག་མེད་མི་འདི་  འོག་ལུ་རིམ་སྒྲིག་འབད་དེ་ཡོད་པའི་འཕྲིན་དོན་འདི་མཐོངམ་ཨིན།  དབང་སྤྲོད་ཡོད་པའི་ལག་ལེན་པ་འདི་  \"Off-line\"གི་སྐབས་ལུ་ ཐད་ཀར་དུ་འབད་<a href=\"@user-login\">ལག་ལེན་པ་ནང་བསྐྱོད་</a>ཤོག་ལེབ་ལས་བརྒྱུད་དེ་  ལོག་འབད་བཏུབ་ཨིན།"
+
+#: modules/system/system.module:864
+msgid "Site off-line message"
+msgstr "ས་ཁོངས་གློག་ཐོག་མེད་པའི་འཕྲིན་དོན།"
+
+#: modules/system/system.module:866
+msgid "Message to show visitors when the site is in off-line mode."
+msgstr "ས་ཁོངས་འདི་གློག་ཐོག་མེད་པའི་ཐབས་ལམ་འདི་  བལྟ་སྤྱོད་པ་ཚུ་ལུ་སྟོན་ནི་དོན་ལུ་  འཕྲིན་དོན།"
+
+#: modules/system/system.module:1074
+msgid "The settings have not been saved because of the errors."
+msgstr "འཛོལ་བ་ཡོདཔ་ལས་  སྒྲིག་སྟངས་ཚུ་སྲུང་བཞག་མ་འབད།"
+
+#: modules/system/system.module:1089;1124
+msgid "The configuration options have been reset to their default values."
+msgstr "རིམ་སྒྲིག་གདམ་ཁ་ཚུ་  ཁོང་རའི་སྔོན་སྒྲིག་གནས་གོང་ཚུ་ལུ་སླར་སྒྲིག་འབད་དེ་ཡོད།"
+
+#: modules/system/system.module:1093;1127;1223;1508
+msgid "The configuration options have been saved."
+msgstr "རིམ་སྒྲིག་གདམ་ཁ་ཚུ་སྲུང་བཞག་འབད་དེ་ཡོད།"
+
+#: modules/system/system.module:1209
+msgid "Please note that the <a href=\"!admin_theme_page\">administration theme</a> is still set to the %admin_theme theme; consequently, the theme on this page remains unchanged. All non-administrative sections of the site, however, will show the selected %selected_theme theme by default."
+msgstr "དྲན་འཛིན་འབད་  <a href=\"!admin_theme_page\">བདག་སྐྱོང་པའི་བརྗོད་དོན་</a>འདི་ %admin_theme theme;ལུ་གཞི་སྒྲིག་འབད་དེ་ཡོདཔ་ཨིན་   དེ་གིས་སྦེ་  ཤོག་ལེབ་དེ་གུ་ཡོད་པའི་བརྗོད་དོན་འདི་བསྒྱུར་བ་མེད་པར་ལུསཔ་ཨིན།  ས་ཁོངས་དེ་གིས་  བདག་སྐྱོང་པ་མེན་མི་དབྱེ་ཚན་ཚུ་ཆ་མཉམ་རང་  སྔོན་སྒྲིག་གི་བརྗོད་དོན་གྱིས་སྦེ་སེལ་འཐུ་འབད་ཡོད་པའི་ %selected_theme སྟོནམ་ཨིན།"
+
+#: modules/system/system.module:1276;1309
+msgid " (<span class=\"admin-disabled\">disabled</span>)"
+msgstr " (<span class=\"admin-disabled\">ལྕོགས་མེད་</span>)"
+
+#: modules/system/system.module:1279
+msgid " (<span class=\"admin-missing\">missing</span>)"
+msgstr " (<span class=\"admin-missing\">བརླག་སྟོར་ཞུགས་ཡོདཔ་</span>)"
+
+#: modules/system/system.module:1285;1304
+msgid " (<span class=\"admin-enabled\">enabled</span>)"
+msgstr " (<span class=\"admin-enabled\">ལྕོགས་ཅན་བཟོ་ཡོདཔ་</span>)"
+
+#: modules/system/system.module:1292
+msgid "Depends on: !dependencies"
+msgstr "བརྟེན་ནི་: !རྟེན་འབྲེལ་"
+
+#: modules/system/system.module:1317
+msgid "Required by: !required"
+msgstr "དགོས་མཁོ་ཡོདཔ་: !དགོས་མཁོ་ཡོདཔ་"
+
+#: modules/system/system.module:1404
+msgid "You must enable the %dependencies !modules to install %module."
+msgstr "ཁྱོད་ཀྱིས་  %dependencies !modules འདི་ %module གཞི་བཙུགས་འབད་ནི་ལུ་ ལྕོགས་ཅན་བཟོ་དགོ།"
+
+#: modules/system/system.module:1413
+msgid "Some required modules must be enabled"
+msgstr "དགོས་མཁོ་ཡོད་པའི་ཚད་གཞི་ལ་ལོ་ཅིག་ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན་"
+
+#: modules/system/system.module:1415
+msgid "Would you like to continue with enabling the above?"
+msgstr "ལྟག་གི་འདི་ལྕོགས་ཅན་བཟོ་ནི་དང་ཅིག་ཁར་  ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: modules/system/system.module:1416
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་"
+
+#: modules/system/system.module:1535
+msgid "Version"
+msgstr "ཐོན་རིམ་"
+
+#: modules/system/system.module:1661
+msgid "The following modules will be completely uninstalled from your site, and <em>all data from these modules will be lost</em>!"
+msgstr "འོག་གི་ཚད་གཞི་ཚུ་  ཁྱོད་རའི་ས་ཁོངས་ལས་ཆ་ཚངམ་སྦེ་  གཞི་བཙུག་བཤོལ་ནི་དང་  <em>ཚད་གཞི་འདི་ལས་ཨིན་པའི་གནས་སྡུད་ཚུ་ཆ་མཉམ་བརླག་སྟོར་ཞུགས་འོང་</em>!"
+
+#: modules/system/system.module:1664
+msgid "Confirm uninstall"
+msgstr "གཞི་བཙུག་འབད་བཤོལ་ནི་འདི་ངེས་དཔྱད་འབད་"
+
+#: modules/system/system.module:1666
+msgid "Would you like to continue with uninstalling the above?"
+msgstr "ལྟག་གི་འདི་གཞི་བཙུགས་བཤོལ་ནི་དང་ཅིག་ཁར་  ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: modules/system/system.module:1705
+msgid "No modules are available to uninstall."
+msgstr "གཞི་བཙུགས་བཤོལ་ནི་ལུ་  ཚད་གཞི་ཚུ་ཐོབ་ཚུགས་མེད།"
+
+#: modules/system/system.module:1725
+msgid "No modules selected."
+msgstr "ཚད་གཞི་ཚུ་སེལ་འཐུ་མ་འབད་བས།"
+
+#: modules/system/system.module:1746
+msgid "The selected modules have been uninstalled."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཚད་གཞི་ཚུ་  གཞི་བཙུགས་བཤོལ་ནུག།"
+
+#: modules/system/system.module:1756
+msgid "Cron ran successfully"
+msgstr "ཀོརཱོན་འདི་མཐར་འཁྱོལཝ་སྦེ་ལཱ་འབད་ཚུགས་ནུག་"
+
+#: modules/system/system.module:1759
+msgid "Cron run failed"
+msgstr "ཀོརཱོན་འདི་གཡོག་བཀོལ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#: modules/system/system.module:1781
+msgid "Variable"
+msgstr "འགྱུར་ཅན་"
+
+#: modules/system/system.module:1781
+msgid "Value"
+msgstr "གནས་གོང་"
+
+#: modules/system/system.module:1794
+msgid "Command counters"
+msgstr "བརྡ་བཀོད་གདོང་ལེན་ཚུ་"
+
+#: modules/system/system.module:1796
+msgid "The number of <code>SELECT</code>-statements."
+msgstr "གསལ་བཤད་ཚུ་གི་<code>སེལ་འཐུ་འབད་</code>-ཨང་གྲངས།"
+
+#: modules/system/system.module:1797
+msgid "The number of <code>INSERT</code>-statements."
+msgstr "གསལ་བཤད་ཚུའི་<code>བཙུགས་</code>-ཨང་གྲངས།"
+
+#: modules/system/system.module:1798
+msgid "The number of <code>UPDATE</code>-statements."
+msgstr "གསལ་བཤད་ཚུའི་<code>དུས་མཐུན་བཟོ་</code>-ཨང་གྲངས།"
+
+#: modules/system/system.module:1799
+msgid "The number of <code>DELETE</code>-statements."
+msgstr "གསལ་བཤད་ཚུའི་<code>བཏོན་གཏང་</code>-ཨང་གྲངས།"
+
+#: modules/system/system.module:1800
+msgid "The number of table locks."
+msgstr "ཐིག་ཁྲམ་ལྡེ་མིག་ཚུ་གི་ ཨང་གྲངས།"
+
+#: modules/system/system.module:1801
+msgid "The number of table unlocks."
+msgstr "ཐིག་ཁྲམ་ལྡེ་མིག་ཕྱེ་ནི་ཚུ་གི་ཨང་གྲངས།"
+
+#: modules/system/system.module:1804
+msgid "Query performance"
+msgstr "འདྲི་དཔྱད་ལཱ་ཤུགས་"
+
+#: modules/system/system.module:1806
+msgid " The number of joins without an index; should be zero."
+msgstr "ཟུར་ཐོ་མེད་པར་མཐུད་ནི་གི་ཨང་གྲངས; འདི་ཀླད་ཀོར་འོང་དགོཔ་ཨིན།"
+
+#: modules/system/system.module:1807
+msgid "The number of joins without an index; should be zero."
+msgstr "ཟུར་ཐོ་མེད་པར་མཐུད་ནི་གི་ཨང་གྲངས་འདི་;  ཀླད་ཀོར་འོང་དགོཔ་ཨིན།"
+
+#: modules/system/system.module:1808
+msgid "The number of sorts done without using an index; should be zero."
+msgstr "ཟུར་ཐོ་ལག་ལེན་མ་ཐབས་པར་  དབྱེ་སེལ་འབད་ཡོད་པའི་ཨང་གྲངས; འདི་ཀླད་ཀོར་འོང་དགོཔ་ཨིན།"
+
+#: modules/system/system.module:1809
+msgid "The number of times a lock could be acquired immediately."
+msgstr "ལྡེ་མིག་འདི་དེ་འཕྲལ་ལས་རང་འཐོབ་ཚུགས་ནི་གི་  ཨང་གྲངས།"
+
+#: modules/system/system.module:1810
+msgid "The number of times the server had to wait for a lock."
+msgstr "སར་བར་འདི་ལྡེ་མིག་གི་དོན་ལུ་བསྒུག་ནི་ཨིན་པའི་  ཨང་གྲངས།"
+
+#: modules/system/system.module:1813
+msgid "Query cache information"
+msgstr "འདྲི་དཔྱད་ཀྱི་འདྲ་མཛོད་བརྡ་དོན་"
+
+#: modules/system/system.module:1814
+msgid "The MySQL query cache can improve performance of your site by storing the result of queries.  Then, if an identical query is received later, the MySQL server retrieves the result from the query cache rather than parsing and executing the statement again."
+msgstr "MySQL འདྲི་དཔྱད་འདྲ་མཛོད་དེ་གིས་  ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་ལཱ་ཤུགས་འདི་  འདྲི་དཔྱད་ཀྱི་གྲུབ་འབྲས་ཚུ་གསོག་འཇོག་འབད་ཐོག་ལས་  ཡར་འཕར་གཏང་ཚུགས།  དེ་ལས་  ངོས་འཛིན་འབད་ཡོད་པའི་འདྲ་དཔྱད་འདི་ཤུལ་མ་ཐོབ་ཡོད་པ་ཅིན་  MySQL སར་བར་དེ་གིས་  གསལ་བཤད་འདི་ལོག་འདི་རང་མིང་དཔྱད་འབད་ནི་དང་  ལག་ལེན་འཐབ་ནི་མེན་པར་  འདྲི་དཔྱད་འདྲ་མཛོད་ལས་  གྲུབ་འབྲས་ཚུ་སྲལ་འདྲེན་འབདཝ་ཨིན། "
+
+#: modules/system/system.module:1816
+msgid "The number of queries in the query cache."
+msgstr "འདྲི་དཔྱད་འདྲ་མཛོད་ནང་  འདྲི་དཔྱད་ཚུ་གི་ཨང་གྲངས།"
+
+#: modules/system/system.module:1817
+msgid "The number of times that MySQL found previous results in the cache."
+msgstr "MySQL དེ་གིས་ འདྲ མཛོད་ནང་ཧེ་མའི་གྲུབ་འབྲས་ཚུ་ཐོབ་ཡོད་པའི་དུས་ཡུན་གྱི་ཨང་གྲངས།"
+
+#: modules/system/system.module:1818
+msgid "The number of times that MySQL added a query to the cache (misses)."
+msgstr "MySQL དེ་གིས་  འདྲི་དཔྱད་འདི་འདྲ་མཛོད་(misses)ལུ་ཁ་སྐོང་བརྐྱབ་ཡོད་པའི་ དུས་ཡུན་གྱི་ཨང་གྲངས།"
+
+#: modules/system/system.module:1819
+msgid "The number of times that MySQL had to remove queries from the cache because it ran out of memory.  Ideally should be zero."
+msgstr "MySQL དེ་གིས་ འདྲ་དཔྱད་ཚུ་  འདྲ་མཛོད་ལས་རྩ་བསྐྲད་གཏང་ནི་ཨིན་པའི་ དུས་ཡུན་གྱི་ཨང་གྲངས་ཨིན་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  དེ་དྲན་ཚད་ལས་ཕྱི་ཁར་ཐོན་སོང་ནུག།  འོས་འབབས་ལྡན་མི་འདི་ཀླད་ཀོར་འོང་དགོཔ་ཨིན།"
+
+#: modules/system/system.module:1939
+msgid "Only JPEG, PNG and GIF images are allowed to be used as logos."
+msgstr "ཇེ་པི་ཨི་ཇི་  པི་ཨེན་ཇི་དང་ཇི་ཨའི་ཨེཕ་གཟུགས་བརྙན་རྐྱངམ་ཅིག་  ལས་རྟགས་འབད་ལག་ལེན་འཐབ་བཅུགཔ་ཨིན།"
+
+#: modules/system/system.module:1957
+msgid "Logo"
+msgstr "ལས་རྟགས།"
+
+#: modules/system/system.module:1958
+msgid "Site name"
+msgstr "ས་ཁོངས་མིང་།"
+
+#: modules/system/system.module:1959
+msgid "Site slogan"
+msgstr "ས་ཁོངས་འབོ་ཚིག"
+
+#: modules/system/system.module:1960
+msgid "Mission statement"
+msgstr "དམིགས་ལཱའི་གསལ་བཤད།"
+
+#: modules/system/system.module:1961
+msgid "User pictures in posts"
+msgstr "འགྲེམ་སྐྱེལ་ཚུ་ནང་ལག་ལེན་པའི་པར་ཚུ་འདུག"
+
+#: modules/system/system.module:1962
+msgid "User pictures in comments"
+msgstr "བརྡ་བཀོད་ནང་ལག་ལེན་པའི་པར་ཚུ་འདུག"
+
+#: modules/system/system.module:1963
+msgid "Search box"
+msgstr "འཚོལ་ཞིབ་སྒྲོམ།"
+
+#: modules/system/system.module:1964
+msgid "Shortcut icon"
+msgstr "མགྱོགས་ཐབས་ངོས་དཔར།"
+
+#: modules/system/system.module:1979
+msgid "Toggle display"
+msgstr "སོར་སྟོན་བཀྲམ་སྟོན་འབད།"
+
+#: modules/system/system.module:1980
+msgid "Enable or disable the display of certain page elements."
+msgstr "ཤོག་ལེབ་ཆ་ཤས་ལ་ལོ་ཅིག་གི་བཀྲམ་སྟོན་འདི་  ལྕོགས་ཅན་ཡང་ན་ལྕོགས་མེད་བཟོ།"
+
+#: modules/system/system.module:2005
+msgid "Display post information on"
+msgstr "གནས་བསྐྱོད་བརྡ་དོ་ནའདི་བཀྲམ་སྟོན་འབད།"
+
+#: modules/system/system.module:2006
+msgid "Enable or disable the <em>submitted by Username on date</em> text when displaying posts of the following type."
+msgstr "འོག་གི་དབྱེ་བ་གི་གནས་བསྐྱོད་འདི་ཚུ་བཀྲམ་སྟོན་འབདཝ་ད་  <em>ཚེས་གྲངས་གུ་ལག་ལེན་པའི་མིང་གིས་ཞུ་དེ་ཡོད་</em>ཚིག་ཡིག་འདི་ལྕོགས་ཅན་ཡང་ན་ལྕོགས་མེད་བཟོ།"
+
+#: modules/system/system.module:2020
+msgid "Logo image settings"
+msgstr "ལས་རྟགས་གཟུགས་བརྙན་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/system/system.module:2021
+msgid "If toggled on, the following logo will be displayed."
+msgstr "སོར་སྟོན་འབད་དེ་ཡོད་པ་ཅིན་  འོག་གི་ལས་རྟགས་འདི་བཀྲམ་སྟོན་འབད་འོང་།"
+
+#: modules/system/system.module:2026
+msgid "Use the default logo"
+msgstr "སྔོན་སྒྲིག་ལས་རྟགས་འདི་  ལག་ལེན་འཐབ།"
+
+#: modules/system/system.module:2029
+msgid "Check here if you want the theme to use the logo supplied with it."
+msgstr "ཁྱོད་ཀྱིས་ བརྗོད་དོན་འདི་ལས་རྟགས་བཀྲམ་སྤེལ་འབད་ཡོད་མི་དང་བཅས་ལག་ལེན་འཐབ་ནི་ཨིན་པ་ཅིན་  ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: modules/system/system.module:2033
+msgid "Path to custom logo"
+msgstr "སྲོལ་སྒྲིག་ལས་རྟགས་ལུ་འགྲུལ་ལམ།"
+
+#: modules/system/system.module:2035
+msgid "The path to the file you would like to use as your logo file instead of the default logo."
+msgstr "ཡིག་སྣོད་ལུ་འགྲུལ་ལམ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  སྔོན་སྒྲིག་ལས་རྟགས་མ་ཡིན་པ་  ཁྱོད་རའི་ལས་རྟགས་ཡིག་སྣོད་བཟུམ་ཨིན།"
+
+#: modules/system/system.module:2039
+msgid "Upload logo image"
+msgstr "ལས་རྟགས་གཟུགས་བརྙན་འདི་  སྐྱེལ་བཙུགས་འབད།"
+
+#: modules/system/system.module:2041
+msgid "If you don't have direct file access to the server, use this field to upload your logo."
+msgstr "ཁྱོད་ལུ་  སར་བར་ལུ་ཡིག་སྣོད་འཛུལ་སྤྱོད་འདི་ཐད་ཀར་དུ་མེད་པ་ཅིན་  ཁྱོད་རའི་ལས་རྟགས་འདི་སྐྱེལ་བཙུགས་འབད་ནིའི་དོན་ལུ་  ས་སྒོ་འདི་ལག་ལེན་འཐབ།"
+
+#: modules/system/system.module:2047
+msgid "Shortcut icon settings"
+msgstr "ངོས་དཔར་སྒྲིག་སྟངས་ཚུ་ཐུང་ཀུ།"
+
+#: modules/system/system.module:2048
+msgid "Your shortcut icon or 'favicon' is displayed in the address bar and bookmarks of most browsers."
+msgstr "ཁྱོད་རའི་  ངོས་དཔར་ ཡང་ན་  'favicon' འདི་  ཁ་བྱང་ཕྲ་རིང་དང་ བརྡ་འཚོལ་པ་མང་ཤོས་ཚུ་གི་ཀི་དེབ་རྟགས་ཚུ་ནང་བཀྲམ་སྟོན་འབད་དེ་ཡོད།"
+
+#: modules/system/system.module:2051
+msgid "Use the default shortcut icon."
+msgstr "སྔོན་སྒྲིག་ཐུང་ཀུའི་ངོས་དཔར་འདི་ལག་ལེན་འཐབ།"
+
+#: modules/system/system.module:2053
+msgid "Check here if you want the theme to use the default shortcut icon."
+msgstr "ཁྱོད་ཀྱིས་  བརྗོད་དོན་འདི་གིས་  སྔོན་སྒྲིག་ཐུང་ཀུའི་ངོས་དཔར་འདི་ལག་ལེན་འཐབ་དགོ་པ་ཅིན་  ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: modules/system/system.module:2057
+msgid "Path to custom icon"
+msgstr "སྲོལ་སྒྲིག་ངོས་དཔར་ལུ་འགྲུལ་ལམ།"
+
+#: modules/system/system.module:2059
+msgid "The path to the image file you would like to use as your custom shortcut icon."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་སྲོལ་སྒྲིག་ཐུང་ཀུའི་ངོས་དཔར་འབད་ལག་ལེན་འཐབ་དགོ་པའི་  གཟུགས་བརྙན་ཡིག་སྣོད་ལུ་འགྲུལ་ལམ།"
+
+#: modules/system/system.module:2064
+msgid "Upload icon image"
+msgstr "ངོས་དཔར་གཟུགས་བརྙན་སྐྱེལ་བཙུགས་འབད།"
+
+#: modules/system/system.module:2065
+msgid "If you don't have direct file access to the server, use this field to upload your shortcut icon."
+msgstr "ཁྱོད་ལུ་  སར་བར་ལུ་ཐད་ཀར་ཡིག་སྣོད་འཛུལ་སྤྱོད་འདི་མེད་པ་ཅིན་  ཁྱོད་རའི་ངོས་དཔར་ཐུང་ཀུ་འདི་སྐྱེལ་བཙུགས་འབད་ནི་ལུ་  ས་སྒོ་འདི་ལག་ལེན་འཐབ།"
+
+#: modules/system/system.module:2075
+msgid "Engine-specific settings"
+msgstr "འཕྲུལ་ཆས་དམིགས་བསལ་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/system/system.module:2075
+msgid "These settings only exist for all the templates and styles based on the %engine theme engine."
+msgstr "སྒྲིག་སྟངས་དེ་ཚུ་   %engine བརྗོད་དོན་འཕྲུལ་ཆས་གུ་གཞི་བཞག་སྟེ་  ཊེམ་པེལེཊིསི་དང་བཟོ་རྣམ་ཆ་མཉམ་གྱི་དོན་ལུ་རྐྱངམ་ཅིག་གནས་དེ་ཡོདཔ་ཨིན།"
+
+#: modules/system/system.module:2079
+msgid "Theme-specific settings"
+msgstr "བརྗོད་དོན་དམིགས་བསལ་གྱི་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/system/system.module:2079
+msgid "These settings only exist for the %theme theme and all the styles based on it."
+msgstr "སྒྲིག་སྟངས་དེ་ཚུ་གིས་   %theme བརྗོད་དོན་དོན་ལུ་དང་ འདི་ལུ་གཞི་བཞག་སྟེ་ཡོད་པའི་བཟོ་རྣམ་ཆ་མཉམ་གྱི་དོན་ལུ་རྐྱངམ་ཅིག་གནས་དོ་ཡོདཔ་ཨིན།"
+
+#: modules/system/system.module:2197
+msgid "Show descriptions"
+msgstr "གྲལ་བཤད་ཚུ་སྟོན་"
+
+#: modules/system/system.module:2197
+msgid "Produce a less compact layout that includes descriptions."
+msgstr "གྲལ་བཤད་ཚུ་བརྩི་མི་  ཨེབ་བཙུགས་འབད་ཡོད་པའི་བཀོད་སྒྲིག་ཉུང་ཤོས་ཅིག་བཟོ་སྟོན་འབདཝ་ཨིན།"
+
+#: modules/system/system.module:2200
+msgid "Hide descriptions"
+msgstr "གྲལ་བཤད་ཚུ་སྦ་བཞག་"
+
+#: modules/system/system.module:2200
+msgid "Produce a more compact layout that doesn't include descriptions."
+msgstr "གྲལ་བཤད་ཚུ་གྲངས་སུ་མ་བརྩི་མི་  ཨེབ་བཙུགས་འབད་ཡོད་པའི་བཀོད་སྒྲིག་ལེ་ཤ་ཅིག་བཟོ་སྟོན་འབད།"
+
+#: modules/system/system.module:2293
+msgid "Get help"
+msgstr "གྲོགས་རམ་ལེན་"
+
+#: modules/system/system.module:2312
+msgid "Configure permissions"
+msgstr "གནང་བ་ཚུ་རིམ་སྒྲིག་འབད་"
+
+#: modules/system/system.module:1402
+msgid " module"
+msgid_plural " modules"
+msgstr[0] "ཚད་གཞི་"
+msgstr[1] "ཚད་གཞི་ཚུ་"
+
+#: modules/system/system.module:50
+msgid "administer site configuration"
+msgstr "ས་ཁོངས་རིམ་སྒྲིག་འབད་ནི་འདི་བདག་སྐྱོང་འཐབ།"
+
+#: modules/system/system.module:50
+msgid "access administration pages"
+msgstr "བདག་སྐྱོང་འཐབ་ནིའི་ཤོག་ལེབ་འདི་འཛུལ་སྤྱོད་འབད།"
+
+#: modules/system/system.module:50
+msgid "select different theme"
+msgstr "བརྗོད་དོན་སོ་སོ་སེལ་འཐུ་འབད།"
+
+#: modules/system/system.module:0
+msgid "system"
+msgstr "རིམ་ལུགས།"
+
+#: modules/system/system.info:0
+msgid "Handles general site configuration for administrators."
+msgstr "བདག་སྐྱོང་གི་དོན་ལུ་  ཡོངས་ཁྱབ་ཀྱི་ས་ཁོངས་རིམ་སྒྲིག་འདི་ལེགས་སྐྱོང་འཐབ།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>activate your cron job on the cron page <a href=\"%file-cron\">cron."
+#~ "php</a>.</li>\n"
+#~ "<li>read how to <a href=\"%external-http-drupal-org-cron\">configure cron "
+#~ "jobs</a>.</li>\n"
+#~ "<li>administer cache settings in <a href=\"%admin-settings\">administer "
+#~ "&gt;&gt; settings</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ཁྱོད་ཀྱི་ཀོརཱོན་ལཱ་འདི་ཀོརཱོན་ཤོག་ལེབ་གུ་ ཤུགས་ལྡན་བཟོ་<a href=\"%file-cron\">cron.php</"
+#~ "a>.</li>\n"
+#~ "<li>ཀོརཱོན་ལཱ་ཚུ་ག་དེ་འབད་རིམ་སྒྲིག་འབད་ནི་ཨིན་ན་འདི་  <a href=\"%external-http-drupal-"
+#~ "org-cron\">ལྷག</a>.</li>\n"
+#~ "<li>འདྲ་མཛོད་སྒྲིག་སྟངས་ཚུ་ <a href=\"%admin-settings\">administer &gt;&gt; སྒྲིག་"
+#~ "སྟངས་ནང་ལུ་  བདག་སྐྱོང་འཐབ།</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgid ""
+#~ "<p>General configuration options for your site. Set up the name of the "
+#~ "site, e-mail address used in mail-outs, clean URL options, caching, etc.</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p>ཁྱོད་རའི་ས་ཁོངས་ཀྱི་དོན་ལུ་ ཡོངས་ཁྱབ་རིམ་སྒྲིག།  ས་ཁོངས་ཀྱི་མིང་  ཡིག་འཕྲིན་སྟོན་ནི་ཚུ་ནང་ལག་ལེན་"
+#~ "འཐབ་མི་ གློག་འཕྲིན་ཁ་བྱང་  ཡུ་ཨར་ཨེལ་གཙང་དག་བཟོ་ཟེར་བའི་གདམ་ཁ་ཚུ་  འདྲ་མཛོད་ ལ་སོགས་པའི་"
+#~ "མིང་ཚུ་གཞི་སྒྲིག་འབད།</p>"
+#~ msgid "Error handling"
+#~ msgstr "འཛོལ་བ་ལེགས་སྐྱོང་འཐབ་དོ།"
+#~ msgid "Cache settings"
+#~ msgstr "འདྲ་མཛོད་སྒྲིག་སྟངས་ཚུ།"
+#~ msgid ""
+#~ "Drupal has a caching mechanism which stores dynamically generated web "
+#~ "pages in a database.  By caching a web page, Drupal does not have to "
+#~ "create the page each time someone wants to view it, instead it takes only "
+#~ "one SQL query to display it, reducing response time and the server's "
+#~ "load.  Only pages requested by \"anonymous\" users are cached.  In order "
+#~ "to reduce server load and save bandwidth, Drupal stores and sends "
+#~ "compressed cached pages."
+#~ msgstr ""
+#~ "གནད་སྡུད་གཞི་རྟེན་ནང་ལུ་  ནུས་ཅན་ཐོག་ལས་བཟོ་བཏོན་འབད་ཡོད་པའི་ཝེབ་ཤོག་ལེབ་ཚུ་གསོག་འཇོག་འབད་"
+#~ "མི་  འདྲ་མཛོད་ཐབས་རིག་ཅིག་  ཌུ་པཱལ་ལུ་ཡོདཔ་ཨིན།  ཝེབ་ཤོག་ལེབ་འདི་འདྲ་མཛོད་འབདཝ་ལས་  གཞན་མི་"
+#~ "ཅིག་གིས་ལྟ་བཅུག་ནི་དོན་ལུ་  ཌུ་པཱལ་འདི་ཤོག་ལེབ་གསར་བསྐྲུན་འབད་མི་དགོ་  དེ་གི་ཚབ་ལུ་ བཀྲམ་སྟོན་"
+#~ "འབད་ནི་དོན་ལུ་ ཨེསི་ཀིའུ་ཨེལ་འདྲི་དཔྱད་གཅིག་རྐྱངམ་ཅིག་འབག་ནི་དང་  དེ་ཡང་  ལན་གྱི་ཆུ་ཚོད་དང་སར་"
+#~ "བར་གྱི་སྔོན་གསལ་མར་ཕབ་འབད་ཐོག་ལས་ཨིན།  \"anonymous\"ལག་ལེན་པ་ གིས་ཞུ་དེ་ཡོད་པའི་ཤོག་ལེབ་"
+#~ "ཚུ་རྐྱངམ་ཅིག་  འདྲ་མཛོད་ཨིན།  སར་བར་སྔོན་གསལ་འདི་མར་ཕབ་འབད་ནི་དང་  བེན་ཝིཐ་སྲུང་ནི་ལུ་  ཌུ་"
+#~ "པཱལ་དེ་གིས་  འདྲ་མཛོད་ཤོག་ལེབ་ཨེབ་བཙུགས་འབད་ཡོད་མི་འདི་ གསོག་འཇོག་འབད་ནི་དང་ གཏངམ་ཨིན།"
+#~ msgid "File system settings"
+#~ msgstr "ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་སྒྲིག་སྟངས་ཚུ།"
+#~ msgid "Image handling"
+#~ msgstr "གཟུགས་བརྙན་ལེགས་སྐྱོང་འབད་ནི།"
+#~ msgid "RSS feed settings"
+#~ msgstr "ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་འབད་ནི་གི་སྒྲིག་སྟངས་ཚུ།"
+#~ msgid "Date settings"
+#~ msgstr "ཚེས་གྲངས་སྒྲིག་སྟངས་ཚུ།"
+#~ msgid "String handling"
+#~ msgstr "ཡིག་རྒྱུན་ལེགས་སྐྱོང་འཐབ་ནི།"
+#~ msgid "Cron jobs"
+#~ msgstr "ཀོརཱོན་ལཱ་ཚུ།"
+#~ msgid "Cron is running. The last cron job ran %time ago."
+#~ msgstr "ཀོྲའོན་འདི་གཡོག་བཀལ་དོ།  མཇུག་གི་ཀོརཱོན་ལཱ་འདི་  %timeཧེ་མ་གཡོག་བཀལ་ནུག"
+#~ msgid ""
+#~ "Cron has not run. It appears cron jobs have not been setup on your "
+#~ "system. Please check the help pages for <a href=\"%url\">configuring cron "
+#~ "jobs</a>."
+#~ msgstr ""
+#~ "ཀོརཱོན་འདི་གཡོག་མ་བཀལ་བས།  ཀོརཱོན་ལཱ་ཚུ་ཁྱོད་རའི་རིམ་ལུགས་ནང་ལུ་གཞི་སྒྲིག་མ་འབདཝ་བཟུམ་འབད་ "
+#~ "འབྱུངམ་ཨིན།  <a href=\"%url\">ཀོརཱོན་ལཱ་ཚ་རིམ་སྒྲིག་འབད་དོ་</a>དོན་ལུ་  གྲོགས་རམ་ཤོག་ལེབ་ཚུ་"
+#~ "ཞིབ་དཔྱད་འབད་གནང་།"
+#~ msgid "required"
+#~ msgstr "དགོས་མཁོ་ཡོད།"
+#~ msgid "Confirm"
+#~ msgstr "ངེས་དཔྱད་འབད་ནི།"
+

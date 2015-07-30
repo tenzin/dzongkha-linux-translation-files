@@ -1,0 +1,991 @@
+# LANGUAGE translation of Drupal (includes/locale.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: locale.inc,v 1.74.2.4 2006/06/01 10:05:18 killes
+# sonam pelden <sonaa_peldn@yahoo.com>, 2006, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-4.7.0/locale-inc.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 10:03+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: includes/locale.inc:26
+msgid "The language %locale has been created and can now be used to import a translation. More information is available in the <a href=\"@locale-help\">help screen</a>."
+msgstr "%locale སྐད་ཡིག་འདི་གསར་བསྐྲུན་འབད་དེ་ཡོདཔ་ལས་  སྐད་སྒྱུར་ཅིག་ནང་འདྲེན་འབད་ནི་ལུ་ལག་ལེན་འཐབ་བཏུབ་ཨིན།  བརྡ་དོནཧེང་བཀལ་འདི་  <a href=\"@locale-help\">གསལ་གཞི་ལུ་གྲོགས་རམ་འབད་</a>ནང་ལུ་ཐོབ་ཚུགས།"
+
+#: includes/locale.inc:29
+msgid "The language %locale has been created."
+msgstr "%localeསྐད་ཡིག་འདི་ གསར་བསྐྲུན་འབད་ཡོད།"
+
+#: includes/locale.inc:32
+msgid "The %language language (%locale) has been created."
+msgstr "%languageསྐད་ཡིག་(%locale)འདི་གསར་བསྐྲུན་འབད་དེ་ཡོད།"
+
+#: includes/locale.inc:93
+msgid "Code"
+msgstr "ཨང་རྟགས།"
+
+#: includes/locale.inc:93
+msgid "English name"
+msgstr "ཨིང་ལིཤ་མིང་།"
+
+#: includes/locale.inc:93
+msgid "Translated"
+msgstr "སྐད་སྒྱུར་འབད་ནུག"
+
+#: includes/locale.inc:119
+msgid "Configuration saved."
+msgstr "རིམ་སྒྲིག་འབད་ནི་འདི་སྲུང་ནུག"
+
+#: includes/locale.inc:132
+msgid "Language list"
+msgstr "སྐད་ཡིག་གི་ཐོ་ཡིག"
+
+#: includes/locale.inc:136;282
+msgid "Language name"
+msgstr "སྐད་ཡིག་མིང་།"
+
+#: includes/locale.inc:139
+msgid "Select your language here, or add it below, if you are unable to find it."
+msgstr "ཁྱོད་ཀྱིས་འཚོལ་མ་ཐོབ་པ་ཅིན་   ཁྱོད་རའི་སྐད་ཡིག་འདི་ནཱ་ལུ་སེལ་འཐུ་འབད་ནི་  ཡང་ན་ འོག་ལུ་ཁ་སྐོང་བརྐྱབ།"
+
+#: includes/locale.inc:148
+msgid "Custom language"
+msgstr "སྲོལ་སྒྲིག་གི་སྐད་ཡིག"
+
+#: includes/locale.inc:152
+msgid "Language code"
+msgstr "སྐད་ཡིག་ཨང་རྟགས།"
+
+#: includes/locale.inc:156
+msgid "Commonly this is an <a href=\"@iso-codes\">ISO 639 language code</a> with an optional country code for regional variants. Examples include \"en\", \"en-US\" and \"zh-cn\"."
+msgstr "མཐུན་མོང་དུ་འབད་བ་ཅིན་  དམ་ཁ་ཅན་གྱི་རྒྱལ་ཁབ་ཨང་རྟགས་དང་བཅས་པའི་   <a href=\"@iso-codes\">ISO 639 language code</a>འདི་  ལུང་ཕྱོགས་འགྱུར་ཅན་ཚུ་ཨིན།  དཔེ་ཡང་   'en', 'en-US' དང་'zh-cn'དེ་ཚུ་ཡོདཔ་ཨིན།"
+
+#: includes/locale.inc:159
+msgid "Language name in English"
+msgstr "ཨིང་ལིཤ་ནང་ལུ་འབད་སྐད་ཡིག་མིང་།"
+
+#: includes/locale.inc:162
+msgid "Name of the language. Will be available for translation in all languages."
+msgstr "སྐད་ཡིག་གི་མིང་།  སྐད་སྒྱུར་དོན་ལུ་ སྐད་ཡིག་ཆ་མཉམ་ཐོབ་ཚུགས།"
+
+#: includes/locale.inc:164
+msgid "Add custom language"
+msgstr "སྲོལ་སྒྲིག་སྐད་ཡིག་འདི་ཁ་སྐོང་བརྐྱབ།"
+
+#: includes/locale.inc:184
+msgid "The language %language (%code) already exists."
+msgstr "སྐད་ཡིག་ %language (%code) ཧེ་མ་ལས་གནས་དེ་ཡོད།"
+
+#: includes/locale.inc:190
+msgid "Invalid language code."
+msgstr "ནུས་ཅན་མེད་པའི་སྐད་ཡིག་ཨང་རྟགས།"
+
+#: includes/locale.inc:224
+msgid "Already added languages"
+msgstr "ཧེ་མ་ལས་ཁ་སྐོང་བརྐྱབ་ཡོད་པའི་སྐད་ཡིག་ཚུ།"
+
+#: includes/locale.inc:225
+msgid "Languages not yet added"
+msgstr "སྐད་ཡིག་འདི་ད་ལྟོ་ཡང་ཁ་སྐོང་མ་བརྐྱབ་པས།"
+
+#: includes/locale.inc:231
+msgid "Import translation"
+msgstr "སྐད་སྒྱུར་འདི་ནང་འདྲེན་འབད།"
+
+#: includes/locale.inc:234
+msgid "Language file"
+msgstr "སྐད་ཡིག་ཡིག་སྣོད།"
+
+#: includes/locale.inc:236
+msgid "A gettext Portable Object (.po) file."
+msgstr "ཚིག་ཡིག་ལེན་ འབག་བཏུབ་པའི་དངོས་པོའི་(.po) ཡིག་སྣོད།"
+
+#: includes/locale.inc:239
+msgid "Import into"
+msgstr "ནང་ལུ་ནང་འདྲེན་འབད།"
+
+#: includes/locale.inc:241
+msgid "Choose the language you want to add strings into. If you choose a language which is not yet set up, then it will be added."
+msgstr "ཡིག་རྒྱུན་ཚུ་ཁ་སྐོང་བརྐྱབ་ནི་ཨིན་པའི་  སྐད་ཡིག་འདི་གདམ་ཁ་བརྐྱབ།  གཞི་སྒྲིག་འབད་དེ་མེད་པའི་སྐད་ཡིག་ཅིག་གདམ་ཁ་བརྐྱབ་པ་ཅིན་  དེ་ཁ་སྐོང་བརྐྱབ་འོང་།"
+
+#: includes/locale.inc:244
+msgid "Mode"
+msgstr "ཐབས་ལམ།"
+
+#: includes/locale.inc:246
+msgid "Strings in the uploaded file replace existing ones, new ones are added"
+msgstr "སྐྱེལ་བཙུགས་འབད་ནེ་ཡོད་པའི་ཡིག་སྣོད་ནང་གི་ ཡིག་རྒྱུན་ཚུ་གིས་  གནས་དེ་ཡོད་མི་ཚུ་ཚབ་བཙུགས་ནི་དང་  གསརཔ་ཚུ་ཁ་སྐོང་བརྐྱབ་ཨིན།"
+
+#: includes/locale.inc:246
+msgid "Existing strings are kept, only new strings are added"
+msgstr "གནས་དེ་ཡོད་པའི་ཡིག་རྒྱུན་ཚུ་བཞག་ནི་དང་  ཡིག་རྒྱུན་གསརཔ་ཚུ་རྐྱངམ་ཅིག་ཁ་སྐོང་བརྐྱབ་ཨིན།"
+
+#: includes/locale.inc:268
+msgid "The translation import of %filename failed."
+msgstr "%filenameགི་སྐད་སྒྱུར་འདི་འཐུས་ཤོར་འབྱུང་ནུག"
+
+#: includes/locale.inc:278
+msgid "Export translation"
+msgstr "སྐད་སྒྱུར་འདི་ཕྱིར་འདྲེན་འབད།"
+
+#: includes/locale.inc:284
+msgid "Select the language you would like to export in gettext Portable Object (.po) format."
+msgstr "ཚིག་ཡིག་ལེན་འབག་བཏུབ་པའི་དངོས་པོའི་ (.po) རྩ་སྒྲིག་ནང་  ཁྱོད་ཀྱིས་ཕྱིར་འདྲེན་འབད་དགོ་མནོ་བའི་སྐད་ཡིག་འདི་སེལ་འཐུ་འབད།"
+
+#: includes/locale.inc:293
+msgid "Export template"
+msgstr "ཊེམ་པེལེཊི་འདི་ཕྱིར་འདྲེན་འབད།"
+
+#: includes/locale.inc:295
+msgid "Generate a gettext Portable Object Template (.pot) file with all the interface strings from the Drupal locale database."
+msgstr "ཌུ་པཱལ་ལོ་ཀེལ་གནད་སྡུད་གཞི་རྟེན་ལས་ ངོས་འདྲ་བའི་ཡིག་རྒྱུན་ཆ་མཉམ་དང་བཅས་  ཚིག་ཡིག་ལན་བཏུབ་པའི་དངོས་པོའི་ ཊེམ་པེལེཊི་ (.pot) ཡིག་སྣོད་འདི་བཟོ་བཏོན་འབད།"
+
+#: includes/locale.inc:344
+msgid "Strings to search for"
+msgstr "འཚོལ་ཞིབ་འབད་དགོ་པའི་ཡིག་རྒྱུན།"
+
+#: includes/locale.inc:348
+msgid "Leave blank to show all strings. The search is case sensitive."
+msgstr "ཡིག་རྒྱུན་ཚུ་ཆ་མཉམ་སྟོན་ནི་དོན་ལུ་  སྟོངམ་བཞག   འཚོལ་ཞིབ་འདི་ཡི་གུ་ཆེ་ཆུང་གི་ཉན་ཁ་ཨིན་མས།"
+
+#: includes/locale.inc:353
+msgid "All languages"
+msgstr "སྐད་ཡིག་ཚུ་ཆ་མཉམ།"
+
+#: includes/locale.inc:353
+msgid "English (provided by Drupal)"
+msgstr "ཨིང་ལིཤ་(ཌུ་པཱལ་གྱིས་བྱིན་ཡོད་མི།)"
+
+#: includes/locale.inc:356
+msgid "Search in"
+msgstr "ནང་ན་འཚོལ་ཞིབ་འབད།"
+
+#: includes/locale.inc:358
+msgid "All strings in that language"
+msgstr "སྐད་ཡིག་ནང་ཡོད་པའི་ཡིག་རྒྱུན་ཚུ་ཆ་མཉམ།"
+
+#: includes/locale.inc:358
+msgid "Only translated strings"
+msgstr "སྐད་སྒྱུར་འབད་ཡོད་པའི་ཡིག་རྒྱུན་ཚུ།"
+
+#: includes/locale.inc:358
+msgid "Only untranslated strings"
+msgstr "སྐད་སྒྱུར་མ་འབད་བར་ཡོད་པའི་ཡིག་རྒྱུན་རྐྱངམ་ཅིག"
+
+#: includes/locale.inc:393
+msgid "String not found."
+msgstr "ཡིག་རྒྱུན་མ་ཐོབ།"
+
+#: includes/locale.inc:399
+msgid "Original text"
+msgstr "ཚིག་ཡིག་ངོ་མ།"
+
+#: includes/locale.inc:413
+msgid "Save translations"
+msgstr "སྐད་སྒྱུར་ཚུ་སྲུང་།"
+
+#: includes/locale.inc:434
+msgid "The string has been saved."
+msgstr "ཡིག་རྒྱུན་འདི་སྲུང་ཡོད།"
+
+#: includes/locale.inc:451
+msgid "The string has been removed."
+msgstr "ཡིག་རྒྱུན་འདི་རྩ་བསྐྲད་གཏང་ནུག"
+
+#: includes/locale.inc:474
+msgid "The language selected for import is not supported."
+msgstr "ནང་འདྲེན་གྱི་དོན་ལུ་སེལ་འཐུ་འབད་དེ་ཡོད་པའི་སྐད་ཡིག་འདི་ རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: includes/locale.inc:489
+msgid "The translation file %filename appears to have a missing or malformed header."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename འདི་  རླག་སྟོར་ཞུགས་པ་ཡང་ན་ བཟོ་ཉེས་གྱུར་འབད་ཡོད་པའི་མགོ་ཡིག་ཅིག་འབད་འབྱུངམ་ཨིན།"
+
+#: includes/locale.inc:498
+msgid "The translation was successfully imported. There are %number newly created translated strings and %update strings were updated."
+msgstr "སྐད་ཡིག་འདི་མཐར་འཁྱོལ་སྦེ་ནང་འདྲེན་འབད་ནུག  %number གསརཔ་གསར་བསྐྲུན་འབད་ཡོད་པའི་སྐད་སྒྱུར་ཡིག་རྒྱུན་ དང་  %update ཡིག་རྒྱུན་ཚུ་དུས་མཐུན་བཟོ་ནུག"
+
+#: includes/locale.inc:499
+msgid "Imported %file into %locale: %number new strings added and %update updated."
+msgstr "%locale ནང་ལུ་ནང་འདྲེན་འབད་དེ་ཡོད་པའི་ %file: %number ཡིག་རྒྱུན་གསརཔ་ཚུ་ཁ་སྐོང་བརྐྱབ་ཡོདཔ་དང་  %update འདི་དུས་མཐུན་བཟོ་ནུག"
+
+#: includes/locale.inc:866
+msgid "The translation file %filename contains an error: the plural formula could not be parsed."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename དེ་ལུ་  འཛོལ་བ་ཅིག་གནས་དེ་འདུག:  མན་ངག་ལེ་ཤ་ཅིག་མིང་དཔྱད་འབད་མ་ཚུགས་པས།"
+
+#: includes/locale.inc:1144
+msgid "Exported %locale translation file: %filename."
+msgstr "ཕྱིར་འདྲེན་འབད་དེ་ཡོད་པའི་  %locale སྐད་སྒྱུར་ཡིག་སྣོད: %filename"
+
+#: includes/locale.inc:1165
+msgid "Exported translation file: %filename."
+msgstr "ཕྱིར་འདྲེན་འབད་དེ་ཡོད་པའི་ སྐད་སྒྱུར་ཡིག་སྣོད: %filename"
+
+#: includes/locale.inc:1376
+msgid "String"
+msgstr "ཡིག་རྒྱུན།"
+
+#: includes/locale.inc:1376
+msgid "Locales"
+msgstr "ལོ་ཀེལསི།"
+
+#: includes/locale.inc:519
+msgid "The translation import failed, because the file %filename could not be read."
+msgstr "སྐད་སྒྱུར་ནང་འདྲེན་འབད་ནི་འདི་ འཐུས་ཤོར་འབྱུང་ནུག་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  ཡིག་སྣོད་ %filename འདི་ལྷག་མ་ཚུགས།"
+
+#: includes/locale.inc:544
+msgid "The translation file %filename contains an error: \"msgstr\" was expected but not found on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename དེ་ལུ་  འཛོལ་བ་གནས་དེ་འདུག:  \"msgstr\" འདི་རེ་བ་བསྐྱེད་ནུག་ དེ་འབདཝ་ད་  གྲལ་ཐིག་ %line གུ་མ་ཐོབ།"
+
+#: includes/locale.inc:550
+msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename དེ་ལུ་  འཛོལ་བ་གནས་དེ་ཡོད:  \"msgid_plural\"འདི་རེ་བ་བསྐྱེད་ནུག་ དེ་འབདཝ་ད་  གྲལ་ཐིག་ %lineགུ་མ་ཐོབ།"
+
+#: includes/locale.inc:556;574;586;594;608;617
+msgid "The translation file %filename contains a syntax error on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་  %filename ཚིག་སྦྱོར་འཛོལ་བ་འདི་  གྲལ་ཐིག་ %line གུ་ཡོད།"
+
+#: includes/locale.inc:568
+msgid "The translation file %filename contains an error: \"msgid\" is unexpected on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་%filenameདེ་ལུ་  འཛོལ་བ་གནས་དེ་འདུག:  \"msgid\" འདི་  གྲལ་ཐིག་%line གུ་རེ་བ་མ་བསྐྱེད་བས།"
+
+#: includes/locale.inc:582
+msgid "The translation file %filename contains an error: \"msgstr[]\" is unexpected on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename དེ་གིས་ འཛོལ་བ་གནས་དེ་འདུག:   \"msgstr[]\" འདི་ གྲལ་ཐིག་  %line གུ་ རེ་བ་མེདཔ་མས།"
+
+#: includes/locale.inc:602
+msgid "The translation file %filename contains an error: \"msgstr\" is unexpected on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename དེ་ལུ་ འཛོལ་བ་འདི་གནས་དེ་འདུག:  \"msgstr\" འདི་  གྲལ་ཐིག་ %line གུ་རེ་བ་མེདཔ་མས།"
+
+#: includes/locale.inc:630
+msgid "The translation file %filename contains an error: there is an unexpected string on line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་%filename དེ་ལུ་ འཛོལ་བ་གནས་དེ་འདུག:  རེ་བ་མེད་པའི་ ཡིག་རྒྱུན་འདི་  གྲལ་ཐིག་ %lineགུ་འདུག"
+
+#: includes/locale.inc:641
+msgid "The translation file %filename ended unexpectedly at line %line."
+msgstr "སྐད་སྒྱུར་ཡིག་སྣོད་ %filename འདི་  རེ་བ་མེདཔ་འབད་  གྲལ་ཐིག་  %line ལུ་མཇུག་བསྡུ་ནུག"
+
+#: includes/locale.inc:1436
+msgid "Afar"
+msgstr "ཨ་ཕར།"
+
+#: includes/locale.inc:1436
+msgid "Abkhazian"
+msgstr "ཨབ་ཁ་ཛི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Avestan"
+msgstr "ཨ་བེསི་ཏཱན།"
+
+#: includes/locale.inc:1436
+msgid "Afrikaans"
+msgstr "ཨཕ་རི་ཀཱནསི།"
+
+#: includes/locale.inc:1436
+msgid "Akan"
+msgstr "ཨ་ཀཱན།"
+
+#: includes/locale.inc:1436
+msgid "Amharic"
+msgstr "ཨམ་ཧ་རིཀ"
+
+#: includes/locale.inc:1436
+msgid "Arabic"
+msgstr "ཨ་ར་བིཀ།"
+
+#: includes/locale.inc:1436
+msgid "Assamese"
+msgstr "ཨ་སཱ་མིསི།"
+
+#: includes/locale.inc:1436
+msgid "Avar"
+msgstr "ཨ་བཱར།"
+
+#: includes/locale.inc:1436
+msgid "Aymara"
+msgstr "ཨེ་མ་རཱ།"
+
+#: includes/locale.inc:1436
+msgid "Azerbaijani"
+msgstr "ཨ་ཛར་བེའི་ཇཱ་ནི།"
+
+#: includes/locale.inc:1436
+msgid "Bashkir"
+msgstr "བཱཤ་ཀིར།"
+
+#: includes/locale.inc:1436
+msgid "Belarusian"
+msgstr "བི་ལཱ་རུ་སི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Bulgarian"
+msgstr "བཱལ་ག་རི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Bihari"
+msgstr "བི་ཧཱ་རི།"
+
+#: includes/locale.inc:1436
+msgid "Bislama"
+msgstr "བིསི་ལཱ་མ།"
+
+#: includes/locale.inc:1436
+msgid "Bambara"
+msgstr "བམ་བཱ་ར།"
+
+#: includes/locale.inc:1436
+msgid "Bengali"
+msgstr "བེང་ག་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Tibetan"
+msgstr "བོད་སྐད། ཊི་བེ་ཊཱན།"
+
+#: includes/locale.inc:1436
+msgid "Breton"
+msgstr "བིརི་ཊཱོན།"
+
+#: includes/locale.inc:1436
+msgid "Bosnian"
+msgstr "བོསི་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Catalan"
+msgstr "ཀེ་ཊ་ལཱན།"
+
+#: includes/locale.inc:1436
+msgid "Chechen"
+msgstr "ཆི་ཆེན།"
+
+#: includes/locale.inc:1436
+msgid "Chamorro"
+msgstr "ཆ་མོ་རོ།"
+
+#: includes/locale.inc:1436
+msgid "Corsican"
+msgstr "ཀོར་སི་ཀེན།"
+
+#: includes/locale.inc:1436
+msgid "Cree"
+msgstr "ཀིརི།"
+
+#: includes/locale.inc:1436
+msgid "Czech"
+msgstr "ཅེཛི།"
+
+#: includes/locale.inc:1436
+msgid "Old Slavonic"
+msgstr "ཨོལཌི་སཱལ་བོ་ནིཀ།"
+
+#: includes/locale.inc:1436
+msgid "Chuvash"
+msgstr "ཅུ་ཝེཤི།"
+
+#: includes/locale.inc:1436
+msgid "Welsh"
+msgstr "ཝེལཤི།"
+
+#: includes/locale.inc:1436
+msgid "Danish"
+msgstr "ཌེ་ནིཤ།"
+
+#: includes/locale.inc:1436
+msgid "German"
+msgstr "ཇར་མཱན།"
+
+#: includes/locale.inc:1436
+msgid "Maldivian"
+msgstr "མཱལ་དེ་བི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Bhutani"
+msgstr "བཱུ་ཏཱ་ནི།"
+
+#: includes/locale.inc:1436
+msgid "Ewe"
+msgstr "ཨིཝི།"
+
+#: includes/locale.inc:1436
+msgid "Greek"
+msgstr "གི་རིཀ།"
+
+#: includes/locale.inc:1436
+msgid "English"
+msgstr "ཨིང་ལིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Esperanto"
+msgstr "ཨིསི་པི་རཱན་ཏོ།"
+
+#: includes/locale.inc:1436
+msgid "Spanish"
+msgstr "སིཔེ་ནིཤི།"
+
+#: includes/locale.inc:1436
+msgid "Estonian"
+msgstr "ཨིསི་ཊོ་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Basque"
+msgstr "བཱགསིཀ།"
+
+#: includes/locale.inc:1436
+msgid "Persian"
+msgstr "པར་ཤི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Fulah"
+msgstr "ཕུ་ལཱ།"
+
+#: includes/locale.inc:1436
+msgid "Finnish"
+msgstr "ཕིན་ནིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Fiji"
+msgstr "ཕི་ཇི།"
+
+#: includes/locale.inc:1436
+msgid "Faeroese"
+msgstr "ཕེ་རོ་སི།"
+
+#: includes/locale.inc:1436
+msgid "French"
+msgstr "ཕིརེནཆི།"
+
+#: includes/locale.inc:1436
+msgid "Frisian"
+msgstr "ཕིརི་སི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Irish"
+msgstr " ཨའི་རིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Scots Gaelic"
+msgstr "སིཀོཊིསི་ གེ་ལིཀ།"
+
+#: includes/locale.inc:1436
+msgid "Galician"
+msgstr "གེ་ལི་ཤི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Guarani"
+msgstr "གའོ་རཱ་ནི།"
+
+#: includes/locale.inc:1436
+msgid "Gujarati"
+msgstr "གུ་ཇ་ར་ཏི།"
+
+#: includes/locale.inc:1436
+msgid "Manx"
+msgstr "མེ་ནེགསི།"
+
+#: includes/locale.inc:1436
+msgid "Hausa"
+msgstr "ཧའོ་སཱ།"
+
+#: includes/locale.inc:1436
+msgid "Hebrew"
+msgstr "ཧེབ་བིརིའུ།"
+
+#: includes/locale.inc:1436
+msgid "Hindi"
+msgstr "ཧིན་དི།"
+
+#: includes/locale.inc:1436
+msgid "Hiri Motu"
+msgstr "ཧི་རི་མོ་ཊུ།"
+
+#: includes/locale.inc:1436
+msgid "Croatian"
+msgstr "ཀོརོ་ཤི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Hungarian"
+msgstr "ཧང་ག་རི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Armenian"
+msgstr "ཨར་མི་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Herero"
+msgstr "ཧི་རི་རོ།"
+
+#: includes/locale.inc:1436
+msgid "Interlingua"
+msgstr "བར་སྐད།"
+
+#: includes/locale.inc:1436
+msgid "Indonesian"
+msgstr "ཨིན་ཌོ་ནེ་ཤི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Interlingue"
+msgstr "ཨིན་ཊར་ལིངཀ།"
+
+#: includes/locale.inc:1436
+msgid "Igbo"
+msgstr "ཨའི་ཇི་བི་ཨོ།"
+
+#: includes/locale.inc:1436
+msgid "Inupiak"
+msgstr "ཨིན་ཨུ་པིཡཀ།"
+
+#: includes/locale.inc:1436
+msgid "Icelandic"
+msgstr " ཨའིསི་ལེན་ཌིཀ།"
+
+#: includes/locale.inc:1436
+msgid "Italian"
+msgstr "ཨི་ཊ་ལི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Inuktitut"
+msgstr "ཨིན་ཨུཀ་ཏི་ཏིཏ།"
+
+#: includes/locale.inc:1436
+msgid "Japanese"
+msgstr "ཇ་པ་ནིསི།"
+
+#: includes/locale.inc:1436
+msgid "Javanese"
+msgstr "ཇ་བ་ནིསི།"
+
+#: includes/locale.inc:1436
+msgid "Georgian"
+msgstr "ཇིའོར་ཇི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Kongo"
+msgstr "ཀོན་གོ།"
+
+#: includes/locale.inc:1436
+msgid "Kikuyu"
+msgstr "ཀི་ཀུ་ཡུ།"
+
+#: includes/locale.inc:1436
+msgid "Kwanyama"
+msgstr "ཀཱ་ནི་ཡ་མ།"
+
+#: includes/locale.inc:1436
+msgid "Kazakh"
+msgstr "ཀ་ཛཀསི།"
+
+#: includes/locale.inc:1436
+msgid "Greenlandic"
+msgstr "གིརིན་ལེན་དིཀ"
+
+#: includes/locale.inc:1436
+msgid "Cambodian"
+msgstr "ཀེམ་བོ་ཌིཡན།"
+
+#: includes/locale.inc:1436
+msgid "Kannada"
+msgstr "ཀཱན་ན་ད།"
+
+#: includes/locale.inc:1436
+msgid "Korean"
+msgstr "ཀོ་རི་ཡའི།"
+
+#: includes/locale.inc:1436
+msgid "Kanuri"
+msgstr "ཀ་ནུ་རི།"
+
+#: includes/locale.inc:1436
+msgid "Kashmiri"
+msgstr "ཀཤ་མི་རི།"
+
+#: includes/locale.inc:1436
+msgid "Kurdish"
+msgstr "ཀུར་ཌིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Komi"
+msgstr "ཀོ་མི།"
+
+#: includes/locale.inc:1436
+msgid "Cornish"
+msgstr "ཀོར་ནིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Kirghiz"
+msgstr "ཀིར་གིསི།"
+
+#: includes/locale.inc:1436
+msgid "Latin"
+msgstr "ལེ་ཊིན།"
+
+#: includes/locale.inc:1436
+msgid "Luxembourgish"
+msgstr "ལུ་ཛེམ་བོར་གིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Luganda"
+msgstr "ལུ་གེན་ཌ།"
+
+#: includes/locale.inc:1436
+msgid "Lingala"
+msgstr "ལིང་ག་ལ།"
+
+#: includes/locale.inc:1436
+msgid "Laothian"
+msgstr "ལའོ་ཐེཡན།"
+
+#: includes/locale.inc:1436
+msgid "Lithuanian"
+msgstr "ལི་ཐུ་ཡ་ནིཡན།"
+
+#: includes/locale.inc:1436
+msgid "Latvian"
+msgstr "ལེཊ་བིཡན།"
+
+#: includes/locale.inc:1436
+msgid "Malagasy"
+msgstr "མ་ལ་ག་སེ།"
+
+#: includes/locale.inc:1436
+msgid "Marshallese"
+msgstr "མར་ཤ་ལིསི།"
+
+#: includes/locale.inc:1436
+msgid "Maori"
+msgstr "མའོ་རི།"
+
+#: includes/locale.inc:1436
+msgid "Macedonian"
+msgstr "མེ་སི་ཌོ་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Malayalam"
+msgstr "མ་ལ་ཡ་ལམ།"
+
+#: includes/locale.inc:1436
+msgid "Mongolian"
+msgstr "མོང་གོ་ལི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Moldavian"
+msgstr "མོལ་ཌ་ཝིཡན།"
+
+#: includes/locale.inc:1436
+msgid "Marathi"
+msgstr "མ་ར་ཐི།"
+
+#: includes/locale.inc:1436
+msgid "Malay"
+msgstr "མ་ལེ།"
+
+#: includes/locale.inc:1436
+msgid "Maltese"
+msgstr "མཱལ་ཊི་སི།"
+
+#: includes/locale.inc:1436
+msgid "Burmese"
+msgstr "བཱར་མིསི།"
+
+#: includes/locale.inc:1436
+msgid "Nauru"
+msgstr "ནའུ་རུ།"
+
+#: includes/locale.inc:1436
+msgid "North Ndebele"
+msgstr "བྱང་ དི་བི་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Nepali"
+msgstr "ནི་པཱ་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Ndonga"
+msgstr "ཌོན་ག།"
+
+#: includes/locale.inc:1436
+msgid "Dutch"
+msgstr "ཌཆ།"
+
+#: includes/locale.inc:1436
+msgid "Norwegian"
+msgstr "ནོར་ཝེ་ཇི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "South Ndebele"
+msgstr "ལྷོའི་ཌི་བི་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Navajo"
+msgstr "ན་བ་ཇོ།"
+
+#: includes/locale.inc:1436
+msgid "Chichewa"
+msgstr "ཆའི་ཆི་ཝ།"
+
+#: includes/locale.inc:1436
+msgid "Occitan"
+msgstr "ཨོ་སི་ཏཱན།"
+
+#: includes/locale.inc:1436
+msgid "Oromo"
+msgstr "ཨོ་རོ་མོ།"
+
+#: includes/locale.inc:1436
+msgid "Oriya"
+msgstr "ཨོ་རི་ཡ།"
+
+#: includes/locale.inc:1436
+msgid "Ossetian"
+msgstr "ཨོ་སི་ཏིཡན།"
+
+#: includes/locale.inc:1436
+msgid "Punjabi"
+msgstr "པཱན་ཇ་བི།"
+
+#: includes/locale.inc:1436
+msgid "Pali"
+msgstr "པ་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Polish"
+msgstr "པོ་ལིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Pashto"
+msgstr "པཤ་ཊོ།"
+
+#: includes/locale.inc:1436
+msgid "Portuguese, Portugal"
+msgstr "པོར་ཊུ་གིསི་ པོར་ཊུ་གལ་"
+
+#: includes/locale.inc:1436
+msgid "Portuguese, Brazil"
+msgstr "པོར་ཊུ་གིསི་  བ་ར་ཛིལ་"
+
+#: includes/locale.inc:1436
+msgid "Quechua"
+msgstr "ཀུའི་ཅུ་འ།"
+
+#: includes/locale.inc:1436
+msgid "Rhaeto-Romance"
+msgstr "རཧི་ཊོ་-རོ་མཱནསི།"
+
+#: includes/locale.inc:1436
+msgid "Kirundi"
+msgstr "ཀི་་རུན་དི།"
+
+#: includes/locale.inc:1436
+msgid "Romanian"
+msgstr "རོ་མ་ནི་ཡཱན། "
+
+#: includes/locale.inc:1436
+msgid "Russian"
+msgstr "ར་ཤི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Kinyarwanda"
+msgstr "ཀིན་ཡར་ཝན་ཌ།"
+
+#: includes/locale.inc:1436
+msgid "Sanskrit"
+msgstr "སཱནསི་ཀིརིཊི།"
+
+#: includes/locale.inc:1436
+msgid "Sardinian"
+msgstr "སར་དི་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Sindhi"
+msgstr "སིན་དཱི།"
+
+#: includes/locale.inc:1436
+msgid "Northern Sami"
+msgstr "བྱང་ཕྱོགས་ས་མི།"
+
+#: includes/locale.inc:1436
+msgid "Sango"
+msgstr "སེན་གོ།"
+
+#: includes/locale.inc:1436
+msgid "Serbo-Croatian"
+msgstr "སེར་བོ་-ཀོརོ་ཤི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Singhalese"
+msgstr "སིང་ཧ་ལིསི།"
+
+#: includes/locale.inc:1436
+msgid "Slovak"
+msgstr "སོལོ་བཱཀ།"
+
+#: includes/locale.inc:1436
+msgid "Slovenian"
+msgstr "སོལོ་བི་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Samoan"
+msgstr "ས་མོའོན།"
+
+#: includes/locale.inc:1436
+msgid "Shona"
+msgstr "ཤོ་ན།"
+
+#: includes/locale.inc:1436
+msgid "Somali"
+msgstr "སོ་མཱ་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Albanian"
+msgstr "ཨཱལ་བཱ་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Serbian"
+msgstr "སར་བི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Siswati"
+msgstr "སིསི་ཝ་ཏི།"
+
+#: includes/locale.inc:1436
+msgid "Sesotho"
+msgstr "སི་ཤོ་ཐོ།"
+
+#: includes/locale.inc:1436
+msgid "Sudanese"
+msgstr "སུ་དཱན་ནིསི།"
+
+#: includes/locale.inc:1436
+msgid "Swedish"
+msgstr "སུའི་ཌིཤི།"
+
+#: includes/locale.inc:1436
+msgid "Swahili"
+msgstr "ས་ཝ་ཧི་ལི།"
+
+#: includes/locale.inc:1436
+msgid "Tamil"
+msgstr " ཏ་མིལ།"
+
+#: includes/locale.inc:1436
+msgid "Telugu"
+msgstr "ཏེ་ལུ་གུ།"
+
+#: includes/locale.inc:1436
+msgid "Tajik"
+msgstr "ཏ་ཇི་ཀི།"
+
+#: includes/locale.inc:1436
+msgid "Thai"
+msgstr "ཐཱའི།"
+
+#: includes/locale.inc:1436
+msgid "Tigrinya"
+msgstr "ཏིག་རིན་ཡ།"
+
+#: includes/locale.inc:1436
+msgid "Turkmen"
+msgstr "ཊརཀ་མིན།"
+
+#: includes/locale.inc:1436
+msgid "Tagalog"
+msgstr "ཏ་ག་ལོག"
+
+#: includes/locale.inc:1436
+msgid "Setswana"
+msgstr "སེཊསི་སཱ་ན།"
+
+#: includes/locale.inc:1436
+msgid "Tonga"
+msgstr "ཊོང་ག"
+
+#: includes/locale.inc:1436
+msgid "Turkish"
+msgstr "ཊར་ཀིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Tsonga"
+msgstr "ཚོང་ག"
+
+#: includes/locale.inc:1436
+msgid "Tatar"
+msgstr "ཊ་ཊར།"
+
+#: includes/locale.inc:1436
+msgid "Twi"
+msgstr "ཊི་ཌབ་ལུ་ཨའི།"
+
+#: includes/locale.inc:1436
+msgid "Tahitian"
+msgstr "ཏཱ་ཧི་ཤིཡན།"
+
+#: includes/locale.inc:1436
+msgid "Uighur"
+msgstr "ཨུའི་གུར།"
+
+#: includes/locale.inc:1436
+msgid "Ukrainian"
+msgstr "ཡུཀ་རའི་ནི་ཡཱན།"
+
+#: includes/locale.inc:1436
+msgid "Urdu"
+msgstr "ཨུར་དུ།"
+
+#: includes/locale.inc:1436
+msgid "Uzbek"
+msgstr "ཨུཛ་བེཀ།"
+
+#: includes/locale.inc:1436
+msgid "Venda"
+msgstr "ཝིན་ཌ།"
+
+#: includes/locale.inc:1436
+msgid "Vietnamese"
+msgstr "ཝེཊི་ན་མིསི།"
+
+#: includes/locale.inc:1436
+msgid "Wolof"
+msgstr "འོ་ལོཕ།"
+
+#: includes/locale.inc:1436
+msgid "Xhosa"
+msgstr "ཞོ་ས།"
+
+#: includes/locale.inc:1436
+msgid "Yiddish"
+msgstr "ཡིད་དིཤ།"
+
+#: includes/locale.inc:1436
+msgid "Yoruba"
+msgstr "ཡོ་རུ་བཱ།"
+
+#: includes/locale.inc:1436
+msgid "Zhuang"
+msgstr "ཞུངས།"
+
+#: includes/locale.inc:1436
+msgid "Chinese, Simplified"
+msgstr "རྒྱ་ནག་གི།(འཇམ་བཟོས་) "
+
+#: includes/locale.inc:1436
+msgid "Chinese, Traditional"
+msgstr "རྒྱ་ནག་གི་(སྔོན་སྲོལ)"
+
+#: includes/locale.inc:1436
+msgid "Zulu"
+msgstr "ཛུ་ལུ།"
+
+#~ msgid "Add language"
+#~ msgstr "སྐད་ཡིག་འདི་ཁ་སྐོང་བརྐྱབ།"
+#~ msgid "Import"
+#~ msgstr "ནང་འདྲེན་འབད།"
+#~ msgid "Export"
+#~ msgstr "ཕྱིར་འདྲེན་འབད།"
+

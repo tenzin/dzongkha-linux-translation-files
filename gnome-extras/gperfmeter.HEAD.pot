@@ -1,0 +1,982 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gperfmeter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-14 22:09+0100\n"
+"PO-Revision-Date: 2006-12-25 14:19+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gperfmeter.desktop.in.h:1
+#: ../src/perfmeter.c:739
+msgid "Monitor disk, memory, CPU and network usage"
+msgstr "གསལ་འཕྲུལ་ཌིཀསི་ དྲན་ཚད་ སི་པི་ཡུ་དང་ཡོངས་འབྲེལ་ལག་ལེན་"
+
+#: ../gperfmeter.desktop.in.h:2
+#: ../src/perfmeter.c:2550
+msgid "Performance Meter"
+msgstr "ལཱ་ཤུགས་མི་ཊར་"
+
+#: ../gperfmeter.schemas.in.h:1
+msgid "Autoload host resources when changed"
+msgstr "སོར་ཏེ་ཡོད་པའི་སྐབས་ལུ་ ཧོསཊི་འབྱུང་ཁུངས་འདི་ རང་བཞིན་མངོན་གསལ་འབད་"
+
+#: ../gperfmeter.schemas.in.h:2
+msgid "Automatically load host specific resources when the monitor host is changed."
+msgstr "གསལ་འཕྲུལ་ཧོསཊི་འདི་སོར་ཡོད་པའི་སྐབས་ལུ་ ཧོསཊི་འབྱུང་ཁུངས་ཚུ་རང་བཞིན་གྱིས་ མངོན་གསལ་འབདཝ་ཨིན།"
+
+#: ../gperfmeter.schemas.in.h:3
+msgid "Current value of max threshold"
+msgstr "ཐེརེཤ་ཧཱོལ་མང་མཐའི་བེ་ལུ་"
+
+#: ../gperfmeter.schemas.in.h:4
+msgid "Display action bar"
+msgstr "བྱ་བའི་ཕྲ་རིང་བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:5
+msgid "Display menubar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་ བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:6
+msgid "Display strip chart"
+msgstr "བཤུབ་ཀྱི་དཔེ་རིས་ བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:7
+msgid "Display threshold line"
+msgstr "ཐེརེཤ་ཧཱོལ་གྲལ་ཐིག་ བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:8
+msgid "Enable log"
+msgstr "དྲན་དེབ་ ལྕོགས་ཅན་བཟོ་"
+
+#: ../gperfmeter.schemas.in.h:9
+msgid "Graph type"
+msgstr "ཚད་ཁྲམ་དབྱེ་བ་"
+
+#: ../gperfmeter.schemas.in.h:10
+msgid "If false, try to migrate previous CDE settings to GConf."
+msgstr "བརྫུན་པ་ཅིན་ ཧེ་མའི་སི་ཌི་ཨི་སྒྲིག་སྟངས་ཚུ་ ཇི་ཀཱོནཕ་ལུ་སྤོ་བཤུད་འབད།"
+
+#: ../gperfmeter.schemas.in.h:11
+msgid "If true, display a moving rectangle called Action Bar."
+msgstr "བདེན་པ་ཅིན་ བྱ་བའི་ཕྲ་རིང་ཟེར་མི་བསྒུལ་ཅན་གྲུ་གསུམ་ཅིག་ བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:12
+msgid "If true, display the menubar."
+msgstr "བདེན་པ་ཅིན་ དཀར་ཆག་ཕྲ་རིང་ བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:13
+msgid "If true, display the threshold line in each graph."
+msgstr "བདེན་པ་ཅིན་ ཚད་ཁྲམ་རེ་ནང་ ཐེརེཤ་ཧཱོལ་བཀྲམ་སྟོན་འབད་"
+
+#: ../gperfmeter.schemas.in.h:14
+msgid "If true, load the resources by hostname."
+msgstr "བདེན་པ་ཅིན་ ཧོསཊི་མིང་གི་ཐོག་ལས་ འབྱུང་ཁུངས་ཚུ་མངོན་གསལ་འབད་"
+
+#: ../gperfmeter.schemas.in.h:15
+msgid "If true, look at the HostName key to load the appropriate value. Otherwise perfmeter monitors the local host."
+msgstr "བདེན་པ་ཅིན་ འོས་ལྡན་བེ་ལུ་ཅིག་མངོན་གསལ་འབད་ནི་གི་དོན་ལུ་ ཧོསཊི་མིང་གི་ལྡེ་མིང་ལུ་བལྟ། དེ་མེན་པ་ཅིན་ པརཕི་མི་ཊར་གྱིས་ ཉེ་གནས་ཧོསཊི་བལྟ་རྟོག་འབདཝ་ཨིན། "
+
+#: ../gperfmeter.schemas.in.h:16
+msgid "If true, save the resources by hostname."
+msgstr "བདེན་པ་ཅིན་ ཧོསཊི་མིང་གི་ཐོག་ལས་ འབྱུང་ཁུངས་ཚུ་སྲུངས།"
+
+#: ../gperfmeter.schemas.in.h:17
+msgid "If true, the application will continue to sample when iconized."
+msgstr "བདེན་པ་ཅིན་ ངོས་པར་བཟོ་ཡོད་པའི་སྐབས་ལུ་ གློག་རིམ་འདི་དཔེ་ཚད་ལུ་འཕྲོ་མཐུད་འོང་།"
+
+#: ../gperfmeter.schemas.in.h:18
+msgid "If true, turn on logging to the file specified in LogFilename."
+msgstr "བདེན་པ་ཅིན་ དྲན་དེབ་ཡིག་སྣོད་ནང་གསལ་བཀོད་འབད་ཡོད་མི་ཡིག་སྣོད་ལུ་ དྲན་དེབ་བཀོད།"
+
+#: ../gperfmeter.schemas.in.h:19
+msgid "Limit color index"
+msgstr "ཚོས་གཞིའི་ཟུར་ཐོའི་ཚད་"
+
+#: ../gperfmeter.schemas.in.h:20
+msgid "Load resources by hostname"
+msgstr "ཧོསཊི་མིང་གི་ཐོག་ལས་ འབྱུང་ཁུངས་ཚུ་མངོན་གསལ་འབད་"
+
+#: ../gperfmeter.schemas.in.h:21
+msgid "Log page length"
+msgstr "དྲན་དེབ་ཤོག་ལེབ་རིང་ཚད་ "
+
+#: ../gperfmeter.schemas.in.h:22
+msgid "Logfile"
+msgstr "དྲན་དེབ་ཡིག་སྣོད་"
+
+#: ../gperfmeter.schemas.in.h:23
+msgid "Maximum limit"
+msgstr "ཚད་མང་མཐའ་"
+
+#: ../gperfmeter.schemas.in.h:24
+msgid "Maximum value of max threshold"
+msgstr "ཐེརེཤ་ཧཱོལ་མང་མཐའི་བེ་ལུ་མང་མཐའ་"
+
+#: ../gperfmeter.schemas.in.h:25
+msgid "Meter color index"
+msgstr "མི་ཊར་ཚོས་གཞིའི་ཟུར་ཐོ་"
+
+#: ../gperfmeter.schemas.in.h:26
+msgid "Meters to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནིའི་ མི་ཊར་ཚུ་"
+
+#: ../gperfmeter.schemas.in.h:27
+msgid "Migrate CDE settings"
+msgstr "སི་ཌི་ཨི་སྒྲིག་སྟངས་ཚུ་ སྤོ་བཤུད་འབད་"
+
+#: ../gperfmeter.schemas.in.h:28
+msgid "Minimum value of max threshold"
+msgstr "ཐེརེཤ་ཧཱོལ་མང་མཐའི་བེ་ལུ་ཉུང་མཐའ་"
+
+#: ../gperfmeter.schemas.in.h:29
+msgid "Monitor remote host"
+msgstr "གསལ་འཕྲུལ་ཐག་རིང་ཧོསཊི་"
+
+#: ../gperfmeter.schemas.in.h:30
+msgid "Orientation of meters"
+msgstr "མི་ཊར་ཚུ་གི་ཁ་ཕྱོགས་"
+
+#: ../gperfmeter.schemas.in.h:31
+msgid "Remote hostname"
+msgstr "ཐག་རིང་ཧོསཊི་མིང་"
+
+#: ../gperfmeter.schemas.in.h:32
+msgid "Sample interval"
+msgstr "དཔེ་ཚད་བར་མཚམས་"
+
+#: ../gperfmeter.schemas.in.h:33
+msgid "Sample when iconized"
+msgstr "ངོས་པར་བཟོ་ཡོད་པའི་སྐབས་ཀྱི་དཔེ་ཚད་"
+
+#: ../gperfmeter.schemas.in.h:34
+msgid "Save resources by hostname"
+msgstr "ཧོསཊི་མིང་གི་ཐོག་ལས་ འབྱུང་ཁུངས་སྲུངས་"
+
+#: ../gperfmeter.schemas.in.h:35
+msgid "Sets the log output page length."
+msgstr "དྲན་དེབ་ཨའུཊི་པུཊི་གི་ཤོག་ལེབ་རིང་ཚད་འདི་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gperfmeter.schemas.in.h:36
+msgid "Sets the orientation of the visible meters. The supported values are \"horizontal\" and \"vertical\"."
+msgstr "མཐོང་ཚུགས་མི་མི་ཊར་ཚུ་གི་ཁ་ཕྱོགས་ གཞི་སྒྲིག་འབདཝ་ཨིན། རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་བེ་ལུ་ཚུ་ \"horizontal\" དང་ \"vertical\"གཉིས་ཨིན།"
+
+#: ../gperfmeter.schemas.in.h:37
+msgid "Specifies the file to log statistics to (pathname + filename)."
+msgstr "ཡིག་སྣོད་འདི་ དྲན་དེབ་ཚད་རྩིས་ལུ་གསལ་བཀོད་འབདཝ་ཨིན་(འགྲུལ་ལམ་+ཡིག་སྣོད་མིང་)།"
+
+#: ../gperfmeter.schemas.in.h:38
+msgid "Specifies the list of meters to display. The supported values are: cpu (0), load(1), disk(2), page(3), cntx(4), swap(5), intr(6), pkts(7), coll(8), errs(9)."
+msgstr "བཀྲམ་སྟོན་འབད་ནིའི་མི་ཊར་ཐོ་ཡིག་གསལ་བཀོད་འབདཝ་ཨིན། རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་བེ་ལུ་ཚུ་: སི་པི་ཡུ་ (༠) མངོན་གསལ་(༡) ཌིཀསི་(༢) ཤོག་ལེབ་(༣) སྐབས་དོན་(༤) བརྗེ་སོར་(༥) intr(༦) འཕྲིན་ཚན་(༧) ཀེལ་ཐིག་(༨)དང་ འཛོལ་བ་(༩)ཚུ་ཨིན།"
+
+#: ../gperfmeter.schemas.in.h:39
+msgid "The interval between each sample (depends on the time unit)."
+msgstr "དཔེ་ཚད་རེ་རེའི་བར་མཚམས་(ཆུ་ཚོད་ཆ་ཕྲན་ལུ་བརྟེནམ་ཨིན་)།"
+
+#: ../gperfmeter.schemas.in.h:40
+msgid "The name of the remote host."
+msgstr "ཐག་རིང་ཧོསཊི་གི་མིང་།"
+
+#: ../gperfmeter.schemas.in.h:41
+msgid "The unit of the time interval (either second(0), minute(1), hour(2))."
+msgstr "ཆུ་ཚོད་བར་མཚམས་ཀྱི་ཆ་ཕྲན་(དཀར་ཆག་(༠) དང་དཀར་མ་(༡) ཡངན་ ཆུ་ཚོད་(༢))ཨིན།"
+
+#: ../gperfmeter.schemas.in.h:42
+msgid "Time interval unit"
+msgstr "ཆུ་ཚོད་བར་མཚམས་ཆ་ཕྲན་"
+
+#: ../gperfmeter.schemas.in.h:43
+msgid "Type of graph displayed; either a bar chart (key \"solid\") or a strip chart (key \"line\")."
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ཚད་ཁྲམ་ ཕྲ་རིང་དཔེ་རིས་(ལྡེ་མིག་\"solid\") ཡངན་ བཤུབ་པའི་དཔེ་རིས་\"line\")ཨིན།"
+
+#: ../gperfmeter.schemas.in.h:44
+msgid "if true, display the Strip Chart"
+msgstr "བདེན་པ་ཅིན་ བཤུབ་པའི་དཔེ་རིས་འདི་བཀྲམ་སྟོན་འབད་"
+
+#: ../src/gperfmeter.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../src/gperfmeter.glade.h:3
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../src/gperfmeter.glade.h:4
+msgid "*"
+msgstr "*"
+
+#: ../src/gperfmeter.glade.h:5
+msgid "/sec"
+msgstr "/sec"
+
+#: ../src/gperfmeter.glade.h:6
+msgid "<b>Display</b>"
+msgstr "<b>བཀྲམ་སྟོན་</b>"
+
+#: ../src/gperfmeter.glade.h:7
+msgid "<b>Host</b>"
+msgstr "<b>ཧོསཊི་</b>"
+
+#: ../src/gperfmeter.glade.h:8
+msgid "<b>Layout</b>"
+msgstr "<b>སྒྲིག་བཀོད་</b>"
+
+#: ../src/gperfmeter.glade.h:9
+msgid "<b>Samples</b>"
+msgstr "<b>དཔེ་ཚད་</b>"
+
+#: ../src/gperfmeter.glade.h:10
+msgid "<b>Style</b>"
+msgstr "<b>བཟོ་རྣམ་</b>"
+
+#: ../src/gperfmeter.glade.h:11
+msgid "<b>Window</b>"
+msgstr "<b>སྒོ་སྒྲིག་</b>"
+
+#: ../src/gperfmeter.glade.h:12
+msgid ""
+"<small>You can show the menu bar again\n"
+"by clicking in the window</small>"
+msgstr ""
+"<small>ཁྱོད་ཀྱིས་དོ་རུང་\n"
+" སྒོ་སྒྲིག་ནང་ཨེབ་གཏང་འབད་བའི་ཐོག་ལས་ དཀར་ཆག་ཕྲ་རིང་འདི་སྟོན་ཚུགས་</small>"
+
+#: ../src/gperfmeter.glade.h:14
+msgid "Above"
+msgstr "ལྟག་"
+
+#: ../src/gperfmeter.glade.h:15
+msgid "Below"
+msgstr "འོག་"
+
+#: ../src/gperfmeter.glade.h:16
+msgid "Bo_th"
+msgstr "གཉིས་ཀུ་(_t)"
+
+#: ../src/gperfmeter.glade.h:17
+msgid "C_PU"
+msgstr "སི་པི་ཡུ་(_P)"
+
+#: ../src/gperfmeter.glade.h:18
+msgid "Chart"
+msgstr "དཔེ་རིས་"
+
+#: ../src/gperfmeter.glade.h:19
+msgid "Co_ntext"
+msgstr "སྐབས་དོན་(_n)"
+
+#: ../src/gperfmeter.glade.h:20
+msgid "Coll_isions"
+msgstr "གདོང་་ཐུག་(_i)"
+
+#: ../src/gperfmeter.glade.h:21
+msgid "Di_sk"
+msgstr "ཌིཀསི་(_s)"
+
+#: ../src/gperfmeter.glade.h:22
+msgid "Hide _menu bar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་སྦ་(_m)"
+
+#: ../src/gperfmeter.glade.h:23
+msgid "Hori_zontal"
+msgstr "ཐད་སྙོམས་(_z)"
+
+#: ../src/gperfmeter.glade.h:24
+msgid "Hosts"
+msgstr "ཧོསཊི་"
+
+#: ../src/gperfmeter.glade.h:25
+msgid "In_terrupts"
+msgstr "བར་དཀྲོགས་(_t)"
+
+#: ../src/gperfmeter.glade.h:26
+msgid "L_imit Line"
+msgstr "ཚད་ཐིག་(_i)"
+
+#: ../src/gperfmeter.glade.h:27
+msgid "Loa_d"
+msgstr "མངོག་གསལ་(_d)"
+
+#: ../src/gperfmeter.glade.h:28
+msgid "Metrics"
+msgstr "མེ་ཊིཀ་ཚུ་"
+
+#: ../src/gperfmeter.glade.h:29
+msgid "Monitor CPU Usage"
+msgstr "གསལ་འཕྲུལ་ སི་པི་ཡུ་ ལག་ལེན་"
+
+#: ../src/gperfmeter.glade.h:30
+msgid "Monitor average number of runnable processes "
+msgstr "གཡོག་བཀོལ་བཏུབ་པའི་གསལ་འཕྲུལ་བསྡོམས་ཨང་"
+
+#: ../src/gperfmeter.glade.h:31
+msgid "Monitor context switches"
+msgstr "གསལ་འཕྲུལ་སྐབས་དོན་སོར་བསྒྱུར་"
+
+#: ../src/gperfmeter.glade.h:32
+msgid "Monitor disk traffic in transfers"
+msgstr "གནས་སོར་ནང་གི་གསལ་འཕྲུལ་ཌིཀསི་འགྲུལ་ལམ་"
+
+#: ../src/gperfmeter.glade.h:33
+msgid "Monitor error rate while receiving packets on the ethernet"
+msgstr "ཨི་ཐར་ནེཊི་གུ་འཕྲིན་ཚན་ཐོབ་པའི་སྐབས་ཀྱི་གསལ་འཕྲུལ་འཛོལ་ཚད་"
+
+#: ../src/gperfmeter.glade.h:34
+msgid "Monitor ethernet packets traffic"
+msgstr "གསལ་འཕྲུལ་ཨི་ཐར་ནེཊི་ འཕྲིན་ཚན་འགྲུལ་ལམ་"
+
+#: ../src/gperfmeter.glade.h:35
+msgid "Monitor paging activity"
+msgstr "གསལ་འཕྲུལ་ཤོག་གྲངས་བཀོད་ལཱ་"
+
+#: ../src/gperfmeter.glade.h:36
+msgid "Monitor rate of collisions on the ethernet"
+msgstr "ཨི་ཐར་ནེཊི་གུ་ལུ་ གདོང་ཐུག་གི་གསལ་འཕྲུལ་ཚད་"
+
+#: ../src/gperfmeter.glade.h:37
+msgid "Monitor rate of device interrupts"
+msgstr "ཐབས་འཕྲུལ་བར་དཀྲོགས་ཀྱི་གསལ་འཕྲུལ་ཚད་"
+
+#: ../src/gperfmeter.glade.h:38
+msgid "Monitor the rate of job swaps"
+msgstr "བརྗེ་སོར་ལཱ་གི་ཚད་ བལྟ་རྟོག་འབད་"
+
+#: ../src/gperfmeter.glade.h:39
+msgid "Pa_ge"
+msgstr "ཤོག་ལེབ་(_g)"
+
+#: ../src/gperfmeter.glade.h:40
+#: ../src/perfmeter.c:144
+msgid "Pac_kets"
+msgstr "འཕྲིན་ཚན་(_k)"
+
+#: ../src/gperfmeter.glade.h:41
+msgid "Performance Meter Preferences"
+msgstr "ལཱ་ཤུགས་མི་ཊར་གྱི་དགའ་གདམ་ཚུ་"
+
+#: ../src/gperfmeter.glade.h:42
+msgid "S_wap"
+msgstr "བརྗེ་སོར་(_w)"
+
+#: ../src/gperfmeter.glade.h:43
+msgid "Sample _interval:"
+msgstr "དཔེ་ཚད་བར་མཚམས་:(_i)"
+
+#: ../src/gperfmeter.glade.h:44
+msgid "Sample log _filename"
+msgstr "དཔེ་ཚད་དྲན་དེབ་ཀྱི་ཡིག་སྣོད་མིང་(_f)"
+
+#: ../src/gperfmeter.glade.h:45
+msgid ""
+"Seconds\n"
+"Minutes\n"
+"Hours"
+msgstr ""
+"དཀར་ཆ་ཚུ་\n"
+"དཀར་མ་ཚུ་\n"
+"ཆུ་ཚོད་ཚུ་"
+
+#: ../src/gperfmeter.glade.h:48
+msgid "Show _hostname on graph"
+msgstr "ཚད་ཁྲམ་གུ་གི་ཧོསཊི་མིང་སྟོན་(_h)"
+
+#: ../src/gperfmeter.glade.h:49
+msgid "Stri_p Chart"
+msgstr "བཤུབ་པའི་དཔེ་རིས་(_p)"
+
+#: ../src/gperfmeter.glade.h:50
+msgid "Threshold"
+msgstr "ཐེརེཤ་ཧཱོལ་"
+
+#: ../src/gperfmeter.glade.h:51
+msgid "View"
+msgstr "སྟོན་"
+
+#: ../src/gperfmeter.glade.h:52
+#: ../src/perfmeter.c:157
+msgid "_Bar Chart"
+msgstr "ཕྲ་རིང་དཔེ་རིས་(_B)"
+
+#: ../src/gperfmeter.glade.h:53
+#: ../src/perfmeter.c:148
+msgid "_Errors"
+msgstr "འཛོལ་བ་(_E)"
+
+#: ../src/gperfmeter.glade.h:54
+msgid "_Line"
+msgstr "གྲལ་ཐིག་(_L)"
+
+#: ../src/gperfmeter.glade.h:55
+msgid "_Local host:"
+msgstr "ཉེ་གནས་ཧོསཊི་:(_L)"
+
+#: ../src/gperfmeter.glade.h:56
+msgid "_Remote host name:"
+msgstr "ཐག་རིང་ཧོསཊི་མིང་:(_R)"
+
+#: ../src/gperfmeter.glade.h:57
+msgid "_Solid"
+msgstr "རགས་པ་(_S)"
+
+#: ../src/gperfmeter.glade.h:58
+msgid "_Vertical"
+msgstr "ཀེར་ཕྲང་(_V)"
+
+#: ../src/perfmeter.c:110
+msgid "_File"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#: ../src/perfmeter.c:111
+msgid "_Edit"
+msgstr "ཞུན་དག་(_E)"
+
+#: ../src/perfmeter.c:112
+msgid "_View"
+msgstr "སྟོན་(_V)"
+
+#: ../src/perfmeter.c:113
+msgid "_Metrics"
+msgstr "མེ་ཊིཀ་ཚུ་(_M)"
+
+#: ../src/perfmeter.c:114
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/perfmeter.c:116
+msgid "_Quit"
+msgstr "སྤང་(_Q)"
+
+#: ../src/perfmeter.c:117
+msgid "Quit the performance meter"
+msgstr "ལཱ་ཤུགས་མི་ཊར་འདི་སྤང་"
+
+#: ../src/perfmeter.c:119
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../src/perfmeter.c:120
+msgid "Show preferences panel"
+msgstr "དགའ་གདམ་པེ་ནཱལ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:122
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ་(_C)"
+
+#: ../src/perfmeter.c:123
+msgid "Show help contents"
+msgstr "གྲོགས་རམ་ནང་དོན་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:124
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../src/perfmeter.c:125
+msgid "Show the About Gperfmeter dialog"
+msgstr "ཇི་པརཕི་མི་ཊར་ཌའི་ལོག་གྱི་སྐོར་ལས་སྟོན་"
+
+#: ../src/perfmeter.c:130
+msgid "_CPU"
+msgstr "སི་པི་ཡུ་(_C)"
+
+#: ../src/perfmeter.c:131
+msgid "Show CPU metrics"
+msgstr "སི་པི་ཡུ་ མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:132
+msgid "_Load"
+msgstr "མངོན་གསལ་(_L)"
+
+#: ../src/perfmeter.c:133
+msgid "Show Load metrics"
+msgstr "མངོན་གསལ་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:134
+msgid "_Disk"
+msgstr "ཌིཀསི་(_D)"
+
+#: ../src/perfmeter.c:135
+msgid "Show Disk metrics"
+msgstr "ཌིཀསི་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:136
+msgid "_Page"
+msgstr "ཤོག་ལེབ་(_P)"
+
+#: ../src/perfmeter.c:137
+msgid "Show Page metrics"
+msgstr "ཤོག་ལེབ་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:138
+msgid "C_ontext"
+msgstr "སྐབས་དོན་(_o)"
+
+#: ../src/perfmeter.c:139
+msgid "Show Context metrics"
+msgstr "སྐབས་དོན་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:140
+msgid "_Job Swaps"
+msgstr "བརྗེ་སོརལཱ་(_J)"
+
+#: ../src/perfmeter.c:141
+msgid "Show Job Swap metrics"
+msgstr "ལཱ་གི་བརྗེ་སོར་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:142
+msgid "_Interrupts"
+msgstr "བར་དཀྲོགས་(_I)"
+
+#: ../src/perfmeter.c:143
+msgid "Show Interrupt metrics"
+msgstr "བར་དཀྲོགས་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:145
+msgid "Show Packet metrics"
+msgstr "འཕྲིན་ཚན་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:146
+msgid "Collisio_ns"
+msgstr "གདོང་ཐུག་(_n)"
+
+#: ../src/perfmeter.c:147
+msgid "Show Collision metrics"
+msgstr "གདོང་ཐུག་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:149
+msgid "Show Error metrics"
+msgstr "འཛོལ་བའི་མེ་ཊིཀ་ཚུ་སྟོན་"
+
+#: ../src/perfmeter.c:151
+msgid "Men_u Bar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་ཚུ་(_u)"
+
+#: ../src/perfmeter.c:152
+msgid "Show menu bar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་སྟོན་"
+
+#: ../src/perfmeter.c:158
+msgid "Show bar chart"
+msgstr "ཕྲ་རིང་དཔེ་རིས་སྟོན་"
+
+#: ../src/perfmeter.c:159
+msgid "_Strip Chart"
+msgstr "བཤུབ་ཀྱི་དཔེ་རིས་(_S)"
+
+#: ../src/perfmeter.c:160
+msgid "Show strip chart"
+msgstr "བཤུབ་ཀྱི་དཔེ་རིས་སྟོན་"
+
+#: ../src/perfmeter.c:161
+msgid "B_oth Charts"
+msgstr "དཔེ་རིས་གཉིས་ཀུ་(_o)"
+
+#: ../src/perfmeter.c:162
+msgid "Show both charts"
+msgstr "དཔེ་རིས་གཉིས་ཀུ་སྟོན་"
+
+#: ../src/perfmeter.c:585
+#, c-format
+msgid "There was an error loading config value for whether to use image in menus. (%s)\n"
+msgstr "གཟུགས་བརྙན་འདི་དཀར་ཆག་ནང་ལག་ལེན་འཐབ་ནི་ཨིན་མིན་གྱི་ རིམ་སྒྲིག་བེ་ལུ་མངོན་གསལ་འབད་བའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ཡོདཔ། (%s)\n"
+
+#: ../src/perfmeter.c:595
+#, c-format
+msgid "There was an error subscribing to notification of menu icon visibilty changes. (%s)\n"
+msgstr "དཀར་ཆག་ངོས་པར་མཐོང་འགྱུར་གྱི་བརྡ་བསྐུལ་ལུ་ མཁོ་མངགས་འབད་བའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ཡོདཔ།  (%s)\n"
+
+#: ../src/perfmeter.c:641
+msgid "Container VBox"
+msgstr "འཛིན་སྣོད་ བི་སྒྲོམ་"
+
+#. Translator credits
+#: ../src/perfmeter.c:727
+msgid "translator_credits"
+msgstr "སྐད་སྒྱུར་པའི་ངོ་བསྟོད་(_c)"
+
+#: ../src/perfmeter.c:737
+msgid "The Performance Meter"
+msgstr "ལཱ་ཤུགས་མི་ཊར་"
+
+#: ../src/perfmeter.c:1749
+#, c-format
+msgid "Host \"%s\" is unknown\n"
+msgstr "ཧོསཊི་ \"%s\"འདི་མི་ཤེས་པས་\n"
+
+#: ../src/perfmeter.c:1753
+#, c-format
+msgid "%s: Select a component within the application."
+msgstr "%s: གློག་རིམ་ནང་འཁོད་ལུ་ ཆ་ཤས་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../src/perfmeter.c:1758
+msgid "Unable to connect to the remote host:\n"
+msgstr "ཐག་རིང་ཧོསཊི་ལུ་མཐུད་མ་ཚུགས་:\n"
+
+#: ../src/perfmeter.c:1760
+msgid "Unable to connect to the local host:\n"
+msgstr "ཉེ་གནས་ཧོསཊི་ལུ་མཐུད་མ་ཚུགས་:\n"
+
+#: ../src/perfmeter.c:1765
+#: ../src/perfmeter.c:1816
+#, c-format
+msgid "%s: Unknown message code.\n"
+msgstr "%s: མ་ཤེས་པའི་འཕྲིན་ཨང་།\n"
+
+#: ../src/perfmeter.c:1796
+#, c-format
+msgid "%s: Error opening X Display %s\n"
+msgstr "%s: ཨེགསི་བཀྲམ་སྟོན་ཁ་ཕྱེཝ་ད་ འཛོལ་བ་ %s\n"
+
+#: ../src/perfmeter.c:1800
+#, c-format
+msgid "%s: Invalid label font specified.\n"
+msgstr "%s:ནུས་མེད་ཁ་ཡིག་ཡིག་གཟུགས་ གསལ་བཀོད་འབད་ཡོདཔ།\n"
+
+#: ../src/perfmeter.c:1804
+#, c-format
+msgid "%s: Help Selection Error, Operation terminated.\n"
+msgstr "%s: གྲོགས་རམ་སེལ་འཐུའི་འཛོལ་བ་ བཀོལ་སྤྱོད་མཇུག་བསྡུ་ཡོདཔ།\n"
+
+#: ../src/perfmeter.c:1808
+#, c-format
+msgid "%s: Error saving resource file.\n"
+msgstr "%s: འབྱུང་ཁུངས་ཡིག་སྣོད་སྲུངམ་ད་ འཛོལ་བ།\n"
+
+#: ../src/perfmeter.c:1812
+#, c-format
+msgid "%s: Error opening resource file.\n"
+msgstr "%s: འབྱུང་ཁུངས་ཡིག་སྣོད་ཁ་ཕྱེཝ་ད་ འཛོལ་བ།\n"
+
+#: ../src/perfmeter.c:2549
+#: ../src/perfmeter.c:2556
+msgid "localhost"
+msgstr "ཉོ་གནས་ཧོསཊི་"
+
+#: ../src/resources.c:94
+msgid "Display all the performance statistic meters simultaneously"
+msgstr "ལཱ་ཤུགས་ཚད་རྩིས་མི་ཊར་ཚུ་ཆ་མཉམ་ དུས་མཉམ་ལུ་བཀྲམ་སྟོན་འབད་"
+
+#: ../src/resources.c:97
+msgid "Display the performance meter in the front panel"
+msgstr "ལཱ་ཤུགས་མི་ཊར་འདི་ གདོང་ཁའི་པེ་ནཱལ་ནང་བཀྲམ་སྟོན་འབད་"
+
+#: ../src/resources.c:100
+msgid "Turn statistic logging on"
+msgstr "ཚད་རྩིས་དྲན་བཀོད་བསྒྱིར་"
+
+#: ../src/resources.c:103
+msgid "Name of file to log statistics to"
+msgstr "དྲན་དེབ་ཚད་རྩིས་ལུ་ཡིག་སྣོད་མིང་"
+
+#: ../src/resources.c:103
+msgid "SAMPLE_FILENAME"
+msgstr "དཔེ་ཚད་ཡིག་སྣོད་མིང་(_F)"
+
+#: ../src/resources.c:106
+msgid "Page length for samples written to the log file"
+msgstr "དྲན་དེབ་ཡིག་སྣོད་ལུ་བྲིས་ཡོད་པའི་དཔེ་ཚད་ཀྱི་དོན་ལུ་ ཤོག་ལེབ་རིང་ཚད་"
+
+#: ../src/resources.c:106
+msgid "PAGE_LENGTH"
+msgstr "ཤོག་ལེབ་རིང་ཚད་(_L)"
+
+#: ../src/resources.c:109
+msgid "Set the sample time interval in seconds"
+msgstr "དཔེ་ཚད་ཆུ་ཚོད་ཀྱི་བར་མཚམས་འདི་ དཀར་ཆག་ནང་གཞི་སྒྲིག་འབད་"
+
+#: ../src/resources.c:109
+msgid "SAMPLE_TIME"
+msgstr "དཔེ་ཚད་ཆུ་ཚོད་(_T)"
+
+#: ../src/resources.c:112
+msgid "Specify a meter to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནིའི་དོན་ལུ་ མི་ཊར་ཅིག་གསལ་བཀོད་འབད་"
+
+#: ../src/resources.c:112
+msgid "METER"
+msgstr "མི་ཊར་"
+
+#: ../src/resources.c:115
+msgid "Set a ceiling value for a given meter"
+msgstr "བྱིན་ཏེ་ཡོད་པའི་མི་ཊར་ཅིག་གི་དོན་ལུ་ མཐོ་ཚད་བེ་ལུ་ཅིག་གཞི་སྒྲིག་འབད་"
+
+#: ../src/resources.c:115
+msgid "\"METER CEILING\""
+msgstr "\"METER CEILING\""
+
+#: ../src/resources.c:118
+msgid "Turn debugging on"
+msgstr "རྐྱེན་སེལ་བསྒྱིར་"
+
+#: ../src/resources.c:121
+msgid "Display meters in a horizontal orientation"
+msgstr "མི་ཊར་ཚུ་ ཐད་སྙོམས་ཁ་ཕྱོགས་ཅིག་ནང་ བཀྲམ་སྟོན་འབད་"
+
+#: ../src/resources.c:124
+msgid "Display the meters as line strip charts"
+msgstr "མི་ཊར་ཚུ་ གྲལ་ཐིག་བཤུབ་ཀྱི་དཔེ་རིས་སྦེ་བཀྲམ་སྟོན་འབད་"
+
+#: ../src/resources.c:127
+msgid "Display the meters as solid line strip charts"
+msgstr "མི་ཊར་ཚུ་ རགས་པའི་གྲལ་བཤུབ་དཔེ་རིས་སྦེ་བཀྲམ་སྟོན་འབད་"
+
+#: ../src/resources.c:130
+msgid "Show version number"
+msgstr "འ་ཐོན་རིམ་ཨང་སྟོན་"
+
+#: ../src/resources.c:133
+msgid "Display meters in a vertical orientation"
+msgstr "མི་ཊར་ཚུ་ ཀེར་ཕྲང་ཁ་ཕྱོགས་ཅིག་ནང་བཀྲམ་སྟོན་འབད་"
+
+#: ../src/resources.c:136
+msgid "Set a current, minimum and maximum value for the given meter"
+msgstr "བྱིན་ཏེ་ཡོད་པའི་མི་ཊར་གྱི་དོན་ལུ་ ད་ལྟོའི་ཉུང་མཐའ་དང་མང་མཐའི་བེ་ལུ་ཅིག་གཞི་སྒྲིག་འབད་"
+
+#: ../src/resources.c:137
+msgid "\"METER CURMAX MINMAX MAXMAX\""
+msgstr "\"METER CURMAX MINMAX MAXMAX\""
+
+#: ../src/resources.c:290
+msgid "00000"
+msgstr "༠༠༠༠༠"
+
+#: ../src/resources.c:334
+#: ../src/resources.c:335
+msgid "cpu"
+msgstr "སི་པི་ཡུ་"
+
+#: ../src/resources.c:347
+#: ../src/resources.c:348
+msgid "packets"
+msgstr "འཕྲིན་ཚན་"
+
+#: ../src/resources.c:359
+#: ../src/resources.c:360
+msgid "page"
+msgstr "ཤོག་ལེབ་"
+
+#: ../src/resources.c:371
+#: ../src/resources.c:372
+msgid "swap"
+msgstr "བརྗེ་སོར་"
+
+#: ../src/resources.c:383
+#: ../src/resources.c:384
+msgid "interrupts"
+msgstr "བར་དཀྲོགས་"
+
+#: ../src/resources.c:395
+#: ../src/resources.c:396
+msgid "disk"
+msgstr "ཌིཀསི་"
+
+#: ../src/resources.c:407
+#: ../src/resources.c:408
+msgid "context"
+msgstr "སྐབས་དོན་"
+
+#: ../src/resources.c:419
+#: ../src/resources.c:420
+msgid "load"
+msgstr "མངོན་གསལ་"
+
+#: ../src/resources.c:432
+#: ../src/resources.c:433
+msgid "collisions"
+msgstr "གདོང་ཐུག་"
+
+#: ../src/resources.c:445
+#: ../src/resources.c:446
+msgid "errors"
+msgstr "འཛོལ་བ་ཚུ་"
+
+#: ../src/resources.c:661
+#, c-format
+msgid "%s: version %s\n"
+msgstr "%s: འཐོན་རིམ་ %s\n"
+
+#.
+#. *    Prints gperfmeter --help message, followed by:
+#. *
+#. *        meter is one of:
+#. *            cpu, pkts, page, swap, intr, disk, cntxt, load, colls, errs
+#. *
+#. *    Keyboard accelerators:
+#. *        a        - show all meters
+#. *        Ctrl+1   - show CPU
+#. *        Ctrl+2   - show load
+#. *        Ctrl+3   - show disk
+#. *        Ctrl+4   - show page
+#. *        Ctrl+5   - show cntx
+#. *        Ctrl+6   - show swap
+#. *        Ctrl+7   - show intr
+#. *        Ctrl+8   - show pkts
+#. *        Ctrl+9   - show coll
+#. *        Ctrl+0   - show errs
+#. *        Ctrl+M   - toggle menubar
+#. *        n        - toggle monitoring mode (local/remote)
+#. *        s        - toggle graph style
+#. *        ^        - toggle showing the limit line
+#. *        t        - toggle writing to the log file
+#. *        y        - toggle orientation (horizontal/vertical)
+#. *        r        - toggle showing strip chart
+#. *        p        - show properties
+#. *        Ctrl+Q   - quit perfmeter
+#. *        1-9      - set sampletime to a range from 1-9 seconds
+#. *        +        - increment the sample time by 1 second
+#. *        -        - decrement the sample time by 1 second
+#.
+#: ../src/resources.c:1286
+msgid ""
+"\n"
+"\tmeter is one of:\n"
+"             cpu, packets, page, swap, interrupts, disk, context, load, collisions, errors\n"
+"\n"
+"             Keyboard accelerators:\n"
+"\n"
+"             a      - show all meters\n"
+"             Ctrl+1 - show CPU\n"
+"             Ctrl+2 - show load\n"
+"             Ctrl+3 - show disk\n"
+"             Ctrl+4 - show page\n"
+"             Ctrl+5 - show context\n"
+"             Ctrl+6 - show swap\n"
+"             Ctrl+7 - show interrupts\n"
+"             Ctrl+8 - show packets\n"
+"             Ctrl+9 - show collisions\n"
+"             Ctrl+0 - show errors\n"
+"             Ctrl+M - toggle menubar\n"
+"             Ctrl+Q - quit perfmeter\n"
+"             n      - toggle monitoring mode (local/remote)\n"
+"             s      - toggle graph style\n"
+"             ^      - toggle showing the limit line\n"
+"             t      - toggle writing to the log file\n"
+"             y      - toggle orientation (horizontal/vertical)\n"
+"             r      - toggle showing strip chart\n"
+"             p      - show properties\n"
+"             1-9    - set sampletime to a range from 1-9 seconds\n"
+"             +      - increment the sample time by 1 second\n"
+"             -      - decrement the sample time by 1 second\n"
+msgstr ""
+"\n"
+"\t མི་ཊར་འདི་:\n"
+"             སི་པི་ཡུ་ འཕྲིན་ཚན་ ཤོག་ལེབ་ བརྗེ་སོར་ བར་དཀྲོགས་ ཌིཀསི་ སྐབས་དོན་ མངོན་གསལ་དང་གདོང་ཐུག་ དེ་ལས་འཇོལ་བའི་ནང་ལས་གཅིག་ཨིན་\n"
+"\n"
+"             ལྡེ་སྒྲོམ་མགྱོགས་འཕྲུལ་:\n"
+"\n"
+"             ཨེ་      - མི་ཊར་ཚུ་ཆ་མཉམ་སྟོན་\n"
+"             ཚད་འཛིན་+༡ - སི་པི་ཡུ་སྟོན་\n"
+"             ཚད་འཛིན་+༢ - མངོན་གསལ་སྟོན་\n"
+"             ཚད་འཛིན་+༣ - ཌིཀསི་སྟོན་\n"
+"             ཚད་འཛིན་+༤ - ཤོག་ལེབ་སྟོན་\n"
+"             ཚད་འཛིན་+༥ - སྐབས་དོན་སྟོན་\n"
+"             ཚད་འཛིན་+༦ - བརྗེ་སོར་སྟོན་\n"
+"             ཚད་འཛིན་+༧ - བར་དཀྲོགས་སྟོན་\n"
+"             ཚད་འཛིན་+༨ - འཕྲིན་ཚན་སྟོན་\n"
+"             ཚད་འཛིན་+༩ - གདོང་ཐུག་སྟོན་\n"
+"             ཚད་འཛིན་+༠ - འཛོལ་བ་སྟོན་\n"
+"             ཚད་འཛིན་+ཨེམ་ - དཀར་ཆག་ཕྲ་རིང་སྟོན་\n"
+"             ཚད་འཛིན་+ཀིའུ་ - པརཕི་མི་ཊར་སྟོན་\n"
+"             ཨེན་      - སོར་སྟོན་བལྟ་རྟོགས་ཐབས་ལམ་ (ཉེ་གནས་/ཐག་རིང་)\n"
+"             ཨེསི་      - ཚད་ཁྲམ་བཟོ་རྣམ་ སོར་སྟོན་འབད་\n"
+"             ^      - ཚད་ཐིག་སྟོན་ཏེ་སོར་སྟོན་འབད་\n"
+"             ཊི་      - དྲན་དེབ་ཡིག་སྣོད་ལུ་བྲིས་ཏེ་སོར་སྟོན་འབད་\n"
+"             ཨའི་      - སོར་སྟོན་ཁ་ཕྱོགས་ (ཐད་སྙོམས་/ཀེར་ཕྲང་)\n"
+"             ཨར་      - བཤུབ་ཀྱི་དཔེ་རིས་སྟོན་ཏེ་སོར་སྟོན་འབད་\n"
+"             པི་      - རྒྱུ་དངོས་ཚུ་སྟོན་\n"
+"             ༡-༩    - དཀར་ཆ་ ༡-༩ ཚུན་གྱི་ཁྱབ་ཚད་ཅིག་ལུ་ དཔེ་ཚད་གཞི་སྒྲིག་འབད་\n"
+"             +      - དཔེ་ཚད་ཆུ་ཚོད་འདི་ དཀར་ཆ་ ༡ གི་ཐོག་ལས་ཡར་འཕར་འབད་\n"
+"             -      - དཔེ་ཚད་ཆུ་ཚོད་འདི་ དཀར་ཆ་ ༡ གི་ཐོག་ལས་མར་ཕབ་འབད\n"
+
+#: ../src/props.c:246
+msgid "Pick a color to indicate below threshold CPU activity"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ སི་པི་ཡུ་ལཱ་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:249
+msgid "Pick a color to indicate above threshold CPU activity"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ སི་པི་ཡུ་ལཱ་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:252
+msgid "Pick a color to indicate below threshold load activity"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ མངོན་གསལ་ལཱ་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:255
+msgid "Pick a color to indicate above threshold load activity"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ མངོན་གསལ་ལཱ་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:258
+msgid "Pick a color to indicate below threshold disk usage"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ ཌིཀསི་ལག་ལེན་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:261
+msgid "Pick a color to indicate above threshold disk usage"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ ཌིཀསི་ལག་ལེན་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:264
+msgid "Pick a color to indicate below threshold paging rate"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ ཤོག་གྲངས་བཀོད་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:267
+msgid "Pick a color to indicate above threshold paging rate"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ ཤོག་གྲངས་བཀོད་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:270
+msgid "Pick a color to indicate below threshold context switching rate"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ སྐབས་དོན་སོར་བསྒྱུར་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:273
+msgid "Pick a color to indicate above threshold context switching rate"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ སྐབས་དོན་སོར་བསྒྱུར་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:276
+msgid "Pick a color to indicate below threshold swapping rate"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ བརྗེ་སོར་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:279
+msgid "Pick a color to indicate above threshold swapping rate"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ བརྗེ་སོར་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:282
+msgid "Pick a color to indicate below threshold interrupts rate"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ བར་དཀྲོགས་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:285
+msgid "Pick a color to indicate above threshold interrupts rate"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ བར་དཀྲོགས་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:288
+msgid "Pick a color to indicate below threshold packet traffic"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ འཕྲིན་ཚན་འགྲུལ་ལམ་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:291
+msgid "Pick a color to indicate above threshold packets traffic"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ འཕྲིན་ཚན་འགྲུལ་ལམ་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:294
+msgid "Pick a color to indicate below threshold collision rate"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ གདོང་ཐུག་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:297
+msgid "Pick a color to indicate above threshold collision rate"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ གདོང་ཐུག་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:300
+msgid "Pick a color to indicate below threshold error rate"
+msgstr "འོག་གི་ཐེརེཤཧཱོལ་ འཛོལ་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../src/props.c:303
+msgid "Pick a color to indicate above threshold error rate"
+msgstr "ལྟག་གི་ཐེརེཤཧཱོལ་ འཛོལ་ཚད་འདི་ བརྡ་སྟོན་འབད་ནི་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ་"
+

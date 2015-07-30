@@ -1,0 +1,83 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: aolserver\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-28 17:48+0100\n"
+"PO-Revision-Date: 2006-11-30 03:05+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:1001
+msgid "Hostname of the server:"
+msgstr "སར་བར་འདིའི་དོན་ལུ་ཧོསཊི་ནེམ:"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:1001
+msgid "The server needs an hostname to be exposed on redirect pages URL and for informative purposes to identify itself."
+msgstr "སར་བར་་འདི་ལུ་ཡུ་ཨར་ཨེལ་ཤོག་ལེབ་ཚུ་སླར་ཐད་ཀར་གུ་མདངས་ཕོག་ནི་ལུ་ཧོསཊི་མིང་ཅིག་་དང་་འདིའི་བརྡ་དོན་ཅན་དགོས་དོན་ངོས་འཛིན་ནི་དོན་ལུ་་དགོཔ་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:1001
+msgid "It is generally the fully-qualified DNS hostname of your computer or localhost, if it is not networked. Use any name which can be legally considered in a URL string in your environment."
+msgstr "ཡོངས་ཁྱབ་ཀྱི་ཁྱོད་རའི་གློག་རིག་ཡང་ན་ཉེ་གནས་ཧོསཊི་གི་ཌི་ཨེན་ཨེསི་ཧོསཊི་ནེམ་འདི་ཡོངས་འབྲེལ་ཡོདཔ་མེན་པ་ཅིན་ཁྱད་ཆོས་གངམ་སྦེ་ཚང་ཡོདཔ་ཨིན། ཁྱོད་རའི་མཐའ་འཁོར་ནང་ཡུ་ཨར་ཨེལ་ཡིག་རྒྱུན་ཅིག་ནང་ལི་གཱལལི་སྦེ་མཉམ་མཐུད་པའི་མིང་གང་རུང་ལག་ལེན་འཐབ།"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:2001
+msgid "IP address to listen to:"
+msgstr "ལུ་ཉན་ནི་ལུ་ཁ་བྱང་ཨའི་པི:"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:2001
+msgid "The server needs at least an IP address to listen to. It is generally the primary Ethernet interface (or the loopback address, if you would like to use the server just locally)."
+msgstr "སར་བར་འདི་ལུ་་ཉུང་མཐའ་ལུ་ཉན་ནི་ལུ་ཨའི་པི་ཁ་བྱང་ཅིག་དགོཔ་ཨིན། ཡོངས་ཁྱབ་ཀྱི་གཞི་རིམ་ཨི་ཐར་ནེཊི་ངོས་འདྲ་བ་(ཡང་ན་ལུཔ་བེཀ་ཁ་བྱང་ ཁྱོད་རང་སར་བར་འདི་ཉེ་གནས་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པ་ཅིན)ཨིན།"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:2001
+msgid "The default address is the loopback one, which is not recommended for general (network or Internet) use."
+msgstr "སྔོན་སྒྲིག་ཁ་བྱང་འདི་ཡོངས་ཁྱབ་དོན་ལུ་(ཡོངས་འབྲེལ་ཡང་ན་ཨིན་ཊར་ནེཊི་)ལག་ལེན་མ་འཐབ་མི་འོས་སྦྱོར་མ་འབད་བར་ཡོད་མི་ལུཔ་བེཀ་གཅིག་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:3001
+msgid "TCP port:"
+msgstr "ཊི་སི་པི་འདྲེན་ལམ:"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:3001
+msgid "AOLserver needs a port number assigned for its use.  This is almost always port 80 (the standard HTTP port), but might be different if you have installed a second web server, or have some other service listening on this port."
+msgstr "ཨེ་ཨོ་ཨེལ་སར་བར་ལུ་འདི་ལག་ལེན་འཐབ་ནི་ལུ་འདྲེན་ལམ་ཨང་འགན་སྤྲོད་ཡོད་མི་ཅིག་དགོཔ་ཨིན། འདི་ཧ་ལམ་ཨ་རྟག་རང་་འདྲེན་ལམ་ ༨༠ (འོས་ལྡན་ཨེཆ་ཊི་ཊི་པི་འདྲེན་ལམ)ཨིན་རུང་ཁྱོད་ཀྱིས་ཝེབ་སར་བར་གཉིས་པམ་ཅིག་གཞི་འཛུགས་ཡོད་པ་ཅིན་ཡང་ན་འདྲེན་ལམ་འདི་གུ་གཞན་ཞབས་ཏོག་ལ་ལོ་ཉན་པའི་བསྒང་ཨིན་པ་ཅིན་སོ་སོ་འོང་།"
+
+#. Type: string
+#. Description
+#: ../aolserver4.templates:3001
+msgid "The default value is recommended."
+msgstr "སྔོན་སྒྲིག་གནས་གོང་འདི་འོས་སྦྱོར་་འབད་ཡོདཔ།"
+

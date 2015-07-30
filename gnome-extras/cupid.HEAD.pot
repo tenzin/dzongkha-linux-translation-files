@@ -1,0 +1,585 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cupid.head.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-18 03:15+0000\n"
+"PO-Revision-Date: 2007-01-30 10:48+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plurals=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/cupid.desktop.in.h:1
+msgid "Cupid Video Recorder"
+msgstr "ཀིའུ་པིཌི་ཝི་ཌིའོ་བཟུང་འཕྲུལ་"
+
+#: ../data/cupid.desktop.in.h:2
+msgid "Lets you record movies from tv-cards and camcorders"
+msgstr "གློག་བརྙན་ཚུ་  རྒྱང་མཐོང་-ཤོག་བྱང་དང་ཀེམ་ཀོ་ཌརསི་ལས་ ཁྱོད་ཀྱིས་སྒྲ་བཟུང་འབད་བཅུགཔ་ཨིན་"
+
+#: ../data/cupid.schemas.in.in.h:1
+msgid "Audio channels"
+msgstr "རྣར་ཉན་རྒྱུ་ལམ་ཚུ་"
+
+#: ../data/cupid.schemas.in.in.h:2
+#: ../src/preferences.c:281
+msgid "Audio encoder"
+msgstr "རྣར་ཉན་ཨིན་ཀོ་ར་"
+
+#: ../data/cupid.schemas.in.in.h:3
+msgid "Audio filter"
+msgstr "རྣར་ཉན་ཚགས་མ"
+
+#: ../data/cupid.schemas.in.in.h:4
+msgid "Audio input"
+msgstr "རྣར་ཉན་ཨིན་པུཊི་"
+
+#: ../data/cupid.schemas.in.in.h:5
+msgid "Audio input as used by the audio source element/mixer."
+msgstr "རྣར་ཉན་བྱུང་ཁུངས་ཀྱི་ཆ་ཤས་/ སྦྱོར་ཡཕྲུལ་གྱིས་སྦེ་ལག་ལེན་འཐབ་ཡོད་པའི་  རྣར་ཉན་ཨིན་པུཊི།"
+
+#: ../data/cupid.schemas.in.in.h:6
+msgid "Audio samplerate"
+msgstr "རྣར་ཉན་སམ་པིལི་རེཊི་"
+
+#: ../data/cupid.schemas.in.in.h:7
+#: ../src/preferences.c:290
+msgid "Audio source"
+msgstr "རྣར་ཉན་བྱུང་ཁུངས་"
+
+#. Translator comment: "caps" is a short form for the word
+#. "capabilities" in GStreamer, it is a term that means to
+#. defined the media formats that a specific GStreamer
+#. element can handle. It can also be used to force some
+#. specific media format on an element, and that's how it
+#. is used here. A caps description is a string describing
+#. one such specific media format in GStreamer syntax.
+#.
+#: ../data/cupid.schemas.in.in.h:16
+msgid "Caps description of the audio filter."
+msgstr "རྣར་ཉན་ཚགས་མའི་ཀེཔསི་འགྲེལ་བཤད།"
+
+#. Translator comment: "caps" is a short form for the word
+#. "capabilities" in GStreamer, it is a term that means to
+#. defined the media formats that a specific GStreamer
+#. element can handle. It can also be used to force some
+#. specific media format on an element, and that's how it
+#. is used here. A caps description is a string describing
+#. one such specific media format in GStreamer syntax.
+#.
+#: ../data/cupid.schemas.in.in.h:25
+msgid "Caps description of the video filter."
+msgstr "ཝི་ཌིའོ་ཚགས་མའི་ཀེཔསི་འགྲེལ་བཤད།"
+
+#: ../data/cupid.schemas.in.in.h:26
+msgid "Element description of the audio encoder."
+msgstr "རྣར་ཉན་ཨིན་ཀོ་ཌར་གྱི་ ཆ་ཤས་འགྲེལ་བཤད།"
+
+#: ../data/cupid.schemas.in.in.h:27
+msgid "Element description of the audio source."
+msgstr "རྣར་ཉན་བྱུང་ཁུངས་ཀྱི་ ཆ་ཤས་འགྲེལ་བཤད།"
+
+#: ../data/cupid.schemas.in.in.h:28
+msgid "Element description of the output format."
+msgstr "ཨའུཊི་པུཊི་རྩ་སྒྲིག་གི་ཆ་ཤས་འགྲེལ་བཤད།"
+
+#: ../data/cupid.schemas.in.in.h:29
+msgid "Element description of the video encoder."
+msgstr "ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་གྱི་ཆ་ཤས་འགྲེལ་བཤད།"
+
+#: ../data/cupid.schemas.in.in.h:30
+msgid "Element description of the video source."
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས་ཀྱི་ཆ་ཤས་འགྲེལ་བཤད།"
+
+#: ../data/cupid.schemas.in.in.h:31
+msgid "Framerate of the video that is being captured from the video source."
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས་ལས་འཛིན་བཟུང་འབད་ཡོད་པའི་  ཝི་ཌིའོ་གི་གཞི་ཁྲམ་ཚད།"
+
+#: ../data/cupid.schemas.in.in.h:32
+msgid "Height of the video that is being captured from the video source."
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས་ལས་འཛིན་བཟུང་འབད་ཡོད་པའི་  ཝི་ཌིའོ་གི་མཐོ་ཚད།"
+
+#: ../data/cupid.schemas.in.in.h:33
+msgid "Minimal mode"
+msgstr "ཐབས་ལམ་ཉུང་ཤོས་"
+
+#: ../data/cupid.schemas.in.in.h:34
+msgid "Muxer"
+msgstr "མིའུ་སར་"
+
+#: ../data/cupid.schemas.in.in.h:35
+msgid "Number of channels (1 = mono, 2 = stereo) to read from the audio source."
+msgstr "རྣར་ཉན་བྱུང་ཁུངས་ལས་ལྷག་ནི་ཨིན་པའི་  རྒྱུ་ལམ་ཚུ་གི་ཨང་གྲངས་ (1 = རྐྱང་པོ་, 2 = གླུ་སྒྲོམ་)"
+
+#: ../data/cupid.schemas.in.in.h:36
+msgid "Samplerate of the audio being read from the audio source."
+msgstr "རྣར་ཉན་བྱུང་ཁུངས་ལས་ལྷག་ཡོད་པའི་  རྣར་ཉན་གྱི་སམ་པིལི་རེཊི།"
+
+#. Translator comment: this setting implies defines whether
+#. the user did go through the first-time startup assistant
+#. (a.k.a. druid), so it's the past present of the verb
+#. "to set up".
+#: ../data/cupid.schemas.in.in.h:41
+msgid "Set-up"
+msgstr "གཞི་སྒྲིག་འབད་"
+
+#: ../data/cupid.schemas.in.in.h:42
+msgid "Show extended statistics"
+msgstr "རྒྱ་བསྐྱེད་གཏང་ཡོད་པའི་ཚད་རྩིས་སྟོན་"
+
+#: ../data/cupid.schemas.in.in.h:43
+#: ../src/preferences.c:284
+msgid "Video encoder"
+msgstr "ཝི་ཌིའོ་གི་ཨིན་ཀོ་ཌར་"
+
+#: ../data/cupid.schemas.in.in.h:44
+msgid "Video filter"
+msgstr "ཝི་ཌིའོ་གི་ཚགས་མ་"
+
+#: ../data/cupid.schemas.in.in.h:45
+msgid "Video framerate"
+msgstr "ཝི་ཌིའོ་གི་གཞི་ཁྲམ་ཚད་"
+
+#: ../data/cupid.schemas.in.in.h:46
+msgid "Video height"
+msgstr "ཝི་ཌིའོ་གི་མཐོ་ཚད་"
+
+#: ../data/cupid.schemas.in.in.h:47
+msgid "Video input"
+msgstr "ཝི་ཌིའོ་གི་ཨིན་པུཊི་"
+
+#: ../data/cupid.schemas.in.in.h:48
+msgid "Video input as used by the video source element."
+msgstr "ཝི་ཌིའོ་གི་བྱུང་ཁུངས་ཆ་ཤས་ཀྱིས་ལག་ལེན་འཐབ་ཡོདཔ་བཟུམ་མའི་  ཝི་ཌིའོ་ཨིན་པུཊི།"
+
+#: ../data/cupid.schemas.in.in.h:49
+msgid "Video norm"
+msgstr "ཝི་ཌིའོ་གི་ཚུལ་"
+
+#: ../data/cupid.schemas.in.in.h:50
+msgid "Video norm as used by the video source element."
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས་ཆ་ཤས་ཀྱིས་ལག་ལེན་འཐབ་ཡོདཔ་བཟུམ་མའི་ ཝི་ཌིའོ་གི་ཚུལ།"
+
+#: ../data/cupid.schemas.in.in.h:51
+#: ../src/preferences.c:293
+msgid "Video source"
+msgstr "ཝི་ཌིའོ་གི་བྱུང་ཁུངས་"
+
+#: ../data/cupid.schemas.in.in.h:52
+msgid "Video width"
+msgstr "ཝི་ཌིའོ་གི་རྒྱ་ཚད་"
+
+#: ../data/cupid.schemas.in.in.h:53
+msgid "Whether the application has been configured."
+msgstr "གློག་རིམ་འདི་རིམ་སྒྲིག་འབད་དེ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../data/cupid.schemas.in.in.h:54
+msgid "Whether to show extended recording statistics."
+msgstr "རྒྱ་བསྐྱེད་འབད་ཡོད་པའི་སྒྲ་བཟུང་ཚད་རྩིས་འདི་སྟོན་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../data/cupid.schemas.in.in.h:55
+msgid "Whether to show only a minimal (TV-like) UI or not."
+msgstr "(རྒྱང་མཐོང་-བཟུམ་) ཡུ་ཨའི་ ཉུང་མཐའ་འདི་རྐྱངམ་ཅིག་སྟོན་ནི་ཨིན་ནམེན་ན།"
+
+#: ../data/cupid.schemas.in.in.h:56
+msgid "Width of the video that is being captured from the video source."
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས་ལས་འཛིན་བཟུང་འབད་ཡོད་མི་བཟུམ་གྱི་ ཝི་ཌིའོ་གི་རྒྱ་ཚད།"
+
+#. label
+#: ../src/configuration.c:223
+msgid "Available encoders:"
+msgstr "ཐོབ་ཚུགས་པའི་ཨིན་ཀོ་ཌརསི:"
+
+#. label
+#: ../src/configuration.c:451
+msgid "Available muxers:"
+msgstr "ཐོབ་ཚུགས་པའི་མིའུ་སརསི:"
+
+#. label
+#: ../src/configuration.c:506
+msgid "Available sources:"
+msgstr "ཐོབ་ཚུགས་པའི་བྱུང་ཁུངས་ཚུ:"
+
+#. label
+#: ../src/configuration.c:785
+msgid "Capture size:"
+msgstr "ཚད་འཛིན་བཟུང་འབད:"
+
+#. Translator comment: the x here implies a separator between
+#. * width and height in a size selection widget.
+#: ../src/configuration.c:806
+msgid "x"
+msgstr "x"
+
+#. Translator comment: the "at" here implies a separator between
+#. * width/height and framerate in a size/framerate selection widget.
+#. * Example: 384 x 288 at 25.0 frames/sec.
+#: ../src/configuration.c:822
+msgid "at"
+msgstr "ལུ་"
+
+#. Translator comment: fps = frames per second
+#: ../src/configuration.c:836
+msgid "fps"
+msgstr "ཨེཕ་པི་ཨེསི་"
+
+#. video input
+#: ../src/configuration.c:921
+msgid "Video input:"
+msgstr "ཝི་ཌིའོ་གི་ཨིན་པུཊི:"
+
+#. video norms
+#: ../src/configuration.c:933
+msgid "Video norm:"
+msgstr "ཝི་ཌིའོ་གི་ཚུལ:"
+
+#. label1
+#: ../src/configuration.c:1250
+msgid "Audio samplerate:"
+msgstr "རྣར་ཉན་སམ་པེལེཊི:"
+
+#. label1
+#: ../src/configuration.c:1258
+msgid "Audio channels:"
+msgstr "རྣར་ཉན་རྒྱུ་ལམ་ཚུ:"
+
+#. audio input
+#: ../src/configuration.c:1320
+msgid "Audio input:"
+msgstr "རྣར་ཉན་ཨིན་པུཊི:"
+
+#: ../src/configuration.c:1389
+msgid "Title"
+msgstr "མགོ་མིང་"
+
+#: ../src/configuration.c:1390
+msgid "Artist"
+msgstr "གླུ་གཞསཔ་"
+
+#: ../src/configuration.c:1391
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: ../src/druid.c:116
+msgid "Cupid Druid"
+msgstr "ཀིའུ་པིཌི་ཌུའིཌི་"
+
+#: ../src/druid.c:189
+#, c-format
+msgid "Video source: %s (input: %s, norm: %s, size: %d x %d at %.02f fps)"
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས: %s (ཨིན་པུཊི: %s, ཚུལ: %s, ཚད: %d x %d ལུ་ %.02f ཨེཕ་པི་ཨེསི་)"
+
+#: ../src/druid.c:196
+#, c-format
+msgid "Video source: %s (size: %d x %d at %.02f fps)"
+msgstr "ཝི་ཌིའོ་བྱུང་ཁུངས: %s (ཚད: %d x %d ལུ་ %.02f ཨེཕ་པི་ཨེསི་)"
+
+#: ../src/druid.c:223
+#, c-format
+msgid "Audio source: %s (input: %s, %d Hz, %d channels)"
+msgstr "རྣར་ཉན་བྱུང་ཁུངས: %s (ཨིན་པུཊི: %s, %d ཧཛི་, %d རྒྱུ་ལམ་ཚུ)"
+
+#: ../src/druid.c:228
+#, c-format
+msgid "Audio source: %s (%d Hz, %d channels)"
+msgstr "རྣར་ཉན་བྱུང་ཁུངས: %s (%d ཧཛི་, %d རྒྱུ་ལམ་ཚུ)"
+
+#: ../src/druid.c:252
+#, c-format
+msgid ""
+"Configuration of Cupid is now completed. Below is a summary of your settings:\n"
+"\n"
+"%s\n"
+"%s\n"
+"\n"
+"Output format: %s\n"
+"Video encoder: %s\n"
+"Audio encoder: %s\n"
+"\n"
+"Press \"Apply\" to finish this druid."
+msgstr ""
+"ཀིའུ་པིཊི་གི་རིམ་སྒྲིག་འདི་ད་ལྟོ་མཇུག་བསྡུ་ཡོདཔ།  འོག་གི་ཚུ་  ཁྱོད་རའི་སྒྲིག་སྟངས་ཚུ་གི་བཅུད་དོན་ཨིན: \n"
+"\n"
+"%s\n"
+"%s\n"
+"\n"
+"ཨའུཊི་པུཊི་རྩ་སྒྲིག: %s\n"
+"ཝི་ཌིའོ་ཨིན་ཀོ་ཌར: %s\n"
+"རྣར་ཉན་ཨིན་ཀོ་ཌར: %s\n"
+"\n"
+"ཌུའིཌི་འདི་ཚར་ནི་ལུ་ \"Apply\" ཨེབ་གཏང་འབད།"
+
+#: ../src/druid.c:281
+msgid "Below is a list of all video sources that were detected on your computer. Please select the plugin/device that you would like to use as a default. If your TV-card isn't in here, you might need to install the proper GStreamer plugins (e.g. \"video4linux\" or \"video4linux2\") first."
+msgstr "འོག་ལུ་  ཁྱོད་རའི་གློག་རིག་གུ་སྐྱོན་འཛིན་བྱུང་ཡོད་པའི་  ཝི་ཌིའོ་བྱུང་ཁུངས་ཚུ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་ཨིན།  ཁྱོད་ཀྱིས་སྔོན་སྒྲིག་འབད་ལག་ལེན་འཐབ་དགོ་མནོ་མི་  པ་ལག་ཨིན་/ཐབས་འཕྲུལ་ འདི་སེལ་འཐུ་འབད་གནང་།  ཁྱོད་རའི་  རྒྱང་མཐོང་-ཤོག་བྱང་ འདི་ནཱ་ལུ་མེད་པ་ཅིན་  ཁྱོད་ཀྱིས་  ཚུལ་ལྡན་གྱི་ ཇི་སི་ཊི་མར་པ་ལག་ཨིན་(e.g. \"video4linux\" ཡང་ན་ \"video4linux2\") ཚུ་ དང་པམ་སྦེ་ གཞི་བཙུགས་འབད་དགོཔ་འོང་།"
+
+#: ../src/druid.c:317
+msgid "Below is a list of all audio sources that were detected on your computer. Please select the plugin/device that you would like to use as a default. If your soundcard isn't in here, you might need to install the proper GStreamer plugins (e.g. \"OSS\" or \"ALSA\") first."
+msgstr "འོག་ལུ་  ཁྱོད་རའི་གློག་རིག་གུ་སྐྱོན་འཛིན་བྱུང་ཡོད་པའི་  རྣར་ཉན་བྱུང་ཁུངས་ཚུ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་ཨིན།  ཁྱོད་ཀྱིས་སྔོན་སྒྲིག་སྦེ་ལག་ལེན་འཐབ་དགོ་མནོ་བའི་  པ་ལག་ཨིན་/ཐབས་འཕྲུལ་འདི་སེལ་འཐུ་འབད་གནང་།  ཁྱོད་རའི་སྒྲ་སྐད་ཤོག་བྱང་འདི་ནཱ་ལུ་མེད་པ་ཅིན་  ཁྱོད་ཀྱིས་  དང་པ་རང་ ཇི་སི་ཊི་མར་པ་ལག་ཨིན་ (e.g. \"OSS\" ཡང་ན་ \"ALSA\") ཚུ་  ཚུལ་ལྡན་སྦེ་གཞི་བཙུགས་འབད་དགོ།"
+
+#: ../src/druid.c:352
+msgid "Below are lists of all output file formats, video encoders and audio encoders that were found on your system. If your preferred file format or codec is missing, then you either need to install a plugin for that codec or format, or there is none available yet."
+msgstr "འོག་ལུ་  ཁྱོད་རའི་རིམ་ལུགས་གུ་ཐོབ་ཡོད་པའི་  ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་ཚུ་དང་རྣར་ཉན་ཨིན་ཀོ་ཌར་ཚུ་  ཨའུཊི་པུཊི་ཡིག་སྣོད་རྩ་སྒྲིག་ཚུ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་ཚུ་ཨིན།  ཁྱོད་ཀྱིས་དགའ་གདམ་བརྐྱབ་ཡོད་པའི་ཡིག་སྣོད་ཀྱི་རྩ་སྒྲིག་  ཡང་ན་  ཀོ་ཌེཀ་འདི་བརླག་སྟོར་ཞུགས་ཡོད་པ་ཅིན་  ཀོ་ཌེཀ་འདི་གི་དོན་ལུ་ ཡང་ན་ རྩ་སྒྲིག་གི་དོན་ལུ་ ཁྱོད་ཀྱིས་པ་ལག་ཨིན་ཅིག་གཞི་བཙུག་འབད་དགོ་  ཡང་ན་  དེ་ནང་ཐོབ་ཚུགས་ཅི་ཡང་མེདཔ་འོང་དགོ།"
+
+#: ../src/druid.c:393
+#, c-format
+msgid "%d/%d: Video Source"
+msgstr "%d/%d: ཝི་ཌིའོ་བྱུང་ཁུངས་"
+
+#: ../src/druid.c:395
+#, c-format
+msgid "%d/%d: Audio Source"
+msgstr "%d/%d: རྣར་ཉན་བྱུང་ཁུངས་"
+
+#: ../src/druid.c:397
+#, c-format
+msgid "%d/%d: Output Format"
+msgstr "%d/%d: ཨའུཊི་པུཊི་རྩ་སྒྲིག་"
+
+#: ../src/druid.c:410
+msgid "First-time Configuration"
+msgstr "དང་པའི་རིམ་སྒྲིག་"
+
+#: ../src/druid.c:412
+msgid ""
+"In the next few pages, this druid will ask you several questions which will decide which sources, codecs and file format will be used for video and audio recording.\n"
+"\n"
+"Press \"Forward\" to start the druid. Press \"Cancel\" at any time to stop the druid. You can manually re-configure all settings in the Preferences dialog."
+msgstr ""
+"ཤེལ་མའི་ཤོག་ལེབ་དག་པ་ཅི་ནང་  ཝི་ཌིའོ་དང་རྣར་ཉན་སྒྲ་བཟུང་གི་དོན་ལུ་  བྱུང་ཁུངས་ ཀོ་ཌེཀསི་དང་ ཡིག་སྣོད་རྩ་སྒྲིག་ཚུ་ག་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན་འདི་  ཌུའིཌི་དེ་གིས་ཁྱོད་ལུ་དྲི་བ་ལེ་ཤ་འདྲིཝ་ཨིན། \n"
+"\n"
+"ཌུའིཌི་འདི་འགོ་བཙུགས་ནི་ལུ་   \"Forward\" ཨེབ་གཏང་འབད།  ཌུའིཌི་འདི་བཀག་ནིའི་དོན་ལུ་  ནམ་འབད་རུང་\"Cancel\" ཨེབ་གཏང་འབད།  དགའ་གདམ་བརྐྱབ་ཡོད་པའི་ཌའི་ལོག་ནང་  ཁྱོད་ཀྱིས་  ལག་དེབ་ཐོག་ལས་  སྒྲིག་སྟངས་ཚུ་ཆ་མཉམ་ལོག་རིམ་སྒྲིག་འབད།"
+
+#: ../src/druid.c:446
+msgid "Configuration Completed"
+msgstr "རིམ་སྒྲིག་འབད་ནི་འདི་མཇུག་བསྡུ་ཡོདཔ་"
+
+#: ../src/parameter.c:361
+msgid "unknown"
+msgstr "མ་ཤེསཔ་"
+
+#. make window look cute
+#: ../src/preferences.c:86
+msgid "Cupid: Preferences"
+msgstr "ཀིའུ་པིཌི: དགའ་གདམ་ཚུ་"
+
+#: ../src/preferences.c:219
+msgid "Cupid: Element details"
+msgstr "ཀིའུ་པིཌི: ཆ་ཤས་རྒྱས་བཤད་ཚུ་"
+
+#: ../src/preferences.c:276
+msgid "Metadata"
+msgstr "མེ་ཊ་གནད་སྡུད་"
+
+#: ../src/preferences.c:278
+msgid "Output format"
+msgstr "ཨའུཊི་པུཊི་རྩ་སྒྲིག་"
+
+#: ../src/preferences.c:287
+msgid "File format"
+msgstr "ཡིག་སྣོད་རྩ་སྒྲིག་"
+
+#. Translators note: the %s is filled in by the type of element
+#. * that these details are for, e.g. video source, audio encoder.
+#: ../src/preferences.c:346
+#, c-format
+msgid "%s details"
+msgstr "%s རྒྱས་བཤད་ཚུ་"
+
+#: ../src/preferences.c:411
+msgid "Element has no parameters"
+msgstr "ཆ་ཤས་འདི་ལུ་ཚད་བཟུང་མེདཔ་ཨིན་"
+
+#. Translator comment: the %s is filled in by the name of the track,
+#. * e.g. 'line-in' or 'microphone'.
+#: ../src/sliders.c:288
+#, c-format
+msgid "%s volume"
+msgstr "%sསྐད་ཤུགས་"
+
+#. make window look cute
+#: ../src/snapshot.c:88
+msgid "Cupid: Save Snapshot"
+msgstr "ཀིའུ་པིཌི: པར་སྲུང་"
+
+#: ../src/snapshot.c:111
+msgid "_Name:"
+msgstr "མིང་: (_N)"
+
+#: ../src/snapshot.c:117
+msgid "Save in _folder:"
+msgstr "སྣོད་འཛིན་ནང་སྲུང་: (_f)"
+
+#: ../src/snapshot.c:252
+#, c-format
+msgid "Failed to save image: %s"
+msgstr "གཟུགས་བརྙན་ %s སྲུང་མ་ཚུགས: "
+
+#: ../src/stats.c:67
+msgid "Recording time"
+msgstr "སྒྲ་བཟུང་བའི་དུས་ཡུན་"
+
+#: ../src/stats.c:68
+msgid "Video frames/audio samples"
+msgstr "ཝི་ཌིའོ་གཞི་ཁྲམ་ཚུ་/ རྣར་ཉན་དཔེ་ཚད་ཚུ་"
+
+#: ../src/stats.c:69
+msgid "Lost/inserted/deleted frames"
+msgstr "བརླག་སྟོར་ཞུགས་པ་/བཙུགས་ཡོདཔ་/བཏོན་གཏང་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་"
+
+#: ../src/stats.c:70
+msgid "Free disk space"
+msgstr "ཌིཀསི་སྟོང་པའི་བར་སྟོང་"
+
+#: ../src/window.c:146
+msgid "_Minimal"
+msgstr "ཉུང་མཐའ། (_M)"
+
+#: ../src/window.c:147
+msgid "Toggle minimal (TV-like) mode"
+msgstr "(རྒྱང་མཐོང་-བཟུམ་) ཐབས་ལམ་ཉུང་མཐའ་འདི་ སོར་སྟོན་འབད་"
+
+#: ../src/window.c:149
+msgid "S_tatistics"
+msgstr "གནས་ཚད། (_t)"
+
+#: ../src/window.c:150
+msgid "Toggle visibility of statistics"
+msgstr "གནས་ཚད་ཀྱི་མཐོང་སྣང་ཚུ་སོར་སྟོན་འབད་"
+
+#: ../src/window.c:153
+msgid "_Full Screen"
+msgstr "གསལ་གཞི་ཆ་ཚང་། (_F)"
+
+#: ../src/window.c:154
+msgid "Toggle full-screen mode"
+msgstr "གསལ་གཞི་ཆ་ཚང་གི་ཐབས་ལམ་སོར་སྟོན་འབད་"
+
+#: ../src/window.c:165
+msgid "S_top"
+msgstr "བཀག་བཞག། (_t)"
+
+#: ../src/window.c:165
+#: ../src/window.c:215
+msgid "Stop Recording"
+msgstr "སྒྲ་བཟུང་འབད་ནི་འདི་བཀག་བཞག་"
+
+#: ../src/window.c:169
+msgid "_Pause"
+msgstr "ཐེམ། (_P)"
+
+#: ../src/window.c:169
+#: ../src/window.c:218
+msgid "Pause Recording"
+msgstr "སྒྲ་བཟུང་འབད་ནི་འདི་ཐེམ་"
+
+#: ../src/window.c:173
+msgid "_Record"
+msgstr "སྒྲ་བཟུང་། (_R)"
+
+#: ../src/window.c:173
+#: ../src/window.c:221
+msgid "Start Recording"
+msgstr "སྒྲ་བཟུང་འབད་ནི་འགོ་བཙུགས་"
+
+#: ../src/window.c:176
+msgid "_Play"
+msgstr "གཏང་། (_P)"
+
+#: ../src/window.c:176
+#: ../src/window.c:223
+msgid "Play Movie"
+msgstr "གློག་བརྙན་གཏང་"
+
+#: ../src/window.c:180
+msgid "_Snapshot"
+msgstr "པར། (_S)"
+
+#: ../src/window.c:180
+msgid "Take a snapshot"
+msgstr "པར་ཅིག་བཏབ་"
+
+#: ../src/window.c:197
+msgid "_Actions"
+msgstr "བྱ་བ་ཚུ། (_A)"
+
+#: ../src/window.c:215
+msgid "Stop"
+msgstr "བཀག་"
+
+#: ../src/window.c:218
+msgid "Pause"
+msgstr "ཐེམ་"
+
+#: ../src/window.c:221
+msgid "Record"
+msgstr "སྒྲ་བཟུང་"
+
+#: ../src/window.c:223
+msgid "Play"
+msgstr "གཏང་"
+
+#: ../src/window.c:226
+msgid "Balance"
+msgstr "ཚད་སྙོམས་"
+
+#: ../src/window.c:226
+msgid "Video Color and Audio Volume"
+msgstr "ཝི་ཌིའོ་ཚོས་གཞི་དང་ རྣར་ཉན་སྐད་ཤུགས་"
+
+#: ../src/window.c:306
+msgid "Browse"
+msgstr "བརྡ་འཚོལ་"
+
+#. Translators note: here, put your own name - it will be shown
+#. * in the about dialog.
+#: ../src/window.c:483
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད་ཚུ་"
+
+#: ../src/window.c:492
+msgid "A GNOME/GStreamer video capture application"
+msgstr "GNOME/GStreamer གློག་རིམ་འཛིན་བཟུང་འབད་"
+
+#: ../src/window.c:578
+#, c-format
+msgid ""
+"Element %s gave an error:\n"
+"\n"
+"%s"
+msgstr ""
+"ཆ་ཤས་ %s འཛོལ་བ་ཅིག་བྱིན:\n"
+"\n"
+"%s"
+
+#: ../src/window.c:611
+msgid "Failed to start recording!"
+msgstr "སྒྲ་བཟུང་འབད་མ་ཚུགས!"
+
+#: ../src/window.c:622
+msgid "Failed to pause recording!"
+msgstr "སྒྲ་བཟུང་ཐེམ་མ་ཚུགས!"
+
+#: ../src/window.c:633
+msgid "Failed to stop recording!"
+msgstr "སྒྲ་བཟུང་བཀག་མ་ཚུགས!"
+
+#: ../src/window.c:649
+#, c-format
+msgid "Failed to start totem: %s"
+msgstr "ཊོ་ཊེམ་ %s འགོ་བཙུགས་མ་ཚུགས:"
+
+#: ../src/window.c:684
+msgid "Failed to create a snapshot - please note that this feature currently only works for webcams, not yet for TV-cards."
+msgstr "པར་ཅིག་གསར་བསྐྲུན་འབད་མ་ཚུགས་ - ཁྱད་རྣམ་དེ་ཚུ་གིས་  ཝེབ་ཀེམ་ཚུ་གི་དོན་ལུ་རྐྱངམ་ཅིག་ལཱ་འབདཝ་ཨིནམ་དང་  རྒྱང་མཐོང་-ཤོག་ལེབ་ཚུ་གི་དོན་ལུ་མེན་ཟེར་ དྲན་འཛིན་འབད་གནང་།"
+

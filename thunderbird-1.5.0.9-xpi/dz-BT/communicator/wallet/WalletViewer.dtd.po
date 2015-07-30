@@ -1,0 +1,366 @@
+# extracted from locale_orig/dz-BT/communicator/wallet/WalletViewer.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: thunderbird 1.5.0.9-xpi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-13 11:22+0600\n"
+"PO-Revision-Date: 2007-02-13 11:22+0600\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 0.10.1\n"
+"X-Accelerator-Marker: &\n"
+
+# WalletViewer.xul
+#: windowtitle.label
+msgid "Form Manager: Editor"
+msgstr "Form Manager: Editor"
+
+# WalletTree.xul
+# LOCALIZATION NOTE : lists wallet categories that appear on the left of the wallet viewer dialog
+#: categoryHeader
+msgid "Category"
+msgstr "Category"
+
+#: primary.label
+msgid "Primary Contact Information"
+msgstr "Primary Contact Information"
+
+# WalletName.xul
+#: pname.label sname.label bname.label name.title
+msgid "Name"
+msgstr "Name"
+
+# WalletAddress.xul
+#: paddress.label saddress.label baddress.label address.title
+msgid "Address"
+msgstr "Address"
+
+# WalletPhone.xul
+#: pphone.label phone.title
+msgid "Phone Numbers"
+msgstr "Phone Numbers"
+
+# WalletCredit.xul
+#: pcredit.label credit.title
+msgid "Credit Card"
+msgstr "Credit Card"
+
+# WalletEmploy.xul
+#: pemploy.label employ.title
+msgid "Employment"
+msgstr "Employment"
+
+# WalletMisc.xul
+#: pmisc.label misc.title
+msgid "Personal"
+msgstr "Personal"
+
+#: shipping.label
+msgid "Shipping Information"
+msgstr "Shipping Information"
+
+#: sphone.label bphone.label
+msgid "Phone"
+msgstr "Phone"
+
+#: billing.label
+msgid "Billing Information"
+msgstr "Billing Information"
+
+#: other.label
+msgid "Other Saved Information"
+msgstr "Other Saved Information"
+
+#: concatenated.label
+msgid "Concatenations"
+msgstr "Concatenations"
+
+#: urlspecific.label
+msgid "URL-Specific"
+msgstr "URL-Specific"
+
+#: experimental.label
+msgid "Experimental"
+msgstr "Experimental"
+
+# WalletViewer.xul
+#: removeall.label removeall.accesskey
+msgid "&Remove All Saved Data"
+msgstr "&Remove All Saved Data"
+
+#: namePrefix.label namePrefix.accesskey
+msgid "&Prefix:"
+msgstr "&Prefix:"
+
+#: nameFirst.label nameFirst.accesskey
+msgid "&First:"
+msgstr "&First:"
+
+#: nameMiddle.label nameMiddle.accesskey
+msgid "&Middle:"
+msgstr "&Middle:"
+
+#: nameLast.label nameLast.accesskey
+msgid "&Last:"
+msgstr "&Last:"
+
+#: nameSuffix.label nameSuffix.accesskey
+msgid "&Suffix:"
+msgstr "&Suffix:"
+
+#: addressLine1.label addressLine1.accesskey
+msgid "&Line 1:"
+msgstr "&Line 1:"
+
+#: addressLine2.label addressLine2.accesskey
+msgid "Li&ne 2:"
+msgstr "Li&ne 2:"
+
+#: addressLine3.label addressLine3.accesskey
+msgid "Lin&e 3:"
+msgstr "Lin&e 3:"
+
+#: addressCity.label addressCity.accesskey
+msgid "&City:"
+msgstr "&City:"
+
+#: addressState.label addressState.accesskey
+msgid "&State/Prov:"
+msgstr "&State/Prov:"
+
+#: addressZipcode.label addressZipcode.accesskey
+msgid "&Zipcode:"
+msgstr "&Zipcode:"
+
+#: addressCountry.label addressCountry.accesskey
+msgid "C&ountry:"
+msgstr "C&ountry:"
+
+#: email.label email.accesskey
+msgid "E-&mail:"
+msgstr "E-&mail:"
+
+#: homepage.label homepage.accesskey
+msgid "&Homepage:"
+msgstr "&Homepage:"
+
+#: phoneDay.label phoneDay.accesskey
+msgid "&Day:"
+msgstr "&Day:"
+
+#: phoneDayExt.label phoneDayExt.accesskey
+msgid "e&xt:"
+msgstr "e&xt:"
+
+#: phoneEve.label phoneEve.accesskey
+msgid "&Eve:"
+msgstr "&Eve:"
+
+#: phoneEveExt.label phoneEveExt.accesskey
+msgid "ex&t:"
+msgstr "ex&t:"
+
+#: phoneFax.label phoneFax.accesskey
+msgid "&Fax:"
+msgstr "&Fax:"
+
+#: phoneCell.label phoneCell.accesskey
+msgid "&Cell:"
+msgstr "&Cell:"
+
+#: phonePager.label phonePager.accesskey
+msgid "&Pager:"
+msgstr "&Pager:"
+
+#: creditType.label creditType.accesskey
+msgid "Card &Type:"
+msgstr "Card &Type:"
+
+#: creditNumber.label creditNumber.accesskey
+msgid "Card &Number:"
+msgstr "Card &Number:"
+
+#: creditExpires.label
+msgid "Expires:"
+msgstr "Expires:"
+
+#: creditExpiresMonth.label creditExpiresMonth.accesskey
+msgid "&month:"
+msgstr "&month:"
+
+#: creditExpiresYear.label creditExpiresYear.accesskey
+msgid "y&ear:"
+msgstr "y&ear:"
+
+#: creditName.label creditName.accesskey
+msgid "N&ame on Card:"
+msgstr "N&ame on Card:"
+
+#: employName.label employName.accesskey
+msgid "&Company Name:"
+msgstr "&Company Name:"
+
+#: employTitle.label employTitle.accesskey
+msgid "&Job Title:"
+msgstr "&Job Title:"
+
+#: employDepartment.label employDepartment.accesskey
+msgid "&Department:"
+msgstr "&Department:"
+
+#: miscSS.label miscSS.accesskey
+msgid "&Social Security Number:"
+msgstr "&Social Security Number:"
+
+#: miscLicense.label miscLicense.accesskey
+msgid "&Driver's License Number:"
+msgstr "&Driver's License Number:"
+
+#: miscLicenseState.label miscLicenseState.accesskey
+msgid "s&tate:"
+msgstr "s&tate:"
+
+#: miscMaiden.label miscMaiden.accesskey
+msgid "&Mother's Maiden Name:"
+msgstr "&Mother's Maiden Name:"
+
+#: miscBirthday.label miscBirthday.accesskey
+msgid "&Birthday:"
+msgstr "&Birthday:"
+
+#: miscBirthdayMonth.label miscAnnivMonth.label
+msgid "mo"
+msgstr "mo"
+
+#: miscBirthdayDay.label miscAnnivDay.label
+msgid "dy"
+msgstr "dy"
+
+#: miscBirthdayYear.label miscAnnivYear.label
+msgid "yr"
+msgstr "yr"
+
+#: miscAnniv.label miscAnniv.accesskey
+msgid "&Anniversary:"
+msgstr "&Anniversary:"
+
+# WalletUrlspecific.xul
+#: urlspecific.title
+msgid "URL-Specific Information"
+msgstr "URL-Specific Information"
+
+#: urlspecificUrl.label
+msgid "URL"
+msgstr "URL"
+
+#: urlspecificField.label
+msgid "Field"
+msgstr "Field"
+
+#: urlspecificValue.label
+msgid "Value"
+msgstr "Value"
+
+# WalletConcatenation.xul
+#: concatPrimary.title
+msgid "Concatentations for Primary Contact"
+msgstr "Concatentations for Primary Contact"
+
+#: concatShipping.title
+msgid "Concatenations for Shipping"
+msgstr "Concatenations for Shipping"
+
+#: concatBilling.title
+msgid "Concatenations for Billing"
+msgstr "Concatenations for Billing"
+
+#: concatOther.title
+msgid "Other Concatenations"
+msgstr "Other Concatenations"
+
+#: concatName.label concatName.accesskey
+msgid "&Name:"
+msgstr "&Name:"
+
+#: concatZipcode.label concatShiptoZipcode.label concatBilltoZipcode.label
+msgid "Zipcode:"
+msgstr "Zipcode:"
+
+#: concatPhone.label
+msgid "Day Phone w/areacode:"
+msgstr "Day Phone w/areacode:"
+
+#: concatPhonenumber.label
+msgid "Day Phone:"
+msgstr "Day Phone:"
+
+#: concatAltPhone.label concatShiptoAltPhone.label concatBilltoAltPhone.label
+msgid "Eve Phone w/areacode:"
+msgstr "Eve Phone w/areacode:"
+
+#: concatAltPhonenumber.label concatShiptoAltPhonenumber.label
+#: concatBilltoAltPhonenumber.label
+msgid "Eve Phone:"
+msgstr "Eve Phone:"
+
+#: concatFax.label concatShiptoFax.label concatBilltoFax.label
+msgid "Fax w/areacode:"
+msgstr "Fax w/areacode:"
+
+#: concatFaxnumber.label
+msgid "Fax:"
+msgstr "Fax:"
+
+#: concatMobile.label concatShiptoMobile.label concatBilltoMobile.label
+msgid "Cell Phone w/areacode:"
+msgstr "Cell Phone w/areacode:"
+
+#: concatMobilenumber.label concatShiptoMobilenumber.label
+#: concatBilltoMobilenumber.label
+msgid "Cell Phone:"
+msgstr "Cell Phone:"
+
+#: concatPager.label concatShiptoPager.label concatBilltoPager.label
+msgid "Pager w/areacode:"
+msgstr "Pager w/areacode:"
+
+#: concatPagernumber.label concatShiptoPagernumber.label
+#: concatBilltoPagernumber.label
+msgid "Pager:"
+msgstr "Pager:"
+
+#: concatShiptoName.label concatBilltoName.label
+msgid "Name:"
+msgstr "Name:"
+
+#: concatShiptoPhone.label concatBilltoPhone.label
+msgid "Phone w/areacode:"
+msgstr "Phone w/areacode:"
+
+#: concatShiptoPhonenumber.label concatBilltoPhonenumber.label
+msgid "Phone:"
+msgstr "Phone:"
+
+#: concatShiptoFaxnumber.label concatBilltoFaxnumber.label
+msgid "Fax Phone:"
+msgstr "Fax Phone:"
+
+#: concatCardExpdate.label
+msgid "Credit Card Expiration:"
+msgstr "Credit Card Expiration:"
+
+#: concatSocSec.label
+msgid "Social Security Number:"
+msgstr "Social Security Number:"
+
+#: concatBdate.label
+msgid "Birthday:"
+msgstr "Birthday:"
+
+#: concatAnniv.label
+msgid "Anniversary:"
+msgstr "Anniversary:"

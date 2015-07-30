@@ -1,0 +1,35 @@
+# extracted from dz-BT_orig/mail/chrome/messenger-smime/msgReadSMIMEOverlay.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: msgReadSMIMEOverlay.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-19 15:07+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ImapOnDemand
+msgid "The displayed message has been digitally signed, but not all its attachments have been downloaded yet. Therefore, the signature cannot be validated. Click OK to download the complete message and validate the signature."
+msgstr "བཀྲམ་སྟོན་འབད་མི་འཕྲིན་དོན་དེ་ ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནུག། དེ་འབདཝ་ད་ ད་ཚུན་དེ་གི་མཉམ་སྦྲགས་ཚུ་ ཆ་མཉམ་ཕབ་ལེན་མ་འབད་བས། དེ་གིས་སྦེ་ མིང་རྟགས་དེ་ ནུས་ཅན་བཟོ་མི་ཚུགས། འཕྲིན་དོན་ཆ་ཚང་ ཕབ་ལེན་འབད་ནི་ལུ་ བཏུབ་ གུ་ཨེབ་གཏང་འབད་ཞིནམ་ལས་ མིང་རྟགས་དེ་ ནུས་ཅན་བཟོ།"
+
+#
+#NOTE To translater, anything between %..% and <..> should not be translated.
+# the former will be replaced by java script, and the latter is HTML formatting.
+#
+#: CantDecryptTitle
+msgid "%brand% cannot decrypt this message"
+msgstr "%brand% གིས་ འཕྲིན་དོན་འདི་ གསང་བཟོ་བཤོལ་མི་ཚུགས།"
+
+#: CantDecryptBody
+msgid "The sender encrypted this message to you using one of your digital certificates, however %brand% was not able to find this certificate and corresponding private key. <br> Possible solutions: <br><ul><li>If you have a smartcard, please insert it now. <li>If you are using a new machine, or if you are using a new %brand% profile, you will need to restore your certificate and private key from a backup. Certificate backups usually end in \".p12\".</ul>"
+msgstr "གཏང་མི་དེ་གིས་ ཁྱོད་ཀྱི་ཌི་ཇི་ཊཱལ་ལག་ཁྱེར་གཅིག་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ འཕྲིན་དོན་འདི་གསང་བ་བཟོ་ནུག། ཨིན་རུང་ %brand% གིས་ ལག་ཁྱེར་འདི་དང་ ཆ་མཉམ་པའི་སྒེར་གྱི་ལྡེ་མིག་ཅིག་ འཚོལ་མ་ཐོབ་པས། <br> འོས་པའི་ཐབས་ཤེས་:<br><ul><li>ཁྱོད་ལུ་ སི་མརཊི་ཀཌི་ཅིག་ཡོད་པ་ཅིན་ ད་ལྟོ་བཙུགས་གནང་། <li>ཁྱོད་ཀྱིས་གློག་འཕྲུལ་གསརཔ་ཅིག་ ལག་ལེན་འཐབ་པའི་བསྒང་ ཡང་ན་ %brand% གསལ་སྡུད་གསརཔ་ཅིག་ ལག་ལེན་འཐབ་པའི་བསྒང་ཨིན་པ་ཅིན་ རྒྱབ་ཐག་ཅིག་ནང་ལས་ ཁྱོད་རའི་ལག་ཁྱེར་དང་ སྒེར་གྱི་ལྡེ་མིག་དེ་ ཉམས་གསོ་འབད་དགོ། ལག་ཁྱེར་རྒྱབ་ཐག་ཚུ་ སྤྱིར་བཏང་ལུ་  \".p12\".</ul> ནང་ལུ་མཇུག་བསྡུཝ་ཨིན།"
+

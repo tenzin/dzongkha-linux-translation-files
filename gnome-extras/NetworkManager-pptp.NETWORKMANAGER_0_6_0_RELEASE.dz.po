@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-pptp.NETWORKMANAGER_0_6_0_RELEASE.dz.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-04 03:43+0100\n"
+"PO-Revision-Date: 2007-07-04 12:00+0530\n"
+"Last-Translator: yumkee lhamo <yumkeyl08@hotmail.com>\n"
+"Language-Team: dzongkha <Pgeyleg@dit.gob.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplural=2;Plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:147
+msgid "_Secondary Password:"
+msgstr "གལ་གནད་ཆུང་བའི་ཆོག་ཡིག་:(_S)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:268
+msgid "_Username:"
+msgstr "ལག་ལེན་པའི་མིང་:(_U)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:270
+msgid "_Domain:"
+msgstr "ཌོ་མེན་:(_D)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:272
+msgid "_Password:"
+msgstr "ཆོག་ཡིག་:(_P)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:355
+msgid "Connect _anonymously"
+msgstr "མིང་མེད་ཐོག་ལས་མཐུད་ (_a)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:360
+msgid "Connect as _user:"
+msgstr "ལག་ལེན་པ་སྦེ་མཐུད་:(_u)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:466
+msgid "_Remember password for this session"
+msgstr "ལཱ་ཡུན་འདི་གི་དོན་ལུ་ ཆོག་ཡིག་ སེམས་ཁར་བཞག་(_R)"
+
+#: ../auth-dialog/gnome-two-password-dialog.c:468
+msgid "_Save password in keyring"
+msgstr "ཆོག་ཡིག་ ལྡེ་འཁོར་ནང་ སྲུངས་བཞག་འབད་(_S)"
+
+#: ../auth-dialog/main.c:161
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr "བར་ཅུ་ཡལ་སྒེར་དོན་གྱི་ཡོངས་འབྲེལ་ '%s' འདི་འཛུལ་སྤྱོད་འབད་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་བདེན་བཤད་འབད་དགོ།"
+
+#: ../auth-dialog/main.c:162
+msgid "Authenticate PPTP VPN"
+msgstr "པི་པི་ཊི་པི་ ཝི་པི་ཨེན་ བདེན་བཤད་འབད་ནི་"
+
+#: ../nm-pptp.desktop.in.h:1
+msgid "Add, Remove, and Edit VPN Connections"
+msgstr "ཝི་པི་ཨིན་མཐུད་ལམ་ཚུ་ ཁ་སྐོང་ རྩ་བསྐྲད་དང་ཞུན་དག་འབད་"
+
+#: ../nm-pptp.desktop.in.h:2
+msgid "VPN Connection Manager (PPTP)"
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་གྱི་འཛིན་སྐྱོང་པ་(པི་པི་ཊི་པི་)"
+
+#: ../properties/nm-pptp.c:79
+msgid "PPTP Client"
+msgstr "པི་པི་ཊི་པི་ཞབས་ཏོག་སྤྱོད་མི་"
+
+#: ../properties/nm-pptp.c:387
+msgid "The following PPTP connection will be created:"
+msgstr "འོག་ལུ་ཡོད་པའི་ པི་པི་ཊི་པི་མཐུད་ལམ་འདི་གསལ་བསྐྲུན་འབད་ནི་ཨིན:"
+
+#: ../properties/nm-pptp.c:389
+#, c-format
+msgid "Name:  %s"
+msgstr "མིང་: %s"
+
+#: ../properties/nm-pptp.c:392
+#, c-format
+msgid "Remote:  %s"
+msgstr "ཐག་རིང་གི:  %s"
+
+#: ../properties/nm-pptp.c:395
+#, c-format
+msgid "Username:  %s"
+msgstr "ལག་ལེན་པའི་མིང་:  %s"
+
+#: ../properties/nm-pptp.c:399
+#, c-format
+msgid "Routes:  %s"
+msgstr "འགྲུལ་ལམ་ཚུ་:  %s"
+
+#: ../properties/nm-pptp.c:403
+#, c-format
+msgid "Use MPPC Compression: %s"
+msgstr "ཨེམ་པི་པི་སི་ ཨེབ་བཙུགས་འདི་ལག་ལེན་འཐབ་:  %s"
+
+#: ../properties/nm-pptp.c:403
+#: ../properties/nm-pptp.c:405
+msgid "Yes"
+msgstr "ཨིན་"
+
+#: ../properties/nm-pptp.c:403
+#: ../properties/nm-pptp.c:405
+msgid "No"
+msgstr "མེན་"
+
+#: ../properties/nm-pptp.c:405
+#, c-format
+msgid "Use MPPE Encryption: %s"
+msgstr "ཨེམ་པི་པི་ཨི་ གསང་བཟོ་ལག་ལེན་འཐབ་:  %s"
+
+#: ../properties/nm-pptp.c:408
+msgid "The connection details can be changed using the \"Edit\" button."
+msgstr "མཐུད་ལམ་གྱི་རྒྱས་བཤད་འདི་ \"Edit\" ཨེབ་རྟ་ ལག་ལེན་འཐབ་པ་ཅིན་ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: ../properties/nm-pptp.c:484
+msgid "Cannot import settings"
+msgstr "སྒྲིག་སྟངས་ ནང་འདྲེན་འབད་མི་ཚུགས་"
+
+#: ../properties/nm-pptp.c:486
+#, c-format
+msgid "The VPN settings file '%s' does not contain valid data."
+msgstr "ཝི་པི་ཨེན་སྒྲིག་སྟངས་གི་ཡིག་སྣོད་ '%s' ནང་ལུ་ ནུས་ཅན་གྱི་གནད་སྡུད་ མིན་འདུག"
+
+#: ../properties/nm-pptp.c:504
+msgid "Select file to import"
+msgstr "ནང་འདྲེན་འབད་ནི་ཨིན་པའི་ཡིག་སྣོད་སེལ་འཐུ་འབད་"
+
+#. printf ("in impl_export\n");
+#: ../properties/nm-pptp.c:626
+msgid "Save as..."
+msgstr "དེ་སྦེ་སྲུངས་"
+
+#: ../properties/nm-pptp.c:656
+#, c-format
+msgid "A file named \"%s\" already exists."
+msgstr "ཡིག་སྣོད་མིང་\"%s\" འདི་ཧེ་མ་ལས་རང་འདུག"
+
+#: ../properties/nm-pptp.c:659
+msgid "Do you want to replace it with the one you are saving?"
+msgstr "ཁྱོད་ཀྱིས་ སྲུང་མི་འདི་དང་གཅིག་ཁར་ འདི་ ཚབ་བཙུགས་ནི་ཨིན་ན ?"
+
+#: ../properties/nm-pptp-dialog.glade.h:1
+msgid "<b>Connection Name</b>"
+msgstr "<b>མཐུད་ལམ་གྱི་མིང་</b>"
+
+#: ../properties/nm-pptp-dialog.glade.h:2
+msgid "<b>Required Information</b>"
+msgstr "<b>དགོས་མཁོ་ཡོད་པའི་བརྡ་དོན་</b>"
+
+#: ../properties/nm-pptp-dialog.glade.h:3
+msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+msgstr "<i>དཔེར་ན་: ༡༧༢.༡༦.༠.༠/༡༦ ༡༠.༡༡.༡༢.༠/༢༤</i>"
+
+#: ../properties/nm-pptp-dialog.glade.h:4
+msgid "MS CHAP-v1/v2"
+msgstr "ཨེམ་ཨེསི་  སི་ཨེཆ་ཨེ་པི་-ཝི༡/ཝི༢"
+
+#: ../properties/nm-pptp-dialog.glade.h:5
+msgid "Please enter the information provided by your system administrator below. Do not enter your password here as you will be prompted when connecting."
+msgstr "ཁྱོད་རིའི་རིམ་ལུགས་བདག་སྐྱོང་པའི་བྱིན་ཏེ་ཡོད་མི་བརྡ་དོན་འདི་འོག་ལུ་ཐོ་བཀོད་གནང་།   ཁྱོད་རའི་ཆོག་ཡིག་འདི་ནཱ་ལུ་མ་བཙུགས་ མཐུད་ལམ་སྐབས་ཁྱོད་ལུ་དྲན་གསོ་འབད་འོང་།"
+
+#: ../properties/nm-pptp-dialog.glade.h:6
+msgid "Require MPPE encryption"
+msgstr "དགོས་མཁོ་ཡོད་པའི་ཨེམ་པི་པི་ཨི་གསང་བཟོ་"
+
+#: ../properties/nm-pptp-dialog.glade.h:7
+msgid "Use MPPC compression"
+msgstr "ཨེམ་པི་པི་སི་ཨེབ་བཙུགས་འདི་ལག་ལེན་འཐབ་"
+
+#: ../properties/nm-pptp-dialog.glade.h:8
+msgid "Username:"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../properties/nm-pptp-dialog.glade.h:9
+msgid ""
+"Your password must be defined \n"
+"in /etc/ppp/chap-secrets"
+msgstr ""
+"ཁྱོད་རའི་ཆོག་ཡིག་འདི་ངེས་འཛིན་འབད་དགོ་\n"
+"ནང/ལ་སོགས་པ་/པི་པི་པི་/ལེའུ_གསང་བ་ཚུ་"
+
+#: ../properties/nm-pptp-dialog.glade.h:11
+msgid "_Gateway:"
+msgstr "འཛུལ་སྒོ་:(_G)"
+
+#: ../properties/nm-pptp-dialog.glade.h:12
+msgid "_Import Saved Configuration..."
+msgstr "སྲུང་བཞག་འབད་ཡོད་པའི་རིམ་སྒྲིག་ ནང་འདྲེན་འབད་(_I)"
+
+#: ../properties/nm-pptp-dialog.glade.h:13
+msgid "_Name used to identify the connection to the private network, e.g. \"Campus VPN\" or \"Corporate Network\""
+msgstr "སྒེར་གྱི་ཡོངས་འབྲེལ་མཐུད་ལམ་འདི་ངོས་འཛིན་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་མིང་ དཔེར་ན་\"Campus VPN\" ཡང་ན་ \"Corporate Network\""
+
+#: ../properties/nm-pptp-dialog.glade.h:14
+msgid "_Only use VPN connection for these addresses"
+msgstr "ཁ་བྱང་འདི་ཚུ་གི་དོན་ལུ་ཝི་པི་ཨེན་གྱི་མཐུད་ལམ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་(_O)"
+
+#. No sophisticated error message for now
+#: ../src/nm-pptp-service.c:126
+msgid "VPN Connection failed"
+msgstr "ཝི་པི་ཨེན་གྱི་མཐུད་ལམ་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+

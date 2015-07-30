@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: giftoxic.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-25 04:27+0100\n"
+"PO-Revision-Date: 2007-01-09 14:18+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/main.c:70
+msgid "Downloads"
+msgstr "ཕབ་ལེན་འབདཝ་ཨིན་"
+
+#: ../src/main.c:70
+msgid "Uploads"
+msgstr "སྐྱེལ་བཙུགས་འབདཝ་ཨིན་"
+
+#: ../src/main.c:71
+#: ../src/search_tab.c:90
+msgid "Filename"
+msgstr "ཡིག་སྣོད་མིང་"
+
+#: ../src/main.c:71
+#: ../src/search_tab.c:90
+#: ../src/search_tab.c:91
+msgid "User"
+msgstr "ལག་ལེན་པ་"
+
+#: ../src/main.c:71
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: ../src/main.c:71
+msgid "Progress"
+msgstr "ཡར་འཕེལ་"
+
+#: ../src/main.c:71
+#: ../src/search_tab.c:90
+msgid "Size"
+msgstr "ཚད་"
+
+#: ../src/main.c:71
+msgid "Speed"
+msgstr "མགྱོགས་ཚད་"
+
+#: ../src/main.c:71
+msgid "ETA"
+msgstr "ཨི་ཊི་ཨེ་"
+
+#: ../src/main.c:203
+msgid "Automatically remove"
+msgstr "རང་བཞིན་གྱིས་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/main.c:203
+msgid "Cancelled transfers"
+msgstr "ཆ་མེད་གཏང་ཡོད་པའི་གནས་སོར་ཚུ་"
+
+#: ../src/main.c:203
+msgid "Completed transfers"
+msgstr "མཇུག་བསྡུ་ཡོད་པའི་གནས་སོར་ཚུ་"
+
+#: ../src/main.c:215
+msgid "Autoclean options"
+msgstr "རང་བཞིན་གཙང་དག་གདམ་ཁ་ཚུ་"
+
+#: ../src/main.c:243
+msgid "Shares"
+msgstr "རུབ་སྤྱོད་འབདཝ་ཨིན"
+
+#: ../src/main.c:256
+msgid "Enable sharing"
+msgstr "རུབ་སྤྱོད་འབད་ནི་ལྕོགས་ཅན་བཟོ་"
+
+#: ../src/main.c:264
+msgid "Synchronize shares"
+msgstr "རུབ་སྤྱོད་འབད་ནི་ཚུ་མཉམ་འབྱུང་འབད་"
+
+#: ../src/main.c:339
+msgid "Home"
+msgstr "ཁྱིམ་"
+
+#: ../src/main.c:345
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་"
+
+#: ../src/main.c:351
+msgid "Transfers"
+msgstr "གནས་སོར་"
+
+#: ../src/main.c:357
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../src/main.c:397
+msgid "You need to specify a host and port to connect to!"
+msgstr "ལུ་མཐུད་ནིའི་དོན་ལས་ ཁྱོད་ཀྱིས་ཧོསིཊི་དང་འདྲེན་ལམ་ཅིག་ གསལ་བཀོད་འབད་དགོ!"
+
+#: ../src/main.c:413
+#, c-format
+msgid "The giFT daemon could not be started: %s"
+msgstr "གིཕཊི་ཌེ་མོན་འདི་འགོ་བཙུགས་མ་ཚུགས་: %s"
+
+#: ../src/main.c:422
+msgid "The giFT daemon was started but could not be connected to."
+msgstr "གིཕཊི་ ཌེ་མོན་འདི་ འགོ་བཙུགས་ཡོད་ དེ་འབདཝ་ད་ མཐུད་མ་ཚུགས།"
+
+#: ../src/main.c:429
+msgid "Couldn't connect to giFT daemon on remote system!"
+msgstr "ཐག་རིང་གི་རིམ་ལུགས་གུ་ལུ་ གིཕཊི་ ཌེ་མོན་ལུ་མཐུད་མ་ཚུགས!"
+
+#: ../src/stats.c:55
+#: ../src/stats.c:71
+#, c-format
+msgid "%s GB"
+msgstr "%s ཇི་བི་"
+
+#: ../src/stats.c:58
+#: ../src/stats.c:74
+#, c-format
+msgid "%s MB"
+msgstr "%s ཨེམ་བི་"
+
+#: ../src/stats.c:135
+msgid "Users online:"
+msgstr "གློག་ལམ་ཐོག་ཡོད་པའི་ལག་ལེན་པ་ཚུ་:"
+
+#: ../src/stats.c:135
+msgid "Files available:"
+msgstr "འཐོབ་ཚུགས་པའི་ཡིག་སྣོད་ཚུ་:"
+
+#: ../src/stats.c:135
+msgid "Volume available:"
+msgstr "འཐོབ་ཚུགས་པའི་སྦུང་ཚད་:"
+
+#: ../src/stats.c:135
+msgid "Connected to:"
+msgstr "ལུ་མཐུད་"
+
+#: ../src/stats.c:136
+msgid "Local files shared:"
+msgstr "ཉེ་གནས་ཡིག་སྣོད་རུབ་སྤྱོད་འབད་ཡོདཔ་:"
+
+#: ../src/stats.c:136
+msgid "Local volume shared:"
+msgstr "ཉེ་གནས་སྦུང་ཚད་རུབ་སྤྱོད་འབད་ཡོདཔ་:"
+
+#: ../src/stats.c:137
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ་"
+
+#: ../src/stats.c:137
+msgid "Local"
+msgstr "ཉེ་གནས་"
+
+#. show version information
+#: ../src/stats.c:160
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"(C) 2002, 2003 giFToxic team\n"
+msgstr ""
+"ཐོན་རིམ་ %s\n"
+"\n"
+"(C) ༢༠༠༢, ༢༠༠༣ giFToxic རུ་ཚན་\n"
+
+#: ../src/stats.c:190
+msgid "Getting stats..."
+msgstr "སི་ཊེཊིསི་ལེན་དོ་"
+
+#: ../src/gui.c:31
+msgid "Remove item"
+msgstr "རྣམ་གྲངས་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/gui.c:39
+msgid "Clear all"
+msgstr "ཆ་མཉམ་བསལ་"
+
+#: ../src/gui.c:55
+msgid "Browse user's files"
+msgstr "ལག་ལེན་པའི་ཡིག་སྣོད་ཚུ་ བརྡ་འཚོལ་འབད་"
+
+#: ../src/gui.c:69
+msgid "Download"
+msgstr "ཕབ་ལེན་"
+
+#: ../src/gui.c:84
+#: ../src/gui.c:115
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: ../src/gui.c:106
+msgid "Get more sources"
+msgstr "འབྱུང་ཁུངས་ཧེང་བཀལ་ལེན་"
+
+#: ../src/gui.c:109
+msgid "Pause"
+msgstr "ཐེམ་"
+
+#: ../src/gui.c:112
+msgid "Resume"
+msgstr "བསྐྱར་ལོག་"
+
+#. cancel pending searches
+#: ../src/search.c:48
+msgid "Search: stopped"
+msgstr "འཚོལ་ཞིབ་: བཀག་ཡོདཔ་"
+
+#: ../src/search.c:164
+msgid "Search: in progress..."
+msgstr "འཚོལ་ཞིབ་: ཡར་འཕེལ་འགྱོ་བའི་བསྒང་"
+
+#: ../src/search_tab.c:90
+msgid "Sources"
+msgstr "འབྱུང་ཁུངས་"
+
+#: ../src/search_tab.c:90
+msgid "Avail."
+msgstr "འཐོབ་ཚུགསཔ་"
+
+#: ../src/search_tab.c:91
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ་"
+
+#: ../src/search_tab.c:91
+msgid "Audio"
+msgstr "རྣར་ཉན་"
+
+#: ../src/search_tab.c:91
+msgid "Video"
+msgstr "ཝི་ཌིའོ"
+
+#: ../src/search_tab.c:91
+msgid "Images"
+msgstr "གཟུགས་བརྙན་ཚུ་"
+
+#: ../src/search_tab.c:91
+msgid "Documents"
+msgstr "ཡིག་ཆ་ཚུ་"
+
+#: ../src/search_tab.c:91
+msgid "Software"
+msgstr "མཉེན་ཆས་"
+
+#: ../src/search_tab.c:91
+msgid "Checksum"
+msgstr "ཅེག་སམ་"
+
+#: ../src/search_tab.c:102
+msgid "Query"
+msgstr "འདྲི་དཔྱད་"
+
+#: ../src/search_tab.c:162
+msgid "Search Results"
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས་"
+
+#: ../src/parse.c:99
+#, c-format
+msgid "Search: got 1 result"
+msgstr "འཚོལ་ཞིབ་: གྲུབ་འབྲས་ ༡ འཐོབ་ཡོད་"
+
+#: ../src/parse.c:101
+#, c-format
+msgid "Search: got %lu results"
+msgstr "འཚོལ་ཞིབ་: %lu གྲུབ་འབྲས་ཚུ་འཐོབ་ཡོདཔ་"
+
+#: ../src/parse.c:241
+msgid "Shares synced!"
+msgstr "མཉམ་འབྱུང་འབད་ཡོད་མི་རུབ་སྤྱོད་འབདཝ་ཨིན་!"
+
+#: ../src/parse.c:243
+msgid "Syncing shares..."
+msgstr "མཉམ་འབྱུང་གི་རུབ་སྤྱོད་ཚུ་"
+
+#: ../src/parse.c:286
+msgid "Not Connected"
+msgstr "མ་མཐུད་པས་"
+
+#: ../src/parse.c:324
+msgid "1 active download"
+msgstr "༡ ཤུགས་ལྡན་ཕབ་ལེན་"
+
+#: ../src/parse.c:324
+#, c-format
+msgid "%i active downloads"
+msgstr "%i ཤུགས་ལྡན་ཕབ་ལེན་ཚུ་"
+
+#: ../src/parse.c:326
+msgid "1 active upload"
+msgstr "༡ ཤུགས་ལྡན་སྐྱེལ་བཙུགས"
+
+#: ../src/parse.c:326
+#, c-format
+msgid "%i active uploads"
+msgstr "%i ཤུགས་ལྡན་སྐྱེལ་བཙུགས་ཚུ་"
+
+#: ../src/parse.c:337
+#, c-format
+msgid "Connected to: %s"
+msgstr "%s : ལུ་མཐུད་ཡོདཔ་"
+
+#: ../src/utils.c:275
+msgid " thousand"
+msgstr " སྟོང་ཕྲག་"
+
+#: ../src/utils.c:275
+msgid " thousand "
+msgstr "སྟོང་ཕྲག་"
+
+#: ../src/utils.c:276
+msgid " million"
+msgstr " ས་ཡ་"
+
+#: ../src/utils.c:276
+msgid " million "
+msgstr "ས་ཡ་"
+

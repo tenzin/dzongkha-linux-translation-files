@@ -1,0 +1,2520 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tomboy.Dz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=tomboy"
+"&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-08-30 20:22+0000\n"
+"PO-Revision-Date: 2007-05-22 02:41+0530\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:1
+msgid "Accessories"
+msgstr "ཡན་ལག་ཅ་ཆས།"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:2
+msgid "Simple and easy to use note-taking"
+msgstr "དྲན་འཛིན་བཀོད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནི་འཇམ་ཏོང་ཏོ།"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:3
+msgid "Tomboy Applet Factory"
+msgstr "ཊོམ་བོ་ཡེ་ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
+
+#: ../data/GNOME_TomboyApplet.server.in.in.h:4 ../data/tomboy.desktop.in.h:3
+#: ../Tomboy/Tray.cs:579
+msgid "Tomboy Notes"
+msgstr "ཊོམ་བོ་ཡེ་དྲན་འཛིན།"
+
+#: ../data/GNOME_TomboyApplet.xml.h:1 ../Tomboy/ActionManager.cs:179
+#: ../Tomboy/Tray.cs:274
+msgid "S_ynchronize Notes"
+msgstr ""
+
+#: ../data/GNOME_TomboyApplet.xml.h:2 ../Tomboy/ActionManager.cs:164
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../data/GNOME_TomboyApplet.xml.h:3 ../Tomboy/ActionManager.cs:157
+#: ../Tomboy/Tray.cs:288
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../data/GNOME_TomboyApplet.xml.h:4 ../Tomboy/ActionManager.cs:153
+#: ../Tomboy/Tray.cs:283
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../data/tomboy.desktop.in.h:1
+msgid "Note-taker"
+msgstr "དྲན་འཛིན་བཀོད་མི།"
+
+#: ../data/tomboy.desktop.in.h:2
+msgid "Take notes, link ideas, and stay organized"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:3
+msgid "Create a new Note"
+msgstr "དྲན་འཛིན་གསརཔ་ཅིག་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:4
+msgid "Custom Font Face"
+msgstr "སྲོལ་སྒྲིག་ཡིག་གཟུགས་བཀོད་རྣམ།"
+
+#: ../data/tomboy.schemas.in.h:10
+#, fuzzy
+#| msgid "TrayIcon"
+msgid "Enable Tray Icon"
+msgstr "ཤོག་སྣོད་ངོས་དཔར་"
+
+#: ../data/tomboy.schemas.in.h:11
+msgid "Enable WikiWord highlighting"
+msgstr "ཝི་ཀི་ཝོཌི་ གཙོ་དམིགས་འབད་ནི་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:14
+msgid "Enable custom font"
+msgstr "སྲོལ་སྒྲིག་ཡིག་གཟུགས་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:15
+msgid "Enable global keybindings"
+msgstr "སྤྱི་ཁྱབ་ཀི་བའིན་ཌིང་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:16
+msgid "Enable spellchecking"
+msgstr "སྡེབ་དཔྱད་ལྕོགས་ཅན་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:17
+#, fuzzy
+#| msgid "Enable custom font"
+msgid "Enable startup notes"
+msgstr "སྲོལ་སྒྲིག་ཡིག་གཟུགས་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:21
+msgid ""
+"Enable this option to highlight words ThatLookLikeThis. Clicking the word "
+"will create a note with that name."
+msgstr ""
+"འདི་བཟུམ་མཐོང་མི་ མིང་ཚིག་ཚུ་ལུ་ གཙོ་དམིགས་འབད་ནི་ལུ་ གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ། མིང་ཚིག་དེ་ལུ་ ཨེབ་"
+"གཏང་འབདཝ་ད་ མིང་གེ་དེ་ཡོད་པའི་ དྲན་འཛིན་ཅིག་གསརཔ་བཟོཝ་ཨིན།"
+
+#: ../data/tomboy.schemas.in.h:23
+msgid "HTML Export All Linked Notes"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་ འབྲེལ་ཡོད་དྲན་འཛིན་ཆ་མཉམ་"
+
+#: ../data/tomboy.schemas.in.h:24
+msgid "HTML Export Linked Notes"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་འབྲེལ་ལམ་ཅན་གྱི་དྲན་འཛིན།"
+
+#: ../data/tomboy.schemas.in.h:26
+msgid ""
+"If enable_custom_font is true, the font name set here will be used as the "
+"font when displaying notes."
+msgstr ""
+"ལྕོགས་ཅན་སྲོལ་སྒྲིག་ཡིག་གཟུགས་དེ་ བདེན་པ་ཨིན་པ་ཅིན་ དྲན་འཛིན་བཀྲམ་སྟོན་འབད་བའི་སྐབས་ ནཱ་ལུ་གཞི་སྒྲིག་"
+"འབད་མི་ཡིག་གཟུགས་དེ་ ལག་ལེན་འཐབ་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:30
+msgid ""
+"If true, misspellings will be underlined in red, and correct spelling "
+"suggestions shown in the right-click menu."
+msgstr ""
+"བདེན་པ་ཨིན་པ་ཅིན་ ཡིག་སྡེབ་འཛོལ་མི་ཚུ་ལུ་ འོག་ཐིག་དམརཔོ་བརྐྱབ་ནི་དང་ ཡིག་སྡེབ་བདེན་པ་གི་བསམ་འཆར་"
+"ཚུ་ གཡས་ཀྱི་ཨེབ་གཏང་དཀར་ཆག་ནང་སྟོནམ་ཨིན།"
+
+#: ../data/tomboy.schemas.in.h:31
+msgid ""
+"If true, the desktop-global keybindings set in /apps/tomboy/"
+"global_keybindings will be enabled, allowing for useful Tomboy actions to be "
+"available from any application."
+msgstr ""
+"བདེན་པ་ཨིན་པ་ཅིན་ /ཨེ་པི་པི་ཨེསི་/ཊོམ་བོ་ཡེ་/ཡོངས་ཁྱབ་_ཀི་བའིན་ཌིངསི་ནང་ གཞི་སྒྲིག་འབད་མི་ ཌེཀསི་ཊོཔ་"
+"ཡོངས་ཁྱབ་ཀི་བའིན་ཌིངསི་དེ་ ལྕོགས་ཅན་བཟོ་སྟེ་ གློག་རིམ་ག་ཅིའི་ནང་ལས་ཡང་ ཕན་ཐོགས་ཅན་གྱི་ ཊོམ་བོ་ཡེ་གི་"
+"བྱ་བ་ཚུ་ འབད་བཅུགཔ་ཨིན།"
+
+#: ../data/tomboy.schemas.in.h:32
+msgid ""
+"If true, the font name set in custom_font_face will be used as the font when "
+"displaying notes. Otherwise the desktop default font will be used."
+msgstr ""
+"བདེན་པ་ཨིན་པ་ཅིན་ དྲན་འཛིན་ཚུ་བཀྲམ་སྟོན་འབད་བའི་སྐབས་ལུ་ སྲོལ་སྒྲིག་ཡིག་གཟུགས་བཀོད་རྣམ་ནང་ གཞི་སྒྲིག་"
+"འབད་མི་ ཡིག་གཟུགས་ཀྱི་མིང་དེ་ ལག་ལེན་འཐབ་ནི་ཨིན། དེ་མེན་པ་ཅིན་ཌེཀསི་ཊོཔ་གི་སྔོན་སྒྲིག་ཡིག་གཟུགས་དེ་ "
+"ལག་ལེན་འཐབ་ནི་ཨིན།"
+
+#: ../data/tomboy.schemas.in.h:33
+msgid ""
+"Indicates that the Sticky Note Importer plugin has not been run, so it "
+"should run automatically the next time Tomboy starts."
+msgstr ""
+"སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ནང་འདྲེན་པ་དེ་ གཡོག་མ་བཀོལ་བའི་ བརྡ་མཚོན་སྟོནམ་ཨིནམ་ལས་ ཤུལ་མ་ཊོམ་བོ་ཡེ་ "
+"འགོ་བཙུགསཔ་ད་ འདི་རང་བཞིན་གྱིས་ གཡོག་བཀོལ་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:34
+msgid ""
+"Integer determining the minimum number of notes to show in the Tomboy note "
+"menu."
+msgstr ""
+"ཊོམ་བོ་ཡེ་དྲན་འཛིན་དཀར་ཆག་དེ་ནང་ སྟོན་ནིའི་དོན་ལས་ དྲན་འཛིན་ཚུ་གི་ ཉུང་མཐའ་གྲངས་འདི་ གཏན་འབེབས་"
+"བཟོ་ཐོག་ ཧྲིལ་གྲངས་བཟོ།"
+
+#: ../data/tomboy.schemas.in.h:40
+msgid "List of pinned notes."
+msgstr "ངོ་རྟགས་ཨང་བཟོ་ཡོད་པའི་དྲན་འཛིན་ཚུ་གི་ཐོ་ཡིག"
+
+#: ../data/tomboy.schemas.in.h:42
+#, fuzzy
+#| msgid "Minimum number of notes to show in menu"
+msgid "Maximum note title length to show in tray menu."
+msgstr "དཀར་ཆག་ནང་སྟོན་ནིའི་དོན་ལས་ དྲན་འཛིན་ཚུ་གི་ ཉུང་མཐའ་གྲངས་"
+
+#: ../data/tomboy.schemas.in.h:43
+msgid "Minimum number of notes to show in menu"
+msgstr "དཀར་ཆག་ནང་སྟོན་ནིའི་དོན་ལས་ དྲན་འཛིན་ཚུ་གི་ ཉུང་མཐའ་གྲངས་"
+
+#: ../data/tomboy.schemas.in.h:45
+msgid "Open Recent Changes"
+msgstr "འཕྲལ་གྱི་བསྒྱུར་བཅོས་ཚུ་ཁ་ཕྱེ།"
+
+#: ../data/tomboy.schemas.in.h:46
+msgid "Open Search Dialog"
+msgstr "འཚོལ་ཞིབ་ཌའི་ལོག་ཁ་ཕྱེ།"
+
+#: ../data/tomboy.schemas.in.h:47
+msgid "Open Start Here"
+msgstr "ནཱ་ལུ་འགོ་བཙུགས་ཟེར་མི་ཁ་ཕྱེ།"
+
+#: ../data/tomboy.schemas.in.h:54
+#, fuzzy
+#| msgid "Open the Search All Notes window"
+msgid "Saved height of \"Search All Notes\" window"
+msgstr "དྲན་འཛིན་མ་ཉམ་འཚོལ་ཞིབ་འབད་འདི་ ཁ་ཕྱེ་"
+
+#: ../data/tomboy.schemas.in.h:55
+#, fuzzy
+#| msgid "Open the Search All Notes window"
+msgid "Saved horizontal position of \"Search All Notes\" window"
+msgstr "དྲན་འཛིན་མ་ཉམ་འཚོལ་ཞིབ་འབད་འདི་ ཁ་ཕྱེ་"
+
+#: ../data/tomboy.schemas.in.h:56
+#, fuzzy
+#| msgid "Open the Search All Notes window"
+msgid "Saved vertical position of \"Search All Notes\" window"
+msgstr "དྲན་འཛིན་མ་ཉམ་འཚོལ་ཞིབ་འབད་འདི་ ཁ་ཕྱེ་"
+
+#: ../data/tomboy.schemas.in.h:57
+#, fuzzy
+#| msgid "Open the Search All Notes window"
+msgid "Saved width of \"Search All Notes\" window"
+msgstr "དྲན་འཛིན་མ་ཉམ་འཚོལ་ཞིབ་འབད་འདི་ ཁ་ཕྱེ་"
+
+#: ../data/tomboy.schemas.in.h:59
+msgid "Set to TRUE to activate"
+msgstr "ཤུགས་ལྡན་བཟོ་ནི་ལུ་ བདེན་པ་གུ་གཞི་སྒྲིག་འབད།"
+
+#: ../data/tomboy.schemas.in.h:60
+msgid "Show applet menu"
+msgstr "ཨེཔ་ལེཊི་དཀར་ཆག་སྟོན།"
+
+#: ../data/tomboy.schemas.in.h:61
+msgid "Start Here Note"
+msgstr "ནཱ་ལུ་འགོ་བཙུགས་དྲན་འཛིན་"
+
+#: ../data/tomboy.schemas.in.h:62
+msgid "Sticky Note Importer First Run"
+msgstr "རྩི་ཅན་དྲན་འཛིན་ ནང་འདྲེན་པ་ ཐེངས་དང་པར་གཡོག་བཀོལ་བ།"
+
+#: ../data/tomboy.schemas.in.h:66
+msgid ""
+"The global keybinding for creating and displaying a new Note. The format "
+"looks like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The "
+"parser is fairly liberal and allows lower or upper case, and also "
+"abbreviations such as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the "
+"option to the special string \"disabled\", then there will be no keybinding "
+"for this action."
+msgstr ""
+"དྲན་འཛིན་གསར་བསྐྲུན་འབད་ནི་དང་ བཀྲམ་སྟོན་འབད་ནིའི་དོནལུ་ ཡོངས་ཁྱབ་ཀི་བའིན་ཌིང་། རྩ་སྒྲིག་དེ་ \"&lt;"
+"Control&gt;a\" ཡང་ན་ \"&lt;Shift&gt;&lt;Alt&gt;F1\" བཟུམ་མཐོངམ་ཨིན། མིང་དཔྱོདཔ་དེ་ "
+"སྒོ་ཡངས་པ་སྦེ་ ཆེ་ཡིག་དང་ཆུང་ཡིག་ དེ་ལས་སྡུད་ཚིག་དཔེར་ན་ \"&lt;Ctl&gt;\" དང་ \"&lt;"
+"Ctrl&gt;\"ཚུ་ཡང་ཆོགཔ་ཨིན། ཁྱོད་ཀྱིས་གདམ་ཁ་དེ་དམིགས་བསལ་ཡིག་རྒྱུན་ \"disabled\" ལུ་གཞི་སྒྲིག་"
+"འབད་བ་ཅིན་ བྱ བ་འདི་གི་དོན་ལུ་ ཀི་བའིན་ཌིང་མི་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:67
+msgid ""
+"The global keybinding for opening the \"Start Here\" note. The format looks "
+"like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
+"fairly liberal and allows lower or upper case, and also abbreviations such "
+"as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the option to the "
+"special string \"disabled\", then there will be no keybinding for this "
+"action."
+msgstr ""
+"དྲན་འཛིན་\"Start Here\" ཁ་ཕྱེ་ནིའི་དོནལུ་ ཡོངས་ཁྱབ་ཀི་བའིན་ཌིང་། རྩ་སྒྲིག་དེ་ \"&lt;Control&gt;"
+"a\" ཡང་ན་ \"&lt;Shift&gt;&lt;Alt&gt;F1\" བཟུམ་མཐོངམ་ཨིན། མིང་དཔྱོདཔ་དེ་ སྒོ་ཡངས་པ་སྦེ་ "
+"ཆེ་ཡིག་དང་ཆུང་ཡིག་ དེ་ལས་སྡུད་ཚིག་དཔེར་ན་ \"&lt;Ctl&gt;\" དང་ \"&lt;Ctrl&gt;\"ཚུ་ཡང་"
+"ཆོགཔ་ཨིན། ཁྱོད་ཀྱིས་གདམ་ཁ་དེ་དམིགས་བསལ་ཡིག་རྒྱུན་ \"disabled\" ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ བྱ བ་འདི་"
+"གི་དོན་ལུ་ ཀི་བའིན་ཌིང་མི་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:68
+msgid ""
+"The global keybinding for opening the Note Search dialog. The format looks "
+"like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
+"fairly liberal and allows lower or upper case, and also abbreviations such "
+"as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the option to the "
+"special string \"disabled\", then there will be no keybinding for this "
+"action."
+msgstr ""
+"དྲན་འཛིན་འཚོལ་ཞིབ་ཌའི་ལོག་ ཁ་ཕྱེ་ནིའི་དོན་ལུ་ ཡོངས་ཁྱབ་ཀི་བའིན་ཌིང་། རྩ་སྒྲིག་དེ་ \"&lt;Control&gt;"
+"a\" ཡང་ན་ \"&lt;Shift&gt;&lt;Alt&gt;F1\" བཟུམ་མཐོངམ་ཨིན། མིང་དཔྱོདཔ་དེ་ སྒོ་ཡངས་པ་སྦེ་ "
+"ཆེ་ཡིག་དང་ཆུང་ཡིག་ དེ་ལས་སྡུད་ཚིག་དཔེར་ན་ \"&lt;Ctl&gt;\" དང་ \"&lt;Ctrl&gt;\"ཚུ་ཡང་"
+"ཆོགཔ་ཨིན། ཁྱོད་ཀྱིས་གདམ་ཁ་དེ་དམིགས་བསལ་ཡིག་རྒྱུན་ \"disabled\" ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ བྱ བ་འདི་"
+"གི་དོན་ལུ་ ཀི་བའིན་ཌིང་མི་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:69
+msgid ""
+"The global keybinding for opening the Recent Changes dialog. The format "
+"looks like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The "
+"parser is fairly liberal and allows lower or upper case, and also "
+"abbreviations such as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the "
+"option to the special string \"disabled\", then there will be no keybinding "
+"for this action."
+msgstr ""
+"འཕྲལ་གྱི་བསྒྱུར་བཅོས་ཌའི་ལོག་ ཁ་ཕྱེ་ནིའི་དོནལུ་ ཡོངས་ཁྱབ་ཀི་བའིན་ཌིང་། རྩ་སྒྲིག་དེ་ \"&lt;Control&gt;a"
+"\" ཡང་ན་ \"&lt;Shift&gt;&lt;Alt&gt;F1\" བཟུམ་མཐོངམ་ཨིན། མིང་དཔྱོདཔ་དེ་ སྒོ་ཡངས་པ་སྦེ་ ཆེ་"
+"ཡིག་དང་ཆུང་ཡིག་ དེ་ལས་སྡུད་ཚིག་དཔེར་ན་ \"&lt;Ctl&gt;\" དང་ \"&lt;Ctrl&gt;\"ཚུ་ཡང་ཆོགཔ་"
+"ཨིན། ཁྱོད་ཀྱིས་གདམ་ཁ་དེ་དམིགས་བསལ་ཡིག་རྒྱུན་ \"disabled\" ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ བྱ བ་འདི་གི་དོན་"
+"ལུ་ ཀི་བའིན་ཌིང་མི་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:70
+msgid ""
+"The global keybinding for showing the Tomboy applet's menu. The format looks "
+"like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
+"fairly liberal and allows lower or upper case, and also abbreviations such "
+"as \"&lt;Ctl&gt;\" and \"&lt;Ctrl&gt;\". If you set the option to the "
+"special string \"disabled\", then there will be no keybinding for this "
+"action."
+msgstr ""
+"ཊོམ་བོ་ཡེ་ ཨེབ་ལེཊི་དཀར་ཆག་སྟོན་ནིའི་དོནལུ་ ཡོངས་ཁྱབ་ཀི་བའིན་ཌིང་། རྩ་སྒྲིག་དེ་ \"&lt;Control&gt;a"
+"\" ཡང་ན་ \"&lt;Shift&gt;&lt;Alt&gt;F1\" བཟུམ་མཐོངམ་ཨིན། མིང་དཔྱོདཔ་དེ་ སྒོ་ཡངས་པ་སྦེ་ ཆེ་"
+"ཡིག་དང་ཆུང་ཡིག་ དེ་ལས་སྡུད་ཚིག་དཔེར་ན་ \"&lt;Ctl&gt;\" དང་ \"&lt;Ctrl&gt;\"ཚུ་ཡང་ཆོགཔ་"
+"ཨིན། ཁྱོད་ཀྱིས་གདམ་ཁ་དེ་དམིགས་བསལ་ཡིག་རྒྱུན་ \"disabled\" ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ བྱ བ་འདི་གི་དོན་"
+"ལུ་ ཀི་བའིན་ཌིང་མི་འོང་།"
+
+#: ../data/tomboy.schemas.in.h:71
+msgid "The handler for \"note://\" URLs"
+msgstr "\"note://\" ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་མི།"
+
+#: ../data/tomboy.schemas.in.h:72
+msgid ""
+"The last directory a note was exported to using the Export To HTML plugin."
+msgstr ""
+"ཨེཆ་ཊི་ཨེམ་ཨེལ་ པ་ལག་ཨིན་ལག་ལེན་འཐབ་ཐོག་ལས་ དྲན་འཛིན་ཅིག་ཕྱིར་འདྲེན་འབད་ཡོད་མི་ མཐའ་མཇུག་གི་སྣོད་"
+"ཐོ།"
+
+#: ../data/tomboy.schemas.in.h:73
+msgid ""
+"The last setting for the 'Export linked notes' checkbox in the Export to "
+"HTML plugin."
+msgstr ""
+"ཨེཆ་ཊི་ཨེམ་ཨེལ་ པ་ལག་ཨིན་ལུ་ ཕྱིར་འདྲེན་ནང་གི་ཞིབ་དཔྱད་སྒྲོམ་གྱི་ 'འབྲེལ་བ་ཅན་གྱི་དྲན་འཛིན་ཕྱིར་འདྲེན་"
+"འབད' ཟེར་མིའི་དོན་ལུ་ མཐའ་མཇུག་གི་སྒྲིག་སྟངས།"
+
+#: ../data/tomboy.schemas.in.h:74
+msgid ""
+"The last setting for the 'Include all other linked notes' checkbox in the "
+"Export to HTML plugin. This setting is used in conjunction with the 'HTML "
+"Export Linked Notes' setting and is used to specify whether all notes (found "
+"recursively) should be included during an export to HTML."
+msgstr ""
+"ཨེཆ་ཊི་ཨེམ་ཨེལ་པ་ལག་ཨིན་ལུ་ ཕྱིར་འདྲེན་ནང་གི་ 'འབྲེལ་ཡོད་དྲན་འཛིན་གཞན་མི་ཚུ་ཆ་མཉམ་གྲངས་སུ་བཙུགས་' "
+"འདི་གི་དོན་ལུ་ སྒྲིག་སྟངས་མཇུག  འ་ནི་སྒྲིག་སྟངས་འདི་ 'ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་འབྲེལ་ཡོད་དྲན་འཛིན་གྱི་' "
+"སྒྲིག་སྟངས་དང་གཅིག་ཁར་ འབྲེལ་བ་ཡོདཔ་སྦེ་ལག་ལེན་འཐབ་ཡོད་ དེ་ལས་ ཡང་ཅིན་དྲན་འཛིན་ཆ་མཉམ་(ལོག་རིམ་"
+"སྦེ་འཐོབ་མི་) ཨེཆ་ཊི་ཨེམ་ཨེལ་ལུ་ ཕྱིར་འདྲེན་ཅིག་འབད་བའི་སྐབས་ གྲངས་སུ་བཙུགས་དགོཔ་ཨིན་མེན་གསལ་བཀོད་"
+"འབད་ནིའི་དོན་ལས་ ལག་ལེན་འཐབ་ཡོད།"
+
+#: ../data/tomboy.schemas.in.h:75
+msgid ""
+"The note URI of the note that should be considered the \"Start Here\" note, "
+"which is always placed at the bottom of the Tomboy note menu and also "
+"accessible by hotkey."
+msgstr ""
+"མགྱོགས་ལྡེ་གིས་འཛུལསྤྱོད་ཡང་འབད་བཏུབ་དང་ ཊོམ་བོ་ཡེ་དྲན་འཛིན་དཀར་ཆག་འདི་གི་ མཇུག་ལུ་ཨ་རྟག་རང་བཞག་"
+"ཡོད་མི་  \"Start Here\" དྲན་འཛིན་སྦེ་ཆ་འཇོག་འབད་དགོ་མི་ དྲན་འཛིན་འདི་གི་ དྲན་འཛིན་ཡུ་ཨར་ཨའི།"
+
+#: ../data/tomboy.schemas.in.h:84
+msgid ""
+"Whitespace-separated list of note URIs for notes that should always appear "
+"in the Tomboy note menu."
+msgstr ""
+"ཊོམ་བོ་ཡེ་དྲན་འཛིན་དཀར་ཆག་དེ་ནང་ ཨ་རྟག་རང་འབྱུང་དགོ་མི་ དྲན་འཛིན་ཚུ་གི་དོན་ལུ་ དྲན་འཛིན་ཡུ་ཨར་ཨའི་"
+"ཚུ་གི་ བར་སྟོང་དཀརཔོ་-སོ་སོ་འཕྱལ་འཕྱལ་བའི་ཐོ་ཡིག"
+
+#: ../Tomboy/ActionManager.cs:127
+msgid "_File"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#: ../Tomboy/ActionManager.cs:130
+msgid "_New"
+msgstr "གསརཔ་(_N)"
+
+#: ../Tomboy/ActionManager.cs:131 ../Tomboy/ActionManager.cs:172
+msgid "Create a new note"
+msgstr "དྲན་འཛིན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../Tomboy/ActionManager.cs:134
+msgid "_Open..."
+msgstr "ཁ་ཕྱེ་...(_O)"
+
+#: ../Tomboy/ActionManager.cs:135
+msgid "Open the selected note"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དྲན་འཛིན་དེ་ཁ་ཕྱེ་"
+
+#: ../Tomboy/ActionManager.cs:138
+msgid "_Delete"
+msgstr "བཏོན་གཏང་(_D)"
+
+#: ../Tomboy/ActionManager.cs:139
+msgid "Delete the selected note"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དྲན་འཛིན་འདི་བཏོན་གཏང་"
+
+#: ../Tomboy/ActionManager.cs:142 ../Tomboy/NoteWindow.cs:411
+msgid "_Close"
+msgstr "ཁ་བསྡམས།(_C)"
+
+#: ../Tomboy/ActionManager.cs:143
+msgid "Close this window"
+msgstr "སྒོ་སྒྲིག་དེ་ཁ་བསྡམ་"
+
+#: ../Tomboy/ActionManager.cs:146 ../Tomboy/Tray.cs:300
+msgid "_Quit"
+msgstr "སྤངས།(_Q)"
+
+#: ../Tomboy/ActionManager.cs:147
+msgid "Quit Tomboy"
+msgstr "ཊོམ་བོ་ཡེ་སྤང་"
+
+#: ../Tomboy/ActionManager.cs:150
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../Tomboy/ActionManager.cs:154 ../Tomboy/PreferencesDialog.cs:65
+msgid "Tomboy Preferences"
+msgstr "ཊོམ་བོ་ཡེ་དགའ་གདམ་ཚུ།"
+
+#: ../Tomboy/ActionManager.cs:160
+msgid "_Contents"
+msgstr "ནང་དོན་(_C)"
+
+#: ../Tomboy/ActionManager.cs:161
+msgid "Tomboy Help"
+msgstr "ཊོམ་བོ་ཡེ་གྲོགས་རམ་"
+
+#: ../Tomboy/ActionManager.cs:165 ../Tomboy/MacApplication.cs:233
+msgid "About Tomboy"
+msgstr "ཊོམ་བོ་ཡེ་སྐོར་ལས་"
+
+#: ../Tomboy/ActionManager.cs:168
+msgid "TrayIcon"
+msgstr "ཤོག་སྣོད་ངོས་དཔར་"
+
+#: ../Tomboy/ActionManager.cs:171
+msgid "Create _New Note"
+msgstr "དྲན་འཛིན་གསརཔ་བཟོ།(_N)"
+
+#: ../Tomboy/ActionManager.cs:175 ../Tomboy/NoteWindow.cs:354
+msgid "_Search All Notes"
+msgstr "དྲན་འཛིན་ཆ་མཉམ་འཚོལ་ཞིབ་འབད་(_S)"
+
+#: ../Tomboy/ActionManager.cs:176
+msgid "Open the Search All Notes window"
+msgstr "དྲན་འཛིན་མ་ཉམ་འཚོལ་ཞིབ་འབད་འདི་ ཁ་ཕྱེ་"
+
+#: ../Tomboy/ActionManager.cs:180
+msgid "Start synchronizing notes"
+msgstr ""
+
+#. Addin's tab caption
+#: ../Tomboy/Addins/AdvancedPreferences/AdvancedPreferencesAddin.cs:38
+msgid "Advanced"
+msgstr ""
+
+#. Menu Note Count option
+#: ../Tomboy/Addins/AdvancedPreferences/AdvancedPreferencesAddin.cs:56
+#, fuzzy
+#| msgid "Minimum number of notes to show in menu"
+msgid "Minimum number of notes to show in Recent list (maximum 18)"
+msgstr "དཀར་ཆག་ནང་སྟོན་ནིའི་དོན་ལས་ དྲན་འཛིན་ཚུ་གི་ ཉུང་མཐའ་གྲངས་"
+
+#: ../Tomboy/Addins/Backlinks/BacklinksNoteAddin.cs:38
+msgid "What links here?"
+msgstr "ནཱ་ལུ་འབྲེལ་ལམ་ག་ཅི་ཡོད?"
+
+#. This is a disabled placeholder item for an empty menu
+#: ../Tomboy/Addins/Backlinks/BacklinksNoteAddin.cs:85
+msgid "(none)"
+msgstr "(ཅི་མེད་)"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:23
+msgid ""
+"You can use any bugzilla just by dragging links into notes.  If you want a "
+"special icon for certain hosts, add them here."
+msgstr ""
+"ཁྱོད་ཀྱིས་བག་ཛིལ་ལ་གང་རུང་དྲན་འཛིན་ནང་འདྲུད་ནི་གི་འབྲེལ་ལམ་གྱི་ལག་ལེན་འཐབ། གལ་སྲིད་ཁྱོད་ངེས་ཅན་ཧོསོ་"
+"ཊི་དམིགས་གསལ་གྱི་དངོས་པར་་དགོ་པ་ཅིན་ དེ་ཚུ་ན་ལུ་ཁ་སྐོང་རྐྱབས།"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:41
+msgid "Host Name"
+msgstr "ཧོསིཊི་ནེམ་"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:58
+msgid "Icon"
+msgstr "ངོས་དཔར་"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:176
+msgid "Select an icon..."
+msgstr "ངོས་དཔར་ཅིག་སེལ་འཐུ་འབད་..."
+
+#. Extra Widget
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:191
+msgid "_Host name:"
+msgstr "ཧོསིཊི་ནེམ་:(_H)"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:220
+msgid "No host name specified"
+msgstr "ཧོསིཊི་ནེམ་གསལ་བཀོད་འབདཝ་མིན་འདུག"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:221
+msgid "You must specify the Bugzilla host name to use with this icon."
+msgstr ""
+"ཁྱོད་ཀྱིས་ བག་ཛིལ་ལ་ཧོསིཊི་ནེམ་འདི་ འ་ནི་ངོས་དཔར་དང་གཅིག་ཁར་ ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ གསལ་བཀོད་"
+"འབད་དགོ"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:247
+msgid "Error saving icon"
+msgstr "ངོས་དཔར་སྲུང་བཞག་འབད་བའི་སྐབས་འཛོལ་བ་"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:248
+#, fuzzy
+#| msgid "Could not save the icon file.  "
+msgid "Could not save the icon file."
+msgstr "ངོས་དཔར་ཡིག་སྣོད་འདི་སྲུང་བཞག་འབད་མ་ཚུགས།"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:302
+msgid "Really remove this icon?"
+msgstr "ངོས་དཔར་འདི་ ཐད་རི་འབའ་རི་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: ../Tomboy/Addins/Bugzilla/BugzillaPreferences.cs:303
+msgid "If you remove an icon it is permanently lost."
+msgstr "ཁྱོད་ཀྱིས་ངོས་དཔར་ཅིག་ རྩ་བསྐྲད་གཏང་པ་ཅིན་ དེ་རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཤོརཝ་ཨིན།"
+
+#: ../Tomboy/Addins/Evolution/EvolutionNoteAddin.cs:273
+msgid "Cannot open email"
+msgstr "གློག་འཕྲིན་ཁ་ཕྱེ་མི་ཚུགས་པས།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlApplicationAddin.cs:59
+msgid "HTML"
+msgstr ""
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlDialog.cs:13
+msgid "Destination for HTML Export"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་འགྲོ་ཡུལ།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlDialog.cs:23
+msgid "Export linked notes"
+msgstr "འབྲེལ་ལམ་ཅན་གྱི་དྲན་འཛིན་ཚུ་ཕྱིར་འདྲེན་འབད།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlDialog.cs:28
+msgid "Include all other linked notes"
+msgstr "འབྲེལ་ཡོད་དྲན་འཛིན་གཞན་མི་ཚུ་ཆ་མཉམ་ གྲངས་སུ་བཙུགས་"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:67
+msgid "Export to HTML"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ལུ་ ཕྱིར་འདྲེན་འབད།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:115
+#, csharp-format
+msgid "Your note was exported to \"{0}\"."
+msgstr "ཁྱོད་དྲན་འཛིན་འདི་  \"{0}\" ལུ་ཕྱིར་འདྲེན་འབད་ཡོད།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:126
+msgid "Note exported successfully"
+msgstr "དྲན་འཛིན་མཐར་འཁྱོལ་ཅན་སྦེ་ཕྱིར་འདྲེན་འབད་ཡོད་"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:132
+#: ../Tomboy/ExportAllApplicationAddin.cs:195
+#: ../Tomboy/ExportAllApplicationAddin.cs:273
+msgid "Access denied."
+msgstr "འཛུལ་སྤྱོད་ཉན་མ་བཏུབ།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:134
+#: ../Tomboy/ExportAllApplicationAddin.cs:200
+#: ../Tomboy/ExportAllApplicationAddin.cs:278
+msgid "Folder does not exist."
+msgstr "སྣོད་འཛིན་དེ་མེད།"
+
+#: ../Tomboy/Addins/ExportToHtml/ExportToHtmlNoteAddin.cs:149
+#, csharp-format
+msgid "Could not save the file \"{0}\""
+msgstr "ཡིག་སྣོད་ \"{0}\" འདི་སྲུང་བཞག་འབད་མ་ཚུགས་"
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:93
+msgid "_Folder Path:"
+msgstr ""
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:100
+msgid "Select Synchronization Folder..."
+msgstr ""
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:127
+msgid "Folder path field is empty."
+msgstr ""
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:136
+msgid ""
+"Specified folder path does not exist, and Tomboy was unable to create it."
+msgstr ""
+
+#: ../Tomboy/Addins/FileSystemSyncService/FileSystemSyncServiceAddin.cs:214
+msgid "Local Folder"
+msgstr ""
+
+#: ../Tomboy/Addins/FixedWidth/FixedWidthMenuItem.cs:13
+#, fuzzy
+#| msgid "_Fixed Width"
+msgid "Fixed Wid_th"
+msgstr "གཏན་བཟོས་རྒྱ་ཚད།(_F)"
+
+#: ../Tomboy/Addins/GalagoPresence/GalagoPresenceNoteAddin.cs:244
+#, csharp-format
+msgid "Cannot contact '{0}'"
+msgstr "'{0}' ལུ་འབྲེལ་བ་འཐབ་མི་ཚུགས་པས།"
+
+#: ../Tomboy/Addins/GalagoPresence/GalagoPresenceNoteAddin.cs:247
+#, csharp-format
+msgid "Error running gaim-remote: {0}"
+msgstr "གེམ་གྱི་ཐག་རིང་: {0} གཡོག་བཀོལ་ནི་ལུ་འཛོལ་བ།"
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampNoteAddin.cs:29
+msgid "Insert Timestamp"
+msgstr ""
+
+#. initial newline
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:29
+#: ../Tomboy/Applet.cs:223 ../Tomboy/Preferences.cs:154
+msgid "dddd, MMMM d, h:mm tt"
+msgstr "dddd, MMMM d, h:mm tt"
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:54
+msgid "Choose one of the predefined formats or use your own."
+msgstr ""
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:62
+msgid "Use _Selected Format"
+msgstr ""
+
+#: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:87
+#, fuzzy
+#| msgid "Use custom _font"
+msgid "_Use Custom Format"
+msgstr "སྲོལ་སྒྲིག་ཡིག་གཟུགས་ལག་ལེན་འཐབ།(_f)"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:10
+msgid "Today: Template"
+msgstr "ད་རིས་ཀྱི: ཊེམ་པེ་ལེཊི་"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:12
+msgid "Today: "
+msgstr "ད་རིས:"
+
+#. Format: "Today: Friday, July 01 2005"
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:17
+msgid "dddd, MMMM d yyyy"
+msgstr "dddd, MMMM d yyyy"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:43
+msgid "Tasks"
+msgstr "ལས་ཀ།"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:44
+msgid "Appointments"
+msgstr "ངོ་འཕྲད།"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDayPreferences.cs:16
+#, fuzzy
+#| msgid ""
+#| "Change the <span weight=\"bold\">Today: Template</span> note to customize "
+#| "the text that new Today notes have."
+msgid ""
+"Change the <b>Today: Template</b> note to customize the text that new Today "
+"notes have."
+msgstr ""
+"ད་རེས<span weight=\"bold\">སོར: ཊེམ་པེ་ལེཊི</span> ད་རེས་ཀྱི་དྲན་འཛིན་ཚུ་ནང་ཡོད་མི་ཚིགས་ཡིག་"
+"འདི་སྲོལ་སྒྲིག་འབད་ནི་ལུ་དྲན་འཛིན།"
+
+#: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDayPreferences.cs:24
+msgid "_Open Today: Template"
+msgstr "ད་རེས་ཁ་ཕྱེ་: ཊེམ་པེ་ལེཊི་"
+
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:52
+msgid "Print"
+msgstr "དཔར་བསྐྲུན་..."
+
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:82
+#, fuzzy
+#| msgid "Error running gaim-remote: {0}"
+msgid "Error printing note"
+msgstr "གེམ་གྱི་ཐག་རིང་: {0} གཡོག་བཀོལ་ནི་ལུ་འཛོལ་བ།"
+
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:223
+#, fuzzy, csharp-format
+#| msgid "Page %N of %Q"
+msgid "Page {0} of {1}"
+msgstr "ཤོག་ལེབ་%N ཤོག་ལེབ་%Qཡོད་ས་ལས།"
+
+#. Translators: Explanation of the date and time format specifications can be found here:
+#. * http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
+#: ../Tomboy/Addins/PrintNotes/PrintNotesNoteAddin.cs:242
+#, fuzzy
+#| msgid "dddd, MMMM d, h:mm tt"
+msgid "dddd MM/dd/yyyy, hh:mm:ss tt"
+msgstr "dddd, MMMM d, h:mm tt"
+
+#. Adding menu item when note is opened and window created
+#: ../Tomboy/Addins/RemoveBrokenLinks/RemoveBrokenLinksAddin.cs:32
+msgid "Remove broken links"
+msgstr ""
+
+#: ../Tomboy/Addins/Sketching/SketchingNoteAddin.cs:19
+msgid "Add a sketch"
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:48
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:59
+msgid "Se_rver:"
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:52
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:61
+#, fuzzy
+#| msgid "File name:"
+msgid "User_name:"
+msgstr "ཡིག་སྣོད་མིང་:"
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:56
+msgid "_Folder Path (optional):"
+msgstr ""
+
+#. Text for label describing setup required for SSH sync addin to work
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:59
+msgid ""
+"SSH synchronization requires an existing SSH key for this server and user, "
+"added to a running SSH daemon."
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:83
+msgid "Server or username field is empty."
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:143
+msgid "SSH"
+msgstr ""
+
+#: ../Tomboy/Addins/SshSyncService/SshSyncServiceAddin.cs:192
+msgid ""
+"Timeout connecting to server. Please ensure that your SSH key has been added "
+"to a running SSH daemon."
+msgstr ""
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:50
+msgid "Import from Sticky Notes"
+msgstr "རྩི་ཅན་དྲན་འཛིན་ནང་ལས་ ནང་འདྲེན་འབད།"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:133
+msgid "No Sticky Notes found"
+msgstr "རྩི་ཅན་དྲན་འཛིན་མ་ཐོབ།"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:134
+#, csharp-format
+msgid "No suitable Sticky Notes file was found at \"{0}\"."
+msgstr "\"{0}\"ལུ་ འོས་འབབ་ཡོད་པའི་ རྩི་ཅན་དྲན་འཛིན་ཡིག་སྣོད་ འཚོལ་མ་ཐོབ།"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:143
+msgid "Sticky Notes import completed"
+msgstr "རྩི་ཅན་དྲན་འཛིན་ ནང་འདྲེན་འབད་ནི་མཇུག་བསྡུ་ཡི།"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:144
+#, fuzzy, csharp-format
+#| msgid "<b>{0}</b> of <b>{1}</b> Sticky Notes were successfully imported."
+msgid "<b>{0}</b> of <b>{1}</b> Sticky Note was successfully imported."
+msgid_plural ""
+"<b>{0}</b> of <b>{1}</b> Sticky Notes were successfully imported."
+msgstr[0] "<b>{0}</b> of <b>{1}</b> རྩི་ཅན་དྲན་འཛིན་ཚུ་ མཐར་འཁྱོལ་ཅན་སྦེ་ ནང་འདྲེན་འབད་ཡི།"
+msgstr[1] "<b>{0}</b> of <b>{1}</b> རྩི་ཅན་དྲན་འཛིན་ཚུ་ མཐར་འཁྱོལ་ཅན་སྦེ་ ནང་འདྲེན་འབད་ཡི།"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:159
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ།"
+
+#: ../Tomboy/Addins/StickyNoteImport/StickyNoteImportNoteAddin.cs:188
+msgid "Sticky Note: "
+msgstr "རྩི་ཅན་དྲན་འཛིན།"
+
+#: ../Tomboy/Addins/Tasque/TasqueNoteAddin.cs:62
+msgid "Tasque"
+msgstr ""
+
+#. Note to translators: "All" here must match up with the "All"
+#. category translation in Tasque for this to work properly.  "All"
+#. is used here to allow Tasque to decide which default category
+#. will be used to create the new task.
+#: ../Tomboy/Addins/Tasque/TasqueNoteAddin.cs:86
+msgid "All"
+msgstr ""
+
+#: ../Tomboy/Addins/Tasque/TasqueNoteAddin.cs:145
+msgid "--- Tasque is not running ---"
+msgstr ""
+
+#: ../Tomboy/Addins/Underline/UnderlineMenuItem.cs:12
+msgid "_Underline"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:56
+msgid "_URL:"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:67
+msgid "_Password:"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:80
+msgid "URL, username, or password field is empty."
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:133
+msgid "WebDAV"
+msgstr ""
+
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:192
+msgid ""
+"There was an error connecting to the server.  This may be caused by using an "
+"incorrect user name and/or password."
+msgstr ""
+
+#. TODO: If the above fails (no keyring daemon), save all but password
+#. to GConf, and notify user.
+#. Save configuration into GConf
+#. Preferences.Set ("/apps/tomboy/sync_wdfs_url", url ?? string.Empty);
+#. Preferences.Set ("/apps/tomboy/sync_wdfs_username", username ?? string.Empty);
+#: ../Tomboy/Addins/WebDavSyncService/WebDavSyncServiceAddin.cs:268
+msgid ""
+"Saving configuration to the GNOME keyring failed with the following message:"
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:66
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:97
+msgid "Connect to Server"
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:68
+msgid "Connected"
+msgstr ""
+
+#. Translators: The web service supporting Tomboy WebSync is not responding as expected
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:126
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:157
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:171
+msgid "Server not responding. Try again later."
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:202
+msgid "Authorization Failed, Try Again"
+msgstr ""
+
+#. Translators: Title of web page presented to user after they authorized Tomboy for sync
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:211
+msgid "Tomboy Web Authorization Successful"
+msgstr ""
+
+#. Translators: Body of web page presented to user after they authorized Tomboy for sync
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:213
+msgid ""
+"Please return to the Tomboy Preferences window and press Save to start "
+"synchronizing."
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:222
+msgid "Connected. Press Save to start synchronizing"
+msgstr ""
+
+#. Translators: The user must take action in their web browser to continue the authorization process
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:228
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:240
+msgid "Authorizing in browser (Press to reset connection)"
+msgstr ""
+
+#. Translators: Sometimes a user's default browser is not set, so we recommend setting it and trying again
+#: ../Tomboy/Addins/WebSyncService/WebSyncPreferencesWidget.cs:236
+msgid "Set the default browser and try again"
+msgstr ""
+
+#: ../Tomboy/Addins/WebSyncService/WebSyncServiceAddin.cs:70
+#, fuzzy
+#| msgid "Tomboy Help"
+msgid "Tomboy Web"
+msgstr "ཊོམ་བོ་ཡེ་གྲོགས་རམ་"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:53
+#, fuzzy, csharp-format
+#| msgid "HTML Export All Linked Notes"
+msgid "Export All Notes to {0}"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་ འབྲེལ་ཡོད་དྲན་འཛིན་ཆ་མཉམ་"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:54
+#, csharp-format
+msgid "Start exporting notes to {0}"
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:58
+#, fuzzy, csharp-format
+#| msgid "Open the selected note"
+msgid "Export selected notebook to {0}"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དྲན་འཛིན་དེ་ཁ་ཕྱེ་"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:59
+#, csharp-format
+msgid "Start exporting notebook to {0}"
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:65
+#: ../Tomboy/Synchronization/SyncManager.cs:161
+#, fuzzy
+#| msgid "T_ools"
+msgid "_Tools"
+msgstr "ལག་ཆས།(_o)"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:68
+#, fuzzy
+#| msgid "Export to HTML"
+msgid "Export"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ལུ་ ཕྱིར་འདྲེན་འབད།"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:69
+#, fuzzy
+#| msgid "Export linked notes"
+msgid "Export your notes."
+msgstr "འབྲེལ་ལམ་ཅན་གྱི་དྲན་འཛིན་ཚུ་ཕྱིར་འདྲེན་འབད།"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:72
+#, fuzzy, csharp-format
+#| msgid "HTML Export All Linked Notes"
+msgid "Export All Notes To {0}"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་ འབྲེལ་ཡོད་དྲན་འཛིན་ཆ་མཉམ་"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:77
+#, csharp-format
+msgid "Export Selected Notebook To {0}"
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:153
+#, csharp-format
+msgid "All Notes {0} Export"
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:193
+#: ../Tomboy/ExportAllApplicationAddin.cs:271
+msgid "Could not export, access denied."
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:198
+#: ../Tomboy/ExportAllApplicationAddin.cs:276
+#, fuzzy
+#| msgid "Folder does not exist."
+msgid "Could not export, folder does not exist."
+msgstr "སྣོད་འཛིན་དེ་མེད།"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:203
+#: ../Tomboy/ExportAllApplicationAddin.cs:281
+#, fuzzy, csharp-format
+#| msgid "Your note was exported to \"{0}\"."
+msgid "Could not export: {0}"
+msgstr "ཁྱོད་དྲན་འཛིན་འདི་  \"{0}\" ལུ་ཕྱིར་འདྲེན་འབད་ཡོད།"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:205
+#: ../Tomboy/ExportAllApplicationAddin.cs:283
+msgid "Unknown error."
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:236
+#: ../Tomboy/Notebooks/Notebook.cs:237
+msgid "Unfiled Notes"
+msgstr ""
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:389
+#, fuzzy, csharp-format
+#| msgid "Your note was exported to \"{0}\"."
+msgid "Your notes were exported to \"{0}\"."
+msgstr "ཁྱོད་དྲན་འཛིན་འདི་  \"{0}\" ལུ་ཕྱིར་འདྲེན་འབད་ཡོད།"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:398
+#, fuzzy
+#| msgid "Note exported successfully"
+msgid "Notes exported successfully"
+msgstr "དྲན་འཛིན་མཐར་འཁྱོལ་ཅན་སྦེ་ཕྱིར་འདྲེན་འབད་ཡོད་"
+
+#: ../Tomboy/ExportAllApplicationAddin.cs:421
+#, fuzzy, csharp-format
+#| msgid "Could not save the file \"{0}\""
+msgid "Could not save the files in \"{0}\""
+msgstr "ཡིག་སྣོད་ \"{0}\" འདི་སྲུང་བཞག་འབད་མ་ཚུགས་"
+
+#. Translators: {0} is the export type, e.g. HTML
+#: ../Tomboy/ExportAllApplicationAddin.cs:507
+#, fuzzy, csharp-format
+#| msgid "Destination for HTML Export"
+msgid "Create destination folder for {0} export"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་འགྲོ་ཡུལ།"
+
+#: ../Tomboy/JumpListManager.cs:96 ../Tomboy/RecentChanges.cs:85
+msgid "Search All Notes"
+msgstr "དྲན་འཛིན་མ་ཉམ་འཚོལ་ཞིབ་འབད།"
+
+#. IShellLink new_notebook = CreateShellLink("New Notebook", topmboy_path, "--new-notebook",
+#. icons_path, (int)TomboyIcons.NewNotebook);
+#. if (new_notebook != null)
+#. object_collection.AddObject(new_notebook);
+#: ../Tomboy/JumpListManager.cs:106
+#, fuzzy
+#| msgid "Create _New Note"
+msgid "Create New Note"
+msgstr "དྲན་འཛིན་གསརཔ་བཟོ།(_N)"
+
+#: ../Tomboy/JumpListManager.cs:136
+#, fuzzy, csharp-format
+#| msgid " (new)"
+msgid "{0} (new)"
+msgstr "(གསརཔ)"
+
+#: ../Tomboy/JumpListManager.cs:158
+#, fuzzy
+#| msgid "Search Note"
+msgid "Recent Notes"
+msgstr "དྲན་འཛིན་འཚོལ་ཞིབ་འབད།"
+
+#. Translators: This is the name of "Window" menu in the Mac menubar
+#: ../Tomboy/MacApplication.cs:215
+#, fuzzy
+#| msgid "_Find:"
+msgid "_Window"
+msgstr "འཚོལ་:(F)"
+
+#: ../Tomboy/MacApplication.cs:234
+#, fuzzy
+#| msgid "_Preferences"
+msgid "Preferences..."
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:24
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:53
+#, fuzzy
+#| msgid "Create a new note"
+msgid "Create a new notebook"
+msgstr "དྲན་འཛིན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:25
+msgid "Type the name of the notebook you'd like to create."
+msgstr ""
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:31
+#, fuzzy
+#| msgid "_Host name:"
+msgid "N_otebook name:"
+msgstr "ཧོསིཊི་ནེམ་:(_H)"
+
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:45
+#, fuzzy
+#| msgid "Note title taken"
+msgid "Name already taken"
+msgstr "དྲན་འཛིན་གྱི་མགོ་མིང་བྲིས་ཡོད།"
+
+#. Translation note: This is the Create button in the Create
+#. New Note Dialog.
+#: ../Tomboy/Notebooks/CreateNotebookDialog.cs:59
+msgid "C_reate"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:48
+msgid "Note_books"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:49
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:69
+#, fuzzy
+#| msgid "Create a new note"
+msgid "Create a new note in a notebook"
+msgstr "དྲན་འཛིན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:52
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:223
+msgid "New Note_book..."
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:56
+#, fuzzy
+#| msgid "New Note {0}"
+msgid "_New Note"
+msgstr "དྲན་འཛིན་གསརཔ། {0}"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:57
+#, fuzzy
+#| msgid "Create a new note"
+msgid "Create a new note in this notebook"
+msgstr "དྲན་འཛིན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:60
+#, fuzzy
+#| msgid "_Open Today: Template"
+msgid "_Open Template Note"
+msgstr "ད་རེས་ཁ་ཕྱེ་: ཊེམ་པེ་ལེཊི་"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:61
+#, fuzzy
+#| msgid "Open the selected note"
+msgid "Open this notebook's template note"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དྲན་འཛིན་དེ་ཁ་ཕྱེ་"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:64
+#, fuzzy
+#| msgid "Delete this note"
+msgid "Delete Note_book"
+msgstr "དྲན་འཛིན་འདི་བཏོན་གཏང་།"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:65
+#, fuzzy
+#| msgid "Delete the selected note"
+msgid "Delete the selected notebook"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དྲན་འཛིན་འདི་བཏོན་གཏང་"
+
+#: ../Tomboy/Notebooks/NotebookApplicationAddin.cs:68
+#: ../Tomboy/RecentChanges.cs:276
+#, fuzzy
+#| msgid "Note"
+msgid "Notebooks"
+msgstr "དྲན་འཛིན།"
+
+#. The templateNoteTite should show the name of the
+#. notebook.  For example, if the name of the notebooks
+#. "Meetings", the templateNoteTitle should be "Meetings
+#. Notebook Template".  Translators should place the
+#. name of the notebook accordingly using "{0}".
+#. TODO: Figure out how to make this note for
+#. translators appear properly.
+#: ../Tomboy/Notebooks/Notebook.cs:79
+#, csharp-format
+msgid "{0} Notebook Template"
+msgstr ""
+
+#: ../Tomboy/Notebooks/Notebook.cs:153
+#, fuzzy
+#| msgid "New Note {0}"
+msgid "New Note"
+msgstr "དྲན་འཛིན་གསརཔ། {0}"
+
+#: ../Tomboy/Notebooks/Notebook.cs:205
+#, fuzzy
+#| msgid "Clos_e All Notes"
+msgid "All Notes"
+msgstr "དྲན་འཛིན་ཆ་མཉམ་ཁ་བསྡམས།(_e)"
+
+#: ../Tomboy/Notebooks/NotebookManager.cs:367
+#, fuzzy
+#| msgid "Really delete this note?"
+msgid "Really delete this notebook?"
+msgstr "དྲན་འཛིན་འདི་ ངེས་པར་དུ་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../Tomboy/Notebooks/NotebookManager.cs:369
+msgid ""
+"The notes that belong to this notebook will not be deleted, but they will no "
+"longer be associated with this notebook.  This action cannot be undone."
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookMenuItem.cs:14
+msgid "No notebook"
+msgstr ""
+
+#. Translators should preserve the "{0}" in the following
+#. string.  After being formatted for a notebook named,
+#. "Meetings", for example, the resultant string would be:
+#. New "Meetings" Note
+#: ../Tomboy/Notebooks/NotebookNewNoteMenuItem.cs:27
+#, fuzzy, csharp-format
+#| msgid "New Note {0}"
+msgid "New \"{0}\" Note"
+msgstr "དྲན་འཛིན་གསརཔ། {0}"
+
+#: ../Tomboy/Notebooks/NotebookNoteAddin.cs:56
+msgid "Place this note into a notebook"
+msgstr ""
+
+#: ../Tomboy/Notebooks/NotebookNoteAddin.cs:148
+#, fuzzy
+#| msgid "Note"
+msgid "Notebook"
+msgstr "དྲན་འཛིན།"
+
+#: ../Tomboy/Notebooks/NotebookNoteAddin.cs:177
+msgid "_New notebook..."
+msgstr ""
+
+#: ../Tomboy/Note.cs:515 ../Tomboy/NoteManager.cs:475
+#, csharp-format
+msgid "New Note {0}"
+msgstr "དྲན་འཛིན་གསརཔ། {0}"
+
+#: ../Tomboy/Note.cs:1607
+#, fuzzy, csharp-format
+#| msgid "Really delete this note?"
+msgid "Really delete \"{0}\"?"
+msgstr "དྲན་འཛིན་འདི་ ངེས་པར་དུ་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../Tomboy/Note.cs:1610
+#, fuzzy, csharp-format
+#| msgid "Really delete this note?"
+msgid "Really delete this {0} note?"
+msgid_plural "Really delete these {0} notes?"
+msgstr[0] "དྲན་འཛིན་འདི་ ངེས་པར་དུ་བཏོན་གཏང་ནི་ཨིན་ན?"
+msgstr[1] "དྲན་འཛིན་འདི་ ངེས་པར་དུ་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../Tomboy/Note.cs:1621
+msgid "If you delete a note it is permanently lost."
+msgstr "ཁྱོད་ཀྱིས་དྲན་འཛིན་ཅིག་ བཏོན་གཏང་པ་ཅིན་ དེ་རྟག་བརྟན་སྦེ་ བརླག་སྟོར་ཤོརཝ་ཨིན།"
+
+#: ../Tomboy/Note.cs:1655
+#, csharp-format
+msgid ""
+"An error occurred while saving your notes. Please check that you have "
+"sufficient disk space, and that you have appropriate rights on {0}. Error "
+"details can be found in {1}."
+msgstr ""
+
+#: ../Tomboy/Note.cs:1671
+#, fuzzy
+#| msgid "Error saving icon"
+msgid "Error saving note data."
+msgstr "ངོས་དཔར་སྲུང་བཞག་འབད་བའི་སྐབས་འཛོལ་བ་"
+
+#. New Note Template
+#. Translators: This is 'New Note' Template, not New 'Note Template'
+#: ../Tomboy/NoteManager.cs:21 ../Tomboy/PreferencesDialog.cs:257
+#, fuzzy
+#| msgid "_Open Today: Template"
+msgid "New Note Template"
+msgstr "ད་རེས་ཁ་ཕྱེ་: ཊེམ་པེ་ལེཊི་"
+
+#. Create migration notification note
+#. Translators: The title of the data migration note
+#: ../Tomboy/NoteManager.cs:147
+msgid "Your Notes Have Moved!"
+msgstr ""
+
+#. Translators: The contents (not including the title) of the data migration note. {0}, {1}, {2}, {3}, and {4} are replaced by directory paths and should not be changed
+#: ../Tomboy/NoteManager.cs:160
+#, csharp-format
+msgid ""
+"In the latest version of Tomboy, your note files have moved.  You have "
+"probably never cared where your notes are stored, and if you still don't "
+"care, please go ahead and <bold>delete this note</bold>.  :-)\n"
+"\n"
+"Your old note directory is still safe and sound at <link:url>{0}</link:"
+"url> . If you go back to an older version of Tomboy, it will look for notes "
+"there.\n"
+"\n"
+"But we've copied your notes and configuration info into new directories, "
+"which will be used from now on:\n"
+"\n"
+"<list><list-item dir=\"ltr\">Notes can now be found at <link:url>{1}</link:"
+"url>\n"
+"</list-item><list-item dir=\"ltr\">Configuration is at <link:url>{2}</link:"
+"url>\n"
+"</list-item><list-item dir=\"ltr\">You can install add-ins at <link:url>{3}</"
+"link:url>\n"
+"</list-item><list-item dir=\"ltr\">Log files can be found at <link:url>{4}</"
+"link:url></list-item></list>\n"
+"\n"
+"Ciao!"
+msgstr ""
+
+#: ../Tomboy/NoteManager.cs:265
+msgid ""
+"<note-content>Start Here\n"
+"\n"
+"<bold>Welcome to Tomboy!</bold>\n"
+"\n"
+"Use this \"Start Here\" note to begin organizing your ideas and thoughts.\n"
+"\n"
+"You can create new notes to hold your ideas by selecting the \"Create New "
+"Note\" item from the Tomboy Notes menu in your GNOME Panel. Your note will "
+"be saved automatically.\n"
+"\n"
+"Then organize the notes you create by linking related notes and ideas "
+"together!\n"
+"\n"
+"We've created a note called <link:internal>Using Links in Tomboy</link:"
+"internal>.  Notice how each time we type <link:internal>Using Links in "
+"Tomboy</link:internal> it automatically gets underlined?  Click on the link "
+"to open the note.</note-content>"
+msgstr ""
+"<note-content>ནཱ་ལུ་འགོ་བཙུགས་\n"
+"\n"
+"<bold>ཊོམ་བོ་ཡེ་ལུ་བྱོན་པ་ལེགས་སོ་!</bold>\n"
+"\n"
+"འ་ནི་ \"Start Here\" དྲན་འཛིན་འདི་ ཁྱོད་ཀྱི་གནས་སྐབས་ཚུ་དང་མནོ་བསམ་ཚུ་ འགོ་འདྲེན་འཐབ་ནི་འགོ་"
+"བཙུགས་ནིའི་དོན་ལས་ ལག་ལེན་འཐབ།\n"
+"\n"
+"ཁྱོད་ཀྱིས་ཁྱོད་རའི་གནས་སྐབས་ཚུ་ལུ་ དྲན་འཛིན་གསརཔ་ཚུ་  \"Create New Note\" རྣམ་གྲངས་འདི་ ཁྱོད་"
+"རའི་ཇི་ནོམ་པེ་ནཱལ་ནང་གི་ ཊོམ་བོ་ཡེ་དྲན་འཛིན་གྱི་དཀར་ཆག་འདི་ལས་ སེལ་འཐུ་འབད་ཐོག་ གསར་བསྐྲུན་འབད་"
+"ཚུགས།\n"
+"\n"
+"དེ་ལས་ ཁྱོད་ཀྱིས་གསར་བསྐྲུན་འབད་མི་དྲན་འཛིན་ཚུ་ འབྲེལ་ཡོད་དྲན་འཛིན་ཚུ་དང་གནས་སྐབས་ཚུ་གཅིག་ཁར་ འབྲེལ་"
+"མཐུད་འབད་ཐོག་ འགོ་འདྲེན་འཐབ་!\n"
+"\n"
+"ང་བཅས་ཀྱིས་དྲན་འཛིན་ <link:internal> ཟེར་སླབ་མི་ཅིག་ ཊོམ་བོ་ཡེ་</link:internal> ནང་གི་"
+"འབྲེལ་ལམ་ཚུ་ལག་ལེན་འཐབ་ཐོག་ གསར་བསྐྲུན་འབད་ཡོད།  ང་བཅས་ཀྱིས་ཚར་རེ་ <link:internal> འདི་ "
+"ཊོམ་བོ་ཡེ་ </link:internal> ནང་གི་འབྲེལ་ལམ་ཚུ་ལག་ལེན་འཐབ་ཐོག་ ཡིག་དཔར་རྐྱབས་པའི་སྐབས་ དེ་རང་"
+"བཞིན་གྱིས་ག་དེ་སྦེ་ འོག་ཐིག་རྐྱབས་ཨིན་ན་བལྟ? དྲན་འཛིན་དེ་ཁ་ཕྱེ་ནིའི་དོན་ལས་ འབྲེལ་ལམ་ལུ་ཨེབ་གཏང་་་།</"
+"note-content>"
+
+#: ../Tomboy/NoteManager.cs:284
+msgid ""
+"<note-content>Using Links in Tomboy\n"
+"\n"
+"Notes in Tomboy can be linked together by highlighting text in the current "
+"note and clicking the <bold>Link</bold> button above in the toolbar.  Doing "
+"so will create a new note and also underline the note's title in the current "
+"note.\n"
+"\n"
+"Changing the title of a note will update links present in other notes.  This "
+"prevents broken links from occurring when a note is renamed.\n"
+"\n"
+"Also, if you type the name of another note in your current note, it will "
+"automatically be linked for you.</note-content>"
+msgstr ""
+"<note-content>ཊོམ་བོ་ཡེ་ནང་འབྲེལ་ལམ་ཚུ་ལག་ལེན་འཐབ་དོ་\n"
+"\n"
+"ཊོམ་བོ་ཡེ་ནང་གི་དྲན་འཛིན་ཚུ་ ད་ལྟོའི་དྲན་འཛིན་ནང་ལུ་ ཚིག་ཡིག་གཙོ་དམིགས་འབད་ཐོག་དང་  <bold>འབྲེལ་"
+"ལམ་</bold> ཨེབ་རྟ་ ལག་ཆས་ཕྲ་རིང་གི་མགོ་ལུ་ ཨེབ་གཏང་འབད་ཐོག་ གཅིག་ཁར་འབྲེལ་མཐུད་འབད་ཚུགས། "
+"འདི་འབད་ནི་དེ་གིས་ དྲན་འཛིན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་འོང་ དེ་ལས་ ད་ལྟོའི་དྲན་འཛིན་དེ་ནང་ དྲན་འཛིན་"
+"གྱི་ མགོ་མིང་འདི་ཡང་འོག་ཐིག་རྐྱབས་འོང་།\n"
+"\n"
+"དྲན་འཛིན་འདི་གི་མགོ་མིང་བསྒྱུར་བཅོས་འབད་ནི་འདི་གིས་ དྲན་འཛིན་གཞན་མི་ཚུ་ནང་ཡོད་མི་་འབྲེལ་ལམ་ཚུ་དུས་"
+"མཐུན་བཟོ་འོང་།  འ་ནི་འདི་གིས་ དྲན་འཛིན་ཚུ་བསྐྱར་མིང་བཏགས་ཡོད་པའི་སྐབས་ ཆད་ཡོད་པའི་འབྲེལ་ལམ་ཚུ་ "
+"འབྱུང་ནི་ལས་སྔོན་བཀག་འབདཝ་ཨིན།\n"
+"\n"
+"ཡང་ ཁྱོད་ཀྱིས་ད་ལྟོའི་དྲན་འཛིན་ནང་ལུ་ དྲན་འཛིན་གཞན་མི་ཅིག་གི་ མིང་དེ་ཡིག་དཔར་རྐྱབས་པ་ཅིན་ དེ་གི་རང་"
+"བཞིན་གྱིས་ཁྱོད་ལུ་འབྲེལ་མཐུད་འབད་འོང་།</note-content>"
+
+#. Attempt to find an existing Start Here note
+#: ../Tomboy/NoteManager.cs:299 ../Tomboy/NoteManager.cs:395
+msgid "Start Here"
+msgstr "ནཱ་ལུ་འགོ་བཙུགས།"
+
+#: ../Tomboy/NoteManager.cs:304
+msgid "Using Links in Tomboy"
+msgstr "ཊོམ་བོ་ཡེ་ནང་འབྲེལ་ལམ་ཚུ་ལག་ལེན་འཐབ་དོ་"
+
+#. Use a simple "Describe..." body and highlight
+#. it so it can be easily overwritten
+#: ../Tomboy/NoteManager.cs:543 ../Tomboy/NoteManager.cs:646
+msgid "Describe your new note here."
+msgstr "ཁྱོད་རའི་དྲན་འཛིན་གསར་པའི་སྐོར་ལས་ ནཱ་ལུ་འགྲེལ་བཤད་རྐྱབས།"
+
+#: ../Tomboy/NoteRenameDialog.cs:50
+msgid "Rename Note Links?"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:56
+#, fuzzy
+#| msgid "_Open Link"
+msgid "_Rename Links"
+msgstr "འབྲེལ་ལམ་ཁ་ཕྱེ།(_O)"
+
+#: ../Tomboy/NoteRenameDialog.cs:59
+msgid "_Don't Rename Links"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:67
+#, csharp-format
+msgid ""
+"Rename links in other notes from \"<span underline=\"single\">{0}</span>\" "
+"to \"<span underline=\"single\">{1}</span>\"?\n"
+"\n"
+"If you do not rename the links, they will no longer link to anything."
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:83
+#, fuzzy
+#| msgid "_Open Link"
+msgid "Rename Links"
+msgstr "འབྲེལ་ལམ་ཁ་ཕྱེ།(_O)"
+
+#: ../Tomboy/NoteRenameDialog.cs:95
+#: ../Tomboy/Synchronization/SyncDialog.cs:119
+#, fuzzy
+#| msgid "Note title taken"
+msgid "Note Title"
+msgstr "དྲན་འཛིན་གྱི་མགོ་མིང་བྲིས་ཡོད།"
+
+#. Translators: This button causes all notes in the list to be selected
+#: ../Tomboy/NoteRenameDialog.cs:118
+msgid "Select All"
+msgstr ""
+
+#. Translators: This button causes all notes in the list to be unselected
+#: ../Tomboy/NoteRenameDialog.cs:127
+#, fuzzy
+#| msgid "Select an icon..."
+msgid "Select None"
+msgstr "ངོས་དཔར་ཅིག་སེལ་འཐུ་འབད་..."
+
+#: ../Tomboy/NoteRenameDialog.cs:144
+msgid "Ad_vanced"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:147
+#, fuzzy
+#| msgid "Close this window"
+msgid "Always show this _window"
+msgstr "སྒོ་སྒྲིག་དེ་ཁ་བསྡམ་"
+
+#: ../Tomboy/NoteRenameDialog.cs:155
+msgid "Never rename _links"
+msgstr ""
+
+#: ../Tomboy/NoteRenameDialog.cs:163
+msgid "Alwa_ys rename links"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:59
+msgid "Find in This Note"
+msgstr "འ་ནི་དྲན་འཛིན་ནང་འཚོལ་"
+
+#: ../Tomboy/NoteWindow.cs:366
+msgid "_Link to New Note"
+msgstr "དྲན་འཛིན་གསརཔ་ལུ་འབྲེལ་ལམ།(_L)"
+
+#: ../Tomboy/NoteWindow.cs:378
+msgid "Te_xt"
+msgstr "ཚིག་ཡིག(_x)"
+
+#: ../Tomboy/NoteWindow.cs:386
+msgid "_Find in This Note"
+msgstr "འ་ནི་དྲན་འཛིན་ནང་འཚོལ་(_F)"
+
+#: ../Tomboy/NoteWindow.cs:401
+msgid "Clos_e All Notes"
+msgstr "དྲན་འཛིན་ཆ་མཉམ་ཁ་བསྡམས།(_e)"
+
+#: ../Tomboy/NoteWindow.cs:441
+msgid "Search"
+msgstr "འཚོལ་ཞིབ།"
+
+#. TODO: If we ever add a way to customize internal keybindings, this will need to change
+#: ../Tomboy/NoteWindow.cs:445
+#, fuzzy
+#| msgid "S_earch notes"
+msgid "Search your notes"
+msgstr "དྲན་འཛིན་ཚུ་འཚོལ་ཞིབ་འབད།(_e)"
+
+#: ../Tomboy/NoteWindow.cs:457
+msgid "Link"
+msgstr "འབྲེལ་ལམ།"
+
+#: ../Tomboy/NoteWindow.cs:464
+#, fuzzy
+#| msgid "Link selected text to a new note (Ctrl-L)"
+msgid "Link selected text to a new note"
+msgstr "སེལ་འཐུ་འབད་མི་ཚིག་ཡིག་དེ་ དྲན་འཛིན་གསརཔ་ཅིག་ལུ་ འབྲེལ་མཐུད་འབད་(ཚད་འཛིན་-ཨེལ་)"
+
+#: ../Tomboy/NoteWindow.cs:477
+msgid "_Text"
+msgstr "ཚིག་ཡིག(_T)"
+
+#: ../Tomboy/NoteWindow.cs:482
+msgid "Set properties of text"
+msgstr "ཚིག་ཡིག་དེ་གི་རྒྱུ་དངོས་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: ../Tomboy/NoteWindow.cs:487
+msgid "T_ools"
+msgstr "ལག་ཆས།(_o)"
+
+#: ../Tomboy/NoteWindow.cs:491
+msgid "Use tools on this note"
+msgstr "དྲན་འཛིན་འདི་གུ་ ལག་ཆས་ལག་ལེན་འཐབ།"
+
+#: ../Tomboy/NoteWindow.cs:499
+msgid "Delete this note"
+msgstr "དྲན་འཛིན་འདི་བཏོན་གཏང་།"
+
+#: ../Tomboy/NoteWindow.cs:507 ../Tomboy/Synchronization/SyncManager.cs:163
+msgid "Synchronize Notes"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:565
+msgid ""
+"This note is a template note. It determines the default content of regular "
+"notes, and will not show up in the note menu or search window."
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:571
+msgid "Convert to regular note"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:576
+msgid "Save Si_ze"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:585
+msgid "Save Se_lection"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:594
+msgid "Save _Title"
+msgstr ""
+
+#: ../Tomboy/NoteWindow.cs:639
+msgid "_Find..."
+msgstr "འཚོལ་...(F)"
+
+#: ../Tomboy/NoteWindow.cs:650
+msgid "Find _Next"
+msgstr "ཤུལ་ལམ་འཚེོལ།(_N)"
+
+#: ../Tomboy/NoteWindow.cs:663
+msgid "Find _Previous"
+msgstr "ཧེ་མམ་འཚོལ།(_P)"
+
+#: ../Tomboy/NoteWindow.cs:751
+msgid "Cannot create note"
+msgstr "དྲན་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས་པས།"
+
+#: ../Tomboy/NoteWindow.cs:832
+msgid "_Find:"
+msgstr "འཚོལ་:(F)"
+
+#: ../Tomboy/NoteWindow.cs:843
+msgid "_Previous"
+msgstr "ཧེ་མམ།(_P)"
+
+#: ../Tomboy/NoteWindow.cs:852
+#, fuzzy
+#| msgid "_Text"
+msgid "_Next"
+msgstr "ཚིག་ཡིག(_T)"
+
+#: ../Tomboy/NoteWindow.cs:1335
+msgid "_Bold"
+msgstr "རྒྱགས་པ།(_B)"
+
+#: ../Tomboy/NoteWindow.cs:1347
+msgid "_Italic"
+msgstr "ཨི་ཊ་ལིཀ(_I)"
+
+#: ../Tomboy/NoteWindow.cs:1359
+msgid "_Strikeout"
+msgstr "སྦུག་སྦྲེག (_S)"
+
+#: ../Tomboy/NoteWindow.cs:1371
+msgid "_Highlight"
+msgstr "གཙོ་དམིགས།(_H)"
+
+#: ../Tomboy/NoteWindow.cs:1384
+msgid "Font Size"
+msgstr "ཡིག་ཚད།"
+
+#: ../Tomboy/NoteWindow.cs:1387
+msgid "_Normal"
+msgstr "སྤྱིར་བཏང་།(_N)"
+
+#: ../Tomboy/NoteWindow.cs:1404
+msgid "Hu_ge"
+msgstr "སྦོམ།(_L)"
+
+#: ../Tomboy/NoteWindow.cs:1412
+msgid "_Large"
+msgstr "ཆེབ།(_L)"
+
+#: ../Tomboy/NoteWindow.cs:1420
+msgid "S_mall"
+msgstr "ཆུང་ཀུ(_m)"
+
+#: ../Tomboy/NoteWindow.cs:1429
+#, fuzzy
+#| msgid "Font Size"
+msgid "Increase Font Size"
+msgstr "ཡིག་ཚད།"
+
+#: ../Tomboy/NoteWindow.cs:1447
+#, fuzzy
+#| msgid "Font Size"
+msgid "Decrease Font Size"
+msgstr "ཡིག་ཚད།"
+
+#: ../Tomboy/NoteWindow.cs:1467
+msgid "Bullets"
+msgstr "འགོ་ཚག་ཚུ་"
+
+#: ../Tomboy/PreferencesDialog.cs:81
+msgid "Editing"
+msgstr "ཞུན་དག"
+
+#: ../Tomboy/PreferencesDialog.cs:84
+msgid "Hotkeys"
+msgstr "མགྱོགས་ལྡེ་ཚུ།"
+
+#: ../Tomboy/PreferencesDialog.cs:86
+msgid "Synchronization"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:88
+msgid "Add-ins"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:174
+msgid "_Spell check while typing"
+msgstr "ཡིག་དཔར་རྐྱབ་པའི་སྐབས་ སྡེབ་དཔྱད་འབད།(_S)"
+
+#: ../Tomboy/PreferencesDialog.cs:183
+msgid ""
+"Misspellings will be underlined in red, with correct spelling suggestions "
+"shown in the context menu."
+msgstr ""
+"ཡིག་སྡེབ་འཛོལ་མི་ཚུ་ སྐབས་དོན་དཀར་ཆག་དེ་ནང་སྟོན་ཡོད་མི་ ཡིག་སྡེབ་བདེན་པ་གི་བསམ་འཆར་ཚུ་དང་གཅིག་"
+"ཁར་ འོག་ཐིག་དམརཔོ་བརྐྱབ་འོང་།"
+
+#. WikiWords...
+#: ../Tomboy/PreferencesDialog.cs:194
+msgid "Highlight _WikiWords"
+msgstr "ཝི་ཀི་ཝོཌི་ཚུ་ལུ་ གཙོ་དམིགས་འབད།(_W)"
+
+#: ../Tomboy/PreferencesDialog.cs:202
+msgid ""
+"Enable this option to highlight words <b>ThatLookLikeThis</b>. Clicking the "
+"word will create a note with that name."
+msgstr ""
+"<b>འདི་བཟུམ་སྦེ་མཐོང་མི་</b>མིང་ཚིག་ཚུ་ གཙོ་དམིགས་འབད་ནི་ལུ་ གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ། མིག་ཚིག་དེ་"
+"ལུ་ ཨེབ་གཏང་འབདཝ་ད་ མིང་དེ་ཡོད་མི་དྲན་འཛིན་ཅིག་ གསར་བསྐྲུན་འབད་འོང་།"
+
+#. Auto bulleted list
+#: ../Tomboy/PreferencesDialog.cs:209
+msgid "Enable auto-_bulleted lists"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:218
+msgid "Use custom _font"
+msgstr "སྲོལ་སྒྲིག་ཡིག་གཟུགས་ལག་ལེན་འཐབ།(_f)"
+
+#: ../Tomboy/PreferencesDialog.cs:236
+msgid "When renaming a linked note: "
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:239
+msgid "Ask me what to do"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:240
+msgid "Never rename links"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:241
+msgid "Always rename links"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:261
+msgid ""
+"Use the new note template to specify the text that should be used when "
+"creating a new note."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:270
+#, fuzzy
+#| msgid "_Open Today: Template"
+msgid "Open New Note Template"
+msgstr "ད་རེས་ཁ་ཕྱེ་: ཊེམ་པེ་ལེཊི་"
+
+#. Hotkeys...
+#: ../Tomboy/PreferencesDialog.cs:327
+msgid "Listen for _Hotkeys"
+msgstr "མགྱོགས་ལྡེའི་དོན་ལུ་ཉན།(_H)"
+
+#: ../Tomboy/PreferencesDialog.cs:336
+msgid ""
+"Hotkeys allow you to quickly access your notes from anywhere with a "
+"keypress. Example Hotkeys: <b>&lt;Control&gt;&lt;Shift&gt;F11</b>, <b>&lt;"
+"Alt&gt;N</b>"
+msgstr ""
+"མགྱོགས་ལྡེ་ཚུ་གིས་ ལྡེ་མིག་ཅིག་མནན་པའི་ཐོག་ལས་ དྲན་འཛིན་ཚུ་ལུ་ མགྱོགས་པར་འཛུལ་སྤྱོད་འབད་ཚུགསཔ་ཨིན། "
+"མགྱོགས་ལྡེའི་དཔེ་:<b>&lt;Control&gt;&lt;Shift&gt;F11</b>, <b>&lt;Alt&gt;N</b>"
+
+#. Show notes menu keybinding...
+#: ../Tomboy/PreferencesDialog.cs:356
+msgid "Show notes _menu"
+msgstr "དྲན་འཛིན་གྱི་དཀར་ཆག་སྟོན།(_m)"
+
+#. Open Start Here keybinding...
+#: ../Tomboy/PreferencesDialog.cs:373
+msgid "Open \"_Start Here\""
+msgstr " \"_Start Here\" ཁ་ཕྱེ།(_S)"
+
+#. Create new note keybinding...
+#: ../Tomboy/PreferencesDialog.cs:390
+msgid "Create _new note"
+msgstr "དྲན་འཛིན་གསར་བསྐྲུན་འབད།(_n)"
+
+#. Open Search All Notes window keybinding...
+#: ../Tomboy/PreferencesDialog.cs:407
+msgid "Open \"Search _All Notes\""
+msgstr " \"Search _All Notes\" ཁ་ཕྱེ་"
+
+#: ../Tomboy/PreferencesDialog.cs:434
+msgid "Ser_vice:"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:487 ../Tomboy/PreferencesDialog.cs:1106
+#, fuzzy
+#| msgid "Not available"
+msgid "Not configurable"
+msgstr "འཐོབ་ཚུགསཔ་མེད་"
+
+#: ../Tomboy/PreferencesDialog.cs:513
+msgid "Automaticall_y Sync in Background Every"
+msgstr ""
+
+#. Translators: See above comment for details on
+#. this string.
+#: ../Tomboy/PreferencesDialog.cs:519
+msgid "Minutes"
+msgstr ""
+
+#. "Advanced..." button to bring up extra sync config dialog
+#: ../Tomboy/PreferencesDialog.cs:541
+#, fuzzy
+#| msgid "_Find..."
+msgid "_Advanced..."
+msgstr "འཚོལ་...(F)"
+
+#: ../Tomboy/PreferencesDialog.cs:602
+msgid "The following add-ins are installed"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:623
+msgid "Get More Add-Ins..."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:641
+msgid "_Enable"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:647
+#, fuzzy
+#| msgid "_File"
+msgid "_Disable"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#: ../Tomboy/PreferencesDialog.cs:778
+msgid "Not Implemented"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:792
+#, fuzzy, csharp-format
+#| msgid "_Preferences"
+msgid "{0} Preferences"
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../Tomboy/PreferencesDialog.cs:931
+msgid "Choose Note Font"
+msgstr "དྲན་འཛིན་གྱི་ཡིག་གཟུགས་ཚུ་གདམ་ཁ་རྐྱབས།"
+
+#: ../Tomboy/PreferencesDialog.cs:975
+msgid "Other Synchronization Options"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:981
+msgid ""
+"When a conflict is detected between a local note and a note on the "
+"configured synchronization server:"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:988
+msgid "Always ask me what to do."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:992
+msgid "Rename my local note."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:996
+msgid "Replace my local note with the server's update."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1142
+msgid "Are you sure?"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1144
+msgid ""
+"Clearing your synchronization settings is not recommended.  You may be "
+"forced to synchronize all of your notes again when you save new settings."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1157
+msgid "Resetting Synchronization Settings"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1159
+msgid ""
+"You have disabled the configured synchronization service.  Your "
+"synchronization settings will now be cleared.  You may be forced to "
+"synchronize all of your notes again when you save new settings."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1237
+msgid "Connection successful"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1239
+msgid ""
+"Tomboy is ready to synchronize your notes. Would you like to synchronize "
+"them now?"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1262
+#, csharp-format
+msgid ""
+"Please check your information and try again.  The log file {0} may contain "
+"more information about the error."
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1274
+msgid "Error connecting"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1357
+#, fuzzy
+#| msgid "Version {0}"
+msgid "Version:"
+msgstr "ཐོན་རིམ། {0}"
+
+#: ../Tomboy/PreferencesDialog.cs:1364
+msgid "Author:"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1371
+msgid "Copyright:"
+msgstr ""
+
+#: ../Tomboy/PreferencesDialog.cs:1377
+msgid "Add-in Dependencies:"
+msgstr ""
+
+#: ../Tomboy/RecentChanges.cs:100
+msgid "_Search:"
+msgstr "འཚོལ་ཞིབ:(_S)"
+
+#: ../Tomboy/RecentChanges.cs:350
+msgid "Note"
+msgstr "དྲན་འཛིན།"
+
+#: ../Tomboy/RecentChanges.cs:373
+msgid "Last Changed"
+msgstr "མཐའ་མཇུག་གི་བསྒྱུར་བཅོས།"
+
+#: ../Tomboy/RecentChanges.cs:512
+msgid "Matches"
+msgstr "མཐུན་པ་"
+
+#: ../Tomboy/RecentChanges.cs:563
+#, fuzzy
+#| msgid "{0} match"
+#| msgid_plural "{0} matches"
+msgid "Title match"
+msgstr "{0} མཐུན་པ་"
+
+#: ../Tomboy/RecentChanges.cs:566
+#, csharp-format
+msgid "{0} match"
+msgid_plural "{0} matches"
+msgstr[0] "{0} མཐུན་པ་"
+msgstr[1] "{0} མཐུན་པ་"
+
+#: ../Tomboy/RecentChanges.cs:580
+#, csharp-format
+msgid "Total: {0} note"
+msgid_plural "Total: {0} notes"
+msgstr[0] "བསྡོམས་: དྲན་འཛིན་{0}"
+msgstr[1] "བསྡོམས་: དྲན་འཛིན་{0}"
+
+#: ../Tomboy/RecentChanges.cs:591
+#, fuzzy, csharp-format
+#| msgid "Total: {0} note"
+#| msgid_plural "Total: {0} notes"
+msgid "Matches: {0} note"
+msgid_plural "Matches: {0} notes"
+msgstr[0] "བསྡོམས་: དྲན་འཛིན་{0}"
+msgstr[1] "བསྡོམས་: དྲན་འཛིན་{0}"
+
+#: ../Tomboy/RecentChanges.cs:603
+msgid ""
+"No results found in the selected notebook.\n"
+"Click here to search across all notes."
+msgstr ""
+
+#: ../Tomboy/RecentChanges.cs:609
+msgid "Click here to search across all notebooks"
+msgstr ""
+
+#: ../Tomboy/RecentChanges.cs:775
+#, fuzzy
+#| msgid "Note"
+msgid "Notes"
+msgstr "དྲན་འཛིན།"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:94
+#, csharp-format
+msgid ""
+"This synchronization addin is not supported on your computer. Please make "
+"sure you have FUSE and {0} correctly installed and configured"
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:129
+#, fuzzy
+#| msgid "Could not save the icon file.  "
+msgid "Could not read testfile."
+msgstr "ངོས་དཔར་ཡིག་སྣོད་འདི་སྲུང་བཞག་འབད་མ་ཚུགས།"
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:132
+msgid "Write test failed."
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:176
+msgid "Timeout connecting to server."
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:184
+msgid "Error connecting to server."
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:198
+msgid "FUSE could not be enabled."
+msgstr ""
+
+#: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:233
+msgid "An error ocurred while connecting to the specified server:"
+msgstr ""
+
+#. Expander containing TreeView
+#: ../Tomboy/Synchronization/SyncDialog.cs:89
+msgid "Details"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:126
+msgid "Status"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:236
+msgid "Acquiring sync lock..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:239
+msgid "Committing changes..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:242
+msgid "Synchronizing Notes"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:243
+msgid "Synchronizing your notes..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:244
+msgid "This may take a while, kick back and enjoy!"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:246
+msgid "Connecting to the server..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:252
+msgid "Deleting notes off of the server..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:256
+msgid "Downloading new/updated notes..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:268
+msgid "Server Locked"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:269
+msgid "Server is locked"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:270
+msgid ""
+"One of your other computers is currently synchronizing.  Please wait 2 "
+"minutes and try again."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:274
+msgid "Preparing to download updates from server..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:277
+msgid "Preparing to upload updates to server..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:280
+msgid "Uploading notes to server..."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:283
+msgid "Synchronization Failed"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:284
+msgid "Failed to synchronize"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:285
+msgid "Could not synchronize notes.  Check the details below and try again."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:291
+msgid "Synchronization Complete"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:292
+msgid "Synchronization is complete"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:294
+#, csharp-format
+msgid "{0} note updated."
+msgid_plural "{0} notes updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:299
+msgid "Your notes are now up to date."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:303
+msgid "Synchronization Canceled"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:304
+msgid "Synchronization was canceled"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:305
+msgid "You canceled the synchronization.  You may close the window now."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:309
+msgid "Synchronization Not Configured"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:310
+msgid "Synchronization is not configured"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:311
+msgid "Please configure synchronization in the preferences dialog."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:315
+msgid "Synchronization Service Error"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:316
+msgid "Service error"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:317
+msgid "Error connecting to the synchronization service.  Please try again."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:334
+msgid "Deleted locally"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:337
+msgid "Deleted from server"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:340
+msgid "Updated"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:343
+msgid "Added"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:346
+msgid "Uploaded changes to server"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:349
+msgid "Uploaded new note to server"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:496
+msgid "Note Conflict"
+msgstr ""
+
+#. Suggest renaming note by appending " (old)" to the existing title
+#: ../Tomboy/Synchronization/SyncDialog.cs:502
+msgid " (old)"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:541
+msgid "Rename local note:"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:547
+msgid "Update links in referencing notes"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:554
+msgid "Overwrite local note"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:558
+msgid "Always perform this action"
+msgstr ""
+
+#. Set initial dialog text
+#: ../Tomboy/Synchronization/SyncDialog.cs:564
+msgid "Note conflict detected"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncDialog.cs:565
+#, csharp-format
+msgid ""
+"The server version of \"{0}\" conflicts with your local note.  What do you "
+"want to do with your local note?"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncUtils.cs:119
+#: ../Tomboy/Synchronization/SyncUtils.cs:163
+msgid "Could not enable FUSE"
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncUtils.cs:120
+#: ../Tomboy/Synchronization/SyncUtils.cs:164
+msgid ""
+"The FUSE module could not be loaded. Please check that it is installed "
+"properly and try again."
+msgstr ""
+
+#: ../Tomboy/Synchronization/SyncUtils.cs:135
+msgid "Enable FUSE?"
+msgstr ""
+
+#. TODO: This message isn't entirely accurate.
+#. We should fix it.
+#: ../Tomboy/Synchronization/SyncUtils.cs:139
+msgid ""
+"The synchronization you've chosen requires the FUSE module to be loaded.\n"
+"\n"
+"To avoid getting this prompt in the future, you should load FUSE at "
+"startup.  Add \"modprobe fuse\" to /etc/init.d/boot.local or \"fuse\" to /"
+"etc/modules."
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:251
+msgid "Cannot create new note"
+msgstr "དྲན་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས་པས།"
+
+#: ../Tomboy/Tomboy.cs:317
+msgid "Primary Development:"
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:330
+msgid "Contributors:"
+msgstr ""
+
+#: ../Tomboy/Tomboy.cs:415
+msgid "translator-credits"
+msgstr ""
+"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་"
+"དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>"
+
+#: ../Tomboy/Tomboy.cs:424
+#, fuzzy
+#| msgid "Copyright © 2004-2007 Alex Graveley"
+msgid ""
+"Copyright © 2004-2007 Alex Graveley\n"
+"Copyright © 2004-2011 Others\n"
+msgstr "འདྲ་བཤེས་བདག་དབང་ © ༢༠༠༤-༢༠༠༧ ཨེ་ལེགསི་ གེརེ་བི་ལེ་"
+
+#: ../Tomboy/Tomboy.cs:426
+msgid "A simple and easy to use desktop note-taking application."
+msgstr "ཌེཀསི་ཏོཔ་གི་ དྲན་འཛིན་བཀོད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནི་འཇམ་ཏོང་ཏོ་འབད་མི་ གློག་རིམ་ཅིག"
+
+#: ../Tomboy/Tomboy.cs:436
+msgid "Homepage"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ།"
+
+#: ../Tomboy/Tomboy.cs:554
+#, fuzzy
+#| msgid ""
+#| "Tomboy: A simple, easy to use desktop note-taking application.\n"
+#| "Copyright (C) 2004-2006 Alex Graveley <alex@beatniksoftware.com>\n"
+#| "\n"
+msgid ""
+"Tomboy: A simple, easy to use desktop note-taking application.\n"
+"Copyright © 2004-2007 Alex Graveley\n"
+"<alex@beatniksoftware.com>\n"
+"\n"
+"Copyright © 2004-2011 Others\n"
+msgstr ""
+"ཊོམ་བོ་ཡེ་: ཌེཀསི་ཊོབཝཔ་གི་ དྲན་འཛིན་བཀོད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་འཇམ་ཏོང་ཏོ་འབད་མི་ གློག་རིམ་ཅིག་"
+"ཨིན།\n"
+"འདྲ་བཤུས་བདག་དབང་ (C) ༢༠༠༤-༢༠༠༦ ཨེ་ལེགསི་གེརེ་བི་ལེ་ <alex@beatniksoftware.com>\n"
+"\n"
+
+#: ../Tomboy/Tomboy.cs:568
+msgid ""
+"Usage:\n"
+"  --version\t\t\tPrint version information.\n"
+"  --help\t\t\tPrint this usage message.\n"
+"  --note-path [path]\t\tLoad/store note data in this directory.\n"
+"  --search [text]\t\tOpen the search all notes window with the search text.\n"
+msgstr ""
+"བད་སྤྱོད་:\n"
+"--version\t\t\t ཐོན་རིམ་བརྡ་དོན་དཔར་བསྐྲུན་འབད།\n"
+"--help\t\t\t བད་སྤྱོད་འཕྲིན་དོན་དཔར་བསྐྲུན་འབད།\n"
+"--note-path [path]\t\tའཚོལ་ཞིབ་ཚིག་ཡིག་དང་གཅིག་ཁར་ དྲན་འཛིན་གྱི་སྒོ་སྒྲིག་ཆ་མཉམ་འཚོལ་ཞིབ་"
+"འབད་ འདི་ཁ་ཕྱེ།\n"
+
+#: ../Tomboy/Tomboy.cs:578
+msgid ""
+"  --new-note\t\t\tCreate and display a new note.\n"
+"  --new-note [title]\t\tCreate and display a new note, with a title.\n"
+"  --open-note [title/url]\tDisplay the existing note matching title.\n"
+"  --start-here\t\t\tDisplay the 'Start Here' note.\n"
+"  --highlight-search [text]\tSearch and highlight text in the opened note.\n"
+msgstr ""
+"--new-note\t\t\tགིས་དྲན་འཛིན་གསརཔ་ཅིག་བཟོ་སྟེ་ བཀྲམ་སྟོན་འབདཝ་ཨིན།\n"
+"--new-note [title]\t\tགིས་དྲན་འཛིན་གསརཔ་ཅིག་ མགོ་མིང་དང་བཅསཔ་སྦེ་བཟོ་སྟེ་ བཀྲམ་སྟོན་འབདཝ་"
+"ཨིན།\n"
+"--open-note [title/url]\tགིས་ཡོད་བཞིན་པའི་དྲན་འཛིན་དང་མཐུན་སྒྲིག་ཡོད་པའི་མགོ་མིང་ཚུ་བཀྲམ་སྟོན་"
+"འབདཝ་ཨིན།\n"
+"--start-here\t\t\tགིས་ 'ནཱ་ལུ་འགོ་བཙུགས' ཟེར་མི་དྲན་འཛིན་དེ་ བཀྲམ་སྟོན་འབདཝ་ཨིན།\n"
+" --highlight-search [text]\tགིས་ཁ་ཕྱེ་སྟེ་ཡོད་མི་དྲན་འཛིན་ནང་ལུ་ ཚིག་ཡིག་འཚོལ་ཞིབ་འབད་དེ་ "
+"གཙོ་དམིགས་འབདཝ་ཨིན།\n"
+
+#: ../Tomboy/Tomboy.cs:592
+#, csharp-format
+msgid "Version {0}"
+msgstr "ཐོན་རིམ། {0}"
+
+#: ../Tomboy/Tray.cs:68
+msgid " (new)"
+msgstr "(གསརཔ)"
+
+#: ../Tomboy/Tray.cs:293
+msgid "_About Tomboy"
+msgstr "ཊོམ་བོ་ཡེ་སྐོར་ལས།(_A)"
+
+#: ../Tomboy/Utils.cs:189
+msgid ""
+"The \"Tomboy Notes Manual\" could not be found.  Please verify that your "
+"installation has been completed successfully."
+msgstr ""
+" \"Tomboy Notes Manual\" འདི་འཚོལ་མ་འཐོབ། ཁྱོད་ཀྱི་གཞི་བཙུགས་འབད་ནི་འདི་ མཐའ་འཁྱོལ་སྦེ་མཇུག་"
+"བསྡུ་ཡོདཔ་ཨིནམ་བདེན་སྦྱོར་འབད་གནང་།"
+
+#: ../Tomboy/Utils.cs:198
+msgid "Help not found"
+msgstr "གྲོགས་རམ་འཚོལ་མ་འཐོབ་"
+
+#: ../Tomboy/Utils.cs:214
+msgid "Cannot open location"
+msgstr "གནས་ཁོངས་ཁ་ཕྱེ་བཝམ་ཚུགས།"
+
+#: ../Tomboy/Utils.cs:236
+#, csharp-format
+msgid "Today, {0}"
+msgstr "ད་རིས། {0}"
+
+#: ../Tomboy/Utils.cs:238
+#, fuzzy
+#| msgid "Today: "
+msgid "Today"
+msgstr "ད་རིས:"
+
+#: ../Tomboy/Utils.cs:242
+#, csharp-format
+msgid "Yesterday, {0}"
+msgstr "ཁ་རྩང་།{0}"
+
+#: ../Tomboy/Utils.cs:244
+#, fuzzy
+#| msgid "Yesterday, {0}"
+msgid "Yesterday"
+msgstr "ཁ་རྩང་།{0}"
+
+#: ../Tomboy/Utils.cs:249
+#, fuzzy, csharp-format
+#| msgid "{0} days ago, {1}"
+msgid "{0} day ago, {1}"
+msgid_plural "{0} days ago, {1}"
+msgstr[0] "ཉིནམ་ {0} གི་ཧེ་མ། {1}"
+msgstr[1] "ཉིནམ་ {0} གི་ཧེ་མ། {1}"
+
+#: ../Tomboy/Utils.cs:253
+#, fuzzy, csharp-format
+#| msgid "{0} days ago, {1}"
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] "ཉིནམ་ {0} གི་ཧེ་མ། {1}"
+msgstr[1] "ཉིནམ་ {0} གི་ཧེ་མ། {1}"
+
+#: ../Tomboy/Utils.cs:259
+#, fuzzy, csharp-format
+#| msgid "Today, {0}"
+msgid "Tomorrow, {0}"
+msgstr "ད་རིས། {0}"
+
+#: ../Tomboy/Utils.cs:261
+msgid "Tomorrow"
+msgstr ""
+
+#: ../Tomboy/Utils.cs:266
+#, fuzzy, csharp-format
+#| msgid "{0} days ago, {1}"
+msgid "In {0} day, {1}"
+msgid_plural "In {0} days, {1}"
+msgstr[0] "ཉིནམ་ {0} གི་ཧེ་མ། {1}"
+msgstr[1] "ཉིནམ་ {0} གི་ཧེ་མ། {1}"
+
+#: ../Tomboy/Utils.cs:270
+#, csharp-format
+msgid "In {0} day"
+msgid_plural "In {0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../Tomboy/Utils.cs:275
+msgid "MMMM d, h:mm tt"
+msgstr "MMMM d, h:mm tt"
+
+#: ../Tomboy/Utils.cs:276
+msgid "MMMM d"
+msgstr ""
+
+#: ../Tomboy/Utils.cs:278
+#, fuzzy
+#| msgid "Note"
+msgid "No Date"
+msgstr "དྲན་འཛིན།"
+
+#: ../Tomboy/Utils.cs:281
+msgid "MMMM d yyyy, h:mm tt"
+msgstr "MMMM d yyyy, h:mm tt"
+
+#: ../Tomboy/Utils.cs:282
+#, fuzzy
+#| msgid "dddd, MMMM d yyyy"
+msgid "MMMM d yyyy"
+msgstr "dddd, MMMM d yyyy"
+
+#: ../Tomboy/Watchers.cs:155
+#, csharp-format
+msgid "(Untitled {0})"
+msgstr "(མགོ་མིང་མ་བཏགསཔ་ {0})"
+
+#: ../Tomboy/Watchers.cs:189
+#, csharp-format
+msgid ""
+"A note with the title <b>{0}</b> already exists. Please choose another name "
+"for this note before continuing."
+msgstr ""
+"མགོ་མིང་ <b>{0}</b>འབད་མི་དྲན་འཛིན་ཅིག་ ཧེ་མ་ལས་རང་འདུག འཕྲོ་མ་མཐུད་པའི་ཧེ་མ་ དྲན་འཛིན་འདི་གི་"
+"དོན་ལུ་ མིང་གཞན་ཅིག་ གདམ་ཁ་རྐྱབས།"
+
+#: ../Tomboy/Watchers.cs:204
+msgid "Note title taken"
+msgstr "དྲན་འཛིན་གྱི་མགོ་མིང་བྲིས་ཡོད།"
+
+#: ../Tomboy/Watchers.cs:587
+msgid "_Copy Link Address"
+msgstr "འབྲེལ་ལམ་ཁ་བྱང་ཚུ་འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#: ../Tomboy/Watchers.cs:592
+msgid "_Open Link"
+msgstr "འབྲེལ་ལམ་ཁ་ཕྱེ།(_O)"
+
+#~ msgid "Currently enabled plugins."
+#~ msgstr "ད་ལྟོ་ལྕོགས་ཅན་བཟོ་ཡོད་པའི་པ་ལག་ཨིནསི།"
+
+#~ msgid "HTML Export Last Directory"
+#~ msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་གྱི་ མཐའ་མཇུག་སྣོད་ཐོ།"
+
+#~ msgid "List containing the names of currently enabled plugins."
+#~ msgstr "ད་ལྟོ་ལྕོགས་ཅན་བཟོ་ཡོད་པའི་པ་ལག་ཨིནསི་གི་ མིང་ཚུ་ཡོད་མི་ཐོ་ཡིག"
+
+#~ msgid "Preparing pages..."
+#~ msgstr "ཤོག་ལེབ་གྲ་སྒྲིག་འབད་དོ་...."
+
+#~ msgid "Rendering page %d of %d..."
+#~ msgstr "ཤོག་ལེབ་%d ཡོད་ས་ལས་%d ལྷག་སྟོན་འབད་དོ།"
+
+#~ msgid "Printing page %d of %d..."
+#~ msgstr "ཤོག་ལེབ་%d ཡོད་ས་ལས་%d དཔར་བསྐྲུན་འབད་དོ།"
+
+#~ msgid "Print preview"
+#~ msgstr "དཔར་བསྐྲུན་སྔོན་ལྟ།"
+
+#~ msgid "%A %x, %X"
+#~ msgstr "%A %x, %X"
+
+#~ msgid "Search your notes (Ctrl-Shift-F)"
+#~ msgstr "ཁྱོད་རའི་དྲན་འཛིན་(ཚད་འཛིན་-སོར་ལྡ་-ཨེཕ་)ཚུ་ འཚོལ་ཞིབ་འབད་"
+
+#~ msgid "Delete"
+#~ msgstr "བཏོན་གཏང་།"
+
+#~ msgid "Case _sensitive"
+#~ msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཆེན་ཁ་(_s)"
+
+#~ msgid "Tomboy Project"
+#~ msgstr "ཊོམ་བོ་ཡེ་དྲན་འཛིན"
+
+#~ msgid "Cannot fully disable {0}."
+#~ msgstr "ཆ་ཚང་སྦེ་ {0}ལྕོགས་མིན་བཟོ་མི་ཚུགས།"
+
+#~ msgid ""
+#~ "Cannot fully disable {0} as there still are at least {1} reference to "
+#~ "this plugin. This indicates a programming error. Contact the plugin's "
+#~ "author and report this problem.\n"
+#~ "\n"
+#~ "<b>Developer Information:</b> This problem usually occurs when the "
+#~ "plugin's Dispose method fails to disconnect all event handlers. The heap-"
+#~ "shot profiler ({2}) can help to identify leaking references."
+#~ msgstr ""
+#~ "དེ་ཚུ་ད་ལྟོ་ཡང་ འ་ནི་པ་ལག་ཨིན་འདི་ལུ་ ཉུང་མཐའ་ {1} གཞི་བསྟུན་ཨིནམ་ལས་   {0} ཆ་ཚང་སྦེ་ལྕོགས་"
+#~ "མིན་བཟོ་མི་ཚུགས། འ་ནི་འདི་གིས་ལས་རིམ་བཟོ་ལས་ཀྱི་འཛོལ་བ་ཅིག་སྟོནམ་ཨིན། པ་ལག་ཨིན་གྱི་རྩོམ་པ་པོ་དང་"
+#~ "འབྲེལ་བ་འཐབ་ཞིནམ་ལས་ འ་ནི་དཀའ་ངལ་དེ་སྙན་ཞུ་འབད།\n"
+#~ "\n"
+#~ "<b>བཟོ་མིའི་བརྡ་དོན་:</b> འ་ནི་དཀའ་ངལ་འདི་ སྤྱིར་བཏང་ལུ་ པ་ལག་ཨིན་གྱི་བཟོ་ནིའི་ཐབས་ལམ་འདི་ "
+#~ "བྱུང་ལས་ལེགས་སྐྱོང་པ་ཆ་མཉམ་ མཐུད་བཏོག་གཏང་ནི་འཐུས་ཤོར་འབྱུང་པའི་སྐབས་ འབྱུངམ་ཨིན། བརྩེགས་ཕུང་"
+#~ "པར་བཏབ་ གསལ་སྡུད་བཀོད་མི་  ({2}) གིས་ གསང་བློ་བཤད་ནིའི་གཞི་བསྟུན་ཚུ་ངོས་འཛིན་འབད་ནི་ལུ་གྲོགས་"
+#~ "རམ་འབད་ཚུགས།"
+
+#~ msgid "Plugins"
+#~ msgstr "པ་ལག་ཨིནསི་"
+
+#~ msgid "Description:"
+#~ msgstr "འགྲེལ་བཤད་:"
+
+#~ msgid "Written by:"
+#~ msgstr "གིས་བྲིས་ཡོད་"
+
+#~ msgid "Web site:"
+#~ msgstr "ཝེབ་ས་ཁོངས་:"
+
+#~ msgid "Settings"
+#~ msgstr "སྒྲིག་སྟངས་"
+
+#~ msgid "_Open Plugins Folder"
+#~ msgstr "པ་ལག་ཨིནསི་སྣོད་འཛིན་ཁ་ཕྱེ།(_O)"
+
+#~ msgid "{0} Settings"
+#~ msgstr "{0} སྒྲིག་སྟངས་"
+
+#~ msgid "C_ase Sensitive"
+#~ msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཆེན་ཁ་(_a)"
+
+#~ msgid "Homepage & Donations"
+#~ msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ་དང་ ཞལ་འདེབས་ཚུ།"
+
+#~ msgid ""
+#~ "  --check-plugin-unloading\tCheck if plugins are unloaded properly.\n"
+#~ msgstr ""
+#~ "  --པ་ལག་ཨིན་མངོན་གསལ་མི་འབད་ནི་ཞིབ་དཔྱད་འབད་\tཔ་ལག་ཨིན་ཚུ་ཚེལ་ལྡན་སྦེ་མངོན་གསལ་མ་འབདཝ་"
+#~ "ཨིནམ་ཞིབ་དཔྱད་འབད།\n"
+
+#~ msgid "D-BUS remote control disabled.\n"
+#~ msgstr "ཌི་བཱསི་ཐག་རིང་ཚད་འཛིན་ལྕོགས་མིན་བཟོ་ཡོད།\n"
+
+#~ msgid ""
+#~ "Tomboy: unsupported option '{0}'\n"
+#~ "Try 'tomboy --help' for more information.\n"
+#~ "D-BUS remote control disabled."
+#~ msgstr ""
+#~ "ཊོམ་བོ་ཡེ་: རྒྱབ་སྐྱོར་མེད་པའི་གདམ་ཁ་ '{0}'\n"
+#~ "ཁ་གསལ་གྱི་དོན་ལུ་ 'tomboy --help' ལུ་འདབ་རྩོལ་བསྐྱེད།\n"
+#~ "D-BUS remote control disabled."
+
+#~ msgid "Note of the Day"
+#~ msgstr "ཉིནམ་དེ་གི་དྲན་འཛིན"
+
+#~ msgid "Default Plugins"
+#~ msgstr "སྔོན་སྒྲིག་པ་ལག་ཨིནསི།"
+
+#~ msgid "Directory containing system-installed Plugins"
+#~ msgstr "རིམ་ལུགས་གཞི་བཙུགས་འབད་ཡོད་པའི་ པ་ལག་ཨིནསི་ཡོད་མི་སྣོད་ཐོ།"
+
+#~ msgid "Use the following:"
+#~ msgstr "འོག་གི་འདི་ལག་ལེན་འཐབ་:"
+
+#~ msgid "NotD: "
+#~ msgstr "ཨེན་ཨོ་ཊི་ཌི།"
+
+#~ msgid "Quick and handy note-taker"
+#~ msgstr "དྲན་འཛིན་བཀོད་མི་ མགྱོགས་དྲགས་དང་སྟབས་བདེ་ཏོག་ཏོ།"
+
+#~ msgid "Welcome to Tomboy!"
+#~ msgstr "ཊོམ་བོ་ཡེ་ལུ་འབྱོན་པ་ལེགས་སོ!"
+
+#~ msgid ""
+#~ "Use this page as a Start Page for organizing your notes and keeping "
+#~ "unorganized ideas around."
+#~ msgstr ""
+#~ "ཁྱོད་རའི་དྲན་འཛིན་ཚུ་ འགོ་འདྲེན་འཐབ་ནིའི་དོན་ལུ་ ཤོག་ལེབ་འདི་ འགོ་བཙུགས་ཀྱི་ཤོག་ལེབ་སྦེ་ ལག་ལེན་"
+#~ "འཐབ་སྟེ་ འགོ་འདྲེན་མ་འཐབ་པའི་གནས་སྐབས་ལུ་ མཐའ་བསྐོར་ལུ་བཞག།"
+
+#~ msgid "_Search..."
+#~ msgstr "འཚོལ་ཞིབ་འབད་...(_S)"
+
+#~ msgid "Table of Contents"
+#~ msgstr "ནང་དོན་དཀར་ཆག"
+
+#~ msgid ""
+#~ "<b>Table of Contents</b> lists all your notes.\n"
+#~ "Double click to open a note."
+#~ msgstr ""
+#~ "<b>ནང་དོན་དཀར་ཆག་</b གིས་ཁྱོད་རའི་དྲན་འཛིན་ཆ་མཉམ་ཐོ་བཀོདཔ་ཨིན།\n"
+#~ "དྲན་འཛིན་ཁ་ཕྱེ་ནི་ལུ་ ཨེབ་གཏང་ཐེངས་གཉིས་འབད།"
+
+#~ msgid "Search _Results"
+#~ msgstr "གྲུབ་འབྲས་འཚོལ་ཞིབ་འབད།(_R)"
+
+#~ msgid "_Search Notes..."
+#~ msgstr "དྲན་འཛིན་ཚུ་འཚོལ་ཞིབ་འབད་...(_S)"
+
+#~ msgid "%A %D, %I:%M %p"
+#~ msgstr "%A %D, %I:%M %p"

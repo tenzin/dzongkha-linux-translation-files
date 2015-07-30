@@ -1,0 +1,144 @@
+# translation of gimp-freetype.HEAD.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Dorji Tashi <dorjee_doss@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-freetype.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-19 02:38+0200\n"
+"PO-Revision-Date: 2006-04-26 09:35+0600\n"
+"Last-Translator: Dorji Tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+
+#: ../src/about.c:200
+msgid "About GIMP FreeType"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ རང་དབང་དབྱེ་བ་ཅན་གྱི་སྐོར་ལས།"
+
+#: ../src/about.c:284
+#, c-format
+msgid "Version %s brought to you by"
+msgstr "ཐོན་རིམ་%s དེ་ཁྱོད་ལུ་ ་་་གིས་འབག་འོང་འོངམ་ཨིན།"
+
+#: ../src/fontsel.c:128
+msgid "Font Family"
+msgstr "ཡིག་གཞུགས་ཀྱི་རིགས་ཚན།"
+
+#: ../src/fontsel.c:146
+msgid "Font Style"
+msgstr "ཡིག་གཟུགས་ཀྱི་བཟོ་རྣམ།"
+
+#: ../src/fontsel.c:198
+msgid ""
+"You seem to be running the FreeType plug-in for the first time. You need to "
+"specify a list of folders where font files can be found on your system."
+msgstr "ཁྱོད་ཀྱིས་ རང་དབང་དབྱེ་བ་ཅན་གྱི་པ་ལག་ཨིན་དེ་ འགོ་དང་པ་ གཡོག་བཀོལ་དོ་བཟུམ་ཅིག་འདུག"
+
+#: ../src/fontsel.c:537
+msgid "Configure Font Search Path"
+msgstr "ཡིག་གཟུགས་འཚོལ་ཞིབ་འབད་མི་གྲུལ་ལམ་དེ་ རིམ་སྒྲིག་འབད།"
+
+#: ../src/fontsel.c:558
+msgid "Choose a folder"
+msgstr "སྣོད་འཛིན་ཅིག་གདམ་ཁ་རྐྱབས།"
+
+#: ../src/fontsel.c:564
+msgid "You may specify multiple folders here."
+msgstr "ཁྱོད་ཀྱིས་ སྣོད་འཛིན་སྣ་མང་ཚུ་ ནཱ་ལུ་་གསལ་བཀོད་འབད་རུང་བཏུབ།"
+
+#: ../src/fonttable.c:360 ../src/interface.c:549
+msgid "No font selected"
+msgstr "ཡུག་གཟུགས་ཅིག་ཡང་སེལ་འཐུ་མ་འབད་བས།"
+
+#: ../src/fonttable.c:519
+#, c-format
+msgid "Glyphs %d-%d"
+msgstr "Glyphs %d-%d"
+
+#: ../src/interface.c:765
+msgid "Rotation:"
+msgstr "པད་སྐོར་བསྒྱིར་ནི:"
+
+#: ../src/interface.c:785
+msgid "Scale X:"
+msgstr "ཚད་ཤིང་ ཨེགསི:"
+
+#: ../src/interface.c:804
+msgid "Scale Y:"
+msgstr "ཚད་ཤིང་ ཝའི:"
+
+#: ../src/interface.c:823
+msgid "Shear:"
+msgstr "གཏུབ:"
+
+#: ../src/interface.c:874
+msgid "Font Size:"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད:"
+
+#: ../src/interface.c:911
+msgid "Spacing:"
+msgstr "བར་སྟོང་བཏོན་ནི:"
+
+#: ../src/interface.c:930
+msgid "Antialiasing"
+msgstr "ཨེན་ཊི་ཨེ་ལའིསིང:"
+
+#: ../src/interface.c:944
+msgid "Hinting"
+msgstr "བརྡ་མཚོན་སྟོན་དོ།"
+
+#: ../src/interface.c:958
+msgid "Kerning"
+msgstr "ཀརན་འབད་དོ།"
+
+#: ../src/interface.c:972
+msgid "Create Bezier Outline"
+msgstr "བི་ཛིཡརི་གྱི་ཕྱི་ཐིག་ གསར་བསྐྲུན་འབད།"
+
+#: ../src/interface.c:1048
+msgid "FreeType Renderer"
+msgstr "དབྱེ་བ་རང་དབང་ཅན་ ལྷག་སྟོན་འབད་མི།"
+
+#: ../src/interface.c:1052
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: ../src/interface.c:1053
+msgid "Font Table"
+msgstr "ཡིག་གཟུགས་ཐིག་ཁྲམ།"
+
+#: ../src/interface.c:1054
+msgid "Configure"
+msgstr "རིམ་སྒྲིག"
+
+#: ../src/interface.c:1142
+msgid "Dot for Dot"
+msgstr "ཚག་གི་དོན་ལུ་ཚག"
+
+#: ../src/interface.c:1187
+msgid "Update Preview"
+msgstr "སྔོན་བལྟ་དུས་མཐུན་བཟོ།"
+
+#: ../src/interface.c:1195
+msgid "Auto"
+msgstr "རང་བཞིན།"
+
+#: ../src/interface.c:1224
+msgid "General"
+msgstr "སྤྱིར་གཏང་།"
+
+#: ../src/interface.c:1227
+msgid "Transformation"
+msgstr "བཟོ་བསྒྱུར"
+
+#. Don't translate the text in brackets (<Image>)
+#: ../src/main.c:147
+msgid "<Image>/Filters/Text/FreeType..."
+msgstr "<Image>/ཚགས་མ་ཚུ་/ཚིག་ཡིག/དབྱེ་བ་རང་དབང་ཅན་་་་"
+

@@ -1,0 +1,2979 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sodipodi.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-06 04:58+0100\n"
+"PO-Revision-Date: 2006-12-08 15:48+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../sodipodi.desktop.in.h:1
+msgid "SVG Vector Illustrator"
+msgstr "ཨེསི་ཝི་ཇི་རི་མོ་མཁན་"
+
+#. Create window
+#: ../sodipodi.desktop.in.h:2
+#: ../src/toolbox.c:105
+#: ../src/toolbox.c:144
+#: ../src/toolbox.c:178
+msgid "Sodipodi"
+msgstr "སོ་ཌི་པོ་ཌི་"
+
+#: ../src/arc-context.c:254
+#, c-format
+msgid "Drawing arc %s x %s"
+msgstr "ཨེ་ཨར་སི་%s x %sཔར་རིས་"
+
+#: ../src/bonobo/svg-doc-factory.c:35
+msgid "Could not create sodipodi-svg-doc factory"
+msgstr "sodipodi-svg-docའཕྲུལ་ཁང་གསར་བསྐྲུན་འབད་མ་ཚུགས་"
+
+#: ../src/desktop.c:990
+msgid "Zoom drawing if window size changes"
+msgstr "སྒོ་སྒྲིག་གི་ཚད་འདི་བསྒྱུར་བཅས་འགྱོ་བ་ཅིན་  པར་རིས་འདི་རྒྱས་ཟུམ་འབད་"
+
+#: ../src/desktop.c:997
+msgid "Drawing target is constrained to active group"
+msgstr "པར་རིས་དམིགས་གཏད་འདི་ཤུགས་ལྡན་ཡོད་པའི་སྡེ་ཚན་ལུ་དམ་ནུག་"
+
+#: ../src/desktop.c:1089
+#, c-format
+msgid "Sodipodi: %s: %s: %d"
+msgstr "སོ་ཌི་པོ་ཌི:%s: %s: %d"
+
+#: ../src/desktop.c:1196
+#, c-format
+msgid "Document %s has unsaved changes, save them?"
+msgstr "ཡིག་ཆ་%sའདི་ལུ་  སྲུང་བཞག་མ་འབད་བའི་བསྒྱུར་བཅོས་ཚུ་འདུག་ དེ་ཚུ་སྲུང་བཞག་འབད་ག?"
+
+#. Page page
+#. Page settings
+#. Notebook tab
+#: ../src/desktop.c:1776
+#: ../src/dialogs/align.c:291
+#: ../src/dialogs/desktop-properties.c:284
+#: ../src/dialogs/document-properties.c:210
+#: ../src/dialogs/export.c:161
+#: ../src/verbs.c:471
+#: ../src/widgets/sp-dock-notebook.c:135
+msgid "Page"
+msgstr "ཤོག་ལེབ་"
+
+#: ../src/desktop.c:1780
+#: ../src/dialogs/align.c:292
+#: ../src/dialogs/export.c:166
+#: ../src/verbs.c:472
+msgid "Drawing"
+msgstr "པར་རིས་"
+
+#. Selection submenu
+#: ../src/desktop.c:1784
+#: ../src/dialogs/align.c:293
+#: ../src/dialogs/export.c:171
+#: ../src/interface.c:597
+#: ../src/toolbox.c:448
+#: ../src/verbs.c:473
+msgid "Selection"
+msgstr "སེལ་འཐུ་"
+
+#: ../src/dialogs/align.c:156
+#: ../src/toolbox.c:405
+msgid "Align objects"
+msgstr "ཕྲང་སྒྲིག་དངོས་པོ་ཚུ་"
+
+#: ../src/dialogs/align.c:175
+msgid "Right side of aligned objects to left side of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་ཚུ་གི་ཟུར་གཡས་འདི་  ཨེན་ཀོར་གྱི་ཟུར་གཡོན་ལུ་"
+
+#: ../src/dialogs/align.c:178
+msgid "Left side of aligned objects to left side of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་ཚུ་གི་ཟུར་གཡོན་འདི་  ཨེན་ཀོར་གྱི་ཟུར་གཡོན་ལུ་"
+
+#: ../src/dialogs/align.c:181
+msgid "Center horizontally"
+msgstr "ཐད་སྙོམས་སྦེ་དབུས་སྒྲིག་འབད་"
+
+#: ../src/dialogs/align.c:184
+msgid "Right side of aligned objects to right side of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་གི་ཟུར་གཡས་འདི་  ཨེན་ཀོར་གྱི་ཟུར་གཡས་ལུ་"
+
+#: ../src/dialogs/align.c:187
+msgid "Left side of aligned objects to right side of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་གི་ཟུར་གཡོན་འདི་  ཨེན་ཀོར་གྱི་ཟུར་གཡས་ལུ་"
+
+#: ../src/dialogs/align.c:191
+msgid "Bottom of aligned objects to top of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་ཚུ་གི་གཤམ་འདི་  ཨེན་ཀོར་གྱི་མགོ་ལུ་"
+
+#: ../src/dialogs/align.c:194
+msgid "Top of aligned objects to top of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་ཚུ་གི་མགོ་འདི་ཨེན་ཀོར་གྱི་མགོ་ལུ་"
+
+#: ../src/dialogs/align.c:197
+msgid "Center vertically"
+msgstr "ཀེར་ཕྲང་སྦེ་དབུས་སྒྲིག་འབད་"
+
+#: ../src/dialogs/align.c:200
+msgid "Bottom of aligned objects to bottom of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་ཚུ་གི་མཇུག་འདི་ཨེན་ཀོར་གྱི་མཇུག་ལུ་"
+
+#: ../src/dialogs/align.c:203
+msgid "Top of aligned objects to bottom of anchor"
+msgstr "ཕྲང་སྒྲིག་འབད་དེ་ཡོད་པའི་དངོས་པོ་ཚུ་གི་མགོ་འདི་  ཨེན་ཀོར་གྱི་མཇུག་ལུ་"
+
+#: ../src/dialogs/align.c:206
+msgid "Align"
+msgstr "ཕྲང་སྒྲིག་"
+
+#: ../src/dialogs/align.c:224
+msgid "Distribute left sides of objects at even distances"
+msgstr "དངོས་པོ་ཚུ་གི་གཡོན་ལུ་ཡོད་པའི་ཟུར་གཡོན་ཚུ་  ཆ་ཅན་གྱང་ཚད་གུ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:227
+msgid "Distribute centres of objects at even distances horizontally"
+msgstr "དངོས་པོ་ཚུ་གི་དབུས་འདི་ཐད་སྙོམས་སྦེ་ཆ་ཅན་གྱང་ཚད་ལུ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:230
+msgid "Distribute right sides of objects at even distances"
+msgstr "དངོས་པོ་ཚུ་གི་ཟུར་གཡས་འདི་ཚུ་ཆ་ཅན་གྱང་ཚད་གུ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:233
+msgid "Distribute horizontal distance between objects equally"
+msgstr "ཐད་སྙོམས་གྱང་ཚད་འདི་དངོས་པོ་ཚུ་གི་བར་ན་འདྲ་མཉམ་སྦེ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:237
+msgid "Distribute top sides of objects at even distances"
+msgstr "དངོས་པོ་ཚུ་གི་མགོའི་ཟུར་འདི་ཚུ་  གྱང་ཚད་ཆ་ཅན་ལུ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:240
+msgid "Distribute centres of objects at even distances vertically"
+msgstr "དངོས་པོ་ཚུ་གི་དབུས་འདི་ཀེར་ཕྲང་སྦེ་ཆ་ཅན་གྱང་ཚད་ལུ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:243
+msgid "Distribute bottom sides of objects at even distances"
+msgstr "དངོས་པོ་ཚུ་གི་གཤམ་གྱི་ཟུར་དེ་ཚུ་  ཆ་ཅན་གྱང་ཚད་ལུ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:246
+msgid "Distribute vertical distance between objects equally"
+msgstr "དངོས་པོ་ཚུ་གི་བར་ན་ཀེར་ཕྲང་གྱང་ཚད་འདི་འདྲ་མཉམ་སྦེ་བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:249
+msgid "Distribute"
+msgstr "བགོ་བཀྲམ་འབད་"
+
+#: ../src/dialogs/align.c:287
+msgid "Last selected"
+msgstr "མཇུག་ལུ་སེལ་འཐུ་འབད་ཡོདཔ་"
+
+#: ../src/dialogs/align.c:288
+msgid "First selected"
+msgstr "དང་པ་སེལ་འཐུ་འབད་ཡོདཔ་"
+
+#: ../src/dialogs/align.c:289
+msgid "Biggest item"
+msgstr "རྣམ་གྲངས་རྒྱ་ཆེ་བ་"
+
+#: ../src/dialogs/align.c:290
+msgid "Smallest item"
+msgstr "རྣམ་གྲངས་རྒྱ་ཆུང་བ་"
+
+#: ../src/dialogs/desktop-properties.c:195
+msgid "Desktop settings"
+msgstr "ཌེཀསི་ཊོཔ་སྒྲིག་སྟངས་ཚུ་"
+
+#. Grid settings
+#. Notebook tab
+#: ../src/dialogs/desktop-properties.c:204
+msgid "Grid"
+msgstr "གིརིཌི་"
+
+#: ../src/dialogs/desktop-properties.c:217
+msgid "Show grid"
+msgstr "གིརིཌི་སྟོན་"
+
+#: ../src/dialogs/desktop-properties.c:218
+msgid "Snap to grid"
+msgstr "གིརིཌི་ལུ་པར་བཏབ་"
+
+#: ../src/dialogs/desktop-properties.c:221
+msgid "Horizontal lines"
+msgstr "ཐད་སྙོམས་གྲལ་ཐིག་ཚུ་"
+
+#: ../src/dialogs/desktop-properties.c:222
+msgid "Vertical lines"
+msgstr "ཀེར་ཕྲང་གྲལ་ཐིག་ཚུ་"
+
+#: ../src/dialogs/desktop-properties.c:224
+msgid "Iso grid"
+msgstr "ཨའི་ཨེསི་ཨོ་གིརིཌི་"
+
+#: ../src/dialogs/desktop-properties.c:225
+msgid "Hex grid"
+msgstr "ཨེཆ་ཨི་ཨེགསི་གིརིཌི་"
+
+#: ../src/dialogs/desktop-properties.c:231
+msgid "Grid units:"
+msgstr "གིརིཌི་ཆ་ཕྲན་"
+
+#: ../src/dialogs/desktop-properties.c:233
+msgid "Origin X:"
+msgstr "ཨེགསི་འགོ་ཐོག་བྱུང་ས:"
+
+#: ../src/dialogs/desktop-properties.c:235
+msgid "Origin Y:"
+msgstr "ཝའི་འགོ་ཐོག་བྱུང་ས:"
+
+#: ../src/dialogs/desktop-properties.c:238
+msgid "Spacing X:"
+msgstr "ཨེགསི་བར་སྟོང་བཞག་ཐངས:"
+
+#: ../src/dialogs/desktop-properties.c:240
+msgid "Spacing Y:"
+msgstr "ཝའི་བར་སྟོང་བཞག་ཐངས:"
+
+#: ../src/dialogs/desktop-properties.c:244
+#: ../src/dialogs/desktop-properties.c:271
+msgid "Snap units:"
+msgstr "ཆ་ཕྲན་ཚུ་པར་བཏབ:"
+
+#: ../src/dialogs/desktop-properties.c:246
+#: ../src/dialogs/desktop-properties.c:273
+msgid "Snap distance:"
+msgstr "གྱང་ཚད་པར་བཏབ:"
+
+#: ../src/dialogs/desktop-properties.c:249
+msgid "Grid color:"
+msgstr "གིརིཌི་ཚོས་གཞི:"
+
+#: ../src/dialogs/desktop-properties.c:250
+msgid "Grid color"
+msgstr "གིརིཌི་ཚོས་གཞི་"
+
+#. Guidelines page
+#: ../src/dialogs/desktop-properties.c:254
+msgid "Guides"
+msgstr "ལམ་སྟོན་པ་ཚུ་"
+
+#: ../src/dialogs/desktop-properties.c:265
+msgid "Show guides"
+msgstr "ལམ་སྟོན་པ་ཚུ་སྟོན་"
+
+#: ../src/dialogs/desktop-properties.c:266
+msgid "Snap to guides"
+msgstr "ལམ་སྟོན་པ་ཚུ་ལུ་པར་བཏབ་"
+
+#: ../src/dialogs/desktop-properties.c:276
+msgid "Guides color:"
+msgstr "ཚོས་གཞི་ལམ་སྟོན་འབདཝ་ཨིན:"
+
+#: ../src/dialogs/desktop-properties.c:277
+msgid "Guideline color"
+msgstr "ཚོོས་གཞི་ལམ་སྟོན་གྲལ་ཐིག་"
+
+#: ../src/dialogs/desktop-properties.c:279
+msgid "Highlight color:"
+msgstr "ཚོས་གཞི་གཙོ་དམིགས་བཀོད:"
+
+#: ../src/dialogs/desktop-properties.c:280
+msgid "Highlighted guideline color"
+msgstr "ལམ་སྟོན་གྲལ་ཐིག་ཚོས་གཞི་གཙོ་དམིགས་བཀོད་ཡོདཔ་"
+
+#: ../src/dialogs/desktop-properties.c:295
+msgid "Show border"
+msgstr "མཐའ་མཚམས་སྟོན་"
+
+#: ../src/dialogs/desktop-properties.c:301
+msgid "Border on top of drawing"
+msgstr "པར་རིས་ཀྱི་མགོ་ལུ་མཐའ་མཚམས་"
+
+#: ../src/dialogs/desktop-properties.c:306
+msgid "Border color:"
+msgstr "མཐའ་མཚམས་ཚོས་གཞི:"
+
+#: ../src/dialogs/desktop-properties.c:307
+msgid "Page border color"
+msgstr "ཤོག་ལེབ་མཐའ་མཚམས་ཚོས་གཞི་"
+
+#: ../src/dialogs/desktop-properties.c:308
+msgid "Page color:"
+msgstr "ཤོག་ལེབ་ཚོས་གཞི:"
+
+#: ../src/dialogs/desktop-properties.c:309
+msgid "Page color"
+msgstr "ཤོག་ལེབ་ཚོས་གཞི་"
+
+#: ../src/dialogs/desktop-properties.c:580
+#: ../src/widgets/sp-color-preview.c:424
+msgid "Close"
+msgstr "ཁ་བསྡམས་"
+
+#: ../src/dialogs/display-settings.c:101
+msgid "Display settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་བཀྲམ་སྟོན་འབད་"
+
+#. Rendering settings
+#. Notebook tab
+#: ../src/dialogs/display-settings.c:108
+msgid "Rendering"
+msgstr "ལྷག་སྟོན་"
+
+#: ../src/dialogs/display-settings.c:117
+msgid "Oversample bitmaps:"
+msgstr "དཔེ་ཚད་ལྷག་སྟེ་ཡོད་པའི་བིཊི་མེཔསི:"
+
+#: ../src/dialogs/display-settings.c:125
+#: ../src/verbs.c:407
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: ../src/dialogs/display-settings.c:128
+msgid "2x2"
+msgstr "༢x༢"
+
+#: ../src/dialogs/display-settings.c:131
+msgid "4x4"
+msgstr "༤x༤"
+
+#: ../src/dialogs/display-settings.c:134
+msgid "8x8"
+msgstr "༨x༨"
+
+#: ../src/dialogs/display-settings.c:137
+msgid "16x16"
+msgstr "༡༦x༡༦"
+
+#. Input settings
+#. Notebook tab
+#: ../src/dialogs/display-settings.c:147
+msgid "Input"
+msgstr "ཨིན་པུཊི་"
+
+#: ../src/dialogs/display-settings.c:155
+msgid "Default cursor tolerance:"
+msgstr "སྔོན་སྒྲིག་འོད་རྟགས་བཟོད་ཚུགས:"
+
+#. Windows settings
+#. Notebook tab
+#: ../src/dialogs/display-settings.c:169
+msgid "Windows"
+msgstr "སྒོ་སྒྲིག་ཚུ་"
+
+#: ../src/dialogs/display-settings.c:174
+msgid "Set dialog hint for dialogs"
+msgstr "ཌའི་ལོག་ཚུ་གི་དོན་ལུ་ཌའི་ལོག་གཞི་སྒྲིག་འབད་"
+
+#: ../src/dialogs/display-settings.c:179
+msgid "Skip taskbar entry for dialogs"
+msgstr "ཌའི་ལོག་ཚུ་གི་དོན་ལུ་ལས་ཀ་འདི་གོམ་འགྱོ་"
+
+#: ../src/dialogs/document-properties.c:201
+msgid "Document settings"
+msgstr "ཡིག་ཆ་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/dialogs/document-properties.c:222
+msgid "Paper size:"
+msgstr "ཤོག་ལེབ་ཚད:"
+
+#: ../src/dialogs/document-properties.c:246
+msgid "Landscape"
+msgstr "ཀེ་ཀེ་"
+
+#: ../src/dialogs/document-properties.c:251
+msgid "Portrait"
+msgstr "ཡར་ཕྲང་"
+
+#: ../src/dialogs/document-properties.c:258
+msgid "Custom"
+msgstr "སྲོལ་སྒྲིག་"
+
+#. Custom paper frame
+#: ../src/dialogs/document-properties.c:265
+msgid "Custom paper"
+msgstr "སྲོལ་སྒྲིག་ཤོག་ལེབ་"
+
+#. Unit selector
+#: ../src/dialogs/document-properties.c:276
+#: ../src/dialogs/export.c:179
+#: ../src/dialogs/object-properties.c:323
+#: ../src/dialogs/transformation.c:347
+#: ../src/dialogs/transformation.c:494
+msgid "Units:"
+msgstr "ཆ་ཕྲན་ཚུ:"
+
+#. Stroke width
+#. Width
+#: ../src/dialogs/document-properties.c:285
+#: ../src/dialogs/export.c:189
+#: ../src/dialogs/export.c:213
+#: ../src/dialogs/object-attributes.c:71
+#: ../src/dialogs/object-attributes.c:79
+#: ../src/dialogs/object-properties.c:356
+#: ../src/dialogs/stroke-style.c:567
+#: ../src/dialogs/tool-attributes.c:125
+#: ../src/dyna-draw-context.c:1087
+msgid "Width:"
+msgstr "རྒྱ་ཚད:"
+
+#: ../src/dialogs/document-properties.c:300
+#: ../src/dialogs/export.c:198
+#: ../src/dialogs/export.c:221
+#: ../src/dialogs/object-attributes.c:72
+#: ../src/dialogs/object-attributes.c:80
+#: ../src/dialogs/object-properties.c:368
+msgid "Height:"
+msgstr "མཐོ་ཚད:"
+
+#: ../src/dialogs/document-tree.c:60
+#: ../src/verbs.c:476
+msgid "Document"
+msgstr "ཡིག་ཆ་"
+
+#: ../src/dialogs/export.c:141
+msgid "Export bitmap"
+msgstr "བིཊི་མེཔ་ཕྱིར་འདྲེན་འབད་"
+
+#. Export area frame
+#: ../src/dialogs/export.c:150
+msgid "Export area"
+msgstr "མངའ་ཁོངས་ཕྱིར་འདྲེན་འབད་"
+
+#: ../src/dialogs/export.c:183
+msgid "x0:"
+msgstr "x0:"
+
+#: ../src/dialogs/export.c:186
+msgid "x1:"
+msgstr "x1:"
+
+#: ../src/dialogs/export.c:192
+msgid "y0:"
+msgstr "y0:"
+
+#: ../src/dialogs/export.c:195
+msgid "y1:"
+msgstr "y1:"
+
+#. Bitmap size frame
+#: ../src/dialogs/export.c:204
+msgid "Bitmap size"
+msgstr "བིཊི་མེཔ་ཚད་"
+
+#: ../src/dialogs/export.c:213
+#: ../src/dialogs/export.c:221
+msgid "pixels"
+msgstr "པིག་སེལསི་"
+
+#: ../src/dialogs/export.c:217
+#: ../src/dialogs/export.c:225
+msgid "dpi"
+msgstr "ཌི་པི་ཨའི་"
+
+#: ../src/dialogs/export.c:233
+msgid "Background color"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../src/dialogs/export.c:235
+msgid "Bitmap background:"
+msgstr "བིཊི་མེཔ་རྒྱབ་གཞི:"
+
+#: ../src/dialogs/export.c:240
+msgid "Export png file"
+msgstr "པི་ཨེན་ཇི་ཡིག་སྣོད་ཕྱིར་འདྲེན་འབད་"
+
+#: ../src/dialogs/export.c:267
+#: ../src/verbs.c:417
+msgid "Export"
+msgstr "ཕྱིར་འདྲེན་འབད་"
+
+#: ../src/dialogs/export.c:401
+msgid "Export in progress"
+msgstr "ཡར་འཕེལ་ནང་ཕྱིར་འདྲེན་འབད་"
+
+#: ../src/dialogs/export.c:405
+#, c-format
+msgid "Exporting [%d x %d] %s"
+msgstr "[%d x %d] %sཕྱིར་འདྲེན་འབད་དོ་"
+
+#: ../src/dialogs/fill-style.c:87
+msgid "Fill style"
+msgstr "བཟོ་རྣམ་བཀང་"
+
+#: ../src/dialogs/fill-style.c:124
+msgid "Fill Rule"
+msgstr "ལམ་ལུགས་བཀང་"
+
+#: ../src/dialogs/fill-style.c:138
+msgid "nonzero"
+msgstr "ཀླད་ཀོར་མེདཔ་"
+
+#: ../src/dialogs/fill-style.c:143
+msgid "evenodd"
+msgstr "ཆ་རྐྱང་"
+
+#: ../src/dialogs/item-properties.c:84
+#: ../src/dialogs/item-properties.c:269
+#: ../src/dialogs/item-properties.c:368
+#: ../src/dialogs/item-properties.c:375
+msgid "ID"
+msgstr "ཨའི་ཌི་"
+
+#: ../src/dialogs/item-properties.c:95
+msgid "Set ID"
+msgstr "ཨའི་ཌི་གཞི་སྒྲིག་འབད་"
+
+#. Sensitive
+#: ../src/dialogs/item-properties.c:104
+msgid "Sensitive"
+msgstr "ཚོར་ཅན་"
+
+#. Visible
+#: ../src/dialogs/item-properties.c:109
+#: ../src/widgets/sp-dock-layout.c:734
+msgid "Visible"
+msgstr "མཐོང་ཚུགས་"
+
+#. Active
+#: ../src/dialogs/item-properties.c:114
+msgid "Active"
+msgstr "ཤུགས་ལྡན་"
+
+#. Printable
+#: ../src/dialogs/item-properties.c:119
+msgid "Printable"
+msgstr "དཔར་བསྐྲུན་འབད་བཏུབ་"
+
+#: ../src/dialogs/item-properties.c:128
+msgid "Opacity:"
+msgstr "དྭངས་སྒྲིབ:"
+
+#: ../src/dialogs/item-properties.c:144
+msgid "Transformation matrix"
+msgstr "མེ་ཊིགསི་བཟོ་བསྒྱུར་"
+
+#: ../src/dialogs/item-properties.c:263
+msgid "Ref"
+msgstr "ཨར་ཨི་ཨེཕ་"
+
+#: ../src/dialogs/item-properties.c:370
+msgid "ID invalid"
+msgstr "ཨའི་ཌི་ནུས་ཅན་མེདཔ་"
+
+#: ../src/dialogs/item-properties.c:372
+msgid "ID exists"
+msgstr "ཨའི་ཌི་གནས་ཏེ་ཡོད་"
+
+#: ../src/dialogs/item-properties.c:448
+#: ../src/verbs.c:487
+msgid "Item properties"
+msgstr "རྣམ་གྲངས་རྒྱུ་དངོས་"
+
+#: ../src/dialogs/object-attributes.c:34
+msgid "Href:"
+msgstr "ཨེཆ་ཨི་ཨར་ཨེཕ:"
+
+#: ../src/dialogs/object-attributes.c:35
+msgid "Target:"
+msgstr "དམིགས་གཏད:"
+
+#: ../src/dialogs/object-attributes.c:36
+msgid "Type:"
+msgstr "དབྱེ་བ:"
+
+#: ../src/dialogs/object-attributes.c:37
+msgid "Role:"
+msgstr "ལས་འགན:"
+
+#: ../src/dialogs/object-attributes.c:38
+msgid "Arcrole:"
+msgstr "ཨར་ཀོརོལ:"
+
+#: ../src/dialogs/object-attributes.c:39
+msgid "Title:"
+msgstr "མགོ་མིང་:"
+
+#: ../src/dialogs/object-attributes.c:40
+#: ../src/dialogs/tool-attributes.c:115
+msgid "Show:"
+msgstr "སྟོན:"
+
+#: ../src/dialogs/object-attributes.c:41
+msgid "Actuate:"
+msgstr "རྒྱུད་བསྐུལ་འབད་ནི:"
+
+#: ../src/dialogs/object-attributes.c:46
+msgid "Sides:"
+msgstr "ཟུར་ཚུ:"
+
+#: ../src/dialogs/object-attributes.c:47
+#: ../src/dialogs/object-attributes.c:57
+msgid "Center X:"
+msgstr "ཨེགསི་དབུས་སྒྲིག་འབད:"
+
+#: ../src/dialogs/object-attributes.c:48
+#: ../src/dialogs/object-attributes.c:58
+msgid "Center Y:"
+msgstr "ཝའི་དབུས་སྒྲིག་འབད:"
+
+#: ../src/dialogs/object-attributes.c:49
+msgid "R1:"
+msgstr "ཨར་༡:"
+
+#: ../src/dialogs/object-attributes.c:50
+msgid "R2:"
+msgstr "ཨར་༢:"
+
+#: ../src/dialogs/object-attributes.c:51
+msgid "ARG1:"
+msgstr "ཨེ་ཨར་ཇི་ ༡:"
+
+#: ../src/dialogs/object-attributes.c:52
+msgid "ARG2:"
+msgstr "ཨེ་ཨར་ཇི་ ༢:"
+
+#. Expansion
+#: ../src/dialogs/object-attributes.c:59
+#: ../src/spiral-context.c:343
+msgid "Expansion:"
+msgstr "རྒྱ་བསྐྱེད:"
+
+#. Revolution
+#: ../src/dialogs/object-attributes.c:60
+#: ../src/dialogs/tool-attributes.c:95
+#: ../src/spiral-context.c:331
+msgid "Revolution:"
+msgstr "རྩ་བསྒྱུར:"
+
+#: ../src/dialogs/object-attributes.c:61
+msgid "Radius:"
+msgstr "མཐའ་འཁོར:"
+
+#: ../src/dialogs/object-attributes.c:62
+msgid "Argument:"
+msgstr "སྒྲུབ་རྟགས:"
+
+#: ../src/dialogs/object-attributes.c:63
+msgid "T0:"
+msgstr "ཊི་ ༠:"
+
+#: ../src/dialogs/object-attributes.c:68
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ:"
+
+#: ../src/dialogs/object-attributes.c:69
+#: ../src/dialogs/object-attributes.c:77
+#: ../src/dialogs/object-properties.c:332
+msgid "X:"
+msgstr "ཨེགསི:"
+
+#: ../src/dialogs/object-attributes.c:70
+#: ../src/dialogs/object-attributes.c:78
+#: ../src/dialogs/object-properties.c:344
+msgid "Y:"
+msgstr "ཝའི:"
+
+#: ../src/dialogs/object-attributes.c:81
+msgid "RX:"
+msgstr "ཨར་ཨེགསི:"
+
+#: ../src/dialogs/object-attributes.c:82
+msgid "RY:"
+msgstr "ཨར་ཝའི:"
+
+#: ../src/dialogs/object-attributes.c:117
+#, c-format
+msgid "%s attributes"
+msgstr "%s ཁྱད་ཆོས་ཚུ་"
+
+#: ../src/dialogs/object-properties.c:113
+msgid "Object style"
+msgstr "དངོས་པོའི་བཟོ་རྣམ་"
+
+#: ../src/dialogs/object-properties.c:128
+msgid "Fill"
+msgstr "བཀང་"
+
+#: ../src/dialogs/object-properties.c:142
+msgid "Stroke paint"
+msgstr "སིཊོཀ་ཚོན་"
+
+#: ../src/dialogs/object-properties.c:156
+msgid "Stroke style"
+msgstr "སིཊོཀ་བཟོ་རྣམ་"
+
+#: ../src/dialogs/object-properties.c:176
+msgid "Apply to:"
+msgstr "འཇུག་སྤྱོད་འབད:"
+
+#: ../src/dialogs/object-properties.c:186
+msgid "Selected objects"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་"
+
+#: ../src/dialogs/object-properties.c:189
+msgid "All shape tools"
+msgstr "དབྱིབས་ཆ་ཚང་གི་ལག་ཆས་ཚུ་"
+
+#: ../src/dialogs/object-properties.c:192
+msgid "Rectangle tool"
+msgstr "གྲུ་བཞི་ནར་མོའི་ལག་ཆས་"
+
+#: ../src/dialogs/object-properties.c:195
+msgid "Arc tool"
+msgstr "གཞུ་དབྱིབས་ལག་ཆས་"
+
+#: ../src/dialogs/object-properties.c:198
+msgid "Star tool"
+msgstr "སིཊར་ལག་ཆས་"
+
+#: ../src/dialogs/object-properties.c:201
+msgid "Spiral tool"
+msgstr "སྒྲིལ་བའི་ལག་ཆས་"
+
+#: ../src/dialogs/object-properties.c:204
+msgid "Freehand and pen"
+msgstr "ཕི་རི་ཧེནཌི་དང་སྨྱུག་བྲིས་"
+
+#: ../src/dialogs/object-properties.c:207
+msgid "Calligraphic line"
+msgstr "ཡིག་འབྲི་ལག་རྩལ་གྲལ་ཐིག་"
+
+#: ../src/dialogs/object-properties.c:210
+#: ../src/verbs.c:462
+msgid "Text"
+msgstr "ཚིག་ཡིག་"
+
+#: ../src/dialogs/object-properties.c:289
+msgid "Object Size and Position"
+msgstr "དངོས་པོའི་ཚད་དང་གནས་ས་"
+
+#: ../src/dialogs/object-properties.c:312
+#: ../src/verbs.c:481
+msgid "Size and Position"
+msgstr "ཚད་དང་གནས་ས་"
+
+#: ../src/dialogs/stroke-style.c:554
+#: ../src/toolbox.c:401
+msgid "Stroke settings"
+msgstr "སིཊོཀ་སྒྲིག་སྟངས་ཚུ་"
+
+#. Join type
+#: ../src/dialogs/stroke-style.c:590
+msgid "Join:"
+msgstr "མཐུད:"
+
+#. Cap type
+#: ../src/dialogs/stroke-style.c:633
+msgid "Cap:"
+msgstr "སྤུབ་ནི:"
+
+#. Dash
+#: ../src/dialogs/stroke-style.c:676
+msgid "Pattern:"
+msgstr "དཔེ་གཞི:"
+
+#: ../src/dialogs/text-edit.c:102
+msgid "Text properties"
+msgstr "ཚིག་ཡིག་རྒྱུ་དངོས་"
+
+#. Layout
+#: ../src/dialogs/text-edit.c:141
+msgid "Layout"
+msgstr "སྒྲིག་བཀོད་"
+
+#: ../src/dialogs/text-edit.c:149
+msgid "Alignment:"
+msgstr "ཕྲང་སྒྲིག:"
+
+#: ../src/dialogs/text-edit.c:174
+msgid "Orientation:"
+msgstr "ཕྱོགས:"
+
+#: ../src/dialogs/text-edit.c:192
+msgid "Line spacing:"
+msgstr "གྲལ་ཐིག་བར་སྟོང་བཞག་ཐང་:"
+
+#: ../src/dialogs/text-edit.c:212
+msgid "Spacing:"
+msgstr "བར་སྟོང་བཞག་ཐང་:"
+
+#: ../src/dialogs/text-edit.c:235
+msgid "Text and font"
+msgstr "ཚིག་ཡིག་དང་ཡིག་གཟུགས་"
+
+#: ../src/dialogs/text-edit.c:246
+msgid "Set as default"
+msgstr "སྔོན་སྒྲིག་སྦེ་གཞི་སྒྲིག་འབད་"
+
+#: ../src/dialogs/tool-attributes.c:48
+#: ../src/verbs.c:479
+msgid "Tool attributes"
+msgstr "ལག་ཆས་ཁྱད་ཆོས་ཚུ་"
+
+#: ../src/dialogs/tool-attributes.c:95
+msgid "Expansion"
+msgstr "རྒྱ་བསྐྱེད་"
+
+#: ../src/dialogs/tool-attributes.c:95
+msgid "Inner radius"
+msgstr "ནང་གི་མཐའ་འཁོར་"
+
+#: ../src/dialogs/tool-attributes.c:99
+#: ../src/dialogs/tool-attributes.c:109
+#: ../src/dialogs/tool-attributes.c:119
+#: ../src/dialogs/tool-attributes.c:129
+msgid "Missing tool preferences"
+msgstr "བརླག་སྟོར་ཞུགས་ཡོད་པའི་ལག་ཆས་དགའ་གདམ་ཚུ་"
+
+#. Magnitude
+#: ../src/dialogs/tool-attributes.c:105
+#: ../src/star-context.c:343
+msgid "Corners:"
+msgstr "སྒྱིད་ཁུག་ཚུ:"
+
+#: ../src/dialogs/tool-attributes.c:105
+msgid "Proportion"
+msgstr "སྙོམས་ཚད་"
+
+#: ../src/dialogs/tool-attributes.c:115
+msgid "Transform:"
+msgstr "བཟོ་བསྒྱུར་འབད:"
+
+#. Mass
+#: ../src/dialogs/tool-attributes.c:125
+#: ../src/dyna-draw-context.c:1051
+msgid "Mass:"
+msgstr "རྒྱ་ཆེ་བ:"
+
+#. Drag
+#: ../src/dialogs/tool-attributes.c:125
+#: ../src/dyna-draw-context.c:1063
+msgid "Drag:"
+msgstr "འདྲུད:"
+
+#: ../src/dialogs/tool-attributes.c:125
+msgid "Angle"
+msgstr "གྲུ་ཟུར་"
+
+#: ../src/dialogs/tool-attributes.c:132
+msgid "Tool has no attributes"
+msgstr "ལག་ཆས་དེ་ལུ་ཁྱད་ཆོས་མེད་"
+
+#: ../src/dialogs/tool-attributes.c:135
+#: ../src/dialogs/tool-options.c:93
+msgid "No active tool"
+msgstr "ཤུགས་ལྡན་ལག་ཆས་མིན་འདུག་"
+
+#: ../src/dialogs/tool-options.c:47
+#: ../src/verbs.c:478
+msgid "Tool options"
+msgstr "ལག་ཆས་གདམ་ཁ་ཚུ་"
+
+#: ../src/dialogs/tool-options.c:90
+msgid "Tool has no options"
+msgstr "ལག་ཆས་དེ་ལུ་གདམ་ཁ་མེད་"
+
+#: ../src/dialogs/transformation.c:195
+msgid "Transform selection"
+msgstr "སེལ་འཐུ་བཟོ་བསྒྱུར་འབད་"
+
+#. Apply to duplicate
+#: ../src/dialogs/transformation.c:216
+msgid "Apply to duplicate"
+msgstr "ངོ་བཤུས་ལུ་འཇུག་སྤྱོད་འབད་"
+
+#: ../src/dialogs/transformation.c:313
+msgid "Move"
+msgstr "སྤོ་བཤུད་འབད་"
+
+#: ../src/dialogs/transformation.c:457
+msgid "Scale"
+msgstr "ཆ་ཚད་"
+
+#: ../src/dialogs/transformation.c:584
+msgid "Rotate"
+msgstr "བསྒྱིར་"
+
+#: ../src/dialogs/transformation.c:602
+msgid "deg"
+msgstr "ཌི་ཨི་ཇི་"
+
+#: ../src/dialogs/xml-tree.c:157
+msgid "Drag to reorder nodes"
+msgstr "མཐུད་མཚམས་གོ་རིམ་བསྐྱར་སྒྲིག་འབད་ནི་ལུ་འདྲུད་ད་"
+
+#: ../src/dialogs/xml-tree.c:170
+msgid "New element node"
+msgstr "ཆ་ཤས་གསརཔ་གི་མཐུད་མཚམས་"
+
+#: ../src/dialogs/xml-tree.c:188
+msgid "New text node"
+msgstr "ཚིག་ཡིག་གསརཔ་གི་མཐུད་མཚམས་"
+
+#: ../src/dialogs/xml-tree.c:205
+msgid "Duplicate node"
+msgstr "མཐུད་མཚམས་རྫུན་མ་"
+
+#: ../src/dialogs/xml-tree.c:221
+msgid "Delete node"
+msgstr "མཐུད་མཚམས་བཏོན་གཏང་"
+
+#: ../src/dialogs/xml-tree.c:234
+msgid "Unindent node"
+msgstr "མཐུད་མཚམས་འགོ་མཚམས་བཤོལ་"
+
+#: ../src/dialogs/xml-tree.c:245
+msgid "Indent node"
+msgstr "འགོ་མཚམས་མཐུད་མཚམས་"
+
+#: ../src/dialogs/xml-tree.c:255
+msgid "Raise node"
+msgstr "མཐུད་བཚམས་ཆེར་བསྐྱེད་འབད་"
+
+#: ../src/dialogs/xml-tree.c:266
+msgid "Lower node"
+msgstr "འོག་གི་མཐུད་མཚམས་"
+
+#: ../src/dialogs/xml-tree.c:303
+msgid "Delete attribute"
+msgstr "ཁྱད་ཆོས་བཏོན་གཏང་"
+
+#: ../src/dialogs/xml-tree.c:333
+msgid "Attribute name"
+msgstr "ཁྱད་ཆོས་ཀྱི་མིང་"
+
+#: ../src/dialogs/xml-tree.c:340
+msgid "Set attribute"
+msgstr "ཁྱད་ཆོས་གཞི་སྒྲིག་འབད་"
+
+#: ../src/dialogs/xml-tree.c:353
+msgid "Attribute value"
+msgstr "ཁྱད་ཆོས་གནས་གོང་"
+
+#: ../src/dialogs/xml-tree.c:833
+#, c-format
+msgid "Sodipodi: %s : XML View"
+msgstr "སོ་ཌི་པོ་ཌི: %s : ཨེགསི་ཨེམ་ཨེལ་མཐོང་སྣང་"
+
+#: ../src/dialogs/xml-tree.c:856
+msgid "New element node..."
+msgstr "ཆ་ཤས་གསརཔ་གི་མཐུད་མཚམས..."
+
+#: ../src/dialogs/xml-tree.c:876
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: ../src/dialogs/xml-tree.c:880
+msgid "Create"
+msgstr "གསར་བསྐྲུན་འབད་"
+
+#: ../src/document.c:389
+#, c-format
+msgid "New document %d"
+msgstr "%dཡིག་ཆ་གསརཔ་"
+
+#: ../src/document.c:425
+#, c-format
+msgid "Memory document %d"
+msgstr "%dདྲན་ཚད་ཡིག་ཆ་"
+
+#: ../src/document.c:572
+#, c-format
+msgid "Unnamed document %d"
+msgstr "%dམིང་མ་བཏགས་པའི་ཡིག་ཆ་"
+
+#: ../src/draw-context.c:294
+msgid "Appending to selection. Press 'a' to toggle Append/New."
+msgstr "སེལ་འཐུ་ལུ་མཇུག་བསྣོན་འབད་དོ།  མཇུག་བསྣོན་འབད/གསརཔ་སོར་སྟོན་འབད་ནི་ལུ་ 'a' ཨེབ་གཏང་འབད།"
+
+#: ../src/draw-context.c:299
+msgid "Creating new curve. Press 'a' to toggle Append/New."
+msgstr "གུག་གུགཔ་གསརཔ་གསར་བསྐྲུན་འབད་དོ།  མཇུག་བསྣོན་འབད་/གསརཔ་སོར་སྟོན་འབད་ནི་ལུ་ 'a' ཨེབ་གཏང་འབད།"
+
+#. Angle
+#: ../src/dyna-draw-context.c:1075
+msgid "Angle:"
+msgstr "གྲུ་ཟུར:"
+
+#. Reset
+#: ../src/dyna-draw-context.c:1099
+#: ../src/rect-context.c:382
+#: ../src/spiral-context.c:367
+#: ../src/star-context.c:374
+msgid "Defaults"
+msgstr "སྔོན་སྒྲིག་ཚུ་"
+
+#: ../src/file.c:123
+#: ../src/file.c:137
+#: ../src/file.c:149
+msgid "Select file to open"
+msgstr "ཁ་ཕྱེ་ནི་ལུ་ཡིག་སྣོད་སེལ་འཐུ་འབད་"
+
+#: ../src/file.c:174
+#: ../src/file.c:278
+msgid "File type:"
+msgstr "ཡིག་སྣོད་དབྱེ་བ:"
+
+#: ../src/file.c:263
+msgid "Save file"
+msgstr "ཡིག་སྣོད་སྲུང་"
+
+#: ../src/file.c:468
+#: ../src/file.c:478
+#: ../src/file.c:484
+msgid "Select file to import"
+msgstr "ནང་འདྲེན་འབད་ནི་ལུ་ཡིག་སྣོད་སེལ་འཐུ་འབད་"
+
+#: ../src/help.c:51
+msgid "About sodipodi"
+msgstr "སོ་ཌི་པོ་ཌི་གི་སྐོར་ལས་"
+
+#. Do not insert any elements before/between first 4
+#: ../src/helper/units.c:42
+msgid "Unit"
+msgstr "ཆ་ཕྲན་"
+
+#: ../src/helper/units.c:42
+msgid "Units"
+msgstr "ཆ་ཕྲན་ཚུ་"
+
+#: ../src/helper/units.c:43
+msgid "Point"
+msgstr "ཡིག་ཚད་"
+
+#: ../src/helper/units.c:43
+msgid "pt"
+msgstr "པི་ཊི་"
+
+#: ../src/helper/units.c:43
+msgid "Points"
+msgstr "ཡིག་ཚད་ཚུ་"
+
+#: ../src/helper/units.c:43
+msgid "Pt"
+msgstr "པི་ཊི་"
+
+#: ../src/helper/units.c:44
+msgid "Pixel"
+msgstr "པིག་སེལ་"
+
+#: ../src/helper/units.c:44
+msgid "px"
+msgstr "པི་ཨེགསི་"
+
+#: ../src/helper/units.c:44
+msgid "Pixels"
+msgstr "པིག་སེལསི་"
+
+#: ../src/helper/units.c:44
+msgid "Px"
+msgstr "པི་ཨེགསི་"
+
+#: ../src/helper/units.c:45
+msgid "Userspace unit"
+msgstr "ལག་ལེན་པའི་བར་སྟོང་ཆ་ཕྲན་"
+
+#: ../src/helper/units.c:45
+msgid "User"
+msgstr "ལག་ལེན་པ་"
+
+#: ../src/helper/units.c:45
+msgid "Userspace units"
+msgstr "ལག་ལེན་པའི་བར་སྟོང་ཆ་ཕྲན་ཚུ་"
+
+#. Volatiles do not have default, so there are none here
+#. You can add new elements from this point forward
+#: ../src/helper/units.c:48
+msgid "Percent"
+msgstr "བརྒྱ་ཆ་"
+
+#: ../src/helper/units.c:48
+msgid "%"
+msgstr "%"
+
+#: ../src/helper/units.c:48
+msgid "Percents"
+msgstr "བརྒྱ་ཆ་ཚུ་"
+
+#: ../src/helper/units.c:49
+msgid "Millimeter"
+msgstr "མི་ལི་མི་ཊར་"
+
+#: ../src/helper/units.c:49
+msgid "mm"
+msgstr "ཨེམ་ཨེམ་"
+
+#: ../src/helper/units.c:49
+msgid "Millimeters"
+msgstr "མི་ལི་མི་ཊར་ཚུ་"
+
+#: ../src/helper/units.c:50
+msgid "Centimeter"
+msgstr "སེན་ཊི་མི་ཊར་ཚུ་"
+
+#: ../src/helper/units.c:50
+msgid "cm"
+msgstr "སི་ཨེམ་"
+
+#: ../src/helper/units.c:50
+msgid "Centimeters"
+msgstr "སེན་ཊི་མི་ཊར་ཚུ་"
+
+#: ../src/helper/units.c:51
+msgid "Meter"
+msgstr "མི་ཊར་"
+
+#: ../src/helper/units.c:51
+msgid "m"
+msgstr "ཨེམ་"
+
+#: ../src/helper/units.c:51
+msgid "meters"
+msgstr "མི་ཊར་ཚུ་"
+
+#: ../src/helper/units.c:52
+msgid "Inch"
+msgstr "ཨིནཅི་"
+
+#: ../src/helper/units.c:52
+msgid "in"
+msgstr "ཨའི་ཨེན་"
+
+#: ../src/helper/units.c:52
+msgid "Inches"
+msgstr "ཨིནཅི་ཚུ་"
+
+#: ../src/helper/units.c:53
+msgid "Em square"
+msgstr "ཨི་ཨེམ་གྲུ་བཞི་"
+
+#: ../src/helper/units.c:53
+msgid "em"
+msgstr "ཨི་ཨེམ་"
+
+#: ../src/helper/units.c:53
+msgid "Em squares"
+msgstr "ཨི་ཨེམ་གྲུ་བཞི་ཚུ་"
+
+#: ../src/helper/units.c:54
+msgid "Ex square"
+msgstr "ཨི་ཨེགསི་གྲུ་བཞི་"
+
+#: ../src/helper/units.c:54
+msgid "ex"
+msgstr "ཨི་ཨེགསི་"
+
+#: ../src/helper/units.c:54
+msgid "Ex squares"
+msgstr "ཨི་ཨེགསི་གྲུ་བཞི་ཚུ་"
+
+#: ../src/interface.c:305
+#: ../src/interface.c:504
+msgid "Open Recent"
+msgstr "འཕྲལ་གྱི་ཁ་ཕྱེ་"
+
+#: ../src/interface.c:325
+msgid "Close View"
+msgstr "མཐོང་སྣང་ཁ་བསྡམས་"
+
+#: ../src/interface.c:328
+#: ../src/interface.c:510
+msgid "About Sodipodi"
+msgstr "སོ་ཌི་པོ་ཌི་གི་སྐོར་ལས་"
+
+#. Have modules about menu
+#: ../src/interface.c:334
+#: ../src/interface.c:516
+msgid "About Modules"
+msgstr "ཚད་གཞི་ཚུ་གི་སྐོར་ལས་"
+
+#: ../src/interface.c:354
+msgid "Cleanup"
+msgstr "གཙང་དག་བཟོ་"
+
+#. View:Zoom
+#: ../src/interface.c:429
+#: ../src/toolbox.c:587
+#: ../src/verbs.c:463
+msgid "Zoom"
+msgstr "རྒྱས་ཟུམ་"
+
+#. View:New View
+#: ../src/interface.c:441
+msgid "New View"
+msgstr "མཐོང་སྣང་གསརཔ་"
+
+#. View:New Preview
+#: ../src/interface.c:443
+msgid "New Preview"
+msgstr "སྔོན་ལྟ་གསརཔ་"
+
+#: ../src/interface.c:445
+msgid "New Toplevel Toolbox"
+msgstr "མགོའི་གནས་གོང་གསར་པའི་ལག་ཆས་སྒྲོམ་"
+
+#: ../src/interface.c:446
+msgid "New Docked Toolbox"
+msgstr "ཌོཀ་གསར་པའི་ལག་ཆས་སྒྲོམ་"
+
+#: ../src/interface.c:447
+msgid "Remove Docked Toolbox"
+msgstr "ཌོཀ་ལག་ཆས་སྒྲོམ་འདི་རྩ་བསྐྲད་གཏང་"
+
+#. File
+#: ../src/interface.c:501
+#: ../src/verbs.c:409
+msgid "New"
+msgstr "གསརཔ་"
+
+#: ../src/interface.c:502
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#. For some reason action menu does not work on menubar :-(
+#: ../src/interface.c:522
+#: ../src/verbs.c:418
+msgid "Exit program"
+msgstr "ལས་རིམ་ཕྱིར་ཐོན་"
+
+#. Generic menu
+#. File submenu
+#: ../src/interface.c:585
+#: ../src/toolbox.c:311
+msgid "File"
+msgstr "ཡིག་སྣོད་"
+
+#. Edit submenu
+#: ../src/interface.c:591
+#: ../src/toolbox.c:362
+#: ../src/widgets/gradient-selector.c:138
+msgid "Edit"
+msgstr "ཞུན་དག་འབད་"
+
+#. View submenu
+#: ../src/interface.c:603
+msgid "View"
+msgstr "སྟོན་"
+
+#. Drawing mode submenu
+#: ../src/interface.c:609
+msgid "Drawing Mode"
+msgstr "པར་རིས་ཐབས་ལམ་"
+
+#. Dialog submenu
+#: ../src/interface.c:615
+msgid "Dialogs"
+msgstr "ཌའི་ལོག་ཚུ་"
+
+#. Have modules menu
+#: ../src/interface.c:624
+msgid "Modules"
+msgstr "ཚད་གཞི་ཚུ་"
+
+#: ../src/main.c:120
+#: ../src/main.c:612
+msgid "Do not use X server (only process files from console)"
+msgstr "ཨེགསི་སར་བར་འདི་ལག་ལེན་མ་འཐབ་ (མ་སྒྲོམ་ལས་ལས་སྦྱོར་ཡིག་སྣོད་ཚུ་རྐྱངམ་ཅིག་)"
+
+#: ../src/main.c:123
+#: ../src/main.c:613
+msgid "Try to use X server even if $DISPLAY is not set)"
+msgstr "$DISPLAY འདི་གཞི་སྒྲིག་འབད་དེ་མེད་རུང་) ཨེགསི་སར་བར་འདི་ལག་ལེན་འཐབ་ནི་ལུ་འབད་རྩོལ་བསྐྱེད།"
+
+#: ../src/main.c:126
+#: ../src/main.c:614
+msgid "Open specified document(s) (option string may be excluded)"
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་ཡིག་ཆ་(ཚུ་)ཁ་ཕྱེ་  (གདམ་ཁའི་ཡིག་རྒྱུན་འདི་གྲངས་ལས་བཏོན་ནི)"
+
+#: ../src/main.c:127
+#: ../src/main.c:130
+#: ../src/main.c:133
+#: ../src/main.c:147
+msgid "FILENAME"
+msgstr "ཡིག་སྣོད་མིང་"
+
+#: ../src/main.c:129
+msgid "Print document(s) to specified output file (use '| program' for pipe)"
+msgstr "ཡིག་ཆ་(ཚུ་) གསལ་བཀོད་འབད་ཡོད་པའི་ཨའུཊི་པུཊི་ཡིག་སྣོད་(རྒྱུད་དུང་གི་དོན་ལུ་ '| program' ལག་ལེན་འཐབ་)ལུ་དཔར་བསྐྲུན་འབད།"
+
+#: ../src/main.c:132
+#: ../src/main.c:615
+msgid "Export document to png file"
+msgstr "ཡིག་ཆ་འདི་པི་ཨེན་ཇི་ཡིག་སྣོད་ལུ་ཕྱིར་འདྲེན་འབད།"
+
+#: ../src/main.c:135
+#: ../src/main.c:616
+msgid "The resolution used for converting SVG into bitmap (default 72.0)"
+msgstr "ཨེསི་ཝི་ཇི་འདི་བིཊི་མེཔ་(default 72.0)ནང་ལུ་གཞི་བསྒྱུར་འབད་ནི་དོན་ལུ་  ལག་ལེན་འཐབ་ཡོད་པའི་ཧུམ་ཆ།"
+
+#: ../src/main.c:136
+msgid "DPI"
+msgstr "ཌི་པི་ཨའི་"
+
+#: ../src/main.c:138
+#: ../src/main.c:617
+msgid "Exported area in millimeters (default is full document, 0,0 is lower-left corner)"
+msgstr "མི་ལི་མི་ཊར་ཚུ་ནང་ཕྱིར་འདྲེན་འབད་ཡོད་པའི་མངའ་ཁོངས་(སྔོན་སྒྲིག་འདི་ཡིག་ཆ་ཆ་ཚང་ཨིན་༠,༠ འདི་འོག་གི་གཡོན་པའི་སྒྱིད་ཁུག་ཨིན)"
+
+#: ../src/main.c:139
+msgid "x0:y0:x1:y1"
+msgstr "x0:y0:x1:y1"
+
+#: ../src/main.c:141
+#: ../src/main.c:618
+msgid "The width of generated bitmap in pixels (overwrites dpi)"
+msgstr "པིག་སེལ་ཚུ་ནང་བཟོ་བཏོན་འབད་ཡོད་པའི་བིཊི་མེཔ་གི་རྒྱ་ཚད་(ཌི་པི་ཨའི་ཚབ་སྲུང་འབདཝ་ཨིན)"
+
+#: ../src/main.c:141
+msgid "WIDTH"
+msgstr "རྒྱ་ཚད་"
+
+#: ../src/main.c:143
+#: ../src/main.c:619
+msgid "The height of generated bitmap in pixels (overwrites dpi)"
+msgstr "པིག་སེལ་ཚུ་ནང་  བཟོ་བཏོན་འབད་ཡོད་པའི་བིཊི་མེཔ་གི་མཐོ་ཚད་(ཌི་པི་ཨའི་ཚབ་སྲུང་འབད)"
+
+#: ../src/main.c:143
+msgid "HEIGHT"
+msgstr "མཐོ་ཚད་"
+
+#: ../src/main.c:145
+#: ../src/main.c:620
+msgid "Background color of exported bitmap (any SVG supported color string)"
+msgstr "ཕྱིར་འདྲེན་འབད་ཡོད་པའི་བིཊི་མེཔ་གི་རྒྱབ་གཞི་ཚོས་གཞི་(ཨེསི་ཝི་ཇི་རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་ཚོས་གཞི་ཡིག་རྒྱུན་གང་རུང་)"
+
+#: ../src/main.c:145
+msgid "COLOR"
+msgstr "ཚོས་གཞི་"
+
+#: ../src/main.c:147
+#: ../src/main.c:621
+msgid "Export document to plain SVG file (no \"xmlns:sodipodi\" namespace)"
+msgstr "ཨེསི་ཝི་ཇི་ཡིག་སྣོད་ཉག་རྐྱང་ལུ་ཡིག་ཆ་ཕྱིར་འདྲེན་འབད་ (no \"xmlns:sodipodi\" མིང་བར་སྟོང་)"
+
+#: ../src/main.c:149
+msgid "Show given files one-by-one, switch to next on any key/mouse event"
+msgstr "བྱིན་ཡོད་པའི་ཡིག་སྣོད་ཚུ་རེ་རེ་སྦེ་སྟོན་  གཞན་མི་དོན་ལུ་  ལྡེ་མིག་/མཱའུསི་བྱུང་ལས་གང་རུང་ཅིག་གུ་གློག་རྟ་བཀལ།"
+
+#: ../src/main.c:151
+msgid "Prefer bitmap (xpm) icons to SVG ones"
+msgstr "ཨེསི་ཝི་ཇི་ཚུ་ལུ་བིཊི་མེཔ་(ཨེགསི་པི་ཨེམ་)ངོས་དཔར་ཚུ་དགའ་གདམ་བརྐྱབ་"
+
+#: ../src/main.c:622
+msgid "Print sodipodi version information"
+msgstr "སོ་ཌི་པོ་ཌི་ཐོན་རིམ་བརྡ་དོན་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/main.c:623
+msgid "Print help about command-line arguments"
+msgstr "བརྡ་བཀོད་-གྲལ་ཐིག་སྒྲུབ་རྟགས་ཚུ་གི་དོན་སྐོར་ལས་  གྲོགས་རམ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/main.c:772
+msgid "Untitled document"
+msgstr "མགོ་མིང་མ་བཏགས་པའི་ཡིག་ཆ་"
+
+#. Show nice dialog box
+#: ../src/main.c:797
+msgid "Sodipodi encountered an internal error and will close now.\n"
+msgstr "སོ་ཌི་པོ་ཌི་གདོང་ཐུག་བྱུང་ཡོད་པའི་ནང་གི་འཛོལ་བ་དང་  ད་ལྟོ་ཁ་བསྡམས་ནི་ཨིན། \n"
+
+#: ../src/main.c:798
+msgid "Automatic backups of unsaved documents were done to following locations:\n"
+msgstr "སྲུང་བཞག་མ་འབད་བའི་ཡིག་ཆ་ཚུ་གི་རང་བཞིན་རྒྱབ་ཐག་དེ་ཚུ་  འོག་གི་གནས་ཁོངས་ཚུ་དང་འཁྲིལ་ཏེ་འབད་ནུག:\n"
+
+#: ../src/main.c:799
+msgid "Automatic backup of following documents failed:\n"
+msgstr "འོག་གི་ཡིག་ཆའི་རང་བཞིན་གྱི་རྒྱབ་ཐག་འདི་འཐུས་ཤོར་བྱུང་ནུག:\n"
+
+#: ../src/module.c:898
+msgid "Scalable Vector Graphic (SVG)"
+msgstr "ཚད་འཇལ་བཏུབ་པའི་མཉམ་ཐིག་ཚད་རིས་(ཨེསི་ཝི་ཇི་)"
+
+#: ../src/module.c:898
+msgid "Sodipodi native file format and W3C standard"
+msgstr "སོ་ཌི་པོ་ཌི་རང་ཡུལ་ཡིག་སྣོད་རྩ་སྒྲིག་དང་ W3C ཚད་ལྡན་"
+
+#: ../src/module.c:905
+msgid "SVG with \"xmlns:sodipodi\" namespace"
+msgstr " \"xmlns:sodipodi\" མིང་བར་སྟོང་དང་ཅིག་ཁར་ཨེསི་ཝི་ཇི་"
+
+#: ../src/module.c:906
+msgid "Scalable Vector Graphics format with sodipodi extensions"
+msgstr "སོ་ཌི་པོ་ཌི་རྒྱ་བསྐྱེད་དང་ཅིག་ཁར་ཚད་འཇལ་བཏུབ་པའི་མཉམ་ཐིག་ཚད་རིས་རྩ་སྒྲིག་"
+
+#: ../src/module.c:909
+msgid "Plain SVG"
+msgstr "ཨེསི་ཝི་ཇི་ཉག་རྐྱང་"
+
+#: ../src/module.c:910
+msgid "Scalable Vector Graphics format"
+msgstr "ཚད་འཇལ་བཏུབ་པའི་མཉམ་ཐིག་ཚད་རིས་རྩ་སྒྲིག་"
+
+#: ../src/modules/gnome.c:158
+msgid "Select printer"
+msgstr "དཔར་འཕྲུལ་སེལ་འཐུ་འབད"
+
+#: ../src/modules/gnome.c:212
+#, c-format
+msgid "Sodipodi (doc name %s..): Print Preview"
+msgstr "སོ་ཌི་པོ་ཌི་ (ཌི་ཨོ་སི་མིང་ %s..): དཔར་བསྐྲུན་སྔོན་ལྟ་"
+
+#: ../src/modules/kde.cpp:162
+msgid "Document variant:"
+msgstr "ཡིག་ཆའི་ཁྱད་པར:"
+
+#: ../src/modules/kde.cpp:172
+msgid ""
+"*.svg *.svgz|SVG files\n"
+"*.xml|XML files\n"
+"*|All files"
+msgstr ""
+"*.svg *.svgz|SVG files\n"
+"*.xml|XML files\n"
+"*|All files"
+
+#: ../src/modules/kde.cpp:174
+msgid "Save document as"
+msgstr "ཡིག་ཆ་སྦེ་སྲུང་"
+
+#: ../src/modules/plain-pdf.c:1105
+#: ../src/modules/plain-ps.c:741
+#: ../src/modules/ps.c:961
+msgid "write error occured"
+msgstr "འཛོལ་བ་བྱུང་ཡོད་མི་བྲིས་"
+
+#: ../src/modules/plain.c:178
+#: ../src/modules/ps.c:264
+msgid "Print using PostScript operators"
+msgstr "པོསིཊི་སིཀིརིཔཊི་བཀོལ་སྤྱོདཔ་ཚུ་ལག་ལེན་འཐབ་ཏེ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/modules/plain.c:179
+#: ../src/modules/ps.c:266
+msgid "Use PostScript vector operators, resulting image will be (usually) smaller and can be arbitrarily scaled, but alpha transparency, markers and patterns will be lost"
+msgstr "པོསིཊི་སིཀིརིཔཊི་མཉམ་ཐིག་བཀོལ་སྤྱོདཔ་ལག་ལེན་འཐབ་པ་ཅིན་  གྲུབ་འབྲས་འཐོན་པའི་གཟུགས་བརྙན་འདི་(སྤྱིར་བཏང་ལུ་)ཆུང་ཀུ་དང་  མཐུན་སྒྲིག་སྦེ་ཚད་འཇལ་བཏུབ་ཨིན་  དེ་འབདཝ་ད་  ཨཱལ་ཕ་དྭངས་གསལ་ཅན་  རྟགས་བཀོདཔ་དང་དཔེ་གཞི་ཚུ་བརླག་སྟོར་ཞུགས་འོང་"
+
+#: ../src/modules/plain.c:184
+#: ../src/modules/ps.c:271
+msgid "Print as bitmap"
+msgstr "བིཊི་མེཔ་སྦེ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/modules/plain.c:185
+#: ../src/modules/ps.c:273
+msgid "Print everything as bitmap, resulting image will be (usualy) larger and it quality depends on zoom factor, but all graphics will be rendered identical to display"
+msgstr "ག་ར་བིཊི་མེཔ་སྦེ་དཔར་བསྐྲུན་འབད་  གྲུབ་འབྲས་འཐོན་པའི་གཟུགས་བརྙན་འདི་(སྤྱིར་བཏང་ལུ་)སྦོམ་དང་  དེ་གི་སྤུས་ཚད་འདི་རྒྱས་ཟུམ་ཆ་ཅན་ལུ་རག་ལསཔ་ཨིན་  དེ་འབདཝ་ད་  བཀྲམ་སྟོན་འབད་ནི་ལུ་  ཚད་རིས་ཚུ་ཆ་མཉམ་དབྱེར་མེདཔ་སྦེ་ལྷག་སྟོན་འབད་ནུག"
+
+#: ../src/modules/plain.c:190
+msgid "Print using PDF driver"
+msgstr "པི་ཌི་ཨེཕ་འདྲེན་བྱེད་ལག་ལེན་འཐབ་སྟེ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/modules/plain.c:191
+msgid "Use Portable Document Format for printing"
+msgstr "དཔར་བསྐྲུན་འབད་ནི་དོན་ལུ་  འབག་བཏུབ་པའི་རྩ་སྒྲིག་ལག་ལེན་འཐབ་"
+
+#. Print destination frame
+#: ../src/modules/plain.c:225
+#: ../src/modules/plain.c:294
+#: ../src/modules/ps.c:245
+#: ../src/modules/ps.c:306
+msgid "Print destination"
+msgstr "འགྲོ་ཡུལ་དཔར་བསྐྲུན་འབད་"
+
+#. Print properties frame
+#: ../src/modules/plain.c:236
+#: ../src/modules/ps.c:256
+msgid "Print properties"
+msgstr "རྒྱུ་དངོས་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/modules/plain.c:275
+#: ../src/modules/ps.c:287
+msgid "Preferred resolution (dots per inch) of bitmap"
+msgstr "བིཊི་མེཔ་གི་དགའ་གདམ་བརྐྱབ་ཡོད་པའི་ཧུམ་ཆ་(ཨིནཅི་རེ་ལུ་ཚག་ཚུ་)"
+
+#: ../src/modules/plain.c:290
+#: ../src/modules/ps.c:302
+msgid "Resolution:"
+msgstr "ཧུམ་ཆ:"
+
+#: ../src/modules/plain.c:300
+#: ../src/modules/ps.c:312
+msgid ""
+"Enter destination lpr queue.\n"
+"Use '> filename' to print to file.\n"
+"Use '| prog arg...' to pipe to program"
+msgstr ""
+"ཨའི་པི་ཨར་མི་གྲལ་འགྲོ་ཡུལ་ཐོ་བཀོད་འབད།\n"
+"ཡིག་སྣོད་དཔར་བསྐྲུན་འབད་ནི་ལུ་ '> filename' ལག་ལེན་འཐབ།\n"
+"ལས་རིམ་ལུ་ རྒྱུད་དུང་འབད་ནི་ལུ་ '| prog arg...' ལག་ལེན་འཐབ་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:111
+#: ../src/widgets/sp-dock-layout.c:741
+msgid "Item"
+msgstr "རྣམ་གྲངས་"
+
+#. Item dialog
+#: ../src/object-ui.c:114
+#: ../src/verbs.c:487
+msgid "Item Properties"
+msgstr "རྣམ་གྲངས་རྒྱུ་དངོས་"
+
+#. Select item
+#: ../src/object-ui.c:122
+msgid "Select this"
+msgstr "འདི་སེལ་འཐུ་འབད་"
+
+#. Reset transformations
+#: ../src/object-ui.c:131
+msgid "Reset transformation"
+msgstr "བཟོ་བསྒྱུར་སླར་སྒྲིག་"
+
+#. Apply transformation
+#: ../src/object-ui.c:135
+msgid "Apply transformation"
+msgstr "བཟོ་བསྒྱུར་འཇུག་སྤྱོད་འབད་"
+
+#: ../src/object-ui.c:140
+msgid "Make sensitive"
+msgstr "ཚོར་ཅན་བཟོ་"
+
+#: ../src/object-ui.c:140
+msgid "Make insensitive"
+msgstr "དྲན་ཚོར་མེདཔ་བཟོ་"
+
+#. Create link
+#: ../src/object-ui.c:144
+msgid "Create link"
+msgstr "འབྲེལ་མཐུད་གསར་བསྐྲུན་འབད་"
+
+#: ../src/object-ui.c:276
+#: ../src/verbs.c:435
+msgid "Group"
+msgstr "སྡེ་ཚན་"
+
+#. Group dialog
+#: ../src/object-ui.c:280
+msgid "Group Properties"
+msgstr "སྡེ་ཚན་རྒྱུ་དངོས་"
+
+#. "Ungroup"
+#: ../src/object-ui.c:291
+#: ../src/verbs.c:436
+msgid "Ungroup"
+msgstr "སྡེ་ཚན་བཤུབ་ནི་"
+
+#. Dive
+#: ../src/object-ui.c:296
+msgid "Set as layer"
+msgstr "བང་རིམ་སྦེ་གཞི་སྒྲིག་འབད་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:341
+msgid "Link"
+msgstr "འབྲེལ་མཐུད་"
+
+#. Link dialog
+#: ../src/object-ui.c:344
+msgid "Link Properties"
+msgstr "རྒྱུ་དངོས་འབྲེལ་མཐུད་འབད་"
+
+#. Select item
+#: ../src/object-ui.c:354
+msgid "Follow link"
+msgstr "འབྲུལ་ལམ་གྱི་རྗེས་སུ་འབྲང་"
+
+#. Reset transformations
+#: ../src/object-ui.c:359
+msgid "Remove link"
+msgstr "འབྲེལ་མཐུད་རྩ་བསྐྲད་གཏང་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:422
+msgid "Image"
+msgstr "གཟུགས་བརྙན་"
+
+#. Link dialog
+#: ../src/object-ui.c:425
+msgid "Image Properties"
+msgstr "རྒྱུ་དངོས་གཟུགས་བརྙན་"
+
+#. Autotrace dialog
+#: ../src/object-ui.c:433
+#: ../src/sp-image.c:762
+msgid "Trace"
+msgstr "བཤུལ་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:482
+msgid "Shape"
+msgstr "དབྱིབས་"
+
+#. Item dialog
+#: ../src/object-ui.c:485
+#: ../src/toolbox.c:402
+msgid "Fill settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་བཀང་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:516
+msgid "Path"
+msgstr "འགྲུལ་ལམ་"
+
+#. Reverse
+#: ../src/object-ui.c:519
+msgid "Reverse"
+msgstr "རིམ་ལོག་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:542
+msgid "Rect"
+msgstr "ཨར་ཨི་སི་ཊི་"
+
+#. Link dialog
+#: ../src/object-ui.c:545
+msgid "Rect Properties"
+msgstr "ཨར་ཨི་སི་ཊི་རྒྱུ་དངོས་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:578
+#: ../src/verbs.c:457
+msgid "Star"
+msgstr "སིཊར་"
+
+#. Link dialog
+#: ../src/object-ui.c:581
+msgid "Star Properties"
+msgstr "སིཊར་རྒྱུ་དངོས་"
+
+#. Create toplevel menuitem
+#: ../src/object-ui.c:614
+#: ../src/verbs.c:458
+msgid "Spiral"
+msgstr "སྒྲིལ་"
+
+#. Link dialog
+#: ../src/object-ui.c:617
+msgid "Spiral Properties"
+msgstr "སྒྲིལ་གྱི་རྒྱུ་དངོས་"
+
+#. rx_ratio
+#: ../src/rect-context.c:358
+msgid "Roundness ratio for x:"
+msgstr "ཨེགསི་གི་དོན་ལུ་སྐོར་ཐེངས་ཀྱི་དཔྱ་ཚད:"
+
+#. ry_ratio
+#: ../src/rect-context.c:370
+msgid "Roundness ratio for y:"
+msgstr "ཝའི་གི་དོན་ལུ་སྐོར་ཐེངས་ཀྱི་དཔྱ་ཚད:"
+
+#: ../src/select-context.c:570
+msgid "Visual transformation"
+msgstr "མཐོང་བའི་བཟོ་བསྒྱུར་"
+
+#: ../src/select-context.c:576
+msgid "Show content"
+msgstr "ནང་དོན་སྟོན་"
+
+#: ../src/select-context.c:582
+msgid "Show outline"
+msgstr "མཐའ་ཐིག་སྟོན་"
+
+#: ../src/select-context.c:588
+msgid "Object transformation"
+msgstr "དངོས་པོ་བཟོ་བསྒྱུར་"
+
+#: ../src/select-context.c:594
+msgid "Optimize"
+msgstr "ལེགས་ལྡན་བཟོས་གྲུབ་པ་"
+
+#: ../src/select-context.c:600
+msgid "Preserve"
+msgstr "ཉམས་སྲུང་"
+
+#: ../src/select-context.c:606
+msgid "[Tab] Cycling"
+msgstr "[Tab] བསྐྱར་འཁོར་"
+
+#: ../src/select-context.c:611
+msgid "Cycle only among visible items"
+msgstr "མཐོང་ཚུགས་པའི་རྣམ་གྲངས་ཚུ་གི་གྱལ་ལས་བསྐྱར་འཁོར་རྐྱངམ་ཅིག་"
+
+#: ../src/select-context.c:614
+msgid "Center view to selected item"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་རྣམ་གྲངས་ལུ་མཐོང་སྣང་དབུས་སྒྲིག་འབད་"
+
+#: ../src/slideshow.c:90
+msgid "Sodipodi slideshow"
+msgstr "སོ་ཌི་པོ་ཌི་བཤུད་བརྙན་"
+
+#: ../src/sodipodi.c:468
+#, c-format
+msgid ""
+"%s is not regular file.\n"
+"Although sodipodi will run, you can\n"
+"neither load nor save preferences\n"
+msgstr ""
+"%s འདི་དུས་རྒྱུན་ཡིག་སྣོད་མེན།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"དགའ་གདམ་འདི་མངོན་གསལ་འབད་ནི་ཡང་ན་སྲུང་བཞག་འབད་ཚུགས།\n"
+
+#: ../src/sodipodi.c:471
+#, c-format
+msgid ""
+"%s either is not valid xml file or\n"
+"you do not have read premissions on it.\n"
+"Although sodipodi will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s འདི་ནུས་ཅན་ཡོད་པའི་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མེན་ཡང་ན་\n"
+"དེ་གུ་ཡོད་པའི་གནང་བ་འདི་ཁྱོད་ཀྱིས་མ་ལྷག་པས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་\n"
+"དགའ་གདམ་འདི་མངོན་གསལ་འབད་ནི་ཡང་ན་\n"
+"སྲུང་བཞག་འབད་མ་ཚུགས་པས"
+
+#: ../src/sodipodi.c:476
+#, c-format
+msgid ""
+"%s is not valid sodipodi preferences file.\n"
+"Although sodipodi will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s འདི་ནུས་ཅན་ཡོད་པའི་སོ་ཌི་པོ་ཌི་དགའ་གདམ་ཡིག་སྣོད་མེན།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་ ཁྱོད་ཀྱིས་\n"
+"དགའ་གདམ་འདི་མངོན་གསལ་འབད་ནི་ཡང་ན་\n"
+"སྲུང་བཞག་འབད་མ་ཚུགས་པས།"
+
+#: ../src/sodipodi.c:488
+#, c-format
+msgid ""
+"%s is not regular file.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+"%sའདི་དུས་རྒྱུན་ཡིག་སྣོད་མེན་པས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་ (པ་ལག་ཨིནསི་)དེ་ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས་པས།\n"
+
+#: ../src/sodipodi.c:491
+#, c-format
+msgid ""
+"%s either is not valid xml file or\n"
+"you do not have read premissions on it.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+"%s འདི་ནུས་ཅན་ཡོད་པའི་ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་མེན་པས་  ཡང་ན་\n"
+"ཁྱོད་ཀྱིས་དེ་གུ་ཡོད་པའི་གནང་བ་ཚུ་མ་ལྷག་པས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་(པ་ལག་ཨིནསི་)ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས་པས།\n"
+
+#: ../src/sodipodi.c:495
+#, c-format
+msgid ""
+"%s is not valid sodipodi extensions file.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+"%s འདི་ ནུས་ཅན་ཡོད་པའི་སོ་ཌི་པོ་ཌི་རྒྱ་བསྐྱེད་ཡིག་སྣོད་མེན\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་ (པ་ལག་ཨིནསི་)ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས་པས།\n"
+
+#: ../src/sodipodi.c:829
+#, c-format
+msgid ""
+"Cannot create directory %s.\n"
+"Although sodipodi will run, you\n"
+"are neither able to load nor save\n"
+"%s."
+msgstr ""
+" %sསྣོད་ཐོ་འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"%sའདི་མངོན་གསལ་འབད་ནི་ཡང་ན་\n"
+"སྲུང་བཞག་འབད་མ་ཚུགས།"
+
+#: ../src/sodipodi.c:833
+#, c-format
+msgid ""
+"%s is not a valid directory.\n"
+"Although sodipodi will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s འདི་ནུས་ཅན་ཡོད་པའི་སྣོད་ཐོ་མེན་པས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"དགའ་གདམ་འདི་མངོན་གསལ་འབད་ནི་ཡང་ན་\n"
+"སྲུང་བཞག་འབད་མ་ཚུགས་པས།"
+
+#: ../src/sodipodi.c:837
+#, c-format
+msgid ""
+"Cannot create file %s.\n"
+"Although sodipodi will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%sཡིག་སྣོད་འདི་གསར་བསྐྲུན་འབད་མི་ཚུགས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"དགའ་གདམ་འདི་ཚུ་མངོན་གསལ་འབད་ནི་ཡང་ན་\n"
+"སྲུང་བཞག་འབད་མ་ཚུགས་པས།"
+
+#: ../src/sodipodi.c:841
+#, c-format
+msgid ""
+"Cannot write file %s.\n"
+"Although sodipodi will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+" %sཡིག་སྣོད་འདི་འབྲི་མི་བཏུབ།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་ ཁྱོད་ཀྱིས་\n"
+"གདའ་གདམ་ཚུ་མངོན་གསལ་འབད་ནི་ཡང་ན་\n"
+"སྲུང་བཞག་འབད་མ་ཚུགས།"
+
+#: ../src/sodipodi.c:851
+#, c-format
+msgid ""
+"Cannot create directory %s.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+"%sསྣོད་ཐོ་འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་(པ་ལག་ཨིནསི་)ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས།\n"
+
+#: ../src/sodipodi.c:854
+#, c-format
+msgid ""
+"%s is not a valid directory.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+"%s འདི་ནུས་ཅན་ཡོད་པའི་སྣོད་ཐོ་ཅིག་མེན།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་ (པ་ལག་ཨིནསི་) ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས་པས།\n"
+
+#: ../src/sodipodi.c:857
+#, c-format
+msgid ""
+"Cannot create file %s.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+" %sཡིག་སྣོད་གསར་བསྐྲུན་འབད་མ་ཚུགས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་ (པ་ལག་ཨིནསི་)འདི་ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས་པས།\n"
+
+#: ../src/sodipodi.c:860
+#, c-format
+msgid ""
+"Cannot write file %s.\n"
+"Although sodipodi will run, you are\n"
+"not able to use extensions (plugins)\n"
+msgstr ""
+" %sཡིག་སྣོད་འདི་འབྲི་མ་ཚུགས།\n"
+"སོ་ཌི་པོ་ཌི་འདི་གཡོག་བཀོལ་རུང་  ཁྱོད་ཀྱིས་\n"
+"རྒྱ་བསྐྱེད་ (པ་ལག་ཨིནསི་)འདི་ཚུ་ལག་ལེན་འཐབ་མ་ཚུགས་པས།\n"
+
+#: ../src/sp-anchor.c:196
+#, c-format
+msgid "Link to %s"
+msgstr "%sལུ་འབྲེལ་མཐུད་འབད་"
+
+#: ../src/sp-image.c:373
+#, c-format
+msgid "Image with bad reference: %s"
+msgstr "གཞི་བསྟུན་བྱང་ཉེས་དང་ཅིག་ཁར་གཟུགས་བརྙན: %s"
+
+#: ../src/sp-image.c:375
+#, c-format
+msgid "Color image %d x %d: %s"
+msgstr "ཚོས་གཞི་གཟུགས་བརྙན་ %d x %d: %s"
+
+#: ../src/sp-image.c:908
+#, c-format
+msgid "Error to write %s: %s"
+msgstr " %sའབྲི་ནི་ལུ་འཛོལ་བ: %s"
+
+#: ../src/sp-image.c:942
+msgid "Untitled"
+msgstr "མིང་མ་བཏགསཔ་"
+
+#: ../src/sp-image.c:947
+msgid "Document Name:"
+msgstr "ཡིག་ཆའི་མིང་:"
+
+#: ../src/sp-image.c:960
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../src/sp-image.c:966
+msgid "Image URI:"
+msgstr "གཟུགས་བརྙན་ཡུ་ཨར་ཨའི:"
+
+#: ../src/sp-item-group.c:483
+#, c-format
+msgid "Group of %d objects"
+msgstr "%dདངོས་པོ་ཚུ་གི་སྡེ་ཚན་"
+
+#: ../src/sp-item.c:554
+msgid "Unknown item :-("
+msgstr "མ་ཤེས་པའི་རྣམ་གྲངས:-("
+
+#. fixme:
+#: ../src/sp-text.c:1293
+msgid "Text object"
+msgstr "ཚིག་ཡིག་དངོས་པོ་"
+
+#. T0
+#: ../src/spiral-context.c:355
+msgid "Inner radius:"
+msgstr "ནང་གི་མཐའ་འཁོར:"
+
+#. Proportion
+#: ../src/star-context.c:355
+msgid "Proportion:"
+msgstr "སྙོམས་ཚད:"
+
+#. Making sides flat
+#: ../src/star-context.c:368
+msgid "Make sides flat"
+msgstr "ཟུར་ཚུ་ལེབ་ཏེམ་བཟོ་"
+
+#: ../src/toolbox.c:399
+msgid "Object"
+msgstr "དངོས་པོ་"
+
+#: ../src/toolbox.c:403
+#: ../src/verbs.c:481
+msgid "Object size and position"
+msgstr "དངོས་པོའི་ཚད་དང་གནས་ས་"
+
+#: ../src/toolbox.c:404
+msgid "Text and font settings"
+msgstr "ཚིག་ཡིག་དང་ཡིག་གཟུགས་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/toolbox.c:406
+#: ../src/verbs.c:482
+msgid "Object transformations"
+msgstr "དངོས་པོའི་བཟོ་བསྒྱུར་ཚུ་"
+
+#: ../src/toolbox.c:485
+msgid "Draw"
+msgstr "འབྲི་"
+
+#: ../src/toolbox.c:542
+msgid "Extension"
+msgstr "རྒྱ་བསྐྱེད་"
+
+#: ../src/toolbox.c:624
+msgid "Nodes"
+msgstr "མཐུད་མཚམས་ཚུ་"
+
+#: ../src/toolbox.c:627
+msgid "Insert new nodes into selected segments"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཆ་བགོས་ཚུ་གི་ནང་ལུ་  མཐུད་མཚམས་གསརཔ་བཙུགས་"
+
+#: ../src/toolbox.c:629
+msgid "Break line at selected nodes"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་ཚུ་ལུ་གྲལ་ཐིག་མཚམས་བཟོ་"
+
+#: ../src/toolbox.c:631
+msgid "Make selected nodes corner"
+msgstr "སེལ་འཐུ་འབད་དེ་མཐུད་མཚམས་ཀྱི་སྒྱིད་ཁུག་བཟོ་"
+
+#: ../src/toolbox.c:633
+msgid "Make selected segments lines"
+msgstr "སེལ་འཐུ་འབད་དེ་ཆ་བགོས་ཚུ་གི་གྲལ་ཐིག་བཟོ་"
+
+#: ../src/toolbox.c:635
+msgid "Delete selected nodes"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་བཏོན་གཏང་"
+
+#: ../src/toolbox.c:637
+msgid "Join lines at selected nodes"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་ཚུ་ལུ་གྲལ་ཐིག་ཚུ་མཐུད་"
+
+#: ../src/toolbox.c:640
+msgid "Join lines at selected nodes with new segment"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་ཚུ་ལུ་  གྲལ་ཐིག་ཚུ་ཆ་བགོས་གསརཔ་དང་ཅིག་ཁར་མཐུད་"
+
+#: ../src/toolbox.c:642
+msgid "Make selected nodes smooth"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་ཚུ་ཧུམ་ཁྱུག་ཁྱུག་བཟོ་"
+
+#: ../src/toolbox.c:644
+msgid "Make selected segments curves"
+msgstr "སེལ་འཐུ་འབད་དེ་ཡོད་པའི་ཆ་བགོས་ཚུ་གུག་གུགཔ་བཟོ་"
+
+#: ../src/verbs.c:407
+msgid "Does nothing"
+msgstr "ག་ནི་ཡང་འབད་ནི་མེད་"
+
+#: ../src/verbs.c:409
+msgid "Create new SVG document"
+msgstr "ཨེསི་ཝི་ཇི་ཡིག་ཆ་གསརཔ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:410
+msgid "Open..."
+msgstr "ཁ་ཕྱེ..."
+
+#: ../src/verbs.c:410
+msgid "Open existing SVG document"
+msgstr "གནས་ཏེ་ཡོད་པའི་ཨེསི་ཝི་ཇི་ཡིག་ཆ་འདི་ཁ་ཕྱེ་"
+
+#: ../src/verbs.c:411
+msgid "Save"
+msgstr "སྲུང་"
+
+#: ../src/verbs.c:411
+msgid "Save document"
+msgstr "ཡིག་ཆ་སྲུང་"
+
+#: ../src/verbs.c:412
+msgid "Save As..."
+msgstr "དེ་སྦེ་སྲུང་..."
+
+#: ../src/verbs.c:412
+msgid "Save document under new name"
+msgstr "མིང་གསརཔ་གི་འོག་ལུ་ཡིག་ཆ་སྲུང་"
+
+#: ../src/verbs.c:413
+msgid "Print..."
+msgstr "དཔར་བསྐྲུན་འབད..."
+
+#: ../src/verbs.c:413
+msgid "Print document"
+msgstr "ཡིག་ཆ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:414
+msgid "Print Direct..."
+msgstr "ཐད་ཀར་དུ་དཔར་བསྐྲུན་འབད..."
+
+#: ../src/verbs.c:414
+msgid "Print directly to file or pipe"
+msgstr "ཡིག་སྣོད་ཡང་ན་རྒྱུད་དུང་ལུ་ཐད་ཀར་དུ་སྦེ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:415
+msgid "Print Preview"
+msgstr "སྔོན་ལྟ་དཔར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:415
+msgid "Preview document printout"
+msgstr "སྔོན་ལྟ་ཡིག་ཆ་དཔར་བསྐྲུན་འབད་འབདཝ་"
+
+#: ../src/verbs.c:416
+msgid "Import"
+msgstr "ནང་འདྲེན་འབད་"
+
+#: ../src/verbs.c:416
+msgid "Import bitmap or SVG image into document"
+msgstr "ཡིག་ཆའི་ནང་ལུ་  བིཊི་མེཔ་ཡང་ན་ཨེསི་ཝི་ཇི་གཟུགས་བརྙན་འདི་ནང་འདྲེན་འབད་"
+
+#: ../src/verbs.c:417
+msgid "Export document as PNG bitmap"
+msgstr "ཡིག་ཆ་འདི་པི་ཨེན་ཇི་བིཊི་མེཔ་སྦེ་ཕྱིར་འདྲེན་འབད་"
+
+#: ../src/verbs.c:418
+msgid "Exit"
+msgstr "ཕྱིར་འཐོན་"
+
+#. Edit
+#: ../src/verbs.c:420
+msgid "Undo"
+msgstr "འབད་བཤོལ་"
+
+#: ../src/verbs.c:420
+msgid "Revert last action"
+msgstr "མཇུག་གི་བྱ་བ་འདི་རྒྱབ་ལོག་འབད་"
+
+#: ../src/verbs.c:421
+msgid "Redo"
+msgstr "ལོག་འབད་"
+
+#: ../src/verbs.c:421
+msgid "Do again undone action"
+msgstr "འབད་བཤོལ་བའི་བྱ་བ་འདི་སླར་ལོག་འབད་"
+
+#: ../src/verbs.c:422
+msgid "Cut"
+msgstr "བཏོག་"
+
+#: ../src/verbs.c:422
+msgid "Cut selected objects to clipboard"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་འཛིན་པང་ལུ་བཏོག་"
+
+#: ../src/verbs.c:423
+msgid "Copy"
+msgstr "འདྲ་བཤུས་"
+
+#: ../src/verbs.c:423
+msgid "Copy selected objects to clipboard"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་འཛིན་པང་ལུ་འདྲ་བཤུས་བརྐྱབ་"
+
+#: ../src/verbs.c:424
+msgid "Paste"
+msgstr "སྦྱར་"
+
+#: ../src/verbs.c:424
+msgid "Paste objects from clipboard"
+msgstr "དངོས་པོ་ཚུ་འཛིན་པང་ལས་སྦྱར་"
+
+#: ../src/verbs.c:425
+msgid "Delete"
+msgstr "བཏོན་གཏང་"
+
+#: ../src/verbs.c:425
+msgid "Delete selected objects"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་བཏོན་གཏང་"
+
+#: ../src/verbs.c:426
+msgid "Duplicate"
+msgstr "རྫུན་མ་"
+
+#: ../src/verbs.c:426
+msgid "Duplicate selected objects"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་རྫུན་མ་ཚུ་"
+
+#: ../src/verbs.c:427
+msgid "Clear All"
+msgstr "ཆ་མཉམ་བསལ་"
+
+#: ../src/verbs.c:427
+msgid "Delete all objects from document"
+msgstr "ཡིག་ཆ་ལས་དངོས་པོ་ཚུ་ཆ་མཉམ་བཏོན་གཏང་"
+
+#: ../src/verbs.c:428
+msgid "Select All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད་"
+
+#: ../src/verbs.c:428
+msgid "Select all objects in document"
+msgstr "ཡིག་ཆའི་ནང་དངོས་པོ་ཚུ་ཆ་མཉམ་སེལ་འཐུ་འབད་"
+
+#: ../src/verbs.c:429
+msgid "Repeat"
+msgstr "ཡང་བསྐྱར་"
+
+#: ../src/verbs.c:429
+msgid "Repeat last saved action"
+msgstr "མཇུག་ལུ་སྲུང་བཞག་འབད་ཡོད་པའི་བྱ་བ་འདི་ཡང་བསྐྱར་འབད་"
+
+#. Selection
+#: ../src/verbs.c:431
+msgid "Bring to Front"
+msgstr "གདོང་ཁར་འབག་ཤོག་"
+
+#: ../src/verbs.c:431
+msgid "Raise selected objects to top"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་མགོ་ལུ་ཆེར་བསྐྱེད་འབད་"
+
+#: ../src/verbs.c:432
+msgid "Send to Back"
+msgstr "རྒྱབ་ལུ་གཏང་"
+
+#: ../src/verbs.c:432
+msgid "Lower selected objects to bottom"
+msgstr "འོག་ལུ་སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་འདི་འཇུག་ལུ་"
+
+#: ../src/verbs.c:433
+msgid "Raise"
+msgstr "ཆེར་བསྐྱེད་འབད་"
+
+#: ../src/verbs.c:433
+msgid "Raise selected objects one position"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་འདི་ཚུ་  ནས་ས་གཅིག་ཆེར་བསྐྱེད་འབད་"
+
+#: ../src/verbs.c:434
+msgid "Lower"
+msgstr "འོག་གི་"
+
+#: ../src/verbs.c:434
+msgid "Lower selected objects one position"
+msgstr "འོག་ལུ་སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་གནས་ས་གཅིག་"
+
+#: ../src/verbs.c:435
+msgid "Group selected objects"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་སྡེ་ཚན་བཟོ་"
+
+#: ../src/verbs.c:436
+msgid "Ungroup selected group"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་སྡེ་ཚན་སྡེ་ཚན་བཤུབ་"
+
+#: ../src/verbs.c:437
+msgid "Combine"
+msgstr "མཉམ་མཐུད་འབད་"
+
+#: ../src/verbs.c:437
+msgid "Combine multiple paths"
+msgstr "སྣ་མང་འགྲུལ་ལམ་ཚུ་མཉམ་མཐུད་འབད་"
+
+#: ../src/verbs.c:438
+msgid "Break Apart"
+msgstr "སོ་སོར་སྦེ་མཚམས་བཟོ་"
+
+#: ../src/verbs.c:438
+msgid "Break selected path to subpaths"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲུལ་ལམ་འདི་ཡན་ལག་འགྲུལ་ལམ་ཚུ་ལུ་མཚམས་བཟོ་"
+
+#: ../src/verbs.c:439
+msgid "Uncross"
+msgstr "སྐེདཔ་བཏོག་བཤོལ་"
+
+#: ../src/verbs.c:439
+msgid "Break selected path at crossings"
+msgstr "སྐེདཔ་བཏོག་ས་ལུ་སེལ་འཐུ་འབད་ཡོད་པའི་འགྲུལ་ལམ་འདི་མཚམས་བཟོ་"
+
+#: ../src/verbs.c:440
+msgid "Union"
+msgstr "འདུས་ཚོགས་"
+
+#: ../src/verbs.c:440
+msgid "Calculate union of selected paths"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲུལ་ལམ་ཚུ་གི་འདུས་ཚོགས་འདི་རྩིས་སྟོན་"
+
+#: ../src/verbs.c:441
+msgid "Intersection"
+msgstr "དུམ་བུར་གཅོད་ཡོདཔ་"
+
+#: ../src/verbs.c:441
+msgid "Calculate intersection of selected paths"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲུལ་ལམ་ཚུ་གི་དུམ་བུར་གཅོད་པ་འདི་རྩིས་སྟོན་"
+
+#: ../src/verbs.c:442
+msgid "Subtraction"
+msgstr "ཕབ་"
+
+#: ../src/verbs.c:442
+msgid "Subtract paths from first"
+msgstr "དང་པ་ལས་འགྲུལ་ལམ་ཚུ་ཕབ་"
+
+#: ../src/verbs.c:443
+msgid "Transform"
+msgstr "བཟོ་བསྒྱུར་འབད་"
+
+#: ../src/verbs.c:443
+msgid "Applies transformation"
+msgstr "བཟོ་བསྒྱུར་འབད་ནི་འཇུག་སྤྱོད་འབདཝ་ཨིན་"
+
+#. Object
+#: ../src/verbs.c:445
+msgid "Rotate 90 degrees"
+msgstr "ཁུག་ཟུར་ ༩༠་ བསྒྱིར་"
+
+#: ../src/verbs.c:445
+msgid "Rotates object 90 degrees clockwise"
+msgstr "དངོས་པོའི་ཁུག་ཟུར་  ༩༠་ གཡས་སྐོར་སྦེ་  བསྒྱིརཝ་ཨིན་"
+
+#: ../src/verbs.c:446
+msgid "Flatten object"
+msgstr "དངོས་པོ་ལེབ་ཏེམ་བཟོ་"
+
+#: ../src/verbs.c:446
+msgid "Remove transformations from object"
+msgstr "དངོས་པོ་ལས་བཟོ་བསྒྱུར་འབད་ནི་ཚུ་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/verbs.c:447
+msgid "Convert to Curves"
+msgstr "གུག་གུགཔ་ཚུ་ལུ་གཞི་བསྒྱུར་འབད་"
+
+#: ../src/verbs.c:447
+msgid "Convert selected object to path"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་འདི་འགྲུལ་ལམ་ལུ་གཞི་བསྒྱུར་འབད་"
+
+#: ../src/verbs.c:448
+msgid "Flip Horizontally"
+msgstr "ཐད་སྙོམས་སྦེ་མྱུར་ལྷོག་འབད་"
+
+#: ../src/verbs.c:449
+msgid "Flip selected objects horizontally"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་ཚུ་ཐད་སྙོམས་སྦེ་མྱུར་ལྷོག་འབད་"
+
+#: ../src/verbs.c:450
+msgid "Flip Vertically"
+msgstr "ཀེར་ཕྲང་སྦེ་མྱུར་ལྷོག་འབད་"
+
+#: ../src/verbs.c:451
+msgid "Flip selected objects vertically"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དངོས་པོ་འདི་ཀེར་ཕྲང་སྦེ་མྱུར་ལྷོག་འབད་"
+
+#. Event contexts
+#: ../src/verbs.c:453
+msgid "Select"
+msgstr "སེལ་འཐུ་འབད་"
+
+#: ../src/verbs.c:453
+msgid "Select and transform objects"
+msgstr "སེལ་འཐུ་འབད་ཞིནམ་ལས་དངོས་པོ་ཚུ་བཟོ་བསྒྱུར་འབད་"
+
+#: ../src/verbs.c:454
+msgid "Node edit"
+msgstr "ཞུན་དག་གི་མཐུད་མཚམས་"
+
+#: ../src/verbs.c:454
+msgid "Modify existing objects by control nodes"
+msgstr "ཚད་འཛིན་མཐུད་མཚམས་ཀྱིས་འབད་  གནས་ཏེ་ཡོད་པའི་དངོས་པོ་ཚུ་ལེགས་བཅོས་འབད་"
+
+#: ../src/verbs.c:455
+msgid "Rectangle"
+msgstr "གྲུ་བཞི་ནར་མོ་"
+
+#: ../src/verbs.c:455
+msgid "Create rectangles and squares with optional rounded corners"
+msgstr "གདམ་ཁ་ཅན་གྱི་སྒོར་སྒོརཝ་སྒྱིད་ཁུག་ཚུ་དང་ཅིག་ཁར་  གྲུ་བཞི་ནར་མོ་ཚུ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:456
+msgid "Ellipse"
+msgstr "སྒོང་དབྱིབས་"
+
+#: ../src/verbs.c:456
+msgid "Create circles, ellipses and arcs"
+msgstr "སྒོར་ཐིག་ཚུ་  སྒོང་དབྱིབས་ཚུ་དང་གཞུ་དབྱིབས་ཚུ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:457
+msgid "Create stars and polygons"
+msgstr "སིཊར་ཚུ་དང་ཟུར་མང་དབྱིབས་ཚུ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:458
+msgid "Create spirals"
+msgstr "སྒྲིལ་ཚུ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:459
+msgid "Pencil"
+msgstr "ཞ་སྨྱུག་"
+
+#: ../src/verbs.c:459
+msgid "Draw freehand curves and straight lines"
+msgstr "ཕི་རི་ཧེནཌི་གུག་གུགཔ་ཚུ་འབྲི་ནི་དང་  གྲལ་ཐིག་ཕྲང་ཕྲངཔ་ཚུ་འབྲི་ནི་"
+
+#: ../src/verbs.c:460
+msgid "Pen"
+msgstr "སྨྱུག་བྲིས་"
+
+#: ../src/verbs.c:460
+msgid "Draw precisely positioned curved and straight lines"
+msgstr "གནས་སར་གུག་གུགཔ་ཡོད་མི་དང་  གྲལ་ཐིག་ཕྲང་ཕྲངམ་ཚུ་ཀྲིག་ཀྲིག་འབད་འབྲི་"
+
+#: ../src/verbs.c:461
+msgid "Calligraphy"
+msgstr "ཡིག་འབྲི་ལག་རྩལ་"
+
+#: ../src/verbs.c:461
+msgid "Draw calligraphic lines"
+msgstr "ཡིག་འབྲི་ལག་རྩལ་གྲལ་ཐིག་ཚུ་འབྲི་"
+
+#: ../src/verbs.c:462
+msgid "Create and edit text objects"
+msgstr "ཚིག་ཡིག་དངོས་པོ་ཚུ་ཞུན་དག་འབད་ནི་དང་གསར་བསྐྲུན་འབད་"
+
+#: ../src/verbs.c:463
+msgid "Zoom into precisely selected area"
+msgstr "ཀྲིག་ཀྲིག་སྦེ་སེལ་འཐུ་འབད་ཡོད་པའི་མངའ་ཁོངས་ནང་ལུ་རྒྱས་ཟུམ་འབད་"
+
+#: ../src/verbs.c:464
+msgid "Dropper"
+msgstr "འཇོག་བྱེད་"
+
+#: ../src/verbs.c:464
+msgid "Pick averaged colors from image"
+msgstr "གཟུགས་བརྙན་ལས་ཆ་སྙོམས་ཚོས་གཞི་ཚུ་འཐུ་"
+
+#. Zooming
+#: ../src/verbs.c:466
+msgid "In"
+msgstr "ནང་ན་"
+
+#: ../src/verbs.c:466
+msgid "Zoom in drawing"
+msgstr "པར་རིས་ནང་རྒྱས་ཟུམ་འབད་"
+
+#: ../src/verbs.c:467
+msgid "Out"
+msgstr "ཕྱི་ཁར་"
+
+#: ../src/verbs.c:467
+msgid "Zoom out drawing"
+msgstr "པར་རིས་འདི་ཕྱི་ཁར་རྒྱས་ཟུམ་འབད་"
+
+#: ../src/verbs.c:468
+msgid "1:1"
+msgstr "༡:༡"
+
+#: ../src/verbs.c:468
+msgid "Set zoom factor to 1:1"
+msgstr "༡:༡་ལུ་རྒྱས་ཟུམ་ཆ་རྐྱེན་གཞི་སྒྲིག་འབད་"
+
+#: ../src/verbs.c:469
+msgid "1:2"
+msgstr "༡:༢"
+
+#: ../src/verbs.c:469
+msgid "Set zoom factor to 1:2"
+msgstr "༡:༢་ལུ་ རྒྱས་ཟུམ་ཆ་རྐྱེན་གཞི་སྒྲིག་འབད་"
+
+#: ../src/verbs.c:470
+msgid "2:1"
+msgstr "༢:༡"
+
+#: ../src/verbs.c:470
+msgid "Set zoom factor to 2:1"
+msgstr "༢:༡་ ལུ་རྒྱས་ཟུམ་ཆ་རྐྱེན་གཞི་སྒྲིག་འབད་"
+
+#: ../src/verbs.c:471
+msgid "Fit the whole page into window"
+msgstr "ཤོག་ལེབ་ཧྲིལ་བུམ་སྒོ་སྒྲིག་ནང་ཚུད་སྒྲིག་འབད་"
+
+#: ../src/verbs.c:472
+msgid "Fit the whole drawing into window"
+msgstr "པར་རིས་ཧྲིལ་བུམ་སྒོ་སྒྲིག་ནང་ཚུད་སྒྲིག་འབད་"
+
+#: ../src/verbs.c:473
+msgid "Fit the whole selection into window"
+msgstr "སེལ་འཐུ་ཧྲིལ་བུམ་སྒོ་སྒྲིག་ནང་ལུ་ཚུད་སྒྲིག་འབད་"
+
+#. Dialogs
+#: ../src/verbs.c:475
+msgid "Display"
+msgstr "བཀྲམ་སྟོན་འབད་"
+
+#: ../src/verbs.c:475
+msgid "Global display settings"
+msgstr "སྤྱི་ཁྱབ་བཀྲམ་སྟོན་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/verbs.c:476
+msgid "Page layout"
+msgstr "ཤོག་ལེབ་སྒྲིག་བཀོད་"
+
+#: ../src/verbs.c:477
+msgid "Editing Window"
+msgstr "སྒོ་སྒྲིག་ཞུན་དག་འབད་དོ་"
+
+#: ../src/verbs.c:477
+msgid "Editing window properties"
+msgstr "སྒོ་སྒྲིག་རྒྱུ་དངོས་ཞུན་དག་འབད་དོ་"
+
+#: ../src/verbs.c:478
+msgid "Tool Options"
+msgstr "ལག་ཆས་གདམ་ཁ་ཚུ་"
+
+#: ../src/verbs.c:479
+msgid "Tool Attributes"
+msgstr "ལག་ཆས་ཁྱད་ཆོས་ཚུ་"
+
+#: ../src/verbs.c:480
+msgid "Fill and Stroke"
+msgstr "བཀང་ནི་དང་སིཊོཀ་"
+
+#: ../src/verbs.c:480
+msgid "Fill and stroke settings"
+msgstr "བཀང་ནི་དང་སིཊོཀ་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/verbs.c:482
+msgid "Transformations"
+msgstr "བཟོ་བསྒྱུར་ཚུ་"
+
+#: ../src/verbs.c:483
+msgid "Align and Distribute"
+msgstr "ཕྲང་སྒྲིག་དང་བགོ་བཀྲམ་འབད་"
+
+#: ../src/verbs.c:483
+msgid "Align and distribute"
+msgstr "ཕྲང་སྒྲིག་འབད་ནི་དང་བགོ་བཀྲམ་འབད་"
+
+#: ../src/verbs.c:484
+msgid "Text and Font"
+msgstr "ཚིག་ཡིག་དང་ཡིག་གཟུགས་"
+
+#: ../src/verbs.c:484
+msgid "Text editing and font settings"
+msgstr "ཚིག་ཡིག་ཞུན་དག་འབད་ནི་དང་ཡིག་གཟུགས་སྒྲིག་སྟངས་འབད་ནི་ཚུ་"
+
+#: ../src/verbs.c:485
+msgid "Document Tree"
+msgstr "ཡིག་ཆའི་རྩ་བ་"
+
+#: ../src/verbs.c:486
+msgid "XML Editor"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཞུན་དགཔ་"
+
+#. Family frame
+#: ../src/widgets/font-selector.c:153
+msgid "Font family"
+msgstr "ཡིག་གཟུགས་རིགས་ཚན་"
+
+#. Style frame
+#: ../src/widgets/font-selector.c:193
+msgid "Style"
+msgstr "བཟོ་རྣམ་"
+
+#: ../src/widgets/font-selector.c:228
+msgid "Font size:"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད:"
+
+#: ../src/widgets/font-selector.c:560
+msgid "AaBbCcIiPpQq12368.;/()"
+msgstr "AaBbCcIiPpQq12368.;/()"
+
+#: ../src/widgets/gradient-selector.c:143
+msgid "Add"
+msgstr "ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/widgets/gradient-selector.c:179
+msgid "gradientUnits"
+msgstr "སྟེགས་རིས་ཆ་ཕྲན་ཚུ་"
+
+#: ../src/widgets/gradient-selector.c:208
+msgid "gradientSpread"
+msgstr "སྟེགས་རིས་དར་ཁྱབ་"
+
+#: ../src/widgets/gradient-vector.c:250
+msgid "No document selected"
+msgstr "ཡིག་ཆ་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../src/widgets/gradient-vector.c:256
+msgid "No gradients in document"
+msgstr "ཡིག་ཆའི་ནང་སྟེགས་རིས་མིན་འདུག་"
+
+#: ../src/widgets/gradient-vector.c:262
+msgid "No gradient selected"
+msgstr "སྟེགས་རིས་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../src/widgets/gradient-vector.c:417
+msgid "Start color"
+msgstr "ཚོས་གཞི་འགོ་བཙུགས་"
+
+#: ../src/widgets/gradient-vector.c:427
+msgid "End color"
+msgstr "ཚོས་གཞི་མཇུག་བསྡུ་"
+
+#: ../src/widgets/gradient-vector.c:452
+msgid "Gradient vector"
+msgstr "སྟེགས་རིས་མཉམ་ཐིག་"
+
+#: ../src/widgets/paint-selector.c:622
+msgid "No objects"
+msgstr "དངོས་པོ་ཚུ་མེད་"
+
+#: ../src/widgets/paint-selector.c:636
+msgid "Multiple styles"
+msgstr "སྣ་མང་བཟོ་རྣམ་ཚུ་"
+
+#: ../src/widgets/paint-selector.c:650
+msgid "No paint"
+msgstr "ཚོན་མེད་"
+
+#. Label
+#: ../src/widgets/paint-selector.c:747
+msgid "Mode:"
+msgstr "ཐབས་ལམ:"
+
+#: ../src/widgets/paint-selector.c:757
+msgid "RGB"
+msgstr "ཨར་ཇི་བི་"
+
+#: ../src/widgets/paint-selector.c:757
+#: ../src/widgets/paint-selector.c:758
+msgid "RGB Colorspace"
+msgstr "ཨར་ཇི་བི་ཚོས་གཞི་བར་སྟོང་"
+
+#: ../src/widgets/paint-selector.c:758
+msgid "HSV"
+msgstr "ཨེཕ་ཨེསི་ཝི་"
+
+#: ../src/widgets/paint-selector.c:759
+msgid "CMYK"
+msgstr "སི་ཨེམ་ཝའི་ཀེ་"
+
+#: ../src/widgets/paint-selector.c:759
+msgid "CMYK Colorspace"
+msgstr "སི་ཨེམ་ཝའི་ཀེ་ཚོས་གཞི་བར་སྟོང་"
+
+#. Use dropper
+#: ../src/widgets/paint-selector.c:766
+msgid "Get from dropper"
+msgstr "འཇོག་བྱེད་ལས་ལེན་"
+
+#: ../src/widgets/paint-selector.c:797
+msgid "Color paint"
+msgstr "ཚོས་གཞི་ཚོན་གཏང་ནི་"
+
+#: ../src/widgets/paint-selector.c:875
+msgid "Linear gradient"
+msgstr "ཐིག་གི་སྟེགས་རིས་"
+
+#: ../src/widgets/paint-selector.c:878
+msgid "Radial gradient"
+msgstr "འོད་ཟེར་གྱི་སྟེགས་རིས་"
+
+#: ../src/widgets/sp-color-selector.c:623
+msgid "Red:"
+msgstr "དམརཔོ:"
+
+#: ../src/widgets/sp-color-selector.c:624
+msgid "Green:"
+msgstr "ལྗང་ཁུ:"
+
+#: ../src/widgets/sp-color-selector.c:625
+msgid "Blue:"
+msgstr "ཧོནམ:"
+
+#: ../src/widgets/sp-color-selector.c:626
+#: ../src/widgets/sp-color-selector.c:646
+#: ../src/widgets/sp-color-selector.c:668
+msgid "Alpha:"
+msgstr "ཨཱལ་ཕ:"
+
+#: ../src/widgets/sp-color-selector.c:643
+msgid "Hue:"
+msgstr "ཚོན་མདངས:"
+
+#: ../src/widgets/sp-color-selector.c:644
+msgid "Saturation:"
+msgstr "མཐའ་ཚད:"
+
+#: ../src/widgets/sp-color-selector.c:645
+msgid "Value:"
+msgstr "གནས་གོང་:"
+
+#: ../src/widgets/sp-color-selector.c:664
+msgid "Cyan:"
+msgstr "སྔོ་ལྗང་:"
+
+#: ../src/widgets/sp-color-selector.c:665
+msgid "Magenta:"
+msgstr "དམར་སྨུག:"
+
+#: ../src/widgets/sp-color-selector.c:666
+msgid "Yellow:"
+msgstr "སེརཔོ:"
+
+#: ../src/widgets/sp-color-selector.c:667
+msgid "Black:"
+msgstr "གནགཔོ:"
+
+#: ../src/widgets/sp-dock-item.c:243
+msgid "Orientation"
+msgstr "ཕྱོགས་"
+
+#: ../src/widgets/sp-dock-item.c:244
+msgid "Orientation of the docking item"
+msgstr "ཌོཀ་ཀིང་རྣམ་གྲངས་ཀྱི་ཕྱོགས་"
+
+#: ../src/widgets/sp-dock-item.c:259
+msgid "Resizable"
+msgstr "ཚད་བསྐྱར་བཟོ་འབད་བཏུབ་"
+
+#: ../src/widgets/sp-dock-item.c:260
+msgid "If set, the dock item can be resized when docked in a paned"
+msgstr "གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་  ཌོཀ་རྣམ་གྲངས་འདི་པཱནཌི་ཅིག་ནང་ཌོཀ་འབདཝ་ད་ཚད་བསྐྱར་བཟོ་འབད་བཏུབ་ཨིན་"
+
+#: ../src/widgets/sp-dock-item.c:267
+msgid "Item behavior"
+msgstr "རྣམ་གྲངས་སྤྱོད་ལམ་"
+
+#: ../src/widgets/sp-dock-item.c:268
+msgid "General behavior for the dock item (i.e. whether it can float, if it's locked, etc.)"
+msgstr "ཌོཀ་རྣམ་གྲངས་ཀྱི་དོན་ལུ་ཡོངས་ཁྱབ་སྤྱོད་ལམ་(i.e. ལྡེ་མིག་བརྐྱབ་སྟེ་ཡོད་པ་ཅིན་ལྡིང་ནི་འབད་རུང་ ལ་སོགས་པ་ཚུ་ཨིན་ )"
+
+#: ../src/widgets/sp-dock-item.c:276
+msgid "Grip size"
+msgstr "ཚད་དམ་བཟུང་"
+
+#: ../src/widgets/sp-dock-item.c:277
+msgid "Size in pixels of the grip to drag the dock item"
+msgstr "ཌོཀ་རྣམ་གྲངས་འདྲུད་ནི་ལུ་  དམ་བཟུང་གི་པིག་སེལ་ཚུ་ནང་ཚད་བཟོ་"
+
+#: ../src/widgets/sp-dock-item.c:283
+#: ../src/widgets/sp-dock-master.c:149
+msgid "Locked"
+msgstr "བསྡམ་བཞག་ནུག་"
+
+#: ../src/widgets/sp-dock-item.c:284
+msgid "If set, the dock item cannot be dragged around and it doesn't show a grip"
+msgstr "གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་  ཌོཀ་རྣམ་གྲངས་འདི་མཐའ་འཁོར་ལུ་འདྲུད་མི་བཏུབ་ནི་དང་  དམ་བཟུང་ཅིག་སྟོན་ནི་མེད་"
+
+#: ../src/widgets/sp-dock-item.c:292
+msgid "Preferred width"
+msgstr "དགའ་གདམ་བརྐྱབ་ཡོད་པའི་རྒྱ་ཚད་"
+
+#: ../src/widgets/sp-dock-item.c:293
+msgid "Preferred width for the dock item"
+msgstr "ཌོཀ་རྣམ་གྲངས་ཀྱི་དོན་ལུ་དགའ་གདམ་བརྐྱབ་ཡོད་པའི་རྒྱ་ཚད་"
+
+#: ../src/widgets/sp-dock-item.c:299
+msgid "Preferred height"
+msgstr "དགའ་གདམ་བརྐྱབ་ཡོད་པའི་མཐོ་ཚད་"
+
+#: ../src/widgets/sp-dock-item.c:300
+msgid "Preferred height for the dock item"
+msgstr "ཌོཀ་རྣམ་གྲངས་ཀྱི་དོན་ལུ་དགའ་གདམ་བརྐྱབ་ཡོད་པའི་མཐོ་ཚད་"
+
+#: ../src/widgets/sp-dock-item.c:547
+#, c-format
+msgid "You can't add a dock object (%p of type %s) inside a %s. Use a SPDock or some other compound dock object."
+msgstr "ཌོཀ་དངོས་པོ་ (%p of type %s)འདི་ %sཅིག་ནང་ཁྱོད་ཀྱིས་ཁ་སྐོང་བརྐྱབ་མི་ཚུགས།  SPDockཡང་ན་སྐྱེད་ཅུང་ཌོཀ་དངོས་པོ་གཞན་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../src/widgets/sp-dock-item.c:554
+#, c-format
+msgid "Attempting to add a widget with type %s to a %s, but it can only contain one widget at a time; it already contains a widget of type %s"
+msgstr "དབྱེ་བ་%s འདི་ལུ་%s ཅིག་དང་ཅིག་ཁར་ཝི་གེཊི་ཅིག་ཁ་སྐོང་བརྐྱབ་ནི་ལུ་ དཔའ་བཅམ་པའི་བསྒང་ཨིན་   དེ་འབདཝ་ད་  བཏབ་ཅིག་གུ་ཝི་གེཊི་གཅིག་རྐྱངམ་ཅིག་ཡོད་  དེ་ལུ་ཧེ་མ་ལས་རང་དབྱེ་བ་%sགི་ཝི་གེཊི་ཡོདཔ་ཨིན།"
+
+#: ../src/widgets/sp-dock-item.c:1156
+#, c-format
+msgid "Unsupported docking strategy %s in dock object of type %s"
+msgstr "དབྱེ་བ་%sགི་ཌོཀ་ནང་ལུ་  རྒྱབ་སྐྱོར་མེད་པའི་ཌོཀ་ཀིང་ཐབས་འཇུས་%s"
+
+#. Hide menuitem.
+#: ../src/widgets/sp-dock-item.c:1238
+msgid "Hide"
+msgstr "སྦ་བཞག་"
+
+#. Lock menuitem
+#: ../src/widgets/sp-dock-item.c:1244
+msgid "Lock"
+msgstr "བསྡམ་བཞག་"
+
+#: ../src/widgets/sp-dock-item.c:1411
+#, c-format
+msgid "Attempt to bind an unbound item %p"
+msgstr "བཅད་མཚམས་མེད་པའི་རྣམ་གྲངས་%pཅིག་བསྡམས་ནི་ལུ་དཔའ་བཅམ་ད་"
+
+#: ../src/widgets/sp-dock-layout.c:144
+msgid "Master"
+msgstr "ཨམ་"
+
+#: ../src/widgets/sp-dock-layout.c:145
+msgid "SPDockMaster object which the layout object is attached to"
+msgstr "སྒྲིག་བཀོད་དངོས་པོ་མཉམ་སྦྲགས་སྦེ་ཡོད་པའི་SPDockMasterདངོས་པོ་"
+
+#: ../src/widgets/sp-dock-layout.c:152
+msgid "Dirty"
+msgstr "བཙོག་པ་"
+
+#: ../src/widgets/sp-dock-layout.c:153
+msgid "True if the layouts have changed and need to be saved to a file"
+msgstr "སྒྲིག་བཀོད་འདི་བསྒྱུར་བཅོས་འབད་ཡོདཔ་དང་  ཡིག་སྣོད་ཅིག་ལུ་སྲུང་ནི་ཨིན་པ་ཅིན་བདེན་པ་ཨིན་"
+
+#: ../src/widgets/sp-dock-layout.c:500
+msgid "You must provide a name for the layout"
+msgstr "སྒྲིག་བཀོད་ཀྱི་དོན་ལུ་ཁྱོད་ཀྱིས་མིང་ཅིག་བྱིན་དགོ་"
+
+#. FIXME: pop up an error dialog
+#: ../src/widgets/sp-dock-layout.c:679
+#, c-format
+msgid "Could not load layout user interface file '%s'"
+msgstr "སྒྲིག་བཀོད་ལག་ལེན་པའི་ངོས་འདྲ་བའི་ཡིག་སྣོད་'%s'འདི་མངོན་གསལ་འབད་མ་ཚུགས་"
+
+#: ../src/widgets/sp-dock-layout.c:791
+#: ../src/widgets/sp-dock-object.c:123
+msgid "Name"
+msgstr "མིང་"
+
+#: ../src/widgets/sp-dock-layout.c:830
+msgid "Dock items"
+msgstr "ཌོཀ་རྣམ་གྲངས་ཚུ་"
+
+#: ../src/widgets/sp-dock-layout.c:836
+msgid "Saved layouts"
+msgstr "སྲུང་བཞག་འབད་ཡོད་པའི་སྒྲིག་བཀོད་ཚུ་"
+
+#: ../src/widgets/sp-dock-layout.c:902
+#, c-format
+msgid "While loading layout: don't know how to create a dock object whose nick is '%s'"
+msgstr "སྒྲིག་བཀོད་འདི་མངོན་གསལ་འབད་བའི་བསྒང་: ནིཀ་'%s'ཡོད་པའི་ཌོཀ་དངོས་པོ་ཅིག་ག་དེ་སྦེ་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་མི་ཤེས་པས་"
+
+#: ../src/widgets/sp-dock-layout.c:1459
+msgid "Layout managment"
+msgstr "སྒྲིག་བཀོད་འཛིན་སྐྱོང་"
+
+#: ../src/widgets/sp-dock-master.c:142
+#: ../src/widgets/sp-dock.c:184
+msgid "Default title"
+msgstr "སྔོན་སྒྲིག་མགོ་མིང་"
+
+#: ../src/widgets/sp-dock-master.c:143
+msgid "Default title for newly created floating docks"
+msgstr "གརསཔ་གསར་བསྐྲུན་འབད་ཡོད་པའི་འཕུར་ལྡིང་ཌོཀསི་གི་དོན་ལུ་  སྔོན་སྒྲིག་མགོ་མིང་"
+
+#: ../src/widgets/sp-dock-master.c:150
+msgid "If is set to 1, all the dock items bound to the master are locked; if it's 0, all are unlocked; -1 indicates inconsistency among the items"
+msgstr "ཡང་ན་ཟེར་མི་སྒྲ་འདི་ ༡་ ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་  ཨམ་ལུ་གནས་ཏེ་ཡོད་པའི་ཌོཀ་རྣམ་གྲངས་ཚུ་ཆ་མཉམ་རང་བསྡམ་བཞགཔ་ཨིན; ༠་ ཨིན་པ་ཅིན་ ཆ་མཉམ་བསྡམ་བཞགཔ་ཨིན;  -༡་དེ་གིས་  རྣམ་གྲངས་ཚུ་གི་གྱལ་ཁར་རིམ་མཐུན་མེད་པའི་བརྡ་སྟོནམ་ཨིན་"
+
+#: ../src/widgets/sp-dock-master.c:741
+#, c-format
+msgid "master %p: unable to add object %p[%s] to the hash.  There already is an item with that name (%p)."
+msgstr "%pཨམ: དངོས་པོ་ %p[%s] ཨང་རྟགས(#)ལུ་ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།  མིང་ (%p)དང་ཅིག་ཁར་ཡོད་པའི་རྣམ་གྲངས་འདི་ཧེ་མ་ལས་རང་འདུག།"
+
+#: ../src/widgets/sp-dock-master.c:906
+#, c-format
+msgid "The new dock controller %p is automatic.  Only manual dock objects should be named controller."
+msgstr "ཌོཀ་གསརཔ་ཚད་འཛིན་པ་%pའདི་རང་བཞིན་ཨིན།  ལག་ཐོག་ཌོཀ་དངོས་པོ་ཚུ་རྐྱངམ་ཅིག་ཚད་འཛིན་པ་ཟེར་མིང་བཏགས་དགོ།"
+
+#: ../src/widgets/sp-dock-notebook.c:136
+msgid "The index of the current page"
+msgstr "ད་ལྟོའི་ཤོག་ལེབ་ཀྱི་ཟུར་ཐོ་"
+
+#: ../src/widgets/sp-dock-object.c:124
+msgid "Unique name for identifying the dock object"
+msgstr "ཌོག་དངོས་པོ་ངོས་འཛིན་འབད་ནི་དོན་ལུ་མཐུན་མོང་མ་ཡིན་པའི་མིང་"
+
+#: ../src/widgets/sp-dock-object.c:131
+msgid "Long name"
+msgstr "མིང་རིངམ་"
+
+#: ../src/widgets/sp-dock-object.c:132
+msgid "Human readable name for the dock object"
+msgstr "ཌོཀ་དངོས་པོའི་དོན་ལུ་མི་ཚུ་གིས་ལྷག་ཚུགས་པའི་མིང་"
+
+#: ../src/widgets/sp-dock-object.c:138
+msgid "Dock master"
+msgstr "ཌོཀ་ཨམ་"
+
+#: ../src/widgets/sp-dock-object.c:139
+msgid "Dock master this dock object is bound to"
+msgstr "ཌོཀ་དངོས་པོ་འདི་གནས་ཏེ་ཡོད་པའི་ཌོཀ་ཨམ་"
+
+#: ../src/widgets/sp-dock-object.c:408
+#, c-format
+msgid "Call to sp_dock_object_dock in a dock object %p (object type is %s) which hasn't implemented this method"
+msgstr "ཐབས་ལམ་འདི་ཧེ་མ་ལས་གཞི་བཙུགས་འབད་དེ་མེད་པའི་  ཌོཀ་དངོས་པོ་%p (oདངོས་པོའི་དབྱེ་བ་འདི་ %s) ཅིག་ནང་sp_dock_object_dockལུ་འབོ་"
+
+#: ../src/widgets/sp-dock-object.c:537
+#, c-format
+msgid "Dock operation requested in a non-bound object %p. The application might crash"
+msgstr "བསྡམ་བཞག་སྟེ་མེད་པའི་དངོས་པོ་%pཅིག་ནང་ཞུ་བ་འབད་དེ་ཡོད་པའི་ཌོཀ་བཀོལ་སྤྱོདཔ།  གློག་རིམ་འདི་བརྡབ་འཁྲུག་བྱུང་འོང་"
+
+#: ../src/widgets/sp-dock-object.c:544
+#, c-format
+msgid "Cannot dock %p to %p because they belong to different masters"
+msgstr "%pའདི་%pལུ་ཌོཀ་འབད་མི་ཚུགས་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  དེ་ཚུ་ཨམ་སོ་སོ་ལུ་བངམ་ཨིན་"
+
+#: ../src/widgets/sp-dock-object.c:586
+#, c-format
+msgid "Attempt to bind to %p an already bound dock object %p (current master: %p)"
+msgstr "ཧེ་མ་ལས་བསྡམ་བཞག་སྟེ་ཡོད་པའི་ཌོཀ་དངོས་པོ་%p (ད་ལྟོའི་ཨམ: %p) %pལུ་བསྡམ་ནི་དཔའ་བཅམ་ད་"
+
+#: ../src/widgets/sp-dock-paned.c:134
+msgid "Position"
+msgstr "གནས་ས་"
+
+#: ../src/widgets/sp-dock-paned.c:135
+msgid "Position of the divider in pixels"
+msgstr "པིག་སེསི་ནང་བཅད་མཚམས་ཀྱི་གནས་ས་"
+
+#: ../src/widgets/sp-dock-placeholder.c:125
+msgid "Sticky"
+msgstr "རྩི་ཅན་"
+
+#: ../src/widgets/sp-dock-placeholder.c:126
+msgid "Whether the placeholder will stick to its host or move up the hierarchy when the host is redocked"
+msgstr "གནས་ས་འཛིན་མི་འདི་དེའི་ཧོསཊི་ལུ་སྦྱར་རུང་  ཡང་ན་  ཧོསཊི་འདི་སླར་ཌོཀ་འབདཝ་ད་སྡེ་རིམ་ལུ་སྤོ་བཤུད་འབད་རུང་"
+
+#: ../src/widgets/sp-dock-placeholder.c:133
+msgid "Host"
+msgstr "ཧོསཊི་"
+
+#: ../src/widgets/sp-dock-placeholder.c:134
+msgid "The dock object this placeholder is attached to"
+msgstr "གནས་ས་འཛིན་མི་མཉམ་སྦྲགས་སྦེ་ཡོད་པའི་ཌོཀ་དངོས་པོ་"
+
+#: ../src/widgets/sp-dock-placeholder.c:141
+msgid "Next placement"
+msgstr "ཤུལ་མའི་བཙུགས་བཞག་"
+
+#: ../src/widgets/sp-dock-placeholder.c:142
+msgid "The position an item will be docked to our host if a request is made to dock to us"
+msgstr "རྣམ་གྲངས་ཅིག་གནས་ས་གཏང་ནི་འདི་  ག་དེམ་ཅིག་སྦེ་ང་བཅས་ཀྱིས་ཌོཀ་སྦེ་ཟེར་བ་ཅིན་  ང་བཅས་ཀྱི་ཧོསཊི་ལུ་ཌོཀ་འབད་འོང་ "
+
+#: ../src/widgets/sp-dock-placeholder.c:303
+msgid "Attempt to dock a dock object to an unbound placeholder"
+msgstr "ཌོཀ་དངོས་པོ་འདི་བསྡམ་བཞག་འབད་མེད་པའི་གནས་ས་འཛིན་མི་ཅིག་ལུ་  ཌོཀ་འབད་ནི་གི་དཔའ་བཅམ་ད་"
+
+#: ../src/widgets/sp-dock-placeholder.c:417
+#, c-format
+msgid "Got a detach signal from an object (%p) who is not our host %p"
+msgstr "ང་བཅས་ཀྱི་ཧོསཊི་%pམ་ཡིན་པའི་དངོས་པོ་(%p) ལས་ཁ་འཕྱལ་བའི་བརྡ་རྟགས་ཅིག་ཐོབ་ཅི་"
+
+#: ../src/widgets/sp-dock-placeholder.c:438
+#, c-format
+msgid "Something weird happened while getting the child placement for %p from parent %p"
+msgstr "རྩ་ལག་%pལས་ %pགི་དོན་ལུ་ཆ་ལག་བཙུག་བཞག་ལེན་པའི་བསྒང་  ག་ཅི་ཅིག་ཝེརཌི་འབྱུང་ནུག་"
+
+#: ../src/widgets/sp-dock-tablabel.c:131
+msgid "Controlling dock item"
+msgstr "ཌོཀ་རྣམ་གྲངས་ཚད་འཛིན་འབད་དོ་"
+
+#: ../src/widgets/sp-dock-tablabel.c:132
+msgid "Dockitem which 'owns' this tablabel"
+msgstr "མཆོང་ལྡེའི་ཁ་ཡིག་'owns'འབད་མི་ཌོཀ་རྣམ་གྲངས་"
+
+#: ../src/widgets/sp-dock.c:176
+msgid "Floating"
+msgstr "འཕུར་ལྡིང་"
+
+#: ../src/widgets/sp-dock.c:177
+msgid "Whether the dock is floating in its own window"
+msgstr "ཌོཀ་འདི་དེའི་སྒོ་སྒྲིག་ནང་འཕུར་ལྡིང་འབད་རུང་མ་འབད་རུང་"
+
+#: ../src/widgets/sp-dock.c:185
+msgid "Default title for the newly created floating docks"
+msgstr "གསརཔ་གསར་བསྐྲུན་འབད་ཡོད་པའི་འཕུར་ལྡིང་ཌོཀསི་གི་དོན་ལུ་སྔོན་སྒྲིག་མིང་"
+
+#: ../src/widgets/sp-dock.c:191
+msgid "Width"
+msgstr "རྒྱ་ཚད་"
+
+#: ../src/widgets/sp-dock.c:192
+msgid "Width for the dock when it's of floating type"
+msgstr "འཕུར་ལྡིང་དབྱེ་བའི་སྐབས་སུ་ཌོཀ་གི་དོན་ལུ་རྒྱ་ཚད་"
+
+#: ../src/widgets/sp-dock.c:199
+msgid "Height"
+msgstr "མཐོ་ཚད་"
+
+#: ../src/widgets/sp-dock.c:200
+msgid "Height for the dock when it's of floating type"
+msgstr "འཕུར་ལྡིང་གི་དབྱེ་བའི་སྐབས་ཌོཀ་གི་དོན་ལུ་མཐོ་ཚད་"
+
+#: ../src/widgets/sp-dock.c:207
+msgid "Float X"
+msgstr "ཨེགསི་ལྡིང་ནི་"
+
+#: ../src/widgets/sp-dock.c:208
+msgid "X coordinate for a floating dock"
+msgstr "འཕུར་ལྡིང་ཌོཀ་ཅིག་གི་དོན་ལུ་ཨེགས་ཆ་སྙོམ་"
+
+#: ../src/widgets/sp-dock.c:215
+msgid "Float Y"
+msgstr "ཝའི་ལྡིང་ནི་"
+
+#: ../src/widgets/sp-dock.c:216
+msgid "Y coordinate for a floating dock"
+msgstr "ཌོཀ་འཕུར་ལྡིང་གི་དོན་ལུ་ཝའི་ཆ་སྙོམ་"
+
+#: ../src/widgets/sp-dock.c:509
+#, c-format
+msgid "Dock #%d"
+msgstr "ཌོཀ་ #%d"
+
+#: ../src/widgets/sp-toolbox.c:305
+msgid "Toggle separate window and main toolbox placement"
+msgstr "སྒོ་སྒྲིག་ཁ་འཕྱལ་འཕྱལཝ་དང་ལག་ཆས་སྒྲོམ་བཙུགས་བཞག་ངོ་མ་འདི་སོར་སྟོན་འབད་"
+
+#: ../src/widgets/sp-xmlview-attr-list.c:54
+msgid "Attribute"
+msgstr "ཁྱད་ཆོས་"
+
+#: ../src/widgets/sp-xmlview-attr-list.c:55
+msgid "Value"
+msgstr "གནས་གོང་"
+

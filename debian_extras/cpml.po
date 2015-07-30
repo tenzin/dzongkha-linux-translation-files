@@ -1,0 +1,141 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cpml.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-19 09:41+0100\n"
+"PO-Revision-Date: 2006-11-28 13:53+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Would you like to run the cpml-ev5 installer now?"
+msgstr "cpml-ev5གཞི་བཙུགས་པ་འདི་ད་ལྟོ་ཁྱོད་ཀྱིས་  གཡོག་བཀོལ་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "This is the Compaq cpml-ev5 installer package, it does not actually contain cpml-ev5. You will need to go download cpml-ev5 yourself. Once you have downloaded it, you can proceed and tell the installer which directory you put it in."
+msgstr "འདི་ཀམ་པེཀ་cpml-ev5གཞི་བཙུགས་པའི་ཐུམ་སྒྲིལ་ཨིན་  དེ་ལུ་cpml-ev5འདི་ངོ་མ་སྦེ་གནས་ཏེ་མེདཔ་ཨིན།  ཁྱོད་ཀྱིས་cpml-ev5འདི་ཁྱོད་རང་གིས་སྦེ་ཕབ་ལེན་འབད་དགོ།  ཚར་གཅིག་ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་ཚར་ཞིནམ་ལས་  ཁྱོད་རང་འཕྲོ་མཐུད་ནི་དང་  གཞི་བཙུགས་པ་འདི་ལུ་  ཁྱོད་ཀྱིས་སྣོད་ཐོ་ག་འདི་བཙུགས་ཡོད་ག་སླབ་དགོ།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Location of the Compaq cpml-ev5 file:"
+msgstr "ཀམ་པེཀ་cpml-ev5ཡིག་སྣོད་ཀྱི་གནས་ཁོངས:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Please visit the web page ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html now, and if you agree to their terms and conditions, then download the Red Hat RPM of cpml-ev5. The file should be named ${filename}."
+msgstr "ད་ལྟོ་  ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html ཝེབ་ནང་བལྟ་སྤྱོད་འབད་གནང་ནི་དང་  ཁྱོད་ཀྱིས་དེ་ཚུ་གི་དོན་ཚིག་དང་གནས་སྟངས་ཚུ་ལུ་ཁས་ལེན་པ་ཅིན་  cpml-ev5གི་རེཌི་ཧེཌི་ཨར་པི་ཨེམ་འདི་ཕབ་ལེན་འབད།  ཡིག་སྣོད་འདི་${filename}ཟེར་མིང་བཏགས་དགོ།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+" Once you have downloaded it, enter the directory you put it in. Also\n"
+"make sure that permissions on the file are appropriate."
+msgstr ""
+"ཚར་གཅིག་ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་ཚར་བའི་ཤུལ་ལུ་   ཁྱོད་ཀྱིས་བཙུགས་ཡོད་པའི་སྣོད་ཐོ་འདི་ཐོ་བཀོད་འབད།  གཞན་ཡང་  \n"
+"ཡིག་སྣོད་གུ་ཡོད་པའི་གནང་བ་ཚུ་འོས་ལྡན་ཡོདཔ་བཟོ།"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Delete RPM file once it is installed?"
+msgstr "ཚར་གཅིག་གཞི་བཙུགས་འབད་ཚར་ཞིནམ་ལས་  ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་བཏོན་གཏང་ག?"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Please choose whether the RPM file should be deleted once it has been installed."
+msgstr "ཚར་གཅིག་གཞི་བཙུགས་འབད་ཚར་ཞིནམ་ལས་  ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་བཏོན་གཏང་ནི་ཨིན་ན་མེན་མ་འདི་གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "Downloaded Compaq cpml-ev5 file not found"
+msgstr "ཕབ་ལེན་འབད་ཡོད་པའི་ཀམ་པེཀ་cpml-ev5ཡིག་སྣོད་འདི་འཐོབ་མ་ཚུགས་"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "The file ${filename} does not exist, or it is corrupt. You may have downloaded the wrong file, or put it in the wrong location. Please try again."
+msgstr "ཡིག་སྣོད་${filename}འདི་གནས་ཏེ་མིན་འདུག་  ཡང་ན་  འདི་ངན་ཅན་ཨིན་བས།  ཁྱོད་ཀྱིས་ཡིག་སྣོད་མེན་མི་གཅིག་ཕབ་ལེན་འབད་འབདཝ་འོང་  ཡང་ན་  གནས་ཁོངས་མེན་མི་ནང་བཙུགས་བཙུགཔ་འོང་།  ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "If the file you downloaded has a different name, the filename may have changed since this installer was last updated. You can still try to use the installer; just rename the file you downloaded to ${filename} . Note that if you do this, there is no guarantee the installer will work. You may need to get a more recent version of this installer from Debian's \"unstable\" distribution. We are sorry if this is inconvenient but we do not have permission to redistribute Compaq cpml-ev5."
+msgstr "ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་ཡོད་པའི་ཡིག་སྣོད་དེ་ལུ་མིང་སོ་སོ་ཡོད་པ་ཅིན་   གཞི་བཙུགས་འདི་མཇུག་ལུ་དུས་མཐུན་བཟོ་ཡོདཔ་ལས་  ཡིག་སྣོད་མིང་འདི་བསྒྱུར་བཅོས་འབད་འབདཝ་འོང་།  ཁྱོད་ཀྱིས་ད་ལྟོ་ཡང་  གཞི་བཙུགས་འདི་ལག་ལེན་འཐབ་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་གནང་; ཁྱོད་ཀྱིས་  ${filename}ལུ་ཕབ་ལེན་འབད་དེ་ཡོད་པའི་ཡིག་སྣོད་ལུ་བསྐྱར་མིང་བཏགས་འབད།   ཁྱོད་ཀྱིས་འདི་བཟུམ་འབད་བ་ཅིན་  གཞི་བཙུགས་དེ་གིས་ལཱ་འབདཝ་ཨིན་ཟེར་ཉེན་ལེན་འབད་མི་ཚུགས་ཟེར་དྲན་འཛིན་འབད།   Debian's \"unstable\"བགོ་བཀྲམ་ལས་  གཞི་བཙུགས་འདི་གི་དོན་ལུ་  ཁྱོད་ཀྱིས་འཕྲལ་གྱི་འཐོན་རིམ་མངམ་ཐོབ་དགོ།  འདི་སྟབས་མ་བདེཝ་ཨིན་པ་ཅིན་ང་བཅས་ཚུ་གིས་དགོངས་མ་ཁྲེལ་ཟེར་ཞུ་ནི་ཨིན་   དེ་འབདཝ་ད་  ཀམ་པེཀ་cpml-ev5སླར་བགོ་བཀྲམ་འབད་ནི་གི་གནང་བ་ང་བཅས་ལུ་མེད།"
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Compaq cpml-ev5 installer failed"
+msgstr "ཀམ་པེཀ་cpml-ev5གཞི་བཙུགས་འཐུས་ཤོར་འབྱུང་ནུག་"
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "You are running in non-interactive mode, and the Compaq cpml-ev5 installer needs to prompt you to download a file for it to install, and cannot. The installation of this package has been aborted. Please re-install it in interactive mode."
+msgstr "ཁྱོད་ཀྱིས་ཕན་ཚུན་འབྲེལ་བ་མ་ཡིན་པའི་ཐབས་ལམ་ནང་གཡོག་བཀོལ་དོ་   དེ་ལས་  ཀམ་པེཀ་cpml-ev5 གཞི་བཙུགས་འདི་གིས་ ཡིག་སྣོད་གཞི་བཙུགས་འབད་ནི་ལུ་དང་འབད་མ་ཚུགས་མི་དོན་ལུ་  ཁྱོད་ཀྱིས་ཡིག་སྣོད་གཅིག་ཕབ་ལེན་འབད་ནི་ལུ་ནུས་སྤེལ་འབདཝ་ཨིན།  ཐུམ་སྒྲིལ་འདི་གི་གཞི་བཙུགས་འདི་བར་བཤོལ་འབད་ནུག།  ཕན་ཚུན་འབྲེལ་ལྡན་ཐབས་ལམ་ནང་སླར་གཞི་བཙུགས་འབད།"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "Compaq cpml-ev5 install delayed"
+msgstr "ཀམ་པེཀ་cpml-ev5གཞི་བཙུགས་ཕྱིར་འགྱངས་འབད་ནུག"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "You have chosen not to run the Compaq cpml-ev5 installer at this time. If you decide to run it later you can do so by running \"dpkg-reconfigure cpml-ev5\"."
+msgstr "དུས་ཚོད་འདི་བཟུམ་ཅིག་ཁར་  ཁྱོད་ཀྱིས་ཀམ་པེཀ་cpml-ev5གཞི་བཙུགས་འདི་གཡོག་མི་བཀོལ་ཟེར་གདམ་ཁ་བརྐྱབ་ནུག།  ཁྱོད་ཀྱིས་ཤུལ་མ་གཡོག་བཀོལ་ནི་ལུ་གྲོས་ཐག་བཅད་པ་ཅིན་  ནི་བཟུམ་འདི་ཁྱོད་ཀྱིས་  \"dpkg-reconfigure cpml-ev5\"གཡོག་བཀོལ་ཐོག་ལས་འབད་ཚུགས།"
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "Install the wrong library anyway?"
+msgstr "གང་རུང་སྦེ་དཔེ་མཛོད་ཕྱི་འགྱུར་འདི་གཞི་བཙུགས་འབད་ག?"
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "You are attempting to install cpml-ev5 on an alpha with an ev6 or later processor. This will work, but the resulting function calls will not run as quickly as they could with the cpml-ev6 package. You should not proceed with this installation, but install cpml-ev6 instead."
+msgstr "ev6ཡང་ན་ཤུལ་མའི་སྔ་གོང་ལས་སྦྱོར་འཕྲུལ་ཆས་ཅིག་དང་ཅིག་ཁར་  ཁྱོད་ཀྱིས་cpml-ev5འདི་ཨཱལ་ཕ་གུར་གཞི་བཙུགས་འབད་ནི་འབད་དོ།  འདི་གིས་ལཱ་འབད་འོང་  དེ་འབདཝ་ད་  གྲུབ་འབྲས་འབྱུང་ཡོད་མི་ལས་འགན་འདི་  དེ་ཚུ་གིས་འབད་ཚུགས་དོ་བཟུམ་སྦེ་cpml-ev6ཐུམ་སྒྲིལ་དང་ཅིག་ཁར་གཡོག་བཀོལ་མི་བཏུབ།  གཞི་བཙུགས་འདི་དང་ཅིག་ཁར་ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་ནི་མི་འོང་  དེ་འབདཝ་ད་འདི་གི་ཚབ་ལུ་ cpml-ev6གཞི་བཙུགས་འབད།"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "Compaq cpml-ev5 library not installed"
+msgstr "ཀམ་པེཀ་cpml-ev5དཔེ་མཛོད་འདི་གཞི་བཙུགས་མ་འབད་བས་"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "You have not run the Compaq cpml-ev5 installer, so the library has not been installed.  Please remove this package and install the cpml-ev6 package."
+msgstr "ཁྱོད་ཀྱིས་ཀམ་པེཀ་cpml-ev5གཞི་བཙུགས་འདི་གཡོག་མ་བཀོལ་བས་  འདི་འབདཝ་ལས་  དཔེ་མཛོད་འདི་གཞི་བཙུགས་མ་འབད་བས།  ཐུམ་སྒྲིལ་འདི་རྩ་བསྐྲད་གཏང་ནི་དང་  cpml-ev6ཐུམ་སྒྲིལ་འདི་གཞི་བཙུགས་འབད།"
+

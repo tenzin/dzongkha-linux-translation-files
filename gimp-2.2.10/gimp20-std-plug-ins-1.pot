@@ -1,0 +1,1817 @@
+# translation of gimp-plug-ins.HEAD-1.po to Dzongkha
+# translation of gimp-plug-ins.HEAD.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Dorji Tashi <dorjee_doss@hotmail.com>, 2006.
+# Sonam Rinchen <somchen@druknet.bt>, 2006.
+# Jurmey Rabgay <jurmeyti@hotmail.com>
+# Yanka <yanang_ka@yahoo.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-plug-ins.HEAD-1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-10 20:02+0600\n"
+"PO-Revision-Date: 2006-05-11 14:14-0500\n"
+"Last-Translator: sonam pelden\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:523
+#: ../plug-ins/gfig/gfig-dialog.c:283
+#: ../plug-ins/gflare/gflare.c:891
+#, c-format
+msgid ""
+"No %s in gimprc:\n"
+"You need to add an entry like\n"
+"(%s \"%s\")\n"
+"to your %s file."
+msgstr ""
+"ཇི་ཨའི་ཨེམ་པི་ཨར་སི་ནང་ %s མིན་འདུག་:\n"
+"ཁྱོད་ཀྱིས་ཐོ་བཀོད་འདི་བཟུམ་ཁ་སྐོང་རྐྱབ་དགོ\n"
+"(%s \"%s\")\n"
+"ཁྱོད་རའི་%sཡིག་སྣོད་ལུ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:543
+#: ../plug-ins/FractalExplorer/Dialogs.c:1647
+#: ../plug-ins/imagemap/imap_about.c:39
+#: ../plug-ins/print/gimp_main_window.c:367
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:608
+msgid "Realtime Preview"
+msgstr "ཆུ་ཚོད་ངོ་མ་སྔོན་ལྟ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:615
+msgid "If you enable this option the preview will be redrawn automatically"
+msgstr "གདམ་ཁ་འདི་ཁྱོད་ཀྱིས་ལྕོགས་ཅན་བཟོ་བ་ཅིན་ སྔོན་ལྟ་འདི་རང་བཞིན་གྱིས་ལོག་འབྲི་འོང་།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:618
+msgid "Redraw"
+msgstr "ལོག་འབྲི།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:624
+msgid "Redraw preview"
+msgstr "སྔོན་ལྟ་ལོག་འབྲི།"
+
+#. Zoom Options
+#: ../plug-ins/FractalExplorer/Dialogs.c:627
+#: ../plug-ins/imagemap/imap_popup.c:146
+msgid "Zoom"
+msgstr "རྒྱས་ཟུམ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:655
+msgid "Undo last zoom"
+msgstr "མཇུག་གི་རྒྱས་ཟུམ་འབད་བཤོལ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:665
+msgid "Redo last zoom"
+msgstr "མཇུག་གི་རྒྱས་ཟུམ་ལོག་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:680
+msgid "_Parameters"
+msgstr "ཚད་བཟུང་ཚུ་(_P)"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:683
+msgid "Fractal Parameters"
+msgstr "ཆ་རྩིས་ཚད་བཟུང་ཚུ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:696
+msgid "XMIN:"
+msgstr "ཨེགསི་ཉུང་མཐའ:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:699
+msgid "Change the first (minimal) x-coordinate delimitation"
+msgstr "(ཆུང་ཤོས་)ཨེཀསི་-ཆ་སྙོམ་དབྱེ་རྟགས་དང་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:707
+msgid "XMAX:"
+msgstr "ཨེཀསི་མང་མཐའ་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:710
+msgid "Change the second (maximal) x-coordinate delimitation"
+msgstr "(སྦོམ་ཤོས་)ཨེཀསི་-ཆ་སྙོམ་དབྱེ་རྟགས་གཉིས་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:718
+msgid "YMIN:"
+msgstr "ཝའི་ཉུང་མཐའ་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:721
+msgid "Change the first (minimal) y-coordinate delimitation"
+msgstr "(ཆུང་ཤོས་)ཝའི་-ཆ་སྙོམ་དབྱེ་རྟགས་དང་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:729
+msgid "YMAX:"
+msgstr "ཝའི་མང་མཐའ་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:732
+msgid "Change the second (maximal) y-coordinate delimitation"
+msgstr "(སྦོམ་ཤོས་)ཝའི་-ཆ་སྙོམ་དབྱེ་རྟགས་གཉིས་པམ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:740
+msgid "ITER:"
+msgstr "ཨའི་ཊི་ཨི་ཨར:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:743
+msgid "Change the iteration value. The higher it is, the more details will be calculated, which will take more time"
+msgstr "ཁས་ལེན་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད། འདི་མཐོ་མི་ཨིན་ རྒྱས་བཤད་ཧེང་བཀལ་རྩིས་སྟོན་འབད་འོང་ དེ་གིས་དུས་ཚོད་ལེ་ཤ་འགོར་འོང་།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:752
+msgid "CX:"
+msgstr "སི་ཨེགསི་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:755
+msgid "Change the CX value (changes aspect of fractal, active with every fractal but Mandelbrot and Sierpinski)"
+msgstr "སི་ཨེཀསི་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད་ (ཆ་རྩིས་གེ་ར་མཉམ་ཤུགས་ལྡན་ ཆ་རྩིས་ཀྱི་རྣམ་པ་བསྒྱུར་བཅོས་འབདཝ་ཨིན་ དེ་འབདཝ་ད་མེན་ཌཱལ་བོརོཊོ་དང་སིཨིཨར་པིངཀ་ཨིས་ཀའི་འདི་མི་འབད་)"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:764
+msgid "CY:"
+msgstr "སི་ཝའི་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:767
+msgid "Change the CY value (changes aspect of fractal, active with every fractal but Mandelbrot and Sierpinski)"
+msgstr "སི་ཝའི་གནས་གོང་འདི་བསྒྱུར་བཅོས་འབད་(ཆ་རྩིས་གེ་ར་མཉམ་ཤུག་ལྡན་ ཆ་རྩིས་ཀྱི་རྣམ་པ་བསྒྱུར་བཅོས་འབདཝ་ཨིན་ དེ་འབདཝ་ད་མེན་ཌཱལ་བོརོཊོ་དང་སིཨིཨར་པིངཀ་ཨིས་ཀའི་འདི་མི་འབད་)"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:784
+msgid "Load a fractal from file"
+msgstr "ཡིག་སྣོད་ནང་ལས་ཆ་རྩིས་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:792
+msgid "Reset parameters to default values"
+msgstr "གནས་གོང་ཚུ་སྔོན་སྒྲིག་འབད་ནི་ལུ་ཚད་བཟུང་ཚུ་སླར་སྒྲིག་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:801
+msgid "Save active fractal to file"
+msgstr "ཡིག་སྣོད་ལུ་ཤུགས་ལྡན་ཆ་རྩིས་སྲུངས།"
+
+#. Fractal type toggle box
+#: ../plug-ins/FractalExplorer/Dialogs.c:804
+msgid "Fractal Type"
+msgstr "ཆ་རྩིས་ཀྱི་དབྱེ་བ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:817
+msgid "Mandelbrot"
+msgstr "མེན་ཌཱལ་བོརོཊོ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:819
+msgid "Julia"
+msgstr "ཇུ་ལི་ཡ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:821
+msgid "Barnsley 1"
+msgstr "བརཱནསི་ལེ་ ༡"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:823
+msgid "Barnsley 2"
+msgstr "བརཱནསི་ལེ་ ༢"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:825
+msgid "Barnsley 3"
+msgstr "བརཱནསི་ལེ་ ༣"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:827
+msgid "Spider"
+msgstr "སི་པའི་ཌར།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:829
+msgid "Man'o'war"
+msgstr "མི་'ཨོ'དམག་འཁྲུག"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:831
+msgid "Lambda"
+msgstr "ལེམ་ཌ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:833
+msgid "Sierpinski"
+msgstr "སིཨིཨར་པིངཀ་ཨིས་ཀའི།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:879
+#: ../plug-ins/common/sinus.c:879
+msgid "Co_lors"
+msgstr "ཚོས་གཞི་ཚུ་(_l)"
+
+#. Number of Colors frame
+#: ../plug-ins/FractalExplorer/Dialogs.c:883
+#: ../plug-ins/common/borderaverage.c:405
+msgid "Number of Colors"
+msgstr "ཚོས་གཞི་ཚུ་གི་གྲངས།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:895
+msgid "Number of colors:"
+msgstr "ཚོས་གཞི་ཚུ་གི་གྲངས་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:898
+msgid "Change the number of colors in the mapping"
+msgstr "ས་ཁྲ་ནང་གི་ཚོས་གཞི་ཚུ་གི་གྲངས་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:905
+msgid "Use loglog smoothing"
+msgstr "ལོག་ལོག་ཧུམ་ཆ་བཟོ་ནི་འདི་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:912
+msgid "Use log log smoothing to eliminate \"banding\" in the result"
+msgstr "གྲུབ་འབྲས་འདི་ནང་ \"བེན་ཌིང་\"འདི་རྩ་མེད་གཏང་ནི་ལུ་ལོག་ལོག་ཧུམ་ཆ་བཟོ་ནི་འདི་ལག་ལེན་འཐབ།"
+
+#. Color Density frame
+#: ../plug-ins/FractalExplorer/Dialogs.c:916
+msgid "Color Density"
+msgstr "ཚོས་གཞི་གི་སྟུག་ཚད།"
+
+#. These values are translated for the GUI but also used internally
+#. to figure out which button the user pushed, etc.
+#. Not my design, please don't blame me -- njl
+#: ../plug-ins/FractalExplorer/Dialogs.c:928
+#: ../plug-ins/common/compose.c:128
+#: ../plug-ins/common/compose.c:138
+#: ../plug-ins/common/fp.c:228
+msgid "Red:"
+msgstr "དམརཔོ་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:931
+msgid "Change the intensity of the red channel"
+msgstr "རྒྱུ་ལམ་དམརཔོ་འདི་གི་དྲག་ཤུགས་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:938
+#: ../plug-ins/common/compose.c:129
+#: ../plug-ins/common/compose.c:139
+#: ../plug-ins/common/fp.c:229
+msgid "Green:"
+msgstr "ལྗང་ཁུ་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:941
+msgid "Change the intensity of the green channel"
+msgstr "རྒྱུ་ལམ་ལྗང་ཁུ་འདི་གི་དྲག་ཤུགས་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:948
+#: ../plug-ins/common/compose.c:130
+#: ../plug-ins/common/compose.c:140
+#: ../plug-ins/common/fp.c:230
+msgid "Blue:"
+msgstr "ཧོནམ་:"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:951
+msgid "Change the intensity of the blue channel"
+msgstr "རྒྱུ་ལམ་ཧོནམ་འདི་གི་དྲག་ཤུགས་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#. Color Function frame
+#: ../plug-ins/FractalExplorer/Dialogs.c:957
+msgid "Color Function"
+msgstr "ཚོས་གཞི་གི་ལས་འགན།"
+
+#. Redmode radio frame
+#: ../plug-ins/FractalExplorer/Dialogs.c:966
+#: ../plug-ins/common/channel_mixer.c:523
+#: ../plug-ins/common/decompose.c:133
+msgid "Red"
+msgstr "དམརཔོ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:970
+#: ../plug-ins/FractalExplorer/Dialogs.c:1011
+#: ../plug-ins/FractalExplorer/Dialogs.c:1052
+msgid "Sine"
+msgstr "སིན།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:972
+#: ../plug-ins/FractalExplorer/Dialogs.c:1013
+#: ../plug-ins/FractalExplorer/Dialogs.c:1054
+msgid "Cosine"
+msgstr "ཀོ་སིན།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:974
+#: ../plug-ins/FractalExplorer/Dialogs.c:1015
+#: ../plug-ins/FractalExplorer/Dialogs.c:1056
+#: ../plug-ins/Lighting/lighting_ui.c:369
+#: ../plug-ins/common/CML_explorer.c:168
+#: ../plug-ins/common/align_layers.c:416
+#: ../plug-ins/common/align_layers.c:447
+#: ../plug-ins/common/postscript.c:3028
+#: ../plug-ins/common/postscript.c:3040
+#: ../plug-ins/common/psp.c:416
+#: ../plug-ins/fits/fits.c:1012
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:979
+#: ../plug-ins/FractalExplorer/Dialogs.c:1020
+#: ../plug-ins/FractalExplorer/Dialogs.c:1061
+msgid "Use sine-function for this color component"
+msgstr "ཚོས་གཞི་ཆ་ཤས་འདི་གི་དོན་ལུ་སིན་-ལས་འགན་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:982
+#: ../plug-ins/FractalExplorer/Dialogs.c:1023
+#: ../plug-ins/FractalExplorer/Dialogs.c:1064
+msgid "Use cosine-function for this color component"
+msgstr "ཚོས་གཞི་ཆ་ཤས་འདི་གི་དོེན་ལུ་ཀོ་སིན་-ལས་འགན་འདི་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:985
+#: ../plug-ins/FractalExplorer/Dialogs.c:1026
+#: ../plug-ins/FractalExplorer/Dialogs.c:1067
+msgid "Use linear mapping instead of any trigonometrical function for this color channel"
+msgstr "ཚོས་གཞི་རྒྱུ་ལམ་འདི་གི་དོན་ལུ་ཟུར་གསུམ་གྱི་ལས་འགན་གང་རུང་གི་ཚབ་ལུ་རིང་ཚད་ཀྱི་ས་ཁྲ་བཟོ་མི་འདི་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:994
+#: ../plug-ins/FractalExplorer/Dialogs.c:1035
+#: ../plug-ins/FractalExplorer/Dialogs.c:1076
+msgid "Inversion"
+msgstr "གོ་ལོག"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1002
+#: ../plug-ins/FractalExplorer/Dialogs.c:1043
+#: ../plug-ins/FractalExplorer/Dialogs.c:1084
+msgid "If you enable this option higher color values will be swapped with lower ones and vice versa"
+msgstr "ཁྱོད་ཀྱིས་འ་ནི་གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ་བ་ཅིན་ མཐོ་མི་ཚོས་གཞི་གནས་གོང་ཚུ་དམའ་མི་ཚུ་དང་ལུག་ལྡོག་མཉམ་བརྗེ་སོར་འབད་འོང་།"
+
+#. Greenmode radio frame
+#: ../plug-ins/FractalExplorer/Dialogs.c:1007
+#: ../plug-ins/common/channel_mixer.c:528
+#: ../plug-ins/common/decompose.c:134
+msgid "Green"
+msgstr "ལྗང་ཁུ།"
+
+#. Bluemode radio frame
+#: ../plug-ins/FractalExplorer/Dialogs.c:1048
+#: ../plug-ins/common/channel_mixer.c:533
+#: ../plug-ins/common/decompose.c:139
+msgid "Blue"
+msgstr "ཧོནམ།"
+
+#. Colormode toggle box
+#: ../plug-ins/FractalExplorer/Dialogs.c:1089
+msgid "Color Mode"
+msgstr "ཚོས་གཞི་ཐབས་ལམ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1098
+msgid "As specified above"
+msgstr "ལྟག་ལུ་གསལ་བཀོད་འབད་མི་བཟུམ་སྦེ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1110
+msgid "Create a color-map with the options you specified above (color density/function). The result is visible in the preview image"
+msgstr "ཁྱོད་ཀྱིས་ལྟག་ལུ་གསལ་བཀོད་འབད་མི་(ཚོས་གཞི་སྟུག་ཚད་/ལས་འགན་)གདམ་ཁ་ཚུ་དང་མཉམ་ཚོས་གཞི་-ས་ཁྲ་འདི་གསར་བསྐྲུན་འབད། གྲུབ་འབྲས་འདི་སྔོན་ལྟ་གཟུགས་བརྙན་འདི་ནང་མཐོང་ཚུགས།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1120
+msgid "Apply active gradient to final image"
+msgstr "མཐའ་མཇུག་གཟུགས་བརྙན་ལུ་ཤུགས་ལྡན་སྟེགས་རིས་འཇུག་སྤྱོད་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1132
+msgid "Create a color-map using a gradient from the gradient editor"
+msgstr "སྟེགས་རིས་ཞུན་དག་པ་འདི་ལས་སྟེགས་རིས་ཅིག་ལག་ལེན་འཐབ་སྟེ་ཚོས་གཞི་-ས་ཁྲ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1143
+msgid "FractalExplorer Gradient"
+msgstr "ཆ་རྩིས་ཐབས་འཚོལ་མི་སྟེགས་རིས།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1173
+msgid "_Fractals"
+msgstr "ཆ་རྩིས་ཚུ་(_F)"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1796
+#: ../plug-ins/Lighting/lighting_ui.c:1109
+#: ../plug-ins/bmp/bmpwrite.c:198
+#: ../plug-ins/common/CEL.c:577
+#: ../plug-ins/common/CML_explorer.c:2001
+#: ../plug-ins/common/channel_mixer.c:1044
+#: ../plug-ins/common/compressor.c:404
+#: ../plug-ins/common/compressor.c:535
+#: ../plug-ins/common/curve_bend.c:861
+#: ../plug-ins/common/dicom.c:647
+#: ../plug-ins/common/gbr.c:586
+#: ../plug-ins/common/gif.c:994
+#: ../plug-ins/common/gih.c:1254
+#: ../plug-ins/common/gtm.c:225
+#: ../plug-ins/common/jpeg.c:1498
+#: ../plug-ins/common/mng.c:558
+#: ../plug-ins/common/mng.c:946
+#: ../plug-ins/common/pat.c:433
+#: ../plug-ins/common/pcx.c:585
+#: ../plug-ins/common/pix.c:515
+#: ../plug-ins/common/png.c:1178
+#: ../plug-ins/common/pnm.c:809
+#: ../plug-ins/common/postscript.c:1123
+#: ../plug-ins/common/psd_save.c:1336
+#: ../plug-ins/common/raw.c:517
+#: ../plug-ins/common/raw.c:544
+#: ../plug-ins/common/spheredesigner.c:2088
+#: ../plug-ins/common/sunras.c:513
+#: ../plug-ins/common/tga.c:1030
+#: ../plug-ins/common/tiff.c:1825
+#: ../plug-ins/common/xbm.c:996
+#: ../plug-ins/common/xwd.c:577
+#: ../plug-ins/fits/fits.c:450
+#: ../plug-ins/flame/flame.c:443
+#: ../plug-ins/gfig/gfig.c:788
+#: ../plug-ins/gfli/gfli.c:715
+#: ../plug-ins/ifscompose/ifscompose.c:2395
+#: ../plug-ins/winicon/icosave.c:243
+#: ../plug-ins/xjt/xjt.c:1263
+#: ../plug-ins/xjt/xjt.c:1702
+#, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr "%s འབྲི་ནི་གི་དོན་ལུ་ '%s'ཁ་ཕྱེ་མ་བཏུབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1810
+#, c-format
+msgid "Could not write '%s': %s"
+msgstr "'%s': %s འབྲི་མ་བཏུབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1863
+msgid "Load Fractal Parameters"
+msgstr "ཆ་རྩིས་ཚད་བཟུང་ཚུ་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:1894
+msgid "Save Fractal Parameters"
+msgstr "ཆ་རྩིས་ཚད་བཟུང་ཚུ་སྲུངས།"
+
+#. Do not rely on librsvg setting GError on failure!
+#. stat error (file does not exist)
+#: ../plug-ins/FractalExplorer/Dialogs.c:2094
+#: ../plug-ins/Lighting/lighting_ui.c:1247
+#: ../plug-ins/bmp/bmpread.c:153
+#: ../plug-ins/common/CEL.c:305
+#: ../plug-ins/common/CML_explorer.c:2216
+#: ../plug-ins/common/channel_mixer.c:966
+#: ../plug-ins/common/curve_bend.c:913
+#: ../plug-ins/common/dicom.c:290
+#: ../plug-ins/common/gbr.c:327
+#: ../plug-ins/common/gifload.c:296
+#: ../plug-ins/common/gih.c:648
+#: ../plug-ins/common/jpeg.c:946
+#: ../plug-ins/common/jpeg.c:2609
+#: ../plug-ins/common/mng.c:1117
+#: ../plug-ins/common/pat.c:300
+#: ../plug-ins/common/pcx.c:302
+#: ../plug-ins/common/pix.c:332
+#: ../plug-ins/common/png.c:674
+#: ../plug-ins/common/pnm.c:432
+#: ../plug-ins/common/postscript.c:990
+#: ../plug-ins/common/psd.c:1780
+#: ../plug-ins/common/psp.c:1457
+#: ../plug-ins/common/raw.c:230
+#: ../plug-ins/common/raw.c:635
+#: ../plug-ins/common/spheredesigner.c:1990
+#: ../plug-ins/common/sunras.c:382
+#: ../plug-ins/common/svg.c:312
+#: ../plug-ins/common/svg.c:712
+#: ../plug-ins/common/tga.c:415
+#: ../plug-ins/common/tiff.c:510
+#: ../plug-ins/common/xbm.c:719
+#: ../plug-ins/common/xwd.c:422
+#: ../plug-ins/faxg3/faxg3.c:220
+#: ../plug-ins/fits/fits.c:337
+#: ../plug-ins/flame/flame.c:412
+#: ../plug-ins/gfig/gfig.c:431
+#: ../plug-ins/gfli/gfli.c:424
+#: ../plug-ins/gfli/gfli.c:460
+#: ../plug-ins/help/domain.c:423
+#: ../plug-ins/winicon/icoload.c:126
+#: ../plug-ins/xjt/xjt.c:2526
+#: ../plug-ins/xjt/xjt.c:2534
+#, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr " %s ལྷག་ནི་གི་དོན་ལུ་'%s'ཁ་ཕྱེ་མ་བཏུབ།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:2102
+#, c-format
+msgid "'%s' is not a FractalExplorer file"
+msgstr "'%s'འདི་ཆ་རྩིས་ཐབས་འཚོལ་མི་ཡིག་སྣོད་ཅིག་མེན།"
+
+#: ../plug-ins/FractalExplorer/Dialogs.c:2108
+#, c-format
+msgid "'%s' is corrupt. Line %d Option section incorrect"
+msgstr "'%s'འདི་ངན་ཅན་བཟོ་ནི། གྲལ་ཐིག་%d གདམ་ཁའི་དབྱེ་ཚན་བདེན་མེད།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:269
+msgid "_Fractal Explorer..."
+msgstr "ཆ་རྩིས་ཐབས་འཚོལ་མི་...(_F)"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:400
+msgid "Rendering Fractal..."
+msgstr "ལྷག་སྟོན་ཕེརེཀ་ཊལ་..."
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:772
+#: ../plug-ins/gflare/gflare.c:3128
+#, c-format
+msgid "Are you sure you want to delete \"%s\" from the list and from disk?"
+msgstr "ཁྱོད་ཀྱིས་ཌིཀསི་དང་ཐོ་བཀོད་ནང་ལས་ \"%s\"འདི་བཏོན་གཏང་ནི་ལུ་ངེས་ཏིག་ཨ་ིན་ན?"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:776
+msgid "Delete Fractal"
+msgstr "ཆ་རྩིས་བཏོན་གཏང་།"
+
+#. the dialog
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:853
+msgid "Edit fractal name"
+msgstr "ཆ་རྩིས་ཀྱི་མིང་ཞུན་དག་འབད།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:879
+msgid "Fractal name:"
+msgstr "ཆ་རྩིས་ཀྱི་མིང་:"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:901
+msgid "New Fractal"
+msgstr "ཆ་རྩིས་གསརཔ།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1181
+#, c-format
+msgid "File '%s' is not a FractalExplorer file"
+msgstr "ཡིག་སྣོད་ '%s'འདི་ཆ་རྩིས་ཐབས་འཚོལ་མི་ཡིག་སྣོད་མེན།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1190
+#, c-format
+msgid ""
+"File '%s' is corrupt.\n"
+"Line %d Option section incorrect"
+msgstr ""
+"ཡིག་སྣོད་ '%s' འདི་ངན་ཅན་བཟོ་ནི།\n"
+"གྲལ་ཐིག་ %d གདམ་ཁའི་དབྱེ་ཚན་བདེན་མེད།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1240
+msgid "My first fractal"
+msgstr "ངེ་གི་ཆ་རྩིས་དང་པ།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1256
+msgid "Choose Fractal by double-clicking on it"
+msgstr "དེ་གུ་ཨེབ་གཏང་གཉིས་ལྡན་-ཨེབ་བཞིནམ་ལས་ ཆ་རྩིས་གདམ་ཁ་རྐྱབ།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1293
+msgid "Select folder and rescan collection"
+msgstr "སྣོད་འཛིན་སེལ་འཐུ་འབད་ཞིནམ་ལས་བསྡུ་གསོག་ལོག་ཞིབ་ལྟ་འབད།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1305
+msgid "Delete currently selected fractal"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་ཆ་རྩིས་བཏོན་གཏང་།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1356
+msgid "Rescan for Fractals"
+msgstr "ཆ་རྩིས་ཚུ་གི་དོན་ལུ་ལོག་ཞིབ་ལྟ་འབད།"
+
+#: ../plug-ins/FractalExplorer/FractalExplorer.c:1373
+msgid "Add FractalExplorer Path"
+msgstr "ཆ་རྩིས་ཐབས་འཚོལ་མིའི་འགྲུལ་ལམ་ཁ་སྐོང་རྐྱབས།"
+
+#: ../plug-ins/Lighting/lighting_apply.c:103
+msgid "Lighting Effects..."
+msgstr "གློག་མེའི་ཆ་རྐྱེན་ཚུ... "
+
+#: ../plug-ins/Lighting/lighting_main.c:197
+msgid "_Lighting Effects..."
+msgstr "གློག་མེའི་ཆ་རྐྱེན་ཚུ་...(_L)"
+
+#. General options
+#: ../plug-ins/Lighting/lighting_ui.c:261
+msgid "General Options"
+msgstr "ཡོངས་ཁྱབ་གདམ་ཁ་ཚུ།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:269
+msgid "T_ransparent background"
+msgstr "དྭངས་གསལ་ཅན་གྱི་རྒྱབ་གཞི།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:279
+msgid "Make destination image transparent where bump height is zero"
+msgstr "འབུར་འབུར་གྱི་མཐོ་ཚད་ཀླད་ཀོར་ཡོད་ས་ལུ་འགྲོ་ཡུལ་གྱི་གཟུགས་བརྙན་དྭངས་གསལ་བཟོ།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:282
+msgid "Cre_ate new image"
+msgstr "གཟུགས་བརྙན་གསརཔ་གསར་བསྐྲུན་འབད་(_a)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:292
+#: ../plug-ins/MapObject/mapobject_ui.c:570
+msgid "Create a new image when applying filter"
+msgstr "ཚགས་མ་འཇུག་སྤྱོད་འབདཝ་ད་གཟུགས་བརྙན་གསརཔ་གསར་བསྐྲུན་འབད།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:294
+msgid "High _Quality preview"
+msgstr "མཐོ་བའི་སྤུས་ཚད་སྔོན་ལྟ་(_Q)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:304
+msgid "Enable/disable high quality preview"
+msgstr "མཐོ་བའི་སྤུས་ཚད་སྔོན་ལྟ་ ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ་"
+
+#: ../plug-ins/Lighting/lighting_ui.c:331
+#: ../plug-ins/MapObject/mapobject_ui.c:649
+msgid "Light Settings"
+msgstr "འོད་གཞི་སྒྲིག་འབད་ནི་ཚུ།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:344
+msgid "Light 1"
+msgstr "འོད་ ༡"
+
+#: ../plug-ins/Lighting/lighting_ui.c:345
+msgid "Light 2"
+msgstr "འོད་ ༢"
+
+#: ../plug-ins/Lighting/lighting_ui.c:346
+msgid "Light 3"
+msgstr "འོད་ ༣"
+
+#: ../plug-ins/Lighting/lighting_ui.c:347
+msgid "Light 4"
+msgstr "འོད་ ༤"
+
+#: ../plug-ins/Lighting/lighting_ui.c:348
+msgid "Light 5"
+msgstr "འོད་ ༥"
+
+#: ../plug-ins/Lighting/lighting_ui.c:349
+msgid "Light 6"
+msgstr "འོད་ ༦"
+
+#. row labels
+#: ../plug-ins/Lighting/lighting_ui.c:358
+#: ../plug-ins/common/spheredesigner.c:2624
+msgid "Type:"
+msgstr "དབྱེ་བ་:"
+
+#: ../plug-ins/Lighting/lighting_ui.c:363
+msgid "Color:"
+msgstr "ཚོས་གཞི་:"
+
+#: ../plug-ins/Lighting/lighting_ui.c:370
+msgid "Directional"
+msgstr "ཁ་ཕྱོགས་ཀྱི།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:371
+msgid "Point"
+msgstr "ས་ཚིགས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:386
+#: ../plug-ins/MapObject/mapobject_ui.c:677
+msgid "Type of light source to apply"
+msgstr "འཇུག་སྤྱོད་འབད་ནི་ལུ་འོད་ཀྱི་འབྱུང་ཁུངས་ཀྱི་དབྱེ་བ།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:388
+#: ../plug-ins/MapObject/mapobject_ui.c:679
+msgid "Select lightsource color"
+msgstr "འོད་འབྱུང་ཁུངས་ཀྱི་ཚོས་གཞི་སེལ་འཐུ་འབད།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:400
+#: ../plug-ins/MapObject/mapobject_ui.c:692
+msgid "Set light source color"
+msgstr "འོད་འབྱུང་ཁུངས་ཀྱི་ཚོས་གཞི་གཞི་སྒྲིག་འབད།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:408
+msgid "_Intensity:"
+msgstr "དྲག་ཤུགས་:(_I)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:414
+msgid "Light intensity"
+msgstr "འོད་དྲག་ཤུགས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:417
+#: ../plug-ins/MapObject/mapobject_ui.c:694
+#: ../plug-ins/MapObject/mapobject_ui.c:1021
+#: ../plug-ins/print/gimp_main_window.c:464
+msgid "Position"
+msgstr "གནས་ས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:426
+#: ../plug-ins/common/flarefx.c:756
+#: ../plug-ins/common/mblur.c:1001
+#: ../plug-ins/common/nova.c:451
+#: ../plug-ins/common/papertile.c:267
+#: ../plug-ins/flame/flame.c:1207
+#: ../plug-ins/gflare/gflare.c:2653
+msgid "_X:"
+msgstr "ཨེཀསི་:(_X)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:432
+#: ../plug-ins/MapObject/mapobject_ui.c:718
+msgid "Light source X position in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཨེཀསི་ གནས་ས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:439
+#: ../plug-ins/common/flarefx.c:761
+#: ../plug-ins/common/mblur.c:1007
+#: ../plug-ins/common/nova.c:456
+#: ../plug-ins/common/papertile.c:276
+#: ../plug-ins/flame/flame.c:1221
+#: ../plug-ins/gflare/gflare.c:2657
+msgid "_Y:"
+msgstr "ཝའི་:(_Y)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:445
+#: ../plug-ins/MapObject/mapobject_ui.c:732
+msgid "Light source Y position in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཝའི་ གནས་ས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:452
+msgid "_Z:"
+msgstr "ཟེཊི་:(_Z)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:458
+#: ../plug-ins/MapObject/mapobject_ui.c:746
+msgid "Light source Z position in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཟེཊི་ གནས་ས།"
+
+#. *****************************************************
+#. radio buttons for choosing LEFT or RIGHT
+#. *************************************************
+#: ../plug-ins/Lighting/lighting_ui.c:461
+#: ../plug-ins/common/struc.c:1286
+#: ../plug-ins/common/wind.c:930
+msgid "Direction"
+msgstr "ཁ་ཕྱོགས།"
+
+#. X
+#: ../plug-ins/Lighting/lighting_ui.c:469
+#: ../plug-ins/MapObject/mapobject_ui.c:710
+#: ../plug-ins/MapObject/mapobject_ui.c:764
+#: ../plug-ins/MapObject/mapobject_ui.c:1032
+#: ../plug-ins/MapObject/mapobject_ui.c:1081
+#: ../plug-ins/ifscompose/ifscompose.c:544
+msgid "X:"
+msgstr "ཨེཀསི་:"
+
+#: ../plug-ins/Lighting/lighting_ui.c:475
+#: ../plug-ins/MapObject/mapobject_ui.c:772
+msgid "Light source X direction in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཨེཀསི་ ཁ་ཕྱོགས།"
+
+#. Y
+#: ../plug-ins/Lighting/lighting_ui.c:481
+#: ../plug-ins/MapObject/mapobject_ui.c:724
+#: ../plug-ins/MapObject/mapobject_ui.c:777
+#: ../plug-ins/MapObject/mapobject_ui.c:1045
+#: ../plug-ins/MapObject/mapobject_ui.c:1092
+#: ../plug-ins/MapObject/mapobject_ui.c:1190
+#: ../plug-ins/ifscompose/ifscompose.c:558
+msgid "Y:"
+msgstr "ཝའི་:"
+
+#: ../plug-ins/Lighting/lighting_ui.c:487
+#: ../plug-ins/MapObject/mapobject_ui.c:785
+msgid "Light source Y direction in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཝའི་ ཁ་ཕྱོགས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:493
+#: ../plug-ins/MapObject/mapobject_ui.c:738
+#: ../plug-ins/MapObject/mapobject_ui.c:790
+#: ../plug-ins/MapObject/mapobject_ui.c:1058
+#: ../plug-ins/MapObject/mapobject_ui.c:1103
+#: ../plug-ins/MapObject/mapobject_ui.c:1202
+msgid "Z:"
+msgstr "ཟེཊི་:"
+
+#: ../plug-ins/Lighting/lighting_ui.c:499
+#: ../plug-ins/MapObject/mapobject_ui.c:798
+msgid "Light source Z direction in XYZ space"
+msgstr "ཨེགསི་ཝའི་ཟེཊི་ བར་སྟོང་ནང་འོད་ཀྱི་འབྱུང་ཁུངས་ ཟེཊི་ ཁ་ཕྱོགས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:502
+msgid "I_solate"
+msgstr "ཟུར་ཁ་བཏོན་(_s)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:512
+msgid "Lighting preset:"
+msgstr "གློག་མེའི་སྔར་སྒྲིག་:"
+
+#: ../plug-ins/Lighting/lighting_ui.c:558
+msgid "Material properties"
+msgstr "ཅ་ཆས་ཀྱི་རྒྱུ་དངོས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:576
+msgid "_Glowing:"
+msgstr "དམར་མདངས་ཅན་:(_G)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:592
+#: ../plug-ins/MapObject/mapobject_ui.c:859
+msgid "Amount of original color to show where no direct light falls"
+msgstr "འོད་ཐད་ཀར་མ་ཕོག་ས་སྟོན་ནི་གི་ཚོས་གཞི་ངོ་མ་གི་མང་ཉུང་།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:605
+msgid "_Bright:"
+msgstr "དཀར་མདངས་:(_B)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:621
+#: ../plug-ins/MapObject/mapobject_ui.c:888
+msgid "Intensity of original color when lit by a light source"
+msgstr "འོད་ཀྱི་འབྱུང་ཁུངས་འདི་གིས་འོད་སྤརཝ་ད་ཚོས་གཞི་ངོ་མ་གི་དྲག་ཤུགས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:634
+msgid "_Shiny:"
+msgstr "འོད་ཅན་:(_S)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:650
+#: ../plug-ins/MapObject/mapobject_ui.c:960
+msgid "Controls how intense the highlights will be"
+msgstr "གཙོ་དམིགས་འདི་ག་དེམ་ཅིག་དྲག་པོ་འོང་ནི་ཨིན་ན་ཚད་འཛིན་འབདཝ་ཨིན།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:662
+msgid "_Polished:"
+msgstr "པོ་ལིཤི་འབད་ཡོདཔ་:(_P)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:678
+#: ../plug-ins/MapObject/mapobject_ui.c:989
+msgid "Higher values makes the highlights more focused"
+msgstr "གནས་གོང་མཐོ་མི་ཚུ་གིས་གཙོ་དམིགས་འདི་ཧེང་བཀལ་ཆེད་དམིགས་འབད་ནི་ལུ་བཟོཝ་ཨིན།"
+
+#. Metallic
+#: ../plug-ins/Lighting/lighting_ui.c:687
+msgid "_Metallic"
+msgstr "ལྕགས་ཀྱི་(_M)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:723
+msgid "E_nable bump mapping"
+msgstr "འབུར་འབུར་གྱི་ས་ཁྲ་ལྕོགས་ཅན་བཟོ་(_n)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:737
+msgid "Enable/disable bump-mapping (image depth)"
+msgstr "འབུར་འབུར་གྱི་ས་ཁྲ་(གཟུགས་བརྙན་གཏིང་ཚད) ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ་"
+
+#: ../plug-ins/Lighting/lighting_ui.c:755
+msgid "Bumpm_ap image:"
+msgstr "ས་ཁྲ་འབུར་འབུར་གྱི་གཟུགས་བརྙན་:(_a)"
+
+#. Map type menu
+#: ../plug-ins/Lighting/lighting_ui.c:758
+#: ../plug-ins/common/bumpmap.c:898
+#: ../plug-ins/flame/flame.c:733
+msgid "Linear"
+msgstr "རིང་ཚད་ཀྱི།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:759
+msgid "Logarithmic"
+msgstr "མཉམ་གྲངས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:760
+#: ../plug-ins/common/bumpmap.c:900
+#: ../plug-ins/flame/flame.c:734
+msgid "Sinusoidal"
+msgstr "ཀྱག་ཀྱོག་ཅན།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:761
+#: ../plug-ins/common/bumpmap.c:899
+#: ../plug-ins/flame/flame.c:735
+msgid "Spherical"
+msgstr "ཟླུམ་གཟུགས་ཅན།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:771
+msgid "Cu_rve:"
+msgstr "གུག་གུགཔ་:(_r)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:776
+msgid "Ma_ximum height:"
+msgstr "མང་མཐའི་མཐོ་ཚད་(_x)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:786
+msgid "Maximum height for bumps"
+msgstr "འབུར་འབུར་ཚུ་གི་དོན་ལུ་མང་མཐའི་མཐོ་ཚད།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:811
+msgid "E_nable environment mapping"
+msgstr "མཐའ་འཁོར་ས་ཁྲ་ལྕོགས་ཅན་བཟོ་(_n)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:825
+msgid "Enable/disable environment-mapping (reflection)"
+msgstr " མཐའ་འཁོར་-ས་ཁྲ་ (འཆར་གཟུགས་)ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ་"
+
+#: ../plug-ins/Lighting/lighting_ui.c:847
+msgid "En_vironment image:"
+msgstr "མཐའ་འཁོར་གྱི་གཟུགས་བརྙན་:(_v)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:849
+msgid "Environment image to use"
+msgstr "ལག་ལེན་འཐབ་ནི་གི་མཐའ་འཁོར་གཟུགས་བརྙན།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:871
+msgid "Op_tions"
+msgstr "གདམ་ཁ་ཚུ་(_t)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:875
+#: ../plug-ins/MapObject/mapobject_ui.c:1326
+msgid "_Light"
+msgstr "འོད་(_L)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:879
+#: ../plug-ins/MapObject/mapobject_ui.c:1330
+msgid "_Material"
+msgstr "ཅ་ཆས་(_M)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:883
+msgid "_Bump Map"
+msgstr "འབུར་འབུར་གྱི་ས་ཁྲ(_B)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:887
+msgid "_Environment Map"
+msgstr "མཐའ་འཁོར་ས་ཁྲ་(_E)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:933
+msgid "Lighting Effects"
+msgstr "གློག་མེའི་ཆ་རྐྱེན་ཚུ།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:982
+#: ../plug-ins/gimpressionist/preview.c:181
+#: ../plug-ins/imagemap/imap_polygon.c:514
+msgid "_Update"
+msgstr "དུས་མཐུན་བཟོ་ནི་(_U)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:989
+#: ../plug-ins/MapObject/mapobject_ui.c:1425
+msgid "Recompute preview image"
+msgstr "ཞིབ་ལྟ་གཟུགས་བརྙན་ལོག་བརྩི་རྐྱབས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:991
+msgid "I_nteractive"
+msgstr "ཕན་ཚུན་འབྲེལ་ལྡན་(_n)"
+
+#: ../plug-ins/Lighting/lighting_ui.c:1005
+msgid "Enable/disable real time preview of changes"
+msgstr "བསྒྱུར་བཅོས་ཚུ་གི་ཆུ་ཚོད་ངོ་མའི་ཞིབ་ལྟ་ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:1044
+msgid "Save Lighting Preset"
+msgstr "གློག་མེའི་སྔར་སྒྲིག་སྲུངས།"
+
+#: ../plug-ins/Lighting/lighting_ui.c:1177
+msgid "Load Lighting Preset"
+msgstr "གློག་མེའི་སྔར་སྒྲིག་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/MapObject/mapobject_apply.c:273
+msgid "Map to Plane..."
+msgstr "བྱིལ་ལི་ལུ་ས་ཁྲ་བཟོ..."
+
+#: ../plug-ins/MapObject/mapobject_apply.c:276
+msgid "Map to Sphere..."
+msgstr "ཟླུམ་གཟུགས་ལུ་ས་ཁྲ་བཟོ..."
+
+#: ../plug-ins/MapObject/mapobject_apply.c:279
+msgid "Map to Box..."
+msgstr "སྒྲོམ་ལུ་ས་ཁྲ་བཟོ..."
+
+#: ../plug-ins/MapObject/mapobject_apply.c:282
+msgid "Map to Cylinder..."
+msgstr "སི་ལིན་ཌར་ལུ་ས་ཁྲ་བཟོ..."
+
+#: ../plug-ins/MapObject/mapobject_main.c:199
+msgid "Map _Object..."
+msgstr "ས་ཁྲའི་དངོས་པོ་...(_O)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:248
+#: ../plug-ins/MapObject/mapobject_ui.c:1340
+msgid "_Box"
+msgstr "སྒྲོམ་(_B)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:266
+#: ../plug-ins/MapObject/mapobject_ui.c:1346
+msgid "C_ylinder"
+msgstr "སི་ལིན་ཌར་(_y)"
+
+#. General options
+#: ../plug-ins/MapObject/mapobject_ui.c:496
+msgid "General options"
+msgstr "ཡོངས་ཁྱབ་གདམ་ཁ་ཚུ །"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:508
+msgid "Map to:"
+msgstr "ལུ་ས་ཁྲ་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:512
+msgid "Plane"
+msgstr "བྱིལ་ལི།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:513
+msgid "Sphere"
+msgstr "ཟླུམ་གཟུགས།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:514
+msgid "Box"
+msgstr "སྒྲོམ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:515
+msgid "Cylinder"
+msgstr "སི་ལིན་ཌར།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:530
+msgid "Type of object to map to"
+msgstr "ལུ་ས་ཁྲ་བཟོ་ནི་ལུ་དངོས་པོ་གི་དབྱེ་བ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:532
+msgid "Transparent background"
+msgstr "དྭངས་གསལ་རྒྱབ་གཞི།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:543
+msgid "Make image transparent outside object"
+msgstr "ཕྱི་ཁའི་དངོས་པོ་གཟུགས་བརྙན་དྭངས་གསལ་བཟོ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:545
+msgid "Tile source image"
+msgstr "ཊ་ཡིལ་འབྱུང་ཁུངས་ཀྱི་གཟུགས་བརྙན།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:556
+msgid "Tile source image: useful for infinite planes"
+msgstr "ཊ་ཡིལ་འབྱུང་ཁུངས་ཀྱི་གཟུགས་བརྙན་: ཙད་མེད་བྱི་ལི་ཚུ་གི་དོན་ལུ་ཕན་ཐོགས་ཅན།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:559
+msgid "Create new image"
+msgstr "གཟུགས་བརྙན་གསརཔ་གསར་བསྐྲུན་འབད།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:578
+msgid "Enable _antialiasing"
+msgstr "ལྕོགས་ཅན་བཟོ་ ཨིན་ཊི་ཨེ་ལའིསིང་(_a)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:585
+msgid "Enable/disable jagged edges removal (antialiasing)"
+msgstr "ཟེ་སྒྲོ་ཅན་གྱི་མཐའམ་བཏོན་གཏང་ནི་ལུ་ ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ་ (ཨིན་ཊི་ཨེ་ལའིསིང་)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:602
+#: ../plug-ins/common/bumpmap.c:979
+#: ../plug-ins/common/emboss.c:509
+#: ../plug-ins/common/fractaltrace.c:791
+#: ../plug-ins/common/struc.c:1318
+msgid "_Depth:"
+msgstr "གཏིང་ཚད་:(_D)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:605
+msgid "Antialiasing quality. Higher is better, but slower"
+msgstr "ཨིན་ཊི་ལའིསིང་ སྤུས་ཚད། མཐོ་མི་འདི་ལེགས་ཤོམ་ཨིན་དེ་འབདཝ་ད་ལྷོད་མི་ཨིན།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:614
+#: ../plug-ins/common/unsharp.c:691
+#: ../plug-ins/common/wind.c:993
+#: ../plug-ins/imagemap/imap_preferences.c:539
+msgid "_Threshold:"
+msgstr "ཐེརེཤ་ཧཱོལ་:(_T)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:622
+msgid "Stop when pixel differences are smaller than this value"
+msgstr "པིག་སེལ་སོ་སོ་ཚུ་འ་ནི་གནས་གོང་འདི་ལས་ཆུང་མི་ཨིན་པ་ཅིན་བཀག་བཞག"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:658
+msgid "Point light"
+msgstr "ས་ཚིགས་ཀྱི་འོད།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:659
+msgid "Directional light"
+msgstr "ཁ་ཕྱོགས་ཀྱི་འོད།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:660
+msgid "No light"
+msgstr "འོད་མིན་འདུག།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:674
+msgid "Lightsource type:"
+msgstr "འོད་འབྱུང་ཁུངས་ཀྱི་དབྱེ་བ།:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:684
+msgid "Lightsource color:"
+msgstr "འོད་འབྱུང་ཁུངས་ཀྱི་ཚོས་གཞི་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:749
+msgid "Direction Vector"
+msgstr "ཁ་ཕྱོགས་མཉམ་ཐིག"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:825
+msgid "Intensity Levels"
+msgstr "དྲག་ཤུགས་གནས་རིམ་ཚུ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:844
+msgid "Ambient:"
+msgstr "ཨེམ་བིནཊི་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:873
+#: ../plug-ins/MapObject/mapobject_ui.c:916
+msgid "Diffuse:"
+msgstr "ཁྱབ་གདལ་འབད་ནི་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:897
+msgid "Reflectivity"
+msgstr "འཆར་ཐངས།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:931
+msgid "Higher values makes the object reflect more light (appear lighter)"
+msgstr "མཐོ་མི་གནས་གོང་ཚུ་གིས་དངོས་པོ་འདི་གི་འོད་ཧེང་བཀལ་འོད་འཆར་བཅུགཔ་ཨིན་(གློག་མེ་བཏེག་མི་འབྱུང་ནི་)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:945
+msgid "Specular:"
+msgstr "ཚད་དཔག་ནི་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:974
+msgid "Highlight:"
+msgstr "གཙོ་དམིགས་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1035
+msgid "Object X position in XYZ space"
+msgstr "ཨེགསི་ཝའི་ཟེཊི་བར་སྟོང་ནང་དངོས་པོ་ ཨེགསི་ གནས་ས།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1048
+msgid "Object Y position in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་བར་སྟོང་ནང་དངོས་པོ་ ཝའི་ གནས་ས།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1061
+msgid "Object Z position in XYZ space"
+msgstr "ཨེཀསི་ཝའི་ཟེཊི་བར་སྟོང་ནང་དངོས་པོ་ ཟེཊི་ གནས་ས།"
+
+#. Rotation
+#: ../plug-ins/MapObject/mapobject_ui.c:1070
+#: ../plug-ins/common/postscript.c:3192
+msgid "Rotation"
+msgstr "བསྒྱིར་ནི།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1084
+msgid "Rotation angle about X axis"
+msgstr "ཨེཀསི་ ཚད་ཐིག་གི་སྐོར་ལས་བསྒྱིར་ནིའི་གྲུ་ཟུར།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1095
+msgid "Rotation angle about Y axis"
+msgstr "ཝའི་ ཚད་ཐིག་གི་སྐོར་ལས་བསྒྱིར་ནིའི་གྲུ་ཟུར།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1106
+msgid "Rotation angle about Z axis"
+msgstr "ཟེཊི་ ཚད་ཐིག་གི་སྐོར་ལས་བསྒྱིར་ནིའི་གྲུ་ཟུར།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1132
+msgid "Front:"
+msgstr "གདོང་ཁ་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1132
+msgid "Back:"
+msgstr "རྒྱབ་ཁ་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1133
+#: ../plug-ins/print/gimp_main_window.c:523
+msgid "Top:"
+msgstr "སྤྱི་ཏོག་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1133
+#: ../plug-ins/print/gimp_main_window.c:564
+msgid "Bottom:"
+msgstr "གཤམ་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1134
+#: ../plug-ins/print/gimp_main_window.c:510
+msgid "Left:"
+msgstr "གཡོན་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1134
+#: ../plug-ins/print/gimp_main_window.c:536
+msgid "Right:"
+msgstr "གཡས་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1140
+msgid "Map Images to Box Faces"
+msgstr "སྒྲོམ་གྱི་བཀོད་རྣམ་ཚུ་ལུ་གཟུགས་བརྙན་ཚུ་ས་ཁྲ་བཟོ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1178
+#: ../plug-ins/common/spheredesigner.c:2719
+msgid "Scale X:"
+msgstr "ཚད་ཤིང་ ཨེཀསི་:"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1181
+msgid "X scale (size)"
+msgstr "ཨེཀསི་ ཚད་ཤིང་(ཚད་)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1193
+msgid "Y scale (size)"
+msgstr "ཝའི་ཚད་ཤིང་(ཚད་)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1205
+msgid "Z scale (size)"
+msgstr "ཟེཊི་ཚད་ཤིང་(ཚད་)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1228
+msgid "_Top:"
+msgstr "སྤྱི་ཏོག་:(_T)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1228
+msgid "_Bottom:"
+msgstr "གཤམ་:(_B)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1233
+msgid "Images for the Cap Faces"
+msgstr "ཚུགས་ཡིག་བཀོད་རྣམ་ཚུ་གི་དོན་ལུ་གཟུགས་བརྙན་ཚུ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1262
+#: ../plug-ins/print/gimp_main_window.c:1102
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1273
+msgid "R_adius:"
+msgstr "མཐའ་འཁོར་:(_a)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1277
+msgid "Cylinder radius"
+msgstr "སི་ལིན་ཌར་གྱི་མཐའ་འཁོར།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1287
+#: ../plug-ins/common/mblur.c:941
+msgid "L_ength:"
+msgstr "རིང་ཚད་:(_e)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1291
+msgid "Cylinder length"
+msgstr "སི་ལིན་ཌར་གྱི་རིང་ཚད།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1322
+msgid "O_ptions"
+msgstr "གདམ་ཁ་ཚུ་(_p)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1334
+msgid "O_rientation"
+msgstr "ཕྱོགས་(_r)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1370
+msgid "Map to Object"
+msgstr "དངོས་པོ་ལུ་ས་ཁྲ་བཟོ།"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1416
+#: ../plug-ins/common/diffraction.c:474
+msgid "_Preview!"
+msgstr "ཞིབ་ལྟ་!(_P)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1439
+msgid "Zoom out (make image smaller)"
+msgstr "ཕྱི་ཁར་རྒྱས་ཟུམ་འབད་(གཟུགས་བརྙན་འདི་ཆུང་ཀུ་བཟོ།)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1453
+msgid "Zoom in (make image bigger)"
+msgstr "ནང་ན་རྒྱས་ཟུམ་འབད་(གཟུགས་བརྙན་འདི་སྦོམ་བཟོ།)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1455
+msgid "Show preview _wireframe"
+msgstr "ཝའེར་ཕེརེམ་ ཞིབ་ལྟ་སྟོན་(_w)"
+
+#: ../plug-ins/MapObject/mapobject_ui.c:1464
+msgid "Show/hide preview wireframe"
+msgstr "ཝའེར་ཕེརེམ་སྔོན་ལྟ་སྦ་བཞག་ཡོད་མི་འདི་/སྟོན།"
+
+#: ../plug-ins/bmp/bmp.c:120
+#: ../plug-ins/bmp/bmp.c:139
+msgid "Windows BMP image"
+msgstr "ཝིན་ཌོསི་བི་ཨེམ་པི་གཟུགས་བརྙན།"
+
+#: ../plug-ins/bmp/bmpread.c:86
+msgid "Bad colormap"
+msgstr "ཚོས་གཞི་ས་ཁྲ་བྱང་ཉེས།"
+
+#. Set up progress display
+#. put up a progress bar
+#. max. rows allocated
+#. column, highest column ever used
+#. -1  assume fsel is not available (and not attached to any drawable)
+#. -1  assume there is no floating selection
+#: ../plug-ins/bmp/bmpread.c:158
+#: ../plug-ins/common/CEL.c:310
+#: ../plug-ins/common/dicom.c:295
+#: ../plug-ins/common/gbr.c:332
+#: ../plug-ins/common/gifload.c:301
+#: ../plug-ins/common/gih.c:653
+#: ../plug-ins/common/jpeg.c:953
+#: ../plug-ins/common/pat.c:305
+#: ../plug-ins/common/pcx.c:307
+#: ../plug-ins/common/pix.c:338
+#: ../plug-ins/common/png.c:681
+#: ../plug-ins/common/pnm.c:437
+#: ../plug-ins/common/postscript.c:996
+#: ../plug-ins/common/psd.c:1785
+#: ../plug-ins/common/raw.c:640
+#: ../plug-ins/common/sunras.c:436
+#: ../plug-ins/common/tga.c:420
+#: ../plug-ins/common/tiff.c:515
+#: ../plug-ins/common/wmf.c:952
+#: ../plug-ins/common/xbm.c:724
+#: ../plug-ins/common/xpm.c:342
+#: ../plug-ins/common/xwd.c:475
+#: ../plug-ins/faxg3/faxg3.c:203
+#: ../plug-ins/gfli/gfli.c:465
+#: ../plug-ins/sgi/sgi.c:323
+#: ../plug-ins/winicon/icoload.c:505
+#: ../plug-ins/xjt/xjt.c:3312
+#, c-format
+msgid "Opening '%s'..."
+msgstr "'%s' ཁ་ཕྱེ་དོ..."
+
+#: ../plug-ins/bmp/bmpread.c:170
+#: ../plug-ins/bmp/bmpread.c:179
+#: ../plug-ins/bmp/bmpread.c:185
+#: ../plug-ins/bmp/bmpread.c:193
+#: ../plug-ins/bmp/bmpread.c:207
+#: ../plug-ins/bmp/bmpread.c:307
+#: ../plug-ins/bmp/bmpread.c:348
+#, c-format
+msgid "'%s' is not a valid BMP file"
+msgstr "'%s' འདི་བི་ཨེམ་པི་ཡིག་སྣོད་ནུས་ཅན་མེན།"
+
+#: ../plug-ins/bmp/bmpread.c:220
+#: ../plug-ins/bmp/bmpread.c:239
+#: ../plug-ins/bmp/bmpread.c:260
+#: ../plug-ins/bmp/bmpread.c:279
+#: ../plug-ins/bmp/bmpread.c:300
+#: ../plug-ins/bmp/bmpread.c:313
+#: ../plug-ins/bmp/bmpread.c:319
+#, c-format
+msgid "Error reading BMP file header from '%s'"
+msgstr "'%s' ལས་བི་ཨེམ་པི་ཡིག་སྣོད་མགོ་ཡིག་ལྷག་ནི་འཛོལ་བ།"
+
+#: ../plug-ins/bmp/bmpread.c:450
+#: ../plug-ins/bmp/bmpread.c:485
+msgid "Unrecognized or invalid BMP compression format."
+msgstr "ངོས་འཛིན་མ་འབད་མི་ ཡང་ཅིན་ ནུས་མེད་བི་ཨེམ་པི་ཨེབ་བཙུགས་རྩ་སྒྲིག"
+
+#.
+#. * Create the "background" layer to hold the image...
+#.
+#: ../plug-ins/bmp/bmpread.c:490
+#: ../plug-ins/common/CEL.c:357
+#: ../plug-ins/common/CEL.c:360
+#: ../plug-ins/common/blinds.c:273
+#: ../plug-ins/common/compose.c:625
+#: ../plug-ins/common/decompose.c:595
+#: ../plug-ins/common/dicom.c:442
+#: ../plug-ins/common/film.c:946
+#: ../plug-ins/common/gifload.c:864
+#: ../plug-ins/common/jpeg.c:1113
+#: ../plug-ins/common/jpeg.c:2476
+#: ../plug-ins/common/pcx.c:334
+#: ../plug-ins/common/pcx.c:340
+#: ../plug-ins/common/pix.c:374
+#: ../plug-ins/common/png.c:808
+#: ../plug-ins/common/pnm.c:517
+#: ../plug-ins/common/psd.c:2195
+#: ../plug-ins/common/raw.c:677
+#: ../plug-ins/common/smooth_palette.c:257
+#: ../plug-ins/common/sunras.c:925
+#: ../plug-ins/common/tga.c:929
+#: ../plug-ins/common/tiff.c:848
+#: ../plug-ins/common/tile.c:266
+#: ../plug-ins/common/winclipboard.c:579
+#: ../plug-ins/common/xbm.c:867
+#: ../plug-ins/faxg3/faxg3.c:465
+#: ../plug-ins/fits/fits.c:506
+#: ../plug-ins/gfig/gfig-dialog.c:1286
+#: ../plug-ins/gimpressionist/general.c:121
+#: ../plug-ins/sgi/sgi.c:376
+#: ../plug-ins/twain/twain.c:571
+#: ../plug-ins/winsnap/winsnap.c:1152
+msgid "Background"
+msgstr "རྒྱབ་གཞི།"
+
+#: ../plug-ins/bmp/bmpwrite.c:136
+#: ../plug-ins/common/dicom.c:617
+#: ../plug-ins/common/pcx.c:579
+msgid "Cannot save images with alpha channel."
+msgstr "ཨཱལ་ཕ་རྒྱུ་ལམ་མཉམ་གཟུགས་བརྙན་ཚུ་སྲུངས་བཞག་འབད་མི་བཏུབ།"
+
+#: ../plug-ins/bmp/bmpwrite.c:182
+#: ../plug-ins/common/dicom.c:632
+#: ../plug-ins/common/postscript.c:1114
+#: ../plug-ins/common/xwd.c:568
+#: ../plug-ins/fits/fits.c:441
+#: ../plug-ins/xjt/xjt.c:1677
+msgid "Cannot operate on unknown image types."
+msgstr "མ་ཤེས་པའི་གཟུགས་བརྙན་གྱི་དབྱེ་བ་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
+
+#. And let's begin the progress
+#. init the progress meter
+#. Set up progress display
+#: ../plug-ins/bmp/bmpwrite.c:209
+#: ../plug-ins/common/CEL.c:582
+#: ../plug-ins/common/gbr.c:591
+#: ../plug-ins/common/gif.c:1001
+#: ../plug-ins/common/gih.c:1259
+#: ../plug-ins/common/gtm.c:245
+#: ../plug-ins/common/jpeg.c:1453
+#: ../plug-ins/common/pat.c:438
+#: ../plug-ins/common/pcx.c:545
+#: ../plug-ins/common/pix.c:521
+#: ../plug-ins/common/png.c:1185
+#: ../plug-ins/common/pnm.c:814
+#: ../plug-ins/common/postscript.c:1128
+#: ../plug-ins/common/psd_save.c:1341
+#: ../plug-ins/common/sunras.c:518
+#: ../plug-ins/common/tga.c:1035
+#: ../plug-ins/common/tiff.c:1830
+#: ../plug-ins/common/xbm.c:1001
+#: ../plug-ins/common/xpm.c:628
+#: ../plug-ins/common/xwd.c:582
+#: ../plug-ins/fits/fits.c:455
+#: ../plug-ins/gfli/gfli.c:682
+#: ../plug-ins/sgi/sgi.c:545
+#: ../plug-ins/winicon/icosave.c:977
+#: ../plug-ins/xjt/xjt.c:1682
+#, c-format
+msgid "Saving '%s'..."
+msgstr "'%s' སྲུངས་བཞག་འབད་དོ..."
+
+#: ../plug-ins/bmp/bmpwrite.c:554
+msgid "Save as BMP"
+msgstr "བི་ཨེམ་པི་བཟུམ་སྦེ་སྲུངས།"
+
+#: ../plug-ins/bmp/bmpwrite.c:568
+msgid "_RLE encoded"
+msgstr "ཨར་ཨེལ་ཨི་ཨིན་ཀོ་ཌེཌི(_R)"
+
+#: ../plug-ins/common/AlienMap2.c:145
+msgid "_Modify red channel"
+msgstr "རྒྱུ་ལམ་དམརཔོ་ལེགས་བཅོས་འབད་(_M)"
+
+#: ../plug-ins/common/AlienMap2.c:145
+msgid "_Modify hue channel"
+msgstr "ཚོན་མདངས་རྒྱུ་ལམ་ལེགས་བཅོས་འབད་(_M)"
+
+#: ../plug-ins/common/AlienMap2.c:146
+msgid "Mo_dify green channel"
+msgstr "རྒྱུ་ལམ་ལྗང་ཁུ་ལེགས་བཅོས་འབད་(_d)"
+
+#: ../plug-ins/common/AlienMap2.c:146
+msgid "Mo_dify saturation channel"
+msgstr "མཐའ་ཚད་རྒྱུ་ལམ་ལེགས་བཅོས་འབད་(_d)"
+
+#: ../plug-ins/common/AlienMap2.c:147
+msgid "Mod_ify blue channel"
+msgstr "རྒྱུ་ལམ་ཧོནམ་ལེགས་བཅོས་འབད་(_i)"
+
+#: ../plug-ins/common/AlienMap2.c:147
+msgid "Mod_ify luminosity channel"
+msgstr "འོད་ཤུགས་རྒྱུ་ལམ་ལེགས་བཅོས་འབད་(_M)"
+
+#: ../plug-ins/common/AlienMap2.c:152
+msgid "Red _frequency:"
+msgstr "འབྱུང་ཐེངས་དམརཔོ་:(_f)"
+
+#: ../plug-ins/common/AlienMap2.c:152
+msgid "Hue _frequency:"
+msgstr "ཚོན་མདངས་འབྱུང་ཐེངས་:(_f)"
+
+#: ../plug-ins/common/AlienMap2.c:153
+msgid "Green fr_equency:"
+msgstr "འབྱུང་ཐེངས་ལྗང་ཁུ :(_e)"
+
+#: ../plug-ins/common/AlienMap2.c:153
+msgid "Saturation fr_equency:"
+msgstr "མཐའ་ཚད་འབྱུང་ཐེངས་:(_e)"
+
+#: ../plug-ins/common/AlienMap2.c:154
+msgid "Blue freq_uency:"
+msgstr "འབྱུང་ཐེངས་ཧོནམ་:(_u)"
+
+#: ../plug-ins/common/AlienMap2.c:154
+msgid "Luminosity freq_uency:"
+msgstr "འོད་ཤུགས་འབྱུང་ཐེངས་:(_u)"
+
+#: ../plug-ins/common/AlienMap2.c:156
+msgid "Red _phaseshift:"
+msgstr "དམརཔོ་གོ་རིམ་སོར་ནི་:(_p)"
+
+#: ../plug-ins/common/AlienMap2.c:156
+msgid "Hue _phaseshift:"
+msgstr "ཚོན་མདངས་གོ་རིམ་སོར་ནི་:(_p)"
+
+#: ../plug-ins/common/AlienMap2.c:157
+msgid "Green ph_aseshift:"
+msgstr "ལྗང་ཁུ་གོ་རིམ་སོར་ནི :(_a)"
+
+#: ../plug-ins/common/AlienMap2.c:157
+msgid "Saturation ph_aseshift:"
+msgstr "མཐའ་ཚད་གོ་རིམ་སོར་ནི་:(_a)"
+
+#: ../plug-ins/common/AlienMap2.c:158
+msgid "Blue pha_seshift:"
+msgstr "ཧོནམ་གོ་རིམ་སོར་ནི་:(_s)"
+
+#: ../plug-ins/common/AlienMap2.c:158
+msgid "Luminosity pha_seshift:"
+msgstr "འོད་ཤུགས་གོ་རིམ་སོར་ནི་:(_s)"
+
+#: ../plug-ins/common/AlienMap2.c:193
+msgid "Alien Map _2..."
+msgstr "ཨེ་ལིན་ས་ཁྲ་...(_2)"
+
+#: ../plug-ins/common/AlienMap2.c:325
+msgid "AlienMap2: Transforming..."
+msgstr "ཨེ་ལིན་ས་ཁྲ་༢:བཟོ་བསྒྱུར་འབད་དོ ..."
+
+#: ../plug-ins/common/AlienMap2.c:398
+msgid "AlienMap2"
+msgstr "ཨེ་ལིན་ས་ཁྲ་༢ །"
+
+#: ../plug-ins/common/AlienMap2.c:438
+#: ../plug-ins/common/AlienMap2.c:462
+#: ../plug-ins/common/AlienMap2.c:486
+msgid "Number of cycles covering full value range"
+msgstr "གནས་གོང་ཁྱབ་ཚད་ཆ་ཚང་ཁེབས་མའི་བསྐྱར་འཁོར་ཚུ་གི་ཨང་།"
+
+#: ../plug-ins/common/AlienMap2.c:450
+#: ../plug-ins/common/AlienMap2.c:474
+#: ../plug-ins/common/AlienMap2.c:498
+msgid "Phase angle, range 0-360"
+msgstr "གྲུ་ཟུར་གོ་རིམ་སྒྲིགས་ ཁྱབ་ཚད་ ༠-༣༦༠"
+
+#. Propagate Mode
+#: ../plug-ins/common/AlienMap2.c:512
+#: ../plug-ins/common/hot.c:588
+#: ../plug-ins/common/vpropagate.c:1084
+#: ../plug-ins/common/waves.c:270
+msgid "Mode"
+msgstr "ཐབས་ལམ།"
+
+#: ../plug-ins/common/AlienMap2.c:516
+msgid "_RGB color model"
+msgstr "ཨར་ཇི་བི་ཚོས་གཞི་གི་དཔེ་(_R)"
+
+#: ../plug-ins/common/AlienMap2.c:517
+msgid "_HSL color model"
+msgstr "ཨེཆ་ཨེསི་ཨེལ་ཚོས་གཞི་གི་དཔེ(_H)"
+
+#: ../plug-ins/common/CEL.c:112
+#: ../plug-ins/common/CEL.c:130
+msgid "KISS CEL"
+msgstr "ཀིསི་ སི་ཨེ་ཨེལ།"
+
+#: ../plug-ins/common/CEL.c:191
+msgid "Load KISS Palette"
+msgstr "ཀིསི་པེ་ལིཊི་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/common/CEL.c:349
+msgid "Can't create a new image"
+msgstr "གཟུགས་བརྙན་གསརཔ་གསར་བསྐྲུན་འབད་མི་བཏུབ།"
+
+#: ../plug-ins/common/CEL.c:438
+#, c-format
+msgid "Unsupported bit depth (%d)!"
+msgstr "རྒྱབ་སྐྱོར་མ་འབད་བའི་བིཊི་གཏིང་ཚད་ (%d)!"
+
+#: ../plug-ins/common/CML_explorer.c:131
+msgid "Keep image's values"
+msgstr "གཟུགས་བརྙན་ཚུ་གི་གནས་གོང་ཚུ་བཞག"
+
+#: ../plug-ins/common/CML_explorer.c:132
+msgid "Keep the first value"
+msgstr "གནས་གོང་དང་པ་འདི་བཞག"
+
+#: ../plug-ins/common/CML_explorer.c:133
+msgid "Fill with parameter k"
+msgstr "ཚད་བཟུང་ཀེ་དང་གཅིག་ཁར་བཀང་།"
+
+#: ../plug-ins/common/CML_explorer.c:134
+msgid "k{x(1-x)}^p"
+msgstr "k{x(1-x)}^p"
+
+#: ../plug-ins/common/CML_explorer.c:135
+msgid "k{x(1-x)}^p stepped"
+msgstr "k{x(1-x)}^p གོམ་པ་སྤོར་ཡོདཔ།"
+
+#: ../plug-ins/common/CML_explorer.c:136
+msgid "kx^p"
+msgstr "kx^p"
+
+#: ../plug-ins/common/CML_explorer.c:137
+msgid "kx^p stepped"
+msgstr "kx^p གོམ་པ་སྤོར་ཡོདཔ།"
+
+#: ../plug-ins/common/CML_explorer.c:138
+msgid "k(1-x^p)"
+msgstr "k (1-x^p)"
+
+#: ../plug-ins/common/CML_explorer.c:139
+msgid "k(1-x^p) stepped"
+msgstr "k(1-x^p) གོམ་པ་སྤོར་ཡོདཔ།"
+
+#: ../plug-ins/common/CML_explorer.c:140
+msgid "Delta function"
+msgstr "ཌེལ་ཊ་ལས་འགན།"
+
+#: ../plug-ins/common/CML_explorer.c:141
+msgid "Delta function stepped"
+msgstr "ཌེལ་ཊ་ལས་འགན་གོམ་པ་སྤོར་ཡོདཔ།"
+
+#: ../plug-ins/common/CML_explorer.c:142
+msgid "sin^p-based function"
+msgstr "sin^p-གཞི་བཞག་ལས་འགན།"
+
+#: ../plug-ins/common/CML_explorer.c:143
+msgid "sin^p, stepped"
+msgstr "sin^p གོམ་པ་སྤོར་ཡོདཔ།"
+
+#: ../plug-ins/common/CML_explorer.c:169
+msgid "Max (x, -)"
+msgstr "མང་མཐའ་(x, -)"
+
+#: ../plug-ins/common/CML_explorer.c:170
+msgid "Max (x+d, -)"
+msgstr "མང་མཐའ་(x+d, -)"
+
+#: ../plug-ins/common/CML_explorer.c:171
+msgid "Max (x-d, -)"
+msgstr "མང་མཐའ་(x-d, -)"
+
+#: ../plug-ins/common/CML_explorer.c:172
+msgid "Min (x, -)"
+msgstr "ཉུང་མཐའ་(x, -)"
+
+#: ../plug-ins/common/CML_explorer.c:173
+msgid "Min (x+d, -)"
+msgstr "ཉུང་མཐའ་ (x+d, -)"
+
+#: ../plug-ins/common/CML_explorer.c:174
+msgid "Min (x-d, -)"
+msgstr "ཉུང་མཐའ་ (x-d, -)"
+
+#: ../plug-ins/common/CML_explorer.c:175
+msgid "Max (x+d, -), (x < 0.5)"
+msgstr "མང་མཐའ་ (x+d, -), (x < ༠.༥)"
+
+#: ../plug-ins/common/CML_explorer.c:176
+msgid "Max (x+d, -), (0.5 < x)"
+msgstr "མང་མཐའ་(x+d, -), (༠.༥ < x)"
+
+#: ../plug-ins/common/CML_explorer.c:177
+msgid "Max (x-d, -), (x < 0.5)"
+msgstr "མང་མཐའ་ (x-d, -), (x < ༠.༥)"
+
+#: ../plug-ins/common/CML_explorer.c:178
+msgid "Max (x-d, -), (0.5 < x)"
+msgstr "མང་མཐའ་ (x-d, -), (༠.༥ < x)"
+
+#: ../plug-ins/common/CML_explorer.c:179
+msgid "Min (x+d, -), (x < 0.5)"
+msgstr "ཉུང་མཐའ་(x+d, -), (x < ༠.༥)"
+
+#: ../plug-ins/common/CML_explorer.c:180
+msgid "Min (x+d, -), (0.5 < x)"
+msgstr "ཉུང་མཐའ་(x+d, -), (༠.༥ < x)"
+
+#: ../plug-ins/common/CML_explorer.c:181
+msgid "Min (x-d, -), (x < 0.5)"
+msgstr "ཉུང་མཐའ་(x-d, -), (x < ༠.༥)"
+
+#: ../plug-ins/common/CML_explorer.c:182
+msgid "Min (x-d, -), (0.5 < x)"
+msgstr "ཉུང་མཐའ་(x-d, -), (༠.༥ < x)"
+
+#: ../plug-ins/common/CML_explorer.c:202
+#: ../plug-ins/common/sunras.c:1594
+#: ../plug-ins/print/gimp_main_window.c:1645
+msgid "Standard"
+msgstr "ཚད་ལྡན།"
+
+#: ../plug-ins/common/CML_explorer.c:203
+msgid "Use average value"
+msgstr "ཆ་སྙོམས་གནས་གོང་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/common/CML_explorer.c:204
+msgid "Use reverse value"
+msgstr "རིམ་ལུགས་གནས་གོང་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/common/CML_explorer.c:205
+msgid "With random power (0,10)"
+msgstr "གང་བྱུང་ནུས་ཤུགས་མཉམ་(༠,༡༠)"
+
+#: ../plug-ins/common/CML_explorer.c:206
+msgid "With random power (0,1)"
+msgstr "གང་བྱུང་ནུས་ཤུགས་མཉམ་(༠,༡)"
+
+#: ../plug-ins/common/CML_explorer.c:207
+msgid "With gradient power (0,1)"
+msgstr "སྟེགས་རིས་ནུས་ཤུགས་མཉམ་(༠,༡)"
+
+#: ../plug-ins/common/CML_explorer.c:208
+msgid "Multiply rand. value (0,1)"
+msgstr "རེནཌི་དགུ་མཐའ་རྐྱབས། གནས་གོང་(༠,༡)"
+
+#: ../plug-ins/common/CML_explorer.c:209
+msgid "Multiply rand. value (0,2)"
+msgstr "རེནཌི་དགུ་མཐའ་རྐྱབས། གནས་གོང་(༠,༢)"
+
+#: ../plug-ins/common/CML_explorer.c:210
+msgid "Multiply gradient (0,1)"
+msgstr "སྟེགས་རིས་དགུ་མཐའ་རྐྱབས་ (༠,༡)"
+
+#: ../plug-ins/common/CML_explorer.c:211
+msgid "With p and random (0,1)"
+msgstr "གང་བྱུང་དང་ པི་ མཉམ་ (༠,༡)"
+
+#: ../plug-ins/common/CML_explorer.c:225
+msgid "All black"
+msgstr "ཆ་མཉམ་གནགཔོ།"
+
+#: ../plug-ins/common/CML_explorer.c:226
+msgid "All gray"
+msgstr "ཆ་མཉམ་སྐྱ་ཐལ།"
+
+#: ../plug-ins/common/CML_explorer.c:227
+msgid "All white"
+msgstr "ཆ་མཉམ་དཀརཔོ།"
+
+#: ../plug-ins/common/CML_explorer.c:228
+msgid "The first row of the image"
+msgstr "གཟུགས་བརྙན་འདི་གི་གྲལ་ཐིག་དང་པ།"
+
+#: ../plug-ins/common/CML_explorer.c:229
+msgid "Continuous gradient"
+msgstr "སྟེགས་རིས་འཕྲོ་མཐུད་ཅན།"
+
+#: ../plug-ins/common/CML_explorer.c:230
+msgid "Continuous grad. w/o gap"
+msgstr "གེརེཌི་འཕྲོ་མཐུད་ཅན། w/o བར་སྟོང་།"
+
+#: ../plug-ins/common/CML_explorer.c:231
+msgid "Random, ch. independent"
+msgstr "གང་བྱུང་ སི་ཨེཆ། རང་དབང་།"
+
+#: ../plug-ins/common/CML_explorer.c:232
+msgid "Random shared"
+msgstr "གང་བྱུང་རུབ་སྤྱོད་འབད་ཡོདཔ།"
+
+#: ../plug-ins/common/CML_explorer.c:233
+msgid "Randoms from seed"
+msgstr "སོན་ལས་གང་བྱུང་ཚུ།"
+
+#: ../plug-ins/common/CML_explorer.c:234
+msgid "Randoms from seed (shared)"
+msgstr "སོན་ལས་གང་བྱུང་ཚུ་(རུབ་སྤྱོད་འབད་ཡོདཔ་)"
+
+#: ../plug-ins/common/CML_explorer.c:302
+#: ../plug-ins/common/CML_explorer.c:310
+#: ../plug-ins/common/decompose.c:143
+#: ../plug-ins/gimpressionist/orientation.c:162
+#: ../plug-ins/gimpressionist/size.c:165
+msgid "Hue"
+msgstr "ཚོན་མདངས།"
+
+#: ../plug-ins/common/CML_explorer.c:303
+#: ../plug-ins/common/CML_explorer.c:311
+#: ../plug-ins/common/decompose.c:144
+#: ../plug-ins/rcm/rcm_dialog.c:559
+msgid "Saturation"
+msgstr "མཐའ་ཚད།"
+
+#: ../plug-ins/common/CML_explorer.c:304
+#: ../plug-ins/common/CML_explorer.c:312
+#: ../plug-ins/common/decompose.c:145
+#: ../plug-ins/gimpressionist/orientation.c:138
+#: ../plug-ins/gimpressionist/size.c:141
+msgid "Value"
+msgstr "གནས་གོང་།"
+
+#: ../plug-ins/common/CML_explorer.c:309
+msgid "(None)"
+msgstr "(ཅི་མེད་)"
+
+#: ../plug-ins/common/CML_explorer.c:470
+msgid "CML _Explorer..."
+msgstr "སི་ཨེམ་ཨེལ་ཐབས་འཚོལ་མི་...(_E)"
+
+#: ../plug-ins/common/CML_explorer.c:760
+msgid "CML_explorer: evoluting..."
+msgstr "སི་ཨེམ་ཨེལ་ཐབས་འཚོལ་མི་: ཨི་བོ་ལུ་ཊིང་...(_e)"
+
+#: ../plug-ins/common/CML_explorer.c:1186
+msgid "Coupled-Map-Lattice Explorer"
+msgstr "ཟུང་ལྡན་-ས་ཁྲ་-དྲ་མིག་ཐབས་འཚོལ་མི།"
+
+#: ../plug-ins/common/CML_explorer.c:1225
+msgid "New seed"
+msgstr "སོན་གསརཔ །"
+
+#: ../plug-ins/common/CML_explorer.c:1236
+msgid "Fix seed"
+msgstr "སོན་གཏན་ཁེལ་བཟོ །"
+
+#: ../plug-ins/common/CML_explorer.c:1247
+msgid "Random seed"
+msgstr "གང་བྱུང་སོན།"
+
+#: ../plug-ins/common/CML_explorer.c:1289
+#: ../plug-ins/common/fp.c:699
+#: ../plug-ins/common/lic.c:669
+msgid "_Hue"
+msgstr "ཚོན་མདངས་(_H)"
+
+#: ../plug-ins/common/CML_explorer.c:1293
+msgid "Sat_uration"
+msgstr "མཐའ་ཚད་(_u)"
+
+#: ../plug-ins/common/CML_explorer.c:1297
+#: ../plug-ins/common/fp.c:707
+msgid "_Value"
+msgstr "གནས་གོང་(_V)"
+
+#: ../plug-ins/common/CML_explorer.c:1301
+msgid "_Advanced"
+msgstr "མཐོ་རིམ་(_A)"
+
+#: ../plug-ins/common/CML_explorer.c:1316
+msgid "Channel Independent Parameters"
+msgstr "རྒྱུ་ལམ་རང་དབང་གི་ཚད་བཟུང་ཚུ།"
+
+#: ../plug-ins/common/CML_explorer.c:1338
+msgid "Initial value:"
+msgstr "འགོ་ཐོག་གནས་གོང་:"
+
+#: ../plug-ins/common/CML_explorer.c:1344
+msgid "Zoom scale:"
+msgstr "རྒྱས་ཟུམ་ཚད་ཤིང་:"
+
+#: ../plug-ins/common/CML_explorer.c:1353
+msgid "Start offset:"
+msgstr "པར་ལེན་འགོ་བཙུགས་:"
+
+#: ../plug-ins/common/CML_explorer.c:1362
+msgid "Seed of Random (only for \"From Seed\" Modes)"
+msgstr "གང་བྱུང་གི་སོན་ (\"From Seed\"ཐབས་ལམ་ཚུ་གི་དོན་ལུ་རྐྱངམ་གཅིག་)"
+

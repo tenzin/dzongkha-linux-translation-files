@@ -1,0 +1,125 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fonty.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-25 14:42+0100\n"
+"PO-Revision-Date: 2006-11-28 03:49+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "none"
+msgstr "ཅི་མེད།"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso1 (Western European)"
+msgstr "iso1 (ནུབ་ཕྱོགས་ ཡུ་རོ་པི་ཡཱན་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso2 (Central European)"
+msgstr "iso2 (དབུས་ ཡུ་རོ་པི་ཡཱན་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso3 (Esperanto)"
+msgstr "iso3 (ཨིསི་པེ་རེན་ཊོ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso4 (Baltic)"
+msgstr "iso4 (བཱལ་ཊིཀ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso5 (Cyrillic)"
+msgstr "iso5 (སི་རི་ལིཀ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso6 (Arabic)"
+msgstr "iso6 (ཨ་ར་བིག་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso7 (Greek)"
+msgstr "iso7 (གིརིཀ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso8 (Hebrew)"
+msgstr "iso8 (ཧེ་བིརིའུ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso9 (Turkish)"
+msgstr "iso9 (ཊར་ཀིཤ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso10 (Nordic)"
+msgstr "iso10 (ནོར་ཌིཀ་)"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "iso15 (Western European + euro)"
+msgstr "iso15 (ནུབ་ཕྱོགས་ཡུ་རོ་པི་ཡཱན་ + ཡུ་རོ་)"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Default console font:"
+msgstr "སྔོན་སྒྲིག་མ་སྒྲོམ་ཡིག་གཟུགས་:"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "The default font will be set after reboot during the initialization process by the /etc/init.d/console-screen.sh script. Your choice will be written to the /etc/console-tools/config.d/fonty file."
+msgstr "སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་ /etc/init.d/console-screen.sh ཡིག་ཚུགས་ཀྱིས་ འགོ་འབྱེད་ལས་སྦྱོར་འབད་བའི་བསྒང་ རི་བུཊི་འབད་བའི་ཤུལ་ལུ་ གཞི་སྒྲིག་འབད་འོང་། ཁྱོད་རའི་གདམ་ཁ་འདི་ /etc/console-tools/config.d/fonty ཡིག་སྣོད་ལུ་ འབྲི་ནི་ཨིན། "
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you want to restart console-tools now?"
+msgstr "ཁྱོད་ཀྱིས་ ད་ལྟོ་ར་ མ་སྒྲོམ་ལག་ཆས་ཚུ་ ལོག་འགོ་བཙུགས་ནི་ཨིན་ན་?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Remember that in order to activate the new configuration console-tools has to be restarted. You can also restart console-tools manually by executing '/etc/init.d/console-screen.sh restart'."
+msgstr "རིམ་སྒྲིག་གསརཔ་ཅིག་ ཤུགས་ལྡན་བཟོ་ནི་གི་དོན་ལུ་ མ་སྒྲོམ་-ལག་ཆས་འདི་ལོག་འགོ་བཙུགས་དགོཔ་སེམས་ཁར་ངེས། དེ་མ་ཚད་ ཁྱོད་ཀྱིས་ '/etc/init.d/console-screen.sh restart' འདི་ ལག་ཐོག་ལས་ལག་ལེན་འཐབ་ཐོག་ལས་ མ་སྒྲོམ་-ལག་ཆས་ཚུ་ ལོག་འོག་བཙུགས་ཚུགས།"
+

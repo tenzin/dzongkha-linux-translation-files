@@ -1,0 +1,2040 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomedb\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-10 03:33+0000\n"
+"PO-Revision-Date: 2007-04-05 23:01+0530\n"
+"Last-Translator: translator <pemai_jurmey@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../control-center/database-properties-3.0.desktop.in.h:1
+msgid "Configure your database environment"
+msgstr "ཁྱོད་རང་གི་གནས་སྡུད་གཞི་རྟེན་མཐའ་འཁོར་རིམ་སྒྲིག་བཟོ།"
+
+#: ../control-center/database-properties-3.0.desktop.in.h:2
+#: ../control-center/main.c:146
+#: ../control-center/main.c:241
+msgid "Database Access Properties"
+msgstr "གནས་སྡུད་གཞི་རྟེན་འཛོལ་སྤྱོད་རྒྱུ་དངོས་ཚུ།"
+
+#: ../control-center/dsn-config.c:69
+#: ../control-center/provider-config.c:56
+#: ../libgnomedb-extra/gnome-db-selector.c:555
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../control-center/dsn-config.c:70
+#: ../control-center/provider-config.c:57
+#: ../libgnomedb-extra/gnome-db-error.c:207
+#: ../libgnomedb-extra/gnome-db-selector.c:580
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../control-center/dsn-config.c:71
+msgid "Global"
+msgstr "སྤྱི་ཁྱབ།"
+
+#. title
+#: ../control-center/dsn-config.c:200
+#: ../control-center/main.c:326
+msgid "Data Sources"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་ཚུ།"
+
+#: ../control-center/dsn-config.c:201
+msgid "Configured data sources in the system"
+msgstr "རིམ་ལུགས་ནང་རིམ་སྒྲིག་འབད་ཡོད་མི་གནས་སྡུད་འབྱུང་ཁུངས་ཚུ།"
+
+#: ../control-center/dsn-config.c:249
+msgid "Data sources are the means by which database connections are identified in GNOME-DB. All information needed to open a connection to a specific provider/database combo is stored using a unique name. It is by use of this unique name you identify the connections in the applications that make use of GNOME-DB for database access."
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་དེ་ཚུ་ གནས་སྡུད་གཞི་རྟེན་མཐུད་ལམ་ལུ་ཇི་ནོམ་-ཌི་བི་ནང་ངོས་འཛིན་འབད་མི་གིས་སླབ་ཨིན། སྤེལ་མི་/གནས་སྡུད་གཞི་རྟེན་ཀོམ་བོ་ཅིག་གསལ་བཀོད་འབད་ནི་ལུ་མཐུད་ལམ་ཅིག་ཁ་ཕྱེ་ནི་ལུ་དགོ་པའི་བརྡ་དོན་ཆ་མཉམ་མཐུན་མོང་མ་ཡིན་པའི་མིང་ལག་ལེན་འཐབ་དེ་གསོག་འཇོག་འབད་ཡོདཔ་ཨིན། གནས་སྡུད་གཞི་རྟེན་འཛུལ་སྤྱོད་འབད་ནི་དོན་ལུ་ཇི་ནོམ་-ཌི་བི་གི་ལག་ལེན་འཐབ་ནི་གློག་རིམ་ཚུ་ནང་ཁྱོད་ཀྱིས་མཐུན་མོང་མ་ཡིན་པའི་མིང་ངོས་འཛིན་འབད་མི་མཐུད་ལམ་ཚུ་ལག་ལེན་འཐབ་མི་གིས་སླབ་ཨིན།"
+
+#: ../control-center/dsn-config.c:308
+msgid "Data source delete confirmation"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་བཏོན་གཏང་ནི་ངེས་དཔྱད།"
+
+#: ../control-center/dsn-config.c:314
+#, c-format
+msgid "Are you sure you want to remove the data source '%s'?"
+msgstr "ཁྱོད་ཀྱིས་གནས་སྡུད་འབྱུང་ཁུངས་རྩ་བསྐྲད་གཏང་ནི་ངེས་གཏན་ཨིན་ན'%s'?"
+
+#: ../control-center/dsn-properties-dialog.c:77
+#: ../control-center/dsn-properties-dialog.c:177
+#: ../extra/gnome-db-browser.c:294
+#, c-format
+msgid "Login for %s"
+msgstr "དོན་ལུ་ནང་བསྐྱོད་འབད། %s"
+
+#. create the dialog
+#: ../control-center/dsn-properties-dialog.c:112
+#: ../control-center/dsn-properties-dialog.c:132
+#: ../control-center/dsn-properties-dialog.c:136
+msgid "Data Source Properties"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་རྒྱུད་དངོས་ཚུ།"
+
+#: ../control-center/dsn-properties-dialog.c:114
+msgid "Test"
+msgstr "བརྟག་ཞིབ།"
+
+#: ../control-center/dsn-properties-dialog.c:115
+msgid "Browse"
+msgstr "བརྡ་འཚོལ།"
+
+#: ../control-center/dsn-properties-dialog.c:133
+msgid "Change the data source properties (the name can't be modified)."
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་རྒྱུ་དངོས་ཚུ་བསྒྱུར་བཅོས་འབད(མིང་འདི་ལེགས་བཅོས་འབད་མ་ཚུགསཔ།)"
+
+#: ../control-center/dsn-properties-dialog.c:137
+msgid ""
+"For information only, this data source is a system wide data source\n"
+"and you don't have the permission change it."
+msgstr ""
+"བརྡ་དོན་རྐྱངམ་ཅིག་ གནས་སྡུད་འབྱུང་ཁུངས་འདི་རིམ་ལུགས་རྒྱ་བསྐྱེད་འབྱུང་ཁུངས་ཅིག་ཨིནམ་དང་\n"
+"ཁྱོད་ལུ་བསྒྱུར་བཅོས་འབད་ནི་གནང་བ་མེད།"
+
+#: ../control-center/dsn-properties-dialog.c:197
+msgid "Connection successfully opened!"
+msgstr "མཐུད་ལམ་མཐར་འཁྱོལཔ་སྦེ་ཁ་ཕྱེ་ཡོདཔ!"
+
+#: ../control-center/dsn-properties-dialog.c:205
+#: ../control-center/dsn-properties-dialog.c:210
+msgid "Could not open connection"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ་མ་ཚུགསཔ།"
+
+#: ../control-center/dsn-properties-dialog.c:206
+#: ../extra/gnome-db-browser.c:201
+#: ../libgnomedb/gnome-db-dsn-assistant.c:132
+#: ../libgnomedb/gnome-db-raw-form.c:577
+#: ../testing/test-dyn-widgets.c:844
+#: ../testing/test-dyn-widgets.c:990
+msgid "Unknown error"
+msgstr "འཛོལ་བ་མ་ཤེསཔ།"
+
+#: ../control-center/dsn-properties-dialog.c:236
+msgid "Could not execute browser program (gnome-db-browser)."
+msgstr "བར་འུ་ཟར་ལས་རིམ་ལག་ལེན་འཐབ་མ་ཚུགས(ཇི་ནོམ་-ཌི་བི་-བརའུ་ཟར)"
+
+#: ../control-center/main.c:53
+msgid "No valid data source info was created"
+msgstr "ནུས་ཅན་གནས་སྡུད་འབྱུང་ཁུངས་བརྡ་དོན་དེ་གསར་བསྐྲུན་འབད་མེད།"
+
+#: ../control-center/main.c:149
+msgid "Database services for the GNOME Desktop"
+msgstr "ཇི་ནོམ་ཌེཀསི་ཊོཔ་དོན་ལུ་གནས་སྡུད་གཞི་རྟེན་ཞབས་ཏོག་ཚུ།"
+
+#. title
+#: ../control-center/main.c:336
+#: ../control-center/provider-config.c:109
+msgid "Providers"
+msgstr "སྤེལ་མི་ཚུ།"
+
+#: ../control-center/provider-config.c:110
+msgid "Installed providers"
+msgstr "གཞི་བཙུགས་འབད་ཡདོ་མི་སྤེལ་མི་ཚུ།"
+
+#: ../control-center/provider-config.c:150
+msgid "Providers are external plugins that provide access to a specific data source. The default provider is always installed, which allows access to databases stored in files (using the SQLite embedded database).  Other providers usually distributed along with libgda/gnome-db include PostgreSQL, MySQL, Oracle, Sybase, Interbase, etc."
+msgstr "སྤེལ་མི་དེ་ཚུ་ལུ་གནས་སྡུད་འབྱུང་ཁུངས་གསལ་བཀོད་འབད་ནི་ཅིག་འཛུལ་སྤྱོད་བྱིན་མི་ཕྱིའི་པ་ལག་ཨིནསི་ཡོདཔ་ཨིན། ཡིག་སྣོད་ཚུ་ནང་(ཨེསི་ཀིའུ་ཨེལ་ལིཊི་གནས་སའདྲེན་གནས་སྡུད་གཞི་རྟེན་ལག་ལེན་འཐབ་ཡོདཔ)གསོག་འཇོག་འབད་ཡོད་མི་གནས་སྡུད་གཞི་རྟེན་ཚུ་འཛུལ་སྤྱོད་འབད་བཅུག་མི་སྔོན་སྒྲིག་སྥེལ་མི་འདི་ཨ་རྟག་རང་གཞི་བཙུགས་འབད་ཡོདཔ་ཨིན། གཞན་སྤེལ་མི་ཚུ་སྤྱིར་བཏང་ལུ་ ལིབ་ཇི་ཌི་ཨེ་/ཇི་ནོམ་-ཌི་བི་ གནས་བསྐྱོད་གི་རི་ཨེསི་ཀིའུ་ཨེལ་ མའི་ཨེསི་ཀིའུ་ཨེལ་ ཨོ་རེ་ཀཱལ་ སའི་བེསི་ ནང་འཁོད་གཞི་རྟེན་ ལ་སོགས་པ་གྲངས་སུ་བཙུགས་མི་མཉམ་སྦྲགས་བགོ་བཀྲམ་ཡོདཔ་ཨིན།"
+
+#: ../data/libgnomedb.keys.in.h:1
+msgid "Database connection parameters file"
+msgstr "གནས་སྡུད་གཞི་རྟེན་མཐུད་ལམ་ཚད་བཟུང་ཚུ་གི་ཡིག་སྣོད།"
+
+#: ../data/libgnomedb.keys.in.h:2
+msgid "Documents"
+msgstr "ཡིག་ཆ་ཚུ།"
+
+#: ../data/libgnomedb.keys.in.h:3
+msgid "SQL code viewer"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་ཨང་རྟགས་སྟོན་མི།"
+
+#: ../data/libgnomedb-3.0.schemas.in.h:1
+msgid "Font to be used in the grid widget"
+msgstr "གིརིཌི་ཝི་གེཊི་ནང་ལག་ལེན་འཐབ་ནི་ཨིན་མི་ཡིག་གཟུགས།"
+
+#: ../data/libgnomedb-3.0.schemas.in.h:2
+msgid "Number of spaces per tab"
+msgstr "མཆོང་ལདེ་རེ་རེ་བར་སྟོང་ཚུ་གི་ཨང་།"
+
+#: ../data/libgnomedb-3.0.schemas.in.h:3
+msgid "Show line numbers on source editor"
+msgstr "འབྱུང་ཁུངས་ཞུན་དགཔ་གུ་གྱལ་ཨང་ཚུ་སྟོན།"
+
+#: ../data/libgnomedb-3.0.schemas.in.h:4
+msgid "Use highlighting in source code editor"
+msgstr "འབྱུང་ཁུངས་ཨང་རྟགས་ཞུན་དགཔ་ནང་གཙོ་དམིགས་བཀལ་ནི་ལག་ལེན་འཐབ།"
+
+#: ../data/server_operation.glade.h:1
+msgid "Columns"
+msgstr "ཀེར་ཐིག་ཚུ།"
+
+#: ../data/server_operation.glade.h:2
+msgid "Constraints"
+msgstr "བར་ཆད་ཚུ།"
+
+#: ../data/server_operation.glade.h:3
+msgid "Foreign keys"
+msgstr "ཕྱི་རྒྱལ་ལྡེ་མིག་ཚུ།"
+
+#: ../data/server_operation.glade.h:4
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../data/server_operation.glade.h:5
+#: ../libgnomedb/gnome-db-server-operation.c:788
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: ../data/server_operation.glade.h:6
+msgid "hello"
+msgstr "ཧེ་ལོ།"
+
+#: ../extra/gnome-db-browser.c:111
+#, c-format
+msgid "Datasource '%s' is not declared\n"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་ '%s' འདི་གསལ་བསྒྲགས་འབད་མེདཔ།\n"
+
+#: ../extra/gnome-db-browser.c:120
+msgid "A data source or a dictionary file must be specified.\n"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་ཡང་ན་སྣོད་ཐོ་ཡིག་སྣོད་ཅིག་གསལ་བཀོད་འབད་དགོཔ་ཨིན།\n"
+
+#: ../extra/gnome-db-browser.c:136
+msgid "Database browser"
+msgstr "གནས་སྡུད་གཞི་རྟེན་བརའུ་ཟར།"
+
+#: ../extra/gnome-db-browser.c:162
+msgid "Connection to the database is opened"
+msgstr "གནས་སྡུད་གཞི་རྟེན་ལུ་མཐུད་ལམ་འདི་ཁ་ཕྱེ་ཡོདཔ།"
+
+#: ../extra/gnome-db-browser.c:163
+msgid "No connection to database"
+msgstr "གནས་སྡུད་གཞི་རྟེན་ལུ་མཐུད་ལམ་མེད།"
+
+#: ../extra/gnome-db-browser.c:167
+msgid "Tables and Views"
+msgstr "ཐིག་ཁྲམ་ཚུ་དང་མཐོང་སྣང་ཚུ།"
+
+#: ../extra/gnome-db-browser.c:172
+msgid "Data types"
+msgstr "གནས་སྡུད་དབྱེ་བ་ཚུ།"
+
+#: ../extra/gnome-db-browser.c:213
+#: ../testing/test-dyn-widgets.c:490
+msgid "unreported error"
+msgstr "སྙན་ཞུ་མ་འབད་བར་ཡོད་མི་འཛོལ་བ།"
+
+#: ../extra/gnome-db-browser.c:235
+msgid "Error opening connection:"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ་ནི་འཛོལ་བ།"
+
+#: ../extra/gnome-db-browser.c:237
+msgid "no detail"
+msgstr "རྒྱས་བཤད་མེད།"
+
+#: ../extra/gnome-db-browser.c:266
+msgid "Do you want to build the database dictionary?"
+msgstr "གནས་སྡུད་གཞི་རྟེན་སྣོད་ཐོ་བཟོ་བརྩིགས་འབད་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: ../extra/gnome-db-browser.c:267
+msgid ""
+"The database dictionary must be built before the database can be browsed. The process only takes a few minutes.\n"
+"\n"
+"The dictionary will need to be rebuilt only if the database structure changes."
+msgstr ""
+"གནས་སྡུད་གཞི་རྟེན་སྣོད་ཐོ་འདི་གནས་སྡུད་གཞི་རྟེན་བརྡ་འཚོལ་འབད་བའི་ཧེ་མ་བཟོ་བརྩིགས་འབད་དགོཔ་ཨིན། ལས་སྦྱོར་འདི་གིས་སྐར་མ་དག་པ་ཅིག་ལས་མི་བསྒོར།\n"
+"\n"
+"སྣོད་ཐོ་འདི་གནས་སྡུད་གཞི་རྟེན་གཞི་བཀོད་བསྒྱུར་བཅོས་འབད་བ་ཅིན་རྐྱངམ་ཅིག་ལོག་བཟོ་མརྩིགས་འབད་དགོཔ་ཨིན།"
+
+#. File menu
+#: ../extra/gnome-db-browser.c:329
+#: ../testing/test-dyn-widgets.c:529
+#: ../testing/test-handlers.c:245
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#. Database menu
+#: ../extra/gnome-db-browser.c:344
+#: ../testing/test-dyn-widgets.c:565
+msgid "_Database"
+msgstr "གནས་སྡུད་གཞི་རྟེན།(_D)"
+
+#: ../extra/gnome-db-browser.c:351
+#: ../testing/test-dyn-widgets.c:585
+msgid "Synchronise metadata with DBMS"
+msgstr "མཉམ་འབྱུང་མེ་ཊ་གནས་སྡུད་དང་གཅིག་ཁར་ཌི་བི་ཨེམ་ཨེསི།"
+
+#. dialog
+#: ../extra/gnome-db-browser.c:359
+#: ../extra/gnome-db-browser.c:445
+#: ../extra/gnome-db-browser.c:448
+msgid "SQL Console"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་མ་སྒྲོམ།"
+
+#: ../extra/gnome-db-browser.c:387
+#: ../testing/test-dyn-widgets.c:698
+msgid "Metadata synchronisation"
+msgstr "མེ་ཊ་གནས་སྡུད་མཉམ་འབྱུང་།"
+
+#: ../extra/gnome-db-browser.c:405
+#: ../testing/test-dyn-widgets.c:716
+#, c-format
+msgid ""
+"Error updating Server metadata:\n"
+"%s\n"
+msgstr ""
+"སར་བར་མེ་ཊ་གནས་སྡུད་དུས་མཐུན་བཟོ་ནི་འཛོལ་བ།\n"
+"%s\n"
+
+#: ../extra/gnome-db-browser.c:423
+#, c-format
+msgid ""
+"Error saving dictionary file:\n"
+"%s\n"
+msgstr ""
+"སྣོད་ཐོ་ཡིག་སྣོད་སྲུང་བཞག་འབད་ནི་འཛོལ་བ།\n"
+"%s\n"
+
+#: ../extra/gnome-db-browser.c:461
+#: ../testing/test-dyn-widgets.c:2316
+#: ../testing/test-dyn-widgets.c:3152
+msgid "SQL Console (type \\? + ENTER for help)\n"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་མ་སྒྲོམ (དབྱེ་བ་ \\? + བཙུགས་གྲོགས་རམ་དོན་ལུ་)\n"
+
+#: ../extra/gnome-db-browser.c:493
+msgid "Select a data type:"
+msgstr "གནས་སྡུད་དབྱེ་བ་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../extra/gnome-db-browser.c:512
+msgid "Select a filter option:"
+msgstr "ཚགས་མ་གདམ་ཁ་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../extra/gnome-db-browser.c:520
+msgid "Functions returning this data type"
+msgstr "ལས་འགན་ཚུ་གནས་སྡུད་དབྱེ་བ་འདི་སླར་ལོག་དོ།"
+
+#: ../extra/gnome-db-browser.c:527
+msgid "Functions using this data type"
+msgstr "ལས་འགན་ཚུ་གནས་སྡུད་དབྱེ་བ་འདི་ལག་ལེན་འཐབ་དོ།"
+
+#: ../extra/gnome-db-browser.c:534
+msgid "Aggregates using this data type"
+msgstr "གནས་སྡུད་དབྱེ་བ་འདི་ལག་ལེན་འཐབ་དེ་སྤྱི་བསྡོམས་འབདཝ་ཨིན།"
+
+#: ../extra/gnome-db-browser.c:542
+msgid "Result of filter:"
+msgstr "ཚགས་མ་གི་འགྲུབ་འབྲས།"
+
+#: ../extra/gnome-db-browser.c:559
+#: ../extra/gnome-db-browser.c:626
+msgid "Select a data type..."
+msgstr "གནས་སྡུད་དབྱེ་བ་ཅིག་སེལ་འཐུ་འབད་་་"
+
+#: ../extra/gnome-db-browser.c:740
+msgid "Select a table or field:"
+msgstr "ཐིག་ཁྲམ་ཡང་ན་ས་སྒོ་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../extra/gnome-db-browser.c:762
+msgid "Table's operations:"
+msgstr "ཐིག་ཁྲམ་གྱི་བཀོལ་བསྐྱོད་ཚུ།"
+
+#: ../extra/gnome-db-browser.c:767
+msgid "Edit contents"
+msgstr "ནང་དོན་ཚུ་ཞུན་དག་འབད།"
+
+#: ../extra/gnome-db-browser.c:776
+msgid "Table and field's properties:"
+msgstr "ཐིག་ཁྲམ་དང་ས་སྒོ་གི་རྒྱུ་དངོས་ཚུ།"
+
+#: ../extra/gnome-db-browser.c:793
+#: ../extra/gnome-db-browser.c:817
+msgid "Select a table or a table's field..."
+msgstr "ཐིག་ཁྲམ་དང་ཐིག་ཁྲམ་གྱི་ས་སྒོ་ཅིག་སེལ་འཐུ་འབད་་་"
+
+#: ../extra/gnome-db-browser.c:826
+msgid "View:"
+msgstr "སྟོན།"
+
+#: ../extra/gnome-db-browser.c:828
+msgid "Table:"
+msgstr "ཐིག་ཁྲམ།"
+
+#: ../extra/gnome-db-browser.c:859
+#: ../extra/gnome-db-browser.c:1014
+msgid "Primary key"
+msgstr "གཞི་རིམ་ལྡེ་མིག"
+
+#: ../extra/gnome-db-browser.c:896
+#: ../extra/gnome-db-browser.c:1024
+msgid "Foreign key"
+msgstr "ཕྱི་རྒྱལ་ལྡེ་མིག"
+
+#: ../extra/gnome-db-browser.c:936
+msgid "UNIQUE constraint"
+msgstr "མཐུན་མོང་མ་ཡིན་པའི་བར་ཆད།"
+
+#: ../extra/gnome-db-browser.c:966
+msgid "Field:"
+msgstr "ས་སྒོ།"
+
+#: ../extra/gnome-db-browser.c:975
+msgid "Data type:"
+msgstr "གནས་སྡུད་དབྱེ་བ།"
+
+#: ../extra/gnome-db-browser.c:980
+#: ../libgnomedb/gnome-db-dsn-assistant.c:467
+msgid "Description:"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../extra/gnome-db-browser.c:985
+msgid "Length:"
+msgstr "རིང་ཚད།"
+
+#: ../extra/gnome-db-browser.c:994
+msgid "Scale:"
+msgstr "ཐིག་ཤིང་།"
+
+#: ../extra/gnome-db-browser.c:1004
+msgid "NULL allowed:"
+msgstr "སྟོང་ཆ་འབད་བཅུག་ཡོདཔ།"
+
+#: ../extra/gnome-db-browser.c:1006
+msgid "Yes"
+msgstr "ཨིན།"
+
+#: ../extra/gnome-db-browser.c:1006
+#: ../extra/gnome-db-browser.c:1017
+#: ../extra/gnome-db-browser.c:1027
+msgid "No"
+msgstr "མེན།"
+
+#: ../extra/gnome-db-browser.c:1011
+msgid "Primary key:"
+msgstr "གཞི་རིམ་ལྡེ་མིག"
+
+#: ../extra/gnome-db-browser.c:1015
+msgid "Part of primary key"
+msgstr "གཞི་རིམ་ལྡེ་མིག་གི་ཡན་ལག"
+
+#: ../extra/gnome-db-browser.c:1021
+msgid "Foreign key:"
+msgstr "ཕྱི་རྒྱལ་ལྡེ་མིག"
+
+#: ../extra/gnome-db-browser.c:1025
+msgid "Part of foreign key"
+msgstr "ཕྱི་རྒྱལ་ལྡེ་མིག་གི་ཡན་ལག"
+
+#: ../extra/gnome-db-browser.c:1112
+#, c-format
+msgid "Contents of view '%s'"
+msgstr "མཐོང་སྣང་གི་ནང་དོན་ཚུ་ '%s'"
+
+#: ../extra/gnome-db-browser.c:1114
+#, c-format
+msgid "Contents of table '%s'"
+msgstr "ཐིག་ཁྲམ་གྱི་ནང་དོན་ཚུ་ '%s'"
+
+#: ../extra/demos/main.c:777
+#, c-format
+msgid "Can't find demo dictionary file: %s"
+msgstr "ཌེ་མོ་སྣོད་ཐོ་ཡིག་སྣོད་འཚོལ་མ་ཐོབ། %s"
+
+#: ../extra/demos/main.c:782
+#, c-format
+msgid ""
+"Error loading dictionary from file '%s':\n"
+"%s\n"
+msgstr ""
+"ཡིག་སྣེད་ལས་སྣོད་ཐོ་མངོན་གསལ་འབད་ནི་འཛོལ་བ'%s':\n"
+"%s\n"
+
+#: ../extra/demos/main.c:784
+#: ../extra/demos/main.c:806
+#: ../libgnomedb/data-entries/plugins/common-pict.c:210
+#: ../libgnomedb/data-entries/plugins/common-pict.c:219
+#: ../libgnomedb/data-entries/plugins/common-pict.c:263
+#: ../libgnomedb/data-entries/plugins/common-pict.c:393
+#: ../libgnomedb/data-entries/plugins/common-pict.c:501
+#: ../libgnomedb/gnome-db-tools.c:353
+#: ../libgnomedb/gnome-db-tools.c:388
+msgid "No detail"
+msgstr "རྒྱས་བཤད་མེད"
+
+#: ../extra/demos/main.c:792
+#, c-format
+msgid "Can't find demo database file: %s"
+msgstr "ཌེ་མོ་གནས་སྡུད་གཞི་རྟེན་ཡིག་སྣོད་འཚོལ་མ་ཐོབ། %s"
+
+#: ../extra/demos/main.c:804
+#, c-format
+msgid ""
+"Error opening the connection for file '%s':\n"
+"%s\n"
+msgstr ""
+"ཡིག་སྣོད་དོན་ལུ་མཐུད་ལམ་ཁ་ཕྱེ་ནི་འཛོལ་བ་ '%s':\n"
+"%s\n"
+
+#: ../extra/demos/main.c:817
+msgid "Gnome-Db Code Demos"
+msgstr "ཇི་ནོམ་-ཌི་བི་ཨང་རྟགས་ཌེ་མོསི།"
+
+#: ../extra/demos/main.c:872
+#, c-format
+msgid ""
+"<b><big>Note:\n"
+"</big></b>Many of the demonstrated items use an\n"
+"opened connection to the SQLite using the\n"
+"'%s' file.\n"
+"\n"
+"In the source code shown here, The <i>demo_cnc</i> and <i>demo_dict</i>\n"
+"objects are created by the framework and made available\n"
+"to all the demonstrated items."
+msgstr ""
+"<b><big>འདྲན་འཛིན་\n"
+"</big></b>འགྲེམས་སྟོན་རྣམ་གྲངས་ཚུ་མང་ཤོས་རང་\n"
+"ཨེསི་ཀིའུ་ལའིཊི་ལུ་མཐུད་ལམ་ཁ་ཕྱེ་ཡོད་མི་\n"
+"'%s' ཡིག་སྣོད་ལག་ལེན་འཐབ་དེ་ལག་ལེན་འཐབ་ཨིན།\n"
+"\n"
+"འདི་ཁར་སྟོན་ཡོད་མི་འབྱུང་ཁུངས་ཨང་རྟགས་འདི་ནང་ <i>demo_cnc</i> དང་ <i>demo_dict</i>\n"
+"དངོས་པོ་ཚུ་གཞི་ཁྲམ་གྱི་ལཱ་གཡོག་གིས་གསར་བསྐྲུན་འབད་ཡོདཔ་དང་འགྲེམས་སྟོན་འབད་ཡོད་མི་རྣམ་གྲངས་ཚུ་\n"
+"ཆ་མཉམ་ལུ་ཐོབ་ཚུགསཔ་བཟོ་ཡོདཔ་ཨིན།"
+
+#. FIXME: find a better label
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-boolean.c:155
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-textual.c:171
+#: ../libgnomedb/data-entries/plugins/gnome-db-data-cell-renderer-pict.c:183
+#: ../libgnomedb/gnome-db-basic-form.c:776
+#: ../libgnomedb/gnome-db-basic-form.c:820
+#: ../libgnomedb/gnome-db-raw-grid.c:595
+#: ../libgnomedb-extra/gnome-db-selector.c:600
+msgid "Value"
+msgstr "གནས་གོང་།"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-boolean.c:156
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-textual.c:172
+#: ../libgnomedb/data-entries/plugins/gnome-db-data-cell-renderer-pict.c:184
+msgid "GValue to render"
+msgstr "ཇི་གནས་གོང་ལྷག་སྟོན་འབད་ནི་ལུ་"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-boolean.c:168
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-info.c:161
+#: ../libgnomedb/data-entries/plugins/gnome-db-data-cell-renderer-pict.c:196
+msgid "Editable"
+msgstr "ཞུན་དག་འབད་བཏུབ་མི།"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-boolean.c:169
+#: ../libgnomedb/data-entries/plugins/gnome-db-data-cell-renderer-pict.c:197
+msgid "The toggle button can be activated"
+msgstr "སོར་སྟོན་ཨེབ་རྟ་འདི་ཤུགས་ལྡན་བཟོ་བཏུབ།"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-combo.c:161
+msgid "Values limited to PK fields"
+msgstr "པི་ཀེ་ས་སྒོ་ཚུ་ལུ་གནས་གོང་ཚུ་ཚད་ཡོདཔ།"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-combo.c:162
+msgid "GList of GValue to render, limited to PK fields"
+msgstr "པི་ཀེ་ས་སྒོ་ཚུ་ལུ་ཚཐ་ཡོདཔ་ཇི་གནས་གོང་ལྷག་སྟོན་འབད་ནི་གི་ཇི་ཐོ་ཡིག"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-combo.c:168
+msgid "Values"
+msgstr "གནས་གོང་ཚུ་"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-combo.c:169
+msgid "GList of GValue to render, not limited to PK fields "
+msgstr "པི་ཀེ་ས་སྒོ་ཚུ་ལུ་ཚད་མེདཔ་ ཇི་གནས་གོང་ལྷག་སྟོན་འབད་ནི་གི་ཇི་ཐོ་ཡིག"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-info.c:162
+msgid "The information and status changer can be activated"
+msgstr "བརྡ་དོན་དང་གནས་ཚད་ཚུ་ཤུགས་ལྡན་བཟོ་བཏུབ།"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-textual.c:280
+#, c-format
+msgid "Data cell renderer's specified type (%s) differs from actual value to display type (%s)"
+msgstr "གནས་སྡུད་ནང་ཐིག་ལྷག་སྟོན་འབད་ནི་གི་གསལ་བཀེད་འབད་ཡོད་མི་དབྱེ་བ་འདི་ (%s) བཀྲམ་སྟོན་འབད་ནི་དབྱེ་བ་ལུ་གནས་གོང་ངོ་མ་ལས་སོ་སོ་འགྱུརཝ་ཨིན། (%s)"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-textual.c:286
+#, c-format
+msgid "Data cell renderer asked to display values of different data types, at least %s and %s, which means the data model has some incoherencies"
+msgstr "གནས་སྡུད་ནང་ཐིག་ལྷག་སྟོན་འབད་ནི་གིས་སོ་སོ་གནས་སྡུད་དབྱེ་བ་ཚུ་ ཉུང་མཐའ་ %s དང་ %s གི གནས་སྡུད་དཔེ་དེ་ལུ་ཨིན་ཀོ་ཧེ་རེནསི་སི་ཡོད་མི་ལ་ལོ་་གནས་གོང་ཚུ་བཀྲམ་སྟོན་འབད་ནི་སླབ་ཡོདཔ་ཨིན།"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-textual.c:302
+#: ../libgnomedb/data-entries/gnome-db-entry-string.c:417
+msgid "<string cut because too long>"
+msgstr "<ཡིག་རྒྱུན་བཏོག་མི་དེ་གནམ་མེད་ས་མེད་རིང་མས>"
+
+#: ../libgnomedb/data-entries/gnome-db-data-cell-renderer-textual.c:312
+#: ../libgnomedb/data-entries/gnome-db-entry-none.c:173
+msgid "<non-printable>"
+msgstr "<དཔར་བསྐྲུན་བཏུབ་མེན་པའི་>"
+
+#. small label
+#: ../libgnomedb/data-entries/gnome-db-entry-common-time.c:878
+msgid "hh:mm:ss"
+msgstr "hh:mm:ss"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:40
+#: ../libgnomedb/data-entries/plugins/common-pict.c:70
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict.c:259
+msgid "No data to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་གནས་སྡུད་མེད།"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:106
+msgid "Empty data"
+msgstr "གནས་སྡུད་སྟོངམ།"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:111
+msgid "Unhandled type of data"
+msgstr "གནས་སྡུད་ཀྱི་ལེགས་སྐྱོང་མ་འབད་བི་དབྱེ་བ།"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:209
+#, c-format
+msgid ""
+"Error while deserializing data:\n"
+"%s"
+msgstr ""
+"གནས་སྡུད་ཨང་རིམ་མེདཔ་བཟོ་བའི་སྐབས་འཛོལ་བ།\n"
+"%s"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:218
+#: ../libgnomedb/data-entries/plugins/common-pict.c:262
+#, c-format
+msgid ""
+"Error while interpreting data as an image:\n"
+"%s"
+msgstr ""
+"གཟུགས་བརྙན་བཟུམ་སྦེ་གནས་སྡུད་ཁ་བསྒྱུར་འབད་བའི་སྐབས་འཛོལ་བ།\n"
+"%s"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:308
+msgid "_Load image from file"
+msgstr "ཡིག་སྣོད་ལས་གཟུགས་བརྙན་མངོན་གསལ་འབད།(_L)"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:315
+msgid "_Save image"
+msgstr "གཟུགས་བརྙན་སྲུང་བཞག་འབད།(_S)"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:332
+msgid "Select image to load"
+msgstr "མངོན་གསལ་འབད་ནི་ལུ་གཟུགས་བརྙན་སེལ་འཐུ་འབད།"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:391
+#, c-format
+msgid ""
+"Could not load the contents of '%s':\n"
+" %s"
+msgstr ""
+"གི་ནང་དོན་ཚུ་མངོན་གསལ་འབད་མ་ཚུགས། '%s':\n"
+" %s"
+
+#. determine writable formats
+#: ../libgnomedb/data-entries/plugins/common-pict.c:437
+msgid "Image format"
+msgstr "གཟུགས་བརྙན་རྩ་སྒྲིག"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:441
+msgid "Format image as:"
+msgstr "བཟུམ་སྦེ་རྩ་སྒྲིག་གཟུགས་བརྙན།"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:453
+msgid "Current format"
+msgstr "ད་ལྟོའི་རྩ་སྒྲིག"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:456
+msgid "Select a file to save the image to"
+msgstr "ལུ་གཟུགས་བརྙན་སྲུང་བཞག་འབད་ནི་དོན་ལུ་ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../libgnomedb/data-entries/plugins/common-pict.c:499
+#, c-format
+msgid ""
+"Could not save the image to '%s':\n"
+" %s"
+msgstr ""
+"ལུ་གཟུགས་བརྙན་སྲུང་བཞག་འབད་མ་ཚུགས། '%s':\n"
+" %s"
+
+#: ../libgnomedb/data-entries/plugins/libmain.c:64
+#: ../libgnomedb/data-entries/plugins/libmain.c:100
+#: ../libgnomedb/data-entries/plugins/libmain.c:137
+#: ../libgnomedb/data-entries/plugins/libmain.c:160
+#, c-format
+msgid "Missing spec. file '%s'"
+msgstr "སིཔེསི་ཡིག་སྣོད་བརླག་སྟོར་ཞུགས་ཡོདཔ། '%s'"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-cidr.c:260
+msgid "Mask settings"
+msgstr "གདོང་ཁེབས་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-cidr.c:266
+msgid "Set to host mask"
+msgstr "ཧོསཊི་གདོང་ཁེབས་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-cidr.c:275
+#, c-format
+msgid "Set to class %c network"
+msgstr "དབྱེ་རིགས་ %c ཡོངས་འབྲེལ་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel.c:193
+msgid "Choose a file"
+msgstr "ཡིག་སྣོད་ཅིག་གདམ།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel.c:195
+msgid "Choose a directory"
+msgstr "སྣོད་ཐོ་ཅིག་གདམ།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel.c:231
+msgid "Choose"
+msgstr "གདམ།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel-spec.xml.in.h:1
+msgid "Let the user name an existing or new folder"
+msgstr "ལག་ལེན་པའི་མིང་ཡོད་བཞིན་པ་ཅིག་ཡང་ན་སྣོད་འཛིན་གསརཔ་འབད་བཅུག"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel-spec.xml.in.h:2
+msgid "Let the user pick an existing file, or type in a new filename"
+msgstr "ལག་ལེན་པ་ལུ་ཡོད་བཞིན་པའི་ཡིག་སྣོད་ཅིག་འཐུ་བཅུག་ ཡང་ན་ཡིག་སྣོད་མིང་གསརཔ་ཅིག་ནང་ཡིག་དཔར་བརྐྱབ།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel-spec.xml.in.h:3
+msgid "Let the user pick an existing folder"
+msgstr "ལག་ལེན་པ་ལུ་ཡོད་བཞིན་པའི་སྣོད་འཛིན་ཅིག་འཐུ་བཅུག"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel-spec.xml.in.h:4
+msgid "Only let the user pick an existing file"
+msgstr "ལག་ལེན་པ་འདི་ཡོད་བཞིན་པའི་ཡིག་སྣོད་ཅིག་རྐྱངམ་ཅིག་འཐུས་བཅུག"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel-spec.xml.in.h:5
+msgid "Selection model"
+msgstr "དཔེ་སེལ་འཐུ།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-filesel-spec.xml.in.h:6
+msgid "Specifies what the user will be allowed to select"
+msgstr "ལག་ལེན་པ་གིས་ག་ཅི་སེལ་འཐུ་འབད་ནི་བཅུག་འོང་ག་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec_string.xml.in.h:1
+msgid "Base 64"
+msgstr "གཞི་རྟེན ༦༤"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec_string.xml.in.h:2
+msgid "Encoding"
+msgstr "ཨིན་ཀོ་ཌིང་།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec_string.xml.in.h:3
+msgid "Encoding used to convert binary data to the string"
+msgstr "ཡིག་རྒྱུན་ལུ་ཟུང་ལྡན་གནས་སྡུད་གཞི་བསྒྱུར་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་ཨིན་ཀོ་ཌིང་།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec_string.xml.in.h:4
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec.xml.in.h:1
+msgid "Serialized picture"
+msgstr "ཨང་རིམ་བཟོ་ཡོད་མི་པར།"
+
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec_string.xml.in.h:5
+#: ../libgnomedb/data-entries/plugins/gnome-db-entry-pict-spec.xml.in.h:2
+msgid "Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"
+msgstr "ཨི་རིམ་བཟོ་ཡོད་མི་ ་ཇི་ཌི་ཀེ་པར་ཁོངས་ཅིག་ལས་གནས་སྡུད་འོང་པ་ཅིན་ བདེན་པ་ ལུ་གཞི་སྒྲིག་འབད(དཔེར་ན་ ཨེཕ་-ས་ཁོངས)།"
+
+#: ../libgnomedb/gnome-db-basic-form.c:161
+msgid "Pointer to a GnomeDbFormLayoutSpec structure"
+msgstr "དཔག་བྱེད་ཇི་ནོམ་ཌི་བི་གཞི་སྒྲུབ་སྒྲིག་བཀོད་བར་སྟོང་གཞི་བཀོད་ཅིག་ལུ་ཨིནམ།"
+
+#: ../libgnomedb/gnome-db-basic-form.c:165
+msgid "List of parameters to show in the form"
+msgstr "འབྲི་ཤོག་ནང་སྟོན་ནི་ཚད་བཟུང་ཚུ་གི་ཐོ་ཡིག"
+
+#: ../libgnomedb/gnome-db-basic-form.c:169
+msgid "Entry headers are sensitive"
+msgstr "ཐོ་འགོད་མགོ་ཡིག་ཚུ་ཉེན་ཅན་ཨིན།"
+
+#: ../libgnomedb/gnome-db-basic-form.c:174
+msgid "Show Entry actions"
+msgstr "ཐོ་འགོད་བྱ་བ་ཚུ་སྟོན།"
+
+#: ../libgnomedb/gnome-db-basic-form.c:179
+msgid "Entries Auto-default"
+msgstr "ཐོ་འགོད་ཚུའི་རང་བཞིན་སྔོན་སྒྲིག"
+
+#: ../libgnomedb/gnome-db-basic-form.c:423
+#, c-format
+msgid "Could not load file '%s'"
+msgstr "ཡིག་སྣོད་མངོན་གསལ་འབད་མ་ཚུགས། '%s'"
+
+#: ../libgnomedb/gnome-db-basic-form.c:705
+#, c-format
+msgid "Can't find widget named '%s', returning to basic layout"
+msgstr "ཝི་གེཊི་མིང་ '%s'འཚོལ་མ་ཐོབ་ གཞི་རྟེན་སྒྲིག་བཀོད་ལུ་སླར་ལོག་དོ།"
+
+#: ../libgnomedb/gnome-db-basic-form.c:1609
+#: ../libgnomedb-extra/gnome-db-sql-console.c:538
+msgid "Values to be filled"
+msgstr "བཀང་དགོ་པའི་གནས་གོང་ཚུ།"
+
+#: ../libgnomedb/gnome-db-combo.c:103
+msgid "The data model to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་གནས་སྡུད་དཔེ།"
+
+#. create widgets
+#: ../libgnomedb/gnome-db-connection-properties.c:120
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ།"
+
+#: ../libgnomedb/gnome-db-connection-properties.c:137
+#: ../libgnomedb/gnome-db-dsn-assistant.c:432
+msgid "Data source name"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་མིང་།"
+
+#: ../libgnomedb/gnome-db-connection-properties.c:143
+msgid "Connection string"
+msgstr "མཐུད་ལམ་ཡིག་རྒྱུན།"
+
+#: ../libgnomedb/gnome-db-connection-properties.c:149
+msgid "Provider"
+msgstr "སྤེལ་མི།"
+
+#: ../libgnomedb/gnome-db-connection-properties.c:155
+msgid "User name"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#. create feature list
+#: ../libgnomedb/gnome-db-connection-properties.c:162
+msgid "Features"
+msgstr "ཁྱད་རྣམ་ཚུ།"
+
+#: ../libgnomedb/gnome-db-data-import.c:147
+msgid "Import specifications"
+msgstr "ནང་འདྲེན་གསལ་བཀོད་ཚུ།"
+
+#. file to import from
+#: ../libgnomedb/gnome-db-data-import.c:166
+msgid "File to import from:"
+msgstr "ལས་ནང་འདྲེན་འབད་ནི་ལུ་ཡིག་སྣོད།"
+
+#: ../libgnomedb/gnome-db-data-import.c:170
+msgid "File to import data from"
+msgstr "ལས་གནས་སྡུད་ནང་འདྲེན་འབད་ནི་ཡིག་སྣོད།"
+
+#: ../libgnomedb/gnome-db-data-import.c:173
+msgid "Comma separated values"
+msgstr "ལྷོད་རྟགས་ཀྱིས་གནས་གོང་ཚུ་སོ་སོ་ཁ་འཕྱལ་ཡོདཔ།"
+
+#: ../libgnomedb/gnome-db-data-import.c:178
+msgid "XML exported"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཕྱིར་འདྲེན་འབད་ཡོདཔ།"
+
+#: ../libgnomedb/gnome-db-data-import.c:182
+msgid "All files"
+msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ།"
+
+#. Encoding
+#: ../libgnomedb/gnome-db-data-import.c:190
+msgid "Encoding:"
+msgstr "ཨིན་ཀོ་ཌིང་།"
+
+#. first line as title
+#: ../libgnomedb/gnome-db-data-import.c:214
+msgid "First line as title:"
+msgstr "མགོ་མིང་བཟུམ་སྦེ་དང་པ་གྱལ།"
+
+#. separator
+#: ../libgnomedb/gnome-db-data-import.c:226
+msgid "Separator:"
+msgstr "དབྱེ་བྱེད།"
+
+#: ../libgnomedb/gnome-db-data-import.c:230
+msgid "Comma"
+msgstr "ལྷོད་རྟགས།"
+
+#: ../libgnomedb/gnome-db-data-import.c:237
+msgid "Semi column"
+msgstr "སེ་མི་ཀོ་ལཱོན།"
+
+#: ../libgnomedb/gnome-db-data-import.c:244
+msgid "Tab"
+msgstr "མཆོང་ལྡེ།"
+
+#: ../libgnomedb/gnome-db-data-import.c:251
+msgid "Space"
+msgstr "བར་སྟོང་།"
+
+#: ../libgnomedb/gnome-db-data-import.c:258
+msgid "Pipe"
+msgstr "རྒྱུད་དུང་།"
+
+#: ../libgnomedb/gnome-db-data-import.c:267
+msgid "Other:"
+msgstr "གཞན།"
+
+#: ../libgnomedb/gnome-db-data-import.c:291
+msgid "Import preview"
+msgstr "སྔོན་ལྟ་ནང་འདྲེན།"
+
+#: ../libgnomedb/gnome-db-data-import.c:306
+msgid "No data."
+msgstr "གནས་སྡུད་མེད།"
+
+#: ../libgnomedb/gnome-db-data-store.c:135
+msgid "Data model"
+msgstr "གནས་སྡུད་དཔེ།"
+
+#: ../libgnomedb/gnome-db-data-store.c:139
+msgid "Internal GdaDataProxy data model"
+msgstr "ནང་འཁོད་ཇི་ཌི་ཨེ་གནས་སྡུད་པོརོསི་ གནས་སྡུད་དཔེ།"
+
+#: ../libgnomedb/gnome-db-data-store.c:362
+msgid "Trying to modify a read-only row"
+msgstr "ལྷག་ནི་རྐྱངམ་ཅིག་གི་གྱལ་ཅིག་ལེགས་བཅོས་འབད་ནི་འབད་རྩོལ་བསྐྱེད་དོ།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:118
+msgid "Missing mandatory information, to create database"
+msgstr "གནས་སྡུད་གཞི་རྟེན་གསར་བསྐྲུན་འབད་ནི་ལུ་ངེས་མཁོ་བརྡ་དོན་བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:131
+#, c-format
+msgid "Error creating database: %s"
+msgstr "གནས་སྡུད་གཞི་རྟེན་གསར་བསྐྲུན་འབད་ནི་འཛོལ་བ་ %s"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:400
+msgid ""
+"This assistant will guide you through the process of\n"
+"creating a new data source, and optionally will allow you to\n"
+"create a new database.\n"
+"\n"
+"Just follow the steps!"
+msgstr ""
+"ལས་རོགས་འདི་གིས་ཁྱོད་ལུ་གནས་སྡུད་འབྱུངས་ཁུངས་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་གི་ལས་སྦྱོར་འདི་བརྒྱུད་དེ་\n"
+"ལམ་སྟོན་འབད་ནི་དང་ གནས་སྡུད་གཞི་རྟེན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་ལུ་\n"
+"གདམ་ཁ་འབད་བཅུགཔ་ཨིན།\n"
+"\n"
+"དེ་ཙམ་གོ་རིམ་ཚུ་རྗེས་སུ་འབྲང་།!"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:406
+msgid "Add a new data source..."
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་་་"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:424
+msgid ""
+"The following fields represent the basic information items for your new data source. Mandatory fields are marked with a star.\n"
+"To create a local database in a file, select the 'SQLite' type of database.\n"
+msgstr ""
+"འོག་གི་ས་སྒོ་ཚུ་གིས་ཁྱོད་ཀྱི་གནས་སྡུད་འབྱུང་ཁུངས་གསརཔ་དོན་ལུ་གཞི་རིམ་བརྡ་དོན་རྣམ་གྲངས་ཚུ་ཁྱད་ཚབ་འབདཝ་ཨིན། ངེས་མཁོ་ས་སྒོ་ཚུ་སྐར་མ་ཅིག་གིས་རྟགས་བཀོད་ཡོདཔ་ཨིན།\n"
+"ཡིག་སྣོད་ཅིག་ནང་ཉེ་གནས་གནས་སྡུད་གཞི་རྟེན་ཅིག་གསར་བསྐྲུན་འབད་ནི་ལུ་'SQLite'གནས་སྡུད་གཞི་རྟེན་གྱི་དབྱེ་བ་འདི་སེལ་འཐུ་འབད།\n"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:445
+msgid "System wide data source:"
+msgstr "རིམ་ལུགས་རྒྱ་ཅན་གནས་སྡུད་འབྱུང་ཁུངས།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:455
+msgid "Database type"
+msgstr "གནས་སྡུད་གཞི་རྟེན་དབྱེ་བ།"
+
+#. Create the Username Entry
+#: ../libgnomedb/gnome-db-dsn-assistant.c:474
+#: ../libgnomedb/gnome-db-login.c:166
+msgid "Username:"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#. Create the Password Entry
+#: ../libgnomedb/gnome-db-dsn-assistant.c:481
+#: ../libgnomedb/gnome-db-login.c:176
+msgid "Password:"
+msgstr "ཆོག་ཡིག"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:491
+msgid "General Information"
+msgstr "ཡོངས་ཁྱབ་བརྡ་དོན།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:509
+msgid "This page lets you choose between using an existing database or to create a new database to use with this new data source\n"
+msgstr "ཤོག་ལེབ་འདི་གིས་ཁྱོད་ལུ་ཡོད་བཞིན་པའི་གནས་སྡུད་གཞི་རྟེན་ཅིག་ལག་ལེན་འཐབ་ནི་ཡང་ན་གནས་སྡུད་འབྱུང་ཁུངས་གསརཔ་འདི་ལག་ལེན་འཐབ་ནི་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་ནི་གནས་སྡུད་གཞི་རྟེན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་བར་ན་གདམ་བཅུགཔ་ཨིན།\n"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:514
+msgid "Create a new database:"
+msgstr "གནས་སྡུད་གཞི་རྟེན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:523
+msgid "Create a new database?"
+msgstr "གནས་སྡུད་གཞི་རྟེན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན?"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:536
+msgid "The following fields represent the information needed to create a new database (mandatory fields are marked with a star).This information is database-specific, so check the manual for more information.\n"
+msgstr "འོག་གི་ས་སྒོ་ཚུ་གིས་གནས་སྡུད་གཞི་རྟེན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་ལུ་དགོ་པའི་བརྡ་དོན་འདི་(ངེས་མཁོ་ས་སྒོ་དེ་ཚུ་སྐར་མ་ཅིག་གིས་རྟགས་བཀོད་ཡོདཔ)ཁྱད་ཚབ་འབདཝ་ཨིན། བརྡ་དོན་འདི་གནས་སྡུད་གཞི་རྟེན་-གསལ་བཀོད་ཨིནམ་ལས་ བརྡ་དོན་ཧེང་བཀལ་དོན་ལུ་ལག་དེབ་འདི་བལྟ་ཞིབ་འབད།\n"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:560
+msgid "New database definition"
+msgstr "གནས་སྡུད་གཞི་རྟེན་ངེས་ཚིག་གསརཔ།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:573
+msgid "The following fields represent the information needed to open a connection (mandatory fields are marked with a star). This information is database-specific, so check the manual for more information.\n"
+msgstr "འོག་གི་ས་སྒོ་ཚུ་གིས་མཐུད་ལམ་ཅིག་ཁ་ཕྱེ་ནི་ལུ་དགོ་པའི་བརྡ་དོན་འདི་(ངེས་མཁོ་ས་སྒོ་དེ་ཚུ་སྐར་མ་ཅིག་གིས་རྟགས་བཀོད་ཡོདཔ)ཁྱད་ཚབ་འབདཝ་ཨིན། བརྡ་དོན་འདི་གནས་སྡུད་གཞི་རྟེན་-གསལ་བཀོད་ཨིནམ་ལས་ བརྡ་དོན་ཧེང་བཀལ་དོན་ལུ་ལག་དེབ་འདི་བལྟ་ཞིབ་འབད།\n"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:586
+msgid "Connection's parameters"
+msgstr "མཐུད་ལམ་གྱི་ཚད་བཟུང་ཚུ།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:599
+msgid ""
+"All information needed to create a new data source\n"
+"has been retrieved. Now, press 'Apply' to close\n"
+"this dialog."
+msgstr ""
+"གནས་སྡུད་འབྱུང་ཁུངས་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་དགོ་པའི་བརྡ་དོན་ཆ་མཉམ་\n"
+"རྒྱབ་ལོག་ཡོདཔ། ད་ལྟོ་ཌའི་ལོག་འདི་ཁ་བསྡམ་ནི་ལུ་\n"
+"'Apply'ཨེབ།"
+
+#: ../libgnomedb/gnome-db-dsn-assistant.c:608
+msgid "Ready to add a new data source"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་གསརཔ་ཅིག་ཁ་སྐོང་འབད་ནི་གྲ་སྒྲིག"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:122
+msgid "Data source _name:"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་མིང་།(_n)"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:139
+msgid "_System wide data source:"
+msgstr "རིམ་ལུགས་རྒྱ་ཅན་གནས་སྡུད་འབྱུང་ཁུངས།(_S)"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:149
+msgid "_Provider:"
+msgstr "སྤེལ་མི།(_P)"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:165
+msgid "_Description:"
+msgstr "འགྲེལ་བཤད།(_D)"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:176
+msgid "_Username:"
+msgstr "ལག་ལེན་པའི་མིང་།(_U)"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:187
+msgid "P_assword:"
+msgstr "ཆོག་ཡིག(_a)"
+
+#: ../libgnomedb/gnome-db-dsn-editor.c:199
+msgid "Connection's specific parameters"
+msgstr "མཐུད་ལམ་གྱི་གསལ་བཀོད་ཚཐ་བཟུང་ཚུ།"
+
+#: ../libgnomedb/gnome-db-dsn-spec.c:235
+#, c-format
+msgid "Provider internal error: %s"
+msgstr "སྤེལ་མི་ནང་འཁོད་འཛོལ་བ་ %s"
+
+#: ../libgnomedb/gnome-db-dsn-spec.c:257
+msgid "Connection _string:"
+msgstr "མཐུད་ལམ་ཡིག་རྒྱུན།(_s)"
+
+#: ../libgnomedb/gnome-db-find-dialog.c:119
+msgid "_Field:"
+msgstr "ས་སྒོ།(_F)"
+
+#: ../libgnomedb/gnome-db-find-dialog.c:129
+msgid "_Text:"
+msgstr "ཚིག་ཡིག(_T)"
+
+#: ../libgnomedb/gnome-db-find-dialog.c:172
+#: ../libgnomedb/gnome-db-raw-form.c:146
+#: ../libgnomedb/gnome-db-raw-grid.c:251
+msgid "Data to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་གནས་སྡུད།"
+
+#: ../libgnomedb/gnome-db-init.c:55
+msgid "Attempt to initialize an already initialized client"
+msgstr "ཧེ་མ་ལས་འགོ་འབྱེད་འབད་ཡོད་མི་ཞབས་ཏོག་སྤྱོད་མི་ཅིག་འགོ་འབྱེད་འབད་ནི་ལུ་དཔའ་བཅམ།"
+
+#: ../libgnomedb/gnome-db-login-dialog.c:137
+msgid "Connection opening"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ་དོ།"
+
+#: ../libgnomedb/gnome-db-login-dialog.c:138
+msgid ""
+"Enter the arguments below to open a connection\n"
+"to a data source"
+msgstr ""
+"གནས་སྡུད་འབྱུང་ཁུངས་ཅིག་ལུ་མཐུད་ལམ་ཁ་ཕྱེ་ནི་ལུ་འོག་གི་\n"
+"སྒྲུབ་རྟགས་འདི་ཚུ་བཙུགས།"
+
+#. Create the Label for the data source selector
+#: ../libgnomedb/gnome-db-login.c:138
+msgid "Data Source:"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས།"
+
+#: ../libgnomedb/gnome-db-login.c:380
+#, c-format
+msgid "Datasource '%s' is not declared"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་ '%s' འདི་གསལ་བསྒྲགས་འབད་མེདཔ།"
+
+#: ../libgnomedb/gnome-db-raw-form.c:576
+#, c-format
+msgid "Can't append row to data model: %s"
+msgstr "གྱལ་གནས་སྡུད་དཔེ་ལུ་མཇུག་བསྣོན་འབད་མི་ཚུགས་ %s"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:254
+msgid "Info cell visible"
+msgstr "བརྡ་དོན་ནང་ཐིག་མཐོང་ཚུགསཔ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:258
+msgid "Global Actions visible"
+msgstr "སྤྱི་ཁྱབ་བྱ་བ་ཚུ་མཐོང་ཚུགསཔ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:628
+msgid "No title"
+msgstr "མགོ་མིང་མེད།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1314
+msgid "Select _All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད།(_A)"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1319
+msgid "_Clear Selection"
+msgstr "སེལ་འཐུ་བསལ།(_C)"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1322
+msgid "Show Column _Titles"
+msgstr "ཀེར་ཐིག་མགོ་མིང་ཚུ་སྟོན།(_T)"
+
+#. create dialog box
+#: ../libgnomedb/gnome-db-raw-grid.c:1385
+msgid "Saving Data"
+msgstr "གནས་སྡུད་སྲུང་བཞག་འབད་དོ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1393
+msgid "Saving data to a file"
+msgstr "གནས་སྡུད་ཡིག་སྣོད་ཅིག་ལུ་སྲུང་བཞག་འབད་དོ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1394
+msgid "The data will be exported without any of the modifications which may have been made and have not been committed."
+msgstr "ལེགས་བཅོས་བཟོ་ཡོད་མི་དང་ཁས་མ་ལེན་པར་ཡོད་མི་ཚུ་གི་གང་རུང་མེདཔ་སྦེ་གནས་སྡུད་ཕྱིར་འདྲེན་འབད་འོང་།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1403
+msgid "File name"
+msgstr "ཡིག་སྣོད་མིང་།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1421
+#: ../libgnomedb-extra/gnome-db-error.c:224
+msgid "Details"
+msgstr "རྒྱ་བཤད་ཚུ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1441
+msgid "Limit to selection?"
+msgstr "སེལ་འཐུ་འབད་ནི་ལུ་ཚད་སྒྲིག་ནི་ཨིན་ན?"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1460
+msgid "File type:"
+msgstr "ཡིག་སྣོད་དབྱེ་བ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1470
+msgid "Tab-delimited"
+msgstr "མཆོང་ལྡེ་ཚད་མེདཔ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1471
+msgid "Comma-delimited"
+msgstr "ལྷོད་རྟགས་ཚད་མེདཔ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1472
+msgid "XML"
+msgstr "ཨེགསི་ཨེམ་ཨེལ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1605
+#, c-format
+msgid "Could not save file %s"
+msgstr "ཡིག་སྣོད་སྲུང་བཞག་འབད་མ་ཚུགས། %s"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1613
+msgid "You must specify a file name"
+msgstr "ཁྱོད་ཀྱིས་ཡིག་སྣོད་མིང་ཅིག་གསལ་བཀོད་འབད་དགོ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1619
+msgid "Got empty file while converting the data"
+msgstr "གནས་སྡུད་གཞི་བསྒྱུར་འབད་བའི་སྐབས་ཡིག་སྣོད་སྟོངམ་ཐོབ་ཡོདཔ།"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1632
+#, c-format
+msgid ""
+"File '%s' already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"ཡིག་སྣོད་ '%s' ཧེ་མ་ལས་ཡོདཔ་ཨིན།\n"
+"ཁྱོད་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: ../libgnomedb/gnome-db-raw-grid.c:1640
+msgid "If you choose yes, the contents will be lost."
+msgstr "ཁྱོད་ ཨིན་ གདམ་པ་ཅིན་ ནང་དོན་ཚུ་བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../libgnomedb/gnome-db-server-operation.c:195
+msgid "The specification of the operation to implement"
+msgstr "བཀོལ་སྤྱོད་བསྟར་སྤྱོད་འབད་ནི་གི་གསལ་བཀོད་འདི།"
+
+#: ../libgnomedb/gnome-db-server-operation.c:201
+msgid "Request section header to be hidden if there is only one section"
+msgstr "དབྱེ་ཚན་གཅིག་རྐྱངམ་ཅིག་ཨིན་པ་ཅིན་དབྱེ་ཚན་མགོ་ཡིག་ཞུ་བ་འདི་སྦ་བཞག"
+
+#. last row is for new entries
+#: ../libgnomedb/gnome-db-server-operation.c:598
+msgid "Add"
+msgstr "ཁ་སྐོང་།"
+
+#: ../libgnomedb/gnome-db-server-operation.c:1094
+msgid "Server operation specification"
+msgstr "སར་བར་བཀོལ་སྤྱོད་གསལ་བཀོད།"
+
+#: ../libgnomedb/gnome-db-server-operation.c:1148
+msgid "<b>Field properties:</b>"
+msgstr "<b>ས་སྒོ་རྒྱུ་དངོས་ཚུ་</b>"
+
+#: ../libgnomedb/gnome-db-server-operation.c:1165
+msgid "<b>Fields:</b>"
+msgstr "<b>ས་སྒོ་ཚུ་</b>"
+
+#: ../libgnomedb/gnome-db-server-operation.c:1217
+msgid "Add a new field"
+msgstr "ས་སྒོ་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../libgnomedb/gnome-db-server-operation.c:1219
+msgid "Remove selected field"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ས་སྒོ་རྩ་བསྐྲད་གཏང་།"
+
+#: ../libgnomedb/gnome-db-stock.c:31
+#: ../libgnomedb-extra/sel-aggregates.c:62
+msgid "Aggregates"
+msgstr "སྤྱི་བསྡོམས་ཚུ།"
+
+#: ../libgnomedb/gnome-db-stock.c:32
+#: ../libgnomedb/gnome-db-transaction-status.c:318
+#: ../libgnomedb/gnome-db-transaction-status.c:320
+msgid "Commit"
+msgstr "ཁས་ལེན་ནི།"
+
+#: ../libgnomedb/gnome-db-stock.c:33
+msgid "Connect"
+msgstr "མཐུད་ལམ་མཐུད།"
+
+#: ../libgnomedb/gnome-db-stock.c:34
+msgid "Database"
+msgstr "གནས་སྡུད་གཞི་རྟེན།"
+
+#: ../libgnomedb/gnome-db-stock.c:35
+msgid "Designer"
+msgstr "བཀོད་སྒྲིགཔ།"
+
+#: ../libgnomedb/gnome-db-stock.c:36
+msgid "Disconnect"
+msgstr "མཐུད་ལམ་བཏོག"
+
+#: ../libgnomedb/gnome-db-stock.c:37
+msgid "NoTransaction"
+msgstr "སྤྲོད་ལེན་མེད།"
+
+#: ../libgnomedb/gnome-db-stock.c:38
+msgid "Procedures"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../libgnomedb/gnome-db-stock.c:39
+#: ../libgnomedb-extra/sel-queries.c:176
+msgid "Query"
+msgstr "འདྲི་དཔྱད།"
+
+#: ../libgnomedb/gnome-db-stock.c:40
+#: ../libgnomedb/gnome-db-transaction-status.c:331
+#: ../libgnomedb/gnome-db-transaction-status.c:333
+#: ../libgnomedb/gnome-db-transaction-status.c:374
+#: ../libgnomedb/gnome-db-transaction-status.c:376
+msgid "Rollback"
+msgstr "རྒྱབ་སྒྲིལ།"
+
+#: ../libgnomedb/gnome-db-stock.c:41
+msgid "Sequences"
+msgstr "འབྱུང་རིམ།"
+
+#: ../libgnomedb/gnome-db-stock.c:42
+msgid "SQL"
+msgstr "ཨེསི་ཀིའུ་ཨེལ།"
+
+#: ../libgnomedb/gnome-db-stock.c:43
+msgid "Tables"
+msgstr "ཐིག་ཁྲམ་ཚུ།"
+
+#: ../libgnomedb/gnome-db-stock.c:44
+msgid "Types"
+msgstr "དབྱེ་བ་ཚུ།"
+
+#: ../libgnomedb/gnome-db-stock.c:45
+msgid "WithinTransaction"
+msgstr "སྤྲོད་ལེན་ནང་འཁོད།"
+
+#: ../libgnomedb/gnome-db-stock.c:46
+msgid "SQLConsole"
+msgstr "ཨེསི་ཀིའུ་མ་སྒྲོམ།"
+
+#: ../libgnomedb/gnome-db-stock.c:68
+#: ../libgnomedb/gnome-db-tools.c:377
+#, c-format
+msgid "Error: %s"
+msgstr "འཛོལ་བ %s"
+
+#: ../libgnomedb/gnome-db-tools.c:351
+#, c-format
+msgid "Could not open plugins directory %s: %s"
+msgstr "པ་ལག་ཨིནསི་སྣོད་ཐོ་ཁ་ཕྱེ་མ་ཚུགས %s: %s"
+
+#: ../libgnomedb/gnome-db-tools.c:384
+#, c-format
+msgid "Loading file %s...\n"
+msgstr "ཡིག་སྣོད་མངོན་གསལ་འབད་དོ%s...\n"
+
+#: ../libgnomedb/gnome-db-tools.c:387
+#, c-format
+msgid "Could not load plugins %s: %s"
+msgstr "པ་ལག་ཨིནསི་མངོན་གསལ་འབད་མ་ཚུགས %s: %s"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:106
+msgid "Used connection"
+msgstr "ལག་ལེན་འཐབ་ཡོད་མི་མཐུད་ལམ།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:302
+#: ../libgnomedb/gnome-db-transaction-status.c:304
+msgid "Transaction started"
+msgstr "སྤྲོད་ལེན་འགོ་བཙུགས་ཡོདཔ།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:360
+#: ../libgnomedb/gnome-db-transaction-status.c:362
+msgid "Savepoint added"
+msgstr "སྲུངས་ཚད་ཁ་སྐོང་འབད་ཡོདཔ།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:389
+#: ../libgnomedb/gnome-db-transaction-status.c:391
+msgid "Delete"
+msgstr "བཏོན་གཏང་།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:447
+#: ../libgnomedb/gnome-db-transaction-status.c:449
+msgid "Add save point"
+msgstr "སྲུངས་ཚད་ཁ་སྐོང་འབད།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:466
+msgid ""
+"Transaction locked (any further query will fail),\n"
+"roll back the transaction"
+msgstr ""
+"སྤྲོད་ལེན་སྒོ་བསྡམས་ཡོདཔ་ (འདྲི་དཔྱད་ཐེབས་གང་རུང་འཐུས་ཤོར་འོང་),\n"
+"སྤྲོད་ལེན་རྒྱབ་སྒྲིལ།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:469
+#, c-format
+msgid "Unknown transaction state %d, please report error"
+msgstr "སྤྲོད་ལེན་གནས་སྟངས་མ་ཤེསཔ་ %d,འཛོལ་བ་སྙན་ཞུ་འབད་གནང་།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:534
+msgid "No transaction has been started."
+msgstr "སྤྲོད་ལེན་འགོ་བཙུགས་མེད།"
+
+#: ../libgnomedb/gnome-db-transaction-status.c:544
+#: ../libgnomedb/gnome-db-transaction-status.c:546
+msgid "Begin transaction"
+msgstr "སྤྲོད་ལེན་འགོ་བཙུགས།"
+
+#. create the error message dialog
+#: ../libgnomedb/gnome-db-util.c:725
+msgid "Error:"
+msgstr "འཛོལ་བ།"
+
+#: ../libgnomedb-extra/gnome-db-dbms-update-viewer.c:269
+#, c-format
+msgid "Registry for object type %s cannot be used in GnomeDbDbmsUpdateViewer"
+msgstr "དངོས་པོ་དབྱེ་བ་དོན་ལུ་ཐོ་འགོད་ %s འདི་ཇི་ནོམ་ཌི་བི་ཌི་བི་ཨེམ་ཨེསི་དིས་མཐུན་བཟོ་སྟོན་མི་ནང་ལག་ལེན་འཐབ་མ་ཚུགས།"
+
+#: ../libgnomedb-extra/gnome-db-dbms-update-viewer.c:274
+msgid "Tables analysis"
+msgstr "ཐིག་ཁྲམ་ཚུ་དཔྱད་ཞིབ།"
+
+#: ../libgnomedb-extra/gnome-db-dbms-update-viewer.c:275
+msgid "Views analysis"
+msgstr "མཐོང་སྣང་ཚུ་དཔྱད་ཞིབ།"
+
+#: ../libgnomedb-extra/gnome-db-dbms-update-viewer.c:404
+#, c-format
+msgid "Missing description regarding update progress of %s"
+msgstr "གི་དུས་མཐུན་ཡར་བསྐྱེད་དོན་ལུ་འགྲེལ་བཤད་བརླག་སྟོར་ཞུགས་ཡོདཔ། %s"
+
+#: ../libgnomedb-extra/gnome-db-error-dialog.c:98
+msgid "Dialog's title"
+msgstr "ཌའི་ལོག་གི་མགོ་མིང་།"
+
+#: ../libgnomedb-extra/gnome-db-error-dialog.c:98
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:795
+msgid "Error"
+msgstr "འཛོལ་བ།"
+
+#: ../libgnomedb-extra/gnome-db-error.c:110
+#: ../libgnomedb-extra/gnome-db-error.c:199
+msgid "Show detail >>"
+msgstr "རྒྱས་བཤད་སྟོན། >>"
+
+#: ../libgnomedb-extra/gnome-db-error.c:119
+msgid "<< Hide detail"
+msgstr "<< རྒྱས་བཤད་སྦ།"
+
+#: ../libgnomedb-extra/gnome-db-error.c:188
+msgid "An error has occurred in the underlying database"
+msgstr "གནས་སྡུད་གཞི་རྟེན་འོག་ཐིག་ཐེན་ནི་ནང་འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ།"
+
+#: ../libgnomedb-extra/gnome-db-error.c:193
+msgid "Error number"
+msgstr "འཛོལ་བ་ཨང་།"
+
+#: ../libgnomedb-extra/gnome-db-error.c:231
+msgid "Source"
+msgstr "འབྱུང་ཁུངས།"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:136
+msgid "a GdaDict object"
+msgstr "ཇི་ཌེ་སྣོད་ཐོ་དངོས་པོ་ཅིག"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:139
+msgid "a GObject object, or NULL if none is required"
+msgstr "ཇི་དངོས་པོ་ཅིག་ དངོས་པོ་ཡང་ན་སྟོང་ཆ་ ཅི་མེད་དགོས་མཁོ་ཨིན་པ་ཅིན།"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:142
+msgid "an OR'ed value of the possible items to display in the widget"
+msgstr "ཝི་གེཊི་ནང་བཀྲམ་སྟོན་འབད་ནི་སྲིད་པའི་རྣམ་གྲངས་ཚུ་གི་ ཡང་ན་ཨི་ཌི་གནས་གོང་ཅིག"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:146
+msgid "an OR'ed value describing which columns will be displayed"
+msgstr "ཀེར་ཐིག་ཚུ་བཀྲམ་སྟོན་འབད་ནི་ཨིན་མི་ ཡང་ན་ཨི་ཌི་གནས་གོང་འགྲེལ་བཤད་བརྐྱབ་ནི་ཅིག"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:576
+msgid "Owner"
+msgstr "བདག་པོ།"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:584
+#: ../libgnomedb-extra/sel-graphs.c:177
+#: ../libgnomedb-extra/sel-onequery.c:248
+#: ../libgnomedb-extra/sel-onetable.c:201
+#: ../libgnomedb-extra/sel-onetarget.c:219
+#: ../libgnomedb-extra/sel-queries.c:179
+#: ../libgnomedb-extra/sel-tables.c:176
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:588
+#: ../libgnomedb-extra/sel-onetable.c:204
+msgid "Length"
+msgstr "རིང་ཚད།"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:592
+#: ../libgnomedb-extra/sel-onetable.c:207
+msgid "Not NULL?"
+msgstr "སྟོང་ཆ་མེདཔ་ཨིན་ན?"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:596
+#: ../libgnomedb-extra/sel-onetable.c:210
+msgid "Default value"
+msgstr "སྔོན་སྒྲིག་གནས་གོང་།"
+
+#: ../libgnomedb-extra/gnome-db-selector.c:604
+msgid "Kind of field"
+msgstr "ས་སྒོའི་དབྱེ་ཁག"
+
+#: ../libgnomedb-extra/sel-aggregates.c:202
+msgid "Aggregate"
+msgstr "སྤྱི་བསྡོམས།"
+
+#: ../libgnomedb-extra/sel-data-types.c:62
+msgid "Data Types"
+msgstr "གནས་སྡུད་དབྱེ་བ་ཚུ།"
+
+#: ../libgnomedb-extra/sel-data-types.c:190
+msgid "Data Type"
+msgstr "གནས་སྡུད་དབྱེ་བ།"
+
+#: ../libgnomedb-extra/sel-functions.c:62
+msgid "Functions"
+msgstr "ལས་འགན་ཚུ།"
+
+#: ../libgnomedb-extra/sel-functions.c:210
+msgid "Function"
+msgstr "ལས་འགན།"
+
+#: ../libgnomedb-extra/sel-graphs.c:64
+msgid "Graphs"
+msgstr "ཚད་རིས་ཚུ།"
+
+#: ../libgnomedb-extra/sel-graphs.c:174
+msgid "Graph"
+msgstr "ཚད་རིས།"
+
+#: ../libgnomedb-extra/sel-graphs.c:202
+msgid "Graph <no name>"
+msgstr "ཚད་རིས་ <མིང་མེད>"
+
+#: ../libgnomedb-extra/sel-graphs.c:213
+msgid "Database relations"
+msgstr "གནས་སྡུད་གཞི་རྟེན་འབྲེལ་བ་ཚུ།"
+
+#: ../libgnomedb-extra/sel-graphs.c:215
+msgid "Query joins"
+msgstr "འདྲི་དཔྱད་མཐུདཔ་ཨིན།"
+
+#: ../libgnomedb-extra/sel-graphs.c:217
+msgid "Model"
+msgstr "དཔེ།"
+
+#: ../libgnomedb-extra/sel-onequery.c:245
+#: ../libgnomedb-extra/sel-onetable.c:198
+#: ../libgnomedb-extra/sel-onetarget.c:216
+msgid "Field"
+msgstr "ས་སྒོ།"
+
+#: ../libgnomedb-extra/sel-onequery.c:309
+#: ../libgnomedb-extra/sel-onetarget.c:249
+msgid "-"
+msgstr "-"
+
+#: ../libgnomedb-extra/sel-onequery.c:328
+#: ../libgnomedb-extra/sel-onetarget.c:266
+msgid "Field <no name>"
+msgstr "ས་སྒོ་ <མིང་མེད>"
+
+#: ../libgnomedb-extra/sel-onequery.c:351
+#: ../libgnomedb-extra/sel-queries.c:238
+msgid "Query <no name>"
+msgstr "འདྲི་དཔྱད <མིང་མེད>"
+
+#: ../libgnomedb-extra/sel-onequery.c:374
+#: ../libgnomedb-extra/sel-onetarget.c:278
+msgid "entity.*"
+msgstr "ངོ་བོ་*"
+
+#: ../libgnomedb-extra/sel-onequery.c:376
+#: ../libgnomedb-extra/sel-onetarget.c:280
+msgid "entity.field"
+msgstr "ངོ་བོ་ ས་སྒོ།"
+
+#: ../libgnomedb-extra/sel-onequery.c:379
+#: ../libgnomedb-extra/sel-onetarget.c:283
+msgid "parameter"
+msgstr "ཚཐ་བཟུང་།"
+
+#: ../libgnomedb-extra/sel-onequery.c:381
+#: ../libgnomedb-extra/sel-onetarget.c:285
+msgid "value"
+msgstr "གནས་གོང་།"
+
+#: ../libgnomedb-extra/sel-onequery.c:384
+msgid "function"
+msgstr "ལས་འགན།"
+
+#: ../libgnomedb-extra/sel-onetable.c:243
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../libgnomedb-extra/sel-queries.c:64
+msgid "Queries"
+msgstr "འདྲི་བ་ཚུ།"
+
+#: ../libgnomedb-extra/sel-tables.c:63
+msgid "Tables & views"
+msgstr "ཐིག་ཁྲམ་ཚུ་ སྟོན།(&v)"
+
+#: ../libgnomedb-extra/sel-tables.c:173
+msgid "Table or View"
+msgstr "ཐིག་ཁྲམ་ཡང་ན་སྟོན།"
+
+#: ../libgnomedb-extra/sel-tables.c:221
+msgid "View"
+msgstr "སྟོན།"
+
+#: ../libgnomedb-extra/sel-tables.c:223
+msgid "Table"
+msgstr "ཐིག་ཁྲམ།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:539
+msgid ""
+"<big><b>Required values:</b></big>\n"
+"<small>The following values are required to execute the query.</small>"
+msgstr ""
+"<big><b>དགོས་མཁོ་ཡོད་པའི་གནས་གོང་ཚུ་</b></big>\n"
+"<small>འགོ་གི་གནས་གོང་ཚུ་འདྲི་དཔྱད་ལག་ལེན་འཐབ་ནི་ལུ་དགོས་མཁོ་ཡོདཔ་ཨིན།</small>"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:600
+#: ../libgnomedb-extra/gnome-db-sql-console.c:723
+msgid "Cancelled"
+msgstr "ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:667
+#, c-format
+msgid "%d rows impacted\n"
+msgstr "%d གྱལ་ཚུ་ནུས་ཁྱད་ཡོདཔ།\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:670
+#, c-format
+msgid "%d row impacted\n"
+msgstr "%d གྲལ་ཐིག་ནུས་ཁྱད་ཡོདཔ།\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:696
+msgid "Error: no details"
+msgstr "འཛོལ་བ་ རྒྱས་བཤད་ཚུ་མེད།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:702
+msgid "Ok."
+msgstr "བཏུབ།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:721
+msgid "Error while computing SQL statement"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་ གསལ་བཤད་གློག་རིག་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:757
+msgid "WARNING: "
+msgstr "ཉེན་བརྡ།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:762
+msgid "ERROR: "
+msgstr "འཛོལ་བ།"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:798
+msgid ""
+"SQL statements:\n"
+"  they can span several lines, and are executed\n"
+"  when a semi-colon (;) finishes the statement and the ENTER key is pressed.\n"
+msgstr ""
+"ཨེསི་ཀིའུ་ཨེལ་ གསལ་བཤད་\n"
+"  ཁོང་ཆ་ཁྱབ་གྱལ་ཚུ་ལེ་ཤ་འཕར་ཚད་བཏུབ་ དང་སི་མི་ཀོ་ལཱོན་(;)ཅིག་\n"
+"  གིས་གསལ་བཤད་འདི་མཇུག་བསྡུཝ་དང་ བཙུགས་ ལྡེ་མིག་འདི་ཨེབ་ཡོདཔ་ད་ལག་ལེན་འཐབ་བཏུབ་ཨིན།\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:801
+msgid ""
+"Console commands:\n"
+"  they start with a '\\' and are interpreted as soon\n"
+"  as the ENTER key is pressed. Commands are:\n"
+"  \\? to print this help\n"
+"  \\h to list commands history\n"
+"  \\c or CTRL-L to clear buffer\n"
+"  \\ch to clear commands history\n"
+msgstr ""
+"མ་སྒྲོམ་བརྡ་བཀོད་ཚུ་\n"
+"  ཁོང་ '\\' ཅིག་གིས་འགོ་བཙུགསཔ་དང་ བཙུགས་ ལྡེ་མིག་འདི་་\n"
+"  ཨེབ་ཚརཝ་ཅིན་ཁ་བསྒྱུར་འབད་ཡོདཔ་ཨིན། བརྡ་བཀོད་དེ་ཚུ་\n"
+"  \\? གྲོགས་རམ་འདི་དཔར་བསྐྲུན་འབད་ནི་ལུ་\n"
+"  \\h བརྡ་བཀོད་ལོ་རྒྱུས་ཚུ་ཐོ་འགོད་འབད་ནི་ལུ་\n"
+"  \\c ཡང་ན་གནད་ཁོངས་བསལ་ནི་ལུ་ཚད་འཛིན་-ཨེལ་\n"
+"  \\ch བརྡ་བཀོད་ལོ་རྒྱུས་ཚུ་བསལ་ནི་ལུ་ཨིན།\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:808
+msgid "Use CTRL-Up and CTRL-Down to browse through history\n"
+msgstr "ལོ་རྒྱུས་བརྒྱུད་དེ་བརྡ་འཚོལ་ནི་ལུ་ཚད་འཛིན་-ཡར་དང་ཚད་འཛིན་-མར་ ལག་ལེན་འཐབ།\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:821
+msgid "History:\n"
+msgstr "ལོ་རྒྱུས་\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:841
+msgid "History cleared.\n"
+msgstr "ལོ་རྒྱུས་བསལ་ཡོདཔ།\n"
+
+#: ../libgnomedb-extra/gnome-db-sql-console.c:850
+msgid "Unknown console command!"
+msgstr "མ་ཤེས་པའི་མ་སྒྲོམ་བརྡ་བཀོད!"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:186
+msgid "Constraint information request"
+msgstr "བར་ཆད་བརྡ་དོན་ཞུ་བ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:193
+msgid ""
+"<big><b>New tables relations:</b></big>\n"
+"You have selected a pair of table fields to be related to each other and must decide to either create a new constraint or modify an already existing constraint."
+msgstr ""
+"<big><b>ཐིག་ཁྲམ་གསརཔ་ཚུ་གི་འབྲཻ་ལབ་ཚུ་</b></big>\n"
+"ཁྱོད་ཀྱིས་ཐིག་ཁྲམ་ས་སྒོ་ཚུ་གི་ཆ་ཅིག་གཞན་དང་གཅིག་ཁར་འབྲེལ་བ་འཐབ་ནི་ལུ་སེལ་འཐུ་འབད་ཡོདཔ་དང་བར་ཆད་ཅིག་གསར་བསྐྲུན་འབད་ནི་ཡང་ན་ཧེ་མ་ལས་ཡོད་མི་བར་ཆད་ཅིག་ལེགས་བཆཅས་འབད་ནི་གྲོས་ཐག་བཅད་དགོ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:213
+msgid "Create a new constraint"
+msgstr "བར་ཆད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:228
+msgid "Add to constraint:"
+msgstr "བར་ཆད་ལུ་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:339
+msgid ""
+"<big>A constraint already exists</big>\n"
+"for the selected couple of fields."
+msgstr ""
+"<big>ས་སྒོ་ཚུ་གི་སེལ་འཐུ་འབད་ཡོད་མི་ཆ་གི་དོན་ལུ་</big>\n"
+"བར་ཆད་ཧེ་མ་ལས་ཡོད་བཞིན་པ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:344
+msgid ""
+"<big>A constraint already exists</big>\n"
+"for the selected couple of fields, but not in the same order of tables, please remove that other constraint before adding a new one."
+msgstr ""
+"<big>ས་སྒོ་ཚུ་གི་སེལ་འཐུ་འབད་ཡོད་མི་ཆའི་དོན་ལུ་</big>\n"
+"བར་ཆད་ཅིག་ཧེ་མ་ལས་ཡོད་བཞིན་པ་ ཨིན་རུང་ཐིག་ཁྲམ་ཚུ་གི་གོ་རིམ་ཅོག་འཐདཔ་ནང་མེནམ་ལས་ གསརཔ་གཅིག་ཁ་སྐོང་འབད་བའི་ཧེ་མ་གཞན་བར་ཆད་དེ་རྩ་བསྐྲད་གཏང་གནང་།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:663
+#: ../libgnomedb-graph/gnome-db-canvas-fkconstraint.c:380
+#: ../libgnomedb-graph/gnome-db-canvas-query-struct.c:413
+msgid "Remove"
+msgstr "རྩ་བསྐྲད་གཏང་།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-db-relations.c:713
+msgid "Add table"
+msgstr "ཐིག་ཁྲམ་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-field.c:176
+#, c-format
+msgid "Type: %s"
+msgstr "དབྱེ་བ་ %s"
+
+#: ../libgnomedb-graph/gnome-db-canvas-field.c:189
+msgid ""
+"\n"
+"Primary key"
+msgstr ""
+"\n"
+"གཞི་རིམ་ལྡེ་མིག"
+
+#: ../libgnomedb-graph/gnome-db-canvas-field.c:192
+msgid ""
+"\n"
+"Part of primary key"
+msgstr ""
+"\n"
+"གཞི་རིམ་ལྡེ་མིག་གི་ཡན་ལག"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:444
+msgid "Remove join condition"
+msgstr "མཐུད་ནི་གནས་སྟངས་རྩ་བསྐྲད་གཏང་།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:451
+msgid "Remove complete join"
+msgstr "མཇུག་བསྡུ་ནི་མཐུད་མཚམས་རྩ་བསྐྲད་གཏང་།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:456
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:488
+msgid "Join properties"
+msgstr "རྒྱུ་དངོས་ཚུ་མཐུད།"
+
+#.
+#. * join type
+#.
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:497
+msgid "Type of join:"
+msgstr "མཐུད་ནི་གི་དབྱེ་བ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:517
+msgid "Inner join"
+msgstr "ནང་ན་གི་མཐུད་མཚམས།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:524
+msgid "Left outer join"
+msgstr "གཡོན་གྱི་ཕྱི་ཁའི་མཐུད་མཚམས།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:531
+msgid "Right outer join"
+msgstr "གཡས་ཀྱི་ཕྱིའི་མཐུད་མཚམས།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:538
+msgid "Full outer join"
+msgstr "ཕྱིའི་མཐུད་མཚམས་གངམ།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:545
+msgid "Cross join"
+msgstr "ཀེདཔ་བཏོག་མཐུད།"
+
+#.
+#. * join condition
+#.
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:563
+msgid "Associated join condition:"
+msgstr "འབྲེལ་བ་ཡོད་པའི་མཐུད་མཚམས་གནས་སྟངས།"
+
+#. "propose a condition" button
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:600
+msgid "Get proposal"
+msgstr "གྲོས་འཆར་ལེན།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:652
+msgid "Could not propose a join condition:"
+msgstr "མཐུད་ནི་གནས་སྟངས་ཅིག་གྲོས་འཆར་མ་ཚུགས།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:653
+msgid ""
+"The database does not contain any foreign key constraint which could be used to propose a suitable join condition.\n"
+"\n"
+"The database model may need to be updated"
+msgstr ""
+"གནས་སྡུད་གཞི་རྟེན་འདི་ལུ་ འོས་འབབ་མཐུད་མཚམས་གནས་སྟངས་ཅིག་གྲོས་འཆར་ལུ་ལག་ལེན་འཐབ་ནི་ཕྱི་རྒྱལ་ལྡེ་མིག་བར་ཆད་གང་རུང་མེདཔ་ཨིན།\n"
+"\n"
+"གནས་སྡུད་གཞི་རྟེན་དཔེ་ལུ་དུས་མཐུན་བཟོ་དགོཔ་འོང་།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:688
+msgid "Could not set the new join condition:"
+msgstr "མཐུད་གནས་སྟངས་གསརཔ་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:729
+#, c-format
+msgid "Select only the records of the two targets ('%s' and '%s') where the fields respect the join condition."
+msgstr "ས་སྒོ་ཚུ་གིས་མཐུད་མཚམས་གནས་སྟངས་འདི་གུས་བཏུད་འབད་མི་('%s' དང་ '%s')དམིགས་གཏད་གཉིས་ཀྱི་དྲན་ཐོ་ཚུ་རྐྱངམ་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:735
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:740
+#, c-format
+msgid "Select all the records of '%s' and those of '%s' where the fields respect the join condition."
+msgstr "གི་དྲན་ཐོ་ཚུ་ཆ་མཉམ་ '%s' དང་ '%s' ས་སྒོ་ཚུ་གིས་མཐུད་མཚམས་གནས་སྟངས་གུས་བཏུད་འབད་མི་སེལ་འཐུ་འབད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:745
+#, c-format
+msgid "Select all the records of '%s' and those of '%s' linking the two where the fields respect the join condition."
+msgstr "གི་དྲན་ཐོ་ཚུ་ '%s' དང་ '%s' གཉིས་འབྲེལ་མཐུད་འབད་མིས་སྒོ་ཚུ་གིས་་མཐུད་མཚམས་གནས་སྟངས་བཏུད་འབད་མི་ཆ་མཉམ་སེལ་འཐུ་འབད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:751
+#, c-format
+msgid "Select all the combinations of the records of '%s' and of '%s' without any attempt at linking the two (no join condition applies)."
+msgstr "གི་དྲན་ཐོ་ཚུ་གི་མཉམ་མཐུད་ཚུ་ཆ་མཉམ་ '%s' དང་ '%s' གཉིས་འབྲེལ་མཐུད་འབད་ནི་ལུ་དཔའ་བཅམ་གང་རུང་མེདཔ་སྦེ་གི་ (མཐུད་ལམ་གནས་སྟངས་འཇུག་སྤྱོད་མེད)སེལ་འཐུ་འབད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-join.c:798
+msgid "No defined join condition"
+msgstr "མཐུད་མཚམས་གནས་སྟངས་ངེས་འཛིན་འབད་ཡོད་མི་མེད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-query-struct.c:191
+msgid "Can not create join:"
+msgstr "མཐུད་མཚམས་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-query-struct.c:192
+msgid "A join must be between two different targets. If the same table or view must be joined to itself, then create another target for that table or view before creating the new join."
+msgstr "མཐུད་མཚམས་འདི་དམིགས་གཏད་སོ་སོ་གཉིས་ཀྱི་བར་ན་དགོཔ་ཨིན། ཅོག་འཐད་པའི་ཐིག་ཁྲམ་ཡང་ན་སྟོན་ནི་འདི་ཁོ་རང་ལུ་མཐུད་ཡོད་པ་ཅིན་ དེ་ལས་མཐུད་མཚམས་གསརཔ་གསརཔ་བསྐྲུན་འབད་བའི་ཧེ་མ་ཐིག་ཁྲམ་ཡང་ན་སྟོན་ནི་དེའི་དོན་ལུ་གཞན་དམིགས་གཏད་གསར་བསྐྲུན་འབད།"
+
+#: ../libgnomedb-graph/gnome-db-canvas-query-struct.c:476
+msgid "New target from table"
+msgstr "ཐིག་ཁྲམ་ལས་དམིགས་གཏད་གསརཔ།"
+
+#. set to NULL item
+#: ../libgnomedb/utility.c:78
+msgid "Unset"
+msgstr "གཞི་སྒྲིག་མ་འབད་མི།"
+
+#. default value item
+#: ../libgnomedb/utility.c:91
+msgid "Set to default value"
+msgstr "སྔོན་སྒྲིག་གནས་གོང་ལུ་གཞི་སྒྲིག་འབད།"
+
+#. reset to original value item
+#: ../libgnomedb/utility.c:104
+msgid "Reset to original value"
+msgstr "གནས་གོང་ངོ་མ་ལུ་བསྐྱར་གཞི་སྒྲིག་འབད།"
+
+#: ../libgnomedb/utility.c:406
+#: ../libgnomedb/utility.c:412
+msgid "Current modified data is invalid"
+msgstr "ད་ལྟོ་ལེགས་བཅོས་འབད་ཡོད་མི་གནས་སྡུད་འདི་ནུས་མེད་ཨིན།"
+
+#: ../libgnomedb/utility.c:407
+msgid ""
+"You may now choose to correct it, or to discard\n"
+"the modifications.\n"
+"\n"
+"What do you wan to do?"
+msgstr ""
+"ད་ལྟོ་ཁྱོད་རང་འདི་ནོར་བཅོས་འབད་ནི་ལུ་གདམ་ ཡང་ན་ ལེགས་བཅོས་འབད་ནི་\n"
+"བཏོན་བཀོག\n"
+"\n"
+"ཁྱོད་ག་ཅི་འབད་ནི་ཨིན?"
+
+#: ../libgnomedb/utility.c:413
+msgid ""
+"please correct it and try again, or discard\n"
+"the modifications."
+msgstr ""
+"འདི་ནོར་བཅོས་འབད་ནི་དང་ལོག་འབད་རྩོལ་བསྐྱེད་ ཡང་ན་\n"
+"ལེགས་བཅོས་འབད་ནི་ལུ་བཏོན་བཀོག་གནང་།"
+
+#: ../libgnomedb/utility.c:421
+msgid "Part of the current modified data was invalid"
+msgstr "ད་ལྟོ་ལེགས་བཅོས་འབད་ཡོད་མི་གི་ཡན་ལག་དེ་ནུས་མེད་ཨིན།"
+
+#: ../libgnomedb/utility.c:422
+msgid ""
+"As no transaction was used, only a part of the valid data\n"
+"has been written, and the remaining modification have been discarded."
+msgstr ""
+"སྤྲོད་ལེན་དེ་ལག་ལེན་འཐབ་མེདཔ་ལས་ གནས་སྡུད་དུས་ཅན་འདིའི་ཡན་ལག་ཅིག་རྐྱངམ་ཅིག་\n"
+"བྲིས་ཡོདཔ་དང་་ ལེགས་བཅོས་འབད་ནི་ལུས་མི་འདི་བཏོན་བཀོག་གཏང་ཡོདཔ་ཨིན།"
+
+#: ../libgnomedb/utility.c:437
+msgid "Error details"
+msgstr "རྒྱས་བཤད་ཚུ་འཛོལ་བ།"
+
+#: ../libgnomedb/utility.c:487
+msgid "Discard modified data"
+msgstr "ལེགས་བཅོས་འབད་ཡོད་མི་གནས་སྡུད་བཏོན་བཀོག"
+
+#: ../libgnomedb/utility.c:488
+msgid "Correct data first"
+msgstr "དང་པ་གནས་སྡུད་ནོར་བཅོས་འབད།"
+
+#: ../testing/test-dyn-widgets.c:466
+msgid "No File"
+msgstr "ཡིག་སྣོད་མེད།"
+
+#: ../testing/test-dyn-widgets.c:489
+#, c-format
+msgid ""
+"Error loading file '%s':\n"
+"%s\n"
+msgstr ""
+"ཡིག་སྣོད་མངོན་གསལ་འབད་ནི་འཛོལ་བ་ '%s':\n"
+"%s\n"
+
+#: ../testing/test-dyn-widgets.c:572
+msgid "Open connection"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ།"
+
+#: ../testing/test-dyn-widgets.c:578
+msgid "Select datasource"
+msgstr "གནས་སྡུད་འབྱུང་ཁུངས་སེལ་འཐུ་འབད།"
+
+#. Tests menu
+#: ../testing/test-dyn-widgets.c:593
+msgid "_New Test"
+msgstr "བརྟག་ཞིབ་གསརཔ།(_N)"
+
+#. Create the selector
+#: ../testing/test-dyn-widgets.c:635
+msgid "Select a file to load"
+msgstr "མངོན་གསལ་འབད་ནི་ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../testing/test-dyn-widgets.c:656
+#, c-format
+msgid ""
+"Error saving file '%s':\n"
+"%s\n"
+msgstr ""
+"ཡིག་སྣོད་སྲུང་བཞག་འབད་ནི་འཛོལ་བ་ '%s':\n"
+"%s\n"
+
+#. Create the selector
+#: ../testing/test-dyn-widgets.c:675
+msgid "Select a file to save to"
+msgstr "ལུ་སྲུང་བཞག་འབད་ནི་ལུ་ཡིག་སནོད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../testing/test-dyn-widgets.c:731
+#, c-format
+msgid ""
+"Error updating Database metadata:\n"
+"%s\n"
+msgstr ""
+"གནས་སྡུད་གཞི་རྟེན་མི་ཊ་གནད་སྡུད་དུས་མཐུན་བཟོ་ནི་འཛོལ་བ་\n"
+"%s\n"
+
+#: ../testing/test-dyn-widgets.c:755
+msgid "Connection's configuration"
+msgstr "མཐུད་ལམ་གྱི་རིམ་སྒྲིག"
+
+#: ../testing/test-dyn-widgets.c:842
+#, c-format
+msgid ""
+"Error opening the connection '%s':\n"
+"%s\n"
+msgstr ""
+"མཐུད་ལམ་ཁ་ཕྱེ་ནི་འཛོལ་བ་ '%s':\n"
+"%s\n"
+
+#: ../testing/test-dyn-widgets.c:886
+msgid "Available dictionary objects:"
+msgstr "ཐོབ་ཚུགས་པའི་སྣོད་ཐོ་དངོས་པོ་ཚུ།"
+
+#: ../testing/test-dyn-widgets.c:925
+msgid "Tested widget:"
+msgstr "བརྟག་ཞིབ་འབད་ཡོད་མི་ཝི་གེཊི།"
+
+#: ../testing/test-dyn-widgets.c:975
+#, c-format
+msgid "%s: parameters required"
+msgstr "%s:ཚད་བཟུང་ཚུ་དགོས་མཁོ་ཡོདཔ།"
+
+#: ../testing/test-dyn-widgets.c:977
+msgid "Some parameters are required to execute this query"
+msgstr "འདྲི་དཔྱད་འདི་ལག་ལེན་འཐབ་ནི་ལུ་དགོས་མཁོཡོད་པའི་ཚད་བཟུང་ལ་ལོ།"
+
+#: ../testing/test-handlers.c:258
+msgid "_Tested Widgets"
+msgstr "བརྟག་ཞིབ་འབད་ཡོད་པའི་ཝི་གེཊིསི་(_T)"
+
+#: ../testing/test-handlers.c:265
+msgid "Default individual data entry widgets"
+msgstr "སྔོན་སྒྲིག་ངོ་རྐྱང་གནད་སྡུད་ཀྱི་ཐོ་བཀོད་ཝི་གེཊི་"
+
+#: ../testing/test-handlers.c:272
+msgid "Default data entry widgets in a form"
+msgstr "འབྲི་ཤོག་ནང་ སྔོན་སྒྲིག་གནད་སྡུད་ཐོ་བཀོད་ཝི་གེཊི་"
+
+#: ../testing/test-handlers.c:279
+msgid "Default data cell renderers in a grid"
+msgstr "གིརིཌི་ཅིག་ནང་ སྔོན་སྒྲིག་གནད་སྡུད་ནང་ཐིག་ལྷག་སྟོན་པ་"
+
+#: ../testing/test-handlers.c:289
+msgid "Plugins individual data entry widgets"
+msgstr "པ་ལག་ཡིནསི་ ངོ་རྐྱང་གནད་སྡུད་ཐོ་བཀོད་ ཝི་གེཊི་"
+
+#: ../testing/test-handlers.c:296
+msgid "Plugins data entry widgets in a form"
+msgstr "འབྲི་ཤོག་ཅིག་ནང་ པ་ལག་ཡིནསི་གནད་སྡུད་ཐོ་བཀོད་ཝི་གེཊི་"
+
+#: ../testing/test-handlers.c:303
+msgid "Plugins data cell renderers in a grid"
+msgstr "གིརིཌི་ཅིག་ནང་ པ་ལག་ཡིནསི་ གནད་སྡུད་ནང་ཐིག་ལྷ་སྟོན་པ་"
+
+#: ../testing/test-handlers.c:679
+msgid "No GdaDataHandler available for this type"
+msgstr "དབྱེ་བ་འདིའི་དོན་ལུ་ཇི་ཌ་གནས་སྡུད་ལེགས་སྐྱོང་པ་ཐོབ་ཚུགསཔ་མེད།"
+
+#. Other widgets
+#: ../testing/test-handlers.c:699
+msgid "Current flags: "
+msgstr "ད་ལྟོའི་ཟུར་རྟགས་ཚུ།"
+
+#: ../testing/test-handlers.c:704
+msgid "--"
+msgstr "--"
+
+#: ../testing/test-handlers.c:710
+msgid "Current value: "
+msgstr "ད་ལྟོའི་གནས་གོང་།"
+
+#: ../testing/test-handlers.c:728
+msgid "NULL ok"
+msgstr "སྟོང་ཆ་་བཏུབ།"
+
+#: ../testing/test-handlers.c:736
+msgid "DEFAULT ok"
+msgstr "སྔོན་སྒྲིག་ བཏུབ།"
+
+#: ../testing/test-handlers.c:744
+msgid "Actions?"
+msgstr "བྱ་བ་ཚུ་?"
+
+#: ../testing/test-handlers.c:752
+msgid "Editable?"
+msgstr "ཞུན་དག་འབད་བཏུབ་ཨིན་ན?"
+
+#: ../testing/test-handlers.c:766
+msgid "Set as original"
+msgstr "ངོ་མ་བཟུམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../testing/test-handlers.c:779
+msgid "Set as default"
+msgstr "སྔོན་སྒྲིག་བཟུམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#~ msgid "_Page"
+#~ msgstr "ཤོག་ལེབ།(_P)"
+#~ msgid "Default handlers"
+#~ msgstr "སྔོན་སྒྲིག་ལེགས་སྐྱོང་པ་ཚུ།"
+#~ msgid "Plugins"
+#~ msgstr "པ་ལག་ཨིནསི།"
+

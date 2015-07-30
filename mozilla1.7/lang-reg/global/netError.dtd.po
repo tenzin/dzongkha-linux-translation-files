@@ -1,0 +1,111 @@
+# translation of netError.dtd.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/global/netError.dtd
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: netError.dtd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-08 21:50+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: connectionFailure.longDesc
+msgid "The browser was unable to connect to the specified site, even though it exists. This may be because the site does not accept connections from your computer, the service may be down, or the site does not support the service or port that you tried to connect to."
+msgstr "བརྡ་འཚོལ་འདི་གསལ་བཀོད་འབད་འབད་བའི་ས་ཁོངས་ཡོད་དེ་རང་འབད་རུང་དེ་དང་མཐུད་མ་ཚུགས། འ་ནི་འདི་ག་ཅི་ཨིན་ན་ཟེར་བ་ཅིན་ ས་ཁོངས་འདི་གིས་ཁྱོད་ཀྱི་གློག་རིག་ནང་ལས་མཐུད་ནི་ཚུ་དང་ལེན་མི་འབད་བས་ ཞབས་ཏོག་མར་ཨིནམ་འོང་ ཡང་ན་ས་ཁོངས་ཀྱིས་ཞབས་ཏོག་ལུ་ ཡང་ན་འདྲེན་ལམ་ཁྱོད་ཀྱིས་མཐུད་ནིའི་འབད་རྩོལ་བསྐྱེད་མི་འདི་ལུ་རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: connectionFailure.title
+msgid "Connection Failure Error"
+msgstr "མཐུད་ལམ་འཐུས་ཤོར་གྱི་འཛོལ་བ།"
+
+#: dnsNotFound.longDesc
+msgid "The address (URL) does not correspond to a known site and could not be loaded. This could be due to a misspelling in the address or because the site does not exist. If the address is known to be valid, or if the problem occurs for many sites, it may be an issue with your proxy service (if you use one) or the directory name service lookup. In such cases you should consult your system documentation, administrator or Internet Service Provider (ISP) as appropriate for further assistance."
+msgstr "ཁ་བྱང་(ཡུ་ཨར་ཨེལ་)དེ་ཤེས་པའི་ས་ཁོངས་དང་ཆ་མཉམ་པ་མེན་ དེ་ལས་མངོན་གསལ་འབད་མི་བཏུབ། འ་ནི་འདི་ཁ་བྱང་ནང་ལུ་འཛོལ་སོང་ནི་དེ་གི་འོང་ ཡང་ན་ས་ཁོངས་མེད་ནི་དེ་གི་ཨིནམ་འོང་། ཁ་བྱང་དེ་ནུས་ཅན་ཨིནམ་སྦེ་ཤེསཔ་ཨིན་པ་ཅིན་ ཡང་ན་ས་ཁོངས་ལེ་ཤ་ལུ་དཀའ་ངལ་བྱུངམ་ཨིན་པ་ཅིན་ ཁྱོད་རའི་པོ་རོག་སི་ཞབས་ཏོག་(ཁྱོད་ཀྱི་གཅིག་ལག་ལེན་འཐབ་ཨིན་པ་ཅིན) ཡང་ན་སྣོད་ཐོའི་མིང་གི་ཞབས་ཏོག་བལྟ་བའི་དཀའ་ངལ་ཨིནམ་འོང་། འ་ནི་བཟུམ་མའི་གནད་དོན་ལུ་ཁྱོད་ཀྱིས་ཁྱོད་རའི་རིམ་ལུགས་ཡིག་ཐོག་བཀོད་པ་ བདག་སྐྱོང་པ་ ཡང་ན་ཨིན་ཊར་ནེཊི་གི་ ཞབས་ཏོག་སྤེལ་མི་(ཨའི་ཨེསི་པི་) ཕན་གྲོགས་ཐེབས་ཀྱི་དོན་ལུ་འོས་ལྡན་སྦེ་འབྲེལ་བ་འཐབ།"
+
+#: dnsNotFound.title
+msgid "Address Not Found Error"
+msgstr "ཁ་བྱང་འཚོལ་མ་འཐོབ་པའི་འཛོལ་བ།"
+
+#: fileNotFound.longDesc
+msgid "The file specified by the address (URL) cannot be found. Check that the file exists and that you have sufficient permissions to view it."
+msgstr "ཡིག་སྣོད་ ཁ་བྱང་(ཡུ་ཨར་ཨེལ་)གིས་གསལ་བཀོད་འབད་མི་དེ་འཚོལ་མ་འཐོབ། ཡིག་སྣོད་ཡོད་མེད་དང་སྟོན་ནིའི་དོན་ལུ་གནང་བ་ལངམ་སྦེ་ཡོད་མེད་ཞིབ་དཔྱད་འབད།"
+
+#: fileNotFound.title
+msgid "File Not Found Error"
+msgstr "ཡིག་སྣོད་འཚོལ་མ་འཐོབ་པའི་འཛོལ་བ།"
+
+#: generic.longDesc
+msgid "The page could not be loaded, possibly because it does not exist or the location is incorrect.<br/>Check that the address (URL) is valid and correctly formatted."
+msgstr "ཤོག་ལེབ་འདི་མངོན་གསལ་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་འ་ནི་དེ་ཡོད་རང་མེད་ཡང་ན་གནས་ཁོངས་འདི་ངེས་བདེན་མེན་པས།<br/> ཁ་བྱང་(ཡུ་ཨར་ཨེལ་)འདི་ནུས་ཅན་དང་ངེས་བདེན་སྦེ་རྩ་སྒྲིག་འབད་ཡོད་མེད་ཞིབ་དཔྱད་འབད།"
+
+#: loadError.label
+msgid "Page load error"
+msgstr "ཤོག་ལེབ་མངོན་གསལ་གྱི་འཛོལ་བ།"
+
+#: malformedURI.longDesc
+msgid "The address (URL) is not a valid format and cannot be read. A typical address will start with &quot;http://&quot;, followed by an address, (e.g. www.netscape.com), followed by a path to the content (or just &quot;/&quot;). A common cause for the problem is using backslashes(\\) instead of forward slashes (/)."
+msgstr "ཁ་བྱང་(ཡུ་ཨར་ཨེལ་)འདི་ནུས་ཅན་གྱི་རྩ་སྒྲིག་མེན་ དེ་ལྷག་མི་ཚུགས། འཁྲུལ་བ་མེད་པའི་ཁ་བྱང་འདི་ &quot;http://&quot; གིས་འགོ་བཙུགསཔ་ཨིན་ དེ་གི་རྗེས་སུ་འབྲང་སྟེ་ཁ་བྱང་ (དཔེར་ན་ www.netscape.com) དེའི་རྗེས་སུ་འབྲང་སྟེ་ནང་དོན་ནང་གི་འགྲུལ་ལམ་གཅིག་(ཡང་ན་&quot;/&quot; ཙམ) དཀའ་ངལ་གྱི་དོན་ལུ་མཐུན་མོང་གི་རྒྱུ་རྐྱེན་འདི་གདོང་བསྐྱོད་གཡོ་ཤད་(/)ཀྱི་ཚབ་ལུ་གཡོ་ཤད་ལོག་པ་(\\) ལག་ལེན་འཐབ་ནི་འདི་གི་ཨིན།"
+
+#: malformedURI.title
+msgid "Invalid Address Error"
+msgstr "ནུས་མེད་ཁ་བྱང་གི་འཛོལ་བ།"
+
+#: netOffline.longDesc
+msgid "The browser is currently offline and cannot connect to the requested site. Place your browser in online mode before trying again."
+msgstr "བརྡ་འཚོལ་འདི་ད་ལྟོ་ཨོཕ་ལ་ཡིན་ཨིན་ དེ་ལས་ཞུ་བ་འབད་འབད་བའི་ས་ཁོངས་ལུ་མཐུད་མི་ཚུགས། ལོག་འབད་རྩོལ་མ་འབད་བའི་ཧེ་མ་ཁྱོད་རའི་བརའུ་ཟར་འདི་གློག་ཐོག་བཞག"
+
+#: netOffline.title
+msgid "Offline Error"
+msgstr "ཨོཕ་ལ་ཡིན་འཛོལ་བ།"
+
+#: netReset.longDesc
+msgid "The link to the site was dropped unexpectedly while negotiating a connection or transferring data. This may be due to a network fault somewhere between the site and your computer. If the problem persists, consult your system documentation, administrator or Internet Service Provider (ISP) as appropriate for further assistance."
+msgstr "ས་ཁོངས་ལུའི་མཐུད་ལམ་དེ་རེ་བ་མེད་པར་ མཐུད་ལམ་གཅིག་གྲོས་སྒྲིག་་འབད་བའི་སྐབས་ ཡང་ན་གནད་སྡུད་གནས་སོར་འབད་བའི་སྐབས་ བཀོག་བཞག་ནུག འ་ནི་འདི་ཁྱོད་རའི་གློག་རིག་དང་ས་ཁོངས་ཀྱི་བར་ན་ཡོངས་འབྲེལ་གྱི་སྐྱོན་གཅིག་གིས་འབད་འོང་། དཀའ་ངལ་དེ་གིས་ཨུ་ཚུགས་རྐྱབས་ཨིན་པ་ཅིན་ ཁྱོད་རའི་རིམ་ལུགས་ཡིག་ཐོག་བཀོད་པ་ བདག་སྐྱོང་པ་ ཡང་ན་ཡོགས་འབྲེལ་གྱི་ཞབས་ཏོག་སྤེལ་མི་(ཨའི་ཨེསི་པི) ཕན་གྲོགས་ཐེབས་ཀྱི་དོན་ལུ་འོས་ལྡན་སྦེ་འབྲེལ་བ་འཐབ།"
+
+#: netReset.title
+msgid "Net Reset Error"
+msgstr "ནེཊི་སླར་སྒྲིག་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: netTimeout.longDesc
+msgid "The browser timed out while trying to connect to the specified site. The site may be experiencing high loads that are slowing it down, or network problems are preventing data from being received from it in a timely manner. If the site is likely to be busy, consider waiting a few moments before retrying the request."
+msgstr "བརའུ་ཟར་དེ་གསལ་བཀོད་འབད་འབད་བའི་ས་ཁོངས་ལུ་མཐུད་ནིའི་འབད་རྩོལ་བསྐྱེདཔ་ད་ངལ་མཚམས་ལུད་སོང་ནུག ས་ཁོངས་དེས་མཐོ་བའི་མངོན་གསལ་ ལྷོད་ལེན་འབད་མི་ཚུ་ཉབས་མྱོང་འཐོབ་དོ་འོང་ ཡང་ན་ཡོངས་འབྲེལ་གྱི་དཀའ་ངལ་ཚུ་གིས་གནད་སྡུད་དེ་དུས་ཚོད་ཐོག་སྤྱོད་ཚུལ་ལེན་མིའི་སྔོན་བཀག་འབདཝ་ཨིན། ས་ཁོངས་འདི་ཁོམ་མེདཔ་ཨིནམ་འདྲཝ་ཅིག་འབདན་ དུས་ཡུན་དག་པ་ཅིག་ཞུ་བ་དེ་ལོག་འབད་རྩོལ་བསྐྱེད་ནི་བསྒུག་སྡོད་ནི་ལུ་ཆ་ཆོག་འབད།"
+
+#: netTimeout.title
+msgid "Net Timeout Error"
+msgstr "ནེཊི་གི་ངལ་མཚམས་འཛོལ་བ།"
+
+#: protocolNotFound.longDesc
+msgid "The address (URL) starts with a protocol that is not recognized by the browser. A protocol is the part at the front of the address, such as http: or ftp: which tells the browser how to connect to the site. In this instance, the protocol is unknown so loading cannot continue. Check that the address is correct before retrying."
+msgstr "ཁ་བྱང་(ཡུ་ཨར་ཨེལ་)འདི་གནད་སྤེལ་ལམ་ལུགས་ བརའུ་ཟར་གྱིས་ངོས་འཛིན་མ་འབད་མི་དང་གཅིག་ཁར་འགོ་བཙུགསཔ་ཨིན། གནད་སྤེལ་ལམ་ལུགས་འདི་ཁ་བྱང་གི་གདོང་ཁའི་ཡན་ལག་ ཨེཆ་ཊི་ཊི་པི་: ཡང་ན་ཨེཕ་ཊི་པི་: བཟུམ་ ས་ཁོངས་ལུ་བརའུ་ཟར་ག་དེ་སྦེ་མཐུད་ནི་ཨིན་ན་སྟོན་མི་འདི་ཨིན། འ་ནི་དུས་སྐབས་ནང་ལུ་ གནད་སྤེལ་ལམ་ལུགས་དེ་མ་ཤེསཔ་ཨིནམ་ལས་ མངོན་གསལ་འབད་ནི་འདི་འཕྲོ་མཐུད་མི་བཏུབ། ལོག་འབད་རྩོལ་མ་བསྐྱེད་པའི་ཧེ་མ་ཁ་བྱང་འདི་ངེས་བདེན་ཨིན་མེན་ཞིབ་དཔྱད་འབད།"
+
+#: protocolNotFound.title
+msgid "Protocol Not Known Error"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་མ་ཤེས་པའི་འཛོལ་བ།"
+
+#: redirectLoop.longDesc
+msgid "The browser has stopped a connection because the site is redirecting requests to itself in a manner which prevents it from ever completing."
+msgstr "བརའུ་ཟར་གྱིས་མཐུད་ལམ་གཅིག་བཀག་བཞག་ནུག ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ས་ཁོངས་འདི་གིས་ཞུ་བ་ཚུ་མཇུག་བསྡུ་ནི་ལས་སྔོན་བཀག་འབད་མིའི་སྤྱོད་ལམ་ཁོ་རའི་ནང་ལོག་གཏངམ་ཨིན་པས།"
+
+#: redirectLoop.title
+msgid "Redirect Loop Error"
+msgstr "འཕྲལ་བཀོལ་ལོག་གཏང་ནིའི་འཛོལ་བ།"
+
+#: retry.label
+msgid "Try again"
+msgstr "ལོག་འབད་རྩོལ་བསྐྱེད།"
+
+#: unknownSocketType.longDesc
+msgid "The site responded to the network request in an unexpected manner. This may be due to address (URL) using the wrong protocol for the specified port, or a non-standard configuration on the site which is running different services than expected."
+msgstr "ས་ཁོངས་འདི་གིས་ཡོངས་འབྲེལ་གྱི་ཞུ་བ་ལུ་རེ་བ་མེད་པའི་སྤྱོད་ལམ་ནང་ལན་བཀོད་འབད་ནུག འ་ནི་འདི་ཁ་བྱང་(ཡུ་ཨར་ཨེལ་)གསལ་བཀོད་འབད་མིའི་འདྲེན་ལམ་གྱི་དོན་ལུ་གནད་སྤེལ་ལམ་ལུགས་ཕྱི་འགྱུར་སྦེ་ལག་ལེན་འཐབ་མི་དེ་དང་ ཡང་ན་ས་ཁོངས་གུའི་ཚད་ལྡན་མིན་པའི་རིམ་སྒྲིག་ རེ་བ་བསྐྱེད་མི་ལས་སོ་སོ་ཞབས་ཏོག་ཚུ་གཡོག་བཀོལ་ནི་འདི་གི་ཨིནམ་འོང་།"
+
+#: unknownSocketType.title
+msgid "Unknown Socket Error"
+msgstr "མ་ཤེས་པའི་སོ་ཀེཊི་གི་འཛོལ་བ།"
+

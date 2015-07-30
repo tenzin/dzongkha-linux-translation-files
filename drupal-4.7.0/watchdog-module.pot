@@ -1,0 +1,94 @@
+# LANGUAGE translation of Drupal (modules/watchdog.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: watchdog.module,v 1.143 2006/04/13 08:25:27 killes
+# Jurmey Rabgay <jur_gay@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: watching -module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-10 00:10+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/watchdog.module:21
+msgid "The watchdog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time.  This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
+msgstr "ལྟ་རྟོག་པའི་ཚད་གཞི་གིས་ ཁྱོད་ཀྱི་རིམ་ལུགས་འདི་ དྲན་དེབ་ནང་ཤུལ་ལས་དབང་སྤྲོད་ངོ་རྐྱང་གིས་ བསྐྱར་ཞིབ་འབད་ནི་ལུ་ རིམ་ལུགས་འབྱུང་ལས་ཚུ་འཛིན་བཟུང་འབད་དེ་ ལྟ་རྟོག་འབདཝ་ཨིན། ལྟ་རྟོག་པའི་ཚད་གཞི་འདི་ ཁོང་རའི་ས་ཁོངས་ནང་ ལཱ་ཚུསྤྱི་མཐོང་མགྱོགས་པ་འབད་ནི་ཨིན་མི་ས་ཁོངས་བདག་སྐྱོང་པ་ཚུ་ལུ་ཕན་ཐོགས་ཅན་ཅིག་ཨིན། དེ་མ་ཚད་དྲན་དེབ་ཀྱིས་ འབྱུང་ལས་ཀྱི་འབྱུང་རིམ་ཚུ་ཐོ་བཀོད་འབདཝ་ཨིནམ་ལས་ རྐྱེན་སེལ་ས་ཁོངས་འཛོལ་བ་ཚུ་ལུ་ཕན་ཐོགས་ཡོདཔ་ཨིན།"
+
+#: modules/watchdog.module:22
+msgid "The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the watchdog report on a regular basis to ensure their site is working properly."
+msgstr "ལྟ་རྟོག་པའི་དྲན་དེབ་འདི་ ལག་ལེན་པའི་གནད་སྡུད་དང་ལཱ་ཤུགས་གནད་སྡུད་ དེ་ལས་འཛོལ་བ་དང་ཉེན་བརྡ་ དེ་ལས་དོ་རུང་ བཀོལ་སྤྱོད་འབད་བཏུབ་པའི་བརྡ་དོན་ཚུ་དང་ལྡན་པའི་དྲན་ཐོ་བཞག་ཡོད་པའི་འབྱུང་ལས་ཐོ་ཡིག་ཅིག་ཨིན། བདག་སྐྱོང་པ་ཚུ་གིས་ ཁོང་རའི་ས་ཁོངས་ནང་ལཱ་ལེགས་ཤོམ་སྦེ་འབད་བཅུག་ནི་གི་དོན་ལུ་ དུས་རྒྱུན་གཞི་རྩའི་ཐོག་ལུ་ ལྟ་རྟོག་པའི་སྙན་ཞུ་འདི་ཞིབ་དཔྱད་འབད་དགོ"
+
+#: modules/watchdog.module:23
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view watchdog logs at <a href=\"%admin-watchdog\">administer &gt;&gt; watchdog</a>.</li>\n"
+"<li>view watchdog event logs at <a href=\"%admin-watchdog-events\">administer &gt;&gt; watchdog &gt;&gt; events</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་ </p>\n"
+"<ul>\n"
+"<li>ལྟ་རྟོག་པའི་དྲན་དེབ་འདི་<a href=\"%admin-watchdog\">བདག་སྐྱོང་པ་ &gt;&gt;ལྟ་རྟོག་པ་གུ་མཐོང་ཚུགས། watchdog</a>.</li>\n"
+"<li>ལྟ་རྟོག་པའི་འབྱུང་ལས་དྲན་དེབ་འདི་ <a href=\"%admin-watchdog-events\">བདག་སྐྱོང་པ་ &gt;&gt; ལྟ་རྟོག་པ་ &gt;&gt; འབྱུང་ལས་ཚུ་གུ་བལྟ།</a>.</li>\n"
+"</ul>\n"
+
+#: modules/watchdog.module:29
+msgid "For more information please read the configuration and customization handbook <a href=\"%watchdog\">Watchdog page</a>."
+msgstr "བརྡ་དོན་ཁ་གསལ་གྱི་དོན་ལུ་ རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"%watchdog\">བལྟ་རྟོག་པའི་ཤོག་ལེབ་</a>.འདི་ལྷག་གནང་།"
+
+#: modules/watchdog.module:32
+msgid "Logs and records system events."
+msgstr "དྲན་དེབ་དང་དྲན་ཐོའི་རིམ་ལུགས་བྱུང་ལས་ཚུ།"
+
+#: modules/watchdog.module:34
+msgid "<p>The watchdog module monitors your web site, capturing system events in a log to be reviewed by an authorized individual at a later time.  The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information.  It is vital to check the watchdog report on a regular basis as it is often the only way to tell what is going on.</p>"
+msgstr "<p>ལྟ་རྟོག་པའི་ཚད་གཞི་གིས་ ཁྱོད་ཀྱི་རིམ་ལུགས་འདི་ དྲན་དེབ་ནང་ཤུལ་ལས་དབང་སྤྲོད་ངོ་རྐྱང་གིས་ བསྐྱར་ཞིབ་འབད་ནི་ལུ་ རིམ་ལུགས་འབྱུང་ལས་ཚུ་འཛིན་བཟུང་འབད་དེ་ ལྟ་རྟོག་འབདཝ་ཨིན། ལྟ་རྟོག་པའི་དྲན་དེབ་འདི་ ལག་ལེན་པའི་གནད་སྡུད་དང་ལཱ་ཤུགས་གནད་སྡུད་ དེ་ལས་འཛོལ་བ་དང་ཉེན་བརྡ་ དེ་ལས་དོ་རུང་ བཀོལ་སྤྱོད་འབད་བཏུབ་པའི་བརྡ་དོན་ཚུ་དང་ལྡན་པའི་དྲན་ཐོ་བཞག་ཡོད་པའི་འབྱུང་ལས་ཐོ་ཡིག་ཅིག་ཨིན། ལྟ་རྟོག་པའི་སྙན་ཞུ་འདི་ འཕྲལ་འཕྲལ་ལཱ་ག་ཅི་འབད་དོ་ག་སླབ་མི་ཅིག་འབདཝ་ལས་ དུས་རྒྱུན་གཞི་རྩའི་ཐོག་ལས་ ཞིབ་དཔྱད་འབད་དགོཔ་འདི་ཁག་ཆེཝ་ཨིན། </p>"
+
+#: modules/watchdog.module:45
+msgid "logs"
+msgstr "དྲན་དེབ་ཚུ།"
+
+#: modules/watchdog.module:78;78;160
+msgid "warning"
+msgstr "ཉེན་བརྡ།"
+
+#: modules/watchdog.module:82
+msgid "all messages"
+msgstr "འཕྲིན་དོན་མ་མཉམ།"
+
+#: modules/watchdog.module:84
+msgid "%type messages"
+msgstr "%type འཕྲིན་དོན་ཚུ།"
+
+#: modules/watchdog.module:93
+msgid "Filter by message type"
+msgstr "འཕྲིན་དོན་དབྱེ་བའི་སྒོ་ལས་ བཙགས།"
+
+#: modules/watchdog.module:138
+msgid "No log messages available."
+msgstr "དྲན་དེབ་འཕྲིན་དོན་ཚུ་ལངམ་མིན་འདུག"
+
+#: modules/watchdog.module:160
+msgid "notice"
+msgstr "བརྡ་བསྐུལ།"
+
+#: modules/watchdog.module:164
+msgid "Location"
+msgstr "གནས་ཁོངས།"
+
+#: modules/watchdog.module:164
+msgid "Severity"
+msgstr "འཚུབ་ཆ།"
+
+#: modules/watchdog.module:0
+msgid "watchdog"
+msgstr "བལྟ་རྟོག་པ།"
+

@@ -1,0 +1,137 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/preferences/connection.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: connection.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2007-05-15 16:11+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: connectionsDialog.title
+msgid "Connection Settings"
+msgstr "མཐུད་ལམ་སྒྲིག་སྟངས་"
+
+#: window.width
+msgid ""
+"_: Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger.\n"
+"37em"
+msgstr "ཨི་ཨེམ་༣༧།"
+
+#: proxyTitle.label
+msgid "Configure Proxies to Access the Internet"
+msgstr "ཨིན་ཊར་ནེཊི་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ལུ་ པོ་རོག་སི་ རིམ་སྒྲིག་འབད་"
+
+#: directTypeRadio.label
+#: directTypeRadio.accesskey
+msgid "&Direct connection to the Internet"
+msgstr "ཨིན་ཊར་ནེཊི་ལུ་ ཐད་ཀར་མཐུད་ལམ་(&D)"
+
+#: WPADTypeRadio.label
+#: WPADTypeRadio.accesskey
+msgid "Auto-detect proxy settings for this net&work"
+msgstr "ཡོངས་འབྲེལ་འདི་གི་དོན་ལུ་ པོ་རོག་སི་སྒྲིག་སྟངས་ རང་བཞིན་ངོས་འཛིན་འབད་(&w)"
+
+#: manualTypeRadio.label
+#: manualTypeRadio.accesskey
+msgid "&Manual proxy configuration:"
+msgstr "ལག་ཐོག་པོ་རོག་སི་རིམ་སྒྲིག་:(&M)"
+
+#: autoTypeRadio.label
+#: autoTypeRadio.accesskey
+msgid "&Automatic proxy configuration URL:"
+msgstr "རང་བཞིན་གྱི་པོ་རོག་སི་རིམ་སྒྲིག་ཡུ་ཨར་ཨེལ་:(&A)"
+
+#: configAutoconfigText.label
+#: configAutoconfigText.accesskey
+msgid "Configuration location (&URL):"
+msgstr "རིམ་སྒྲིག་གནས་ཁོངས་(ཡུ་ཨར་ཨེལ་):(&U)"
+
+#: reload.label
+#: reload.accesskey
+msgid "Re&load"
+msgstr "སླར་མངོན་གསལ་འབད་(&l)"
+
+#: ftp.label
+#: ftp.accesskey
+msgid "&FTP Proxy:"
+msgstr "ཨེཕ་ཊི་པི་པོ་རོག་སི་:(&F)"
+
+#: gopher.label
+#: gopher.accesskey
+msgid "&Gopher Proxy:"
+msgstr "གོ་ཕར་པོརོག་སི་:(&G)"
+
+#: http.label
+#: http.accesskey
+msgid "&HTTP Proxy:"
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོ་རོག་སི་(&H)"
+
+#: ssl.label
+#: ssl.accesskey
+msgid "&SSL Proxy:"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ པོ་རོག་སི་(&S)"
+
+#: socks.label
+#: socks.accesskey
+msgid "SO&CKS Host:"
+msgstr "སོཀསི་ཧོསཊི་:"
+
+#: socks4.label
+#: socks4.accesskey
+msgid "SOC&KS v4"
+msgstr "སོཀསི་ ཝི་༤་"
+
+#: socks5.label
+#: socks5.accesskey
+msgid "SOCKS &v5"
+msgstr "སོཀསི་ ཝི་༥་"
+
+#: port.label
+msgid "Port:"
+msgstr "འདྲེན་ལམ་:"
+
+#: HTTPport.accesskey
+msgid "p"
+msgstr "p"
+
+#: SSLport.accesskey
+msgid "o"
+msgstr "o"
+
+#: FTPport.accesskey
+msgid "r"
+msgstr "r"
+
+# No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window
+#: gopherPort.accesskey
+msgid "_: gopherPort.accesskey\n"
+msgstr "_: gopherPort.accesskey\n"
+
+#: SOCKSport.accesskey
+msgid "t"
+msgstr "t"
+
+#: noproxy.label
+#: noproxy.accesskey
+msgid "&No Proxy for:"
+msgstr "པོ་རོག་སི་མེདཔ་:"
+
+#: noproxyExplain.label
+msgid "Example: .mozilla.org, .net.nz, 192.168.1.0/24"
+msgstr "དཔེར་ན་: .mozilla.org, .net.nz, 192.168.1.0/24 "
+
+#: shareproxy.label
+#: shareproxy.accesskey
+msgid "Use this pro&xy server for all protocols"
+msgstr "གནས་སྤེལ་ལམ་ལུགས་ཆ་མཉམ་གྱི་དོན་ལུ་ པོརོག་སི་འདི་ ལག་ལེན་འཐབ་(&x)"
+

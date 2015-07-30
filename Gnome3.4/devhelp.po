@@ -1,0 +1,646 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: devhelp\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=devhelp&component=general\n"
+"POT-Creation-Date: 2010-12-21 10:07+0000\n"
+"PO-Revision-Date: 2007-02-05 13:38-0500\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/devhelp.desktop.in.in.h:1
+msgid "Developer's Help program"
+msgstr "བཟོ་མིའི་གྲོགས་རམལས་རིམ།"
+
+#. i18n: Please don't translate "Devhelp" (it's marked as translatable
+#. * for transliteration only)
+#: ../data/devhelp.desktop.in.in.h:2 ../src/dh-main.c:281
+#: ../src/dh-window.c:740 ../src/dh-window.c:1048 ../src/dh-window.c:1880
+msgid "Devhelp"
+msgstr "ཌེབ་ཧལཔ།"
+
+#: ../data/devhelp.desktop.in.in.h:3
+msgid "Documentation Browser"
+msgstr "ཡིག་ཐོག་བཀོད་པ་བརའུ་ཟར།"
+
+#: ../data/devhelp.schemas.in.h:1
+msgid "Books disabled"
+msgstr ""
+
+#: ../data/devhelp.schemas.in.h:2
+#, fuzzy
+#| msgid "Font for fixed text"
+msgid "Font for fixed width text"
+msgstr "གཏན་བཟོས་ཚིག་ཡིག་གི་དོན་ལུ་ཡིག་གཟུགས།"
+
+#: ../data/devhelp.schemas.in.h:3
+msgid "Font for text"
+msgstr "ཡིག་ཚིག་གི་དོན་ལུ་ཡིག་གཟུགས།"
+
+#: ../data/devhelp.schemas.in.h:4
+#, fuzzy
+#| msgid "Font for text with fixed width."
+msgid "Font for text with fixed width, such as code examples."
+msgstr "ཚིག་ཡིག་དང་གཅིག་ཁར་གཏན་བཟོ་ཡོད་མི་རྒྱ་ཚད་ཀྱི་དོན་ལུ་ཡིག་གཟུགས།"
+
+#: ../data/devhelp.schemas.in.h:5
+msgid "Font for text with variable width."
+msgstr "ཚིག་ཡིག་དང་གཅིག་ཁར་འགྱུར་ཅན་རྒྱ་ཚད་ཀྱི་དོན་ལུ་ཡིག་གཟུགས།"
+
+#: ../data/devhelp.schemas.in.h:6
+msgid "Group by language"
+msgstr ""
+
+#: ../data/devhelp.schemas.in.h:7
+#, fuzzy
+#| msgid "Height of main window"
+msgid "Height of assistant window"
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་མཐོ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:8
+msgid "Height of main window"
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་མཐོ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:9
+msgid "List of books disabled by the user."
+msgstr ""
+
+#: ../data/devhelp.schemas.in.h:10
+msgid "Main window maximized state"
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་སྦོོམ་བཟོ་ཡོད་མི་གནས་ལུགས།"
+
+#: ../data/devhelp.schemas.in.h:11
+#, fuzzy
+#| msgid "Selected tab, \"content\" or \"search\""
+msgid "Selected tab: \"content\" or \"search\""
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་མཆོང་ལྡེ་\"content\" ཡང \"search\""
+
+#: ../data/devhelp.schemas.in.h:12
+#, fuzzy
+#| msgid "The X position of the main window."
+msgid "The X position of the assistant window."
+msgstr "ཝིན་ཌོ་་གཙོ་བོ་འདི་གིགནས་ས་་ཨེགསི་འདི།"
+
+#: ../data/devhelp.schemas.in.h:13
+msgid "The X position of the main window."
+msgstr "ཝིན་ཌོ་་གཙོ་བོ་འདི་གིགནས་ས་་ཨེགསི་འདི།"
+
+#: ../data/devhelp.schemas.in.h:14
+#, fuzzy
+#| msgid "The Y position of the main window."
+msgid "The Y position of the assistant window."
+msgstr "ཝིན་ཌོ་གཙོ་བོ་འདི་གི་གནས་་སཝའི་འདི། "
+
+#: ../data/devhelp.schemas.in.h:15
+msgid "The Y position of the main window."
+msgstr "ཝིན་ཌོ་གཙོ་བོ་འདི་གི་གནས་་སཝའི་འདི། "
+
+#: ../data/devhelp.schemas.in.h:16
+#, fuzzy
+#| msgid "The height of the main window."
+msgid "The height of the assistant window."
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་ཐོ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:17
+msgid "The height of the main window."
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་ཐོ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:18
+#, fuzzy
+#| msgid "The width of the main window."
+msgid "The width of the assistant window."
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་རྒྱ་ཚད་འདི།"
+
+#: ../data/devhelp.schemas.in.h:19
+msgid "The width of the index and search pane."
+msgstr "ཟུར་ཐོ་དང་ཚུལ་ཞིབ་པེན་གྱི་རྒྱ་ཚད་འདི།"
+
+#: ../data/devhelp.schemas.in.h:20
+msgid "The width of the main window."
+msgstr "ཝིན་ཌོ་གཙོ་བོ་གི་རྒྱ་ཚད་འདི།"
+
+#: ../data/devhelp.schemas.in.h:21
+msgid "Use system fonts"
+msgstr "རིམ་ལུགས་ཡིག་བཟོ་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../data/devhelp.schemas.in.h:22
+msgid "Use the system default fonts."
+msgstr "རིམ་ལུགས་སྔོན་སྒྲིག་གི་ཡིག་གཟུགས་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../data/devhelp.schemas.in.h:23
+msgid "Whether books should be grouped by language in the UI"
+msgstr ""
+
+#: ../data/devhelp.schemas.in.h:24
+#, fuzzy
+#| msgid "Whether the main window should start maximized or not."
+msgid "Whether the main window should start maximized."
+msgstr "ཝིནཌོ་གཙོ་བོ་འདི་མང་མཐའ་འགོ་བཙུགས་དགོཔ་ཨིན་ན་མེན་ན།"
+
+#: ../data/devhelp.schemas.in.h:25
+#, fuzzy
+#| msgid "Which of the tabs that is selected, \"content\" or \"search\"."
+msgid "Which of the tabs is selected: \"content\" or \"search\"."
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་མཆོང་ལྡེ་ཚུ་་\"content\" ཡང་ན་ \"search\"ག་ཨིན་སྨོ།"
+
+#: ../data/devhelp.schemas.in.h:26
+#, fuzzy
+#| msgid "Width of the main window"
+msgid "Width of the assistant window"
+msgstr "ཝིནཌོ་གཙོ་བོ་གི་རྒྱ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:27
+msgid "Width of the index and search pane"
+msgstr "ཟུར་ཐོ་འདི་དང་འཚོལ་ཞིབ་པེན་གྱི་འདི་གི་རྒྱ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:28
+msgid "Width of the main window"
+msgstr "ཝིནཌོ་གཙོ་བོ་གི་རྒྱ་ཚད།"
+
+#: ../data/devhelp.schemas.in.h:29
+#, fuzzy
+#| msgid "X position of main window"
+msgid "X position of assistant window"
+msgstr "ཝིནཌོ་གཙོ་བོ་གི་གནས་ས་ཨེགསི།"
+
+#: ../data/devhelp.schemas.in.h:30
+msgid "X position of main window"
+msgstr "ཝིནཌོ་གཙོ་བོ་གི་གནས་ས་ཨེགསི།"
+
+#: ../data/devhelp.schemas.in.h:31
+#, fuzzy
+#| msgid "Y position of main window"
+msgid "Y position of assistant window"
+msgstr "ཝིནཌོ་གཙོ་བོ་གི་གནས་ས་ཝའི། "
+
+#: ../data/devhelp.schemas.in.h:32
+msgid "Y position of main window"
+msgstr "ཝིནཌོ་གཙོ་བོ་གི་གནས་ས་ཝའི། "
+
+#: ../data/ui/devhelp.builder.h:1
+msgid "Book Shelf"
+msgstr ""
+
+#: ../data/ui/devhelp.builder.h:2
+#, fuzzy
+#| msgid "Contents"
+msgid "Fonts"
+msgstr "ནང་དོན་ཚུ།"
+
+#: ../data/ui/devhelp.builder.h:3
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: ../data/ui/devhelp.builder.h:4
+msgid "_Fixed width:"
+msgstr "གཏན་བཟོའི་རྒྱ་ཚད།(_F)"
+
+#: ../data/ui/devhelp.builder.h:5
+msgid "_Group by language"
+msgstr ""
+
+#: ../data/ui/devhelp.builder.h:6
+msgid "_Use system fonts"
+msgstr "རིམ་ལུགས་ཡིག་གཟུགས་ལག་ལེན་འཐབ།(_U)"
+
+#: ../data/ui/devhelp.builder.h:7
+msgid "_Variable width: "
+msgstr "འགྱུར་ཅན་རྒྱ་ཚད།(_V)"
+
+#: ../misc/gedit-plugin/devhelp.desktop.in.h:1
+msgid "Devhelp support"
+msgstr "ཌེབ་ཧལཔ་རྒྱབ་སྐྱོར།"
+
+#: ../misc/gedit-plugin/devhelp.desktop.in.h:2
+#, fuzzy
+#| msgid "Makes F7 bring up Devhelp for the word at the cursor"
+msgid "Makes F2 bring up Devhelp for the word at the cursor"
+msgstr "ཌེཔ་ཧལཔ་ མིང་ཚིག་འོད་རྟགས་ཀྱི་དོན་ལུ་ སེ་ཝན་ཨེཕ་ཡར་འབག་འོང་་བཟོ་དོ།"
+
+#: ../misc/gedit-plugin/devhelp/devhelp.py:38
+#, fuzzy
+#| msgid "Documentation Browser"
+msgid "Show API Documentation"
+msgstr "ཡིག་ཐོག་བཀོད་པ་བརའུ་ཟར།"
+
+#: ../misc/gedit-plugin/devhelp/devhelp.py:40
+#, fuzzy
+#| msgid "Makes F7 bring up Devhelp for the word at the cursor"
+msgid "Show API Documentation for the word at the cursor"
+msgstr "ཌེཔ་ཧལཔ་ མིང་ཚིག་འོད་རྟགས་ཀྱི་དོན་ལུ་ སེ་ཝན་ཨེཕ་ཡར་འབག་འོང་་བཟོ་དོ།"
+
+#. i18n: Please don't translate "Devhelp".
+#: ../src/dh-assistant.c:74
+msgid "Devhelp — Assistant"
+msgstr ""
+
+#: ../src/dh-assistant-view.c:336
+#, fuzzy
+#| msgid "_Book:"
+msgid "Book:"
+msgstr "ཀི་དེབ།(_B:"
+
+#: ../src/dh-book.c:252
+#, c-format
+msgid "Language: %s"
+msgstr ""
+
+#: ../src/dh-book.c:253
+msgid "Language: Undefined"
+msgstr ""
+
+#. i18n: a documentation book
+#: ../src/dh-link.c:267
+#, fuzzy
+#| msgid "_Book:"
+msgid "Book"
+msgstr "ཀི་དེབ།(_B:"
+
+#. i18n: a "page" in a documentation book
+#: ../src/dh-link.c:270
+#, fuzzy
+#| msgid "_Page:"
+msgid "Page"
+msgstr "ཤོག་ལེབ(_P):"
+
+#. i18n: a search hit in the documentation, could be a
+#. * function, macro, struct, etc
+#: ../src/dh-link.c:274
+msgid "Keyword"
+msgstr ""
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: ../src/dh-link.c:279
+msgid "Function"
+msgstr ""
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: ../src/dh-link.c:284
+msgid "Struct"
+msgstr ""
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: ../src/dh-link.c:289
+msgid "Macro"
+msgstr ""
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: ../src/dh-link.c:294
+msgid "Enum"
+msgstr ""
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: ../src/dh-link.c:299
+msgid "Type"
+msgstr ""
+
+#: ../src/dh-main.c:47
+#, fuzzy
+#| msgid "Search for a function"
+msgid "Search for a keyword"
+msgstr "ལས་འགན་ཅིག་་གི་དོན་ལུ་འཚོལ་ཞིབ།"
+
+#: ../src/dh-main.c:52
+msgid "Quit any running Devhelp"
+msgstr "གཡོག་བཀོལ་བའི་བསྒང་གི་ཌེ་ཧལཔ་གང་རུང་་སྤང་།"
+
+#: ../src/dh-main.c:57
+msgid "Display the version and exit"
+msgstr "ཐོན་རིམ་དེ་དང་ཕྱིར་ཐོན་བཀྲམ་སྟོན་འབད།"
+
+#: ../src/dh-main.c:62
+msgid "Focus the Devhelp window with the search field active"
+msgstr ""
+
+#: ../src/dh-main.c:67
+msgid "Search and display any hit in the assistant window"
+msgstr ""
+
+#: ../src/dh-parser.c:97 ../src/dh-parser.c:199 ../src/dh-parser.c:263
+#: ../src/dh-parser.c:273
+#, fuzzy, c-format
+#| msgid "Expected '%s' got '%s' at line %d, column %d"
+msgid "Expected '%s', got '%s' at line %d, column %d"
+msgstr "རེ་བ་ཡོད་མི་ '%s' གྱལ་ལུ་ '%s' ཀེར་ཐིག་ %d, ཐོབ་ཡོདཔ %d"
+
+#: ../src/dh-parser.c:114
+#, c-format
+msgid "Invalid namespace '%s' at line %d, column %d"
+msgstr "ནུས་མེད་མིང་གི་བར་སྟོང་ '%s' གྱལ་ལུ་ %d, ཀེར་ཐིག་ %d"
+
+#: ../src/dh-parser.c:143
+#, fuzzy, c-format
+#| msgid "title, name, and link elements are required at line %d, column %d"
+msgid ""
+"\"title\", \"name\" and \"link\" elements are required at line %d, column %d"
+msgstr "མགོ་མིང་་ མིངདང་འབྲེལ་ལམ་རྒྱུ་རྫས་དེ་ཚུ གྱལ་རིམ་%d ཀེར་ཐིག%dལུ་དགོས་མཁོ་ཡོདཔ།"
+
+#: ../src/dh-parser.c:218
+#, fuzzy, c-format
+#| msgid ""
+#| "name and link elements are required inside <sub> on line %d, column %d"
+msgid ""
+"\"name\" and \"link\" elements are required inside <sub> on line %d, column %"
+"d"
+msgstr "མིང་དང་འབྲེལ་ལམ་རྣམ་གྲངས་ཚུ་ <sub> གློག་ལམ་ཐོག་ལུ་ %d, ཀེར་ཐིག་ནང་ན་དགོས་མཁོ་ཡོདཔ། %d"
+
+#: ../src/dh-parser.c:298
+#, fuzzy, c-format
+#| msgid ""
+#| "name and link elements are required inside <sub> on line %d, column %d"
+msgid ""
+"\"name\" and \"link\" elements are required inside '%s' on line %d, column %d"
+msgstr "མིང་དང་འབྲེལ་ལམ་རྣམ་གྲངས་ཚུ་ <sub> གློག་ལམ་ཐོག་ལུ་ %d, ཀེར་ཐིག་ནང་ན་དགོས་མཁོ་ཡོདཔ། %d"
+
+#: ../src/dh-parser.c:311
+#, fuzzy, c-format
+#| msgid ""
+#| "name and link elements are required inside <sub> on line %d, column %d"
+msgid "\"type\" element is required inside <keyword> on line %d, column %d"
+msgstr "མིང་དང་འབྲེལ་ལམ་རྣམ་གྲངས་ཚུ་ <sub> གློག་ལམ་ཐོག་ལུ་ %d, ཀེར་ཐིག་ནང་ན་དགོས་མཁོ་ཡོདཔ། %d"
+
+#: ../src/dh-parser.c:514
+#, c-format
+msgid "Cannot uncompress book '%s': %s"
+msgstr "ཀི་དེབ'%s': %s་ ཨེབ་བཙུགས་བཤོལ་འབད་མི་ཆོག།"
+
+#: ../src/dh-search.c:500
+msgid "All books"
+msgstr ""
+
+#: ../src/dh-search.c:1117
+#, fuzzy
+#| msgid "Search"
+msgid "Search in:"
+msgstr "འཚོལ་ཞིབ།"
+
+#: ../src/dh-window.c:98
+msgid "50%"
+msgstr ""
+
+#: ../src/dh-window.c:99
+msgid "75%"
+msgstr ""
+
+#: ../src/dh-window.c:100
+msgid "100%"
+msgstr ""
+
+#: ../src/dh-window.c:101
+msgid "125%"
+msgstr ""
+
+#: ../src/dh-window.c:102
+msgid "150%"
+msgstr ""
+
+#: ../src/dh-window.c:103
+msgid "175%"
+msgstr ""
+
+#: ../src/dh-window.c:104
+msgid "200%"
+msgstr ""
+
+#: ../src/dh-window.c:105
+msgid "300%"
+msgstr ""
+
+#: ../src/dh-window.c:106
+msgid "400%"
+msgstr ""
+
+#: ../src/dh-window.c:735
+msgid "translator_credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད།(_c)"
+
+#: ../src/dh-window.c:742
+#, fuzzy
+#| msgid "A developer's help browser for GNOME 2"
+msgid "A developers' help browser for GNOME"
+msgstr "ཇི་ནོམ་༢ གི་དོན་ལུ་བཟོ་མི་གི་གྲོགས་རམ་བརའུ་ཟར་ཅིག"
+
+#: ../src/dh-window.c:749
+#, fuzzy
+#| msgid "Devhelp support"
+msgid "DevHelp Website"
+msgstr "ཌེབ་ཧལཔ་རྒྱབ་སྐྱོར།"
+
+#: ../src/dh-window.c:773
+msgid "_File"
+msgstr "ཡིག་སྣོད(_F)"
+
+#: ../src/dh-window.c:774
+msgid "_Edit"
+msgstr " ཞུན་དག(_E)"
+
+#: ../src/dh-window.c:775
+#, fuzzy
+#| msgid "_File"
+msgid "_View"
+msgstr "ཡིག་སྣོད(_F)"
+
+#: ../src/dh-window.c:776
+msgid "_Go"
+msgstr "འགྱོ།(_G)"
+
+#: ../src/dh-window.c:777
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#. File menu
+#: ../src/dh-window.c:780
+msgid "_New Window"
+msgstr "ཝིན་ཌོ་གསརཔ།(_N)"
+
+#: ../src/dh-window.c:782
+msgid "New _Tab"
+msgstr "མཆོང་ལྡེ་གསརཔ།(_T)"
+
+#: ../src/dh-window.c:784
+msgid "_Print…"
+msgstr ""
+
+#: ../src/dh-window.c:796 ../src/eggfindbar.c:342
+msgid "Find Next"
+msgstr ""
+
+#: ../src/dh-window.c:798 ../src/eggfindbar.c:329
+msgid "Find Previous"
+msgstr ""
+
+#: ../src/dh-window.c:805
+msgid "Go to the previous page"
+msgstr ""
+
+#: ../src/dh-window.c:808
+msgid "Go to the next page"
+msgstr ""
+
+#: ../src/dh-window.c:811
+#, fuzzy
+#| msgid "Contents"
+msgid "_Contents Tab"
+msgstr "ནང་དོན་ཚུ།"
+
+#: ../src/dh-window.c:814
+#, fuzzy
+#| msgid "Search"
+msgid "_Search Tab"
+msgstr "འཚོལ་ཞིབ།"
+
+#. View menu
+#: ../src/dh-window.c:818
+msgid "_Larger Text"
+msgstr ""
+
+#: ../src/dh-window.c:819
+msgid "Increase the text size"
+msgstr ""
+
+#: ../src/dh-window.c:821
+msgid "S_maller Text"
+msgstr ""
+
+#: ../src/dh-window.c:822
+msgid "Decrease the text size"
+msgstr ""
+
+#: ../src/dh-window.c:824
+msgid "_Normal Size"
+msgstr ""
+
+#: ../src/dh-window.c:825
+msgid "Use the normal text size"
+msgstr ""
+
+#: ../src/dh-window.c:834
+msgid "Leave fullscreen mode"
+msgstr ""
+
+#: ../src/dh-window.c:841
+msgid "Display in full screen"
+msgstr ""
+
+#. Translators: This refers to text size
+#: ../src/dh-window.c:961
+msgid "Larger"
+msgstr ""
+
+#. Translators: This refers to text size
+#: ../src/dh-window.c:964
+msgid "Smaller"
+msgstr ""
+
+#. i18n: please don't translate
+#. * "Devhelp", it's a name, not a
+#. * generic word.
+#: ../src/dh-window.c:1109
+#, fuzzy
+#| msgid "Devhelp"
+msgid "About Devhelp"
+msgstr "ཌེབ་ཧལཔ།"
+
+#: ../src/dh-window.c:1114
+#, fuzzy
+#| msgid "Preferences"
+msgid "Preferences…"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: ../src/dh-window.c:1156
+msgid "Contents"
+msgstr "ནང་དོན་ཚུ།"
+
+#: ../src/dh-window.c:1166
+msgid "Search"
+msgstr "འཚོལ་ཞིབ།"
+
+#: ../src/dh-window.c:1344
+msgid "Error opening the requested link."
+msgstr ""
+
+#: ../src/dh-window.c:1666 ../src/dh-window.c:1908
+msgid "Empty Page"
+msgstr "ཤོག་ལེབ་སྟོངམ།"
+
+#: ../src/eggfindbar.c:320
+msgid "Find:"
+msgstr ""
+
+#: ../src/eggfindbar.c:333 ../src/eggfindbar.c:336
+msgid "Find previous occurrence of the search string"
+msgstr ""
+
+#: ../src/eggfindbar.c:346 ../src/eggfindbar.c:349
+msgid "Find next occurrence of the search string"
+msgstr ""
+
+#: ../src/eggfindbar.c:358
+msgid "C_ase Sensitive"
+msgstr ""
+
+#: ../src/eggfindbar.c:362 ../src/eggfindbar.c:365
+msgid "Toggle case sensitive search"
+msgstr ""
+
+#~ msgid ""
+#~ "name and link elements are required inside <function> on line %d, column %"
+#~ "d"
+#~ msgstr ""
+#~ "མིང་དང་འབྲེལ་ལམ་རྣམ་གྲངས་ཚུ་ <function> གློག་ལམ་ཐོག་ལུ་ %d, ཀེར་ཐིག་ནང་ན་དགོས་མཁོ་ཡོདཔ། %"
+#~ "d"
+
+#~ msgid "Could not create book parser"
+#~ msgstr "ཀི་དེབ་མིང་དཔྱད་འབད་མི་གསར་བསྐྲུན་འབད་མ་ཚུགས། "
+
+#~ msgid "Could not create markup parser"
+#~ msgstr "རྟགས་བཀོད་ མིང་དཔྱད་འབད་མི་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#~ msgid "Devhelp is not built with zlib support"
+#~ msgstr "ཌེབ་ཧལཔ་འདི་ ཛིལཔ་རྒྱབ་སྐྱོར་དང་བཅསཔ་འབད་བཟོ་བརྩིགས་འབད།"
+
+#~ msgid "Browse Contents"
+#~ msgstr "ནང་དོན་ཚུ་བརྡ་འཚོལ་འབད།"
+
+#~ msgid "Show advanced search options"
+#~ msgstr "ཡར་འཕེལ་འབད་ཡོད་མི་ཞིབ་འཚོལ་གདམ་ཁ་ཚུ་སྟོན།"
+
+#~ msgid "Whether the advanced search options are shown."
+#~ msgstr "ཡར་འཕར་འབད་ཡོད་མི་འཚོལ་ཞིབ་གདམ་ཁ་ཚུ་སྟོན་ཡོདཔ་ཨིན་རུང་མེད་རུང་།"
+
+#~ msgid "<b>Fonts</b>"
+#~ msgstr "<b>ཡིག་གཟུགས་ཚུ།</b>"
+
+#~ msgid "<b>Searching</b>"
+#~ msgstr "<b>འཚོལ་ཞིབ་འབད་དོ།</b>"
+
+#~ msgid "_Back"
+#~ msgstr "རྒྱབ(_B)"
+
+#~ msgid "_Forward"
+#~ msgstr "གདོང་བསྐྱོད།(_F)"
+
+#~ msgid "_Show advanced search options"
+#~ msgstr "ཡར་འཕེལ་ཅན་གྱི་འཚོལ་ཞིབ་གདམ་དབང་སྟོན།(_S)"

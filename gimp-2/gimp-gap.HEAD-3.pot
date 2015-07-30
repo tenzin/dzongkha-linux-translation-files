@@ -1,0 +1,2988 @@
+# translation of gimp-gap.HEAD-3.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Norbu <nor_den@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-gap.HEAD-3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-19 02:39+0200\n"
+"PO-Revision-Date: 2006-05-10 18:36+0600\n"
+"Last-Translator: Norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#. pingpong
+#: ../gap/gap_story_properties.c:1874
+msgid "Pingpong:"
+msgstr "པིང་པོང་:"
+
+#: ../gap/gap_story_properties.c:1890
+msgid "ON: Play clip in pingpong mode"
+msgstr "ཨོ་ཨེན:པིང་པོང་ཐབས་ལམ་ནང་འཛིན་ལྕགས་གཏང་།"
+
+#: ../gap/gap_story_properties.c:1902
+msgid "Stepsize:"
+msgstr "རིམ་པའི་ཚད:"
+
+#. lower/upper
+#. step, page
+#. digits
+#. constrain
+#. lower/upper unconstrained
+#: ../gap/gap_story_properties.c:1909
+msgid "Stepsize density. Use 1.0 for normal 1:1 frame by frame steps. a value of 0.5 shows each input frame 2 times. a value of 2.0 shows only every 2.nd input frame"
+msgstr "རིམ་པའི་ཚད་ཀྱི་སྟུག་ཚད: སྤྱིར་བཏང་༡:༡ གཞི་ཁྲམ་ལས་གཞི་ཁྲམ་རིམ་པ་ཚུའི་དོན་ལུ་༡.༠ ལག་ལེན་འཐབ། ༠.༥ གི་གནས་གོང་ཅིག་གིས་ ཨིན་པུཊི་གི་གཞི་ཁྲམ་རེ་ ཚར་གཉིས་སྟོནམ་ཨིན། ༢.༠ གི་གནས་གོང་གིས་ ཨིན་པུཊི་གཞི་ཁྲམ་གཉིས་པམ་རྐྱངམ་ཅིག་སྟོནམ་ཨིན།"
+
+#. lower/upper
+#. step, page
+#. digits
+#. constrain
+#. lower/upper unconstrained
+#: ../gap/gap_story_properties.c:1930
+msgid "select input videotrack(most videofiles have just 1 track)"
+msgstr "ཨིན་པུཊི་ཝི་ཌིའོ་གླུ་རིམ་སེལ་འཐུ་འབད།(ཝི་ཌིའོ་ཡིག་སྣོད་མང་ཤོས་ནང་ལུ་ གླུ་རིམ་༡ རྐྱངམ་ཅིག་འོངམ་ཨིན)"
+
+#. the Deinterlace Mode label
+#. the deinterlace Mode label
+#: ../gap/gap_story_properties.c:1941
+#: ../gap/gap_vex_dialog.c:2421
+msgid "Deinterlace:"
+msgstr "ལྷས་བཤོལ་འབད:"
+
+#: ../gap/gap_story_properties.c:1967
+msgid "Read videoframes 1:1 without de-interlace filter"
+msgstr "ཝི་ཌིའོ་གཞི་ཁྲམ་ ༡:༡ ཚུ་ལྷས་བཤོལ་འབད་ནིའི་ཚགས་མ་མེད་པར་ལྷག"
+
+#. radio button delace_mode odd
+#: ../gap/gap_story_properties.c:1976
+msgid "Odd"
+msgstr "ཡ་ཅན།"
+
+#: ../gap/gap_story_properties.c:1984
+msgid "Apply odd-lines filter when reading videoframes"
+msgstr "ཝི་ཌིའོ་གཞི་ཁྲམ་ཚུ་ལྷག་པའི་སྐབས་ ཡ་ཅན་གྲལ་ཐིག་ཚུའི་ཚགས་མ་འཇུག་སྤྱོད་འབད།"
+
+#. radio button delace_mode even
+#: ../gap/gap_story_properties.c:1993
+msgid "Even"
+msgstr "ཆ་ཅན།"
+
+#: ../gap/gap_story_properties.c:2001
+msgid "Apply even-lines filter when reading videoframes"
+msgstr "ཝི་ཌིའོ་གཞི་ཁྲམ་ཚུ་ལྷག་པའི་སྐབས་ ཆ་ཅན་གྲལ་ཐིག་ཚུའི་ཚགས་མ་འཇུག་སྤྱོད་འབད།"
+
+#: ../gap/gap_story_properties.c:2026
+msgid "deinterlacing threshold: 0.0 no interpolation 0.999 smooth interpolation"
+msgstr "ལྷས་བཤོལ་འབད་ནིའི་ ཐེརེཤ་ཧོལ: ༠.༠ བསྐྱར་བསྣོན་མེད། ༠.༩༩༩ ཧུམ་ཁྱུག་ཁྱུ་བསྐྱར་བསྣོན།"
+
+#. the duration label
+#: ../gap/gap_story_properties.c:2043
+msgid "Duration:"
+msgstr "དུས་ཡུན:"
+
+#. the comment label
+#. the Comment lable
+#: ../gap/gap_story_properties.c:2132
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3240
+msgid "Comment:"
+msgstr "བསམ་བཀོད:"
+
+#. the filtermacro label
+#: ../gap/gap_story_properties.c:2163
+msgid "Filtermacro:"
+msgstr "ཚགས་མ་མེཀ་རོ:"
+
+#: ../gap/gap_vex_dialog.c:229
+msgid "Overwrite File"
+msgstr "ཚབ་སྲུང་འབད་ནིའི་ཡིག་སྣོད།"
+
+#: ../gap/gap_vex_dialog.c:239
+#, c-format
+msgid "File: %s already exists"
+msgstr "ཡིག་སྣོད: %s ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན།"
+
+#: ../gap/gap_vex_dialog.c:615
+#: ../gap/gap_vex_dialog.c:618
+msgid "Set range to extract"
+msgstr "ཕྱིར་འདོན་འབད་ནིའི་དོན་ལས་ཁྱབ་ཚད་གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_vex_dialog.c:742
+msgid "unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../gap/gap_vex_dialog.c:1648
+msgid "Select input videofile"
+msgstr "ཨིན་པུཊི་ཝི་ཌིའོ་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_vex_dialog.c:1686
+msgid "Select basename for frame(s)"
+msgstr "གཞི་ཁྲམ་(ཚུ་)གི་དོན་ལུ་གཞི་རྟེན་མིང་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_vex_dialog.c:1724
+#: ../vid_common/gap_cme_gui.c:2138
+msgid "Select Audiofilename"
+msgstr "རྣར་ཉན་ཡིག་སྣོད་མིང་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_vex_dialog.c:1867
+msgid "Extract Videorange"
+msgstr "ཝི་ཌིའོ་ཁྱབ་ཚད་ཕྱིར་འདོན་འབད།"
+
+#. gtk_container_set_border_width (GTK_CONTAINER (mw__vbox1), 5);
+#. XXXXXXXXXXX Player Frame  XXXXXXXXXXXX
+#. the player_frame
+#: ../gap/gap_vex_dialog.c:1897
+msgid "Select Videorange"
+msgstr "ཝི་ཌིའོ་ཁྱབ་ཚད་སེལ་འཐུ་འབད།"
+
+#. the mw__player_frame widget is hidden at startup
+#. * and becomes visible, when the user wants to select
+#. * the videorange via player in docked mode
+#.
+#. gtk_widget_show (mw__player_frame);
+#. not yet, show the widget later
+#: ../gap/gap_vex_dialog.c:1911
+msgid "Input Video selection"
+msgstr "ཨིན་པུཊི་ཝི་ཌིའོ་གི་སེལ་འཐུ་འབད་ནི།"
+
+#. the videofile label
+#: ../gap/gap_vex_dialog.c:1930
+msgid "Videofilename:"
+msgstr "ཝི་ཌིའོ་ཡིག་སྣོད་མིང་:"
+
+#: ../gap/gap_vex_dialog.c:1948
+msgid "Name of videofile (used as inputfile)"
+msgstr "ཝི་ཌིའོ་ཡིག་སྣོད་ཀྱི་མིང་(ཨིན་པུཊི་ཡིག་སྣོད་སྦེ་ལག་ལེན་འཐབ་ཡོད་མི)"
+
+#. the videofile button (that invokes fileselection dialog)
+#. the basename button (that invokes the fileselection dialog)
+#. the output audiofile button (that invokes the fileselection dialog)
+#. the (output) video filebrowser button
+#. the Macrofile filebrowser button
+#. the Storyboard filebrowser button
+#. the Audiofile filebrowser button
+#. the pass_logfile fileselector button
+#: ../gap/gap_vex_dialog.c:1952
+#: ../gap/gap_vex_dialog.c:2307
+#: ../gap/gap_vex_dialog.c:2487
+#: ../vid_common/gap_cme_gui.c:2523
+#: ../vid_common/gap_cme_gui.c:2652
+#: ../vid_common/gap_cme_gui.c:2688
+#: ../vid_common/gap_cme_gui.c:3004
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2987
+msgid "..."
+msgstr "..."
+
+#: ../gap/gap_vex_dialog.c:1959
+msgid "Select video using file browser"
+msgstr "ཡིག་སྣོད་བརའུ་ཟར་ལག་ལེན་འཐབ་ཐོག་ཝི་ཌིའོ་སེལ་འཐུ་འབད།"
+
+#. MMX sometimes gives unusable results, and therefore is always OFF
+#. * checkbox is not needed any more..
+#.
+#: ../gap/gap_vex_dialog.c:1966
+msgid "Disable MMX"
+msgstr "ཨེམ་ཨེམ་ཨེགསི་ ལྕོགས་མིན་བཟོ།"
+
+#: ../gap/gap_vex_dialog.c:1994
+msgid "Frame number of 1.st frame to extract"
+msgstr "ཕྱིར་འདོན་འབད་ནིའི་དོན་ལས་གཞི་ཁྲམ་དང་པམ་གི་གཞི་ཁྲམ་ཨང་།"
+
+#. the videorange button (that invokes the player for video range selection)
+#: ../gap/gap_vex_dialog.c:2004
+msgid "Video Range"
+msgstr "ཝི་ཌིའོ་ཁྱབ་ཚད།"
+
+#: ../gap/gap_vex_dialog.c:2012
+msgid ""
+"Visual video range selection via videoplayer\n"
+"SHIFT: Open a separate player window"
+msgstr ""
+"མཐོང་ཚུགས་པའི་ཝི་ཌིའོ་ཁྱབ་ཚད་ཀྱི་སེལ་འཐུ་ ཝི་ཌིའོ་གཏང་འཕྲུལ་བརྒྱུད་དེ\n"
+"SHIFT: གཏང་འཕྲུལ་གྱི་སྒོ་སྒྲིག་སོ་སོ་ཅིག་ཁ་ཕྱེ།"
+
+#: ../gap/gap_vex_dialog.c:2043
+msgid "Frame number of last frame to extract. To extract all frames use a range from 1 to 999999. (Extract stops at the last available frame)"
+msgstr "ཕྱིར་འདོན་འབད་ནིའི་དོན་ལས་གཞི་ཁྲམ་མཇུག་གི་གཞི་ཁྲམ་ཨང་། གཞི་ཁྲམ་ཚུ་ཆ་མཉམ་ཕྱིར་འདོན་འབད་ནིའི་དོན་ལས་་ཁྱབ་ཚད་ ༡ ལས་ ༩༩༩༩༩༩ ལུ་འབད་མི་ཅིག་ལག་ལེན་འཐབ།(ཕྱིར་འདོན་འབད་ནི་འདི་ འཐོབ་ཚུགས་པའི་གཞི་ཁྲམ་མཇུག་ལུ་བཀགཔ་ཨིན།)"
+
+#. the videorange button (that invokes the player for video range selection in docked mode)
+#: ../gap/gap_vex_dialog.c:2056
+msgid "VideoRange"
+msgstr "ཝི་ཌིའོ་ཁྱབ་ཚད།"
+
+#: ../gap/gap_vex_dialog.c:2093
+msgid "Videotrack number (0 == extract no frames)"
+msgstr "ཝི་ཌིའོ་གླུ་རིམ་ ཨང་(༠==གཞི་ཁྲམ་མེད་མི་ཕྱིར་འདོན་འབད)"
+
+#: ../gap/gap_vex_dialog.c:2127
+msgid "Audiotrack number (0 == extract no audio)"
+msgstr "རྣར་ཉན་གླུ་རིམ་ ཨང་(༠==རྣར་ཉན་མེད་མི་ཕྱིར་འདོན་འབད)"
+
+#: ../gap/gap_vex_dialog.c:2156
+msgid "leave empty or select your preferred decoder (libmpeg3, libavformat, quicktime4linux)"
+msgstr "ཁྱོད་རང་གི་དགའ་བའི་ཌི་ཀེ་ཌར་ སྟོངམ་ ཡང་ན་ སེལ་འཐུ་འབད (ལིམ་པེག་༣། ལི་བབ་རྩ་སྒྲིག་ འཕྲལ་མགྱོགས་ཆུ་ཚོད་༤ ལི་ནགསི)"
+
+#: ../gap/gap_vex_dialog.c:2162
+msgid "(none, automatic)"
+msgstr "(ཅི་མེད་ རང་བཞིན)"
+
+#. the (Active) Decoder Label(s)
+#: ../gap/gap_vex_dialog.c:2186
+msgid "Active Decoder:"
+msgstr "ཤུགས་ལྡན་ཌི་ཀོ་ཌར:"
+
+#: ../gap/gap_vex_dialog.c:2196
+#: ../gap/gap_vex_dialog.c:2234
+msgid "****"
+msgstr "****"
+
+#. exact_seek option to disable fast videoindex based positioning.
+#. * (the videoapi delivers exact frame positions on most videos
+#. *  but sometimes is not exact when libmepg3 is used)
+#.
+#: ../gap/gap_vex_dialog.c:2209
+msgid "Exact Seek"
+msgstr "ཏག་ཏག་འཚོལ་ནི།"
+
+#: ../gap/gap_vex_dialog.c:2212
+msgid "ON: emulate seek operations by sequential reads, even when videoindex is available"
+msgstr "ཨོ་ཨེན: ཝི་ཌིའོ་ཟུར་ཐོ་འདི་ཐོབ་ཚུགསཔ་ཡོད་དེ་རང་འབད་རུང་ རྒྱུན་ལྡན་གྱི་ལྷག་ནི་ཚུ་གིས་བཀོལ་སྤྱོད་ཚུ་ འགྲན་ཟླ་གིས་འཚོལཝ་ཨིན།"
+
+#. the Aspect Ratio Label(s)
+#: ../gap/gap_vex_dialog.c:2224
+msgid "Aspect Ratio:"
+msgstr "རྣམ་པའི་དཔྱ་ཚད:"
+
+#. the output frame
+#: ../gap/gap_vex_dialog.c:2248
+#: ../vid_common/gap_cme_gui.c:2497
+msgid "Output"
+msgstr "ཨའུཊི་པུཊི།"
+
+#. the multilayer checkbox (decide if extract writes to frames on disc or to one image)
+#: ../gap/gap_vex_dialog.c:2274
+msgid "Create only one multilayer Image"
+msgstr "སྣ་མང་གི་གཟུགས་བརྙན་གཅིག་རྐྱངམ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../gap/gap_vex_dialog.c:2280
+msgid ""
+"On: extracted frames are stored in one multilayer image\n"
+"Off: extracted frames are written to frame files on disc"
+msgstr ""
+"ཨོན: ཕྱིར་འདོན་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་ སྣ་མང་བང་རིམ་གྱི་གཟུགས་བརྙན་གཅིག་ནང་རྐྱངམ་ཅིག་གསོག་འཇོག་འབད་ཡོདཔ་ཨིན།\n"
+"ཨོཕ: ཕྱིར་འདོན་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་ ཌིགསི་གུའི་གཞི་ཁྲམ་ཡིག་སྣོད་ཚུ་ནང་བྲིས་ཡོདཔ་ཨིན།"
+
+#: ../gap/gap_vex_dialog.c:2303
+msgid "Basename for extracted frames (framenr and extension is added)"
+msgstr "ཕྱིར་འདོན་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་གཞི་རྟེན་མིང་(གཞི་ཁྲམ་ཨི་ཨེན་ཨར་ དང་རྒྱ་བསྐྱེད་འབད་ནི་འདི་ཁ་སྐོང་རྐྱབས་ཡོད)"
+
+#: ../gap/gap_vex_dialog.c:2304
+msgid "frame_"
+msgstr "གཞི་ཁྲམ།(_)"
+
+#: ../gap/gap_vex_dialog.c:2314
+msgid "Use filebrowser to select basename for extracted frames"
+msgstr "ཕྱིར་འདོན་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་ གཞི་རྟེན་མིང་སེལ་འཐུ་འབད་ནིའི་དོན་ལས་ ཡིག་སྣོད་བརའུ་ཟར་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_vex_dialog.c:2345
+msgid "Digits to use for framenumber part in filenames (use 1 if you dont want leading zeroes)"
+msgstr "ཡིག་སྣོད་མིང་ཚུ་ནང་གཞི་ཁྲམ་ཨང་གི་ཡན་ལག་གི་དོན་ལུ་ལག་ལན་འཐབ་ནིའི་ཨངཡིག(ཁྱོད་ཀྱིས་སྔོན་བསྐྱོད་ཀླད་ཀོར་ཚུ་མ་དགོཔ་ཨིན་པ་ཅིན་ ༡ ལག་ལེན་འཐབ།)"
+
+#: ../gap/gap_vex_dialog.c:2378
+msgid "Extension of extracted frames (.xcf, .jpg, .ppm)"
+msgstr "ཕྱིར་འདོན་འབད་འབད་བའི་གཞི་ཁྲམ་ཚུའི་རྒྱ་བསྐྱེད(.xcf, .jpg, .ppm)"
+
+#: ../gap/gap_vex_dialog.c:2379
+msgid ".xcf"
+msgstr ".xcf"
+
+#. the framenumber for 1st frame label
+#: ../gap/gap_vex_dialog.c:2390
+msgid "Framenr 1:"
+msgstr "ཕེརེམ་ནར་ ༡:"
+
+#: ../gap/gap_vex_dialog.c:2411
+msgid "Framenumber for 1st extracted frame (use 0 for keeping original framenumbers)"
+msgstr "དང་པ་ཕྱིར་འདོན་འབད་འབད་བའི་གཞི་ཁྲམ་གྱི་དོན་ལུ་གཞི་ཁྲམ་ཨང་(གཞི་ཁྲམ་ཨང་ངོ་མ་ཚུ་བཞག་ནིའི་དོན་ལུ་ ༠ ལག་ལེན་འཐབ)"
+
+#: ../gap/gap_vex_dialog.c:2442
+msgid "0.0 .. no interpolation, 1.0 smooth interpolation at deinterlacing"
+msgstr "༠.༠ .. བསྐྱར་བསྣོན། ལྷས་བཤོལ་འབད་ནི་ལུ་ ༡.༠ ཧུམ་ཁྱུག་ཁྱུ་བསྐྱར་བསྣོན།"
+
+#: ../gap/gap_vex_dialog.c:2447
+msgid "no deinterlace"
+msgstr "ལྷས་བཤོལ་འབད་ནི་མེད།"
+
+#: ../gap/gap_vex_dialog.c:2448
+msgid "deinterlace (odd lines only)"
+msgstr "ལྷས་བཤོལ་འབད(ཡ་ཅན་གྲལ་ཐིག་ཚུ་རྐྱངམ་ཅིག)"
+
+#: ../gap/gap_vex_dialog.c:2449
+msgid "deinterlace (even lines only)"
+msgstr "ལྷས་བཤོལ་འབད་ནི་(ཆ་ཅན་གྲལ་ཐིག་ཚུ་རྐྱངམ་ཅིག)"
+
+#: ../gap/gap_vex_dialog.c:2450
+msgid "deinterlace frames x 2 (odd 1st)"
+msgstr "ལྷས་བཤོལ་འབད་ནིའི་གཞི་ཁྲམ་ x ༢(ཡ་ཅན་ དང་པ)"
+
+#: ../gap/gap_vex_dialog.c:2451
+msgid "deinterlace frames x 2 (even 1st)"
+msgstr "ལྷས་བཤོལ་འབད་ནིའི་གཞི་ཁྲམ་ x ༢(ཆ་ཅན་ དང་པ)"
+
+#: ../gap/gap_vex_dialog.c:2462
+msgid "Deinterlace splits each extracted frame in 2 frames"
+msgstr "ལྷས་བཤོལ་འབད་ནི་གིས་ཕྱིར་འདོན་འབད་འབད་བའི་གཞི་ཁྲམ་རེ་རེ་བཞིན་ གཞི་ཁྲམ་ ༢ ནང་ གཤགཔ་ཨིན།"
+
+#: ../gap/gap_vex_dialog.c:2483
+msgid "Name for extracted audio (audio is written in RIFF WAV format)"
+msgstr "ཕྱིར་འདོན་འབད་འབད་བའི་རྣར་ཉན་གྱི་དོན་ལུ་མིང་(རྣར་ཉན་འདི་ ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཌབ་ལུ་ཨེ་ཝི་ རྩ་སྒྲིག་ནང་བྲིས་ཡོདཔ་ཨིན)"
+
+#: ../gap/gap_vex_dialog.c:2484
+msgid "frame.wav"
+msgstr "frame.wav"
+
+#: ../gap/gap_vex_dialog.c:2494
+msgid "Use filebrowser to select audiofilename"
+msgstr "རྣར་ཉན་ཡིག་སྣོད་མིང་སེལ་འཐུ་འབད་ནིའི་དོན་ལས་ཡིག་སྣོད་བརའུ་ཟར་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_vex_dialog.c:2500
+msgid "Start extraction"
+msgstr "ཕྱིར་འདོན་འབད་ནི་འགོ་བཙུགས།"
+
+#: ../gap/gap_vex_exec.c:391
+msgid "Seek Frame Position..."
+msgstr "གཞི་ཁྲམ་གྱི་གནས་ཁོངས་འཚོལ..."
+
+#: ../gap/gap_vex_exec.c:443
+msgid "Extracting Frames..."
+msgstr "གཞི་ཁྲམ་ཚུ་ཕྱིར་འདོན་འབད་དོ..."
+
+#: ../gap/gap_vex_exec.c:599
+msgid "Seek Audio Position..."
+msgstr "རྣར་ཉན་གྱི་གནས་ཁོངས་འཚོལ..."
+
+#: ../gap/gap_vex_exec.c:634
+msgid "Extracting Audio..."
+msgstr "རྣར་ཉན་ཕྱིར་འདོན་འབད་དོ..."
+
+#: ../gap/gap_vex_main.c:180
+msgid "<Image>/Video/Split Video into Frames/Extract Videorange"
+msgstr "<Image>/ཝི་ཌིའོ/ཝི་ཌིའོ་འདི་གཞི་ཁྲམ་ནང་ལུ་གཤག/ཝི་ཌིའོ་ཁྱབ་ཚད་ཕྱིར་འདོན་འབད"
+
+#: ../gap/gap_vex_main.c:200
+msgid "<Toolbox>/Xtns/Split Video into Frames/Extract Videorange"
+msgstr "<Toolbox>/ཨེགསི་ཊི་ཨེན་ཨེསི/ཝི་ཌིའོ་འདི་གཞི་ཁྲམ་ནང་ལུ་གཤག/ཝི་ཌིའོ་ཁྱབ་ཚད་ཕྱིར་འདོན་འབད"
+
+#: ../gap/gap_vex_main.c:258
+msgid "MAIN_TST"
+msgstr "ཊི་ཨེསི་ཊི་ངོ་མ(_T)"
+
+#: ../gap/gap_vex_main.c:378
+msgid ""
+"Videoextract is not available because GIMP-GAP was configured and compiled with\n"
+" --disable-videoapi-support"
+msgstr ""
+"ཝི་ཌིའོ་ཕྱིར་འདོན་འབད་ནི་འདི་ཐོབ་ཚུགསཔ་མེད་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཇིམཔ་-གེཔ་དེ་རིམ་སྒྲིག་དང་ཕྱོགས་སྒྲིག་\n"
+"--ལྕོགས་མིན་བཟོ་ཡོད་པའི་-ཝི་ཌིའོ་ཨེ་པི་ཨའི་-རྒྱབ་སྐྱོར་དང་ཅིག་ཁར་ འབད་ཡོདཔ་ཨིན།"
+
+#: ../gap/gap_wr_color_curve.c:396
+#, c-format
+msgid "Unable to open file %s"
+msgstr "ཡིག་སྣོད་ %s ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../gap/gap_wr_color_curve.c:529
+msgid "<Image>/Video/Layer/Colors/CurvesFile..."
+msgstr "<Image>/ཝི་ཌིའོ་/བང་རིམ/ཚོས་གཞི་ཚུ/གུག་གུགཔ་ཡིག་སྣོད..."
+
+#: ../gap/gap_wr_color_curve.c:794
+msgid "Load color curve from file"
+msgstr "ཡིག་སྣོད་ལས་ཚོས་གཞི་གུག་གུགཔ་མངོན་གསལ་འབད།"
+
+#. The dialog and main vbox
+#: ../gap/gap_wr_color_curve.c:888
+msgid "CurvesFile"
+msgstr "གུག་གུགཔཡིག་སྣོད།"
+
+#. The Load button
+#: ../gap/gap_wr_color_curve.c:915
+msgid "Load Curve"
+msgstr "གུག་གུགཔ་མངོན་གསལ་འབད།"
+
+#: ../gap/gap_wr_color_curve.c:922
+msgid "Load curve from a GIMP curve file (that was saved with the GIMP's color curve tool)"
+msgstr "ཇིམཔ་གུག་གུགཔ་ཡིག་སྣོད་ཅིག་ལས་གུག་གུགཔ་མངོན་གསལ་འབད(ཇིམཔ་གྱི་ཚོས་གཞི་གུག་གུགཔ་ལག་ཆས་དང་ཅིག་ཁར་སྲུང་བཞག་འབད་འབདཝ)"
+
+#: ../gap/gap_wr_color_huesat.c:262
+msgid "<Image>/Video/Layer/Colors/Hue-Saturation..."
+msgstr "<Image>/ཝི་ཌིའོ/བང་རིམ/ཚོས་གཞི་ཚུ/ཚོན་མདངས-མཐའ་ཚད།..."
+
+#. The dialog1 and main vbox
+#: ../gap/gap_wr_color_huesat.c:571
+msgid "Hue-Saturation"
+msgstr "ཚོན་མདངས-མཐའ་ཚད།..."
+
+#. the frame
+#: ../gap/gap_wr_color_huesat.c:606
+msgid "Hue / Lightness / Saturation Adjustments "
+msgstr "ཚོན་མདངས/འོད་མདངས/མཐའ་ཚད་བདེ་སྒྲིག་ཚུ།"
+
+#. Hue Mode the label
+#: ../gap/gap_wr_color_huesat.c:625
+msgid "Hue Mode:"
+msgstr "ཚོན་མདངས་ཀྱི་ཐབས་ལམ:"
+
+#. Hue Mode the radio buttons
+#. Channel the radio buttons
+#: ../gap/gap_wr_color_huesat.c:633
+#: ../gap/gap_wr_color_levels.c:636
+msgid "Master"
+msgstr "ཨམ།"
+
+#: ../gap/gap_wr_color_huesat.c:638
+#: ../gap/gap_wr_color_levels.c:641
+msgid "Red"
+msgstr "དམརཔོ།"
+
+#: ../gap/gap_wr_color_huesat.c:643
+msgid "Yellow"
+msgstr "སེརཔོ།"
+
+#: ../gap/gap_wr_color_huesat.c:648
+#: ../gap/gap_wr_color_levels.c:646
+msgid "Green"
+msgstr "ལྗང་ཁུ།"
+
+#: ../gap/gap_wr_color_huesat.c:653
+msgid "Cyan"
+msgstr "སྔོ་ལྗང་།"
+
+#: ../gap/gap_wr_color_huesat.c:658
+#: ../gap/gap_wr_color_levels.c:651
+msgid "Blue"
+msgstr "ཧོནམ།"
+
+#: ../gap/gap_wr_color_huesat.c:663
+msgid "Magenta"
+msgstr "དམར་སྨུག།"
+
+#: ../gap/gap_wr_color_huesat.c:675
+msgid "Hue:"
+msgstr "ཚོན་མདངས:"
+
+#: ../gap/gap_wr_color_huesat.c:682
+msgid "Lightness:"
+msgstr "འོད་མདངས:"
+
+#: ../gap/gap_wr_color_huesat.c:689
+msgid "Saturation:"
+msgstr "མཐའ་ཚད:"
+
+#: ../gap/gap_wr_color_levels.c:271
+msgid "<Image>/Video/Layer/Colors/Levels..."
+msgstr "<Image>/ཝི་ཌིའོ་/བང་རིམ་/ཚོས་གཞི་ཚུ/གནས་རིམ་ཚུ..."
+
+#. The dialog1 and main vbox
+#: ../gap/gap_wr_color_levels.c:586
+msgid "Color Levels"
+msgstr "ཚོས་གཞིའི་གནས་རིམ་ཚུ།"
+
+#. the frame
+#: ../gap/gap_wr_color_levels.c:613
+msgid "Color Levels  Adjustments "
+msgstr "ཚོས་གཞི་གནས་རིམ་ཚུའི་བདེ་སྒྲིག་ཚུ།"
+
+#. Channel the label
+#: ../gap/gap_wr_color_levels.c:629
+msgid "Channel:"
+msgstr "རྒྱུ་ལམ:"
+
+#: ../gap/gap_wr_color_levels.c:656
+msgid "Alpha"
+msgstr "ཨཱལ་ཕ།"
+
+#: ../gap/gap_wr_color_levels.c:668
+msgid "Low Input:"
+msgstr "ཨིན་པུཊི་དམའ་མི:"
+
+#: ../gap/gap_wr_color_levels.c:675
+msgid "High Input:"
+msgstr "ཨིན་པུཊི་མཐོ་མི:"
+
+#: ../gap/gap_wr_color_levels.c:682
+msgid "Gamma:"
+msgstr "གམ་མ:"
+
+#: ../gap/gap_wr_color_levels.c:689
+msgid "Low Output:"
+msgstr "ཨའུཊི་དམའ་མི:"
+
+#: ../gap/gap_wr_color_levels.c:696
+msgid "High Output:"
+msgstr "ཨའུཊི་པུཊི་མཐོ་མི:"
+
+#: ../gap/gap_wr_opacity.c:139
+msgid "<Image>/Video/Layer/Set Layer Opacity..."
+msgstr "<Image>/ཝི་ཌིའོ་/བང་རིམ་/བང་རིམ་གྱི་དྭངས་སྒྲིབ་གཞི་སྒྲིག་འབད..."
+
+#: ../gap/gap_wr_opacity.c:322
+msgid "New opacity value where 0 is transparent and 100.0 is opaque"
+msgstr "༠ འདི་དྭངས་གསལ་ཅན་ དང་ ༡༠༠.༠་འདི་དྭངས་སྒྲིབ་ཅན་ཨིན་མི་ དྭངས་སྒྲིབ་ཀྱི་གནས་གོང་གསརཔ།"
+
+#: ../gap/gap_wr_opacity.c:333
+msgid "Modes set opacity or change the old opacity value by adding, subtracting or multiply by the supplied new value"
+msgstr "གནས་གོང་གསརཔ་གི་བཀྲམ་སྤེལ་འབད་ཡོད་མི་གིས་ ཁ་སྐོང་རྐྱབས་པ་ ཕབ་པ་ ཡང་ན་དགུ་མཐའ་རྐྱབས་ཐོག་ ཐབས་ལམ་ཚུ་གིས་དྭངས་སྒྲིབ་གཞི་སྒྲིག་ཡང་ན་དྭངས་སྒྲིབ་རྙིངམ་གི་གནས་གོང་དེ་བསྒྱུར་བཅོས་འབདཝ་ཨིན།"
+
+#: ../gap/gap_wr_opacity.c:345
+msgid "Reset all Parameters to Default Values"
+msgstr "ཚད་བཟུང་ཚུ་ཆ་མཉམ་ སྔོན་སྒྲིག་གི་གནས་གོང་ཚུ་ནང་བསྐྱར་སྒྲིག་འབད།"
+
+#: ../gap/gap_wr_opacity.c:347
+msgid "Set Layer Opacity"
+msgstr "བང་རིམ་གྱི་དངས་སྒྲིབ་གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_wr_trans.c:168
+msgid "<Image>/Video/Layer/Transform/Flip Horizontal"
+msgstr "<Image>/ཝི་ཌི་འོ་/བང་རིམ་/བཟོ་བསྒྱུར་/ཐད་སྙོམས་ མྱུར་ལྷོག་འབད།"
+
+#: ../gap/gap_wr_trans.c:185
+msgid "<Image>/Video/Layer/Transform/Flip Vertical"
+msgstr "<Image>/ཝི་ཌི་འོ་/བང་རིམ་/བཟོ་བསྒྱུར་/ཀེར་ཕྲང་ མྱུར་ལྷོག་འབད།"
+
+#: ../gap/gap_wr_trans.c:202
+msgid "<Image>/Video/Layer/Transform/Rotate 90 degrees CW"
+msgstr "<Image>/ཝི་ཌི་འོ་/བང་རིམ་/བཟོ་བསྒྱུར་/ཁུག་ཟུར་ ༩༠ སི་ཌབ་ལུ་ བསྒྱིར།"
+
+#: ../gap/gap_wr_trans.c:220
+msgid "<Image>/Video/Layer/Transform/Rotate 180 degrees"
+msgstr "<Image>/ཝི་ཌི་འོ་/བང་རིམ་/བཟོ་བསྒྱུར་/ཁུག་ཟུར་ ༡༨༠ སི་ཌབ་ལུ་ བསྒྱིར།"
+
+#: ../gap/gap_wr_trans.c:237
+msgid "<Image>/Video/Layer/Transform/Rotate 90 degrees CCW"
+msgstr "<Image>/ཝི་ཌི་འོ་/བང་རིམ་/བཟོ་བསྒྱུར་/ཁུག་ཟུར་ ༩༠ སི་སི་ཌབ་ལུ་ བསྒྱིར།"
+
+#: ../gap/gap_wr_trans.c:354
+#, c-format
+msgid ""
+"The plug-in %s\n"
+"operates only on layers\n"
+"(but was called on mask or channel)"
+msgstr ""
+"པ་ལག་-ཨིན་ %s\n"
+"གིས་བང་རིམ་ལུ་རྐྱངམ་ཅིག་བཀོལ་སྤྱོད་འབདཝ་ཨིན\n"
+"(དེ་འབདཝ་ད་ འདི་གདོང་ཁེབས་ཡང་ན་རྒྱུ་ལམ་ལུ་རྐྱངམ་ཅིག་བོད་བརྡ་འབད་ནུག)"
+
+#: ../libgapvidapi/gap_vid_api_mpeg3.c:829
+#, c-format
+msgid ""
+"ERROR: Failed to write videoindex tocfile\n"
+"tocfile: '%s'\n"
+"%s"
+msgstr ""
+"འཛོལ་བ:ཝི་ཌིའོ་ཟུར་ཐོ་ ཊི་ཨོ་སི་ཡིག་སྣོད་རྩོམ་སྒྲིག་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"ཊི་ཨོ་སི་ཡིག་སྣོད: '%s'\n"
+"%s"
+
+#: ../libgapvidapi/gap_vid_api_vidindex.c:401
+#, c-format
+msgid ""
+"ERROR: Failed to write videoindex file\n"
+"file: '%s'\n"
+"%s"
+msgstr ""
+"འཛོལ་བ:ཝི་ཌིའོ་ཟུར་ཐོ་ ཊི་ཨོ་སི་ཡིག་སྣོད་རྩོམ་སྒྲིག་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"ཡིག་སྣོད: '%s'\n"
+"%s"
+
+#: ../libgapvidutil/gap_gve_sox.c:191
+#, c-format
+msgid ""
+"ERROR: Cant overwrite temporary workfile\n"
+"file: %s"
+msgstr ""
+"འཛོལ་བ:གནས་སྐབས་ཀྱི་ལཱ་གཡོག་ཡིག་སྣོད་ ཚབ་སྲུང་འབད་མི་ཚུགས།\n"
+"ཡིག་སྣོད: %s"
+
+#: ../libgapvidutil/gap_gve_sox.c:209
+#, c-format
+msgid ""
+"ERROR: Could not create resampled WAV workfile\n"
+"\n"
+"1.) check write permission on \n"
+"  file:  %s\n"
+"2.) check if SOX (version >= 12.16) is installed:\n"
+"  prog:  %s\n"
+msgstr ""
+"འཛོལ་བ: ལོག་དཔེ་ཚད་བཟོ་བཟོ་བཟི་ཌབ་ཨེ་ཝི་ ལཱ་གཡོག་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་མ་ཚུགས\n"
+"\n"
+"༡.)འབྲི་ནིའི་གནང་བ་འདི་\n"
+"ཡིག་སྣོད་གུ་ཞིབ་དཔྱད་འབད:%s\n"
+"༢.)ཨེསི་ཨོ་ཨེགསི་(ཐོན་རིམ་>=༡༢.༡༦)འདི་གཞི་བཙུགས་འབད་ཡོདཔ་ཨིན་པ་ཅིན་ཞིབ་དཔྱད་འབད:\n"
+"  པོ་རོག:  %s\n"
+
+#: ../libgapvidutil/gap_gve_story.c:575
+#, c-format
+msgid "encoding_video_frame_%06d"
+msgstr "ཨིན་ཀོ་ཌིང་_ཝི་ཌི་འོ་_གཞི་ཁྲམ་_%06d"
+
+#: ../libgapvidutil/gap_gve_story.c:1249
+#, c-format
+msgid "cant load:  %s to memory"
+msgstr "མངོན་གསལ་འབད་མི་ཚུགས: %s དྲན་ཚད་ནང་ལུ།"
+
+#: ../libgapvidutil/gap_gve_story.c:1556
+msgid "checking audio peaks"
+msgstr "རྣར་ཉན་གྱི་རྩེ་ཚུ་ཞིབ་དཔྱད་འབད་དོ།"
+
+#: ../libgapvidutil/gap_gve_story.c:1578
+msgid "writing composite audiofile"
+msgstr "སྣ་སྡུད་རྣར་ཉན་ཡིག་སྣོད་རྩོམ་སྒྲིག་འབད་དོ།"
+
+#: ../libgapvidutil/gap_gve_story.c:1591
+#, c-format
+msgid "cant write audio to file: %s "
+msgstr "རྣར་ཉན་ ཡིག་སྣོད་ནང་ལུ་རྩོམ་སྒྲིག་འབད་མི་ཚུགས: %s "
+
+#: ../libgapvidutil/gap_gve_story.c:1598
+#: ../vid_common/gap_cme_gui.c:1295
+#: ../vid_common/gap_cme_gui.c:1461
+msgid "ready"
+msgstr "གྲ་སྒྲིག"
+
+#: ../libgapvidutil/gap_gve_story.c:1950
+msgid "extracting audio to tmp audiofile"
+msgstr "རྣར་ཉན་ གནས་སྐབས་ཀྱི་རྣར་ཉན་ནང་ལུ་ཕྱིར་འདོན་འབད་དོ།"
+
+#: ../libgapvidutil/gap_gve_story.c:1955
+msgid "seeking audio"
+msgstr "རྣར་ཉན་འཚོལ་དོ།"
+
+#: ../libgapvidutil/gap_gve_story.c:2166
+#, c-format
+msgid "file not found:  %s for audioinput"
+msgstr "ཡིག་སྣོད་འཚོལ་མ་ཐོབ: རྣར་ཉན་ཨིན་པུཊི་གི་དོན་ལུ་  %s "
+
+#: ../libgapvidutil/gap_gve_story.c:2281
+#: ../libgapvidutil/gap_gve_story.c:2419
+msgid "converting audio (via external programm)"
+msgstr "རྣར་ཉན་གཞི་བསྒྱུར་འབད་དོ(ཕྱིའི་ལས་རིམ་བརྒྱུད་དེ)"
+
+#: ../libgapvidutil/gap_gve_story.c:2340
+#: ../libgapvidutil/gap_gve_story.c:2468
+#, c-format
+msgid "cant use file:  %s as audioinput"
+msgstr "ཡིག་སྣོད་ལག་ལེན་འཐབ་མི་ཚུགས: %s འདི་རྣར་ཉན་ཨིན་པུཊི་སྦེ།"
+
+#: ../libgapvidutil/gap_gve_story.c:2357
+#: ../libgapvidutil/gap_gve_story.c:2770
+#, c-format
+msgid "ERROR file: %s is not a supported videoformat"
+msgstr "འཛོལ་བའི་ཡིག་སྣོད: %s འདི་རྒྱབ་སྐྱོར་འབད་འབད་བའི་ཝི་ཌིའོ་རྩ་སྒྲིག་ཅིག་མེན་པས།"
+
+#: ../libgapvidutil/gap_gve_story.c:2795
+#, c-format
+msgid "loading error on animimage:  %s"
+msgstr "ཨེ་ནི་གཟུགས་བརྙན་གུ་མངོན་གསལ་འབད་ནིའི་འཛོལ་བ: %s "
+
+#: ../libgapvidutil/gap_gve_story.c:2813
+#, c-format
+msgid "imagefile not found:  %s"
+msgstr "གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་འཚོལ་མ་ཐོབ: %s "
+
+#: ../libgapvidutil/gap_gve_story.c:2924
+#, c-format
+msgid "no framefile(s) found at:  %s"
+msgstr "ལུ་གཞི་ཁྲམ་གྱི་ཡིག་སྣོད་(ཚུ་)འཚོལ་མ་ཐོབ: %s "
+
+#: ../libgapvidutil/gap_gve_story.c:3534
+#, c-format
+msgid "analyze line %d (out of %d)"
+msgstr "གྲལ་ཐིག་%d (%d ལས) དཔྱད་ཞིབ་འབད།"
+
+#: ../libgapvidutil/gap_gve_story.c:3650
+msgid "No Frames or Images found ...."
+msgstr "གཞི་ཁྲམ་ཡང་ན་གཟུགས་བརྙན་ཚུ་འཚོལ་མ་ཐོབ..."
+
+#: ../libgapvidutil/gap_gve_story.c:4711
+msgid "Seek Inputvideoframe..."
+msgstr "ཨིན་པུཊི་ཝི་ཌིའོ་གཞི་ཁྲམ་ འཚོལ..."
+
+#: ../libgapvidutil/gap_gve_story.c:4716
+msgid "Continue Encoding..."
+msgstr "ཨིན་ཀོ་ཌིང་འཕྲོ་མཐུད..."
+
+#: ../vid_common/gap_cme_gui.c:165
+msgid "GAP Message"
+msgstr "ཇི་ཨེ་པི་ འཕྲིན་དོན།"
+
+#: ../vid_common/gap_cme_gui.c:188
+msgid "Encoder specific Parameter Window still open"
+msgstr "ཨིན་ཀོ་ཌར་དམིགས་བསལ་ཚད་བཟུང་གི་སྒོ་སྒྲིག་འདི་ད་ལྟོ་ཡང་ཁ་ཕྱེ་སྟེ་འདུག"
+
+#: ../vid_common/gap_cme_gui.c:445
+msgid "no description available"
+msgstr "འགྲེལ་བཤད་གཅིག་ཡང་ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../vid_common/gap_cme_gui.c:760
+msgid ""
+"Storyboardfiles are textfiles that are used to\n"
+"assemble a video from a list of single images,\n"
+"frameranges, videoclips, gif animations or audiofiles.\n"
+"the frames are organized in tracks,\n"
+"and allow fading, scale and move\n"
+"operations between the tracks.\n"
+"(see STORYBOARD_FILE_DOC.txt for details)"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ཚུ་ ཚིག་ཡིག་ཡིག་སྣོད་\n"
+"ཝི་ཌིའོ་ཅིག་ གཟུགས་བརྙན་\n"
+"གཞི་ཁྲམ་ཁྱབ་ཚད་ ཝི་ཌིའོ་འཛིན་ལྕགས་ཚུ་ ཇི་ཨའི་ཨེཕ་ བསྒུལ་ཅན་བཟོ་ནི་ཚུ་ཡང་ན་རྣར་ཉན་ཡིག་སྣོད་ རྐྱང་པ་ཚུའི་ཐོ་ཡིག་ལས་འཛོམས་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་མི་ཚུ་ཨིན།\n"
+"གཞི་ཁྲམ་ཚུ་ གླུ་རིམ་ཚུ་ནང་འགོ་འདྲེན་འཐབ་ཡོདཔ་ཨིན་\n"
+"དེ་ལས་འདི་ཚུ་ ཡལ་ནི་ ཚད་འཇལ་ནི་དང་\n"
+"གླུ་རིམ་ཚུའི་བར་ན་བཀོལ་སྤྱོད་ཚུ་སྤོ་བཤུད་འབད་བཅུགཔ་ཨིན།\n"
+"(རྒྱས་བཤད་ཀྱི་དོན་ལུ་ STORYBOARD_FILE_DOC.txt བལྟ།)"
+
+#. audioname is a audio playlist with references to
+#. * audiofiles for multiple audio track encding
+#. * valid_playlist_references holds the number of valid tracks
+#. * (where samplerate matches the desired samplerate and bits == 16)
+#.
+#: ../vid_common/gap_cme_gui.c:874
+#, c-format
+msgid "List[%d] has [%d] valid tracks, Bit:%d Chan:%d Rate:%d"
+msgstr "ཐོ་ཡིག་[%d] ལུ་ [%d] ནུས་ཅན་གླུ་རིམ་ཚུ་ཡོད། བིཊི:%d ཅེན:%d གོང་ཚད:%d"
+
+#: ../vid_common/gap_cme_gui.c:884
+#, c-format
+msgid "%s, Bit:%d Chan:%d Rate:%d"
+msgstr "%s, བིཊི:%d ཅེན:%d གོང་ཚད:%d"
+
+#: ../vid_common/gap_cme_gui.c:897
+msgid "UNKNOWN (using sox)"
+msgstr "མ་ཤེསཔ(སོགསི་ ལག་ལེན་འཐབ་དོ)"
+
+#: ../vid_common/gap_cme_gui.c:1159
+msgid "Storyframe"
+msgstr "གནས་ཚུལ་གཞི་ཁྲམ།"
+
+#: ../vid_common/gap_cme_gui.c:1163
+msgid "Layer"
+msgstr "བང་རིམ།"
+
+#. label changes dependent from rangetype "From Frame", "From Layer" or "From Storyframe"
+#: ../vid_common/gap_cme_gui.c:1173
+#, c-format
+msgid "From %s:"
+msgstr "%s ལས:"
+
+#: ../vid_common/gap_cme_gui.c:1177
+#, c-format
+msgid "To %s:"
+msgstr "%s ལུ:"
+
+#: ../vid_common/gap_cme_gui.c:1323
+#, c-format
+msgid "using master_framerate %2.2f found in file"
+msgstr "གཞི་ཁྲམ་གོང་ཚད་ཨམ་ %2.2f ལག་ལེན་འཐབ་མི་ ཡིག་སྣོད་ནང་ཐོབ་ཡོདཔ།(_f)"
+
+#: ../vid_common/gap_cme_gui.c:1332
+msgid "file has no master_framerate setting"
+msgstr "ཡིག་སྣོད་འདི་ལུ་ གཞི་ཁྲམ་གོང་ཚད་ཨམ་གྱི་སྒྲིག་སྟངས་མེད།(_f)"
+
+#: ../vid_common/gap_cme_gui.c:1360
+#, c-format
+msgid ""
+"composite video track playtime %.3fsec (%d frames)\n"
+"composite audiotrack playtime %.3f secs"
+msgstr ""
+"སྣ་སྡུད་ཝི་ཌི་འོ་གླུ་རིམ་གཏང་ནིའི་དུས་ཚོད་ %.3fsec (%d གཞི་ཁྲམ་ཚུ)\n"
+"སྣ་སྡུད་རྣར་ཉན་གླུ་རིམ་གཏང་ནིའི་དུས་ཚོད་ %.3f secs"
+
+#: ../vid_common/gap_cme_gui.c:1368
+#, c-format
+msgid ""
+"composite video track playtime %.3fsec (%d frames)\n"
+"has NO audiotracks"
+msgstr ""
+"སྣ་སྡུད་ཝི་ཌིའོ་གླུ་རིམ་གཏང་ནིའི་དུས་ཚོད་ %.3fsec (%d གཞི་ཁྲམ་ཚུ་)\n"
+"ལུ་རྣར་ཉན་གླུ་རིམ་ཚུ་མེད།"
+
+#: ../vid_common/gap_cme_gui.c:1376
+#, c-format
+msgid "using master_size %d x %d found in file"
+msgstr "ཚད་ཨམ་ %d x %d ལག་ལེན་འཐབ་མི་ ཡིག་སྣོད་ནང་ཐོབ་ཡོདཔ།(_s)"
+
+#: ../vid_common/gap_cme_gui.c:1389
+msgid "file has no master_size setting"
+msgstr "ཡིག་སྣོད་ལུ་ཚད་ཨམ་གྱི་སྒྲིག་སྟངས་མེད།(_s)"
+
+#: ../vid_common/gap_cme_gui.c:1396
+#, c-format
+msgid ""
+"Storyboard file %s checkreport:\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"%s\n"
+"[%d:] %s\n"
+"\n"
+"%s\n"
+"[%d:] %s"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ %s ཞིབ་དཔྱད་སྙན་ཞུ:\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"%s\n"
+"[%d:] %s\n"
+"\n"
+"%s\n"
+"[%d:] %s"
+
+#: ../vid_common/gap_cme_gui.c:1411
+#: ../vid_common/gap_cme_gui.c:1426
+#, c-format
+msgid ""
+"Storyboard file %s checkreport:\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"%s\n"
+"[%d:] %s"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ %s ཞིབ་དཔྱད་སྙན་ཞུ:\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"%s\n"
+"[%d:] %s"
+
+#: ../vid_common/gap_cme_gui.c:1438
+#, c-format
+msgid ""
+"Storyboard file %s checkreport:\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"no errors found, file is OK"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ %s ཞིབ་དཔྱད་སྙན་ཞུ:\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"འཛོལ་བ་ཅིག་ཡང་མ་ཐོབ། ཡིག་སྣོད་འདི་བཏུབ་པས།"
+
+#: ../vid_common/gap_cme_gui.c:1451
+#, c-format
+msgid ""
+"Storyboard file %s checkreport:\n"
+"\n"
+"SYNTAX check failed (internal error occurred)"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་%sཞིབ་དཔྱད་སྙན་ཞུ:\n"
+"\n"
+"ཚིག་སྦྱོར་ཞིབ་དཔྱད་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ(ནང་འཁོད་ཀྱི་འཛོལ་བ་བྱུང་ཡོདཔ)"
+
+#. g_message(_("Go for checking storyboard file"));
+#: ../vid_common/gap_cme_gui.c:1767
+msgid "Checking Storyboard File"
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ཞིབ་དཔྱད་འབད་དོ།"
+
+#: ../vid_common/gap_cme_gui.c:1770
+msgid "Parsing Storyboardfile"
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་མིང་དཔྱད་འབད་དོ།"
+
+#: ../vid_common/gap_cme_gui.c:1813
+msgid "Go for checking storyboard file"
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ཞིབ་དཔྱད་འབད་ནི་ལུ་འགྱོ།"
+
+#: ../vid_common/gap_cme_gui.c:1815
+#: ../vid_common/gap_cme_gui.c:1816
+msgid "Storyboardfile Check"
+msgstr "སྒྲུང་གཏམ་རྩེད་པང་ཡིག་སྣོད་ཞིབ་དཔྱད་འབད་ནི།"
+
+#: ../vid_common/gap_cme_gui.c:1869
+msgid "Encoder specific parameter window is still open"
+msgstr "ཨིན་ཀོ་ཌར་དམིགས་བསལ་ཚད་བཟུང་གི་སྒོ་སྒྲིག་འདི་ད་ལྟོ་ཡང་ཁ་ཕྱེ་སྟེ་འདུག"
+
+#: ../vid_common/gap_cme_gui.c:1878
+msgid ""
+"ERROR: No valid storyboardfile was specified.\n"
+"(a storyboard file can be specified in the extras tab)"
+msgstr ""
+"འཛོལ་བ: ནུས་ཅན་གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་འདི་གསལ་བཀོད་མ་འབད་བས།\n"
+"(སྒྲུང་གཏམ་རྩེད་པང་ཡིག་སྣོད་འདི་ མཆོང་ལྡེ་ཐེབས་ཚུ་ནང་གསལ་བཀོད་འབད་ཚུགས)"
+
+#: ../vid_common/gap_cme_gui.c:1890
+#, c-format
+msgid ""
+"Error:\n"
+"for MPEG width and height must be a multiple of 16\n"
+"set Width to %d\n"
+"set Height to %d"
+msgstr ""
+"འཛོལ་བ: \n"
+"ཨེམ་པི་ཨི་ཇི་གི་རྒྱ་ཚད་དང་མཐོ་ཚད་ཀྱི་དོན་ལུ་ ༡༦ གི་མགུ་མཐའ་རྐྱབ་རྐྱབས་ཅིག་ཨིན་དགོ\n"
+"རྒྱ་ཚད་འདི་%d ལུ་གཞི་སྒྲིག་འབད\n"
+"མཐོ་ཚད་འདི་%d ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:1913
+#, c-format
+msgid ""
+"Error: Unsupported Bit per Sample %d\n"
+"file: %s\n"
+"supported are 8 or 16 Bit"
+msgstr ""
+"འཛོལ་བ:དཔེ་ཚད་%d རེ་ལུ་རྒྱབ་སྐྱོར་མ་འབད་བའི་བིཊི་རེ་\n"
+"ཡིག་སྣོད:%s\n"
+"རྒྱབ་སྐྱོར་འབད་ཡོད་མི་འདི་ ༨ ཡང་ན་ ༡༦ བིཊི་ཚུ་ཨིན།"
+
+#: ../vid_common/gap_cme_gui.c:1934
+#, c-format
+msgid ""
+"Error: Audiofile not found\n"
+"file: %s\n"
+msgstr ""
+"འཛོལ་བ: རྣར་ཉན་ཡིག་སྣོད་འཚོལ་མ་ཐོབ\n"
+"ཡིག་སྣོད:%s\n"
+
+#: ../vid_common/gap_cme_gui.c:1957
+#, c-format
+msgid ""
+"Error: Unsupported Samplerate for MPEG1 Layer2 Audio Encoding\n"
+"current rate: %d\n"
+"supported rates: \n"
+" 22050, 24000, 32000, 44100, 48000"
+msgstr ""
+"འཛོལ་བ: རྒྱབ་སྐྱོར་མ་འབད་བའི་དཔེ་ཚད་གོང་ཚད་འདི་ ཨེམ་པི་ཨི་ཇི་༡ བང་རིམ་༢ རྣར་ཉན་ཨིན་ཀོ་ཌིང་གི་དོན་ལུ\n"
+"ད་ལྟོའི་གོང་ཚད: %d\n"
+"རྒྱབ་སྐྱོར་འབད་འབད་བའི་གོང་ཚད་ཚུ:\n"
+"༢༢༠༥༠། ༢༤༠༠༠། ༣༢༠༠༠། ༤༤༡༠༠། ༤༨༠༠༠།"
+
+#: ../vid_common/gap_cme_gui.c:1985
+#, c-format
+msgid ""
+"Error: Unsupported Samplerate for MPEG2 Layer3 Audio Encoding\n"
+"current rate: %d\n"
+"supported rates:\n"
+" 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000"
+msgstr ""
+"འཛོལ་བ: རྒྱབ་སྐྱོར་མ་འབད་བའི་དཔེ་ཚད་གོང་ཚད་འདི་ ཨེམ་པི་ཨི་ཇི་༡ བང་རིམ་༢ རྣར་ཉན་ཨིན་ཀོ་ཌིང་གི་དོན་ལུ\n"
+"ད་ལྟོའི་གོང་ཚད: %d\n"
+"རྒྱབ་སྐྱོར་འབད་འབད་བའི་གོང་ཚད་ཚུ:\n"
+"༨༠༠༠། ༡༡༠༢༥། ༡༢༠༠༠། ༡༦༠༠༠། ༢༢༠༥༠། ༢༤༠༠༠། ༣༢༠༠༠། ༤༤༡༠༠། ༤༨༠༠༠"
+
+#: ../vid_common/gap_cme_gui.c:2008
+msgid "Cant process the audio input file. You may check audio options and audio tool configuration"
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ཡིག་སྣོད་འདི་ ལས་སྦྱོར་འབད་མི་ཚུགས།་ཁྱོད་ཀྱིས་རྣར་ཉན་གདམ་ཁ་ཚུ་དང་རྣར་ཉན་ལག་ཆས་རིམ་སྒྲིག་ཞིབ་དཔྱད་འབད་དགོ"
+
+#: ../vid_common/gap_cme_gui.c:2029
+msgid "Select Storyboardfile"
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2065
+msgid "Select Videofile"
+msgstr "ཝི་ཌིའོ་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2102
+msgid "Select Macrofile"
+msgstr "མེཀ་རོ་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2186
+msgid "Overwrite warning"
+msgstr "ཚབ་སྲུང་འབད་བའི་ཉན་བརྡ།"
+
+#: ../vid_common/gap_cme_gui.c:2205
+msgid "File already exists:"
+msgstr "ཡིག་སྣོད་ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན:"
+
+#: ../vid_common/gap_cme_gui.c:2214
+msgid "filename"
+msgstr "ཡིག་སྣོད་མིང་།"
+
+#: ../vid_common/gap_cme_gui.c:2227
+msgid "  "
+msgstr "  "
+
+#: ../vid_common/gap_cme_gui.c:2307
+msgid "Input Mode:"
+msgstr "ཨིན་པུཊི་ཐབས་ལམ:"
+
+#. radio button Frames input_mode
+#: ../vid_common/gap_cme_gui.c:2317
+msgid "Frames"
+msgstr "གཞི་ཁྲམ་ཚུ།"
+
+#: ../vid_common/gap_cme_gui.c:2327
+msgid "Input is a sequence of frame images"
+msgstr "ཨིན་པུཊི་འདི་་གཞི་ཁྲམ་གཟུགས་བརྙན་ཚུའི་འབྱུང་རིམ་ཅིག་ཨིན།"
+
+#. radio button Layers input_mode
+#: ../vid_common/gap_cme_gui.c:2341
+msgid "Layers"
+msgstr "བང་རིམ་ཚུ།"
+
+#: ../vid_common/gap_cme_gui.c:2350
+msgid "Input are all the layers of one image"
+msgstr "ཨིན་པུཊི་འདི་ཚུ་གཟུགས་བརྙན་གཅིག་གི་བང་རིམ་ཆ་མཉམ་ཨིན།"
+
+#: ../vid_common/gap_cme_gui.c:2374
+msgid "Input are videoclips and frames, defined via storyboard file. (specify the storyboard filename in the extras tab)"
+msgstr "ཨིན་པུཊི་འདི་ཚུ་ཝི་ཌིའོ་འཛིན་ལྕགས་ཚུ་དང་གཞི་ཁྲམ་ཚུ་ གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་བརྒྱུད་དེ་ངེས་འཛིན་འབད་མི་དེ་ཨིན། (གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་མིང་འདི་ མཆོང་ལྡེ་ཐེབས་ཚུ་ནང་གསལ་བཀོད་འབད།)"
+
+#: ../vid_common/gap_cme_gui.c:2420
+msgid "Master Videoencoder"
+msgstr "ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་ཨམ།"
+
+#. the Audio Tool notebook tab
+#: ../vid_common/gap_cme_gui.c:2471
+msgid "Audio Tool Configuration"
+msgstr "རྣར་ཉན་ལག་ཆས་རིམ་སྒྲིག"
+
+#. the Extras notebook tab
+#: ../vid_common/gap_cme_gui.c:2484
+msgid "Extras"
+msgstr "ཐེབས་ཚུ།"
+
+#. the (output) video label
+#: ../vid_common/gap_cme_gui.c:2508
+msgid "Video :"
+msgstr "ཝི་ཌིའོ:"
+
+#: ../vid_common/gap_cme_gui.c:2517
+msgid "Name of output videofile"
+msgstr "ཨའུཊི་པུཊི་ཝི་ཌིའོ་ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#: ../vid_common/gap_cme_gui.c:2527
+msgid "Select output videofile via browser"
+msgstr "བརའུ་ཟར་བརྒྱུད་དེ་ཨའུཊི་པུཊི་ཝི་ཌིའོ་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#. the Status frame
+#: ../vid_common/gap_cme_gui.c:2535
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#. the Status label
+#: ../vid_common/gap_cme_gui.c:2546
+msgid "READY"
+msgstr "གྲ་སྒྲིག"
+
+#: ../vid_common/gap_cme_gui.c:2620
+msgid "Encoding Extras"
+msgstr "ཨིན་ཀོ་ཌིང་ཐེབས་ཚུ།"
+
+#. the Macrofile label
+#: ../vid_common/gap_cme_gui.c:2630
+msgid "Macrofile:"
+msgstr "མེཀ་རོ་ཡིག་སྣོད:"
+
+#: ../vid_common/gap_cme_gui.c:2645
+msgid "optional filtermacro file to be performed on each handled frame "
+msgstr "ལེགས་སྐྱོང་འཐབ་ཡོད་པའི་གཞི་ཁྲམ་རེ་རེ་ལུ་ལཱ་འགན་འགྲུབ་ནིའི་དོན་ལས་གདམ་ཁ་ཅན་གྱི་ཚགས་མ་མེཀ་རོ་ཡིག་སྣོད།"
+
+#: ../vid_common/gap_cme_gui.c:2658
+msgid "select macrofile via browser"
+msgstr "བརའུ་ཟར་བརྒྱུད་དེ་མེཀ་རོ་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#. the Storyboard label
+#: ../vid_common/gap_cme_gui.c:2667
+msgid "Storyboard File:"
+msgstr "གནས་ཚུལ་རྩེད་པང་ ཡིག་སྣོད:"
+
+#: ../vid_common/gap_cme_gui.c:2681
+msgid "optionally use a storyboard file to feed the encoder"
+msgstr "ཨིན་ཀོ་ཌར་དེ་ཤོག་ཀུ་བཙུགས་ནིའི་དོན་ལས་ གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ཅིག་ གདམ་ཁ་ཐོག་ལག་ལེན་འཐབ།"
+
+#: ../vid_common/gap_cme_gui.c:2693
+msgid "select storyboard file via browser"
+msgstr "བརའུ་ཟར་བརྒྱུད་དེ་གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ སེལ་འཐུ་འབད།"
+
+#. the Storyboard Audio
+#: ../vid_common/gap_cme_gui.c:2700
+msgid "Storyboard Audio:"
+msgstr "གནས་ཚུལ་རྩེད་པང་ རྣར་ཉན:"
+
+#. the Storyboard filebrowser button
+#: ../vid_common/gap_cme_gui.c:2708
+msgid "Create Composite Audiofile"
+msgstr "སྣ་སྡུད་ རྣར་ཉན་ཡིག་སྣོད་གསར་བསྐྲུན་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2715
+msgid "create a composite audiofile as mixdown of all audio tracks in the storyboard file and use the created composite audiofile as input for encoding"
+msgstr "སྣ་སྡུད་རྣར་ཉན་ཡིག་སྣོད་འདི་ གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ནང་རྣར་ཉན་གླུ་རིམ་ཚུ་ཆ་མཉམ་གྱི་སྦྱོར་ནི་ཅིག་སྦེ་གསར་བསྐྲུན་འབད་ དེ་ལས་གསར་བསྐྲུན་འབད་འབད་བའི་སྣ་སྡུད་རྣར་ཉན་ཡིག་སྣོད་འདི་ ཨིན་ཀོ་ཌིང་དོན་ལུ་ ཨིན་པུཊི་སྦེ་ལག་ལེན་འཐབ།"
+
+#. the  storyboard helptext & parsing report label
+#: ../vid_common/gap_cme_gui.c:2727
+msgid ""
+"Storyboardfiles are textfiles that are used to\n"
+"assemble a video from a list of single images,\n"
+"frameranges, videoclips, gif animations or audiofiles.\n"
+"(see STORYBOARD_FILE_DOC.txt for details)"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ཚུ་ ཚིག་ཡིག་ཡིག་སྣོད་\n"
+"ཝི་ཌིའོ་ཅིག་ གཟུགས་བརྙན་\n"
+"གཞི་ཁྲམ་ཁྱབ་ཚད་ ཝི་ཌིའོ་འཛིན་ལྕགས་ཚུ་ ཇི་ཨའི་ཨེཕ་ བསྒུལ་ཅན་བཟོ་ནི་ཚུ་ཡང་ན་རྣར་ཉན་ཡིག་སྣོད་ རྐྱང་པ་ཚུའི་ཐོ་ཡིག་ལས་འཛོམས་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་མི་ཚུ་ཨིན།\n"
+"(རྒྱས་བཤད་ཀྱི་དོན་ལུ་ STORYBOARD_FILE_DOC.txt བལྟ།)"
+
+#. the Monitor label
+#: ../vid_common/gap_cme_gui.c:2742
+msgid "Monitor"
+msgstr "ལྟ་རྟོག་པ།"
+
+#. the Monitor checkbutton
+#: ../vid_common/gap_cme_gui.c:2750
+msgid "Monitor Frames while Encoding"
+msgstr "ཨིན་ཀོ་ཌིང་འབད་བའི་སྐབས་གཞི་ཁྲམ་ཚུ་ལྟ་རྟོག་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2755
+msgid "Show each frame before passed to encoder"
+msgstr "གཞི་ཁྲམ་ཚུ་ཨིན་ཀོ་ཌར་ལུ་རྩིས་སྤྲོད་མ་འབད་བའི་ཧེ་མ་རེ་རེ་བཞིན་སྟོན།"
+
+#. the Debug Flat File label
+#: ../vid_common/gap_cme_gui.c:2764
+msgid ""
+"Debug\n"
+"Flat File:"
+msgstr ""
+"རྐྱེན་སེལ\n"
+"ཡིག་སྣོད་ལེབ་ཏེམ།"
+
+#: ../vid_common/gap_cme_gui.c:2778
+msgid "optional Save each composite frame to JPEG file, before it is passed to the encoder"
+msgstr "སྣ་སྡུད་ཀྱི་ཡིག་སྣོད་རེ་རེ་བཞིན་ ཨིན་ཀོ་ཌར་ནང་ལུ་རྩིས་སྤྲོད་མ་འབད་བའི་ཧེ་མ་ ཇེ་པི་ཨི་ཇི་ཡིག་སྣོད་ནང་ལུ་གདམ་ཁ་ཅན་སྦེ་སྲུང་བཞག་འབད།"
+
+#. the Debug Multilayer File label
+#: ../vid_common/gap_cme_gui.c:2787
+msgid ""
+"Debug\n"
+"Multilayer File:"
+msgstr ""
+"རྐྱེན་སེལ\n"
+"སྣ་མང་བང་རིམ་ཡིག་སྣོད:"
+
+#: ../vid_common/gap_cme_gui.c:2801
+msgid "optional save each composite multilayer frame to XCF file, before flattening and executing macro"
+msgstr "སྣ་སྡུད་སྣ་མང་བང་རིམ་གྱི་གཞི་ཁྲམ་རེ་རེ་བཞིན་ མེཀ་རོ་འདི་ལེབ་ཏེམ་དང་ལག་ལེན་མ་འཐབ་པའི་ཧེ་མ་ ཨེགསི་སི་ཨེཕ་ཡིག་སྣོད་ནང་གདམ་ཁ་ཅན་སྦེ་སྲུང་བཞག་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2827
+msgid "Configuration of external audiotool program"
+msgstr "ཕྱིའི་རྣར་ཉན་ལག་ཆས་ལས་རིམ་གྱི་རིམ་སྒྲིག"
+
+#. the audiotool (sox) label
+#: ../vid_common/gap_cme_gui.c:2837
+msgid "Audiotool:"
+msgstr "རྣར་ཉན་ལག་ཆས:"
+
+#: ../vid_common/gap_cme_gui.c:2851
+msgid "name of audiotool (something like sox with or without path)"
+msgstr "རྣར་ཉན་ལག་ཆས་ཀྱི་མིང་(འགྲུལ་ལམ་དང་ཅིག་ཁར་ ཨེསི་ཨོ་ཨེགསི་ ཡོདཔ་སྦེ་ཡང་ན་མེདཔ་སྦེ་ བཟུམ་ཅིག)"
+
+#. the audiotool options (sox options) label
+#: ../vid_common/gap_cme_gui.c:2861
+msgid "Options:"
+msgstr "གདམ་ཁ་ཚུ:"
+
+#: ../vid_common/gap_cme_gui.c:2876
+msgid "Options to call the audiotool ($IN, $OUT $RATE are replaced)"
+msgstr "རྣར་ཉན་ལག་ཆས་འདི་བོད་བརྡ་འབད་ནིའི་གདམ་ཁ་ཚུ་($IN, $OUT $RATE ཚུ་ཚབ་བཙུགས་ཡོདཔ)"
+
+#: ../vid_common/gap_cme_gui.c:2888
+msgid ""
+"Configuration of an audiotool (like sox on UNIX).\n"
+"\n"
+"$IN .. is replaced by the input audiofile\n"
+"$OUT .. is replaced by audiofile with suffix  _tmp.wav\n"
+"$RATE .. is replaced by samplerate in byte/sec\n"
+"\n"
+"This tool is called for audio conversions  if\n"
+"a) the input audiofile is not WAV 16Bit format\n"
+"b) Desired Samplerate does not match the\n"
+"     rate in the .wav file"
+msgstr ""
+"རྣར་ཉན་ལག་ཆས་ཅིག་གི་རིམ་སྒྲིག(ཡུ་ནིགསི་གུའི་ཨེསི་ཨོ་ཨེགསི་བཟུམ)\n"
+"\n"
+"$IN  འདི་ཨིན་པུཊི་རྣར་ཉན་ཡིག་སྣོད་ཀྱིས་ཚབ་བཙུགས་ཡོད\n"
+"$OUT  འདི་ suffix  _tmp.wav དང་ཅིག་ཁར་རྣར་ཉན་ཡིག་སྣོད་ཀྱིས་ཚབ་བཙུགས་ཡོད\n"
+"$RATE  འདི་བཱའིཊི་/སྐར་ཆ་ ནང་གི་དཔེ་ཚད་གོང་ཚད་གིས་ཚབ་བཙུགས་ཡོད།\n"
+"\n"
+"འ་ནི་ལག་ཆས་དེ་ རྣར་ཉན་གཞི་བསྒྱུར་ཚུའི་དོན་ལུ་བོད་བརྡ་འབད་ཡོད་ དེ་ཡང་ག་དེམ་ཅི་་སྦེ་\n"
+"ཀ)ཨིན་པུཊི་རྣར་ཉན་ཡིག་སྣོད་འདི་ ཌབ་ལུ་ཨེ་ཝི་ ༡༦བི་ཊི་ རྩ་སྒྲིག་མེན་པ་ཅིན\n"
+"ཁ)རེ་འདུན་ཡོད་པའི་ དཔེ་ཚད་ཀྱི་གོང་ཚད་འདི་\n"
+"  .wav ཡིག་སྣོད་ནང་གི་གོང་ཚད་དང་མ་མཐུནམ་ཨིན་པ་ཅིན།"
+
+#. the Save button
+#: ../vid_common/gap_cme_gui.c:2917
+msgid "Save"
+msgstr "སྲུངས།"
+
+#: ../vid_common/gap_cme_gui.c:2920
+msgid "Save audiotool configuration to gimprc"
+msgstr "རྣར་ཉན་ལག་ཆས་རིམ་སྒྲིག་འདི་ ཇིམཔི་ཨར་སི་ནང་ལུ་སྲུང་བཞག་འབད།"
+
+#. the Load button
+#: ../vid_common/gap_cme_gui.c:2926
+msgid "Load"
+msgstr "མངོན་གསལ་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2929
+msgid "Load audiotool configuration from gimprc"
+msgstr "རྣར་ཉན་ལག་ཆས་རིམ་སྒྲིག་འདི་ ཇིམཔི་ཨར་སི་ནང་ལས་མངོན་གསལ་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2938
+msgid "Set default audiotool configuration "
+msgstr "སྔོན་སྒྲིག་རྣར་ཉན་ལག་ཆས་རིམ་སྒྲིག་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:2965
+msgid "Audio Input"
+msgstr "རྣར་ཉན་ཨིན་པུཊི།"
+
+#: ../vid_common/gap_cme_gui.c:2993
+msgid "Name of audiofile (.wav 16 bit mono or stereo samples preferred). Optional you may select a textfile that contains a list of file names referring to audio files. Each of those audio files will be encoded as separate audio track."
+msgstr "རྣར་ཉན་ཡིག་སྣོད་མིང་(.wav ༡༦བིཊི་རྐྱང་པོ་ཡང་ན་གླུ་སྒྲོམ་གྱི་དཔེ་ཚད་དགའ་མི་ཚུ)། གདམ་ཁ་ཅན་སྦེ་ ཁྱོད་ཀྱིས་རྣར་ཉན་ཡིག་སྣོད་ཚུ་ལུ་འབྲེལ་སྟུན་འབད་མི་ཡིག་སྣོད་མིང་གི་ཐོ་ཡིག་ཅིག་ཡོད་མི་ཚིག་ཡིག་གི་ཡིག་སྣོད་སེལ་འཐུ་འབད་འོང་། འ་ནི་རྣར་ཉན་ཡིག་སྣོད་ཚུ་རེ་རེ་བཞིན་ སོ་སོ་འཕྱལ་འཕྱལཝ་རྣར་ཉན་གླུ་རིམ་སྦེ་ཨིན་ཀོཌི་ འབད་འོང་།"
+
+#: ../vid_common/gap_cme_gui.c:3010
+msgid "Select input audiofile via browser"
+msgstr "བརའུ་བརྒྱུད་དེ་ཨིན་པུཊི་རྣར་ཉན་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#. the audiofile information label
+#. the Tmp audioinformation  label
+#: ../vid_common/gap_cme_gui.c:3019
+#: ../vid_common/gap_cme_gui.c:3120
+msgid "WAV, 16 Bit stereo, rate: 44100"
+msgstr "ཌབ་ལུ་ཨེ་ཝི་ ༡༦ བིཊི་ གླུ་སྒྲོམ་ གོང་ཚད:༤༤༡༠༠"
+
+#. the audiofile total playtime information label
+#. the Tmp audio playtime information  label
+#. the timestamp of the last frame
+#: ../vid_common/gap_cme_gui.c:3028
+#: ../vid_common/gap_cme_gui.c:3129
+#: ../vid_common/gap_cme_gui.c:3200
+#: ../vid_common/gap_cme_gui.c:3215
+msgid "00:00:000"
+msgstr "00:00:000"
+
+#: ../vid_common/gap_cme_gui.c:3056
+msgid "Output samplerate in samples/sec"
+msgstr "ཨའུཊི་པུཊི་དཔེ་ཚད་གོང་ཚད་ དཔེ་ཚད་ཚུ་/སྐར་ཆ་ ནང་།"
+
+#. the Samplerate combo
+#: ../vid_common/gap_cme_gui.c:3062
+msgid " 8k Phone"
+msgstr "༨ཀེ་ བརྒྱུད་འཕྲིན།"
+
+#: ../vid_common/gap_cme_gui.c:3063
+msgid "11.025k"
+msgstr "༡༡.༠༢༥ཀེ"
+
+#: ../vid_common/gap_cme_gui.c:3064
+msgid "12k Voice"
+msgstr "༡༢ཀེ་ སྐད།"
+
+#: ../vid_common/gap_cme_gui.c:3065
+msgid "16k FM"
+msgstr "༡༦ཀེ་ ཨེཕ་ཨེམ།"
+
+#: ../vid_common/gap_cme_gui.c:3066
+msgid "22.05k"
+msgstr "༢༢.༠༥ཀེ"
+
+#: ../vid_common/gap_cme_gui.c:3067
+msgid "24k Tape"
+msgstr "༢༤ཀེ སྒྲ་ཐག"
+
+#: ../vid_common/gap_cme_gui.c:3068
+msgid "32k HiFi"
+msgstr "༣༢ཀེ ཧའེ་ཕའེ།"
+
+#: ../vid_common/gap_cme_gui.c:3069
+msgid "44.1k CD"
+msgstr "༤༤.༡ཀེ སི་ཌི།"
+
+#: ../vid_common/gap_cme_gui.c:3070
+msgid "48 k Studio"
+msgstr "༤༨ ཀེ འདྲ་པར་ཁང་།"
+
+#: ../vid_common/gap_cme_gui.c:3079
+msgid "Select a common used samplerate"
+msgstr "མཐུན་མོང་གིས་ལག་ལེན་འཐབ་མི་དཔེ་ཚད་ཀྱི་གོང་ཚད་ཅིག་སེལ་འཐུ་འབད།"
+
+#. the Tmp audiofile label
+#: ../vid_common/gap_cme_gui.c:3089
+msgid "Tmpfile:"
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད:"
+
+#. the convert Tmp audiofilefile button
+#: ../vid_common/gap_cme_gui.c:3106
+msgid "Audioconvert"
+msgstr "རྣར་ཉན་གཞི་བསྒྱུར་འབད་ནི།"
+
+#: ../vid_common/gap_cme_gui.c:3112
+msgid "Convert audiofile to tmpfile"
+msgstr "རྣར་ཉན་གྱི་ཡིག་སྣོད་འདི་གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ལུ་གཞི་བསྒྱུར་འབད།"
+
+#. the resample general information label
+#: ../vid_common/gap_cme_gui.c:3139
+msgid ""
+"\n"
+"Note:\n"
+"if you set samplerate lower than\n"
+"rate of the WAV file, you loose sound quality,\n"
+"but higher samplerates can not improve the\n"
+"quality of the original sound."
+msgstr ""
+"\n"
+"དྲན་འཛིན:\n"
+"ཁྱོད་ཀྱི་དཔེ་ཚད་གོང་ཚད་ཀྱི་གཞི་སྒྲིག་དེ་\n"
+"ཌབ་ལུ་ཨེ་ཝི་ཡིག་སྣོད་ཀྱི་གོང་ཚད་ལས་དམའཝ་འབདཝ་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱིས་སྒྲ་སྐད་ཀྱི་སྤུས་ཚད་ལྷོད་དགོ\n"
+"དེ་འབདཝ་ད་ དཔེ་ཚད་གོང་ཚད་མཐོ་ཤོས་ཀྱིས་\n"
+"སྒྲ་སྐད་ངོ་མའི་སྤུས་ཚད་ལེགས་བཟོ་འབད་མི་ཚུགས།"
+
+#: ../vid_common/gap_cme_gui.c:3245
+msgid "Video Encode Options"
+msgstr "ཝི་ཌིའོ་ ཨིན་ཀོཌི་ གདམ་ཁ་ཚུ།"
+
+#: ../vid_common/gap_cme_gui.c:3282
+msgid "Start encoding at this frame"
+msgstr "འ་ནི་གཞི་ཁྲམ་ལུ་ཨིན་ཀོ་ཌིང་འགོ་བཙུགས།"
+
+#: ../vid_common/gap_cme_gui.c:3315
+msgid "Stop encoding at this frame"
+msgstr "འ་ནི་གཞི་ཁྲམ་ལུ་ཨིན་ཀོ་ཌིང་བཀག"
+
+#: ../vid_common/gap_cme_gui.c:3341
+msgid "Width of the output video (pixels)"
+msgstr "ཨའུཊི་ཝི་ཌིའོ་དེའི་རྒྱ་ཚད།"
+
+#. the Frame width/height scale combo (for picking common used video sizes)
+#: ../vid_common/gap_cme_gui.c:3348
+msgid "Framesize (1:1)"
+msgstr "གཞི་ཁྲམ་ཚད(༡:༡)"
+
+#: ../vid_common/gap_cme_gui.c:3349
+msgid "320x240 NTSC"
+msgstr "༣༢༠x༢༤༠ ཨེན་ཊི་ཨེསི་སི།"
+
+#: ../vid_common/gap_cme_gui.c:3350
+msgid "320x288 PAL"
+msgstr "༣༢༠x༢༨༨ པི་ཨེ་ཨེལ།"
+
+#: ../vid_common/gap_cme_gui.c:3351
+msgid "640x480"
+msgstr "༦༤༠x༤༨༠"
+
+#: ../vid_common/gap_cme_gui.c:3352
+msgid "720x480 NTSC"
+msgstr "༧༢༠x༤༨༠ ཨེན་ཊི་ཨེསི་སི།"
+
+#: ../vid_common/gap_cme_gui.c:3353
+msgid "720x576 PAL"
+msgstr "༧༢༠x༥༧༦ པི་ཨེ་ཨེལ།"
+
+#: ../vid_common/gap_cme_gui.c:3362
+msgid "Scale width/height to common size"
+msgstr "རྒྱ་ཚད་/མཐོ་ཚད་ མཐུན་མོང་གི་ཚད་ལུ་ཚད་འཇལ་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:3389
+msgid "Height of the output video (pixels)"
+msgstr "ཨའུཊི་པུཊི་ཝི་ཌིའོ་དེའི་མཐོ་ཚད(པིག་སེལསི།)"
+
+#: ../vid_common/gap_cme_gui.c:3416
+msgid "Framerate of the output video (frames/sec)"
+msgstr "ཨའུཊི་པུཊི་ཝི་ཌིའོ་དེའི་གཞི་ཁྲམ་གོང་ཚད་(གཞི་ཁྲམ་ཚུ་/སྐར་ཆ)"
+
+#. the framerate combo (to select common used video framerates)
+#: ../vid_common/gap_cme_gui.c:3423
+msgid "unchanged"
+msgstr "བསྒྱུར་བཅོཅས་མ་འབདཝ།"
+
+#: ../vid_common/gap_cme_gui.c:3445
+msgid "Set framerate"
+msgstr "གཞི་ཁྲམ་གོང་ཚད་གཞི་སྒྲིག་འབད།"
+
+#. the Videonorm label
+#: ../vid_common/gap_cme_gui.c:3456
+msgid "Videonorm:"
+msgstr "ཝི་ཌིའོ་ཚད་གཞི:"
+
+#. the Videonorm combo
+#: ../vid_common/gap_cme_gui.c:3464
+msgid "NTSC"
+msgstr "ཨེན་ཊི་ཨེསི་སི།"
+
+#: ../vid_common/gap_cme_gui.c:3465
+msgid "PAL"
+msgstr "པི་ཨེ་ཨེལ།"
+
+#: ../vid_common/gap_cme_gui.c:3466
+msgid "SECAM"
+msgstr "ཨེསི་ཨི་སི་ཨེ་ཨེམ།"
+
+#: ../vid_common/gap_cme_gui.c:3467
+msgid "MAC"
+msgstr "མེཀ"
+
+#: ../vid_common/gap_cme_gui.c:3468
+msgid "COMP"
+msgstr "སི་ཨོ་ཨེམ་པི།"
+
+#: ../vid_common/gap_cme_gui.c:3469
+msgid "undefined"
+msgstr "ངེས་འཛིན་མ་འབདཝ།"
+
+#: ../vid_common/gap_cme_gui.c:3478
+msgid "Select videonorm"
+msgstr "ཝི་ཌིའོ་ཚད་གཞི་སེལ་འཐུ་འབད།"
+
+#. the videoencoder label
+#: ../vid_common/gap_cme_gui.c:3488
+msgid "Encoder:"
+msgstr "ཨིན་ཀོ་ཌར:"
+
+#: ../vid_common/gap_cme_gui.c:3502
+msgid "Edit encoder specific parameters"
+msgstr "ཨིན་ཀོ་ཌར་དམིགས་བསལ་གྱི་ཚད་བཟུང་ཚུ་ཞུན་དག་འབད།"
+
+#: ../vid_common/gap_cme_gui.c:3518
+msgid "Select video encoder plugin"
+msgstr "ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་པ་ལག་ཨིན་སེལ་འཐུ་འབད།"
+
+#: ../vid_common/gap_cme_main.c:156
+msgid "This plugin is the master dialog for video + audio encoding"
+msgstr "འ་ནི་པ་ལག་ཨིན་དེ་ ཝི་ཌིའོ་+རྣར་ཉན་ཨིན་ཀོ་ཌིང་གི་དོན་ལུ་ཌའི་ལོག་ཨམ་ཨིན།"
+
+#: ../vid_common/gap_cme_main.c:157
+msgid "This plugin is a common GUI for all available video + audio encoding plugins it operates on a selected range of animframes or storyboard files. The (optional) audio inputdata (param: audfile) is transformed to RIFF WAVE format (16Bit PCM) and passed to the selected videoencoder plug-in as temporary file. (or direct if format and samplerate already matches the desired target samplerate). The videoformat is defined with vid_enc_plugin parameter. The specified plugin  is called with the Parameters specified in the dialog. for noninteractive calls default values will be used. (you may call the desired plugin directly if you want to specify non-interacive parameters"
+msgstr "འ་ནི་པ་ལག་ཨིན་དེ་ ཝི་ཌིའོ་+རྣར་ཉན་ཨིན་ཀོ་ཌིང་པ་ལག་ཨིནསི་ ཐོབ་ཚུགསཔ་ཡོད་མི་ཆ་མཉམ་གྱི་དོན་ལུ་ མཐུན་མོང་གི་ཇི་ཡུ་ཨའི་ཅིག་ཨིན། དེ་གིས་ ཨེ་ནིམ་གཞི་ཁྲམ་ཚུ་ ཡང་ན་གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ཚུའི་ ཁྱབ་ཚད་སེལ་འཐུ་འབད་འབདཝ་ཅིག་གུ་ལུ་བཀོལ་སྤྱོད་འབདཝ་ཨིན། (གདམ་ཁ་ཅན་)རྣར་ཉན་ཨིན་པུཊི་གནད་སྡུད་(པེ་རམ:ཨོཌི་ཡིག་སྣོད་)འདི་ ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཌབ་ལུ་ཨེ་ཝི་ཨི་ རྩ་སྒྲིག་ལུ་བཟོ་བསྒྱུར་འབད་ཡོད་ དེ་ལས་ གནས་སྐབས་ཀྱི་ཡིག་སྣོད་སྦེ་ སེལ་འཐུ་འབད་འབད་བའི་ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་པ་ལག་ཨིན་ལུ་ རྩིས་སྤྲོད་འབད་ཡོད། (ཡང་ན་ རྩ་སྒྲིག་དང་དཔེ་ཚད་གོང་ཚད་འདི་ཧེ་མ་ལས་ རེ་འདུན་ཡོད་པའི་དམིགས་གཏད་དཔེ་ཚད་གོང་ཚད་དང་མཐུནམ་ཨིན་པ་ཅིན་ ཐད་ཀར་བཀོད)། ཝི་ཌིའོ་རྩ་སྒྲིག་དེ་ vid_enc_plugin ཚད་བཟུང་དང་ཅིག་ཁར་ ངེས་འཛིན་འབད་ཡོད། གསལ་བཀོད་འབད་ཡོད་མི་པ་ལག་ཨིན་དེ་ ཌའི་ལོག་ནང་ལུ་ གསལ་བཀོད་འབད་ཡོད་མི་ ཚད་བཟུང་ཚུ་དང་ཅིག་ཁར་ བོད་བརྡ་འབད་ཡོད། ཕན་ཚུན་འབྲེལ་ལྡན་མིན་པའི་བོད་བརྡ་ཚུའི་དོན་ལུ་ སྔོན་སྒྲིག་གནས་གོང་ཚུ་ ལག་ལེན་འཐབ་འོང་། (ཁྱོད་ཀྱིས་ཕན་ཚུན་འབྲེལ་ལྡན་མིན་པའི་ཚད་བཟུང་ཚུ་ གསལ་བཀོད་འབད་ནི་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱིས་ཐད་ཀར་དུ་རེ་འདུན་ཡོད་པའི་ པ་ལག་ཨིན་དེ་བོད་བརྡ་འབད་ཆོག)"
+
+#: ../vid_common/gap_cme_main.c:169
+msgid "<Image>/Video/Encode/Master Videoencoder"
+msgstr "<Image>/ཝི་ཌིའོ/ཨིན་ཀོཌི/ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་ཨམ།"
+
+#: ../vid_common/gap_cme_main.c:253
+#, c-format
+msgid "Required Plugin %s not available"
+msgstr "དགོས་མཁོ་ཡོད་པའི་པ་ལག་ཨིན་ %s ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../vid_common/gap_cme_main.c:297
+#, c-format
+msgid "Call of Required Plugin %s failed"
+msgstr "དགོས་མཁོ་ཡོད་པའི་པ་ལག་ཨིན་ %s བོད་བརྡ་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:416
+msgid "AVI Video Encode Parameters"
+msgstr "ཨེ་ཝི་ཨའི་ ཝི་ཌིའོ་ཨིན་ཀོཌི་ཚད་བཟུང་ཚུ།"
+
+#. the Video CODEC label
+#. the video codec label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:448
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1158
+msgid "Video CODEC:"
+msgstr "ཝི་ཌིའོ་ ཀོ་ཌེཀ:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:475
+msgid "Select video codec"
+msgstr "ཝི་ཌིའོ་ ཀོ་ཌེཀ་ སེལ་འཐུ་འབད།"
+
+#. the Audio CODEC label
+#. the audio codec label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:481
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1181
+msgid "Audio CODEC:"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀ:"
+
+#. the Audio CODEC label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:489
+msgid "RAW PCM"
+msgstr "ཨར་ཨེ་ཌབ་ལུ་ པི་སི་ཨེམ།"
+
+#. the APP0 Marker label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:499
+#: ../vid_enc_avi/gap_enc_avi_main.c:740
+msgid "APP0 Marker:"
+msgstr "ཨེ་པི་པི་ཨོ་རྟགས་བཀོད་མི:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:519
+msgid "Write APP0 Marker for each encoded frame. (The APP0 marker is evaluated by some windows programs for AVIs"
+msgstr "གཞི་ཁྲམ་ཨིན་ཀོ་ཌེཌ་རེ་རེའི་དོན་ལུ་ ཨེ་པི་པི་ཨོ་རྟགས་བཀོད་མི་ རྩོམ་སྒྲིག་འབད།(ཨེ་པི་པི་ཨོ་རྟགས་བཀོད་མི་འདི་་ཨེ་ཝི་ཨའི་གི་དོན་ལུ་ ཝིན་ཌོ་གི་ལས་རིམ་ཚུ་གིས་བརྟག་ཞིབ་འབད་ཡོད)"
+
+#. the notebook page for JPEG Codec options
+#. -----------------------------------------
+#: ../vid_enc_avi/gap_enc_avi_gui.c:536
+msgid "JPEG Codec Options"
+msgstr "ཇེ་པི་ཨི་ཇི་ ཀོ་ཌེཀ་གདམ་ཁ་ཚུ།"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:541
+msgid "JPEG Options"
+msgstr "ཇེ་པི་ཨི་ཇི་ གདམ་ཁ་ཚུ།"
+
+#. the dont recode label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:557
+msgid "Dont Recode:"
+msgstr "ཨང་རྟགས་ལོག་མ་བཀོད:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:577
+msgid "Don't recode the input JPEG frames. This option is ignored when input is read from storyboard. WARNING: works only if all input frames are JPEG pictures with matching size and YUV 4:2:2 encoding. This option may produce an unusable video when other frames are provided as input."
+msgstr "ཨིན་པུཊི་ ཇེ་པི་ཨི་ཇི་ གཞི་ཁྲམ་དེ་ཚུ་ལོག་ཨང་རྟགས་མ་བཀོད། འ་ནི་གདམ་ཁ་དེ་ ཨིན་པུཊི་འདི་ གནས་ཚུལ་རྩེད་པང་ལས་ལྷག་ཡོད་པའི་སྐབས་ སྣང་མེད་བཞགཔ་ཨིན། ཉེན་བརྡ: ཨིན་པུཊི་གི་གཞི་ཁྲམ་ཚུ་ཆ་མཉམ་ མཐུན་མི་ཚད་དང་ ཝའི་ཡུ་ཝི་ ༤:༢:༢ ཨིན་ཀོ་ཌིང་དང་ཅིག་ཁར་འབད་མི་ ཇེ་པི་ཨི་ཇི་པར་ ཨིན་པ་ཅིན་རྐྱངམ་ཅིག་ལཱ་འབདཝ་ཨིན། གཞི་ཁྲམ་གཞན་མི་ཚུ་ ཨིན་པུཊི་སྦེ་བྱིན་ཏེ་ཡོད་པའི་སྐབས་ འ་ནི་གདམ་ཁ་འདི་གིས་ ལག་ལེན་འཐབ་མ་བཏུབ་པའི་ཝི་ཌིའོ་ཅིག་བཟོ་སྟོན་འབད་འོང་།"
+
+#. the interlace label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:589
+msgid "Interlace:"
+msgstr "ལྷས་བཤོལ་མ་འབད:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:610
+#: ../vid_enc_avi/gap_enc_avi_main.c:626
+msgid "Generate interlaced JPEGs (two frames for odd/even lines)"
+msgstr "ལྷས་བཤོལ་མ་འབད་མི་ཇེ་པི་ཨི་ཇི་ཚུ་བཟོ་བཏོན་འབད།(ཡ་ཅན་/ཆ་ཅན་ གྲལ་ཐིག་ཚུའི་དོན་ལུ་ གཞི་ཁྲམ་གཉིས།)"
+
+#. the odd frames first label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:617
+msgid "Odd Frames first:"
+msgstr "ཡ་ཅན་གཞི་ཁྲམ་ཚུ་དང་པ:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:638
+#: ../vid_enc_avi/gap_enc_avi_main.c:632
+msgid "Check if you want the odd frames to be coded first (only for interlaced JPEGs)"
+msgstr "ཁྱོད་ཀྱིས་ཡ་ཅན་གཞི་ཁྲམ་ཚུ་ ཨང་རྟགས་དི་པ་བཀོད་ནི་ཨིན་པ་ཅིན་ཞིབ་དཔྱད་འབད།(ལྷས་བཤོལ་མ་འབད་བའི་ཇེ་པི་ཨི་ཇི་ཚུའི་དོན་ལུ་རྐྱངམ་ཅིག།)"
+
+#. the jpeg quality label
+#. the xvid quality label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:645
+#: ../vid_enc_avi/gap_enc_avi_gui.c:976
+msgid "Quality:"
+msgstr "སྤུད་ཚད།:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:669
+msgid "The quality setting of the encoded JPEG frames (100=best quality)"
+msgstr "ཨིན་ཀོ་ཌེཌ་ཇེ་པི་ཨི་ཇི་གཞི་ཁྲམ་ཚུའི་སྤུས་ཚད་སྒྲིག་སྟངས(༡༠༠=སྤུས་ཚད་དྲག་ཤོས)"
+
+#. the notebook page for RAW Codec options
+#. -----------------------------------------
+#: ../vid_enc_avi/gap_enc_avi_gui.c:676
+msgid "RAW Codec Options"
+msgstr "ཨར་ཨེ་ཌབ་ལུ་ ཀོ་ཌེཀ་ གདམ་ཁ་ཚུ།"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:681
+msgid "RAW Options"
+msgstr "ཨར་ཨེ་ཌབ་ལུ་ གདམ་ཁ་ཚུ།"
+
+#. the raw codec info label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:696
+msgid ""
+"The RAW codec has no encoding options.\n"
+"The resulting videoframes will be\n"
+"uncompressed."
+msgstr ""
+"ཨར་ཨེ་ཌབ་ལུ་ ཀོ་ཌེཀ་ ལུ་ཨིན་ཀོ་ཌིང་གདམ་ཁ་ཚུ་མེད།\n"
+"གྲུབ་འབྲས་ཅན་གྱི་ཝི་ཌིའོ་གཞི་ཁྲམ་ཚུ་ \n"
+"གཡེབ་བཙུགས་མ་འབད་བར་འོང་།"
+
+#. the vflip label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:709
+msgid "Vertical flip:"
+msgstr "ཀེར་ཕྲང་མྱུར་ལྷོག:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:730
+msgid "Check if you want encode frames vertically flipped (suitable for playback on WinDVD player)or as is (suitable for gmplayer on linux)"
+msgstr "ཁྱོད་ལུ་ཨིན་ཀོཌི་གཞི་ཁྲམ་ཀེར་ཕྲང་སྦེ་མྱུར་ལྷོད་འབད་འབདཝ་ཞིབ་དཔྱད་འབད(ཝིན་ཌི་བི་ཌི་གཏང་འཕྲུལ་གུ་གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་འོས་འབབ་ཡོད་མི)ཞིབ་དཔྱད་འབད་ ཡང་ན་ དེ་བཟུམ་སྦེ་(ལི་ནགསི་གུ་ཇི་ཨེམ་གཏང་འཕྲུལ་གྱི་དོན་ལུ་འོས་འབབ་ཡོད་མི)"
+
+#. the notebook page for XVID Codec options
+#. -----------------------------------------
+#: ../vid_enc_avi/gap_enc_avi_gui.c:740
+msgid "XVID Codec Options"
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་ གདམ་ཁ་ཚུ།"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:745
+msgid "XVID Options"
+msgstr "ཨེགསིི་ཝི་ཨའི་ཌི་ གདམ་ཁ་ཚུ།"
+
+#. the xvid KBitrate label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:761
+#: ../vid_enc_avi/gap_enc_avi_main.c:654
+msgid "KBitrate:"
+msgstr "ཀེ་བིཊི་གོང་ཚད:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:785
+#: ../vid_enc_avi/gap_enc_avi_main.c:655
+msgid "Kilobitrate for XVID Codec (1 = 1000 Bit/sec) -1 for default"
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་ གི་དོན་ལུ་ ཀི་ལོ་བི་ཊི་གོང་ཚད་(༡ = ༡༠༠༠ བིཊི/སྐར་མ) - སྔོན་སྒྲིག་གི་དོན་ལུ་ ༡།"
+
+#. the xvid Reaction Delay label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:792
+msgid "Reaction Delay:"
+msgstr "བྱ་ལན་ཕྱིར་འགྱངས:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:816
+msgid "reaction delay factor (-1 for default)"
+msgstr "བྱ་ལན་ཕྱིར་འགྱངས་ ཆ་རྐྱེན་(- སྔོང་སྒྲིག་གི་དོན་ལུ་ ༡)"
+
+#. the xvid AVG Period label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:823
+msgid "AVG Period:"
+msgstr "ཨེ་ཝི་ཇི་ དུས་ཡུན:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:847
+msgid "averaging period (-1 for default)"
+msgstr "ཆ་སྙོམས་བཟོ་ནིའི་དུས་ཡུན(- སྔོང་སྒྲིག་གི་དོན་ལུ་ ༡)"
+
+#. the xvid Buffer label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:854
+msgid "Buffer:"
+msgstr "གནད་ཁོངས:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:878
+msgid "Buffersize (-1 for default)"
+msgstr "གནས་ཁོངས་ཚད(- སྔོང་སྒྲིག་གི་དོན་ལུ་ ༡)"
+
+#. the xvid max_quantizer label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:885
+msgid "Max Quantizer:"
+msgstr "ཀོན་ཊི་ཟར་མཐོ་ཤོས:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:909
+msgid "upper limit for quantize Range 1 == BEST Quality"
+msgstr "ཀོན་ཊའིསི་ཁྱབ་ཚད་ ༡ གི་དོན་ལུ་ཡར་གྱི་ཚད == སྤུས་ཚད་དྲག་ཤོས།"
+
+#. the xvid min_quantizer label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:915
+msgid "Min Quantizer:"
+msgstr "ཀོན་ཊི་ཟར་དམའ་ཤོས:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:939
+msgid "lower limit for quantize Range 1 == BEST Quality"
+msgstr "ཀོན་ཊའིསི་ཁྱབ་ཚད་༡ གི་དོན་ལུ་དམའ་མི་ཚད == སྤུས་ཚད་དྲག་ཤོས།"
+
+#. the xvid max_key_interval label
+#: ../vid_enc_avi/gap_enc_avi_gui.c:946
+msgid "Key Interval:"
+msgstr "ལྡེ་མིག་བར་མཚམས:"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:970
+msgid "max distance for keyframes (I-frames)"
+msgstr "ལྡེ་མིག་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་གྱང་ཚད་མཐོ་ཤོས་(ཨའི་-གཞི་ཁྲམ་ཚུ།)"
+
+#: ../vid_enc_avi/gap_enc_avi_gui.c:1000
+msgid "XVID codec algoritm presets where 0==low quality(fast) 6==best(slow)"
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་  ཨཱལ་གོ་རི་དམ་གི་ ག་སྟེ་ ༠==སྤུས་ཚད་དམའ་བ་(མགྱོགས་དྲག) ༦==དྲག་ཤོས་(ལྷོད་ཆ་) ཨིན་ས་ སྔར་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:211
+msgid "avi video encoding for anim frames. Menu: @AVI@"
+msgstr "ཨེ་ནིམ་ གཞི་ཁྲམ་ཚུའི་དོན་ལུ་ ཨེ་ཝི་ཨའི་ ཝི་ཌིའོ་་ཨིན་ཀོ་ཌིང་། དཀར་ཆག: @AVI@"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:212
+msgid "This plugin does fake video encoding of animframes. the (optional) audiodata must be a raw datafile(s) or .wav (RIFF WAVEfmt ) file(s) .wav files can be mono (1) or stereo (2channels) audiodata must be 16bit uncompressed. IMPORTANT:  you should first call \""
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་ ཨེ་ནིམ་གཞི་ཁྲམ་ཚུའི་ ཝི་ཌིའོ་ཨིན་ཀོ་ཌིང་རྫུན་མ་བཟོཝ་ཨིན། (གདམ་ཁ་ཅན) རྣར་ཉན་གནད་སྡུད་དེ་ རགས་པ་གནད་སྡུད་ཡིག་སྣོད་(ཚུ་) ཡང་ན་ .wav (ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཌབ་ལུ་ཨེ་ཝི་ཨི་ ཨེཕ་ཨེམ་ཊི) ཡིག་སྣོད་(ཚུ་) ཨིན་དགོ .wav ཡིག་སྣོད་ཚུ་ རྐྱང་པོ་(༡)སྦེ་བཏུབ་ ཡང་ན་ གླུ་སྒྲོམ་(རྒྱུ་ལམ་༢) རྣར་ཉན་གནད་སྡུད་དེ་ ༡༦་བིཊི་གཡེབ་བཙུགས་མ་འབདཝ་ཨིན་དགོ གལ་ཅན: ཁྱོད་ཀྱིས་དང་པ་རང་བོད་བརྡ \""
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:216
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:425
+msgid "\" to set encoder specific paramters, then set the use_rest parameter to 1 to use them."
+msgstr "\" ཨིན་ཀོ་ཌར་དམིགས་བསལ་གྱི་ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལས་ འབད་དགོ དེ་ལས་ དེ་ཚུ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ ལྷག་ལུས་ལག་ལེན་འཐབ་ནིའི་ཚད་བཟུང་དེ་ ༡ ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:230
+msgid "Set Parameters for GAP avi video encoder Plugins"
+msgstr "ཇི་ཨེ་པི་ ཨེ་ཝི་ཨའི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌར་ པ་ལག་ཨིནསི་ གི་དོན་ལུ་ ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:231
+msgid "This plugin sets avi specific video encoding parameters."
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་ ཨེ་ཝི་ཨའི་ དམིགས་བསལ་གྱི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌིང་ ཚད་བཟུང་ཚུ་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:244
+msgid "Get GUI Parameters for GAP avi video encoder"
+msgstr "ཇི་ཨེ་པི་ ཨེ་ཝི་ཨའི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌར་གྱི་དོན་ལུ་ ཇི་ཡུ་ཨའི་ཚད་བཟུང་ཚུ་ལེན།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:245
+msgid "This plugin returns avi encoder specific parameters."
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་ ཨེ་ཝི་ཨའི་ ཨིན་ཀོ་ཌར་ དམིགས་བསལ་གྱི་ཚད་བཟུང་ཚུ་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:327
+msgid ""
+"AVI Encoder\n"
+"writes RIFF AVI encoded videos\n"
+"and supports MPEG4 (XVID), JPEG or RAW (uncompressed)\n"
+msgstr ""
+"ཨེ་ཝི་ཨའི་ ཨིན་ཀོ་ཌར་\n"
+"གྱིས་ ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཨེ་ཝི་ཨའི་ ཨིན་ཀོ་ཌེཌ་ ཝི་ཌིའོ་ཚུ་ རྩོམ་སྒྲིག་འབདཝ་ཨིན\n"
+"དེ་ལས་ ཨེམ་པི་ཨི་ཇི་༤(ཨེགསི་ཝི་ཨའི་ཌི་) ཇེ་པི་ཨི་ཇི་ ཡང་ན་ ཨར་ཨེ་ཌབ་ལུ་(གཡེབ་བཙུགས་མ་འབདཝ་) རྒྱབ་སྐྱོར་འབདཝ་ཨིན།\n"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:606
+msgid "AVI encoding options"
+msgstr "ཨེ་ཝི་ཨའི་ ཨིན་ཀོ་ཌིང་ གདམ་ཁ་ཚུ།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:610
+msgid "CODEC Name:"
+msgstr "ཀོ་ཌེཀ་མིང་།:"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:611
+msgid "4 char codec code name. One of: RGB (raw uncompressed) JPEG,  XVID"
+msgstr "༤ ཅར་ ཀོ་ཌེཀ་ ཨང་རྟགས་ མིང་། གཅིག་གི: ཨར་ཇི་བི་(རགས་པ་གཡེབ་བཙུགས་མ་འབདཝ) ཇེ་པི་ཨི་ཇི་ ཨེགསི་ཝི་ཨའི་ཌི།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:619
+msgid "Don't recode"
+msgstr "ལོག་ཨང་རྟགས་མ་བཀོད།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:620
+msgid "Don't recode the input JPEG frames (works for 4:2:2 JPEG only, may result in unreadable Video)"
+msgstr "ཨིན་པུཊི་ ཇེ་པི་ཨི་ཇི་ གཞི་ཁྲམ་ཚུ་ ལོག་ཨང་རྟགས་མ་བཀོད་ (ལཱ་གཡོག་ ༤:༢:༢ ཇེ་པི་ཨི་ཇི་རྐྱངམ་ཅིག་གི་དོན་ལུ་འབད་མི་དེས་ ལྷག་མ་ཚུགས་པའི་ཝི་ཌིའོ་ལུ་འགྱུར་འོང་།)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:625
+msgid "Interlaced Frames)"
+msgstr "ལྷས་བཤོལ་མ་འབད་བའི་གཞི་ཁྲམ་ཚུ)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:631
+msgid "Odd Frames first"
+msgstr "ཡ་ཅན་གཞི་ཁྲམ་ཚུ་དང་པ།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:638
+msgid "JPEG quality:"
+msgstr "ཇེ་པི་ཨི་ཇི་ སྤུས་ཚད:"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:639
+msgid "The quality setting of the generated JPEG frames (100=best)"
+msgstr "བཟོ་སྟོན་འབད་འབད་བའི་ཇེ་པི་ཨི་ཇི་ གཞི་ཁྲམ་ཚུའི་སྤུས་ཚད་སྒྲིག་སྟངས་(༡༠༠=དྲག་ཤོས)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:648
+msgid "options for the XVID CODEC"
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་དེའི་དོན་ལུ གདམ་ཁ་ཚུ།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:664
+msgid "rc_reaction_delay:"
+msgstr "rc_reaction_delay:"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:665
+#: ../vid_enc_avi/gap_enc_avi_main.c:675
+#: ../vid_enc_avi/gap_enc_avi_main.c:685
+msgid "for XVID Codec  -1 for default"
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་གི་དོན་ལུ་ - སྔོན་སྒྲིག་གི་དོན་ལུ་༡།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:674
+msgid "rc_avg_period:"
+msgstr "rc_avg_period:"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:684
+msgid "rc_buffer:"
+msgstr "ཨར་སི་གནས་ཁོངས:(_b)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:694
+msgid "max_quantizer:"
+msgstr "ཀོན་ཊི་ཟར་མང་མཐའ:(_q)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:695
+msgid "for XVID Codec  upper limit for quantize Range 1 == BEST Quality "
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་ ཡར་གྱི་ཚད་དོན་ལུ་ ཀོན་ཊའིསི་ ཁྱབ་ཚད་ ༡ == སྤུས་ཚད་དྲག་ཤོས།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:704
+msgid "min_quantizer:"
+msgstr "ཀོན་ཊི་ཟར་དམའ་མི:(_q)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:705
+msgid "for XVID Codec  lower limit for quantize Range 1 == BEST Quality "
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་ མར་གྱི་ཚད་དོན་ལུ་ ཀོན་ཊའིསི་ ཁྱབ་ཚད་ ༡ == སྤུས་ཚད་དྲག་ཤོས།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:714
+msgid "key_interval:"
+msgstr "ལྡེ་མིག་བར་མཚམས།:(_i)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:715
+msgid "for XVID Codec  max distance for keyframes (I-frames) "
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་ གྱང་ཚད་མང་ཤོས་ཀྱི་དོན་ལུ་ ལྡེ་མིག་གཞི་ཁྲམ་མང་ཤོས་ཀྱི་དོན་ལུ(ཨའི་-གཞི་ཁྲམ་ཚུ)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:725
+msgid "quality:"
+msgstr "སྤུས་ཚད།:"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:726
+msgid "for XVID Codec select algoritm presets where 0==low quality(fast) 6==best(slow) "
+msgstr "ཨེགསི་ཝི་ཨའི་ཌི་ ཀོ་ཌེཀ་གི་དོན་ལུ་ ཨཱལ་གོ་རི་དམ་སྔར་སྒྲིག་ཚུ་ ག་སྟེ་ ༠==སྤུས་ཚད་དམའ་མི་(མགྱོགས་དྲག)༦==དྲག་ཤོས་(ལྷོད་ཆ་) ཨིན་མི་སེལ་འཐུ་འབད།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:735
+msgid "APP0 Marker for each frame"
+msgstr "གཞི་ཁྲམ་རེ་རེའི་དོན་ལུ་ཨེ་པི་ཨོ་རྟགས་བཀོད་མི།"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:741
+msgid "Write APP0 Marker for each encoded frame. (The APP0 marker is evaluated by some Windows programs for AVIs"
+msgstr "ཨིན་ཀོ་ཌེཌ་གཞི་ཁྲམ་རེ་རེའི་དོན་ལུ་ ཨེ་པི་པི་ཨོ་རྟགས་བཀོད་མི་རྩོམ་སྒྲིག་འབད།(ཨེ་པི་པི་ཨོ་རྟགས་བཀོད་མི་དེ་ ཨེ་ཝི་ཨའི་ཚུའི་དོན་ལུ་ཝིན་ཌོསི་ལས་རིམ་་ལ་ལུ་གིས་བརྟག་ཞིབ་འབད་ཡོདཔ་ཨིན)"
+
+#: ../vid_enc_avi/gap_enc_avi_main.c:876
+msgid "AVI Video Encoding .."
+msgstr "ཨེ་ཝི་ཨའི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌིང་..."
+
+#. the CODEC delivered a NULL buffer
+#. * there is something essential wrong (TERMINATE)
+#.
+#: ../vid_enc_avi/gap_enc_avi_main.c:1183
+#, c-format
+msgid "ERROR: GAP AVI encoder CODEC %s delivered empty buffer at frame %d"
+msgstr "འཛོལ་བ: ཇི་ཨེ་པི་ ཨེ་ཝི་ཨའི་ ཨིན་ཀོ་ཌར་ ཀོ་ཌེཀ་ %s གིས་ གཞི་ཁྲམ་ %d ལུ་གནས་ཁོངས་སྟོངམ་ཅིག་འགྲེམ་སྤེལ་འབད་ཡོདཔ་ཨིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:150
+msgid "0 sad"
+msgstr "༠ ཨེསི་ཨེ་ཌི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:151
+msgid "1 sse"
+msgstr "༡ ཨེསི་ཨེསི་ཨི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:152
+msgid "2 satd"
+msgstr "༢ ཨེསི་ཨེ་ཊི་ཌི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:153
+msgid "3 dct"
+msgstr "༣ ཌི་སི་ཊི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:154
+msgid "4 psnr"
+msgstr "༤ པི་ཨེསི་ཨེན་ཨར།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:155
+msgid "5 bit"
+msgstr "༥་བིཊི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:156
+msgid "6 rd"
+msgstr "༦ ཨར་ཌི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:157
+msgid "7 zero"
+msgstr "༧ ཀླད་ཀོར།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:158
+msgid "8 vsad"
+msgstr "༨ ཝི་ཨེསི་ཨེ་ཌི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:159
+msgid "9 vsse"
+msgstr "༩་ ཝི་ཨེསི་ཨེསི་ཨི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:160
+msgid "10 nsse"
+msgstr "༡༠ ཨེན་ཨེསི་ཨེསི་ཨི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:161
+msgid "11 w53"
+msgstr "༡༡ ཌབ་ལུ་ ༥༣"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:162
+msgid "12 w97"
+msgstr "༡༢ ཌབ་ལུ་ ༩༧"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:163
+msgid "13 dctmax"
+msgstr "༡༣ ཌི་སི་ཊི་ མང་ཤོས།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:164
+msgid "256 chroma"
+msgstr "༢༥༦ ཀོརོ་མ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:458
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:475
+msgid "NOT SUPPORTED"
+msgstr "རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:498
+#, c-format
+msgid ""
+"Selected Fileformat : [%s] %s\n"
+"Recommanded Video CODEC : %s\n"
+"Recommanded Audio CODEC : %s\n"
+"Extension(s): %s %s"
+msgstr ""
+"སེལ་འཐུ་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྩ་སྒྲིག : [%s] %s\n"
+"འོས་སྦྱོར་འབད་ཡོད་པའི་ཝི་ཌིའོ་ཀོ་ཌེཀ : %s\n"
+"འོས་སྦྱོར་འབད་ཡོད་པའི་རྣར་ཉན་ཀོ་ཌེཀ: %s\n"
+"རྒྱ་བསྐྱེད་(ཚུ): %s %s"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1072
+msgid "Select File"
+msgstr "ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1118
+msgid "FFMpeg Basic Encoder Options"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ གཞི་རིམ་ ཨིན་ཀོ་ཌར་ གདམ་ཁ་ཚུ།"
+
+#. the fileformat label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1131
+msgid "Fileformat:           "
+msgstr "ཡིག་སྣོད་རྩ་སྒྲིག:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1147
+msgid "The output multimedia fileformat"
+msgstr "ཨའུཊི་པུཊི་ སྣ་མང་བརྡ་ལམ་ཡིག་སྣོད་རྩ་སྒྲིག"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1172
+msgid "The video codec"
+msgstr "ཝི་ཌིའོ་ཀོ་ཌེཀ"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1195
+msgid "The audio codec"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀ"
+
+#. the audio bitrate label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1204
+msgid "Audio Bitrate:"
+msgstr "རྣར་ཉན་བིཊི་རེཊི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1220
+msgid "Audio bitrate in kBit/sec"
+msgstr "རྣར་ཉན་བིཊི་རེཊི་དེ་ ཀེ་བིཊི་/སྐར་ཆ་ནང་།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1249
+msgid "Common used audio bitrates"
+msgstr "མཐུན་མོང་དུ་ལག་ལེན་འཐབ་ཡོད་པའི་ རྣར་ཉན་བིཊི་རེཊིསི།"
+
+#. the video bitrate label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1266
+msgid "Video Bitrate:"
+msgstr "ཝི་ཌིའོ་བིཊི་རེཊི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1283
+msgid "Video bitrate kBit/sec"
+msgstr "ཝི་ཌིའོ་བིཊི་རེཊི་ ཀེ་བིཊི་/སྐར་ཆ།"
+
+#. the qscale label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1295
+msgid "qscale:"
+msgstr "ཀིའུ་ཚད་ཤིང་།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1318
+msgid "Use fixed video quantiser scale (VBR) (0=const bitrate)"
+msgstr "གཏན་བཟོ་འབད་འབདཝ་ ཝི་ཌིའོ་ཀོན་ཊི་ཟར་ ཚད་ཤིང་ལག་ལེན་འཐབ།(ཝི་བི་ཨར)(༠=ཀོནསིཊི་ བིཊི་རེཊི)"
+
+#. the qmin label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1329
+msgid "qmin:"
+msgstr "ཀིའུ་ དམའ་མི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1348
+msgid "min video quantiser scale (VBR)"
+msgstr "དམའ་མི་ ཝི་ཌིའོ་ ཀོན་ཊི་ཟར་ ཚད་ཤིང་ (ཝི་བི་ཨར)"
+
+#. the qmax label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1359
+msgid "qmax:"
+msgstr "ཀིའུ་མཐོ་ཤོས:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1376
+msgid "max video quantiser scale (VBR)"
+msgstr "མཐོ་ཤོས་ ཝི་ཌིའོ་ ཀོན་ཊའི་ཟར་ ཚད་ཤིང་(ཝི་བི་ཨར)"
+
+#. the qdiff label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1387
+msgid "qdiff:"
+msgstr "ཀིའུ་ཁྱད་པར:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1405
+msgid "max difference between the quantiser scale (VBR)"
+msgstr "ཀོནི་ཊའི་ཟར་ཚད་ཤིང་དེའི་བར་ནང་གི་ཁྱད་པར་མཐོ་ཤོས(ཝི་བི་ཨར)"
+
+#. the Frametype label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1416
+msgid "Frametype:"
+msgstr "གཞི་ཁྲམ་དབྱེ་བ།:"
+
+#. the intra only checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1424
+msgid "Intra Only"
+msgstr "ཨིན་ཊ་ར་ རྐྱངམ་ཅིག"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1430
+msgid "use only intra frames (I)"
+msgstr "ཨིན་ཊ་ར་གཞི་ཁྲམ་ཚུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ(ཨའི)"
+
+#. the GOP label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1439
+msgid "GOP:"
+msgstr "ཇི་ཨོ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1457
+msgid "Group of picture size"
+msgstr "པར་ཚད་ཀྱི་སྡེ་ཚན།"
+
+#. the B_frames label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1467
+msgid "B-Frames:"
+msgstr "བི་-གཞི་ཁྲམ་ཚུ།:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1484
+msgid "Max number of B-frames in sequence"
+msgstr "འབྱུང་རིམ་ནང་ བི༌-གཞི་ཁྲམ་ཚུའི་ཨང་གྲངས་མང་མཐའ།"
+
+#. the qdiff label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1494
+msgid "Aspect:"
+msgstr "རྣམ་པ།:"
+
+#. the Set Aspectratio checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1503
+msgid "Set Aspectratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1509
+msgid "store aspectratio information (width/height) in the output video"
+msgstr "རྣ་པའི་དཔྱ་ཚད་ཀྱི་བརྡ་དོན་ (རྒྱ་ཚད་/མཐོ་ཚད)་དེ་ཨའུཊི་པུཊི་ ཝི་ཌིའོ་ནང་ལུ་གསོག་འཇོག་འབད།"
+
+#. the ASPECT combo
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1517
+msgid "auto"
+msgstr "རང་བཞིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1518
+msgid "3:2"
+msgstr "༣:༢"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1519
+msgid "4:3"
+msgstr "༤:༣"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1520
+msgid "16:9"
+msgstr "༡༦:༩"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1529
+msgid "Select aspect ratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད་སེལ་འཐུ་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1564
+msgid "FFMpeg Expert Encoder Algorithms"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ མཁས་པ་་ཨིན་ཀོ་ཌར་ ཨཱལ་གོ་རི་དམསི།"
+
+#. the motion estimation label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1576
+msgid "Motion estimation:"
+msgstr "འགུལ་བ་ཕོག་ཚོད་དཔག་ནི:"
+
+#. the motion estimation combo box
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1585
+msgid "1 zero (fastest)"
+msgstr "ཀླད་ཀོར་ ༡ (མགྱོགས་དྲག)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1586
+msgid "2 full (best)"
+msgstr "གངམ་ ༢ (དྲག་ཤོས)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1587
+msgid "3 log"
+msgstr "དྲན་དེབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1588
+msgid "4 phods"
+msgstr "ཕོཌསི་ ༤"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1589
+msgid "5 epzs (recommanded)"
+msgstr "ཨི་པི་ཛེཊི་ཨེསི་ ༥  (འོས་སྦྱོར་འབད་ཡོདཔ།)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1590
+msgid "6 x1"
+msgstr "༦x༡"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1597
+msgid "Select algorithm for motion estimation"
+msgstr "འགུལ་བ་ཕོག་ཚོད་དཔག་ནིའི་དོན་ལུ་ ཨཱལ་གོ་རི་དམ་སེལ་འཐུ་འབད།"
+
+#. the DCT algorithm label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1615
+msgid "DCT algorithm:"
+msgstr "ཌི་སི་ཊི་  ཨཱལ་གོ་རི་དམ།"
+
+#. the DCT algorithm combo
+#. the IDCT algorithm combo
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1623
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1664
+msgid "0 auto"
+msgstr "༠ རང་བཞིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1624
+msgid "1 fast int"
+msgstr "༡ མགྱོགས་དྲག་ ཨའི་ཨེན་ཊི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1625
+msgid "2 int"
+msgstr "༢ ཨའི་ཨེན་ཊི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1626
+msgid "3 mmx"
+msgstr "༣ ཨེམ་ཨེམ་ཨེགསི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1627
+msgid "4 mlib"
+msgstr "༤ ཨེམ་ལིབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1628
+msgid "5 altivec"
+msgstr "༥ ཨལ་ཊི་ཝིཀ"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1630
+msgid "6 faan"
+msgstr "༦ ཨེཕ་ཨེ་ཨེ་ཨེན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1638
+msgid "Select algorithm for DCT"
+msgstr "ཌི་སི་ཊི་ གི་དོན་ལུ་ ཨཱལ་གོ་རི་དམ་སེལ་འཐུ་འ"
+
+#. the IDCT algorithm label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1655
+msgid "IDCT algorithm:"
+msgstr "ཨའི་ཌི་སི་ཊི་ ཨཱལ་གོ་རི་དམ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1665
+msgid "1 int"
+msgstr "༡ ཨའི་ཨེན་ཊི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1666
+msgid "2 simple"
+msgstr "༢ འཇམ་སམ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1667
+msgid "3 simple mmx"
+msgstr "༣ འཇམ་སམ་ ཨེམ་ཨེམ་ཨེགསི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1668
+msgid "4 libmpeg2mmx"
+msgstr "༤ ལིབ་ཨེམ་པི་ཇི་༢ཨེམ་ཨེམ་ཨེགསི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1669
+msgid "5 ps2"
+msgstr "༥ པི་ཨེསི༢།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1670
+msgid "6 mlib"
+msgstr "༦ ཨེམ་ལིབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1671
+msgid "7 arm"
+msgstr "༧ ཨེ་ཨར་ཨེམ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1672
+msgid "8 altivec"
+msgstr "༨ ཨལ་ཊི་ཝེཀ"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1674
+msgid "9 sh4"
+msgstr "༩ ཨེསི་ཨེཆ་"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1675
+msgid "10 simplearm"
+msgstr "༡༠ དཔེ་ཚད་ཨེ་ཨར་ཨེམ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1676
+msgid "11 h264"
+msgstr "༡༡ ཨེཆ་༢༦༤"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1685
+msgid "Select algorithm for IDCT"
+msgstr "ཨའི་ཌི་སི་ཊི་གི་དོན་ལུ་ ཨཱལ་གོ་རི་དམ་སེལ་འཐུ་འབད།"
+
+#. the MB_DECISION label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1703
+msgid "MB Decision:"
+msgstr "ཨེམ་བི་གྲོས་ཆོད།:"
+
+#. the MB_DECISION combo
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1711
+msgid "simple (use mb_cmp)"
+msgstr "འཇམ་སམ(ཨེམ་བི་_སི་ཨེམ་པི་ ལག་ལེན་འཐབ)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1712
+msgid "bits (the one which needs fewest bits)"
+msgstr "བིཊིསི(བིཊིསི་ཉུང་ཤོས་དགོ་མི་འདི)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1713
+msgid "rate distortion"
+msgstr "བཟོ་ཉེས་བཟོ་ནིའི་གོང་ཚད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1721
+msgid "Select algorithm for macroblock decision"
+msgstr "མེཀ་རོ་བོ་ལོག་གི་དོན་ལུ་ ཨཱལ་གོ་རི་དམ་སེལ་འཐུ་འབད།"
+
+#. the Coder Type label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1739
+msgid "Coder Type:"
+msgstr "ཀོ་ཌར་ དབྱེ་བ:"
+
+#. the MB_DECISION combo
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1749
+msgid "0 vlc"
+msgstr "༠ ཝི་ཨེལ་སི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1750
+msgid "1 ac"
+msgstr "༡ ཨེ་སི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1760
+msgid "Coder type"
+msgstr "ཀོ་ཌར་དབྱེ་བ།"
+
+#. the Predictor label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1778
+msgid "Predictor:"
+msgstr "ལུང་བསྟན་སྟོན་མི:"
+
+#. the MB_DECISION combo
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1788
+msgid "0 left"
+msgstr "༠ གཡོན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1789
+msgid "1 plane"
+msgstr "༡ བྱིལ་ལི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1790
+msgid "2 median"
+msgstr "༢ གུང་ཐིག"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1800
+msgid "Prediction method"
+msgstr "ལུང་བསྟན་སྟོན་ནིའི་ཐབས་ལམ།"
+
+#. the Macroblock compare function label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1818
+msgid "Macroblock cmp:"
+msgstr "མེཀ་རོ་བོ་ལོག སི་ཨེམ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1838
+msgid "Select macroblock compare function "
+msgstr "མེཀ་རོ་བོ་ལོག་ ག་བསྡུར་རྐྱབས་ནིའི་ལས་འགན་སེལ་འཐུ་འབད།"
+
+#. the ildct compare function label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1856
+msgid "ildct cmp:"
+msgstr "ཨའི་ཨེལ་ཌི་སི་ཊི་ སི་ཨེམ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1876
+msgid "Select ildct compare function "
+msgstr "ཨའི་ཨེལ་ཌི་སི་ཊི་ ག་བསྡུར་རྐྱབས་ནིའི་ལས་འགན་སེལ་འཐུ་འབད།"
+
+#. the fullpel compare function label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1895
+msgid "Fullpel cmp:"
+msgstr "ཆ་ཚང་པེལ་ སི་ཨེམ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1915
+msgid "Select fullpel compare function "
+msgstr "ཆ་ཚང་པེལ་ ག་བསྡུར་རྐྱབས་ནིའི་ལས་འགན་སེལ་འཐུ་འབད།"
+
+#. the subpel compare function label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1933
+msgid "Subpel cmp:"
+msgstr "ཡན་ལག་པེལ་ སི་ཨེམ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1953
+msgid "Select subpel compare function"
+msgstr "ཡན་ལག་པེལ་ ག་བསྡུར་རྐྱབས་ནིའི་ལས་འགན་སེལ་འཐུ་འབད།"
+
+#. the pre motion estimation compare function label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1971
+msgid "Pre motion estimation cmp:"
+msgstr "སྔོན་མ་འགུལ་བསྐྱོད་ཕོག་ཚོད་དཔག་ནི་ སི་ཨེམ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1991
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2030
+msgid "Select pre motion estimation compare function "
+msgstr "སྔོན་མ་འགུལ་བསྐྱོད་ཕོག་ཚོད་དཔག་ནི་ག་བསྡུར་རྐྱབས་ནིའི་ལས་འགན་སེལ་འཐུ་འབད།"
+
+#. the frame skip compare function label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2009
+msgid "Frame skip cmp:"
+msgstr "གཞི་ཁྲམ་གོམ་འགྱོ་ནི་སི་ཨེམ་པི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2065
+msgid "FFMpeg Expert Flags"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ མཁས་པ་ ཟུར་རྟགས་ཚུ།"
+
+#. LABELS
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2106
+msgid "General flags:"
+msgstr "ཡོངས་ཁྱབ་ཟུར་རྟགས་ཚུ།:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2113
+msgid "H263:"
+msgstr "ཨེཆ་ ༢༦༣:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2121
+msgid "MPEG2/4:"
+msgstr "ཨེམ་པི་ཨི་ཇི་༢/༤:"
+
+#. CHECKBUTTONS
+#. the Bitexact checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2133
+msgid "Bitexact"
+msgstr "བིཊི་ཏག་ཏག"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2139
+msgid "Only use bit exact algorithms (for codec testing)"
+msgstr "བིཊི་ཏག་ཏག་གི་ཨཱལ་གོ་རི་དམ་ཚུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་(ཀོ་ཌེཀ་བརྟག་ཞིབ་འབད་ནིའི་དོན་ལུ)"
+
+#. the Advanced intra coding checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2147
+msgid "Advanced intra coding"
+msgstr "མཐོ་རིམ་ཨིན་ཊ་ར་ ཀོ་ཌིང་།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2153
+msgid "Activate intra frame coding (only h263+ CODEC)"
+msgstr "ཨིན་ཊ་ར་ གཞི་ཁྲམ་ཀོ་ཌིང་ ཤུགས་ལྡན་བཟོ་(ཨེཆ་༢༦༣+ཀོ་ཌེཀ་ རྐྱངམ་ཅིག)"
+
+#. the 4 Motion Vectors checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2161
+msgid "4 Motion Vectors"
+msgstr "འགུལ་བསྐྱོད་མཉམ་ཐིག་ ༤"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2167
+msgid "Use four motion vector by macroblock (only MPEG-4 CODEC)"
+msgstr "མེཀ་རོ་བོ་ལོཀ་གིས་སྦེ་ འགུལ་བསྐྱོད་མཉམ་ཐིག་བཞི་ལག་ལེན་འཐབ་(ཨེམ་པི་ཨི་ཇི་-༤ ཀོ་ཌེཀ་ རྐྱངམ་ཅིག)"
+
+#. the Closed GOP checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2177
+msgid "Closed GOP"
+msgstr "ཁ་བསྡམས་ཡོད་མི་ཇི་ཨོ་པི་།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2185
+msgid "Closed group of pictures"
+msgstr "པར་ཚུའི་སྡེ་ཚན་ཁ་བསྡམ་ཡོད་མི།"
+
+#. the Unlimited motion vector checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2192
+msgid "Unlimited motion vector"
+msgstr "ཚད་མེདཔ་ འགུལ་བསྐྱོད་མཉམ་ཐིག"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2198
+msgid "Enable unlimited motion vector (only h263+ CODEC)"
+msgstr "ཚད་མེད་པའི་འགུལ་བསྐྱོད་མཉམ་ཐིག་ལྕོགས་ཅན་བཟོ་(ཨེཆ་༢༦༣+ཀོ་ཌེཀ་ རྐྱངམ་ཅིག)"
+
+#. the Partitioning checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2206
+msgid "Partitioning"
+msgstr "བར་བཅད་འབད་དོ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2212
+msgid "Use data partitioning (only MPEG-4 CODEC)"
+msgstr "གནད་སྡུད་བར་བཅད་འབད་ནི་ལག་ལེན་འཐབ(ཨེམ་པི་ཨི་ཇི་-༤ ཀོ་ཌེཀ་ རྐྱངམ་ཅིག)"
+
+#. the Strict GOP checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2223
+msgid "Strict GOP"
+msgstr "ཇི་ཨོ་པི་དམ་དྲགས།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2231
+msgid "Strictly enforce GOP size"
+msgstr "དམ་དྲགས་སྦེ་བེད་སྤྱོད་གཏང་ནི་ ཇི་ཨོ་པི་གི་ཚད།"
+
+#. the Use slice struct checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2241
+msgid "Use slice struct"
+msgstr "སི་ལའིསི་ སི་ཊཀ ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2249
+msgid "Enable slice structured mode (only h263+ CODEC)"
+msgstr "སི་ལའིསི་ གཞི་བཀོད་འབད་ཡོད་མི་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ(ཨེཆ་༢༦༣+ཀོ་ཌེཀ་ རྐྱངམ་ཅིག)"
+
+#. the Use Alt scantable checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2257
+msgid "Use alt scantable"
+msgstr "གདམ་ལྡེ་ཞིབ་ལྟ་འབད་ནིའི་ཐིག་ཁྲམ་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2265
+msgid "Enable alternate scantable (only MPEG-2 MPEG-4 CODECs)"
+msgstr "ཐབས་གཞན་ཞིབ་ལྟ་འབད་ནིའི་ཐིག་ཁྲམ་ ལྕོགས་ཅན་བཟོ(ཨེམ་པི་ཨི་ཇི་-༢ ཨེམ་པི་ཨི་ཇི་-༤ ཀོ་ཌེཀ་ཚུ་རྐྱངམ་ཅིག)"
+
+#. the Use interlaced me checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2276
+msgid "Use interlaced me"
+msgstr "ལྷས་བཤོལ་མ་འབད་མི་ ཨེམ་ཨི་ ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2284
+msgid "Enable interlaced motion estimation"
+msgstr "ལྷས་བཤོལ་མ་འབད་མི་འགུལ་བསྐྱོད་ཕོག་ཚོད་དཔག་ནི་ ལྕོགས་ཅན་བཟོ།"
+
+#. the Use AIV checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2292
+msgid "Use AIV"
+msgstr "ཨེ་ཨའི་ཝི་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2300
+msgid "Enable Alternative inter vlc (only h263+ CODEC)"
+msgstr "ཐབས་གཞན་ཨིན་ཊར་ ཝི་ཨེལ་སི་ ལྕོགས་ཅན་བཟོ(ཨེཆ་༢༦༣+ཀོ་ཌེཀ རྐྱངམ་ཅིག)"
+
+#. the interlace dct checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2310
+msgid "Interlace DCT"
+msgstr "ལྷས་བཤོལ་མ་འབད་བའི་ ཌི་སི་ཊི།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2318
+msgid "Use interlaced dct"
+msgstr "ལྷས་བཤོལ་མ་འབད་བའི་ ཌི་སི་ཊི་ལག་ལེན་འཐབ།"
+
+#. the Use OBMC checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2326
+msgid "Overlapped block"
+msgstr "མཐའ་མནོན་འབད་འབད་བའི་ལེབ་དུམ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2334
+msgid "Enable use overlapped block motion compensation (only h263+ CODEC)"
+msgstr "མཐའ་མནོན་འབད་ཡོད་པའི་ལེབ་དུཤ་འགུལ་བསྐྱོད་རྒུད་འཐུས་ལག་ལེན་འཐབ་ནིའ་ལྕོགས་ཅན་བཟོ(ཨེཆ་༢༦༣+ཀོ་ཌེཀ རྐྱངམ་ཅིག)"
+
+#. the quarter pel checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2345
+msgid "quarter pel"
+msgstr "ཀོའརཊར་ པེལ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2353
+msgid "Enable 1/4-pel"
+msgstr "༡/༤-པེལ་ ལྕོགས་ཅན་བཟོ།"
+
+#. the Use Loop checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2360
+msgid "Loop Filter"
+msgstr "འཕྲལ་བཀོལ་ཚགས་མ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2368
+msgid "Use loop filter (only h263+ CODEC)"
+msgstr "འཕྲལ་བཀོལ་ཚགས་མ་ལག་ལེན་འཐབ (ཨེཆ་༢༦༣+ཀོ་ཌེཀ རྐྱངམ་ཅིག)"
+
+#. the Use qprd checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2378
+msgid "Use qprd"
+msgstr "ཀིའུ་པི་ཨར་ཌི་ ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2386
+msgid "Use rate distortion optimization for qp selection"
+msgstr "ཀིའུ་པི་སེལ་འཐུ་འབད་ནིའི་དོན་ལུ་ གོང་ཚད་བཟོ་ཉེས་བཟོ་ནིའི་ ལེགས་ལྡན་བཟོ་ནི་ལག་ལེན་འཐབ།"
+
+#. the Use cbprd checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2395
+msgid "Use cbprd"
+msgstr "སི་བི་པི་ཨར་ཌི་ ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2403
+msgid "Use rate distortion optimization for cbp"
+msgstr "སི་བི་པི་གི་དོན་ལུ་ གོང་ཚད་བཟོ་ཉེས་བཟོ་ནིའི་ ལེགས་ལྡན་བཟོ་ནི་ལག་ལེན་འཐབ"
+
+#. the Use MV0 checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2413
+msgid "Use MV0"
+msgstr "ཨེམ་ཝི་ཨོ་ ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2421
+msgid "Try to encode each MB with MV=<0,0> and choose the better one (has no effect if mbd=0)"
+msgstr "ཨེམ་བི་རེ་རེ་བཞིན་ ཨེམ་ཝི་=<0,0>དང་ཅིག་ཁར་ཨིན་ཀོཌི་འབད་ནིའི་འབད་རྩོལ་བསྐྱེད དེ་ལས་ ལེགས་མི་དེ་གདམ་ཁ་རྐྱབས (ཨེམ་བི་ཌི་འདི་=༠ ཨིན་པ་ཅིན་ ནུས་པ་མེད)"
+
+#. the Use Normalize checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2430
+msgid "Normalize"
+msgstr "སྤྱིར་བཏང་བཟོ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2438
+msgid "Normalize adaptive quantization"
+msgstr "མཐུན་ཅན་ཀོན་ཊི་སའི་འབད་ནི་སྤྱིར་བཏང་བཟོ།"
+
+#. the SVCD scan offset checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2449
+msgid "SVCD scan offset"
+msgstr "ཨེསི་ཝི་སི་ཌི་ ཞིབ་ལྟ་འབད་ནིའི་པར་ལེན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2457
+msgid "Enable SVCD scan offset placeholder"
+msgstr "ཨེསི་ཝི་སི་ཌི་ ཞིབ་ལྟ་འབད་ནིའི་པར་ལེན་ས་གནས་འཛིན་མི་ ལྕོགས་ཅན་བཟོ།"
+
+#. the Use trell checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2468
+msgid "Use trell"
+msgstr "ཊི་རེལ་ ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2476
+msgid "Enable trellis quantization"
+msgstr "ཊེརེལ་ལིས་ ཀོན་ཊི་སའིསི་འབད་ནི་ ལྕོགས་ཅན་བཟོ།"
+
+#. the dont_recode checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2489
+msgid "Dont Recode"
+msgstr "ལོག་ཨང་རྟགས་མ་བཀོད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2496
+msgid "Bypass the FFMPEG Vidoencoder where inputframes can be copied 1:1 from an input MPEG videofile.This experimental feature provides lossless MPEG video cut, but works only for the MPEG Fileformats."
+msgstr "ཨེཕ་ཨེཕ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་དེ་ ཨིན་པུཊི་གཞི་ཁྲམ་ཚུ་ ཨིན་པུཊི་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ཡིག་སྣོད་ཅིག་ལས་ ༡:༡ འདྲ་བཤུས་ག་སྟེ་རྐྱབས་ཚུགས་ས་ ཟུར་ལམ་བཟོ། འ་ནི་མོ་བཏབ་ཀྱི་ཁྱད་རྣམ་དེ་གིས་ ལོསི་ལེསི་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་བཏོག་ནི་བྱིནམ་ཨིན། དེ་འབདཝ་ད་ ཨེམ་པི་ཨི་ཇི་ ཡིག་སྣོད་རྩ་སྒྲིག་ཚུའི་དོན་ལུ་རྐྱངམ་ཅིག་ ལཱ་འབདཝ་ཨིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2527
+msgid "FFMpeg Expert Encoder Options"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་ པི་ཨི་ཇི་ མཁས་པ་ཨིན་ཀོ་ཌར་གདམ་ཁ་ཚུ།"
+
+#. the qblur label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2540
+msgid "qblur:"
+msgstr "ཀིའུ་ རབ་རིབ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2556
+msgid "Video quantiser scale blur (VBR)"
+msgstr "ཝི་ཌིའོ་ཀོན་ཊི་སར་ ཚད་ཤིང་ རབ་རིབ(ཝི་བི་ཨར)"
+
+#. the qcomp label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2569
+msgid "qcomp:"
+msgstr "ཀིའུ་ ཀོམཔ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2585
+msgid "Video quantiser scale compression (VBR)"
+msgstr "ཝི་ཌིའོ་ ཀོན་ཊི་སར་ ཚད་ཤིང་ གཡོབ་བཙུགས (ཝི་བི་ཨར)"
+
+#. the rc-init-cplx label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2595
+msgid "rc-init-cplx:"
+msgstr "rc-init-cplx:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2611
+msgid "Initial complexity for 1-pass encoding"
+msgstr "༡-རྩིས་སྤྲོད་ཨིན་ཀོ་ཌིང་གི་དོན་ལུ་ འགོ་ཐོག་གོ་དཀའ་བ།"
+
+#. the b-qfactor label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2622
+msgid "b-qfactor:"
+msgstr "b-qfactor:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2638
+msgid "qp factor between p and b frames"
+msgstr "པི་དང་ཀིའུ་ གཞི་ཁྲམ་ཚུའི་བར་ན་ པི་ཀིའུ་ཆ་རྐྱེན།"
+
+#. the i-qfactor label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2648
+msgid "i-qfactor:"
+msgstr "i-qfactor:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2664
+msgid "qp factor between p and i frames"
+msgstr "པི་དང་ཨའི་གཞི་ཁྲམ་ཚུའི་བར་ན་ པི་ཀིའུ་ཆ་རྐྱེན།"
+
+#. the b-qoffset label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2675
+msgid "b-qoffset:"
+msgstr "b-qoffset:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2692
+msgid "qp offset between p and b frames"
+msgstr "པི་དང་ཀིའུ་གཞི་ཁྲམ་ཚུའི་བར་ན་ པི་ཀིའུ་པར་ལེན།"
+
+#. the i-qoffset label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2702
+msgid "i-qoffset:"
+msgstr "i-qoffset:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2718
+msgid "qp offset between p and i frames"
+msgstr "པི་དང་ཨའི་གཞི་ཁྲམ་ཚུའི་བར་ན་ པི་ཀིའུ་པར་ལེན།"
+
+#. the Bitrate Tolerance label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2729
+msgid "Bitrate Tol:"
+msgstr "བིཊི་གོང་ཚད་ ཊོལ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2745
+msgid "Qet video bitrate tolerance (in kbit/s)"
+msgstr "ཀེཊི་ ཝི་ཌིའོ་ བིཊི་གོང་ཚད་ བཟོད་སྲན (ཀེ་བིཊི་/ཨེསི་ ནང་)"
+
+#. the Maxrate Tolerance label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2755
+msgid "Maxrate Tol:"
+msgstr "མང་མཐའ་གོང་ཚད་ ཊོལ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2772
+msgid "Set max video bitrate tolerance (in kbit/s)"
+msgstr "མང་མཐའ་ཝི་ཌིའོ་ བིཊི་གོང་ཚད་ བཟོད་སྲན་གཞི་སྒྲིག་འབད(ཀེ་བིཊི་/ཨེསི་ ནང་)"
+
+#. the Minrate Tolerance label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2784
+msgid "Minrate Tol:"
+msgstr "ཉུང་མཐའ་གོང་ཚད་ ཊོལ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2800
+msgid "Set min video bitrate tolerance (in kbit/s)"
+msgstr "ཉུང་མཐའ་ཝི་ཌིའོ་ བིཊི་གོང་ཚད་ བཟོད་སྲན་གཞི་སྒྲིག་འབད(ཀེ་བིཊི་/ཨེསི་ ནང་)"
+
+#. the Bufsize label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2811
+msgid "Bufsize:"
+msgstr "བི་ཡུ་ཨེཕ་ ཚད།:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2827
+msgid "Set ratecontrol buffer size (in kbyte)"
+msgstr "གོང་ཚད་ཚད་འཛིན་ གནས་ཁོངས་ ཚད་གཞི་སྒྲིག་འབད(ཀེ་བཱའིཊི་ནང་)"
+
+#. the strictness label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2838
+msgid "strictness:"
+msgstr "དམ་དྲགས་ཅན:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2854
+msgid "How strictly to follow the standards"
+msgstr "ཚུལ་ལྡན་དེ་ཚུ་ག་དེ་སྦེ་ དམ་དྲགས་ཅན་སྦེ་རྗེས་སུ་འབྲང་ནི་ཨིན་ན།"
+
+#. the mb-qmin label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2866
+msgid "mb-qmin:"
+msgstr "ཨེམ་བི་-ཀིའུ་ཨེམ་ཨའི་ཨེན:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2882
+msgid "Min macroblock quantiser scale (VBR)"
+msgstr "ཉུང་མཐའ་མེཀ་རོ་ལེབ་དུམ་ ཀོན་ཊའི་ཟར་ ཚད་ཤིང་(ཝི་བི་ཨར)"
+
+#. the mb-qmax label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2893
+msgid "mb-qmax:"
+msgstr "ཨིམ་བི་-ཀིའུ་མང་མཐའ:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2909
+msgid "Max macroblock quantiser scale (VBR)"
+msgstr "མང་མཐའ་མེཀ་རོ་ལེབ་དུམ་ ཀོན་ཊའི་ཟར་ ཚད་ཤིང་(ཝི་བི་ཨར)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2938
+msgid "FFMpeg 2 pass and multiplexer expert settings"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ༢ རྩིས་སྤྲོད་དང་ སྣ་མང་པེ་ལེག་སར་ མཁས་པའི་སྒྲིག་སྟངས་ཚུ།"
+
+#. the pass_logfile checkbutton
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2950
+msgid "2 Pass Encoding"
+msgstr "༢ རྩིས་སྤྲོད་ཨིན་ཀོ་ཌིང་།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2956
+msgid "Activate 2 pass encoding when set"
+msgstr "༢ རྩིས་སྤྲོད་ཨིན་ཀོ་ཌིང་ གཞི་སྒྲིག་འབད་བའི་སྐབས་ ཤུགས་ལྡན་བཟོ།"
+
+#. the pass_logfile label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2965
+msgid "Pass Logfile:"
+msgstr "རྩིས་སྤྲོད་དྲན་དེབ་ཡིག་སྣོད:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2981
+msgid "The pass logfile is only used as workfile for 2-pass encoding"
+msgstr "རྩིས་སྤྲོད་དྲན་དེབ་ཡིག་སྣོད་འདི་ ༢-རྩིས་སྤྲོད་ཨིན་ཀོ་ཌིང་གི་དོན་ལུ་ ལཱ་གཡོག་ཡིག་སྣོད་སྦེ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2992
+msgid "Select pass logfile via file browser"
+msgstr "ཡིག་སྣོད་བརའུ་ཟར་བརྒྱུད་དེ་ རྩིས་སྤྲོད་དྲན་དེབ་ཡིག་སྣོད་ སེལ་འཐུ་འབད།"
+
+#. the video bitrate label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3013
+msgid "Mux Rate:"
+msgstr "མགསི་ གོང་ཚད:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3034
+msgid "Multiplexer rate Bit/sec"
+msgstr "སྣ་མང་པེ་ལེག་སར་ གོང་ཚད་ བིཊི་/སྐར་ཆ།"
+
+#. the video bitrate label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3045
+msgid "Mux Packetsize:"
+msgstr "མགསི་ འཕྲིན་ཚན་ཚད:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3066
+msgid "Multiplexer packet size"
+msgstr "སྣ་མང་པེ་ལེག་སར་ འཕྲིན་ཚན་གྱི་ཚད།"
+
+#. the video bitrate label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3079
+msgid "Mux Preload:"
+msgstr "མགསི་ སྔོན་མངོན་གསལ་འབད་ནི:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3100
+msgid "Set the initial demux-decode delay (seconds)"
+msgstr "འགོ་ཐོག་ ཌི་མགསི་-ཌིཀོཌི་ ཕྱིར་འགྱངས་(སྐར་ཆ་ཚུ)གཞི་སྒྲིག་འབད།"
+
+#. the video bitrate label
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3112
+msgid "Mux Max Delay:"
+msgstr "མགསི་ མང་མཐའ་ ཕྱིར་འགྱངས:"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3133
+msgid "Set the maximum demux-decode delay (seconds)"
+msgstr "མང་མཐའ་ ཌི་མགསི་-ཌིཀོཌི་ ཕྱིར་འགྱངས་(སྐར་ཆ་ཚུ་)གཞི་སྒྲིག་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3159
+msgid "FFMpeg File Comment settings"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཡིག་སྣོད་བསམ་བཀོད་སྒྲིག་སྟངས་ཚུ།"
+
+#. the title lable
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3172
+msgid "Title:"
+msgstr "མགོ་ཡིག:"
+
+#. the filecomment_label lable
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3262
+msgid ""
+"\n"
+"Text tags will be inserted in the\n"
+"resulting video for all non blank entry fields."
+msgstr ""
+"\n"
+"ཚིག་ཡིག་མཆོང་ལྡེ་དེ་\n"
+"སྟོངམ་མེན་པའི་ཐོ་བཀོད་ས་སྒོ་ཆ་མཉམ་གྱི་དོན་ལུ་ གྲུབ་འབྲས་བྱུང་མི་ ཝི་ཌིའོ་དེ་ནང་བཙུགས་འོང་།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3386
+msgid "FFMPEG Video Encode Parameters"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ ཨིན་ཀོཌ་ ཚད་བཟུང་ཚུ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3411
+msgid "Parameter Presets"
+msgstr "ཚད་བཟུང་སྔར་སྒྲིག་ཚུ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3428
+msgid "** OOPS do not change any parameter **"
+msgstr "** ཨོ་ཨོ་པི་ཨེསི་ གིས་ཚད་བཟུང་གང་རུང་ཡང་བསྒྱུར་བཅོས་མི་འབད་བས།**"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3429
+msgid "use DivX default presets"
+msgstr "ཌིཝ་ཨེགསི་ སྔོན་སྒྲིག་སྔར་སྒྲིག་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3430
+msgid "use DivX high quality presets"
+msgstr "ཌིཝ་ཨེགསི་ སྔར་སྒྲིག་སྤུད་ཚད་མཐོ་བ་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3431
+msgid "use DivX low quality presets"
+msgstr "ཌིཝ་ཨེགསི་ སྔར་སྒྲིག་སྤུད་ཚད་དམའ་བ་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3432
+msgid "use DivX WINDOWS presets"
+msgstr "ཌིཝ་ཨེགསི་ ཝིན་ཌོཝོསི་ སྔར་སྒྲིག་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3433
+msgid "use MPEG1 (VCD) presets"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ༡ (ཝི་སི་ཌི་)སྔར་སྒྲིག་ཚུ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3434
+msgid "use MPEG1 high quality presets"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ༡ སྔར་སྒྲིག་སྤུད་ཚད་མཐོ་བ་ཚུ་ལག་ལེན་འཐབ།"
+
+#. the SVCD preset does not work with old ffmpeg 0.4.8
+#. * (libavformat has no support for this fileformat)
+#.
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3439
+msgid "use MPEG2 (SVCD) presets"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ༢ (ཨེསི་ཝི་སི་ཌི་)སྔར་སྒྲིག་ཚུ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3441
+msgid "use MPEG2 (DVD) presets"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ༢ (ཌི་ཝི་ཌི་) སྔར་སྒྲིག་ཚུ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3442
+msgid "use REAL video presets"
+msgstr "ཝི་ཌིའོ་ སྔར་སྒྲིག་ངོ་མ་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3466
+msgid "Predefined encoder parameter settings"
+msgstr "སྔ་གོང་ངེས་འཛིན་འབད་ཡོད་པའི་ ཨིན་ཀོ་ཌར་ ཚད་བཟུང་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3489
+msgid "Parameter Values"
+msgstr "ཚད་བཟུང་གནས་གོང་ཚུ།"
+
+#. the notebook page label for basic options
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3511
+msgid "Basic Options"
+msgstr "གཞི་རིམ་གདམ་ཁ་ཚུ།"
+
+#. the notebook page label for expert algorithms
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3527
+msgid "Algorithms"
+msgstr "ཨཱལ་གོ་རི་དམ།"
+
+#. the notebook page label for expert flags
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3541
+msgid "Expert Flags"
+msgstr "ཟུར་རྟགས་མཁས་པ་ཚུ།"
+
+#. the notebook page label for expert encoder options
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3555
+msgid "Expert Options"
+msgstr "གདམ་ཁ་མཁས་པ་ཚུ།"
+
+#. the notebook page label for 2 Pass Expert settings
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3570
+msgid "2Pass/Mux"
+msgstr "༢ རྩིས་སྤྲོད/མགསི།"
+
+#. the notebook page label for file comment settings
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3586
+msgid "File Comment"
+msgstr "ཡིག་སྣོད་བསམ་བཀོད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:419
+msgid "ffmpeg video encoding for anim frames. Menu: @FFMPEG@"
+msgstr "ཨེ་ནིམ་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་ ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌིང་། དཀར་ཆག: @FFMPEG@"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:420
+msgid "This plugin does video encoding of animframes based on libavformat. (also known as FFMPEG encoder). The (optional) audiodata must be RIFF WAVEfmt (.wav) file. .wav files can be mono (1) or stereo (2channels) audiodata and must be 16bit uncompressed. IMPORTANT:  Non-interactive callers should first call \""
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་ ལི་བབ་རྩ་སྒྲིག་ལུ་གཞི་བཞག་ཐོག་ ཨེ་ནིམ་གཞི་ཁྲམ་ཚུའི་ཝི་ཌིའོ་ཨིན་ཀོ་ཌིང་འབདཝ་ཨིན།(ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོ་ཌར་ ཟེར་ཡང་སླབ་ཨིན)། (གདམ་ཁ་ཅན་)རྣར་ཉན་གནད་སྡུད་དེ་ ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཌབ་ལུ་ཨེ་ཝི་ཨི་ཨེཕ་ཨེམ་ཊི་ (.wav) ཡིག་སྣོད་ཨིན་དགོ .wav ཡིག་སྣོད་ དེ་ཚུ་ རྐྱང་པ་(༡) ཡང་ན་གླུ་སྒྲོམ་(རྒྱུ་ལམ་༢)རྣར་ཉན་གནད་སྡུད་ ཡང་འོང་། དེ་ལས་ ༡༦ བིཊི་གཡེབ་བཙུགས་མ་འབདཝ་ཨིན་དགོ གལ་ཅན:ཕན་ཚུན་འབྲེལ་ལྡན་མིན་པའི་བོད་བརྡ འབད་མི་ཚུ་ དང་པ་བོད་བརྡ འབད་དགོ\"!"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:439
+msgid "Set Parameters for GAP ffmpeg video encoder Plugin"
+msgstr "ཇི་ཨེ་པི་ ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་ པ་ལག་ཨིན་གྱི་དོན་ལུ་ ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:440
+msgid "This plugin sets ffmpeg specific video encoding parameters. Non-interactive callers must provide a parameterfile, Interactive calls provide a dialog window to specify and optionally save the parameters."
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་ ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ དམིགས་བསལ་གྱི་ཝི་ཌིའོ་ཨིན་ཀོ་ཌིང་ ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབདཝ་ཨིན། ཕན་ཚུན་འབྲེལ་ལྡན་མིན་པའི་བོད་བརྡ་འབད་མི་ཚུ་གིས་ ཚད་བཟུང་ཡིག་སྣོད་ཅིག་བྱིན་དགོ ཕན་ཚུན་འབྲེལ་ལྡན་གྱི་བོད་བརྡ་ཚུ་གིས་ གསལ་བཀོད་དང་གདམ་ཁ་ཐོག་ ཚད་བཟུང་ཚུ་སྲུང་བཞག་འབད་ནིའི་དོན་ལས་ ཌའི་ལོག་གི་སྒོ་སྒྲིག་ཅིག་བྱིནམ་ཨིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:455
+msgid "Get GUI Parameters for GAP ffmpeg video encoder"
+msgstr "ཇི་ཨེ་པི་ ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌར་གི་དོན་ལུ་ ཇི་ཡུ་ཨའི་ཚད་བཟུང་ཚུ་ལེན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:456
+msgid "This plugin returns ffmpeg encoder specific parameters."
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་ ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོ་ཌར་ དམིགས་བསལ་གྱི་ཚད་བཟུང་ཚུ་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:545
+msgid ""
+"FFMPEG Encoder\n"
+"writes AVI/DivX or MPEG1, MPEG2 (DVD) or MPEG4 encoded videos\n"
+"based on FFMPEG by Fabrice Bellard"
+msgstr ""
+"ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོ་ཌར་\n"
+"ཕེབ་རིརསི་ བེ་ལཱརཌི་གིས་ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ལུ་གཞི་བཞག་སྟེ་ ཨེ་ཝི་ཨའི་/ཌིཝ་ཨེགསི་ཡང་ན་ ཨེམ་པི་ཨི་ཇི་༡,ཨེམ་པི་ཨི་ཇི་༢ (ཌི་ཝི་ཌི་)ཡང་ན་ ཨེམ་པི་ཨི་ཇི་༤ ཨིན་ཀོ་ཌེཌི་ ཝི་ཌིའོསི་\n"
+"ཚུ་རྩོམ་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:1935
+#, c-format
+msgid "Could not create pass logfile:'%s'%s"
+msgstr "རྩིས་སྤྲོད་དྲན་དེབ་ཡིག་སྣོད་ གསར་བསྐྲུན་འབད་མ་ཚུགས:'%s'%s"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:1958
+#, c-format
+msgid "Could not open pass logfile:'%s'%s"
+msgstr "རྩིས་སྤྲོད་དྲན་དེབ་ཡིག་སྣོད་ ཁ་ཕྱེ་མ་ཚུགས:'%s'%s"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:2107
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:2111
+#, c-format
+msgid "Frame width and height must be a multiple of 2\n"
+msgstr "གཞི་ཁྲམ་རྒྱ་ཚད་དང་མཐོ་ཚད་འདི་ གི་སྣ་མང་ཅིག་དགོསཔ་ཨིན།2\n"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:2184
+#, c-format
+msgid "Could not create videofile:'%s'%s"
+msgstr "ཝི་ཌིའོ་ཡིག་སྣོད་:'%s'%s གསར་བསྐྲུན་འབད་མི་ཚུགས་པས།"
+
+#. on size 0 the encoder has buffered the dummy frame.
+#. * this unwanted frame might be added when there is a next non-dummy frame
+#. * to encode and to write. (dont know if there is a chance to clear
+#. * the encoder's internal buffer in this case.)
+#. * in my tests this case did not happen yet....
+#. * .. but display a warning to find out in further test
+#.
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:2416
+msgid "Black dummy frame was added"
+msgstr "གཞི་ཁྲམ་དཔེ་གཟུགས་གནགཔོ་གཅིག་ཁ་སྐོང་འབད་ནུག"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:2882
+msgid "FFMPEG initializing for video encoding .."
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ཨིན་ཀོ་ཌིང་གི་དོན་ལུ་འགོ་འབྱེད་འབད་དོ།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:2998
+#, c-format
+msgid "FFMPEG lossless copy frame %d (%d)"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ བརླག་སྟོར་ཉུང་མི་གཞི་ཁྲམ་འདྲ་བཤུས་ %d (%d)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_main.c:3005
+#, c-format
+msgid "FFMPEG encoding frame %d (%d)"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ གཞི་ཁྲམ་ཨིན་ཀོ་ཌིང་།%d (%d)"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_callbacks.c:705
+msgid "Save ffmpeg-encoder parameters"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་-ཨིན་ཀོ་ཌར་ ཚད་བཟུང་ཚུ་ སྲུང་བཞག་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_callbacks.c:709
+msgid "Load ffmpeg-encoder parameters"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་-ཨིན་ཀོ་ཌར་ ཚད་བཟུང་ཚུ་ མངོན་གསལ་འབད།"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_par.c:202
+#, c-format
+msgid ""
+"Could not read ffmpeg video encoder parameters from file:\n"
+"%s"
+msgstr ""
+"ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌར་ ཚད་བཟུང་ཚུ་ ཡིག་སྣོད་ལས་ལྷག་མ་ཚུགས:\n"
+"%s"
+
+#: ../vid_enc_ffmpeg/gap_enc_ffmpeg_par.c:286
+#, c-format
+msgid "Could not save ffmpeg video encoder parameterfile:'%s'%s"
+msgstr "ཨེཕ་ཨེཕ་ཨེམ་པི་ཨི་ཇི་ ཝི་ཌིའོ་ ཨིན་ཀོ་ཌར་ ཚད་བཟུང་ཡིག་སྣོད་ སྲུང་བཞག་འབད་མ་ཚུགས:'%s'%s"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:180
+msgid "singleframes video encoding for anim frames. Menu: @SINGLEFRAMES@"
+msgstr "ཨེ་ནིམ་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་ རྐྱང་པ་གཞི་ཁྲམ་ཚུའི་ཝི་དིའོ་ཨིན་ཀོ་དིང་། དཀར་ཆག:@SINGLEFRAMES@"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:181
+msgid "This plugin has a video encoder API but writes a series of single frames instead of one videofile. the filetype of the output frames is derived from the extension. the extension is the suffix part of the parameter \"videofile\". the names of the output frame(s) are same as the parameter \"videofile\" but the framenumber part is replaced by the current framenumber (or added automatic if videofile has no number part) audiodata is ignored. A  call of\""
+msgstr "འ་ནི་པ་ལག་ཨིན་འདི་ལུ་ ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་ ཨེ་པི་ཨའི་ཅིག་ཡོདཔ་ཨིན་རུང་་ ཝི་ཌའོ་ཡིག་སྣོད་གཅིག་གི་ཚབ་ལུ རྐྱང་པའི་གཞི་ཁྲམ་ཚུ་གི་རྒྱུན་རིམ་ཅིག་འབྲིཝ་ཨིན།ཨའུཊི་པུཊི་གཞི་ཁྲམ་ཚུ་གི་ ཡིག་སྣོད་དབྱེ་བ་འདི་རྒྱ་བསྐྱེད་ནང་ལས་བྱུང་ཡོདཔ་ཨིན། རྒྱ་བསྐྱེད་འདི་ཚད་བཟུང\"videofile\"་རྗེས་ཚིག་ཡན་ལག་ཅིག་ཨིན།ཨའུཊི་པུཊི་གཞི་ཁྲམ་(ཨེསི)གི་མིང་ཚུ་ ཚད་བཟུང་ \"videofile\"དང་གཅིགཔ་ཨིན་རུང་ གཞི་ཁྲམ་ཨང་གི་ཡན་ལག་འདི་ད་ལྟོའི་གཞི་ཁྲམ་ཨང་འདི་གིས་ཚབ་བཙུགས་ཡོདཔ་ཨིན།(ཡང་ན་ཝི་ཌོ་ཡིག་སྣོད་འདི་ལུ་ཡན་ལག་ཨང་མེད་པ་ཅིན་རང་བཞིན་གྱིས་ཁ་སྐོང་རྐྱབ་ཨིན།)རྣར་ཉན་གནད་སྡུད་སྣང་མེད་སྦེ་བཞགཔ་ཨིན། འབོ་ནི་མེད།\""
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:190
+msgid "\" to set encoder specific paramters, is not required because this release of the singleframe encoder has NO encoder specific paramters"
+msgstr "གཞི་ཁྲམ་རྐྱང་པའི་ཨིན་ཀོ་དར་གསར་བཏོན་གྱི་ དམིགས་གསལ་ཚད་བཟུང་ཨིན་ཀོ་ཌར་ཚུ་མེདཔ་ལས་བརྟེན་ \" ཨིན་ཀོ་དར་དམིགས་གསལ་ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབད་ནི་འདི་དགོས་མཁོ་མིན་འདུག"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:205
+msgid "Set Parameters for GAP singleframes video encoder Plugins"
+msgstr "ཇི་ཨེ་པི་ གཞི་ཁྲམ་རྐྱང་པ་ཚུའི་ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་པ་ལག་ཨིནསི་གི་དོན་ལུ་ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:206
+msgid "This plugin sets singleframes specific video encoding parameters."
+msgstr "འ་ནི་པ་ལག་ཨིན་གྱིས་གཞི་ཁྲམ་རྐྱང་པའི་དམིགས་གསལ་ཝི་དིའོ་ཨིན་ཀོ་ཌིང་ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:219
+msgid "Get GUI Parameters for GAP singleframes video encoder"
+msgstr "ཇི་ཨེ་པི་གཞི་ཁྲམ་རྐྱང་པ་ཝི་ཌིའོ་ཨིན་ཀོ་ཌར་ཚུ་གི་དོན་ལུ་ ཇི་ཡུ་ཨའི་ཚད་བཟུང་ཚུ་ལེན།"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:220
+msgid "This plugin returns singleframes encoder specific parameters."
+msgstr "འ་ནི་པ་ལག་ཨིན་གིས་གཞི་ཁྲམ་རྐྱང་པ་ཨིན་ཀོ་ཌར་དམིགས་གསལ་ཚད་བཟུང་ཚུ་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:301
+msgid ""
+"The Singleframes Encoder\n"
+"writes single frames instead of one videofile\n"
+"the fileformat of the frames is derived from the\n"
+"extension of the video name, frames are named\n"
+"video name plus 6-digit number + extension"
+msgstr ""
+"གཞི་ཁྲམ་རྐྱང་པ་ཨིན་ཀོ་ཌར་ཚུ་གིས་\n"
+"ཝི་ཌིའོ་ཡིག་སྣོད་གཅིག་གི་ཚབ་མ་ གཞི་ཁྲམ་རྐྱང་པ་ཚུ་འབྲིཝ་ཨིན་\n"
+"གཞི་ཁྲམ་ཚུ་གི་ཡིག་སྣོད་རྩ་སྒྲིག་འདི་ཝི་ཌིའོ་མིང་གི་རྒྱ་བསྐྱེད་ནང་ལས་བྱུང་བྱུངམ་ཨིན་\n"
+"གཞི་ཁྲམ་ཚུ་གི་མིང་\n"
+"ཝི་ཌིའོ་མིང་བསྡོམས་རྟགས་ ༦ཨང་ཡིག་ཨང་+རྒྱ་བསྐྱེད་ཟེར་བཏགས་ཏེ་ཡོད།"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:511
+msgid "the Singleframe Encoder has no encoder specific Parameters"
+msgstr "གཞི་ཁྲམ་རྐྱང་པའི་ཨིན་ཀོ་ཌར་ལུ་དམིགས་གསལ་ཨིན་ཀོ་ཌར་ཚད་ཟུང་ཚུ་མིན་འདུག"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:680
+msgid "Singleframes Video Encoding .."
+msgstr "གཞི་ཁྲམ་རྐྱང་པའི་ཝི་ཌིའོ་ཨིན་ཀོ་ཌིང་.."
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:725
+#, c-format
+msgid "SAVING: %s\n"
+msgstr "སྲུང་བཞག་འབད་དོ།: %s\n"
+
+#: ../vid_enc_single/gap_enc_singleframes_main.c:732
+#, c-format
+msgid ""
+"** Save FAILED on file\n"
+"%s"
+msgstr ""
+"** ཡིག་སྣོད་ལུ་སྲུང་བཞག་འཐུས་ཤོར་ཡོདཔ།\n"
+"%s"
+

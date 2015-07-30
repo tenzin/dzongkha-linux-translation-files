@@ -1,0 +1,600 @@
+# LANGUAGE translation of Drupal (modules/filter.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: filter.module,v 1.122.2.1 2006/05/04 11:13:00 killes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: filter-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 11:39+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2 ; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/filter/filter.module:23
+msgid "The filter module allows administrators to configure  text input formats for the site. For example, an administrator may want a filter to strip out malicious HTML from user's comments. Administrators may also want to make URLs linkable even if they are only entered in an unlinked format."
+msgstr "ཚགས་མའི་ཚད་གཞི་འདི་གིས་བདག་སྐྱོང་པ་ཚུ་ལུ་ས་ཁོངས་ཀྱི་དོན་ལས་  ཚིག་ཡིག་ཨིན་པུཊི་རྩ་སྒྲིག་ཚུ་རིམ་སྒྲིག་འབད་བཅུགཔ་ཨིན། དཔེར་ན་ བདག་སྐྱོང་པ་འདི་ལུ་ལག་ལེན་པའི་བརྡ་བཀོད་ཚུ་ལས་ངན་སེམས་ཅན་གྱི་ཨེཆ་ཊི་ཨེམ་ཨེལ་བཤུབ་གཏང་ནི་ལུ་  ཚགས་མ་དགོཔ་འོང་། ཡང་བདག་སྐྱོང་པ་ཚུ་གིས་ཡུ་ཨར་ཨེལ་ཚུ་  འབྲེལ་བ་འབད་མ་བཏུབ་པའི་རྩ་སྒྲིག་ནང་བཙུགས་ཡོད་པ་ཅིན་རྐྱངམ་གཅིག་ཡུ་ཨར་ཨེལ་ཚུ་འབྲེལ་བ་འབད་བཏུབ་བཟོ་དགོ།"
+
+#: modules/filter/filter.module:24
+msgid "Users can choose between the available input formats when creating or editing content. Administrators can configure which input formats are available to which user roles, as well as choose a default input format. Administrators can also create new input formats. Each input format can be configured to use a selection of filters."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་ནང་དོན་ཞུན་དག་འབད་བའི་སྐབས་ ཡང་ན་ གསར་བསྐྲུན་འབདཝ་ད་ཐོབ་ཚུགས་པའི་ཨིན་པུཊི་རྩ་སྒྲིག་ཚུའི་བར་ན་  གདམ་ཁ་རྐྱབས་ཚུགས། བདག་སྐྱོང་པ་ཚུ་གིས་ལག་ལེན་པའི་ལས་འགན་ག་ལུ་ཨིན་པུཊི་རྩ་སྒྲིག་ཚུ་ཐོབ་ཚུགསཔ་ཨིན་ན་  རིམ་སྒྲིག་འབད་ནི་དང་ དེ་གིས་མ་ཚད་པར་སྔོན་སྒྲིག་ཨིན་པུཊི་རྩ་སྒྲིག་གདམ་ཁ་བརྐྱབ་ཚུགས། ཡངན་བདག་སྐྱོང་པ་ཚུ་གིས་ཨིན་པུཊི་རྩ་སྒྲིག་ཚུ་གསརཔ་གསར་བསྐྲུན་འབད་ཚུགས། ཚགས་མ་ཚུ་གི་སེལ་འཐུ་ལག་ལེན་འཐབ་ནི་ལུ་ཨིན་པུཊི་རྩ་སྒྲིག་རེ་རེ་རིམ་སྒྲིག་འབད་ཚུགས།"
+
+#: modules/filter/filter.module:25
+msgid "For more information please read the configuration and customization handbook <a href=\"@filter\">Filter page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་རིམ་སྒྲིག་འབད་ནི་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་<a href=\"@filter\">ཚགས་མའི་ཤོག་ལེབ་ལྷག་གནང་།</a>."
+
+#: modules/filter/filter.module:29
+msgid ""
+"\n"
+"<p><em>Input formats</em> define a way of processing user-supplied text in Drupal. Every input format has its own settings of which <em>filters</em> to apply. Possible filters include stripping out malicious HTML and making URLs clickable.</p>\n"
+"<p>Users can choose between the available input formats when submitting content.</p>\n"
+"<p>Below you can configure which input formats are available to which roles, as well as choose a default input format (used for imported content, for example).</p>\n"
+"<p>Note that (1) the default format is always available to all roles, and (2) all filter formats can always be used by roles with the \"administer filters\" permission even if they are not explicitly listed in the Roles column of this table.</p>"
+msgstr ""
+"\n"
+"<p><em>ཨིན་པུཊི་རྩ་སྒྲིག་འདི་གིས་</em> ཌུ་པཱལ་ནང་ལག་ལེན་པ་-བཀྲམ་སྤེལ་འབད་ཡོད་པའི་ཚིག་ཡིག་གི་ཐབས་ལམ་ངེས་འཛིན་འབདཝ་ཨིན། ཨིན་པུཊི་རྩ་སྒྲིག་རེ་རེ་ལུ་རང་དབང་གིས་འཇུག་སྤྱོད་འབད་ནི་ཨིན་མི་ཚགས་མ་ཚུ་ཡོདཔ་ཨིན། <em>སྲིད་པའི་ཚགས་མ་འདི་ཡུ་ཨར་ཨེལ་ཨེསི་ཨེབ་བཏུབ་བཟོ་ནི་དང་</em> ངན་ཅན་གྱི་ཨེཆ་ཊི་ཨེམ་ཨེལ་བཤུབ་གཏང་ནིའི་གྲངས་སུ་ཚུདཔ་ཨིན། </p>\n"
+"<p>ལག་ལེན་པ་ཚུ་གིས་ནང་དོན་ཕུལཝ་ད་ཐོབ་ཚུགས་པའི་ཨིན་པུཊི་རྩ་སྒྲིག་ཚུའི་བར་ན་གདམ་ཁ་བརྐྱབ་ཚུགས།</p>\n"
+"<p>འོག་ལུ་ཁྱོད་ཀྱིས་ལས་འགན་ག་ལུ་ཨིན་པུཊི་རྩ་སྒྲིག་ག་འདི་ཐོབ་ཚུགསཔ་ཨིན་ན་རུམ་སྒྲིག་འབད་ཚུགས་ དེ་གིས་མ་ཚད་  (ནང་འདྲེན་འབད་ཡོད་པའི་ནང་དོན་གྱི་དོན་ལས་)སྔོན་སྒྲིག་ཨིན་པུཏི་རྩ་སྒྲིག་གདམ་ཁ་བརྐྱབ་ཚུགས་ དཔེར་ན་ </p>\n"
+"<p>དྲན་འཛིན་འབད་  (༡) སྔོན་སྒྲིག་རྩ་སྒྲིག་འདི་ལས་འགན་ཚུ་ཆ་མཉམ་ལུ་ཨ་རྟག་རང་ཐོབ་ཚུགས་ནི་དང་ (༢) ཚགས་མ་རྩ་སྒྲིག་ཚུ་ཆ་མཉམ་ཐིག་ཁྲམ་འདི་གྱི་ལས་འགན་ཚུའི་ཀེར་ཐིག་ནང་གཏན་ཁེལ་སྦེ་ཐོ་བཀོད་འབད་མེད་རུང་ \"administer filters\" གི་གནང་བ་གི་ཐོག་ལས་ལས་འགན་ཚུ་གིས་ཨ་རྟག་རང་ལག་ལེན་འཐབ་ཚུགས།</p>"
+
+#: modules/filter/filter.module:36
+msgid ""
+"\n"
+"<p>Every <em>filter</em> performs one particular change on the user input, for example stripping out malicious HTML or making URLs clickable. Choose which filters you want to apply to text in this input format.</p>\n"
+"<p>If you notice some filters are causing conflicts in the output, you can <a href=\"@rearrange\">rearrange them</a>.</p>"
+msgstr ""
+"\n"
+"<p>ཚགས་མ་རེ་རེ་གིས་ <em>ལག་ལེན་པའི་ཨིན་པུཊི་གུ་</em> བསྒྱུར་བཅཅོས་གཅིག་བྱེ་བྲག་ཏུ་ལཱ་འགན་འགྲུབཔ་ཨིན་ དཔེར་ན་ ངན་སེམས་ཅན་གྱི་ཨེཆ་ཊི་ཨེམ་ཨེལ་བཤུབ་གཏང་ནི་ ཡང་ན་ ཡུ་ཨར་ཨེལ་ཨེསི་ཨེབ་གཏང་བཏུབ་བཟོ་ནི། ཨིན་པུཊི་རྩ་སྒྲིག་འདི་ནང་ཁྱོད་ཀྱིས་ཚིག་ཡིག་ལུ་ག་འདི་འཇུག་སྤྱོད་འབད་ནི་ཨིན་ན་གདམ་ཁ་རྐྱབས།</p>\n"
+"<p>ཚགས་མ་ཚུ་ལ་ལོ་ཅིག་ཨའུཊི་པུཊི་ནང་མི་མཐུན་པའི་རྒྱུ་རྐྱེན་འབདཝ་ཨིནམ་ཤེས་པ་ཅིན་ ཁྱོད་ཀྱིས་ <a href=\"@rearrange\">དེ་ཚུ་སླར་བདེ་ཞིབ་འབད་ཚུགས།</a>.</p>"
+
+#: modules/filter/filter.module:41
+msgid "If you cannot find the settings for a certain filter, make sure you have enabled it on the <a href=\"@url\">view tab</a> first."
+msgstr "<p>ཁྱོད་ཀྱིས་ཚགས་མ་ངེས་ཅན་གྱི་དོན་ལས་སྒྲིག་སྟངས་ཚུ་འཚོལ་མ་ཐོབ་པ་ཅིན་ ཁྱོད་ཀྱིས་ <a href=\"@url\">མཐོང་སྣང་ཕྲ་རིང་དང་པ་གུ་</a> ལྕོགས་ཅན་བཟོ་ཡོདཔ་ངེས་ཏིག་བཟོ།"
+
+#: modules/filter/filter.module:44
+msgid ""
+"\n"
+"<p>Because of the flexible filtering system, you might encounter a situation where one filter prevents another from doing its job. For example: a word in an URL gets converted into a glossary term, before the URL can be converted in a clickable link. When this happens, you will need to rearrange the order in which filters get executed.</p>\n"
+"<p>Filters are executed from top-to-bottom. You can use the weight column to rearrange them: heavier filters \"sink\" to the bottom.</p>"
+msgstr ""
+"\n"
+"<p>སྟབས་བདེ་ཏོག་ཏོ་གི་བཙག་ནིའི་རིམ་ལུགས་ལུ་བརྟེན་  ཁྱོད་ཀྱིས་ཚགས་མ་གཅིག་གིས་གཞན་ཁོ་རའི་ལས་གཡོག་འབད་ནི་ལས་  སྔོན་བཀག་འབད་མི་དུས་སྐབས་གདོང་ཐུག་འབད་དགོ། དཔེར་ན་: ཡུ་ཨར་ཨེལ་འདི་ཨེབ་བཏུབ་པའི་འབྲེལ་ལམ་ནང་  གཞི་བསྒྱུར་མ་འབད་བའི་ཧེ་མ་ ཡུ་ཨར་ཨེལ་ནང་གི་མིང་ཚིག་འདི་ཚིག་ཐོ་དོན་ཚིག་ནང་ལུ་  གཞི་བསྒྱུར་འབདཝ་ཨིན། འདི་འབྱུངམ་ད་ ཁྱོད་ཀྱིས་ཚགས་མ་ཚུ་ལག་ལེན་འཐབ་ཡོད་མི་གོ་རིམ་ནང་  སླར་བདེ་ཞིབ་འབད་དགོཔ་འོང་།</p>\n"
+"<p>ཚགས་མ་ཚུ་ལྟག་ལས་འོག་ལུ་ལག་ལེན་འཐབཔ་ཡོདཔ། ཁྱོད་ཀྱིས་དེ་ཚུ་སླར་བདེ་ཞིབ་འབད་ནི་ལུ་  ལྗིད་ཚད་ཀྱི་ཀེར་ཐིག་ལག་ལེན་འཐབ་ཚུགས་: ལྗིད་ཅན་ཚགས་མ་ཚུ་གཤམ་ལུ་ 'ཐིམ་'འགྱོཝ་ཨིན།</p>"
+
+#: modules/filter/filter.module:58
+msgid "Input formats"
+msgstr "ཨིད་པུཊི་རྩ་སྒྲིག་ཚུ་"
+
+#: modules/filter/filter.module:59
+msgid "Configure how content input by users is filtered, including allowed HTML tags, PHP code tags. Also allows enabling of module-provided filters."
+msgstr "ཆོག་པའི་ཨེཆ་ཊི་ཨེམ་ཨེལ་ངོ་རྟགས་ཚུ་  པི་ཨེཆ་པི་ཨང་རྟགས་ཚུ་རྩིས་ཏེ་  ལག་ལེན་པ་དེ་གིས་ནང་དོན་ཨིན་པུཊི་འདི་ག་དེ་སྦེ་ཚགས་མ་འབདཝ་ཨིན་ན་འདི་  རིམ་སྒྲིག་འབད།"
+
+#: modules/filter/filter.module:71
+msgid "Add input format"
+msgstr "ཨིན་པུཊི་རྩ་སྒྲིག་ཁ་སྐོང་རྐྱབས་"
+
+#: modules/filter/filter.module:79
+msgid "Delete input format"
+msgstr "ཨིན་པུཊི་རྩ་སྒྲིག་བཏོན་གཏང་"
+
+#: modules/filter/filter.module:86
+msgid "Compose tips"
+msgstr "ཕན་བསླབ་ཚུ་བརྩམ།"
+
+#: modules/filter/filter.module:98
+msgid "!format input format"
+msgstr "!formatཨིན་པུཊི་རྩ་སྒྲིག།"
+
+#: modules/filter/filter.module:121
+msgid "Rearrange"
+msgstr "སླར་བདེ་ཞིབ་འབད་"
+
+#: modules/filter/filter.module:169
+msgid ""
+"\n"
+"<p>This site allows HTML content. While learning all of HTML may feel intimidating, learning how to use a very small number of the most basic HTML \"tags\" is very easy. This table provides examples for each tag that is enabled on this site.</p>\n"
+"<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/\">HTML Specifications</a> or use your favorite search engine to find other sites that explain HTML.</p>"
+msgstr ""
+"\n"
+"<p>ས་སྒོ་འདི་གིས་ཨེཆ་ཊི་ཨེམ་ཨེལ་ནང་དོན་འབད་བཅུགཔ་ཨིན། ཨེཆ་ཊི་ཨེམ་ཨེལ་ཆ་མཉམ་ལྷབ་པའི་སྐབས་ལ་ཁག་ཚོར་འོང་  ཨེཆ་ཊི་ཨེམ་ཨེལ་ \"tags\" གཞི་རིམ་གྱི་གྲངས་ཉུང་ཤོས་ག་དེ་སྦེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་ལྷབ་ནི་འདི་ན་མེད་ས་མེད་འཇམ་ཏོང་ཏོ་ཨིན། ཐིག་ཁྲམ་འདི་གིས་ས་སྒོ་འདི་གུར་ལྕོགས་ཅན་བཟོ་ཡོད་མི་ངོ་རྟགས་རེ་རེའི་དོན་ལུ་དཔེར་བརྗོད་བྱིནམ་ཨིན།</p>\n"
+"<p>བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལས་ W3C's <a href=\"http://www.w3.org/TR/html/\">ཨེཆ་ཊི་ཨེམ་ཨེལ་གསལ་བཀོད་བལྟ་</a> ཡང་ན་ ཨེཆ་ཊི་ཨེམ་ཨེལ་གསལ་བཤད་བརྐྱབ་མི་གཞན་ས་ཁོངས་ཚུ་འཚོལ་ནི་ལུ་ཁྱོད་ཀྱིས་དགའ་མི་འཚོལ་ཞིབ་མ་འཕྲུལ་ལག་ལེན་འཐབ།</p>"
+
+#: modules/filter/filter.module:173
+msgid "Anchors are used to make links to other pages."
+msgstr "ཨེན་ཀོར་ཚུ་གཞན་ཤོག་ལེབ་ཚུ་ལུ་འབྲེལ་ལམ་ཚུ་བཟོ་ནི་ལུ་ལག་ལེན་འཐབཔ་ཨིན།"
+
+#: modules/filter/filter.module:174
+msgid "By default line break tags are automatically added, so use this tag to add additional ones. Use of this tag is different because it is not used with an open/close pair like all the others. Use the extra \" /\" inside the tag to maintain XHTML 1.0 compatibility"
+msgstr "སྔོན་སྒྲིག་གྲལ་མཚམས་ངོ་རྟགས་ཚུ་གིས་རང་བཞིན་གྱིས་ཁ་སྐོང་རྐྱབས་འདི་ཡོད་ དེ་འབདཝ་ལས་ཁ་སྐོང་ཅན་ཚུ་ཁ་སྐོང་བརྐྱབ་ནི་ལུ་ངོ་རྟགས་འདི་ལག་ལེན་འཐབ། ངོ་རྟགས་འདི་གི་ལག་ལེན་འདི་སོ་སོ་ཨིན་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འ་ནི་འདི་གཞན་ཚུ་ཆ་མཉམ་བཟུམ་སྦེ་ ཁ་ཕྱེ་/ཁ་བསྡམས་ གཉིས་ཀྱི་ཐོག་ལས་ལག་ལེན་མི་འཐབ། ཨེཀསི་ཨེཆ་ཊི་ཨེམ་ཨེལ་ ༡.༠ མཐུན་འགྱུར་སྦེ་རྒྱུན་སྐྱོང་འབད་ནི་ལུ་ངོ་རྟགས་ནང་ལུ་\" /\" ཐེབས་ལག་ལེན་འཐབ།"
+
+#: modules/filter/filter.module:174
+msgid "Text with <br />line break"
+msgstr "གྲལ་མཚམས་གཅིག་ཁར་<br />ཚིག་ཡིག།"
+
+#: modules/filter/filter.module:175
+msgid "By default paragraph tags are automatically added, so use this tag to add additional ones."
+msgstr "སྔོན་སྒྲིག་གིས་དོན་མཚམས་ཕྲ་རིང་ཚུ་རང་བཞིན་གྱིས་ཁ་སྐོང་རྐྱབས་འདི་ཡོད་ དེ་འབདཝ་ལས་ཁ་སྐོང་ཅན་ཚུ་ཁ་སྐོང་བརྐྱབ་ནི་ལུ་ཕྲ་རིང་འདི་ལག་ལེན་འཐབ།"
+
+#: modules/filter/filter.module:175
+msgid "Paragraph one."
+msgstr "དོན་མཚམས་དང་པ།"
+
+#: modules/filter/filter.module:175
+msgid "Paragraph two."
+msgstr "དོན་མཚམས་གཉིས་པ།"
+
+#: modules/filter/filter.module:176;176
+msgid "Strong"
+msgstr "སྒྲིང་སྒྲིང་།"
+
+#: modules/filter/filter.module:177;177
+msgid "Emphasized"
+msgstr "གཙོ་བཏོན་འབད་ཡོདཔ།"
+
+#: modules/filter/filter.module:178;178
+msgid "Cited"
+msgstr "བརྗོད་པ་བཟོ་ཡོདཔ།"
+
+#: modules/filter/filter.module:179
+msgid "Coded text used to show programming source code"
+msgstr "ཨང་རྟགས་བཀོད་ཡོད་མི་ཚིག་ཡིག་འདི་གིས་ལས་རིམ་བཟོ་ལས་འབྱུང་ཁུངས་ཀྱི་ཨང་རྟགས་སྟོནམ་ཨིན།"
+
+#: modules/filter/filter.module:179
+msgid "Coded"
+msgstr "ཨང་རྟགས་བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:180;180
+msgid "Bolded"
+msgstr "རྒྱགས་པ་བཟོ་ཡོདཔ།"
+
+#: modules/filter/filter.module:181;181
+msgid "Underlined"
+msgstr "འོག་ཐིག་བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:182;182
+msgid "Italicized"
+msgstr "གཡས་ཕྱོགས་གཡོ་ཡོདཔ།"
+
+#: modules/filter/filter.module:183
+msgid "Superscripted"
+msgstr "སྟེང་ཡིག་བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:183
+msgid "<sup>Super</sup>scripted"
+msgstr "<sup>སྟེང་ཡིག་</sup>བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:184
+msgid "Subscripted"
+msgstr "འོག་ཡིག་བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:184
+msgid "<sub>Sub</sub>scripted"
+msgstr "<sub>འོག་ཡིག་</sub>བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:185;185
+msgid "Preformatted"
+msgstr "སྔ་གོང་ཚད་སྒྲིག་འབད་ཡོདཔ།"
+
+#: modules/filter/filter.module:186
+msgid "Abbreviation"
+msgstr "སྡུད་ཚིག།"
+
+#: modules/filter/filter.module:186
+msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
+msgstr "<abbr title=\"Abbreviation\">སྡུད་ཚིག།</abbr>"
+
+#: modules/filter/filter.module:187
+msgid "Acronym"
+msgstr "བསྡུ་ཡིག།"
+
+#: modules/filter/filter.module:187
+msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
+msgstr "<acronym title=\"Three-Letter Acronym\">ཊི་ཨེལ་ཨེ།</acronym>"
+
+#: modules/filter/filter.module:188;188
+msgid "Block quoted"
+msgstr "སྡེབ་ཚན་འདྲེན་ཚིག་བཀོད་ཡོདཔ།"
+
+#: modules/filter/filter.module:189;189
+msgid "Quoted inline"
+msgstr "འདྲེན་ཚིག་བཀོད་ཡོད་པའི་ཨིན་ལའིན།"
+
+#: modules/filter/filter.module:191
+msgid "Table"
+msgstr "ཐིག་ཁྲམ།"
+
+#: modules/filter/filter.module:191
+msgid "Table header"
+msgstr "ཐིག་ཁྲམ་གྱི་མགོ་མིང་།"
+
+#: modules/filter/filter.module:191
+msgid "Table cell"
+msgstr "ཐིག་ཁྲམ་ནང་ཐིག།"
+
+#: modules/filter/filter.module:193;193
+msgid "Deleted"
+msgstr "བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/filter/filter.module:194;194
+msgid "Inserted"
+msgstr "བཙུགས་ཡོདཔ།"
+
+#: modules/filter/filter.module:196
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr "གོ་རིམ་སྒྲིག་ཡོད་པའི་ཐོ་ཡིག་-ཐོ་ཡིག་རྣམ་གྲངས་རེ་རེ་འགོ་བཙུགས་ནི་ལུ་&lt;li&gt;ལག་ལེན་འཐབ།"
+
+#: modules/filter/filter.module:196;197
+msgid "First item"
+msgstr "རྣམ་གྲངས་དང་པ།"
+
+#: modules/filter/filter.module:196;197
+msgid "Second item"
+msgstr "རྣམ་གྲངས་གཉིས་པ།"
+
+#: modules/filter/filter.module:197
+msgid "Unordered list - use the &lt;li&gt; to begin each list item"
+msgstr "གོ་རིམ་མ་སྒྲིག་པའི་ཐོ་ཡིག་- ཐོ་ཡིག་རྣམ་གྲངས་རེ་རེ་འགོ་བཙུགས་ནི་ལུ་ &lt;li&gt; ལག་ལེན་འཐབ།"
+
+#: modules/filter/filter.module:200
+msgid "Definition lists are similar to other HTML lists. &lt;dl&gt; begins the definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins the definition description."
+msgstr "ངེས་ཚིག་གི་ཐོ་ཡིག་ཚུ་གཞན་ཨེཆ་ཊི་ཨེམ་ཨེལ་ཐོ་ཡིག་ཚུ་དང་ཆ་འདྲཝ་ཨིན། &lt;dl&gt; ངེས་ཚིག་ཐོ་ཡིག་འགོ་བཙུགསཔ་ཨིན་ &lt;dt&gt; ངེས་ཚིག་གི་དོན་ཚིག་འགོ་བཙུགསཔ་ཨིནམ་དང་ &lt;dd&gt; ངེས་ཚིག་འགྲེལ་བཤད་འགོ་བཙུགསཔ་ཨིན།"
+
+#: modules/filter/filter.module:200
+msgid "First term"
+msgstr "དོན་ཚིག་དང་པ།"
+
+#: modules/filter/filter.module:200
+msgid "First definition"
+msgstr "འགྲེལ་བཤད་དང་པ།"
+
+#: modules/filter/filter.module:200
+msgid "Second term"
+msgstr "དོན་ཚིག་གཉིས་པ།"
+
+#: modules/filter/filter.module:200
+msgid "Second definition"
+msgstr "འགྲེལ་བཤད་གཉིས་པ།"
+
+#: modules/filter/filter.module:202;203;204;205;206;207
+msgid "Header"
+msgstr "མགོ་ཡིག།"
+
+#: modules/filter/filter.module:203
+msgid "Subtitle"
+msgstr "མགོ་མིང་ཡན་ལག།"
+
+#: modules/filter/filter.module:204
+msgid "Subtitle three"
+msgstr "མགོ་མིང་ཡན་ལག་གསུམ།"
+
+#: modules/filter/filter.module:205
+msgid "Subtitle four"
+msgstr "མགོ་མིང་ཡན་ལག་བཞི།"
+
+#: modules/filter/filter.module:206
+msgid "Subtitle five"
+msgstr "མགོ་མིང་ཡན་ལག་ལྔ།"
+
+#: modules/filter/filter.module:207
+msgid "Subtitle six"
+msgstr "མགོ་མིང་ཡན་ལག་དྲུག།"
+
+#: modules/filter/filter.module:209
+msgid "Tag Description"
+msgstr "ངོ་རྟགས་ཀྱི་འགྲེལ་བཤད།"
+
+#: modules/filter/filter.module:209;238
+msgid "You Type"
+msgstr "ཁྱོད་ཀྱིས་ཡིག་དཔར་རྐྱབས།"
+
+#: modules/filter/filter.module:209;238
+msgid "You Get"
+msgstr "ཁྱོད་ཀྱིས་ལེན།"
+
+#: modules/filter/filter.module:223
+msgid "No help provided for tag %tag."
+msgstr "ངོ་རྟགས་ %tag གི་དོན་ལུ་གྲོགས་རམ་བྱིན་ཏེ་མེད།"
+
+#: modules/filter/filter.module:229
+msgid ""
+"\n"
+"<p>Most unusual characters can be directly entered without any problems.</p>\n"
+"<p>If you do encounter problems, try using HTML character entities. A common example looks like &amp;amp; for an ampersand &amp; character. For a full list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/entities.html\">entities</a> page. Some of the available characters include:</p>"
+msgstr ""
+"\n"
+"<p>གཞན་དང་མ་འདྲ་བའི་ཡིག་འབྲུ་མང་ཤོས་ཅིག་དཀའ་ངལ་གང་ཡང་མེད་པར་ཐད་ཀར་དུ་བཙུགས་ཚུགས།</p>\n"
+"<p>ཁྱོད་ལུ་དཀའ་ངལ་ཚུ་གདོང་ཐུག་འབྱུང་པ་ཅིན་ ཨེཆ་ཊི་ཨེམ་ཨེལ་ཡིག་འབྲུའི་རྩ་ངོ་ལག་ལེན་འཐབ་ཐོག་ལས་འབད་རྩོལ་བསྐྱེད། མཐུན་མོང་གི་དཔེར་བརྗོད་འདི་  དང་རྟགས་ &amp; རྩ་ངོའི་དོན་ལུ་&amp;amp;བཟུམ་སྦེ་མཐོངམ་ཨིན། རྩ་ངོ་ཚུའི་ཐོ་ཡིག་ཆ་ཚང་གི་དོན་ལས་ HTML's <a href=\"http://www.w3.org/TR/html4/sgml/entities.html\">entities</a> ཤོག་ལེབ་བལྟ། ཐོབ་ཚུགས་པའི་ཡིག་འབྲུ་ཚུ་དག་པ་ཅིག་གྲངས་སུ་ཚུདཔ་ཨིན་:</p>"
+
+#: modules/filter/filter.module:233
+msgid "Ampersand"
+msgstr "དང་རྟགས།"
+
+#: modules/filter/filter.module:234
+msgid "Greater than"
+msgstr "ལས་མང་མི།"
+
+#: modules/filter/filter.module:235
+msgid "Less than"
+msgstr "ལས་ཉུང་མི།"
+
+#: modules/filter/filter.module:236
+msgid "Quotation mark"
+msgstr "འདྲེན་རྟགས།"
+
+#: modules/filter/filter.module:238
+msgid "Character Description"
+msgstr "ཡིག་འབྲུའི་འགྲེལ་བཤད།"
+
+#: modules/filter/filter.module:252
+msgid "No HTML tags allowed"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ངོ་རྟགས་ཚུ་འབད་མ་བཅུག།"
+
+#: modules/filter/filter.module:260
+msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
+msgstr "ཁྱོད་ཀྱིས་པི་ཨེཆ་པི་ཨང་རྟགས་འགྲེམ་སྐྱེལ་འབད་ཆོག། ཁྱོད་ཀྱིས་&lt;?php ?&gt; ངོ་རྟགས་ཚུ་གྲངས་སུ་བཙུགས་དགོ།"
+
+#: modules/filter/filter.module:262
+msgid ""
+"\n"
+"<h4>Using custom PHP code</h4>\n"
+"<p>If you know how to script in PHP, Drupal gives you the power to embed any script you like. It will be executed when the page is viewed and dynamically embedded into the page. This gives you amazing flexibility and power, but of course with that comes danger and insecurity if you do not write good code. If you are not familiar with PHP, SQL or with the site engine, avoid experimenting with PHP because you can corrupt your database or render your site insecure or even unusable! If you do not plan to do fancy stuff with your content then you are probably better off with straight HTML.</p>\n"
+"<p>Remember that the code within each PHP item must be valid PHP code - including things like correctly terminating statements with a semicolon. It is highly recommended that you develop your code separately using a simple test script on top of a test database before migrating to your production environment.</p>\n"
+"<p>Notes:</p><ul><li>You can use global variables, such as configuration parameters, within the scope of your PHP code but remember that global variables which have been given values in your code will retain these values in the engine afterwards.</li><li>register_globals is now set to <strong>off</strong> by default. If you need form information you need to get it from the \"superglobals\" $_POST, $_GET, etc.</li><li>You can either use the <code>print</code> or <code>return</code> statement to output the actual content for your item.</li></ul>\n"
+"<p>A basic example:</p>\n"
+"<blockquote><p>You want to have a box with the title \"Welcome\" that you use to greet your visitors. The content for this box could be created by going:</p>\n"
+"<pre>\n"
+"  print t(\"Welcome visitor, ... welcome message goes here ...\");\n"
+"</pre>\n"
+"<p>If we are however dealing with a registered user, we can customize the message by using:</p>\n"
+"<pre>\n"
+"  global $user;\n"
+"  if ($user->uid) {\n"
+"    print t(\"Welcome $user->name, ... welcome message goes here ...\");\n"
+"  }\n"
+"  else {\n"
+"    print t(\"Welcome visitor, ... welcome message goes here ...\");\n"
+"  }\n"
+"</pre></blockquote>\n"
+"<p>For more in-depth examples, we recommend that you check the existing Drupal code and use it as a starting point, especially for sidebar boxes.</p>"
+msgstr ""
+"\n"
+"<h4>སྲོལ་སྒྲིག་པི་ཨེཆ་པི་ཨང་རྟགས་ལག་ལེན་འཐབ་དོ་</h4>\n"
+"<p>ཁྱོད་ཀྱིས་པི་ཨེཆ་པི་ནང་ག་དེ་སྦེ་ཡིག་ཚུགས་འབད་ནི་ཨིན་ན་ཤེས་པ་ཅིན་ ཌུ་པཱལ་འདི་གིས་ཁྱོད་ལུ་ཁྱོད་ཀྱིས་དགའ་མི་ཡིག་ཚུགས་གང་རུང་ཅིག་  གནས་འདྲེན་ནི་ལུ་ནུས་ཤུགས་བྱིནམ་ཨིན། འ་ནི་དེ་ཤོག་ལེབ་འདི་སྟོནམ་ད་དང་ཤོག་ལེབ་ནང་ལུ་ནུས་ཅན་ཐོག་ལས་  གནས་འདྲེན་འབདཝ་ད་ལག་ལེན་འཐབ་འོང་། འདི་གིས་ཁྱོད་ལུ་ཡ་མཚན་ཅན་གྱི་སྟབས་བདེ་ཏོག་ཏོ་དང་ནུས་ཤུགས་བྱིནམ་ཨིན་ དེ་འབདཝ་ད་ དེ་དང་གཅིག་ཁར་ ཁྱོད་ཀྱིས་ཨང་རྟགས་ལེགས་ཤོམ་འདི་མ་འབྲི་བ་ཅིན་མཐའ་བཙན་མེདཔ་དང་ཉེན་ཁ་འབྱུངམ་ཨིན།  ཁྱོད་པི་ཨེཆ་པི་ ཨེསི་ཀིའུ་ཨེལ་ ཡང་ན་ ས་ཁོངས་ཀྱི་མ་འཕྲུལ་གཅིག་ཁར་གོམས་འདྲིས་མེད་པ་ཅིན་ པི་ཨེཆ་པི་གཅིག་ཁར་མོ་བཏབ་ནི་འདི་  ཟུར་བཞག་གི་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ས་ཁོངས་མཐའ་བཙན་མེད་མི་ལྷག་སྟོན་འབད་ནི་ ཡང་ན་ ལག་ལེན་འཐབ་མ་བཏུབ་ ཡང་ན་ ཁྱོད་ཀྱི་གནད་སྡུད་གཞི་རྟེན་ངན་ཅན་བཟོ་ཚུགས་!  ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ནང་དོན་གཅིག་ཁར་ཁྲ་ལི་དམར་ལི་ཅ་ཅས་འབད་ནི་ལུ་འཆར་གཞི་མེད་པ་ཅིན་ དེ་ལས་ཁྱོད་ཀྱིས་ཕྲང་ཕྲངམ་ཨེཆ་ཊི་ཨེམ་ཨེལ་གྱི་ཐོག་ལས་འབདཝ་དྲག།</p>\n"
+"<p>པི་ཨེཆ་པི་རྣམ་གྲངས་རེ་རེའི་ནང་འཁོད་ཀྱི་ཨང་རྟགས་འདི་སི་མི་ཀོ་ལཱོན་གྱི་ཐོག་ལས་ངེས་བདེན་སྦེ་རྩ་གྲོལ་གཏང་ནིའི་གསལ་བཤད་བཟུམ་གྲངས་སུ་བཙུགས་ཏེ་ པི་ཨེཆ་པི་ཨང་རྟགས་ངེས་པར་ནུས་ཅན་བཟོ་དགོ། འ་ནི་འདི་ཁྱོད་ཀྱི་ཐོན་འབྲས་མཐའ་འཁོར་ལུ་གཞིས་མ་སྤོ་བའི་ཧེ་མ་ཚིག་ཡིག་གནད་སྡུད་གཞི་རྟེན་གྱི་ལྟག་ལུ་འཇམ་སམ་ཚིག་ཡིག་ཡིག་ཚུགས་ལག་ལེན་འཐབ་ཐོག་ལས་ཁྱོད་ཀྱི་ཨང་རྟགས་སོ་སོ་སྦེ་བཟོ་ཡོད་མི་དྲགཔ་སྦེ་འོས་སྦྱོར་འབད་ཡོདཔ་ཨིན།</p>\n"
+"<p>དྲན་ཐོ་ཚུ་:</p><ul><li>ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་པི་ཨེཆ་པི་ཨང་རྟགས་ཀྱི་འོས་སྐབས་ཀྱི་ནང་འཁོད་ རིམ་སྒྲིག་འབད་ནིའི་ཚད་བཟུང་བཟུམ་མའི་ སྤྱི་ཁྱབ་འགྱུར་ཅན་ཚུ་ལག་ལེན་འཐབ་ཚུགས་ དེ་འབདཝ་ད་ ཁྱོད་ཀྱི་ཨང་རྟགས་ནང་གནས་གོང་ཚུ་བྱིན་ཡོད་མི་སྤྱི་ཁྱབ་འགྱུར་ཅན་ཚུ་ ཤུལ་ལས་མ་འཕྲུལ་ནང་གནས་གོང་འདི་ཚུ་བདག་བཟུང་འབད་བཞག་འོང་སེམས་ཁར་བཞག།</li><li>ཐོ་དེབ་_སྤྱི་ཁྱབ་ཚུ་ད་ལྟོ་ <strong>སྔོན་སྒྲིག་གིས་</strong> ཨོཕ་ལུ་གཞི་སྒྲིག་འབད་ཡོད། ཁྱོད་ལུ་འབྲི་ཤོག་བརྡ་དོན་དགོ་པ་ཅིན་ ཁྱོད་ཀྱིས་ \"superglobals\" $_POST, $_GET, ལ་སོགས་པ་ལས་ལེན་དགོ།</li><li>ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་རྣམ་གྲངས་ཀྱི་དོན་ལས་ནང་དོན་ངོ་མ་ཨའུཊི་པུཊི་འབད་ནི་ལུ་སླར་ལོག་གསལ་བཤད་ ཡང་ན་ དཔར་བསྐྲུན་ <code>གཉིས་ལས་</code> ལག་ལེན་ <code>འཐབ་</code> ཚུགས།</li></ul>\n"
+"<p>གཞི་རིམ་དཔེར་བརྗོད་:</p>\n"
+"<blockquote><p>ཁྱོད་ཀྱིས་ཁྱོད་རའི་ལྟ་སྐོར་པ་ལེགས་སྨོན་ཞུ་མི་ ཁྱོད་ལུ་མགོ་མིང་ \"Welcome\" བཏགས་ཡོད་པའི་སྒྲོམ་དགོ། སྒྲོམ་འདི་གི་དོན་ལས་ནང་དོན་འདི་འགྱོ་བའི་ཐོག་ལས་གསར་བསྐྲུན་འབད་ཚུགས་ནི་འོང་:</p>\n"
+"<pre>\n"
+"  དཔར་བསྐྲུན་འབད་(\"Welcome visitor, ... welcome message goes here ...\");\n"
+"</pre>\n"
+"<p>ག་དེ་འབད་རང་ཨིན་རུང་ང་བཅས་ཚུ་ཐོ་བཀོད་འབད་ཡོད་པའི་ལག་ལེན་པ་གཅིག་ཁར་འབྲེལ་བ་འཐབ་པ་ཅིན་ ང་བཅས་ཚུ་གིས་སྤྱི་ཁྱབ་ $ལག་ལེན་པ་ལག་ལེན་འཐབ་ཐོག་ལས་་:</p>\n"
+"<pre>\n"
+"  འཕྲིན་དོན་སྲོལ་སྒྲིག་འབད་ཚུགས།\n"
+"   ($user->uid) ཅིན་{\n"
+"    དཔར་བསྐྲུན་འབད་(\"Welcome $user->name, ... welcome message goes here ...\");\n"
+"  }\n"
+"  གཞན་ {\n"
+"    དཔར་བསྐྲུན་འབད་(\"Welcome visitor, ... welcome message goes here ...\");\n"
+"  }\n"
+"</pre></blockquote>\n"
+"<p>དཔེར་བརྗོད་དྲག་ཤོས་ཀྱི་དོན་ལས་ ང་བཅས་ཀྱིས་ཁྱོད་ཀྱིས་ཡོད་བཞིན་པའི་ཌུ་པཱལ་ཨང་རྟགས་ཞིབ་དཔྱད་འབད་ཡི་ག་དང་ ལྷག་པར་དུ་ཟུར་ཕྲ་སྒྲོམ་ཚུའི་དོན་ལས་ འགོ་བཙུགས་ས་སྦེ་ལག་ལེན་འཐབ་ནུག་ག་འོས་སྦྱོར་འབདཝ་ཨིན།</p>"
+
+#: modules/filter/filter.module:288
+msgid "Lines and paragraphs break automatically."
+msgstr "གྲལ་ཐིག་ཚུ་དང་དོན་མཚམས་ཚུ་རང་བཞིན་གྱིས་རྒྱུན་ཆདཔ་ཨིན།"
+
+#: modules/filter/filter.module:290
+msgid "Lines and paragraphs are automatically recognized. The &lt;br /&gt; line break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted automatically. If paragraphs are not recognized simply add a couple blank lines."
+msgstr "གྲལ་ཐིག་ཚུ་དང་དོན་མཚམས་ཚུ་རང་བཞིན་གྱིས་ངོས་འཛིན་འབད་ཡོད། &lt;br /&gt; གྲལ་མཚམས་ &lt;p&gt; དོན་མཚམས་དང་ &lt;/p&gt; ཁ་བསྡམས་དོན་མཚམས་ངོ་རྟགས་ཚུ་རང་བཞིན་གྱིས་བཙུགས་ཡོད། དོན་མཚམས་ཚུ་ངོས་འཛིན་འབད་འདི་མེད་པ་ཅིན་གྲལ་ཐིག་སྟོངམ་གཉིས་ཙམ་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/filter/filter.module:294
+msgid "Web page addresses and e-mail addresses turn into links automatically."
+msgstr "ཝེབ་ཤོག་ལེབ་ཁ་བྱང་དང་གློག་འཕྲིན་ཁ་བྱང་ཚུ་  རང་བཞིན་གྱིས་འབྲེལ་ལམ་ནང་ལུ་འགྱོཝ་ཨིན།"
+
+#: modules/filter/filter.module:318
+msgid "All roles may use default format"
+msgstr "ལས་འགན་ཚུ་ཆ་མཉམ་གྱིས་སྔོན་སྒྲིག་རྩ་སྒྲིག་ལག་ལེན་འཐབ་ཆོག།"
+
+#: modules/filter/filter.module:318
+msgid "No roles may use this format"
+msgstr "ལས་འགན་ཚུ་གིས་རྩ་སྒྲིག་འདི་ལག་ལེན་འཐབ་མི་ཆོག།"
+
+#: modules/filter/filter.module:323
+msgid "Set default format"
+msgstr "སྔོན་སྒྲིག་རྩ་སྒྲིག་གཞི་སྒྲིག་འབད།"
+
+#: modules/filter/filter.module:330
+msgid "Default format updated."
+msgstr "དུས་མཐུན་བཟོ་ཡོད་པའི་སྔོན་སྒྲིག་རྩ་སྒྲིག།"
+
+#: modules/filter/filter.module:368
+msgid "Are you sure you want to delete the input format %format?"
+msgstr "ཁྱོད་ཀྱིས་ཨིན་པུཊི་རྩ་སྒྲིག་%format བཏོན་གཏང་ནི་འདི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/filter/filter.module:368
+msgid "If you have any content left in this input format, it will be switched to the default input format. This action cannot be undone."
+msgstr "ཁྱོད་ཀྱིས་ཨིན་པུཊི་རྩ་སྒྲིག་འདི་ནང་ནང་དོན་གང་རུང་ཅིག་ལྷག་ལུས་ཡོད་པ་ཅིན་ དེ་གིས་སྔོན་སྒྲིག་ཨིན་པུཊི་རྩ་སྒྲིག་ལུ་སོར་བསྒྱུར་འབད་འོང་། བྱ་བ་འདི་འབད་བཤོལ་འབད་མི་བཏུབ།"
+
+#: modules/filter/filter.module:371
+msgid "The default format cannot be deleted."
+msgstr "སྔོན་སྒྲིག་རྩ་སྒྲིག་འདི་བཏོན་གཏང་མི་བཏུབ།"
+
+#: modules/filter/filter.module:394
+msgid "Deleted input format %format."
+msgstr "བཏོན་གཏང་ཡོད་པའི་ཨིན་པུཊི་རྩ་སྒྲིག་%format."
+
+#: modules/filter/filter.module:405
+msgid "All roles for the default format must be enabled and cannot be changed."
+msgstr "སྔོན་སྒྲིག་རྩ་སྒྲིག་གི་དོན་ལས་ལས་འགན་ཚུ་ཆ་མཉམ་ངེས་པར་ལྕོགས་ཅན་དགོཔ་དང་བསྒྱུར་བཅོས་འབད་མི་བཏུབ།"
+
+#: modules/filter/filter.module:412
+msgid "Specify a unique name for this filter format."
+msgstr "ཚགས་མ་རྩ་སྒྲིག་འདི་གི་དོན་ལས་མཐུན་མོང་མ་ཡིག་པའི་མིང་གསལ་བཀོད་འབད།"
+
+#: modules/filter/filter.module:419
+msgid "Choose which roles may use this filter format. Note that roles with the \"administer filters\" permission can always use all the filter formats."
+msgstr "ལས་འགན་ག་གིས་ཚགས་མ་རྩ་སྒྲིག་འདི་ལག་ལེན་འཐབ་ཆོག་ནི་ཨིན་ན་གདམ་ཁ་རྐྱབས།  \"administer filters\" གནང་བ་ཡོད་པའི་ལས་འགན་ཚུ་གིས་ཚགས་མ་རྩ་སྒྲིག་ཚུ་ཆ་མཉམ་ཨ་རྟག་རང་ལག་ལེན་འཐབ་ཚུགས་ དྲན་འཛིན་འབད།"
+
+#: modules/filter/filter.module:438
+msgid "Filters"
+msgstr "ཚགས་མ་ཚུ།"
+
+#: modules/filter/filter.module:439
+msgid "Choose the filters that will be used in this filter format."
+msgstr "ཚགས་མ་རྩ་སྒྲིག་འདི་ནང་ལག་ལེན་འཐབ་ནི་ཨིན་མི་ཚགས་མ་ཚུ་གདམ་ཁ་རྐྱབས།"
+
+#: modules/filter/filter.module:454;961
+msgid "More information about formatting options"
+msgstr "རྩ་སྒྲིག་འབད་ནིའི་གདམ་ཁ་ཚུའི་སྐོར་ལས་བརྡ་དོན་ཧེང་སྐལ།"
+
+#: modules/filter/filter.module:457
+msgid "No guidelines available."
+msgstr "ལམ་སྟོན་ཚུ་ཐོབ་མི་ཚུགས།"
+
+#: modules/filter/filter.module:459
+msgid "These are the guidelines that users will see for posting in this input format. They are automatically generated from the filter settings."
+msgstr "འདི་ཚུ་ཨིན་པུཊི་རྩ་སྒྲིག་འདི་ནང་གནས་བསྐྱོད་འབད་ནིའི་དོན་ལས་  ལག་ལེན་པ་ཚུ་གིས་མཐོང་ཚུགས་ནི་ཨིན་མི་ལམ་སྟོན་ཚུ་ཨིན།  དེ་ཚུ་ཚགས་མ་སྒྲིག་སྟངས་ཚུ་ལས་རང་བཞིན་གྱིས་བཟོ་བཏོན་འབད་ཡོདཔ་ཨིན།"
+
+#: modules/filter/filter.module:461;834
+msgid "Formatting guidelines"
+msgstr "རྩ་སྒྲིག་འབད་ནིའི་ལམ་སྟོན་ཚུ།"
+
+#: modules/filter/filter.module:476
+msgid "Filter format names need to be unique. A format named %name already exists."
+msgstr "ཚགས་མ་རྩ་སྒྲིག་གི་མིང་ཚུ་མཐུན་མོང་མ་ཡིན་པ་དགོ། རྩ་སྒྲིག་མིང་%name ཧེ་མ་ལས་ཡོདཔ།"
+
+#: modules/filter/filter.module:495
+msgid "Added input format %format."
+msgstr "ཁ་སྐོང་རྐྱབས་ཡོད་པའི་ཨིན་པུཊི་རྩ་སྒྲིག་%format."
+
+#: modules/filter/filter.module:498
+msgid "The input format settings have been updated."
+msgstr "ཨིན་པུཊི་རྩ་སྒྲིག་སྒྲིག་སྟངས་ཚུ་དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/filter/filter.module:585
+msgid "The filter ordering has been saved."
+msgstr "ཚགས་མ་གོ་རིམ་བཟོ་ནི་འདི་སྲུང་བཞག་འབད་ཡོད།"
+
+#: modules/filter/filter.module:609
+msgid "No settings are available."
+msgstr "སྒྲིག་སྟངས་ཚུ་ཐོབ་ཚུགསཔ་མེད།"
+
+#: modules/filter/filter.module:810
+msgid "Input format"
+msgstr "ཨིད་པུཊི་རྩ་སྒྲིག།"
+
+#: modules/filter/filter.module:920
+msgid "input formats"
+msgstr "ཨིན་པུཊི་རྩ་སྒྲིག་ཚུ།"
+
+#: modules/filter/filter.module:982;1036
+msgid "HTML filter"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ཚགས་མ།"
+
+#: modules/filter/filter.module:982
+msgid "PHP evaluator"
+msgstr "པི་ཨེཆ་པི་བརྟག་ཞིབ་འབད་མི།"
+
+#: modules/filter/filter.module:982
+msgid "Line break converter"
+msgstr "གྲལ་མཚམས་སྒྱུར་བྱེད།"
+
+#: modules/filter/filter.module:982;1096
+msgid "URL filter"
+msgstr "ཡུ་ཨར་ཨེལ་ཚགས་མ།"
+
+#: modules/filter/filter.module:990
+msgid "Allows you to restrict if users can post HTML and which tags to filter out."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་ངོ་རྟགས་ཚུ་ག་འདི་བཙག་ནི་ཨིན་ན་དང་ཨེཆ་ཊི་ཨེམ་ཨེལ་འགྲེམ་སྐྱེལ་འབད་ཚུགས་པ་ཅིན་ཁྱོད་ལུ་བཀག་དམ་འབད་བཅུགཔ་ཨིན།"
+
+#: modules/filter/filter.module:992
+msgid "Runs a piece of PHP code. The usage of this filter should be restricted to administrators only!"
+msgstr "པི་ཨེཆ་པི་ཨང་རྟགས་ཀྱི་པིསི་གཡོག་བཀོལཝ་ཨིན། ཚགས་མ་འདི་གི་བདེ་སྤྱོད་འདི་བདག་སྐྱོང་པ་རྐྱངམ་གཅིག་ལུ་བཀག་དམ་ཅན་འབད་དགོ་!"
+
+#: modules/filter/filter.module:994
+msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
+msgstr "གྲལ་མཚམས་ཚུ་ཨེཆ་ཊི་ཨེམ་ཨེལ་ (i.e. &lt;br&gt; དང་ &lt;p&gt; tags) ནང་ལུ་གཞི་བསྒྱུར་འབདཝ་ཨིན།"
+
+#: modules/filter/filter.module:996
+msgid "Turns web and e-mail addresses into clickable links."
+msgstr "ཝེབ་དང་གློག་འཕྲིན་ཁ་བྱང་ཚུ་  ཨེབ་གཏང་བཏུབ་པའི་འབྲེལ་ལམ་ཚུ་ནང་འགྱུརཝ་ཨིན།"
+
+#: modules/filter/filter.module:1041
+msgid "Filter HTML tags"
+msgstr "ཨེཆ་ཏི་ཨེམ་ཨེལ་ངོ་རྟགས་ཚུ་བཙག།"
+
+#: modules/filter/filter.module:1043
+msgid "Strip disallowed tags"
+msgstr "མ་ཆོག་པའི་ངོ་རྟགས་ཚུ་བཤུབ་གཏང་།"
+
+#: modules/filter/filter.module:1043
+msgid "Escape all tags"
+msgstr "ངོ་རྟགས་ཚུ་ཆ་མཉམ་ཐར།"
+
+#: modules/filter/filter.module:1044
+msgid "How to deal with HTML tags in user-contributed content. If set to \"Strip disallowed tags\", dangerous tags are removed (see below). If set to \"Escape tags\", all HTML is escaped and presented as it was typed."
+msgstr "ལག་ལུན་པ་-ཕན་འདེབས་འབད་ཡོད་པའི་ནང་དོན་ནང་ཨེཆ་ཊི་ཨེམ་ཨེལ་ངོ་རྟགས་གཅིག་ཁར་ག་དེ་སྦེ་བཀྲམ་ནི་ཨིན་ན། \"Strip disallowed tags\" ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ ཉེན་ཁ་ཅན་གྱི་ངོ་རྟགས་ཚུ་རྩ་བསྐྲད་གཏངམ་ཨིན་ (འོག་ལུ་བལྟ་)། \"Escape tags\" ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ ཨེཆ་ཊི་ཨེམ་ཨེལ་ཆ་མཉམ་ཐར་ནི་དང་དེ་ཡིག་དཔར་རྐྱབས་ཡོད་དོ་བཟུམ་སྦེ་སྟོན་འོང་།"
+
+#: modules/filter/filter.module:1052
+msgid "If \"Strip disallowed tags\" is selected, optionally specify tags which should not be stripped. JavaScript event attributes are always stripped."
+msgstr "\"Strip disallowed tags\" སེལ་འཐུ་འབད་ཡོད་པ་ཅིན་ གདམ་ཁ་ཅན་སྦེ་ བཤུབ་ནི་མེན་མི་མཆོང་ལྡེ་ཚུ་གསལ་བཀོད་འབད། ཇ་བ་ཡིག་ཚུགས་བྱུང་ལས་ཁྱད་ཆོས་ཚུ་ཨ་རྟག་རང་བཤུབ་འདི་ཡོད།"
+
+#: modules/filter/filter.module:1056
+msgid "Display HTML help"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་གྲོགས་རམ་བཀྲམ་སྟོན་འབད།"
+
+#: modules/filter/filter.module:1058
+msgid "If enabled, Drupal will display some basic HTML help in the long filter tips."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཌུ་པཱལ་འདི་གིས་ཚགས་མའི་ཕན་བསླབ་རིངམོ་ནང་གཞི་རིམ་ཨེཆ་ཊི་ཨེམ་ཨེལ་གྲོགས་རམ་ལ་ལོ་ཅིག་བཀྲམ་སྟོན་འབད་འོང་།"
+
+#: modules/filter/filter.module:1062
+msgid "Spam link deterrent"
+msgstr "སི་པམ་འབྲེལ་ལམ་བཀག་ཐབས།"
+
+#: modules/filter/filter.module:1064
+msgid "If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to reduce the effectiveness of spam links. Note: this will also prevent valid links from being followed by search engines, therefore it is likely most effective when enabled for anonymous users."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཌུ་པཱལ་འདི་གིས་སི་པམ་འབྲེལ་ལམ་ཚུ་གི་ནུས་ཤུགས་མར་ཕབ་འབད་ནི་ལུ་ཚད་འཇལ་བཟུམ་སྦེ་ འབྲེལ་ལམ་ཚུ་ཆ་མཉམ་ལུ་rel=\"nofollow\"ཁ་སྐོང་འབད་འོང་། དྲན་འཛིན་འབད་:འདི་གིས་ཡང་འཚོལ་ཞིབ་མ་འཕྲུལ་ཚུ་གིས་རྗེས་སུ་འབྲང་ནི་ལས་ནུས་ཅན་འབྲེལ་ལམ་ཚུ་སྔོན་བཀག་འབད་འོང་ དེ་འབདཝ་ལས་འ་ནི་འདི་མིང་མེདཔ་ལག་ལེན་པ་ཚུའི་དོན་ལས་ལྕོགས་ཅན་བཟོཝ་ད་ན་མེད་ས་མེད་ནུས་ཅན་ཨིན།"
+
+#: modules/filter/filter.module:1101
+msgid "Maximum link text length"
+msgstr "འབྲེལ་བའི་ཚིགཡིག་གི་རིང་ཚད་མང་མཐའ་"
+
+#: modules/filter/filter.module:1104
+msgid "URLs longer than this number of characters will be truncated to prevent long strings that break formatting. The link itself will be retained; just the text portion of the link will be truncated."
+msgstr "ཡིག་འབྲུ་ཚུ་གི་ཨང་གྲངས་འདི་ལས་རིངམ་ཡདོ་མི་  ཡུ་ཨར་ཨེལ་ཨེསི་འདི་  རྩ་སྒྲིག་མཚམས་འབད་མི་ཡིག་རྒྱུན་རིངམ་ཚུ་  སྔོན་བཀག་འབད་ནི་ལུ་གཏོགས་གཏངམ་ཨིན།  དེ་ཉིད་ལུ་འབྲེལ་མཐུད་འབད་ནི་འདི་  བདག་བཟུང་འབད་ནི་ཨིན་; འབྲེལ་ལམ་གྱི་ཚིག་ཡིག་ཅ་ཕྲན་འདི་གཏོགས་གཏང་ནི་ཨིན།"
+
+#: modules/filter/filter.module:139
+msgid "administer filters"
+msgstr "བདག་སྐྱོང་འབད་ནིའི་ཚགས་མ་ཚུ།"
+
+#: modules/filter/filter.module:0
+msgid "filter"
+msgstr "ཚགས་མ།"
+
+#: modules/filter/filter.info:0
+msgid "Handles the filtering of content in preparation for display."
+msgstr "བཀྲམ་སྟོན་འབད་ནིའི་གྲ་སྒྲིག་གི་དོན་ལུ་ནང་དོན་གྱི་ཚགས་མ་བཙག་ནི་འདི་ལེགས་སྐྱོང་འཐབཔ་ཨིན།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>administer input format permissions and settings  at <a href=\"%admin-"
+#~ "filters\">administer &gt;&gt; input formats</a>.</li>\n"
+#~ "<li>configure the filters for each input format at <a href=\"%admin-"
+#~ "filters\">administer &gt;&gt; input formats &gt;&gt; configure</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ཨིན་པུཊི་རྩ་སྒྲིག་གནང་བ་ཚུ་དང་སྒྲིག་སྟངས་ཚུ་ <a href=\"%admin-filters\">བདག་སྐྱོང་པའི་ "
+#~ "&gt;&gt; ཨིན་པུཊི་རྩ་སྒྲིག་ཚུ་ལུ་བདག་སྐྱོང་འབད་ཚུགས།</a>.</li>\n"
+#~ "<li>བདག་སྐྱོང་འབད་ནིའི་ <a href=\"%admin-filters\"> &gt;&gt; ཨིན་པུཊི་རྩ་སྒྲིག་ཚུ་ &gt;"
+#~ "&gt; རིམ་སྒྲིག་ལུ་ཨིན་པུཊི་རྩ་སྒྲིག་རེ་རེའི་དོན་ལས་ཚགས་མ་ཚུ་རིམ་སྒྲིག་འབད།</a>.</li>\n"
+#~ "</ul>\n"
+

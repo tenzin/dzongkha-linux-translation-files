@@ -1,0 +1,165 @@
+# extracted from dz-BT_orig/security/manager/chrome/pippki/pref-ssl.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: pref-ssl.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-17 15:53+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is mozilla.org code.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corp.
+# - Portions created by the Initial Developer are Copyright (C) 2001
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -   Bob Lord <lord@netscape.com>
+# -   Terry Hayes <thayes@netscape.com>
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either the GNU General Public License Version 2 or later (the "GPL"), or
+# - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+#: SSLProtocolVersions.caption
+msgid "SSL Protocol Versions"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ གནས་སྤེལ་ལམ་ལུགས་ཐོན་རིམ་ཚུ་"
+
+#: SSLWarnings.caption
+msgid "SSL Warnings"
+msgstr "ཨེསི་ཨེསི་ཨེལ་གྱི་ཉེན་བརྡ་"
+
+#: SSLClientAuthMethod.caption
+msgid "Client Certificate Selection"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་ལག་ཁྱེར་གྱི་སེལ་འཐུ་"
+
+#: pref.ssl.title
+msgid "Secure Sockets Layer (SSL)"
+msgstr "སོ་ཀེཊི་བི་རིམ་མཐའ་བཙན་བཟོ་(ཨེསི་ཨེསི་ཨེལ་)"
+
+#: enable.ssl3
+msgid "Enable SSL version 3"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ཐོན་རིམ་༣ པ་ ལྕོགས་ཅན་བཟོ་"
+
+#: enable.ssl3.accesskey
+msgid "3"
+msgstr "༣"
+
+#: enable.tls
+msgid "Enable TLS"
+msgstr "ཊི་ཨེལ་ཨེསི་ ལྕོགས་ཅན་བཟོ་"
+
+#: enable.tls.accesskey
+msgid "T"
+msgstr "ཊི་"
+
+#: warn.description
+msgid "&brandShortName; can alert you to the security status of the web page you are viewing. Set &brandShortName; to show a warning and ask permission before:"
+msgstr "&brandShortName; གིས་ ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ ཤོག་ལེབ་དེ་གི་ སྲུང་སྐྱོབ་གནས་སྟངས་ཀྱི་ དྲན་བརྡ་འབད་ཚུགས་ཨིན། &brandShortName; གཞི་སྒྲིག་འབད་ཞིནམ་ལས་ ཉེན་བརྡ་སྟོན་ གནང་བ་ལེན་:"
+
+#: warn.enteringsecure
+msgid "Loading a page that supports encryption"
+msgstr "གསང་བཟོ་ལུ་རྒྱབ་སྐྱོར་འབད་མི་ ཤོག་ལེབ་ཅིག་མངོན་གསལ་མ་འབད་བའི་ཧེ་མར་"
+
+#: warn.enteringsecure.accesskey
+msgid "L"
+msgstr "ཨེལ་"
+
+#: warn.enteringweak
+msgid "Loading a page that uses low-grade encryption"
+msgstr "གསང་བཟོའི་སྡེ་རིམ་ཆུང་བའི་ཤོག་ལེབ་ཅིག་ མངོན་གསལ་མ་འབད་བའི་ཧེ་མ་"
+
+#: warn.enteringweak.accesskey
+msgid "o"
+msgstr "ཨོ་"
+
+#: warn.insecurepost
+msgid "Sending form data from an unencrypted page to an unencrypted page"
+msgstr "འབྲི་ཤོག་གནས་སྡུད་ གསང་བ་མ་བཟོ་བའི་ཤོག་ལེབ་ཅིག་ གསང་བ་མ་བཟོ་བའི་ ཤོག་ལེབ་ཅིག་ལུ་ མ་བཏང་པའི་ཧེ་མ་"
+
+#: warn.insecurepost.accesskey
+msgid "S"
+msgstr "ཨེསི་"
+
+#: warn.leavingsecure
+msgid "Leaving a page that supports encryption"
+msgstr "གསང་བཟོ་ལུ་རྒྱབ་སྐྱོར་འབད་མི་ ཤོག་ལེབ་ཅིག་ བཞག་མ་འགྱོ་བའི་ཧེ་མ་"
+
+#: warn.leavingsecure.accesskey
+msgid "a"
+msgstr "ཨེ་"
+
+#: warn.secureredirect
+msgid "Redirecting from one encrypted page to another"
+msgstr "གསང་བཟོས་ཤོག་ལེབ་གཅིག་ལས་ གཞན་མི་གཅིག་ལུ་ སླར་ལོག་མ་བཏང་པའི་ཧེ་མ་"
+
+#: warn.secureredirecttoinsecure
+msgid "Redirecting from an encrypted page to an unencrypted page"
+msgstr "གསང་བཟོ་ཤོག་ལེབ་ཅིག་ལས་ གསང་བ་མ་བཟོ་བའིང་ཤོག་ལེབ་ཅིག་ལུ་ སླར་ལོག་མ་བཏང་པའི་ཧེ་མ་"
+
+#: warn.viewmixed
+msgid "Viewing a page with an encrypted/unencrypted mix"
+msgstr "གསང་བཟོས་དང་གསང་བ་མ་བཟོཝ སླ་བསྲེས་འབད་མི་ཤོག་ལེབ་ཅིག་ལུ་ མ་བལྟའི་ཧེ་མ་"
+
+#: warn.viewmixed.accesskey
+msgid "V"
+msgstr "ཝི་"
+
+#: certselect.description
+msgid "Decide how &brandShortName; selects a security certificate to present to web sites that require one:"
+msgstr "&brandShortName; གིས་ སྲུང་སྐྱོབ་ལག་ཁྱེར་ཅིག་ སེལ་འཐུ་འབད་དེ་ དེ་དགོ་མི་ཝེབ་ས་ཁོངས་ལུ་ ག་དེ་སྦེ་བྱིནམ་ཨིན་ན་ཐག་གཅད་:"
+
+#: certselect.auto
+msgid "Select Automatically"
+msgstr "རང་བཞིན་གྱིས་སེལ་འཐུ་འབད་"
+
+#: certselect.auto.accesskey
+msgid "A"
+msgstr "ཨེ་"
+
+#: certselect.ask
+msgid "Ask Every Time"
+msgstr "ཨ་རྟག་རང་དྲིས་"
+
+#: certselect.ask.accesskey
+msgid "E"
+msgstr "E"
+
+#~ msgid "Enable SSL version 2"
+#~ msgstr "ཨེསི་ཨེསི་ཨེལ་ ཐོན་རིམ་༢ པ་ ལྕོགས་ཅན་བཟོ་"
+#~ msgid "Edit Ciphers..."
+#~ msgstr "གསང་ཡིག་ཞུན་དག་རྐྱབས་་་"
+

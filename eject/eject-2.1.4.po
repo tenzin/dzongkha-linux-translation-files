@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eject\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-08 05:20+0100\n"
+"PO-Revision-Date: 2006-11-20 23:59+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../eject.c:156
+#, c-format
+msgid ""
+"Eject version %s by Jeff Tranter (tranter@pobox.com)\n"
+"Usage:\n"
+"  eject -h\t\t\t\t-- display command usage and exit\n"
+"  eject -V\t\t\t\t-- display program version and exit\n"
+"  eject [-vnrsfqpm] [<name>]\t\t-- eject device\n"
+"  eject [-vn] -d\t\t\t-- display default device\n"
+"  eject [-vn] -a on|off|1|0 [<name>]\t-- turn auto-eject feature on or off\n"
+"  eject [-vn] -c <slot> [<name>]\t-- switch discs on a CD-ROM changer\n"
+"  eject [-vn] -t [<name>]\t\t-- close tray\n"
+"  eject [-vn] -T [<name>]\t\t-- toggle tray\n"
+"  eject [-vn] -x <speed> [<name>]\t-- set CD-ROM max speed\n"
+"  eject [-vn] -X [<name>]\t\t-- list CD-ROM available speeds\n"
+"Options:\n"
+"  -v\t-- enable verbose output\n"
+"  -n\t-- don't eject, just show device found\n"
+"  -r\t-- eject CD-ROM\n"
+"  -s\t-- eject SCSI device\n"
+"  -f\t-- eject floppy\n"
+"  -q\t-- eject tape\n"
+"  -p\t-- use /proc/mounts instead of /etc/mtab\n"
+"  -m\t-- do not unmount device even if it is mounted\n"
+msgstr ""
+"Eject version %s by Jeff Tranter (tranter@pobox.com)\n"
+"Usage:\n"
+"  eject -h\t\t\t\t-- བརྡ་བཀོད་ཀྱི་བེད་སྤྱོད་དང་ཕྱིར་ཐོན་བཀྲམ་བཏོན་འབད།\n"
+"  eject -V\t\t\t\t-- ལས་རིམ་གྱི་ཐོན་རིམ་དང་ཕྱིར་ཐོན་བཀྲམ་བཏོན་འབད།\n"
+"  eject [-vnrsfqpm] [<name>]\t\t-- ཕྱིར་བཏོན་ཐབས་འཕྲུལ།\n"
+"  eject [-vn] -d\t\t\t-- སྔོན་སྒྲིག་ཐབས་འཕྲུལ་བཀྲམ་བཏོན་འབད།\n"
+"  eject [-vn] -a on|off|1|0 [<name>]\t-- རང་བཞིན་ཕྱིར་བཏོན་ཁྱད་རྣམ་གློག་ཐོག་ཡང་ན་ཨོཕ་སྒྱིར།\n"
+"  eject [-vn] -c <slot> [<name>]\t-- སི་ཌི་རཱོམ་བསྒྱུར་བ་ཅིག་གུ་ཌིསིཀ་སོར་བསྒྱུར་འབད།\n"
+"  eject [-vn] -t [<name>]\t\t-- ཤོག་སྣོད་ཁ་བསྡམས།\n"
+"  eject [-vn] -T [<name>]\t\t-- སོར་སྟོན་ཤོག་སྣོད།\n"
+"  eject [-vn] -x <speed> [<name>]\t-- སི་ཌི་རཱོམ་མགྱོགས་ཚད་མང་མཐའ་གཞི་སྒྲིག་འབད།\n"
+"  eject [-vn] -X [<name>]\t\t-- སི་ཌི་རཱོམ་མགྱོགས་ཚད་ཐོབ་ཚུགས་མི་ཚུ་གི་ཐོ་ཡིག་རྐྱབས།\n"
+"གདམ་ཁ་ཚུ།:\n"
+"  -v\t-- ཚིག་མང་ཨའུཊི་པུཊི་ལྕོགས་ཅན་བཟོ།\n"
+"  -n\t-- ཕྱིར་བཏོན་མ་འབད་ད་ལྟོ་ཐབས་འཕྲུལ་འཚོལ་ཐོབ་ཅིག\n"
+"  -r\t-- སི་ཌི་རཱོམ་ཕྱིར་བཏོན་འབད།\n"
+"  -s\t-- ཨེསི་སི་ཨེསི་ཨའི་ཐབས་འཕྲུལ་ཕྱིར་བཏོན་འབད།\n"
+"  -f\t-- ཕོལོ་པི་ཕྱིར་་བཏོན་འབད།\n"
+"  -q\t-- སྒྲ་ཐག་ཕྱིར་བཏོན་འབད།\n"
+"  -p\t-- mམཆོང་ལྡེ་ /ལ་སོགས་ཀྱི་ཚབ་མ་/པི་ཨར་ཨོ་སི་ /སྦྱར་བརྩེགས་ཚུ་ལག་ལེན་འཐབ/\n"
+"  -m\t-- བརྩེགས་ཅན་ཨིན་པ་ཅིན་ཐབས་འཕྲུལ་འདི་བརྩེགས་བཤོལ་མ་འབད།\n"
+
+#: ../eject.c:187
+#, c-format
+msgid ""
+"Long options:\n"
+"  -h --help   -v --verbose      -d --default\n"
+"  -a --auto   -c --changerslot  -t --trayclose  -x --cdspeed\n"
+"  -r --cdrom  -s --scsi         -f --floppy     -X --listspeed     -q --tape\n"
+"  -n --noop   -V --version\n"
+"  -p --proc   -m --no-unmount   -T --traytoggle\n"
+msgstr ""
+"གདམ་ཁ་ཚུ་རིངམ:\n"
+"  -h --གྲོགས་རམ   -v --ཚིག་མང་      -d --སྔོན་སྒྲིག\n"
+"  -a --རང་བཞིན   -c --བསྒྱུར་བ་ས་སྒོ་  -t --ཤོག་སྣོད་ཁ་བསྡམས་  -x --སི་ཌི་མགྱོགས་ཚད\n"
+"  -r --སི་ཌི་རཱོམ  -s --ཨེསི་སི་ཨེསི་ཨའི        -f --ཕོལོ་པི     -X --མགྱོགས་ཚད་ཐོ་ཡིག     -q --སྒྲ་ཐག\n"
+"  -n --ཨེན་ཨོ་ཨོ་པི་   -V --ཐོན་རིམ\n"
+"  -p --པི་ཨར་ཨོ་སི་   -m --བརྩེགས་བཤོལ་མེདཔ་   -T --ཤོག་སྣོད་སོར་སྟོན།\n"
+
+#: ../eject.c:206
+#, c-format
+msgid ""
+"Parameter <name> can be a device file or a mount point.\n"
+"If omitted, name defaults to `%s'.\n"
+"By default tries -r, -s, -f, and -q in order until success.\n"
+msgstr ""
+"ཚད་བཟུང་ <name> འདི་ཐབས་འཕྲུལ་ཡིག་སྣོད་ཡང་ན་སྦྱར་་བརྩེགས་འབད་ས་ཅིག་ཨིན།\n"
+"ལུ་སྔོན་སྒྲིག་མིང་ཚུ་སྐྱུར་བཞག་ཡོད་པ་ཅིན་ `%s'\n"
+"སྔོན་སྒྲིག་གིས་འབད་-ཨར་ -ཨེསི་ -ཨེཕ་དང་ཀིའུ་མཐའ་མ་འཁྱོལ་ཚུན་གོ་རིམ་ནང་་བརྩོན་ཤུགས་བསྐྱེདཔ་ཨིན།\n"
+
+#: ../eject.c:261
+#, c-format
+msgid "%s: invalid argument to --auto/-a option\n"
+msgstr "%s:  --རང་བཞིན་/-གདམ་ཁ་ཅིག་ལུ་སྒྲུབ་རྟགས་ནུས་མེད\n"
+
+#: ../eject.c:273
+#, c-format
+msgid "%s: invalid argument to --changerslot/-c option\n"
+msgstr "%s:  --བསྒྱུར་བ་ས་སྒོ་/-སི་གདམ་ཁ་ལུ་སྒྲུབ་རྟགས་ནུས་མེད\n"
+
+#: ../eject.c:285
+#, c-format
+msgid "%s: invalid argument to --cdspeed/-x option\n"
+msgstr "%s:  --སི་དི་མགྱོགས་ཚད་/-ཨེགསི་གདམ་ཁ་ལུ་སྒྲུབ་རྟགས་ནུས་མེད\n"
+
+#: ../eject.c:331
+#, c-format
+msgid "eject version %s by Jeff Tranter (tranter@pobox.com)\n"
+msgstr "Jeff Tranterགིས་ %s ཕྱིར་བཏོན་ཐོན་རིམ (tranter@pobox.com)\n"
+
+#: ../eject.c:341
+#, c-format
+msgid "%s: too many arguments\n"
+msgstr "%s: སྒྲུབ་རྟགས་ལེ་ཤ།\n"
+
+#: ../eject.c:396
+#: ../eject.c:1037
+#, c-format
+msgid "%s: could not allocate memory\n"
+msgstr "%s: དྲན་ཚད་སྤྲོད་མི་ཚུགས་པས།\n"
+
+#: ../eject.c:401
+#, c-format
+msgid "%s: FindDevice called too often\n"
+msgstr "%s: ཐབས་འཕྲུལ་འཕྲལ་འཕྲལ་སླབ་མི་འཚོལ།\n"
+
+#: ../eject.c:475
+#, c-format
+msgid "%s: CD-ROM auto-eject command failed: %s\n"
+msgstr "%s: སི་ཌི་རཱོམ་རང་བཞིན་ཕྱིར་བཏོན་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ།: %s\n"
+
+#: ../eject.c:492
+#, c-format
+msgid "%s: CD-ROM select disc command failed: %s\n"
+msgstr "%s: སི་ཌི་རཱོམ་གྱིས་ཌིསིཀ་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ།: %s\n"
+
+#: ../eject.c:498
+#, c-format
+msgid "%s: CD-ROM load from slot command failed: %s\n"
+msgstr "%s: སི་ཌི་རཱོམ་བརྡ་བཀོད་ས་སྒོ་ལས་མངོན་གསལ་འབད་ནི་འཐུས་ཤོར་ཡོདཔ།: %s\n"
+
+#: ../eject.c:502
+#, c-format
+msgid "%s: IDE/ATAPI CD-ROM changer not supported by this kernel\n"
+msgstr "%s: ཨའི་ཌི་ཨི/ཨེ་ཊི་ཨེ་པི་ཨའི་ སི་ཌི་རཱོམ་བསྒྱུར་བ་ཀར་ནེལ་འདི་གིས་རྒྱབས་སྐྱོར་མ་འབད་བར་ཡོདཔ།\n"
+
+#: ../eject.c:521
+#, c-format
+msgid "%s: CD-ROM tray close command failed: %s\n"
+msgstr "%s: སི་ཌི་རཱོམ་ཤོག་སྣོད་ཁ་བསྡམས་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ།: %s\n"
+
+#: ../eject.c:525
+#, c-format
+msgid "%s: CD-ROM tray close command not supported by this kernel\n"
+msgstr "%s: སི་ཌི་རཱོམ་ཤོག་སྣོད་ཁ་བསྡམས་བརྡ་བཀོད་ཀར་ནེལ་འདི་གིས་རྒྱབས་སྐྱོར་མ་འབད་བར་ཡོདཔ།\n"
+
+#: ../eject.c:572
+#, c-format
+msgid "%s: CD-ROM tray toggle command not supported by this kernel\n"
+msgstr "%s: སི་ཌི་རཱོམ་ཤོག་སྣོད་སོར་སྟོན་བརྡ་བཀོད་ཀར་ནེལ་འདི་གིས་རྒྱབས་སྐྱེར་མ་འབད་བར་ཡོདཔ།\n"
+
+#: ../eject.c:589
+#, c-format
+msgid "%s: CD-ROM select speed command failed: %s\n"
+msgstr "%s: སི་ཌི་རཱོམ་མགྱོགས་ཚད་སེལ་འཐུ་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ།: %s\n"
+
+#: ../eject.c:593
+#: ../eject.c:674
+#, c-format
+msgid "%s: CD-ROM select speed command not supported by this kernel\n"
+msgstr "%s: སི་ཌི་རཱོམ་མགྱོགས་ཚད་སེལ་འཐུ་བརྡ་བཀོད་ཀར་ནེལ་འདི་གིས་རྒྱབ་སྐྱོར་མ་འབད་བར་ཡོདཔ།\n"
+
+#: ../eject.c:608
+#, c-format
+msgid "%s: unable to read the speed from /proc/sys/dev/cdrom/info\n"
+msgstr "%s:  པི་ཨར་ཨོ་སི་/རིམ་ལུགས་/ཐབས་འཕྲུལ/སི་ཌི་རཱོམ་/བརྡ་དོན་/ལས་མགྱོགས་ཚད་འདི་ལྷག་མི་ཚུགས་པས།\n"
+
+#: ../eject.c:624
+#, c-format
+msgid "%s: error while finding CD-ROM name\n"
+msgstr "%s: སི་ཌི་རཱོམ་མིང་འཚོལ་བའི་སྐབས་འཛོལ་བ།\n"
+
+#: ../eject.c:637
+#: ../eject.c:645
+#, c-format
+msgid "%s: error while reading speed\n"
+msgstr "%s:མགྱོགས་ཚད་ལྷག་པའི་སྐབས་འཛོལ་བ།\n"
+
+#: ../eject.c:794
+#, c-format
+msgid "%s: unable to exec umount of `%s': %s\n"
+msgstr "%s: `%s' གི་ཡུ་བརྩེགས་ཅན་ལད་ལེན་འཐབ་ནི་ལུ་མི་ཚུགསཔ།: %s\n"
+
+#: ../eject.c:799
+#, c-format
+msgid "%s: unable to fork: %s\n"
+msgstr "%s: ཁ་སྤེལ་མི་ཚུགསཔ།: %s\n"
+
+#: ../eject.c:804
+#, c-format
+msgid "%s: unmount of `%s' did not exit normally\n"
+msgstr "%s: `%s' གི་བརྩེགས་བཤོལ་སྤྱིར་བཏང་ཕྱིར་ཐོན་མ་འབད་བས།\n"
+
+#: ../eject.c:808
+#, c-format
+msgid "%s: unmount of `%s' failed\n"
+msgstr "%s:  `%s' གི་བརྩེགས་བཤོལ་འཐུས་ཤོར་ཡོདཔ།\n"
+
+#: ../eject.c:821
+#, c-format
+msgid "%s: unable to open `%s'\n"
+msgstr "%s: ཁ་ཕྱེ་མི་ཚུགསཔ།`%s'\n"
+
+#: ../eject.c:867
+#: ../eject.c:954
+#, c-format
+msgid "unable to open %s: %s\n"
+msgstr "ཁ་ཕྱེ་མི་ཚུགསཔ %s: %s\n"
+
+#: ../eject.c:914
+#, c-format
+msgid "%s: unable to open /etc/fstab: %s\n"
+msgstr "%s: ཨེཕ་མཆོང་ལྡེ /ལ་སོགས་པ་/ཁ་ཕྱེ་མི་ཚུགསཔ།: %s\n"
+
+#: ../eject.c:964
+#, c-format
+msgid "%s: unmounting `%s'\n"
+msgstr "%s: བརྩེགས་བཤོལ་འབད་དོ། `%s'\n"
+
+#: ../eject.c:1044
+#, c-format
+msgid "%s: `%s' is a multipartition device\n"
+msgstr "%s: `%s' འདི་སྣ་མང་བར་བཅད་ཐབས་འཕྲུལ།\n"
+
+#: ../eject.c:1049
+#, c-format
+msgid "%s: `%s' is not a multipartition device\n"
+msgstr "%s: `%s' འདི་སྣ་མང་བར་བཅད་ཐབས་འཕྲུལ་མེནམ།\n"
+
+#: ../eject.c:1062
+#, c-format
+msgid "%s: setting CD-ROM speed to auto\n"
+msgstr "%s: སི་ཌི་རཱོམ་མགྱོགས་ཚད་རང་བཞིན་ལུ་གཞི་སྒྲིག་འབད་དོ།\n"
+
+#: ../eject.c:1064
+#, c-format
+msgid "%s: setting CD-ROM speed to %dX\n"
+msgstr "%s: གཞི་སྒྲིག་འབད་དོ་སི་ཌི་རཱོམ་མགྱོགས་ཚད་ལུ། %dX\n"
+
+#: ../eject.c:1102
+#, c-format
+msgid "%s: default device: `%s'\n"
+msgstr "%s: སྔོན་སྒྲིག་ཐབས་འཕྲུལ: `%s'\n"
+
+#: ../eject.c:1110
+#, c-format
+msgid "%s: using default device `%s'\n"
+msgstr "%s: སྔོན་སྒྲིག་ཐབས་འཕྲུལ་ལག་ལེན་འཐབ་དོ། `%s'\n"
+
+#: ../eject.c:1119
+#, c-format
+msgid "%s: device name is `%s'\n"
+msgstr "%s: ཐབས་འཕྲུལ་མིང་འདི། `%s'\n"
+
+#: ../eject.c:1125
+#, c-format
+msgid "%s: unable to find or open device for: `%s'\n"
+msgstr "%s: འཚོལ་ནི་ཡང་ན་ཐབས་འཕྲུལ་ཁ་ཕྱེ་ནི་དོན་ལུ་མི་ཚུགསཔ།: `%s'\n"
+
+#: ../eject.c:1130
+#, c-format
+msgid "%s: expanded name is `%s'\n"
+msgstr "%s: རྒྱ་བསྐྱེད་འབད་ཡོད་མི་མིང་འདི། `%s'\n"
+
+#: ../eject.c:1139
+#, c-format
+msgid "%s: `%s' is a link to `%s'\n"
+msgstr "%s: `%s' འདི་འབྲེལ་མཐུད་ལུ `%s'\n"
+
+#: ../eject.c:1150
+#, c-format
+msgid "%s: maximum symbolic link depth exceeded: `%s'\n"
+msgstr "%s: བརྡ་མཚོན་པའི་འབྲེལ་ལམ་གཏིང་ཚད་ལྷག་ཡོད་མི་མང་མཐའ།: `%s'\n"
+
+#: ../eject.c:1158
+#, c-format
+msgid "%s: `%s' is mounted at `%s'\n"
+msgstr "%s: `%s' ལུ་བརྩེགས་ཡོདཔ། `%s'\n"
+
+#: ../eject.c:1161
+#, c-format
+msgid "%s: `%s' is not mounted\n"
+msgstr "%s: `%s' སྦྱར་བརྩེགས་མེདཔ།\n"
+
+#: ../eject.c:1173
+#, c-format
+msgid "%s: `%s' can be mounted at `%s'\n"
+msgstr "%s: `%s' ལུ་བརྩེགས་ཅན་བཏུབ་ཨིན `%s'\n"
+
+#: ../eject.c:1175
+#, c-format
+msgid "%s: `%s' is not a mount point\n"
+msgstr "%s: `%s' འདི་སྦྱར་བརྩེགས་འབད་ས་མེན་པས།\n"
+
+#: ../eject.c:1182
+#, c-format
+msgid "%s: tried to use `%s' as device name but it is no block device\n"
+msgstr "%s: ཐབས་འཕྲུལ་མིང་སྦེ་ `%s' ལག་ལེན་འཐབ་ནི་བརཽན་ཤུགས་བསྐྱེད་རུང་ལེབ་དུམ་ཐབས་འཕྲུལ་མེན་པས།\n"
+
+#: ../eject.c:1190
+#, c-format
+msgid "%s: device is `%s'\n"
+msgstr "%s: ཐབས་འཕྲུལ་འདི `%s'\n"
+
+#: ../eject.c:1192
+#, c-format
+msgid "%s: exiting due to -n/--noop option\n"
+msgstr "%s: རན་པ་ལུ་ཕྱིར་ཐོན་དོ -n/--ཨེན་ཨོ་ཨོ་པི་གདམ་ཁ།\n"
+
+#: ../eject.c:1200
+#, c-format
+msgid "%s: enabling auto-eject mode for `%s'\n"
+msgstr "%s:དོན་ལུ་རང་བཞིན་ཕྱིར་བཏོན་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་དོ `%s'\n"
+
+#: ../eject.c:1202
+#, c-format
+msgid "%s: disabling auto-eject mode for `%s'\n"
+msgstr "%s: དོན་ལུ་རང་བཞིན་ཕྱིར་བཏོན་ཐབས་ལམ་ལྕོགས་མིན་བཟོ་དོ `%s'\n"
+
+#: ../eject.c:1212
+#, c-format
+msgid "%s: closing tray\n"
+msgstr "%s: ཤོག་སྣོད་ཁ་བསྡམས་དོ།\n"
+
+#: ../eject.c:1222
+#, c-format
+msgid "%s: toggling tray\n"
+msgstr "%s: ཤོག་སྣོད་སོར་སྟོན་དོ།\n"
+
+#: ../eject.c:1232
+#, c-format
+msgid "%s: listing CD-ROM speed\n"
+msgstr "%s:སི་ཌི་རཱོམ་མགྱོགས་ཚད་ཐོ་ཡིག་རྐྱབས་དོ།\n"
+
+#: ../eject.c:1244
+#, c-format
+msgid "%s: unmounting device `%s' from `%s'\n"
+msgstr "%s:`%s' ལས་`%s' ཐབས་འཕྲུལ་བརྩེགས་བཤོལ་འབད་དོ།\n"
+
+#: ../eject.c:1257
+#, c-format
+msgid "%s: selecting CD-ROM disc #%d\n"
+msgstr "%s: སི་ཌི་རཱོམ་ཌིསིཀ་སེལ་འཐུ་འབད་དོ། #%d\n"
+
+#: ../eject.c:1275
+#, c-format
+msgid "%s: trying to eject `%s' using CD-ROM eject command\n"
+msgstr "%s: སི་ཌི་རཱོམ་ཕྱིར་བཏོན་བརྡ་བཀོད་ལག་ལེན་འཐབ་དེ་ `%s' ཕྱིར་བཏོན་ནི་ལུ་བརྩོན་ཤུགས་བསྐྱེད་དོ།\n"
+
+#: ../eject.c:1279
+#, c-format
+msgid "%s: CD-ROM eject command succeeded\n"
+msgstr "%s:སི་ཌི་རཱོམ་ཕྱིར་བཏོན་བརྡ་བཀོད་མཐར་འཁྱོལ་ཡོདཔ།\n"
+
+#: ../eject.c:1281
+#, c-format
+msgid "%s: CD-ROM eject command failed\n"
+msgstr "%s: སི་ཌི་རཱོམ་ཕྱིར་བཏོན་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ། \n"
+
+#: ../eject.c:1288
+#, c-format
+msgid "%s: trying to eject `%s' using SCSI commands\n"
+msgstr "%s: ཨེསི་སི་ཨེསི་ཨའི་བརྡ་བཀོད་ཚུ་ལག་ལེན་འཐབ་དེ་ `%s' ཕྱིར་བཏོན་ནི་ལུ་བརྩོན་ཤུགས་བསྐྱེད་དོ།\n"
+
+#: ../eject.c:1292
+#, c-format
+msgid "%s: SCSI eject succeeded\n"
+msgstr "%s: ཨེསི་སི་ཨེསི་ཨའི་ཕྱིར་བཏོན་མཐར་འཁྱོལ་ཡོདཔ།\n"
+
+#: ../eject.c:1294
+#, c-format
+msgid "%s: SCSI eject failed\n"
+msgstr "%s: ཨེསི་སི་ཨེསི་ཨའི་ཕྱིར་བཏོན་འཐུས་ཤོར་ཡོདཔ།\n"
+
+#: ../eject.c:1302
+#, c-format
+msgid "%s: trying to eject `%s' using floppy eject command\n"
+msgstr "%s: ཕོལོ་པི་ཕྱིར་བཏོན་བརྡོ་བཀོད་ལག་ལེན་འཐབ་དེ་ `%s' ཕྱིར་བཏོན་ནི་ལུ་བརྩོན་ཤུགས་བསྐྱེད་དོ།\n"
+
+#: ../eject.c:1306
+#, c-format
+msgid "%s: floppy eject command succeeded\n"
+msgstr "%s: ཕོལོ་པི་ཕྱིར་བཏོན་བརྡ་བཀོད་མཐའ་འཁྱོལ་ཡོདཔ།\n"
+
+#: ../eject.c:1308
+#, c-format
+msgid "%s: floppy eject command failed\n"
+msgstr "%s: ཕོལོ་པི་ཕྱིར་བཏོན་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ།\n"
+
+#: ../eject.c:1316
+#, c-format
+msgid "%s: trying to eject `%s' using tape offline command\n"
+msgstr "%s:སྒྲ་ཐག་གློག་ལམ་མེད་པའི་བརྡ་བཀོད་ལག་ལེན་འཐབ་དེ་`%s' ཕྱིར་བཏོན་ནི་ལུ་བརྩོན་ཤུགས་བསྐྱེད་དོ།\n"
+
+#: ../eject.c:1320
+#, c-format
+msgid "%s: tape offline command succeeded\n"
+msgstr "%s: སྒྲ་ཐག་གློག་ལམ་མེད་པའི་བརྡ་བཀོད་མཐའ་འཁྱོལ་ཡོདཔ།\n"
+
+#: ../eject.c:1322
+#, c-format
+msgid "%s: tape offline command failed\n"
+msgstr "%s:སྒྲ་ཐག་གློག་ལམ་མེད་པའི་བརྡ་བཀོད་འཐུས་ཤོར་ཡོདཔ།\n"
+
+#: ../eject.c:1328
+#, c-format
+msgid "%s: unable to eject, last error: %s\n"
+msgstr "%s: མཇུག་འཛོལ་བ་ཕྱིར་བཏོན་འབད་ནི་ལུ་མི་ཚུགསཔ: %s\n"
+
+#: ../volname.c:59
+#, c-format
+msgid "usage: volname [<device-file>]\n"
+msgstr "བེད་སྤྱོད: བཱོལ་མིང་། [<device-file>]\n"
+
+#: ../volname.c:65
+#: ../volname.c:71
+#: ../volname.c:77
+msgid "volname"
+msgstr "བཱོལ་མིང་།"
+

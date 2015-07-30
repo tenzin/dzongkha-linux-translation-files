@@ -1,0 +1,1675 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-exchange.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-21 05:00+0100\n"
+"PO-Revision-Date: 2006-03-20 10:10-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../addressbook/e-book-backend-exchange.c:1857
+#: ../addressbook/e-book-backend-gal.c:1499
+#: ../storage/exchange-storage.c:135
+msgid "Searching..."
+msgstr "འཚོལ་ཞིབ་འབད་དོ།"
+
+#: ../addressbook/e-book-backend-gal.c:267
+msgid "Reconnecting to LDAP server..."
+msgstr "ཨེལ་ཌི་ཨེ་པི་ སར་བར་ལུ་ སླར་མཐུད་འབད་དོ།"
+
+#: ../addressbook/e-book-backend-gal.c:1363
+msgid "Receiving LDAP search results..."
+msgstr "ཨེལ་ཌི་ཨེ་པི་ འཚོལ་ཞིབ་ཀྱི་ཐོན་འབྲས་ཐོབ་དོ།"
+
+#: ../addressbook/e-book-backend-gal.c:1522
+msgid "Error performing search"
+msgstr "འཚོལ་ཞིབ་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: ../calendar/e-cal-backend-exchange-calendar.c:1809
+#, c-format
+msgid ""
+"Unable to schedule resource '%s' for recurring meetings.\n"
+"You must book each meeting separately."
+msgstr ""
+"འཛོམས་འདུ་སླར་འབྱུང་གི་དོན་ལུ་ ཐོན་ཁུངས་%s' གི་འཆར་རིམ་བཟོ་མ་ཚུགས། .\n"
+" ཁྱོད་ཀྱིས་འཛོམས་འདུ་རེ་རེ་བཞིན་དུ་ སོ་སོ་སྦེ་ སྔོན་མངགས་འབད་དགོ"
+
+#: ../calendar/e-cal-backend-exchange-calendar.c:1827
+#, c-format
+msgid "The resource '%s' is busy during the selected time period."
+msgstr "ཐོན་ཁུངས་ '%s' དེ་ སེལ་འཐུ་འབད་བའི་སྐབས་ ཁོམ་མེད་ཨིན་པས།"
+
+#: ../camel/camel-exchange-folder.c:221
+#: ../shell/e-storage.c:585
+msgid "This operation cannot be performed in off-line mode"
+msgstr "ཨོཕ་ལ་ཡིན་ ཐབས་ལམ་ནང་ བཀོལ་སྤྱོད་འབད་མི་ཚུགས་པས།"
+
+#: ../camel/camel-exchange-folder.c:230
+msgid "Can only expunge in Deleted Items folder"
+msgstr "བཏོན་བཏང་ཡོད་པའི་རྣམ་གྲངས་སྣོད་འཛིན་ནང་རྐྱངམ་ཅིག་ རྩ་མེད་གཏང་ཚུགས།"
+
+#: ../camel/camel-exchange-folder.c:254
+msgid "No Subject"
+msgstr "དོན་ཚན་་མིན་འདུག"
+
+#: ../camel/camel-exchange-folder.c:381
+msgid "This message is not available in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ ཐབས་ལམ་ནང་ འཕྲིན་དོན་འདི་འཐོབ་་མི་ཚུགས།"
+
+#: ../camel/camel-exchange-folder.c:616
+msgid "Moving messages"
+msgstr "སྤར་བའི་འཕྲིན་དོན།"
+
+#: ../camel/camel-exchange-folder.c:617
+msgid "Copying messages"
+msgstr "འཕྲིན་དོན་འདྲ་བཤུས་རྐྱབ་དོ།"
+
+#: ../camel/camel-exchange-folder.c:988
+#, c-format
+msgid "Could not create directory %s: %s"
+msgstr "སྣོད་ཐོ་%s: %sགསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-exchange-folder.c:998
+#, c-format
+msgid "Could not load summary for %s"
+msgstr "%sགི་དོན་ལུ་ བཅུད་དོན་བཙུགས་མ་ཚུགས།"
+
+#: ../camel/camel-exchange-folder.c:1006
+#, c-format
+msgid "Could not create cache for %s"
+msgstr "%sགི་དོན་ལུ་ འདྲ་མཛོད་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-exchange-folder.c:1016
+#, c-format
+msgid "Could not create journal for %s"
+msgstr "%sགི་དོན་ལུ་ གསར་དེབ་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-exchange-folder.c:1061
+msgid "Scanning for changed messages"
+msgstr "བསྒྱུར་བཅོས་འབད་མི་འཕྲིན་དོན་ཚུ་ ཞིབ་ལྟ་འབད་དོ།"
+
+#: ../camel/camel-exchange-folder.c:1087
+msgid "Fetching summary information for new messages"
+msgstr "འཕྲིན་དོན་གསར་པའི་དོན་ལས་ བཅུད་དོན་བརྡ་དོན་ལེན་དོ།"
+
+#: ../camel/camel-exchange-journal.c:339
+msgid "No folder name found\n"
+msgstr "སྣོད་འཛིན་གྱི་མིང་མ་ཐོབ།\n"
+
+#: ../camel/camel-exchange-journal.c:372
+#: ../mail/mail-stub-exchange.c:2534
+#: ../mail/mail-stub-exchange.c:2578
+#: ../mail/mail-stub-exchange.c:2613
+#: ../mail/mail-stub-exchange.c:2640
+#: ../mail/mail-stub-exchange.c:2687
+#: ../mail/mail-stub-exchange.c:2709
+msgid "Folder doesn't exist"
+msgstr "སྣོད་འཛིན་གནས་ཏེ་མིན་འདུག"
+
+#: ../camel/camel-exchange-journal.c:436
+msgid "Cannot append message in offline mode: cache unavailable"
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ འཕྲིན་དོན་མཇུག་བསྣོན་འབད་མི་ཚུགས། འདྲ་མཛོད་མི་འཐོབ་པས།"
+
+#: ../camel/camel-exchange-journal.c:452
+#, c-format
+msgid "Cannot append message in offline mode: %s"
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་: %sནང་ འཕྲིན་དོན་མཇུག་བསྣོན་འབད་མི་ཚུགས་པས།"
+
+#. i18n: the '_' should appear before the same letter it
+#. does in the evolution:mail-config.glade "User_name"
+#. translation (or not at all)
+#: ../camel/camel-exchange-provider.c:44
+msgid "Windows User_name:"
+msgstr "སྒ་སྒྲིག་ལག་ལེན་པའི་མིང་།(_u)"
+
+#. i18n: GAL is an Outlookism, AD is a Windowsism
+#: ../camel/camel-exchange-provider.c:49
+msgid "Global Address List / Active Directory"
+msgstr "སྤྱི་ཁྱབ་ཁ་བྱང་ཐོ་ཡིག/ཤུགས་ལྡན་སྣོད་ཐོ།"
+
+#. i18n: "Global Catalog" is a Windowsism, but it's a
+#. technical term and may not have translations?
+#: ../camel/camel-exchange-provider.c:53
+msgid "Global Catalog server name:"
+msgstr "སྤྱི་ཁྱབ་ཐོ་གཞུང་ སར་བར་གྱི་མིང་།"
+
+#: ../camel/camel-exchange-provider.c:55
+#, c-format
+msgid "Limit number of GAL responses: %s"
+msgstr "ཇི་ཨེ་ཨེལ་ངོས་ལན་: %s གི་གྲངས་ཚད།"
+
+#: ../camel/camel-exchange-provider.c:58
+msgid "Options"
+msgstr "གདམ་ཁ།"
+
+#: ../camel/camel-exchange-provider.c:60
+#, c-format
+msgid "Password Expiry Warning period: %s"
+msgstr "ཆོག་ཡིག་དུས་ཡོལ་གྱི་ ཉེན་བརྡའི་དུས་ཚོད།%s"
+
+#: ../camel/camel-exchange-provider.c:62
+msgid "Automatically synchronize account locally"
+msgstr "རང་བཞིན་གྱིས་ ཉེ་གནས་ལུ་ རྩིས་ཐོ་མཉམ་འབྱུང་འབད་ནི །"
+
+#. i18n: copy from evolution:camel-imap-provider.c
+#: ../camel/camel-exchange-provider.c:65
+msgid "Apply filters to new messages in Inbox on this server"
+msgstr "སར་བར་འདི་གི་ ཨིན་བོགསི་ནང་ལུ་ འཕྲིན་དོན་གསརཔ་ཚུ་ལུ་ ཚགས་མ་འཇུག་སྤྱོད་འབད།"
+
+#: ../camel/camel-exchange-provider.c:67
+msgid "Check new messages for Junk contents"
+msgstr "མཁོ་མེད་ནང་དོན་གྱི་དོན་ལུ་ འཕྲིན་དོན་གསརཔ་ ཞིབ་དཔྱད་འབད།"
+
+#: ../camel/camel-exchange-provider.c:69
+msgid "Only check for Junk messages in the Inbox folder"
+msgstr "ཨིན་བོགསི་སྣོད་འཛིན་ནང་ མཁོ་མེད་འཕྲིན་དོན་ཚུ་རྐྱངམ་གཅིག་ ཞིབ་དཔྱད་འབད།"
+
+#: ../camel/camel-exchange-provider.c:79
+msgid "Microsoft Exchange"
+msgstr "མའི་ཀོརོ་སོཕཊི་ ཨེགསི་ཅེནཇི།"
+
+#: ../camel/camel-exchange-provider.c:81
+msgid "For handling mail (and other data) on Microsoft Exchange servers"
+msgstr "མའི་ཀོརོ་སོཕཊི་ ཨེགསི་ཅེནཇི་ ་སར་བར་ནང་ཡིག་འཕྲིན (དང་གནད་སྡུད་གཞན) ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ།"
+
+#. i18n: "Secure Password Authentication" is an Outlookism
+#: ../camel/camel-exchange-provider.c:97
+msgid "Secure Password"
+msgstr "མཐའ་བཙན་ཆོག་ཡིག"
+
+#. i18n: "NTLM" probably doesn't translate
+#: ../camel/camel-exchange-provider.c:100
+msgid "This option will connect to the Exchange server using secure password (NTLM) authentication."
+msgstr "གདམ་ཁ་འདི་གིས་ མཐའ་བཙན་ཆོག་ཡིག (ཨེན་ཊི་ཨེལ་ཨེམ) བདེན་བཤད་ལག་ལེན་འཐབ་སྟེ་ ཨེགསི་ཅེནཇི་སར་བར་ལུ་ མཐུད་འོང་"
+
+#: ../camel/camel-exchange-provider.c:108
+msgid "Plaintext Password"
+msgstr "ཡིག་རྐྱང་ཆོག་ཡིག"
+
+#: ../camel/camel-exchange-provider.c:110
+msgid "This option will connect to the Exchange server using standard plaintext password authentication."
+msgstr "གདམ་ཁ་འདི་གིས་ ཚད་ལྡན་ཡིག་རྐྱང་་གི་ ཆོག་ཡིག་བདེན་བཤད་ ལག་ལེན་འཐབ་སྟེ་ ཨེགསི་ཅེནཇི་སར་བར་ལུ་མཐུད་འོང་"
+
+#: ../camel/camel-exchange-store.c:308
+#, c-format
+msgid "Exchange server %s"
+msgstr "ཨེགསི་ཅེནཇི་སར་བར་%s"
+
+#: ../camel/camel-exchange-store.c:311
+#, c-format
+msgid "Exchange account for %s on %s"
+msgstr "%s ལུ་ %sགི་དོན་ལས་ ཨེགསི་ཅེནཇི་རྩིས་ཐོ།"
+
+#: ../camel/camel-exchange-store.c:352
+#: ../storage/exchange-account.c:869
+#, c-format
+msgid "%sEnter password for %s"
+msgstr "%s གི་དོན་ལས་ ཆོག་ཡིག་%sབཙུགས།"
+
+#: ../camel/camel-exchange-store.c:403
+msgid "Evolution Exchange backend process"
+msgstr "ཨི་བོ་ལུ་ཤཱན་ཨེགསི་ཅེནཇི་ རྒྱབ་མཐའི་ལས་སྦྱོར།"
+
+#: ../camel/camel-exchange-store.c:444
+#: ../storage/exchange-account.c:1384
+msgid ""
+"Could not authenticate to server. (Password incorrect?)\n"
+"\n"
+msgstr "སར་བར་ལུ་ བདེན་བཤད་འབད་མ་ཚུགས། (ཆོག་ཡིག་བདེན་མེད་ཨིན་ན?) \n"
+
+#: ../camel/camel-exchange-store.c:486
+#, c-format
+msgid "No such folder %s"
+msgstr "%sབཟུམ་གྱི་སྣོད་འཛིན་མིན་འདུག"
+
+#: ../camel/camel-exchange-store.c:563
+msgid "Cannot subscribe folder in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ སྣོད་འཛིན་མཁོ་མངགས་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-exchange-store.c:580
+msgid "Cannot unsubscribe folder in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ སྣོད་འཛིན་མངགས་བཤོལ་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-exchange-store.c:695
+msgid "Cannot get folder info in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ སྣོད་འཛིན་བརྡ་དོན་ འཐོབ་མི་ཚུགས་པས།"
+
+#: ../camel/camel-exchange-store.c:766
+msgid "Cannot create folder in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས་པས།"
+
+#: ../camel/camel-exchange-store.c:793
+msgid "Cannot delete folder in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ སྣོད་འཛིན་བཏོན་གཏང་མི་ཚུགས་པས།"
+
+#: ../camel/camel-exchange-store.c:809
+msgid "Cannot rename folder in offline mode."
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ སྣོད་འཛིན་ལུ་ བསྐྱར་མིང་བཏགས་མི་ཚུགས་པས།"
+
+#: ../camel/camel-exchange-transport.c:110
+msgid "Exchange transport can only be used with Exchange mail source"
+msgstr "ཨེགསི་ཅེནཇི་སྐྱེལ་འདྲེན་དེ་ ཨེགསི་ཅེནཇི་ ཡིག་འཕྲིན་གྱི་འབྱུང་ཁུངས་དང་གཅིག་ཁར་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ཚུགས།"
+
+#: ../camel/camel-exchange-transport.c:121
+msgid "Cannot send message: one or more invalid recipients"
+msgstr "འཕྲིན་དོན་བཏང་མི་ཚུགས་པས། ནུས་མེད་ལེན་མཁན་ གཅིག་གམ་དེ་ལས་མངམ་འདུག"
+
+#: ../camel/camel-exchange-transport.c:131
+msgid "Could not find 'From' address in message"
+msgstr "འཕྲིན་དོན་ནང་ཁ་བྱང་ ‘ག་ཏེ་ལས་’ ཨིན་ན་འཚོལ་མ་ཐོབ།"
+
+#: ../camel/camel-stub.c:134
+#, c-format
+msgid "Could not create socket: %s"
+msgstr "སོཀ་ཀེཊི་%sགསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-stub.c:149
+#, c-format
+msgid "Could not connect to %s: %s"
+msgstr "%s: %sལུ་ མཐུད་མ་ཚུགས།"
+
+#: ../camel/camel-stub.c:179
+#, c-format
+msgid "Path too long: %s"
+msgstr "འགྲུལ་ལམ་རིང་དྲགས་པས་%s།"
+
+#: ../camel/camel-stub.c:205
+#, c-format
+msgid "Could not start status thread: %s"
+msgstr "གནས་ཚད་ཐེརེཌི་ འགོ་བཙུགས་འབད་མ་ཚུགས་%s།"
+
+#: ../camel/camel-stub.c:457
+#, c-format
+msgid "Lost connection to %s"
+msgstr "%sལུ་ མཐུད་ལམ་བརླག་སྟོར་ཞུགས་ནུག"
+
+#: ../camel/camel-stub.c:461
+#, c-format
+msgid "Error communicating with %s: %s"
+msgstr "%s: %sདང་གཅིག་ཁར་ རྒྱུད་འབྲེལ་འཐབ་ནི་ལུ་འཛོལ་བ།"
+
+#: ../lib/e2k-autoconfig.c:1471
+#: ../storage/exchange-autoconfig-wizard.c:211
+#, c-format
+msgid ""
+"Could not connect to the Exchange server.\n"
+"Make sure the URL is correct (try \"%s\" instead of \"%s\"?) and try again."
+msgstr ""
+"ཨེགསི་ཅེནཇི་སར་བར་ལུ་ མཐུད་མི་ཚུགས་པས།\n"
+" ཡུ་ཨར་ཨེལ་ ངེས་བདེན་བཟོ།( \"%s\"ལུ་འབད་རྩོལ་བསྐྱེད་ \"%s\"?)གི་ཚབ་ལུ།"
+
+#: ../lib/e2k-autoconfig.c:1480
+#: ../storage/exchange-autoconfig-wizard.c:219
+msgid ""
+"Could not locate Exchange server.\n"
+"Make sure the server name is spelled correctly and try again."
+msgstr ""
+"ཨེགསི་ཅེནཇི་སར་བར་འཚོལ་ཞིབ་འབད་མ་ཚུགས།\n"
+"སར་བར་མིང་གི་ སྡེབ་མ་འཛོལཝ་ ངེས་ཏིག་བཟོ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../lib/e2k-autoconfig.c:1490
+#: ../storage/exchange-autoconfig-wizard.c:228
+msgid ""
+"Could not authenticate to the Exchange server.\n"
+"Make sure the username and password are correct and try again."
+msgstr ""
+"ཨེགསི་ཅེནཇི་སར་བར་ལུ་ བདེན་བཤད་འབད་མ་ཚུགས།\n"
+"ལག་ལེན་པའི་མིང་དང་ ཆོག་ཡིག་ཚུ་ བདེན་པ་ངེས་ཏིག་བཟོ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../lib/e2k-autoconfig.c:1498
+#: ../storage/exchange-autoconfig-wizard.c:235
+#, c-format
+msgid ""
+"Could not authenticate to the Exchange server.\n"
+"Make sure the username and password are correct and try again.\n"
+"\n"
+"You may need to specify the Windows domain name as part of your username (eg, \"MY-DOMAIN\\%s\")."
+msgstr ""
+"ཨེགསི་ཅེནཇི་སར་བར་ལུ་ བདེན་བཤད་འབད་མ་ཚུགས།\n"
+"ལག་ལེན་པའི་མིང་དང་ ཆོག་ཡིག་ཚུ་ བདེན་པ་ངེས་ཏིག་བཟོ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།\n"
+"ཁྱོད་ཀྱིས་ ཁྱོད་རའི་ལག་ལེན་པའི་མིང་གི་ ཡན་ལག་བཟུམ་ཅིག་སྦེ་ ཝིན་ཌོསི་གི་ ཌོ་མེན་མིང་ གསལ་བཀོད་འབད་དགོ་ནི་མས།(དཔེར་ན་\"ངེད་ཀྱི་-ཌོ་མེན་\\%s\")"
+
+#: ../lib/e2k-autoconfig.c:1511
+#: ../storage/exchange-autoconfig-wizard.c:247
+msgid ""
+"Could not find OWA data at the indicated URL.\n"
+"Make sure the URL is correct and try again."
+msgstr ""
+"བརྡ་སྟོན་ཏེ་ཡོད་མི་ ཡུ་ཨར་ཨེལ་ནང་ ཨོ་ཌབ་ལུ་ཨེ་ འཚོལ་མ་ཐོབ།\n"
+"ཡུ་ཨར་ཨེལ་དེ་ ངེས་ཏིག་བཟོ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../lib/e2k-autoconfig.c:1520
+#, c-format
+msgid ""
+"Ximian Connector requires access to certain functionality on the Exchange Server that appears to be disabled or blocked.  (This is usually unintentional.)  Your Exchange Administrator will need to enable this functionality in order for you to be able to use Ximian Connector.\n"
+"\n"
+"For information to provide to your Exchange administrator, please follow the link below:\n"
+"%s"
+msgstr ""
+"ཨེགསི་ཅེནཇི་སར་བར་ནང་ ཟི་མི་ཡཱན་མཐུད་བྱེད་དེ་ ལྕོགས་མིན་ཐལ་སོང་བའམ་ འགགས་སོངམ་བཟུམ་ཅིག་ཡོདཔ་ལས་ བྱ་བ་ལ་ལོ་ཅིག་ལུ་ འཛུལ་སྤྱོད་དགོཔ་འདུག (འདི་སྤྱིར་བཏང་ལུ་དོན་ཅན་སྦེ་ འབད་འབདཝ་མེན) ཟི་མི་ཡཱན་མཐུད་བྱེད་ ལག་ལེན་འཐབ་ཚུགསཔ་ བཟོ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱི་ཨེགསི་ཅེནཇི་བདག་སྐྱོང་པ་གིས་ བྱ་བ་འདི་ལྕོགས་ཅན་བཟོ་དགོ \n"
+"\n"
+"ཁྱོད་རའི་ཨེགསི་ཅནཇི་བདག་སྐྱོང་པ་ལུ་ བརྡ་དོན་བྱིན་ནིའི་དོན་ལུ་ འོག་གི་འབྲེལ་ལམ་དང་འཁྲིལ།:\n"
+"%s "
+
+#: ../lib/e2k-autoconfig.c:1536
+#: ../storage/exchange-autoconfig-wizard.c:275
+msgid "The Exchange server URL you provided is for an Exchange 5.5 Server. Ximian Connector supports Microsoft Exchange 2000 and 2003 only."
+msgstr "ཁྱོད་ཀྱིས་བྱིན་མི་ ཨེགསི་ཅེནཇི་སར་བར་ ཡུ་ཨར་ཨེལ་དེ་ ཨེགསི་ཅེནཇི་ ་༥.༥ སར་བར་གྱི་དོན་ལུ་ཨིན་པས། ཟི་མི་ཡཱན་མཐུད་བྱེད་ཀྱིས་ མའི་ཀོརོ་སོཕཊི་ ཨེགསི་ཅེནཇི་ ་༢༠༠༠ དང་ ༢༠༠༣ རྐྱངམ་གཅིག་ལུ་ རྒྱབ་སྐྱོར་འབདཝ་ཨིན།"
+
+#: ../lib/e2k-autoconfig.c:1545
+#: ../storage/exchange-autoconfig-wizard.c:288
+msgid "Could not configure Exchange account because an unknown error occurred. Check the URL, username, and password, and try again."
+msgstr "ཧ་མ་གོ་བའི་ འཛོལ་བ་ཅིག་བྱུང་ཡོདཔ་ལས་ ཨེགསི་ཅེནཇི་རྩིས་ཐོ་རིམ་སྒྲིག་འབད་མ་ཚུགས། ཡུ་ཨར་ཨེལ་དང་ ལག་ལེན་པའི་མིང་ ཆོག་ཡིག་ཚུ་ལུ་ ཞིབ་དཔྱད་འབད་དེ་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../lib/e2k-autoconfig.c:1567
+#, c-format
+msgid "Enter password for %s"
+msgstr "%sགི་དོན་ལུ་ ཆོག་ཡིག་བཙུགས།"
+
+#: ../lib/e2k-autoconfig.c:1568
+#: ../storage/exchange-account.c:874
+msgid "Enter password"
+msgstr "ཆོག་ཡིག་བཙུགས།"
+
+#. i18n: These are Outlook's words for the default roles in
+#. the folder permissions dialog.
+#: ../lib/e2k-security-descriptor.c:847
+msgid "Owner"
+msgstr "བདག་པོ།"
+
+#: ../lib/e2k-security-descriptor.c:857
+msgid "Publishing Editor"
+msgstr "དཔེ་བསྐྲུན་ཞུན་དགཔ།"
+
+#: ../lib/e2k-security-descriptor.c:865
+msgid "Editor"
+msgstr "ཞུན་དགཔ།"
+
+#: ../lib/e2k-security-descriptor.c:872
+msgid "Publishing Author"
+msgstr "དཔེ་བསྐྲུན་རྩོམ་པ་པོ།"
+
+#: ../lib/e2k-security-descriptor.c:878
+msgid "Author"
+msgstr "རྩོམ་པ་པོ།"
+
+#: ../lib/e2k-security-descriptor.c:883
+msgid "Non-editing Author"
+msgstr "ཞུན་དག་མེན་པའི་ རྩོམ་པ་པོ།"
+
+#: ../lib/e2k-security-descriptor.c:887
+msgid "Reviewer"
+msgstr "བསྐྱར་ཞིབ་འབད་མི།"
+
+#: ../lib/e2k-security-descriptor.c:889
+msgid "Contributor"
+msgstr "ཕན་འདེབས་པ།"
+
+#: ../lib/e2k-security-descriptor.c:891
+#: ../storage/exchange-delegates.glade.h:7
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../lib/e2k-security-descriptor.c:906
+#: ../storage/exchange-delegates-user.c:144
+msgid "Custom"
+msgstr "སྲོལ་སྒྲིག"
+
+#: ../lib/e2k-user-dialog.c:144
+msgid "Select User"
+msgstr "ལག་ལེན་པ་སེལ་འཐུ་འབད།"
+
+#: ../lib/e2k-user-dialog.c:182
+msgid "Addressbook..."
+msgstr "ཁ་བྱང་ཀི་དེབ།"
+
+#: ../mail/mail-stub-exchange.c:257
+msgid "No such folder"
+msgstr "དེ་བཟུམ་གྱི་སྣོད་འཛིན་མིན་འདུག"
+
+#. FIXME: should be this, but string freeze freezes me to do so.
+#. mail_stub_return_error (stub, _("Permission denied. Could not delete certain mails."));
+#: ../mail/mail-stub-exchange.c:280
+#: ../mail/mail-stub-exchange.c:1381
+#: ../mail/mail-stub-exchange.c:2511
+#: ../mail/mail-stub-exchange.c:2551
+#: ../mail/mail-stub-exchange.c:2617
+#: ../mail/mail-stub-exchange.c:2661
+#: ../mail/mail-stub-exchange.c:2725
+#: ../shell/e-storage.c:573
+#: ../storage/xc-commands.c:319
+msgid "Permission denied"
+msgstr "གནང་བ་མི་བྱིན་པས།"
+
+#: ../mail/mail-stub-exchange.c:578
+#: ../mail/mail-stub-exchange.c:600
+msgid "Could not open folder: Permission denied"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ་མ་ཚུགས། གནང་བ་མི་བྱིན་པས།"
+
+#: ../mail/mail-stub-exchange.c:584
+#: ../mail/mail-stub-exchange.c:705
+msgid "Could not open folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:748
+msgid "No such folder."
+msgstr "དེ་བཟུམ་གྱི་སྣོད་འཛིན་མིན་འདུག"
+
+#: ../mail/mail-stub-exchange.c:757
+msgid "Could not create folder."
+msgstr "སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:837
+msgid "Could not open Deleted Items folder"
+msgstr "བཏོན་བཏང་བའི་ རྣམ་གྲངས་སྣོད་འཛིན་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:1166
+#: ../mail/mail-stub-exchange.c:1207
+msgid "Could not get new messages"
+msgstr "འཕྲིན་དོན་གསརཔ་ འཐོབ་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:1377
+msgid "Could not empty Deleted Items folder"
+msgstr "བཏོན་བཏང་བའི་ རྣམ་གྲངས་སྣོད་འཛིན་ སྟོངམ་བཏོན་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:1454
+msgid "Could not append message; mailbox is over quota"
+msgstr "འཕྲིན་དོན་ལུ་ མཇུག་བསྣོན་འབད་མ་ཚུགས། ཡིག་སྒྲོམ་གྱི་ཐོབ་སྐལ་ལས་ ལྷག་སོ་ནུག"
+
+#: ../mail/mail-stub-exchange.c:1455
+msgid "Could not append message"
+msgstr "འཕྲིན་དོན་ལུ་ མཇུག་བསྣོན་འབད་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:2001
+msgid "No such message"
+msgstr "དེ་བཟུམ་མའི་ འཕྲིན་དོན་མིན་འདུག"
+
+#: ../mail/mail-stub-exchange.c:2054
+msgid "Message has been deleted"
+msgstr "འཕྲིན་དོན་བཏོན་བཏང་ནུག"
+
+#: ../mail/mail-stub-exchange.c:2056
+msgid "Error retrieving message"
+msgstr "འཕྲིན་དོན་སླར་འདྲེན་ལུ་འཛོལ་བ།"
+
+#: ../mail/mail-stub-exchange.c:2098
+msgid "Mailbox does not support full-text searching"
+msgstr "ཡིག་སྒྲོམ་གྱིས་ ཚིག་ཡིག་ཆ་ཚང་ འཚོལ་ཞིབ་འབད་ནི་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../mail/mail-stub-exchange.c:2196
+msgid "Unable to move/copy messages"
+msgstr "འཕྲིན་དོན་སྤོ་བཤུད་/འདྲ་བཤུས་མི་བཏུབ་པས།"
+
+#: ../mail/mail-stub-exchange.c:2426
+msgid "No mail submission URI for this mailbox"
+msgstr "ཡིག་སྒྲོམ་འདི་གི་དོན་ལུ་ ཡིག་འཕྲིནབཙུགས་ནིའི་ ཡུ་ཨར་ཨེལ་མིན་འདུག"
+
+#: ../mail/mail-stub-exchange.c:2462
+msgid "Server won't accept mail via Exchange transport"
+msgstr "སར་བར་གྱིས་ ཨེགསི་ཅེནཇི་སྐྱེལ་འདྲེན་བརྒྱུད་དེ་ ཡིག་འཕྲིན་ལུ་དང་ལེན་མི་འབད།"
+
+#: ../mail/mail-stub-exchange.c:2464
+#, c-format
+msgid ""
+"Your account does not have permission to use <%s>\n"
+"as a From address."
+msgstr ""
+"ཁྱོད་ཀྱི་རྩིས་ཐོ་ལུ་ <%s>འདི་ ག་ཏེ་ལས་ཨིན་ན་གི་ ཁ་བྱང་བཟུམ་ཅིག་སྦེ་ ལག་ལེན་འཐབ་ནིའི་ གནང་བ་མིན་འདུག\n"
+"  "
+
+#: ../mail/mail-stub-exchange.c:2476
+msgid ""
+"Could not send message.\n"
+"This might mean that your account is over quota."
+msgstr ""
+"འཕྲིན་དོན་བཏང་མ་ཚུགས། .\n"
+"འདི་གི་དོན་དག་ ཁྱོད་ཀྱི་རྩིས་ཐོའི་ ཐོབ་སྐལ་ལས་ལྷགཔ་ཨིན།"
+
+#: ../mail/mail-stub-exchange.c:2480
+msgid "Could not send message"
+msgstr "འཕྲིན་དོན་བཏང་མ་ཚུགས།"
+
+#: ../mail/mail-stub-exchange.c:2503
+#: ../mail/mail-stub-exchange.c:2556
+#: ../mail/mail-stub-exchange.c:2621
+#: ../mail/mail-stub-exchange.c:2666
+#: ../mail/mail-stub-exchange.c:2730
+#: ../shell/e-storage.c:557
+#: ../storage/xc-commands.c:323
+msgid "Generic error"
+msgstr "ཇེ་ནི་རིཀ་འཛོལ་བ།"
+
+#: ../mail/mail-stub-exchange.c:2507
+#: ../storage/xc-commands.c:313
+msgid "Folder already exists"
+msgstr "སྣོད་འཛིན་ཧེ་མ་ལས་འདུག"
+
+#: ../shell/e-folder-creation-dialog.c:138
+#, c-format
+msgid ""
+"Cannot create the specified folder:\n"
+"%s"
+msgstr ""
+"གསལ་བཀོད་འབད་མི་སྣོད་འཛིན་ གསར་བསྐྲུན་འབད་མ་ཚུགས།:\n"
+"%s "
+
+#: ../shell/e-folder-creation-dialog.c:179
+#, c-format
+msgid "The specified folder name is not valid: %s"
+msgstr "གསལ་བཀོད་འབད་མི་ སྣོད་འཛིན་གྱི་མིང་ ནུས་མེད་ཨིན་པས།%s"
+
+#: ../shell/e-folder-creation-dialog.c:310
+msgid "Create New Folder"
+msgstr "སྣོད་འཛིན་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: ../shell/e-folder-creation-dialog.glade.h:1
+#: ../storage/exchange-autoconfig-wizard.glade.h:1
+#: ../storage/exchange-change-password.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../shell/e-folder-creation-dialog.glade.h:2
+msgid "Folder _name:"
+msgstr "སྣོད་འཛིན་གྱི་མིང་: (_n)"
+
+#: ../shell/e-folder-creation-dialog.glade.h:3
+msgid "Folder _type:"
+msgstr "སྣོད་འཛིན་གྱི་དབྱེ་བ:(_t)"
+
+#: ../shell/e-folder-creation-dialog.glade.h:4
+msgid "Specify where to create the folder:"
+msgstr "སྣོད་འཛིན་ག་ཏེ་ལུ་ གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་ གསལ་བཀོད་འབད:།"
+
+#: ../shell/e-folder-dnd-bridge.c:52
+#, c-format
+msgid ""
+"Cannot transfer folder:\n"
+"%s"
+msgstr ""
+"སྣོད་འཛིན་གནས་སོར་ འབད་མི་བཏུབ་པས།:\n"
+"%s"
+
+#: ../shell/e-folder-misc-dialogs.c:62
+#, c-format
+msgid ""
+"Cannot delete folder:\n"
+"%s"
+msgstr ""
+"སྣོད་འཛིན་་བཏོན་བཏང་མི་བཏུབ་པས།:\n"
+"%s"
+
+#: ../shell/e-folder-misc-dialogs.c:115
+#, c-format
+msgid "Really delete folder \"%s\"?"
+msgstr "སྣོད་འཛིན་ངེས་པར་ བཏོན་བཏང་ནི་ཨིན་ན།\"%s\"?"
+
+#: ../shell/e-folder-misc-dialogs.c:129
+#, c-format
+msgid "Delete \"%s\""
+msgstr "བཏོན་བཏང་། \"%s\""
+
+#: ../shell/e-folder-misc-dialogs.c:154
+#, c-format
+msgid ""
+"Cannot rename folder:\n"
+"%s"
+msgstr ""
+"སྣོད་འཛིན་ལུ་ བསྐྱར་མིང་བཏགས་མི་ཚུགས་པས།:\n"
+"%s"
+
+#: ../shell/e-folder-misc-dialogs.c:188
+#, c-format
+msgid "Rename the \"%s\" folder to:"
+msgstr "སྣོད་འཛིན་ \"%s\"དེ་ལུ་ བསྐྱར་མིང་དེ་སྦེ་: བཏགས།"
+
+#: ../shell/e-folder-misc-dialogs.c:191
+msgid "Rename Folder"
+msgstr "སྣོད་འཛིན་ལུ་ བསྐྱར་མིང་བཏགས།"
+
+#: ../shell/e-folder-misc-dialogs.c:205
+#, c-format
+msgid "A folder named \"%s\" already exists. Please use a different name."
+msgstr "\"%s\" གི་མིང་བཏགས་ཡོད་པའི་ སྣོད་འཛིན་ཅིག་ ཧེ་མ་ལས་རང་འདུག མིང་སོ་སོ་ཅིག་བཏགས།"
+
+#. It would be nice to insensitivize the OK button appropriately
+#. instead of doing this, but unfortunately we can't do this for the
+#. Bonobo control.
+#: ../shell/e-folder-misc-dialogs.c:451
+msgid "Please select a user."
+msgstr "ལག་ལེན་པ་ཅིག་ སེལ་འཐུ་འབད་གནང་།"
+
+#: ../shell/e-folder-misc-dialogs.c:553
+msgid "Opening Folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ་དོ།"
+
+#: ../shell/e-folder-misc-dialogs.c:559
+#, c-format
+msgid "Opening Folder \"%s\""
+msgstr "སྣོད་འཛིན་ \"%s\"ཁ་ཕྱེ་དོ།"
+
+#: ../shell/e-folder-misc-dialogs.c:564
+#, c-format
+msgid "in \"%s\" ..."
+msgstr "\"%s\" ནང་ལུ་ ..."
+
+#: ../shell/e-folder-misc-dialogs.c:631
+#, c-format
+msgid "Could not open other user's folder: %s."
+msgstr "ལག་ལེན་པ་གཞན་གྱི་སྣོད་འཛིན་: %s ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../shell/e-folder-misc-dialogs.c:681
+msgid "Cannot find the specified other user's folder."
+msgstr "གསལ་བཀོད་འབད་མི་ ལག་ལེན་པ་གཞན་གྱི་སྣོད་འཛིན་ འཚོལ་མི་འཐོབ་པས།"
+
+#: ../shell/e-folder-misc-dialogs.c:713
+#, c-format
+msgid ""
+"Cannot unsubscribe from folder:\n"
+"%s"
+msgstr ""
+"ཡིག་སྣོད་ནང་ལས་ མངགས་བཤོལ་འབད་མི་ཚུགས་པས།:\n"
+"\"\"%s\""
+
+#: ../shell/e-folder-misc-dialogs.c:766
+#, c-format
+msgid "Really unsubscribe from folder \"%s\"?"
+msgstr "ཡིག་སྣོད་\"%s\"ནང་ལས་ ངེས་པར་མངགས་བཤོལ་འབད་ནི་ཨིན་ན?"
+
+#: ../shell/e-folder-misc-dialogs.c:780
+#, c-format
+msgid "Unsubscribe from \"%s\""
+msgstr "\"%s\"ནང་ལས་ མངགས་བཤོལ་འབད།"
+
+#: ../shell/e-foreign-folder-dialog.glade.h:1
+msgid "Open Other User's Folder"
+msgstr "ལག་ལེན་པ་གཞན་གྱི་ སྣོད་འཛིན་ཁ་ཕྱེ།"
+
+#: ../shell/e-foreign-folder-dialog.glade.h:2
+msgid "_Account:"
+msgstr "རྩིས་ཐོ།(_A)"
+
+#: ../shell/e-foreign-folder-dialog.glade.h:3
+msgid "_Folder Name:"
+msgstr "སྣོད་འཛིན་མིང་། (_F)"
+
+#: ../shell/e-foreign-folder-dialog.glade.h:4
+msgid "_User:"
+msgstr "ལག་ལེན་པ། (_U)"
+
+#: ../shell/e-storage-set-view.etspec.h:1
+msgid "Checkbox"
+msgstr "དཔྱད་སྒྲོམ།"
+
+#: ../shell/e-storage-set-view.etspec.h:2
+msgid "Folder"
+msgstr "སྣོད་འཛིན།"
+
+#: ../shell/e-storage.c:555
+msgid "No error"
+msgstr "འཛོལ་བ་མིན་འདུག"
+
+#: ../shell/e-storage.c:559
+msgid "A folder with the same name already exists"
+msgstr "མིང་ཅོག་གཅིགཔ་འབད་མི་ སྣོད་འཛིན་ཅིག་ ཧེ་མ་ལས་རང་འདུག"
+
+#: ../shell/e-storage.c:561
+msgid "The specified folder type is not valid"
+msgstr "གསལ་བཀོད་འབད་མི་ ཡིག་སྣོད་དབྱེ་བ་དེ་ ནུས་མེད་ཨིན་པས།"
+
+#: ../shell/e-storage.c:563
+msgid "I/O error"
+msgstr "ཨའི/ཨོ་ འཛོལ་བ།"
+
+#: ../shell/e-storage.c:565
+msgid "Not enough space to create the folder"
+msgstr "སྣོད་འཛིན་གསར་བསྐྲུན་འབད་ནིའི་ བར་སྟོང་ལངམ་མིན་འདུག"
+
+#: ../shell/e-storage.c:567
+msgid "The folder is not empty"
+msgstr "སྣོད་འཛིན་དེ་ སྟོངམ་མེན་པས།"
+
+#: ../shell/e-storage.c:569
+msgid "The specified folder was not found"
+msgstr "གསལ་བཀོད་འབད་མི་ སྣོད་འཛིན་དེ་མ་ཐོབ།"
+
+#: ../shell/e-storage.c:571
+msgid "Function not implemented in this storage"
+msgstr "བྱ་ལས་དེ་ གསག་མཛོད་འདི་ནང་ ལག་ལེན་མ་འཐབ་པས།"
+
+#: ../shell/e-storage.c:575
+msgid "Operation not supported"
+msgstr "བཀོལ་སྤྱོད་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: ../shell/e-storage.c:577
+msgid "The specified type is not supported in this storage"
+msgstr "གསལ་བཀོད་འབད་མི་ དབྱེ་བ་དེ་ གསག་མཛོད་འདི་ནང་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: ../shell/e-storage.c:579
+msgid "The specified folder cannot be modified or removed"
+msgstr "གསལ་བཀོད་འབད་མི་ སྣོད་འཛིན་དེ་ ལེགས་བཅོས་སམ་ རྩ་བསྐྲད་འབད་མི་ཚུགས་པས།"
+
+#: ../shell/e-storage.c:581
+msgid "Cannot make a folder a child of one of its descendants"
+msgstr "ཆ་ལག་དེ་གི་ རྒྱུད་པ་གཅིག་འབད་མི་ སྣོད་འཛིན་ཅིག་བཟོ་མི་ཚུགས་པས།"
+
+#: ../shell/e-storage.c:583
+msgid "Cannot create a folder with that name"
+msgstr "མིང་དེ་གི་ཐོག་ལས་ སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས་པས།"
+
+#: ../shell/e-storage.c:587
+#: ../storage/exchange-account.c:1473
+msgid "Unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ།"
+
+#: ../storage/GNOME_Evolution_Exchange_Storage.server.in.in.h:1
+msgid "Evolution Addressbook Exchange backend"
+msgstr "ཨི་བོ་ལུ་ཤཱན་ ཁ་བྱང་ཀི་དེབ་ ཨེགསི་ཅེནཇི་གྱི་རྒྱབ་མཐའ།"
+
+#: ../storage/GNOME_Evolution_Exchange_Storage.server.in.in.h:2
+msgid "Evolution Calendar Exchange backend"
+msgstr "ཨི་བོ་ལུ་ཤཱན་ཟླ་ཐོ་ ཨེགསི་ཅེནཇི་གྱི་རྒྱབ་མཐའ།"
+
+#: ../storage/GNOME_Evolution_Exchange_Storage.server.in.in.h:3
+msgid "Ximian Connector for Exchange"
+msgstr "ཨེགསི་ཅེནཇི་གྱི་དོན་ལས་ ཟི་མི་ཡཱན་ མཐུད་བྱེད།"
+
+#. i18n: This is the title of an "other user's folders"
+#. hierarchy. Eg, "John Doe's Folders".
+#: ../storage/exchange-account.c:584
+#, c-format
+msgid "%s's Folders"
+msgstr "%s's གི་སྣོད་འཛིན།"
+
+#. email id is not proper, we return instead of trying nt_domain
+#: ../storage/exchange-account.c:1069
+msgid "Cannot change password due to configuration problems"
+msgstr "རིམ་སྒྲིག་གི་དཀའ་ངལ་ལུ་བརྟེན་ཏེ་ ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད་མི་ཚུགས་པས།"
+
+#: ../storage/exchange-account.c:1092
+msgid ""
+"Server rejected password because it is too weak.\n"
+"Try again with a different password."
+msgstr "ཆོག་ཡིག་དེ་གི་ ནུས་ཤུགས་ཆུང་དྲགསཔ་ལས་ སར་བར་གྱིས་ ངོས་ལེན་མི་འབད་བས། ཆོག་ཡིག་སོ་སོ་ཅིག་གི་ཐོག་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../storage/exchange-account.c:1097
+msgid "Could not change password"
+msgstr "ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད་མ་ཚུགས།"
+
+#: ../storage/exchange-account.c:1190
+msgid "Personal Folders"
+msgstr "རང་དོན་སྣོད་འཛིན།"
+
+#: ../storage/exchange-account.c:1205
+msgid "Favorite Public Folders"
+msgstr "དགའ་མི་ མི་མང་སྣོད་འཛིན།"
+
+#. i18n: Outlookism
+#: ../storage/exchange-account.c:1222
+msgid "All Public Folders"
+msgstr "མི་མང་སྣོད་འཛིན་ཆ་མཉམ།"
+
+#. i18n: Outlookism
+#: ../storage/exchange-account.c:1236
+msgid "Global Address List"
+msgstr "སྤྱི་ཁྱབ་ཁ་བྱང་ཐོ་ཡིག"
+
+#: ../storage/exchange-account.c:1326
+msgid "Exchange Account is offline. Cannot display folders\n"
+msgstr "ཨེགསི་ཅེནཇི་རྩིས་ཐོ་ ཨོཕ་ལ་ཡིན་ཨིན་པས། སྣོད་འཛིན་ཚུ་ བཀྲམ་སྟོན་འབད་མི་ཚུགས་པས།\n"
+
+#: ../storage/exchange-account.c:1389
+msgid ""
+"Could not authenticate to server.\n"
+"\n"
+"This probably means that your server requires you\n"
+"to specify the Windows domain name as part of your\n"
+"username (eg, \"DOMAIN\\user\").\n"
+"\n"
+"Or you might have just typed your password wrong.\n"
+"\n"
+msgstr ""
+"སར་བར་ལུ་ བདེན་བཤད་འབད་མ་ཚུགས།\n"
+"\n"
+"དེ་ལུ་བལྟཝ་ད་ ཁྱོད་ཀྱི་སར་བར་\n"
+" ལུ་ ཝིན་ཌོསི་གི་ཌོ་མེན་མིང་དེ་ ཁྱོད་རའི་ལག་ལེན་པའི་མིང་\n"
+" གི་ ཡན་ལག་བཟུམ་ཅིག་སྦེ་ དགོཔ་འོང་ནི་མས། \n"
+" (དཔེར་ན་ \"DOMAIN\\user\").\n"
+"\n"
+"ཡང་ཅིན་ ཁྱོད་ཀྱིས་ ཁྱོད་རའི་ཆོག་ཡིག་ ཕྱི་འགྱུར་སྦེ་་ ཡིག་དཔར་བརྐྱབས་གདའཔ་འོང་ནི་མས།.\n"
+"\n"
+
+#: ../storage/exchange-account.c:1431
+#, c-format
+msgid "Mailbox for %s is not on this server."
+msgstr "%s གི་ཡིག་སྒྲོམ་ སར་བར་འདི་ནང་མིན་འདུག"
+
+#: ../storage/exchange-account.c:1436
+#, c-format
+msgid ""
+"The server '%s' is running Exchange 5.5 and is\n"
+"therefore not compatible with Ximian Connector"
+msgstr ""
+"སར་བར་'%s' དེ་གིས་ ཨེགསི་ཅེནཇི་ ༥.༥ གཡོག་བཀོལ་དོ་ཡོདཔ་ལས་\n"
+" ཟི་མི་ཡཱན་ མཐུད་བྱེད་དང་གཅིག་ཁར་ མཐུན་འགྱུར་མིན་འདུག"
+
+#: ../storage/exchange-account.c:1443
+#, c-format
+msgid ""
+"Could not find Exchange Web Storage System at %s.\n"
+"If OWA is running on a different path, you must specify that in the\n"
+"account configuration dialog."
+msgstr ""
+"%s ལུ་ ཨེགསི་ཅིནཇི་ ཝེབ་ གསག་མཛོད་རིམ་ལུགས་ འཚོལ་མ་ཐོབ།.\n"
+" ཨོ་ཌབ་ལུ་ཨེ་དེ་གིས་འགྲུལ་ལམ་གཞན་ཅིག་ གཡོག་བཀོལ་བའི་བསྒང་ཨིན་པ་ཅིན་ དེ་ཁྱོད་ཀྱིས་ རྩིས་ཐོ་རིམ་སྒྲིག་ ཌའི་ལོག་ནང་ \n"
+"གསལ་བཀོད་འབད་དགོ."
+
+#: ../storage/exchange-account.c:1451
+#, c-format
+msgid "No mailbox for user %s on %s.\n"
+msgstr "ལག་ལེན་པ་%s གི་དོན་ལུ་ %sགི་ཡིག་སྒྲོམ་མིན་འདུག\n"
+
+#: ../storage/exchange-account.c:1457
+#: ../storage/exchange-account.c:1463
+#: ../storage/exchange-account.c:1471
+#, c-format
+msgid "Could not connect to server %s: %s"
+msgstr "སར་བར་%s: %s ལུ་ མཐུད་མ་ཚུགས།"
+
+#: ../storage/exchange-account.c:1459
+msgid "Could not resolve hostname"
+msgstr "ཧོསཊི་ནེམ་ ཉོགས་བསལ་འབད་མ་ཚུགས།"
+
+#: ../storage/exchange-account.c:1465
+msgid "Network error"
+msgstr "ཡོངས་འབྲེལ་གྱི་འཛོལ་བ།"
+
+#: ../storage/exchange-account.c:1529
+#, c-format
+msgid "You have exceeded your quota of %d %s for storing mails on this server. Your current usage is : %.0f %s."
+msgstr "སར་བར་འདི་གུ་ འཕྲིན་དོན་གསོག་འཇོག་འབད་ནིནི་དོན་ལུ་ ཁྱོད་ཀྱི་ཐོབ་སྐལ་%d %s ལས་བརྒལ་སོ་ནུག ཁྱོད་ཀྱི་ད་ལྟོའི་ལག་ལེན་དེ་ %.0f %sཨིན།"
+
+#: ../storage/exchange-account.c:1532
+msgid "You will not be able to either send or receive mails now\n"
+msgstr "ད་ལྟོ་ཁྱོད་ཀྱིས་ཡིག་འཕྲིན་གཏང་ནི་ ཡང་ན་ ལེན་ནི་ཚུ་འབད་མི་ཚུགས།\n"
+
+#: ../storage/exchange-account.c:1535
+msgid "You will not be able to send mails till you clear up some space by deleting some mails.\n"
+msgstr "ཁྱོད་ཀྱིས་ཡིག་འཕྲིན་ལ་ལོ་ཅིག་ བཏོན་བཏང་ཐོག་ལས་ བར་སྟོང་དུམ་གྲ་ཅིག་བཟོ་སྟེ་མ་གཏོགས་ ཡིག་འཕྲིན་གཏང་མི་ཚུགས།\n"
+
+#: ../storage/exchange-account.c:1538
+msgid "Try to clear up some space by deleting some mails.\n"
+msgstr "ཡིག་འཕྲིན་ལ་ལོ་ཅིག་་བཏོན་བཏང་ཐོག་ལས་ བར་སྟོང་དུམ་གྲ་ཅིག་བཟོ་བི་ འབད་རྩོལ་སྐྱེད།\n"
+
+#: ../storage/exchange-autoconfig-wizard.c:254
+msgid ""
+"Ximian Connector requires access to certain functionality on the Exchange Server that appears to be disabled or blocked.  (This is usually unintentional.)  Your Exchange Administrator will need to enable this functionality in order for you to be able to use Ximian Connector.\n"
+"\n"
+"For information to provide to your Exchange administrator, please follow the link below:"
+msgstr ""
+"ཨེགསི་ཅེནཇི་སར་བར་ནང་ ཟི་མི་ཡཱན་མཐུད་བྱེད་དེ་ ལྕོགས་མིན་ཐལ་སོང་བའམ་ འགགས་སོངམ་བཟུམ་ཅིག་ཡོདཔ་ལས་ བྱ་བ་ལ་ལོ་ཅིག་ལུ་ འཛུལ་སྤྱོད་དགོཔ་འདུག (འདི་སྤྱིར་བཏང་ལུ་དོན་ཅན་སྦེ་ འབད་འབདཝ་མེན) ཟི་མི་ཡཱན་མཐུད་བྱེད་ ལག་ལེན་འཐབ་ཚུགསཔ་ བཟོ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱི་ཨེགསི་ཅེནཇི་བདག་སྐྱོང་པ་གིས་ བྱ་བ་འདི་ལྕོགས་ཅན་བཟོ་དགོ .\n"
+"\"\"\n"
+"\"ཁྱོད་རའི་ཨེགསི་ཅནཇི་བདག་སྐྱོང་པ་ལུ་ བརྡ་དོན་བྱིན་ནིའི་དོན་ལུ་ འོག་གི་འབྲེལ་ལམ་དང་འཁྲིལ།:\n"
+" ཨེཆ་ཊི་ཨེམ་ཨེལ་://ས་པོཊི.ནོ་བལ་.ཀོམ་/སི་ཇི་ཨའི་-བིན/འཚོལ་ཞིབ/སརཆི་ཊིཌི་.སི་ཇི་ཨའི? ཟི་མིཡཱན་/ཟི་མི་ཡཱན་༣༢༨། ཨེཆ་ཊི་ཨེམ་ཨེལ།"
+
+#: ../storage/exchange-autoconfig-wizard.c:332
+#, c-format
+msgid "Could not authenticate to the Global Catalog server. You may need to go back and specify the Windows domain name as part of your username (eg, \"MY-DOMAIN\\%s\")."
+msgstr "སྤྱི་ཁྱབ་ཐོ་གཞུང་སར་བར་ལུ་ བདེན་བཤད་འབད་མ་ཚུགས། ཁྱོད་ཀྱིས་རྒྱབ་ཁར་སོང་སྟེ་ ཁྱོད་རའི་ལག་ལེན་པའི་མིང་གི་ ཡན་ལག་བཟུམ་སྦེ་ ཝིན་ཌོསི་ཌོ་མེན་གྱི་མིང་ གསལ་བཀོད་འབད་དགོཔ་འོང་། (དཔེར་ན་\"MY-DOMAIN\\%s\")"
+
+#: ../storage/exchange-autoconfig-wizard.c:339
+msgid ""
+"Could not connect to specified server.\n"
+"Please check the server name and try again."
+msgstr ""
+"གསལ་བཀོད་འབད་མི་ སར་བར་ལུ་ མཐུད་མ་ཚུགས།\n"
+"སར་བར་གྱི་མིང་ལུ་ ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../storage/exchange-autoconfig-wizard.c:376
+#: ../storage/exchange-autoconfig-wizard.c:380
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../storage/exchange-autoconfig-wizard.c:445
+msgid ""
+"Configuration system error.\n"
+"Unable to create new account."
+msgstr ""
+"རིམ་སྒྲིག་གི་རིམ་ལུགས་ལུ་འཛོལ་བ།\n"
+"རྩིས་ཐོ་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../storage/exchange-autoconfig-wizard.c:459
+msgid "You may only configure a single Exchange account"
+msgstr "ཁྱོད་ཀྱིས་ ཨེགསི་ཅེནཇི་རྩིས་ཐོ་ གཅིག་རྐྱངམ་ལུ་ རིམ་སྒྲིག་འབད།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:2
+msgid "Configuration Failed"
+msgstr "རིམ་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:3
+msgid "Done"
+msgstr "འབད་ཚར།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:4
+msgid "Email Address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་:།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:5
+msgid "Exchange Configuration"
+msgstr "ཨེགསི་ཅེནཇི་རིམ་སྒྲིག"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:6
+msgid "Full Name:"
+msgstr "མིང་ཆ་ཚང།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:7
+msgid "GC Server:"
+msgstr "ཇི་སི་ སར་བར:།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:8
+msgid "Make this my default account"
+msgstr "འདི་ ངེད་ཀྱི་སྔོན་སྒྲིག་ རྩིས་ཐོ་སྦེ་བཟོ།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:9
+msgid "OWA URL:"
+msgstr "ཨོ་ཌབ་ལུ་ཨེ་ ཡུ་ཨར་ཨེལ།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:10
+msgid "Password:"
+msgstr "ཆོག་ཡིག"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:11
+msgid "Remember this password"
+msgstr "ཆོག་ཡིག་འདི་ སེམས་ཁར་བཞག"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:12
+msgid "Username:"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:13
+msgid "Welcome"
+msgstr "བྱོན་པ་ལེགས་སོ།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:14
+msgid ""
+"Welcome to Ximian Connector for Microsoft Exchange.\n"
+"The next few screens will help you configure Evolution\n"
+"to connect to your Exchange account.\n"
+"\n"
+"Please click the \"Forward\" button to continue."
+msgstr ""
+"མའི་ཀོརོ་སོཕཊི་ ཨེགསི་ཅེནཇི་གི་ \n"
+"ཟི་མི་ཡཱན་ མཐུད་བྱེད་ལུ་ བྱོན་པ་ལེགས་སོ་ཡོད།\n"
+"ད་ལས་ཕར་ ཐེངས་དག་པ་ཅིག་སྟོན་པ་ཅིན་ ཨི་བོ་ལུ་ཤཱན་\n"
+"\n"
+" ཁྱོད་ཀྱི་ཨེགསི་ཅེནཇི་རྩིས་ཐོ་ལུ་མཐུད་ནི་ལུ་ རིམ་སྒྲིག་གི་ ཕན་ཐོགས་ཡོད།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:19
+msgid "Ximian Connector Configuration"
+msgstr "ཟི་མི་ཡཱན་ མཐུད་བྱེད་ རིམ་སྒྲིག"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:20
+msgid ""
+"Ximian Connector can use account information from your existing Outlook Web Access (OWA) account.\n"
+"\n"
+"Enter your OWA site address (URL), username, and password, then click \"Forward\".\n"
+msgstr ""
+"ཟི་མི་ཡཱན་ མཐུད་བྱེད་ཀྱིས་ ད་ལྟོ་ཡོད་མི་ཁྱོད་རའི་ ཨའུཊི་ལུཀ་ ཝེབ་ ཨེཀ་སིསི་(ཨོ་ཌབ་ལུ་ཨེ) རྩིས་ཐོ་ནང་ལས་ རྩིས་ཐོའི་བརྡ་དོན་ཚུ་ ལག་ལེན་འཐབ་ཚུགས།\n"
+"\n"
+"ཁྱོད་རའི་ཨོ་ཌབ་ལུ་ཨེ་གི་ས་ཁོངས་ཁ་བྱང་ (ཡུ་ཨར་ཨེལ)དང་ ལག་ལེན་པའི་མིང་ ཆོག་ཡིག་ཚུ་ བཙུགས་ཞིནམ་ལས་ \"Forward\" ལུ་ ཨེབ་གཏང་འབད།\n"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:24
+msgid "Ximian Connector could not find the Global Catalog replica for your site. Please enter the name of your Global Catalog server. You may need to ask your system administrator for the correct value.\n"
+msgstr "ཟི་མི་ཡཱན་ མཐུད་བྱེད་ཀྱིས་ ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་དོན་ལུ་ སྤྱི་ཁྱབ་ཐོ་གཞུང་གི་ ངོ་འདྲ་འཚོལ་མ་ཐོབ། ཁྱོད་རའི་སྤྱི་ཁྱབ་ཐོ་གཞུང་ སར་བར་གྱི་མིང་བཙུགས། བེ་ལུ་ངེས་བདེན་གྱི་དོན་ལུ་ ཁྱོད་ཀྱིས་ ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་ འདྲི་དགོཔ་འོང་།\n"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:26
+msgid "Ximian Connector has encountered a problem configuring your Exchange account.\n"
+msgstr "ཟི་མི་ཡཱན་ མཐུད་བྱེད་ཀྱིས་ ཁྱོད་ཀྱི་ཨེགསི་ཅེནཇི་རྩིས་ཐོ་ རིམ་སྒྲིག་འབད་ནི་ལུ་ དཀའ་ངལ་ཅིག་བྱུང་ནུག\n"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:28
+msgid ""
+"Your Connector account is now ready to use. Click the \"Apply\" button to save your\n"
+"settings."
+msgstr ""
+"ད་ལྟོ་ ཁྱོད་ཀྱི་མཐུད་བྱེད་རྩིས་ཐོ་དེ་ ལག་ལེན་འཐབ་ཆོགཔ་ཨིན། ཁྱོད་རའི་སྒྲིག་སྟངས་ཚུ་ བསྲུང་ནི་ལུ་ \"Apply\" ཀྱི་ཨེབ་རྟ་དེ་ལུ་ \n"
+"ཨེབ་གཏང་འབད།"
+
+#: ../storage/exchange-autoconfig-wizard.glade.h:30
+msgid "Your account information is as follows. Please correct any errors, then click \"Forward\".\n"
+msgstr "ཁྱོད་ཀྱི་རྩིས་ཐོའི་བརྡ་དོན་ གཤམ་གསལ་བཟུམ་ཨིན། འཛོལ་བ་རེ་ཡོད་པ་ཅིན་ ནོར་བཅོས་འབད་ཞིནམ་ལས་ \"Forward\" གུ་ ཨེབ་གཏང་འབད།\n"
+
+#. User entered a wrong existing
+#. * password. Prompt him again.
+#.
+#: ../storage/exchange-change-password.c:114
+msgid "The current password does not match the existing password for your account. Please enter the correct password"
+msgstr "ད་ལྟོའི་ཆོག་ཡིག་དེ་ ཧེ་མ་ལས་ཡོད་མི་ ཆོག་ཡིག་དང་ མཐུན་སྒྲིག་མིན་འདུག ཆོག་ཡིག་ངེས་བདེན་སྦེ་བཙུགས་གནང་།"
+
+#: ../storage/exchange-change-password.c:121
+msgid "The two passwords do not match. Please re-enter the passwords."
+msgstr "ཆོག་ཡིག་གཉིས་ མཐུན་སྒྲིག་མིན་འདུག ཆོག་ཡིག་ལོག་སྟེ་བཙུགས་གནང་།"
+
+#: ../storage/exchange-change-password.glade.h:2
+msgid "Change Password"
+msgstr "ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད།"
+
+#: ../storage/exchange-change-password.glade.h:3
+msgid "Confirm Password:"
+msgstr "ཆོག་ཡིག་ངེས་གཏན་བཟོ།"
+
+#: ../storage/exchange-change-password.glade.h:4
+msgid "Current Password:"
+msgstr "ད་ལྟོའི་ཆོག་ཡིག:"
+
+#: ../storage/exchange-change-password.glade.h:5
+msgid "New Password:"
+msgstr "ཆོག་ཡིག་གསརཔ:"
+
+#: ../storage/exchange-change-password.glade.h:6
+msgid "Your current password has expired. Please change your password now."
+msgstr "ཁྱོད་ཀྱི་ད་ལྟོའི་ཆོག་ཡིག་དེ་ དུས་ཡོལ་ཐལ་སོ་ནུག ད་ ཁྱོད་རའི་ཆོག་ཡིག་ བསྒྱུར་བཅོས་འབད་གནང་།"
+
+#: ../storage/exchange-delegates-user.c:191
+#: ../storage/exchange-permissions-dialog.c:179
+#, c-format
+msgid "Permissions for %s"
+msgstr "%sགི་དོན་ལུ་ གནང་བ་ཚུ།"
+
+#: ../storage/exchange-delegates.c:221
+msgid ""
+"No Global Catalog server configured for this account.\n"
+"Unable to edit delegates."
+msgstr ""
+"རྩིས་ཐོ་འདི་གི་དོན་ལུ་ སྤྱི་ཁྱབ་ཐོ་གཞུང་སར་བར་རིམ་སྒྲིག་མ་འབད་བས།\n"
+"འཐུས་མི་ ཞུན་དག་བརྐྱབ་མི་བཏུབ་པས།"
+
+#: ../storage/exchange-delegates.c:260
+msgid ""
+"Could not read folder permissions.\n"
+"Unable to edit delegates."
+msgstr ""
+"ཡིག་སྣོད་ཀྱི་གནང་བ་ ལྷག་མ་ཚུགས།\n"
+"འཐུས་མི་ཞུན་དག་མི་བཏུབ་པས།"
+
+#: ../storage/exchange-delegates.c:267
+msgid ""
+"Could not determine folder permissions for delegates.\n"
+"Unable to edit delegates."
+msgstr ""
+"འཐུས་མིའི་དོན་ལུ་ ཡིག་སྣོད་ཀྱི་གནང་བ་ ངོས་འཛིན་འབད་མ་ཚུགས། \n"
+"འཐུས་མི་ཞུན་དག་འབད་མི་བཏུབ་པས།"
+
+#: ../storage/exchange-delegates.c:419
+msgid "Delegate To:"
+msgstr " བགོ་སྤེལ་འབད་ཡུལ:།"
+
+#: ../storage/exchange-delegates.c:419
+msgid "Delegate To"
+msgstr "བགོ་སྤེལ་འབད་ཡུལ:།"
+
+#: ../storage/exchange-delegates.c:435
+#, c-format
+msgid "Could not make %s a delegate"
+msgstr "%sདེ འཐུས་མི་ཅིག་སྦེ་ བཟོ་མ་ཚུགས།"
+
+#: ../storage/exchange-delegates.c:445
+msgid "You cannot make yourself your own delegate"
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རང་ ཁྱོད་རའི་འཐུས་མི་སྦེ་ བཟོ་མི་ཚུགས།"
+
+#: ../storage/exchange-delegates.c:454
+#, c-format
+msgid "%s is already a delegate"
+msgstr "%sདེ་ ཧེ་མ་ལས་རང་ འཐུས་མི་ཅིག་ཨིན་པས།"
+
+#: ../storage/exchange-delegates.c:563
+#, c-format
+msgid "Remove the delegate %s?"
+msgstr "འཐུས་མི་%sདེ་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: ../storage/exchange-delegates.c:680
+msgid "Could not access Active Directory"
+msgstr "ཤུགས་ལྡན་སྣོད་ཐོ་ལུ་ འཛུལ་སྤྱོད་འབད་མ་ཚུགས།"
+
+#: ../storage/exchange-delegates.c:695
+msgid "Could not find self in Active Directory"
+msgstr "ཤུགས་ལྡན་སྣོད་ཐོ་ནང་ རང་ཉིད་འཚོལ་མ་འཐོབ།"
+
+#: ../storage/exchange-delegates.c:708
+#, c-format
+msgid "Could not find delegate %s in Active Directory"
+msgstr "ཤུགས་ལྡན་སྣོད་ཐོ་ནང་ འཐུས་མི་%sའཚོལ་མ་འཐོབ།"
+
+#: ../storage/exchange-delegates.c:720
+#, c-format
+msgid "Could not remove delegate %s"
+msgstr "འཐུས་མི་%sརྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../storage/exchange-delegates.c:780
+msgid "Could not update list of delegates."
+msgstr "འཐུས་མིའི་ཐོ་ཡིག་ དུས་མཐུན་བཟོ་མ་ཚུགས།"
+
+#: ../storage/exchange-delegates.c:798
+#, c-format
+msgid "Could not add delegate %s"
+msgstr "འཐུས་མི་%sལུ་ ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: ../storage/exchange-delegates.c:814
+#, c-format
+msgid ""
+"Failed to update delegates:\n"
+"%s"
+msgstr ""
+"འཐུས་མི་དུས་མཐུན་བཟོ་མ་ཚུགས།\n"
+"%s"
+
+#: ../storage/exchange-delegates.c:938
+#: ../storage/exchange-permissions-dialog.c:706
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../storage/exchange-delegates.c:967
+msgid "Error reading delegates list."
+msgstr "འཐུས་མིའི་ཐོ་ཡིག་ ལྷག་ནི་ལུ་འཛོལ་བ།"
+
+#: ../storage/exchange-delegates.glade.h:1
+msgid "Author (read, create)"
+msgstr "རྩོམ་པ་པོ། (ལྷག་/གསར་བསྐྲུན་འབད)"
+
+#: ../storage/exchange-delegates.glade.h:2
+msgid "C_alendar:"
+msgstr "ཟླ་ཐོ།(_a)"
+
+#: ../storage/exchange-delegates.glade.h:3
+msgid "Co_ntacts:"
+msgstr "འབྲེལ་ས། (_n)"
+
+#: ../storage/exchange-delegates.glade.h:4
+msgid "Delegate Permissions"
+msgstr "གནང་བ་བགོ་སྤེལ་འབད།"
+
+#: ../storage/exchange-delegates.glade.h:5
+msgid "Delegates"
+msgstr "འཐུས་མི་ཚུ།"
+
+#: ../storage/exchange-delegates.glade.h:6
+msgid "Editor (read, create, edit)"
+msgstr "ཞུན་དགཔ། (ལྷག་ གསར་བསྐྲུན་འབད་ ཞུན་དག་འབད)"
+
+#: ../storage/exchange-delegates.glade.h:8
+msgid "Permissions for"
+msgstr "དོན་ལུ་གནང་བ།"
+
+#: ../storage/exchange-delegates.glade.h:9
+msgid "Reviewer (read-only)"
+msgstr "བསྐྱར་ཞིབ་འབད་མི། (ལྷག་ནི་རྐྱངམ་གཅིག)"
+
+#: ../storage/exchange-delegates.glade.h:10
+msgid ""
+"These users will be able to send mail on your behalf\n"
+"and access your folders with the permissions you give them."
+msgstr ""
+"ལག་ལེན་པ་འདི་ཚུ་གིས་ ཁྱོད་ཀྱི་ཚབ་ལུ\n"
+" ཡིག་འཕྲིནགཏང་ཚུགསཔ་མ་ཚད་ ཁྱོད་ཀྱིས་བྱིན་མི་ གནང་བ་ཚུ་གིས་ཐོག་ལས་ ཁྱོད་ཀྱི་སྣོད་འཛིན་ལུ་ཡང་ འཛུལ་སྤྱོད་འབད་ཚུགས།"
+
+#: ../storage/exchange-delegates.glade.h:12
+msgid "_Delegate can see private items"
+msgstr "འཐུས་མི་ཚུ་གིས་ སྒེར་གྱི་རྣམ་གྲངས་ཚུ་ལུ་བལྟ་ཚུགས། (_D)"
+
+#: ../storage/exchange-delegates.glade.h:13
+msgid "_Edit"
+msgstr "ཞུན་དག་རྐྱབས། (_E)"
+
+#: ../storage/exchange-delegates.glade.h:14
+msgid "_Inbox:"
+msgstr "ཨིན་བོགསི་: (_I)"
+
+#: ../storage/exchange-delegates.glade.h:15
+msgid "_Tasks:"
+msgstr "ལས་ཀ་: (_T)"
+
+#: ../storage/exchange-folder-size.c:322
+msgid "Folder Name"
+msgstr "སྣོད་འཛིན་གྱི་མིང་།"
+
+#: ../storage/exchange-folder-size.c:326
+msgid "Folder Size"
+msgstr "སྣོད་འཛིན་གྱི་ཚད།"
+
+#: ../storage/exchange-folder-tree.glade.h:1
+msgid "Exchange Folder Tree"
+msgstr "ཨེགསི་ཅེནཇི་སྣོད་འཛིན་གྱི་ རྩ་འབྲེལ།"
+
+#: ../storage/exchange-hierarchy-foreign.c:250
+msgid "Calendar"
+msgstr "ཟླ་ཐོ།"
+
+#: ../storage/exchange-hierarchy-foreign.c:251
+msgid "Contacts"
+msgstr "འབྲེལ་ས།"
+
+#: ../storage/exchange-hierarchy-foreign.c:252
+msgid "Deleted Items"
+msgstr "བཏོན་བཏང་བའི་རྣམ་གྲངས།"
+
+#: ../storage/exchange-hierarchy-foreign.c:253
+msgid "Drafts"
+msgstr "ཟིན་བྲིས།"
+
+#: ../storage/exchange-hierarchy-foreign.c:254
+msgid "Inbox"
+msgstr "ཨིན་བོགསི། "
+
+#: ../storage/exchange-hierarchy-foreign.c:255
+msgid "Journal"
+msgstr "གསར་དེབ།"
+
+#: ../storage/exchange-hierarchy-foreign.c:256
+msgid "Notes"
+msgstr "དྲན་འཛིན།"
+
+#: ../storage/exchange-hierarchy-foreign.c:257
+msgid "Outbox"
+msgstr "ཨའུཊི་བོགསི"
+
+#: ../storage/exchange-hierarchy-foreign.c:258
+msgid "Sent Items"
+msgstr "བཏང་ཚར་བའི་རྣམ་གྲངས།"
+
+#: ../storage/exchange-hierarchy-foreign.c:259
+msgid "Tasks"
+msgstr "ལས་ཀ།"
+
+#: ../storage/exchange-migrate.c:57
+msgid "Migrating Exchange Folders..."
+msgstr "གནས་སྤོ་འགྱོ་བའི་བསྒང་གི་ ཨེགསི་ཅེནཇི་ སྣོད་འཛིན།"
+
+#: ../storage/exchange-migrate.c:65
+#, c-format
+msgid ""
+"The location and hierarchy of the Evolution exchange account folders are changed since Evolution %d.%d.%d.\n"
+"\n"
+"Please be patient while Evolution migrates your folders..."
+msgstr ""
+"ཨི་བོ་ལུ་ཤཱན་%d.%d.%d བྱུངམ་ལས་ཚུར་ ཨི་བོ་ལུ་ཤཱན་ཨེགསི་ཅེནཇི་གི་ རྩིས་ཐོའི་སྣོད་འཛིན་ཚུ་གི་ གནས་ཁོངས་དང་ སྡེ་རིམ་ཚུ་ གྱུར་ཡར་སོ་ནུག\n"
+"\n"
+"ཨི་བོ་ལུ་ཤཱན་གྱིས་ ཁྱོད་རའི་སྣོད་འཛིན་ཚུ་ གནས་སྤོ་འབད་བའི་རིང་ བཟོད་པ་བསྒོམ་གནང་།"
+
+#: ../storage/exchange-migrate.c:98
+#, c-format
+msgid ""
+"Warning: Evolution Could not migrate all the Exchange account data from the version %d.%d.%d. \n"
+"The data hasn't been deleted, but will not be seen by this version of Evolution"
+msgstr ""
+"ཉེན་བརྡ: ཨི་བོ་ལུ་ཤཱན་གྱིས་ ཐོན་རིམ་%d.%d.%dནང་ལས་ཨེགསི་ཅེནཇི་རྩིས་ཐོའི་གནད་སྡུད་ཆ་མཉམ་ གནས་སྤོ་འབད་མ་ཚུགས།\n"
+"གནད་སྡུད་དེ་ བཏོན་བ་བཏང་པས་ དེ་འབདཝ་ད་ ཨི་བོ་ལུ་ཤཱན་ ཐོན་རིམ་འདི་གིས་ མཐོང་མི་ཚུགས།"
+
+#: ../storage/exchange-migrate.c:129
+#, c-format
+msgid "Migrating `%s':"
+msgstr "`%s':གནས་སྤོ་འབད་དོ།"
+
+#: ../storage/exchange-oof.c:199
+#: ../storage/exchange-oof.c:406
+msgid "Could not update out-of-office state"
+msgstr "ཡིག་ཚང་གི་ཕྱི་ཁའི་གནས་ལུགས་ དུས་མཐུན་བཟོ་མ་ཚུགས"
+
+#: ../storage/exchange-oof.c:424
+msgid "Could not read out-of-office state"
+msgstr "ཡིག་ཚང་གི་ཕྱི་ཁའི་གནས་ལུགས་ ལྷག་མ་ཚུགས།"
+
+#: ../storage/exchange-oof.glade.h:1
+msgid ""
+"<b>Currently, your status is \"Out of the Office\". </b>\n"
+"\n"
+"Would you like to change your status to \"In the Office\"? "
+msgstr ""
+"<b>ད་ལྟོ་ ཁྱོད་ཀྱི་གནས་ཚད་དེ་ \"Out of the Office\" ཨིན་པས། </b>\n"
+"\n"
+"ཁྱོད་ཀྱི་གནས་ཚད་དེ་ \"In the Office\" བཟོ་ནི་ཨིན་ན?"
+
+#: ../storage/exchange-oof.glade.h:4
+msgid "<b>Out of Office Message:</b>"
+msgstr "<b>ཡིག་ཚང་ཕྱི་ཁའི་འཕྲིན་དོན།</b>"
+
+#: ../storage/exchange-oof.glade.h:5
+msgid "<b>Status:</b>"
+msgstr "<b>གནས་ཚད:</b>"
+
+#: ../storage/exchange-oof.glade.h:6
+msgid ""
+"<small>The message specified below will be automatically sent to each person who sends\n"
+"mail to you while you are out of the office.</small>"
+msgstr ""
+"<small> འོག་ལུ་གསལ་བཀོད་འབད་མི་ འཕྲིན་དོན་དེ་ ཁྱོད་རང་ཡིག་ཚང་གི་ཕྱི་ཁར་ཨིན་པའི་ འཕྲིན་དོན་གཏང་མི་\n"
+" རེ་རེ་བཞིན་དུ་ལུ་ རང་བཞིན་གྱིས་གཏང་འོང་།<small>"
+
+#: ../storage/exchange-oof.glade.h:8
+msgid "I am currently in the office"
+msgstr "ད་ལྟོ་ང་ ཡིག་ཚང་ནང་ཨིན།"
+
+#: ../storage/exchange-oof.glade.h:9
+msgid "I am currently out of the office"
+msgstr "ད་ལྟོ་ང་ ཡིག་ཚང་གི་ཕྱི་ཁར་ཨིན།"
+
+#: ../storage/exchange-oof.glade.h:10
+msgid "No, Don't Change Status"
+msgstr "མེན། གནས་ཚད་བསྒྱུར་བཅོས་མ་འབད།"
+
+#: ../storage/exchange-oof.glade.h:11
+msgid "Out of Office Assistant"
+msgstr "ཡིག་ཚང་ལས་རོགས་པའི་ཕྱི་ཁར།"
+
+#: ../storage/exchange-oof.glade.h:12
+msgid "Yes, Change Status"
+msgstr "ཨིན། གནས་ཚད་བསྒྱུར་བཅོས་འབད།"
+
+#: ../storage/exchange-passwd-expiry.glade.h:1
+msgid "Password Expiry Warning..."
+msgstr "ཆོག་ཡིག་ དུས་ཡོལ་གྱི་ཉེན་བརྡ་..."
+
+#: ../storage/exchange-passwd-expiry.glade.h:2
+msgid "Your password will expire in 7 days..."
+msgstr "ཁྱོད་ཀྱི་ཆོག་ཡིག་དེ་ ཉིནམ་བདུན་གྱི་ནང་འཁོད་ དུས་ཡོལ་འགྱོ་འོང་།།"
+
+#: ../storage/exchange-passwd-expiry.glade.h:3
+msgid "_Change Password"
+msgstr "ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད། (_C)"
+
+#: ../storage/exchange-passwd-expiry.glade.h:4
+msgid "ok_button"
+msgstr "བཏུབ་པའི་ཨེབ་རྟ། (_b)"
+
+#: ../storage/exchange-permissions-dialog.c:222
+msgid "Could not read folder permissions"
+msgstr "སྣོད་འཛིན་གྱི་གནང་བ་ཚུ་ ལྷག་མ་ཚུགས།"
+
+#: ../storage/exchange-permissions-dialog.c:264
+msgid "Could not update folder permissions."
+msgstr "ཡིག་སྣོད་ཀྱི་གནང་བ་ཚུ་ དུས་མཐུན་བཟོ་མ་ཚུགས།"
+
+#: ../storage/exchange-permissions-dialog.c:293
+#, c-format
+msgid "Could not update folder permissions. %s"
+msgstr "ཡིག་སྣོད་ཀྱི་གནང་བ་ཚུ་ དུས་མཐུན་བཟོ་མ་ཚུགས།%s"
+
+#: ../storage/exchange-permissions-dialog.c:295
+msgid "(Permission denied.)"
+msgstr "གནང་བ་མི་བྱིན་པས།"
+
+#: ../storage/exchange-permissions-dialog.c:396
+msgid ""
+"Unable to add user to access control list:\n"
+"No Global Catalog server is configured for this account."
+msgstr ""
+"ཚད་འཛིན་ཐོ་ཡིག་ནང་ འཛུལ་སྤྱོད་འབད་ནི་ལུ་ ལག་ལེན་པ་ ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།\n"
+"རྩིས་ཐོ་འདི་གི་དོན་ལུ་ སྤྱི་ཁྱབ་ཐོ་གཞུང་སར་བར་ རིམ་སྒྲིག་མ་འབད་བས།"
+
+#: ../storage/exchange-permissions-dialog.c:402
+msgid "Add User:"
+msgstr "ལག་ལེན་པ་ཁ་སྐོང་རྐྱབས་:།"
+
+#: ../storage/exchange-permissions-dialog.c:402
+msgid "Add User"
+msgstr "ལག་ལེན་པ་ཁ་སྐོང་རྐྱབས།"
+
+#: ../storage/exchange-permissions-dialog.c:421
+#, c-format
+msgid "No such user %s"
+msgstr "ལག་ལེན་པ་%s བཟུམ་མིན་འདུག"
+
+#: ../storage/exchange-permissions-dialog.c:425
+#, c-format
+msgid "%s cannot be added to an access control list"
+msgstr "%s དེ་ འཛུལ་སྤྱོད་ཚད་འཛིན་ཐོ་ཡིག་ལུ་ ཁ་སྐོང་བརྐྱབ་མི་བཏུབ་པས།"
+
+#: ../storage/exchange-permissions-dialog.c:430
+#, c-format
+msgid "Unknown error looking up %s"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་གིས་%s འཚོལ་དོ།"
+
+#: ../storage/exchange-permissions-dialog.c:447
+#, c-format
+msgid "%s is already in the list"
+msgstr "%s དེ་ ཧེ་མ་ལས་རང་ ཐོ་ཡིག་ནང་འདུག"
+
+#: ../storage/exchange-permissions-dialog.c:710
+msgid "Role"
+msgstr "ལས་འགན།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:1
+msgid "    "
+msgstr "   "
+
+#: ../storage/exchange-permissions-dialog.glade.h:2
+msgid "<b>Permissions</b>"
+msgstr "<b>གནང་བ།</b>"
+
+#: ../storage/exchange-permissions-dialog.glade.h:3
+msgid "Cannot Delete"
+msgstr "བཏོན་གཏང་མི་ཚུགས། "
+
+#: ../storage/exchange-permissions-dialog.glade.h:4
+msgid "Cannot Edit"
+msgstr "ཞུན་དག་འབད་མི་ཚུགས།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:5
+msgid "Create items"
+msgstr "རྣམ་གྲངས་གསར་བསྐྲུན་འབད།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:6
+msgid "Create subfolders"
+msgstr "སྣོད་འཛིན་ཡན་ལག་ གསར་བསྐྲུན་འབད"
+
+#: ../storage/exchange-permissions-dialog.glade.h:7
+msgid "Delete Any Items"
+msgstr "རྣམ་གྲངས་ག་ཅི་ཨིན་རུང་ བཏོན་གཏང་།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:8
+msgid "Delete Own Items"
+msgstr "རང་གི་རྣམ་གྲངས་ཚུ་ བཏོན་གཏང་།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:9
+msgid "Edit Any Items"
+msgstr "རྣམ་གྲངས་ག་ཅི་ཨིན་རུང་ ཞུན་དག་རྐྱབས།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:10
+msgid "Edit Own Items"
+msgstr "རང་གི་རྣམ་གྲངས་ཚུ་ཞུན་དག་རྐྱབས།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:11
+msgid "Folder contact"
+msgstr "སྣོད་འཛིན་གྱི་འབྲེལ་ས།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:12
+msgid "Folder owner"
+msgstr "སྣོད་འཛིན་གྱི་བདག་པོ།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:13
+msgid "Folder visible"
+msgstr "སྣོད་འཛིན་མཐོང་ཚུགས་པས།"
+
+#: ../storage/exchange-permissions-dialog.glade.h:14
+msgid "Read items"
+msgstr "རྣམ་གྲངས་ཚུ་ལྷག"
+
+#: ../storage/exchange-permissions-dialog.glade.h:15
+msgid "Role: "
+msgstr "ལས་འགན།"
+
+#: ../storage/exchange-storage.c:338
+msgid "Connecting..."
+msgstr "མཐུད་དོ...།"
+
+#: ../storage/main.c:164
+msgid "Ximian Connector for Microsoft Exchange"
+msgstr "མའི་ཀོརོ་སོཕཊི་ ཨེགསི་ཅེནཇི་གི་དོན་ལུ་ ཟི་མི་ཡཱན་མཐུད་བྱེད།"
+
+#: ../storage/xc-backend-view.c:299
+msgid "Account Name"
+msgstr "རྩིས་ཐོའི་མིང་།"
+
+#: ../storage/xc-commands.c:316
+msgid "Folder does not exist"
+msgstr "སྣོད་འཛིན་གནས་ཏེ་མིན་འདུག"
+
+#: ../storage/xc-commands.c:343
+#, c-format
+msgid "Could not add favorite: %s"
+msgstr "དགའ་མི་:%sཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: ../storage/xc-commands.c:359
+#, c-format
+msgid "Could not remove favorite: %s"
+msgstr "དགའ་མི་:%sརྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#.
+#. FIXME: See 62440
+#. E_POPUP_ITEM (N_("_Move Folder..."),
+#. G_CALLBACK (do_move_folder),
+#. XC_FOLDER_COMMAND_MASK_MOVECOPY),
+#. E_POPUP_ITEM (N_("_Copy Folder..."),
+#. G_CALLBACK (do_copy_folder),
+#. XC_FOLDER_COMMAND_MASK_MOVECOPY),
+#.
+#: ../storage/xc-commands.c:385
+msgid "_Rename Folder..."
+msgstr "སྣོད་འཛིན་ལུ་ བསྐྱར་མིང་བཏགས། (_R)"
+
+#: ../storage/xc-commands.c:391
+msgid "_New Folder..."
+msgstr "སྣོད་འཛིན་གསརཔ་... _N)"
+
+#: ../storage/xc-commands.c:394
+msgid "_Delete Folder"
+msgstr "སྣོད་འཛིན་བཏོན་གཏང་། (_D)"
+
+#: ../storage/xc-commands.c:399
+msgid "_Add Other User's Folder..."
+msgstr "ལག་ལེན་པ་གཞན་གྱི་ སྣོད་འཛིན་བསྡོམས། (_A)"
+
+#: ../storage/xc-commands.c:402
+msgid "_Remove Other User's Folder"
+msgstr "ལག་ལེན་པ་གཞན་གྱི་ སྣོད་འཛིན་རྩ་བསྐྲད་གཏང་། (R)"
+
+#: ../storage/xc-commands.c:408
+msgid "Add to _Favorites"
+msgstr "དགའ་མི་ལུ་ ཁ་སྐོང་རྐྱབས། (F)"
+
+#: ../storage/xc-commands.c:412
+msgid "Remove from Fa_vorites"
+msgstr "དགའ་མི་ལས་ རྩ་བསྐྲད་གཏང་། (_v)"
+
+#.
+#. E_POPUP_ITEM (N_("_Permissions..."),
+#. G_CALLBACK (do_permissions),
+#. XC_FOLDER_COMMAND_MASK_PERMISSIONS),
+#.
+#: ../storage/xc-commands.c:423
+msgid "_Show Folder Sizes"
+msgstr "སྣོད་འཛིན་གྱི་ཚད་ཚུ་སྟོན། (_S)"
+
+#: ../storage/ximian-connector-setup.c:44
+msgid "Ximian Connector for Microsoft Exchange Setup Tool"
+msgstr "མའི་ཀོརོ་སོཕཊི་ ཨེགསི་ཅེནཇི་གཞི་སྒྲིག་ལག་ཆས་ཀྱི་དོན་ལུ་ ཟི་མི་ཡཱན་མཐུད་བྱེད།"
+
+#: ../storage/ximian-connector.xml.h:1
+msgid "Change your Exchange server password"
+msgstr "ཁྱོད་ཀྱི་ ཨེགསི་ཅེནཇི་སར་བར་ཆོག་ཡིག་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../storage/ximian-connector.xml.h:2
+msgid "Folder _Size"
+msgstr "སྣོད་འཛིན་གྱི་ཚད། (_S)"
+
+#: ../storage/ximian-connector.xml.h:3
+msgid "Get the size of personal folders"
+msgstr "རང་དོན་སྣོད་འཛིན་གྱི་ཚད་ལེན།"
+
+#: ../storage/ximian-connector.xml.h:4
+msgid "Subscribe to _Other User's Folder..."
+msgstr "ལག་ལེན་པ་གཞན་གྱི་སྣོད་འཛིན་ལུ་ མཁོ་མངགས་འབད། (_O)"
+
+#: ../storage/ximian-connector.xml.h:5
+msgid "Subscribe to a folder belonging to some other user on the server"
+msgstr "སར་བར་ནང་ ལག་ལེན་པ་གཞན་གྱི་ སྣོད་འཛིན་ཅིག་ལུ་ མཁོ་མངགས་འབད།"
+
+#: ../storage/ximian-connector.xml.h:6
+msgid "Unsubscribe from a folder added with \"Subscribe to Other User's Folder\""
+msgstr "\"Subscribe to Other User's Folder\"་ལུ་ མཁོ་མངགས་འབད་དེ་ཡོད་མི་ སྣོད་འཛིན་ནང་ལས་ མངགས་བཤོལ་འབད།"
+
+#: ../storage/ximian-connector.xml.h:7
+msgid "View or change your Exchange calendar delegation settings"
+msgstr "ཁྱོད་རའི་ཨེགསི་ཅེནཇི་གི་ ཟླ་ཐོ་བགོ་སྤེལ་སྒྲིག་སྟངས་ཚུ་ བལྟ་བའམ་བསྒྱུར་བཅོས་འབད།"
+
+#: ../storage/ximian-connector.xml.h:8
+msgid "View or change your Out-of-Office status and autoreply message"
+msgstr "ཁྱོད་རའི་ཡིག་ཚང་ཕྱི་ཁའི་གནས་ཚད་དང་ རང་བཞིན་ལན་གསལ་ འཕྲིན་དོན་དེ་ བལྟ་བའམ་བསྒྱུར་བཅོས་འབད།"
+
+#: ../storage/ximian-connector.xml.h:9
+msgid "_Change Exchange Password..."
+msgstr "ཨེགསི་ཅེནཇི་ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད། (_C)"
+
+#: ../storage/ximian-connector.xml.h:10
+msgid "_Delegation Assistant"
+msgstr "བགོ་སྤེལ་ལས་རོགས། (_D)"
+
+#: ../storage/ximian-connector.xml.h:11
+msgid "_Out of Office Assistant"
+msgstr "ཡིག་ཚང་ལས་རོགས་པའི་ཕྱི་ཁར། (_O)"
+
+#: ../storage/ximian-connector.xml.h:12
+msgid "_Unsubscribe from Other User's Folder"
+msgstr "ལག་ལེན་པ་གཞན་གྱི་སྣོད་འཛིན་ནང་ལས་ མངགས་བཤོལ་འབད། (_U)"
+
+#~ msgid "Folder not marked for offline support"
+#~ msgstr "ཨོཕ་ལ་ཡིན་ རྒྱབ་སྐྱོར་གྱི་དོན་ལུ་ སྣོད་འཛིན་ལུ་ རྟགས་མ་བཀལ་བས།"
+#~ msgid ""
+#~ "Ximian Connector requires access to certain functionality on the Exchange "
+#~ "Server that appears to be disabled or blocked.  (This is usually "
+#~ "unintentional.)  Your Exchange Administrator will need to enable this "
+#~ "functionality in order for you to be able to use Ximian Connector.\n"
+#~ "\n"
+#~ "For information to provide to your Exchange administrator, please follow "
+#~ "the link below:\n"
+#~ "http://support.novell.com/cgi-bin/search/searchtid.cgi?/ximian/ximian328."
+#~ "html "
+#~ msgstr ""
+#~ "ཨེགསི་ཅེནཇི་སར་བར་ནང་ ཟི་མི་ཡཱན་མཐུད་བྱེད་དེ་ ལྕོགས་མིན་ཐལ་སོང་བའམ་ འགགས་སོངམ་བཟུམ་ཅིག་ཡོདཔ་"
+#~ "ལས་ བྱ་བ་ལ་ལོ་ཅིག་ལུ་ འཛུལ་སྤྱོད་དགོཔ་འདུག (འདི་སྤྱིར་བཏང་ལུ་དོན་ཅན་སྦེ་ འབད་འབདཝ་མེན) ཟི་མི་"
+#~ "ཡཱན་མཐུད་བྱེད་ ལག་ལེན་འཐབ་ཚུགསཔ་ བཟོ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱི་ཨེགསི་ཅེནཇི་བདག་སྐྱོང་པ་གིས་ བྱ་བ་འདི་"
+#~ "ལྕོགས་ཅན་བཟོ་དགོ .\n"
+#~ "\"\"\n"
+#~ "\"ཁྱོད་རའི་ཨེགསི་ཅནཇི་བདག་སྐྱོང་པ་ལུ་ བརྡ་དོན་བྱིན་ནིའི་དོན་ལུ་ འོག་གི་འབྲེལ་ལམ་དང་འཁྲིལ།:\n"
+#~ " ཨེཆ་ཊི་ཨེམ་ཨེལ་://ས་པོཊི.ནོ་བལ་.ཀོམ་/སི་ཇི་ཨའི་-བིན/འཚོལ་ཞིབ/སརཆི་ཊིཌི་.སི་ཇི་ཨའི? ཟི་མིཡཱན་/ཟི་"
+#~ "མི་ཡཱན་༣༢༨། ཨེཆ་ཊི་ཨེམ་ཨེལ།"
+#~ msgid "*Control*F5"
+#~ msgstr "*ཚད་འཛིན་*ཨེཕ་༥།"
+#~ msgid "Evolution Exchange Component"
+#~ msgstr "ཨི་བོ་ལུ་ཤཱན་ཨེགསི་ཅེནཇི་གྱི་ཆ་ཤས།"
+#~ msgid "Exchange"
+#~ msgstr "ཨེགསི་ཅེནཇི།"
+#~ msgid "_Exchange"
+#~ msgstr "ཨེགསི་ཅེནཇི། (_E)"
+#~ msgid "Mail"
+#~ msgstr "ཡིག་འཕྲིན།"
+#~ msgid ""
+#~ "Changes to Exchange account configuration will take\n"
+#~ "place after you quit and restart Evolution."
+#~ msgstr ""
+#~ "ཨི་བོ་ལུ་ཤཱན་ སྤང་ཞིནམ་ལས་ ལོག་འགོ་བཙུགསཔ་ད་ ཨེགསི་ཅེནཇི་རྩིས་ཐོའི་རིམ་སྒྲིག་ལུ་ \n"
+#~ "བསྒྱུར་བཅོས་ཚུ་འབད་འོང་།"
+#~ msgid "The Exchange account will be removed when you quit Evolution"
+#~ msgstr "ཁྱོད་ཀྱིས་ ཨི་བོ་ལུ་ཤཱན་སྤངམ་ད་ ཨེགསི་ཅེནཇི་རྩིས་ཐོ་དེ་ རྩ་བསྐྲད་འགྱོ་འོང་།"
+#~ msgid "_Permissions..."
+#~ msgstr "གནང་བ་ཚུ། (_P)"
+

@@ -1,0 +1,472 @@
+# LANGUAGE translation of Drupal (modules/comment.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: comment.module,v 1.455.2.2 2006/05/23 09:51:18 killes
+# yangka <yanang_ka@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: comment\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-27 03:19+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/comment.module:73
+msgid "The comment module creates a discussion board for each post. Users can post comments to discuss a forum topic, weblog post, story, collaborative book page, etc. The ability to comment is an important part of involving members in a community dialogue."
+msgstr "བསམ་བཀོད་ཚད་གཞི་འདི་གིས་གནས་བསྐྱོད་རེ་རེའི་དོན་ལུ་གྲོས་གཞི་རྩེད་པང་ཅིག་གསར་བསྐྲུན་འབདཝ་ཨིན། ལག་ལེན་པ་ཚུ་གིས་གྲོས་གནས་དོན་ཚན་ཅིག་གྲོས་བསྡུར་འབད་ནི་ལུ་ ཝེབ་དྲན་དེབ་གནས་བསྐྱོད་ གཏམ་རྒྱུད་་ཤོག་དེབ་མཉམ་རུབ་སོགས་བསམ་བཀོད་ཚུ་གནས་བསྐྱོད་འབད་བཏུབ། ལྕོགས་གྲུབ་ཅན་བསམ་བཀོད་ནི་འདི་མི་སྡེའི་ཌའི་ལོག་ཅིག་ནང་འབྲེལ་བ་ཡོད་པའི་འཐུས་མི་གི་གལ་ཅན་ཅིག་ཨིན།"
+
+#: modules/comment.module:74
+msgid "An administrator can give comment permissions to user groups, and users can (optionally) edit their last comment, assuming no others have been posted since.  Attached to each comment board is a control panel for customizing the way that comments are displayed. Users can control the chronological ordering of posts (newest or oldest first) and the number of posts to display on each page.  Comments behave like other user submissions. Filters, smileys and HTML that work in nodes will also work with comments. The comment module provides specific features to inform site members when new comments have been posted."
+msgstr "བདག་སྐྱོང་པ་ཅིག་གིས་ལག་ལེན་པ་སྡེ་ཚན་ཚུ་ལུ་བསམ་བཀོད་གནང་བ་ཚུ་བྱིན་བཏུབ་དང་ལག་ལེན་པ་ཚུ་གིས་(གདམ་ཁ་ཅན)ཁོང་རའི་མཇུག་གི་བསམ་བཀོད་འདི་གཞན་ག་གིས་ཡང་གནས་བསྐྱོད་མ་འབད་བའི་བསམ་བློ་བསྐྱེད་འདི་ཞུན་དག་འབད་དགོ། བསམ་བཀོད་ཚུ་བཀྲམ་བཏོན་འབད་ནིའི་ཐབས་ལམ་སྲོལ་སྒྲིག་དོན་ལུ་ཚད་འཛིན་པེ་ནཱལ་འདི་བསམ་བཀོད་རེ་རེ་ལུ་སྦྱར་སྦྱརཝ་བའི་རྩེད་པང་ཨིན། ལག་ལེན་པ་ཚུ་གིས་གནས་བསྐྱོད་(གསརཔ་ཡང་ན་རྙིང་ཤོས)བྱུང་རིམ་རིག་པ་གི་གོ་རིམ་དང་ཤོག་ལེབ་རེ་རེ་གུ་བཀྲམ་བཏོད་འབད་ནི་གནས་བསྐྱོད་ཚུའི་ཨང་འདི་ཚད་འཛིན་འབད་བཏུབ་ཨིན། བསམ་བཀོད་ཚུ་གཞན་ལག་ལེན་པ་ཞུ་འབུལ་ཚུ་བཟུམ་སྦེ་བྱ་སྒྲིག་འབད་འོང་། ཚགས་མ་ཚུ་ སི་མི་ལི་ཚུ་དང་ཨེཆ་ཊི་ཨེམ་ཨེལ་མཐུད་མཚམས་ཚུ་དང་གཅིག་ཁར་ལཱ་འབད་མི་ཚུ་ཡང་བསམ་བཀོད་ཚུ་དང་གཅིག་ཁར་ལཱ་འབད་འོང་། བསམ་བཀོད་ཚད་གཞི་གིས་བསམ་བཀོད་གསརཔ་ཚུ་གནས་བསྐྱོད་འབད་ཡོད་པའི་སྐབས་ས་ཁོངས་འཐུས་མི་ཚུ་ལུ་དམིགས་བསལ་ཁྱད་རྣམ་ཚུའི་བརྡ་དོན་བྱིནམ་ཨིན།"
+
+#: modules/comment.module:75
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>control access for various comment module functions through access permissions <a href=\"%admin-access\">administer &gt;&gt; access control</a>.</li>\n"
+"<li>administer comments <a href=\"%admin-comment-configure\"> administer &gt;&gt; comments &gt;&gt; configure</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་</p>\n"
+"<ul>\n"
+"<li>བསམ་བཀོད་ཚད་གཞི་ལས་འགན་ཚུ་སྣ་ཚོགས་དོན་ལུ་འཛུལ་སྤྱོད་འབད་ནི་གནང་བ་ཚུ་བརྒྱུད་དེ་ <a href=\"%admin-access\">བདག་སྐྱོང་འཐབ་ནི་འཛུལ་སྤྱོད་འབད་ནི་ &gt;&gt; འཛུལ་སྤྱོད་འབད་ནི་ཚད་འཛིན་འཛུལ་སྤྱོད་འབད་བཏུབ་ཨིན།</a>.</li>\n"
+"<li>བདག་སྐྱོང་འཐབ་ནི་བསམ་བཀོད་ཚུ་ <a href=\"%admin-comment-configure\"> administer &gt;&gt; comments &gt;&gt; རིམ་སྒྲིག</a>.</li>\n"
+"</ul>\n"
+
+#: modules/comment.module:81
+msgid "For more information please read the configuration and customization handbook <a href=\"%comment\">Comment page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ <a href=\"%comment\">བསམ་བཀོད་ཤོག་ལེབ་འདི་ལྷག་གནང་།</a>"
+
+#: modules/comment.module:84
+msgid "Allows users to comment on and discuss published content."
+msgstr "ལག་ལེན་པ་ཚུ་ལུ་བསམ་བཀོད་དང་དཔེ་བསྐྲུན་འབད་ཡོད་མི་ནང་དོན་གྲོས་བསྡུར་འབད་བཅུགཔ་ཨིན།"
+
+#: modules/comment.module:87
+msgid "<p>Below is a list of the latest comments posted to your site. Click on a subject to see the comment, the author's name to edit the author's user information , \"edit\" to modify the text, and \"delete\" to remove their submission.</p>"
+msgstr "<p>འོག་ལུ་ཁྱོད་ཀྱི་ས་ཁོངས་ལུ་གནས་བསྐྱོད་འབད་ཡོད་མི་མཐའ་མཇུག་བསམ་བཀོད་ཚུ་གི་ཐོ་ཡིག་ཅིག་ཨིན། བསམ་བཀོད་བལྟ་ནིའི་དོན་ལུ་རྩོམ་པ་པོ་གི་མིང་རྩོམ་པ་པོ་གི་ལག་ལེན་པའི་བརྡ་དོན་ཞུན་དག་འབད་ནི་ལུ་ \"edit\" ཚིག་ཡིག་ལེགས་བཅོས་འབད་ནི་དང་ \"delete\" ཁོང་རའི་ཞུ་འབུལ་རྩ་བསྐྲད་གཏང་ནི་ལུ་དོན་ཚན་གུ་ཨེབ་གཏང་འབད།</p>"
+
+#: modules/comment.module:89
+msgid "<p>Below is a list of the comments posted to your site that need approval. To approve a comment, click on \"edit\" and then change its \"moderation status\" to Approved. Click on a subject to see the comment, the author's name to edit the author's user information, \"edit\" to modify the text, and \"delete\" to remove their submission.</p>"
+msgstr "<p>འོག་ལུ་འདི་ཁྱོད་རའི་ས་ཁོངས་ལུ་གནས་བསྐྱོད་ཡོད་མི་བསམ་བཀོད་ཚུ་་གནང་བ་དགོ་པའི་ཐོ་བཀོད་ཨིན།  བསམ་བཀོད་ཅིག་གནང་གནང་ནི་ལུ་ \"edit\" གུ་ཨེབ་གཏང་འབད་ནི་དང་འདིའི་ \"moderation status\" གནང་བ་གནང་ནི་ལུ་རན་ཚད་བསྒྱུར་་ནི་ལུ་ཨེབ་གཏང་འབད། བསམ་བཀོད་འདིའི་དོན་ཚན་བལྟ་ནི་ རྩོམ་པ་པོའི་མིང་རྩོམ་པ་པོའི་ལག་ལེན་པའི་བརད་དོན་ཞུན་དག་འབད་ནི་\"edit\"ཚིག་ཡིག་ལེགས་བཅོས་འབད་ནི་དང་ \"delete\" ཁོང་རའི་ཞུ་འབུལ་རྩ་བསྐྲད་གཏང་ནི་ལུ་ཨེབ་གཏང་འབད།</p>"
+
+#: modules/comment.module:92
+msgid "<p>Comments can be attached to any node, and their settings are below. The display comes in two types: a \"flat list\" where everything is flush to the left side, and comments come in chronological order, and a \"threaded list\" where replies to other comments are placed immediately below and slightly indented, forming an outline. They also come in two styles: \"expanded\", where you see both the title and the contents, and \"collapsed\" where you only see the title. Preview comment forces a user to look at their comment by clicking on a \"Preview\" button before they can actually add the comment.</p>"
+msgstr "<p>བསམ་བཀོད་ཚུ་ མཐུད་མཚམས་གང་རུང་ལུ་སྦྱར་བཏུབ་དང་འདིའི་སྒྲིག་སྟངས་ཚུ་འོག་ལུ་ཡོད། བཀྲམ་བཏོན་འདི་ཡང་དབྱེ་བ་གཉིས་འོངམ་ཨིན་: ཅིག་ \"flat list\" ཆ་མཉམ་གཡོན་ཕྱོགས་ལུ་ངོས་སྙོམས་ནི་དང་ བསམ་བཀོད་ཚུ་བྱུང་རིམ་རིག་པའི་གོ་རིམ་སྦེ་འོངམ་དང་ ཅིག་ \"threaded list\" བསམ་བཀོད་གཞན་ལུ་ལན་གསལ་ཚུ་དེ་འཕྲལ་ལས་འོག་ལུ་བཞགཔ་དང་དུམ་གྲ་ཅིག་འགོ་མཚམས་ཡོདཔ་་མཐའ་ཐིག་གྲུབ་འོངམ་ཨིན། དེ་ཚུ་ཡང་བཟོ་རྣམ་གཉིས་ནང་འོང་: \"expanded\" ཁྱོད་ཀྱིས་མགོ་མིང་དང་ནང་དོན་གཉིས་ཆ་རང་མཐོངམ་དང་  \"collapsed\" ཁྱོད་ཀྱིས་མགོ་མིང་རྐྱངམ་ཅིག་མཐོངམ་ཨིན།  སྔོན་ལྟ་བསམ་བཀོད་འདི་གིས་ལག་ལེན་པ་ལུ་ཁོང་རའི་བསམ་བཀོད་ \"Preview\" </p>ཨེབ་རྟ་ལུ་ཁོང་ར་བསམ་བཀོད་ཁ་སྐོང་མ་འབད་བའི་ཧེ་མ་ཨེབ་གཏང་འབད་ནི་བང་བཙོངམ་ཨིན།"
+
+#: modules/comment.module:104
+msgid "comments"
+msgstr "བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:114
+msgid "published comments"
+msgstr "དཔེ་བསྐྲུན་འབད་ཡོད་པའི་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:116
+msgid "approval queue"
+msgstr "གནང་བ་གནང་བའི་མི་གྲལ།"
+
+#: modules/comment.module:124
+msgid "delete comment"
+msgstr "བསམ་བཀོད་བཏོན་གཏང་།"
+
+#: modules/comment.module:128
+msgid "edit comment"
+msgstr "བསམ་བཀོད་ཞུན་དག"
+
+#: modules/comment.module:135
+msgid "reply to comment"
+msgstr "བསམ་བཀོད་ལུ་ལན་གསལ།"
+
+#: modules/comment.module:163;167
+msgid "Recent comments"
+msgstr "ད་ལྟོའི་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:198
+msgid "Jump to the first comment of this posting."
+msgstr "གནས་བསྐྱོད་འདིའི་བསམ་བཀོད་དང་པམ་འདི་ལུ་མཆོངས།"
+
+#: modules/comment.module:201
+msgid "Jump to the first new comment of this posting."
+msgstr "གནས་བསྐྱོད་འདིའི་བསམ་བཀོད་གསརཔ་དང་པམ་འདི་ལུ་མཆོངས།"
+
+#: modules/comment.module:207;223
+msgid "add new comment"
+msgstr "བསམ་བཀོད་གསརཔ་ཁ་སྐོང་།"
+
+#: modules/comment.module:207
+msgid "Add a new comment to this page."
+msgstr "ཤོག་ལེབ་འདི་ལུ་བསམ་བཀོད་གསརཔ་ཅིག་ཁ་སྐོང་།"
+
+#: modules/comment.module:223
+msgid "Share your thoughts and opinions related to this posting."
+msgstr "གནས་བསྐྱོད་འདི་དང་འབྲེལ་བའི་ཁྱོད་རའི་བསམ་འདོད་ཚུ་དང་བསམ་བློ་ཚུ་རུབ་སྤྱོད་འབད།"
+
+#: modules/comment.module:243
+msgid "Default comment setting"
+msgstr "སྔོན་སྒྲིག་བསམ་བཀོད་སྒྲིག་སྟངས།"
+
+#: modules/comment.module:243;259
+msgid "Read only"
+msgstr "ལྷག་ནི་ཙམ།"
+
+#: modules/comment.module:243;259
+msgid "Read/Write"
+msgstr "ལྷག/འབྲི།"
+
+#: modules/comment.module:243
+msgid "Users with the <em>administer comments</em> permission will be able to override this setting."
+msgstr "ལག་ལེན་པ་ཚུ་ <em>བདག་སྐྱོང་བསམ་བཀོད་ཚུའི་་</em>གནང་་བ་གཅིག་ཁར་སྒྲིག་སྟངས་འདི་མེདཔ་གཏང་ཚུགསཔ་ཨིན།"
+
+#: modules/comment.module:250;324
+msgid "Comment settings"
+msgstr "བསམ་བཀོད་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/comment.module:329
+msgid "Signature"
+msgstr "མིང་རྟགས།"
+
+#: modules/comment.module:331
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "ཁྱོད་ཀྱི་མིང་རྟགས་འདི་ཁྱོད་རའི་བསམ་བཀོད་ཚུའི་མཇུག་ལུ་མི་མང་སྦེ་བཀྲམ་བཏོན་འབད་འོང་།"
+
+#: modules/comment.module:347
+msgid "Viewing options"
+msgstr "གདམ་ཁ་མཐོང་སྣང་།"
+
+#: modules/comment.module:354
+msgid "Default display mode"
+msgstr "སྔོན་སྒྲིག་ཐབས་ལམ་བཀྲམ་བཏོན།"
+
+#: modules/comment.module:357
+msgid "The default view for comments. Expanded views display the body of the comment. Threaded views keep replies together."
+msgstr "བསམ་བཀོད་ཚུའི་དོན་ལུ་སྔོན་སྒྲིག་མཐོང་སྣང་། རྒྱ་འཕར་ཡོད་པའི་མཐོང་སྣང་ཚུ་གིས་བསམ་བཀོད་འདིའི་མ་གཟུགས་འདི་བཀྲམ་བཏོན་འབད་འོང་། ཐེ་རེཌི་ཡོད་མི་མཐོང་སྣང་ཚུ་གིས་ལན་གསལ་ཚུ་གཅིག་ཁར་བཞགཔ་ཨིན།"
+
+#: modules/comment.module:362
+msgid "Default display order"
+msgstr "སྔོན་སྒྲིག་བཀྲམ་བཏོན་རིམ་པ།"
+
+#: modules/comment.module:365
+msgid "The default sorting for new users and anonymous users while viewing comments. These users may change their view using the comment control panel. For registered users, this change is remembered as a persistent user preference."
+msgstr "བསམ་བཀོད་ཚུ་མཐོང་སྣང་སྐབས་ལག་ལེན་པ་ཚུ་གི་དོན་ལུ་མིང་མེད་དང་ལག་ལེན་པ་གསརཔ་ཚུ་དོན་ལུ་སྔོན་སྒྲིག་དབྱེ་སེལ་འབད་དོ། ལག་ལེན་པ་ཚུ་གིས་བསམ་བཀོད་ཚད་འཛིན་པེ་ནཱལ་ལག་ལེན་འཐབ་འདི་མཐོང་སྣང་བསྒྱུར་བཅོས་འབད་འོང་་། ཐོ་བཀོད་འབད་ཡོད་མི་ལག་ལེན་པ་ཚུའི་དོན་ལུ་བསྒྱུར་བཅོས་འདི་ལག་ལེན་པ་གི་དགའ་གདམ་ཨུ་ཚུགས་རྐྱབས་ཅིག་སྦེ་སེམས་ཁར་བཞག་ཡོདཔ་ཨིན།"
+
+#: modules/comment.module:370
+msgid "Default comments per page"
+msgstr "སྔོན་སྒྲིག་བསམ་བཀོད་ཚུ་ཤོག་ལེབ་རེ་རེ།"
+
+#: modules/comment.module:373
+msgid "Default number of comments for each page: more comments are distributed in several pages."
+msgstr "ཤོག་ལེབ་རེ་རེའི་དོན་ལུ་བསམ་བཀོད་ཀྱི་ཨང་སྔོན་སྒྲིག: བསམ་བཀོད་ཚུ་ཤོག་ལེབ་ཚུ་ལེ་ཤ་ར་ནང་བགོ་བཀྲམ་འབད་ཡོདཔ་ཨིན།"
+
+#: modules/comment.module:378
+msgid "Comment controls"
+msgstr "བསམ་བཀོད་ཚད་འཛིན་ཚུ།"
+
+#: modules/comment.module:381
+msgid "Display above the comments"
+msgstr "བསམ་བཀོད་ཚུའི་ལྟག་ལས་བཀྲམ་བཏོན་འབད།"
+
+#: modules/comment.module:382
+msgid "Display below the comments"
+msgstr "བསམ་བཀོད་ཚུའི་འོག་ལས་བཀྲམ་བཏོན་འབད།"
+
+#: modules/comment.module:383
+msgid "Display above and below the comments"
+msgstr "བསམ་བཀོད་ཚུའི་ལྟག་ལས་དང་འོག་ལས་བཀྲམ་བཏོན་འབད།"
+
+#: modules/comment.module:384
+msgid "Do not display"
+msgstr "བཀྲམ་བཏོན་མ་འབད།"
+
+#: modules/comment.module:385
+msgid "Position of the comment controls box.  The comment controls let the user change the default display mode and display order of comments."
+msgstr "བསམ་བཀོད་ཀྱི་གནས་ས་འདི་གིས་སྒྲོམ་ཚད་འཛིནམ་ཨིན། བསམ་བཀོད་ཚད་འཛིན་ཚུ་གིས་ལག་ལེན་པ་ལུ་སྔོན་སྒྲིག་བཀྲམ་བཏོན་ཐབས་ལམ་བསྒྱུར་བཅོས་འབད་ནི་དང་བསམ་བཀོད་ཚུ་གི་གོ་རིམ་བཀྲམ་བཏོན་འབད་བཅུགཔ་ཨིན།"
+
+#: modules/comment.module:390
+msgid "Posting settings"
+msgstr "གནས་བསྐྱོད་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/comment.module:397
+msgid "Anonymous commenting"
+msgstr "མིང་མེད་བསམ་བཀོད་འབད་དོ།"
+
+#: modules/comment.module:400
+msgid "Anonymous posters may not enter their contact information"
+msgstr "མིང་མེན་གནས་བསྐྱོད་ཚུ་གིས་ཡང་ཅིན་ཁོང་རའི་འབྲེལ་བ་འཐབ་ནི་བརྡ་དོན་འདི་མི་བཙུགསཔ་འོང་།"
+
+#: modules/comment.module:401
+msgid "Anonymous posters may leave their contact information"
+msgstr "མིང་མེད་གནས་བསྐྱོད་ཚུ་གིས་ཡང་ཅིན་ཁོང་རའི་འབྲེལ་འཐབ་ནི་བརྡ་དོན་བཀོ་བཞག་འོང་།"
+
+#: modules/comment.module:402
+msgid "Anonymous posters must leave their contact information"
+msgstr "མིང་མེད་གནས་བསྐྱོད་ཚུ་ཡང་ཅིན་ཁོང་རའི་འབྲེལ་འཐབ་ནི་བརྡ་དོན་བཞག་དགོཔ་འོང་།"
+
+#: modules/comment.module:403
+msgid "This option is enabled when anonymous users have permission to post comments on the <a href=\"%url\">permissions page</a>."
+msgstr "གདམ་ཁ་འདི་མིང་མེད་ལག་ལེན་པ་ཚུ་བསམ་བཀོད་ཚུ་གནས་བསྐྱོད་ལུ་ <a href=\"%url\">གནང་བ་ཚུ་ཤོག་ལེབ་ལུ་གནང་བ་ཡོདཔ་ལྕོགས་ཅན་ཡོདཔ་ཨིན།</a>"
+
+#: modules/comment.module:411
+msgid "Comment subject field"
+msgstr "བསམ་བཀོད་དོན་ཚན་ས་སྒོ།"
+
+#: modules/comment.module:414
+msgid "Can users provide a unique subject for their comments?"
+msgstr "ལག་ལེན་པ་ཚུ་གིས་ཁོང་རའི་བསམ་བཀོད་ཚུའི་དོན་ལུ་མཐུན་མོང་མ་ཡིན་པའི་དོན་ཚན་ཅིག་བྱིན་བཏུབ་ག?"
+
+#: modules/comment.module:419;480;1336;1342;1346;1367
+msgid "Preview comment"
+msgstr "སྔོན་ལྟ་བསམ་བཀོད།"
+
+#: modules/comment.module:426
+msgid "Location of comment submission form"
+msgstr "བསམ་བཀོད་ཞུ་འབུལ་འབྲི་ཤོག་གི་གནས་ཁོངས།"
+
+#: modules/comment.module:428
+msgid "Display on separate page"
+msgstr "ཤོག་ལེབ་སོ་སོ་གུ་བཀྲམ་བཏོན་འབད།"
+
+#: modules/comment.module:428
+msgid "Display below post or comments"
+msgstr "གནས་བསྐྱོད་ཡང་ན་བསམ་བཀོད་ཚུའི་འོག་ལུ་བཀྲམ་བཏོན་འབད།"
+
+#: modules/comment.module:485;521
+msgid "You are not authorized to post comments."
+msgstr "ཁྱོད་ལུ་བསམ་བཀོད་ཚུ་གནས་བསྐྱོད་ལུ་དབང་སྤྲོད་མེདཔ།"
+
+#: modules/comment.module:496;504
+msgid "The comment you are replying to does not exist."
+msgstr "ཁྱོད་ཀྱིས་ལན་གསལ་འབད་མི་བསམ་བཀོད་འདི་མེདཔ།"
+
+#: modules/comment.module:514
+msgid "This discussion is closed: you can't post new comments."
+msgstr "གྲོས་བསྡུར་འདི་ཁ་བསྡམ་ཡོདཔ: ཁྱོད་ཀྱིས་བསམ་བཀོད་གསརཔ་ཚུ་གནས་བསྐྱོད་འབད་མི་བཏུབ།"
+
+#: modules/comment.module:518
+msgid "Reply"
+msgstr "ལན་གསལ།"
+
+#: modules/comment.module:527
+msgid "You are not authorized to view comments."
+msgstr "ཁྱོད་ལུ་བསམ་བཀོད་ཚུ་མཐོང་སྣང་ལུ་དབང་སྤྲོད་མེདཔ།"
+
+#: modules/comment.module:552
+msgid "Comment: duplicate %subject."
+msgstr "བསམ་བཀོད:  %subject རྫུན་མ།"
+
+#: modules/comment.module:566;1014
+msgid "Comment: updated %subject."
+msgstr "བསམ་བཀོད:  %subject དུས་མཐུན་ཡོདཔ།"
+
+#: modules/comment.module:639
+msgid "Comment: added %subject."
+msgstr "བསམ་བཀོད:  %subject ཁ་སྐོང་ཡོདཔ།"
+
+#: modules/comment.module:648
+msgid "Your comment has been queued for moderation by site administrators and will be published after approval."
+msgstr "ཁྱོད་ཀྱི་བསམ་བཀོད་འདི་བདག་སྐྱོང་པ་ཚུའི་ས་ཁོངས་ཀྱིས་ལེགས་བཅོས་འབད་ནི་དོན་ལུ་མི་བྲལ་ཡོདཔ་དང་གནང་བ་གནང་བའི་ཤུལ་ལས་དཔེ་བསྐྲུན་འབད་འོང་།"
+
+#: modules/comment.module:657
+msgid "Comment: unauthorized comment submitted or comment submitted to a closed node %subject."
+msgstr "བསམ་བོཀད: མཐུད་མཚམས་ཁ་བསྡམ་ནི་ལུ་དབང་སྤྲོད་བཤོལ་བསམ་བཀོད་ཞུ་འབུལ་ཡོདཔ་ཡང་ན་བསམ་བཀོད་ཞུ་འབུ་ཡོདཔ %subject"
+
+#: modules/comment.module:671
+msgid "parent"
+msgstr "རྩ་ལག"
+
+#: modules/comment.module:678;684
+msgid "reply"
+msgstr "ལན་གསལ།"
+
+#: modules/comment.module:863
+msgid "Post new comment"
+msgstr "བསམ་བཀོད་གསརཔ་གནས་བསྐྱོད།"
+
+#: modules/comment.module:883
+msgid "Are you sure you want to delete the comment %title?"
+msgstr "ཁྱོད་ཀྱིས་བསམ་བཀོད་%title འདི་བཏོན་གཏང་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/comment.module:885
+msgid "Any replies to this comment will be lost. This action cannot be undone."
+msgstr "བསམ་བཀོད་འདི་ལུ་ལན་གསལ་ཚུ་གང་རུང་་བརླག་བསྟོར་ཞུགས་འོང་། བྱ་བ་འདི་འབད་བཤོལ་མི་བཏུབ།"
+
+#: modules/comment.module:890
+msgid "The comment no longer exists."
+msgstr "བསམ་བཀོད་འདི་མེདཔ་ཨིན།"
+
+#: modules/comment.module:906
+msgid "The comment and all its replies have been deleted."
+msgstr "བསམ་བཀོད་དང་འདིའི་ལན་གསལ་ཚུ་བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/comment.module:917;929
+msgid "Publish the selected comments"
+msgstr "སུལ་འཐུ་འབད་ཡོད་མི་བསམ་བཀོད་ཚུ་དཔེ་བསྐྲུན་འབད།"
+
+#: modules/comment.module:918;924;931
+msgid "Delete the selected comments"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་བསམ་བཀོད་ཚུ་བཏོན་གཏང་།"
+
+#: modules/comment.module:923;930
+msgid "Unpublish the selected comments"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་བསམ་བཀོད་ཚུ་དཔེ་བསྐྲུན་བཤོལ།"
+
+#: modules/comment.module:991
+msgid "Please select one or more comments to perform the update on."
+msgstr "དུས་མཐུན་བཟོ་ནི་གུ་ལཱ་འགན་གྲུབ་ནི་ལུ་བསམ་བཀོད་ཚུ་ཧེང་བཀེལ་ཡང་ན་གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: modules/comment.module:1037
+msgid "No comments available."
+msgstr "བསམ་བཀོད་ཚུ་ཐོབ་མ་ཚུགསཔ།"
+
+#: modules/comment.module:1071
+msgid "There do not appear to be any comments to delete or your selected comment was deleted by another administrator."
+msgstr "དེ་ནང་ བཏོན་གཏང་དགོ་པའི་བསམ་བཀོད་ག་ནི་ཡང་མ་འབྱུང་ ཡང་ན་ ཁྱོད་རའི་སེལ་འཐུ་འབད་ཡོད་པའི་བསམ་བཀོད་འདི་ བདག་སྐྱོང་པ་གཞན་ཅིག་གིས་ བཏོན་གཏང་ནུག"
+
+#: modules/comment.module:1076
+msgid "Are you sure you want to delete these comments and all their children?"
+msgstr "ཁྱོད་ཀྱིས་བསམ་བཀོད་དེ་ཚུ་དང་འདིའི་ཆ་་ལག་ཚུ་བཏོད་གཏང་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/comment.module:1078
+msgid "Delete comments"
+msgstr "བསམ་བཀོད་ཚུ་བཏོན་གཏང་།"
+
+#: modules/comment.module:1093
+msgid "The comments have been deleted."
+msgstr "བསམ་བཀོད་ཚུ་བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/comment.module:1170
+msgid "You have to specify a valid author."
+msgstr "ཁྱོད་ཀྱིས་རྩོམ་པ་པོ་ནུས་ཅན་ཅིག་གསལ་བཀོད་འབད་དགོ།"
+
+#: modules/comment.module:1180
+msgid "The name you used belongs to a registered user."
+msgstr "ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་ཡོད་མི་མིང་འདི་ཐོ་བཀོད་འབད་ཡོད་མི་ལག་ལེན་པ་ཅིག་ལུ་བངམ་ཨིན་མས།"
+
+#: modules/comment.module:1185
+msgid "You have to leave your name."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་མིང་བཀོ་བཞག"
+
+#: modules/comment.module:1190
+msgid "The e-mail address you specified is not valid."
+msgstr "ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་ཡོད་མི་གློག་རིག་ཁ་བྱང་འདི་ནུས་ཅན་མེན་པས།"
+
+#: modules/comment.module:1194
+msgid "You have to leave an e-mail address."
+msgstr "ཁྱོད་ཀྱི་གློག་རིག་ཁ་བྱང་ཅིག་བཞག་དགོ།"
+
+#: modules/comment.module:1199
+msgid "The URL of your homepage is not valid.  Remember that it must be fully qualified, i.e. of the form <code>http://example.com/directory</code>."
+msgstr "ཁྱོད་ཀྱི་ཡུ་ཨར་ཨེལ་ཁྱིམ་ཤོག་ལེབ་འདི་ནུས་ཅན་མེདཔ། འདི་ཡང་ཁྱད་ཆོས་ཚང་དགོཔ་སེམས་ཁར་བཞག་དགོཔ་ i.e. of the form <code>http://example.com/སྣོད་ཐོ</code>."
+
+#: modules/comment.module:1246
+msgid "Administration"
+msgstr "བདག་སྐྱོང་།"
+
+#: modules/comment.module:1289;1314;1321
+msgid "Homepage"
+msgstr "ཁྱིམ་ཤོག་ལེབ།"
+
+#: modules/comment.module:1298
+msgid "Not published"
+msgstr "དཔེ་བསྐྲུན་མ་འབདཝ།"
+
+#: modules/comment.module:1328
+msgid "Comment"
+msgstr "བསམ་བཀོད།"
+
+#: modules/comment.module:1342;1343
+msgid "Post comment"
+msgstr "བསམ་བཀོད་གནས་བསྐྱོད།"
+
+#: modules/comment.module:1501
+msgid "%a comments per page"
+msgstr "%a ཤོག་ལེབ་རེ་རེ་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:1510
+msgid "Save settings"
+msgstr "སྲུང་བཞག་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/comment.module:1521
+msgid "Select your preferred way to display the comments and click \"Save settings\" to activate your changes."
+msgstr "ཁྱོད་ཀྱིས་བསམ་བོཀད་ཚུ་བཀྲམ་བཏོན་འབད་ནི་ལུ་ཐབས་ལམ་དགའ་གདམ་སེལ་འཐུ་འབད་ནི་དང་ཁྱོད་རའི་བསྒྱུར་བཅོས་ཚུ་ཤུགས་ལྡན་བཟོ་ནི་ལུ་\"Save settings\"ཨེབ་གཏང་འབད།"
+
+#: modules/comment.module:1522
+msgid "Comment viewing options"
+msgstr "བསམ་བཀོད་མཐོང་སྣང་གདམ་ཁ་ཚུ།"
+
+#: modules/comment.module:1545
+msgid "by %a on %b"
+msgstr " %a གིས་ %bགུ།"
+
+#: modules/comment.module:1555
+msgid "by"
+msgstr "གིས།"
+
+#: modules/comment.module:1593
+msgid "you can't post comments"
+msgstr "ཁྱོད་ཀྱིས་བསམ་བཀོད་ཚུ་གནས་བསྐྱོད་མི་བཏུབ།"
+
+#: modules/comment.module:1605
+msgid "<a href=\"%login\">login</a> or <a href=\"%register\">register</a> to post comments"
+msgstr "<a href=\"%login\">ནང་བསྐྱོད་</a> ཡང་ན་ <a href=\"%register\">ཐཅ་འགོད་</a> ལུ་གནས་བསྐྱོད་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:1608
+msgid "<a href=\"%login\">login</a> to post comments"
+msgstr "<a href=\"%login\">login</a> གནས་བསྐྱོད་བསམ་བཀོད་ཚུ་ལུ།"
+
+#: modules/comment.module:1615
+msgid "Can not delete non-existent comment."
+msgstr "མེད་པའི་བསམ་བཀོད་འདི་ བཏོན་གཏང་མི་ཚུགས།"
+
+#: modules/comment.module:1621
+msgid "Comment: deleted %subject."
+msgstr "བསམ་བཀོད: %subject་བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/comment.module:1641
+msgid "Flat list - collapsed"
+msgstr "ཐོ་བཀོད་ལེབ་ཏེམ-རམ་ཡོདཔ།"
+
+#: modules/comment.module:1642
+msgid "Flat list - expanded"
+msgstr "ཐོ་བཀོད་ལེབ་ཏེམ-རྒྱ་འཕར་ཡོདཔ།"
+
+#: modules/comment.module:1643
+msgid "Threaded list - collapsed"
+msgstr "ཐོ་བཀོད་ཐེ་རེཌེ་ཡོདཔ-རམ་ཡོདཔ།"
+
+#: modules/comment.module:1644
+msgid "Threaded list - expanded"
+msgstr "ཐོ་བཀོད་ཐེ་རེཌེ-རྒྱ་འཕར་ཡོདཔ།"
+
+#: modules/comment.module:201
+msgid "1 new comment"
+msgid_plural "%count new comments"
+msgstr[0] "བསམ་བཀོད་གསརཔ་གཅིག"
+msgstr[1] "%count བསམ་བཀོད་གསརཔ་ཚུ།"
+
+#: modules/comment.module:153
+msgid "access comments"
+msgstr "འཛུལ་སྤྱོད་འབད་ནི་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:153
+msgid "post comments"
+msgstr "གནས་བསྐྱོད་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:153
+msgid "administer comments"
+msgstr "བདག་སྐྱོང་འཐབ་ནི་བསམ་བཀོད་ཚུ།"
+
+#: modules/comment.module:153
+msgid "post comments without approval"
+msgstr "གནས་བསྐྱོད་བསམ་བཀོད་ཚུ་གནང་བ་མེདཔ་སྦེ།"
+
+#: modules/comment.module:0
+msgid "comment"
+msgstr "བསམ་བཀོད།"
+

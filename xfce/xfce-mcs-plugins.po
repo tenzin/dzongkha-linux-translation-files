@@ -1,0 +1,616 @@
+# Dzongkha translation for xfce-mcs-plugins
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the xfce-mcs-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-mcs-plugins 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-13 11:07+0100\n"
+"PO-Revision-Date: 2007-04-11 22:55+0530\n"
+"Last-Translator: translator <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../plugins/display_plugin/display_plugin.c:168
+#, c-format
+msgid "Old settings will be restored in %d seconds"
+msgstr "སྒྲིག་སྟངས་རྙིངམ་ཚུ་%dསྐར་ཆག་ནང་སོར་ཆུད་འབད་འོང་།"
+
+#: ../plugins/display_plugin/display_plugin.c:187
+msgid ""
+"Display settings have been changed.\n"
+"Would you like to keep these settings?"
+msgstr ""
+"བཀྲམ་སྟོན་སྒྲིག་སྟངས་ཚུ་བསྒྱུར་བཅོས་འབད་ཡི།\n"
+"སྒྲིག་སྟངས་ཚུ་བཞག་དགོ་མནོཝ་མས་ག?"
+
+#: ../plugins/display_plugin/display_plugin.c:191
+#, c-format
+msgid "Previous settings will be restored in %d seconds"
+msgstr "ཧེ་མའི་སྒྲིག་སྟངས་ཚུ་%d སྐར་ཆ་ནང་སོར་ཆུད་འབད་འོང་།"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugins/display_plugin/display_plugin.c:379
+msgid "Button Label|Display"
+msgstr "ཨེབ་རྟ་ཁ་ཡིག་༡| བཀྲམ་སྟོན།"
+
+#: ../plugins/display_plugin/display_plugin.c:712
+msgid "Display Preferences"
+msgstr "དགའ་གདམས་ཚུ་བཀྲམ་སྟོན་འབད།"
+
+#: ../plugins/display_plugin/display_plugin.c:747
+msgid "Resolution"
+msgstr "ཧུམ་ཆ།"
+
+#: ../plugins/display_plugin/display_plugin.c:818
+#, c-format
+msgid "%dx%d@%d"
+msgstr "%dx%d@%d"
+
+#: ../plugins/display_plugin/display_plugin.c:866
+msgid "Gamma correction"
+msgstr "གམ་མ་ནོར་བཅོས།"
+
+#. Red
+#: ../plugins/display_plugin/display_plugin.c:874
+msgid "Red"
+msgstr "དམརཔོ།"
+
+#. Green
+#: ../plugins/display_plugin/display_plugin.c:885
+msgid "Green"
+msgstr "ལྗང་ཁུ།"
+
+#. Blue
+#: ../plugins/display_plugin/display_plugin.c:896
+msgid "Blue"
+msgstr "ཧོནམ།"
+
+#.
+#: ../plugins/display_plugin/display_plugin.c:907
+msgid "Sync sliders"
+msgstr "མཉམ་འབྱུང་བཤུད་བྱེད།"
+
+#: ../plugins/fm_plugin/fm_plugin.c:63
+msgid "Failed to open the File Manager Preferences."
+msgstr "ཡིག་སྣོད་འཛིན་སྐྱོང་པའི་དགའ་གདམ་ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../plugins/fm_plugin/fm_plugin.c:65
+msgid "Either the Xfce File Manager was not build with support for D-BUS, or the D-BUS service was not installed properly."
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ ཡིག་སྣོད་འཛིན་སྐྱོང་པ་འདི་ཌི་-བརྡ་རྟགས་འགྲུལ་ལམ་གྱི་དོན་ལུ་རྒྱབ་སྐྱོར་ཐོག་ལས་བཟོ་བརྩིགས་མ་འབད་བས་ ཡང་ན་ ཌི་-བརྡ་རྟགས་འགྲུལ་ལམ་ཞབས་ཏོག་འདི་ལེགས་ཤོམ་སྦེ་གཞི་བཙུགས་མ་འབད་བས།"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugins/fm_plugin/fm_plugin.c:86
+msgid "Button Label|File Manager"
+msgstr "ཨེབ་རྟ་ཁ་ཡིག་༡| ཡིག་སྣོད་འཛིན་སྐྱོང་པ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:522
+msgid "Sticky keys"
+msgstr "རྩི་ཅན་ལྡེ་མིག་ཚུ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:526
+msgid "Enable Sticky keys"
+msgstr "རྩི་ཅན་ལྡེ་མིག་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:531
+msgid "Latch To Lock"
+msgstr "བསྡམ་བཞག་ནི་ལུ་གཡའ་ཤིང་།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:537
+msgid "Two Keys Disable"
+msgstr "ལྡེ་མིག་གཉིས་ལྕོགས་མིན་བཟོ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:546
+msgid "Slow keys"
+msgstr "ལྷོད་ལྡེ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:550
+msgid "Enable Slow keys"
+msgstr "ལྷོད་ལྡེ་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:555
+msgid "Slow keys delay :"
+msgstr "ལྷོད་ལྡེ་ཕྱིར་འགྱངས་:"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:571
+msgid "Bounce keys"
+msgstr "ཡར་འཕར་ལྡེ་མིག་ཚུ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:575
+msgid "Enable Bounce keys"
+msgstr "ཡར་འཕར་ལྡེ་མིག་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:580
+msgid "DeBounce delay :"
+msgstr "ཡར་འཕར་མེདཔ་ཕྱིར་འགྱངས་:"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:622
+msgid "Keyboard Preferences"
+msgstr "ལྡེ་སྒྲོམ་གྱི་དགའ་གདམ་ཚུ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:639
+msgid "Keyboard map"
+msgstr "ལྡེ་སྒྲོམ་ས་ཁྲ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:664
+msgid "Typing Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་ཡིག་དཔར་རྐྱབ་དོ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:668
+msgid "Repeat"
+msgstr "ཡང་བསྐྱར།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:677
+msgid "Short"
+msgstr "ཐུང་ཀུ"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:684
+msgid "Long"
+msgstr "རིངམོ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:691
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:759
+#: ../plugins/mouse_plugin/mouse_plugin.c:409
+#: ../plugins/mouse_plugin/mouse_plugin.c:505
+msgid "Slow"
+msgstr "ལྷོད་ཆ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:698
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:766
+#: ../plugins/mouse_plugin/mouse_plugin.c:422
+#: ../plugins/mouse_plugin/mouse_plugin.c:519
+msgid "Fast"
+msgstr "མགྱོགས་དྲགས།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:705
+#: ../plugins/mouse_plugin/mouse_plugin.c:271
+msgid "Delay :"
+msgstr "ཕྱིར་འགྱངས་:"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:712
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:752
+#: ../plugins/mouse_plugin/mouse_plugin.c:498
+msgid "Speed :"
+msgstr "མགྱོགས་ཚད་:"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:738
+#: ../plugins/mouse_plugin/mouse_plugin.c:536
+msgid "Cursor"
+msgstr "འོད་རྟགས།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:743
+msgid "Show blinking"
+msgstr "འགུལ་ཅན་སྟོན།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:784
+msgid "Use this entry area to test the settings above."
+msgstr "གོང་གི་སྒྲིག་སྟངས་ཚུ་བརྟག་ཞིབ་འབད་ནིའི་དོན་ལས་ ཐོ་འགོད་མངའ་ཁོངས་འདི་ལག་ལེན་འཐབ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:786
+msgid "Test area"
+msgstr "མངའ་ཁོངས་བརྟག་ཞིབ་འབད།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:795
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:803
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1885
+msgid "Shortcuts"
+msgstr "མགྱོགས་ཐབས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:814
+#: ../plugins/mouse_plugin/mouse_plugin.c:543
+msgid "Accessibility"
+msgstr "འཛུལ་སྤྱོད།"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugins/keyboard_plugin/keyboard_plugin.c:897
+msgid "Button Label|Keyboard"
+msgstr "ཨེབ་རྟ་ཁ་ཡིག་༡| ལྡེ་སྒྲོམ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:834
+msgid "Rename theme"
+msgstr "བརྗོད་དོན་བསྐྱར་མིང་བཏགས།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:849
+msgid "New name:"
+msgstr "མིང་གསརཔ་:"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1022
+msgid ""
+"Shortcut already in use !\n"
+"Are you sure you want to use it ?"
+msgstr ""
+"མགྱོགས་ཐབས་འདི་ཧེ་མ་ལས་ར་ལག་ལེན་འཐབ་ཏེ་ཡོད་ !\n"
+"ཁྱོད་ཀྱིས་འཐད་རི་འབའ་རི་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#. Create dialog
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1102
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1579
+msgid "Choose command"
+msgstr "བརྡ་བཀོད་གདམས།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1107
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1590
+msgid "Command:"
+msgstr "བརྡ་བཀོད་:"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1137
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1634
+msgid "The command doesn't exist or the file is not executable !"
+msgstr "བརྡ་བཀོད་འདི་མེེདཔ་ཨིནམ་དང་ ཡང་ན་ ཡིག་སྣོད་འདི་ལག་ལེན་འཐབ་བཏུབ་མེན་པས་!"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1175
+msgid "Set shortcut for command:"
+msgstr "བརྡ་བཀོད་ཀྱི་དོན་ལུ་མགྱོགས་ཐབས་གཞི་སྒྲིག་འབད་:"
+
+#. Create dialog
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1178
+msgid "Set shortcut"
+msgstr "མགྱོགས་ཐབས་གཞི་སྒྲིག་འབད།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1182
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1186
+msgid "No shortcut"
+msgstr "མགྱོགས་ཐབས་མེད།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1355
+msgid "New theme"
+msgstr "བརྗོད་དོན་གསརཔ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1369
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1402
+msgid "File already exists"
+msgstr "ཡིག་སྣོད་འདི་ཧེ་མ་ལས་ར་ཡོདཔ་ཨིན།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1415
+msgid "Filename:"
+msgstr "ཡིག་སྣོད་མིང་:"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1489
+#, c-format
+msgid "Do you really want to delete the '%s' theme ?"
+msgstr "ཁྱོད་ཀྱིས་འཐད་རི་འབའ་རི་ '%s'བརྗོད་དོན་འདི་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1540
+#, c-format
+msgid "Do you really want to delete the shorcut entry for the '%s' command ?"
+msgstr "ཁྱོད་ཀྱིས་འཐད་རི་འབའ་རི་ '%s' གི་དོན་ལུ་མགྱོགས་ཐབས་ཐོ་འགོད་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1734
+msgid "Select an Application"
+msgstr "གློག་རིམ་སེལ་འཐུ་འབད།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1744
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1749
+msgid "Executable Files"
+msgstr "ལག་ལེན་འཐབ་བཏུབ་མི་ཡིག་སྣོད་ཚུ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1764
+msgid "Perl Scripts"
+msgstr "པརཱལ་ཡིག་ཚུགས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1770
+msgid "Python Scripts"
+msgstr "པ་ཡི་ཐཱོན་ཡིག་ཚུགས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1776
+msgid "Ruby Scripts"
+msgstr "རུ་བི་ཡིག་ཚུགས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1782
+msgid "Shell Scripts"
+msgstr "ཤལ་ཡིག།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1855
+msgid "Themes"
+msgstr "བརྗོད་དོན་ཚུ།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1969
+msgid "Command"
+msgstr "བརྡ་བཀོད།"
+
+#: ../plugins/keyboard_plugin/shortcuts_plugin.c:1976
+msgid "Shortcut"
+msgstr "མགྱོགས་ཐབས།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:89
+#: ../plugins/mouse_plugin/xfce-mouse-settings.desktop.in.h:1
+msgid "Mouse Settings"
+msgstr "མའུསི་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:109
+msgid ""
+"<span weight='bold' size='large'>Cursor settings saved.</span>\n"
+"\n"
+"Mouse cursor settings may not be applied until you restart Xfce."
+msgstr ""
+"<འཕར་ཚད་ལྗིན་ཚད་='bold'  ཚད་='large'>འོད་རྟགས་སྒྲིག་སྟངས་སྲུངས་ཡི་</span>\n"
+"\n"
+"ཁྱོད་ཀྱིས་ ཨེགསི་ཨེཕ་སི་ཨི་ལོག་འགོ་མ་བཙུགས་ཚུན་ མའུསི་འོད་རྟགས་སྒྲིག་སྟངས་ཚུ་འཇུག་སྤྱོད་འབད་མི་བཏུབ།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:115
+msgid "_Don't show this again"
+msgstr "འདི་ལོག་སྟེ་མ་སྟོན།(_D)"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:144
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:152
+#, c-format
+msgid "Mouse Settings: Unable to create %s"
+msgstr "མའུསི་སྒྲིག་སྟངས་:%s གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:163
+#, c-format
+msgid "Mouse Settings: Unable to move %s to %s.  Cursor settings may not be reapplied correctly on restart."
+msgstr "མའུསི་སྒྲིག་སྟངས་:%s ལས་ %sལུ་སྤོ་མ་ཚུགས། འོད་རྟགས་སྒྲིག་སྟངས་ཚུ་ལོག་འགོ་བཙུགས་འབདཝ་ད་ ངེས་བདེན་སྦེ་ལོག་འཇུག་སྤྱོད་མིའབདཝ་འོང་།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:173
+#, c-format
+msgid "Mouse Settings: Failed to run xrdb.  Cursor settings may not be applied correctly. (Error was: %s)"
+msgstr "མའུསི་སྒྲིག་སྟངས་:ཨེགསི་ཨར་ཌི་བི་ གཡོག་བཀོལ་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ། འོད་རྟགས་སྒྲིག་སྟངས་ཚུ་ངེས་བདེན་སྦེ་འཇུག་སྤྱོད་འབད་མི་འབདཝ་འོང་། (འཛོལ་བ་འདི་: %sཨིན་པས་)"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:485
+msgid "Cursor theme"
+msgstr "འོད་་རྟགས་བརྗོད་དོན།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:557
+msgid "Cursor Size"
+msgstr "འོད་རྟགས་ཚད།"
+
+#: ../plugins/mouse_plugin/mouse-cursor-settings.c:574
+msgid "Preview"
+msgstr "སྔོན་ལྟ།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:258
+msgid "Enable mouse emulation"
+msgstr "མཱའུསི་ནུས་བསྐྱེད་ཤུགས་ལྡན་བཟོ།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:284
+msgid "Interval :"
+msgstr "བར་མཚམས་:"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:301
+msgid "Time to max :"
+msgstr "མཐོ་ཤོས་ལུ་ཆུ་ཚོད་:"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:314
+msgid "Max speed:"
+msgstr "མགྱོགས་ཚད་མཐོ་ཤོས་:"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:346
+msgid "Mouse Preferences"
+msgstr "མའུསི་དགའ་གདམ་ཚུ།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:361
+msgid "Behavior"
+msgstr "སྤྱོད་ལམ།"
+
+#. button order
+#: ../plugins/mouse_plugin/mouse_plugin.c:371
+msgid "Button settings"
+msgstr "ཨེབ་རྟའི་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:379
+msgid "Left Handed"
+msgstr "གཡོན་ལག།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:386
+msgid "Right handed"
+msgstr "གཡས་ལག"
+
+#. motion settings
+#: ../plugins/mouse_plugin/mouse_plugin.c:394
+msgid "Motion settings"
+msgstr "འགུལ་བའི་སྒྲིག་སྟངས།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:402
+msgid "Acceleration :"
+msgstr "མགྱོགས་བསྐྱོད་:"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:428
+#: ../plugins/mouse_plugin/mouse_plugin.c:463
+msgid "Threshold :"
+msgstr "ཐེརེཤ་ཧཱོལ་:"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:435
+#: ../plugins/mouse_plugin/mouse_plugin.c:470
+msgid "Low"
+msgstr "དམའ།"
+
+#: ../plugins/mouse_plugin/mouse_plugin.c:448
+#: ../plugins/mouse_plugin/mouse_plugin.c:483
+msgid "High"
+msgstr "མཐོ།"
+
+#. drag and drop
+#: ../plugins/mouse_plugin/mouse_plugin.c:455
+msgid "Drag and drop"
+msgstr "འདྲུད་ནི་དང་བཀོག་ནི།"
+
+#. double click
+#: ../plugins/mouse_plugin/mouse_plugin.c:490
+msgid "Double click"
+msgstr "ཨེབ་གཏང་ཚར་གཉིས།"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugins/mouse_plugin/mouse_plugin.c:699
+msgid "Button Label|Mouse"
+msgstr "ཨེབ་རྟ་ཁ་ཡིག་༡| མའུསི།"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugins/screensaver_plugin/screensaver_plugin.c:51
+msgid "Button Label|Screensaver"
+msgstr "ཨེབ་རྟ་ཁ་ཡིག་༡| གསལ་གཞིའི་ཉེན་སྲུང་།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:484
+msgid "Font Selection Dialog"
+msgstr "ཡིག་གཟུགས་སེལ་འཐུའི་ཌའི་ལོག"
+
+#: ../plugins/ui_plugin/ui_plugin.c:686
+msgid "User Interface Preferences"
+msgstr "ལག་ལེན་པ་ངོས་འདྲ་བའི་དགའ་གདམ་ཚུ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:712
+msgid "_Theme"
+msgstr "བརྗོད་དོན།(_T)"
+
+#: ../plugins/ui_plugin/ui_plugin.c:739
+msgid "_Icon Theme"
+msgstr "ངོས་འདྲ་བའི་བརྗོད་དོན།(_I)"
+
+#: ../plugins/ui_plugin/ui_plugin.c:765
+msgid "Font"
+msgstr "ཡིག་གཟུགས།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:772
+msgid "Toolbar Style"
+msgstr "ལག་ཆས་ཕྲ་རིང་གི་བཟོ་རྣམ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:776
+msgid "Icons"
+msgstr "ངོས་པར་ཚུ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:777
+msgid "Text"
+msgstr "ཚིག་ཡིག"
+
+#: ../plugins/ui_plugin/ui_plugin.c:778
+msgid "Both"
+msgstr "གཉིས་ཆ་རང་།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:779
+msgid "Both horizontal"
+msgstr "ཐད་སྙོམས་གཉིས་ཆ་རང་།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:783
+msgid "Editable menu accelerators"
+msgstr "ཞུན་དག་འབད་བཏུབ་པའི་དཀར་ཆག་མགྱོགས་བསྐྱོད།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:787
+msgid "Menu Accelerators"
+msgstr "དཀར་ཆག་མགྱོགས་བསྐྱོད།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:797
+msgid "Font Rendering"
+msgstr "ཡིག་གཟུགས་ལྷག་སྟོན་འབད་དོ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:801
+msgid "Use anti-aliasing for fonts"
+msgstr "ཡིག་གཟུགས་ཀྱི་དོན་ལུ་ཨེན་ཊི་ཨེ་ལའིསིང་ ལག་ལེན་འཐབ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:806
+msgid "Antialiasing is an effect that is applied to the edges of characters to make the characters look smoother."
+msgstr "ཨེན་ཊི་ཨེ་ལའིསིང་འདི་ ཡིག་འབྲུ་ཚུ་ཧུམ་ཁྱུག་ཁྱུག་སྦེ་མཐོང་ནིའི་དོན་ལས་ ཡིག་འབྲུའི་མཐའམ་ཚུ་ལུ་འཇུག་སྤྱོད་འབད་ནི་ཡོད་པའི་ནུས་ཅན་ཅིག་ཨིན།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:810
+msgid "Use hinting:"
+msgstr "བརྡ་མཚོན་ལག་ལེན་འཐབ་དོ་:"
+
+#: ../plugins/ui_plugin/ui_plugin.c:815
+msgid "Hinting is a font-rendering technique that improves the quality of fonts at small sizes and an at low screen resolutions. Select one of the options to specify how to apply hinting."
+msgstr "བརྡ་མཚོན་འདི་ ཚད་ཆུང་ཀུ་དང་གསལ་གཞིའི་ཧུམ་ཆ་དམའ་བ་གཉིས་ལུ་ཡིག་གཟུགས་ཀྱི་སྤུས་ཚད་ལེགས་ཤོམ་བཟོཝ་ཨིན་པའི་ཡིག་གཟུགས་-ལྷག་སྟོན་ཐབས་རིག་ཅིག་ཨིན། བརྡ་མཚོན་འདི་ག་དེ་སྦེ་འཇུག་སྤྱོད་འབད་ནི་ཨིན་ན་ གསལ་བཀོད་འབད་ནིའི་དོན་ལས་ གདམ་ཁ་ཚུ་ནང་ལས་གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:825
+msgid "Slight"
+msgstr "དུམ་གྲ་ཅིག"
+
+#: ../plugins/ui_plugin/ui_plugin.c:826
+msgid "Medium"
+msgstr "འབྲིང་མ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:827
+msgid "Full"
+msgstr "གང་།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:831
+msgid "Use sub-pixel hinting:"
+msgstr "ཡན་ལག་-པིག་སེལ་བརྡ་མཚོན་:"
+
+#: ../plugins/ui_plugin/ui_plugin.c:836
+msgid "Select one of the options to specify the subpixel color order for your fonts. Use this option for LCD or flat-screen displays."
+msgstr "ཁྱོད་རའི་ཡིག་གཟུགས་ཀྱི་དོན་ལས་ ཡན་ལག་པིག་སེལ་ཚོས་གཞིའི་གོ་རིམ་གསལ་བཀོད་འབད་ནིའི་དོན་ལུ་ གདམ་ཁ་ཚུ་ནང་ལས་གཅིག་སེལ་འུཐ་འབད།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:854
+msgid "RGB"
+msgstr "ཨར་ཇི་བི།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:858
+msgid "BGR"
+msgstr "བི་ཇི་ཨར།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:862
+msgid "Vertical RGB"
+msgstr "ཀེར་ཕྲང་ ཨར་ཇི་བི།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:866
+msgid "Vertical BGR"
+msgstr "ཀེར་ཕྲང་ བི་ཇི་ཨར།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:886
+msgid "List of available GTK+ themes"
+msgstr "འཐོབ་ཚུགས་པའི་ཇི་ཊི་ཀེ་+བརྗོད་དོན་གྱི་ཐོ་ཡིག་ཚུ།"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugins/ui_plugin/ui_plugin.c:945
+msgid "Button Label|User interface"
+msgstr "ཨེབ་རྟ་ཁ་ཡིག་༡| ལག་ལེན་པའི་ངོས་འདྲ་བ།"
+
+#: ../plugins/ui_plugin/ui_plugin.c:1157
+msgid "You have changed font rendering settings. This change will only affect newly started applications."
+msgstr "ཁྱོད་ཀྱིས་ ཡིག་གཟུགས་ལྷག་སྟོན་སྒྲིག་སྟངས་ཚུ་བསྒྱུར་བཅོས་འབད་ནུག བསྒྱུར་བཅོས་འདི་གིས་ གསརཔ་སྦེ་འགོ་བཙུགས་ཡོད་པའི་གློག་རིམ་ཚུ་རྐྱངམ་ཅིག་ལུ་ཕན་གནོད་འོང་།"
+
+#: ../plugins/display_plugin/xfce-display-settings.desktop.in.h:1
+msgid "Display Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་བཀྲམ་སྟོན་འབད།"
+
+#: ../plugins/display_plugin/xfce-display-settings.desktop.in.h:2
+msgid "Xfce 4 Display Settings"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ ༤བཀྲམ་སྟོན་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/xfce-keyboard-settings.desktop.in.h:1
+msgid "Keyboard Settings"
+msgstr "ལྡེ་སྒྲོམ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/keyboard_plugin/xfce-keyboard-settings.desktop.in.h:2
+msgid "Xfce 4 Keyboard Settings"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ ༤ལྡེ་སྒྲོམ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/mouse_plugin/xfce-mouse-settings.desktop.in.h:2
+msgid "Xfce 4 Mouse Settings"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ ༤མའུསི་སྒྲིག་སྟངསཚུ།"
+
+#: ../plugins/ui_plugin/xfce-ui-settings.desktop.in.h:1
+msgid "User Interface Settings"
+msgstr "ལག་ལེན་པ་ངོས་འདྲ་བའི་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../plugins/ui_plugin/xfce-ui-settings.desktop.in.h:2
+msgid "User Interface Settings (themes and fonts)"
+msgstr "ལག་ལེན་པ་ངོས་འདྲ་བའི་སྒྲིག་སྟངས་ཚུ་(བརྗོད་དོན་དང་ཡིག་གཟུགས་ཚུ་)།"
+
+#: ../plugins/ui_plugin/xfce-ui-settings.desktop.in.h:3
+msgid "Xfce 4 User Interface Settings"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ ༤ ལག་ལེན་པ་ངོས་འདྲ་བའི་སྒྲིག་སྟངས་ཚུ།"
+
+#~ msgid "Select command"
+#~ msgstr "བརྡ་བཀོད་སེལ་འཐུ་འབད།"
+#~ msgid "Theme Name"
+#~ msgstr "བརྗོད་དོན་མིང་།"
+

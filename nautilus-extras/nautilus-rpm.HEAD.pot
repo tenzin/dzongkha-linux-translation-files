@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus_rpm.head.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-19 04:15+0200\n"
+"PO-Revision-Date: 2006-04-28 11:07-0500\n"
+"Last-Translator: sonam pelden\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: 2;(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: CHARSET\n"
+
+#: ../src/rpm-info.c:148
+msgid "Info"
+msgstr "བརྡ་དོན།"
+
+#: ../src/rpm-info.c:164
+msgid "Summary:"
+msgstr "བཅུད་དོན:"
+
+#: ../src/rpm-info.c:177
+#: ../src/nautilus-rpm-properties-page.c:149
+msgid "Group:"
+msgstr "སྡེ་ཚན:"
+
+#: ../src/rpm-info.c:189
+msgid "Size:"
+msgstr "ཚད།:"
+
+#: ../src/rpm-info.c:201
+msgid "Vendor:"
+msgstr "སིལ་ཚོང་པ:"
+
+#: ../src/rpm-info.c:213
+msgid "Packager:"
+msgstr "ཐུམ་སྒྲིག་པ:"
+
+#: ../src/rpm-info.c:225
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ:"
+
+#: ../src/rpm-info.c:237
+#: ../src/nautilus-rpm-properties-page.c:160
+msgid "Install date:"
+msgstr "ཚེས་གྲངས་གཞི་བཙུགས་འབད:"
+
+#: ../src/rpm-info.c:265
+msgid "Files"
+msgstr "ཡིག་སྣོད་ཚུ།"
+
+#: ../src/rpm-info.c:281
+msgid "File name"
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#: ../src/rpm-info.c:291
+msgid "Change log"
+msgstr "དྲན་དེབ་བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/rpm-info.c:316
+msgid "Requires"
+msgstr "དགོས་མཁོ་ཡོདཔ།"
+
+#: ../src/rpm-info.c:323
+msgid "Resources required by this package:"
+msgstr "འ་ནི་ཐུམ་སྒྲིལ་ལུ་ཐོན་ཁུངས་དགོས་མཁོ་ཡོདཔ:"
+
+#: ../src/rpm-info.c:346
+#: ../src/rpm-info.c:394
+#: ../src/rpm-info.c:442
+#: ../src/rpm-info.c:490
+msgid "Resource"
+msgstr "ཐོན་ཁུངས།"
+
+#: ../src/rpm-info.c:364
+msgid "Provides"
+msgstr "བྱིན་མི།"
+
+#: ../src/rpm-info.c:371
+msgid "Resources provided by this package:"
+msgstr "འ་ནི་ཐུམ་སྒྲིལ་གིས་བྱིན་ཡོད་པའི་ཐོན་ཁུངས:"
+
+#: ../src/rpm-info.c:412
+msgid "Conflicts"
+msgstr "མི་མཐུན་པ་ཚུ།"
+
+#: ../src/rpm-info.c:419
+msgid "Resources that conflict with this package:"
+msgstr "འ་ནི་ཐུམ་སྒྲིལ་གྱི་ཐོག་ལས་མི་མཐུན་པའི་ཐོན་ཁུངས:"
+
+#: ../src/rpm-info.c:460
+msgid "Obsoletes"
+msgstr "ཕན་མེད།"
+
+#: ../src/rpm-info.c:467
+msgid "Resources that are obsoleted by this package:"
+msgstr "འ་ནི་ཐུམ་སྒྲིལ་གིས་ཕན་མེད་པའི་ཐོན་ཁུངས:"
+
+#: ../src/rpm-info.c:754
+#: ../src/rpm-info.c:758
+#: ../src/rpm-info.c:762
+msgid "(none)"
+msgstr "(ཅི་མེད།)"
+
+#: ../src/nautilus-rpm-properties-page.c:127
+msgid "Name:"
+msgstr "མིང་ :"
+
+#. clear out any existing info
+#: ../src/nautilus-rpm-properties-page.c:131
+#: ../src/nautilus-rpm-properties-page.c:230
+msgid "<none>"
+msgstr "<ཅི་མེད།>"
+
+#: ../src/nautilus-rpm-properties-page.c:138
+msgid "Version:"
+msgstr "ཐོན་རིམ:"
+
+#: ../src/nautilus-rpm-properties-page.c:193
+msgid "URI currently displayed"
+msgstr "ད་ལྟོ་ ཡུ་ཨར་ཨའི་ བཀྲམ་སྟོན་འབད་ཡི།"
+
+#: ../src/nautilus-rpm-properties-page.c:342
+msgid "Package information properties page"
+msgstr "ཐུམ་སྒྲིལ་བརྡ་དོན་རྒྱུ་དངོས་ཀྱི་ཤོག་ལེབ།"
+
+#: ../src/rpmdb.keys.in.h:1
+msgid "Installed RPM Package"
+msgstr "ཨར་པི་ཨེམ་ཐུམ་སྒྲིལ་གཞི་བཙུགས་འབད་ཡོད།"
+
+#: ../src/rpmdb.desktop.in.h:1
+msgid "Browse the set of packages installed on the system"
+msgstr "རིམ་ལུགས་གུ་ཐུམ་སྒྲིལ་གཞི་བཙུགས་ཀྱི་ཆ་ཚན་འདི་བརྡ་འཚོལ་འབད།"
+
+#: ../src/rpmdb.desktop.in.h:2
+msgid "RPM Package Database"
+msgstr "ཨར་པི་་ཨེམ་ཐུམ་སྒྲིལ་གྱི་གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:1
+msgid "Factory for RPM properties_page"
+msgstr "ཨར་པི་ཨེམ་རྒྱུ་དངོས་ཤོག་ལེབ་ཀྱི་དོན་ལུ་འཕྲུལ་ཁང་།(_P)"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:2
+msgid "Factory for RPM view"
+msgstr "ཨར་པི་ཨེམ་མཐོང་སྣང་གི་དོན་ལུ་ འཕྲུལ་ཁང་།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:3
+msgid "Package"
+msgstr "ཐུམ་སྒྲིལ།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:4
+msgid "RPM"
+msgstr "ཨར་པི་ཨེམ།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:5
+msgid "RPM Information"
+msgstr "ཨར་པི་ཨེམ་བརྡ་དོན།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:6
+msgid "RPM properties page"
+msgstr "ཨར་པི་ཨེམ་རྒྱུ་དངོས་ཀྱི་ཤོག་ལེབ།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:7
+msgid "RPM properties page factory"
+msgstr "ཨར་པི་ཨེམ་རྒྱུ་དངོས་ཀྱི་ཤོག་ལེབ་འཕྲུལ་ཁང་།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:8
+msgid "RPM view"
+msgstr "ཨར་པི་ཨེམ་གྱི་མཐོང་སྣང་།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:9
+msgid "RPM view factory"
+msgstr "ཨར་པི་ཨེམ་མཐོང་སྣང་གི་འཕྲུལ་ཁང་།"
+
+#: ../src/Nautilus_View_rpm.server.in.in.h:10
+msgid "View as RPM"
+msgstr "ཨར་པི་ཨེམ་བཟུམ་སྦེ་མཐོང་སྣང་བསྐྱེད།"
+

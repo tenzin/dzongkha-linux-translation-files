@@ -1,0 +1,2726 @@
+# translation of gimp20-2.po to Dzongkha
+# translation of gimp.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# translator, 2006.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER., 2006.
+# Dorji Tashi <dorjee_doss@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp20-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-10 19:59+0600\n"
+"PO-Revision-Date: 2006-05-11 10:07+0600\n"
+"Last-Translator: Dorji Tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Generator: KBabel 1.10.2\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../app/actions/tool-options-actions.c:87
+msgid "Reset _all Tool Options..."
+msgstr "ལག་ཆས་ཀྱི་འདམ་ཁ་ཚུ་ཆ་མཉམ ལོག་གཞི་སྒྲིག་འབད...(_a)"
+
+#: ../app/actions/tool-options-actions.c:88
+msgid "Reset all tool options"
+msgstr "ལག་ཆས་ཀྱི་འདམ་ཁ་ཚུ་ ཆ་མཉམ ལོག་གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/tool-options-commands.c:73
+msgid "Save Tool Options"
+msgstr "ལག་ཆས་ཀྱི་འདམ་ཁ་ཚུ སྲུང་བཞག་འབད།"
+
+#: ../app/actions/tool-options-commands.c:77
+msgid "Enter a name for the saved options"
+msgstr "སྲུང་བཞག་འབད་ཚར་མི་ འདམ་ཁ་ཚུ་ལུ མིང་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: ../app/actions/tool-options-commands.c:78
+#: ../app/actions/tool-options-commands.c:251
+#: ../app/actions/tool-options-commands.c:269
+msgid "Saved Options"
+msgstr "སྲུང་བཞག་འབད་ཚར་མི་གི་འདམ་ཁ།"
+
+#: ../app/actions/tool-options-commands.c:146
+msgid "Rename Saved Tool Options"
+msgstr "སྲུང་མཞག་འབད་ཚར་མི་ལག་ཆས འདམ་ཁ་ཚུ་ལུ་ ལོག་མིང་བཏགས།"
+
+#: ../app/actions/tool-options-commands.c:150
+msgid "Enter a new name for the saved options"
+msgstr "སྲུང་བཞག་འབད་ཚར་མི འདམ་ཁ་ཚུ་ལུ མིང་གསརཔ་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: ../app/actions/tool-options-commands.c:215
+msgid "Reset Tool Options"
+msgstr "ལག་ཆས འདམ་ཁ་ཚུ་ ལོག་གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/tool-options-commands.c:233
+msgid "Do you really want to reset all tool options to default values?"
+msgstr "ཁྱོད་ཀྱིས སྔོན་སྒྲིག་གནས་གོང་ནང་ལུ ལག་ཆས་འདམ་ཁ་ཚུ་ ཆ་མཉམ ངེས་ཏིག ལོག་གཞི་སྒྲིག་འབད་ནི་ཨིན་ན?"
+
+#: ../app/actions/tools-actions.c:47
+msgid "Tools Menu"
+msgstr "ལག་ཆས འདམ་ཁ།"
+
+#: ../app/actions/tools-actions.c:50
+msgid "_Tools"
+msgstr "ལག་ཆས།(_T)"
+
+#: ../app/actions/tools-actions.c:51
+msgid "_Selection Tools"
+msgstr "སེལ་འཐུའི ལག་ཆས།(_S)"
+
+#: ../app/actions/tools-actions.c:52
+msgid "_Paint Tools"
+msgstr "ལག་ཆས་ཚོན་གཏང་།(_P)"
+
+#: ../app/actions/tools-actions.c:53
+msgid "_Transform Tools"
+msgstr "ལག་ཆས་བཟོ་བསྒྱུར་འབད།(_T)"
+
+#: ../app/actions/tools-actions.c:54
+msgid "_Color Tools"
+msgstr "ཚོས་གཞི་ཅན་གྱི ལག་ཆས།(_C)"
+
+#: ../app/actions/tools-actions.c:57
+msgid "_Reset Order & Visibility"
+msgstr "མཐོང་གསལ་དང་ གོ་རིམ་ ལོག་གཞི་སྒྲིག་འབད།(_R)"
+
+#: ../app/actions/tools-actions.c:58
+msgid "Reset tool order and visibility"
+msgstr "ལག་ཆས་ཀྱི་ོག་རིམ་དང མཐོང་གསལ ལོག་གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/tools-actions.c:66
+msgid "_Show in Toolbox"
+msgstr "ལང་ཆས་སྒྲོམ་ནང་ལུ སྟོན།(_S)"
+
+#: ../app/actions/tools-actions.c:75
+msgid "_By Color"
+msgstr "ཚོས་གཞི་གིས།(_B)"
+
+#: ../app/actions/tools-actions.c:80
+msgid "_Arbitrary Rotation..."
+msgstr "མཐུན་སྒྲིག པད་སྐོར་བསྒྱིར་ནི།(_A)"
+
+#: ../app/actions/vectors-actions.c:44
+msgid "Paths Menu"
+msgstr "འགྲུལ་ལམ་དཀར་ཆག"
+
+#: ../app/actions/vectors-actions.c:48
+msgid "Path _Tool"
+msgstr "འགྲུལ་ལམ་ལག་ཆས།(_T)"
+
+#: ../app/actions/vectors-actions.c:53
+msgid "_Edit Path Attributes..."
+msgstr "འགྲ྄ལ་ལམ་གྱི་ཁྱད་ཆོས ཞུན་དག་འབད།(_E)"
+
+#: ../app/actions/vectors-actions.c:54
+msgid "Edit path attributes"
+msgstr "འགྲ྄ལ་ལམ་གྱི་ཁྱད་ཆོས ཞུན་དག་འབད།"
+
+#: ../app/actions/vectors-actions.c:59
+msgid "_New Path..."
+msgstr "འགྲུལ་ལམ་གསརཔ།(_N)"
+
+#: ../app/actions/vectors-actions.c:60
+msgid "New path..."
+msgstr "འགྲུལ་ལམ་གསརཔ།"
+
+#: ../app/actions/vectors-actions.c:65
+msgid "_New Path"
+msgstr "འགྲུལ་ལམ་གསརཔ།(_N)"
+
+#: ../app/actions/vectors-actions.c:66
+msgid "New path with last values"
+msgstr "བཇུག་མ་གྱི་གནས་གོང་གྱི ཐོག་ལུ འགྲུལམ་གསརཔ།"
+
+#: ../app/actions/vectors-actions.c:71
+msgid "D_uplicate Path"
+msgstr "འགྲུལ་ལམ་གསརཔ།(_u)"
+
+#: ../app/actions/vectors-actions.c:72
+msgid "Duplicate path"
+msgstr "འགྲུལ་ལམ་གསརཔ།"
+
+#: ../app/actions/vectors-actions.c:77
+msgid "_Delete Path"
+msgstr "འགྲུལ་ལམ་བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/vectors-actions.c:78
+msgid "Delete path"
+msgstr "འགྲུལ་ལམ་བཏོན་གཏང་།"
+
+#: ../app/actions/vectors-actions.c:83
+msgid "Merge _Visible Paths"
+msgstr "མཐོང་ཚུགས་པའི འགྲུལ་ལམ་ མཉམ་བསྡོམས་འབད།(_V)"
+
+#: ../app/actions/vectors-actions.c:88
+msgid "_Raise Path"
+msgstr "ལམ་འགྲུལ་ཆེར་བསྐྱེད་འབད།(_R)"
+
+#: ../app/actions/vectors-actions.c:89
+msgid "Raise path"
+msgstr "ལམ་འགྲུལ་ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/vectors-actions.c:94
+msgid "Raise Path to _Top"
+msgstr "ལམ་འགྲུལ་ སྤྱི་ཏོག་ལུ་ ཆེར་བསྐྱེད་འབད།(_T)"
+
+#: ../app/actions/vectors-actions.c:95
+msgid "Raise path to top"
+msgstr "ལམ་འགྲུལ་ སྤྱི་ཏོག་ལུ་ ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/vectors-actions.c:100
+msgid "_Lower Path"
+msgstr "འོག་གི་འགྲུལ་ལམ།(_L)"
+
+#: ../app/actions/vectors-actions.c:101
+msgid "Lower path"
+msgstr "འོག་གི་འགྲུལ་ལམ།"
+
+#: ../app/actions/vectors-actions.c:106
+msgid "Lower Path to _Bottom"
+msgstr "འགྲུལ་ལམ་ཤགམ་ལུ མར་ཕཔ་འབད།(_B)"
+
+#: ../app/actions/vectors-actions.c:107
+msgid "Lower path to bottom"
+msgstr "འགྲུལ་ལམ གཤམ་ལུ་མར་ ཕབ་འབད།"
+
+#: ../app/actions/vectors-actions.c:112
+msgid "Stro_ke Path..."
+msgstr "འགྲུལ་ལམ སི་ཊོ་རོག་འབད།(_k)"
+
+#: ../app/actions/vectors-actions.c:113
+msgid "Stroke path..."
+msgstr "འགྲུལ་ལམ སི་ཊོ་རོག་འབད།"
+
+#: ../app/actions/vectors-actions.c:118
+msgid "Stro_ke Path"
+msgstr "འགྲུལ་ལམ སི་ཊོ་རོག་འབད།(_k)"
+
+#: ../app/actions/vectors-actions.c:119
+msgid "Stroke path with last values"
+msgstr "མཇུག་མམ གནས་གོང་གི་ཐོག་ལས འགྲུལ་ལམ་ སི་ཊོརོག་འབད།"
+
+#: ../app/actions/vectors-actions.c:124
+msgid "Co_py Path"
+msgstr "འགརུལ་ལམ འདྲ་བཤུས་རྐྱབས།(_p)"
+
+#: ../app/actions/vectors-actions.c:129
+msgid "Paste Pat_h"
+msgstr "འགྲུལ་ལམ་སྦྱར།(_h)"
+
+#: ../app/actions/vectors-actions.c:134
+msgid "I_mport Path..."
+msgstr "འགྲུལ་ལམ་ནང་འདྲེན་འབད།(_m)"
+
+#: ../app/actions/vectors-actions.c:139
+msgid "E_xport Path..."
+msgstr "འགྲུལ་ལམ་ཕྱིར་འདྲེན་འབད།(_x)"
+
+#: ../app/actions/vectors-actions.c:162
+msgid "Path to Sele_ction"
+msgstr "སེལ་འཐུ་ལུ འགྲུལ་ལམ་།(_c)"
+
+#: ../app/actions/vectors-actions.c:163 ../app/tools/gimpvectortool.c:1903
+msgid "Path to selection"
+msgstr "སེལ་འཐུ་ལུ འགྲུལ་ལམ་།"
+
+#: ../app/actions/vectors-actions.c:168
+msgid "Fr_om Path"
+msgstr "འགྲུལ་ལམ་ནང་ལས།(_o)"
+
+#: ../app/actions/vectors-actions.c:194
+msgid "Selecti_on to Path"
+msgstr "འགྲུལ་ལམ་ལུ སེལ་འཐུ།(_o)"
+
+#: ../app/actions/vectors-actions.c:195
+msgid "Selection to path"
+msgstr "འགྲུལ་ལམ་ལུ སེལ་འཐུ།"
+
+#: ../app/actions/vectors-actions.c:200
+msgid "To _Path"
+msgstr "འགྲུལ་ལམ་ ལུ་(_p)"
+
+#: ../app/actions/vectors-actions.c:205
+msgid "Selection to Path (_Advanced)"
+msgstr "འགྲུལ་ལམ་ལུ སེལ་ཐུ།(མཐོ་རིམ)(_A)"
+
+#: ../app/actions/vectors-actions.c:206
+msgid "Advanced options"
+msgstr "མཐོ་རིམ་ཅན་གྱི་འདམ་ཁ།"
+
+#: ../app/actions/vectors-commands.c:140
+msgid "Path Attributes"
+msgstr "འགྲུལ་ལམ་ ཁྱད་ཆོས།"
+
+#: ../app/actions/vectors-commands.c:143
+msgid "Edit Path Attributes"
+msgstr "འགྲུལ་ལམ་ ཁྱད་ཆོས་ཚུ་ ཞུན་དག་རྐྱབས།་"
+
+#: ../app/actions/vectors-commands.c:167 ../app/actions/vectors-commands.c:168
+#: ../app/actions/vectors-commands.c:190
+msgid "New Path"
+msgstr "འགྲུལ་ལམ་གསརཔ།"
+
+#: ../app/actions/vectors-commands.c:171
+msgid "New Path Options"
+msgstr "འགར྄ལ་ལམ་གསརཔ་གི་ འདམ་ཁ།"
+
+#: ../app/actions/vectors-commands.c:299 ../app/pdb/paths_cmds.c:1210
+msgid "Path to Selection"
+msgstr "སེ༧ལ་འཐུ་ལུ འགྲུལ་ལམ།"
+
+#: ../app/actions/vectors-commands.c:370 ../app/tools/gimpvectortool.c:1933
+#: ../app/vectors/gimpvectors.c:237
+msgid "Stroke Path"
+msgstr "སི་ཊོརོག་འགྲུལ་ལམ།"
+
+#: ../app/actions/view-actions.c:63
+msgid "_View"
+msgstr "མཐོང་སྣང་།(_V)"
+
+#: ../app/actions/view-actions.c:64
+msgid "_Zoom"
+msgstr "རྒྱས་ཟུམ།(_Z)"
+
+#: ../app/actions/view-actions.c:65
+msgid "_Padding Color"
+msgstr "ཚོས་གཞི་བར་ཤབས་འབད་དོ།(_p)"
+
+#: ../app/actions/view-actions.c:73
+msgid "_Close"
+msgstr "ཁ་བསྡམ།(_C)"
+
+#: ../app/actions/view-actions.c:78
+msgid "_Fit Image in Window"
+msgstr "སྒོ་སྒྲིག་ནང་ལུ གཟུགས་བརྙན ཚུད་སྒྲིག་འབད།(_F)"
+
+#: ../app/actions/view-actions.c:79
+msgid "Fit image in window"
+msgstr "སྒོ་སྒྲིག་ནང་ལུ གཟུགས་བརྙན ཚུད་སྒྲིག་འབད།"
+
+#: ../app/actions/view-actions.c:84
+msgid "Fit Image to Window"
+msgstr "སྒོ་སྒྲིག་ནང་ལུ གཟུགས་བརྙན ཚུད་སྒྲིག་འབད།"
+
+#: ../app/actions/view-actions.c:85
+msgid "Fit image to window"
+msgstr "སྒོ་སྒྲིག་ནང་ལུ གཟུགས་བརྙན ཚུད་སྒྲིག་འབད།"
+
+#: ../app/actions/view-actions.c:90
+msgid "_Info Window"
+msgstr "བརྡ་དོན་སྒོ་སྒྲིག(_I)"
+
+#: ../app/actions/view-actions.c:95
+msgid "Na_vigation Window"
+msgstr "འགྲུལ་བསྐྱོད་ཀྱི སྒོ་སྒྲིག(_v)"
+
+#: ../app/actions/view-actions.c:100
+msgid "Display _Filters..."
+msgstr "ཚགས་མ་ཚུ བཀྲམ་སྟོན་འབད།(_F)"
+
+#: ../app/actions/view-actions.c:105
+msgid "Shrink _Wrap"
+msgstr "ལོག་མཚམས་ བསྐུམ།(_W)"
+
+#: ../app/actions/view-actions.c:106
+msgid "Shrink wrap"
+msgstr "ལོག་མཚམས་ བསྐུམ།"
+
+#: ../app/actions/view-actions.c:111
+msgid "Move to Screen..."
+msgstr "གསལ་གཞི་ལུ སྤོ..."
+
+#: ../app/actions/view-actions.c:119
+msgid "_Dot for Dot"
+msgstr "ཚག་གི་དོན་ལུ ཚག(_D)"
+
+#: ../app/actions/view-actions.c:125
+msgid "Show _Selection"
+msgstr "སེལ་འཐུ་སྟོན།(_S)"
+
+#: ../app/actions/view-actions.c:131
+msgid "Show _Layer Boundary"
+msgstr "བང་རིམ་གྱི མཐའ་མཚམས སྟོན།(_L)"
+
+#: ../app/actions/view-actions.c:137
+msgid "Show _Guides"
+msgstr "འཁྱིད་མི་ སྟོན། (_G)"
+
+#: ../app/actions/view-actions.c:143
+msgid "Sn_ap to Guides"
+msgstr "འཁྱིད་མི་ལུ པར་བཏབ།(_a)"
+
+#: ../app/actions/view-actions.c:149
+msgid "S_how Grid"
+msgstr "གིརིཌི་སྟོན།(_h)"
+
+#: ../app/actions/view-actions.c:155
+msgid "Sna_p to Grid"
+msgstr "གིརིཌི་ལུ་པར་བཏབ།(_p)"
+
+#: ../app/actions/view-actions.c:161
+msgid "Show _Menubar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་ སྟོན།(_M)"
+
+#: ../app/actions/view-actions.c:167
+msgid "Show R_ulers"
+msgstr "ཐིག་ཤིང་ཚུ སྟོན།(_u)"
+
+#: ../app/actions/view-actions.c:173
+msgid "Show Scroll_bars"
+msgstr "བཤུད་སྒྲིལ་ཕྲ་རིང་ སྟོན།(_b)"
+
+#: ../app/actions/view-actions.c:179
+msgid "Show S_tatusbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་སྟོན།(_t)"
+
+#: ../app/actions/view-actions.c:185
+msgid "Fullscr_een"
+msgstr "གསལ་གཞི་གང་།(_e)"
+
+#: ../app/actions/view-actions.c:234
+msgid "16:1  (1600%)"
+msgstr "༡༦:༡  (༡༦༠༠%)"
+
+#: ../app/actions/view-actions.c:239
+msgid "8:1  (800%)"
+msgstr "༨:༡  (༨༠༠%)"
+
+#: ../app/actions/view-actions.c:244
+msgid "4:1  (400%)"
+msgstr "༤:༡  (༤༠༠%)"
+
+#: ../app/actions/view-actions.c:249
+msgid "2:1  (200%)"
+msgstr "༢:༡  (༢༠༠%)"
+
+#: ../app/actions/view-actions.c:254
+msgid "1:1  (100%)"
+msgstr "༡:༡  (༡༠༠%)"
+
+#: ../app/actions/view-actions.c:255
+msgid "Zoom 1:1"
+msgstr "ཟུམ་རྒྱས།༡:༡"
+
+#: ../app/actions/view-actions.c:260
+msgid "1:2  (50%)"
+msgstr "༡:༢  (༥༠%)"
+
+#: ../app/actions/view-actions.c:265
+msgid "1:4  (25%)"
+msgstr "༡:༤  (༢༥%)"
+
+#: ../app/actions/view-actions.c:270
+msgid "1:8  (12.5%)"
+msgstr "༡:༨  (༡༢.༥%)"
+
+#: ../app/actions/view-actions.c:275
+msgid "1:16  (6.25%)"
+msgstr "༡:༡༦  (༦༢༥%)"
+
+#: ../app/actions/view-actions.c:280
+msgid "O_ther..."
+msgstr "གཞན...(_t)"
+
+#: ../app/actions/view-actions.c:288
+msgid "From _Theme"
+msgstr "བརྗོད་དོན་ནང་ལས།(_T)"
+
+#: ../app/actions/view-actions.c:293
+msgid "_Light Check Color"
+msgstr "འོད་ཞིབ་དཔྱད་འབད་ནིའི ཚོས་གཞི།(_L)"
+
+#: ../app/actions/view-actions.c:298
+msgid "_Dark Check Color"
+msgstr "གྲིབ་གནག་ཞིབ་དཔྱད་འབད་ནིའི་ ཚོས་གཞི།(_D)"
+
+#: ../app/actions/view-actions.c:303
+msgid "Select _Custom Color..."
+msgstr "ཀསི་ཊམ་ཚོས་གཞི སེལ་འཐུ་འབད།(_C)"
+
+#: ../app/actions/view-actions.c:308
+msgid "As in _Preferences"
+msgstr "དགའ་འདམ་ཚུ་ནང་ལུ ཡོད་དོ་བཟུམ་འབད།(_P)"
+
+#: ../app/actions/view-actions.c:592
+#, c-format
+msgid "Other (%s) ..."
+msgstr "གཞན་མི།(%s) ..."
+
+#: ../app/actions/view-actions.c:601
+#, c-format
+msgid "_Zoom (%s)"
+msgstr "རྒྱས་ཟུམ། (%s)(_Z)"
+
+#: ../app/actions/view-commands.c:572
+msgid "Set Canvas Padding Color"
+msgstr "འབྲི་གཞྀ་གི་ བར་ཤབས་ཀྱི་ ཚོས་གཞི གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/view-commands.c:574
+msgid "Set Custom Canvas Padding Color"
+msgstr "ཀསི་ཊམ་བྲི་གཞྀ་གི་ བར་ཤབས་ཀྱི་ ཚོས་གཞི གཞི་སྒྲིག་འབད།"
+
+#: ../app/base/base-enums.c:23
+msgid "Smooth"
+msgstr "ཧུམ་ཁྱུག་ཁྱུ།"
+
+#: ../app/base/base-enums.c:24
+msgid "Freehand"
+msgstr "ལག་སྟོང་།"
+
+#: ../app/base/base-enums.c:55 ../app/widgets/gimpwidgets-constructors.c:76
+#: ../app/widgets/gimpwidgets-constructors.c:109
+msgid "Value"
+msgstr "གནས་གོང་།"
+
+#: ../app/base/base-enums.c:56 ../app/core/core-enums.c:157
+#: ../app/tools/gimpcolorbalancetool.c:301
+msgid "Red"
+msgstr "དམརཔོ།"
+
+#: ../app/base/base-enums.c:57 ../app/core/core-enums.c:158
+#: ../app/tools/gimpcolorbalancetool.c:308
+msgid "Green"
+msgstr "ལྗང་ཁུ།"
+
+#: ../app/base/base-enums.c:58 ../app/core/core-enums.c:159
+#: ../app/tools/gimpcolorbalancetool.c:315
+msgid "Blue"
+msgstr "ཧོནམ།"
+
+#: ../app/base/base-enums.c:59 ../app/core/core-enums.c:162
+msgid "Alpha"
+msgstr "ཨཱལ་ཕ།"
+
+#: ../app/base/base-enums.c:60 ../app/display/gimpdisplayshell-title.c:234
+#: ../app/widgets/widgets-enums.c:114
+msgid "RGB"
+msgstr "ཨཱར་བི་ཇི།"
+
+#: ../app/base/base-enums.c:88
+msgid "None (Fastest)"
+msgstr "ཅི་་མེད(མགྱོགས་ཤོས)"
+
+#: ../app/base/base-enums.c:89 ../app/core/core-enums.c:370
+#: ../app/widgets/widgets-enums.c:227
+msgid "Linear"
+msgstr "ལའི་ནིར།"
+
+#: ../app/base/base-enums.c:90
+msgid "Cubic (Best)"
+msgstr "ཀུས་བིཀ(དྲག་ཤོས)"
+
+#: ../app/base/base-enums.c:188
+msgid "Shadows"
+msgstr "གྱིབ་མ།"
+
+#: ../app/base/base-enums.c:189
+msgid "Midtones"
+msgstr "སྐད་གདངས་བར་མ།"
+
+#: ../app/base/base-enums.c:190
+msgid "Highlights"
+msgstr "གཙོ་དམིགས་འབདཝ་ཨིན།"
+
+#: ../app/base/tile-swap.c:456
+msgid ""
+"Unable to open swap file. The Gimp has run out of memory and cannot use the "
+"swap file. Some parts of your images may be corrupted. Try to save your work "
+"using different filenames, restart the Gimp and check the location of the "
+"swap directory in your Preferences."
+msgstr ""
+"ས་ཝཔ་གི་ཡིག་སྣོད་ ཁ་ཕྱེ་མི་ཚུགས། ཇིམཔི་དྲན་ཚད་ལས་འགལ་སོངམ་ལས་ ས་ཝབ་ ཡིག་སྣོད་ལག་ལེན་འཐབ་མི་"
+"ཚུགས། ཁྱོད་ཁྱི་ གཟུགས་བརྙན་གྱི་ཡན་ལག ལ ལུ་ཅིག་ངན་ཅན་ལུ་འགྱུར་སོངམ་འོང་། ཁྱོད་རའི་ལཱ་ སྲུང་བཞག་འབད་"
+"ནིའི་དོན་ལུ ཡིག་སྣོད་ཀྱི་མིང་ སོ་སོ་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས ཇིམཔི་ལོག་འགོ་བཙུགས་ནི་དང་ དགའ་འདམ་ནང་"
+"ལུ ས་ཝབ་སནོད་ཐོ་གི་ས་ཁོངས་ ཞིབ་དཔྱད་འབད་ནི་ལུ འབད་རྩོལ་བསྐྱེད།"
+
+#: ../app/config/gimpconfig-deserialize.c:100
+#, c-format
+msgid "value for token %s is not a valid UTF-8 string"
+msgstr "ངོ་རྟགས %s དོན་ལུ་གནས་གོང་དེ་ ནུས་ཅན་ཡུ་ཊིཨེཕི-༨ཡིག་རྒྱུན་ཅིག་མེན་པས།"
+
+#: ../app/config/gimpconfig-deserialize.c:217 ../app/config/gimpconfig.c:424
+#: ../app/config/gimpconfig.c:437 ../app/config/gimpscanner.c:417
+#: ../app/config/gimpscanner.c:489 ../app/core/gimp-modules.c:132
+#: ../app/core/gimp-units.c:169 ../app/gui/session.c:158
+#: ../app/plug-in/plug-in-rc.c:183
+msgid "fatal parse error"
+msgstr "ཚབས་ཆེན མིང་དཔྱད་འབད་མི འཛོལ་བ།"
+
+#. please don't translate 'yes' and 'no'
+#: ../app/config/gimpconfig-deserialize.c:467
+#, c-format
+msgid "expected 'yes' or 'no' for boolean token %s, got '%s'"
+msgstr ""
+"བུ་ལིན་ངོ་རྟགས་%sགི་དོན་ལུ་ རེ་འདུན་ཡོད་མི་ བཏུབ་ཡང་ན་ མི་བཏུབ། '%s'ཐོབ་ཅི།"
+" "
+
+#: ../app/config/gimpconfig-deserialize.c:541
+#, c-format
+msgid "invalid value '%s' for token %s"
+msgstr "ངོ་རྟགས་ %s་གི་དོན་ལུ་ ནུས་མེད་གནས་གོང་ '%s' "
+
+#: ../app/config/gimpconfig-deserialize.c:556
+#, c-format
+msgid "invalid value '%ld' for token %s"
+msgstr "ནུས་མེད་གནས་གོང་'%ld'ངོ་རྟགས་%s་གི་དོན་ལུ་"
+
+#: ../app/config/gimpconfig-deserialize.c:625
+#, c-format
+msgid "while parsing token '%s': %s"
+msgstr "ངོ་རྟགས་'%s': %sམིང་དཔྱད་འབད་བའི་སྐབས་ལུ།"
+
+#: ../app/config/gimpconfig-path.c:177
+#, c-format
+msgid "Cannot expand ${%s}"
+msgstr "${%s}དེ་རྒྱ བསྐྱེད་འབད་མི་ཚུགས།"
+
+#: ../app/config/gimpconfig-utils.c:561 ../app/config/gimpconfigwriter.c:143
+#: ../app/core/gimpbrushgenerated.c:255 ../app/core/gimpgradient-save.c:51
+#: ../app/core/gimpgradient-save.c:142 ../app/core/gimppalette.c:567
+#: ../app/gui/themes.c:238 ../app/tools/gimpimagemaptool.c:607
+#: ../app/vectors/gimpvectors-export.c:83 ../app/xcf/xcf.c:348
+#, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr " %sའབྲི་ནི་གིས་དོན་ལུ  %sཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../app/config/gimpconfig-utils.c:572 ../app/config/gimpconfig-utils.c:595
+#: ../app/vectors/gimpvectors-export.c:96
+#, c-format
+msgid "Error while writing '%s': %s"
+msgstr " %s %sའབྲི་བའི་སྐབས་ལུ འཛོལ་བ་འདུག"
+
+#: ../app/config/gimpconfig-utils.c:583
+#, c-format
+msgid "Error while reading '%s': %s"
+msgstr " %s %sལྷག་པའི་སྐབས་ལུ་འཛོལ་བ་འདུག"
+
+#: ../app/config/gimpconfig-utils.c:625
+#, c-format
+msgid ""
+"There was an error parsing your '%s' file. Default values will be used. A "
+"backup of your configuration has been created at '%s'."
+msgstr ""
+"ཁྱོད་ཀྱི་ཡིག་སྣོད་'%s'མིང་དཔྱད་འབདཝ་ད་ལུ འཛོལ་འདུག སྔོན་སྒྲིག་འབད་ཚར་མི གནས་གོང་དེ་ཚུ ལག་ལེན་འཐབ་"
+"འོང་། རིམ་སྒྲིག་གི་རྒྱབ་ཐག་དེ་ '%s'.ལུ་གསར་བསྐྲུན་འབད་སྡོད་ནུག"
+
+#: ../app/config/gimpconfigwriter.c:130
+#, c-format
+msgid "Could not create temporary file for '%s': %s"
+msgstr "'%s': %sགི་དོན་ལུ་ གནས་སྐབས་ཀྱི་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../app/config/gimpconfigwriter.c:617
+#, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"The original file has not been touched."
+msgstr ""
+"'%s': %sགི་དོན་ལུ་ གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ལུ་འབྲི་་ནི་ལུ་འཛོལ་བ་འདུག\n"
+"ཡིག་སྣོད་ངོམ་དེ་དཀྲོགས་རང་མ་དཀྲོགས་པས།"
+
+#: ../app/config/gimpconfigwriter.c:625
+#, c-format
+msgid ""
+"Error writing to temporary file for '%s': %s\n"
+"No file has been created."
+msgstr ""
+"'%s': %sགི་དོན་ལུ་གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ལུ་འབྲི་ནི་ལུ་འཚོལ་བ་འདུག\n"
+"ཡིག་སྣོད་ཅིག་ཡང་གསར་བསྐྲུན་མ་འབད་བས།"
+
+#: ../app/config/gimpconfigwriter.c:636
+#, c-format
+msgid "Error writing to '%s': %s"
+msgstr "'%s': %sའབྲི་ནི་ལུ་འཚོལ་བ་འདུག"
+
+#: ../app/config/gimpconfigwriter.c:654
+#, c-format
+msgid "Could not create '%s': %s"
+msgstr "'%s': %s གསར་མསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../app/config/gimprc.c:335 ../app/config/gimprc.c:348
+#, c-format
+msgid "Parsing '%s'\n"
+msgstr "'%s' མིང་དཔྱད་འབད་དོ།\n"
+
+#: ../app/config/gimprc.c:595
+#, c-format
+msgid "Saving '%s'\n"
+msgstr "'%s' བསྲུང་བཞག་འབད་དོ།\n"
+
+#. Not all strings defined here are used in the user interface
+#. *  (the preferences dialog mainly) and only those that are should
+#. *  be marked for translation.
+#.
+#: ../app/config/gimprc-blurbs.h:13
+msgid ""
+"When enabled, an image will become the active image when its image window "
+"receives the focus. This is useful for window managers using \"click to focus"
+"\"."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་ཞིནམ་ལས གཟུགས་བརྙན་སྒོ་སྒྲིག་དེ་གིས ཆེད་དམིགས་འཐོབ་ད་ལུ གཟུགས་བརྙན་དེ་ ཤུགས་ལྡན་"
+"གཟུགས་བརྙན་ལུ་འགྱུར་འོང།འ་ནི་འདི སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་ཚུ་གི་དོན་ལུ \"ཆེད་དམིགས་ལུ་ཨེབ་གཏང་\".དེ་ལག་"
+"ལེན་འཐབ་པའི་སྐབས་སུ་ ཕན་ཐོགས་ཡོད།"
+
+#: ../app/config/gimprc-blurbs.h:23
+msgid "Specifies how the area around the image should be drawn."
+msgstr "གཟུགས་བརྙན མཐའ་འཁོར་གྱི་ས་ཁོངས ག་དེ་སྦེ་འབྲི་ནི་ཨིན་ན་ིག་སྐོར་ལས གསལ་བཀོད་འབདཝཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:26
+msgid ""
+"Sets the canvas padding color used if the padding mode is set to custom "
+"color."
+msgstr ""
+"འབྲི་གཞི་ཐབས་ལམ་དེ སྲོལ་སྒྲིག་ཚོས་གཞི་ནང་ལུ གཞི་སྒྲིག་ཚར་དེ་ཡཡོད་པ་ཅིན་ འབྲི་གཞི་བར་ཤབས་དེ གཞི་སྒཱིག་"
+"འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:30
+msgid "Ask for confirmation before closing an image without saving."
+msgstr "བསྲུང་བཞག་གི་ཐོག་ལས གཟུགས་བཟིགས་བརྙན་ ཁ་མ་བསྡམ་པའི་ཧེ་མ ངེས་གཏན་བཟོ་ནིའི་དོན་ལུ འདྲི་གོ"
+
+#: ../app/config/gimprc-blurbs.h:33
+msgid "Sets the pixel format of cursors the GIMP will use."
+msgstr "ཇི་ཨའི་ཨེམ་པི་གིས་ལག་ལེན་འཐབ་ནི་ཨིན་མི་ འོས་རྟགས་ཚུ་གི་པིག་སེལ་རྩ་སྒྲིག་དེ་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:36
+msgid "Sets the mode of cursor the GIMP will use."
+msgstr "ཇི་ཨའི་ཨེམ་པི་གིས་ ལག་ལེན་འཐབ་ནི་ཨིན་མི་ འོས་རྟགས་དེ་གི་ཐབས་ལམ་དེ་གཞི་སྒྲིག་འབད་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:39
+msgid ""
+"Context-dependent cursors are cool.  They are enabled by default. However, "
+"they require overhead that you may want to do without."
+msgstr ""
+"སྐབས་འབབ་- བརྟེན་མི་ འོས་རྟགས་ཚུ་ བསིལ་བ་ཨིན། དེ་ཚུ་ སྔོན་སྒྲིག་གིས ལྕོགས་ཅན་བཟོ་བཟོཝ་"
+"ཨིན།ཨིན་རུང་ དེ་ཚུ་ལུ་ ཁྱོད་ཀྱིས རེ་འདོད་མེད་མི ཨོ་བར་ཧེཊི་དེ་ དགོས་ཁོ་ཡོདཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:47
+msgid ""
+"When enabled, this will ensure that each pixel of an image gets mapped to a "
+"pixel on the screen."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་ཞིནམ་ལས དེ་གིས གཟུགས་བརྙན་རེ་རེ་གི་ པིག་སེལ་ཚུ གསལ་གཞི་གུའི་པིག་སེལ་ལུ ས་ཁྲ་བཟོ་ནི་"
+"ལུ ངེས་ཏིག་བཟོཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:73
+msgid "This is the distance in pixels where Guide and Grid snapping activates."
+msgstr "འདི པིག་སེལ་ནང་ལུ འཁྱིད་མི་དང་གིརིཌི་གི དཔར་བཏབ་མི ཤུགས་ལྡན་བཟོ་ས་གི་གྱང་ཚད་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:77
+msgid ""
+"Tools such as fuzzy-select and bucket fill find regions based on a seed-fill "
+"algorithm.  The seed fill starts at the initially selected pixel and "
+"progresses in all directions until the difference of pixel intensity from "
+"the original is greater than a specified threshold. This value represents "
+"the default threshold."
+msgstr ""
+"ལག་ཆས དེ་ཡང་ ཕ་ཛི་སི་ལེགཊི་དང་ བ་ཀེཊི་ཕིལི་ ཕཡིནི་རི་ཇནི་ ཚུ་སིཌི་ཕིལི་  ཨཱལ་གོ་རི་དམ་ལུ་ གཞི་བཞགཔ་"
+"ཨིན། འ་ནི་ སིཌི་ཕིལི་དེ་ འགོ་ཐོག་སེལ་འཐུ་འབད་ཚར་མི པིག་སེལ་ཐོག་ལས་ འགོ་བཙུགསཔ་ཨིན།དེ་ལས་ངོ་མ་ནང་"
+"ལུ་ཡོད་མི པིག་སེལ་གྱི་དྲག་ཤུགས་ གི་ཁྱད་པར་དེ་ གསལ་བཀོད་འབད་མི་ ཐེརེཤ་ཧཱོལ་ ལས་མ་སྦོམ་ཚུན ཕྱོགས་ག་ར་"
+"ལུ་ གོང་འཕེལ་འགྱོཝ་ཨིན།འ་ནི་གནས་གོང་དེ་གིས སྔོན་སྒྲིག་འབད་མི་ ཐེརེཤ་ཧཱོལ་གྱི་ ཚབ་བཏོནམ་ཨཚིན།"
+
+#: ../app/config/gimprc-blurbs.h:90
+msgid ""
+"The window type hint that is set on dock windows. This may affect the way "
+"your window manager decorates and handles dock windows."
+msgstr ""
+"སྒཽ་སྒྲིག་གི་དབྱེ་བ་ བརྡ་མཚོན་ནི་ ཟེར་མི་དེ ཌོཀ་སྒོ་སྒྲིག་གུར་ལུ གཞི་སྒྲིག་འབད་དེ་ཡོད། འ་ནི་གིས ཁྱོད་ཀྱི་ སྒོ་སྒྲིག་"
+"འཛིན་སྐྱོང་པ་གིས་ ཌོཀ་སྒོ་སྒྲིག་ ག་དེ་སྦེ་ མཛེས་བཀོད་འབདཝ་ཨིན་ན་དང་ ག་དེ་སྦེ་ ལེགས་སྐྱོང་འཐབ་ཨིན་ན་ལུ་ "
+"གནོད་ཉེན་ཡོད།"
+
+#: ../app/config/gimprc-blurbs.h:121
+msgid "When enabled, the selected brush will be used for all tools."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས སེལ་ཡཐུ་འབད་ཚར་མི དྭངས་བཟོ་དེ་ ལག་ཆས་ག་ར་ལུ ལང་ལེན་འཐབ་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:127
+msgid "When enabled, the selected gradient will be used for all tools."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས སེལ་འཐུ་འབད་ཚར་མི་ སྟེགས་རིས་དེ་ ལག་ཆས་ག་ར་ལུ ལག་ལེན་འཐབ་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:130
+msgid "When enabled, the selected pattern will be used for all tools."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས སེལ་འཐུ་འབད་ཚར་མི་ བང་རིམ་དེ་ ལག་ཆས་ག་ར་ལུ ལག་ལེན་འཐབ་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:146
+msgid "Sets the browser used by the help system."
+msgstr "གྲོགས་རམ རིམ་ལུགས་ཀྱི་ལག་ལེན་འཐབ་མི བརའུ་ཟར་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:154
+msgid "Sets the text to appear in image window status bars."
+msgstr "གཟུགས་བརྙན་ སྒོ་སྒྲིག་གི་ གནས་ཚད་ཕྲ་རིང་ནང་ལུ འབྱུང་བཅུག་ནིའི་དོན་ལུ ཚིག་ཡིག་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:157
+msgid "Sets the text to appear in image window titles."
+msgstr "གཟུགས་བརྙན་ སྒོ་སྒྲིག་གི་ནང་ལུ མགོ་མིང་ འབྱུང་བཅུག་ནིའི་དོན་ལུ ཚིག་ཡིག་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:160
+msgid "When enabled, the GIMP will use a different info window per image view."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ ཇི་ཨའི་ཨེམ་པི་གིས་ གཟུགས་བརྙན་གྱི་མཐོང་སྣང་རེ་ལུ་ བརྡ་དོན་སྒོ་སྒྲིག་སོ་སོ་ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:163
+msgid ""
+"When enabled, this will ensure that the full image is visible after a file "
+"is opened, otherwise it will be displayed with a scale of 1:1."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས དེ་གིས་ ཡིག་སྣོད་ཁ་ཕྱེ་ཚར་བཞིནམ་ལས་ གཟུགས་བརྙན་ ཆ་ཚང་ མཐོང་ཚུགསཔ་ངེས་"
+"ཏིག་བཟོཝ་ཨིན། དེ་མེན་ འ་ནི་དེ་ཆ་ཚད་1:1.འབད་མི་དང་ཅིག་ཁར་ བཀྲམ་སྟོན་འབད་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:167
+msgid "Install a private colormap; might be useful on 8-bit (256 colors) displays."
+msgstr "སྒེར་གྱི་ཚོས་གཞི་ཅན་གྱི ས་ཁྲ་གཞི་བཙུགས་འབད། ༨བིཊི་(༡༢༦ཚོས་གཞི) བཀྲམ་སྟོན་གུར་ ཕན་ཐོགས་འོང་ག་མི་ཤེས།"
+
+#: ../app/config/gimprc-blurbs.h:170
+msgid "Sets the level of interpolation used for scaling and other transformations."
+msgstr ""
+"ཆ་ཚད་འཇལ་་ནི་དང་ གཞན་བཟོ་བསྒྱུར་འབད་ནི་ཚུ་ལུ་ ལག་ལེན་འཐབ་ཡོད་མི་བསྐྱར་བསྣོན་ གནས་རིམ་ གཞི་སྒྲིག་"
+"འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:174
+msgid "How many recently opened image filenames to keep on the File menu."
+msgstr "ཡིག་སྣོད་དཀར་ཆག གུར བཞག་ནིའི་དོན་ལུ་ འཕྲལ་སྐབས་ཕྱེ་མི གཟུགས་བརྙན་ ཡིག་སྣོད་ཀྱི་མིང་ ག་དེ་ཅིག་ཡོད་ག"
+
+#: ../app/config/gimprc-blurbs.h:177
+msgid ""
+"Speed of marching ants in the selection outline.  This value is in "
+"milliseconds (less time indicates faster marching)."
+msgstr ""
+"སེལ་འཐུའི་མཐའ་ཐིག་ནང་ གྱོག་མོའི་ཁྲབ་བསྐྱོད་ཀྱི་ མྒྱོགས་ཚད་ཡོད། གནས་གོང་དེ་ མི་ལི་དཀར་ཆག་ནང་ཨིན། (ཆུ་"
+"ཚོད་ཉུང་སྒོར་མི་གི་ ཁྲབ་བསྐྱོད་མགྱོགས་སུ་ འགྱོ་བའི་བརྡ་སྟོནམ་ཨིན།)."
+
+#: ../app/config/gimprc-blurbs.h:181
+msgid ""
+"GIMP will warn the user if an attempt is made to create an image that would "
+"take more memory than the size specified here."
+msgstr ""
+"གཟུགས་བརྙན་གསར་བསྐྲུན་ འབད་ནིའི་དཔའ་བཅམ་སྟེ་ གསལ་བཀོད་འབད་ཚར་མི་ཚད་ ལས་ལྷག་སྟེ་ དྲན་ཚད་ལེ་ཤ་"
+"སྦག་པ་ཅིན་ ཇི་ཨཱའི་ཨེམ་པི་གིས་ ལག་ལེན་འཐབ་མི་ལུ་ ཉེན་བརྡ་འབད་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:185
+msgid "When enabled, GIMP will show mnemonics in menus."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བའི་སྐབས་སུ ཇི་ཨཱའི་ཨེམ་པི་གིས་ དཀར་ཆག་ནང་ལུ་ མེ་ནོ་མིགསི་ སྟོན་འོང།"
+
+#: ../app/config/gimprc-blurbs.h:188
+msgid ""
+"Generally only a concern for 8-bit displays, this sets the minimum number of "
+"system colors allocated for the GIMP."
+msgstr ""
+"སྤྱིར་བཏང་འབད་བ་ཅིན་ བིཊི་༨་གི་དོན་ལུ་ འབྲེལ་བ་ཡོད་མི་ རྐྱངམ་ཅིག་བཀྲམ་སྟིན་འབདཝ་ཨིན། དེ་གིས་ ཇི་ཨཱའི་"
+"ཨེམ་པི་ དོན་ལུ་སྤྲོད་བཞག་མི་ ཚོས་གཞི་རིམ་ལུགས་ཀྱི་ ཉུང་མཐའི་ཨང་གྲངས་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:199
+msgid ""
+"Sets the monitor's horizontal resolution, in dots per inch.  If set to 0, "
+"forces the X server to be queried for both horizontal and vertical "
+"resolution information."
+msgstr ""
+"བལྟ་རྟོགས་པའི་ཐད་སྙམས་ ཧུམ་ཆ་དེ་ ཨིནཅི་རེ་ལུ་ ཌོཊིསི་རེ་སྦེ་ གཞི་སྒྲིག་འབདཝ་ཨིན།་0, ལ་ུ་གཞི་སྒྲིག་འབད་བ་"
+"ཅིན་ ་་་ཐད་སྙོམས་དང་ ཀེར་ཕྲང་གཉིས་ཆ་རའི་ཧུམ་ཆའི་ བརྡ་དོན་ དོན་ལུ་ བང་བཙོང་གི་ཐོག་ལས་ X སར་"
+"བར་ འདྲི་ཞིབ་འབད་བཅུགཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:204
+msgid ""
+"Sets the monitor's vertical resolution, in dots per inch.  If set to 0, "
+"forces the X server to be queried for both horizontal and vertical "
+"resolution information."
+msgstr ""
+"ལྟ་རྟོགས་པའི་ཀེར་ཕྲང་ ཧུམ་ཆ་དེ་ ཨིནཅི་རེ་ལུ་ ཌོཊིསི་རེ་སྦེ་ གཞི་སྒྲིག་འབདཝ་ཨིན།་0, ལ་ུ་གཞི་སྒྲིག་འབད་བ་"
+"ཅིན་ ་་་ཐད་སྙོམས་དང་ ཀེར་ཕྲང་གཉིས་ཆ་རའི་ཧུམ་ཆའི་ བརྡ་དོན་ དོན་ལུ་ བང་བཙོང་གི་ཐོག་ལས་ X སར་"
+"བར་ འདྲི་ཞིབ་འབད་བཅུགཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:209
+msgid ""
+"If enabled, the move tool changes the active layer or path when a layer or "
+"path is being picked. This used to be the default behaviour in older "
+"versions."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་ཨིན་པ་ཅིནསྤོ་བཤུད་ལག་ཆས་དེ་ བང་རིམ་ཡང་ན འགྲུལ་ལམ་འདི་མཐུཝ་ད་ལུ ཤུགས་ལྡན་བང་རིམ་ཡང་"
+"ན འགྲུལ་ལམ་ལུ་ སྒྱུར་བཅོས་འབདཝ་ཨིན།འ་ནི་འདི་ ཐོན་རིམ་རྙིངམ་ནང་གི་ སྔོན་སྒྲིག་སྤྱོད་ལམ་ ཅིག་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:214
+msgid ""
+"Sets the size of the navigation preview available in the lower right corner "
+"of the image window."
+msgstr ""
+"འོག་གི་གཟུགས་བརྙན་སྒོ་སྒྲིག་གི་ གཡས་ཁ་ཐུགས་ཀྱི་ སྒྱིད་ཁུག་ནང་ལས་ འཐོབ་ཚུགས་པའི་ འགྲུལ་བསྐྱོད་སྔོན་བལྟ་གི་ "
+"ཚད་ྲ གཞི་སྒྲིག་འབདཉ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:218
+msgid ""
+"On multiprocessor machines, if GIMP has been compiled with --enable-mp this "
+"sets how many processors GIMP should use simultaneously."
+msgstr ""
+"སྣ་མང་ལས་སྦྱོར་འཕྲུལ་ཆས་གུར་ ཇི་ཨའི་ཨེམ་པི་གི་ཐོག་ལས་ ལྕོགས་ཅན་ཨེམ་པི་ ཕྱོགས་སྒྲིག འབད་བ་ཅིན་ དེ་"
+"གིས་  དུས་མཉམ་ལུ་ ཇི་ཨེམ་པི་གི་འཕྲུལ་ཆས་ལས་སྦྱོར་ ག་དེ་ཅིག་ལག་ལེན་འཐབ་དགོཔ་ཨིན་ན་ གཞི་སྒྲིག་འབདཝ་"
+"ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:232
+msgid ""
+"When enabled, the X server is queried for the mouse's current position on "
+"each motion event, rather than relying on the position hint.  This means "
+"painting with large brushes should be more accurate, but it may be slower.  "
+"Perversely, on some X servers enabling this option results in faster "
+"painting."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་བའི་ཤུལ་ལས Xསར་བར་དེ་ གནས་ས་གི་བརྡ་མཚོན་་ལུ་མ་བརྟེན་པར་ འགུལ་བའི་ བྱུང་ལས་རེ་"
+"རེ་གུར་ཡོད་མི་ མའུསི་གི་ ད་ལྟོ་ཡོད་མི་ གནས་ས་གི་དོན་ལུ་དྲི་ཞིབ་འབདཝ་ཨིན། དེའི་དོན་དག་འདི་ཡང་ པྱིར་ཆེ་"
+"བའི་ཐོག་ལས་ ཚོན་གཏང་མི་འདི་ ངེས་གཏན་ཧེང་བཀལ་འོང་གོ དེ་འབདཝ་ད་ འདི་ལྷོད་ཆ་སྦེ་འོང། འདམ་འདི་ལྕོགས་"
+"གྲུབ་ཅན་བཟོ་མི་ Xསར་བར་ལ་ལུ་ཅིག་ལུ་ ཕྱི་འགྱུར་འབད་འགྱོ་བ་ཅིན  ཚན་མགྱོགས་པ་གཏང་ཚུགས།"
+
+#: ../app/config/gimprc-blurbs.h:245
+msgid ""
+"Sets whether GIMP should create previews of layers and channels. Previews in "
+"the layers and channels dialog are nice to have but they can slow things "
+"down when working with large images."
+msgstr ""
+"ཇི་ཨའི་ཨེམ་པི་གིས བང་རིམ་དང་རྒྱུ་ལམ་གི་སྔོན་བལྟ གསར་བསྐྲུན་གོ་དང་མི་གོ་གཞི་སྒྲིག་འབདཝ་ཨིན། བང་རིམ་དང་"
+"རྒྱུ་ལམ་ ཌའི་ལོག་་ནང་གི་སྔོན་བལྟ་ཚུ་ཡོད་མི་དེ་ལེགས་ཤོམ་ཨིན་རུང་ དེ་གིས་གཟུགས་བརྙན་ཆེ་བ་དང་ ཅིག་ཁར་ལཱ་"
+"འབད་བའི་སྐབས་སུ་ ཅ་ལ་ཚུ་ལྷོད་ཆ་དང་ལྡནམ་སྦེ་བཞག་ཚུགས།"
+
+#: ../app/config/gimprc-blurbs.h:250
+msgid ""
+"Sets the preview size used for layers and channel previews in newly created "
+"dialogs."
+msgstr ""
+"གསརཔ་སྦེ་གསར་བསྐྲུན་འབད་མི་ ཌའི་ལོག་ནང་གི་ བང་རིམ་དང་ སྔོན་བལྟའི་རྒྱུ་ལམ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་"
+"རྒྱུ་ལམ་སྔོན་བལྟའི་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:254
+msgid ""
+"When enabled, the image window will automatically resize itself, whenever "
+"the physical image size changes."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས དངོས་ཅན་ གཟུགས་བརྙན་གྱི་ཚད་དེ་ བསྒྱུར་བཅོས་འགྱོ་བའི་སྐབས་ལུ་ གཟུགས་"
+"བརྙན་སྒོ་སྒྲིག་དེ་ཡང་ རང་བཞིན་གྱིས་ ཁོ་རའི་ཚད་ ལོག་བསྒྱུར་བཅོས་འབད་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:258
+msgid ""
+"When enabled, the image window will automatically resize itself, when "
+"zooming into and out of images."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས  གཟུགས་བརྙན་གྱི་ནང་ན་དང་ ཕྱི་ཁར་ རྒྱས་ཟུམ་འབད་མའི་སྐབས་ལུ་ གཟུགས་"
+"བརྙན་སྒོ་སྒྲིག་དེ་ཡང་ རང་བཞིན་གྱིས་ ཁོ་རའི་ཚད་ ལོག་བསྒྱུར་བཅོས་འབད་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:262
+msgid "Let GIMP try to restore your last saved session on each startup."
+msgstr ""
+"  ཁྱོད་ཀྱི་མཇུག་མམ་གྱི་བསྲུང་བཞག་འབད་བཞག་མི་ ལཱ་ཡུན་དེ་ འགོ་བཙུགས་རེ་རེའི་གུར་ ལོག་སྲོག་འཇོག་འབད་ནི་"
+"ལུ ཇི་ཨའི་ཨེམ་པི་གིས་ འབད་རྩོལ་བསྐྱེད་བཅུག་ད།"
+
+#: ../app/config/gimprc-blurbs.h:265
+msgid "Remember the current tool, pattern, color, and brush across GIMP sessions."
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི ལཱ་ཡུན་ཡོངས་ལུ་ ད་ལྟོའི་ལག་ཆས་ དཔེ་གཞི་ ཚོས་གཞི་ དང་པྱིར་ཚུ་ སེམས་ཁར་བཞག།"
+
+#: ../app/config/gimprc-blurbs.h:269
+msgid "Save the positions and sizes of the main dialogs when the GIMP exits."
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ཕྱིར་འཐོན་འགྱོཝ་ད་ལུ ཌའི་ལོག་ངོ་མ་གི་ གནས་ས་དང་ ཚད་ཚུ་ སྲུང་བཞག་འབད་གནང་།"
+
+#: ../app/config/gimprc-blurbs.h:275
+msgid ""
+"When enabled, all paint tools will show a preview of the current brush's "
+"outline."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ མཚོན་གྱི་ལག་ཆས་ཆ་མཉམ་གྱི་ ད་ལྟོ་ཡོད་མི་ པྱིར་གྱི་མཐའ་ཐིག གི་སྔོན་བལྟ་"
+"སྟོན་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:279
+msgid ""
+"When enabled, dialogs will show a help button that gives access to the "
+"related help page.  Without this button, the help page can still be reached "
+"by pressing F1."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ ཌའི་ལོག་གིས་ འབྲེལ་བ་ཡོད་མི་ གྲོགས་རམ་ ཤོག་གྲངས་ལུ འཛུལ་སྤྱོད་འབད་"
+"མི་ གྲོགས་རམ་གཡེབ་རྟ སྟོནམ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:284
+msgid ""
+"When enabled, the cursor will be shown over the image while using a paint "
+"tool."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ མཚོན་གྱི་ལག་ཆས་ ལག་ལེན་འཐབ་པའི་སྐབས་སུ་ གཟུགས་བརྙན་ཡོངས་ལུ་ འོད་རྟགས་དེ་ སྟོནམ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:288
+msgid ""
+"When enabled, the menubar is visible by default. This can also be toggled "
+"with the \"View->Show Menubar\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ སྔོན་སྒྲིག་གི་འབད་དེ་ དཀར་ཆག་ཕྲ་རིང་ མཐོངམ་ཨིན། དེ་ཡང་ \"View-"
+">Show Menubar\"བརྡ་བཀོད་ཟེར་མི་ཚུ་ སོར་སྟོན་གྱི་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:292
+msgid ""
+"When enabled, the rulers are visible by default. This can also be toggled "
+"with the \"View->Show Rulers\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ སྔོན་སྒྲིག་འབད་དེ་ ཐིག་ཤིང་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་\"View->Show "
+"Rulers\"བརྡ་བཀོད་ ཟེར་མི་ཚུ་ སོར་སྟོན་གྱི་་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:296
+msgid ""
+"When enabled, the scrollbars are visible by default. This can also be "
+"toggled with the \"View->Show Scrollbars\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས ཀེར་ཕྲང་ བཤུད་ཕྲ་ཚུ་ སྔོན་སྒྲིག་གི་སྦེ་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་\"View-"
+">Show Scrollbars\" བརྡ་བཀོད་ཟེར་མི་ཚུ སོར་སྟོན་གྱི་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:300
+msgid ""
+"When enabled, the statusbar is visible by default. This can also be toggled "
+"with the \"View->Show Statusbar\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས གནས་ཚད་ཕྲ་རིང་དེ་  སྔོན་སྒྲིག་གི་སྦེ་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་ \"View-"
+">Show Statusbar\"བརྡ་བཀོད་ཟེར་མི་ཚུ་སོར་སྟོན་གྱི་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:304
+msgid ""
+"When enabled, the selection is visible by default. This can also be toggled "
+"with the \"View->Show Selection\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས སེལ་འཐུ་དེ་ སྔོན་སྒྲིག་གི་སྦེ་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་\"View->Show "
+"Selection\"བརྡ་བཀོད་ ཟེར་མི་ཚུ་སོར་སྟོན་གྱི་ཐོག་ལས་ཡང འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:308
+msgid ""
+"When enabled, the layer boundary is visible by default. This can also be "
+"toggled with the \"View->Show Layer Boundary\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས བང་རིམ་གྱི་མཐའ་ཚད་དེ་ སྔོན་སྒྲིག་གི་སྦེ་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་\"View-"
+">Show Layer Boundary\" བརྡ་བཀོད་ ཟེར་མི་ཚུ་ སོར་སྟོན་གྱི་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:312
+msgid ""
+"When enabled, the guides are visible by default. This can also be toggled "
+"with the \"View->Show Guides\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས ལམ་སྟོན་པ་དེ་ སྔོན་སྒྲིག་གི་སྦེ་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་བརྡ་བཀོད་ཟེར་མི་ཚུ་ "
+"སོར་སྟོན་གྱི་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:316
+msgid ""
+"When enabled, the grid is visible by default. This can also be toggled with "
+"the \"View->Show Grid\" command."
+msgstr ""
+"ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས གིརིཌི་དེ་ སྔོན་སྒྲིག་གི་སྦེ་མཐོང་ཚུགསཔ་ཨིན།དེ་ཡང་\"View->Show Grid"
+"\"བརྡ་བཀོད་ཟེར་མི་ཚུ་ སོར་སྟོན་གྱི་ཐོག་ལས་ཡང་ འབད་ཚུགསཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:320
+msgid "Enable to display a handy GIMP tip on startup."
+msgstr ""
+"འགོ་བཙུགས་གུར་ ཇི་ཨའི་ཨེམ་པི་ ཕན་བསླབ་ སྟབས་བདེ་ཏོག་ཏོ་བཟོ་སྟེ་བཀྲམ་སྟོན་འབད་ནིའི་དོན་ལུ་ ལྕོགས་ཅན་"
+"བཟོ།"
+
+#: ../app/config/gimprc-blurbs.h:323
+msgid "Enable to display tooltips."
+msgstr "ལག་ཆས་ ཕན་བསླབ་ བཀྲམ་སྟོན་འབད་ནིའི་དོན་ལུ་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../app/config/gimprc-blurbs.h:326
+msgid ""
+"There is always a tradeoff between memory usage and speed.  In most cases, "
+"the GIMP opts for speed over memory.  However, if memory is a big issue, try "
+"to enable this setting."
+msgstr "དྲན་ཚད་ལག་ལེན་འཐབ་ནི་དང་ མགྱོགས་ཚད་གཉིས་ཀྱི་བར་ན་ལུ་ ཨ་རྟག་རང་ ཊེཌི་ཨོཕ་དེ་འོངམ་ཨིན། གནད་དོན་མང་ཤོས་ཅིག་ནང་ལུ་རང་ ཇི་ཨའི་ཨེམ་པི་གིས་ དྲན་ཚད་ཡོངས་གུར་མགྱོགས་ཚད་དེ་ལུ་གདམ་ཁ་རྐྱབ་ཨིན། ཨིན་རུང་ དྲན་ཚད་དེ་གནད་དོན་སྦོམ་ཅིག་ཨིན་པ་ཅིན་ སྒྲིག་སྟངས་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་འབད་རྩོལ་བསྐྱེད།"
+
+#: ../app/config/gimprc-blurbs.h:331
+msgid ""
+"Sets the swap file location. The gimp uses a tile based memory allocation "
+"scheme. The swap file is used to quickly and easily swap tiles out to disk "
+"and back in. Be aware that the swap file can easily get very large if the "
+"GIMP is used with large images. Also, things can get horribly slow if the "
+"swap file is created on a directory that is mounted over NFS.  For these "
+"reasons, it may be desirable to put your swap file in \"/tmp\"."
+msgstr ""
+"བརྗེ་སོར་ ཡིག་སྣོད་ཀྱི་གནས་ཁོངས་དེ་ གཞི་སྒྲིག་འབདཝ་ཨིན། ཇི་ཨའི་ཨེམ་པི་གིས མགོ་མིང་ལུ་བརྟེན་མི་ དྲན་ཚད་སྤྲོད་"
+"བཞག་གི་ལས་འཆར ལག་ལེན་འཐབ་ཨིན། བརྗེ་སོར་ཡིག་སྣོད་དེ་ མགོ་མིང་ཚུ་ ཌིགསི་གི་ ཕྱི་ཁར་དང་ལོག་ནང་ན་ "
+"མགྱོགས་པར་དང འཇམ་ཏོང་ཏོ་སྦེ་ བརྗེ་སོར་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཨིན། ཇི་ཨའི་ཨེམ་པི་དེ གཟུགས་བརྙན་ཆེ་བ་"
+"དང་ཅིག་ཁར་ལག་ལེན་འཐབ་པ་ཅིན་ བརྗེ་སོར་ཡིག་སྣོད་དེ་གིས་ འཇམ་ཏོང་ཏོ་སྦེ་ གནམ་མེད་ས་མེད་ སྦོམ་འགྱོཝ་"
+"ཨིན། དེ་མ་ཚད་ ཨེན་ཨེཕི་ཨེསི་གུར་ སྦྱར་བརྩེགསའབད་ཚར་མི་སྣོད་ཐོ་གུར་ བརྗེ་སོར་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་བ་ "
+"ཅིན་ ཅ་ཆས་ཚུ་ གནམ་མེད་ས་མེད་ལྷོད་ལྷོད་སྦེ་འགྱོཝ་ཨིན། དེ་གི་དོན་ལུ་ ཁྱོད་ཀྱི་ཡིག་སྣོད་དེ་\"/tmp\".ནང་ལུ་"
+"བཙུགས་པ་ཅིན་མི་དྲག་ག"
+
+#: ../app/config/gimprc-blurbs.h:340
+msgid "When enabled, menus can be torn off."
+msgstr "ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས དཀར་ཆག་དེ་ཚུ་ འཕྲལ་གཏང་བཏུབ།"
+
+#: ../app/config/gimprc-blurbs.h:343
+msgid ""
+"When enabled, you can change keyboard shortcuts for menu items by hitting a "
+"key combination while the menu item is highlighted."
+msgstr ""
+"ལྕོགསགྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ དཀར་ཆག་རྣམ་གྲངས་ཀྱི་དོན་ལུ་ ལྡེ་སྒྲོམ་ མགྱོགས་ཐབས་ཚུ་ དཀར་ཆག་རྣམ་"
+"གྲངས་ གཙོ་དམིགས་བཀོད་པའི་སྐབས་སུ་ མཉམ་བསྡོམས་འབད་ཡོད་མི་ ལྡེ་མིག་ གཡེབ་པའི་ཐོག་ལས་ བསྒྱུར་བཅོས་"
+"འབད་ཚུགས།"
+
+#: ../app/config/gimprc-blurbs.h:347
+msgid "Save changed keyboard shortcuts when the GIMP exits."
+msgstr ""
+"ཇི་ཨའི་ཨེམ་པི་ ཕྱིར་དོན་འབདཝ་ད་ལུ་ བསྒྱུར་བཅོས་འབད་ཚར་མི་ ལྡེ་སྒྲོམ་ མགྱོགས་ཐབས་ཚུ་ སྲུང་བཞང་འབདཝ་"
+"ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:350
+msgid "Restore saved keyboard shortcuts on each GIMP startup."
+msgstr ""
+"སྲུང་བཞག་འབད་ཚར་མི་ ལྡེ་སྒྲོམ་ མགྱོགས་ཐབས་ཚུ་ ཇི་ཨའི་ཨེམ་པི་ རེ་རེའི་འགོ་བཙུགས་ཀྱི་སྐབས་ ལོག་གསོག་འཇོག་"
+"འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:353
+msgid ""
+"Sets the temporary storage directory. Files will appear here during the "
+"course of running the GIMP.  Most files will disappear when the GIMP exits, "
+"but some files are likely to remain, so it is best if this directory not be "
+"one that is shared by other users."
+msgstr ""
+"གནས་སྐབས་ཀྱི་ བསག་མཛོད་སྣོད་ཐོ་ གཞི་སྒྲིག་འབདཝ་ཨིན། ཇི་ཨའི་ཨེམ་པི་ གཡོག་བཀོལ་བའི་ཚེ་ན་ ཡིག་སྣོད་འདི་"
+"ནང་ འབྱུངམ་ཨིན།ཡིག་སྣོད་མང་ཤོས་ཅིག་གི་རང་ ཇི་ཨའི་ཨེམ་པི་ ཕྱིར་ཐོན་འབད་བའི་ཚེ་ན་ ཡལ་འགྱོཝ་ཨིན་ དེ་"
+"འབདཝ་ད་ ཡིག་སྣོད་ལ་ལུ་ཅིག་ ཡལ་མ་འགྱོ་བར་སྡོད་མི་ཡང་ཡོད། དེ་འབདཝ་ལས་ ལག་ལེན་པ་གཞན་གིས་ རུབ་"
+"སྤྱོད་འབད་མི་དེ་ སྣོད་ཐོ་འདི་མེན་པ་ཅིན་ ག་ཅི་དེ་ལེགས་ཤོམ་ཨིན་པས།"
+
+#: ../app/config/gimprc-blurbs.h:365
+msgid ""
+"Sets the size of the thumbnail shown in the Open dialog. Note that GIMP can "
+"not create thumbnails if layer previews are disabled."
+msgstr ""
+"ཌའི་ལོག་ ཁ་ཕྱེ་ཡོདམི་ནང་སྟོན་མི་ མཐེབ་གཟེར་གྱི་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན། བང་རིམ་སྔོན་བལྟ་ཚུ་ ལྕོགས་གྲུབ་"
+"མེད་མི་ཨིན་པ་ཅིན་ ཇི་ཨའི་ཧེམ་པི་གིས མཐེབ་གཟེར་ཚུ་ གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་ཨིནམ་སེམས་ཁར་འདྲེན།"
+
+#: ../app/config/gimprc-blurbs.h:369
+msgid ""
+"The thumbnail in the Open dialog will be automatically updated if the file "
+"being previewed is smaller than the size set here."
+msgstr ""
+"སྔོན་བལྟ་འབད་བའི་སྒང་ཡོད་མི་་ཡིག་སྣོད་དེ་ ན་ལུ་ཡོད་མི་ཚད་ལས་ཆུང་སུ་ཡོད་པ་ཅིན་ ཌའི་ལོག་ ཁ་ཕྱེ་ཡོད་མི་"
+"ནང་སྟོན་མི་ མཐེབ་གཟེར་གིས་ རང་བཞིན་གྱིས་ དུས་མཐུན་བཟོ་འོང་།"
+
+#: ../app/config/gimprc-blurbs.h:373
+msgid ""
+"The tile cache is used to make sure the GIMP doesn't thrash tiles between "
+"memory and disk. Setting this value higher will cause the GIMP to use less "
+"swap space, but will also cause the GIMP to use more memory. Conversely, a "
+"smaller cache size causes the GIMP to use more swap space and less memory."
+msgstr ""
+"དྲན་ཚད་དང་ ཌིག་སི་གི་བར་ན་ ཇི་ཨའི་ཨེམ་པི་གིས  ཊ་ཡིལ་ ཐེརེཤ་ འབད་མ་བཅུགཔ་ངེས་ཏིག་བཟོ་ནིའི་དོན་ལུ་ "
+"ཊཡིལ་ འདྲ་མཛོད་དེ་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན། གནས་གོང་འདི་མཐོ་སུ་སྦེ་ གཞི་སྒྲིག་འབད་མི་དེ་གིས་ ཇི་ཨའི་ཨེམ་"
+"པི་གིས་ བརྗེ་སོར་བར་སྟོང་ ཉུང་སུ་ལག་ལེན་འཐབ་བཅུགཔ་ཨིན། དེ་འབདཝ་ད་ ཇི་ཨའི་ཨེམ་པི་གིས་ དྲན་ཚད་མང་"
+"སུ་སྦེ་ཡང་ ལག་ལེན་འཐབ་བཅུགཔ་ཨིན། འདྲ་མཛོད་ཀྱི་ཚད་ཆུང་སུ་ཡོད་མི་དེ་གིས་ ཇི་ཨའི་ཨེམ་པི་གིས་ བརྗེ་སོར་"
+"བར་སྟོང་མང་སུ་དང་  དྲན་ཚད་ཉུང་སུ་སྦེ་ལག་ལེན་འཐབ་བཅིགཔ་ཨིན། "
+
+#: ../app/config/gimprc-blurbs.h:384
+msgid ""
+"The window type hint that is set on the toolbox. This may affect how your "
+"window manager decorates and handles the toolbox window."
+msgstr ""
+"ལག་ཆས་སྒྲོམ་གུར་ལུ་ གཞི་སྒྲིག་འབད་དེ་ཡོག་མི་ སྒོ་སྒྲིག་གི་དབྱེ་བའི་བརྡ་མཚོན། དེ་གིས་ ཁྱོད་ཀྱི་སྒོ་སྒྲིག་འཛིན་སྐྱོང་"
+"པ་གིས་ ལག་ཆས་སྒྲོམ་གྱི་སྒོ་སྒྲིག་ ག་དེ་སྦེ་ མཛེས་བཀོད་དང་ ལེགས་སྐྱོང་འཐབ་ཨིན་ན་ལུ་ གནོད་སྐྱོན་བྱུང་འོང་ག་"
+"མི་ཤེས།"
+
+#: ../app/config/gimprc-blurbs.h:388
+msgid "Sets the manner in which transparency is displayed in images."
+msgstr "གཟུགས་བརྙན་ནང་ལུ་ དྭངས་གསལ་ཅན་ བཀྲམ་སྟོན་འབད་དིའི་དོན་ལུ་ སྤྱོད་ལམ་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:391
+msgid "Sets the size of the checkerboard used to display transparency."
+msgstr "དྭངས་གསལ་ཅན་ བཀྲམ་སྟོན་འབད་དིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་ ཅེཀརབོཌ གི་ཚད་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:394
+msgid ""
+"When enabled, the GIMP will not save if the image is unchanged since opening "
+"it."
+msgstr ""
+"ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ གཟུགས་བརྙན་དེ་ ཧེ་མ་ཁ་ཕྱེ་བཞིནམ་ལས་འགོ་བཟུང་ བསྒྱུར་བཅོས་མ་འབད་བར་ཡོད་མི་"
+"ཨིན་པ་ཅིན་ ཇི་ཨའི་ཨེམ་པི་གིས་ སྲུང་བཞག་མི་འབད།"
+
+#: ../app/config/gimprc-blurbs.h:398
+msgid ""
+"Sets the minimal number of operations that can be undone. More undo levels "
+"are kept available until the undo-size limit is reached."
+msgstr ""
+"འབད་ཤོལ་འབད་བཏུབ་པའི་ བཀོལ་སྤྱོད་ཀྱི་ཐེངས་ ཉུང་མཐའ་གཞི་སྒྲིག་འབདཝ་ཨིན། འབད་བཤོལ་ཆེ་ཆུང་གིཚད་ལུ་མ་"
+"ལྷོད་ཚུན་ འབད་བཤོལ་གྱི་གནས་རིམ་ཚུ་ ལེ་ཤ་སྦེ་བཞགཔ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:402
+msgid ""
+"Sets an upper limit to the memory that is used per image to keep operations "
+"on the undo stack. Regardless of this setting, at least as many undo-levels "
+"as configured can be undone."
+msgstr ""
+"འབད་བཤོལ་ བརྩེགས་ཕུང་གུར་བཞག་ནི་གི་དོན་ལུ་ གཟུགས་བརྙན་རེ་ལུ་ ལག་ལེན་འཐབ་ཡོད་མི་ དྲན་ཚད་ནང་ལུ་ "
+"ལྟག་གི་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན།འ་ནི་ གཞི་སྒྲིག་འདི་ མ་རྩི་བར་ ཉུང་མཐའ་ལུ་ འབད་བཤོལ་གྱི་ཚད་རིམ་སྒྲིག་"
+"འབད་ཚར་མི་ ཚུ་ཡང་འབད་བཤོལ་སྦེ་བཞག་ཚུགས།"
+
+#: ../app/config/gimprc-blurbs.h:407
+msgid "Sets the size of the previews in the Undo History."
+msgstr "སྔོན་བལྟའི་ཚད་ འབད་བཤོལ་སྔོན་རབས་ནང་ལུ་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../app/config/gimprc-blurbs.h:410
+msgid "When enabled, pressing F1 will open the help browser."
+msgstr "ལྕོགས་གྲུབ་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ ཨེཕི་༡ གཡེབ་མི་དེ་གིས་ གྲོགས་རམ་བརའུ་ཟར་དེ་ ཁ་ཕྱེ་འོང་།ཐ"
+
+#: ../app/config/gimprc-blurbs.h:413
+#, c-format
+msgid ""
+"Sets the external web browser to be used.  This can be an absolute path or "
+"the name of an executable to search for in the user's PATH. If the command "
+"contains '%s' it will be replaced with the URL, else the URL will be "
+"appended to the command with a space separating the two."
+msgstr ""
+"ཕྱིའི་ཝེབ་ བརའུ་ཟར་ ཚུ་ལག་ལེན་ཐོག་བཞག་ནི་ལུ་ གཞི་སྒྲིག་འབདཝ་ཨིན།འ་ནི་དེ་ ལམ་ཡང་དག་ཅིག་འོང་ ཡང་"
+"ན་ ལག་ལེན་པའི་འགྲུལ་ལམ་ནང་ འཚོལ་ཞིབ་འབད་མི་ ལག་ལེན་འཐབ་བཏུབ་མི་མིངཅིག་ཨིན། བརྡ་བཀོད་ནང་%s' "
+"ཡོད་པ་ཅིན་ འ་ནི་གི་ཚབ་ལུ་་ ཡུ་ཨཱར་ཨེལི་ བཙུགསཔ་ཨིན། གཉིས་སོ་སོར་ཁ་ཕྱེ་མི་ བར་སྟོང་གི་ཐོག་ལས་བརྡ་"
+"བཀོད་འབད་ནའི་དོན་ལུ་ ཡུ་ཨཱར་ཨེལ་དེ མཇུག་བསྣོན་འབད་འོང་།"
+
+#: ../app/config/gimpscanner.c:220
+msgid "invalid UTF-8 string"
+msgstr "ནུས་མེད་ཀྱི་ཡུ་ཊི་ཨེཕ་-༨་ཀྱི་ཡིག་རྒྱུན།"
+
+#: ../app/config/gimpscanner.c:516
+#, c-format
+msgid "Error while parsing '%s' in line %d: %s"
+msgstr "'%s'དེ་མིང་དཔྱད་འབད་བའི་སྐབས་ལུ་ %d: %sགྲལ་ཐིག་ནང་་ལུ་འཛོལ་བ་འདུག"
+
+#: ../app/core/core-enums.c:27
+msgid "_White (full opacity)"
+msgstr "དཀརཔོ(དྭངས་སྒྲིབ་གང་)།(_W)"
+
+#: ../app/core/core-enums.c:28
+msgid "_Black (full transparency)"
+msgstr "གནགཔོ།(དྭངས་གསལ་གང་)(_B)"
+
+#: ../app/core/core-enums.c:29
+msgid "Layer's _alpha channel"
+msgstr "བི་རིམ་གྱི་ཨཱལ་ཕ་རྒྱུ་ལམ།(_a)"
+
+#: ../app/core/core-enums.c:30
+msgid "_Transfer layer's alpha channel"
+msgstr "བང་རིམ་གྱི་ཨཱ་ཕ་རྒྱུ་ལམ་གནས་སོར་གཏང་།(_T)"
+
+#: ../app/core/core-enums.c:31
+msgid "_Selection"
+msgstr "སེལ་འཐུ།(_S)"
+
+#: ../app/core/core-enums.c:32
+msgid "_Grayscale copy of layer"
+msgstr "བང་རིམ་གྱི་ གེརེ་སིཀེལ་འདྲ་བཤུས།"
+
+#: ../app/core/core-enums.c:61 ../app/core/gimp-gradients.c:70
+msgid "FG to BG (RGB)"
+msgstr "ཨེལི་ཇི་ལས་ བི་ཇི་ལུ (ཨཱར་ཇི་བི་)"
+
+#: ../app/core/core-enums.c:62
+msgid "FG to BG (HSV)"
+msgstr "ཨེཕ་ཇི་ལས་ བི་ཇི་ལུ་(ཨེཆ་ཨེསི་ཝི)"
+
+#: ../app/core/core-enums.c:63
+msgid "FG to transparent"
+msgstr "ཨེཕི་ཇི་ལས་དྭངས་གསལ་ལུ།"
+
+#: ../app/core/core-enums.c:64
+msgid "Custom gradient"
+msgstr "སྟེགས་རིས་སྲོལ་སྒྲིག་འབད།"
+
+#: ../app/core/core-enums.c:92
+msgid "FG color fill"
+msgstr "ཨེཕི་ཇི་ཚོད་གཞི་བཀོང་ནི།"
+
+#: ../app/core/core-enums.c:93
+msgid "BG color fill"
+msgstr "བ་ིཇི་ཚོས་གཞི་བཀང་ནི།"
+
+#: ../app/core/core-enums.c:94
+msgid "Pattern fill"
+msgstr "དཔེ་གཞི་བཀང་ནི།"
+
+#: ../app/core/core-enums.c:123
+msgid "Add to the current selection"
+msgstr "ད་ལྟོའི་སེལ་འཐུ་དེ་ལུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/core/core-enums.c:124
+msgid "Subtract from the current selection"
+msgstr "ད་ལྟོའི་སེལ་འཐུ་ནང་ལས་ཕབ།"
+
+#: ../app/core/core-enums.c:125
+msgid "Replace the current selection"
+msgstr "ད་ལྟོའི་སེལ་འཐུ་དེ་ཚབ་བཙུགས།"
+
+#: ../app/core/core-enums.c:126
+msgid "Intersect with the current selection"
+msgstr "ད་ལྟོའི་སེལ་འཐུའི་ཐོག་ལས་ དུམ་བུར་བཅོད།"
+
+#: ../app/core/core-enums.c:160
+msgid "Gray"
+msgstr "སྐྱ་ཐལ།"
+
+#: ../app/core/core-enums.c:161
+msgid "Indexed"
+msgstr "ཟུར་སྦྲགས་འབད་ཡོདཔ།"
+
+#: ../app/core/core-enums.c:219 ../app/core/core-enums.c:334
+#: ../app/core/core-enums.c:766 ../app/tools/gimptransformoptions.c:457
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../app/core/core-enums.c:220
+msgid "Floyd-Steinberg (normal)"
+msgstr "ཕོལོཌི སིཊན་བག (སྤྱིར་བཏང་)"
+
+#: ../app/core/core-enums.c:221
+msgid "Floyd-Steinberg (reduced color bleeding)"
+msgstr "ཕོལོཌི སིཊན་བག (ཚོས་གཞི་ འཛག་ནི་མར་ཕབ་རྐྱབས)"
+
+#: ../app/core/core-enums.c:222
+msgid "Positioned"
+msgstr "གནས་སར་ སྡོད་པ།"
+
+#: ../app/core/core-enums.c:251
+msgid "Generate optimum palette"
+msgstr "པེ་ལེཊི གང་དྲག བཟོ་བསྐྲུན་འབད།"
+
+#: ../app/core/core-enums.c:252
+msgid "Use web-optimized palette"
+msgstr "ཝེབ་ གང་དྲག་བཟོ་ཚར་མི་ པེ་ལེཊི ལག་ལེན་འཐབ།"
+
+#: ../app/core/core-enums.c:253
+msgid "Use black and white (1-bit) palette"
+msgstr "ནགཔ་དང དཀརཔོ (༡-བིཊི པེ་ལེཊི) པེ་ལེཊི ལག་ལེན་འཐབ།"
+
+#: ../app/core/core-enums.c:254
+msgid "Use custom palette"
+msgstr "སྲོལ་སྒྲིག  པེ་ལེཊི ལག་ལེན་འཐབ།"
+
+#: ../app/core/core-enums.c:329
+msgid "Foreground color"
+msgstr "གདོང་གཞི ཚོས་གཞི།"
+
+#: ../app/core/core-enums.c:330
+msgid "Background color"
+msgstr "རྒྱབ་གཞི་ ཚོས་གཞི།"
+
+#: ../app/core/core-enums.c:331
+msgid "White"
+msgstr "དཀར་པོ།"
+
+#. Transparency
+#: ../app/core/core-enums.c:332 ../app/dialogs/preferences-dialog.c:1918
+msgid "Transparency"
+msgstr "དྭངས་གསལ་ཅན།"
+
+#: ../app/core/core-enums.c:333 ../app/core/core-enums.c:470
+#: ../app/pdb/internal_procs.c:179
+msgid "Pattern"
+msgstr "དཔེ་གཞི།"
+
+#: ../app/core/core-enums.c:371
+msgid "Bi-linear"
+msgstr "བའི་-ལའི་ནིར།"
+
+#: ../app/core/core-enums.c:372
+msgid "Radial"
+msgstr "འོད་ཟེར་གྱི།"
+
+#: ../app/core/core-enums.c:373 ../app/core/core-enums.c:530
+#: ../app/core/core-enums.c:635
+msgid "Square"
+msgstr "གྲུ་བཞི།"
+
+#: ../app/core/core-enums.c:374
+msgid "Conical (sym)"
+msgstr "ཀོ་ནི་ཀཱལ།(ཨེསི་ཝའི་ཨེམ)"
+
+#: ../app/core/core-enums.c:375
+msgid "Conical (asym)"
+msgstr "ཀོ་ནི་ཀཱལ་(ཨེ་ས་ཡེམ་)"
+
+#: ../app/core/core-enums.c:376
+msgid "Shaped (angular)"
+msgstr "དབྱིབས་ཅན་(གྲུ་ཟུར་ཅན་)"
+
+#: ../app/core/core-enums.c:377
+msgid "Shaped (spherical)"
+msgstr "དབྱིབས་ཅན་(ཟླུམ་གཟུགས་ཅན)"
+
+#: ../app/core/core-enums.c:378
+msgid "Shaped (dimpled)"
+msgstr "དབྱིབས་ཅན་(འཚུམ་སྐྱོང་ཅན་)"
+
+#: ../app/core/core-enums.c:379
+msgid "Spiral (cw)"
+msgstr "སྒྲིལ་བ།(སི་ཌབ་ལུ་)"
+
+#: ../app/core/core-enums.c:380
+msgid "Spiral (ccw)"
+msgstr "སྒྲིལ་བ་(སི་སི་ཌབ་ལུ་)"
+
+#: ../app/core/core-enums.c:410
+msgid "Intersections (dots)"
+msgstr "དུམ་བུར་བཅོད་པ།(ཚག་ཚུ)"
+
+#: ../app/core/core-enums.c:411
+msgid "Intersections (crosshairs)"
+msgstr "དུམ་བུར་གཅོད་པ།(ཀོརོསི་ཧེའར་)"
+
+#: ../app/core/core-enums.c:412
+msgid "Dashed"
+msgstr "སྦྲེལ་རྟགས་བཀལ་ཡོདཔ།"
+
+#: ../app/core/core-enums.c:413
+msgid "Double dashed"
+msgstr "སྦྲལ་རྟགས་གཉིས་ལྡན།"
+
+#: ../app/core/core-enums.c:414 ../app/core/core-enums.c:469
+msgid "Solid"
+msgstr "རགས་པ།"
+
+#: ../app/core/core-enums.c:441
+msgid "Stroke line"
+msgstr "སིཊོཀ ཐིག"
+
+#: ../app/core/core-enums.c:442
+msgid "Stroke with a paint tool"
+msgstr "ཚོན་གཏང་ནིའི་ལག་ཆའི་ཐོག་ལས་ སིཊོཀ་འབད།"
+
+#: ../app/core/core-enums.c:498
+msgid "Miter"
+msgstr "བཡི་ཊར།"
+
+#: ../app/core/core-enums.c:499 ../app/core/core-enums.c:529
+msgid "Round"
+msgstr "སྐོར་ཐེངས།"
+
+#: ../app/core/core-enums.c:500
+msgid "Bevel"
+msgstr "སེར་ཁ།"
+
+#: ../app/core/core-enums.c:528
+msgid "Butt"
+msgstr "བཊི།"
+
+#: ../app/core/core-enums.c:566 ../app/dialogs/preferences-dialog.c:1804
+msgid "Custom"
+msgstr "སྲོལ་སྒྲིག"
+
+#: ../app/core/core-enums.c:567
+msgid "Line"
+msgstr "ཐིག"
+
+#: ../app/core/core-enums.c:568
+msgid "Long dashes"
+msgstr "སྦྲེལ་རྟགས་ རིངམོ།"
+
+#: ../app/core/core-enums.c:569
+msgid "Medium dashes"
+msgstr "སྦྲེལ་རྟགས་ འབྲིང་མ།"
+
+#: ../app/core/core-enums.c:570
+msgid "Short dashes"
+msgstr "སྦྲེལ་རྟགས་ ཐུང་ཀུ།"
+
+#: ../app/core/core-enums.c:571
+msgid "Sparse dots"
+msgstr "ཚག་ཐར་ཐོར།"
+
+#: ../app/core/core-enums.c:572
+msgid "Normal dots"
+msgstr "སྤྱིར་བཏང་ཚགཚག།"
+
+#: ../app/core/core-enums.c:573
+msgid "Dense dots"
+msgstr "ཚག་ སྟུག་པོ།"
+
+#: ../app/core/core-enums.c:574
+msgid "Stipples"
+msgstr "བཀང་།"
+
+#: ../app/core/core-enums.c:575
+msgid "Dash dot..."
+msgstr "སྦྲེལ་རྟགས་བཀལ་ཡོདཔ་..."
+
+#: ../app/core/core-enums.c:576
+msgid "Dash dot dot..."
+msgstr "སྦྲེལ་རྟགས ཚག ཚག..."
+
+#: ../app/core/core-enums.c:604
+msgid "Stock ID"
+msgstr "ཅ་མཛོད་ ཨའི་ཌི།"
+
+#: ../app/core/core-enums.c:605
+msgid "Inline pixbuf"
+msgstr "ཨིན་ལའིན་པར་ཁོངས།"
+
+#: ../app/core/core-enums.c:606
+msgid "Image file"
+msgstr "གཟུགས་བརྙན་གྱི་ཡིག་སྣོད།"
+
+#: ../app/core/core-enums.c:634
+msgid "Circle"
+msgstr "སྒོར་ཐིག།"
+
+#: ../app/core/core-enums.c:636
+msgid "Diamond"
+msgstr "ཕ་ལམ།"
+
+#: ../app/core/core-enums.c:664 ../app/dialogs/preferences-dialog.c:1950
+msgid "Horizontal"
+msgstr "ཐད་སྙོམས།"
+
+#: ../app/core/core-enums.c:665 ../app/dialogs/preferences-dialog.c:1952
+msgid "Vertical"
+msgstr "ཀེར་ཕྲང་།"
+
+#: ../app/core/core-enums.c:666
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../app/core/core-enums.c:730
+msgid "Tiny"
+msgstr "ཕྲ་བ།"
+
+#: ../app/core/core-enums.c:731
+msgid "Very small"
+msgstr "ཆང་དྲགས་པ།"
+
+#: ../app/core/core-enums.c:732
+msgid "Small"
+msgstr "ཆུང་ཀུ།"
+
+#: ../app/core/core-enums.c:733
+msgid "Medium"
+msgstr "འབྲིང་མ།"
+
+#: ../app/core/core-enums.c:734
+msgid "Large"
+msgstr "ཆེ་བ།"
+
+#: ../app/core/core-enums.c:735
+msgid "Very large"
+msgstr "ཆེ་དྲག་པ།"
+
+#: ../app/core/core-enums.c:736
+msgid "Huge"
+msgstr "ཤིན་ཏུ་ཆེ་བ།"
+
+#: ../app/core/core-enums.c:737
+msgid "Enormous"
+msgstr "ཤིན་ཏུ་ཆེ་བ།"
+
+#: ../app/core/core-enums.c:738
+msgid "Gigantic"
+msgstr "ཚད་བརྒལ་ཆེན་པོ།"
+
+#: ../app/core/core-enums.c:767
+msgid "Sawtooth wave"
+msgstr "སོ་ཊུད་གཡབ་ནི།"
+
+#: ../app/core/core-enums.c:768
+msgid "Triangular wave"
+msgstr "གྲུ་གསུམ་ཅན་གྱི་གཡབ་ནི།"
+
+#: ../app/core/core-enums.c:830
+msgid "No thumbnails"
+msgstr "མཐེབ་གཟེར་ མེད།"
+
+#: ../app/core/core-enums.c:831
+msgid "Normal (128x128)"
+msgstr "སྤྱིར་གཏང་།(༡༢༨x༡༢༨)"
+
+#: ../app/core/core-enums.c:832
+msgid "Large (256x256)"
+msgstr "ཆེ་བ།(༢༥༦x༢༥༦)"
+
+#: ../app/core/core-enums.c:859
+msgid "Forward (traditional)"
+msgstr "གདོང་བསྐྱོད་འབད།(སྔོན་སྲོལ་གྱི་)"
+
+#: ../app/core/core-enums.c:860
+msgid "Backward (corrective)"
+msgstr "རྒྱབ་ལོག(བདོན་འབྱོར་ཅན་)"
+
+#: ../app/core/core-enums.c:1030
+msgid "<<invalid>>"
+msgstr "<<invalid>>"
+
+#: ../app/core/core-enums.c:1031
+msgid "Scale image"
+msgstr "གཟུགས་བརྙན་གྱི་ ཆ་ཚད་འཇལ།"
+
+#: ../app/core/core-enums.c:1032
+msgid "Resize image"
+msgstr "གཟུགས་བརྙན་གྱི་ ལོག་ཚད་བཟོ།"
+
+#: ../app/core/core-enums.c:1033
+msgid "Flip image"
+msgstr "གཟུགས་བརྙན་ མྱུར་ལྷོག་འབད།"
+
+#: ../app/core/core-enums.c:1034
+msgid "Rotate image"
+msgstr "གཟུགས་བརྙན་ བསྒྱིར།"
+
+#: ../app/core/core-enums.c:1035
+msgid "Crop image"
+msgstr "གཟུགས་བརྙན་ བཏོག་བཅོས་འབད།"
+
+#: ../app/core/core-enums.c:1036
+msgid "Convert image"
+msgstr "གཟུགས་བརྙན་ གཞི་བསྒྱུར་འབད། "
+
+#: ../app/core/core-enums.c:1037
+msgid "Remove item"
+msgstr "རྣམ་གྲངས རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/core-enums.c:1038
+msgid "Merge layers"
+msgstr "བང་རིམ་ མཉམ་བསྡོམས་འབད།"
+
+#: ../app/core/core-enums.c:1039
+msgid "Merge vectors"
+msgstr "མཉམ་ཐིག་ཚུ་ མཉམ་བསྡོམས་འབད།"
+
+#: ../app/core/core-enums.c:1041 ../app/core/core-enums.c:1070
+#: ../app/core/gimpimage-grid.c:59 ../app/dialogs/grid-dialog.c:144
+#: ../app/tools/tools-enums.c:175
+msgid "Grid"
+msgstr "གིརིཌི།"
+
+#: ../app/core/core-enums.c:1042 ../app/core/core-enums.c:1071
+msgid "Guide"
+msgstr "ལམ་སྟོན་པ།"
+
+#: ../app/core/core-enums.c:1044 ../app/core/core-enums.c:1074
+msgid "Drawable mod"
+msgstr "འབྲི་བཏུབ་པའི་མོཌི།"
+
+#: ../app/core/core-enums.c:1045 ../app/core/core-enums.c:1075
+msgid "Selection mask"
+msgstr "གདོང་ཁེབས་ གདོང་ཁེབས་སེལ་འཐུ།"
+
+#: ../app/core/core-enums.c:1046 ../app/core/core-enums.c:1078
+msgid "Item visibility"
+msgstr "རྣམ་གྲངས་ མཐོང་ཚུགས་པ།"
+
+#: ../app/core/core-enums.c:1047
+msgid "Linked item"
+msgstr "འབྲེལ་མཐུད་འབད་ཡོད་པའི་ རྣམ་གྲངས།"
+
+#: ../app/core/core-enums.c:1048
+msgid "Item properties"
+msgstr "རྒྱུ་དངོས་ཀྱི་ རྣམ་གྲངས།"
+
+#: ../app/core/core-enums.c:1049 ../app/core/core-enums.c:1077
+msgid "Move item"
+msgstr "སྤོ་བཤུད་ཀྱི་ རྣམ་གྲངས།"
+
+#: ../app/core/core-enums.c:1050
+msgid "Scale item"
+msgstr "ཆ་ཚད་ རྣམ་གྲངས།"
+
+#: ../app/core/core-enums.c:1051
+msgid "Resize item"
+msgstr "ཚད་བསྐྱར་བཟོའི་ རྣམ་གྲངས།"
+
+#: ../app/core/core-enums.c:1052 ../app/core/core-enums.c:1082
+msgid "Add layer mask"
+msgstr "བང་རིམ་གྱི་ གདོང་གེབས་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/core/core-enums.c:1053
+msgid "Apply layer mask"
+msgstr "བང་རིམ་གྱི་ གདོང་གེབས་ འཇུག་སྤྱོད་འབད།"
+
+#: ../app/core/core-enums.c:1054
+msgid "Floating selection to layer"
+msgstr "བང་རིམ་ལུ་ སེལ་འཐུ་འཕུར་ལྡིང་ འབད་དོ།"
+
+#: ../app/core/core-enums.c:1055
+msgid "Float selection"
+msgstr "སེལ་འཐུ་འཕུར་ལྡིང་ འབད།"
+
+#: ../app/core/core-enums.c:1056
+msgid "Anchor floating selection"
+msgstr "འཕུར་ལྡིང་འབད་མི་ སེལ་འཐུ ཨེན་ཀོར འབད།"
+
+#: ../app/core/core-enums.c:1057
+msgid "Remove floating selection"
+msgstr "འཕུར་ལྡིང་ སེལ་འཐུ་ རྩ་སྐྲད་གཏང་།"
+
+#: ../app/core/core-enums.c:1058 ../app/core/gimp-edit.c:267
+msgid "Paste"
+msgstr "སྦྱར།"
+
+#: ../app/core/core-enums.c:1059 ../app/core/gimp-edit.c:418
+msgid "Cut"
+msgstr "བཏོག།"
+
+#: ../app/core/core-enums.c:1060 ../app/core/core-enums.c:1088
+#: ../app/tools/gimptexttool.c:144 ../app/widgets/widgets-enums.c:263
+msgid "Text"
+msgstr "ཚིག་ཡིག"
+
+#: ../app/core/core-enums.c:1061 ../app/core/core-enums.c:1101
+#: ../app/core/gimpdrawable-transform.c:867
+msgid "Transform"
+msgstr "བཟོ་བསྒྱུར འབད།"
+
+#: ../app/core/core-enums.c:1062 ../app/core/core-enums.c:1102
+#: ../app/paint/gimppaintcore.c:345
+msgid "Paint"
+msgstr "ཚོན་གཏང་།"
+
+#: ../app/core/core-enums.c:1063 ../app/core/core-enums.c:1104
+msgid "Attach parasite"
+msgstr "གཞན་ལུ་བརྟེན་པ མཉམ་སྦྲགས་འབད།"
+
+#: ../app/core/core-enums.c:1064 ../app/core/core-enums.c:1105
+msgid "Remove parasite"
+msgstr "གཞན་ལུ་བརྟེན་པ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/core-enums.c:1065
+msgid "Import paths"
+msgstr "འགྲུལ་ལམ་ ནང་འདྲེན་འབད།"
+
+#: ../app/core/core-enums.c:1066 ../app/pdb/drawable_cmds.c:1693
+msgid "Plug-In"
+msgstr "པ་ལག་-ཨིན།"
+
+#: ../app/core/core-enums.c:1067
+msgid "Image type"
+msgstr "གཟུགས་བརྙན་གྱི་ དབྱེ་བ།"
+
+#: ../app/core/core-enums.c:1068
+msgid "Image size"
+msgstr "གཟུགས་བརྙན་གྱི་ ཚད།"
+
+#: ../app/core/core-enums.c:1069
+msgid "Resolution change"
+msgstr "ཧུམ་ཆའི་ བསྒྱུར་བཅོས།"
+
+#: ../app/core/core-enums.c:1072
+msgid "Change indexed palette"
+msgstr "ཟུར་སྦྲགས་ པེ་ལེཊི བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/core/core-enums.c:1076
+msgid "Rename item"
+msgstr "རྣམ་གྲངས་ བསྐྱར་མིང་བཏགས།"
+
+#: ../app/core/core-enums.c:1079
+msgid "Set item linked"
+msgstr "རྣམ་གྲངས་ འབྲེལ་མཐུད་ཅན་སྦེ གཞི་སྒྲིག་འབད།"
+
+#: ../app/core/core-enums.c:1080
+msgid "New layer"
+msgstr "བང་རིམ་གསརཔ།"
+
+#: ../app/core/core-enums.c:1083
+msgid "Delete layer mask"
+msgstr "བང་རིམ་གདོང་གེབས་ བཏོན་གཏང་།"
+
+#: ../app/core/core-enums.c:1084
+msgid "Reposition layer"
+msgstr "བང་རིམ་ གནས་ས་བསྐྱར་བཟོ་འབད།"
+
+#: ../app/core/core-enums.c:1085
+msgid "Set layer mode"
+msgstr "བང་རིམ་གྱི་ ཐབས་ལམ་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/core/core-enums.c:1086
+msgid "Set layer opacity"
+msgstr "བང་རིམ་ དྭངས་སྒྲིབ་ གཞི་སྒྲིུག་འབད།"
+
+#: ../app/core/core-enums.c:1087
+msgid "Set preserve trans"
+msgstr "ཉམས་སྲུང་ཊཱནསི་གཞི་སྒྲིག་འབད།"
+
+#: ../app/core/core-enums.c:1089
+msgid "Text modified"
+msgstr "ལེགས་བཅོས་འབད་ཡོད་པའི་ཚིག་ཡིག"
+
+#: ../app/core/core-enums.c:1090
+msgid "New channel"
+msgstr "རྒྱུ་ལམ་གསརཔ།"
+
+#: ../app/core/core-enums.c:1092
+msgid "Reposition channel"
+msgstr "རྒྱུ་ལམ་གྱི་ གནས་ས་བསྐྱར་བཟོ་།"
+
+#: ../app/core/core-enums.c:1093
+msgid "Channel color"
+msgstr "རྒྱུ་ལམ་ ཚོས་གཞི།"
+
+#: ../app/core/core-enums.c:1094
+msgid "New vectors"
+msgstr "མཉམ་ཐིག་གསརཔ།"
+
+#: ../app/core/core-enums.c:1095
+msgid "Delete vectors"
+msgstr "མཉམ་ཐིག་ བཏོན་གཏང་།"
+
+#: ../app/core/core-enums.c:1096
+msgid "Vectors mod"
+msgstr "མཉམ་ཐིག་ཚུ་གི་མོཌི།"
+
+#: ../app/core/core-enums.c:1097
+msgid "Reposition vectors"
+msgstr ""
+""
+"མཉམ་ཐིག་ཚུ་གི་ གནས་ས་བསྐྱར་བཟོ་འབད།"
+
+#: ../app/core/core-enums.c:1098
+msgid "FS to layer"
+msgstr "བང་རིམ་ལུ་ ཨེཕི་ཨེསི།"
+
+#: ../app/core/core-enums.c:1099
+msgid "FS rigor"
+msgstr "ཨེཕི་ཨེསི རི་གོར། "
+
+#: ../app/core/core-enums.c:1100
+msgid "FS relax"
+msgstr "ཨེཕི་ཨེསི ལྷོད་ནམས།"
+
+#: ../app/core/core-enums.c:1103 ../app/paint/gimpink.c:103
+#: ../app/tools/gimpinktool.c:62
+msgid "Ink"
+msgstr "སྣག་རྩི།"
+
+#: ../app/core/core-enums.c:1106
+msgid "EEK: can't undo"
+msgstr "ཨི་ཨི་ཀེ་ འབད་མཤོལ་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimp-edit.c:109 ../app/core/gimpselection.c:668
+msgid "Unable to cut or copy because the selected region is empty."
+msgstr "སེལ་འཐུ་འབད་ཚར་མི་ ལུང་ཕྱོགས་དེ་ སྟོངམ་འབད་ནི་དེ་གིས བཏོག་ནི ཡང་ན་ འདྲ་མཤུས་ རྐྱབས་མ་ཚུགས།"
+
+#: ../app/core/gimp-edit.c:195 ../app/core/gimp-edit.c:319
+msgid "Pasted Layer"
+msgstr "བང་རིམ་སྦྱར་ཡོདཔ།"
+
+#: ../app/core/gimp-edit.c:369
+msgid "Fill with FG Color"
+msgstr "ཨེཕི་ཇི་ ཚོས་གཞི་གི་ཐོག་ལས་ བཀང་།"
+
+#: ../app/core/gimp-edit.c:373 ../app/core/gimp-edit.c:394
+msgid "Fill with BG Color"
+msgstr "བི་ཇི་ ཚོས་གཞི་ཐོག་ལས་ བཀང་།"
+
+#: ../app/core/gimp-edit.c:377
+msgid "Fill with White"
+msgstr "དཀར་པོའི་ ཐོག་ལས་བཀང་།"
+
+#: ../app/core/gimp-edit.c:381
+msgid "Fill with Transparency"
+msgstr "བཟོ་བསྒྱུར་གྱི་ ཐོག་ལས་བཀང་།"
+
+#: ../app/core/gimp-edit.c:385
+msgid "Fill with Pattern"
+msgstr "དཔེ་གཞི་གི་ ཐོག་ལས་ བཀང་།"
+
+#: ../app/core/gimp-gradients.c:75
+msgid "FG to BG (HSV counter-clockwise)"
+msgstr "ཨེལི་ཇི་ལས་ བི་ཇི་ལུ(ཨེཆེཨེསི་ཝི གཡོན་སྐོར)"
+
+#: ../app/core/gimp-gradients.c:80
+msgid "FG to BG (HSV clockwise hue)"
+msgstr "ཨེལི་ཇི་ལས་ བི་ཇི་ལུ(ཨེཆེཨེསི་ཝི གཡས་སྐོར)"
+
+#: ../app/core/gimp-gradients.c:85
+msgid "FG to Transparent"
+msgstr "ཨེཕི་ཇི་ལས་ དྭངས་གསལ་ལུ།"
+
+#: ../app/core/gimp-gui.c:153
+msgid "GIMP"
+msgstr "ཇི་ཨིའ་ཨེམ་པི།"
+
+#. register all internal procedures
+#: ../app/core/gimp.c:638
+msgid "Procedural Database"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཀྱི་ གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../app/core/gimp.c:641
+msgid "Plug-In Environment"
+msgstr "མཐའ་འཁོར་ པ་ལག་-ཨིན་འབད།"
+
+#. initialize  the global parasite table
+#: ../app/core/gimp.c:852
+msgid "Looking for data files"
+msgstr "གནད་སྡུད་ ཡིག་སྣོད་ཀྱི་དོན་ལུ་ བལྟ་དོ།"
+
+#: ../app/core/gimp.c:852
+msgid "Parasites"
+msgstr "གཞན་བརཏེན་པ།"
+
+#. initialize the document history
+#: ../app/core/gimp.c:876
+msgid "Documents"
+msgstr "ཡིག་ཆ་།"
+
+#. initialize the module list
+#: ../app/core/gimp.c:884 ../app/dialogs/preferences-dialog.c:2325
+msgid "Modules"
+msgstr "ཚད་གཞི།"
+
+#: ../app/core/gimpbrush.c:534
+#, c-format
+msgid "Could not read %d bytes from '%s': %s"
+msgstr "%d བཱའིཊིསི དེ་ '%s': '%s':ནང་ལས་ལྷག་མི་ཚུགས།"
+
+#: ../app/core/gimpbrush.c:554
+#, c-format
+msgid "Fatal parse error in brush file '%s': Width = 0."
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་'%s':ནང་ལུ་  མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན་འདུག རྒྱ་ཚད= 0."
+
+#: ../app/core/gimpbrush.c:563
+#, c-format
+msgid "Fatal parse error in brush file '%s': Height = 0."
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་'%s':ནང་ལུ་  མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན་འདུག མཐོ་ཚད= 0."
+
+#: ../app/core/gimpbrush.c:572
+#, c-format
+msgid "Fatal parse error in brush file '%s': Bytes = 0."
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་'%s':ནང་ལུ་  མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན་འདུག བཱའིཊིསི=0."
+
+#: ../app/core/gimpbrush.c:596
+#, c-format
+msgid "Fatal parse error in brush file '%s': Unknown depth %d."
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་'%s':ནང་ལུ་  མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན་འདུག གཏིང་ཚད་མ་ཤེསཔ%d."
+
+#: ../app/core/gimpbrush.c:609
+#, c-format
+msgid "Fatal parse error in brush file '%s': Unknown version %d."
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་'%s':ནང་ལུ་  མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན་འདུག ཐོན་རིམ་མ་ཤེསཔ་%d."
+
+#: ../app/core/gimpbrush.c:625 ../app/core/gimpbrush.c:745
+#, c-format
+msgid "Fatal parse error in brush file '%s': File appears truncated."
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་'%s':ནང་ལུ་  མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན་འདུག ཡིག་སྣོད་ ཆུང་ཀུ་སྦེ་ འབྱུངམ་ཨིན།"
+
+#: ../app/core/gimpbrush.c:633 ../app/core/gimpbrushgenerated.c:648
+#: ../app/core/gimpbrushpipe.c:354
+#, c-format
+msgid "Invalid UTF-8 string in brush file '%s'."
+msgstr "དྭངས་བཟོའི་ཡིག་སྣོད་ %s'.ནང་ལུ་ ཡིག་རྒྱུན་ ནུས་མེད ཡུ་ཊི་ཨེཕི་-༨་།"
+
+#: ../app/core/gimpbrush.c:640 ../app/core/gimpcontext.c:1299
+#: ../app/core/gimpitem.c:475 ../app/core/gimppattern.c:400
+#: ../app/dialogs/template-options-dialog.c:80
+#: ../app/tools/gimpvectortool.c:339
+msgid "Unnamed"
+msgstr "མིང་མ་བཏགས་མི།"
+
+#: ../app/core/gimpbrush.c:734
+#, c-format
+msgid ""
+"Fatal parse error in brush file '%s': Unsupported brush depth %d\n"
+"GIMP brushes must be GRAY or RGBA."
+msgstr ""
+"དྭངས་བཟོའི་ཡིག་སྣོད་ %s':ནང་ལུ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན། %d\n"
+"དེ་ རྒྱབ་སྐྱོར་མེད་མི་ དྭངས་བཟོའི་གཏིང་ཚད་ཨིན། ཇི་ཨའི་ཨེམ་པི དྭངས་བཟོ་དེ་ སྐྱ་ཐལ་ ཡང་ན་ ཨཱར་ཇི་བི་ཨེ་ "
+"སྦེ་དགོ"
+
+#: ../app/core/gimpbrushgenerated.c:614
+#, c-format
+msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgstr ""
+"དྭངས་བཟོའི་ཡིག་སྣོད་ %s':ནང་ལུ་ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན།ཇི་ཨའི་ཨེམ་པི་ དྭངས་བཟོའི་ ཡིག་སྣོད་ "
+"མེན།"
+
+#: ../app/core/gimpbrushgenerated.c:630
+#, c-format
+msgid "Fatal parse error in brush file '%s': Unknown GIMP brush version."
+msgstr ""
+"དྭངས་བཟོའི་ཡིག་སྣོད་ %s':ནང་ལུ་ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན། ཇི་ཨའི་ཨེམ་པི་གི་ དྭངས་བཟོའི་ ཐོན་"
+"རིམ་ མ་ཤེསཔ།"
+
+#: ../app/core/gimpbrushgenerated.c:669
+#, c-format
+msgid "Fatal parse error in brush file '%s': Unknown GIMP brush shape."
+msgstr ""
+"དྭངས་བཟོའི་ཡིག་སྣོད་ %s':ནང་ལུ་ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན། ཇི་ཨའི་ཨེམ་པི་གི་ དྭངས་བཟོའི་ དབྱིབས "
+"མ་ཤེསཔ།"
+
+#: ../app/core/gimpbrushgenerated.c:750
+#, c-format
+msgid "Error while reading brush file '%s': %s"
+msgstr "དྭངས་བཟོའི་ ཡིག་སྣོད་ '%s': '%s':ལྷག་པའི་སྐབས་ལུ་ འཛོལ་བ་འདུག"
+
+#: ../app/core/gimpbrushgenerated.c:752
+msgid "File is truncated"
+msgstr "ཡིག་སྣོད་དེ་ ཆུང་ཀུ་བཟོ་ནུག"
+
+#: ../app/core/gimpbrushpipe.c:369 ../app/core/gimpbrushpipe.c:389
+#: ../app/core/gimpbrushpipe.c:479
+#, c-format
+msgid "Fatal parse error in brush file '%s': File is corrupt."
+msgstr "དྭངས་བཟོའི་ཡིག་སྣོད་ %s':ནང་ལུ་ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ ཚབས་ཆེན། ཡིག་སྣོད་དེ་ ངན་ཅན་ཨིན་པས།"
+
+#: ../app/core/gimpchannel.c:280 ../app/pdb/internal_procs.c:95
+msgid "Channel"
+msgstr "རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel.c:281
+msgid "Rename Channel"
+msgstr "རྒྱུ་ལམ་ བསྐྱར་མིང་བཏགས།"
+
+#: ../app/core/gimpchannel.c:282
+msgid "Move Channel"
+msgstr "རྒྱུ་ལམ་སྤོ་བཤུད་འབད།"
+
+#: ../app/core/gimpchannel.c:283
+msgid "Scale Channel"
+msgstr "རྒྱུ་ལམ་གྱི་ ཆ་ཚད་འཇལ།"
+
+#: ../app/core/gimpchannel.c:284
+msgid "Resize Channel"
+msgstr "རྒྱུ་ལམ་གྱི་ ཚད་ བསྐཡར་བཟོ་འབད།"
+
+#: ../app/core/gimpchannel.c:285
+msgid "Flip Channel"
+msgstr "རྒྱུ་ལམ་བྱུར་ལྷོག་འབད།"
+
+#: ../app/core/gimpchannel.c:286
+msgid "Rotate Channel"
+msgstr "རྒྱུ་ལམ་ བསྒྱིར།"
+
+#: ../app/core/gimpchannel.c:287 ../app/core/gimpdrawable-transform.c:1121
+msgid "Transform Channel"
+msgstr "རྒྱུ་ལམ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/core/gimpchannel.c:288
+msgid "Stroke Channel"
+msgstr "སིཊོ་རོག་ རྒྱུ་ལམ་།"
+
+#: ../app/core/gimpchannel.c:310
+msgid "Feather Channel"
+msgstr "བྱ་སྒྲོའི་རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel.c:311
+msgid "Sharpen Channel"
+msgstr "རྣོ་ཅན་ རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel.c:312
+msgid "Clear Channel"
+msgstr "གསལ་བའི རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel.c:313
+msgid "Fill Channel"
+msgstr "རྒྱུ་ལམ་བཀང་།"
+
+#: ../app/core/gimpchannel.c:314
+msgid "Invert Channel"
+msgstr "ཨིན་ཝཊ རྒྱུ་ལམ་།"
+
+#: ../app/core/gimpchannel.c:315
+msgid "Border Channel"
+msgstr "མཐའ་མཚམས་ རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel.c:316
+msgid "Grow Channel"
+msgstr "ཡར་བསྐྱེད་ རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel.c:317
+msgid "Shrink Channel"
+msgstr "རྒྱུ་ལམ་བསྐུམ།"
+
+#: ../app/core/gimpchannel.c:631
+msgid "Cannot stroke empty channel."
+msgstr "རྒྱུ་ལམ་ སྟོངམ་ སི་ཊོརོག་འབད་མི་བཏུབ།"
+
+#: ../app/core/gimpchannel.c:1527
+msgid "Set Channel Color"
+msgstr "རྒྱུ་ལམ་ཚོེས་གཞི་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/core/gimpchannel.c:1575
+msgid "Set Channel Opacity"
+msgstr "རྒྱུ་ལམ་གི་ དྭངས་སྒྲིབ་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/core/gimpchannel.c:1644 ../app/core/gimpselection.c:563
+msgid "Selection Mask"
+msgstr "གདོང་ཁེབས་སེལ་འཐུ།"
+
+#: ../app/core/gimpchannel-select.c:56 ../app/tools/gimprectselecttool.c:96
+msgid "Rect Select"
+msgstr "གྲུ་བཞི་ནར་མོ་ སེལ་འཐུ།"
+
+#: ../app/core/gimpchannel-select.c:107
+#: ../app/tools/gimpellipseselecttool.c:71
+msgid "Ellipse Select"
+msgstr "ཨེ་ལིབསི་ སེལ་འཐུ།"
+
+#: ../app/core/gimpchannel-select.c:373
+msgid "Alpha to Selection"
+msgstr "སེལ་འཐུ་ལུ་ ཨཱལ་ཕ།"
+
+#: ../app/core/gimpchannel-select.c:414
+#, c-format
+msgid "%s Channel to Selection"
+msgstr "སེལ་འཐུ་ལུ་ %s རྒྱུ་ལམ།"
+
+#: ../app/core/gimpchannel-select.c:460 ../app/tools/gimpfuzzyselecttool.c:97
+msgid "Fuzzy Select"
+msgstr "ཕ་ཛི་ སེལ་འཐུ།"
+
+#: ../app/core/gimpchannel-select.c:505
+msgid "Select by Color"
+msgstr "ཚོས་གཞི་གི་ སྦེ་སེལ་འཐུ་འབད།"
+
+#: ../app/core/gimpdata.c:320
+#, c-format
+msgid "Could not delete '%s': %s"
+msgstr "'%s': %s བཏོན་གཏང་མ་ཚུགས།"
+
+#: ../app/core/gimpdatafactory.c:291 ../app/core/gimpdatafactory.c:511
+#, c-format
+msgid ""
+"Warning: Failed to save data:\n"
+"\n"
+"%s"
+msgstr ""
+"ཉེན་བརྡ: གནད་སྡུད་ སུང་བཞག་འབད་ནི་ལུ་ འཐུས་ཤོར་འབྱུང་ནུག:\n"
+"\n"
+"%s"
+
+#: ../app/core/gimpdatafactory.c:411 ../app/core/gimpdatafactory.c:414
+#: ../app/core/gimpitem.c:272 ../app/core/gimpitem.c:275
+msgid "copy"
+msgstr "འདྲ་བཤུས།"
+
+#: ../app/core/gimpdatafactory.c:423 ../app/core/gimpitem.c:284
+#, c-format
+msgid "%s copy"
+msgstr "%s འདྲ་བཤ྄ས།"
+
+#: ../app/core/gimpdatafactory.c:614
+#, c-format
+msgid ""
+"Warning: Failed to load data:\n"
+"\n"
+"%s"
+msgstr ""
+"ཉེན་བརྡ:གནད་སྡུད་མངོན་གསལ་འབད་ནི་ལུ་ འཐུས་ཤོར་འབྱུང་ནུག:\n"
+"\n"
+"%s"
+
+#: ../app/core/gimpdrawable-blend.c:238 ../app/tools/gimpblendtool.c:101
+msgid "Blend"
+msgstr "མཉམ་སྡེབ།"
+
+#: ../app/core/gimpdrawable-bucket-fill.c:85 ../app/paint/gimpclone.c:183
+msgid "No patterns available for this operation."
+msgstr "བཀོལ་སྤྱོད་འདི་གི་ དོན་ལུ་ དཔེ་གཞི་ འཐོབ་མི་ཚུགས།"
+
+#: ../app/core/gimpdrawable-bucket-fill.c:272
+#: ../app/tools/gimpbucketfilltool.c:91
+msgid "Bucket Fill"
+msgstr "བ་ཀེཊི བཀང་།"
+
+#: ../app/core/gimpdrawable-desaturate.c:98
+msgid "Desaturate"
+msgstr "མཐའ་ཚད་ བཤོལ།"
+
+#: ../app/core/gimpdrawable-equalize.c:80
+msgid "Equalize"
+msgstr "འདྲ་མཉམ་བཟོ་བ།"
+
+#: ../app/core/gimpdrawable-invert.c:61
+msgid "Invert"
+msgstr "འདྲེན་རྟགས་ནང་ བཙུགས།"
+
+#: ../app/core/gimpdrawable-levels.c:112 ../app/core/gimpdrawable-levels.c:162
+#: ../app/tools/gimplevelstool.c:160
+msgid "Levels"
+msgstr "གནས་རིམ།"
+
+#: ../app/core/gimpdrawable-offset.c:316
+msgid "Offset Drawable"
+msgstr "པར་ལེན འབྲི་བཏུབ་མི།"
+
+#: ../app/core/gimpdrawable-stroke.c:319
+msgid "Render Stroke"
+msgstr "སི་ཊོ་རོག བྱིན།"
+
+#. Start a transform undo group
+#: ../app/core/gimpdrawable-transform.c:928 ../app/tools/gimpfliptool.c:82
+msgid "Flip"
+msgstr "མྱུར་ལྷོག་འབད།"
+
+#. Start a transform undo group
+#: ../app/core/gimpdrawable-transform.c:1009 ../app/tools/gimprotatetool.c:97
+msgid "Rotate"
+msgstr "བསྒྱིར།"
+
+#: ../app/core/gimpdrawable-transform.c:1119 ../app/core/gimplayer.c:257
+msgid "Transform Layer"
+msgstr "བང་རིམ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/core/gimpdrawable-transform.c:1134
+msgid "Transformation"
+msgstr "བཟོ་བསྒྱུར།"
+
+#: ../app/core/gimpenvirontable.c:285
+#, c-format
+msgid "Empty variable name in environment file %s"
+msgstr "མཐའ་འཁོར་ ཡིག་སྣོད་%sནང་ལུ་ འགྱུར་ཅན་གྱི་མིང་ སྟོངམ་འདུག"
+
+#: ../app/core/gimpenvirontable.c:303
+#, c-format
+msgid "Illegal variable name in environment file %s: %s"
+msgstr "མཐའ་འཁོར་ ཡིག་སྣོད་%s:%sནང་ལུ་ ཁྲིམས་འགལ འགྱུར་ཅན་གྱི་མིང་ སྟོངམ་འདུག"
+
+#: ../app/core/gimpgradient-load.c:72
+#, c-format
+msgid "Fatal parse error in gradient file '%s': Not a GIMP gradient file."
+msgstr ""
+"སྟེགས་རིས་ཀྱི་ཡིག་སྣོད་'%s'ནང་ལུ་ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན་འདུག ཇི་ཨའི་ཨེམ་པི་ སྟེགས་རིས་ཀྱི་ ཡིག་"
+"སྣོད་མེན།"
+
+#: ../app/core/gimpgradient-load.c:87
+#, c-format
+msgid "Invalid UTF-8 string in gradient file '%s'."
+msgstr "སྟེགས་རིས་ཀྱི་ ཡིག་སྣོད་ '%s་ནང་ལུ་ ནུས་མེད་ ཡུ་ཊི་ཨེཕི ཡིག་རྒྱུན།"
+
+#: ../app/core/gimpgradient-load.c:115
+#, c-format
+msgid "Fatal parse error in gradient file '%s': File is corrupt."
+msgstr "སྟེགས་རིས་ཀྱི་ཡིག་སྣོད་'%s'ནང་ལུ་ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན་འདུག ཡིག་སྣོད་ ངན་ཅན་ ཨིན།"
+
+#: ../app/core/gimpgradient-load.c:172
+#, c-format
+msgid "Corrupt segment %d in gradient file '%s'."
+msgstr " ངན་ཅན་གྱི་ ཆ་གོས་ %d སྟེགས་རིས་ཀྱི་ ཡིག་ཆ་ '%s'ནང་ལུ་་འདུག"
+
+#: ../app/core/gimpgradient-load.c:183 ../app/core/gimpgradient-load.c:197
+#, c-format
+msgid "Gradient file '%s' is corrupt: Segments do not span the range 0-1."
+msgstr "སྟེགས་རིས་ཀྱི་ཡིག་སྣོད་ %s'དེ་ངན་ཅན་ཨིན།  ༠-༡་སྦེ་མི་ཁྱབ་ཚད་དེ་ ཆ་གོས་ཚུ་གིས་ མི་ཕར།"
+
+#: ../app/core/gimpgradient-load.c:281
+#, c-format
+msgid "No linear gradients found in '%s'"
+msgstr "'%s'ནང་ལུ་ ལའི་ནིར སྟེགས་རིས་ ཐོབ་མ་ཚུགས།"
+
+#: ../app/core/gimpgradient-load.c:291
+#, c-format
+msgid "Failed to import gradients from '%s': %s"
+msgstr "'%s': %s་ནང་ལས་ སྟེགས་རིས་ ནང་འདྲེན་འབད་ནི་ལུ འཐུས་ཤོར་འབྱུང་ནུག"
+
+#: ../app/core/gimpgrid.c:128
+msgid "Line style used for the grid."
+msgstr "གིརིཊིགི དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་མི་ གྲལ་ཐིག་གི་ བཟོ་རྣམ།"
+
+#: ../app/core/gimpgrid.c:134
+msgid "The foreground color of the grid."
+msgstr "གིརིཊི་གི གདོང་བཞིའི་ ཚོས་གཞི།"
+
+#: ../app/core/gimpgrid.c:139
+msgid "The background color of the grid; only used in double dashed line style."
+msgstr "གིརིཊི་གི སྦྲེལ་རྟགས་གཉིས་ཅན་གྱི་ གྲལ་ཐིག་གི བཟོ་རྣམ་གྱི་དོན་ལུ་རྐྱངམ་ཅིག་ ལག་ལེན་འཐབ་མི་"
+
+#: ../app/core/gimpgrid.c:145
+msgid "Horizontal spacing of grid lines."
+msgstr "གིརིཌི གྲལ་ཐིག་གི་ ཐད་སྙོམས་ བར་སྟོང་ འབད་དོ།"
+
+#: ../app/core/gimpgrid.c:150
+msgid "Vertical spacing of grid lines."
+msgstr "གིརིཌི གྲལ་ཐིག་གི་ ཀེར་ཕྲེང་ བར་སྟོང་ འབད་དོ།"
+
+#: ../app/core/gimpgrid.c:159
+msgid "Horizontal offset of the first grid line; this may be a negative number."
+msgstr "གི་རི་ཌི་གི་ གྲལ་ཐིག་དང་པའི པར་ལེན་ཐད་སྙོམས་དེ་ མེད་ཆའི་ ཨང་ཨིནམ་འོང་།"
+
+#: ../app/core/gimpgrid.c:166
+msgid "Vertical offset of the first grid line; this may be a negative number."
+msgstr "གི་རི་ཌི་གི་ གྲལ་ཐིག་དང་པའི་ པར་ལེན་ཀེར་ཕྲེང་དེ་ མེད་ཆའི་ ཨང་ཨིནམ་འོང་།"
+
+#: ../app/core/gimpimage-colormap.c:63
+msgid "Set Colormap"
+msgstr "ཚོས་གཞི་ཅན་གྱི་ ས་ཁྲ་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/core/gimpimage-colormap.c:115
+msgid "Change Colormap entry"
+msgstr "ཚོས་གཞི་ཅན་གྱི་ ས་ཁྲའི ཐོ་བཀོད་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/core/gimpimage-colormap.c:135
+msgid "Add Color to Colormap"
+msgstr "ཚོས་གཞི་ཅན་གྱི་ ས་ཁྲ་གུར་ ཚོས་གཞི་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/core/gimpimage-convert.c:789
+msgid "Convert Image to RGB"
+msgstr "གཟུགས་བརྙན་ ཨཱར་བི་ཇི་ལུ་ གཞི་བསྒྱུར་འབད།"
+
+#: ../app/core/gimpimage-convert.c:793
+msgid "Convert Image to Grayscale"
+msgstr "གཟུགས་བརྙན་ ཆ་ཚད་ སྐྱ་ཐལ་ལུ་ གཞི་བསྒྱུར་འབད།"
+
+#: ../app/core/gimpimage-convert.c:797
+msgid "Convert Image to Indexed"
+msgstr "གཟུགས་བརྙན་ ཟུར་སྦྲགས་ལུ་ གཞི་བསྒྱུར་འབད།"
+
+#: ../app/core/gimpimage-convert.c:879
+msgid "Converting to indexed (stage 2)..."
+msgstr " ཟུར་སྦྲགས་འབད་ཡོད་མི་ལུ་ གཞི་བསྒྱུར་འབད་དོ། (རིམ་པ་༢པ)..."
+
+#: ../app/core/gimpimage-convert.c:923
+msgid "Converting to indexed (stage 3)..."
+msgstr " ཟུར་སྦྲགས་འབད་ཡོད་མི་ལུ་ལུ་ གཞི་བསྒྱུར་འབད་དོ། (རིམ་པ་༣པ)"
+
+#: ../app/core/gimpimage-crop.c:123
+msgid "Crop Image"
+msgstr "གཟུགས་བརྙན་ བཏོག་བཅོས་འབདཇ"
+
+#: ../app/core/gimpimage-crop.c:126 ../app/core/gimpimage-resize.c:67
+msgid "Resize Image"
+msgstr "གཟུགས་བརྙན་གྱི ཚད་ བསྐྱར་བཟོ་འབད།"
+
+#: ../app/core/gimpimage-guides.c:53
+msgid "Add Horizontal Guide"
+msgstr "ཐད་སྙོམས་ ལམ་སྟོན་པ་ ཁ་སྐོང་ རྐྱབས།"
+
+#: ../app/core/gimpimage-guides.c:80
+msgid "Add Vertical Guide"
+msgstr "ཀེར་ཕྲེང་ ལམ་སྟོན་པ་ ཁ་སྐོང་ རྐྱབས།"
+
+#: ../app/core/gimpimage-guides.c:143 ../app/tools/gimpmovetool.c:570
+msgid "Remove Guide"
+msgstr "ལམ་སྟོན་པ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimpimage-guides.c:167
+msgid "Move Guide"
+msgstr "ལམ་སྟོན་པ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/core/gimpimage-merge.c:91
+msgid "Merge Visible Layers"
+msgstr "མཐོང་ཚུགས་པའི་ བང་རིམ་ཚུ མཉམ་བསྡོམས་འབད།"
+
+#: ../app/core/gimpimage-merge.c:107
+msgid "Not enough visible layers for a merge. There must be at least two."
+msgstr "མཉམ་བསྡོམས་འབད་ནི་ལུ མཐོང་ཚུགས་པའི་ བང་རིམ་ ལངམ་སྦེ་མིན་འདུག།  དེ་ལུ་ཉུང་ཤོས་རང གཉིས་གོ"
+
+#: ../app/core/gimpimage-merge.c:142
+msgid "Flatten Image"
+msgstr "གཟུགས་བརྙན་ ལེབ་ཏ་ བཟོ།"
+
+#: ../app/core/gimpimage-merge.c:193
+msgid "Merge Down"
+msgstr "མར་མཉམ་བསྡོམས་འབད།"
+
+#: ../app/core/gimpimage-merge.c:202
+msgid "There are not enough visible layers for a merge down."
+msgstr "མར་མཉམ་བསྡོམས་འབད་ནིའི་དོན་ལུ མཐོང་ཚུགས་པའི་ བང་རིམ་ ལངམ་སྦེ་མིན་འདུག"
+
+#: ../app/core/gimpimage-merge.c:543
+msgid "Merge Visible Paths"
+msgstr "མཐོང་ཚུགས་པའི་ འགྲུལ་ལམ་ མཉམ་བསྡོམས་འབད།"
+
+#: ../app/core/gimpimage-merge.c:580
+msgid "Not enough visible paths for a merge. There must be at least two."
+msgstr ""
+"མཉམ་བསྡོམས་འབད་ནིའི་དོན་ལུ མཐོང་ཚུགས་པའི་ འགྲུལ་ལམ་ ལངམ་སྦེ་ མིན་འདུག དེ་ནང་ལུ་ ཉུང་ཤོས་རང་ གཉིས་"
+"གོ"
+
+#: ../app/core/gimpimage-qmask.c:67
+msgid "Enable Quick Mask"
+msgstr "ཀཝིག མསིཀ ལྕོགས་ཅན་ བཟོ།"
+
+#: ../app/core/gimpimage-qmask.c:117
+msgid "Disable Quick Mask"
+msgstr "ཀཝིག མསིཀ ལྕོགས་མིན་བཟོ།"
+
+#: ../app/core/gimpimage-undo-push.c:3055
+#, c-format
+msgid "Can't undo %s"
+msgstr " %s འབད་བཤོལ་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:1359
+msgid "Change Image Resolution"
+msgstr "གཟུགས་བརྙན་གྱི ཧུམ་ཆ་ བསྒྱུར་བཅོས་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:1399
+msgid "Change Image Unit"
+msgstr "གཟུགས་བརྙན་གྱི ཆ་ཕྲན བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/core/gimpimage.c:2179
+msgid "Attach Parasite to Image"
+msgstr "གཟུགས་བརྙན་ལུ་ གཞན་བརྟེན་ མཉམ་སྦྲགས འབད།"
+
+#: ../app/core/gimpimage.c:2212
+msgid "Remove Parasite from Image"
+msgstr "གཟུགས་བརྙན་ནང་ལས གཞན་བརྟེན་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimpimage.c:2680
+msgid "Add Layer"
+msgstr "བང་རིམ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/core/gimpimage.c:2744 ../app/core/gimpimage.c:2757
+msgid "Remove Layer"
+msgstr "བང་རིམ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimpimage.c:2831
+msgid "Layer cannot be raised higher."
+msgstr "བང་རིམ་ མཐོ་སར་ ཆེར་བསྐྱེད་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:2837 ../app/core/gimpimage.c:2887
+msgid "Cannot raise a layer without alpha."
+msgstr "བང་རིམ་དེ་ཨཱལ་ཕ་མེད་པར་ཆེར་བསྐྱེད་འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:2842
+msgid "Raise Layer"
+msgstr "བང་རིམ་ ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/core/gimpimage.c:2859
+msgid "Layer cannot be lowered more."
+msgstr "བང་རིམ་ དེ་ལས་ལྷག་སྟེ་ མར་ཕབ་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:2864
+msgid "Lower Layer"
+msgstr "བང་རིམ་ མར་ཕབ་འབད།"
+
+#: ../app/core/gimpimage.c:2881
+msgid "Layer is already on top."
+msgstr "བང་རིམ་འདི ཧེ་མ་ལས་་རང་ སྤྱི་ཏོག་གུར་འདུག"
+
+#: ../app/core/gimpimage.c:2892
+msgid "Raise Layer to Top"
+msgstr "བང་རིམ་ སྤྱི་ཏོག་གུར ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/core/gimpimage.c:2912
+msgid "Layer is already on the bottom."
+msgstr "བང་རིམ་འདི་ ཧེ་མ་ལས་རང་ མཇུག་ལུ་འདུག"
+
+#: ../app/core/gimpimage.c:2917
+msgid "Lower Layer to Bottom"
+msgstr "བང་རིམ་ མཇུག་ལུ་ མར་ཕབ་འབད།"
+
+#: ../app/core/gimpimage.c:2956
+#, c-format
+msgid "Layer '%s' has no alpha. Layer was placed above it."
+msgstr "བང་རིམ་'%s'དེ་ལུ་ཨཱལ་ཕ་མེད། བང་རིམ་དེ་ འདི་གི་ལྟག་ལུ་བཞག་ནུག"
+
+#: ../app/core/gimpimage.c:3008
+msgid "Add Channel"
+msgstr "རྒྱུ་ལམ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/core/gimpimage.c:3052 ../app/core/gimpimage.c:3063
+msgid "Remove Channel"
+msgstr "རྒྱ྄་ལམ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimpimage.c:3110
+msgid "Channel cannot be raised higher."
+msgstr "རྒྱུ་ལམ་ མཐོ་སུ་ ཆེར་བསྐྱེད་འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:3115
+msgid "Raise Channel"
+msgstr "རྒྱུ་ལམ་ ཆེར་བསྐྱེད་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:3132
+msgid "Channel is already on top."
+msgstr "རྒྱུ་ལམ་དེ་ ཧེ་མ་ལས་རང སྤྱི་ཏོག་གུར་འདུག"
+
+#: ../app/core/gimpimage.c:3137
+msgid "Raise Channel to Top"
+msgstr "རྒྱུ་ལམ་ སྤྱི་ཏོག་གུར ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/core/gimpimage.c:3154
+msgid "Channel cannot be lowered more."
+msgstr "རྒྱུ་ལམ་དེ་ ཧེང་བཀལ མར་ཕབ་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:3159
+msgid "Lower Channel"
+msgstr "རྒྱུ་ལམ་ མར་ཕབ་འབད།"
+
+#: ../app/core/gimpimage.c:3179
+msgid "Channel is already on the bottom."
+msgstr "རྒྱུ་ལམ་དེ ཧེ་མ་ལས་རང མཇུག་ལུ་ འདུག"
+
+#: ../app/core/gimpimage.c:3184
+msgid "Lower Channel to Bottom"
+msgstr "རྒྱུ་ལམ་ མཇུག་ལུ་ མར་ཕབ་འབད།"
+
+#: ../app/core/gimpimage.c:3259
+msgid "Add Path"
+msgstr "འགྲུལ་ལམ་ ཁ་སྐཽང་རྐྱབས།"
+
+#: ../app/core/gimpimage.c:3304
+msgid "Remove Path"
+msgstr "འགྲུལ་ལམ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimpimage.c:3348
+msgid "Path cannot be raised higher."
+msgstr "འགྲུལ་ལམ་ མཐོ་སུ་ ཆེར་བསྐྱེད་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:3353
+msgid "Raise Path"
+msgstr "འགྲུལ་ལམ་ ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/core/gimpimage.c:3370
+msgid "Path is already on top."
+msgstr "འགྲུལ་ལམ་དེ ཧེ་མ་ལས་རང སྤྱི་ཏོག་གུར་འདུག"
+
+#: ../app/core/gimpimage.c:3375
+msgid "Raise Path to Top"
+msgstr "འགྲུལ་ལམ་ སྤྱི་ཏོག་གུར ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/core/gimpimage.c:3392
+msgid "Path cannot be lowered more."
+msgstr "འགྲུལ་ལམ་ ཧེང་བཀལ་ མར་ཕབ་ འབད་མི་ཚུགས།"
+
+#: ../app/core/gimpimage.c:3397
+msgid "Lower Path"
+msgstr "འགྲུལ་ལམ་ མར་ཕབ་འབད།"
+
+#: ../app/core/gimpimage.c:3417
+msgid "Path is already on the bottom."
+msgstr "འགྱུལ་ལམ་དེ་ ཧེ་མ་ལས་རང མཇུག་ལུ་འདུག"
+
+#: ../app/core/gimpimage.c:3422
+msgid "Lower Path to Bottom"
+msgstr "འགྲུལ་ལམ་ མཇུག་ལུ་ མར་ཕབ་འབད།"
+
+#: ../app/core/gimpimagefile.c:568
+msgid "Remote image"
+msgstr "ཐག་རིང་གི་གཟུགས་བརྙན།"
+
+#: ../app/core/gimpimagefile.c:573 ../app/dialogs/preferences-dialog.c:1472
+msgid "Folder"
+msgstr "ལེ་སྣོད།"
+
+#: ../app/core/gimpimagefile.c:578
+msgid "Special File"
+msgstr "དམིགས་བསལ་གྱི་ ཡིིག་སྣོད།"
+
+#: ../app/core/gimpimagefile.c:605
+msgid "Click to create preview"
+msgstr "སྔོན་བལྟ་ གསར་བསྐྲུན་འབད་ནིའི དོན་ལུ གཡེབ་གཏང་འབད། "
+
+#: ../app/core/gimpimagefile.c:609
+msgid "Loading preview ..."
+msgstr "སྔོན་བལྟ་ མངོན་གསལ་འབད་དོ།..."
+
+#: ../app/core/gimpimagefile.c:613
+msgid "Preview is out of date"
+msgstr "སྔོན་བལྟ་དེ་ ཚེས་གྲངས་ལས་འགལ་སོང་ནུག"
+
+#: ../app/core/gimpimagefile.c:617
+msgid "Cannot create preview"
+msgstr "སྔོན་བལྟ་ གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#. pixel size
+#: ../app/core/gimpimagefile.c:624 ../app/dialogs/info-window.c:552
+#: ../app/widgets/gimpsizebox.c:432 ../app/widgets/gimptemplateeditor.c:637
+#: ../app/widgets/gimptemplateeditor.c:675
+#, c-format
+msgid "%d x %d pixels"
+msgstr "%d ཨེགསི %d པིགསེལསི།"
+
+#: ../app/core/gimpimagefile.c:639
+msgid "1 Layer"
+msgstr "༡་བང་རིམ།"
+
+#: ../app/core/gimpimagefile.c:641
+#, c-format
+msgid "%d Layers"
+msgstr "%d བང་རིམ་ཚུ།"
+
+#: ../app/core/gimpimagefile.c:685
+#, c-format
+msgid "Could not open thumbnail '%s': %s"
+msgstr "མཐེབ་གཟེར %s': %s དེ་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../app/core/gimpitem.c:1091
+msgid "Attach Parasite"
+msgstr "གཞན་བརྟེན་ མཉམ་སྦྲགས་འབཐ།"
+
+#: ../app/core/gimpitem.c:1101
+msgid "Attach Parasite to Item"
+msgstr "རྣམ་གྲངས་ལུ་ གཞན་བརྟེན་ མཉམ་སྦྲགས་འབད།"
+
+#: ../app/core/gimpitem.c:1140 ../app/core/gimpitem.c:1147
+msgid "Remove Parasite from Item"
+msgstr "རྣམ་གྲངས་ནང་ལས གཞན་བརྟེན་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimplayer-floating-sel.c:98
+msgid "Remove Floating Selection"
+msgstr "འཕུར་ལྡིང་ སེལ་འཐུ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/core/gimplayer-floating-sel.c:129
+msgid "Cannot anchor this layer because it is not a floating selection."
+msgstr "བང་རིམ་དེ ཨེན་ཀོར་ འབད་མི་ཚུགས ག་ཅི་སྦེ་ཟེར་བ་ཅིན དེ་འཕུར་ལྡིང་ སེལ་འཐུ་ མེན་པས།"
+
+#: ../app/core/gimplayer-floating-sel.c:136
+msgid "Anchor Floating Selection"
+msgstr "འཕུར་ལྡིང་ སེལ་འཐུ་ ཨེན་ཀོར་འབད། "
+
+#: ../app/core/gimplayer-floating-sel.c:209
+msgid ""
+"Cannot create a new layer from the floating selection because it belongs to "
+"a layer mask or channel."
+msgstr ""
+"འཕུར་ལྡིང་ སེལ་འཐུའི་ནང་ལས་ བང་རིམ་ གསརཔ་གསར་བསྐྲུན་ འབད་མི་ཚུགས ག་ཅི་སྦེ་ཟེར་བ་ཅིན དེབང་རིམ་"
+"གདོང་ཁེབས ཡང་ན་ རྒྱུ་ལམ་ལུ་ བངམ་ཨིན།"
+
+#: ../app/core/gimplayer-floating-sel.c:215
+msgid "Floating Selection to Layer"
+msgstr "བང་རིམ་ལུ སེལ་འཐུ འཕུར་ལྡིང་འབད་དོ།"
+
+#: ../app/core/gimplayer.c:250 ../app/pdb/internal_procs.c:152
+msgid "Layer"
+msgstr "བང་རིམ།"
+
+#: ../app/core/gimplayer.c:251
+msgid "Rename Layer"
+msgstr "བང་རིམ་ བསྐྱར་མིང་ བཏགས།"
+
+#: ../app/core/gimplayer.c:252 ../app/pdb/layer_cmds.c:669
+#: ../app/pdb/layer_cmds.c:742
+msgid "Move Layer"
+msgstr "བང་རིམ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/core/gimplayer.c:254
+msgid "Resize Layer"
+msgstr "བང་རིམ་གྱི་ཚད་ བསྐྱརལ་བཟོ་འབད།"
+
+#: ../app/core/gimplayer.c:255
+msgid "Flip Layer"
+msgstr "བང་རིམ་ མྱུར་ལྷོག་འབད།"
+
+#: ../app/core/gimplayer.c:256
+msgid "Rotate Layer"
+msgstr "བང་རིམ་ བསྒྱིར།"
+
+#: ../app/core/gimplayer.c:339 ../app/core/gimplayer.c:1109
+#: ../app/core/gimplayermask.c:236
+#, c-format
+msgid "%s mask"
+msgstr "%s གདོང་ཁེབས།"
+
+#: ../app/core/gimplayer.c:385
+#, c-format
+msgid ""
+"Floating Selection\n"
+"(%s)"
+msgstr ""
+"འཕུར་ལྡིང་ སེལ་འཐུ། \n"
+"(%s)"
+
+#: ../app/core/gimplayer.c:1035
+msgid "Cannot add layer mask to layer which is not part of an image."
+msgstr "བང་རིམ་ལུ་ གཟུགས་བརྙན་གྱི་ ཡན་ལག་ མེན་མི་ བང་རིམ་གདོང་ཁེབས ཁ་སྐོང་རྐྱབས་མི་ཚུགས།"
+
+#: ../app/core/gimplayer.c:1042
+msgid "Unable to add a layer mask since the layer already has one."
+msgstr "བང་རིམ་ལུ་ ཧེ་མ་ལས་རང་ གཅིག་ཡོད་ནི་དེ་གིས བང་རིམ་ གདོང་ཁེབས་ ཁ་སྐོང་རྐྱབས་མི་ཚུགས།"
+
+#: ../app/core/gimplayer.c:1049
+msgid "Cannot add layer mask to a layer with no alpha channel."
+msgstr "བང་རིམ་ལུ་ ཨཱལ་ཕ་ རྒྱུ་ལམ་མེད་པར བང་རིམ་ གདོང་ཁེབས་ ཁ་སྐོང་རྐྱབས་མི་ཚུགས།"
+
+#: ../app/core/gimplayer.c:1059
+msgid "Cannot add layer mask of different dimensions than specified layer."
+msgstr "གསལ་བཀོད་འབད་ཡོད་མི བང་རིམ་མ་གཏོགས་ རྒྱ་ཁྱོན སོ་སོ་ཡོད་མིའི བང་རིམ་གདོང་ཁེབས ཁ་སྐོང་རྐྱབས་མི་ཚུགས།"
+
+#: ../app/core/gimplayer.c:1163
+msgid "Transfer Alpha to Mask"
+msgstr "ཨཱལ་ཕ་ གདོང་ཁེབས་ལུ གནས་སོར་གཏང་།"
+
+#: ../app/core/gimplayer.c:1323
+msgid "Apply Layer Mask"
+msgstr "བང་རིམ་ གདོང་ཁེབས་ འཇུག་སྤྱོད་འབད།"
+
+#: ../app/core/gimplayer.c:1324
+msgid "Delete Layer Mask"
+msgstr "བང་རིམ་ གདོང་ཁེབས་ བཏོན་གཏང་།"
+
+#: ../app/core/gimplayer.c:1425
+msgid "Add Alpha Channel"
+msgstr "ཨཱལ་ཕ་རྒྱུ་ལམ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/core/gimplayer.c:1447
+msgid "Layer to Image Size"
+msgstr "གཟུགས་བརྙན་གྱི་ཚད་ལུ བང་རིམ།"
+
+#: ../app/core/gimplayermask.c:132
+msgid "Move Layer Mask"
+msgstr "བང་རིམ་གདོང་ཁེབས་ སྤོ་བཤུད་འབད།"
+
+#: ../app/core/gimppalette-import.c:490
+#, c-format
+msgid ""
+"Unknown type of palette file:\n"
+"%s"
+msgstr ""
+"པེ་ལེཏི་ཡིག་སྣོད་མ་ཤེས་མི་གི་དབྱེ་བ:\n"
+"%s"
+
+#: ../app/core/gimppalette.c:375
+#, c-format
+msgid ""
+"Fatal parse error in palette file '%s': Missing magic header.\n"
+"Does this file need converting from DOS?"
+msgstr ""
+"པེ་ལིཊི ཡིག་སྣོད་%s ནང་ལུ་ མིང་དཔྱད་ཀྱི་ འཛོལ་བ་ ཚབས་ཆེན། མིག་འཕྲུལ་གྱི་ མགོ་ཡིག \n"
+" བརླག་སྟོར་ཞུགས་ནུག ཡིག་སྣོད་དེ་ ཌི་ཨོ་ཨེསི ནང་ལས་ གཞི་བསྒྱུར་འབད་གོ་ག?"
+
+#: ../app/core/gimppalette.c:381
+#, c-format
+msgid "Fatal parse error in palette file '%s': Missing magic header."
+msgstr "པེ་ལིཊི ཡིག་སྣོད་%s ནང་ལུ་ མིང་དཔྱད་ཀྱི་ འཛོལ་བ་ ཚབས་ཆེན། མིག་འཕྲུལ་གྱི་ མགོ་ཡིག བརླག་སྟོར་ཞུགས་ནུག "
+
+#: ../app/core/gimppalette.c:395 ../app/core/gimppalette.c:420
+#: ../app/core/gimppalette.c:450 ../app/core/gimppalette.c:536
+#, c-format
+msgid "Fatal parse error in palette file '%s': Read error in line %d."
+msgstr "པེ་ལིཊི ཡིག་སྣོད་%s ནང་ལུ་ མིང་དཔྱད་ཀྱི་ འཛོལ་བ་ ཚབས་ཆེན། གྲལ་ཐིག་ %d.ནང་ལུ་ འཛོལ་བ་ལྷག"
+
+#: ../app/core/gimppalette.c:410
+#, c-format
+msgid "Invalid UTF-8 string in palette file '%s'"
+msgstr "པེ་ལིཊི་གི་ ཡིག་སྣོད་'%s' ནང་ལུ་  ནུས་མེད་ ཡུ་ཊི་ཨེཕི-༨ ཡིག་རྒྱུན།"
+
+#: ../app/core/gimppalette.c:438
+#, c-format
+msgid ""
+"Reading palette file '%s': Invalid number of columns in line %d. Using "
+"default value."
+msgstr ""
+"པེ་ལིཊི་གི་ཡིག་སྣོད%s'ལྷག་དོ། གྲལ་རིམ %d.ནང་ལུ་ ནུས་མེད་ཀེར་ཐིག་གི་ གྱངས་ག་འདུགསྔོན་སྒྲིག་ ལག་ལེན་འཐབ་"
+"ཐོག"
+
+#. maybe we should just abort?
+#: ../app/core/gimppalette.c:484
+#, c-format
+msgid "Reading palette file '%s': Missing RED component in line %d."
+msgstr "པེ་ལིཊི་གི་ ཡིག་སྣོད་'%s':ལྷག་དོ། གྱལ་རིམ་ %d་ནང་ལུ ཆ་ཤས དམརཔོ བརླག་སྟོར་ཞུགས་ནུག"
+
+#: ../app/core/gimppalette.c:492
+#, c-format
+msgid "Reading palette '%s': Missing GREEN component in line %d."
+msgstr "པེ་ལིཊི་གི་ ཡིག་སྣོད་'%s':ལྷག་དོ། གྱལ་རིམ་ %d་ནང་ལུ ཆ་ཤས ལྗང་ཁུ བརླག་སྟོར་ཞུགས་ནུག"
+
+#: ../app/core/gimppalette.c:500
+#, c-format
+msgid "Reading palette file '%s': Missing BLUE component in line %d."
+msgstr "པེ་ལིཊི་གི་ ཡིག་སྣོད་'%s':ལྷག་དོ། གྱལ་རིམ་ %d་ནང་ལུ ཆ་ཤས ཧོནམ བརླག་སྟོར་ཞུགས་ནུག"
+
+#: ../app/core/gimppalette.c:510
+#, c-format
+msgid "Reading palette file '%s': RGB value out of range in line %d."
+msgstr "པེ་ལིཊི་གི་ ཡིག་སྣོད་'%s':ལྷག་དོ། གྱལ་རིམ་ %d་ནང་ལུ ཨཱར་བི་ཇི་གི གནས་གོང་དེ་ ཁྱབ་ཚད་ལས་འགལ་སོང་ནུག"
+
+#: ../app/core/gimppattern.c:337 ../app/core/gimppattern.c:384
+#: ../app/core/gimppattern.c:415
+#, c-format
+msgid "Fatal parse error in pattern file '%s': Could not read %d bytes: %s"
+msgstr "དཔེ་གཞི་ ཡིག་སྣོད་%s ནང་ལུ་ མིང་དཔྱད་ཀྱི་ འཛོལ་བ་ ཚབས་ཆེན་འདུག།བའི་ཊེསི་ %d.ལྷག་མ་ཚུགས།: %s"
+
+#: ../app/core/gimppattern.c:357
+#, c-format
+msgid "Fatal parse error in pattern file '%s': Unknown pattern format version %d."
+msgstr "པེ་ལི་ཊི་གི ཡིག་སྣོད་ '%s':ནང་ལུ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན། དཔེ་གཞི་ མ་ཤེས་པའི རྩ་སྒྲིག་ཐོན་རིམ %d."
+
+#: ../app/core/gimppattern.c:367
+#, c-format
+msgid ""
+"Fatal parse error in pattern file '%s: Unsupported pattern depth %d.\n"
+"GIMP Patterns must be GRAY or RGB."
+msgstr ""
+"ལི་ཊི་གི ཡིག་སྣོད་ '%s':ནང་ལུ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན། རྒྱབ་སྐྱོར་མེད་པའི དཔེ་གཞི་གི་ གཏིང་ཚད ་%"
+"d.\n"
+"ཇི་ཨའི་ཨེམ་པི་གི་ དཔེ་གཞི་ཚུ་ སྐྱ་ཐལ ཡང་ན་ ཨཱར་ཇི་བི་ སྦེ་གོ"
+
+#: ../app/core/gimppattern.c:393
+#, c-format
+msgid "Invalid UTF-8 string in pattern file '%s'."
+msgstr "པེ་ལིཊི་གི་ ཡིག་སྣོད་ '%s'.ནང་ལུ་ ནུས་མེད་ ཡུ་ཊི་ཨེཕི-༨ ཀྱི་ཡིག་རྒྱུན།"
+

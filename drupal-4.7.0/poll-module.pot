@@ -1,0 +1,184 @@
+# LANGUAGE translation of Drupal (modules/poll.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: poll.module,v 1.195 2006/04/14 09:05:19 killes
+# sonam pelden <sonaa_peldn@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: poll-module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-25 10:28+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/poll.module:16
+msgid "The poll module can be used to create simple polls for site users.  A poll is a simple multiple choice questionnaire which displays the cumulative results of the answers to the poll.  Having polls on the site is a good way to get instant feedback from community members."
+msgstr "འོས་ཤོག་བསྡུ་ལན་ཚད་གཞི་འདི་  ས་ཁོངས་ལག་ལེན་པ་ཚུ་གི་དོན་ལུ་  འོས་ཤོག་བསྡུ་ལན་འཇམ་སམ་གསར་བསྐྲུན་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཨིན།  འོས་ཤོག་བསྡུ་ལན་ཟེར་མི་འདི་  འོས་ཤོག་བསྡུ་ལན་ལུ་ལེན་གྱི་རིམ་གྱིས་བསག་པའི་གྲུབ་འབྲས་བཀྲམ་སྟོན་འབད་མི་  སྣ་མང་གདམ་ཁའི་དྲི་ཤོག་འཇམ་སམ་འདི་ཨིན།  ས་ཁོངས་གུ་འོས་ཤོག་ཚུ་ཡོད་མི་འདི་  མི་སྡེའི་འཐུས་མི་ཚུ་ལས་འཕྲལ་མྱུར་བསམ་ལན་ལེན་ནི་ལུ་  ཐབས་ལམ་བཟང་པོ་ཅིག་ཨིན།"
+
+#: modules/poll.module:17
+msgid "Users can create a poll. The title of the poll should be the question, then enter the answers and the \"base\" vote counts. You can also choose the time period over which the vote will run.The <a href=\"%poll\">poll</a> item in the navigation menu will take you to a page where you can see all the current polls, vote on them (if you haven't already) and view the results."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་ འོས་ཤོག་བསྡུ་ལན་ཅིག་གསར་བསྐྲུན་འབད་བཏུབ་ཨིན།  འོ་ཤོག་བསྡུ་ལན་གྱི་མགོ་མིང་འདི་དྲི་བ་འབད་འོང་དགོཔ་དང་  དེ་ལས་  ལན་དེ་ཚུ་དང་\"base\" གདམ་ཁ་འདི་གྱངས་ཁ་བརྐྱབ་ཨིན།  ཁྱོད་ཀྱིས་གཞན་ཡང་  གདམ་ཁ་གཡོག་བཀལ་ནི་ཨིན་པའི་  ཆུ་ཚོད་དུས་ཡུན་འདི་གདམ་ཁ་བརྐྱབ་བཏུབ་ཨིན།  འགྲུལ་བསྐྱོད་དཀར་ཆག་ནང་གི་ <a href=\"%poll\">འོས་ཤོག་བསྡུ་ལན་</a>རྣམ་གྲངས་འདི་གིས་  ཁྱོད་ཀྱིས་ད་ལྟོའི་འོས་ཤོག་བསྡུ་ལན་ཚུ་ཆ་མཉམ་མཐོང་ཚུགས་པའི་ཤོག་ལེབ་ཅིག་ལུ་འབགཔ་ཨིན་  དེ་ཚུ་ལུ་གདམ་ཁ་བརྐྱབ་   (ཧེ་མ་ལས་མ་བརྐྱབ་པ་ཅིན་)ནི་དང་  གྲུབ་འབྲས་ཚུ་སྟོན།"
+
+#: modules/poll.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view the <a href=\"%poll\">polls page</a>.</li>\n"
+"<li><a href=\"%admin-node-configure-types-poll\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; configure poll</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་</p>\n"
+"<ul>\n"
+"<li> <a href=\"%poll\">འོས་ཤོག་བསྡུ་ལན་གྱི་ཤོག་ལེབ་འདི་སྟོན་ད།</a>.</li>\n"
+"<li><a href=\"%admin-node-configure-types-poll\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; རིམ་སྒྲིག་འོས་ཤོག</a>.</li>\n"
+"</ul>\n"
+
+#: modules/poll.module:24
+msgid "For more information please read the configuration and customization handbook <a href=\"%poll\">Poll page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་ནི་དང་སྲོལ་སྒྲིག་འབད་ནི་གི་ལག་དེབ་<a href=\"%poll\">འོས་ཤོག་བསྡུ་ལན་ཤོག་ལེབ།</a>འདི་ལྷག་གནང་།"
+
+#: modules/poll.module:27
+msgid "Allows your site to capture votes on different topics in the form of multiple choice questions."
+msgstr "སྣ་མང་གདམ་ཁའི་དྲི་བ་གི་རྣམ་པའི་ནང་ཡོད་པའི་  གནད་དོན་ཚུ་གི་ཐོག་ལུ་ གདམ་ཁ་འདི་ཚུ་  འཛིན་བཟུང་འབད་ནི་ལུ་  ཁྱོད་ཀྱི་ས་ཁོངས་འདི་ཆོགཔ་ཨིན།"
+
+#: modules/poll.module:29
+msgid "A poll is a multiple-choice question which visitors can vote on."
+msgstr "འོས་ཤོག་བསྡུ་ལན་ཟེར་མི་འདི་  བལྟ་སྤྱོད་པ་ཚུ་གིས་གདམ་ཁ་བརྐྱབ་བཏུབ་པའི་ སྣ་མང་གདམ་ཁའི་དྲི་བ་འདི་ཨིན།"
+
+#: modules/poll.module:50
+msgid "Most recent poll"
+msgstr "འཕྲལ་གྱི་འོས་ཤོག་བསྡུ་ལན།"
+
+#: modules/poll.module:65
+msgid "Poll"
+msgstr "འོས་ཤོག་བསྡུ་ལན།"
+
+#: modules/poll.module:116
+msgid "Negative values are not allowed."
+msgstr "མེད་ཆའི་གནས་གོང་ཚུ་མི་ཆོག"
+
+#: modules/poll.module:121
+msgid "You must fill in at least two choices."
+msgstr "ཁྱོད་ཀྱིས་གདམ་ཁ་ཉུང་མཐའ་གཉིས་བཙུགས་དགོ།"
+
+#: modules/poll.module:132
+msgid "Question"
+msgstr "དྲི་བ།"
+
+#: modules/poll.module:135
+msgid "Need more choices"
+msgstr "གདམ་ཁ་མངམ་དགོ་ག"
+
+#: modules/poll.module:135
+msgid "If the amount of boxes above isn't enough, check this box and click the Preview button below to add some more."
+msgstr "ལྟ་ལུ་ཡོད་པའི་སྒྲོམ་ཚུ་གི་མ་ལང་པ་ཅིན་  ཧེང་བཀལ་བརྐྱབ་ནིའི་དོན་ལུ་  སྒྲོམ་འདི་ཞིབ་དཔྱད་འབད་ནི་དང་ སྔོན་ལྟའི་ཨེབ་རྟ་འདི་གུ་ཨེབ་གཏང་འབད།"
+
+#: modules/poll.module:146
+msgid "Choices"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: modules/poll.module:148
+msgid "Choice %n"
+msgstr "གདམ་ཁའི་ %n"
+
+#: modules/poll.module:150
+msgid "Votes for choice %n"
+msgstr " %nགདམ་ཁ་བརྐྱབ་ནིའི་དོན་ལུ་གདམ་ཁ།"
+
+#: modules/poll.module:156
+msgid "Closed"
+msgstr "ཁ་བསྡམས་ནུག"
+
+#: modules/poll.module:159
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/poll.module:160
+msgid "Poll status"
+msgstr "འོས་ཤོག་བསྡུ་ལན་གྱི་གནས་ཚད།"
+
+#: modules/poll.module:160
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "འོས་ཤོག་བསྡུ་ལན་འདི་ཁ་བསྡམས་པའི་བསྒང་  བལྟ་སྤྱོད་དེ་གིས་དེ་གི་དོན་ལུ་གདམ་ཁ་བརྐྱབ་མི་ཚུགས།"
+
+#: modules/poll.module:162
+msgid "Poll duration"
+msgstr "འོ་ཤོག་བསྡུ་ལན་གྱི་དུས་ཡུན།"
+
+#: modules/poll.module:162
+msgid "After this period, the poll will be closed automatically."
+msgstr "དུས་ཡུན་དེ་གི་ཤུལ་ལས་  འོ་ཤོག་བསྡུ་ལན་འདི་རང་བཞིན་གྱིས་ཁ་བསྡམས་འགྱོཝ་ཨིན།"
+
+#: modules/poll.module:192;254;0
+msgid "poll"
+msgstr "འོས་ཤོག་བསྡུ་ལན།"
+
+#: modules/poll.module:194
+msgid "polls"
+msgstr "འོས་ཤོག་བསྡུ་ལན་ཚུ།"
+
+#: modules/poll.module:200
+msgid "vote"
+msgstr "གདམ་ཁ།"
+
+#: modules/poll.module:264
+msgid "open"
+msgstr "ཁ་ཕྱེ།"
+
+#: modules/poll.module:264
+msgid "closed"
+msgstr "ཁ་བསྡམས་ནུག"
+
+#: modules/poll.module:295;307
+msgid "Vote"
+msgstr "གདམ་ཁ།"
+
+#: modules/poll.module:355;362
+msgid "Total votes: %votes"
+msgstr "གདམ་ཁའི་བསྡོམས:%votes"
+
+#: modules/poll.module:424
+msgid "Your vote was recorded."
+msgstr "ཁྱོད་ཀྱི་གདམ་ཁ་འདི་དྲན་ཐོ་བཞག་ཡོད།"
+
+#: modules/poll.module:427
+msgid "You're not allowed to vote on this poll."
+msgstr "འོས་ཤོག་བསྡུ་ལན་དེ་གི་ཐོག་ལུ་  ཁྱོད་ཀྱིས་  གདམ་ཁ་བརྐྱབ་མི་ཆོག"
+
+#: modules/poll.module:431
+msgid "You didn't specify a valid poll choice."
+msgstr "ཁྱོད་ཀྱིས་  ནུས་ཅན་འོས་ཤོག་བསྡུ་ལན་གྱི་གདམ་ཁ་ཅིག་གསལ་བཀོད་མ་འབད་བས།"
+
+#: modules/poll.module:458
+msgid "older polls"
+msgstr "འོས་ཤོག་བསྡུ་ལན་རྙིངམ་ཚུ།"
+
+#: modules/poll.module:458
+msgid "View the list of polls on this site."
+msgstr "ས་ཁོངས་འདི་གི་ཐོག་ལུ་  འོས་ཤོག་བསྡུ་ལན་ཚུ་གི་ཐོ་ཡིག་འདི་བལྟ།"
+
+#: modules/poll.module:460
+msgid "View the current poll results."
+msgstr "ད་ལྟོའི་འོས་ཤོག་བསྡུ་ལན་གྱི་གྲུས་འབྲས་འདི་ཚུ་བལྟ།"
+
+#: modules/poll.module:264;341
+msgid "1 vote"
+msgid_plural "%count votes"
+msgstr[0] "གདམ་ཁ་ ༡"
+msgstr[1] "%count གི་གདམ་ཁ།"
+
+#: modules/poll.module:275
+msgid "create polls"
+msgstr "འོས་ཤོག་བསྡུ་ལན་ཚུ་གསར་བསྐྲུན་འབད།"
+
+#: modules/poll.module:275
+msgid "vote on polls"
+msgstr "འོས་ཤོག་བསྡུ་ལན་གུ་གདམ་ཁ་བརྐྱབ།"
+

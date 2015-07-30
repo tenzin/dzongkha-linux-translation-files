@@ -1,0 +1,199 @@
+#### Add HTML and Plain Text Domain Names for sendOption
+# extracted from dz-BT_orig/mail/chrome/messenger/preferences/preferences.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: preferences.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-06 15:33+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: html_domainsAddDomainTitle
+msgid "Add HTML Domain Name"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཌོ་མེན་གྱི་མིང་ ཁ་སྐོང་རྐྱབས།"
+
+#: html_domainsAddDomain
+msgid "HTML Domain Name:"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཌོ་མེན་གྱི་མིང་:"
+
+#: plaintext_domainsAddDomainTitle
+msgid "Add Plain Text Domain Name"
+msgstr "ཡིག་རྐྱང་ཌོ་མེན་གྱི་མིང་ ཁ་སྐོང་རྐྱབས་"
+
+#: plaintext_domainsAddDomain
+msgid "Plain Text Domain Name:"
+msgstr "ཡིག་རྐྱང་ཌོ་མེན་གྱི་མིང་:"
+
+#: domainNameErrorTitle
+msgid "Domain Name Error"
+msgstr "ཌོ་མེན་མིང་གི་འཛོལ་བ་"
+
+#### LOCALIZATION NOTE: do not translate %S
+#: domainDuplicationError
+msgid "The domain name %S already exists in the HTML or Plain Text lists."
+msgstr "ཌོ་མེན་གྱི་མིང་%Sདེ་ ཧེ་མ་ལས་ར་ ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཡང་ན་ ཡིག་རྐྱང་ཐོ་ཡིག་ཚུ་ནང་འདུག།"
+
+#### Master Password
+#: setMasterPassword
+msgid "Set Master Password..."
+msgstr "ཆོག་ཡིག་ཨམ་ གཞི་སྒྲིག་འབད་་་"
+
+#: changeMasterPassword
+msgid "Change Master Password..."
+msgstr "ཆོག་ཡིག་ཨམ་སོར་་་་"
+
+#: password_not_set
+msgid "(not set)"
+msgstr "(གཞི་སྒྲིག་མ་འབད་བས་)"
+
+#: failed_pw_change
+msgid "Unable to change Master Password."
+msgstr "ཆོག་ཡིག་ཨམ་སོར་མི་ཚུགས་པས།"
+
+#: incorrect_pw
+msgid "You did not enter the correct current Master Password. Please try again."
+msgstr "ཁྱོད་ཀྱི་ད་ལྟོའི་ཆོག་ཡིག་ཨམ་ ངེས་བདེན་དེ་ མ་བཙུགས་པས། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: pw_change_ok
+msgid "Master Password successfully changed."
+msgstr "ཆོག་ཡིག་ཨམ་ མཐར་འཁྱོལ་སྦེ་སོར་ཚུགས་ཅི།"
+
+#: pw_erased_ok
+msgid "You have deleted your Master Password."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་ ཆོག་ཡིག་ཨམ་བཏོན་བཏང་ད་ནུག།"
+
+#: pw_not_wanted
+msgid "Warning! You have decided not to use a Master Password."
+msgstr "ཉེན་བརྡ་! ཁྱོད་ཀྱིས་ཆོག་ཡིག་ཨམ་ཅིག་ ལག་ལེན་མི་འཐབ་སྦེ་ ཐག་བཅད་ནུག།"
+
+#: pw_empty_warning
+msgid "Your stored email passwords will not be protected."
+msgstr "ཁྱོད་ཀྱིས་གསོག་འཇོག་སྦེ་ཡོད་མི་ གློག་འཕྲིན་གྱི་ཆོག་ཡིག་ཚུ་ལུ་ ཉེན་སྐྱོབ་མི་འབད།"
+
+#: pw_change2empty_in_fips_mode
+msgid "You are currently in FIPS mode. FIPS requires a non-empty Master Password."
+msgstr "དལྟོ་ཁྱོད་ ཨེཕ་ཨའི་པི་ཨེསི་ ཐབས་ལམ་ནང་འདུག། ཨེཕ་ཨའི་པི་ཨེསི་ལུ་ སྟོངམ་མེན་པའི་ཆོག་ཡིག་ཨམ་ཅིག་དགོ།"
+
+#: pw_change_success_title
+msgid "Password Change Succeeded"
+msgstr "ཆོག་ཡིག་སོར་ནི་ མཐར་འཁྱོལ་བྱུང་ཡོད།"
+
+#: pw_change_failed_title
+msgid "Password Change Failed"
+msgstr "ཆོག་ཡིག་སོར་མ་ཚུགས་"
+
+#: pw_remove_button
+msgid "Remove"
+msgstr "རྩ་བསྐྲད་གཏང་"
+
+#### Downloads
+#: desktopFolderName
+msgid "Desktop"
+msgstr "ཌེཀསི་ཊོཔ་"
+
+#: myDownloadsFolderName
+msgid "My Downloads"
+msgstr "ངེད་ཀྱི་ཕབ་ལེན་ཚུ་"
+
+#: chooseDownloadFolderTitle
+msgid "Choose Download Folder:"
+msgstr "ཕབ་ལེན་སྣོད་འཛིན་སེལ་འཐུ་འབད་:"
+
+#### Download Actions
+#: extensionNone
+msgid "(NONE)"
+msgstr "(ཅི་མེད་)"
+
+#: removeButtonSingle
+#: removeTitleSingle
+msgid "Remove Action"
+msgstr "བྱ་བ་རྩ་བསྐྲད་གཏང་"
+
+#: removeButtonMultiple
+#: removeTitleMultiple
+msgid "Remove Actions"
+msgstr "བྱ་བ་ཚུ་རྩ་བསྐྲད་གཏང་"
+
+#: removeMessageSingle
+msgid "The selected Action will no longer be performed when files of the affected types are downloaded. Are you sure you want to remove this Action?"
+msgstr "ཕན་གནོད་བྱུང་མི་ ཡིག་སྣོད་དབྱེ་བ་ཚུ་ ཕབ་ལེན་འབད་བའི་སྐབས་ སེལ་འཐུ་འབད་མི་བྱ་བ་དེ་གིས་ ལཱ་འབད་མི་བཏུབ། ཁྱོད་ཀྱིས་བྱ་བ་འདི་ རྩ་བསྐྲད་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: removeMessageMultiple
+msgid "The selected Actions will no longer be performed when files of the affected types are downloaded. Are you sure you want to remove these Actions?"
+msgstr "ཕན་གནོད་བྱུང་མི་ ཡིག་སྣོད་དབྱེ་བ་ཚུ་ ཕབ་ལེན་འབད་བའི་སྐབས་ སེལ་འཐུ་འབད་མི་བྱ་བ་ཚུ་གིས་ ལཱ་འབད་མི་བཏུབ། ཁྱོད་ཀྱིས་བྱ་བ་འདི་ཚུ་ རྩ་བསྐྲད་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: fileEnding
+msgid "%S file"
+msgstr "%Sགི་ཡིག་སྣོད་"
+
+#: saveToDisk
+msgid "Save to Disk"
+msgstr "ཌིཀསི་གུ་སྲུངས།"
+
+#: openWith
+msgid "Open with %S"
+msgstr "%Sགི་ཐོག་ལས་ཁ་ཕྱེ་"
+
+#: actionsFiltered
+msgid "The following Actions match your search:"
+msgstr "འོག་གི་བྱ་བ་ཚུ་ ཁྱོད་ཀྱི་འཚོལ་ཞིབ་དང་མཐུན་པས།"
+
+#: actionsAll
+msgid "Automatically perform the associated Action with each of the following file types:"
+msgstr "འོག་གི་ཡིག་སྣོད་དབྱེ་བ་ཚུ་ རེ་རེ་བཞིན་དུ་ལུ་ འབྲེལ་བ་ཡོད་པའི་བྱ་བ་དེ་ རང་བཞིན་གྱིས་ལཱ་འབད།"
+
+#### Change Action
+#: extensionStringFormat
+msgid "%S, %S"
+msgstr "%S, %S"
+
+#: downloadHelperNoneSelected
+msgid "None Selected"
+msgstr "གཅིག་ཡང་སེལ་འཐུ་མ་འབད་བས།"
+
+#: pluginHelperNoneAvailable
+msgid "None Available"
+msgstr "གཅིག་ཡང་མིན་འདུག"
+
+#: fpTitleChooseApp
+msgid "Select Helper Application"
+msgstr "ལས་རོགས་པའི་གློག་རིམ་ སེལ་འཐུ་འབད།"
+
+#: fpTitleChooseDL
+msgid "Select Download Folder"
+msgstr "ཕབ་ལེན་སྣོད་འཛིན་ སེལ་འཐུ་འབད་"
+
+#### Fonts
+# LOCALIZATION NOTE: Next two strings are for language name representations with
+#   and without the region.
+#   e.g. languageRegionCodeFormat : "French/Canada  [fr-ca]" languageCodeFormat : "French  [fr]"
+#   %1$S = language name, %2$S = region name, %3$S = language-region code
+#: languageRegionCodeFormat
+msgid "%1$S/%2$S  [%3$S]"
+msgstr "%1$S/%2$S  [%3$S]"
+
+#   %1$S = language name, %2$S = language-region code
+#: languageCodeFormat
+msgid "%1$S  [%2$S]"
+msgstr "%1$S  [%2$S]"
+
+# LOCALIZATION NOTE: dpi stands for 'dots per inch'
+#: fontScalingResolutionFormat
+msgid "%S dpi"
+msgstr "ཌི་པི་ཨའི་%S"
+
+#### Sound Notifications
+#: soundFilePickerTitle
+msgid "Choose Sound"
+msgstr "སྒྲ་སྐད་གདམ་ཁ་རྐྱབས་"
+

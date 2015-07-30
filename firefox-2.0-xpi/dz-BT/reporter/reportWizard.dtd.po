@@ -1,0 +1,150 @@
+# extracted from dz-BT_orig/extensions/reporter/chrome/reportWizard.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: reportWizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-23 16:58+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# Entities for the Sample Extension Options Dialog go here
+#: reportWizard.title
+msgid "Report A Broken Web Site"
+msgstr "ཝེབ་ས་ཁོངས་ཆད་པ་ཅིག་སྙན་ཞུ་འབད།"
+
+#: privacyNotice.label
+#: reportForm.privacyPolicy.title
+msgid "Privacy Policy"
+msgstr "སྒེར་གཙང་སྲིད་བྱུས།"
+
+#: reportWizardPrivacy.description
+msgid "This tool allows you to tell the Evangelism Team about web sites that do not work properly in &brandShortName;, or shut &brandShortName; out. This is your way to help us ensure the best possible experience for &brandShortName; users. Please take a moment to read the following to learn how we use the information we collect should you choose to participate."
+msgstr "ལག་ཆས་དེ་གིས་ཁྱོད་ལུ་&brandShortName; ནང་ལཱ་ཚུལ་ལྡན་འབད་ཝེབ་ས་ཁོངས་ཚུའི་སྐོར་ལས་ཨིན་བེནཇི་ལིཟིམ་དེ་ལུ་སླབ་བཅུགཔ་ ཡང་ན་&brandShortName; སྒོ་བསྡམས་བཅུགཔ་ཨིན། འ་ནི་དེ་ཁྱོད་ཀྱིས་ང་བཅས་ལུ་ &brandShortName; ལག་ལེན་པ་ཚུའི་དོན་ལུ་ཉམས་མྱོང་ཚུགསཔ་དྲག་ཤོས་ངེས་ཏིག་གྲོགས་རམ་ལུ་ཐབས་ལམ་ཅིག་ཨིན། འོག་གི་ང་བཅས་ཀྱིས་ག་དེ་ལག་ལེན་འཐབ་ནིའི་བརྡ་དོན་ང་བཅས་ཀྱིས་བསྡུ་གསོག་་འབད་ནི་ཁྱོད་ལུ་བཅའ་མར་བཏོག་ནི་ལུ་གདམ་ནིཧ་་གོ་ནི་ལུ་དུས་ཡུན་དུམ་གྲ་ཅིག་ལྷག་གནང་།"
+
+#: reportWizardMustAgree.description
+msgid "To continue you need to agree to the privacy policy above."
+msgstr "འཕྲོ་མཐུད་ནི་ལུ་ཁྱོད་ཀྱིས་ལྟག་གི་སྒེར་གཙང་སྲིད་བྱུས་ལུ་ཁས་ལེན་འབད་དགོཔ་ཨིན།"
+
+#: dontShowPrivacyStatement.label
+#: dontShowPrivacyStatement.accesskey
+msgid "&I have read and accept the above privacy policy."
+msgstr "ང་གིས་ལྷག་ཞིནམ་ལས་ལྟག་གི་སྒེར་གཙང་སྲིད་བྱུས་དེ་ལུ་དང་ལེན་འབད་འོང་།"
+
+#: reportForm.label
+msgid "Fill out Report"
+msgstr "སྙན་ཞུ་བཀང་།"
+
+#: reportForm.description
+msgid "Tell us a little about the problem you encountered:"
+msgstr "ཁྱོད་ལུ་གདོང་ཐུག་འབྱུང་ཡོད་མི་དཀའ་ངལ་དེའི་སྐོར་ལས་ང་བཅས་ལུ་དུམ་གྲ་ཅིག་སླབ:"
+
+#: reportForm.url.title
+msgid "Web site URL:"
+msgstr "ཝེབ་ས་ཁོངས་ཡུ་ཨར་ཨེལ:"
+
+# No ":" at the end
+#: reportForm.behind_login.title
+#: reportForm.behind_login.accesskey
+msgid "Web site is &password-protected"
+msgstr "ཝེབ་ས་ཁོངས་དེ་ཆོག་ཡིག་ཉོན་སྐྱོབ་འབད་ཡོད།"
+
+#: reportForm.problem_type.title
+#: reportForm.problem_type.accesskey
+msgid "Problem &Type:"
+msgstr "དཀའ་ངལ་དབྱེ་བ:(&T)"
+
+#: reportForm.problem_type.chooseOne.title
+msgid "Choose One..."
+msgstr "གཅིག་གདམ..."
+
+# DO *NOT* Add/change/modify (except localization) without consulting with r.m.o server admin first!
+#: reportForm.problem_type.item1.title
+msgid "Browser not supported"
+msgstr "བརའུ་ཟར་རྒྱབ་སྐྱོར་མ་འབདཝ།"
+
+#: reportForm.problem_type.item2.title
+msgid "Can't log in"
+msgstr "ནང་བསྐྱོད་འབད་མི་བཏུབ།"
+
+#: reportForm.problem_type.item3.title
+msgid "Plugin not shown"
+msgstr "པ་ལག་ཡིན་མ་སྟོནམ།"
+
+#: reportForm.problem_type.item4.title
+msgid "Other content missing"
+msgstr "ནང་དོན་གཞན་བརླག་སྟོར་འབྱུང་ཡོདཔ།"
+
+#: reportForm.problem_type.item5.title
+msgid "Behavior wrong"
+msgstr "སྤྱོད་ལམ་ཕྱི་འགྱུར།"
+
+#: reportForm.problem_type.item6.title
+msgid "Appearance wrong"
+msgstr "འབྱུང་སྣང་ཕྱི་འགྱུར།"
+
+#: reportForm.problem_type.item7.title
+msgid "Other problem"
+msgstr "དཀའ་ངལ་གཞན།"
+
+#: reportForm.describe.title
+#: reportForm.describe.accesskey
+msgid "&Describe Problem:"
+msgstr "དཀའ་ངལ་འགྲེལ་བཤད་འབད:(&D)"
+
+#: reportForm.platform.title
+msgid "Platform:"
+msgstr "མཉེན་རིམ:"
+
+#: reportForm.product.title
+msgid "Product:"
+msgstr "ཐོན་སྐྱེན:"
+
+#: reportForm.gecko.title
+msgid "Gecko:"
+msgstr "གེཀ་ཀོ:"
+
+#: reportForm.useragent.title
+msgid "Useragent:"
+msgstr "ལག་ལེན་པའི་ལས་ཚབ:"
+
+#: reportForm.language.title
+msgid "Language:"
+msgstr "ཁ་སྐད:"
+
+# Make sure this has "(Optional)" at the end.  This is important for the user to know
+#: reportForm.email.title
+#: reportForm.email.accesskey
+msgid "&Email (Optional):"
+msgstr "གློག་འཕྲིན (གདམ་ཁ་ཅན):(&E)"
+
+#: reportForm.privacyPolicy.tooltip
+msgid "View Privacy Policy"
+msgstr "སྒེར་གཙང་སྲིད་བྱུས་སྔོན་ལྟ།"
+
+#: reportResults.showDetail.title
+#: reportResults.showDetail.accesskey
+msgid "&Show Details"
+msgstr "རྒྱས་བཤད་ཚུ་སྟོན།(&S)"
+
+#: sendReport.label
+msgid "Sending Report"
+msgstr "སྙན་ཞུ་གཏང་དོ།"
+
+#: sendReport.description
+msgid "Sending Report to server..."
+msgstr "སར་བར་ལུ་སྙན་ཞུ་གཏང་དོ..."
+
+#: finish.label
+msgid "Report Sent"
+msgstr "སྙན་ཞུ་བཏང་ཡོད།"
+

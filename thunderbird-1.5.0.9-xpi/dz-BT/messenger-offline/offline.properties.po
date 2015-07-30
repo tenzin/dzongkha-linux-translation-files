@@ -1,0 +1,168 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/messenger-offline/offline.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: offline.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-19 12:38+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#   LOCALIZATION NOTE :
+#   do not localize "\n".  use "\n" to make the text fit nicely in the dialog.
+#
+# Download Messages Prompt
+#
+#: downloadMessagesWindowTitle
+msgid "Work Offline"
+msgstr "གློག་ཐོག་མེནམ་སྦེ་ལཱ་འབད།"
+
+#   LOCALIZATION NOTE :
+#   do not localize "\n".  use "\n" to make the text fit nicely in the dialog.
+#: downloadMessagesLabel
+msgid ""
+"Do you want to download messages \n"
+"for offline use before you go offline?\n"
+"\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་གློག་ཐོག་མེནམ་ལུ་ མ་འགྱོ་བའི་ཧེ་མ་ \n"
+"གློག་ཐོག་མེན་པའི་ ལག་ལེན་གྱི་དོན་ལུ་ འཕྲིན་དོན་ཚུ་ཕབ་ལེན་འབད་ནི་ཨིན་ན? \n"
+" \n"
+
+#: downloadMessagesCheckboxLabel
+msgid "Always ask me when I go offline"
+msgstr "ང་གློག་ཐོག་མེནམ་སྦེ་འགྱོཝ་ད་ ཨ་རྟག་ར་ ང་ལུ་དྲིས།"
+
+#: downloadMessagesDownloadButtonLabel
+msgid "Download"
+msgstr "ཕབ་ལེན་འབད་"
+
+#: downloadMessagesNoDownloadButtonLabel
+msgid "Don't Download"
+msgstr "ཕབ་ལེན་མ་འབད་"
+
+#: downloadMessagesCancelButtonLabel
+#: sendMessagesCancelButtonLabel
+#: getMessagesOfflineCancelButtonLabel
+#: sendMessagesOfflineCancelButtonLabel
+msgid "Cancel"
+msgstr "ཆ་མེད་"
+
+#
+# Send Messages Prompt
+#
+#: sendMessagesWindowTitle
+msgid "Work Online"
+msgstr "གློག་ཐོག་ལུ་ལཱ་འབད་"
+
+#   LOCALIZATION NOTE :
+#   do not localize "\n".  use "\n" to make the text fit nicely in the dialog.
+#: sendMessagesLabel
+msgid ""
+"Would you like to send the messages \n"
+"in your Unsent Messages folder once you are online?\n"
+"\n"
+msgstr ""
+"ཁྱོད་གློག་ཐོག་ལུ་ལྷོད་ཞིནམ་ལས་ \n"
+" ཁྱོད་ཀྱི་འཕྲིན་དོན་མ་བཏང་པའི་སྣོད་འཛིན་ནང་ཡོད་མི་ འཕྲིན་དོན་ཚུ་གཏང་ནི་ཨིན་ན? \n"
+" \n"
+
+#: sendMessagesCheckboxLabel
+msgid "Always ask me when I go online"
+msgstr "ང་གློག་ཐོག་ལུ་འགྱོཝ་ད་ ཨ་རྟག་ར་ ང་ལུ་དྲིས།"
+
+#: sendMessagesSendButtonLabel
+msgid "Send"
+msgstr "གཏང་"
+
+#: sendMessagesNoSendButtonLabel
+msgid "Don't Send"
+msgstr "མ་གཏང་"
+
+#
+# GetMessages Offline Prompt
+#
+#: getMessagesOfflineWindowTitle
+msgid "Get Messages"
+msgstr "འཕྲིན་དོན་ཚུ་ལེན་"
+
+#   LOCALIZATION NOTE :
+#   do not localize "\n".  use "\n" to make the text fit nicely in the dialog.
+#: getMessagesOfflineLabel
+msgid ""
+"You are currently offline. Would you like \n"
+"to go online to get your new messages?\n"
+"\n"
+msgstr ""
+"ད་ལྟོ་ཁྱོད་ གློག་ཐོག་ལུ་མེན་པས། ཁྱོད་ཀྱི་འཕྲིན་དོན་\n"
+"གསརཔ་ཚུ་ལེན་ནི་ལུ་ གློག་ཐོག་ལུ་འགྱོ་ནི་ཨིན་ན?\n"
+"\n"
+
+#: getMessagesOfflineGoButtonLabel
+#: sendMessagesOfflineGoButtonLabel
+msgid "Go online"
+msgstr "གློག་ཐོག་ལུ་འགྱོ་"
+
+#
+# Send Messages Offline Prompt
+#
+#: sendMessagesOfflineWindowTitle
+msgid "Send Messages"
+msgstr "འཕྲིན་དོན་ཚུ་གཏང་"
+
+#   LOCALIZATION NOTE :
+#   do not localize "\n".  use "\n" to make the text fit nicely in the dialog.
+#: sendMessagesOfflineLabel
+msgid ""
+"You are currently offline. Would you like \n"
+"to go online and send your unsent messages?\n"
+"\n"
+msgstr ""
+"ད་ལྟོ་ཁྱོད་གློག་ཐོག་ལུ་མེན་པས། ཁྱོད་གློག་ཐོག་ལུ་འགྱོ་ཞིནམ་ལས་\n"
+" ཁྱོད་ཀྱི་འཕྲིན་དོན་མ་གཏང་པར་ཡོད་མི་ཚུ་ གཏང་ནི་ཨིན་ན?\n"
+"\n"
+

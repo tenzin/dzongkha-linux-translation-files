@@ -1,0 +1,970 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-schedule.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-01 03:50+0100\n"
+"PO-Revision-Date: 2006-11-01 23:43+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../desktop/gnome-schedule.desktop.in.in.h:1
+msgid "Manage your system tasks"
+msgstr "ཁྱོད་རའི་ལས་ཀ་ཚུ་ འཛིན་སྐྱོང་འཐབ་"
+
+#: ../desktop/gnome-schedule.desktop.in.in.h:2
+msgid "Schedule"
+msgstr "འཆར་རིམ་"
+
+#: ../servers/GNOME_GnomeSchedule.server.in.in.h:1
+msgid "Configures your scheduled tasks"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཚུ་ རིམ་སྒྲིག་འབདཝ་ཨིན་"
+
+#: ../servers/GNOME_GnomeSchedule.server.in.in.h:2
+msgid "Gnome schedule"
+msgstr "ཇི་ནོམ་འཆར་རིམ་"
+
+#: ../servers/GNOME_GnomeSchedule.server.in.in.h:3
+msgid "System tools"
+msgstr "རིམ་ལུགས་ལག་ཆས་"
+
+#: ../src/at.py:398
+#, python-format
+msgid "DANGEROUS PARSE: %(preview)s"
+msgstr "ཉེན་ཁ་ཅན་གྱི་མིང་དཔྱད་: %(preview)s"
+
+#. TODO: localize time and date formats
+#: ../src/at.py:405
+#, python-format
+msgid "On %(date)s at %(time)s"
+msgstr "%(time)s ལུ་ %(date)s གུ་"
+
+#: ../src/at.py:410
+#: ../src/at.py:415
+msgid "Once"
+msgstr "ཚར་ཅིག་"
+
+#: ../src/at.py:419
+msgid "Warning: a line in atq's output didn't parse"
+msgstr "ཉེན་བརྡ་: ཨེ་ཊི་ཀིའུ་ཨའུཊི་པུཊི་ནང་གི་གྲལ་ཐིག་ཅིག་ མིང་དཔྱད་མ་འབད་བས་"
+
+#: ../src/crontab.py:72
+msgid "Minute"
+msgstr "སྐར་མ་"
+
+#: ../src/crontab.py:73
+msgid "Hour"
+msgstr "ཆུ་ཚོད་"
+
+#: ../src/crontab.py:74
+msgid "Day of Month"
+msgstr "ཟླཝ་འདི་གི་ཉིནམ་"
+
+#: ../src/crontab.py:75
+msgid "Month"
+msgstr "ཟླ་"
+
+#: ../src/crontab.py:76
+msgid "Weekday"
+msgstr "བདུན་ཕྲག་ཉིནམ་"
+
+#: ../src/crontab.py:161
+#: ../src/crontab.py:166
+#: ../src/crontab.py:170
+#, python-format
+msgid "Must be between %(min)s and %(max)s"
+msgstr "%(min)s དང་ %(max)s གཉིས་ཀྱི་སྦུག་ནང་ཨིན་དགོ་"
+
+#: ../src/crontab.py:168
+#, python-format
+msgid "%s is not a number"
+msgstr "%s འདི་ ཨང་གྲངས་མེན་"
+
+#: ../src/crontab.py:216
+#: ../src/crontab.py:261
+#: ../src/crontabEditor.py:191
+#: ../src/atEditor.py:110
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ་"
+
+#. add task to treemodel in mainWindow
+#: ../src/crontab.py:337
+msgid "Recurrent"
+msgstr "ལོག་འབྱུང་བའི་"
+
+#: ../src/crontab.py:349
+msgid "minute"
+msgstr "སྐར་མ་"
+
+#: ../src/crontab.py:351
+msgid "hour"
+msgstr "ཆུ་ཚོད་"
+
+#: ../src/crontab.py:353
+msgid "day"
+msgstr "ཉིནམ་"
+
+#: ../src/crontab.py:355
+msgid "month"
+msgstr "ཟླ་"
+
+#: ../src/crontab.py:357
+msgid "weekday"
+msgstr "བདུན་ཕྲག་ཉིནམ་"
+
+#: ../src/crontabEditor.py:80
+msgid "Use advanced"
+msgstr "མཐོ་རིམ་ཅན་ ལག་ལེན་འཐབ་"
+
+#: ../src/crontabEditor.py:81
+#: ../src/crontabEditorHelper.py:87
+#: ../src/gnome-schedule.glade.h:28
+msgid "Every minute"
+msgstr "སྐར་མ་རེ་རེ་ནང་"
+
+#: ../src/crontabEditor.py:82
+#: ../src/crontabEditorHelper.py:93
+msgid "Every hour"
+msgstr "ཆུ་ཚོད་རེ་རེ་ནང་"
+
+#: ../src/crontabEditor.py:83
+#: ../src/crontabEditorHelper.py:99
+msgid "Every day"
+msgstr "ཉིནམ་ཨ་རྟག་ར་"
+
+#: ../src/crontabEditor.py:84
+#: ../src/crontabEditorHelper.py:105
+msgid "Every month"
+msgstr "ཟླཝ་ཨ་རྟག་ར་"
+
+#: ../src/crontabEditor.py:85
+msgid "Every week"
+msgstr "བདུན་ཕྲག་ཨ་རྟག་ར་"
+
+#: ../src/crontabEditor.py:130
+#: ../src/atEditor.py:112
+msgid "Create a New Scheduled Task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཅིག་ གསར་བསྐྲུན་འབད་"
+
+#: ../src/crontabEditor.py:152
+#: ../src/atEditor.py:148
+msgid "Edit a Scheduled Task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཅིག་ ཞུན་དག་འབད་"
+
+#: ../src/crontabEditor.py:209
+#: ../src/atEditor.py:321
+msgid "Don't use a preset"
+msgstr "སྔར་སྒྲིག་ ལག་ལེན་མ་འཐབ་"
+
+#: ../src/crontabEditor.py:270
+#, python-format
+msgid "This is an invalid record! The problem could be in the %(field)s field. Reason: %(reason)s"
+msgstr "འ་ནི་འདི་ ནུས་མེད་ཀྱི་དྲན་ཐོ་ཨིན་! དཀའ་ངལ་འདི་ %(field)s ས་སྒོ་ནན་ལུ་ཨིན་དགོ རྒྱུ་མཚན་:  %(reason)s"
+
+#: ../src/crontabEditor.py:302
+#: ../src/atEditor.py:291
+msgid "The preset has not been saved"
+msgstr "སྔོན་སྒྲིག་འདི་ མ་སྲུང་པས་"
+
+#: ../src/crontabEditor.py:304
+#: ../src/atEditor.py:293
+msgid "To delete a preset, you first need to select one"
+msgstr "སྔོན་སྒྲིག་ཅིག་བཏོན་གཏང་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་དང་པ་ར་ གཅིག་སེལ་འཐུ་འབད་དགོ་"
+
+#: ../src/crontabEditor.py:314
+#: ../src/atEditor.py:304
+msgid "To save a preset, you first have to choose a name for it"
+msgstr "སྔོན་སྒྲིག་ཅིག་སྲུང་ནི་གི་དོན་ལུ་ ཁྱོད་ཀྱིས་ དང་པ་ར་ དེ་ལུ་མིང་ཅིག་གདམ་ཁ་བརྐྱབ་དགོ་"
+
+#: ../src/crontabEditor.py:324
+#: ../src/atEditor.py:395
+msgid "Choose an Icon for this Scheduled Task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀའི་དོན་ལུ་ ངོས་པར་གདམས་"
+
+#: ../src/crontabEditor.py:388
+msgid "command"
+msgstr "བརྡ་བཀོད་"
+
+#: ../src/crontabEditor.py:426
+#: ../src/mainWindow.py:564
+#: ../src/atEditor.py:519
+msgid "Could not display help"
+msgstr "གྲོགས་རམ་བཀྲམ་སྟོན་འབད་མ་ཚུགས་"
+
+#: ../src/crontabEditorHelper.py:111
+msgid "Every weekday"
+msgstr "བདུན་ཕྲག་ཉིནམ་ཨ་རྟག་ར་"
+
+#: ../src/crontabEditorHelper.py:163
+msgid "Minute settings"
+msgstr "སྐར་མའི་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/crontabEditorHelper.py:164
+msgid "Edit Time Expression for minute"
+msgstr "སྐར་མའི་དོན་ལུ་ ཆུ་ཚོད་གསལ་བརྗོད་ཞུན་དག་འབད་"
+
+#: ../src/crontabEditorHelper.py:166
+msgid "Hour settings"
+msgstr "ཆུ་ཚོད་སྒྲིག་སྟངས་"
+
+#: ../src/crontabEditorHelper.py:167
+msgid "Edit Time Expression for hour"
+msgstr "ཆུ་ཚོད་ཀྱི་དོན་ལུ་ ཆུ་ཚོད་གསལ་བརྗོད་ཞུན་དག་འབད་"
+
+#: ../src/crontabEditorHelper.py:169
+msgid "Day settings"
+msgstr "ཉིནམ་མའི་སྒྲིག་སྟངས་"
+
+#: ../src/crontabEditorHelper.py:170
+msgid "Edit Time Expression for day"
+msgstr "ཉིནམ་གྱི་དོན་ལུ་ ཆུ་ཚོད་གསལ་བརྗོད་ཞུན་དག་འབད་"
+
+#: ../src/crontabEditorHelper.py:172
+msgid "Month settings"
+msgstr "ཟླའི་སྒྲིག་སྟངས་"
+
+#: ../src/crontabEditorHelper.py:173
+msgid "Edit Time Expression for month"
+msgstr "ཟླའི་དོན་ལུ་ ཆུ་ཚོད་གསལ་བརྗོད་ཞུན་དག་འབད་"
+
+#: ../src/crontabEditorHelper.py:175
+msgid "Weekday settings"
+msgstr "བདུན་ཕྲག་ཉིནམ་མའི་སྒྲིག་སྟངས་"
+
+#: ../src/crontabEditorHelper.py:176
+msgid "Edit Time Expression for weekday"
+msgstr "བདུན་ཕྲག་ཉིནམ་མའི་དོན་ལུ་ ཆུ་ཚོད་གསལ་བརྗོད་ཞུན་དག་འབད་"
+
+#: ../src/crontabEditorHelper.py:190
+#, python-format
+msgid "This is invalid. Reason: %s"
+msgstr "འདི་ནུས་མེད་ཨིན། རྒྱུ་མཚན་: %s"
+
+#. minute
+#: ../src/crontabEditorHelper.py:236
+#: ../src/gnome-schedule.glade.h:15
+msgid "At an exact minute"
+msgstr "དཀར་མ་ཏག་ཏ་ལུ་"
+
+#: ../src/crontabEditorHelper.py:237
+#: ../src/gnome-schedule.glade.h:42
+msgid "Minute:"
+msgstr "དཀར་མ་:"
+
+#. hour
+#: ../src/crontabEditorHelper.py:240
+msgid "At an exact hour"
+msgstr "ཆུ་ཚོད་ཏག་ཏ་ལུ་ "
+
+#: ../src/crontabEditorHelper.py:241
+msgid "Hour:"
+msgstr "ཆུ་ཚོད་:"
+
+#. day
+#: ../src/crontabEditorHelper.py:244
+msgid "On a day"
+msgstr "ཉིནམ་ལུ་ "
+
+#: ../src/crontabEditorHelper.py:245
+msgid "Day:"
+msgstr "ཉིནམ་:"
+
+#. month
+#: ../src/crontabEditorHelper.py:248
+msgid "In a month"
+msgstr "ཟླཝ་ཅིག་ནང་ "
+
+#: ../src/crontabEditorHelper.py:249
+msgid "Month:"
+msgstr "ཟླ་:"
+
+#. weekday
+#: ../src/crontabEditorHelper.py:252
+msgid "On a weekday"
+msgstr "བདུན་ཕྲག་ཉིནམ་ལུ་"
+
+#: ../src/crontabEditorHelper.py:253
+msgid "Weekday:"
+msgstr "བདུན་ཕྲག་ཉིནམ་:"
+
+#: ../src/crontabEditorHelper.py:258
+#: ../src/gnome-schedule.glade.h:40
+msgid "In a step width"
+msgstr "གོ་རིམ་རྒྱ་ཚད་ཅིག་ནང་"
+
+#: ../src/crontabEditorHelper.py:260
+#: ../src/gnome-schedule.glade.h:43
+msgid "Minutes:"
+msgstr "དཀར་མ་ཚུ་:"
+
+#: ../src/crontabEditorHelper.py:262
+msgid "Hours:"
+msgstr "ཆུ་ཚོད་ཚུ་:"
+
+#: ../src/crontabEditorHelper.py:264
+msgid "Days:"
+msgstr "ཉིནམ་ཚུ་:"
+
+#: ../src/crontabEditorHelper.py:266
+msgid "Months:"
+msgstr "ཟླཝ་ཚུ་:"
+
+#: ../src/crontabEditorHelper.py:268
+msgid "Weekdays:"
+msgstr "བདུན་ཕྲག་ཉིནམ་ཚུ་:"
+
+#: ../src/gnome-schedule-applet.xml.h:1
+msgid "A_bout"
+msgstr "སྐོར་ལས་(_b)"
+
+#: ../src/gnome-schedule-applet.xml.h:2
+msgid "_Add a task"
+msgstr "ལས་ཀ་ ཁ་སྐོང་རྐྱབས་(_A)"
+
+#: ../src/gnome-schedule-applet.xml.h:3
+#: ../src/gnome-schedule.glade.h:64
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/gnome-schedule-applet.xml.h:4
+msgid "_Manage tasks"
+msgstr "ལས་ཀ་ འཛིན་སྐྱོང་འཐབ་(_M)"
+
+#: ../src/gnome-schedule.glade.h:1
+msgid "<b>Choose the user whose tasks you want to modify</b>"
+msgstr "<b>ཁྱོད་ཀྱིས་ ག་གི་ལས་ཀ་ལེགས་བཅོས་འབད་ནི་ཨིན་ན་ ལག་ལེན་པ་གདམ་ཁ་རྐྱབས་</b>"
+
+#: ../src/gnome-schedule.glade.h:2
+msgid "<b>Date and Time Settings</b>"
+msgstr "<b>ཚེས་གྲངས་དང་ཆུ་ཚོད་སྒྲིག་སྟངས་</b>"
+
+#: ../src/gnome-schedule.glade.h:3
+msgid "<b>Execution Time</b>"
+msgstr "<b>ལག་ལེན་ཆུ་ཚོད་</b>"
+
+#: ../src/gnome-schedule.glade.h:4
+msgid "<b>General</b>"
+msgstr "<b>སྤྱིར་བཏང་</b>"
+
+#: ../src/gnome-schedule.glade.h:5
+msgid "<b>Minute settings</b>"
+msgstr "<b>དཀར་མའི་སྒྲིག་སྟངས་</b>"
+
+#: ../src/gnome-schedule.glade.h:6
+msgid "<b>Preview</b>"
+msgstr "<b>སྔོན་ལྟ་</b>"
+
+#: ../src/gnome-schedule.glade.h:7
+msgid "<b>Select the type of the scheduled task</b>"
+msgstr "<b>འཆར་རིམ་ཅན་གྱི་ལས་ཀའི་དབྱེ་བ་ སེལ་འཐུ་འབད་</b>"
+
+#: ../src/gnome-schedule.glade.h:8
+msgid "<b>Task</b>"
+msgstr "<b>ལས་ཀ་</b>"
+
+#: ../src/gnome-schedule.glade.h:9
+msgid "A scheduled task that will launch _recurrently"
+msgstr "ལོག་འབྱུང་སྦེ་གསར་བཙུགས་འབད་ནི་ཨིན་པའི་འཆར་རིམ་ཅན་གྱི་ལས་ཀ་"
+
+#: ../src/gnome-schedule.glade.h:10
+msgid "A scheduled task that will launch only once in the _future"
+msgstr "མ་འོངས་པའི་ནང་ ཚར་ཅིག་རྐྱངམ་ཅིག་གསར་བཙུགས་འབད་ནི་ཨིན་པའི་འཆར་རིམ་ཅན་གྱི་ལས་ཀ་"
+
+#: ../src/gnome-schedule.glade.h:11
+msgid "About this application"
+msgstr "གློག་རིམ་འདི་གི་སྐོར་ལས་"
+
+#: ../src/gnome-schedule.glade.h:12
+msgid "Add a Scheduled Task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཅིག་ ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/gnome-schedule.glade.h:13
+msgid "Add a new scheduled task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་གསརཔ་ཅིག་ ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/gnome-schedule.glade.h:14
+msgid "Advanced"
+msgstr "མཐོ་རིམ་ཅན་"
+
+#: ../src/gnome-schedule.glade.h:16
+msgid "Basic"
+msgstr "གཞི་རིམ་"
+
+#: ../src/gnome-schedule.glade.h:17
+msgid "Change User"
+msgstr "ལག་ལེན་པ་ བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/gnome-schedule.glade.h:18
+msgid "Change _User"
+msgstr "ལག་ལེན་པ་ བསྒྱུར་བཅོས་འབད་(_U)"
+
+#: ../src/gnome-schedule.glade.h:19
+msgid "Choose an icon for this scheduled task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་འདི་གི་དོན་ལུ་ ངོས་པར་གདམ་ཁ་རྐྱབས་"
+
+#: ../src/gnome-schedule.glade.h:20
+msgid "Choose the user whose tasks you want to modify"
+msgstr "ཁྱོད་ཀྱིས་ ག་གི་ལས་ཀ་ཚུ་ལེགས་བཅོས་འབད་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས་"
+
+#: ../src/gnome-schedule.glade.h:21
+msgid "Co_mmand:"
+msgstr "བརྡ་བཀོད་:"
+
+#: ../src/gnome-schedule.glade.h:22
+msgid "Configure Scheduled Tasks"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཚུ་ རིམ་སྒྲིག་འབད་"
+
+#: ../src/gnome-schedule.glade.h:23
+msgid "Date and Time"
+msgstr "ཚེས་གྲངས་དང་ཆུ་ཚོད་"
+
+#: ../src/gnome-schedule.glade.h:24
+msgid "Delete a scheduled task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཅིག་ བཏོན་གཏང་"
+
+#: ../src/gnome-schedule.glade.h:25
+msgid "Delete the selected template"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཊེམ་པེལེཊི་ བཏོན་གཏང་"
+
+#: ../src/gnome-schedule.glade.h:26
+msgid "Desc_ription:"
+msgstr "འགྲེལ་བཤད་:"
+
+#: ../src/gnome-schedule.glade.h:27
+msgid "Edit a scheduled task"
+msgstr "འཆར་རིམ་ཅན་གྱི་ལས་ཀ་ཅིག་ ཞུན་དག་འབད་"
+
+#: ../src/gnome-schedule.glade.h:29
+msgid "Execution at a specific minute, hour, day, weekday or month."
+msgstr "དམིགས་བསལ་དཀར་ཆ་དང་ཆུ་ཚོད་ དེ་ལས་ཉིན་མ་དང་བདུན་ཕྲག་ནང་ ཡང་ན་ ཟླཝ་ནང་ལུ་ལག་ལེན་འཐབ་ནི།"
+
+#: ../src/gnome-schedule.glade.h:30
+msgid "Execution at a step width. For example every five minutes, hours, days, weekdays or months."
+msgstr "གོ་རིམ་རྒྱ་ཚད་ལུ་ ལག་ལེན་འཐབ་ནི། དཔེར་ན་ དཀར་མ་རེ་རེ་ནང་ དེ་ལས་ཆུ་ཚོད་དང་ཉིནམ་ བདུན་ཕྲག་ ཡངན་ ཟླཝ་རེ་རེ་ནང་བཞིན།"
+
+#: ../src/gnome-schedule.glade.h:31
+msgid "Execution at every minute, hour, day, weekday or month."
+msgstr "དཀར་མ་དང་ཆུ་ཚོད་ དེ་ལས་ཉིནམ་དང་བདུན་ཕྲག་རེ་རེ་བཞིན་ ཡངན་ ཟླཝ་ལྟ་བུ་ར་ལག་ལེན་འཐབ་པ།"
+
+#: ../src/gnome-schedule.glade.h:32
+msgid "Execution in a range."
+msgstr "ཁྱབ་ཚད་ནང་གི་ལག་ལེན་"
+
+#: ../src/gnome-schedule.glade.h:33
+msgid "Expression:"
+msgstr "ཨེབ་བཙུགས་:"
+
+#: ../src/gnome-schedule.glade.h:34
+msgid "For example at 04:10 tomorrow, next week or in three days"
+msgstr "དཔེར་ན་ ༠༤:༡༠ ནངས་པ་དང་བདུན་ཕྲག་ཤུལ་མམ་ནང་ ཡངན་ ཉིནམ་གསུམ་ནང་ལུ་"
+
+#: ../src/gnome-schedule.glade.h:35
+msgid "For example every first hour of the day"
+msgstr "དཔེར་ན་ ཨ་རྟག་ར་ཉིན་མའི་ཆུ་ཚོད་དང་པམ་ནང་"
+
+#: ../src/gnome-schedule.glade.h:36
+msgid "For experienced users"
+msgstr "ཉམས་མྱོང་ཅན་གྱི་ལག་ལེན་པ་ཚུ་ལུ་"
+
+#: ../src/gnome-schedule.glade.h:37
+msgid "From:"
+msgstr "ལས་:"
+
+#: ../src/gnome-schedule.glade.h:38
+msgid "Ico_n:"
+msgstr "ངོས་པར་:(_n)"
+
+#: ../src/gnome-schedule.glade.h:39
+msgid "In a range"
+msgstr "ཁྱབ་ཚད་ནང་"
+
+#: ../src/gnome-schedule.glade.h:41
+msgid "Mi_nutes:"
+msgstr "དཀར་མ་ཚུ་:(_n)"
+
+#: ../src/gnome-schedule.glade.h:44
+msgid "No out_put"
+msgstr "ཨའུཊི་པུཊི་མེད་(_p)"
+
+#: ../src/gnome-schedule.glade.h:45
+msgid "Other"
+msgstr "གཞན་"
+
+#: ../src/gnome-schedule.glade.h:46
+msgid "Quit the application. This will not stop the system scheduling. It will, however, quit this system schedule maintenance tool."
+msgstr "གློག་རིམ་འདི་སྤངས། འདི་གིས་ རིམ་ལུགས་འཆར་རིམ་མི་བཀག ཨིན་རུང་འདི་གིས་ རིམ་ལུགས་གྱི་འཆར་རིམ་རྒྱུན་སྐྱོང་ལག་ཆས་འདི་ སྤང་འོང་།"
+
+#: ../src/gnome-schedule.glade.h:47
+msgid "Rec_urrence:"
+msgstr "བསྐྱར་ལོག་:(_u)"
+
+#: ../src/gnome-schedule.glade.h:48
+msgid "Save the current information as a template"
+msgstr "ད་ལྟོའི་བརྡ་དོན་འདི་ ཊེམ་པེལེཊི་སྦེ་ སྲུངས་"
+
+#: ../src/gnome-schedule.glade.h:49
+msgid "Scheduled and active tasks"
+msgstr "འཆར་རིམ་ཅན་དང་ཤུགས་ལྡན་ལས་ཀ་ཚུ་"
+
+#: ../src/gnome-schedule.glade.h:50
+msgid "Scri_pt:"
+msgstr "ཡིག་ཚུགས་:(_p)"
+
+#: ../src/gnome-schedule.glade.h:51
+msgid "See \"man 5 crontab\" for information about the crontab format."
+msgstr "ཀོརོན་ཊེབ་རྩ་སྒྲིག་སྐོར་ལས་ བརྡ་དོན་གྱི་དོན་ལུ་ \"man 5 crontab\" ལུ་བལྟ།"
+
+#: ../src/gnome-schedule.glade.h:52
+msgid "Select..."
+msgstr "སེལ་འཐུ་་་་་"
+
+#: ../src/gnome-schedule.glade.h:53
+msgid "Show help"
+msgstr "གྲོགས་རམ་སྟོན་"
+
+#: ../src/gnome-schedule.glade.h:54
+msgid "Show the manual"
+msgstr "ལག་དེབ་སྟོན་"
+
+#: ../src/gnome-schedule.glade.h:55
+msgid "Time expression help"
+msgstr "ཆུ་ཚོད་གསལ་བརྗོད་གྲོགས་རམ་"
+
+#: ../src/gnome-schedule.glade.h:56
+msgid "To:"
+msgstr "ལུ་:"
+
+#: ../src/gnome-schedule.glade.h:57
+msgid ""
+"Tomorrow\n"
+"Next week"
+msgstr ""
+"ནངས་པ་\n"
+"བདུན་ཕྲག་ཤུལ་མམ་"
+
+#: ../src/gnome-schedule.glade.h:59
+msgid "When selected, no output will be generated. When scheduled tasks in the crontab do have output and this option is not checked, the output will by default be send to the UNIX mailbox of the user."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་སྐབས་ལུ་ ཨའུཊི་པུཊི་བཟོ་བཏོན་མི་འབད། འཆར་རིམ་བཟོ་ཡོད་པའི་སྐབས་ ཀོརོན་ཊེབ་ནང་གི་ལས་ཀ་ཚུ་ལུ་ ཨའུཊི་པུཊི་ཡོདཔ་དང་ གདམ་ཁ་འདི་ཞིབ་དཔྱད་མ་འབད་བ་ཅིན་ ཨའུཊི་པུཊི་འདི་སྔོན་སྒྲིག་ཐོག་ལས་ ལག་ལེན་པའི་ཡུ་ནིགསི་ཡིག་སྒྲོམ་ནང་ གཏངམ་ཨིན། "
+
+#: ../src/gnome-schedule.glade.h:60
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../src/gnome-schedule.glade.h:61
+msgid "_Advanced"
+msgstr "མཐོ་རིམ་ཅན་(_A)"
+
+#: ../src/gnome-schedule.glade.h:62
+msgid "_Date:"
+msgstr "ཚེས་གྲངས་:(_D)"
+
+#: ../src/gnome-schedule.glade.h:63
+msgid "_Days of month:"
+msgstr "ཟླཝ་འདི་གི་ཉིནམ་:(_D)"
+
+#: ../src/gnome-schedule.glade.h:65
+msgid "_Hour:"
+msgstr "ཆུ་ཚོད་:(_H)"
+
+#: ../src/gnome-schedule.glade.h:66
+msgid "_Hours:"
+msgstr "ཆུ་ཚོད་ཚུ་:(_H)"
+
+#: ../src/gnome-schedule.glade.h:67
+msgid "_Manual"
+msgstr "ལག་དེབ་(_M)"
+
+#: ../src/gnome-schedule.glade.h:68
+msgid "_Minute:"
+msgstr "དཀར་མ་:(_M)"
+
+#: ../src/gnome-schedule.glade.h:69
+msgid "_Months:"
+msgstr "ཟླཝ་ཚུ་:(_M)"
+
+#: ../src/gnome-schedule.glade.h:70
+msgid "_Task"
+msgstr "ལས་ཀ་(_T)"
+
+#: ../src/gnome-schedule.glade.h:71
+msgid "_Template:"
+msgstr "ཊེམ་པེལེཊི་:(_T)"
+
+#: ../src/gnome-schedule.glade.h:72
+msgid "_User:"
+msgstr "ལག་ལེན་པ་:(_U)"
+
+#: ../src/gnome-schedule.glade.h:73
+msgid "_View"
+msgstr "མཐོང་སྣང་:(_V)"
+
+#: ../src/gnome-schedule.glade.h:74
+msgid "_Weekdays:"
+msgstr "བདུན་ཕྲག་ཉིནམ་:(_W)"
+
+#: ../src/gnome-schedule.py:62
+#: ../src/scheduleapplet.py:63
+msgid ""
+"You need to install pyGTK or GTKv2,\n"
+"or set your PYTHONPATH correctly.\n"
+"try: export PYTHONPATH= "
+msgstr ""
+"ཁྱོད་ཀྱིས་ pyGTK ཡངན་ GTKv2 གཞི་བཙུག་འབད་དགོཔ་འདུག\n"
+"ཡང་ན་ ཁྱོད་རའི་PYTHONPATH འདི་ངེས་ལྡན་སྦེ་ གཞི་སྒྲིག་འབད་དགོཔ་འདུག\n"
+"འབད་རྩོལ་བསྐྱེད་: PYTHONPATH= ཕྱིར་འདྲེན་འབད་"
+
+#. Translators: Date format for expressions like 'January 21'. %B is month, %d is day number.
+#. Run the command 'man strftime' to read more about these and other available specifiers.
+#: ../src/lang.py:105
+msgid "%B %d"
+msgstr "%B %d"
+
+#. Translators: Date format for expressions like 'January 21, 2005'. %B is month, %d is day number, %Y is year with century.
+#. Run the command 'man strftime' to read more about these and other available specifiers.
+#: ../src/lang.py:112
+msgid "%B %d, %Y"
+msgstr "%B %d, %Y"
+
+#. Translators: Time without seconds. %H is hour, %M is minute.
+#. Run the command 'man strftime' to read more about these and other available specifiers.
+#: ../src/lang.py:122
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: ../src/lang.py:159
+msgid "At every full hour"
+msgstr "ཆུ་ཚོད་ཧྲིལ་བུ་རེ་ནང་"
+
+#: ../src/lang.py:161
+msgid "At every minute"
+msgstr "དཀར་མ་རེ་རེ་ནང་"
+
+#: ../src/lang.py:163
+#, python-format
+msgid "At minute %(minute)s of every hour"
+msgstr "ཆུ་ཚོད་རེ་རེའི་དཀར་མ་ %(minute)s ལུ་"
+
+#: ../src/lang.py:165
+#, python-format
+msgid "At every minute between %(time_from)s and %(time_to)s"
+msgstr "%(time_from)s དང་ %(time_to)s བར་ནའི་སྐར་མ་རེ་རེ་ནང་"
+
+#: ../src/lang.py:167
+#, python-format
+msgid "On every day at %(time)s"
+msgstr "ཉིནམ་ཨ་རྟག་ར་  %(time)s ལུ་"
+
+#: ../src/lang.py:172
+#, python-format
+msgid "On day %(monthday)s of every month at every full hour"
+msgstr "ཟླ་རིམ་བཞིན་དུ་ ཉིནམ་ %(monthday)s ལུ་ ཆུ་ཚོད་རེ་རེ་བཞིན་དུ་"
+
+#: ../src/lang.py:174
+#, python-format
+msgid "On day %(monthday)s of every month at every minute"
+msgstr "ཟླ་རིམ་བཞིན་དུ་ ཉིནམ་ %(monthday)s ལུ་ སྐར་མ་རེ་རེ་བཞིན་དུ་"
+
+#: ../src/lang.py:176
+#, python-format
+msgid "On day %(monthday)s of every month at minute %(minute)s of every hour"
+msgstr "ཟླ་རིམ་བཞིན་དུ་ ཉིནམ་ %(monthday)s ལུ་ ཆུ་ཚོད་རེ་རེ་བཞིན་གྱི་སྐར་མ་ %(minute)s ལུ་"
+
+#: ../src/lang.py:178
+#, python-format
+msgid "On day %(monthday)s of every month at every minute between %(time_from)s and %(time_to)s"
+msgstr "ཟླ་རིམ་བཞིན་དུ་ ཉིནམ་ %(monthday)s ལུ་  %(time_from)s དང་ %(time_to)s བར་ནའི་སྐར་མ་རེ་རེ་བཞིན་དུ་ "
+
+#: ../src/lang.py:180
+#, python-format
+msgid "On day %(monthday)s of every month at %(time)s"
+msgstr "ཟླ་རིམ་བཞིན་དུ་ ཉིནམ་ %(monthday)s གི་ %(time)sལུ་"
+
+#: ../src/lang.py:185
+#, python-format
+msgid "On every day in %(month)s at every full hour"
+msgstr "%(month)s ནང་གི་ཉིནམ་རེ་རེ་བཞིན་དུའི་ཆུ་ཚོད་རེ་རེ་ནང་ལུ་"
+
+#: ../src/lang.py:187
+#, python-format
+msgid "On every day in %(month)s at every minute"
+msgstr "%(month)s ནང་གི་ཉིནམ་རེ་རེ་བཞིན་དུའི་སྐར་མ་རེ་རེ་ནང་ལུ་"
+
+#: ../src/lang.py:189
+#, python-format
+msgid "On every day in %(month)s at minute %(minute)s of every hour"
+msgstr "%(month)s ནང་གི་ཉིནམ་རེ་རེ་བཞིན་དུ་ ཆུ་ཚོད་རེ་རེ་བཞིན་གྱི་སྐར་མ་ %(minute)s ལུ་ "
+
+#: ../src/lang.py:191
+#, python-format
+msgid "On every day in %(month)s at every minute between %(time_from)s and %(time_to)s"
+msgstr "%(month)s ནང་གི་ཉིནམ་རེ་རེ་བཞིན་དུ་  %(time_from)s དང་ %(time_to)s བར་ནའི་སྐར་མ་རེ་རེ་ནང་ལུ་ "
+
+#: ../src/lang.py:193
+#, python-format
+msgid "On every day in %(month)s at %(time)s"
+msgstr "%(month)s ནང་གི་ཉིནམ་རེ་རེ་བཞིན་དུའི་ %(time)sལུ་"
+
+#: ../src/lang.py:198
+#, python-format
+msgid "Every year on %(date)s at every full hour"
+msgstr "ལོ་ཨ་རྟག་ར་  %(date)s གི་ཆུ་ཚོད་རེ་རེ་ནང་ལུ་"
+
+#: ../src/lang.py:200
+#, python-format
+msgid "Every year on %(date)s at every minute"
+msgstr "ལོ་ཨ་རྟག་ར་  %(date)s གི་སྐར་མ་རེ་རེ་ནང་ལུ་"
+
+#: ../src/lang.py:202
+#, python-format
+msgid "Every year on %(date)s at minute %(minute)s of every hour"
+msgstr "ལོ་ཨ་རྟག་ར་  %(date)s གི་ཆུ་ཚོད་རེ་རེའི་སྐར་མ་  %(minute)s ལུ་"
+
+#: ../src/lang.py:204
+#, python-format
+msgid "Every year on %(date)s at every minute between %(time_from)s and %(time_to)s"
+msgstr "ལོ་ཨ་རྟག་ར་  %(date)s གི་  %(time_from)s དང་ %(time_to)s བར་ནའི་ སྐར་མ་རེ་རེ་ལུ་"
+
+#: ../src/lang.py:206
+#, python-format
+msgid "Every year on %(date)s at %(time)s"
+msgstr "ལོ་ཨ་རྟག་ར་ %(date)s གི་ %(time)s ལུ་ "
+
+#: ../src/lang.py:211
+#, python-format
+msgid "On every %(weekday)s at every full hour"
+msgstr " %(weekday)s རེ་རེ་བཞིན་གྱི་ཆུ་ཚོད་རེ་རེ་ནང་"
+
+#: ../src/lang.py:213
+#, python-format
+msgid "On every %(weekday)s at every minute"
+msgstr " %(weekday)s རེ་རེ་བཞིན་གྱི་སྐར་མ་རེ་རེ་ནང་"
+
+#: ../src/lang.py:215
+#, python-format
+msgid "On every %(weekday)s at minute %(minute)s of every hour"
+msgstr " %(weekday)s རེ་རེ་ལུ་ ཆུ་ཚོད་རེ་བཞིན་གྱི་སྐར་མ་ %(minute)s ལུ་"
+
+#: ../src/lang.py:217
+#, python-format
+msgid "On every %(weekday)s at every minute between %(time_from)s and %(time_to)s"
+msgstr " %(weekday)s རེ་རེ་ལུ་ %(time_from)s དང་ %(time_to)s བར་ནའི་སྐར་མ་རེ་རེ་ནང་ལུ་ "
+
+#: ../src/lang.py:219
+#, python-format
+msgid "On every %(weekday)s at %(time)s"
+msgstr "%(weekday)s རེ་རེ་བཞིན་གྱི་ %(time)s ལུ་"
+
+#: ../src/lang.py:224
+#, python-format
+msgid "On day %(monthday)s of every month and every %(weekday)s at every full hour"
+msgstr "ཟླཝ་རེ་རེའི་ %(weekday)s དང་ ཆུ་ཚོད་རེ་རེ་ནང་གི་ ཉིནམ་ %(monthday)s ལུ་"
+
+#: ../src/lang.py:226
+#, python-format
+msgid "On day %(monthday)s of every month and every %(weekday)s at every minute"
+msgstr "ཟླཝ་རེ་རེའི་ %(weekday)s དང་ སྐར་མ་རེ་རེ་ནང་གི་ ཉིནམ་ %(monthday)s ལུ་"
+
+#: ../src/lang.py:228
+#, python-format
+msgid "On day %(monthday)s of every month and every %(weekday)s at minute %(minute)s of every hour"
+msgstr "ཟླཝ་རེ་རེའི་ %(weekday)s དང་ ཆུ་ཚོད་རེ་རེ་སྐར་མ་ %(minute)s ནང་གི་ ཉིནམ་ %(monthday)s ལུ་"
+
+#: ../src/lang.py:230
+#, python-format
+msgid "On day %(monthday)s of every month and every %(weekday)s at every minute between %(time_from)s and %(time_to)s"
+msgstr "ཟླཝ་རེ་རེའི་ %(weekday)s དང་ %(time_from)s དང་ %(time_to)s བར་ནའི་སྐར་མ་རེ་རེ་གི་ ཉིནམ་ %(monthday)s ལུ་ "
+
+#: ../src/lang.py:232
+#, python-format
+msgid "On day %(monthday)s of every month and every %(weekday)s at %(time)s"
+msgstr "ཟླཝ་རེ་རེའི་ %(weekday)s དང་ %(time)s གི་ ཉིནམ་ %(monthday)s ལུ་ "
+
+#: ../src/lang.py:237
+#, python-format
+msgid "On every %(weekday)s in %(month)s at every full hour"
+msgstr "%(month)s ནང་ལུ་  %(weekday)s རེ་རེ་བཞིན་གྱི་ཆུ་ཚོད་རེ་རེ་ལུ་ "
+
+#: ../src/lang.py:239
+#, python-format
+msgid "On every %(weekday)s in %(month)s at every minute"
+msgstr "%(month)s ནང་ལུ་  %(weekday)s རེ་རེ་བཞིན་གྱི་སྐར་མ་རེ་རེ་ལུ་ "
+
+#: ../src/lang.py:241
+#, python-format
+msgid "On every %(weekday)s in %(month)s at minute %(minute)s of every hour"
+msgstr "%(month)s ནང་ལུ་  %(weekday)s རེ་རེ་བཞིན་དུ་ ཆུ་ཚོད་རེ་རེའི་སྐར་མ་  %(minute)s ལུ་ "
+
+#: ../src/lang.py:243
+#, python-format
+msgid "On every %(weekday)s in %(month)s at every minute between %(time_from)s and %(time_to)s"
+msgstr "%(month)s ནང་ལུ་  %(weekday)s རེ་རེ་བཞིན་དུ་  %(time_from)s དང་ %(time_to)s བར་ནའི་ སྐར་མ་རེ་རེ་ལུ་ "
+
+#: ../src/lang.py:245
+#, python-format
+msgid "On every %(weekday)s in %(month)s at %(time)s"
+msgstr "%(month)s གི་ %(weekday)s རེ་རེའི་ %(time)s ལུ་ "
+
+#: ../src/lang.py:250
+#, python-format
+msgid "On every %(weekday)s in %(month)s and on %(date)s every year at every full hour"
+msgstr "%(month)s ནང་གི་ %(weekday)s རེ་རེ་བཞིན་དུ་དང་ %(date)s གི་ཆུ་ཚོད་རེ་རེ་ལུ་ "
+
+#: ../src/lang.py:252
+#, python-format
+msgid "On every %(weekday)s in %(month)s and on %(date)s every year at every minute"
+msgstr "%(month)s ནང་གི་ %(weekday)s རེ་རེ་བཞིན་དུ་དང་ %(date)s གི་སྐར་མ་རེ་རེ་ལུ་ "
+
+#: ../src/lang.py:254
+#, python-format
+msgid "On every %(weekday)s in %(month)s and on %(date)s every year at minute %(minute)s of every hour"
+msgstr "%(month)s ནང་གི་ %(weekday)s རེ་རེ་བཞིན་དུ་དང་ ལོ་བསྟར་ %(date)s གི་ ཆུ་ཚོད་རེ་རེའི་སྐར་མ་ %(minute)s ལུ་ "
+
+#: ../src/lang.py:256
+#, python-format
+msgid "On every %(weekday)s in %(month)s and on %(date)s every year at every minute between %(time_from)s and %(time_to)s"
+msgstr "%(month)s ནང་གི་ %(weekday)s རེ་རེ་བཞིན་དུ་དང་ ལོ་བསྟར་ %(date)s གི་ %(time_from)s དང་ %(time_to)s བར་ནའི་ སྐར་མ་རེ་རེ་ལུ་"
+
+#: ../src/lang.py:258
+#, python-format
+msgid "On every %(weekday)s in %(month)s and on %(date)s every year at %(time)s"
+msgstr "%(month)s ནང་གི་ %(weekday)s རེ་རེ་བཞིན་དུ་དང་ ལོ་བསྟར་ %(date)s གི་ %(time)s ལུ་"
+
+#: ../src/lang.py:266
+msgid "every minute"
+msgstr "སྐར་མ་རེ་རེ་བཞིན་"
+
+#: ../src/lang.py:268
+#, python-format
+msgid "minute: %s"
+msgstr "སྐར་མ་: %s"
+
+#: ../src/lang.py:271
+msgid "every hour"
+msgstr "ཆུ་ཚོད་རེ་རེ་བཞིན་"
+
+#: ../src/lang.py:273
+#, python-format
+msgid "hour: %s"
+msgstr "ཆུ་ཚོད་: %s"
+
+#: ../src/lang.py:276
+msgid "every day of month"
+msgstr "ཟླཝ་འདི་གི་ཉིནམ་རྟག་བུ་ར་"
+
+#: ../src/lang.py:278
+#, python-format
+msgid "day of month: %s"
+msgstr "ཟླཝ་འདི་གི་ཉིནམ་: %s"
+
+#: ../src/lang.py:281
+msgid "every month"
+msgstr "ཟླཝ་རེ་རེ་བཞིན་"
+
+#: ../src/lang.py:283
+#, python-format
+msgid "month: %s"
+msgstr "ཟླ་: %s"
+
+#: ../src/lang.py:286
+#, python-format
+msgid "At %(minute)s, %(hour)s, %(monthday)s, %(month)s"
+msgstr "%(minute)s, %(hour)s, %(monthday)s, %(month)s ལུ་"
+
+#: ../src/lang.py:288
+#, python-format
+msgid "weekday: %s"
+msgstr "བདུན་ཕྲག་ཉིནམ་: %s"
+
+#: ../src/lang.py:289
+#, python-format
+msgid "At %(minute)s, %(hour)s, %(monthday)s, %(month)s, %(weekday)s"
+msgstr "%(minute)s, %(hour)s, %(monthday)s, %(month)s, %(weekday)s ལུ་ "
+
+#: ../src/mainWindow.py:211
+#: ../src/mainWindow.py:311
+#, python-format
+msgid "Editing user: %s"
+msgstr "ལག་ལེན་པ་ཞུན་དག་འབད་དོ་: %s"
+
+#: ../src/mainWindow.py:285
+#: ../src/scheduleapplet.py:115
+msgid "ERROR: Could not load icon"
+msgstr "འཛོལ་བ་: ངོས་པར་མངོན་གསལ་འབད་མ་ཚུགས་"
+
+#: ../src/mainWindow.py:295
+msgid "ERROR: Could not load glade file"
+msgstr "འཛོལ་བ་: གེལེཌི་ཡིག་སྣོད་ མངོན་གསལ་འབད་མ་ཚུགས་"
+
+#: ../src/mainWindow.py:346
+msgid "Icon"
+msgstr "ངོས་པར་"
+
+#: ../src/mainWindow.py:351
+#: ../src/mainWindow.py:384
+msgid "Type"
+msgstr "དབྱེ་བ་"
+
+#: ../src/mainWindow.py:355
+#: ../src/mainWindow.py:380
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: ../src/mainWindow.py:359
+#: ../src/mainWindow.py:371
+msgid "Date and Time Settings"
+msgstr "ཚེས་གྲངས་དང་ཆུ་ཚོད་སྒྲིག་སྟངས་"
+
+#: ../src/mainWindow.py:363
+#: ../src/mainWindow.py:375
+msgid "Preview"
+msgstr "སྔོན་ལྟ་"
+
+#: ../src/mainWindow.py:419
+#: ../src/mainWindow.py:482
+msgid "Please select a task"
+msgstr "ལས་ཀ་ཅིག་ སེལ་འཐུ་འབད་"
+
+#: ../src/mainWindow.py:426
+msgid "Do you want to delete this task?"
+msgstr "ལས་ཀ་འདི་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/mainWindow.py:530
+msgid "About Gnome Schedule"
+msgstr "ཇི་ནོམ་འཆར་རིམ་གྱི་སྐོར་ལས་"
+
+#: ../src/mainWindow.py:531
+msgid "Gnome Schedule"
+msgstr "ཇི་ནོམ་འཆར་རིམ་"
+
+#: ../src/mainWindow.py:533
+msgid "Copyright (c) 2004-2006 Gaute Hope."
+msgstr "འདྲ་བཤུས་དབང་ཆ་ (c) ༢༠༠༤-༢༠༠༦ གའུཊི་ ཧོབ།"
+
+#: ../src/mainWindow.py:546
+msgid "translator-credits"
+msgstr "སྐད་སྒྱུར་པ་-ངོ་བསྟོད་"
+
+#: ../src/scheduleapplet.py:131
+msgid "ERROR: Could not load menu xml file"
+msgstr "འཛོལ་བ་: དཀར་ཆག་ ཨེགསི་ཨེམ་ཨེལ་ ཡིག་སྣོད་འདི་མངོན་གསལ་འབད་མ་ཚུགས་"
+
+#: ../src/setuserWindow.py:84
+msgid "No such user"
+msgstr "འདི་བཟུམ་གྱི་ལག་ལེན་པ་མེད་"
+
+#: ../src/atEditor.py:531
+#, python-format
+msgid "This is an invalid record! The problem could be: %s"
+msgstr "འ་ནི་འདི་ནུས་མེད་ཀྱི་དྲན་ཐོ་ཨིན་! དཀའ་ངལ་འདི་ཡང་ : %s ཨིན་དགོ"
+

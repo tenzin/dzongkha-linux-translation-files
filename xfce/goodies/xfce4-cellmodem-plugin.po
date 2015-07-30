@@ -1,0 +1,231 @@
+# Czech translations for xfce4-cellmodem-plugin package.
+# Copyright (C) 2006 THE xfce4-cellmodem-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-27 15:52+0100\n"
+"PO-Revision-Date: 2007-04-06 15:32+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/cellmodem.c:467
+msgid "Initializing plugin now"
+msgstr "པ་ལག་ཨིན་ད་ལྟོ་འགོ་འབྱེད་འབད་དོ་"
+
+#: ../panel-plugin/cellmodem.c:490
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"འཛོལ་བ་སྐྱོན་འཛིན་འབད་ཡོད་:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:496
+msgid "Not registered"
+msgstr "ཐོ་བཀོད་མ་འབད་བས་"
+
+#: ../panel-plugin/cellmodem.c:499
+msgid "Modem needs PIN"
+msgstr "མོ་ཌེམ་ལེ་ པི་ཨའི་ཨེན་དགོཔ་ཨིན་"
+
+#: ../panel-plugin/cellmodem.c:502
+msgid "Registering"
+msgstr "ཐོ་བཀོད་འབད་དོ་"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+" [ཇི་ཨར་པི་ཨེསི་]  %s ལུ་ཐོ་བཀོད་འབད་ཡོད་\n"
+"སྤུས་ཚད་: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:508
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+" [ཡུ་ཨེམ་ཊི་ཨེསི་]  %s ལུ་ཐོ་བཀོད་འབད་ཡོད་\n"
+"སྤུས་ཚད་: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:511
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+" [ཨེཆ་ཨེསི་ཌི་པི་ཨེ་]  %s ལུ་ཐོ་བཀོད་འབད་ཡོད་\n"
+"སྤུས་ཚད་: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:514
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+" %s ལུ་ཐོ་བཀོད་འབད་ཡོད་\n"
+"སྤུས་ཚད་: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:672
+msgid "Error in modem reply to CREG"
+msgstr "སི་ཨར་ཨི་ཇི་ལུ་ མོ་ཌེམ་ལན་གསལ་ནང་འཛོལ་བ་"
+
+#: ../panel-plugin/cellmodem.c:681
+msgid "Invalid reply to +CREG"
+msgstr "+སི་ཨར་ཨི་ཇི་ ལུ་ནུས་མེད་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:706
+msgid "Invalid CREG reply from modem"
+msgstr "མོ་ཌེམ་ལས་ ནུས་མེད་ སི་ཨར་ཨི་ཇི་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:745
+msgid "Error in modem reply to COPS"
+msgstr "སི་ཨོ་པི་ཨེསི་ལུ་ མོ་ཌེམ་ལན་གསལ་ནང་འཛོལ་བ་"
+
+#: ../panel-plugin/cellmodem.c:801
+msgid "Invalid COPS reply from modem"
+msgstr "མོ་ཌེམ་ལས་ ནུས་མེད་ སི་ཨོ་པི་ཨེསི་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:829
+msgid "Error in modem reply to CPIN"
+msgstr "སི་པི་ཨའི་ཨེན་ལུ་ མོ་ཌེམ་ལན་གསལ་ནང་འཛོལ་བ་"
+
+#: ../panel-plugin/cellmodem.c:855
+msgid "Invalid CPIN reply from modem"
+msgstr "མོ་ཌེམ་ལས་ ནུས་མདེ་སི་པི་ཨའི་ཨེན་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:860
+msgid "Unsupportted CPIN reply from modem"
+msgstr "མོ་ཌེམ་ལས་ རྒྱབ་སྐྱོར་མ་འབད་བའི་སི་པི་ཨའི་ཨེན་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:904
+msgid "Invalid OHCIP reply from modem"
+msgstr "མོ་ཌེམ་ལས་ ནུས་མེད་ཨོ་ཨེཆ་སི་ཨའི་པི་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:908
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "མོ་ཌེམ་ལས་ རྒྱབ་སྐྱོར་མ་འབད་བའི་ཨོ་ཨེཆ་སི་ཨའི་པི་ལན་གསལ་"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:923
+msgid "Cannot send PIN to modem"
+msgstr "མོ་ཌེམ་ལུ་ པི་ཨའི་ཨེན་གཏང་མི་ཚུགས་"
+
+#: ../panel-plugin/cellmodem.c:959
+msgid "Error in modem reply to CSQ"
+msgstr "སི་ཨེསི་ཀིའུ་ལུ་ མོ་ཌེམ་ལན་གསལ་ནང་འཛོལ་བ་"
+
+#: ../panel-plugin/cellmodem.c:979
+msgid "Invalid CSQ reply from modem"
+msgstr "མོ་ཌེམ་ལས་ ནུས་མེད་སི་ཨེསི་ཀིའུ་ལན་གསལ་"
+
+#: ../panel-plugin/cellmodem.c:1103
+#: ../panel-plugin/cellmodem.c:1432
+msgid "Cannot open modem"
+msgstr "མོ་ཌེམ་ཁ་ཕྱེ་མི་ཚུགས་"
+
+#: ../panel-plugin/cellmodem.c:1258
+msgid "Error reading from modem"
+msgstr "མོ་ཌེམ་ལྷག་པའི་འཛོལ་བ་"
+
+#: ../panel-plugin/cellmodem.c:1336
+msgid "Error writing to modem"
+msgstr "མོ་ཌེམ་འབྲི་བའི་འཛོལ་བ་"
+
+#: ../panel-plugin/cellmodem.c:1352
+msgid "Modem did not reply to command"
+msgstr "མོ་ཌེམ་གྱིས་ བརྡ་བཀོད་ལུ་ལན་གསལ་མ་བྱིན་པས་"
+
+#: ../panel-plugin/cellmodem.c:1370
+msgid "No driver defined"
+msgstr "འདྲེན་བྱེད་ངེས་འཛིན་མ་འབད་བས་"
+
+#: ../panel-plugin/cellmodem.c:1375
+msgid "No modem instance"
+msgstr "མོ་ཌེམ་འཕྲལ་མྱུར་མེད་"
+
+#: ../panel-plugin/cellmodem.c:1545
+msgid "Modem initializing"
+msgstr "མོ་ཌེམ་འགོ་འབྱེད་འབད་དོ་"
+
+#: ../panel-plugin/cellmodem.c:1580
+msgid "Invalid driver specified"
+msgstr "ནུས་མེད་འདྲེན་བྱེད་གསལ་བཀོད་འབད་ཡོདཔ་"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "ནུས་མེད་པི་ཨའི་ཨེན་ཐོ་བཀོད་འབད་ཡོདཔ། པི་ཨའི་ཨེན་ ལུ་ ཨང་ཡིག་ ༤ ཡོད།"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "པི་ཨའི་ཨེན་ཐོ་བཀོད་འབད་"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "པི་ཨའི་ཨེན་ཐོ་བཀོད་འབད་གནང་:"
+
+#: ../panel-plugin/preferences.c:267
+msgid "Close"
+msgstr "ཁ་བསྡམ་"
+
+#: ../panel-plugin/preferences.c:272
+msgid "No known device found."
+msgstr "ཤེས་པའི་ཐབས་འཕྲུལ་འཚོལ་མ་འཐོབ།"
+
+#: ../panel-plugin/preferences.c:274
+msgid "The following devices were found:"
+msgstr "འོག་གི་ཐབས་འཕྲུལ་འདི་ཚུ་འཐོབ་ཡོད:"
+
+#: ../panel-plugin/preferences.c:281
+msgid "Use this device"
+msgstr "འ་ནི་ཐབས་འཕྲུལ་འདི་ལག་ལེན་འཐབ་"
+
+#: ../panel-plugin/preferences.c:325
+msgid "Configure Cell Modem Monitor"
+msgstr "ནང་ཐིག་མོ་ཌེམ་ལྟ་རྟོག་པ་རིམ་སྒྲིག་འབད་"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:338
+msgid "Cellular Modem Monitor"
+msgstr "འབྲེལ་རླབས་ཀྱི་མོ་ཌེམ་ལྟ་རྟོག་པ་"
+
+#: ../panel-plugin/preferences.c:369
+msgid "Modem driver:"
+msgstr "མོ་ཌེམ་འདྲེན་བྱེད་:"
+
+#: ../panel-plugin/preferences.c:391
+msgid "Modem speed:"
+msgstr "མོ་ཌེམ་མགྱོགས་ཚད་:"
+
+#: ../panel-plugin/preferences.c:404
+msgid "Modem device:"
+msgstr "མོ་ཌེམ་ཐབས་འཕྲུལ་:"
+
+#: ../panel-plugin/preferences.c:426
+msgid "Maximum quality:"
+msgstr "མང་མཐའ་སྤུས་ཚད་:"
+
+#: ../panel-plugin/preferences.c:437
+msgid "Low quality percentage:"
+msgstr "སྤུས་ཚད་དམའ་བའི་བརྒྱ་ཆ་:"
+
+#: ../panel-plugin/preferences.c:447
+msgid "Critical quality percentage:"
+msgstr "ཚབ་ཆེན་སྤུས་ཚད་ཀྱི་བརྒྱ་ཆ་:"
+

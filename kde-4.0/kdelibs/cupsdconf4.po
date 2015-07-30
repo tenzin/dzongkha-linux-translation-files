@@ -1,0 +1,2140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cupsdconf4.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-06-24 05:30+0200\n"
+"PO-Revision-Date: 2007-12-13 18:42+0530\n"
+"Last-Translator: yumke lhamo <yumkeyl08@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: plurals=2:nplural=(n!=1);\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: addressdialog.cpp:32
+msgid "ACL Address"
+msgstr "ཨེ་སི་ཨེལ་ ཁ་བྱང་"
+
+#: addressdialog.cpp:43
+#: browsedialog.cpp:47
+msgid "Allow"
+msgstr "བཅུག་ནི་"
+
+#: addressdialog.cpp:44
+#: browsedialog.cpp:48
+msgid "Deny"
+msgstr "མི་བཅུག་ནི་"
+
+#: addressdialog.cpp:46
+#: browsedialog.cpp:52
+msgid "Type:"
+msgstr "དབྱེ་བ:"
+
+#: addressdialog.cpp:47
+#: portdialog.cpp:50
+msgid "Address:"
+msgstr "ཁ་བྱང:"
+
+#: browsedialog.cpp:46
+msgid "Send"
+msgstr "གཏང་"
+
+#: browsedialog.cpp:49
+msgid "Relay"
+msgstr "བརྒྱུད་སྤྲོད་"
+
+#: browsedialog.cpp:50
+msgid "Poll"
+msgstr "པཱོལ་"
+
+#: browsedialog.cpp:53
+msgid "From:"
+msgstr "ལས:"
+
+#: browsedialog.cpp:54
+msgid "To:"
+msgstr "ལུ:"
+
+#: browsedialog.cpp:69
+msgid "Browse Address"
+msgstr "ཁ་བྱང་བརྡ་འཚོལ་འབད་ནི་"
+
+#: cupsd.conf.template.cpp:1
+msgid ""
+"<b>Server name (ServerName)</b>\n"
+"<p>\n"
+"The hostname of your server, as advertised to the world.\n"
+"By default CUPS will use the hostname of the system.</p>\n"
+"<p>\n"
+"To set the default server used by clients, see the client.conf file.</p>\n"
+"<p>\n"
+"<i>ex</i>: myhost.domain.com</p>\n"
+msgstr ""
+"<b>སར་བར་གྱི་མིང་ (སར་བར་གྱི་མིང་)</b>\n"
+"<p>\n"
+"འཛམ་གླིང་ནང་ལུ་སྤེལ་བསྒྲགས་འབད་ཡོད་པའི་ ཁྱོད་རའི་སར་བར་གྱི་ཧོསིཊི་ནེམ།\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ ཀཔསི་གིས་ རིམ་ལུགས་ཧོསཊི་ནེམ་འདི་ལག་ལེན་འཐབ་འོང་།</p>\n"
+"<p>\n"
+"ཞབས་ཏོག་སྤྱོད་མི་ཚུའི་ལག་ལེན་འཐབ་པའི་སྔོན་སྒྲིག་སར་བར་འདི་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་ client.conf ཡིག་སྣོད་འདི་བལྟ།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: myhost.domain.com</p>\n"
+
+#: cupsd.conf.template.cpp:11
+msgid ""
+"<b>Server administrator (ServerAdmin)</b>\n"
+"<p>\n"
+"The email address to send all complaints or problems to.\n"
+"By default CUPS will use \"root@hostname\".</p>\n"
+"<p>\n"
+"<i>ex</i>: root@myhost.com</p>\n"
+msgstr ""
+"<b>སར་བར་གྱི་བདག་སྐྱོང་པ་ (སར་བར་བདག་སྐྱོང་)</b>\n"
+"<p>\n"
+"ཉོག་བཤད་ཚུ་དང་དཀའ་ངལ་ཚུ་ གཏང་ནིའི་དོན་ལུ་ གློག་འཕྲིན་ཁ་བྱང་འདི།\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ ཀཔསི་གིས་ \"root@hostname\"འདི་ལག་ལེན་འབཐ་འོང་།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: root@myhost.com</p>\n"
+
+#: cupsd.conf.template.cpp:19
+msgid ""
+"<b>Access log (AccessLog)</b>\n"
+"<p>\n"
+"The access log file; if this does not start with a leading /\n"
+"then it is assumed to be relative to ServerRoot.  By default set to\n"
+"\"/var/log/cups/access_log\".</p>\n"
+"<p>\n"
+"You can also use the special name <b>syslog</b> to send the output to the\n"
+"syslog file or daemon.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/log/cups/access_log</p>\n"
+msgstr ""
+"<b>འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་ (འཛུལ་སྤྱོད་དྲན་དེབ་)</b>\n"
+"<p>\n"
+"འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་འདི་; གལ་སྲིད་འདི་ སྔོན་བསྐྱོད་དང་གཅིག་ཁར་འགོ་བཙུགས་པ་ཅིན་  /\n"
+"འ་ནི་འདི་ སར་བར་རྩ་བ་གི་ འབྲེལ་བ་སྦེ་ འཛིནམ་ཨིན།  སྔོན་སྒྲིག་གིས་སྦེ་\n"
+"\"/var/log/cups/access_log\"ལུ་གཞི་སྒྲིག་འབད།</p>\n"
+"<p>\n"
+"ཨའུཊི་པུཊི་འདི་ རིམ་ལུགས་དྲན་དེབ་ཡང་ན་ ཌེ་མཱོན་ལུ་གཏང་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ དམིགས་བསལ་གྱི་མིང་ <b>རིམ་ལུགས་དྲན་དེབ་</b>ཡང་ལག་ལེན་འཐབ་ཆོག\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /var/log/cups/access_log</p>\n"
+
+#: cupsd.conf.template.cpp:31
+msgid ""
+"<b>Data directory (DataDir)</b>\n"
+"<p>\n"
+"The root directory for the CUPS data files.\n"
+"By default /usr/share/cups.</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/share/cups</p>\n"
+msgstr ""
+"<b>གནད་སྡུད་སྣོད་ཐོ (གནད་སྡུད་སྣོད་ཐོ)</b>\n"
+"<p>\n"
+"ཀཔསི་གནད་སྡུད་ཡིག་སྣོད་ཚུའི་་དོན་ལུ་ རྩ་བའི་སྣོད་ཐོ།\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་/usr/share/cups.</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /usr/share/cups</p>\n"
+
+#: cupsd.conf.template.cpp:39
+msgid ""
+"<b>Default character set (DefaultCharset)</b>\n"
+"<p>\n"
+"The default character set to use. If not specified,\n"
+"defaults to utf-8.  Note that this can also be overridden in\n"
+"HTML documents...</p>\n"
+"<p>\n"
+"<i>ex</i>: utf-8</p>\n"
+msgstr ""
+"<b>Default character set (DefaultCharset)</b>\n"
+"<p>\n"
+"The default character set to use. If not specified,\n"
+"defaults to utf-8.  Note that this can also be overridden in\n"
+"HTML documents...</p>\n"
+"<p>\n"
+"<i>ex</i>: utf-8</p>\n"
+
+#: cupsd.conf.template.cpp:48
+msgid ""
+"<b>Default language (DefaultLanguage)</b>\n"
+"<p>\n"
+"The default language if not specified by the browser.\n"
+"If not specified, the current locale is used.</p>\n"
+"<p>\n"
+"<i>ex</i>: en</p>\n"
+msgstr ""
+"<b>སྔོན་སྒྲིག་སྐད་ཡིག་(སྔོན་སྒྲིག་སྐད་ཡིག་)</b>\n"
+"<p>\n"
+"སྔོན་སྒྲིག་སྐད་ཡིག་འདི་ བརྡ་འཚོལ་གྱིས་སྦེ་གསལ་བཀོད་མ་འབདཝ་འདྲཝ་\n"
+"གསལ་བཀོད་མ་འབད་བ་ཅིན་ ད་ལྟོའི་ལོ་ཀེལ་འདི་ལག་ལེན་འཐབ་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: en</p>\n"
+
+#: cupsd.conf.template.cpp:56
+msgid ""
+"<b>Document directory (DocumentRoot)</b>\n"
+"<p>\n"
+"The root directory for HTTP documents that are served.\n"
+"By default the compiled-in directory.</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/share/cups/doc</p>\n"
+msgstr ""
+"<b>ཡིག་ཆའི་སྣོད་ཐོ་ (ཡིག་ཆའི་རྩ་བ་)</b>\n"
+"<p>\n"
+"ཨེཆ་ཊི་ཊི་པི་ཡིག་ཆའི་དོན་ལུ་ རྩ་བའི་སྣོད་ཐོ་བྱིན་ཡོད་མི་\n"
+"སྣོད་ཐོ་ནང་ལུ་ སྔོན་སྒྲིག་གིས་སྦེ་ ཕྱོགས་སྒྲིག་འབད་ཡོདཔ་</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /usr/share/cups/doc</p>\n"
+
+#: cupsd.conf.template.cpp:64
+msgid ""
+"<b>Error log (ErrorLog)</b>\n"
+"<p>\n"
+"The error log file; if this does not start with a leading /\n"
+"then it is assumed to be relative to ServerRoot.  By default set to\n"
+"\"/var/log/cups/error_log\".</p>\n"
+"<p>\n"
+"You can also use the special name <b>syslog</b> to send the output to the\n"
+"syslog file or daemon.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/log/cups/error_log</p>\n"
+msgstr ""
+"<b>དྲན་དེབ་འཛོལ་བ་ (དྲན་དེབ་འཛོལ་བ་)</b>\n"
+"<p>\n"
+"དྲན་དེབ་འཛོལ་བའི་ཡིག་སྣོད་འདི་; གལ་སྲིད་ འདི་ སྔོན་བསྐྱོད་ཅིག་དང་འགོ་བཙུགས་མ་བཏུབ་པ་ཅིན་ /\n"
+"འདི་ སར་བར་གྱི་རྩ་བ་དང་འབྲེལ་བ་ཡོདཔ་སྦེ་འཛིནམ་ཨིན། སྔོན་སྒྲིག་གིས་སྦེ་\n"
+"\"/var/log/cups/error_log\"ལུ་གཞི་སྒྲིག་འབདཝ་ཨིན།</p>\n"
+"<p>\n"
+"ཨའུཊི་པུཊི་འདི་ རིམ་ལུགས་དྲན་དེབ་ཀྱི་ཡིག་སྣོད་ ཡང་ན་ ཌེ་མཱོན་ལུ་གཏང་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ དམིགས་གསལ་གྱི་མིང་<b>syslog</b>ཡང་ལག་ལེན་འཐབ་ཆོག\n"
+".</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /var/log/cups/error_log</p>\n"
+
+#: cupsd.conf.template.cpp:76
+msgid ""
+"<b>Font path (FontPath)</b>\n"
+"<p>\n"
+"The path to locate all font files (currently only for pstoraster).\n"
+"By default /usr/share/cups/fonts.</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/share/cups/fonts</p>\n"
+msgstr ""
+"<b>ཡིག་གཟུགས་འགྲུལ་ལམ་ (FontPath)</b>\n"
+"<p>\n"
+"ཡིག་གཟུགས་ཡིག་སྣོད་ཚུ་ཆ་མཉམ་ག་ཡོད་འཚོལ་ནིའི་འགྲུལ་ལམ་ (currently only for pstoraster).\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ /usr/share/cups/fonts.</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /usr/share/cups/fonts</p>\n"
+
+#: cupsd.conf.template.cpp:84
+msgid ""
+"<b>Log level (LogLevel)</b>\n"
+"<p>\n"
+"Controls the number of messages logged to the ErrorLog\n"
+"file and can be one of the following:</p>\n"
+"<ul type=circle>\n"
+"<li><i>debug2</i>:     Log everything.</li>\n"
+"<li><i>debug</i>:     Log almost everything.</li>\n"
+"<li><i>info</i>:      Log all requests and state changes.</li>\n"
+"<li><i>warn</i>:      Log errors and warnings.</li>\n"
+"<li><i>error</i>:     Log only errors.</li>\n"
+"<li><i>none</i>:      Log nothing.</li>\n"
+"</ul><p>\n"
+"<i>ex</i>: info</p>\n"
+msgstr ""
+"<b>གནས་རིམ་དྲན་དེབ་ (LogLevel)</b>\n"
+"<p>\n"
+"དྲན་དེབ་འཛོལ་བའི་ཡིག་སྣོད་ནང་ཐོ་བཀོད་འབད་ཡོད་པའི་འཕྲིན་དེབ་ཀྱི་གྱང་ཁ་འདི་ཚད་འཛིན་འབདཝ་\n"
+"དང་ དེ་འོག་ལུ་བཀོད་ཡོད་པའི་ནང་ལས་གཅིག་འོང་སྲིད་:</p>\n"
+"<ul type=circle>\n"
+"<li><i>debug2</i>:     ཡོད་ཚད་ཅིགཔོ་ཐོ་བཀོད་འབད་</li>\n"
+"<li><i>debug</i>:     ཡོད་རེ་ཡོད་ཚད་ཐོ་བཀོད་འབད་.</li>\n"
+"<li><i>info</i>:      གནས་ལུགས་ཀྱི་འགྱུར་བ་ཚུ་དང་ཞུ་བ་ཚུ་ཆ་མཉམ་ཐོ་བཀོད་འབད་</li>\n"
+"<li><i>warn</i>:     ཉེན་བརྡ་ཚུ་དང་འཛོལ་བ་ཚུ་ཆ་མཉམ་ཐོ་བཀོད་འབད་</li>\n"
+"<li><i>error</i>:     འཛོལ་བ་ཚུ་རྐྱངམ་ཅིག་ཐོ་བཀོད་འབད་</li>\n"
+"<li><i>none</i>:      ག་ནི་ཡང་ཐོ་བཀོད་འབད་མི་དགོ་</li>\n"
+"</ul><p>\n"
+"<i>དཔེར་ན་</i>: info</p>\n"
+
+#: cupsd.conf.template.cpp:99
+msgid ""
+"<b>Max log size (MaxLogSize)</b>\n"
+"<p>\n"
+"Controls the maximum size of each log file before they are\n"
+"rotated.  Defaults to 1048576 (1MB).  Set to 0 to disable log rotating.</p>\n"
+"<p>\n"
+"<i>ex</i>: 1048576</p>\n"
+msgstr ""
+"<b>ཐོ་བཀོད་ཀྱི་ཚད་མཐོ་ཤོས་ (MaxLogSize)</b>\n"
+"<p>\n"
+"ཐོ་བཀོད་ཡིག་སྣོད་རེ་བཞིན་གྱི་ ཚད་མཐོ་ཤོས་ཚུ་ མ་བསྒྱིར་བའི་ཧེ་མ་ཚད་འཛིན་འབདཝ་ཨིན།\n"
+" ༡༠༤༨༥༧༦ (1MB)ལུ་སྔོན་སྒྲིག་འབདཝ་ཨིན།  དྲན་དེབ་བསྒྱིར་ནི་འདི་ ལྕོགས་མིན་བཟོ་ནིའི་དོན་ལུ་ ༠་ལུ་གཞི་སྒྲིག་འབད།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: ༡༠༤༨༥༧༦</p>\n"
+
+#: cupsd.conf.template.cpp:107
+msgid ""
+"<b>Page log (PageLog)</b>\n"
+"<p>\n"
+"The page log file; if this does not start with a leading /\n"
+"then it is assumed to be relative to ServerRoot.  By default set to\n"
+"\"/var/log/cups/page_log\".</p>\n"
+"<p>\n"
+"You can also use the special name <b>syslog</b> to send the output to the\n"
+"syslog file or daemon.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/log/cups/page_log</p>\n"
+msgstr ""
+"<b>ཤོག་ལེབ་དྲན་དེབ་ (PageLog)</b>\n"
+"<p>\n"
+"ཤོག་ལེབ་དྲན་དེབ་ཡིག་སྣོད་འདི་; གལ་སྲིད་དེ་ སྔོན་བསྐྱོད་དང་གཅིག་ཁར་ འགོ་བཙུགས་མ་བཏུབ་འདྲཝ་ཅིག་སྦེ་བ་ཅིན་  /\n"
+"དེ་ལས་ དེ་ སར་བར་རྩ་བའི་འབྲེལ་བ་སྦེ་འགན་ལེནམ་ཨིན། སྔོན་སྒྲིག་གིས་སྦེ་\n"
+"\"/var/log/cups/page_log\"ལུ་གཞི་སྒྲིག་འབད་</p>\n"
+"<p>\n"
+"རིམ་ལུགས་དྲན་དེབ་ ཡང་ན་ ཌེ་མཱོན་ལུ་ ཨའུཊི་པུཊི་འདི་ གཏང་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་དམིགས་བསལ་གྱི་མིང <b>syslog</b>\n"
+"ཡང་ལག་ལེན་འཐབ་ཆོག་</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /var/log/cups/page_log</p>\n"
+
+#: cupsd.conf.template.cpp:119
+msgid ""
+"<b>Preserve job history (PreserveJobHistory)</b>\n"
+"<p>\n"
+"Whether or not to preserve the job history after a\n"
+"job is completed, canceled, or stopped.  Default is Yes.</p>\n"
+"<p>\n"
+"<i>ex</i>: Yes</p>\n"
+msgstr ""
+"<b>ལཱ་གཡོག་གི་ལོ་རྒྱུས་ཉམས་སྲུང་འབད་ (PreserveJobHistory)</b>\n"
+"<p>\n"
+"ལཱ་གཡོག་འདི་ མཇུག་བསྡུ་བའི་ཤུལ་མར་ ཆ་མེད་གཏང་ཚརབའི་ཤུལ་མར་ ཡང་ན་ བཀག་ཡོད་པའི་ཤུལ་ལས་ ལཱ་གཡོག་ལོ་རྒྱུས་འདི་ཉམས་སྲུང་འབད་རུང་མ་འབད་རུང་ སྔོན་སྒྲིག་འདི་ བཏུབ་ཟེར་ཨིན།\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: Yes</p>\n"
+
+#: cupsd.conf.template.cpp:127
+msgid ""
+"<b>Preserve job files (PreserveJobFiles)</b>\n"
+"<p>\n"
+"Whether or not to preserve the job files after a\n"
+"job is completed, canceled, or stopped.  Default is No.</p>\n"
+"<p>\n"
+"<i>ex</i>: No</p>\n"
+msgstr ""
+"<b>ལས་གཡོག་ཡིག་སྣོད་ཉམས་སྲུང་འབད་ (PreserveJobFiles)</b>\n"
+"<p>\n"
+"ལས་གཡོག་ཡིག་སྣོད་འདི་ མཇུག་བསྡུ་བའི་ཤུལ་མར་ ཆ་མེད་གཏང་ཚརབའི་ཤུལ་མར་ ཡང་ན་ བཀག་ཡོད་པའི་ཤུལ་ལས་ ལཱ་གཡོག་ལོ་རྒྱུས་འདི་ཉམས་སྲུང་འབད་རུང་མ་འབད་རུང་ སྔོན་སྒྲིག་འདི་ མི་བཏུབ་ཟེར་ཨིན\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: No</p>\n"
+
+#: cupsd.conf.template.cpp:135
+msgid ""
+"<b>Printcap file (Printcap)</b>\n"
+"<p>\n"
+"The name of the printcap file.  Default is no filename.\n"
+"Leave blank to disable printcap file generation.</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/printcap</p>\n"
+msgstr ""
+"<b>Printcap file (Printcap)</b>\n"
+"<p>\n"
+"printcap ཡིག་སྣོད་ཀྱི་མིང་འདི། སྔོན་སྒྲིག་འདི་ ཡིག་སྣོད་ཀྱི་མིང་མེད།\n"
+"printcap་ཡིག་སྣོད་བཟོ་བཏོན་ལྕོགས་མིན་བཟོ་ནིའི་དོན་ལུ་ སྟོངམ་སྦེ་བཞག་དགོ།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /etc/printcap</p>\n"
+
+#: cupsd.conf.template.cpp:143
+msgid ""
+"<b>Request directory (RequestRoot)</b>\n"
+"<p>\n"
+"The directory where request files are stored.\n"
+"By default /var/spool/cups.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/spool/cups</p>\n"
+msgstr ""
+"<b>སྣོད་ཐོ་ཞུ་བ་འབད་ (རྩ་བ་ཞུ་བ་)</b>\n"
+"<p>\n"
+"ཞུ་བའི་ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་ཡོད་པའི་སྣོད་ཐོ་འདི།\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ /var/spool/cups.</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /var/spool/cups</p>\n"
+
+#: cupsd.conf.template.cpp:151
+msgid ""
+"<b>Remote root user (RemoteRoot)</b>\n"
+"<p>\n"
+"The name of the user assigned to unauthenticated accesses\n"
+"from remote systems.  By default \"remroot\".</p>\n"
+"<p>\n"
+"<i>ex</i>: remroot</p>\n"
+msgstr ""
+"<b>ཐག་རིང་རྩ་བའི་ལག་ལེན་པ་ (ཐག་རིང་རྩ་བ་)</b>\n"
+"<p>\n"
+"ཐག་རིང་རིམ་ལུགས་ཚུ་ལས་ བདེན་བཤད་མེད་པའི་འཛུལ་སྤྱོད་ལུ་འགན་སྤྲོད་འབད་ཡོད་པའི་ལག་ལེན་པའི་མིང་འདི་\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ \"remroot\".</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: remroot</p>\n"
+
+#: cupsd.conf.template.cpp:159
+msgid ""
+"<b>Server binaries (ServerBin)</b>\n"
+"<p>\n"
+"The root directory for the scheduler executables.\n"
+"By default /usr/lib/cups or /usr/lib32/cups (IRIX 6.5).</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/lib/cups</p>\n"
+msgstr ""
+"<b>སར་བར་གྱི་ཟུང་ལྡན་ཚུ་ (ServerBin)</b>\n"
+"<p>\n"
+"ལག་ལེན་འཐབ་བཏུབ་པའི་འཆར་རིམ་བཀོད་མི་གི་དོན་ལུ་ རྩ་བའི་སྣོད་ཐོ་\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ /usr/lib/cups or /usr/lib32/cups (IRIX 6.5).</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /usr/lib/cups</p>\n"
+
+#: cupsd.conf.template.cpp:167
+msgid ""
+"<b>Server files (ServerRoot)</b>\n"
+"<p>\n"
+"The root directory for the scheduler.\n"
+"By default /etc/cups.</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/cups</p>\n"
+msgstr ""
+"<b>སར་བར་གྱི་ཡིག་སྣོད་ཚུ་ (ServerRoot)</b>\n"
+"<p>\n"
+"འཆར་རིམ་བཀོད་མིའི་དོན་ལུ་ རྩ་བའི་སྣོད་ཐོ་འདི་.\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ /etc/cups.</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /etc/cups</p>\n"
+
+#: cupsd.conf.template.cpp:175
+msgid ""
+"<b>User (User)</b>\n"
+"<p>\n"
+"The user the server runs under.  Normally this\n"
+"must be <b>lp</b>, however you can configure things for another user\n"
+"as needed.</p>\n"
+"<p>\n"
+"Note: the server must be run initially as root to support the\n"
+"default IPP port of 631.  It changes users whenever an external\n"
+"program is run...</p>\n"
+"<p>\n"
+"<i>ex</i>: lp</p>\n"
+msgstr ""
+"<b>ལག་ལེན་པ་ (User)</b>\n"
+"<p>\n"
+"ལག་ལེན་པའི་འོག་ལུ་གཡོག་བཀོལ་བའི་སར་བར་འདི།\n"
+"སྤྱིར་གཏང་གིས་ འདི་ <b>lp</b>བཟུམ་འོང་དགོ། ཨིན་རུང་ ཁྱོད་རང་ལུ་མཁོ་ཆེ་བ་བལྟ་སྟེ་ ལག་ལེན་པ་གཞན་མི་གཅིག་ལུ་ དེ་ཚུ་ རིམ་སྒྲིག་འབད་ཆོག།\n"
+"</p>\n"
+"<p>\n"
+"དྲན་དགོཔ་: སྔོན་སྒྲིག་ IPP port of 631 རྒྱབ་སྐྱོར་འབད་ནིའི་དོན་ལུ་ སར་བར་འདི་གིས་ རྩ་བ་སྦེ་ འགོ་ཐོག་ལུ་རང་གཡོག་བཀོལ་དགོ།\n"
+"ཕྱིའི་ལས་རིམ་གཡོག་ནམ་བཀོལ་རུང་རང་ དེ་གིས་ ལག་ལེན་ཚུ་སོརཝ་ཨིན།\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: lp</p>\n"
+
+#: cupsd.conf.template.cpp:188
+msgid ""
+"<b>Group (Group)</b>\n"
+"<p>\n"
+"The group the server runs under.  Normally this\n"
+"must be <b>sys</b>, however you can configure things for another\n"
+"group as needed.</p>\n"
+"<p>\n"
+"<i>ex</i>: sys</p>\n"
+msgstr ""
+"<b>སྡེ་ཚན་ (སྡེ་ཚན་)</b>\n"
+"<p>\n"
+"སྡེ་ཚན་འདི་གི་འོག་ལུ་སར་བར་གཡོག་བཀོལ་ཡོད་མི། \n"
+"སྤྱིར་གཏང་གིས་ དེ་ <b>sys</b>ཨིན་དགོ་ ཨིན་རུང་ ཁྱོད་ཀྱིས་ དགོས་མཁོ་དང་བསྟུན་ སྡེ་ཚན་གཞན་མི་ཅིག་གི་དོན་ལུ་ དེ་ རིམ་སྒྲིག་འབད་ཆོག\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: sys</p>\n"
+
+#: cupsd.conf.template.cpp:197
+msgid ""
+"<b>RIP cache (RIPCache)</b>\n"
+"<p>\n"
+"The amount of memory that each RIP should use to cache\n"
+"bitmaps.  The value can be any real number followed by \"k\" for\n"
+"kilobytes, \"m\" for megabytes, \"g\" for gigabytes, or \"t\" for tiles\n"
+"(1 tile = 256x256 pixels).  Defaults to \"8m\" (8 megabytes).</p>\n"
+"<p>\n"
+"<i>ex</i>: 8m</p>\n"
+msgstr ""
+"<b>RIP འདྲ་མཛོད་ (RIPCache)</b>\n"
+"<p>\n"
+"RIP རེ་བཞིན་གྱིས་ བིཊི་མེཔ་འདྲ་མཛོད་ལུ་ལག་ལེན་འཐབ་དགོཔ་པའི་དྲན་ཚད་ཀྱི་སྤྱིར་བསྡོམས་འདི།\n"
+"གནས་གོང་འདི་ ཀི་ལོ་བཱའིཊིསི་གི་དོན་ལུ་\"k\" \n"
+"མེ་ག་བཱིའིཊིསི་གི་དོན་ལུ་\"m\", གི་ག་བཱའིཊིསི་གི་དོན་ལུ་ \"g\" ཡང་ན་ ཊ་ཡིལ་གྱི་དོན་ལུ་\"t\" \n"
+"(1 tile = 256x256 pixels)ཚུ་ལུ་རྗེས་སུ་འབྲང་བའི་ ཨང་ངོ་མ་གང་རུང་ཅིག་འོང་དགོ   \"8m\" (8 megabytes)ལུ་སྔོན་སྒྲིག་འབད་དགོ</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 8m</p>\n"
+
+#: cupsd.conf.template.cpp:207
+msgid ""
+"<b>Temporary files (TempDir)</b>\n"
+"<p>\n"
+"The directory to put temporary files in. This directory must be\n"
+"writable by the user defined above!  Defaults to \"/var/spool/cups/tmp\" or\n"
+"the value of the TMPDIR environment variable.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/spool/cups/tmp</p>\n"
+msgstr ""
+"<b>གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ཚུ་ (TempDir)</b>\n"
+"<p>\n"
+"གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ཚུ་བཙུགས་སའི་ སྣོད་ཐོ་འདི།\n"
+"སྣོད་ཐོ་འདི་ གོང་ལུ་ངེས་འཛིན་འབད་ཡོད་པའི་ལག་ལེན་པ་གིས་ འབྲི་བཏུབ་སྦེ་དགོཔ་ཨིན།!   \"/var/spool/cups/tmp\"ལུ་སྔོན་སྒྲིག་འབད་དགོ་ ཡང་ན་\n"
+"TMPDIR མཐའ་འཁོར་འགྱུར་ཅན་གྱི་གནས་གོང་།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /var/spool/cups/tmp</p>\n"
+
+#: cupsd.conf.template.cpp:216
+msgid ""
+"<b>Filter limit (FilterLimit)</b>\n"
+"<p>\n"
+"Sets the maximum cost of all job filters that can be run\n"
+"at the same time.  A limit of 0 means no limit.  A typical job may need\n"
+"a filter limit of at least 200; limits less than the minimum required\n"
+"by a job force a single job to be printed at any time.</p>\n"
+"<p>\n"
+"The default limit is 0 (unlimited).</p>\n"
+"<p>\n"
+"<i>ex</i>: 200</p>\n"
+msgstr ""
+"<b>ཚགས་མའི་ཚད་ (FilterLimit)</b>\n"
+"<p>\n"
+"དུས་ཚོད་གཅིག་ལུ་ གཡོག་བཀོལ་བཏུབ་པའི་ ལས་གཡོག་མཚགས་མ་ཆ་མཉམ་གྱི་གླ་ཆ་མཐོ་ཤོས་གཞི་སྒྲིག་འབདཝ་ཨིན།\n"
+"ཚད་ ༠ ཟེར་མི་འདི་ ཚད་མེད་པའི་རྟགས་ཨིན།  འཁྲུལ་བ་མེད་པའི་ལས་གཡོག་ལུ་ ཉུང་མཐུའ་ A typical job may need\n"
+"a filter limit of at least 200; limits less than the minimum required\n"
+"by a job force a single job to be printed at any time.</p>\n"
+"<p>\n"
+"The default limit is 0 (unlimited).</p>\n"
+"<p>\n"
+"<i>ex</i>: 200</p>\n"
+
+#: cupsd.conf.template.cpp:228
+msgid ""
+"<b>Listen to (Port/Listen)</b>\n"
+"<p>\n"
+"Ports/addresses that are listened to.  The default port 631 is reserved\n"
+"for the Internet Printing Protocol (IPP) and is what is used here.</p>\n"
+"<p>\n"
+"You can have multiple Port/Listen lines to listen to more than one\n"
+"port or address, or to restrict access.</p>\n"
+"<p>\n"
+"Note: Unfortunately, most web browsers don't support TLS or HTTP Upgrades\n"
+"for encryption.  If you want to support web-based encryption you will\n"
+"probably need to listen on port 443 (the \"HTTPS\" port...).</p>\n"
+"<p>\n"
+"<i>ex</i>: 631, myhost:80, 1.2.3.4:631</p>\n"
+msgstr ""
+"<b>ལུ་ཉན་ (Port/Listen)</b>\n"
+"<p>\n"
+"འདྲེན་ལམ་ཚུ་/ཉན་ཡོད་པའི་ཁ་བྱང་ཚུ།  སྔོན་སྒྲིག་འདྲེན་ལམ་ ༦༣༡ འདི་ ཨིན་ཊར་ནེཊི་དཔར་བསྐྲུན་གནད་སྤེལ་ལམ་ལུགས་(IPP)ཀྱི་དོན་ལུ་ ཟུར་གསོག་འབད་ཡོདཔ་\n"
+"ཨིནམ་དང་དེ་ ནཱ་ལུ་ལག་ལེན་འཐབ་ཡོདཔ།</p>\n"
+"<p>\n"
+"ཁྱོད་ཀྱིས་ སྣ་མང་འདྲེན་ལམ་ལེན་ནི་/འདྲེན་ལམ་ཡང་ན་ཁ་བྱང་ གཅིག་གི་མ་ཚདཔ་སྦེ་ཉན་ནིའི་དོན་ལུ་ གྲལ་ཐིག་ཚུ་ལུ་ཉན་ནི་\n"
+"ཡང་ན་ འཛུལ་སྤྱོད་བཀག་དམ་འབད་ནི་</p>\n"
+"<p>\n"
+"དྲན་དགོཔ་: ཁ་རྗེ་མེདཔ་ལས་ བརའུ་ཟར་མང་ཤོས་ཅིག་གིས་ གསང་བཟོའི་དོན་ལུ་  TLS ཡང་ན་ HTTP ཡར་བསྐྱེད་ནི་ལུ་རྒྱབ་སྐྱོར་མི་འབད་།\n"
+"གལ་སྲིད་ ཁྱོད་ ཝེབ་ལུ་བརྟེན་པའི་གསངབཟོ་ འདི་རྒྱབ་སྐྱོར་འབད་ནི་ཨིན་པ་ཅིན་ ཁྱོད་ འདྲེན་ལམ་ ༤༤༣ ལུ་གཅིག་འབདན་ཉན་དགོཔ་འོང་།\n"
+" (the \"HTTPS\" port...).</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 631, myhost:80, 1.2.3.4:631</p>\n"
+
+#: cupsd.conf.template.cpp:243
+msgid ""
+"<b>Hostname lookups (HostNameLookups)</b>\n"
+"<p>\n"
+"Whether or not to do lookups on IP addresses to get a\n"
+"fully-qualified hostname.  This defaults to Off for performance reasons...</p>\n"
+"<p>\n"
+"<i>ex</i>: On</p>\n"
+msgstr ""
+"<b>ཧོསཊི་ནེམ་བལྟ་བ་ (ཧོསཊི་ནེམ་བལྟ་བ་)</b>\n"
+"<p>\n"
+"ཧོསཊི་ནེམ་ ཧྲིལ་བུ་དང་ཆ་ཚང་གི་མིང་ཐོབ་ནིའི་དོན་ལུ་ IP ཁ་བྱང་ཚུ་ལུ་ བལྟ་རུང་ མ་བལྟ་རུང་\n"
+"ལཱ་ཤུགས་ཀྱི་རྒྱུ་མཚན་གྱི་དོན་ལུ་ འདི་སྔོན་སྒྲིག་འདི་ ཨོཕ་...</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: On</p>\n"
+
+#: cupsd.conf.template.cpp:251
+msgid ""
+"<b>Keep alive (KeepAlive)</b>\n"
+"<p>\n"
+"Whether or not to support the Keep-Alive connection\n"
+"option.  Default is on.</p>\n"
+"<p>\n"
+"<i>ex</i>: On</p>\n"
+msgstr ""
+"<b>གསོན་པོར་བཞག་ (གསོན་པོར་བཞག་)</b>\n"
+"<p>\n"
+"གསོན་པོར་བཞག་པའི་མཐུད་ལམ་དམ་ཁ་ རྒྱབ་སྐྱོར་འབད་རུང་ མ་འབད་རུང་ \n"
+"སྔོན་སྒྲིག་འདི་ ཨཱོན་སྦེ་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: On</p>\n"
+
+#: cupsd.conf.template.cpp:259
+msgid ""
+"<b>Keep-alive timeout (KeepAliveTimeout)</b>\n"
+"<p>\n"
+"The timeout (in seconds) before Keep-Alive connections are\n"
+"automatically closed.  Default is 60 seconds.</p>\n"
+"<p>\n"
+"<i>ex</i>: 60</p>\n"
+msgstr ""
+"<b>གསོན་པོར་བཞག་པའི་ངལ་མཚམས་ (གསོན་པོར་བཞག་པའི་ངལ་མཚམས་ )</b>\n"
+"<p>\n"
+"གསོན་པོར་བཞག་པའི་མཐུད་ལམ་ཚུ་རང་བཞིན་གྱིས་ ཁ་མ་བསྡམས་ལས་ ངལ་མཚམས་འདི་(སྐར་ཆ་ཚུ་ནང་)\n"
+"སྔོན་སྒྲིག་འདི་ སྐར་ཆ་ ༦༠ ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 60</p>\n"
+
+#: cupsd.conf.template.cpp:267
+msgid ""
+"<b>Max clients (MaxClients)</b>\n"
+"<p>\n"
+"Controls the maximum number of simultaneous clients that\n"
+"will be handled.  Defaults to 100.</p>\n"
+"<p>\n"
+"<i>ex</i>: 100</p>\n"
+msgstr ""
+"<b>ཞབས་ཏོག་སྤྱོད་མི་མཐོ་ཤོས་ (ཞབས་ཏོག་སྤྱོད་མི་མཐོ་ཤོས་)</b>\n"
+"<p>\n"
+"ལེགས་སྐྱོང་འཐབ་ནི་ཨིན་པའི་ དུས་མཉམ་ཞབས་ཏོག་སྤྱོད་མི་ཚུའི་གྱང་ཁ་མཐོ་ཤོས་འདི་ ཚད་འཛིན་འབདཝ་ཨིན།\n"
+"༡༠༠ ལུ་སྔོན་སྒྲིག་འབདཝ་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 100</p>\n"
+
+#: cupsd.conf.template.cpp:275
+msgid ""
+"<b>Max request size (MaxRequestSize)</b>\n"
+"<p>\n"
+"Controls the maximum size of HTTP requests and print files.\n"
+"Set to 0 to disable this feature (defaults to 0).</p>\n"
+"<p>\n"
+"<i>ex</i>: 0</p>\n"
+msgstr ""
+"<b>ཞུ་བའི་ཚད་མཐོ་ཤོས་ (ཞུ་བའི་ཚད་མཐོ་ཤོས་ )</b>\n"
+"<p>\n"
+"HTTP གི་ཞུ་བ་ཚུ་དང་ དཔར་བསྐྲུན་ཡིག་སྣོད་ཚུའི་ ཚད་མཐོ་ཤོས་འདི་ཚད་འཛིན་འབདཝ་ཨིན།\n"
+"ཁྱད་རྣམ་འདི་ ལྕོགས་མིན་བཟོ་ནིའི་དོན་ལུ་ ༠ ལུ་གཞི་སྒྲིག་འབད་ཡོདཔ(༠ ལུ་གཞི་སྒྲིག་འབད་ཡོདཔ་)</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 0</p>\n"
+
+#: cupsd.conf.template.cpp:283
+msgid ""
+"<b>Client timeout (Timeout)</b>\n"
+"<p>\n"
+"The timeout (in seconds) before requests time out.  Default is 300 seconds.</p>\n"
+"<p>\n"
+"<i>ex</i>: 300</p>\n"
+msgstr ""
+"<b>ཞབས་ཏོ་སྤྱོད་མིའི་ ངལ་མཚམས་ (ངལ་མཚམས་)</b>\n"
+"<p>\n"
+"ངལ་མཚམས་ཞུ་བ་མ་འབད་བའི་ཧེ་མ་ ངལ་མཚམས་འདི་(སྐར་ཆ་ཚུ་ནང་) ། སྔོན་སྒྲིག་འདི་ སྐར་ཆ་ ༣༠༠ ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 300</p>\n"
+
+#: cupsd.conf.template.cpp:290
+msgid ""
+"<b>Use browsing (Browsing)</b>\n"
+"<p>\n"
+"Whether or not to <b>listen</b> to printer \n"
+"information from other CUPS servers.  \n"
+"</p>\n"
+"<p>\n"
+"Enabled by default.\n"
+"</p>\n"
+"<p>\n"
+"Note: to enable the <b>sending</b> of browsing\n"
+"information from this CUPS server to the LAN,\n"
+"specify a valid <i>BrowseAddress</i>.\n"
+"</p>\n"
+"<p>\n"
+"<i>ex</i>: On</p>\n"
+msgstr ""
+"<b>བརྡ་འཚོལ་འབད་ནི་འདི་ལག་ལེན་འཐབ་ (བརྡ་འཚོལ་འབད་ནི་)</b>\n"
+"<p>\n"
+"CUPS སར་བར་གཞན་ཚུ་ལས་ཀྱི་  དཔར་བསྐྲུན་བརྡ་དོན་ལུ་<b>ཉན་</b> རུང་མ་ཉན་རུང་། \n"
+"  \n"
+"</p>\n"
+"<p>\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ལྕོགས་ཅན་བཟོ་ཡོདཔ།\n"
+"</p>\n"
+"<p>\n"
+"དྲན་དགོཔ་: འདི་ CUPS སར་བར་ལས་བརྡ་འཚོལ་བརྡ་དོན་ ཉེ་གནས་ཡོངས་འབྲེལ་ལུ་ <b>གཏང་ནི་</b> འདི་ལྕོགས་ཅན་བཟོ་དགོ་པ་ཅིན་\n"
+"\n"
+"specify a valid <i>བརའུ་ཟར་ཁ་བྱང་</i>ནུས་ཅན་ཅིག་གསལ་བཀོད་འབད།\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: On</p>\n"
+
+#: cupsd.conf.template.cpp:307
+msgid ""
+"<b>Use short names (BrowseShortNames)</b>\n"
+"<p>\n"
+"Whether or not to use \"short\" names for remote printers\n"
+"when possible (e.g. \"printer\" instead of \"printer@host\").  Enabled by\n"
+"default.</p>\n"
+"<p>\n"
+"<i>ex</i>: Yes</p>\n"
+msgstr ""
+"<b>མིང་ཐུང་ཀུ་ལག་ལེན་འཐབ་ (མིང་ཐུང་ཀུ་ཚུ་བརྡ་འཚོལ་འབད་)</b>\n"
+"<p>\n"
+"འབད་ཚུགས་པའི་ཅིན་ ཐག་རིང་དཔར་བསྐྲུན་ཚུ་གི་དོན་ལུ་  \"short\" མིང་ཚུ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན་ན།\n"
+" (དཔེར་ན་ \"printer@host\" གི་ཚབ་ལུ་ \"printer\").  སྔོན་སྒྲིག་གིས་སྦེ་\n"
+"ལྕོགས་ཅན་བཟོ་ཡོདཔ།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: Yes</p>\n"
+
+#: cupsd.conf.template.cpp:316
+msgid ""
+"<b>Browse addresses (BrowseAddress)</b>\n"
+"<p>\n"
+"Specifies a broadcast address to be used.  By\n"
+"default browsing information is broadcast to all active interfaces.</p>\n"
+"<p>\n"
+"Note: HP-UX 10.20 and earlier do not properly handle broadcast unless\n"
+"you have a Class A, B, C, or D netmask (i.e. no CIDR support).</p>\n"
+"<p>\n"
+"<i>ex</i>: x.y.z.255, x.y.255.255</p>\n"
+msgstr ""
+"<b>ཁ་བྱང་ཚུ་ བརྡ་འཚོལ་འབད་ནི་ (ཁ་བྱང་བརྡ་འཚོལ་འབད་ནི་)</b>\n"
+"<p>\n"
+"ལག་ལེན་འཐབ་ནི་ཨིན་པའི་ རྒྱང་བསྒྲགས་ཁ་བྱང་གཅིག་གསལ་བཀོད་འབདཝ་ཨིན།  སྔོན་སྒྲིག་གིས་འབད་\n"
+"བརྡ་འཚོལ་བརྡ་དོན་འདི་ ཤུགས་ཅན་གྱི་ངོས་འདྲ་ཚུ་ཆ་མཉམ་ལུ་ རྒྱང་བསྒྲགས་འབད་ཡོདཔ།</p>\n"
+"<p>\n"
+"དྲན་དགོཔ་: ཁྱོད་ལུ་ དབྱེ་རིགས་ ཀ་ ཁ་ ག་ ཡང་ན་ ངའི་ ནེཊི་མཱསིཀ་ (i.e.  CIDR གི་རྒྱབ་སྐྱོར་མེདཔ་)མེད་རིང་ HP-UX 10.20 དང་དེའི་ཧེ་མ་གནས་མི་ཚུ་ \n"
+"རྒྱང་བསྒྲགས་འདི་ ལེགས་ཤོམ་སྦེ་ལེགས་སྐྱོང་འཐབ་མི་བཏུབ་ནི་ཨིནམ་ .</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: x.y.z.255, x.y.255.255</p>\n"
+
+#: cupsd.conf.template.cpp:327
+msgid ""
+"<b>Browse allow/deny (BrowseAllow/BrowseDeny)</b>\n"
+"<p>\n"
+"<u>BrowseAllow</u>: specifies an address mask to allow for incoming browser\n"
+"packets. The default is to allow packets from all addresses.</p>\n"
+"<p>\n"
+"<u>BrowseDeny</u>: specifies an address mask to deny for incoming browser\n"
+"packets. The default is to deny packets from no addresses.</p>\n"
+"<p>\n"
+"Both \"BrowseAllow\" and \"BrowseDeny\" accept the following notations for\n"
+"addresses:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"The hostname/domainname restrictions only work if you have turned hostname\n"
+"lookups on!</p>\n"
+msgstr ""
+"<b>ཆོག་པ་/ཉན་མི་བཏུབ་འདི་བརྡ་འཚོལ་འབད་ (ཆོག་པ་བརྡ་འཚོལ་འབད་ནི་/མི་ཆོག་པ་བརྡ་འཚོལ་འབད་ནི་)</b>\n"
+"<p>\n"
+"<u>ཆོག་པ་བརྡ་འཚོལ་འབད་</u>: ནང་འབྱོར་འབད་བའི་ འཕྲིན་ཚན་བརྡ་འཚོལ་འབད་བཅུག་ནིའི་དོན་ལུ་ ཁ་བྱང་གདོང་ཁེབས་གཅིག་གསལ་བཀོད་འབདཝ་ཨིན།\n"
+"སྔོན་སྒྲིག་འབད་བ་ཅིན་ ཁ་བྱང་ཆ་མཉམ་ལས་ འཕྲིན་ཚན་ཚུ་ཆོགཔ་སྦེ་ཨིན།</p>\n"
+"<p>\n"
+"<u>མི་ཆོག་པ་བརྡ་འཚོལ་འབད་ནི་</u>: ནང་འབྱོར་འབད་བའི་ འཕྲིན་ཚན་བརྡ་འཚོལ་འབད་མ་བཅུག་ནིའི་དོན་ལུ་ ཁ་བྱང་གདོང་ཁེབས་གཅིག་གསལ་བཀོད་འབདཝ་ཨིན།\n"
+"སྔོན་སྒྲིག་འདི་འབད་བ་ཅིན་ ཁ་བྱང་གཅིག་ལས་ཡང་ འཕྲིན་ཚན་ཚུ་མ་ཆོགཔ་སྦེ་ཨིན།</p>\n"
+"<p>\n"
+"གཉིས་ཆ་རང་ \"ཆོག་པ་བརྡ་འཚོལ་འབད་ནི་\" དང་ \"མི་ཆོག་པ་བརྡ་འཚོལ་འབད་ནི་\" ཁ་བྱང་ཚུའི་དོན་ལུ་ འོག་ལུ་ཡོད་པའི་དབྱངས་རྟགས་ཚུ་ \n"
+"དང་ལེན་འབད་:</p>\n"
+"<pre>\n"
+"ཆ་མཉམ་\n"
+"ཅི་མེད་\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"ཧོསཊི་ནེམ་འདི་/ཌོ་མེན་ནེམ་བཀག་དམ་ཚུ་ ཁྱོད་ཀྱིས་ ཧོསཊི་ནེམ་བལྟ་བ་ཚུ་ཨཱོན་བཞག་པ་ཅིན་རྐྱངམ་ཅིག་ །\n"
+"ལཱ་འབད་བཏུབ!</p>\n"
+
+#: cupsd.conf.template.cpp:354
+msgid ""
+"<b>Browse interval (BrowseInterval)</b>\n"
+"<p>\n"
+"The time between browsing updates in seconds.  Default\n"
+"is 30 seconds.</p>\n"
+"<p>\n"
+"Note that browsing information is sent whenever a printer's state changes\n"
+"as well, so this represents the maximum time between updates.</p>\n"
+"<p>\n"
+"Set this to 0 to disable outgoing broadcasts so your local printers are\n"
+"not advertised but you can still see printers on other hosts.</p>\n"
+"<p>\n"
+"<i>ex</i>: 30</p>\n"
+msgstr ""
+"<b>བར་མཚམས་བརྡ་འཚོལ་འབད་ (བར་མཚམས་བརྡ་འཚོལ)</b>\n"
+"<p>\n"
+"བརྡ་འཚོལ་དུས་མཐུན་བཟོ་བའི་བར་ན་ ཆུ་ཚོད་འདི་སྐར་ཆ་ཚུ་ནང་། སྔོན་སྒྲིག་འདི་\n"
+"སྐར་ཆ་ ༣༠ ཨིན།</p>\n"
+"<p>\n"
+"དྲན་དགོཔ་འདི་ དཔར་འཕྲུལ་གྱི་གནས་ལུགས་འདི་ནམ་ སོར་འགྱོཝ་ཅི་ བརྡ་འཚོལ་བརྡ་དོན་འདི་ཡང་གཏངམ་ཨིན་\n"
+"དེ་སྦེ་ནི་འདི་གིས་ དེ་གིས་ དུས་མཐུན་བཟོ་བའི་བར་ན་ལུ་ཡོད་པའི་ཆུ་ཚོད་མཐོ་ཤོས་ཀྱི་ཁྱད་ཚབ་འབདཝ་ཨིན།</p>\n"
+"<p>\n"
+"ཕྱིར་བསྐྱོད་ལྕོགས་མིན་བཟོ་ནི་ལུ་ འདི་ ༠ ལུ་གཞི་སྒྲིག་འབད་དགོ་ དེ་སྦེ་བཟོ་བ་ཅིན་ ཁྱོད་ཀྱི་ ཉེ་གནས་དཔར་འཕྲུལ་ཚུ་ སྤེལ་བསྒྲགས་ཡང་མ་འགྱོཝ་ དེ་ལས་ །\n"
+"ཁྱོད་ཀྱིས་ གཞན་ཧོསཊི་ཚུའི་ནང་དཔར་འཔྲུལ་འདི་མཐོང་ཚུགཔ་སྦེ་སྡོད་འོངམ་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 30</p>\n"
+
+#: cupsd.conf.template.cpp:368
+msgid ""
+"<b>Browse order (BrowseOrder)</b>\n"
+"<p>\n"
+"Specifies the order of BrowseAllow/BrowseDeny comparisons.</p>\n"
+"<p>\n"
+"<i>ex</i>: allow,deny</p>\n"
+msgstr ""
+"<b>བརྡ་འཚོལ་གོ་རིམ་ (བརྡ་འཚོལ་གོ་རིམ་)</b>\n"
+"<p>\n"
+"ཆོག་པའི་བརྡ་འཚོལ་/མི་ཆོག་པའི་བརྡ་འཚོལ་གྱི་ག་བསྡུར་གོ་རིམ་འདི་གསལ་བཀོད་འབདཝ་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: allow,deny</p>\n"
+
+#: cupsd.conf.template.cpp:375
+msgid ""
+"<b>Browse poll (BrowsePoll)</b>\n"
+"<p>\n"
+"Poll the named server(s) for printers.</p>\n"
+"<p>\n"
+"<i>ex</i>: myhost:631</p>\n"
+msgstr ""
+"<b>པཱོལ་བརྡ་འཚོལ་ (པཱོལ་བརྡ་འཚོལ་ )</b>\n"
+"<p>\n"
+"དཔར་འཕྲུལ་གྱི་དོན་ལུ་ སར་བར་(ཚུ)་ཟེར་མིང་བཏགས་ཡོད་མི་པཱོལ་འབད།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: myhost:631</p>\n"
+
+#: cupsd.conf.template.cpp:382
+msgid ""
+"<b>Browse port (BrowsePort)</b>\n"
+"<p>\n"
+"The port used for UDP broadcasts.  By default this is\n"
+"the IPP port; if you change this you need to do it on all servers.\n"
+"Only one BrowsePort is recognized.</p>\n"
+"<p>\n"
+"<i>ex</i>: 631</p>\n"
+msgstr ""
+"<b>འདྲེན་ལམ་བརྡ་འཚོལ་འབད་ནི་ (འདྲེན་ལམ་བརྡ་འཚོལ་)</b>\n"
+"<p>\n"
+"UDP རྒྱང་བསྒྲགས་འབད་ནིའི་དོན་ལུ་  འདྲེན་ལམ་འདི་ལག་ལེན་འཐབ་ཡོདཔ། སྔོན་སྒྲིག་གིས་སྦེ་ འ་ནི་འདི་ IPP འདྲེན་ལམ་ཨིནམ་དང་ གལ་སྲིད་ ཁྱོད་ཀྱིས་ འདི་སོར་བ་ཅིན་ \n"
+"སར་བར་ཆ་མཉམ་ལུ་སོར་ནི་འདི་འབད་དགོ\n"
+"འདྲེན་ལམ་བརྡ་འཚོལ་གཅིག་རྐྱངམ་ཅིག་ངོ་ཤེསཔ་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: 631</p>\n"
+
+#: cupsd.conf.template.cpp:391
+msgid ""
+"<b>Browse relay (BrowseRelay)</b>\n"
+"<p>\n"
+"Relay browser packets from one address/network to another.</p>\n"
+"<p>\n"
+"<i>ex</i>: src-address dest-address</p>\n"
+msgstr ""
+"<b>བརྒྱུད་སྤྲོད་བརྡ་འཚོལ་ (བརྒྱུད་སྤྲོད་བརྡ་འཚོལ་)</b>\n"
+"<p>\n"
+"ཁ་བྱང་གཅིག་ལས་/ཡོངས་འབྲེལ་གཅིག་ལས་ བརྒྱུད་སྤྲོད་བརྡ་འཚོལ་འཕྲིན་ཚན་ཚུ།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: src-address dest-address</p>\n"
+
+#: cupsd.conf.template.cpp:398
+msgid ""
+"<b>Browse timeout (BrowseTimeout)</b>\n"
+"<p>\n"
+"The timeout (in seconds) for network printers - if we don't\n"
+"get an update within this time the printer will be removed\n"
+"from the printer list.  This number definitely should not be\n"
+"less the BrowseInterval value for obvious reasons.  Defaults\n"
+"to 300 seconds.</p>\n"
+"<p>\n"
+"<i>ex</i>: 300</p>\n"
+msgstr ""
+"<b>ངལ་མཚམས་བརྡ་འཚོལ་འབད་ནི་ (ངལ་མཚམས་བརྡ་འཚོལ་)</b>\n"
+"<p>\n"
+"ཡོངས་འབྲེལ་དཔར་བསྐྲུན་ཚུའི་དོན་ལུ་ ངལ་མཚམས་(སྐར་ཆ་ནང་ལུ་)འདི་ - གལ་སྲིད་ ང་བཅས་ཀྱིས་\n"
+"ཆུ་ཚོད་དེའི་ནང་འཁོད་ནང་ལུ་ དུས་མཐུན་བཟོ་མ་ཚུགས་པ་ཅིན་ དཔར་བསྐྲུན་འདི་ \n"
+"དཔར་བསྐྲུན་ཐོ་ཡིག་ནང་ལས་ རྩ་བསྐྲད་གཏང་འོང་། ཨང་གྲངས་འདི་ གང་འབྱུང་རྒྱུ་མཚན་གྱི་དོན་ལུ་ བརྡ་འཚོལ་བར་མཚམས་ལས་མ་ཉུངམ་ཅིག་འོང་དགོ\n"
+"སྐར་ཆ་ ༣༠༠ ལུ་སྔོན་སྒྲིག་འབདཝ་ཨིན།\n"
+"</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: ༣༠༠</p>\n"
+
+#: cupsd.conf.template.cpp:409
+msgid ""
+"<b>Implicit classes (ImplicitClasses)</b>\n"
+"<p>\n"
+"Whether or not to use implicit classes.</p>\n"
+"<p>\n"
+"Printer classes can be specified explicitly in the classes.conf\n"
+"file, implicitly based upon the printers available on the LAN, or\n"
+"both.</p>\n"
+"<p>\n"
+"When ImplicitClasses is On, printers on the LAN with the same name\n"
+"(e.g. Acme-LaserPrint-1000) will be put into a class with the same\n"
+"name. This allows you to setup multiple redundant queues on a LAN\n"
+"without a lot of administrative difficulties.  If a user sends a\n"
+"job to Acme-LaserPrint-1000, the job will go to the first available\n"
+"queue.</p>\n"
+"<p>\n"
+"Enabled by default.</p>\n"
+msgstr ""
+"<b>ཐེ་ཚོམ་མེད་པའི་དབྱེ་རིགས་ཚུ་ (ཐེ་ཚོམ་མེད་པའི་དབྱེ་རིགས་ཚུ་)</b>\n"
+"<p>\n"
+"ཐེ་ཚོམ་མེད་པའི་དབྱེ་རིགས་ཚུ་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་ མེན་ན་།</p>\n"
+"<p>\n"
+"དཔར་བསྐྲུན་དབྱེ་རིགས་ཚུ་ དབྱེ་རིགས་ཀོནཕི་ཡིག་སྣོད་ནང་ གསལ་ཏོག་ཏོ་སྦེ་ གསལ་བཀོད་འབད་ཚུགས་ནི་དང་ \n"
+"ཉེ་གནས་ཡོངས་འབྲེལ་ ཡང་ན་ གཉིས་ཆ་རང་ནང་ ཐེ་ཚོམ་མེད་པར་ \n"
+"གཞི་བཞག་འབད་ཡོདཔ།</p>\n"
+"<p>\n"
+"ཐེ་ཚོམ་མེད་པའི་དབྱེ་རིགས་ཚུ་ ཨཱོན་ཡོད་པའི་སྐབས་ ཉེ་གནས་ཡོངས་འབྲེལ་ལུ་ཡོད་པའི་ \n"
+"དཔར་བསྐྲུན་ཚུའི་མིང་གཅིག་པ་(དཔེར་ན་ Acme-LaserPrint-1000)སྦེ་ \n"
+"དབྱེ་རིགས་ནང་ལུ་ མིང་གཅིག་པ་སྦེ་ བཙུགསཔ་ཨིན། དེ་གིས་ ཁྱོད་ལུ་ སྣ་མང་གི་གྲལ་མང་དྲགས་ཚུ་ ཉེ་གནས་ཡོངས་འབྲེལ་གུ་ལུ་ \n"
+"བདག་སྐྱོང་གི་དཀའ་ངལ་མང་བ་མེད་པར་ གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིན།  ལག་ལེན་པ་གཅིག་གིས་ \n"
+" Acme-LaserPrint-1000 ལུ་ལཱ་གཡོག་གཏང་པ་ཅིན་ ལཱ་གཡོག་འདི་ དང་པ་རང་ ཐོབ་ཚུགས་པའི\n"
+"་གྲལ་ལུ་འགྱོཝ་ཨིན།</p>\n"
+"<p>\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ལྕོགས་ཅན་བཟོ་ཡོདཔ།</p>\n"
+
+#: cupsd.conf.template.cpp:427
+msgid ""
+"<b>System group (SystemGroup)</b>\n"
+"<p>\n"
+"The group name for \"System\" (printer administration)\n"
+"access.  The default varies depending on the operating system, but\n"
+"will be <b>sys</b>, <b>system</b>, or <b>root</b> (checked for in that order).</p>\n"
+"<p>\n"
+"<i>ex</i>: sys</p>\n"
+msgstr ""
+"<b>རིམ་ལུགས་སྡེ་ཚན་ (རིམ་ལུགས་སྡེ་ཚན་)</b>\n"
+"<p>\n"
+"\"རིམ་ལུགས་\" (དཔར་བསྐྲུན་གྱི་བདག་སྐྱོང་)འཛུལ་སྤྱོད་འབད་ནིའི་\n"
+" སྡེ་ཚན་གྱི་མིང་འདི།  སྔོན་སྒྲིག་འདི་ བཀོལ་སྤྱོད་རིམ་ལུགས་དང་འཁྲིལ་ཏེ་ ཁྱད་པར་ཞུགས་འོང་ དེ་འབདཝ་ད་\n"
+"དེ་ <b>sys</b>, <b>རིམ་ལུགས་</b>, or <b>རྩ་བ་</b> (ཕ་གི་ གོ་རིམ་ནང་ལུ་ཞིབ་དཔྱད་འབད་ཡོདཔ་)།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: sys</p>\n"
+
+#: cupsd.conf.template.cpp:436
+msgid ""
+"<b>Encryption certificate (ServerCertificate)</b>\n"
+"<p>\n"
+"The file to read containing the server's certificate.\n"
+"Defaults to \"/etc/cups/ssl/server.crt\".</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/cups/ssl/server.crt</p>\n"
+msgstr ""
+"<b>གསང་བཟོའི་ལག་ཁྱེར་  (སར་བར་གྱི་ལག་ཁྱེར་)</b>\n"
+"<p>\n"
+"སར་བར་གྱི་ལག་ཁྱེར་གནས་པའི་ ཡིག་སྣོད་ལྷག་ནིའི་དོན་ལུ།\n"
+"\"/etc/cups/ssl/server.crt\"ལུ་སྔོན་སྒྲིག་འབདཝ་ཨིན།.</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /etc/cups/ssl/server.crt</p>\n"
+
+#: cupsd.conf.template.cpp:444
+msgid ""
+"<b>Encryption key (ServerKey)</b>\n"
+"<p>\n"
+"The file to read containing the server's key.\n"
+"Defaults to \"/etc/cups/ssl/server.key\".</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/cups/ssl/server.key</p>\n"
+msgstr ""
+"<b>གསང་བཟོའི་ལྡེ་མིག་ (སར་བར་གྱི་ལྡེ་མིག་)</b>\n"
+"<p>\n"
+"སར་བར་གྱི་ལྡེ་མིག་ཡོད་པའི་ ཡིག་སྣོད་ལྷག་ནིའི་དོན་ལུ།\n"
+"Defaults to \"/etc/cups/ssl/server.key\"ལུ་སྔོན་སྒྲིག་འབདཝ་ཨིནམ།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: /etc/cups/ssl/server.key</p>\n"
+
+#: cupsd.conf.template.cpp:452
+msgid ""
+"Access permissions\n"
+"# Access permissions for each directory served by the scheduler.\n"
+"Locations are relative to DocumentRoot...\n"
+"# AuthType: the authorization to use:\n"
+"#    None   - Perform no authentication\n"
+"Basic  - Perform authentication using the HTTP Basic method.\n"
+"Digest - Perform authentication using the HTTP Digest method.\n"
+"#    (Note: local certificate authentication can be substituted by\n"
+"the client for Basic or Digest when connecting to the\n"
+"localhost interface)\n"
+"# AuthClass: the authorization class; currently only Anonymous, User,\n"
+"System (valid user belonging to group SystemGroup), and Group\n"
+"(valid user belonging to the specified group) are supported.\n"
+"# AuthGroupName: the group name for \"Group\" authorization.\n"
+"# Order: the order of Allow/Deny processing.\n"
+"# Allow: allows access from the specified hostname, domain, IP address, or\n"
+"network.\n"
+"# Deny: denies access from the specified hostname, domain, IP address, or\n"
+"network.\n"
+"# Both \"Allow\" and \"Deny\" accept the following notations for addresses:\n"
+"#     All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"# The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.\n"
+"# Encryption: whether or not to use encryption; this depends on having\n"
+"the OpenSSL library linked into the CUPS library and scheduler.\n"
+"# Possible values:\n"
+"#     Always       - Always use encryption (SSL)\n"
+"Never        - Never use encryption\n"
+"Required     - Use TLS encryption upgrade\n"
+"IfRequested  - Use encryption if the server requests it\n"
+"# The default value is \"IfRequested\".\n"
+msgstr ""
+"འཛུལ་སྤྱོད་འབད་ནིའི་གནང་བ་ཚུ་\n"
+"# འཆར་རིམ་བཀོད་མི་གིས་ ཕྱག་ཞུ་ཡོད་པའི་སྣོད་ཐོ་རེ་རེ་བཞིན་གྱི་དོན་ལུ་ འཛུལ་སྤྱོད་འབད་ནིའི་གནང་བ་ཚུ།\n"
+"གནས་ཁོངས་ཚུ་ ཡིག་ཆ་རྩ་བ་ལུ་འབྲེལ་བ་ཡོདཔ་ཨིན།...\n"
+"# བདེན་བཤད་ཀྱི་དབྱེ་བ་: དབང་སྤྲོད་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་:\n"
+"#    ཅི་མེད་   - བདེན་བཤད་གཅིག་ཡང་ལཱ་འགན་མ་འགྲུབ་\n"
+"Basic  - Perform authentication using the HTTP Basic method.\n"
+"Digest - Perform authentication using the HTTP Digest method.\n"
+"#    (Note: local certificate authentication can be substituted by\n"
+"the client for Basic or Digest when connecting to the\n"
+"localhost interface)\n"
+"# AuthClass: the authorization class; currently only Anonymous, User,\n"
+"System (valid user belonging to group SystemGroup), and Group\n"
+"(valid user belonging to the specified group) are supported.\n"
+"# AuthGroupName: the group name for \"Group\" authorization.\n"
+"# Order: the order of Allow/Deny processing.\n"
+"# Allow: allows access from the specified hostname, domain, IP address, or\n"
+"network.\n"
+"# Deny: denies access from the specified hostname, domain, IP address, or\n"
+"network.\n"
+"# Both \"Allow\" and \"Deny\" accept the following notations for addresses:\n"
+"#     All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"# The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.\n"
+"# Encryption: whether or not to use encryption; this depends on having\n"
+"the OpenSSL library linked into the CUPS library and scheduler.\n"
+"# Possible values:\n"
+"#     Always       - Always use encryption (SSL)\n"
+"Never        - Never use encryption\n"
+"Required     - Use TLS encryption upgrade\n"
+"IfRequested  - Use encryption if the server requests it\n"
+"# The default value is \"IfRequested\".\n"
+
+#: cupsd.conf.template.cpp:495
+msgid ""
+"<b>Authentication (AuthType)</b>\n"
+"<p>\n"
+"The authorization to use:<p>\n"
+"<ul type=circle>\n"
+"<li><i>None</i>   - Perform no authentication.</li>\n"
+"<li><i>Basic</i>  - Perform authentication using the HTTP Basic method.</li>\n"
+"<li><i>Digest</i> - Perform authentication using the HTTP Digest method.</li>\n"
+"</ul><p>\n"
+"Note: local certificate authentication can be substituted by\n"
+"the client for <i>Basic</i> or <i>Digest</i> when connecting to the\n"
+"localhost interface.</p>\n"
+msgstr ""
+"<b>བདེན་བཤད་ (AuthType)</b>\n"
+"<p>\n"
+"དེ་ལག་ལེན་འཐབ་ནིའི་དབང་སྤྲོད་འདི།<p>\n"
+"<ul type=circle>\n"
+"<li><i>ཅི་མེད་</i>   - དབང་སྤྲོད་ཀྱི་དོན་ལུ་ ལཱ་འགན་མ་སྒྲུབས།</li>\n"
+"<li><i>གཞི་རིམ་</i>  -  HTTP གཞི་རིམ་འཐབ་ལམ་ལག་ལེན་འཐབ་སྟེ་ དབང་སྤྲོད་དེ་ལཱ་འགན་སྒྲུབས།</li>\n"
+"<li><i>ཌའི་ཇེསཊི</i> - HTTP ཌའི་ཇེསཊི་འཐབ་ལམ་ལག་ལེན་འཐབ་སྟེ་ དབང་སྤྲོད་དེ་ལཱ་འགན་སྒྲུབས།</li>\n"
+"</ul><p>\n"
+"དྲན་དགོཔ་: ཉེ་གནས་ལག་ཁྱེར་དབང་སྤྲོད་དེ་ ཉེ་གནས་ཧོསཊི་ངོས་འདྲ་བ་ལུ་མཐུད་པའི་སྐབས་ \n"
+" ་<i>གཞི་རིམ་</i>ཡང་ན་ <i>ཌའི་ཇེསཊི</i>གྱི་དོན་ལུ་ཞབས་ཏོག་སྤྱོད་མི་\n"
+"གིས་ཚབ་མ་འབད་བཏུབ།</p>\n"
+
+#: cupsd.conf.template.cpp:508
+msgid ""
+"<b>Class (AuthClass)</b>\n"
+"<p>\n"
+"The authorization class; currently only <i>Anonymous</i>, <i>User</i>,\n"
+"<i>System</i> (valid user belonging to group SystemGroup), and <i>Group</i>\n"
+"(valid user belonging to the specified group) are supported.</p>\n"
+msgstr ""
+"<b>དབྱེ་རིགས་ (AuthClass)</b>\n"
+"<p>\n"
+"དབང་སྤྲོད་པའི་དབྱེ་རིགས་འདི་; ད་ལྟོ་ <i>མིང་མེདཔ་</i>, <i>ལག་ལེན་པ་</i>,\n"
+"<i>རིམ་ལུགས་</i> (ནུས་ཅན་གྱི་ལག་ལེན་པ་ རིམ་ལུགས་སྡེ་ཚན་གྱི་སྡེ་ཚན་ལུ་བང་ཆས་ཡོདཔ་), དང་ <i>སྡེ་ཚན་</i>\n"
+"(ནུས་ཅན་གྱི་ལག་ལེན་པ་ གསལ་བཀོད་འབད་མིའི་སྡེ་ཚན་ལུ་བང་ཆས་ཡོདཔ་) ཚུ་རྒྱབ་སྐྱོར་འབད་ཡོདཔ།</p>\n"
+
+#: cupsd.conf.template.cpp:515
+msgid ""
+"<p>The user/group names allowed to access the resource. The format is a\n"
+"comma separated list.</p>\n"
+msgstr ""
+"<p>ཐོན་ཁུངས་ལུ་འཛུལ་སྤྱོད་འབད་ཆོག་པའི་ ལག་ལེན་པ་/སྡེ་ཚན་གྱི་མིང་འདི་ཚུ།  རྩ་སྒྲིག་འདི་ \n"
+"ལྷོད་རྟགས་སོ་སོ་འཕྱལ་འཕྱལཝ་གི་ཐོ་ཡིག་ཅིག་ཨིན།</p>\n"
+
+#: cupsd.conf.template.cpp:519
+msgid ""
+"<b>Satisfy (Satisfy)</b>\n"
+"<p>\n"
+"This directive controls whether all specified conditions must\n"
+"be satisfied to allow access to the resource. If set to \"all\",\n"
+"then all authentication and access control conditions must be\n"
+"satisfied to allow access.\n"
+"</p>\n"
+"<p>\n"
+"Setting Satisfy to \"any\" allows a user to gain access if the\n"
+"authentication <i>or</i> access control requirements are satisfied.\n"
+"For example, you might require authentication for remote access,\n"
+"but allow local access without authentication.\n"
+"</p>\n"
+"<p>\n"
+"The default is \"all\".\n"
+"</p> \n"
+msgstr ""
+"<b>བསམ་པ་རྫོགས་ (བསམ་པ་རྫོགས་)</b>\n"
+"<p>\n"
+"འ་ནཱི་ བཀོད་རྒྱ་འདི་གིས་ གསལ་བཀོད་འབད་ཡོད་པའི་གནས་སྟངས་ཚུ་ཆ་མཉམ་རང་ ཐོན་ཁུངས་འདི་ལུ་འཛུལ་སྤྱོད་འབད་ནི་ལུ་ \n"
+"བསམ་པ་རྫོགས་ཡོདཔ་ ཚད་འཛིན་འབདཝ་ཨིན།   \"ཆ་མཉམ་\"ལུ་ གཞི་སྒྲིག་འབད་ཚར་བ་ཅིན་,\n"
+"དབང་སྤྲོད་དང་ ཚད་འཛིན་གནས་སྟངས་འཛུལ་སྤྱོད་ཚུ་ཆ་མཉམ་རང་\n"
+"འཛུལ་སྤྱོད་འབད་ནི་ལུ་བསམ་པ་རྫོགསཔ་སྦེ་འོང་བཅུག་དགོ\n"
+"</p>\n"
+"<p>\n"
+" \"གང་རུང་\" ལུ་ བསམ་པ་རྫོགས་ནི་འདི་གཞི་སྒྲིག་འབད་མི་ལུ་ \n"
+"དབང་སྤྲོད་ <i>ཡང་ན་</i> འཛུལ་སྤྱོད་ཚད་འཛིན་ལུ་དགོས་མཁོ་མི་ཚུ་ བསམ་པ་རྫོགས་པ་ཅིན་ ལག་ལེན་པ་གཅིག་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་འདི་ཐོབ་ཨིན།\n"
+"དཔེར་ན་ ཁྱོད་ལུ་ ཐག་རིང་འཛུལ་སྤྱོད་ཀྱི་དོན་ལུ་ དབང་སྤྲོད་འདི་དགོཔ་འོང་\n"
+"དེ་འབདཝ་ད་ ཉེ་གནས་འདི་དབང་སྤྲོད་མེད་པར་འཛུལ་སྤྱོད་འབད་བཅུགཔ་ཨིན།\n"
+"</p>\n"
+"<p>\n"
+"\"ཆ་མཉམ་\"འདི་སྔོན་སྒྲིག་ཨིན།\n"
+"</p> \n"
+
+#: cupsd.conf.template.cpp:537
+msgid ""
+"<b>Authentication group name (AuthGroupName)</b>\n"
+"<p>\n"
+"The group name for <i>Group</i> authorization.</p>\n"
+msgstr ""
+"<b>དབང་སྤྲོད་སྡེ་ཚན་གྱི་མིང་ (AuthGroupName)</b>\n"
+"<p>\n"
+" <i>སྡེ་ཚན་</i> དབང་སྤྲོད་ཀྱི་དོན་ལུ་ སྡེ་ཚན་གྱི་མིང་འདི་།</p>\n"
+
+#: cupsd.conf.template.cpp:542
+msgid ""
+"<b>ACL order (Order)</b>\n"
+"<p>\n"
+"The order of Allow/Deny processing.</p>\n"
+msgstr ""
+"<b>ACL གོ་རིམ་ (Order)</b>\n"
+"<p>\n"
+"ཆོག་པ་/མི་ཆོག་པའི་བཟོ་སྦྱོར་གྱི་ གོ་རིམ།</p>\n"
+
+#: cupsd.conf.template.cpp:547
+msgid ""
+"<b>Allow</b>\n"
+"<p>\n"
+"Allows access from the specified hostname, domain, IP address, or\n"
+"network. Possible values are:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.</p>\n"
+msgstr ""
+"<b>ཆོག་པ་</b>\n"
+"<p>\n"
+"གསལ་བཀོད་འབད་ཡོད་པའི་ཧོསཊི་ནེམ་ ཌོ་མེན་ ཨའི་པི་ཁ་བྱང་ ཡང་ན་ ཡོངས་འབྲེལ་\n"
+" ལས་འཛུལ་སྤྱོད་འབད་ཆོགཔ་ཨིན། འོང་སྲིད་པའི་གནས་གོང་ཚུ་:</p>\n"
+"<pre>\n"
+"ཆ་མཉམ་\n"
+"ཅི་མེད་\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+" \"HostNameLookups On\"དང་གཅིག་ཁར་ ཧོསཊི་ནེམ་བལྟ་བ་ཚུ་ལྕོགས་ཅན་བཟོ་ནི་ལུ་ ཁྱོད་ལུ་ དགོས་མཁོ་ཡོདཔ་ ཧོསཊི་ནེམ་དང་ཌོ་མེན་ཁ་བྱང་འདི་ /p>\n"
+
+#: cupsd.conf.template.cpp:568
+msgid ""
+"<b>ACL addresses (Allow/Deny)</b>\n"
+"<p>\n"
+"Allows/Denies access from the specified hostname, domain, IP address, or\n"
+"network. Possible values are:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.</p>\n"
+msgstr ""
+"<b>ACL ཁ་བྱང་ཚུ་ (ཆོག་པ་/མི་ཆོག་པ་)</b>\n"
+"<p>\n"
+"གསལ་བཀོད་འབད་ཡོད་པའི་ཧོསཊི་ནེམ་ ཌོ་མེན་ ཨའི་པི་ཁ་བྱང་ ཡང་ན་ ཡོངས་འབྲེལ་\n"
+" ལས་འཛུལ་སྤྱོད་འབད་ཆོགཔ་ཨིན། འོང་སྲིད་པའི་གནས་གོང་ཚུ་:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+" \"HostNameLookups On\"དང་གཅིག་ཁར་ ཧོསཊི་ནེམ་བལྟ་བ་ཚུ་ལྕོགས་ཅན་བཟོ་ནི་ལུ་ ཁྱོད་ལུ་ དགོས་མཁོ་ཡོདཔ་ ཧོསཊི་ནེམ་དང་ཌོ་མེན་ཁ་བྱང་འདི་ </p>\n"
+
+#: cupsd.conf.template.cpp:589
+msgid ""
+"<b>Encryption (Encryption)</b>\n"
+"<p>\n"
+"Whether or not to use encryption; this depends on having\n"
+"the OpenSSL library linked into the CUPS library and scheduler.</p>\n"
+"<p>\n"
+"Possible values:</p>\n"
+"<ul type=circle>\n"
+"<li><i>Always</i>       - Always use encryption (SSL)</li>\n"
+"<li><i>Never</i>        - Never use encryption</li>\n"
+"<li><i>Required</i>     - Use TLS encryption upgrade</li>\n"
+"<li><i>IfRequested</i>  - Use encryption if the server requests it</li>\n"
+"</ul><p>\n"
+"The default value is \"IfRequested\".</p>\n"
+msgstr ""
+"<b>གསང་བཟོ་ (གསང་བཟོ་)</b>\n"
+"<p>\n"
+"གསང་བཟོ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་ མེན་ན་འདི་ \n"
+"OpenSSL དཔེ་མཛོད་འདི་ CUPS དཔེ་མཛོད་དང་ འཆར་རིམ་བཀོད་མི་ ནང་ན་འབྲེལ་ལམ་ཡོད་མེད་ལུ་རག་ལེགས།</p>\n"
+"<p>\n"
+"འོང་སྲིད་པའི་གནས་གོང་ཚུ་:</p>\n"
+"<ul type=circle>\n"
+"<li><i>ཨ་རྟག་རང་</i>       - ཨ་རྟག་རང་གསང་བཟོ་ལག་ལེན་འཐབ་ (SSL)</li>\n"
+"<li><i>ནམ་ཡང་</i>        - གསང་བཟོ་ནམ་ཡང་ལག་ལེན་མ་འཐབ་</li>\n"
+"<li><i>དགོས་མཁོ་ཡོདཔ་</i>     - TLS གསང་བཟོ་ཡར་བསྐྱེད་ལག་ལེན་འཐབ་</li>\n"
+"<li><i>IfRequested</i>  - སར་བར་གྱི་འདི་ཞུ་བ་ཅིན་ གསང་བཟོ་ལག་ལེན་འཐབ་</li>\n"
+"</ul><p>\n"
+" \"IfRequested\"འདི་སྔོན་སྒྲིག་ཨིན།</p>\n"
+
+#: cupsd.conf.template.cpp:604
+msgid ""
+"<b>Access permissions</b>\n"
+"<p>\n"
+"Access permissions for each directory served by the scheduler.\n"
+"Locations are relative to DocumentRoot...</p>\n"
+msgstr ""
+"<b>འཛུལ་སྤྱོད་གནང་བ་ཚུ་</b>\n"
+"<p>\n"
+"འཆར་རིམ་བཀོད་མི་གིས་ སྣོད་ཐོ་རེ་བཞིན་ལུ་ ཕྱག་ཞུ་ཡོད་མིའི་དོན་ལུ་ འཛུལ་སྤྱོད་ཀྱི་གནང་བ་ཚུ་\n"
+"གནས་ཁོངས་ཚུ་ ཡིག་ཆའི་རྩ་བ་ལུ་ འབྲེལ་བ་ཡོདཔ་ཨིན་...</p>\n"
+
+#: cupsd.conf.template.cpp:610
+msgid ""
+"<b>Auto purge jobs (AutoPurgeJobs)</b>\n"
+"<p>\n"
+"Automatically purge jobs when not needed for quotas.\n"
+"Default is No.</p>\n"
+msgstr ""
+"<b>རང་བཞིན་ཕྱིར་བསྐྲད་ལཱ་གཡོག་ཚུ་ (AutoPurgeJobs)</b>\n"
+"<p>\n"
+"རང་བཞིན་གྱིས་ ཐོབ་སྐལ་ལུ་དགོ་པ་མེདཔ་ད་ ལཱ་གཡོག་ཚུ་ཕྱིར་བསྐྲད་འབདཝ་ཨིན།\n"
+"མེན་ འདི་སྔོན་སྒྲིག་ཨིན།</p>\n"
+
+#: cupsd.conf.template.cpp:616
+msgid ""
+"<b>Browse protocols (BrowseProtocols)</b>\n"
+"<p>\n"
+"Which protocols to use for browsing.  Can be\n"
+"any of the following separated by whitespace and/or commas:</p>\n"
+"<ul type=circle>\n"
+"<li><i>all</i>  - Use all supported protocols.</li>\n"
+"<li><i>cups</i> - Use the CUPS browse protocol.</li>\n"
+"<li><i>slp</i>  - Use the SLPv2 protocol.</li>\n"
+"</ul><p>\n"
+"The default is <b>cups</b>.</p>\n"
+"<p>\n"
+"Note: If you choose to use SLPv2, it is <b>strongly</b> recommended that\n"
+"you have at least one SLP Directory Agent (DA) on your\n"
+"network.  Otherwise, browse updates can take several seconds,\n"
+"during which the scheduler will not response to client\n"
+"requests.</p>\n"
+msgstr ""
+"<b>གནད་སྤེལ་ལམ་ལུགས་ཚུ་བརྡ་འཚོལ་འབད་ (གནད་སྤེལ་ལམ་ལུགས་ཚུ་བརྡ་འཚོལ)</b>\n"
+"<p>\n"
+"བརྡ་འཚོལ་འབད་ནིའི་དོན་ལུ་ གནད་སྤེལ་ལམ་ལུགས་ག་ ལག་ལེན་འཐབ་ནི་ཨིན་ན། འོག་ལུ་\n"
+"བར་སྟོང་དཀརཔོ་/ཡང་ན་ ལྷོད་རྟགས་ཚུ་གིས་ སོ་སོར་འཕྱལ་བཞག་ཡོད་མི་ གང་རུང་ཅིག་འོང་སྲིད་</p>\n"
+"<ul type=circle>\n"
+"<li><i>all</i>  - རྒྱབ་སྐྱོར་ཡོད་པའི་གནད་སྤེལ་ལམ་ལུགས་ཚུ་ཆ་མཉམ་རང་ལག་ལེན་འཐབ།</li>\n"
+"<li><i>cups</i> - CUPS བརྡ་འཚོལ་གནད་སྤེལ་ལམ་ལུགས་འདི་ལག་ལེན་འཐབ།</li>\n"
+"<li><i>slp</i>  - SLPv2 གནད་སྤེལ་ལམ་ལུགས་འདི་ལག་ལེན་འཐབ།</li>\n"
+"</ul><p>\n"
+"སྔོན་སྒྲིག་འདི་ <b>cups</b>ཨིན།</p>\n"
+"<p>\n"
+"དྲན་དགོཔ: གལ་སྲིད་ཁྱོད་ཀྱིས་ SLPv2ལག་ལེན་འཐབ་ནི་འདི་གདམ་པ་ཅིན་་ ཁྱོད་ལུ་ ཁྱོད་ཀྱི་ཡོངས་འབྲེལ་ནང་ལུ་ \n"
+"SLP སྣོད་ཐོ་ལས་ཚབ་(DA) ཉུང་མཐའ་ གཅིག་ཡོད་དགོཔ་སྦེ་ <b>ཤུགས་ཅན་སྦེ་</b> རང་འོས་སྦྱོར\n"
+"་འབད་ཡོདཔ། འདི་མེན་པ་ཅིན་ དུས་མཐུན་བཟོ་ནི་ཚུ་བརྡ་འཚོལ་འབད་བ་ཅིན་ སྐར་ཆ་མང་རབ་ཅིག་འགོར་འོང་ དེ་སྐབས་\n"
+"འཆར་རིམ་བཀོད་མི་གིས་ ཞབས་ཏོག་སྤྱོད་མི་གི་ཞུ་བ་ཚུ་ལུ་ \n"
+"ལེན་མི་རྐྱབ།</p>\n"
+
+#: cupsd.conf.template.cpp:634
+msgid ""
+"<b>Classification (Classification)</b>\n"
+"<p>\n"
+"The classification level of the server.  If set, this\n"
+"classification is displayed on all pages, and raw printing is disabled.\n"
+"The default is the empty string.</p>\n"
+"<p>\n"
+"<i>ex</i>: confidential\n"
+msgstr ""
+"<b>དབྱེ་བཟོ་ (དབྱེ་བཟོ་)</b>\n"
+"<p>\n"
+"སར་བར་གྱི་དབྱེ་བཟོ་གནས་རིམ་། གཞི་སྒྲིག་འབད་ཡོད་པ་ཅིན་ འ་ནི་\n"
+"དབྱེ་བཟོ་འདི་ ཤོག་ལེབ་ཆ་མཉམ་གུ་ལུ་བསྐྲམ་སྟོན་འབད་ནི་དང་ དཔར་བསྐྲུན་རགས་པ་འདི་ལྕོགས་མིན་བཟོཝ་ཨིན།\n"
+"སྔོན་སྒྲིག་འདི་ ཡིག་རྒྱུན་སྟོངམ་འདི་ཨིན།</p>\n"
+"<p>\n"
+"<i>དཔེར་ན་</i>: གསང་བའི་\n"
+
+#: cupsd.conf.template.cpp:643
+msgid ""
+"<b>Allow overrides (ClassifyOverride)</b>\n"
+"<p>\n"
+"Whether to allow users to override the classification\n"
+"on printouts. If enabled, users can limit banner pages to before or\n"
+"after the job, and can change the classification of a job, but cannot\n"
+"completely eliminate the classification or banners.</p>\n"
+"<p>\n"
+"The default is off.</p>\n"
+msgstr ""
+"<b>མེདཔ་གཏང་བཅུག་ (ClassifyOverride)</b>\n"
+"<p>\n"
+"དཔར་བསྐྲུན་འབད་འབདཝ་གུ་ དབྱེ་བཟོ་འདི་ ལག་ལེན་པ་ཚུ་གིས་ མེདཔ་གཏང་བཅུག་ནི་ཨིན་ན།\n"
+"ལྕོགས་ཅན་བཟོ་ཡོད་པ་ཅིན་ ལག་ལེན་པ་གིས་ རས་བྱང་ཤོག་ལེབ་ཚུ་ ལས་གཡོག་གི་ ཤུལ་ལས་ཡང་ན་ ཧེ་མ་ཚད་འབད་ཚུགས་ནི་དང་\n"
+"ལས་གཡོག་གི་དབྱེ་བཟོ་འདི་སོར་ཚུགས་ དེ་འབདཝ་ད་\n"
+"དབྱེ་བཟོ་ ཡང་ན་ རས་བྱང་ཚུ་ རྩ་བ་ལས་རང་ རྩ་མེད་གཏང་མི་ཚུགས།</p>\n"
+"<p>\n"
+"སྔོན་སྒྲིག་འདི་ ཨོཕ་ཨིན།</p>\n"
+
+#: cupsd.conf.template.cpp:653
+msgid ""
+"<b>Hide implicit members (HideImplicitMembers)</b>\n"
+"<p>\n"
+"Whether or not to show the members of an\n"
+"implicit class.</p>\n"
+"<p>\n"
+"When HideImplicitMembers is On, any remote printers that are\n"
+"part of an implicit class are hidden from the user, who will\n"
+"then only see a single queue even though many queues will be\n"
+"supporting the implicit class.</p>\n"
+"<p>\n"
+"Enabled by default.</p>\n"
+msgstr ""
+"<b>བསམ་པའི་འཐུས་མི་ཚུ་ སྦ་བཞག་ (HideImplicitMembers)</b>\n"
+"<p>\n"
+"བསམ་པའི་དབྱེ་རིགས་ཀྱི་མཐུས་མི་ཚུ་་\n"
+" སྟོན་ནི་ཨིན་ན་ མེན་ན།</p>\n"
+"<p>\n"
+"བསམ་པའི་འཐུས་མི་ཚུ་ སྦ་བཞག་ འདི་ཨཱོན་ཡོད་པ་ཅིན་ བསམ་པའི་དབྱེ་རིགས་ཀྱི་ཡན་ལག་ཨིན་པའི་ ཉེ་གནས་ཀྱི་དཔར་བསྐྲུན་གང་རུང་འདི་\n"
+"ལག་ལེན་པ་ལས་ སྦ་བཞགཔ་ཨིནམ་ལས་ \n"
+"བསམ་པའི་དབྱེ་རིགས་འདི་རྒྱབ་སྐྱོར་འབད་མི་ གྲལ་ལེ་ཤ་ཡོད་དེ་འབད་རུང་ \n"
+"གྲལ་གཅིག་ལས་མི་མཐོངམ་ཨིན།</p>\n"
+"<p>\n"
+"སྔོན་སྒྲིག་གིས་ལྕོགས་ཅན་བཟོ་ཡོདཔ།</p>\n"
+
+#: cupsd.conf.template.cpp:666
+msgid ""
+"<b>Use &quot;any&quot; classes (ImplicitAnyClasses)</b>\n"
+"<p>\n"
+"Whether or not to create <b>AnyPrinter</b> implicit\n"
+"classes.</p>\n"
+"<p>\n"
+"When ImplicitAnyClasses is On and a local queue of the same name\n"
+"exists, e.g. \"printer\", \"printer@server1\", \"printer@server1\", then\n"
+"an implicit class called \"Anyprinter\" is created instead.</p>\n"
+"<p>\n"
+"When ImplicitAnyClasses is Off, implicit classes are not created\n"
+"when there is a local queue of the same name.</p>\n"
+"<p>\n"
+"Disabled by default.</p>\n"
+msgstr ""
+"<b>ལག་ལེན་&འདྲེན་ཚིག་;གང་རུང་&འདྲེན་ཚིག་; དབྱེ་རིགས་ཚུ་ (ImplicitAnyClasses)</b>\n"
+"<p>\n"
+"བསམ་པའི་དབྱེ་རིགས་ཀྱི་ <b>དཔར་བསྐྲུན་གང་རུང་</b> གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་\n"
+"མེན་ན་</p>\n"
+"<p>\n"
+"ImplicitAnyClasses ཨཱོན་ཡོདཔ་དང་ ཉེ་གནས་ཀྱི་གྱལ་ མིང་གཅིག་པ་ དཔེར་ན་\n"
+" \"printer\", \"printer@server1\", \"printer@server1\"ཡོད་པ་ཅིན་, \n"
+"\"Anyprinter\"ཟེར་བའི་ཐེ་ཚོམ་མེད་པའི་དབྱེ་རིགས་གཅིག་ ཚབ་སྦེ་གསར་བསྐྲུན་འབད་འོངམ་ཨིན།</p>\n"
+"<p>\n"
+"ImplicitAnyClasses ཨོཕ་ཡོད་པ་ཅིན་ ཉེ་གནས་ཀྱི་གྱལ་ མིང་གཅིག་པ་ཡོད་པའི་ཚེ་\n"
+"ཐེ་ཚོམ་མེད་པའི་དབྱེ་རིགས་ཚུ་གསར་བསྐྲུན་མི་འབད།</p>\n"
+"<p>\n"
+"སྔོན་སྒྲིག་གིས་སྦེ་ ལྕོགས་མིན་བཟོ་ཡོདཔ།</p>\n"
+
+#: cupsd.conf.template.cpp:681
+msgid ""
+"<b>Max jobs (MaxJobs)</b>\n"
+"<p>\n"
+"Maximum number of jobs to keep in memory (active and completed).\n"
+"Default is 0 (no limit).</p>\n"
+msgstr ""
+"<b>ལས་གཡོག་མཐོ་ཤོས་ (MaxJobs)</b>\n"
+"<p>\n"
+"དྲན་ཚད་ནང་བཞག་ནིའི་དོན་ལུ་ ལས་གཡོག་ཚུ་གི་གྱང་ཁ་མཐོ་ཤོས་(ཤུགས་ལྡན་དང་ཡོངས་བསྒྲུབས་)།\n"
+"༠ འདི་སྔོན་སྒྲིག་ཨིན (ཚད་མེདཔ)།</p>\n"
+
+#: cupsd.conf.template.cpp:687
+msgid ""
+"<b>Max jobs per user (MaxJobsPerUser)</b>\n"
+"<p>\n"
+"The MaxJobsPerUser directive controls the maximum number of <i>active</i>\n"
+"jobs that are allowed for each user. Once a user reaches the limit, new\n"
+"jobs will be rejected until one of the active jobs is completed, stopped,\n"
+"aborted, or canceled.</p>\n"
+"<p>\n"
+"Setting the maximum to 0 disables this functionality.\n"
+"Default is 0 (no limit).\n"
+"</p>\n"
+msgstr ""
+"<b>ལག་ལེན་པ་རེ་ལུ་ ལས་གཡོག་མཐོ་ཤོས་ (MaxJobsPerUser)</b>\n"
+"<p>\n"
+"MaxJobsPerUser བཀོད་རྒྱ་གིས་ ལག་ལེན་པ་རེ་བཞིན་ལུ་འབད་བཅུག་པའི་ <i>ཤུགས་ལྡན་</i>\n"
+"ལས་གཡོག་གི་གྱང་ཁ་མཐོ་ཤོས་ཚུ་ཚད་འཛིན་འབདཝ་ཨིན། ཚར་གཅིག་ ལག་ལེན་པ་གིས་ ཚད་ལུ་ལྷོད་ད་ལུ་ \n"
+"ཤུགས་ལྡན་གྱི་ལས་གཡོག་ཚུ་ མཇུག་མ་བསྡུ་ཚུན་ བཀག་མ་བཞག་ཚུན་ བར་བཤོལ་མ་འབད་ཚུན་ ཡང་ན་ ཆ་མེད་མ་གཏང་ཚུན་ \n"
+"ལས་གཡོག་གསརཔ་འདི་ དང་ལེན་སྤངསམ་ཨིན།</p>\n"
+"<p>\n"
+"མཐོ་ཤོས་རང་ ༠ ལུ་ གཞི་སྒྲིག་འབད་བ་ཅིན་ འ་ནི་ ལས་འགན་འདི་ ལྕོགས་མིན་བཟོཝ་ཨིན།\n"
+"སྔོན་སྒྲིག་འདི་ ༠ ཨིན (ཚད་མེདཔ་)།\n"
+"</p>\n"
+
+#: cupsd.conf.template.cpp:699
+msgid ""
+"<b>Max jobs per printer (MaxJobsPerPrinter)</b>\n"
+"<p>\n"
+"The MaxJobsPerPrinter directive controls the maximum number of <i>active</i>\n"
+"jobs that are allowed for each printer or class. Once a printer or class\n"
+"reaches the limit, new jobs will be rejected until one of the active jobs\n"
+"is completed, stopped, aborted, or canceled.</p>\n"
+"<p>\n"
+"Setting the maximum to 0 disables this functionality.\n"
+"Default is 0 (no limit).\n"
+"</p>\n"
+msgstr ""
+"<b>དཔར་བསྐྲུན་རེ་བཞིན་ལུ་ ལས་གཡོག་མཐོ་ཤོས་ (MaxJobsPerPrinter)</b>\n"
+"<p>\n"
+"MaxJobsPerPrinter  བཀོད་རྒྱ་གིས་ དཔར་བསྐྲུན་ཡང་ན་ དབྱེ་རིགས་ རེ་བཞིན་ལུ་འབད་བཅུག་པའི་ <i>ཤུགས་ལྡན་</i>\n"
+"ལས་གཡོག་གི་གྱང་ཁ་མཐོ་ཤོས་ཚུ་ཚད་འཛིན་འབདཝ་ཨིན། ཚར་གཅིག་ དཔར་བསྐྲུན་ཡང་ན་ དབྱེ་རིགས་གིས་ ཚད་ལུ་ལྷོད་ད་ལུ་ \n"
+"ཤུགས་ལྡན་གྱི་ལས་གཡོག་ཚུ་ མཇུག་མ་བསྡུ་ཚུན་ བཀག་མ་བཞག་ཚུན་ བར་བཤོལ་མ་འབད་ཚུན་ ཡང་ན་ ཆ་མེད་མ་གཏང་ཚུན་ \n"
+"ལས་གཡོག་གསརཔ་འདི་ དང་ལེན་སྤངསམ་ཨིན</p>\n"
+"<p>\n"
+"མཐོ་ཤོས་རང་ ༠ ལུ་ གཞི་སྒྲིག་འབད་བ་ཅིན་ འ་ནི་ ལས་འགན་འདི་ ལྕོགས་མིན་བཟོཝ་ཨིན།\n"
+"སྔོན་སྒྲིག་འདི་ ༠ ཨིན (ཚད་མེདཔ་)།\n"
+"</p>\n"
+
+#: cupsd.conf.template.cpp:711
+msgid ""
+"<b>Port</b>\n"
+"<p>\n"
+"The port value that the CUPS daemon is listening to. Default is 631.</p>\n"
+msgstr ""
+"<b>འདྲེན་ལམ་</b>\n"
+"<p>\n"
+"CUPS ཌེ་མཱོན་ གིས་ཉན་ཡོད་པའི་ འདྲེན་ལམ་གནས་གོང་འདི། སྔོན་སྒྲིག་འདི་ ༦༣༡ ཨིན།</p>\n"
+
+#: cupsd.conf.template.cpp:716
+msgid ""
+"<b>Address</b>\n"
+"<p>\n"
+"The address that the CUPS daemon is listening at. Leave it empty or use\n"
+"an asterisk (*) to specify a port value on the entire subnetwork.</p>\n"
+msgstr ""
+"<b>ཁ་བྱང་</b>\n"
+"<p>\n"
+"CUPS ཌེ་མཱོན་གིས་ཉན་ཡོད་པའི་ཁ་བྱང་འདི། ཡང་ན་ སྟོངམ་སྦེ་བཞག་ ཡང་ན་ \n"
+"སྐར་རྟགས་ (*)གཅིག་ ཡན་ལག་ཡོངས་འབྲེན་ཧྲིལ་བུ་གུ་ འདྲེན་ལམ་གནས་གོང་གཅིག་  གསལ་བཀོད་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ།</p>\n"
+
+#: cupsd.conf.template.cpp:722
+msgid ""
+"<p>Check this box if you want to use SSL encryption with this address/port.\n"
+"</p>\n"
+msgstr ""
+"<p>ཁྱོད་ SSL གསང་བཟོ་ འདི་ འ་ནི་ཁ་བྱང་/འདྲེན་ལམ་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་ནི་ཨིན་པ་ཅིན་ འདི་ སྒྲོམ་འདི་ཨིན་རྟགས་བཀལ།\n"
+"</p>\n"
+
+#: cupsdbrowsingpage.cpp:36
+msgid "Browsing"
+msgstr "བརྡ་འཚོལ་འབད་དོ་"
+
+#: cupsdbrowsingpage.cpp:37
+msgid "Browsing Settings"
+msgstr "བརྡ་འཚོལ་འབད་ནིའི་སྒྲིག་སྟངས་ཚུ་"
+
+#: cupsdbrowsingpage.cpp:43
+msgid "Use browsing"
+msgstr "བརྡ་འཚོལ་འབད་ནི་འདི་ལག་ལེན་འཐབ་"
+
+#: cupsdbrowsingpage.cpp:48
+msgid "Implicit classes"
+msgstr "བསམ་པའི་དབྱེ་རིགས་ཚུ་"
+
+#: cupsdbrowsingpage.cpp:49
+msgid "Hide implicit members"
+msgstr "བསམ་པའི་འཐུས་མི་ཚུ་ སྦ་བཞག་"
+
+#: cupsdbrowsingpage.cpp:50
+msgid "Use short names"
+msgstr "མིང་ཐུང་ཀུ་ཚུ་ལག་ལེན་འཐབ་"
+
+#: cupsdbrowsingpage.cpp:51
+msgid "Use \"any\" classes"
+msgstr "དབྱེ་རིགས་ \"ག་སྦེ་རུང་\"སྦེ་རུང་ལག་ལེན་འཐབ་"
+
+#: cupsdbrowsingpage.cpp:53
+#: locationdialog.cpp:71
+msgid "Allow, Deny"
+msgstr "བཅུག་ནི་ མི་བཅུག་"
+
+#: cupsdbrowsingpage.cpp:54
+#: locationdialog.cpp:72
+msgid "Deny, Allow"
+msgstr "མི་བཅུག་ནི་ བཅུག་ནི་"
+
+#: cupsdbrowsingpage.cpp:60
+#: cupsdbrowsingpage.cpp:63
+#: cupsdnetworkpage.cpp:52
+#: cupsdnetworkpage.cpp:60
+msgid " sec"
+msgstr "སྐར་ཆ་"
+
+#: cupsdbrowsingpage.cpp:65
+msgid "Browse port:"
+msgstr "འདྲེན་ལམ་བརྡ་འཚོལ་འབད་ནི:"
+
+#: cupsdbrowsingpage.cpp:66
+msgid "Browse interval:"
+msgstr "བར་མཚམས་བརྡ་འཚོལ་འབད་:"
+
+#: cupsdbrowsingpage.cpp:67
+msgid "Browse timeout:"
+msgstr "ངལ་མཚམས་བརྡ་འཚོལ་འབད་ནི:"
+
+#: cupsdbrowsingpage.cpp:68
+msgid "Browse addresses:"
+msgstr "ཁ་བྱང་ཚུ་བརྡ་འཚོལ་འབད་ནི:"
+
+#: cupsdbrowsingpage.cpp:69
+msgid "Browse order:"
+msgstr "གོ་རིམ་བརྡ་འཚོལ་འབད:"
+
+#: cupsdbrowsingpage.cpp:70
+msgid "Browse options:"
+msgstr "གདམ་ཁ་ཚུ་བརྡ་འཚོལ་འབད་:"
+
+#: cupsdconf.cpp:815
+#: cupsdconf.cpp:838
+#: cupsdconf.cpp:854
+msgid "Root"
+msgstr "རྩ་བ་"
+
+#: cupsdconf.cpp:815
+#: cupsdconf.cpp:835
+#: cupsdconf.cpp:856
+msgid "All printers"
+msgstr "དཔར་འཕྲུལ་ཚུ་ག་ར་"
+
+#: cupsdconf.cpp:815
+#: cupsdconf.cpp:836
+#: cupsdconf.cpp:857
+msgid "All classes"
+msgstr "དབྱེ་རིགས་ཚུ་ཆ་མཉམ་"
+
+#: cupsdconf.cpp:815
+#: cupsdconf.cpp:837
+#: cupsdconf.cpp:859
+msgid "Print jobs"
+msgstr "ལས་གཡོག་ཚུ་དཔར་བསྐྲུན་འབད་ནི་"
+
+#: cupsdconf.cpp:816
+#: cupsdconf.cpp:834
+#: cupsdconf.cpp:855
+msgid "Administration"
+msgstr "བདག་སྐྱོང་"
+
+#: cupsdconf.cpp:817
+#: cupsdconf.cpp:844
+#: cupsdconf.cpp:847
+#: cupsdconf.cpp:868
+msgid "Class"
+msgstr "དབྱེ་རིགས་"
+
+#: cupsdconf.cpp:818
+#: cupsdconf.cpp:839
+#: cupsdconf.cpp:842
+#: cupsdconf.cpp:862
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ་"
+
+#: cupsddialog.cpp:118
+msgid "CUPS Server Configuration"
+msgstr "CUPS སར་བར་རིམ་སྒྲིག་"
+
+#: cupsddialog.cpp:120
+msgid "Short Help"
+msgstr "གྲོགས་རམ་ཐུང་ཀུ་"
+
+#: cupsddialog.cpp:180
+msgid "Error while loading configuration file."
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོན་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: cupsddialog.cpp:180
+#: cupsddialog.cpp:201
+#: cupsddialog.cpp:266
+#: cupsddialog.cpp:322
+msgid "CUPS Configuration Error"
+msgstr "CUPS རིམ་སྒྲིག་འཛོལ་བ་"
+
+#: cupsddialog.cpp:189
+msgid "Some options were not recognized by this configuration tool. They will be left untouched and you won't be able to change them."
+msgstr "གདམ་ཁ་ལ་ལོ་ཅིག་ རིམ་སྒྲིག་ལག་ཆས་འདི་གིས་ ངོ་མ་ཤེས། དེ་ཚུ་ འབྲེལ་བ་མེད་པར་བཞགཔ་ལས་ ཁྱོད་ཀྱིས་ དེ་ཚུ་ བསྒྱུར་བཅོས་འབད་མི་ཚུགས།"
+
+#: cupsddialog.cpp:191
+msgid "Unrecognized Options"
+msgstr "ངོ་མ་ཤེས་པའི་གདམ་ཁ་ཚུ་"
+
+#: cupsddialog.cpp:213
+msgid "Unable to find a running CUPS server"
+msgstr "གཡོག་བཀོལ་ཡོད་པའི་ CUPS སར་བར་གཅིག་ཡང་འཚོལ་མ་ཚུགས་"
+
+#: cupsddialog.cpp:226
+#, qt-format
+msgid "Unable to restart CUPS server (pid = %1)"
+msgstr "CUPS སར་བར་(pid = %1) ལོག་འགོ་བཙུགས་མ་ཚུགས་"
+
+#: cupsddialog.cpp:247
+msgid "Unable to retrieve configuration file from the CUPS server. You probably don't have the access permissions to perform this operation."
+msgstr "CUPS སར་བར་ལས་ རིམ་སྒྲིག་ཡིག་སྣོད་འདི་ སླར་འདྲེན་འབད་མི་ཚུགས། ཁྱོད་ལུ་ བཀོལ་སྤྱོད་འདི་ ལཱ་འགན་འགྲུབ་ནིའི་དོན་ལུ་ གནང་བ་འཛུལ་སྤྱོད་འབད་མེདཔ།"
+
+#: cupsddialog.cpp:257
+#, qt-format
+msgid "Internal error: file '%1' not readable/writable."
+msgstr "ནང་འཁོད་འཛོལ་བ་: ཡིག་སྣོད་ '%1' ལྷབ་ནི་/འབྲི་མི་བཏུབ་པས།"
+
+#: cupsddialog.cpp:260
+#, qt-format
+msgid "Internal error: empty file '%1'."
+msgstr "ནང་འཁོད་འཛོལ་བ་: ཡིག་སྣོད་ '%1' སྟོངམ་བཏོན།"
+
+#: cupsddialog.cpp:278
+msgid "The config file has not been uploaded to the CUPS server. The daemon will not be restarted."
+msgstr "CUPS སར་བར་འདི་ལུ་ རིམ་སྒྲིག་ཡིག་སྣོད་འདི་ སྐྱེལ་བཙུགས་འབད་མེདཔ། ཌེ་མཱོན་འདི་ལོག་འགོ་མི་བཙུགས།"
+
+#: cupsddialog.cpp:282
+msgid "Unable to upload the configuration file to CUPS server. You probably don't have the access permissions to perform this operation."
+msgstr "CUPS སར་བར་ལུ་ རིམ་སྒྲིག་ཡིག་སྣོད་འདི་ སྐྱེལ་བཙུགས་འབད་མ་ཚུགས། ཁྱོད་ལུ་ བཀོལ་སྤྱོད་འདི་ ལཱ་འགན་འགྲུབ་ནིའི་དོན་ལུ་ གནང་བ་འཛུལ་སྤྱོད་འབད་མེདཔ།"
+
+#: cupsddialog.cpp:285
+msgid "CUPS configuration error"
+msgstr "ཀཔསི་རིམ་སྒྲིག་ལུ་འཛོལ་བ་"
+
+#: cupsddialog.cpp:317
+#, qt-format
+msgid "Unable to write configuration file %1"
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་"
+
+#: cupsddirpage.cpp:33
+msgid "Folders"
+msgstr "སྣོད་འཛིན་ཚུ་"
+
+#: cupsddirpage.cpp:34
+msgid "Folders Settings"
+msgstr "གནོད་འཛིན་ཚུ་གཞི་སྒྲིག་འབད་ནི་"
+
+#: cupsddirpage.cpp:45
+msgid "Data folder:"
+msgstr "གནད་སྡུད་ཀྱི་སྣོད་འཛིན་ཚུ་:"
+
+#: cupsddirpage.cpp:46
+msgid "Document folder:"
+msgstr "ཡིག་ཆའི་སྣོད་འཛིན:"
+
+#: cupsddirpage.cpp:47
+msgid "Font path:"
+msgstr "ཡིག་གཟུགས་ཀྱི་འགྲུལ་ལམ:"
+
+#: cupsddirpage.cpp:48
+msgid "Request folder:"
+msgstr "སྣོད་འཛིན་ཞུ་བ་:"
+
+#: cupsddirpage.cpp:49
+msgid "Server binaries:"
+msgstr "སར་བར་ཟུང་ལྡན་ཚུ་:"
+
+#: cupsddirpage.cpp:50
+msgid "Server files:"
+msgstr "སར་བར་གྱི་ཡིག་སྣོད་ཚུ་:"
+
+#: cupsddirpage.cpp:51
+msgid "Temporary files:"
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ཚུ་:"
+
+#: cupsdfilterpage.cpp:35
+msgid "Filter"
+msgstr "ཚགས་མ་"
+
+#: cupsdfilterpage.cpp:36
+msgid "Filter Settings"
+msgstr "ཚགས་མའི་སྒྲིག་སྟངས་ཚུ་"
+
+#: cupsdfilterpage.cpp:45
+#: cupsdjobspage.cpp:46
+#: cupsdjobspage.cpp:48
+#: cupsdjobspage.cpp:51
+#: cupsdnetworkpage.cpp:51
+#: cupsdnetworkpage.cpp:59
+#: sizewidget.cpp:41
+msgid "Unlimited"
+msgstr "ཚད་མེདཔ་"
+
+#: cupsdfilterpage.cpp:48
+msgid "User:"
+msgstr "ལག་ལེན་པ་:"
+
+#: cupsdfilterpage.cpp:49
+msgid "Group:"
+msgstr "སྡེ་ཚན་:"
+
+#: cupsdfilterpage.cpp:50
+msgid "RIP cache:"
+msgstr "RIP འདྲ་མཛོད་:"
+
+#: cupsdfilterpage.cpp:51
+msgid "Filter limit:"
+msgstr "ཚགས་མའི་ཚད་:"
+
+#: cupsdjobspage.cpp:33
+msgid "Jobs"
+msgstr "ལས་གཡོག་ཚུ་"
+
+#: cupsdjobspage.cpp:34
+msgid "Print Jobs Settings"
+msgstr "ལས་གཡོག་ཚུ་དཔར་བསྐྲུན་འབད་ནིའི་སྒྲིག་སྟངས་ཚུ་"
+
+#: cupsdjobspage.cpp:37
+msgid "Preserve job history"
+msgstr "ལས་གཡོག་གི་ལོ་རྒྱུས་ཚུ་ཉམས་སྲུངས་འབད་ནི་"
+
+#: cupsdjobspage.cpp:38
+msgid "Preserve job files"
+msgstr "ལས་གཡོག་གི་ཡིག་སྣོད་ཚུ་ཉམས་སྲུངས་འབད་ནི་"
+
+#: cupsdjobspage.cpp:39
+msgid "Auto purge jobs"
+msgstr "རང་བཞིན་ཕྱིར་བསྐྲད་ལས་གཡོག་ཚུ་"
+
+#: cupsdjobspage.cpp:54
+msgid "Max jobs:"
+msgstr "ལས་གཡོག་མཐོ་ཤོས་ཚུ་:"
+
+#: cupsdjobspage.cpp:55
+msgid "Max jobs per printer:"
+msgstr "དཔར་བསྐྲུན་རེ་ལུ་ ལས་གཡོག་མཐོ་ཤོས་ཚུ་:"
+
+#: cupsdjobspage.cpp:56
+msgid "Max jobs per user:"
+msgstr "ལག་ལེན་པ་རེ་ལུ་ལས་གཡོག་མཐོ་ཤོས་ཚུ་:"
+
+#: cupsdlogpage.cpp:35
+msgid "Log"
+msgstr "དྲན་དེབ་"
+
+#: cupsdlogpage.cpp:36
+msgid "Log Settings"
+msgstr "དྲན་དེབ་ཀྱི་སྒྲིགས་སྟངས་ཚུ་"
+
+#: cupsdlogpage.cpp:45
+msgid "Detailed Debugging"
+msgstr "རྒྱས་བཤད་འབད་ཡོད་མི་རྐྱེན་སེལ་འབད་དོ་"
+
+#: cupsdlogpage.cpp:46
+msgid "Debug Information"
+msgstr "རྐྱེན་སེལ་བརྡ་དོན་"
+
+#: cupsdlogpage.cpp:47
+msgid "General Information"
+msgstr "སྤྱིར་གཏང་གི་བརྡ་དོན་"
+
+#: cupsdlogpage.cpp:48
+msgid "Warnings"
+msgstr "ཉེན་བརྡ་ཚུ་"
+
+#: cupsdlogpage.cpp:49
+msgid "Errors"
+msgstr "འཛོལ་བ་ཚུ་"
+
+#: cupsdlogpage.cpp:50
+msgid "No Logging"
+msgstr "དྲན་དེབ་མེད་"
+
+#: cupsdlogpage.cpp:57
+msgid "Access log:"
+msgstr "འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་:"
+
+#: cupsdlogpage.cpp:58
+msgid "Error log:"
+msgstr "དྲན་དེབ་འཛོལ་བ་:"
+
+#: cupsdlogpage.cpp:59
+msgid "Page log:"
+msgstr "ཤོག་ལེབ་དྲན་དེབ་:"
+
+#: cupsdlogpage.cpp:60
+msgid "Max log size:"
+msgstr "དྲན་དེབ་ཀྱི་ཚད་མཐོ་ཤོས་:"
+
+#: cupsdlogpage.cpp:61
+msgid "Log level:"
+msgstr "དྲན་དེབ་ཀྱི་ཁ་ཡིག:"
+
+#: cupsdnetworkpage.cpp:37
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ་"
+
+#: cupsdnetworkpage.cpp:38
+msgid "Network Settings"
+msgstr "ཡོངས་འབྲེལ་གྱི་སྒྲིག་སྟངས་ཚུ་"
+
+#: cupsdnetworkpage.cpp:41
+msgid "Keep alive"
+msgstr "གསོན་པོར་བཞག་"
+
+#: cupsdnetworkpage.cpp:62
+msgid "Off"
+msgstr "ཨོཕ་"
+
+#: cupsdnetworkpage.cpp:63
+msgid "On"
+msgstr "ཨཱོན་"
+
+#: cupsdnetworkpage.cpp:64
+msgid "Double"
+msgstr "ལོག་བལྟབ་"
+
+#: cupsdnetworkpage.cpp:66
+msgid "Hostname lookups:"
+msgstr "ཧོསཊི་ནེམ་བལྟ་བ་ཚུ་:"
+
+#: cupsdnetworkpage.cpp:67
+msgid "Keep-alive timeout:"
+msgstr "གསོན་པོར་བཞག་པའི་ངལ་མཚམས་:"
+
+#: cupsdnetworkpage.cpp:68
+msgid "Max clients:"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་མཐོ་ཤོས་:"
+
+#: cupsdnetworkpage.cpp:69
+msgid "Max request size:"
+msgstr "ཞུ་བའི་ཚད་མཐོ་ཤོས་:"
+
+#: cupsdnetworkpage.cpp:70
+msgid "Client timeout:"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་ངལ་མཚམས་:"
+
+#: cupsdnetworkpage.cpp:71
+msgid "Listen to:"
+msgstr "ལུ་ཉན་:"
+
+#: cupsdsecuritypage.cpp:37
+msgid "Security"
+msgstr "སྲུང་སྐྱོབ་"
+
+#: cupsdsecuritypage.cpp:38
+msgid "Security Settings"
+msgstr "སྲུང་སྐྱོབ་ཀྱི་སྒྲིག་སྟངས་ཚུ་"
+
+#: cupsdsecuritypage.cpp:47
+msgid "Remote root user:"
+msgstr "ཐག་རིང་རྩ་བ་ལག་ལེན་པ་:"
+
+#: cupsdsecuritypage.cpp:48
+msgid "System group:"
+msgstr "རིམ་ལུགས་སྡེ་ཚན་:"
+
+#: cupsdsecuritypage.cpp:49
+msgid "Encryption certificate:"
+msgstr "གསང་བཟོའི་ལག་ཁྱེར་:"
+
+#: cupsdsecuritypage.cpp:50
+msgid "Encryption key:"
+msgstr "གསང་བཟོའི་ལྡེ་མིག་:"
+
+#: cupsdsecuritypage.cpp:51
+msgid "Locations:"
+msgstr "གནས་ཁོངས་ཚུ་:"
+
+#: cupsdsecuritypage.cpp:136
+msgid "This location is already defined. Do you want to replace the existing one?"
+msgstr "གནས་ཁོངས་འདི་ ཧེ་མ་ལས་ངོས་འཛིན་འབད་དེ་ཡོད། ཡོད་བཞིན་པའི་གནས་ཁོངས་འདི་གུ་ཚབ་བཙུགས་འབད་ནི་ཨིན་ན?"
+
+#: cupsdsecuritypage.cpp:136
+msgid "Replace"
+msgstr "ཚབ་བཙུགས་"
+
+#: cupsdserverpage.cpp:42
+msgid "Server"
+msgstr "སར་བར་"
+
+#: cupsdserverpage.cpp:43
+msgid "Server Settings"
+msgstr "སར་བར་གྱི་སྒྲིག་སྟངས་ཚུ་"
+
+#: cupsdserverpage.cpp:54
+msgid "Allow overrides"
+msgstr "མེདཔ་གཏང་བཅུག་"
+
+#: cupsdserverpage.cpp:56
+#: locationdialog.cpp:54
+#: locationdialog.cpp:58
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: cupsdserverpage.cpp:57
+msgid "Classified"
+msgstr "དབྱེ་བ་བཟོ་ཡོདཔ་"
+
+#: cupsdserverpage.cpp:58
+msgid "Confidential"
+msgstr "གསང་བའི་"
+
+#: cupsdserverpage.cpp:59
+msgid "Secret"
+msgstr "གསང་བ་"
+
+#: cupsdserverpage.cpp:60
+msgid "Top Secret"
+msgstr "ཧ་ཅང་གིས་གསང་བའི་"
+
+#: cupsdserverpage.cpp:61
+msgid "Unclassified"
+msgstr "དབྱེ་བ་མ་བཟོ་བའི་"
+
+#: cupsdserverpage.cpp:62
+msgid "Other"
+msgstr "གཞན་"
+
+#: cupsdserverpage.cpp:82
+msgid "Server name:"
+msgstr "སར་བར་གྱི་མིང་:"
+
+#: cupsdserverpage.cpp:83
+msgid "Server administrator:"
+msgstr "སར་བར་གྱི་བདག་སྐྱོང་པ་:"
+
+#: cupsdserverpage.cpp:84
+msgid "Classification:"
+msgstr "དབྱེ་བཟོ་:"
+
+#: cupsdserverpage.cpp:85
+msgid "Default character set:"
+msgstr "སྔོན་སྒྲིག་ཡིག་འབྲུ་ཆ་ཚན་:"
+
+#: cupsdserverpage.cpp:86
+msgid "Default language:"
+msgstr "སྔོན་སྒྲིག་སྐད་ཡིག་:"
+
+#: cupsdserverpage.cpp:87
+msgid "Printcap file:"
+msgstr "པིརིནཊི་ཀཱེཔ་ཡིག་སྣོད་:"
+
+#: cupsdserverpage.cpp:88
+msgid "Printcap format:"
+msgstr "པིརིནཊི་ཀཱེཔ་རྩ་སྒྲིག་:"
+
+#: cupsdsplash.cpp:31
+msgid "Welcome to the CUPS Server Configuration Tool"
+msgstr "ཀཔསི་སར་བར་རིམ་སྒྲིག་ལག་ཆས་འདི་ནང་ལུ་བྱོན་པ་ལེགས་སོ་"
+
+#: cupsdsplash.cpp:32
+msgid "Welcome"
+msgstr "བྱོན་པ་ལེགས་སོ་"
+
+#: cupsdsplash.cpp:54
+msgid "<p>This tool will help you to configure graphically the server of the CUPS printing system. The available options are grouped into sets of related topics and can be accessed quickly through the icon view located on the left. Each option has a default value that is shown if it has not been previously set. This default value should be OK in most cases.</p><br><p>You can access a short help message for each option using either the '?' button in the the title bar, or the button at the bottom of this dialog.</p>"
+msgstr "<p>དེ་ལག་ཆས་ཀྱིས་ ཁྱོད་ལུ་ CUPS དཔར་བསྐྲུན་རིམ་ལུགས་ཀྱི་སར་བར་ འདི་ཚད་རིག་གིས་སྦེ་རིམ་སྒྲིག་འབད་ནི་ལུ་ གྲོགས་རམ་འབདཝ་ཨིན། ཐོབ་ཚུགས་པའི་གདམ་ཁ་ཚུ་ འབྲེལ་བ་ཡོད་པའི་གནད་དོན་གྱི་ཆ་ཚན་ནང་ན་ལུ་ སྡ་ཚན་བཟོ་བཞག་ཡོདཔ་ལས་ གཡོན་ལུ་ངོས་དཔར་བལྟ་ནི་ཡོད་མི་ལས་བརྒྱུད་དེ་ གང་མགྱོགས་འཛུལ་སྤྱོད་འབད་ཚུགསཔ་ཨིན། གདམ་ཁ་རེ་བཞིན་ལུ་ ཧེ་མ་གཞི་སྒྲིག་འབད་མེད་པ་ཅིན་ སྔོན་སྒྲིག་གནས་གོང་འདི་སྟོན་བཞག་འོངམ་ཨིན། འ་ནི་ སྔོན་སྒྲིག་གནས་གོང་འདི་ གནད་དོན་མང་ཤོས་ཅིག་ནང་ བཏུབ་ སྦེ་འོང་དགོ </p><br><p> སྡེ་ཚན་རེ་བཞིན་གྱི་དོན་ལུ་  '?' ཨེབ་རྟ་ མགོ་མིང་ཕྲ་རིང་གུ་ ཡང་ན་ ཨེབ་རྟ་འདི་ འ་ནི་ ཌའི་ལོག་སྒྲོམ་གྱི་འོག་ལུ་ལག་ལེན་འཐབ་སྟེ་ ཁྱོད་ཀྱིས་ འཕྲིན་དོན་ཐུང་ཀུའི་གྲོགས་རམ་ཚུ་འཛུལ་སྤྱོད་འབད་ཆོག</p>"
+
+#: editlist.cpp:33
+msgid "Add..."
+msgstr "ཁ་སྐོང་..."
+
+#: editlist.cpp:34
+msgid "Edit..."
+msgstr "ཞུན་དག་"
+
+#: editlist.cpp:35
+msgid "Delete"
+msgstr "བཏོན་གཏང་"
+
+#: editlist.cpp:36
+msgid "Default List"
+msgstr "སྔོན་སྒྲིག་གི་ཐོ་ཡིག་"
+
+#: locationdialog.cpp:55
+msgid "Basic"
+msgstr "གཞི་རིམ་"
+
+#: locationdialog.cpp:56
+msgid "Digest"
+msgstr "ཌེའི་ཇེསིཊི་"
+
+#: locationdialog.cpp:59
+msgid "User"
+msgstr "ལག་ལེན་པ་"
+
+#: locationdialog.cpp:60
+msgid "System"
+msgstr "རིམ་ལུགས"
+
+#: locationdialog.cpp:61
+msgid "Group"
+msgstr "སྡེ་ཚན་"
+
+#: locationdialog.cpp:63
+msgid "Always"
+msgstr "ཨ་རྟག་རང་"
+
+#: locationdialog.cpp:64
+msgid "Never"
+msgstr "ནམ་ཡང་"
+
+#: locationdialog.cpp:65
+msgid "Required"
+msgstr "དགོས་མཁོ་ཡོདཔ་"
+
+#: locationdialog.cpp:66
+msgid "If Requested"
+msgstr "ཞུ་བ་འབད་ཡོད་པ་ཅིན་"
+
+#: locationdialog.cpp:68
+msgid "All"
+msgstr "ཆ་མཉམ་"
+
+#: locationdialog.cpp:69
+msgid "Any"
+msgstr "གང་རུང་"
+
+#: locationdialog.cpp:77
+msgid "Resource:"
+msgstr "གང་རུང་:"
+
+#: locationdialog.cpp:78
+msgid "Authentication:"
+msgstr "བདེན་བཤད་:"
+
+#: locationdialog.cpp:79
+msgid "Class:"
+msgstr "དབྱེ་རིགས་:"
+
+#: locationdialog.cpp:80
+msgid "Names:"
+msgstr "མིང་ཚུ་:"
+
+#: locationdialog.cpp:81
+msgid "Encryption:"
+msgstr "གསང་བཟོ་:"
+
+#: locationdialog.cpp:82
+msgid "Satisfy:"
+msgstr "བསམ་པ་རྫོགས་:"
+
+#: locationdialog.cpp:83
+msgid "ACL order:"
+msgstr "ACL གོ་རིམ་:"
+
+#: locationdialog.cpp:84
+msgid "ACL addresses:"
+msgstr "ACL ཁ་བྱང་ཚུ་:"
+
+#: locationdialog.cpp:107
+msgid "Location"
+msgstr "གནས་ཁོངས་"
+
+#: portdialog.cpp:48
+msgid "Use SSL encryption"
+msgstr "SSL གསང་བཟོ་ འདི་ལག་ལེན་འཐབ་"
+
+#: portdialog.cpp:51
+msgid "Port:"
+msgstr "འདྲེན་ལམ་"
+
+#: portdialog.cpp:66
+msgid "Listen To"
+msgstr "ལུ་ཉན་"
+
+#: sizewidget.cpp:36
+msgid "KB"
+msgstr "KB"
+
+#: sizewidget.cpp:37
+msgid "MB"
+msgstr "MB"
+
+#: sizewidget.cpp:38
+msgid "GB"
+msgstr "GB"
+
+#: sizewidget.cpp:39
+msgid "Tiles"
+msgstr "མགོ་མིང་ཚུ་"
+

@@ -1,0 +1,72 @@
+# search and filter strings
+# extracted from dz-BT_orig/mail/chrome/messenger/search.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: search.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-18 09:21+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: searchCustomize
+msgid "\"Customize Headers..\""
+msgstr "\"མགོ་ཡིག་ཚུ་སྲོལ་སྒྲིག་འབད་..\""
+
+# these are the fields that get inserted in the search line
+# for "and" searches, this looks like:
+#
+# searchAnd0 <attribute> searchAnd1 <operator> searchAnd2 <value> searchAnd4
+#
+# for example, in english this looks like:
+# and the [Sender ] [doesn't contain] [John]
+#
+# TODO: need to special-case the first line (filterindex==0)
+#
+# filter stuff
+#: searchingMessage
+msgid "Searching..."
+msgstr "འཚོལ་ཞིབ་འབད་དོ་་་་"
+
+#: searchSuccessMessage
+msgid "1 match found"
+msgstr "མཐུན་སྒྲིག་གཅིག་ཐོབ་ཅི་"
+
+#: searchSuccessMessages
+msgid "%S matches found"
+msgstr "མཐུན་སྒྲིག་%Sཐོབ་ཅི་"
+
+#: searchFailureMessage
+msgid "No matches found"
+msgstr "མཐུན་སྒྲིག་གཅིག་ཡང་མ་ཐོབ་"
+
+#: labelForStopButton
+msgid "Stop"
+msgstr "བཀག་"
+
+#: labelForSearchButton
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་འབད་"
+
+#: accesskeyForStopButton
+#: accesskeyForSearchButton
+msgid "S"
+msgstr "S"
+
+#: moreButtonTooltipText
+msgid "Add a new rule"
+msgstr "ལམ་ལུགས་གསརཔ་ཅིག་ ཁ་སྐོང་རྐྱབས་"
+
+#: lessButtonTooltipText
+msgid "Remove this rule"
+msgstr "ལམ་ལུགས་འདི་རྩ་བསྐྲད་གཏང་"
+

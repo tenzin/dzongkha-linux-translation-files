@@ -1,0 +1,119 @@
+# extracted from connectivity/source/resource.oo
+msgid ""
+msgstr ""
+"Project-Id-Version: resource.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-21 17:36+0200\n"
+"PO-Revision-Date: 2007-08-17 10:53+0530\n"
+"Last-Translator: yumkee lhamo <yumkeyl08@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyeleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 0.8rc5\n"
+"X-Accelerator-Marker: ~\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: conn_shared_res.src#STR_NO_MOZIILA_ADDRESSBOOK.string.text
+msgid "No Mozilla Addressbook Directories Exist."
+msgstr "མོ་ཛིལ་ལ་ཁ་བྱང་ཀི་དེབ་གཅིག་ཡང་མེད།"
+
+#: conn_shared_res.src#STR_NO_THUNDERBIRD_ADDRESSBOOK.string.text
+msgid "No Thunderbird Addressbook Directories Exist."
+msgstr "ཐཱན་ཌར་བཌི་ཁ་བྱང་ཀི་དེབ་གཅིག་ཡང་མེདཔ་ཨིན།"
+
+#: conn_shared_res.src#STR_NO_OUTLOOKEXPRESS_ADDRESSBOOK.string.text
+msgid "No Outlook Express Addressbook Exists."
+msgstr "ཨའུཊི་ལུཀ་ ཨེགསི་པེརེསི་ ཁ་བྱང་ཀི་དེབ་གཅིག་ཡང་མེདཔ་ཨིན།"
+
+#: conn_shared_res.src#STR_NO_OUTLOOK_ADDRESSBOOK.string.text
+msgid "No Outlook (MAPI) Addressbook Exists."
+msgstr "སྣང་ཚུལ་ (ཨེམ་ཨེ་པི་ཨའི་) ཁ་བྱང་ཀི་དེབ་གཅིག་ཡང་མེདཔ་ཨིན།"
+
+#: conn_shared_res.src#STR_COULDNOTCONNECT_TO_LDAP.string.text
+msgid "Unable to connect to LDAP Server."
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་འདི་ལུ་མཐུད་མ་ཚུགས།"
+
+#: conn_shared_res.src#STR_NO_TABLE_CREATION_SUPPORT.string.text
+msgid "Creating tables is not supported for this kind of address books."
+msgstr "ཐིག་ཁྲམ་ཚུ་གསར་བསྐྲུན་འབད་ནི་འདི་ འ་ནི་ཁ་བྱང་ཀི་དེབ་ཀྱི་དབྱེ་བ་བཟུམ་གྱི་དོན་ལུ་ རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: conn_shared_res.src#STR_MOZILLA_IS_RUNNING.string.text
+msgid "Cannot create new address books while Mozilla is running."
+msgstr "མོ་ཛིལ་ལ་འདི་གཡོག་བཀོལ་ཡོད་པའི་སྐབས་ ཁ་བྱང་ཀི་དེབ་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: conn_shared_res.src#STR_COULD_NOT_RETRIEVE_AB_ENTRY.string.text
+msgid "An address book entry could not be retrieved, an unknown error occured."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཅིག་སླར་འདྲེན་འབད་མི་ཚུགས་ མ་ཤེས་པའི་འཛོལ་བ་ཅིན་འབྱུང་ཡོད།"
+
+#: conn_shared_res.src#STR_COULD_NOT_GET_DIRECTORY_NAME.string.text
+msgid "An address book directory name could not be retrieved, an unknown error occured."
+msgstr "ཁ་བྱང་ཀི་དེབ་སྣོད་ཐོ་མིང་ཅིག་ སླར་འདྲེན་འབད་མི་ཚུགས་ མ་ཤེས་པའི་འཛོལ་བ་ཅིག་འབྱུང་ཡོད།"
+
+#: conn_shared_res.src#STR_TIMEOUT_WAITING.string.text
+msgid "Timed out while waiting for the result."
+msgstr "གྲུབ་འབྲས་འདི་ལུ་བསྒུག་པའི་སྐབས་ ངལ་མཚམས་ལུས་ཡོདཔ།"
+
+#: conn_shared_res.src#STR_ERR_EXECUTING_QUERY.string.text
+msgid "An error occured while executing the query."
+msgstr "འདྲི་དཔྱད་འདི་ལག་ལེན་འཐབ་པའི་སྐབས་ འཛོལ་བ་ཅིག་འབྱུང་ཡོད།"
+
+#: conn_shared_res.src#STR_MOZILLA_IS_RUNNIG_NO_CHANGES.string.text
+msgid "You can't make any changes to mozilla address book when mozilla is running."
+msgstr "མོ་ཛིལ་ལ་འདི་གཡོག་བཀོལ་བའི་སྐབས་ ཁྱོད་ཀྱིས་ མོ་ཛིལ་ལ་ཁ་བྱང་ཀི་དེབ་འདི་ལུ་ བསྒྱུར་བཅོས་ག་ནི་ཡང་འབད་མི་ཚུགས།"
+
+#: conn_shared_res.src#STR_FOREIGN_PROCESS_CHANGED_AB.string.text
+msgid "Mozilla Address Book has been changed out of this process, we can't modify it in this condition."
+msgstr "མོ་ཛིལ་ལ་ཁ་བྱང་ཀི་དེབ་འདི་ འ་ནི་ལས་སྦྱོར་འདི་ལས་བསྒྱུར་བཅོས་འབད་ཡོདཔ་ཨིན་ ང་བཅས་ཀྱིས་འདི་ འ་ནི་གནས་སྟངས་ནང་ལེགས་བཅོས་འབད་མི་ཚུགས།"
+
+#: conn_shared_res.src#STR_CANT_FIND_ROW.string.text
+msgid "Can't find the requested row."
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་གྲལ་ཐིག་འདི་འཚོལ་མ་འཐོབ།"
+
+#: conn_shared_res.src#STR_CANT_FIND_CARD_FOR_ROW.string.text
+msgid "Can't find the card for the requested row."
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་གྲལ་ཐིག་འདི་གི་དོན་ལུ་ ཤོག་བྱང་འདི་འཚོལ་མ་འཐོབ།"
+
+#: conn_shared_res.src#STR_STRING_LENGTH_EXCEEDED.string.text
+msgid "The string '$string$' exceeds the maximum length of $maxlen$ characters when converted to the target character set '$charset$'."
+msgstr "ཡིག་རྒྱུན་ '$string$' འདི་དམིགས་བསལ་ཡིག་འབྲུ་ཆ་ཚན་ '$charset$' ལུ་གཞི་བསྒྱུར་འབད་བའི་སྐབས་  $maxlen$ ཡིག་འབྲུ་ཚུ་གི་ མང་མཐའ་རིང་ཚད་འདི་ལས་ལྷགཔ་ཨིན།"
+
+#: conn_shared_res.src#STR_CANNOT_CONVERT_STRING.string.text
+msgid "The string '$string$' cannot be converted using the encoding '$charset$'."
+msgstr "ཡིག་རྒྱུན་ '$string$'འདི་ ཨིན་ཀོ་ཌིང་'$charset$'འདི་ལག་ལེན་འཐབ་སྟེ་གཞི་བསྒྱུར་འབད་མི་ཚུགས།"
+
+#: conn_shared_res.src#STR_URI_SYNTAX_ERROR.string.text
+msgid "The connection URL is invalid."
+msgstr "མཐུད་ལམ་ཡུ་ཨར་ཨེལ་འདི་ནུས་མེད་ཨིན།"
+
+#: conn_shared_res.src#STR_NO_HOSTNAME.string.text
+msgid "No hostname was provided."
+msgstr "ཧོསིཊི་ནེམ་ཅིག་ཡང་མ་བྱིན་པས།"
+
+#: conn_shared_res.src#STR_NO_BASEDN.string.text
+msgid "No Base DN was provided."
+msgstr "གཞི་རྟེན་ཌི་ཨེན་གཅིག་ཡང་མ་བྱིན་པས།"
+
+#: conn_shared_res.src#STR_COULD_NOT_CONNECT_LDAP.string.text
+msgid "The connection to the LDAP server could not be established."
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་ལུའི་མཐུད་ལམ་འདི་ གཞི་འཛུགས་འབད་མི་བཏུབ།"
+
+#: conn_shared_res.src#STR_COULD_NOT_LOAD_FILE.string.text
+msgid "The file $filename$ could not be loaded."
+msgstr "$filename$ ཡིག་སྣོད་འདི་མངོན་གསལ་འབད་མི་ཚུགས་སྦེ།"
+
+#: conn_shared_res.src#STR_LOAD_FILE_ERROR_MESSAGE.string.text
+msgid ""
+"The attempt to load the file resulted in the following error message ($exception_type$):\n"
+"\n"
+"$error_message$"
+msgstr ""
+"ཡིག་སྣོད་མངོན་གསལ་འབད་ནི་དཔའ་བཅམ་ཡོད་མི་འདི་འོག་གི་འཕྲིན་དོན་འཛོལ་བ་ཚུ་བྱུང་ཡོདཔ་($exception_type$):\n"
+"\n"
+"$error_message$"
+
+#~ msgid "The string '$string$' cannot be converted using the encoding '$charset'."
+#~ msgstr "ཡིག་རྒྱུན་ '$string$' འདི་ ཨིན་ཀོ་ཌིང་ '$charset' ལག་ལེན་འཐབ་ཐོག་ གཞི་བསྒྱུར་འབད་མི་བཏུབ།"
+

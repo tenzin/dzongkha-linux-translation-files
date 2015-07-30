@@ -1,0 +1,248 @@
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/extensions/update.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: updates.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-17 11:47+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.govt.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: updateWizard.title
+msgid "&brandShortName; Update"
+msgstr "&brandShortName; དུས་མཐུན།"
+
+#: offline.title
+msgid "&brandShortName; is working offline"
+msgstr "&brandShortName; འདི་གློག་ཐོག་ལུ་མནེམ་སྦེ་ལཱ་འབད་དོ་"
+
+#: offline.description
+msgid "&brandShortName; needs to go online in order to see if updates are available for your add-ons to make them compatible with this version."
+msgstr "ཁྱོད་ཀྱི་ཁ་སྐོང་ཚུ་ ཐོན་རིམ་འདི་དང་མཐུན་འགྱུར་ཡོདཔ་བཟི་ནི་ལུ་ དུས་མཐུན་བཟོ་དགོཔ་ཡོད་མེད་བལྟ་ནིའི་དོན་ལས་ &brandShortName;འདི་གློག་ཐོག་ལུ་འགྱོ་དགོ།"
+
+#: offline.toggleOffline.label offline.toggleOffline.accesskey
+msgid "&Go online now."
+msgstr "གློག་ཐོག་ལུ་འགྱོ།(&G)"
+
+#: mismatch.win.title
+msgid "Incompatible Add-ons"
+msgstr "མཐུན་འགྱུར་མེད་པའི་ཁ་སྐོང་ཚུ་"
+
+#: mismatch.top.label
+msgid "The following add-ons are not compatible with this version of &brandShortName; and have been disabled:"
+msgstr "འོག་གི་ཁ་སྐོང་ཚུ་ &brandShortName; གི་ ཐོན་རིམ་འདི་དང་མཐུན་འགྱུར་མེདཔ་ལས་ ལྕོགས་མིན་བཟོ་ནུག།"
+
+#: mismatch.bottom.label
+msgid "&brandShortName; can check if there are compatible versions of these add-ons available."
+msgstr "&brandShortName; གིས་ ཁ་སྐོང་འདི་ཚུ་གི་དོན་ལུ་ མཐུན་འགྱུར་ཅན་གྱི་ཐོན་རིམ་ཡོད་མེད་ ཞིབ་དཔྱད་བརྐྱབ་ཚུགས།"
+
+#: checking.wizard.title
+msgid "Checking for Compatible Add-ons"
+msgstr "མཐུན་འགྱུར་ཅན་གྱི་ཁ་སྐོང་ཡོད་མེད་ཞིབ་དཔྱད་བརྐྱབ་དོ།"
+
+#: checking.top.label
+msgid "Checking your incompatible add-ons for updates..."
+msgstr "ཁྱོད་རའི་མཐུན་འགྱུར་མེད་པའི་ཁ་སྐོང་གི་དོན་ལུ་ དུས་མཐུན་བཟོ་དགོཔ་ཡོད་མེད་ཞིབ་དཔྱད་འབད་དོ་་་"
+
+#: checking.status versioninfo.waiting
+msgid "This may take a few minutes..."
+msgstr "འདི་གི་དོན་ལུ་སྐར་མ་དག་པ་ཅིག་འགོར་འོང་།"
+
+#: found.wizard.title
+msgid "Found Compatible Add-ons"
+msgstr "མཐུན་འགྱུར་ཅན་གྱི་ཁ་སྐོང་ཚུ་ཐོབ་ཅི་"
+
+#: found.top.label
+msgid "Select the add-ons you would like to install:"
+msgstr "ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་དགོ་མནོ་མི་ ཁ་སྐོང་ཚུ་སེལ་འཐུ་འབད་:"
+
+#: found.disabledXPinstall.label
+msgid "These updates can't be installed because software installation is currently disabled. You can change this setting below."
+msgstr "མཉེན་ཆས་གཞི་བཙུགས་འབད་ནི་དེ་ ད་ལྟོ་ལྕོགས་མིན་ཨིནམ་ལས་ དུས་མཐུན་འདི་ཚུ་ གཞི་བཙུགས་འབད་མི་ཚུགས་པས། ཁྱོད་ཀྱིས་འོག་གི་སྒྲིག་སྟངས་འདི་བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: found.enableXPInstall.label found.enableXPInstall.accesskey
+msgid "&Allow web sites to install software"
+msgstr "་ ཝེབ་ས་ཁོངས་ཚུ་ལུ་ མཉེན་ཆས་གཞི་བཙུགས་འབད་བཅུག་(&A)"
+
+#: installing.wizard.title
+msgid "Installing Compatible Add-ons"
+msgstr "མཐུན་འགྱུར་ཡོད་པའི་ཁ་སྐོང་ཚུ་ གཞི་བཙུགས་འབད་དོ་"
+
+#: installing.top.label
+msgid "Downloading and installing updates to your add-ons..."
+msgstr "ཁྱོད་ཀྱི་ཁ་སྐོང་ཚུ་གི་དོན་ལུ་ དུས་མཐུན་ཚུ་ ཕབ་ལེན་འབད་དེ་གཞི་བཙུགས་འབད་དོ་་་"
+
+#: noupdates.wizard.title
+msgid "No Compatible Add-ons Found"
+msgstr "མཐུན་འགྱུར་ཅན་གྱི་ཁ་སྐོང་མ་ཐོབ་"
+
+#: noupdates.intro.desc
+msgid "&brandShortName; was unable to find updates to your incompatible add-ons."
+msgstr "&brandShortName; གིས་ ཁྱོད་ཀྱི་མཐུན་འགྱུར་མདེ་པའི་ཁ་སྐོང་ཚུ་གི་དོན་ལུ་ དུས་མཐུན་འཚོལ་མ་ཐོབ།"
+
+#: noupdates.error.desc
+msgid "Some problems were encountered when trying to find updates."
+msgstr "དུས་མཐུན་ཚུ་འཚོལ་བའི་སྐབས་ལུ་ དཀའ་ངལ་དིམ་གྲ་ཅིག་བྱུང་ཡི།"
+
+#: noupdates.checkEnabled.desc
+msgid "&brandShortName; will check periodically and inform you when compatible updates for these add-ons are found."
+msgstr "&brandShortName; གིས་ དུས་མཚམས་ལུ་ཞིབ་དཔྱད་འབད་དེ་ ཁ་སྐོང་འདི་ཚུ་གི་དོན་ལུ་ མཐུན་འགྱུར་ཡོད་པའི་དུས་མཐུན་ཚུ་ཐོབ་པའི་སྐབས་ ཁྱོད་ལུ་བརྡ་ལན་འབད་འོང་།"
+
+#: finished.wizard.title
+msgid "Compatible Add-ons Installed"
+msgstr "མཐུན་འགྱུར་ཡོད་པའི་ཁ་སྐོང་ཚུ་་གཞི་བཙུགས་འབད་ཡི་"
+
+#: finished.top.label
+msgid "&brandShortName; has installed the updates to your add-ons."
+msgstr "&brandShortName; གིས་ ཁྱོད་ཀྱི་ཁ་སྐོང་ཚུ་ལུ་ དུས་མཐུན་ཚུ་ གཞི་བཙུགས་འབད་ཡི།"
+
+#: finished.checkDisabled.desc
+msgid "&brandShortName; can check periodically and inform you when updates for add-ons are found."
+msgstr "&brandShortName; གིས་ དུས་མཚམས་ལུ་ཞིབ་དཔྱད་འབད་དེ་ ཁ་སྐོང་ཚུ་གི་དོན་ལུ་ དུས་མཐུན་ཚུ་ཐོབ་པའི་སྐབས་ ཁྱོད་ལུ་བརྡ་ལན་འབད་ཚུགས་།"
+
+#: finished.checkEnabled.desc
+msgid "&brandShortName; will check periodically and inform you when updates for add-ons are found."
+msgstr "&brandShortName; གིས་ དུས་མཚམས་ལུ་ཞིབ་དཔྱད་འབད་དེ་ ཁ་སྐོང་ཚུ་གི་དོན་ལུ་ དུས་མཐུན་ཚུ་ཐོབ་པའི་སྐབས་ ཁྱོད་ལུ་བརྡ་ལན་འབད་འོང་།"
+
+#: adminDisabled.wizard.title
+msgid "Unable to Check for Updates"
+msgstr "དུས་མཐུན་ཡོད་མེད་ཞིབ་དཔྱད་འབད་མ་ཚུགས།"
+
+#: adminDisabled.warning.label
+msgid "It is not possible to check for updates to incompatible add-ons because software installation for &brandShortName; has been disabled. Please contact your System Administrator for assistance."
+msgstr "&brandShortName; གི་དོན་ལུ་ མཉེན་ཆས་གཞི་བཙུགས་འབད་ནི་དེ་ ལྕོགས་མིན་བཟོ་ཡོདཔ་ལས་ མཐུན་འགྱུར་མེད་པའི་ཁ་སྐོང་ཚུ་གི་དོན་ལུ་ དུས་མཐུན་ཞིབ་དཔཡད་འབད་མི་ཚུགས་པས། གྲོགས་རམ་གྱི་དོན་ལུ་ ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་དང་གཅིག་ཁར་འབྲེལ་བ་འཐབ།"
+
+#: versioninfo.wizard.title
+msgid "Checking Compatibility of Add-ons"
+msgstr "ཁ་སྐོང་ཚུ་གི་དོན་ལུ་ མཐུན་འགྱུར་ཞིབ་འབད་དོ་"
+
+#: versioninfo.top.label
+msgid "Checking your add-ons for compatibility with this version of &brandShortName;."
+msgstr "ཁྱོད་ཀྱི་ཁ་སྐོང་ཚུ་ &brandShortName; གི་ཐོན་རིམ་འདི་དང་ མཐུན་འགྱུར་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་དོ།"
+
+#: installerrors.wizard.title
+msgid "Problems Installing Updates"
+msgstr "དུས་མཐུན་ཚུ་ གཞི་བཙུགས་འབད་ནི་ལུ་དཀའ་ངལ་"
+
+#: installerrors.intro.label
+msgid "&brandShortName; encountered problems when updating some of your add-ons."
+msgstr "ཁྱོད་ཀྱི་ཁ་སྐོང་ལ་ལོ་ཅིག་གི་ དུས་མཐུན་བཟོ་བའི་སྐབས་ &brandShortName; ལུ་དཀའ་ངལ་བྱུང་ཡི།"
+
+#: clickFinish.label
+msgid "Click Finish to continue starting &brandShortName;."
+msgstr "&brandShortName; འཕྲོ་མཐུད་དེ་འགོ་བཙུགས་ནི་ལུ་ རྫོགས་སོ་ གུ་ཨེབ་གཏང་འབད།"
+
+#: enableChecking.label
+msgid "Allow &brandShortName; to check for updates."
+msgstr "&brandShortName;ལུ་ དུས་མཐུན་ཞིབ་དཔྱད་འབད་བཅུག།"
+
+#: details.label details.accesskey
+msgid "&Details..."
+msgstr "རྒྱས་བཤད་་་(&D)"
+
+#~ msgid "Incompatible Components"
+#~ msgstr "མཐུན་འགྱུར་མེད་པའི་ཆ་ཤས་ཚུ།"
+#~ msgid "The following components are not compatible with the new version of &brandShortName; you have just installed:"
+#~ msgstr "འོག་གི་ཆ་ཤས་ཚུ་ ཁྱོད་ཀྱིས་ད་ལྟོ་གཞི་བཙུགས་འབད་མི་ &brandShortName; གི་ཐོན་རིམ་དང་གཅིག་ཁར་ མཐུན་འགྱུར་མིན་འདུག།"
+#~ msgid "They have been disabled until compatible versions are installed."
+#~ msgstr "མཐུན་འགྱུར་ཡོད་པའི་ཐོན་རིམ་ཚུ་ གཞི་བཙུགས་མ་འབད་ཚུན་ཚོད་ དེ་ཚུ་ལྕོགས་མིན་བཟོ་བཞག་ཡོད།"
+#~ msgid "&brandShortName; can check for and install newer, compatible versions of these components."
+#~ msgstr "&brandShortName; གིས་་ཆ་ཤས་དེ་ཚུ་གི་དོན་ལུ་ ཐོན་རིམ་གསརཔ་དང་ མཐུན་འགྱུར་ཅན་ཚུ་ ཞིབ་དཔྱད་བརྐྱབས་ཏེ་ གཞི་བཙུགས་འབད་ཚུགས།"
+#~ msgid "Checking for Updates"
+#~ msgstr "དུས་མཐུན་བཟོ་དགོཔ་ཡོད་མེད་ཞིབ་དཔྱད་རྐྱབ་དོ་"
+#~ msgid "&brandShortName; is now checking for available updates..."
+#~ msgstr "&brandShortName; གིས་ དུས་མཐུན་བཟོ་དགོཔ་ཡོད་མི་ཚུ་ ཞིབ་དཔྱད་རྐྱབ་དོ་་་"
+#~ msgid "Checking for Compatibility Updates"
+#~ msgstr "མཐུན་འགྱུར་གྱི་དུས་མཐུན་དོན་ལུ་ཞིབ་དཔྱད་རྐྱབ་དོ།"
+#~ msgid "&brandShortName; is now checking for compatibility updates to your Extensions and Themes..."
+#~ msgstr "&brandShortName; གིས་ཁྱོད་ཀྱི་རྒྱ་བསྐྱེད་དང་བརྗོད་དོན་ཚུ་ལུ་ མཐུན་འགྱུར་གྱི་དུས་མཐུན་ཡོད་མེད་ཞིབ་དཔྱད་རྐྱབ་དོ།"
+#~ msgid "Updates Found"
+#~ msgstr "དུས་མཐུན་བཟོ་དགོཔ་ཐོབ་ཅི།"
+#~ msgid "&brandShortName; found the following available updates:"
+#~ msgstr "&brandShortName; གིས་འོག་གི་དུས་མཐུན་བཟོ་དགོཔ་ཚུ་ཐོབ་ཅི།"
+#~ msgid "from: "
+#~ msgstr "ལས་:"
+#~ msgid "C"
+#~ msgstr "C"
+#~ msgid "O"
+#~ msgstr "O"
+#~ msgid "E"
+#~ msgstr "E"
+#~ msgid "L"
+#~ msgstr "L"
+#~ msgid "The following Critical Updates are available for &brandShortName;:"
+#~ msgstr "&brandShortName;གི་དོན་ལུ་ འོག་གི་གལ་གནད་ཆེ་བའི་དུས་མཐུན་བཟོ་དགོཔ་འདུག།"
+#~ msgid "You should install these updates immediately to protect your computer from attack."
+#~ msgstr "ཁྱོད་ཀྱི་གློག་རིག་འདི་ གཞན་གྱི་གནོད་སྐྱོན་ལས་བཀག་ཐབས་ལུ་ དུས་མཐུན་འདི་ཚུ་ དེ་འཕྲལ་ལས་གཞི་བཙུགས་འབད་དགོ།"
+#~ msgid "More Information..."
+#~ msgstr "བརྡ་དོན་ཁ་གསལ་གྱི་དོན་ལུ་་་་་"
+#~ msgid "The following components and plugins are available to install:"
+#~ msgstr "གཞི་བཙུགས་འབད་ནིའི་དོན་ལུ་ འོག་གི་ཆ་ཤས་དང་ པ་ལག་ཨིནསི་ཚུ་འདུག་:"
+#~ msgid "Installing these components may improve your browsing experience."
+#~ msgstr "ཆ་ཤས་འདི་ཚུ་གཞི་བཙུགས་འབད་བ་ཅིན་ ཁྱོད་ཀྱི་བརྡ་འཚོལ་གྱི་ཉམས་མྱོང་ཚུ་ ལེགས་བཅོས་འགྱོ་འོང་།"
+#~ msgid "The following updates are available to Extensions and Themes that you already have installed"
+#~ msgstr "ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་མི་ རྒྱ་བསྐྱེད་དང་བརྗོད་དོན་ཚུ་ལུ་ འོག་གི་དུས་མཐུན་ཚུ་ བཟོ་དགོཔ་འདུག།"
+#~ msgid "The following language packs are available: "
+#~ msgstr "འོག་གི་སྐད་ཡིག་སྦུང་ཚན་འཐོབ་ཚུགས།"
+#~ msgid "Installing Updates"
+#~ msgstr "དུས་མཐུན་ཚུ་གཞི་བཙུགས་འབད་དོ།"
+#~ msgid "Now downloading and installing updates..."
+#~ msgstr "ད་ལྟོ་དུས་མཐུན་ཚུ་ ཕབ་ལེན་འབད་དེ་ གཞི་བཙུགས་འབད་དོ།"
+#~ msgid "XXXben - this will not work until we have a scriptable API to XPInstall."
+#~ msgstr "XXXben- ང་བཅས་ལུ་ ཨེགསི་པི་གཞི་བཙུགས་ལུ་ ཡིག་ཚུགས་འབྲི་བཏུབ་པའི་ ཨེ་པི་ཨའི་ཅིག་མེད་ཚུན་ཚོད་ འདི་གིས་ལཱ་འབད་མི་བཏུབ། "
+#~ msgid "No Updates Found"
+#~ msgstr "དུས་མཐུན་བཟོ་དགོཔ་མིན་འདུག"
+#~ msgid "&brandShortName; was not able to find any available updates."
+#~ msgstr "&brandShortName; གིས་དུས་མཐུན་བཟོ་དགོཔ་་ག་ནི་ཡང་མ་ཐོབ།"
+#~ msgid "&brandShortName; was not able to find any available updates - compatible versions may not be available at this time."
+#~ msgstr "&brandShortName;གིས་དུས་མཐུན་བཟོ་དགོཔ་་ག་ནི་ཡང་མ་ཐོབ། དུས་ཚོད་འདི་ཁར་ མཐུན་འགྱུར་གྱི་ཐོན་རིམ་འཐོབ་མི་ཚུགསཔ་འོང་ནི་མས།"
+#~ msgid "&brandShortName; will check periodically and inform you when compatible versions become available."
+#~ msgstr "&brandShortName;གིས་ འཕྲལ་འཕྲལ་འབད་ཞིབ་དཔྱད་འབད་དེ་ མཐུན་འགྱུར་ཡོད་པའི་ཐོན་རིམ་ཚུ་ཡོད་པའི་སྐབས་ལུ་ ཁྱོད་ལུ་བརྡ་བསྐུལ་འབད་འོང་།"
+#~ msgid "&brandShortName; can check periodically and inform you when compatible versions become available."
+#~ msgstr "&brandShortName;གིས་ འཕྲལ་འཕྲལ་འབད་ཞིབ་དཔྱད་འབད་དེ་ མཐུན་འགྱུར་ཡོད་པའི་ཐོན་རིམ་ཚུ་ཡོད་པའི་སྐབས་ལུ་ ཁྱོད་ལུ་བརྡ་བསྐུལ་འབད་ཚུགས།"
+#~ msgid "Update Complete"
+#~ msgstr "དུས་མཐུན་བཟོ་ནི་མཇུག་བསྡུ་ཡི།"
+#~ msgid "&brandShortName; has installed the available updates. You will have to restart &brandShortName; for some updates to take effect."
+#~ msgstr "&brandShortName; གིས་ ཐོབ་ཚུགས་པའི་དུས་མཐུན་ཚུ་ གཞི་བཙུགས་འབད་ཡི། དུས་མཐུན་ལ་ལོ་ཅིག་ལུ་་ནུས་པ་འཐོབ་ནི་ལུ་་ཁྱོད་ཀྱིས་&brandShortName; ལོག་འགོ་བཙུགས་དགོ།"
+#~ msgid ""
+#~ "Some incompatible components could not be updated, perhaps because compatible versions are not available at this time. &brandShortName; will check periodically and inform you when updated "
+#~ "versions become available."
+#~ msgstr ""
+#~ "མཐུན་འགྱུར་མེད་པའི་ཆ་ཤས་ལ་ལོ་ཅིག་ དུས་མཐུན་བཟོ་མ་ཚུགས། དུས་ཚོད་འདི་ཁར་ མཐུན་འགྱུར་ཡོད་པའི་ཐོན་རིམ་ཚུ་མེདཔ་འོང་ནི་མས། &brandShortName; གིས་འཕྲལ་འཕྲལ་འབད་ ཞིབ་དཔྱད་རྐྱབ་སྟེ་ དུས་མཐུན་བཟོས་པའི་ཐོན་རིམ་ཚུ་ཡོད་པའི་སྐབས་་ཁྱོད་ལུ་བརྡ་བསྐུལ་འབད་འོང་།"
+#~ msgid ""
+#~ "Some incompatible components could not be updated, perhaps because compatible versions are not available at this time. &brandShortName; can check periodically and inform you when updated "
+#~ "versions become available."
+#~ msgstr ""
+#~ "མཐུན་འགྱུར་མེད་པའི་ཆ་ཤས་ལ་ལོ་ཅིག་ དུས་མཐུན་བཟོ་མ་ཚུགས། དུས་ཚོད་འདི་ཁར་ མཐུན་འགྱུར་ཡོད་པའི་ཐོན་རིམ་ཚུ་མེདཔ་འོང་ནི་མས། &brandShortName; གིས་འཕྲལ་འཕྲལ་འབད་ ཞིབ་དཔྱད་རྐྱབ་སྟེ་ དུས་མཐུན་བཟོས་པའི་ཐོན་རིམ་ཚུ་ཡོད་པའི་སྐབས་་ཁྱོད་ལུ་བརྡ་བསྐུལ་འབད་ཚུགས།"
+#~ msgid "&brandShortName; did not succeed in downloading and installing some updates."
+#~ msgstr "&brandShortName; གིས་ དུས་མཐུན་ལ་ལོ་ཅིག་ ཕབལེན་འབད་ནི་དང་ ངཞི་བཙུགས་འབད་ནི་ མཐར་འཁྱོལ་འབྱུང་མ་ཚུགས།"
+#~ msgid "Optional Components"
+#~ msgstr "གདམ་ཁ་ཅན་གྱི་ཆ་ཤས་ཚུ།"
+#~ msgid "Choose additional components you want to install, then click Install Now."
+#~ msgstr "ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་དགོ་མནོ་མི་ ཆ་ཤས་ཧེང་བཀལ་ཚུ་ གདམ་ཁ་བརྐྱབས་ཞིནམ་ལས་ ད་ལྟོ་ར་གཞི་བཙུགས་འབད་ གུ་ཨེབ་གཏང་འབད།"
+#~ msgid "Problems During Update"
+#~ msgstr "དུས་མཐུན་བཟོ་བའི་སྐབས་ལུ་དཀའ་ངལ།"
+#~ msgid "&brandShortName; encountered problems when updating your software, and as a result not all components could be updated."
+#~ msgstr "ཁྱོད་ཀྱི་མཉེན་ཆས་དུས་མཐུན་བཟོ་བའི་སྐབས་ལུ་&brandShortName;ལུ་་དཀའ་ངལ་ཅིག་བྱུང་མི་ལུ་བརྟེན་ཏེ་ ཆ་ཤས་ཆ་མཉམ་ར་ དུས་མཐུན་བཟོ་མ་ཚུགས།"
+#~ msgid "&Details"
+#~ msgstr "རྒྱས་བཤད་(&D)"
+#~ msgid "&brandShortName; encountered problems when trying to find updates for some items."
+#~ msgstr "རྣམ་གྲངས་ལ་ལོ་ཅིག་གི་དོན་ལུ་་དུས་མཐུན་འཚོལ་བའི་སྐབས་&brandShortName; ལུ་དཀའ་ངལ་ཅིག་བྱུང་ནུག།"
+#~ msgid "Checking for Compatible Extensions and Themes..."
+#~ msgstr "མཐུན་འགྱུར་ཡོད་པའི་རྒྱ་བསྐྱེད་དང་བརྗོད་དོན་ཚུ་ཞིབ་དཔྱད་འབད་དོ།"
+#~ msgid "&brandShortName; is checking for compatibility updates to your Extensions and Themes..."
+#~ msgstr "&brandShortName; གིས་ ཁྱོད་ཀྱི་རྒྱ་བསྐྱེད་དང་བརྗོད་དོན་ཚུ་ལུ་ མཐུན་འགྱུར་ཡོད་པའི་དུས་མཐུན་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་དོ།"
+#~ msgid "Compatibility Updates"
+#~ msgstr "མཐུན་འགྱུར་གྱི་དུས་མཐུན་ཚུ།"
+#~ msgid "Checking for compatibility updates to your Extensions..."
+#~ msgstr "ཁྱོད་ཀྱི་རྒྱ་བསྐྱེད་ཚུ་ལུ་ མཐུན་འགྱུར་གྱི་དུས་མཐུན་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་དོ།"
+

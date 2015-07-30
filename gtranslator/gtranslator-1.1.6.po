@@ -1,0 +1,1835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtranslator.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-15 20:28+0600\n"
+"PO-Revision-Date: 2006-11-16 14:15+0530\n"
+"Last-Translator: sonam rinchen <somindruk@druknet.bt>\n"
+"Language-Team: dzongkha <pgyeleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/desktop/gtranslator.desktop.in.h:1
+msgid "The GNOME translation program"
+msgstr "ཇི་ནོམ་སྐད་བསྒྱུར་འབད་ནིའི་ལས་རིམ།"
+
+#: ../data/desktop/gtranslator.desktop.in.h:2
+#: ../src/parse.c:1111
+msgid "gtranslator"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར།"
+
+#. Translator credits
+#: ../src/about.c:60
+msgid "translator_credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད་ཚུ། (_c)"
+
+#: ../src/about.c:80
+msgid "(C) 1999 The Free Software Foundation, Inc."
+msgstr "(C) ༡༩༩༩ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ ཨའི་ཨེན་སི།"
+
+#: ../src/about.c:81
+msgid "gtranslator is a po file editing suite with many bells and whistles."
+msgstr "ཇི་སྐད་ཊཱནསི་ལེ་ཊར་འདི་ དྲིལ་བུ་ཚུ་དང་བྱི་སི་ལེ་ཤ་ཡོད་མི་པི་ཨོ་ཞུན་དག་འབད་ནིའི་ཆ་ཚང་ཅིག་ཨིན།"
+
+#: ../src/bookmark.c:67
+#: ../src/bookmark.c:93
+#: ../src/dialogs.c:1386
+msgid "No comment"
+msgstr "བསམ་བཀོད་མེད་"
+
+#: ../src/bookmark.c:598
+msgid "_View/_Bookmarks/"
+msgstr "མཐོང་སྣང་/དེབ་རྟགས/ (_V) (_B)"
+
+#: ../src/bookmark.c:635
+#, c-format
+msgid "Open %s (%s)"
+msgstr " %s (%s) ཁ་ཕྱེ།"
+
+#: ../src/color-schemes.c:196
+#, c-format
+msgid "Can't apply color scheme file `%s'!"
+msgstr "ཚོས་གཞི་འཆར་ལས་ཡིག་སྣོད་ `%s'! འཇུག་སྤྱོད་འབད་མི་ཚུགས།"
+
+#: ../src/color-schemes.c:318
+msgid "Couldn't retrieve author information!"
+msgstr "རྩོམ་པ་པོའི་བརྡ་དོན་སླར་འདྲེན་འབད་མ་ཚུགས!"
+
+#.
+#. * Translators: These strings are used as author informations if
+#. *  no author informations could be retrieved:
+#.
+#: ../src/color-schemes.c:324
+#: ../src/translator.c:318
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../src/color-schemes.c:325
+msgid "<Not Given>"
+msgstr "<གྲ་སྒྲིག་མེདཔ་>"
+
+#: ../src/color-schemes.c:472
+msgid "_View/_Colorschemes/"
+msgstr "མཐོང་སྣང་/ཚོས་གཞིའི་འཆར་ལས/ (_V)(_C)"
+
+#: ../src/color-schemes.c:502
+#, c-format
+msgid "Activate colorscheme %s"
+msgstr "ཚོས་གཞིའི་འཆར་ལས་ %s ཤུགས་ལྡན་བཟོ།"
+
+#: ../src/dialogs.c:103
+msgid "gtranslator -- open po file"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- པི་ཨོ་ཡིག་སནོད་ཁ་ཕྱེ།"
+
+#: ../src/dialogs.c:145
+msgid "gtranslator -- save file as.."
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- སྦེ་ཡིག་སྣོད་སྲུངས་.."
+
+#: ../src/dialogs.c:165
+msgid "gtranslator -- save local copy of file as.."
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- སྦེ་ཡིག་སྣོད་ཀྱི་ཉེ་གནས་འདྲ་བཤུས་སྲུངས་.."
+
+#: ../src/dialogs.c:215
+#, c-format
+msgid ""
+"File %s\n"
+"was changed. Save?"
+msgstr ""
+"ཡིག་སྣོད་ %s\n"
+"འདི་བསྒྱུར་བཅོས་འབད་ཡོད། སྲུང་བཞག་འབད་ནི་ཨིན་ན?"
+
+#: ../src/dialogs.c:221
+msgid "Don't save"
+msgstr "མ་སྲུངས།"
+
+#: ../src/dialogs.c:257
+#: ../src/dialogs.c:290
+msgid "gtranslator -- edit comment"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- བསམ་བཀོད་ཞུན་དག་འབད།"
+
+#: ../src/dialogs.c:282
+msgid "Comment:"
+msgstr "བསམ་བཀོད:"
+
+#: ../src/dialogs.c:397
+#, c-format
+msgid "Should ALL translations from `%s' be removed?"
+msgstr " `%s' ལས་ སྐད་བསྒྱུར་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་དགོཔ་ཨིན་ན?"
+
+#: ../src/dialogs.c:504
+msgid "gtranslator -- go to"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- ལུ་འགྱོ་"
+
+#: ../src/dialogs.c:512
+msgid "Go to message number:"
+msgstr "འཕྲིན་དོན་ཨང་ལུ་འགྱོ:"
+
+#: ../src/dialogs.c:570
+msgid "Find in the po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་འདི་ནང་འཚོལ་"
+
+#: ../src/dialogs.c:579
+msgid "Enter search string:"
+msgstr "འཚོལ་ཞིབ་ཡིག་རྒྱུན་ཐོ་བཀོད་འབད་:"
+
+#: ../src/dialogs.c:584
+msgid "Case sensitive"
+msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁ་"
+
+#: ../src/dialogs.c:589
+msgid "Find in:"
+msgstr "ནང་འཚོལ་:"
+
+#: ../src/dialogs.c:593
+#: ../src/dialogs.c:724
+msgid "Comments"
+msgstr "བསམ་བཀོད་ཚུ།"
+
+#: ../src/dialogs.c:596
+#: ../src/dialogs.c:727
+#: ../src/languages.c:101
+msgid "English"
+msgstr "ཨིང་ལིཤ།"
+
+#: ../src/dialogs.c:599
+#: ../src/dialogs.c:730
+#: ../src/messages-table.c:259
+msgid "Translation"
+msgstr "སྐད་བསྒྱུར་འབད་ནི།"
+
+#.
+#. * Translators: this means that the hotkeys ("_" etc.) are ignored
+#. *  during the search action.
+#.
+#: ../src/dialogs.c:610
+msgid "Ignore hotkeys"
+msgstr "མགྱོགས་ལྡེ་ཚུ་སྣང་མེད་བཞག་"
+
+#: ../src/dialogs.c:703
+msgid "gtranslator -- replace"
+msgstr "ཇི་ཊའནསི་ལེ་ཊར་ -- ཚབ་བཙུགས།"
+
+#: ../src/dialogs.c:707
+#: ../src/menus.c:338
+msgid "Replace"
+msgstr "ཚབ་བཙུགས།"
+
+#: ../src/dialogs.c:708
+msgid "Replace all"
+msgstr "ཆ་མཉམ་ཚབ་བཙུགས།"
+
+#: ../src/dialogs.c:713
+msgid "String to replace:"
+msgstr "ཚབ་བཙུགས་ནིའི་ཡིག་རྒྱུན་:"
+
+#: ../src/dialogs.c:716
+msgid "Replace string:"
+msgstr "ཡིག་རྒྱུན་ཚབ་བཙུགས་:"
+
+#: ../src/dialogs.c:721
+msgid "Replace in:"
+msgstr "ནང་ཚབ་བཙུགས་:"
+
+#: ../src/dialogs.c:791
+msgid "Please enter a string to replace!"
+msgstr "ཚབ་བཙུགས་ནིའི་དོན་ལས་ ཡིག་རྒྱུན་ཅིག་ཐོ་བཀོད་འབད་གནང་!"
+
+#: ../src/dialogs.c:842
+msgid "An error occurred while msgfmt was executed:\n"
+msgstr "འཕྲིན་དོན་རྩ་སྒྲིག་འདི་ལག་ལེན་འཐབ་པའི་སྐབས་ འཛོལ་བ་ཅིག་འབྱུང་ཡོད:\n"
+
+#: ../src/dialogs.c:883
+#, c-format
+msgid ""
+"The file\n"
+"\n"
+"   %s\n"
+"\n"
+"is already open in another instance of gtranslator!\n"
+"Please close the other instance of gtranslator handling\n"
+"this file currently to re-gain access to this file.\n"
+"\n"
+"Shall fool gtranslator open this file anyway ?"
+msgstr ""
+"ཡིག་སྣོད་\n"
+"\n"
+"   %s\n"
+"\n"
+"འདི་ ཇི་ཊཱནསི་ལེ་ཊར་གི་དུས་སྐབས་གཞན་མི་ཅིག་ནང་ ཧེ་མ་ལས་ཁ་ཕྱེ་སྟེ་ཡོད་!\n"
+"ཇི་ཊཱནསི་ལེ་ཊར་གི་དུས་སྐབས་གཞན་མི་ འ་ནི་ཡིག་སྣོད་ལེགས་སྐྱོང་འཐབ་མི་\n"
+"འདི་ད་ལྟོ་ འ་ནི་ཡིག་སྣོད་ལུ་འཛུལ་སྤྱོད་ལོག་འཐོབ་ནིའི་དོན་ལས་ཁ་བསྡམ་གནང་།\n"
+"\n"
+"ཇི་ཊཱནསི་ལེ་ཊར་རྩ་རྒས་ཀྱིས་ འ་ནི་ཡིག་སྣོད་འདི་གང་རུང་སྦེ་ཁ་ཕྱེ་འོང་ག?"
+
+#: ../src/dialogs.c:924
+#, c-format
+msgid ""
+"File %s\n"
+"was changed. Do you want to revert to saved copy?"
+msgstr ""
+"ཡིག་སྣོད་ %s\n"
+"འདི་བསྒྱུར་བཅོས་འབད་ཡོད། ཁྱོད་ཀྱིས་ སྲུང་བཞག་འབད་ཡོད་པའི་འདྲ་བཤུས་ལུ་རྒྱབ་ལོག་འབད་ནི་ཨིན་ན?"
+
+#: ../src/dialogs.c:953
+msgid "gtranslator -- open from URI"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- ཡུ་ཨར་ཨའི་ལས་ཁ་ཕྱེ།"
+
+#: ../src/dialogs.c:965
+msgid "Enter URI:"
+msgstr "ཡུ་ཨར་ཨའི་ཐོ་བཀོད་འབད་:"
+
+#: ../src/dialogs.c:1001
+msgid "No URI given!"
+msgstr "ཡུ་ཨར་ཨའི་མ་བྱིན་པས་!"
+
+#: ../src/dialogs.c:1016
+msgid "No supported URI protocol (like \"ftp://\") given!"
+msgstr "ཡུ་ཨར་ཨའི་གནད་སྤེལ་ལམ་ལུགས་(like \"ftp://\")གྲ་སྒྲིག་རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: ../src/dialogs.c:1024
+msgid ""
+"URIs are used to locate files uniquely on different systems.\n"
+"The standard Internet addresses (URLs) are also URIs -- you can\n"
+"use them to open remote po files lying on servers with standard protocols\n"
+"like \"http\", \"ftp\" or any other access method supported by GnomeVFS.\n"
+"Some example URIs for clarification (these ones are supported):\n"
+"http://www.gtranslator.org/remote-po/gtranslator.pot\n"
+"ftp://anonymous@ftp.somewhere.com/<A-REMOTE-PO-FILE>\n"
+"\n"
+"file:///<PO-FILE> or\n"
+"http://www.DOMAIN.COM/PO-FILE"
+msgstr ""
+"ཡུ་ཨར་ཨའི་ཚུ་ རིམ་ལུགས་སོ་སོ་གུ་ ཡིག་སྣོད་ཚུ་མཐུན་མོང་མ་ཡིན་པ་སྦེ་ ག་ཡོད་འཚོལ་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་ཡོད། \n"
+"ཚད་ལྡན་ཨིན་ཊར་ནེཊི་ཁ་བྱང་ (ཡུ་ཨར་ཨེལ་ཚུ་) ཚུ་ཡུ་ཨར་ཨའི་ཡང་ཨིན་ -- ཁྱོད་ཀྱིས་\n"
+"འདི་ཚུ་ ཚད་ལྡན་གནད་སྤེལ་ལམ་ལུགས་དང་གཅིག་ཁར་ སར་བར་གུ་ལུ་ཡོད་མི་ ཐག་རིང་གི་པི་ཨོ་ཡིག་སྣོད་ཚུ་ ཁ་ཕྱེ་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་བཏུབ་\n"
+"དཔེར་ན་ \"http\"  \"ftp\" ཡང་ན་ འཛུལ་སྤྱོད་ཐབས་ལམ་གཞན་མི་ག་ཅི་འབད་རུང་ ཇི་ནོམ་ཝི་ཨེཕ་ཨེསི་གིས་རྒྱབ་སྐྱོར་འབད་ཡོད་མི་བཟུམ།\n"
+"དོགས་སེལ་གྱི་དོན་ལུ་ ཡུ་ཨར་ཨེལ་ཨེསི་དཔེར་བརྗོད་དག་པ་ཅིག་(འདི་ཚུ་རྒྱབ་སྐྱོར་འབད་འབདཝ་ཨིན་):\n"
+"ཨེཆ་ཊི་ཊི་པི་://www.gtranslator.org/remote-po/gtranslator.pot\n"
+"ཨེཕ་ཊི་པི་://anonymous@ftp.somewhere.com/<A-REMOTE-PO-FILE>\n"
+"\n"
+"ཡིག་སྣོད་:///<PO-FILE> ཡང་ན་\n"
+"ཨེཆ་ཊི་ཊི་པི་://www.DOMAIN.COM/PO-FILE"
+
+#: ../src/dialogs.c:1063
+#, c-format
+msgid ""
+"Open recovery file for `%s'?\n"
+"It was saved by gtranslator before gtranslator last closed\n"
+"and may contain your hard work!\n"
+msgstr ""
+" `%s' གི་དོན་ལུ་སླར་གསོ་ཡིག་སྣོད་ཁ་ཕྱེ་ནི་ཨིན་ན?\n"
+"འདི་ཇི་སྐད་བསྒྱུར་པ་གིས་ ཇི་ཊཱནསི་ལེ་ཊར་གིས་མཇུག་ལུ་ཁ་མ་བསྡམ་པའི་ཧེ་མ་ སྲུང་བཞག་འབད་ཡོད་\n"
+"དེ་ལས་འདི་ནང་ཁྱོད་རའི་ལཱ་ཤུགས་སྦེ་འབད་ཡང་ཡོདཔ་འོང་!\n"
+
+#.
+#. * Translators: All this is about recovering a po file after
+#. *  a crash or something; postbone means that the user will
+#. *   get asked the next time he starts up gtranslator again
+#. *    if he/she wants to recover file.
+#.
+#: ../src/dialogs.c:1075
+msgid "Postpone decision"
+msgstr "གྲོས་ཆད་ཕར་འགྱངས་འབད།"
+
+#: ../src/dialogs.c:1077
+msgid "Ignore recovery file"
+msgstr "སླར་གསོ་ཡིག་སྣོད་སྣང་མེད་བཞག་"
+
+#: ../src/dialogs.c:1079
+msgid "Recover file"
+msgstr "ཡིག་སྣོད་སླར་གསོ་འབད་"
+
+#.
+#. * A half-baken dialog for the query functionality.
+#.
+#: ../src/dialogs.c:1138
+msgid "Here you can query existing translations from your learn buffer."
+msgstr "ནཱ་ལུ་ཁྱོད་ཀྱིས་ ཁྱོད་ཀྱི་ལྷབ་ནིའི་གནད་ཁོངས་ལས་ཡོད་བཞིན་པའི་སྐད་བསྒྱུར་ཚུ་འདྲི་དཔྱད་འབད་ཚུགས།"
+
+#: ../src/dialogs.c:1141
+msgid "gtranslator -- query your personal learn buffer"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- ཁྱོད་ཀྱི་རང་དོན་ལྷབ་ནིའི་གནད་ཁོངས་འདྲི་དཔྱད་འབད།"
+
+#: ../src/dialogs.c:1145
+#: ../src/menus.c:343
+msgid "Query"
+msgstr "འདྲི་དཔྱད།"
+
+#: ../src/dialogs.c:1146
+msgid "Query message content"
+msgstr "འདྲི་དཔྱད་འཕྲིན་དོན་ནང་དོན།"
+
+#: ../src/dialogs.c:1156
+msgid "Query string:"
+msgstr "འདྲི་དཔྱད་ཡིག་རྒྱུན་:"
+
+#: ../src/dialogs.c:1194
+msgid "No query string given!"
+msgstr "འདྲི་དཔྱད་ཡིག་རྒྱུན་གྲ་སྒྲིག་མིན་འདུག!"
+
+#: ../src/dialogs.c:1216
+msgid "Couldn't find any result for the query in your learn buffer!"
+msgstr "ཁྱོད་ཀྱི་ལྷབ་ནིའི་གནད་ཁོངས་ནང་གྲུབ་འབྲས་ག་ནི་ཡང་འཚོལ་མ་ཚུགས་!"
+
+#: ../src/dialogs.c:1228
+#, c-format
+msgid ""
+"Found \"%s\" as a translation for \"%s\".\n"
+"Would you like to insert it into the translation?"
+msgstr ""
+" \"%s\" གི་དོན་ལུ་སྐད་བསྒྱུར་སྦེ་ \"%s\" ཐོབ་ཅི།\n"
+"ཁྱོད་ཀྱིས་སྐད་བསྒྱུར་ནང་ལུ་བཙུགས་ནི་ཨིན་ན?"
+
+#.
+#. * Translators: This means that the query result string is
+#. *  already translated.
+#.
+#: ../src/dialogs.c:1298
+msgid "Query's result translation is already there!"
+msgstr "འདྲི་དཔྱད་ཀྱི་གྲུབ་འབྲས་འདི་ཧེ་མ་ལས་སྐད་བསྒྱུར་འབད་འདི་འདུག་!"
+
+#: ../src/dialogs.c:1330
+msgid ""
+"Should gtranslator autotranslate the file using information\n"
+"from your personal learn buffer?"
+msgstr ""
+"ཇི་ཊཱནསི་ལེ་ཏར་གིས་ ལག་ལེན་འཐབ་པའི་བརྡ་དོན་འདི་\n"
+"ཁྱོད་རའི་རང་དོན་ལྷབ་ནིའི་གནད་ཁོངས་ལས་ རང་བཞིན་སྐད་བསྒྱུར་འབད་དགོཔ་ཨིན་ན?"
+
+#: ../src/dialogs.c:1366
+#: ../src/dialogs.c:1394
+msgid "gtranslator -- add bookmark with comment?"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- བསམ་བཀོད་དང་གཅིག་ཁར་དེབ་རྟགས་ཁ་སྐོང་རྐྱབས?"
+
+#: ../src/dialogs.c:1386
+msgid "Comment for the bookmark:"
+msgstr "དེབ་རྟགས་ཀྱི་དོན་ལུ་བསམ་བཀོད་:"
+
+#: ../src/find.c:217
+msgid "Please enter a search string"
+msgstr "འཚོལ་ཞིབ་ཡིག་རྒྱུན་ཅིག་ཐོ་བཀོད་འབད་གནང་"
+
+#: ../src/find.c:233
+#, c-format
+msgid ""
+"Could not find\n"
+"\"%s\""
+msgstr ""
+"འཚོལ་མ་འཐོབ་\n"
+"\"%s\""
+
+#: ../src/gui.c:177
+msgid "Edit comment"
+msgstr "བསམ་བཀོད་ཞུན་དག་འབད་"
+
+#: ../src/gui.c:493
+#, c-format
+msgid "%s [ %i Fuzzy left ]"
+msgid_plural "%s [ %i Fuzzy left ]"
+msgstr[0] "%s [ %i མི་གསལ་བ་ལྷག་ལུས་ ]"
+msgstr[1] "%s [ %i མི་གསལ་བ་ལྷག་ལུས་ ]"
+
+#: ../src/gui.c:493
+#: ../src/gui.c:497
+#: ../src/menus.c:324
+#: ../src/messages-table.c:320
+msgid "Fuzzy"
+msgstr "མི་གསལ་བ་"
+
+#: ../src/gui.c:497
+#, c-format
+msgid "%s [ No fuzzy left ]"
+msgstr "%s [ མི་གསལ་བ་ལྷག་ལུས་མེད་ ]"
+
+#: ../src/gui.c:505
+msgid "Sticky (Message & translation are the same)"
+msgstr "རྩི་ཅན་ (འཕྲིན་དོན་དང་སྐད་བསྒྱུར་གཅིག་པ་ཨིན།)"
+
+#: ../src/gui.c:507
+#: ../src/messages-table.c:328
+msgid "Translated"
+msgstr "སྐད་བསྒྱུར་འབད་འབདཝ།"
+
+#: ../src/gui.c:516
+#, c-format
+msgid "%s [ %i Untranslated left ]"
+msgid_plural "%s [ %i Untranslated left ]"
+msgstr[0] "%s [ %i སྐད་བསྒྱུར་མ་འབད་མི་ལྷག་ལུས་ ]"
+msgstr[1] "%s [ %i སྐད་བསྒྱུར་མ་འབད་མི་ལྷག་ལུས་ ]"
+
+#: ../src/gui.c:516
+#: ../src/gui.c:518
+#: ../src/messages-table.c:311
+msgid "Untranslated"
+msgstr "སྐད་བསྒྱུར་མ་འབད་མི།"
+
+#: ../src/gui.c:518
+#, c-format
+msgid "%s [ No untranslated left ]"
+msgstr "%s [ སྐད་བསྒྱུར་མ་འབད་མི་ལྷག་ལུས་མེད་ ]"
+
+#: ../src/gui.c:537
+#, c-format
+msgid "Message %d / %d / Status: %s (Message contains plural forms)"
+msgstr "འཕྲིན་དོན་ %d / %d / གནས་ཚད་:: %s (འཕིན་དོན་གྱི་ནང་ན་མང་ཚིག་རྣམ་པ་ཚུ་ཡོད)"
+
+#: ../src/gui.c:541
+#, c-format
+msgid "Message %d / %d / Status: %s"
+msgstr "འཕྲིན་དོན་ %d / %d / གནས་ཚད་: %s"
+
+#: ../src/header_stuff.c:495
+msgid "gtranslator -- edit header"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- མགོ་ཡིག་ཞུན་དག་འབད།"
+
+#: ../src/header_stuff.c:519
+msgid "Comments:"
+msgstr "བསམ་བཀོད་ཚུ་:"
+
+#: ../src/header_stuff.c:526
+msgid "Project name:"
+msgstr "ལས་འགུལ་མིང་:"
+
+#: ../src/header_stuff.c:532
+msgid "Project version:"
+msgstr "ལས་འགུལ་ཐོན་རིམ:"
+
+#: ../src/header_stuff.c:539
+msgid "Pot file creation date:"
+msgstr "པོཊི་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་བའི་ཚེས་གྲངས་:"
+
+#: ../src/header_stuff.c:545
+msgid "Po file revision date:"
+msgstr "པི་ཨོ་ཡིག་སྣོད་བསྐྱར་སྦྱོང་ཚེས་གྲངས་:"
+
+#: ../src/header_stuff.c:559
+msgid "Report message string bugs to:"
+msgstr "ལུ་ འཕྲིན་དོན་ཡིག་རྒྱུན་རྐྱེན་ཚུ་སྙན་ཞུ་འབད་:"
+
+#: ../src/header_stuff.c:572
+msgid "Generator:"
+msgstr "བཟོ་བཏོན་པ་:"
+
+#: ../src/header_stuff.c:576
+msgid "Project"
+msgstr "ལས་འགུལ།"
+
+#: ../src/header_stuff.c:582
+msgid "Use my options to complete the following entries:"
+msgstr "ངེས་ཀྱི་གདམ་ཁ་འདི་ འོག་གི་ཐོ་བཀོད་ཚུ་མཇུག་བསྡུ་ནིའི་དོན་ལས་ ལག་ལེན་འཐབ་:"
+
+#: ../src/header_stuff.c:595
+msgid "Translator's name:"
+msgstr "སྐད་བསྒྱུར་པའི་མིང་:"
+
+#: ../src/header_stuff.c:601
+msgid "Translator's e-mail:"
+msgstr "སྐད་བསྒྱུར་པའི་གློག་འཕྲིན་:"
+
+#: ../src/header_stuff.c:608
+#: ../src/prefs.c:501
+msgid "Language:"
+msgstr "སྐད་ཡིག:"
+
+#: ../src/header_stuff.c:615
+#: ../src/prefs.c:513
+msgid "Language group's email:"
+msgstr "སྐད་ཡིག་སྡེ་ཚན་གྱི་གློག་འཕྲིན་:"
+
+#: ../src/header_stuff.c:622
+#: ../src/prefs.c:519
+msgid "Charset:"
+msgstr "ཡིག་འབྲུའི་གཞི་སྒྲིག:"
+
+#: ../src/header_stuff.c:629
+#: ../src/prefs.c:524
+msgid "Encoding:"
+msgstr "ཨིན་ཀོ་ཌིང་:"
+
+#: ../src/header_stuff.c:637
+msgid "Translator and Language"
+msgstr "སྐད་བསྒྱུར་པ་དང་སྐད་ཡིག།"
+
+#: ../src/history.c:195
+msgid "_File/Recen_t files/"
+msgstr "ཡིག་སྣོད་/འཕྲལ་གྱི་ཡིག་སྣོད་ཚུ་/  (_F)(_t)"
+
+#: ../src/history.c:243
+#, c-format
+msgid "Open %s"
+msgstr " %s ཁ་ཕྱེ།"
+
+#: ../src/languages.c:37
+msgid "Afrikaans"
+msgstr "ཨཕ་རི་ཀཱནསི་"
+
+#: ../src/languages.c:41
+msgid "Albanian"
+msgstr "ཨཱལ་བཱ་ནི་ཡཱན་"
+
+#: ../src/languages.c:45
+msgid "Arabic"
+msgstr "ཨ་ར་བིཀ་"
+
+#: ../src/languages.c:49
+msgid "Azerbaijani Turkish"
+msgstr "ཨ་ཛར་བའི་ཇ་ནི་ ཊར་ཀིཤ་"
+
+#: ../src/languages.c:53
+msgid "Basque"
+msgstr "བཱགསིཀ་"
+
+#: ../src/languages.c:57
+msgid "Belarusian"
+msgstr "བེ་ལ་རུ་སི་ཡཱན་"
+
+#: ../src/languages.c:61
+msgid "Bengali"
+msgstr "བེང་ག་ལི་"
+
+#: ../src/languages.c:65
+msgid "Britton"
+msgstr "བིརིཊི་ཊོན།"
+
+#: ../src/languages.c:69
+msgid "Bulgarian"
+msgstr "བཱལ་ག་རི་ཡཱན་"
+
+#: ../src/languages.c:73
+msgid "Catalan"
+msgstr "ཀེ་ཊ་ལཱན།"
+
+#: ../src/languages.c:77
+msgid "Chinese/Simplified"
+msgstr "རྒྱ་ནག་/འཇམ་བཟོས་"
+
+#: ../src/languages.c:81
+msgid "Chinese/Traditional"
+msgstr "རྒྱ་ནག་/སྔོན་སྲོལ་"
+
+#: ../src/languages.c:85
+msgid "Croatian"
+msgstr "ཀོརོ་ཤི་ཡཱན་"
+
+#: ../src/languages.c:89
+msgid "Czech"
+msgstr "ཅེཛི་"
+
+#: ../src/languages.c:93
+msgid "Danish"
+msgstr "ཌེ་ནིཤ་"
+
+#: ../src/languages.c:97
+msgid "Dutch"
+msgstr "ཌཆ་"
+
+#: ../src/languages.c:105
+msgid "English/Canada"
+msgstr "ཨིང་ལིཤ་/ཀེ་ན་ཌ།"
+
+#: ../src/languages.c:109
+msgid "English/GB"
+msgstr "ཨིང་ལིཤ་/ཇི་བི་"
+
+#: ../src/languages.c:113
+msgid "English/USA"
+msgstr "ཨིང་ལིཤ་/ཡུ་ཨེསི་ཨེ་"
+
+#: ../src/languages.c:117
+msgid "Esperanto"
+msgstr "ཨིསི་པེ་རེན་ཊོ།"
+
+#: ../src/languages.c:121
+msgid "Estonian"
+msgstr "ཨིསི་ཊོ་ནི་ཡཱན།"
+
+#: ../src/languages.c:125
+msgid "Persian"
+msgstr "པར་ཤི་ཡཱན།"
+
+#: ../src/languages.c:129
+msgid "Finnish"
+msgstr "ཕིན་ནིཤ།"
+
+#: ../src/languages.c:133
+msgid "French"
+msgstr "ཕིརེནཆི།"
+
+#: ../src/languages.c:137
+msgid "Galician"
+msgstr "གེ་ལི་ཤི་ཡཱན།"
+
+#: ../src/languages.c:141
+msgid "German"
+msgstr "ཇར་མཱན།"
+
+#: ../src/languages.c:145
+msgid "Greek"
+msgstr "གི་རིཀ།"
+
+#: ../src/languages.c:149
+msgid "Gujarati"
+msgstr "གུ་ཇ་ར་ཏི།"
+
+#: ../src/languages.c:153
+msgid "Hebrew"
+msgstr "ཧེབ་བིརིའུ།"
+
+#: ../src/languages.c:157
+msgid "Hindi"
+msgstr "ཧིན་དི།"
+
+#: ../src/languages.c:161
+msgid "Hungarian"
+msgstr "ཧང་ག་རི་ཡཱན།"
+
+#: ../src/languages.c:165
+msgid "Icelandic"
+msgstr "ཨའིསི་ལེན་ཌིཀ།"
+
+#: ../src/languages.c:169
+msgid "Indonesian"
+msgstr "ཨིན་ཌོ་ནེ་ཤི་ཡཱན།"
+
+#: ../src/languages.c:173
+msgid "Italian"
+msgstr "ཨི་ཊ་ལི་ཡཱན།"
+
+#: ../src/languages.c:177
+msgid "Irish"
+msgstr "ཨའི་རིཤ།"
+
+#: ../src/languages.c:181
+msgid "Japanese"
+msgstr "ཇ་པ་ནིསི།"
+
+#: ../src/languages.c:185
+msgid "Kannada"
+msgstr "ཀཱན་ན་ད།"
+
+#: ../src/languages.c:189
+msgid "Korean"
+msgstr "ཀོ་རི་ཡཱན།"
+
+#: ../src/languages.c:193
+msgid "Latvian"
+msgstr "ལེཊི་བི་ཡཱན།"
+
+#: ../src/languages.c:197
+msgid "Lithuanian"
+msgstr "ལི་ཐུ་འ་ནི་ཡཱན།"
+
+#: ../src/languages.c:201
+msgid "Malay/Bahasa Melayu"
+msgstr "མ་ལེ་/བ་ཧ་ས་ མི་ལ་ཡུ་"
+
+#: ../src/languages.c:205
+msgid "Maltese"
+msgstr "མཱལ་ཊི་སི།"
+
+#: ../src/languages.c:209
+msgid "Marathi"
+msgstr "མ་ར་ཐི།"
+
+#: ../src/languages.c:213
+msgid "Norwegian/Bokmaal"
+msgstr "ནོར་ཝེ་ཇི་ཡཱན་/བོག་མཱལ་"
+
+#: ../src/languages.c:217
+msgid "Norwegian/Nynorsk"
+msgstr "ནོར་ཝེ་ཇི་ཡཱན/ནི་ནོརཀ།"
+
+#: ../src/languages.c:221
+msgid "Punjabi"
+msgstr "པཱན་ཇ་བི།"
+
+#: ../src/languages.c:225
+msgid "Polish"
+msgstr "པོ་ལིཤ།"
+
+#: ../src/languages.c:229
+msgid "Portuguese"
+msgstr "པོར་ཊུ་གིསི། "
+
+#: ../src/languages.c:233
+msgid "Portuguese/Brazil"
+msgstr "པོར་ཊུ་གིསི་/བ་ར་ཛི་ལི་"
+
+#: ../src/languages.c:237
+msgid "Romanian"
+msgstr "རོ་མ་ནི་ཡཱན། "
+
+#: ../src/languages.c:241
+msgid "Russian"
+msgstr "ར་ཤི་ཡཱན།"
+
+#: ../src/languages.c:245
+msgid "Serbian/Cyrillic"
+msgstr "སར་བི་ཡཱན་/སི་རི་ལིཀ།"
+
+#: ../src/languages.c:249
+msgid "Serbian/Latin"
+msgstr "སར་བི་ཡཱན་/ལེ་ཊིན།"
+
+#: ../src/languages.c:253
+msgid "Slovak"
+msgstr "སོལོ་བཱཀ།"
+
+#: ../src/languages.c:257
+msgid "Slovenian"
+msgstr "སོལོ་བི་ནི་ཡཱན།"
+
+#: ../src/languages.c:261
+msgid "Spanish"
+msgstr "སིཔེ་ནིཤི།"
+
+#: ../src/languages.c:265
+msgid "Spanish/Spain"
+msgstr "སིཔེ་ནིཤི་/སིཔེན།"
+
+#: ../src/languages.c:269
+msgid "Spanish/Mexico"
+msgstr "སིཔེ་ནིཤི་/མེག་སི་ཀོ།"
+
+#: ../src/languages.c:273
+msgid "Swedish"
+msgstr "སུའི་ཌིཤི།"
+
+#: ../src/languages.c:277
+msgid "Tagalog"
+msgstr "ཏ་ག་ལོག"
+
+#: ../src/languages.c:281
+msgid "Tamil"
+msgstr "ཏ་མིལ།"
+
+#: ../src/languages.c:285
+msgid "Telugu"
+msgstr "ཏེ་ལུ་གུ།"
+
+#: ../src/languages.c:289
+msgid "Thai"
+msgstr "ཐཱའི།"
+
+#: ../src/languages.c:293
+msgid "Turkish"
+msgstr "ཊར་ཀིཤ།"
+
+#: ../src/languages.c:297
+msgid "Ukrainian"
+msgstr "ཡུཀ་རའི་ནི་ཡཱན།"
+
+#: ../src/languages.c:301
+msgid "Uzbekian"
+msgstr "ཨུཛ་བེ་ཀི་ཡཱན་"
+
+#: ../src/languages.c:305
+msgid "Vietnamese"
+msgstr "ཝེཊི་ན་མིསི།"
+
+#: ../src/languages.c:309
+msgid "Walloon"
+msgstr "ཝེལ་ལཱུན།"
+
+#: ../src/languages.c:313
+msgid "Welsh"
+msgstr "ཝེལཤི།"
+
+#: ../src/learn.c:379
+msgid "gtranslator learn buffer statistics:"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་གནད་ཁོངས་ཚད་རྩིས་ཚུ་ལྷབ་:"
+
+#: ../src/learn.c:382
+#, c-format
+msgid "Learn buffer filename: `%s`"
+msgstr "གནད་ཁོངས་ཡིག་སྣོད་མིང་ལྷབ་: `%s`"
+
+#.
+#. * Translators: This means the encoding of the learn buffer (XML) file.
+#.
+#: ../src/learn.c:388
+#, c-format
+msgid "Encoding: `%s'"
+msgstr "ཨིན་ཀོ་ཌིང་: `%s'"
+
+#.
+#. * Translators: "Serial number" of the learn buffer - means # of file updates.
+#.
+#: ../src/learn.c:394
+#, c-format
+msgid "Serial: `%i'"
+msgstr "ཨང་རིམ་: `%i'"
+
+#.
+#. * Translators: That's the number of message entries in the learn buffer.
+#.
+#: ../src/learn.c:400
+#, c-format
+msgid "Number of entries: `%i'"
+msgstr "ཐོ་བཀོད་ཚུའི་ཨང་: `%i'"
+
+#: ../src/main.c:85
+msgid "Auto translate the po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་འདི་རང་བཞིན་སྐད་བསྒྱུར་འབད།"
+
+#: ../src/main.c:85
+#: ../src/main.c:101
+msgid "FILENAME"
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#: ../src/main.c:89
+msgid "Show build specifications"
+msgstr "བཟོ་བརྩིགས་གསལ་བཀོད་ཚུ་སྟོན།"
+
+#: ../src/main.c:93
+msgid "Export learn buffer to a plain po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་ཉག་རྐྱང་ལུ་ལྷབ་ནིའི་གནད་ཁོངས་ཕྱིར་འདྲེན་འབད།"
+
+#: ../src/main.c:93
+msgid "PO_FILE"
+msgstr "PO_FILE"
+
+#: ../src/main.c:97
+msgid "Specify main window geometry"
+msgstr "སྒོ་སྒྲིག་གི་ཐིག་རྩིས་གཙོ་བོ་གསལ་བཀོད་འབད་"
+
+#: ../src/main.c:97
+msgid "GEOMETRY"
+msgstr "ཐིག་རྩིས་"
+
+#: ../src/main.c:101
+msgid "Learn the file completely"
+msgstr "ཡིག་སྣོད་མཇུག་བསྡུཝ་སྦེ་ལྷབ།"
+
+#: ../src/main.c:105
+msgid "Show learn buffer statistics"
+msgstr "ལྷབ་ནིའི་གནད་ཁོངས་ཚད་རྩིས་ཚུ་སྟོན།"
+
+#: ../src/main.c:148
+#, c-format
+msgid "Error during GConf initialization: %s."
+msgstr "ཇིཀོནཕི་ འགོ་འབྱེད་འབད་བའི་སྐབས་འཛོལ་བ་: %s"
+
+#: ../src/main.c:180
+msgid "gtranslator build information/specs:"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་བཟོ་བརྩིགས་བརྡ་དོན་/གསལ་བཀོད་ཚུ་:"
+
+#: ../src/main.c:182
+msgid "Version and build date:"
+msgstr "ཐོན་རིམ་དང་བཟོ་བརྩིགས་ཚེས་གྲངས་:"
+
+#: ../src/main.c:184
+msgid "Build GLib / Gtk+ / GNOME / XML versions:"
+msgstr "GLib / Gtk+ / GNOME / XML ཐོན་རིམ་ཚུ་བཟོ་བརྩིགས་འབད་:"
+
+#: ../src/main.c:186
+msgid "Colorschemes directory:"
+msgstr "ཚོས་གཞིའི་འཆར་ལས་ཚུའི་སྣོད་ཐོ་:"
+
+#: ../src/main.c:188
+msgid "Scripts directory:"
+msgstr "ཡིག་ཚུགས་ཚུའི་སྣོད་ཐོ་:"
+
+#: ../src/main.c:190
+msgid "Window icon:"
+msgstr "སྒོ་སྒྲིག་ངོས་དཔར་:"
+
+#: ../src/main.c:192
+msgid "Own locale directory:"
+msgstr "རང་གི་ལོ་ཀེལ་སྣོད་ཐོ་:"
+
+#: ../src/main.c:194
+msgid "Default learn buffer file location:"
+msgstr "སྔོན་སྒྲིག་ལྷབ་ནིའི་གནད་ཁོངས་ཡིག་སྣོད་གནས་ཁོངས་:"
+
+#.
+#. * As everything seemed to went fine, print out a nice
+#. *  message informing the user about the success.
+#.
+#: ../src/main.c:459
+#, c-format
+msgid "Learned file `%s' successfully for your learn buffer.\n"
+msgstr "ཁྱོད་ཀྱི་ལྷབ་ནིའི་གནད་ཁོངས་ཀྱི་དོན་ལུ་ཡིག་སྣོད་ `%s' མཐར་འཁྱོལཝ་སྦེ་ལྷབ་ཡོདཔ།\n"
+
+#.
+#. * Give us another small status feedback about the export.
+#.
+#: ../src/main.c:501
+#, c-format
+msgid "Exported learn buffer to file `%s'.\n"
+msgstr "ཡིག་སྣོད་ `%s' ལུ་ལྷབ་ནིའི་གནད་ཁོངས་ཕྱིར་འདྲེན་འབད་ཡོདཔ།\n"
+
+#: ../src/menus.c:48
+msgid "_Go"
+msgstr "འགྱོ་(_G)"
+
+#: ../src/menus.c:58
+msgid "_Compile"
+msgstr "ཕྱོགས་སྒྲིག་འབད་(_C)"
+
+#: ../src/menus.c:59
+#: ../src/menus.c:279
+msgid "Compile the po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་འདི་ཕྱོགས་སྒྲིག་འབད་"
+
+#: ../src/menus.c:65
+msgid "_Update"
+msgstr "དུས་མཐུན་བཟོ་(_U)"
+
+#: ../src/menus.c:66
+#: ../src/menus.c:283
+msgid "Update the po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་འདི་དུས་མཐུན་བཟོ་"
+
+#: ../src/menus.c:73
+msgid "Add bookmark"
+msgstr "དེབ་རྟགས་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/menus.c:74
+msgid "Add a bookmark for this message in this po file"
+msgstr "འ་ནི་པི་ཨོ་ཡིག་སྣོད་ནང་གི་འཕྲིན་དོན་འདི་གི་དོན་ལུ་ དེབ་རྟགས་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/menus.c:81
+msgid "Aut_otranslate..."
+msgstr "རང་བཞིན་སྐད་བསྒྱུར་འབད་ནི་...(_o)"
+
+#: ../src/menus.c:82
+msgid "Autotranslate the file with information from your learn buffer"
+msgstr "ཁྱོད་རའི་ལྷབ་ནིའི་གནད་ཁོངས་ལས་བརྡ་དོན་དང་གཅིག་ཁར་འབད་མི་ ཡིག་སྣོད་འདི་རང་བཞིན་སྐད་བསྒྱུར་འབད་"
+
+#: ../src/menus.c:89
+msgid "Remove all translations..."
+msgstr "སྐད་བསྒྱུར་པ་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་..."
+
+#: ../src/menus.c:90
+msgid "Remove all existing translations from the po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་འདི་ལས་ ཡོད་བཞིན་པའི་སྐད་བསྒྱུར་པ་ཚུ་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/menus.c:98
+msgid "Open from _URI..."
+msgstr "ཡུ་ཨར་ཨའི་ལས་ཁ་ཕྱེ་...(_U)"
+
+#: ../src/menus.c:99
+msgid "Open a po file from a given URI"
+msgstr "བྱིན་ཡོད་པའི་ཡུ་ཨར་ཨའི་ཅིག་ལས པི་ཨོ་ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/menus.c:109
+msgid "Recen_t files"
+msgstr "འཕྲལ་གྱི་ཡིག་སྣོད་ཚུ་(_t)"
+
+#: ../src/menus.c:136
+msgid "_Query..."
+msgstr "འདྲི་དཔྱད་...(_Q)"
+
+#: ../src/menus.c:137
+#: ../src/menus.c:344
+msgid "Query for a string"
+msgstr "ཡིག་རྒྱུན་གྱི་དོན་ལས་འདྲི་དཔྱད་:"
+
+#: ../src/menus.c:144
+msgid "_Header..."
+msgstr "མགོ་ཡིག་...(_H)"
+
+#: ../src/menus.c:145
+msgid "Edit po file header"
+msgstr "པི་ཨོ་ཡིག་སྣོད་མགོ་ཡིག་ཞུན་དག་འབད་"
+
+#: ../src/menus.c:152
+msgid "C_omment..."
+msgstr "བསམ་བཀོད་...(_o)"
+
+#: ../src/menus.c:153
+msgid "Edit message comment"
+msgstr "འཕྲིན་དོན་བསམ་བཀོད་ཞུན་དག་འབད་"
+
+#: ../src/menus.c:160
+msgid "Copy _message -> translation"
+msgstr "འཕྲིན་དོན་ -> སྐད་བསྒྱུར་འབད་ནི་ འདྲ་བཤུས་རྐྱབས་ (_m)"
+
+#: ../src/menus.c:161
+msgid "Copy the original message contents and paste them as translation"
+msgstr "འཕྲིན་དོན་གྱི་ནང་དོན་ངོ་མ་ཚུ་འདྲ་བཤུས་རྐྱབས་ཞིནམ་ལས་ འདི་ཚུ་སྐད་བསྒྱུར་འབད་ནི་སྦེ་སྦྱར་"
+
+#: ../src/menus.c:168
+msgid "Fu_zzy"
+msgstr "མི་གསལ་བ་(_z)"
+
+#: ../src/menus.c:169
+msgid "Toggle fuzzy status of a message"
+msgstr "འཕྲིན་དོན་ཅིག་གི་སོར་སྟོན་མི་གསལ་བའི་གནས་ཚད་"
+
+#: ../src/menus.c:183
+msgid "_First"
+msgstr "དང་པ་ (_F)"
+
+#: ../src/menus.c:184
+#: ../src/menus.c:300
+msgid "Go to the first message"
+msgstr "འཕྲིན་དོན་དང་པ་འདི་ལུ་འགྱོ་"
+
+#: ../src/menus.c:190
+msgid "_Back"
+msgstr "རྒྱབ་(_B)"
+
+#: ../src/menus.c:191
+#: ../src/menus.c:304
+msgid "Move back one message"
+msgstr "འཕྲིན་དོན་གཅིག་རྒྱབ་སྤོ་"
+
+#: ../src/menus.c:198
+msgid "_Next"
+msgstr "ཤུལ་མམ།(_N)"
+
+#: ../src/menus.c:199
+#: ../src/menus.c:309
+msgid "Move forward one message"
+msgstr "འཕྲིན་དོན་གཅིག་གདོང་བསྐྱོད་འབད་"
+
+#: ../src/menus.c:205
+msgid "_Last"
+msgstr "མཇུག(_L)"
+
+#: ../src/menus.c:206
+#: ../src/menus.c:313
+msgid "Go to the last message"
+msgstr "མཇུག་གི་འཕྲིན་དོན་ལུ་འགྱོ་"
+
+#: ../src/menus.c:213
+msgid "_Go to..."
+msgstr "ལུ་འགྱོ་...(_G)"
+
+#: ../src/menus.c:214
+msgid "Goto specified message number"
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་འཕྲིན་དོན་ཨང་ལུ་འགྱོ་"
+
+#: ../src/menus.c:220
+msgid "Next fuz_zy"
+msgstr "ཤུལ་མའི་མི་གསལ་བ་ (_z)"
+
+#: ../src/menus.c:221
+msgid "Go to next fuzzy message"
+msgstr "ཤུལ་མའི་མི་གསལ་བའི་འཕྲིན་དོན་ལུ་འགྱོ་"
+
+#: ../src/menus.c:227
+msgid "Next _untranslated"
+msgstr "ཤུལ་མའི་སྐད་བསྒྱུར་མ་རྐྱབས་མི་(_u)"
+
+#: ../src/menus.c:228
+#: ../src/menus.c:318
+msgid "Go to next untranslated message"
+msgstr "ཤུལ་མའི་སྐད་བསྒྱུར་མ་རྐྱབས་མི་འཕྲིན་དོན་ལུ་འགྱོ་"
+
+#: ../src/menus.c:238
+msgid "_Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།(_B)"
+
+#: ../src/menus.c:239
+msgid "_Colorschemes"
+msgstr "ཚོས་གཞིའི་འཆར་ལས་(_C)"
+
+#: ../src/menus.c:253
+msgid "gtranslator _website"
+msgstr "ཇི་ཊའནསི་ལེ་ཊར་ཝེབ་ཀྱི་ས་ཁོངས།(_w)"
+
+#: ../src/menus.c:254
+msgid "gtranslator's homepage on the web"
+msgstr "ཝེབ་གུ་ཇི་ཊཱནསི་ལེ་ཊར་གི་ཁྱིམ་གྱི་ཤོག་ལེབ་"
+
+#: ../src/menus.c:265
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#: ../src/menus.c:266
+msgid "Open a po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/menus.c:269
+msgid "Save"
+msgstr "སྲུངས་"
+
+#: ../src/menus.c:270
+msgid "Save File"
+msgstr "ཡིག་སྣོད་སྲུང་བཞག་འབད་"
+
+#: ../src/menus.c:273
+msgid "Save as"
+msgstr "བཟུམ་སྦེ་སྲུངས་"
+
+#: ../src/menus.c:274
+msgid "Save file with a different name"
+msgstr "ཡིག་སྣོད་འདི་མིང་སོ་སོ་ཅིག་གིས་སྲུངས་"
+
+#: ../src/menus.c:278
+msgid "Compile"
+msgstr "ཕྱོགས་སྒྲིག་འབད་"
+
+#: ../src/menus.c:282
+msgid "Update"
+msgstr "དུས་མཐུན་བཟོ་"
+
+#: ../src/menus.c:286
+msgid "Header"
+msgstr "མགོ་ཡིག་"
+
+#: ../src/menus.c:287
+msgid "Edit the header"
+msgstr "མགོ་ཡིག་འདི་ཞུན་དག་འབད་"
+
+#: ../src/menus.c:291
+msgid "Undo"
+msgstr "འབད་བཤོལ་"
+
+#: ../src/menus.c:292
+msgid "Undo the last performed action"
+msgstr "མཇུག་ལུ་ལཱ་འགན་འགྲུབ་མི་བྱ་བ་འདི་འབད་བཤོལ་འབད་"
+
+#: ../src/menus.c:299
+msgid "First"
+msgstr "དང་པ་"
+
+#: ../src/menus.c:303
+msgid "Back"
+msgstr "རྒྱབ་"
+
+#: ../src/menus.c:308
+msgid "Next"
+msgstr "ཤུལ་མམ་"
+
+#: ../src/menus.c:312
+msgid "Last"
+msgstr "མཇུག་"
+
+#: ../src/menus.c:317
+msgid "Missing"
+msgstr "བརླག་སྟོར་ཞུགས་ཡོདཔ་"
+
+#: ../src/menus.c:325
+msgid "Go to the next fuzzy translation"
+msgstr "ཤུལ་མའི་མི་གསལ་བ་སྐད་བསྒྱུར་འབད་ནི་ལུ་འགྱོ་"
+
+#: ../src/menus.c:330
+msgid "Go to"
+msgstr "ལུ་འགྱོ་"
+
+#: ../src/menus.c:331
+msgid "Go to specified message number"
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་འཕྲིན་དོན་ཨང་ལུ་འགྱོ་"
+
+#: ../src/menus.c:334
+msgid "Find"
+msgstr "འཚོལ་"
+
+#: ../src/menus.c:335
+msgid "Find string in po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་ནང་ཡིག་རྒྱུན་འཚོལ་"
+
+#: ../src/menus.c:339
+msgid "Replace string in po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་ནང་ཡིག་རྒྱུན་ཚབ་བཙུགས་"
+
+#: ../src/message.c:91
+msgid "Couldn't get the message!"
+msgstr "འཕྲིན་དོན་འདི་འཐོབ་མ་ཚུགས་!"
+
+#: ../src/message.c:113
+msgid "There are no fuzzy messages left."
+msgstr "འདི་ནང་ལུ་མི་གསལ་བའི་འཕྲིན་དོན་ལྷག་ལུས་མེད།"
+
+#: ../src/message.c:137
+msgid "All messages seem to be translated."
+msgstr "འཕྲིན་དོན་ཚུ་ཆ་མཉམ་སྐད་བསྒྱུར་འབད་ཚར་ཚརཝ་བཟུམ་ཅིག་འདུག"
+
+#: ../src/message.c:271
+#, c-format
+msgid "gtkspell error: %s\n"
+msgstr "ཇི་ཊི་ཀེ་ཡིག་སྡེབ་འཛོལ་བ་: %s\n"
+
+#: ../src/message.c:272
+#, c-format
+msgid ""
+"GtkSpell was unable to initialize.\n"
+" %s"
+msgstr ""
+"ཇི་ཊི་ཀེ་ཡིག་སྡེབ་འདི་ འགོ་འབྱེད་འབད་མ་ཚུགས།\n"
+" %s"
+
+#: ../src/message.c:312
+msgid "gtranslator -- edit plural forms of message translation"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- འཕྲིན་དོན་སྐད་བསྒྱུར་གྱི་མང་ཚིག་རྣམ་པ་ཚུ་ཞུན་དག་འབད།"
+
+#: ../src/messages-table.c:248
+msgid "Original"
+msgstr "ངོ་མ་"
+
+#: ../src/open.c:144
+#, c-format
+msgid "Couldn't open compiled gettext file `%s'!"
+msgstr "ཕྱོགས་སྒྲིག་འབད་ཡོད་པའི་ཚིག་ཡིག་ལེན་ཡིག་སྣོད་ `%s' ཁ་ཕྱེ་མ་ཚུགས་!"
+
+#: ../src/open.c:192
+#, c-format
+msgid "Couldn't open compressed gettext file `%s'!"
+msgstr "ཨེབ་བཙུགས་འབད་ཡོད་པའི་ཚིག་ཡིག་ལེན་ཡིག་སྣོད་ `%s' ཁ་ཕྱེ་མ་ཚུགས་!"
+
+#.
+#. * The %s format here stands for the used
+#. *  compressions program (gzip, bzip2 etc.)
+#.
+#: ../src/open.c:202
+#, c-format
+msgid "Couldn't open %s'd gettext file `%s'!"
+msgstr " %s'd ཚིག་ཡིག་ལེན་ཡིག་སྣོད་ `%s' ཁ་ཕྱེ་མ་ཚུགས་!"
+
+#: ../src/open.c:271
+#, c-format
+msgid "Couldn't open zip'ed po file `%s'!"
+msgstr "ཛིཔ་'ཨི་ཌི་ པི་ཨོ་ཡིག་སྣོད་ `%s' ཁ་ཕྱེ་མ་ཚུགས་!"
+
+#: ../src/parse.c:456
+#, c-format
+msgid ""
+"Error in file \"%s\"\n"
+"at line %d.\n"
+"Please check the file and try again."
+msgstr ""
+"ཡིག་སྣོད་ནང་འཛོལ་བ་ \"%s\"\n"
+"གྲལ་ཐིག་གུ་ %d.\n"
+"ཡིག་སྣོད་ཞིབ་དཔྱད་འབད་ཞིནམ་དང་ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../src/parse.c:511
+#, c-format
+msgid ""
+"The file is empty:\n"
+"%s"
+msgstr ""
+"ཡིག་སྣོད་འདི་སྟོངམ་ཨིན་:\n"
+"%s"
+
+#: ../src/parse.c:533
+#, c-format
+msgid "The file `%s' doesn't exist at all!"
+msgstr "ཡིག་སྣོད་ `%s' མིན་འདུག!"
+
+#.
+#. * Provide a default po->header to avoid segfaults (#62244)
+#.
+#: ../src/parse.c:665
+msgid "Header record not found - defaulting from preferences"
+msgstr "མགོ་ཡིག་དརན་ཐོ་འཚོལ་མ་ཐོབ་-གཞི་བསྟུན་ཚུ་ལས་སྔོན་སྒྲིག་འབད་དོ།"
+
+#: ../src/parse.c:681
+#, c-format
+msgid "gtranslator -- %s"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- %s"
+
+#: ../src/parse.c:893
+#, c-format
+msgid ""
+"You are saving a file with a .pot extension.\n"
+"Pot files are generated by the compilation process.\n"
+"Your file should likely be named '%s.po'."
+msgstr ""
+"ཁྱོད་ཀྱིས་ཡིག་སྣོད་ཅིག་  .pot རྒྱ་བསྐྱེད་དང་གཅིག་ཁར་སྲུང་བཞག་འབད་དོ།\n"
+"པོཊི་ཡིག་སྣོད་ཚུ་ ཕྱོགས་སྒྲིག་ལས་སྦྱོར་གྱིས་བཟོ་བཏོན་འབད་ཡོད།\n"
+"ཁྱོད་ཀྱི་ཡིག་སྣོད་ཀྱིས་  '%s.po' བཟུམ་སྦེ་མིང་བཏགས་དགོ"
+
+#: ../src/parse.c:955
+#, c-format
+msgid "Could not open file `%s' for writing!"
+msgstr "འབྲི་ནིའི་དོན་ལུ་ཡིག་སྣོད་`%s'་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/parse.c:1007
+#, c-format
+msgid ""
+"File %s\n"
+"contains %d fuzzy message"
+msgid_plural ""
+"File %s\n"
+"contains %d fuzzy messages"
+msgstr[0] ""
+"ཡིག་སྣོད་ %s\n"
+"ནང་ན་ %d མི་གསལ་བའི་འཕྲིན་དོན་ཡོད་"
+msgstr[1] ""
+"ཡིག་སྣོད་ %s\n"
+"ནང་ན་ %d མི་གསལ་བའི་འཕྲིན་དོན་ཡོད་"
+
+#: ../src/parse.c:1278
+msgid "Sorry, msgfmt isn't available on your system!"
+msgstr "དགོངམས་མ་ཁྲེལ་ འཕྲིན་དོན་རྩ་སྒྲིག་འདི་ཁྱོད་ཀྱི་རིམ་ལུགས་གུ་ལུ་འཐོབ་ཚུགསཔ་མེད!"
+
+#: ../src/parse.c:1313
+#, c-format
+msgid ""
+"Compile successful:\n"
+"%s"
+msgstr ""
+"ཕྱོགས་སྒྲིག་འབད་ནི་མཐར་འཁྱོལ་ཅན:\n"
+"%s"
+
+#: ../src/preferences.c:180
+msgid "Couldn't generate the current date!"
+msgstr "ད་ལྟོའི་ཚེས་གྲངས་འདི་བཟོ་བཏོན་འབད་མ་ཚུགས་!"
+
+#: ../src/prefs.c:212
+msgid "Hotkey indicating character:"
+msgstr "ཡིག་འབྲུ་བརྡ་སྟོན་འབད་མི་མགྱོགས་ལྡེ་:"
+
+#: ../src/prefs.c:332
+msgid "gtranslator -- options"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- གདམ་ཁ་ཚུ་"
+
+#.
+#. * Files page
+#.
+#: ../src/prefs.c:351
+msgid "Files"
+msgstr "ཡིག་སྣོད་ཚུ་"
+
+#: ../src/prefs.c:352
+#: ../src/prefs.c:531
+#: ../src/prefs.c:588
+msgid "General"
+msgstr "ཡོངས་ཁྱབ་"
+
+#: ../src/prefs.c:353
+msgid "Warn if po file contains fuzzy translations"
+msgstr "པི་ཨོ་ཡིག་སྣོད་ནང་ན་ མི་གསལ་བའི་སྐད་བསྒྱུར་རྐྱབས་རྐྱབས་ཚུ་ཡོདཔ་ཨིན་པ་ཅིན་ ཉེན་བརྡ་འབད་"
+
+#: ../src/prefs.c:357
+msgid "Delete compiled files (e.g. \"project.gmo\")"
+msgstr "ཕྱོགས་སྒྲིག་འབད་འབད་བའི་ཡིག་སྣོད་ (e.g. \"project.gmo\") ཚུ་བཏོན་གཏང་"
+
+#: ../src/prefs.c:361
+msgid "Autosave"
+msgstr "རང་བཞིན་སྲུང་བཞག་"
+
+#: ../src/prefs.c:362
+msgid "Automatically save at regular intervals"
+msgstr "དུས་རྒྱུན་བར་མཚམས་ཚུ་ལུ་ རང་བཞིན་གྱིས་སྲུང་བཞག་འབད་"
+
+#: ../src/prefs.c:370
+msgid "Autosave interval:"
+msgstr "རང་བཞིན་སྲུང་བཞག་བར་མཚམས་:"
+
+#: ../src/prefs.c:371
+msgid "Append a suffix to automatically saved files"
+msgstr "ཡིག་སྣོད་ཚུ་རང་བཞིན་གྱི་སྲུང་བཞག་འབད་ནིའི་དོན་ལས་ རྗེས་ཚིག་ཅིག་མཇུག་བསྣོད་འབད་"
+
+#: ../src/prefs.c:378
+msgid "Suffix:"
+msgstr "རྗེས་ཚིག་:"
+
+#: ../src/prefs.c:379
+msgid "Recent files"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་ཚུ་"
+
+#: ../src/prefs.c:387
+msgid "Maximum number of entries in the recent files list:"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་ཀྱི་ཐོ་ཡིག་འདི་ནང་ ཐོ་བཀོད་ཚུ་གི་མང་མཐའ་གྲངས་:"
+
+#: ../src/prefs.c:388
+msgid "Check recent files before showing in recent files list"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་ཚུ་ ད་ལྟོའི་ཡིག་སྣོད་ཀྱི་ཐོ་ཡིག་ནང་མ་སྟོན་པའི་ཧེ་མ་ཞིབ་དཔྱད་འབད།"
+
+#.
+#. * Editor page
+#.
+#: ../src/prefs.c:396
+msgid "Editor"
+msgstr "ཞུན་དག་པ་"
+
+#: ../src/prefs.c:399
+msgid "Text display"
+msgstr "ཚིག་ཡིག་བཀྲམ་སྟོན་"
+
+#: ../src/prefs.c:400
+msgid "Highlight syntax of the translation message"
+msgstr "སྐད་བསྒྱུར་འབད་ནིའི་འཕྲིན་དོན་གྱི་ཚིག་སྦྱོར་གཙོ་དམིགས་འབད་"
+
+#: ../src/prefs.c:411
+msgid "Syntax color scheme to use:"
+msgstr "ལག་ལེན་འཐབ་ནི་ལུ་ཚིག་སྦྱོར་ཚོས་གཞིའི་འཆར་ལས:"
+
+#: ../src/prefs.c:412
+msgid "Use special character to indicate white space"
+msgstr "བར་སྟོང་དཀརཔོ་བརྡ་སྟོན་འབད་ནིའི་དོན་ལས་ དམིགས་བསལ་གྱི་ཡིག་འབྲུ་ལག་ལེན་འཐབ་"
+
+#: ../src/prefs.c:420
+msgid "Apply own fonts"
+msgstr "རང་གི་ཡིག་གཟུགས་ཚུ་འཇུག་སྤྱོད་འབད་"
+
+#: ../src/prefs.c:424
+msgid "gtranslator -- font selection/msgid font"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- ཡིག་གཟུགས་སེལ་འཐུ་/འཕྲིན་དོན་ཨའི་ཌི་ཡིག་གཟུགས།"
+
+#: ../src/prefs.c:428
+msgid "Original text font:"
+msgstr "ཚིག་ཡིག་གི་ཡིག་གཟུགས་ངོ་མ་:"
+
+#: ../src/prefs.c:429
+msgid "gtranslator -- font selection/msgstr font"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- ཡིག་གཟུགས་སེལ་འཐུ་/འཕྲིན་དོན་སྐད་བསྒྱུར་འབད་འབད་བའི་ཡིག་གཟུགས།"
+
+#: ../src/prefs.c:433
+msgid "Translation font:"
+msgstr "སྐད་བསྒྱུར་འབད་ནིའི་ཡིག་གཟུགས་:"
+
+#: ../src/prefs.c:434
+msgid "Apply own colors:"
+msgstr "རང་གི་ཚོས་གཞི་ཚུ་འཇུག་སྤྱོད་འབད་:"
+
+#: ../src/prefs.c:438
+msgid "gtranslator -- foreground color"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- གདོང་གཞིའི་ཚོས་གཞི།"
+
+#: ../src/prefs.c:442
+msgid "Foreground color:"
+msgstr "གདོང་གཞིའི་ཚོས་གཞི་:"
+
+#: ../src/prefs.c:443
+msgid "gtranslator -- background color"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ -- རྒྱབ་གཞིའི་ཚོས་གཞི།"
+
+#: ../src/prefs.c:447
+msgid "Background:"
+msgstr "རྒྱབ་གཞི་:"
+
+#: ../src/prefs.c:448
+msgid "Contents"
+msgstr "ནང་དོན་ཚུ་"
+
+#: ../src/prefs.c:449
+msgid "Remove fuzzy status if message is changed"
+msgstr "འཕྲིན་དོན་འདི་བསྒྱུར་བཅཆོས་འབད་ཡོད་ཨིན་པ་ཅིན་མི་གསལ་བའི་གནས་ཚད་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/prefs.c:453
+msgid "Keep obsolete messages in the po files"
+msgstr "ཕན་མེད་འཕྲིན་དོན་ཚུ་ པི་ཨོ་ཡིག་སྣོད་ཚུ་ནང་བཞག་"
+
+#: ../src/prefs.c:457
+msgid "Spell checking"
+msgstr "སྡེབ་དཔྱད།"
+
+#: ../src/prefs.c:458
+msgid "Instant spell checking"
+msgstr "འཕྲལ་མྱུར་ཡིག་སྡེབ་ཞིབ་དཔྱད་འབད་ནི་"
+
+#: ../src/prefs.c:464
+msgid "Use special dictionary:"
+msgstr "དམིགས་བསལ་གྱི་སྣོད་ཐོ་ལག་ལེན་འཐབ་:"
+
+#.
+#. * PO header page
+#.
+#: ../src/prefs.c:482
+msgid "PO header"
+msgstr "པི་ཨོ་མགོ་ཡིག་"
+
+#: ../src/prefs.c:485
+msgid "Personal Information"
+msgstr "རང་དོན་གྱི་བརྡ་དོན་"
+
+#: ../src/prefs.c:489
+msgid "Author's name:"
+msgstr "རྩོམ་པ་པོའི་མིང་:"
+
+#: ../src/prefs.c:493
+msgid "Author's email:"
+msgstr "རྩོམ་པ་པོའི་གློག་འཕྲིན་:"
+
+#: ../src/prefs.c:494
+msgid "Language settings"
+msgstr "སྐད་ཡིག་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/prefs.c:507
+msgid "Language code:"
+msgstr "སྐད་ཡིག་ཨང་རྟགས་:"
+
+#.
+#. * Functionality page
+#.
+#: ../src/prefs.c:529
+msgid "Functionality"
+msgstr "ལས་འགན་"
+
+#: ../src/prefs.c:532
+msgid "Enable the functionality to update a po file from within gtranslator"
+msgstr "ཇི་ཊཱནསི་ལེ་ཊར་ནང་འཁོད་ལས་ པི་ཨོ་ཡིག་སྣོད་ཅིག་དུས་མཐུན་བཟོ་ནི་ལུ་ལས་འགན་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/prefs.c:536
+msgid "Enable the functionality to remove all translations from a po file"
+msgstr "པི་ཨོ་ཡིག་སྣོད་ལས་སྐད་བསྒྱུར་ཚུ་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་ནི་ལུ་ལས་འགན་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/prefs.c:540
+msgid "Show instant comment view in main pane"
+msgstr "འཕྲལ་མྱུར་གྱི་བསམ་བཀོད་འདི་ པེན་གཙོ་བོ་ནང་སྟོན་"
+
+#: ../src/prefs.c:544
+msgid "Display special dialog for messages with plural forms"
+msgstr "མང་ཚིག་རྣམ་པ་ཚུའི་ཐོག་ལས་འཕྲིན་དོན་ཚུའི་དོན་ལུ་དམིགས་བསལ་གྱི་ཌའི་ལོག་བཀྲམ་སྟོན་འབད།"
+
+#: ../src/prefs.c:548
+msgid "Save geometry on exit and restore it on startup"
+msgstr "ཐིག་རྩིས་འདི་ཕྱིར་ཐོན་གུ་སྲུང་བཞག་འབད་ཞིནམ་ལས་ འགོ་བཙུགས་ལུ་སོར་ཆུད་འབད།"
+
+#: ../src/prefs.c:552
+msgid "Messages table"
+msgstr "འཕྲིན་དོན་གྱི་ཐིག་ཁྲམ་"
+
+#: ../src/prefs.c:553
+msgid "Show the messages table (requires restart)"
+msgstr "འཕྲིན་དོན་གྱི་ཐིག་ཁྲམ་(འགོ་བཙུགས་དགོཔ་ཨིན་) འདི་སྟོན་"
+
+#: ../src/prefs.c:557
+msgid "Collapse all entries by default"
+msgstr "སྔོན་སྒྲིག་གིས་སྦེ་ ཐོ་བཀོད་ཚུ་ཆ་མཉམ་ཧྲམ་གཏང་"
+
+#: ../src/prefs.c:561
+msgid "Use own colors for messages table groups"
+msgstr "འཕྲིན་དོན་ཚུའི་ཐིག་ཁྲམ་སྡེ་ཚན་ཚུའི་དོན་ལས་རང་གི་ཚོས་གཞི་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../src/prefs.c:570
+msgid "Fuzzy entries color:"
+msgstr "མི་གསལ་བའི་ཐོ་བཀོད་ཚུའི་ཚོས་གཞི་:"
+
+#: ../src/prefs.c:576
+msgid "Untranslated entries color:"
+msgstr "སྐད་བསྒྱུར་མ་འབད་བའི་ཐོ་བཀོད་ཚུའི་ཚོས་གཞི་:"
+
+#: ../src/prefs.c:582
+msgid "Translated entries color:"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་ཐོ་བཀོད་ཚུའི་ཚོས་གཞི་:"
+
+#.
+#. * Autotranslate page
+#.
+#: ../src/prefs.c:587
+msgid "Autotranslation"
+msgstr "རང་བཞིན་སྐད་བསྒྱུར་རྐྱབས་ནི་"
+
+#: ../src/prefs.c:589
+msgid "Also query the personal learn buffer while autotranslating untranslated messages"
+msgstr "ཡང་ སྐད་བསྒྱུར་མ་འབད་བའི་འཕྲིན་དོན་ཚུ་རང་བཞིན་སྐད་བསྒྱུར་འབད་བའི་སྐབས་རང་དོན་ལྷབ་ནིའི་གནད་ཁོངས་འདྲི་དཔྱད་འབད།"
+
+#: ../src/prefs.c:593
+msgid "Automatically learn a newly translated message"
+msgstr "གསརཔ་འབད་སྐད་བསྒྱུར་འབད་འབད་བའི་འཕྲིན་དོན་ཅིག་ རང་བཞིན་གྱིས་ལྷབ་"
+
+#: ../src/prefs.c:597
+msgid "Fuzzy matching"
+msgstr "མི་གསལ་བ་མཐུན་སྒྲིག་འབད་ནི་"
+
+#: ../src/prefs.c:604
+msgid "Use \"fuzzy\" matching routines for learn buffer queries"
+msgstr " \"fuzzy\" མཐུན་སྒྲིག་འབད་ནིའི་རྒྱུན་ལས་འདི་ ལྷབ་ནིའི་གནད་ཁོངས་འདྲི་དཔྱད་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་"
+
+#: ../src/prefs.c:611
+msgid "Minimal required similarity persentage for fuzzy queries:"
+msgstr "མི་གསལ་བ་འདྲི་དཔྱད་ཚུ་གི་དོན་ལུ་ ཆ་འདྲ་བའི་བརྒྱ་ཆ་དགོས་མཁོ་ཉུང་ཤོས་:"
+
+#: ../src/prefs.c:660
+msgid "Please enter your name!"
+msgstr "ཁྱོད་རའི་མིང་ཐོ་བཀོད་འབད་གནང་!"
+
+#: ../src/prefs.c:680
+msgid "Please enter your EMail address!"
+msgstr "ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་ཐོ་བཀོད་འབད་གནང་!"
+
+#: ../src/prefs.c:700
+msgid "Please enter a valid EMail address!"
+msgstr "ནུས་ཅན་གློག་འཕྲིན་ཁ་བྱང་ཅིག་ཐོ་བཀོད་འབད་གནང་!"
+
+#: ../src/replace.c:175
+msgid "No replacements made!"
+msgstr "ཚབ་མ་ག་ནི་ཡང་མ་བཟོ་བས་!"
+
+#.
+#. * Based on a suggestion by Pablo Saratxaga (/thanks pablo!).
+#. *
+#. * Translators: you should translate this foo'sh string into something
+#. *  another than a 'Y' to avoid the usage of the mid dot (U+00B7) in the
+#. *   text displaying routines of gtranslator.
+#.
+#: ../src/runtime-config.c:72
+msgid "Y"
+msgstr "ཝའི་"
+
+#.
+#. * Translators: this character is used if the middle dot
+#. *  can't be used under your locale.
+#.
+#: ../src/runtime-config.c:88
+#: ../src/runtime-config.c:93
+msgid "^"
+msgstr "^"
+
+#: ../src/save.c:116
+#, c-format
+msgid "Couldn't save compiled gettext file `%s'!"
+msgstr "ཕྱོགས་སྒྲིག་འབད་འབད་བའི་ཚིག་ཡིག་ལེན་ཡིག་སྣོད་ `%s' སྲུང་བཞག་འབད་མ་ཚུགས་!"
+
+#: ../src/save.c:159
+#, c-format
+msgid "Couldn't save compressed gettext file `%s'!"
+msgstr "ཨེབ་བཙུགས་འབད་ཡོད་པའི་ཚིག་ཡིག་ལེན་ཡིག་སྣོད་ `%s' སྲུང་བཞག་འབད་མ་ཚུགས་!"
+
+#.
+#. * The %s format here stands for the used
+#. *  compressions program (gzip, bzip2 etc.)
+#.
+#: ../src/save.c:169
+#, c-format
+msgid "Couldn't save %s'd gettext file `%s'!"
+msgstr " %s'd ཚིག་ཡིག་ལེན་ཡིག་སྣོད་ `%s' སྲུང་བཞག་འབད་མ་ཚུགས་!"
+
+#: ../src/save.c:228
+#, c-format
+msgid "Couldn't save zip'ed po file `%s'!"
+msgstr "ཛིཔ་'ཨི་ཌི་ པི་ཨོ་ཡིག་སྣོད་ `%s' སྲུང་བཞག་འབད་མ་ཚུགས་!"
+
+#: ../src/session.c:86
+msgid "Session restored successfully."
+msgstr "ལཱ་ཡུན་སོར་ཆུད་མཐར་འཁྱོལ་ཅན་སྦ་འབད་ཡོད་"
+
+#: ../src/stylistics.c:265
+msgid "No font set! Using default font"
+msgstr "ཡིག་གཟུགས་ཆ་ཚན་མེད་! སྔོན་སྒྲིག་ཡིག་གཟུགས་ལག་ལེན་འཐབ་དོ་"
+
+#.
+#. * Use gtranslator's font in this case -- should be a fallback font
+#. *  for your language.
+#.
+#: ../src/stylistics.c:271
+msgid "-misc-fixed-medium-r-normal-*-*-120-*-*-c-*-iso8859-1"
+msgstr "-སྣ་ཚོགས་-གཏན་བཟོས་-འབྲིང་མ་-ཨར་-སྤྱིར་བཏང་-*-*-༡༢༠-*-*-སི་-*-ཨའི་ཨེསི་ཨོ་༨༨༥༩-༡"
+
+#: ../src/update.c:102
+msgid "No POTFILES.in found!"
+msgstr "འཚོལ་ཞིབ་ནང་POTFILESམིན་འདུག་!"
+
+#: ../src/update.c:113
+msgid "Po file is uptodate."
+msgstr "པི་ཨོ་ཡིག་སྣོད་འདི་དུས་མཐུན་ཡོད།"
+
+#: ../src/update.c:120
+msgid "The update was successfull."
+msgstr "དུས་མཐུན་འདི་མཐར་འཁྱོལ་ནུག"
+
+#: ../src/update.c:125
+msgid "An error occurred while updating the po file."
+msgstr "པི་ཨོ་ཡིག་སྣོད་དུས་མཐུན་བཟོ་བའི་སྐབས་འཛོལ་བ་འབྱུང་ཡོདཔ།"
+
+#: ../src/utils.c:308
+#: ../src/utils.c:325
+#, c-format
+msgid "Can't create directory `%s'!"
+msgstr "སྣོད་ཐོ་ `%s' གསར་བསྐྲུན་འབད་མ་ཚུགས་"
+
+#: ../src/utils_gui.c:144
+#, c-format
+msgid "The geometry string \"%s\" couldn't be parsed!"
+msgstr "ཐིག་རྩིས་ཡིག་རྒྱུན་ \"%s\" འདི་མིང་དཔྱད་འབད་མ་ཚུགས་!"
+
+#: ../src/utils_gui.c:360
+#, c-format
+msgid "You are not permitted to access file '%s'."
+msgstr "ཁྱོད་ཀྱིས་ཡིག་སྣོད་ '%s' འཛུལ་སྤྱོད་འབད་ནི་ལུ་གནང་བ་མིན་འདུག"
+
+#: ../src/utils_gui.c:378
+#, c-format
+msgid ""
+"You do not have permission to modify file '%s'.\n"
+"Please save a new copy of it to a place of your choice and get write\n"
+"permission for it."
+msgstr ""
+"ཁྱོད་ལུ་ཡིག་སྣོད་ '%s' ལེགས་བཅོས་བཟོ་ནི་ལུ་གནང་བ་མིན་འདུག་\n"
+"ཁཡོད་ཀྱི་གདམ་ཁ་གི་ས་གནས་ལུ་འདྲ་བཤུས་གསརཔ་སྲུང་བཞག་འབད་གནང་\n"
+"དེ་ལས་དེ་གི་དོན་ལས་གནང་བ་འབྲི་འབྲིཝ་ལེན།"
+
+#: ../src/utils_gui.c:467
+#, c-format
+msgid "The necessary decompression program `%s' is not installed!"
+msgstr "ཉེར་མཁོ་ཨེབ་བཙུགས་བཤོལ་ནིའི་ལས་རིམ་ `%s' གཞི་བཙུགས་མ་འབད་བས་!"
+
+#: ../src/utils_gui.c:472
+#, c-format
+msgid "The necessary compression program `%s' is not installed!"
+msgstr "ཉེར་མཁོ་ཨེབ་བཙུགས་འབད་ནི་ལས་རིམ་ `%s' འདི་གཞི་བཙུགས་མ་འབད་བས་!"
+
+#: ../src/vfs-handle.c:121
+#, c-format
+msgid "Couldn't create temporary directory `%s'!"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོ་ `%s' གསར་བསྐྲུན་འབད་མ་ཚུགས་!"
+
+#: ../src/vfs-handle.c:149
+#, c-format
+msgid "File `%s' couldn't be found!"
+msgstr "ཡིག་སྣོད་ `%s' འདི་འཚོལ་མ་འཐོབ་!"
+
+#: ../src/vfs-handle.c:154
+#, c-format
+msgid "Malformed URI `%s' entered!"
+msgstr "བཟོ་ཉེས་གྱུར་བའི་ཡུ་ཨར་ཨའི་ `%s' ཐོ་བཀོད་འབད་ཡོད་!"
+
+#: ../src/vfs-handle.c:159
+#, c-format
+msgid "Host `%s' couldn't be found!"
+msgstr "ཧོསིཊི་ `%s' འཚོལ་མ་འཐོབ་!"
+
+#: ../src/vfs-handle.c:164
+#, c-format
+msgid "Hostname `%s' is not valid!"
+msgstr "ཧོསིཊི་ནེམ་ `%s' འདི་ནུས་ཅན་མེན་!"
+
+#: ../src/vfs-handle.c:169
+#, c-format
+msgid "Host `%s' has no address!"
+msgstr "ཧོསིཊི་ `%s' ལུ་ཁ་བྱང་མེད་!"
+
+#: ../src/vfs-handle.c:174
+msgid "Transfer interrupted!"
+msgstr "གནས་སོར་བར་དཀྲོགས་འབད་ཡོདཔ་!"
+
+#~ msgid "gtranslator PO file editor"
+#~ msgstr "ཇི་སྐད་བསྒྱུར་པའི་ པི་ཨོ་ ཡིག་སྣོད་ཞུན་དག་པ།"
+#~ msgid "Gettext translation"
+#~ msgstr "ཚིག་ཡིག་ལེད་ སྐད་བསྒྱུར་འབད་ནི་"
+#~ msgid "Gettext translation template"
+#~ msgstr "ཚིག་ཡིག་ལེན་སྐད་བསྒྱུར་འབད་ནི་ཊེམ་པེལེཊི་"
+#~ msgid "All files"
+#~ msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ།"
+#~ msgid "Open file for translation"
+#~ msgstr "སྐད་བསྒྱུར་འབད་ནིའི་དོན་ལུ་ཡིག་སྣོད་ཁ་ཕྱེ་"
+#~ msgid "Save file as..."
+#~ msgstr "...བཟུམ་སྦེ་ཡིག་སྣོད་སྲུང་བཞག་འབད་"
+#~ msgid "No header for this file/domain"
+#~ msgstr "འ་ནི་ཡིག་སྣོད་/ཌོ་མེན་གྱི་དོན་ཡི་མགོ་ཡིག་མེད་"
+#~ msgid "Kurdish"
+#~ msgstr "ཀར་ཌིཤ།"
+#~ msgid "Mongolian"
+#~ msgstr "མོང་གོ་ལི་ཡཱན།"
+#~ msgid "Urdu"
+#~ msgstr "ཨུར་དུ་"
+#~ msgid "Couldn't open '%s': %s\n"
+#~ msgstr "'%s' ཁ་ཕྱེ་མ་ཚུགས་: %s\n"
+#~ msgid "Error autosaving file: %s"
+#~ msgstr "འཛོལ་བ་ རང་བཞིན་སྲུང་བཞག་འབད་ནིའི་ཡིག་སྣོད་: %s"
+#~ msgid "Parser output"
+#~ msgstr "མིང་དཔྱདཔ་ཨའུཊི་པུཊི།"
+#~ msgid "Failed opening file '%s': %s"
+#~ msgstr "ཡིག་སྣོད་ '%s' ཁ་ཕྱེ་ནི་་འཐུས་ཤོར་འབྱུང་ཡོདཔ་: %s"
+#~ msgid "Gettext returned a null message domain list."
+#~ msgstr "ཚིག་ཡིག་ལེན་གྱིས་ སྟོང་ཆ་འཕྲིན་དོན་ཌོ་མེན་ཐོ་ཡིག་ཅིག་སླར་ལོག་ཡོདཔ།"
+#~ msgid "No messages obtained from parser."
+#~ msgstr "མིང་དཔྱདཔ་ལས་ འཕྲིན་དོན་ཚུ་མ་ལེན།"
+#~ msgid "N/A"
+#~ msgstr "ཨེན་/ཨེ་"
+#~ msgid " Categories: "
+#~ msgstr " དབྱེ་རིམ་ཚུ་:"
+#~ msgid ""
+#~ "Note: It was not possible to determine GNU header for plural forms. Your "
+#~ "GNU gettext tools may be too old or they do not contain a suggested value "
+#~ "for your language."
+#~ msgstr ""
+#~ "དྲན་འཛིན་: མང་ཚིག་རྣམ་པ་ཚུ་གི་དོན་ལུ་ ཇི་ཨེན་ཡུ་མགོ་ཡིག་གཏན་འབེབས་བཟོ་ནི་འདི་འབད་མི་ཚུགས། ཁྱོད་"
+#~ "ཀྱི་ཇི་ཨེན་ཡུ་ཚིག་ཡིག་ལེན་ལག་ཆས་ཚུ་ རྒས་སོངམ་འོང་ ཡང་ན་ འདི་ཚུ་གི་ནང་ ཁྱོད་རའི་སྐད་ཡིག་གི་དོན་"
+#~ "ལུ་ བསམ་འཆར་བཀོད་ཡོད་པའི་གནས་གོང་ མེདཔ་འོང་།"
+#~ msgid ""
+#~ "Note: Your settings do not contain a plural forms string. These data "
+#~ "retrieved from GNU gettext tools."
+#~ msgstr ""
+#~ "དྲན་འཛིན་: ཁྱོད་ཀྱི་སྒྲིག་སྟངས་འདི་ནང་ མང་ཚིག་རྣམ་པའི་ཡིག་རྒྱུན་མེད། འ་ནི་གནད་སྡུད་ ཇི་ཨེན་ཡུ་ཚིག་"
+#~ "ཡིག་ལེན་ལག་ཆས་ཚུ་ལས་སླར་འདྲེན་འབད་ཡོདཔ་ཨིན།"
+#~ msgid ""
+#~ "Note: Your settings contain an invalid plural forms string. These data "
+#~ "retrieved from GNU gettext tools."
+#~ msgstr ""
+#~ "དྲན་འཛིན་: ཁྱོད་ཀྱི་སྒྲིག་སྟངས་ཚུ་ནང་ ནུས་མེད་མང་ཚིག་རྣམ་པའི་ཡིག་རྒྱུན་ཅིག་ཡོད། འ་ནི་གནད་སྡུད་ ཇི་"
+#~ "ཨེན་ཡུ་ཚིག་ཡིག་ལེན་ལག་ཆས་ཚུ་ལས་སླར་འདྲེན་འབད་ཡོད།"
+#~ msgid "Use self contact info from Evolution Data Server"
+#~ msgstr "ཨི་བོ་ལུ་ཤཱན་གནད་སྡུད་སར་བར་ལས་ རང་གི་འབྲེལ་བ་འཐབ་སའི་བརྡ་དོན་ལག་ལེན་འཐབ་"
+#~ msgid "<i>Unable to get email from Evolution Data Server.</i>"
+#~ msgstr "<i>ཨི་བོ་ལུ་ཤཱན་གནད་སྡུད་སར་བར་ལས་ གློག་འཕྲིན་ལེན་མ་ཚུགས།</i>"
+#~ msgid "My name:"
+#~ msgstr "ངེས་ཀྱི་མིང་:"
+#~ msgid "My Email:"
+#~ msgstr "ངེས་ཀྱི་གློག་འཕྲིན་:"
+#~ msgid "<b>Author's info</b>"
+#~ msgstr "<b>རྩོམ་པ་པོའི་བརྡ་དོན་</b>"
+#~ msgid "<i>Unable to get personal info from Evolution Data Server.</i>"
+#~ msgstr "<i>ཨི་བོ་ལུ་ཤཱན་གནད་སྡུད་སར་བར་ལས་ རང་དོན་གྱི་བརྡ་དོན་ལེན་མ་ཚུགས།</i>"
+#~ msgid "Saving file failed: %s"
+#~ msgstr "ཡིག་སྣོད་སྲུང་བཞག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོད་: %s"
+#~ msgid "Sorry, msginit isn't available on your system!"
+#~ msgstr "དགོངསམ་མ་ཁྲེལ་ འཕྲིན་དོན་འགོ་ཐོག་འདི་ ཁྱོད་ཀྱི་རིམ་ལུགས་གུ་ལུ་འཐོབ་ཚུགསཔ་མིན་འདུག་!"
+

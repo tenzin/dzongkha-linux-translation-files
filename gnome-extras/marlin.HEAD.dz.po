@@ -1,0 +1,2112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: marlin.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-16 03:19+0100\n"
+"PO-Revision-Date: 2007-06-28 10:21+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../marlin.desktop.in.h:1
+msgid "Lets you edit audio samples under gnome"
+msgstr "ཇི་ནོམ་གི་འོག་ལུ་ ཁྱོད་ཀྱིས་ རྣར་ཉན་དཔེ་ཚད་ཚུ་ཞུན་དག་འབད་བཅུགཔ་ཨིན་"
+
+#: ../marlin.desktop.in.h:2
+#: ../src/main.c:522
+#: ../src/main.c:526
+#: ../src/marlin-window.c:1836
+msgid "Marlin Sample Editor"
+msgstr "མར་ལིན་ དཔེ་ཚད་ཞུན་དག་པ་"
+
+#: ../marlin/marlin-cross-fader.c:210
+#, c-format
+msgid "%d seconds"
+msgstr "%d སྐར་ཆ་"
+
+#: ../marlin/marlin-cross-fader.c:212
+#, c-format
+msgid "%.3f seconds"
+msgstr "%.3f སྐར་ཆ་"
+
+#: ../marlin/marlin-file.c:75
+#, c-format
+msgid ""
+"Error opening file '%s'\n"
+"Error: '%s'"
+msgstr ""
+"ཡིག་སྣོད་'%s'ཁ་ཕྱེ་ནི་ལུ་འཛོལ་བ་འདུག\n"
+"འཛོལ་བ་:'%s'"
+
+#: ../marlin/marlin-file.c:202
+msgid "Failed to allocate memory."
+msgstr "དྲན་ཚད་ སྤྲོད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ནུག"
+
+#: ../marlin/marlin-file.c:287
+#, c-format
+msgid "There was not enough space for '%s'"
+msgstr "'%s'དེ་གི་དོན་ལུ་ བར་སྟང་ལངམ་མིན་འདུག"
+
+#: ../marlin/marlin-file.c:292
+#, c-format
+msgid ""
+"Error writing data to '%s'\n"
+"Error: %s"
+msgstr ""
+"'%s'ལུ་འདྲི་ནིའི་དོན་ལུ་ གནད་སྡུད་འབྲི་ནི་ལུ་འཛོལ་བ་བྱུང་ནུག\n"
+"འཛོལ་བ:%s"
+
+#: ../marlin/marlin-file-chooser.c:93
+#: ../marlin/marlin-file-chooser.c:97
+#: ../marlin/marlin-file-chooser.c:98
+#: ../marlin/marlin-file-chooser.c:99
+#: ../marlin/marlin-file-chooser.c:100
+#: ../marlin/marlin-file-chooser.c:464
+#: ../marlin/marlin-file-chooser.c:474
+#: ../marlin/marlin-file-chooser.c:484
+#: ../marlin/marlin-file-chooser.c:494
+#: ../marlin/marlin-file-selection.c:122
+#: ../marlin/marlin-file-selection.c:123
+#: ../marlin/marlin-file-selection.c:124
+#: ../marlin/marlin-file-selection.c:125
+#: ../marlin/marlin-file-selection.c:126
+#: ../marlin/marlin-file-selection.c:421
+#: ../marlin/marlin-file-selection.c:431
+#: ../marlin/marlin-file-selection.c:440
+#: ../marlin/marlin-file-selection.c:449
+#: ../marlin/marlin-file-selection.c:458
+#: ../marlin/marlin-gst-extras.c:337
+#: ../marlin/marlin-gst-extras.c:341
+#: ../marlin/marlin-gst-extras.c:355
+#: ../marlin/marlin-gst-extras.c:402
+#: ../plugins/marlin-extract.c:665
+#: ../src/marlin-progress-window.c:101
+#: ../marlin/marlin-progress-dialog.c:167
+msgid "Unknown"
+msgstr "བམ་ཤེསཔ་"
+
+#: ../marlin/marlin-file-chooser.c:436
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ་"
+
+#: ../marlin/marlin-file-chooser.c:449
+#: ../marlin/marlin-file-selection.c:418
+#: ../src/dialogs/marlin-information-dialog.c:483
+msgid "Name:"
+msgstr "མིང:"
+
+#: ../marlin/marlin-file-chooser.c:460
+#: ../marlin/marlin-file-selection.c:428
+msgid "Mime Type:"
+msgstr "མ་ཡིམ་བཟུམ་ཡོད་མི་:"
+
+#: ../marlin/marlin-file-chooser.c:470
+#: ../marlin/marlin-file-selection.c:437
+#: ../plugins/marlin-generate-waveform.c:349
+#: ../src/dialogs/marlin-information-dialog.c:583
+#: ../src/marlin-clipboard-info.c:153
+msgid "Length:"
+msgstr "རིང་ཚད:"
+
+#: ../marlin/marlin-file-chooser.c:480
+#: ../marlin/marlin-file-selection.c:446
+#: ../src/dialogs/marlin-information-dialog.c:607
+#: ../src/marlin-record.c:883
+msgid "Sample Rate:"
+msgstr "དཔེ་ཚད་གོང་ཚད:"
+
+#: ../marlin/marlin-file-chooser.c:490
+#: ../marlin/marlin-file-selection.c:455
+#: ../src/marlin-window-menu.c:229
+msgid "Channels:"
+msgstr "རྒྱུ་ལམ་ཚུ:"
+
+#: ../marlin/marlin-file-chooser.c:503
+msgid "Preview File"
+msgstr "སྔོན་བལྟོའི་ཡིག་སྣོད་"
+
+#: ../marlin/marlin-file-chooser.c:509
+msgid "Stop Preview"
+msgstr "སྔོན་བལྟ་བཀག་བཞག་"
+
+#: ../marlin/marlin-file-chooser.c:530
+msgid "Open File"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་"
+
+#: ../marlin/marlin-file-chooser.c:555
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ་"
+
+#: ../marlin/marlin-file-chooser.c:569
+msgid "Save Sample As..."
+msgstr "དཔེ་ཚད་དེ་བཟུམ་སྦེ་སྲུངས་་་"
+
+#: ../marlin/marlin-file-selection.c:149
+#: ../src/dialogs/marlin-information-dialog.c:625
+#: ../src/marlin-record.c:282
+#: ../src/marlin-record.c:878
+msgid "mono"
+msgstr "རྐྱང་པོ་"
+
+#: ../marlin/marlin-file-selection.c:149
+#: ../src/dialogs/marlin-information-dialog.c:625
+#: ../src/marlin-record.c:282
+#: ../src/marlin-record.c:878
+msgid "stereo"
+msgstr "གླུ་སྒྲོམ་"
+
+#: ../marlin/marlin-file-selection.c:467
+msgid "Play"
+msgstr "གཏང་"
+
+#: ../marlin/marlin-file-selection.c:473
+msgid "Stop"
+msgstr "བཀག་"
+
+#: ../marlin/marlin-load-pipeline.c:268
+#, c-format
+msgid ""
+"Unable to load %s\n"
+"Cannot find a decoder for %s"
+msgstr ""
+"%s་དེ་མངོན་གསལ་འབད་མི་ཚུགས་པས་\n"
+"%s དེ་གི་དོན་ལུ་ ཌི་ཀོ་ཌར་ཅིག་འཚོལ་མ་ཚུགས་"
+
+#. Make the marker name based on the position
+#: ../marlin/marlin-marker-model.c:300
+#: ../marlin/marlin-marker-view.c:1832
+#, c-format
+msgid "Marker %llu"
+msgstr "རྟགས་བཀལ་མི་%llu"
+
+#: ../marlin/marlin-marker-view.c:1231
+#: ../marlin/marlin-marker-view.c:1582
+#: ../src/marlin-window.c:5335
+#: ../src/marlin-window-menu.c:1388
+msgid "Remove Marker"
+msgstr "རྟགས་བཀལ་མི་རྩ་བསྐྲད་གཏང་"
+
+#: ../marlin/marlin-marker-view.c:1237
+#: ../marlin/marlin-marker-view.c:1559
+msgid "Move Marker"
+msgstr "རྟགས་བཀལ་མི་སྤོ་བཤུད་འབད་"
+
+#: ../marlin/marlin-marker-view.c:1262
+#: ../marlin/marlin-marker-view.c:1838
+#: ../marlin/marlin-marker-view.c:1946
+#: ../src/dialogs/marlin-add-marker-dialog.c:68
+#: ../src/dialogs/marlin-add-marker-dialog.c:197
+#: ../src/marlin-window.c:1240
+#: ../src/marlin-window-menu.c:1385
+msgid "Add Marker"
+msgstr "རྟགས་བཀལ་མི་ཁ་སྐོང་རྐྱབས་"
+
+#: ../marlin/marlin-marker-view.c:1900
+#: ../src/dialogs/marlin-add-marker-dialog.c:144
+#: ../src/dialogs/marlin-edit-marker-dialog.c:152
+msgid "_Name:"
+msgstr "མིང:(_N)"
+
+#: ../marlin/marlin-marker-view.c:1916
+#: ../src/dialogs/marlin-add-marker-dialog.c:162
+#: ../src/dialogs/marlin-edit-marker-dialog.c:171
+#: ../src/dialogs/marlin-move-cursor-dialog.c:310
+#: ../src/dialogs/marlin-select-region-dialog.c:407
+msgid "_Position:"
+msgstr "གནས་ས:(_P)"
+
+#: ../marlin/marlin-position-spinner.c:182
+#: ../src/marlin-window.c:1157
+msgid "_Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་(_F)"
+
+#: ../marlin/marlin-position-spinner.c:183
+#: ../src/marlin-window.c:1158
+msgid "_Time"
+msgstr "ཆུ་ཚོད་(_T)"
+
+#: ../marlin/marlin-position-spinner.c:184
+#: ../src/marlin-window.c:1159
+msgid "_Seconds"
+msgstr "སྐར་ཆ་ཚུ་(_S)"
+
+#: ../marlin/marlin-position-spinner.c:185
+#: ../src/marlin-window.c:1160
+msgid "T_ime & Frames"
+msgstr "ཆུ་ཚོད་དང་གཞི་ཁྲམ་ཚུ་(_i)"
+
+#: ../marlin/marlin-position-spinner.c:186
+#: ../src/marlin-window.c:1161
+msgid "_Beats"
+msgstr "བིཊིསི་(_B)"
+
+#: ../marlin/marlin-position-spinner.c:461
+msgid "frames"
+msgstr "གཞི་ཁྲམ་ཚུ་"
+
+#: ../marlin/marlin-position-spinner.c:465
+msgid "hrs:mins:secs"
+msgstr "ཆུ་ཚོད་:སྐར་མ་:སྐར་ཆ་"
+
+#: ../marlin/marlin-position-spinner.c:469
+msgid "seconds"
+msgstr "སྐར་ཆ་ཚུ་"
+
+#: ../marlin/marlin-position-spinner.c:473
+msgid "secs:frames"
+msgstr "སྐར་ཆ་ཚུ་:གཞི་ཁྲམ་ཚུ་"
+
+#: ../marlin/marlin-position-spinner.c:477
+msgid "beats"
+msgstr "བིཊིསི་"
+
+#: ../marlin/marlin-program.c:219
+msgid "Clipboard"
+msgstr "འཛིན་པང་"
+
+#: ../marlin/marlin-sample-view.c:1084
+#: ../marlin/marlin-sample-view.c:2425
+#: ../marlin/marlin-sample-view.c:2443
+#: ../marlin/marlin-sample-view.c:2520
+#: ../src/dialogs/marlin-select-region-dialog.c:164
+msgid "Select Region"
+msgstr "མངའ་ཁོངས་སེལ་འཐུ་འབད་"
+
+#: ../marlin/marlin-sample-view.c:2495
+msgid "Move Selection"
+msgstr "སེལ་འཐུ་སྤོ་བཤུད་འབད་"
+
+#: ../marlin/marlin-sample-view.c:2534
+#: ../src/marlin-window-menu.c:596
+#: ../src/marlin-window-menu.c:1233
+msgid "Select All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད་"
+
+#: ../marlin/marlin-sample-view.c:2621
+msgid "Clear Selected Region"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མངའ་ཁོངས་ཚུ་བསལ་"
+
+#: ../marlin/marlin-undo-manager.c:409
+msgid "Original Sample"
+msgstr "དཔེ་ཚད་ངོ་མ་"
+
+#: ../marlin/marlin-utils.c:165
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "སྐར་ཆ་%d"
+msgstr[1] "སྐར་ཆ་ཚུ་%d "
+
+#. I'm not sure about this use of ngettext
+#: ../marlin/marlin-utils.c:168
+#, c-format
+msgid "%d.%03d second"
+msgid_plural "%d.%03d seconds"
+msgstr[0] "%d.སྐར་ཆ་%03d"
+msgstr[1] "%dསྐར་ཆ་ཚུ་%03d"
+
+#: ../marlin/marlin-utils.c:171
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "སསྐར་མ་%d "
+msgstr[1] "སྐར་མ་%d"
+
+#: ../marlin/marlin-utils.c:172
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "ཆུ་ཚོད་%d"
+msgstr[1] "ཆུ་ཚོད་%d"
+
+#: ../marlin/marlin-utils.c:597
+#: ../src/dialogs/marlin-mp3-dialog.c:83
+#: ../src/dialogs/marlin-vorbis-dialog.c:83
+#: ../src/marlin-clipboard-info.c:51
+msgid "Mono"
+msgstr "རྐྱང་པོ་"
+
+#: ../marlin/marlin-utils.c:598
+#: ../src/dialogs/marlin-mp3-dialog.c:80
+#: ../src/dialogs/marlin-vorbis-dialog.c:80
+#: ../src/marlin-clipboard-info.c:51
+msgid "Stereo"
+msgstr "གླུ་སྒྲོམ་"
+
+#: ../marlin/marlin-x-utils.c:82
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr ""
+"གྲོགས་རམ་བཀྲམ་སྟོན་འབད་ནི་ལུ་འཛོལ་བ་ཅིག་འདུག:\n"
+"%s"
+
+#: ../marlin/marlin-x-utils.c:105
+msgid "-∞ dB (0.00%)"
+msgstr "-∞ dB (0.00%)"
+
+#: ../plugins/marlin-about-plugin.c:108
+#: ../plugins/marlin-about-plugin.c:184
+msgid "Plugin Details"
+msgstr "པ་ལག་ཨིན་རྒྱས་བཤད་"
+
+#: ../plugins/marlin-about-plugin.c:185
+msgid "Show details on all the plugins loaded"
+msgstr "མངོན་གསལ་འབད་ཡོད་པའི་པ་ལག་ཨིནསི་གུ་ རྒྱས་བཤད་ཚུ་སྟོན་"
+
+#: ../plugins/marlin-extract.c:540
+#: ../plugins/marlin-extract.c:548
+msgid "Unknown Artist"
+msgstr "མ་ཤེས་པའི་གླུ་གཞསཔ་"
+
+#: ../plugins/marlin-extract.c:541
+#: ../plugins/marlin-extract.c:549
+msgid "Unknown Album"
+msgstr "མ་ཤེས་པའི་གླུ་མཛོད་"
+
+#: ../plugins/marlin-extract.c:542
+#: ../plugins/marlin-extract.c:547
+msgid "Unknown Track"
+msgstr "མ་ཤེས་པའི་གླུ་རིམ་"
+
+#: ../plugins/marlin-extract.c:551
+#: ../src/dialogs/marlin-information-dialog.c:687
+msgid "Audio"
+msgstr "རྣར་ཉན་"
+
+#: ../plugins/marlin-extract.c:629
+#, c-format
+msgid "CD Length: %s\n"
+msgstr "སི་ཊི་རིང་ཚད: %s\n"
+
+#: ../plugins/marlin-extract.c:667
+#, c-format
+msgid "Track %d"
+msgstr "གླུ་རིམ་ %d"
+
+#: ../plugins/marlin-extract.c:852
+#, c-format
+msgid "Extracting %d: %s - %s"
+msgstr " %d ཕྱིར་འདོན་འབད་དོ: %s - %s"
+
+#: ../plugins/marlin-extract.c:901
+msgid "Extracting Audio"
+msgstr "རྣར་ཉན་ཕྱིར་འདོན་འབད་དོ་"
+
+#: ../plugins/marlin-extract.c:1076
+msgid "Various"
+msgstr "འདྲ་མིན་སྣ་ཚོགས་"
+
+#: ../plugins/marlin-extract.c:1191
+msgid "Extract Audio from CD"
+msgstr "སི་ཌི་ནང་ལས་རྣར་ཉན་ཕྱིར་འདོན་འབད་"
+
+#: ../plugins/marlin-extract.c:1203
+msgid "CD Drive"
+msgstr "སི་ཌི་འདྲེན་འཕྲུལ་"
+
+#: ../plugins/marlin-extract.c:1212
+msgid "_Extract from:"
+msgstr "ནང་ལས་ཕྱིར་འདོན་འབད:(_E)"
+
+#: ../plugins/marlin-extract.c:1224
+msgid "_Speed:"
+msgstr "མགྱོགས་ཚད:(_S)"
+
+#. Track list
+#: ../plugins/marlin-extract.c:1236
+msgid "Extract by Trac_k"
+msgstr "གླུ་རིམ་གིས་ཕྱིར་འདོན་འབད་(_k)"
+
+#: ../plugins/marlin-extract.c:1267
+#: ../plugins/marlin-extract.c:1271
+#: ../plugins/marlin-extract.c:1367
+msgid "Extract"
+msgstr "ཕྱིར་འདོན་"
+
+#: ../plugins/marlin-extract.c:1275
+#: ../plugins/marlin-extract.c:1278
+msgid "Track"
+msgstr "གླུ་རིམ་"
+
+#: ../plugins/marlin-extract.c:1283
+#: ../plugins/marlin-extract.c:1286
+msgid "Type"
+msgstr "དབྱེ་བ་"
+
+#: ../plugins/marlin-extract.c:1289
+#: ../plugins/marlin-extract.c:1292
+msgid "Start"
+msgstr "འགོ་བཙུགས་"
+
+#: ../plugins/marlin-extract.c:1295
+#: ../plugins/marlin-extract.c:1298
+msgid "End"
+msgstr "མཇུག་བསྡུ་"
+
+#: ../plugins/marlin-extract.c:1301
+#: ../plugins/marlin-extract.c:1304
+msgid "Length"
+msgstr "རིང་ཚད་"
+
+#: ../plugins/marlin-extract.c:1312
+msgid "Extract Entire _CD"
+msgstr "སི་ཌི་ཧྲིལ་བུ་ཕྱིར་འདོན་འབད་(_C)"
+
+#: ../plugins/marlin-extract.c:1328
+msgid "CD Length: 00:00.00"
+msgstr "སི་ཌི་ རིང་ཚད:༠༠:༠.༠༠"
+
+#: ../plugins/marlin-extract.c:1343
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ་"
+
+#: ../plugins/marlin-generate-waveform.c:322
+#: ../plugins/marlin-generate-waveform.c:375
+msgid "Generate Tone"
+msgstr "སྐད་ཀྱི་སྙན་ཆ་བཟོ་བཏོན་འབད་"
+
+#: ../plugins/marlin-generate-waveform.c:334
+msgid "Frequency:"
+msgstr "འབྱུང་ཐེངས:"
+
+#: ../plugins/marlin-generate-waveform.c:418
+msgid "Tone..."
+msgstr "སྐད་ཀྱི་སྙན་ཆ་་་"
+
+#: ../plugins/marlin-generate-waveform.c:419
+msgid "Generate a tone"
+msgstr "སྐད་ཀྱི་སྙན་ཆ་བཟོ་བཏོན་འབད་"
+
+#: ../plugins/marlin-test-plugin.c:43
+msgid "Test plugin"
+msgstr "པ་ལག་ཨིན་བརྟག་ཞིབ་འབད་"
+
+#: ../plugins/marlin-test-plugin.c:44
+msgid "The test plugin"
+msgstr "བརྟག་ཞིབ་པ་ལག་ཨིན་དེ་"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:80
+msgid "Remove Channel"
+msgstr "རྒྱུ་ལམ་དེ་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:122
+#, c-format
+msgid "Remove Channel: %s"
+msgstr "རྒྱུ་ལམ་: %sདེ་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:143
+msgid "Remove Channel:"
+msgstr "རྒྱུ་ལམ་དེ་རྩ་བསྐྲད་གཏང:"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:159
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:303
+msgid "_Left Channel"
+msgstr "གཡོན་གྱི་རྒྱུ་ལམ་(_L)"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:164
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:308
+msgid "_Right Channel"
+msgstr "གཡས་ཀྱི་རྒྱུ་ལམ་(_R)"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:168
+msgid "_Mix channels together"
+msgstr "རྒྱུ་ལམ་ཚུ་གཅིག་ཁར་སླ་བསྲེ་(_M)"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:179
+msgid "_Remove Channel"
+msgstr "རྒྱུ་ལམ་རྩ་བསྐྲད་གཏང་(_R)"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:226
+msgid "Add Channel"
+msgstr "རྒྱུ་ལམ་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:266
+#, c-format
+msgid "Add New Channel: %s"
+msgstr "རྒྱུ་ལམ་གསརཔ་ %s་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:287
+msgid "Add New Channel As:"
+msgstr "རྒྱུ་ལམ་གསརཔ་དེ་ བཟུམ་སྦེ་ཁ་སྐོང་རྐྱབས:"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:312
+msgid "_Clone data from original channel"
+msgstr "རྒྱུ་ལམ་ངོ་མ་དེ་ནང་ལས་གནད་སྡུད་རིགས་མཐུན་བཟོ་(_C)"
+
+#: ../src/dialogs/marlin-adjust-channel-dialogs.c:324
+msgid "_Add Channel"
+msgstr "རྒྱུ་ལམ་ཁ་སྐོང་རྐྱབས་(_A)"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:169
+msgid "Crossfade"
+msgstr "སྐེདཔ་བཏོགསྟེ་བཀྱག་ཉམས་ནི་"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:250
+#, c-format
+msgid "Crossfade Sample: %s"
+msgstr "སྐེདཔ་བཏོགསྟེ་བཀྱག་ཉམས་ནིའི་དཔེ་ཚད:%s"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:274
+msgid "Crossfade length:"
+msgstr "སྐེདཔ་བཏོགས་ཡལ་ནི་ རིང་ཚད་:"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:284
+msgid "ms"
+msgstr "ཨེམ་ཨེསི་"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:292
+msgid "Apply Crossfade at:"
+msgstr "སྐེདཔ་བཏོག་ཡལ་ནི་ འཇུག་སྤྱོད་འབད་:"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:308
+msgid "_Start"
+msgstr "འགོ་བཙུགས་(_S)"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:313
+msgid "_Finish"
+msgstr "མཇུག་བསྡུ་ (_F)"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:318
+msgid "_Both Start and Finish"
+msgstr "འགོ་བཙུགས་དང་ མཇུག་བསྡུ་ གཉིས་ཆ་ར་(_B)"
+
+#: ../src/dialogs/marlin-crossfade-dialog.c:332
+msgid "Crossfade Samples"
+msgstr "སྐྱེདཔ་བཏོག་སྟེ་བཀྱག་ཉམས་ནིའི་དཔེ་ཚད་ཚུ་"
+
+#: ../src/dialogs/marlin-edit-marker-dialog.c:69
+#: ../src/marlin-window-menu.c:1394
+msgid "Edit Marker"
+msgstr "རྟགས་བཀལ་མི་ཞུན་དག་འབད་"
+
+#: ../src/dialogs/marlin-edit-marker-dialog.c:206
+msgid "Change Details"
+msgstr "རྒྱས་བཤད་ཚུ་བསྒྱ྄ར་བཅོས་འབད་"
+
+#: ../src/dialogs/marlin-information-dialog.c:212
+msgid "Change Information"
+msgstr "བརྡ་དོན་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/dialogs/marlin-information-dialog.c:390
+msgid "Type:"
+msgstr "དབྱེ་བ:"
+
+#: ../src/dialogs/marlin-information-dialog.c:402
+msgid "Location:"
+msgstr "གནས་ཁོངས:"
+
+#: ../src/dialogs/marlin-information-dialog.c:413
+msgid "Size on Disk:"
+msgstr "ཌིསིཀི་གུ་ཡོད་མི་ཚད:"
+
+#: ../src/dialogs/marlin-information-dialog.c:424
+msgid "Size in Memory:"
+msgstr "དྲན་ཚད་ནང་གི་ཚད:"
+
+#: ../src/dialogs/marlin-information-dialog.c:443
+msgid "Last Modification:"
+msgstr "མཐའ་མཇུག་གི་ལེགས་བཅོས:"
+
+#: ../src/dialogs/marlin-information-dialog.c:497
+msgid "Artist:"
+msgstr "གླུ་གཞསཔ:"
+
+#: ../src/dialogs/marlin-information-dialog.c:510
+msgid "Album:"
+msgstr "གླུ་མཛོད:"
+
+#: ../src/dialogs/marlin-information-dialog.c:523
+msgid "Track Number:"
+msgstr "གླུ་རིམ་གྱི་ཨང་གྲངས:"
+
+#: ../src/dialogs/marlin-information-dialog.c:539
+msgid "Comments:"
+msgstr "བསམ་བཀོད་ཚུ:"
+
+#: ../src/dialogs/marlin-information-dialog.c:561
+msgid "Beats Per Minute:"
+msgstr "སྐར་མ་རེ་ལུ་བིཊི་རེ:"
+
+#: ../src/dialogs/marlin-information-dialog.c:595
+msgid "Number of Frames:"
+msgstr "གཞི་ཁྲམ་གྱི་གྱངས:"
+
+#: ../src/dialogs/marlin-information-dialog.c:619
+#: ../src/marlin-record.c:872
+msgid "Number of Channels:"
+msgstr "རྒྱུ་ལམ་གྱི་གྱངས་ཁ་:"
+
+#: ../src/dialogs/marlin-information-dialog.c:660
+#, c-format
+msgid "Sample Information: %s"
+msgstr "དཔེ་ཚད་བརྡ་དོན:%s"
+
+#: ../src/dialogs/marlin-information-dialog.c:683
+msgid "General"
+msgstr "སྤྱིར་བཏང་"
+
+#: ../src/dialogs/marlin-information-dialog.c:696
+msgid "Set Information"
+msgstr "བརྡ་དོན་གཞི་སྒྲིག་འབད་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:79
+#: ../src/dialogs/marlin-select-region-dialog.c:257
+#: ../src/marlin-window.c:4683
+msgid "Start of Sample"
+msgstr "དཔེ་ཚད་ཀྱི་འགོ་བཙུགས་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:80
+#: ../src/dialogs/marlin-select-region-dialog.c:283
+#: ../src/marlin-window.c:4684
+msgid "End of Sample"
+msgstr "དཔེ་ཚད་ཀྱི་མཇུག་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:81
+msgid "Start of Selection"
+msgstr "སེལ་འཐུའི་འགོ་བཙུགས་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:82
+msgid "End of Selection"
+msgstr "སེལ་འཐུའི་མཇུག་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:83
+msgid "Previous Zero Crossing"
+msgstr "ཧེ་མམ་གྱི་ ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:84
+msgid "Next Zero Crossing"
+msgstr "ཤུལ་མམ་གྱི་ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:85
+#: ../src/dialogs/marlin-select-region-dialog.c:259
+#: ../src/dialogs/marlin-select-region-dialog.c:285
+msgid "Custom Position"
+msgstr "སྲོལ་སྒྲིག་གནས་ས་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:86
+#: ../src/dialogs/marlin-select-region-dialog.c:260
+#: ../src/dialogs/marlin-select-region-dialog.c:286
+msgid "Marker"
+msgstr "རྟགས་བཀལ་མི་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:262
+#, c-format
+msgid "Move Cursor: %s"
+msgstr "འོད་རྟགས་: %s སྤོ་བཤུད་འབད་"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:344
+msgid "Mar_ker:"
+msgstr "རྟགས་བཀལ་མི:(_k)"
+
+#: ../src/dialogs/marlin-move-cursor-dialog.c:368
+msgid "_Move cursor"
+msgstr "འོད་རྟགས་སྤོ་བཤུད་འབད(_M)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:61
+#: ../src/dialogs/marlin-vorbis-dialog.c:61
+msgid "64kHz (Low Quality)"
+msgstr "kHz ༦༤(སྤུད་ཚད་དམའ་བ་)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:62
+#: ../src/dialogs/marlin-vorbis-dialog.c:62
+msgid "128kHz (Near CD Quality)"
+msgstr "kHz ༡༢༨(ཧ་ལམ་སི་ཊི་གི་སྤུད་ཚད་དང་དྲན་འདྲ་)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:63
+#: ../src/dialogs/marlin-vorbis-dialog.c:63
+msgid "196kHz (CD Quality)"
+msgstr "kHz ༡༩༦(སི་ཊི་གི་སྤུད་ཚད་)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:64
+#: ../src/dialogs/marlin-vorbis-dialog.c:64
+msgid "256kHz (High Quality)"
+msgstr "kHz ༢༥༦(སྤུད་ཚད་མཐོ་བ་)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:65
+#: ../src/dialogs/marlin-vorbis-dialog.c:65
+msgid "320kHz (Super High Quality)"
+msgstr "kHz ༣༢༠(སྤུད་དཚ་ཡང་དག་)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:81
+#: ../src/dialogs/marlin-vorbis-dialog.c:81
+msgid "Joint Stereo"
+msgstr "མཉམ་འབྲེལ་གླུ་སྒྲོམ་"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:82
+#: ../src/dialogs/marlin-vorbis-dialog.c:82
+msgid "Dual Channel"
+msgstr "བཟུང་ལྡན་རྒྱུ་ལམ་"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:84
+#: ../src/dialogs/marlin-vorbis-dialog.c:84
+msgid "Automatic"
+msgstr "རང་བཞིན་གྱིས་"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:225
+#, c-format
+msgid "MP3 Encoding Parameters: %s"
+msgstr "ཨེམ་པི་༣ ཨེན་ཀོཌི་འབད་ནིའི་ཚད་བཟུང:%s"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:240
+#: ../src/dialogs/marlin-vorbis-dialog.c:235
+msgid "_Quality"
+msgstr "སྤུད་ཚད་(_Q)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:261
+#: ../src/dialogs/marlin-vorbis-dialog.c:256
+msgid "Min"
+msgstr "ཉུང་མཐའ་"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:274
+#: ../src/dialogs/marlin-vorbis-dialog.c:269
+msgid "Max"
+msgstr "མང་མཐའ་"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:282
+#: ../src/dialogs/marlin-vorbis-dialog.c:277
+msgid "_Constant Bitrate"
+msgstr "ཆད་མེད་བིཊི་གོང་ཚད་(_C)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:312
+#: ../src/dialogs/marlin-vorbis-dialog.c:307
+msgid "_Variable Bitrate"
+msgstr "བསྒྱུར་ཅན་བིཌི་གོང་ཚད་(_)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:337
+#: ../src/dialogs/marlin-vorbis-dialog.c:332
+msgid "M_inimum Bitrate:"
+msgstr "བིཊི་གོང་ཚད་ཉུང་མཐའ:"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:351
+#: ../src/dialogs/marlin-vorbis-dialog.c:346
+msgid "_Average Bitrate:"
+msgstr "བིཊི་གོང་ཚད་ཆ་སྙོམས:(_A)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:365
+#: ../src/dialogs/marlin-vorbis-dialog.c:360
+msgid "Ma_ximum Bitrate:"
+msgstr "བིཊི་གོང་ཚད་མང་མཐའ:(_x)"
+
+#: ../src/dialogs/marlin-mp3-dialog.c:383
+msgid "_Encoding Mode:"
+msgstr "ཨེན་ཀོཌི་འབད་ནིའི་ཐབས་ལམ:(_E)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:240
+msgid "Both Channels"
+msgstr "རྒྱུ་ལམ་གཉིས་ཆ་རང་"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:241
+msgid "Left Channel Only"
+msgstr "གཡོན་གྱི་རྒྱ྄་ལམ་རྐྱངམ་ཅིག་"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:242
+msgid "Right Channel Only"
+msgstr "གཡས་ཀྱི་རྒྱུ་ལམ་རྐྱངམ་ཅིག་"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:258
+#: ../src/dialogs/marlin-select-region-dialog.c:284
+#: ../src/marlin-window.c:4682
+msgid "Cursor Position"
+msgstr "འོད་རྟགས་གནས་ས་"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:359
+#, c-format
+msgid "Select a Region: %s"
+msgstr "མངའ་ཁོངས་: %sཅིག་སེལ་འཐུ་འབད་"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:375
+msgid "Selection _Start:"
+msgstr "སེལ་འཐུའི་འགོ་བཙུགས:(_S)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:437
+msgid "S_tart Marker:"
+msgstr "རྟགས་བཀལ་མི་འགོབཙུགས་:(_t)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:454
+msgid "Selection _End:"
+msgstr "སེལ་འཐུའི་མཇུག་བསྡུ:(_E)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:486
+msgid "P_osition:"
+msgstr "གནས་ས:(_o)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:516
+msgid "Start Mar_ker:"
+msgstr "རྟགས་བཀལ་མི་འགོ་བཙུགས:"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:533
+msgid "Co_verage:"
+msgstr "ཁྱབ་ཁོངས:(_v)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:548
+msgid "Snap Selection To _Zero Crossing"
+msgstr "སེལ་འཐུ་དེ་ ལྐད་ཀོར་སྐྱེདཔ་བཏོ་ནི་ལུ་ པར་བཏབ་(_Z)"
+
+#: ../src/dialogs/marlin-select-region-dialog.c:556
+msgid "Select _Region"
+msgstr "མངའ་ཁོངས་སེལ་འཐུ་འབད་(_R)"
+
+#: ../src/dialogs/marlin-undo-history-dialog.c:206
+#, c-format
+msgid "Undo History: %s"
+msgstr "ལོ་རྒྱུས་%s་འབད་བཤོལ་བཞག་"
+
+#: ../src/dialogs/marlin-vorbis-dialog.c:220
+#, c-format
+msgid "Vorbis Encoding Parameters: %s"
+msgstr "བོར་བིསི་ཨེན་ཀོདི་འབད་ནི་ཚད་བཟུང:%s"
+
+#: ../src/libegg/egg-editable-toolbar.c:514
+msgid "_Remove Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་རྩ་བསྐྲད་གཏང་(_R)"
+
+#: ../src/libegg/egg-toolbar-editor.c:554
+msgid "Separator"
+msgstr "དབྱེ་བྱེད་"
+
+#: ../src/libegg/egg-toolbar-editor.c:585
+msgid ""
+"Drag an item from the box above onto the toolbars to add it.\n"
+"To remove an item, drag it from the toolbars to the box above."
+msgstr ""
+"འདི་ཁ་སྐོང་བརྐྱབ་ནིའི་དོན་ལུ་ ལྟག་ལུ་ཡོད་མི་སྒྲོམ་དེ་ནང་ལས་ རྣམ་གྲངས་ཅིག་འདྲུད།\n"
+"རྣམ་གྲངས་ཅིག་རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ འདི་ལག་ཆས་ཕྲ་རིང་ནང་ལས་ ལྟག་ལུ་ཡོད་མི་སྒྲོམ་ལུ་འདྲུད།"
+
+#: ../src/main.c:66
+msgid "[FILE...]"
+msgstr "[ཡིག་སྣོད་...]"
+
+#: ../src/main.c:463
+#, c-format
+msgid ""
+"Marlin is not able to write to %s.\n"
+"Please check the permissions and restart Marlin"
+msgstr ""
+"མར་ལིན་འདི་གིས་ %s དེ་ལུ་འབྲི་མི་ཚུགས་པས།\n"
+"གནང་བ་ཚུ་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ མར་ལིན་དེ་ལོག་འགོ་བཙུགས་"
+
+#: ../src/marlin-clipboard-info.c:126
+#: ../src/marlin-window-menu.c:1302
+msgid "Clipboard Info"
+msgstr "འཛིན་དཔང་བརྡ་དོན་"
+
+#: ../src/marlin-clipboard-info.c:137
+msgid "Source:"
+msgstr "འབྱུང་ཁུངས:"
+
+#: ../src/marlin-clipboard-info.c:145
+msgid "Attributes:"
+msgstr "ཁྱད་ཆོས:"
+
+#: ../src/marlin-clipboard-info.c:161
+msgid "Frames:"
+msgstr "གཞི་ཁྲམ་ཚུ:"
+
+#: ../src/marlin-clipboard-info.c:169
+msgid "Size:"
+msgstr "ཚད:"
+
+#: ../src/marlin-clipboard-info.c:177
+msgid "Play Clipboard"
+msgstr "འཛིན་པང་གཏང་"
+
+#: ../src/marlin-progress-window.c:49
+#: ../marlin/marlin-progress-dialog.c:112
+#, c-format
+msgid "About %s remaining."
+msgstr "%s ལྷག་ལུས་ཀི་སྐོར་ལས་"
+
+#: ../src/marlin-progress-window.c:142
+#: ../marlin/marlin-progress-dialog.c:288
+msgid "(Paused)"
+msgstr "(ཐེམ་བཞག་ནུག)"
+
+#: ../src/marlin-progress-window.c:217
+#: ../marlin/marlin-progress-dialog.c:317
+msgid "_Pause"
+msgstr "ཐེམ་(_P)"
+
+#: ../src/marlin-record.c:214
+msgid "aRtsd"
+msgstr "aRtsd"
+
+#: ../src/marlin-record.c:215
+msgid "ESD"
+msgstr "ཨི་ཨེསི་ཌི་"
+
+#: ../src/marlin-record.c:216
+msgid "Remote stream"
+msgstr "ཐག་རིང་གི་རྒྱུན་རིམ་"
+
+#: ../src/marlin-record.c:217
+msgid "JACK"
+msgstr "ཇེག་"
+
+#: ../src/marlin-record.c:278
+#: ../src/marlin-record.c:886
+#, c-format
+msgid "%d hz"
+msgstr "%d hz "
+
+#: ../src/marlin-record.c:514
+msgid "Recording"
+msgstr "སྒྲ་བཟུང་དོ་"
+
+#: ../src/marlin-record.c:538
+msgid "Playing"
+msgstr "གཏང་དོ་"
+
+#. Status
+#: ../src/marlin-record.c:569
+#: ../src/marlin-record.c:623
+#: ../src/marlin-record.c:643
+#: ../src/marlin-record.c:844
+msgid "Ready"
+msgstr "གྲ་སྒྲིག་"
+
+#: ../src/marlin-record.c:742
+msgid "Record audio"
+msgstr "སྒྲ་བཟུང་རྣར་ཉན་"
+
+#: ../src/marlin-record.c:767
+msgid "Recording Controls"
+msgstr "ཚད་འཛིན་ཚུ་སྒྲ་བཟུང་འབད་དོ་"
+
+#: ../src/marlin-record.c:829
+msgid "_Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་(_S)"
+
+#: ../src/marlin-record.c:859
+msgid "Sample Information"
+msgstr "དཔེ་ཚད་བརྡ་དོན་"
+
+#: ../src/marlin-record.c:894
+msgid "Destination"
+msgstr "འགྲོ་ཡུལ་"
+
+#: ../src/marlin-record.c:906
+msgid "_Create a new window"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཅིག་གསར་བསྐརུན་འབད་(_C)"
+
+#: ../src/marlin-record.c:912
+msgid "Use an _existing window"
+msgstr "ད་ལྟོ་ཡོད་པའི་སྒོ་སྒྲིག་ཅིག་ལག་ལེན་འཐབ་(_e)"
+
+#: ../src/marlin-record.c:941
+msgid "Insert"
+msgstr "བཙུགས་"
+
+#: ../src/marlin-record.c:942
+msgid "Overwrite"
+msgstr "ཚབ་སྲུང་འབད་ནི་"
+
+#: ../src/marlin-record.c:944
+msgid "at"
+msgstr "ལུ་"
+
+#: ../src/marlin-window.c:1448
+msgid "<b>Unable to start JACK</b>"
+msgstr "<b>JACKའགོ་བཙུགས་མ་ཚུགས་</b>"
+
+#: ../src/marlin-window.c:1450
+msgid ""
+"Marlin requires JACK for its audio output, but JACK failed to start.\n"
+"\n"
+"Marlin will continue to run, but playback and recording features will be disabled"
+msgstr ""
+"མར་ལིན་དེ་ལུ་ JACK འདི་དེའི་རྣར་ཉེན་ཨའུཊི་པུཊི་གི་དོན་ལུ་དགོཔ་ཨིན་  དེ་འབདཝ་ད་JACKའདི་འགོ་བཙུགས་མ་ཚུགས། \n"
+"\n"
+"མར་ལིན་འདི་ལཱ་འབད་ནི་ལུ་འཕྲོ་མཐུདཔ་ཨིན་  དེ་འབདཝ་ད་གླུ་གཞས་གཏང་ནི་དང་  སྒྲ་བཟུང་ཁྱད་རྣམ་ཚུ་ལྕོགས་མེད་བཟོ་འོང་།"
+
+#: ../src/marlin-window.c:1839
+msgid " (read only)"
+msgstr "(ལྷག་ནི་རྐྱངམ་ཅིག་)"
+
+#: ../src/marlin-window.c:1840
+msgid " (modified)"
+msgstr "(ལེགས་བཅོས་འབད་ཡོདཔ་)"
+
+#: ../src/marlin-window.c:1882
+#, c-format
+msgid "If you close without saving, changes from the last second will be discarded."
+msgid_plural "If you close without saving, changes from the last %d seconds will be discarded."
+msgstr[0] "ཁྱོད་སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་པ་ཅིན་ སྐར་ཆ་མཐའ་མཇུག་གི་བསྒྱུར་བཅོས་ཚུ་བཏོན་བཀོག་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་པ་ཅིན་ མཐའ་མཇུག་གི་སྐར་ཆ་%d་གི་བསྒྱུར་བཅོས་ཚུབཏོན་བཀོག་འོང་།"
+
+#: ../src/marlin-window.c:1887
+#, c-format
+msgid "If you close without saving, changes from the last minute will be discarded."
+msgid_plural "If you close without saving, changes from the last %d minutes will be discarded"
+msgstr[0] "ཁྱོད་སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་པ་ཅིན་ སྐར་མ་མཐའ་མཇུག་གི་བསྒྱུར་བཅོས་ཚུ་བཏོན་བཀོག་འོང་།"
+msgstr[1] "ཁྱོད་ཀྱིས་སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་པ་ཅིན་ སྐར་མ་མཐའ་མཇུག་%d་གི་བསྒྱུར་བཅོས་ཚུ་བཏོན་བཀོག་འོང་།"
+
+#: ../src/marlin-window.c:1910
+#, c-format
+msgid "Save changes made to \"%s\" before closing?"
+msgstr "ཁ་མ་བསྡམ་པའི་ཧེ་མ་\"%s\" དེ་ལུ་བཟོ་ཡོད་མི་བསྒྱུར་བཅོས་ཚུ་སྲུང་བཞག་འབད་དགོཔ་ཨིན་ན?"
+
+#: ../src/marlin-window.c:1921
+msgid "Do_n't save"
+msgstr "སྲུང་བཞག་མ་འབད་(_n)"
+
+#: ../src/marlin-window.c:1922
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: ../src/marlin-window.c:1926
+#, c-format
+msgid "Save %s?"
+msgstr "%s སྲུང་བཞག་མ་འབད་ཡ?"
+
+#. No selection
+#: ../src/marlin-window.c:2447
+#: ../src/marlin-window.c:3996
+#: ../src/marlin-window-menu.c:1260
+msgid "Mute Sample"
+msgstr "སྐད་མེད་དཔེ་ཚད་"
+
+#: ../src/marlin-window.c:2448
+#: ../src/marlin-window.c:4035
+#: ../src/marlin-window-menu.c:1263
+msgid "Invert Sample"
+msgstr "དཔེ་ཚད་གནས་ལོག་འབད་"
+
+#: ../src/marlin-window.c:2449
+#: ../src/marlin-window-menu.c:1269
+msgid "Adjust Sample Volume..."
+msgstr "དཔེ་ཚད་སྦུང་ཚད་བདེ་སྒྲིག་འབད་་་"
+
+#: ../src/marlin-window.c:2450
+#: ../src/marlin-window.c:5310
+#: ../src/marlin-window-menu.c:1281
+msgid "Reverse Sample"
+msgstr "དཔེ་ཚད་རིམ་ལོག་འབད་"
+
+#. Selection
+#: ../src/marlin-window.c:2453
+#: ../src/marlin-window.c:4006
+msgid "Mute Selection"
+msgstr "སྐད་མེད་སེལ་འཐུ་"
+
+#: ../src/marlin-window.c:2454
+#: ../src/marlin-window.c:4049
+msgid "Invert Selection"
+msgstr "སེལ་འཐུ་གནས་ལོག་འབད་"
+
+#: ../src/marlin-window.c:2455
+msgid "Adjust Selection Volume..."
+msgstr "སེལ་འཐུའི་སྦུང་ཚད་བདེ་སྒྲིག་འབད་་་"
+
+#: ../src/marlin-window.c:2456
+msgid "Reverse Selection"
+msgstr "སེལ་འཐུ་གནས་ལོག་འབད་"
+
+#: ../src/marlin-window.c:2468
+msgid "Add a Channel..."
+msgstr "རྒྱུ་ལམ་ཅིག་ཁ་སྐོང་རྐྱབས་་་"
+
+#: ../src/marlin-window.c:2470
+msgid "Remove a Channel..."
+msgstr "རྒྱ་ལམ་ཅིག་རྩ་བསྐྲད་གཏང་་་་"
+
+#. No selection
+#: ../src/marlin-window.c:2486
+#: ../src/marlin-window-menu.c:1198
+msgid "Mix..."
+msgstr "སླ་བསྲེ་ནི་་་"
+
+#: ../src/marlin-window.c:2487
+#: ../src/marlin-window.c:4896
+#: ../src/marlin-window-menu.c:1204
+msgid "Replace"
+msgstr "ཚབ་བཙུགས་"
+
+#. Selection
+#: ../src/marlin-window.c:2490
+msgid "Mix into Selection..."
+msgstr "སེལ་འཐུའི་ནང་ལུ་སླ་བསྲེ་་་་"
+
+#: ../src/marlin-window.c:2491
+msgid "Replace Selection"
+msgstr "སེལ་འཐུའི་ཚབ་བབཙུགས་"
+
+#: ../src/marlin-window.c:2497
+#, c-format
+msgid "Undo '%s'"
+msgstr " '%s'འབད་བཤོལ་བཞག་"
+
+#: ../src/marlin-window.c:2503
+#: ../src/marlin-window-menu.c:1177
+msgid "Undo"
+msgstr "འབད་བཤོལ་"
+
+#: ../src/marlin-window.c:2504
+#: ../src/marlin-window-menu.c:1178
+msgid "Undo the previous action"
+msgstr "ཧེ་མམ་གྱི་བྱ་བ་དེ་འབད་བཤོལ་འབད་བཞག་"
+
+#: ../src/marlin-window.c:2510
+#, c-format
+msgid "Redo '%s'"
+msgstr " '%s' ལོག་འབད་"
+
+#: ../src/marlin-window.c:2516
+#: ../src/marlin-window-menu.c:1180
+msgid "Redo"
+msgstr "ལོག་འབད་"
+
+#: ../src/marlin-window.c:2517
+msgid "Redo the last action"
+msgstr "མཐའ་མཇུག་གི་བྱ་བ་དེ་ལོག་འབད་"
+
+#: ../src/marlin-window.c:2809
+#, c-format
+msgid "Opening %s"
+msgstr "%s ཁ་ཕྱེ་དོ་"
+
+#: ../src/marlin-window.c:2813
+msgid "Opening file"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་དོ་"
+
+#: ../src/marlin-window.c:2917
+#, c-format
+msgid "Could not load '%s'"
+msgstr " '%s'མངོན་གསལ་འབད་མ་ཚུགས་"
+
+#: ../src/marlin-window.c:3031
+#, c-format
+msgid "Saving %s"
+msgstr "%s སྲུག་བཞག་འབད་དོ་"
+
+#: ../src/marlin-window.c:3035
+msgid "Saving file"
+msgstr "ཡིག་སྣོད་སྲུག་བཞག་འབད་དོ་"
+
+#: ../src/marlin-window.c:3252
+#, c-format
+msgid ""
+"Marlin is unable to save %s\n"
+"as there is no encoder for %s."
+msgstr ""
+"མར་ལིན་གྱིས་%sའདི་སྲུང་བཞག་འབད་མི་ཚུགས་པས\n"
+"དེ་ཡང་ %sགི་དོན་ལུ་ ཨེན་ཀོ་ཌར་དེ་མེད་ནི་དེ་གིས་ཨིན།"
+
+#: ../src/marlin-window.c:3253
+msgid "Would you like to save as a different format?"
+msgstr "ཁྱོད་ཀྱིས་རྩ་སྒྲིག་སོ་སོ་ཅིག་སྦེ་སྲུང་བཞག་འབད་ནི་ཨིན་ན?"
+
+#: ../src/marlin-window.c:3323
+#: ../src/marlin-window.c:3384
+#, c-format
+msgid "The file '%s' already exists."
+msgstr "ཡིག་སྣོད་'%s' འདི་ཧེ་མ་ལས་རང་ཡོད།"
+
+#: ../src/marlin-window.c:3324
+#, c-format
+msgid "Do you want to make a backup called '%s' first?"
+msgstr "ཁྱོད་ཀྱིས་དང་པ་རང་ '%s' ཟེར་མི་རྒྱབ་ཐག་དེ་བཟོ་ནི་ཨིན་ན?"
+
+#: ../src/marlin-window.c:3338
+#: ../src/marlin-window.c:3402
+msgid "Overwrite File"
+msgstr "ཡིག་སྣོད་ཚབ་སྲུང་འབད་"
+
+#: ../src/marlin-window.c:3344
+msgid "Backup File"
+msgstr "རྒྱབ་ཐག་ཡིག་སྣོད་"
+
+#: ../src/marlin-window.c:3385
+msgid ""
+"There is not enough space to create a backup.\n"
+"Do you want to overwrite the file?"
+msgstr ""
+"རྒྱབ་ཐག་གསར་བསྐྲུན་འབད་ནི་ལུ་ བར་སྟོང་ལངམ་སྦེ་མིན་འདུག\n"
+"ཁྱོད་ཀྱིས་ཡིག་སྣོད་དེ་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: ../src/marlin-window.c:3429
+#, c-format
+msgid "Unable to save file to '%s'."
+msgstr "ཡིག་སྣོད་དེ་ '%s' ལུ་སྲུང་བཞག་འབད་མ་ཚུགས་"
+
+#: ../src/marlin-window.c:3430
+#, c-format
+msgid "'%s' is a directory."
+msgstr "'%s'འདི་སྣོད་ཐོ།"
+
+#: ../src/marlin-window.c:3580
+msgid "From file extension"
+msgstr "ཡིག་སྣོད་རྒྱ་བསྐྱེད་ནང་ལས་"
+
+#: ../src/marlin-window.c:3581
+msgid "From profile"
+msgstr "གསལ་སྡུད་ནང་ལས་"
+
+#: ../src/marlin-window.c:3614
+msgid "Determine _Format:"
+msgstr "རྩ་སྒྲིག་གཏན་འབེབས་བཟོ:(_F)"
+
+#: ../src/marlin-window.c:3633
+msgid "_Profile:"
+msgstr "གསལ་སྡུད:(_P)"
+
+#: ../src/marlin-window.c:3902
+msgid "The delete operation can only be performed on both channels of a stereo sample."
+msgstr "བཏོན་གཏང་ནིའི་བཀོལ་སྤྱོད་དེ་ གླུ་སྒྲོམ་དཔེ་ཚད་ཅིག་གི་རྒྱུ་ལམ་གཉིས་ཆ་རའི་གུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་བཏུབ་ཨིན།"
+
+#: ../src/marlin-window.c:3910
+#: ../src/marlin-window-menu.c:1207
+msgid "Delete Selection"
+msgstr "སེལ་འཐུ་བཏོན་གཏང་"
+
+#: ../src/marlin-window.c:3932
+msgid "Muting"
+msgstr "སྐད་མེད་བཟོ་དོ་"
+
+#: ../src/marlin-window.c:4085
+msgid "The crop operation can only be performed on both channels of a stereo sample."
+msgstr "བཏོག་བཅོས་བཀོལ་སྤྱོད་དེ་ གླུ་སྒྲོམ་དཔེ་ཚད་ཅིག་གི་ རྒྱུ་ལམ་གཉིས་ཆ་རའི་གུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་བཏུབ་ཨན།"
+
+#: ../src/marlin-window.c:4093
+#: ../src/marlin-window-menu.c:1210
+msgid "Crop Selection"
+msgstr "བཏོག་བཅོས་སེལ་འཐུ་"
+
+#: ../src/marlin-window.c:4125
+#: ../src/marlin-window-menu.c:1192
+msgid "Paste"
+msgstr "སྦྱར་"
+
+#: ../src/marlin-window.c:4175
+msgid "Mix Into Selection"
+msgstr "སེལ་འཐུའི་ནང་ལུ་སླ་བསྲེ་"
+
+#: ../src/marlin-window.c:4178
+#: ../src/marlin-window.c:4337
+msgid "Mix"
+msgstr "སླ་བསྲེ་"
+
+#: ../src/marlin-window.c:4252
+#, c-format
+msgid "Mix Clipboard: %s"
+msgstr "འཛིན་པང:%s དེ་སླ་བསྲེ་"
+
+#: ../src/marlin-window.c:4285
+msgid "_Clipboard Level:"
+msgstr "འཛིན་པང་གནས་རིམ:(_C)"
+
+#: ../src/marlin-window.c:4300
+msgid "_Sample Level:"
+msgstr "དཔེ་ཚད་གནས་རིམ:(_S)"
+
+#: ../src/marlin-window.c:4323
+msgid "Expand clipboard to fill selection"
+msgstr "སེལ་འཐུ་བཀང་ནིའི་དོན་ལུ་ འཛིན་པང་ རྒྱ་འཕར་གཏང་"
+
+#: ../src/marlin-window.c:4325
+msgid "Shrink clipboard to fit selection"
+msgstr "སེལ་འཐུ་ ཚུད་སྒྲིག་འབད་ནིའི་དོན་ལུ་ འཛིན་པང་ བསྐུམ་"
+
+#: ../src/marlin-window.c:4467
+msgid "Adjust Sample Volume"
+msgstr "དཔེ་ཚད་ཀྱི་སྦུ་ཚད་བདེ་སྒྲིག་འབད་"
+
+#: ../src/marlin-window.c:4478
+msgid "Adjust Selection Volume"
+msgstr "སེལ་འཐུའི་སྦུང་ཚད་དེ་བདེ་སྒྲིག་འབད་"
+
+#: ../src/marlin-window.c:4523
+#, c-format
+msgid "Adjust Volume: %s"
+msgstr "སྦུང་ཚད:%s བདེ་སྒྲིག་འབད་"
+
+#: ../src/marlin-window.c:4554
+msgid "-∞ dB -> +15.0 dB"
+msgstr "-∞ dB -> +༡༥.༠ dB"
+
+#: ../src/marlin-window.c:4561
+msgid "_Adjust"
+msgstr "བདེ་སྒྲིག་(_A)"
+
+#: ../src/marlin-window.c:4660
+msgid "Insert Silence"
+msgstr "ཁུ་སིམ་སིམ་བཙུགས་"
+
+#: ../src/marlin-window.c:4685
+msgid "At Marker"
+msgstr "རྟགས་བཀལ་མི་ལུ་"
+
+#: ../src/marlin-window.c:4737
+#, c-format
+msgid "Insert Silence: %s"
+msgstr "ཁུ་སིམ་སིམ་: %s བཙུགས་"
+
+#: ../src/marlin-window.c:4754
+msgid "_Duration:"
+msgstr "དུས་ཡུན:(_D)"
+
+#: ../src/marlin-window.c:4775
+msgid "Insert _Position:"
+msgstr "གནས་ས་བཙུགས:(_P)"
+
+#: ../src/marlin-window.c:4801
+msgid "_Marker:"
+msgstr "བཏགས་བཀལ་མི:(_M)"
+
+#: ../src/marlin-window.c:4824
+msgid "_Insert Silence"
+msgstr "ཁུ་སིམ་སིམ་བཙུགས་(_I)"
+
+#: ../src/marlin-window-menu.c:176
+#: ../src/marlin-window-menu.c:1101
+#: ../src/marlin-window-menu.c:1104
+msgid "Create a new sample"
+msgstr "དཔེ་ཚད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../src/marlin-window-menu.c:184
+msgid "Create Sample"
+msgstr "དཔེ་ཚད་གསར་བསྐྲུན་འབད་"
+
+#: ../src/marlin-window-menu.c:212
+msgid "Sample rate:"
+msgstr "དཔེ་ཚད་གོང་ཚད:"
+
+#: ../src/marlin-window-menu.c:219
+msgid "hz"
+msgstr "hz"
+
+#: ../src/marlin-window-menu.c:241
+msgid "_Mono"
+msgstr "རྐྱང་པོ་(_M)"
+
+#: ../src/marlin-window-menu.c:245
+msgid "_Stereo"
+msgstr "གླུ་སྒྲོམ་(_S)"
+
+#: ../src/marlin-window-menu.c:347
+msgid "A sample editor for Gnome."
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ དཔེ་ཚད་ཞུན་དག་པ་ཅིག"
+
+#.
+#. * Note to translators: put your name
+#. * and email here so it will show up
+#. * in the about box.
+#.
+#: ../src/marlin-window-menu.c:357
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་-ངོ་བསྟོད་"
+
+#: ../src/marlin-window-menu.c:620
+#: ../src/marlin-window-menu.c:1236
+msgid "Select Nothing"
+msgstr "ག་ནི་ཡང་སེལ་འཐུ་མ་འབད་"
+
+#: ../src/marlin-window-menu.c:658
+msgid "Halve Selection"
+msgstr "སེལ་འཐུ་ཕྱད་ཀ་ལུ་བཀལ་"
+
+#: ../src/marlin-window-menu.c:681
+msgid "Double Selection"
+msgstr "སེལ་འཐུ་ལོག་བལྟབ་"
+
+#: ../src/marlin-window-menu.c:704
+#: ../src/marlin-window-menu.c:1248
+msgid "Shift Selection Left"
+msgstr "སེལ་འཐུ་གཡོན་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:728
+#: ../src/marlin-window-menu.c:1251
+msgid "Shift Selection Right"
+msgstr "སེལ་འཐུ་གཡས་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:752
+#: ../src/marlin-window-menu.c:1254
+msgid "Snap To Zero Crossing"
+msgstr "ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་ལུ་པར་བཏབ་"
+
+#: ../src/marlin-window-menu.c:837
+msgid "Toolbar Editor"
+msgstr "ལག་ཆས་ཕྲ་རིང་ཞུན་དག་པ་"
+
+#: ../src/marlin-window-menu.c:856
+msgid "Add a New Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་གསརཔ་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/marlin-window-menu.c:899
+msgid "Swap Channels"
+msgstr "རྒྱུ་ལམ་ཚུ་བརྗེ་སོར་འབད་"
+
+#: ../src/marlin-window-menu.c:1089
+msgid "_File"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#: ../src/marlin-window-menu.c:1090
+msgid "_Edit"
+msgstr "ཞུན་དག་(_E)"
+
+#: ../src/marlin-window-menu.c:1091
+msgid "_Selection"
+msgstr "སེལ་འཐུ་(_S)"
+
+#: ../src/marlin-window-menu.c:1092
+msgid "_View"
+msgstr "མཐོང་སྣང་(_V)"
+
+#: ../src/marlin-window-menu.c:1093
+msgid "_Transport"
+msgstr "སྐྱེལ་འདྲེན་(_T)"
+
+#: ../src/marlin-window-menu.c:1094
+msgid "_Process"
+msgstr "ལས་སྦྱོར་(_P)"
+
+#: ../src/marlin-window-menu.c:1095
+msgid "_Tools"
+msgstr "ལག་ཆས་ཚུ་(_T)"
+
+#: ../src/marlin-window-menu.c:1096
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_h)"
+
+#: ../src/marlin-window-menu.c:1100
+msgid "New"
+msgstr "གསརཔ་"
+
+#: ../src/marlin-window-menu.c:1103
+msgid "New..."
+msgstr "གསརཔ་་་"
+
+#: ../src/marlin-window-menu.c:1106
+msgid "Open..."
+msgstr "ཁ་ཕྱེ་་་་"
+
+#: ../src/marlin-window-menu.c:1107
+msgid "Open a file"
+msgstr "ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/marlin-window-menu.c:1109
+msgid "Recent Files"
+msgstr "འཕྲལ་གྱི་ཡིག་སྣོད་ཚུ་"
+
+#: ../src/marlin-window-menu.c:1110
+msgid "Open a recently used file"
+msgstr "འཕྲལ་ཁམས་ལག་ལེན་འཐབ་ཡོད་མི་ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/marlin-window-menu.c:1112
+msgid "Save"
+msgstr "སྲུང་བཞག་འབད་"
+
+#: ../src/marlin-window-menu.c:1113
+msgid "Save the current file"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་དེ་སྲུང་བཞག་འབད་"
+
+#: ../src/marlin-window-menu.c:1115
+msgid "Save As..."
+msgstr "བཟུམ་སྦེ་སྲུང་་་"
+
+#: ../src/marlin-window-menu.c:1116
+msgid "Save the current file with a different name"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་དེ་ མིང་སོ་སོ་ཅིག་གི་ཐོག་ལས་སྲུང་བཞག་འབད་"
+
+#: ../src/marlin-window-menu.c:1118
+msgid "Information"
+msgstr "བརྡ་དོན་"
+
+#: ../src/marlin-window-menu.c:1119
+msgid "Information about the sample"
+msgstr "དཔེ་ཚད་དེ་གི་སྐོར་ལས་བརྡ་དོན་"
+
+#: ../src/marlin-window-menu.c:1121
+msgid "Close"
+msgstr "ཁ་བསྡམ་"
+
+#: ../src/marlin-window-menu.c:1122
+msgid "Close this window"
+msgstr "སྒོ་སྒྲིག་འདི་ཁ་བསྡམ་"
+
+#: ../src/marlin-window-menu.c:1125
+msgid "Quit"
+msgstr "སྤང་བཞག་"
+
+#: ../src/marlin-window-menu.c:1126
+msgid "Quit Marlin"
+msgstr "མར་ལིན་སྤང་བཞག་"
+
+#: ../src/marlin-window-menu.c:1132
+msgid "Contents"
+msgstr "ནང་དོན་ཚུ་"
+
+#: ../src/marlin-window-menu.c:1133
+msgid "Help Contents"
+msgstr "གྲོགས་རམ་ནང་དོན་ཚུ་"
+
+#: ../src/marlin-window-menu.c:1135
+msgid "About Marlin"
+msgstr "མར་ལིན་གྱི་སྐོར་"
+
+#: ../src/marlin-window-menu.c:1136
+msgid "Show information about Marlin"
+msgstr "མར་ལིན་གྱི་སྐོར་ལས་བརྡ་དོན་ཚུ་སྟོན་"
+
+#: ../src/marlin-window-menu.c:1141
+msgid "_Play"
+msgstr "གཏང་(_p)"
+
+#: ../src/marlin-window-menu.c:1142
+msgid "Play current sample or selection"
+msgstr "ད་ལྟོའི་དཔེ་ཚད་ ཡང་ན་ སེལ་འཐུ་གཏང་"
+
+#: ../src/marlin-window-menu.c:1144
+msgid "P_ause"
+msgstr "ཐེམ་(_a)"
+
+#: ../src/marlin-window-menu.c:1145
+msgid "Pause playback"
+msgstr "གླུ་གཞས་གཏང་ནི་ཐེམ་བཞག་"
+
+#: ../src/marlin-window-menu.c:1147
+msgid "_Stop"
+msgstr "བཀག་བཞག(_S)"
+
+#: ../src/marlin-window-menu.c:1148
+msgid "Stop playback"
+msgstr "གླུ་གཞས་གཏང་ནི་པབཀག་བཞག་"
+
+#: ../src/marlin-window-menu.c:1150
+msgid "Move to S_tart"
+msgstr "འགོ་བཙུགས་ལུ་སྤོ་བཤུད་འབད་(_t)"
+
+#: ../src/marlin-window-menu.c:1151
+msgid "Go to start of sample"
+msgstr "དཔེ་ཚད་ཀྱི་འགོ་བཙུགས་ལུ་འགྱོ་"
+
+#: ../src/marlin-window-menu.c:1153
+msgid "Move to _End"
+msgstr "མཇུག་ལུ་སྤོ་བཤུད་འབད་(_E)"
+
+#: ../src/marlin-window-menu.c:1154
+msgid "Go to end of sample"
+msgstr "དཔེ་ཚད་ཀྱི་མཇུག་ལུ་འགྱོ་"
+
+#: ../src/marlin-window-menu.c:1156
+msgid "_Record..."
+msgstr "སྒྲ་བཟུང་་་(_R)"
+
+#: ../src/marlin-window-menu.c:1157
+msgid "Record a new sample"
+msgstr "དཔེ་ཚད་གསརཔ་ཅིག་སྒྲ་བཟུང་འབད་"
+
+#: ../src/marlin-window-menu.c:1159
+msgid "Step _Forwards"
+msgstr "གོམ་པ་གདོང་བསྐྱོད་འབདཝ་ཨིན་(_F)"
+
+#: ../src/marlin-window-menu.c:1160
+msgid "Step forward through the sample"
+msgstr "དཔེ་ཚད་དེ་བརྒྱུད་དེ་གདོང་བསྐྱོད་ལུ་གོམ་པ་སྤོ་"
+
+#: ../src/marlin-window-menu.c:1162
+msgid "Step _Backwards"
+msgstr "གོམ་པ་རྒྱབ་བསྐྱོད་འབདཝ་ཨིན་(_B)"
+
+#: ../src/marlin-window-menu.c:1163
+msgid "Step backwards through the sample"
+msgstr "དཔེ་ཚད་དེ་བརྒྱུད་དེ་གོམ་པ་རྒྱབ་བསྐྱོད་འབདཝ་ཨིན་"
+
+#: ../src/marlin-window-menu.c:1165
+msgid "Play _Loop"
+msgstr "ལུང་ཐག་གཏང་(_L)"
+
+#: ../src/marlin-window-menu.c:1166
+msgid "Loop sample or selection"
+msgstr "དཔེ་ཚད་ ཡང་ན་ སེལ་འཐུ་འཕྲལ་བཀོལ་"
+
+#: ../src/marlin-window-menu.c:1171
+msgid "Generate"
+msgstr "བཟོ་བཏོན་འབད་ནི་"
+
+#: ../src/marlin-window-menu.c:1172
+msgid "Generate sounds"
+msgstr "སྒྲ་སྐད་ཚུ་བཟོ་བཏོན་འབད་"
+
+#: ../src/marlin-window-menu.c:1181
+msgid "Redo the next action"
+msgstr "ཤུལ་མམ་གྱི་བྱ་བ་དེ་ལོག་འབད་"
+
+#: ../src/marlin-window-menu.c:1183
+msgid "Undo History"
+msgstr "ལོ་རྒྱུས་འབད་བཤོད་བཞག་"
+
+#: ../src/marlin-window-menu.c:1184
+msgid "Show the undo history window"
+msgstr "ལོ་རྒྱུས་སྒོ་སྒྲིག་འབད་བཤོལ་བཞག་དེ་སྟོན་"
+
+#: ../src/marlin-window-menu.c:1186
+msgid "Copy"
+msgstr "འདྲ་བཤུས་རྐྱབས་"
+
+#: ../src/marlin-window-menu.c:1187
+msgid "Copy the selection to the clipboard"
+msgstr "སེལ་འཐུ་དེ་འཛིན་དཔང་ལུ་འདྲ་བཤུས་རྐྱབས་"
+
+#: ../src/marlin-window-menu.c:1189
+msgid "Cut"
+msgstr "བཏོག་"
+
+#: ../src/marlin-window-menu.c:1190
+msgid "Copy the selection to the clipboard and delete the selection"
+msgstr "སེལ་འཐུ་དེ་འཛིན་པང་དེ་ལུ་འདྲ་བཤུས་བརྐྱབ་ཞིནམ་ལས་ སེལ་འཐུ་དེ་བཏོན་གཏང་"
+
+#: ../src/marlin-window-menu.c:1193
+msgid "Paste the clipboard contents into the sample"
+msgstr "འཛིན་པང་ནང་དོན་་དེ་ཚུ་དཔེ་ཚད་ནང་ལུ་སྦྱར་"
+
+#: ../src/marlin-window-menu.c:1195
+msgid "Paste as New"
+msgstr "གསརཔ་སྦེ་སྦྱར་"
+
+#: ../src/marlin-window-menu.c:1196
+msgid "Create a new sample from the contents of the clipboard"
+msgstr "འཛིན་པང་དེ་གི་ནང་དོན་དེ་ཚུ་ནང་ལས་ དཔེ་ཚད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../src/marlin-window-menu.c:1199
+msgid "Mix the contents of the clipboard with the current sample"
+msgstr "འཛིན་པང་དེ་གི་ནང་དོན་དེ་ཚུ་ ད་ལྟོའི་དཔེ་ཚད་དག་གཅིག་ཁར་སླ་བསྲེ་འབད་"
+
+#: ../src/marlin-window-menu.c:1201
+msgid "Crossfade..."
+msgstr "སྐྱེདཔ་བཏོག་སྟེ་བཀྱག་ཉམས་ནི་་་་"
+
+#: ../src/marlin-window-menu.c:1202
+msgid "Crossfade the contents of the clipboard and the current sample"
+msgstr "འཛིན་པང་གི་ནང་དོན་དེ་ཚུ་དང་ ད་ལྟོའི་དཔེ་ཚད་དེ་ སྐྱེདཔ་བཏོག་སྟེ་བཀྱག་ཉམས་བཅུག་"
+
+#: ../src/marlin-window-menu.c:1205
+msgid "Replace the selection with the contents of the clipboard"
+msgstr "སེལ་འཐུ་དེ་ འཛིན་པང་དེ་གི་ནང་དོན་ཚུ་གིས་ཚབ་བབཙུགས་"
+
+#: ../src/marlin-window-menu.c:1208
+msgid "Delete the selection"
+msgstr "སེལ་འཐུ་དེ་བཏོན་གཏང་"
+
+#: ../src/marlin-window-menu.c:1211
+msgid "Crop the area around the selection"
+msgstr "སེལ་འཐུའི་མཐའ་སྐོར་ཏེ་མངའ་ཁོངས་བཏོག་བཅོས་འབད་"
+
+#: ../src/marlin-window-menu.c:1213
+msgid "Zero Crossing"
+msgstr "ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་"
+
+#: ../src/marlin-window-menu.c:1215
+msgid "Move Cursor..."
+msgstr "འོད་རྟགས་སྤོ་བཤུད་འབད་་་་"
+
+#: ../src/marlin-window-menu.c:1216
+msgid "Move the cursor to a specific point"
+msgstr "འོད་རྟགས་དེ་དམིགས་བསལ་ཡིག་ཚད་ཅིག་ལུ་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:1218
+msgid "Customize Toolbars..."
+msgstr "ལག་ཆས་ཕྲ་རིང་སྲོལ་སྒྲིག་འབད་་་་"
+
+#: ../src/marlin-window-menu.c:1219
+msgid "Customize the toolbars"
+msgstr "ལག་ཆས་ཕྲ་རིང་དེ་ཚུ་སྲོལ་སྒྲིག་འབད་"
+
+#: ../src/marlin-window-menu.c:1224
+msgid "Find Previous"
+msgstr "ཧེ་མམ་གྱི་དེ་འཚོལ་"
+
+#: ../src/marlin-window-menu.c:1225
+msgid "Move the cursor to the previous zero crossing"
+msgstr "འོད་རྟགས་དེ་ ཧེ་མམ་གྱི་ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་དེ་ལུ་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:1227
+msgid "Find Next"
+msgstr "ཤུལ་མམ་གྱི་དེ་འཚོལ་"
+
+#: ../src/marlin-window-menu.c:1228
+msgid "Move the cursor to the next zero crossing"
+msgstr "འོད་རྟགས་དེ་ ཤུལ་མམ་གྱི་ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་དེ་ལུ་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:1234
+msgid "Select the whole sample"
+msgstr "དཔེ་ཚད་ཧྲིལ་བུམ་སེལ་འཐུ་འབད་"
+
+#: ../src/marlin-window-menu.c:1237
+msgid "Deselect the whole selection"
+msgstr "སེལ་འཐུ་ཧྲིལ་བུམ་སེལ་འཐུ་བཤོལ་"
+
+#: ../src/marlin-window-menu.c:1239
+msgid "Select Region..."
+msgstr "མངའ་ཁོངས་སེལ་འཐུ་འབད་་་་"
+
+#: ../src/marlin-window-menu.c:1240
+msgid "Select a region"
+msgstr "མངའ་ཁོངས་ཅིག་སེལ་འཐུ་འབད་"
+
+#: ../src/marlin-window-menu.c:1242
+msgid "Halve Selection Size"
+msgstr "སེལ་འཐུའི་ཚད་ཕྱད་ཀ་ལུ་བཀལ་"
+
+#: ../src/marlin-window-menu.c:1243
+msgid "Halve the selection size"
+msgstr "སེལ་འཐུའི་ཚད་དེ་ཕྱད་ཀ་ལུ་བཀལ་"
+
+#: ../src/marlin-window-menu.c:1245
+msgid "Double Selection Size"
+msgstr "སེལ་འཐུའི་ཚད་ལོག་བལྟབ་བཀལ་"
+
+#: ../src/marlin-window-menu.c:1246
+msgid "Double the selection size"
+msgstr "སེལ་འཐུའི་ཚད་དེ་ལོག་བལྟབ་བཀལ་"
+
+#: ../src/marlin-window-menu.c:1249
+msgid "Shift the selection to the left"
+msgstr "སེལ་འཐུ་དེ་ གཡོན་ལུ་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:1252
+msgid "Shift the selection to the right"
+msgstr "སེལ་འཐུ་དེ་གཡས་ལུ་སྤོ་བཤུད་འབད་"
+
+#: ../src/marlin-window-menu.c:1255
+msgid "Snap the selection to the nearest zero crossings"
+msgstr "སེལ་འཐུ་དེ་ ཐག་ཉེས་ཤོས་ཀྱི་ཀླད་ཀོར་སྐྱེདཔ་བཏོག་ནི་དེ་ལུ་ པར་བཏབ་"
+
+#: ../src/marlin-window-menu.c:1261
+msgid "Mute the selection"
+msgstr "སེལ་འཐུ་དེ་སྐད་མེད་བཟོ་"
+
+#: ../src/marlin-window-menu.c:1264
+msgid "Invert the selection"
+msgstr "སེལ་འཐུ་དེ་གནས་ལོག་འབད་"
+
+#: ../src/marlin-window-menu.c:1266
+msgid "Swap Sample Channels"
+msgstr "དཔེ་ཚད་རྒྱུ་ལམ་དེ་ཚུ་བརྗེ་སོར་འབད་"
+
+#: ../src/marlin-window-menu.c:1267
+msgid "Swap the samples channels"
+msgstr "དཔེ་ཚད་རྒྱུ་ལམ་དེ་ཚུ་བརྗེ་སོར་འབད་"
+
+#: ../src/marlin-window-menu.c:1270
+msgid "Adjust the volume of the sample"
+msgstr "དཔེ་ཚད་དེ་གི་སྦུང་ཚད་དེ་བདེ་སྒྲིག་འབད་"
+
+#: ../src/marlin-window-menu.c:1272
+msgid "Insert Silence..."
+msgstr "ཁུ་སིམ་སིམ་བཙུགས་་་་"
+
+#: ../src/marlin-window-menu.c:1273
+msgid "Insert silence into the sample"
+msgstr "ཁུ་སིམ་སིམ་དེ་ དཔེ་ཚད་དེ་ནང་ལུ་བཙུགས་"
+
+#: ../src/marlin-window-menu.c:1275
+msgid "Adjust Number of Channels..."
+msgstr "རྒཡུ་ལམ་ཚུ་གི་ཨང་གྲངས་དེ་བདེ་སྒྲིག་འབད་་་་"
+
+#: ../src/marlin-window-menu.c:1276
+msgid "Change the number of channels in the sample"
+msgstr "དཔེ་ཚད་ནང་ལུ་ཡོད་མི་རྒྱུ་ལམ་གྱི་ཨང་གྲངས་དེ་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/marlin-window-menu.c:1278
+msgid "Split Sample on Markers"
+msgstr "དཔེ་ཚད་དེ་རྟགས་བཀལ་མི་གུ་གཤག་"
+
+#: ../src/marlin-window-menu.c:1279
+msgid "Split the sample into multiple new ones"
+msgstr "དཔེ་ཚད་དེ་སྣ་མང་གསརཔ་ཅིག་སྦེ་གཤག་"
+
+#: ../src/marlin-window-menu.c:1282
+msgid "Reverse the sample"
+msgstr "དཔེ་ཚད་དེ་རིམལོག་འབད་"
+
+#: ../src/marlin-window-menu.c:1287
+msgid "New View"
+msgstr "མཐོང་སྣང་གསརཔ་"
+
+#: ../src/marlin-window-menu.c:1288
+msgid "Open a new view of this sample"
+msgstr "དཔེ་ཚད་འདི་གི་མཐོང་སྣང་གསརཔ་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/marlin-window-menu.c:1290
+msgid "Zoom In"
+msgstr "ཕྱིར་རྒྱས་"
+
+#: ../src/marlin-window-menu.c:1291
+msgid "Zoom in on the sample"
+msgstr "དཔེ་ཚད་གུ་ཕྱིར་རྒྱས་འབད་"
+
+#: ../src/marlin-window-menu.c:1293
+msgid "Zoom Out"
+msgstr "ནང་བཟུམ་"
+
+#: ../src/marlin-window-menu.c:1294
+msgid "Zoom out of the sample"
+msgstr "དཔེ་ཚད་དེ་གི་ནང་བཟུམ་"
+
+#: ../src/marlin-window-menu.c:1296
+msgid "Show All"
+msgstr "ཆ་མཉམ་སྟོན་"
+
+#: ../src/marlin-window-menu.c:1297
+msgid "Show the whole sample"
+msgstr "དཔེ་ཚད་ཧྲིལ་བུམ་སྟོན་"
+
+#: ../src/marlin-window-menu.c:1299
+msgid "Zoom Selection"
+msgstr "རྒྱས་ཟུམ་སེལ་འཐུ་"
+
+#: ../src/marlin-window-menu.c:1300
+msgid "Zoom in on the selection"
+msgstr "སེལ་འཐུ་དེ་གུ་ཕྱིར་རྒྱས་འབད་"
+
+#: ../src/marlin-window-menu.c:1303
+msgid "Show information about the clipboard"
+msgstr "འཛིན་པང་དེ་གི་སྐོར་ལས་བརྡ་དོན་ཚུ་སྟོན་"
+
+#: ../src/marlin-window-menu.c:1305
+msgid "Centre on Cursor"
+msgstr "འོད་རྟགས་གི་དབུས་"
+
+#: ../src/marlin-window-menu.c:1306
+msgid "Centre the sample view on the cursor"
+msgstr "དཔེ་ཚད་ཀྱི་མཐོང་སྣང་དེ་ འོད་རྟགས་དེ་གུ་དབུས་སྒྲིག་འབད་"
+
+#: ../src/marlin-window-menu.c:1308
+msgid "Vertical Zoom In"
+msgstr "ཀེར་ཕྲང་འབད་ཡོད་མི་ཕྱིར་རྒྱས་"
+
+#: ../src/marlin-window-menu.c:1309
+msgid "Zoom in vertically on the sample"
+msgstr "དཔེ་ཚད་དེ་གུ་ཀེར་ཕྲང་སྦེ་ཕྱིར་རྒྱས་འབད་"
+
+#: ../src/marlin-window-menu.c:1311
+msgid "Vertical Zoom Out"
+msgstr "ཀེར་ཕྲང་འབད་ཡོད་མི་ནང་ཟུམ་"
+
+#: ../src/marlin-window-menu.c:1312
+msgid "Zoom out vertically on the sample"
+msgstr "དཔེ་ཚད་གུ་ཀེར་ཕྲང་འབད་ནང་ཟུམ་འབད་"
+
+#: ../src/marlin-window-menu.c:1317
+msgid "Equalizers"
+msgstr "འདྲ་མཉམ་བཟོ་མི་"
+
+#: ../src/marlin-window-menu.c:1318
+msgid "Change the visibility of the playback equalizers"
+msgstr "གླུ་གཞས་གཏང་ནི་འདྲ་མཉམ་བཟོ་མི་དེ་གི་ མཐོང་གསལ་དེ་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/marlin-window-menu.c:1370
+msgid "Snap To Ticks"
+msgstr "བདེན་རྟགས་ལུ་པར་བཏབ་"
+
+#: ../src/marlin-window-menu.c:1371
+msgid "Snap the markers to ticks"
+msgstr "བདེན་རྟགས་ལུ་རྟགས་བཀལ་མི་དེ་པར་བཏབ་"
+
+#: ../src/marlin-window-menu.c:1376
+msgid "_Linear"
+msgstr "ཐིག་གི་(_L)"
+
+#: ../src/marlin-window-menu.c:1377
+msgid "Use a linear scale"
+msgstr "ཐིག་གི་ཚད་ཤིང་ཅིག་ལག་ལེན་འཐབ་"
+
+#: ../src/marlin-window-menu.c:1379
+msgid "_dB"
+msgstr "dB(_d)"
+
+#: ../src/marlin-window-menu.c:1380
+msgid "Use a logarithmic scale"
+msgstr "མཉམ་གྲངས་ཀྱི་ཚད་ཤིང་ཅིག་ལག་ལེན་འཐབ་"
+
+#: ../src/marlin-window-menu.c:1386
+msgid "Add a marker to the sample"
+msgstr "དཔེ་ཚད་དེ་ལུ་རྟགས་བཀལ་མི་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/marlin-window-menu.c:1389
+msgid "Remove this marker from the sample"
+msgstr "དཔེ་ཚད་དེ་ནང་ལས་རྟགས་བཀལ་མི་འདི་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/marlin-window-menu.c:1391
+msgid "Goto Marker"
+msgstr "རྟགས་བཀལ་མི་དེ་ལུ་འགྱོ་"
+
+#: ../src/marlin-window-menu.c:1392
+msgid "Move the cursor to this marker's location"
+msgstr "རྟགས་བཀལ་མིའི་ གནས་ཁོངས་འདི་ལུ་ འོད་རྟགས་དེ་སྤོ་"
+
+#: ../src/marlin-window-menu.c:1395
+msgid "Edit this marker"
+msgstr "རྟགས་བཀལ་མི་འདི་ཞུན་དག་འབད་"
+
+#: ../marlin/marlin-channel-sink.c:231
+msgid "Error writing data"
+msgstr "གནད་སྡུད་འབྲི་ནི་ལུ་འཛོལ་བ་འདུག་"
+
+#: ../marlin/marlin-plugin.c:139
+msgid "Plugins are not supported on this system"
+msgstr "པ་ལག་ཨིན་ཚུ་ རིམ་ལུགས་འདི་གུ་རྒྱབ་སྐྱོར་མ་འབད་བས་"
+
+#: ../plugins/marlin-burn.c:393
+msgid "Preparing to write CD."
+msgstr "སི་ཌི་ལུ་འབྲི་ནིའི་གྲ་སྒྲིག་འབད་དོ།"
+
+#: ../plugins/marlin-burn.c:397
+msgid "Writing CD."
+msgstr "སི་ཌི་འབྲི་དོ།"
+
+#: ../plugins/marlin-burn.c:401
+msgid "Finishing up."
+msgstr "རྫོགས་དོ།"
+
+#: ../plugins/marlin-burn.c:426
+msgid "Please make sure another application is not using the drive."
+msgstr "གློག་རིམ་གཞན་མི་ཅིག་གིས་འདྲེན་འཕྲུལ་མི་འཐབ་དོཡོདཔ་ཨིནམ་ལས་ ངེས་གཏན་བཟོ་གནང་།"
+
+#: ../plugins/marlin-burn.c:427
+msgid "Drive is busy"
+msgstr "འདྲེན་འཕྲུལ་འདི་ཁོམ་མེད་ཨིན་པས་"
+
+#: ../plugins/marlin-burn.c:429
+msgid "Please put a rewritable or blank disc into the drive."
+msgstr "བསྐྱར་འབྲི་འབད་བཏུབ་མི་དང་ ཡང་ན་ ཌིཀསི་སྟོངམ་སྟདེ་འདྲེན་འཕྲུལ་དེ་ནང་ལུ་བཙུགས་གནང་།"
+
+#: ../plugins/marlin-burn.c:430
+msgid "Insert rewritable or blank disc"
+msgstr "བསྐྱར་འབྲི་འབད་བཏུབ་མི་ ཡང་ན་ ཌིཀསི་སྟོངམ་བཙུགས་"
+
+#: ../plugins/marlin-burn.c:432
+msgid "Please insert a blank disc into the drive."
+msgstr "ཌིཀསི་སྟོངམ་ཅིག་འདྲེན་འཕྲུལ་དེ་ནང་ལུ་བཙུགས་གནང་།"
+
+#: ../plugins/marlin-burn.c:433
+msgid "Insert blank disc"
+msgstr "ཌིཀསི་སྟོངམ་བཙུགས་"
+
+#: ../plugins/marlin-burn.c:435
+msgid "Please replace the disc in the drive with a rewritable or blank disc."
+msgstr "འདྲ་འཕྲུར་དེ་ནང་ལུ་ ཌིཀསི་གི་ཚབ་སྦེ་བསྐྱར་འབྲི་འབད་བཏུབ་མི་ ཡང་ན་ ཌིཀསི་སྟོངམ་ཅིག་བཙུགས།"
+
+#: ../plugins/marlin-burn.c:436
+msgid "Reload rewritable or blank disc"
+msgstr "བསྐྱར་འབྲི་འབད་བཏུབ་མི་ ཡང་ན་ ཌིཀསི་སྟོངམ་ཡང་བསྐྱར་མངོན་གསལ་འབད།"
+
+#: ../plugins/marlin-burn.c:438
+msgid "Please replace the disc in the drive with a blank disc."
+msgstr "འདྲེན་འཕྲུལ་དེ་ནང་ལུ་ཡོད་མི་ཌིཀསི་གི་ཚབ་སྦེ་ ཌིཀསི་སྟོངམ་ཅིག་བཙུགས།"
+
+#: ../plugins/marlin-burn.c:439
+msgid "Reload blank disc"
+msgstr "ཌིཀསི་སྟོངམ་ཅིག་ཡང་བསྐྱར་མངོན་གསལ་འབད་"
+
+#: ../plugins/marlin-burn.c:460
+msgid "Retry disc"
+msgstr "ཌིཀསི་སླར་རྩོལ་འབད་"
+
+#: ../plugins/marlin-burn.c:544
+msgid "Writing sample to CD"
+msgstr "དཔེ་ཚད་དེ་སི་ཌི་ལུ་འབྲི་དོ་"
+
+#: ../plugins/marlin-burn.c:545
+msgid "The sample is being written to the disc. This operation may take a long time, depending on the length of the sample and write speed."
+msgstr "དཔེ་ཚད་དེ་ ཌིཀསི་དེ་ལུ་བྲིས་ཡོདཔ་ཨིན། དཔེ་ཚད་ཀྱི་རིང་ཚད་དང་ འབྲི་ནིའི་མགྱོགས་ཚད་དང་བསྟུན་ཏེ་ བཀོལ་སྤྱོད་འདི་གིས་དུས་ཡུན་རིངམོ་འགོར་འོང་།"
+
+#: ../plugins/marlin-burn.c:549
+msgid "Preparing temporary files."
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ཚུ་གྲ་སྒྲིག་འབད་དོ།"
+
+#: ../plugins/marlin-burn.c:729
+#, c-format
+msgid "Write %s to CD"
+msgstr "སི་ཌི་ལུ་%s བྲིས་"
+
+#: ../plugins/marlin-burn.c:747
+msgid "Drive:"
+msgstr "འདྲེན་འཕྲུལ:"
+
+#: ../plugins/marlin-burn.c:762
+msgid "Information:"
+msgstr "བརྡ་དོན:"
+
+#: ../plugins/marlin-burn.c:778
+msgid "Number of Tracks:"
+msgstr "གླུ་རིམ་གྱི་གྱངས་ཁ:"
+
+#: ../plugins/marlin-burn.c:789
+msgid "Total CD Running Time:"
+msgstr "སི་ཌི་གཡོག་བཀོལ་ནི་གི་ཆུ་ཚོད་བསྡོམས:"
+
+#: ../plugins/marlin-burn.c:803
+msgid "Write to CD"
+msgstr "སི་ཌི་ལུ་བྲིས་"
+
+#: ../plugins/marlin-cd.c:75
+msgid "Extract Audio From CD..."
+msgstr "སི་ཌི་ནང་ལས་རྣར་ཉན་ཕྱིར་འདོན་འབད་་་"
+
+#: ../plugins/marlin-cd.c:76
+msgid "Create a sample from a CD track"
+msgstr "སི་ཌི་གླུ་རིམ་ནང་ལས་དཔེ་ཚད་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../plugins/marlin-cd.c:79
+msgid "Write Audio To CD..."
+msgstr "རྣར་ཉན་དེ་སི་ཌི་ལུ་བྲིས་་་"
+
+#: ../plugins/marlin-cd.c:80
+msgid "Write the sample to a CD"
+msgstr "དཔེ་ཚད་དེ་སི་ཌི་ཅིག་ལུ་བྲིས་"
+
+#~ msgid "100%"
+#~ msgstr "༡༠༠%"
+#~ msgid "0%"
+#~ msgstr "༠%"
+#~ msgid "Level"
+#~ msgstr "གནས་རིམ་"
+#~ msgid "0 dB"
+#~ msgstr "༠ ཌི་བི་"
+#~ msgid "-"
+#~ msgstr "-"
+#~ msgid "Frames"
+#~ msgstr "གཞི་ཁྲམ་ཚུ་"
+#~ msgid ""
+#~ "Position %llu\n"
+#~ "Level: -%s"
+#~ msgstr ""
+#~ "གནས་ས་%llu\n"
+#~ "གནས་རིམ་:-%s"
+#~ msgid ""
+#~ "Position %llu\n"
+#~ "Level: %.1f dB"
+#~ msgstr ""
+#~ "གནས་ས་%llu\n"
+#~ "གནས་རིམ་%.1f dB "
+#~ msgid ""
+#~ "Position %llu\n"
+#~ "Level: %.2f%%"
+#~ msgstr ""
+#~ "གནས་ས་ %llu\n"
+#~ "གནས་རིམ་%.2f%%"
+#~ msgid "_Snap to grid"
+#~ msgstr "གི་རིཊི་ལུ་པར་་བཏབ་(_S)"
+#~ msgid "Open"
+#~ msgstr "ཁ་ཕྱེ་"
+#~ msgid "Open file..."
+#~ msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་་་་"
+#~ msgid "Unknown attribute '%s' on line %d char %d"
+#~ msgstr "མ་ཤེས་པའི་ཁྱད་ཆོས་'%s' on line %d char %d"
+#~ msgid "Unknown tag '%s' on line %d char %d"
+#~ msgstr "མ་ཤེས་པའི་ངོ་རྟགས་'%s' on line %d char %d"
+

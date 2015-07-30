@@ -1,0 +1,112 @@
+# translation of am-smime.dtd.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/messenger/am-smime.dtd
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: am-smime.dtd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-15 18:41+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: alwaysEncryptMessage.label
+#: alwaysEncryptMessage.accesskey
+msgid "Req&uired (can't send message unless all recipients have certificates)"
+msgstr "དགོས་མཁོ་ཡོད་པ(ལེན་མཁན་ཆ་མཉམ་ལུ་ལག་འཁྱེར་ཚུ་མེད་ཚུན་ཚོད་འཕྲིན་དོན་ཚུ་གཏང་མི་ཚུགས)(&u)"
+
+#: digitalSign.certificate.accesskey
+msgid "S"
+msgstr "S"
+
+#: digitalSign.certificate.button
+msgid ""
+"_: digitalSign.certificate.button\n"
+"Select..."
+msgstr "སེལ་འཐུ་འབད..."
+
+#: digitalSign.certificate_clear.accesskey
+msgid "C"
+msgstr "C"
+
+#: digitalSign.certificate_clear.button
+msgid ""
+"_: digitalSign.certificate_clear.button\n"
+"Clear"
+msgstr "བསལ"
+
+#: encryption.certificate.accesskey
+msgid "e"
+msgstr "e"
+
+#: encryption.certificate.button
+msgid ""
+"_: encryption.certificate.button\n"
+"Select..."
+msgstr "སེལ་འཐུ་འབད..."
+
+#: encryption.certificate_clear.accesskey
+msgid "r"
+msgstr "r"
+
+#: encryption.certificate_clear.button
+msgid ""
+"_: encryption.certificate_clear.button\n"
+"Clear"
+msgstr "བསལ།"
+
+#: encryptionCert.message
+msgid "Use this certificate to encrypt &amp; decrypt messages sent to you:"
+msgstr "འ་ནི་ལག་འཁྱེར་འདི་ཁྱོད་ལུ་གཏང་བའི་འཕྲིན་དོན་ཚུ་གསང་བཟོ་འབད་ནི་དང་ &amp; གསང་བཤོལ་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ:"
+
+#: encryptionCert.notselected
+msgid ""
+"_: encryptionCert.notselected\n"
+"No certificate set"
+msgstr "ལག་འཁྱེར་གྱི་ཆ་ཚན་མེད།"
+
+#: encryptionChoiceLabel.label
+msgid "Default encryption setting when sending messages:"
+msgstr "འཕྲིན་དོན་ཚུ་གཏང་བའི་སྐབས་ སྔོན་སྒྲིག་གསང་བཟོའི་སྒྲིག་སྟངས:"
+
+#: encryptionGroupTitle.label
+msgid "Encryption"
+msgstr "གསང་བཟོ།"
+
+#: neverEncrypt.label
+#: neverEncrypt.accesskey
+msgid "&Never (do not use encryption)"
+msgstr "ནམ་ཡང་(གསང་བཟོ་ལག་ལེན་མ་འཐབ)(&N)"
+
+#: securityHeading.label
+msgid "To send and receive signed or encrypted messages, you should specify both a digital signing certificate and an encryption certificate."
+msgstr "མིང་རྟགས་བཀོད་བཀོདཔ་ཡང་ན་གསང་བཟོ་འབད་འབད་བའི་འཕྲིན་དོན་ཚུ་གཏང་ནི་དང་ལེན་འབད་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ཌི་ཇི་ཊཱལ་མིང་རྟགས་བཀོད་པའི་ལག་འཁྱེར་དང་གསང་བཟོའི་ལག་འཁྱེར་གཉིས་ཆ་ར་གསལ་བཀོད་འབད་དགོ"
+
+#: securityTitle.label
+msgid "Security"
+msgstr "མཐའ་བཙན།"
+
+#: signMessage.label
+#: signMessage.accesskey
+msgid "&Digitally sign messages (by default)"
+msgstr "ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་འཕྲིན་དོན་ཚུ་མིང་རྟགས་བཀོད།(སྔོན་སྒྲིག་གི་སྦེ)(&D)"
+
+#: signingCert.message
+msgid "Use this certificate to digitally sign messages you send:"
+msgstr "འ་ནི་ལག་འཁྱེར་འདི་ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་ཁྱོད་ཀྱིས་གཏང་མི་འཕྲིན་དོན་ཚུ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ:"
+
+#: signingCert.notselected
+msgid ""
+"_: signingCert.notselected\n"
+"No certificate set"
+msgstr "ལག་འཁྱེར་གྱི་ཚན་མེད།"
+
+#: signingGroupTitle.label
+msgid "Digital Signing"
+msgstr "ཌི་ཇི་ཊཱལ་མིང་རྟགས་བཀོད་དོ།"
+

@@ -1,0 +1,186 @@
+# LANGUAGE translation of Drupal (modules/path.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: path.module,v 1.83 2006/04/13 08:25:27 killes
+# yangka <yanang_ka@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: path-module\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-24 23:38+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/path.module:15
+msgid "The path module allows you to specify aliases for Drupal URLs.  Such aliases improve readability of URLs for your users and may help internet search engines to index your content more effectively.  More than one alias may be created for a given page."
+msgstr "འགྲུལ་ལམ་ཚད་གཞི་འདི་གིས་ཁྱོད་ལུ་ཌུ་པཱལ་ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་མིང་གཞན་ཙུ་གསལ་བཀོད་འབདཝ་ཨིན། མིང་གཞན་དེ་ཚུ་གིས་ག་ལེན་པ་ཚུའི་དོན་ལུ་ཡུ་ཨར་ཨེལ་གྱི་ལྷག་ཚུགསཔ་ཡག་རྒྱས་བཟོཝ་དང་ཨིན་ཊར་ནེཊེ་འཚོལ་ཞིབ་ཀྱིས་ཁྱོད་ཀྱི་ནང་དོན་ཧེང་བཀེལ་ནུས་ཅན་ཟུར་ཐོ་ལུ་མ་འཕྲུལ་འབདཝ་ཨིན། མིང་གཞན་ཅིག་ལས་ལྷག་པ་ཅིན་གྲ་སྒྲིག་ཤོག་ལེབ་དོན་ལུ་གསར་བསྐྲུན་འབད་བཏུབ་ཨིན།"
+
+#: modules/path.module:16
+msgid ""
+"<p>Some examples of URL aliases are:</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུའི་དཔེར་བརྗོད་ལ་ལོ་ཅིག་:</p>\n"
+"<ul>\n"
+"<li>ལག་ལེན་པ་/ནང་བསྐྱོད་ =&gt; ནང་བསྐྱོད</li>\n"
+"<li>གཟུགས་བརྙན་/ཊའི་ཌི་/༡༦ =&gt; མཛོད་ཁང་</li>\n"
+"<li>དབྱེ་བསལ་ལམ་ལུགས་/དོན་ཚིག/༧+༡༩+༢༠+༢༡ =&gt; མཛོད་ཁང་/ཐོན་སྐྱེད/ཝིར་ལི་གིིགས་</li>\n"
+"<li>མཐུད་མཚམས་/3 =&gt; འབྲེལ་བ་འཐབ་ནི་ཨིན།</li>\n"
+"</ul>\n"
+
+#: modules/path.module:24
+msgid "The path module enables an extra field for aliases in all node input and editing forms (when users have the appropriate permissions).  It also provides an interface to view and edit all URL aliases.  The two permissions are related to URL aliasing are \"administer a list of URL aliases\" and \"add url aliases\".  "
+msgstr "འགྲུལ་ལམ་ཚད་གཞི་གིས་ཨིན་པུཌི་མཐུད་མཚམས་དངཞུན་དག་འབད་ནི་འབྲི་ཤོག་ཚུའི་མིང་གཞན་ཚུའི་དོན་ལུ་(ལག་ལེན་པ་ཚུ་ལུ་གནང་བ་འོས་ལྡན་ཡོད་བའི་སྐབས་)ས་སྒོ་ཐེབ ས་ལྕོགས་ཅན་བཟོཝ་ཨིན། འདི་གིས་ཡང་ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུ་ཞུན་དག་འབད་ནི་དང་མཐོང་སྣང་ལུ་ངོས་འདྲ་བ་ཅིག་བྱིནམ་ཨིན། ཡུ་ཨར་ཨེལ་མིང་གཞན་ལུ་འབྲེལ་བ་ཡོད་པའི་གནང་བ་གཉིས་འདི་\"administer a list of URL aliases\" and \"add url aliases\"ཨིན།"
+
+#: modules/path.module:25
+msgid "This module also comes with user-defined mass URL aliasing capabilities, which is useful if you wish to uniformly use URLs different from the default.  For example, you may want to have your URLs presented in a different language. Access to the Drupal source code on the web server is required to set up these kinds of aliases. "
+msgstr "ཚད་གཞི་འདི་ཡང་ལག་ལེན་པ་ངེས་འཛིན་འབད་ཡོད་མི་ཡུ་ཨར་ཨེལ་མིང་གཞན་ལྕོགས་གྲུབ་ཅན་རྒྱ་ཆེ་བ་ཚུ་དང་གཅིག་ཁར་འོང་མི་ ཁྱོད་ཀྱིས་སྔོན་སྒྲིག་ལས་སོ་སོ་ཡུ་ཨར་ཨེལ་ཚུ་གཅིག་མཚུངས་འབད་ལག་ལེན་འཐབ་ནི་མནོ་བ་ཅིན་ཕན་ཐོགས་ཅན་ཨིན། དཔེར་ན་ ཁྱོད་ཀྱིས་ཡང་ཅིན་ཡུ་ཨར་ཨེལ་ཚུ་ཁ་སྐད་སོ་སོ་ནང་གསལ་སྟོན་འབད་ནི་འོང་། ཌུ་པལ་འབྱུང་ཁུངས་ཨང་རྟགས་ཝེབ་སར་བར་གུ་འཛུལ་སྤྱོད་འབད་ནི་ལུ་མིང་གཞན་གྱི་དབྱེ་ཁག་ཚུ་གཞི་སྒྲིག་འབད་ནི་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/path.module:26
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>set the path for a post with the path module.</li>\n"
+"<li>add a URL alias: <a href=\"%admin-path-add\">administer &gt;&gt; url aliases &gt;&gt; add alias</a>.</li>\n"
+"<li>administer the list of URL aliases: <a href=\"%admin-path\">administer &gt;&gt; url aliases</a>.</li>\n"
+"<li>read how to <a href=\"%external-http-drupal-org-node-15365\">configure clean URLs</a> for your webserver.\n"
+"<li>enable clean url's to remove the =? at <a href=\"%admin-settings\">administer &gt;&gt; settings</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་</p>\n"
+"<ul>\n"
+"<li>གནས་བསྐྱོད་དང་གཅིག་ཁར་འགྲུལ་ལམ་ཚད་གཞིའི་དོན་ལུ་འགྲུལ་ལམ་འདི་གཞི་སྒྲིག་འབད།</li>\n"
+"<li>ཡུ་ཨར་ཨེལ་མིང་གཞན་ཅིག་: <a href=\"%admin-path-add\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུ་ &gt;&gt;མིང་གཞན་ཁ་སྐོང་འབད་ནི་</a>ཁ་སྐོང་འབད།</li>\n"
+"<li>ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུའི་ཐོ་ཡིག་འདི་: <a href=\"%admin-path\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུ་</a>བདག་སྐྱོང་འཐབ།</li>\n"
+"<li>ཁྱོད་རའི་ཝེབ་སར་བར་དོན་ལུ་ <a href=\"%external-http-drupal-org-node-15365\">ཡུ་ཨར་ཨེལ་ཚུ་གཙང་དག་བཟོ་ནི་རིམ་ལུགས་</a> ག་དེ་འབད་བཟོ་ནི་ཨིན་ན་ལྷག\n"
+"<li>ཡུ་ཨར་ཨེལ་གིས་རྩ་བསྐྲད་གཏང་ནི་ =  <a href=\"%admin-settings\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; སྒྲིག་སྟངས་ཚུ་</a>ལུ་ལྕོགས་ཅན་བཟོ་ནི་ཨིན་ན?</li>\n"
+"</ul>\n"
+
+#: modules/path.module:35
+msgid "For more information please read the configuration and customization handbook <a href=\"%path\">Path page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་ <a href=\"%path\">འགྲུལ་ལམ་ཤོག་དེབ་</a>འདི་ལྷག་གནང་།"
+
+#: modules/path.module:38
+msgid "Allows users to rename URLs."
+msgstr "ལག་ལེན་པ་ཚུ་ལུ་ཡུ་ཨར་ཨེལ་ཚུ་སླར་ལོག་མིང་བཏགས་བཅུགཔ་ཨིན།"
+
+#: modules/path.module:40
+msgid "<p>Drupal provides users complete control over URLs through aliasing.  This feature is typically used to make URLs human-readable or easy to remember.  For example, one could map the relative URL 'node/1' onto 'about'. Each system path can have multiple aliases.</p>"
+msgstr "ཌུ་པཱལ་གྱིས་ལག་ལེན་པ་ཚུ་ལུ་མིང་གཞན་ལས་བརྒྱུད་དེ་ཡུ་ཨར་ཨེལ་ཚུའི་ལྟག་ལས་ཚད་འཛིན་བྱིནམ་ཨིན། ཁྱད་རྣམ་འདི་ཡུ་ཨར་ཨེལ་ཚུ་འགྲོ་བ་མི་གིས་ལྷག་ཚུགསཔ་ཡང་ན་སེམས་ཁར་བཞག་ནི་འཇམ་ཏོག་ཏོ་བཟོ་ནི་ལུ་འཁྲུལ་བ་མེད་པར་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན། དེཔར་ན་ གཅིག་གིས་འབྲེལ་བ་ཡོད་པའི་ཡུ་ཨར་ཨེལ་'node/1' onto 'about'འདི་ས་ཁྲ་བཟོ་བཏུབ་ཨིན། རིམ་ལུགས་འགྲུལ་ལམ་རེ་རེ་ལུ་མིང་གཞན་སྣ་མང་ཡོདཔ་ཨིན།</p>"
+
+#: modules/path.module:42
+msgid "<p>Enter the path you wish to create the alias for, followed by the name of the new alias.</p>"
+msgstr "<p>མིང་གཞན་གསརཔ་གིས་འབད་རྗེས་སུ་འབྲང་དེ་ཁྱོད་ར་གིས་གསར་བསྐྲུན་འབད་ནི་ཨིན་མི་མིང་གཞན་འདིའི་དོན་ལུ་འགྲུལ་ལམ་འདི་བཙུགས།</p>"
+
+#: modules/path.module:53
+msgid "url aliases"
+msgstr "ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུ།"
+
+#: modules/path.module:56
+msgid "edit alias"
+msgstr "མིང་གཞན་ཞུན་དག་འབད།"
+
+#: modules/path.module:60
+msgid "delete alias"
+msgstr "མིང་གཞན་བཏོན་གཏང་།"
+
+#: modules/path.module:66
+msgid "add alias"
+msgstr "མིང་གཞན་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/path.module:106
+msgid "Are you sure you want to delete path alias %title?"
+msgstr "ཁྱོད་ཀྱིས་འགྲུལ་ལམ་མིང་གཞན་%title བཏོན་གཏང་ནི་ལུ་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/path.module:129
+msgid "The alias has been deleted."
+msgstr "མིང་གཞན་འདི་བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/path.module:184
+msgid "Existing system path"
+msgstr "རིམ་ལུགས་འགྲུལ་ལམ་ཡོད་མི།"
+
+#: modules/path.module:184
+msgid "Specify the existing path you wish to alias. For example: node/28, forum/1, taxonomy/term/1+2."
+msgstr "ཁྱོད་ར་གིས་མནོ་འདོད་ཡོད་མི་མིང་གཞན་ལུ་འགྲུལ་ལམ་ཡོད་མི་འདི་གསལ་བཀོད་འབད། དཔེར་ན་ : node/28, forum/1, taxonomy/term/1+2."
+
+#: modules/path.module:185
+msgid "Specify an alternative path by which this data can be accessed.  For example, type \"about\" when writing an about page.  Use a relative path and don't add a trailing slash or the URL alias won't work."
+msgstr "འཛུལ་སྤྱོད་འབད་ནི་ཨིན་མི་གིས་གནད་སྡུད་ཀྱིས་ཐབས་གཞན་འགྲུལ་ལམ་ཅིག་གསལ་བཀོད་འབད། དཔེར་ན་ དབྱེ་བ་\"about\" ཤོག་ལེབ་ཅིག་གི་སྐོར་ལས་འབྲི་བའི་སྐབས། འབྲེལ་བ་ཡོད་པའི་འགྲུལ་ལམ་ལག་ལེན་འཐབ་ནི་དང་རྒྱབ་ལུས་གཡོ་ཤད་ཁ་སྐོང་མ་འབད་ཡང་ན་ཡུ་ཨར་ཨེལ་མིང་གཞན་འདི་ལཱ་མི་འབད།"
+
+#: modules/path.module:189
+msgid "Update alias"
+msgstr "མིང་གཞན་དུས་མཐུན་བཟོ།"
+
+#: modules/path.module:192
+msgid "Create new alias"
+msgstr "མིང་གཞན་གསརཔ་གསར་བསྐྲུན་འབད།"
+
+#: modules/path.module:210
+msgid "The path is invalid."
+msgstr "འགྲུལ་ལམ་འདི་ནུས་མེད་ཨིན།"
+
+#: modules/path.module:213
+msgid "The path is already in use."
+msgstr "འགྲུལ་རམ་འདི་ཧེ་མ་ལས་ལག་ལེན་འཐབ་ཡོད།"
+
+#: modules/path.module:257
+msgid "URL path settings"
+msgstr "ཡུ་ཨར་ཨེལ་འགྲུལ་ལམ་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/path.module:268
+msgid "Optionally specify an alternative URL by which this node can be accessed.  For example, type \"about\" when writing an about page.  Use a relative path and don't add a trailing slash or the URL alias won't work."
+msgstr "གདམ་ཁ་དང་འཁྲིལ་ཏེ་མཐུད་མཚམས་འཛུལ་སྤྱོད་འབད་ནིའི་ཡུ་ཨར་ཨེལ་ཐབས་གཞན་ཅིག་གསལ་བཀོད་འབད། དཔེར་ན་དབྱེ་བ་་\"about\" ཤོག་ལེབ་ཅིག་གི་སྐོར་ལས་འབྲི་བའི་སྐབས། འབྲེལ་བའི་འགྲུལ་ལམ་ལག་ལེན་འཐབ་ནི་དང་རྒྱབ་ལུས་གཡོ་ཤད་ཁ་སྐོང་མ་རྐྱབས་ཡང་ན་ཡུ་ཨར་ཨེལ་མིང་གཞན་འདི་ལཱ་མི་འབད།"
+
+#: modules/path.module:293
+msgid "Alias"
+msgstr "མིང་གཞན།"
+
+#: modules/path.module:294
+msgid "System"
+msgstr "རིམ་ལུགས།"
+
+#: modules/path.module:306
+msgid "No URL aliases available."
+msgstr "ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུ་ཐོབ་ཚུགསཔ་མེདཔ།"
+
+#: modules/path.module:331
+msgid "The system path %path is invalid."
+msgstr "རིམ་ལུགས་འགྲུལ་ལམ་%path འདི་ནུས་མེད་ཨིན།"
+
+#: modules/path.module:335
+msgid "The alias %alias is invalid."
+msgstr "མིང་གཞན་%aliasའདི་ནུས་མེད་ཨིན།"
+
+#: modules/path.module:339
+msgid "The alias %alias is already in use."
+msgstr "ཙིང་གཞན་%aliasའདི་ཧེ་མ་ལས་ལག་ལེན་འཐབ་ཡོད།"
+
+#: modules/path.module:348
+msgid "The alias has been saved."
+msgstr "མིང་གཞན་འདི་སྲུངས་བཞག་འབད་ཡོདཔ།"
+
+#: modules/path.module:284
+msgid "create url aliases"
+msgstr "ཡུ་ཨར་ཨེལ་ཙིང་གཞན་ཚུ་གསར་བསྐྲུན་འབད།"
+
+#: modules/path.module:284
+msgid "administer url aliases"
+msgstr "ཡུ་ཨར་ཨེལ་མིང་གཞན་ཚུ་བདག་སྐྱོང་འཐབ་ནི།"
+
+#: modules/path.module:0
+msgid "path"
+msgstr "འགྲུལ་ལམ།"
+

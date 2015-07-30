@@ -1,0 +1,217 @@
+# LANGUAGE translation of Drupal (modules/blogapi.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: blogapi.module,v 1.82 2006/04/26 15:07:12 killes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-4.7.0/blogapi-module.po\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 11:32+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/blogapi/blogapi.module:15
+msgid "The blog API module enables a post to be posted to a site via external GUI applications. Many users prefer to use external tools to improve their ability to read and post responses in a customized way. The blog api provides users the freedom to use the blogging tools they want but still have the blogging server of choice."
+msgstr "ཝེབ་དྲན་དེབ་ཀྱི་ཨེ་པི་ཨའི་ཚད་གཞི་དེ་གིས་  ཕྱིའི་ཇི་ཡུ་ཨའི་འཇུག་སྤྱོད་ཚུ་ལས་བརྒྱུད་དེ་ ས་ཁོངས་ཅིག་ལུ་གནས་བསྐྱོད་འབད་ནི་ལུ་ གནས་བསྐྱོད་ཅིག་ལྕོགས་ཅན་བཟོཝ་ཨིན།  སྲོལ་སྒྲིག་ཅིག་གི་ཐོག་ལས་འབད་  ལན་གནས་བསྐྱོད་འབད་ནི་དང་ལྷག་ནི་ལུ་  ལྕོགས་གྲུབ་འདི་ལེགས་བཟོ་འབད་ནི་ལུ་  ལག་ལེན་པ་མང་ཆེ་ཤོས་ཀྱིས་  ཕྱིའི་ལག་ཆས་ཚུ་ལག་ལེན་འཐབ་ནི་ལུ་དགའ་གདམ་བརྐྱབ་ཨིན། ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་དེ་གིས་  ལག་ལེན་པ་དེ་ཚུ་ལུ་  ཁོང་རང་དགོ་པའི་བི་ལོག་གིང་ལག་ཆས་ཚུ་ལག་ལེན་འཐབ་ནི་གི་རང་དབང་བྱིནམ་ཨིན་  དེ་འབདཝ་ད་  ད་ལྟོ་ཡང་  བི་ལོག་གིང་གི་སར་བར་ལུ་གདམ་ཁ་ཡོདཔ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:16
+msgid "When this module is enabled and configured you can use programs like <a href=\"@external-http-ecto-kung-foo-tv\">Ecto</a> to create and publish posts from your desktop. Blog API module supports several XML-RPC based blogging APIs such as the <a href=\"@-\">Blogger API</a>, <a href=\"@external-http-www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a>, and most of the <a href=\"@external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">Movable Type API</a>. Any desktop blogging tools or other services (e.g. <a href=\"@external-http-www-flickr-com\">Flickr's</a> \"post to blog\") that support these APIs should work with this site."
+msgstr "ཚད་གཞི་འདི་ལྕོགས་ཅན་བཟོ་ཞིནམ་ལས་  རིམ་སྒྲིག་འབད་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱིས་    ཁྱོད་རའི་ཌེཀསི་ཊོཔ་ལས་ གནས་བསྐྱོད་འདི་གསར་བསྐྲུན་འབད་ནི་དང་  དཔེ་བསྐྲུན་འབད་ནི་ལུ་ <a href=\"%external-http-ecto-kung-foo-tv\">ཨི་ཊི་སི་ཨོ་</a>བཟུམ་མའི་ལས་རིམ་འདི་ལག་ལེན་འཐབ་བཏུབ།  ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་ཚད་གཞི་དེ་གིས་  XML-RPC གཞི་བཞག་ཡོད་པའི་བི་ལོག་གིང་ཨེ་པི་ཨའི་ཨེསི་  <a href=\"%-\">བི་ལོག་གར་ཨེ་པི་ཨའི་</a>, <a href=\"%external-http-www-xmlrpc-com-metaWeblogApi\">མེ་ཊ་ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་</a>དང་  <a href=\"%external-http-www-movabletype-org-docs-mtmanual_programmatic-html\">སྤོ་བཤུད་འབད་བཏུབ་པའི་ཨེ་པི་ཨའི་དབྱེ་བ་</a>མང་ཤོས་ཅིག་ལུ་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།  ཌེཀསི་ཊོཔ་བོ་ལོག་གིང་ལག་ཆས་ཚུ་ཡང་ན་  ཞབས་ཏོག་(e.g. <a href=\"%external-http-www-flickr-com\">Flickr's</a> \"post to blog\") དེ་ཡང་  ཨེ་པི་ཨའི་ཨེསི་ལུ་རྒྱབ་སྐྱོར་འབད་མི་འདི་  ས་ཁོངས་འདི་དང་ཅིག་ཁར་ལཱ་འབད་དགོཔ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:17
+msgid "This module also allows site administrators to configure which content types can be posted via the external applications. So, for instance, users can post forum topics as well as blog posts. Where supported, the external applications will display each content type as a separate \"blog\".<!--break-->"
+msgstr "ཚད་གཞི་དེ་གིས་གཞན་ཡང་  ས་ཁོངས་བདག་སྐྱོང་པ་འདི་ལུ་རིམ་སྒྲིག་འབད་བཅུགཔ་ཨིན་  དེ་ཡང་  ནང་དོན་གྱི་དབྱེ་བ་འདི་  ཕྱིའི་འཇུག་སྤྱོད་ཚུ་ལས་བརྒྱུད་དེ་གནས་བསྐྱོད་འབད་བཏུབ་མི་ཨིན།  དེ་འབདཝ་ལས་  དུས་སྐབས་ཅིག་  ལག་ལེན་པ་དེ་ཚུ་གིས་  གྲོས་གནས་གནད་དོན་དང་གཞན་ཡང་ ཝེབ་དྲན་དེབ་གནས་བསྐྱོད་འབད་གནས་བསྐྱོད་འབད་བཏུབ་ཨིན།  རྒྱབ་སྐྱོར་འབད་དེ་ཡོད་ས་ལུ་  ཕྱིའི་འཇུག་སྤྱོད་དེ་ཚུ་གིས་  ནང་དོན་དབྱེ་བ་རེ་\"blog\"སོ་སོ་འབད་བཀྲམ་སྟོན་འབད་འོང་།<!--break-->"
+
+#: modules/blogapi/blogapi.module:18
+msgid "For more information please read the configuration and customization handbook <a href=\"@blogapi\">BlogApi page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་ <a href=\"%blogapi\">ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་ཤོག་ལེབ་ </a> འདི་ལྷག་གནང་། "
+
+#: modules/blogapi/blogapi.module:32
+msgid "Returns a list of weblogs to which an author has posting privileges."
+msgstr "རྩོམ་པ་པོ་ལུ་གནས་བསྐྱོད་འབད་ནི་གི་ཁེ་དབང་མི་ལུ་  ཝེབ་དྲན་དེབ་ཚུ་གི་ཐོ་ཡིག་འདི་སྲལ་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:37
+msgid "Returns information about an author in the system."
+msgstr "རིམ་ལུགས་ནང་ལུ་ རྩོམ་པ་པོ་གི་སྐོར་ལས་ བརྡ་དོན་འདི་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:42;67
+msgid "Creates a new post, and optionally publishes it."
+msgstr "གནས་བསྐྱོད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་དང་  གདམ་ཁའི་ཐོག་ལས་དཔེ་བསྐྲུན་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:47
+msgid "Updates the information about an existing post."
+msgstr "གནས་དེ་ཡོད་པའི་གནས་བསྐྱོད་ཀྱི་སྐོར་ལས་  བརྡ་དོན་འདི་དུས་མཐུན་བཟོཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:52;77
+msgid "Returns information about a specific post."
+msgstr "དམིགས་བསལ་གྱི་གནས་བསྐྱོད་ཅིག་གི་སྐོར་ལས་ བརྡ་དོན་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:57
+msgid "Deletes a post."
+msgstr "གནས་བསྐྱོད་ཅིག་བཏོན་གཏངམ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:62;92
+msgid "Returns a list of the most recent posts in the system."
+msgstr "རིམ་ལུགས་ནང་ལུ་ འཕྲལ་གྱི་གནས་བསྐྱོད་མང་ཤོས་ཅིག་གི་ཐོ་ཡིག་འདི་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:72
+msgid "Updates information about an existing post."
+msgstr "གནས་དེ་ཡོད་པའི་གནས་བསྐྱོད་སྐོར་ལས་  བརྡ་དོན་དུས་མཐུན་བཟོཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:82
+msgid "Uploads a file to your webserver."
+msgstr "ཡིག་སྣོད་ཅིག་ ཁྱོད་རའི་ཝེབ་སར་བར་ལུ་ སྐྱེལ་བཙུགས་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:87;107
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr "གནས་བསྐྱོད་འདི་འགན་སྤྲོད་འབད་དེ་ཡོད་པའི་ དབྱེ་རིམ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་ཅིག་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:97
+msgid "Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr "རིམ་ལུགས་ནང་ལུ་  འཕྲལ་གྱི་གནས་བསྐྱོད་མང་ཤོས་ཅིག་གི་ བེན་ཝིཐ་མཐུན་མི་ ཅིག་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:102
+msgid "Returns a list of all categories defined in the weblog."
+msgstr "ཝེབ་དྲན་དེབ་ནང་ལུ་ངོས་འཛིན་འབད་དེ་ཡོད་པའི་དབྱེ་རིམ་ཆ་མཉམ་གྱི་ ཐོ་ཡིག་ཅིག་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:112
+msgid "Sets the categories for a post."
+msgstr "གནས་བསྐྱོད་ཅིག་གི་དོན་ལུ་  དབྱེ་རིམ་ཚུ་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:117
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr "སར་བར་གྱིས་རྒྱབ་སྐྱོར་འབད་དེ་ཡོད་པའི་ XML-RPC ཐབས་ལམ་འདི་གི་སྐོར་ལས་  བརྡ་དོན་འདི་སླར་འདྲེན་འབད།"
+
+#: modules/blogapi/blogapi.module:122
+msgid "Retrieve information about the text formatting plugins supported by the server."
+msgstr "སར་བར་གྱིས་རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་ ཚིག་ཡིག་རྩ་སྒྲིག་འབད་ནི་པ་ལག་ཨིནསི་འདི་གི་སྐོར་ལས་ བརྡ་དོན་སླར་འདྲེན་འབད།"
+
+#: modules/blogapi/blogapi.module:127
+msgid "Publish (rebuild) all of the static files related to an entry from your weblog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr "ཁྱོད་རའི་ཝེབ་དྲན་དེབ་ལས་  ཐོ་བཀོད་ལུ་འབྲེལ་བ་ཡོད་པའི་ཡིག་རྟག་བརྟན་སྣོད་ (སླར་བཟོ་རྩིག་) ཚུ་ཆ་མཉམ་རང་དཔེ་བསྐྲུན་འབད།  རིམ་ལུགས་ནང་ཐོ་བཀོད་འདི་སྲུངས་ནི་ལུ་ འདྲ་མཉམ་ (དེ་འབདཝ་ད་པིང་སྒྲ་མེད་པར།)"
+
+#: modules/blogapi/blogapi.module:204
+msgid "You do not have permission to create the type of post you wanted to create."
+msgstr "ཁྱོད་ཀྱིས་གསར་བསྐྲུན་འབད་ནི་ཨིན་པའི་གནས་བསྐྱོད་ཀྱི་དབྱེ་བ་འདི་ གསར་བསྐྲུན་འབད་ནི་ལུ་ ཁྱོད་ལུ་ གནང་བ་མེད།"
+
+#: modules/blogapi/blogapi.module:221
+msgid "@type: added %title using blog API."
+msgstr "@type: ཁ་སྐོང་བརྐྱབ་ཡོད་པའི་%title ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་ལག་ལེན་འཐབ་དོ།"
+
+#: modules/blogapi/blogapi.module:226;281
+msgid "Error storing post."
+msgstr "གནས་བསྐྱོད་འདི་གསོག་འཇོག་འབདཝ་ད་ འཛོལ་བ།"
+
+#: modules/blogapi/blogapi.module:248;482
+msgid "You do not have permission to update this post."
+msgstr "གནས་བསྐྱོད་འདི་དུས་མཐུན་བཟོ་ནི་དོན་ལུ་  ཁྱོད་ལུ་ གནང་བ་མེད།"
+
+#: modules/blogapi/blogapi.module:277
+msgid "@type: updated %title using blog API."
+msgstr "@type: དུས་མཐུན་བཟོ་ཡོད་པའི་ %title ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་ལག་ལེན་འཐབ་དོ།"
+
+#: modules/blogapi/blogapi.module:362
+msgid "No file sent."
+msgstr "ཡིག་སྣོད་མ་གཏང་པས།"
+
+#: modules/blogapi/blogapi.module:366
+msgid "Error storing file."
+msgstr "ཡིག་སྣོད་གསོག་འཇོག་འབདཝ་ད་འཛོལ་བ།"
+
+#: modules/blogapi/blogapi.module:477
+msgid "Invalid post."
+msgstr "ནུས་ཅན་མེད་པའི་གནས་བསྐྱོད།"
+
+#: modules/blogapi/blogapi.module:517
+msgid "You either tried to edit somebody else's blog or you don't have permission to edit your own blog."
+msgstr "ཡང་ན་ཁྱོད་ཀྱིས་ གཞན་གྱི་ཝེབ་དྲན་དེབ་འདི་ཞུན་དག་འབད་ནི་འབད་འབདཝ་ཨིན་ན་  ཡང་ན་  ཁྱོད་རའི་ཝེབ་དྲན་དེབ་ཞུན་དག་འབད་ནི་འདི་གནང་བ་མ་འཐོབ་ཨིན་ན།"
+
+#: modules/blogapi/blogapi.module:521
+msgid "Wrong username or password."
+msgstr "ལག་ལེན་པའི་མིང་ ཡང་ན་ ཆོག་ཡིག་འདི་ཕྱི་འགྱུར་ཨིན་མས།"
+
+#: modules/blogapi/blogapi.module:544
+msgid "Blog types"
+msgstr "ཝེབ་དྲན་དེབ་ཀྱི་དབྱེ་བ་ཚུ།"
+
+#: modules/blogapi/blogapi.module:548
+msgid "Select the content types for which you wish to enable posting via blogapi. Each type will appear as a different \"blog\" in the client application (if supported)."
+msgstr "ཝེབ་དྲན་དེབ་ལས་བརྒྱུད་དེ་  གནས་བསྐྱོད་འབད་ནི་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་  ཁྱོད་རང་རེ་འདོད་ཡོད་པ་ཅིན་  ནང་དོན་དབྱེ་བ་ཚུ་སེལ་འཐུ་འབད།  ཞབས་ཏོག་སྤྱོད་མི་(རྒྱབ་སྐྱོར་འབད་དེ་ཡོད་པ་ཅིན་) ནང་ལུ་  དབྱེ་བ་རེ་ \"blog\" མ་འདྲཝ་རེ་འབད་འབྱུངམ་ཨིན།"
+
+#: modules/blogapi/blogapi.module:560;567
+msgid "RSD"
+msgstr "ཨར་ཨེསི་ཌི།"
+
+#: modules/blogapi/blogapi.module:573
+msgid "Blog APIs"
+msgstr "ཝེབ་དྲན་དེབ་ཀྱི་དབྱེ་བ་ཚུ་"
+
+#: modules/blogapi/blogapi.module:574
+msgid "Configure which content types and engines external blog clients can use."
+msgstr "ནང་དོན་གྱི་དབྱེ་བ་དང་  མ་འཕྲུལ་ཚུའི་ཕྱི་གི་ཝེབ་དྲན་དེབ་ཞབས་ཏོག་སྤྱོད་མི་  ག་འདི་ལག་ལེན་འཐབ་བཏུབ་ཨིན་ན་འདི་ རིམ་སྒྲིག་འབད།"
+
+#: modules/blogapi/blogapi.module:0
+msgid "blogapi"
+msgstr "ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི།"
+
+#: modules/blogapi/blogapi.info:0
+msgid "Blog API"
+msgstr "ཝེབ་དྲན་དེབ་ ཨེ་པི་ཨའི་"
+
+#: modules/blogapi/blogapi.info:0
+msgid "Allows users to post content using applications that support XML-RPC blog APIs."
+msgstr "XML-RPC ཝེབ་ཨེ་པི་ཨའི་ཨེསི་རྒྱབ་སྐྱོར་འབད་མི་  འཇུག་སྤྱོད་འདི་ལག་ལེན་འཐབ་སྟེ་  ལག་ལེན་ཚུ་ལུ་  ནང་དོན་འདི་གནས་བསྐྱོད་འབད་བཅུགསཔ་ཨིན།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>view the XML-RPC page on your site at &gt;&gt; <a href=\"%file-xmlrpc"
+#~ "\">xmlrpc.php</a>.</li>\n"
+#~ "<li><a href=\"%admin-settings-blogapi\">administer &gt;&gt; settings &gt;"
+#~ "&gt; blog api</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་ </p>\n"
+#~ "<ul>\n"
+#~ "<li> XML-RPC ཤོག་ལེབ་འདི་  &gt;&gt; ཁྱོད་རའི་ས་ཁོངས་གུ་མཐོངམ་ཨིན། <a href=\"%file-"
+#~ "xmlrpc\">xmlrpc.php</a>.</li>\n"
+#~ "<li><a href=\"%admin-settings-blogapi\">administer &gt;&gt; settings &gt;"
+#~ "&gt; ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི།</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgid ""
+#~ "Retrieve the list of TrackBack pings posted to a particular entry. This "
+#~ "could be used to programmatically retrieve the list of pings for a "
+#~ "particular entry, then iterate through each of those pings doing the "
+#~ "same, until one has built up a graph of the web of entries referencing "
+#~ "one another on a particular topic."
+#~ msgstr ""
+#~ "ཐོ་བཀོད་བྱེ་བྲག་ཅིག་ལུ་ གནས་བསྐྱོད་འབད་དེ་ཡོད་པའི་ TrackBack པིང་སྒྲ་གི་ཐོ་ཡིག་འདི་ སླར་འདྲེན་"
+#~ "འབད།  དེ་ཡང་  ཐོ་བཀོད་བྱེ་བྲག་ཅིག་གི་དོན་ལུ་ པི་སྒྲ་ཚུ་གི་ཐོ་ཡིག་འདི་ལས་རིམ་གྱི་ཐོག་ལས་ལག་ལེན་"
+#~ "འཐབ་བཏུབ་ནི་དང་  དེ་ལས་  བྱེ་བྲག་གྱི་གནད་དོན་ཅིག་གུ་  གཅིག་ལས་གཅིག་ལུ་ འཛུལ་ཞུགས་གཞི་བསྟུན་གྱི་"
+#~ "ཝེབ་ཀྱི་  ཚད་ཁྲམ་ཅིག་མ་བཟོ་ཚུན་ཚོད་  པིང་སྒྲ་ཚུ་ལྕོགས་ཐདཔ་འབད་མི་ལས་བརྒྱུད་དེ་  བསྐྱར་ཟློས་འབད།"
+#~ msgid "Not implemented."
+#~ msgstr "བསྟར་བསྐྱོད་མ་འབད་བས།"
+#~ msgid "XML-RPC Engine"
+#~ msgstr "XML-RPC མ་འཕྲུལ།"
+#~ msgid ""
+#~ "RSD or Really-Simple-Discovery is a mechanism which allows external "
+#~ "blogger tools to discover the APIs they can use to interact with Drupal. "
+#~ "Here you can set the preferred method for blogger tools to interact with "
+#~ "your site. The common XML-RPC engines are Blogger, MetaWeblog and "
+#~ "Movabletype. If you are not sure which is the correct setting, choose "
+#~ "Blogger."
+#~ msgstr ""
+#~ "ཨར་ཨེསི་ཌི་ཡང་ན་ ངོ་མ་འཇམ་སམ་གྱི་གསར་རྙེད་ཟེར་མི་འདི་  ཌུ་པཱལ་དང་ཅིག་ཁར་ཕན་ཚུན་འབྲེལ་བ་འབད་"
+#~ "ནི་ལུ་ ལག་ལེན་འཐབ་བཏུབ་པའི་  ཨེ་པི་ཨའི་ཨེསི་འདི་གསར་རྙེད་འབད་ནི་ལུ་ ཕྱིའི་བི་ལོག་གར་ལག་ཆས་ཚུ་"
+#~ "བྱིན་མིའི་ཐབས་རིག་ཅིག་ཨིན།  ནཱ་ལུ་ཁྱོད་རའི་ས་ཁོངས་དང་ཅིག་ཁར་ཕན་ཚུན་འབྲེལ་བ་འབད་ནི་ལུ་  བི་ལོག་"
+#~ "གར་ལག་ཆས་ཚུ་གི་དོན་ལུ་  ཁྱོད་རང་དགའ་བའི་ཐབས་ལམ་འདི་གཞི་སྒྲིག་འབད་བཏུབ།  མཐུན་མོང་གི་ XML-"
+#~ "RPC མ་འཕྲུལ་ཚུ་  བི་ལོག་གར་  མེ་ཊ་ཝེབ་དྲན་དེབ་དང་  སྤོ་བཤུད་དབྱེ་བ་ཚུ་ཨིན།  ཁྱོད་རང་  སྒྲིག་"
+#~ "སྟངས་ངེས་བདེན་ག་འདི་ཨིན་ན་མ་ཤེས་པ་ཅིན་  བི་ལོག་གར་འདི་གདམ་ཁ་བརྐྱབ་ད།"
+

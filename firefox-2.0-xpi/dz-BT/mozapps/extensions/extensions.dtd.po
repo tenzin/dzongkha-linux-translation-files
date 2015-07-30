@@ -1,0 +1,340 @@
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/extensions/extensions.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: extensions.dtd.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-17 10:10+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: addons.title
+msgid "Add-ons"
+msgstr "ཁ་སྐོང་ཚུ་"
+
+# Default window size for the addon manager in pixels
+#: em.width
+msgid ""
+"_: Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger.\n"
+"520"
+msgstr "༥༢༠"
+
+#: em.height
+msgid ""
+"_: Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger.\n"
+"380"
+msgstr "༣༨༠"
+
+#: cmd.info.commandKey
+msgid "i"
+msgstr "i"
+
+#: cmd.options.commandKey
+msgid ","
+msgstr ","
+
+#: cmd.close.commandKey
+msgid "w"
+msgstr "w"
+
+#: extensions.label
+msgid "Extensions"
+msgstr "རྒྱ་བསྐྱེད་ཚུ།"
+
+#: themes.label
+msgid "Themes"
+msgstr "བརྗོད་དོན་"
+
+#: locales.label
+msgid "Languages"
+msgstr "སྐད་ཡིག་"
+
+#: plugins.label
+msgid "Plugins"
+msgstr "པ་ལག་ཨིནསི་"
+
+#: update.label
+msgid "Updates"
+msgstr "དུས་མཐུན་ཚུ་"
+
+#: install.label
+msgid "Installation"
+msgstr "གཞི་བཙུགས་"
+
+# Command Bar items
+#: cmd.checkUpdatesAll.label cmd.checkUpdatesAll.accesskey
+msgid "&Find Updates"
+msgstr "དུས་མཐུན་འཚོལ་(&F)"
+
+#: cmd.checkUpdatesAllAddon.tooltip
+msgid "Finds Updates to your Add-ons"
+msgstr "ཁྱོད་ཀྱི་ཁ་སྐོང་གི་དོན་ལུ་ དུས་མཐུན་འཚོལཝ་ཨིན།"
+
+#: cmd.checkUpdatesAllTheme.tooltip
+msgid "Finds Updates to your Themes"
+msgstr "ཁྱོད་རའི་བརྗོད་དོན་ལུ་ དུས་མཐུན་འཚོལཝ་ཨིན།"
+
+#: cmd.installLocalFile.label
+msgid "Install..."
+msgstr "གཞི་བཙུགས་འབད་་་་"
+
+#: cmd.installFile.accesskey
+msgid "I"
+msgstr "ཨའི་"
+
+#: cmd.installFileAddon.tooltip
+msgid "Install an Add-on"
+msgstr "ཁ་སྐོང་ཅིག་ གཞི་བཙུགས་འབད་"
+
+#: cmd.installFileTheme.tooltip
+msgid "Install a Theme"
+msgstr "བརྗོད་དོན་གཅིག་གཞི་བཙུགས་འབད་"
+
+#: cmd.installUpdatesAll.label cmd.installUpdatesAll.accesskey
+msgid "&Install Updates"
+msgstr "དུས་མཐུན་ཚུ་ གཞི་བཙུགས་འབད་(&I)"
+
+#: cmd.installUpdatesAll.tooltip
+msgid "Installs the selected updates"
+msgstr "སེལ་འཐུ་འབད་མི་ དུས་མཐུན་ཚུ་ གཞི་བཙུགས་འབད་"
+
+#: cmd.restartApp.label cmd.restartApp.accesskey
+msgid "&Restart &brandShortName;"
+msgstr "&brandShortName; ལོག་འགོ་བཙུགས་(&R)"
+
+#: cmd.restartApp.tooltip
+msgid "Restarts &brandShortName; to finish the installation"
+msgstr "གཞི་བཙུགས་མཇུག་བསྡུ་ནིའི་དོན་ལུ་ &brandShortName; ལོག་འགོ་བཙུགསཔ་ཨིན།"
+
+#: cmd.skip.label cmd.skip.accesskey
+msgid "&Skip"
+msgstr "གོམ་འགྱོ་(&S)"
+
+#: cmd.skip.tooltip
+msgid "Skip these updates"
+msgstr "དུས་མཐུན་འདི་ཚུ་གོམ་འགྱོ་"
+
+#: cmd.continue.label cmd.continue.accesskey
+msgid "&Continue"
+msgstr "འཕྲོ་མཐུད་(&C)"
+
+#: cmd.continue.tooltip
+msgid "Continue loading &brandShortName;"
+msgstr "&brandShortName; མངོན་གསལ་འབད་ནི་འཕྲོ་མཐུད་"
+
+#: cmd.enableAll.label cmd.enableAll.accesskey
+msgid "Enable &All"
+msgstr "ཆ་མཉམ་ལྕོགས་ཅན་བཟོ་(&A)"
+
+#: cmd.enableAll.tooltip
+msgid "Enable all displayed Add-ons"
+msgstr "བཀྲམ་སྟོན་འབད་མི་ ཁ་སྐོང་ཆ་མཉམ་ལྕོགས་ཅན་བཟོ་"
+
+#: cmd.disableAll.label cmd.disableAll.accesskey
+msgid "Di&sable All"
+msgstr "ལྕོགས་མིན་བཟོ་(&s)"
+
+#: cmd.disableAll.tooltip
+msgid "Disable all displayed Add-ons"
+msgstr "བཀྲམ་སྟོན་འབད་མི་ ཁ་སྐོང་ཆ་མཉམ་ལྕོགས་མིན་བཟོ་"
+
+#: cmd.useTheme.label cmd.useTheme.accesskey
+msgid "Use &Theme"
+msgstr "བརྗོད་དོན་ལག་ལེན་འཐབ།(&T)"
+
+#: cmd.useTheme.tooltip
+msgid "Changes &brandShortName;'s Theme"
+msgstr "&brandShortName;གི་བརྗོད་དོན་དེ་སོརཝ་ཨིན།"
+
+# Context Menu Options: Extension
+#: cmd.options.label cmd.options.accesskey
+msgid "&Options"
+msgstr "གདམ་ཁ་ཚུ།(&O)"
+
+#: cmd.options.tooltip
+msgid "Set Options for the selected Extension"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་  རྒྱ་བསྐྱེད་ཀྱི་དོན་ལུ་ གདམ་ཁ་ཚུ་ གཞི་སྒྲིག་འབད།"
+
+#: cmd.optionsUnix.label cmd.optionsUnix.accesskey
+msgid "P&references"
+msgstr "དགའ་གདམ་ཚུ།(&r)"
+
+#: cmd.optionsUnix.tooltip
+msgid "Edit Preferences for the selected Extension"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ རྒྱ་བསྐྱེད་ཀྱི་དོན་ལུ་  དགའ་གདམ་ཚུ་  ཞུན་དག་རྐྱབས།"
+
+#: cmd.enable.label cmd.enable.accesskey
+msgid "&Enable"
+msgstr "ལྕོགས་ཅན་བཟོ།(&E)"
+
+#: cmd.enable.tooltip
+msgid "Enable this Add-on when &brandShortName; is restarted"
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགསཔ་ད་ ཁ་སྐོང་འདི་ལྕོགས་ཅན་བཟོ།"
+
+#: cmd.disable.label cmd.disable.accesskey
+msgid "&Disable"
+msgstr "ལྕོགས་མིན་བཟོ།(&D)"
+
+#: cmd.disable.tooltip
+msgid "Disable this Add-on when &brandShortName; is restarted"
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགསཔ་ད་ ཁ་སྐོང་འདི་ལྕོགས་མིན་བཟོ།"
+
+#: cmd.uninstall.label
+msgid "Uninstall"
+msgstr "གཞི་བཙུགས་བཤོལ་"
+
+#: cmd.uninstall2.accesskey
+msgid "U"
+msgstr "ཡུ་"
+
+#: cmd.uninstall2.tooltip
+msgid "Uninstall this Add-on when &brandShortName; is restarted"
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགསཔ་ད་ ཁ་སྐོང་འདི་གཞི་བཙུགས་བཤོལཝ་ཨིན།"
+
+#: cmd.cancelUninstall.label cmd.cancelUninstall.accesskey
+msgid "&Cancel Uninstall"
+msgstr "གཞི་བཙུགས་བཤོལ་ནི་ཆ་མེད་གཏང་(&C)"
+
+#: cmd.cancelUninstall.tooltip
+msgid "Cancel the uninstall of this Add-on"
+msgstr "ཁ་སྐོང་འདི་གི་ གཞི་བཙུགས་བཤོལ་ནི་ཆ་མེད་གཏང་"
+
+#: cmd.installUpdate.label cmd.installUpdate.accesskey
+msgid "&Install Update"
+msgstr "དུས་མཐུན་གཞི་བཙུགས་འབད་(&I)"
+
+#: cmd.installUpdate.tooltip
+msgid "Install an update for this Add-on"
+msgstr "ཁ་སྐོང་འདི་གི་དོན་ལུ་ དུས་མཐུན་ཅིག་གཞི་བཙུགས་འབད་"
+
+# The selected add-on's cancel action button label
+#: cancel.label cancel.accesskey
+msgid "&Cancel"
+msgstr "ཆ་མེད་གཏང་(&C)"
+
+#: cmd.homepage.label cmd.homepage.accesskey
+msgid "Visit &Home Page"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ་ལུ་ལྟ་སྤྱོད་འབད།(&H)"
+
+#: cmd.about2.label
+msgid "About this Add-on"
+msgstr "ཁ་སྐོང་འདི་གི་སྐོར་ལས་"
+
+#: cmd.about.accesskey
+msgid "A"
+msgstr "ཨེ་"
+
+#: cmd.checkUpdate.label cmd.checkUpdate.accesskey
+msgid "&Find Update"
+msgstr "དུས་མཐུན་འཚོལ།(&F)"
+
+#: cmd.includeUpdate.label cmd.includeUpdate.accesskey
+msgid "I&nclude Update"
+msgstr "དུས་མཐུན་གྲངས་སུ་བཙུགས་(&n)"
+
+#: includeUpdate.label includeUpdate.accesskey
+msgid "I&nclude this update"
+msgstr "དུས་མཐུན་འདི་གྲངས་སུ་བཙུགས་(&n)"
+
+#: includeUpdate.tooltip
+msgid "Include this Add-on when installing the updates"
+msgstr "དུས་མཐུན་ཚུ་གཞི་བཙུགས་འབད་བའི་སྐབས་ ཁ་སྐོང་འདི་གྲངས་སུ་བཙུགས་"
+
+# Status Messsages
+#: needsDependencies.label
+msgid "Requires additional items."
+msgstr "རྣམ་གྲངས་ཧེང་བཀལ་དགོ་པས་"
+
+#: blocklisted.label
+msgid "Disabled for your protection."
+msgstr "ཁྱོད་ཀྱི་ཉེན་སྐྱོབ་ཀྱི་དོན་ལུ་ ལྕོགས་མིན་བཟོ་ཡི་"
+
+#: toBeDisabled.label
+msgid "This add-on will be disabled when &brandShortName; is restarted."
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགས་པའི་སྐབས་ ཁ་སྐོང་འདི་ལྕོགས་མིན་བཟོ་འོང་།"
+
+#: toBeEnabled.label
+msgid "This add-on will be enabled when &brandShortName; is restarted."
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགས་པའི་སྐབས་ ཁ་སྐོང་འདི་ལྕོགས་ཅན་བཟོ་འོང་།"
+
+#: toBeInstalled.label
+msgid "This add-on will be installed when &brandShortName; is restarted."
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགས་པའི་སྐབས་ ཁ་སྐོང་འདི་གཞི་བཙུགས་འབད་འོང་།"
+
+#: toBeUninstalled.label
+msgid "This add-on will be uninstalled when &brandShortName; is restarted."
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགས་པའི་སྐབས་ ཁ་སྐོང་འདི་གཞི་བཙུགས་བཤོལ་འོང་།"
+
+#: toBeUpgraded.label
+msgid "This add-on will be upgraded when &brandShortName; is restarted."
+msgstr "&brandShortName; ལོག་སྟེ་འགོ་བཙུགས་པའི་སྐབས་ ཁ་སྐོང་འདི་དུས་མཐུན་བཟོ་འོང་།"
+
+#: getExtensions.label
+msgid "Get Extensions"
+msgstr "རྒྱ་སྐྱེད་ཚུ་ལེན་"
+
+#: getExtensions.tooltip
+msgid "Get Extensions from addons.mozilla.org"
+msgstr "addons.mozilla.org ནང་ལས་ རྒྱ་སྐྱེད་ཚུ་ལེན་"
+
+#: getThemes.label
+msgid "Get Themes"
+msgstr "བརྗོད་དོན་ཚུ་ལེན་"
+
+#: getThemes.tooltip
+msgid "Get Themes from addons.mozilla.org"
+msgstr "addons.mozilla.org ནང་ལས་ བརྗོད་དོན་ཚུ་ལེན་"
+
+#: previewNoThemeSelected.label
+msgid "No Theme Selected"
+msgstr "བརྗོད་དོན་སེལ་འཐུ་འབད་འབདཝ་མིན་འདུག།"
+
+#: previewNoPreviewImage.label
+msgid "This Theme does not have a Preview Image"
+msgstr "འ་ནཱི་བརྗོད་དོན་དེ་ལུ་  སྔོན་ལྟའི་གཟུགས་བརྙན་ཅིག་མིན་འདུག"
+
+#: moreInfo.label
+msgid "More Information"
+msgstr "བརྡ་དོན་མངམ་"
+
+#: closeMessage.tooltip
+msgid "Close this message"
+msgstr "འཕྲིན་དོན་འདི་ཁ་བསྡམས་"
+
+#: updateSuccess.label
+msgid "Update completed successfully."
+msgstr "དུས་མཐུན་བཟོ་ནི་དེ་ ལེགས་ཤོམ་སྦེ་མཇུག་བསྡུ་ཡི།"
+
+#: installSuccess.label
+msgid "Install completed successfully."
+msgstr "གཞི་བཙུགས་འབད་ནི་དེ་ ལེགས་ཤོམ་སྦེ་མཇུག་བསྡུ་ཡི།"
+
+#: installSuccessRestart.label
+msgid "Restart to complete the installation."
+msgstr "གཞི་བཙུགས་འདི་མཇུག་བསྡུ་ནི་ལུ་ ལོག་སྟེ་འགོ་བཙུགས།"
+
+#: installWaiting.label
+msgid "Waiting..."
+msgstr "བསྒུག་དོ་་་་"
+
+#: installIncompatibleUpdate.label
+msgid "Checking compatibility..."
+msgstr "མཐུའ་འགྱུར་ཞིབ་དཔྱད་འབད་དོ་་་་"
+
+#: installFinishing.label
+msgid "Installing..."
+msgstr "གཞི་བཙུགས་འབད་དོ་་་་"
+
+#: installFailure.label
+msgid "Install failed."
+msgstr "གཞི་བཙུགས་འབདམ་བཏུབ།"
+

@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: squezze\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2007-04-04 12:03+0200\n"
+"PO-Revision-Date: 2007-04-09 03:46+0530\n"
+"Last-Translator: translator <pemai_jurmey@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libsqueeze/archive.c:276
+msgid "Name"
+msgstr "མིང་"
+
+#: ../libsqueeze/archive.c:278
+msgid "Mime type"
+msgstr "མ་ཡིམ་དབྱེ་བ་"
+
+#: ../libsqueeze/command-builder.c:122
+msgid "Execute"
+msgstr "ལག་ལེན་འཐབ་ནི་"
+
+#: ../libsqueeze/command-builder-zip.c:107
+#: ../libsqueeze/command-builder-rar.c:127
+msgid "Compressed"
+msgstr "ཨེབ་བཙུགས་འབད་ཡོདཔ་"
+
+#: ../libsqueeze/command-builder-zip.c:109
+#: ../libsqueeze/command-builder-rar.c:141
+msgid "Method"
+msgstr "ཐབས་ལམ་"
+
+#: ../libsqueeze/command-builder-zip.c:111
+#: ../libsqueeze/command-builder-gnu-tar.c:138
+#: ../libsqueeze/command-builder-rar.c:129
+msgid "Size"
+msgstr "ཚད་"
+
+#: ../libsqueeze/command-builder-zip.c:113
+#: ../libsqueeze/command-builder-rar.c:131
+msgid "Ratio"
+msgstr "དཔྱ་ཚད་"
+
+#: ../libsqueeze/command-builder-zip.c:115
+#: ../libsqueeze/command-builder-gnu-tar.c:140
+#: ../libsqueeze/command-builder-rar.c:133
+msgid "Date"
+msgstr "ཚེས་གྲངས་"
+
+#: ../libsqueeze/command-builder-zip.c:117
+#: ../libsqueeze/command-builder-gnu-tar.c:142
+#: ../libsqueeze/command-builder-rar.c:135
+msgid "Time"
+msgstr "ཆུ་ཚོད་"
+
+#: ../libsqueeze/command-builder-zip.c:154
+#: ../libsqueeze/command-builder-rar.c:180
+msgid "Adding"
+msgstr "ཁ་སྐོང་རྐྱབ་པ་"
+
+#: ../libsqueeze/command-builder-zip.c:164
+#: ../libsqueeze/command-builder-zip.c:166
+#: ../libsqueeze/command-builder-gnu-tar.c:340
+#: ../libsqueeze/command-builder-gnu-tar.c:357
+#: ../libsqueeze/command-builder-rar.c:190
+#: ../libsqueeze/command-builder-rar.c:192
+msgid "Removing"
+msgstr "རྩ་བསྐྲ་གཏང་བ་"
+
+#: ../libsqueeze/command-builder-zip.c:183
+#: ../libsqueeze/command-builder-gnu-tar.c:376
+#: ../libsqueeze/command-builder-rar.c:209
+msgid "Extracting"
+msgstr "ཕྱིར་འདོན་འབད་བ་"
+
+#: ../libsqueeze/command-builder-zip.c:193
+#: ../libsqueeze/command-builder-gnu-tar.c:386
+#: ../libsqueeze/command-builder-rar.c:219
+#: ../libsqueeze/command-builder-compr.c:241
+msgid "Refresh"
+msgstr "ཡང་སེལ་"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:134
+#: ../libsqueeze/command-builder-rar.c:137
+msgid "Rights"
+msgstr "དབང་ཆ་"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:136
+msgid "Owner/Group"
+msgstr "བདག་པོ་/སྡེ་ཚན་"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:225
+#: ../libsqueeze/command-builder-gnu-tar.c:326
+#: ../libsqueeze/command-builder-compr.c:198
+msgid "Compressing"
+msgstr "ཨེབ་བཙུགས་འབད་བ་"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:250
+#: ../libsqueeze/command-builder-gnu-tar.c:317
+#: ../libsqueeze/command-builder-compr.c:222
+msgid "Decompressing"
+msgstr "ཨེབ་བཙུགས་འབད་བཤོལ་བ་"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:264
+msgid "Adding files"
+msgstr "ཡིག་སྣོད་ཁ་སྐོང་རྐྱབ་པ་"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:308
+msgid "Removing files"
+msgstr "ཡིག་སྣོད་རྩ་བསྐྲད་གཏང་བ་"
+
+#: ../libsqueeze/command-builder-rar.c:143
+msgid "Version"
+msgstr "འཐོན་རིམ་"
+
+#: ../libsqueeze/spawn-command.c:267
+#, c-format
+msgid "Command exited with status %d."
+msgstr "བརྡ་བཀོད་འདི་ གནས་ཚད་ %d གི་ཐོག་ལས་ ཕྱིར་འཐོན་འབད་ཡོདཔ་"
+
+#: ../libsqueeze/spawn-command.c:277
+msgid "Command interrupted by user"
+msgstr "བརྡ་བཀོད་འདི་ ལག་ལེན་པ་གིས་ བར་དཀྲོགས་བྱུང་ཡོདཔ་"
+
+#: ../libsqueeze/spawn-command.c:281
+msgid "Command received SIGSEGV"
+msgstr "བརྡ་བཀོད་ཀྱིས་ SIGSEGV ཐོབ་ཡོདཔ་"
+
+#: ../libsqueeze/spawn-command.c:286
+msgid "Command Terminated"
+msgstr "བརྡ་བཀོད་ བཏོན་བཏང་ཡོདཔ་"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[འགྲོ་ཡུལ་འགྲུལ་ལམ་]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[archive path] [file1] [file2] ... [fileN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[file1] [file2] ... [fileN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "འཐོན་རིམ་ བརྡ་དོན་"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[ཡིག་མཛོད་མིང་]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"བརྡ་བཀོད་གྲལ་ཐིག་གདམ་ཁ་ཚུའི་ཐོ་ཡིག་ ཆ་ཚང་བལྟ་ནིིའི་དོན་ལུ་ %s --གྲོགས་རམ་འདི་ འབད་རྩོལ་བསྐྱེད།\n"
+
+#: ../src/main_window.c:132
+msgid "Internal Style"
+msgstr "ནང་གི་བཟོ་རྣམ་"
+
+#: ../src/main_window.c:133
+msgid "Tool Bar Style"
+msgstr "ལག་ཆས་ཕྲ་རིང་གི་བཟོ་རྣམ་"
+
+#: ../src/main_window.c:134
+msgid "Path Bar Style"
+msgstr "འགྲུལ་ལམ་ཕྲ་རིང་གི་བཟོ་རྣམ་"
+
+#: ../src/main_window.c:181
+msgid "Navigation Style"
+msgstr "འགྲུལ་བསྐྱོད་བཟོ་རྣམ་"
+
+#: ../src/main_window.c:182
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"འགྲུལ་བསྐྱོད་བཟོ་རྣམ་\n"
+"ཡིག་མཛོད་ལས་བརྒྱུད་དེ་ འགྲུལ་བསྐྱོད་འབད་ནིིའི་བཟོ་རྣམ་"
+
+#. File menu
+#: ../src/main_window.c:282
+msgid "_File"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:310
+msgid "_Action"
+msgstr "བྱ་བ་(_A)"
+
+#: ../src/main_window.c:315
+msgid "_Add"
+msgstr "ཁ་སྐོང་རྐྱབས་(_A)"
+
+#: ../src/main_window.c:321
+msgid "_Extract"
+msgstr "ཕྱིར་འདོན་འབད་(_E)"
+
+#. View menu
+#: ../src/main_window.c:353
+msgid "_View"
+msgstr "སྟོན་(_V)"
+
+#. Help menu
+#: ../src/main_window.c:377
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/main_window.c:412
+msgid "Add"
+msgstr "ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/main_window.c:416
+#: ../src/main_window.c:1086
+#: ../src/extract_dialog.c:100
+msgid "Extract"
+msgstr "ཕྱིར་འདོན་འབད་"
+
+#: ../src/main_window.c:677
+msgid "Open archive in new window"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ནང་ལུ་ ཡིག་མཛོད་ཁ་ཕྱེ་"
+
+#: ../src/main_window.c:683
+msgid "Open archive"
+msgstr "ཡིག་མཛོད་ཁ་ཕྱེ་"
+
+#: ../src/main_window.c:752
+#: ../src/main_window.c:1127
+#: ../src/application.c:193
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"སི་ཀིཝིཛི་གིས་ ཡིག་མཛོད་དབྱེ་བ་ ཕྱིར་འདོན་འབད་མི་ཚུགས་\n"
+" དེ་ལས་ རྒྱབ་སྐྱོར་འབད་ནིིའི་གློག་རིམ་འདི་ བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#: ../src/main_window.c:792
+#: ../src/application.c:267
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"སི་ཀིཝིཛི་གིས་ ཡིག་མཛོད་དབྱེ་བ་ལུ་ ཡིག་སྣོད་ཁ་སྐོང་རྐྱབ་མི་ཚུགས་\n"
+" དེ་ལས་ རྒྱབ་སྐྱོར་འབད་ནིིའི་གློག་རིམ་འདི་ བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#: ../src/main_window.c:812
+msgid "Are you sure you want to remove the selected files?"
+msgstr "ཁྱོད་ཀྱིས་ ཐད་རི་འབའ་རི་ སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན་?"
+
+#: ../src/main_window.c:825
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"སི་ཀིཝིཛི་གིས་ ཡིག་མཛོད་དབྱེ་བའི་ནང་ལས་ ཡིག་སྣོད་ཚུ་ རྩ་བསྐྲད་གཏང་མི་ཚུགས་\n"
+"རྒྱབ་སྐྱོར་འབད་ནིིའི་གློག་རིམ་འདི་ བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#: ../src/main_window.c:872
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"ཁྱོད་ཀྱིས་ བཀོལ་སྤྱོད་འདི་ ཐད་རི་འབའ་རི་ ཆ་མེད་གཏང་ནི་ཨིན་ན་?\n"
+"དེ་གིས་ ཡིག་མཛོད་མེདཔ་གཏང་འོང་།"
+
+#: ../src/main_window.c:954
+msgid "Lead developer:"
+msgstr "འགོ་ཁྲིདཔ་བཟོ་མི་:"
+
+#: ../src/main_window.c:957
+msgid "Contributors:"
+msgstr "ཕན་འདེབས་པ་:"
+
+#: ../src/main_window.c:960
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "ཛར་ཅི་བར་གྱིས་ སེམས་སྐུལ་འབད་ཡོདཔ་དང་ ཇིའུ་སི་པི་ ཊོ་རི་ལི་གིས་ བྲིས་ཡོདཔ་"
+
+#: ../src/main_window.c:962
+msgid "Application Icon:"
+msgstr "གློག་རིམ་ངོས་པར་:"
+
+#: ../src/main_window.c:965
+msgid "Add / Extract icons:"
+msgstr "ངོས་པར་ཚུ་ ཁ་སྐོང་རྐྱབས་/ཕྱིར་འདོན་འབད་:"
+
+#: ../src/main_window.c:966
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr "ཨེན་ཌེསི་ ནིལ་སཱོན་གྱིས་གསར་བསྐྲུན་འབད་ཡོད་པའི་ཕྱིར་འདོན་ངོས་པར་ངོ་མ་ལུ་གཞི་བཞག་ཡོདཔ་"
+
+#: ../src/main_window.c:973
+msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
+msgstr "སི་ཀིཝིཛི་འདི་ Xfce ཌེཀསི་ཊོཔ་མཐའ་འཁོར་གྱི་དོན་ལུ་ ལྗིད་ཡངས་དང་འཇམ་མཉེན་ཅན་གྱི་ཡིག་མཛོད་འཛིན་སྐྱོང་པ་ཅིག་ཨིན་"
+
+#: ../src/main_window.c:980
+msgid "translator-credits"
+msgstr "སྐད་སྒྱུར་པའི་ངོ་བསྟོད་"
+
+#: ../src/main_window.c:1009
+#: ../src/main_window.c:1241
+msgid "Done"
+msgstr "འབད་ཡི་"
+
+#: ../src/main_window.c:1085
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "ཁྱོད་ཀྱིས་ སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་(ཚུ་) གུ་ བྱ་བ་ག་གི་ལས་འགན་འགྲུབ་ནི་སྨོ་?"
+
+#: ../src/main_window.c:1086
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#: ../src/main_window.c:1100
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"སི་ཀིཝིཛི་གིས་ ཡིག་སྣོད་འདི་སྟོན་མི་ཚུགས།\n"
+"དེ་རྒྱབ་སྐྱོར་འབད་ནིའི་གློག་རིམ་འདི་ མིན་འདུག"
+
+#: ../src/main_window.c:1168
+msgid "Failed to open file"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../src/main_window.c:1169
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+" ཁ་ཕྱེ་མ་བཏུབ་"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:162
+#: ../src/application.c:252
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "ཡིག་མཛོད་ཁ་ཕྱེ་མ་ཚུགས་ མ་ཡིམ་-དབྱེ་བ་འདི་ རྒྱབ་སྐྱོར་འབད་བཤོལ་ཡོདཔ་ ཡང་ན་ ཡིག་སྣོད་མེདཔ་"
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:235
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "ཡིག་མཛོད་གསར་བསྐྲུན་འབད་མ་ཚུགས་ མ་ཡིམ་-དབྱེ་བ་ རྒྱབ་སྐྱོར་འབད་བཤོལ་ཡོདཔ་"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "ཡིག་མཛོད་དབྱེ་བ་:"
+
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "ཡིག་མཛོད་"
+
+#: ../src/new_dialog.c:107
+msgid "Create new archive"
+msgstr "ཡིག་མཛོད་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད་"
+
+#: ../src/add_dialog.c:73
+msgid "Files and directories to add"
+msgstr "ཁ་སྐོང་རྐྱབ་ནིའི་ཡིག་སྣོད་དང་སྣོད་འཛིན་ཚུ་ "
+
+#: ../src/add_dialog.c:74
+msgid "Options:"
+msgstr "གདམ་ཁ་ཚུ་:"
+
+#: ../src/add_dialog.c:107
+msgid "Files"
+msgstr "ཡིག་སྣོད་ཚུ་"
+
+#: ../src/add_dialog.c:111
+msgid "Directories"
+msgstr "སྣོད་ཐོ་ཚུ་"
+
+#: ../src/add_dialog.c:144
+msgid "Add file(s) to archive"
+msgstr "ཡིག་མཛོད་ནང་ ཡིག་སྣོད་(ཚུ་)ཁ་སྐོང་རྐྱབས་"
+
+#. Select Files Dialog
+#: ../src/add_dialog.c:164
+msgid "Select files"
+msgstr "ཡིག་སྣོད་ཚུ་ སེལ་འཐུ་འབད་"
+
+#. Select Folder Dialog
+#: ../src/add_dialog.c:170
+msgid "Select folders"
+msgstr "སྣོད་འཛིན་ཚུ་ སེལ་འཐུ་འབད་"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>ཡིག་སྣོད་ཚུ་ ཕྱིར་འདོན་འབད་:</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>གདམ་ཁ་ཚུ་:</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ་"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་ཚུ་"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "ཡིག་མཛོད་ ཕྱིར་འདོན་འབད་"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "གནས་ཁོངས་:"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "བར་སྟོང་བཞག་ཐངས་"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "འགྲུལ་ལམ་ཨེབ་རྟ་བར་ནའི་བར་སྟོང་བསྡོམས་"
+
+#: ../src/notebook.c:176
+#: ../src/archive_store.c:249
+msgid "Show full path"
+msgstr "འགྲུལ་ལམ་ཆ་ཚང་སྟོན་"
+
+#: ../src/notebook.c:177
+#: ../src/archive_store.c:250
+msgid "Show the full path strings for each entry"
+msgstr "ཐོ་བཀོད་རེ་རེའི་དོན་ལུ་ འགྲུལ་ལམ་ཡིག་རྒྱུན་ཆ་ཚང་སྟོན་"
+
+#: ../src/notebook.c:183
+#: ../src/archive_store.c:256
+msgid "Show mime icons"
+msgstr "མ་ཡིམ་ངོས་པར་ཚུ་ སྟོན་"
+
+#: ../src/notebook.c:184
+#: ../src/archive_store.c:257
+msgid "Show the mime type icons for each entry"
+msgstr "ཐོ་བཀོད་རེ་རེའི་དོན་ལུ་ མ་ཡིམ་དབྱེ་བའི་ངོས་པར་ སྟོན་"
+
+#: ../src/notebook.c:190
+#: ../src/archive_store.c:270
+msgid "Sort folders before files"
+msgstr "ཡིག་སྣོད་ཀྱི་ཧེ་མ་ སྣོད་འཛིན་ཚུ་སྟོན་"
+
+#: ../src/notebook.c:191
+#: ../src/archive_store.c:271
+msgid "The folders will be put at the top of the list"
+msgstr "སྣོད་འཛིན་ཚུ་ ཐོ་ཡིག་གི་མགུ་ལུ་བཞག་འོང་"
+
+#: ../src/notebook.c:197
+#: ../src/notebook.c:198
+#: ../src/archive_store.c:277
+#: ../src/archive_store.c:278
+msgid "Sort text case sensitive"
+msgstr "ཚིག་ཡིག་ཚོར་ཅན་ དབྱེ་སེལ་འབད་"
+
+#: ../src/notebook.c:204
+msgid "Rules hint"
+msgstr "ལམ་ལུགས་ཟུར་བརྡ་"
+
+#: ../src/notebook.c:205
+msgid "Make the row background colors alternate"
+msgstr "གྲལ་ཐིག་རྒྱབ་གཞིའི་ཚོས་གཞི་འདི་ སྤེལ་མ་བཟོ་"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "སྣོད་ཐོའི་ཐོ་བཀོད་སྟོན་"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "རྩ་ལག་སྣོད་ཐོ་ལུ་སྤོ་བཤུད་འབད་ནི་གི་དོན་ལུ་ '..' སྟོན་"
+
+#: ../squeeze.desktop.in.h:1
+msgid "Archive manager"
+msgstr "ཡིག་མཛོད་འཛིན་སྐྱོང་པ་"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Xfce archive manager"
+msgstr "Xfce ཡིག་སྣོད་འཛིན་སྐྱོང་པ་"
+

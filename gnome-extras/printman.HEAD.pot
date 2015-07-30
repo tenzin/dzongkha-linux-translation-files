@@ -1,0 +1,523 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: printman.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 03:31+0000\n"
+"PO-Revision-Date: 2007-01-16 15:45+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/main.c:129
+#, c-format
+msgid "%s: No default printer set, or default printer not found.  Showing printer list.\n"
+msgstr "%s: སྔོན་སྒྲིག་དཔར་འཕྲུལ་གཞི་སྒྲིག་མ་འབད་བས་ ཡང་ན་ སྔོན་སྒྲིག་དཔར་འཕྲུལ་འཚོལ་མ་འཐོབ། དཔར་འཕྲུལ་ཐོ་ཡིག་སྟོན་དོ།\n"
+
+#: ../src/main.c:167
+#, c-format
+msgid "%s: Cannot open printer queue for unknown printer \"%s\".\n"
+msgstr "%s: མ་ཤེས་པའི་དཔར་འཕྲུལ་ \"%s\" གི་དོན་ལུ་ དཔར་འཕྲུལ་གྲལ་ཁ་ཕྱེ་མ་ཚུགས།\n"
+
+#: ../src/main.c:225
+msgid "Opens the printer queue window for the given printer."
+msgstr "བྱིན་ཡོད་པའི་དཔར་འཕྲུལ་གྱི་དོན་ལུ་ དཔར་འཕྲུལ་གྲལ་སྒོ་སྒྲིག་འདི་ཁ་ཕྱེ།"
+
+#: ../src/main.c:227
+#: ../src/main.c:245
+msgid "PRINTER"
+msgstr "དཔར་འཕྲུལ་"
+
+#: ../src/main.c:236
+msgid "Shows the printer queue for the default printer only."
+msgstr "སྔོན་སྒྲིག་དཔར་འཕྲུལ་རྐྱངམ་ཅིག་གི་དོན་ལུ་ དཔར་འཕྲུལ་གྲལ་འདི་སྟོནམ་ཨིན།"
+
+#: ../src/main.c:243
+msgid "Shows the printer queue window for the given printer only."
+msgstr "བྱིན་ཡོད་པའི་དཔར་འཕྲུལ་རྐྱངམ་ཅིག་གི་དོན་ལུ་ དཔར་འཕྲུལ་གྲལ་གྱི་སྒོ་སྒྲིག་འདི་སྟོནམ་ཨིན།"
+
+#: ../src/main.c:250
+msgid "Allows the superuser to edit the default label, icon and description of printers, for the current LANG setting."
+msgstr "ཡང་དག་ལག་ལེན་པ་འདི་ལུ་ ད་ལྟོའི་སྒྲིག་སྟངས་འདི་གི་དོན་ལུ་ དཔར་འཕྲུལ་གྱི་ སྔོན་སྒྲིག་ཁ་ཡིག་ ངོས་དཔར་ དང་ འགྲེལ་བཤད་འདི་ ཞུན་དག་འབད་བཅུགཔ་ཨིན།"
+
+#: ../src/main.c:258
+msgid "Allows the superuser to edit the printer default settings for the GConf source specified."
+msgstr "ཡང་དག་ལག་ལེན་པ་འདི་ལུ་ ཇི་ཀོནཕ་ འབྱུང་ཁུངས་གསལ་བཀོད་འབད་ཡོད་མི་འདི་གི་དོན་ལུ་ དཔར་འཕྲུལ་སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ ཞུན་དག་འབད་བཅུགཔ་ཨིན།"
+
+#: ../src/main.c:260
+msgid "DEFAULTS SOURCE FILE"
+msgstr "སྔོན་སྒྲིག་གི་འབྱུང་ཁུངས་ཡིག་སྣོད་"
+
+#: ../src/main.c:283
+#: ../src/print-manager-about.c:50
+msgid "GNOME Print Manager"
+msgstr "ཇི་ནོམ་ དཔར་བསྐྲུན་འཛིན་སྐྱོང་པ་"
+
+#: ../src/main.c:299
+#, c-format
+msgid "%s: You must be root in order to edit system printer default settings.\n"
+msgstr "%s: ཁྱོད་ རིམ་ལུགས་དཔར་འཕྲུལ་སྔོན་སྒྲིག་སྒྲིག་སྟངས་ ཞུན་དག་འབད་ནིའི་དོན་ལས་ རྩ་བ་ཨིན་དགོ\n"
+
+#: ../src/main.c:306
+#, c-format
+msgid "%s: Unable to open system printer default settings at path \"%s\".\n"
+msgstr "%s: འགྲུལ་ལམ་ \"%s\" ལུ་ རིམ་ལུགས་དཔར་འཕྲུལ་སྔོན་སྒྲིག་སྒྲིག་སྟངས་ཁ་ཕྱེ་མ་ཚུགས།\n"
+
+#: ../src/print-manager-about.c:46
+msgid "translator_credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་འབྲེལ་བ་འཐབ་ས་ <pema_geyleg@druknet.bt>"
+
+#: ../src/print-manager-about.c:52
+msgid "(C) 2002 Sun Microsystems, Inc."
+msgstr "(C) ༢༠༠༢ སཱན་ མའི་ཀོརོ་སིསི་ཊམསི་ ཨའི་ཨེན་སི་"
+
+#: ../src/print-manager-about.c:53
+msgid "Displays the status of printers and the documents being printed.\n"
+msgstr "དཔར་འཕྲུལ་ཚུ་དང་ ཡིག་ཆ་འདི་ཚུ་ དཔར་བསྐྲུན་འབད་ཡོད་པའི་ གནས་ཚད་འདི་བཀྲམ་སྟོན་འབདཝ་ཨིན།\n"
+
+#: ../src/print-manager-backend-solaris.c:432
+#: ../src/print-manager-backend-solaris.c:449
+#: ../src/print-manager-backend-solaris.c:465
+#: ../src/print-manager-backend-solaris.c:473
+#, c-format
+msgid "Cannot write %s : %s"
+msgstr "%s : %s འབྲི་མི་ཚུགས་"
+
+#: ../src/print-manager-backend-solaris.c:485
+#, c-format
+msgid "Cannot create %s : %s"
+msgstr "%s : %s གསར་བསྐྲུན་འབད་མི་ཚུགས་"
+
+#: ../src/print-manager-job-list.c:241
+#, c-format
+msgid ""
+"Error cancelling \"%s\" on printer \"%s\".\n"
+"Reason given by server: %s.\n"
+msgstr ""
+"དཔར་འཕྲུལ་ \"%s\" གུ་  \"%s\" ཆ་མེད་གཏངམ་ད་འཛོལ་བ།\n"
+"%s : སར་བར་གྱིས་བྱིན་ཡོད་པའི་རྒྱུ་མཚན།\n"
+
+#: ../src/print-manager-job-list.c:270
+#: ../src/print-manager-search.c:590
+#, c-format
+msgid "Cancel printing of \"%s\" on printer \"%s\"?"
+msgstr "དཔར་འཕྲུལ་ \"%s\" གུ་ \"%s\" གི་དཔར་བསྐྲུན་འབད་ནི་འདི་ཆ་མེད་གཏང་?"
+
+#: ../src/print-manager-job-list.c:281
+#, c-format
+msgid "Cancel printing of %d documents on printer \"%s\"?"
+msgstr "  %d ཡིག་ཆ་ཚུ་ དཔར་འཕྲུལ་ \"%s\" གུ་ དཔར་བསྐྲུན་འབད་ནི་འདི་ ཆ་མེད་གཏང་?"
+
+#: ../src/print-manager-job-list.c:325
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../src/print-manager-job-list.c:449
+#, c-format
+msgid "No jobs in queue \"%s\""
+msgstr "མི་གྲལ་ \"%s\" ནང་ ལས་གཡོག་མེད་"
+
+#: ../src/print-manager-job-list.c:452
+#, c-format
+msgid "1 job in queue \"%s\""
+msgstr "མི་གྲལ་ \"%s\" ནང་ལས་གཡོག་ ༡"
+
+#: ../src/print-manager-job-list.c:455
+#, c-format
+msgid "%d jobs in queue \"%s\""
+msgstr "%d ལས་གཡོག་ཚུ་ མི་གྲལ་ \"%s\" ནང་ "
+
+#. Printer menu.
+#: ../src/print-manager-job-list.c:526
+#: ../src/print-manager-main-window.c:715
+msgid "_Printer"
+msgstr "དཔར་འཕྲུལ་(_P)"
+
+#: ../src/print-manager-job-list.c:533
+#: ../src/print-manager-main-window.c:736
+#: ../src/print-manager-main-window.c:922
+msgid "Set as _Default"
+msgstr "སྔོན་སྒྲིག་སྦེ་གཞི་སྒྲིག་འབད་(_D)"
+
+#: ../src/print-manager-job-list.c:537
+#: ../src/print-manager-main-window.c:740
+msgid "Set the printer as the default printer"
+msgstr "དཔར་འཕྲུལ་འདི་ སྔོན་སྒྲིག་དཔར་འཕྲུལ་སྦེ་གཞི་སྒྲིག་འབད་"
+
+#. Edit menu.
+#: ../src/print-manager-job-list.c:562
+#: ../src/print-manager-main-window.c:774
+msgid "_Edit"
+msgstr "ཞུན་དག་(_E)"
+
+#: ../src/print-manager-job-list.c:569
+msgid "_Cancel Documents"
+msgstr "ཡིག་ཆ་ཚུ་ཆ་མེད་གཏང་(_C)"
+
+#: ../src/print-manager-job-list.c:573
+msgid "Cancel printing of the selected documents"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་ཆ་འདི་ཚུ་གི་དཔར་བསྐྲུན་འབད་ནི་འདི་ཆ་མེད་གཏང་"
+
+#. View menu.
+#: ../src/print-manager-job-list.c:589
+#: ../src/print-manager-main-window.c:804
+msgid "_View"
+msgstr "མཐོང་སྣང་(_V)"
+
+#: ../src/print-manager-job-list.c:598
+msgid "Show _My Documents"
+msgstr "ངེས་ཀྱི་ཡིག་ཆ་ཚུ་སྟོན་(_M)"
+
+#: ../src/print-manager-job-list.c:610
+msgid "Show _All Documents"
+msgstr "ཡིག་ཆ་ཚུ་ཆ་མཉམ་སྟོན་(_A)"
+
+#: ../src/print-manager-job-list.c:623
+#: ../src/print-manager-main-window.c:846
+msgid "Show _Status Bar"
+msgstr "གནས་ཚད་ཕྲ་རིང་སྟོན་(_S)"
+
+#: ../src/print-manager-job-list.c:628
+#: ../src/print-manager-main-window.c:852
+msgid "Whether to show the status bar at the bottom of the window"
+msgstr "གནས་ཚད་ཕྲ་རིང་འདི་ སྒོ་སྒྲིག་འདི་གི་མཇུག་ལུ་ སྟོན་ཨིན་ན་མེན་ན་"
+
+#. Help menu.
+#: ../src/print-manager-job-list.c:644
+#: ../src/print-manager-main-window.c:869
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/print-manager-job-list.c:767
+msgid "Job List"
+msgstr "ལས་གཡོག་ཐོ་ཡིག་"
+
+#: ../src/print-manager-job-list.c:768
+msgid "Lists print jobs in this printer's queue"
+msgstr "དཔར་འཕྲུལ་གྱི་གྲལ་ནང་ དཔར་བསྐྲུན་ལས་གཡོག་ཚུ་ཐོ་བཀོད་འབདཝ་ཨིན་"
+
+#: ../src/print-manager-job-list.c:774
+#: ../src/print-manager-search.c:847
+msgid "Document"
+msgstr "ཡིག་ཆ་"
+
+#: ../src/print-manager-job-list.c:783
+#: ../src/print-manager-search.c:856
+msgid "Owner"
+msgstr "བདག་པོ་"
+
+#: ../src/print-manager-job-list.c:792
+msgid "Job Number"
+msgstr "ལས་གཡོག་ཨང་"
+
+#: ../src/print-manager-job-list.c:801
+msgid "Size"
+msgstr "ཚད་"
+
+#: ../src/print-manager-job-list.c:810
+#: ../src/print-manager-search.c:883
+msgid "Time Submitted"
+msgstr "དུས་ཚོད་ཕུལ་ཡོདཔ་"
+
+#: ../src/print-manager-main-window.c:285
+msgid "No printers found."
+msgstr "དཔར་འཕྲུལ་ཚུ་འཚོལ་མ་འཐོབ།"
+
+#: ../src/print-manager-main-window.c:300
+msgid "No Printers"
+msgstr "དཔར་ཚུ་མེད་"
+
+#: ../src/print-manager-main-window.c:312
+msgid "There are no printers set as visible.  Would you like to select the printers to show?"
+msgstr "དེ་ནང་ དཔར་འཕྲུལ་ཚུ་མཐོང་ཚུགསཔ་སྦེ་གཞི་སྒྲིག་འབད་འབདཝ་མེད། ཁྱོད་ཀྱིས་དཔར་འཕྲུལ་འདི་ སྟོན་ནིའི་དོན་ལས་ སེལ་འཐུ་འབད་ནི་ཨིན་ན?"
+
+#: ../src/print-manager-main-window.c:727
+msgid "Show the printer's queue"
+msgstr "དཔར་འཕྲུལ་གྱི་མི་གྲལ་འདི་སྟོན་"
+
+#: ../src/print-manager-main-window.c:750
+#: ../src/print-manager-main-window.c:929
+msgid "_Hide"
+msgstr "སྦ་བཞག་(_H)"
+
+#: ../src/print-manager-main-window.c:752
+msgid "Hide the printer"
+msgstr "དཔར་འཕྲུལ་འདི་སྦ་བཞག་"
+
+#: ../src/print-manager-main-window.c:781
+msgid "_Search for Document"
+msgstr "ཡིག་ཆ་གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་(_S)"
+
+#: ../src/print-manager-main-window.c:785
+msgid "Search for a document being printed"
+msgstr "ཡིག་ཆ་དཔར་བསྐརུན་འབད་ཡོད་པའི་དོན་ལུ་ འཚོལ་ཞིབ་འབད་"
+
+#: ../src/print-manager-main-window.c:811
+msgid "_Icons"
+msgstr "ངོས་དཔར་ཚུ་(_I)"
+
+#: ../src/print-manager-main-window.c:820
+msgid "_List"
+msgstr "ཐོ་ཡིག་(_L)"
+
+#: ../src/print-manager-main-window.c:833
+msgid "Select _Printers to Show"
+msgstr "དཔར་འཕྲུལ་ཚུ་ སྟོན་ནིའི་དོན་ལས་སེལ་འཐུ་འབད་(_P)"
+
+#: ../src/print-manager-main-window.c:1118
+msgid "1 Printer"
+msgstr "དཔར་འཕྲུལ་ ༡"
+
+#: ../src/print-manager-main-window.c:1120
+#, c-format
+msgid "%d Printers"
+msgstr "%d དཔར་འཕྲུལ་ཚུ་"
+
+#: ../src/print-manager-main-window.c:1125
+#, c-format
+msgid ", %d Hidden"
+msgstr ", %d སྦ་བཞག་ཡོདཔ་"
+
+#: ../src/print-manager-main-window.c:1131
+msgid " (reading printer status...)"
+msgstr " (དཔར་འཕྲུལ་གྱི་གནས་ཚད་ལྷག་དོ་...)"
+
+#: ../src/print-manager-main-window.c:1491
+#: ../gnome-print-manager.desktop.in.h:2
+msgid "Print Manager"
+msgstr "དཔར་བསྐྲུན་འཛིན་སྐྱོང་པ་"
+
+#: ../src/print-manager-main-window.c:1538
+msgid "Printer Icon View"
+msgstr "དཔར་འཕྲུལ་ངོས་དཔར་མཐོང་སྣང་"
+
+#: ../src/print-manager-main-window.c:1539
+msgid "Lists visible printers"
+msgstr "མཐོང་ཚུགས་པའི་དཔར་འཕྲུལ་ཚུ་ཐོ་བཀོད་འབདཝ་ཨིན་"
+
+#: ../src/print-manager-main-window.c:1603
+msgid "Printer List View"
+msgstr "དཔར་འཕྲུལ་ཐོ་ཡིག་མཐོང་སྣང་"
+
+#: ../src/print-manager-main-window.c:1604
+msgid "Lists visible printer details"
+msgstr "མཐོང་ཚུགས་པའི་དཔར་འཕྲུལ་གྱི་རྒྱས་བཤད་ཚུ་ཐོ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../src/print-manager-main-window.c:1630
+#: ../src/print-manager-printer-selection.c:289
+msgid "Printer Name"
+msgstr "དཔར་འཕྲུལ་མིང་"
+
+#: ../src/print-manager-main-window.c:1640
+msgid "Documents"
+msgstr "ཡིག་ཆ་ཚུ་"
+
+#: ../src/print-manager-main-window.c:1650
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: ../src/print-manager-main-window.c:1662
+msgid "Loading Printers..."
+msgstr "དཔར་འཕྲུལ་ཚུ་མངོན་གསལ་འབད་དོ་"
+
+#: ../src/print-manager-main-window.c:1737
+#, c-format
+msgid "There was an error subscribing to notification of menu icon visibility changes: (%s)\n"
+msgstr " (%s) : དཀར་ཆག་མཐོང་ཚུགས་པའི་བསྒྱུར་བཅོས་ཚུ་གི་ བརྡ་བསྐུལ་འབད་ནིའི་དོན་ལས་ མཁོ་མངགས་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་འདུག\n"
+
+#: ../src/print-manager-main-window.c:1793
+#, c-format
+msgid "Unable to load printman stock icon '%s'\n"
+msgstr "པི་རིནཊི་མེན་ ཅ་མཚོད་ ངོས་དཔར་ '%s' མངོན་གསལ་འབད་མ་ཚུགས་\n"
+
+#: ../src/print-manager-printer-properties.c:89
+msgid "Unsupported image format or corrupted file."
+msgstr "རྒྱབ་སྐྱོར་མ་འབད་བའི་གཟུགས་བརྙན་རྩ་སྒྲིག་ ཡང་ན་ངན་ཅན་ཡིག་སྣོད།"
+
+#: ../src/print-manager-printer-properties.c:204
+msgid "Printer Properties"
+msgstr "དཔར་འཕྲུལ་རྒྱུ་དངོས་ཚུ་"
+
+#: ../src/print-manager-printer-properties.c:238
+msgid "_Label:"
+msgstr "ཁ་ཡིག་:(_L)"
+
+#: ../src/print-manager-printer-properties.c:248
+msgid "_Description:"
+msgstr "འགྲེལ་བཤད་:(_D)"
+
+#: ../src/print-manager-printer-properties.c:258
+msgid "_Icon:"
+msgstr "ངོས་དཔར་:(_I)"
+
+#: ../src/print-manager-printer-properties.c:268
+msgid "Queue Status:"
+msgstr "མི་གྲལ་གནས་ཚད་:"
+
+#: ../src/print-manager-printer-properties.c:278
+msgid "Device Name:"
+msgstr "ཐབས་འཕྲུལ་མིང་:"
+
+#: ../src/print-manager-printer-properties.c:288
+msgid "Device Status:"
+msgstr "ཐབས་འཕྲུལ་གནས་ཚད:"
+
+#: ../src/print-manager-printer-properties.c:298
+msgid "Printer Queue:"
+msgstr "དཔར་འཕྲུལ་གྲལ་:"
+
+#: ../src/print-manager-printer-properties.c:435
+msgid "Enter path of the icon to display for this printer."
+msgstr "འ་ནི་དཔར་འཕྲུལ་གྱི་དོན་ལུ་ བཀྲམ་སྟོན་འབད་ནིའི་དོན་ལས་ ངོས་དཔར་འདི་གི་འགྲུལ་ལམ་ཐོ་བཀོད་འབད།"
+
+#: ../src/print-manager-printer-selection.c:220
+msgid "Select Printers to Show"
+msgstr "སྟོན་ནིའི་དོན་ལས་ དཔར་འཕྲུལ་ཚུ་སེལ་འཐུ་འབད་"
+
+#: ../src/print-manager-printer-selection.c:271
+msgid "Select Printer Visibility"
+msgstr "དཔར་འཕྲུལ་མཐོང་ཚུགསཔ་ སེལ་འཐུ་འབད་"
+
+#: ../src/print-manager-printer-selection.c:272
+msgid "Lists all printers and lets you choose which are shown"
+msgstr "དཔར་འཕྲུལ་ཆ་མཉམ་ཐོ་བཀོད་འབད་ཞིནམ་ལས་ ཁྱོད་ལུ་ ག་འདི་སྟོན་ཡོདཔ་ཨིན་ན་ གདམ་ཁ་རྐྱབས་བཅུགཔ་ཨིན་"
+
+#: ../src/print-manager-printer-selection.c:306
+msgid "Show _All"
+msgstr "ཆ་མཉམ་སྟོན་(_A)"
+
+#: ../src/print-manager-printer-selection.c:317
+msgid "_Hide All"
+msgstr "ཆ་མཉམ་སྦ་བཞག་(_H)"
+
+#: ../src/print-manager-queue-solaris.c:597
+#: ../src/print-manager-queue-solaris.c:610
+msgid "Not Active"
+msgstr "ཤུགས་ལྡན་མེན་"
+
+#: ../src/print-manager-queue-solaris.c:637
+#: ../src/print-manager-queue-solaris.c:646
+msgid "Active"
+msgstr "ཤུགས་ལྡན་"
+
+#: ../src/print-manager-queue-solaris.c:880
+msgid "Already Cancelling"
+msgstr "ཧེ་ལས་རང་ཆ་མེད་གཏང་དོ་"
+
+#: ../src/print-manager-search.c:430
+#, c-format
+msgid "Search Results for: %s"
+msgstr " %s: གི་དོན་ལུ་ འཚོལ་ཞིབ་གྲུབ་འབྲས་"
+
+#: ../src/print-manager-search.c:531
+#, c-format
+msgid ""
+"Error cancelling \"%s\".\n"
+"Reason given by server: %s.\n"
+msgstr ""
+"\"%s\" ཆ་མེད་གཏངམ་ད་འཛོལ་བ།\n"
+"%s :སར་བར་གྱིས་བྱོན་ཡོད་པའི་ རྒྱུ་མཚན།\n"
+
+#: ../src/print-manager-search.c:601
+#, c-format
+msgid "Cancel printing of %d documents?"
+msgstr "%d ཡིག་ཆ་ཚུ་གི་ དཔར་བསྐྲུན་འབད་ནི་ཆ་མེད་གཏང་?"
+
+#: ../src/print-manager-search.c:687
+msgid "Search for Document Being Printed"
+msgstr "ཡིག་ཆ་དཔར་བསྐྲུན་འབད་ཡོད་པའི་དོན་ལུ་ འཚོལ་ཞིབ་འབད་"
+
+#: ../src/print-manager-search.c:716
+msgid "Search Options:"
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་:"
+
+#: ../src/print-manager-search.c:729
+msgid "_Document Name:"
+msgstr "ཡིག་ཆ་མིང་:(_D)"
+
+#: ../src/print-manager-search.c:751
+msgid "_Only My Documents"
+msgstr "ངེས་ཀྱི་ཡིག་ཆ་རྐྱངམ་ཅིག་(_O)"
+
+#: ../src/print-manager-search.c:759
+msgid "Igno_re Case"
+msgstr "གནད་དོན་སྣང་མེད་བཞག་(_r)"
+
+#: ../src/print-manager-search.c:764
+msgid "_Exact Match"
+msgstr "ཏག་ཏག་མཐུན་མི་(_E)"
+
+#: ../src/print-manager-search.c:773
+msgid "S_top Search"
+msgstr "འཚོལ་ཞིབ་འབད་ནི་བཀག་(_t)"
+
+#: ../src/print-manager-search.c:783
+msgid "_Start Search"
+msgstr "འཚོལ་ཞིབ་འབད་ནི་འགོ་བཙུགས་(_S)"
+
+#: ../src/print-manager-search.c:793
+msgid "Search Results:"
+msgstr "འཚོལ་ཞིབ་གྲུལ་འབྲས་:"
+
+#: ../src/print-manager-search.c:835
+msgid "Search Result List"
+msgstr "འཚོལ་ཞིབ་གྲུལ་འབྲས་ཐོ་ཡིག་"
+
+#: ../src/print-manager-search.c:836
+msgid "Lists print jobs matching the search criteria"
+msgstr "འཚོལ་ཞིབ་ཁྱད་ཚད་འདི་མཐུན་མི་ དཔར་བསྐྲུན་ལས་གཡོག་ཚུ་ཐོ་བཀོད་འབདཝ་ཨིན་"
+
+#: ../src/print-manager-search.c:865
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ་"
+
+#: ../src/print-manager-search.c:874
+msgid "Position"
+msgstr "གནས་ས་"
+
+#: ../src/print-manager-search.c:896
+msgid "_Goto Document"
+msgstr "ཡིག་ཆ་ལུ་འགྱོ་(_G)"
+
+#: ../src/print-manager-search.c:907
+msgid "Open the queue window for the selected document"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ ཡིག་ཆ་འདི་གི་དོན་ལུ་ མི་གྲལ་སྒོ་སྒྲིག་འདི་ཁ་ཕྱེ་"
+
+#: ../src/print-manager-search.c:910
+msgid "Ca_ncel Documents"
+msgstr "ཡིག་ཆ་ཚུ་ཆ་མེད་གཏང་(_n)"
+
+#: ../src/print-manager-settings-dialog.c:90
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../src/print-manager-settings-dialog.c:119
+msgid "Documents to Show:"
+msgstr "སྟོན་ནིའི་ཡིག་ཆ་ཚུ་:"
+
+#: ../src/print-manager-settings-dialog.c:130
+msgid "_Update Interval in Seconds:"
+msgstr "བར་མཚམས་ཚུ་སྐར་ཆ་ཚུ་ནང་ དུས་མཐུན་བཟོ་:(_U)"
+
+#: ../src/print-manager-settings-dialog.c:168
+msgid "Only _Mine"
+msgstr "ངེས་ཀྱི་རྐྱངམ་ཅིག་(_M)"
+
+#: ../src/print-manager-settings-dialog.c:175
+msgid "_Everyone's"
+msgstr "ག་ར་གི་(_E)"
+
+#: ../gnome-print-manager.desktop.in.h:1
+msgid "Displays printers and documents in the printer queues"
+msgstr "དཔར་འཕྲུལ་ཚུ་དང་ ཡིག་ཆ་ཚུ་ དཔར་འཕྲུལ་གྲལ་ནང་ བཀྲམ་སྟོན་འབདཝ་ཨིན་"
+

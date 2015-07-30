@@ -1,0 +1,1374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-vfs.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-10-18 11:34+0200\n"
+"PO-Revision-Date: 2006-03-20 14:42-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: daemon/gnome-vfs-daemon.c:596
+msgid "Could not initialize Bonobo"
+msgstr "བོ་ནོ་བོ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: daemon/gnome-vfs-daemon.c:603
+msgid "Could not initialize gnome vfs"
+msgstr "ཇི་ནོམ་ ཝིཨེཕ་ཨེསི་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: libgnomevfs/eggdesktopentries.c:229
+#, c-format
+msgid "File could not be opened: %s"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་མ་ཚུགས་ :%s"
+
+#: libgnomevfs/eggdesktopentries.c:324
+#, c-format
+msgid "Failed to open file '%s': %s"
+msgstr "ཡིག་སྣོད་ ’%s’:%s ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: libgnomevfs/eggdesktopentries.c:337
+msgid "File is empty"
+msgstr "ཡིག་སྣོད་སྟོངམ་ཨིན་པས།"
+
+#: libgnomevfs/eggdesktopentries.c:359
+#, c-format
+msgid "Failed to read from file '%s': %s"
+msgstr "ཡིག་སྣོད་ '%s':%s ནང་ལས་ ལྷག་མ་ཚུགས།"
+
+#: libgnomevfs/eggdesktopentries.c:572
+#, c-format
+msgid "desktop entries contain line '%s' which is not an entry, group, or comment"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ ཐོ་བཀོད་དང་ སྡེ་ཚན་ བསམ་བཀོད་མིན་པའི་གྱལ་རིམ ’%s’ འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:645
+msgid "desktop entries file does not start with legal start group"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ཡིག་སྣོད་དེ་ ལི་གཱལ་འགོ་བཙུགས་སྡེ་ཚན་གྱི་ཐོག་ལས་ འགོ་མི་བཙུགས།"
+
+#: libgnomevfs/eggdesktopentries.c:702
+#, c-format
+msgid "desktop entries contain line '%s' which is not UTF-8"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ ཡུ་ཊི་ཨེཕ་-༨ མེན་པི་ གྱལ་རིམ་ ’%s’ འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:725
+#, c-format
+msgid "desktop entries contain unknown encoding '%s'"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ ངོས་འཛིན་མ་ཚུགས་པའི་ ཨིན་ཀོ་ཌིང་ ’%s’ འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:915
+#: libgnomevfs/eggdesktopentries.c:1027
+#: libgnomevfs/eggdesktopentries.c:1212
+#, c-format
+msgid "desktop entries do not have group '%s'"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ལུ་ སྡེ་ཚན་ ’%s’ མིན་འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:1039
+#, c-format
+msgid "desktop entries do not have key '%s'"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ལུ་ ལྡེ་མིག་ ’%s’ མིན་འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:1095
+#: libgnomevfs/eggdesktopentries.c:1268
+#: libgnomevfs/eggdesktopentries.c:1410
+#: libgnomevfs/eggdesktopentries.c:1535
+#, c-format
+msgid "desktop entries contain key '%s' which has value that cannot be interpreted."
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ ཁ་བསྒྱུར་མ་ཚུགས་པའི་ བེ་ལུ་ཡོད་པའི་ལྡེ་མིག་ ’%s’ འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:1293
+#, c-format
+msgid "desktop entries contain no translated value for key '%s' with locale '%s'."
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ ལོ་ཀེལ་’%s’ དང་གཅིག་ཁར་ ལྡེ་མིག་ ’%s’ གི་དོན་ལུ་ སྐད་བསྒྱུར་འབད་ཡོད་པའི་ བེ་ལུ་མིན་འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:2226
+#, c-format
+msgid "desktop entries contain invalid escape sequence '%s'"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ ནུས་མེད་བྲོས་ཐར་འབྱུང་རིམ་ ’%s’ འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:2243
+msgid "desktop entries contain escape character at end of line"
+msgstr "ཌེཀསི་ཊོཔ་ཐོ་བཀོད་ནང་ གྱལ་རིམ་མཇུག་ལུ་ བྲོས་ཐར་ཡིག་འབྲུ་འདུག"
+
+#: libgnomevfs/eggdesktopentries.c:2268
+#, c-format
+msgid "Value '%s' cannot be interpreted as a number."
+msgstr "བེ་ལུ་ ’%s’ དེ་ ཨང་གྲངས་བཟུམ་ཅིག་སྦེ་ ཁ་བསྒྱུར་འབད་མི་ཚུགས།"
+
+#: libgnomevfs/eggdesktopentries.c:2295
+#, c-format
+msgid "Value '%s' cannot be interpreted as a boolean."
+msgstr "བེ་ལུ་ ’%s’ དེ་ བུ་ལིན་བཟུམ་ཅིག་སྦེ་ ཁ་བསྒྱུར་མི་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-cdrom.c:210
+msgid "ISO 9660 Volume"
+msgstr "ཨའི་ཨེསི་ཨོ་ ༩༦༦༠ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-configuration.c:227
+#, c-format
+msgid "%s:%d contains NUL characters."
+msgstr "%s:%d ནང་ ཨེན་ཡུ་ཨེལ་ ཡིག་འབྲུ་འདུག"
+
+#: libgnomevfs/gnome-vfs-configuration.c:244
+#, c-format
+msgid "%s:%d contains no method name."
+msgstr "%s:%d ནང་ ཐབས་ལམ་གྱི་ མིང་མིན་འདུག"
+
+#: libgnomevfs/gnome-vfs-configuration.c:284
+#, c-format
+msgid "%s:%d has no options endmarker."
+msgstr "%s:%d དེ་ལུ་ མཇུག་རྟགས་བཀོད་མིའི་ གདམ་ཁ་མིན་འདུག"
+
+#: libgnomevfs/gnome-vfs-configuration.c:295
+#, c-format
+msgid "%s:%d has unknown options %s."
+msgstr "%s:%d དེ་ལུ་ མ་ཤེས་པའི་གདམ་ཁ་ %s ཅིག་འདུག"
+
+#: libgnomevfs/gnome-vfs-configuration.c:314
+#, c-format
+msgid "%s:%d contains no module name."
+msgstr "%s:%d དེ་ལུ་ ཚད་གཞིའི་མིང་ མིན་འདུག"
+
+#: libgnomevfs/gnome-vfs-configuration.c:368
+#, c-format
+msgid "Configuration file `%s' was not found: %s"
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ ‘%s’  ཐོབ་མ་ཚུགས། %s"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:37
+msgid "AFFS Volume"
+msgstr "ཨེ་ཨེཕ་ཨེཕ་ཨེསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:38
+msgid "AFS Network Volume"
+msgstr "ཨེ་ཨེཕ་ཨེསི་ ཡོངས་འབྲེལ་ བོ་ལུསམ། "
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:39
+msgid "Auto-detected Volume"
+msgstr "རང་བཞིན་སྐྱོན་འཛིན་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:40
+#: libgnomevfs/gnome-vfs-filesystem-type.c:42
+msgid "CD-ROM Drive"
+msgstr "སི་ཌི་-རཱོམ་ འདྲེན་འཕྲུལ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:41
+msgid "CD Digital Audio"
+msgstr "སི་ཌི་ ཌི་ཇི་ཊཱལ་ རྣར་ཉན།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:43
+msgid "Hardware Device Volume"
+msgstr "སྲ་ཆས་ ཐབས་འཕྲུལ་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:44
+#: libgnomevfs/gnome-vfs-filesystem-type.c:45
+msgid "Ext2 Linux Volume"
+msgstr "ཨི་ཨེགསི་ཊི་༢ ལའི་ནགསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:46
+msgid "Ext3 Linux Volume"
+msgstr "ཨི་ཨེགསི་ཊི་༣ ལའི་ནགསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:47
+#: libgnomevfs/gnome-vfs-filesystem-type.c:57
+#: libgnomevfs/gnome-vfs-filesystem-type.c:58
+msgid "MSDOS Volume"
+msgstr "ཨེམ་ཨེསི་ཌོསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:48
+#: libgnomevfs/gnome-vfs-filesystem-type.c:49
+msgid "MacOS Volume"
+msgstr "མེཀ་ཨོ་ཨེསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:50
+msgid "CDROM Volume"
+msgstr "སི་ཌི་ རཱོམ་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:51
+msgid "Hsfs CDROM Volume"
+msgstr "ཨེཆ་ཨེསི་ཨེཕ་ཨེསི་ སི་ཌི་རཱོམ་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:52
+msgid "JFS Volume"
+msgstr "ཇེ་ཨེཕ་ཨེསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:53
+#: libgnomevfs/gnome-vfs-filesystem-type.c:60
+msgid "Windows NT Volume"
+msgstr "ཝིན་ཌོསི་ ཨེན་ཊི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:54
+#: libgnomevfs/gnome-vfs-filesystem-type.c:62
+#: libgnomevfs/gnome-vfs-filesystem-type.c:63
+msgid "System Volume"
+msgstr "རིམ་ལུགས་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:55
+msgid "Memory Volume"
+msgstr "དྲན་ཚད་སྦུང་ཚད།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:56
+msgid "Minix Volume"
+msgstr "མི་ནིགསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:59
+msgid "NFS Network Volume"
+msgstr "ཨེན་ཨེཕ་ཨེསི་ ཡོངས་འབྲེལ་བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:61
+msgid "Netware Volume"
+msgstr "ནེཊི་ཝེར་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:64
+msgid "ReiserFS Linux Volume"
+msgstr "རི་སར་ཨེཕ་ཨེསི་ ལའི་ནགསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:65
+msgid "Windows Shared Volume"
+msgstr "ཝིན་ཌོསི་ རུབ་སྤྱོད་བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:66
+msgid "SuperMount Volume"
+msgstr "སུ་པར་མ་འུནཊི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:67
+msgid "DVD Volume"
+msgstr "ཌི་ཝི་ཌི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:68
+msgid "Solaris/BSD Volume"
+msgstr "སོ་ལ་རིསི་ / བི་ཨེསི་ཌི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:69
+msgid "Udfs Solaris Volume"
+msgstr "ཡུ་ཌི་ཨེཕ་ཨེསི་ སོ་ལ་རིསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:70
+msgid "Pcfs Solaris Volume"
+msgstr "པི་སི་ཨེཕ་ཨེསི་ སོ་ལ་རིསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:71
+msgid "Sun SAM-QFS Volume"
+msgstr "སཱན་ ཨེསི་ཨེ་ཨེམ་-ཀིའུ་ཨེཕ་ཨེསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:72
+msgid "Enhanced DOS Volume"
+msgstr "གོང་སྤེལ་ཅན་གྱི་ ཌོསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:73
+msgid "Windows VFAT Volume"
+msgstr "ཝིན་ཌོསི་ ཝི་ཨེཕ་ཨེ་ཊི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:74
+msgid "Xenix Volume"
+msgstr "ཟེ་ནིགསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:75
+msgid "XFS Linux Volume"
+msgstr "ཨེགསི་ཨེཕ་ཨེསི་ ལའི་ནགསི་་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:76
+msgid "XIAFS Volume"
+msgstr "ཨེགསི་ཨའི་ཨེ་ཨེཕ་ཨེསི་ བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-filesystem-type.c:104
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:611
+msgid "CD-ROM Disc"
+msgstr "སི་ཌི་-རཱོམ་ ཌིཀསི། "
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:614
+msgid "Blank CD-R Disc"
+msgstr "སི་ཌི་-ཨར་ ཌིཀསིསྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:616
+msgid "CD-R Disc"
+msgstr "སི་ཌི་-ཨར་ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:619
+msgid "Blank CD-RW Disc"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་ ཌིཀསི་སྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:621
+msgid "CD-RW Disc"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:623
+msgid "DVD-ROM Disc"
+msgstr "ཌི་ཝི་ཌི་-རཱོམ་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:626
+msgid "Blank DVD-R Disc"
+msgstr "ཌི་ཝི་ཌི་-ཨར་ ཌིཀསི་ སྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:628
+msgid "DVD-R Disc"
+msgstr "ཌི་ཝི་ཌི་-ཨར་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:631
+msgid "Blank DVD-RAM Disc"
+msgstr "ཌི་ཝི་ཌི་-རེམ་ ཌིཀསི་ སྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:633
+msgid "DVD-RAM Disc"
+msgstr "ཌི་ཝི་ཌི་-རེམ་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:636
+msgid "Blank DVD-RW Disc"
+msgstr "ཌི་ཝི་ཌི་-ཨར་ཌབ་ལུ་ ཌིཀསི་ སྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:638
+msgid "DVD-RW Disc"
+msgstr "ཌི་ཝི་ཌི་-ཨར་ཌབ་ལུ་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:641
+msgid "Blank DVD+RW Disc"
+msgstr "ཌི་ཝི་ཌི་ + ཨར་ཌབ་ལུ་ ཌིཀསི སྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:643
+msgid "DVD+RW Disc"
+msgstr "ཌི་ཝི་ཌི་ + ཨར་ཌབ་ལུ་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:646
+msgid "Blank DVD+R Disc"
+msgstr "ཌི་ཝི་ཌི་ + ཨར་ ཌིཀསི སྟོངམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:648
+msgid "DVD+R Disc"
+msgstr "ཌི་ཝི་ཌི་ + ཨར་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:650
+msgid "Optical Disc"
+msgstr "མཐོང་རིག་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:656
+msgid "Audio Disc"
+msgstr "རྣར་ཉན་ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:660
+msgid "Compact Flash Media"
+msgstr "སྲབ་ཆུང་ རིབ་སྟོན་ བརྡ་ལམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:662
+msgid "Memory Stick Media"
+msgstr "དྲན་ཚད སིཊིཀ་བརྡ་ལམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:664
+msgid "Smart Media Media"
+msgstr "སི་མཱཊི་ བརྡ་ལམ་ བརྡ་ལམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:666
+msgid "SD/MMC Media"
+msgstr "ཨེསི་ཌི / ཨེམ་ཨེམ་སི་ བརྡ་ལམ།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:668
+msgid "Floppy Disk"
+msgstr "ཕོལོ་པི་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:675
+msgid "Mac OS disk"
+msgstr "མེཀ་ ཨོ་ཨེསི་ ཌིཀསི།།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:677
+msgid "Mac OS X disk"
+msgstr "མེཀ ཨོ་ཨེསི་ ཨེགསི་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:691
+msgid "Windows Disk"
+msgstr "ཝིན་ཌོསི་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-hal-mounts.c:697
+msgid "Linux Disk"
+msgstr "ལའི་ནགསི་ ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-job.c:734
+#, c-format
+msgid "Unknown operation type %u"
+msgstr "མ་ཤེས་པའི་བཀོལ་སྤྱོད་ དབྱེ་བ་%u།"
+
+#: libgnomevfs/gnome-vfs-job.c:1024
+#: libgnomevfs/gnome-vfs-job.c:1169
+#, c-format
+msgid "Cannot create pipe for open GIOChannel: %s"
+msgstr "ཇི་ཨའི་ཨོ་ ཅེ་ནཱལ་: %s གི་དོན་ལུ་ རྒྱུད་དུང་བཟོ་མི་ཚུགས་པས།"
+
+#: libgnomevfs/gnome-vfs-job.c:1687
+#, c-format
+msgid "Unknown job kind %u"
+msgstr "མ་ཤེས་པའི་ ལཱ་གི་དབྱེ་ཁག་ %u །"
+
+#: libgnomevfs/gnome-vfs-job.c:1720
+msgid "Operation stopped"
+msgstr "བཀོལ་སྤྱོད་མཚམས་འཇོག་སོང་ནུག"
+
+#: libgnomevfs/gnome-vfs-mime-handlers.c:83
+#: libgnomevfs/gnome-vfs-mime-handlers.c:312
+#: libgnomevfs/gnome-vfs-mime-handlers.c:363
+#: libgnomevfs/gnome-vfs-mime-handlers.c:657
+#: libgnomevfs/gnome-vfs-mime-handlers.c:676
+#: libgnomevfs/gnome-vfs-mime-handlers.c:694
+#: libgnomevfs/gnome-vfs-mime-handlers.c:713
+#: libgnomevfs/gnome-vfs-mime-handlers.c:732
+#: libgnomevfs/gnome-vfs-mime-handlers.c:873
+#: libgnomevfs/gnome-vfs-mime-handlers.c:895
+#: libgnomevfs/gnome-vfs-mime-handlers.c:914
+#: libgnomevfs/gnome-vfs-mime-handlers.c:933
+#: libgnomevfs/gnome-vfs-mime-handlers.c:986
+#: libgnomevfs/gnome-vfs-mime-handlers.c:1003
+#: libgnomevfs/gnome-vfs-mime-handlers.c:1020
+#: libgnomevfs/gnome-vfs-mime-handlers.c:1038
+#: libgnomevfs/gnome-vfs-mime-handlers.c:1056
+#: libgnomevfs/gnome-vfs-mime-info.c:648
+#: libgnomevfs/gnome-vfs-mime-info.c:655
+#: libgnomevfs/gnome-vfs-mime-info.c:663
+#: libgnomevfs/gnome-vfs-mime-info.c:670
+#: libgnomevfs/gnome-vfs-mime-info.c:678
+#: libgnomevfs/gnome-vfs-mime-info.c:695
+#: libgnomevfs/gnome-vfs-mime-info.c:702
+#: libgnomevfs/gnome-vfs-mime-info.c:709
+#: libgnomevfs/gnome-vfs-mime-info.c:716
+#: libgnomevfs/gnome-vfs-mime-info.c:724
+#: libgnomevfs/gnome-vfs-mime-info.c:731
+msgid "Deprecated function.  User modifications to the MIME database are no longer supported."
+msgstr "ངོས་ལེན་མེད་པའི་བྱ་བ། མ་ཡིམ་གནད་སྡུད་གཞི་རྟེན་ལུ་ ལག་ལེན་པའི་ལེགས་བཅོས་ཚུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: libgnomevfs/gnome-vfs-parse-ls.c:666
+#, c-format
+msgid "Could not parse: %s"
+msgstr ":%s མིང་དཔྱད་འབད་མ་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-parse-ls.c:668
+msgid "More parsing errors will be ignored."
+msgstr "མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཧེང་བཀལ་ཚུ་ སྣང་མེད་བཞག་ནི་ཨིན།"
+
+#. GNOME_VFS_OK
+#: libgnomevfs/gnome-vfs-result.c:38
+msgid "No error"
+msgstr "འཛོལ་བ་མེད།"
+
+#. GNOME_VFS_ERROR_NOT_FOUND
+#: libgnomevfs/gnome-vfs-result.c:39
+msgid "File not found"
+msgstr "ཡིག་སྣོད་འཚོལ་མ་ཐོབ།"
+
+#. GNOME_VFS_ERROR_GENERIC
+#: libgnomevfs/gnome-vfs-result.c:40
+msgid "Generic error"
+msgstr "ཇེ་ནི་རིཀ་འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_INTERNAL
+#: libgnomevfs/gnome-vfs-result.c:41
+msgid "Internal error"
+msgstr "ནང་འཁོད་འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_BAD_PARAMETERS
+#: libgnomevfs/gnome-vfs-result.c:42
+msgid "Invalid parameters"
+msgstr "ནུས་མེད་ཚད་བཟུང་།"
+
+#. GNOME_VFS_ERROR_NOT_SUPPORTED
+#: libgnomevfs/gnome-vfs-result.c:43
+msgid "Unsupported operation"
+msgstr "རྒྱབ་སྐྱོར་མེད་པའི་བཀོལ་སྤྱོད།"
+
+#. GNOME_VFS_ERROR_IO
+#: libgnomevfs/gnome-vfs-result.c:44
+msgid "I/O error"
+msgstr "ཨའི་ / ཨོ་ འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_CORRUPTED_DATA
+#: libgnomevfs/gnome-vfs-result.c:45
+msgid "Data corrupted"
+msgstr "གནད་སྡུད་ངན་ཅན་ལུ་གྱུར་ཡོདཔ།"
+
+#. GNOME_VFS_ERROR_WRONG_FORMAT
+#: libgnomevfs/gnome-vfs-result.c:46
+msgid "Format not valid"
+msgstr "རྩ་སྒྲིག་ལུ་ནུས་པ་མིན་འདུག "
+
+#. GNOME_VFS_ERROR_BAD_FILE
+#: libgnomevfs/gnome-vfs-result.c:47
+msgid "Bad file handle"
+msgstr "ཡིག་སྣོད་བཤེད་བཟུང༌བྱང་ཉེས།"
+
+#. GNOME_VFS_ERROR_TOO_BIG
+#: libgnomevfs/gnome-vfs-result.c:48
+msgid "File too big"
+msgstr "ཡིག་སྣོད་སྦོམ་དྲགསཔ།"
+
+#. GNOME_VFS_ERROR_NO_SPACE
+#: libgnomevfs/gnome-vfs-result.c:49
+msgid "No space left on device"
+msgstr "ཐབས་འཕྲུལ་གུ་ བར་སྟོང་ལྷག་ལུས་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_READ_ONLY
+#: libgnomevfs/gnome-vfs-result.c:50
+msgid "Read-only file system"
+msgstr "ལྷག་ནི་རྐྱངམ་གཅིག་གི་ ཡིག་སྣོད་རིམ་ལུགས།"
+
+#. GNOME_VFS_ERROR_INVALID_URI
+#: libgnomevfs/gnome-vfs-result.c:51
+msgid "Invalid URI"
+msgstr "ནུས་མེད་ཡུ་ཨར་ཨའི།"
+
+#. GNOME_VFS_ERROR_NOT_OPEN
+#: libgnomevfs/gnome-vfs-result.c:52
+msgid "File not open"
+msgstr "ཡིག་སྣོད་ཁ་མ་ཕྱེ་བས།"
+
+#. GNOME_VFS_ERROR_INVALID_OPEN_MODE
+#: libgnomevfs/gnome-vfs-result.c:53
+msgid "Open mode not valid"
+msgstr "ཁ་ཕྱེ་ནིའི་ཐབས་ལམ་ལུ་ ནུས་པ་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_ACCESS_DENIED
+#: libgnomevfs/gnome-vfs-result.c:54
+msgid "Access denied"
+msgstr "འཛུལ་སྤྱོད་ལུ་ ཁས་ལེན་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_TOO_MANY_OPEN_FILES
+#: libgnomevfs/gnome-vfs-result.c:55
+msgid "Too many open files"
+msgstr "ཁ་ཕྱེ་ཡོད་པའི་ ཡིག་སྣོད་མང་དྲགས་པས།"
+
+#. GNOME_VFS_ERROR_EOF
+#: libgnomevfs/gnome-vfs-result.c:56
+msgid "End of file"
+msgstr "ཡིག་སྣོད་ཀྱི་མཇུག"
+
+#. GNOME_VFS_ERROR_NOT_A_DIRECTORY
+#: libgnomevfs/gnome-vfs-result.c:57
+msgid "Not a directory"
+msgstr "སྣོད་ཐོ་ཅིག་མེན་པས།"
+
+#. GNOME_VFS_ERROR_IN_PROGRESS
+#: libgnomevfs/gnome-vfs-result.c:58
+msgid "Operation in progress"
+msgstr "བཀོལ་སྤྱོད་འབད་བའི་བསྒང༌།"
+
+#. GNOME_VFS_ERROR_INTERRUPTED
+#: libgnomevfs/gnome-vfs-result.c:59
+msgid "Operation interrupted"
+msgstr "བཀོལ་སྤྱོད་ལུ་ བར་ཆད་བྱུང་ནུག"
+
+#. GNOME_VFS_ERROR_FILE_EXISTS
+#: libgnomevfs/gnome-vfs-result.c:60
+msgid "File exists"
+msgstr "ཡིག་སྣོད་འདུག"
+
+#. GNOME_VFS_ERROR_LOOP
+#: libgnomevfs/gnome-vfs-result.c:61
+msgid "Looping links encountered"
+msgstr "ལུང་ཐག་འབྲེལ་ལམ་ལུ་ གདོང་ཐུག་བྱུང་ནུག"
+
+#. GNOME_VFS_ERROR_NOT_PERMITTED
+#: libgnomevfs/gnome-vfs-result.c:62
+msgid "Operation not permitted"
+msgstr "བཀོལ་སྤྱོད་འབད་མི་ཆོག་པས།"
+
+#. GNOME_VFS_ERROR_IS_DIRECTORY
+#: libgnomevfs/gnome-vfs-result.c:63
+msgid "Is a directory"
+msgstr "སྣོད་ཐོ་ཅིག་ཨིན།"
+
+#. GNOME_VFS_ERROR_NO_MEMORY
+#: libgnomevfs/gnome-vfs-result.c:64
+msgid "Not enough memory"
+msgstr "དྲན་ཚད་ལངམ་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_HOST_NOT_FOUND
+#: libgnomevfs/gnome-vfs-result.c:65
+msgid "Host not found"
+msgstr "ཧོསིཊི་མ་ཐོབ།"
+
+#. GNOME_VFS_ERROR_INVALID_HOST_NAME
+#: libgnomevfs/gnome-vfs-result.c:66
+msgid "Host name not valid"
+msgstr "ཧོསཊི་གི་མིང་ལུ་ ནུས་པ་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_HOST_HAS_NO_ADDRESS
+#: libgnomevfs/gnome-vfs-result.c:67
+msgid "Host has no address"
+msgstr "ཧོསཊི་ལུ་ ཁ་བྱང་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_LOGIN_FAILED
+#: libgnomevfs/gnome-vfs-result.c:68
+msgid "Login failed"
+msgstr "ནང་བསྐྱོད་ལུ་ འཐུས་ཤོར་བྱུང་ནུག"
+
+#. GNOME_VFS_ERROR_CANCELLED
+#: libgnomevfs/gnome-vfs-result.c:69
+msgid "Operation cancelled"
+msgstr "བཀོལ་སྤྱོད་ཆ་མེད་བཏང་ནུག"
+
+#. GNOME_VFS_ERROR_DIRECTORY_BUSY
+#: libgnomevfs/gnome-vfs-result.c:70
+msgid "Directory busy"
+msgstr "སྣོད་ཐོ་ཁོམ་མེད་ཨིན་པས།"
+
+#. GNOME_VFS_ERROR_DIRECTORY_NOT_EMPTY
+#: libgnomevfs/gnome-vfs-result.c:71
+msgid "Directory not empty"
+msgstr "སྣོད་ཐོ་སྟོངམ་མེན་པས།"
+
+#. GNOME_VFS_ERROR_TOO_MANY_LINKS
+#: libgnomevfs/gnome-vfs-result.c:72
+msgid "Too many links"
+msgstr "འབྲེལ་ལམ་མང་དྲགས་པས།"
+
+#. GNOME_VFS_ERROR_READ_ONLY_FILE_SYSTEM
+#: libgnomevfs/gnome-vfs-result.c:73
+msgid "Read only file system"
+msgstr "ལྷག་ནི་རྐྱངམ་གཅི་ག་གི་ ཡིག་སྣོད་རིམ་ལུགས།"
+
+#. GNOME_VFS_ERROR_NOT_SAME_FILE_SYSTEM
+#: libgnomevfs/gnome-vfs-result.c:74
+msgid "Not on the same file system"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་ ཅོག་གཅིགཔ་གུ་མེན་པས།"
+
+#. GNOME_VFS_ERROR_NAME_TOO_LONG
+#: libgnomevfs/gnome-vfs-result.c:75
+msgid "Name too long"
+msgstr "མིང་ རིང་དྲགས་པས།"
+
+#. GNOME_VFS_ERROR_SERVICE_NOT_AVAILABLE
+#: libgnomevfs/gnome-vfs-result.c:76
+msgid "Service not available"
+msgstr "ཞབས་ཏོག་མི་འཐོབ་པས།"
+
+#. GNOME_VFS_ERROR_SERVICE_OBSOLETE
+#: libgnomevfs/gnome-vfs-result.c:77
+msgid "Request obsoletes service's data"
+msgstr "ཕན་མེད་ཞབས་ཏོག་གི་ གནད་སྡུད་ཞུ་བ།"
+
+#. GNOME_VFS_ERROR_PROTOCOL_ERROR
+#: libgnomevfs/gnome-vfs-result.c:78
+msgid "Protocol error"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་ འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_NO_MASTER_BROWSER
+#: libgnomevfs/gnome-vfs-result.c:79
+msgid "Could not find master browser"
+msgstr "བརའུ་ཟར་ ཨམ་ འཚོལ་མ་ཐོབ།"
+
+#. GNOME_VFS_ERROR_NO_DEFAULT
+#: libgnomevfs/gnome-vfs-result.c:80
+msgid "No default action associated"
+msgstr "སྔོན་སྒྲིག་བྱ་བ་གཅིག་ཡང་ མཉམ་འབྲེལ་མ་འབད་བས།"
+
+#. GNOME_VFS_ERROR_NO_HANDLER
+#: libgnomevfs/gnome-vfs-result.c:81
+msgid "No handler for URL scheme"
+msgstr "ཡུ་ཨར་ཨེལ་ ལས་འཆར་གྱི་དོན་ལུ་ ལེགས་སྐྱོང་འཐབ་མི་མིན་འདུག"
+
+#. GNOME_VFS_ERROR_PARSE
+#: libgnomevfs/gnome-vfs-result.c:82
+msgid "Error parsing command line"
+msgstr "བཀོད་ལམ་མིང་དཔྱད་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_LAUNCH
+#: libgnomevfs/gnome-vfs-result.c:83
+msgid "Error launching command"
+msgstr "བརྡ་བཀོད་གསར་བཙུགས་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_TIMEOUT
+#: libgnomevfs/gnome-vfs-result.c:84
+#: libgnomevfs/gnome-vfs-result.c:86
+msgid "Timeout reached"
+msgstr "ངལ་མཚམས་གུ་ལྷོད་ནུག"
+
+#. GNOME_VFS_ERROR_NAMESERVER
+#: libgnomevfs/gnome-vfs-result.c:85
+msgid "Nameserver error"
+msgstr "ནེམ་སར་བར་གྱི་འཛོལ་བ།"
+
+#. GNOME_VFS_ERROR_LOCKED
+#: libgnomevfs/gnome-vfs-result.c:87
+msgid "The resource is locked"
+msgstr "འཐོན་ཁུངས་དེ་ ལྡེ་མིག་བརྐྱབས་ནུག"
+
+#. GNOME_VFS_ERROR_DEPRECATED_FUNCTION
+#: libgnomevfs/gnome-vfs-result.c:88
+msgid "Function call deprecated"
+msgstr "བྱ་བའི་བོད་བརྡ་ ངོས་ལེན་མེདཔ་ཐལ་སོ་ནུག"
+
+#: libgnomevfs/gnome-vfs-result.c:203
+msgid "Unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ།"
+
+#: libgnomevfs/gnome-vfs-utils.c:85
+#, c-format
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] " བ་ཡིཊི་%u།"
+msgstr[1] " བ་ཡིཊི་%u།"
+
+#: libgnomevfs/gnome-vfs-utils.c:91
+#, c-format
+msgid "%.1f KB"
+msgstr "%.1f ཀེ་བི།"
+
+#: libgnomevfs/gnome-vfs-utils.c:95
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f ཨེམ་བི།"
+
+#: libgnomevfs/gnome-vfs-utils.c:99
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f ཇི་བི། "
+
+#: libgnomevfs/gnome-vfs-utils.c:1122
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:391
+msgid " (invalid Unicode)"
+msgstr "(ནུས་མེད་ཡུ་ནི་ཀོཌི)"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:573
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:629
+msgid "Floppy"
+msgstr "ཕོལོ་པི། "
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:574
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:632
+msgid "CD-ROM"
+msgstr "སི་ཌི་-རཱོམ། "
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:576
+msgid "CD-R"
+msgstr "སི་ཌི་ཨར།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:577
+msgid "CD-RW"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:578
+msgid "DVD-ROM"
+msgstr "ཌི་ཝི་ཌི་-རཱོམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:579
+msgid "DVD-RAM"
+msgstr "ཌི་ཝི་ཌི་- རེམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:580
+msgid "DVD-R"
+msgstr "ཌི་ཝི་ཌི་- ཨར།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:581
+msgid "DVD-RW"
+msgstr "ཌཌི་ཝི་ཌི་- ཨར་ཌབ་ལུ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:582
+msgid "CD-ROM/DVD-ROM"
+msgstr "སི་ཌི་-རཱོམ/ཌི་ཝི་ཌི་-རཱོམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:583
+msgid "CD-ROM/DVD-RAM"
+msgstr "སི་ཌི་-རཱོམ/ཌི་ཝི་ཌི་-རེམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:584
+msgid "CD-ROM/DVD-R"
+msgstr "སི་ཌི་-རཱོམ/ཌི་ཝི་ཌི་-ཨར།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:585
+msgid "CD-ROM/DVD-RW"
+msgstr "སི་ཌི་-རཱོམ/ཌི་ཝི་ཌི་-ཨར་ཌབ་ལུ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:586
+msgid "CD-R/DVD-ROM"
+msgstr "སི་ཌི་-ཨར་/ཌི་ཝི་ཌི་-རཱོམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:587
+msgid "CD-R/DVD-RAM"
+msgstr "སི་ཌི་-ཨར་/ཌི་ཝི་ཌི་-རེམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:588
+msgid "CD-R/DVD-R"
+msgstr "སི་ཌི་-ཨར་/ཌི་ཝི་ཌི་-ཨར།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:589
+msgid "CD-R/DVD-RW"
+msgstr "སི་ཌི་-ཨར་/ཌི་ཝི་ཌི་-ཨར་ཌབ་ལུ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:590
+msgid "CD-RW/DVD-ROM"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་/ཌི་ཝི་ཌི་-རཱོམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:591
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:592
+msgid "CD-RW/DVD-R"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་/ཌི་ཝི་ཌི་-ཨར།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:593
+msgid "CD-RW/DVD-RW"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་/ཌི་ཝི་ཌི་-ཨར་ཌབ་ལུ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:595
+msgid "Disk"
+msgstr "ཌིཀསི།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:596
+msgid "USB Drive"
+msgstr "ཡུ་ཨེསི་བི་ འདྲེན་འཕྲུལ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:597
+msgid "IEEE1394 Drive"
+msgstr "ཨའི་ཨི་ཨི་ཨི་༡༣༩༤ འདྲེན་འཕྲུལ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:598
+msgid "CF"
+msgstr "སི་ཨེཕ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:599
+msgid "SD/MMC"
+msgstr "ཨེསི་ཌི་/ཨེམ་ཨེམ་སི།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:600
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:604
+msgid "Memory Stick"
+msgstr "དྲན་ཚད་སིཊིཀ"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:601
+msgid "Smart Media"
+msgstr "སི་མཱཊི་ བརྡ་ལམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:603
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:635
+msgid "Zip Drive"
+msgstr "ཛིཔ་འདྲེན་འཕྲུལ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:605
+msgid "Camera"
+msgstr "པར་ཆས།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:606
+msgid "DVD"
+msgstr "ཌི་ཝི་ཌི།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:822
+msgid "Root Volume"
+msgstr "རྩ་བའི་བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:903
+msgid "Audio CD"
+msgstr "རྣར་ཉན་སི་ཌི།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:936
+msgid "Unknown volume"
+msgstr "མ་ཤེས་པའི་བོ་ལུསམ།"
+
+#: libgnomevfs/gnome-vfs-volume-monitor-daemon.c:1122
+msgid "Network server"
+msgstr "ཡོངས་འབྲེལ་སར་བར།"
+
+#. Handle floppy case
+#: libgnomevfs/gnome-vfs-volume-ops.c:112
+msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgstr "ཕོལོ་པི་འདྲེན་འཕྲུལ་ སྦྱར་བརྩེགས་འབད་མ་ཚུགས། འདྲེན་འཕྲུལ་ནང་ལུ་ ཕོལོ་པི་མེདཔ་འོང་ནི་མས།"
+
+#. All others
+#: libgnomevfs/gnome-vfs-volume-ops.c:116
+msgid "Unable to mount the volume. There is probably no media in the device."
+msgstr "བོ་ལུསམ་སྦྱར་བརྩེགས་འབད་མ་ཚུགས། ཐབས་འཕྲུལ་ནང་ བརྡ་ལམ་མེདཔ་འོང་ནི་མས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:122
+msgid "Unable to mount the floppy drive. The floppy is probably in a format that cannot be mounted."
+msgstr "ཕོལོ་པི་འདྲེན་འཕྲུལ་ སྦྱར་བརྩེགས་འབད་མ་ཚུགས། ཕོལོ་པི་དེ་ སྦྱར་བརྩེགས་འབད་མ་བཏུབ་པའི་ རྩ་སྒྲིག་ཅིག་ནང་ ཡོདཔ་འོང་ནི་མས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:125
+msgid "Unable to mount the selected volume. The volume is probably in a format that cannot be mounted."
+msgstr "སེལ་འཐུ་འབད་མི་ བོ་ལུསམ་་དེ་ སྦྱར་བརྩེགས་འབད་མ་ཚུགས། བོ་ལུསམ་དེ་ སྦྱར་བརྩེགས་འབད་མ་བཏུབ་པའི་ རྩ་སྒྲིག་ཅིག་ནང་ ཡོདཔ་འོང་ནི་མས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:130
+msgid "Unable to mount the selected floppy drive."
+msgstr "སེལ་འཐུ་འབད་མི་ ཕོལོ་པི་འདྲེན་འཕྲུལ་དེ་ སྦྱར་བརྩེགས་འབད་མ་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:132
+msgid "Unable to mount the selected volume."
+msgstr "སེལ་འཐུ་འབད་མི་ བོ་ལུསམ་དེ་ སྦྱར་བརྩེགས་འབད་མ་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:144
+msgid "Unable to unmount the selected volume."
+msgstr "སེལ་འཐུ་འབད་མི་ བོ་ལུསམ་དེ་ བརྩེགས་བཤོལ་འབད་མ་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:256
+#: libgnomevfs/gnome-vfs-volume-ops.c:302
+msgid "Failed to start command"
+msgstr "བརྡ་བཀོད་འགོ་བཙུགས་མ་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:292
+msgid "Unable to eject media"
+msgstr "བརྡ་ལམ་ཕྱི་བཏོན་འབད་མ་ཚུགས།"
+
+#: libgnomevfs/gnome-vfs-volume-ops.c:481
+msgid "Unable to unmount connected server"
+msgstr "འབྲེལ་མཐུད་ཅན་གྱི་སར་བར་ བརྩེགས་བཤོལ་འབད་མ་ཚུགས།"
+
+#. Translate exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:175
+msgid "Applications"
+msgstr "གློག་རིམ།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:178
+msgid "Cards"
+msgstr "ཤོག་བྱང༌།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:181
+msgid "Files"
+msgstr "ཡོག་སྣོད།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:184
+msgid "Folders"
+msgstr "སྣོད་འཛིན།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:187
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:190
+msgid "Hosts"
+msgstr "ཧོསཊི།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:193
+msgid "Links"
+msgstr "འབྲེལ་ལམ།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:196
+msgid "Mail"
+msgstr "ཡིག་འཕྲིན།"
+
+#. Translate  exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:199
+msgid "Tools"
+msgstr "ལག་ཆས།"
+
+#. Translate exactly the same in CDE's sys.dtwmrc file of the locale
+#: modules/cdemenu-desktop-method.c:202
+msgid "Windows"
+msgstr "ཝིན་ཌོསི། "
+
+#: modules/computer-method.c:545
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ།"
+
+#: modules/computer-method.c:563
+msgid "Home"
+msgstr "ཁྱིམ།"
+
+#: modules/computer-method.c:581
+msgid "Filesystem"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས།"
+
+#: modules/file-method.c:386
+#, c-format
+msgid "Unknown GnomeVFSSeekPosition %d"
+msgstr "མ་ཤེས་པའི་ ཇི་ནོམ་ ཝི་ཨེཕ་ཨེསི་སིག་པོ་སི་ཤཱན་ %d།"
+
+#: modules/network-method.c:1396
+msgid "Windows Network"
+msgstr "ཝིན་ཌོསི་ ཡོངས་འབྲེལ།"
+
+#: modules/sftp-method.c:1346
+#, c-format
+msgid "The identity of the remote computer (%s) is unknown."
+msgstr "ཐག་རིང་གློག་རིག་ (%s) གི་ ངོ་རྟགས་ཤེས་མ་ཚུགས།"
+
+#: modules/sftp-method.c:1347
+#, c-format
+msgid ""
+"This happens when you log in to a computer the first time.\n"
+"\n"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr ""
+"འདི་འགོ་དང་པ་ གློག་རིག་ནང་བསྐྱོད་ འབད་བའི་སྐབས་འབྱུངམ་ཨིན། \n"
+" \n"
+" ཐག་རིང་གློག་རིག་གིས་བཏང་མི་ ངོ་རྟགས་དེ་ %s ཨིན་པས། ཁྱོད་རང་ངེས་ཤེས་ཧྲིལ་བུ་ འདྲོངས་དགོ་པ་ཅིན་ འཕྲོ་མཐུད་རུང་ཉེན་ཁ་མེད། རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་ འབྲེལ་བ་འཐབ།"
+
+#: modules/sftp-method.c:1355
+msgid "Log In Anyway"
+msgstr "གང་རུང་སྦེ་ ནང་བསྐྱོད་འབད།"
+
+#: modules/sftp-method.c:1356
+msgid "Cancel Login"
+msgstr "ནང་བསྐྱོད་ཆ་མེད་གཏང༌།"
+
+#. FIXME: we probably shouldn't use printf to output the message
+#: modules/test-method.c:590
+#, c-format
+msgid "Didn't find a valid settings file at %s\n"
+msgstr " %s ལུ་ ནུས་ཅན་གཞི་སྒྲིག་ཅིག་ འཚོལ་མ་ཐོབ།\n"
+
+#: modules/test-method.c:592
+#, c-format
+msgid "Use the %s environment variable to specify a different location.\n"
+msgstr "གནས་ཁོངས་སོ་སོ་ཅིག་ གསལ་བཀོད་འབད་ནིའི་དོན་ལུ་ མཐའ་འཁོར་གྱི་བསྒྱུར་བ་ %s ལག་ལེན་འཐབ། \n"
+
+#: monikers/GNOME_VFS_Moniker_std.server.in.in.h:1
+msgid "Standard Moniker factory"
+msgstr "ཚད་ལྡན་གྱི་ མོ་ནི་ཀར་འཕྲུལ་ཁང་།"
+
+#: monikers/GNOME_VFS_Moniker_std.server.in.in.h:2
+msgid "file MonikerExtender"
+msgstr "མོ་ནི་ཀར་ཨེགསི་ཊེན་ཌར་བཙུགས།"
+
+#: monikers/GNOME_VFS_Moniker_std.server.in.in.h:3
+msgid "generic Gnome VFS moniker"
+msgstr "ཇེ་ནི་རིཀ་ ཇི་ནོམ་ ཝི་ཨེཕ་ཨེསི་ མོ་ནི་ཀར།"
+
+#: monikers/GNOME_VFS_Moniker_std.server.in.in.h:4
+msgid "generic file moniker"
+msgstr "ཇེ་ནི་རིཀ་ ཡིག་སྣོད་ མོ་ནི་ཀར།"
+
+#: schemas/desktop_default_applications.schemas.in.h:1
+msgid "Default component viewer application"
+msgstr "སྔོན་སྒྲིག་ཆ་ཤས་ མཐོང་བྱེད་གློག་རིམ།"
+
+#: schemas/desktop_default_applications.schemas.in.h:2
+msgid "Default terminal application"
+msgstr "སྔོན་སྒྲིག་ཊར་མི་ནཱལ་གློག་རིམ།"
+
+#: schemas/desktop_default_applications.schemas.in.h:3
+msgid "Exec argument for default terminal"
+msgstr "སྔོན་སྒྲིག་ཊར་མི་ནཱལ་གྱི་སྐོར་ལས་ སྒྲུབ་རྟགས་ལག་ལེན་འཐབ།"
+
+#: schemas/desktop_default_applications.schemas.in.h:5
+#, no-c-format
+msgid "The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file's URIs, the parameter %c will be replaced by the component IID."
+msgstr "ཡིག་སྣོད་ལུ་ བལྟ་ནིའི་གློག་རིམ་དེ་ལུ་ ཆ་ཤས་ཅིག་དགོ ཚད་བཟུང་ %s གི་ཚབ་ལུ་ ཡིག་སྣོད་ཀྱི་ ཡུ་ཨར་ཨའི་ཚུ་ བཙུགས་ནི་དང་ ཚད་བཟུང་ %c གི་ཚབ་ལུ་ ཆ་ཤས་ཀྱི་ཨའི་ཌི་ཌི་ བཙུགས་ནི་ཨིན།"
+
+#: schemas/desktop_default_applications.schemas.in.h:6
+msgid "The default terminal application to use for applications that require a terminal."
+msgstr "ཊར་མི་ནཱལ་ཅིག་དགོ་པའི་ གློག་རིམ་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་དགོ་པའི་ སྔོན་སྒྲིག་ཊར་མི་ནཱལ་གློག་རིམ།"
+
+#: schemas/desktop_default_applications.schemas.in.h:7
+msgid "The exec argument to use for the default terminal application."
+msgstr "སྔོན་སྒྲིག་ཊར་མི་ནཱལ་ གློམ་རིམ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་དགོ་པའི་ ཨི་ཨེགསི་ཨི་སི་ སྒྲུབ་རྟགས།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:1
+msgid "Run the command in a terminal"
+msgstr "བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:2
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"aim\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:3
+msgid "The command used to handle \"callto\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"callto\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:4
+msgid "The command used to handle \"ghelp\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"ghelp\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:5
+msgid "The command used to handle \"h323\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"h323\" ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:6
+msgid "The command used to handle \"http\" URLs, if enabled."
+msgstr " ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"http\"  ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:7
+msgid "The command used to handle \"https\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"https\" ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:8
+msgid "The command used to handle \"info\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་  \"info\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:9
+msgid "The command used to handle \"mailto\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"mailto\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:10
+msgid "The command used to handle \"man\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"man\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:11
+msgid "The command used to handle \"trash\" URLs, if enabled."
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ \"trash\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:12
+msgid "The handler for \"aim\" URLs"
+msgstr "\"aim\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:13
+msgid "The handler for \"callto\" URLs"
+msgstr "\"callto\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:14
+msgid "The handler for \"ghelp\" URLs"
+msgstr " \"ghelp\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:15
+msgid "The handler for \"h323\" URLs"
+msgstr "\"h323\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:16
+msgid "The handler for \"http\" URLs"
+msgstr "\"http\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:17
+msgid "The handler for \"https\" URLs"
+msgstr "\"https\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:18
+msgid "The handler for \"info\" URLs"
+msgstr "\"info\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:19
+msgid "The handler for \"mailto\" URLs"
+msgstr "\"mailto\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:20
+msgid "The handler for \"man\" URLs"
+msgstr "\"man\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:21
+msgid "The handler for \"trash\" URLs"
+msgstr "\"trash\" ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:22
+msgid "True if the command specified in the \"command\" key should handle \"aim\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"aim\" ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:23
+msgid "True if the command specified in the \"command\" key should handle \"callto\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"callto\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:24
+msgid "True if the command specified in the \"command\" key should handle \"ghelp\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"ghelp\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:25
+msgid "True if the command specified in the \"command\" key should handle \"h323\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"h323\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:26
+msgid "True if the command specified in the \"command\" key should handle \"http\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"http\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:27
+msgid "True if the command specified in the \"command\" key should handle \"https\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ངེས་བདེན་ཨིན་པ་ཅིན་ \"https\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:28
+msgid "True if the command specified in the \"command\" key should handle \"info\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"info\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:29
+msgid "True if the command specified in the \"command\" key should handle \"mailto\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"mailto\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:30
+msgid "True if the command specified in the \"command\" key should handle \"man\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"man\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:31
+msgid "True if the command specified in the \"command\" key should handle \"trash\" URLs."
+msgstr "\"command\" ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ \"trash\" ཡུ་ཨར་ཨེལ་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:32
+msgid "True if the command used to handle this type of URL should be run in a terminal."
+msgstr "དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:33
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"aim\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:34
+msgid "Whether the specified command should handle \"callto\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"callto\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:35
+msgid "Whether the specified command should handle \"ghelp\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"ghelp\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:36
+msgid "Whether the specified command should handle \"h323\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"h323\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:37
+msgid "Whether the specified command should handle \"http\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"http\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:38
+msgid "Whether the specified command should handle \"https\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"https\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:39
+msgid "Whether the specified command should handle \"info\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"info\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:40
+msgid "Whether the specified command should handle \"mailto\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"mailto\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:41
+msgid "Whether the specified command should handle \"man\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"man\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/desktop_gnome_url_handlers.schemas.in.h:42
+msgid "Whether the specified command should handle \"trash\" URLs"
+msgstr "གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ \"trash\" ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: schemas/system_dns_sd.schemas.in.h:1
+msgid "Comma separated list of dns-sd domains that should be visible in the network location."
+msgstr "ལྷོད་རྟགས་ཀྱིས་ སོ་སོ་དབྱེ་མི་ ཌི་ཨེན་ཨེསི་-ཨེསི་ཌི་གི་ ཐོ་ཡིག་ཌོ་མེན་དེ་ ཡོངས་འབྲེལ་གནས་ཁོངས་ནང་ མཐོང་ཚུགས་དགོ"
+
+#: schemas/system_dns_sd.schemas.in.h:2
+msgid "Extra domains to look for dns-sd services in"
+msgstr "ཌི་ཨེན་ཨེསི་-ཨེསི་ཌི་གི་ ཞབས་ཏོག་བལྟ་ནིའི་དོན་ལུ་ ཌོ་མེན་ཐེབས"
+
+#: schemas/system_dns_sd.schemas.in.h:3
+msgid "How to display local DNS-SD service"
+msgstr "ཉེ་གནས་ཀྱི་ཌི་ཨེན་ཨེསི་-ཨེསི་ཌི་གི་ ཞབས་ཏོག་བཀྲམ་སྟོན་འབད་ཐངས།"
+
+#: schemas/system_dns_sd.schemas.in.h:4
+msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
+msgstr "སྲིད་པའི་བེ་ལུསི་ \"merged\" \"separate\" དང་ \"disabled\" ཚུ་ཨིན།"
+
+#: schemas/system_http_proxy.schemas.in.h:1
+msgid "Authenticate proxy server connections"
+msgstr "པོརོག་སི་ སར་བར་མཐུད་ལམ་གྱི་ བདེན་ཁུངས་བཤད།"
+
+#: schemas/system_http_proxy.schemas.in.h:2
+msgid "Automatic proxy configuration URL"
+msgstr "རང་བཞིན་གྱི་ པོརོག་སི་ རིམ་སྒྲིག་གི་ ཡུ་ཨར་ཨེལ།"
+
+#: schemas/system_http_proxy.schemas.in.h:3
+msgid "Enables the proxy settings when accessing HTTP over the Internet."
+msgstr "ཨིན་ཊར་ནེཊི་་ཐོག་ལས་ ཨེཆ་ཊི་ཊི་པི་ འཛུལ་སྤྱོད་འབདཝ་ད་ པོརོག་སི་ གཞི་སྒྲིག་ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: schemas/system_http_proxy.schemas.in.h:4
+msgid "FTP proxy host name"
+msgstr "ཨེཕ་ཊི་པི་ པོརོག་སི་གི་ ཧོསཊི་ནེམ༌།"
+
+#: schemas/system_http_proxy.schemas.in.h:5
+msgid "FTP proxy port"
+msgstr "ཨེཕ་ཊི་པི་ པོརོག་སི་ འདྲེན་ལམ།"
+
+#: schemas/system_http_proxy.schemas.in.h:6
+msgid "HTTP proxy host name"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ཧོསཊི་ནེམ།"
+
+#: schemas/system_http_proxy.schemas.in.h:7
+msgid "HTTP proxy password"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ཆོག་ཡིག"
+
+#: schemas/system_http_proxy.schemas.in.h:8
+msgid "HTTP proxy port"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ འདྲེན་ལམ།"
+
+#: schemas/system_http_proxy.schemas.in.h:9
+msgid "HTTP proxy username"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་་ ལག་ལེན་པའི་མིང༌།"
+
+#: schemas/system_http_proxy.schemas.in.h:10
+msgid "If true, then connections to the proxy server require authentication. The username/password combo defined by \"/system/http_proxy/authentication_user\" and \"/system/http_proxy/authentication_password\"."
+msgstr "ངེས་བདེན་ཨིན་པ་ཅིན་ པོརོག་སི་ སར་བར་གྱི་ མཐུད་ལམ་ཚུ་ལུ་ བདེན་བཤད་དགོ ལག་ལེན་པའི་མིང་  ཆོག་ཡིག་ཚུ་ ཀོམ་བོ་ \"/system/http_proxy/authentication_user\"  དང་ \"/system/http_proxy/authentication_password\" ཚུ་གིས་ ངེས་འཛིན་འབད་ཡོད།"
+
+#: schemas/system_http_proxy.schemas.in.h:11
+msgid "Non-proxy hosts"
+msgstr "པོརོག་སི་མིན་པའི་ ཧོསཊིསི།"
+
+#: schemas/system_http_proxy.schemas.in.h:12
+msgid "Password to pass as authentication when doing HTTP proxying."
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སིང་གི་སྐབས་ལུ་ ཆོག་ཡིག་དེ་ བདེན་བཤད་བཟུམ་ཅིག་སྦེ་སྤྲོད་ནི།"
+
+#: schemas/system_http_proxy.schemas.in.h:13
+msgid "Proxy configuration mode"
+msgstr "པོརོག་སི་ རིམ་སྒྲིག་གི་ཐབས་ལམ།"
+
+#: schemas/system_http_proxy.schemas.in.h:14
+msgid "SOCKS proxy host name"
+msgstr "ཨེསི་ཨོ་སི་ཀེ་ཨེསི་ པོརོག་སི་ ཧོསཊི་ནེམ།"
+
+#: schemas/system_http_proxy.schemas.in.h:15
+msgid "SOCKS proxy port"
+msgstr "ཨེསི་ཨོ་སི་ཀེ་ཨེསི་ པོརོག་སི་ འདྲེན་ལམ།"
+
+#: schemas/system_http_proxy.schemas.in.h:16
+msgid "Secure HTTP proxy host name"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ཧོསཊི་གི་ནེམ་ མཐའ་བཙན་བཟོ།"
+
+#: schemas/system_http_proxy.schemas.in.h:17
+msgid "Secure HTTP proxy port"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་གི་ འདྲེན་ལམ མཐའ་བཙན་བཟོ།"
+
+#: schemas/system_http_proxy.schemas.in.h:18
+msgid "Select the proxy configuration mode. Supported values are \"none\", \"manual\", \"auto\"."
+msgstr "པོརོག་སི་ རིམ་སྒྲིག་གི་ཐབས་ལམ་ སེལ་འཐུ་འབད། རྒྱབ་སྐྱོར་ཅན་གྱི་ བེ་ལུསི་ \"none\", \"manual\", \"auto\" ཚུ་ཨིན།"
+
+#: schemas/system_http_proxy.schemas.in.h:19
+msgid "The machine name to proxy FTP through."
+msgstr "ཨེཕ་ཊི་པི་ པོརོག་སི་་འབད་ནིའི་ གློག་འཕྲུལ་ཆས་མིང༌།"
+
+#: schemas/system_http_proxy.schemas.in.h:20
+msgid "The machine name to proxy HTTP through."
+msgstr "ཨེཆ་ཊི་་ཊི་པི་ པོརོག་སི་འབད་ནིའི་ གློག་འཕྲུལ་གྱི་མིང༌།"
+
+#: schemas/system_http_proxy.schemas.in.h:21
+msgid "The machine name to proxy secure HTTP through."
+msgstr "བརྒྱུད་དེ་ཨེཆ་ཊི་ཊི་པི་པོརོག་སི་ མཐའ་བཙན་བཟོ་ནིའི་ གློག་འཕྲུལ་གྱི་མིང༌།"
+
+#: schemas/system_http_proxy.schemas.in.h:22
+msgid "The machine name to proxy socks through."
+msgstr "བརྒྱུད་དེ་ཨེསི་ཨོ་སི་ཀེ་ཨེསི་ པོརོག་སི་འབད་ནིའི་ གློག་འཕྲུལ་གྱི་མིང༌།"
+
+#: schemas/system_http_proxy.schemas.in.h:23
+msgid "The port on the machine defined by \"/system/http_proxy/host\" that you proxy through."
+msgstr "ཁྱོད་ཀྱིས་ པོརོག་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ \"/system/http_proxy/host\" གིས་ ངེས་འཛིན་འབད་ཡོད།"
+
+#: schemas/system_http_proxy.schemas.in.h:24
+msgid "The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy through."
+msgstr "ཁྱོད་ཀྱིས་ པོ་རོ་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ \"/system/proxy/ftp_host\" གིས་ངེས་འཛིན་འབད་ཡོད།"
+
+#: schemas/system_http_proxy.schemas.in.h:25
+msgid "The port on the machine defined by \"/system/proxy/secure_host\" that you proxy through."
+msgstr "ཁྱོད་ཀྱིས་པོརོག་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ \"/system/proxy/secure_host\" གིས་ ངེས་འཛིན་འབད་ཡོད།"
+
+#: schemas/system_http_proxy.schemas.in.h:26
+msgid "The port on the machine defined by \"/system/proxy/socks_host\" that you proxy through."
+msgstr "ཁྱོད་ཀྱིས་པོརོག་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ \"/system/proxy/socks_host\" གིས་ ངེས་འཛིན་འབད་ཡོད།"
+
+#: schemas/system_http_proxy.schemas.in.h:27
+msgid "This key contains a list of hosts which are connected to directly, rather than via the proxy (if it is active). The values can be hostnames, domains (using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "ལྡེ་མིག་འདི་ནང་ ཧོསཊི་གི་ཐོ་ཡིག་ཅིག་ཡོད་མི་ཚུ་ (ཤུགས་ལྡན་ཨིན་པ་ཅིན)་ པོརོག་སི་མ་བརྒྱུད་པར་ ཕྲང་ཕྲང་མཐུད་དེ་ཡོདཔ་ཨིན། བེ་ལུསི་ཚུ་ ཧོསཊི་མིང་དང་ ཌོ་མེན་ (*.foo.com བཟུམ་གྱི་ འགོ་ཐོག་གི་ ཝ་ཡེལ་ཀཌི་ ལག་ལེན་འཐབ་སྟེ) ཨའི་པི་ཧོསཊི་ཁ་བྱང་(ཨའི་པི་ཝི་༤་དང་ ཨའི་པི་ཝི་༦ གཉིས་ཆ་རང་) ཡོངས་འབྲེལ་གྱི་ཁ་བྱང་ (༡༩༢་ ༡༦༨་ ༠་༠ / ༢༤ བཟུམ་འབད་མི་) ནེཊི་མཱཀསི་དང་གཅིག་ཁར།"
+
+#: schemas/system_http_proxy.schemas.in.h:28
+msgid "URL that provides proxy configuration values."
+msgstr "པོརོག་སི་ རིམ་སྒྲིག་གི་ བེ་ལུསི་བྱིན་མི་ ཡུ་ཨར་ཨེལ།"
+
+#: schemas/system_http_proxy.schemas.in.h:29
+msgid "Use HTTP proxy"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ལག་ལེན་འཐབ།"
+
+#: schemas/system_http_proxy.schemas.in.h:30
+msgid "User name to pass as authentication when doing HTTP proxying."
+msgstr "ཨེཆ་ཊི་ཊི་པི་ པོརོག་སིང་གི་སྐབས་ལུ་ བདེན་བཤད་བཟུམ་སྦེ་སྤྲོད་ནིའི་ ལག་ལེན་པའི་མིང་།"
+
+#: schemas/system_smb.schemas.in.h:1
+msgid "SMB workgroup"
+msgstr "ཨེསི་ཨེམ་བི་ལཱ་སྡེ།"
+
+#: schemas/system_smb.schemas.in.h:2
+msgid "The window workgroup the user is part of"
+msgstr "ལག་ལེན་པ་དེ་ ཡན་ལག་ཅིག་ཨིན་མི་ ཝིན་ཌོ་གི་ལཱ་སྡེ།"
+

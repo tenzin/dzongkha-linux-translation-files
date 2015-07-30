@@ -1,0 +1,1633 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-14 10:58+0100\n"
+"PO-Revision-Date: 2007-06-21 11:39+0530\n"
+"Last-Translator: yumkee lhamo <yumkeyl08@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../applet/GNOME_PilotApplet.server.in.in.h:1
+msgid "Pilot Applet"
+msgstr "པའི་ལོཊི་ཨེཔ་ལེཊི།"
+
+#: ../applet/GNOME_PilotApplet.server.in.in.h:2
+msgid "Synchronize your data on PalmOS devices"
+msgstr "ཁྱོད་རའི་གནས་སྡུད་པམ་ཨོ་ཨེསི་ཐབས་འཕྲུལ་གུ་མཉམ་འབྱུང་འབད་ནི།"
+
+#: ../applet/GNOME_PilotApplet.server.in.in.h:3
+msgid "Utility"
+msgstr "སྤྱོད་ཆས།"
+
+#: ../applet/pilot-applet.glade.h:1
+#: ../capplet/gpilotd-capplet.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../applet/pilot-applet.glade.h:2
+msgid "Choose PDA"
+msgstr "པི་ཌི་ཨེ་གདམ།"
+
+#: ../applet/pilot-applet.glade.h:3
+msgid "GNOME PilotSync Properties"
+msgstr "ཇི་ནཱོམ་པའི་ལོཊི་མཉམ་འབྱུང་འབད་ནི་རྒྱུ་དངོས་ཚུ།"
+
+#: ../applet/pilot-applet.glade.h:4
+msgid "Restore PDA"
+msgstr "པི་ཌི་ཨེ་སོར་ཆུད།"
+
+#: ../applet/pilot-applet.glade.h:5
+msgid "_Directory"
+msgstr "སྣོད་ཐོ།(_D)"
+
+#: ../applet/pilot-applet.glade.h:6
+msgid "_Display notices"
+msgstr "བརྡ་བསྐུལ་ཚུ་བཀྲམ་བཏོན་འབད།(_D)"
+
+#: ../applet/pilot-applet.glade.h:7
+msgid "_Execute when clicked"
+msgstr "ཨེབ་གཏང་འབད་ཡོད་པའི་སྐབས་ལག་ལེན་འཐབ་ནི།(_E)"
+
+#: ../applet/pilot-applet.glade.h:8
+msgid "_PDA ID"
+msgstr "པི་ཌི་ཨེ་ ཨའི་ཌི(_P)"
+
+#: ../applet/pilot-applet.glade.h:9
+msgid "_Sync cradle"
+msgstr "མཉམ་འབྱུང་འབད་ནི་ཀ་ཌིལ།(_S)"
+
+#: ../applet/pilot-applet.glade.h:10
+msgid "gnome-pilot progress"
+msgstr "ཇི་ནཱོམ་-པའི་ལོཊི་ཡར་འཕེལ།"
+
+#: ../applet/pilot.c:168
+#, c-format
+msgid "%s Synchronizing"
+msgstr "%s མཉམ་འབྱུང་འབད་དོ།"
+
+#: ../applet/pilot.c:173
+msgid "Database %v of %u"
+msgstr "གནས་སྡུད་གཞི་རྟེན་ %v གི %u"
+
+#: ../applet/pilot.c:267
+#, c-format
+msgid "Request %ld has been completed\n"
+msgstr "ཞུ་བ་ %ld འདི་མཇུག་བསྡུ་ཡོདཔ།\n"
+
+#: ../applet/pilot.c:289
+#, c-format
+msgid "%s Synchronizing : %s"
+msgstr "%s མཉམ་འབྱུང་འབད་དོ། : %s"
+
+#: ../applet/pilot.c:294
+#, c-format
+msgid "%s: Started\n"
+msgstr "%s: འགོ་བཙུགས་ཡོདཔ།\n"
+
+#: ../applet/pilot.c:309
+#, c-format
+msgid "%s Finished : %s"
+msgstr "%s མཇུག་བསྡུ་ཡོདཔ། : %s"
+
+#: ../applet/pilot.c:314
+#, c-format
+msgid "%s: Ended\n"
+msgstr "%s: མཇུག་བསྡུ་ཡོདཔ།\n"
+
+#: ../applet/pilot.c:340
+msgid "%v of %u records"
+msgstr "%v གི་ %u དྲན་ཐོ་ཚུ།"
+
+#: ../applet/pilot.c:419
+msgid ""
+"PDA is currently synchronizing.\n"
+"Please wait for it to finish."
+msgstr ""
+"པི་ཌི་ཨེ་འདི་ད་ལྟོ་མཉམ་འབྱུང་འབད་དོ།\n"
+"མཇུག་བསྡུ་ནི་དོན་ལུ་འདི་ལུ་བསྒུག་གནང་།"
+
+#: ../applet/pilot.c:422
+msgid "Not connected. Please restart daemon."
+msgstr "མཐུད་མེདཔ། ཌེ་ནཱོམ་ལོག་འགོ་བཙུགས་གནང་།"
+
+#: ../applet/pilot.c:424
+msgid ""
+"Not connected to gpilotd.\n"
+"Please restart daemon."
+msgstr ""
+"ཇི་པའི་ལོཊིཌི་ལུ་མཐུད་མེདཔ།\n"
+"ཌེ་ནཱོམ་ལོག་འགོ་བཙུགས་གནང་།"
+
+#: ../applet/pilot.c:442
+msgid "gnome-pilot applet"
+msgstr "ཇི་ནཱོམ་-པའི་ལོཊི་ཨེཔ་ལེཊི།"
+
+#: ../applet/pilot.c:444
+msgid "Copyright 2000-2006 Free Software Foundation, Inc."
+msgstr "འདྲ་བཤུས་དབང་ཆ་༢༠༠༠-༢༠༠༦་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ ཨའི་ཨེན་སི།"
+
+#: ../applet/pilot.c:445
+msgid "A PalmOS PDA monitor.\n"
+msgstr "པམ་ཨོ་ཨེསི་པི་ཌི་ཨེ་ལྟ་རྟོག་པ་ཅིག\n"
+
+#: ../applet/pilot.c:541
+#: ../applet/pilot.c:567
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "འགྲོགས་རམ་བཀྲབ་སྟོན་འབད་བའི་སྐབས་འཛོལ་བ་ཅིག: %s"
+
+#: ../applet/pilot.c:605
+#, c-format
+msgid "cancelling %d"
+msgstr "ཆ་མེད་གཏང་དོ། %d"
+
+#: ../applet/pilot.c:657
+#, c-format
+msgid "Restoring %s"
+msgstr "སོར་ཆུད་འབད་དོ། %s"
+
+#: ../applet/pilot.c:699
+msgid "No directory to restore from."
+msgstr "ལས་སོར་ཆུད་ལུ་སྣོད་ཐོ་མེད།"
+
+#: ../applet/pilot.c:707
+msgid ""
+"Press synchronize on the cradle to restore\n"
+" or cancel the operation."
+msgstr ""
+"སོར་ཆུད་འབད་ནི་ལུ་འཕྲིན་སྟེགས་འདི་གུ་མཉམ་འབྱུང་འབད་ནི་ཨེབ་་\n"
+" ཡང་ན་བཀོལ་སྤྱོད་འདི་ཆ་མེད་གཏང་།"
+
+#: ../applet/pilot.c:716
+msgid "Restore request failed"
+msgstr "སོར་ཆུག་ཞུ་བ་འཐུས་ཤོར་ཡོདཔ།"
+
+#: ../applet/pilot.c:754
+msgid ""
+"PDA sync is currently in progress.\n"
+"Are you sure you want to restart daemon?"
+msgstr ""
+"པི་ཌི་ཨེ་མཉམ་འབྱུང་འབད་ནི་འདི་ད་ལྟོ་ཡར་འཕེལ་འགྱོ་དོ།\n"
+"ཁྱོད་ཀྱིས་ཌེ་ནཱོམ་སོར་ཆུད་འབད་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: ../applet/pilot.c:764
+#: ../applet/pilot.c:1340
+msgid "Trying to connect to the GnomePilot Daemon"
+msgstr "ཇི་ནོམ་པའི་ལོཊི་ཌེ་ནཱོམ་འདི་ལུ་མཐུད་ནི་ལུ་འབད་རྩོལ་འབད་དོ།"
+
+#: ../applet/pilot.c:780
+msgid "There's no last sync on record."
+msgstr "དྲན་དོ་གུ་མཉམ་མཇུག་གི་འབྱུང་འབད་ནི་མེད།"
+
+#. ensure the label strings are extracted by intltool.  This list of
+#. * strings should match the list in the menu_template below
+#.
+#: ../applet/pilot.c:803
+msgid "Restore..."
+msgstr "སོར་ཆུད།..."
+
+#: ../applet/pilot.c:803
+msgid "Restart"
+msgstr "ལོག་འགོ་བཙུགས།"
+
+#: ../applet/pilot.c:803
+msgid "Last log..."
+msgstr "མཇུག་གི་དྲན་དེབ།..."
+
+#: ../applet/pilot.c:804
+msgid "Preferences..."
+msgstr "དགའ་གདམ་ཚུ།..."
+
+#: ../applet/pilot.c:804
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#: ../applet/pilot.c:804
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: ../applet/pilot.c:826
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད།"
+
+#: ../applet/pilot.c:828
+msgid "Pause Daemon"
+msgstr "ཌེ་ནཱོམ་ཐེམ།"
+
+#: ../applet/pilot.c:848
+msgid "Daemon paused..."
+msgstr "ཌེ་ནཱོམ་ཐེམ་ཡོདཔ།..."
+
+#: ../applet/pilot.c:855
+#: ../applet/pilot.c:1009
+msgid "Ready to synchronize"
+msgstr "མཉམ་འབྱུང་འབད་ནི་ལུ་གྲ་སྒྲིག"
+
+#: ../applet/pilot.c:990
+msgid "Not connected. Restart daemon to reconnect"
+msgstr "མཐུད་མེདཔ། སླར་མཐུད་འབད་ནི་ལུ་ཌེ་ནཱོམ་ལོག་འགོ་བཙུགས།"
+
+#: ../applet/pilot.c:1174
+#, c-format
+msgid "Execution of %s failed"
+msgstr "གི་ %s ལག་ལེན་འཐབ་ནི་འཐུས་ཤོར་ཡོདཔ།"
+
+#.
+#. if (strstr (file_type (ptr),"text")) {
+#. if (file_size (ptr)>properties.text_limit)
+#. g_message ("installing textfile as Doc (not implemented)");
+#. else
+#. g_message ("installing textfile as Memo (not implemented)");
+#. }
+#.
+#: ../applet/pilot.c:1300
+#, c-format
+msgid "installing \"%s\" to \"%s\""
+msgstr "ལུ་ \"%s\" གཞི་བཙུགས་དོ \"%s\""
+
+#: ../applet/pilot.c:1310
+msgid "unknown dnd type"
+msgstr "མ་ཤེས་པའི་ཌི་ཨེན་ཌི་དབྱེ་བ།"
+
+#: ../applet/pilot.c:1318
+msgid "destroy gpilot-applet"
+msgstr "ཇི་པའི་ལོཊི་-ཨེཔ་ལེཊི་རྩ་མེད་གཏང་ནི།"
+
+#: ../applet/pilot.c:1403
+msgid "Cannot find pilot-applet.glade"
+msgstr "པའི་ལོཊི་༔ཨེཔ་ལེཊི་.གེ་ལེཊི་འཚོལ་ཐོབ་མ་ཚུགས།"
+
+#: ../applet/pilot.schemas.in.h:1
+msgid "Command to execute when the applet is clicked"
+msgstr "ཨེཔ་ལེཊི་འདི་ཨེབ་གཏང་འབད་ཡོད་པའི་སྐབས་བརྡ་བཀོད་ལག་ལེན་འཐབ་ནི་ལུ།"
+
+#: ../applet/pilot.schemas.in.h:2
+msgid "Display notices in popup windows"
+msgstr "པོཔ་ཨཔ་ཝིནཌོ་ནང་བརྡ་བསྐུལ་ཚུ་བཀྲམ་སྟོན་འབད།"
+
+#: ../capplet/gnome-pilot-capplet.c:212
+#: ../capplet/gpilotd-capplet.glade.h:88
+msgid "gnome-pilot Settings"
+msgstr "ཇི་ནོམ་-པའི་ལོཊི་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../capplet/gnome-pilot-capplet.c:380
+#: ../capplet/gnome-pilot-capplet.c:460
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../capplet/gnome-pilot-capplet.c:382
+#: ../utils/gpilotd-client.c:44
+msgid "ID"
+msgstr "ཨའི་ཌི།"
+
+#: ../capplet/gnome-pilot-capplet.c:384
+msgid "Owner"
+msgstr "བདག་པོ།"
+
+#: ../capplet/gnome-pilot-capplet.c:462
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../capplet/gnome-pilot-capplet.c:568
+msgid "Conduit"
+msgstr "བརྒྱུད་ལམ།"
+
+#: ../capplet/gnome-pilot-capplet.c:570
+msgid "Sync Action"
+msgstr "མཉམ་འབྱུང་འབད་ནི་བྱ་བ།"
+
+#: ../capplet/gnome-pilot-capplet.c:780
+#, c-format
+msgid "Are you sure you want to delete PDA `%s'?"
+msgstr "ཁྱོད་ཀྱིས་པི་ཌི་ཨེ་བཏོན་གཏང་ནི་ངེས་ཏིག་ཨིན་ན%s'?"
+
+#: ../capplet/gnome-pilot-capplet.c:804
+msgid "_Edit this PDA..."
+msgstr "པི་ཌི་ཨེ་འདི་ཞུན་དག་འབད།(_E)..."
+
+#: ../capplet/gnome-pilot-capplet.c:805
+msgid "Edit the currently selected PDA"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་པི་ཌི་ཨེ་འདི་ཞུན་དག་འབད།"
+
+#: ../capplet/gnome-pilot-capplet.c:807
+msgid "_Delete this PDA"
+msgstr "པི་ཌི་ཨེ་འདི་བཏོན་གཏང་།(_D)"
+
+#: ../capplet/gnome-pilot-capplet.c:808
+msgid "Delete the currently selected PDA"
+msgstr "ད་ལྟོའི་སེལ་འཐུ་འབད་ཡོད་མི་པི་ཌི་ཨེ་འདི་བཏོན་གཏང་།"
+
+#: ../capplet/gnome-pilot-capplet.c:941
+#, c-format
+msgid "Are you sure you want to delete %s device?"
+msgstr "ཁྱོད་ཀྱིས་ %s ཐབས་འཕྲུལ་བཏོན་གཏང་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: ../capplet/gnome-pilot-capplet.c:962
+msgid "_Edit this device..."
+msgstr "ཐབས་འཕྲུལ་འདི་ཞུན་དག་འབད།(_E)..."
+
+#: ../capplet/gnome-pilot-capplet.c:963
+msgid "Edit the currently selected device"
+msgstr "ད་ལྟོའི་སེལ་འཐུ་འབད་ཡོད་མི་ཐབས་འཕྲུལ་འདི་ཞུན་དག་འབད།"
+
+#: ../capplet/gnome-pilot-capplet.c:965
+msgid "_Delete this device"
+msgstr "ཐབས་འཕྲུལ་འདི་བཏོན་གཏང་།(_D)"
+
+#: ../capplet/gnome-pilot-capplet.c:966
+msgid "Delete the currently selected device"
+msgstr "ད་ལྟོའི་སེལ་འཐུ་འབད་ཡོད་མི་ཐབས་འཕྲུལ་འདི་བཏོན་གཏང་།"
+
+#: ../capplet/gnome-pilot-capplet.c:1128
+#, c-format
+msgid "Unable to instantiate %s conduit."
+msgstr "འཕྲལ་མྱུར་ %s བརྒྱུད་ལམ་ལུ་མ་ཚུགསཔ།"
+
+#: ../capplet/gnome-pilot-capplet.c:1168
+msgid "_Enable this conduit"
+msgstr "བརྒྱུད་ལམ་འདི་ལྕོགས་ཅན་བཟོ།(_E)"
+
+#: ../capplet/gnome-pilot-capplet.c:1169
+msgid "Disable the currently selected conduit"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་བརྒྱུད་ལམ་འདི་ལྕོགས་མིན་བཟོ།"
+
+#: ../capplet/gnome-pilot-capplet.c:1171
+msgid "_Disable this conduit"
+msgstr "བརྒྱུད་ལམ་འདི་ལྕོགས་མིན་བཟོ།(_D)"
+
+#: ../capplet/gnome-pilot-capplet.c:1172
+msgid "Enable the currently selected conduit"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་བརྒྱུད་ལམ་འདི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../capplet/gnome-pilot-capplet.c:1177
+#: ../capplet/gpilotd-capplet.glade.h:84
+msgid "_Settings..."
+msgstr "སྒྲིག་སྟངས་ཚུ།(_S)..."
+
+#: ../capplet/gnome-pilot-capplet.c:1178
+msgid "Modify the currently selected conduit's settings"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་བརྒྱུད་ལམ་གྱི་སྒྲིག་སྟངས་ཚུ་ལེགས་བཅོས་འབད།"
+
+#. < 0) {
+#: ../capplet/gnome-pilot-cdialog.c:207
+msgid "Unable to create PDA settings window. Incorrect conduit configuration."
+msgstr "པི་ཌི་ཨེ་སྒྲིག་སྟངས་ཝིནཌོ་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ། བདེན་མེད་བརྒྱུད་ལམ་རིམ་སྒྲིག"
+
+#: ../capplet/gnome-pilot-druid.c:478
+msgid ""
+"Setup did not complete and settings will not\n"
+"be saved. Are you sure you want to quit?"
+msgstr ""
+"གཞི་སྒྲིག་མཇུག་མ་བསྡུཝ་ལས་སྒྲིག་སྟངས་ཚུ་སྲུང་བཞག་མི་འབད།\n"
+"ཁྱོད་ཀྱིས་སྤང་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: ../capplet/gnome-pilot-druid.c:600
+#, c-format
+msgid ""
+"About to send the following data to the PDA.\n"
+"Owner Name: %s\n"
+"PDA ID: %d\n"
+"Please put PDA in %s (%s) and press HotSync button."
+msgstr ""
+"འོག་གི་གནས་སྡུད་འདི་པི་ཌི་ཨེ་འདི་ལུ་གཏང་ནིའབདཝ་ཅིན།\n"
+"བདག་པོའི་མིང་: %s\n"
+"པི་ཌི་ཨེ་ཨའི་ཌི: %d\n"
+"པི་ཌི་ཨེ་ %s (%s) ནང་བཙུགས་ནི་དང་ཧོཊི་མཉམ་འབྱུང་ཨེབ་རྟ་ཨེབ་གནང་།"
+
+#: ../capplet/gnome-pilot-druid.c:624
+#, c-format
+msgid ""
+"About to retrieve Owner Name and ID from the PDA.\n"
+"Please put PDA in %s (%s) and press HotSync button."
+msgstr ""
+"པི་ཌི་ཨེ་འདི་ལས་བདག་པོའི་མིང་དང་ཨའི་ཌི་སླར་འདྲེན་འབད་ནི་འབདཝ་ཅིན།་\n"
+"ནི་ཌི་ཨེ་ %s (%s) ནང་བཙུགས་ནི་དང་ཧོཊི་མཉམ་འབྱུང་ཨེབ་རྟ་ཨེབ་གནང་།"
+
+#: ../capplet/gnome-pilot-druid.c:640
+msgid "Failed sending request to gpilotd"
+msgstr "ཇི་པའི་ལོཊིཌི་ལུ་ཞུ་བ་གཏང་ནི་འཐུས་ཤོར་ཡོདཔ།"
+
+#: ../capplet/gnome-pilot-druid.c:791
+#, c-format
+msgid ""
+"Successfully retrieved Owner Name and ID from PDA.\n"
+"Owner Name: %s\n"
+"PDA ID: %d"
+msgstr ""
+"པི་ཌི་ཨེ་ལས་བདག་པོའི་མིང་དང་ཨའི་ཌི་སླར་འདྲེན་འབད་ཡོད་མི་མཐར་འཁྱོལ་ཡོདཔ།\n"
+"བདག་པོའི་མིང་།: %s\n"
+"པི་ཌི་ཨེ་ཨའི་ཌི།: %d"
+
+#: ../capplet/gnome-pilot-pdialog.c:429
+#, c-format
+msgid "Please put PDA in %s (%s) and press HotSync button or cancel the operation."
+msgstr "པི་ཌི་ཨེ་ %s (%s) ནང་བཙུགས་ནི་དང་ཧོཊི་མཉམ་འབྱུང་ཨེབ་རྟ་ཨེབ་ཡང་ན་བཀོལ་སྤྱོད་འདི་ཆ་མེད་གཏང་གནང་།"
+
+#: ../capplet/gnome-pilot-pdialog.c:464
+msgid "The request to get PDA ID failed"
+msgstr "པི་ཌི་ཨེ་ཨའི་ཌི་ལེན་ནི་ཞུ་བ་འདི་འཐུས་ཤོར་ཡོདཔ།"
+
+#: ../capplet/gnome-pilot-pdialog.c:508
+msgid "The request to set PDA ID failed"
+msgstr "པི་ཌི་ཨེ་ཨའི་ཌི་གཞི་སྒྲིག་འབད་ནི་ཞུ་བ་འདི་འཐུས་ཤོར་ཡོདཔ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:2
+msgid "/dev/pilot"
+msgstr "/ཌེབ/པའི་ལོཊི།"
+
+#: ../capplet/gpilotd-capplet.glade.h:3
+msgid "/dev/ttyS0"
+msgstr "/ཌེབ་/ཊི་ཊི་ཝའི་ཨེསི་ཨོ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:4
+msgid "/dev/ttyS1"
+msgstr "/ཌེབ/ཊི་ཊི་ཝའི་ཨེསི་༡"
+
+#: ../capplet/gpilotd-capplet.glade.h:5
+msgid "/dev/ttyUSB0"
+msgstr "/ཌེབ/ཊི་ཊི་ཝའི་ཡུ་ཨེསི་བི་ཨོ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:6
+msgid "/dev/ttyUSB1"
+msgstr "/ཌེབ་/ཊི་ཊི་ཝའི་ཡུ་ཨེསི་བི་༡"
+
+#: ../capplet/gpilotd-capplet.glade.h:7
+msgid "<b>Conduit Actions</b>"
+msgstr "<b>བརྒྱུད་ལམ་བྱ་བ་ཚུ།</b>"
+
+#: ../capplet/gpilotd-capplet.glade.h:8
+msgid "<b>Conduit Settings</b>"
+msgstr "<b>བརྒྱུད་ལམ་སྒྲིག་སྟངས་ཚུ།</b>"
+
+#: ../capplet/gpilotd-capplet.glade.h:9
+msgid "<b>PDA Attributes</b>"
+msgstr "<b>པི་ཌི་ཨེ་ཁྱད་ཆོས་ཚུ།</b>"
+
+#: ../capplet/gpilotd-capplet.glade.h:10
+msgid "<b>PDA Identification</b>"
+msgstr "<b>པི་ཌི་ཨེ་ངོ་རྟགས།</b>"
+
+#: ../capplet/gpilotd-capplet.glade.h:11
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Which device should be used for this operation?</span>\n"
+"\n"
+"Since you have more than one connection device defined for this computer you need to identify which one is to be used for this operation."
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">བཀོལ་སྤྱོད་འདིའི་དོན་ལུ་ཐབས་འཕྲུལ་ག་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན?</span>\n"
+"\n"
+"གློག་རིག་འདི་གི་དོན་ལུ་ཁྱོད་ལུ་ངེས་འཛིན་འབད་ཡོད་མི་ཐབས་འཕྲུལ་མཐུད་ལམ་གཅིག་ལས་ལྷགཔ་ཡོདཔ་ལས་ཚུར་ཁྱོད་ཀྱིས་བཀོལ་སྤྱོད་འདིའི་དོན་ལུ་ག་དེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་ངོས་འཛིན་འབད་དགོ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:14
+msgid "BIG5"
+msgstr "བི་ཨའི་ཇི་༥"
+
+#: ../capplet/gpilotd-capplet.glade.h:15
+msgid "CP1252"
+msgstr "སི་པི་༡༢༥༢"
+
+#: ../capplet/gpilotd-capplet.glade.h:16
+msgid "C_harset of PDA:"
+msgstr "པི་ཌི་ཨེ་གི་ཡིག་འབྲུ་གཞི་སྒྲིག(_h)"
+
+#: ../capplet/gpilotd-capplet.glade.h:17
+msgid "C_onduits"
+msgstr "བརྒྱུད་ལམ་ཚུ།(_o)"
+
+#: ../capplet/gpilotd-capplet.glade.h:18
+msgid "Choose Device"
+msgstr "ཐབས་འཕྲུལ་གདམ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:19
+msgid "Choose this option if you have used sync software before, even on another computer"
+msgstr "ཁྱོད་ལུ་ཧེ་མ་ལས་མཉམ་འབྱུང་མཉེན་ཆས་་ཡང་ན་གློག་རིག་གཞན་གུ་་ལག་ལེན་འཐབ་ཡོད་པ་ཅིན་གདམ་ཁ་འདི་གདམ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:20
+msgid "Conduit Settings"
+msgstr "བརྒྱུད་ལམ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:21
+msgid ""
+"Congratulations, gnome-pilot is configured!\n"
+"\n"
+"You can change gnome-pilot settings at any time from \n"
+"PilotLink and Conduits tabs in control center.\n"
+"\n"
+"You can monitor syncing of gnome-pilot by adding \n"
+"PilotLink applet to your panel."
+msgstr ""
+"ཇི་ནོམ་པའི་ལོཊི་འདི་རིམ་སྒྲིག་ཡོདཔ་ལས་ལེགས་སོ།!\n"
+"\n"
+"ཁྱོད་རང་ཇི་ནོམ་པའི་ལོཊི་སྒྲིག་སྟངས་ཚུ་་ནམ་རང་འབད་རུང་ \n"
+"ཚད་འཛིན་དབུས་ནང་པའི་ལོཊི་འབྲེལ་ལམ་དང་བརྒྱུད་ལམ་མཆོང་ལྡེ་ཚུ་ལས་བསྒྱུར་བཅོས་འབད་བཏུབ་ཨིན།\n"
+"\n"
+"ཁྱོད་རང་གི་པེ་ནཱལ་ལུ་པའི་ལོཊི་འབྲེལ་ལམ་ཨེཔ་ལེཊི་ཁ་སྐོང་འབད་དེ་གིས་ཇི་ནོམ་པའི་ལོཊི་གི་ \n"
+"མཉམ་འབྱུང་བལྟ་རྟོག་འབད་བཏུབ་ཨིན།"
+
+#: ../capplet/gpilotd-capplet.glade.h:28
+msgid "D_isable"
+msgstr "ལྕོགས་མིན།(_i)"
+
+#: ../capplet/gpilotd-capplet.glade.h:29
+msgid "De_vices"
+msgstr "ཐབས་འཕྲུལ་ཚུ།(_v)"
+
+#: ../capplet/gpilotd-capplet.glade.h:30
+msgid "Description:"
+msgstr "འགྲེལ་བཤད།:"
+
+#: ../capplet/gpilotd-capplet.glade.h:31
+msgid "Device Settings"
+msgstr "ཐབས་འཕྲུལ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:32
+msgid "Device:"
+msgstr "ཐབས་འཕྲུལ།:"
+
+#: ../capplet/gpilotd-capplet.glade.h:33
+#: ../capplet/util.c:74
+#: ../capplet/util.c:434
+msgid "Disabled"
+msgstr "ལྕོགས་མིན་བཟོ་ཡོདཔ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:34
+msgid "Enter Owner Name you want stored on your PDA"
+msgstr "ཁྱོད་རའི་པི་ཌི་ཨེ་གུ་སོར་འཇོག་འབད་ནི་ཨིན་པ་ཅིན་བདག་པོ་མིང་བཙུགས།"
+
+#: ../capplet/gpilotd-capplet.glade.h:35
+msgid "GB18030"
+msgstr "ཇི་བི་༡༨༠༣༠"
+
+#: ../capplet/gpilotd-capplet.glade.h:36
+msgid "GBK"
+msgstr "ཇི་བི་ཀེ"
+
+#: ../capplet/gpilotd-capplet.glade.h:37
+msgid "Get the Owner's name and ID from the PDA"
+msgstr "པི་ཌི་ཨེ་ལས་བདག་པོའི་མིང་དང་ཨའི་ཌི་འདི་ལེན།"
+
+#: ../capplet/gpilotd-capplet.glade.h:38
+msgid "I_rDA"
+msgstr "ཨའི་ཨར་ཌི་ཨེ།(_r)"
+
+#: ../capplet/gpilotd-capplet.glade.h:39
+msgid "Initial Sync"
+msgstr "འགོ་ཐོག་མཉམ་འབྱུང་།"
+
+#: ../capplet/gpilotd-capplet.glade.h:40
+msgid "Net_work"
+msgstr "ཡོངས་འབྲེལ།(_w)"
+
+#: ../capplet/gpilotd-capplet.glade.h:41
+#: ../capplet/util.c:115
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../capplet/gpilotd-capplet.glade.h:42
+msgid "O_wner:"
+msgstr "བདག་པོ།:(_w)"
+
+#: ../capplet/gpilotd-capplet.glade.h:43
+msgid "Owner Name and ID to set on the PDA"
+msgstr "པི་ཌི་ཨེ་འདི་གུ་ཨའི་ཌི་དང་བདག་པོའི་མིང་གཞི་སྒྲིག་འབད་ནི་ལུ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:44
+msgid "Owner:"
+msgstr "བདག་པོ་:"
+
+#: ../capplet/gpilotd-capplet.glade.h:45
+msgid "PDA Attributes"
+msgstr "པི་ཌི་ཨེ་ཁྱད་ཆོས་ཚུ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:46
+msgid "PDA Identification"
+msgstr "པི་ཌི་ཨེ་ངོ་རྟགས།"
+
+#: ../capplet/gpilotd-capplet.glade.h:47
+msgid "PDA Settings"
+msgstr "པི་ཌི་ཨེ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:48
+msgid "P_DA:"
+msgstr "པི་ཌི་ཨེ(_D)"
+
+#: ../capplet/gpilotd-capplet.glade.h:49
+msgid "Port"
+msgstr "འདྲེན་ལམ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:50
+msgid "S_peed:"
+msgstr "མགྱོགས་ཚད།:(_p)"
+
+#: ../capplet/gpilotd-capplet.glade.h:51
+msgid "Send the Owner's name and ID to the PDA, overwriting any existing identity"
+msgstr "པི་ཌི་ཨེ་འདི་ལུ་བདག་པོའི་མིང་དང་ཨའི་ཌི་འདི་ཚབ་སྲུང་འབད་ནི་དང་ངོ་རྟགས་ཡོད་བཞིན་པ་གཏང་།"
+
+#: ../capplet/gpilotd-capplet.glade.h:52
+msgid "Set the character set used on your PDA."
+msgstr "ཁྱོད་རང་གི་པི་ཌི་ཨེ་གུ་ལག་ལེན་འཐབ་ཡོད་མི་ཡིག་འབྲུ་གཞི་སྒྲིག་འདི་གཞི་སྒྲིག་འབད།"
+
+#: ../capplet/gpilotd-capplet.glade.h:53
+msgid "Set the root directory for all PDA files to be stored."
+msgstr "པི་ཌི་ཨེ་ཡིག་སྣོད་ཚུ་ཆ་མཉམ་གསོག་འཇོག་འབད་ནི་དོན་ལུ་རྩ་བའི་སྣོད་ཐོ་འདི་གཞི་སྒྲིག་འབད།"
+
+#: ../capplet/gpilotd-capplet.glade.h:54
+msgid "Success"
+msgstr "མཐར་འཁྱོལ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:55
+msgid "The name for your PDA.  It is only used for identification."
+msgstr "ཁྱོད་ཀྱི་པི་ཌི་ཨེ་དོན་ལུ་མིང་འདི། འདི་ཡང་ངོ་རྟགས་དོན་ལུ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན།"
+
+#: ../capplet/gpilotd-capplet.glade.h:56
+msgid "This integer ID identifies your PDA and must be unique between different PDAs that you use."
+msgstr "ཧྲིལ་ཨང་ཨའི་ཌི་འདི་གིས་ཁྱོད་རའི་པི་ཌི་ཨེ་ངོས་འཛིན་འབདཝ་ཨིནམ་དང་ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་མི་པི་ཌི་ཨེ་ཚུའི་བར་ན་སོ་སོ་མཐུན་མོང་མ་ཡིན་པ་དགོཔ་ཨིན།"
+
+#: ../capplet/gpilotd-capplet.glade.h:57
+msgid "Ti_meout:"
+msgstr "ངལ་མཚམས།:(_m)"
+
+#: ../capplet/gpilotd-capplet.glade.h:58
+msgid "Welcome to gnome-pilot!"
+msgstr "ཇི་ནོམ་-པའི་ལོཊི་ལུ་བྱོན་པ་ལེགས་སོ།!"
+
+#: ../capplet/gpilotd-capplet.glade.h:59
+msgid ""
+"You seem to be running gnome-pilot for the first time.\n"
+"The following steps will setup gnome-pilot for syncing. \n"
+"You can always change any options later from\n"
+"PilotLink panel in Gnome Control Center.\n"
+"\n"
+"Press 'Forward' to continue.\n"
+"Press 'Cancel' to exit."
+msgstr ""
+"ཁྱོད་ཇི་ནོམ་-པའི་ལོཊི་འདི་འགོ་དང་པ་གཡོག་བཀོལ་དོ་བཟུམ་ཅིག་འདུག\n"
+"འོག་གི་གོ་རིམ་ཚུ་གིས་ཇི་ནོམ་-པའི་ལོཊི་མཉམ་འབྱུང་དོན་ལུ་གཞི་སྒྲིག་འབད་འོང་། \n"
+"ཁྱོད་རང་ཤུལ་ལས་ཇི་ནོམ་ཚད་འཛིན་དབུས་ནང་པའི་ལོཊི་པེ་ནཱལ་ལས་\n"
+"གདམ་ཁ་གང་རུང་ཨ་རྟག་རང་བསྒྱུར་བཅོས་འབད་བཏུབ་ཨིན།\n"
+"\n"
+"འཕྲོ་མཐུད་ནི་ལུ་ 'Forward' ཨེབ།\n"
+"ཕྱིར་ཐོན་ནི་ལུ་ 'Cancel' ཨེབ།"
+
+#: ../capplet/gpilotd-capplet.glade.h:66
+msgid "_Action:"
+msgstr "བྱ་བ།:(_A)"
+
+#: ../capplet/gpilotd-capplet.glade.h:67
+msgid "_Add..."
+msgstr "ཁ་སྐོང་རྐྱབས།(_A)..."
+
+#: ../capplet/gpilotd-capplet.glade.h:68
+msgid "_Delete"
+msgstr "བཏོན་གཏང་།(_D)"
+
+#: ../capplet/gpilotd-capplet.glade.h:69
+msgid "_Device:"
+msgstr "ཐབས་འཕྲུལ།:(_D)"
+
+#: ../capplet/gpilotd-capplet.glade.h:70
+msgid "_Edit..."
+msgstr "ཞུན་དག(_E)..."
+
+#: ../capplet/gpilotd-capplet.glade.h:71
+msgid "_Enable"
+msgstr "ལྕོགས་ཅན།(_E)"
+
+#: ../capplet/gpilotd-capplet.glade.h:72
+msgid "_Get from PDA"
+msgstr "པི་ཌི་ཨེ་ལས་ལེན།(_G)"
+
+#: ../capplet/gpilotd-capplet.glade.h:73
+msgid "_IrDA"
+msgstr "ཨའི་ཨར་ཌི་ཨེ།(_I)"
+
+#: ../capplet/gpilotd-capplet.glade.h:74
+msgid "_Local folder:"
+msgstr "ཉེ་གནས་སྣོད་འཛིན།:(_L)"
+
+#: ../capplet/gpilotd-capplet.glade.h:75
+msgid "_Name of PDA:"
+msgstr "པི་ཌི་ཨེ་གི་མིང་།:(_N)"
+
+#: ../capplet/gpilotd-capplet.glade.h:76
+msgid "_Name:"
+msgstr "མིང་།:(_N)"
+
+#: ../capplet/gpilotd-capplet.glade.h:77
+msgid "_No, I've never used sync software with this PDA before."
+msgstr "མེན་ ང་་ཧེ་མ་ནམ་ཡང་པི་ཌི་ཨེ་འདི་དང་གཅིག་ཁར་མཉམ་འབྱུང་མཉེན་ཆས་ལག་ལེན་མ་འཐབ།(_N)"
+
+#: ../capplet/gpilotd-capplet.glade.h:78
+msgid "_One time action:"
+msgstr "བྱ་བ་ཚར་གཅིག:(_O)"
+
+#: ../capplet/gpilotd-capplet.glade.h:79
+msgid "_Owner:"
+msgstr "བདག་པོ:(_O)"
+
+#: ../capplet/gpilotd-capplet.glade.h:80
+msgid "_PDA ID:"
+msgstr "པི་ཌི་ཨེ་ཨའི་ཌི:(_P)"
+
+#: ../capplet/gpilotd-capplet.glade.h:81
+msgid "_PDAs"
+msgstr "པི་ཌི་ཨེ་ཨེ་ཨེསི།(_P)"
+
+#: ../capplet/gpilotd-capplet.glade.h:82
+msgid "_Send to PDA"
+msgstr "པི་ཌི་ཨེ་ལུ་གཏང་།(_S)"
+
+#: ../capplet/gpilotd-capplet.glade.h:83
+msgid "_Serial"
+msgstr "ཨང་རིམ།(_S)"
+
+#: ../capplet/gpilotd-capplet.glade.h:85
+msgid "_Type:"
+msgstr "དབྱེ་བ:(_T)"
+
+#: ../capplet/gpilotd-capplet.glade.h:86
+msgid "_USB"
+msgstr "ཡུ་ཨེསི་བི།(_U)"
+
+#: ../capplet/gpilotd-capplet.glade.h:87
+msgid "_Yes, I've used sync software with this PDA before."
+msgstr "ཨིན་ ག་ཧེ་མ་པི་ཌི་ཨེ་འདི་དང་གཅིག་ཁར་མཉམ་འབྱུང་མཉེན་ཆས་ལག་ལེན་འཐབ་ཅི།(_Y)"
+
+#: ../capplet/gpilotd-control-applet.c:81
+msgid "Start druid only"
+msgstr "ཌའུཌི་རྐྱངམ་ཅིག་འགོ་བཙུགས།"
+
+#: ../capplet/gpilotd-control-applet.c:103
+msgid "Error initializing gpilotd capplet"
+msgstr "ཇི་པའི་ལོཊིཌི་ཀེཔ་ལེཊི་འགོ་འབྱེད་འབད་ནི་འཛོལ་བ།"
+
+#: ../capplet/gpilotd-control-applet.c:114
+#: ../capplet/gpilotd-control-applet.c:115
+msgid "Error loading PDA state, aborting"
+msgstr "པི་ཌི་ཨེ་གནས་ལུགས་བར་བཤོལ་མངོན་གསལ་འབད་ནི་འཛོལ་བ།"
+
+#: ../capplet/gpilotd-control-applet.c:122
+#: ../capplet/gpilotd-control-applet.c:123
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "ཇི་ནོམ་པའི་ལོཊི་ཌེ་ནཱོམམ་འདི་ལུ་མཐུད་མ་ཚུགསཔ།"
+
+#: ../capplet/gpilotd-control-applet.c:132
+msgid "Cannot run druid if PDAs or devices already configured"
+msgstr "པི་ཌི་ཨེ་ཚུ་ཡང་ན་ཐབས་འཕྲུལ་ཚུ་ཧེ་མ་ལས་རིམ་སྒྲིག་ཡོད་པ་ཅིན་ཌུའཌི་གཡོག་བཀོལ་མི་ཚུགས།"
+
+#: ../capplet/gpilotd-control-applet.desktop.in.in.h:1
+msgid "Configure PalmOS devices"
+msgstr "པམ་ཨོ་ཨེསི་ཐབས་འཕྲུལ་ཚུ་རིམ་སྒྲིག"
+
+#: ../capplet/gpilotd-control-applet.desktop.in.in.h:2
+msgid "PalmOS Devices"
+msgstr "པམ་ཨོ་ཨེསི་ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../capplet/util.c:81
+#: ../capplet/util.c:436
+msgid "Enabled"
+msgstr "ལྕོགས་ཅན་བཟོ་ཡོདཔ།"
+
+#: ../capplet/util.c:235
+msgid "You must have at least one device setup"
+msgstr "ཁྱོད་ལུ་ཉུང་མཐའ་ཐབས་འཕྲུལ་གཅིག་གཞི་སྒྲིག་འབད་དགོ།"
+
+#: ../capplet/util.c:408
+msgid "Synchronize"
+msgstr "མཉམ་འབྱུང་འབད་ནི།"
+
+#: ../capplet/util.c:409
+msgid "Copy from PDA"
+msgstr "པི་ཌི་ཨེ་ལས་འདྲ་བཤུས་འབད།"
+
+#: ../capplet/util.c:410
+msgid "Copy to PDA"
+msgstr "པི་ཌི་ཨེ་ལུ་འདྲ་བཤུས་འབད།"
+
+#: ../capplet/util.c:411
+msgid "Merge from PDA"
+msgstr "པི་ཌི་ཨེ་ལས་མཉམ་བསྡོམས་འབད་ནི།"
+
+#: ../capplet/util.c:412
+msgid "Merge to PDA"
+msgstr "པི་ཌི་ཨེ་ལུ་མཉམ་བསྡོམས་འབད་ནི།"
+
+#: ../capplet/util.c:415
+msgid "Use conduit settings"
+msgstr "བརྒྱུད་ལམ་སྒྲིག་སྟངས་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../capplet/util.c:423
+msgid "USB"
+msgstr "ཡུ་ཨེསི་བི།"
+
+#: ../capplet/util.c:424
+msgid "IrDA"
+msgstr "ཨའི་ཨར་ཌི་ཨེ།"
+
+#: ../capplet/util.c:425
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ།"
+
+#: ../capplet/util.c:426
+msgid "Serial"
+msgstr "ཨང་རིམ།"
+
+#: ../capplet/util.c:474
+msgid ""
+"The specified base directory exists but has the wrong permissions.\n"
+"Please fix or choose another directory"
+msgstr ""
+"གསལ་བཀོད་འབད་ཡོད་མི་གཞི་རྟེན་སྣོད་ཐོ་ཡོདཔ་ཨིན་རུང་གནང་བ་ཕྱི་འགྱུར་་འདི་འདུག\n"
+"གཞན་སྣོད་ཐོ་གདམ་ཡང་ན་དཀའ་ངལ་སེལ་གནང་།"
+
+#: ../capplet/util.c:479
+msgid ""
+"The specified base directory exists but is not a directory.\n"
+"Please make it a directory or choose another directory"
+msgstr ""
+"གསལ་བཀོད་འབད་ཡོད་མི་གཞི་རྟེན་སྣོད་ཐོ་འདི་ཡོདཔ་ཨིན་རུང་སྣོད་མེན།\n"
+"སྣོད་ཐོ་ཅིག་བཟོ་ཡང་ན་གཞན་སྣོད་ཐོ་གདམ་གནང་།"
+
+#: ../capplet/util.c:486
+msgid ""
+"It wasn't possible to create the specified base directory.\n"
+"Please verify the permitions on the specified path or choose another directory"
+msgstr ""
+"གསལ་བཀོད་འབད་ཡོད་མི་གཞི་རྟེན་སྣོད་ཐོ་འདི་གསར་བསྐྲུན་འབད་ནི་ལུ་མི་ཚུགས་པས།\n"
+"གསལ་བཀོད་འབད་ཡོད་མི་འགྲུལ་ལམ་འདི་གུ་གནང་བྱིན་ནི་ཚུ་བདེན་སྦྱོར་འབད་ཡང་ན་གཞན་སྣོད་ཐོ་གདམ་གནང་།"
+
+#: ../capplet/util.c:491
+msgid ""
+"The path specified for the base directory is invalid.\n"
+"Please choose another directory"
+msgstr ""
+"གཞི་རྟེན་སྣོད་འདི་གི་དོན་ལུ་གསལ་བཀོད་འབད་ཡོད་མི་འགྲུལ་ལམ་འདི་ནུས་མེད་ཨིན། \n"
+"སྣོད་ཐོ་གཞན་གདམ་གནང་།"
+
+#: ../capplet/util.c:519
+#, c-format
+msgid "`%s' is not a valid character set identifier.  Please enter a valid identifier or select from the available options."
+msgstr "`%s' འདི་ནུས་ཅན་ཡིག་འབྲུ་གཞི་སྒྲིག་ངོས་འཛིན་པ་ཅིག་མེན། ནུས་ཅན་ངོས་འཛིན་པ་ཅིག་ཡང་ན་ཐོབ་ཚུགས་པའི་གདམ་ཁ་ཚུ་ལས་སེལ་འཐུ་བཙུགས་གནང་།"
+
+#: ../capplet/util.c:638
+msgid "Device 'usb:' is only valid for devices of type USB"
+msgstr "ཐབས་འཕྲུལ 'usb:' འདི་ཡུ་ཨེསི་བི་དབྱེ་བ་གི་ཐབས་འཕྲུལ་ཚུའི་དོན་ལུ་རྐྱངམ་ཅིག་ནུས་ཅན་ཨིན།"
+
+#: ../capplet/util.c:649
+msgid "Read/Write permissions failed on"
+msgstr "ལྷག་ནི/འབྲི་ནི་གནང་བ་ཚུ་འཐུས་ཤོར་ཡོད་མི་གུ།"
+
+#: ../capplet/util.c:651
+msgid "Check the permissions on the device and retry"
+msgstr "ཐབས་འཕྲུལ་འདི་གུ་གནང་བ་ཚུ་ཞིབ་དཔྱད་འབད་དེ་ལས་སླར་རྩོལ་འབད།"
+
+#: ../capplet/util.c:666
+#: ../gpilotd/gpilotd.c:1323
+#, c-format
+msgid "Failed to find directory %s or read file %s.  Check that usbfs or sysfs is mounted."
+msgstr "སྣོད་ཐོ་འཚོལ་ནི་ %s ཡང་ན་ཡིག་སྣོད་ལྷག་ནི་འཐུས་ཤོར་ %sཡོདཔ།   ཡུ་ཨེསི་བི་ཨེཕ་ཨེསི་ཡང་ན་ཨེསི་ཝའི་ཨེསི་ཨེཕ་ཨེསི་འདི་བརྩེགས་ཅན་ཨིན་ན་ཞིབ་དཔྱད་འབད།"
+
+#: ../conduits/backup/backup_conduit.c:243
+msgid "Checking for removed databases"
+msgstr "རྩ་བསྐྲད་གཏང་ཡོད་མི་གནས་སྡུད་ཚུ་གི་དོན་ལུ་ཞིབ་དཔྱད་འབད་དོ།"
+
+#. I18N note: this is printed when renaming a file %s
+#: ../conduits/backup/backup_conduit.c:250
+#, c-format
+msgid "Renaming %s"
+msgstr "བསྐྱར་མིང་བཏགས་དོ། %s"
+
+#. I18N note: this message follow a "Renaming %s". The
+#. %s is a file name
+#: ../conduits/backup/backup_conduit.c:257
+#, c-format
+msgid "to %s"
+msgstr "ལུ། %s"
+
+#: ../conduits/backup/backup_conduit.c:435
+#: ../conduits/backup/backup_conduit.c:439
+#, c-format
+msgid "%s not modified since last sync"
+msgstr "%s མཇུག་གི་མཉམ་འབྱུང་ལས་ཚུར་ལེགས་བཅོས་མ་འབད་བར་ཡོདཔ།"
+
+#: ../conduits/backup/backup_conduit.c:451
+#: ../conduits/backup/backup_conduit.c:453
+#, c-format
+msgid "Making backup of %s"
+msgstr "གི་རྒྱབ་ཐག་བཟོ་དོ། %s"
+
+#: ../conduits/backup/backup_conduit.c:460
+#: ../conduits/backup/backup_conduit.c:462
+#, c-format
+msgid "Could not create backup file %s"
+msgstr "རྒྱབ་ཐག་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་མ་ཚུགས། %s"
+
+#: ../conduits/backup/backup_conduit.c:733
+msgid "Collecting restore information..."
+msgstr "སོར་ཆུད་བརྡ་དོན་བསྡུ་ལེན་འབད་དོ།..."
+
+#: ../conduits/backup/backup_conduit.c:857
+msgid "_Backup directory:"
+msgstr "རྒྱབ་ཐག་སྣོད་ཐོ།(_B)"
+
+#: ../conduits/backup/backup_conduit.c:870
+msgid "Backup directory"
+msgstr "རྒྱབ་ཐག་སྣོད་ཐོ།"
+
+#: ../conduits/backup/backup_conduit.c:872
+msgid "O_nly backup changed bases"
+msgstr "རྒྱབ་ཐག་བསྒྱུར་བཅོས་འབད་ཡོད་མི་གཞི་རྟེན་ཚུ་རྐྱངམ་ཅིག(_n)"
+
+#: ../conduits/backup/backup_conduit.c:882
+msgid "Only backup changed bases"
+msgstr "རྒྱབ་ཐག་བསྒྱུར་བཅོས་འབད་ཡོད་མི་གཞི་རྟེན་ཚུ་རྐྱངམ་ཅིག"
+
+#: ../conduits/backup/backup_conduit.c:884
+msgid "_Remove local base if deleted on pilot"
+msgstr "པིའི་ལོཊི་་གུ་བཏོན་གཏང་ཡོད་པ་ཅིན་ཉེ་གནས་གཞི་རྟེན་རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: ../conduits/backup/backup_conduit.c:894
+msgid "Remove local base if deleted on pilot"
+msgstr "པིའི་ལོཊི་་ཨེ་གུ་བཏོན་གཏང་ཡོད་པ་ཅིན་ཉེ་གནས་གཞི་རྟེན་རྩ་བསྐྲད་གཏང་།"
+
+#: ../conduits/backup/backup_conduit.c:896
+msgid "# of old backups to _keep"
+msgstr "# གི་རྒྱབ་ཐག་རྙིངམ་ཚུ་བཞག་ནི་ལུ།(_k)"
+
+#: ../conduits/backup/backup_conduit.c:907
+msgid "# of old backups to keep"
+msgstr "# གི་རྒྱབ་ཐག་རྙིངམ་ཚུ་བཞག་ནི་ལུ།"
+
+#: ../conduits/backup/backup_conduit.c:945
+msgid ""
+"The specified backup directory exists but has the wrong permissions.\n"
+"Please fix or choose another directory"
+msgstr ""
+"གསལ་བཀོད་འབད་ཡོད་མི་རྒྱབ་ཐག་་སྣོད་ཐོ་འག་ཡོདཔ་ཨིན་རུང་གནང་བ་ཕྱི་འགྱུར་་འདུག\n"
+"དཀའ་ངལ་སེལ་ནི་ཡང་ན་གཞན་སྣོད་ཐོ་གདམ་གནང་།"
+
+#: ../conduits/backup/backup_conduit.c:950
+msgid ""
+"The specified backup directory exists but is not a directory.\n"
+"Please make it a directory or choose another directory"
+msgstr ""
+"གསལ་བཀོད་འབད་ཡོད་མི་རྒྱབ་ཐག་སྣོད་ཐོ་འདི་ཡོདཔ་ཨིན་རུང་སྣོད་ཐོ་མེན།\n"
+"སྣོད་ཐོ་ཅིག་བཟོ་ཡང་ན་གཞན་སྣོད་ཐོ་གདམ་གནང་།"
+
+#: ../conduits/backup/backup_conduit.c:957
+msgid ""
+"It wasn't possible to create the specified backup directory.\n"
+"Please verify the permissions on the specified path or choose another directory"
+msgstr ""
+"གསལ་བཀོད་འབད་ཡོད་མི་རྒྱབ་ཐག་སྣོད་ཐོ་འདི་གསར་བསྐྲུན་འབད་ནི་ལུ་མི་ཚུགས།\n"
+"གསལ་བཀོད་འབད་ཡོད་མི་འགྲུལ་ལམ་འདི་གུ་གནང་བ་ཚུ་བདེན་སྦྱོར་འབད་ཡང་ན་གཞན་སྣོད་ཐོ་གདམ་གནང་།"
+
+#: ../conduits/backup/backup_conduit.c:962
+msgid ""
+"The path specified for the backup directory is invalid.\n"
+"Please choose another directory"
+msgstr ""
+"རྒྱབ་ཐག་སྣོད་ཐོ་དོན་ལུ་གསལ་བཀོད་འབད་ཡོད་མི་འགྲུལ་ལམ་འདི་ནུས་མེད་ཨིན།\n"
+"གཞན་སྣོད་ཐོ་གདམ་གནང་།"
+
+#: ../conduits/file/file_conduit.c:243
+#: ../conduits/file/file_conduit.c:253
+#, c-format
+msgid "Install of %s failed"
+msgstr "གི་ %s གཞི་བཙུགས་འཐུས་ཤོར་ཡོདཔ།"
+
+#: ../conduits/file/file_conduit.c:290
+#, c-format
+msgid "Installing %s from %s..."
+msgstr "ལས་ %s གཞི་བཙུགས་དོ %s..."
+
+#: ../conduits/file/file_conduit.c:292
+#, c-format
+msgid "Installing %s..."
+msgstr "གཞི་བཙུགས་དོ། %s..."
+
+#: ../conduits/file/gpilot_install_file.c:44
+msgid "Install immediately"
+msgstr "དེ་འཕྲལ་ལས་གཞི་བཙུགས་འབད།"
+
+#: ../conduits/file/gpilot_install_file.c:45
+msgid "Install delayed"
+msgstr "གཞི་བཙུགས་ཕྱིར་འགྱངས་ཡོདཔ།"
+
+#: ../conduits/file/gpilot_install_file.c:46
+msgid "PDA to install to"
+msgstr "ལུ་གཞི་བཙུགས་ལུ་པི་ཌི་ཨེ།"
+
+#: ../conduits/file/gpilot_install_file.c:46
+msgid "PDA"
+msgstr "པི་ཌི་ཨེ།"
+
+#: ../conduits/file/gpilot_install_file.c:118
+#: ../conduits/file/gpilot_install_file.c:119
+msgid "Unable to get PDA names"
+msgstr "པི་ཌི་ཨེ་མིང་ཚུ་ལེན་ནི་མ་ཚུགསཔ།"
+
+#: ../conduits/file/gpilot_install_file.c:158
+msgid "Following files failed :\n"
+msgstr "འོག་གི་ཡིག་སྣོད་ཚུ་འཐུས་ཤོར་ཡོདཔ། :\n"
+
+#: ../conduits/file/gpilot_install_file.c:170
+#, c-format
+msgid "Installing to %s:\n"
+msgstr "ལུ་གཞི་བཙུགས་འབད་དོ། %s:\n"
+
+#: ../conduits/file/gpilot_install_file.c:191
+msgid "No files to install"
+msgstr "གཞི་བཙུགས་འབད་ནི་ཡིག་སྣོད་ཚུ་མེད།"
+
+#: ../conduits/file/gpilot_install_file.c:194
+msgid ""
+"Press synchronize on the cradle to install\n"
+" or cancel the operation."
+msgstr ""
+"གཞི་བཙུགས་འབད་ནི་ལུ་འཕྲིན་སྟེགས་འདི་གུ་མཉམ་འབྱུང་འབད་ནི་ཨེབ་\n"
+" ཡང་ན་བཀོལ་སྤྱོད་འདི་ཆ་མེད་གཏང་།"
+
+#: ../gpilotd/GNOME_Pilot_Daemon.server.in.in.h:1
+msgid "Gnome-Pilot daemon"
+msgstr "ཇི་ནོམ་པའི་ལོཊི་ཌེ་ནཱོམ།"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:136
+msgid "deleted PDA record modified locally, not deleting\n"
+msgstr "པི་ཌི་ཨེ་དྲན་ཐོ་ལེགས་བཅོས་འབད་ཡོད་མི་ཉེ་གནས་ལུ་བཏོན་གཏང་ཡོདཔ་ བཏོན་མི་གཏང་།\n"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:137
+msgid "deleted local record modified on PDA, not deleting\n"
+msgstr "པི་ཌི་ཨེ་གུ་ལེགས་བཅོས་འབད་ཡོད་མི་དྲན་ཐོ་ཉེ་གནས་བཏོན་གཏང་ཡོདཔ་ བཏོན་མི་གཏང་།\n"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:138
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:142
+msgid "merge conflict, PDA and local record swapped\n"
+msgstr "མཉམ་བསྡོམས་མི་མཐུན་པ་ པི་ཌི་ཨེ་དང་ཉེ་གནས་དྲན་ཐོ་བརྗེས་སོར་འབད་ཡོདཔ།\n"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:139
+msgid "archive and change conflict, PDA and local record swapped\n"
+msgstr "ཡིག་མཛོད་དང་མི་མཐུན་པ་བསྒྱུར་བཅོས་འབད་ པི་ཌི་ཨེ་དང་ཉེ་གནས་དྲན་ཐོ་བརྗེ་སོར་འབད་ཡོདཔ།\n"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:140
+msgid "archive and change conflict, local record sent to PDA\n"
+msgstr "ཡིག་མཛོད་དང་མི་མཐུན་པ་བསྒྱུར་བཅོས་འབད་ ཉེ་གནས་དྲན་ཐོ་པི་ཌི་ཨེ་ལུ་བཏང་མི།\n"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:141
+msgid "archive and change conflict, PDA record saved locally\n"
+msgstr "ཡིག་མཛོད་དང་མི་མཐུན་པ་བསྒྱུར་བཅོས་འབད་ པི་ཌི་ཨེ་དྲན་ཐོ་ཉེ་གནས་ལུ་སྲུང་བཞག་ཡོདཔ་ཨིན།\n"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:423
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:498
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:563
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:592
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:621
+msgid "Conduits initialization failed, aborting operation"
+msgstr "བརྒྱུད་ལམ་ཚུ་འགོ་འབྱེད་འབད་ནི་འཐུས་ཤོར་ཡོདཔ་བཀོལ་སྤྱོད་བར་བཤོལ་གཏང་དོ།"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:436
+msgid "Unable to delete all records in PDA database, aborting operation."
+msgstr "པི་ཌི་ཨེ་གནས་སྡུད་གཞི་རྟེན་ནང་དྲན་ཐོ་ཚུ་ཆ་མཉམ་བཏོན་གཏང་མི་ཚུགསཔ་ བཀོལ་སྤྱོད་བར་བཤོལ་གཏང་དོ།"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:447
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:1025
+msgid "Conduit did not return a record"
+msgstr "བརྒྱུད་ལམ་དྲན་ཐོ་ལུ་མ་ལོག"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:504
+msgid "Unable to delete all records in local database, aborting operation."
+msgstr "ཉེ་གནས་གནས་སྡུད་གཞི་རྟེན་ནང་དྲན་ཐོ་ཚུ་ཆ་མཉམ་བཏོན་གཏང་ནི་ལུ་མི་ཚུགསཔ་བཀོལ་སྤྱོད་བར་བཤོལ་གཏང་དོ།"
+
+#: ../gpilotd/gnome-pilot-conduit-standard-abs.c:1430
+msgid "Error in conduit, newly added record could not be found"
+msgstr "བརྒྱུད་ལམ་ནང་འཛོལ་བ་ དྲན་ཐོ་གསརཔ་སྦེ་ཁ་སྐོང་འབད་ཡོད་མི་འཚོལ་མ་ཐོབ།"
+
+#: ../gpilotd/gnome-pilot-conduit-sync-abs.c:487
+msgid "Copy to PDA failed!"
+msgstr "པི་ཌི་ཨེ་འཐུས་ཤོར་ཡོད་མི་ལུ་འདྲ་ཕཤུས་འབད།!"
+
+#: ../gpilotd/gnome-pilot-conduit-sync-abs.c:511
+msgid "Copy from PDA failed!"
+msgstr "པི་ཌི་ཨེ་འཐུས་ཤོར་ཡོད་མི་ལས་འདྲ་བཤུས་འབད།!"
+
+#: ../gpilotd/gnome-pilot-conduit-sync-abs.c:535
+msgid "Merge to PDA failed!"
+msgstr "པི་ཌི་ཨེ་འཐུས་ཤོར་ཡོད་མི་ལུ་མཉམ་བསྡོམས་འབད་ནི།!"
+
+#: ../gpilotd/gnome-pilot-conduit-sync-abs.c:559
+msgid "Merge from PDA failed!"
+msgstr "པི་ཌི་ཨེ་འཐུས་ཤོར་ཡོད་མི་ལས་མཉམ་བསྡོམས་འབད་ནི།!"
+
+#: ../gpilotd/gnome-pilot-conduit-sync-abs.c:614
+msgid "Synchronization failed!"
+msgstr "མཉམ་འབྱུང་འབད་ནི་འཐུས་ཤོར་ཡོདཔ།!"
+
+#: ../gpilotd/gnome-pilot-structures.c:286
+#, c-format
+msgid "Could not open device %s (%s): reason: \"%s\"."
+msgstr "ཐབས་འཕྲུལ་ཁ་ཕྱེ་མ་ཚུགས། %s (%s): རྒྱུ་མཚན།: \"%s\"."
+
+#: ../gpilotd/gnome-pilot-structures.c:290
+#, c-format
+msgid ""
+"GnomePilot could not open device %s (%s).\n"
+"Reason: \"%s\"."
+msgstr ""
+"ཇི་ནོམ་པའི་ལོཊི་གིས་ཐབས་འཕྲུལ་ཁ་ཕྱེ་མ་ཚུགསཔ། %s (%s).\n"
+"རྒྱུ་མཚན།: \"%s\"."
+
+#: ../gpilotd/gnome-pilot-structures.c:517
+#: ../gpilotd/gnome-pilot-structures.c:566
+#: ../gpilotd/gnome-pilot-structures.c:594
+#: ../gpilotd/gnome-pilot-structures.c:620
+msgid "Unknown device type"
+msgstr "མ་ཤེས་པའི་ཐབས་འཕྲུལ་དབྱེ་བ།"
+
+#: ../gpilotd/gnome-pilot-structures.c:635
+msgid "Number of devices is configured to 0"
+msgstr "ཐབས་འཕྲུལ་ཚུ་གི་ཨང་གྲངས་དག་པ་ཅིག་ ༠་ལུ་རིམ་སྒྲིག་འབད་ཡོདཔ།"
+
+#: ../gpilotd/gnome-pilot-structures.c:637
+msgid ""
+"No devices configured.\n"
+"Please run gpilotd-control-applet (use gnomecc)\n"
+"to configure gnome-pilot."
+msgstr ""
+"ཐབས་འཕྲུལ་ཚུ་རིམ་སྒྲིག་མེདཔ།\n"
+"ཇི་པའི་ལོཊིཌི་-ཚད་འཛིན་-ཨེཔ་ལེཊི (ཇི་ནོམ་སིསི)\n"
+"ཇི་ནོམ་-པའི་ལོཊི་རིམ་སྒྲིག་ནི་ལུ་གཡོག་བཀོལ་གནང་།"
+
+#: ../gpilotd/gnome-pilot-structures.c:658
+msgid "No accessible devices available"
+msgstr "འཛུལ་སྤྱོད་འབད་ཚུགས་པའི་ཐབས་འཕྲུལ་ཚུ་ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../gpilotd/gnome-pilot-structures.c:673
+msgid "Number of PDAs is configured to 0"
+msgstr "པི་ཌི་ཨེ་ཚུ་གི་ཨང་གྲངས་འདི་་ ༠་ལུ་རིམ་སྒྲིག་ཡོདཔ།"
+
+#: ../gpilotd/gnome-pilot-structures.c:675
+msgid ""
+"No PDAs configured.\n"
+"Please run gpilotd-control-applet (use gnomecc)\n"
+"to configure gnome-pilot."
+msgstr ""
+"པི་ཌི་ཨེ་ཨེསི་རིམ་སྒྲིག་མེདཔ།\n"
+"ཇི་པའི་ལོཊིཌི-ཚད་འཛིན-ཨེཔ་ལོཊི་ (ཇི་ནོམ་སིསི་ལག་ལེན་འཐབ)\n"
+"ཇི་ནོམ་-པའི་ལོཊི་རིམ་སྒྲིག་ནི་ལུ་གཡོག་བཀོལ་གནང་།"
+
+#: ../gpilotd/gnome-pilot-structures.c:738
+#: ../gpilotd/gpilotd.c:680
+#, c-format
+msgid "No pilot_charset specified.  Using `%s'."
+msgstr " `%s'་ལག་ལེན་འཐབ་དེ་ པའི་ལོཊི་ཡིག་འབྲུ་གཞི་སྒྲིག་གསལ་བཀོད་འབད་མེདཔ།"
+
+#: ../gpilotd/gpilotd.c:233
+msgid "Unable to bind to PDA"
+msgstr "པི་ཌི་ཨེ་ལུ་བསྡམས་ནི་ལུ་མ་ཚུགསཔ།"
+
+#: ../gpilotd/gpilotd.c:369
+#, c-format
+msgid "Failed to connect using device `%s', on port `%s'.  Check your configuration, as you requested new-style libusb `usb:' syncing, but have the old-style `visor' kernel module loaded.  You may need to select a `ttyUSB...' device."
+msgstr "འདྲེན་ལམ་གུ་ཐབས་འཕྲུལ་ལག་ལེན་འཐབ་ནི་ལུ་ `%s', འཐུས་ཤོར་ཡོདཔ `%s' །  ཁྱོད་ཀྱིས་ལི་བིསིབ་བཟོ་རྣམ་གསརཔ་ཞུ་བ་འབད་ཡོདཔ་ལས་ཁྱོད་རའི་རིམ་སྒྲིག་ `usb:' མཉམ་འབྱུང་འབད་ནི་ཞིབ་དཔྱད་འབད་ནི་ཨིན་རུང་བཟོ་རྣམ་རྙིངམ་ `visor' ཀར་ནལ་ཚད་གཞི་མངོན་གསལ་འབད་ཡོདཔ་ལས་ཞིབ་དཔྱད་འབད།  ཁྱོད་ཀྱིས་ `ttyUSB...' ཐབས་འཕྲུལ་ཅིག་སེལ་འཐུ་འབད་དགོཔ་ཨིན།"
+
+#: ../gpilotd/gpilotd.c:384
+#, c-format
+msgid "Failed to connect using device `%s', on port `%s'.  Check your configuration, as you requested old-style usbserial `ttyUSB' syncing, but do not have the usbserial `visor' kernel module loaded.  You may need to select a `usb:' device."
+msgstr "འདྲེན་ལམ་གུ་ཐབས་འཕྲུལ་ལག་ལེན་འཐབ་ནི་ `%s', མཐུད་ལམ་ལུ་འཐུས་ཤོར་ཡོདཔ `%s'།  ཁྱོད་ཀྱིས་ཡུ་ཨེསི་བི་ཨང་རིམ་བཟོ་རྣམ་རྙིངམ་ཞུ་བ་འབད་ཡོདཔ་ལས་ཁྱོད་རང་གི་རིམ་སྒྲིག `ttyUSB' མཉམ་འབྱུང་འབད་ནི་ཞིབ་དཔྱད་འབད་ཨིན་རུང་ཡུ་ཨེསི་བི་ཨང་རིམ་ `visor' ཀར་ནལ་ཚད་གཞི་མངོན་གསལ་འབད་ཡོདཔ་ཨིན།   ཁྱོད་ཀྱིས་  ཐབས་འཕྲུལ་སེལ་འཐུ་འབད་ནི་ལུ་`usb:' ཅིག་སེལ་འཐུ་འབད་དགོཔ་ཨིན།"
+
+#: ../gpilotd/gpilotd.c:475
+#, c-format
+msgid "Unknown PDA, no userID/username match %ld"
+msgstr "པི་ཌི་ཨེ་མ་ཤེསཔ་ ལག་ལེན་པའི་ཨའི་ཌི/ལག་ལེན་པའི་མིང་མཐུན་སྒྲིག་མེདཔ།%ld"
+
+#: ../gpilotd/gpilotd.c:482
+msgid "Use gnomecc to configure PDA"
+msgstr "པི་ཌི་ཨེ་རིམ་སྒྲིག་ལུ་ཇི་ནོ་མིསིསི་ལག་ལེན་འཐབ།"
+
+#. FIXME: here we should offer to create a profile for the pilot,
+#. bug # 8218
+#: ../gpilotd/gpilotd.c:487
+#, c-format
+msgid ""
+"Unknown PDA - no PDA matches ID %ld\n"
+"Use gnomecc to configure gnome-pilot"
+msgstr ""
+"པི་ཌི་ཨེ་མ་ཤེསཔ་ པི་ཌི་ཨེ་ཨའི་ཌི་མཐུན་སྒྲིག་འབད་མི་མེདཔ། %ld\n"
+"ཇི་ནོམ་-པའི་ལོཊ༚་རིམ་སྒྲིག་ལུ་ཇི་ནོམ་སིསི་ལག་ལེན་འཐབ།"
+
+#: ../gpilotd/gpilotd.c:511
+#, c-format
+msgid "Device %s has %d events"
+msgstr "ཐབས་འཕྲུལ་ %s དེ་ལུ་ %d འབྱུང་ལས་ཚུ།"
+
+#: ../gpilotd/gpilotd.c:524
+msgid "Setting userinfo..."
+msgstr "ལག་ལེན་པའི་བརྡ་དོན་སྒྲིག་སྟངས།..."
+
+#: ../gpilotd/gpilotd.c:529
+msgid "Sync continues"
+msgstr "མཉམ་འབྱུང་འཕྲོ་མཐུདཔ།"
+
+#: ../gpilotd/gpilotd.c:548
+msgid "Getting userinfo..."
+msgstr "ལག་ལེན་པའི་བརྡ་དོན་ལེན་དོ།..."
+
+#: ../gpilotd/gpilotd.c:610
+msgid "NetSync request detected, synchronizing PDA"
+msgstr "ནེཊི་མཉམ་འབྱུང་ཞུ་བ་བཏོན་གཏང་ཡོདཔ་་པི་ཌི་ཨེ་མཉམ་འབྱུང་འབད་དོ།"
+
+#: ../gpilotd/gpilotd.c:612
+msgid "HotSync button pressed, synchronizing PDA"
+msgstr "ཨོཌི་མཉམ་འབྱུང་ཨེབ་རྟ་ཨེབ་ཡོདཔ་ པི་ཌི་ཨེ་མཉམ་འབྱུང་འབད་དོ།"
+
+#: ../gpilotd/gpilotd.c:614
+#, c-format
+msgid "PDA ID is %ld, name is %s, owner is %s"
+msgstr "པི་ཌི་ཨེ་ཨའི་ཌི་འདི་ %ld, མིང་འདི་ %s, བདག་པོ་འདི། %s"
+
+#: ../gpilotd/gpilotd.c:624
+#, c-format
+msgid "On host %s\n"
+msgstr "ཧོསིཊི་གུ།%s\n"
+
+#: ../gpilotd/gpilotd.c:626
+#, c-format
+msgid "On host %d\n"
+msgstr "ཧོསིཊི་གུ། %d\n"
+
+#: ../gpilotd/gpilotd.c:645
+msgid "Synchronization ended"
+msgstr "མཉམ་འབྱུང་འབད་ནི་མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../gpilotd/gpilotd.c:648
+msgid "Synchronization ended early"
+msgstr "སྔ་ཆའི་མཇུག་བསྡུ་ཡོད་མི་མཉམ་འབྱུང་འབད་ནི།"
+
+#: ../gpilotd/gpilotd.c:694
+#, c-format
+msgid "`%s' is not a recognised iconv charset, using `%s' instead."
+msgstr "`%s' ཚབ་མ་ལག་ལེན་འཐབ་དེ་ `%s' འདི་ངོས་འཛིན་འབད་ཡོད་པའི་ངོས་དཔར་ཝི་ཡིག་འབྲུ་གཞི་སྒྲིག་ཅིག་མེན།"
+
+#: ../gpilotd/gpilotd.c:717
+#, c-format
+msgid ""
+"The base directory %s is invalid.\n"
+"Please fix it or use gnomecc to choose another directory."
+msgstr ""
+"གཞི་རྟེན་སྣོད་ཐོ་འདི་ %s ནུས་མེད་ཨིན།\n"
+"དཀའ་ངལ་སེལ་ཡང་ན་གཞན་སྣོད་ཐོ་གདམ་ནི་ལུ་ཇི་ནོམ་སིསི་ལག་ལེན་འཐབ་གནང་།"
+
+#: ../gpilotd/gpilotd.c:730
+#, c-format
+msgid ""
+"Unknown PDA - no PDA matches ID %ld\n"
+"Use gpilotd-control-applet to set PDA's ID"
+msgstr ""
+"པི་ཌི་ཨེ་མ་ཤེསཔ་ པི་ཌི་ཨེ་ཨའི་ཌི་ལུ་མཐུན་སྒྲིག་མེདཔ། %ld\n"
+"པི་ཌི་ཨེ་གི་ཨའི་ཌི་གཞི་སྒྲིག་འབད་ནི་ལུ་ཇི་ནོམ་པའི་ལོཊིཌི-ཚད་འཛིན་-ཨེཔ་ལེཊི་ལག་ལེན་འཐབ་གནང་།"
+
+#. no ? drop connection then
+#: ../gpilotd/gpilotd.c:781
+msgid "An error occurred while getting the PDA's system data"
+msgstr "པི་ཌི་ཨེ་གི་རིམ་ལུགས་གནས་སྡུད་འདི་ལེན་པའི་སྐབས་འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ།"
+
+#. no ? drop connection then
+#: ../gpilotd/gpilotd.c:790
+msgid "An error occurred while getting the PDA's user data"
+msgstr "པི་ཌི་ཨེ་གི་ལག་ལེན་པའི་གནས་སྡུད་ལེན་པའི་སྐབས་འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ།"
+
+#: ../gpilotd/gpilotd.c:795
+#, c-format
+msgid "Completed events for device %s (%s)"
+msgstr "ཐབས་འཕྲུལ་དོན་ལུ་འབྱུང་ལས་ཚུ་མཇུག་བསྡུ་ཡོདཔ། %s (%s)"
+
+#: ../gpilotd/gpilotd.c:854
+#, c-format
+msgid "Woke on %s"
+msgstr "གུ་ལཱ་འབད། %s"
+
+#: ../gpilotd/gpilotd.c:935
+#, c-format
+msgid "Woke on network: %s"
+msgstr "ཡོངས་འབྲེལ་གུ་ལཱ་འབད།: %s"
+
+#: ../gpilotd/gpilotd.c:1492
+#, c-format
+msgid "Watching %s (network)"
+msgstr "བལྟ་ཞིབ་འབད་དོ %s (ཡོངས་འབྲེལ།)"
+
+#: ../gpilotd/gpilotd.c:1494
+#, c-format
+msgid "Watching %s (%s)"
+msgstr "བལྟ་ཞིབ་འབད་དོ། %s (%s)"
+
+#: ../gpilotd/gpilotd.c:1508
+msgid "Exiting (caught SIGTERM)..."
+msgstr "ཕྱིར་ཐོན་དོ (ཀོཊི་ཨེསི་ཨའི་ཇི་ཊམ)..."
+
+#: ../gpilotd/gpilotd.c:1517
+msgid "Exiting (caught SIGINT)..."
+msgstr "ཕྱིར་ཐོན་དོ། (ཀོཊི་ཨེསི་ཨའི་ཇི་ཨིནཊི།)..."
+
+#: ../gpilotd/gpilotd.c:1549
+msgid "Unable to create file installation queue directory"
+msgstr "ཡིག་སྣོད་གཞི་བཙུགས་མི་གྲལ་སྣོད་ཐོ་གསར་བསྐྲུན་འབད་མི་ཚུགསཔ།"
+
+#: ../gpilotd/gpilotd.c:1599
+msgid "Shutting down devices"
+msgstr "ཐབས་འཕྲུལ་ཚུ་སྒོ་བསྡམ་དོ།"
+
+#: ../gpilotd/gpilotd.c:1601
+msgid "Rereading configuration..."
+msgstr "རིམ་སྒྲིག་ལོག་ལྷག་དོ།..."
+
+#: ../gpilotd/manager.c:269
+msgid "non-backup conduit in backup conduit list"
+msgstr "རྒྱབ་ཐག་བརྒྱུད་ལམ་ཐོ་ཡིག་ནང་རྒྱབ་ཐག་བརྒྱུད་ལམ་མེན་མི།"
+
+#: ../gpilotd/manager.c:277
+#, c-format
+msgid "%s backed up\n"
+msgstr "%s རྒྱབ་ཐག་ཡོདཔ།\n"
+
+#: ../gpilotd/manager.c:279
+#, c-format
+msgid "%s backup failed\n"
+msgstr "%s རྒྱབ་ཐག་འཐུས་ཤོར་ཡོདཔ།\n"
+
+#: ../gpilotd/manager.c:305
+msgid "Collecting synchronization info..."
+msgstr "མཉམ་འབྱུང་བརྡ་དོན་བསྡུ་དོ།..."
+
+#: ../gpilotd/manager.c:427
+#, c-format
+msgid "Synchronizing %s\n"
+msgstr "མཉམ་འབྱུང་འབད་དོ། %s\n"
+
+#: ../gpilotd/manager.c:446
+#, c-format
+msgid "Copy to PDA %s\n"
+msgstr "པི་ཌི་ཨེ་ལུ་འདྲ་བཤུས་འབད། %s\n"
+
+#: ../gpilotd/manager.c:464
+#, c-format
+msgid "Copy from PDA %s\n"
+msgstr "པི་ཌི་ཨེ་ལས་འདྲ་བཤུས་འབད། %s\n"
+
+#: ../gpilotd/manager.c:482
+#, c-format
+msgid "Merge to PDA %s\n"
+msgstr "པི་ཌི་ཨེ་ལུ་མཉམ་བསྡོམས་འབད་ནི། %s\n"
+
+#: ../gpilotd/manager.c:500
+#, c-format
+msgid "Merge from PDA %s\n"
+msgstr "པི་ཌི་ཨེ་ལས་མཉམ་བསྡོམས་འབད་ནི། %s\n"
+
+#: ../gpilotd/manager.c:528
+#, c-format
+msgid "Conduit %s's first synchronization..."
+msgstr "བརྒྱུད་ལམ་གྱི་ %s's མཉམ་འབྱུང་དང་པམ།..."
+
+#: ../gpilotd/manager.c:552
+#, c-format
+msgid "unknown syncing action (%d = %s).\n"
+msgstr "མ་ཤེས་པའི་མཉམ་འབྱུང་བྱ་བ། (%d = %s).\n"
+
+#: ../gpilotd/manager.c:678
+#, c-format
+msgid "Instantiating %d conduits..."
+msgstr "བརྒྱུད་ལམ་ཚུ་ %d འཕྲལ་མྱུར་སྦེ།..."
+
+#: ../gpilotd/manager.c:683
+#: ../gpilotd/manager.c:684
+#, c-format
+msgid "Unknown conduit \"%s\" in configure!"
+msgstr "རིམ་སྒྲིག་ནང་\"%s\" མ་ཤེས་པའི་བརྒྱུད་ལམ།!"
+
+#: ../gpilotd/manager.c:693
+#, c-format
+msgid "Loading conduit \"%s\" failed!"
+msgstr "བརྒྱུད་ལམ་མངོན་གསལ་འབད་ནི་ \"%s\" འཐུས་ཤོར་ཡོདཔ།!"
+
+#: ../gpilotd/manager.c:694
+#, c-format
+msgid "Loading conduit \"%s\" failed!\n"
+msgstr "བརྒྱུད་ལམ་མངོན་གསལ་འབད་ནི་ \"%s\" འཐུས་ཤོར་ཡོདཔ།!\n"
+
+#: ../gpilotd/manager.c:783
+#, c-format
+msgid "Setting id/owner to %d/%s..."
+msgstr "ཨའི་ཌི་/བདག་པོ་ལུ་སྒྲིག་སྟངས། %d/%s..."
+
+#. FIXME: remove the bloody request, or the user will get this
+#. message every time
+#: ../gpilotd/manager.c:815
+#, c-format
+msgid "Conduit %s requested, but not found"
+msgstr "བརྒྱུད་ལམ་ %s ཞུ་བ་འབད་ཡོདཔ་ཨིན་རུང་འཚོལ་མ་ཐོབ།"
+
+#: ../gpilotd/manager.c:825
+#, c-format
+msgid "Conduit %s cannot be requested"
+msgstr "བརྒྱུད་ལམ་%s ཞུ་བ་འབད་མི་བཏུབ།"
+
+#: ../gpilotd/orbit_daemon_glue.c:1747
+msgid "(unknown DB)"
+msgstr "(མ་ཤེས་པའི་ཌི་བི།)"
+
+#: ../gpilotd/queue_io.c:96
+msgid "Error in queue, non-existing entry"
+msgstr "མི་གྲལ་ཐོ་བཀོད་མེད་མི་ནང་འཛོལ་བ།"
+
+#: ../gpilotd/queue_io.c:436
+#, c-format
+msgid "fault: no request found for PDA %d, request %d"
+msgstr "སྐྱོན: པི་ཌི་ཨེ་ %d, ཞུ་བ་གི་དོན་ལུ་ %d ཞུ་བ་མེད།"
+
+#: ../libgpilotdCM/gnome-pilot-conduit-management.gob:686
+msgid "module loading not supported, fatal!"
+msgstr "ཐ་གཞི་མངོན་གསལ་རྒྱབ་སྐྱོར་མ་འབད་བ་ཡོདཔ་ འཚུབ་ཆེན།!"
+
+#: ../utils/gpilotd-client.c:39
+msgid "Get System Info"
+msgstr "རིམ་ལུགས་བརད་དོན་ལེན།"
+
+#: ../utils/gpilotd-client.c:40
+msgid "Pause daemon"
+msgstr "ཌེ་ནཱོམ་ཐེམ།"
+
+#: ../utils/gpilotd-client.c:41
+msgid "Unpause daemon"
+msgstr "ཌེ་ནཱོམ་ཐེམ་བཤོལ།"
+
+#: ../utils/gpilotd-client.c:42
+msgid "Restart daemon"
+msgstr "ཌེ་ནཱོམ་ལོག་འགོ་བཙུགས།"
+
+#: ../utils/gpilotd-client.c:43
+msgid "Set user id and name"
+msgstr "ལག་ལེན་པའི་ཨའི་ཌི་དང་མིང་གཞི་སྒྲིག་འབད།"
+
+#: ../utils/gpilotd-client.c:44
+msgid "ID for the PDA"
+msgstr "པི་ཌི་ཨེ་འདི་གི་དོན་ལུ་ཨའི་ཌི།"
+
+#: ../utils/gpilotd-client.c:45
+msgid "Install file"
+msgstr "ཡིག་སྣོད་གཞི་བཙུགས་འབད།"
+
+#: ../utils/gpilotd-client.c:45
+msgid "FILE"
+msgstr "ཡིག་སྣོད།"
+
+#: ../utils/gpilotd-client.c:46
+msgid "Restore directory"
+msgstr "སྣོད་ཐོ་སོར་ཆུད་འབད།"
+
+#: ../utils/gpilotd-client.c:46
+msgid "DIRECTORY"
+msgstr "སྣོད་ཐོ།"
+
+#: ../utils/gpilotd-client.c:47
+msgid "Run conduit"
+msgstr "བརྒྱུད་ལམ་གཡོག་བཀོལ།"
+
+#: ../utils/gpilotd-client.c:47
+#: ../utils/gpilotdcm-client.c:27
+msgid "CONDUIT"
+msgstr "བརྒྱུད་ལམ།"
+
+#: ../utils/gpilotd-client.c:48
+msgid "Username to set"
+msgstr "ལག་ལེན་པའི་མིང་གཞི་སྒྲིག་འབད་ནི།"
+
+#: ../utils/gpilotd-client.c:48
+msgid "USERNAME"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#: ../utils/gpilotd-client.c:49
+msgid "Monitor the specified PDA's actions"
+msgstr "གསལ་བཀོད་འབད་ཡོད་མི་པི་ཌི་ཨེ་གི་བྱ་བ་ཚུ་བལྟ་རྟོག་འབད།"
+
+#: ../utils/gpilotd-client.c:50
+msgid "Monitor all PDAs"
+msgstr "པི་ཌི་ཨེ་ཚུ་ཆ་མཉམ་བལྟ་རྟོག་འབད།"
+
+#: ../utils/gpilotd-client.c:51
+msgid "list PDAs by login (all for all pilots)"
+msgstr "ནང་བསྐྱོད་ཀྱིས་པི་ཌི་ཨེ་ཚུ་གི་ཐོ་ཡིག(པའི་ལོཊིསི་ཆ་མཉམ་གྱི་དོན་ལུ་ཆ་མཉམ།)"
+
+#: ../utils/gpilotd-client.c:51
+msgid "LOGIN"
+msgstr "ནང་བསྐྱོད།"
+
+#: ../utils/gpilotd-client.c:52
+msgid "Specify PDA to operate on (defaults to MyPDA)"
+msgstr "(མའི་པི་ཌི་ཨེ་ལུ་སྔོན་སྒྲིག་ཚུ)གུ་བཀོལ་སྤྱོད་འབད་ནི་ལུ་པི་ཌི་ཨེ་གསལ་བཀོད་འབད།"
+
+#: ../utils/gpilotd-client.c:52
+msgid "PILOTNAME"
+msgstr "པའི་ལོཊི་མིང་།"
+
+#: ../utils/gpilotd-client.c:53
+msgid "Specify a cradle to operate on (defaults to Cradle0)"
+msgstr "འཕྲིན་སྟེགས་ཅིག་བཀོལ་སྤྱོད་འབད་ནི་གུ་(སྔོན་སྒྲིག་ཚུ་འཕྲིན་སྟེགས་ ༠་ལུ)གསལ་བཀོད་འབད།"
+
+#: ../utils/gpilotd-client.c:53
+msgid "CRADLENAME"
+msgstr "ཀེརེ་ཌལ་མིང་།"
+
+#: ../utils/gpilotd-client.c:54
+msgid "List the specifed PDA's bases"
+msgstr "གལས་བཀོད་འབད་ཡོད་མི་པི་ཌི་ཨེ་གི་གཞི་རྟེན་ཚུ་གི་ཐོ་ཡིག"
+
+#: ../utils/gpilotd-client.c:359
+#: ../utils/gpilotdcm-client.c:106
+msgid ""
+"\n"
+"BEWARE!!\n"
+"This is a tool for certain parts of the gnome-pilot package.\n"
+"Unless you know what you're doing, don't use this tool."
+msgstr ""
+"\n"
+"དྲན་པ་བཏོན་ནི!!\n"
+"ལག་ཆས་འདི་ཇི་ནོམ་པའི་ལོཊི་ཐུམ་སྒྲིལ་འདི་གི་ངེས་ཏིག་ཡན་ལག་ཚུ་གི་དོན་ལུ་ཨིན།\n"
+"ཁྱོད་རང་གི་ག་ཅིག་འབདཝ་ཨིན་ན་མ་ཤེས་ཚུན་ཚོད་ལག་ཆས་འདི་ལག་ལེན་མ་འཐབ།"
+
+#: ../utils/gpilotdcm-client.c:26
+msgid "lists available conduits"
+msgstr "ཐོ་ཡིག་ཚུ་ཐོབ་མ་ཚུགས་པའི་བརྒྱུད་ལམ་ཚུ།"
+
+#: ../utils/gpilotdcm-client.c:27
+msgid "conduit to operate on"
+msgstr "གུ་བཀོལ་སྤྱོད་འབད་ནི་ལུ་བརྒྱུད་ལམ།"
+
+#: ../utils/gpilotdcm-client.c:28
+msgid "list all attributes"
+msgstr "ཁྱད་ཆོས་ཚུ་ཆ་མཉམ་ཐོ་ཡིག་བཀོད།"
+
+#: ../utils/gpilotdcm-client.c:29
+msgid "specify PDA to operate on"
+msgstr "གུ་བཀོལ་སྤྱོད་འབད་ནི་ལུ་པི་ཌི་ཨེ་གསལ་བཀོད་འབད།"
+
+#: ../utils/gpilotdcm-client.c:29
+msgid "PDA_ID"
+msgstr "པི་ཌི་ཨེ་ཨའི་ཌི།(_I)"
+
+#: ../utils/gpilotdcm-client.c:30
+msgid "list attributes"
+msgstr "ཐོ་ཡིག་ཁྱད་ཆོས་ཚུ།"
+
+#: ../utils/gpilotdcm-client.c:31
+msgid "list available conduits and their state"
+msgstr "ཐོབ་ཚུགས་པའི་བརྒྱུད་ལམ་ཚུ་དང་འདིའི་གནས་ལུགས་ཐོ་ཡིག་བཀོད།"
+
+#: ../utils/gpilotdcm-client.c:32
+msgid "enable specified conduit"
+msgstr "གསལ་བཀོད་འབད་ཡོད་མི་བརྒྱུད་ལམ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../utils/gpilotdcm-client.c:33
+msgid "disable specified conduit"
+msgstr "གསལ་བཀོད་འབད་ཡོད་མི་བརྒྱུད་ལམ་ལྕོགས་མིན་བཟོ།"
+
+#: ../utils/gpilotdcm-client.c:34
+msgid "enable, and set firstsync to slow"
+msgstr "ལྕོགས་ཅན་བཟོ་ནི་དང་མཉམ་འབྱུང་དང་པམ་ལྷོད་ཆ་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../utils/gpilotdcm-client.c:35
+msgid "instantiate and destroy the conduit"
+msgstr "འཕྲལ་མྱུར་སྦེ་དང་བརྒྱུད་ལམ་འདི་རྩ་མེད་གཏང་།"
+
+#: ../applet/gpilot-applet.desktop.in.h:1
+msgid "PilotSync"
+msgstr "པ་ཡི་ལོཊི་སིངཀ་"
+
+#: ../applet/gpilot-applet.desktop.in.h:2
+msgid "Synchroniser for PalmOS PDAs"
+msgstr "པཱམ་ཨོ་ཨེསི་ པི་ཌི་ཨེ་གི་དོན་ལུ་མཉམ་འབྱུང་པ་"
+
+#~ msgid "PDA ID"
+#~ msgstr "པི་ཌི་ཨེ་ཨའི་ཌི།"
+#~ msgid "Add..."
+#~ msgstr "ཁ་སྐོང་རྐྱབས..."
+#~ msgid "Delete"
+#~ msgstr "བཏོན་གཏང་།"
+#~ msgid "Edit..."
+#~ msgstr "ཞུན་དག་..."
+#~ msgid "Ir_DA"
+#~ msgstr "ཨའི་ཨར་ཌི་ཨེ།(_D)"
+#~ msgid "Settings..."
+#~ msgstr "སྒྲིག་སྟངས་ཚུ།..."
+

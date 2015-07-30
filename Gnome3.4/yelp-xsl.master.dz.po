@@ -1,0 +1,975 @@
+# Dzongkha translation of gnome-doc-utils
+# Copyright @ 2006 Free Software Foundation, Inc.
+# Mindu Dorji
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-doc-utils.HEAD.dz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp-"
+"xsl&keywords=I18N+L10N&component=General\n"
+"POT-Creation-Date: 2011-11-11 12:54+0000\n"
+"PO-Revision-Date: 2008-09-10 09:48+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Translate to default:RTL if your language should be displayed
+#. right-to-left, otherwise translate to default:LTR.  Do *not*
+#. translate it to "predefinito:LTR", if it isn't default:LTR
+#. or default:RTL it will not work.
+#.
+#: yelp-xsl.xml.in:27(msg/msgstr)
+msgid "default:LTR"
+msgstr "སྔོན་སྒྲིག་:ཨེལ་ཊི་ཨར།"
+
+#. This is used a simple list item seperator in places where simple
+#. inline lists have to be constructed dynamically.  Using the default
+#. string of ", ", a list would look like this: A, B, C, D.  Using the
+#. nonsensical string " - ", a list would look like this: A - B - C - D.
+#.
+#. Make sure to include leading or trailing spaces if you want them.
+#.
+#: yelp-xsl.xml.in:40(msg/msgstr)
+#, no-wrap
+msgid ", "
+msgstr ", "
+
+#. This is used as the final separator in an inline list of three or
+#. more elements.  The string ", " will be used to separate all but
+#. the last pair of elements.  Using these two strings, a list of
+#. names would be formatted as "Tom, Dick, and Harry".
+#.
+#. Make sure to include leading or trailing spaces if you want them.
+#.
+#: yelp-xsl.xml.in:53(msg/msgstr)
+#, no-wrap
+msgid ", and "
+msgstr ", དང་"
+
+#. This is used as a list item seperator for inline lists of exactly two
+#. elements.  A list of two names would be formatted as "Tom and Dick".
+#.
+#. Make sure to include leading or trailing spaces if you want them.
+#.
+#: yelp-xsl.xml.in:64(msg/msgstr)
+#, no-wrap
+msgid " and "
+msgstr "དང་ "
+
+#. http://www.docbook.org/tdg/en/html/qandaentry.html
+#.
+#. This is used as a label before questions in a question-and-answer
+#. set.  Typically, questions are simply numbered and answers are not
+#. labelled at all.  However, DocBook allows document authors to set
+#. the labelling style for a qandaset.  If the labelling style is set
+#. to 'qanda', this string will be used to label questions.
+#.
+#: yelp-xsl.xml.in:79(msg/msgstr)
+msgid "Q:"
+msgstr ""
+
+#. http://www.docbook.org/tdg/en/html/qandaentry.html
+#.
+#. This is used as a label before answers in a question-and-answer
+#. set.  Typically, answers are simply numbered and answers are not
+#. labelled at all.  However, DocBook allows document authors to set
+#. the labelling style for a qandaset.  If the labelling style is set
+#. to 'qanda', this string will be used to label answers.
+#.
+#: yelp-xsl.xml.in:92(msg/msgstr)
+msgid "A:"
+msgstr ""
+
+#. Title of the footer containing copyrights, credits, license information,
+#. and other stuff about the page.
+#.
+#: yelp-xsl.xml.in:102(msg/msgstr)
+msgid "About"
+msgstr ""
+
+#. Accessible title for an advanced note.
+#: yelp-xsl.xml.in:107(msg/msgstr)
+#, fuzzy
+#| msgid "Audience"
+msgid "Advanced"
+msgstr "ལྟདམོ་ལྟ་མི།"
+
+#. Default title for a bibliography.
+#: yelp-xsl.xml.in:112(msg/msgstr)
+msgid "Bibliography"
+msgstr "དེབ་ཐོ།"
+
+#. Accessible title for a note about a software bug.
+#: yelp-xsl.xml.in:117(msg/msgstr)
+msgid "Bug"
+msgstr ""
+
+#. Revision status of a document or page. Content has been written and
+#. reviewed, and it awaiting a final approval.
+#.
+#: yelp-xsl.xml.in:125(msg/msgstr)
+msgid "Candidate"
+msgstr ""
+
+#. Default title for a colophon section.
+#: yelp-xsl.xml.in:130(msg/msgstr)
+msgid "Colophon"
+msgstr "ཀོ་ལོ་ཕཱོན།"
+
+#. Title for license information when it's a CC license.
+#: yelp-xsl.xml.in:135(msg/msgstr)
+msgid "Creative Commons"
+msgstr ""
+
+#. Default title for a dedication section.
+#: yelp-xsl.xml.in:140(msg/msgstr)
+msgid "Dedication"
+msgstr "དད་གུས།"
+
+#. Revision status of a document or page. Most content has been
+#. written, but revisions are still happening.
+#.
+#: yelp-xsl.xml.in:148(msg/msgstr)
+#, fuzzy
+#| msgid "Date"
+msgid "Draft"
+msgstr "ཚེས་གྲངས།"
+
+#. Title for a list of editors.
+#: yelp-xsl.xml.in:153(msg/msgstr)
+msgid "Edited By"
+msgstr ""
+
+#. Revision status of a document or page. A senior member of the
+#. documentation team has reviewed and approved.
+#.
+#: yelp-xsl.xml.in:161(msg/msgstr)
+msgid "Final"
+msgstr ""
+
+#. Default title for a glossary.
+#: yelp-xsl.xml.in:166(msg/msgstr)
+msgid "Glossary"
+msgstr "ཚིག་ཐོ།"
+
+#. Accessible title for an important note.
+#: yelp-xsl.xml.in:171(msg/msgstr)
+msgid "Important"
+msgstr "གལ་ཅན།"
+
+#. Revision status of a document or page. Work has begun, but
+#. not all content has been written.
+#.
+#: yelp-xsl.xml.in:179(msg/msgstr)
+msgid "Incomplete"
+msgstr ""
+
+#. Default title for an index of terms in a book.
+#: yelp-xsl.xml.in:184(msg/msgstr)
+msgid "Index"
+msgstr "ཟུར་ཐོ།"
+
+#. Default title for a DocBook legal notice.
+#: yelp-xsl.xml.in:189(msg/msgstr)
+#, fuzzy
+#| msgid "Level"
+msgid "Legal"
+msgstr "གནས་རིམ།"
+
+#. Generic title for license information when it's not a known license.
+#.
+#: yelp-xsl.xml.in:196(msg/msgstr)
+msgid "License"
+msgstr ""
+
+#. Title for a list of maintainers.
+#: yelp-xsl.xml.in:201(msg/msgstr)
+msgid "Maintained By"
+msgstr ""
+
+#. Automatic heading above a list of guide links.
+#: yelp-xsl.xml.in:206(msg/msgstr)
+#, fuzzy
+#| msgid "Release Information"
+msgid "More Information"
+msgstr "བརྡ་དོན་འཛིན་འགྲོལ་འབད།"
+
+#. Link text for a link to the next page in a series.
+#: yelp-xsl.xml.in:211(msg/msgstr)
+msgid "Next"
+msgstr ""
+
+#. Accessible title for a note.
+#: yelp-xsl.xml.in:216(msg/msgstr)
+msgid "Note"
+msgstr "དྲན་འཛིན།"
+
+#. Title for a list contributors other than authors, editors, translators,
+#. or other types we have specific lists for.
+#.
+#: yelp-xsl.xml.in:224(msg/msgstr)
+msgid "Other Credits"
+msgstr ""
+
+#. Revision status of a document or page. Content was once current,
+#. but needs to be updated to reflect software updates.
+#.
+#: yelp-xsl.xml.in:232(msg/msgstr)
+msgid "Outdated"
+msgstr ""
+
+#. Tooltip on play/pause buttons for audio and video objects.
+#: yelp-xsl.xml.in:237(msg/msgstr)
+msgid "Pause"
+msgstr ""
+
+#. Tooltip on play/pause buttons for audio and video objects.
+#: yelp-xsl.xml.in:242(msg/msgstr)
+msgid "Play"
+msgstr ""
+
+#. Link text for a link to the previous page in a series.
+#: yelp-xsl.xml.in:247(msg/msgstr)
+msgid "Previous"
+msgstr ""
+
+#. Revision status of a document or page. Content has been written
+#. and should be reviewed by other team members.
+#.
+#: yelp-xsl.xml.in:255(msg/msgstr)
+msgid "Ready for review"
+msgstr ""
+
+#. Automatic heading above a list of see-also links.
+#: yelp-xsl.xml.in:260(msg/msgstr)
+msgid "See Also"
+msgstr "ཡང་ལུ་བལྟ།"
+
+#. Figures can automatically scale images down to fit the page width.
+#. This is used a tooltip on a link to shrink images back down after
+#. they've been expanded to full size.
+#.
+#: yelp-xsl.xml.in:269(msg/msgstr)
+msgid "Scale images down"
+msgstr ""
+
+#. Accessible title for a sidebar note.
+#: yelp-xsl.xml.in:274(msg/msgstr)
+msgid "Sidebar"
+msgstr ""
+
+#. Revision status of a document or page. No content has been written yet.
+#.
+#: yelp-xsl.xml.in:281(msg/msgstr)
+msgid "Stub"
+msgstr ""
+
+#. Default title for a refsynopsisdiv element. This is the common section
+#. title found in most UNIX man pages.
+#.
+#: yelp-xsl.xml.in:289(msg/msgstr)
+msgid "Synopsis"
+msgstr "བཅུད་དོན།"
+
+#. Accessible title for a tip.
+#: yelp-xsl.xml.in:294(msg/msgstr)
+msgid "Tip"
+msgstr "ཕན་བསླབ།"
+
+#. Title for a list of translators.
+#: yelp-xsl.xml.in:299(msg/msgstr)
+msgid "Translated By"
+msgstr ""
+
+#. Figures can automatically scale images down to fit the page width.
+#. This is used a tooltip on a link to expand images to full size.
+#.
+#: yelp-xsl.xml.in:307(msg/msgstr)
+msgid "View images at normal size"
+msgstr ""
+
+#. Accessible title for a warning.
+#: yelp-xsl.xml.in:312(msg/msgstr)
+msgid "Warning"
+msgstr "ཉེན་བརྡ།"
+
+#. Title for a list of authors.
+#: yelp-xsl.xml.in:317(msg/msgstr)
+msgid "Written By"
+msgstr ""
+
+#. This is an image of the opening quotation character for your language.
+#. The image is used as a watermark on blockquote elements.  There are a
+#. number of different quote characters used by various languages, so the
+#. image name is translatable.  The name of the icon should be of the form
+#. "yelp-quote-XXXX.png", where XXXX is the Unicode code point of the opening
+#. quote character.  For example, some languages use the double angle quotation
+#. mark.  Translators for these languages should use "yelp-quote-00AB.png".
+#.
+#. The image, however, is not automatically created.  Do not translate
+#. this to a value if there isn't a corresponding file in yelp-xsl under
+#. the directory icons/hicolor/48x48/status.
+#.
+#. Languages that use guillemets (angle quotation marks) should use either
+#. 00AB or 00BB, depending on whether the opening quotation is the left
+#. guillemet or the right guillemet.  Languages that use inverted comma
+#. quotation marks should use 201C, 201D, or 201E.  Single quotation marks
+#. don't make very nice watermarks, so if you would normally open a quote
+#. with single quotation marks in your language, use the corresponding
+#. double quotation mark for the watermark image.
+#.
+#: yelp-xsl.xml.in:344(msg/msgstr)
+#, fuzzy
+#| msgid "watermark-blockquote-201C.png"
+msgid "yelp-quote-201C.png"
+msgstr "ཆུ་རྟགས-ལུང་འདྲེན་སྡེབ་ཚན-201C.png"
+
+#. ID: biblioentry.tooltip
+#. This is a format message used to format tooltips on cross references
+#. to bibliography entries.
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <label/> - The term being defined by the glossary entry
+#.
+#: yelp-xsl.xml.in:360(msg/msgstr)
+msgid "View the bibliography entry <biblioentry.label/>."
+msgstr ""
+
+#. ID: biblioentry.label
+#. This is a format message used to format the labels for entries in
+#. a bibliography.  The content of the label is often an abbreviation
+#. of the authors' names and the year of publication.  In English,
+#. these are generally formatted with [square brackets] surrounding
+#. them.
+#.
+#. This string is similar to citation.format, but they are used in
+#. different places.  The citation formatter is used when referencing
+#. a bibliography entry in running prose.  This formatter is used for
+#. the actual bibliography entry.  You may use the same formatting for
+#. both, but you don't have to.
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <biblioentry.label/> - The text content of the bibliography label
+#.
+#: yelp-xsl.xml.in:383(msg/msgstr)
+msgid "[<biblioentry.label/>]"
+msgstr ""
+
+#. ID: citation.label
+#. This is a format message used to format inline citations to other
+#. published works.  The content is typically an abbreviation of the
+#. authors' last names.  In English, this abbreviation is usually
+#. written inside [square brackets].
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <citation/> - The text content of the citation element, possibly
+#.               as a link to an entry in the bibliography
+#.
+#: yelp-xsl.xml.in:400(msg/msgstr)
+msgid "[<citation.label/>]"
+msgstr ""
+
+#. ID: comment.name-date
+#. This is a format message used to format the citation of a comment
+#. made by an editor of a document. This appears on a new line after
+#. the title of the comment, if a title is present, or as the first
+#. line if a title is not present.
+#.
+#. This string is used when both the name and the date are supplied.
+#. In English, a title together with this format string might produce
+#. something like this:
+#.
+#.   Some Comment Title
+#.   from Shaun McCance on 2010-06-03
+#.
+#.   Here is the text of the comment.
+#.
+#. If only a name is supplied, and no date, then comment.name is used
+#. instead of this string.
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <comment.name/> - The name of the person making the comment
+#. <comment.date/> - The date the comment was made
+#.
+#: yelp-xsl.xml.in:429(msg/msgstr)
+msgid "from <comment.name/> on <comment.date/>"
+msgstr ""
+
+#. ID: comment.name
+#. This is a format message used to format the citation of a comment
+#. made by an editor of a document. This appears on a new line after
+#. the title of the comment, if a title is present, or as the first
+#. line if a title is not present.
+#.
+#. This string is used when only the name of the commenter is supplied.
+#. In English, a title together with this format string might produce
+#. something like this:
+#.
+#.   Some Comment Title
+#.   from Shaun McCance
+#.
+#.   Here is the text of the comment.
+#.
+#. If a date is also supplied, then comment.name-date is used instead
+#. of this string.
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <comment.name/> - The name of the person making the comment
+#.
+#: yelp-xsl.xml.in:457(msg/msgstr)
+msgid "from <comment.name/>"
+msgstr ""
+
+#. ID: email.tooltip
+#. This is a format message used to format tooltips on mailto: links.
+#. Special elements in the message will be replaced with the appropriate
+#. content, as follows:
+#.
+#. <string/> - The linked-to email address
+#.
+#: yelp-xsl.xml.in:469(msg/msgstr)
+msgid "Send email to ‘<string/>’."
+msgstr ""
+
+#. ID: glossentry.tooltip
+#. This is a format message used to format tooltips on cross references
+#. to glossary entries. Special elements in the message will be replaced
+#. with the appropriate content, as follows:
+#.
+#. <glossterm/> - The term being defined by the glossary entry
+#.
+#: yelp-xsl.xml.in:481(msg/msgstr)
+#, fuzzy
+#| msgid ""
+#| "<msgid>glossentry.tooltip</msgid> <msgstr>Read the definition for "
+#| "‘<glossterm/>’.</msgstr>"
+msgid "Read the definition for ‘<glossterm/>’."
+msgstr ""
+"<msgid>ཚིག་ཐོ་ཐོ་བཀོད་ལག་ཆས་ཕན་བསླབ་</msgid> <msgstr>གི་དོན་ལུ་ངེས་ཚིག་ལྷག་‘<glossterm/"
+">’.</msgstr>"
+
+#. ID: glosssee.format
+#. This is a format message used to format glossary cross references.
+#. This format message controls the sentence used to present the cross
+#. reference, not the link itself.  For the formatting of the actual
+#. link, see the message glossentry.xref.
+#.
+#. One or more glosssee elements are presented as a links to the user
+#. in the glossary, formatted as a single prose sentence.  For example,
+#. if the user is being directed to the entry "foo", the glosssee may
+#. be formatted as "See foo."
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <glosssee/> - The actual link or links of the cross reference
+#.
+#: yelp-xsl.xml.in:502(msg/msgstr)
+msgid "See <glosssee/>."
+msgstr ""
+
+#. ID: glossseealso.format
+#. This is a format message used to format glossary cross references.
+#. This format message controls the sentence used to present the cross
+#. reference, not the link itself.  For the formatting of the actual
+#. link, see the message glossentry.xref.
+#.
+#. One or more glossseealso elements are presented as a links to the
+#. user in the glossary, formatted as a single prose sentence.  For
+#. example, if the user is being directed to the entries "foo", "bar",
+#. and "baz", the glossseealso may be formatted as "See also foo, bar,
+#. baz."
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <glosssee/> - The actual link or links of the cross reference
+#.
+#: yelp-xsl.xml.in:524(msg/msgstr)
+msgid "See also <glosssee/>."
+msgstr ""
+
+#. ID: quote.format
+#. This is a format message used to format inline quotations. Special
+#. elements in the message will be replaced with the appropriate content,
+#. as follows:
+#.
+#. <node/> - The text content of the quote element
+#.
+#: yelp-xsl.xml.in:536(msg/msgstr)
+msgid "“<node/>”"
+msgstr ""
+
+#. ID: quote.format
+#. This is a format message used to format inline quotations inside
+#. other inline quotations. Special elements in the message will be
+#. replaced with the appropriate content, as follows:
+#.
+#. <node/> - The text content of the quote element
+#.
+#: yelp-xsl.xml.in:548(msg/msgstr)
+msgid "‘<node/>’"
+msgstr ""
+
+#. ID: seeie.format
+#. This is a format message used to format index cross references.
+#. This format message controls the sentence used to present the cross
+#. reference, not the link itself.
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <seeie/> - The actual link or links of the cross reference
+#.
+#: yelp-xsl.xml.in:563(msg/msgstr)
+msgid "See <seeie/>."
+msgstr ""
+
+#. ID: seealsoie.format
+#. This is a format message used to format index cross references.
+#. This format message controls the sentence used to present the cross
+#. reference, not the link itself.
+#.
+#. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <seeie/> - The actual link or links of the cross reference
+#.
+#: yelp-xsl.xml.in:578(msg/msgstr)
+msgid "See also <seeie/>."
+msgstr ""
+
+#~ msgid " — "
+#~ msgstr " — "
+
+#~ msgid "<msgid>appendix.digit</msgid> <msgstr>A</msgstr>"
+#~ msgstr "<msgid>ཟུར་དེབ་ཨང་ཡིག་</msgid> <msgstr>A</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>appendix.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Appendix "
+#~ "<number/></msgstr>"
+#~ msgstr ""
+#~ "<msgidཟུར་དེ་ཁ་ཡིག་</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>ཟུར་དེབ་"
+#~ "<number/></msgstr>"
+
+#~ msgid "<msgid>appendix.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
+#~ msgstr "<msgid>ཟུར་དེབ་ཨང་གྲངས་</msgid> <msgstr><parent/>.<digit/></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></"
+#~ "msgstr>"
+#~ msgstr ""
+#~ "<msgid>ཟུར་དེབ་ ཨེགསི་རེཕི་</msgid> <msgstr>ཟུར་དེབ་ <number/> ― <title/></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>biblioentry.tooltip</msgid> <msgstr>View the bibliography entry "
+#~ "<label/>.</msgstr>"
+#~ msgstr ""
+#~ "<msgid>དེབ་ཐོའི་ཐོ་བཀོད་ལག་ཆས་ཕན་བསླབ་</msgid> <msgstr>དེབ་ཐོའི་ཐོ་བཀོད་སྟོན་<label/>."
+#~ "</msgstr>"
+
+#~ msgid "<msgid>bibliography.xref</msgid> <msgstr><title/></msgstr>"
+#~ msgstr "<msgid>དེབ་ཐོའི་.xref</msgid> <msgstr><title/></msgstr>"
+
+#~ msgid "<msgid>bibliolabel.format</msgid> <msgstr>[<bibliolabel/>]</msgstr>"
+#~ msgstr "<msgid> ལུང་འདྲེན་རྩ་སྒྲིག་</msgid> <msgstr>(<node/>)</msgstr>"
+
+#~ msgid "<msgid>book.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>ཀི་དེབ་ཨང་ཡིག་</msgid> <msgstr>1</msgstr>"
+
+#~ msgid "<msgid>book.xref</msgid> <msgstr><title/></msgstr>"
+#~ msgstr "<msgid>ཀི་དེབ་ཨེགསི་རེཕི་</msgid> <msgstr><title/></msgstr>"
+
+#~ msgid "<msgid>chapter.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>ལེའུ་ཨང་ཡིག་</msgid> <msgstr>1</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>chapter.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Chapter "
+#~ "<number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>ལེའུ་ཁ་ཡིག་</msgid> <msgstr role='header'><number/>.&#x2003;</msgstr> "
+#~ "<msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>ལེའུ་<number/></"
+#~ "msgstr>"
+
+#~ msgid "<msgid>chapter.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
+#~ msgstr "<msgid>ལེའུ་ཨང་གྲངཤ་</msgid> <msgstr><parent/>.<digit/></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
+#~ msgstr "<msgid>ལེའུ་ཨེགསི་རེཕི་</msgid> <msgstr>ལེའུ་ <number/> ― <title/></msgstr>"
+
+#~ msgid "<msgid>citation.format</msgid> <msgstr>[<citation/>]</msgstr>"
+#~ msgstr "<msgid> ལུང་འདྲེན་རྩ་སྒྲིག་format</msgid> <msgstr>(<node/>)</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>citetitle.format</msgid> <msgstr role='article'>“<node/>”</msgstr> "
+#~ "<msgstr><i><node/></i></msgstr>"
+#~ msgstr ""
+#~ "<msgid>སའིཊི་ཊའི་ཊཱལ་རྩ་སྒྲིག</msgid> <msgstr role='article'>“<node/>”</msgstr> "
+#~ "<msgstr><i><node/></i></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
+#~ msgstr ""
+#~ "<msgid>གློག་འཕྲིན་ལག་ཆས་ཕན་བསླབ་</msgid> <msgstr>གློག་འཕྲིན་གཏང་ཡུལ་‘<node/>’.</"
+#~ "msgstr>"
+
+#~ msgid "<msgid>example.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>དཔེར་བརྗོད་ཨང་ཡིག་</msgid> <msgstr>1</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>example.label</msgid> <msgstr role='header'><i>Example <number/></"
+#~ "i>&#x2003;</msgstr> <msgstr role='li'>Example <number/>&#x2002;</msgstr> "
+#~ "<msgstr>Example <number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>དཔེར་བརྗོད་ཁ་ཡིག་</msgid> <msgstr role='header'><i>དཔེར་བརྗོད་<number/></"
+#~ "i>&#x2003;</msgstr> <msgstr role='li'>Example <number/>&#x2002;</msgstr> "
+#~ "<msgstr>Example <number/></msgstr>"
+
+#~ msgid "<msgid>example.number</msgid> <msgstr><parent/>-<digit/></msgstr>"
+#~ msgstr "<msgid>དཔེར་བརྗོད་ཨང་གྲངས་</msgid> <msgstr><parent/>-<digit/></msgstr>"
+
+#~ msgid "<msgid>example.xref</msgid> <msgstr>Example <number/></msgstr>"
+#~ msgstr "<msgid>དཔེར་བརྗོད་ཨེགསི་རེཕི་</msgid> <msgstr>དཔེར་བརྗོད་ <number/></msgstr>"
+
+#~ msgid "<msgid>figure.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>ཨང་གྲངས་ཨང་ཡིག་</msgid> <msgstr>1</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>figure.label</msgid> <msgstr role='header'><i>Figure <number/></"
+#~ "i>&#x2003;</msgstr> <msgstr role='li'>Figure <number/>&#x2002;</msgstr> "
+#~ "<msgstr>Figure <number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>ཨང་ཡིག་ཁ་ཡིག་</msgid> <msgstr role='header'><i>ཨང་ཡིག་ <number/></"
+#~ "i>&#x2003;</msgstr> <msgstr role='li'>ཨང་ཡིག་<number/>&#x2002;</msgstr> "
+#~ "<msgstr>Figure <number/></msgstr>"
+
+#~ msgid "<msgid>figure.number</msgid> <msgstr><parent/>-<digit/></msgstr>"
+#~ msgstr "<msgid>ཨང་ཡིག་ཨང་གྲངས་</msgid> <msgstr><parent/>-<digit/></msgstr>"
+
+#~ msgid "<msgid>figure.xref</msgid> <msgstr>Figure <number/></msgstr>"
+#~ msgstr "<msgid>ཨང་ཡིག་ཨེགསི་རེཕི་</msgid> <msgstr>ཨང་ཡིག་ <number/></msgstr>"
+
+#~ msgid "<msgid>glossary.xref</msgid> <msgstr><title/></msgstr>"
+#~ msgstr "<msgid>ཚིག་ཐོ་ཨེགསི་རེཕི་</msgid> <msgstr><title/></msgstr>"
+
+#~ msgid "<msgid>glossentry.abbrev.format</msgid> <msgstr>(<node/>)</msgstr>"
+#~ msgstr "<msgid> མཱེན་བཱོལ་ནམ་རྩ་སྒྲིག་</msgid> <msgstr>(<node/>)</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></"
+#~ "msgstr> <msgstr>‘<glossterm/>’</msgstr>"
+#~ msgstr ""
+#~ "<msgid>ཚིག་ཐོ་ཐོ་བཀོད་ཨེགསི་རེཕི་</msgid> <msgstr role='glosssee'><glossterm/></"
+#~ "msgstr> <msgstr>‘<glossterm/>’</msgstr>"
+
+#~ msgid "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
+#~ msgstr "<msgid>གོ་ལོ་སི་རྩ་སྒྲིག་</msgid> <msgstr>བལྟ་ <glosssee/>.</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
+#~ msgstr ""
+#~ "<msgid>གོ་ལོ་སི་ཨཱལ་སོ་རྩ་སྒྲིག་</msgid> <msgstr>ཡང་བལྟ་ <glosssee/>.</msgstr>"
+
+#~ msgid "<msgid>manvolnum.format</msgid> <msgstr>(<node/>)</msgstr>"
+#~ msgstr "<msgid> མཱེན་བཱོལ་ནམ་རྩ་སྒྲིག་format</msgid> <msgstr>(<node/>)</msgstr>"
+
+#~ msgid "<msgid>part.digit</msgid> <msgstr>I</msgstr>"
+#~ msgstr "<msgid>ཡན་ལག་ཨང་ཡིག་</msgid> <msgstr>I</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>part.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Part "
+#~ "<number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>ཡན་ལག་ཁ་ཡིག་</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>ཡན་ལག་"
+#~ "<number/></msgstr>"
+
+#~ msgid "<msgid>part.xref</msgid> <msgstr>Part <number/> ― <title/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>ཡན་ལག་ཨེགསི་རེཕི་</msgid> <msgstr>ཡན་ལག་ <number/> ― <title/></msgstr>"
+
+#~ msgid "<msgid>preface.xref</msgid> <msgstr><title/></msgstr>"
+#~ msgstr "<msgid>སྔོན་བརྗོད་ཨེགསི་རེཕི་</msgid> <msgstr><title/></msgstr>"
+
+#~ msgid "<msgid>question.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>དྲི་བའི་ཨང་ཡིག་</msgid> <msgstr>1</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>question.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Question "
+#~ "<number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>དྲི་བའི་ཁ་ཡིག་</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>དྲི་བ་<number/"
+#~ "></msgstr>"
+
+#~ msgid "<msgid>question.xref</msgid> <msgstr>Question <number/></msgstr>"
+#~ msgstr "<msgid>དྲི་བའི་ཨེགསི་རེཕི་</msgid> <msgstr>དྲི་བ་<number/></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>’</msgstr> "
+#~ "<msgstr>“<node/>”</msgstr>"
+#~ msgstr ""
+#~ "<msgid>འདྲེན་ཚིག་རྩ་སྒྲིག་</msgid> <msgstr role='inner'>‘<node/>’</msgstr> "
+#~ "<msgstr>“<node/>”</msgstr>"
+
+#~ msgid "<msgid>refentry.xref</msgid> <msgstr><title/></msgstr>"
+#~ msgstr "<msgid>གཞི་བསྟུན་ཐོ་བཀོད་་ཨེགསི་རེཕི་</msgid> <msgstr><title/></msgstr>"
+
+#~ msgid "<msgid>refsection.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>refsection.digit</msgid> <msgstr>1</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>refsection.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Section "
+#~ "<number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>གཞི་བསྟུན་དབྱེ་ཚན་ཁ་ཡིག་</msgid> <msgstr role='header'><number/>.&#x2003;"
+#~ "</msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>དབྱེ་ཚན་"
+#~ "<number/></msgstr>"
+
+#~ msgid "<msgid>refsection.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>གཞི་བསྟུན་དབྱེ་ཚན་ཨང་གྲངས་</msgid> <msgstr><parent/>.<digit/></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></"
+#~ "msgstr>"
+#~ msgstr ""
+#~ "<msgid>གཞི་བསྟུན་དབྱེ་ཚན་ཨེགསི་རེཕི་</msgid> <msgstr>དབྱེ་ཚན་ <number/> ― <title/></"
+#~ "msgstr>"
+
+#~ msgid "<msgid>section.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>དབྱེ་ཚན་ཨང་ཡིག་</msgid> <msgstr>༡</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>section.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Section "
+#~ "<number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>དབྱེ་ཚན་ཁ་ཡིག་</msgid> <msgstr role='header'><number/>.&#x2003;</"
+#~ "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>དབྱེ་ཚན་"
+#~ "<number/></msgstr>"
+
+#~ msgid "<msgid>section.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
+#~ msgstr "<msgid>དབྱེ་ཚན་ཨང་གྲངས་</msgid> <msgstr><parent/>.<digit/></msgstr>"
+
+#~ msgid ""
+#~ "<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>དབྱེ་ཚན་ཨེགསི་རེཕི་</msgid> <msgstr>དབྱེ་ཚན་ <number/> ― <title/></msgstr>"
+
+#~ msgid "<msgid>seealsoie.format</msgid> <msgstr>See also <seeie/>.</msgstr>"
+#~ msgstr "<msgid>སི་ཨཱལ་སོ་རྩ་སྒྲིག་</msgid> <msgstr>ཡང་ ན་ <glosssee/>.</msgstr>བལྟ་"
+
+#~ msgid "<msgid>seeie.format</msgid> <msgstr>See <seeie/>.</msgstr>"
+#~ msgstr "<msgid>སཱི་ རྩ་སྒྲིག་</msgid> <msgstr>See <seeie/>.</msgstr>"
+
+#~ msgid "<msgid>synopfragment.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>སའི་ནོཔ་ ཆག་དུམ་ ཨང་ཡིག་</msgid> <msgstr>1</msgstr>"
+
+#~ msgid "<msgid>synopfragment.label</msgid> <msgstr>(<number/>)</msgstr>"
+#~ msgstr "<msgid>སཱི་ནོཔ་ཆག་དུམ་ ཁ་ཡིག་</msgid> <msgstr>ཨང་ཡིག་ <number/></msgstr>"
+
+#~ msgid "<msgid>table.digit</msgid> <msgstr>1</msgstr>"
+#~ msgstr "<msgid>ཐིག་ཁྲམ་ཨང་ཡིག་</msgid> <msgstr>༡</msgstr>"
+
+#~ msgid ""
+#~ "<msgid>table.label</msgid> <msgstr role='header'><i>Table <number/></"
+#~ "i>&#x2003;</msgstr> <msgstr role='li'>Table <number/>&#x2002;</msgstr> "
+#~ "<msgstr>Table <number/></msgstr>"
+#~ msgstr ""
+#~ "<msgid>ཐིག་ཁྲམ་ཁ་ཡིག་</msgid> <msgstr role='header'><i>ཐིག་ཁྲམ་<number/></"
+#~ "i>&#x2003;</msgstr> <msgstr role='li'>ཐིག་ཁྲམ་<number/>&#x2002;</msgstr> "
+#~ "<msgstr>ཐིག་ཁྲམ་<number/></msgstr>"
+
+#~ msgid "<msgid>table.number</msgid> <msgstr><parent/>-<digit/></msgstr>"
+#~ msgstr "<msgid>ཐིག་ཁྲམ་ཨང་གྲངས་</msgid> <msgstr><parent/>-<digit/></msgstr>"
+
+#~ msgid "<msgid>table.xref</msgid> <msgstr>Table <number/></msgstr>"
+#~ msgstr "<msgid>ཐིག་ཁྲམ་ཨེགསི་རེཕི་</msgid> <msgstr>ཐིག་ཁྲམ་ <number/></msgstr>"
+
+#~ msgid "<msgstr form='0'>Author</msgstr> <msgstr form='1'>Authors</msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>རྩོམ་པ་པོ་</msgstr> <msgstr form='1'>རྩོམ་པ་པོ་ཚུ་</msgstr>"
+
+#~ msgid ""
+#~ "<msgstr form='0'>Collaborator</msgstr> <msgstr form='1'>Collaborators</"
+#~ "msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>>མཉམ་རུབ་པ་</msgstr> <msgstr form=\"1\">མཉམ་རུབ་པ་ཚུ་</"
+#~ "msgstr>"
+
+#~ msgid ""
+#~ "<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>འདྲ་བཤུས་དབང་ཆ</msgstr> <msgstr form='1'>འདྲ་བཤུས་དབང་ཆ་ཚུ་</"
+#~ "msgstr>"
+
+#~ msgid "<msgstr form='0'>Editor</msgstr> <msgstr form='1'>Editors</msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>ཞུན་དགཔ</msgstr> <msgstr form='1'>ཞུན་དགཔ་ཚུ་</msgstr>"
+
+#~ msgid ""
+#~ "<msgstr form='0'>Other Contributor</msgstr> <msgstr form='1'>Other "
+#~ "Contributors</msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>ཕན་འདེབས་པ་གཞན</msgstr> <msgstr form='1'>ཕན་འདེབས་པ་གཞན་ཚུ་"
+#~ "</msgstr>"
+
+#~ msgid ""
+#~ "<msgstr form='0'>Publisher</msgstr> <msgstr form='1'>Publishers</msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>དཔེ་བསྐྲུན་པ</msgstr> <msgstr form='1'>དཔེ་བསྐྲུན་པ་ཚུ་</msgstr>"
+
+#~ msgid ""
+#~ "<msgstr form='0'>Translator</msgstr> <msgstr form='1'>Translators</msgstr>"
+#~ msgstr ""
+#~ "<msgstr form='0'>སྐད་བསྒྱུརཔ་</msgstr> <msgstr form='1'>སྐད་བསྒྱུརཔ་ཚུ་</msgstr>"
+
+#~ msgid "A:&#x2003;"
+#~ msgstr "ཨེ་:&#ཨེགསི་༢༠༠༣;"
+
+#~ msgid "About This Document"
+#~ msgstr "ཡིག་ཆ་འདི་གི་སྐོར་ལས།"
+
+#~ msgid "Affiliation"
+#~ msgstr "འབྲེལ་གཏོགས།"
+
+#~ msgid "Caution"
+#~ msgstr "དྲནམ་བཏོན།"
+
+#~ msgid "Contents"
+#~ msgstr "ནང་དོན།"
+
+#~ msgid "Email"
+#~ msgstr "གློག་འཕྲིན།"
+
+#~ msgid "Legal Notice"
+#~ msgstr "ཁྲིམས་དོན་བརྡ་བསྐུལ།"
+
+#~ msgid "Name"
+#~ msgstr "མིང་།"
+
+#~ msgid "Preface"
+#~ msgstr "སྔོན་བརྗོད།"
+
+#~ msgid "Q:&#x2003;"
+#~ msgstr "ཀིའུ་:&#ཨེགསི་༢༠༠༣;"
+
+#~ msgid "Revision History"
+#~ msgstr "བསྐྱར་ཞིབ་ལོ་རྒྱུས།"
+
+#~ msgid "See"
+#~ msgstr "བལྟ།"
+
+#~ msgid "format.appendix.label"
+#~ msgstr "format.appendix.label"
+
+#~ msgid "format.chapter.label"
+#~ msgstr "format.chapter.label"
+
+#~ msgid "format.citetitle"
+#~ msgstr "format.citetitle"
+
+#~ msgid "format.date"
+#~ msgstr "format.date"
+
+#~ msgid "format.example.label"
+#~ msgstr "format.example.label"
+
+#~ msgid "format.example.number"
+#~ msgstr "format.example.number"
+
+#~ msgid "format.example.number.flat"
+#~ msgstr "format.example.number.flat"
+
+#~ msgid "format.figure.label"
+#~ msgstr "format.figure.label"
+
+#~ msgid "format.figure.number"
+#~ msgstr "format.figure.number"
+
+#~ msgid "format.figure.number.flat"
+#~ msgstr "format.figure.number.flat"
+
+#~ msgid "format.manvolnum"
+#~ msgstr "format.manvolnum"
+
+#~ msgid "format.part.label"
+#~ msgstr "format.part.label"
+
+#~ msgid "format.part.number"
+#~ msgstr "format.part.number"
+
+#~ msgid "format.quote.inner"
+#~ msgstr "format.quote.inner"
+
+#~ msgid "format.quote.outer"
+#~ msgstr "format.quote.outer"
+
+#~ msgid "format.refentry.label"
+#~ msgstr "format.refentry.label"
+
+#~ msgid "format.section.label"
+#~ msgstr "format.section.label"
+
+#~ msgid "format.table.label"
+#~ msgstr "format.table.label"
+
+#~ msgid "format.table.number"
+#~ msgstr "format.table.number"
+
+#~ msgid "format.table.number.flat"
+#~ msgstr "format.table.number.flat"
+
+#~ msgid "format.tooltip.glossentry"
+#~ msgstr "format.tooltip.glossentry"
+
+#~ msgid "format.tooltip.mailto"
+#~ msgstr "format.tooltip.mailto"
+
+#~ msgid "Message Audience"
+#~ msgstr "འཕྲིན་དོན་གྱི་ལྟདམོ་ལྟ་མི།"
+
+#~ msgid "Message Level"
+#~ msgstr "འཕྲིན་དོན་གྱི་གནས་རིམ།"
+
+#~ msgid "Message Origin"
+#~ msgstr "འཕྲིན་དོན་འགོ་ཐོག་བྱུང་ས།"
+
+#~ msgid "Origin"
+#~ msgstr "འགོ་ཐོག་བྱུང་ས།"
+
+#~ msgid "Reference"
+#~ msgstr "གཞི་བསྟུན།"
+
+#~ msgid "Set Index"
+#~ msgstr "ཟུར་ཐོ་གཞི་སྒྲིག་འབད།"
+
+#~ msgid "Table of Contents"
+#~ msgstr "དཀར་ཆག"
+
+#~ msgid "Title"
+#~ msgstr "མགོ་མིང་།"

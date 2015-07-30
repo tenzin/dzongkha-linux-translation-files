@@ -1,0 +1,72 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 2002
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Boris Zbarsky <bzbarsky@mit.edu>  (original author)
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from locale/dz-BT/global/layout_errors.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: firefox 1.5-xpi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-11 17:08+0600\n"
+"PO-Revision-Date: 2007-01-16 15:04+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 0.10.1\n"
+"X-Accelerator-Marker: &\n"
+
+#: ImageMapRectBoundsError
+msgid "The \"coords\" attribute of the <area shape=\"rect\"> tag is not in the \"left,top,right,bottom\" format."
+msgstr " \"coords\" <area shape=\"rect\"> གི་སྒྲུབ་རྟགས་ངོ་རྟགས་དེ་  \"left,top,right,bottom\" རྩ་སྒྲིག་ནང་མིན་འདུག།"
+
+#: ImageMapCircleWrongNumberOfCoords
+msgid "The \"coords\" attribute of the <area shape=\"circle\"> tag is not in the \"center-x,center-y,radius\" format."
+msgstr " \"coords\" <area shape=\"circle\"> གི་སྒྲུབ་རྟགས་ངོ་རྟགས་དེ་  \"center-x,center-y,radius\"རྩ་སྒྲིག་ནང་མིན་འདུག།"
+
+#: ImageMapCircleNegativeRadius
+msgid "The \"coords\" attribute of the <area shape=\"circle\"> tag has a negative radius."
+msgstr "<area shape=\"circle\">ངོ་རྟགས་ཀྱི་ \"coords\" སྒྲུབ་རྟགས་དེ་ལུ་ མཐའ་འཁོར་མེད་པའི་ངོ་རྟགས་ཅིག་འདུག།"
+
+#: ImageMapPolyWrongNumberOfCoords
+msgid "The \"coords\" attribute of the <area shape=\"poly\"> tag is not in the \"x1,y1,x2,y2 ...\" format."
+msgstr " \"coords\" <area shape=\"poly\"> གི་སྒྲུབ་རྟགས་ངོ་རྟགས་དེ་   \"x1,y1,x2,y2 ...\" རྩ་སྒྲིག་ནང་མིན་འདུག།"
+
+#: ImageMapPolyOddNumberOfCoords
+msgid "The \"coords\" attribute of the <area shape=\"poly\"> tag is missing the last \"y\" coordinate (the correct format is \"x1,y1,x2,y2 ...\")."
+msgstr "<area shape=\"poly\">ངོ་རྟགས་ཀྱི་ \"coords\" སྒྲུབ་རྟགས་དེ་\"y\" ཆ་སྙོམ་ནང་མིན་འདུག། (རྩ་སྒྲིག་བདེན་པ་དེ་ \"x1,y1,x2,y2 ...\"ཨིན)"
+

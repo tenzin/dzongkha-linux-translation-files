@@ -1,0 +1,2798 @@
+# translation of xsane.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xsane\n"
+"POT-Creation-Date: 2006-01-07 00:26+0100\n"
+"PO-Revision-Date: 2006-04-11 11:14-0500\n"
+"Last-Translator: \n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plurals=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Please translate this to the correct directory name (eg. german=>de)
+#. XSANE_LANGUAGE_DIR
+msgid "language_dir"
+msgstr "སྐད་ཡིག་_སྣོད་ཐོ།"
+
+#. XSANE_COPYRIGHT_SIGN
+msgid "(c)"
+msgstr "(c)"
+
+#. can be translated with \251
+#. FILENAME_PREFIX_CLONE_OF
+msgid "clone-of-"
+msgstr "༙-གི-ངོ་འདྲ།"
+
+#. WINDOW_ABOUT_XSANE
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#. WINDOW_ABOUT_TRANSLATION, MENU_ITEM_ABOUT_TRANSLATION
+msgid "About translation"
+msgstr ".སྒཱ་བསྒྱུར་གི་ྱསྐོར་ལས།"
+
+#. WINDOW_AUTHORIZE
+msgid "authorization"
+msgstr "དབང་སྤྲོད།"
+
+#. WINDOW_GPL
+msgid "GPL - the license"
+msgstr "ཇི་པི་ཨེལ་-ཆོག་ཐམ་དེ།"
+
+#. WINDOW_EULA
+msgid "End User License Agreement"
+msgstr "ཆོག་ཐམ་མཇུག་གི་ལག་ལེན་པའི་གན་འཛིན།"
+
+#. WINDOW_INFO
+msgid "info"
+msgstr "བརྡ་དོན།"
+
+#. WINDOW_LOAD_BATCH_LIST
+msgid "load batch list"
+msgstr "བཀལ་བཙུགས་རུ་ཚན་གྱི་ཐོ།"
+
+#. WINDOW_SAVE_BATCH_LIST
+msgid "save batch list"
+msgstr "རུ་ཚན་གྱི་ཐོ་སྲུང་བཞག་འབད།"
+
+#. WINDOW_BATCH_SCAN
+msgid "batch scan"
+msgstr "རུ་ཚན་སི་ཀེན"
+
+#. WINDOW_BATCH_RENAME
+msgid "rename batch area"
+msgstr "རུ་ཚན་གྱི་མངའ་ཁོངས་བསྐྱར་མིང་བཏགས།"
+
+#. WINDOW_FAX_PROJECT
+msgid "fax project"
+msgstr "དཔར་འཕྲིན་ལས་འགུལ།"
+
+#. WINDOW_FAX_RENAME
+msgid "rename fax page"
+msgstr "དཔར་འཕྲིན་གྱི་ཤོག་ལེབ་བསྐྱར་མིང་བཏགས།"
+
+#. WINDOW_FAX_INSERT
+msgid "insert ps-file into fax"
+msgstr "པི་ཨེསི་ཡིག་སྣོད་དཔར་འཕྲིནནང་ན་བཙུགས།"
+
+#. WINDOW_EMAIL_PROJECT
+msgid "E-mail project"
+msgstr "གློག་འཕྲིན་ལས་འགུལ།"
+
+#. WINDOW_EMAIL_RENAME
+msgid "rename e-mail image"
+msgstr "གློག་འཕྲིན་གྱི་གཟུགས་བརྙན་བསྐྱར་མིང་བཏགས།"
+
+#. WINDOW_EMAIL_INSERT
+msgid "insert file into e-mail"
+msgstr "ཡིག་སྣོད་གློག་འཕྲིན་གྱི་ནང་ན་བཙུགས།"
+
+#. WINDOW_MULTIPAGE_PROJECT
+msgid "multipage project"
+msgstr "སྣ་མང་ཤོག་ལེབ་ལས་འགུལ།"
+
+#. WINDOW_PRESET_AREA_RENAME
+msgid "rename preset area"
+msgstr "སྔོན་སྒྲིག་མངའ་ཁོངས་བསྐྱར་མིང་བཏགས།"
+
+#. WINDOW_PRESET_AREA_ADD
+msgid "add preset area"
+msgstr "སྔོན་སྒྲིག་མངའ་ཁོངས་ཁ་སྐོང་རྐྱབས།"
+
+#. WINDOW_MEDIUM_RENAME
+msgid "rename medium"
+msgstr "བརྡ་ལམ་བསྐྱར་མིང་བཏགས།"
+
+#. WINDOW_MEDIUM_ADD
+msgid "add new medium"
+msgstr "བརྡ་ལམ་གསརཔ་ཁ་སྐོང་རྐྱབས།"
+
+#. WINDOW_SETUP
+msgid "setup"
+msgstr "ཡར་གཞི་སྒྲིག་འབད།"
+
+#. WINDOW_HISTOGRAM
+msgid "Histogram"
+msgstr "ཧིསི་ཊོ་ག་རམ། "
+
+#. WINDOW_GAMMA
+msgid "Gamma curve"
+msgstr "གམ་མ་གཡོ་གཡོཝ/curve."
+
+#. WINDOW_STANDARD_OPTIONS
+msgid "Standard options"
+msgstr "ཚད་ལྡན་གདམ་ཁ།"
+
+#. WINDOW_ADVANCED_OPTIONS
+msgid "Advanced options"
+msgstr "མཐོ་རིམ་གདམ་ཁ།"
+
+#. WINDOW_DEVICE_SELECTION
+msgid "device selection"
+msgstr "ཐབས་འཕྲུལ་སེལ་འཐུ།"
+
+#. WINDOW_PREVIEW
+msgid "Preview"
+msgstr "སྔོན་ལྟ།"
+
+#. WINDOW_VIEWER
+msgid "Viewer"
+msgstr "མཐོང་བྱེད།"
+
+#. WINDOW_VIEWER_OUTPUT_FILENAME
+msgid "Viewer: select output filename"
+msgstr "མཐོང་བྱེད:ཨའུཊི་པུཊི་ལེ་ཚན་མིང་སེལ་འཐུ་འབད།"
+
+#. WINDOW_OCR_OUTPUT_FILENAME
+msgid "Select output filename for OCR text file"
+msgstr "ཨའུཊི་པུཊི་ལེ་ཚན་མིང་ཨོ་སི་ཨར་ཚིག་ཡིག་ལེ་ཚན་གྱི་དོན་ལུ་སེལ་འཐུ་འབད།"
+
+#. WINDOW_OUTPUT_FILENAME
+msgid "select output filename"
+msgstr "ཨའུཊི་པུཊི་ལེ་ཚན་མིང་སེལ་འཐུ་འབད།"
+
+#. WINDOW_SAVE_SETTINGS
+msgid "save device settings"
+msgstr "ཐབས་འཕྲུལ་སྒྲིག་སྟངས་སྲུང་བཞག་འབད།"
+
+#. WINDOW_LOAD_SETTINGS
+msgid "load device settings"
+msgstr "ཐབས་འཕྲུལ་སྒྲིག་སྟངས་བཀལ་བཙུགས་འབད།"
+
+#. WINDOW_CHANGE_WORKING_DIR
+msgid "change working directory"
+msgstr "ལཱ་གཡོག་འབད་ནིའི་སྣོད་ཐོ་བསྒྱུར་བཅོས་འབད།"
+
+#. WINDOW_TMP_PATH
+msgid "select temporary directory"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོ་སེལ་འཐུ་འབད།"
+
+#. WINDOW_SCALE
+msgid "Scale image"
+msgstr "ཆ་ཚད་གཟུགས་བརྙན།"
+
+#. WINDOW_DESPECKLE
+msgid "Despeckle image"
+msgstr "ཌྲེསི་པེ་ཀལ་གཟུགས་བརྙན།"
+
+#. WINDOW_BLUR
+msgid "Blur image"
+msgstr "གཟུགས་བརྙན་རབ་རིབ།"
+
+#. WINDOW_STORE_MEDIUM
+msgid "Store medium definition"
+msgstr "མཛོད་ཁང་བརྡ་ལམ་གྱི་ངེས་ཚིག།"
+
+#. WINDOW_NO_DEVICES
+msgid "No devices available"
+msgstr "ཐབས་འཕྲུལ་ཚུ་འཐོབ་ཚུགསཔ་མེད།"
+
+#. MENU_FILE
+msgid "File"
+msgstr "ལེ་ཚན།"
+
+#. MENU_PREFERENCES
+msgid "Preferences"
+msgstr "དགའ་གདམ།"
+
+#. MENU_VIEW
+msgid "View"
+msgstr "མཐོང་སྣང་།"
+
+#. MENU_WINDOW
+msgid "Window"
+msgstr "ཝིན་ཌོ།"
+
+#. MENU_HELP
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#. MENU_EDIT
+msgid "Edit"
+msgstr "ཞུན་དག།"
+
+#. MENU_FILTERS
+msgid "Filters"
+msgstr "ཚགས་མ་ཚུ།"
+
+#. MENU_GEOMETRY
+msgid "Geometry"
+msgstr "འཇལ་རྩིས།"
+
+#. MENU_ITEM_ABOUT_XSANE
+msgid "About XSane"
+msgstr "ཨེགསི་སེན/XSane/སྐོར་ལས།"
+
+#. MENU_ITEM_INFO
+msgid "Info"
+msgstr "བརྡ་དོན།"
+
+#. MENU_ITEM_QUIT
+msgid "Quit"
+msgstr "སྤང་།"
+
+#. MENU_ITEM_SAVE_IMAGE
+msgid "Save image"
+msgstr "གཟུགས་བརྙན་སྲུང་བཞག་འབད།"
+
+#. MENU_ITEM_OCR
+msgid "OCR - save as text"
+msgstr "ཨོ་སི་ཨར་- ཚིག་ཡིག་འབད་སྲུང་བཞག་འབད།"
+
+#. MENU_ITEM_CLONE
+msgid "Clone"
+msgstr "ངོ་འདྲ།"
+
+#. MENU_ITEM_SCALE
+msgid "Scale"
+msgstr "ཆ་ཚད།"
+
+#. MENU_ITEM_CLOSE
+msgid "Close"
+msgstr "ཁ་བསྡམ།"
+
+#. MENU_ITEM_UNDO
+msgid "Undo"
+msgstr "འབད་་བཤོལ།"
+
+#. MENU_ITEM_DESPECKLE
+msgid "Despeckle"
+msgstr "ཌྲེསི་པེ་ཀལ/Despeckle"
+
+#. MENU_ITEM_BLUR
+msgid "Blur"
+msgstr "རབ་རིབ།"
+
+#. MENU_ITEM_ROTATE90
+msgid "Rotate 90"
+msgstr "བསྒྱིར་༩༠"
+
+#. MENU_ITEM_ROTATE180
+msgid "Rotate 180"
+msgstr "བསྒྱིར་༡༨༠"
+
+#. MENU_ITEM_ROTATE270
+msgid "Rotate 270"
+msgstr "བསྒྱིར་༢༧༠"
+
+#. MENU_ITEM_MIRROR_X
+msgid "Mirror |"
+msgstr "མི་རར/Mirror་།"
+
+#. MENU_ITEM_MIRROR_Y
+msgid "Mirror -"
+msgstr "མི་རར་/Mirror་-"
+
+#. FRAME_RAW_IMAGE
+msgid "Raw image"
+msgstr "གཟུགས་བརྙན་རགས་པ།"
+
+#. FRAME_ENHANCED_IMAGE
+msgid "Enhanced image"
+msgstr "གཟུགས་བརྙན་གོང་སྤེལ།"
+
+#. BUTTON_SCAN
+msgid "Scan"
+msgstr "སི་ཀེན།"
+
+#. BUTTON_OK
+msgid "Ok"
+msgstr "བཏུབ།"
+
+#. BUTTON_ACCEPT
+msgid "Accept"
+msgstr "དང་ལེན།"
+
+#. BUTTON_NOT_ACCEPT
+msgid "Not accept"
+msgstr "དང་ལེན་མ་འབད།"
+
+#. BUTTON_APPLY
+msgid "Apply"
+msgstr "འཇུག་སྤྱོད་འབད།"
+
+#. BUTTON_CANCEL
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་།"
+
+#. BUTTON_REDUCE
+msgid "Reduce"
+msgstr "མར་ཕབ/Reduce"
+
+#. BUTTON_CONT_AT_OWN_RISK
+msgid "Continue at your own risk"
+msgstr "རང་གི་ཉན་ཁག་/risk/ཐོག་འཕྲོ་མཐུད་འབད།"
+
+#. BUTTON_BROWSE
+msgid "Browse"
+msgstr "བརྡ་འཚོལ།"
+
+#. BUTTON_OVERWRITE
+msgid "Overwrite"
+msgstr "སླར་སྲུང་འབད་ནི།"
+
+#. BUTTON_BATCH_LIST_SCAN
+msgid "Scan batch list"
+msgstr "རུ་ཚན་གྱི་ཐོ་སི་ཀེན་འབད།"
+
+#. BUTTON_BATCH_AREA_SCAN
+msgid "Scan selected area"
+msgstr "སེལ་འཐུ་འབད་བའི་མངའ་ཁོངས་ཚུ་སི་ཀེན་འབད།"
+
+#. BUTTON_PAGE_DELETE
+msgid "Delete page"
+msgstr "ཤོག་ལེབ་བཏོན་གཏང་།"
+
+#. BUTTON_PAGE_SHOW
+msgid "Show page"
+msgstr "ཤོག་ལེབ་སྟོན།"
+
+#. BUTTON_PAGE_RENAME
+msgid "Rename page"
+msgstr "ཤོག་ལེབ་བསྐྱར་མིང་བཏགས།"
+
+#. BUTTON_IMAGE_DELETE
+msgid "Delete image"
+msgstr "གཟུགས་བརྙན་བཏོན་བཏང་།"
+
+#. BUTTON_IMAGE_SHOW
+msgid "Show image"
+msgstr "གཟུགས་བརྙན་སྟོན།"
+
+#. BUTTON_IMAGE_EDIT
+msgid "Edit image"
+msgstr "གཟུགས་བརྙན་ཞུན་དག་འབད།"
+
+#. BUTTON_IMAGE_RENAME
+msgid "Rename image"
+msgstr "གཟུགས་བརྙན་བསྐྱར་མིང་བཏགས།"
+
+#. BUTTON_FILE_INSERT
+msgid "Insert file"
+msgstr "ལེ་ཚན་ནང་ན་བཙུགས།"
+
+#. BUTTON_CREATE_PROJECT
+msgid "Create project"
+msgstr "ལས་འགུལ་གསར་བསྐྲུན་འབད།"
+
+#. BUTTON_SEND_PROJECT
+msgid "Send project"
+msgstr "ལས་འགུལ་གཏང་།"
+
+#. BUTTON_SAVE_MULTIPAGE
+msgid "Save multipage file"
+msgstr "ལེ་ཚན་སྣ་མང་ཤོག་ལེབ་སྲུང་བཞག་འབད།"
+
+#. BUTTON_DELETE_PROJECT
+msgid "Delete project"
+msgstr "ལས་འགུལ་བཏོན་བཏང་།"
+
+#. BUTTON_ADD_PRINTER
+msgid "Add printer"
+msgstr "དཔར་འཕྲུལ་ཁ་སྐོང་འབད།"
+
+#. BUTTON_DELETE_PRINTER
+msgid "Delete printer"
+msgstr "དཔར་འཕྲུལ་བཏོན་བཏང་།"
+
+#. BUTTON_PREVIEW_ACQUIRE
+msgid "Acquire preview"
+msgstr "སྔོན་ལྟ་ཐོབ་ནི/Acquire"
+
+#. BUTTON_PREVIEW_CANCEL
+msgid "Cancel preview"
+msgstr "སྔོན་ལྟ་ཆ་མེད་གཏང་།"
+
+#. BUTTON_DISCARD_IMAGE
+msgid "Discard image"
+msgstr "གཟུགས་བརྙན་བཏོན་བཀོག།"
+
+#. BUTTON_DISCARD_ALL_IMAGES
+msgid "Discard all images"
+msgstr "གཟུགསབརྙན་ག་ར་བཏོན་བཀོག།"
+
+#. BUTTON_DO_NOT_CLOSE
+msgid "Do not close"
+msgstr "ཁ་མ་བསྡམ།"
+
+#. BUTTON_SCALE_BIND
+msgid "Bind scale"
+msgstr "ཆ་ཚད་བསྡམ།"
+
+#. RADIO_BUTTON_FINE_MODE
+msgid "Fine mode"
+msgstr "ཐབས་ལམ་ལེགས་ཤོམ།"
+
+#. RADIO_BUTTON_HTML_EMAIL
+msgid "HTML e-mail"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་གློག་འཕྲིན།"
+
+#. RADIO_BUTTON_SAVE_DEVPREFS_AT_EXIT
+msgid "Save device preferences at exit"
+msgstr "ཐབས་འཕྲུལ་དགའ་གདམ་ཕྱིར་ཐོན་ཐོག་སྲུང་བཞག་འབད།"
+
+#. RADIO_BUTTON_OVERWRITE_WARNING
+msgid "Overwrite warning"
+msgstr "སླར་སྲུང་འབད་ནིའི་ཉེན་བརྡ།"
+
+#. RADIO_BUTTON_SKIP_EXISTING_NRS
+msgid "Skip existing filenames"
+msgstr "ལེ་ཚན་མིང་ཡོད་མི་ཚུ་གོམ་འགྱོ།"
+
+#. RADIO_BUTTON_SAVE_PS_FLATDECODED
+msgid "Save postscript zlib compressed (ps level 3)"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ཟི་ལིབ་གཡེབ་བཙུགས་མི་ཚུ་སྲུང་བཞག་འབད།"
+
+#. RADIO_BUTTON_SAVE_PDF_FLATDECODED
+msgid "Save PDF zlib compressed"
+msgstr "པི་ཌི་ཨེཕི་ཟི་ལིབ་གཡེབ་བཙུགས་ཏེ་སྲུང་བཞག་འབད།"
+
+#. RADIO_BUTTON_SAVE_PNM16_AS_ASCII
+msgid "Save 16bit pnm in ascii format"
+msgstr "༡༦བིཊི་པི་ཨེན་ཨེམ་དེ་ ཨེ་ཨེསི་སི་ཨའི་ཨའི་རྩ་སྒྲིག་ནང་ལུ་སྲུང་བཞག་འབད།"
+
+#. RADIO_BUTTON_REDUCE_16BIT_TO_8BIT
+msgid "Reduce 16 bit image to 8 bit"
+msgstr "༡༦བིཊི་གཟུགས་བརྙན་དེ་ ༨བིཊི་ལུ་མར་ཕབ་འབད།"
+
+#. RADIO_BUTTON_WINDOW_FIXED
+msgid "Main window size fixed"
+msgstr "ཝིན་ཌོ་གཙོ་བོའི་ཚད་གཏན་བཟོས་ཡོད།"
+
+#. RADIO_BUTTON_DISABLE_GIMP_PREVIEW_GAMMA
+msgid "Disable gimp preview gamma"
+msgstr "ཇིམཔི/gimp/སྔོན་ལྟ་གམ་མ་ལྕོགས་མིན་བཟོ།"
+
+#. RADIO_BUTTON_PRIVATE_COLORMAP
+msgid "Use private colormap"
+msgstr "སྒེར་གིྱ་ཚོས་གཞི་ས་ཁྲ་ལག་ལེན་ཐབ།"
+
+#. RADIO_BUTTON_AUTOENHANCE_GAMMA
+msgid "Autoenhance gamma"
+msgstr "རང་བཞིན་གོང་སྤེལ་གམ་མ།"
+
+#. RADIO_BUTTON_PRESELECT_SCANAREA
+msgid "Preselect scanarea"
+msgstr "སྔོན་མ་སེལ་འཐུ་འབད་བའི་སི་ཀེན་མངའ་ཁོངས།"
+
+#. RADIO_BUTTON_AUTOCORRECT_COLORS
+msgid "Autocorrect colors"
+msgstr "རང་བཞིན་ངེས་བདེན་ཚོས་གཞི་ཚུ།"
+
+#. RADIO_BUTTON_OCR_USE_GUI_PIPE
+msgid "Use GUI progress pipe"
+msgstr "ཇི་ཡུ་ཨའི་ཡར་འཕེལ་རྒྱུད་དུང་དེ་ལག་ལེན་འཐབ།"
+
+#. TEXT_SCANNING_DEVICES
+msgid "scanning for devices"
+msgstr "ཐབས་འཕྲུལ་གྱི་དོན་ལུ་ཞིབ་ལྟ།"
+
+#. TEXT_AVAILABLE_DEVICES
+msgid "Available devices:"
+msgstr "ཐབས་འཕྲུལ་འཐོབ་ཚུགསཔ།"
+
+#. TEXT_XSANE_OPTIONS
+msgid "XSane options"
+msgstr "ཨེགསི་སེན་གྱི་གདམ་ཁ།"
+
+#. TEXT_FILETYPE
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#. TEXT_SCANNER_BACKEND
+msgid "Scanner and backend:"
+msgstr "པར་ལེན་འཕྲུལ་ཆས་དང་རྒྱབ་མཐའ:"
+
+#. TEXT_VENDOR
+msgid "Vendor:"
+msgstr "ཚོང་པ:"
+
+#. TEXT_MODEL
+msgid "Model:"
+msgstr "དཔེ:"
+
+#. TEXT_TYPE
+msgid "Type:"
+msgstr "དབྱེ་བ:"
+
+#. TEXT_DEVICE
+msgid "Device:"
+msgstr "ཐབས་འཕྲུལ:"
+
+#. TEXT_LOADED_BACKEND
+msgid "Loaded backend:"
+msgstr "བཀལ་བཙུགས་འབད་ཡོད་པའི་རྒྱབ་མཐའ:"
+
+#. TEXT_SANE_VERSION
+msgid "Sane version:"
+msgstr "སེན་བར་ཤཱན:"
+
+#. TEXT_RECENT_VALUES
+msgid "Recent values:"
+msgstr "འཕྲལ་ཁམས་ཀྱི་གནས་གོང་:"
+
+#. TEXT_GAMMA_CORR_BY
+msgid "Gamma correction by:"
+msgstr "གམ་མ་ནོར་བཅོས་འབད་མི:"
+
+#. TEXT_SCANNER
+msgid "scanner"
+msgstr "པར་ལེན་འཕྲུལ་ཆས།"
+
+#. TEXT_SOFTWARE_XSANE
+msgid "software (XSane)"
+msgstr "མཉེན་ཆས།(ཨེགསི་སེན)"
+
+#. TEXT_NONE
+msgid "none"
+msgstr "ཅི་མེད།"
+
+#. TEXT_GAMMA_INPUT_DEPTH
+msgid "Gamma input depth:"
+msgstr "གམ་མ་ཨིན་པུཊི་གཏིང་ཚད་:"
+
+#. TEXT_GAMMA_OUTPUT_DEPTH
+msgid "Gamma output depth:"
+msgstr "གམ་མ་ཨའུཊི་པུཊི་གཏིང་ཚད་:"
+
+#. TEXT_SCANNER_OUTPUT_DEPTH
+msgid "Scanner output depth:"
+msgstr "པར་ལེན་འཕྲེལ་ཆས་ཨའུཊི་པུཊི་གཏིང་ཚད་:"
+
+#. TEXT_OUTPUT_FORMATS
+msgid "XSane output formats:"
+msgstr "ཨེགསི་སེན་ཨའུཊི་པུཊི་རྩ་སྒྲིག་:"
+
+#. TEXT_8BIT_FORMATS
+msgid "8 bit output formats:"
+msgstr "༨བིཊི་ཨའུཊི་པུཊི་རྩ་སྒྲིག:"
+
+#. TEXT_16BIT_FORMATS
+msgid "16 bit output formats:"
+msgstr "༡༦བིཊི་ཨའུཊི་པུཊི་རྩ་སྒྲིག:"
+
+#. TEXT_GIMP_REDUCE_16BIT_TO_8BIT
+msgid ""
+"Gimp does not support depth 16 bits/color.\n"
+"Do you want to reduce the depth to 8 bits/color?"
+msgstr ""
+"ཇིམཔི་གིས་གཏིང་ཚད་༡༦བིཊི་/ཚོས་གཞི་ལུ་རྒྱབ་སྐྱོར་མི་འབད།.\n"
+"ཁྱོད་གཏིང་ཚད་འདི་༨བིཊི་ལུ་མར་ཕབ་འབད་ནི་ཨིན་ན?"
+
+#. TEXT_REDUCE_16BIT_TO_8BIT
+msgid ""
+"Bit depth 16 bits/color is not supported for this output format.\n"
+"Do you want to reduce the depth to 8 bits/color?"
+msgstr ""
+"བིཊི་གཏིང་ཚད་༡༦བིཊིསི་/ཚོས་གཞི་འདི་རྩ་སྒྲིག་དེ་གི་དོན་ལུ་རྒྱབ་སྐྱོར་མ་འབད།\n"
+"ཁྱོད་གཏིང་ཚད་འདི་༨བིཊིསི་/ཚོས་གཞི་ལུ་མར་ཕབ་འབད་ནི་ཨིན་ན?"
+
+#. TEXT_AUTHORIZATION_REQ
+msgid "Authorization required for"
+msgstr "དབང་སྤྲོད་དགོས་མཁོ་ཡོད་པའི་དོན་ལུ།"
+
+#. TEXT_AUTHORIZATION_SECURE
+msgid "Password transmission is secure"
+msgstr "ཆོག་ཡིག་སྤེལ་བཀྲམ་དེ་མཐའ་བཙན་ཨིན།"
+
+#. TEXT_AUTHORIZATION_INSECURE
+msgid "Backend requests plain-text password"
+msgstr "རྒྱབ་མཐའ་གི་ཉག་རྐྱང་-ཚིག་ཡིག་གི་ཆོག་ཡིག་དགོ་པའི་ཞུ་བ།"
+
+#. TEXT_USERNAME
+msgid "Username :"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#. TEXT_PASSWORD
+msgid "Password :"
+msgstr "ཆོག་ཡིག་:"
+
+#. TEXT_INVALID_PARAMS
+msgid "Invalid parameters."
+msgstr "ནུས་མེད་པེ་ར་མི་ཊརསི།"
+
+#. TEXT_VERSION
+msgid "version:"
+msgstr "ཐོན་རིམ་:"
+
+#. TEXT_PACKAGE
+msgid "package"
+msgstr " ཐུམ་སྒྲིལ།"
+
+#. TEXT_WITH_GIMP_SUPPORT
+msgid "with GIMP support"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི་རྒྱབ་སྐྱོར་ཐོག་ལས།"
+
+#. TEXT_WITHOUT_GIMP_SUPPORT
+msgid "without GIMP support"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི་རྒྱབ་སྐྱོར་མེད་པ།"
+
+#. TEXT_GTK_VERSION
+msgid "compiled with GTK-"
+msgstr "ཇི་ཊི་ཀེ་གི་ཐོག་ལས་ཕྱོགས་སྒྲིག་འབད་འབདཝ།"
+
+#. TEXT_GIMP_VERSION
+msgid "compiled with GIMP-"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི་ཐོག་ལས་ཕྱོགས་སྒྲིག་འབད་འབདཝ།"
+
+#. TEXT_UNKNOWN
+msgid "unknown"
+msgstr "མ་ཤེསཔ།"
+
+#. TEXT_EULA
+msgid ""
+"XSane is distributed under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2 of the\n"
+"License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but\n"
+"WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"Should the program prove defective, you assume the cost of all\n"
+"necessary servicing, repair or correction. To use this program you\n"
+"have to read, understand and accept the following\n"
+"\"NO WARRANTY\" agreement.\n"
+msgstr ""
+"ཨེགསི་སེན་དེ་ཇི་ཨེན་ཡུའུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གིྱ་ཐ་སྙད་འོག་ལུ་བགོ་བཀྲམ་འབད་དེབར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་དཔེ་བསྐྲུན་འབད་དོ་བཟུམ་:ཡང་ཅིན་ཐོན་རིམ་༢ཀྱིཆོག་ཐམ་,ཡང་ན་(ཁྱོད་རའི་གདམ་ཁ་ཐོག་)ཐོན་རིམ་ཤུལ་ལས་ག་འབད་རུང་\n"
+"འ་ནི་ལས་འགུལ་དེ་ཕན་ཐོག་ཅན་ཅིག་གི་རེ་བ་ལུ་སྦེ་བགོ་བཀྲམ་འབད་འབདཝ་ཨིན་;དེ་འབདཝ་ད\n"
+"ངེས་ལེན་ག་ནི་ཡང་མེད་པར་;ཐ་ན་འབྲེལ་བ་མེད་པའི་ངེས་ལེན་གྱི་\n"
+"ཚོང་མགྲོན་པ་ཡང་ན་ཚུད་སྒྲིག་གི་དོན་ལུ་དམིགས་བསལ་གཅིག་གི་དགོས་དོན།\n"
+"ལས་འགུལ་དེ་སྐྱོན་ཅན་ཨིནམ་འདྲཝ་འབདན་,འདི་ག་ར་གི་གོང་ཚད་ཚོད་དཔག་སྟེ་\n"
+"ཁག་ཆེ་བའི་ཞབས་ཏོག་ཞུ་ནི་,ཉམས་བཅོས་ཡང་ན་ནོར་བཅོས་འབད་ནི།འ་ནི་ལས་འགུལ་ལག་ལེན་ཐབ་ནི་གི་དོན་ལུ་ཁྱོད་\n"
+"ཀྱིས་འོག་ལུ་ཡོད་མི་\"ངེས་ལེན་མེད་པའི་\"གན་འཛིན་ཚུ་ལྷག་,ཧ་གོ་དེ་ལས་དང་ལེན་འབད་དགོ།\n"
+
+#. TEXT_GPL
+msgid ""
+"XSane is distributed under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2 of the\n"
+"License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but\n"
+"WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"ཨེགསི་སེན་དེ་ཇི་ཨེན་ཡུའུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ཐ་སྙད་འོག་ལུ་བགོ་བཀྲམ་འབད་\n"
+"བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་འབད་དོ་བཟུམ་;ཐོན་རིམ་༢་ཀྱི\n"
+"ཆོག་ཐམ་,ཡང་ན་(ཁྱོད་རའི་གདམ་ཁ་ཐོག)ཐོན་རིམ་ཤུལ་ལས་ག་འབད་རུང་།\n"
+"\n"
+"འ་ནི་ལས་འགུལ་དེ་ཕན་ཐོག་ཅན་ཅིག་གི་རེ་བ་ལུ་སྦེ་བགོ་བཀྲམ་འབད་འབདཝ་ཨིན་,དེ་འབདཝ་ད\n"
+"ངེས་ལེན་ག་ནི་ཡང་མེད་པར་;ཐ་ན་འབྲེལ་ཡོད་ངེས་ལེན་གིྱ\n"
+"ཚོང་མགྲོན་པ་ཡང་ན་ཚུད་སྒྲིག་གི་དོན་ལུ་དམིགས་བསལ་གཅིག་གི་དགོས་དོན་ག་ནི་ཡང་མེད་པར།\n"
+
+#. TEXT_EMAIL_ADR
+msgid "E-mail:"
+msgstr "གློག་འཕྲིན:"
+
+#. TEXT_HOMEPAGE
+msgid "Homepage:"
+msgstr "ཁྱིམ་ཤོག་ལེབ།:"
+
+#. TEXT_FILE
+msgid "File:"
+msgstr "ལེ་ཚན:"
+
+#. TEXT_TRANSLATION
+msgid "Translation:"
+msgstr "སྐད་བསྒྱུར་:"
+
+#. Please translate this to something like
+#. translation to YOUR LANGUAGE\n
+#. by YOUR NAME\nརྫ
+#. E-mail: your.name@yourdomain.com\n
+#. TEXT_TRANSLATION_INFO
+msgid ""
+"untranslated original english text\n"
+"by Oliver Rauch\n"
+"E-mail: Oliver.Rauch@rauch-domain.de\n"
+msgstr ""
+"བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ཀྱིས་\n"
+"སྐད་བསྒྱུར་མ་འབད་མི་རྫོང་ཁའི་ཚིག་ཡིག་ངོ་མ།\n"
+"གློག་འཕྲིན:Pgyeleg@dit.gov.bt\n"
+
+#. TEXT_INFO_BOX
+msgid "0x0: 0KB"
+msgstr "ཨོ་ཨེགསི་ཨོ་:ཨོ་ཀེ་བི།"
+
+#. TEXT_ADF_PAGES_SCANNED
+msgid "Scanned pages: "
+msgstr "ཤོག་ལེབ་ཞིབ་ལྟ་འབད་འབདཝ:"
+
+#. TEXT_EMAIL_TEXT
+msgid "E-mail text:"
+msgstr "གློག་འཕྲིན་ཚིག་ཡིག:"
+
+#. TEXT_ATTACHMENTS
+msgid "Attachments:"
+msgstr "མཉམ་སྦྲགས:"
+
+#. TEXT_EMAIL_STATUS
+msgid "Project status:"
+msgstr "ལས་འགུལ་གནས་ཚད:"
+
+#. TEXT_EMAIL_FILETYPE
+msgid "E-mail image filetype:"
+msgstr "གློག་འཕྲིན་གྱི་གཟུགས་བརྙན་ལེ་ཚན་དབྱེ་བ:"
+
+#. TEXT_PAGES
+msgid "Pages:"
+msgstr "ཤོག་ལེབ:"
+
+#. TEXT_MULTIPAGE_FILETYPE
+msgid "Multipage document filetype:"
+msgstr "སྣ་མང་ཤོག་ལེབ་ཀྱི་ཡིག་ཆ་ལེ་ཚན་དབྱེ་བ:"
+
+#. TEXT_MEDIUM_DEFINITION_NAME
+msgid "Medium Name:"
+msgstr "བརྡ་ལམ་གྱི་མིང་:"
+
+#. TEXT_VIEWER_IMAGE_INFO
+#, c-format
+msgid "Size %d x %d pixel, %d bit/color, %d colors, %1.0f dpi x %1.0f dpi, %1.1f %s"
+msgstr "ཚད་%dཨེགསི་%dཔིག་སེལ་,%dབིཊི/ཚོས་གཞི་,%dཚོས་གཞི་,%1.0f ཌྲི་པི་ཨའི་ཨེགས་%1.0f ཌྲི་པི་ཨའི་,%1.1f%s"
+
+#. TEXT_DESPECKLE_RADIUS
+msgid "Despeckle radius:"
+msgstr "ཌྲེས་པེ་ཀལ་མཐའ་འཁོར་:"
+
+#. TEXT_BLUR_RADIUS
+msgid "Blur radius:"
+msgstr "རབ་རིབ་མཐའ་འཁོར:"
+
+#. TEXT_BATCH_AREA_DEFAULT_NAME
+msgid "(no name)"
+msgstr "(མིང་མེད)"
+
+#. TEXT_BATCH_LIST_AREANAME
+msgid "Area name:"
+msgstr "མངའ་ཁོངས་ཀྱི་མིང:"
+
+#. TEXT_BATCH_LIST_SCANMODE
+msgid "Scanmode:"
+msgstr "སི་ཀེན་ཐབས་ལམ:"
+
+#. TEXT_BATCH_LIST_GEOMETRY_TL
+msgid "Top left:"
+msgstr "མགོ་གི་གཡོན།་:"
+
+#. TEXT_BATCH_LIST_GEOMETRY_SIZE
+msgid "Size:"
+msgstr "ཚད:"
+
+#. TEXT_BATCH_LIST_RESOLUTION
+msgid "Resolution:"
+msgstr "ཧུམ་ཆ:"
+
+#. TEXT_BATCH_LIST_BIT_DEPTH
+msgid "Bit depth:"
+msgstr "བིཊི་གི་གཏིང་ཚད:"
+
+#. TEXT_BATCH_LIST_BY_GUI
+msgid "as selected"
+msgstr "སེལ་འཐུ་གྲུབ་གྲུབ་བཟུམ་སྦེ།"
+
+#. TEXT_SETUP_PRINTER_SEL
+msgid "Printer selection:"
+msgstr "དཔར་འཕྲུལ་སེལ་འཐུ།:"
+
+#. TEXT_SETUP_PRINTER_NAME
+msgid "Name:"
+msgstr "མིང་:"
+
+#. TEXT_SETUP_PRINTER_CMD, TEXT_SETUP_FAX_CMD
+msgid "Command:"
+msgstr "བརྡ་བཀོད:"
+
+#. TEXT_SETUP_COPY_NR_OPT
+msgid "Copy number option:"
+msgstr "འདྲ་བཤུས་གྲངས་ཀྱི་གདམ་ཁ:"
+
+#. TEXT_SETUP_PRINTER_LINEART_RES
+msgid "Lineart resolution (dpi):"
+msgstr "ལའནི་ཨརཊི་གི་ཧུམ་ཆ།(ཌྲི་པི་ཨའི):"
+
+#. TEXT_SETUP_PRINTER_GRAYSCALE_RES
+msgid "Grayscale resolution (dpi):"
+msgstr "གེརེ་སིཀེལ་གི་ཧུམ་ཆ།(ཌྲི་པི་ཨའི):"
+
+#. TEXT_SETUP_PRINTER_COLOR_RES
+msgid "Color resolution (dpi):"
+msgstr "ཚོས་གཞི་གི་ཧུམ་ཆ།(ཌྲི་པི་ཨའི):"
+
+#. TEXT_SETUP_PRINTER_WIDTH
+msgid "Width"
+msgstr "རྒྱ་ཚད།"
+
+#. TEXT_SETUP_PRINTER_HEIGHT
+msgid "Height"
+msgstr "མཐོ་ཚད།"
+
+#. TEXT_SETUP_PRINTER_LEFT
+msgid "Left offset"
+msgstr "གཡོན་གྱི་པར་ལེན།"
+
+#. TEXT_SETUP_PRINTER_BOTTOM
+msgid "Bottom offset"
+msgstr "མཇུག་གྱི་པར་ལེན།"
+
+#. TEXT_SETUP_PRINTER_GAMMA
+msgid "Printer gamma value:"
+msgstr "དཔར་འཕྲུལ་གམ་མ་གི་གནས་གོང་།:"
+
+#. TEXT_SETUP_PRINTER_GAMMA_RED
+msgid "Printer gamma red:"
+msgstr "དཔར་འཕྲུལ་གམ་མ་དམརཔོ།:"
+
+#. TEXT_SETUP_PRINTER_GAMMA_GREEN
+msgid "Printer gamma green:"
+msgstr "དཔར་འཕྲུལ་གམ་མ་ལྗང་ཁུ།:"
+
+#. TEXT_SETUP_PRINTER_GAMMA_BLUE
+msgid "Printer gamma blue:"
+msgstr "དཔར་འཕྲུལ་གམ་མ་ཧོནམ།:"
+
+#. TEXT_SETUP_PRINTER_PS_FLATDECODED
+msgid "Create zlib compressed postscript image (ps level 3) for printing"
+msgstr "དཔར་བསྐྲུན་འབད་ནི་གི་དོན་ལུ་ཟི་ལིབ་གཡེབ་བཙུགས་འབད་འབདཝ་པོསིཊི་སིཀིརིཔཊི་གཟིགས་བརྙན་ (པི་ཨེསི་གནས་རིམ་༣)གསར་བསྐྲུན་འབད།"
+
+#. TEXT_SETUP_TMP_PATH
+msgid "Temporary directory"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོ།"
+
+#. TEXT_SETUP_IMAGE_PERMISSION
+msgid "Image-file permissions"
+msgstr "གཟུགས་བརྙན་ལེ་ཚན་གྱི་གནང་བ།(-f)"
+
+#. TEXT_SETUP_DIR_PERMISSION
+msgid "Directory permissions"
+msgstr "སྣོད་ཐོ་གི་གནང་བ།"
+
+#. TEXT_SETUP_JPEG_QUALITY
+msgid "JPEG image quality"
+msgstr "ཇེ་པི་ཨི་ཇི་གཟུགས་བརྙན་གྱི་སྤུས་ཚད།"
+
+#. TEXT_SETUP_PNG_COMPRESSION
+msgid "PNG image compression"
+msgstr "པི་ཨེན་ཇི་གཟུགས་བརྙན་གཡེབ་བཙུགས།"
+
+#. TEXT_SETUP_FILENAME_COUNTER_LEN
+msgid "Filename counter length"
+msgstr "ལེ་ཚན་མིང་གི་གདོང་ལན་རིང་ཚད།"
+
+#. TEXT_SETUP_TIFF_ZIP_COMPRESSION
+msgid "TIFF zip compression rate"
+msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་གནས་ཡུལ་གཡེབ་བཙུགས་གི་མགྱོགས་ཚད།"
+
+#. TEXT_SETUP_TIFF_COMPRESSION_16
+msgid "TIFF 16 bit image compression"
+msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་༡༦་བིཊི་གཟུགས་བརྙན་གཡེབ་བཙུགས།"
+
+#. TEXT_SETUP_TIFF_COMPRESSION_8
+msgid "TIFF 8 bit image compression"
+msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་༨བིཊི་གཟུགས་བརྙན་གཡེབ་བཙུགས།"
+
+#. TEXT_SETUP_TIFF_COMPRESSION_1
+msgid "TIFF lineart image compression"
+msgstr "ཊི་ཨའི་ཨེཕ་ཨེཕ་ལའནི་ཨརཊིགཟུགས་བརྙན་གཡེབ་བཙུགས།"
+
+#. TEXT_SETUP_SHOW_RANGE_MODE
+msgid "Show range as:"
+msgstr "ཁྱབ་ཚད་འདི་བཟུམ་སྦེ་སྟོན:།"
+
+#. TEXT_SETUP_PREVIEW_OVERSAMPLING
+msgid "Preview oversampling:"
+msgstr "ཨོ་བར་སེམཔ་ལིང་སྔོན་ལྟ་འབད:།"
+
+#. TEXT_SETUP_PREVIEW_GAMMA
+msgid "Preview gamma:"
+msgstr "གམ་མ་སྔོན་ལྟ་འབད:།"
+
+#. TEXT_SETUP_PREVIEW_GAMMA_RED
+msgid "Preview gamma red:"
+msgstr "གམ་མ་དམརཔ་སྔོན་ལྟ་འབད:།"
+
+#. TEXT_SETUP_PREVIEW_GAMMA_GREEN
+msgid "Preview gamma green:"
+msgstr "གམ་མ་ལྗང་ཁུ་སྔོན་ལྟ་འབད:།"
+
+#. TEXT_SETUP_PREVIEW_GAMMA_BLUE
+msgid "Preview gamma blue:"
+msgstr "གམ་མ་ཧོནམ་སྔོན་ལྟ་འབད:།"
+
+#. TEXT_SETUP_LINEART_MODE
+msgid "Threshold option:"
+msgstr "ཐེརེཤ་ཧཱོལ་གདམ་ཁ:།"
+
+#. TEXT_SETUP_PREVIEW_PIPETTE_RANGE
+msgid "Preview pipette range"
+msgstr "པཨའི་པེཊི་གི་ཁྱབ་ཚད་སྔོན་ལྟ་འབད།"
+
+#. TEXT_SETUP_THRESHOLD_MIN
+msgid "Threshold minimum:"
+msgstr "ཐེརེཤ་ཧཱོལ་ཉུང་མཐའ:།"
+
+#. TEXT_SETUP_THRESHOLD_MAX
+msgid "Threshold maximum:"
+msgstr "ཐེརེཤ་ཧཱོལ་མང་མཐའ:།"
+
+#. TEXT_SETUP_THRESHOLD_MUL
+msgid "Threshold multiplier:"
+msgstr "ཐེརེཤ་ཧཱོལ་སྒྱུར་བྱེད:།"
+
+#. TEXT_SETUP_THRESHOLD_OFF
+msgid "Threshold offset:"
+msgstr "ཐེརེཤ་ཧཱོལ་པར་ལེན:།"
+
+#. TEXT_SETUP_GRAYSCALE_SCANMODE
+msgid "Name of grayscale scanmode:"
+msgstr "གེརེ་སིཀེལ་སི་ཀེན་ཐབས་ལམ་གྱི་མིང་:།"
+
+#. TEXT_SETUP_HELPFILE_VIEWER
+msgid "Helpfile viewer (HTML):"
+msgstr "གྲོགས་རམ་ཡིག་སྣོད་ཀྱི་མཐོང་བྱེད།(ཨེཆ་ཊི་ཨེམ་ཨེལ):"
+
+#. TEXT_SETUP_FAX_RECEIVER_OPTION
+msgid "Receiver option:"
+msgstr "ལེན་མའི་གདམ་ཁ:"
+
+#. TEXT_SETUP_FAX_POSTSCRIPT_OPT
+msgid "Postscriptfile option:"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ཡིག་སྣོད་ཀྱི་གདམ་ཁ:"
+
+#. TEXT_SETUP_FAX_NORMAL_MODE_OPT
+msgid "Normal mode option:"
+msgstr "སྤྱིར་བཏང་ཐབས་ལམ་གྱི་གདམ་ཁ:"
+
+#. TEXT_SETUP_FAX_FINE_MODE_OPT
+msgid "Fine mode option:"
+msgstr "ལེགས་པའི་ཐབས་ལམ་གྱི་གདམ་ཁ:"
+
+#. TEXT_SETUP_FAX_PROGRAM_DEFAULTS
+msgid "Set program defaults for:"
+msgstr "ལས་འགུལ་སྔོན་སྒྲིག་གི་དོན་ལུ་གཞི་སྒྲིག་འབད:"
+
+#. TEXT_SETUP_FAX_VIEWER
+msgid "Viewer (Postscript):"
+msgstr "མཐོང་བྱེད(པོསིཊི་སིཀིརིཔཊི):"
+
+#. TEXT_SETUP_FAX_PS_FLATDECODED
+msgid "Create zlib compressed postscript image (ps level 3) for fax"
+msgstr "ཟི་ལིབ་གཡེབ་བཙུགས་པོསིཊི་སིཀིརིཔཊི་གཟུགས་བརྙན་(པི་ཨེསི་གནས་རིམ་༣)དཔར་འཕྲིན་གྱི་དོན་ལུ་གསར་བསྐྲུན་འབད།"
+
+#. TEXT_SETUP_SMTP_SERVER
+msgid "SMTP server:"
+msgstr "ཨེསི་ཨེམ་ཊི་པི་སར་བར:"
+
+#. TEXT_SETUP_SMTP_PORT
+msgid "SMTP port:"
+msgstr "ཨེསི་ཨེམ་ཊི་པི་འདྲེན་ལམ:།"
+
+#. TEXT_SETUP_EMAIL_FROM
+msgid "From:"
+msgstr "ལས་:"
+
+#. TEXT_SETUP_EMAIL_REPLY_TO
+msgid "Reply to:"
+msgstr "ལེན་ལུ:"
+
+#. TEXT_SETUP_EMAIL_AUTHENTICATION
+msgid "E-mail authentication"
+msgstr "གློག་འཕྲིན་བདེན་བཤད།"
+
+#. TEXT_SETUP_EMAIL_AUTH_USER
+msgid "User:"
+msgstr "ལག་ལེན་པ:"
+
+#. TEXT_SETUP_EMAIL_AUTH_PASS
+msgid "Password:"
+msgstr "ཆོག་ཡིག:"
+
+#. TEXT_SETUP_POP3_SERVER
+msgid "POP3 server:"
+msgstr "པི་ཨོ་པི་༣་སར་བར་:"
+
+#. TEXT_SETUP_POP3_PORT
+msgid "POP3 port:"
+msgstr "པི་ཨོ་པི་༣་འདྲེན་ལམ་:"
+
+#. TEXT_SETUP_OCR_COMMAND
+msgid "OCR Command:"
+msgstr "ཨོ་སི་ཨར་བརྡ་བཀོད་:"
+
+#. TEXT_SETUP_OCR_INPUTFILE_OPT
+msgid "Inputfile option:"
+msgstr "ཨིན་པུཊི་ཡིག་སྣོད་ཀྱི་གདམ་ཁ:"
+
+#. TEXT_SETUP_OCR_OUTPUTFILE_OPT
+msgid "Outputfile option:"
+msgstr "ཨའུཊི་པུཊི་ཡིག་སྣོད་ཀྱི་གདམ་ཁ:"
+
+#. TEXT_SETUP_OCR_USE_GUI_PIPE_OPT
+msgid "Use GUI progress pipe:"
+msgstr "ཇི་ཡུ་ཨའི་ཡར་འཕེལ་རྒྱུད་དུང་ལག་ལེན་འཐབ:"
+
+#. TEXT_SETUP_OCR_OUTFD_OPT
+msgid "GUI output-fd option:"
+msgstr "ཇི་ཡུ་ཨའི་ ཨའུཊི་པུཊི་གི་ཨེཕ་ཌི་གདམ་ཁ:"
+
+#. TEXT_SETUP_OCR_PROGRESS_KEYWORD
+msgid "Progress keyword:"
+msgstr "ཡར་འཕེལ་གཙོ་ཚིག:།"
+
+#. TEXT_SETUP_PERMISSION_USER
+msgid "user"
+msgstr "ལག་ལེན་པ།"
+
+#. TEXT_SETUP_PERMISSION_GROUP
+msgid "group"
+msgstr "སྡེ་ཚན།"
+
+#. TEXT_SETUP_PERMISSION_ALL
+msgid "all"
+msgstr "ཆ་མཉམ།"
+
+msgid "new media"
+msgstr "བརྡ་ལམ་གསརཔ།"
+
+#. NOTEBOOK_SAVING_OPTIONS
+msgid "Save"
+msgstr "སྲུང་བཞག་འབད།"
+
+#. NOTEBOOK_FILETYPE_OPTIONS
+msgid "Filetype"
+msgstr "ཡིག་སྣོད་ཀྱི་དབྱེ་བ།"
+
+#. NOTEBOOK_COPY_OPTIONS
+msgid "Copy"
+msgstr "འདྲ་བཤུས།"
+
+#. NOTEBOOK_FAX_OPTIONS
+msgid "Fax"
+msgstr "དཔར་འཕྲིན།"
+
+#. NOTEBOOK_EMAIL_OPTIONS
+msgid "E-mail"
+msgstr "གློག་འཕྲིན།"
+
+#. NOTEBOOK_OCR_OPTIONS
+msgid "OCR"
+msgstr "ཨོ་སི་ཨར།"
+
+#. NOTEBOOK_DISPLAY_OPTIONS
+msgid "Display"
+msgstr "བཀྲམ་སྟོན།"
+
+#. NOTEBOOK_ENHANCE_OPTIONS
+msgid "Enhancement"
+msgstr "གོང་སྤེལ་།"
+
+#. MENU_ITEM_MULTIPAGE
+msgid "Multipage"
+msgstr "སྣ་མང་ཤོག་ལེབ།"
+
+#. MENU_ITEM_SHOW_TOOLTIPS
+msgid "Show tooltips"
+msgstr "ལག་ཆས་ཕན་བསླབ་སྟོན།"
+
+#. MENU_ITEM_SHOW_PREVIEW
+msgid "Show preview"
+msgstr "སྔོན་ལྟ་སྟོན།"
+
+#. MENU_ITEM_SHOW_HISTOGRAM
+msgid "Show histogram"
+msgstr "ཧིསི་ཊོ་ག་རམ་སྟོན།"
+
+#. MENU_ITEM_SHOW_GAMMA
+msgid "Show gamma curve"
+msgstr "གམ་མ་ཀརབ་སྟོན།"
+
+#. MENU_ITEM_SHOW_BATCH_SCAN
+msgid "Show batch scan"
+msgstr "རུ་ཚན་སི་ཀེན་སྟོན།"
+
+#. MENU_ITEM_SHOW_STANDARDOPTIONS
+msgid "Show standard options"
+msgstr "ཚད་ལྡན་གྱི་གདམ་ཁ་སྟོན།"
+
+#. MENU_ITEM_SHOW_ADVANCEDOPTIONS
+msgid "Show advanced options"
+msgstr "མཐོ་རིམ་གྱི་གདམ་ཁ་སྟོན།"
+
+#. MENU_ITEM_SETUP
+msgid "Setup"
+msgstr "གཞི་སྒྲིག།"
+
+#. MENU_ITEM_LENGTH_UNIT
+msgid "Length unit"
+msgstr "རིང་ཚད་ཀྱི་ཆ་ཕྲན།"
+
+#. SUBMENU_ITEM_LENGTH_MILLIMETERS
+msgid "millimeters"
+msgstr "མི་ལི་མི་ཊར།"
+
+#. SUBMENU_ITEM_LENGTH_CENTIMETERS
+msgid "centimeters"
+msgstr "སེན་ཊི་མི་ཊར།"
+
+#. SUBMENU_ITEM_LENGTH_INCHES
+msgid "inches"
+msgstr "ཨིན་ཅེསི།"
+
+#. MENU_ITEM_UPDATE_POLICY
+msgid "Update policy"
+msgstr "དུས་མཐུན་སྲིད་བྱུས།"
+
+#. SUBMENU_ITEM_POLICY_CONTINUOUS
+msgid "continuous"
+msgstr "འཕྲོ་མཐུདཅན།"
+
+#. SUBMENU_ITEM_POLICY_DISCONTINU
+msgid "discontinuous"
+msgstr "འཕྲོ་མཐུད་བཤོལ།"
+
+#. SUBMENU_ITEM_POLICY_DELAYED
+msgid "delayed"
+msgstr "ཕྱིར་འགྱངས།"
+
+#. MENU_ITEM_SHOW_RESOLUTIONLIST
+msgid "Show resolution list"
+msgstr "ཧུམ་ཆ་གི་ཐོ་སྟོན།"
+
+#. MENU_ITEM_PAGE_ROTATE
+msgid "Rotate postscript"
+msgstr "པོསིཊི་སིཀིརིཔཊི་བསྒྱིར།"
+
+#. MENU_ITEM_EDIT_MEDIUM_DEF
+msgid "Edit medium definition"
+msgstr "བརྡ་ལམ་གྱི་ངེས་ཚིག་ཞུན་དག་འབད།"
+
+#. MENU_ITEM_SAVE_DEVICE_SETTINGS
+msgid "Save device settings"
+msgstr "ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་སྲུང་བཞག་འབད།"
+
+#. MENU_ITEM_LOAD_DEVICE_SETTINGS
+msgid "Load device settings"
+msgstr "ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་མངོན་གསལ་འབད།"
+
+#. MENU_ITEM_CHANGE_WORKING_DIR
+msgid "Change directory"
+msgstr "སྣོད་ཐོ་བསྒྱུར་བཅོས་འབད།"
+
+#. MENU_ITEM_XSANE_EULA
+msgid "Show EULA"
+msgstr "ཨི་ཡུ་ཨེལ་ཨེ་སྟོན།"
+
+#. MENU_ITEM_XSANE_GPL
+msgid "Show license (GPL)"
+msgstr "ཆོག་ཐམ་(ཇི་པི་ཨེལ་)སྟོན།"
+
+#. MENU_ITEM_XSANE_DOC
+msgid "XSane doc"
+msgstr "ཨགསི་སེན་ ཌོཀ།"
+
+#. MENU_ITEM_BACKEND_DOC
+msgid "Backend doc"
+msgstr "ཌོཀ་རྒྱབ་མཐའ། "
+
+#. MENU_ITEM_AVAILABLE_BACKENDS
+msgid "Available backends"
+msgstr "རྒྱབ་མཐའ་འཐོབ་ཚུགསཔ།"
+
+#. MENU_ITEM_SCANTIPS
+msgid "Scantips"
+msgstr "ཞིབ་ལྟ་ཕན་བསླབ།"
+
+#. MENU_ITEM_PROBLEMS
+msgid "Problems?"
+msgstr "དཀའ་ངལ?"
+
+#. MENU_ITEM_COUNTER_LEN_INACTIVE
+msgid "inactive"
+msgstr "ཤུགས་མེད།"
+
+#. MENU_ITEM_TIFF_COMP_NONE
+msgid "no compression"
+msgstr "གཡེབ་བཙུགས་མེད།"
+
+#. MENU_ITEM_TIFF_COMP_CCITTRLE
+msgid "CCITT 1D Huffman compression"
+msgstr "སི་སི་ཨའི་ཊི་ཊི་ ༡ཌི་ཧཕ་མེན་གཡེབ་བཙུགས།"
+
+#. MENU_ITEM_TIFF_COMP_CCITFAX3
+msgid "CCITT Group 3 Fax compression"
+msgstr "སི་སི་ཨའི་ཊི་ཊི་སྡེ་ཚན་༣་དཔར་འཕྲིན་གཡེབས་བཙུགས།"
+
+#. MENU_ITEM_TIFF_COMP_CCITFAX4
+msgid "CCITT Group 4 Fax compression"
+msgstr "སི་སི་ཨའི་ཊི་ཊི་སྡེ་ཚན་༤་དཔར་འཕྲིན་གཡེབ་བཙུགས།"
+
+#. MENU_ITEM_TIFF_COMP_JPEG
+msgid "JPEG DCT compression"
+msgstr "ཇེ་པི་ཨི་ཇི་ ཌི་སི་ཊི་གཡེབ་བཙུགས།"
+
+#. MENU_ITEM_TIFF_COMP_PACKBITS
+msgid "pack bits"
+msgstr "སྦུང་ཚན་བིཊིསི།"
+
+#. MENU_ITEM_TIFF_COMP_DEFLATE
+msgid "deflate"
+msgstr "རླུང་མ་བཏོན་གཏང་།"
+
+#. MENU_ITEM_RANGE_SCALE
+msgid "Slider (Scale)"
+msgstr "གཡོ་བྱེད།(ཆ་ཚད)"
+
+#. MENU_ITEM_RANGE_SCROLLBAR
+msgid "Slider (Scrollbar)"
+msgstr "གཡོ་བྱེད།(བཤུད་ཕྲ།)"
+
+#. MENU_ITEM_RANGE_SPINBUTTON
+msgid "Spinbutton"
+msgstr "བསྒྱིར་རྟ།"
+
+#. MENU_ITEM_RANGE_SCALE_SPIN
+msgid "Scale and Spinbutton"
+msgstr "ཆ་ཚད་དང་བསྒྱིར་རྟ།"
+
+#. MENU_ITEM_RANGE_SCROLL_SPIN
+msgid "Scrollbar and Spinbutton"
+msgstr "བཤུད་ཕྲ་དང་བསྒྱིར་རྟ།"
+
+#. MENU_ITEM_LINEART_MODE_STANDARD
+msgid "Standard options window (lineart)"
+msgstr "ཚད་ལྡན་གདམ་ཁའི་ཝིན་ཌོ།(ལའནི་ཨརཊི)"
+
+#. MENU_ITEM_LINEART_MODE_XSANE
+msgid "XSane main window (lineart)"
+msgstr "ཨེགས་སེན་གྱི་སྒོ་སྒྲིག་གཙོ་བོ།(ལའནི་ཨརཊི)"
+
+#. MENU_ITEM_LINEART_MODE_GRAY
+msgid "XSane main window (grayscale->lineart)"
+msgstr "ཨེགས་སེན་གྱི་སྒོ་སྒྲིག་གཙོ་བོ།(གེརེ་སིཀེལ་->ལའནི་ཨརཊི)"
+
+#. MENU_ITEM_SELECTION_NONE
+msgid "(none)"
+msgstr "(ཅི་མེད)ཅི་མེད་"
+
+#. MENU_ITEM_FILETYPE_BY_EXT
+msgid "by ext"
+msgstr "ཨི་ཨེགསི་ཊི་གི་ཐོག་ལས།"
+
+#. MENU_ITEM_PRESET_AREA_ADD_SEL
+msgid "Add selection to list"
+msgstr "སེལ་འཐུ་འབད་མི་ཚུ་ཐོ་ནང་བསྡོམས།"
+
+#. MENU_ITEM_MEDIUM_ADD
+msgid "Add medium definition"
+msgstr "ངེས་ཚིག་གི་བརྡ་ལམ་བསྡོམས།"
+
+#. MENU_ITEM_RENAME
+msgid "Rename item"
+msgstr "རྣམ་གྲངས་བསྐྱར་མིང་བཏགས།"
+
+#. MENU_ITEM_DELETE
+msgid "Delete item"
+msgstr "རྣམ་གྲངས་བཏོན་གཏང་།"
+
+#. MENU_ITEM_MOVE_UP
+msgid "Move item up"
+msgstr "རྣམ་གྲངས་ཡར་བཤུད།"
+
+#. MENU_ITEM_MOVE_DWN
+msgid "Move item down"
+msgstr "རྣམ་གྲངས་མར་བཤུད།"
+
+#. MENU_ITEM_AUTH_NONE
+msgid "no authentication"
+msgstr "བདེན་བཤད་མེད།"
+
+#. MENU_ITEM_AUTH_POP3
+msgid "POP3 before SMTP"
+msgstr "ཨེསི་ཨེམ་ཊི་པི་གི་སྔོན་མ་པི་ཨོ་པི་༣།"
+
+#. MENU_ITEM_AUTH_ASMTP_PLAIN
+msgid "ASMTP Plain"
+msgstr "ཨེ་ཨེསི་ཨེམ་ཊི་པི་ཉག་རྐྱང་།"
+
+#. MENU_ITEM_AUTH_ASMTP_LOGIN
+msgid "ASMTP Login"
+msgstr "ཨེ་ཨེསི་ཨེམ་ཊི་པི་ནང་བསྐྱོད།"
+
+#. MENU_ITEM_AUTH_ASMTP_CRAM_MD5
+msgid "ASMTP CRAM-MD5"
+msgstr "ཨེ་ཨེསི་ཨེམ་ཊི་པི་ སི་ཨར་ཨེ་ཨེམ་-ཨེམ་ཌི་༥།"
+
+#. PROGRESS_SCANNING
+msgid "Scanning"
+msgstr "ཞིབ་ལྟ།"
+
+#. PROGRESS_RECEIVING_FRAME_DATA
+#, c-format
+msgid "Receiving %s data"
+msgstr "%s་གནད་སྡུད་ཐོབ་དོ།"
+
+#. PROGRESS_PAGE
+msgid "page"
+msgstr "ཤོག་ལེབ།"
+
+#. PROGRESS_TRANSFERING_DATA
+msgid "Transfering image"
+msgstr "གཟུགས་བརྙན་གནས་སོར་འབད་དོ།"
+
+#. PROGRESS_ROTATING_DATA
+msgid "Rotating image"
+msgstr "གཟུགས་བརྙན་བསྒྱིར་དོ།"
+
+#. PROGRESS_MIRRORING_DATA
+msgid "Mirroring image"
+msgstr "གཟུགས་བརྙན་འཆར་དོ།"
+
+#. PROGRESS_PACKING_DATA
+msgid "Packing image"
+msgstr "གཟུགས་བརྙན་ཐུམ་སྒྲིལ་འབད་དོ།"
+
+#. PROGRESS_CONVERTING_DATA
+msgid "Converting image"
+msgstr "གཟུགས་བརྙན་གཞི་བསྒྱུར་འབད་དོ།"
+
+#. PROGRESS_SAVING_DATA
+msgid "Saving image"
+msgstr "གཟུགས་བརྙན་སྲུང་བཞག་འབད་དོ།"
+
+#. PROGRESS_CLONING_DATA
+msgid "Cloning image"
+msgstr "གཟུགས་བརྙན་གྱི་ངོ་འདྲ་བཟོ་དོ།"
+
+#. PROGRESS_SCALING_DATA
+msgid "Scaling image"
+msgstr "གཟུགས་བརྙན་ཚད་རྟགས་འབད་དོ།"
+
+#. PROGRESS_DESPECKLING_DATA
+msgid "Despeckling image"
+msgstr "གཟུགས་བརྙན་ཌྲེསི་པེ་ཀལ་འབད་དོ།"
+
+#. PROGRESS_BLURING_DATA
+msgid "Bluring image"
+msgstr "གཟུགས་བརྙན་རབ་རིབ་བཟོ་དོ།"
+
+#. PROGRESS_OCR
+msgid "OCR in progress"
+msgstr "ཨོ་སི་ཨར་དེ་ཡར་འཕེལ་ནང་ཡོད།"
+
+#. DESC_SCAN_START
+msgid "Start scan <Ctrl-Enter>"
+msgstr "ཞིབ་ལྟ་འགོ་བཙུགས།<Ctrl-Enter>"
+
+#. DESC_SCAN_CANCEL
+msgid "Cancel scan <ESC>"
+msgstr "ཞིབ་ལྟ་ཆ་མེད་གཏང་།<ESC>"
+
+#. DESC_PREVIEW_ACQUIRE
+msgid "Acquire preview scan <Alt-p>"
+msgstr "སྔོན་ལྟ་གི་ཞིབ་ལྟ་ཐོབ་ནི།<Alt-p>"
+
+#. DESC_PREVIEW_CANCEL
+msgid "Cancel preview scan <Alt-ESC>"
+msgstr "སྔོན་ལྟ་གི་ཞིབ་ལྟ་ཆ་མེད་གཏང་།<Alt-ESC>"
+
+#. DESC_XSANE_MODE
+msgid "viewer-<Ctrl-v>, save-<Ctrl-s>, photocopy-<Ctrl-c>, multipage-<Ctrl-m>, fax-<Ctrl-f> or e-mail-<Ctrl-e>"
+msgstr "མཐོང་བྱེད-<Ctrl-v>,སྲུང་བཞག་-<Ctrl-s>,ངོ་བཤུས་འཕྲུལ་དཔར-<Ctrl-c>, སྣ་མང་ཤོག་ལེབ-<Ctrl-m>,དཔར་འཕྲིན-<Ctrl-f>ཡང་ན་ གློག་འཕྲིན-<Ctrl-e>"
+
+#. DESC_XSANE_MEDIUM
+msgid ""
+"Select source medium type.\n"
+"To rename, reorder or delete an entry use context menu (right mouse button).\n"
+"To create a medium enable the option edit medium definition in preferences menu."
+msgstr ""
+"བརྡ་ལམ་གྱི་དབྱེ་བའི་བྱུངས་ཁུངས་སེལ་འཐུ་འབད།\n"
+"བསྐྱར་མིང་བཏགས་ནི་གི་དོན་ལུ་ཐོ་བཀོད་ལག་ལེན་ཐོག་ཡོད་པའི་སྐབས་འབབ་དཀར་ཆག་ལོག་བཟོ་ནི་དང་ཡང་ན་བཏོན་གཏང་(གཡས་ཀྱི་མའུསི་གཡེབ་རྟ)།\n"
+"བརྡ་ལམ་ལྕོགས་ཅན་གསར་བསྐྲུན་འབད་ནི་གི་དོན་ལུ་དགའ་གདམ་གདམ་ཁའི་བརྡ་ལམ་ངེས་ཚིག་ཞུན་དག་འབད།"
+
+#. DESC_FILENAME_COUNTER_STEP
+msgid "Value that is added to filenamecounter after scan"
+msgstr "གནས་གོང་དེ་ཡིག་སྣོད་མིང་གི་གདོང་ལེན་ནང་ལུ་ཞིབ་ལྟའི་ཤུལ་ལས་ཁ་སྐོངས་རྐྱབ་རྐྱབ་ཨིན།"
+
+#. DESC_BROWSE_FILENAME
+msgid "Browse for image filename"
+msgstr "ཡིག་སྣོད་མིང་གི་གཟུགས་བརྙན་དོན་ལུ་བརྡ་འཚོལ།"
+
+#. DESC_FILENAME
+msgid "Filename for scanned image"
+msgstr "གཟུགས་བརྙན་ཞིབ་ལྟ་འབད་འབདཝ་གི་དོན་ལུ་ཡིག་སྣོད་མིང་།"
+
+#. DESC_FILETYPE
+msgid "Type of image format, the suitable filename extension is automatically added to the filename"
+msgstr "གཟུགས་བརྙན་གྱི་དབྱེའི་རྩ་སྒྲིག་ འོས་འབབ་ཡོད་པའི་ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་དེ་རང་བཞིན་གྱིས་ཡིག་སྣོད་མིང་ནང་ལུ་བསྡོམས་ཨིན།"
+
+#. DESC_FAXPROJECT
+msgid "Enter name of fax project"
+msgstr "དཔར་འཕྲིན་ལས་འགུལ་གི་མིང་ཐོ་བཀོད་འབད།"
+
+#. DESC_FAXPAGENAME
+msgid "Enter new name for faxpage"
+msgstr "དཔར་འཕྲིན་ཤོག་ལེབ་ཀྱི་དོན་ལུ་མིང་གསརཔ་ཐོ་བཀོད་འབད།"
+
+#. DESC_FAXRECEIVER
+msgid "Enter receiver phone number or address"
+msgstr "འཐོབ་མི་གི་རྒྱུད་འཕྲིན་ཨང་ཡང་ན་ཁ་བྱང་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_PROJECT
+msgid "Enter name of e-mail project"
+msgstr "གློག་འཕྲིན་ལས་འགུལ་གྱི་མིང་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_IMAGENAME
+msgid "Enter new name for e-mail image"
+msgstr "གློག་འཕྲིན་གཟུགས་བརྙན་གྱི་དོན་ལུ་མིང་གསརཔ་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_RECEIVER
+msgid "Enter e-mail address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_SUBJECT
+msgid "Enter subject of e-mail"
+msgstr "གློག་འཕྲིན་གྱི་དོན་ཚན་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_FILETYPE
+msgid "Select filetype for image attachments"
+msgstr "གཟུགས་བརྙན་མཉམ་སྦྲགས་ཀྱི་དོན་ལུ་ཡིག་སྣོད་དབྱེ་བ་སེལ་འཐུ་འབད།"
+
+#. DESC_MULTIPAGE_PROJECT
+msgid "Enter name of multipage project"
+msgstr "སྣ་མང་ཤོག་ལེབ་ཀྱི་ལས་འགུལ་མིང་ཐོ་བཀོད་འབད།"
+
+#. DESC_MULTIPAGE_FILETYPE
+msgid "Select filetype for multipage file"
+msgstr "སྣ་མང་ཤོག་གི་ཡིག་སྣོད་དོན་ལུ་ཡིག་སྣོད་དབྱེ་བ་སེལ་འཐུ་འབད།"
+
+#. DESC_PRESET_AREA_RENAME
+msgid "Enter new name for preset area"
+msgstr "སྔ་གོང་གཞི་སྒྲིག་མངའ་ཁོངས་ཀྱི་དོན་ལུ་མིང་གསརཔ་ཐོ་བཀོད་འབད།"
+
+#. DESC_PRESET_AREA_ADD
+msgid "Enter name for new preset area"
+msgstr "སྔ་གོང་གཞི་སྒྲིག་མངའ་ཁོངས་གསརཔ་གི་དོན་ལུ་མིང་ཐོ་བཀོད་འབད།"
+
+#. DESC_MEDIUM_RENAME
+msgid "Enter new name for medium definition"
+msgstr "བརྡ་ལམ་ངེས་ཚིག་གི་དོན་ལུ་མིང་གསརཔ་ཐོ་བཀོད་འབད།"
+
+#. DESC_MEDIUM_ADD
+msgid "Enter name for new medium definition"
+msgstr "བརྡ་ལམ་ངེས་ཚིག་གསརཔ་གི་དོན་ལུ་མིང་ཐོ་བཀོད་འབད།"
+
+#. DESC_PRINTER_SELECT
+msgid "Select printerdefinition <Shift-F1/F2/...>"
+msgstr "དཔར་འཕྲུལ་ངེས་ཚིག་སེལ་འཐུ་འབད།<Shift-F1/F2/...>"
+
+#. DESC_RESOLUTION
+msgid "Set scan resolution"
+msgstr "ཞིབ་ལྟའི་ཧུམ་ཆ་གཞི་སྒྲིག་འབད།"
+
+#. DESC_RESOLUTION_X
+msgid "Set scan resolution for x direction"
+msgstr "ཨེགསི་བཀོད་རྒྱ་གི་དོན་ལུ་ཞིབ་ལྟའི་ཧུམ་ཆ་གཞི་སྒྲིག་འབད།"
+
+#. DESC_RESOLUTION_Y
+msgid "Set scan resolution for y direction"
+msgstr "ཝའི་བཀོད་རྒྱ་གི་དོན་ལུ་ཞིབ་ལྟའི་ཧུམ་ཆ་གཞི་སྒྲིག་འབད།"
+
+#. DESC_ZOOM
+msgid "Set zoomfactor"
+msgstr "རྒྱས་ཟུམ་གྱི་ཆ་རྐྱེན་གཞི་སྒྲིག་འབད།"
+
+#. DESC_ZOOM_X
+msgid "Set zoomfactor for x direction"
+msgstr "ཨེགསི་བཀོད་རྒྱའི་དོན་ལུ་རྒྱས་ཟུམ་ཆ་རྐྱེན་གཞི་སྒྲིག་འབད།"
+
+#. DESC_ZOOM_Y
+msgid "Set zoomfactor for y direction"
+msgstr "ཝའི་བཀོད་རྒྱའི་དོན་ལུ་རྒྱས་ཟུམ་ཆ་རྐྱན་གཞི་སྒྲིག་འབད།"
+
+#. DESC_COPY_NUMBER
+msgid "Set number of copies"
+msgstr "འདྲ་བཤུས་ཀྱི་གྲངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_NEGATIVE
+msgid "Negative: Invert colors for scanning negatives <Ctrl-n>"
+msgstr "མེད་ཆ:ཞིབ་ལྟའི་མེད་ཆ་ཚུ་གི་དོན་ལུ་ཚོས་གཞི་འདྲེན་རྟགས་ནང་བཙུགས།<Ctrl-n>"
+
+#. DESC_GAMMA
+msgid "Set gamma value"
+msgstr "གམ་མའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_GAMMA_R
+msgid "Set gamma value for red component"
+msgstr "ཆ་ཤས་དམརཔ་གི་དོན་ལུ་གམ་མའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_GAMMA_G
+msgid "Set gamma value for green component"
+msgstr "ཆ་ཤས་ལྗང་ཁུ་གི་དོན་ལུ་གམ་མའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_GAMMA_B
+msgid "Set gamma value for blue component"
+msgstr "ཆ་ཤས་ཧོནམ་གི་དོན་ལུ་གམ་མའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_BRIGHTNESS
+msgid "Set brightness"
+msgstr "དཀར་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_BRIGHTNESS_R
+msgid "Set brightness for red component"
+msgstr "ཆ་ཤས་དམརཔ་གི་དོན་ལུ་དཀར་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_BRIGHTNESS_G
+msgid "Set brightness for green component"
+msgstr "ཆ་ཤས་ལྗང་ཁུའི་དོན་ལུ་དཀར་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_BRIGHTNESS_B
+msgid "Set brightness for blue component"
+msgstr "ཆ་ཤས་ཧོནམ་གི་དོན་ལུ་དཀར་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_CONTRAST
+msgid "Set contrast"
+msgstr "ཚོན་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_CONTRAST_R
+msgid "Set contrast for red component"
+msgstr "ཆ་ཤས་དམརཔ་གི་དོན་ལུ་ཚོན་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_CONTRAST_G
+msgid "Set contrast for green component"
+msgstr "ཆ་ཤས་ལྗང་ཁུའི་དོན་ལུ་ཚོན་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_CONTRAST_B
+msgid "Set contrast for blue component"
+msgstr "ཆ་ཤས་ཧོནམ་གི་དོན་ལུ་ཚོན་མདངས་གཞི་སྒྲིག་འབད།"
+
+#. DESC_THRESHOLD
+msgid "Set threshold"
+msgstr "ཐེ་རེཤ་ཧོལ་གཞི་སྒྲིག་འབད།"
+
+#. DESC_RGB_DEFAULT
+msgid ""
+"RGB default: Set enhancement values for red, green and blue to default values <Ctrl-b>:\n"
+" gamma = 1.0\n"
+" brightness = 0\n"
+" contrast = 0"
+msgstr ""
+"ཨར་ཇི་བི་ སྔོན་སྒྲིག་:གོང་སྤེལ་གནས་གོང་དེ་དམརཔ་ལྗང་ཁུ་དང་ཧོནམ་གི་དོན་ལས་སྔོན་སྒྲིག་གནས་གོང་ནང་གཞི་སྒྲིག་འབད<Ctrl-b>:\n"
+"གམ་མ=༡.༠\n"
+"དཀར་མདངས=༠\n"
+"ཚོན་མདངས=༠"
+
+#. DESC_ENH_AUTO
+msgid "Autoadjust gamma, brightness and contrast <Ctrl-e>"
+msgstr "རང་བཞིན་བདེ་སྒྲིག་ གམ་མ,དཀར་མདངས་དང་ཚོན་མདངས།<Ctrl-e>"
+
+#. DESC_ENH_DEFAULT
+msgid ""
+"Set default enhancement values <Ctrl-0>:\n"
+"gamma = 1.0\n"
+"brightness = 0\n"
+"contrast = 0"
+msgstr ""
+"གོང་སྤེལ་གནས་གོང་སྔོན་སྒྲིག་འབད།<Ctrl-0>:\n"
+"གམ་མ=༡.༠\n"
+"དཀར་མདངས=༠\n"
+"ཚོན་མདངས=༠"
+
+#. DESC_ENH_RESTORE
+msgid "Restore enhancement values from preferences <Ctrl-r>"
+msgstr "དགའ་གདམ་ནང་ལས་གོང་སྤེལ་གནས་གོང་སོར་ཆུད་འབད།<Ctrl-r>"
+
+#. DESC_ENH_STORE
+msgid "Store active enhancement values to preferences <Ctrl-+>"
+msgstr "ཤུགས་ལྡན་གོང་སྤེལ་གྱི་གནས་གོང་དེ་དགའ་གདམ་ནང་ལུ་སྲོག་འཇོག་འབད།<Ctrl-+>"
+
+#. DESC_HIST_INTENSITY
+msgid "Show histogram of intensity/gray <Alt-i>"
+msgstr "ཧིསི་ཊོ་ག་རམ་གྱི་ཨིན་ཊེན་སི་ཊི་/གེརེ་སྟོན།<Alt-i>"
+
+#. DESC_HIST_RED
+msgid "Show histogram of red component <Alt-r>"
+msgstr "ཆ་ཤས་དམརཔ་གི་ཧིསི་ཊོ་ག་རམ་སྟོན།<Alt-r>"
+
+#. DESC_HIST_GREEN
+msgid "Show histogram of green component <Alt-g>"
+msgstr "ཆ་ཤས་ལྗང་ཁུའི་ཧིསི་ཊོ་ག་རམ་སྟོན།<Alt-g>"
+
+#. DESC_HIST_BLUE
+msgid "Show histogram of blue component <Alt-b>"
+msgstr "ཆ་ཤས་ཧོནམ་གི་ཧིསི་ཊོ་ག་རམ་སྟོན།<Alt-b>"
+
+#. DESC_HIST_PIXEL
+msgid "Display mode: show histogram with lines instead of pixels <Alt-m>"
+msgstr "ཐབས་ལམ་བཀྲམ་སྟོན་འབད:ཧིསི་ཊོ་ག་རམ་དེ་པིག་སེལ་དང་ཅིག་ཁར་མེན་པར་གྲལ་ཐིག་དང་ཅིག་ཁར་སྟོན།<Alt-m>"
+
+#. DESC_HIST_LOG
+msgid "Show logarithm of pixelcount <Alt-l>"
+msgstr "པིག་སེལ་གྲངས་ཀྱི་མཉམ་གྲངས་སྟོན།<Alt-l>"
+
+#. DESC_PRINTER_SETUP
+msgid "Select definition to change"
+msgstr "བསྒྱུར་བཅོས་འབད་ནའི་དོན་ལུ་ངེས་ཚིག་སེལ་འཐུ་འབད།"
+
+#. DESC_PRINTER_NAME
+msgid "Define a name for the selection of this definition"
+msgstr "འ་ནི་ངེས་ཚིག་སེལ་འཐུ་འབད་ནི་གི་དོན་ལུ་མིང་གཅིག་ངེས་འཛིན་འབད།"
+
+#. DESC_PRINTER_COMMAND
+msgid "Enter command to be executed in copy mode (e.g. \"lpr\")"
+msgstr "འདྲ་བཤུས་ཐབས་ལམ་དེ་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་བརྡ་བཀོད་ཐོ་བཀོད་འབད།(དཔེར་ན་\"lpr\")"
+
+#. DESC_COPY_NUMBER_OPTION
+msgid "Enter option for copy numbers"
+msgstr "འདྲ་བཤུས་གྲངས་ཀྱི་དོན་ལུ་གདམ་ཁ་ཐོ་བཀོད་འབད།"
+
+#. DESC_PRINTER_LINEART_RESOLUTION
+msgid "Resolution with which lineart images are printed and saved in postscript"
+msgstr "ཧུམ་ཆ་དེ་དང་ཅིག་ཁར་ལའནི་ཨརཊི་གི་གཟུགས་བརྙན་ཚུ་པོསིཊི་སིཀིརིཔཊི་ནང་དཔར་བསྐྲུན་དང་སྲུང་བཞག་འབད་ཡོད།"
+
+#. DESC_PRINTER_GRAYSCALE_RESOLUTION
+msgid "Resolution with which grayscale images are printed and saved in postscript"
+msgstr "ཧུམ་ཆ་དེ་དང་ཆིག་ཁར་གེརེ་སིཀེལ་གཟུགས་བརྙན་ཚུ་པོསིཊི་སིཀིརིཔཊི་ནང་དཔར་བསྐྲུན་དང་སྲུང་བཞག་འབད་ཡོད།"
+
+#. DESC_PRINTER_COLOR_RESOLUTION
+msgid "Resolution with which color images are printed and saved in postscript"
+msgstr "ཧུམ་ཆ་དེ་དང་ཅིག་ཁར་ཚོས་གཞིའི་གཟུགས་བརྙན་ཚུ་པོསིཊི་སིཀིརིཔཊི་ནང་དཔར་བསྐྲུན་དང་སྲུང་བཞག་འབད་ཡོད།"
+
+#. DESC_PRINTER_WIDTH
+msgid "Width of printable area"
+msgstr "དཔར་བསྐྲུན་འབད་བཏུབ་པའི་མངའ་ཁོངས་ཀྱི་རྒྱ་ཚད།"
+
+#. DESC_PRINTER_HEIGHT
+msgid "Height of printable area"
+msgstr "དཔར་བསྐྲུན་འབད་བཏུབ་པའི་མངའ་ཁོངས་ཀྱི་མཐོ་ཚད།"
+
+#. DESC_PRINTER_LEFTOFFSET
+msgid "Left offset from the edge of the paper to the printable area"
+msgstr "མཐའ་ཟུར་གྱི་ཤོག་ཀུ་ལས་དཔར་བསྐྲུན་འབད་བཏུབ་པའི་མངའ་ཁོངས་ཚུན་གཡོན་གྱི་པར་ལེན།"
+
+#. DESC_PRINTER_BOTTOMOFFSET
+msgid "Bottom offset from the edge of the paper to the printable area"
+msgstr "མཐའ་ཟུར་གྱི་ཤོག་ཀུ་ལས་དཔར་བསྐྲུན་འབད་བཏུབ་པའི་མངའ་ཁོངས་ཚུན་མཇུག་གི་པར་ལེན།"
+
+#. DESC_PRINTER_GAMMA
+msgid "Additional gamma value for photocopy"
+msgstr "ངོ་བཤུས་འཕྲུལ་དཔར་གྱི་དོན་ལུ་གམ་མ་གནས་གོང་ཁ་སྐོངས།"
+
+#. DESC_PRINTER_GAMMA_RED
+msgid "Additional gamma value for red component for photocopy"
+msgstr "ངོ་བཤུས་འཕྲུལ་དཔར་ཆ་ཤས་དམརཔ་གི་དོན་ལུ་གམ་མ་གནས་གོང་ཁ་སྐོངས།"
+
+#. DESC_PRINTER_GAMMA_GREEN
+msgid "Additional gamma value for green component for photocopy"
+msgstr "ངོ་བཤུས་འཕྲུལ་དཔར་ཆ་ཤས་ལྗང་ཁུའི་དོན་ལུ་གམ་མ་གནས་གོང་ཁ་སྐོངས།"
+
+#. DESC_PRINTER_GAMMA_BLUE
+msgid "Additional gamma value for blue component for photocopy"
+msgstr "ངོ་བཤུས་འཕྲུལ་དཔར་ཆ་ཤས་ཧོནམ་གི་དོན་ལུ་གམ་མ་གནས་གོང་ཁ་སྐོངས།"
+
+#. DESC_PRINTER_PS_FLATDECODED
+msgid ""
+"Create zlib compressed postscript image for printer (flatdecode).\n"
+"The printer has to understand postscript level 3!"
+msgstr ""
+"དཔར་འཕྲུལ་གྱི་དོན་ལུ་པོསིཊི་སིཀིརིཔཊི་གི་གཟུགས་བརྙན་གཡེབ་བཙུགས་ཟེཊི་ལིབ་གསར་བསྐྲུན་འབད(ཕེལེཊི་ཌིཀོཌ)།\n"
+"དཔར་འཕྲུལ་གྱིས་པོསཊི་སིཀིརིཔཊི་གནས་རིམ་༣པ་ཧ་གོ་དགོ!"
+
+#. DESC_TMP_PATH
+msgid "Path to temp directory"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོ་ལུ་འགྲུལ་ལམ།"
+
+#. DESC_BUTTON_TMP_PATH_BROWSE
+msgid "Browse for temporary directory"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོའི་དོན་ལུ་བརྡ་འཚོལ།"
+
+#. DESC_JPEG_QUALITY
+msgid "Quality in percent if image is saved as jpeg or tiff with jpeg compression"
+msgstr "བརྒྱ་ཆ་གི་ནང་ན་སྤུས་ཚད་དེ་ ཇེ་པི་ཨི་ཇི་ཡང་ན་ཊིཕ་དང་ཅིག་ཁར་ཇེ་པི་ཨི་ཇི་གཡེབ་བཙུགས་བཟུམ་སྦེ་སྲུང་བཞག་འབད་ཡོདཔ་ཨིན་པ་ཅིན།"
+
+#. DESC_PNG_COMPRESSION
+msgid "Compression if image is saved as png"
+msgstr "གཡེབ་བཙུགས་དེ་ གཟུགས་བརྙན་པི་ཨེན་ཇི་བཟུམ་སྦེ་སྲུང་བཞག་འབད་ཡོདཔ་ཨིན་པ་ཅིན།"
+
+#. DESC_FILENAME_COUNTER_LEN
+msgid "Minimum length of counter in filename"
+msgstr "ཡིག་སྣོད་མིང་ནང་ཉུང་མཐའ་རིང་ཚད་ཀྱི་གདོང་ལེན།"
+
+#. DESC_TIFF_ZIP_COMPRESSION
+msgid "Compression rate for zip compressed tiff (deflate)"
+msgstr "གཡེབ་བཙུགས་མགྱོགས་ཚད་ཀྱི་དོན་ལུ་ཟིབ་གཡེབ་བཙུགས་ཊིཕ(རླུང་བཏོན་གཏང་ནི།)"
+
+#. DESC_TIFF_COMPRESSION_16
+msgid "Compression type if 16 bit image is saved as tiff"
+msgstr "གཡེབ་བཙུགས་ཀྱི་དབྱེ་བ་དེ་ ༡༦བིཊི་གཟུགས་བརྙན་ ཊིཕ་བཟུམ་སྦེ་སྲུང་བཞག་འབད་ཡོདཔ་ཨིན་པ་ཅིན།"
+
+#. DESC_TIFF_COMPRESSION_8
+msgid "Compression type if 8 bit image is saved as tiff"
+msgstr "གཡེབ་བཙུགས་ཀྱི་དབྱེ་བ་དེ་ ༨བིཊི་གཟུགས་བརྙན་ ཊིཕ་བཟུམ་སྦེ་སྲུང་བཞག་འབད་ཡོདཔ་ཨིན་པ་ཅིན།"
+
+#. DESC_TIFF_COMPRESSION_1
+msgid "Compression type if lineart image is saved as tiff"
+msgstr "གཡེབ་བཙུགས་ཀྱི་དབྱེ་བ་དེ་ ལའནི་ཨརཊི་གི་གཟུགས་བརྙན་ ཊིཕ་བཟུམ་སྦེ་སྲུང་བཞག་ཡོདཔ་ཨིན་པ་ཅིན།"
+
+#. DESC_SAVE_DEVPREFS_AT_EXIT
+msgid "Save device dependant preferences in default file at exit of xsane"
+msgstr "ཐབས་འཕྲུལ་ལུ་བརྟེན་པའི་དགའ་གདམ་དེ་སྔོན་སྒྲིག་ཡིག་སྣོད་ལུ་ཕྱིར་ཐོན་གྱི་ཨེགསི་སེན་ནང་སྲུང་བཞག་འབད།"
+
+#. DESC_OVERWRITE_WARNING
+msgid "Warn before overwriting an existing file"
+msgstr "ཡིག་སྣོད་ཡོད་མི་ཅིག་སླར་སྲུང་མ་འབད་བའི་ཧེ་མ་ཉེན་བརྡ་འབད།"
+
+#. DESC_SKIP_EXISTING
+msgid "If filename counter is automatically increased, used numbers are skipped"
+msgstr "ཡིག་སྣོད་མིང་དེ་རང་བཞིན་གྱིས་ཡར་སེང་འགྱོཝ་ཨིན་པ་ཅིན་ལག་ལེན་འཐབ་མི་གྲངས་ཚུ་གོམ་འགྱོཝ་ཨིན།"
+
+#. DESC_SAVE_PS_FLATDECODED
+msgid "compress postscript image with zlib algorithm (flatdecode). When you want to print such a file your printer has to understand postscript level 3"
+msgstr "པོསིཊི་སིཀིརིཔཊི་གཟུགས་བརྙན་དེ་ཟེཊི་ལིབ་ཨཱལ་གོ་རི་དམ་དང་ཅིག་ཁར་གཡེབ་བཙུགས་(ཕི་ལེཊི་ཌི་ཀོཌ)། ཁྱོད་དེ་བཟུམ་གྱི་ཡིག་སྣོད་དཔར་བསྐྲུན་འབད་དགོ་མནོ་བ་ཅིན་ཁྱོད་ཀྱི་དཔར་འཕྲུལ་གྱིས་པོསིཊི་སིཀིརིཔཊི་གནས་རིམ་༣པ་ཧ་གོ་དགོ།"
+
+#. DESC_SAVE_PDF_FLATDECODED
+msgid "compress PDF image with zlib algorithm (flatdecode)."
+msgstr "པི་ཌི་ཨེཕ་གཟུགས་བརྙན་ཟེཊི་ལིབ་ཨལ་གོ་རི་དམ་དང་གཅིག་ཁར་གཡེབ་བཙུགས་(ཕི་ལེཊི་ཌི་ཀོཌ)།"
+
+#. DESC_SAVE_PNM16_AS_ASCII
+msgid "When a 16 bit image shall be saved in pnm format then use ascii format instead of binary format. The binary format is a new format that is not supported by all programs. The ascii format is supported by more programs but it produces really huge files!!!"
+msgstr "༡༦་བིཊི་གཟུགས་བརྙན་དེ་པི་ཨེན་ཨེམ་རྩ་སྒྲིག་ནང་ལུ་སྲུང་བཞག་འབད་དགོཔ་ད་ཟུང་ལྡན་རྩ་སྒྲིག་གི་ཚབ་ལུ་ཨེ་ཨེསི་སི་ཨའི་ཨའི་རྩ་སྒྲིག་ལག་ལེན་འཐབ།ཟུང་ལྡན་གྱི་རྩ་སྒྲིག་དེ་རྩ་སྒྲིག་གསརཔ་འབད་ནི་དེ་གི་ལས་འགུལ་ག་ར་གིས་རྒྱབ་སྐྱོར་མི་འབད།ཨེ་ཨེསི་སི་སི་ཨའི་རྩ་སྒྲིག་དེ་ལས་འགུལ་མང་ཤོས་ཅིག་གི་རང་ རྒྱབ་སྐྱོར་འབདཝ་ཨིན་ དེ་འབདཝ་ད་འདི་གི་ཡིག་སྣོད་ལེ་ཤ་སྟོནམ་ཨིན!!!"
+
+#. DESC_REDUCE_16BIT_TO_8BIT
+msgid "If scanner sends image with 16 bits/color save image with 8 bits/color"
+msgstr "ཞིབ་ལྟ་འབད་མི་གིས་གཟུགས་བརྙན་དེ་༡༦བིཊིསི་/ཚོས་གཞི་དང་གཅིག་ཁར་གཏངམ་ཨིན་པ་ཅིན་གཟུགས་བརྙན་དེ་༨བིཊིསི་/ཚོས་གཞི་དང་གཅིག་ཁར་སྲུང་བཞག་འབད།"
+
+#. DESC_PSFILE_WIDTH
+msgid "Width of paper for postscript files"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་ཤོག་ལེབ་ཀྱི་རྒྱ་ཚད།"
+
+#. DESC_PSFILE_HEIGHT
+msgid "Height of paper for postscript files"
+msgstr "པོསིཊི་སིཀིརིཔཊིཡིག་སྣོད་ཚུ་གི་དོན་ལུ་ཤོག་ལེབ་ཀྱི་མཐོ་ཚད།"
+
+#. DESC_PSFILE_LEFTOFFSET
+msgid "Left offset from the edge of the paper to the usable area for postscript files"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་ཤོག་ལེབ་མཐའ་ཟུར་ལས་ལག་ལེན་ཡོད་པའི་མངའ་ཁོངས་ཚུན་གཡོན་གྱི་པར་ལེན།"
+
+#. DESC_PSFILE_BOTTOMOFFSET
+msgid "Bottom offset from the edge of the paper to the usable area for postscript files"
+msgstr "པོསིཊི་སིཀི་རིཔཊི་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་མཐའ་ཟུར་གྱི་ཤོག་ལེབ་ལས་ལག་ལེན་ཡོད་པའི་མངའ་ཁོངས་ཚུན་མཇུག་གི་པར་ལེན།"
+
+#. DESC_MAIN_WINDOW_FIXED
+msgid "Use fixed main window size or scrolled, resizable main window"
+msgstr "གཏན་བཟོས་ཀྱི་སྒོ་སྒྲིག་གཙོ་བོའི་ཚད་ཡང་ན་བཤུད་སྒྲིལ་འབད་འབདཝ་ ཚད་བསྐྱར་བཟོས་འབད་བཏུབ་པའི་སྒོ་སྒྲིག་གཙོ་བོ་ལག་ལེན་འཐབ།"
+
+#. DESC_DISABLE_GIMP_PREVIEW_GAMMA
+msgid "Disable preview gamma when XSane runs as gimp plugin"
+msgstr "ཨེགསི་སེན་དེ་ཇིམཔ་ པ་ལག་གིང་བཟུམ་འབད་གཡོག་བཀོལཝ་ད་སྔོན་ལྟ་གམ་མ་དེ་ལྕོགས་མིན་བཟོ།"
+
+#. DESC_PREVIEW_COLORMAP
+msgid "Use an own colormap for preview if display depth is 8 bpp"
+msgstr "བཀྲམ་སྟོན་གྱི་གཏིང་ཚད་དེ་༨བི་པི་པི་ཨིན་པ་ཅིན་སྔོན་ལྟའི་དོན་ལུ་རང་གི་ཚོས་གཞི་ས་ཁྲ་ལག་ལེན་འཐབ།"
+
+#. DESC_SHOW_RANGE_MODE
+msgid "Select how a range is displayed"
+msgstr "ཁྱབ་ཚད་དེ་ག་དེ་བཀྲམ་སྟོན་འབད་འབདཝ་ཨིན་ན་སིལ་འཐུ་འབད།"
+
+#. DESC_PREVIEW_OVERSAMPLING
+msgid "Value with that the calculated preview resolution is multiplied"
+msgstr "རྩིས་སྟོན་བསྡོམ་འབད་འབད་བའི་སྔོན་ལྟའི་ཧུམ་ཆ་དེ་དགུ་མཐའ་རྐྱབ་རྐྱབས་དང་གཅིག་ཁར་གནས་གོང་འབད།"
+
+#. DESC_PREVIEW_GAMMA
+msgid "Set gamma correction value for preview image"
+msgstr "སྔོན་ལྟའི་གཟུགས་བརྙན་གྱི་དོན་ལུ་གམ་མ་ནོར་བཅོས་འབད་འབད་བའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_PREVIEW_GAMMA_RED
+msgid "Set gamma correction value for red component of preview image"
+msgstr "ཆ་ཤས་དམརཔ་གིགཟུགས་བརྙན་དོན་ལུ་གམ་མ་ནོར་བཅོས་འབད་འབད་བའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_PREVIEW_GAMMA_GREEN
+msgid "Set gamma correction value for green component of preview image"
+msgstr "ཆ་ཤས་ལྗང་ཁུའི་གཟུགས་བརྙན་གྱི་དོན་ལུ་གམ་མ་ནོར་བཅོས་འབད་འབད་བའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_PREVIEW_GAMMA_BLUE
+msgid "Set gamma correction value for blue component of preview image"
+msgstr "ཆ་ཤས་ཧོནམ་གི་གཟུགས་བརྙན་དོན་ལུ་གམ་མ་ནོར་བཅོས་འབད་འབད་བའི་གནས་གོང་གཞི་སྒྲིག་འབད།"
+
+#. DESC_LINEART_MODE
+msgid "Define the way XSane shall handle the threshold option"
+msgstr "ཨེགསི་སེན་གྱིས་ཐེརེཤ་ཧོལ་གདམ་ཁ་ལེགས་སྐྱོངས་ཐབས་ཀྱི་ཐབས་ལམ་ངེས་འཛིན་འབད།"
+
+#. DESC_GRAYSCALE_SCANMODE
+msgid "Select grayscale scanmode. This scanmode is used for lineart preview scan when transformation from grayscale to lineart is enabled"
+msgstr "གེ་རེ་སིཀེལ་ཞིབ་ལྟའི་ཐབས་ལམ་སེལ་འཐུ་འབད།འ་ནི་ཞིབ་ལྟའི་ཐབས་ལམ་དེ་གེ་རེ་སིཀེལ་ལས་ལའནི་ཨརཊི་ལུ་བཟོ་བསྒྱུར་དེ་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ད་ལའནི་ཨརཊི་སྔོན་ལྟའི་ཞིབ་ལྟ་དེ་ལག་ལེན་འཐབ་ཨིན།"
+
+#. DESC_PREVIEW_THRESHOLD_MIN
+#, no-c-format
+msgid "The scanner's minimum threshold level in %"
+msgstr "ཞིབ་ལྟ་འབད་མིའི་ཉུང་མཐའ་ཐེ་རེཤ་ཧོལ་གནས་རིམ་དེ་ %ནང"
+
+#. DESC_PREVIEW_THRESHOLD_MAX
+#, no-c-format
+msgid "The scanner's maximum threshold level in %"
+msgstr "ཞིབ་ལྟ་འབད་མིའི་མང་མཐའ་ཐེ་རེཤ་ཧོལ་གནས་རིམ་དེ་%་ནང་།"
+
+#. DESC_PREVIEW_THRESHOLD_MUL
+msgid "Multiplier to make XSane threshold range and scanner threshold range the same"
+msgstr "ཨེགསི་སེན་ཐེརེཤ་ཧོལ་གྱི་ཁྱབ་ཚད་དང་ཞིབ་ལྟ་འབད་མིའི་ཐེརེཤ་ཧོལ་གྱི་ཁྱབ་ཚད་གཅིག་བཟོ་ནིའི་དོན་ལས་ སྒྱུར་བྱེད།"
+
+#. DESC_PREVIEW_THRESHOLD_OFF
+msgid "Offset to make XSane threshold range and scanner threshold range the same"
+msgstr "ཨེགསི་སེན་ཐེརེཤ་ཧོལ་གྱི་ཁྱབ་ཚད་དང་ཞིབ་ལྟ་འབད་མིའི་ཐེརེཤ་ཧོལ་ཁྱབ་ཚད་གཅིག་བཟོ་ནིའི་དོན་ལས་ པར་ལེན།"
+
+#. DESC_ADF_PAGES_MAX
+msgid "Number of pages to scan"
+msgstr "ཞིབ་ལྟ་འབད་ནིའི་དོན་ལས་ཤོག་ལེབ་ཀྱི་གྲངས།"
+
+#. DESC_PREVIEW_PIPETTE_RANGE
+msgid "dimension of square that is used to average color for pipette function"
+msgstr "རྒྱ་ཁོན་གྱི་སི་ཀོའེར་དེ་པཨའི་པེཊི་ལས་འགན་གྱི་དོན་ལུ་ཆ་སྙོམས་ཀྱི་ཚོས་གཞི་ལག་ལེན་འཐབ་འཐབ་དེ་ཨིན།"
+
+#. DESC_DOC_VIEWER
+msgid "Enter command to be executed to display helpfiles, must be a html-viewer!"
+msgstr "བཀྲམ་སྟོན་ཡིག་སྣོད་ཚུའི་དོན་ལས་ལག་ལེན་འཐབ་འཐབ་ཀྱི་བརྡ་བཀོད་ཐོ་བཀོད་འབད་ ཨེཆ་ཊི་ཨེམ་ཨེལ་-མཐོང་བྱེད་ཅིག་ཨིན་དགོ!"
+
+#. DESC_AUTOENHANCE_GAMMA
+msgid "Change gamma value when autoenhancement button is pressed"
+msgstr "རང་བཞིན་གོང་སྤེལ་གྱི་བསྒྱིར་རྟ་གཡེབ་ད་ལུ་བཏུབ་པའི་གམ་མ་གནས་གོང་བསྒྱུར་བཅོས་འབད།"
+
+#. DESC_PRESELECT_SCANAREA
+msgid "Select scanarea after preview scan has finished"
+msgstr "སྔོན་ལྟའི་ཞིབ་ལྟ་དེ་མཇུག་བསྡུ་ཡོད་པའི་ཤུལ་ལས་ཞིབ་ལྟའི་མངའ་ཁོངས་སེལ་འཐུ་འབད།"
+
+#. DESC_AUTOCORRECT_COLORS
+msgid "Do color correction after preview scan has finished"
+msgstr "ཚོས་གཞིའི་ནོར་བཅོས་དེ་སྔོན་ལྟའི་ཞིབ་ལྟ་མཇུག་བསྡུ་བའི་ཤུལ་ལས་འབད།"
+
+#. DESC_FAX_COMMAND
+msgid "Enter command to be executed in fax mode"
+msgstr "བརྡ་བཀོད་དེ་དཔར་འཕྲིན་ཐབས་ལམ་ནང་ལུ་ལག་ལེན་འཐབ་འཐབ་ཀྱི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_FAX_RECEIVER_OPT
+msgid "Enter option to specify receiver"
+msgstr "གདམ་ཁ་དེ་འཐོབ་མི་གསལ་བཀོད་འབད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_FAX_POSTSCRIPT_OPT
+msgid "Enter option to specify postscript files following"
+msgstr "གདམ་ཁ་དེ་འོག་གི་པོསིཊི་སིཀིརིཔཊི་ཡིག་སྣོད་ཚུ་གསལ་བཀོད་འབད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_FAX_NORMAL_OPT
+msgid "Enter option to specify normal mode (low resolution)"
+msgstr "གདམ་ཁ་དེ་སྤྱིར་བཏང་གི་ཐབས་ལམ་གསལ་བཀོད་འབད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།(ཧུམ་ཆ་དམའ་བ)"
+
+#. DESC_FAX_FINE_OPT
+msgid "Enter option to specify fine mode (high resolution)"
+msgstr "གདམ་ཁ་དེ་ལེགས་པའི་ཐབས་ལམ་གསལ་བཀོད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།(ཧུམ་ཆ་མཐོ་བ)"
+
+#. DESC_FAX_VIEWER
+msgid "Enter command to be executed to view a fax"
+msgstr "བརྡ་བཀོད་དེ་དཔར་འཕྲིན་སྟོན་ནིའི་ལག་ལེན་འཐབ་འཐབ་ཀྱི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_FAX_FINE_MODE
+msgid "Send fax with high vertical resolution (196 lpi instead of 98 lpi)"
+msgstr "དཔར་འཕྲིན་དེ་ཀེར་ཕྲང་མཐོ་བའི་ཧུམ་ཆ་དང་གཅིག་ཁར་གཏང་(༩༨ཨེལ་པི་ཨའི་གི་ཚབ་ལུ་༡༩༦་ཨེལ་པི་ཨའི)"
+
+#. DESC_FAX_PS_FLATDECODED
+msgid "Create zlib compressed postscript image for fax (flatdecode)"
+msgstr "ཟེཊི་ལིབ་གཡེབ་བཙུགས་པོསིཊི་སིཀིརིཔཊི་གཟུགས་བརྙན་དེ་དཔར་འཕྲིན་གྱི་དོན་ལུ་གསར་བསྐྲུན་འབད།"
+
+#. DESC_SMTP_SERVER
+msgid "IP Address or Domain name of SMTP server"
+msgstr "ཨའི་པི་ཁ་བྱང་ཡང་ན་ཌོ་མེན་མིང་གི་ཨེསི་ཨེམ་ཊི་པི་ སར་བར།"
+
+#. DESC_SMTP_PORT
+msgid "port to connect to SMTP server"
+msgstr "འདྲེན་ལམ་ ཨེསི་ཨེམ་ཊི་པི་ སར་བར་ལུ་མཐུད་ནིའི་དོན་ལས།"
+
+#. DESC_EMAIL_FROM
+msgid "enter your e-mail address"
+msgstr "ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_REPLY_TO
+msgid "enter e-mail address for replied e-mails"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་དེ་གློག་འཕྲིན་ལན་གསལ་ཚུའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_EMAIL_AUTHENTICATION
+msgid "Type of authentication before sending e-mail"
+msgstr "བདེན་བཤད་ཀྱི་དབྱེ་བ་ གློག་འཕྲིན་མ་གཏང་པའི་ཧེ་མ།"
+
+#. DESC_EMAIL_AUTH_USER
+msgid "user name for e-mail server"
+msgstr "ལག་ལེན་པའི་མིང་གློག་འཕྲིན་སར་བར་གྱི་དོན་ལུ།"
+
+#. DESC_EMAIL_AUTH_PASS
+msgid "password for e-mail server"
+msgstr "ཆོག་ཡིག་ གློག་འཕྲིན་སར་བར་གྱི་དོན་ལུ།"
+
+#. DESC_POP3_SERVER
+msgid "IP Address or Domain name of POP3 server"
+msgstr "ཨའི་པི་ཁ་བྱང་ཡང་ན་ཌོ་མེན་མིང་གི་པི་ཨོ་པི་༣་སར་བར།"
+
+#. DESC_POP3_PORT
+msgid "port to connect to POP3 server"
+msgstr "འདྲེན་ལམ་ པི་ཨོ་པི་༣་སར་བར་མཐུད་ནིའི་དོན་ལུ།"
+
+#. DESC_HTML_EMAIL
+msgid "E-mail is sent in html mode, place image with: <IMAGE>"
+msgstr "གློག་འཕྲིན་དེ་ཨེཆ་ཊི་ཨེམ་ཨེལ་ཐབས་ལམ་ནང་བཏང་ཡོད།གཟུགས་བརྙན་དང་གཅིག་ཁར་བཙུགས: <IMAGE>"
+
+#. DESC_OCR_COMMAND
+msgid "Enter command to start ocr program"
+msgstr "བརྡ་བཀོད་དེ་ཨོ་སི་ཨར་ལས་འགུལ་འགོ་བཙུགས་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_OCR_INPUTFILE_OPT
+msgid "Enter option of the ocr program to define input file"
+msgstr "གདམ་ཁའི་ཨོ་སི་ཨར་ལས་འགུལ་དེ་ཨིན་པུཊི་ཡིག་སྣོད་ངེས་འཛིན་འབད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_OCR_OUTPUTFILE_OPT
+msgid "Enter option of the ocr program to define output file"
+msgstr "གདམ་ཁའི་ཨོ་སི་ཨར་ལས་འགུལ་དེ་ཨའུཊི་པུཊི་ཡིག་སྣོད་ངེས་འཛིན་འབད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_OCR_USE_GUI_PIPE_OPT
+msgid "Define if the ocr program supports gui progress pipe"
+msgstr "ཨོ་སི་ཨར་ལས་འགུལ་གྱིས་ཇི་ཡུ་ཨའི་ཡར་འཕེལ་རྒྱུད་དུང་ལུ་རྒྱབ་སྐྱོར་འབདཝ་ཨིན་པ་ཅིན་ངེས་འཛིན་འབད།"
+
+#. DESC_OCR_OUTFD_OPT
+msgid "Enter option of the ocr program to define output filedescripor in GUI mode"
+msgstr "གདམ་ཁའི་ཨོ་སི་ཨར་ལས་འགུལ་དེ་ཇི་ཡུ་ཨའི་ཐབས་ལམ་ནང་གི་ཨའུཊི་པུཊི་ཡིག་སྣོད་འགྲལ་བཤདཔ་ངེས་འཛིན་འབད་ནིའི་དོན་ལས་ཐོ་བཀོད་འབད།"
+
+#. DESC_OCR_PROGRESS_KEYWORD
+msgid "Define Keyword that is used to mark progress information"
+msgstr "ཡར་འཕེལ་བརྡ་དོན་གྱི་རྟགས་བཀལ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་གཙོ་ཚིག་ངེས་འཛིན་འབད།"
+
+#. DESC_PERMISSION_READ
+msgid "read"
+msgstr "ལྷག"
+
+#. DESC_PERMISSION_WRITE
+msgid "write"
+msgstr "འབྲི།"
+
+#. DESC_PERMISSION_EXECUTE
+msgid "execute"
+msgstr "ལག་ལེན་འཐབ།"
+
+#. DESC_ADD_BATCH
+msgid "Add selection for batch scan"
+msgstr "རུ་ཚན་ཞིབ་ལྟའི་དོན་ལུ་སེལ་འཐུ་ཁ་སྐོང་རྐྱབ།"
+
+#. DESC_PIPETTE_WHITE
+msgid "Pick white point"
+msgstr "ཡིག་ཚད་དཀརཔོ་འཐུ།"
+
+#. DESC_PIPETTE_GRAY
+msgid "Pick gray point"
+msgstr "ཡིག་ཚད་སྐྱ་ཐལ་འཐུ།"
+
+#. DESC_PIPETTE_BLACK
+msgid "Pick black point"
+msgstr "ཡིག་ཚད་གནགཔོ་འཐུ།"
+
+#. DESC_ZOOM_FULL
+msgid "Use full scanarea"
+msgstr "ཞིབ་ལྟའི་མངའ་ཁོངས་ཆ་ཚང་ལག་ལེན་འཐབ།"
+
+#. DESC_ZOOM_OUT
+#, no-c-format
+msgid "Zoom 20% out"
+msgstr "རྒྱས་ཟུམ་༢༠%ཕྱི་ཁར།"
+
+#. DESC_ZOOM_IN
+msgid "Click at position to zoom to"
+msgstr "རྒྱས་ཟུམ་ལུ་འགྱོ་ནིའི་དོན་ལས་གནས་ས་ལུ་ཨེབ་གཏང་།"
+
+#. DESC_ZOOM_AREA
+msgid "Zoom into selected area"
+msgstr "སེལ་འཐུ་འབད་འབད་བའི་མངའ་ཁོངས་ནང་ལུ་རྒྱས་ཟུམ་འབད།"
+
+#. DESC_ZOOM_UNDO
+msgid "Undo last zoom"
+msgstr "རྒྱས་ཟུམ་མཇུག་དེ་འབད་བཤོལ།"
+
+#. DESC_FULL_PREVIEW_AREA
+msgid "Select visible area"
+msgstr "མཐོང་ཚུགས་པའི་མངའ་ཁོངས་སེལ་འཐུ་འབད།"
+
+#. DESC_AUTOSELECT_SCANAREA
+msgid "Autoselect scanarea"
+msgstr "ཞིབ་ལྟའི་མངའ་ཁོངས་རང་བཞིན་སེལ་འཐུ་འབད།"
+
+#. DESC_AUTORAISE_SCANAREA
+msgid "Autoraise scanarea"
+msgstr "ཞིབ་ལྟའི་མངའ་ཁོངས་རང་བཞིན་ཆེར་བསྐྱེད་འབད།"
+
+#. DESC_DELETE_IMAGES
+msgid "Delete preview image cache"
+msgstr "སྔོན་ལྟའི་གཟུངས་བརྙན་འདྲ་མཛོད་བཏོན་གཏང་།"
+
+#. DESC_PRESET_AREA
+msgid ""
+"Preset area:\n"
+"To add new area or edit an existing area use contect menu (right mouse button)."
+msgstr ""
+"སྔོན་སྒྲིག་མངའ་ཁོངས:\n"
+"མངའ་ཁོངས་གསརཔ་ཁ་སྐོང་རྐྱབ་ནི་ཡང་ན་ཧེ་མ་ལས་ཡོདཔའི་མངའ་ཁོངས་ཞུན་དག་འབད་ནིའི་དོན་ལུ་འབྲེལ་ཡོད་དཀལ་ཆག་ལག་ལེན་འཐབ་(མའུསི་གི་བསྒྱིར་རྟ་གཡས)།"
+
+#. DESC_ROTATION
+msgid "Rotate preview and scan"
+msgstr "སྔོན་ལྟ་དང་ཞིབ་ལྟ་བསྒྱིར།"
+
+#. DESC_RATIO
+msgid "Aspect ratio of selection"
+msgstr "དཔྱ་ཚད་ཀྱི་སེལ་འཐུ་འབད་བའི་རྣམ་པ།"
+
+#. DESC_PAPER_ORIENTATION
+msgid "Define image position for printing"
+msgstr "དཔར་བསྐྲུན་གྱི་དོན་ལས་གཟུགས་བརྙན་གྱི་གནས་ས་ངེས་འཛིན་འབད།"
+
+#. DESC_VIEWER_OCR
+msgid "Optical Character Recognition"
+msgstr "མཐོང་བའི་ཡིག་འབྲུ་གི་ངོས་འཛིན།"
+
+#. DESC_VIEWER_UNDO
+msgid "Undo last change"
+msgstr "མཇུག་ལུ་བསྒྱུར་བཅོས་ཡོད་མི་འབད་བཤོལ།"
+
+#. DESC_VIEWER_CLONE
+msgid "Clone image"
+msgstr "ངོ་འདྲ་གི་གཟུགས་བརྙན།"
+
+#. DESC_ROTATE90
+msgid "Rotate image 90 degree"
+msgstr "གཟུགས་བརྙན་༩༠་ཌིག་རི་བསྒྱིར།"
+
+#. DESC_ROTATE180
+msgid "Rotate image 180 degree"
+msgstr "གཟུགས་བརྙན་༡༨༠ཌིག་རི་བསྒྱིར།"
+
+#. DESC_ROTATE270
+msgid "Rotate image 270 degree"
+msgstr "གཟུགས་བརྙན་༢༧༠ཌིག་རི་བསྒྱིར།"
+
+#. DESC_MIRROR_X
+msgid "Mirror image at vertical axis"
+msgstr "ཀེར་ཕྲེང་ཚད་ཐིག་ལུ་མི་རར་གྱི་གཟུགས་བརྙན།"
+
+#. DESC_MIRROR_Y
+msgid "Mirror image at horizontal axis"
+msgstr "ཐད་སྙོམས་ཚད་ཐིག་ལུ་མི་རར་གྱི་གཟུགས་བརྙན།"
+
+#. DESC_VIEWER_ZOOM
+msgid "Zoom image"
+msgstr "གཟུགས་བརྙན་རྒྱས་ཟུམ་འབད།"
+
+#. DESC_STORE_MEDIUM
+msgid "Store medium"
+msgstr "བརྡ་ལམ་སྲོག་འཇོག་འབད།"
+
+#. DESC_DELETE_MEDIUM
+msgid "Delete active medium"
+msgstr "ཤུགས་ལྡན་བརྡ་ལམ་བཏོན་གཏང་།"
+
+#. DESC_SCALE_FACTOR
+msgid "Scale factor"
+msgstr "ཆ་ཚད་ཆ་རྐྱེན།"
+
+#. DESC_X_SCALE_FACTOR
+msgid "X-Scale factor"
+msgstr "ཨེགསི་-ཆ་ཚད་ཆ་རྐྱེན།"
+
+#. DESC_Y_SCALE_FACTOR
+msgid "Y-Scale factor"
+msgstr "ཝའི་-ཆ་ཚད་ཆ་རྐྱེན།"
+
+#. DESC_SCALE_WIDTH
+msgid "Scale image to width [in pixel]"
+msgstr "ཆ་ཚད་གཟུགས་བརྙན་ལུ་རྒྱ་ཚད[པིག་སེལ་ནང་]"
+
+#. DESC_SCALE_HEIGHT
+msgid "Scale image to height [in pixel]"
+msgstr "ཆ་ཚད་གཟུགས་བརྙན་ལུ་མཐོ་ཚད[པིག་སེལ་ནང་]"
+
+#. DESC_BATCH_LIST_EMPTY
+msgid "Empty batch list"
+msgstr "རུ་ཚན་གྱི་ཐོ་སྟོངམ།"
+
+#. DESC_BATCH_LIST_SAVE
+msgid "Save batch list"
+msgstr "རུ་ཚན་གྱི་ཐོ་སྲུང་བཞག་འབད།"
+
+#. DESC_BATCH_LIST_LOAD
+msgid "Load batch list"
+msgstr "རུ་ཚན་གྱི་ཐོ་མངོན་གསལ་འབད།"
+
+#. DESC_BATCH_RENAME
+msgid "Rename area"
+msgstr "མངའ་ཁོངས་བསྐྱར་མིང་བཏགས།"
+
+#. DESC_BATCH_ADD
+msgid "Add selected preview area to batch list"
+msgstr "སེལ་འཐུ་འབད་འབད་བའི་སྔོན་ལྟ་མངའ་ཁོངས་དེ་རུ་ཚན་གྱི་ཐོ་ནང་ལུ་ཁ་སྐོང་རྐྱབས།"
+
+#. DESC_BATCH_DEL
+msgid "Delete selected area from batch list"
+msgstr "སེལ་འཐུ་འབད་འབད་བའི་མངའ་ཁོངས་དེ་རུ་ཚན་གྱི་ཐོ་ནང་ལས་བཏོན་གཏང་།"
+
+#. DESC_AUTOMATIC
+msgid "Turns on automatic mode"
+msgstr "རང་བཞིན་གྱི་ཐབས་ལམ་ལུ་ལོགཔ་ཨིན།/turns/"
+
+#. ERR_HOME_DIR
+msgid "Failed to determine home directory:"
+msgstr "ཁྱིམ་གྱི་སྣོད་ཐོ་གཏན་འབེབས་བཟོ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ:"
+
+#. ERR_CHANGE_WORKING_DIR
+msgid "Failed to change working directory to"
+msgstr "ལུ་ལཱ་འབད་ནིའི་སྣོད་ཐོ་བསྒྱུར་བཅོས་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_FILENAME_TOO_LONG
+msgid "Filename too long"
+msgstr "ཡིག་སྣོད་མིང་གནམ་མེད་ས་མེད་རིངམ།"
+
+#. ERR_CREATE_TEMP_FILE
+msgid ""
+"Could not create temporary file.\n"
+"Open Menue Preferences->Setup Tab Save and\n"
+"select a temporary directory where you have\n"
+"write permissions."
+msgstr ""
+"གནས་སྐབས་ཀྱི་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་མ་ཚུགས།\n"
+"དཀར་ཆག་གི་དགའ་གདམ་ཁ་ཕྱེ་->མཆོང་ལྡེ་གཞི་སྒྲིག་ སྲུང་བཞག་འབད་ནི་དང་\n"
+"གནས་སྐབས་ཀྱི་སྣོད་ཐོ་གཅིག་ཁྱོད་ག་སྟེ་ལུ་\n"
+"གནང་བ་འབྲི་ས་སེལ་འཐུ་འབད།"
+
+#. ERR_SET_OPTION
+msgid "Failed to set value of option"
+msgstr "གནས་གོང་གི་གདམ་ཁ་གཞི་སྒྲིག་འབད་ནི་ལུ་འཐུསཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_GET_OPTION
+msgid "Failed to obtain value of option"
+msgstr "གནས་གོང་གི་གདམ་ཁ་ལེན་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_OPTION_COUNT
+msgid "Error obtaining option count"
+msgstr "གདམ་ཁའི་གྲངས་རྩིས་ལེན་ནི་ལུ་འཛོལ་བ།"
+
+#. ERR_DEVICE_OPEN_FAILED
+msgid "Failed to open device"
+msgstr "ཐབས་འཕྲུལ་ཁ་ཕྱེ་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_NO_DEVICES
+msgid "no devices available"
+msgstr "ཐབས་འཕྲུལ་ཚུ་འཐོབ་ཚུགསཔ་མེད།"
+
+#. ERR_DURING_READ
+msgid "Error during read:"
+msgstr "ལྷག་པའི་སྐབས་འཛོལ་བ:"
+
+#. ERR_DURING_SAVE
+msgid "Error during save:"
+msgstr "སྲུང་བཞག་འབད་བའི་སྐབས་འཛོལ་བ:"
+
+#. ERR_BAD_DEPTH
+msgid "Can't handle depth"
+msgstr "གཏིང་ཚད་ལེགས་སྐྱོངས་ཐབས་མ་ཚུགས།"
+
+#. ERR_GIMP_BAD_DEPTH
+#, c-format
+msgid "GIMP can't handle depth %d bits/color"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གིས་གཏིང་ཚད་%dབིཊིསི/ཚོས་གཞི་ལེགས་སྐྱོངས་ཐབས་མ་ཚུགས།"
+
+#. ERR_UNKNOWN_SAVING_FORMAT
+msgid "Unknown file format for saving"
+msgstr "སྲུང་བཞག་འབད་ནིའི་དོན་ལུ་ཡིག་སྣོད་ཀྱི་རྩ་སྒྲིག་མ་ཤེསཔ།"
+
+#. ERR_OPEN_FAILED
+msgid "Failed to open"
+msgstr "ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_CREATE_SECURE_FILE
+msgid "Could not create secure file (may be a link does exist):"
+msgstr "མཐའ་བཙན་གྱི་ཡིག་སྣོད་གསར་བསྐྲུན་འབད་མ་ཚུགས་(ཡང་ཅིན་འབྲེལ་ལམ་གཅིག་ཡོདཔ་འོང་):"
+
+#. ERR_FAILED_PRINTER_PIPE
+msgid "Failed to open pipe for executing printercommand"
+msgstr "དཔར་འཕྲིན་གྱི་བརྡ་བཀོད་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་རྒྱུད་དུང་ཁ་ཕྱེ་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_FAILED_EXEC_PRINTER_CMD
+msgid "Failed to execute printercommand:"
+msgstr "དཔར་འཕྲིན་གྱི་བརྡ་བཀོད་ལག་ལེན་འཐབ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_FAILED_START_SCANNER
+msgid "Failed to start scanner:"
+msgstr "ཞིབ་ལྟ་འབད་མི་འགོ་བཙུགས་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_FAILED_GET_PARAMS
+msgid "Failed to get parameters:"
+msgstr "ཚད་བཟུང་འཐོབ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_NO_OUTPUT_FORMAT
+msgid "No output format given"
+msgstr "ཨའུཊི་པུཊི་གི་རྩ་སྒྲིག་མ་བྱིན།"
+
+#. ERR_NO_MEM
+msgid "out of memory"
+msgstr "དྲན་ཚད་ཀྱི་བདའ་མ་ཟུན།"
+
+#. ERR_TOO_MUCH_DATA
+msgid "Backend sends more image data than it defined in parameters"
+msgstr "རྒྱབ་མཐའ་གིས་ཚད་བཟུང་ནང་ངེས་འཛིན་འབད་འབདཝ་ལས་གཟུགས་བརྙན་གྱི་གནད་སྡུད་ལེ་ཤ་གཏངམ་ཨིན།"
+
+#. ERR_LIBTIFF
+msgid "LIBTIFF reports error"
+msgstr "ཨེལ་ཨའི་བི་ཊི་ཨའི་ཨེཕ་ཨེཕ་གིས་འཛོལ་བའི་སྙན་ཞུ་འབདཝ་ཨིན།"
+
+#. ERR_LIBPNG
+msgid "LIBPNG reports error"
+msgstr "ཨེལ་ཨའི་བི་པི་ཨེན་ཇི་གིས་འཛོལ་བའི་སྙན་ཞུ་འབདཝ་ཨིན།"
+
+#. ERR_LIBJPEG
+msgid "LIBJPEG reports error"
+msgstr "ཨེལ་ཨའི་བི་ཇེ་པི་ཨི་ཇི་གིས་འཛོལ་བའི་སྙན་ཞུ་འབདཝ་ཨིན།"
+
+#. ERR_ZLIB
+msgid "ZLIB error or memory allocation problem"
+msgstr "ཟེཊི་ཨེལ་ཨའི་བི་འཛོལ་བ་ཡང་ན་དྲན་ཚད་སྤྲོད་བཞག་གི་དཀའ་ངལ།"
+
+#. ERR_UNKNOWN_TYPE
+msgid "unknown type"
+msgstr "མ་ཤེས་པའི་དབྱེ་བ།"
+
+#. ERR_UNKNOWN_CONSTRAINT_TYPE
+msgid "unknown constraint type"
+msgstr "མ་ཤེས་པའི་དམ་ནིའི་དབྱེ་བ།"
+
+#. ERR_OPTION_NAME_NULL
+msgid "Option has empty name (NULL)."
+msgstr "གདམ་ཁ་ལུ་མིང་སྟོངམ་ཡོད་(ཨེན་ཡུ་ཨེལ་ཨེལ)།"
+
+#. ERR_BACKEND_BUG
+msgid "This is a backend bug. Please inform the author of the backend!"
+msgstr "འ་ནི་དེ་རྒྱབ་མཐའི་རྐྱེན་ཨིན།རྒྱབ་མཐའི་རྩོམ་པ་པོ་ལུ་བརྡ་སླབ་གནང་!"
+
+#. ERR_FAILED_EXEC_DOC_VIEWER
+msgid "Failed to execute documentation viewer:"
+msgstr "ཡིག་ཐོག་ལུ་བཀོད་པའི་མཐོང་བྱེད་ལག་ལེན་འཐབ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ:"
+
+#. ERR_FAILED_EXEC_FAX_VIEWER
+msgid "Failed to execute fax viewer:"
+msgstr "དཔར་འཕྲིན་གྱི་མཐོང་བྱེད་ལག་ལེན་འཐབ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ:"
+
+#. ERR_FAILED_EXEC_FAX_CMD
+msgid "Failed to execute fax command:"
+msgstr "ཐཔར་འཕྲིན་གྱི་བརྡ་བཀོད་ལག་ལེན་འཐབ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ:"
+
+#. ERR_FAILED_EXEC_OCR_CMD
+msgid "Failed to execute ocr command:"
+msgstr "ཨོ་སི་ཨར་གྱི་བརྡ་བཀོད་ལག་ལེན་འཐབ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ:"
+
+#. ERR_BAD_FRAME_FORMAT
+msgid "bad frame format"
+msgstr "གཞི་ཁྲམ་གྱི་རྩ་སྒྲིག་བྱང་ཉེས།"
+
+#. ERR_FAILED_SET_RESOLUTION
+msgid "unable to set resolution"
+msgstr "ཧུམ་ཆ་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+#. ERR_PASSWORD_FILE_INSECURE
+#, c-format
+msgid "Password file (%s) is insecure, use permission x00\n"
+msgstr "ཆོག་ཡིག་གི་ཡིག་སྣོད་(%s)དེ་སྲུང་སྐྱོབ་མེད་ གནང་བ་x00ལག་ལེན་འཐབ།\n"
+
+#. ERR_ERROR
+msgid "error"
+msgstr "འཛོལ་བ།"
+
+#. ERR_MAJOR_VERSION_NR_CONFLICT
+msgid "Sane major version number mismatch!"
+msgstr "སེན་གྱི་ཐོན་རིམ་ཆེ་བའི་གྲངས་མ་མཐུནམ!"
+
+#. ERR_XSANE_MAJOR_VERSION
+msgid "XSane major version ="
+msgstr "ཨེགསི་སེན་གྱི་ཐོན་རིམ་ཆེ་བ="
+
+#. ERR_BACKEND_MAJOR_VERSION
+msgid "backend major version ="
+msgstr "རྒྱབ་མཐའི་ཐོན་རིམ་ཆེ་བ="
+
+#. ERR_PROGRAM_ABORTED
+msgid "*** PROGRAM ABORTED ***"
+msgstr "*** ལས་འགུལ་བར་བཤོལ ***"
+
+#. ERR_FAILED_ALLOCATE_IMAGE
+msgid "Failed to allocate image memory:"
+msgstr "གཟུགས་བརྙན་གྱི་དྲན་ཚད་སྤྲོད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ:"
+
+#. ERR_PREVIEW_BAD_DEPTH
+msgid "Preview cannot handle bit depth"
+msgstr "སྔོན་ལྟ་གིས་བིཊི་གི་གཏིང་ཚད་ལེགས་སྐྱོངས་འཐབ་མི་ཚུགས།"
+
+#. ERR_GIMP_SUPPORT_MISSING
+msgid "GIMP support missing"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི་རྒྱབ་སྐྱོར་བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#. ERR_CREATE_FAX_PROJECT
+msgid "Could not create faxproject"
+msgstr "དཔར་འཕྲིན་གྱི་ལས་འགུལ་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#. WARN_COUNTER_UNDERRUN
+msgid "Filename counter underrun"
+msgstr "ཡིག་སྣོད་མིང་གི་གདོང་ལན་མངམ་སྦེ་མ་བཀོལ་བས།"
+
+#. WARN_NO_VALUE_CONSTRAINT
+msgid "warning: option has no value constraint"
+msgstr "ཉེན་བརྡ:གདམ་ཁ་དེ་ལུ་གནས་གོང་དམ་ནི་མེད།"
+
+#. WARN_XSANE_AS_ROOT
+msgid ""
+"You try to run XSane as ROOT, that really is DANGEROUS!\n"
+"\n"
+"Do not send any bug reports when you\n"
+"have any problem while running XSane as root:\n"
+"YOU ARE ALONE!"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཨེགསི་སེན་དེ་རུཊི་བཟུམ་སྦེ་གཡོག་བཀོལ་ལྟ་ འ་ནི་ཐད་རི་འབའ་རི་ཉེན་ཁ་ཅན་ཨིན་མི་དེ!\n"
+"\n"
+"ཁྱོད་ཨེགསི་སེན་དེ་རུཊི་སྦེ་གཡོག་བཀོལ་བའི་སྐབས་དཀའ་ངལ་ག་ཅི་རང་ཡོད་རུང་\n"
+"སྙན་ཞུའི་རྐྱན་གཅིག་ཡང་མ་གཏང་:\n"
+"ཁྱོད་རང་རྐྱངམ་ཅིག་ཨིན!"
+
+#. ERR_HEADER_ERROR
+msgid "Error"
+msgstr "འཛོལ་བ།"
+
+#. ERR_HEADER_WARNING
+msgid "Warning"
+msgstr "ཉེན་བརྡ།"
+
+#. ERR_HEADER_INFO
+msgid "Information"
+msgstr "བརྡ་དོན།"
+
+#. ERR_HEADER_CHILD_PROCESS_ERROR
+msgid "Child process error"
+msgstr "ཆ་ལག་ལས་སྦྱོར་གྱི་འཛོལ་བ།"
+
+#. ERR_FAILED_CREATE_FILE
+msgid "Failed to create file:"
+msgstr "ཡིག་སྣོད་གསར་བསྐྲུན་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. ERR_LOAD_DEVICE_SETTINGS
+msgid "Error while loading device settings:"
+msgstr "ཐབས་འཕྲུལ་གྱི་གཞི་སྒྲིག་ཚུ་མངོན་གསལ་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#. ERR_NO_DRC_FILE
+msgid "is not a device-rc-file !!!"
+msgstr "དེ་ཐབས་འཕྲུལ་-ཨར་སི་-ཡིག་སྣོད་མེན !!!"
+
+#. ERR_NETSCAPE_EXECUTE_FAIL
+msgid "Failed to execute netscape!"
+msgstr "ནེཊི་སིཀེཔ་ལག་ལེན་འཐབ་པའི་སྐབས་འཐུས་ཤོར་བྱུང་ཡོདཔ!"
+
+#. ERR_SENDFAX_RECEIVER_MISSING
+msgid "Send fax: no receiver defined"
+msgstr "དཔར་འཕྲིན་གཏང་:ལེན་མི་ངེས་འཛིན་མ་འབད།"
+
+#. ERR_CREATED_FOR_DEVICE
+msgid "has been created for device"
+msgstr "དེ་ཐབས་འཕྲུལ་གྱི་དོན་ལུ་གསར་བསྐྲུན་འབད་འབདཝ་ཨིན།"
+
+#. ERR_USED_FOR_DEVICE
+msgid "you want to use it for device"
+msgstr "ཁྱོད་ཐབས་འཕྲུལ་གྱི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་ན།"
+
+#. ERR_MAY_CAUSE_PROBLEMS
+msgid "this may cause problems!"
+msgstr "འ་ནི་གིས་དཀའ་ངལ་བྱིན་འོང་!"
+
+#. WARN_UNSAVED_IMAGES
+#, c-format
+msgid "There are %d unsaved images"
+msgstr " %d སྲུང་བཞག་མ་འབད་མི་གཟུགས་བརྙན་འདུག།"
+
+#. WARN_FILE_EXISTS
+#, c-format
+msgid "File %s already exists"
+msgstr "ཡིག་སྣོད་ %s ཧེ་མ་ལས་རང་ཡོད།"
+
+#. ERR_FILE_NOT_EXISTS
+#, c-format
+msgid "File %s does not exist"
+msgstr "ཡིག་སྣོད་ %s མེད།"
+
+#. ERR_FILE_NOT_POSTSCRIPT
+#, c-format
+msgid "File %s is not a postscript file"
+msgstr "ཡིག་སྣོད་ %s དེ་པོསིཊི་སིཀིརིཔཊི་ཡིག་སྣོད་མེན།"
+
+#. ERR_UNSUPPORTED_OUTPUT_FORMAT
+#, c-format
+msgid "Unsupported %d-bit output format: %s"
+msgstr "རྒྱབ་སྐྱོར་མའབདཝ་ %d-བིཊི་ ཨའུཊི་པུཊི་རྩ་སྒྲིག་: %s"
+
+#. WARN_VIEWER_IMAGE_NOT_SAVED
+msgid "viewer image is not saved"
+msgstr "མཐོང་བྱེད་ཀྱི་གཟུགས་བརྙན་དེ་སྲུང་བཞག་མ་འབད་བས།"
+
+#. TEXT_USAGE
+msgid "Usage:"
+msgstr "ལག་ལེན:"
+
+#. TEXT_USAGE_OPTIONS
+msgid "[OPTION]... [DEVICE]"
+msgstr "[གདམ་ཁ]... [ཐབས་འཕྲུལ]"
+
+#. TEXT_HELP
+msgid ""
+"Start up graphical user interface to access SANE (Scanner Access Now Easy) devices.\n"
+"\n"
+"The format of [DEVICE] is backendname:devicefile (e.g. umax:/dev/scanner).\n"
+"[OPTION]... can be a combination of the following items:\n"
+" -h, --help                   display this help message and exit\n"
+" -v, --version                print version information\n"
+" -l, --license                print license information\n"
+"\n"
+" -d, --device-settings file   load device settings from file (without \".drc\")\n"
+"\n"
+" -V, --viewer                 start with viewer-mode active (default)\n"
+" -s, --save                   start with save-mode active\n"
+" -c, --copy                   start with copy-mode active\n"
+" -m, --multipage              start with multipage-mode active\n"
+" -f, --fax                    start with fax-mode active\n"
+" -e, --email                  start with e-mail-mode active\n"
+" -n, --no-mode-selection      disable menu for XSane mode selection\n"
+"\n"
+" -F, --Fixed                  fixed main window size (overwrite preferences value)\n"
+" -R, --Resizeable             resizable, scrolled main window (overwrite preferences value)\n"
+"\n"
+" -p, --print-filenames        print image filenames created by XSane\n"
+" -N, --force-filename name    force filename and disable user filename selection\n"
+"\n"
+" --display X11-display        redirect output to X11-display\n"
+" --no-xshm                    do not use shared memory images\n"
+" --sync                       request a synchronous connection with the X11 server"
+msgstr ""
+"སེན་ཐབས་འཕྲུལ་འཛུལ་སྤྱོད་འབད་ནིའི་དོན་ལས་ཚད་རིས་ལག་ལེན་པའི་ངོས་འདྲ་འགོ་བཙུགས་(ཞིབ་ལྟ་འབད་མིའི་འཛུལ་སྤྱོད་འབད་ནི་དེ་འཇམ)།\n"
+"\n"
+"[ཐབས་འཕྲུལ་]གྱི་རྩ་སྒྲིག་དེ་རྒྱབ་མཐའི་མིང་:ཐབས་འཕྲུལ་གྱི་ཡིག་སྣོད(དཔེར་ན་ ཡུ་མེགསི:/ཌེབ/དཔར་ལེན་འཕྲུལ་ཆས)།\n"
+"[གདམ་ཁ]... འོག་ལུ་ཡོད་པའི་རྣམ་གྲངས་ཚུའི་མཉམ་མཐུད་ཡང་བཏུབ:\n"
+" -ཨེཆ --གྲོགས་རམ་                   འ་ནི་གྲོགས་རམ་གྱི་འཕྲིན་དོན་དེ་བཀྲམ་སྟོན་འབད་ཞིནམ་ལས་ཕྱིར་ཐོན།\n"
+"-ཝི,--ཐོན་རིམ་                ཐོན་རིམ་གྱི་བརྡ་དོན་དཔར་བསྐྲུན་འབད་ཞིནམ་ལས་ཕྱིར་ཐོན།\n"
+"-ཨེལ,--ཆོག་ཐམ                ཆོག་ཐམ་གྱི་བརྡ་དོན་དཔར་བསྐྲུན་འབད།\n"
+"\n"
+"-ཌི,--ཐབས་འཕྲུལ་-ཡིག་སྣོད་སྒྲིག་སྟངས་   ཡིག་སྣོད་ནང་ལས་ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་ཚུ་མངོན་གསལ་འབད་( \"ཌི་ཨར་སི་\"མེད་པར)\n"
+"\n"
+"-ཝི,མཐོང་བྱེད་                 མཐོང་བྱེད་ཐབས་ལམ་གྱི་ཤུགས་ལྡན་དང་གཅིག་ཁར་འགོ་བཙུགས།(སྐྱོན་ཅན་)\n"
+"-ཨེསི,--སྲུང་བཞག་འབད་                   སྲུང་བཞག་འབད་ནིའི་ཐབས་ལམ་ཤུགས་ལྡན་དང་གཅིག་ཁར་འགོ་བཙིགས།\n"
+"-སི,༌--འདྲ་བཤུས་                   འདྲ་བཤུས་ཀྱི་ཐབས་ལམ་ཤུགས་ལྡན་དང་གཅིག་ཁར་འགོ་བཙུགས།\n"
+"-ཨེམ་,--སྣ་མང་ཤོག་ལེབ              སྣ་མང་ཤོག་ལེབ་ཀྱི་ཐབས་ལམ་ཤུགས་ལྡན་དང་གཅིག་ཁར་འགོ་བཙུགས།\n"
+"-ཨེཕ,--དཔར་འཕྲིན                    དཔར་འཕྲིན་གྱི་ཐབས་ལམ་ཤུགས་ལྡན་དང་གཅིག་ཁར་འགོ་བཙུགས།\n"
+"-ཨི,--གློག་འཕྲིན་                  གློག་འཕྲིན་གྱི་ཐབས་ལམ་ཤུགས་ལྡན་དང་གཅིག་ཁར་འགོ་བཙུགས།\n"
+"-ཨེན,--ཐབས་འཕྲུལ་-སེལ་འཐུ་འབད་ནི་-མེད་      ཨེགསི་སེན་ཐབས་ལམ་སེལ་འཐུ་འབད་ནིའི་དོན་ལུ་དཀར་ཆག་ལྕོགས་མིན་བཟོ།\n"
+"\n"
+"-ཨེཕ་ --གཏན་བཟོས་                  གཏན་བཟོས་ཀྱི་སྒོ་སྒྲིག་གཙོ་བོའི་ཚད་(སླར་སྲུང་འབད་བའི་དགའ་གདམ་གྱི་གནས་གོང་།)\n"
+"-ཨར --ཚད་བསྐྱར་བཟོ་འབད་བཏུབ་མི་             ཚད་བསྐྱར་བཟོ་འབད་བཏིབ་མི་ བཤུད་སྒྲིལ་འབད་འབད་བའི་སྒོ་སྒྲིག་གཙོ་བོ།(སླར་སྲུང་འབད་བའི་དགའ་གདམ་གྱི་གནས་གོང་།)\n"
+"\n"
+"-པི --དཔར་བསྐྲུན་-ཡིག་སྣོད་མིང་ཚུ་        ཨེགསི་སེན་གྱིས་གསར་བསྐྲུན་འབད་འབད་བའི་གཟུགས་བརྙན་ཡིག་སྣོད་མིང་ཚུ་དཔར་བསྐྲུན་འབད།\n"
+"-ཨེན --བང་བཙོང་ནི་-ཡིག་སྣོད་མིང་གི་མིང་    ཡིག་སྣོད་མིང་དང་ལག་ལེན་པའི་ཡིག་སྣོད་མིང་སེལ་འཐུ་འབད་མི་ལྕོགས་མིན་བཟོ་ནི་ལུ་བང་བཙོང་།\n"
+"\n"
+"བཀྲམ་སྟོན་ ཨེགསི་༡༡-བཀྲམ་སྟོན་        ཨའུཊི་པུཊིདེ་ཨེགསི་༡༡-བཀྲམ་སྟོན་ལུ་ལོག་ གཏང་།\n"
+"--ཨེགསི་ཨིསི་ཨེཆ་ཨེམ་-མེད་                    རུབ་སྤྱོད་འབད་ཡོད་པའི་དྲན་ཚད་ཀྱི་གཟུགས་བརྙན་ལག་ལེན་མ་འཐབ།\n"
+"--ཨེསི་ཝའི་ཨེན་སི་                       ཞུ་བ་ མཉམ་བྱུང་མཐུད་ལམ་དང་གཅིག་ཁར་ཨེགསི་༡༡་ སར་བར།"
+
+#. strings for gimp plugin
+#. XSANE_GIMP_INSTALL_BLURB
+msgid "Front-end to the SANE interface"
+msgstr "གདོང་ཁ-སེན་ངོས་འདྲ་བ་ལུ་མཇུག།"
+
+#. XSANE_GIMP_INSTALL_HELP
+msgid "This function provides access to scanners and other image acquisition devices through the SANE (Scanner Access Now Easy) interface."
+msgstr "འ་ནི་ལས་འགན་དེ་གིས་དཔར་ལེན་འཕྲུལ་ཆས་དང་གཞན་དགོས་མཁོ་ཡོད་པའི་གཟུགས་བརྙན་གྱི་ཐབས་འཕྲུལ་ཚུ་སེན་ངོས་འདྲ་བ་གི་ཐོག་ལས་འབད་འཛུལ་སྤྱོད་འབད་ནི་བྱིནམ་ཨིན་(དཔར་ལེན་འཕྲུལ་ཆས་ཀྱི་འཛུལ་སྤྱོད་འབད་ནི་ད་འཇམ)།"
+
+#. Menu path must not be translated, this is done by the gimp. Only translate the text behind the last "/"
+#. XSANE_GIMP_MENU_DIALOG
+msgid "<Toolbox>/File/Acquire/XSane: Device dialog..."
+msgstr "<Toolbox>/ཡིག་སྣོད་/འཐོབ་ནི་/ཨེགསི་སེན:ཐབས་འཕྲུལ་ཌའི་ལོག..."
+
+#. XSANE_GIMP_MENU
+msgid "<Toolbox>/File/Acquire/XSane: "
+msgstr "<Toolbox>/ཡིག་སྣོད་/འཐོབ་ནི/ཨེདསི་སེན:"
+
+#. XSANE_GIMP_MENU_DIALOG_OLD
+msgid "<Toolbox>/Xtns/XSane/Device dialog..."
+msgstr "<Toolbox>/ཨེགསི་ཊེནསི/ཨེགསི་སེན/ཐབས་འཕྲུལ་ཌའི་ལོག..."
+
+#. XSANE_GIMP_MENU_OLD
+msgid "<Toolbox>/Xtns/XSane/"
+msgstr "<Toolbox>/ཨེགསི་ཊེནསི/ཨེགསི་སེན/"
+
+#. HELP_NO_DEVICES
+msgid ""
+"Possible reasons:\n"
+"1) There really is no device that is supported by SANE\n"
+"2) Supported devices are busy\n"
+"3) The permissions for the device file do not allow you to use it - try as root\n"
+"4) The backend is not loaded by SANE (man sane-dll)\n"
+"5) The backend is not configured correct (man sane-\"backendname\")\n"
+"6) Possibly there is more than one SANE version installed"
+msgstr ""
+"སྲིད་པའི་རྒྱུ་མཚན:\n"
+"༡)སེན་གྱིས་རྒྱབ་སྐྱོར་འབད་བའི་ཐབས་འཕྲུལ་གཅིག་ཡོད་རང་མེད།\n"
+"༢)རྒྱབ་སྐྱོར་འབད་འབད་བའི་ཐབས་འཕྲུལ་དེ་ཚུ་ཁོམ་མེད།\n"
+"༣)ཐབས་འཕྲུལ་ཡིག་སྣོད་ཀྱི་དོན་ལུ་གནང་བ་ཚུ་གིས་ཁྱོད་ལུ་ལག་ལེན་འཐབ་མི་བཅུག་པས་-རུཊ་སྦེ་འབད་རྩོལ་བསྐྱེད།\n"
+"༤)རྒྱབ་མཐའ་དེ་སེན་གྱིས་མངོན་གསལ་མ་འབད་བས་(མཱེན་ སེན་-ཌི་ཨེལ་ཨེལ་)\n"
+"༥)རྒྱབ་མཐའ་དེ་ངེས་བདེན་འབད་རིམ་སྒྲིག་མ་འབད་བས་(མཱེན སེན་-\"རྒྱབ་མཐའི་མིང་\")\n"
+"༦)སེན་གྱི་ཐོན་རིམ་གཞི་བཙུགས་འབད་འབདཝ་གཅིག་ལས་ལྷག་སྟེ་འོང་སྲིད།"
+
+#. strings that are used in structures, so it is not allowed to use _()/gettext() here
+#. gettext_noop does mark these texts but does not change the string
+#. MENU_ITEM_SURFACE_FULL_SIZE
+msgid "full size"
+msgstr "ཚད་ཆ་ཚང་།"
+
+#. MENU_ITEM_SURFACE_DIN_A3P
+msgid "DIN A3 port."
+msgstr "ཌི་ཨའི་ཨེན་ ཨེ༣ འདྲེན་ལམ།"
+
+#. MENU_ITEM_SURFACE_DIN_A3L
+msgid "DIN A3 land."
+msgstr "ཌི་ཨའི་ཨེན་ ཨེ༣ ས་གཞི།"
+
+#. MENU_ITEM_SURFACE_DIN_A4P
+msgid "DIN A4 port."
+msgstr "ཌི་ཨའི་ཨེན་ ཨེ༤ འདྲེན་ལམ།"
+
+#. MENU_ITEM_SURFACE_DIN_A4L
+msgid "DIN A4 land."
+msgstr "ཌི་ཨའི་ཨེན་ ཨེ༤ ས་གཞི།"
+
+#. MENU_ITEM_SURFACE_DIN_A5P
+msgid "DIN A5 port."
+msgstr "ཌི་ཨའི་ཨེན་ ཨེ༥ འདྲེན་ལམ།"
+
+#. MENU_ITEM_SURFACE_DIN_A5L
+msgid "DIN A5 land."
+msgstr "ཌི་ཨའི་ཨེན་ ཨེ༥ ས་གཞི།"
+
+#. MENU_ITEM_SURFACE_13cmx18cm
+msgid "13cm x 18cm"
+msgstr "༡༣སི་ཨེམ་ X ༡༨སི་ཨེམ།"
+
+#. MENU_ITEM_SURFACE_18cmx13cm
+msgid "18cm x 13cm"
+msgstr "༡༨སི་ཨེམ་ x ༡༣སི་ཨེམ།"
+
+#. MENU_ITEM_SURFACE_10cmx15cm
+msgid "10cm x 15cm"
+msgstr "༡༠སི་ཨེམ་x ༡༥སི་ཨེམ།"
+
+#. MENU_ITEM_SURFACE_15cmx10cm
+msgid "15cm x 10cm"
+msgstr "༡༥སི་ཨེམ་x ༡༠སི་ཨེམ།"
+
+#. MENU_ITEM_SURFACE_9cmx13cm
+msgid "9cm x 13cm"
+msgstr "༩སི་ཨེམ་x ༡༣སི་ཨེམ།"
+
+#. MENU_ITEM_SURFACE_13cmx9cm
+msgid "13cm x 9cm"
+msgstr "༡༣སིཨེམ་ x ༩སི་ཨེམ།"
+
+#. MENU_ITEM_SURFACE_legal_P
+msgid "legal port."
+msgstr "ལི་གཱལ་འདྲེན་ལམ།"
+
+#. MENU_ITEM_SURFACE_legal_L
+msgid "legal land."
+msgstr "ལི་གཱལ་ས་གཞི།"
+
+#. MENU_ITEM_SURFACE_letter_P
+msgid "letter port."
+msgstr "ཡི་གུའི་འདྲེན་ལམ།"
+
+#. MENU_ITEM_SURFACE_letter_L
+msgid "letter land."
+msgstr "ཡི་གུའི་ས་གཞི།"
+
+#. MENU_ITEM_MEDIUM_FULL_COLOR_RANGE
+msgid "Full color range"
+msgstr "ཚོས་གཞིའི་ཁྱབ་ཚད་ཆ་ཚང་།"
+
+#. MENU_ITEM_MEDIUM_SLIDE
+msgid "Slide"
+msgstr "གཡོ།"
+
+#. MENU_ITEM_MEDIUM_STANDARD_NEG
+msgid "Standard negative"
+msgstr "ཚད་ལྡན་བརྙན་ཤོག"
+
+#. MENU_ITEM_MEDIUM_AGFA_NEG
+msgid "Agfa negative"
+msgstr "ཨག་ཕ་བརྙན་ཤོག"
+
+#. MENU_ITEM_MEDIUM_AGFA_NEG_XRG200_4
+msgid "Agfa negative XRG 200-4"
+msgstr "ཨག་ཕ་ བརྙན་ཤོག་ ཨེགསི་ཨར་ཇི ༢༠༠-༤"
+
+#. MENU_ITEM_MEDIUM_AGFA_NEG_HDC_100
+msgid "Agfa negative HDC 100"
+msgstr "ཨག་ཕ་ བརྙན་ཤོག་ ཨེཆ་ཌི་སི་ ༡༠༠"
+
+#. MENU_ITEM_MEDIUM_FUJI_NEG
+msgid "Fuji negative"
+msgstr "ཕུ་ཇི་ བརྙན་ཤོག"
+
+#. MENU_ITEM_MEDIUM_KODAK_NEG
+msgid "Kodak negative"
+msgstr "ཀོ་ཌཀ བརྙན་ཤོག"
+
+#. MENU_ITEM_MEDIUM_KONICA_NEG
+msgid "Konica negative"
+msgstr "ཀོ་ནི་ཀ་ བརྙན་ཤོག"
+
+#. MENU_ITEM_MEDIUM_KONICA_NEG_VX_100
+msgid "Konica negative VX 100"
+msgstr "ཀོ་ནི་ཀ་ བརྙན་ཤོག་ ཝི་ཨེགསི་ ༡༠༠"
+
+#. MENU_ITEM_MEDIUM_ROSSMANN_NEG_HR_100
+msgid "Rossmann negative HR 100"
+msgstr "རོསི་མཱན་ བརྙན་ཤོག་ ཨེཆ་ཨར་༡༠༠"
+
+#. TEXT_PROJECT_STATUS_NOT_CREATED
+msgid "Project not created"
+msgstr "ལས་འགུལ་དེ་གསར་བསྐྲུན་མ་འབད་བས།"
+
+#. TEXT_PROJECT_STATUS_CREATED
+msgid "Project created"
+msgstr "ལས་འགུལ་གསར་བསྐྲུན་འབད་ཡོད།"
+
+#. TEXT_PROJECT_STATUS_CHANGED
+msgid "Project changed"
+msgstr "ལས་འགུལ་བསྒྱུར་བཅོས་འབད་ཡོད།"
+
+#. TEXT_PROJECT_STATUS_ERR_READ_PROJECT
+msgid "Error reading project"
+msgstr "འཛོལ་བ་ལྷག་ནིའི་ལས་འགུལ།"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVING_ERROR
+msgid "Error saving file"
+msgstr "འཛོལ་བ་སྲུང་བཞག་འབད་ནིའི་ཡིག་སྣོད།"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVING
+msgid "Saving file"
+msgstr "སྲུང་བཞག་འབད་ནིའི་ཡིག་སྣོད།"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVING_ABORTED
+msgid "Aborted saving file"
+msgstr "བར་བཤོལ་འབད་འབདཝ་སྲུང་བཞག་འབདནིའི་ཡིག་སྣོད།"
+
+#. TEXT_PROJECT_STATUS_FILE_SAVED
+msgid "File has been saved"
+msgstr "ཡིག་སྣོད་དེ་སྲུང་བཞག་འབད་ཡོད།"
+
+#. TEXT_EMAIL_STATUS_POP3_CONNECTION_FAILED
+msgid "POP3 connection failed"
+msgstr "པི་ཨོ་པི་༣ གྱི་མཐུད་ལམ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. TEXT_EMAIL_STATUS_POP3_LOGIN_FAILED
+msgid "POP3 login failed"
+msgstr "པི་ཨོ་པི་༣ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. TEXT_EMAIL_STATUS_ASMTP_AUTH_FAILED
+msgid "ASMTP authentication failed"
+msgstr "ཨེ་ཨེསི་ཨེམ་ཊི་པི་ གི་བདེན་བཤད་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. TEXT_EMAIL_STATUS_SMTP_CONNECTION_FAILED
+msgid "SMTP connection failed"
+msgstr "ཨེསི་ཨེམ་ཊི་པི་ གི་མཐུད་ལམ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. TEXT_EMAIL_STATUS_SMTP_ERR_FROM
+msgid "From entry not accepted"
+msgstr "ཐོ་བཀོད་ནང་ལས་དང་ལེན་མ་འབད།"
+
+#. TEXT_EMAIL_STATUS_SMTP_ERR_RCPT
+msgid "Receiver entry not accepted"
+msgstr "ལེན་མིའི་ཐོ་བཀོད་དང་ལེན་མ་འབད།"
+
+#. TEXT_EMAIL_STATUS_SMTP_ERR_DATA
+msgid "E-mail data not accepted"
+msgstr "གློག་འཕྲིན་གྱི་གནད་སྡུད་དང་ལེན་མ་འབད།"
+
+#. TEXT_EMAIL_STATUS_SENDING
+msgid "Sending e-mail"
+msgstr "གློག་འཕྲིན་གཏང་དོ།"
+
+#. TEXT_EMAIL_STATUS_SENT
+msgid "E-mail has been sent"
+msgstr "གློག་འཕྲིན་གཏང་ཚར་ཡི།"
+
+#. TEXT_FAX_STATUS_QUEUEING_FAX
+msgid "Queueing Fax"
+msgstr "དཔར་འཕྲིན་གྲལ་རིམ་བཟོ་དོ།"
+
+#. TEXT_FAX_STATUS_FAX_QUEUED
+msgid "Fax is queued"
+msgstr "དཔར་འཕྲིན་གྲལ་རིམ་བཟོ་ཚར་ཡི།"
+
+#. Sane backend messages
+msgid "flatbed scanner"
+msgstr "ཕི་ལེཊི་བེཊི་ དཔར་ལེན་འཕྲུལ་ཆས།"
+
+msgid "frame grabber"
+msgstr "གཞི་ཁྲམ་འཛིན་མི།"
+
+msgid "handheld scanner"
+msgstr "ཧེནཌི་ཧེལཌི་ དཔར་ལེན་འཕྲུལ་ཆས།(handheld)"
+
+msgid "still camera"
+msgstr "འགུལ་མེད་པར་ཆས།"
+
+msgid "video camera"
+msgstr "ཝི་ཌིའོ་ པར་ཆས།"
+
+msgid "virtual device"
+msgstr "དངོས་འབྲེལ་གྱི་ཐབས་ལམ།"
+
+msgid "Success"
+msgstr "མཐར་འཁྱོལ།"
+
+msgid "Operation not supported"
+msgstr "བཀོལ་སྤྱོད་ལུ་རྒྱབ་སྐྱོར་མ་འབད།"
+
+msgid "Operation was cancelled"
+msgstr "བཀོལ་སྤྱོད་དེ་ཆ་མེད་གཏང་ད་ཡི།"
+
+msgid "Device busy"
+msgstr "ཐབས་འཕྲུལ་ཁོམ་མེད།"
+
+msgid "Invalid argument"
+msgstr "ནུས་མེད་སྒྲུབ་རྟགས།"
+
+msgid "End of file reached"
+msgstr "མཇུག་གི་ཡིག་སྣོད་ལྷོད་ཡོད།"
+
+msgid "Document feeder jammed"
+msgstr "ཡིག་ཆ་བཙུགས་ནི་ཐོགས་ཡོདཔ།"
+
+msgid "Document feeder out of documents"
+msgstr "ཡིག་ཆ་བཙུགས་ནི་ཡིག་ཆ་ཚུའི་ཕྱི་ཁར།"
+
+msgid "Scanner cover is open"
+msgstr "དཔར་ལེན་འཕྲུལ་ཆས་ཀྱི་ཁེབས་དེ་ཁ་ཕྱེ་ཡོད།"
+
+msgid "Error during device I/O"
+msgstr "ཐབས་འཕྲུལ་གྱི་སྐབས་འཛོལ་བ་  I/O"
+
+msgid "Out of memory"
+msgstr "དྲན་ཚད་ཀྱིས་བདའ་མ་ཟུན།"
+
+msgid "Access to resource has been denied"
+msgstr "ཐོན་ཁུངས་ལུ་འཛུལ་སྤྱོད་འབད་ནི་དེ་ཁ་བཟེད་མ་བཏུབ།"
+

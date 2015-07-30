@@ -1,0 +1,265 @@
+# LANGUAGE translation of Drupal (modules/upload.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: upload.module,v 1.100.2.1 2006/06/01 21:36:59 killes
+# Jurmey Rabgay <jur_gay@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upload-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-23 15:01+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/upload/upload.module:16
+msgid "The upload module allows users to upload files to the site. The ability to upload files to a site is important for members of a community who want to share work. It is also useful to administrators who want to keep uploaded files connected to a node or page."
+msgstr "སྐྱེལ་བཙུགས་ཚད་གཞི་གིས་ ལག་ལེན་པ་ཚུ་ལུ་ ཡིག་སྣོད་ཚུ་ཆ་མཉམ་ས་ཁོངས་ཅིག་ནང་ སྐྱེལ་བཙུགས་འབད་བཅུགཔ་ཨིན།  ས་ཁོངས་ཅིག་ནང་ཡིག་སྣོད་ཚུ་སྐྱེལ་བཙུགས་འབད་ཚུགས་པའི་ལྕོགས་གྲུབ་འདི་ ལཱ་རུབ་སྤྱོད་འབད་དགོ་མནོ་མི་ མི་སྡེའི་འཐུས་མི་ཚུ་ལུ་ཁག་ཆེཝ་ཨིན། དེ་མ་ཚད་འདི་ སྐྱེལ་བཅུགས་འབད་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ མཐུད་མཚམས་ ཡངན་ ཤོག་ལེབ་ལུ་མཐུད་དགོ་མནོ་མི་བདག་སྐྱོང་པ་ཚུ་ལུ་ཁག་ཆེཝ་ཨིན། "
+
+#: modules/upload/upload.module:17
+msgid "Users with the upload files permission can upload attachments. You can choose which post types can take attachments on the content types settings page. Each user role can be customized for the file size of uploads, and the dimension of image files."
+msgstr "སྐྱེལ་བཙུགས་ཡིག་སྣོད་ཀྱི་སྣང་བ་ཡོད་པའི་ལག་ལེན་པ་ཚུ་གིས་ མཉམ་སྦྲགས་སྐྱེལ་བཙུགས་འབད་ཚུགས།  ཁྱོད་ཀྱིས་ འགྲེམ་སྐྱེལ་དབྱེ་བ་ག་གིས་ ནང་དོན་དབྱེ་བའི་སྒྲིག་སྟངས་ཤོག་ལེབ་གུ་ མཉམ་སྦྲགས་འབད་ཚུགས་ག་ གདམ་ཁ་རྐྱབ་ཚུགས།  སྐྱེལ་བཙུགས་ཡིག་སྣོད་ཀྱི་ཚད་གཞི་དང་  གཟུགས་བརྙན་ཡིག་སྣོད་ཀྱི་རྒྱ་ཁྱོན་དོན་ལུ་ ལག་ལེན་པའི་ལས་འགན་རེ་རེ་ སྲོལ་སྒྲིག་འབད་བཏུབ།"
+
+#: modules/upload/upload.module:18
+msgid "For more information please read the configuration and customization handbook <a href=\"@upload\">Upload page</a>."
+msgstr "བརྡ་དོན་ཁ་གསལ་གྱི་དོན་ལུ་ རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་ <a href=\"@upload\">ཤོག་ལེབ་སྐྱེལ་བཙུགས་འབད་</a> འདི་ལྷག་གནང་།"
+
+#: modules/upload/upload.module:21
+msgid "Users with the <a href=\"@permissions\">upload files permission</a> can upload attachments. Users with the <a href=\"@permissions\">view uploaded files permission</a> can view uploaded attachments. You can choose which post types can take attachments on the <a href=\"@types\">content types settings</a> page."
+msgstr "ལག་ལེན་པ་ <a href=\"@permissions\">སྐྱེལ་བཙུགས་ཡིག་སྣོད་ཀྱི་སྣང་བ་</a> དང་གཅིག་ཁར་ཡོད་མི་གིས་ མཉམ་སྦྲགས་སྐྱེལ་བཙུགས་འབད་ཚུགས། དེ་བཟུམ་སྦེ་ལག་ལེན་པ་ <a href=\"@permissions\">སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་ཡིག་སྣོད་སྣང་བ་ཚུ་སྟོན་</a> དང་གཅིག་ཁར་ཡོད་མི་གིས་ སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་མཉམ་སྦྲགས་ཚུ་ སྟོན་ཚུགསཔ་ཨིན། ཁྱོད་ཀྱིས་ <a href=\"@types\">ནང་དོན་དབྱེ་བའི་སྒྲིག་སྟངས་</a> ཤོག་ལེབཤ་གུ་ འགྲེམ་སྐྱེལ་དབྱེ་བ་ག་ཅི་གིས་ མཉམ་སྦྲགས་འབད་འོང་ག་ གདམ་ཁ་རྐྱབས།"
+
+#: modules/upload/upload.module:50
+msgid "Read full article to view attachments."
+msgstr "མཉམ་སྦྲགས་ཚུ་སྟོན་ནི་ལུ་རྩོམ་བྲིས་ཆ་ཚང་ལྷག།"
+
+#: modules/upload/upload.module:73
+msgid "File uploads"
+msgstr "ཡིག་སྣོད་སྐྱེལ་བཙུགས་ཚུ་"
+
+#: modules/upload/upload.module:74
+msgid "Control how files may be attached to content."
+msgstr "ནང་དོན་ལུ་ཡིག་སྣོད་ཚུ་སྐྱེལ་བཙུགས་དང་མཉམ་སྦྲགས་ག་དེ་སྦེ་འབདཝ་ཨིན་ན་འདི་ཚད་འཛིན་འབད།"
+
+#: modules/upload/upload.module:113
+msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."
+msgstr "འབད་ཆོག་པའི་གཟུགས་བརྙན་གྱི་ཚད་མང་མཐའ་འདི་ WIDTHxHEIGHT སྦེ་སླབ་ནུག་ (དཔེར་ན་ ༦༤༠x༤༨༠)། བཀག་གདམ་མེད་ནི་གི་དོན་ལུ་ ཀླད་ཀོར་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: modules/upload/upload.module:120
+msgid "Your PHP settings limit the maximum file size per upload to %size MB."
+msgstr "ཁྱོད་ཀྱི་ པི་ཨེཅ་པི་སྒྲིག་སྟངས་ཀྱིས་ %size ཨེམ་བི་ལུ་ སྐྱེལ་བཙུག་རེ་རེ་ལུ་ཡིག་སྣོད་ཀྱི་ཚད་མང་མཐའ་ ཚད་བཟོཝ་ཨིན།"
+
+#: modules/upload/upload.module:121
+msgid "Depending on your sever environment, these settings may be changed in the system-wide php.ini file, a php.ini file in your Drupal root directory, in your Drupal site's settings.php file, or in the .htaccess file in your Drupal root directory."
+msgstr "ཁྱོད་རའི་སོ་སོའི་གནས་སྟངས་དང་འཁྲིལ་ཏེ་ སྒྲིག་སྟངས་ཚུ་ ཁྱོད་རའི་ ཌུ་པཱལ་རྩ་བའི་སྣོད་ཐོ་དང་ཌུ་པཱལ་ས་ཁོངས་ཀྱི་ settings.php ཡིག་སྣོད་ནང་ ཡང་ན་ ཁྱོད་རའི་ཌུ་པཱལ་རྩ་བའི་སྣོད་ཐོ་ནང་གི་.htaccess ཡིག་སྣོད་ནང་ལུ་ རིམ་ལུགས་ཡོངས་ཀྱི་ php.ini ཡིག་སྣོད་དང་  php.ini ཡིག་སྣོད་འདི་འགྱུར་འོང་།"
+
+#: modules/upload/upload.module:124;127;142;145
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr "%role ཡིག་སྣོད་ཀྱི་ཚད་འདི་ ཨང་གྲངས་དང་ཀླད་ཀོར་ལས་མཐོ་ཤོས་ཨིན་དགོ"
+
+#: modules/upload/upload.module:124;127;134
+msgid "default"
+msgstr "སྔོན་སྒྲིག་"
+
+#: modules/upload/upload.module:134;152
+msgid "The %role maximum file size per upload is greater than the total file size allowed per user"
+msgstr " %role སྐྱེལ་བཙུག་རེ་རེའི་ཡིག་སྣོད་ཚད་མང་མཐའ་འདི་ ལག་ལེན་པ་རེ་རེའི་འབད་ཆོག་པའི་ཡིག་སྣོད་ཚད་བསྡོམ་འདི་ལས་མཐོ།"
+
+#: modules/upload/upload.module:167
+msgid "General settings"
+msgstr "ཡོངས་ཁྱབ་སྒྲིག་སྟངས་ཚུ་"
+
+#: modules/upload/upload.module:172
+msgid "Maximum resolution for uploaded images"
+msgstr "སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་གཟུགས་བརྙན་དོན་ལུ་ ཧུམ་ཆ་མང་མཐའ།"
+
+#: modules/upload/upload.module:176
+msgid "The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction."
+msgstr "འབད་ཆོག་པའི་གཟུགས་བརྙན་གྱི་ཚད་མང་མཐའ་འདི་ (དཔེར་ན་ ༦༤༠x༤༨༠)། བཀག་གདམ་མེད་ནིའི་དོན་ལུ་ ཀླད་ཀོར་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: modules/upload/upload.module:177
+msgid "WIDTHxHEIGHT"
+msgstr "WIDTHxHEIGHT"
+
+#: modules/upload/upload.module:181
+msgid "List files by default"
+msgstr "སྔོན་སྒྲིག་གི་ཐོག་ལས་ ཡིག་སྣོད་དེ་ཚུ་  ཐོ་བཀོད་འབད།"
+
+#: modules/upload/upload.module:184
+msgid "Set whether files attached to nodes are listed or not in the node view by default."
+msgstr "ནོཌིསི་ལུ་མཐུད་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ སྔོན་སྒྲིག་གིས་བལྟ་མི་ནོཌི་ནང་ ཐོ་བཀོད་འབད་ག་མ་འབད་ གཞི་སྒྲིག་འབད།"
+
+#: modules/upload/upload.module:189
+msgid "Default permitted file extensions"
+msgstr "གནང་བ་བྱིན་ཡོད་པའི་ཡིག་སྣོད་ཀྱི་རྒྱ་བསྐྱེད་ཚུ་"
+
+#: modules/upload/upload.module:192
+msgid "Default extensions that users can upload. Separate extensions with a space and do not include the leading dot."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་མངོན་གསལ་འབད་ཚུགས་པའི་  སྔོན་སྒྲིག་རྒྱ་བསྐྱེད་ཚུ། བར་སྟོང་ཅིག་དང་མཉམ་ སོ་སོར་ཁ་འཕྱལ་ དེ་ལས་ སྔོན་བསྐྱོད་ཚག་འདི་དེའི་གྲངས་སུ་མ་བཙུགས།"
+
+#: modules/upload/upload.module:196
+msgid "Default maximum file size per upload"
+msgstr "མངོན་གསལ་རེའི་ཡིག་སྣོད་ཚད་ཀྱི་མང་མཐའ་"
+
+#: modules/upload/upload.module:200
+msgid "The default maximum file size a user can upload."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་མངོན་གསལ་འབད་ཚུགས་པའི་  སྔོན་སྒྲིག་ཡིག་སྣོད་ཚད་ཀྱི་མང་མཐའ།"
+
+#: modules/upload/upload.module:205
+msgid "Default total file size per user"
+msgstr "ལག་ལེན་པ་རེའི་ཡིག་སྣོད་ཚད་ཀྱི་བསྡོམས་"
+
+#: modules/upload/upload.module:209
+msgid "The default maximum size of all files a user can have on the site."
+msgstr "ས་ཁོངས་ནང་ལག་ལེན་པ་གིས་འཐོབ་ཚུགས་པའི་  ཡིག་སྣོད་ཆ་མཉམ་གྱི་ཚད་མང་མཐའ།"
+
+#: modules/upload/upload.module:213
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr "ཁྱོད་རའི་ པི་ཨེཅ་པི་སྒྲིག་སྟངས་ཀྱིས་ %size ཨེམ་བི་ལུ་ སྐྱེལ་བཙུག་རེ་རེ་ལུ་ཡིག་སྣོད་ཀྱི་ཚད་མང་མཐའ་ ཚད་བཟོཝ་ཨིན།"
+
+#: modules/upload/upload.module:221
+msgid "Settings for @role"
+msgstr "@role གི་དོན་ལས་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/upload/upload.module:227
+msgid "Permitted file extensions"
+msgstr "གནང་བ་བྱིན་ཡོད་པའི་ཡིག་སྣོད་ཀྱི་རྒྱ་བསྐྱེད།"
+
+#: modules/upload/upload.module:230
+msgid "Extensions that users in this role can upload. Separate extensions with a space and do not include the leading dot."
+msgstr "ལས་འགན་འདི་ནང་ཡོད་པའི་ལག་ལེན་པའི་རྒྱ་བསྐྱེད་ཚུ་ སྐྱེལ་བཙུགས་འབད་ཚུགས། རྒྱ་བསྐྱེད་ཚུ་ བར་སྟོང་ཅིག་དང་མཉམ་ སོ་སོར་ཁ་འཕྱལ་ དེ་ལས་ སྔོན་བསྐྱོད་ཚག་འདི་དེའི་གྲངས་སུ་མ་བཙུགས།"
+
+#: modules/upload/upload.module:234
+msgid "Maximum file size per upload"
+msgstr "མངོན་གསལ་རེའི་ཡིག་སྣོད་ཚད་ཀྱི་མང་མཐའ།"
+
+#: modules/upload/upload.module:238
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr "ལག་ལེན་པ་ཅིག་གིས་ སྐྱེལ་བཙུགས་འབད་ཚུགས་པའི་ཡིག་སྣོད་ཚད་མང་མཐའ་(མེ་ག་བའིཊིསི་ནང་སྦེ་)།"
+
+#: modules/upload/upload.module:242
+msgid "Total file size per user"
+msgstr "ལག་ལེན་པ་རེའི་ཡིག་སྣོད་ཀྱི་ཚད་ཀྱི་བསྡོམས།"
+
+#: modules/upload/upload.module:246
+msgid "The maximum size of all files a user can have on the site (in megabytes)."
+msgstr "ས་ཁོངས་ནང་ལག་ལེན་པ་གིས་འཐོབ་ཚུགས་པའི་ཡིག་སྣོད་ཆ་མཉམ་གྱི་ཚད་མང་མཐའ་(མེ་ག་བའིཊིསི་ནང་སྦེ་)།"
+
+#: modules/upload/upload.module:347
+msgid "Attachments"
+msgstr "མཉམ་སྦྲགས་ཚུ།"
+
+#: modules/upload/upload.module:363
+msgid "File attachments"
+msgstr "ཡིག་སྣོད་མཉམ་སྦྲགས་ཚུ།"
+
+#: modules/upload/upload.module:366
+msgid "Changes made to the attachments are not permanent until you save this post. The first \"listed\" file will be included in RSS feeds."
+msgstr "ཁྱོད་ཀྱིས་ འགྲེམ་སྐྱེལ་འདི་མ་སྲུང་ཚུན་ མཉམ་སྦྲགས་ལུ་བསྒྱུར་བཅོས་འབད་ཡོད་མི་ཚུ་ བརྟན་ཏོག་ཏོ་མེད་འོང་། \"listed\" ཡིག་སྣོད་དང་པམ་འདི་ ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་ཀྱི་གྲངས་སུ་བཙུགས་འོང་།"
+
+#: modules/upload/upload.module:384
+msgid "File attachments are disabled. The file directories have not been properly configured."
+msgstr "ཡིག་སྣོད་མཉམ་སྦྲགས་ཚུ་  ལྕོགས་མེད་བཟོ་ཡོདཔ།  ཡིག་སྣོད་ཐོ་དེབ་ཚུ་ ལེགས་ཤོམ་སྦེ་རིམ་སྒྲིག་མ་འབད་བས།"
+
+#: modules/upload/upload.module:386
+msgid "Please visit the <a href=\"@admin-file-system\">file system configuration page</a>."
+msgstr "<a href=\"@admin-file-system\">ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་ཤོག་ལེབ་</a>བལྟ་སྤྱོད་འབད་གནང་།"
+
+#: modules/upload/upload.module:389
+msgid "Please contact the site administrator."
+msgstr "ས་ཁོངས་བདག་སྐྱོང་པ་འདི་དང་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: modules/upload/upload.module:448
+msgid "The selected file %name can not be attached to this post, because it is only possible to attach files with the following extensions: %files-allowed."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་ %nameའདི་ འགྲེམ་སྐྱེལ་ལུ་མཉམ་སྦྲགས་འབད་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཡིག་སྣོད་སྦྱར་ནི་གི་དོན་ལུ་ འོག་གི་རྒྱ་བསྐྱེད་ཚུ་གི་ཐོག་ལས་རྐྱངམ་ཅིག་འབད་ཚུགསཔ་ཨིན་: %files-འབད་ཆོགཔ་ཨིན།"
+
+#: modules/upload/upload.module:452
+msgid "The selected file %name can not be attached to this post, because it exceeded the maximum filesize of %maxsize."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་ %name འདི་ འགྲེམ་སྐྱེལ་ལུ་མཉམ་སྦྲགས་འབད་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་  %maxsize གི་མང་མཐའི་ཡིག་སྣོད་ཚད་ལྷག་ཡོདཔ།"
+
+#: modules/upload/upload.module:456
+msgid "The selected file %name can not be attached to this post, because the disk quota of %quota has been reached."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་  ཡིག་སྣོད་ %name དེ་  འ་ནི་ འགྲེམ་སྐྱེལ་དེ་ལུ་  མཉམ་སྦྲགས་འབད་མི་བཏུབ་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  %quotaགི་  ཌིཀསི་ཐོབ་སྐལ་འདི་ལྷོད་ནུག།"
+
+#: modules/upload/upload.module:460
+msgid "The selected file %name can not be attached to this post, because the filename is too long."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་%name འདི་ཨ་ནི་འགྲེམ་སྐྱེལ་ལུ་མཉམ་སྦྲགས་འབད་མི་བཏུབ་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ཡིག་སྣོད་ཀྱི་མིང་འདི་གནམ་མེད་ས་མེད་རིངམོ་ཨིན།"
+
+#: modules/upload/upload.module:584
+msgid "Attachment"
+msgstr "མཉམ་སྦྲགས།"
+
+#: modules/upload/upload.module:584;817
+msgid "Size"
+msgstr "ཚད།"
+
+#: modules/upload/upload.module:666
+msgid "Your filename has been renamed to conform to site policy."
+msgstr "ཁྱོད་ཀྱི་ཡིག་སྣོད་ཀྱི་མིང་འདི་ས་ཁོངས་སྲིད་བྱུས་ལུ་འཁྲིལ་ནི་ལུ་བསྐྱར་མིང་བཏགས་ཡོདཔ་ཨིན།"
+
+#: modules/upload/upload.module:802
+msgid "Attach new file"
+msgstr "ཡིག་སྣོད་གསརཔ་མཉམ་སྦྲགས་འབད།"
+
+#: modules/upload/upload.module:803
+msgid "Attach"
+msgstr "མཉམ་སྦྲགས་འབད།"
+
+#: modules/upload/upload.module:867
+msgid "The image was resized to fit within the maximum allowed resolution of %resolution pixels."
+msgstr "གཟུགས་བརྙན་འདི་ %resolution pixels འབད་ཆོག་པའི་ཧུམ་ཆ་མང་མཐའ་ནང་ལུ་ཚུད་སྒྲིག་འབད་ནི་ལུ་ ཚད་བསྐྱར་བཟོ་འབད་ཡོདཔ།"
+
+#: modules/upload/upload.module:48;551
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "མཉམ་སྦྲགས་༡"
+msgstr[1] "%count མཉམ་སྦྲགས་ཚུ།"
+
+#: modules/upload/upload.module:29
+msgid "upload files"
+msgstr "ཡོག་སྣོད་ཚུ་མངོན་གསལ་འབད།"
+
+#: modules/upload/upload.module:29
+msgid "view uploaded files"
+msgstr "མངོན་གསལ་འབད་ཡོད་པའི་ཡོག་སྣོད་ཚུ་སྟོན།"
+
+#: modules/upload/upload.module:0
+msgid "upload"
+msgstr "མངོན་གསལ་འབད།"
+
+#: modules/upload/upload.info:0
+msgid "Upload"
+msgstr "མངོན་གསལ་འབད་"
+
+#: modules/upload/upload.info:0
+msgid "Allows users to upload and attach files to content."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་ ནང་དོན་ལུ་ཡིག་སྣོད་ཚུ་སྐྱེལ་བཙུགས་དང་མཉམ་སྦྲགས་འབད་བཅུགཔ་ཨིན།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>administer user permissions at <a href=\"%admin-access\">administer "
+#~ "&gt;&gt; access control</a>.</li>\n"
+#~ "<li>administer content at <a href=\"%admin-content-types\">administer &gt;"
+#~ "&gt; settings &gt;&gt; content types</a>.</li>\n"
+#~ "<li>administer upload at <a href=\"%admin-upload\">administer &gt;&gt; "
+#~ "settings &gt;&gt; upload</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ལག་ལེན་པའི་སྣང་བ་འདི་ <a href=\"%admin-access\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; "
+#~ "འཛུལ་སྤྱོད་ཚད་འཛིན་</a>ལུ་ བདག་སྐྱོང་འཐབ་ཚུགས།</li>\n"
+#~ "<li>ནང་དོན་འདི་ <a href=\"%admin-content-types\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; སྒྲིག་"
+#~ "སྟངས་ &gt;&gt; ནང་དོན་དབྱེ་བ་</a>ལུ་ བདག་སྐྱོང་འཐབ་ཚུགས།</li>\n"
+#~ "<li>སྐྱེལ་བཙུགས་འདི་ <a href=\"%admin-upload\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; སྒྲིག་སྟངས་ "
+#~ "&gt;&gt; སྐྱེལ་བཙུགས་</a>ལུ་ བདག་སྐྱོང་འཐབ་ཚུགས།</li>\n"
+#~ "</ul>\n"
+#~ msgid "List"
+#~ msgstr "ཐོ་ཡིག།"
+

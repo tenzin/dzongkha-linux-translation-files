@@ -1,0 +1,550 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 03:27+0000\n"
+"PO-Revision-Date: 2007-01-15 14:07+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/gnome-software-properties.desktop.in.h:1
+msgid "Edit software sources and settings"
+msgstr "མཉེན་ཆས་འབྱུང་ཁུངས་དང་སྒྲིག་སྟངས་ཚུ་ ཞུན་དག་འབད་"
+
+#: ../data/gnome-software-properties.desktop.in.h:2
+msgid "Software Properties"
+msgstr "མཉེན་ཆས་ཀྱི་རྒྱུ་དངོས་"
+
+#: ../data/SoftwareProperties.glade.h:1
+#: ../data/SoftwarePropertiesDialogs.glade.h:4
+msgid "<b>Internet Updates</b>"
+msgstr "<b>ཨིན་ཊར་ནེཊི་དུས་མཐུན་བཟོཝ་ཨིན་</b>"
+
+#: ../data/SoftwareProperties.glade.h:2
+msgid "<b>Keys</b>"
+msgstr "<b>ལྡེ་མིག་ཚུ་</b>"
+
+#: ../data/SoftwareProperties.glade.h:3
+msgid "<b>Sources</b>"
+msgstr "<b>འབྱུང་ཁུངས་ཚུ་</b>"
+
+#: ../data/SoftwareProperties.glade.h:4
+#: ../data/SoftwarePropertiesDialogs.glade.h:20
+msgid "Authentication"
+msgstr "བདེན་བཤད་"
+
+#: ../data/SoftwareProperties.glade.h:5
+msgid "Check for updates every"
+msgstr "ཨ་རྟག་ར་དུས་མཐུན་གྱི་དོན་ལུ་ཞིབ་དཔྱད་འབད་"
+
+#: ../data/SoftwareProperties.glade.h:6
+msgid "Installation Media"
+msgstr "གཞི་བཙུགས་བརྡ་ལམ་"
+
+#: ../data/SoftwareProperties.glade.h:7
+msgid "Restore Defaults"
+msgstr "སོར་ཆུད་སྔོན་སྒྲིག་"
+
+#: ../data/SoftwareProperties.glade.h:8
+msgid "Software Preferences"
+msgstr "མཉེན་ཆས་དགའ་གདམ་ཚུ་"
+
+#: ../data/SoftwareProperties.glade.h:9
+msgid "day(s)"
+msgstr "ཉིནམ་(ཚུ་)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:1
+msgid "<b>Comment:</b>"
+msgstr "<b>བསམ་བཀོད་:</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:2
+msgid "<b>Components</b>"
+msgstr "<b>ཆ་ཤས་</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:3
+msgid "<b>Distribution:</b>"
+msgstr "<b>བགོ་བཀྲམ་:</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:5
+msgid "<b>Repository</b>"
+msgstr "<b>མཛོད་གནས་</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:6
+msgid "<b>Sections:</b>"
+msgstr "<b>དབྱེ་ཚན་:</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:7
+msgid "<b>Temporary files</b>"
+msgstr "<b>གནས་སྐབས་ཀྱི་ཡིག་སྣོད་</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:8
+msgid "<b>Type:</b>"
+msgstr "<b>དབྱེ་བ་:</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:9
+msgid "<b>URI:</b>"
+msgstr "<b>ཡུ་ཨར་ཨའི་:</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:10
+msgid "<b>User Interface</b>"
+msgstr "<b>ལག་ལེན་པའི་ངོས་འདྲ་བ་</b>"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:11
+msgid ""
+"<big><b>Authentication keys</b></big>\n"
+"\n"
+"You can add and remove authentication keys in this dialog. A key makes it possible to verify the integrity of the software you download."
+msgstr ""
+"<big><b>བདེན་བཤད་ལྡེ་མིག་</b></big>\n"
+"\n"
+"ཁྱོད་ཀྱིས་ ཌའི་ལོག་འདི་ནང་ བདེན་བཤད་ལྡེ་མིག་ཁ་སྐོང་དང་རྩ་བསྐྲད་གཏང་ཚུགས། ལྡེ་མིག་གིས་ ཁྱོད་ཀྱིས་མངོན་གསལ་འབད་མི་མཉེན་ཆས་ཀྱི་ཆིག་སྒྲིལ་ བདེན་སྦྱོར་འབད་བཏུབ།"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:14
+msgid ""
+"<big><b>Enter the complete APT line of the repository that you want to add</b></big>\n"
+"\n"
+"The APT line contains the type, location and content of a repository, for example <i>\"deb http://ftp.debian.org sarge main\"</i>. You can find a detailed description of the syntax in the documentation."
+msgstr ""
+"<big><b>ཁྱོད་རང་གིས་ ཁ་སྐོང་བརྐྱབ་དགོ་མནོ་མི་མཛོད་གནས་ཀྱི་ཨེ་པི་ཊི་གྲལ་ཐིག་ཡོངས་རྫོགས་བཙུགས་</b></big>\n"
+"\n"
+"ཨེ་པི་ཊི་གྲལ་ཐིག་ནང་ལུ་ དབྱེ་བ་དང་གནས་ཁོངས་དེ་ལས་མཛོད་གནས་ཅིག་གི་ནང་དོན་དང་ལྡནམ་ཨིན། དཔེར་ན་ <i>\"deb http://ftp.debian.org sarge main\"</i> ཁྱོད་ཀྱིས་ ཡིག་ཐོག་བཀོད་པའི་ནང་ལུ་ ཚིག་སྦྱོར་གྱི་རྒྱས་བཤད་ཅན་གྱི་འགྲེལ་བཤད་ཅིག་ཐོབ་ཚུགས།"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:17
+msgid "APT line:"
+msgstr "ཨེ་པི་ཊི་ གྲལ་ཐིག་:"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:18
+msgid "Add a new key file to the trusted keyring. Make sure that you received the key over a secure channel and that you trust the owner. "
+msgstr "བློ་གཏད་ཅན་གྱི་ལྡེ་འཁོར་ལུ་ལྡེ་མིག་ཡིག་སྣོད་གསརཔ་ཅིག་ཁ་སྐོང་རྐྱབས། དེ་འབདཝ་ད་ཁྱོད་ཀྱིས་ མཐའ་བཙན་རྒྱུ་ལམ་ཅིག་གི་ལྟག་ལས་སྦེ་ལྡེ་མིག་འཐོབ་དགོ་པའི་ཁར་བདག་པོ་ལུ་ཡང་བློ་གཏད་དགོཔ་ཨིན། "
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:19
+msgid "Add repository..."
+msgstr "མཛོད་གནས་སྐོང་རྐྱབས་་་་་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:21
+msgid "Automatically check for software _updates."
+msgstr "མཉེན་ཆས་དུས་མཐུན་གྱི་རང་བཞིན་ཞིབ་དཔྱད།(_u)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:22
+msgid "Automatically clean _temporary packages files"
+msgstr "གནས་སྐབས་ཐུམ་སྒྲིལ་ཡིག་སྣོད་ཚུ་ རང་བཞིན་གྱིས་གཙང་དག་བཟོཝ་ཨིན་(_t)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:23
+msgid ""
+"Binary\n"
+"Source"
+msgstr ""
+"ཟུང་ལྡན་\n"
+"འབྱུང་ཁུངས་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:25
+msgid "Clean interval in days: "
+msgstr "ཉིན་བཞིན་བར་མཚམས་ གཙང་དག་བཟོ་:"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:26
+msgid "Delete _old packages in the package cache"
+msgstr "ཐུམ་སྒྲིལ་འདྲ་མཛོེད་ནང་གི་ཐུམ་སྒྲིལ་རྙིངམ་ཚུ་ བཏོན་གཏང་(_o)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:27
+msgid "Edit Repository..."
+msgstr "མཛོད་གནས་ཞུན་དག་འབད་་་་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:28
+msgid "Maximum age in days:"
+msgstr "ཉིན་བཞིན་གྱི་ལོ་མང་མཐའ་:"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:29
+msgid "Maximum size in MB:"
+msgstr "ཨེམ་བི་ནང་ལུ་ཚད་མང་མཐའ་:"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:30
+msgid "Remove the selected key from the trusted keyring."
+msgstr "བློ་གཏད་ཅན་གྱི་ལྡེ་འཁོར་ནང་ལས་སེལ་འཐུ་འབད་ཡོད་པའི་ལྡེ་མིག་རྩ་བསྐྲད་གཏང་།"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:31
+msgid "Restore default keys"
+msgstr "སྔོན་སྒྲིག་ལྡེ་མིག་ཚུ་ སོར་ཆུད་འབད་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:32
+msgid "Restore the default keys shipped with the distribution. This will not change user installed keys."
+msgstr "བགོ་བཀྲམ་གྱི་ཐོག་ལས་སྐྱེལ་འདྲེན་འབད་ཡོད་པའི་སྔོན་སྒྲིག་ལྡེ་མིག་ཚུ་ སོར་ཆུད་འབད། དེ་གིས་ ལག་ལེན་པ་གཞི་བཙུགས་འབད་ཡོད་པའི་ལྡེ་མིག་ཚུ་ལུ་འགྱུར་བ་མེདཔ་ཨིན།"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:33
+msgid "Set _maximum size for the package cache"
+msgstr "ཐུམ་སྒྲིལ་འདྲ་མཛོད་ཀྱི་དོན་ལུ་ མང་མཐའི་ཚད་གཞི་སྒྲིག་འབད་(_m)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:34
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:35
+msgid "Show detailed package versions"
+msgstr "རྒྱས་བཤད་ཅན་གྱི་ཐུམ་སྒྲིལ་ཐོན་རིམ་སྟོན་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:36
+msgid "Show disabled software sources"
+msgstr "རྒྱས་བཤད་ཅན་གྱི་མཉེན་ཆས་འབྱུང་་ཁུངས་སྟོན་"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:37
+msgid "Update interval in days: "
+msgstr "བར་མཚམས་ཚུ་ཉིན་བཞིན་དུས་མཐུན་བཟོ་:"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:38
+msgid "_Add Repository"
+msgstr "མཛོད་གནས་ཁ་སྐོང་རྐྱབས་(_A)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:39
+msgid "_Custom"
+msgstr "སྲོལ་སྒྲིག་(_C)"
+
+#: ../data/SoftwarePropertiesDialogs.glade.h:40
+msgid "_Download upgradable packages"
+msgstr "ཡར་བསྐྱེད་འབད་བཏུབ་པའི་ཐུམ་སྒྲིལ་ཚུ་ མངོན་གསལ་འབད་(_D)"
+
+#: ../data/UpdateManager.glade.h:1
+msgid "<b>Details</b>"
+msgstr "<b>རྒྱས་བཤད་</b>"
+
+#: ../data/UpdateManager.glade.h:2
+msgid "<b>Status:</b>"
+msgstr "<b>གནས་ཚད་ཀ:</b>"
+
+#: ../data/UpdateManager.glade.h:3
+#: ../UpdateManager/UpdateManager.py:560
+msgid ""
+"<big><b>Available Updates</b></big>\n"
+"\n"
+"The following packages are found to be upgradable. You can upgrade them by using the Install button."
+msgstr ""
+"<big><b>འཐོབ་ཚུགས་པའི་དུས་མཐུན་</b></big>\n"
+"\n"
+"འོག་གི་ཐུམ་སྒྲིལ་ཚུ་ ཡར་བསྐྱེད་འབད་བཏུབ་སྦེ་མཐོང་ཡོདཔ། གཞི་བཙུགས་ཨེབ་རྟ་འདི་ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ ཁྱོད་ཀྱིས་ཡར་བསྐྱེད་འབད་བཏུབ་ཨིན།"
+
+#: ../data/UpdateManager.glade.h:6
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+"\n"
+"Need to get the changes from the central server"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">འགྱུར་བ་ཚུ་ཕབ་ལེན་འབད་དོ་</span>\n"
+"\n"
+"དབུས་ཀྱི་སར་བར་ལས་ བསྒྱུར་བཅོས་ཚུ་འཐོབ་དགོ"
+
+#: ../data/UpdateManager.glade.h:9
+msgid "Cancel downloading the changelog"
+msgstr "བསྒྱུར་བཅོས་དྲན་དེབ་ཕབ་ལེན་འབད་ནི་འདི་ ཆ་མེད་གཏང་ནི་་"
+
+#: ../data/UpdateManager.glade.h:10
+msgid "Changes"
+msgstr "འགྱུར་བ་ཚུ་"
+
+#: ../data/UpdateManager.glade.h:11
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#. Dialog window title
+#: ../data/UpdateManager.glade.h:13
+msgid "Downloading Changes"
+msgstr "འགྱུར་བ་ཚུ་མངོན་གསལ་འབད་དོ་"
+
+#: ../data/UpdateManager.glade.h:14
+msgid "Reload"
+msgstr "སླར་མངོན་གསལ་འབད་ནི་"
+
+#: ../data/UpdateManager.glade.h:15
+msgid "Reload the package information from the server."
+msgstr "ཐུམ་སྒྲིལ་བརྡ་དོན་འདི་ སརབར་ལས་སླར་མངོན་གསལ་འབད།"
+
+#: ../data/UpdateManager.glade.h:16
+msgid "Software Updates"
+msgstr "མཉེན་ཆས་དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../data/UpdateManager.glade.h:17
+msgid "_Install"
+msgstr "གཞི་བཙུགས་(_I)"
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show available updates and choose which to install"
+msgstr "འཐོབ་ཚུགས་པའི་དུས་མཐུན་ཚུ་སྟོན་ཏེ་ ག་འདི་གཞི་བཙུགས་་འབད་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས་"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Update Manager"
+msgstr "དུས་མཐུན་འཛིན་སྐྱོང་པ་"
+
+#: ../gnome-software-properties.in:46
+#: ../update-manager.in:50
+msgid "You need to be root to run this program"
+msgstr "ལས་རིམ་འདི་གཡོག་བཀོལ་ནི་གི་དོན་ལུ་ རྩ་བ་དགོཔ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:266
+msgid "Binary"
+msgstr "ཟུང་ལྡན་"
+
+#: ../SoftwareProperties/aptsources.py:267
+msgid "Source"
+msgstr "འབྱུང་ཁུངས་"
+
+#: ../SoftwareProperties/aptsources.py:272
+#: ../SoftwareProperties/aptsources.py:345
+msgid "Officially supported"
+msgstr "གཞུང་འབྲེལ་སྦེ་རྒྱབ་སྐྱོར་འབད་ཡོདཔ་"
+
+#: ../SoftwareProperties/aptsources.py:273
+msgid "Restricted copyright"
+msgstr "བཀག་དམ་ཅན་གྱི་འདྲ་བཤུས་དབང་ཆ་"
+
+#: ../SoftwareProperties/aptsources.py:274
+msgid "Community maintained (Universe)"
+msgstr "མི་སྡེ་རྒྱུན་སྐྱོང་འབད་ཡོདཔ་(འཛམ་གྲིང་ཡོངས་ཀྱི་)"
+
+#: ../SoftwareProperties/aptsources.py:275
+msgid "Non-free (Multiverse)"
+msgstr "རང་དབང་མེད་པའི་(རྩོམ་ཚིག་སྣ་མང་)"
+
+#: ../SoftwareProperties/aptsources.py:279
+msgid "CD disk with Ubuntu 5.10 \"Breezy Badger\""
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༡༠  \"Breezy Badger\" དང་བཅས་སི་ཌི་ཌིཀསི་"
+
+#: ../SoftwareProperties/aptsources.py:283
+msgid "CD disk with Ubuntu 5.04 \"Hoary Hedgehog\""
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༠༤ \"Hoary Hedgehog\"དང་བཅས་སི་ཌི་ཌིཀསི་"
+
+#: ../SoftwareProperties/aptsources.py:287
+msgid "CD disk with Ubuntu 4.10 \"Warty Warthog\""
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༡༠ \"Warty Warthog\"དང་བཅས་སི་ཌི་ཌིཀསི་"
+
+#: ../SoftwareProperties/aptsources.py:297
+#: ../SoftwareProperties/aptsources.py:301
+msgid "Ubuntu 4.10 Security Updates"
+msgstr "ཨུ་བཱུན་ཏུ་ ༤.༡༠ མཐའ་བཙན་དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:305
+msgid "Ubuntu 4.10 Updates"
+msgstr "ཨུ་བཱུན་ཏུ་ ༤.༡༠ དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:310
+#: ../SoftwareProperties/aptsources.py:314
+msgid "Ubuntu 5.04 Security Updates"
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༠༤ མཐའ་བཙན་དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:322
+msgid "Ubuntu 5.04 Updates"
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༠༤ དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:327
+#: ../SoftwareProperties/aptsources.py:331
+msgid "Ubuntu 5.10 Security Updates"
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༡༠ མཐའ་བཙན་དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:339
+msgid "Ubuntu 5.10 Updates"
+msgstr "ཨུ་བཱུན་ཏུ་ ༥.༡༠ དུས་མཐུན་བཟོཝ་ཨིན་"
+
+#: ../SoftwareProperties/aptsources.py:346
+msgid "Contributed software"
+msgstr "གྲོགས་རམ་འབད་ཡོད་པའི་མཉེན་ཆས་"
+
+#: ../SoftwareProperties/aptsources.py:347
+msgid "Non-free software"
+msgstr "སྟོང་མར་མེད་པའི་མཉེན་ཆས་"
+
+#: ../SoftwareProperties/aptsources.py:348
+msgid "US export restricted software"
+msgstr "ཡུ་ཨེསི་ ཕྱིར་འདྲེན་བཀག་དམ་ཅན་གྱི་མཉེན་ཆས་"
+
+#: ../SoftwareProperties/aptsources.py:354
+msgid "Debian 3.1 \"Sarge\""
+msgstr "ཌི་བི་ཡཱན་ ༣.༡\"Sarge\""
+
+#: ../SoftwareProperties/aptsources.py:358
+msgid "Debian 3.0 \"Woody\""
+msgstr "ཌི་བི་ཡཱན་ ༣.༠ \"Woody\""
+
+#: ../SoftwareProperties/aptsources.py:363
+msgid "Debian Stable Security Updates"
+msgstr "ཌི་བི་ཡཱན་ རྩ་བརྟན་མཐའ་བཙན་གྱི་དུས་མཐུན་ཚུ་"
+
+#: ../SoftwareProperties/aptsources.py:368
+msgid "Debian Stable"
+msgstr "ཌི་བི་ཡཱན་རྩ་བརྟན་"
+
+#: ../SoftwareProperties/aptsources.py:372
+msgid "Debian Testing"
+msgstr "ཌི་བི་་ཡཱན་བརྟག་ཞིབ་"
+
+#: ../SoftwareProperties/aptsources.py:376
+msgid "Debian Unstable \"Sid\""
+msgstr "ཌི་བི་ཡཱན་རྩ་བརྟན་མེདཔ་\"Sid\""
+
+#: ../SoftwareProperties/aptsources.py:382
+msgid "Debian Non-US (Stable)"
+msgstr "ཡུ་ཨེསི་མེན་པའི་ཌི་བི་ཡཱན་(རྩ་བརྟན་)"
+
+#: ../SoftwareProperties/aptsources.py:386
+msgid "Debian Non-US (Testing)"
+msgstr "ཡུ་ཨེསི་མེན་པའི་ཌི་བི་ཡཱན་(བརྟག་་ཞིབ་)"
+
+#: ../SoftwareProperties/aptsources.py:390
+msgid "Debian Non-US (Unstable)"
+msgstr "ཡུ་ཨེསི་མེན་པའི་ཌི་བི་ཡཱན་(རྩ་བརྟན་མེན་མི་)"
+
+#. some known keys
+#: ../SoftwareProperties/dialog_apt_key.py:37
+msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+msgstr "ཨུ་བཱུ་ན་ཏུ་ཡིག་མཛོད་ཀྱི་རང་བཞིན་མིང་རྟགས་ལྡེ་མིག་ <ftpmaster@ubuntu.com>"
+
+#: ../SoftwareProperties/dialog_apt_key.py:38
+msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+msgstr "ཨུ་བཱུན་ཏུ་སི་ཌི་གཟུགས་བརྙན་གྱི་རངབཞིན་མིང་རྟགས་ལྡེ་མིག་ <cdimage@ubuntu.com>"
+
+#: ../SoftwareProperties/dialog_apt_key.py:122
+#: ../SoftwareProperties/SoftwareProperties.py.in:218
+msgid "Choose a key-file"
+msgstr "ལྡེ་མིག་ཡིག་སྣོད་ཅིག་གདམ་ཁ་རྐྱབས་"
+
+#: ../SoftwareProperties/dialog_apt_key.py:132
+#: ../SoftwareProperties/SoftwareProperties.py.in:227
+msgid "Error importing selected file"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་ ནང་འདྲེན་འབད་བའི་སྐབས་ལུ་འཛོལ་བ་"
+
+#: ../SoftwareProperties/dialog_apt_key.py:133
+#: ../SoftwareProperties/SoftwareProperties.py.in:228
+msgid "The selected file may not be a GPG key file or it might be corrupt."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་འདི་ ཇི་པི་ཇི་ལྡེ་མིག་ཡིག་སྣོད་ཅིག་མེན་པར་་ ངན་ཅན་ཅིག་འོང་།"
+
+#: ../SoftwareProperties/dialog_apt_key.py:145
+#: ../SoftwareProperties/SoftwareProperties.py.in:240
+msgid "Error removing the key"
+msgstr "ལྡེ་མིག་རྩ་བསྐྲད་གཏངམ་ད་ འཛོལ་བ་"
+
+#: ../SoftwareProperties/dialog_apt_key.py:146
+#: ../SoftwareProperties/SoftwareProperties.py.in:241
+msgid "The key you selected could not be removed. Please report this as a bug."
+msgstr "ཁྱོད་ཀྱིས་ སེལ་འཐུ་འབད་མི་ལྡེ་མིག་འདི་རྩ་བསྐྲད་གཏང་མ་ཚུགས། རྐྱེན་སེལ་སྦེ་སྙན་ཞུ་འབད་གནང་།"
+
+#: ../UpdateManager/UpdateManager.py:132
+#: ../UpdateManager/UpdateManager.py:549
+msgid "Your system is up-to-date!"
+msgstr "ཁྱོད་ཀྱིས་ རིམ་ལུགས་འདི་དུས་མཐུན་སྦེ་ཡོད་!"
+
+#: ../UpdateManager/UpdateManager.py:136
+msgid "There is one package available for updating."
+msgstr "དུས་མཐུན་བཟོ་ནི་གི་དོན་ལས་ ཐུམ་སྒྲིལ་ཅིག་ལངམ་སྦེ་འཐོབ་ཚུགས།"
+
+#: ../UpdateManager/UpdateManager.py:138
+#, python-format
+msgid "There are %s packages available for updating."
+msgstr "དུས་མཐུན་བཟོ་ནི་གི་དོན་ལས་ %s ཐུམ་སྒྲིལ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན།"
+
+#: ../UpdateManager/UpdateManager.py:199
+#, python-format
+msgid "Version %s: \n"
+msgstr "ཐོན་རིམ་ %s: \n"
+
+#: ../UpdateManager/UpdateManager.py:254
+msgid "Downloading changes..."
+msgstr "བསྒྱུར་བཅོས་ཚུ་ཕབ་ལེན་འབད་དོ་་་་་"
+
+#: ../UpdateManager/UpdateManager.py:279
+msgid "There are no updated packages"
+msgstr "དུས་མཐུན་བཟོ་ཡོད་པའི་ཐུམ་སྒྲིལ་མེད་"
+
+#: ../UpdateManager/UpdateManager.py:282
+#, python-format
+msgid "You did not select any of the %s updated package"
+msgid_plural "You did not select any of the %s updated packages"
+msgstr[0] "ཁྱོད་ཀྱིས་ %s དུས་མཐུན་བཟོ་ཡོད་པའི་ཐུམ་སྒྲིལ་ལས་ གཅིག་ཡང་སེལ་འཐུ་མ་འབད་བས་"
+msgstr[1] "ཁྱོད་ཀྱིས་ %s དུས་མཐུན་བཟོ་ཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་ལས་ གཅིག་ཡང་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../UpdateManager/UpdateManager.py:288
+#, python-format
+msgid "You have selected %s updated package, size %s"
+msgid_plural "You have selected all %s updated packages, total size %s"
+msgstr[0] "ཁྱོད་ཀྱིས་ %s དུས་མཐུན་བཟོ་ཡོད་པའི་ཐུམ་སྒྲིལ་ ཚད་%s འབད་མི་ཅིག་སེལ་འཐུ་འབད་ཡོདཔ་"
+msgstr[1] "ཁྱོད་ཀྱིས་ %s དུས་མཐུན་བཟོ་ཡོད་པའི་ཐུམ་སྒྲིལ་ ཚད་བསྡོམས་%s འབད་མི་ཆ་མཉམ་ར་སེལ་འཐུ་འབད་ཡོདཔ་"
+
+#: ../UpdateManager/UpdateManager.py:293
+#, python-format
+msgid "You have selected %s out of %s updated package, size %s"
+msgid_plural "You have selected %s out of %s updated packages, total size %s"
+msgstr[0] "ཁྱོད་ཀྱིས་ ཚད་%s འབད་མི་ %s དུས་མཐུན་བཟོཡོད་པའི་ཐུམ་སྒྲིལ་གྱི་ནང་ལས་ %s སེལ་འཐུ་འབད་ཡོདཔ་"
+msgstr[1] "ཁྱོད་ཀྱིས་ བསྡོམས་ཚད་ %sའབད་མི་ %s དུས་མཐུན་བཟོཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་ནང་ལས་ %s སེལ་འཐུ་འབད་ཡོདཔ་"
+
+#: ../UpdateManager/UpdateManager.py:337
+msgid "The updates are being applied."
+msgstr "དུས་མཐུན་ཚུ་ འཇུག་སྤྱོད་འབད་ཡོདཔ།"
+
+#: ../UpdateManager/UpdateManager.py:339
+msgid "Upgrade finished"
+msgstr "ཡར་བསྐྱེད་མཇུག་བསྡུ་ཡོདཔ་"
+
+#: ../UpdateManager/UpdateManager.py:413
+msgid "Another package manager is running"
+msgstr "ཐུམ་སྒྲིལ་འཛིན་སྐྱོང་པ་སོ་སོར་ཅིག་གཡོག་བཀོལ་དེས་"
+
+#: ../UpdateManager/UpdateManager.py:414
+msgid "You can run only one package management application at the same time. Please close this other application first."
+msgstr "ཁྱོད་ཀྱིས་ ཐུམ་སྒྲིལ་འཛིན་སྐྱོང་རྐྱངམ་ཅིག་ ཚར་ཅིག་ནང་ལུ་གཡོག་བཀོལ་ཚུགས། དང་པ་ར་ གློག་རིམ་གཞན་མི་འདི་ཁ་བསྡམས།"
+
+#: ../UpdateManager/UpdateManager.py:433
+msgid "Updating package list..."
+msgstr "ཐུམ་སྒྲིལ་ཐོ་ཡིག་ དུས་མཐུན་བཟོ་དོ་་་་་"
+
+#: ../UpdateManager/UpdateManager.py:435
+msgid "Checking for updates..."
+msgstr "དུས་མཐུན་གྱི་དོན་ལུ་བརྟག་ཞིབ་འབད་དོ་་་་་་་"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Installing updates..."
+msgstr "དུས་མཐུན་ཚུ་གཞི་བཙུགས་འབད་དོ་་་་་"
+
+#: ../UpdateManager/UpdateManager.py:550
+msgid "There are no updates available."
+msgstr "དུས་མཐུན་ལངམ་སྦེ་མིན་འདུག"
+
+#: ../UpdateManager/UpdateManager.py:572
+msgid "New version:"
+msgstr "ཐོན་རིམ་གསརཔ་:"
+
+#. print name
+#: ../UpdateManager/UpdateManager.py:598
+msgid "Your distribution is no longer supported"
+msgstr "ཁྱོད་ཀྱི་བགོ་བཀྲམ་འདི་ ད་ལས་ཕར་རྒྱབ་སྐྱོར་མི་འབད་"
+
+#: ../UpdateManager/UpdateManager.py:598
+msgid "Please upgrade to a newer version of Ubuntu Linux. The version you are running will no longer get security fixes or other critical updates. Please see http://www.ubuntulinux.org for upgrade information."
+msgstr "ཨུ་བཱུན་ཏུ་ལི་ནགསི་གི་ཐོན་རིམ་གསརཔ་ཅིག་ལུ་ ཡར་བསྐྱེད་འབད་གནང་། ཁྱོད་ཀྱིས་གཡོག་བཀོལ་མི་ཐོན་རིམ་གྱིས་ ད་ལས་ཕར་མཐའ་བཙན་གཏན་བཟོ་དང་གཞན་གལ་གནད་ཆེ་བའི་དུས་མཐུན་བཟོ་ནི་ཚུ་མི་འཐོབ། ཡར་བསྐྱེད་བརྡ་དོན་གྱི་དོན་ལུ་ http://www.ubuntulinux.org ལུ་བལྟ།"
+
+#: ../UpdateManager/UpdateManager.py:613
+msgid "There is a new release of Ubuntu available!"
+msgstr "འཐོབ་ཚུགས་པའི་ཨུ་བཱུན་ཏུ་གསརཔ་ཅིག་ གསར་བཏོན་འབད་དེ་ཡོད་!"
+
+#: ../UpdateManager/UpdateManager.py:613
+#, python-format
+msgid "A new release with the codename '%s' is available. Please see http://www.ubuntulinux.org/ for upgrade instructions."
+msgstr "གསར་བཏོན་འབད་མི་ཨང་མིང་གསརཔ་ '%s'འབད་མི་ཅིག་ལངམ་སྦེ་འཐོབ་ཚུགས། ཡར་བསྐྱེད་བཀོད་རྒྱ་གི་དོན་ལུ་ http://www.ubuntulinux.org/ ལུ་བལྟ།"
+
+#: ../UpdateManager/UpdateManager.py:617
+msgid "Never show this message again"
+msgstr "འཕྲིན་དོན་འདི་ ནམ་ཡང་མ་སྟོན་"
+
+#: ../UpdateManager/Utils.py:88
+msgid "Changes not found, the server may not be updated yet."
+msgstr "བསྒྱུར་བཅོས་མ་ཐོབ་ སར་བར་འདི་དུས་མཐུན་བཟོ་མི་བཏུབ་ནི་མས།"
+
+#: ../UpdateManager/Utils.py:91
+msgid "Failed to download changes. Please check if there is an active internet connection."
+msgstr "བསྒྱུར་བཅོས་ཕབ་ལེན་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ། ཤུགས་ལྡན་གྱི་ཨིན་ཊར་ནེཊི་ཡོད་མེད་བལྟ་ནི་གི་དོན་ལུ་ བརྟག་་ཞིབ་འབད་གནང་།"
+

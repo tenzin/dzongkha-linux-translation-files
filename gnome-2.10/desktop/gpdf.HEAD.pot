@@ -1,0 +1,762 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gpdf.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-24 07:27+0100\n"
+"PO-Revision-Date: 2006-03-20 14:27-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: gpdf.desktop.in.h:1
+#: shell/gpdf.c:948
+#: xpdf/GNOME_PDF.server.in.in.h:5
+msgid "PDF Viewer"
+msgstr "པི་ཌི་ཨེཕ་ མཐོང་བྱེད།"
+
+#: gpdf.desktop.in.h:2
+msgid "View PDF files"
+msgstr "པི་ཌི་ཨེཕ་ཡིག་སྣོད་སྟོན།"
+
+#: gpdf.schemas.in.h:1
+msgid "Default sidebar page"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་ཤོག་ལེབ་ སྔོན་སྒྲིག་འབད།"
+
+#: gpdf.schemas.in.h:2
+msgid "Default sidebar size"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་ཚད་ སྔོན་སྒྲིག་འབད།"
+
+#: gpdf.schemas.in.h:3
+msgid "Show sidebar by default"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་ སྔོན་སྒྲིག་ཐོག་ལས་སྟོན།"
+
+#: shell/eel-vfs-extensions.c:691
+msgid " (invalid Unicode)"
+msgstr "(ནུས་མེད་ ཡུ་ནི་ཀོཌི)"
+
+#: shell/gpdf-recent-view-toolitem.c:124
+#: shell/gpdf-window-ui.xml.h:4
+msgid "Open a file"
+msgstr "ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
+
+#: shell/gpdf-recent-view-toolitem.c:127
+msgid "Open a recently used file"
+msgstr "འཕྲལ་ཁམས་ལག་ལེན་འཐབ་མི་ ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
+
+#: shell/gpdf-recent-view-toolitem.c:130
+msgid "Recent"
+msgstr "འཕྲལ་ཁམས།"
+
+#: shell/gpdf-window-ui.xml.h:1
+msgid "About this application"
+msgstr "གློག་རིམ་འདི་གི་སྐོརལས།"
+
+#: shell/gpdf-window-ui.xml.h:2
+msgid "Close window"
+msgstr "སྒོ་སྒྲིག་འདི་ཁ་བསྡམས།"
+
+#: shell/gpdf-window-ui.xml.h:3
+msgid "Online manual for this application"
+msgstr "གློག་རིམ་འདི་གི་དོན་ལུ་ གློག་ཐོག་ལག་དེབ།"
+
+#: shell/gpdf-window-ui.xml.h:5
+msgid "Toggle fullscreen mode"
+msgstr "གསལ་གཞི་གངམ་གི་ཐབས་ལམ སོར་སྟོན་འབད།"
+
+#: shell/gpdf-window-ui.xml.h:6
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: shell/gpdf-window-ui.xml.h:7
+msgid "_Close"
+msgstr "ཁ་བསྡམས།(_C)"
+
+#: shell/gpdf-window-ui.xml.h:8
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: shell/gpdf-window-ui.xml.h:9
+#: xpdf/gpdf-control-ui.xml.h:34
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: shell/gpdf-window-ui.xml.h:10
+msgid "_Full Screen"
+msgstr "གསལ་གཞི་གངམ་།(_F)"
+
+#: shell/gpdf-window-ui.xml.h:11
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: shell/gpdf-window-ui.xml.h:12
+msgid "_Open..."
+msgstr "ཁ་ཕྱེ་…(_O)"
+
+#: shell/gpdf-window-ui.xml.h:13
+#: xpdf/gpdf-control-ui.xml.h:43
+msgid "_View"
+msgstr "སྟོན།(_V)"
+
+#: shell/gpdf.c:142
+msgid "Could not initialize Bonobo!\n"
+msgstr "བོ་ནོ་བོ་ འགོ་བྱེད་འབད་མ་ཚུགས། \n"
+
+#: shell/gpdf.c:263
+#: shell/gpdf.c:266
+#: xpdf/GNOME_PDF.server.in.in.h:4
+#: xpdf/gpdf-control.cc:1973
+#: xpdf/gpdf-control.cc:2005
+#: xpdf/gpdf-control.cc:2024
+#: xpdf/gpdf-control.cc:2520
+msgid "PDF Document"
+msgstr "པི་ཌི་ཨེཕ་ ཡིག་ཆ།"
+
+#: shell/gpdf.c:462
+msgid "Exit Full Screen"
+msgstr "གསལ་གཞི་གངམ ཕྱིར་འཐོན་འབད།"
+
+#: shell/gpdf.c:559
+msgid "Load file"
+msgstr "ཡིག་སྣོད་མངོན་གསལ་འབད།"
+
+#: shell/gpdf.c:568
+#: xpdf/gpdf-control.cc:1120
+msgid "PDF Documents"
+msgstr "པི་ཌི་ཨེཕ་ ཡིག་ཆ་ཚུ།"
+
+#: shell/gpdf.c:572
+#: xpdf/gpdf-control.cc:1126
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ།"
+
+#: shell/gpdf.c:694
+msgid "Derek B. Noonburg, Xpdf author."
+msgstr "ཌི་རེཀ་ བི་ ནཱུན་བཱརག། ཨེགསི་པི་ཌི་ཨེཕ་ རྩོམ་པ་པོ།"
+
+#: shell/gpdf.c:695
+msgid "Martin Kretzschmar, GNOME port maintainer."
+msgstr "མར་ཊིན་ ཀེརེཛི་སིཀི་མར། ཇི་ནོམ་ འདྲེན་ལམ་རྒྱུན་སྐྱོང་པ།"
+
+#: shell/gpdf.c:696
+msgid "Michael Meeks, GNOME port creator."
+msgstr "མའི་ཀཱལ་ མིཀསི། ཇི་ནོམ་འདྲེན་ལམ་གསར་བསྐྲུན་པ།"
+
+#. please localize as R&eacute;mi (R\303\251mi)
+#: shell/gpdf.c:698
+msgid "Remi Cohen-Scali."
+msgstr "རེ་མི་ ཀོ་ཧེན་-སི་ཀེ་ལི།"
+
+#: shell/gpdf.c:699
+msgid "Miguel de Icaza."
+msgstr "མི་གུལ་ དི་ ཨའི་ཀ་ཛ།"
+
+#: shell/gpdf.c:700
+msgid "Nat Friedman."
+msgstr "ནེཊི་ ཕིརིཌི་མེན།"
+
+#: shell/gpdf.c:701
+msgid "Ravi Pratap."
+msgstr "ར་བི་ པ་ར་ཏཔ།"
+
+#: shell/gpdf.c:706
+msgid "Chee Bin HOH <cbhoh@mimos.my>"
+msgstr "ཅི་བིན་ཧཱོ། <སི་བི་ཧཱོ་@མི་མཱོསི་.མའི་>"
+
+#: shell/gpdf.c:707
+msgid "Breda McColgan <BredaMcColgan@sun.com>"
+msgstr "བི་རི་ད་ མེཀ་ཀཱོལ་གཱན། < བི་རི་ད་ མེཀ་ཀཱོལ་གཱན་@སཱན.ཀོམ་>"
+
+#: shell/gpdf.c:723
+#: shell/gpdf.c:738
+msgid "translator-credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: shell/gpdf.c:726
+msgid "Glyph & Cog, LLC and authors"
+msgstr "གིལིཕ་དང་ཀོག། ཨེལ་ཨེལ་སི་དང རྩོམ་པ་པོ་ཚུ།"
+
+#: shell/gpdf.c:731
+#: xpdf/GNOME_PDF.server.in.in.h:1
+msgid "GNOME PDF Viewer"
+msgstr "ཇི་ནོམ་ པིཌི་ཨེཕ་ མཐོང་བྱེད།"
+
+#: shell/gpdf.c:734
+msgid "A PDF viewer based on Xpdf"
+msgstr "ཨེགསི་པི་ཌི་ཨེཕ་ལུ་ གཞི་བཞག་པའི་ པི་ཌི་ཨེཕ་ མཐོང་བྱེད་ཅིག།"
+
+#: xpdf/GNOME_PDF.server.in.in.h:2
+msgid "GNOME PDF viewer factory"
+msgstr "ཇི་ནོམ་ པི་ཌི་ཨེཕ མཐོང་བྱེད་འཕྲུལ་ཁང་།"
+
+#: xpdf/GNOME_PDF.server.in.in.h:3
+msgid "Nautilus PDF Property Page"
+msgstr "ནའུ་ཊི་ལཱསི་ པི་ཌི་ཨེཕ་ རྒྱུ་དངོས་ཤོག་ལེབ།"
+
+#: xpdf/GNOME_PDF.server.in.in.h:6
+msgid "PDF document viewer factory"
+msgstr "པི་ཌི་ཨེཕ་ ཡིག་ཆ་མཐོང་བྱེད་འཕྲུལ་ཁང་།"
+
+#: xpdf/GNOME_PDF.server.in.in.h:7
+msgid "View as PDF Document"
+msgstr "པི་ཌི་ཨེཕ་ ཡིག་ཆ་བཟུམ་སྦེ་སྟོན།"
+
+#: xpdf/eel-gconf-extensions.c:74
+msgid ""
+"Cannot find a schema for gpdf preferences. \n"
+"Check your gconf setup, look at gpdf FAQ for \n"
+"more info"
+msgstr ""
+"པི་ཌི་ཨེཕ་དགའ་གདམ་ཚུ་གི་དོན་ལུ་ ལས་འཆར་ཅིག་ འཚོལ་མི་འཐོབ་པས། \n"
+"ཁྱོད་རའི་ཇིཀཱོནཕ་གཞི་སྒྲིག་ལུ་ ཞིབ་དཔྱད་འབད། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ \n"
+"ཇི་པི་ཌི་ཨེཕ་ ཨེཕ་ཨེ་ཀིའུ་ལུ་བལྟ། "
+
+#: xpdf/eel-gconf-extensions.c:101
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"ཇི་ཀཱོན་ འཛོལ་བ་། :\n"
+"  %s"
+
+#: xpdf/gpdf-annots-view.cc:288
+#: xpdf/gpdf-annots-view.cc:289
+msgid "Parent control"
+msgstr "རྩ་ལག་ཚད་འཛིན།"
+
+#: xpdf/gpdf-annots-view.cc:916
+msgid "Owner/Title"
+msgstr "བདག་པོ/མགོ་མིང་།"
+
+#: xpdf/gpdf-annots-view.cc:925
+msgid "Opened"
+msgstr "ཁ་ཕྱེ་ཡོདཔ།"
+
+#: xpdf/gpdf-annots-view.cc:1070
+#: xpdf/gpdf-annots-view.cc:1086
+#: xpdf/gpdf-thumbnails-view.cc:1466
+#: xpdf/gpdf-thumbnails-view.cc:1482
+msgid "Not yet implemented!"
+msgstr "ད་ལྟོ་ཚུན་ཚོད་ ལག་ལེན་མ་འཐབ།"
+
+#: xpdf/gpdf-annots-view.cc:1071
+msgid "Annotations Filter feature not yet implemented... Sorry."
+msgstr "ཨེན་ནོ་ཊེ་ཤཱན་ ཚགས་མའི་ཁྱད་རྣམ་ ད་ཚུན་ལགལེན་མ་འཐབ་… དགོངསམ་མ་ཁྲེལ།"
+
+#: xpdf/gpdf-annots-view.cc:1087
+msgid "Annotations Plug-ins management feature not yet implemented... Sorry."
+msgstr "ཨེན་ནོ་ཊེ་ཤཱན་ པ་ལག་-ཨིནསི་ འཛིན་སྐྱོང་གི་ཁྱད་རྣམ་ ད་ཚུན་ལག་ལེན་མ་འཐབ་…དགོངསམ་མ་ཁྲེལ།"
+
+#: xpdf/gpdf-bookmarks-view.cc:128
+msgid "Expand"
+msgstr "རྒྱ་བསྐྱེད་འབད།"
+
+#: xpdf/gpdf-bookmarks-view.cc:129
+msgid "Expand all bookmarks under this one"
+msgstr "འདི་གི་འོག་གི་ དེབ་རྟགས་ཆ་མཉམ་ རྒྱ་བསྐྱེད་འབད།"
+
+#: xpdf/gpdf-bookmarks-view.cc:130
+msgid "Collapse"
+msgstr "ཧྲམ་གཏང་།"
+
+#: xpdf/gpdf-bookmarks-view.cc:131
+msgid "Collapse all bookmarks under this one"
+msgstr "འདི་གི་འོག་གི་ དེབ་རྟགས་ཆ་མཉམ་ ཧྲམ་གཏང་།"
+
+#: xpdf/gpdf-bookmarks-view.cc:132
+msgid "Expand All"
+msgstr "ཆ་མཉམ་རྒྱ་སྐྱེད་འབད།"
+
+#: xpdf/gpdf-bookmarks-view.cc:133
+msgid "Expand All bookmarks in bookmarks tree"
+msgstr "དེབ་རྟགས་རྩ་འབྲེལ་ནང་གི་ དེབ་རྟགས་ཆ་མཉམ་ རྒྱ་སྐྱེད་འབད། "
+
+#: xpdf/gpdf-bookmarks-view.cc:134
+msgid "Collapse All"
+msgstr "ཆ་མཉམ་ཧྲམ་གཏང་།"
+
+#: xpdf/gpdf-bookmarks-view.cc:135
+msgid "Collapse All bookmarks in bookmarks tree"
+msgstr "དེབ་རྟགས་རྩ་འབྲེལ་ནང་གི་ དེབ་རྟགས་ཆ་མཉམ་ ཧྲམ་གཏང་། "
+
+#: xpdf/gpdf-control-ui.xml.h:1
+msgid "Back"
+msgstr "རྒྱབ།"
+
+#: xpdf/gpdf-control-ui.xml.h:2
+msgid "Best Fit"
+msgstr "ལེགས་སྒྲིག།"
+
+#: xpdf/gpdf-control-ui.xml.h:3
+msgid "Best _Fit"
+msgstr "ལེགས་སྒྲིག།(_F)"
+
+#: xpdf/gpdf-control-ui.xml.h:4
+msgid "Change the visibility of the sidebar"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་གི་ མཐོང་གསལ་བསྒྱུར་བཅོས་འབད།"
+
+#: xpdf/gpdf-control-ui.xml.h:5
+msgid "Expand to a larger size"
+msgstr "ཚད་ཆེ་བ་ཅིག་ལུ་ རྒྱ་བསྐྱེད་འབད།"
+
+#: xpdf/gpdf-control-ui.xml.h:6
+msgid "First"
+msgstr "དང་པ།"
+
+#: xpdf/gpdf-control-ui.xml.h:7
+msgid "Fit Width"
+msgstr "རྒྱ་ཚད་ཚུད་སྒྲིག"
+
+#: xpdf/gpdf-control-ui.xml.h:8
+msgid "Fit page _width"
+msgstr "ཤོག་ལེབ་ཀྱི་ རྒྱ་ཚད་ཚུད་སྒྲིག(_w)"
+
+#: xpdf/gpdf-control-ui.xml.h:9
+msgid "Fo_rward"
+msgstr "གདོང་བསྐྱོད།(_r)"
+
+#: xpdf/gpdf-control-ui.xml.h:10
+msgid "Forward"
+msgstr "གདོང་བསྐྱོད།"
+
+#: xpdf/gpdf-control-ui.xml.h:11
+msgid "Go backward in history"
+msgstr "ལོ་རྒྱུས་ནང་རྒྱབ་བསྐྱོད།"
+
+#: xpdf/gpdf-control-ui.xml.h:12
+msgid "Go forward in history"
+msgstr "ལོ་རྒྱུས་ནང་གདོང་བསྐྱོད།"
+
+#: xpdf/gpdf-control-ui.xml.h:13
+msgid "In"
+msgstr "ནང་ན།"
+
+#: xpdf/gpdf-control-ui.xml.h:14
+msgid "Last"
+msgstr "མཇུག་མམ།"
+
+#: xpdf/gpdf-control-ui.xml.h:15
+msgid "Next"
+msgstr "ཤུལ་མམ།"
+
+#: xpdf/gpdf-control-ui.xml.h:16
+msgid "Out"
+msgstr "ཕྱི་ཁར།"
+
+#: xpdf/gpdf-control-ui.xml.h:17
+msgid "Previous"
+msgstr "ཧེ་མམ།"
+
+#: xpdf/gpdf-control-ui.xml.h:18
+#: xpdf/gpdf-control.cc:940
+msgid "Print"
+msgstr "དཔར་བསྐྲུན།"
+
+#: xpdf/gpdf-control-ui.xml.h:19
+msgid "Print the current file"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་དེ་ དཔར་བསྐྲུན་འབད།"
+
+#: xpdf/gpdf-control-ui.xml.h:20
+msgid "Proper_ties"
+msgstr "རྒྱུ་དངོས་ཚུ།(_t)"
+
+#: xpdf/gpdf-control-ui.xml.h:21
+#: xpdf/gpdf-control.cc:1112
+msgid "Save a Copy"
+msgstr "འདྲ་བཤུས་ཅིག་སྲུངས།"
+
+#: xpdf/gpdf-control-ui.xml.h:22
+msgid "Save the current PDF document with a new filename"
+msgstr "ད་ལྟོའི་པི་ཌི་ཨེཕ་ཡིག་ཆ་དེ ཡིག་སྣོད་མིང་གསརཔ་ཅིག་གི་ཐོག་ལས་སྲུངས།"
+
+#: xpdf/gpdf-control-ui.xml.h:23
+msgid "Shrink to a smaller size"
+msgstr "ཚད་ཆུང་སུ་ཅིག་ལུ་བསྐུམ།"
+
+#: xpdf/gpdf-control-ui.xml.h:24
+msgid "Size to fit the page"
+msgstr "ཤོག་ལེབ་ཚུད་སྒྲིག་འབད་ནིའི་ཚད།"
+
+#: xpdf/gpdf-control-ui.xml.h:25
+msgid "Size to fit the page width"
+msgstr "ཤོག་ལེབ་རྒྱ་ཚད་ ཚུད་སྒྲིག་འབད་ནིའི་ཚད།"
+
+#: xpdf/gpdf-control-ui.xml.h:26
+msgid "View properties of the displayed document"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ རྒྱུ་དངོས་ཚུ་སྟོན།"
+
+#: xpdf/gpdf-control-ui.xml.h:27
+msgid "View the first page"
+msgstr "ཤོག་ལེབ་དང་པམ་དེ་སྟོན།"
+
+#: xpdf/gpdf-control-ui.xml.h:28
+msgid "View the last page"
+msgstr "ཤོག་ལེབ་མཇུག་མམ་དེ་སྟོན།"
+
+#: xpdf/gpdf-control-ui.xml.h:29
+msgid "View the next page"
+msgstr "ཤོག་ལེབ་ཤུལ་མམ་དེ་སྟོན།"
+
+#: xpdf/gpdf-control-ui.xml.h:30
+msgid "View the previous page"
+msgstr "ཤོག་ལེབ་ཧེ་མམ་དེ་སྟོན།"
+
+#: xpdf/gpdf-control-ui.xml.h:31
+msgid "Zoom _In"
+msgstr "ཕྱིར་རྒྱས།(_I)"
+
+#: xpdf/gpdf-control-ui.xml.h:32
+msgid "Zoom _Out"
+msgstr "ནང་ན་ཟུམ།(_O)"
+
+#: xpdf/gpdf-control-ui.xml.h:33
+msgid "_Back"
+msgstr "རྒྱབ།(_B)"
+
+#: xpdf/gpdf-control-ui.xml.h:35
+msgid "_First Page"
+msgstr "ཤོག་ལེབ་དང་པ།(_F)"
+
+#: xpdf/gpdf-control-ui.xml.h:36
+msgid "_Go"
+msgstr "འགྱོ།(_G)"
+
+#: xpdf/gpdf-control-ui.xml.h:37
+msgid "_Last Page"
+msgstr "ཤོག་ལེབ་་མཇུག་མམ།(_L)"
+
+#: xpdf/gpdf-control-ui.xml.h:38
+msgid "_Next Page"
+msgstr "ཤོག་ལེབ་ཤུལ་མམ།(_N)"
+
+#: xpdf/gpdf-control-ui.xml.h:39
+msgid "_Previous Page"
+msgstr "ཤོག་ལེབ་ཧེ་མམ།(_P)"
+
+#: xpdf/gpdf-control-ui.xml.h:40
+msgid "_Print..."
+msgstr "དཔར་བསྐྲུན…(_P)"
+
+#: xpdf/gpdf-control-ui.xml.h:41
+msgid "_Save a Copy..."
+msgstr "འདྲ་བཤུས་ཅིག་སྲུངས་…(_S)"
+
+#: xpdf/gpdf-control-ui.xml.h:42
+msgid "_Sidebar"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་།(_S)"
+
+#: xpdf/gpdf-control.cc:565
+msgid "Documentation Error"
+msgstr "ཡིག་བཀོད་ལུ་འཛོལ་བ།"
+
+#: xpdf/gpdf-control.cc:769
+#, c-format
+msgid "Printing: Page %d."
+msgstr "དཔར་བསྐྲུན་འབད་དོ: ཤོག་ལེབ་%d "
+
+#: xpdf/gpdf-control.cc:897
+#, c-format
+msgid "You were trying to print to a printer using the \"%s\" driver. This program requires a PostScript printer driver."
+msgstr "ཁྱོད་ཀྱིས་འདྲེན་བྱེད་\"%s\" ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ དཔར་འཕྲུལ་ཅིག་ནང་ དཔར་བསྐྲུན་འབད་ནིའི་ འབད་རྩོལ་བསྐྱེད་ནུག། ལས་རིམ་འདི་ལུ་ པོསིཊི་སིཀིརིཔཊི་ དཔར་འཕྲུལ་འདྲེན་བྱེད་ཅིག་དགོ།"
+
+#: xpdf/gpdf-control.cc:900
+msgid "You were trying to print to a printer that does not use PostScript. This program requires a PostScript printer driver."
+msgstr "ཁྱོད་ཀྱིས་པོསིཊི་སིཀིརིཔ་ ལག་ལེན་མི་འཐབ་པའི་ དཔར་འཕྲུལ་ཅིག་ལུ་ དཔར་བསྐྲུན་འབད་ནིའི་ འབད་རྩོལ་བསྐྱེད་ནུག། ལས་རིམ་འདི་ལུ་ པོསིཊི་སིཀིརིཔཊི་ དཔར་འཕྲུལ་འདྲེན་བྱེད་ཅིག་དགོ།"
+
+#: xpdf/gpdf-control.cc:904
+msgid "Printing is not supported on this printer."
+msgstr "དཔར་འཕྲུལ་འདི་ལུ་ དཔར་བསྐྲུན་གྱི་རྒྱབ་སྐྱོར་མེད།"
+
+#: xpdf/gpdf-control.cc:943
+msgid "_Pages"
+msgstr "ཤོག་ལེབ་ཚུ།(_P)"
+
+#: xpdf/gpdf-control.cc:1053
+#, c-format
+msgid "A file named \"%s\" already exists."
+msgstr "ཡིག་སྣོད་མིང་\"%s\" འབད་མི་ཅིག་ ཧེ་མ་ལས་རང་འདུག།"
+
+#: xpdf/gpdf-control.cc:1059
+msgid "Do you want to replace it with the one you are saving?"
+msgstr "འདི་གི་ཚབ་ལུ་ ད་ལྟོ་ཁྱོད་ཀྱིས་སྲུང་བཞག་འབད་མི་དེ་ བཙུག་ནི་ཨིན་ན?"
+
+#: xpdf/gpdf-control.cc:1065
+msgid "_Replace"
+msgstr "ཚབ་བཙུགས།(_R)"
+
+#: xpdf/gpdf-control.cc:1073
+msgid "Question"
+msgstr "དྲི་བ།"
+
+#: xpdf/gpdf-control.cc:1091
+#, c-format
+msgid "The file could not be saved as \"%s\"."
+msgstr "ཡིག་སྣོད་འདི་\"%s\"འབད་ བསྲུང་མི་ཚུགས་པས།"
+
+#: xpdf/gpdf-control.cc:1198
+msgid "PDF Properties"
+msgstr "པི་ཌི་ཨེཕ་ རྒྱུ་དངོས་ཚུ།"
+
+#: xpdf/gpdf-control.cc:2028
+#, c-format
+msgid "Loading of %s failed."
+msgstr "%sམངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: xpdf/gpdf-control.cc:2369
+msgid "Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།"
+
+#: xpdf/gpdf-control.cc:2373
+msgid "Pages"
+msgstr "ཤོག་ལེབ་ཚུ།"
+
+#: xpdf/gpdf-control.cc:2378
+msgid "Annotations"
+msgstr "ཨེན་ནོ་ཊེ་ཤཱནསི།"
+
+#: xpdf/gpdf-link-canvas-item.cc:258
+#: xpdf/gpdf-link-canvas-item.cc:259
+msgid "Link"
+msgstr "འབྲེལ་ལམ།"
+
+#: xpdf/gpdf-link-canvas-item.cc:265
+#: xpdf/gpdf-link-canvas-item.cc:266
+msgid "UsingHandCursor"
+msgstr "ལགཔ་ལག་ལེན་འཐབ་པའི་ འོད་རྟགས།"
+
+#: xpdf/gpdf-links-canvas-layer.cc:219
+#: xpdf/gpdf-links-canvas-layer.cc:220
+msgid "Links"
+msgstr "འབྲེལ་ལམ་ཚུ།"
+
+#: xpdf/gpdf-persist-file.cc:224
+#: xpdf/gpdf-persist-stream.cc:213
+msgid "_Open Document"
+msgstr "ཡིག་ཆ་ཁ་ཕྱེ།(_O)"
+
+#: xpdf/gpdf-persist-file.cc:251
+#: xpdf/gpdf-persist-stream.cc:240
+msgid "Enter document password:"
+msgstr "ཡིག་ཆའི་ཆོག་ཡིག་བཙུགས།"
+
+#: xpdf/gpdf-persist-file.cc:252
+#: xpdf/gpdf-persist-stream.cc:241
+msgid "This document is encrypted and this operation requires the document's password"
+msgstr "ཡིག་ཆ་འདི་ གསང་བཟོས་ཨིནམ་ལས་ འདི་ལག་ལེན་འཐབ་ནི་ལུ་ ཡིག་ཆའི་ཆོག་ཡིག་དགོ།"
+
+#. translators: page catalog is a part of the PDF file
+#. The last period (.) is missing on purpose
+#: xpdf/gpdf-persist-file.cc:337
+msgid "The PDF file is damaged. Its page catalog could not be read"
+msgstr "པི་ཌི་ཨེཕ་ཡིག་སྣོད་དེ་ མེདཔ་ཐལ་སོ་ནུག། འདི་གི་ཤོག་ལེབ་ཐོ་གཞུང་ ལྷག་མ་ཚུགས།"
+
+#: xpdf/gpdf-persist-file.cc:341
+msgid "The PDF file is damaged or it is not a PDF file. It could not be repaired"
+msgstr "པི་ཌི་ཨེཕ་ཡིག་སྣོད་དེ་ མེདཔ་ཐལ་སོ་ནུག་ ཡང་ན་ འདི་པི་ཌི་ཨེཕ་ཡིག་སྣོད་ཅིག་མེན་པས། འདི་ཉམས་བཅོས་འབད་མ་ཚུགས།"
+
+#: xpdf/gpdf-persist-file.cc:345
+msgid "The PDF document is encrypted and you didn't enter the correct password"
+msgstr "པི་ཌི་ཨེཕ་ཡོག་ཆ་དེ་ གསང་བ་བཟོ་ནུག་ ཁྱོད་ཀྱིས་ཆོག་ཡིག་ངེས་བདེན་དེ་ མ་བཙུགས་པས།"
+
+#: xpdf/gpdf-print-progress-dialog.glade.h:1
+msgid "Printing"
+msgstr "དཔར་བསྐྲུན་འབད་དོ"
+
+#: xpdf/gpdf-print-progress-dialog.glade.h:2
+msgid "Printing: Preparing."
+msgstr "དཔར་བསྐྲུན་འབད་ནི་: གྲ་སྒྲིག་འབད་དོ།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:1
+msgid "Author:"
+msgstr "རྩོམ་པ་པོ:།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:2
+msgid "Created:"
+msgstr "གསར་བསྐྲུན་འབད་ཡོདཔ།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:3
+msgid "Creator:"
+msgstr "གསར་སྐྲུན་པ:།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:4
+msgid "Keywords:"
+msgstr "གཙོ་ཚིག་ཚུ"
+
+#: xpdf/gpdf-properties-dialog.glade.h:5
+msgid "Modified:"
+msgstr "ལེགས་བཅོས་འབད་ཡོདཔ"
+
+#: xpdf/gpdf-properties-dialog.glade.h:6
+msgid "Number of Pages:"
+msgstr "ཤོག་ལེབ་གྲངས་:།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:7
+msgid "Optimized:"
+msgstr "ལེགས་ལྡན་བཟོ་ཡོདཔ།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:8
+msgid "PDF Version:"
+msgstr "པི་ཌི་ཨེཕ་ ཐོན་རིམ།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:9
+msgid "Producer:"
+msgstr "བཟོ་སྐྲུན་པ་:།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:10
+msgid "Security:"
+msgstr "སྲུང་སྐྱོབ་:།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:11
+msgid "Subject:"
+msgstr "དོན་ཚན"
+
+#: xpdf/gpdf-properties-dialog.glade.h:12
+msgid "Title:"
+msgstr "མགོ་མིང་།"
+
+#: xpdf/gpdf-properties-dialog.glade.h:13
+#: xpdf/pdf-info-dict-util.cc:49
+#: xpdf/pdf-properties-display.c:225
+#: xpdf/pdf-properties-display.c:233
+#: xpdf/pdf-properties-display.c:241
+#: xpdf/pdf-properties-display.c:249
+#: xpdf/pdf-properties-display.c:258
+#: xpdf/pdf-properties-display.c:267
+#: xpdf/pdf-properties-display.c:275
+#: xpdf/pdf-properties-display.c:284
+#: xpdf/pdf-properties-display.c:292
+#: xpdf/pdf-properties-display.c:301
+#: xpdf/pdf-properties-display.c:309
+#: xpdf/pdf-properties-display.c:317
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: xpdf/gpdf-sidebar.c:350
+#: xpdf/gpdf-sidebar.c:373
+msgid "Select sidebar page by title for displaying it"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་ཤོག་ལེབ་ བཀྲམ་སྟོན་གྱི་དོན་ལུ་ མགོ་མིང་གི་ཐོག་ལས་ སེལ་འཐུ་འབད།"
+
+#: xpdf/gpdf-sidebar.c:405
+#: xpdf/gpdf-sidebar.c:422
+msgid "Click to open page tools menu"
+msgstr "ཤོག་ལེབ་ལག་ཆས་ཀྱི་ དཀར་ཆག་ཁ་ཕྱེ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: xpdf/gpdf-sidebar.c:441
+msgid "Remove page if it is removeable"
+msgstr "ཤོག་ལེབ་རྩ་བསྐྲད་གཏང་བཏུབ་པ་ཅིན་ རྩ་བསྐྲད་གཏང་།"
+
+#: xpdf/gpdf-sidebar.c:468
+msgid "Close sidebar"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་ཁ་བསྡམས།"
+
+#: xpdf/gpdf-thumbnails-view.cc:1467
+msgid "Thumbnail Generation feature not yet implemented... Sorry."
+msgstr "མཐེབ་གཟེར་བཟོ་བསྐྲུན་ཁྱད་རྣམ་ ད་ཚུན་ལག་ལེན་མ་འཐབ་པས་…དགོངམས་མ་ཁྲེལ།"
+
+#: xpdf/gpdf-thumbnails-view.cc:1483
+msgid "All Thumbnails Generation feature not yet implemented... Sorry."
+msgstr "མཐེབ་གཟེར་བཟོ་བསྐྲུན་ཁྱད་རྣམ་ ཆ་མཉམ་རང་ ད་ཚུན་ལག་ལེན་མ་འཐབ་པས་…དགོངམས་མ་ཁྲེལ།"
+
+#: xpdf/gpdf-view.cc:366
+#, c-format
+msgid "No application was found to open the URI: %s"
+msgstr "ཡུ་ཨར་ཨའི་: %sཁ་ཕྱེ་ནིའི་དོན་ལུ་ གློག་རིམ་འཚོལ་མ་ཐོབ།"
+
+#: xpdf/gpdf-view.cc:369
+msgid "Application Launch Failure!"
+msgstr "གློག་རིམ་གསར་བཙུགས་འབད་ནི་ལུ་འཐུས་ཤོར།"
+
+#: xpdf/gpdf-view.cc:479
+#, c-format
+msgid "Go to page #%d"
+msgstr "ཤོག་ལེབ་ཨང་%dལུ་འགྱོ།"
+
+#: xpdf/gpdf-view.cc:513
+#, c-format
+msgid "Go to file %s:#%d"
+msgstr "ཡིག་སྣོད་ཨང་%s:#%dལུ་འགྱོ།"
+
+#: xpdf/gpdf-view.cc:515
+msgid "Broken link"
+msgstr "འབྲེལ་ལམ་ཆད་པ།"
+
+#: xpdf/gpdf-view.cc:535
+#, c-format
+msgid "Launch: %s %s"
+msgstr "གསར་བཙུགས་འབད་: %s %s "
+
+#: xpdf/gpdf-view.cc:543
+#, c-format
+msgid "Browse %s"
+msgstr "%sབརྡ་འཚོལ།།"
+
+#: xpdf/gpdf-view.cc:551
+#, c-format
+msgid "Action: %s"
+msgstr "བྱ་བ་: %s "
+
+#: xpdf/gpdf-view.cc:559
+#, c-format
+msgid "Movie: %s"
+msgstr "གློག་བརྙན་: %s "
+
+#: xpdf/gpdf-view.cc:570
+#, c-format
+msgid "Unknown action: %s !"
+msgstr "མ་ཤེས་པའི་བྱ་བ་: %s "
+
+#: xpdf/gpdf-view.cc:1601
+msgid "Document View"
+msgstr "ཡིག་ཆའི་མཐོང་སྣང་།"
+
+#: xpdf/nautilus-pdf-property-page.cc:146
+msgid "URI currently displayed"
+msgstr "ད་ལྟོ་བཀྲམ་སྟོན་འབད་ཡོད་པའི ཡུ་ཨར་ཨའི།"
+
+#: xpdf/page-control.c:101
+#, c-format
+msgid " of %d"
+msgstr "%dགི།"
+
+#: xpdf/page-control.c:219
+#: xpdf/page-control.c:233
+msgid "Current page"
+msgstr "ད་ལྟོའི་ཤོག་ལེབ།"
+
+#: xpdf/page-control.c:220
+msgid "This shows the current page number. To jump to another page, enter its number."
+msgstr "འདི་གིས་ད་ལྟོའི ཤོག་ལེབ་ཨང་གྲངས་སྟོནམ་ཨིན། ཤོག་ལེབ་གཞན་གུ་ མཆོང་ནིའི་དོན་ལུ་ དེ་གི་ཤོག་ལེབ་ཨང་གྲངས་བཙུགས།"
+
+#: xpdf/page-control.c:230
+msgid "Page"
+msgstr "ཤོག་ལེབ།"
+
+#: xpdf/pdf-info-dict-util.cc:203
+msgid "Encrypted"
+msgstr "གསང་བཟོས།"
+
+#: xpdf/pdf-info-dict-util.cc:203
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#. Yes/No will be displayed in the pdf properties dialog
+#. in a table as "Optimized: No"
+#: xpdf/pdf-info-dict-util.cc:219
+msgid "Yes"
+msgstr "ཨིན།"
+
+#: xpdf/pdf-info-dict-util.cc:219
+msgid "No"
+msgstr "མེན།"
+

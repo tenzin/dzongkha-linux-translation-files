@@ -1,0 +1,1020 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-weather-plugin.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-20 18:30+0100\n"
+"PO-Revision-Date: 2007-04-11 09:59+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/weather.c:105
+msgid "V"
+msgstr "ཝི་"
+
+#: ../panel-plugin/weather.c:108
+msgid "U"
+msgstr "ཡུ་"
+
+#: ../panel-plugin/weather.c:111
+msgid "WD"
+msgstr "ཌབ་ལུ་ཌི་"
+
+#: ../panel-plugin/weather.c:114
+#: ../panel-plugin/weather.c:117
+msgid "P"
+msgstr "པི་"
+
+#: ../panel-plugin/weather.c:120
+msgid "F"
+msgstr "ཨེཕ་"
+
+#: ../panel-plugin/weather.c:123
+msgid "T"
+msgstr "ཊི་"
+
+#: ../panel-plugin/weather.c:126
+msgid "D"
+msgstr "ཌི་"
+
+#: ../panel-plugin/weather.c:129
+msgid "H"
+msgstr "ཨེཆ་"
+
+#: ../panel-plugin/weather.c:132
+msgid "WS"
+msgstr "ཌབ་ལུ་ཨེསི་"
+
+#: ../panel-plugin/weather.c:135
+msgid "WG"
+msgstr "ཌབ་ལུ་ཇི་"
+
+#: ../panel-plugin/weather.c:223
+msgid "Cannot update weather data"
+msgstr "གནམ་གཤིས་གནས་སྡུད་དུས་མཐུན་བཟོ་མ་ཚུགས་"
+
+#: ../panel-plugin/weather.c:628
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr "འོག་གི་ཡུ་ཨར་ཨེལ་ཁ་ཕྱེ་མ་ཚུགས: %s"
+
+#: ../panel-plugin/weather.c:654
+#: ../panel-plugin/weather-summary.c:366
+#: ../panel-plugin/weather.desktop.in.in.h:2
+msgid "Weather Update"
+msgstr "གནམ་གཤིས་དུས་མཐུན་"
+
+#: ../panel-plugin/weather-config.c:36
+msgid "Windchill (F)"
+msgstr "སིལ་རླུང་ (ཨེཕ་)"
+
+#: ../panel-plugin/weather-config.c:37
+msgid "Temperature (T)"
+msgstr "ཚ་དྲོད་ (ཊི་)"
+
+#: ../panel-plugin/weather-config.c:38
+msgid "Atmosphere pressure (P)"
+msgstr "བར་སྣང་གི་ཁམས་ཨེབ་ཤུགས་ (པི་)"
+
+#: ../panel-plugin/weather-config.c:39
+msgid "Atmosphere state (P)"
+msgstr "བར་སྣང་གི་གནས་ལུགས་ (པི་)"
+
+#: ../panel-plugin/weather-config.c:40
+msgid "Wind speed (WS)"
+msgstr "རླུང་ཤུགས་ (ཌབ་ལུ་ཨེསི་)"
+
+#: ../panel-plugin/weather-config.c:41
+msgid "Wind gust (WG)"
+msgstr "རླུང་འཚུབ་ (ཌབ་ལུ་ཇི་)"
+
+#: ../panel-plugin/weather-config.c:42
+msgid "Wind direction (WD)"
+msgstr "རླུང་ཕྱོགས་ (ཌབ་ལུ་ཌི་)"
+
+#: ../panel-plugin/weather-config.c:43
+msgid "Humidity (H)"
+msgstr "རློན་གཤེར་ (ཨེཆ་)"
+
+#: ../panel-plugin/weather-config.c:44
+msgid "Visibility (V)"
+msgstr "མཐོང་སྣང་ (ཝི་)"
+
+#: ../panel-plugin/weather-config.c:45
+msgid "UV Index (UV)"
+msgstr "ཡུ་ཝི་ཟུར་ཐོ་ (ཡུ་ཝི་)"
+
+#: ../panel-plugin/weather-config.c:46
+msgid "Dewpoint (DP)"
+msgstr "ཟིལ་ཚད་ (ཌི་པི་)"
+
+#: ../panel-plugin/weather-config.c:224
+msgid "Please enter proxy settings"
+msgstr "པོརོ་སི་སྒྲིག་སྟངས་ཚུ་ཐོ་བཀོད་འབད་གནང་"
+
+#: ../panel-plugin/weather-config.c:307
+msgid "Measurement unit:"
+msgstr "ཚད་འཇལ་བའི་ཆ་ཕྲན:"
+
+#: ../panel-plugin/weather-config.c:313
+msgid "Imperial"
+msgstr "ཨིམ་པི་རི་ཡཱལ་"
+
+#: ../panel-plugin/weather-config.c:315
+msgid "Metric"
+msgstr "མེ་ཊིཀ་"
+
+#: ../panel-plugin/weather-config.c:330
+msgid "Location code:"
+msgstr "གནས་ཁོངས་ཨང་:"
+
+#. proxy
+#: ../panel-plugin/weather-config.c:353
+msgid "Proxy server:"
+msgstr "པོརོ་སི་སར་བར:"
+
+#: ../panel-plugin/weather-config.c:356
+msgid "Use proxy server"
+msgstr "པོརོ་སི་སར་བར་ལག་ལེན་འཐབ་"
+
+#: ../panel-plugin/weather-config.c:358
+msgid "Auto-detect from environment"
+msgstr "མཐའ་འཁོར་ལས་རང་བཞིན་-སྐྱོན་འཛིན་འབད་"
+
+#: ../panel-plugin/weather-config.c:430
+msgid "Labels to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ལུ་ཁ་ཡིག་ཚུ་"
+
+#: ../panel-plugin/weather-data.c:402
+msgid "km/h"
+msgstr "ཀེ་ཨེམ་/ཨེཆ་"
+
+#: ../panel-plugin/weather-data.c:402
+msgid "mph"
+msgstr "ཨེམ་པི་ཨེཆ་"
+
+#: ../panel-plugin/weather-data.c:405
+msgid "hPa"
+msgstr "ཨེཆ་པི་ཨེ་"
+
+#: ../panel-plugin/weather-data.c:405
+msgid "in"
+msgstr "ནང་"
+
+#: ../panel-plugin/weather-data.c:408
+msgid "km"
+msgstr "ཀེ་ཨེམ་"
+
+#: ../panel-plugin/weather-data.c:408
+msgid "mi"
+msgstr "ཨེམ་ཨའི་"
+
+#: ../panel-plugin/weather-search.c:182
+msgid "Search weather location code"
+msgstr "གནམ་གཤིས་གནས་ཁོངས་ཨང་འདི་འཚོལ་ཞིབ་འབད་"
+
+#: ../panel-plugin/weather-search.c:191
+msgid "Enter a city name or zip code:"
+msgstr "གྲོང་སྡེའི་མིང་ཡང་ན་གནས་ཨང་གཅིག་ཐོ་བཀོད་འབད:"
+
+#: ../panel-plugin/weather-search.c:207
+msgid "Results"
+msgstr "གྲུབ་འབྲས་ཚུ་"
+
+#. head
+#: ../panel-plugin/weather-summary.c:82
+#, c-format
+msgid ""
+"Weather report for: %s.\n"
+"\n"
+msgstr ""
+"གནམ་གཤིས་སྙན་ཞུ: %s.\n"
+"\n"
+
+#: ../panel-plugin/weather-summary.c:87
+#, c-format
+msgid ""
+"Observation station located in %s\n"
+"Last update: %s.\n"
+msgstr ""
+"%s ནང་ལུ་ལྟ་རྟོག་པའི་ལྟེ་བ་གནས་ཡོདཔ་\n"
+"མཇུག་གི་དུས་མཐུན: %s.\n"
+
+#. Temperature
+#: ../panel-plugin/weather-summary.c:93
+msgid ""
+"\n"
+"Temperature\n"
+msgstr ""
+"\n"
+"ཚ་དྲོད་\n"
+
+#: ../panel-plugin/weather-summary.c:94
+msgid "Temperature"
+msgstr "ཚ་དྲོད་"
+
+#: ../panel-plugin/weather-summary.c:95
+msgid "Windchill"
+msgstr "སིལ་རླུང་"
+
+#. special case for TRANS because of translate_desc
+#: ../panel-plugin/weather-summary.c:98
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: ../panel-plugin/weather-summary.c:101
+msgid "Dew point"
+msgstr "ཟིལ་ཚད་"
+
+#. Wind
+#: ../panel-plugin/weather-summary.c:104
+msgid ""
+"\n"
+"Wind\n"
+msgstr ""
+"\n"
+"རླུང་\n"
+
+#: ../panel-plugin/weather-summary.c:106
+msgid "Speed"
+msgstr "མགྱོགས་ཚད་"
+
+#: ../panel-plugin/weather-summary.c:111
+msgid "Direction"
+msgstr "ཕྱོགས་"
+
+#: ../panel-plugin/weather-summary.c:117
+msgid "Gusts"
+msgstr "འཚུབ་"
+
+#. UV
+#: ../panel-plugin/weather-summary.c:122
+msgid ""
+"\n"
+"UV\n"
+msgstr ""
+"\n"
+"ཡུ་ཝི་\n"
+
+#: ../panel-plugin/weather-summary.c:123
+msgid "Index"
+msgstr "ཟུར་ཐོ་"
+
+#: ../panel-plugin/weather-summary.c:124
+msgid "Risk"
+msgstr "ཉེན་ཁ་"
+
+#. Atmospheric pressure
+#: ../panel-plugin/weather-summary.c:129
+msgid ""
+"\n"
+"Atmospheric pressure\n"
+msgstr ""
+"\n"
+"བར་སྣང་ཁམས་ཀྱི་ཨེབ་ཤུགས་\n"
+
+#: ../panel-plugin/weather-summary.c:130
+msgid "Pressure"
+msgstr "ཨེབ་ཤུགས་"
+
+#: ../panel-plugin/weather-summary.c:132
+msgid "State"
+msgstr "གནས་ལུགས་"
+
+#. Sun
+#: ../panel-plugin/weather-summary.c:137
+msgid ""
+"\n"
+"Sun\n"
+msgstr ""
+"\n"
+"ཉིནམ་\n"
+
+#: ../panel-plugin/weather-summary.c:140
+msgid "Rise"
+msgstr "ཡར་འཕར་"
+
+#: ../panel-plugin/weather-summary.c:146
+msgid "Set"
+msgstr "གཞི་སྒྲིག་"
+
+#. Other
+#: ../panel-plugin/weather-summary.c:151
+msgid ""
+"\n"
+"Other\n"
+msgstr ""
+"\n"
+"གཞན་\n"
+
+#: ../panel-plugin/weather-summary.c:152
+msgid "Humidity"
+msgstr "རློན་གཤེར་"
+
+#: ../panel-plugin/weather-summary.c:154
+msgid "Visibility"
+msgstr "མཐོང་སྣང་"
+
+#: ../panel-plugin/weather-summary.c:207
+#, c-format
+msgid "Day: %s"
+msgstr "ཉི་མ: %s"
+
+#: ../panel-plugin/weather-summary.c:212
+#, c-format
+msgid "Night: %s"
+msgstr "ཕྱི་རུ: %s"
+
+#: ../panel-plugin/weather-summary.c:223
+msgid "<b>Precipitation</b>"
+msgstr "<b>ཆར་ཞོད</b>"
+
+#: ../panel-plugin/weather-summary.c:245
+msgid "<b>Temperature</b>"
+msgstr "<b>ཚ་དྲོད་</b>"
+
+#: ../panel-plugin/weather-summary.c:269
+msgid "<b>Wind</b>"
+msgstr "<b>རླུང་</b>"
+
+#: ../panel-plugin/weather-summary.c:372
+#, c-format
+msgid "Weather report for: %s"
+msgstr "གནམ་གཤིས་སྙན་ཞུ: %s"
+
+#: ../panel-plugin/weather-summary.c:393
+msgid "Summary"
+msgstr "བཅུད་དོན་"
+
+#: ../panel-plugin/weather-summary.c:396
+msgid "Forecast"
+msgstr "སྔོན་བཤད་"
+
+#: ../panel-plugin/weather-translate.c:39
+msgid "AM Clouds / PM Sun"
+msgstr "ཨེ་ཨེམ་ས་སྨུག་ཚུ/ པི་ཨེམ་ཉིནམ་"
+
+#: ../panel-plugin/weather-translate.c:40
+msgid "AM Light Rain"
+msgstr "ཨེ་ཨེམ་ཆརཔ་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:41
+msgid "AM Light Snow"
+msgstr "ཨེ་ཨེམ་ཁཝ་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:42
+msgid "AM Rain / Snow Showers"
+msgstr "ཨེ་ཨེམ་ཆརཔ/ ཁཝ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:43
+msgid "AM Rain / Wind"
+msgstr "ཨེ་ཨེམ་ཆརཔ/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:44
+msgid "AM Showers"
+msgstr "ཨེ་ཨེམ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:45
+msgid "AM Showers / Wind"
+msgstr "ཨེ་ཨེམ་འབྲུ་ཆར་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:46
+msgid "AM Snow Showers"
+msgstr "ཨེ་ཨེམ་ཁཝ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:47
+msgid "AM Snow Showers / Wind"
+msgstr "ཨེ་ཨེམ་ཁཝ་འབྲུ་ཆར་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:48
+msgid "AM T-Storms"
+msgstr "ཨེ་ཨེམ་ཊི་-རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:49
+msgid "Becoming Cloudy"
+msgstr "ས་སྨུག་ལུ་འགྱུར་དོ་"
+
+#: ../panel-plugin/weather-translate.c:50
+msgid "Blizzard"
+msgstr "བུ་ཡུག་"
+
+#: ../panel-plugin/weather-translate.c:51
+msgid "Blizzard Conditions"
+msgstr "བུ་ཡུག་གནས་སྟངས་ཚུ་"
+
+#: ../panel-plugin/weather-translate.c:52
+msgid "Blowing Snow"
+msgstr "ཁ་རླུང་"
+
+#: ../panel-plugin/weather-translate.c:53
+msgid "Chance of Rain"
+msgstr "ཆརཔ་འོང་ནི་ཉེན་ཁ་འདུག་"
+
+#: ../panel-plugin/weather-translate.c:54
+msgid "Chance of Rain/Snow"
+msgstr "ཆརཔ་/ཁཝ་བརྐྱབ་ནི་ཉེན་ཁ་འདུག་"
+
+#: ../panel-plugin/weather-translate.c:55
+msgid "Chance of Showers"
+msgstr "འབྲུ་ཆར་འོང་ནི་བཟུམ་འདུག་"
+
+#: ../panel-plugin/weather-translate.c:56
+msgid "Chance of Snow"
+msgstr "ཁཝ་བརྐྱབ་ནི་བཟུམ་འདུག་"
+
+#: ../panel-plugin/weather-translate.c:57
+msgid "Chance of Snow/Rain"
+msgstr "ཁཝ་/ཆརཔ་བརྐྱབ་ནི་བཟུམ་འདུག་"
+
+#: ../panel-plugin/weather-translate.c:58
+msgid "Chance of T-Storm"
+msgstr "ཊི་-རླུང་འཚུབ་འོང་ནི་བཟུམ་འདུག་"
+
+#: ../panel-plugin/weather-translate.c:59
+msgid "Clear"
+msgstr "བསལ་"
+
+#: ../panel-plugin/weather-translate.c:60
+msgid "Clearing"
+msgstr "བསལ་དོ་"
+
+#: ../panel-plugin/weather-translate.c:61
+msgid "Clouds"
+msgstr "ས་སྨུག་"
+
+#: ../panel-plugin/weather-translate.c:62
+msgid "Clouds Early / Clearing Late"
+msgstr "སྔ་ཆའི་ས་སྨུག་/ཕྱིས་སུ་སྦེ་བསལ་དོ་"
+
+#: ../panel-plugin/weather-translate.c:63
+msgid "Cloudy"
+msgstr "ས་སྨུག་ཁོག་ཁོ་"
+
+#: ../panel-plugin/weather-translate.c:64
+msgid "Cloudy / Wind"
+msgstr "ས་སྨུག་ཁོག་ཁོ/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:65
+msgid "Cloudy Periods"
+msgstr "ས་སྨུག་གི་དུས་ཡུན་ཚུ་"
+
+#: ../panel-plugin/weather-translate.c:66
+msgid "Continued Hot"
+msgstr "འཕྲོ་མཐུད་པའི་དྲོད་"
+
+#: ../panel-plugin/weather-translate.c:67
+msgid "Cumulonimbus Clouds Observed"
+msgstr "འབྲུག་སྐད་ལྡན་པའི་ས་སྨུག་མཐོང་ཡོདཔ་"
+
+#: ../panel-plugin/weather-translate.c:68
+msgid "Drifting Snow"
+msgstr "ཁ་ཕུང་"
+
+#: ../panel-plugin/weather-translate.c:69
+msgid "Drifting Snow and Windy"
+msgstr "ཁ་ཕུང་དང་རླུང་"
+
+#: ../panel-plugin/weather-translate.c:70
+msgid "Drizzle"
+msgstr "ཟིམ་ཟར་"
+
+#: ../panel-plugin/weather-translate.c:71
+msgid "Dry"
+msgstr "སྐམ་ཀྲོག་ཀྲོ་"
+
+#: ../panel-plugin/weather-translate.c:72
+msgid "Dust"
+msgstr "ཐལཝ་"
+
+#: ../panel-plugin/weather-translate.c:73
+msgid "Fair"
+msgstr "བཟང་པོ་"
+
+#: ../panel-plugin/weather-translate.c:74
+msgid "Few Showers"
+msgstr "འབྲུ་ཆར་དག་པ་ཅིག་"
+
+#: ../panel-plugin/weather-translate.c:75
+msgid "Few Snow Showers"
+msgstr "ཁ་ཆར་དག་པ་ཅིག་"
+
+#: ../panel-plugin/weather-translate.c:76
+msgid "Fog"
+msgstr "ན་བུན་"
+
+#: ../panel-plugin/weather-translate.c:77
+msgid "Freezing Drizzle"
+msgstr "ཁྱེགས་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:78
+msgid "Freezing Rain"
+msgstr "གྲང་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:79
+msgid "Freezing Rain/Snow"
+msgstr "གྲང་ཆར་/ཁཝ་"
+
+#: ../panel-plugin/weather-translate.c:80
+msgid "Frigid"
+msgstr "ཕིརི་ཇིཊི་"
+
+#: ../panel-plugin/weather-translate.c:81
+msgid "Frozen Precip"
+msgstr "སྤར་མ་བཏུབ་པའི་ཆར་ཞོད་"
+
+#: ../panel-plugin/weather-translate.c:82
+msgid "Hail"
+msgstr "སེརཝ་"
+
+#: ../panel-plugin/weather-translate.c:83
+msgid "Haze"
+msgstr "དུ་སྨུག་"
+
+#: ../panel-plugin/weather-translate.c:84
+msgid "Hazy"
+msgstr "དུ་སྨུག་ཅན་"
+
+#: ../panel-plugin/weather-translate.c:85
+msgid "Heavy Rain"
+msgstr "ཆར་ཤུགས་"
+
+#: ../panel-plugin/weather-translate.c:86
+msgid "Heavy Snow"
+msgstr "ཁཝ་ཤུགས་"
+
+#: ../panel-plugin/weather-translate.c:87
+msgid "Hot And Humid"
+msgstr "དྲོད་གཤེར་"
+
+#: ../panel-plugin/weather-translate.c:88
+msgid "Hot!"
+msgstr "ཚ་བ་"
+
+#: ../panel-plugin/weather-translate.c:89
+msgid "Ice Crystals"
+msgstr "ཁྱེགས་ཤེལ་"
+
+#: ../panel-plugin/weather-translate.c:90
+msgid "Ice/Snow Mixture"
+msgstr "ཁྱེགས་/ཁ་སྦྱོར་"
+
+#: ../panel-plugin/weather-translate.c:91
+msgid "Increasing Clouds"
+msgstr "ས་སྨུག་ཡར་འཕར་ནི་"
+
+#: ../panel-plugin/weather-translate.c:92
+msgid "Isolated Showers"
+msgstr "འབྲུ་ཆར་སོ་སོ་"
+
+#: ../panel-plugin/weather-translate.c:93
+msgid "Isolated T-Storms"
+msgstr "སོ་སོའི་ཊི་-རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:94
+msgid "Light Drizzle"
+msgstr "ཟིམ་ཆར་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:95
+msgid "Light Drizzle and Windy"
+msgstr "ཟིམ་ཆར་ཨ་ཙི་རེ་དང་རླུང་འཚུབ་ཅན་"
+
+#: ../panel-plugin/weather-translate.c:96
+msgid "Light Rain"
+msgstr "ཆརཔ་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:97
+msgid "Light Rain / Wind"
+msgstr "ཆརཔ་ཨ་ཙི་རེ་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:98
+msgid "Light rain late"
+msgstr "ཕྱིས་སུ་སྦེ་ཆརཔ་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:99
+msgid "Light Rain Shower"
+msgstr "འབྲུ་ཆར་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:100
+msgid "Light Snow"
+msgstr "ཁ་བ་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:101
+msgid "Lightning Observed"
+msgstr "གློག་ཀེམ་མཐོང་ཡོདཔ་"
+
+#: ../panel-plugin/weather-translate.c:102
+msgid "Mild and Breezy"
+msgstr "ཞི་བ་དང་བསིལ་རླུང་ཅན་"
+
+#: ../panel-plugin/weather-translate.c:103
+msgid "Mist"
+msgstr "སྨུག་སིལ་"
+
+#: ../panel-plugin/weather-translate.c:104
+msgid "Mostly Clear"
+msgstr "མང་ཤོས་རང་བསལ་ཏོག་ཏོ་"
+
+#: ../panel-plugin/weather-translate.c:105
+msgid "Mostly Cloudy"
+msgstr "མང་ཤོས་རང་ས་སྨུག་ཅན་"
+
+#: ../panel-plugin/weather-translate.c:106
+msgid "Mostly Cloudy / Wind"
+msgstr "མང་ཤོས་རང་ས་སྨུག་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:107
+msgid "Mostly Cloudy and Windy"
+msgstr "མང་ཤོས་རང་ས་སྨུག་དང་རླུང་"
+
+#: ../panel-plugin/weather-translate.c:108
+msgid "Mostly Sunny"
+msgstr "མང་ཤོས་རང་ཉིནམ་"
+
+#: ../panel-plugin/weather-translate.c:109
+msgid "Mostly Sunny / Wind"
+msgstr "མང་ཤོས་རང་ཉིནམ་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:110
+msgid "N/A Not Available"
+msgstr "ཨེན་/ཨེ་ ཐོབ་མ་ཚུགས་"
+
+#: ../panel-plugin/weather-translate.c:111
+msgid "Occasional Sunshine"
+msgstr "འཕྲལ་འཕྲལ་ཉི་འོད་"
+
+#: ../panel-plugin/weather-translate.c:112
+msgid "Overcast"
+msgstr "སྨུག་སྒྲིབ་ཅན་"
+
+#: ../panel-plugin/weather-translate.c:113
+msgid "Partial Clearing"
+msgstr "ཐར་ཐོར་བསལ་དོ་"
+
+#: ../panel-plugin/weather-translate.c:114
+msgid "Partial Fog"
+msgstr "ན་བུན་ཐར་ཐོར་"
+
+#: ../panel-plugin/weather-translate.c:115
+msgid "Partial Sunshine"
+msgstr "ཉི་འོད་ཐར་ཐོར་"
+
+#: ../panel-plugin/weather-translate.c:116
+msgid "Partly Cloudy"
+msgstr "ས་སྨུག་ཐར་ཐོར་"
+
+#: ../panel-plugin/weather-translate.c:117
+msgid "Partly Cloudy / Wind"
+msgstr "ས་སྨུག་ཐར་ཐོར་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:118
+msgid "Partly Cloudy and Windy"
+msgstr "ས་སྨུག་ཐར་ཐོར་དང་རླུང་"
+
+#: ../panel-plugin/weather-translate.c:119
+msgid "Partly Sunny"
+msgstr "ཉི་འོད་ཐར་ཐོར་"
+
+#: ../panel-plugin/weather-translate.c:120
+msgid "PM Light Rain"
+msgstr "པི་ཨེམ་ཆརཔ་ཨ་ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:121
+msgid "PM Light Snow"
+msgstr "པི་ཨེམ་ཁ་བ་ཨ༌ཙི་རེ་"
+
+#: ../panel-plugin/weather-translate.c:122
+msgid "PM Rain / Wind"
+msgstr "པི་ཨེམ་ཆརཔ/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:123
+msgid "PM Showers"
+msgstr "པི་ཨེམ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:124
+msgid "PM Snow Showers"
+msgstr "པི་ཨེམ་ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:125
+msgid "PM T-Storms"
+msgstr "པི་ཨེམ་ ཊི-རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:126
+msgid "Rain"
+msgstr "ཆརཔ་"
+
+#: ../panel-plugin/weather-translate.c:127
+msgid "Rain / Snow"
+msgstr "ཆརཔ/ཁ་བ་"
+
+#: ../panel-plugin/weather-translate.c:128
+msgid "Rain / Snow / Wind"
+msgstr "ཆརཔ་ / ཁ་བ་ / རླུང་"
+
+#: ../panel-plugin/weather-translate.c:129
+msgid "Rain / Snow Late"
+msgstr "རླུང་ / ཕྱིས་སུ་སྦེ་ཁ་བ་"
+
+#: ../panel-plugin/weather-translate.c:130
+msgid "Rain / Snow Showers"
+msgstr "ཆརཔ/ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:131
+msgid "Rain / Thunder"
+msgstr "ཆརཔ་/འབྲུག་སྒྲ་"
+
+#: ../panel-plugin/weather-translate.c:132
+msgid "Rain / Wind"
+msgstr "ཆརཔ་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:133
+msgid "Rain and Sleet"
+msgstr "ཆརཔ་དང་ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:134
+msgid "Rain and Snow"
+msgstr "ཆརཔ་དང་ཁཝ་"
+
+#: ../panel-plugin/weather-translate.c:135
+msgid "Rain or Snow"
+msgstr "ཆརཔ་ཡང་ན་ཁ་བ་"
+
+#: ../panel-plugin/weather-translate.c:136
+msgid "Rain Shower"
+msgstr "འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:137
+msgid "Rain Shower and Windy"
+msgstr "འབྲུ་ཆར་དང་རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:138
+msgid "Rain to snow"
+msgstr "ཁཝ་བརྐྱབ་ནི་ལུ་ཆརཔ་"
+
+#: ../panel-plugin/weather-translate.c:139
+msgid "Rain/Lightning"
+msgstr "ཆརཔ/གློག་ཀེམ་"
+
+#: ../panel-plugin/weather-translate.c:140
+msgid "Scattered Showers"
+msgstr "ཁ་ཐོར་བའི་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:141
+msgid "Scattered Snow Showers"
+msgstr "ཁ་ཐོར་བའི་ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:142
+msgid "Scattered Snow Showers / Wind"
+msgstr "ཁ་ཐོར་བའི་ཁ་ཆར་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:143
+msgid "Scattered T-Storms"
+msgstr "ཁ་ཐོར་བའི་ཊི་རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:144
+msgid "Showers"
+msgstr "འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:145
+msgid "Showers / Wind"
+msgstr "འབྲུ་ཆར་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:146
+msgid "Showers Early"
+msgstr "འབྲུ་ཆར་ཧེ་མ་"
+
+#: ../panel-plugin/weather-translate.c:147
+msgid "Showers in the Vicinity"
+msgstr "མཐའ་འཁོར་ལུ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:148
+msgid "Showers in the Vincinity"
+msgstr "མཐའ་འཁོར་ལུ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:149
+msgid "Showers Late"
+msgstr "ཕྱིས་སུ་སྦེ་འབྲུ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:150
+msgid "Sleet and Snow"
+msgstr "ཁ་ཆར་དང་ཁ་བ་"
+
+#: ../panel-plugin/weather-translate.c:151
+msgid "Smoke"
+msgstr "དུ་པ་"
+
+#: ../panel-plugin/weather-translate.c:152
+msgid "Snow"
+msgstr "ཁ་བ་"
+
+#: ../panel-plugin/weather-translate.c:153
+msgid "Snow and Rain"
+msgstr "ཁ་བ་དང་ཆརཔ་"
+
+#: ../panel-plugin/weather-translate.c:154
+msgid "Snow or Rain"
+msgstr "ཁ་བ་དང་ཆརཔ་"
+
+#: ../panel-plugin/weather-translate.c:155
+msgid "Snow Shower"
+msgstr "ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:156
+msgid "Snow Shower / Wind"
+msgstr "ཁ་ཆར/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:157
+msgid "Snow Showers Early"
+msgstr "སྔ་ཆའི་ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:158
+msgid "Snow Showers early"
+msgstr "སྔ་ཆའི་ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:159
+msgid "Snow Showers Late"
+msgstr "ཕྱིས་སུ་སྦེ་ཁ་ཆར་"
+
+#: ../panel-plugin/weather-translate.c:160
+msgid "Snow to Rain"
+msgstr "ཆརཔ་བརྐྱབ་ནི་ལུ་ཁཝ་"
+
+#: ../panel-plugin/weather-translate.c:161
+msgid "Sunny"
+msgstr "ཉི་འོད་"
+
+#: ../panel-plugin/weather-translate.c:162
+msgid "Sunny / Wind"
+msgstr "ཉི་འོད་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:163
+msgid "T-Showers"
+msgstr "ཊི་-ཆརཔ་"
+
+#: ../panel-plugin/weather-translate.c:164
+msgid "T-Storm"
+msgstr "ཊི་-རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:165
+msgid "T-Storms / Wind"
+msgstr "ཊི་-རླུང་འཚུབ་/རླུང་"
+
+#: ../panel-plugin/weather-translate.c:166
+msgid "T-Storms Early"
+msgstr "སྔ་ཆའི་ཊི་-རླུང་འཚུབ་"
+
+#: ../panel-plugin/weather-translate.c:167
+msgid "Thunder"
+msgstr "འབྲུག་སྒྲ་"
+
+#: ../panel-plugin/weather-translate.c:168
+msgid "Thunder in the Vincinity"
+msgstr "མཐའ་འཁོར་ལུ་འབྲུག་སྒྲ་"
+
+#: ../panel-plugin/weather-translate.c:169
+msgid "Variable Cloudiness"
+msgstr "འགྱུར་ཅན་གྱི་ས་སྨུག་ཅན་"
+
+#: ../panel-plugin/weather-translate.c:170
+msgid "Variable Clouds"
+msgstr "འགྱུར་ཅན་གྱི་ས་སྨུག་"
+
+#: ../panel-plugin/weather-translate.c:171
+msgid "Windy/Rain"
+msgstr "རླུང་འཚུབ་/ཆརཔ་"
+
+#: ../panel-plugin/weather-translate.c:172
+msgid "Windy/Snow"
+msgstr "རླུང་འཚུབ་/ཁཝ་"
+
+#: ../panel-plugin/weather-translate.c:173
+msgid "Wintry Mix"
+msgstr "གྱང་སི་སི་སླ་བསྲེ་"
+
+#: ../panel-plugin/weather-translate.c:180
+msgid "rising"
+msgstr "ཡར་འཕར་དོ་"
+
+#: ../panel-plugin/weather-translate.c:181
+msgid "steady"
+msgstr "རྒྱུན་བརྟན་"
+
+#: ../panel-plugin/weather-translate.c:182
+msgid "falling"
+msgstr "འབུད་ནི་"
+
+#: ../panel-plugin/weather-translate.c:189
+msgid "Low"
+msgstr "དམའ་"
+
+#: ../panel-plugin/weather-translate.c:190
+msgid "Moderate"
+msgstr "རན་པ་"
+
+#: ../panel-plugin/weather-translate.c:191
+msgid "High"
+msgstr "མཐོ་ཤོས་"
+
+#: ../panel-plugin/weather-translate.c:192
+msgid "Very High"
+msgstr "གནམ་མེད་ས་མེད་མཐོ་ཤོས་"
+
+#: ../panel-plugin/weather-translate.c:193
+msgid "Extreme"
+msgstr "གནམ་མེད་ས་མེད་"
+
+#: ../panel-plugin/weather-translate.c:200
+msgid "S"
+msgstr "ཨེསི་"
+
+#: ../panel-plugin/weather-translate.c:201
+msgid "SSW"
+msgstr "ཨེསི་ཨེསི་ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:202
+msgid "SW"
+msgstr "ཨེསི་ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:203
+msgid "WSW"
+msgstr "ཌབ་ལུ་ཨེསི་ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:204
+msgid "W"
+msgstr "ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:205
+msgid "WNW"
+msgstr "ཌབ་ལུ་ཨེན་ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:206
+msgid "NW"
+msgstr "ཨེན་ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:207
+msgid "NNW"
+msgstr "ཨེན་ཨེན་ཌབ་ལུ་"
+
+#: ../panel-plugin/weather-translate.c:208
+msgid "N"
+msgstr "ཨེན་"
+
+#: ../panel-plugin/weather-translate.c:209
+msgid "NNE"
+msgstr "ཨེན་ཨེན་ཨི་"
+
+#: ../panel-plugin/weather-translate.c:210
+msgid "NE"
+msgstr "ཨེན་ཨི་"
+
+#: ../panel-plugin/weather-translate.c:211
+msgid "ENE"
+msgstr "ཨི་ཨེན་ཨི་"
+
+#: ../panel-plugin/weather-translate.c:212
+msgid "E"
+msgstr "ཨི་"
+
+#: ../panel-plugin/weather-translate.c:213
+msgid "ESE"
+msgstr "ཨི་ཨེསི་ཨི་"
+
+#: ../panel-plugin/weather-translate.c:214
+msgid "SE"
+msgstr "ཨེསི་ཨི་"
+
+#: ../panel-plugin/weather-translate.c:215
+msgid "SSE"
+msgstr "ཨེསི་ཨེསི་ཨི་"
+
+#: ../panel-plugin/weather-translate.c:334
+#, c-format
+msgid "%x at %X Local Time"
+msgstr "%x at %X ཚད་ལྡན་ཆུ་ཚོད་"
+
+#: ../panel-plugin/weather-translate.c:428
+msgid "calm"
+msgstr "ཞི་འཇམ་"
+
+#: ../panel-plugin/weather-translate.c:430
+msgid "N/A"
+msgstr "ཨེན་/ཨེ་"
+
+#: ../panel-plugin/weather-translate.c:478
+msgid "Unlimited"
+msgstr "ཚད་མེདཔ་"
+
+#: ../panel-plugin/weather.desktop.in.in.h:1
+msgid "Show current weather conditions"
+msgstr "ད་ལྟོའི་གནམ་གཤིས་གནས་སྟངས་འདི་སྟོན་"
+

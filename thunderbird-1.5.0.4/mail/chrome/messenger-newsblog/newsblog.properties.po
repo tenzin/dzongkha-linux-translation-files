@@ -1,0 +1,104 @@
+# Status strings used in the subscribe dialog
+# extracted from dz-BT_orig/mail/chrome/messenger-newsblog/newsblog.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: newsblog.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-19 12:15+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: subscribe-validating
+msgid "Verifying the RSS feed..."
+msgstr " བདེན་སྦྱོར་འབད་དོ་ ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་་་་"
+
+#: subscribe-cancelSubscription
+msgid "Are you sure you wish to cancel subscribing to the current feed?"
+msgstr "ཁྱོད་ཀྱིས་ད་ལྟོའི་མཁོ་སྤྲོད་ལུ་ མཁོ་མངགས་ཆ་མེད་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: subscribe-cancelSubscriptionTitle
+msgid "Subscribing to a Feed..."
+msgstr "མཁོ་སྤྲོད་ཅིག་ལུ་ མཁོ་མངགས་འབད་དོ་་་་"
+
+#: subscribe-noFeedSelected
+msgid "<no RSS feed selected>"
+msgstr "<ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་ གཅིག་ཡང་སེལ་འཐུ་མ་འབད་བས་>"
+
+#: subscribe-feedAlreadySubscribed
+msgid "You already have a subscription for this feed."
+msgstr "མཁོ་སྤྲོད་འདི་གི་དོན་ལུ་ མཁོ་མངགས་ཅིག་ ཧེ་མ་ལས་ར་འདུག།"
+
+#: subscribe-errorOpeningFile
+msgid "Could not open the file."
+msgstr "ཡིང་སྣོད་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: subscribe-OPMLImportTitle
+msgid "Select OPML file to import"
+msgstr "ནང་འདྲེན་འབད་ནིའི་ ཨོ་པི་ཨེམ་ཨེལ་ཡིག་སྣོད་ སེལ་འཐུ་འབད"
+
+#: subscribe-OPMLExportTitle
+msgid "Export feeds as an OPML file"
+msgstr "མཁོ་སྤྲོད་ཚུ་ ཨོ་པི་ཨེམ་ཨེལ་ཡིག་སྣོད་བཟུམ་ཅིག་སྦེ་ ཕྱིར་ཚོང་འབད།"
+
+#: subscribe-OPMLExportFileTitle
+msgid "Thunderbird OPML Export"
+msgstr "ཐཱན་ཌར་བཌི་ ཨོ་པི་ཨེམ་ཨེལ་ ཕྱིར་ཚོང་།"
+
+#: subscribe-OPMLExportFileName
+msgid "MyThunderbirdFeeds.opml"
+msgstr "ངེད་ཀྱི་ཐཱན་ཌར་བཌི་མཁོ་སྤྲོད་.ཨོ་པི་ཨེམ་ཨེལ་"
+
+#LOCALIZATION NOTE: %S is the name of the OPML file the user tried to import.
+#: subscribe-errorInvalidOPMLFile
+msgid "Either %S is not a valid OPML file or there was an error importing the file."
+msgstr "%Sདེ་ ནུས་ཅན་གྱི་ཨོ་པི་ཨེམ་ཨེལ་ཡིག་སྣོད་ཅིག་ མེནམ་འོང་ནི་དང་ ཡང་ན་ ཡིག་སྣོད་དེ་ ནང་འདྲེན་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་བྱུངམ་འོང་ནི་མས།"
+
+#: subscribe-OPMLExportOPMLFilesFilterText
+msgid "OPML Files"
+msgstr "ཨོ་པི་ཨེམ་ཨེལ་ཡིག་སྣོད་ཚུ།"
+
+#LOCALIZATION NOTE: %S is the name of the feed the user wants to unsubscribe from.
+#: subsribe-confirmFeedDeletionTitle
+msgid "Remove Feed"
+msgstr "མཁོ་སྤྲོད་རྩ་བསྐྲད་གཏང་།"
+
+#: subsribe-confirmFeedDeletion
+msgid ""
+"Are you sure you want to unsubscribe from the feed: \n"
+" %S?"
+msgstr "ཁྱོད་ཀྱིས་མཁོ་སྤྲོད་%Sནང་ལས་ མཁོ་མངགས་བཤོལ་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+# when downloading new feed items from the subscribe dialog.
+# LOCALIZATION NOTE: Do not translate %d in the following line.
+# The first %S will receive the number of messages received so far;
+# the second %S will receive the total number of messages
+#: subscribe-fetchingFeedItems
+msgid "Downloading feed articles (%S of %S)"
+msgstr "མཁོ་སྤྲོད་རྩིས་བྲིས་ (%S of %S)ཚུ་ ཕབ་ལེན་འབད་དོ་"
+
+#: newsblog-noNewArticlesForFeed
+msgid "There are no new articles for this feed."
+msgstr "མཁོ་སྤྲོད་འདི་གི་དོན་ལུ་ རྩོམ་བྲིས་གསརཔ་མིན་འདུག།"
+
+#: newsblog-networkError
+msgid "%S could not be found. Please check the name and try again."
+msgstr "%Sཐོབ་མ་ཚུགས། མིང་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: newsblog-invalidFeed
+msgid "%S is not a valid RSS feed."
+msgstr "%Sདེ་ ནུས་ཅན་གྱི་ ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་ཅིག་མེན་པས།"
+
+#: newsblog-getNewMailCheck
+msgid "Checking RSS feeds for new items"
+msgstr "ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་ཚུ་ནང་ རྣམ་གྲངས་གསརཔ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་དོ།"
+

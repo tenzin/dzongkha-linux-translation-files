@@ -1,0 +1,560 @@
+# Dzongkha translation of fast-user-switch-applet
+# Copyright @ 2006 Free Software Foundation
+# Mindu Dorji
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fast-user-switch-applet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-05 05:35+0200\n"
+"PO-Revision-Date: 2006-04-04 18:04+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/GNOME_FastUserSwitchApplet.server.in.in.h:1
+msgid "A menu to quickly switch between users"
+msgstr "ལག་ལེན་པ་ཚུ་གི་བར་ན་ འཕྲལ་མགྱོགས་སོར་བསྒྱུར་འབད་ནིའི་དཀར་ཆག་ཅིག"
+
+#: ../data/GNOME_FastUserSwitchApplet.server.in.in.h:2 ../src/applet.c:348
+msgid "User Switcher"
+msgstr "ལག་ལེན་པའི་ སོར་བསྒྱུར་འབད་མི།"
+
+#: ../data/GNOME_FastUserSwitchApplet.server.in.in.h:3
+msgid "User Switcher Applet Factory"
+msgstr "ལག་ལེན་པའི་ སོར་བསྒྱུར་འབད་མིའི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
+
+#: ../data/GNOME_FastUserSwitchApplet.xml.h:1
+msgid "Edit Personal _Information"
+msgstr "རང་དོན་བརྡ་དོན་ཞུན་དག་རྐྱབས།(_I)"
+
+#: ../data/GNOME_FastUserSwitchApplet.xml.h:2
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../data/GNOME_FastUserSwitchApplet.xml.h:3
+msgid "_Edit Users and Groups"
+msgstr "ལག་ལེན་པ་དང་སྡེ་ཚན་ཚུ།(_E)"
+
+#: ../data/GNOME_FastUserSwitchApplet.xml.h:4
+msgid "_Help"
+msgstr "གྲོགས་རམ་ཚུ།(_H)"
+
+#: ../data/GNOME_FastUserSwitchApplet.xml.h:5
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_P)"
+
+#: ../data/GNOME_FastUserSwitchApplet.xml.h:6
+msgid "_Setup Login Screen"
+msgstr "ནང་བསྐྱོད་གསལ་གཞི་ གཞི་སྒྲིག་འབད།(_S)"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:1
+msgid "Display Style"
+msgstr "བཟོ་རྣམ་བཀྲམ་སྟོན་འབད།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:2
+msgid "Lock Screen After Switch"
+msgstr "སོར་བསྒྱུར་གྱི་ཤུལ་ལས་ གསལ་གཞི་ལྡེ་མིག་བརྐྱབ་བཞག"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:3
+msgid "Show \"Login Window\" Menuitem"
+msgstr " \"Login Window\" གི་དཀར་ཆག་རྣམ་གྲངས་སྟོན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:4
+msgid "Show \"Other\" Menuitem"
+msgstr "\"Other\" གི་དཀར་ཆག་རྣམ་གྲངས་སྟོན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:5
+msgid "Show Active Users Only"
+msgstr "ཤུགས་ལྡན་ལག་ལེན་པ་ཚུ་རྐྱངམ་གཅིག་སྟོན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:6
+msgid ""
+"Specifies how to display the applet in the panel. Use \"username\" to "
+"display the current user's name, \"icon\" to show the people icon, or \"text"
+"\" to use the word `Users.'"
+msgstr ""
+"པེ་ནཱལ་ནང་ ཨེཔ་ལེཊི་ག་དེ་སྦེ་སྟོན་ནི་ཨིན་ན་ གསལ་བཀོད་འབདཝ་ཨིན། ད་ལྟོའི་ལག་ལེན་པའི་མིང་ བཀྲམ་སྟོན་"
+"འབད་ནི་ལུ་ \"username\" དང་ མི་མང་གི་ངོས་དཔར་སྟོན་ནིའི་དོན་ལུ་\"icon\" ཡང་ན་ `Users' ལག་"
+"ལེན་འཐབ་ནིའི་དོན་ལུ་ \"text\" ལག་ལེན་འཐབ།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:7
+msgid "Use Xnest"
+msgstr "ཨེགསི་ནེསཊི་ལག་ལེན་འཐབ།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:8
+msgid ""
+"When to show the \"Login Window\" item. Possible values include: \"always\" "
+"to always show the item, \"never\" to never show the item, and \"auto\" (the "
+"default) to show the item when the applet is in Xnest mode."
+msgstr ""
+"\"Login Window\" རྣམ་གྲངས་ ནམ་ལག་ལེན་འཐབ་ནི་ཨིན་ན། སྲིད་པའི་བེ་ལུསི་གི་གྲངས་སུ་: རྣམ་གྲངས་རྟག་"
+"པར་སྟོན་ནིའི་དོན་ལུ་ \"always\" རྣམ་གྲངས་ནམ་ཡང་མི་སྟོན་ནིའི་དོན་ལུ་ \"never\" ཨེཔ་ལེཊི་དེ་ ཨེགསི་"
+"ནེསིཊི་ཐབས་ལམ་ནང་ཡོད་པའི་སྐབས་ རྣམ་གྲངས་སྟོན་ནིའི་དོན་ལུ་ \"auto\" (སྔོན་སྒྲིག)ཚུ་ཨིན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:9
+msgid ""
+"When to show the \"Other\" item. Possible values include: \"always\" to "
+"always show the item, \"never\" to never show the item, and \"auto\" (the "
+"default) to show the item when the applet is in console (not Xnest) mode."
+msgstr ""
+"\"Other\"རྣམ་གྲངས་ ནམ་སྟོན་ནི་ཨིན་ན། སྲིད་པའི་བེ་ལུསི་གི་གྲངས་སུ་: རྣམ་གྲངས་རྟག་པར་སྟོན་ནིའི་དོན་ལུ་ "
+"\"always\" རྣམ་གྲངས་ནམ་ཡང་མི་སྟོན་ནིའི་དོན་ལུ་ \"never\" ཨེཔ་ལེཊི་དེ་ མ་སྒྲོམ་ཐབས་ལམ་ནང་ཡོད་"
+"པའི་སྐབས་(ཨེགསི་ནེསིཊི་མེན) རྣམ་གྲངས་སྟོན་ནིའི་དོན་ལུ་ \"auto\" (སྔོན་སྒྲིག)ཚུ་ཨིན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:10
+msgid ""
+"Whether or not to create new Xnest windows instead of spawning new consoles "
+"when switching users."
+msgstr ""
+"ལག་ལེན་པ་སོར་བསྒྱུར་འབད་བའི་སྐབས་ མ་སྒྲོམ་གསརཔ་ཚུ་འབྱུང་བཅུག་ནིའི་ཚབ་ལུ་ ཨེགསི་ཝིན་ཌོསི་ གསར་བསྐྲུན་"
+"འབད་ནི་ཨིན་ན་མེན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:11
+msgid ""
+"Whether or not to lock the screen after switching to a different console."
+msgstr "མ་སྒྲོམ་སོ་སོ་ཅིག་ནང་ སོར་བསྒྱུར་འབད་བའི་ཤུལ་ལུ་ གསལ་གཞི་ལྡེ་མིག་བརྐྱབ་ནི་ཨིན་ན་མེན།"
+
+#: ../data/fast-user-switch-applet.schemas.in.h:12
+msgid "Whether to show only users who are currently logged in, or all users."
+msgstr "ད་ལྟོ་ནང་བསྐྱོད་འབད་དེ་ཡོད་མི་ཚུ་རྐྱངམ་གཅིག་སྟོན་ནི་ཨིན་ན་ ཡང་ན་ ཆ་མཉམ་སྟོན་ནི་ཨིན་ན།"
+
+#: ../data/ui.glade.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Multiple Logins Found</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">སྣ་མང་ནང་བསྐྱོད་ཐོབ་ཅི་</span>"
+
+#: ../data/ui.glade.h:2
+msgid "Appearance"
+msgstr "འབྱུང་སྣང་།"
+
+#: ../data/ui.glade.h:3 ../src/applet.c:1978
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད།"
+
+#: ../data/ui.glade.h:4
+msgid "Create new logins in _nested windows"
+msgstr "ནེསི་ཊེཌི་ཝིན་ཌོསི་ནང་ ནང་བསྐྱོད་གསརཔ་ཚུ་ གསར་བསྐྲུན་འབད།(_n)"
+
+#: ../data/ui.glade.h:5
+msgid "Details"
+msgstr "རྒྱས་བཤད་ཚུ།"
+
+#: ../data/ui.glade.h:6
+msgid "Multiple Logins Found - User Switcher"
+msgstr "སྣ་མང་ནང་བསྐྱོད་ཐོབ་ཅི་ - ལག་ལེན་པའི་སོར་བསྒྱུར་འབད་མི།"
+
+#: ../data/ui.glade.h:7
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: ../data/ui.glade.h:8
+msgid "Some preferences have been locked by the system adminstrator."
+msgstr "གདམ་ཁ་ལ་ལོ་ཅིག་ རིམ་ལུགས་བདག་སྐྱོང་པ་གིས་ ལྡེ་མིག་བརྐྱབས་ནུག"
+
+#: ../data/ui.glade.h:9 ../src/applet.c:2003
+msgid ""
+"The user you want to switch to is logged in multiple times on this computer. "
+"Which login do you want to switch to?"
+msgstr ""
+"ཁྱོད་ཀྱིས་སོར་བསྒྱུར་འབད་དགོ་མནོ་མི་ ལག་ལེན་པ་དེ་ གློག་རིག་འདི་ནང་ ལན་ཐེངས་སྣ་མང་ནང་ལུ་ ནང་བསྐྱོད་"
+"འབད་དེ་འདུག ཁྱོད་ཀྱིས་ནང་བསྐྱོད་ག་དེ་ལུ་ སོར་བསྒྱུར་འབད་ནི?"
+
+#: ../data/ui.glade.h:10
+msgid "Use the `people' icon for the menu title"
+msgstr "དཀར་ཆག་མགོ་མིང་གི་དོན་ལུ་ 'མི་མང་' ངོས་དཔར་ལག་ལེན་འཐབ།"
+
+#: ../data/ui.glade.h:11
+msgid "Use the current user's name for the menu title"
+msgstr "དཀར་ཆག་མགོ་མིང་གི་དོན་ལུ་ ད་ལྟོའི་ལག་ལེན་པའི་མིང་དེ་ ལག་ལེན་འཐབ།"
+
+#: ../data/ui.glade.h:12
+msgid "Use the word `Users' as the menu title"
+msgstr "མིང་ཚིག་ 'ལག་ལེན་པ་ཚུ་' དཀར་ཆག་མགོ་མིང་དེ་བཟུམ་སྦེ་ ལག་ལེན་འཐབ།"
+
+#: ../data/ui.glade.h:13
+msgid "User Switcher Error"
+msgstr "ལག་ལེན་པའི་ སོར་བསྒྱུར་འབད་མིའི་འཛོལ་བ།"
+
+#: ../data/ui.glade.h:14
+msgid "User Switcher Preferences"
+msgstr "ལག་ལེན་པའི་ སོར་བསྒྱུར་འབད་མིའི་ དགའ་གདམ་ཚུ།"
+
+#: ../data/ui.glade.h:15 ../src/applet.c:471 ../src/applet.c:478
+#: ../src/applet.c:1393 ../src/applet.c:1398 ../src/applet.c:1411
+#: ../src/applet.c:1416
+msgid "Users"
+msgstr "ལག་ལེན་པ་ཚུ།"
+
+#: ../data/ui.glade.h:16
+msgid ""
+"When a new login must be created to switch users, create it in a window "
+"instead of on a new screen"
+msgstr ""
+"ལག་ལེན་པ་ཚུ་ སོར་བསྒྱུར་འབད་ནིའི་དོན་ལུ་ ནང་བསྐྱོད་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད་དགོ་པའི་སྐབས་ གསལ་གཞི་"
+"གསར་པའི་གུ་མེན་པར་ སྒོ་སྒྲིག་ཅིག་ནང་གསར་བསྐྲུན་འབད།"
+
+#: ../data/ui.glade.h:17
+msgid ""
+"When changing to a different display, activate the screensaver for this "
+"display."
+msgstr "བཀྲམ་སྟོན་སོ་སོ་ཅིག་ལུ་སོརཝ་དང་ བཀྲམ་སྟོན་འདི་གི་དོན་ལུ་ གསལ་གཞི་ཉེན་སྲུང་ ཤུགས་ལྡན་བཟོ།"
+
+#: ../data/ui.glade.h:18
+msgid "_Lock the screen after switching users"
+msgstr "ལག་ལེན་པ་ཚུ་ སོར་བསྒྱུར་འབད་ཞིནམ་ལས་ གསལ་གཞི་ལྡེ་མིག་རྐྱབས།(_L)"
+
+#: ../src/applet.c:531
+msgid "Other"
+msgstr "གཞན།"
+
+#: ../src/applet.c:544
+msgid "Login Window"
+msgstr "ནང་བསྐྱོད་སྒོ་སྒྲིག"
+
+#: ../src/applet.c:1157
+msgid "A menu to quickly switch between users."
+msgstr "ལག་ལེན་པ་ཚུ་གི་བར་ན་ འཕྲལ་མགྱོགས་སོར་བསྒྱུར་འབད་ནིའི་དཀར་ཆག་ཅིག"
+
+#: ../src/applet.c:1176
+msgid "translator-credits"
+msgstr ""
+"\"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་"
+"གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>\""
+
+#: ../src/applet.c:1972
+msgid "Multiple Logins Found - Fast User-Switch"
+msgstr "སྣ་མང་ནང་བསྐྱོད་ཐོབ་ཅི་ - ལག་ལེན་པའི་སོར་བསྒྱུར་མགྱོགས་དྲགས།"
+
+#: ../src/applet.c:2002
+msgid "Multiple Logins Found"
+msgstr "སྣ་མང་ནང་བསྐྱོད་ཐོབ་ཅི།"
+
+#: ../src/applet.c:2020
+#, c-format
+msgid "%s in a nested window on console %d"
+msgstr "ནེསི་ཊེཌི་སྒོ་སྒྲིག་ཅིག་ནང་%sའདུག མ་སྒྲོམ་%dགུ"
+
+#: ../src/applet.c:2024
+#, c-format
+msgid "%s on console %d"
+msgstr "%s མ་སྒྲོམ་%dགུ"
+
+#: ../src/applet.c:2066
+msgid "Display Manager Unavailable"
+msgstr "བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་མི་འཐོབ་པས།"
+
+#: ../src/applet.c:2067
+msgid ""
+"In order for the User Selector to function properly, the GNOME Display "
+"Manager must be running, but it is not."
+msgstr ""
+"ལག་ལེན་པའི་སེལ་བྱེད་དེ་ ཚུལ་ལྡན་སྦེ་ ལཱ་འབད་ནིའི་དོན་ལུ་ ཇི་ནོམ་བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་དེ་ གཡོག་བཀོལ་"
+"དགོཔ་ཨིན་རུང་ ད་ལྟོ་གཡོག་མ་བཀོལ་བས།"
+
+#: ../src/applet.c:2071
+msgid "Multiple Consoles Not Supported"
+msgstr "སྣ་མང་མ་སྒྲོམ་ཚུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: ../src/applet.c:2072
+msgid "This system does not support multiple graphical login screens."
+msgstr "རིམ་ལུགས་འདི་གིས་ སྣ་མང་ཚད་རིས་ཀྱི་ ནང་བསྐྱོད་གསལ་གཞི་ཚུ་ལུ་ རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: ../src/applet.c:2077
+msgid "Too Many Sessions"
+msgstr "ལཱ་ཡུན་མང་དྲགས་པས།"
+
+#: ../src/applet.c:2078
+msgid ""
+"There are currently too many sessions running to create a new one. Someone "
+"must log out, or the system configuration must be changed to allow for more."
+msgstr ""
+"ད་ལྟོ་ལཱ་ཡུན་མང་རབས་ཅིག་ གཡོག་བཀོལ་བཞིན་ཡོདཔ་ལས་ ལཱ་ཡུན་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད་མི་ཚུགས། གཅིག་"
+"ཕྱིར་བསྐྱོད་འབད་དགོ་ ཡང་ན་ ཧེང་བཀལ་བཏུབ་ནིའི་དོན་ལུ་ རིམ་ལུགས་དེ་རིམ་སྒྲིག་འབད་དགོ"
+
+#: ../src/applet.c:2084
+msgid "Graphical System Error"
+msgstr "ཚད་རིས་ཀྱི་རིམ་ལུགས་འཛོལ་བ།"
+
+#: ../src/applet.c:2085
+msgid ""
+"The graphical interface did not properly start, which is needed for "
+"graphical logins. It is likely that the X Window System or GDM is not "
+"properly configured."
+msgstr ""
+"ཚད་རིས་ནང་བསྐྱོད་ཀྱི་དོན་ལུ་མཁོ་བའི་ ཚད་རིས་ཀྱི་ངོས་འདྲ་བ་དེ་ཚུལ་ལྡན་སྦེ་ འགོ་བཙུགས་མ་ཚུགས་པས། ཨེགསི་"
+"ཝིན་ཌོ་རིམ་ལུགས་ ཡང་ན་ ཇི་ཌི་ཨེམ་དེ་ ཚུལ་ལྡན་སྦེ་ རིམ་སྒྲིག་མ་འབདཝ་འོང་ནི་མས།"
+
+#: ../src/applet.c:2090
+msgid "Permissions Error"
+msgstr "གནང་བའི་འཛོལ་བ།"
+
+#: ../src/applet.c:2091
+msgid ""
+"Your user does not have permissions to create additional logins.  Check your "
+"<i>~/.Xauthority</i> setup."
+msgstr ""
+"ཁྱོད་ཀྱི་ལག་ལེན་པ་ལུ་ ནང་བསྐྱོད་ཁ་སྐོང་གསར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ གནང་བ་ཚུ་མིན་འདུག ཁྱོད་རའི་ <i>~/."
+"Xauthority</i> ལུ་ ཞིབ་དཔྱད་འབད།"
+
+#: ../src/applet.c:2236
+msgid "Missing Required File"
+msgstr "དགོ་པའི་ཡིག་སྣོད་ བརླག་སྟོར་ཞུགས་ནུག"
+
+#: ../src/applet.c:2238
+#, c-format
+msgid ""
+"The User Selector's interfaces file, `%s', could not be opened. It is likely "
+"that this application was not properly installed or configured."
+msgstr ""
+"ལག་ལེན་པའི་ སེལ་བྱེད་ཀྱི་ངོས་འདྲ་བའི་ཡིག་སྣོད་`%s'དེ་ ཁ་ཕྱེ་མ་ཚུགས། རིམ་ལུགས་འདི་ ཚུལ་ལྡན་སྦེ་ གཞི་"
+"བཙུགས་འབདཝ་དང་ ཡང་ན་ རིམ་སྒྲིག་མ་འབདཝ་བཟུམ་ཅིག་འདུག"
+
+#: ../src/applet.c:2314
+#, c-format
+msgid "Can't lock screen: %s"
+msgstr "གསལ་གཞི་%sལྡེ་མིག་བརྐྱབ་མི་ཚུགས།"
+
+#: ../src/applet.c:2328
+#, c-format
+msgid "Can't temporarily set screensaver to blank screen: %s"
+msgstr "གསལ་གཞི་སྟོངམ་%sགུ་ གནས་སྐབས་ཀྱི་དོན་ལུ་ གསལ་གཞི་ཉེན་སྲུང་ གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+#: ../src/fusa-display.c:119 ../src/fusa-user.c:150
+msgid "Manager"
+msgstr "འཛིན་སྐྱོང་པ།"
+
+#: ../src/fusa-display.c:120
+msgid "The manager which owns this object."
+msgstr "དངོས་པོ་འདི་དབང་མི་ འཛིན་སྐྱོང་པ།"
+
+#: ../src/fusa-display.c:127
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/fusa-display.c:128
+msgid "The name of the X11 display this object refers to."
+msgstr "དངོས་པོ་འདི་གིས་ གཞི་བསྟུན་འབད་མི་ བཀྲམ་སྟོན་ཨེགསི་༡༡ པོའི་མིང་།"
+
+#: ../src/fusa-display.c:134 ../src/fusa-user-menu-item.c:163
+msgid "User"
+msgstr "ལག་ལེན་པ།"
+
+#: ../src/fusa-display.c:135
+msgid "The user currently logged in on this virtual terminal."
+msgstr "ལག་ལེན་པ་དེ་ ད་ལྟོ་བར་ཅུ་ཡེལ་ཊར་མི་ནཱལ་འདི་གུ་ ནང་བསྐྱོད་འབད་དེ་འདུག"
+
+#: ../src/fusa-display.c:141
+msgid "Console"
+msgstr "མ་སྒྲོམ།"
+
+#: ../src/fusa-display.c:142
+msgid "The number of the virtual console this display can be found on, or %-1."
+msgstr "བཀྲམ་སྟོན་འདི་འཐོབ་སའི་ བར་ཅུ་ཡལ་མ་སྒྲོམ་གྱི་ཨང་གྲངས་ ཡང་ན་ %-༡།"
+
+#: ../src/fusa-display.c:148
+msgid "Nested"
+msgstr "ནེསི་ཊེཌི།"
+
+#: ../src/fusa-display.c:149
+msgid "Whether or not this display is a windowed (Xnest) display."
+msgstr "བཀྲམ་སྟོན་འདི་ སྒོ་སྒྲིག་སྦེ་བཟོ་བཟོ་བའི་ བཀྲམ་སྟོན་ཅིག་ཨིན་ན་མེན།(ཨེགསི་ནེསིཊི)"
+
+#: ../src/fusa-manager.c:1452
+msgid "The display manager could not be contacted for unknown reasons."
+msgstr "མ་ཤེས་པའི་རྒྱུ་མཚན་ཚུ་ལུ་བརྟེན་ཏེ་ བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་དེ་ལུ་ འབྲེལ་བ་འཐབ་མ་ཚུགས།"
+
+#: ../src/fusa-manager.c:1459
+msgid "The display manager is not running or too old."
+msgstr "བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་དེ་ གཡོག་མ་བཀོལ་བས་ ཡང་ན་ རྙིངམ་ཐལ་སོངཔ་འོང་ནི་མས།"
+
+#: ../src/fusa-manager.c:1462
+msgid "The configured limit of flexible servers has been reached."
+msgstr "སྟབས་བདེའི་སར་བར་ཚུ་གི་ རིམ་བསྒྲིགས་འབད་ཡོད་པའི་ ཚད་མཚམས་ལུ་ལྷོོད་ནུག"
+
+#: ../src/fusa-manager.c:1465
+msgid "There was an unknown error starting X."
+msgstr "ཨེགསི་འགོ་བཙུགས་ནི་ལུ་ མ་ཤེས་པའི་འཛོལ་བ་ཅིག་བྱུང་ནུག"
+
+#: ../src/fusa-manager.c:1468
+msgid "The X server failed to finish starting."
+msgstr "ཨེགསི་སར་བར་དེ་གིས་ འགོ་བཙུགས་མཇུག་བསྡུ་མ་ཚུགས།"
+
+#: ../src/fusa-manager.c:1471
+msgid "There are too many X sessions running."
+msgstr "ཨེགསི་ལཱ་ཡུན་ མང་རབས་ཅིག་ གཡོག་བཀོལ་བཞིན་འདུག"
+
+#: ../src/fusa-manager.c:1474
+msgid "The nested X server (Xnest) cannot connect to your current X server."
+msgstr "ནེསི་ཊེཌི་སར་བར་ (ཨེགསི་ནེསཊི་) དེ་ ཁྱོད་ཀྱི་ད་ལྟོའི་ ཨེགསི་སར་བར་ལུ་ མཐུད་མི་ཚུགས།"
+
+#: ../src/fusa-manager.c:1477
+msgid "The X server in the GDM configuration could not be found."
+msgstr "ཇི་ཌི་ཨེམ་རིམ་སྒྲིག་ནང་གི་ ཨེགསི་སར་བར་དེ་ འཚོལ་མ་ཐོབ།"
+
+#: ../src/fusa-manager.c:1480 ../src/gdmcomm.c:492
+msgid ""
+"Trying to set an unknown logout action, or trying to set a logout action "
+"which is not available."
+msgstr ""
+"མ་ཤེས་པའི་ཕྱིར་བསྐྱོད་བྱ་བ་ཅིག་ གཞི་སྒྲིག་འབད་ནི་ལུ་ འབད་རྩོལ་བསྐྱེད་དོ་ ཡང་ན་ འཐོབ་མ་ཚུགས་པའི་ ཕྱིར་"
+"བསྐྱོད་བྱ་བ་ཅིག་ གཞི་སྒྲིག་འབད་ནི་ལུ་ འབད་རྩོལ་བསྐྱེད་དོ།"
+
+#: ../src/fusa-manager.c:1483 ../src/gdmcomm.c:495
+msgid "Virtual terminals not supported."
+msgstr "བར་ཅུ་ཡལ་ཊར་མི་ནཱལ་ཚུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: ../src/fusa-manager.c:1486
+msgid "Invalid virtual terminal number."
+msgstr "ནུས་མེད་བར་ཅུ་ཡལ་ཊར་མི་ནཱལ་ཨང་གྲངས།"
+
+#: ../src/fusa-manager.c:1489 ../src/gdmcomm.c:499
+msgid "Trying to update an unsupported configuration key."
+msgstr "རྒྱབ་སྐྱོར་མེད་པའི་རིམ་སྒྲིག་ལྡེ་མིག་ཅིག་ དུས་མཐུན་བཟོ་ནི་ལུ་ འབད་རྩོལ་བསྐྱེད་དོ།"
+
+#: ../src/fusa-manager.c:1492
+msgid "~/.Xauthority file badly configured or missing."
+msgstr "~/.Xauthority ཡིག་སྣོད་དེ་ བྱང་ཉེས་སྦེ་ རིམ་སྒྲིག་འབད་ནུག་ ཡང་ན་ བརླག་སྟོར་ཞུགས་ནུག"
+
+#: ../src/fusa-manager.c:1495
+msgid "Too many messages were sent to the display manager, and it hung up."
+msgstr "བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་ལུ་ འཕྲིན་དོན་གཏང་ནི་མང་དྲགསཔ་ལས་ ཐོགས་ཏེ་ལུས་ནུག"
+
+#: ../src/fusa-manager.c:1499
+msgid "The display manager sent an unknown error message."
+msgstr "བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་གིས་ མ་ཤེས་པའི་འཛོལ་བའི་འཕྲིན་དོན་ཅིག་བཏང་ནུག"
+
+#: ../src/fusa-user-menu-item.c:164
+msgid "The user this menu item represents."
+msgstr "དཀར་ཆག་རྣམ་གྲངས་འདི་གིས་ ཁྱད་ཚབ་འབད་མི་ ལག་ལེན་པ་དེ།"
+
+#: ../src/fusa-user-menu-item.c:171
+msgid "Icon Size"
+msgstr "ངོས་དཔར་གྱི་ཚད།"
+
+#: ../src/fusa-user-menu-item.c:172
+msgid "The size of the icon to use."
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ངོས་དཔར་གྱི་ཚད།"
+
+#: ../src/fusa-user-menu-item.c:178
+msgid "Indicator Size"
+msgstr "བརྡ་སྟོན་པའི་ཚད།"
+
+#: ../src/fusa-user-menu-item.c:179
+msgid "Size of check indicator"
+msgstr "ཞིབ་དཔྱད་བརྡ་སྟོན་པའི་ཚད།"
+
+#: ../src/fusa-user-menu-item.c:184
+msgid "Indicator Spacing"
+msgstr "བརྡ་སྟོན་པའི་བར་སྟོང་བཞག་ཐངས།"
+
+#: ../src/fusa-user-menu-item.c:185
+msgid "Space between the username and the indicator"
+msgstr "ལག་ལེན་པའི་མིང་དང་ བརྡ་སྟོན་པའི་བར་ནའི་བར་སྟོང་།"
+
+#: ../src/fusa-user.c:151
+msgid "The user manager object this user is controlled by."
+msgstr "ལག་ལེན་པ་འདི་ ཚད་འཛིན་འབད་མི་ ལག་ལེན་པའི་འཛིན་སྐྱོང་དངོས་པོ།"
+
+#: ../src/fusa-utils.c:80
+msgid "Show Details"
+msgstr "རྒྱས་བཤད་ཚུ་སྟོན།"
+
+#. markup
+#: ../src/gdmcomm.c:413
+msgid "GDM (The GNOME Display Manager) is not running."
+msgstr "ཇི་ཌི་ཨེམ་ (ཇི་ནོམ་བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ) གཡོག་མ་བཀོལ་བས།"
+
+#: ../src/gdmcomm.c:416
+msgid ""
+"You might in fact be using a different display manager, such as KDM (KDE "
+"Display Manager) or xdm."
+msgstr ""
+"ཁྱོད་ཀྱིས་བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་སོ་སོ་ དཔེར་ན་ཀེ་ཌི་ཨེམ་(ཀེ་ཌི་ཨི་བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་) ཡང་ན་ ཨེགསི་ཌི་"
+"ཨེམ་བཟུམ་ ལག་ལེན་འཐབ་དོ་ཡོདཔ་འོང་ནི་མས།"
+
+#: ../src/gdmcomm.c:419
+msgid ""
+"If you still wish to use this feature, either start GDM yourself or ask your "
+"system administrator to start GDM."
+msgstr ""
+"ཁྱོད་ཀྱིས་ད་རུང་ཁྱད་རྣམ་འདི་རང་ ལག་ལེན་འཐབ་འདོད་ཡོད་པ་ཅིན་ ཁྱོད་ར་གིས་ཇི་ཌི་ཨེམ་འགོ་བཙུགས་ ཡང་ན་ "
+"ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་ ཇི་ཌི་ཨེམ་འགོ་བཙུགས་གནང་ཟེར་སླབས།"
+
+#. markup
+#: ../src/gdmcomm.c:441
+msgid "Cannot communicate with GDM (The GNOME Display Manager)"
+msgstr "ཇི་ཌི་ཨེམ་(ཇི་ནོམ་བཀྲམ་སྟོན་འཛིན་སྐྱོང་པ་)དང་གཅིག་ཁར་ བརྒྱུད་འབྲེལ་འཐབ་མི་ཚུགས།"
+
+#: ../src/gdmcomm.c:444
+msgid "Perhaps you have an old version of GDM running."
+msgstr "ཁྱོད་ཀྱིས་ཇི་ཌི་ཨེམ་ཐོན་རིམ་རྙིངམ་ཅིག་ གཡོག་བཀོལ་དོ་ཡོདཔ་འོང་ནི་མས།"
+
+#: ../src/gdmcomm.c:463 ../src/gdmcomm.c:466
+msgid "Cannot communicate with gdm, perhaps you have an old version running."
+msgstr ""
+"ཇི་ཌི་ཨེམ་དང་གཅིག་ཁར་ བརྒྱུད་འབྲེལ་འཐབ་མི་ཚུགས་པས། ཡང་ཅིན་ཁྱོད་ཀྱིས་ ཐོན་རིམ་རྙིངམ་ཅིག་ གཡོག་བཀོལ་དོ་"
+"ཡོདཔ་འོང་ནི་མས།"
+
+#: ../src/gdmcomm.c:469
+msgid "The allowed limit of flexible X servers reached."
+msgstr "སྟབས་བདེའི་སར་བར་ཚུ་གི་ ཆོག་པའི་ཚད་མཚམས་གུ་ལྷོོད་ནུག"
+
+#: ../src/gdmcomm.c:471
+msgid "There were errors trying to start the X server."
+msgstr "ཨེགསི་སར་བར་ འགོ་བཙུགས་ནིའི་ དཔའ་བཅམས་མི་ལུ་ འཛོལ་བ་ཚུ་འདུག"
+
+#: ../src/gdmcomm.c:473
+msgid "The X server failed.  Perhaps it is not configured well."
+msgstr "ཨེགསི་སར་བར་མ་བཏུབ། ཡང་ཅིན་ འདི་ལེགས་ཤོམ་སྦེ་ རིམ་སྒྲིག་མ་འབདཝ་འོང་ནི་མས།"
+
+#: ../src/gdmcomm.c:476
+msgid "Too many X sessions running."
+msgstr "ཨེགསི་ལཱ་ཡུན་ མང་དྲགས་སྦེ་ གཡོག་བཀོལ་དོ།"
+
+#: ../src/gdmcomm.c:478
+msgid ""
+"The nested X server (Xnest) cannot connect to your current X server.  You "
+"may be missing an X authorization file."
+msgstr ""
+"ནེསི་ཊེཌི་ཨེགསི་སར་བར་(ཨེགསི་ནེསཊི)དེ་ ཁྱོད་ཀྱི་ད་ལྟོའི་ཨེགསི་སར་བར་ལུ་ མཐུད་མི་ཚུགས། ཁྱོད་ལུ་ཨེགསི་དབང་"
+"སྤྲོད་ཡིག་སྣོད་ཅིག་མེདཔ་འོང་ནི་མས།"
+
+#: ../src/gdmcomm.c:483
+msgid ""
+"The nested X server (Xnest) is not available, or gdm is badly configured.\n"
+"Please install the Xnest package in order to use the nested login."
+msgstr ""
+"ནེསི་ཊེཌི་ཨེགསི་སར་བར་ (ཨེགསི་ནེསིཊི་)དེ་མི་འཐོབ་པས་ ཡང་ན་ ཇི་ཌི་ཨེམ་ བྱང་ཉེས་སྦེ་རིམ་སྒྲིག་འབད་དཔ་འོང་"
+"ནི་མས།\n"
+"ནེསི་ཊེཌི་ནང་བསྐྱོད་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ ཨེགསི་ནེསིཊི་ཐུམ་སྒྲིལ་དེ་ གཞི་བཙུགས་འབད་གནང་།"
+
+#: ../src/gdmcomm.c:488
+msgid ""
+"The X server is not available, it is likely that gdm is badly configured."
+msgstr "ཨེགསི་སར་བར་དེ་ མི་འཐོབ་པས། ཇི་ཌི་ཨེམ་བྱང་ཉེས་སྦེ་ རིམ་སྒྲིག་འབད་འབདཝ་བཟུམ་ཅིག་འདུག"
+
+#: ../src/gdmcomm.c:497
+msgid "Trying to change to an invalid virtual terminal number."
+msgstr "ནུས་མེད་བར་ཅུ་ཡལ་ཊར་མི་ནཱལ་ཅིག་ བསྒྱུར་བཅོས་ནི་ལུ་ འབད་རྩོལ་བསྐྱེད་དོ།"
+
+#: ../src/gdmcomm.c:501
+msgid ""
+"You do not seem to have authentication needed be for this operation.  "
+"Perhaps your .Xauthority file is not set up correctly."
+msgstr ""
+"ཁྱོད་ལུ་བཀོལ་སྤྱོད་འདི་གི་དོན་ལུ་དགོ་པའི་ བདེན་བཤད་མེདཔ་བཟུམ་ཅིག་འདུག ཡང་ཅིན་ ཁྱོད་ཀྱི་.Xauthority "
+"ཡིག་སྣོད་དེ་ ངེས་བདེན་སྦེ་ གཞི་སྒྲིག་མ་འབདཝ་འོང་ནི་མས།"
+
+#: ../src/gdmcomm.c:505
+msgid "Too many messages were sent to gdm and it hung upon us."
+msgstr "ཇི་ཌི་ཨེམ་ལུ་ འཕྲིན་དོན་མང་རབས་ཅིག་བཏང་ཡོདཔ་ལས་ ཐོགས་ལུས་ནུག"
+
+#: ../src/gdmcomm.c:508
+msgid "Unknown error occurred."
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་བྱུང་ནུག"

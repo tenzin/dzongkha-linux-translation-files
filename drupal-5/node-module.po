@@ -1,0 +1,727 @@
+# LANGUAGE translation of Drupal (modules/node.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: node.module,v 1.641.2.5 2006/05/14 23:57:58 killes
+# sonam rinchen <somindruk@druknet.bt>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: node-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 11:41+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/node/node.module:18
+msgid "All content in a website is stored and treated as <b>nodes</b>. Therefore nodes are any postings such as blogs, stories, polls and forums. The node module manages these content types and is one of the strengths of Drupal over other content management systems."
+msgstr "ཝེབ་ཀྱི་ས་ཁོངས་ནང་གི་ནང་དོན་ཆ་མཉམ་གསོག་འཇོག་འབད་ཡོདཔ་དང་<b>མཐུད་མཚམས་ཚུ་བཟུམ་སྦེ་བརྩི་འཇོག་འབད་ཡོདཔ་ཨིན།</b> དེ་འབདཝ་ལས་ནོདི་ཚུ་གྲོས་གནས་ཚུ་དང་བསམ་འཆར་བསྡུ་ལེན་དང་སྲུང་དེ་ལས་ཝེབ་དྲན་དེབ་བཟུམ་མའི་གནས་བསྐྱོད་གང་རུང་ཅིག་ཨིན། ནོཌི་ཚད་གཞི་འདི་གིས་འ་ནི་ནང་དོན་དབྱེ་བ་ཚུ་འཛིན་སྐྱོང་འབདཝ་ཨིནམ་དང་གཞན་ནང་དོན་འཛིན་སྐྱོང་རིམ་ལུགས་ཚུའི་ལྟག་ལས་ཌུ་པཱལ་གྱི་སྟོབས་ཤུགས་གཅིག་ཨིན། "
+
+#: modules/node/node.module:19
+msgid "Treating all content as nodes allows the flexibility of creating new types of content. It also allows you to painlessly apply new features or changes to all content. Comments are not stored as nodes but are always associated with a node."
+msgstr "ནང་དོན་ཆ་མཉམ་མཐུད་མཚམས་ཚུ་སྦེ་བརྩི་འཇོག་འབད་མི་གིས་ནང་དོན་གྱི་དབྱེ་བ་གསརཔ་བྱ་སྟབས་བདེ་ཏོག་ཏོ་སྦེ་གསར་བསྐྲུན་འབད་བཅུགཔ་ཨིན། ཡང་དེ་གིས་ཁྱོད་ལུ་ནང་དོན་ཆ་མཉམ་ལུ་ཁྱད་རྣམ་གསརཔ་ཚུ་ན་ཟུག་མེད་པར་འཇུག་སྤྱོད་འབད་བཅུགཔ་ཨིན། བརྡ་བཀོད་ཚུ་མཐུད་མཚམས་ཚུ་བཟུམ་སྦེ་གསོག་འཇོག་མི་འབད་ དེ་འབདཝ་ད་ཨ་རྟག་རང་མཐུད་མཚམས་གཅིག་ཁར་འབྲེལ་བ་འབད་ཡོདཔ་ཨིན།"
+
+#: modules/node/node.module:20
+msgid ""
+"<p>Node module features</p>\n"
+"<ul>\n"
+"<li>The list tab provides an interface to search and sort all content on your site.</li>\n"
+"<li>The configure settings tab has basic settings for content on your site.</li>\n"
+"<li>The configure content types tab lists all content types for your site and lets you configure their default workflow.</li>\n"
+"<li>The search tab lets you search all content on your site</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>མཐུད་མཚམས་ཚད་གཞིའི་ཁྱད་རྣམ་ཚུ་</p>\n"
+"<ul>\n"
+"<li>ཐོ་ཡིག་ཕྲ་རིང་འདི་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་ནང་དོན་ཆ་མཉམ་དབྱེ་སེལ་འབད་ནི་དང་ངོས་འདྲ་བ་བྱིནམ་ཨིན།</li>\n"
+"<li>རིམ་སྒྲིག་སྒྲིག་སྟངས་ཕྲ་རིང་འདི་ལུ་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་ནང་དོན་གྱི་དོན་ལས་གཞི་རིམ་སྒྲིག་སྟངས་ཚུ་ཡོད།</li>\n"
+"<li>རིམ་སྒྲིག་ནང་དོན་དབྱེ་བ་ཚུའི་ཕྲ་རིང་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་དོན་ལས་ནང་དོན་དབྱོ་བ་ཚུ་ཆ་མཉམ་ཐཅ་བཀོད་འབདཝ་ཨིནམ་དང་ཁྱོད་ལུ་ཁོང་རའི་སྔོན་སྒྲིག་ལཱའི་འབབ་རྒྱུན་རིམ་སྒྲིག་འབད་བཅུགཔ་ཨིན།</li>\n"
+"<li>འཚོལ་ཞིབ་ཕྲ་རིང་གིས་ཁྱོད་ལུ་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་ནང་དོན་ཆ་མཉམ་འཚོལ་ཞིབ་འབད་བཅུགཔ་ཨིན།</li>\n"
+"</ul>\n"
+
+#: modules/node/node.module:28
+msgid "For more information please read the configuration and customization handbook <a href=\"@node\">Node page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལས་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་<a href=\"@node\">མཐུད་མཚམས་ཤོག་ལེབ་ལྟག་གནང་།</a>."
+
+#: modules/node/node.module:31
+msgid "Enter a simple pattern to search for a post. Words are matched exactly. Phrases can be surrounded by quotes to do an exact search."
+msgstr "གནས་བསྐྱོད་ཀྱི་དོན་ལུ་འཚོལ་ཞིབ་འབད་ནི་ལུ་  དཔེ་གཞི་འཇམ་སམ་ཅིག་ཐོ་བཀོད་འབད་གནང་།  མིང་ཚིག་ཚུ་ཏག་ཏག་སྦེ་མཐུན་སྒྲིག་འབདཝ་མས།  འཚོལ་ཞིབ་ཏག་ཏག་བཟོ་ནི་ལུ་  ཚིག་ཚན་ཚུ་འདྲེན་ཚིག་བཀོད་པ་དེ་གིས་  མཐའ་སྐོར་བཞག་ནུག།"
+
+#: modules/node/node.module:33
+msgid "Below is a list of all the content types on your site. All posts that exist on your site are instances of one of these content types."
+msgstr "འོག་ལུ་ ཁྱོད་རའི་ས་ཁོངས་ཀྱི་དབྱེ་བ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་ཡོདཔ་ཨིན།  ཁྱོད་ཀྱི་ས་ཁོངས་གུ་ཡོད་པའི་འདྲེན་ལམ་ཚུ་  ནང་དོན་དབྱེ་བ་ཚུ་གི་གྲལ་ལས་གཅིག་གི་དཔེ་ཨིན།"
+
+#: modules/node/node.module:35
+msgid "To create a new content type, enter the human-readable name, the machine-readable name, and all other relevant fields that are on this page. Once created, users of your site will be able to create posts that are instances of this content type."
+msgstr "ནང་དོན་དབྱེ་བ་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་ལུ་  མི་གིས་ལྷག་ཚུགས་པའི་མིང་ཅིག་དང་  འཕྲུལ་ཆས་ལྷག་ཚུགས་མི་མིང་ཅིག་ཐོ་བཀོད་འབད་ནི་དང་  ཤོག་ལེབ་དེ་གུ་ཡོད་པའི་འབྲེལ་བའི་ས་སྒོ་ཚུ་ཆ་མཉམ་ཐོ་བཀོད་འབད།  ཚར་གཅིག་གསར་བསྐྲུན་འབད་ཚར་ཞིནམ་ལས་  ཁྱོད་རའི་ས་ཁོངས་དེ་གིས་  ནང་དོན་དབྱེ་བ་འདི་གི་དཔེ་ཨིན་པའི་  གནས་བསྐྱོད་ཚུ་གསར་བསྐྲུན་འབད་ཚུགསཔ་ཨིན།"
+
+#: modules/node/node.module:39
+msgid "The revisions let you track differences between multiple versions of a post."
+msgstr "བསྐྱར་སྦྱོང་འདི་གིས་ཁྱོད་ལུ་འགྲེམ་སྐྱེལ་གྱི་སྣ་མང་ཐོན་རིམ་ཚུའི་བར་ན་སོ་སོ་ཚུ་རྗེས་འཚོལ་འབད་བཅུགཔ་ཨིན།"
+
+#: modules/node/node.module:800;1070;1124
+msgid "Content"
+msgstr "ནང་དོན་"
+
+#: modules/node/node.module:817
+msgid "Content ranking"
+msgstr "ནང་དོན་གོ་རིམ་སྒྲིག་ནི།"
+
+#: modules/node/node.module:819
+msgid "The following numbers control which properties the content search should favor when ordering the results. Higher numbers mean more influence, zero means the property is ignored. Changing these numbers does not require the search index to be rebuilt. Changes take effect immediately."
+msgstr "འོག་གི་གྲངས་ཚུ་གི་གྲུབ་འབྲས་ཚུ་གོ་རིམ་སྒྲིགཔ་ད་   རྒྱུ་དངོས་ཚུ་ག་འདི་ནང་དོན་འཚོལ་ཞིབ་མོས་མཐུན་འབད་དགོཔ་ཨིན་ན་  ཚད་འཛིན་འབདཝ་ཨིན། གྲངས་མཐོ་མི་ཟེར་མི་འདི་རྒྱུད་བསྐུལ་ཧེང་བཀལ་ཨིན་  ཀླད་ཀོར་ཟེར་མི་འདི་  རྒྱུ་དངོས་སྣང་མེད་བཞག་ཡོདཔ་ཨིན།   ཨ་ནི་གྲངས་ཚུ་བསྒྱུར་བཅོས་འབད་མི་འདི་གིས་  འཚོལ་ཞིབ་ཟུར་ཐོ་ལོག་བཟོ་མི་དགོ། བསྒྱུར་བཅོས་ཚུ་གིས་དེ་འཕྲལ་ལས་ནུས་པ་འཐོབ་ཨིན།"
+
+#: modules/node/node.module:821
+msgid "Keyword relevance"
+msgstr "གཙོ་ཚིག་འབྲེལ་བ།"
+
+#: modules/node/node.module:822
+msgid "Recently posted"
+msgstr "འཕྲལ་ཁམས་ཅིག་ཁར་འགྲེལ་སྐྱེལ་འབད་ཡོདཔ།"
+
+#: modules/node/node.module:824
+msgid "Number of comments"
+msgstr "བསམ་བཀོད་ཚུ་གི་གྲངས།"
+
+#: modules/node/node.module:827
+msgid "Number of views"
+msgstr "མཐོང་སྣང་ཚུ་གི་གྲངས།"
+
+#: modules/node/node.module:948
+msgid "Factor"
+msgstr "ཆ་རྐྱེན།"
+
+#: modules/node/node.module:968
+msgid "If the site is experiencing problems with permissions to content, you may have to rebuild the permissions cache. Possible causes for permission problems are disabling modules or configuration changes to permissions. Rebuilding will remove all privileges to posts, and replace them with permissions based on the current modules and settings."
+msgstr "ས་ཁོངས་འདི་གནང་བ་དང་ཅིག་ཁར་དཀའ་ངལ་ཚུ་ནང་དོན་ལུ་མྱོང་ནི་ཨིན་པ་ཅིན་  ཁྱོད་ཀྱིས་གནང་བའི་འདྲ་མཛོད་ཚུ་ལོག་བཟོ་དགོ།  གནང་བའི་དཀའ་ངལ་གྱི་དོན་ལུ་སྲིད་པའི་རྒྱུ་རྐྱེན་འདི་  ལྕོགས་མེད་བཟོ་བའི་ཚད་གཞི་ཚུ་  ཡང་ན་ གནང་བ་ལུ་རིམ་སྒྲིག་གི་བསྒྱུར་བཅོས་ཚུ་ཨིནམ་འོང་།  ལོག་བཟོ་མི་དེ་གིས་  གནས་བསྐྱོད་ཆ་མཉམ་ལུ་ཁེ་དབང་ཚུ་རྩ་བསྐྲད་གཏང་ནི་དང་  ད་ལྟོའི་ཚད་གཞི་དང་སྒྲིག་སྟངས་གུ་  གནང་བ་གཞི་བཞག་སྟེ་  ཚབ་བཙུགས།"
+
+#: modules/node/node.module:969
+msgid "Rebuilding may take some time if there is a lot of a content or complex permission settings. After rebuilding has completed posts will automatically use the new permissions."
+msgstr "ནང་དོན་ཡང་ན་ གོ་དཀའ་བའི་གནང་བ་གི་སྒྲིག་སྟངས་ཚུ་ལེ་ཤ་ཡོད་པ་ཅིན་  ལོག་བཟོ་ནི་དེ་ལུ་དུས་ཡུན་འགོར་འོང།  ལོག་བཟོ་ནི་འདི་མཇུག་བསྡུ་ཞིནམ་ལས་  གནས་བསྐྱོད་དེ་གིས་  གནང་བ་གསརཔ་འདི་རང་བཞིན་གྱིས་སྦེ་ལག་ལེན་འཐབ་འོང་།"
+
+#: modules/node/node.module:971
+msgid "Node access status"
+msgstr "མཐུད་མཚམས་འཛུལ་སྤྱོད་འབད་ནི་གི་གནས་ཚད་"
+
+#: modules/node/node.module:973;1001;1011
+msgid "Rebuild permissions"
+msgstr "གནང་བ་ཚུ་ལོག་བཟོ་"
+
+#: modules/node/node.module:977
+msgid "Number of posts on main page"
+msgstr "ཤོག་ལེབ་ངོ་མ་གུ་འགྲེམ་སྐྱེལ་ཚུ་གི་ཨང་།"
+
+#: modules/node/node.module:979
+msgid "The default maximum number of posts to display per page on overview pages such as the main page."
+msgstr "ཤོག་ལེབ་ངོ་མ་བཟུམ་མའི་སྤྱི་མཐོང་ཤོག་ལེབ་གུ་ཤོག་ལེབ་རེ་བཀྲམ་སྟོན་འབད་ནི་ལུ་འགྲེམ་སྐྱེལ་གྱི་སྔོན་སྒྲིག་མང་མཐའི་གྲངས།"
+
+#: modules/node/node.module:982
+msgid "Length of trimmed posts"
+msgstr "རྩེ་སྙོམས་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་གི་རིང་ཚད།"
+
+#: modules/node/node.module:983
+msgid "200 characters"
+msgstr "༢༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:983
+msgid "400 characters"
+msgstr "༤༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:983
+msgid "600 characters"
+msgstr "༦༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:984
+msgid "800 characters"
+msgstr "༨༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:984
+msgid "1000 characters"
+msgstr "༡༠༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:984
+msgid "1200 characters"
+msgstr "༡༢༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:984
+msgid "1400 characters"
+msgstr "༡༤༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:985
+msgid "1600 characters"
+msgstr "༡༦༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:985
+msgid "1800 characters"
+msgstr "༡༨༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:985
+msgid "2000 characters"
+msgstr "༢༠༠༠ ཡིག་འབྲུ་ཚུ།"
+
+#: modules/node/node.module:986
+msgid "The maximum number of characters used in the trimmed version of a post. Drupal will use this setting to determine at which offset long posts should be trimmed. The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc. To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
+msgstr "འགྲེམ་སྐྱེལ་གྱི་རྩེ་སྙོམ་ཡོད་པའི་ཐོན་རིམ་ནང་ལག་ལེན་འཐབ་ཡོད་པའི་   ཡིག་འབྲུ་ཚུ་གི་མང་མཐའི་གྲངས།   ཌུ་པཱལ་འདི་གིས་པར་ལེན་རིངམོ་འགྲེམ་སྐྱེལ་ག་འདི་རྩེ་སྙོམ་དགོ་ནི་ཨིན་  འདི་གཏན་འབེབས་བཟོ་ནི་ལུ་  སྒྲིག་སྟངས་འདི་ལག་ལེན་འཐབ་འོང་།  ཨེཀསི་ཨེམ་ཨེལ་ཤོག་ཀུ་བཙུགས་ནི་ལ་སོགས་པ་ཚུ་ནང་ ཤོག་ལེབ་ངོ་མ་གུ་འགྲེམ་སྐྱེལ་བཀྲམ་སྟོན་འབདཝ་ད་  འགྲེམ་སྐྱེལ་གྱི་རྩེ་སྙོམ་ཡོད་པའི་ཐོན་རིམ་འདི་འཁྲུལ་བ་མེད་པར་  ཊི་སརསི་སྦེ་ལག་ལེན་འཐབཔ་ཨིན།  ཊི་སརསི་ལྕོགས་མིན་བཟོ་ནི་ལུ་ 'ཚད་མེདཔ་' ལུ་གཞི་སྒྲིག་འབད།   སྒྲིག་སྟངས་འདི་གིས་ནང་དོན་གསརཔ་ ཡང་ན་ དུས་མཐུན་བཟོ་ཡོད་པའི་ནང་དོན་རྐྱངམ་གཅིག་གནོད་ནི་དང་   ཡོད་བཞིན་པའི་ནང་དོན་མི་གནོད་ནི་ཨིནམ་དྲན་འཛིན་འབད།"
+
+#: modules/node/node.module:990
+msgid "Preview post"
+msgstr "འགྲེམ་སྐྱེལ་སྔོན་ལྟ་འབད།"
+
+#: modules/node/node.module:991
+msgid "Must users preview posts before submitting?"
+msgstr "ལག་ལེན་པ་ཚུ་གིས་ཞུ་འབུལ་མ་འབད་བའི་ཧེ་མ་འགྲེམ་སྐྱེལ་ཚུ་ངེས་པར་མངོན་ལྟ་འབད་དགོ?"
+
+#: modules/node/node.module:1010
+msgid "Are you sure you want to rebuild node permissions on the site?"
+msgstr "ཁྱོད་ཀྱིས་ཨ་ནི་རྣམ་གྲངས་ཚུ་བཏོན་གཏང་ནི་འདི་  ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/node/node.module:1011
+msgid "This will wipe all current node permissions and rebuild them based on current settings. Rebuilding the permissions may take a while so please be patient. This action cannot be undone."
+msgstr "དེ་གིས་ད་ལྟོའི་མཐུད་མཚམས་ཚུ་གི་གནང་བ་ཆ་མཉམ་རྩ་མེད་གཏང་ནི་དང་  ད་ལྟོའི་སྒྲིག་སྟངས་གུ་གཞི་བཞག་སྟེ་ལོག་བཟོ་ནི་ཨིན།  གནང་བ་ཚུ་ལོག་བཟོ་མི་དེ་གིས་  དུས་ཡུན་འགོར་འོང་  བཟོད་པ་ཞེས་གནང་།  བྱ་བ་འདི་འབད་བཤོལ།"
+
+#: modules/node/node.module:1019
+msgid "The node access table has been rebuilt."
+msgstr "མཐུད་མཚམས་འཛུལ་སྤྱོད་ཐིག་ཁྲམ་འདི་  ལོག་བཟོ་ནུག།"
+
+#: modules/node/node.module:1043
+msgid "Read more"
+msgstr "ཧེང་བཀལ་ལྷག་"
+
+#: modules/node/node.module:1045
+msgid "Read the rest of this posting."
+msgstr "འགྲེམ་སྐྱེལ་འདི་གི་ལྷག་མ་ལྷག།"
+
+#: modules/node/node.module:1060
+msgid "Content management"
+msgstr "ནང་དོན་འཛིན་སྐྱོང་"
+
+#: modules/node/node.module:1061
+msgid "Manage your site's content."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་ཀྱི་ནང་དོན་ཚུ་འཛིན་སྐྱོང་འཐབ།"
+
+#: modules/node/node.module:1071
+msgid "View, edit, and delete your site's content."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་འདི་  སྟོན་  ཞུན་དག་འབད་ནི་དང་བཏོན་གཏང་ད།"
+
+#: modules/node/node.module:1080
+msgid "Search content"
+msgstr "ནང་དོན་འཚོལ་ཞིབ་འབད་"
+
+#: modules/node/node.module:1081
+msgid "Search content by keyword."
+msgstr "ནང་དོན་འདི་གཙོ་ཚིག་གིས་སྦེ་འཚོལ་ཞིབ་འབད།"
+
+#: modules/node/node.module:1089
+msgid "Post settings"
+msgstr "འདྲེན་ལམ་གྱི་སྒྲིག་སྟངས་ཚུ་"
+
+#: modules/node/node.module:1090
+msgid "Control posting behavior, such as teaser length, requiring previews before posting, and the number of posts on the front page."
+msgstr "གནས་བསྐྱོད་མ་འབད་བའི་ཧེ་མ་སྔོན་ལྟ་དགོ་པའི་  ཊི་ཟར་རིང་ཚདབཟུམ་མའི་གནས་བསྐྱོད་སྤྱོད་ལམ་འདི་ཚད་འཛིན་འབད་ནི་དང་  གདོང་ཁའི་ཤོག་ལེབ་གུ་གནས་བསྐྱོད་ཀྱི་ཨང་གྲངས།"
+
+#: modules/node/node.module:1097
+msgid "rebuild permissions"
+msgstr "གནང་བ་ཚུ་ལོག་བཟོ་"
+
+#: modules/node/node.module:1105
+msgid "Content types"
+msgstr "ནང་དོན་གྱི་དབྱེ་བ་ཚུ་"
+
+#: modules/node/node.module:1106
+msgid "Manage posts by content type, including default status, front page promotion, etc."
+msgstr "སྔོན་སྒྲིག་གནས་ཚད་དང་ གདོང་ཁའི་ཤོག་ལེབ་ཁྱབ་སྤེལ་ལ་སོགས་པ་ཚུ་གྲངས་སུ་བརྩི་སྟེ་  གནས་བསྐྱོད་འདི་ནང་དོན་དབྱེ་བ་གིས་འབད་འཛིན་སྐྱོང་འཐབ།"
+
+#: modules/node/node.module:1118
+msgid "Add content type"
+msgstr "ནང་དོན་གྱི་དབྱེ་བ་ཁ་སྐོང་བརྐྱབ་"
+
+#: modules/node/node.module:1129;2174
+msgid "Create content"
+msgstr "ནང་དོན་གསར་བསྐྲུན་འབད་"
+
+#: modules/node/node.module:1180
+msgid "Revisions"
+msgstr "བསྐྱར་སྦྱོང་ཚུ་"
+
+#: modules/node/node.module:1233
+msgid "Publish"
+msgstr "དཔེ་བསྐྲུན་འབད་"
+
+#: modules/node/node.module:1237
+msgid "Unpublish"
+msgstr "དཔེ་བསྐྲུན་འབད་བཤོལ་"
+
+#: modules/node/node.module:1241
+msgid "Promote to front page"
+msgstr "གདོང་ཁའི་ཤོག་ལེབ་ལུ་ཡར་བསྐྱེད་འབད་"
+
+#: modules/node/node.module:1245
+msgid "Demote from front page"
+msgstr "གདོང་ཁའི་ཤོག་ལེབ་ལུ་ཡར་བསྐྱེད་འབད་བཤོལ་"
+
+#: modules/node/node.module:1249
+msgid "Make sticky"
+msgstr "རྩི་ཅན་བཟོ་"
+
+#: modules/node/node.module:1253
+msgid "Remove stickiness"
+msgstr "རྩི་ཅན་ཚུ་རྩ་བསྐྲད་གཏང་"
+
+#: modules/node/node.module:1311;1540
+msgid "published"
+msgstr "དཔེ་བསྐྲུན་འབད་ཡོདཔ།"
+
+#: modules/node/node.module:1311;1540
+msgid "not published"
+msgstr "དཔེ་བསྐྲུན་མ་འབད་མི།"
+
+#: modules/node/node.module:1312
+msgid "promoted"
+msgstr "ཡར་བསྐྱེད་འབད་ཡོདཔ།"
+
+#: modules/node/node.module:1312
+msgid "not promoted"
+msgstr "ཡར་བསྐྱེད་མ་འབད་མི།"
+
+#: modules/node/node.module:1313
+msgid "sticky"
+msgstr "རྩི་ཅན།"
+
+#: modules/node/node.module:1313
+msgid "not sticky"
+msgstr "རྩི་ཅན་མེན་མི།"
+
+#: modules/node/node.module:1314
+msgid "type"
+msgstr "ཡིག་དཔར་རྐྱབས།"
+
+#: modules/node/node.module:1317
+msgid "category"
+msgstr "དབྱེ་རིམ།"
+
+#: modules/node/node.module:1365
+msgid "Show only items where"
+msgstr "རྣམ་གྲངས་ཚུ་རྐྱངམ་གཅིག་ག་སྟེ་ལུ་སྟོན།"
+
+#: modules/node/node.module:1497
+msgid "No items selected."
+msgstr "རྣམ་གྲངས་ཚུ་སེལ་འཐུ་མ་འབད་བས།"
+
+#: modules/node/node.module:1595
+msgid "Are you sure you want to delete these items?"
+msgstr "ཁྱོད་ཀྱིས་ཨ་ནི་རྣམ་གྲངས་ཚུ་བཏོན་གཏང་ནི་ལུ་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/node/node.module:1605
+msgid "The items have been deleted."
+msgstr "རྣམ་གྲངས་ཚུ་བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/node/node.module:1614
+msgid "Revisions for %title"
+msgstr "%title གི་དོན་ལས་བསྐྱར་སྦྱོང་ཚུ།"
+
+#: modules/node/node.module:1616
+msgid "Revision"
+msgstr "བསྐྱར་སྦྱོང་།"
+
+#: modules/node/node.module:1634;1640
+msgid "!date by !username"
+msgstr "%username གིས་ !date "
+
+#: modules/node/node.module:1637
+msgid "current revision"
+msgstr "ད་ལྟོའི་བསྐྱར་སྦྱོང་།"
+
+#: modules/node/node.module:1643
+msgid "revert"
+msgstr "རྒྱབ་ལོག།"
+
+#: modules/node/node.module:1667
+msgid "Copy of the revision from %date."
+msgstr "%date ལས་བསྐྱར་སྦྱོང་གི་འདྲ་བཤུས།"
+
+#: modules/node/node.module:1674
+msgid "%title has been reverted back to the revision from %revision-date"
+msgstr "%title འདི་ %revision-date ལས་བསྐྱར་སྦྱོང་ལུ་ལོག་རྒྱབ་ལོག་ཡོདཔ།"
+
+#: modules/node/node.module:1675
+msgid "@type: reverted %title revision %revision."
+msgstr "@type: རྒྱབ་ལོག་ཡོད་པའི་ %title བསྐྱར་སྦྱོང་ %revision."
+
+#: modules/node/node.module:1678
+msgid "You tried to revert to an invalid revision."
+msgstr "ཁྱོད་ཀྱིས་བསྐྱར་སྦྱོང་ནུས་མེད་ལུ་རྒྱབ་ལོག་ནི་ལུ་འབད་རྩོལ་བསྐྱེད།"
+
+#: modules/node/node.module:1699
+msgid "Deleted %title revision %revision."
+msgstr "བཏོན་གཏང་ཡོད་པའི་%title revision %revision."
+
+#: modules/node/node.module:1700
+msgid "@type: deleted %title revision %revision."
+msgstr "@type: བཏོན་གཏང་ཡོད་པའི་ %title བསྐྱར་སྦྱོང་ %revision."
+
+#: modules/node/node.module:1704
+msgid "Deletion failed. You tried to delete the current revision."
+msgstr "བཏོན་གཏང་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: modules/node/node.module:1740;1744
+msgid "Syndicate"
+msgstr "མཉམ་རུབ་ཚོགས་པ།"
+
+#: modules/node/node.module:1891
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr "ཁྱོད་ཀྱི་ @type གི་མ་གཟུགས་འདི་གནམ་མེད་ས་མེད་ཐུང་ཀུ་ཨིན། ཁྱོད་ལུ་ཉུང་ཤོས་རང་ %words མིང་ཚིག་ཚུ་དགོ།"
+
+#: modules/node/node.module:1895
+msgid "This content has been modified by another user, changes cannot be saved."
+msgstr "ནང་དོན་འདི་ ལག་ལེན་པ་གཞན་མི་ཅིག་གིས་ ལེགས་བཅོས་འབད་ཡོདཔ་ལས་ འགྱུར་བ་ཚུ་སྲུང་མི་ཚུགས།"
+
+#: modules/node/node.module:1904
+msgid "The username %name does not exist."
+msgstr "ལག་ལེན་པའི་མིང་%name མིན་འདུག།"
+
+#: modules/node/node.module:1989
+msgid "An explanation of the additions or updates being made to help other authors understand your motivations."
+msgstr "ཁ་སྐོང་ཚུ་གི་གསལ་བཤད་ཡང་ན་  རྩོམ་པ་པོ་གཞན་ཚུ་ལུ་གྲོགས་རམ་འབད་ནི་ལུ་བཟོ་ཡོད་པའི་དུས་མཐུན་ཚུ་གིས་  ཁྱོད་ཀྱི་རྒྱུད་སྐུལ་ཚུ་ཧ་དགོཝ་ཨིན།"
+
+#: modules/node/node.module:1997
+msgid "Authoring information"
+msgstr "བརྡ་དོན་དབང་སྤྲོད་དོ།"
+
+#: modules/node/node.module:2002
+msgid "Leave blank for %anonymous."
+msgstr " %anonymous གི་དོན་ལས་སྟོངམ་བཞག།"
+
+#: modules/node/node.module:2003
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr "རྩ་སྒྲིག་: %time འབྲི་ཤོག་ཞུ་འབུལ་གྱི་ཆུ་ཚོད་ལག་ལེན་འཐབ་ནི་ལུ་སྟོངམ་བཞག།"
+
+#: modules/node/node.module:2013
+msgid "Publishing options"
+msgstr "གདམ་ཁ་ཚུ་དེབ་བསྐྲུན།"
+
+#: modules/node/node.module:2106;2174
+msgid "Submit @name"
+msgstr "@name ཕུལ།"
+
+#: modules/node/node.module:2114
+msgid "Add a new @s."
+msgstr "@s གསརཔ་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/node/node.module:2123
+msgid "Choose the appropriate item from the list:"
+msgstr "ཐོ་ཡིག་ལས་འོས་ལྡན་གྱི་རྣམ་གྲངས་གདམ་ཁ་རྐྱབས་:"
+
+#: modules/node/node.module:2189
+msgid "The trimmed version of your post shows what your post looks like when promoted to the main page or when exported for syndication. You can insert the delimiter \"&lt;break&gt;\" (without the quotes) to fine-tune where your post gets split."
+msgstr "ཁྱོད་ཀྱིས་འགྲེམ་སྐྱེལ་གྱི་རྩེ་སྙོམ་ཡོད་པའི་  ཐོན་རིམ་འདི་གིས་མཉམ་འབྲེལ་ཚོགས་པ་གཞི་བཙུགས་ཀྱི་དོན་ལུ་  ཕྱུར་འདྲེན་འབད་བའི་སྐབས་ ཡང་ན་ ཤོག་ལེབ་ངོ་མ་ལུ་ཡར་བསྐྱེད་འབདཝ་ད་ ཁྱོད་ཀྱིས་འགྲེམ་སྐྱེལ་ག་ཅི་བཟུམ་མཐོངམ་ཨིན་ན་སྟོནམ་ཨིན།   ཁྱོད་ཀྱི་འགྲེམ་སྐྱེལ་གཤག་འགྱོ་མི་གདངས་-འཚོལ་ནི་ལུ་(འདྲེན་ཚིག་ཚུ་མེདཔ་སྦེ་) ཁྱོད་ཀྱིས་དབྱེ་རྟགས་ \"&lt;!--break--&gt;\" བཙུགས་ཚུགས།"
+
+#: modules/node/node.module:2190
+msgid "Preview trimmed version"
+msgstr "རྩེ་སྙོམ་ཡོད་པའི་ཐོན་རིམ་སྔོན་ལྟ་འབད།"
+
+#: modules/node/node.module:2192
+msgid "Preview full version"
+msgstr "ཐོན་རིམ་ཆ་མཉམ་སྔོན་ལྟ་འབད།"
+
+#: modules/node/node.module:2204
+msgid "Log"
+msgstr "དྲན་དེབ།"
+
+#: modules/node/node.module:2216
+msgid "@type: updated %title."
+msgstr "@type: དུས་མཐུན་བཟོ་ཡོདཔ་ %title "
+
+#: modules/node/node.module:2217
+msgid "The %post has been updated."
+msgstr "%post  དུས་མཐུན་བཟོ་ཡོདཔ།"
+
+#: modules/node/node.module:2221
+msgid "@type: added %title."
+msgstr "@type:  %title ཁ་སྐོང་རྐྱབས་ཡོདཔ།"
+
+#: modules/node/node.module:2222
+msgid "Your %post has been created."
+msgstr "ཁྱོད་ཀྱི་  %post  གསར་བསྐྲུན་འབད་ཡོདཔ།"
+
+#: modules/node/node.module:2243
+msgid "Are you sure you want to delete %title?"
+msgstr " ཁྱོད་ཀྱིས་ %title བཏོན་གཏང་ནི་འདི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/node/node.module:2282
+msgid "%title has been deleted."
+msgstr "%title བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/node/node.module:2283
+msgid "@type: deleted %title."
+msgstr "@type:  %title བཏོན་གཏང་ཡོདཔ།"
+
+#: modules/node/node.module:2306
+msgid "Revision of %title from %date"
+msgstr "%date ལས་ %title གི་བསྐྱར་སྦྱོང་།"
+
+#: modules/node/node.module:2334
+msgid "RSS"
+msgstr "ཨཱར་ཨེསི་ཨེསི།"
+
+#: modules/node/node.module:2473;2525
+msgid "Advanced search"
+msgstr "མཐོ་རིམ་འཚོལ་ཞིབ།"
+
+#: modules/node/node.module:2484
+msgid "Containing any of the words"
+msgstr "མིང་ཚིག་གང་རུང་ཅིག་ནང་ན་ཡོད་མི།"
+
+#: modules/node/node.module:2490
+msgid "Containing the phrase"
+msgstr "ཚིག་ཚན་ནང་ན་ཡོད་མི།"
+
+#: modules/node/node.module:2496
+msgid "Containing none of the words"
+msgstr "མིང་ཚིག་ཚུ་ནང་ན་མེད་མི།"
+
+#: modules/node/node.module:2505
+msgid "Only in the category(s)"
+msgstr "དབྱེ་རིམ་(ཚུ་)ནང་རྐྱངམ་གཅིག།"
+
+#: modules/node/node.module:2518
+msgid "Only of the type(s)"
+msgstr "དབྱེ་བ་(ཚུ་)ལུ་རྐྱངམ་གཅིག།"
+
+#: modules/node/node.info:0
+msgid "Node"
+msgstr "མཐུད་མཚམས་"
+
+#: modules/node/node.info:0
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr "ནང་དོན་འདི་ས་ཁོངས་ལུ་ཞུ་འབུལ་འབད་ནི་དང་ཤོག་ལེབ་གུ་བཀྲམ་སྟོན་འབད་བཅུགཔ་ཨིན།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>search for content at <a href=\"%search\">search</a>.</li>\n"
+#~ "<li>administer nodes at <a href=\"%admin-settings-content-types"
+#~ "\">administer &gt;&gt; settings &gt;&gt; content types</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ནང་དོན་གྱི་དོན་ལས་འཚོལ་ཞིབ་ནང་ལུ་ <a href=\"%search\">འཚོལ་ཚུགས།</a>.</li>\n"
+#~ "<li>བདག་སྐྱོང་འཐབ་ནིའི་མཐུད་མཚམས་ཚུ་ <a href=\"%admin-settings-content-types"
+#~ "\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; སྒྲིག་སྟངས་ཚུ་&gt;&gt; ནང་དོན་དབྱེ་བ་ཚུ་ནང་འཚོལ་ཚུགས།</a>."
+#~ "</li>\n"
+#~ "</ul>\n"
+#~ msgid ""
+#~ "<p>Settings for the core of Drupal. Almost everything is a node so these "
+#~ "settings will affect most of the site.</p>"
+#~ msgstr ""
+#~ "<p>ཌུ་པཱལ་གྱི་ནང་སྙིང་གི་དོན་ལས་སྒྲིག་སྟངས་ཚུ། ཡོད་ཚད་གཅིགཔ་མང་ཆེ་བ་མཐུད་མཚམས་ཨིན་དེ་འབདཝ་ལས་"
+#~ "སྒྲིག་སྟངས་འདི་གིས་མངའ་ཁོངས་མང་ཆེ་ཤོས་ཅིག་གནོད་འོང་།</p>"
+#~ msgid ""
+#~ "<p>Below is a list of all of the posts on your site. Other forms of "
+#~ "content are listed elsewhere (e.g. <a href=\"%comments\">comments</a>).</"
+#~ "p><p>Clicking a title views the post, while clicking an author's name "
+#~ "views their user information.</p>"
+#~ msgstr ""
+#~ "<p>འོག་གི་འདི་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་འགྲེམ་སྐྱེལ་ཚུ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་ཨིན། ནང་དོན་གྱི་གཞན་རྣམ་པ་ཚུ་གཞན་"
+#~ "ཅིག་ཁར་ཐོ་བཀོད་འབད་ཡོདཔ་ཨིན།  (དཔེར་ན་ <a href=\"%comments\">བརྡ་བཀོད་ཚུ།</a>).</"
+#~ "p><p>མགོ་མིང་ཨེབ་གཏངམ་ད་འགྲེམ་སྐྱེལ་སྟོནམ་ཨིན་ རྩོམ་པ་པོའི་མིང་ཨེབ་གཏངམ་ད་གོང་རའི་ལག་ལེན་པའི་"
+#~ "བརྡ་དོན་སྟོནམ་ཨིན།</p>"
+#~ msgid ""
+#~ "<p>Enter a simple pattern to search for a post. This can include the "
+#~ "wildcard character *.<br />For example, a search for \"br*\" might return "
+#~ "\"bread bakers\", \"our daily bread\" and \"brenda\".</p>"
+#~ msgstr ""
+#~ "<p>འགྲེམ་སྐྱེལ་གྱི་དོན་ལས་འཚོལ་ཞིབ་འབད་ནི་ལུ་དཔེ་གཞི་འཇམ་སམ་ཅིག་བཙུགས། འདི་ཝའིལ་ཀཌི་ཡིག་འབྲུ་ * "
+#~ "གྲངས་སུ་བཙུགས་ཚུགས།<br />དཔེར་ན་  \"br*\" might return \"bread bakers\", \"our "
+#~ "daily bread\" དང་ \"brenda\" དཅན་ལས་འཚོལ་ཞིབ།</p>"
+#~ msgid "posts"
+#~ msgstr "འགྲེམ་སྐྱེལ་ཚུ།"
+#~ msgid "rss feed"
+#~ msgstr "ཨར་ཨེསི་ཨེསི་ཤོག་ཀུ་བཙུགས་ནི།"
+#~ msgid "revisions"
+#~ msgstr "བསྐྱར་སྦྱོང་ཚུ།"
+#~ msgid "'%name' content type"
+#~ msgstr "'%name' ནང་དོན་གྱི་དབྱེ་བ།"
+#~ msgid "Approve the selected posts"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་གནང་བ་གནང་།"
+#~ msgid "Promote the selected posts"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་ཡར་བསྐྱེད།"
+#~ msgid "Make the selected posts sticky"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་རྩི་ཅན་བཟོ།"
+#~ msgid "Demote the selected posts"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་མར་ཕབ།"
+#~ msgid "Unpublish the selected posts"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་དཔེ་བསྐྲུན་མ་འབད།"
+#~ msgid "Delete the selected posts"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འགྲེམ་སྐྱེལ་ཚུ་བཏོན་གཏང་།"
+#~ msgid "status"
+#~ msgstr "གནས་ཚད།"
+#~ msgid "in moderation"
+#~ msgstr "རན་པ་ནང་།"
+#~ msgid "not in moderation"
+#~ msgstr "རན་པ་མེན་མི་ནང་།"
+#~ msgid "Refine"
+#~ msgstr "ལེགས་དྭངས་བཟོ་ནི།"
+#~ msgid "Undo"
+#~ msgstr "འབད་བཤོལ།"
+#~ msgid "and"
+#~ msgstr "དང་།"
+#~ msgid "where"
+#~ msgstr "ག་ཏེ།"
+#~ msgid "is"
+#~ msgstr "ཨིན།"
+#~ msgid "Please select some items to perform the delete operation."
+#~ msgstr "བཏོན་གཏང་ནིའི་བཀལ་སྤྱོད་ལཱ་འགན་འགྲུབ་ནི་ལུ་རྣམ་གྲངས་ཚུ་དག་པ་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+#~ msgid "Please select some items to perform the update on."
+#~ msgstr "གུ་དུས་མཐུན་འདི་ལཱ་འགན་འགྲུབ་ནི་ལུ་རྣམ་གྲངས་ཚུ་དག་པ་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+#~ msgid "No posts available."
+#~ msgstr "འགྲེམ་སྐྱེལ་ཚུ་ཐོབ་ཚུགསཔ་མིན་འདུག།"
+#~ msgid "Delete all"
+#~ msgstr "ཆ་མཉམ་བཏོན་གཏང་།"
+#~ msgid "Submission form"
+#~ msgstr "ཞུ་འབུལ་གྱི་འབྲི་ཤོག།"
+#~ msgid "Explanation or submission guidelines"
+#~ msgstr "གསལ་བཤད་དང་ཞུ་འབུལ་ལམ་སྟོན་ཚུ།"
+#~ msgid ""
+#~ "This text will be displayed at the top of the %type submission form. It "
+#~ "is useful for helping or instructing your users."
+#~ msgstr ""
+#~ "ཨ་ནི་ཚིག་ཡིག་འདི་ %type ཞུ་འབུལ་འབྲི་ཤོག་གི་མགོ་ལུ་བཀྲམ་སྟོན་འབད་འོང་། འ་ནི་དེ་ཁྱོད་ཀྱི་ལག་ལེན་པ་"
+#~ "ཚུའི་གྲོགས་རམ་ ཡང་ན་ བསླབ་སྟཽན་འབད་ནིའི་དོན་ལུ་ཕན་ཐོགས་ཅན་ཅིག་ཨིན།"
+#~ msgid "Minimum number of words"
+#~ msgstr "མིང་ཚིག་ཚུ་གི་ཉུང་མཐའི་གྲངས།"
+#~ msgid ""
+#~ "The minimum number of words a %type must be to be considered valid. This "
+#~ "can be useful to rule out submissions that do not meet the site's "
+#~ "standards, such as short test posts."
+#~ msgstr ""
+#~ "%type མིང་ཚིག་ཚུ་གི་མང་མཐའི་གྲངས་འདི་ནུས་ཅན་སྦེ་ངེས་པར་ཆ་འཇོག་འབད་དགོ། འ་ནི་འདི་བརྟག་ཞིབ་"
+#~ "འགྲེམ་སྐྱེལ་ཐུང་ཀུ་བཟུམ་མའི་ ས་ཁོངས་ཀྱི་ཚད་ལྡན་ཚུ་མ་འཕྱད་མི་ཞུ་འབུལ་ཚུ་ཐག་གཅད་ནི་ལུ་ཕན་ཐོགས་འོང་"
+#~ "ཚུགས།"
+#~ msgid "Workflow"
+#~ msgstr "ལཱའི་འབབ་རྒྱུན།"
+#~ msgid ""
+#~ "Are you sure you want to revert %title to the revision from %revision-"
+#~ "date?"
+#~ msgstr "ཁྱོད་ཀྱིས་ %revision-date ནང་ལས་ %title འདི་ བསྐྱར་སྦྱོང་ལུ་ རྒྱབ་ལོག་འབད་ནི་ཨིན་ན?"
+#~ msgid "Revert"
+#~ msgstr "རྒྱབ་ལོག་འབད་བ།"
+#~ msgid "Are you sure you want to delete %title revision %revision?"
+#~ msgstr "ཁྱོད་ཀྱིས་  %title revision %revision འདི་ཐད་རི་འབའ་རི་ བཏོན་གཏང་ནི་ཨིན་ན?"
+#~ msgid "In moderation queue"
+#~ msgstr "མི་གྲལ་རན་པ་ནང་།"
+#~ msgid "Sticky at top of lists"
+#~ msgstr "ཐོ་ཡིག་ཚུ་གི་ལྟག་ལུ་རྩི་ཅན།"
+#~ msgid "Create new revision"
+#~ msgstr "བསྐྱར་སྦྱོང་གསརཔ་གསར་བསྐྲུན་འབད།"
+#~ msgid "You are not allowed to create content."
+#~ msgstr "ཁྱོད་ཀྱིས་ནང་དོན་གསར་བསྐྲུན་འབད་མི་ཆོག།"
+#~ msgid ""
+#~ "\n"
+#~ "      <h1 class=\"title\">Welcome to your new Drupal website!</h1>\n"
+#~ "      <p>Please follow these steps to set up and start using your website:"
+#~ "</p>\n"
+#~ "      <ol>\n"
+#~ "        <li>\n"
+#~ "          <strong>Create your administrator account</strong>\n"
+#~ "          To begin, <a href=\"%register\">create the first account</a>. "
+#~ "This account will have full administration rights and will allow you to "
+#~ "configure your website.\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>Configure your website</strong>\n"
+#~ "          Once logged in, visit the <a href=\"%admin\">administration "
+#~ "section</a>, where you can <a href=\"%config\">customize and configure</"
+#~ "a> all aspects of your website.\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>Enable additional functionality</strong>\n"
+#~ "          Next, visit the <a href=\"%modules\">module list</a> and enable "
+#~ "features which suit your specific needs. You can find additional modules "
+#~ "in the <a href=\"%download_modules\">Drupal modules download section</"
+#~ "a>.\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>Customize your website design</strong>\n"
+#~ "          To change the \"look and feel\" of your website, visit the <a "
+#~ "href=\"%themes\">themes section</a>. You may choose from one of the "
+#~ "included themes or download additional themes from the <a href=\"%"
+#~ "download_themes\">Drupal themes download section</a>.\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>Start posting content</strong>\n"
+#~ "          Finally, you can <a href=\"%content\">create content</a> for "
+#~ "your website. This message will disappear once you have published your "
+#~ "first post.\n"
+#~ "        </li>\n"
+#~ "      </ol>\n"
+#~ "      <p>For more information, please refer to the <a href=\"%help\">Help "
+#~ "section</a>, or the <a href=\"%handbook\">online Drupal handbooks</a>. "
+#~ "You may also post at the <a href=\"%forum\">Drupal forum</a>, or view the "
+#~ "wide range of <a href=\"%support\">other support options</a> available.</"
+#~ "p>"
+#~ msgstr ""
+#~ "\n"
+#~ "      <h1 class=\"title\">ཁྱོད་ཀྱི་ཌུ་པཱལ་ཝེབ་ཀྱི་ས་ཁོངས་ལུ་བྱོན་པ་ལེགས་སོ་ཡོད་!</h1>\n"
+#~ "      <p>གཞི་སྒྲིག་འབད་ནི་ལུ་རིམ་པ་འདི་ཚུ་རྗེས་སུ་འབྲང་གནང་ ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ལག་ལེན་འཐབ་"
+#~ "ཐོག་ལས་འགོ་བཙུགས་:</p>\n"
+#~ "      <ol>\n"
+#~ "        <li>\n"
+#~ "          <strong>ཁྱོད་ཀྱི་བདག་སྐྱོང་པའི་རྩིས་ཐོ་གསར་བསྐྲུན་འབད།</strong>\n"
+#~ "          འགོ་བཙུགས་ནི་ལུ་ <a href=\"%register\">རྩིས་ཐོ་དང་པ་གསར་བསྐྲུན་འབད།</a> ཨ་"
+#~ "ནི་རྩིས་ཐོ་འདི་བདག་སྐྱོང་འབད་ནིའི་ཐོབ་དབང་ཧྲིལ་བུ་ཡོདཔ་ཨིནམ་དང་ཁྱོད་ལུ་ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་རིམ་སྒྲིག་"
+#~ "འབད་བཅུག་འོང་།\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་རིམ་སྒྲིག་འབད།</strong>\n"
+#~ "          ཚར་གཅིག་ནང་བསྐྱོད་འབད་ ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ཀྱི་རྣམ་པ་ཚུ་ཆ་མཉམ་ <a "
+#~ "href=\"%admin\">རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་འབད་ཚུགས་ནི་ཨིན་མི་</a>, བདག་སྐྱོང་དབྱེ་ཚན་ <a href="
+#~ "\"%config\">བལྟ་སྤྱོད་</a> འབད།\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>ཁ་སྐོང་ལས་འགན་ལྕོགས་ཅན་བཟོ།</strong>\n"
+#~ "          ཤུལ་མམ་ ཚད་གཞིའི་ཐོ་ཡིག་<a href=\"%modules\">བལྟ་སྤྱོད་འབད་ཞིནམ་དང་</a> "
+#~ "ཁྱོད་ཀྱི་དམིགས་བསལ་གྱི་དགོས་མཁོ་ཚུ་རིགས་ཚན་མི་ཁཡད་རྣམ་ཚུ་ལྕོགས་ཅན་བཟོ། ཁྱོད་ཀྱིས་ཌུ་པཱལ་ཚད་གཞི་ཚུའི་"
+#~ "ཕབ་ལེན་དབྱེ་ཚན་ནང་ <a href=\"%download_modules\">ཁ་སྐོང་ཚད་གཞི་ཚུ་འཚོལ་ཚུགས།</a>.\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ཀྱི་བཀོད་སྒྲིག་སློལ་སྒྲིག་འབད།</strong>\n"
+#~ "          ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ཀྱི་ \"look and feel\" བསྒྱུར་བཅོས་འབད་ནི་ལུ་  <a href="
+#~ "\"%themes\">བརྗོད་དོན་ཚུའི་དབྱེ་ཚན་འདི་བལྟ་སྤྱོད་འབད།</a>. ཁྱོད་ཀྱིས་ ཌུ་པཱལ་བརྗོད་དོན་ཚུ་ཕབ་ལེན་"
+#~ "དབྱེ་ཚན་ལས་ཕབ་ལེན་ཁ་སྐོང་བརྗོད་དོན་ཚུ་ ཡང་ན་ <a href=\"%download_themes\">གྲངས་སུ་"
+#~ "བཙུགས་ཡོད་པའི་བརྗོད་དོན་ཚུ་ལས་གཅིག་གདམ་ཁ་བརྐྱབ་ཆོག།</a>.\n"
+#~ "        </li>\n"
+#~ "        <li>\n"
+#~ "          <strong>གནས་བསྐྱོད་ནང་དོན་འགོ་བཙུགས།</strong>\n"
+#~ "          མཇུག་རང་ ཁྱོད་ཀྱིས་F <a href=\"%content\">ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ཀྱི་དོན་ལས་</"
+#~ "a> ནང་དོན་གསར་བསྐྲུན་འབད་ཚུགས། ཨ་ནི་འཕྲིན་དོན་འདི་ཚད་གཅིག་ཁྱོད་ཀྱི་འགྲེམ་སྐྱེལ་དང་པ་དཔེ་བསྐྲུན་"
+#~ "འབདཝ་ད་ཡལ་འོང་།\n"
+#~ "        </li>\n"
+#~ "      </ol>\n"
+#~ "      <p>བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལས་ གློག་ཐོག་ཌུ་པཱལ་ལག་དེབ་ཚུ་ ཡང་ན་<a href=\"%help"
+#~ "\">གྲོགས་རམ་དབྱེ་ཚན་</a>, or the <a href=\"%handbook\">ལུ་གཞི་བསྟུན་འབད་གནང་།</"
+#~ "a>  ཁྱོད་ཀྱིས་ཡང་ཐོབ་ཚུགས་པའི་གཞན་མི་རྒྱབ་བསྐྱོར་གདམ་ཁ་ཚུའི་ <a href=\"%forum\">རྒྱ་ཅན་ཁྱབ་"
+#~ "ཚད་སྟོན་ནི་ ཡང་ན་ </a> ཌུ་པཱལ་གྲོས་གནས་ལུ་ <a href=\"%support\">འགྲེམ་སྐྱེལ་</a> འབད་"
+#~ "ཆོག།</p>"
+#~ msgid "Default options"
+#~ msgstr "སྔོན་སྒྲིག་གདམ་ཁ་ཚུ།"
+#~ msgid ""
+#~ "Users with the <em>administer nodes</em> permission will be able to "
+#~ "override these options."
+#~ msgstr ""
+#~ "བདག་སྐྱོང་འཐབ་ནིའི་<em>མཐུད་མཚམས་ཚུའི་</em> གནང་བ་ཡོད་མི་ལག་ལེན་པ་ཚུ་གིས་གདམ་ཁ་འདི་ཚུ་"
+#~ "མེདཔ་གཏང་ཚུགས་འོང་།"
+#~ msgid "administer nodes"
+#~ msgstr "བདག་སྐྱོང་འབད་ནིའི་མཐུད་མཚམས་ཚུ།"
+#~ msgid "access content"
+#~ msgstr "ནང་དོན་འཛུལ་སྤྱོད་འབད།"
+#~ msgid "view revisions"
+#~ msgstr "བསྐྱར་སྦྱོང་ཚུ་སྟོན།"
+#~ msgid "revert revisions"
+#~ msgstr "བསྐྱར་སྦྱོང་ཚུ་རྒྱབ་ལོག།"
+

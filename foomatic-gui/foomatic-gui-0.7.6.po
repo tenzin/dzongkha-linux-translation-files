@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: foomatic-gui/foomatic-gui-0.7.6.po\n"
+"Report-Msgid-Bugs-To: foomatic-gui@packages.debian.org\n"
+"POT-Creation-Date: 2005-07-20 20:14-0500\n"
+"PO-Revision-Date: 2006-11-21 12:06+0530\n"
+"Last-Translator: sonam rinchen <somindruk@druknet.bt>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: foomatic-gui.glade:9
+msgid "foomatic-gui"
+msgstr "ཕོ་མེ་ཊིཀ་-གུའི།"
+
+#: foomatic-gui.glade:71
+msgid "Add a new printer"
+msgstr "དཔར་འཕྲུལ་གསརཔ་ཁ་སྐོང་རྐྱབས།"
+
+#: foomatic-gui.glade:72
+msgid "_Add Printer..."
+msgstr "དཔར་འཕྲུལ་ཁ་སྐོང་རྐྱབས་...(_A)"
+
+#: foomatic-gui.glade:93
+msgid "Remove this printer"
+msgstr "ཨ་ནི་དཔར་འཕྲུལ་རྩ་བསྐྲད་གཏང་།"
+
+#: foomatic-gui.glade:94
+msgid "_Delete Printer"
+msgstr "དཔར་འཕྲུལ་བཏོན་གཏང་།(_D)"
+
+#: foomatic-gui.glade:115
+msgid "Change interface or driver settings for this printer"
+msgstr "ཨ་ནི་དཔར་འཕྲུལ་གྱི་དོན་ལས་ངོས་འདྲ་བ་ཡང་ན་འདྲེན་བྱེད་སྒྲིག་སྟངས་ཚུ་བསྒྱུར་བཅོས་འབད།"
+
+#: foomatic-gui.glade:116
+msgid "_Configure Printer..."
+msgstr "དཔར་འཕྲུལ་རིམ་སྒྲིག་འབད་...(_C)"
+
+#: foomatic-gui.glade:149
+msgid "Make this printer the default"
+msgstr "ཨ་ནི་དཔར་འཕྲུལ་འདི་སྔོན་སྒྲིག་བཟོ།"
+
+#: foomatic-gui.glade:150
+#: foomatic-gui.glade:264
+msgid "_Make Default"
+msgstr "སྔོན་སྒྲིག་བཟོ།(_M)"
+
+#: foomatic-gui.glade:171
+msgid "Print a test page on the selected printer"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དཔར་འཕྲུལ་གུ་ཚིག་ཡིག་ཤོག་ལེབ་དཔར་བསྐྲུན་འབད།"
+
+#: foomatic-gui.glade:172
+msgid "_Print Test Page"
+msgstr "ཚིག་ཡིག་ཤོག་ལེབ་དཔར་བསྐྲུན་འབད།(_P)"
+
+#: foomatic-gui.glade:193
+msgid "Set default options for this printer"
+msgstr "ཨ་ནི་དཔར་འཕྲུལ་གྱི་དོན་ལུ་སྔོན་སྒྲིག་གདམ་ཁ་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: foomatic-gui.glade:194
+msgid "Printer _Options..."
+msgstr "དཔར་འཕྲུལ་གདམ་ཁ་ཚུ་...(_O)"
+
+#: foomatic-gui.glade:324
+msgid "_Configure"
+msgstr "  རིམ་སྒྲིག་...(_C)"
+
+#: foomatic-gui.glade:354
+msgid "_Options"
+msgstr "གདམ་ཁ་ཚུ།(_O)"
+
+#: foomatic-gui.glade:371
+msgid "_Test Page"
+msgstr "ཚིག་ཡིག་ཤོག་ལེབ།(_T)"
+
+#: foomatic-gui.glade:404
+msgid "Printer queues"
+msgstr "དཔར་འཕྲུལ་མི་གྲལ་ཚུ།"
+
+#: foomatic-gui.glade:447
+#: foomatic-gui:413
+msgid "Add Printer"
+msgstr "དཔར་འཕྲུལ་ཁ་སྐོང་རྐྱབས།"
+
+#: foomatic-gui.glade:475
+msgid "Add a new printer queue"
+msgstr "དཔར་འཕྲུལ་མི་གྲལ་གསརཔ་ཁ་སྐོང་རྐྱབས།"
+
+#: foomatic-gui.glade:476
+msgid ""
+"The following pages will walk you through the process of configuring a new printer queue using Foomatic.\n"
+"\n"
+"If you have a USB or parallel printer, please make sure it is connected to your computer and switched on, so it can be detected by Foomatic-GUI."
+msgstr ""
+"འོག་གི་ཤོག་ལེབ་ཚུ་གིས་ ཕོ་མེ་ཊིཀ་ལག་ལེན་འཐབ་ཐོག་ལས་དཔར་འཕྲུལ་མི་གྲལ་གསརཔ་རིམ་སྒྲིག་འབད་ནི་གི་ལས་སྦྱོར་བརྒྱུད་དེ་ཁྱོད་ཕྱིར་བགྲོད་འབད་འོང་།\n"
+"\n"
+"ཁྱོད་ལུ་ཡུ་ཨེསི་བི་ ཡང་ན་ མཉམ་སྤྱོད་དཔར་འཕྲུལ་ཡོད་པ་ཅིན་ དེ་ཁྱོད་ཀྱི་གློག་རིག་ལུ་མཐུད་ཡོདཔ་དང་སུ་ཆིཆ་ཨོན་འབད་ཡོདཔ་ངེས་གཏན་བཟོ་གནང་ དེ་འབདཝ་ལས་ཨ་ནི་དེ་ཕོ་མེ་ཊིཀ་-གུའི་གིས་སྐྱོན་འཛིན་འབད་ཚུགས།"
+
+#: foomatic-gui.glade:486
+msgid "Choose printer connection"
+msgstr "དཔར་འཕྲུལ་མཐུད་ལམ་གདམ་ཁ་རྐྱབས།"
+
+#: foomatic-gui.glade:585
+msgid "_Detect network printers"
+msgstr "ཡོངས་འབྲེལ་དཔར་འཕྲུལ་ཚུ་སྐྱོན་འཛིན་འབད།(_D)"
+
+#: foomatic-gui.glade:660
+msgid "_Enter connection manually"
+msgstr "མཐུད་ལམ་ལག་ཐོག་ལས་བཙུགས།(_E)"
+
+#: foomatic-gui.glade:709
+msgid "Enter interface details"
+msgstr "ངོས་འདྲ་བའི་རྒྱས་བཤད་བཙུགས།"
+
+#: foomatic-gui.glade:727
+msgid ""
+"Enter the interface details below; contact your network administrator if you are unsure what settings to use.\n"
+"\n"
+"(Normally this should be the network name or address of the printer.  It should be formatted as a URI; e.g. ipp://192.168.1.1/printers/LJ4.)"
+msgstr ""
+"ངོས་འདྲ་བའི་རྒྱས་བཤད་འོག་ལུ་བཙུགས། ཁྱོད་ཀྱིས་སྒྲིག་སྟངས་ག་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན་ངེས་གཏན་མེད་པ་ཅིན་ ཁྱོད་ཀྱི་ཡོངས་འབྲེལ་བདག་སྐྱོང་པ་དང་འབྲེལ་བ་འཐབ།\n"
+"\n"
+"(སྤྱིར་བཏང་ལུ་ཨ་ནི་འདི་དཔར་འཕྲུལ་གྱི་ཡོངས་འབྲེལ་གྱི་མིང་ཡང་ན་ཁ་བྱང་འོང་དགོ། ཨ་ནི་དེ་ཡུ་ཨར་ཨའི་བཟུམ་སྦེ་རྩ་སྒྲིག་འབད་དགོ། དཔེར་ན་ ipp://192.168.1.1/printers/LJ4.)"
+
+#: foomatic-gui.glade:791
+msgid "Printer identification"
+msgstr "དཔར་འཕྲུལ་ངོ་རྟགས།"
+
+#: foomatic-gui.glade:818
+msgid "Queue _Name:"
+msgstr "མི་གྲལ་གྱི་མིང་:(_N)"
+
+#: foomatic-gui.glade:850
+msgid "A short name for this printer queue; should not contain spaces"
+msgstr "ཨ་ནི་དཔར་འཕྲུལ་མི་གྲལ་ལུ་སྡུད་མིང་འདི་ལུ་ བར་སྟོང་ཚུ་ལྡན་ནི་མི་འོང་།"
+
+#: foomatic-gui.glade:901
+msgid "The physical location of this printer; e.g. \"Study\", \"Break Room\""
+msgstr "ཨ་ནི་དཔར་འཕྲུལ་གྱི་དངོས་ཅན་གནས་ཁོངས། དཔེར་ན་ \"Study\", \"Break Room\""
+
+#: foomatic-gui.glade:930
+msgid "A longer description of the printer"
+msgstr "དཔར་འཕྲུལ་གྱི་འགྲེལ་བཤད་རིང་ཤོས།"
+
+#: foomatic-gui.glade:954
+msgid "Printer _Location:"
+msgstr "དཔར་འཕྲུལ་གནས་ཁོངས་:(_L)"
+
+#: foomatic-gui.glade:984
+msgid "Printer _Description:"
+msgstr "དཔར་འཕྲུལ་འགྲེལ་བཤད་:(_D)"
+
+#: foomatic-gui.glade:1016
+msgid "Optional information for this queue"
+msgstr "ཨ་ནི་མི་གྲལ་གྱི་དོན་ལུ་བརྡ་དོན་གདམ་ཁ་ཅན།"
+
+#: foomatic-gui.glade:1057
+msgid "Choose printer make and model"
+msgstr "དཔར་འཕྲུལ་བཟོ་ནི་དང་དཔེ་གདམ་ཁ་རྐྱབས།"
+
+#: foomatic-gui.glade:1175
+msgid "Adobe _PPD File:"
+msgstr "ཨེ་ཌོ་བི་པི་པི་ཌི་ཡིག་སྣོད་:(_P)"
+
+#: foomatic-gui.glade:1202
+msgid "Select printer PPD file"
+msgstr "དཔར་འཕྲུལ་པི་པི་ཌི་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: foomatic-gui.glade:1253
+msgid "Choose printer driver"
+msgstr "དཔར་འཕྲུལ་འདྲེན་བྱེད་གདམ་ཁ་རྐྱབས།"
+
+#: foomatic-gui.glade:1272
+msgid ""
+"Choose the driver you want to use with this printer:\n"
+"(Hint: choose the driver marked \"recommended\" below if you're not sure which driver to use; it should be selected already.)"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཨ་ནི་དཔར་འཕྲུལ་གཅིག་ཁར་ལག་ལེན་འཐབ་ནི་ཨིན་མི་འདྲེན་བྱེད་གདམ་ཁ་རྐྱབས་:\n"
+"(བརྡ་མཚོན་: ཁྱོད་ཀྱིས་འདྲེན་བྱེད་ག་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན་ངེས་གཏན་མེད་པ་ཅིན་ འོག་ལུ་འདྲེན་བྱེད་ \"recommended\" རྟགས་བཀལ་ཡོད་མི་གདམ་ཁ་རྐྱབས། དེ་ཧེ་མ་ལས་སེལ་འཐུ་འབད་དགོ)"
+
+#: foomatic-gui.glade:1340
+msgid "Almost done!"
+msgstr "ཧ་ལམ་འབད་ཚར་ཡི་!"
+
+#: foomatic-gui.glade:1341
+msgid ""
+"To add this printer, click the Apply button.\n"
+"\n"
+"Hint: print a test page to make sure your driver settings are correct.  If needed, you can change the driver by selecting this printer and choosing the \"Configure\" button.\n"
+"\n"
+"You can also change the default resolution and other settings by using the \"Options\" button."
+msgstr ""
+"ཨ་ནི་དཔར་འཕྲུལ་ཁ་སྐོང་བརྐྱབ་ནི་ལུ་ འཇུག་སྤྱོད་ཨེབ་རྟ་ཨེབ་གཏང་།\n"
+"\n"
+"བརྡ་མཚོན་: ཁྱོད་ཀྱི་འདྲེན་བྱེད་སྒྲིག་སྟངས་ཚུ་ངེས་བདོན་ཨིནམ་ངེས་གཏན་བཟོ་ནི་ལུ་ཚིག་ཡིག་ཤོག་ལེབ་དཔར་བསྐྲུན་འབད། དགོ་པ་ཅིན་  \"Configure\" ཨེབ་རྟ་གདམ་ཁ་བརྐྱབ་ཐོག་ལས་དང་ཨ་ནི་དཔར་འཕྲུལ་སེལ་འཐུ་འབད་ཐོག་ལས་ ཁྱོད་ཀྱིས་འདྲེན་བྱེད་བསྒྱུར་བཅོས་འབད་ཚུགས།\n"
+"\n"
+"ཡང་ཁྱོད་ཀྱིས་ \"Options\" ཨེབ་རྟ་ལག་ལེན་འཐབ་ཐོག་ལས་གཞན་སྒྲིག་སྟངས་ཚུ་དང་སྔོན་སྒྲིག་ཧུམ་ཆ་བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: foomatic-gui.glade:1355
+msgid "Set Default Printer Options"
+msgstr "སྔོན་སྒྲིག་དཔར་འཕྲུལ་གདམ་ཁ་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: foomatic-gui.glade:1425
+msgid "<b>Default options for printer %s:</b>"
+msgstr "<b>དཔར་འཕྲུལ་ %s གི་དོན་ལས་སྔོན་སྒྲིག་གདམ་ཁ་ཚུ་:</b>"
+
+#: foomatic-gui:157
+msgid "Name"
+msgstr "མིང་།"
+
+#: foomatic-gui:159
+#: foomatic-gui:172
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: foomatic-gui:170
+msgid "Device"
+msgstr "ཐབས་འཕྲུལ།"
+
+#: foomatic-gui:181
+msgid "Manufacturer"
+msgstr "བཟོ་བསྐྲུན་པ།"
+
+#: foomatic-gui:192
+msgid "Printer Model"
+msgstr "དཔར་འཕྲུལ་གྱི་དཔེ།"
+
+#: foomatic-gui:203
+msgid "Driver"
+msgstr "འདྲེན་བྱེད།"
+
+#: foomatic-gui:283
+msgid "Universal Printer Configuration System for GNOME"
+msgstr "ཇི་ནོམ་གྱི་དོན་ལས་འཛམ་གླིང་ཡོངས་ཁྱབ་ཀྱི་དཔར་འཕྲུལ་རིམ་སྒྲིག་རིམ་ལུགས།"
+
+#: foomatic-gui:285
+msgid "pysmb was written by Tim Waugh <twaugh@redhat.com>."
+msgstr "pysmb འདི་ Tim Waugh <twaugh@redhat.com> གིས་འབྲི་འབྲིཝ་ཨིན།"
+
+#: foomatic-gui:286
+msgid "Foomatic development is coordinated by Grant Taylor and Till Kamppeter."
+msgstr "ཕོ་མེ་ཊིཀ་གོང་འཕེལ་འདི་Grant Taylor དང་ Till Kamppeter གིས་མཉམ་འབྲེལ་འབད་འབདཝ་ཨིན།"
+
+#: foomatic-gui:321
+msgid " (default queue)"
+msgstr "(སྔོན་སྒྲིག་མི་གྲལ་)"
+
+#: foomatic-gui:379
+#, python-format
+msgid "Sending test page to %s."
+msgstr "%s ལུ་ཚིག་ཡིག་ཤོག་ལེབ་གཏང་དོ།"
+
+#: foomatic-gui:381
+#, python-format
+msgid "Test page sent to %s."
+msgstr "%s ལུ་ཚིག་ཡིག་ཤོག་ལེབ་གཏང་ཡོད།"
+
+#: foomatic-gui:388
+#, python-format
+msgid "Changing default printer to %s."
+msgstr "%s ལུ་སྔོན་སྒྲིག་དཔར་འཕྲུལ་བསྒྱུར་བཅོས་འབད་དོ།"
+
+#: foomatic-gui:391
+#, python-format
+msgid "Default printer changed to %s."
+msgstr "%s ལུ་སྔོན་སྒྲིག་དཔར་འཕྲུལ་བསྒྱུར་བཅོས་འབད་ཡོད།"
+
+#: foomatic-gui:399
+#, python-format
+msgid "Removing printer queue %s."
+msgstr "དཔར་འཕྲུལ་མི་གྲལ་ %s རྩ་བསྐྲད་གཏང་དོ།"
+
+#: foomatic-gui:402
+#, python-format
+msgid "Printer queue %s removed."
+msgstr "དཔར་འཕྲུལ་མི་གྲལ་ %s རྩ་བསྐྲད་གཏང་ཡོད།"
+
+#: foomatic-gui:437
+msgid "Modify Printer"
+msgstr "དཔར་འཕྲུལ་ལེགས་བཅོས་འབད།"
+
+#: foomatic-gui:464
+msgid "Updating printer connections..."
+msgstr "དཔར་འཕྲུལ་མཐུད་ལམ་ཚུ་དུས་མཐུན་བཟོ་དོ་..."
+
+#: foomatic-gui:481
+#: foomatic-gui:571
+#: foomatic-gui:696
+#: foomatic-gui:777
+msgid "Done"
+msgstr "འབད་ཚར་ཡོད།"
+
+#: foomatic-gui:565
+#: foomatic-gui:690
+msgid "Updating printer listing..."
+msgstr "དཔར་འཕྲུལ་ཐོ་བཀོད་འབད་ནི་དུས་མཐུན་བཟོ་དོ་..."
+
+#: foomatic-gui:612
+#, python-format
+msgid "<p>Information about this printer from <a href=\"http://www.linuxprinting.org/show_printer.cgi?recnum=%s\">LinuxPrinting.org</a>:</p>"
+msgstr "<p>ལི་ནགསི་དཔར་བསྐྲུན་.ཨོ་ཨར་ཇི་ལས་ <a href=\"http://www.linuxprinting.org/show_printer.cgi?recnum=%s\">ཨ་ནི་དཔར་འཕྲུལ་གྱི་སྐོར་ལས་བརྡ་དོན་</a>:</p>"
+
+#: foomatic-gui:620
+#, python-format
+msgid "Colour %s printer, "
+msgstr "ཚོས་གཞི་ %s དཔར་འཕྲུལ།"
+
+#: foomatic-gui:622
+#, python-format
+msgid "Black and white %s printer, "
+msgstr "དཀརཔོ་དང་གནགཔོ་%sདཔར་འཕྲུལ།"
+
+#: foomatic-gui:626
+#, python-format
+msgid "max %d&times;%d dpi, "
+msgstr "%d མང་མཐའ་དང་ཆུ་ཚོད་ཚུ། %d ཌི་པི་ཨའི་"
+
+#: foomatic-gui:630
+msgid "works <span style=\"color: green\">perfectly</span>"
+msgstr "ཡང་དག་སྦེ་<span style=\"color: green\">ལཱ་འབདཝ་ཨིན།</span>"
+
+#: foomatic-gui:631
+msgid "works <span style=\"color: green\">mostly</span>"
+msgstr "མང་ཤོས་རང་<span style=\"color: green\">ལཱ་འབདཝ་ཨིན།</span>"
+
+#: foomatic-gui:632
+msgid "works <span style=\"color: orange\">partially</span>"
+msgstr "ཆ་ཤས་སྦེ་ <span style=\"color: orange\">ལཱ་འབདཝ་ཨིན།</span>"
+
+#: foomatic-gui:633
+msgid "is a <span style=\"color: red\">paperweight</span> (does not work)"
+msgstr "ཤོག་ལེབ་ཀྱི་ལྗིད་ཚད་<span style=\"color: red\">ཨིན།</span> (ལཱ་གཡོག་མི་འབད་)"
+
+#: foomatic-gui:634
+msgid "functionality unknown"
+msgstr "ལས་འགན་མ་ཤེསཔ།"
+
+#: foomatic-gui:639
+#, python-format
+msgid "<p><a href=\"%s\">Manufacturer's information</a>.</p>"
+msgstr "<p><a href=\"%s\">བཟོ་བསྐྲུན་པའི་བརྡ་དོན་</a>.</p>"
+
+#: foomatic-gui:665
+msgid "inkjet"
+msgstr "སྣག་བླུག"
+
+#: foomatic-gui:666
+msgid "laser"
+msgstr "དྲག་འོད་སྐྱེད་འཕྲུལ།"
+
+#: foomatic-gui:667
+msgid "thermal transfer"
+msgstr "ཚ་དྲོད་གནས་སོར།"
+
+#: foomatic-gui:668
+msgid "dot-matrix"
+msgstr "ཚག་-མེ་ཊིགསི།"
+
+#: foomatic-gui:669
+msgid "LED"
+msgstr "ཨེལ་ཨི་ཌི།"
+
+#: foomatic-gui:743
+msgid "Updating driver listing..."
+msgstr "འདྲེན་བྱེད་ཐོ་བཀོད་འབད་ནི་དུས་མཐུན་བཟོ་དོ་..."
+
+#: foomatic-gui:758
+#: foomatic-gui:772
+msgid " (recommended)"
+msgstr "(འོས་སྦྱོར་འབད་ཡོདཔ་)"
+
+#: foomatic-gui:845
+#, python-format
+msgid "Unable to retrieve PPD file from %s"
+msgstr "%s ལས་པི་པི་ཌི་ཡིག་སྣོད་སླར་འདྲེན་མི་ཚུགས།"
+
+#: foomatic-gui:885
+msgid "Setting printer options..."
+msgstr "དཔར་འཕྲུལ་གདམ་ཁ་ཚུ་གཞི་སྒྲིག་འབད་དོ་..."
+
+#: foomatic-gui:888
+#, python-format
+msgid "<b>Default options for printer %s</b>:"
+msgstr "<b>དཔར་འཕྲུལ་ %s གི་དོན་ལས་སྔོན་སྒྲིག་གདམ་ཁ་ཚུ་</b>:"
+
+#: foomatic-gui:892
+msgid "No arguments found!  (Is this a foomatic queue?)"
+msgstr "སྒྲུབ་རྟགས་ཚུ་འཚོལ་མ་ཐོབ་! (ཨ་ནི་འདི་ཕོ་མེ་ཊིཀ་མི་གྲལ་ཨིན་ན་?)"
+
+#: foomatic-gui:917
+msgid "Miscellaneous Options"
+msgstr "གདམ་ཁ་སྣ་ཚོགས་ཚུ།"
+
+#: foomatic-gui:996
+msgid "Default printer options now set."
+msgstr "སྔོན་སྒྲིག་དཔར་འཕྲུལ་གདམ་ཁ་ཚུ་ད་ལྟོ་གཞི་སྒྲིག་འབད།"
+
+#: foomatic-gui:998
+msgid "Printer options dialog canceled."
+msgstr "དཔར་འཕྲུལ་གདམ་ཁ་ཚུའི་ཌའི་ལོག་ཆ་མེད་གཏང་ཡོདཔ།"
+

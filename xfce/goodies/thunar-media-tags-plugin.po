@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: thunar-media-tags-plugin.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-11 11:38+0200\n"
+"PO-Revision-Date: 2007-04-06 15:39+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../thunar-plugin/tag-renamer.c:59
+msgid "Title"
+msgstr "མགོ་མིང་"
+
+#: ../thunar-plugin/tag-renamer.c:60
+msgid "Artist - Title"
+msgstr "གླུ་རིག་མཁནམ་-མགོ་མིང་"
+
+#: ../thunar-plugin/tag-renamer.c:61
+msgid "Track - Title"
+msgstr "གླུ་རིམ་-མགོ་མིང་"
+
+#: ../thunar-plugin/tag-renamer.c:62
+msgid "Track - Artist - Title"
+msgstr "གླུ་རིམ་ - གླུ་རིག་མཁནམ་ - མགོ་མིང་"
+
+#: ../thunar-plugin/tag-renamer.c:63
+msgid "Track. Title"
+msgstr "གླུ་རིམ. མགོ་མིང་"
+
+#: ../thunar-plugin/tag-renamer.c:64
+msgid "Track. Artist - Title"
+msgstr "གླུ་རིམ་. གླུ་རིག་མཁནམ་ - མགོ་མིང་"
+
+#: ../thunar-plugin/tag-renamer.c:65
+msgid "Artist - Track - Title"
+msgstr "གླུ་རིག་མཁནམ་ - གླུ་རིམ་ - མགོ་མིང་"
+
+#. Format label
+#: ../thunar-plugin/tag-renamer.c:223
+msgid "_Format:"
+msgstr "རྩ་སྒྲིག: (_F)"
+
+#: ../thunar-plugin/tag-renamer.c:246
+msgid "_Underscores"
+msgstr "འོག་ཐིག་ཚུ་ (_U)"
+
+#: ../thunar-plugin/tag-renamer.c:248
+msgid "Activating this option will replace all spaces in the target filename with underscores."
+msgstr "གདམ་ཁ་འདི་ཤུགས་ལྡན་བཟོ་མི་དེ་གིས་  འོག་ཐིག་དང་ཅིག་ཁར་དམིགས་གཏད་ཡིག་སྣོད་མིང་ནང་གི་བར་སྟོང་ཆ་མཉམ་ཚབ་བཙུགསཔ་ཨིན་"
+
+#: ../thunar-plugin/tag-renamer.c:253
+msgid "_Lowercase"
+msgstr "མགྱོགས་ཡིག་ (_L)"
+
+#: ../thunar-plugin/tag-renamer.c:255
+msgid "If you activate this, the resulting filename will only contain lowercase letters."
+msgstr "ཁྱོད་ཀྱིས་འདི་ཤུགས་ལྡན་བཟོ་བ་ཅིན་  གྲུབ་འབྲས་ཐོན་པའི་ཡིག་སྣོད་མིང་འདི་གིས་  མགྱོགས་ཡིག་ཡི་གུ་ཚུ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན།"
+
+#: ../thunar-plugin/tag-renamer.c:264
+#: ../thunar-plugin/tag-renamer.c:702
+#: ../thunar-plugin/audio-tags-page.c:183
+msgid "Unknown Artist"
+msgstr "མ་ཤེས་པའི་གླུ་རིག་མཁནམ་"
+
+#: ../thunar-plugin/tag-renamer.c:265
+#: ../thunar-plugin/tag-renamer.c:750
+#: ../thunar-plugin/audio-tags-page.c:209
+msgid "Unknown Title"
+msgstr "མ་ཤེས་པའི་མགོ་མིང་"
+
+#. Edit tags action
+#: ../thunar-plugin/tag-renamer.c:523
+msgid "Edit _Tags"
+msgstr "ངོ་རྟགས་ཚུ་ཞུན་དག་འབད་ (_T)"
+
+#: ../thunar-plugin/tag-renamer.c:523
+msgid "Edit ID3/OGG tags of this file."
+msgstr "ཡིག་སྣོད་འདི་གི་ID3/OGG ངོ་རྟགས་ཚུ་ཞུན་དག་འབད།"
+
+#: ../thunar-plugin/tag-renamer.c:545
+msgid "Audio Tags"
+msgstr "རྣར་ཉེན་ངོ་རྟགས་ཚུ་"
+
+#: ../thunar-plugin/audio-tags-page.c:196
+msgid "Unknown Album"
+msgstr "མ་ཤེས་པའི་གླུ་མཛོད་"
+
+#: ../thunar-plugin/audio-tags-page.c:305
+msgid "<b>Track:</b>"
+msgstr "<b>གླུ་རིམ:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:320
+msgid "Enter the track number here."
+msgstr "གླུ་རིམ་ཨང་གྲངས་འདི་ནཱ་ལུ་ཐོ་བཀོད་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:328
+msgid "<b>Year:</b>"
+msgstr "<b>ལོ:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:343
+msgid "Enter the release year here."
+msgstr "གསར་སྟོན་ལོ་འདི་ནཱ་ལུ་ཐོ་བཀོད་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:351
+msgid "<b>Artist:</b>"
+msgstr "<b>གླུ་རིག་མཁནམ:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:358
+msgid "Enter the name of the artist or author of this file here."
+msgstr "ཡིག་སྣོད་འདི་གི་གླུ་རིག་འདི་གི་མིང་ཡང་ན་རྩོམ་པ་པོ་འདི་ནཱ་ལུ་ཐོ་བཀོད་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:366
+msgid "<b>Title:</b>"
+msgstr "<b>མགོ་མིང་:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:373
+msgid "Enter the song title here."
+msgstr "ཞབས་ཁྲའི་མགོ་མིང་འདི་ནཱ་ལུ་ཐོ་བཀོད་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:380
+msgid "<b>Album:</b>"
+msgstr "<b>གླུ་མཛོད:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:387
+msgid "Enter the album/record title here."
+msgstr "གླུ་མཛོད་/དྲན་ཐོའི་མགོ་མིང་འདི་ནཱ་ལུ་ཐོ་བཀོད་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:394
+msgid "<b>Comment:</b>"
+msgstr "<b>བསམ་བཀོད:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:401
+msgid "Enter your comments here."
+msgstr "ཁྱོད་རའི་བསམ་བཀོད་ཚུ་ནཱ་ལུ་ཐོ་བཀོད་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:408
+msgid "<b>Genre:</b>"
+msgstr "<b>རིག:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:415
+msgid "Select or enter the genre of this song here."
+msgstr "ཞབས་ཁྲ་འདི་གི་རིག་འདི་ནཱ་ལུ་ཐོ་བཀོད་འབད་ནི་ཡང་ན་སེལ་འཐུ་འབད།"
+
+#. Create and add the save action
+#: ../thunar-plugin/audio-tags-page.c:454
+msgid "_Save"
+msgstr "སྲུང་ (_S)"
+
+#: ../thunar-plugin/audio-tags-page.c:454
+msgid "Save audio tags."
+msgstr "རྣར་ཉེན་ངོ་རྟགས་ཚུ་སྲུང་།"
+
+#. Create and add the info action
+#: ../thunar-plugin/audio-tags-page.c:461
+msgid "_Information"
+msgstr "བརྡ་དོན་ (_I)"
+
+#: ../thunar-plugin/audio-tags-page.c:461
+msgid "Display more detailed information about this audio file."
+msgstr "རྣར་ཉེན་ཡིག་སྣོད་འདི་གི་སྐོར་ལས་  བརྡ་དོན་རྒྱས་བཤད་ཧེང་བཀལ་བཀྲམ་སྟོན་འབད།"
+
+#: ../thunar-plugin/audio-tags-page.c:528
+msgid "Audio"
+msgstr "རྣར་ཉེན་"
+
+#. Set up the dialog
+#: ../thunar-plugin/audio-tags-page.c:564
+msgid "Edit Tags"
+msgstr "ངོ་རྟགས་ཚུ་ཞུན་དག་འབད་"
+
+#. Create dialog
+#: ../thunar-plugin/audio-tags-page.c:992
+msgid "Audio Information"
+msgstr "རྣར་ཉེན་བརྡ་དོན་"
+
+#: ../thunar-plugin/audio-tags-page.c:1003
+#, c-format
+msgid "%d:%d Minutes"
+msgstr "%d:%d སྐར་མ་"
+
+#: ../thunar-plugin/audio-tags-page.c:1004
+#, c-format
+msgid "%d KBit/s"
+msgstr "%d KBit/s"
+
+#: ../thunar-plugin/audio-tags-page.c:1005
+#, c-format
+msgid "%d Hz"
+msgstr "%d ཨེཆ་ཛེཌི་"
+
+#: ../thunar-plugin/audio-tags-page.c:1025
+msgid "<b>Filename:</b>"
+msgstr "<b>ཡིག་སྣོད་མིང་:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1038
+msgid "<b>Filesize:</b>"
+msgstr "<b>ཡིག་སྣོད་ཀྱི་ཚད:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1051
+msgid "<b>MIME Type:</b>"
+msgstr "<b>མ་ཡིམ་དབྱེ་བ:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1064
+msgid "<b>Bitrate:</b>"
+msgstr "<b>བའི་ཊེརེཊི་ཚུ་:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1077
+msgid "<b>Samplerate:</b>"
+msgstr "<b>སེམ་པེལེ་རེཊི:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1090
+msgid "<b>Channels:</b>"
+msgstr "<b>རྒྱུ་ལམ་ཚུ:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1103
+msgid "<b>Length:</b>"
+msgstr "<b>རིང་ཚད:</b>"
+

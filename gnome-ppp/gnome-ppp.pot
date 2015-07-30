@@ -1,0 +1,537 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-ppp.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-17 10:30+0100\n"
+"PO-Revision-Date: 2006-05-06 04:19-0500\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: dxangkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: gnome-ppp.desktop.in.h:1
+msgid "GNOME Dialup Tool"
+msgstr "ཇི་ནོམ་ ཌ་ེཡེལ་-ཨཔ་ ལག་ཆས།"
+
+#: gnome-ppp.desktop.in.h:2
+#: gnome-ppp.glade.h:44
+#: src/gnome-ppp-notification.c:195
+msgid "GNOME PPP"
+msgstr "ཇི་ནོམ་ པི་པི་པི།"
+
+#: gnome-ppp.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: gnome-ppp.glade.h:2
+msgid ""
+"/dev/modem\n"
+"/dev/ttyS0\n"
+"/dev/ttyS1\n"
+"/dev/ttyS2\n"
+"/dev/ttyS3"
+msgstr ""
+"/dev/modem\n"
+"/dev/ttyS0\n"
+"/dev/ttyS1\n"
+"/dev/ttyS2\n"
+"/dev/ttyS3"
+
+#: gnome-ppp.glade.h:7
+msgid "0"
+msgstr "༠"
+
+#: gnome-ppp.glade.h:8
+msgid "0 Kb/s"
+msgstr "༠ ཀེ་བི་/ཨེས།"
+
+#: gnome-ppp.glade.h:9
+msgid "00:00:00"
+msgstr "༠༠:༠༠:༠༠"
+
+#: gnome-ppp.glade.h:10
+msgid ""
+"460800\n"
+"230400\n"
+"115200\n"
+"57600\n"
+"38400\n"
+"28800\n"
+"14400\n"
+"7200"
+msgstr ""
+"༤༦༠༨༠༠\n"
+"༢༣༠༤༠༠\n"
+"༡༡༥༢༠༠\n"
+"༥༧༦༠༠\n"
+"༣༨༤༠༠\n"
+"༢༨༨༠༠\n"
+"༡༤༤༠༠\n"
+"༧༢༠༠་"
+
+#: gnome-ppp.glade.h:18
+msgid "<b>Connection</b>"
+msgstr "<b>མཐུད་ལམ།</b>"
+
+#: gnome-ppp.glade.h:19
+msgid "<b>DNS</b>"
+msgstr "<b>ཌི་ཨེན་ཨེས།</b>"
+
+#: gnome-ppp.glade.h:20
+msgid "<b>Desktop Integration</b>"
+msgstr "<b>ཌེཀསི་ཊོཔ་ མཉམ་སྒྲིལ།</b>"
+
+#: gnome-ppp.glade.h:21
+msgid "<b>Details</b>"
+msgstr "<b>རྒྱས་བཤད།</b>"
+
+#: gnome-ppp.glade.h:22
+msgid "<b>IP</b>"
+msgstr "<b>ཨའི་པི།</b>"
+
+#: gnome-ppp.glade.h:23
+msgid "<b>Modem</b>"
+msgstr "<b>མོ་ཌེམ།</b>"
+
+#: gnome-ppp.glade.h:24
+msgid "<b>Phone options and Init Strings</b>"
+msgstr "<b>བརྒྱུད་འཕྲིན་གདམ་ཁདང་འགོ་འབྱེད་ཡིག་རྒྱུན།</b>"
+
+#: gnome-ppp.glade.h:25
+#: src/gnome-ppp-connected.c:38
+#: src/gnome-ppp-wvdial.c:148
+msgid "<big>Connected: 00:00:00</big>"
+msgstr "<big>མཐུད:༠༠:༠༠:༠༠</big>"
+
+#: gnome-ppp.glade.h:26
+msgid "Abort connecting if line is b_usy"
+msgstr "མཐུད་ལམ་དེ་་ཁོམ་མེད་པ་ཅིན་ མཐུད་ནི་འདི་ བར་ཤོལ་འབད།(_u)"
+
+#: gnome-ppp.glade.h:27
+msgid "Abort connecting if no _dialtone"
+msgstr "ཌ་ཡེལ་ཊོན་ མེད་པ་ཅིན་ མཐུད་ནི་འདི་ བར་ཤོལ་འབད།(_d)"
+
+#: gnome-ppp.glade.h:28
+msgid "Address:"
+msgstr "ཁ་བྱང་:"
+
+#: gnome-ppp.glade.h:29
+msgid ""
+"Analog Modem\n"
+"USB Modem\n"
+"ISDN Modem"
+msgstr ""
+" ཨེ་ན་ལོཀ་ མོ་ཌེམ་་\n"
+"ཡུ་ཨེས་བི་ མོ་ཌེམ་\n"
+"ཨའི་ཨེས་ཌི་ཨེམ་"
+
+#: gnome-ppp.glade.h:32
+msgid "Auto r_econnect"
+msgstr "རང་བཞིན་གྱི་ སླར་མཐུད་འབད།(_e)"
+
+#: gnome-ppp.glade.h:33
+msgid "Check carrier _line"
+msgstr "སྐྱེལ་མཁན་ མཐུད་ལམ་ ཞིབ་དཔྱད་འབད།(_I)"
+
+#: gnome-ppp.glade.h:34
+msgid "Check default _route"
+msgstr "སྔོན་སྒྲིག་ འགྲུལ་ལམ་ ཞིབ་དཔྱད་འབད།(_r)"
+
+#: gnome-ppp.glade.h:35
+#: src/gnome-ppp.c:913
+msgid "Connecting..."
+msgstr "མཐུད་དོ།"
+
+#: gnome-ppp.glade.h:36
+msgid "Connection Log"
+msgstr "མཐུད་ནིའི་ལྡེ་མིག"
+
+#: gnome-ppp.glade.h:37
+msgid "D_etails"
+msgstr "རྒྱས་བཤད།(_e)"
+
+#: gnome-ppp.glade.h:38
+msgid "Destination:"
+msgstr "འགྲོ་ཡུལ།:"
+
+#: gnome-ppp.glade.h:39
+#: src/gnome-ppp-notification.c:90
+msgid "Details"
+msgstr "རྒཡས་བཤད།"
+
+#: gnome-ppp.glade.h:40
+msgid "Dial _prefix: "
+msgstr "སྔོན་ཚིག་ ཌ་ཡེལ་འབད།:"
+
+#: gnome-ppp.glade.h:41
+msgid "Dial a_ttempts:"
+msgstr "དཔའ་བཅམ་ ཌ་ཡེལ་འབད།:(_a)"
+
+#: gnome-ppp.glade.h:42
+msgid "Dock in _notification area"
+msgstr "བརྡ་བསྐུལ་ མངའ་ཁོངས་ནང་ ཌོཀ་འབད།(_n)"
+
+#: gnome-ppp.glade.h:43
+msgid "Domain _name: "
+msgstr "ཌོ་མེན་གྱི་ མིང་།(_n)"
+
+#. idle
+#: gnome-ppp.glade.h:45
+#: src/gnome-ppp-connected.c:164
+msgid "Idle"
+msgstr "ལས་མེད།"
+
+#: gnome-ppp.glade.h:46
+msgid "Idle _time:"
+msgstr "ལས་མེད་ ཆུ་ཚོད།(_t)"
+
+#: gnome-ppp.glade.h:47
+msgid "Init Strings"
+msgstr "ཨིན་ནིཊི་ ཡིག་རྒྱུན་ཚུ།"
+
+#: gnome-ppp.glade.h:48
+msgid "Interface:"
+msgstr "ངོས་འདྲབ།:"
+
+#: gnome-ppp.glade.h:49
+msgid "Modem"
+msgstr "མོ་ཌེམ།"
+
+#: gnome-ppp.glade.h:50
+msgid "Modem initialization strings:"
+msgstr "མོ་ཌེམ་ འགོ་འབྱེད་ ཡིག་རྒྱུན་ཚུ།:"
+
+#: gnome-ppp.glade.h:51
+msgid "Networking"
+msgstr "ཡོངས་འབྲེལ་བཟོ་བ།"
+
+#: gnome-ppp.glade.h:52
+msgid ""
+"Off\n"
+"Low\n"
+"High"
+msgstr ""
+"ཨོཕ།\n"
+"དམའ།\n"
+"མཐོ།"
+
+#: gnome-ppp.glade.h:55
+msgid "On connection:"
+msgstr "མཐུད་ལམ་ལུ།:"
+
+#: gnome-ppp.glade.h:56
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: gnome-ppp.glade.h:57
+msgid "Phone Line:"
+msgstr "བརྒྱུད་འཕྲིན་གྱི་ རྒྱུན་ལམ།:"
+
+#: gnome-ppp.glade.h:58
+msgid "Phone Numbers"
+msgstr "བརྒྱུད་འཕྲིན་ཨང་ཚུ།"
+
+#: gnome-ppp.glade.h:59
+msgid "Phone _number:"
+msgstr "བརྒྱུད་འཕྲིན་ ཨང་།:(_n)"
+
+#: gnome-ppp.glade.h:60
+msgid "Phone _numbers..."
+msgstr "བརྒྱུདའཕྲིན་ཨང་ཚུ།(_n)"
+
+#: gnome-ppp.glade.h:61
+msgid "Phone numbers to dial:"
+msgstr "ཌ་ཡེལ་ འབད་ནིའི་ བརྒྱུད་འཕྲིན་ཨང་།:"
+
+#: gnome-ppp.glade.h:62
+msgid "Received data:"
+msgstr "ཐོབ་ཡོད་པའི་ གནད་སྡུད།:"
+
+#: gnome-ppp.glade.h:63
+msgid "Received packets:"
+msgstr "ཐོབ་ཡོད་པའི་ འཕྲིན་ཚན་ཚུ།:"
+
+#: gnome-ppp.glade.h:64
+msgid "Reply:"
+msgstr "ལན་གསལ།:"
+
+#: gnome-ppp.glade.h:65
+msgid "Send custom repl_y"
+msgstr "སྲོལ་སྒྲིག་ ལན་གསལ་གཏང་།(_y)"
+
+#: gnome-ppp.glade.h:66
+msgid "Sent data:"
+msgstr "གནད་སྡུད་ གཏང་།:"
+
+#: gnome-ppp.glade.h:67
+msgid "Sent packets:"
+msgstr "འཕྲིན་ཚད་གཏང་།"
+
+#: gnome-ppp.glade.h:68
+msgid "Setup"
+msgstr "གཞི་སྒྲིག་འབད།"
+
+#: gnome-ppp.glade.h:69
+msgid "Speed (download):"
+msgstr "མགྱོགས་ཚད་(ཕབ་ལེན།):"
+
+#: gnome-ppp.glade.h:70
+msgid "Speed (upload):"
+msgstr "མགྱོགས་ཚད་(བཙུགས་སྐྱེལ།):"
+
+#: gnome-ppp.glade.h:71
+msgid "Status:"
+msgstr "གནས་ཚད།:"
+
+#: gnome-ppp.glade.h:72
+msgid "Type:"
+msgstr "དབྱེ་བ།:"
+
+#: gnome-ppp.glade.h:73
+#: src/gnome-ppp-connected.c:223
+#: src/gnome-ppp-connected.c:228
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: gnome-ppp.glade.h:74
+msgid "_Automatic DNS"
+msgstr "རང་བཞིན་གྱི་ ཌི་ཨེན་ཨེས།(_A)"
+
+#: gnome-ppp.glade.h:75
+msgid "_Connect"
+msgstr "མཐུད།(_C)"
+
+#: gnome-ppp.glade.h:76
+msgid "_Detect"
+msgstr "སྐྱོན་འཛིན་ནི།(_D)"
+
+#: gnome-ppp.glade.h:77
+msgid "_Device:"
+msgstr "ཐབས་འཕྲུལ།(_D)"
+
+#: gnome-ppp.glade.h:78
+msgid "_Disconnect"
+msgstr "མཐུད་ལམ་བཏོག་ནི།(_D)"
+
+#: gnome-ppp.glade.h:79
+msgid "_Dynamic IP address"
+msgstr "ནུས་ཅན་ ཨའི་པི་ ཁ་བྱང་ཚུ།(_D)"
+
+#: gnome-ppp.glade.h:80
+msgid "_IP address: "
+msgstr "ཨའི་པི་ ཁ་བྱང་ཚུ།:(_I)"
+
+#: gnome-ppp.glade.h:81
+msgid "_Ignore terminal strings (stupid mode)"
+msgstr "ཊར་མི་ནཱལ་ ཡིག་རྒྱུན་ཚུ་ སྣ་མེད་བཞག(གླེན་ལྐུགས་ ཐབས་ལམ།)(_I)"
+
+#: gnome-ppp.glade.h:82
+msgid "_Init Strings..."
+msgstr "ཨིན་ནིཊི་ ཡིག་རྒྱུན།(_I)"
+
+#: gnome-ppp.glade.h:83
+msgid "_Log"
+msgstr "ལྡེ་མིག (_L)"
+
+#: gnome-ppp.glade.h:84
+msgid "_Manual DNS"
+msgstr "ལག་ཐོག་ ཌི་ཨེན་ཨེས།(_M)"
+
+#: gnome-ppp.glade.h:85
+msgid "_Minimize"
+msgstr "ཆུང་ཀུ་བཟོ།(_M)"
+
+#: gnome-ppp.glade.h:86
+msgid "_Password:"
+msgstr "ཆོག་ཡིག(_P)"
+
+#: gnome-ppp.glade.h:87
+msgid "_Pulse"
+msgstr "འཕར་རྩ།(_P)"
+
+#: gnome-ppp.glade.h:88
+msgid "_Remember password"
+msgstr "ཆོག་ཡིག་ སེམས་ཁར་བཞག(_R)"
+
+#: gnome-ppp.glade.h:89
+msgid "_Setup"
+msgstr "གཞི་སྒྲིག་འབད།(_S)"
+
+#: gnome-ppp.glade.h:90
+msgid "_Speed:"
+msgstr "མགྱོགས་ཚད།:(_S)"
+
+#: gnome-ppp.glade.h:91
+msgid "_Static IP address"
+msgstr "རྟག་བརྟན་ ཨའི་པི་ ཁ་བྱང་ཚུ།(_S)"
+
+#: gnome-ppp.glade.h:92
+msgid "_Tone"
+msgstr "སྐད་ཀྱི་སྙན་ཆ།(_T)"
+
+#: gnome-ppp.glade.h:93
+msgid "_Username:"
+msgstr "ལག་ལེན་པའི་མིང་།(_U)"
+
+#: gnome-ppp.glade.h:94
+msgid "_Volume:"
+msgstr "སྐད་ཤུགས།:(_V)"
+
+#: gnome-ppp.glade.h:95
+msgid "_Wait for dialtone"
+msgstr "ཌ་ཡེལ་ཊོན་གྱི་དོན་ལུ་ བསྒུག(_W)"
+
+#: gnome-ppp.glade.h:96
+#: src/gnome-ppp.c:450
+#: src/gnome-ppp-setup.c:216
+msgid "disabled"
+msgstr "ལྕོགས་མིན་ཐལ་ཡོདཔ།"
+
+#: gnome-ppp.glade.h:97
+msgid "ppp0"
+msgstr "པི་པི་པི་ཨོ།"
+
+#: src/gnome-ppp.c:445
+#: src/gnome-ppp-setup.c:211
+msgid "second"
+msgstr "སྐར་ཆག"
+
+#: src/gnome-ppp.c:447
+#: src/gnome-ppp-setup.c:213
+msgid "seconds"
+msgstr "སྐར་ཆག་ཚུ།"
+
+#. third, connect
+#: src/gnome-ppp.c:912
+msgid "GNOME PPP: Connecting...\n"
+msgstr "ཇི་ནོམ་ པི་པི་པི།:མཐུད་དོ།.\n"
+
+#: src/gnome-ppp.c:937
+#: src/gnome-ppp-setup.c:56
+#, c-format
+msgid "GNOME PPP: Command failed: %s\n"
+msgstr "ཇི་ནོམ་ པི་པི་པི།:བརྡ་བཀོད་འཐུས་ཤོར་བྱུང་ཤོདཔ།:%s\n"
+
+#: src/gnome-ppp-connected.c:74
+#, c-format
+msgid "<big>Connected: %s</big>"
+msgstr "<big>མཐུད་ཡོདཔ།:%s</big>"
+
+#. sending/receiving
+#: src/gnome-ppp-connected.c:117
+msgid "Sending/Receiving"
+msgstr "གཏང་དོ/ཐོབ་དོ།"
+
+#. receiving
+#: src/gnome-ppp-connected.c:135
+msgid "Receiving"
+msgstr "ཐོབ་དོ།"
+
+#. sending
+#: src/gnome-ppp-connected.c:152
+msgid "Sending"
+msgstr "གཏང་དོ།"
+
+#: src/gnome-ppp-details.c:148
+#, c-format
+msgid "Cannot open /proc/net/dev: %s"
+msgstr "/པི་ཨར་ཨོ་སི་/ནེཊི་/ཌེབ།: %s ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: src/gnome-ppp-details.c:157
+msgid "Could not parse /proc/net/dev. Unknown format."
+msgstr "/པི་ཨར་ཨོ་སི་/ནེཊི་/ཌེབ་ མིང་དཔྱད་འབད་མ་ཚུགས། མ་ཤེས་པའི་ རྩ་སྒྲིག།"
+
+#: src/gnome-ppp-details.c:174
+#, c-format
+msgid "Could not parse interface name from '%s'"
+msgstr "'%s'ལས་ ངོས་འདྲ་བའི་མིང་  མིང་དཔྱད་འབད་མ་ཚུགས།"
+
+#: src/gnome-ppp-details.c:187
+#, c-format
+msgid "Could not parse interface statistics from '%s'. prx_idx = %d; ptx_idx = %d; brx_idx = %d; btx_idx = %d;"
+msgstr "%s'. prx_idx = %d; ptx_idx = %d; brx_idx = %d; btx_idx = %d;་ལས་ ངོས་འདྲ་བའི་ ཚད་རྩིས་ མིང་དཔྱད་འབད་མ་ཚུགས།"
+
+#: src/gnome-ppp-details.c:196
+#, c-format
+msgid "Could not find information on interface '%s' in /proc/net/dev"
+msgstr "/པི་ཨར་ཨོ་སི་/ནེཊི་/ཌེབ་ཀྱི་ ནང་ན་ %s'ངོས་འདྲ་བ་གུར་ལུ་ བརྡ་དོན་ འཚོལ་མ་ཐོབ།"
+
+#: src/gnome-ppp-notification.c:82
+msgid "Connection log"
+msgstr "མཐུད་ལམ་ ལྡེ་མིག།"
+
+#: src/gnome-ppp-notification.c:98
+msgid "Disconnect"
+msgstr "མཐུད་ལམ་བཏོག"
+
+#: src/gnome-ppp-notification.c:110
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: src/gnome-ppp-notification.c:194
+msgid "translator_credits"
+msgstr "སྐད་བསྒྱུར་པའི་ ངོ་བསྟོད།(_c)"
+
+#: src/gnome-ppp-notification.c:197
+msgid "GNOME Dialup Tool."
+msgstr "ཇི་ནོམ་ ཌ་ཡེལ་ཨཔ་ ལག་ཆས།"
+
+#: src/gnome-ppp-setup.c:36
+msgid "Detecting your modem..."
+msgstr "ཁྱོད་ཀྱི་ མོ་ཌེམ་ སྐྱོན་འཛིན་འབད་དོ།"
+
+#: src/gnome-ppp-setup.c:140
+msgid "forever"
+msgstr "རྟག་པར།"
+
+#: src/gnome-ppp-wvdial.c:60
+msgid "Can not open modem."
+msgstr "མོ་ཌེམ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: src/gnome-ppp-wvdial.c:63
+msgid "Modem not responding."
+msgstr "མོ་ཌེམ་ ལན་བཀོད་འབད་མ་བཏུབ།"
+
+#: src/gnome-ppp-wvdial.c:68
+msgid "Sending password..."
+msgstr "ཆོག་ཡིག་ གཏང་དོ།"
+
+#: src/gnome-ppp-wvdial.c:79
+msgid "No valid password."
+msgstr "ཆོག་ཡིག་ ནུས་ཅན་མིན་འདུག"
+
+#: src/gnome-ppp-wvdial.c:86
+#, c-format
+msgid "Dialing %s..."
+msgstr "%s་ ཌ་ཡེ་ལིང་།"
+
+#: src/gnome-ppp-wvdial.c:94
+msgid "Waiting for prompt..."
+msgstr "ནུས་སསྤེལ་གྱི་དོན་ལུ་ བསྒུག་དོ།"
+
+#: src/gnome-ppp-wvdial.c:97
+msgid "Authenticating..."
+msgstr "བདེན་བཤད་འབད་དོ།"
+
+#: src/gnome-ppp-wvdial.c:108
+msgid "Reconnecting..."
+msgstr "སླར་མཐུད་དོ།"
+
+#: src/gnome-ppp-wvdial.c:119
+msgid "Starting pppd..."
+msgstr "པི་པི་པི་ཌི་ འགོ་བཙུགས་དོ།"
+
+#: src/gnome-ppp-wvdialconf.c:47
+msgid "No modem was found on your system."
+msgstr "ཁྱོད་ཀྱི་ རིམ་ལུགས་ནང་ལུ་ མོ་ཌེམ་ གཅིག་ཡང་ མ་ཐོབ།"
+

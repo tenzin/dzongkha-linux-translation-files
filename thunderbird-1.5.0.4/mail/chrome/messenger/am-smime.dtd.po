@@ -1,0 +1,86 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/am-smime.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: am-smime.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-08 11:18+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: securityTitle.label
+msgid "Security"
+msgstr "སྲུང་སྐྱོབ་"
+
+#: securityHeading.label
+msgid "To send and receive signed or encrypted messages, you should specify both a digital signing certificate and an encryption certificate."
+msgstr "མིང་རྟགས་བཀོད་བཀོདཔ་ ཡང་ན་ གསང་བཟོས་འཕྲིན་དོན་ཚུ་ གཏང་ནི་དང་ལེན་ནི་ལུ་ ཁྱོད་ཀྱིས་ ཌི་ཇི་ཊཱལ་མིང་རྟགས་བཀོད་ནིའི་ལག་ཁྱེར་ཅིག་དང་ གསང་བཟོའི་ལག་ཁྱེར་ཅིག་ གཉིས་ཆ་ར་དགོ།"
+
+#: encryptionGroupTitle.label
+msgid "Encryption"
+msgstr "གསང་བཟོ་"
+
+#: encryptionChoiceLabel.label
+msgid "Default encryption setting when sending messages:"
+msgstr "འཕྲིན་དོན་ཚུ་གཏང་བའི་སྐབས་ གསང་བཟོའི་སྒྲིག་སྟངས་ཚུ་ སྔོན་སྒྲིག་བཟོ་:"
+
+#: neverEncrypt.label
+msgid "Never (do not use encryption)"
+msgstr "ནམ་ཡང་ (གསང་བཟོ་ལག་ལེན་མ་འཐབ་)"
+
+#: alwaysEncryptMessage.label
+msgid "Required (can't send message unless all recipients have certificates)"
+msgstr "དགོས་མཁོ་ཡོདཔ་(ཐོབ་མཁན་ཆ་མཉམ་ལུ་ ལག་ཁྱེར་མེད་པ་ཅིན་ འཕྲིན་དོན་གཏང་མི་ཚུགས)"
+
+#: encryptionCert.message
+msgid "Use this certificate to encrypt &amp; decrypt messages sent to you:"
+msgstr "&amp;གསང་བ་བཟོ་ནིའི་དོན་ལུ་ ལག་ཁྱེར་འདི་ལག་ལེན་འཐབ། ཁྱོད་ལུ་གཏང་མི་འཕྲིན་དོན་ཚུ་ གསང་བཟོ་བཤོལ་:"
+
+#: encryptionCert.notselected
+#: signingCert.notselected
+msgid "No certificate set"
+msgstr "ལག་ཁྱེར་གཞི་སྒྲིག་མ་འབད་བས་"
+
+#: certificate.button
+msgid "Select..."
+msgstr "སེལ་འཐུ་འབད་་་་"
+
+#: certificate_clear.button
+msgid "Clear"
+msgstr "བསལ་"
+
+#: signingGroupTitle.label
+msgid "Digital Signing"
+msgstr "ཌི་ཇི་ཊཱལ་ མིང་རྟགས་བཀོད་པ་"
+
+#: signMessage.label
+msgid "Digitally sign messages (by default)"
+msgstr "ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་ མིང་རྟགས་བཀོད་མི་འཕྲིན་དོན་ཚུ་(སྔོན་སྒྲིག་ཐོག་ལས་)"
+
+#: signingCert.message
+msgid "Use this certificate to digitally sign messages you send:"
+msgstr "ཁྱོད་ཀྱིས་གཏང་མི་འཕྲིན་དོན་ཚུ་ལུ་ ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནི་ལུ་ ལག་ཁྱེར་འདི་ལག་ལེན་འཐབ་:"
+
+#: certificates.label
+msgid "Certificates"
+msgstr "ལག་ཁྱེར་ཚུ་"
+
+#: managecerts.label
+#: managecerts.accesskey
+msgid "&View Certificates"
+msgstr "ལག་ཁྱེར་ཚུ་སྟོན་(&V)"
+
+#: managedevices.label
+#: managedevices.accesskey
+msgid "&Security Devices"
+msgstr "སྲུང་སྐྱོབ་ཐབས་འཕྲུལ་ཚུ་(&S)"
+

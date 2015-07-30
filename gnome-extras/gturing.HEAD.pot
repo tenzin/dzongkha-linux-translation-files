@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gturing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-03 03:14+0100\n"
+"PO-Revision-Date: 2007-04-02 23:38+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gturing.desktop.in.h:1
+msgid "Waste time with a simulated Turing machine"
+msgstr "མ་དགོ་པའི་དུས་ཚོད་དང་གཅིག་ཁར་མཚུངས་བཟོས་ཡོད་པའི་སྐོང་ཐེངས་གློག་འཕྲུལ་ཅིག"
+
+#: ../gturing.desktop.in.h:2
+msgid "gTuring"
+msgstr "ཇི་ཊར་རིང་།"
+
+#: ../src/gturing.c:109
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../src/gturing.c:110
+msgid "_Actions"
+msgstr "བྱ་བ་ཚུ།(_A)"
+
+#: ../src/gturing.c:111
+msgid "_Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ།(_S)"
+
+#: ../src/gturing.c:112
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../src/gturing.c:113
+msgid "_Open..."
+msgstr "ཁ་ཕྱེ།(_O)་་་"
+
+#: ../src/gturing.c:114
+msgid "Open an existing file"
+msgstr "གནས་ཡོད་པའི་ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
+
+#: ../src/gturing.c:115
+msgid "Save _as..."
+msgstr "བཟུམ་སྦེ་སྲུང་བཞག་འབད།(_a)་་་"
+
+#: ../src/gturing.c:116
+msgid "Save the current file with a new name"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་དང་གཅིག་ཁར་མིང་གསརཔ་ཅིག་སྲུང་བཞག་འབད།"
+
+#: ../src/gturing.c:118
+msgid "_Comments..."
+msgstr "བསམ་བཀོད་ཚུ(_C)་་་"
+
+#: ../src/gturing.c:119
+msgid "View the program's comment"
+msgstr "ལས་རིམ་གྱི་བསམ་བཀོད་འདི་སྟོན།"
+
+#: ../src/gturing.c:121
+msgid "E_xit"
+msgstr "ཕྱིར་འདོན།(_x)"
+
+#: ../src/gturing.c:122
+msgid "Exit the program"
+msgstr "ལས་རིམ་འདི་ཕྱིར་འདོན།"
+
+#: ../src/gturing.c:123
+msgid "_Reset"
+msgstr "སླར་སྒྲིག(_R)"
+
+#: ../src/gturing.c:124
+msgid "Reset the machine going to the first state"
+msgstr "གནས་ལུགས་དང་པམ་འདི་ལུ་འགྱོ་མི་གློག་འཕྲུལ་འདི་སླར་སྒྲིག་འབད།"
+
+#: ../src/gturing.c:126
+msgid "P_ause"
+msgstr "ཐེམ།(_a)"
+
+#: ../src/gturing.c:127
+msgid "Stop the machine."
+msgstr "གློག་འཕྲུལ་འདི་འགག"
+
+#: ../src/gturing.c:128
+msgid "_Play"
+msgstr "གཏང་།(_P)"
+
+#: ../src/gturing.c:129
+msgid "Start the machine in the current state"
+msgstr "ད་ལྟོའི་གནས་ལུགས་འདི་ནང་གློག་འཕྲུལ་འདི་འགོ་བཙུགས།"
+
+#: ../src/gturing.c:131
+msgid "_Step"
+msgstr "གོ་རིམ།(_S)"
+
+#: ../src/gturing.c:132
+msgid "Allow the machine advance step by step from the current state"
+msgstr "ད་ལྟོའི་གནས་ལུགས་འདི་ལས་གོ་རིམ་སྒྲིག་སྟེ་ཡར་བསྐྱོད་འབད་་ནི་གློག་འཕྲུལ་འདི་འབད་བཅུག"
+
+#: ../src/gturing.c:134
+msgid "_Speed..."
+msgstr "མགྱོགས་ཚད(_S)་་་"
+
+#: ../src/gturing.c:135
+msgid "Set play speed."
+msgstr "གཏང་ནི་མགྱོགས་ཚད་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gturing.c:136
+msgid "_Tape..."
+msgstr "དབྱེ་བ(_T)་་་"
+
+#: ../src/gturing.c:137
+msgid "Set the tape to play"
+msgstr "སྒྲ་ཐག་གཏང་ནི་ལུ་གཞི་སྒྲིག་འབད།"
+
+#. { "Preferences", NULL, N_("P_references"), NULL,
+#. *  N_("Personalize your gturing's settings."),
+#. *  G_CALLBACK (item_activated) },
+#. *
+#: ../src/gturing.c:142
+msgid "_Index"
+msgstr "ཟུར་ཐོ(_I)"
+
+#: ../src/gturing.c:143
+msgid "Open the gturing's manual"
+msgstr "ཇི་ཊར་ནིང་གི་ལག་དེབ་འདི་ཁ་ཕྱེ།"
+
+#: ../src/gturing.c:144
+msgid "_About..."
+msgstr "སྐོར་ལས(_A)་་་"
+
+#: ../src/gturing.c:145
+msgid "Display information about the program"
+msgstr "ལས་རིམ་གྱི་སྐོར་ལས་བརྡ་དོན་བཀྲམ་སྟོན་འབད།"
+
+#: ../src/gturing.c:239
+msgid "No comment for this program."
+msgstr "ལས་རིམ་འདིའི་དོན་ལུ་བསམ་བཀོད་མེད།"
+
+#: ../src/gturing.c:287
+#, c-format
+msgid "State: %d"
+msgstr "གནས་ལུགས %d"
+
+#: ../src/gturing.c:291
+#: ../src/gturing.c:356
+msgid "Stopped"
+msgstr "བཀག་ཡོདཔ།"
+
+#: ../src/gturing.c:423
+msgid "Save a Turing Program File"
+msgstr "ཊར་རིང་ལས་རིམ་ཡིག་སྣོད་ཅིག་སྲུང་བཞག་འབད།"
+
+#: ../src/gturing.c:507
+msgid "Open a Turing Program File"
+msgstr "ཊ་རིང་ལས་རིམ་ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
+
+#: ../src/gturing.c:550
+msgid "Tape Setting"
+msgstr "སྒྲ་ཐག་སྒྲིག་སྟངས།"
+
+#: ../src/gturing.c:550
+msgid "Please enter the tape:"
+msgstr "སྒྲ་ཐག་འདི་བཙུགས་གནང་།"
+
+#: ../src/gturing.c:595
+msgid "Animation Speed"
+msgstr "བསྒུལ་བཟོ་མགྱོགས་ཚད།"
+
+#: ../src/gturing.c:595
+msgid "Miliseconds between steps:"
+msgstr "གོ་རིམ་ཚུ་གི་བར་ན་མི་ལི་སྐར་ཆག་ཚུ།"
+
+#. German has "a" acute and Caamano has tilde over n,
+#. * like a' and n~
+#: ../src/gturing.c:626
+msgid "German Poo-Caamano"
+msgstr "ཇར་མཱན་པཱོ་-ཀཱ་མཱནོ།"
+
+#: ../src/gturing.c:645
+msgid ""
+"(c) 1997-2001 Free Software Foundation\n"
+"(c) 2001-2005 German Poo-Caamano"
+msgstr ""
+"(c) ༡༩༩༧-༢༠༠༡  རང་དབང་མཉེན་ཆས་གཞི་ཚོགས\n"
+"(c) ༢༠༠༡-༢༠༠༥ ཇར་མཱན་ པཱོ-ཀཱ་མཱནོ།"
+
+#: ../src/gturing.c:649
+msgid "A Turing machine for GNOME"
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ཊར་ནིང་གློག་འཕྲུལ་ཅིག"
+
+#: ../src/gturing.c:652
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད།"
+
+#: ../src/gturing.c:705
+msgid "A Turing machine"
+msgstr "ཊར་ནིང་གློག་འཕྲུལ་ཅིག"
+
+#: ../src/gturing.c:749
+msgid "Welcome to gTuring"
+msgstr "ཊར་ནིང་ལུ་བྱོན་པ་ལེགས་སོ།"
+
+#: ../src/gturing.c:750
+msgid "^                 "
+msgstr "^                 "
+
+#: ../src/gturing.c:843
+msgid "Set the animation speed (miliseconds)"
+msgstr "བསྒུལ་བཟོ་མགྱོགས་ཚད་འདི་གཞི་སྒྲིག་འབད(མི་ལི་སྐར་ཆག་ཚུ་)"
+
+#: ../src/gturing.c:843
+msgid "ms"
+msgstr "མི་ལི་སྐར་ཆ།"
+
+#: ../src/gturing.c:845
+msgid "[file]"
+msgstr "[ཡིག་སྣོད]"
+
+#: ../src/gturing.c:859
+msgid "- Show how to use GOption"
+msgstr "ཇི་གདམ་ཁ་ག་དེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་སྟོན།"
+
+#: ../src/turing.c:226
+msgid "Wrong states file format."
+msgstr "ཕྱི་འགྱུར་ཕྱི་འགྱུར་གནས་ལུགས་བཀོད་མི་ཡིག་སྣོད་རྩ་སྒྲིག"
+
+#. Set up item for adding transitions
+#: ../src/turing_table_editor.c:475
+msgid "New Transition"
+msgstr "འགྱུར་བ་གསརཔ།"
+
+#. Set up item for removing transitions
+#: ../src/turing_table_editor.c:483
+msgid "Delete Transition"
+msgstr "འགྱུར་བ་བཏོན་གཏང་།"
+
+#: ../src/turing_table_editor.c:660
+msgid "State"
+msgstr "གནས་ལུགས།"
+
+#: ../src/turing_table_editor.c:660
+msgid "Read"
+msgstr "ལྷག་ནི།"
+
+#: ../src/turing_table_editor.c:660
+msgid "Write"
+msgstr "འབྲི་ནི།"
+
+#: ../src/turing_table_editor.c:660
+msgid "Move"
+msgstr "སྤོ།"
+
+#: ../src/turing_table_editor.c:661
+msgid "New State"
+msgstr "གནས་ལུགས་གསརཔ།"
+
+#: ../src/turing_table_editor.c:661
+msgid "Comments"
+msgstr "བསམ་བཀོད་ཚུ།"
+

@@ -1,0 +1,65 @@
+# extracted from dz-BT_orig/dom/chrome/dom/dom.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: dom/chrome/dom/dom.properties.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-18 10:25+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: KillScriptTitle
+msgid "Warning: Unresponsive script"
+msgstr "ཉེན་བརྡ: ངོས་ལེན་མེད་པའི་ཡིག་ཚུགས།"
+
+#: KillScriptMessage
+msgid "A script on this page may be busy, or it may have stopped responding. You can stop the script now, or you can continue to see if the script will complete."
+msgstr "ཤོག་ལེབ་དེ་གུ་ཡོད་པའི་ཚུགས་ཡིག་འདི་  ཡང་ན་ ཁོམ་མེད་འོང་ ཡང་ན་  ངོས་ལེན་འབད་ནི་འདི་བཀག་ཡོདཔ་འོང་།  ཚུགས་ཡིག་འདི་ཁྱོད་ཀྱིས་  ད་ལྟོ་བཀག་ཚུགས་  ཡང་ན་  ཚུགས་ཡིག་འདི་མཇུག་བསྡུཝ་ཨིན་ན་མེན་  ཁྱོད་ཀྱིས་  འཕྲོ་མཐུད་དེ་བལྟ་ད།"
+
+#: StopScriptButton
+msgid "Stop script"
+msgstr "ཚུགས་ཡིག་འདི་བཀག་ད།"
+
+#: WaitForScriptButton
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་ད།"
+
+#: JSURLLoadBlockedWarning
+msgid ""
+"Attempt to load a javascript: URL from one host\n"
+"in a window displaying content from another host\n"
+"was blocked by the security manager."
+msgstr ""
+"ཇ་བ་ཡིག་ཚུགས་ཅིག་མངོན་གསལ་འབད་ནི་ལུ་དཔའ་བཅམ་ད:  སྒོ་སྒྲིག་ཅིག་གི་ནང་ལུ་ \n"
+" ཡུ་ཨར་ཨེལ་འདི་ཧོསཊི་གཅིག་ལས་  ཧོསཊི་གཞན་མི་ལས་ \n"
+" ནང་དོན་བཀྲམ་སྟོན་འབད་མི་འདི་  སྲུང་སྐྱོབ་འཛིན་སྐྱོང་པ་གིས་འགགས་ཡོད།"
+
+#: WindowCloseBlockedWarning
+msgid "Scripts may not close windows that were not opened by script."
+msgstr "ཚུགས་ཡིག་གིས་ཁ་ཕྱེ་དེ་མེད་པའི་སྒོ་སྒྲིག་ཚུ་  ཚུགས་ཡིག་གིས་ཁ་མི་བསྡམས་འོང་།"
+
+#: OnBeforeUnloadPreMessage
+msgid "Are you sure you want to navigate away from this page?"
+msgstr "ཁྱོད་ ཤོག་ལེབ་འདི་ལས་འགྲུལ་བསྐྱོད་འབད་ནི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: OnBeforeUnloadPostMessage
+msgid "Press OK to continue, or Cancel to stay on the current page."
+msgstr "འཕྲོ་མཐུད་ནི་དོན་ལུ་  བཏུབ་  འདི་མནན་ནི་  ཡང་ན་  ད་ལྟོའི་ཤོག་ལེབ་གུ་སྡོད་ནི་དོན་ལུ་  ཆ་མེད་གཏང་ འདི་མནན་ད།"
+
+#: DocumentAllUsed
+msgid "Non-standard document.all property was used. Use W3C standard document.getElementById() instead."
+msgstr "ཚད་ལྡན་མེད་པའི་ཡིག་ཆ.all propertyའདི་ལག་ལེན་འཐབ་ནུག  W3C ཚད་ལྡན་ཡིག་ཆ་.getElementById() འདི་ལག་ལེན་འཐབ།"
+
+#: GlobalScopeElementReference
+msgid "Element referenced by ID/NAME in the global scope. Use W3C standard document.getElementById() instead."
+msgstr "སྤྱི་ཁྱབ་འོས་སྐབས་ནང་གི་  ID/NAME གིས་ གཞི་བསྟུན་འབད་ཡོད་པའི་ཆ་ཤས།  W3C ཚད་ལྡན་ཡིག་ཆ་.getElementById() འདི་ལག་ལེན་འཐབ།"
+

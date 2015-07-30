@@ -1,0 +1,82 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/am-smime.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: am-smime.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-08 11:58+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+## S/MIME error strings.
+## Note to localization: %S is a placeholder
+#: NoSenderSigningCert
+msgid "You specified that this message should be digitally signed, but the application either failed to find the signing certificate specified in your Mail & Newsgroup Account Settings, or the certificate has expired."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་ ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་ མིང་རྟགས་བཀོད་དགོཔ་སྦེ་ གསལ་བཀོད་འབད་ནུག། འདི་འབདཝ་ད་ གློག་རིམ་དེ་གིས་ ཁྱོད་ཀྱི་ཡིག་འཕྲིན་དང་གནས་ཚུལ་སྡེ་ཚན་གྱི་རྩིས་ཐོ་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ མིང་རྟགས་བཀོད་ནིའི་ལག་ཁྱེར་དེ་ འཚོལ་མ་ཐོབ་པའམ་ ལག་ཁྱེར་དེ་དུས་ཡོལ་ཐལ་སོངཔ་འོང་ནི་མས།"
+
+#: NoSenderEncryptionCert
+msgid "You specified encryption for this message, but the application either failed to find the encryption certificate specified in your Mail & Newsgroup Account Settings, or the certificate has expired."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་གི་དོན་ལུ་ གསང་བཟོ་གསལ་བཀོད་འབད་ནུག། འདི་འབདཝ་ད་ གློག་རིམ་དེ་གིས་ ཁྱོད་ཀྱི་ཡིག་འཕྲིན་དང་གནས་ཚུལ་སྡེ་ཚན་གྱི་རྩིས་ཐོ་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ གསང་བཟོའི་ལག་ཁྱེར་དེ་ འཚོལ་མ་ཐོབ་པའམ་ ལག་ཁྱེར་དེ་དུས་ཡོལ་ཐལ་སོངཔ་འོང་ནི་མས།"
+
+#: MissingRecipientEncryptionCert
+msgid "You specified encryption for this message, but the application failed to find an encryption certificate for %S."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་གི་དནོ་ལུ་  གསང་བཟོ་གསལ་བཀོད་འབད་ནུག། འདི་འབདཝ་ད་ གློག་རིམ་དེ་གིས་%Sགི་དོན་ལུ་ གསང་བཟོའི་ལག་ཁྱེར་ཅིག་ འཚོལ་མ་ཐོབ།"
+
+#: SignNoSenderEncryptionCert
+msgid "You specified that this message should be digitally signed, but the application either failed to find an encryption certificate to include in the signed message, or the certificate has expired."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་ ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་ མིང་རྟགས་བཀོད་དགོཔ་སྦེ་ གསལ་བཀོད་འབད་ནུག། འདི་འབདཝ་ད་ གློག་རིམ་དེ་གིས་ མིང་རྟགས་བཀོད་ཡོད་པའི་འཕྲིན་དོན་གྱི་གྲངས་སུབ་ཙུགས་ནིའི་ གསང་བཟོའི་ལག་ཁྱེར་ཅིག་ འཚོལ་མ་ཐོབ་པའམ་ ལག་ཁྱེར་དེ་དུས་ཡོལ་ཐལ་སོངཔ་འོང་ནི་མས།"
+
+#: ErrorCanNotEncrypt
+msgid "Unable to encrypt message. Please check that you have a valid email certificate for each recipient. Please check that the certificates specified in Mail & Newsgroups Account Settings for this mail account are valid and trusted."
+msgstr "འཕྲིན་དོན་གསང་བ་བཟོ་མ་ཚུགས། ཁྱོད་ཀྱིས་ཐོབ་མཁན་རེ་རེ་བཞིན་དུ་ལུ་ ནུས་ཅན་གྱི་གློག་འཕྲིན་ཁ་བྱང་རེ་ ཡོད་མེད་ཞིབ་དཔྱད་རྒྱབས། ཡིག་འཕྲིན་རྩིས་ཐོ་འདི་གི་དོན་ལུ་ ཡིག་འཕྲིན་དང་གནས་ཚུལ་སྡེ་ཚན་གྱི་རྩིས་ཐོ་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ལག་ཁྱེར་ཚུ་ ནུས་ཅན་དང་བློ་གཏད་ཅན་ཨིན་ན་མེན་ ཞིབ་དཔྱད་རྐྱབས།"
+
+#: ErrorCanNotSign
+msgid "Unable to sign message. Please check that the certificates specified in Mail & Newsgroups Account Settings for this mail account are valid and trusted"
+msgstr "འཕྲིན་དོན་ལུ་མིང་རྟགས་བཀོད་མ་ཚུགས། ཡིག་འཕྲིན་རྩིས་ཐོ་འདི་གི་དོན་ལུ་ ཡིག་འཕྲིན་དང་གནས་ཚུལ་སྡེ་ཚན་གྱི་རྩིས་ཐོ་སྒྲིག་སྟངས་ནང་ གསལ་བཀོད་འབད་མི་ལག་ཁྱེར་ཚུ་ ནུས་ཅན་དང་བློ་གཏད་ཅན་ཨིན་ན་མེན་ ཞིབ་དཔྱད་རྐྱབས།"
+
+## Strings used for in the prefs.
+#: prefPanel-smime
+msgid "Security"
+msgstr "སྲུང་སྐྱོབ་"
+
+#: NoSigningCert
+msgid "Certificate Manager can't locate a valid certificate that can be used to digitally sign your messages."
+msgstr "ལག་ཁྱེར་འཛིན་སྐྱོང་པ་གིས་ ཁྱོད་ཀྱི་འཕྲིན་དོན་ཚུ་ལུ་ ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནི་ལུ་ ལག་ལེན་འཐབ་བཏུབ་པའི་ ནུས་ཅན་གྱི་ལག་ཁྱེར་ཅིག་ འཚོལ་མ་ཐོབ་པས།"
+
+#: NoEncryptionCert
+msgid "Certificate Manager can't locate a valid certificate that other people can use to send you encrypted email messages."
+msgstr "ལག་ཁྱེར་འཛིན་སྐྱོང་པ་གིས་ མི་གཞན་ཚུ་གིས་ ཁྱོད་ལུ་གསང་བཟོས་གློག་འཕྲིན་གྱི་ འཕྲིན་དོན་ཚུ་གཏང་ནི་ལུ་ལག་ ལེན་འཐབ་བཏུབ་པའི་ ནུས་ཅན་གྱི་ལག་ཁྱེར་ཅིག་ འཚོལ་མ་ཐོབ་པས།"
+
+#: encryption_needCertWantSame
+msgid "You should also specify a certificate for other people to use when they send you encrypted messages. Do you want to use the same certificate to encrypt & decrypt messages sent to you?"
+msgstr "ཁྱོད་ཀྱིས་ད་རུང་ མི་གཞན་ཚུ་གིས་ ཁྱོད་ལུ་གསང་བཟོས་འཕྲིན་དོན་ཚུ་གཏང་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ལག་ཁྱེར་ཅིག་གསལ་བཀོད་འབད་དགོ། ཁྱོད་ལུ་བཏང་ཡོད་པའི་འཕྲིན་དོན་ཚུ་ གསང་བ་བཟོ་ནི་དང་ གསང་བ་བཤོལ་ནིའི་དོན་ལུ་ ལག་ཁྱེར་གཅིགཔོ་དེ་ར་ ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: encryption_wantSame
+msgid "Do you want to use the same certificate to encrypt & decrypt messages sent to you?"
+msgstr "ཁྱོད་ལུ་བཏང་ཡོད་པའི་འཕྲིན་དོན་ཚུ་ གསང་བ་བཟོ་ནི་དང་ གསང་བ་བཤོལ་ནིའི་དོན་ལུ་ ལག་ཁྱེར་གཅིགཔོ་དེ་ར་ ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: encryption_needCertWantToSelect
+msgid "You should also specify a certificate for other people to use when they send you encrypted messages. Do you want to configure an encryption certificate now?"
+msgstr "ཁྱོད་ཀྱིས་ད་རུང་ མི་གཞན་ཚུ་གིས་ ཁྱོད་ལུ་གསང་བཟོས་འཕྲིན་དོན་ཚུ་གཏང་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ལག་ཁྱེར་ཅིག་གསལ་བཀོད་འབད་དགོ། ཁྱོད་ཀྱིས་གསང་བཟོའི་ལག་ཁྱེར་ཅིག་ ད་ལྟོ་ར་ རིམ་སྒྲིག་འབད་ནི་ཨིན་ན?"
+
+#: signing_needCertWantSame
+msgid "You should also specify a certificate to use for digitally signing your messages. Do you want to use the same certificate to digitally sign your messages?"
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་འཕྲིན་དོན་ཚུ་ལུ་ ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ ལག་ཁྱེར་ཅིག་གསལ་བཀོད་འབད་དགོ། ཁྱོད་ཀྱི་འཕྲིན་དོན་ཚུ་ལུ་ ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནི་ལུ་ ལག་ཁྱེར་གཅིགཔོ་དེ་ར་ ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: signing_wantSame
+msgid "Do you want to use the same certificate to digitally sign your messages?"
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་ཚུ་ལུ་ ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནི་ལུ་ ལག་ཁྱེར་གཅིགཔོ་དེ་ར་ ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: signing_needCertWantToSelect
+msgid "You should also specify a certificate to use for digitally signing your messages. Do you want to configure a certificate for digitally signing messages now?"
+msgstr "ཁྱོད་ཀྱིས་ད་རུང་ ཁྱོད་རའི་འཕྲིན་དོན་ཚུ་ལུ་ ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ལག་ཁྱེར་ཅིག་གསལ་བཀོད་འབད་དགོ། ཁྱོད་ཀྱིས་ཌི་ཇི་ཊཱལ་ཐོག་ལས་ མིང་རྟགས་བཀོད་ནིའི་ལག་ཁྱེར་ཅིག་ ད་ལྟོ་ར་ རིམ་སྒྲིག་འབད་ནི་ཨིན་ན?"
+

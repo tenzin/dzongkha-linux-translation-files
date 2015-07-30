@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-timer.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-04-10 14:02+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/xfcetimer.c:100
+#, c-format
+msgid "%dh %dm %ds left"
+msgstr "%dh %dm %ds གཡོན་"
+
+#: ../src/xfcetimer.c:103
+#, c-format
+msgid "%dm %ds left"
+msgstr "%dm %ds གཡོན་"
+
+#: ../src/xfcetimer.c:105
+#, c-format
+msgid "%ds left"
+msgstr "%ds གཡོན་"
+
+#: ../src/xfcetimer.c:126
+msgid ""
+"Beeep! :) \n"
+"Time is up!"
+msgstr ""
+"བིའིཔ! :) \n"
+"དུས་ཚོད་ཚང་!"
+
+#: ../src/xfcetimer.c:424
+msgid "Stop timer"
+msgstr "དུས་འཛིན་བཀག་"
+
+#: ../src/xfcetimer.c:426
+msgid "Start timer"
+msgstr "དུས་འཛིན་འགོ་བཙུགས་"
+
+#: ../src/xfcetimer.c:436
+msgid "Stop the alarm"
+msgstr "འཇིགས་བརྡ་བཀག་"
+
+#: ../src/xfcetimer.c:482
+#: ../src/xfcetimer.c:556
+#, c-format
+msgid "%dh %dm %ds"
+msgstr "%dh %dm %ds"
+
+#: ../src/xfcetimer.c:484
+#: ../src/xfcetimer.c:558
+#, c-format
+msgid "%dm %ds"
+msgstr "%dm %ds"
+
+#: ../src/xfcetimer.c:486
+#: ../src/xfcetimer.c:560
+#, c-format
+msgid "%ds"
+msgstr "%ds"
+
+#: ../src/xfcetimer.c:496
+#: ../src/xfcetimer.c:570
+#, c-format
+msgid "At %02d:%02d"
+msgstr "ལུ་ %02d:%02d"
+
+#: ../src/xfcetimer.c:619
+msgid "Name"
+msgstr "མིང་"
+
+#. ********
+#: ../src/xfcetimer.c:627
+msgid "Enter the countdown time"
+msgstr "གྱངས་ཁ་བརྐྱབ་པའི་དུས་ཚོད་ཐོ་བཀོད་འབད་"
+
+#: ../src/xfcetimer.c:629
+msgid "Enter the time of alarm (24h format)"
+msgstr "འཇིགས་བརྡའི་དུས་ཚོད་ (24h རྩ་སྒྲིག་)འདི་ཐོ་བཀོད་འབད་"
+
+#: ../src/xfcetimer.c:640
+msgid "h  "
+msgstr "ཨེཆ་"
+
+#: ../src/xfcetimer.c:645
+msgid "m  "
+msgstr "ཨེམ་"
+
+#: ../src/xfcetimer.c:650
+msgid "s  "
+msgstr "ཨེསི་"
+
+#: ../src/xfcetimer.c:653
+msgid ""
+"\n"
+"or\n"
+msgstr ""
+"\n"
+"ཡང་ན་\n"
+
+#. **************
+#: ../src/xfcetimer.c:673
+msgid ""
+"\n"
+"The command to run"
+msgstr ""
+"\n"
+"གཡོག་བཀོལ་ནིའི་བརྡ་བཀོད་"
+
+#: ../src/xfcetimer.c:699
+msgid "Add new alarm"
+msgstr "འཇིགས་བརྡ་གསརཔ་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/xfcetimer.c:737
+msgid "Edit alarm"
+msgstr "འཇིགས་བརྡ་ཞུན་དག་འབད་"
+
+#: ../src/xfcetimer.c:1162
+msgid "Properties"
+msgstr "རྒྱུ་དངོས་"
+
+#: ../src/xfcetimer.c:1174
+msgid "Xfce4 Timer Options"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་༤་ དུས་འཛིན་གདམ་ཁ་ཚུ་"
+
+#: ../src/xfcetimer.c:1205
+msgid ""
+"Timer\n"
+"name"
+msgstr ""
+"དུས་འཛིན་\n"
+"མིང་"
+
+#: ../src/xfcetimer.c:1210
+msgid ""
+"Countdown period /\n"
+"Alarm time"
+msgstr ""
+"གྱངས་ཁ་བརྐྱབ་པའི་དུས་ཡུན་ /\n"
+"འཇིགས་བརྡའི་དུས་ཡུན་"
+
+#: ../src/xfcetimer.c:1214
+msgid "Alarm command"
+msgstr "འཇིགས་བརྡའི་བརྡ་བཀོད་"
+
+#: ../src/xfcetimer.c:1257
+msgid ""
+"Don't display the warning window\n"
+"if an alarm command is set"
+msgstr ""
+"ཉེན་བརྡའི་སྒོ་སྒྲིག་འདི་བཀྲམ་སྟོན་མ་འབད་\n"
+"ག་དེམ་ཅིག་སྦེ་འཇིགས་བརྡའི་བརྡ་བཀོད་འདི་གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་"
+
+#: ../src/xfcetimer.c:1264
+msgid "Repeat the alarm command:"
+msgstr "འཇིགས་བརྡའི་བརྡ་བཀོད་འདི་ཡང་བསྐྱར་འབད:"
+
+#: ../src/xfcetimer.c:1271
+msgid "Number of repetitions"
+msgstr "ཡང་བསྐྱར་ཚུ་གི་ཨང་གྲངས་"
+
+#: ../src/xfcetimer.c:1277
+msgid "  Time interval (sec.)"
+msgstr "  དུས་ཚོད་བར་མཚམས་ (sec.)"
+
+#: ../src/xfce4-timer.desktop.in.in.h:1
+msgid "Timer plugin for Xfce 4.4 panel"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ 4.4 པེ་ནཱལ་གྱི་དོན་ལུ་ དུས་འཛིན་པ་ལག་ཨིན་"
+
+#: ../src/xfce4-timer.desktop.in.in.h:2
+msgid "Xfce4 Timer"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་དུས་འཛིན་"
+

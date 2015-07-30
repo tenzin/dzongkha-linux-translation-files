@@ -1,0 +1,99 @@
+# LANGUAGE translation of Drupal (includes/file.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: file.inc,v 1.74.2.2 2006/06/01 21:36:59 killes
+# Kinley Tshering <gasepkuenden2k3@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-4.7/file-inc.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-18 14:58+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: includes/file.inc:92
+msgid "The directory %directory has been created."
+msgstr "སྣོད་ཐོ་  %directory  གསར་བསྐྲུན་འབད་ཡོད།"
+
+#: includes/file.inc:106
+msgid "The permissions of directory %directory have been changed to make it writable."
+msgstr "སྣོད་ཐོ་གི་གནང་བ་ %directoryའདི་  འབྲི་བཏུབ་བཟོ་ནི་ལུ་  བསྒྱུར་བཅོས་འབད་ཡོད།"
+
+#: includes/file.inc:109
+msgid "The directory %directory is not writable"
+msgstr "སྣོད་ཐོ་ %directoryདེ་  འབྲི་མི་བཏུབ་པས།"
+
+#: includes/file.inc:110
+msgid "The directory %directory is not writable, because it does not have the correct permissions set."
+msgstr "སྣོད་ཐོ་%directoryའདི་འབྲི་མི་བཏུབ་པས་  ག་ཅིག་འབད་ཟེར་བ་ཅིན་  འདི་ལུ་ གཞི་སྒྲིག་འབད་ནིའི་  གནང་བ་ངེས་བདེན་ཚུ་མིན་འདུག"
+
+#: includes/file.inc:121
+msgid "Security warning: Couldn't write .htaccess file. Please create a .htaccess file in your %directory directory which contains the following lines: <code>!htaccess</code>"
+msgstr "སྲུང་སྐྱོབ་ཉེན་བརྡ་:  htaccess ཡིག་སྣོད་འདི་འབྲི་མི་བཏུབ་པས།  འོག་གི་གྲལ་ཐིག་:<code>%htaccess</code>ཚུ་ཡོད་པའི་  ཁྱོད་རའི་%directory  སྣོད་ཐོ་ནང་ htaccess སྣོད་ཐོ་ཅིག་གསར་བསྐྲུན་འབད། "
+
+#: includes/file.inc:207
+msgid "The file %file could not be saved, because it exceeds the maximum allowed size for uploads."
+msgstr "ཡིག་སྣོད་ %fileའདི་  སྲུངས་བཞག་འབད་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་ སྐྱེལ་བཙུགས་འབད་ནི་ལུ་  མང་མཐའི་ཚད་བྱིན་མི་ལས་  ལྷག་སྟེ་ཡར་སོང་ནུག"
+
+#: includes/file.inc:212
+msgid "The file %file could not be saved, because the upload did not complete."
+msgstr "ཡིག་སྣོད་ %fileའདི་  སྲུངས་བཞག་འབད་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  སྐྱེལ་བཙུགས་དེ་ མཇུག་བསྡུ་མ་ཚུགས།"
+
+#: includes/file.inc:217
+msgid "The file %file could not be saved. An unknown error has occurred."
+msgstr "ཡིག་སྣོད་  %fileའདི་  སྲུངས་བཞག་འབད་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་ཅིན་  འཛོལ་བ་གཅིག་བྱུང་ནུག"
+
+#: includes/file.inc:240
+msgid "File upload error. Could not move uploaded file."
+msgstr "ཡིག་སྣོད་ སྐྱེལ་བཙུགས་ཀྱི་འཛོལ་བ།  སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་  ཡིག་སྣོད་དེ་  སྤོ་བཤུད་འབད་མ་ཚུགས།"
+
+#: includes/file.inc:241
+msgid "Upload Error. Could not move uploaded file (%file) to destination (%destination)."
+msgstr "སྐྱེལ་བཙུགས་འཛོལ་བ།  སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་  ཡིག་སྣོད(%file)འདི་  འགྲོ་ཡུལ་(%destination) སྤོ་བཤུད་འབད་མ་ཚུགས།"
+
+#: includes/file.inc:321
+msgid "The selected file %file could not be uploaded, because the destination %directory is not properly configured."
+msgstr "འགྲོ་ཡུལ་ %directoryའདི་ ཚུལ་ལྡན་སྦེ་རིམ་སྒྲིག་འབད་མ་ཚུགསཔ་ལས་བརྟེན་  སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་ %file ་འདི་  སྐྱེལ་བཙུགས་འབད་མ་ཚུགས།"
+
+#: includes/file.inc:322
+msgid "The selected file %file could not be uploaded, because the destination %directory could not be found, or because its permissions do not allow the file to be written."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་  ཡིག་སྣོད་ %file འདི་  སྐྱེལ་བཙུགས་འབད་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  འགྲོ་ཡུལ་ %directory འདི་མ་ཐོབ་  ཡང་ན་ ཡིག་སྣོད་དེ་འབྲི་ནི་ལུ་ གནང་བ་མ་བྱིནམ་ལས་བརྟེན་ཨིན་པས།"
+
+#: includes/file.inc:337
+msgid "The selected file %file could not be copied, because no file by that name exists. Please check that you supplied the correct filename."
+msgstr "འདི་བཟུམ་མིང་ཡོད་མི་  ཡིག་སྣོད་དེ་མེདཔ་ལས་བརྟེན་  སེལ་འཐུ་འབད་ཡོད་པའི་ ཡིག་སྣོད་ %file འདི་  འདྲ་བཤུས་རྐྱབ་མ་བཏུབ།  ཁྱོད་ཀྱིས་ཡིག་སྣོད་ཀྱི་མིང་ངེས་བདེན་སྦེ་  བཀྲམ་སྤེལ་འབད་ཡོདཔ་འདི་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: includes/file.inc:369
+msgid "The selected file %file could not be copied, because a file by that name already exists in the destination."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་  ཡིག་སྣོད་  %file ་དེ་  འདྲ་བཤུས་རྐྱབ་མི་བཏུབ་པས་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  འདི་བཟུམ་མིང་དེ་  འགྲོ་ཡུལ་ནང་  ཧེ་མ་ལས་རང་འདུག"
+
+#: includes/file.inc:375
+msgid "The selected file %file could not be copied."
+msgstr "ཡིག་སྣོད་  %file ་སེལ་འཐུ་གྲུབ་ཡོད་མི་འདི་  འདྲ་བཤུས་རྐྱབ་མ་ཚུགས།"
+
+#: includes/file.inc:424
+msgid "The removal of the original file %file has failed."
+msgstr "ཡིག་སྣོད་  %file ་ངོ་མ་  རྩ་བསྐྲད་གཏང་ནི་འདི་  འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: includes/file.inc:527
+msgid "The file could not be created."
+msgstr "ཡིག་སྣོད་དེ་  གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: includes/file.inc:110;322
+msgid "file system"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས།"
+
+#: includes/file.inc:241
+msgid "file"
+msgstr "ཡིག་སྣོད།"
+
+#~ msgid "The directory %directory does not exist."
+#~ msgstr "སྣོད་ཐོ་ %directoryཐོ་དེ་  མིན་འདུག་"
+

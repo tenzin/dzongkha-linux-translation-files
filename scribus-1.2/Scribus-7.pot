@@ -1,0 +1,344 @@
+# translation of Scribus-7.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Dorji Tashi <dorjee_doss@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scribus-7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-28 13:43+0100\n"
+"PO-Revision-Date: 2006-05-12 09:39+0600\n"
+"Last-Translator: Dorji Tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: CHARSET\n"
+"X-Generator: KBabel 1.10.2\n"
+
+msgid "&Recent Scripts"
+msgstr "འཕྲལ་གྱི་ཡིག་རྒྱུན།(&R)"
+
+msgid "Show &Console"
+msgstr "མ་སྒྲོམ་སྟོན།(&C)"
+
+msgid "Display an interactive Python console where you can write and run Python programs that use the Scripter tools."
+msgstr "ཁྱོད་ཀྱིས སི་ཀིརིབ་ཊར་ལག་ཆས་ཚུ་ལག་ལེན་འཐབ་མི་ པ་ཡི་ཐཱོན་ལས་རིམ་ཚུ་འབྲི་ཚུགས་མི་དང་གཡོག་བཀོལ་ཚུགས་མི་ ཕན་ཚུན་འབྲ་བ་ཅན་གྱི་པ་ཡི་ཐཱོན་མ་སྒྲོམ་དེ་ བཀྲམ་སྟོན་འབད།"
+
+msgid "&About Script..."
+msgstr "ཡིག་ཚུགས་ཀྱི་སྐོར...(&A)"
+
+msgid "S&cript"
+msgstr "ཡིག་ཚུགས།(&c)"
+
+msgid "Scripter &Settings"
+msgstr "སི་ཀིརིབ་ཊར་སྒྲིག་སྟངས།(&S)"
+
+msgid "Python Scripts (*.py);; All Files (*)"
+msgstr "པ་ཡི་ཐཱོན་ཡིག་ཚུགས།(*.པ་ཡི་);; ཡིག་སྣོད་ཆ་མཉམ (*)"
+
+msgid "Script error"
+msgstr "ཡིག་ཚུགས་འཛོལ་བ།"
+
+msgid "If you are running an official script report it at <a href=\"http://bugs.scribus.net\">bugs.scribus.net</a> please."
+msgstr ""
+"ཁྱོད་ གཞུང་འབྲེལ་གྱི་ཡིག་ཚཛུགས་གཡོག་བཀོལ་དོ་ཨིན་པ་ཅིན་ "
+"<a href=\"http://bugs.scribus.net\">bugs.scribus.net</a> ལུ་སྙན་ཞུ་འབད་གནང་།."
+
+msgid "This message is in your clipboard too. Use Ctrl+V to paste it into bug tracker."
+msgstr "ཁྱོད་ཀྱི་འཛིན་དཔང་ནང་ལུ་ཡང་ འཕྲིན་དོན་འདི་ཡོད། རྐྱེན་འཚོལ་མི་ལུ་སྦྱར་ནིའི་དོན་ལུ་ ཚད་འཛིན་+ཝི་ལག་ལེན་འཐབ།"
+
+msgid "Scribus - Script Plugin"
+msgstr "སི་ཀིརི་བསི་-ཡིག་ཚུགས་པ་ལག་ཨིན།"
+
+msgid ""
+"The 'Load Script' function of the script plugin is currently disabled.\n"
+"If you just want to run a normal script, you probably want to use\n"
+"'Execute Script...' instead.\n"
+"\n"
+"If you do actually want to load a Python extension script or macro, you\n"
+"need to go into the Scripter Settings in the Script menu and enable\n"
+"scripter extensions there.\n"
+"\n"
+"Please read the documentation on extension scripts first.\n"
+msgstr ""
+"'ཡིག་ཚུགས་མངོན་གསལ་འབད' ཡིག་ཚུགས་པ་ལག་ཨིན་གྱི་ལས་འགན་དེ་ ད་ལྟོ་ལྕོགས་མིན་ཐལ་ཏེ་ཡོད།\n"
+"ཁྱོད་པྱིར་གཏང་ཡིག་ཚུགས་རྐྱངམ་ཅིག་གཡོག་བཀོལ་ནི་ཨིན་པ་ཅིན་\n"
+" ཁྱོད་ཀྱིས་དེ་གི་ཚབས་ལུ་ མང་ཤོས་རང་'ཡིག་ཚུགས་ལག་ལེན་འཐབ་...'དེ་ལག་ལེན་འཐབ་དགོ་བནོཝ་ཨིན།\n"
+"\n"
+"ཁྱོད་ཀྱིས་ངོ་མ་སྦེ་ པ་ཡི་ཐཱོན་བརྒྱ་བསྐྱེད་ཡིག་ཚུགས་ ཡང་ན མེཀ་རོ་མངོན་གསལ་འབད་ནི་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱིས་\n"
+"ཡིག་ཚུགས་དཀར་ཆག་ནང་གི་ སི་ཀིརིབ་ཊར་སྒྲིག་སྟངས་ནང་ལུ་འགྱོ་སྟེ་\n"
+"དེ་ནང་ལུ་ སི་ཀིརིབ་ཊར་བརྒྱ་བསྐྱེད་དེ་ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན།\n"
+"\n"
+"དང་པ་རང་ བརྒྱ་བསྐྱེད་ཡིག་ཚུག་གུར་ ཡིག་ཐོག་བཀོད་ཡོད་མི་དེ་ལྷག་གནང་།\n"
+
+msgid "Hide &Console"
+msgstr "སྦ་བཞག་ནི་དང་ མ་སྒྲོམ།"
+
+msgid "About Script"
+msgstr "ཡིག་རྒྱུན་གྱི་སྐོར།"
+
+msgid "Editing Macro: <b>"
+msgstr "མེཀ་རོ་ཞུན་དག་འབད་དོ:<བི་>"
+
+msgid "Python source files (*.py)"
+msgstr "པའི་ཐོན་ འབྱུང་ཁུངས་ཡིག་སྣོད་ཚུ་(*.པི་ཝའི་)"
+
+msgid "Save File Dialog"
+msgstr "ཡིག་སྡོད་ཌའི་ལོག་སྲུང་བཞག་འབད།"
+
+msgid "Save macro source"
+msgstr "མེཀ་རོའི་འབྱུང་ཁུངས་སྲུང་བཞག་འབད།"
+
+msgid "Scribus - Macro Manager"
+msgstr "སི་ཀིརི་བསི་-མེཀ་རོ་འཛིན་སྐྱོང་པ།"
+
+msgid ""
+"The file '%1' already exists.\n"
+"Are you sure you want to overwrite it?\n"
+msgstr ""
+"ཡིག་སྣོད་'%1'དེ་ཧ་མ་ལས་རང་འདུག\n"
+"ཁྱོད་ཀྱིས་དེ་ཚབ་སྲུང་འབད་ནི་དེ་ངེས་ཏིག་ཨིན་ན?\n"
+
+msgid "Open File Dialog"
+msgstr "ཡིག་སྣོད་ཌའི་ལོག་ཁ་ཕྱེ།"
+
+msgid "Select the source file to load"
+msgstr "མངོན་གསལ་འབད་ནིའི་དོན་ལུ་ འབྱུང་ཁུངས་ཡིག་སྣོད་དེ་སེལ་འཐུ་འབད།"
+
+msgid ""
+"You have already edited this macro.\n"
+"Are you sure you want to discard all your changes?\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་མེཀ་རོ་དེ་ཧེ་མ་ལས་རང་ཞུན་དག་འབད་ཚར་ནུག\n"
+"ཁྱོད་ཀྱིས་ ཁྱོད་རའི་བསྒྱུར་བཅོས་ཚུ་ བཏོན་བཀོག་དེ་ངེས་ཏིག་ཨིན་ན?\n"
+
+msgid ""
+"A full traceback follows:\n"
+"\n"
+"%1\n"
+msgstr ""
+"ལོག་བཤུལ་འཚོལ་ཆ་ཚང་དེ་གིས་ རྗེས་སུ་འབྲངསམ་ཨིན:\n"
+"\n"
+"%1\n"
+
+msgid ""
+"Compilation of the macro failed, so it can not \n"
+"be saved in its current form. The error was:\n"
+"%1\n"
+msgstr ""
+"མེཀ་རོ་ཕྱོགས་སྒྲིག་འབད་ནི་འཐུས་ཤོར་བྱུང་ནུག དེ་འབདཝ་ལས་ \n"
+"དེ་གི་ད་ལྟོའི་རྣམ་པའི་ནང་ལུ་ སྲུང་བཞག་འབད་མི་ཚུགས། འཚོལ་བ་དེ:\n"
+"%1\n"
+
+msgid "An object with the requested name already exists"
+msgstr "མིང་གི་ཐོག་ལས་ཞུ་བ་འབད་མི་དངོས་པོ་དེ་ཧེ་མ་ལས་རང་འདུག"
+
+msgid "Point list must contain at least two points (four values)"
+msgstr "ཡིག་ཚད་ཐོ་ཡིག་ནང་ལུ་་ཉུང་མཐའ་ལུ་ཡིག་ཚད་གཉིས་འོང་དགོ(གནས་གོང་བཞི)"
+
+msgid "Point list must contain an even number of values"
+msgstr "ཡིག་ཚད་ཐོ་ཡི་ནང་ལུ་ གནས་གོང་གི་ཆ་ཅན་ཨང་ཡིག་ཚུ་འོང་དགོཔ་ཨིན།"
+
+msgid "Point list must contain at least three points (six values)"
+msgstr "ཡིག་ཚཐ་ཐོ་ཡིག་ནང་ལུ་ ཉུང་མཐའ་ལུ་ཡིག་ཚད་གསུམ་འོང་དགོ(གནས་གོང་དྲུག)"
+
+msgid "Point list must contain at least four points (eight values)"
+msgstr "ཡིག་ཚད་ཐོ་ཡིག་ནང་ལུ་ཉུང་མཐའ་ལུ་ ཡིག་ཚད་བཞི་འོང་དགོ(གནས་གོང་བརྒྱད་)"
+
+msgid "Point list must have a multiple of six values"
+msgstr "ཡིག་ཚད་ཐོ་ཡིག་ནང་ལུ་ སྣ་མང་ཅན་གྱི་གནས་གོང་དྲུགལ་དགོ"
+
+msgid "Object not found"
+msgstr "དངོས་པོ་འཚོལ་མ་ཐོབ།"
+
+msgid "Style not found"
+msgstr "བཟོ་རྣམ་འཚོལ་མ་ཐོབ།"
+
+msgid "Can't set style on a non-text frame"
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་བཟོ་རྣམ་གཞི་སྒྲིག་འབད་མི་བཏུབ།"
+
+msgid "Line width out of bounds, must be 0 <= line_width <= 12"
+msgstr "བཅད་མཚམས་ནང་གི་གྲལ་ཐིག་དེ་ ༠ <= གྲལ་ཐིག་རྒྱ་ཚད་ <= ༡༢"
+
+msgid "Line shade out of bounds, must be 0 <= shade <= 100"
+msgstr "བཅད་མཚམས་ནང་གི་གྲལ་ཐིག་གྲིབ་ནག་དེ་ ༠ <= གྲིབ་ནག་ <= ༡༠༠"
+
+msgid "Fill shade out of bounds, must be 0 <= shade <= 100"
+msgstr "བཅད་མཚམས་ནང་གི་གྲིབ་ནག་གིས་བཀང་ནི་དེ་ ༠ <= གྲིབ་ནག་<= ༡༠༠སྦེ་དགོ"
+
+msgid "Corner radius must be a positive number."
+msgstr "སྒྱིད་ཁུག་གི་མཐའ་འཁོར་དེ་ ཡོད་ཆའི་ཨང་ཡིག་དགོ"
+
+msgid "Line style not found"
+msgstr "གྲལ་ཐིག་གི་བཟོ་རྣམ་འཚོལ་མ་ཐོབ།"
+
+msgid "Target is not an image frame."
+msgstr "དམིགས་གཏད་དེ་གཟུགས་བརྙན་གྱི་གཞི་ཁྲམ་མེན།"
+
+msgid "Cannot scale by 0%."
+msgstr " 0%.གིས་ཆ་ཚད་འཇལ་མི་ཚུགས།"
+
+msgid "Specified item not an image frame."
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་རྣམ་གྲངས་དེ་གཟུགས་བརྙན་གྱི་གཞི་ཁྲམ་མེན།"
+
+msgid "Cannot get font size of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཡཡིག་གཟུགས་ཚད་ལེན་མི་ཚུགས།"
+
+msgid "Cannot get font of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཡིག་གཟུགས་ལེན་མི་ཚུགས།"
+
+msgid "Cannot get text size of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཚིག་ཡིག་ཚད་ལེན་མི་ཚུགས།"
+
+msgid "Cannot get column count of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཀེར་ཐིག་གྱངས་ཁ་ལེན་མི་ཚུགས།"
+
+msgid "Cannot get line space of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་གྲལ་ཐིག་བར་སྟོང་ལེན་མི་ཚུགས།"
+
+msgid "Cannot get column gap of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཀེར་ཐིག་བར་སྟོང་ལེན་མི་ཚུགས།"
+
+msgid "Cannot get text of non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཚིག་ཡིག་ལེན་མི་ཚུགས།"
+
+msgid "Cannot set text of non-text frame."
+msgstr "ཚི་ཡིག་གཞི་ཁྲམ་-མེན་མི་གི་ཚིག་ཡིག་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Cannot insert text into non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ-མེན་མི་ནང་ལུ་ཚིག་ཡིག་བཙུགས་མི་ཚུགས།"
+
+msgid "Insert index out of bounds."
+msgstr "བཅད་མཚམས་ནང་ལས་ཟུར་ཐོ་བཙུགས།"
+
+msgid "Alignment out of range. Use one of the scribus.ALIGN* constants."
+msgstr "ཁྱབ་ཚད་ཀྱི་ནང་ལས་ཕྲང་སྒྲིག སི་ཀིརི་བསི་ག་འབད་རུང་ཅིག་ལག་ལེན་འཐབ། ཕྲང་སྒྲིག་འབད*ཆད་མེད་ཚུ།"
+
+msgid "Cannot set text alignment on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་ཚིག་ཡིག་ཕྲང་སྒྲིག་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Font size out of bounds - must be 1 <= size <= 512."
+msgstr "བཅད་མཚམས་ནང་ལས་ཡིག་གཟུགས་ཀྱི་ཚད་དེ་༡ <= ཚད་ <= ༥༡༢."
+
+msgid "Cannot set font size on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་ཡིག་གཟུགས་ཀྱི་ཚད་ གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Cannot set font on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་ཡིག་གཟུགས་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Font not found."
+msgstr "ཡིག་གཟུགས་འཚོལ་མ་ཐོབ།"
+
+msgid "Line space out of bounds, must be >= 0.1."
+msgstr "བཅད་མཚམས་གྱི་ནང་ལས་ གྲལ་ཐིག་བར་སྟོང་དེ་  >= ༠.༡་ སྦེ་སྥེ་དགོ"
+
+msgid "Cannot set line spacing on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་ གྲལ་ཐིག་བར་སྟོང་སྟོན་ནི་དེ་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Column gap out of bounds, must be positive."
+msgstr "བཅད་མཚམས་ཀྱི་ནང་ལས་ཀེར་ཐིག་གི་བར་སྟོང་དེ་ཡོད་ཆ་སྦེ་དགོཔ་ཨིན།"
+
+msgid "Cannot set column gap on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་ཅིག་གུར་ ཀེར་ཐིག་གི་བར་སྟོང་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Column count out of bounds, must be > 1."
+msgstr "བཅད་མཚམས་གི་ནང་ལས་ ཀེར་ཐིག་གི་གྱངས་ཁ་དེ་ > 1སྦེ་དགོཔ་ཨིན།"
+
+msgid "Cannot set number of columns on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་ཿམེན་མི་གུར་ ཀེར་ཐིག་གི་གྱངས་ཁ་གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Selection index out of bounds"
+msgstr "བཅད་མཚམས་ནང་ལས་ཟུར་ཐོའི་སེལ་འཐུ།"
+
+msgid "Cannot select text in a non-text frame"
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་ནང་ལས་ ཚིག་ཡིག་སེལ་འཐུ་འབད་མི་ཚུགས།"
+
+msgid "Cannot delete text from a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་ནང་ལས་ ཚིག་ཡིག་བཏོན་གཏང་མི་ཚུགས།"
+
+msgid "Cannot set text fill on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ-མེན་མི་གུར་ ཚིག་ཡིག་བཀང་ནི་ གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Cannot set text stroke on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་ ཚིག་ཡིག་སི་ཊོརོག་ གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Cannot set text shade on a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་གུར་ ཚིག་ཡིག་ནག་གྲིབ་ གཞི་སྒྲིག་འབད་མི་ཚུགས།"
+
+msgid "Can only link text frames."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་རྐྱམ་ཅིག་འབྲེལ་མཐུད་འབད་ཚུགས།"
+
+msgid "Target frame must be empty."
+msgstr "དམིགས་གཏད་གཞི་ཁྲམ་དེ་ སྟོངམ་སྦེ་དགོ"
+
+msgid "Target frame links to another frame."
+msgstr "དམིགས་གཏད་གཞི་ཁྲམ་དེ་གིས་ གཞི་ཁྲམ་གཞན་མི་ལུ་ འབྲེལ་མཐུད་འབདཝ་ཨིན།"
+
+msgid "Target frame is linked to by another frame."
+msgstr "དམིགས་གཏད་གཞི་ཁྲམ་དེ་ གཞི་ཁྲམ་གཞན་མི་ཅིག་གིས་ འབྲེལ་མཐུད་འབད་ནུག།"
+
+msgid "Source and target are the same object."
+msgstr "འབྱུང་ཁུངས་དང་ དམིགས་གཏད་ཚུ་ དངོས་པོ་གཅིག་ཨིན།"
+
+msgid "Cannot unlink a non-text frame."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་ཅིག་འབྲེལ་མཐུད་འབད་ནི་ལས་བཤོལ་མི་ཚུགས།"
+
+msgid "Object is not a linked text frame, cannot unlink."
+msgstr "དངོས་པོ་དེ་འབྲེལ་མཐུད་འབད་ཡོད་པའི་ཚིག་ཡིག་གཞི་ཁྲམ་མེན། འབྲེལ་མཐུད་འབད་ནི་བཤོལ་མི་ཚུགས།"
+
+msgid "Object the last frame in a series, cannot unlink. Unlink the previous frame instead."
+msgstr "རྒྱུན་རིམ་ནང་གི་མཇུག་མམ་གྱི་གཞི་ཁྲམ་དེ་བཀག འབྲེལ་མཐུད་བཤོལ་མི་ཚུགས། དེ་གི་ཚབ་ལུ་ ཧེ་མའི་གཞི་ཁྲམ་དེ་འབྲེལ་མཐུད་འབད་ནི་བཤོལ།"
+
+msgid "Cannot convert a non-text frame to outlines."
+msgstr "ཚིག་ཡིག་གཞི་ཁྲམ་-མེན་མི་དེ་མཐའ་ཐིག་ལུ་གཞི་བསྒྱུར་འབད་མི་ཚུགས།"
+
+msgid "Only text frames can be checked for overflowing"
+msgstr "ལུད་དེ་ཡོད་མེད་བལྟ་ནིདི་དོན་ལུ་ ཚིག་ཡིག་གཞི་ཁྲམ་ཚུ་རྐྱངམ་ཅིག་ཞིབ་དཔྱད་འབད་ཚུགས།"
+
+msgid "Can't set bookmark on a non-text frame"
+msgstr "ཚིག་ཡིག་མེན་མི་-གཞི་ཁྲམ་གུར་ དེབ་རྟགས་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+msgid "Can't get info from a non-text frame"
+msgstr "ཚིག་ཡིག་མེན་མི་-གཞི་ཁྲམ་ནང་ལས་ བརྡ་དོན་ཐོབ་མ་ཚུགས།"
+
+msgid "Insert value"
+msgstr "གནས་གོང་བཙུགས།"
+
+msgid "Enter a value then press OK."
+msgstr "གནས་གོང་ཅིག་བཙུགས་ཞིནམ་ལས་ བཏུབ་ལུ་ཨེབ།"
+
+msgid "Enter a value then press OK"
+msgstr "གནས་གོང་ཅིག་བཙུགས་ཞིནམ་ལས་ བཏུབ་ལུ་ཨེབ།"
+
+msgid "Send your value to the script"
+msgstr "ཁྱོད་ཀྱི་གནས་གོང་དེ་ཡིག་ཚུགས་ནང་ལུ་གཏང་།"
+
+msgid "Scribus Macro Files (*.pymacro)"
+msgstr "སི་ཀིརི་བསི་ མེཀརོ་ཡིག་སྣོད་(*པི་ཝའི་ མེཀ་རོ)"
+
+msgid "Select the macro file to load."
+msgstr "མེཀ་རོ་ཡིག་སྣོད་དེ་ མངོན་གསལ་ལུ་སེལ་འཐུ་འབད།"
+
+msgid "Save all macros"
+msgstr "མེཀ་རོ་ཆ་མཉམ་སྲུང་བཞག་འབད།"
+
+msgid "Scribus - Rename Macro"
+msgstr "སི་ཀིརི་བསི་-མེཀརོ་བསྐྱྲ་མིང་བཏགས།"
+
+msgid "Enter new name: "
+msgstr "མིང་གསརཔ་བཙུགས:"
+
+msgid "Scribus - Set Macro Shortcut"
+msgstr "སི་ཀིརི་བསི་-མེགརོ་མགྱོགས་ཐབས་གཞི་སྒྲིག་འབད།"
+
+msgid "Enter new shortcut: "
+msgstr "མགྱོགས་ཐབས་གསརཔ་བཙུགས:"
+
+msgid "Renaming the macro failed because the name is already in use."
+msgstr "མེཀརོ་བསྐྱར་མིང་བཏགས་ནི་དེ་འཐུས་ཤོར་བྱུང་ནུག་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ མིང་དེ་ཧེ་མ་ལས་རང་ལག་ལེན་འཐབ་སྟེ་འདུག"
+

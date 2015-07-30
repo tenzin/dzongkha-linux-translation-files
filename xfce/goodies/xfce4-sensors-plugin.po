@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-sensors-plugin.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-04-10 10:28+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/sensors.c:153
+#: ../panel-plugin/sensors.c:2162
+msgid "<b>Sensors</b>"
+msgstr "<b>ཚོར་འཕྲུལ་ཚུ་</b>"
+
+#: ../panel-plugin/sensors.c:272
+#, c-format
+msgid "<span foreground=\"#000000\" size=\"%s\"><b>Sensors</b></span>\n"
+msgstr "<span foreground=\"#000000\" size=\"%s\"><b>ཚོར་འཕྲུལ་ཚུ་</b></span>\n"
+
+#: ../panel-plugin/sensors.c:334
+#, c-format
+msgid "<span foreground=\"#000000\" size=\"%s\"><b>Sensors</b></span>"
+msgstr "<span foreground=\"#000000\" size=\"%s\"><b>ཚོར་འཕྲུལ་ཚུ་</b></span>"
+
+#. circumvent empty char pointer
+#: ../panel-plugin/sensors.c:441
+msgid "No sensors selected!"
+msgstr "ཚོར་འཕྲུལ་ཚུ་སེལ་འཐུ་མ་འབད་བས!"
+
+#: ../panel-plugin/sensors.c:479
+#: ../panel-plugin/sensors.c:1677
+msgid ""
+" \n"
+"Xfce Hardware Sensors Plugin: \n"
+"Seems like there was a problem reading a sensor feature value. \n"
+"Proper proceeding cannot be guaranteed.\n"
+msgstr ""
+" \n"
+"ཨེགསི་ཨེཕ་སི་ཨི་སྲ་ཆས་ཚོར་འཕྲུལ་པ་ལག་ཨིན་: \n"
+"ཚོར་འཕྲུལ་ཁྱད་རྣམ་གནས་གོང་གཅིག་ལྷག་པའི་བསྒང་ དཀའ་ངལ་ཡོདཔ་བཟུམ་ཅིག་འདུག། \n"
+"ཚུལ་ལྡན་བྱ་རིམ་འདི་ཉེན་ལེན་འབད་མི་ཚུགས།\n"
+
+#: ../panel-plugin/sensors.c:500
+#, c-format
+msgid "%5.0f rpm"
+msgstr "%5.0f ཨར་པི་ཨེམ་"
+
+#: ../panel-plugin/sensors.c:723
+msgid "Error: Could not connect to sensors!"
+msgstr "འཛོལ་བ: ཚོར་འཕྲུལ་ཚུ་ལུ་མཐུད་མ་ཚུགས!"
+
+#: ../panel-plugin/sensors.c:813
+#: ../panel-plugin/sensors.c:887
+msgid "Hard disks"
+msgstr "ཧརཌི་ཌིཀིསི་"
+
+#: ../panel-plugin/sensors.c:923
+msgid "No sensors found!"
+msgstr "ཚོར་འཕྲུལ་ཚུ་མ་ཐོབ!"
+
+#: ../panel-plugin/sensors.c:1356
+msgid "Hard disk temperature sensors"
+msgstr "ཧརཌི་ཌིཀིསི་ ཚ་དྲོད་ཚོར་འཕྲུལ་ཚུ་"
+
+#: ../panel-plugin/sensors.c:1772
+msgid "UI style:"
+msgstr "ཡུ་ཨའི་བཟོ་རྣམ:"
+
+#: ../panel-plugin/sensors.c:1773
+msgid "text"
+msgstr "ཚིག་ཡིག་"
+
+#: ../panel-plugin/sensors.c:1775
+msgid "graphical"
+msgstr "ས་ཆའི་"
+
+#: ../panel-plugin/sensors.c:1812
+msgid "Show labels in graphical UI"
+msgstr "ས་ཆའི་ཡུ་ཨའི་ནང་ཁ་ཡིག་ཚུ་སྟོན་"
+
+#: ../panel-plugin/sensors.c:1837
+msgid "Show title"
+msgstr "གནད་དོན་སྟོན་"
+
+#: ../panel-plugin/sensors.c:1863
+msgid "Sensors type:"
+msgstr "ཚོར་འཕྲུལ་ཚུའི་དབྱེ་བ:"
+
+#: ../panel-plugin/sensors.c:1910
+msgid "Name"
+msgstr "མིང་"
+
+#: ../panel-plugin/sensors.c:1919
+msgid "Value"
+msgstr "གནས་གོང་"
+
+#: ../panel-plugin/sensors.c:1925
+msgid "Show"
+msgstr "སྟོན་"
+
+#: ../panel-plugin/sensors.c:1934
+msgid "Color"
+msgstr "ཚོས་གཞི་"
+
+#: ../panel-plugin/sensors.c:1944
+msgid "Min"
+msgstr "ཉུང་མཐའ་"
+
+#: ../panel-plugin/sensors.c:1953
+msgid "Max"
+msgstr "མང་མཐའ་"
+
+#: ../panel-plugin/sensors.c:1981
+msgid "Font size:"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད:"
+
+#: ../panel-plugin/sensors.c:1988
+msgid "x-small"
+msgstr "ཨེགསི་-ཆུང་ཀུ་"
+
+#: ../panel-plugin/sensors.c:1989
+msgid "small"
+msgstr "ཆུང་ཀུ་"
+
+#: ../panel-plugin/sensors.c:1990
+msgid "medium"
+msgstr "བར་མ་"
+
+#: ../panel-plugin/sensors.c:1991
+msgid "large"
+msgstr "སྦོམ་"
+
+#: ../panel-plugin/sensors.c:1992
+msgid "x-large"
+msgstr "ཨེགསི་-སྦོམ་"
+
+#: ../panel-plugin/sensors.c:2020
+msgid "Temperature scale:"
+msgstr "ཚ་དྲོད་ཀྱི་ཚད་ཤིང་:"
+
+#: ../panel-plugin/sensors.c:2022
+msgid "Celsius"
+msgstr "སེལ་ཤི་ཡཱསི་"
+
+#: ../panel-plugin/sensors.c:2024
+msgid "Fahrenheit"
+msgstr "ཕེ་རེན་ཧེཊི་"
+
+#: ../panel-plugin/sensors.c:2063
+msgid "Update interval (seconds):"
+msgstr "བར་མཚམས་དུས་མཐུན་བཟོ་ (སྐར་ཆ་):"
+
+#: ../panel-plugin/sensors.c:2090
+msgid "Execute on double click:"
+msgstr "ཨེབ་གཏང་ཐེང་གཉིས་པའི་ཐོག་ལས་ལག་ལེན་འཐབ:"
+
+#: ../panel-plugin/sensors.c:2132
+msgid "<b>View</b>"
+msgstr "<b>མཐོང་སྣང་</b>"
+
+#: ../panel-plugin/sensors.c:2190
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>སྣ་ཚོགས་</b>"
+
+#: ../panel-plugin/sensors.c:2237
+msgid "Edit Properties"
+msgstr "རྒྱུ་དངོས་ཞུན་དག་འབད་"
+
+#. #include <unistd.h>
+#: ../panel-plugin/sensors.c:2244
+#: ../panel-plugin/sensors.h:51
+msgid "Sensors Plugin"
+msgstr "ཚོར་འཕྲུལ་པ་ལག་ཨིན་"
+
+#: ../panel-plugin/xfce4-sensors-plugin.desktop.in.in.h:1
+msgid "Sensor plugin "
+msgstr "ཚོར་འཕྲུལ་པ་ལག་ཨིན་"
+
+#: ../panel-plugin/xfce4-sensors-plugin.desktop.in.in.h:2
+msgid "Show sensor values."
+msgstr "ཚོར་འཕྲུལ་གནས་གོང་ཚུ་སྟོན།"
+

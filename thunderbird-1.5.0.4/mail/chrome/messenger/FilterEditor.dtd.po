@@ -1,0 +1,175 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/FilterEditor.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: filterEditor.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-08 16:42+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <Pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: window.title
+msgid "Filter Rules"
+msgstr "ཚགས་མའི་ལམ་ལུགས་"
+
+#: subject.label
+msgid "subject"
+msgstr "དོན་ཚན་"
+
+#: sender.label
+msgid "sender"
+msgstr "གཏང་མི་"
+
+#: date.label
+msgid "date"
+msgstr "ཚེས་གྲངས་"
+
+#: anyText.label
+msgid "any text"
+msgstr "ཚིག་ཡིག་གང་རུང་"
+
+#: keyword.label
+msgid "keyword"
+msgstr "གཙོ་ཚིག་"
+
+#: age.label
+msgid "age in days"
+msgstr "ལོ་གྲངས་ཉིན་གྲངས་ནང་"
+
+#: to.label
+msgid "to"
+msgstr "ལུ་"
+
+#: status.label
+msgid "status"
+msgstr "གནས་ཚད་"
+
+#: priority.label
+msgid "priority"
+msgstr "གཙོ་རིམ་"
+
+#: body.label
+msgid "body"
+msgstr "མ་གཟུགས་"
+
+#: contains.label
+msgid "contains"
+msgstr "ནང་ན་ཡོད་པ་"
+
+#: nocontains.label
+msgid "doesn't contain"
+msgstr "ནང་ན་མེད་པ་"
+
+#: filterName.label
+#: filterName.accesskey
+msgid "F&ilter name:"
+msgstr "ཚགས་མའི་མིང་:(&i)"
+
+#: junk.label
+msgid "Junk"
+msgstr "མཁོ་མེད་"
+
+#: notJunk.label
+msgid "Not Junk"
+msgstr "མཁོ་མེད་མེནམ་"
+
+#: lowestPriorityCmd.label
+msgid "Lowest"
+msgstr "དམའ་ཤོས་"
+
+#: lowPriorityCmd.label
+msgid "Low"
+msgstr "དམའ་བ་"
+
+#: normalPriorityCmd.label
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་"
+
+#: highPriorityCmd.label
+msgid "High"
+msgstr "མཐོ་བ་"
+
+#: highestPriorityCmd.label
+msgid "Highest"
+msgstr "མཐོ་ཤོས་"
+
+#: conditionDesc.label
+msgid "For incoming messages that:"
+msgstr "ནང་འབྱོར་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་:"
+
+#: filterActionDesc.label
+#: filterActionDesc.accesskey
+msgid "&Perform these actions:"
+msgstr "བྱ་བ་འདི་ཚུ་འབད་མི་:(&P)"
+
+#: newFolderButton.label
+#: newFolderButton.accesskey
+msgid "&New Folder..."
+msgstr "སྣོད་འཛིན་གསརཔ་་་(&N)"
+
+# New Style Filter Rule Actions
+#: moveMessage.label
+msgid "Move Message to"
+msgstr "ལུ་ འཕྲིན་དོན་སྤོ་"
+
+#: copyMessage.label
+msgid "Copy Message to"
+msgstr "ལུ་ འཕྲིན་དོན་འདྲ་བཤུས་རྐྱབས་"
+
+#: forwardTo.label
+msgid "Forward Message to"
+msgstr "ལུ་ འཕྲིན་དོན་གདོང་བསྐྱོད་འབད་"
+
+#: replyWithTemplate.label
+msgid "Reply with Template"
+msgstr "ཊེམ་པེལེཊི་ཐོག་ལས་ལན་གསལ་གཏང་"
+
+#: markMessageRead.label
+msgid "Mark As Read"
+msgstr "ལྷག་ཡོདཔ་སྦེ་ རྟགས་བཀལ་"
+
+#: markMessageFlagged.label
+msgid "Mark As Flagged"
+msgstr "ཟུར་རྟགས་བཀལ་ཡོདཔ་སྦེ་ རྟགས་བཀལ་"
+
+#: labelMessage.label
+msgid "Label Message As"
+msgstr "འཕྲིན་དོན་ལུ་ ཁ་ཡིག་དེ་སྦེ་བཏགས་"
+
+#: setPriority.label
+msgid "Set Priority to"
+msgstr "ལུ་ གཙོ་རིམ་གཞི་སྒྲིག་འབད་"
+
+#: setJunkScore.label
+msgid "Set Junk Status to"
+msgstr "ལུ་ མཁོ་མེད་གནས་ཚད་གཞི་སྒྲིག་འབད་"
+
+#: deleteMessage.label
+msgid "Delete Message"
+msgstr "འཕྲིན་དོན་བཏོན་གཏང་"
+
+#: deleteFromPOP.label
+msgid "Delete From POP Server"
+msgstr "པོཔ་སར་བར་ནང་ལས་བཏོན་གཏང་"
+
+#: fetchFromPOP.label
+msgid "Fetch From POP Server"
+msgstr "པོཔ་སར་བར་ནང་ལས་ལེན་"
+
+#: ignoreThread.label
+msgid "Ignore Thread"
+msgstr "ཐེརེཌི་སྣང་མེད་བཞག་"
+
+#: watchThread.label
+msgid "Watch Thread"
+msgstr "ཐེརེཌི་ལུ་བལྟ་"
+

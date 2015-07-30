@@ -1,0 +1,2693 @@
+# translation of gxine.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Guenter Bartsch and the xine project team.
+# Norbu <nor_den@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gxine\n"
+"Report-Msgid-Bugs-To: http://sourceforge.net/tracker/?group_id=9655\n"
+"POT-Creation-Date: 2006-11-15 16:18+0600\n"
+"PO-Revision-Date: 2006-11-16 16:26+0530\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+
+#: ../src/client.c:74
+#, c-format
+msgid "Connecting to %s...\n"
+msgstr "%s ལུ་མཐུད་དོ...\n"
+
+#: ../src/client.c:109
+msgid "Connected.\n"
+msgstr "མཐུད་ཡོདཔ།\n"
+
+#. noninteractive
+#: ../src/client.c:114
+msgid "Sending command\n"
+msgstr "བརྡ་བཀོད་གཏང་དོ།\n"
+
+#: ../src/client.c:119
+msgid "Done.\n"
+msgstr "འབད་ཚར།\n"
+
+#: ../src/desktop_integration.c:202
+#, c-format
+msgid "%s%s<i>Errors while registering with %s:</i>\n"
+msgstr "%s%s<i> %s དང་ཅིག་ཁར་ཐོ་བཀོད་འབད་བའི་སྐབས་འཛོལ་བ:</i>\n"
+
+#: ../src/desktop_integration.c:209
+msgid "gxine desktop integration: "
+msgstr "ཇི་ཟའིན་ ཌེཀསི་ཊོཔ་ མཉམ་སྒྲིལ:"
+
+#: ../src/desktop_integration.c:230
+#, c-format
+msgid "can't open file %s for writing: %s"
+msgstr "རྩོམ་སྒྲིག་གི་དོན་ལུ་ཡིག་སྣོད་ %s ཁ་ཕྱེ་མི་ཚུགས: %s"
+
+#: ../src/desktop_integration.c:237
+#, c-format
+msgid "error while writing to file %s: %s\n"
+msgstr "ཡིག་སྣོད་ %s ནང་ལུ་རྩོམ་སྒྲིག་འབད་བའི་སྐབས་འཛོལ་བ: %s\n"
+
+#: ../src/desktop_integration.c:239
+#, c-format
+msgid "error when closing file %s: %s\n"
+msgstr "ཡིག་སྣོད་ %s ཁ་བསྡམ་པའི་སྐབས་འཛོལ་བ: %s\n"
+
+#: ../src/desktop_integration.c:274
+msgid "GNOME initialisation failed"
+msgstr "ཇི་ནོམ་འགོ་འབྱེད་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/desktop_integration.c:299
+#, c-format
+msgid "desktop_integration: registering xine for MIME type ‘%s’\n"
+msgstr "ཌེཀསི་ཊོཔ་མཉམ་སྒྲིལ་ ཨེམ་ཨའི་ཨེམ་ཨི་ དབྱེ་བ་  ‘%s’ དོན་ལུ་ཇི་ཟའིན་ཐོ་འགོད་འབད་དོ།\n"
+
+#: ../src/desktop_integration.c:331
+#: ../src/desktop_integration.c:486
+#, c-format
+msgid "can't create directory %s: %s"
+msgstr "སྣོད་ཐོ་ %s གསར་བསྐྲུན་འབད་མི་ཚུགས: %s"
+
+#: ../src/desktop_integration.c:386
+#, c-format
+msgid "desktop_integration: KDE registering xine for MIME type ‘%s’\n"
+msgstr "ཌེཀསི་ཊོཔ་མཉམ་སྒྲིལ་: ཨེམ་ཨའི་ཨེམ་ཨི་ དབྱེ་བ་ ‘%s’ དོན་ལུ་ ཀེ་ཌི་ཨི་གིས་ ཟའིན་ཐོ་འགོད་དོ།(_i)\n"
+
+#: ../src/desktop_integration.c:443
+#, c-format
+msgid "desktop_integration: mailcap: registering xine for MIME type ‘%s’\n"
+msgstr "ཌེཀསི་ཊོཔ་མཉམ་སྒྲིལ: མེལ་ཀེཔ: ཨེམ་ཨའི་ཨེམ་ཨི་ དབྱེ་བ་ '%s' དོན་ལུ་ཟའིན་ཐོ་བཀོད་འབད་དོ།(_i)\n"
+
+#. MIME type already registered
+#: ../src/desktop_integration.c:450
+#, c-format
+msgid "desktop_integration: %s already has a handler\n"
+msgstr "ཌེཀསི་ཊོཔ་མཉམ་སྒྲིལ: %s ལུ་ཧེ་མ་ལས་རང་ལེགས་སྐྱོང་པ་ཅིག་འདུག(_i)\n"
+
+#: ../src/desktop_integration.c:478
+msgid "wizards: installing browser plugin...\n"
+msgstr "ཝི་ཛརཌིསི: བརའུ་ཟར་ པ་ལག་ཨིན་གཞི་བཙུགས་འབད་དོ...\n"
+
+#: ../src/desktop_integration.c:502
+#, c-format
+msgid "symlink check on %s failed: %s"
+msgstr "%s གུ་ལུ་བརྡ་མཚོན་འབྲེལ་ལམ་ཞིབ་དཔྱད་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ: %s"
+
+#: ../src/desktop_integration.c:510
+#, c-format
+msgid "cannot unlink %s: %s"
+msgstr "%s འབྲེལ་མཐུད་མ་འབད་བར་བཞག་མ་ཚུགས: %s"
+
+#: ../src/desktop_integration.c:513
+#, c-format
+msgid "cannot link %s to %s: %s"
+msgstr "%s %s ལུ་འབྲེལ་མཐུད་འབད་མ་ཚུགས: %s"
+
+#. translators' names go here
+#: ../src/engine.c:83
+msgid "TRANSLATOR"
+msgstr "སྐད་བསྒྱུར་པ།"
+
+#: ../src/engine.c:85
+msgid ""
+"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public Licence as published by the Free Software Foundation; either version 2 of the Licence, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public Licence for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public Licence along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"འ་ནི་འདི་བར་སྟོང་མཉེན་ཆས་ཨིན། ཁྱོད་ཀྱིས་འདི་ བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་དཔེ་བསྐྲུན་འབད་དོ་བཟུམ་སྦེ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གི་ཐ་སྙད་འོག་ལུ་ ཡང་ཅིན་ ཆོག་ཐམ་གྱི་ ཐོན་རིམ་ ༢ ཡང་ན་(ཁྱོད་རའི་གདམ་ཁ་ཐོག་) ཤུལ་ལས་ཀྱི་ཐོན་རིམ་ག་ཅི་་འབད་རུང་ ལོག་བགོ་བཀྲམ་དང་/ཡང་ན་ལེགས་བཅོས་འབད་ཚུགས། །\n"
+"\n"
+"འ་ནི་ལས་རིམ་འདི་ ཕན་ཐོགས་ཅན་ཅིག་གི་རེ་འདོད་ལུ་འབད་བགོ་བཀྲམ་འབད་འབདཝ་ཨིན། དེ་འབདཝ་ད་ ཉེན་ལེན་ག་ནི་ཡང་མེད་པར་ ཡང་ཅིན་ དམིགས་བསལ་གྱི་དགོས་དོན་ཅིག་གི་དོན་ལུ་ཚུད་སྒྲིག་ཡང་ན་ཚོང་འབྲེལ་གྱི་ཉེན་ལེན་ཤུགས་བསྟན་འབད་འབདཝ་མེད་པར། རྒྱས་བཤད་ཀྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་འདི་བལྟ།\n"
+"\n"
+"ཁྱོད་ཀྱིས་ འ་ནི་ལས་རིམ་དང་ཅིག་ཁར་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་ཅིག་ལེན་དགོ དེ་མེན་པ་ཅིན་ བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ལུ་འབྲི། ཨའི་ཨེན་སི། ༥༡ ཕེ་རེངཀ་ལིན ཨེསི་ཊི། ཐོག་རྩེག་ལྔ་པ། བཱོས་ཊོན། ཨེམ་ཨེ་ ༠༢༡༡༠-༡༣༠༡ ཡུ་ཨེསི་ཨེ།"
+
+#. Translators: rewrap as required
+#: ../src/engine.c:100
+msgid ""
+"This program is free software; you can\n"
+"redistribute it and/or modify it under the terms of\n"
+"the GNU General Public Licence as published by\n"
+"the Free Software Foundation; either version 2 of\n"
+"the Licence, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will\n"
+"be useful, but WITHOUT ANY WARRANTY; without\n"
+"even the implied warranty of MERCHANTABILITY\n"
+"or FITNESS FOR A PARTICULAR PURPOSE. See the\n"
+"GNU General Public Licence for more details.\n"
+"\n"
+"You should have received a copy of the GNU\n"
+"General Public Licence along with this program;\n"
+"if not, write to the Free Software Foundation, Inc.,\n"
+"51 Franklin St, Fifth Floor, Boston,\n"
+"MA  02110-1301  USA"
+msgstr ""
+"འ་ནི་ལས་རིམ་འདི་བར་སྟོང་མཉེན་ཆས་ཨིན། ཁྱོད་ཀྱིས་\n"
+"འདི་ལོག་བགོ་བཀྲམ་/ཡང་ན་ འདི་གི་ལེགས་བཅོས་འདི་ \n"
+"ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་ \n"
+"བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་དཔེ་བསྐྲུན་འབད་དོ་བཟུམ་སྦེ་ ཡང་ཅིན་ཐོན་རིམ་ ༢\n"
+"ཆོག་ཐམ་གྱི་ ཡང་ན་ ཤུལ་ལས་ཀྱི་ཐོན་རིམ་ ནང་འབད་ཚུགས།\n"
+"\n"
+"འ་ནི་ལས་རིམ་འདི་ བགོ་བཀྲམ་འབད་མི་འདི་ འདི་གིས་\n"
+"ཕན་ཐོགས་ཅན་ཅིག་གྱི་རེ་འདོད་ལུ་འབད་འབདཝ་ཨིན། དེ་འབདཝ་ད་ ཉེན་ལེན་ག་ནི་ཡང་མེད་པར་ \n"
+"ཚོང་འབྲེལ་གྱི་ཉེན་ལེན་ཤུགས་བསྟན་འབད་འབདཝ་\n"
+"ཡང་ན་ དམིགས་བསལ་གྱི་དགོས་དོན་ཅིག་གི་དོན་ལུ་ ཚུད་སྒྲིག་ མེད་པར། \n"
+"རྒྱས་བཤད་ཀྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་གི་ཆོག་ཐམ་འདི་བལྟ།\n"
+"\n"
+"ཁྱོད་ལུ་ ཇི་ཨེན་ཡུ་ \n"
+"ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་འདྲ་བཤུས་ཅིག་ འ་ནི་ལས་རིམ་དང་ཅིག་ཁར་ཡོད་དགོ\n"
+"དེ་མེན་པ་ཅིན་ བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ལུ་འབྲི། ཨའི་ཨེན་སི \n"
+"༥༡ ཕིརེངཀ་ལིན ཨེསི་ཊི། ཐོག་རྩེག་ལྔ་པ། བཱོསི་ཊཱོན།\n"
+"ཨེམ་ཨེ་ ༠༢༡༡༠- ༡༣༠༡ ཡུ་ཨེསི་ཨེ།"
+
+#: ../src/engine.c:122
+#: ../src/main.c:422
+msgid "© 2002-2006 the xine project team"
+msgstr "© ༢༠༠༢ -༢༠༠༦ སའིན་ལས་འགུལ་གྱི་རུ་ཚན།"
+
+#: ../src/engine.c:123
+msgid "A GTK media player front end for xine-lib"
+msgstr "སའིན་-ལིབ་ཀྱི་དོན་ལུ་ ཇི་ཊི་ཀེ་ བརྡ་ལམ་གཏང་འཕྲུལ་ གདོང་པའི་མཇུག"
+
+#: ../src/engine.c:151
+msgid "engine: < "
+msgstr "མ་འཕྲུལ:<"
+
+#: ../src/engine.c:177
+msgid ""
+"JS execution attempted while lock already held.\n"
+"Try to reproduce this in a debugger (set a breakpoint on g_critical).\n"
+"Get a backtrace of all gxine threads and report it!"
+msgstr ""
+"ཇེ་ཨེསི་ལག་ལེན་འཐབ་ནི་འདི་ ལྡེ་མིག་མ་ཧེ་མ་ལས་རང་འཆང་ཡོདཔ་ད་དཔའ་བཅམ་ཡོད།\n"
+"འ་ནི་འདི་ རྐྱེན་སེལ་འབད་མི་ནང་ལུ་ལོག་བཟོ་སྟོན་འབད་ནིའི་དོན་ལས་འབད་རྩོལ་བསྐྱེད་ ( བེརེཀ་པོ་ཡིནཊི་ ཅིག་ ཇི་ཁྱད་ཚད་ལུ་གཞི་སྒྲིག་འབད་)\n"
+"ཇི་ཟའིན་ཐིརེཌིསི་ཆ་མཉམ་གྱི་རྒྱབ་འཚོལ་ཅིག་ལེན་ཞིནམ་ལས་ སྙན་ཞུ་འབད! (_c)"
+
+#: ../src/engine.c:185
+#, c-format
+msgid "engine: > executing ‘%s’...\n"
+msgstr "མ་འཕྲུལ:> '%s' འདི་ལག་ལེན་འཐབ་དོ...\n"
+
+#: ../src/engine.c:197
+#: ../src/engine.c:216
+#, c-format
+msgid "result: %s"
+msgstr "གྲུབ་འབྲས: %s"
+
+#: ../src/engine.c:204
+#, c-format
+msgid "result: %lf"
+msgstr "གྲུབ་འབྲས: %lf"
+
+#: ../src/engine.c:210
+#, c-format
+msgid "result: %d"
+msgstr "གྲུབ་འབྲས: %d"
+
+#: ../src/engine.c:217
+msgid "true"
+msgstr "བདེན་པ།"
+
+#: ../src/engine.c:217
+msgid "false"
+msgstr "རྫུན་མ།"
+
+#: ../src/engine.c:222
+msgid "null"
+msgstr "སྟོང་ཆ།"
+
+#: ../src/engine.c:338
+#: ../src/engine.c:389
+#: ../src/engine.c:512
+msgid "Couldn't load startup script"
+msgstr "འགོ་བཙུགས་པའི་ཡིག་ཚུགས་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#.
+#. * create the startup commands editor window
+#.
+#: ../src/engine.c:461
+#: ../src/engine.c:532
+msgid "Startup script"
+msgstr "འགོ་བཙུགས་པའི་ཡིག་ཚུགས།"
+
+#: ../src/engine.c:517
+msgid "Startup script (system)"
+msgstr "འགོ་བཙུགས་པའི་ཡིག་ཚུགས་(རིམ་ལུགས)"
+
+#: ../src/engine.c:545
+#: ../src/engine.c:550
+msgid "Failed to save startup script"
+msgstr "འགོ་བཙུགས་པའི་ཡིག་ཚུགས་སྲུང་བཞག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/gtkvideo.c:247
+msgid "gxine is active"
+msgstr "ཇི་ཟའིན་འདི་ཤུགས་ལྡན་ཨིན།"
+
+#: ../src/gtkvideo.c:259
+#, c-format
+msgid "gtkvideo: problem when inhibiting the GNOME screensaver: %s\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌོ་: ཇི་ནོམ་གསལ་གཞིའི་ཉེན་སྲུང་བར་ཆད་བརྐྱབ་པའི་སྐབས་དཀའ་ངལ་: %s\n"
+
+#: ../src/gtkvideo.c:275
+msgid "gtkvideo: the GNOME screensaver has left the bus\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ་: ཇི་ནོམ་གསལ་གཞིའི་ཉེན་སྲུང་གིས་ བརྡ་རྟགས་འགྲུལ་ལམ་འདི་བཀོག་བཞག་ནུག\n"
+
+#: ../src/gtkvideo.c:291
+#, c-format
+msgid "gtkvideo: failed to connect to the dbus session bus: %s\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌོ་: ཌི་བཱསི་ལཱ་ཡུན་བཱསི་ལུ་མཐུད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ཡོདཔ་: %s\n"
+
+#: ../src/gtkvideo.c:309
+msgid "gtkvideo: failed to get a proxy for gnome-screensaver\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ་: ཇི་ནོམ་གསལ་གཞིའི་ཉེན་སྲུང་དོན་ལུ་ པོརོག་སི་ཅིག་མ་ཐོབ་པས་\n"
+
+#: ../src/gtkvideo.c:673
+msgid "video driver to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ཝིཌིའོ་ འདྲེན་བྱེད།"
+
+#: ../src/gtkvideo.c:686
+#, c-format
+msgid "gtkvideo: video driver %s failed.\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ: ཝི་ཌིའོ་འདྲེན་བྱེད་ %s འཐུས་ཤོར་འབྱུང་ཡོདཔ།\n"
+
+#: ../src/gtkvideo.c:992
+msgid "gtkvideo: XOpenDisplay failed!\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ: ཨེགསི་ཨོཔཱན་ཌིསི་པིལེ་ འཐུས་ཤོར་འབྱུང་ཡོདཔ!\n"
+
+#: ../src/gtkvideo.c:1075
+msgid "gtkvideo: couldn't open video driver\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ: ཝི་ཌིའོ་འདྲེན་བྱེད་ཁ་ཕྱེ་མ་ཚུགས།\n"
+
+#: ../src/gtkvideo.c:1518
+#, c-format
+msgid "gtkvideo: unknown post-plugin ‘%s’\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ་: མ་ཤེས་པའི་འདས་པའི་པ་ལག་ཡིན་ ‘%s’\n"
+
+#: ../src/gtkvideo.c:1968
+#, c-format
+msgid "gtkvideo: can't poke gnome-screensaver: %s\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ: གིས་ ཇི་ནོམ་-གསལ་གཞིའི་ཉེན་སྲུང་བཙུགས་མ་ཚུགས།: %s\n"
+
+#: ../src/gtkvideo.c:1978
+msgid "gtkvideo: not trying again\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ་: ལོག་འབད་རྩོལ་མི་བསྐྱེད་བས་\n"
+
+#: ../src/http.c:90
+#: ../src/http.c:102
+#: ../src/http.c:116
+#: ../src/http.c:280
+msgid "HTTP error"
+msgstr "ཨེཆ་ཊི་ཊི་པི་ འཛོལ་བ།"
+
+#: ../src/http.c:91
+#, c-format
+msgid "Failed to open socket: %s"
+msgstr "སོ་ཀེཊི་ཁ་ཕྱེ་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ: %s"
+
+#: ../src/http.c:103
+#, c-format
+msgid "Cannot connect to host: %s"
+msgstr "ཧོསིཊི་ལུ་མཐུད་མི་ཚུགས: %s"
+
+#: ../src/http.c:117
+#, c-format
+msgid "Unable to resolve ‘%s’"
+msgstr "'%s' འདི་ཧུམ་ཆ་བཟོ་མི་ཚུགས།"
+
+#: ../src/http.c:281
+#, c-format
+msgid ""
+"There was an error while trying to download\n"
+"%s\n"
+":\n"
+"%s"
+msgstr ""
+"ཕབ་ལེན་འབད་ནིའི་འབད་རྩོལ་བསྐྱེད་པའི་སྐབས་འཛོལ་བ་ཅིག་འདུག\n"
+"%s\n"
+":\n"
+"%s"
+
+#. malformed URL
+#: ../src/http.c:315
+#: ../src/http.c:338
+msgid "URL parse error"
+msgstr "ཡུ་ཨར་ཨེལ་ མིང་དཔྱད་འབད་ནིའི་འཛོལ་བ།"
+
+#: ../src/http.c:327
+#: ../src/http.c:348
+msgid "proxy authentication error"
+msgstr "པོརོགསི་ བདེན་བཤད་ཀྱི་འཛོལ་བ།"
+
+#. couldn't connect
+#: ../src/http.c:369
+msgid "host connect error"
+msgstr "ཧོསཊི་མཐུད་ནིའི་འཛོལ་བ།"
+
+#: ../src/http.c:408
+msgid "couldn't send request"
+msgstr "ཞུ་བ་གཏང་མ་ཚུགས།"
+
+#: ../src/http.c:432
+#, c-format
+msgid "read error: %s"
+msgstr "ལྷག་པའི་འཛོལ་བ: %s"
+
+#: ../src/http.c:460
+msgid "invalid HTTP response"
+msgstr "ནུས་མེད་ཨེཆ་ཊི་ཊི་པི་གི་ལན།"
+
+#: ../src/http.c:477
+msgid "Too many HTTP redirections; aborted"
+msgstr "ཨེཅ་ཊི་ཊི་པི་གི་སླར་ལོག་ཚུ་ལེ་ཤ་རང་;བསྟར་སྤྱོད་མ་འབད་བས།"
+
+#: ../src/http.c:487
+#, c-format
+msgid "Unexpected HTTP status (%d)"
+msgstr "རེ་བ་མེད་པའི་ཨེཆ་ཊི་ཊི་པི་གི་གནས་ཚད་(%d)"
+
+#. the server says that the resource is elsewhere but hasn't said where
+#: ../src/http.c:530
+#, c-format
+msgid "HTTP redirection (%d) is missing a location"
+msgstr "ཨེཆ་ཊི་ཊི་པི་སླར་ལོག་ (%d) གི་གནས་ཁོངས་བརླག་སྟོར་ཞུགས་པ།"
+
+#. FIXME: report errno in a window?
+#: ../src/http.c:574
+#, c-format
+msgid "http: read error: %s\n"
+msgstr "ཨེཆ་ཊི་ཊི་པི: ལྷག་པའི་འཛོལ་བ: %s\n"
+
+#: ../src/info_widgets.c:325
+#: ../src/info_widgets.c:338
+#, c-format
+msgid "%s%d kBit/s "
+msgstr "%s%d kBit/s "
+
+#: ../src/info_widgets.c:334
+#, c-format
+msgid "%s%d kHz "
+msgstr "%s%d ཀི་ལོ་ཧཛི། "
+
+#: ../src/info_widgets.c:387
+msgid "??:??:??"
+msgstr "??:??:??"
+
+#: ../src/info_widgets.c:387
+msgid "live"
+msgstr "དངོས་མཐོང་།"
+
+#. "T" = DVD title number
+#: ../src/info_widgets.c:407
+#, c-format
+msgid "T%d/%d "
+msgstr "T%d/%d "
+
+#. "C" = DVD chapter number
+#: ../src/info_widgets.c:412
+#, c-format
+msgid "C%d/%d "
+msgstr "C%d/%d "
+
+#: ../src/key_events.c:76
+msgid "New binding"
+msgstr "སྡམ་ཐག་གསརཔ།"
+
+#: ../src/key_events.c:88
+msgid "Play"
+msgstr "གཏང་།"
+
+#: ../src/key_events.c:89
+msgid "Exit gxine"
+msgstr "ཇི་ཟའིན་ཕྱིར་ཐོན་འབད།"
+
+#: ../src/key_events.c:90
+msgid "Pause"
+msgstr "ཐེམ།"
+
+#: ../src/key_events.c:91
+msgid "Stop"
+msgstr "བཀག"
+
+#: ../src/key_events.c:92
+msgid "Eject"
+msgstr "ཕྱིར་བཏོན་"
+
+#: ../src/key_events.c:93
+msgid "Windowed mode"
+msgstr "སྒོ་སྒྲིག་བཟོ་ཡོད་པའི་ཐབས་ལམ།"
+
+#: ../src/key_events.c:94
+msgid "Fullscreen mode"
+msgstr "གསལ་གཞི་གངམ་གི་ཐབས་ལམ།"
+
+#: ../src/key_events.c:95
+msgid "Aspect ratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད།"
+
+#: ../src/key_events.c:96
+msgid "Toggle deinterlace"
+msgstr "སོར་སྟོན་ལྷས་བཤོལ་འབད།"
+
+#: ../src/key_events.c:97
+msgid "Rewind / Back 1 min"
+msgstr "སྐར་མ་ ༡ ལོག་བསྒྱིར་/ལོག"
+
+#: ../src/key_events.c:98
+msgid "Fast forward / Forward 1 min"
+msgstr "སྐར་མ་ ༡ གདོང་བསྐྱོད་མགྱོགས་དྲགས/གདོང་བསྐྱོད་འབད།"
+
+#: ../src/key_events.c:99
+msgid "Faster"
+msgstr "མགྱོགས་སུ།"
+
+#: ../src/key_events.c:100
+msgid "Slower"
+msgstr "ལྷོད་མི།"
+
+#: ../src/key_events.c:101
+msgid "Up"
+msgstr "ཡར།"
+
+#: ../src/key_events.c:102
+msgid "Down"
+msgstr "མར།"
+
+#: ../src/key_events.c:103
+msgid "Left"
+msgstr "གཡོན།"
+
+#: ../src/key_events.c:104
+msgid "Right"
+msgstr "གཡས།"
+
+#: ../src/key_events.c:105
+msgid "Select/OK"
+msgstr "སེལ་འཐུ་འབད/བཏུབ།"
+
+#. Menus: 1 is the DVD root menu. All have the VDR function given in [].
+#: ../src/key_events.c:107
+msgid "Menu 1 [main]"
+msgstr "དཀར་ཆག་ ༡ [གཙོ་བོ]"
+
+#: ../src/key_events.c:108
+msgid "Menu 2 [schedule]"
+msgstr "དཀར་ཆག ༢ [འཆར་རིམ]"
+
+#: ../src/key_events.c:109
+msgid "Menu 3 [channels]"
+msgstr "དཀར་ཆག་ ༣ [རྒྱུ་ལམ་ཚུ་]"
+
+#: ../src/key_events.c:110
+msgid "Menu 4 [timers]"
+msgstr "དཀར་ཆག ༤ [དུས་འཛིན་ཚུ་]"
+
+#: ../src/key_events.c:111
+msgid "Menu 5 [recordings]"
+msgstr "དཀར་ཆག ༥ [སྒྲ་བཟུང་ཚུ་]"
+
+#: ../src/key_events.c:112
+msgid "Menu 6 [setup]"
+msgstr "དཀར་ཆག ༦ [གཞི་སྒྲིག]"
+
+#: ../src/key_events.c:113
+msgid "Menu 7 [user]"
+msgstr "དཀར་ཆག ༧ [ལག་ལེན་པ]"
+
+#: ../src/key_events.c:114
+msgid "Previous"
+msgstr "ཧེ་མ།"
+
+#: ../src/key_events.c:115
+msgid "Next"
+msgstr "ཤུལ་མམ།"
+
+#: ../src/key_events.c:116
+msgid "DVD previous angle"
+msgstr "ཌི་བི་ཌི་ ཧེ་མའི་གྲུ་ཟུར།"
+
+#: ../src/key_events.c:117
+msgid "DVD next angle"
+msgstr "ཌི་བི་ཌི་ ཤུལ་མའི་གྲུ་ཟུར།"
+
+#: ../src/key_events.c:118
+msgid "1 / Play, skip first 10%"
+msgstr "༡/ འགོ་ཐོག་གི་ ༡༠% གཏང་། གོམ་འགྱོ།"
+
+#: ../src/key_events.c:119
+msgid "2 / Play, skip first 20%"
+msgstr "༢/ འགོ་ཐོག་གི་ ༢༠% གཏང་། གོམ་འགྱོ།"
+
+#: ../src/key_events.c:120
+msgid "3 / Play, skip first 30%"
+msgstr "༣/ འགོ་ཐོག་གི་ ༣༠% གཏང་། གོམ་འགྱོ།"
+
+#: ../src/key_events.c:121
+msgid "4 / Play, skip first 40%"
+msgstr "༤/ འགོ་ཐོག་གི་ ༤༠% གཏང་། གོམ་འགྱོ།"
+
+#: ../src/key_events.c:122
+msgid "5 / Play, skip first half"
+msgstr "༥/ འགོ་ཐོག་གི་ཕྱེད་ཀ་ གཏང་། གོམ་འགྱོ།"
+
+#: ../src/key_events.c:123
+msgid "6 / Play last 40%"
+msgstr "༦/ མཇུག་གི་ ༤༠% གཏང་།"
+
+#: ../src/key_events.c:124
+msgid "7 / Play last 30%"
+msgstr "༧/ མཇུག་གི་ ༣༠% གཏང་།"
+
+#: ../src/key_events.c:125
+msgid "8 / Play last 20%"
+msgstr "༨/ མཇུག་གི་ ༢༠% གཏང་།"
+
+#: ../src/key_events.c:126
+msgid "9 / Play last 10%"
+msgstr "༩/ མཇུག་གི་ ༡༠% གཏང་།"
+
+#: ../src/key_events.c:127
+msgid "0 / Play from start"
+msgstr "༠/ འགོ་བཙུགས་ས་ལས་གཏང་།"
+
+#. (VDR) The four coloured buttons on many remote controls
+#: ../src/key_events.c:129
+msgid "Red"
+msgstr "དམརཔོ།"
+
+#: ../src/key_events.c:130
+msgid "Green"
+msgstr "ལྗང་ཁུ།"
+
+#: ../src/key_events.c:131
+msgid "Yellow"
+msgstr "སེརཔོ།"
+
+#: ../src/key_events.c:132
+msgid "Blue"
+msgstr "ཧོནམ།"
+
+#. (VDR) Start recording the current channel
+#: ../src/key_events.c:134
+msgid "Record"
+msgstr "དྲན་ཐོ།"
+
+#. (VDR) Power or Standby button
+#: ../src/key_events.c:136
+msgid "Power"
+msgstr "ནུས་ཤུགས།"
+
+#. (VDR) Go back to a previous menu
+#: ../src/key_events.c:138
+msgid "Back"
+msgstr "རྒྱབ།"
+
+#. (VDR) Audio menu
+#: ../src/key_events.c:140
+#: ../src/settings.c:86
+msgid "Audio"
+msgstr "རྣར་ཉན།"
+
+#. (VDR) Info display
+#: ../src/key_events.c:142
+msgid "Info"
+msgstr "བརྡ་དོན་"
+
+#: ../src/key_events.c:143
+msgid "Playlist next"
+msgstr "གླུ་ཐོ་ཤུལ་མ།"
+
+#: ../src/key_events.c:144
+msgid "Playlist previous"
+msgstr "གླུ་ཐོ་ཧེ་མ།"
+
+#: ../src/key_events.c:145
+msgid "Zoom in"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../src/key_events.c:146
+msgid "Zoom out"
+msgstr "ནང་བཟུམ།"
+
+#: ../src/key_events.c:147
+msgid "Zoom 100%"
+msgstr "༡༠༠% རྒྱས་ཟུམ།"
+
+#: ../src/key_events.c:148
+msgid "Volume +"
+msgstr "སྐད་ཤུགས +"
+
+#: ../src/key_events.c:149
+msgid "Volume -"
+msgstr "སྐད་ཤུགས -"
+
+#: ../src/key_events.c:150
+msgid "Mute"
+msgstr "སྐད་མེད།"
+
+#: ../src/key_events.c:187
+#, c-format
+msgid "key binding %s"
+msgstr "ཀི་བཱའིན་ཌིང་ %s "
+
+#: ../src/key_events.c:325
+msgid "<Shift>"
+msgstr "<Shift>"
+
+#: ../src/key_events.c:326
+msgid "<Control>"
+msgstr "<Control>"
+
+#: ../src/key_events.c:327
+msgid "<Alt>"
+msgstr "<Alt>"
+
+#: ../src/key_events.c:328
+msgid "<Mod2>"
+msgstr "<མོཌི་ ༢>"
+
+#: ../src/key_events.c:329
+msgid "<Mod3>"
+msgstr "<Mod3>"
+
+#: ../src/key_events.c:330
+msgid "<Mod4>"
+msgstr "<Mod4>"
+
+#: ../src/key_events.c:331
+msgid "<Mod5>"
+msgstr "<མོཌི་ ༣>"
+
+#: ../src/key_events.c:355
+msgid "undef"
+msgstr "ངེས་འཛིན་མ་འབདཝ།"
+
+#: ../src/key_events.c:357
+msgid "unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../src/key_events.c:473
+#: ../src/key_events.c:503
+msgid "Failed to save key bindings"
+msgstr "ཀི་བཱའིན་ཌིང་སྲུང་བཞག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/key_events.c:669
+#: ../src/key_events.c:680
+msgid "Upgrading your key bindings"
+msgstr "ཁྱོད་ཀྱི་ཀི་བཱའིན་ཌིང་ཡར་སྐྱེད་འབད་དོ།"
+
+#: ../src/key_events.c:670
+msgid ""
+"Your key bindings are being upgraded. This adds:\n"
+" • Key binding descriptions\n"
+" • VDR support\n"
+"\n"
+"Some old deleted bindings may have been restored.\n"
+"You should check your bindings now.\n"
+msgstr ""
+"ཁྱོད་ཀྱི་ལྡེ་མིག་སྡམ་ཐག་ཚུ་ཡར་སྐྱེད་མ་འབད་བས། འདི་གིས\n"
+": • ཀི་བཱའིན་ཌིང་གི་འགྲེལ་བཤད་ཚུ་\n"
+"• ཝི་ཌི་ཨར་ རྒྱབ་སྐྱོར་ཁ་སྐོང་རྐྱབས་ཨིན\n"
+"\n"
+"བཏོན་གཏང་གཏངམ་གི་སྡམ་ཐག་རྙིངམ་ལ་ལུ་སོར་ཆུད་འབད་ཡོདཔ་འོང་།\n"
+"ཁྱོད་ཀྱིས་ཁྱོད་རའི་སྡམ་ཐག་ཚུ་ད་ལྟོ་རང་ཞིབ་དཔྱད་འབད་དགོ\n"
+
+#: ../src/key_events.c:689
+#, c-format
+msgid "key_events: error: %s is not a valid gxine keybindings file\n"
+msgstr "ལྡེ་མིག་གི་བྱུང་ལས་ཚུ: འཛོལ་བ: %s འདི་ནུས་ཅན་ཇི་ཟའིན་ ཀི་བཱའིན་ཌིང་གི་ཡིག་སྣོད་མེན་པས།(_e)\n"
+
+#: ../src/key_events.c:697
+#, c-format
+msgid "key_events: error: cannot load keybindings file %s (XML parsing failed)\n"
+msgstr "ལྡེ་མིག་བྱུང་ལས་ཚུ: འཛོལ་བ: ཀི་བཱའིན་ཌིང་གི་ཡིག་སྣོད་ %s མངོན་གསལ་འབད་མི་ཚུགས་(ཨེགསི་ཨེམ་ཨེལ་ མིང་དཔྱད་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ)(_e)\n"
+
+#. the file exists but we can't open it; permissions problem?
+#: ../src/key_events.c:708
+#, c-format
+msgid "key_events: error: cannot open keybindings file %s\n"
+msgstr "ལྡེ་མིག་གི་བྱུང་ལས་ཚུ: འཛོལ་བ: ཀི་བཱའིན་ཌིང་གི་ཡིག་སྣོད་ %s ཁ་ཕྱེ་མི་ཚུགས།(_e)\n"
+
+#: ../src/key_events.c:742
+#, c-format
+msgid "Keybinding: %s"
+msgstr "ཀི་བཱའིན་ཌིང་: %s"
+
+#: ../src/key_events.c:1027
+msgid "error: input_menu() expects an int between 1 and 7.\n"
+msgstr "འཛོལ་བ: ཨིན་པུཊི་དཀར་ཆག་()གིས་ཨའི་ཨེན་ཊི་ཅིག་ ༡ དང་ ༧ གྱི་བར་ན་རེ་བ་བསྐྱེདཔ་ཨིན་པས།(_m)\n"
+
+#: ../src/key_events.c:1337
+msgid "Keybindings editor"
+msgstr "ཀི་བཱའིན་ཌིང་ཞུན་དག་པ།"
+
+#: ../src/key_events.c:1354
+msgid "Action"
+msgstr "བྱ་བ།"
+
+#: ../src/key_events.c:1360
+#: ../src/key_events.c:1465
+msgid "Accelerator key"
+msgstr "མགྱོགས་འཕྲུལ་ལྡེ་མིག"
+
+#: ../src/key_events.c:1379
+msgid "_Reload..."
+msgstr "ཡང་བསྐྱར་མངོན་གསལ...(_R)"
+
+#: ../src/key_events.c:1380
+msgid "_Reload bindings"
+msgstr "སྡམ་ཐག་ཡང་བསྐྱར་མངོན་གསལ་འབད།(_R)"
+
+#: ../src/key_events.c:1381
+msgid "_Add new default bindings"
+msgstr "སྔོན་སྒྲིག་གི་སྡམ་ཐག་གསརཔ་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../src/key_events.c:1382
+msgid "_Merge default bindings"
+msgstr "སྔོན་སྒྲིག་གི་སྡམ་ཐག་མཉམ་བསྡོམས་འབད།(_M)"
+
+#: ../src/key_events.c:1383
+msgid "Replace with _default bindings"
+msgstr "སྔོན་སྒྲིག་གི་སྡམ་ཐག་གིས་སྦེ་ཚབ་བཙུགས།(_d)"
+
+#: ../src/key_events.c:1384
+msgid "Add a key binding"
+msgstr "ཀི་བཱའིན་ཌིང་ཅིག་ཁ་སྐོང་རྐྱབས།"
+
+#. FIXME: post-0.5.5
+#: ../src/key_events.c:1385
+#: ../src/mediamarks.c:702
+#: ../src/playlist.c:2104
+msgid "Edit the selected item"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་རྣམ་གྲངས་འདི་ཞུན་དག་འབད།"
+
+#: ../src/key_events.c:1386
+#: ../src/mediamarks.c:703
+#: ../src/playlist.c:2105
+msgid "Delete the selected item"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་རྣམ་གྲངས་འདི་བཏོན་གཏང་།"
+
+#.
+#. * create kb_binding_edit dialogue
+#.
+#: ../src/key_events.c:1430
+msgid "Keybinding"
+msgstr "ཀི་བཱའིན་ཌིང་།"
+
+#: ../src/key_events.c:1445
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../src/key_events.c:1459
+msgid "Commands"
+msgstr "བརྡ་བཀོད་ཚུ།"
+
+#: ../src/key_events.c:1464
+msgid "_Grab"
+msgstr "འཛིན།(_G)"
+
+#: ../src/key_events.c:1493
+#: ../src/player.c:1123
+#: ../src/playlist.c:2314
+#: ../src/playlist.c:2316
+msgid "int"
+msgstr "ཨའི་ཨེན་ཊི།"
+
+#: ../src/key_events.c:1493
+msgid "range is 1 to 7"
+msgstr "ཁྱབ་ཚད་འདི་ ༡་ལས་ ༧ ལུ་ཨིན།"
+
+#: ../src/key_events.c:1504
+#: ../src/key_events.c:1506
+#: ../src/vis.c:88
+msgid "string"
+msgstr "ཡིག་རྒྱུན།"
+
+#: ../src/key_events.c:1504
+msgid "event; returns true if sent"
+msgstr "བྱུང་ལས། གཏང་ཡོདཔ་ཨིན་པ་ཅིན་ བདེན་པ་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: ../src/key_events.c:1506
+msgid "VDR event; returns true if sent"
+msgstr "ཝི་ཌི་ཨར་ བྱུང་ལས། གཏང་ཡོདཔ་ཨིན་པ་ཅིན་ བདེན་པ་སླར་ལོག་འབདཝ་ཨིན།"
+
+#: ../src/lirc.c:73
+#, c-format
+msgid "lirc: problem with ~/%s: %s\n"
+msgstr "ཨེལ་ཨའི་ཨར་སི: ~/%s: %s དང་ཅིག་ཁར་དཀའ་ངལ།\n"
+
+#: ../src/lirc.c:80
+#, c-format
+msgid "lirc: lirc_readconfig of %s failed\n"
+msgstr "ཨེལ་ཨའི་ཨར་སི: %s གི་ཨེལ་ཨའི་ཨར་སི་ རིཌི་ཀོན་ཕིག་ འཐུས་ཤོར་འབྱུང་ཡོདཔ།\n"
+
+#: ../src/lirc.c:119
+msgid ""
+"lirc: cannot initialise - disabling remote control\n"
+"lirc: maybe lircd isn't running or you can't connect to the socket?\n"
+msgstr ""
+"ཨེལ་ཨའི་ཨར་སི: ཐག་རིང་ཚད་འཛིན་ལྕོགས་མིན་བཟོ་ནི་ - འགོ་འབྱེད་འབད་མ་ཚུགས།\n"
+"ཨེལ་ཨའི་ཨར་སི: ཨེལ་ཨའི་ཨར་སི་ཌི་ འདི་གཡོག་བཀོལ་མ་བཏུབ་འོང་ ཡང་ན་ ཁྱོད་ཀྱིས་སོ་ཀེཊི་ནང་ལུ་མཐུད་མ་ཚུགསཔ་འོང་?\n"
+
+#. if neither file has been read successfully or there's nothing for
+#. * gxine, exit now
+#: ../src/lirc.c:138
+msgid "lirc: no configuration found - disabling remote control\n"
+msgstr "ཨེལ་ཨའི་ཨར་སི: རིམ་སྒྲིག་འཚོལ་མ་ཐོབ་- རྒྱང་འཛིན་འཕྲུལ་ཆས་ལྕོགས་མིན་བཟོ་དོ།\n"
+
+#: ../src/lirc.c:160
+#, c-format
+msgid "LIRC binding %s.%s"
+msgstr "ཨེལ་ཨའི་ཨར་སི་ སྡམ་ཐག %s.%s"
+
+#. window
+#: ../src/log_window.c:107
+msgid "xine engine log output"
+msgstr "སའིན་ མ་འཕྲུལ་དྲན་དེབ་ཨའུཊི་པུཊི།"
+
+#. if this happens, we have a problem...
+#: ../src/main.c:236
+msgid "gxine: killed by watchdog bite\n"
+msgstr "ཇི་ཟའིན་: ལྟ་རྟོག་འབད་མི་གི་སོ་བཏབ་མི་གིས་གསད་ཡོདཔ།\n"
+
+#: ../src/main.c:406
+#, c-format
+msgid ""
+"gxine %s (%s)\n"
+"usage: %s [options] [MRLs...]\n"
+"options:\n"
+"  -h, --help\t\tthis help text\n"
+"  -A, --audio DRIVER\ttry to use this audio driver\n"
+"  -V, --video DRIVER\ttry to use this video driver\n"
+"  -S, --no-splash\tdon't show the splash window\n"
+"  -c, --command TEXT\tJavascript command(s) to be executed at startup\n"
+"  -a, --add\t\tdon't clear the playlist, play the first new item\n"
+"  -e, --enqueue\t\tdon't clear the playlist, don't play the new items\n"
+"  -f, --full-screen\tstart in full-screen mode\n"
+"  -v, --verbose\t\tbe more verbose\n"
+"\n"
+msgstr ""
+"ཇི་ཟའིན་ %s (%s) \n"
+"ལག་ལེན: %s [options] [MRLs...]\n"
+"གདམ་ཁ་ཚུ་:\n"
+"  -h, --གྲོགས་རམ\t\tའ་ནི་གྲོགས་རམ་ཚིག་ཡིག\n"
+"  -A, --རྣར་ཉན་འདྲེན་འབྱེད\tའ་ནི་རྣར་ཉན་འདྲེན་འབྱེད་ལག་ལེན་འཐབ་ནི་འབད་རྩོལ་བསྐྱེད།\n"
+"  -V, --ཝི་ཌིའོ་ འདྲེན་འབྱེད\tའ་ནི་ཝི་ཌིའོ་འདྲེན་འབྱེད་ལག་ལེན་འཐབ་ནི་འབད་རྩོལ་བསྐྱེད།\n"
+"  -S, --སིཔེལེཤ-མེད\tསི་པེལེཤ་ཝིན་ཌོ་འདི་མ་སྟོན།\n"
+"  -a, --ཁ་སྐོང་རྐྱབས\t\tགླུ་ཐོ་འདི་བསལ་མ་གཏང་། རྣམ་གྲངས་གསརཔ་དང་པམ་འདི་གཏང་།\n"
+"-e, --གྱལ་ནང་བཞག་ནི\t\tགླུ་ཐོ་འདི་བསལ་མ་གཏང་། རྣམ་གྲངས་གསརཔ་ཚུ་མ་གཏང་།\n"
+"  -f, --གསལ་གཞི་-གང་\tགསལ་གཞི་-གངམ་གི་ཐབས་ལམ་ནང་ལུ་འགོ་བཙུགས།\n"
+"  -v, --ཚིག་མང་\t\tཚིག་མིང་ལེ་ཤ་འབད།\n"
+"\n"
+
+#: ../src/main.c:422
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,\n"
+"to the extent permitted by law.\n"
+msgstr ""
+"འ་ནི་འདི་བར་སྟོང་མཉེན་ཆས་ཨིན།་གནས་སྟངས་ཚུ་འདྲ་བཤུས་རྐྱབས་ནིའི་དོན་ལུ་ འབྱུང་ཁུངས་འདི་བལྟ། འདི་ནང་ལུ་\n"
+"ཉེན་ལེན་མེད། བྱེ་བྲག་གི་དགོས་དོན་ཅིག་གི་དོན་ལུ ཚོང་འབྲེལ་ ཡང་ན་ ཚུད་སྒྲིག\n"
+"ཁྲིམས་ཀྱིས་གནབ་བ་བྱིན་མི་ཁྱབ་ཚད་ ལུ་ཡང་མེད།\n"
+
+#: ../src/main.c:429
+msgid "gxine: invalid option (try -h or --help)\n"
+msgstr "ཇི་ཟའིན: ནུས་མེད་གདམ་ཁ་(ཨེཅ་ -ཡང་ན་ --གྲོགས་རམ་འབད་རྩོལ་བསྐྱེད།)\n"
+
+#: ../src/main.c:453
+msgid "gtkvideo: XInitThreads failed - looks like you don't have a thread-safe xlib.\n"
+msgstr "ཇི་ཊི་ཀེ་ཝི་ཌིའོ: ཨེགསི་ཨིན་ཨིཊི་ཐེ་རེཌི་འབད་ནི་འཐུ་ཤོར་འབྱུང་ཡོད་མི་ཚུ་ - ཁྱོད་ལུ་ ཐེརེཌི་-སེཕ་ ཨེགསི་ལིབ་མེདཔ་བཟུམ་མཐོང་མས།\n"
+
+#: ../src/main.c:465
+msgid "File creation error"
+msgstr "ཡིག་སྣོད་གསར་བསྐྲུན་འབད་ནིའི་འཛོལ་བ།"
+
+#: ../src/main.c:466
+#, c-format
+msgid ""
+"Couldn't create ~/.gxine: %s.\n"
+"Configuration, playlist and media marks will not be saved."
+msgstr ""
+"~/.gxine གསར་བསྐྲུན་འབད་མ་ཚུགས: %s.\n"
+"རིམ་སྒྲིག གླུ་ཐོ་ དང་ བརྡ་ལམ་གྱི་ རྟགས་ཚུ་ སྲུང་བཞག་མི་འབད།"
+
+#: ../src/mediamarks.c:225
+#, c-format
+msgid "mediamarks: error: unknown node type %s\n"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ: འཛོལ་བ: མ་ཤེསཔ་ནོཌི་གི་དབྱེ་བ་ %s\n"
+
+#: ../src/mediamarks.c:233
+msgid "mediamarks: error: root node must be GXINEMM\n"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ: འཛོལ་བ: རྩ་བའི་ནོཌི་འདི་ GXINEMM ཨིན་དགོ\n"
+
+#: ../src/mediamarks.c:288
+#, c-format
+msgid "mediamarks: media marks file %s corrupted - ignoring rest of file\n"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ: བརྡ་ལམ་རྟགས་ཀྱི་ཡིག་སྣོད་ %s དེ་- ཡིག་སྣོད་གཞན་མི་ཚུ་སྣང་མེད་བཞག་སྟེ་ ངན་ཅན་ཡར་སོང་ནུག\n"
+
+#: ../src/mediamarks.c:340
+msgid "mediamarks: load failed!\n"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ: མངོན་གསལ་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ!\n"
+
+#.
+#. * show dialog, ask for section name
+#.
+#: ../src/mediamarks.c:463
+msgid "New Category"
+msgstr "དབྱེ་རིམ་གསརཔ།"
+
+#: ../src/mediamarks.c:511
+msgid "Select media marks file to load..."
+msgstr "མངོན་གསལ་འབད་ནིའི་དོན་ལས་ བརྡ་ལམ་རྟགས་ཀྱི་ཡིག་སྣོད་ སེལ་འཐུ་འབད..."
+
+#: ../src/mediamarks.c:516
+msgid "Media marks load failed."
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ་མངོན་གསལ་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/mediamarks.c:517
+#, c-format
+msgid ""
+"Couldn't load media marks file %s\n"
+"%s"
+msgstr ""
+"བརྡ་ལམ་རྟགས་ཀྱི་ཡིག་སྣོད་ %s མངོན་གསལ་འབད་མ་ཚུགས།\n"
+" %s "
+
+#: ../src/mediamarks.c:640
+#: ../src/mediamarks.c:653
+msgid "Failed to save media marks"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ་སྲུང་བཞག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/mediamarks.c:700
+msgid "Add an MRL"
+msgstr "ཨེམ་ཨར་ཨེལ་ཅིག་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/mediamarks.c:701
+msgid "New category"
+msgstr "དབྱེ་རིམ་ གསརཔ།"
+
+#: ../src/mediamarks.c:701
+msgid "Add a category folder"
+msgstr "དབྱེ་རིམ་གྱི་སྣོད་འཛིན་ཅིག་ཁ་སྐོང་རྐྱབས།"
+
+#.
+#. * create (for now invisible) mm_manage dialog
+#.
+#: ../src/mediamarks.c:763
+msgid "Manage media marks..."
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ་འཛིན་སྐྱོང་འཐབ..."
+
+#. foo...bar
+#: ../src/mediamarks.c:800
+msgid "Media mark"
+msgstr "བརྡ་ལམ་གྱི་རྟགས།"
+
+#. ...bar
+#: ../src/mediamarks.c:809
+#: ../src/play_item.c:404
+#: ../src/playlist.c:2260
+msgid "MRL"
+msgstr "ཨེམ་ཨར་ཨེལ།"
+
+#.
+#. * create (for now invisible) category name entry dialog
+#.
+#: ../src/mediamarks.c:857
+msgid "Enter category name..."
+msgstr "དབྱེ་རིམ་གྱི་མིང་ཐོ་བཀོད་འབད..."
+
+#: ../src/mediamarks.c:870
+msgid "Category name:"
+msgstr "དབྱེ་རིམ་གྱི་མིང་:"
+
+#: ../src/menu.c:70
+#, c-format
+msgid "Autoplay input plugin ‘%s’ failed"
+msgstr "རང་བཞིན་གྱིས་གཏང་ནི་ ཨིན་པུཊི་པ་ལག་ཨིན་ ‘%s’ འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/menu.c:72
+msgid "Check engine output for further details."
+msgstr "རྒྱས་བཤད་ཐེབས་ཀྱི་དོན་ལུ་ མ་འཕྲུལ་ཨའུཊི་པུཊི་ཞིབ་དཔྱད་འབད།"
+
+#. Standard callback (invokes Javascript)
+#: ../src/menu.c:223
+#, c-format
+msgid "menu function %s"
+msgstr "དཀར་ཆག་ལས་འགན་ %s"
+
+#. Menu entry text
+#: ../src/menu.c:334
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../src/menu.c:335
+msgid "_Open..."
+msgstr "ཁ་ཕྱེ...(_O)"
+
+#: ../src/menu.c:336
+msgid "Open _MRL..."
+msgstr "ཨེམ་ཨར་ཨེལ་ ཁ་ཕྱེ...(_M)"
+
+#: ../src/menu.c:337
+msgid "Play_list..."
+msgstr "གླུ་ཐོ...(_l)"
+
+#: ../src/menu.c:338
+#: ../src/menu.c:360
+#: ../src/menu.c:366
+msgid "_Configure"
+msgstr "རིམ་སྒྲིག་འབད།(_C)"
+
+#: ../src/menu.c:339
+msgid "_Preferences..."
+msgstr "དགའ་གདམ་ཚུ...(_P)"
+
+#: ../src/menu.c:340
+msgid "_Keybindings..."
+msgstr "ཀི་བཱའིན་ཌིངསི...(_K)"
+
+#: ../src/menu.c:341
+msgid "_Startup script..."
+msgstr "ཡིག་ཚུགས་འགོ་བཙུགས...(_S)"
+
+#: ../src/menu.c:343
+msgid "_Reload LIRC"
+msgstr "ཨེལ་ཨའི་ཨར་སི་ ཡང་བསྐྱར་མངོན་གསལ་འབད།(_R)"
+
+#: ../src/menu.c:345
+msgid "_Snapshot..."
+msgstr "པར...(_S)"
+
+#: ../src/menu.c:346
+msgid "_Quit"
+msgstr "སྤང་།(_Q)"
+
+#: ../src/menu.c:347
+msgid "_View"
+msgstr "མཐོང་སྣང་།(_V)"
+
+#: ../src/menu.c:348
+msgid "_Toolbars"
+msgstr "ལག་ཆས་ཕྲ་རིང་ཚུ།(_T)"
+
+#: ../src/menu.c:349
+msgid "_Window size"
+msgstr "སྒོ་སྒྲིག་གི་ཚད།(_W)"
+
+#: ../src/menu.c:350
+msgid "Re_set"
+msgstr "སླར་སྒྲིག(_s)"
+
+#: ../src/menu.c:351
+msgid "_Keypad..."
+msgstr "ལྡེ་གདན...(_K)"
+
+#: ../src/menu.c:352
+msgid "Zoom _in"
+msgstr "ཕྱིར་རྒྱས།(_i)"
+
+#: ../src/menu.c:353
+msgid "Zoom _out"
+msgstr "ནང་བཟུམ།(_o)"
+
+#: ../src/menu.c:354
+msgid "_Zoom 100%"
+msgstr "༡༠༠% རྒྱས་ཟུམ་འབད།(_Z)"
+
+#: ../src/menu.c:355
+msgid "_Aspect ratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད།(_A)"
+
+#: ../src/menu.c:356
+msgid "_Visualisations"
+msgstr "འཆར་སྣང་།(_V)"
+
+#: ../src/menu.c:357
+msgid "_Subtitles"
+msgstr "མགོ་མིང་ཡན་ལག(_S)"
+
+#: ../src/menu.c:358
+msgid "V_ideo"
+msgstr "ཝི་ཌིའོ(_i)"
+
+#. Video
+#. Audio
+#: ../src/menu.c:359
+#: ../src/menu.c:364
+msgid "_Settings..."
+msgstr "སྒྲིག་སྟངས་ཚུ...(_S)"
+
+#: ../src/menu.c:361
+msgid "_Deinterlace..."
+msgstr "ལྷས་བཤོལ་འབད...(_D)"
+
+#: ../src/menu.c:362
+#: ../src/menu.c:367
+msgid "_Post-processing..."
+msgstr "གནས་བསྐྱོད-བཟོ་སྦྱོར་འབད་དོ...(_P)"
+
+#: ../src/menu.c:363
+msgid "_Audio"
+msgstr "རྣར་ཉན།(_A)"
+
+#: ../src/menu.c:365
+msgid "_Equaliser..."
+msgstr "མཉམ་པ་བཟོ་མི...(_E)"
+
+#: ../src/menu.c:368
+msgid "_Media"
+msgstr "བརྡ་ལམ།(_M)"
+
+#: ../src/menu.c:369
+msgid "_Add media mark.."
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཁ་སྐོང་རྐྱབས...(_A)"
+
+#: ../src/menu.c:370
+msgid "_Manage media marks..."
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ་འཛིན་སྐྱོང་འཐབ...(_M)"
+
+#: ../src/menu.c:371
+msgid "_Import media marks..."
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ་ནང་འདྲེན་འབད...(_I)"
+
+#: ../src/menu.c:372
+msgid "_Tools"
+msgstr "ལག་ཆས་ཚུ།(_T)"
+
+#: ../src/menu.c:373
+msgid "Engine _log..."
+msgstr "མ་འཕྲུལ་གྱི་དྲན་དེབ...(_l)"
+
+#: ../src/menu.c:374
+msgid "_Javascript console..."
+msgstr "ཇ་བ་ཡིག་ཚུགས་ཀྱི་མ་སྒྲོམ...(_J)"
+
+#: ../src/menu.c:375
+msgid "Stream _info..."
+msgstr "རྒྱུན་རིམ་གྱི་བརྡ་དོན...(_i)"
+
+#: ../src/menu.c:376
+msgid "_Re-run setup wizards..."
+msgstr "གཞི་སྒྲིག་འབད་མི་ཝི་ཛརཌི་ཚུ་ ལོག་གཡོག་བཀོལ...(_R)"
+
+#: ../src/menu.c:377
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../src/menu.c:378
+msgid "_About..."
+msgstr "སྐོར་ལས...(_A)"
+
+#: ../src/menu.c:396
+msgid "_Full-screen mode"
+msgstr "གསལ་གཞི་-གངམ་གི་ཐབས་ལམ།(_F)"
+
+#: ../src/menu.c:397
+msgid "Visible (_windowed)"
+msgstr "མཐོང་ཚུགསཔ(ཝིན་ཌོཌི)(_w)"
+
+#: ../src/menu.c:398
+msgid "_Snap to video window"
+msgstr "ཝི་ཌིའོ་གི་སྒོ་སྒྲིག་ནང་ལུ་པརབཏབ།(_S)"
+
+#: ../src/menu.c:399
+msgid "Visible (_full-screen)"
+msgstr "མཐོང་ཚུགཔ(གསལ་གཞི་-གང་)(_f)"
+
+#: ../src/menu.c:400
+msgid "Auto _resize"
+msgstr "རང་བཞིན་གྱིས་ཚད་བསྐྱར་བཟོ་འབད།(_r)"
+
+#: ../src/menu.c:401
+msgid "_Magnify low-res video"
+msgstr "ལོ་-རེསི་ ཝི་ཌིའོ་ ཆེར་སྐྱེད་འབད།(_M)"
+
+#: ../src/menu.c:402
+msgid "_Deinterlace"
+msgstr "ལྷས་བཤོལ་འབད།(_D)"
+
+#: ../src/menu.c:403
+#: ../src/menu.c:404
+msgid "_Post-processing"
+msgstr "གནས་བསྐྱོད་-བཟོ་སྦྱོར་འབད་དོ།(_P)"
+
+#: ../src/menu.c:415
+msgid "At _top"
+msgstr "མགོ་ལུ།(_t)"
+
+#: ../src/menu.c:416
+msgid "At _bottom"
+msgstr "མཇུག་ལུ།(_b)"
+
+#: ../src/menu.c:420
+msgid "_50%"
+msgstr "༥༠%(_5)"
+
+#: ../src/menu.c:421
+msgid "_75%"
+msgstr "༧༥%(_7)"
+
+#: ../src/menu.c:422
+msgid "_100%"
+msgstr "༡༠༠%(_1)"
+
+#: ../src/menu.c:423
+msgid "15_0%"
+msgstr "༡༥༠%(_0)"
+
+#: ../src/menu.c:424
+msgid "_200%"
+msgstr "༢༠༠% (_2)"
+
+#. Aspect ratio menu text
+#: ../src/menu.c:429
+#: ../src/menu.c:442
+msgid "_Auto"
+msgstr "རང་བཞིན།(_A)"
+
+#: ../src/menu.c:430
+msgid "_Square"
+msgstr "གྲུ་བཞི།(_S)"
+
+#: ../src/menu.c:431
+msgid "_4:3"
+msgstr "༤:༣ (_4)"
+
+#: ../src/menu.c:432
+msgid "_16:9"
+msgstr "༡༦:༩ (_1)"
+
+#: ../src/menu.c:433
+msgid "_2:1"
+msgstr "༢:༡ (_2)"
+
+#. Subtitles menu text
+#: ../src/menu.c:436
+#: ../src/menu.c:441
+#: ../src/wizards.c:252
+msgid "_None"
+msgstr "ཅི་་མེད།(_N)"
+
+#: ../src/menu.c:443
+msgid "Channel _0"
+msgstr "རྒྱུ་ལམ་ ༠(_0)"
+
+#: ../src/menu.c:444
+msgid "Channel _1"
+msgstr "རྒྱུ་ལམ ༡(_1)"
+
+#: ../src/menu.c:445
+msgid "Channel _2"
+msgstr "རྒྱུ་ལམ ༢(_2)"
+
+#: ../src/menu.c:446
+msgid "Channel _3"
+msgstr "རྒྱུ་ལམ ༣ (_3)"
+
+#: ../src/menu.c:447
+msgid "Channel _4"
+msgstr "རྒྱུ་ལམ ༤ (_4)"
+
+#: ../src/menu.c:448
+msgid "Channel _5"
+msgstr "རྒྱུ་ལམ ༥ (_5)"
+
+#: ../src/menu.c:449
+msgid "Channel _6"
+msgstr "རྒྱུ་ལམ ༦ (_6)"
+
+#: ../src/menu.c:450
+msgid "Channel _7"
+msgstr "རྒྱུ་ལམ ༧ (_7)"
+
+#: ../src/menu.c:451
+msgid "Channel _8"
+msgstr "རྒྱུ་ལམ་ ༨(_8)"
+
+#: ../src/menu.c:452
+msgid "Channel _9"
+msgstr "རྒྱུ་ལམ་ ༩(_9)"
+
+#: ../src/menu.c:453
+msgid "Channel 10"
+msgstr "རྒྱུ་ལམ་ ༡༠།"
+
+#: ../src/menu.c:454
+msgid "Channel 11"
+msgstr "རྒྱུ་ལམ་ ༡༡།"
+
+#: ../src/menu.c:455
+msgid "Channel 12"
+msgstr "རྒྱུ་ལམ་ ༡༣།"
+
+#: ../src/menu.c:456
+msgid "Channel 13"
+msgstr "རྒྱུ་ལམ ༡༣།"
+
+#: ../src/menu.c:457
+msgid "Channel 14"
+msgstr "རྒྱུ་ལམ་ ༡༤།"
+
+#: ../src/menu.c:458
+msgid "Channel 15"
+msgstr "རྒྱུ་ལམ་ ༡༥།"
+
+#: ../src/menu.c:624
+#, c-format
+msgid "_Other (%.1lf%%)"
+msgstr "གཞན (%.1lf%%) (_O)"
+
+#. toolbar window title
+#: ../src/noskin_window.c:745
+#: ../src/noskin_window.c:828
+msgid "gxine controls"
+msgstr "ཇི་ཟའིན་གིས་ཚད་འཛིན་འབདཝ་ཨིན།"
+
+#: ../src/open_mrl.c:44
+#: ../src/playlist.c:321
+msgid "Select files to add to playlist"
+msgstr "གླུ་ཐོ་ནང་ཁ་སྐོང་རྐྱབས་ནིའི་དོན་ལས་ཡིག་སྣོད་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../src/open_mrl.c:115
+msgid "Open MRL..."
+msgstr "ཨེམ་ཨར་ཨེལ་ ཁ་ཕྱེ..."
+
+#: ../src/open_mrl.c:118
+#: ../src/play_item.c:386
+msgid "_File..."
+msgstr "ཡིག་སྣོད...(_F)"
+
+#: ../src/open_mrl.c:138
+#: ../src/script_engine.c:1496
+msgid "_Flush"
+msgstr "ཕ་ལཤ(_F)"
+
+#: ../src/play_item.c:305
+#, c-format
+msgid "play item ‘%s’, chunk %d"
+msgstr "རྣམ་གྲངས་ ‘%s’ གཏང་ དུམ་བུར་ %d"
+
+#: ../src/play_item.c:406
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/play_item.c:408
+msgid "From stream"
+msgstr "རྒྱུན་རིམ་ལས།"
+
+#: ../src/play_item.c:410
+msgid "Time"
+msgstr "ཆུ་ཚོད།"
+
+#: ../src/play_item.c:431
+msgid "Edit play item"
+msgstr "གཏང་ནིའི་རྣམ་གྲངས་ ཞུན་དག་འབད།"
+
+#: ../src/play_item.c:432
+msgid "Edit media mark"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཞུན་དག་འབད།"
+
+#: ../src/play_item.c:433
+msgid "Add play item"
+msgstr "རྩེད་རིགས་རྣམ་གྲངས་ ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/play_item.c:434
+msgid "Add media mark"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/play_item.c:488
+#, c-format
+msgid ""
+"Title: %s\n"
+"MRL: %s\n"
+"Start: %s\n"
+msgstr ""
+"མགོ་མིང་: %s\n"
+"ཨེམ་ཨར་ཨེལ: %s\n"
+"འགོ་བཙུགས: %s\n"
+
+#: ../src/player.c:74
+msgid "opening..."
+msgstr "ཁ་ཕྱེ་དོ..."
+
+#: ../src/player.c:145
+#: ../src/player.c:152
+#: ../src/player.c:157
+#: ../src/player.c:162
+msgid "The xine engine failed to start."
+msgstr "སའིན་ མ་འཕྲུལ་འདི་འགོ་བཙུགས་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ཡོད།"
+
+#: ../src/player.c:146
+msgid ""
+"No input plugin was found.\n"
+"Maybe the file does not exist or cannot be accessed, or there is an error in the URL."
+msgstr ""
+"ཨིན་པུཊི་གི་པ་ལག་ཨིན་གཅིག་ཡང་འཚོལ་མ་འཐོབ།\n"
+"ཡིག་སྣོད་ཚུ་ མེདཔ་འོང་ ཡང་ན་འཛུལ་སྤྱོད་འབད་མི་བཏུབ་འོང་། ཡང་ན་ ཡུ་ཨར་ཨེལ་ནང་ལུ་འཛོལ་བ་ཅིག་ཡོདཔ་འོང་།"
+
+#: ../src/player.c:153
+msgid "No demuxer found - stream format not recognised."
+msgstr "ཌི་མུ་སར་་གཅིག་ཡང་མ་འཐོབ - རྒྱུན་རིམ་གྱི་རྩ་སྒྲིག་ངོ་མ་ཤེསཔ།"
+
+#: ../src/player.c:158
+msgid "The MRL is malformed."
+msgstr "ཨེམ་ཨར་ཨེལ་ འདི་བཟོ་ཉེས་གྱུར་ཡོདཔ།"
+
+#: ../src/player.c:163
+#, c-format
+msgid "Unknown error (code %d)"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ(ཨང་རྟགས་ %d)"
+
+#: ../src/player.c:213
+msgid "Player failure"
+msgstr "གཏང་འཕྲུལ་གྱི་འཐུས་ཤོར།"
+
+#: ../src/player.c:214
+#, c-format
+msgid "Can't create new thread: %s\n"
+msgstr "ཐེ་རེཌི་གསརཔ་གསར་བསྐྲུན་འབད་མི་ཚུགས: %s\n"
+
+#: ../src/player.c:700
+#: ../src/player.c:729
+#, c-format
+msgid "error: %s() argument %d is neither int nor string\n"
+msgstr "འཛོལ་བ: %s() སྒྲུབ་རྟགས %d འདི་ ཡང་ཅིན་ ཨའི་ཨེན་ཊི་མེན་པས་ ཡང་ན་ ཡིག་རྒྱུན་མེན་པས།\n"
+
+#: ../src/player.c:914
+msgid "script_engine: error: no valid play item available\n"
+msgstr "ཡིག་ཚུགས་མ་འཕྲུལ: འཛོལ་བ: གཏང་ནིའི་རྣམ་གྲངས་ནུས་ཅན་ཐོབ་ཆོག་ཆོག་མིན་འདུག\n"
+
+#: ../src/player.c:999
+msgid "audio driver to use"
+msgstr "རྣར་ཉན་གྱི་འདྲེན་འབྱེད་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ།"
+
+#: ../src/player.c:1013
+#, c-format
+msgid "audio driver %s failed\n"
+msgstr "རྣར་ཉན་གྱི་འདྲེན་འབྱེད་ %s འཐུས་ཤོར་འབྱུང་ཡོདཔ།\n"
+
+#. Text is help for the commands. Format is:
+#. *   To the left of the semicolon, a comma-separated list of
+#. *     VARIABLE[=TYPE] or METHOD([PARAMETER TYPE,...])
+#. *   To the right, descriptive text
+#.
+#: ../src/player.c:1055
+msgid "v=int, min, max; playback speed"
+msgstr "v=ཨའི་ཨེན་ཊི ཉུང་མཐའ མང་མཐའ གླུ་གཞས་གཏང་ནིའི་མགྱོགས་ཚད།"
+
+#: ../src/player.c:1056
+msgid "v=int; aspect ratio"
+msgstr "v=ཨའི་ཨེན་ཊི རྣམ་པའི་དཔྱ་ཚད།"
+
+#: ../src/player.c:1057
+msgid "v=int, min, max; subtitle channel"
+msgstr "v=ཨའི་ཨེན་ཊི ཉུང་མཐའ་ མང་མཐའ་ མགོ་མིང་ཡན་ལག་གི་རྒྱུ་ལམ།"
+
+#: ../src/player.c:1058
+#: ../src/player.c:1072
+#: ../src/player.c:1073
+msgid "v=int, min, max; video zoom (within window)"
+msgstr "v=ཨའི་ཨེན་ཊི ཉུང་མཐའ མང་མཐའ ཝི་ཌིའོ་ རྒྱས་ཟུམ (སྒོ་སྒྲིག་ནང་འཁོད)"
+
+#: ../src/player.c:1062
+msgid "v=bool, toggle(): audio mute"
+msgstr "v=བུལ སོར་སྟོན(): རྣར་ཉན་སྐད་མེད།"
+
+#: ../src/player.c:1063
+msgid "v=bool, toggle(): auto-resize video on frame shape change"
+msgstr "v=བུལ སོར་སྟོན(): གཞི་ཁྲམ་གྱི་དབྱིབས་བསྒྱུར་བཅོས་གུ་ལུ་ རང་བཞིན་-ཚད་བསྐྱར་བཟོ་འབད་ནི་ཝི་ཌིའོ།"
+
+#: ../src/player.c:1064
+msgid "v=bool, toggle(): double size of low-resolution video"
+msgstr "v=བུལ སོར་སྟོན(): དམའ་བའི་-ཧུམ་ཆའི་ཝི་ཌིའོ་གི་ཚད་ལོག་བལྟབ།"
+
+#: ../src/player.c:1065
+msgid "v=bool, toggle(): full-screen mode"
+msgstr "v=བུལ སོར་སྟོན(): གསལ་གཞི་-གང་མའི་ཐབས་ལམ།"
+
+#: ../src/player.c:1066
+msgid "v=bool, toggle(): enable deinterlacing"
+msgstr "v=བུལ སོར་སྟོན(): ལྷས་བཤོལ་འབད་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/player.c:1067
+msgid "v=bool, toggle(): audio post-processing; chain=string: plugin chain"
+msgstr "v=བཱུལ སོར་སྟོན(): རྣར་ཉན་གནས་བསྐྱོད་-བཟོ་སྦྱོར་འབད་དོ།; རྒྱུན་ཐག་=ཡིག་རྒྱུན་: རྒྱུན་ཐག་པ་ལག་ཨིན།"
+
+#: ../src/player.c:1068
+msgid "v=bool, toggle(): video post-processing; chain=string: plugin chain"
+msgstr "ཝི་=བཱུལ་ སོར་སྟོན་(): ཝི་ཌིའོ་གནས་བསྐྱོད་བཟོ་སྦྱོར་འབད་དོ། ; རྒྱུན་ཐག་=ཡིག་རྒྱུན་: པ་ལག་ཨིན་རྒྱུན་ཐག"
+
+#. help text describes function parameters
+#: ../src/player.c:1106
+msgid "[mrl] [, pos, time]"
+msgstr "[mrl] [, pos, time]"
+
+#: ../src/player.c:1107
+msgid "time in milliseconds"
+msgstr "ཆུ་ཚོད་འདི་ མི་ལི་སྐར་ཆ་ཚུ་ནང་།"
+
+#: ../src/player.c:1111
+#: ../src/player.c:1117
+#: ../src/stream_info.c:241
+#: ../src/ui.c:921
+msgid "[bool]"
+msgstr "[bool]"
+
+#. these correspond to the options in the snapshot-save dialogue box
+#: ../src/player.c:1120
+msgid "[file name [, scale, blend]]"
+msgstr "[file name [, scale, blend]]"
+
+#: ../src/player.c:1167
+msgid "50%"
+msgstr "༥༠%"
+
+#: ../src/player.c:1167
+msgid "75%"
+msgstr "༧༥%"
+
+#: ../src/player.c:1167
+msgid "100%"
+msgstr "༡༠༠%"
+
+#: ../src/player.c:1167
+msgid "150%"
+msgstr "༡༥༠%"
+
+#: ../src/player.c:1167
+msgid "200%"
+msgstr "༢༠༠%"
+
+#: ../src/player.c:1172
+msgid "The main window's default size"
+msgstr "སྒོ་སྒྲིག་གཙོ་བོ་འདི་གི་སྔོན་སྒྲིག་གི་ཚད།"
+
+#: ../src/player.c:1176
+msgid "Double the size of small video streams"
+msgstr "ཝི་ཌིའོ་རྒྱུན་རིམ་ཆུང་མི་ཚུའི་ཚད་ཀྱི་ལོག་བལྟབ།"
+
+#: ../src/player.c:1177
+msgid "This affects video streams whose dimensions are at most ⅓ of those of the display."
+msgstr "འ་ནི་འདི་གིས་ རྒྱ་ཁྱོན་ཚུ་ མང་ཤོས་རང་ བཀྲམ་སྟོན་གྱི་ ⅓ ལུ་ཨིན་མི་ ཝི་ཌིའོ་གི་རྒྱུན་རིམ་ཚུ་གནོདཔ་ཨིན།"
+
+#: ../src/player.c:1182
+msgid "Subtitle autoloading"
+msgstr "མགོ་མིང་ཡན་ལག་འདི་ རང་བཞིན་གྱིས་མངོན་གསལ་འབད་དོ་"
+
+#: ../src/player.c:1183
+msgid "Automatically load subtitles if they exist."
+msgstr "དེ་ཚུ་ཡོད་པ་ཅིན་ མགོ་མིང་ཡན་ལག་ཚུ་ རང་བཞིན་གྱིས་མངོན་གསལ་འབད་འོང་།"
+
+#: ../src/playlist.c:405
+#: ../src/playlist.c:414
+#: ../src/playlist.c:435
+#: ../src/playlist.c:495
+msgid "Loading of playlist file failed."
+msgstr "གླུ་ཐོའི་ཡིག་སྣོད་མངོན་གསལ་འབད་ནི་འདི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/playlist.c:406
+#, c-format
+msgid ""
+"Failed to open file ‘%s’\n"
+"%s"
+msgstr ""
+"ཡིག་སྣོད་  ‘%s’ ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"%s"
+
+#: ../src/playlist.c:415
+#, c-format
+msgid "‘%s’ is not a valid XML/ASX file"
+msgstr "‘%s’ འདི་ ནུས་ཅན་ཡིག་སྣོད་ ཨེགསི་ཨེམ་ཨེལ་/ཨེ་ཨེསི་ཨེགསི་མེན་པས།"
+
+#: ../src/playlist.c:436
+#, c-format
+msgid "Unknown or incorrect ASX version number in ‘%s’"
+msgstr "‘%s’ ནང་ ཨེ་ཨེསི་ཨེགསི་ ཐོན་རིམ་ཨང་གྲངས་བདེན་མེད་ཡང་ན་མ་ཤེསཔ།"
+
+#: ../src/playlist.c:496
+#, c-format
+msgid "‘%s’ is not an ASX file"
+msgstr "‘%s’ འདི་ ཨེ་ཨེསི་ཨེགསི་ཡིག་སྣོད་མེན་པས།"
+
+#: ../src/playlist.c:520
+#: ../src/playlist.c:549
+msgid "Failed to save playlist"
+msgstr "གློ་ཐོ་སྲུང་བཞག་འབད་་ནིའཐུས་ཤོར་འབྱུང་ཡོདཔ།་"
+
+#: ../src/playlist.c:558
+msgid "Select playlist..."
+msgstr "གླུ་ཐོ་སེལ་འཐུ་འབད..."
+
+#: ../src/playlist.c:567
+msgid "Save playlist as..."
+msgstr "སྦེ་ གླུ་ཐོ་སེལ་འཐུ་འབད..."
+
+#: ../src/playlist.c:822
+#, c-format
+msgid "playlist: no %s tag\n"
+msgstr "གླུ་ཐོ་: མིན་འདུག་ %s tag\n"
+
+#. !property
+#: ../src/playlist.c:1237
+#: ../src/playlist.c:1286
+msgid "playlist: no HREF property\n"
+msgstr "གླུ་ཐོ: ཨེཆ་ཨར་ཨི་ཨེཕ་ རྒྱུ་དངོས་ མེད།\n"
+
+#: ../src/playlist.c:1297
+#, c-format
+msgid "playlist: unknown tag %s detected\n"
+msgstr "གླུ་ཐོ: མ་ཤེས་པའི་ངོ་རྟགས་ %s སྐྱོན་འཛིན་འབྱུང་ཡོདཔ།\n"
+
+#: ../src/playlist.c:1305
+#, c-format
+msgid "playlist: sorry, ASX version %d not implemented yet\n"
+msgstr "གླུ་ཐོ: དགོངསམ་མ་ཁྲེལ། ཨེ་ཨེསི་ཨེགསི་ ཐོན་རིམ་ %d ད་ཚུན་བསྟར་སྤྱོད་མ་འབད་བས།\n"
+
+#: ../src/playlist.c:1309
+msgid "playlist: no ASX tag\n"
+msgstr "གླུ་ཐོ: ཨེ་ཨེསི་ཨེགསི་ ངོ་རྟགས་མེད།\n"
+
+#. oops, the playlist references itself or another playlist which
+#. * (eventually) references this one
+#.
+#: ../src/playlist.c:1437
+#, c-format
+msgid "recursion in playlist: %s\n"
+msgstr "གླུ་ཐོ་ནང་སླར་འབྱུང་མི:  %s\n"
+
+#: ../src/playlist.c:1722
+msgid "xine_event_cb: unknown XINE_MSG_*"
+msgstr "xine_event_cb: མ་ཤེསཔ་ XINE_MSG_*"
+
+#. UNCOMMENTME: XINE_MSG_FILE_EMPTY
+#: ../src/playlist.c:1730
+msgid "File is empty:"
+msgstr "ཡིག་སྣོད་འདི་སྟོངམ་ཨིན་པས་:"
+
+#: ../src/playlist.c:1771
+#, c-format
+msgid "Message code %d"
+msgstr "འཕྲིན་དོན་ཨང་ %d"
+
+#: ../src/playlist.c:2099
+msgid "Open a playlist file"
+msgstr "གླུ་ཐོའི་ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
+
+#: ../src/playlist.c:2100
+msgid "Save the playlist file"
+msgstr "གླུ་ཐོའི་ཡིག་སྣོད་འདི་ཁ་ཕྱེ།"
+
+#: ../src/playlist.c:2101
+msgid "Clear the playlist"
+msgstr "གླུ་ཐོ་འདི་བསལ།"
+
+#: ../src/playlist.c:2102
+msgid "Add files to the playlist"
+msgstr "ཡིག་སྣོད་ཚུ་ གླུ་ཐོ་ནང་ལུ་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/playlist.c:2109
+msgid "Add to _media marks"
+msgstr "བརྡ་ལམ་གྱི་རྟགས་ཚུ་ལུ་ཁ་སྐོང་རྐྱབས།(_m)"
+
+#: ../src/playlist.c:2109
+msgid "Add the selected item to the media marks list"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་རྣམ་གྲངས་འདི་ བརྡ་ལམ་རྟགས་ཀྱི་ཐོ་ཡིག་ནང་ལུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/playlist.c:2110
+msgid "Play previous item"
+msgstr "ཧེ་མའི་རྣམ་གྲངས་གཏང་།"
+
+#: ../src/playlist.c:2111
+msgid "Play next item"
+msgstr "ཤུལ་མའི་རྣམ་གྲངས་གཏང་།"
+
+#.
+#. * window
+#.
+#: ../src/playlist.c:2184
+msgid "Edit playlist..."
+msgstr "གླུ་ཐོ་ཞུན་དག་འབད..."
+
+#: ../src/playlist.c:2225
+#, c-format
+msgid "playlist XML: %s\n"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ གླུ་ཐོ།: %s\n"
+
+#. foo...bar
+#: ../src/playlist.c:2252
+msgid "Title"
+msgstr "མགོ་མིང་།"
+
+#: ../src/playlist.c:2283
+msgid "_Repeat"
+msgstr "ཡང་བསྐྱར།(_R)"
+
+#: ../src/playlist.c:2286
+msgid "_Random"
+msgstr "གང་འབྱུང་།(_R)"
+
+#: ../src/playlist.c:2310
+msgid "file"
+msgstr "ཡིག་སྣོད།"
+
+#: ../src/playlist.c:2312
+msgid "MRL[, title]"
+msgstr "ཨེམ་ཨར་ཨེལ་[, མགོ་མིང་]"
+
+#: ../src/playlist.c:2316
+msgid "playlist entry number"
+msgstr "གླུ་ཐོ་ ཐོ་བཀོད་ཀྱི་ཨང་གྲངས།"
+
+#: ../src/post.c:83
+msgid "Configure deinterlace post-plugins"
+msgstr "ལྷས་བཤོལ་འབད་ནི་ གནས་བསྐྱོད་-བཟོ་སྦྱོར་འབད་ནི་ རིམ་སྒྲིག་འབད།"
+
+#: ../src/post.c:84
+msgid "Configure video post-plugins"
+msgstr "ཝི་ཌིའོ་ གནས་བསྐྱོད་-པ་ལག་ཨིནསི་ རིམ་སྒྲིག་འབད།"
+
+#: ../src/post.c:85
+msgid "Configure audio post-plugins"
+msgstr "རྣར་ཉན་ གནས་བསྐྱོད་-པ་ལག་ཨིནསི་ རིམ་སྒྲིག་འབད།"
+
+#: ../src/post.c:173
+#: ../src/post.c:178
+#: ../src/post.c:189
+#, c-format
+msgid "gxine: post-parameter type %s not yet supported\n"
+msgstr "ཇི་ཟའིན་: གནས་བསྐྱོད་-ཚད་བཟུང་དབྱེ་བ་ %s   ད་ཚུན་རྒྱབ་སྐྱོར་མ་འབད་བས་\n"
+
+#. recognised & writeable
+#: ../src/post.c:237
+#, c-format
+msgid "parameter %s is read-only"
+msgstr "ཚད་བཟུང་ %s འདི་ལྷག་ནི་ཙམ།"
+
+#: ../src/post.c:241
+#, c-format
+msgid "parameter %.*s not recognised"
+msgstr "ཚད་བཟུང་ %.*s ངོས་འཛིན་མ་འབད་བས།"
+
+#: ../src/post.c:490
+#, c-format
+msgid "Configure plugin %s"
+msgstr "པ་ལག་ཨིན་ %s རིམ་སྒྲིག་འབད།"
+
+#: ../src/post.c:767
+#: ../src/post.c:924
+msgid "Plugin error"
+msgstr "པ་ལག་ཨིན་འཛོལ་བ།"
+
+#. problem - we can't instantiate the plugin so we can't configure it
+#: ../src/post.c:769
+#: ../src/post.c:925
+#, c-format
+msgid "Couldn't initialise plugin ‘%s’ for configuration"
+msgstr "རིམ་སྒྲིག་གི་དོན་ལུ་ པ་ལག་ཨིན་ '%s' འདི་འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: ../src/post.c:1027
+#: ../src/post.c:1042
+#, c-format
+msgid "Plugin chain %s"
+msgstr "པ་ལག་ཨིན་གྱི་རྒྱུན་ཐག་ %s"
+
+#: ../src/post.c:1030
+msgid "No available plugins - nothing to configure"
+msgstr "པ་ལག་ཨིན་ཚུ་གཅིག་ཡང་འཐོབ་ཚུགསཔ་མེད། རིམ་སྒྲིག་འབད་ནི་ག་ཅི་་ཡང་མེད།"
+
+#: ../src/preferences.c:360
+#, c-format
+msgid "preferences: unknown type for entry ‘%s’\n"
+msgstr "དགའ་དགམ་ཚུ་: ཐོ་བཀོད་ ‘%s’ གི་དོན་ལུ་ མ་ཤེས་པའི་དབྱེ་བ་\n"
+
+#: ../src/preferences.c:681
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: ../src/preferences.c:694
+msgid "Items marked “<b>• <i>like this</i></b>” require gxine to be restarted to take effect."
+msgstr "རྣམ་གྲངས་རྟགས་བཀལ་ཡོད་མི་ “<b>• <i>འདི་བཟུམ་ལུ་</i></b>” ཕན་གནོད་འབྱུང་ནིའི་དོན་ལས་ ཇི་ཟའིན་འདི་ལོག་འགོ་བཙུགས་དགོ"
+
+#: ../src/script_engine.c:139
+#, c-format
+msgid "<b>Source:</b> %s"
+msgstr "<b>འབྱུང་ཁུངས:</b> %s"
+
+#: ../src/script_engine.c:142
+#, c-format
+msgid "<b>Line:</b> %d"
+msgstr "<b>གྲལ་ཐིག:</b> %d"
+
+#: ../src/script_engine.c:145
+#, c-format
+msgid "<b>Line:</b> %s"
+msgstr "<b>གྲལ་ཐིག:</b> %s"
+
+#: ../src/script_engine.c:331
+msgid "JS callback"
+msgstr "ཇེ་ཨེསི་ ཀཱལ་བེཀ།"
+
+#: ../src/script_engine.c:484
+msgid "Engine control:"
+msgstr "མ་འཕྲུལ་ཚད་འཛིན:"
+
+#: ../src/script_engine.c:485
+msgid "Dialogue boxes:"
+msgstr "ཌའི་ལོག་བོགསི་ཚུ:"
+
+#: ../src/script_engine.c:486
+msgid "Playlist control:"
+msgstr "གླུ་ཐོ་ཚད་འཛིན:"
+
+#: ../src/script_engine.c:487
+msgid "File access:"
+msgstr "ཡིག་སྣོད་འཛུལ་སྤྱོད:"
+
+#: ../src/script_engine.c:488
+msgid "Status:"
+msgstr "གནས་ཚད:"
+
+#: ../src/script_engine.c:489
+msgid "Properties:"
+msgstr "རྒྱུ་དངོས་ཚུ:"
+
+#: ../src/script_engine.c:490
+msgid "Input event generation (DVD menus etc.):"
+msgstr "ཨིན་པུཊི་བྱུང་ལས་བཟོ་བཏོན་(ཌི་བི་ཌི་དཀར་ཆག་ལ་སོགས་པ):"
+
+#: ../src/script_engine.c:491
+msgid "External program support:"
+msgstr "ཕྱིའི་ལས་རིམ་རྒྱབ་སྐྱོར:"
+
+#: ../src/script_engine.c:501
+msgid "Available commands (gxine Javascript interface):"
+msgstr "འཐོབ་ཚུགས་པའི་བརྡ་བཀོད་(ཇི་ཟའིན་ཇ་བ་ཡིག་ཚུགས་ངོས་འདྲ་བ):"
+
+#: ../src/script_engine.c:564
+#: ../src/script_engine.c:600
+#, c-format
+msgid "script_engine: error: non-numeric result in %s==‘%s’\n"
+msgstr "ཡིག་ཚུགས་མ་འཕྲུལ་(_e) འཛོལ་བ་: %s==‘%s’ ནང་ཨང་གྲངས་ཀྱི་གྲུབ་འབྲས་མེན་མི།\n"
+
+#: ../src/script_engine.c:567
+#: ../src/script_engine.c:603
+#, c-format
+msgid "script_engine: error: non-numeric property %s==‘%s’\n"
+msgstr "ཡིག་ཚུགས་མ་འཕྲུལ་:(_e) འཛོལ་བ་: ཨང་གྲངས་ཀྱི་རྒྱུ་དངོས་མེན་མི་ %s==‘%s’\n"
+
+#: ../src/script_engine.c:672
+#: ../src/script_engine.c:718
+#, c-format
+msgid "script_engine: error: property %s has unknown type %d\n"
+msgstr "ཡིག་ཚུགས་མ་འཕྲུལ་:(_e) འཛོལ་བ་: རྒྱུ་དངོས་ %s འདི་ལུ་མ་ཤེས་པའི་ཡིག་དཔར་ %d ཡོདཔ་ཨིན།\n"
+
+#: ../src/script_engine.c:689
+#: ../src/script_engine.c:697
+#, c-format
+msgid ""
+"\n"
+"%s.%s: value must be numeric\n"
+msgstr ""
+"\n"
+"%s.%s: གནས་གོང་འདི་ཨང་གྲངས་ཨིན་དགོ\n"
+
+#: ../src/script_engine.c:705
+#, c-format
+msgid ""
+"\n"
+"%s.%s: value must be boolean\n"
+msgstr ""
+"\n"
+"%s.%s: གནས་གོང་འདི་བུ་ལིན་ཨིན་དགོ\n"
+
+#: ../src/script_engine.c:965
+#: ../src/script_engine.c:991
+#: ../src/script_engine.c:1017
+#: ../src/script_engine.c:1043
+#, c-format
+msgid "script_engine: se_prop_set%s: can't change type of property %s\n"
+msgstr "script_engine: se_prop_set%s: རྒྱུ་དངོས་ %s གི་དབྱེ་བ་བསྒྱུར་བཅོས་འབད་མི་ཚུགས་\n"
+
+#: ../src/script_engine.c:1064
+#: ../src/script_engine.c:1102
+#: ../src/script_engine.c:1136
+#: ../src/script_engine.c:1170
+#, c-format
+msgid "script_engine: se_prop_get%s error: property %s doesn't exist\n"
+msgstr "script_engine: se_prop_get%s error: རྒྱུ་དངོས་ %s མེད་\n"
+
+#: ../src/script_engine.c:1122
+#: ../src/script_engine.c:1156
+#: ../src/script_engine.c:1190
+#, c-format
+msgid "script_engine: se_prop_get%s error: %s is not numeric\n"
+msgstr "script_engine: se_prop_get%s error: %s འདི་ཨང་གྲངས་མེན།\n"
+
+#: ../src/script_engine.c:1279
+msgid "script_engine: can't create property for xine config enum type\n"
+msgstr "script_engine: ཟའིན་ཀོན་ཕིག་ཨི་ནཱམ་དབྱེ་བ་གི་དོན་ལུ་ རྒྱུ་དངོས་གསར་བསྐྲུན་འབད་མི་ཚུགས་\n"
+
+#: ../src/script_engine.c:1290
+msgid "script_engine: can't create property for xine config unknown type\n"
+msgstr "ཡིག་ཚུགས་མ་འཕྲུལ་:(_e) ཟའིན་རིམ་སྒྲིག་མ་ཤེས་པའི་ཡིག་དཔར་གྱི་དོན་ལས་རྒྱུ་དངོས་གསར་བསྐྲུན་འབད་མི་ཚུགས།\n"
+
+#: ../src/script_engine.c:1311
+msgid "script_engine: can't create property for xine param non-int type\n"
+msgstr "script_engine: ཟའིན་པ་རམ་ ནོན་-ཨིནཊི་དབྱེ་བ་གི་དོན་ལུ་ རྒྱུ་དངོས་ཚུ་གསར་བསྐྲུན་འབད་མི་ཚུགས་\n"
+
+#: ../src/script_engine.c:1327
+#: ../src/script_engine.c:1350
+#, c-format
+msgid "script_engine: error in %s: property %s not found\n"
+msgstr "ཡིག་ཚུགས་མ་འཕྲུལ་:(_e) %s ནང་འཛོལ་བ་: རྒྱུ་དངོས་ %s འཚོལ་མ་ཐོབ།\n"
+
+#: ../src/script_engine.c:1403
+#: ../src/script_engine.c:1475
+msgid "Javascript console"
+msgstr "ཇ་བ་ཡིག་ཚུགས་ མ་སྒྲོམ།"
+
+#: ../src/script_engine.c:1611
+#, c-format
+msgid "Attempt to call function “%s ()” during initialisation"
+msgstr "འགོ་འབྱེད་འབད་བའི་སྐབས་ ལས་འགན་ “%s ()” བོད་བརྡ་འབད་ནི་ལུ་དཔའ་བཅམ།"
+
+#: ../src/script_engine.h:254
+#, c-format
+msgid "Deprecated: %s"
+msgstr "ངོས་ལེན་མེད་པ: %s"
+
+#. Validation - assumes se_t *se, uintN argc, jsval *argv
+#: ../src/script_engine.h:272
+#, c-format
+msgid "error: %s() needs %d parameters\n"
+msgstr "འཛོལ་བ: %s() ལུ་ %d ཚད་བཟུང་ཚུ་དགོ\n"
+
+#: ../src/script_engine.h:279
+#, c-format
+msgid "error: %s() needs %d...%d parameters\n"
+msgstr "འཛོལ་བ: %s() ལུ་ %d...%d ཚད་བཟུང་ཚུ་དགོ\n"
+
+#: ../src/script_engine.h:286
+#, c-format
+msgid "error: %s() needs 0...%d parameters\n"
+msgstr "འཛོལ་བ: %s() ལུ་ 0...%d ཚད་བཟུང་ཚུ་དགོ\n"
+
+#: ../src/script_engine.h:293
+#, c-format
+msgid "error: %s() argument %d is not an object\n"
+msgstr "འཛོལ་བ: %s() སྒྲུབ་རྟགས་ %d འདི་དངོས་པོ་ཅིག་མེན་པས།\n"
+
+#: ../src/script_engine.h:300
+#, c-format
+msgid "error: %s() argument %d is not an int\n"
+msgstr "འཛོལ་བ: %s() སྒྲུབ་རྟགས་ %d འདི་ int ཅིག་མེན་པས།\n"
+
+#: ../src/script_engine.h:307
+#, c-format
+msgid "error: %s() argument %d is not an int or a boolean\n"
+msgstr "འཛོལ་བ: %s() སྒྲུབ་རྟགས་ %d འདི་ int ཡང་ན་ བུ་ལིན་ཅིག་མེན་པས།\n"
+
+#: ../src/script_engine.h:314
+#: ../src/script_engine.h:321
+#, c-format
+msgid "error: %s() argument %d is not a string\n"
+msgstr "འཛོལ་བ: %s() སྒྲུབ་རྟགས་ %d འདི་ ཡིག་རྒྱུན་ཅིག་མེན་པས།\n"
+
+#: ../src/server.c:142
+msgid ""
+"This is gxine\n"
+"\n"
+"Javascript interface. Type 'help();' for help.\n"
+msgstr ""
+"འ་ནི་འདི་ ཇི་ཟའིན་\n"
+"\n"
+"ཇ་བ་ཡིག་ཚུགས་ངོས་འདྲ་བ་ཨིན། གྲོགས་རམ་གྱི་དོན་ལུ་ 'help();' ཡིག་དཔར་རྐྱབས།\n"
+
+#: ../src/server.c:158
+#, c-format
+msgid "server: read error %d\n"
+msgstr "སར་བར: %d འཛོལ་བ་ལྷག\n"
+
+#: ../src/server.c:163
+msgid "server: client disconnected\n"
+msgstr "སར་བར: ཞབས་ཏོག་སྤྱོད་མི་མཐུད་ལམ་བཏོག་ཡོདཔ།\n"
+
+#: ../src/server.c:278
+msgid "server: connected to existing gxine instance.\n"
+msgstr "སར་བར: ཡོད བཞིན་པའི་ཇི་ཟའིན་དུས་སྐབས་ལུ་མཐུད་ཡོདཔ།\n"
+
+#: ../src/settings.c:55
+msgid "A/V sync"
+msgstr "ཨེ་/ཝི་ མཉམ་འབྱུང་།"
+
+#: ../src/settings.c:56
+msgid "Hue"
+msgstr "ཚོན་མདངས།"
+
+#: ../src/settings.c:57
+msgid "Saturation"
+msgstr "མཐའ་ཚད།"
+
+#: ../src/settings.c:58
+msgid "Contrast"
+msgstr "ཚོན་མདངས།"
+
+#: ../src/settings.c:59
+msgid "Brightness"
+msgstr "དཀར་མདངས།"
+
+#: ../src/settings.c:64
+msgid "Volume"
+msgstr "སྐད་ཤུགས།"
+
+#: ../src/settings.c:65
+msgid "Compressor"
+msgstr "ཨེབ་བཙུགས་མི།"
+
+#: ../src/settings.c:66
+msgid "Amplifier"
+msgstr "རྒྱ་སྐྱེད་བྱེད།"
+
+#: ../src/settings.c:71
+msgid "30Hz"
+msgstr "ཧཛི་ ༣༠"
+
+#: ../src/settings.c:72
+msgid "60Hz"
+msgstr "ཧཛི་ ༦༠"
+
+#: ../src/settings.c:73
+msgid "125Hz"
+msgstr "ཧཛི་ ༡༢༥"
+
+#: ../src/settings.c:74
+msgid "250Hz"
+msgstr "ཧཛི་ ༢༥༠"
+
+#: ../src/settings.c:75
+msgid "500Hz"
+msgstr "ཧཛི་ ༥༠༠"
+
+#: ../src/settings.c:76
+msgid "1kHz"
+msgstr "ཀི་ལོ་ཧཛི་ ༡"
+
+#: ../src/settings.c:77
+msgid "2kHz"
+msgstr "ཀི་ལོ་ཧཛི་ ༢"
+
+#: ../src/settings.c:78
+msgid "4kHz"
+msgstr "ཀི་ལོ་ཧཛི་ ༤"
+
+#: ../src/settings.c:79
+msgid "8kHz"
+msgstr "ཀི་ལོ་ཧཛི་ ༨"
+
+#: ../src/settings.c:80
+msgid "16kHz"
+msgstr "ཀི་ལོ་ཧཛི་ ༡༦"
+
+#: ../src/settings.c:85
+msgid "Video"
+msgstr "ཝི་ཌིའོ།"
+
+#: ../src/settings.c:87
+msgid "Equaliser"
+msgstr "མཉམ་པ་བཟོ་མི།"
+
+#: ../src/settings.c:100
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ།"
+
+#: ../src/settings.c:230
+msgid "_Default"
+msgstr "སྔོན་སྒྲིག(_D)"
+
+#. Snapshot processing options. I *think* that "Hyper" is trilinear
+#: ../src/snapshot.c:133
+msgid "Nearest"
+msgstr "ཉེ་འདབས་ཡོད་མི།"
+
+#: ../src/snapshot.c:133
+msgid "Tiles"
+msgstr "ཊ་ཡིལསི།"
+
+#: ../src/snapshot.c:133
+msgid "Bilinear"
+msgstr "བའི་ལི་ནིའར།"
+
+#: ../src/snapshot.c:133
+msgid "Hyper"
+msgstr "ཚད་བརྒལ།"
+
+#. no image
+#: ../src/snapshot.c:155
+#: ../src/snapshot.c:160
+msgid "Cannot create a snapshot"
+msgstr "པར་ཅིག་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/snapshot.c:156
+msgid "There is no picture from which to create a snapshot."
+msgstr "འདི་ནང་ལུ་ པར་གསར་བསྐྲུན་འབད་ནིའི་དོན་ལས་ པར་གཅིག་ཡང་མེད།"
+
+#: ../src/snapshot.c:161
+#, c-format
+msgid "Sorry, format '%.4s' is unsupported."
+msgstr "དགོངསམ་མ་ཁྲེལ། རྩ་སྒྲིག་ '%.4s' འདི་རྒྱབ་སྐྱོར་མེདཔ་ཨིན་པས།"
+
+#: ../src/snapshot.c:179
+msgid "Enter filename for snapshot:"
+msgstr "པར་གྱི་དོན་ལུ་ ཡིག་སྣོད་མིང་ཐོ་བཀོད་འབད:"
+
+#: ../src/snapshot.c:204
+#, c-format
+msgid "snapshot: eek, how did I get here? (format '%.4s')\n"
+msgstr "པར་: ཨིཀ་  ང་ནཱ་ལུ་ག་དེ་འབད་ལྷོད་ཅི? (རྩ་སྒྲིག་ '%.4s')\n"
+
+#: ../src/snapshot.c:255
+#, c-format
+msgid "vo_scale: unknown/forbidden aspect ratio (%d) in stream => using 4:3\n"
+msgstr "ཝི་ཨོ་ ཆ་ཚད: མ་ཤེསཔ་/མ་ཆོགཔ་ རྣམ་པའི་དཔྱ་ཚད་ (%d) རྒྱུན་རིམ་ནང་ => ༤:༣ ལག་ལེན་འཐབ་ཐོག(_s)\n"
+
+#: ../src/snapshot.c:294
+msgid "_Blend:"
+msgstr "མཉམ་སྡེབ:(_B)"
+
+#: ../src/snapshot.c:305
+msgid "_Scaled"
+msgstr "ཚད་འཇལ་ཡོདཔ:(_S)"
+
+#. Track/stream/file info
+#: ../src/stream_info.c:69
+msgid "Title:"
+msgstr "མགོ་མིང་:"
+
+#: ../src/stream_info.c:70
+msgid "Artist:"
+msgstr "གླུ་གཞསཔ:"
+
+#: ../src/stream_info.c:71
+msgid "Album:"
+msgstr "གླུ་མཛོད:"
+
+#. TEST
+#: ../src/stream_info.c:72
+msgid "Genre:"
+msgstr "རིགས:"
+
+#. TEST
+#: ../src/stream_info.c:73
+msgid "Comment:"
+msgstr "བསམ་བཀོད:"
+
+#: ../src/stream_info.c:74
+msgid "Date:"
+msgstr "ཚེས་གྲངས:"
+
+#: ../src/stream_info.c:81
+#: ../src/stream_info.c:88
+#: ../src/stream_info.c:95
+#, c-format
+msgid "%d of %d"
+msgstr "%d %d ལས།"
+
+#: ../src/stream_info.c:82
+msgid "DVD title:"
+msgstr "ཌི་བི་ཌི་ མགོ་མིང་:"
+
+#: ../src/stream_info.c:89
+msgid "Chapter:"
+msgstr "ལེའུ:"
+
+#: ../src/stream_info.c:96
+msgid "Angle:"
+msgstr "གྲུ་ཟུར:"
+
+#. Audio info
+#: ../src/stream_info.c:102
+msgid "Audio codec:"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀ:"
+
+#: ../src/stream_info.c:109
+#, c-format
+msgid "%d channels, %d bit, %3.1fkHz, %d bps"
+msgstr "%d རྒྱུ་ལམ་ཚུ། %d བིཊི། %3.1fkHz, %d བི་པི་ཨེསི།"
+
+#: ../src/stream_info.c:112
+msgid "Audio format:"
+msgstr "རྣར་ཉན་རྩ་སྒྲིག:"
+
+#. Video info
+#: ../src/stream_info.c:117
+msgid "Video codec:"
+msgstr "ཝི་ཌིའོ་ ཀོ་ཌེཀ:"
+
+#: ../src/stream_info.c:139
+#, c-format
+msgid "%d×%d, %2.1f fps, %s (AFD %d), %d bps"
+msgstr "%d×%d, %2.1f fps, %s (ཨེ་ཨེཕ་ཌི་ %d), %d bps"
+
+#: ../src/stream_info.c:144
+#, c-format
+msgid "%d×%d, %2.1f fps, %s, %d bps"
+msgstr "%d×%d, %2.1f fps, %s, %d bps"
+
+#: ../src/stream_info.c:147
+#, c-format
+msgid "%d×%d, %2.1f fps, %4.2f:1, %d bps"
+msgstr "%d×%d, %2.1f fps, %4.2f:1, %d bps"
+
+#: ../src/stream_info.c:150
+msgid "Video format:"
+msgstr "ཝི་ཌིའོ་རྩ་སྒྲིག:"
+
+#: ../src/stream_info.c:153
+msgid "System layer:"
+msgstr "རིམ་ལུགས་བང་རིམ:"
+
+#. create dialog
+#: ../src/stream_info.c:203
+msgid "Stream meta-info"
+msgstr "རྒྱུན་རིམ་ མེ་ཊ་-བརྡ་དོན།"
+
+#: ../src/stream_info.c:219
+msgid "Field"
+msgstr "ས་སྒོ།"
+
+#: ../src/stream_info.c:224
+msgid "Data from stream"
+msgstr "གནད་སྡ྄ད་ རྒྱུན་རིམ་ལས།"
+
+#: ../src/ui.c:661
+msgid "Beginner"
+msgstr "འགོ་བཙུགས་མི།"
+
+#: ../src/ui.c:661
+msgid "Advanced"
+msgstr "མཐོ་རིམ།"
+
+#: ../src/ui.c:661
+msgid "Expert"
+msgstr "མཁས་པ།"
+
+#: ../src/ui.c:662
+msgid "Master of the known universe"
+msgstr "མ་ཤེས་པའི་འཛམ་གླིང་འདི་གི་ཨམ།"
+
+#: ../src/ui.c:665
+msgid "Top, hidden"
+msgstr "མགོ གསང་བ།"
+
+#: ../src/ui.c:665
+msgid "Bottom, hidden"
+msgstr "མཇུག་ གསང་བ།"
+
+#: ../src/ui.c:666
+msgid "Top, visible"
+msgstr "མགོ་ མཐོང་ཚུགསཔ།"
+
+#: ../src/ui.c:666
+msgid "Bottom, visible"
+msgstr "མཇུག་ མཐོང་ཚུགསཔ།"
+
+#: ../src/ui.c:675
+msgid "Display of configuration settings"
+msgstr "རིམ་སྒྲིག་སྒྲིག་སྟངས་ཀྱི་བཀྲམ་སྟོན།"
+
+#: ../src/ui.c:676
+msgid "Controls whether more advanced configuration settings are shown."
+msgstr "མཐོ་རིམ་གྱི་རིམ་སྒྲིག་སྒྲིག་སྟངས་ཧེང་བཀལ་ཚུ་སྟོན་ཡོད་མེད་ཚད་འཛིན་འབདཝ་ཨིན།"
+
+#: ../src/ui.c:693
+msgid "Deinterlace plugins' names and parameters"
+msgstr "པ་ལག་ཨིན་གྱི་མིང་ཚུ་དང་ཚད་བཟུང་ཚུ་ ལྷས་བཤོལ་འབད།"
+
+#: ../src/ui.c:694
+#: ../src/ui.c:705
+#: ../src/ui.c:716
+msgid "Format: plugin:arg=value,arg=value,...;plugin:..."
+msgstr "རྩ་སྒྲིག: པ་ལག་ཨིན:ཨེ་ཨར་ཇི=གནས་གོང་,ཨེ་ཨར་ཇི=གནས་གོང་,...;པ་ལག་ཨིན:..."
+
+#: ../src/ui.c:699
+msgid "Enable deinterlacing at startup"
+msgstr "འགོ་བཙུགས་པའི་སྐབས་ ལྷས་བཤོལ་འབད་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/ui.c:704
+msgid "Video post-processing plugins' names and parameters"
+msgstr "ཝི་ཌིའོ་ གནས་བསྐྱོད་-ལས་སྦྱོར་ པ་ལག་ཨིན་གྱི་ མིང་ཚུ་དང་ཚད་བཟུང་ཚུ།"
+
+#: ../src/ui.c:710
+msgid "Enable video post-processing at startup"
+msgstr "འགོ་བཙུགས་པའི་སྐབས་ ཝི་ཌིའོ་ གནས་བསྐྱོད་-ལས་སྦྱོར་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/ui.c:715
+msgid "Audio post-processing plugins' names and parameters"
+msgstr "རྣར་ཉན་ གནས་བསྐྱོད་-ལས་སྦྱོར་ པ་ལག་ཨིན་གྱི་ མིང་ཚུ་དང་ཚད་བཟུང་ཚུ།"
+
+#: ../src/ui.c:721
+msgid "Enable audio post-processing at startup"
+msgstr "འགོ་བཙུགས་པའི་སྐབས་ རྣར་ཉན་ གནས་བསྐྱོད་-ལས་སྦྱོར་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/ui.c:728
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../src/ui.c:733
+msgid "Default audio visualisation plugin"
+msgstr "སྔོན་སྒྲིག་རྣར་ཉན་ འཆར་སྣང་པ་ལག་ཨིན།"
+
+#: ../src/ui.c:734
+msgid "Post-plugin to be used when playing streams without video"
+msgstr "གཏང་ནིའི་རྒྱུན་རིམ་འདི་ཝི་ཌིའོ་མེད་པའི་སྐབས་ གནས་བསྐྱོད་-པ་ལག་ཨིན་ལག་ལེན་འཐབ་དགོཔ།"
+
+#: ../src/ui.c:739
+msgid "In windowed mode, whether the logo is shown after playing an audio-only stream if no audio visualisation was active."
+msgstr "ཝིན་ཌོ་བཟོ་ཡོད་པའི་ཐབས་ལམ་ནང་ལུ་  རྣར་ཉན་འཆར་སྣང་འདི་ཤུགས་ལྡན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན་ ཡང་ཅིན་ ལས་རྟགས་འདི་ རྣར་ཉན་- རྒྱུན་རིམ་འདི་གཏང་བའི་ཤུལ་ལུ་སྟོནམ་ཨིན།"
+
+#: ../src/ui.c:744
+msgid "Default position & visibility of the full-screen toolbar"
+msgstr "གསལ་གཞི་གང་ ལག་ཆས་ཕྲ་རིང་འདི་གི་ སྔོན་སྒྲིག་ གནས་ས་ དང་ མཐོང་གསལ།"
+
+#: ../src/ui.c:749
+msgid "In windowed mode, whether the toolbar is in a separate window"
+msgstr "སྒོ་སྒྲིག་བཟོ་བཟོ་བའི་ཐབས་ལམ་ནང་ལུ་ ལག་ཆས་ཕྲ་རིང་འདི་ སྒྲིག་སོ་སོ་ཅིག་ནང་ལུ་ཨིན་མེད།"
+
+#: ../src/ui.c:754
+msgid "Display splash screen"
+msgstr "སི་པེལེཤ་གསལ་གཞི་ བཀྲམ་སྟོན་འབད་"
+
+#: ../src/ui.c:755
+msgid "If enabled, gxine will display its splash screen"
+msgstr "ལྕོགས་ཅན་བཟོ་ཡོད་པ་ཅིན་ ཇི་ཟའིན་གྱིས་ སི་པེལེཤ་གསལ་གཞི་འདི་ བཀྲམ་སྟོན་འབད་འོང་"
+
+#: ../src/ui.c:905
+msgid "v=bool, toggle(): full-screen toolbar visibility"
+msgstr "v=བུལ། སོར་སྟོན(): གསལ་གཞི་གང་ ལག་ཆས་ཕྲ་རིང་མཐོང་གསལ།"
+
+#: ../src/ui.c:906
+msgid "v=bool, toggle(): windowed-mode toolbar visibility"
+msgstr "v=བུལ། སོར་སྟོན(): སྒོ་སྒྲིག་བཟོ་བཟོ་བའི་ཐབས་ལམ་ ལག་ཆས་ཕྲ་རིང་མཐོང་གསལ།"
+
+#: ../src/ui.c:910
+msgid "v=bool, toggle(): full-screen toolbar position"
+msgstr "v=བུལ། སོར་སྟོན(): གསལ་གཞི་གང་ ལག་ཆས་ཕྲ་རིང་གནས་ས།"
+
+#: ../src/ui.c:914
+msgid "v=bool, toggle(): windowed-mode toolbar attachment"
+msgstr "v=བུལ། སོར་སྟོན(): སྒོ་སྒྲིག་བཟོ་བཟོ་བའི་-ཐབས་ལམ་ ལག་ཆས་ཕྲ་རིང་ མཉམ་སྦྲགས།"
+
+#: ../src/ui.c:923
+msgid "bool"
+msgstr "བུལ།"
+
+#: ../src/ui.c:923
+msgid "at top if true"
+msgstr "བདེན་པ་ཨིན་པ་ཅིན་ མགོ་ལུ།"
+
+#: ../src/utils.c:177
+#, c-format
+msgid "Can't open file ‘%s’: %s"
+msgstr "ཡིག་སྣོད་ ‘%s’: %s ཁ་ཕྱེ་མི་ཚུགས་པས།"
+
+#: ../src/utils.c:190
+#, c-format
+msgid "Error while writing to ‘%s’: %s"
+msgstr "‘%s’: %s འབྲིཝ་ད་འཛོལ་བ།"
+
+#: ../src/utils.c:195
+#, c-format
+msgid "Error when closing ‘%s’: %s"
+msgstr "‘%s’: %s ཁ་བསྡམས་ད་འཛོལ་བ།"
+
+#: ../src/utils.c:201
+#, c-format
+msgid "Error when replacing ‘%s’: %s"
+msgstr "‘%s’: %s ཚབ་བཙུགསཔ་ད་འཛོལ་བ།"
+
+#: ../src/utils.c:228
+msgid "Message from gxine"
+msgstr "ཇི་ཟའིན་ལས་འཕྲིན་དོན་"
+
+#: ../src/utils.c:229
+msgid "Warning from gxine"
+msgstr "ཇི་ཟའིན་ལས་ཉེན་བརྡ་"
+
+#: ../src/utils.c:230
+msgid "Question from gxine"
+msgstr "ཇི་ཟའིན་ལས་འདྲི་བ་"
+
+#: ../src/utils.c:231
+msgid "Error from gxine"
+msgstr "ཇི་ཟའིན་ལས་འཛོལ་བ་"
+
+#: ../src/utils.c:233
+msgid "Message from the xine engine"
+msgstr "ཇི་ཛ་ཡིན་མ་འཕྲུལ་ལས་འཕྲིན་དོན་"
+
+#: ../src/utils.c:234
+msgid "Warning from the xine engine"
+msgstr "ཇི་ཛ་ཡིན་མ་འཕྲུལ་ལས་ཉེན་བརྡ་"
+
+#: ../src/utils.c:235
+msgid "Question from the xine engine"
+msgstr "ཇི་ཛ་ཡིན་མ་འཕྲུལ་ལས་འདྲི་བ་"
+
+#: ../src/utils.c:236
+msgid "Error from the xine engine"
+msgstr "ཇི་ཛ་ཡིན་མ་འཕྲུལ་ལས་འཛོལ་བ་"
+
+#: ../src/utils.c:249
+#, c-format
+msgid "%s: warning: %s: %s\n"
+msgstr "%s: ཉེན་བརྡ་: %s: %s\n"
+
+#: ../src/utils.c:251
+#, c-format
+msgid "%s: warning: %s\n"
+msgstr "%s: ཉེན་བརྡ་: %s\n"
+
+#: ../src/utils.c:255
+#, c-format
+msgid "%s: error: %s: %s\n"
+msgstr "%s: འཛོལ་བ་: %s: %s\n"
+
+#: ../src/utils.c:257
+#, c-format
+msgid "%s: error: %s\n"
+msgstr "%s: འཛོལ་བ་: %s\n"
+
+#: ../src/utils.c:441
+msgid "Select file for MRL"
+msgstr "ཨེམ་ཨར་ཨེལ་གྱི་དོན་ལུ་ ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../src/vis.c:88
+msgid "visualisation name"
+msgstr "འཆར་སྣང་གི་མིང་།"
+
+#: ../src/wizards.c:67
+msgid ""
+"Welcome to gxine!\n"
+"\n"
+msgstr ""
+"ཇི་ཟའིན་ནང་བྱོན་པ་ལེགས་སོ!\n"
+"\n"
+
+#: ../src/wizards.c:68
+msgid ""
+"Would you like to run some setup wizards now that will check your installation and maybe do some adjustments for you if necessary?\n"
+"\n"
+"If you do not want to run the wizards right now, just click on the <i>Close</i> button and you will not be bothered again.\n"
+"\n"
+"You can always run the wizards (again) from the help menu."
+msgstr ""
+"ཁྱོད་ཀྱིས་ད་ལྟོ་ གཞི་སྒྲིག་གི་ཝི་ཛརཌི་ལ་ལུ་ ཁྱོད་ལུ་ཁྱོད་རའི་གཞི་བཙུགས་འབད་མི་ཞིབ་དཔྱད་འབད་མི་དང་ ཉེར་མཁོ་ཡོདཔ་ཨིན་པ་ཅིན་ བདེ་སྒྲིག་འབད་མི་ལ་ལུ་ གཡོག་བཀོལ་ནི་ཨིན་ན?\n"
+"\n"
+"ཁྱོད་ ཝི་ཛརཌི་ད་ལྟོ་གཡོག་བཀོལ་དགོ་མ་མཐོ་བ་ཅིན་ <i>Close</i>གཡེབ་རྟ་གུ་ཨེབ་གཏང་ དེ་ལས་ཁྱོད་ལོག་སེམས་མ་བདེཝ་མི་འབད།\n"
+"\n"
+"ཁྱོད་ཀྱིས་ཨ་རྟག་རང་ཝི་ཛརཌི་(ལོག)འདི་གྲོགས་རམ་དཀར་ཆག་ལས་གཡོག་བཀོལ་ཚུགས།"
+
+#: ../src/wizards.c:87
+msgid "Health Check Results"
+msgstr "འཕྲོད་བསྟེན་ཞིབ་དཔྱད་འབད་བའི་གྲུབ་འབྲས།"
+
+#: ../src/wizards.c:109
+msgid "System configuration check"
+msgstr "རིམ་ལུགས་རིམ་སྒྲིག་གི་ཞིབ་དཔྱད།"
+
+#: ../src/wizards.c:110
+msgid "The xine engine runs certain checks on your system configuration. Results follow:"
+msgstr "སའིན་མ་འཕྲུལ་འདི་གིས་ ཁྱོད་རའི་རིམ་ལུགས་རིམ་སྒྲིག་གུ་ཞིབ་དཔྱད་དག་པ་ཅིག་གཡོག་བཀོལཝ་ཨིན། གྲུབ་འབྲས་འོག་ལུ:"
+
+#: ../src/wizards.c:117
+#: ../src/wizards.c:124
+msgid "device used for CD-ROM drive"
+msgstr "སི་ཌི་-ཨར་ཨོ་ཨེམ་ འདྲེན་འཕྲུལ་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་ཐབས་འཕྲུལ།"
+
+#: ../src/wizards.c:138
+msgid "device used for DVD drive"
+msgstr "ཌི་བི་ཌི་ འདྲེན་འཕྲུལ་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་ཐབས་འཕྲུལ།"
+
+#: ../src/wizards.c:175
+msgid "Details"
+msgstr "རྒྱས་བཤད།"
+
+#: ../src/wizards.c:218
+msgid "Registration"
+msgstr "ཐོ་འགོད་འབད་ནི།"
+
+#: ../src/wizards.c:219
+msgid "Register gxine with the following applications as a media handler/helper:"
+msgstr "ཇི་ཟའིན་འདི་འོག་གི་གློག་རིམ་ཚུ་དང་ཅིག་ཁར་ བརྡ་ལམ་ལེགས་སྐྱོང་པ་/ལས་རོགསཔ་ སྦེ་ཐོ་འགོད་འབད:"
+
+#: ../src/wizards.c:226
+msgid "_Mozilla & Mozilla Firefox (plugin)"
+msgstr "མོ་ཛིལ་ལ་ དང་ མོ་ཛིལ་ལ་ཕ་ཡེར་ཕོགསི་(པ་ལག་ཨིན)(_M)"
+
+#: ../src/wizards.c:234
+msgid "_GNOME, Nautilus"
+msgstr "ཇི་ནོམ། ནའུ་ཊི་ལཱསི།(_G)"
+
+#: ../src/wizards.c:240
+msgid "_KDE, Konqueror"
+msgstr "ཀེ་ཌི་ཨི། ཀོང་ཀུས་རར།(_K)"
+
+#: ../src/wizards.c:247
+msgid "_All"
+msgstr "ཆ་མཉམ།(_A)"
+
+#: ../src/wizards.c:279
+msgid "Registration report"
+msgstr "ཐོ་འགོད་འབད་བའི་སྙན་ཞུ།"
+
+#: ../src/wizards.c:280
+msgid "There were some problems during registration."
+msgstr "ཐོ་འགོད་འབད་བའི་སྐབས་དཀའ་ངལ་ཚུ་འདུག"
+
+#: ../src/wizards.c:329
+msgid "Keep track of whether user has seen wizards yet"
+msgstr "ལག་ལེན་པ་གིས་ད་ཚུན་ཝི་ཛརཌི་མཐོང་ཡོད་མེད་ཀྱི་ གླུ་རིམ་བཞག"
+
+#. set up dialog which all wizards will use
+#: ../src/wizards.c:356
+msgid "gxine setup wizards"
+msgstr "ཇི་ཟའིན་གཞི་སྒྲིག་ཝི་ཛརཌིསི།"
+
+#: ../src/wizards.c:379
+msgid "<span face='serif' size='xx-large' weight='bold'>Welcome!</span>"
+msgstr "<span face='serif' size='xx-large' weight='bold'>Welcome!</span>"
+
+#: ../src/wizards.c:403
+msgid "Setup completed."
+msgstr "གཞི་སྒྲིག་མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../src/xml_widgets.c:58
+#, c-format
+msgid ""
+"\n"
+"// node type: %s\n"
+msgstr ""
+"\n"
+"// ནོཌི་དབྱེ་བ་: %s\n"
+
+#. yes, this is intended to be annoying
+#: ../src/xml_widgets.c:129
+msgid "XML error"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ འཛོལ་བ།"
+
+#: ../src/xml_widgets.c:229
+msgid "XML widget listener"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊི་ ཉན་བྱེད།"
+
+#: ../src/xml_widgets.c:496
+#: ../src/xml_widgets.c:642
+#: ../src/xml_widgets.c:643
+msgid "XML button click"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ གཡོབ་རྟ་ ཨེབ་གཏང་།"
+
+#: ../src/xml_widgets.c:705
+#, c-format
+msgid "xml_widgets: unrecognised stock control id '%s'\n"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊིསི:ངོ་མ་ཤེས་པའི་ཅ་མཛོད་ཚད་འཛིན་ཨའི་ཌི་ '%s'(_w)\n"
+
+#: ../src/xml_widgets.c:890
+msgid "warning: table rows, cols range is 1 to 100 - clipping\n"
+msgstr "ཉེན་བརྡ་: ཐིག་ཁྲམ་གྲལ་ཐིག་ཚུ་  ཀེར་ཐིག་ཁྱབ་ཚད་འདི་ ༡་ལས་༡༠༠ ཨིན་ - བཏོག་དོ་\n"
+
+#: ../src/xml_widgets.c:1113
+#, c-format
+msgid "xml_widgets: failed to create JS object 'widget.%s'\n"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊིསི: ཇེ་ཨེསི་ དངོས་པོ་ 'widget.%s' གསར་བསྐྲུན་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།(_w)\n"
+
+#: ../src/xml_widgets.c:1133
+msgid "XML widget show"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊི་ སྟོན།"
+
+#: ../src/xml_widgets.c:1137
+msgid "XML widget hide"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊི་ སྦ་བཞག"
+
+#: ../src/xml_widgets.c:1187
+#, c-format
+msgid "xml_widgets: error in %s: XML parser failed\n"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊིསི: %s ནང་འཛོལ་བ: ཨེགསི་ཨེམ་ཨེལ་མིང་དཔྱདཔ་འཐུས་ཤོར་འབྱུང་ཡོདཔ།(_w)\n"
+
+#: ../src/xml_widgets.c:1219
+#, c-format
+msgid "xml_widgets: sorry, <window> is not allowed in %s\n"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊིསི: དགོངསམ་མ་ཁྲེལ། <window> འདི་ %s ནང་ལུ་འབད་མི་ཆོག(_w)\n"
+
+#: ../src/xml_widgets.c:1235
+#, c-format
+msgid "xml_widgets: sorry, <window> is required in %s\n"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཝི་གེཊིསི: དགོངསམ་མ་ཁྲེལ། <window> འདི་ %s ནང་དགོས་མཁོ་ཡོདཔ་ཨིན།\n"
+
+#: ../src/xml_widgets.c:1305
+msgid "Source file?\n"
+msgstr "ཡིག་སྣོད་འབྱུང་ཁུངས?\n"
+
+#~ msgid "HTTP 'Location:' redirection not implemented"
+#~ msgstr "ཨེཆ་ཊི་ཊི་པི་གི་'གནས་ཁོངས:' སླར་ལོག་ བསྟར་སྤྱོད་མ་འབད་བས།"
+#~ msgid ""
+#~ "Start or resume a stream\n"
+#~ "(at normal speed)"
+#~ msgstr ""
+#~ "རྒྱུན་རིམ་ཅིག་ འགོ་བཙུགས་ཡང་ན་བསྐྱར་ལོག་འབད།\n"
+#~ "(སྤྱིར་གཏང་གི་མགྱོགས་ཚད་ལུ།)"
+#~ msgid "Fast forward"
+#~ msgstr "གདོང་བསྐྱོད་མགྱོགས་དྲགས།"
+#~ msgid "Stop stream playback"
+#~ msgstr "རྒྱུན་རིམ་གྱི་གླུ་གཞས་གཏང་ནི་བཀག"
+#~ msgid "Mute/unmute"
+#~ msgstr "སྐད་མེད་/སྐད་ཡོདཔ་བཟོ།"
+#~ msgid "Stream position"
+#~ msgstr "རྒྱུན་རིམ་གནས་ས།"
+#~ msgid "Audio channel"
+#~ msgstr "རྣར་ཉན་གྱི་རྒྱུ་ལམ།"
+#~ msgid "Graphic equaliser, 30Hz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཨེཆ་ཛེཊི་༣༠།"
+#~ msgid "Graphic equaliser, 60Hz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཨེཆ་ཛེཊི་༦༠།"
+#~ msgid "Graphic equaliser, 125Hz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཨེཆ་ཛེཊི་༡༢༥།"
+#~ msgid "Graphic equaliser, 250Hz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཨེཆ་ཛེཊི་༢༥༠།"
+#~ msgid "Graphic equaliser, 500Hz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཨེཆ་ཛེཊི་༥༠༠།"
+#~ msgid "Graphic equaliser, 1kHz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཀེ་ཨེཆ་ཛེཊི་༡།"
+#~ msgid "Graphic equaliser, 2kHz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཀེ་ཨེཆ་ཛེཊི་༢།"
+#~ msgid "Graphic equaliser, 4kHz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཀེ་ཨེཆ་ཛེཊི་༤།"
+#~ msgid "Graphic equaliser, 8kHz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཀེ་ཨེཆ་ཛེཊི་༨།"
+#~ msgid "Graphic equaliser, 16kHz"
+#~ msgstr "ཚད་རིས་མཉམ་པ་བཟོ་མི། ཀེ་ཨེཆ་ཛེཊི་༡༦།"
+

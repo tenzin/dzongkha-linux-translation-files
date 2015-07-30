@@ -1,0 +1,958 @@
+#
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Javier Delgadillo <javi@netscape.com>
+#   Brian Ryner <bryner@brianryner.com>
+#   Terry Hayes <thayes@netscape.com>
+#   John Gardiner Myers <jgmyers@speakeasy.net>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/security/manager/chrome/pipnss/pipnss.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: pipnss.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-21 16:31+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: SignedBy
+msgid "Signed by %S"
+msgstr "%Sགིས་མིང་རྟགས་བཀོད་ཡོདཔ་"
+
+#: CertPassPrompt
+msgid "Please enter the master password for the %S."
+msgstr "%Sགི་དོན་ལུ་ཆོག་ཡིག་ཨམ་བཙུགས་གནང་།"
+
+# the following strings have special requirements:
+# they must fit in a 32 or 64 byte buffer after being translated
+# to UTF8.  Note to translator. It's not easy for you to figure
+# whether the escaped unicode string you produce will fit in
+# the space allocated.
+#
+# 64 bytes long after conversion to UTF8
+#: RootCertModuleName
+msgid "Builtin Roots Module"
+msgstr "ནང་སྦྲགས་རྩ་བའི་ཚད་གཞི།"
+
+#
+# 32 bytes long after conversion to UTF8
+#: ManufacturerID
+msgid "Mozilla.org"
+msgstr "མོ་ཛིལ་ལ་.ཨོ་ཨར་ཇི་"
+
+#
+# 32  bytes long after conversion to UTF8
+#: LibraryDescription
+msgid "PSM Internal Crypto Services"
+msgstr "པི་ཨེསི་ཨེམ་ ནང་འཁོད་ཀིརིཔ་ཊོ་ཞབས་ཏོག"
+
+#
+# 32 bytes long after conversion to UTF8
+#: TokenDescription
+msgid "Generic Crypto Services"
+msgstr "རིགས་བརྒྱུད་ཀྱི་ ཀིརིཔ་ཊོ་ཞབས་ཏོག"
+
+#
+# 32 bytes long after conversion to UTF8
+# 32
+#: PrivateTokenDescription
+#: InternalToken
+msgid "Software Security Device"
+msgstr "མཉེན་ཆས་སྲུང་སྐྱོབ་ཐབས་འཕྲུལ་"
+
+#
+# 64 bytes long after conversion to UTF8
+#: SlotDescription
+msgid "PSM Internal Cryptographic Services"
+msgstr "པི་ཨེསི་ཨེམ་ནང་འཁོད་ཀྱི་ ཀིརིཔ་ཊོ་ག་ར་ཕིག་ ཞབས་ཏོག"
+
+#
+# 64 bytes long after conversion to UTF8
+#: PrivateSlotDescription
+msgid "PSM Private Keys"
+msgstr "པི་ཨེསི་ཨེམ་ སྒེར་གྱི་ལྡེ་མིག"
+
+#
+# 64
+#: FipsSlotDescription
+msgid "PSM Internal FIPS-140-1 Cryptographic Services"
+msgstr "པི་ཨེསི་ཨེམ་ ནང་འཁོད་ཀྱི་ ཨེཕི་ཨའི་པི་ཨེསི་-༡༤༠-༡ ཀིརིཔ་ཊོ་ག་ར་ཕིག་ ཞབས་ཏོག"
+
+# 64
+#: FipsPrivateSlotDescription
+msgid "PSM FIPS-140-1 User Private Key Services"
+msgstr "པི་ཨེསི་ཨེམ་ ནང་འཁོད་ཀྱི་ ཨེཕི་ཨའི་པི་ཨེསི་-༡༤༠-༡ ལག་ལེན་པའི་ སྒེར་གྱི་ལྡེ་མིག་ཞབས་ཏོག"
+
+# End of size restriction.
+#: VerifySSLClient
+msgid "SSL Client Certificate"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ཞབས་ཏོག་སྤྱོད་མིའི་ལག་ཁྱེར་"
+
+#: VerifySSLServer
+msgid "SSL Server Certificate"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ སར་བར་ལག་ཁྱེར་"
+
+#: VerifySSLStepUp
+msgid "SSL Server with Step-up"
+msgstr "ཨེསི་ཨེསི་ཨེལ་སར་བར་ གཞི་སྒྲིག་དང་བཅས་"
+
+#: VerifySSLCA
+msgid "SSL Certificate Authority"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ལག་ཁྱེར་དབང་འཛིན་"
+
+#: VerifyEmailSigner
+msgid "Email Signer Certificate"
+msgstr "གློག་འཕྲིན་མིང་རྟགས་བཀོད་མིའི་ལག་ཁྱེར་"
+
+#: VerifyEmailRecip
+msgid "Email Recipient Certificate"
+msgstr "གློག་འཕྲིན་ལེན་མཁན་གྱི་ལག་ཁྱེར་"
+
+#: VerifyProtectObjSign
+#: VerifyProtectObjSign_p
+msgid "Protected Object Signer"
+msgstr "ཉེན་སྐྱོབ་ཅན་གྱི་ དངོས་པོའི་མིང་རྟགས་བཀོད་མི་"
+
+#: VerifyObjSign
+#: VerifyObjSign_p
+msgid "Object Signer"
+msgstr "དངོས་པོའི་མིང་རྟགས་བཀོད་མི་"
+
+#: VerifyUserImport
+msgid "User Import Cert"
+msgstr "ལག་ལེན་པའི་ནང་འདྲེན་ལག་ཁྱེར་"
+
+#: VerifyCAVerifier
+#: VerifyCAVerifier_p
+msgid "CA Verifier"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་བདེན་སྦྱོར་པ་"
+
+#: VerifyStatusResponder
+msgid "Status Responder Certificate"
+msgstr "གནས་ཚད་ངོས་ལན་པའི་ལག་ཁྱེར་"
+
+#: VerifyAnyCA
+msgid "Any Certificate Authority"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གཞན་གང་རུང་"
+
+#: HighGrade
+msgid "2048 (High Grade)"
+msgstr "༢༠༤༨།(སྡེ་རིམ་ཆེ་བ)"
+
+#: MediumGrade
+msgid "1024 (Medium Grade)"
+msgstr "༡༠༢༤(སྡེ་རིམ་བར་མ)"
+
+#: nick_template
+msgid "%1$s's %2$s ID"
+msgstr "ཨའི་ཌི་%1$s's %2$s"
+
+#: nick_template_with_num
+msgid "%1$s's %2$s ID #%3$d"
+msgstr "%1$s's %2$s ཨའི་ཊི་ #%3$d"
+
+#These are the strings set for the ASN1 objects in a certificate.
+#: CertDumpCertificate
+msgid "Certificate"
+msgstr "ལག་ཁྱེར་"
+
+#: CertDumpVersion
+msgid "Version"
+msgstr "ཐོན་རིམ་"
+
+#: CertDumpVersion1
+msgid "Version 1"
+msgstr "ཐོན་རིམ་༡།"
+
+#: CertDumpVersion2
+msgid "Version 2"
+msgstr "ཐོན་རིམ་༢།"
+
+#: CertDumpVersion3
+msgid "Version 3"
+msgstr "ཐོན་རིམ་༣།"
+
+#: CertDumpSerialNo
+msgid "Serial Number"
+msgstr "ཨང་གྲངས་"
+
+#: CertDumpOID
+msgid "Object Identifier"
+msgstr "དངོས་པོ་ངོས་འཛིན་པ་"
+
+#: CertDumpMD2WithRSA
+msgid "PKCS #1 MD2 With RSA Encryption"
+msgstr "པི་ཨེ་སི་ཨེསི་ ཨང་༡ ཨེམ་ཌི་༢ ཨར་ཨེསི་ཨེ་ གསང་བཟོ་དང་བཅས་"
+
+#: CertDumpMD5WithRSA
+msgid "PKCS #1 MD5 With RSA Encryption"
+msgstr "པི་ཨེ་སི་ཨེསི་ ཨང་༡ ཨེམ་ཌི་༥ ཨར་ཨེསི་ཨེ་ གསང་བཟོ་དང་བཅས་"
+
+#: CertDumpSHA1WithRSA
+msgid "PKCS #1 SHA-1 With RSA Encryption"
+msgstr "པི་ཨེ་སི་ཨེསི་ ཨང་༡ ཨེསི་ཨེཆ་ཨེ་-༡ ཨར་ཨེསི་ཨེ་ གསང་བཟོ་དང་བཅས་"
+
+#: CertDumpSHA256WithRSA
+msgid "PKCS #1 SHA-256 With RSA Encryption"
+msgstr "པི་ཨེ་སི་ཨེསི་ ཨང་༡ ཨེསི་ཨེཆ་ཨེ་-༢༥༦ ཨར་ཨེསི་ཨེ་ གསང་བཟོ་དང་བཅས་"
+
+#: CertDumpSHA384WithRSA
+msgid "PKCS #1 SHA-384 With RSA Encryption"
+msgstr "པི་ཨེ་སི་ཨེསི་ ཨང་༡ ཨེསི་ཨེཆ་ཨེ་-༣༨༤ ཨར་ཨེསི་ཨེ་ གསང་བཟོ་དང་བཅས་"
+
+#: CertDumpSHA512WithRSA
+msgid "PKCS #1 SHA-512 With RSA Encryption"
+msgstr "པི་ཨེ་སི་ཨེསི་ ཨང་༡ ཨེསི་ཨེཆ་ཨེ་-༥༡༢ ཨར་ཨེསི་ཨེ་ གསང་བཟོ་དང་བཅས་"
+
+#: CertDumpDefOID
+msgid "Object Identifier (%S)"
+msgstr "(%S)དངོས་པོ་ངོས་འཛིན་པ་"
+
+#: CertDumpNULL
+msgid "NULL"
+msgstr "སྟོང་ཆ་"
+
+#: CertDumpIssuer
+msgid "Issuer"
+msgstr "སྤྲོད་མི་"
+
+#: CertDumpSubject
+msgid "Subject"
+msgstr "དོན་ཚན་"
+
+#: CertDumpRDN
+msgid "Relative Distinguished Name"
+msgstr "འབྲེལ་བ་ཅན་གྱི་ཁྱད་འཕགས་མིང་"
+
+#: CertDumpATV
+msgid "Attribute Type and Value"
+msgstr "ཁྱད་ཆོས་ཀྱི་དབྱེ་བ་དང་གནས་གོང་"
+
+#: CertDumpAVACountry
+msgid "C"
+msgstr "C"
+
+#: CertDumpAVAState
+msgid "ST"
+msgstr "ST"
+
+#: CertDumpAVALocality
+msgid "L"
+msgstr "L"
+
+#: CertDumpAVAOrg
+msgid "O"
+msgstr "O"
+
+#: CertDumpAVAOU
+msgid "OU"
+msgstr "OU"
+
+#: CertDumpAVACN
+msgid "CN"
+msgstr "CN"
+
+#: CertDumpUserID
+msgid "UID"
+msgstr "UID"
+
+#: CertDumpPK9Email
+msgid "E"
+msgstr "E"
+
+#: CertDumpAVADN
+msgid "DN"
+msgstr "DN"
+
+#: CertDumpAVADC
+msgid "DC"
+msgstr "DC"
+
+#: CertDumpValidity
+msgid "Validity"
+msgstr "ནུས་ལྡན་དུས་ཚོད་"
+
+#: CertDumpNotBefore
+msgid "Not Before"
+msgstr "རྗེས་སུ་"
+
+#: CertDumpNotAfter
+msgid "Not After"
+msgstr "སྔོན་དུ་"
+
+#: CertDumpSPKI
+msgid "Subject Public Key Info"
+msgstr "དོན་ཚན་གྱི་ མི་མང་ལྡེ་མིག་གི་བརྡ་དོན་"
+
+#: CertDumpSPKIAlg
+msgid "Subject Public Key Algorithm"
+msgstr "དོན་ཚན་གྱི་ མི་མང་ལྡེ་མིག་གི་ ཨཱལ་གོརི་ཐམ།"
+
+#: CertDumpAlgID
+msgid "Algorithm Identifier"
+msgstr "ཨཱལ་གོ་རི་ཐམ་ངོས་འཛིན་པ་"
+
+#: CertDumpParams
+msgid "Algorithm Parameters"
+msgstr "ཨཱལ་གོ་རི་ཐམ་ཚད་བཟུང་"
+
+#: CertDumpRSAEncr
+msgid "PKCS #1 RSA Encryption"
+msgstr "པི་ཀེ་སི་ཨེསི་ ཨང་༡ ཨར་ཨེསི་ཨེ་་གསང་བཟོ"
+
+#: CertDumpIssuerUniqueID
+msgid "Issuer Unique ID"
+msgstr "སྤྲོད་མིའི་མཐུན་མོང་མ་ཡིན་པའི་ཨའི་ཌི་"
+
+#: CertDumpSubjPubKey
+msgid "Subject's Public Key"
+msgstr "དོན་ཚན་གྱི་མི་མང་ལྡེ་མིག"
+
+#: CertDumpSubjectUniqueID
+msgid "Subject Unique ID"
+msgstr "དོན་ཚན་གྱི་མཐུན་མོང་མ་ཡིན་པའི་ཨའི་ཌི་"
+
+#: CertDumpExtensions
+msgid "Extensions"
+msgstr "རྒྱ་བསྐྱེད་ཚུ་"
+
+#: CertDumpCertType
+msgid "Netscape Certificate Type"
+msgstr "ནེཊི་སི་ཀེཔ་ ལག་ཁྱེར་དབྱེ་བ་"
+
+#: CertDumpNSCertExtBaseUrl
+msgid "Netscape Certificate Extension Base URL"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་རྒྱ་བསྐྱེད་གཞི་རྟེན་གྱི་ ཡུ་ཨར་ཨེལ་"
+
+#: CertDumpNSCertExtRevocationUrl
+msgid "Netscape Certificate Revocation URL"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་ ཆ་མེད་གཏང་བའི་ཡུ་ཨར་ཨེལ་"
+
+#: CertDumpNSCertExtCARevocationUrl
+msgid "Netscape Certificate Authority Revocation URL"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་དབང་འཛིན་ཆ་མེད་གཏང་བའི་ ཡུ་ཨར་ཨེལ་"
+
+#: CertDumpNSCertExtCertRenewalUrl
+msgid "Netscape Certificate Renewal URL"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་ དུས་ཚོད་བསྐྱར་གསོའི་ ཡུ་ཨར་ཨེལ་"
+
+#: CertDumpNSCertExtCAPolicyUrl
+msgid "Netscape Certificate Authority Policy URL"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་ དབང་འཛིན་སྲིད་བྱུས་ཀྱི་ ཡུ་ཨར་ཨེལ་"
+
+#: CertDumpNSCertExtSslServerName
+msgid "Netscape Certificate SSL Server Name"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་ ཨེསི་ཨེསི་ཨེལ་ སར་བར་མིང་་"
+
+#: CertDumpNSCertExtComment
+msgid "Netscape Certificate Comment"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་གྱི་བསམ་བཀོད་"
+
+#: CertDumpNSCertExtLostPasswordUrl
+msgid "Netscape Lost Password URL"
+msgstr "ནེཊི་སི་ཀེཔ་ བརླག་སྟོར་ཞུགས་པའི་ཆོག་ཡིག་གི་ ཡུ་ཨར་ཨེལ་"
+
+#: CertDumpNSCertExtCertRenewalTime
+msgid "NetscapeCertificate Renewal Time"
+msgstr "ནེཊི་སི་ཀེཔ་ལག་ཁྱེར་ དུས་ཚོད་བསྐྱར་གསོ་བའི་དུས་ཚོད་"
+
+#: CertDumpNetscapeAolScreenname
+msgid "AOL Screenname"
+msgstr "ཨེ་ཨོ་ཨེལ་ གསལ་གཞི་མིང་་"
+
+#: CertDumpSubjectDirectoryAttr
+msgid "Certificate Subject Directory Attributes"
+msgstr "ལག་ཁྱེར་དོན་ཚན་སྣོད་ཐོའི་ཁྱད་ཆོས་"
+
+#: CertDumpSubjectKeyID
+msgid "Certificate Subject Key ID"
+msgstr "ལག་ཁྱེར་དོན་ཚན་ ལྡེ་མིག་གི་ཨའི་ཌི་"
+
+#: CertDumpKeyUsage
+msgid "Certificate Key Usage"
+msgstr "ལག་ཁྱེར་ལྡེ་མིག་གི་ལག་ལེན་"
+
+#: CertDumpSubjectAltName
+msgid "Certificate Subject Alt Name"
+msgstr "ལག་ཁྱེར་དོན་ཚན་ གདམ་ལྡེའི་མིང་"
+
+#: CertDumpIssuerAltName
+msgid "Certificate Issuer Alt Name"
+msgstr "ལག་ཁྱེར་སྤྲོད་མིའི་ གདམ་ལྡེའི་མིང་"
+
+#: CertDumpBasicConstraints
+msgid "Certificate Basic Constraints"
+msgstr "ལག་ཁྱེར་གྱི་ གཙོ་གཞི་རིམ་བར་ཆད་"
+
+#: CertDumpNameConstraints
+msgid "Certificate Name Constraints"
+msgstr "ལག་ཁྱེར་མིང་གི་བར་ཆད་"
+
+#: CertDumpCrlDistPoints
+msgid "CRL Distribution Points"
+msgstr "སི་ཨར་ཨེལ་ བགོ་བཀྲམ་འབད་ས་"
+
+#: CertDumpCertPolicies
+msgid "Certificate Policies"
+msgstr "ལག་ཁྱེར་སྲིད་བྱུས་"
+
+#: CertDumpPolicyMappings
+msgid "Certificate Policy Mappings"
+msgstr "ལག་ཁྱེར་སྲིད་བྱུས་ཀྱི་ས་ཁྲ་བཟོ་བ་"
+
+#: CertDumpPolicyConstraints
+msgid "Certificate Policy Constraints"
+msgstr "ལག་ཁྱེར་སྲིད་བྱུས་ཀྱི་བར་ཆད་"
+
+#: CertDumpAuthKeyID
+msgid "Certificate Authority Key Identifier"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གྱི་ ལྡེ་མིག་ངོས་འཛིན་པ་"
+
+#: CertDumpExtKeyUsage
+msgid "Extended Key Usage"
+msgstr "རྒྱ་བསྐྱེད་ཅན་གྱི་ལྡེ་མིག་ལག་ལེན་"
+
+#: CertDumpAuthInfoAccess
+msgid "Authority Information Access"
+msgstr "དབང་འཛིན་གྱི་བརྡ་དོན་ལུ་འཛུལ་སྤྱོད་"
+
+#: CertDumpAnsiX9DsaSignature
+msgid "ANSI X9.57 DSA Signature"
+msgstr "ཨེ་ཨེན་ཨེསི་ཨའི་ ཨེགསི་༩.༥༧ ཌི་ཨེསི་ཨེ་མིང་རྟགས་"
+
+#: CertDumpAnsiX9DsaSignatureWithSha1
+msgid "ANSI X9.57 DSA Signature with SHA1 Digest"
+msgstr "ཨེ་ཨེན་ཨེསི་ཨའི་ ཨེགསི་༩.༥༧ ཌི་ཨེསི་ཨེ་མིང་རྟགས་ ཨེསི་ཨེཆ་ཨེ་༡ ཌའི་ཇེསིཊི་དང་བཅས་"
+
+#: CertDumpAnsiX962ECDsaSignatureWithSha1
+msgid "ANSI X9.62 ECDSA Signature with SHA1"
+msgstr "ཨེ་ཨེན་ཨེསི་ཨའི་ ཨེགསི་༩.༦༢  ཨི་སི་ཌི་ཨེསི་ཨེ་མིང་རྟགས་ ཨེསི་ཨེཆ་ཨེ་༡ དང་བཅས་"
+
+#: CertDumpCertTypeEmail
+msgid "Email"
+msgstr "གློག་འཕྲིན་"
+
+#: CertDumpEmailCA
+msgid "Email Certificate Authority"
+msgstr "གློག་འཕྲིན་ལག་ཁྱེར་དབང་འཛིན་"
+
+#: CertDumpKUSign
+msgid "Signing"
+msgstr "མང་རྟགས་བཀོད་པ་"
+
+#: CertDumpKUNonRep
+msgid "Non-repudiation"
+msgstr "འདོར་བྱ་མེན་པའི།"
+
+#: CertDumpKUEnc
+msgid "Key Encipherment"
+msgstr "ལྡེ་མིག་གསང་ཡིག"
+
+#: CertDumpKUDEnc
+msgid "Data Encipherment"
+msgstr "གནས་སྡུད་གསང་ཡིག"
+
+#: CertDumpKUKA
+msgid "Key Agreement"
+msgstr "ལྡེ་མིག་གན་འཛིན་"
+
+#: CertDumpKUCertSign
+msgid "Certificate Signer"
+msgstr "ལག་ཁྱེར་ལུ་མིང་རྟགས་བཀོད་མི་"
+
+#: CertDumpKUCRLSigner
+msgid "CRL Signer"
+msgstr "སིཨར་ཨེལ་ལུ་ མིང་རྟགས་བཀོད་མི་"
+
+#: CertDumpCritical
+msgid "Critical"
+msgstr "ཚབས་ཆེན་"
+
+#: CertDumpNonCritical
+msgid "Not Critical"
+msgstr "ཚབས་ཆེན་མེན་པའི་"
+
+#: CertDumpSigAlg
+msgid "Certificate Signature Algorithm"
+msgstr "ལག་ཁྱེར་མིང་རྟགས་ ཨཱལ་གོ་རི་ཐམ་"
+
+#: CertDumpCertSig
+msgid "Certificate Signature Value"
+msgstr "ལག་ཁྱེར་མིང་རྟགས་ཀྱི་བརྩི་མཐོང་"
+
+#: CertDumpExtensionFailure
+msgid "Error: Unable to process extension"
+msgstr "འཛོལ་བ་: རྒྱ་བསྐྱེད་ལས་སྦྱོར་འབད་མ་ཚུགས་"
+
+#: VerifySSLClient_p
+msgid "Client"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་"
+
+#: VerifySSLServer_p
+msgid "Server"
+msgstr "སར་བར་"
+
+#: VerifySSLStepUp_p
+msgid "Step-up"
+msgstr "གཞི་སྒྲིག་"
+
+#: VerifySSLCA_p
+msgid "SSL CA"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ལག་ཁྱེར་དབང་འཛིན་"
+
+#: VerifyEmailSigner_p
+msgid "Sign"
+msgstr "མིང་རྟགས་བཀོད་"
+
+#: VerifyEmailRecip_p
+msgid "Encrypt"
+msgstr "གསང་བ་བཟོ་"
+
+#: VerifyUserImport_p
+msgid "User Import"
+msgstr "ལག་ལེན་པའི་ནང་འདྲེན་"
+
+#: VerifyStatusResponder_p
+msgid "Status Responder"
+msgstr "གནས་ཚད་ངོས་ལན་པ་"
+
+#: VerifyAnyCA_p
+msgid "CA"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་"
+
+#: VerifiedTrue
+msgid "true"
+msgstr "བདེན་པ་"
+
+#: VerifiedFalse
+msgid "false"
+msgstr "རྫུན་མ་"
+
+#: PK11BadPassword
+msgid "The password entered was incorrect."
+msgstr "བཙུགས་མི་ཆོང་ཡིག་དེ་ བདེན་མེད་ཨིན་པས།"
+
+#: SuccessfulP12Backup
+msgid "Successfully backed up your security certificate(s) and private key(s)."
+msgstr "ཁྱོད་ཀྱི་སྲུང་སྐྱོབ་ལག་ཁྱེར་དང་ སྒེར་གྱི་ལྡེ་མིག་ཚུ་ མཐར་འཁྱོལ་སྦེ་ རྒྱབ་སྐྱོར་འབད་ཡི།"
+
+#: SuccessfulP12Restore
+msgid "Successfully restored your security certificate(s) and private key(s)."
+msgstr "ཁྱོད་ཀྱི་སྲུང་སྐྱོབ་ལག་ཁྱེར་དང་ སྒེར་གྱི་ལྡེ་མིག་ཚུ་ མཐར་འཁྱོལ་སྦེ་ སླར་གསོ་འབད་ཡི།"
+
+#: PKCS12PasswordInvalid
+msgid "Could not decode PKCS #12 file.  Perhaps the password you entered was incorrect?"
+msgstr "ཡིག་སྣོད་ པི་ཀེ་སི་ཨེསི་ ཨང་༡༢ དེ་གི་ཨང་རྟགས་བཤོལ་མ་ཚུགས། ཁྱོད་ཀྱིས་བཙུགས་མི་ ཆོག་ཡིག་དེ་ བདེན་མེད་ཨིནམ་འོང་ནི་མས།"
+
+#: PKCS12DecodeErr
+msgid "Failed to decode the file.  Either it is not in PKCS #12 format, has been corrupted, or the password you entered was incorrect."
+msgstr "ཡིག་སྣོད་དེ་གི་ཨང་རྟགས་བཤོལ་མ་ཚུགས། འདི་པི་ཀེ་སི་ཨེསི་ ཨང་༡༢ པའི་རྩ་སྒྲིག་ནང་མེནམ་འོང་ནི་དང་ ཡང་ན་ ངན་ཅན་ལུ་གྱུར་ཡོདཔ་ ཡང་ན་ ཁྱོད་ཀྱིས་བཙུགས་མི་ཆོག་ཡིག་དེ་ བདེན་མེད་འོང་ནི་མས།"
+
+#: PKCS12UnknownErrRestore
+msgid "Failed to restore the PKCS #12 file for unknown reasons."
+msgstr "པི་ཀེ་སི་ཨེསི་ཨང་༡༢ ཡིག་སྣོད་དེ་ མ་ཤེས་པའི་རྒྱུ་མཚན་ཅིག་ལུ་བརྟེན་ཏེ་ སླར་གསོ་འབད་མ་ཚུགས། "
+
+#: PKCS12UnknownErrBackup
+msgid "Failed to create the PKCS #12 backup file for unknown reasons."
+msgstr "མ་ཤེས་པའི་རྒྱུ་མཚན་ཅིག་ལུ་བརྟེན་ཏེ་ པི་ཀེ་སི་ཨེསི་ཨང་༡༢ རྒྱབ་ཐག་ཡིག་སྣོད་བཟོ་མ་ཚུགས།་"
+
+#: PKCS12UnknownErr
+msgid "The PKCS #12 operation failed for unknown reasons."
+msgstr "མ་ཤེས་པའི་རྒྱུ་མཚན་ཅིག་ལུ་བརྟེན་ཏེ་ པི་ཀེ་སི་ཨེསི་ཨང་༡༢ པ་ བཀོལ་སྤྱོད་མ་བཏུབ།"
+
+#: PKCS12InfoNoSmartcardBackup
+msgid "It is not possible to back up certificates from a hardware security device such as a smart card."
+msgstr "སྲ་ཆས་སྲུང་སྐྱོབ་ སི་མརཊི་ཀརཌི་བཟུམ་ཅིག་གིས་ ལག་ཁྱེར་ལུ་རྒྱབ་ཐག་འབད་མི་ཚུགས།"
+
+#: PKCS12DupData
+msgid "The certificate and private key already exist on the security device."
+msgstr "སྲུང་སྐྱོབ་ཐབས་འཕྲུལ་དེ་གུ་ ལག་ཁྱེར་དང་སྒེར་གྱི་ལྡེ་མིག་ ཧེ་མ་ལས་ར་འདུག"
+
+#: AddModulePrompt
+msgid "Are you sure you want to install this security module?"
+msgstr "ཁྱོད་ཀྱིས་སྲུང་སྐྱོད་ཚད་གཞི་འདི་ གཞི་བཙུགས་འབད་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: AddModuleName
+msgid "Module Name: %S"
+msgstr "ཚད་གཞི་མིང་:%S"
+
+#: AddModulePath
+msgid "Path: %S"
+msgstr "འགྲུལ་ལམ་:%S"
+
+#: AddModuleSuccess
+msgid "A new security module has been installed"
+msgstr "སྲུང་སྐྱོབ་ཚད་གཞི་གསརཔ་ཅིག་ གཞི་བཙུགས་འབད་ཡི།"
+
+#: AddModuleFailure
+msgid "Unable to add module"
+msgstr "ཚད་གཞི་ཁ་སྐོང་རྐྱབ་མ་ཚུགས།"
+
+#: AddModuleDup
+msgid "Security Module already exists"
+msgstr "སྲུང་སྐྱོབ་ཚད་གཞི་ ཧེ་མ་ལས་ར་འདུག"
+
+#: DelModuleBadName
+msgid "Invalid module name."
+msgstr "ཚད་གཞི་མིང་ ནུས་མེད་ཨིན་མས།"
+
+#: DelModuleWarning
+msgid "Are you sure you want to delete this security module?"
+msgstr "ཁྱོད་ཀྱིས་སྲུང་སྐྱོབ་ཚད་གཞི་འདི་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: DelModuleError
+msgid "Unable to delete module"
+msgstr "ཚད་གཞི་བཏོན་གཏང་མ་ཚུགས་"
+
+#: DelModuleIntSuccess
+msgid "Internal security module successfully deleted"
+msgstr "ནང་འཁོད་ཀྱི་སྲུང་སྐྱོབ་ཚད་གཞི་མཐར་འཁྱོལ་སྦེ་བཏོན་བཏང་ཡི།"
+
+#: DelModuleExtSuccess
+msgid "External security module successfully deleted"
+msgstr "ནང་འཁོད་ཀྱི་སྲུང་སྐྱོབ་ཚད་གཞི་མཐར་འཁྱོལ་སྦེ་བཏོན་བཏང་ཡི།"
+
+#: ForcedBackup1
+msgid "You should make a password-protected backup copy of your new security certificate and its associated private key."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་སྲུང་སྐྱོབ་ལག་ཁྱེར་གསརཔ་དང་ དེ་དང་འབྲེལ་བའི་སྒེར་གྱི་ལྡེ་མིག་ཚུ་གི་དོན་ལུ་ ཆོག་ཡིག་ཐོག་ལས་ཉེན་སྐྱོབ་ཡོད་པའི་ རྒྱབ་ཐག་འདྲ བཤུས་ཅིག་བཟོ་དགོ།"
+
+#: ForcedBackup2
+msgid "If you ever lose access to your private key by forgetting your personal security password, or by experiencing file corruption, you can restore this private key and certificate from this backup copy."
+msgstr "གལ་སྲིད་ ཁྱོད་ཀྱིས་ཁྱོད་རའི་སྲུང་སྐྱོབ་ཆོག་ཡིག་ སེམས་ཁ་ལས་བརྗེད་པའམ་ ཡིག་སྣོད་ངན་ཅན་གྱུར་བའི་རྐྱེན་གྱིས་ ཁྱོད་རའི་སྒེར་གྱི་ལྡེ་མིག་ལུ་འཛུལ་སྤྱོད་འབད་མ་ཚུགས་པ་ཅིན་ ཁྱོད་ཀྱིས་རྒྱབ་ཐག་འདྲ་བཤུས་འདི་ནང་ལས་ སྒེར་གྱི་ལྡེ་མིག་དང་ ལག་ཁྱེར་སོར་ཆུད་འབད་ཚུགས།"
+
+#: ForcedBackup3
+msgid "To make a copy, click OK. If possible, you should save your backup copy on a floppy disk that you keep in a safe location."
+msgstr "འདྲ་བཤུས་བཟོ་ནི་ལུ་ བཏུབ་ གུ་ཨེབ་གཏང་འབད། རབ་འབྱུང་པ་ཅིན་ ཁྱོད་ཀྱིས་རྒྱབ་ཐག་དེ་ ཕོ་ལོ་པི་ཅིག་ནང་ བསྲུངས་ཞིནམ་ལས་ ཉེན་ཁ་མེད་པའི་གནས་ཁོངས་ཅིག་ནང་བཞག་དགོ།"
+
+#: UnknownCertIssuer
+msgid "(Unknown Issuer)"
+msgstr "(མ་ཤེས་པའི་སྤྲོད་མི་)"
+
+#: UnknownCertOrg
+msgid "(Unknown Organization)"
+msgstr "(མ་ཤེས་པའི་ལས་སྡེ)"
+
+#: AVATemplate
+msgid "%S = %S"
+msgstr "%S = %S"
+
+#: SSLDisabled
+msgid "You cannot connect to %S because SSL is disabled."
+msgstr "ཁྱོད་ཀྱིས་%Sལུ་མཐུད་མི་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཨེསི་ཨེསི་ཨེལ་དེ་ ལྕོགས་མིན་ཨིན་པས།"
+
+#: SSL2Disabled
+msgid "You cannot connect to %S because SSL version 2 is disabled."
+msgstr "ཁྱོད་ཀྱིས་%Sལུ་མཐུད་མི་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཨེསི་ཨེསི་ཨེལ་ ཐོན་རིམ་ ༢ པ་དེ་ ལྕོགས་མིན་ཨིན་པས།"
+
+#: SSLNoMatchingCiphers
+msgid "%S and %S cannot communicate securely because they have no common encryption algorithms."
+msgstr "%S དང་ %S་གི་བར་ན་ ཉེན་མེད་ཐོག་ལུ་བརྒྱུད་འབྲེལ་འཐབ་མི་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དེ་གཉིས་ལུ་སྤྱི་མཐུན་གྱི་ གསང་བཟོའི་ཨཱལ་གོ་རི་ཐམ་མིན་འདུག།"
+
+#: UsersCertRevoked
+msgid "Could not establish an encrypted connection with %S because your certificate has been revoked."
+msgstr "%S དང་གཅིག་ཁར་ གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་ལག་ཁྱེར་དེ་ ཆ་མེད་བཏང་ད་ནུག།"
+
+#: UsersCertExpired
+msgid "Could not establish an encrypted connection with %S because your certificate is expired."
+msgstr "%S དང་གཅིག་ཁར་ གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་ལག་ཁྱེར་དེ་ དུས་ཡོལ་ཐལ་སོ་ནུག།"
+
+#: UsersCertRejected
+msgid "Could not establish an encrypted connection because your certificate was rejected by %S. Error Code: %S."
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་ལག་ཁྱེར་དེ་ %S གིས་ དང་ལེན་འབད་མ་བཏུབ། འཛོལ་བའི་ཨང་རྟགས་:%S"
+
+#: BadMac
+msgid "%S received a message with incorrect Message Authentication Code. If the error occurs frequently, contact the website administrator."
+msgstr "%S གིས་ འཕྲིན་དོན་བདེན་བཤད་ཨང་རྟགས་ བདེན་མེད་ཨིན་མི་འཕྲིན་དོན་ཅིག་ཐོབ་ཅིག། འཛོལ་བ་དེ་འཕྲལ་འཕྲལ་ར་བྱུང་པ་ཅིན་ ཝེབ་ས་ཁོངས་བདག་སྐྱོང་པ་ལུ་ འབྲེལ་བ་འཐབ།"
+
+#: PeerResetConnection
+msgid "%S has closed the connection. Error Code: %S"
+msgstr "%Sདེ་མཐུད་ལམ་ཁ་བསྡམས་ནུག། འཛོལ་བའི་ཨང་རྟགས་:%S།"
+
+#: HostResetConnection
+msgid "The current transfer has been cancelled."
+msgstr "ད་ལྟོ་གི་གནས་སོར་དེ་ ཆ་མེད་བཏང་ཡི།"
+
+#: BadPassword
+msgid "An incorrect password was provided."
+msgstr "བདེན་མེད་ཆོག་ཡིག་ཅིག་བྱིན་ནུག"
+
+#: BadDatabase
+msgid "There is a problem with your certificate database [Error Code: %S]."
+msgstr "ཁྱོད་ཀྱི་ལག་ཁྱེར་གྱི་གནས་སྡུད་གཞི་རྟེན་ལུ་ དཀལ་ངལ་ཅིག་འདུག། འཛོལ་བའི་ཨང་རྟགས་:%S"
+
+#: BadServer
+msgid "%S has sent an incorrect or unexpected message. Error Code: %S"
+msgstr "%Sགིས་བདེན་མེད་་ཡང་ན་ རེ་བ་མེད་པའི་འཕྲིན་དོན་ཅིག་བཏང་ནུག། འཛོལ་བའི་ཨང་རྟགས་:%S།"
+
+#: BadClient
+msgid "%S has received an incorrect or unexpected message. Error Code: %S"
+msgstr "%Sགིས་བདེན་མེད་ ཡང་ན་ རེ་བ་མེད་པའི་འཕྲིན་དོན་ཅིག་ཐོབ་ཅི། འཛོལ་བའི་ཨང་རྟགས་:%S།"
+
+#: HostReusedIssuerSerial
+msgid ""
+"You have received an invalid certificate.  Please contact the server administrator or email correspondent and give them the following information:\n"
+"\n"
+"Your certificate contains the same serial number as another certificate issued by the certificate authority.  Please get a new certificate containing a unique serial number."
+msgstr ""
+"ཁྱོད་ཀྱིས་ནུས་མེད་ལག་ཁྱེར་ཅིག་ཐོབ་ཅི།  སར་བར་བདག་སྐྱོང་པ་ ཡང་ན་ གློག་འཕྲིན་ཡིག་འབྲེལ་པ་ལུ་ འབྲེལ་བ་འཐབ་སྟེ་ འོག་གི་བརྡ་དོན་ཚུ་བྱིན་:\n"
+"\n"
+"ཁྱོད་ཀྱི་ལག་ཁྱེར་དེ་ལུ་ ལག་ཁྱེར་དབང་འཛིན་གྱིས་སྤྲོེད་པའི་ ལག་ཁྱེར་གཞན་ཅིག་གི་ ཨང་རིམ་དང་ཅོག་གཅིགཔ་འདུག། གཞན་དང་མ་འདྲ་བའི་ཨང་རིམ་ཡོད་པའི་ ལག་ཁྱེར་གསརཔ་ཅིག་ལེན་གནང་།"
+
+#: SSLGenericError
+msgid "Error establishing an encrypted connection to %S. Error Code: %S."
+msgstr "%Sལུ་གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་བའི་སྐབས་ལུ་འཛོལ་བ། འཛོལ་བའི་ཨང་རྟགས་:%S།"
+
+#: TimeOut
+msgid "Connection request timed out."
+msgstr "མཐུད་ལམ་གྱི་ཞུ་བ་འབད་ནིའི་དུས་ཚོད་ངལ་མཚམས།"
+
+#: PeersCertUntrusted
+msgid "Could not establish an encrypted connection because certificate presented by %S is not trusted."
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་%Sགིས་བྱིན་མི་ལག་ཁྱེར་དེ་ལུ་ བློ་གཏད་མིན་འདུག།"
+
+#: PeersCertRevoked
+msgid "Could not establish an encrypted connection because certificate presented by %S has been revoked."
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་%Sགིས་བྱིན་མི་ལག་ཁྱེར་དེ་ ཆ་མེད་བཏང་ནུག།"
+
+#: PeersCertExpired
+msgid "Could not establish an encrypted connection because certificate presented by %S has expired."
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་%Sགིས་བྱིན་མི་ལག་ཁྱེར་དེ་ དུས་ཡོལ་ཐལ་སོ་ནུག།"
+
+#: PeersCertWrongDomain
+msgid "Could not establish an encrypted connection because certificate presented by %S is for a different domain."
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་%Sགིས་བྱིན་མི་ལག་ཁྱེར་དེ་ ཌོ་མེན་སོ་སོ་ཅིག་གི་དོན་ལུ་ཨིན་མས།"
+
+#: PeersCertBadSignature
+msgid "Could not establish an encrypted connection because certificate presented by %S has an invalid signature."
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་%Sགིས་བྱིན་མི་ལག་ཁྱེར་དེ་ལུ་ ནུས་མེད་མིང་རྟགས་ཅིག་འདུག།"
+
+#: PeersCertNoGood
+msgid "Could not establish an encrypted connection because certificate presented by %S is invalid or corrupted. Error Code: %S"
+msgstr "གསང་བཟོས་མཐུད་ལམ་ཅིག་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་%Sགིས་བྱིན་མི་ལག་ཁྱེར་དེ་ ནུས་མེད་ ཡང་ན་ ངན་ཅན་ཨིན་མས། འཛོལ་བའི་ཨང་རྟགས་:%S།"
+
+#: CRLExpired
+msgid "Certificate Revocation List (CRL) from the CA certifying %S is past its Next Update date. Please update the CRL."
+msgstr "ལག་ཁྱེར་དབང་འཛིན་ནང་ལས་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་ (སི་ཨར་ཨེལ) གྱིས་ %Sདེ་ཤུལ་མའི་དུས་མཐུན་བཟོ་ནིའི་ དུས་ཚོད་ལས་བརྒལ་སོ་ནུག་ཟེར་ངོསྦྱོར་འབདཝ་ཨིན་མས། སི་ཨར་ཨེལ་ དུས་མཐུན་བཟོ་གནང་།"
+
+#: CRLNotYetValid
+msgid "Certificate Revocation List (CRL) from the CA certifying %S is not yet valid. Please check your system clock."
+msgstr "ལག་ཁྱེར་དབང་འཛིན་ནང་ལས་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་ (སི་ཨར་ཨེལ) གྱིས་ %Sདེ་ནུས་ཅན་མ་འགྱོ་བས་ཟེར་ ངོསྦྱོར་འབདཝ་ཨིན་མས། ཁྱོད་རའི་རིམ་ལུགས་ཀྱི་ཆུ་ཚོད་འཁོར་ལོ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: CRLSigNotValid
+msgid "Certificate Revocation List (CRL) from the CA certifying %S has an invalid digital signature."
+msgstr "ལག་ཁྱེར་དབང་འཛིན་ནང་ལས་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་ (སི་ཨར་ཨེལ) གྱིས་ %Sདེ་ལུ་ ནུས་མེད་ཌི་ཇི་ཊཱལ་ མིང་རྟགས་ཅིག་འདུག་ཟེར་ ངོ་སྦྱོར་འབདཝ་ཨིན་མས།"
+
+#: CRLSNotValid
+msgid "Certificate Revocation List (CRL) from the CA certifying %S is not valid."
+msgstr "ལག་ཁྱེར་དབང་འཛིན་ནང་ལས་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་ (སི་ཨར་ཨེལ) གྱིས་ %Sདེ་ ནུས་མེད་ཨིན་མས་ཟེར་ ངོ་སྦྲོར་འབདཝ་ཨིན་མས།"
+
+#: OCSPMalformedRequest
+msgid "Error trying to validate certificate from %S using OCSP - malformed request."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - བཟོ་ཉེས་གྱུར་བའི་ཞུ་བ།"
+
+#: OCSPRequestNeedsSig
+msgid "Error trying to validate certificate from %S using OCSP - request needs signature."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - ཞུ་བ་ལུ་མིང་རྟགས་དགོ་པས།"
+
+#: OCSPUnauthorizedReq
+msgid "Error trying to validate certificate from %S using OCSP - unauthorized request."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - གནང་བ་མེད་པའི་ཞུ་བ།"
+
+#: OCSPServerError
+msgid "Error trying to validate certificate from %S using OCSP - server error."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - སར་བར་གྱི་འཛོལ་བ།"
+
+#: OCSPTryServerLater
+msgid "Error trying to validate certificate from %S using OCSP - server is busy. Please try again later."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - སར་བར་ཁོམ་མེད་ཨིན་མས། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང།"
+
+#: OCSPFutureResponse
+msgid "Error trying to validate certificate from %S using OCSP - response contains a date which is in the future."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - ངོས་ལན་དེ་ལུ་མ་འོངས་པའི་ཚེས་གྲངས་ཅིག་འདུག།"
+
+#: OCSPOldResponse
+msgid "Error trying to validate certificate from %S using OCSP - old response."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - ངོས་ལན་རྙིངམ།"
+
+#: OCSPCorruptedResponse
+msgid "Error trying to validate certificate from %S using OCSP - corrupted or unknown response. Error Code: %S."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - ངན་ཅན་གྱུར་བའམ་ མ་ཤེས་པའི་ངོས་ལན། འཛོལ་བའི་ཨང་རྟགས་: %S།"
+
+#: OCSPUnauthorizedResponse
+msgid "Error trying to validate certificate from %S using OCSP - unauthorized response."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - གནང་བ་མེད་པའི་ངོས་ལན།"
+
+#: OCSPUnknownCert
+msgid "Error trying to validate certificate from %S using OCSP - unknown certificate."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - མ་ཤེས་པའི་ལག་ཁྱེར།"
+
+#: OCSPNoDefaultResponder
+msgid "Error trying to validate certificate from %S using OCSP - no default responder specified."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - སྔོན་སྒྲིག་ངོས་ལན་པ་གསལ་བཀོད་མ་འབད་བས།"
+
+#: OCSPDirLookup
+msgid "Error trying to validate certificate from %S using OCSP - directory lookup error."
+msgstr "ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་ཐོག་ལས་ %Sནང་ལས་ ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་འཛོལ་བ་ - སྣོད་ཐོ་བལྟ་ནི་ལུ་འཛོལ་བ།"
+
+#: CertInfoIssuedFor
+msgid "Issued to:"
+msgstr "སྤྲོད་ཡུལ་:"
+
+#: CertInfoIssuedBy
+msgid "Issued by:"
+msgstr "སྤྲོད་མི་:"
+
+#: CertInfoValid
+msgid "Valid"
+msgstr "ནུས་ཅན་"
+
+#: CertInfoFrom
+msgid "from"
+msgstr "ལས་"
+
+#: CertInfoTo
+msgid "to"
+msgstr "ལུ་"
+
+#: CertInfoPurposes
+msgid "Purposes"
+msgstr "དགོས་དོན་"
+
+#: CertInfoStoredIn
+msgid "Stored in:"
+msgstr "བསགས་བཞག་ས་:"
+
+#: P12DefaultNickname
+msgid "Imported Certificate"
+msgstr "ནང་འདྲེན་འབད་མི་ལག་ཁྱེར་"
+
+#: CrlImportSuccess
+msgid "The browser successfully imported the certificate revocation list (CRL)."
+msgstr "བརའུ་ཟར་གྱིས་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་ (སི་ཨར་ཨེལ) མཐར་འཁྱོལ་སྦེ་ ནང་འདྲེན་འབད་ཡི།"
+
+#: CrlImportFailure1
+msgid "The browser cannot import the Certificate Revocation List (CRL)."
+msgstr "བརའུ་ཟར་གྱིས་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་ (སི་ཨར་ཨེལ) ནང་འདྲེན་འབད་མི་ཚུགས་པས།"
+
+#: CrlImportFailureExpired
+msgid "A more recent version of this CRL is available."
+msgstr "སི་ཨར་ཨེལ་གྱི་ འཕྲལ་ཁམས་ཐོན་མི་ ཐོན་རིམ་ཅིག་ཡོད།"
+
+#: CrlImportFailureBadSignature
+msgid "CRL has an invalid Signature."
+msgstr "སི་ཨར་ཨེལ་ལུ་ ནུས་མེད་མིང་རྟགས་ཅིག་འདུག།"
+
+#: CrlImportFailureInvalid
+msgid "New CRL has an invalid format."
+msgstr "སི་ཨར་ཨེལ་གསརཔ་དེ་ལུ་ ནུས་མེད་རྩ་སྒྲིག་ཅིག་འདུག།"
+
+#: CrlImportFailureOld
+msgid "New CRL is older than the current one."
+msgstr "སི་ཨར་ཨེལ་གསརཔ་དེ་ ད་ལྟོ་ཡོད་མི་ལས་ རྙིངམ་ཨིན་མས།"
+
+#: CrlImportFailureNotYetValid
+msgid "The CRL is not yet valid. You might want to check your system clock."
+msgstr "སི་ཨར་ཨེལ་དེ་ ད་ལྟོ་ཡང་ནུས་ཅན་མ་འགྱོ་བས། ཁྱོད་ཀྱིས་ཁྱོད་རའི་རིམ་ལུགས་ཀྱི་ ཆུ་ཚོད་འཁོར་ལོ་ལུ་ ཞིབ་དཔྱད་འབད་དགོཔ་འོང་།"
+
+#: CrlImportFailureNetworkProblem
+msgid "Download of the CRL failed due to Network problems."
+msgstr "ཡོངས་འབྲེལ་གྱི་དཀའ་ངལ་ལུ་བརྟེན་ཏེ་ སི་ཨར་ཨེལ་ཕབ་ལེན་འབད་ནི་དེ་ འབད་མ་ཚུགས།"
+
+#: CrlImportFailureReasonUnknown
+msgid "Error Importing CRL to local Database. Error Code:"
+msgstr "སི་ཨར་ཨེལ་ ཉེ་གནས་ཀྱི་གནས་སྡུད་ནང་ ནང་འདྲེན་འབད་ནི་ལུ་འཛོལ་བ། འཛོལ་བའི་ཨང་རྟགས་:"
+
+#: CrlImportFailure2
+msgid "Please ask your system administrator for assistance."
+msgstr "གྲོགས་རམ་གྱི་དོན་ལུ་ ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་སླབ་གནང་།"
+
+#: NSSInitProblem
+msgid "Could not initialize the browser's security component. The most likely cause is problems with files in your browser's profile directory. Please check that this directory has no read/write restrictions and your hard disk is not full or close to full. It is recommended that you exit the browser and fix the problem. If you continue to use this browser session, you might see incorrect browser behaviour when accessing security features."
+msgstr "བརའུ་ཟར་གྱི་སྲུང་སྐྱོབ་ཆ་ཤས་ འགོ་འབྱེད་འབད་མ་ཚུགས། དེ་གི་རྒྱུན་རྐྱེན་དེ་ ཁྱོད་རའི་བརའུ་ཟར་གྱི་གསལ་སྡུད་སྣོད་ཐོ་ནང་གི་ ཡིག་སྣོད་ཚུ་གི་དཀའ་ངལ་ཨིནམ་བཟུམ་ཅིག་འདུག། སྣོད་ཐོ་དེ་ནང་ འབྲི་ལྷག་བཀག་ཆ་མེདཔ་བཟོ་དགོ་པའི་ཁར་ ཁྱོད་ཀྱི་ཧརཌི་ཌིཀསི་དེ་ ལྟེམས་ལྟེམས་མེནམ་བཟོ་གནང་ ཡང་ན་ ལྟེམས་ལྟེམས་སྦེ་ཁ་མ་བསྡམས། ཁྱོད་ཀྱིས་བརའུ་ཟར་ཕྱིར་ཐོན་འབད་བཅུག་ཞིནམ་ལས་ དཀའ་ངལ་དེ་བསལ་བ་ཅིན་དྲག། ཁྱོད་ཀྱིས་བརའུ་ཟར་གྱི་ལཱ་ཡུན་འདི་ འཕྲོ་མཐུད་པ་ཅིན་ སྲུང་སྐྱོབ་ཀྱི་ཁྱད་རྣམ་ཚུ་ལུ་ འཛུལ་སྤྱོད་འབདཝ་ད་ བརའུ་ཟར་གྱིས་ སྤྱོད་པ་ཕྱི་འགྱུར་འབད་འོང་།"
+
+#: ProfileSwitchSocketsStillActive
+msgid "The operation can not be completed because of an internal failure. A secure network communication has not been cleaned up correctly."
+msgstr "ནང་འཁོད་ཀྱི་འཐུས་ཤོར་ཅིག་ལུ་བརྟེན་ཏེ་ བཀོལ་སྤྱོད་འདི་ མཇུག་བསྡུ་མ་ཚུགས། ཡོངས་འབྲེལ་གྱི་བརྒྱུད་འབྲེལ་དེ་ མཐའ་བཙན་གྱི་སྒོ་ལས་ ཚུལ་མཐུན་གཙང་དག་མ་བཟོ་བས།"
+
+#: ProfileSwitchCryptoUIActive
+msgid "This operation is impossible at the current time. Please complete the operation that requests your attention in one of the other open windows."
+msgstr "ད་ལྟོ་གི་དུས་སྐབས་ལུ་ བཀོལ་སྤྱོད་འདི་མི་བཏུབ་པས། ཁྱོད་ཀྱིས་ཁ་ཕྱེ་སྟེ་ཡོད་པའི་ སྒོ་སྒྲིག་གཞན་ཅིག་ནང་སྦེ་ བཀོལ་སྤྱོད་འདི་མཇུག་བསྡུ་གནང་།"
+
+#: VerifyExpired
+msgid "<Expired>"
+msgstr "<དུས་ཡོལ་ཐལ་ཡོདཔ་>"
+
+#: VerifyRevoked
+msgid "<Revoked>"
+msgstr "<ཆ་མེད་བཏང་ཡོདཔ་>"
+
+#: VerifyNotTrusted
+msgid "<Not Trusted>"
+msgstr "<བློ་གཏད་མེདཔ་>"
+
+#: VerifyIssuerNotTrusted
+msgid "<Issuer Not Trusted>"
+msgstr "<སྤྲོད་མི་ལུ་བློ་གཏད་མེདཔ་>"
+
+#: VerifyIssuerUnknown
+msgid "<Issuer Unknown>"
+msgstr "<སྤྲོད་མི་མ་ཤེསཔ་>"
+
+#: VerifyInvalidCA
+msgid "<Invalid CA>"
+msgstr "<ནུས་མེད་ལག་ཁྱེར་དབང་འཛིན་>"
+
+#: VerifyUnknown
+msgid "<Unknown>"
+msgstr "<མ་ཤེསཔ་>"
+
+#: CertNoNickname
+msgid "(no nickname)"
+msgstr "(སྐྱོན་མིང་མིན་འདུག)"
+
+#: CertNoEmailAddress
+msgid "(no email address)"
+msgstr "(གློག་འཕྲིན་ཁ་བྱང་མིན་འདུག)"
+

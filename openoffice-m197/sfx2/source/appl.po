@@ -1,0 +1,972 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: appl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-16 12:35+0100\n"
+"PO-Revision-Date: 2006-12-20 23:01+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 0.8rc5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Accelerator-Marker: ~\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: app.src#RID_DOCALREADYLOADED_DLG.infobox.text
+msgid "Document already open."
+msgstr "ཡིག་ཆ་ཧེ་མ་ལས་རང་ ཁར་ཕྱེ་སྟེ་འདུག"
+
+#: app.src#RID_CANTLOADDOC_DLG.errorbox.text
+msgid "Cannot open document."
+msgstr "ཡིག་ཆ་ཁ་ཕྱེ་མི་ཚུགས་པས།"
+
+#: app.src#MSG_ERR_READ_CFG.errorbox.text
+msgid "Error reading configuration file."
+msgstr "རིམ་སྒྲིག་ ཡིག་སྣོད་ལྷབ་པའི་སྐབས་ལུ་ འཛོལ་བ།"
+
+#: app.src#MSG_ERR_WRITE_CFG.errorbox.text
+msgid "Error writing configuration file."
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ འབྲི་པའི་སྐབས་ལུ་འཛོལ་བ།"
+
+#: app.src#MSG_ERR_OPEN_CFG.errorbox.text
+msgid "Error opening configuration file."
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ ཁ་ཕྱེ་བའི་འཛོལ་བ།"
+
+#: app.src#MSG_ERR_FILETYPE_CFG.errorbox.text
+msgid "File is not a configuration file."
+msgstr "ཡིག་སྣོད་འདི་ རིམ་སྒྲིག་ཡིག་སྣོད་མེན།"
+
+#: app.src#MSG_ERR_VERSION_CFG.errorbox.text
+msgid "Configuration file contains the wrong version."
+msgstr "རིམ་སྒྲིག་ཡིག་སྣོད་ནང་ན་ཐོན་རིམ་འཛོལ་བ་ཡོད།"
+
+#: app.src#MSG_ERR_WRITE_SBL.errorbox.text
+msgid ""
+"Error recording BASIC library in\n"
+"'@'."
+msgstr ""
+"'@'ནང་ལུ་གཞི་རྩའི་དཔེ་མཛོད་སྒྲ་བཟུང་ནི་ལུ་\n"
+"འཛོལ་བ།"
+
+#: app.src#MSG_SIGNAL.errorbox.text
+msgid ""
+"An unexpected program error has occurred.\n"
+"\n"
+"Do you want to try to save your changes in all open documents before the program is terminated?"
+msgstr ""
+"རེ་བ་མེད་པའི་ ལས་རིམ་འཛོལ་བ་གཅིག་འབྱུང་ཡོད།\n"
+"\n"
+" ལས་རིམ་འདི་ རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་ ཁྱོད་ཀྱིས་བསྒྱུར་བཅོས་འབད་ཡོད་མི་ཚུ་ ཁ་ཕྱེ་ཡོད་པའི་ཡིག་ཆ་ཚུ་ནང་ སྲུང་བཞག་ནི་ཨིན་ན?"
+
+#: app.src#MSG_ERR_NO_WEBBROWSER_FOUND.errorbox.text
+msgid "%PRODUCTNAME could not find a web browser on your system. Please check your Desktop Preferences or install a web browser (for example, Mozilla) in the default  location requested during the browser installation."
+msgstr "ཁྱོད་རའི་ རིམ་ལུགས་ནང་ལུ་ %PRODUCTNAME གིས་ཝེབ་བརའུ་ཟར་འཚོལ་མ་འཐོབ་པས། ཁྱོད་རའི་ཌེཀསི་ཊོབ་ དགའ་གདམ་ཚུ་ ཞིབ་དཔྱད་འབད་ད་ ཡང་ན་   བརའུ་ཟར་བཙུགས་པའི་སྐབས་ སྔོན་སྒྲིག་གནས་ཁོངས་ཞུ་བ་འབད་ཡོདཔ་བཞིན་    ཝེབ་བརའུ་ཟར་བཙུགས་གནང་དང་(དཔེ་འབད་བ་ཅིན་ མོ་ཛིལ་ལ་ཟེར་མི་བཟུམ)།"
+
+#: app.src#RID_WARN_POST_MAILTO.warningbox.text
+msgid ""
+"A form is to be sent by e-mail.\n"
+"This means that the receiver will get to see your e-mail address."
+msgstr ""
+"འབྲི་ཤོག་གཅིག་ གློག་འཕྲིན་ཐོག་ལས་བཏང་དགོསཔ་ཅིག་ཨིན།\n"
+"   འདི་འབདཝ་ལས་ གློག་འཕྲིན་ཐོབ་མི་འདི་གིས་ ཁྱོད་རའི་ གློག་འཕྲིན་ཁ་བྱང་ཡང་ བལྟ་ཚུགསཔ་ཨིན།"
+
+#: app.src#STR_RECOVER_TITLE.string.text
+msgid "File Recovery"
+msgstr "ཡིག་སྣོད་སླར་གསོ་འབད་ཡོདཔ།"
+
+#: app.src#STR_RECOVER_QUERY.string.text
+msgid "Should the file \"$1\" be restored?"
+msgstr "ཡིག་སྣོད་\"$1\" འདི་ སོར་ཆུད་ འབད་དགོསཔ་ཨིན་ན?"
+
+#: app.src#GID_INTERN.string.text
+msgid "Internal"
+msgstr "ནང་འཁོད།"
+
+#: app.src#GID_APPLICATION.string.text
+msgid "Application"
+msgstr "གློག་རིམ།"
+
+#: app.src#GID_VIEW.string.text
+msgid "View"
+msgstr "མཐོང་སྣང་།"
+
+#: app.src#GID_DOCUMENT.string.text
+msgid "Documents"
+msgstr "ཡིག་ཆ་ཚུ།"
+
+#: app.src#GID_EDIT.string.text
+msgid "Edit"
+msgstr "ཞུན་དག"
+
+#: app.src#GID_MACRO.string.text
+msgid "BASIC"
+msgstr "གཞི་རྩ།"
+
+#: app.src#GID_OPTIONS.string.text
+msgid ""
+"_: app.src#GID_OPTIONS.string.text\n"
+"Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: app.src#GID_MATH.string.text
+msgid "Math"
+msgstr "ཨང་རྩིས།"
+
+#: app.src#GID_NAVIGATOR.string.text
+msgid "Navigate"
+msgstr "འགྲུལ་བསྐྱོད།"
+
+#: app.src#GID_INSERT.string.text
+msgid "Insert"
+msgstr "བཙུགས་།"
+
+#: app.src#GID_FORMAT.string.text
+msgid "Format"
+msgstr "རྩ་སྒྲིག"
+
+#: app.src#GID_TEMPLATE.string.text
+msgid ""
+"_: app.src#GID_TEMPLATE.string.text\n"
+"Templates"
+msgstr "ཊེམ་པེལེཊིསི།"
+
+#: app.src#GID_TEXT.string.text
+msgid "Text"
+msgstr "ཚིག་ཡིག"
+
+#: app.src#GID_FRAME.string.text
+msgid "Frame"
+msgstr "གཞི་ཁྲམ།"
+
+#: app.src#GID_GRAPHIC.string.text
+msgid "Graphic"
+msgstr "ཚད་རིས།"
+
+#: app.src#GID_TABLE.string.text
+msgid "Table"
+msgstr "ཐིག་ཁྲམ།"
+
+#: app.src#GID_ENUMERATION.string.text
+msgid "Numbering"
+msgstr "ཨང་བརྐྱབ་ནི།"
+
+#: app.src#GID_DATA.string.text
+msgid "Data"
+msgstr "གནད་སྡུད།"
+
+#: app.src#GID_SPECIAL.string.text
+msgid "Special Functions"
+msgstr "དམིགས་བསལ་ ལས་འགན་ཚུ།"
+
+#: app.src#GID_IMAGE.string.text
+msgid "Image"
+msgstr "གཟུགས་བརྙན།"
+
+#: app.src#GID_CHART.string.text
+msgid "Chart"
+msgstr "དཔེ་རིས།"
+
+#: app.src#GID_EXPLORER.string.text
+msgid "Explorer"
+msgstr "ཐབས་འཚོལ་མི།"
+
+#: app.src#GID_CONNECTOR.string.text
+msgid "Connector"
+msgstr "མཐུད་བྱེད།"
+
+#: app.src#GID_MODIFY.string.text
+msgid "Modify"
+msgstr "ལེགས་བཅོས་འབད།"
+
+#: app.src#GID_DRAWING.string.text
+msgid "Drawing"
+msgstr "དཔར་རིས།"
+
+#: app.src#GID_CONTROLS.string.text
+msgid "Controls"
+msgstr "ཚད་འཛིན་ནི།"
+
+#: app.src#SID_OPTIONS.1.RID_SFXPAGE_GENERAL.pageitem.text
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: app.src#SID_OPTIONS.1.RID_SFXPAGE_SAVE.pageitem.text
+msgid "Save"
+msgstr "སྲུངས།"
+
+#: app.src#SID_OPTIONS.1.RID_SFXPAGE_PATH.pageitem.text
+msgid "Paths"
+msgstr "འགྲུལ་ལམ་ཚུ།"
+
+#: app.src#SID_OPTIONS.1.RID_SFXPAGE_SPELL.pageitem.text
+msgid "Spellcheck"
+msgstr "སྡེབ་དཔྱོད།"
+
+#: app.src#SID_OPTIONS.tabdialog.text
+msgid ""
+"_: app.src#SID_OPTIONS.tabdialog.text\n"
+"Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: app.src#MSG_CANT_QUIT.infobox.text
+msgid ""
+"The application cannot be terminated at the moment.\n"
+"Please wait until all print jobs and/or\n"
+"OLE actions have finished and close all dialogs."
+msgstr ""
+"དུས་སྐབས་ཅིག་ གློག་རིམ་འདི་ རྩ་བསྐྲད་གཏང་མི་བཏུབ་པས།  \n"
+" དཔར་བསྐྲུན་ལས་གཡོག་ཚུ་དང་/ཡང་ན་\n"
+" ཨོ་ཨེལ་ཨི་ བྱ་བ་ཚུ་ མ་རྫོགས་ཚུན་བསྒུག་གནང་ དེ་ལས་ ཌའི་ལོག་ཚུ་ག་ར་ ཁ་བསྡམས་གནང་།"
+
+#: app.src#MSG_IS_SERVER.querybox.text
+msgid ""
+"This application is as object or print server active.\n"
+"Do you want to terminate anyway?"
+msgstr ""
+"གློག་རིམ་འདི་ དངོས་པོའམ་ དཔར་བསྐྲུནཤུགས་ལྡན་ སར་བར་བཟུམ་སྦེ་ཨིན།\n"
+" ག་དེ་སྦེ་ཨིན་རུང་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: app.src#STR_NODOUBLE.string.text
+msgid "%PRODUCTNAME cannot be started more than once."
+msgstr "%PRODUCTNAME  འདི་ཚར་གཅིག་ལས་ལྷག་སྟེ་ འགོ་བཙུགས་མི་ཚུགས་པས།"
+
+#: app.src#STR_NOPRINTER.string.text
+msgid ""
+"Some %PRODUCTNAME functions will not work properly without a printer driver.\n"
+"Please install a printer driver."
+msgstr ""
+" %PRODUCTNAME ལ་ལོའི་ལས་འགན་ཚུ་དཔར་བསྐྲུན་འདྲེན་བྱེད་ མེད་པ་ཅིན་ ལེགས་ཤོམ་སྦེ་ལཱ་འབད་མི་བཏུབ་ཨིན།\n"
+"  དེ་འབདཝ་ལས་ དཔར་བསྐྲུན་འདྲེན་བྱེད་ བཙུགས་གནང་།"
+
+#: app.src#STR_ISMODIFIED.string.text
+msgid "Do you want to save the changes to %1?"
+msgstr "ཁྱོད་ བསྒྱུར་བཅོས་འབད་ཡོད་མི་ཚུ་ %1 ནང་ལུ་སྲུངས་ནི་ ཨིན་ན?"
+
+#: app.src#STR_AUTOSAVE.string.text
+msgid "AutoSave"
+msgstr "རང་བཞིན་སྲུངས།"
+
+#: app.src#STR_RESWARNING.string.text
+msgid "Limited system resources. Please quit other applications or close some windows before continuing."
+msgstr "ཐོན་ཁུངས་རིམ་ལུགས་ ཚད་ཅིག་ལས་མེད། འཕྲོ་མཐུད་མ་འབད་བའི་ཧེ་མ་ གློག་རིམ་གཞན་མི་ཚུ་སྤང་ནི་དང་ སྒོ་སྒྲིག་ལ་ལོ་ཅིག་ ཁ་བསྡམས་ནི་གཉིས་ལས་གང་རུང་གཅིག་འབད་གནང་།"
+
+#: app.src#STR_RESEXCEPTION.string.text
+msgid "There are files missing. Please check application setup."
+msgstr "ཡིག་སྣོད་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ་ཨིན། གློག་རིམ་གཞི་སྒྲིག་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: app.src#STR_DOUBLEEXCEPTION.string.text
+msgid ""
+"Another error occurred during the save recovery.\n"
+"Possibly, the data could not be entirely saved."
+msgstr ""
+"འཛོལ་བ་གཞན་མི་གཅིག་ སྲུངས་བ་སླར་གསོའི་སྐབས་བྱུང་ཡི། \n"
+" གནད་སྡུད་འདི་ ཧྲིལ་བུ་སྦེ་ སྲུངས་བཞག་འབད་མི་ཚུགསཔ་འོང་སྲིད།"
+
+#: app.src#STR_SYSRESEXCEPTION.string.text
+msgid "System resources exhausted. Please restart the application."
+msgstr "རིམ་ལུགས་ཐོན་ཁུངས་ཚུ་རྫོགས་སོང་ནུག    གློག་རིམ་འདི་ལོག་ འགོ་བཙུགས་གནང་།"
+
+#: app.src#MSG_ERR_SOINIT.errorbox.text
+msgid "Error initializing object-system."
+msgstr "དངོས་པོའི་རིམ་ལུགས་ འགོ་འབྱེད་འཛོལ་བ།"
+
+#: app.src#MSG_IOERR_FILE_NOT_FOUND.string.text
+msgid "The file $(FILE) doesn't exist."
+msgstr "ཡིག་སྣོད་ $(FILE) འདི་མེདཔ་ཨིན།"
+
+#: app.src#MSG_IOERR_PATH_NOT_FOUND.string.text
+msgid "The path to file $(FILE) doesn't exist."
+msgstr "ཡིག་སྣོད་$(FILE) ལུའི་ འགྲུལ་ལམ་འདི་མེད།"
+
+#: app.src#MSG_IOERR_TOO_MANY_OPEN_FILES.string.text
+msgid ""
+"The file $(FILE) could not be opened,\n"
+"because too many files are open.\n"
+"Please close some files and try again."
+msgstr ""
+"ཡིག་སྣོད་ལེ་ཤ་ཅིག་ ཁ་ཕྱེ་སྟེ་ཡོདཔ་ལས་བརྟེན་ ཡིག་སྣོད་$(FILE) འདི་ཁ་ཕྱེ་མི་བཏུབ་པས།\n"
+"\n"
+" ཡིག་སྣོད་ལ་ལོ་ཅིག་ ཁ་བསྡམས་བཞིནམ་ལས་ ལོག་སྟེ་འབད་བརྩོལ་བསྐྱེད་གནང་།"
+
+#: app.src#MSG_IOERR_ACCESS_DENIED.string.text
+msgid "The file $(FILE) could not be opened due to missing access rights."
+msgstr "འཛུལ་སྤྱོད་འབད་ནི་ཐོབ་དབང་ཚུ་ སླག་སྟོར་ཞུགས་ཡོདཔ་ལས་ $(FILE) འབད་མི་ཡིག་སྣོད་འདི་ ཁ་ཕྱེ་མི་བཏུབ་པས།"
+
+#: app.src#MSG_IOERR_INVALID_ACCESS.string.text
+msgid "The file $(FILE) could not be accessed."
+msgstr "ཡིག་སྣོད་ $(FILE) འདི་འཛུལ་སྤྱོད་ འབད་མི་ཚུགས་པས།"
+
+#: app.src#MSG_IOERR_INVALID_HANDLE.string.text
+msgid "The file $(FILE) could not be opened due to an invalid file handle."
+msgstr "ཡིག་སྣོད་$(FILE) འདི་ ཡིག་སྣོད་ལེགས་སྐྱོང་འཐབ་ ནུས་ཅན་མེདཔ་ལས་བརྟེན་ ཁ་ཕྱེ་མི་ཚུགས་པས།"
+
+#: app.src#MSG_IOERR_CANNOT_MAKE.string.text
+msgid "The file $(FILE) could not be created."
+msgstr "ཡིག་སྣོད་ $(FILE) འདི་ གསར་བསྐྲུན་འབད་མི་ཚུགས་པས།"
+
+#: app.src#MSG_IOERR_SHARING.string.text
+msgid "Error by shared access to $(FILE)."
+msgstr " $(FILE)འདི་ རུབ་སྤྱོད་ཐོག་  འཛུལ་སྤྱོད་ཀྱི་ འཛོལ་བ།"
+
+#: app.src#MSG_IOERR_GENERAL.string.text
+msgid "General I/O error accessing $(FILE)."
+msgstr " $(FILE) འཛུལ་སྤྱོད་འབདཝ་ད་ ཡོངས་ཁྱབ་ ཨའི་/ཨོ འཛོལ་བ།"
+
+#: app.src#STR_EVENT_STARTAPP.string.text
+msgid "Start Application"
+msgstr "གློག་རིམ་འགོ་བཙུགས།"
+
+#: app.src#STR_EVENT_CLOSEAPP.string.text
+msgid "Close Application"
+msgstr "གླིག་རིམ་ཁ་བསྡམས།"
+
+#: app.src#STR_EVENT_CREATEDOC.string.text
+msgid "Create Document"
+msgstr "ཡིག་ཆ་གསར་བསྐྲུན་འབད།"
+
+#: app.src#STR_EVENT_CLOSEDOC.string.text
+msgid "Document is closing"
+msgstr "ཡིག་ཆ་འདི་ ཁ་བསྡམས་དེ།"
+
+#: app.src#STR_EVENT_PREPARECLOSEDOC.string.text
+msgid "Close Document"
+msgstr "ཡིག་ཆ་ཁ་བསྡམས།"
+
+#: app.src#STR_EVENT_OPENDOC.string.text
+msgid ""
+"_: app.src#STR_EVENT_OPENDOC.string.text\n"
+"Open Document"
+msgstr "ཡིག་ཆ་ཁ་ཕྱེ།"
+
+#: app.src#STR_EVENT_SAVEDOC.string.text
+msgid "Save Document"
+msgstr "ཡིག་ཆ་སྲུང་བཞག"
+
+#: app.src#STR_EVENT_SAVEASDOC.string.text
+msgid "Save Document As"
+msgstr "བཟུམ་སྦེ་ཡིག་ཆ་སྲུང་བཞག"
+
+#: app.src#STR_EVENT_SAVEDOCDONE.string.text
+msgid "Document has been saved"
+msgstr "ཡིག་ཆ་འདི་སྲུང་བཞག་འབད་ཡོདཔ་ཨིན།"
+
+#: app.src#STR_EVENT_SAVEASDOCDONE.string.text
+msgid "Document has been saved as"
+msgstr "ཡིག་ཆ་འདི་ བཟུམ་སྦེ་ སྲུང་བཞག་སྟེ་ཡོད།"
+
+#: app.src#STR_EVENT_ACTIVATEDOC.string.text
+msgid "Activate Document"
+msgstr "ཡིག་ཆ་འདི་ ཤུགས་ལྡན་བཟོ།"
+
+#: app.src#STR_EVENT_DEACTIVATEDOC.string.text
+msgid "Deactivate Document"
+msgstr "ཡིག་ཆ་འདི་ ཤུགས་མེད་བཟོ།"
+
+#: app.src#STR_EVENT_PRINTDOC.string.text
+msgid "Print Document"
+msgstr "ཡིག་ཆ་འདི་ དཔར་བསྐྲུན་འབད།"
+
+#: app.src#STR_EVENT_MODIFYCHANGED.string.text
+msgid "'Modified' status was changed"
+msgstr "ལེགས་བཅོས་འབད་ཡོད་པའི་ གནས་ཚད་འདི་ བསྒྱུར་བཅོས་འབད་ནུག"
+
+#: app.src#STR_ERR_NOTEMPLATE.string.text
+msgid "The selected template has an incorrect format"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ ཊེམ་པེལེཊི་ལུ་ བདེན་མེད་རྩ་སྒྲིག་ཡོདཔ་ཨིན་པས།"
+
+#: app.src#STR_ERR_NOFILE.string.text
+msgid "Can't open file $."
+msgstr "ཡིག་སྣོད་$ འདི་ཁ་ཕྱེ་མི་ཚུགས་པས།"
+
+#: app.src#STR_QUITAPP.string.text
+msgid "E~xit"
+msgstr "ཕྱིར་ཐོན།(~x)"
+
+#: app.src#STR_EXITANDRETURN.string.text
+msgid "E~xit & return to "
+msgstr "ཕྱིར་ཐོན    ལུ་སླར་ལོག་འབད།(~x)(&r)"
+
+#: app.src#STR_EXTHELPSTATUS.string.text
+msgid "Select a command or click to select a theme."
+msgstr "བརྡ་བཀོད་གཅིག་སེལ་འཐུ་འབད་ཡང་ན་ བརྗོད་དོན་སེལ་འཐུ་འབད་ནིའི་དོན་ལུ་ཨེབ་གཏང་འབད།"
+
+#: app.src#STR_MAIL.string.text
+msgid "Mail"
+msgstr "ཡིག་འཕྲིན།"
+
+#: app.src#STR_ADDRESS_NAME.string.text
+msgid "Addresses"
+msgstr "ཁ་བྱང་ཚུ།"
+
+#: app.src#RID_STR_HELP.string.text
+msgid ""
+"_: app.src#RID_STR_HELP.string.text\n"
+"Help"
+msgstr "རོགས་རམ།"
+
+#: app.src#RID_STR_NOAUTOSTARTHELPAGENT.string.text
+msgid "No automatic start at 'XX'"
+msgstr "'XX' ནང་རང་བཞིན་འགོ་བཙུགས་མེད།"
+
+#: app.src#RID_STR_NOWELCOMESCREEN.string.text
+msgid "Don't display tips"
+msgstr "ཕན་བསླབ་ཚུ་བཀྲམ་སྟོན་མ་འབད།"
+
+#: app.src#RID_HELPBAR.string.text
+msgid "Help Bar"
+msgstr "གྲོགས་རམ་ཕྲ་རིང་།"
+
+#: app.src#RID_STR_HLPFILENOTEXIST.string.text
+msgid "The help file for this topic is not installed."
+msgstr "གནད་དོན་འདི་གི་དོན་ལུ་ གྲོགས་རམ་ཡིག་སྣོད་ གཞི་བཙུགས་མ་འབད་བས།"
+
+#: app.src#RID_STR_HLPAPPNOTSTARTED.string.text
+msgid "The help system could not be started"
+msgstr "གྲོགས་རམ་རིམ་ལུགས་འདི་ འགོ་བཙུགས་མི་བཏུབ་པས།"
+
+#: app.src#RID_ENVTOOLBOX.string.text
+msgid "Function Bar"
+msgstr "ལས་འགན་ཕྲ་རིང་།"
+
+#: app.src#RID_SPECIALCONFIG_ERROR.string.text
+msgid ""
+"An error has occurred in the special configuration.\n"
+"Please contact your administrator."
+msgstr ""
+"དམིགས་བསལ་རིམ་སྒྲིག་ནང་ལུ་ འཛོལ་བ་གཅིག་བྱུང་ནུག \n"
+" བདག་སྐྱོང་པ་དང་གཅིག་ཁར་ འབྲེལ་བ་འཐབ་གནང་།"
+
+#: app.src#RID_PLUGIN.string.text
+msgid "Enable plug-ins"
+msgstr "པ་ལག་ཨིནསི་ལྕོགས་ཅན་བཟོ།"
+
+#: app.src#STR_CORRUPT_INSTALLATION.string.text
+msgid ""
+"Important program components could not be initialized correctly.\n"
+"Please start the setup program with the option /Repair."
+msgstr ""
+"གལ་ཅན་ལས་རིམ་ཆ་ཤས་ཚུ་ ངེས་བདེན་སྦེ་ འགོ་འབྱེད་འབད་མི་ཚུགས་པས། \n"
+" གཞི་སྒྲིག་ལས་རིམ་འདི་ གདམ་ཁ་ཅན་ཡང་ན་ ཉམས་བཅོས་དང་ གཅིག་ཁར་འགོ་བཙུགས་གནང་།"
+
+#: app.src#IDS_SBERR_STOREREF.string.text
+msgid "Reference will not be saved: "
+msgstr "གཞི་བསྟུན་འདི་སྲུང་བཞག་འབད་འོང་།"
+
+#: app.src#STR_KEY_CONFIG_DIR.string.text
+msgid "Configuration"
+msgstr "རིམ་སྒྲིག"
+
+#: app.src#STR_KEY_WORK_PATH.string.text
+msgid "My Documents"
+msgstr "ངི་གི་ཡིག་ཆ་ཚུ།"
+
+#: app.src#STR_KEY_GRAPHICS_PATH.string.text
+msgid "Graphics"
+msgstr "ཚད་རིས་ཚུ།"
+
+#: app.src#STR_KEY_BITMAP_PATH.string.text
+msgid "Icons"
+msgstr "ངོས་དཔར།"
+
+#: app.src#STR_KEY_PALETTE_PATH.string.text
+msgid "Palettes"
+msgstr "པེ་ལེཊིསི།"
+
+#: app.src#STR_KEY_BACKUP_PATH.string.text
+msgid "Backups"
+msgstr "རྒྱབ་ཐག"
+
+#: app.src#STR_KEY_MODULES_PATH.string.text
+msgid "Modules"
+msgstr "ཚད་གཞི་ཚུ།"
+
+#: app.src#STR_KEY_TEMPLATE_PATH.string.text
+msgid ""
+"_: app.src#STR_KEY_TEMPLATE_PATH.string.text\n"
+"Templates"
+msgstr "ཊེམ་པེལེཊིསི།"
+
+#: app.src#STR_KEY_GLOSSARY_PATH.string.text
+msgid "AutoText"
+msgstr "ཚིག་ཡིག་རང་བཞིན།"
+
+#: app.src#STR_KEY_DICTIONARY_PATH.string.text
+msgid "Dictionaries"
+msgstr "ཚིག་མཛོད་ཚུ།"
+
+#: app.src#STR_KEY_HELP_DIR.string.text
+msgid ""
+"_: app.src#STR_KEY_HELP_DIR.string.text\n"
+"Help"
+msgstr "རོགས་རམ།"
+
+#: app.src#STR_KEY_GALLERY_DIR.string.text
+msgid "Gallery"
+msgstr "སྟོན་ཁང་།"
+
+#: app.src#STR_KEY_STORAGE_DIR.string.text
+msgid "Message Storage"
+msgstr "འཕྲིན་ཡིག་བསག་མཛོད།"
+
+#: app.src#STR_KEY_TEMP_PATH.string.text
+msgid "Temporary files"
+msgstr "གནས་སྐབས་ཡིག་སྣོད་ཚུ།"
+
+#: app.src#STR_KEY_PLUGINS_PATH.string.text
+msgid "Plug-ins"
+msgstr "པ་ལག་ཨིནསི།(-i)"
+
+#: app.src#STR_KEY_FAVORITES_DIR.string.text
+msgid "Folder Bookmarks"
+msgstr "སྣོད་འཛིན་དེབ་རྟགས་ཚུ།"
+
+#: app.src#STR_KEY_FILTER_PATH.string.text
+msgid "Filters"
+msgstr "ཚགས་མ་ཚུ།"
+
+#: app.src#STR_KEY_ADDINS_PATH.string.text
+msgid "Add-ins"
+msgstr "ནང་བསྡོམས།"
+
+#: app.src#STR_KEY_USERCONFIG_PATH.string.text
+msgid "User Configuration"
+msgstr "ལག་ལེན་པའི་རིམ་སྒྲིག"
+
+#: app.src#STR_KEY_USERDICTIONARY_DIR.string.text
+msgid "User-defined dictionaries"
+msgstr "ལག་ལེན་པའི་ངོས་འཛིན་འབད་ཡོད་པའི་ ཚིག་མཛོད་ཚུ།"
+
+#: app.src#STR_KEY_AUTOCORRECT_DIR.string.text
+msgid "AutoCorrect"
+msgstr "རང་བཞིན་ངེས་བདེན།"
+
+#: app.src#STR_KEY_LINGUISTIC_DIR.string.text
+msgid "Writing aids"
+msgstr "འབྲི་ནི་མཁོ་ཆས།"
+
+#: app.src#STR_QUICKSTART_EXIT.string.text
+msgid "Exit Quickstarter"
+msgstr "འཕྲལ་མགྱོགས་འགོ་བཙུགས་མི་ ཕྱིར་ཐོན།"
+
+#: app.src#STR_QUICKSTART_TIP.string.text
+msgid "%PRODUCTNAME %PRODUCTVERSION Quickstarter"
+msgstr "%PRODUCTNAME %PRODUCTVERSION  འཕྲལ་མགྱོགས་འགོ་བཙུགས་མི།"
+
+#: app.src#STR_QUICKSTART_FILEOPEN.string.text
+msgid ""
+"_: app.src#STR_QUICKSTART_FILEOPEN.string.text\n"
+"Open Document"
+msgstr "ཡིག་ཆ་ཁ་ཕྱེ།"
+
+#: app.src#STR_QUICKSTART_FROMTEMPLATE.string.text
+msgid "From Template"
+msgstr "ཊེམ་པེལེཊི་ལས།"
+
+#: app.src#STR_QUICKSTART_PRELAUNCH.string.text
+msgid "Load %PRODUCTNAME During System Start-Up"
+msgstr "%PRODUCTNAME འགོ་བཙུགས་རིམ་ལུགས་སྐབས་ མངོན་གསལ་འབད།"
+
+#: app.src#STR_QUICKSTART_PRELAUNCH_UNX.string.text
+msgid "Disable systray Quickstarter"
+msgstr "རིམ་ལུགས་ཤོག་སྣོད་ཀུའིཀ་སི་ཊ་ཊར་ ལྕོགས་མིན་བཟོ་"
+
+#: app.src#STR_QUICKSTART_LNKNAME.string.text
+msgid "%PRODUCTNAME %PRODUCTVERSION"
+msgstr "%PRODUCTNAME %PRODUCTVERSION"
+
+#: app.src#STR_QUERY_UPDATE_LINKS.string.text
+msgid "Update all links?"
+msgstr "འབྲེལ་ལམ་ཚུ་ག་ར་ དུས་མཐུན་བཟོ་ནི་ཨིན་ན?"
+
+#: app.src#STR_DDE_ERROR.string.text
+msgid "DDE link to % for % area % are not available."
+msgstr "ཌི་ཌི་ཨི་ འབྲེལ་ལམ་ ལས་ % for % area % དེ་ཚུ་འཐོབ་མི་ཚུགས་པས།"
+
+#: app.src#RID_SECURITY_WARNING_HYPERLINK.warningbox.text
+msgid "This hyperlink is going to open \"%s\". Do you want to proceed?"
+msgstr "ཚད་བརྒལ་འབྲེལ་ལམ་འདི་གིས་ \"%s\" འདི་ཁ་ཕྱེ་ནི་ཨིན་པས།  འཕྲོ་མཐུད་འབད་ནི་ཨིན་ན?"
+
+#: app.src#RID_SECURITY_WARNING_NO_HYPERLINKS.warningbox.text
+msgid ""
+"For security reasons, the hyperlink cannot be executed.\n"
+"The stated address will not be opened."
+msgstr ""
+"ཚད་བརྒལ་འབྲེལ་ལམ་འདི་ སྲུང་སྐྱོབ་རྒྱུ་མཙན་ལུ་བརྟེན་ ལག་ལེན་འཐབ་མི་བཏུབ་པས། \n"
+" འདི་ཁར་བཀོད་ཡོད་པའི་ ཁ་བྱང་འདི་ཁ་ཕྱེ་མི་བཏུབ་པས།"
+
+#: app.src#RID_SECURITY_WARNING_TITLE.string.text
+msgid "Security Warning"
+msgstr "སྲུང་སྐྱོབ་ཉེན་བརྡ།"
+
+#: app.src#RID_INVALID_URL_MSG.errorbox.text
+msgid "The URL is not valid."
+msgstr "ཡུ་ཨར་ཨེལ་འདི་ ནུས་ཅན་མིན་འདུག"
+
+#: app.src#RID_XMLSEC_WARNING_BROKENSIGNATURE.warningbox.text
+msgid ""
+"The digitally signed document content and/or macros do not match the current document signature.\n"
+"\n"
+"This could be the result of document manipulation or of structural document damage due to data transmission.\n"
+"\n"
+"We recommend that you do not trust the content of the current document.\n"
+"Execution of macros is disabled for this document.\n"
+" "
+msgstr ""
+"ཌི་ཇི་ཊཱལ་གྱི་ཐོག་ལས་ མིང་རྟགས་བཀོད་ཡོད་པའི་ཡིག་ཆ་ནང་ན་ཡོད་མི་དང་ /ཡང་ན་ མོཀ་ཀོརོསི་ཚུ་ ད་ལྟོའི་ཡིག་ཆའི་མིང་རྟགས་ཚུ་དང་མི་བཐུན་པས།\n"
+"\n"
+"འ་ནི་འདི་ གནད་སྡུད་སྤེལ་བཀྲམ་གྱིས་འབད་ ཡིག་ཆ་ལེགས་སྐྱོང་འཐབ་ནི་ ཡང་ན་ གཞི་བཀོད་རྣམ་པའི་ཡིག་ཆ་ མེདཔ་བཏང་ཡོད་པའི་ གྲུབ་འབྲས་ཨིནམ་འོང་།\n"
+"\n"
+"ང་བཅས་ཀྱིས་ཁྱོད་ལུ་ ད་ལྟོའི་ཡིག་ཆ་ནང་ན་ཡོད་མི་ཚུ་ལུ་ བློ་མ་གཏད་ཟེར་འོས་སྦྱོར་འབད་ནི་ཨིན།\n"
+"ཡིག་ཆ་འདི་གི་དོན་ལུ་ མེཀ་ཀོརོསི་ ལག་ལེན་འདི་ ལྕོགས་མིན་བཟོ་ཡོདཔ་ཨིན།"
+
+#: app.src#RID_XMLSEC_WARNING_BROKENSIGNATURE.warningbox.title
+msgid "Invalid Document Signature"
+msgstr "རྟགས་ནུས་མེད་ཡིག་ཆའི་མིང་རྟགས།"
+
+#: app.src#RID_XMLSEC_QUERY_LOSINGSIGNATURE.querybox.text
+msgid ""
+"Saving will remove all existing signatures.\n"
+"Do you want to continue saving the document?"
+msgstr ""
+"སྲུང་བཞག་འབད་ནི་འདི་གིས་ ཡོད་བའིན་པའི་མིང་རྟགས་ཚུ་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་འོང་།\n"
+"ཁྱོད་ཀྱིས་ཡིག་ཆ་འདི་སྲུང་བཞག་འབད་ནི་འཕྲོ་མཐུད་ནི་ཨིན་ན་?"
+
+#: app.src#RID_XMLSEC_QUERY_SAVEBEFORESIGN.querybox.text
+msgid ""
+"The document has to be saved before it can be signed.\n"
+"Do you want to save the document?"
+msgstr ""
+"ཡིག་ཆ་འདི་ མིང་རྟགས་མ་བཀོད་པའི་ཧེ་མ་ སྲུང་བཞག་འབད་དགོསཔ་ཅིག་ཨིན།\n"
+"  ཡིག་ཆ་འདི་སྲུང་བཞག་འབད་ནི་ཨིན་ན?"
+
+#: app.src#RID_XMLSEC_INFO_WRONGDOCFORMAT.infobox.text
+msgid "This document must be saved in OpenDocument file format before it can be digitally signed."
+msgstr "ཡིག་ཆ་འདི་ཌི་ཇི་ཊཱལ་གྱི་དོག་ལས་ མིང་རྟགས་མ་བཀོད་པའི་ཧེ་མ་ ཁ་ཕྱེ་ཡིག་ཆའི་ ཡིག་སྣོད་རྩ་སྒྲིག་ནང་ལུ་ངེས་པར་ སྲུང་བཞག་དགོསཔ་ཨིན།"
+
+#: app.src#RID_XMLSEC_DOCUMENTSIGNED.string.text
+msgid "(Signed)"
+msgstr "(མིང་རྟགས་བཀོད་ཡོདཔ།)"
+
+#: app.src#DLG_CHECKFORONLINEUPDATE.RID_CHECKFORONLINEUPDATE_FT_MSG.fixedtext.text
+msgid "The program checks for a new version update based on information about your installed %PRODUCTNAME version and currently available updates."
+msgstr "ལས་རིམ་འདི་གིས་ ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་མི་ %PRODUCTNAME ཐོན་རིམ་དང་ ད་ལྟོ་འཐོབ་ཚུགསཔ་ཡོད་དུས་མཐུན་ཚུ་ལུ་གཞི་བཞག་ཐོག་ ཐོན་རིམ་གྱི་དུས་མཐུན་གསརཔ་ཅིག་གི་དོན་ལུ་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: app.src#DLG_CHECKFORONLINEUPDATE.modaldialog.text
+msgid "Check for Updates"
+msgstr "དུས་མཐུན་ཚུ་གི་དོན་ལུ་ཞིབ་དཔྱད་འབད་"
+
+#: app.src#INFOBOX_NO_NEW_UPDATE_AVAILABLE.infobox.text
+msgid ""
+"No new update is available.\n"
+" %PRODUCTNAME is up to date."
+msgstr ""
+"དུས་མཐུན་གསརཔ་འཐོབ་ཚུགསཔ་མེད།\n"
+" %PRODUCTNAME དུས་མཐུན་ཨིན།"
+
+#: app.src#INFOBOX_NEW_UPDATE_AVAILABLE.infobox.text
+msgid ""
+"A new update is available.\n"
+"Click OK to open the website, where you can start the download."
+msgstr ""
+"དུས་མཐུན་གསརཔ་ཅིག་འཐོབ་ཚུགསཔ་ཡོད།\n"
+"ཁྱོད་ཀྱིས་མངོན་གསལ་འབད་ནི་འདི་འགོ་བཙུགས་བཏུབ་སའི་ ཝེབ་ས་ཁོངས་འདི་ཁ་ཕྱེ་ནིའི་དོན་ལུ་ བཏུབ་ཨེབ་གཏང་།"
+
+#: dde.src#MD_DDE_LINKEDIT.FT_DDE_APP.fixedtext.text
+msgid "~Application:"
+msgstr "གློག་རིམ།(~A)"
+
+#: dde.src#MD_DDE_LINKEDIT.FT_DDE_TOPIC.fixedtext.text
+msgid "~File:"
+msgstr "ཡིག་སྣོད།:(~F)"
+
+#: dde.src#MD_DDE_LINKEDIT.FT_DDE_ITEM.fixedtext.text
+msgid "~Category:"
+msgstr "དབྱེ་རིམ།(~C)"
+
+#: dde.src#MD_DDE_LINKEDIT.GROUP_DDE_CHG.fixedline.text
+msgid "Modify link"
+msgstr "འབྲེལ་ལམ་ ལེགས་བཅོས་འབད།"
+
+#: dde.src#MD_DDE_LINKEDIT.modaldialog.text
+msgid "Modify Link"
+msgstr "འབྲེལ་ལམ་ལེགས་བཅོས་འབད།"
+
+#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_CONTENTS.pageitem.text
+msgid "Contents"
+msgstr "ནང་དོན་ཚུ།"
+
+#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_INDEX.pageitem.text
+msgid "Index"
+msgstr "ཟུར་ཐོ།"
+
+#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_SEARCH.pageitem.text
+msgid "Find"
+msgstr "འཚོལ།"
+
+#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_BOOKMARKS.pageitem.text
+msgid "Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།"
+
+#: newhelp.src#TP_HELP_INDEX.FT_EXPRESSION.fixedtext.text
+msgid "~Search term"
+msgstr "ཐ་སྙད་འཚོལ།(~S)"
+
+#: newhelp.src#TP_HELP_INDEX.PB_OPEN_INDEX.pushbutton.text
+msgid ""
+"_: newhelp.src#TP_HELP_INDEX.PB_OPEN_INDEX.pushbutton.text\n"
+"~Display"
+msgstr "བཀྲམ་སྟོན།(~D)"
+
+#: newhelp.src#TP_HELP_SEARCH.FT_SEARCH.fixedtext.text
+msgid "S~earch term"
+msgstr "ཐ་སྙད་འཚོལ།(~e)"
+
+#: newhelp.src#TP_HELP_SEARCH.PB_SEARCH.pushbutton.text
+msgid "~Find"
+msgstr "འཚོལ།(~F)"
+
+#: newhelp.src#TP_HELP_SEARCH.CB_FULLWORDS.checkbox.text
+msgid "~Complete words only"
+msgstr "མཇུག་བསྡུའི་མིང་ཚིག་རྐྱངམ་གཅིག(~C)"
+
+#: newhelp.src#TP_HELP_SEARCH.CB_SCOPE.checkbox.text
+msgid "Find in ~headings only"
+msgstr "མགུ་རྒྱན་དེ་ཚུ་ནང་ རྐྱངམ་གཅིག་འཚོལ།(~h)"
+
+#: newhelp.src#TP_HELP_SEARCH.PB_OPEN_SEARCH.pushbutton.text
+msgid ""
+"_: newhelp.src#TP_HELP_SEARCH.PB_OPEN_SEARCH.pushbutton.text\n"
+"~Display"
+msgstr "བཀྲམ་སྟོན་འབད།(~D)"
+
+#: newhelp.src#TP_HELP_BOOKMARKS.FT_BOOKMARKS.fixedtext.text
+msgid "~Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།(~B)"
+
+#: newhelp.src#TP_HELP_BOOKMARKS.PB_BOOKMARKS.pushbutton.text
+msgid ""
+"_: newhelp.src#TP_HELP_BOOKMARKS.PB_BOOKMARKS.pushbutton.text\n"
+"~Display"
+msgstr "བཀྲམ་སྟོན།(~D)"
+
+#: newhelp.src#STR_HELP_WINDOW_TITLE.string.text
+msgid "%PRODUCTNAME Help"
+msgstr "%PRODUCTNAME  རོགས་རམ།"
+
+#: newhelp.src#STR_HELP_BUTTON_INDEX_ON.string.text
+msgid "Show Navigation Pane"
+msgstr "འགྲུལ་བསྐྱོད་པཱེན་འདི་ སྟོན།"
+
+#: newhelp.src#STR_HELP_BUTTON_INDEX_OFF.string.text
+msgid "Hide Navigation Pane"
+msgstr "འགྲུལ་བསྐྱོད་པཱེན་འདི་ སྦ་བཞག"
+
+#: newhelp.src#STR_HELP_BUTTON_START.string.text
+msgid "First Page"
+msgstr "ཤོག་ལེབ་དང་པམ།"
+
+#: newhelp.src#STR_HELP_BUTTON_PREV.string.text
+msgid "Previous Page"
+msgstr "ཤོག་ལེབ་ཧེ་མམ།"
+
+#: newhelp.src#STR_HELP_BUTTON_NEXT.string.text
+msgid "Next Page"
+msgstr "ཤོག་ལེབ་ཤུལ་མམ།"
+
+#: newhelp.src#STR_HELP_BUTTON_PRINT.string.text
+msgid "Print..."
+msgstr "དཔར་བསྐྲུན་འབད།..."
+
+#: newhelp.src#STR_HELP_BUTTON_ADDBOOKMARK.string.text
+msgid "Add to Bookmarks..."
+msgstr "དེབ་རྟགས་ཚུ་ནང་ཁ་སྐོང་འབད།..."
+
+#: newhelp.src#STR_HELP_BUTTON_SEARCHDIALOG.string.text
+msgid "Find on this Page..."
+msgstr "ཤོག་ལེབ་འདི་ཁར་འཚོལ།"
+
+#: newhelp.src#STR_HELP_BUTTON_SOURCEVIEW.string.text
+msgid "HTML Source"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ གྱི་འབྱུང་ཁུངས།"
+
+#: newhelp.src#STR_HELP_FIRST_MESSAGE.string.text
+msgid "The Help is being started..."
+msgstr "རོགས་རམ་འདི་ འགོ་བཙུགས་ཡོདཔ།"
+
+#: newhelp.src#STR_HELP_MENU_TEXT_SELECTION_MODE.string.text
+msgid "Select Text"
+msgstr "ཚིག་ཡིག་ སེལ་འཐུ་འབད།"
+
+#: newhelp.src#STR_HELP_MENU_TEXT_COPY.string.text
+msgid "~Copy"
+msgstr "འདྲ་བཤུས།(~C)"
+
+#: newhelp.src#DLG_HELP_ADDBOOKMARK.FT_BOOKMARK_TITLE.fixedtext.text
+msgid "Bookmark:"
+msgstr "དབ་རྟགས།:"
+
+#: newhelp.src#DLG_HELP_ADDBOOKMARK.STR_BOOKMARK_RENAME.string.text
+msgid "Rename Bookmark"
+msgstr "དེབ་རྟགས་ བསྐྱར་མིང་བཏགས།"
+
+#: newhelp.src#DLG_HELP_ADDBOOKMARK.modaldialog.text
+msgid "Add to Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ་ནང་ཁ་སྐོང་རྐྱབ།"
+
+#: newhelp.src#MENU_HELP_BOOKMARKS.MID_OPEN.menuitem.text
+msgid "Display"
+msgstr "བཀྲམ་སྟོན་འབད།"
+
+#: newhelp.src#MENU_HELP_BOOKMARKS.MID_RENAME.menuitem.text
+msgid "Rename..."
+msgstr "བསྐྱར་མིང་བཏགས།..."
+
+#: newhelp.src#MENU_HELP_BOOKMARKS.MID_DELETE.menuitem.text
+msgid "Delete"
+msgstr "བཏོན་གཏང་"
+
+#: newhelp.src#RID_INFO_NOSEARCHRESULTS.infobox.text
+msgid "No topics found."
+msgstr "གནད་དོན་ཚུ་ཐོབ་མ་ཚིགས་པས།"
+
+#: newhelp.src#RID_INFO_NOSEARCHTEXTFOUND.infobox.text
+msgid "The text you entered was not found."
+msgstr "ཁྱོད་ཀྱིས་ཐོ་བཀོད་འབད་ཡོད་པའི་ ཚིག་ཡིག་འདི་ ཐོབ་མ་ཚུགས་པས།"
+
+#: newhelp.src#RID_HELP_ONSTARTUP_TEXT.string.text
+msgid "~Display %PRODUCTNAME %MODULENAME Help at Startup"
+msgstr "%PRODUCTNAME %MODULENAME བཀྲམ་སྟོན་དང་ འགོ་བཙུགས་ནི་ལུ་རོགས་རམ།(~D)"
+
+#: sfx.src#STR_NONAME.string.text
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ།"
+
+#: sfx.src#STR_NONE.string.text
+msgid "- None -"
+msgstr "ཅི་མེད།(-N)"
+
+#: sfx.src#STR_CLOSE.string.text
+msgid "Close"
+msgstr "ཁ་བསྡམ་"
+
+#: sfx.src#STR_STYLE_FILTER_AUTO.string.text
+msgid "Automatic"
+msgstr "རང་བཞིན་གྱི།"
+
+#: sfx.src#STR_STYLE_FILTER_USED.string.text
+msgid "Applied Styles"
+msgstr "འཇུག་སྤྱོད་འབད་ཡོད་པའི་བཟོ་རྣམ་ཚུ།"
+
+#: sfx.src#STR_STYLE_FILTER_USERDEF.string.text
+msgid "Custom Styles"
+msgstr "སོལ་སྒྲིག་བཟོ་སྣམ་ཚུ།"
+
+#: sfx.src#STR_STYLE_FILTER_ALL.string.text
+msgid "All Styles"
+msgstr "བཟོ་རྣམ་ཚུ་ག་ར།"
+
+#: sfx.src#STR_STANDARD.string.text
+msgid ""
+"_: sfx.src#STR_STANDARD.string.text\n"
+"Standard"
+msgstr "ཚད་ལྡན།"
+
+#: sfx.src#STR_STANDARD_SHORTCUT.string.text
+msgid ""
+"_: sfx.src#STR_STANDARD_SHORTCUT.string.text\n"
+"Standard"
+msgstr "ཚད་ལྡན།"
+
+#: sfx.src#STR_SFX_FILTERNAME_ALL.string.text
+msgid "All files (*.*)"
+msgstr "ཡིག་སྣོད་ག་ར། (*.*)"
+
+#: sfx.src#STR_BYTES.string.text
+msgid "Bytes"
+msgstr "བཱའིཊིསི།"
+
+#: sfx.src#STR_KB.string.text
+msgid "KB"
+msgstr "ཀེབི།"
+
+#: sfx.src#STR_MB.string.text
+msgid "MB"
+msgstr "ཨེམ་བི།"
+
+#: sfx.src#STR_GB.string.text
+msgid "GB"
+msgstr "ཇི་བི།"
+
+#: sfx.src#STR_UNDO.string.text
+msgid "Undo: "
+msgstr "འབད་བཤོལ།:"
+
+#: sfx.src#STR_REDO.string.text
+msgid "Re~do: "
+msgstr "ལོག་འབད།(~d)"
+
+#: sfx.src#STR_REPEAT.string.text
+msgid "~Repeat: "
+msgstr "~ཡང་བསྐྱར།"
+
+#: sfx.src#RID_STR_NEW_TASK.string.text
+msgid "New task"
+msgstr "ལས་ཀ་གསརཔ།"
+
+#: sfx.src#MSG_QUERY_LASTVERSION.querybox.text
+msgid "Cancel all changes?"
+msgstr "བསྒྱུར་བཅོས་འབད་ཡོད་མི་ག་ར་ ཆ་མེད་གཏང་ག?"
+
+#: sfx.src#STR_ERRUNOEVENTBINDUNG.string.text
+msgid ""
+"An appropriate component method %1\n"
+"could not be found.\n"
+"\n"
+"Check spelling of method name."
+msgstr ""
+"འོས་ལྡན་ཆ་ཤས་ཐབས་ལམ་ %1 ཅིག་\n"
+"འཐོབ་མ་ཚུགས།\n"
+"\n"
+"ཐབས་ལམ་མིང་གི་དོན་ལུ་ཡིག་སྡེབ་ཞིབ་དཔྱད་འབད།"
+
+#~ msgid "Disable systray quickstarter"
+#~ msgstr "མགྱོགས་པ་འགོ་བཙུགས་བྱེད་སའི་ཊརེ་དེ་ལྕོགས་ཅན་བཟོ།"
+#~ msgid ""
+#~ "This document contains macros.\n"
+#~ "Execution of this macros is disabled due to the current macro security setting. Therefore, some functionality may not be available."
+#~ msgstr ""
+#~ "ཡིག་ཆ་འདི་གི་ནང་ན་ མེཀ་ཀོརོསི་ ཡོདཔ་ཨིན།\n"
+#~ " ་  ད་ལྟོའི་མེཀ་ཀོརོ་ སྲུང་སྐྱོབ་སྒྲིག་སྟངས་ལུ་བརྟེན་ མེཀ་ཀོརོསི་ འདི་ལག་ལེན་འཐབ་ནི་ ལུ་ལྕོགས་མིན་བཟོ་ཡོདཔ་ཨིན། རྒྱུ་མཚན་ནི་ལུ་བརྟེན་ ལས་འགན་ལ་ལོ་གཅིག་འཐོབ་ནི་ཚུགས་འོང་།"
+#~ msgid ""
+#~ "Saving will remove all existing signatures.\n"
+#~ "Do you want to continue saving the document?\n"
+#~ msgstr ""
+#~ "སྲུང་བཞག་འབད་ནི་འདི་གིས་ ཡོད་བཞིན་པའི་ མིང་རྟགས་ཚུ་ ག་ར་རྩ་བསྐྲད་གཏངམ་ཨིན།\n"
+#~ "   ཁྱོད་ཡིག་ཆ་སྲུང་བཞག་འབད་ནི་འདི་ འཕྲོ་མཐུད་འབད་ནི་ཨིན་ན?\n"
+#~ msgid "Are you sure you want to delete this message?"
+#~ msgstr "ཁྱོད་ཀྱིས་ འཕྲིན་དོན་ བཏོན་གཏང་ནི་ཟེར་མི་འདི་ ངེས་ཏིག་ཨིན་ན?"
+#~ msgid "Open..."
+#~ msgstr "ཁ་ཕྱེ།..."
+#~ msgid ""
+#~ "_: minbox.src#RID_MAIL_INBOX.BTN_MAILINBOX_DELETE.pushbutton.text\n"
+#~ "Delete"
+#~ msgstr "བཏོན་གཏང་།"
+#~ msgid ""
+#~ "_: minbox.src#RID_MAIL_INBOX.BTN_MAILINBOX_CLOSE.pushbutton.text\n"
+#~ "Close"
+#~ msgstr "ཁ་བསྡམས།"
+#~ msgid "Inbox"
+#~ msgstr "ནང་སྒྲོམ།"
+#~ msgid ""
+#~ "_: newhelp.src#MENU_HELP_BOOKMARKS.MID_DELETE.menuitem.text\n"
+#~ "Delete"
+#~ msgstr "བཏོན་གཏང་།"
+#~ msgid ""
+#~ "_: sfx.src#STR_CLOSE.string.text\n"
+#~ "Close"
+#~ msgstr "ཁ་བསྡམས།"
+

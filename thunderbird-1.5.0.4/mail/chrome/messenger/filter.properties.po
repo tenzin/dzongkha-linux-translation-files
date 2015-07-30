@@ -1,0 +1,99 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/filter.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: filter.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-08 16:11+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: mustSelectFolder
+msgid "You must select a target folder."
+msgstr "ཁྱོད་ཀྱིས་དམིགས་གཏད་སྣོད་འཛིན་ཅིག་ སེལ་འཐུ་འབད་དགོ།"
+
+#: enterValidEmailAddress
+msgid "Enter a valid e-mail address to forward to."
+msgstr "གདོང་བསྐྱོད་འབད་ནིའི་དོན་ལུ་ ནུས་ཅན་གློག་འཕྲིན་ཁ་བྱང་ཅིག་བཙུགས།"
+
+#: pickTemplateToReplyWith
+msgid "Choose a template to reply with."
+msgstr "ལན་གསལ་གཏང་ནིའི་དོན་ལུ་ ཊེམ་པེལེཊི་ཅིག་ གདམ་ཁ་རྐྱབས།"
+
+#: mustEnterName
+msgid "You must give this filter a name."
+msgstr "ཁྱོད་ཀྱིས་ཚགས་མ་འདི་ལུ་ མིང་ཅིག་བཏགས་དགོ།"
+
+#: mustSelectAction
+msgid "You must select at least one filter action."
+msgstr "ཁྱོད་ཀྱིས་ཉུང་མཐའ་ལུ་ ཚགས་མའི་བྱ་བ་ཅིག་ སེལ་འཐུ་འབད་དགོ།"
+
+#: cannotHaveDuplicateFilterTitle
+msgid "Duplicate Filter Name"
+msgstr "ཚགས་མའི་མིང་རྫུན་མ།"
+
+#: cannotHaveDuplicateFilterMessage
+msgid "The filter name you entered already exists. Please enter a different filter name."
+msgstr "ཁྱོད་ཀྱིས་བཙུགས་མི་ ཚགས་མའི་མིང་དེ་ ཧེ་མ་ལས་འདུག། ཚགས་མའི་མིང་སོ་སོ་ཅིག་བཙུགས་གནང་།"
+
+#: deleteFilterConfirmation
+msgid "Are you sure you want to delete this filter?"
+msgstr "ཁྱོད་ཀྱིས་ཚགས་མ་འདི་བཏོན་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: untitledFilterName
+msgid "Untitled Filter"
+msgstr "མགོ་མིང་མ་བཏགས་པའི་ཚགས་མ།"
+
+#: filterListBackUpMsg
+msgid "Your filters do not work because the msgFilterRules.dat file, which contains your filters, could not be read. A new msgFilterRules.dat file will be created and a backup of the old file, called rulesbackup.dat, will be created in the same directory."
+msgstr "ཁྱོད་ཀྱིས་ཚགས་མ་ཚུ་གིས་ལཱ་འབད་མི་བཏུབ། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་ཚགས་མ་ཚུ་ཡོད་སའི་ msgFilterRules.dat file, དེ་ ལྷག་མ་ཚུགས། msgFilterRules.dat file, གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད་ཞིནམ་ལས་ ཡིག་སྣོད་རྙིངམ་དེ་གི་རྒྱབ་ཐག་ rulesbackup.dat, ཟེར་མི་ཅིག་ སྣོད་ཐོ་དེ་ནང་ར་ གསར་བསྐྲུན་འབད་འོང་།"
+
+#: customHeaderOverflow
+msgid "You've exceeded the limit of 50 custom headers. Please remove one or more custom headers and try again."
+msgstr "ཁྱོད་ཀྱིས་སྲོལ་སྒྲིག་མགོ་ཡིག་གི་བཅད་མཚམས་ ༥༠ ལས་ལྷག་སོ་ནུག། སྲོལ་སྒྲིག་མགོ་ཡིག་གཅིག་ ཡང་ན་ དེ་མངམ་རྩ་བསྐྲད་གཏང་ཞིནམ་ལས་ ལག་སྟེ་འབད་བརྩོལ་བསྐྱེད་གནང་།"
+
+#: filterCustomHeaderOverflow
+msgid "Your filters have exceeded the limit of 50 custom headers. Please edit the msgFilterRules.dat file, which contains your filters, to use fewer custom headers."
+msgstr "ཁྱོད་ཀྱི་ཚགས་མ་ཚུ་གིས་ སྲོལ་སྒྲིག་མགོ་ཡིག་གི་བཅད་མཚམས་ ༥༠ ལས་ལྷག་སོ་ནུག། སྲོལ་སྒྲིག་མགོ་ཡིག་ཉུང་སུ་ ལག་ལེན་འཐབ་ནི་ལུ་ ཁྱོད་ཀྱི་ཚགས་མ་ཚུ་ཡོད་མི་ msgFilterRules.dat file, དེ་ ཞུན་དག་བརྐྱབ་གནང་།"
+
+#: invalidCustomHeader
+msgid "One of your filters uses a custom header that contains an invalid character, such as ':', a non-printable character, a non-ascii character, or an eight-bit ascii character. Please edit the msgFilterRules.dat file, which contains your filters, to remove invalid characters from your custom headers."
+msgstr "ཁྱོད་ཀྱི་ཚགས་མ་གཅིག་གིས་ ནུབ་མེད་ཡིག་འབྲུ་ དཔེར་ན་ ':'། དཔར་བསྐྲུན་མ་བཏུབ་པའི་ཡིག་འབྲུ་ཅིག། ascii མེན་པའི་ཡིག་འབྲུ་ཅིག་ ཡང་ན་ བིཊི་བརྒྱད་འབད་མི་ ascii ཡིག་འབྲུ་ཅིག་ཡོད་མི་ སྲོལ་སྒྲིག་མགོ་ཡིག་ཅིག་ ལག་ལེན་འཐབ་ཨིན་མས། ཁྱོད་རའི་སྲོལ་སྒྲིག་མགོ་ཡིག་ནང་ལས་ ནུས་མེད་ཡིག་འབྲུ་ཚུ་ རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱི་ཚགས་མ་ཚུ་ཡོད་པའི་ msgFilterRules.dat file,དེ་ ཞུན་དག་བརྐྱབ་གནང་།"
+
+#: continueFilterExecution
+msgid "Applying filter %S failed. Would you like to continue applying filters?"
+msgstr "ཚགས་མ་%Sའཇུག་སྤྱོད་འབད་ནི་མ་བཏུབ། ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་དེ་ར་ ཚགས་མ་ཚུ་ འཇུག་སྤྱོད་འབད་ནི་ཨིན་ན?"
+
+#: promptTitle
+msgid "Running Filters"
+msgstr "གཡོག་བཀོལ་བཞིན་པའི་ཚགས་མ་ཚུ་"
+
+#: promptMsg
+msgid ""
+"You are currently in the process of filtering messages.\n"
+"Would you like to continue applying filters?"
+msgstr ""
+"ཁྱོད་ཀྱིས་ད་ལྟོ་ འཕྲིན་དོན་ཚུ་ བཙགས་པའི་བསྒང་ཨིན། \n"
+"ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་དེ་ར་ ཚགས་མ་ཚུ་ འཇུག་སྤྱོད་འབད་ནི་ཨིན་ན?"
+
+#: stopButtonLabel
+msgid "Stop"
+msgstr "བཀག་"
+
+#: continueButtonLabel
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་"
+
+#: cannotEnableFilter
+msgid "This filter was probably created by future version of mozilla/netscape. You cannot enable this filter because we don't know how to apply it."
+msgstr "ཚགས་མ་འདི་ མོ་ཛིལ་ལ་/ནེཊི་སིཀེཔ་གི་ མ་འོངས་པའི་ཐོན་རིམ་གྱིས་ གསར་བསྐྲུན་འབད་འབདཝ་འོང་ནི་མས། ཁྱོད་ཀྱིས་ཚགས་མ་འདི་ ལྕོགས་ཅན་བཟོ་མི་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ང་བཅས་ཀྱིས་ འདི་འཇུག་སྤྱོད་འབད་ཐངས་མི་ཤེས།"
+

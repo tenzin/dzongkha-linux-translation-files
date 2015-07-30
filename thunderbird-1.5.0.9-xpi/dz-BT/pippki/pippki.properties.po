@@ -1,0 +1,572 @@
+#
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/security/manager/chrome/pippki/pippki.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: pippki.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-10-27 11:21+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2 plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: SignedBy
+msgid "Signed by %S"
+msgstr "%Sགིས་མིང་རྟགས་བཀོད་ཡོདཔ་"
+
+#: CertPassPrompt
+msgid "Please enter the Personal Security Password for the PSM Private Keys security device."
+msgstr "རང་དོན་སྲུང་སྐྱོབ་ཆོག་ཡིག་གི་ སྒེར་གྱི་ལྡེ་མིག་སྲུང་སྐྱོབ་ཐབས་འཕྲུལ་གྱི་དོན་ལུ་ རང་དོན་སྲུང་སྐྱོབ་ཆོག་ཡིག་དེ་ བཙུགས་གནང་།"
+
+#These are for dialogs
+#Download Cert dialog
+#: newCAMessage1
+msgid "Do you want to trust \"%S\" for the following purposes?"
+msgstr "འོག་གི་དགོས་དོན་ཚུ་གི་དོན་ལུ་ ཁྱོད་ཀྱིས་ \"%S\"ལུ་བློ་གཏད་འབད་ནི་ཨིན་ན?"
+
+#: unnamedCA
+msgid "Certificate Authority (unnamed)"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་ (མིང་མ་བཏགསཔ)"
+
+#For editing cert trust
+#: editTrustWindowTitle
+msgid "Edit certificate trust"
+msgstr "ལག་ཁྱེར་བློ་གཏད་ ཞུན་དག་རྐྱབས།"
+
+#: editTrustCA
+msgid "The certificate \"%S\" represents a Certificate Authority."
+msgstr "ལག་ཁྱེར་\"%S\"དེ་གིས་ ལག་ཁྱེར་དབང་འཛིན་ཅིག་གི་ ཁྱད་ཚབ་འབདཝ་ཨིན།"
+
+#: editTrustSSL
+#: editTrustEmail
+msgid "The certificate \"%S\" was issued by:"
+msgstr "ལག་ཁྱེར་\"%S\"དེ་སྤྲོད་མི་:"
+
+#: issuerNotTrusted
+msgid "Because you do not trust the certificate authority that issued this certificate, you do not trust the authenticity of this certificate unless otherwise indicated here."
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་སྤྲོད་མི་ ལག་ཁྱེར་དབང་འཛིན་དེ་ལུ་ བློ་གཏད་མ་འབདཝ་ལས་ ནཱ་ལུ་བརྡ་མཚོན་སྟོན་ཡོད་ན་མ་གཏོགས་ དེ་མིན་ ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་གི་ བདེན་བཤད་ལུ་ བློ་གཏད་མེདཔ་ཨིན།"
+
+#: issuerTrusted
+msgid "Because you trust the certificate authority that issued this certificate, you trust the authenticity of this certificate unless otherwise indicated here."
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་སྤྲོད་མི་ ལག་ཁྱེར་དབང་འཛིན་དེ་ལུ་ བློ་གཏད་འབད་ཡོདཔ་ལས་ ནཱ་ལུ་བརྡ་མཚོན་སྟོན་ཡོད་ན་མ་གཏོགས་ དེ་མིན་ ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་གི་ བདེན་བཤད་ལུ་ བློ་གཏད་ཡོདཔ་ཨིན།"
+
+#: issuerNotKnown
+msgid "Because you do not know the certificate authority that issued this certificate, you do not trust the authenticity of this certificate unless otherwise indicated here."
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་སྤྲོད་མི་ ལག་ཁྱེར་དབང་འཛིན་དེ་ ངོ་མ་ཤེསཔ་ལས་ ནཱ་ལུ་བརྡ་མཚོན་སྟོན་ཡོད་ན་མ་གཏོགས་ དེ་མིན་ ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་གི་ བདེན་བཤད་ལུ་ བློ་གཏད་མེདཔ་ཨིན།"
+
+#: issuerCertNotFound
+msgid "Certificate for this certificate authority was not found"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་འདི་གི་དོན་ལུ་ ལག་ཁྱེར་དེ་འཚོལ་མ་ཐོབ།"
+
+#For Deleting Certificates
+#: deleteSslCertFlag
+msgid "deleteSslFlag"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ཐུར་རྟགས་བཏོན་གཏང་"
+
+#: deleteSslCertConfirm
+msgid "Are you sure you want to delete these web site certificates?"
+msgstr "ཁྱོད་ཀྱིས་ཝེབ་ས་ཁོངས་ཀྱི་ལག་ཁྱེར་འདི་ཚུ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: deleteSslCertImpact
+msgid "If you delete a web site certificate, you will be asked to accept it again the next time you visit the web site."
+msgstr "ཁྱོད་ཀྱིས་ཝེབ་ས་ཁོངས་ཀྱི་ལག་ཁྱེར་ཅིག་ བཏོན་གཏང་པ་ཅིན་ ཤུལ་ལས་ཁྱོད་ཀྱིས་ ཝེབ་ས་ཁོངས་དེ་ལུ་ ལྟ་སྤྱོེད་འབདཝ་ད་ ཁྱོད་ལུ་ལོག་སྟེ་ར་ དང་ལེན་འབད་ཟེར་སླབ་འོང་།"
+
+#: deleteSslCertTitle
+msgid "Delete Web Site Certificates"
+msgstr "ཝེབ་ས་ཁོངས་ཀྱི་ལག་ཁྱེར་ཚུ་གཏོན་གཏང་"
+
+#: deleteUserCertFlag
+msgid "deleteUserFlag"
+msgstr "ལག་ལེན་པའི་ཟུར་རྟགས་བཏོན་གཏང་"
+
+#: deleteUserCertConfirm
+msgid "Are you sure you want to delete these certificates?"
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་ཚུ་ བཏོན་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: deleteUserCertImpact
+msgid "If you delete one of your own certificates, you can no longer use it to identify yourself."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་ལག་ཁྱེར་གཅིག་ བཏོན་གཏང་པ་ཅིན་ དེ་ལས་ཕར་ ཁྱོད་ར་ངོས་འཛིན་འབད་ནི་ལུ་ འདི་ལག་ལེན་འཐབ་མི་ཚུགས།"
+
+#: deleteUserCertTitle
+msgid "Delete your Certificates"
+msgstr "ཁྱོད་རའི་ལག་ཁྱེར་ཚུ་བཏོན་གཏང་"
+
+#: deleteCaCertFlag
+msgid "deleteCaFlag"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གྱི་ཟུར་རྟགས་བཏོན་གཏང་"
+
+#: deleteCaCertConfirm
+msgid "Are you sure you want to delete these CA certificates?"
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་དབང་འཛིན་གྱི་ ལག་ཁྱེར་འདི་ཚུ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: deleteCaCertImpact
+msgid "If you delete a certificate authority (CA) certificate, your browser will no longer trust any certificates issued by that CA."
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་དབང་འཛིན་གྱི་ ལག་ཁྱེར་ཅིག་བཏོན་གཏང་ད་པ་ཅིན་ ཁྱོད་ཀྱི་བརའུ་ཟར་གྱིས་ དེ་ལས་ཕར་ ལག་ཁྱེར་དབང་དེ་གིས་སྤྲོད་མི་ ལག་ཁྱེར་ག་ལུ་ཡང་ བློ་མི་གཏད།"
+
+#: deleteCaCertTitle
+msgid "Delete CA Certificates"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གྱི་ ལག་ཁྱེར་ཚུ་བཏོན་གཏང་"
+
+#: deleteEmailCertFlag
+msgid "deleteEmailFlag"
+msgstr "གློག་འཕྲིན་གྱི་ཟུར་རྟགས་ཚུ་བཏོན་གཏང་"
+
+#: deleteEmailCertConfirm
+msgid "Are you sure you want to delete these people's e-mail certificates?"
+msgstr "ཁྱོད་ཀྱིས་མི་མང་གི་ གློག་འཕྲིན་ལག་ཁྱེར་འདི་ཚུ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: deleteEmailCertImpact
+msgid "If you delete an e-mail certificate, your will no longer be able to send encrypted e-mail to those people."
+msgstr "ཁྱོད་ཀྱི་གློག་འཕྲིན་ལག་ཁྱེར་ཅིག་ བཏོན་གཏང་པ་ཅིན་ དེ་ལས་ཕར་ ཁྱོད་ཀྱིས་མི་དེ་ཚུ་ལུ་ གསང་བཟོས་གློག་འཕྲིན་ཚུ་ གཏང་མི་ཚུགས།"
+
+#: deleteEmailCertTitle
+msgid "Delete E-Mail Certificates"
+msgstr "གློག་འཕྲིན་ལག་ཁྱེར་ཚུ་བཏོན་གཏང་"
+
+#PKCS#12 file dialogs
+#: chooseP12RestoreFileDialog
+msgid "File Name to Restore"
+msgstr "སོར་ཆུད་འབད་དགོ་པའི་ཡིག་སྣོད་མིང་"
+
+#: chooseP12BackupFileDialog
+msgid "File Name to Backup"
+msgstr "རྒྱབ་ཐག་འབད་དགོ་པའི་ཡིག་སྣོད་མིང་"
+
+#: file_browse_PKCS12_spec
+msgid "PKCS12 Files"
+msgstr "PKCS12 ཡིག་སྣོད་ཚུ་"
+
+#Mismatch Domain Dialg
+#: mismatchDomainMsg1
+msgid "You have attempted to establish a connection with \"%S\".  However, the security certificate presented belongs to \"%S\".  It is possible, though unlikely, that someone may be trying to intercept your communication with this web site."
+msgstr "ཁྱོད་ཀྱིས་\"%S\"ལུ་མཐུད་ནིའི་དཔའ་བཅམ་ནུག། ཨིན་རུང་ཁྱོད་ཀྱིས་བྱིན་མི་ སྲུང་སྐྱོབ་ལག་ཁྱེར་དེ་ \"%S\"ལུ་བངམ་ཨིན་མས། མི་ཅིག་གིས་ ཝེབ་ས་ཁོངས་འདི་གི་ཐོག་ལས་ ཁྱོད་ཀྱི་བརྒྱུད་འབྲེལ་ འཇབ་འཛིན་འབད་དོ་ཡོདཔ་འོང་ག་མི་ཤེས།"
+
+#: mismatchDomainMsg2
+msgid "If you suspect the certificate shown does not belong to \"%S\", please cancel the connection and notify the site administrator."
+msgstr "ནཱ་ལུ་སྟོན་ཏེ་ཡོད་པའི་ལག་ཁྱེར་འདི་ \"%S\"ལུ་བངམ་མེད་པའི་དོགས་པ་ཆགས་པ་ཅིན་ མཐུད་ལམ་དེ་ཆ་མེད་གཏང་ཞིནམ་ལས་ ས་ཁོངས་བདག་སྐྱོང་པ་ལུ་ བརྡ་བསྐུལ་འབད་གནང་།"
+
+#Server Cert expired
+#: serverCertExpiredMsg1
+msgid "\"%S\" is a site that uses a security certificate to encrypt data during transmission, but its certificate expired on %S."
+msgstr "\"%S\"དེ་ གནས་སྡུད་སྤེལ་བཀྲམ་གྱི་སྐབས་ལུ་ གནས་སྡུད་གསང་བ་བཟོ་ནི་ལུ་ སྲུང་སྐྱོབ་ལག་ཁྱེར་ཅིག་ ལག་ལེན་འཐབ་མི་ ས་ཁོངས་ཅིག་ཨིན་རུང་ འདི་%Sལུ་དུས་ཡོལ་ཐལ་སོ་ནུག།"
+
+#: serverCertExpiredTitle
+msgid "Server Certificate Expired"
+msgstr "སར་བར་གྱི་ལག་ཁྱེར་ དུས་ཡོལ་ཐལ་སོ་ནུག།"
+
+#: serverCertNotYetValedMsg1
+msgid "\"%S\" is a site that uses a security certificate to encrypt data during transmission, but its certificate will not be valid until %S."
+msgstr "\"%S\"དེ་ གནས་སྡུད་སྤེལ་བཀྲམ་གྱི་སྐབས་ལུ་ གནས་སྡུད་གསང་བ་བཟོ་ནི་ལུ་ སྲུང་སྐྱོབ་ལག་ཁྱེར་ཅིག་ ལག་ལེན་འཐབ་མི་ ས་ཁོངས་ཅིག་ཨིན་རུང་ འདི་%Sཚུན་ཚོད་ ནུས་ཅན་མི་འགྱོ།"
+
+#: serverCertNotYetValidTitle
+msgid "Server Certificate Not Yet Valid"
+msgstr "སར་བར་ལག་ཁྱེར་ད་ཚུན་ཡང་ ནུས་ཅན་མ་འགྱོ།"
+
+#: serverCertExpiredMsg2
+msgid "You should check to make sure that your computer's time (currently set to %S) is correct."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་གློག་རིག་གི་ཆུ་ཚོད་ (ད་ལྟོ་%Sལུ་གཞི་སྒྲིག་སྦེ་ཡོད་མི་དེ་) ངེས་བདེན་ཨིནམ་མེནམ་་ཞིབ་དཔྱད་འབད་དགོ།"
+
+#Preferences
+#: resetPreferences
+msgid "Use this button to reset %S's security preferences to their factory settings."
+msgstr "%Sགི་སྲུང་སྐྱོབ་དགའ་གདམ་ཚུ་ རང་སོའི་འཕྲུལ་ཁང་གི་སྒྲིག་སྟངས་ལུ་ སླར་སྒྲིག་འབད་ནི་ལུ་ ཨེབརྟ་འདི་ལག་ལེན་འཐབ།"
+
+#Cert verification
+#: certVerified
+msgid "This certificate has been verified for the following uses:"
+msgstr "ལག་ཁྱེར་འདི་ འོག་གི་དགོས་དོན་ཚུ་གི་དོན་ལུ་ བདེན་སྦྱོར་འབད་ཡི་:"
+
+#: certNotVerified_CertRevoked
+msgid "Could not verify this certificate because it has been revoked."
+msgstr "ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་ཆ་མེད་བཏང་ནུག།"
+
+#: certNotVerified_CertExpired
+msgid "Could not verify this certificate because it has expired."
+msgstr "ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་དུས་ཡོལ་ཐལ་སོ་ནུག།"
+
+#: certNotVerified_CertNotTrusted
+msgid "Could not verify this certificate because it is not trusted."
+msgstr "ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་ལོ་བློ་གཏད་མ་འབད་བས།"
+
+#: certNotVerified_IssuerNotTrusted
+msgid "Could not verify this certificate because the issuer is not trusted."
+msgstr "ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་སྤྲོད་མི་ལུ་བློ་གཏད་མ་འབད་བས།"
+
+#: certNotVerified_IssuerUnknown
+msgid "Could not verify this certificate because the issuer is unknown."
+msgstr "ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་སྤྲོད་མི་དེ་ ངོ་ཤེས་མ་ཚུགས།"
+
+#: certNotVerified_CAInvalid
+msgid "Could not verify this certificate because the CA certificate is invalid."
+msgstr "ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ལག་ཁྱེར་གྲི་ལག་ཁྱེར་དེ་ ནུས་མེད་ཨིན་མས།"
+
+#: certNotVerified_Unknown
+msgid "Could not verify this certificate for unknown reasons."
+msgstr "མ་ཤེས་པའིརྒྱུ་མཚན་ཚུ་ལུ་བརྟེན་ཏེ་ ལག་ཁྱེར་འདི་བདེན་སྦྱོར་འབད་མ་ཚུགས།"
+
+#Client auth
+#: clientAuthMessage1
+msgid "Organization: \"%S\""
+msgstr "ཚོེགས་སྡེ་: \"%S\""
+
+#: clientAuthMessage2
+msgid "Issued Under: \"%S\""
+msgstr "ཐོག་ལུ་སྤྲོད་པ་:\"%S\""
+
+#Page Info
+#: pageInfo_SiteNotVerified
+msgid "Web Site Identity Not Verified"
+msgstr "ཝེབ་ས་ཁོངས་ཀྱི་ངོ་རྟགས་ བདེན་སྦྱོར་མ་འབད་བས།"
+
+#: pageInfo_WebSiteVerified
+msgid "Web Site Identity Verified"
+msgstr "ཝེབ་ས་ཁོངས་ཀྱི་ངོ་རྟགས་ བདེན་འབད་ཡི།"
+
+#: pageInfo_Identity_Verified
+msgid "The web site %S supports authentication for the page you are viewing. The identity of this web site has been verified by %S, a certificate authority you trust for this purpose."
+msgstr "ཝོབ་ས་ཁོངས་%Sགིས་ ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ ཤོག་ལེབ་དེ་ལུ་ བདེན་བཤད་ཀྱི་རྒྱབ་སྐྱོར་འབདཝ་མས། ཝེབ་ས་ཁོངས་འདི་གི་ངོ་རྟགས་དེ་ ཁྱོད་ཀྱིས་དགོས་དོན་འདི་གི་དོན་ལུ་ བློ་གཏད་འབད་མི་ ལག་ཁྱེར་དབང་འཛིན་ཅིག་གིས་ བདེན་སྦྱོར་འབད་ཡི། "
+
+#: pageInfo_ViewCertificate
+msgid "View the security certificate that verifies this web site's identity."
+msgstr "ཝེབ་ས་ཁོངས་འདི་གི་ངོརྟགས་ བདེན་སྦྱོར་འབད་མི་ སྲུང་སྐྱོབ་ལག་ཁྱེར་དེ་སྟོན།"
+
+#: pageInfo_NoEncryption
+msgid "Connection Not Encrypted"
+msgstr "མཐུད་ལམ་གསང་བ་མ་བཟོ་བས།"
+
+#: pageInfo_Privacy_None1
+msgid "The web site %S does not support encryption for the page you are viewing."
+msgstr "ཝེབ་ས་ཁོངས་ %Sདེ་གིས་ ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ ཤོག་ལེབ་དེ་ གསང་བ་བཟོ་ནི་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: pageInfo_Privacy_None2
+msgid "Information sent over the Internet without encryption can be seen by other people while it is in transit."
+msgstr "གསང་བ་མ་བཟོ་བར་ ཨིན་ཊར་ནེཊི་བརྒྱུད་དེ་བཏང་མི་བརྡ་དོན་ཚུ་ བརྒྱུད་འགྲུལ་ནང་ལུ་ མི་གཞན་གྱིས་མཐོང་ཚུགསཔ་ཨིན། "
+
+#: pageInfo_Privacy_None3
+msgid "The page you are viewing is not encrypted."
+msgstr "ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ ཤོག་ལེབ་དེ་ གསང་བཟོས་མེན་པས།"
+
+#: pageInfo_StrongEncryption
+msgid "Connection Encrypted: High-grade Encryption (%S %S bit)"
+msgstr "མཐུད་ལམ་གསང་བ་བཟོ་ནུག་:སྤུས་ཚད་མཐོ་བའི་གསང་བཟོ་(བིཊི་%S %S)"
+
+#: pageInfo_Privacy_Strong1
+msgid "The page you are viewing was encrypted before being transmitted over the Internet."
+msgstr "ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ཤོག་ལེབ་དེ་ ཨིན་ཊར་ནེཊི་གི་ཐོག་ལས་ མ་བཏང་པའི་གོང་ལས་ གསང་བ་བཟོ་ནུག།"
+
+#: pageInfo_Privacy_Strong2
+msgid "Encryption makes it very difficult for unauthorized people to view information traveling between computers. It is therefore very unlikely that anyone read this page as it traveled across the network."
+msgstr "གསང་བ་བཟོ་ནི་དེ་གིས་ བརྡ་དོན་ཚུ་ གློག་རིག་ཚུ་གི་བར་ན་ བརྒྱུད་འགྲུལ་འཐབ་པའི་སྐབས་ གནང་བ་མེད་པའི་ མི་ཚུ་གིས་བལྟ་ནི་ལུ་ ལཱ་ཁག་ཡོདཔ་ཨིན།"
+
+#: pageInfo_WeakEncryption
+msgid "Connection Encrypted: Low-grade Encryption (%S %S bit)"
+msgstr "མཐུད་ལམ་གསང་བ་བཟོ་ནུག་:སྤུས་ཚད་དམའ་བའི་གསང་བཟོ་ (བིཊི་%S %S)"
+
+#: pageInfo_Privacy_Weak1
+msgid "The web site %S is using low-grade encryption for the page you are viewing."
+msgstr "ཝེབ་ས་ཁོངས་%Sའདི་གིས་ ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ ཤོག་ལེབ་འདི་གི་དོན་ལུ་ སྤུས་ཚད་དམའ་བའི་གསང་བཟོ་ལག་ལེན་འཐབ་དོ།"
+
+#: pageInfo_Privacy_Weak2
+msgid "Low-grade encryption may allow some unauthorized people to view this information."
+msgstr "སྤུས་ཚད་དམའ་བའི་གསང་བཟོ་འདི་ནང་ གནང་བ་མེད་པའི་ མི་ལ་ལོ་ཅིག་གིས་ བརྡ་དོན་འདི་བལྟ་ཚུགསཔ་ཨིན།"
+
+#: pageInfo_MixedContent
+msgid "Connection Partially Encrypted"
+msgstr "མཐུད་ལམ་གྱི་ཆ་ཤས་ཅིག་ གསང་བ་བཟོ་ནུག"
+
+#: pageInfo_Privacy_Mixed1
+msgid "Parts of the page you are viewing were not encrypted before being transmitted over the Internet."
+msgstr "ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་མི་ ཤོག་ལེབ་དེ་གི་ཆ་ཤས་ཚུ་ ཨིན་ཊར་ནེཊི་གི་ཐོག་ལུ་ མ་བཏང་པའི་ཧེ་མ་ གསང་བ་མ་བཟོ་བས།"
+
+#Cert Viewer
+#: certDetails
+msgid "Certificate Viewer:"
+msgstr "ལག་ཁྱེར་མཐོང་བྱེད་:"
+
+#: notPresent
+msgid "<Not Part Of Certificate>"
+msgstr "<ལག་ཁྱེར་གྱི་ཆ་ཤས་མེན་>"
+
+#: unknownIssuer
+msgid "<Unknown Issuer>"
+msgstr "<སྤྲོད་མི་ངོ་མ་ཤེསཔ་>"
+
+#: escrowFinalMessage
+msgid "You should click OK only if you trust \"%S\" to protect your encryption private key."
+msgstr " \"%S\"གིས་ཁྱོད་རའི་ གསང་བཟོའི་སྒེར་གྱི་ལྡེ་མིག་ ཉེན་སྐྱོབ་འབད་ནི་ལུ་ བློ་གཏད་ཡོད་པ་ཅིན་རྐྱངམ་གཅིག་ བཏུབ་ གུ་ཨེབ་གཏང་འབད།"
+
+#Token Manager
+#: password_not_set
+msgid "(not set)"
+msgstr "(གཞི་སྒྲིག་མ་འབད་བས་)"
+
+#: failed_pw_change
+msgid "Unable to change Master Password."
+msgstr "ཆོག་ཡིག་ཨམ་སོར་མ་ཚུགས་"
+
+#: incorrect_pw
+msgid "You did not enter the correct current Master Password. Please try again."
+msgstr "ཁྱོད་ཀྱིས་ད་ལྟོའི་ཆོག་ཡིག་ཨམ་ ངེས་བདེན་དེ་མ་བཙུགས་པས། ལོག་སྟེ་འབད་རྩོལབསྐྱེད་གནང་།"
+
+#: pw_change_ok
+msgid "Master Password successfully changed."
+msgstr "ཆོག་ཡིག་ཨམ་ མཐར་འཁྱོལ་སྦེ་སོར་ཡི།"
+
+#: pw_erased_ok
+msgid "Warning! You have deleted your Master Password."
+msgstr "ཉེན་བརྡ་! ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཆོག་ཡིག་ཨམ་ བཏོན་བཏང་ནུག།"
+
+#: pw_not_wanted
+msgid "Warning! You have decided not to use a Master Password."
+msgstr "ཉེན་བརྡ་: ཁྱོད་ཀྱིས་ཆོག་ཡིག་ཨམ་ ལག་ལེན་མི་འཐབ་ནི་སྦེ་ ཐག་བཅད་ནུག།"
+
+#: pw_empty_warning
+msgid "Your stored web and email passwords, form data, and private keys will not be protected."
+msgstr "ཁྱོད་ཀྱིས་གསོག་འཇོག་འབད་ཡོད་པའི་ ཝེབ་དང་གློག་འཕྲིན་གྱི་ཆོག་ཡིག་ཚུ་དང་ འབྲི་ཤོག་གི་གནས་སྡུད་ སྒེར་གྱི་ལྡེ་མིག་ཚུ་ ཉེན་སྐྱོབ་འབད་མི་ཚུགས།"
+
+#: pw_change2empty_in_fips_mode
+msgid "You are currently in FIPS mode. FIPS requires a non-empty Master Password."
+msgstr "ད་ལྟོ་ཁྱོད་ FIPS ཐབས་ལམ་ནང་འདུག། FIPS འདི་ལུ་ སྟོངམ་མེན་པའི་ ཆོག་ཡིག་ཅིག་དགོཔ་ཨིན། "
+
+#: login_failed
+msgid "Failed to Login"
+msgstr "ནང་བསྐྱོད་འབད་མ་ཚུགས།"
+
+#: loadPK11TokenDialog
+msgid "Choose a PKCS#11 device to load"
+msgstr "མངོན་གསལ་འབད་ནི་ལུ་ PKCS#11 ཐབས་འཕྲུལ་ཅིག་ གདམ་ཁ་རྐྱབས།"
+
+#: devinfo_modname
+msgid "Module"
+msgstr "མོ་ཌུལ་"
+
+#: devinfo_modpath
+msgid "Path"
+msgstr "འགྲུལ་ལམ་"
+
+#: devinfo_label
+msgid "Label"
+msgstr "ཁ་ཡིག་"
+
+#: devinfo_manID
+msgid "Manufacturer"
+msgstr "བཟོ་བསྐྲུན་པ་"
+
+#: devinfo_serialnum
+msgid "Serial Number"
+msgstr "གོ་རིམ་ཨང་"
+
+#: devinfo_hwversion
+msgid "HW Version"
+msgstr "ཨེཆ་ཌབ་ལུ་ཐོན་རིམ་"
+
+#: devinfo_fwversion
+msgid "FW Version"
+msgstr "ཨེཕ་ཌབ་ལུ་ཐོན་རིམ་"
+
+#: devinfo_status
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: devinfo_desc
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: devinfo_stat_disabled
+msgid "Disabled"
+msgstr "ལྕོགས་མིན་"
+
+#: devinfo_stat_notpresent
+msgid "Not Present"
+msgstr "མིན་འདུག་"
+
+#: devinfo_stat_uninitialized
+msgid "Uninitialized"
+msgstr "འགོ་འབྱེད་མ་འབདཝ་"
+
+#: devinfo_stat_notloggedin
+msgid "Not Logged In"
+msgstr "ནང་བསྐྱོད་མ་འབདཝ་"
+
+#: devinfo_stat_loggedin
+msgid "Logged In"
+msgstr "ནང་བསྐྱོད་འབད་ཡོདཔ་"
+
+#: devinfo_stat_ready
+msgid "Ready"
+msgstr "གྲ་སྒྲིག་"
+
+#: enable_fips
+msgid "Enable FIPS"
+msgstr "FIPS ལྕོགས་ཅན་བཟོ་"
+
+#: disable_fips
+msgid "Disable FIPS"
+msgstr "FIPS ལྕོགས་མིན་བཟོ་"
+
+#: fips_nonempty_password_required
+msgid "FIPS mode requires that you have a Master Password set for each security device. Please set the password before trying to enable FIPS mode."
+msgstr "FIPS ཐབས་ལམ་དེ་ལུ་ སྲུང་སྐྱོབ་ཐབས་འཕྲུལ་རེ་རེའི་དོན་ལུ་ ཆོག་ཡིག་ཨམ་ གཞི་སྒྲིག་འབད་དགོཔ་ཨིན། FIPS ཐབས་ལམ་ ལྕོགས་ཅན་མ་བཟོ་བའི་ཧེ་མ་ ཆོག་ཡིག་གཞི་སྒྲིག་འབད།"
+
+# CRL next update.
+#: crlNextUpdateMsg1
+msgid "%S cannot establish an encrypted connection with \"%S\"."
+msgstr "%Sགིས་\"%S\"དང་གཅིག་ཁར་ གསང་བཟོས་མཐུད་ལམ་ཅིག་ གཞི་བཙུགས་འབད་མི་ཚུགས།"
+
+#: crlNextUpdateMsg2
+msgid "The certificate revocation list (CRL) from \"%S\" needs to be updated."
+msgstr "\"%S\"ནང་ལས་ ལག་ཁྱེར་ཆ་མེད་ཐོ་ཡིག་ (སི་ཨར་ཨེལ་) དེ་ དུས་མཐུན་བཟོ་དགོཔ་འདུག།"
+
+#: NoUpdateFailure
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: lastFetchUrlLabel
+msgid "URL originally fetched from"
+msgstr "ཡུ་ཨར་ཨེལ་ འགོ་ཐོག་ལེན་ས་"
+
+#: advertisedUrlLabel
+msgid "URL advertised by the CA"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གྱིས་ ཚོང་བསྒྲགས་འབད་མི་ ཡུ་ཨར་ཨེལ་"
+
+#: CrlUpdatePrefsSetConfirmation
+msgid "Automatic update preferences will take effect when you restart the browser."
+msgstr "རང་བཞིན་དུས་མཐུན་གྱི་དགའ་གདམ་ཚུ་ ཁྱོད་ཀྱིས་བརའུ་ཟར་ ལོག་འགོ་བཙུགསཔ་ད་ ནུས་པ་འཐོབ་འོང་།"
+
+#: crlAutoUpdateDayCntError
+msgid "Number of days before next update must be a number greater than zero."
+msgstr "དུས་མཐུན་ཤུལ་མམ་གྱི་ཚེས་གྲངས་དེ་ ཀླད་ཀོར་ལས་མཐོ་བའི་ ཨང་གྲངས་ཅིག་དགོ།"
+
+#: crlAutoUpdtaeFreqCntError
+msgid "Frequency of update must be a number greater than zero."
+msgstr "འབྱུང་ཐེངས་དེ་ ཀླད་ཀོར་ལས་མཐོ་བའི་ ཨང་གྲངས་ཅིག་དགོ།"
+
+#: disabledStatement
+msgid "Automatic Update is not enabled for this CRL."
+msgstr "ལག་ཁྱེར་ཆ་མེད་ཐོ་ཡིག་འདི་གི་དོན་ལུ་ རང་བཞིན་དུས་མཐུན་བཟོ་ནི་དེ་ ལྕོགས་ཅན་མ་བཟོ་བས།"
+
+#: enabledStatement
+msgid "Automatic Update is enabled for this CRL."
+msgstr "ལག་ཁྱེར་ཆ་མེད་ཐོ་ཡིག་འདི་གི་དོན་ལུ་ རང་བཞིན་དུས་མཐུན་བཟོ་ནི་དེ་ ལྕོགས་ཅན་བཟོ་ནུག།"
+
+#: crlAutoupdateQuestion1
+msgid "Would would like to enable automatic update?"
+msgstr "ཁྱོད་ཀྱིས་རང་བཞིན་དུས་མཐུན་བཟོ་ནི་དེ་ ལྕོགས་ཅན་བཟོ་ནི་ཨིན་ན?"
+
+#: crlAutoupdateQuestion2
+msgid "Would would like to view the automatic update settings?"
+msgstr "ཁྱོད་ཀྱིས་རང་བཞིན་དུས་མུཐན་བཟོ་ནིའི་སྒྲིག་སྟངས་ཚུ་ བལྟ་ནི་ཨིན་ན?"
+
+#: undefinedValStr
+msgid "<Not Defined>"
+msgstr "<ངེས་འཛིན་མ་འབད་བས་>"
+
+#: undefinedURL
+msgid "Auto update URL is not defined."
+msgstr "རང་བཞིན་དུས་མཐུན་བཟོ་ནིའི་ ཡུ་ཨར་ཨེལ་དེ་ ངེས་འཛིན་མ་འབད་བས།"
+
+#: yesButton
+msgid "Yes"
+msgstr "ཨིན་"
+
+#: noButton
+msgid "No"
+msgstr "མེན་"
+
+#: resetPasswordConfirmationTitle
+msgid "Reset Master Password"
+msgstr "ཆོག་ཡིག་ཨམ་སླར་སྒྲིག་འབད་"
+
+#: resetPasswordConfirmationMessage
+msgid "Your password has been reset."
+msgstr "ཁྱོད་ཀྱི་ཆོག་ཡིག་དེ་ སླར་སྒྲིག་འབད་ཡི།"
+
+#: crlAutoupdateEnabled
+msgid "Enabled"
+msgstr "ལྕོགས་ཅན་"
+
+#: crlAutoupdateNotEnabled
+msgid "Not Enabled"
+msgstr "ལྕོགས་ཅན་མ་བཟོ་བས་"
+
+#: crlAutoupdateOk
+msgid "OK"
+msgstr "བཏུབ་"
+
+#: crlAutoupdateFailed
+msgid "Failed"
+msgstr "མ་བཏུབ་"
+
+#: crlImportNewCRLTitle
+msgid "Import Certificate Revocation List"
+msgstr "ལག་ཁྱེར་ཆམེད་ཐོ་ཡིག་ ནང་འདྲེན་འབད།"
+
+#: crlImportNewCRLLabel
+msgid "Import the CRL from:"
+msgstr "ལག་ཁྱེར་ཆ་མེད་ཐོ་ཡིག་ནང་འདྲེན་འབད་ས་:"
+
+#Import certificate(s) file dialog
+#: importEmailCertPrompt
+msgid "Select File containing somebody's Email certificate to import"
+msgstr "ནང་འདྲེན་འབད་ནི་ལུ་ མི་གཞན་གཅིག་གི་ གློག་འཕྲིན་ལག་ཁྱེར་ཡོད་པའི་ ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: importCACertsPrompt
+msgid "Select File containing CA certificate(s) to import"
+msgstr "ནང་འདྲེན་འབད་ནི་ལུ་ ལག་ཁྱེར་དབང་འཛིན་གྱི་ ལག་ཁྱེར་ཡོད་པའི་ ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: importWebSiteCertPrompt
+msgid "Select File containing Web Site certificate to import"
+msgstr "ནང་འདྲེན་འབད་ནི་ལུ་ ཝེབ་ས་ཁོངས་ཀྱི་ ལག་ཁྱེར་ཡོད་པའི་ ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: file_browse_Certificate_spec
+msgid "Certificate Files"
+msgstr "ལག་ཁྱེར་གྱི་ཡིག་སྣོད་ཚུ་"
+
+# Form Signing confirmation prompt
+#: formSigningIntro
+msgid "The site '%S' has requested that you sign the following text message:"
+msgstr "ས་ཁོངས་'%S'གིས་ ཁྱོད་ལུ་འོག་གི་ཚིག་ཡིག་འཕྲིན་དོན་ལུ་ མིང་རྟགས་བཀོད་དགོ་པའི་ ཞུ་བ་འབད་ནུག་:"
+

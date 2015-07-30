@@ -1,0 +1,850 @@
+# Dzongkha translation of gnome-utils
+# Copyright @ 2006 Free Software Foundation, Inc.
+# Mindu Dorji
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.HEAD.dz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"dictionary&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-25 14:13+0000\n"
+"PO-Revision-Date: 2007-05-25 04:59+0530\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Po-Language: Dzongkha\n"
+"X-Po-Country: BHUTAN\n"
+"X-Po-SourceCharset: utf-8\n"
+
+#: ../data/default.desktop.in.h:1
+msgid "Default Dictionary Server"
+msgstr "སྔོན་སྒྲིག་ཚིག་མཛོད་སར་བར།"
+
+#: ../data/gnome-dictionary.desktop.in.in.h:1
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "གློག་ཐོག་ཚིག་མཛོད་ཅིག་ནང་ མིང་ཚིག་གི་ངེས་ཚིག་དང་ སྡེབ་སྦྱོར་ཚུ་ཞིབ་དཔྱད་རྐྱབས།"
+
+#: ../data/gnome-dictionary.desktop.in.in.h:2 ../src/gdict-about.c:62
+#: ../src/gdict-app.c:233 ../src/gdict-window.c:601 ../src/gdict-window.c:1894
+msgid "Dictionary"
+msgstr "ཚིག་མཛོད།"
+
+#: ../data/gnome-dictionary-preferences.ui.h:1
+msgid "Print"
+msgstr "དཔར་བསྐྲུན།"
+
+#: ../data/gnome-dictionary-preferences.ui.h:2
+#: ../data/gnome-dictionary-source.ui.h:3
+msgid "Source"
+msgstr "འབྱུང་ཁུངས།"
+
+#: ../data/gnome-dictionary-preferences.ui.h:3
+msgid "_Print font:"
+msgstr "ཡིག་གཟུགས་དཔར་བསྐྲུན་འབད།(_P)"
+
+#: ../data/gnome-dictionary-preferences.ui.h:4
+msgid "_Select a dictionary source for looking up words:"
+msgstr "མིང་ཚིག་ལུ་བལྟ་ནིའི་དོན་ལུ་ ཚིག་མཛོད་འབྱུང་ཁུངས་ཅིག་ སེལ་འཐུ་འབད།(_S)"
+
+#: ../data/gnome-dictionary-source.ui.h:1
+msgid "Dictionaries"
+msgstr "ཚིག་མཛོད་"
+
+#: ../data/gnome-dictionary-source.ui.h:2
+msgid "H_ostname:"
+msgstr "ཧོསཊི་ནེམ།(_o)"
+
+#: ../data/gnome-dictionary-source.ui.h:4
+msgid "Source Name"
+msgstr "འབྱུང་ཁུངས་མིང་།"
+
+#: ../data/gnome-dictionary-source.ui.h:5
+msgid "Strategies"
+msgstr "ཐབས་བྱུས་"
+
+#: ../data/gnome-dictionary-source.ui.h:6
+msgid "_Description:"
+msgstr "འགྲེལ་བཤད་:(_D)"
+
+#: ../data/gnome-dictionary-source.ui.h:7
+msgid "_Port:"
+msgstr "འདྲེན་ལམ་:(_P)"
+
+#: ../data/gnome-dictionary-source.ui.h:8
+msgid "_Transport:"
+msgstr "སྐྱེལ་འདྲེན་:(_T)"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:1
+msgid "The default database to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་སྔོན་སྒྲིག་གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:2
+msgid "The default search strategy to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ སྔོན་སྒྲིག་འཚོལ་ཞིབ་ཐབས་བྱུས།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:3
+msgid "The font to be used when printing"
+msgstr "དཔར་བསྐྲུན་སྐབས་ལུ་ལག་ལེན་འཐབ་ནིའི་ཡིག་གཟུགས།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:4
+msgid "The font to be used when printing a definition."
+msgstr "ངེས་ཚིག་ཅིག་དཔར་བསྐྲུན་སྐབས་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཡིག་གཟུགས།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"ཚིག་མཛོད་འབྱུང་ཁུངས་ཅིག་གུ་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ སྔོན་སྒྲིག་གི་་ངོ་རྐྱང་གཞི་རྟེན་གནད་སྡུད་ ཡང་ན་ མེ་"
+"ཊ་གཞི་རྟེན་གནད་སྡུད་ཀྱི་མིང་། ཚོར་རྟགས་ (\"!\") ཅིག་གིས་ ཚིག་མཛོད་འབྱུང་ཁུངས་ཅིག་ནང་ཡོད་པའི་ གནད་"
+"སྡུད་གཞི་རྟེན་ཆ་མཉམ་ འཚོལ་ཞིབ་འབད་དགོ་པའི་བརྡ་སྟོནམ་ཨིན།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"ཚིག་མཛོད་འབྱུང་ཁུངས་ཡོད་པ་ཅིན ལག་ལེན་འཐབ་ནིའི་སྔོན་སྒྲིག་འཚོལ་ཞིབ་ཐབས་བྱུས་ཀྱི་མིང་། སྔོན་སྒྲིག་ཐབས་བྱུས་"
+"དེ་ 'ངེས་ཏིག' ཨིནམ་ད་ དེ་ཡང་ མིང་ཚིག་ངེས་ཏིག་མཐུན་སྒྲིག་འབད་ནི་ཨིན།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:7
+msgid "The name of the dictionary source used"
+msgstr "ལག་ལེན་འཐབ་ཡོད་པའི་ཚིག་མཛོད་འབྱུང་ཁུངས་ཀྱི་མིང་།"
+
+#: ../data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "མིང་ཚིག་གི་ངེས་ཚིག་ སླར་འདྲེན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ཚིག་མཛོད་འབྱུང་ཁུངས་ཀྱི་མིང་།"
+
+#: ../data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "སི་པེ་ནིཤ་ཚིག་མཛོད་ཚུ།"
+
+#: ../data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "ལོང་ཌོ་ ཐའི་-ཨིང་ལིཤ་ཚིག་མཛོད་"
+
+#: ../libgdict/gdict-client-context.c:283
+msgid "Client Name"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་མིང་།"
+
+#: ../libgdict/gdict-client-context.c:284
+msgid "The name of the client of the context object"
+msgstr "སྐབས་དོན་དངོས་པོའི་ ཞབས་ཏོག་སྤྱོད་མི་མིང་།"
+
+#: ../libgdict/gdict-client-context.c:297
+msgid "Hostname"
+msgstr "ཧོསཊི་ནེམ།"
+
+#: ../libgdict/gdict-client-context.c:298
+msgid "The hostname of the dictionary server to connect to"
+msgstr "མཐུད་ནིའི་ཚིག་མཛོད་སར་བར་གྱི་ཧོསཊི་ནེམ།"
+
+#: ../libgdict/gdict-client-context.c:311
+msgid "Port"
+msgstr "འདྲེན་ལམ།"
+
+#: ../libgdict/gdict-client-context.c:312
+msgid "The port of the dictionary server to connect to"
+msgstr "མཐུད་སའི་ཚིག་མཛོད་སར་བར་གྱི་འདྲེན་ལམ།"
+
+#: ../libgdict/gdict-client-context.c:327
+msgid "Status"
+msgstr "གནས་ལུགས།"
+
+#: ../libgdict/gdict-client-context.c:328
+msgid "The status code as returned by the dictionary server"
+msgstr "ཚིག་མཛོད་སར་བར་གྱིས་ལོག་བཏང་མི་ གནས་ལུགས་ཀོཌི།"
+
+#: ../libgdict/gdict-client-context.c:777
+#, c-format
+msgid "No connection to the dictionary server at '%s:%d'"
+msgstr "'%s:%d'ལུ་ ཚིག་མཛོད་སར་བར་ལུ་མཐུད་རམ་མིན་འདུག"
+
+#: ../libgdict/gdict-client-context.c:1060
+#, c-format
+msgid "Lookup failed for hostname '%s': no suitable resources found"
+msgstr ""
+"ཧོསཊི་ནེམ་ '%s'གི་དོན་ལུ་ བལྟ་ནི་འཐུས་ཤོར་བྱུང་ཡོད། འོས་འབབ་ལྡན་པའི་ཐོན་ཁུངས་ག་ནི་ཡང་མ་ཐོབ།"
+
+#: ../libgdict/gdict-client-context.c:1091
+#, c-format
+msgid "Lookup failed for host '%s': %s"
+msgstr "ཧོསཊི་ནེམ་ '%s': %sགི་དོན་ལུ་ བལྟ་ནི་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: ../libgdict/gdict-client-context.c:1125
+#, c-format
+msgid "Lookup failed for host '%s': host not found"
+msgstr "ཧོསཊི་ནེམ་ '%s'གི་དོན་ལུ་ བལྟ་ནི་འཐུས་ཤོར་བྱུང་ཡོད། ཧོསཊི་འཚོལ་མ་ཐོབ།"
+
+#: ../libgdict/gdict-client-context.c:1177
+#, c-format
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"'%s:%d'ལུ་ ཚིག་མཛོད་སར་བར་ལུ་ མཐུད་མ་ཚུགས། སར་བར་གྱིས་ ཀོཌི་%dགི་ཐོག་ལས་ལན་གསལ་འབད་ཡི། "
+"(སར་བར་ཉམས་ཡོད)"
+
+#: ../libgdict/gdict-client-context.c:1196
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr ""
+"ཚིག་མཛོད་སར་བར་གྱི་ལན་གསལ་ མིང་དཔྱད་འབད་མ་ཚུགས།\n"
+": '%s'"
+
+#: ../libgdict/gdict-client-context.c:1225
+#, c-format
+msgid "No definitions found for '%s'"
+msgstr "'%s'གི་དོན་ལུ་ངེས་ཚིག་འཚོལ་མ་ཐོབ།"
+
+#: ../libgdict/gdict-client-context.c:1240
+#, c-format
+msgid "Invalid database '%s'"
+msgstr "ནུས་མེད་གཞི་རྟེན་གཏན་སྡུད་ '%s།"
+
+#: ../libgdict/gdict-client-context.c:1255
+#, c-format
+msgid "Invalid strategy '%s'"
+msgstr "ནུས་མེད་ཐབས་བྱུས་'%s'།"
+
+#: ../libgdict/gdict-client-context.c:1270
+#, c-format
+msgid "Bad command '%s'"
+msgstr "བརྡ་བཀོད་བྱང་ཉེས་ '%s'།"
+
+#: ../libgdict/gdict-client-context.c:1285
+#, c-format
+msgid "Bad parameters for command '%s'"
+msgstr "བརྡ་བཀོད་ '%sགི་དོན་ལུ་ ཚད་བཟུང་བྱང་ཉེས།"
+
+#: ../libgdict/gdict-client-context.c:1300
+#, c-format
+msgid "No databases found on dictionary server at '%s'"
+msgstr "'%s'ལུ་ཚིག་མཛོད་སར་བར་ནང་ གནད་སྡུད་གཞི་རྟེན་མ་ཐོབ།"
+
+#: ../libgdict/gdict-client-context.c:1315
+#, c-format
+msgid "No strategies found on dictionary server at '%s'"
+msgstr "'%s'ལུ་ཚིག་མཛོད་སར་བར་གུ་ ཐབས་བྱུས་མ་ཐོབ།"
+
+#: ../libgdict/gdict-client-context.c:1748
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "%s:%dལུ་ ཚིག་མཛོད་སར་བར་ལུ་མཐུད་ལམ་བྱིན་མ་ཚུགས།"
+
+#: ../libgdict/gdict-client-context.c:1787
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"སར་བར་ནང་ལས་ ལན་གསལ་ལྷག་པའི་སྐབས་འཛོལ་བ་:\n"
+"%s"
+
+#: ../libgdict/gdict-client-context.c:1860
+#, c-format
+msgid "Connection timeout for the dictionary server at '%s:%d'"
+msgstr "'%s:%d' གི་ ཚིག་མཛོད་སར་བར་གྱི་དོན་ལུ་ མཐུད་ནི་ངལ་མཚམས་ལུས་ཡོད་"
+
+#: ../libgdict/gdict-client-context.c:1894
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "ཚིག་མཛོད་སར་བར་གྱི་དོན་ལུ་ ཧོསཊི་ནེམ་ངེས་འཛིན་འམ་འབད་བས།"
+
+#: ../libgdict/gdict-client-context.c:1930
+#: ../libgdict/gdict-client-context.c:1945
+#, c-format
+msgid "Unable to create socket"
+msgstr "སོ་ཀེཊི་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../libgdict/gdict-client-context.c:1971
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr "རྒྱུ་ལམ་དེ་ འགག་ཆ་མེནམ་སྦེ་ གཞི་སྒྲིག་འབད་མ་ཚུགས་:%s།"
+
+#: ../libgdict/gdict-client-context.c:1986
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'"
+msgstr "'%s:%d'ལུ་ ཚིག་མཛོད་སར་བར་ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../libgdict/gdict-context.c:218
+msgid "Local Only"
+msgstr "གནས་ཉེས་ཀྱི་རྐྱངམ་གཅིག"
+
+#: ../libgdict/gdict-context.c:219
+msgid "Whether the context uses only local dictionaries or not"
+msgstr "སྐབས་དོན་དེ་གིས་ ཉེ་གནས་ཀྱི་ཚིག་མཛོད་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།"
+
+#: ../libgdict/gdict-database-chooser.c:378
+msgid "Reload the list of available databases"
+msgstr "འཐོབ་ཚུགས་པའི་གནས་སྡུད་གཞི་རྟེན་ཚུ་གི་ཐོ་ཡིག་དེ་ སླར་མངོན་གསལ་འབད།"
+
+#: ../libgdict/gdict-database-chooser.c:390
+msgid "Clear the list of available databases"
+msgstr "འཐོབ་ཚུགས་པའི་གནས་སྡུད་གཞི་རྟེན་ཚུ་གི་ཐོ་ཡིག་དེ་ བསལ་གཏང་།"
+
+#: ../libgdict/gdict-database-chooser.c:837 ../libgdict/gdict-speller.c:778
+#: ../libgdict/gdict-strategy-chooser.c:785
+msgid "Error while matching"
+msgstr "མཐུན་སྒྲིག་འབད་བའི་སྐབས་ལུ་འཛོལ་བ།"
+
+#: ../libgdict/gdict-defbox.c:1127 ../libgdict/gdict-defbox.c:1221
+#: ../libgdict/gdict-defbox.c:1255
+msgid "Not found"
+msgstr "མ་ཐོབ།"
+
+#: ../libgdict/gdict-defbox.c:1316
+msgid "F_ind:"
+msgstr "འཚོལ་:(_i)"
+
+#: ../libgdict/gdict-defbox.c:1329
+msgid "_Previous"
+msgstr "ཧེ་མམ།(_P)"
+
+#: ../libgdict/gdict-defbox.c:1337
+msgid "_Next"
+msgstr "ཤུལ་མམ།(_N)"
+
+#: ../libgdict/gdict-defbox.c:2512
+msgid "Error while looking up definition"
+msgstr "ངེས་ཚིག་ལུ་བལྟ་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../libgdict/gdict-defbox.c:2554 ../libgdict/gdict-speller.c:736
+msgid "Another search is in progress"
+msgstr "འཚོལ་ཞིབ་གཞན་ཅིག་འབད་བའི་བསྒང་ཡོད།"
+
+#: ../libgdict/gdict-defbox.c:2555 ../libgdict/gdict-speller.c:737
+msgid "Please wait until the current search ends."
+msgstr "ད་ལྟའི་འཚོལ་ཞིབ་དེ་ མཇུག་མ་བསྡུ་ཚུན་ཚོད་བསྒུག་གནང་།"
+
+#: ../libgdict/gdict-defbox.c:2594
+msgid "Error while retrieving the definition"
+msgstr "་ངེས་ཚིག་སླར་འདྲེན་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../libgdict/gdict-source.c:232
+msgid "Filename"
+msgstr "ཡིག་སྣོད་མིང་།"
+
+#: ../libgdict/gdict-source.c:233
+msgid "The filename used by this dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འདི་གིས་ ལག་ལེན་འཐབ་ནིའི་ཡིག་སྣོད་མིང་།"
+
+#: ../libgdict/gdict-source.c:246
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../libgdict/gdict-source.c:247
+#, fuzzy
+msgid "The display name of this dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འདི་གི་ བཀྲམ་སྟོན་འབད་བའི་མིང་།"
+
+#: ../libgdict/gdict-source.c:260
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../libgdict/gdict-source.c:261
+msgid "The description of this dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འདི་གི་འགྲེལ་བཤད།"
+
+#: ../libgdict/gdict-source.c:274 ../libgdict/gdict-speller.c:383
+msgid "Database"
+msgstr "གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../libgdict/gdict-source.c:275
+#, fuzzy
+msgid "The default database of this dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འདི་གི་ སྔོན་སྒྲིག་གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../libgdict/gdict-source.c:288 ../libgdict/gdict-speller.c:390
+msgid "Strategy"
+msgstr "ཐབས་བྱུས།"
+
+#: ../libgdict/gdict-source.c:289
+#, fuzzy
+msgid "The default strategy of this dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འདི་གི་ སྔོན་སྒྲིག་ཐབས་བྱུས།"
+
+#: ../libgdict/gdict-source.c:302
+msgid "Transport"
+msgstr "སྐྱེལ་འདྲེན།"
+
+#: ../libgdict/gdict-source.c:303
+msgid "The transport mechanism used by this dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འདི་གིས་ ལག་ལེན་འཐབ་ནིའི་སྐྱེལ་འདྲེན་ཐབས་རིག"
+
+#: ../libgdict/gdict-source.c:317 ../libgdict/gdict-speller.c:376
+msgid "Context"
+msgstr "ནང་དོན།"
+
+#: ../libgdict/gdict-source.c:318
+msgid "The GdictContext bound to this source"
+msgstr "འབྱུང་འདི་ལུ་གནས་དགོ་པའི་ཇི་ཌིཀ་ཀཱོན་ཊེགསི།"
+
+#: ../libgdict/gdict-source.c:413
+#, c-format
+msgid "Invalid transport type '%d'"
+msgstr "ནུས་མེད་སྐྱེལ་འདྲེན་དབྱེ་བ་ '%d'།"
+
+#: ../libgdict/gdict-source.c:441
+#, c-format
+msgid "No '%s' group found inside the dictionary source definition"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཀྱི་ངེས་ཚིག་ནང་ལུ་ སྡེ་ཚན་'%sམ་ཐོབ།"
+
+#: ../libgdict/gdict-source.c:457 ../libgdict/gdict-source.c:481
+#: ../libgdict/gdict-source.c:505 ../libgdict/gdict-source.c:530
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཀྱི་ངེས་ཚིག་ནང་ལུ་ ལྡེ་མིག་'%s'ཐོབ་མ་ཚུགས་%s།"
+
+#: ../libgdict/gdict-source.c:555
+#, c-format
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཀྱི་ངེས་ཚིག་ཡིག་སྣོད་ནང་ལུ་ ལྡེ་མིག'%s ཐོབ་མ་ཚུགས་%s།"
+
+#: ../libgdict/gdict-source.c:741
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ལུ་མིང་མིན་འདུག"
+
+#: ../libgdict/gdict-source.c:750
+#, c-format
+msgid "Dictionary source '%s' has invalid transport '%s'"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་'%sལུ་ ནུས་མེད་སྐྱེལ་འདྲེན་ '%s'འདུག"
+
+#: ../libgdict/gdict-source-chooser.c:295
+#, fuzzy
+msgid "Reload the list of available sources"
+msgstr "འཐོབ་ཚུགས་པའི་ཐབས་བྱུས་ཀྱི་ཐོ་ཡིག་འདི་ཡང་བསྐྱར་མངོན་གསལ་འབད་"
+
+#: ../libgdict/gdict-source-loader.c:171
+msgid "Paths"
+msgstr "འགྲུལ་ལམ་ཚུ།"
+
+#: ../libgdict/gdict-source-loader.c:172
+msgid "Search paths used by this object"
+msgstr "དངོས་པོ་འདི་གིས་ལག་ལེན་འཐབ་མི་འཚོལ་ཞིབ་འགྲུལ་ལམ།"
+
+#: ../libgdict/gdict-source-loader.c:184
+msgid "Sources"
+msgstr "འབྱུང་ཁུངས།"
+
+#: ../libgdict/gdict-source-loader.c:185
+msgid "Dictionary sources found"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཐོབ་ཅི།"
+
+#: ../libgdict/gdict-speller.c:353
+msgid "Clear the list of similar words"
+msgstr "མིང་ཚིག་ཅོག་གཅིག་པའི་ཐོ་ཡིག་དེ་བསལ་གཏང་།"
+
+#: ../libgdict/gdict-speller.c:377
+msgid "The GdictContext object used to get the word definition"
+msgstr "མིང་ཚིག་གི་ངེས་ཚིག་ལེན་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ཇི་ཌིཀ་ཀཱོན་ཊེགསི་དངོས་པོ།"
+
+#: ../libgdict/gdict-speller.c:384
+msgid "The database used to query the GdictContext"
+msgstr "ཇི་ཌིཀ་ཀཱོན་ཊེགསི་ལུ་ དྲི་དཔྱད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../libgdict/gdict-speller.c:391
+msgid "The strategy used to query the GdictContext"
+msgstr "ཇི་ཌིཀ་ཀཱན་ཊེགསི་ལུ་ དྲི་དཔྱད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཐབས་བྱུས།"
+
+#: ../libgdict/gdict-strategy-chooser.c:361
+msgid "Reload the list of available strategies"
+msgstr "འཐོབ་ཚུགས་པའི་ཐབས་བྱུས་ཀྱི་ཐོ་ཡིག་འདི་ཡང་བསྐྱར་མངོན་གསལ་འབད་"
+
+#: ../libgdict/gdict-strategy-chooser.c:373
+msgid "Clear the list of available strategies"
+msgstr "འཐོབ་ཚུགས་པའི་ཐབས་བྱུས་ཚུ་གི་ཐོ་ཡིག་དེ་ བསལ་གཏང་"
+
+#: ../libgdict/gdict-utils.c:97
+msgid "GDict debugging flags to set"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:97 ../libgdict/gdict-utils.c:99
+msgid "FLAGS"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:99
+msgid "GDict debugging flags to unset"
+msgstr ""
+
+#: ../libgdict/gdict-utils.c:157
+#, fuzzy
+msgid "GDict Options"
+msgstr "ཚིག་མཛོད་"
+
+#: ../libgdict/gdict-utils.c:158
+#, fuzzy
+msgid "Show GDict Options"
+msgstr "ཚིག་མཛོད་གདམ་ཁ་ཚུ་སྟོན།"
+
+#: ../src/gdict-about.c:55
+msgid "translator-credits"
+msgstr ""
+"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་"
+"དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: ../src/gdict-about.c:57
+msgid "Look up words in dictionaries"
+msgstr "ཚིག་མཛོད་ནང་ མིང་ཚིག་ལུ་བལྟ་བ།"
+
+#: ../src/gdict-app.c:62 ../src/gdict-app.c:91
+msgid "Words to look up"
+msgstr "བལྟ་ནིའི་མིང་ཚིག"
+
+#: ../src/gdict-app.c:62 ../src/gdict-app.c:68
+msgid "WORD"
+msgstr ""
+
+#: ../src/gdict-app.c:68
+msgid "Words to match"
+msgstr "མཐུན་སྒྲིག་འབད་ནིའི་་མིང་ཚིག།"
+
+#: ../src/gdict-app.c:74
+msgid "Dictionary source to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ཚིག་མཛོད།"
+
+#: ../src/gdict-app.c:74 ../src/gdict-app.c:80 ../src/gdict-app.c:86
+msgid "NAME"
+msgstr ""
+
+#: ../src/gdict-app.c:80
+msgid "Database to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་གནད་སྡུད་གཞི་རྟེན།"
+
+#: ../src/gdict-app.c:86
+msgid "Strategy to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ཐབས་བྱུས།"
+
+#: ../src/gdict-app.c:91
+msgid "WORDS"
+msgstr ""
+
+#. create the new option context
+#: ../src/gdict-app.c:143
+msgid " - Look up words in dictionaries"
+msgstr "- ཚིག་མཛོད་ནང་མིང་ཚིག་ལུ་བལྟ།"
+
+#: ../src/gdict-pref-dialog.c:241 ../src/gdict-pref-dialog.c:430
+msgid "Edit Dictionary Source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངསཞུན་དག་རྐྱབས།"
+
+#: ../src/gdict-pref-dialog.c:305
+msgid "Add Dictionary Source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/gdict-pref-dialog.c:350
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr "\"%s\" རྩ་བསྐྲད་གཏང་ནི་ཨིན?"
+
+#: ../src/gdict-pref-dialog.c:352
+msgid "This will permanently remove the dictionary source from the list."
+msgstr "འདི་གིས་ཚིག་མཛོད་འབྱུང་ཁུངས་དེ་ རྟག་བརྟན་སྦེ་རྩ་བསྐྲད་གཏང་འོང་།"
+
+#: ../src/gdict-pref-dialog.c:382
+#, c-format
+msgid "Unable to remove source '%s'"
+msgstr " འབྱུང་ཁུངས་'%sརྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/gdict-pref-dialog.c:496 ../src/gdict-source-dialog.c:479
+#: ../src/gdict-window.c:1245
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "གྲོགས་རམ་བཀྲམ་སྟོན་འབདབའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ནུག"
+
+#: ../src/gdict-pref-dialog.c:643
+msgid "Add a new dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་གསརཔ་ཅིག་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/gdict-pref-dialog.c:649
+msgid "Remove the currently selected dictionary source"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་ ཚིག་མཛོད་འབྱུང་ཁུངས་དེ་རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/gdict-pref-dialog.c:655
+#, fuzzy
+msgid "Edit the currently selected dictionary source"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་ ཚིག་མཛོད་འབྱུང་ཁུངས་དེ་རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/gdict-pref-dialog.c:663
+msgid "Set the font used for printing the definitions"
+msgstr "ངེས་ཚིག་དཔར་བསྐྲུན་གྱི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ ཡིག་གཟུགས་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gdict-print.c:241 ../src/gdict-print.c:305
+#, fuzzy, c-format
+msgid "Unable to display the preview: %s"
+msgstr "ཐབས་འཕྲུལ་ %s ལུ་འབྲི་མ་ཚུགས།"
+
+#: ../src/gdict-source-dialog.c:341 ../src/gdict-source-dialog.c:434
+msgid "Unable to create a source file"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་ཅིག་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/gdict-source-dialog.c:359 ../src/gdict-source-dialog.c:452
+msgid "Unable to save source file"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་བསྲུང་མ་ཚུགས།"
+
+#: ../src/gdict-window.c:311
+#, c-format
+msgid "Searching for '%s'..."
+msgstr " '%s'གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་དོ་..."
+
+#: ../src/gdict-window.c:343 ../src/gdict-window.c:400
+msgid "No definitions found"
+msgstr "ངེས་ཚིག་ག་ནི་ཡང་མ་ཐོབ།"
+
+#: ../src/gdict-window.c:345
+#, c-format
+msgid "A definition found"
+msgid_plural "%d definitions found"
+msgstr[0] "ངེས་ཚིག་ཅིག་ཐོབ་ཅི།"
+msgstr[1] "ངེས་ཚིག་%dཐོབ་ཅི།"
+
+#: ../src/gdict-window.c:516
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "མིང་'%s'འབད་མི་ཚིག་མཛོད་འབྱུང་ཁུངས་འཐོབ་མི་ཚུགས་པས།"
+
+#: ../src/gdict-window.c:520
+msgid "Unable to find dictionary source"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་འཚོལ་མ་ཐོབ།"
+
+#: ../src/gdict-window.c:536
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "འབྱུང་ཁུངས་'%s'གི་དོན་ལུ་སྐབས་དོན་འཐོབ་མི་ཚུགས་པས།"
+
+#: ../src/gdict-window.c:540
+msgid "Unable to create a context"
+msgstr "སྐབས་དོན་ཅིག་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/gdict-window.c:599
+#, c-format
+msgid "%s - Dictionary"
+msgstr "%s - ཚིག་མཛོད།"
+
+#: ../src/gdict-window.c:962
+msgid "Save a Copy"
+msgstr "འདྲ་ཅིག་སྲུངས།"
+
+#: ../src/gdict-window.c:972
+msgid "Untitled document"
+msgstr "མགོ་མིང་མ་བཏགས་པའི་ཡིག་ཆ།"
+
+#: ../src/gdict-window.c:993
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "'%s'ལུ་འབྲི་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/gdict-window.c:1098
+msgid "Dictionary Preferences"
+msgstr "ཚིག་མཛོད་དགའ་གདམས་ཚུ།"
+
+#: ../src/gdict-window.c:1280
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../src/gdict-window.c:1281
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../src/gdict-window.c:1282
+msgid "_View"
+msgstr "མཐོང་སྣང་།(_V)"
+
+#: ../src/gdict-window.c:1283
+msgid "_Go"
+msgstr "འགྱོ།(_G)"
+
+#: ../src/gdict-window.c:1284
+msgid "_Help"
+msgstr "གྲོགས་རམ་།(_H)"
+
+#. File menu
+#: ../src/gdict-window.c:1287
+msgid "_New"
+msgstr "གསརཔ།(_N)"
+
+#: ../src/gdict-window.c:1288
+msgid "New look up"
+msgstr "གསརཔ་ལུ་བལྟ་བ།"
+
+#: ../src/gdict-window.c:1289
+msgid "_Save a Copy..."
+msgstr "འདྲ་ཅིག་སྲུངས་...(_S)"
+
+#: ../src/gdict-window.c:1291
+msgid "P_review..."
+msgstr ""
+
+#: ../src/gdict-window.c:1292
+#, fuzzy
+msgid "Preview this document"
+msgstr "ཡིག་ཆ་འདི་དཔར་བསྐྲུན་འབད།"
+
+#: ../src/gdict-window.c:1293
+msgid "_Print..."
+msgstr "དཔར་བསྐྲུན་...(_P)"
+
+#: ../src/gdict-window.c:1294
+msgid "Print this document"
+msgstr "ཡིག་ཆ་འདི་དཔར་བསྐྲུན་འབད།"
+
+#: ../src/gdict-window.c:1301
+msgid "Select _All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད།(_A)"
+
+#: ../src/gdict-window.c:1304
+msgid "Find a word or phrase in the document"
+msgstr "ཡིག་ཆ་དེ་ནང་མིང་ཚིག་ ཡང་ན་ ཚིག་ཚན་ཅིག་འཚོལ།"
+
+#: ../src/gdict-window.c:1306
+msgid "Find Ne_xt"
+msgstr "ཤུལ་མམ་འཚོལ།(_x)"
+
+#: ../src/gdict-window.c:1308
+msgid "Find Pre_vious"
+msgstr "ཧེ་མམ་འཚོལ(_v)"
+
+#: ../src/gdict-window.c:1310
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_P)"
+
+#. Go menu
+#: ../src/gdict-window.c:1314
+msgid "_Previous Definition"
+msgstr "ངེས་ཚིག་ཧེ་མམ།(_P)"
+
+#: ../src/gdict-window.c:1315
+msgid "Go to the previous definition"
+msgstr "ངེས་ཚིག་ཧེ་མམ་ལུ་འགྱོ།"
+
+#: ../src/gdict-window.c:1316
+msgid "_Next Definition"
+msgstr "ངེས་ཚིག་ཤུལ་མམ།(_N)"
+
+#: ../src/gdict-window.c:1317
+msgid "Go to the next definition"
+msgstr "ངེས་ཚིག་ཤུལ་མམ་ལུ་འགྱོ།"
+
+#: ../src/gdict-window.c:1318
+msgid "_First Definition"
+msgstr "ངེས་ཚིག་དང་པམ།(_F)"
+
+#: ../src/gdict-window.c:1319
+msgid "Go to the first definition"
+msgstr "ངེས་ཚིག་དང་པམ་ལུ་འགྱོ།"
+
+#: ../src/gdict-window.c:1320
+msgid "_Last Definition"
+msgstr "ངེས་ཚིག་མཐའ་མམ་ལུ་འགྱོ།(_L)"
+
+#: ../src/gdict-window.c:1321
+msgid "Go to the last definition"
+msgstr "ངེས་ཚིག་མཐའ་མམ་ལུ་འགྱོ།"
+
+#. View menu
+#: ../src/gdict-window.c:1324
+msgid "Similar _Words"
+msgstr "མིང་ཚིག་ཅོག་གཅིགཔ་ཚུ།(_W)"
+
+#: ../src/gdict-window.c:1326
+#, fuzzy
+msgid "Dictionary Sources"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/gdict-window.c:1328
+msgid "Available _Databases"
+msgstr "འཐོབ་ཚུགས་པའི་གནས་སྡུད་གཏི་རྟེན་ཚུ།(_D)"
+
+#: ../src/gdict-window.c:1330
+msgid "Available St_rategies"
+msgstr "འཐོབ་ཚུགས་པའི་ཐབས་བྱུས་(_r)"
+
+#. Help menu
+#: ../src/gdict-window.c:1334
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: ../src/gdict-window.c:1336
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#. View menu
+#: ../src/gdict-window.c:1347
+msgid "_Sidebar"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་།(_S)"
+
+#: ../src/gdict-window.c:1349
+msgid "S_tatusbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་།(_t)"
+
+#: ../src/gdict-window.c:1414
+#, fuzzy, c-format
+msgid "Dictionary source `%s' selected"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ཚིག་མཛོད།"
+
+#: ../src/gdict-window.c:1435
+#, c-format
+msgid "Strategy `%s' selected"
+msgstr "ཐབས་བྱུས་ `%s' སེལ་འཐུ་འབད་ཡོད་"
+
+#: ../src/gdict-window.c:1455
+#, c-format
+msgid "Database `%s' selected"
+msgstr "གནས་སྡུད་གཞི་རྟེན་ `%s' སེལ་འཐུ་འབད་ཡི།"
+
+#: ../src/gdict-window.c:1475
+#, c-format
+msgid "Word `%s' selected"
+msgstr "མིང་ཚིག་`%s'སེལ་འཐུ་འབད་ཡི།"
+
+#. speller
+#: ../src/gdict-window.c:1500
+msgid "Double-click on the word to look up"
+msgstr "བལྟ་ནིའི་དོན་ལུ་ མིང་ཚིད་དེ་གུ་ ཨེབ་གཏང་ཐེངས་གཉིས་འབད།"
+
+#. strat-chooser
+#: ../src/gdict-window.c:1506
+msgid "Double-click on the matching strategy to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཐབས་བྱུས་མཐུན་མི་འདི་གུ་ ཚར་གཉིས་ཨེབ་གཏང་འབད་"
+
+#. source-chooser
+#: ../src/gdict-window.c:1511
+#, fuzzy
+msgid "Double-click on the source to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ གནས་སྡུད་གཞི་རྟེན་གུ་ ཨེབ་གཏང་ཐེངས་གཉིས་འབད།"
+
+#. db-chooser
+#: ../src/gdict-window.c:1520
+msgid "Double-click on the database to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ གནས་སྡུད་གཞི་རྟེན་གུ་ ཨེབ་གཏང་ཐེངས་གཉིས་འབད།"
+
+#: ../src/gdict-window.c:1700
+msgid "Look _up:"
+msgstr "བལྟ།(_u)"
+
+#: ../src/gdict-window.c:1775
+msgid "Similar words"
+msgstr "ཆ་འདྲ་བའི་མིང་ཚིག་ཚུ།"
+
+#: ../src/gdict-window.c:1788
+msgid "Available dictionaries"
+msgstr "འཐོབ་ཚུགས་པའི་ཚིག་མཛོད་ཚུ།"
+
+#: ../src/gdict-window.c:1806
+msgid "Available strategies"
+msgstr "འཐོབ་ཚུགས་པའི་ཐབས་བྱུས་"
+
+#: ../src/gdict-window.c:1822
+#, fuzzy
+msgid "Dictionary sources"
+msgstr "ཚིག་མཛོད་འབྱུང་ཁུངས་ཐོབ་ཅི།"

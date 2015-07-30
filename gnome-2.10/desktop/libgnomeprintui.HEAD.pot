@@ -1,0 +1,545 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-24 07:31+0100\n"
+"PO-Revision-Date: 2006-03-20 14:28-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "ཚིག་དོན།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "ལྷག་སྟོན་་འབད་ནིའི་ཚིག་དོན།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:148
+#: libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "གི་ལིཕ་ལིསིཊི།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:155
+#: libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "ཚོས་གཞི།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "ཚིག་དོན་ཚོས་གཞི་ ཡིག་རྒྱུན་བཟུམ་སྦེ།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "ཚིག་དོན་ཚོས་གཞི་ ཨར་/ཇི་/བི་/ཨེ་ མཉམ་བསྡོམས་ཧྲིལ་ཨང་བཟུམ་ཅིག་སྦེ།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "ཡིག་གཟུགས།"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "ཡིག་གཟུགས་ ཇི་ནོམ་ཡིག་གཟུགས་ གཞི་བཀོད་བཟུམ་ཅིག་སྦེ།"
+
+#. Family frame
+#: libgnomeprintui/gnome-font-dialog.c:164
+#: libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "ཡིག་གཟུགས་རིགས་ཚན།"
+
+#: libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "འཐོབ་ཚུགས་པའི་ ཡིག་གཟུགས་རིགས་ཚན་ཐོ་ཡིག།"
+
+#. Style frame
+#: libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "བཟོ་རྣམ།"
+
+#: libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "ཡིག་གཟུགས་བཟོ་རྣམ།"
+
+#: libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "སེལའཐུ་འབད་མི་ ཡིག་གཟུགས་རིགས་ཚན་གྱི་དོན་ལུ་ འཐོབ་ཚུགས་པའི་ བཟོ་རྣམ་ཐོ་ཡིག།"
+
+#: libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "ཡིག་གཟུགས་ཚད་:།(_s)"
+
+#: libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "ཡིག་གཟུགས་འདི་ལུ་ དཔེ་ཚད་མིན་འདུག།"
+
+#: libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "ཡིག་གཟུགས་སྔོན་ལྟ།"
+
+#: libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "སེལ་འཐུ་འབད་མི་ཡིག་གཟུགས་ནང་ དཔེ་ཚད་ཚིག་ཡིག་དག་པ་ཅིག་ བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "ཡིག་གཟུགས་སེལ་འཐུ།"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:245
+msgid "Default Settings"
+msgstr "སྔོན་སྒྲིག་སྒྲིག་སྟངས་ཚུ།"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:271
+msgid "Image showing pages being printed in duplex."
+msgstr "ཤོག་ལེབ་ཚུ་ ཌུ་པེ་ལེགསི་ནང་ དཔར་བསྐྲུན་འབད་བའི་བསྒང་སྟོན་མི་ གཟུགས་བརྙན།"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:275
+msgid "_Duplex"
+msgstr "ཌུ་པེ་ལེགསི།(_D)"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:281
+msgid "Pages are printed in duplex."
+msgstr "ཤོག་ལེབ་ཚུ་ ཌུ་པེ་ལེགསི་ནང་ དཔར་བསྐྲུན་འབད་ཡི།"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:289
+msgid "Image showing the second page of a duplex printed sequence to be printed upside down."
+msgstr "ཌུ་པེ་ལེགསི་དཔར་བསྐྲུན་གྱི་ ཤོག་ལེབ་གཉིས་པའི་འབྱུང་རིམ་ མགོ་མཇུག་སྦེ་ དཔར་བསྐྲུན་འབད་ནི་སྦེ་སྟོན་མི་ གཟུགས་བརྙན།"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:294
+msgid "_Tumble"
+msgstr "ཊམ་བཱལ།(_T)"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:300
+msgid "If copies of the document are printed in duplex, the second page is flipped upside down,"
+msgstr "ཡིག་ཆའི་འདྲ་བཤུས་ཚུ་ ཌུ་པེ་ལེགསི་ནང་ དཔར་བསྐྲུན་འབད་བ་ཅིན་ ཤོག་ལེབ་གཉིས་པ་དེ་ མགོ་མཇུག་སློག་སྟེ་འོངམ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:320
+msgid "_Printing Time:"
+msgstr "དཔར་བསྐྲུན་གྱི་དུས་ཚོད་:།(_P)"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:346
+#: libgnomeprintui/gnome-print-dialog.c:389
+msgid "Error while loading printer configuration"
+msgstr "དཔར་འཕྲུལ་རིམ་སྒྲིག་ མངོན་གསལ་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: libgnomeprintui/gnome-print-copies.c:261
+msgid "Copies"
+msgstr "འདྲ་བཤུས།"
+
+#: libgnomeprintui/gnome-print-copies.c:274
+msgid "N_umber of copies:"
+msgstr "འདྲ་བཤུས་གྲངས་:།(_u)"
+
+#: libgnomeprintui/gnome-print-copies.c:292
+msgid "Image showing the collation sequence when multiple copies of the document are printed"
+msgstr "ཡིག་ཆའི་འདྲ་བཤུས་ གྲངས་མང་སྦེ་ དཔར་བསྐྲུན་འབད་བའི་སྐབས་ བརྡ་དོན་བསྡུ་ལེན་གྱི་འབྱུང་རིམ་སྟོན་པའི་ གཟུགས་བརྙན།"
+
+#: libgnomeprintui/gnome-print-copies.c:294
+msgid "_Collate"
+msgstr "གོ་སྒྲིག(_C)"
+
+#: libgnomeprintui/gnome-print-copies.c:299
+msgid "If copies of the document are printed separately, one after another, rather than being interleaved"
+msgstr "གལ་སྲིད་ འདྲ་བཤུས་ཚུ་ མཉམ་གཅིག་མིན་པར ཤོག་ལེབ་གཅིག་བཤུལ་གཉིས་ སོ་སོ་སྦེ་ དཔར་བསྐྲུན་འབད་བ་ཅིན།"
+
+#: libgnomeprintui/gnome-print-dialog.c:199
+msgid "Print Range"
+msgstr "དཔར་བསྐྲུན་གྱི་ཁྱབ་ཚད།"
+
+#: libgnomeprintui/gnome-print-dialog.c:246
+msgid "_All"
+msgstr "ཆ་མཉམ།(_A)"
+
+#: libgnomeprintui/gnome-print-dialog.c:268
+msgid "_Selection"
+msgstr "སེལ་འཐུ།(_S)"
+
+#: libgnomeprintui/gnome-print-dialog.c:345
+#: libgnomeprintui/gnome-print-job-preview.c:2206
+msgid "Job"
+msgstr "ལས་གཡོག།"
+
+#: libgnomeprintui/gnome-print-dialog.c:372
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:166
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ།"
+
+#: libgnomeprintui/gnome-print-dialog.c:382
+msgid "Paper"
+msgstr "ཤོག་ཀུ།"
+
+#: libgnomeprintui/gnome-print-dialog.c:396
+msgid "Gnome Print Dialog"
+msgstr "ཇི་ནོམ་དཔར་བསྐྲུན་ཌའི་ལོག།"
+
+#: libgnomeprintui/gnome-print-dialog.c:546
+msgid "_From:"
+msgstr "ལས་:(_F)"
+
+#: libgnomeprintui/gnome-print-dialog.c:559
+msgid "Sets the start of the range of pages to be printed"
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་ ཤོག་ལེབ་ཁྱབ་ཚད་ འགོ་བཙུགས་ས་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-dialog.c:561
+msgid "_To:"
+msgstr "ཚུན་:(_T)"
+
+#: libgnomeprintui/gnome-print-dialog.c:574
+msgid "Sets the end of the range of pages to be printed"
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་ ཤོག་ལེབ་ཁྱབ་ཚད་ མཇུག་བསྡུ་ས་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:531
+msgid "No visible output was created."
+msgstr "མཐོང་ཚུགས་པའི་ ཨའུཊི་པུཊི་ མ་བཟོ་བས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:1534
+msgid "all"
+msgstr "ཆ་མཉམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2198
+#: libgnomeprintui/gnome-print-job-preview.c:2199
+msgid "Number of pages horizontally"
+msgstr "ཐད་སྙོམས་ཤོག་ལེབ་ཀྱི་གྱངས་ཁ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2202
+#: libgnomeprintui/gnome-print-job-preview.c:2203
+msgid "Number of pages vertically"
+msgstr "ཀེར་ཕྲང་ཤོག་ལེབ་ཀྱི་གྱངས་ཁ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2206
+msgid "Print job"
+msgstr "དཔར་བསྐྲུན་ལས་གཡོག།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2278
+msgid "Print"
+msgstr "དཔར་བསྐྲུན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2278
+msgid "Prints the current file"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད་དེ་ དཔར་བསྐྲུན་འབདཝ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2279
+msgid "Close"
+msgstr "ཁ་བསྡམས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2279
+msgid "Closes print preview window"
+msgstr "དཔར་བསྐྲུན་སྔོན་ལྟའི་སྒོ་སྒྲིག་ ཁ་བསྡམ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2286
+msgid "Cut"
+msgstr "བཏོག།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2287
+msgid "Copy"
+msgstr "འདྲ་བཤུས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2288
+msgid "Paste"
+msgstr "སྦྱར།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2296
+msgid "Undo"
+msgstr "འབད་བཤོལ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2296
+msgid "Undo the last action"
+msgstr "བྱ་བ་མཇུག་མམ་དེ་ འབད་བཤོལ་འབད།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2297
+msgid "Redo"
+msgstr "ལོག་འབད།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2297
+msgid "Redo the undone action"
+msgstr "འབད་བཤོལ་འབད་མི་ བྱ་བ་དེ་ལོག་འབད།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2306
+msgid "First"
+msgstr "དང་པ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2306
+msgid "Shows the first page"
+msgstr "ཤོག་ལེབ་དང་པམ་དེ་སྟོན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2307
+msgid "Previous"
+msgstr "ཧེ་མམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2307
+msgid "Shows previous page"
+msgstr "ཤོག་ལེབ་ཧེ་མམ་སྟོན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2308
+msgid "Next"
+msgstr "ཤུལ་མམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2308
+msgid "Shows the next page"
+msgstr "ཤོག་ལེབ་ཤུལ་མམ་དེ་སྟོན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2309
+msgid "Last"
+msgstr "མཇུག་མམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2309
+msgid "Shows the last page"
+msgstr "ཤོག་ལེབ་མཇུག་མམ་དེ་སྟོན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2318
+msgid "100%"
+msgstr "༡༠༠%།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2318
+msgid "Zooms 1:1"
+msgstr "༡:༡ ལུ་ རྒྱས་ཟུམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2319
+msgid "Zoom to fit"
+msgstr "ཚུད་སྒྲིག་ལུ་རྒྱས་ཟུམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2319
+msgid "Zooms to fit the whole page"
+msgstr "ཤོག་ལེབ་ཧྲིལ་བུ་ ཚུད་སྒྲིག་འབད་ནི་ལུ་ རྒྱས་ཟུམ་འབདཝ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2320
+msgid "Zoom in"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2320
+msgid "Zooms the page in"
+msgstr "ཤོག་ལེབ་ཕྱིར་རྒྱསཔ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2321
+msgid "Zoom out"
+msgstr "ནང་ན་ཟུམ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2321
+msgid "Zooms the page out"
+msgstr "ཤོག་ལེབ་དེ་ ནང་ཟུམ་འབདཝ་ཨིན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2330
+msgid "Show multiple pages"
+msgstr "ཤོག་ལེབ་གྲངས་མང་སྟོན།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2331
+msgid "Edit"
+msgstr "ཞུན་དག།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2332
+msgid "Use theme"
+msgstr "བརྗོད་དོན་ལག་ལེན་འཐབ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2332
+msgid "Use _theme colors for content"
+msgstr "ནང་དོན་གྱི་དོན་ལུ་ བརྗོད་དོན་ཚོས་གཞི་ ལག་ལེན་འཐབ།(_t)"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2355
+msgid "Page Preview"
+msgstr "ཤོག་ལེབ་སྔོན་ལྟ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2356
+msgid "The preview of a page in the document to be printed"
+msgstr "ཡིག་ཆའི་ནང་ལས་ དཔར་བསྐྲུན་འབད་ནིའི་ ཤོག་ལེབ་ཅིག་གི་སྔོན་ལྟ་དེ།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2380
+msgid "_Page: "
+msgstr "ཤོག་ལེབ:(_P)"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2387
+msgid "of"
+msgstr "ལས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2394
+msgid "Page total"
+msgstr "ཤོག་ལེབ་བསྡོམས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2395
+msgid "The total number of pages in the document"
+msgstr "ཡིག་ཆའི་ནང་ ཤོག་ལེབ་ཀྱི་གྱངས་ཁ་བསྡོམས།"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2514
+msgid "Gnome Print Preview"
+msgstr "ཇི་ནོམ་དཔར་བསྐྲུན་སྔོན་ལྟ།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:443
+msgid "Paper and Layout"
+msgstr "ཤོག་ཀུ་དང་ སྒྲིག་བཀོད།"
+
+#. Paper size selector
+#: libgnomeprintui/gnome-print-paper-selector.c:460
+msgid "Paper _size:"
+msgstr "ཤོག་ཀུའི་ཚད་:(_s)"
+
+#. Custom paper Width
+#: libgnomeprintui/gnome-print-paper-selector.c:471
+msgid "_Width:"
+msgstr "རྒྱ་ཚད:(_W)"
+
+#. Custom paper Height
+#: libgnomeprintui/gnome-print-paper-selector.c:485
+msgid "_Height:"
+msgstr "མཐོ་ཚད་:(_H)"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:503
+msgid "Metric selector"
+msgstr "མེ་ཊིཀ་ སེལ་བྱེད།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:504
+msgid "Specifies the metric to use when setting the width and height of the paper"
+msgstr "ཤོག་ཀུའི་རྒྱ་ཚད་དང་མཐོ་ཚད་ གཞི་སྒྲིག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་མེ་ཊིཀ་ གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#. Feed orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:507
+msgid "_Feed orientation:"
+msgstr "ཤོག་ཀུ་བཙུགས་ནིའི་ཕྱོགས་:(_F)"
+
+#. Page orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:521
+msgid "Page _orientation:"
+msgstr "ཤོག་ལེབ་ཀྱི་ཕྱོགས་:(_o)"
+
+#. Layout
+#: libgnomeprintui/gnome-print-paper-selector.c:532
+msgid "_Layout:"
+msgstr "སྒྲིག་བཀོད་:(_L)"
+
+#. Paper source
+#: libgnomeprintui/gnome-print-paper-selector.c:543
+msgid "Paper _tray:"
+msgstr "ཤོག་སྣོད་:(_t)"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:557
+#: libgnomeprintui/gnome-print-paper-selector.c:571
+msgid "Preview"
+msgstr "སྔོན་ལྟ།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:572
+msgid "Preview of the page size, orientation and layout"
+msgstr "ཤོག་ལེབ་ཀྱི་ཚད་དང་ཕྱོགས་ སྒྲིག་བཀོད་ཀྱི་སྔོན་ལྟ།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:578
+msgid "Margins"
+msgstr "ས་སྟོང་།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:612
+msgid "Top"
+msgstr "མགོ།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:615
+msgid "Bottom"
+msgstr "མཇུག།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:618
+msgid "Left"
+msgstr "གཡོན།"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:621
+msgid "Right"
+msgstr "གཡས།"
+
+#: libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "རིམ་སྒྲིག་འབད།(_n)"
+
+#: libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "སེལ་འཐུ་འབད་མི་ དཔར་འཕྲུལ་སྒྲིག་སྟངས་ཚུ་ བདེ་སྒྲིག་འབད།"
+
+#: libgnomeprintui/gnome-printer-selector.c:195
+msgid "_Settings:"
+msgstr "སྒྲིག་སྟངས་ཚུ་:(_S)"
+
+#: libgnomeprintui/gnome-printer-selector.c:204
+msgid "_Location:"
+msgstr "གནས་ཁོངས་:(_L)"
+
+#: libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "གདམ་ཁ་ངེས་འཛིན་མ་འབད་བས།"
+
+#: libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "དཔར་བསྐྲུན་ལས་ ཡིག་སྣོད་ལུ།(_f)"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:178
+msgid "State"
+msgstr "གནས་ལུགས།"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:185
+msgid "Jobs"
+msgstr "ལས་གཡོག་ཚུ།"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:192
+msgid "Location"
+msgstr "གནས་ཁོངས།"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "དཔར་འཕྲུལ་སེལ་འཐུ་མ་འབད་བས།"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "སྒྲིག་སྟངས་ཚུ་ མི་འཐོབ་པས།"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "སྒྲིག་སྟངས་གསརཔ་ ཁ་སྐོང་རྐྱབས།"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "ཡིག་ཚད།"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "མི་ལི་མི་ཊར"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "སེན་ཊི་མི་ཊར།"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "མི་ཊར།"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "ཨིནཅི།"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:532
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "གསལ་བཀོད་འབད་མི་\"%s\" དེ་ གནས་བཞིན་པའི་སྣོད་ཐོ་ཅིག་ཨིན་པས།"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:554
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "ཡིག་སྣོད་%s དེ་ སླར་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "ཨའུཊི་པུཊི་ཡིག་སྣོད་ཀྱི་ གནས་ཁོངས་དང་ ཡིག་སྣོད་མིང་ གསལ་བཀོད་འབད་གནང་།"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ།"
+

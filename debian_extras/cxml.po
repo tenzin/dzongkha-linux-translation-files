@@ -1,0 +1,131 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cxml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-19 09:46+0100\n"
+"PO-Revision-Date: 2006-11-28 01:45+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Would you like to run the cxml-ev5 installer now?"
+msgstr "ཁྱོད་ཀྱིས་cxml-ev5 གཞི་འཛུགས་འདི་ད་ལྟོ་གཡོག་བཀོལ་ནི་ཨིན་?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "This is the Compaq cxml-ev5 installer package, it does not actually contain cxml-ev5. You will need to go download yourself the cxml-ev5 RPM, named ${filename}. Once you have downloaded it you can proceed and tell the installer which directory you put it in."
+msgstr "འདི་ཀམ་པེཀ་cxml-ev5གཞི་འཛུགས་པ་ཐུམ་སྒྲིལ་འདི་ཨིན་ འདི་ངོ་མ་འབད་བ་ཅིན་cxml-ev5མེདཔ་ཨིན། ཁྱོད་རང་གིས་${filename}མིང་བཏགས་ཡོད་མི་ཨར་པི་ཨེམ་ cxml-ev5འདི་ཕབ་ལེན་འབད་དགོཔ་ཨིན། ཚར་གཅིག་ཕབ་ལེན་འབད་ཚར་བའི་ཤུལ་ལུ་འཕྲོས་མཐུད་ནི་དང་་གཞི་འཛུགས་པ་ལུ་ཁྱོད་རང་སྣོད་ཐོ་ག་ནང་བཙུགས་ནི་ཨིན་ན་སླབ་ནི་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Location of the downloaded Compaq cxml-ev5 file:"
+msgstr "ཕབ་ལེན་འབད་ཡོད་མི་ཀམ་པེཀ་cxml-ev5 ཡིག་སྣོད་ཀྱི་གནས་ཁོངས:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Please visit the web page ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html and if you agree to their terms and conditions, then download the Red Hat RPM of cxml-ev5. The file should be named ${filename}. Once you have downloaded it, enter the directory you put it in. Also make sure that permissions on the file are appropriate."
+msgstr "ཝེབ་ཤོག་ལེབ་ftpའདི་://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html བལྟ་སྤྱོད་འབདབའི་ཤུལ་ལུ་ཁོང་གི་དོན་ཚིག་དང་གནས་སྟངས་ཚུ་ལུ་གན་འཛིན་མ་ཅིན་དེ་ལས་cxml-ev5གི་རེཌི་ཧེཊི་ཨར་པི་ཨེམ་འདི་ཕབ་ལེན་འབད་གནང་། ཡིག་སྣོད་འདིའི་མིང་${filename}བཏགས་དགོཔ་ཨིན། ཚར་གཅིག་ཕབ་ལེན་འབད་ཚར་བའི་ཤུལ་ལུ་ཁྱོད་ཀྱིས་བཙུགས་ཡོད་མི་སྣོད་ཐོ་འདི་བཙུགས། ད་རུང་ཡིག་སྣོད་འདི་གུའི་གནང་བ་ཚུ་འོས་ལྡན་ཡོདཔ་ངེས་ཏིག་བཟོ།"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Delete RPM file once it is installed?"
+msgstr "ཨར་པི་ཨེམ་ཡིག་སྣོད་ཚར་གཅིག་གཞི་འཛུགས་འབད་ཡོད་མི་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Please choose whether the RPM file should be deleted once it has been installed."
+msgstr "ཚར་གཅིག་གཞི་འཛུགས་འབད་ཡོད་མི་ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་བཏོན་གཏང་ནི་ཨིན་མེན་ན་གདམ་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "Downloaded Compaq cxml-ev5 file not found"
+msgstr "ཕབ་ལེན་འབད་ཡོད་མི་་ཀམ་པེཀ་ cxml-ev5་ཡིག་སྣོད་འདི་འཚོལ་མ་ཐོབ།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "The file ${filename} does not exist, or it is corrupt. You may have downloaded the wrong file, or put it in the wrong location. Please try again."
+msgstr "ཡིག་སྣོད་འདི་${filename} མེདཔ་ཡང་ན་ངན་ཅན་བཟོ་ཡོདཔ།  ཁྱོད་ཀྱིས་ཡང་ཅིན་ཡིག་སྣོད་ཕྱི་འགྱུར་འདི་ཕབ་ལེན་འབད་ཡོདཔ་ཡང་ན་གནས་ཁོངས་ཕྱི་འགྱུར་ནང་བཙུགས་ཡོདཔ་ལས་ལོག་འབད་བཙོན་བསྐྱེད་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "If the file you downloaded has a different name, the filename may have changed since this installer was last updated. You can still try to use the installer; just rename the file you downloaded to ${filename} . Note that if you do this, there is no guarantee the installer will work. You may need to get a more recent version of this installer from Debian's \"unstable\" distribution. We are sorry if this is inconvenient but we do not have permission to redistribute Compaq cxml-ev5."
+msgstr "ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་ཡོད་མི་ཡིག་སྣོད་འདི་མིང་སོ་སོ་ཡོད་པ་ཅིན་ མཇུག་གི་དུས་མཐུན་བཟོ་ཡོད་མི་གཞི་འཛུགས་ལས་ཚུར་ཡིག་སྣོད་མིང་བསྒྱུར་བཅོས་འབད་ཡོད་འོང་། ཁྱོད་ཀྱིས་ད་ལྟོ་རང ${filename}ལུ་་ཕབ་ལེན་འབད་ཡོད་མི་ཡིག་སྣོད་འདི་སླར་མིང་་གཞི་འཛུགས་འབད་འདི་ལག་ལེན་འཐབ་བཏུབ་ཨིན། ཁྱོད་ཀྱིས་འདི་འབད་བ་ཅིན་གཞི་འཛུགས་པ་འདི་གིས་ལཱ་འབད་ནི་ཉེན་ལེན་མེདཔ་སེམས་ཁར་འདྲན་དགོཔ། ཁྱོད་ཀྱིས་ཡང་ཅིན་\"unstable\"བགོ་བཀྲམ་ཌི་བི་ཡཱན་ལས་གཞི་འཛུགས་པ་གི་ད་ལྟོའི་ཐོན་རིམ་ལེ་ཤ་ཅིག་ལེན་དགོཔ་ཨིན། འདི་སྟབས་མ་བདེཝ་ཨིན་པ་ཅིན་དགོངསམ་མ་འཁྲེལ་ཨིན་རུང་ཀམ་པེཀ་cxml-ev5་སླར་ལོག་བགོ་བཀྲམ་འབད་ནི་་གནང་བ་ང་བཅས་ལུ་མེད།"
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Compaq cxml-ev5 installer failed"
+msgstr "ཀམ་པེཀ་ cxml-ev5 གཞི་འཛུགས་པ་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "You are running in non-interactive mode, and the Compaq cxml-ev5 installer needs to prompt you to download a file for it to install, and cannot. The installation of this package has been aborted. Please re-install it in interactive mode."
+msgstr "ཁྱོད་ཀྱིས་ཕན་ཚུན་འབྲེལ་ལྡན་མེན་པའི་ཐབས་ལམ་གཡོག་བཀོལཝ་ལས་ ཀམ་པེཀ་ cxml-ev5 གཞི་འཛུགས་པ་འདི་ལུ་ཁྱོད་ཀྱིས་གཞི་འཛུགས་འབད་ནི་ལུ་ཡིག་སྣོད་ཅིག་ཕབ་ལེན་འབད་ནི་ནུས་སྤེལ་དགོཔ་དང་འབད་མ་ཚུགས། ཐུམ་སྒྲིལ་འདི་གི་གཞི་འཛུགས་འདི་བར་བཤོལ་གཏང་ཡོདཔ་ལས་ཕན་ཚུན་འབྲེལ་ལྡན་ཐབས་ལམ་ནང་སླར་ལོག་གཞི་འཛུགས་འབད་གནང་།"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "Compaq cxml-ev5 install delayed"
+msgstr "ཀམ་པེཀ་ cxml-ev5 གཞི་འཛུགས་ཕྱིར་འགྱངས་ཡོདཔ།"
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "You have opted not to run the Compaq cxml-ev5 installer at this time. If you decide to run it later you can do so by running \"dpkg-reconfigure cxml-ev5\"."
+msgstr "ཁྱོད་ཀྱིས་ད་རེས་ཀམ་པེཀ་ cxml-ev5་གཞི་འཛུགས་པ་འདི་གཡོག་བཀོལ་ནི་འབད་གདམ་ཡོདཔ་ཨིན། ཁྱོད་རང་ཤུལ་ལས་གཡོག་བཀོལ་ནི་གྲོས་ཐག་བཅད་པ་ཅིན་ཁྱོད་རང་་ \"dpkg-reconfigure cxml-ev5\"འདི་གིས་འབད་གཡོག་བཀོལ་བཏུབ་ཨིན།"
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "Install the wrong library anyway?"
+msgstr "ཕྱི་འགྱུར་དཔེ་མཛོད་གང་རུང་སྦེ་གཞི་འཛུངས་འབད་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "You are attempting to install cxml-ev5 on an alpha with an ev6 or later processor. This will work, but the resulting function calls will not run as quickly as they could with the cxml-ev6 package. I recommend that you not proceed with this installation, but install cxml-ev6 instead."
+msgstr "ཁྱོད་ཀྱིས་ cxml-ev5 འདི་ཨལ་ཕ་གུ ev6་ཡང་ན་ཤུལ་མའི་ལས་སྦྱོར་འཕྲུལ་ཆས་དང་གཅིག་ཁར་གཞི་འཛུགས་འབད་ནི་དཔའ་བཅམ་ཨིན་མས། འདི་གིས་ལཱ་འབད་འོང་ཨིན་རུང་ལས་འགན་འགྲུབ་འབྲས་བོད་བརྡ་ཚུ་cxml-ev6 ཐུམ་སྒྲིལ་དང་གཅིག་ཁར་འབད་དོཝ་བཟུམ་འཕྲལ་མགྱོགས་སྦེ་གཡོག་བཀོལ་མི་ཚུགས། ང་གིས་འབད་བ་ཅིན་ཁྱོད་ཀྱིས་གཞི་་འཛུགས་འབད་ནི་འདི་ལས་སྦྱོར་འཕྲུལ་ཆས་ཀྱི་ཚབ་མ་cxml-ev6 འདི་གཞི་འཛུགས་འབད་ཟེར་འོས་སྦྱོར་འབད་ནི་ཨིན།"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "Compaq cxml-ev5 library not installed"
+msgstr "ཀམ་པེཀ་ cxml-ev5 དཔེ་མཛོད་གཞི་འཛུགས་མ་འབད་བར་ཡོདཔ།"
+
+#. Type: error
+#. Description
+#: ../templates:8001
+msgid "You have not run the Compaq cxml-ev5 installer, so the library has not been installed.  Please remove this package and install the cxml-ev6 package."
+msgstr "ཁྱོད་ཀྱིས་ཀམ་པེཀ་cxml-ev5གཞི་འཛུངས་པ་འདི་གཡོག་མ་བཀོལཝ་ལས་དཔེ་མཛོད་འདི་གཞི་འཛུགས་མ་འབད་བར་ཡོདཔ། ཐུམ་སྒྲིལ་འདི་རྩ་བསྐྲད་གཏང་ཞིནམ་ལས་cxml-ev6 ཐུམ་སྒྲིལ་འདི་གཞི་འཛུགས་འབད་གནང་།"
+

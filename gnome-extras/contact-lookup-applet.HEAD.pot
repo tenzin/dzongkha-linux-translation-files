@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extras/contact-lookup-applet.head.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-18 03:25+0000\n"
+"PO-Revision-Date: 2007-01-24 10:23+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/GNOME_ContactLookupApplet.server.in.in.h:1
+msgid "Address Book Search"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་འཚོལ་ཞིབ་"
+
+#: ../data/GNOME_ContactLookupApplet.server.in.in.h:2
+msgid "Search for a person in your address book"
+msgstr "ཁྱོད་རའི་ཁ་བྱང་ཀི་དེབ་ནང་  གང་ཟག་གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་"
+
+#.
+#. <menuitem name="help" verb="help" _label="_Help" pixtype="stock" pixname="gtk-help"/>
+#.
+#: ../data/GNOME_ContactLookupApplet.xml.h:4
+msgid "_About"
+msgstr "སྐོར་ལས། (_A)"
+
+#: ../data/contact-lookup-applet.glade.h:1
+msgid "<b>\"Foo\" is online</b>"
+msgstr "<b>\"Foo\" འདི་གློག་ཐོག་འདུག་</b>"
+
+#: ../data/contact-lookup-applet.glade.h:2
+msgid "<b>Electronic Mail</b>"
+msgstr "<b>གློག་འཕྲིན་</b>"
+
+#: ../data/contact-lookup-applet.glade.h:3
+msgid "<b>Instant Messaging</b>"
+msgstr "<b>འཕྲལ་མྱུར་གྱི་འཕྲིན་གཏོང་</b>"
+
+#: ../data/contact-lookup-applet.glade.h:4
+msgid "<b>Video Conferencing</b>"
+msgstr "<b>ཝི་ཌིའོ་གློག་ཐོག་ཞལ་འཛོམས་</b>"
+
+#: ../data/contact-lookup-applet.glade.h:5
+msgid "ADDRESS"
+msgstr "ཁ་བྱང་"
+
+#: ../data/contact-lookup-applet.glade.h:6
+msgid "Address Card"
+msgstr "ཁ་བྱང་གི་ཤོག་བྱང་"
+
+#: ../data/contact-lookup-applet.glade.h:7
+msgid "Compose _Mail Message\t"
+msgstr "ཡིག་འཕྲིན་གྱི་འཕྲིན་དོན་འདི་བརྩམ།\t (_M)"
+
+#: ../data/contact-lookup-applet.glade.h:8
+msgid "HOME PAGE"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ་"
+
+#: ../data/contact-lookup-applet.glade.h:9
+msgid "NAME"
+msgstr "མིང་"
+
+#: ../data/contact-lookup-applet.glade.h:10
+msgid "PHONE"
+msgstr "བརྒྱུད་འཕྲིན་"
+
+#: ../data/contact-lookup-applet.glade.h:11
+msgid "Send _Instant Message"
+msgstr "འཕྲལ་མྱུར་འཕྲིན་དོན་འདི་གཏང་། (_I)"
+
+#: ../data/contact-lookup-applet.glade.h:12
+msgid "Start _Video Conference"
+msgstr "ཝི་ཌིའོ་ཞལ་འཛོམས་འདི་འགོ་བཙུགས། (_V)"
+
+#: ../data/contact-lookup-applet.glade.h:13
+msgid "VIDEO"
+msgstr "ཝི་ཌིའོ་"
+
+#: ../data/contact-lookup-applet.glade.h:14
+msgid "_Edit Contact Information"
+msgstr "འབྲེལ་བའི་བརྡ་དོན་འདི་ཞུན་དག་འབད། (_E)"
+
+#: ../data/contact-lookup-applet.glade.h:15
+msgid "_Go"
+msgstr "འགྱོ། (_G)"
+
+#: ../src/contact-dialog.c:58
+#, c-format
+msgid ""
+"<span weight=\"bold\" size=\"large\">Cannot show URL %s:</span>\n"
+"\n"
+"%s"
+msgstr ""
+"<span weight=\"bold\" size=\"large\">ཡུ་ཨར་ཨེལ་ %s འདི་སྟོན་མ་ཚུགས:</span>\n"
+"\n"
+"%s"
+
+#: ../src/contact-dialog.c:128
+#, c-format
+msgid ""
+"<span weight=\"bold\" size=\"large\">Cannot send email to %s:</span>\n"
+"\n"
+"%s"
+msgstr ""
+"<span weight=\"bold\" size=\"large\"> %s ལུ་གློག་འཕྲིན་འདི་གཏང་མ་ཚུགས:</span>\n"
+"\n"
+"%s"
+
+#: ../src/contact-dialog.c:147
+#, c-format
+msgid ""
+"<span weight=\"bold\" size=\"large\">Cannot start conference with %s:</span>\n"
+"\n"
+"%s"
+msgstr ""
+"<span weight=\"bold\" size=\"large\">%s དང་ཅིག་ཁར་ཞལ་འཛོམས་འདི་འགོ་བཙུགས་མ་ཚུགས:</span>\n"
+"\n"
+"%s"
+
+#: ../src/contact-dialog.c:419
+#: ../src/contact-dialog.c:425
+msgid " (home)\n"
+msgstr " (ཁྱིམ་)\n"
+
+#: ../src/contact-dialog.c:431
+#: ../src/contact-dialog.c:437
+msgid " (work)\n"
+msgstr " (ལཱ་)\n"
+
+#: ../src/contact-dialog.c:443
+msgid " (mobile)\n"
+msgstr " (འགྲུལ་འཕྲིན་)\n"
+
+#: ../src/contact-lookup-applet.c:59
+#, c-format
+msgid "Unable to search your address book: %s"
+msgstr "ཁྱོད་ཀྱི་ཁ་བྱང་ཀི་དེབ་ %s འདི་འཚོལ་ཞིབ་འབད་མ་ཚུགས:"
+
+#: ../src/contact-lookup-applet.c:63
+msgid "Search your address book"
+msgstr "ཁྱོད་རའི་ཁ་བྱང་ཀི་དེབ་འདི་འཚོལ་ཞིབ་འབད་"
+
+#: ../src/contact-lookup-applet.c:111
+#, c-format
+msgid ""
+"<span size='larger' weight='bold'>Error accessing addressbook</span>\n"
+"\n"
+"%s"
+msgstr ""
+"<span size='larger' weight='bold'>ཁ་བྱང་ཀི་དེབ་འཛུལ་སྤྱོད་འབདཝ་ད་གི་འཛོལ་བ་</span>\n"
+"\n"
+"%s"
+
+#: ../src/contact-lookup-applet.c:142
+msgid "An applet to search your address book."
+msgstr "ཁྱོད་རའི་ཁ་བྱང་ཀི་དེབ་འཚོལ་ཞིབ་འབད་ནི་ལུ་ཨེཔ་ལེཊི།"
+
+#: ../src/contact-lookup-applet.c:154
+msgid ""
+"<span size='larger' weight='bold'>No Address Books Available</span>\n"
+"\n"
+"There are no address books selected for auto-completion. To select which address books to use for completion, go to Edit -> Preferences -> Autocompletion in Evolution."
+msgstr ""
+"<span size='larger' weight='bold'>ཁ་བྱང་གི་ཀི་དེབ་ཐོབ་ཚུགས་མེད་</span>\n"
+"\n"
+"རང་བཞིན་མཇུག་བསྡུ་གི་དོན་ལུ་  སེལ་འཐུ་འབད་བའི་ཁ་བྱང་ཀི་དེབ་ཚུ་མེདཔ་ཨིན།  མཇུག་བསྡུ་ནི་གི་དོན་ལུ་  ཁ་བྱང་ཀི་དེབ་ག་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན་སེལ་འཐུ་འབད་ནི་ལུ་  ཞུན་དག་ -> Preferences -> ཨི་བི་ལུ་ཤཱན་ནང་གི་རང་བཞིན་མཇུག་བསྡུ་ནང་སོང་།"
+
+#: ../src/e-contact-entry.c:153
+#, c-format
+msgid "Cannot get contact: %s"
+msgstr "འབྲེལ་བ་ཐབས་མ་ཚུགས: %s"
+
+#: ../src/e-contact-entry.c:185
+#, c-format
+msgid "Could not find contact: %s"
+msgstr "འབྲེལ་བ་ཐབས་ས་འཚོལ་མ་ཐོབ: %s"
+
+#: ../src/e-contact-entry.c:383
+msgid "Cannot create searchable view."
+msgstr "འཚོལ་ཚུགས་པའི་མཐོང་སྣང་འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/e-contact-entry.c:836
+msgid "Success"
+msgstr "མཐར་འཁྱོལ་"
+
+#: ../src/e-contact-entry.c:838
+msgid "An argument was invalid."
+msgstr "སྒྲུབ་རྟགས་འདི་ནུས་ཅན་མེད།"
+
+#: ../src/e-contact-entry.c:840
+msgid "The address book is busy."
+msgstr "ཁ་བྱང་ཀི་དེབ་འདི་ཁོམ་མེད།"
+
+#: ../src/e-contact-entry.c:842
+msgid "The address book is offline."
+msgstr "ཁ་བྱང་ཀི་དེབ་འདི་གློག་ཐོག་མེད།"
+
+#: ../src/e-contact-entry.c:844
+msgid "The address book does not exist."
+msgstr "ཁ་བྱང་ཀི་དེབ་འདི་མིན་འདུག།"
+
+#: ../src/e-contact-entry.c:846
+msgid "The \"Me\" contact does not exist."
+msgstr "\"Me\" འབྲེལ་ས་འདི་མེད།"
+
+#: ../src/e-contact-entry.c:848
+msgid "The address book is not loaded."
+msgstr "ཁ་བྱང་ཀི་དེབ་འདི་མངོན་གསལ་མ་འབད་བས།"
+
+#: ../src/e-contact-entry.c:850
+msgid "The address book is already loaded."
+msgstr "ཁ་བྱག་ཀི་དེབ་འདི་ཧེ་མ་ལས་རང་མངོན་གསལ་འབད་ནུག།"
+
+#: ../src/e-contact-entry.c:852
+msgid "Permission was denied when accessing the address book."
+msgstr "ཁ་བྱང་ཀི་དེབ་འཛུལ་སྤྱོད་འབདཝ་ད་  གནང་བ་འདི་ཉན་མ་བཏུབ།"
+
+#: ../src/e-contact-entry.c:854
+msgid "The contact was not found."
+msgstr "འབྲེལ་ས་འདི་ཐོབ་ཡོདཔ།"
+
+#: ../src/e-contact-entry.c:856
+msgid "This contact ID already exists."
+msgstr "འབྲེལ་སའི་ཨའི་ཌི་འདི་ཧེ་མ་ལས་རང་འདུག།"
+
+#: ../src/e-contact-entry.c:858
+msgid "The protocol is not supported."
+msgstr "གནད་སྤེལ་ལམ་ལུགས་འདི་རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: ../src/e-contact-entry.c:860
+msgid "The operation was cancelled."
+msgstr "བཀོལ་སྤྱོདཔ་འདི་ཆ་མེད་གཏང་ནུག།"
+
+#: ../src/e-contact-entry.c:862
+msgid "The operation could not be cancelled."
+msgstr "བཀོལ་སྤྱོདཔ་འདི་ཆ་མེད་གཏང་མ་ཚུགས།"
+
+#: ../src/e-contact-entry.c:864
+msgid "The address book authentication failed."
+msgstr "ཁ་བྱང་ཀི་དེབ་བདེན་བཤད་འདི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/e-contact-entry.c:866
+msgid "Authentication is required to access the address book and was not given."
+msgstr "བདེན་བཤད་འབད་ནི་འདི་  ཁ་བྱང་ཀི་དེབ་འཛུལ་སྤྱོད་འབད་ནི་ལུ་དགོཔ་ཨིནམ་དང་  འདིམ་བྱིན་མས།"
+
+#: ../src/e-contact-entry.c:868
+msgid "A secure connection is not available."
+msgstr "མཐའ་བཙན་བཟོ་བའི་འབྲེལ་ལམ་འདི་ཐོབ་ཚུགས་མེད།"
+
+#: ../src/e-contact-entry.c:870
+msgid "A CORBA error occurred whilst accessing the address book."
+msgstr "ཀོར་བའི་འཛོལ་བ་འདི་  ཁ་བྱང་ཀི་དེབ་འཛུལ་སྤྱོད་འབདཝ་ད་བྱུང་ཡོདཔ།"
+
+#: ../src/e-contact-entry.c:872
+msgid "The address book source does not exist."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་བྱུང་ཁུངས་འདི་མིན་འདུག།"
+
+#: ../src/e-contact-entry.c:874
+#: ../src/e-contact-entry.c:877
+msgid "An unknown error occurred."
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་བྱུང་ཡོདཔ།"
+
+#: ../src/glade-utils.c:49
+#, c-format
+msgid "Couldn't find necessary glade file '%s'"
+msgstr "ཉེར་མཁོའི་གེལེཌི་ཡིག་སྣོད་ '%s' འདི་ཐོབ་མ་ཚུགས་"
+
+#: ../src/glade-utils.c:59
+#, c-format
+msgid "Glade file '%s' is missing widget '%s'."
+msgstr "གེལེཌི་ཡིག་སྣོད་ '%s' འདི་ལུ་  ཝི་གེཊི་ '%s' འདི་བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#: ../src/glade-utils.c:139
+#, c-format
+msgid "Glade file is missing widget '%s'"
+msgstr "གེལེཌི་ཡིག་སྣོད་དེ་ལུ་ ཝི་གེཊི་ '%s' འདི་བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+

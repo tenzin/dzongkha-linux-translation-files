@@ -1,0 +1,267 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: c-common\n"
+"Report-Msgid-Bugs-To: mckinstry@debian.org\n"
+"POT-Creation-Date: 2007-07-30 07:02+0200\n"
+"PO-Revision-Date: 2007-12-14 22:48+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Select keymap from arch list"
+msgstr "གཞུ་དབྱིབས་ཐོ་ཡིག་ནང་ལས་ས་ཁྲ་གཙོ་བོ་སེལ་འཐུ་འབད།"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Don't touch keymap"
+msgstr "ས་ཁྲ་གཙོ་བོ་འདི་མ་དཀྲོགས།"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Keep kernel keymap"
+msgstr "ཀར་ནེལ་ས་ཁྲ་གཙོ་བོ་འདི་བཞག"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Select keymap from full list"
+msgstr "ཆ་ཚང་ཐོ་ཡིག་ནང་ལས་ ས་ཁྲ་གཙོ་བོ་སེལ་འཐུ་འབད།"
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid "Policy for handling keymaps:"
+msgstr "ས་ཁྲ་གཙོ་བོ་འདི་ལེགས་སྐྱོང་འཐབ་ནི་གི་དོན་ལུ་ སྲིད་བྱུས་:"
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+#, fuzzy
+msgid "The keymap records the layout of symbols on the keyboard."
+msgstr "ཁྱོད་རའི་ལྡེ་སྒྲོམ་གྱི་སྒྲིག་བཀོད་རིགས་ཚན་ག་ཅི་སྨོ?"
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid ""
+" - 'Select keymap from arch list': select one of the predefined keymaps\n"
+"   specific for your architecture (recommended for non-USB keyboards);\n"
+" - 'Don't touch keymap': don't overwrite the keymap in /etc/console,\n"
+"   which is maintained manually with install-keymap(8);\n"
+" - 'Keep kernel keymap': prevent any keymap from being loaded next time\n"
+"   the system boots;\n"
+" - 'Select keymap from full list': list all the predefined keymaps.\n"
+"   Recommended when using cross-architecture (often USB) keyboards."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid "Ignored boot-time keymap in an old location"
+msgstr "གནས་ཁོངས་རྙིངམ་ཅིག་ནང་ལུ་ བུཊི་-ཊ་ཡེམ་ཅིག་ སྣང་མེད་སྦེ་བཞག་ནུག"
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid "The keymap configuration tool has been set up not to touch an existing keymap."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+#, fuzzy
+msgid "However, there are some 'default.kmap(.gz)' file(s) either in /etc/kbd/ or in /etc/console-tools/. These were recognized as boot-time keymaps by older versions of the console utilities, but are now ignored."
+msgstr "ག་དེ་སྦེ་ཨིན་རུང་ ཁྱོད་ལུ་ཡིག་སྣོད་(ཚུ་)ཡོད་ དེ་ཡང་ བུཊི་-ཊ་ཡེམ་ས་ཁྲ་གཙོ་བོ་སྦེ་  /etc/kbd/ནང་ན་ ཡང་ན་ སྔོན་སྒྲིག་ཟེར་མིང་བཏགས་ཡོད་པའི་ /etc/console-tools/ནང་ན་ལུ་ མ་སྒྲོམ་སྤྱོད་ཆས་ཀྱི་ཐོན་རིམ་རྙིངམ་ཚུ་གིས་ ངོ་ཤེས་ཡོདཔ། kmap(.gz) དང་དེ་ཚུ་སྣང་མེད་སྦེ་བཞག་ནུག"
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+#, fuzzy
+msgid "If you wish one of these to take effect on next reboot, you will have to move it to /etc/console/boottime.kmap.gz manually."
+msgstr "ཁྱོད་ཀྱིས་ཤུལ་མའི་རི་བུཊི་གུ་ དེ་ནང་ལས་གཅིག་གིས་ནུས་པ་འཐོབ་དགོ་མནོ་བ་ཅིན་ ལག་ཐོག་ལས་ /etc/console/boottime.kmap.gz ལུ་ སྤོ་བཤུད་འབད་དགོ"
+
+#. Type: select
+#. Description
+#: ../templates.in:4001
+msgid "Keyboard layout family:"
+msgstr "ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་ཀྱི་རིགས་ཚན་:"
+
+#. Type: select
+#. Description
+#: ../templates.in:4001
+#, fuzzy
+msgid "Please specify the generic family name for the keyboard layout. Usually, the layout family name is taken from the first keys on the left of the top letters row of the keymap."
+msgstr "ཁྱོད་རའི་ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་ཀྱི་དོན་ལུ་ དབྱེ་རིགས་རིགས་ཚན་གྱི་མིང་ གསལ་བཀོད་འབད་གནང་། སྤྱིར་བཏང་ལུ་ སྒྲིག་བཀོད་རིགས་ཚན་མིང་འདི་ ལྡེ་སྒྲོམ་མགོའི་ཡི་གུ་གྲལ་ཐིག་གི་གཡོན་གུ་ལུ་ ལྡེ་མིག་དང་པམ་ནང་ལས་ འབག་འོངམ་ཨིན།(འདི་ཡང་ ཀོ་ཝར་ཊི་དང་ཨེ་ཛར་ཊི་སྒྲིག་བཀོད་ཀྱི་དོན་ལུ་བདེནམ་ཨིན)།"
+
+#. Type: select
+#. Description
+#: ../templates.in:5001
+msgid "Keyboard layout:"
+msgstr "ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་:"
+
+#. Type: select
+#. Description
+#: ../templates.in:5001
+#, fuzzy
+msgid "In order to refine the keymap choice, please select the physical layout of the keyboard."
+msgstr "ལྡེ་སྒྲོམ་དོན་ལུ་ གདམ་ཁ་ལེགས་དྭངས་ཀྱི་དོན་ལས་ ཁྱོད་རའི་ལྡེ་སྒྲོམ་གྱི་དངོས་ཅན་སྒྲིག་བཀོད་འདི་བཀོད་གནང་།"
+
+#. Type: select
+#. Description
+#: ../templates.in:6001
+msgid "Keyboard variant:"
+msgstr "ལྡེ་སྒྲོམ་མི་མཐུན་པ་:"
+
+#. Type: select
+#. Description
+#: ../templates.in:6001
+#, fuzzy
+msgid "The selected keyboard layout has several variants. Please select the one matching the keyboard."
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་ཡོད་པའི་སྒྲིག་བཀོད་ལུ་ མི་མཐུན་པ་ལེ་ཤ་ཅིག་ཡོདཔ་ཨིན། ཁྱོད་ཀྱི་ལྡེ་སྒྲོམ་ལུ་མཐུན་སྒྲིག་ཡོད་མི་ཅིག་ སེལ་འཐུ་འབད་གནང་།"
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../templates.in:7001
+#: ../templates.in:8001
+msgid "Keymap:"
+msgstr "ས་ཁྲ་གཙོ་བོ་:"
+
+#. Type: select
+#. Description
+#: ../templates.in:7001
+#, fuzzy
+msgid "The selected keyboard allows a choice from a range of keymaps. Usually these were designed either for specific tastes (for instance with dead keys) or for specific needs (such as programming)."
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་ཡོད་པའི་ལྡེ་སྒྲོམ་འདི་གིས་ ས་ཁྲ་གཙོ་བོ་ལེ་ཤ་ཡོད་པའི་ནང་ལས་གདམ་ཁ་རྐྱབ་བཅུགཔ་ཨིན། སྤྱིར་བཏང་ལུ་ དེ་ཚུ་གེ་ར་ དམིགས་བསལ་གདམ་ཁ་(དཔེར་ན་ ཌེཌི་ལྡེ་སྒྲོམ་ཨིན་མེན་) ཡང་ཅིན་ དམིགས་བསལ་དགོ་པའི་(དཔེར་ན་ ལས་རིམ་བཟོ་མིའི་ས་ཁྲ་གཙོ་བོ་ཚུ་)དོན་ལུ་ བཀོད་བསྒྲིགས་འབད་ཡི།"
+
+#. Type: select
+#. Description
+#: ../templates.in:8001
+#, fuzzy
+msgid "If the keyboard is designed for a different computer architecture, you should choose a specific keymap in the full map."
+msgstr "ཁྱོད་ཀྱིས་ གློག་རིག་བཟོ་བཀོད་སོ་སོའི་ནང་ལས་ ལྡེ་སྒྲོམ་ཅིག་ལག་ལེད་འཐབ་ཨིན་པ་ཅིན་ ས་ཁྲ་ཆ་ཚང་ནང་ལུ་དམིགས་བསལ་གྱི་ས་ཁྲ་གཙོ་བོ་ཅིག་ གདམ་ཁ་རྐྱབས།"
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+#, fuzzy
+msgid "Are you ready for the ADB key codes transition?"
+msgstr "ཁྱོད་ ཨེ་ཌི་བི་ལྡེ་ཨང་འགྱུར་བ་འབད་ནི་ལུ་ གྲ་སྒྲིག་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+#, fuzzy
+msgid "The kernel is configured to have the keyboard send ADB key codes. This behavior is now deprecated and no longer supported."
+msgstr "ཀར་ནེལ་འདི་ ལྡེ་སྒྲོམ་གྱིས་ཨེ་ཌི་བི་ ལྡེ་ཨང་གཏང་ཡོདཔ་སྦེ་ རིམ་སྒྲིགས་འབད་ཡོདཔ། སྤྱོད་ལམ་འདི་ངོས་ལེན་མེདཔ་ཨིནམ་དང་ ད་ལས་ཕར་ཌི་བི་ཡཱན་གྱིས་རྒྱབ་སྐྱོར་མི་འབདཝ་ཨིན།"
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+#, fuzzy
+msgid "For best results, you should reconfigure the kernel with CONFIG_MAC_ADBKEYCODES=n. Alternatively, you can pass 'keyboard_sends_linux_keycodes=1' as an argument to the kernel."
+msgstr "གྲུབ་འབྲས་ལེགས་ཤོམ་འབྱུང་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ CONFIG_MAC_ADBKEYCODES=nདང་བཅས་ ཁྱོད་རའི་ཀར་ནེལ་ ལོག་རིམ་སྒྲིག་འབད་དགོ རྒྱུ་མཚན་དག་པ་ཅིག་ལུ་བརྟེན་ཏེ་ ཁྱོད་ཀྱིས་དེ་མི་འབད་ནི་ཨིན་པ་ཅིན་ keyboard_sends_linux_keycodes=1 ཚུ་སྒྲུབ་རྟགས་སྦེ་ རྩིས་སྤྲོད་འབད།"
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+#, fuzzy
+msgid "Please be aware that the transition will most probably break the X configuration, so it is strongly recommended to close all X sessions now and adapt the configuration afterwards by running 'dpkg-reconfigure console-data'."
+msgstr "འགྱུར་བ་གིས་ ཁྱོད་ཀྱི་ཨེགསི་རིམ་སྒྲིག་འདི་མང་ཤོས་ཅིག་རང་རྒྱུན་ཆད་ནི་ཨིནམ་ལས་དྲནམ་བཏོན་དགོ་ དེ་འབདཝ་ལས་ སྒྲིང་སྒྲིང་སྦེ་འོས་སྦྱོར་འབད་ཡི་ དེ་ཡང་ཁྱོད་ཀྱིས་ད་ལྟོ་རང་ ཨེགསི་ལཱ་ཡུན་ཚུ་ཕྱི་ཁར་བཏོན་ནི་དང་ ཁྱོད་རའི་རིམ་སྒྲིག་འདི་ཤུལ་ལས་ མཐུད་ནི་ཚུ་ཨིན་(རྩ་བ་བཟུམ་སྦེ་ \"dpkg-reconfigure console-data\"འགོ་བཙུགས་)།"
+
+#~ msgid ""
+#~ "The keymap describes how keys are laid out on your keyboard, and what "
+#~ "symbols (letters, digits, etc.) are drawn on them."
+#~ msgstr ""
+#~ "ས་ཁྲ་གཙོ་བོ་གིས་ ལྡེ་མིག་ཚུ་ཁྱོད་རའི་ལྡེ་སྒྲོམ་གུ་ ག་དེ་སྦེ་བཤམས་ཡོདཔ་ཨིན་ན་དང་ བརྡ་མཚོན་(ཡི་གུ་ ཨང་"
+#~ "ཡིག་ལ་སོགས་པ་ཚུ་)དེ་གི་གུ་ག་དེ་སྦེ་བྲིས་ཡོདཔ་ཨིན་ན་ འགྲེལ་བཤད་རྐྱབ་ཨིན།"
+#~ msgid ""
+#~ "\"Select keymap from arch list\" will allow you to select one of the "
+#~ "predefined keymaps specific for your architecture - you will most likely "
+#~ "want this unless you have a USB keyboard."
+#~ msgstr ""
+#~ "\"Select keymap from arch list\"འདི་གིས་ཁྱོད་ལུ་ ཁྱོད་རའི་བཟོ་བཀོད་ཀྱི་དོན་ལུ་ དམིགས་བསལ་"
+#~ "སྔ་གོང་ངེས་འཛིན་འབད་ཡོད་པའི་ས་ཁྲ་གཙོ་བོ་ནང་ལས་གཅིག་སེལ་འཐུ་འབད་-ཁྱོད་ལུ་ ཡུ་ཨེསི་བི་ལྡེ་སྒྲོམ་ཅིག་"
+#~ "མ་འཐོབ་བར་དུ་ ཁྱོད་ཀྱིས་འདི་དགོཔ་འོང་།"
+#~ msgid ""
+#~ "\"Don't touch keymap\" will prevent the configuration system from "
+#~ "overwriting the keymap you have in /etc/console.  Select this if you want "
+#~ "to keep a keymap you obtained through other means.  Please remember to "
+#~ "install new keymaps with install-keymap(8) if you select this choice."
+#~ msgstr ""
+#~ "\"Don't touch keymap\" འདི་གིས་ཁྱོད་ལུ་ /etc/consoleནང་ཡོད་པའི་ལྡེ་སྒྲོམ་ཚབ་སྲུང་འབད་ནི་"
+#~ "ལས་ རིམ་སྒྲིག་རིམ་ལུགས་སྔོན་བཀག་འབད་འོང་། ཁྱོད་ཀྱིས་ཐབས་ཤེས་སོ་སོའི་སྒོ་ལས་ཐོབ་ཡོད་པའི་ལྡེ་སྒྲོམ་ཅིག་"
+#~ "བཞག་དགོ་མནོ་བ་ཅིན་ འདི་སེལ་འཐུ་འབད། ཁྱོད་ཀྱིས་གདམ་ཁ་འདི་སེལ་འཐུ་འབད་བ་ཅིན་ གཞི་བཙུགས་-ས་ཁྲ་"
+#~ "གཙོ་བོ་(༨)དང་བཅས་ ས་ཁྲ་གཙོ་བོ་གསརཔ་ཚུ་གཞི་བཙུགས་འབད་ནི་སེམས་ཁར་བཞག་གནང་། "
+#~ msgid ""
+#~ "\"Keep kernel keymap\" will prevent any keymap from being loaded next "
+#~ "time your system boots.  It will remove from /etc/console any keymap you "
+#~ "may have already selected (it will be lost), but if you have already "
+#~ "loaded a keymap, it cannot be changed back until you reboot."
+#~ msgstr ""
+#~ "\"Keep kernel keymap\"འདི་གིས་ ཤུལ་མ་ཁྱོད་ཀྱི་རིམ་ལུགས་འདི་བུཊི་འབད་བའི་སྐབས་ལུ་ ས་ཁྲ་གཙོ་"
+#~ "བོ་ག་ཅི་ར་ཨིན་རུང་ མངོན་གསལ་འབད་ནི་ལས་སྔོན་བཀག་འབད་འོང་། ཁྱོད་ཀྱིས་ཧེ་མ་ལས་སེལ་འཐུ་འབད་ཡོད་"
+#~ "པའི་ས་ཁྲ་གཙོ་བོ་ག་ཅི་ར་ཨིན་རུང་ /etc/console ནང་ལས་ རྩ་བསྐྲད་གཏང་འོང་(བརླག་སྟོར་ཞུགས་"
+#~ "འོང་) དེ་འབདཝ་ད་ཁྱོད་ཀྱིས་ས་ཁྲ་གཙོ་བོ་འདི་ ཧེ་མ་ལས་མངོན་གསལ་འབད་ཡོད་པ་ཅིན་ རི་བུཊི་མ་འབད་"
+#~ "ཚུན་ཚོད་ ལོག་སྟེ་བསྒྱུར་བཅོས་འབད་མི་ཚུགས། "
+#~ msgid ""
+#~ "\"Select keymap from full list\" offers a full listing of all predefined "
+#~ "keymaps.  You want this, if you use an USB keyboard from a different "
+#~ "computer architecture or if you use an adapter to use such a keyboard."
+#~ msgstr ""
+#~ "\"Select keymap from full list\"འདི་གིས་ སྔ་གོང་ངེས་འཛིན་འབད་ཡོད་པའི་ས་ཁྲ་གཙོ་བོ་ཆ་"
+#~ "མཉམ་གྱི་ཐོ་ཡིག་ཆ་ཚང་ཕུལཝ་ཨིན། ཁྱོད་ཀྱིས་ གློག་རིག་བཟོ་བཀོད་སོ་སོའི་ནང་ལས་ ཡུ་ཨེསི་བི་ལྡེ་སྒྲོམ་ཅིག་ལག་"
+#~ "ལེན་འཐབ་པ་ཅིན་ ཡང་ཅིན་ འདི་བཟུམ་གྱི་ལྡེ་སྒྲོམ་ཅིག་ལག་ལེན་འཐབ་ནི་ལུ་ མཐུན་བྱེད་ལག་ལེན་འཐབ་པ་"
+#~ "ཅིན་ ཁྱོད་ཀྱིས་འདི་དགོ་འོང་།"
+#~ msgid ""
+#~ "You have asked the keymap configuration tool not to touch an existing "
+#~ "keymap you installed, or you asked for higher-priority questions only to "
+#~ "be asked and the tool decided not to mess with your existing setup."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ ས་ཁྲ་གཙོ་བོའི་རིམ་སྒྲིག་ལག་ཆས་ལུ་ ཁྱོད་རང་གིས་གཞི་བཙུགས་འབད་ཡོད་པའི་ད་ལྟོའི་ས་ཁྲ་གཙོ་བོ་"
+#~ "འདི་ དཀྲོགས་ནི་མེདཔ་སྦེ་སླབ་ནུག་ ཡང་ཅིན་ ཁྱོད་ཀྱིས་འདྲི་ནིའི་དོན་ལས་ གཙོ་རིམ་མཐོ་བའི་འདྲི་བ་ཚུ་རྐྱངམ་"
+#~ "ཅིག་དྲིས་ནུག་དེ་ལས་ ལག་ཆས་ཀྱིས་ ཁྱོད་རའི་ད་ལྟོ་ཡོད་པའི་གཞི་སྒྲིག་དང་བླ་བསྲེ་འབད་ནི་མེདཔ་སྦེ་ཐག་བཅད་"
+#~ "ནུག"
+#~ msgid ""
+#~ "Select keymap from arch list, Don't touch keymap, Keep kernel keymap, "
+#~ "Select keymap from full list"
+#~ msgstr ""
+#~ "གཞུ་དབྱིབས་ཐོ་ཡིག་ནང་ལས་ས་ཁྲ་གཙོ་བོ་སེལ་འཐུ་འབད་ ས་ཁྲ་གཙོ་བོ་མ་དཀྲོགས་ ཀར་ནེལ་ས་ཁྲ་གཙོ་བོ་"
+#~ "བཞག་ ཆ་ཚང་ཐོ་ཡིག་ནང་ལས་ས་ཁྲ་གཙོ་བོ་ སེེལ་འཐུ་འབད།"
+#~ msgid "What policy do you want to apply regarding keymaps ?"
+#~ msgstr "ཁྱོད་ཀྱིས་ ས་ཁྲ་གཙོ་བོ་གི་སྐོར་ལས་ སྲིད་བྱུས་ག་ཅི་འཇུག་སྤྱོད་འབད་ནི་སྨོ?"
+#~ msgid "What is the keys layout of your keyboard ?"
+#~ msgstr "ཁྱོད་ཀྱི་ལྡེ་སྒྲོམ་གྱི་ལྡེ་མིག་སྒྲིག་བཀོད་ག་ཅི་སྨོ?"
+#~ msgid "Which variant do you have ?"
+#~ msgstr "ཁྱོད་ལུ་མི་མཐུན་པ་ག་ཅི་ཡོདཔ་?"
+#~ msgid "Which specific keymap do you want ?"
+#~ msgstr "ཁྱོད་ལུ་ དམིགས་བསལ་ས་ཁྲ་གཙོ་བོ་ ག་ཅི་ཡོདཔ་?"
+#~ msgid "Which keymap do you want ?"
+#~ msgstr "ས་ཁྲ་གཙོ་བོ་ག་ཅི་དགོ་ནི་སྨོ?"
+#~ msgid "yes, no"
+#~ msgstr "ཨིན་ མེན།"
+

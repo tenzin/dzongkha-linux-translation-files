@@ -1,0 +1,2573 @@
+# translation of gimp.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# translator, 2006.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER., 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-10 19:59+0600\n"
+"PO-Revision-Date: 2006-05-11 06:02-0500\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: KBabel 1.10.2\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../app/core/gimppdbprogress.c:260
+#: ../app/widgets/gimppdbdialog.c:320
+#, c-format
+msgid "Unable to run %s callback. The corresponding plug-in may have crashed."
+msgstr "%s ཀཱལ་བེཀ་ གཡོག་བཀོལ མ་ཚུགས། མཉམ་པའི པ་ལག་-ཨིན་དེ བརྡབ་འཁྲུག་ འབད་གཏང་གཏངཔ་འོང་།"
+
+#: ../app/core/gimpprogress.c:107
+#: ../app/core/gimpprogress.c:154
+msgid "Please wait..."
+msgstr "བསྒུག་གནང་།..."
+
+#: ../app/core/gimpselection.c:183
+#: ../app/tools/gimpeditselectiontool.c:258
+msgid "Move Selection"
+msgstr "སེལ་འཐུ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/core/gimpselection.c:202
+msgid "Sharpen Selection"
+msgstr "སེལ་འཐུ་ རྣོ་ཅན་བཟོ།"
+
+#: ../app/core/gimpselection.c:203
+msgid "Select None"
+msgstr "གཅིག་ཡང་ སེལ་འཐུ་མ་འབད།"
+
+#: ../app/core/gimpselection.c:204
+msgid "Select All"
+msgstr "ཆ་མཉམ་ སེལ་འཐུ་འབད།"
+
+#: ../app/core/gimpselection.c:205
+msgid "Invert Selection"
+msgstr "སེལ་འཐུ་ ཨིན་ཝཏི་ འབད།"
+
+#: ../app/core/gimpselection.c:307
+msgid "No selection to stroke."
+msgstr "སི་ཊོརོག་འབད་ནིའི་དོན་ལུ སེལ་འཐུ་མིན་འདུག"
+
+#: ../app/core/gimpselection.c:815
+msgid "Cannot float selection because the selected region is empty."
+msgstr "སེལ་འཐུ་འཕ྄ར་ལྡིང་འབད་མི་བཏུབ་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ སེལ་འཐུ་འབད་ཚཙར་མི་ ལུང་ཕྱོགས་དེ་ སྟོངམ་ཨིན།"
+
+#: ../app/core/gimpselection.c:822
+msgid "Float Selection"
+msgstr "སེལ་འཐུ་ འཕུར་ལྡིང་འབད།"
+
+#: ../app/core/gimpselection.c:839
+msgid "Floated Layer"
+msgstr "འཕུར་ལྡིང་ འབད་ཡོད་མི་ བང་རིམ།"
+
+#: ../app/core/gimptemplate.c:158
+msgid "The unit used for coordinate display when not in dot-for-dot mode."
+msgstr " ཌོཊི་ཕོར -ཌོཊི་མོཊི-ནང་ལུ་ མེན་པའི་སྐབས་ བཀྲམ་སྟོན་ མཉམ་འབྲེལ་འབད་ནའི་དོན་ལུ ལག་ལེན་འཐབ་མི་ ཆ་ཕྲན།"
+
+#: ../app/core/gimptemplate.c:165
+msgid "The horizontal image resolution."
+msgstr "ཐད་སྙོམས་སྦེ་ཡོད་མི་ གཟུགས་བརྙན་གྱི་ ཧུམ་ཆ།"
+
+#: ../app/core/gimptemplate.c:170
+msgid "The vertical image resolution."
+msgstr "ཀེར་ཕྲེང་སྦེ་ཡོད་མི་ གཟུགས་བརྙན་གྱི་ ཧུམ་ཆ།"
+
+#: ../app/core/gimptemplate.c:450
+#: ../app/widgets/widgets-enums.c:24
+msgid "Background"
+msgstr "རྒྱབ་གཞི།"
+
+#. pseudo unit
+#: ../app/core/gimpunit.c:55
+msgid "pixel"
+msgstr "པིག་སེལ།"
+
+#: ../app/core/gimpunit.c:55
+#: ../app/tools/gimpmeasuretool.c:787
+#: ../app/tools/gimpmeasuretool.c:875
+#: ../app/tools/gimppainttool.c:681
+msgid "pixels"
+msgstr "པིག་སེལསི།"
+
+#. standard units
+#: ../app/core/gimpunit.c:58
+msgid "inch"
+msgstr "ཨིནཅི།"
+
+#: ../app/core/gimpunit.c:58
+msgid "inches"
+msgstr "ཨིནཅེསི།"
+
+#: ../app/core/gimpunit.c:59
+msgid "millimeter"
+msgstr "མི་ལི་མི་ཊར།"
+
+#: ../app/core/gimpunit.c:59
+msgid "millimeters"
+msgstr "མི་ལི་མི་ཊརསི།"
+
+#. professional units
+#: ../app/core/gimpunit.c:62
+msgid "point"
+msgstr "ཡིག་ཚད།"
+
+#: ../app/core/gimpunit.c:62
+msgid "points"
+msgstr "ཡིག་ཚད་ཚུ།"
+
+#: ../app/core/gimpunit.c:63
+msgid "pica"
+msgstr "པི་ཀ།"
+
+#: ../app/core/gimpunit.c:63
+msgid "picas"
+msgstr "པི་ཀསི།"
+
+#: ../app/core/gimpunit.c:70
+msgid "percent"
+msgstr "བརྒྱ་ཆ།"
+
+#: ../app/dialogs/about-dialog.c:45
+#, c-format
+msgid "Version %s brought to you by"
+msgstr "གིས་ཁྱོད་ལུ་འབག་འོང་མི་ཐོན་རིམ %s།"
+
+#: ../app/dialogs/about-dialog.c:51
+msgid "Translation by"
+msgstr "གིས་སྐད་བསྒྱུར།"
+
+#. Translators: insert your names here, separated by newline
+#. we'd prefer just the names, please no email addresses.
+#: ../app/dialogs/about-dialog.c:54
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་ སྐད་བསྒྱུར་པ ངོ་བསྟོད།"
+
+#: ../app/dialogs/about-dialog.c:59
+msgid "Contributions by"
+msgstr "གིས་ཕན་འདེབས་ཚུ།"
+
+#: ../app/dialogs/about-dialog.c:153
+msgid "About The GIMP"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི་སྐོར་ལས།"
+
+#: ../app/dialogs/channel-options-dialog.c:138
+msgid "Channel Name:"
+msgstr "རྒྱུ་ལམ་ མིང་།"
+
+#: ../app/dialogs/convert-dialog.c:121
+msgid "Indexed Color Conversion"
+msgstr "ཚོས་གཞི་ ཟུར་སྦྲགས་ཅན་ གཞི་བསྒྱུར་འབད་མི།"
+
+#: ../app/dialogs/convert-dialog.c:124
+msgid "Convert Image to Indexed Colors"
+msgstr "གཟུགས་བརྙན་ ཚོས་གཞི་ ཟུར་སྦརགས་ཅན་ལུ་ གཞི་བསྒྱུར་འབད། "
+
+#: ../app/dialogs/convert-dialog.c:165
+#: ../app/dialogs/dialogs.c:171
+msgid "Colormap"
+msgstr "ཚོས་གཞི་ས་ཁྲ།"
+
+#: ../app/dialogs/convert-dialog.c:179
+msgid "_Maximum number of colors:"
+msgstr "ཚོས་གཞི་གི་ གྱངས་ཁ་ མང་མཐའ།(_M)"
+
+#: ../app/dialogs/convert-dialog.c:206
+msgid "_Remove unused colors from final palette"
+msgstr "ལག་ལེན་མ་འཐབ་མི་ ཚོས་གཞི་ཚུ་ མཐའ་མཇུག་གི་ པེ་ལིཊི་ནང་ལས་ རྩ་བསྐྲད་གཏང་།(_R)"
+
+#. dithering
+#: ../app/dialogs/convert-dialog.c:221
+#: ../app/tools/gimpblendoptions.c:269
+msgid "Dithering"
+msgstr "སྤར་དོ།"
+
+#: ../app/dialogs/convert-dialog.c:233
+msgid "Color _dithering:"
+msgstr "ཚོས་གཞི་ སྤར་དོ།(_d)"
+
+#: ../app/dialogs/convert-dialog.c:248
+msgid "Enable dithering of _transparency"
+msgstr "དྭངས་གསལ་ཅན་ སྤར་ནི་ལུ་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../app/dialogs/convert-dialog.c:274
+msgid "Converting to indexed..."
+msgstr "ཟུར་སྦྲགས་ཅན་ལུ གཞི་བསྒྱུར་འབད་དོ།..."
+
+#: ../app/dialogs/convert-dialog.c:384
+msgid "Cannot convert to a palette with more than 256 colors."
+msgstr "པེ་ལིཊི་ནང་ལུ་ ༢༥༦ ཚོས་གཞི་གི་ཐོག་ལས་ གཞི་བསྒྱུར་འབད་མི་བཏུབ།"
+
+#: ../app/dialogs/dialogs-constructors.c:164
+#: ../app/gui/gui.c:161
+msgid "GIMP Message"
+msgstr "ཇི་ཨའི་ཨེམ་པི འཕྲིན་དོན།"
+
+#: ../app/dialogs/dialogs.c:127
+msgid "Devices"
+msgstr "ཐབས་འཕྲུལ།"
+
+#: ../app/dialogs/dialogs.c:127
+msgid "Device Status"
+msgstr "ཐབས་འཕྲུལ་ གནས་ཚད།"
+
+#: ../app/dialogs/dialogs.c:131
+msgid "Errors"
+msgstr "འཛོལ་བ།"
+
+#: ../app/dialogs/dialogs.c:152
+msgid "History"
+msgstr "ཧྔོན་རབ།"
+
+#: ../app/dialogs/dialogs.c:154
+msgid "Image Templates"
+msgstr "གཟུགས་བརྙན་ཊེམ་པེ་ལིཊི།"
+
+#: ../app/dialogs/dialogs.c:175
+msgid "Histogram"
+msgstr "ཧིསི་ཊོ་ག་རམ།"
+
+#: ../app/dialogs/dialogs.c:179
+msgid "Selection"
+msgstr "སེལ་འཐུ།"
+
+#: ../app/dialogs/dialogs.c:179
+msgid "Selection Editor"
+msgstr "སེལ་འཐུ ཞུན་དག་པ།་པ།"
+
+#: ../app/dialogs/dialogs.c:183
+msgid "Undo History"
+msgstr "སྔོན་རབས་ འབདཝ་བཤོལ་ད།"
+
+#: ../app/dialogs/dialogs.c:189
+msgid "Navigation"
+msgstr "འགྲུལ་བསྐྱོདཔ།"
+
+#: ../app/dialogs/dialogs.c:189
+msgid "Display Navigation"
+msgstr "འགྲུལ་བསྐྱོདཔ་ བཀྲམ་སྟོན་འབད།"
+
+#: ../app/dialogs/dialogs.c:195
+msgid "FG/BG"
+msgstr "ཨེཕི་ཇི/ བི་ཇི།"
+
+#: ../app/dialogs/dialogs.c:195
+msgid "FG/BG Color"
+msgstr "ཨེཕི/བི་ཇི་ཚོད་གཞི།"
+
+#: ../app/dialogs/dialogs.c:201
+msgid "Brush Editor"
+msgstr "པྱིར་ཞུན་དག་པ།"
+
+#: ../app/dialogs/file-open-location-dialog.c:71
+msgid "Open Location"
+msgstr "གནས་ཁོངས་ཁ་ཕྱེ།"
+
+#: ../app/dialogs/file-open-location-dialog.c:104
+msgid "Enter location (URI):"
+msgstr "གནས་ཁོངས་ ཐོ་བཀོད་འབད།(ཡུ་ཨཱར་ཨེལ):"
+
+#: ../app/dialogs/file-save-dialog.c:185
+msgid "File exists"
+msgstr "ཡིག་སྣོད་གནས་ཏེ་ཡོད།"
+
+#: ../app/dialogs/file-save-dialog.c:190
+msgid "_Replace"
+msgstr "ཚབ་བཙུགས།(_R)"
+
+#: ../app/dialogs/file-save-dialog.c:200
+#, c-format
+msgid "A file named '%s' already exists."
+msgstr "'%s' ཟེར་མི་ཡིག་སྣོད་དེ་ ཧེ་མ་ལས་རང་ཡོད།"
+
+#: ../app/dialogs/file-save-dialog.c:205
+msgid "Do you want to replace it with the image you are saving?"
+msgstr "ཁྱོད་ཀྱིས་ གཟུགས་བརྙན་སྲུང་བཞག་འབད་བའི་སྒང་ཡོད་མི་གཅིག་ཁར་ འདི་ ཚབ་མ་བཙུགས་ནི་ཨིན་ན?"
+
+#: ../app/dialogs/grid-dialog.c:81
+msgid "Configure Grid"
+msgstr "གིརིཌི རིམ་སྒྲིག་འབད།"
+
+#: ../app/dialogs/grid-dialog.c:82
+msgid "Configure Image Grid"
+msgstr "གཟུགས་བརྙན་ གིརིཌི་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/dialogs/image-merge-layers-dialog.c:60
+msgid "Merge Layers"
+msgstr "བང་རིམ་ཚུ་ མཉམ་བསྡོམས་འབད།"
+
+#: ../app/dialogs/image-merge-layers-dialog.c:62
+msgid "Layers Merge Options"
+msgstr "བང་རིམ་ཚུ་ མཉམ་བསྡོམས་འབད་ནི་གི་ གདམ་ཁ།"
+
+#: ../app/dialogs/image-merge-layers-dialog.c:77
+msgid "Final, Merged Layer should be:"
+msgstr "མཐའ་མཇུག་ མཉམ་བསྡོམས་འབད་ཚར་མི་ བང་རིམ་ཚུ་ ག་དེ་སྦེ་དགོཔ་སྨོ་ཟེར་བ་ཅིན།"
+
+#: ../app/dialogs/image-merge-layers-dialog.c:81
+msgid "Expanded as necessary"
+msgstr "ཉེར་མཁོ་ཡོདཔ་ལས་ རྒྱ་འཕར་འབད་ཡི།"
+
+#: ../app/dialogs/image-merge-layers-dialog.c:84
+msgid "Clipped to image"
+msgstr "གཟུགས་བརྙན་ལུ་ འཛིན་ནུག"
+
+#: ../app/dialogs/image-merge-layers-dialog.c:87
+msgid "Clipped to bottom layer"
+msgstr "མཇུག་གི་བང་རིམ་ལུ་ འཛིན་ནུག"
+
+#: ../app/dialogs/image-new-dialog.c:95
+msgid "Create a New Image"
+msgstr "གཟུགས་བརྙན་གསརཔ་ གསར་བསྐྲུན་འབད།"
+
+#: ../app/dialogs/image-new-dialog.c:130
+#: ../app/dialogs/preferences-dialog.c:1313
+msgid "_Template:"
+msgstr "ཊེམ་པེལེཊི།(_T)"
+
+#: ../app/dialogs/image-new-dialog.c:265
+msgid "Confirm Image Size"
+msgstr "གཟུགས་བརྙན་གྱི་ཚད ངེས་གཏན་བཟོ།"
+
+#: ../app/dialogs/image-new-dialog.c:282
+#: ../app/dialogs/image-scale-dialog.c:193
+#, c-format
+msgid "You are trying to create an image with a size of %s."
+msgstr "ཁྱོད་  %s.ཚད་ཀྱི་ཐོག་ལས གཟུགས་བརྙན་ གསར་བསྐྲུན་འབད་ནི་ལུ འབད་རྩོལ་བསྐྱེད་དོ་ག"
+
+#: ../app/dialogs/image-new-dialog.c:289
+#, c-format
+msgid "An image of the choosen size will use more memory than what is configured as \"Maximum Image Size\" in the Preferences dialog (currently %s)."
+msgstr "འདམ་ཁ་རྐྱབས་ཚར་མི་ གཟུགས་བརྙན་གྱི་ཚད་ཀྱིས དགའ་འདམ་གྱི་ཌའི་ལོག་ནང་ལུ  \"གཟུགས་བརྙན་གྱི་ཚད་མང་མཐའ\"་ རིམ་སྒྲིག་སྦེ་ཡོད་མི་ལས་ལྷག་སྟེ་ དྲན་ཚད་ ཧེང་བཀལ་ ལག་ལེན་འཐབ་ཨིན།(ད་ལྟོ་ཡོད་མི་%s)"
+
+#: ../app/dialogs/image-scale-dialog.c:164
+msgid "Confirm Scaling"
+msgstr "ཆ་ཚད་འཇལ་ནི ངེས་གཏན་བཟོ།"
+
+#: ../app/dialogs/image-scale-dialog.c:199
+#, c-format
+msgid "Scaling the image to the choosen size will make it use more memory than what is configured as \"Maximum Image Size\" in the Preferences dialog (currently %s)."
+msgstr "འདམ་ཁ་རྐྱབས་ཡོད་མི་ ཚད་ལུ་ གཟུགས་བརྙན་གྱི་ ཆ་ཚད་འཇལ་མི་དེ་གིས དགའ་འདམ་ཌའི་ལོག་ནང་ལུ \"གཟུགས་བརྙན་གྱི་ཚད་མང་མཐའ\"སྦེ་རིམ་སྒྲིག་འབད་ཡོད་མི་དེ་ལས་ལྷག་སྟེ་ དེ་གིས་དྲན་ཚད་ལག་ལེན་འཐབ་ཨིན། (ད་ལྟོ་ %s)."
+
+#: ../app/dialogs/image-scale-dialog.c:214
+msgid "Scaling the image to the choosen size will shrink some layers completely away."
+msgstr "འདམ་ཁ་རྐྱབས་ཡོད་མི་ཚད་ལུ་ གཟུགས་བརྙན་གྱི་ཆ་ཚད་འཇལ་མི་དེ་གིས་  བང་རིམ་ལ་ལུ་ཅིག་གི་ཚད རྩ་བ་ལས་བཀུམ་འགྱོ་འོང་།"
+
+#: ../app/dialogs/image-scale-dialog.c:218
+msgid "Is this what you want to do?"
+msgstr "ཁྱོད་འབད་གོ་མནོ་མི་ འ་ནི་ཨིན་ན?"
+
+#. General
+#: ../app/dialogs/info-dialog.c:377
+#: ../app/dialogs/preferences-dialog.c:1543
+#: ../app/dialogs/preferences-dialog.c:1697
+#: ../app/widgets/gimpcontrollereditor.c:197
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../app/dialogs/info-window.c:83
+msgid "Static Gray"
+msgstr "རྟག་བརྟན་སྐྱ་ཐལ།"
+
+#: ../app/dialogs/info-window.c:84
+#: ../app/dialogs/info-window.c:610
+msgid "Grayscale"
+msgstr "ཆ་ཚད་སྐྱ་ཐལ།"
+
+#: ../app/dialogs/info-window.c:85
+msgid "Static Color"
+msgstr "ཚོས་གཞི་རྟག་བརྟན།"
+
+#: ../app/dialogs/info-window.c:86
+msgid "Pseudo Color"
+msgstr "སིའུ་ཌོ་ཚོས་གཞི།"
+
+#: ../app/dialogs/info-window.c:87
+msgid "True Color"
+msgstr "ཚོས་གཞི་བདེན་པ།"
+
+#: ../app/dialogs/info-window.c:88
+msgid "Direct Color"
+msgstr "ཐད་ཀར་ཚོས་གཞི།"
+
+#: ../app/dialogs/info-window.c:131
+msgid "Cursor"
+msgstr "འོད་རྟགས།"
+
+#: ../app/dialogs/info-window.c:141
+#: ../app/dialogs/preferences-dialog.c:1932
+#: ../app/widgets/gimpgrideditor.c:267
+#: ../app/widgets/gimpgrideditor.c:299
+msgid "Pixels"
+msgstr "པིག་སེལསི།"
+
+#: ../app/dialogs/info-window.c:151
+#: ../app/dialogs/info-window.c:157
+#: ../app/dialogs/info-window.c:173
+#: ../app/dialogs/info-window.c:179
+#: ../app/dialogs/info-window.c:425
+#: ../app/dialogs/info-window.c:426
+#: ../app/dialogs/info-window.c:427
+#: ../app/dialogs/info-window.c:428
+#: ../app/widgets/gimpcolorframe.c:338
+msgid "n/a"
+msgstr "ཨེན/ཨེ།"
+
+#: ../app/dialogs/info-window.c:154
+#: ../app/dialogs/info-window.c:176
+msgid "X"
+msgstr "ཨེསི།"
+
+#: ../app/dialogs/info-window.c:160
+#: ../app/dialogs/info-window.c:182
+msgid "Y"
+msgstr "ཝཡི།"
+
+#: ../app/dialogs/info-window.c:163
+#: ../app/pdb/internal_procs.c:212
+msgid "Units"
+msgstr "ཆ་ཕྲན།"
+
+#: ../app/dialogs/info-window.c:228
+msgid "Comment"
+msgstr "བསམ་བཀོད།"
+
+#: ../app/dialogs/info-window.c:248
+#: ../app/dialogs/info-window.c:634
+#: ../app/display/gimpdisplayshell-title.c:337
+#: ../app/display/gimpdisplayshell-title.c:349
+#: ../app/widgets/gimpactiongroup.c:806
+msgid "(none)"
+msgstr "(ཅི་མེད)"
+
+#: ../app/dialogs/info-window.c:275
+msgid "Info Window"
+msgstr "བརྡ་དོན་སྒོ་སྒྲིག"
+
+#: ../app/dialogs/info-window.c:277
+msgid "Image Information"
+msgstr "གཟུགས་བརྙན་བརྡ་དོན།"
+
+#. add the information fields
+#: ../app/dialogs/info-window.c:294
+msgid "Pixel dimensions:"
+msgstr "པིག་སེལ་གྱི་ རྒྱ་ཁྱོན།"
+
+#: ../app/dialogs/info-window.c:296
+msgid "Print size:"
+msgstr "དཔར་བསྐྲུན་གྱི་ཚད།"
+
+#: ../app/dialogs/info-window.c:298
+msgid "Resolution:"
+msgstr "ཧུམ་ཆ།"
+
+#: ../app/dialogs/info-window.c:300
+msgid "Scale ratio:"
+msgstr "ཆ་ཚད་ དཔྱ་ཚད།:"
+
+#: ../app/dialogs/info-window.c:302
+msgid "Number of layers:"
+msgstr "བང་རིམ་གྱི་ གྱངས་ཁ།"
+
+#: ../app/dialogs/info-window.c:304
+msgid "Size in memory:"
+msgstr "དྲན་ཚད་ནང་གི་ ཚད།"
+
+#: ../app/dialogs/info-window.c:306
+msgid "Display type:"
+msgstr "དབྱེ་བ་བཀྲམ་སྟོན་འབད།:"
+
+#: ../app/dialogs/info-window.c:308
+msgid "Visual class:"
+msgstr "མཐོང་བའི་དབྱེ་རིག:"
+
+#: ../app/dialogs/info-window.c:310
+msgid "Visual depth:"
+msgstr "མཐོང་བའི་གཏིང་ཚད།:"
+
+#: ../app/dialogs/info-window.c:575
+#, c-format
+msgid "pixels/%s"
+msgstr "པིག་སེལསི/%s"
+
+#: ../app/dialogs/info-window.c:577
+#, c-format
+msgid "%g x %g %s"
+msgstr "%g x %g %s"
+
+#: ../app/dialogs/info-window.c:580
+#: ../app/dialogs/preferences-dialog.c:1954
+msgid "dpi"
+msgstr "ཌི་པི་ཨའི།"
+
+#: ../app/dialogs/info-window.c:607
+msgid "RGB Color"
+msgstr "ཨར་ཇི་བི་ ཚོས་གཞི།"
+
+#: ../app/dialogs/info-window.c:614
+msgid "Indexed Color"
+msgstr "ཟུར་སྦྲགས་འབད་ཡོད་པའི་ཚོས་གཞི།"
+
+#: ../app/dialogs/info-window.c:614
+msgid "colors"
+msgstr "ཚོས་གཞི།"
+
+#: ../app/dialogs/layer-add-mask-dialog.c:64
+msgid "Add a Mask to the Layer"
+msgstr "བང་རིམ་གུར་ གདོང་ཁེབས་ཅིག ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/dialogs/layer-add-mask-dialog.c:86
+msgid "Initialize Layer Mask to:"
+msgstr "དེ་ལུ་ བང་རིམ་གདོང་ཁེབས་ འགོ་འབྱེད་འབད།"
+
+#: ../app/dialogs/layer-add-mask-dialog.c:96
+msgid "In_vert Mask"
+msgstr "གདོང་ཁེབས་གནས་ལོག་འབད།(_v)"
+
+#: ../app/dialogs/layer-options-dialog.c:116
+msgid "Layer _Name:"
+msgstr "བང་རིམ་གྱི་ མིང་།:(_N)"
+
+#. The size labels
+#: ../app/dialogs/layer-options-dialog.c:127
+#: ../app/tools/gimpcroptool.c:1046
+#: ../app/tools/gimpselectionoptions.c:529
+msgid "Width:"
+msgstr "རྒྱ་ཚད།"
+
+#: ../app/dialogs/layer-options-dialog.c:133
+#: ../app/tools/gimpcroptool.c:1050
+#: ../app/tools/gimpscaletool.c:166
+#: ../app/tools/gimpselectionoptions.c:537
+msgid "Height:"
+msgstr "མཐོ་ཚད།"
+
+#: ../app/dialogs/layer-options-dialog.c:190
+msgid "Layer Fill Type"
+msgstr "བང་རིམ་ བཀང་ནིའི དབྱེ་བ།"
+
+#: ../app/dialogs/layer-options-dialog.c:205
+msgid "Set Name from _Text"
+msgstr "ཚིག་ཡིག་ནང་ལས་ མིང་གཞི་སྒྲིག་འབད།(_T)"
+
+#: ../app/dialogs/module-dialog.c:122
+msgid "Module Manager"
+msgstr "ཚད་གཞི འཛིན་སྐྱོང་པ།"
+
+#: ../app/dialogs/module-dialog.c:124
+msgid "Manage Loadable Modules"
+msgstr "མངོན་གསལ་འབད་བཏུབ་པའི་ ཚད་གཞི འཛིན་སྐྱོང་འཐབ།"
+
+#: ../app/dialogs/module-dialog.c:168
+msgid "Autoload"
+msgstr "རང་བཞིན་མངོན་གསལ།"
+
+#: ../app/dialogs/module-dialog.c:175
+msgid "Module path"
+msgstr "ཚད་གཞི་འགྲུལ་ལམ།"
+
+#: ../app/dialogs/module-dialog.c:418
+msgid "<No modules>"
+msgstr "<ཚད་གཞི་ མེད།>>"
+
+#: ../app/dialogs/module-dialog.c:430
+#: ../app/dialogs/module-dialog.c:439
+msgid "On disk"
+msgstr "ཌིགསི་གུར།"
+
+#: ../app/dialogs/module-dialog.c:430
+msgid "Only in memory"
+msgstr "དྲན་ཚད་ནང་ལུ་ རྐྱངམ་ཅིག"
+
+#: ../app/dialogs/module-dialog.c:439
+msgid "No longer available"
+msgstr "ད་ལས་ཕར་ འཐོབ་ཚུགས།"
+
+#: ../app/dialogs/module-dialog.c:475
+msgid "Load"
+msgstr "མངོན་གསལ་འབད།"
+
+#: ../app/dialogs/module-dialog.c:477
+msgid "Query"
+msgstr "འདྲི་དཔྱད།"
+
+#: ../app/dialogs/module-dialog.c:484
+msgid "Unload"
+msgstr "མངོན་གསལ་བཤོལ།"
+
+#: ../app/dialogs/module-dialog.c:499
+msgid "Purpose:"
+msgstr "དགོས་དོན།"
+
+#: ../app/dialogs/module-dialog.c:500
+msgid "Author:"
+msgstr "རྩོམ་པ་པོ།"
+
+#: ../app/dialogs/module-dialog.c:501
+msgid "Version:"
+msgstr "ཐོན་རིམ།"
+
+#: ../app/dialogs/module-dialog.c:502
+msgid "Copyright:"
+msgstr "འདྲ་བཤུས་དབང་ཆ།"
+
+#: ../app/dialogs/module-dialog.c:503
+msgid "Date:"
+msgstr "ཚེས་གྲངས།"
+
+#: ../app/dialogs/module-dialog.c:504
+msgid "Location:"
+msgstr "གནས་ཁོངས།"
+
+#: ../app/dialogs/module-dialog.c:505
+#: ../app/widgets/gimpcontrollereditor.c:242
+msgid "State:"
+msgstr "གནས་ལུགས།"
+
+#: ../app/dialogs/module-dialog.c:506
+msgid "Last Error:"
+msgstr "མཇུག་གྱི་ འཛོལ་བ།:"
+
+#: ../app/dialogs/module-dialog.c:507
+msgid "Available Types:"
+msgstr "འཐོབ་ཚུགས་པའི་ དབྱེ་བ།:"
+
+#: ../app/dialogs/offset-dialog.c:98
+msgid "Offset Layer"
+msgstr "པར་ལེན བང་རིམ།"
+
+#: ../app/dialogs/offset-dialog.c:100
+msgid "Offset Layer Mask"
+msgstr "དཔར་ལེན་ བང་རིམ་གྱི་ གདོང་ཁེབས།"
+
+#: ../app/dialogs/offset-dialog.c:102
+msgid "Offset Channel"
+msgstr "དཔར་ལེན་ རྒྱུ་ལམ།"
+
+#. The offset frame
+#: ../app/dialogs/offset-dialog.c:108
+#: ../app/dialogs/offset-dialog.c:136
+#: ../app/dialogs/resize-dialog.c:185
+#: ../app/widgets/gimpgrideditor.c:274
+msgid "Offset"
+msgstr "དཔར་ལེན།"
+
+#: ../app/dialogs/offset-dialog.c:168
+#: ../app/dialogs/resize-dialog.c:214
+msgid "_X:"
+msgstr "ཨེགསི།(_X)"
+
+#: ../app/dialogs/offset-dialog.c:170
+#: ../app/dialogs/resize-dialog.c:215
+msgid "_Y:"
+msgstr "ཝཡི།(_Y)"
+
+#: ../app/dialogs/offset-dialog.c:197
+msgid "Offset by  x/_2, y/2"
+msgstr "ཨེགསི/_༢, ཝཡི/༢ གི་སྦེ་དཔར་ལེན་འབད།"
+
+#. The edge behaviour frame
+#: ../app/dialogs/offset-dialog.c:206
+msgid "Edge Behaviour"
+msgstr "མཐའ་ཟུར་སྤྱོད་ལམ།"
+
+#: ../app/dialogs/offset-dialog.c:210
+msgid "_Wrap around"
+msgstr "མཐའ་སྐོར ལོག་མཚམས་བཟོ།(_W)"
+
+#: ../app/dialogs/offset-dialog.c:213
+msgid "Fill with _background color"
+msgstr "རྒྱབ་གཞི་ ཚོས་གཞི་དང་བཅས་ བཀང་།"
+
+#: ../app/dialogs/offset-dialog.c:216
+msgid "Make _transparent"
+msgstr "དྭངས་གསལ་བཟོ།(_t)"
+
+#: ../app/dialogs/palette-import-dialog.c:171
+msgid "Import Palette"
+msgstr "པེ་ལིཊི ནང་འདྲེན་འབད།"
+
+#: ../app/dialogs/palette-import-dialog.c:173
+msgid "Import a New Palette"
+msgstr "པེ་ལིཊི་གསརཔ་ ནང་འདྲེན་འབད།"
+
+#: ../app/dialogs/palette-import-dialog.c:179
+msgid "_Import"
+msgstr "ནང་འདྲེན།(_I)"
+
+#. The "Source" frame
+#: ../app/dialogs/palette-import-dialog.c:208
+msgid "Select Source"
+msgstr "འབྱུང་ཁུངས སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/palette-import-dialog.c:231
+msgid "I_mage"
+msgstr "གཟིགས་བརྙན།(_m)"
+
+#: ../app/dialogs/palette-import-dialog.c:246
+msgid "Palette _file"
+msgstr "པེ་ལིཊི ཡིག་སྣོད།(_f)"
+
+#: ../app/dialogs/palette-import-dialog.c:273
+msgid "Select palette file"
+msgstr "པེ་ལིཊི་ཡིག་སྣོད་ སེལ་འཐུ་འབད།"
+
+#. The "Import" frame
+#: ../app/dialogs/palette-import-dialog.c:304
+msgid "Import Options"
+msgstr "འདམ་ཁ་ ནང་འདྲེན་འབད།"
+
+#: ../app/dialogs/palette-import-dialog.c:317
+msgid "New import"
+msgstr "ནང་འདྲེན་ གསརཔ།"
+
+#: ../app/dialogs/palette-import-dialog.c:319
+msgid "Palette _Name:"
+msgstr "པེ་ལིཊི་མིང་།:(_N)"
+
+#: ../app/dialogs/palette-import-dialog.c:325
+msgid "N_umber of colors:"
+msgstr "ཚོས་གཞི་གི་ ཨང་གྲངས།(_u)"
+
+#: ../app/dialogs/palette-import-dialog.c:338
+msgid "C_olumns:"
+msgstr "ཀེར་ཐིག(_o)"
+
+#: ../app/dialogs/palette-import-dialog.c:350
+msgid "I_nterval:"
+msgstr "བར་མཚམས། (_n)"
+
+#. The "Preview" frame
+#: ../app/dialogs/palette-import-dialog.c:362
+msgid "Preview"
+msgstr "སྔོན་བལྟ།"
+
+#: ../app/dialogs/preferences-dialog.c:294
+msgid "You will have to restart GIMP for the following changes to take effect:"
+msgstr "འོག་གི་བསྒྱུར་བཅོས་ཚུ་ ནུས་པ་ཅན་སྦེ་ བཟོ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཨེམ་པི་དེ་ ལོག་འགོ་བཙུགས་གོ "
+
+#: ../app/dialogs/preferences-dialog.c:501
+msgid "Configure Keyboard Shortcuts"
+msgstr "ལྡེ་སྒྲོམ་ མགྱོགས་ཐབས་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:551
+msgid "To edit a shortcut key, click on the corresponding row and type a new accelerator, or press backspace to clear."
+msgstr "ལྡེ་མིག་ མགྱོགས་ཐབས ཞུན་དག་འབད་ནིའི་དོན་ལུ མཉམ་པའི་གྲལ་ཐིག་གུར་ གཡེབ་གཏང་འབད་ནི་དང མགྱོགས་འཕྲུལ་གསརཔ་ ཡིག་དཔར་རྐྱབས ཡང་ན བསལ་ནིའི་དོན་ལུ རྒྱབ་བཤུད གཡེབ།"
+
+#: ../app/dialogs/preferences-dialog.c:595
+msgid "Your keyboard shortcuts will be reset to default values the next time you start GIMP."
+msgstr "ཤུལ་མམ་གྱི་སྐབས་ལུ་ ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཇེམ་པི་ འགོ་བཙུགསཔ་ད་ལུ་ ཁྱོད་ཀྱི་ ལྡེ་སྒྲོམ་མགྱོགས་ཐབས་དེ་  སྔོན་སྒྲིག་གནས་གོང་ནང་ལུ་ བསྐྱར་སྒྲིག་འབད་འོང་།"
+
+#: ../app/dialogs/preferences-dialog.c:629
+msgid "Your window setup will be reset to default values the next time you start GIMP."
+msgstr "ཤུལ་མམ་གྱི་སྐབས་ལུ་ ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཇེམ་པི་ འགོ་བཙུགསཔ་ད་ལུ་ ཁྱོད་ཀྱི་སྒོ་སྒྲིག་ གཞི་སྒྲིག་དེ་ སྔོན་སྒྲིག་གནས་གོང་ལུ་ བསྐྱར་སྒྲིག་འབད་འོང་།"
+
+#: ../app/dialogs/preferences-dialog.c:663
+msgid "Your input device settings will be reset to default values the next time you start GIMP."
+msgstr "ཤུལ་མམ་གྱི་སྐབས་ལུ་ ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཇེམ་པི་ འགོ་བཙུགསཔ་ད་ལུ་ ཁྱོད་ཀྱི་ ཨིན་པུཊི་ ཐབས་འཕྲུལ་སྒྲིག་སྟངས་དེ་ སྔོན་སྒྲིག་གནས་གོང་ལུ བསྐྱར་སྒྲིག་འབད་འོང་།"
+
+#: ../app/dialogs/preferences-dialog.c:1082
+msgid "Show _menubar"
+msgstr "དཀར་ཆག་ ཕྲ་རིང་ སྟོན།(_m)"
+
+#: ../app/dialogs/preferences-dialog.c:1085
+msgid "Show _rulers"
+msgstr "ཐིག་ཤིང་ཚུ་ སྟོན།(_r)"
+
+#: ../app/dialogs/preferences-dialog.c:1088
+msgid "Show scroll_bars"
+msgstr "བཤུད་སྒྲིལ ཕྲ་རིང་ སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1091
+msgid "Show s_tatusbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1099
+msgid "Show s_election"
+msgstr "སེལ་འཐུ་ སྟོན།(_e)"
+
+#: ../app/dialogs/preferences-dialog.c:1102
+msgid "Show _layer boundary"
+msgstr "བང་རིམ་གྱི་ མཐའ་མཚམས་ སྟོན།(_l)"
+
+#: ../app/dialogs/preferences-dialog.c:1105
+msgid "Show _guides"
+msgstr "ལམ་སྟོན་པ་ སྟོན།(_g)"
+
+#: ../app/dialogs/preferences-dialog.c:1108
+msgid "Show gri_d"
+msgstr "གི་རིཊི སྟོན། (_d)"
+
+#: ../app/dialogs/preferences-dialog.c:1114
+msgid "Canvas _padding mode:"
+msgstr "འབྲི་གཞི་ བར་ཤབས་ཀྱི ཐབས་ལམ།(_p)"
+
+#: ../app/dialogs/preferences-dialog.c:1119
+msgid "Custom p_adding color:"
+msgstr "སྲོལ་སྒྲིག་ བར་ཤབས་ཀྱི་ ཚོས་གཞི། "
+
+#: ../app/dialogs/preferences-dialog.c:1120
+msgid "Select custom canvas padding color"
+msgstr "སྲོལ་སྒྲིག་འབྲི་གཞི་བར་ཤབས་ཚོས་གཞི་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1191
+msgid "Preferences"
+msgstr "དགའ་འདམ།"
+
+#: ../app/dialogs/preferences-dialog.c:1294
+#: ../app/dialogs/preferences-dialog.c:1297
+msgid "New Image"
+msgstr "གཟུགས་བརྙན་གསརཔ།"
+
+#: ../app/dialogs/preferences-dialog.c:1335
+msgid "Default Image Grid"
+msgstr "གཟུགས་བརྙན་ གིརིཌི སྔོན་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1338
+msgid "Default Grid"
+msgstr "གིརིཌི་ སྔོན་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1358
+msgid "User Interface"
+msgstr "ལག་ལེན་པ ངོས་འདྲ་བ།"
+
+#: ../app/dialogs/preferences-dialog.c:1361
+msgid "Interface"
+msgstr "ངོས་འདྲ་བ།"
+
+#. Previews
+#: ../app/dialogs/preferences-dialog.c:1368
+msgid "Previews"
+msgstr "སྔོན་བསྟ།"
+
+#: ../app/dialogs/preferences-dialog.c:1371
+msgid "_Enable layer & channel previews"
+msgstr "བང་རིམ་དང རྒྱུ་ལམ་ སྔོན་བལྟ་ཚུ་ ལྕོགས་ཅན་བཟོ།(_E)"
+
+#: ../app/dialogs/preferences-dialog.c:1377
+msgid "Default _layer & channel preview size:"
+msgstr "བང་རིམ་དང་ རྒྱུ་ལམ་སྔོན་བལྟའི་ཚད་ སྔོན་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1380
+msgid "Na_vigation preview size:"
+msgstr "འགྲུལ་བསྐྱོད་ སྔོན་བལྟའི་ཚད།(_+v)"
+
+#. Keyboard Shortcuts
+#: ../app/dialogs/preferences-dialog.c:1384
+msgid "Keyboard Shortcuts"
+msgstr "ལྡེ་སྒྲོམ་ མགྱོགས་ཐབས།"
+
+#: ../app/dialogs/preferences-dialog.c:1388
+msgid "Show menu _mnemonics (access keys)"
+msgstr "དཀར་ཆག་ དྲན་སྐྱེད་ སྟོན། (འཛུལ་སྤྱོད་འབད་མི་ ལྡེ་མིག)"
+
+#: ../app/dialogs/preferences-dialog.c:1391
+msgid "Use _dynamic keyboard shortcuts"
+msgstr "ནུས་ཅན་གྱི་ ལྡེ་སྒྲོམ་མགྱོགས་ཐབས་ཚུ་ ལག་ལེན་འཐབ། (_d)"
+
+#: ../app/dialogs/preferences-dialog.c:1395
+msgid "Configure _Keyboard Shortcuts..."
+msgstr "ལྡེ་སྒྲོམ་ མགྱོགས་ཐབས་ཚུ་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1402
+msgid "_Save keyboard shortcuts on exit"
+msgstr "ལྡེ་སྒྲོམ་མགྱོགས་ཐབས་ཚུ་ ཕྱིར་ཐོན་གུར་ སྲུང་བཟག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1406
+msgid "Save Keyboard Shortcuts _Now"
+msgstr "ལྡེ་སྒརོམ་ མགྱོགས་ཐབས་ ད་ལྟོ་ སྲུང་བཞག་འབད། (_N)"
+
+#: ../app/dialogs/preferences-dialog.c:1413
+msgid "_Reset Saved Keyboard Shortcuts to Default Values"
+msgstr "སྲུང་བཞག་འབད་ཚར་མི ལྡཻ་སྒྲོམ་མགྱོགས་ཐབས་ཚུ སྔོན་སྒྲིག་ གནསགོང་ལུ་ བསཀྱར་སྒྲིག་འབད།(_R)"
+
+#: ../app/dialogs/preferences-dialog.c:1428
+#: ../app/dialogs/preferences-dialog.c:1431
+#: ../app/dialogs/preferences-dialog.c:1467
+msgid "Theme"
+msgstr "བརྗོད་དོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1437
+msgid "Select Theme"
+msgstr "བརྗོད་དོན་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1519
+msgid "Reload C_urrent Theme"
+msgstr "ད་ལྟོའི་ བརྗོད་དོན ཡང་བསྐྱར་མངོན་གསལ་འབད། (_u)"
+
+#: ../app/dialogs/preferences-dialog.c:1531
+#: ../app/dialogs/preferences-dialog.c:1534
+msgid "Help System"
+msgstr "གྲོགས་རམ་ རིམ་ལུགས།"
+
+#: ../app/dialogs/preferences-dialog.c:1546
+msgid "Show tool _tips"
+msgstr "ལག་ཆས་ ཕན་བསླབ་སྟོན།(_t)"
+
+#: ../app/dialogs/preferences-dialog.c:1549
+msgid "Show help _buttons"
+msgstr "གྲོགས་རམ་ གཡེབ་རྟ་སྟོན།(_b)"
+
+#: ../app/dialogs/preferences-dialog.c:1552
+msgid "Show tips on _startup"
+msgstr "ཕན་བསླབ་ཚུ་ འགོ་བཙ྄གས་གུར་ སྟོན། (_s)"
+
+#. Help Browser
+#: ../app/dialogs/preferences-dialog.c:1556
+msgid "Help Browser"
+msgstr "གྲོགས་རམ་ བརའུ་ཟར།"
+
+#: ../app/dialogs/preferences-dialog.c:1560
+msgid "H_elp browser to use:"
+msgstr "བརའུ་ཟར ལག་ལེན་འཐབ་ནིའི་དོན་ལུ གྲོགས་རམ་འབད། (_e)"
+
+#: ../app/dialogs/preferences-dialog.c:1565
+msgid "Web Browser"
+msgstr "ཝེབ་ བརའུ་ཟར།"
+
+#: ../app/dialogs/preferences-dialog.c:1569
+msgid "Select web browser"
+msgstr "ཝེབ་ བརའུ་ཟར སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1572
+msgid "_Web browser to use:"
+msgstr "ལག་ལེན་འཐབ་ནི་ལུ་ ཝེབ་བརའུ་ཟར། (_W)"
+
+#. Snapping Distance
+#: ../app/dialogs/preferences-dialog.c:1597
+msgid "Guide and Grid Snapping"
+msgstr "འཁྱིད་ནི་དང་གིརིཌི་ པར་བཏབ་དོ།"
+
+#: ../app/dialogs/preferences-dialog.c:1602
+msgid "_Snap distance:"
+msgstr "གྱང་ཚད དཔར་བཏབ། (_S)"
+
+#. Contiguous Regions
+#: ../app/dialogs/preferences-dialog.c:1606
+msgid "Finding Contiguous Regions"
+msgstr "ཉེ་འདབས་ལུང་ཕྱོགས་ཚུ་འཚོལ་དོ།"
+
+#: ../app/dialogs/preferences-dialog.c:1611
+msgid "Default _threshold:"
+msgstr "ཐེརེཤ་ཧཱོལཌ་ སྔོན་སྒྲིག:(_t)"
+
+#. Scaling
+#: ../app/dialogs/preferences-dialog.c:1615
+msgid "Scaling"
+msgstr "ཆ་ཚད་བསྐྱལ་དོ།"
+
+#: ../app/dialogs/preferences-dialog.c:1619
+msgid "Default _interpolation:"
+msgstr "བསྐྱར་བསྣོན སྔོན་སྒྲིག་འབད། (_i)"
+
+#. Global Brush, Pattern, ...
+#: ../app/dialogs/preferences-dialog.c:1623
+msgid "Paint Options Shared Between Tools"
+msgstr "ལག་ཆས་ཚུ་གི་བར་ན རུབ་སྤྱོད་འབད་མི  ཚོན་གྱི་འདམ་ཁ།"
+
+#: ../app/dialogs/preferences-dialog.c:1636
+msgid "Move Tool"
+msgstr "ལག་ཆས་ སྤོ་བཤུད་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1640
+msgid "Change current layer or path"
+msgstr "ད་ལྟོའི་ བང་རིམ་ ཡང་ན་ འགྲུལ་ལམ་ བསྒྱ྄ར་བཅོས་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1653
+#: ../app/dialogs/preferences-dialog.c:1656
+msgid "Toolbox"
+msgstr "ལག་ཆས་ སྒྲོམ།"
+
+#. Appearance
+#: ../app/dialogs/preferences-dialog.c:1663
+#: ../app/dialogs/preferences-dialog.c:1760
+#: ../app/widgets/gimpgrideditor.c:206
+msgid "Appearance"
+msgstr "འབྱུང་སྣང་།"
+
+#: ../app/dialogs/preferences-dialog.c:1667
+msgid "Show _foreground & background color"
+msgstr "གདོང་གཞི་དང་ རྒྱབ་གཞི་གི་ ཚོན་སྟོན། (_f)"
+
+#: ../app/dialogs/preferences-dialog.c:1671
+msgid "Show active _brush, pattern & gradient"
+msgstr "ཤུགས་ལྡན་ པྱིར་དང་ དཔེ་གཞི་  སྟེགས་རིས་ ཚུ་སྟོན། (_b)"
+
+#: ../app/dialogs/preferences-dialog.c:1675
+msgid "Show active _image"
+msgstr "ཤུགས་ལྡན་ གཟུགས་བརྙན་སྟོན། (_i)"
+
+#: ../app/dialogs/preferences-dialog.c:1685
+#: ../app/dialogs/preferences-dialog.c:1688
+msgid "Image Windows"
+msgstr "གཟུགས་བརྙན་ སྒོ་སྒྲིག"
+
+#: ../app/dialogs/preferences-dialog.c:1700
+msgid "Use \"_Dot for dot\" by default"
+msgstr "\"_Dot for dot\"དེ་ སྔོན་སྒྲིག་ཐོེག་ལས་ ལག་ལེན་འཐབ།"
+
+#: ../app/dialogs/preferences-dialog.c:1706
+msgid "Marching _ants speed:"
+msgstr "གྱོག་མོའི་ མྒྱོགས་ཚད་ ཁྲབ་བསྐྱོད་འབད་དོ། (_a)"
+
+#. Zoom & Resize Behavior
+#: ../app/dialogs/preferences-dialog.c:1710
+msgid "Zoom & Resize Behavior"
+msgstr "ཕྱིར་རྒྱས་འབད་དེ་ སྤྱོད་ལམ་ ཚད་བསྐྱར་བཟོ།"
+
+#: ../app/dialogs/preferences-dialog.c:1714
+msgid "Resize window on _zoom"
+msgstr "ཕྱིར་རྒྱས་གུར སྒོ་སྒྲིག་ ཚད་བསྐྱར་བཟོ། (_z)"
+
+#: ../app/dialogs/preferences-dialog.c:1717
+msgid "Resize window on image _size change"
+msgstr "གཟུགས་བརྙན་གྱི་ཚད་ བསྒྱུར་བཅོས་གུར སྒོ་སྒྲིག་ ཚད་བསྐྱར་བཟོ། (_s)"
+
+#: ../app/dialogs/preferences-dialog.c:1723
+msgid "Fit to window"
+msgstr "སྒོ་སྒྲིག་ལུ་ ཚུད་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1725
+msgid "Initial zoom _ratio:"
+msgstr "འགོ་ཐོག་ ཕྱིར་རྒྱས་ཀྱི་དཔྱ་ཚད། (_r)"
+
+#. Mouse Cursors
+#: ../app/dialogs/preferences-dialog.c:1729
+msgid "Mouse Cursors"
+msgstr "མའུསི་ འོད་རྟགས་ཚུ།"
+
+#: ../app/dialogs/preferences-dialog.c:1733
+msgid "Show _brush outline"
+msgstr "པྱིར་གྱི་ མཐའ་ཐིགསྟོན། (_b)"
+
+#: ../app/dialogs/preferences-dialog.c:1736
+msgid "Show paint _tool cursor"
+msgstr "ལག་ཆས་འོད་རྟགས་ཚོན་ སྟོན།(_t)"
+
+#: ../app/dialogs/preferences-dialog.c:1742
+msgid "Cursor _mode:"
+msgstr "འོད་རྟགས་ཐབས་ལམ།:(_m)"
+
+#: ../app/dialogs/preferences-dialog.c:1745
+msgid "Cursor re_ndering:"
+msgstr "འོད་རྟགས་ལྷག་སྟོན་དོ།:(_n)"
+
+#: ../app/dialogs/preferences-dialog.c:1757
+msgid "Image Window Appearance"
+msgstr "གཟུགས་བརྙན་ སྒཽ་སྒྲིག་གི་འབྱུང་སྣང་།"
+
+#: ../app/dialogs/preferences-dialog.c:1768
+msgid "Default Appearance in Normal Mode"
+msgstr "སྤྱིར་བཏང་གི་ ཐབས་ལམ་ནང་ འབྱུང་སྣང་ སྔོན་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1773
+msgid "Default Appearance in Fullscreen Mode"
+msgstr "གསལ་གཞི་ ཆ་ཚང་གི་ ཐབས་ལམ་ནང་ འབྱུང་སྣང་ སྔོན་སྒྲིག་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:1782
+msgid "Image Title & Statusbar Format"
+msgstr "གཟུགས་བརྙན་མགོ་མིང་ དང་ གནས་ཚད་ཕྲ་རིང་གི་ རྩ་སྒྲིག "
+
+#: ../app/dialogs/preferences-dialog.c:1785
+msgid "Title & Status"
+msgstr "མགོ་མིང་དང་ གནས་ཚད་ཕྲ་རིང་།"
+
+#: ../app/dialogs/preferences-dialog.c:1805
+msgid "Standard"
+msgstr "ཚད་ལྡན།"
+
+#: ../app/dialogs/preferences-dialog.c:1806
+msgid "Show zoom percentage"
+msgstr "ཕྱིར་རྒྱས་ཀྱི་ བརྒྱ་ཆ་སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1807
+msgid "Show zoom ratio"
+msgstr "ཕྱིར་རྒྱས་ཀྱི་ དཔྱ་ཚད་སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1808
+msgid "Show image size"
+msgstr "གཟུགས་བརྙན་གྱི་ ཚད་སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1809
+msgid "Show memory usage"
+msgstr "ལག་ལེན་དྲན་ཚད་སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1820
+msgid "Image Title Format"
+msgstr "གཟུགས་བརྙན་ མགོ་མིང་གི རྩ་སྒྲིག"
+
+#: ../app/dialogs/preferences-dialog.c:1821
+msgid "Image Statusbar Format"
+msgstr "གཟུགས་བརྙན་ གནས་ཚད་ཕྲ་རིང་གི རྩ་སྒྲིག"
+
+#: ../app/dialogs/preferences-dialog.c:1906
+#: ../app/dialogs/preferences-dialog.c:1909
+msgid "Display"
+msgstr "ཀྲམ་སྟོན།"
+
+#: ../app/dialogs/preferences-dialog.c:1922
+msgid "Transparency _type:"
+msgstr "དྭངས་གསལ་དབྱེ་བ།:(_t)"
+
+#: ../app/dialogs/preferences-dialog.c:1925
+msgid "Check _size:"
+msgstr "ཚད་ ཞིབ་དཔྱད་འབད། (_s)"
+
+#: ../app/dialogs/preferences-dialog.c:1928
+msgid "Get Monitor Resolution"
+msgstr "བལྟ་རྟོགས་ ཧུམ་ཆ་ལེན།"
+
+#: ../app/dialogs/preferences-dialog.c:1970
+#, c-format
+msgid "From _windowing system (currently %d x %d dpi)"
+msgstr "སྒོ་སྒྲིག་བཟོ་ནིའི་ རིམ་ལུགས ནང་ལས། (ད་ལྟོ་ %d ཨེགསི %d ཌི་པི་ཨའི) (_w)"
+
+#: ../app/dialogs/preferences-dialog.c:1993
+msgid "_Manually"
+msgstr "ལག་ཐོག། (_M)"
+
+#: ../app/dialogs/preferences-dialog.c:2008
+msgid "C_alibrate..."
+msgstr "ཚད་རྟགས་བཀལ། (_a)"
+
+#: ../app/dialogs/preferences-dialog.c:2028
+#: ../app/dialogs/preferences-dialog.c:2031
+msgid "Input Devices"
+msgstr "ཐབས་འཕྲུལ་ ཨིན་པུཊི་འབད།"
+
+#. Extended Input Devices
+#: ../app/dialogs/preferences-dialog.c:2038
+msgid "Extended Input Devices"
+msgstr "རྒྱ་བསྐྱེད་འབད་ཚར་མི་ ཨིན་པུཊི་ ཐབས་འཕྲུལ།"
+
+#: ../app/dialogs/preferences-dialog.c:2042
+msgid "Configure E_xtended Input Devices..."
+msgstr "རྒྱ་བསྐྱེད་འབད་ཚར་མི་ ཨིན་པུཊི་ ཐབས་འཕྲུལ་ཚུ་ རིམ་སྒྲིག་འབད། (_x)"
+
+#: ../app/dialogs/preferences-dialog.c:2049
+msgid "_Save input device settings on exit"
+msgstr "ཨིན་པུཊི་ ཐབས་འཕྲུལ་ སྒྲིག་སྟངས་ཚུ་ ཕྱིར་ཐོན་གུར སྲུང་བཞག་འབད། (_S)"
+
+#: ../app/dialogs/preferences-dialog.c:2053
+msgid "Save Input Device Settings _Now"
+msgstr "ཨིན་པུཊི་ ཐབས་འཕྲུལ་ སྒྲིག་སྟངས་ཚུ་ ད་ལྟོ་ སྲུང་བཞག་འབད། (_S)"
+
+#: ../app/dialogs/preferences-dialog.c:2060
+msgid "_Reset Saved Input Device Settings to Default Values"
+msgstr "སྲིུང་བཞག་འབད་ཚར་མི ཨིན་པུཊི་ ཐབས་འཕྲུལ་ སྒྲིག་སྟངས་ཚུ་ སྔོན་སྒྲིག་གནས་གོང་གུར་ བསྐྱར་སྒྲིག་འབད། (_R)"
+
+#: ../app/dialogs/preferences-dialog.c:2075
+msgid "Additional Input Controllers"
+msgstr "ཨིན་པུཊི་ ཚད་འཛིན་འབད་མི་ ཁ་སྐོང་།"
+
+#: ../app/dialogs/preferences-dialog.c:2078
+msgid "Input Controllers"
+msgstr "ཨིན་པུཊི་ ཚད་འཛིན་འབད་མི་ཚུ།"
+
+#: ../app/dialogs/preferences-dialog.c:2119
+#: ../app/dialogs/preferences-dialog.c:2122
+msgid "Window Management"
+msgstr "སྒོ་སྒྲིག་ འཛིན་སྐྱོང་པ།"
+
+#: ../app/dialogs/preferences-dialog.c:2128
+msgid "Window Manager Hints"
+msgstr "སྒོ་སྒྲིག་ འཛིན་སྐྱོང་པ་ བརྡ་མཚོན་ནི།"
+
+#: ../app/dialogs/preferences-dialog.c:2134
+msgid "Hint for the _toolbox:"
+msgstr "ལག་ཆས་སྒྲོམ་གྱི་དོན་ལུ བརྡ་མཚོན་འབད། (_t)"
+
+#: ../app/dialogs/preferences-dialog.c:2138
+msgid "Hint for the _docks:"
+msgstr "ཌོཀསི་གཞན་གྱི་དོན་ལུ བརྡ་མཚོན།: (_d)"
+
+#: ../app/dialogs/preferences-dialog.c:2141
+msgid "Focus"
+msgstr "ཆེད་དམིགས།"
+
+#: ../app/dialogs/preferences-dialog.c:2145
+msgid "Activate the _focused image"
+msgstr "ཆེད་དམིགས་འབད་ཚར་མི་ གཞུགས་བརྙན་ ཤུགས་ལྡན་བཟོ། (_f)"
+
+#. Window Positions
+#: ../app/dialogs/preferences-dialog.c:2149
+msgid "Window Positions"
+msgstr "སྒོ་སྒྲིག་གི་ གནས་ས་ཚུ།"
+
+#: ../app/dialogs/preferences-dialog.c:2152
+msgid "_Save window positions on exit"
+msgstr "སྒོ་སྒྲིག་གི་ གནས་ས་ ཕྱིར་དོན་གུར་ སྲུང་བཞག་འབད། (_S)"
+
+#: ../app/dialogs/preferences-dialog.c:2156
+msgid "Save Window Positions _Now"
+msgstr "སྒཽ་སྒྲིག་གི་ གནས་ས་ ད་ལྟོ་ཧསྲུང་བཞག་འབད།  (_N)"
+
+#: ../app/dialogs/preferences-dialog.c:2163
+msgid "_Reset Saved Window Positions to Default Values"
+msgstr "སྲུང་བཞག་འབད་ཚར་མི་ སྒོ་སྒྲིག་གི་ གནས་ས་ཚུ་  སྔོན་སྒྲིག་གུར་ སླར་སྒྲིག་འབད། (_R)"
+
+#: ../app/dialogs/preferences-dialog.c:2178
+#: ../app/dialogs/preferences-dialog.c:2181
+#: ../app/dialogs/preferences-dialog.c:2329
+msgid "Environment"
+msgstr "མཐའ་འཁོར།"
+
+#: ../app/dialogs/preferences-dialog.c:2189
+msgid "Resource Consumption"
+msgstr "ཐོན་ཁུངས སྤྱོད་ཟད།"
+
+#: ../app/dialogs/preferences-dialog.c:2199
+msgid "Minimal number of _undo levels:"
+msgstr "འབད་བཤོལ་ གནས་རིམ་གྱི་ གྱངས་ཁ་ ཉུང་མཐའ།(_u)"
+
+#: ../app/dialogs/preferences-dialog.c:2202
+msgid "Maximum undo _memory:"
+msgstr "འབད་བཤོལ་གྱི་ དརན་ཚད་ མང་མཐའ།(_m)"
+
+#: ../app/dialogs/preferences-dialog.c:2205
+msgid "Tile cache _size:"
+msgstr "འདྲ་མཛོད་ ཚད་གི་ མགོ་མིང་བཏགས།(_s)"
+
+#: ../app/dialogs/preferences-dialog.c:2208
+msgid "Maximum _new image size:"
+msgstr "གཟུགས་བརྙན་ གསརཔ་གི་ཚད་ མང་མཐའ།(_n)"
+
+#: ../app/dialogs/preferences-dialog.c:2213
+msgid "Number of _processors to use:"
+msgstr "ལག་ལེན་ འཐབ་ནིའི་དོན་ལུ་ ལས་སྦྱོར་འཕྲུལ་ཆས་ཀྱི་ གྱངས་ཁ།(_p)"
+
+#. Image Thumbnails
+#: ../app/dialogs/preferences-dialog.c:2218
+msgid "Image Thumbnails"
+msgstr "གཟུགས་བརྙན་གྱི་ མཐེབ་གཟེར།"
+
+#: ../app/dialogs/preferences-dialog.c:2223
+msgid "Size of _thumbnails:"
+msgstr "མཐེབ་གཟེར་གྱི་ ཚད། (_t)"
+
+#: ../app/dialogs/preferences-dialog.c:2227
+msgid "Maximum _filesize for thumbnailing:"
+msgstr "མཐེབ་གཟེར འབད་ནིའི་དོན་ལུ་ ཡིག་སནོད་ཀྱི་ཚད་ མང་མཐའ།(_f)"
+
+#. File Saving
+#: ../app/dialogs/preferences-dialog.c:2231
+msgid "Saving Images"
+msgstr "གཟུགས་བརྙན་ཚུ་ སྲུང་བཞག་འབད་དོ།"
+
+#: ../app/dialogs/preferences-dialog.c:2234
+msgid "Confirm closing of unsa_ved images"
+msgstr "གཟུགས་བརྙན་ སྲུང་བཞག་མ་འབད་མི་ཚུ ཁ་བསྡམ་ནི་ལུ་ ངེས་གཏན་བཟོ། (_v)"
+
+#: ../app/dialogs/preferences-dialog.c:2245
+#: ../app/dialogs/preferences-dialog.c:2248
+msgid "Folders"
+msgstr "ལེ་སྣོད་ཚུ།"
+
+#: ../app/dialogs/preferences-dialog.c:2263
+msgid "Temp folder:"
+msgstr "དྲོད་ཤུགས་ཀྱི་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2263
+msgid "Select Temp Folder"
+msgstr "དྲོད་ཤུགས་ཀྱི་ ལེ་སྣོད་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2264
+#: ../app/dialogs/user-install-dialog.c:1403
+msgid "Swap folder:"
+msgstr "ས་ཝབ་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2264
+msgid "Select Swap Folder"
+msgstr "ས་ཝབ་ཀྱི་ ལེ་སྣོད་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2297
+msgid "Brush Folders"
+msgstr "ལེ་སྣོད་ཚུ་ དྭངས་བཟོ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2299
+msgid "Select Brush Folders"
+msgstr "དྭངས་བཟོ་ ལེ་སྣོད་ཚུ་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2301
+msgid "Pattern Folders"
+msgstr "དཔེ་གཞི་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2303
+msgid "Select Pattern Folders"
+msgstr "དཔེ་གཞི་གི་ ལེ་སྣོད་ཚུ་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2305
+msgid "Palette Folders"
+msgstr "པེ་ལིཊི ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2307
+msgid "Select Palette Folders"
+msgstr "པེ་ལིཊི ལེ་སྣོད་ཚུ་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2309
+msgid "Gradient Folders"
+msgstr "སྟེགས་རིས་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2311
+msgid "Select Gradient Folders"
+msgstr "སྟེགས་རིས་ ལེ་སྣོད་ཚུ་ སེབལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2313
+msgid "Font Folders"
+msgstr "ཡིག་གཟུགས་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2315
+msgid "Select Font Folders"
+msgstr "ཡིག་གཟུགས་ལེ་སྣོད སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2317
+msgid "Plug-In Folders"
+msgstr "པ་ལག་-ཨིན ལེ་སྣོད། "
+
+#: ../app/dialogs/preferences-dialog.c:2319
+msgid "Select Plug-In Folders"
+msgstr "པ་ལག་-ཨིན ལེ་སྣོད་ཚུ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2321
+msgid "Scripts"
+msgstr "ཡིག་ཚུགས།"
+
+#: ../app/dialogs/preferences-dialog.c:2321
+msgid "Script-Fu Folders"
+msgstr "ཡིག་ཚུགས་ -ཕུ་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2323
+msgid "Select Script-Fu Folders"
+msgstr "ཡིག་ཚུགས་ -ཕུ་ ལེ་སྣོད་ཚུ་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2325
+msgid "Module Folders"
+msgstr "ཚད་གཞི་གི་ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2327
+msgid "Select Module Folders"
+msgstr "ཚད་གཞི་གིལེ་སྣོད་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2329
+msgid "Environment Folders"
+msgstr "མཐའ་འཁོར་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2331
+msgid "Select Environment Folders"
+msgstr "མཐའ་འཁོར་གྱི་ ལེ་སྣོད་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/preferences-dialog.c:2333
+msgid "Themes"
+msgstr "བརྗོད་དོན།"
+
+#: ../app/dialogs/preferences-dialog.c:2333
+msgid "Theme Folders"
+msgstr "བརྗོད་དོན་ ལེ་སྣོད།"
+
+#: ../app/dialogs/preferences-dialog.c:2335
+msgid "Select Theme Folders"
+msgstr "བརྗོད་དོན་གྱི་ ལེ་སྣོད་ སེལ་འཐུ་འབདསྣོད།"
+
+#: ../app/dialogs/print-size-dialog.c:128
+msgid "Print Size"
+msgstr "དཔར་བསྐྲུན་གྱི་ཚད།"
+
+#. the image size labels
+#: ../app/dialogs/print-size-dialog.c:155
+#: ../app/widgets/gimpsizebox.c:223
+#: ../app/widgets/gimptemplateeditor.c:236
+msgid "_Width:"
+msgstr "རྒྱ་ཚད། (_W)"
+
+#: ../app/dialogs/print-size-dialog.c:162
+#: ../app/widgets/gimpsizebox.c:227
+#: ../app/widgets/gimptemplateeditor.c:243
+msgid "H_eight:"
+msgstr "མཐོ་ཚད། (_e)"
+
+#. the resolution labels
+#: ../app/dialogs/print-size-dialog.c:210
+#: ../app/widgets/gimpsizebox.c:276
+#: ../app/widgets/gimptemplateeditor.c:363
+msgid "_X resolution:"
+msgstr "ཨེགསི་ ཧུམ་ཆ། (_X)"
+
+#: ../app/dialogs/print-size-dialog.c:217
+#: ../app/widgets/gimpsizebox.c:279
+#: ../app/widgets/gimptemplateeditor.c:370
+msgid "_Y resolution:"
+msgstr "ཝཡི ཧུམ་ཆ།(_Y):"
+
+#: ../app/dialogs/print-size-dialog.c:228
+#: ../app/widgets/gimpsizebox.c:272
+#: ../app/widgets/gimptemplateeditor.c:383
+#, c-format
+msgid "pixels/%a"
+msgstr "པིག་སེལསི /%a"
+
+#: ../app/dialogs/quit-dialog.c:84
+msgid "Quit The GIMP"
+msgstr "ཇི་ཨའི་ཨེམ་པི་འདི་ སྤང་།"
+
+#: ../app/dialogs/quit-dialog.c:126
+msgid "If you quit GIMP now, these changes will be lost."
+msgstr "ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཨེམ་པི་ ད་ལྟོ་ སྤང་བཞག་པ་ཅིན་ འ་ནི་ བསྒྱུར་བཅོས་ཚུ་ བརླག་སྟོར་གཏང་འོང་།"
+
+#: ../app/dialogs/quit-dialog.c:164
+msgid "There is one image with unsaved changes:"
+msgstr "ཕི་ནང་ལུ་ བསྒྱུར་བཅོས་ སྲུང་བཞག་མ་འབད་བའི་ཐོག་ལས་བཞག་མི་ གཟུགས་བརྙན་གཅིག་གི་འདུག"
+
+#: ../app/dialogs/quit-dialog.c:167
+#, c-format
+msgid "There are %d images with unsaved changes:"
+msgstr "ཕི་ནང་ལུ་ བསྒྱུར་བཅོས་ སྲུང་བཞག་མ་འབད་བའི་ཐོག་ལས་བཞག་མི་ གཟུགས་བརྙན་ %d གཅིག་གི་འདུག"
+
+#: ../app/dialogs/quit-dialog.c:183
+msgid "_Discard Changes"
+msgstr "བསྒྱུར་བཅོས་ བཏོན་བཀོག། (_D)"
+
+#: ../app/dialogs/resize-dialog.c:115
+msgid "Canvas Size"
+msgstr "འབྲི་གཞི་གི་ཚད།"
+
+#: ../app/dialogs/resize-dialog.c:126
+#: ../app/dialogs/scale-dialog.c:107
+msgid "Layer Size"
+msgstr "བང་རིམ་གྱི་ཚད།"
+
+#: ../app/dialogs/resolution-calibrate-dialog.c:67
+msgid "Calibrate Monitor Resolution"
+msgstr "བལྟ་རྟོགས་པའི་ ཧུམ་ཆ་ ཚད་རྟགས་བཀལ།"
+
+#: ../app/dialogs/resolution-calibrate-dialog.c:120
+msgid "Measure the rulers and enter their lengths:"
+msgstr "ཐིག་ཤིང་ཚུ ཚད་འཇལ་བཞིནམ་ལས་ དེ་ཚུ་གི་ རིང་ཚད་ ཐོ་བཀོད་འབད།"
+
+#: ../app/dialogs/resolution-calibrate-dialog.c:145
+msgid "_Horizontal:"
+msgstr "ཐད་སྙོམས། (_H)"
+
+#: ../app/dialogs/resolution-calibrate-dialog.c:150
+msgid "_Vertical:"
+msgstr "ཀེར་ཕྲེང་། (_V)"
+
+#. Image size frame
+#: ../app/dialogs/scale-dialog.c:96
+#: ../app/widgets/gimptemplateeditor.c:214
+msgid "Image Size"
+msgstr "གཟུགས་བརྙན་གྱི་ཚད།"
+
+#: ../app/dialogs/scale-dialog.c:166
+msgid "Quality"
+msgstr "སྤུས་ཚད།"
+
+#: ../app/dialogs/scale-dialog.c:178
+msgid "I_nterpolation:"
+msgstr "བསྐྱར་བསྣོན། (_n)"
+
+#: ../app/dialogs/scale-dialog.c:192
+msgid "Indexed color layers are always scaled without interpolation. The chosen interpolation type will affect channels and masks only."
+msgstr "ཟུར་སྦྲགས་ཅན་གྱི་ ཚོས་གཞི་བང་རིམ་ཚུ་ བསྐྱར་ཨ་རྟག་རང་བསྐྱར་བསྣོན་མེད་པའི་ཐོག་ལས་ ཆ་ཚད་འཇལཝ་ཨིན། འདམ་ཁ་བརྐྱབས་མི་ བཟུམ་སྦེ་ཡོད་མི་ བསྐྱར་བསྣོན་དེ་གིས་ རྒྱ་ུལམ་དང་ གདོང་ཁེབས་ལུ་ རྐྱངམ་ཅིག་ གནོད་སྐྱོན་བྱུང་འོང་།"
+
+#: ../app/dialogs/stroke-dialog.c:104
+msgid "Choose Stroke Style"
+msgstr "སི་ཊོ་རོག་ བཟོ་རྣམ འདམ་ཁ་རྐྱབས།"
+
+#: ../app/dialogs/stroke-dialog.c:209
+msgid "Paint Tool:"
+msgstr "ལག་ཆས་ཚོན་གཏང་།:"
+
+#: ../app/dialogs/tips-dialog.c:90
+msgid "<b>Your GIMP tips file appears to be missing!</b>"
+msgstr "<b>ཁྱོད་ཀྱི་ ཇི་ཨའི་ཨེམ་པི་ ཕན་བསླབ་ཡིག་སྣོད་ བརླག་སྟོར་ཞུགས་ཡོདཔ་སྦེ་བྱུངམ་མས!<b>"
+
+#: ../app/dialogs/tips-dialog.c:92
+#, c-format
+msgid "There should be a file called '%s'. Please check your installation."
+msgstr "ཕར་ལུ ཡིག་སྣོད་%s'་ཟེར་མི་ཅིག་འོ་གོ ཁྱོད་ཀྱི་ གཞི་བཙུགས་དེ་ ཞིབ་དྤྱད་འབད་གནང་།"
+
+#: ../app/dialogs/tips-dialog.c:98
+msgid "<b>The GIMP tips file could not be parsed!</b>"
+msgstr "</b>ཇི་ཨའི་ཨེམ་པི་ ཕན་བསླབ་ཡིག་སྣོད་དེ་ མིང་དཔྱད་འབད་མི་ཚུགས!</b>"
+
+#: ../app/dialogs/tips-dialog.c:131
+msgid "GIMP Tip of the Day"
+msgstr "ཉིནམ་དེ་གི་ ཇི་ཨའི་ཨེམ་པི་ ཕན་བསླབ།"
+
+#: ../app/dialogs/tips-dialog.c:195
+msgid "Show tip next time GIMP starts"
+msgstr "ཤུལ་མམ་གྱི་སྐབས་ལུ་ ཇི་ཨའི་ཨེམ་པི་ འགོ་བཙུགསཔ་ད་ལུ་ ཕན་བསླབ་སྟོན།"
+
+#: ../app/dialogs/tips-dialog.c:219
+msgid "_Previous tip"
+msgstr "ཧེ་མའི་ཕན་བསླབ།(_P)"
+
+#: ../app/dialogs/tips-dialog.c:228
+msgid "_Next tip"
+msgstr "ཤུལ་མམ་གྱི་ཕན་བསླབ། (_N)"
+
+#. This is a special string to specify the language identifier to
+#. look for in the gimp-tips.xml file. Please translate the C in it
+#. according to the name of the po file used for gimp-tips.xml.
+#. E.g. for the german translation, that would be "tips-locale:de".
+#.
+#: ../app/dialogs/tips-parser.c:165
+msgid "tips-locale:C"
+msgstr "ཕན་བསླབ-གནས་ཁོངས:སི།"
+
+#: ../app/dialogs/user-install-dialog.c:134
+msgid "The gimprc is used to store personal preferences that affect GIMP's default behavior.  Paths to search for brushes, palettes, gradients, patterns, plug-ins and modules can also configured here."
+msgstr "ཇི་ཨའི་ཨེམ་པི་ཨཱར་སི་དེ་ ཇི་ཨའི་ཨེམ་པི་གི སྔོན་སྒྲིག་སྤྱོད་ལམ་ལུ གནོད་རྐྱེན་རྐྱབ་མི་ རང་དོན་དགའ་འདམ་ནང་ལུ གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། པྱིར་ པེལིཊི་ སྟེགས་རིས་ དཔེ་གཞི་ པ་ལག་ཨིནསི་ དང་ ཚད་གཞི་ཚུ་ འཚོལ་ཞིབ་འབད་ནིའི་འགྲུལ་ལམ་ཡང་ ནཱ་ལུ་རིམ་སྒྲིག་འབད་དེ་ཡོདཔ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:143
+msgid "GIMP uses an additional gtkrc file so you can configure it to look differently than other GTK apps."
+msgstr "ཇི་ཨའི་ཨེམ་པི་དེ་གིས་ ཇི་ཊི་ཀེ་ཨཱར་སི་ ཡིག་སྣོད་ཁ་སྐོང་ ལག་ལེན་འཐབ་ཨིན དེ་འབདཝ་ལས་ ཁྱོད་ཀྱིས་ གཞན་མི་ ཇི་ཊི་ཀེ་ ཨེ་པི་པིཨེསི་ལས་ སོ་སོ་སྦེ་བལྟ་ནིའི་དོན་ལུ་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:149
+msgid "Plug-ins and extensions are external programs run by the GIMP which provide additional functionality.  These programs are searched for at run-time and information about their functionality and mod-times is cached in this file.  This file is intended to be GIMP-readable only, and should not be edited."
+msgstr "པ་ལག་ཨིནསི་ དང་ རྒྱ་བསྐྱེད་ཚུ་ ཇི་ཨའི་ཨེམ་པི་གིས་གཡོག་བཀོལ་འབད་ཡོདཔ་དང་ ལས་འགན་ཁ་སྐོང་ བྱིན་མི་ ཕྱིའི་ལས་རིམ་ཨིན། འ་ནི་ལས་རིམ་ཚུ་ གཡོག་བཀོལ་བའི་དུས་ཚོད་ ཚོལ་ཞིབ་འབད་འབདཝ་ཨིནམ་དང་ དེ་ཚུའི་ལས་འགན་གྱི་སྐོར་ལས བརྡ་དོན་དེ་ ཡིག་སྣོད་འདི་ནང་ལུ་ འདྲ་མཛོད་ནང་བཙུགས་ཏེ་ཡོད།། རེ་བ་ལྟར་དུ་འབད་བ་ཅིན་ཡིག་སྣོད་འདི་ ཇི་ཨའི་ཨེམ་པི་གིས་ལྷག་བཏུབ་རྐྱངམ་ཅིག་མ་གཏོགས་  ཞུན་དག་འབད་ནི་མི་འོང་།"
+
+#: ../app/dialogs/user-install-dialog.c:159
+msgid "Key shortcuts can be dynamically redefined in The GIMP. The menurc is a dump of your configuration so it can. be remembered for the next session.  You may edit this file if you wish, but it is much easier to define the keys from within The GIMP.  Deleting this file will restore the default shortcuts."
+msgstr "ཇི་ཨའི་ཨེམ་པི་ནང་ལུ་ལྡེ་མིག་མགྱོགས་ཐབས་དེ་ཚུ་ ནུས་ཅན་གྱི་ཐོག་ལས་ ཡང་བསྐྱར་ ངེས་འཛིན་འབད་བཏུབ་ཨིན།མེ་ནུརསི་ དེ་ ཁྱོད་ཀྱི་ རིམ་སྒྲིག་གི་ ཕྱགས་སྙིགས་ཨིན་  དེ་འབདཝ་ལས་ ཤུལ་མམ་གྱི་ ལཱ་ཡུན་གྱི་དོན་ལུ་ སེམས་ཁར་བཞག་ཚུགས། ཁྱོད་ཀྱིས་ ་རེ་འདོད་ཡོད་པ་ཅིན་ ཡིག་སྣོད་འདི་ཞུན་དག་འབད་ནི་ཨིན་པས། དེ་འབདཝ་ད་ལུ་ ཇི་ཨའི་ཨེམ་པི་ནང་འཁོད་ལས་ ལྡེ་མིག་ ངེས་འཛིན་འབད་ནི་དེ་ ལེ་ཤ་གིས་འཇམ། འ་ནི་ ཡིག་སྣོད་བཏོན་གཏང་མི་དེ་གིས་ སྔོན་སྒྲིག་མགྱོགས་ཐབས་ཚུ་ སོར་ཆུད་འབད་འོང་།"
+
+#: ../app/dialogs/user-install-dialog.c:169
+msgid "The sessionrc is used to store what dialog windows were open the last time you quit The GIMP.  You can configure The GIMP to reopen these dialogs at the saved position."
+msgstr "སེ་ཤོན་ཨར་སི་འདི་ ཧེ་མ་ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཨེམ་པི་ སྤང་བཞག་པའི་ཚེ་ ཌའི་ལོག་ ཝིན་ཌོསི་ག་ཅི་ཁ་ཕྱེ་སྟེ་ཡོདཔ་ཨིན་ན་ གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། འ་ནི་ ཌའི་ལོག་ཚུ་ སྲུང་བཞག་འབད་ཚར་མི་ གནས་ས་གུར་ ལོག་ཁ་ཕྱེ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ཇི་ཨའི་ཨེམ་པི་ རིམ་སྒྲིག་འབད་བཏུབ།"
+
+#: ../app/dialogs/user-install-dialog.c:176
+msgid "This file holds a collection of standard media sizes that serve as image templates."
+msgstr "ཡིག་སྣོད་འདི་གིས གཟུགས་བརྙན་པེ་ལིཊི་སྦེ་ ལཱ་འབད་མི་ བསྡུ་གསོག་འབད་ཡོད་མི་ ཚད་ལྡན་བརྡ་ལམ་གྱི་ཚད་ འཆང་སྟེ་ཡོདཔ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:182
+msgid "The unitrc is used to store your user units database.  You can define additional units and use them just like you use the built-in units inches, millimeters, points and picas.  This file is overwritten each time you quit the GIMP."
+msgstr "unitrc དེ་ཁྱོད་ཀྱི་ལག་ལེན་པའི་ ཆ་ཕྲན་གནད་སྡུད་གཞི་རྟེན་གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱི་ ཆ་ཕྲན་ཁ་སྐོང་ངེས་འཛིན་འབད་དེ ནང་སྦྲགས་ཆ་ཕྲན་ ཨིན་ཅེསི་ མི་ལི་མི་ཊརསི་ སྐུགས་ དང་ པི་ཀསི་ཚུ་ ལག་ལེན་འཐབ་དོ་བཟུམ་སྦེ་ དེ་ཚུ་ལག་ལེན་འཐབ།  ཁྱོད་ཀྱིས་་ ཇི་ཨའི་ཨེམ་པི་ཚར་རེ་ སྤང་བཞགཔ་ད་ལུ་ འ་ནི་ཡིག་སྣོད་དེ་ སླར་སྲུང་ནུག"
+
+#: ../app/dialogs/user-install-dialog.c:191
+msgid "This folder is used to store user defined brushes. The GIMP checks this folder in addition to the system-wide GIMP brushes installation when searching for brushes."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའིས་ ངེས་འཛིན་འབད་ཡོད་མི་པྱིར་ གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། རིམ་ལུགས་ཡོངས་ཀྱི་ཇི་ཨའི་ཨེམ་པི་གིས པྱིར་ཚུ་འཚོལ་ཞིབ་འབད་བའི་སྐབས་པྱིར་ཚུ་གཞི་བཙུགས་འབད་ནིའི་ཁ་སྐོང་ལུ་ ཇི་ཨའི་ཨེམ་པི་གིས་ འ་ནི་སྣོད་འཛིན་འདི་ཞིབ་དབྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:199
+msgid "This folder is used to store fonts you only want visible in the GIMP. The GIMP checks this folder in addition to the system-wide GIMP fonts installation when searching for fonts. Use this only if you really want to have GIMP-only fonts, otherwise put things in your global font directory."
+msgstr "སྣོད་འཛིན་འདི་གིས་ ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཨེམ་པི་ནང་ལུ་རྐྱངམ་ཅིག་ མཐོང་ཚུགས་དགོས་མི་ ཡིག་གཟུགས་ཚུ་ གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ཇི་ཨའི་ཨེམ་པི་གིས རྒྱ་ཅན་ཡིག་གཟུགས་  འགོ་བཙུགས་ རིམ་ལུགས་ཀྱི་མ་ཚད་པར་ སྣོད་འཛིན་འདི་ ཞིབ་དཔྱད་འབདཝ་ཨིན། འ་ནི་འདི་ཁྱོད་ ཇི་ཨའི་ཨེམ་པི་ནང་ལུ་ཡིག་གཟུགས་ཚུ་ ཐད་རི་འབའ་རི འཐོབ་ཆོག་ཆོག་ཡོད་མི་ དགོ་པ་ཅིན་རྐྱངམ་ཅིག་ ལག་ལེན་འཐབ་གོ དེ་མེན་པ་ཅིན དེ་ཚུ་ཁྱོད་རའི་སྤྱི་ཁྱབ་ཡིག་གཟུགས་ སྣོད་ཐོ་ནང་ལུ་བཙུགས་དགོས།"
+
+#: ../app/dialogs/user-install-dialog.c:209
+msgid "This folder is used to store user defined gradients.  The GIMP checks this folder in addition to the system-wide GIMP gradients installation when searching for gradients."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའིས་ ངེས་འཛིན་འབད་ཡོད་མི་དཔེ་གཞི་གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ཇི་ཨའི་ཨེམ་པི་གིས དཔེ་གཞི་རྒྱ་ཅན་འགོ་བཙུགས་ རིམ་ལུགས་ཀྱི་མ་ཚད་པར་ དཔེ་གཞི་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ སྣོད་འཛིན་འདི་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:216
+msgid "This folder is used to store user defined palettes.  The GIMP checks this folder in addition to the system-wide GIMP palettes installation when searching for palettes."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའིས་ ངེས་འཛིན་འབད་ཡོད་མི་དཔེ་གཞི་གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། རིམ་ལུགས་ཡོངས་ཀྱི་ཇི་ཨའི་ཨེམ་པི་པེལེཊིསི་གཞི་བཙུགས་འབདཝ་ད་དང་པེལེཊིསི་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ཀྱི་ཁ་སྐོང་ལུ་ ཇི་ཨའི་ཨེམ་པི་གིས་འ་ནི་སྣོད་འཛིན་ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:223
+msgid "This folder is used to store user defined patterns.  The GIMP checks this folder in addition to the system-wide GIMP patterns installation when searching for patterns."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་འཐབ་ནི་ལུ་ ངེས་འཛིན་འབད་ཡོད་མི་དཔེ་གཞི་གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ཇི་ཨའི་ཨེམ་པི་གིས དཔེ་གཞི་རྒྱ་ཅན་འགོ་བཙུགས་ རིམ་ལུགས་ཀྱི་མ་ཚད་པར་ དཔེ་གཞི་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ སྣོད་འཛིན་འདི་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:230
+msgid "This folder is used to store user created, temporary, or otherwise non-system-supported plug-ins.  The GIMP checks this folder in addition to the system-wide GIMP plug-in folder when searching for plug-ins."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའིས་གསར་བསྐྲུན་འབད་ཡོདཔ་དང་ཡང་ན་ གནས་སྐབས་ དེ་མེན་པ་ཅིན་ རིམ་ལུགས་མེན་མི་གིས རྒྱབ་སྐྱོར་འབད་མི་ པ་ལག་ཨིནསི གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། པ་ལག་ཨིནསི་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ལུ་རིམ་ལུགས་ཡོངས་ཀྱི་ཇི་ཨའི་ཨེམ་པི་ པ་ལག་ཨིན་སྣོད་འཛིན་གྱི་ཁ་སྐོང་ལུ་ ཇི་ཨའི་ཨེམ་པི་གིས་འ་ནི་སྣོད་འཛིན་འདི་ཡང་ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:238
+msgid "This folder is used to store user created, temporary, or otherwise non-system-supported DLL modules.  The GIMP checks this folder in addition to the system-wide GIMP module folder when searching for modules to load during initialization."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པ་གིས་གསར་བསྐྲུན་འབད་ཡོདཔ་དང་ཡང་ན་ གནས་སྐབས་ དེ་མེན་པ་ཅིན་ རིམ་ལུགས་མེན་མི་གིས རྒྱབ་སྐྱོར་འབད་མི་ ཌི་ཨེལ་ཨེལ ཚད་གཞི་ཚུ་  གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། འགོ་འབྱེད་སྐབས་ལུ་མངོན་གསལ་འབད་ནིའི་ཚད་གཞི་ཚུ་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ལུ་ རིམ་ལུགས་ཡོངས་ཀྱི་ཇི་ཨའི་ཨེམ་པི་ཚད་གཞི་སྣོད་འཛིན་ཁ་སྐོང་ལུ་ཇི་ཨའི་ཨེམ་པི་གིས་འ་ནི་སྣོད་འཛིན་ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:247
+msgid "This folder is used to store user created, temporary, or otherwise non-system-supported additions to the plug-in environment.  The GIMP checks this folder in addition to the system-wide GIMP environment folder when searching for plug-in environment modification files."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའི་གསར་བསྐྲུན་འབད་ཚར་ཚརཝ་དང་ གནས་སྐབས་ ཡང་ན་དེ་མེན་པ་ཅིན་  རིམ་ལུགས་མེན་མི་ རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་ཁ་སྐོང་ཚུ་ པ་ལག་ཨིན་མཐའ་འཁོར་ལུ་ གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ཇི་ཨའི་ཨེམ་པི་གིས པ་ལག་ཨིན མཐའ་འཁོར་ལེགས་བཅོས་ཀྱི་ ཡིག་སྣོད་ འཚོལ་ཞིབ་འབད་བའི་སྐབས ཇི་ཨའི་ཨེམ་པི་གིས་ ཇི་ཨའི་ཨེམ་པི་ མཐའ་འཁོར་ ལེ་སྣོད་ཀྱི་རྒྱ་ཚད་ རིམ་ལུགས་ཀྱི་མ་ཚད་པར་ ལེ་སྣོད་འདི་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:257
+msgid "This folder is used to store user created and installed scripts.  The GIMP checks this folder in addition to the systemwide GIMP scripts folder when searching for scripts."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའི་གསར་བསྐྲུན་ དང་ གཞི་བཙུགས་འབད་ཚར་མི་ ཡིག་ཚུགས་ཚུ་ གསོག་འཇོག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ཇི་ཨའི་ཨེམ་པི་གིས  རྒྱ་ཚད་ རིམ་ལུགས་ཀྱི་ ཡིག་ཚུགས་སྣོད་འཛིན་ཀྱི་ མ་ཚད་པར་ སྣོད་འཛིན་འདི་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:265
+msgid "This folder is searched for image templates."
+msgstr "སྣོད་འཛིན་འདི་ གཟུགས་བརྙན་ ཊེམ་པེལེཊིསི གི་དོན་ལུ་ འཚོལ་ཞིབ་འབད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:270
+msgid "This folder is searched for user-installed themes."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ལེན་པའི་ གཞི་བཙུགས་བརྗོད་དོན་གྱི་དོན་ལུ་ འཚོལ་ཞིབ་འབད་འབདཝ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:275
+msgid "This folder is used to temporarily store undo buffers to reduce memory usage.  If The GIMP is unceremoniously killed, files of the form: gimp<#>.<#> may persist in this folder.  These files are useless across GIMP sessions and can be destroyed with impunity."
+msgstr "འ་ནི་སྣོད་འཛིན་འདི་གནས་སྐབས་ཅིག་དྲན་ཚད་ལག་ལེན་མར་ཕབ་འབད་ནིའི་དོན་ལུ་གནད་ཁོངས་ཚུ་འབད་བཤོལ་ཚུ་གསོག་འཇོག་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན། ག་དེམ་ཅིག་སྦེ་ཇི་ཨའི་ཨེམ་པི་འདི་ རྒྱས་སྤྲོད་མེད་པར་བསད་པ་ཅིན་ འབྲི་ཤོག་འདི་གི་ཡིག་སྣོད་ཚུ་: gimp<#>.<#>སྣོད་འཛིན་འདི་ནང་རང་ཨུ་ཚུགས་བརྐྱབ་འོང་། ཇི་ཨའི་ཨེམ་པི་ལཱ་ཡུན་ཚུའི་ ཡན་ཆད་ཡིག་སྣོད་དེ་ཚུ་ཕན་ཐོག་མེདཔ་ཨིནམ་ལས་ཁྱད་གང་ཡང་མེད་པར་ཡིག་སྣོད་ཚུ་མེདཔ་གཏང་ཚུགསཔ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:284
+msgid "This folder is used to store tool options."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ཆས་འདམ་ཁ་ གསོག་འཇོག་འབད་ནི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:289
+msgid "This folder is used to store parameter files for the Curves tool."
+msgstr "སྣོད་འཛིན་འདི་ ལག་ཆས་གུག་གུགཔ་གི་དོན་ལུ་ ཚད་བཟུང་ཡིག་སྣོད་ གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:294
+msgid "This folder is used to store parameter files for the Levels tool."
+msgstr "སྣོད་འཛིན་འདི་  གནས་རིམ་ལག་ཆས་ཀྱི་དོན་ལུ་ ཚད་བཟུང་ཡིག་སྣོད་ གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../app/dialogs/user-install-dialog.c:390
+msgid "Installation successful.  Click \"Continue\" to proceed."
+msgstr "གཞི་བཙུགས་ མཐར་འཁྱོལ་འབྱ྄ང་ཡི། \"Continue\" འཕྲོ་མཐུད་ནི་གི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:396
+msgid "Installation failed.  Contact system administrator."
+msgstr "གཞི་བཙུགས་འཐུས་ཤོར་འབྱུང་ནུག རིམ་ལུགས་ བདག་སྐྱོང་པ་དང་ འབྲེལ་བ་འཐབ།"
+
+#: ../app/dialogs/user-install-dialog.c:609
+msgid "GIMP User Installation"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ལག་ལེན་པའི་ གཞི་བཙུགས།"
+
+#: ../app/dialogs/user-install-dialog.c:614
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད།"
+
+#. GPL_PAGE
+#. version number
+#: ../app/dialogs/user-install-dialog.c:765
+#, c-format
+msgid ""
+"Welcome to\n"
+"The GIMP %d.%d User Installation"
+msgstr ""
+"ཇི་ཨའི་ཨེམ་པི་  %d འདི་ནང་ལུ་བྱོན་པ་ལེགས་སོ་\n"
+"%dལག་ལེན་པའི་ གཞི་བཙུགས།"
+
+#: ../app/dialogs/user-install-dialog.c:771
+msgid "Click \"Continue\" to enter the GIMP user installation."
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ལག་ལེན་པའི་ གཞི་བཙུགས་ ཐོ་བཀོད་འབད་ནིའི་དོན་ལུ་ \"Continue\" གཡེབ་གཏང་འབད། "
+
+#: ../app/dialogs/user-install-dialog.c:778
+msgid ""
+"<b>The GIMP - GNU Image Manipulation Program</b>\n"
+"Copyright (C) 1995-2004\n"
+"Spencer Kimball, Peter Mattis and the GIMP Development Team."
+msgstr ""
+"<b>ཇི་ཨའི་ཨེམ་པི་ -ཇི་ཨེན་ཡུ་ གཟུགས་བརྙན་ལེགས་སྐྱོང་ལས་རིམ་</b>\n"
+"འདྲ་བཤུས་དབང་ཆ(སི་)༡༩༩༥-༢༠༠༦\n"
+"ཨིསི་པེན་སར་ཀིམ་བཱོལ་ པི་ཊར་མཱ་ཊིསི་དང་ ཇི་ཨའི་ཨེམ་པི་ གོང་འཕེལ་སྡེ་ཚན།"
+
+#: ../app/dialogs/user-install-dialog.c:788
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "འ་ནི་ལས་རིམ་འདི་བར་སྟོང་མཉེན་ཆས་ཨིན་ ཁྱོད་ཀྱིས་འདི་ཡང་བསྐྱར་བགོ་བཀྲམ་འབད་བཏུབ་ནི་དང་/ཡང་ན་ བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་སྡེབ་བསྐྲུན་འབད་ཡོདཔ་བཟུམ་སྦེ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ལམ་ལུགས་ཚུ་གི་འོག་ལུ་ལེགས་བཅོས་འབད་བཏུབ་ཨིན་ ཆོག་ཐམ་གྱི་ཐོན་རིམ་༢ དང་ཡང་ན་(ཁྱོད་རའི་གདམ་ཁ་ལུ་)ཤུལ་མའི་ཐོན་རིམ་གང་རུང་།"
+
+#: ../app/dialogs/user-install-dialog.c:794
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details."
+msgstr "འ་ནི་ལས་རིམ་འདི་ ཉེན་ལེན་གང་ཡང་མེདཔ་སྦེ་དང་དགོས་དོན་བྱེ་བྲག་གི་དོན་ལུ་མཐའ་ན་ཚོང་འབྲེལ་དང་ཡང་ན་ཚུད་སྒྲིག་གི་ཉེན་ལེན་བཀོད་དེ་མེདཔ་སྦེ་ ཕན་ཐོག་ཅན་འོང་མནོ་བའི་རེ་བ་དང་བཅསཔ་འབད་བགོ་བཀྲམ་འབད་དེ་ཡོད། རྒྱས་བཤད་ཀྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཅོག་ཐམ་བལྟ།"
+
+#: ../app/dialogs/user-install-dialog.c:800
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr "ལས་རིམ་འ་ནི་དང་གཅིག་ཁར་ ཁྱོད་ཀྱིས་ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་འདྲ་བཤུས་གཅིག་ལེན་དགོསཔ་སྡོད་ཡི་ དེ་མེན་པ་ཅིན་བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ ཨའི་ཨེན་སི་ ༥༩ ཊེམ་པལ་པེལེསི་-སུཊི་ ༣༣༠ བོསི་ཊོན་ ཨེམ་ཨེ་ ༠༢༡༡༡-༡༣༠༧ ཡུ་ཨེསི་ཨེ་ ལུ་འབྲི།"
+
+#: ../app/dialogs/user-install-dialog.c:810
+msgid "Migrate User Settings"
+msgstr "ལག་ལེན་པའི་ སྒྲིག་སྟངས་ གཞིས་སྤོ།"
+
+#: ../app/dialogs/user-install-dialog.c:811
+msgid "Click \"Continue\" to proceed with the user installation."
+msgstr "ལག་ལེན་པའི་ཐོག་ལས་ འཕྲོ་མཐུད་འབད་ནིའི་དོན་ལུ་ \"Continue\" གཡེབ་གཏང་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:816
+msgid "It seems you have used GIMP 2.0 before."
+msgstr "ཁྱོད་ཀྱིས་ ཇི་ཨའི་ཨེམ་པི་༢་ ༠  ཧེ་མ་ལས་ ལག་ལེན་འཐབ་འཐབ་བཟུམ་ཅིག་འདུག"
+
+#: ../app/dialogs/user-install-dialog.c:820
+msgid "_Migrate GIMP 2.0 user settings"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ༢་༠  ལག་ལེན་པའི་སྒྲིག་སྟངས་ གཞིས་སྤོ། (_M)"
+
+#: ../app/dialogs/user-install-dialog.c:823
+msgid "Do a _fresh user installation"
+msgstr "ལག་ལེན་པའི་ གཞི་བཙུགས་ གསར་བཙུགས་འབད། (_f)"
+
+#: ../app/dialogs/user-install-dialog.c:851
+msgid "Personal GIMP Folder"
+msgstr "རང་དོན་གྱི་ ཇི་ཨའི་ཨེམ་པི་ ལེ་སྣོད།"
+
+#: ../app/dialogs/user-install-dialog.c:852
+msgid "Click \"Continue\" to create your personal GIMP folder."
+msgstr "རང་དོན་གྱི་ ཇི་ཨའི་ཨེམ་པི་ ལེ་སྣོད་ གསར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་  \"Continue\" གཡེབ་གཏང་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:896
+#, c-format
+msgid "For a proper GIMP installation, a folder named '<b>%s</b>' needs to be created."
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ཚུལ་ལྡན་ཅིག་ གཞི་བཙུགས་འབད་ིནའི་དོན་ལུ་ ལེ་སསྣོད་ཀྱི་མིང་ <b>%s</b>' ཟེར་མི་དེ་ གསར་བསྐརུན་འབད་གོ"
+
+#: ../app/dialogs/user-install-dialog.c:903
+msgid "This folder will contain a number of important files.  Click on one of the files or folders in the tree to get more information about the selected item."
+msgstr "སྣོད་འཛིན་འདི་ནང་ གལ་ཅན་གྱི་ཡིག་སྣོད་ ལེ་ཤ་ཅིག་གནས་འོང་། སེལ་འཐུ་འབད་ཚར་མི་ རྣམ་གྲངས་ཀྱི་སྐོར་ལས་ བརྡ་དོན་ཧེང་བཀལ་འཐོབ་ནིའི་དོན་ལུ་ རྩ་འབྲེལ་ནང་གི་་ཡིག་སྣོད་ ཡང་ན་ སྣོད་འཛིན་ གང་རུང་ཅིག་ གཡེབ་གཏང་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:991
+msgid "User Installation Log"
+msgstr "ལག་ལེན་པའི་ གཞི་བཙུགས་ ལྡེ་མིག"
+
+#: ../app/dialogs/user-install-dialog.c:992
+msgid "Please wait while your personal GIMP folder is being created..."
+msgstr "ང་དོན་གྱི་་ཇི་ཨའི་ཨེམ་པི་སྣོད་འཛིན་ གསར་བསྐྲུན་འབད་བའི་སྐབས་ལུ་ བསྒུག་སདོད་གནང་།"
+
+#: ../app/dialogs/user-install-dialog.c:999
+msgid "GIMP Performance Tuning"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ལཱ་ཤུགས་ བུས་ཅན་བཟོ་དོ།"
+
+#: ../app/dialogs/user-install-dialog.c:1000
+msgid "Click \"Continue\" to accept the settings above."
+msgstr "ལྟག་གི་་སྒྲིག་སྟངས་ དང་ལེན་འབད་ནིའི་དོན་ལུ་ \"Continue\" གཡེབ་གཏང་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:1005
+msgid "<b>For optimal GIMP performance, some settings may have to be adjusted.</b>"
+msgstr "<b>ཇི་ཨའི་ཨེམ་པི་གི་ ལཱ་ཤུགས་ གང་དྲག་གི་དོན་ལུ་ སྒྲིག་སྟངས་ལ་ལུ་ཅིག་ བདེ་སྒྲིག་འབད་དགོཔ་འོང་།</b>"
+
+#: ../app/dialogs/user-install-dialog.c:1065
+#, c-format
+msgid "Copying file '%s' from '%s'..."
+msgstr "'%s'...ནང་ལས་ ཡིག་སྣོད་ '%s' འདྲ་བཤུས་རྐྱབས་དོ།"
+
+#: ../app/dialogs/user-install-dialog.c:1084
+#, c-format
+msgid "Creating folder '%s'..."
+msgstr "སྣོད་འཛིན་'%s' གསར་བསྐྲུན་འབད་དོ།"
+
+#: ../app/dialogs/user-install-dialog.c:1098
+#, c-format
+msgid "Cannot create folder '%s': %s"
+msgstr "སྣོད་འཛིན་  '%s': %s གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../app/dialogs/user-install-dialog.c:1362
+msgid "GIMP uses a limited amount of memory to store image data, the so-called \"Tile Cache\".  You should adjust its size to fit into memory.  Consider the amount of memory used by other running processes."
+msgstr "\"Tile Cache\"ཟེར་སླབ་མི་ གཟུགས་བརྙན་གནད་སྡུད་ གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ ཇི་ཨའི་ཨེམ་པི་གིས་ དྲན་ཚད་ ཚད་ཅིག་ལས་འགལ་ ལག་ལེན་མི་འཐབ། དྲན་ཚད་ནང་ལུ་ ཚུད་སྒྲིག་འབད་ིནའི་དོན་ལུ་ དེ་གི་ཚད་ བདེ་སྒརིག་འབད་གོ བཀོལ་སྤྱོད་འབད་བའི་སྒང་ཡོད་མི་ ལས་སྦྱོར་གཞན་གྱིས་ ལག་ལེན་འཐབ་ཡོད་མི་ དྲན་ཚད་ཀྱི་ མང་མྱུང་ ཆ་འཇོག་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:1375
+msgid "Tile cache size:"
+msgstr "འདྲ་མཛོད་ཀྱིང་ཚད་ ཊ་ཡིལ་འབད།"
+
+#: ../app/dialogs/user-install-dialog.c:1387
+msgid "All image and undo data which doesn't fit into the Tile Cache will be written to a swap file.  This file should be located on a local filesystem with enough free space (several hundred MB). On a UNIX system, you may want to use the system-wide temp-dir (\"/tmp\" or \"/var/tmp\")."
+msgstr "ཊ་ཡིལ་འདྲ་མཛོད་ནང་ལུ་ ཚུད་སྒྲིག་མ་འབད་མི་གཟུགས་བརྙན་དང འབད་བཤོལ་གནད་སྡུད་ ཆ་མཉམ་ ས་ཝབ་ཡིག་སྣོད་ནང་ལུ་ འབྲི་ནི་ཨིན། ཡིག་སྣོད་འདི་ བར་སྟོང་ལངམ་སྦེ་ཡོད་པའི་ཐོག་ལས་ ཉེ་གནས་ཀྱི་་ཡིག་སྣོད་རིམ་ལུགས་ཅིག་གུར་ ཡོད་གོ (རྒྱ་ཕྲག་ལེ་ཤ་ ཨེམ་བི) ཡུ་ཨེན་ཨའི་ཨེགསི་རིམ་ལུགས་གུར་ ཁྱོད་ཀྱིས་ རིམ་ལུགས་ཡོངས་ཀྱི་ གནས་སྐབས་ཀྱི་ སནོད་ཐོ་ ལག་ལེན་འཐབ་འདོད་འོང་ག་མི་ཤེས།.(\"/tmp\" or \"/var/tmp\")."
+
+#: ../app/dialogs/user-install-dialog.c:1398
+msgid "Select swap dir"
+msgstr "སཝབ་སྣོད་ཐོ་ སེལ་འཐུ་འབད།"
+
+#: ../app/dialogs/vectors-export-dialog.c:53
+msgid "Export Path to SVG"
+msgstr "འགྲུལ་ལམ་ ཨེསི་ཝི་ཇི་ལུ་ ཕྱིར་འདྲེན་འབད།"
+
+#: ../app/dialogs/vectors-export-dialog.c:78
+msgid "Export the active path"
+msgstr "ཤུགས་ལྡན་ འགྲུལ་ལམ་དེ་ ཕྱིར་འདྲེན་འབད།"
+
+#: ../app/dialogs/vectors-export-dialog.c:79
+msgid "Export all paths from this image"
+msgstr "འགྲུལ་ལམ་ཆ་མཉམ་ གཟུགས་བརྙན་འདི་ནང་ལས་ ཕྱིར་འདྲེན་འབད།"
+
+#: ../app/dialogs/vectors-import-dialog.c:57
+msgid "Import Paths from SVG"
+msgstr "ཨེསི་ཝི་ཇི་ ནང་ལས་ འགྲུལ་ལམ་ ནང་འདྲེན་འབད།"
+
+#: ../app/dialogs/vectors-import-dialog.c:83
+msgid "All Files (*.*)"
+msgstr "ཡིག་སྣོད་མ་མཉམ།(*.*)"
+
+#: ../app/dialogs/vectors-import-dialog.c:88
+msgid "Scalable SVG image (*.svg)"
+msgstr "ཆ་ཚད་འཇལ་བཏུབ་པའི ཨེསི་ཝི་ཇི་ གཟུགས་བརྙན།(*.ཨེསི་ཝི་ཇི་)"
+
+#: ../app/dialogs/vectors-import-dialog.c:99
+msgid "_Merge imported paths"
+msgstr "ནང་འདྲེན་འབད་ཡོད་མི་ འགྲུལ་ལམ་ མཉམ་བསྡོམ་འབད། (_m)"
+
+#: ../app/dialogs/vectors-import-dialog.c:109
+msgid "_Scale imported paths to fit image"
+msgstr "གཟུགས་བརྙན་ ཚད་སྒྲིག་འབད་ནིའི་དོན་ལུ་ ནང་འདྲེན་འབད་ཡོད་མི་ འགྲུལ་ལམ་ ཆ་ཚད་འཇལ། (_s)"
+
+#: ../app/dialogs/vectors-options-dialog.c:113
+msgid "Path Name:"
+msgstr "འགྲུལ་ལམ་གྱི་མིང་།:"
+
+#: ../app/display/display-enums.c:24
+msgid "Tool icon"
+msgstr "ལག་ཆས་ ངོས་དཔར།"
+
+#: ../app/display/display-enums.c:25
+msgid "Tool icon with crosshair"
+msgstr "ཀོརོསི་ཧེའར་དང་ཅིག་ཁར་ ལག་ཆས་ ངོས་དཔར།"
+
+#: ../app/display/display-enums.c:26
+msgid "Crosshair only"
+msgstr "ཀོརོསི་ཧེའར་རྐྱངམ་ཅིག"
+
+#: ../app/display/display-enums.c:55
+msgid "From theme"
+msgstr "བརྗོད་དོན་ནང་ལས།"
+
+#: ../app/display/display-enums.c:56
+msgid "Light check color"
+msgstr "འོད་ཞིབ་དཔྱད་འབད་ནིའི་ ཚོས་གཞི།"
+
+#: ../app/display/display-enums.c:57
+msgid "Dark check color"
+msgstr "གྲིབ་གནག་ཞིབ་དཔྱབ་འབད་ནིའི་ ཚོས་གཞི།"
+
+#: ../app/display/display-enums.c:58
+msgid "Custom color"
+msgstr "སྲོལ་སྒྲིག་ ཚོས་གཞི།"
+
+#: ../app/display/gimpdisplayshell.c:948
+msgid "Zoom image when window size changes"
+msgstr "སྒོ་སྒྲིག་གི་ཚད་ བསྒྱུར་བཅོས་འགྱོཝ་ད་ལུ་ གཟུགས་བརྙན་ རྒྱས་ཟུམ་འབད།་"
+
+#: ../app/display/gimpdisplayshell.c:968
+msgid "Toggle Quick Mask"
+msgstr "འཕྲལ་མགྱོགས་གདོང་ཁེབས སོར་སྟོན་འབད།"
+
+#: ../app/display/gimpdisplayshell-close.c:122
+#: ../app/display/gimpdisplayshell-close.c:185
+#, c-format
+msgid "Close %s"
+msgstr "%s ཁ་བསྡམས།"
+
+#: ../app/display/gimpdisplayshell-close.c:131
+msgid "Do_n't save"
+msgstr "མ་སྲུངས།(_n)"
+
+#: ../app/display/gimpdisplayshell-close.c:192
+#, c-format
+msgid "Save the changes to image '%s' before closing?"
+msgstr "བསྒྱུར་བཅོས་ཚུ་ ཁ་མ་བསྡམ་པའི་ཧེ་མ་ལས་ གཟུགས་བརྙན་'%s'ནང་ལུ་ སྲུང་འབད་ཡ?"
+
+#: ../app/display/gimpdisplayshell-close.c:209
+#, c-format
+msgid "If you don't save the image, changes from the last %s will be lost."
+msgstr "ཁྱོད་ཀྱིས་ གཟུགས་བརྙན་སྲུང་བཞག་མ་འབད་བ་ཅིན་ མཇུག་མམ་གྱི་%s ནང་ལས་ བསྒྱུར་བཅོས་ཚུ་ བརླག་སྟོར་འགྱོ་འོང་།"
+
+#. one second, the time period
+#: ../app/display/gimpdisplayshell-close.c:266
+msgid "second"
+msgstr "སྐར་ཆག"
+
+#: ../app/display/gimpdisplayshell-close.c:269
+#, c-format
+msgid "%d seconds"
+msgstr "%d སྐར་ཆག"
+
+#: ../app/display/gimpdisplayshell-close.c:275
+msgid "minute"
+msgstr "སྐར་མ།"
+
+#: ../app/display/gimpdisplayshell-close.c:277
+#, c-format
+msgid "%d minutes"
+msgstr "%d སྐར་མ།"
+
+#: ../app/display/gimpdisplayshell-dnd.c:98
+msgid "Drop New Layer"
+msgstr "བངརིམ་ གསརཔ་ བཀོག་བཞག"
+
+#: ../app/display/gimpdisplayshell-dnd.c:142
+msgid "Drop New Path"
+msgstr "འགྲུལ་ལམ་ གསརཔ་  བཀོག་བཞག"
+
+#: ../app/display/gimpdisplayshell-filter-dialog.c:73
+msgid "Color Display Filters"
+msgstr "ཚོས་གཞི་ བཀྲམ་སྟོན་འབད་མི ཚགས་མ།"
+
+#: ../app/display/gimpdisplayshell-filter-dialog.c:76
+msgid "Configure Color Display Filters"
+msgstr "ཚོས་གཞི་ བཀྲམ་སྟོན་འབད་མི ཚགས་མ་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/display/gimpdisplayshell-layer-select.c:122
+msgid "Layer Select"
+msgstr "བང་རིམ་ སེལ་འཐུ་འབད།"
+
+#: ../app/display/gimpdisplayshell-scale.c:541
+msgid "Zoom Ratio"
+msgstr "དཔྱ་ཚད་ཟུམ་རྒྱས་འབད།"
+
+#: ../app/display/gimpdisplayshell-scale.c:543
+msgid "Select Zoom Ratio"
+msgstr "ཟུམ་རྒྱས་འབད་མི་ དཔྱ་ཚད་ སེལ་འཐུ་འབད།"
+
+#: ../app/display/gimpdisplayshell-scale.c:578
+msgid "Zoom Ratio:"
+msgstr "དཔྱ་ཚད་ཟུམ་རྒྱས་འབད།:"
+
+#: ../app/display/gimpdisplayshell-scale.c:605
+msgid "Zoom:"
+msgstr "ཟུམ་རྒྱས།"
+
+#: ../app/display/gimpdisplayshell-title.c:234
+msgid "RGB-empty"
+msgstr "ཨཱར་ཇི་བི་ སྟོངམ།"
+
+#: ../app/display/gimpdisplayshell-title.c:237
+msgid "grayscale-empty"
+msgstr "ཆ་ཚད་སྐྱ་ཐལ་ སྟོངམ།"
+
+#: ../app/display/gimpdisplayshell-title.c:237
+msgid "grayscale"
+msgstr "ཆ་ཚད་ སྐྱ་ཐལ།"
+
+#: ../app/display/gimpdisplayshell-title.c:240
+msgid "indexed-empty"
+msgstr "ཟུར་སྦྲགས་ སྟོངམ།"
+
+#: ../app/display/gimpdisplayshell-title.c:240
+msgid "indexed"
+msgstr "ཟུར་སྦྲགས།"
+
+#: ../app/display/gimpdisplayshell-title.c:292
+msgid "(modified)"
+msgstr "(ལེགས་བཅོས་འབད་ཡོདཔ།)"
+
+#: ../app/display/gimpdisplayshell-title.c:298
+msgid "(clean)"
+msgstr "(གཙང་དག་བཟོ།)"
+
+#: ../app/display/gimpdisplayshell-title.c:325
+msgid "1 layer"
+msgstr "༡ བང་རིམ།"
+
+#: ../app/display/gimpdisplayshell-title.c:325
+#, c-format
+msgid "%d layers"
+msgstr "%d བང་རིམ་ཚུ།"
+
+#: ../app/display/gimpstatusbar.c:142
+msgid "Shadow type"
+msgstr "གྱིབ་མའི་ དབྱེ་བ།"
+
+#: ../app/display/gimpstatusbar.c:143
+msgid "Style of bevel around the statusbar text"
+msgstr "གནས་ཚད་ཕྲ་རིང་ ཚིག་ཡིག་གི་ མཐའ་སྐོར་ལུ་ཡོད་མི་ སེར་ཁའི་ བཟོ་རྣམ།"
+
+#: ../app/display/gimpstatusbar.c:229
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་།"
+
+#: ../app/file/file-open.c:105
+#: ../app/file/file-save.c:132
+msgid "Unknown file type"
+msgstr "ཡིག་སྣོད་ཀྱི་ དབྱེ་བ་ མ་ཤེས་མི།"
+
+#: ../app/file/file-open.c:120
+#: ../app/file/file-save.c:146
+msgid "Not a regular file"
+msgstr "དུས་རྒྱུན་གྱི་ཡིག་སནོད་ མིན་མི།"
+
+#: ../app/file/file-open.c:173
+msgid "Plug-In returned SUCCESS but did not return an image"
+msgstr "པ་ལག་ཨིན་དེ་ མཐར་འགྱོལ་ཅན་སྦེ་  སླར་ལོག་ཡོད་ དེ་འབདཝ་ད་ གཟུགས་བརྙན་གྱིས་ སླར་ལོག་མ་འོང་།"
+
+#: ../app/file/file-open.c:181
+msgid "Plug-In could not open image"
+msgstr "པ་ལག་ཨིན་གྱིས་ གཟུགས་བརྙན་ ཁ་ཕྱེ་མ་བཏུབ།"
+
+#: ../app/file/file-open.c:417
+msgid "Image doesn't contain any visible layers"
+msgstr "གཟུགས་བརྙན་ནང་ལུ་ མཐོང་ཚུགས་པའི་ བང་རིམ་ ག་ནི་ཡང་མེད།"
+
+#: ../app/file/file-save.c:220
+msgid "Plug-In could not save image"
+msgstr "པ་ལག་ཨིན་གྱིས་ གཟུགས་བརྙན་ སྲུང་བཞག་འབད་མ་ཚུགས།"
+
+#: ../app/file/file-utils.c:107
+msgid "Invalid character sequence in URI"
+msgstr "ཡུ་ཨཱར་ཨའི་ ནང་ལུ་ ནུས་མེད་ཀྱི་ ཡིག་འབྲུའི་ འབྱུང་རིམ།"
+
+#: ../app/gui/session.c:247
+#: ../app/menus/menus.c:351
+#: ../app/widgets/gimpdevices.c:218
+#, c-format
+msgid "Deleting \"%s\" failed: %s"
+msgstr "\"%s\"བཏོན་གཏང་དོ།%s འཐུས་ཤོར་འབྱུང་ཡོད།"
+
+#: ../app/gui/splash.c:118
+msgid "GIMP Startup"
+msgstr "ཇི་ཨའི་ཨེམ་པི་གི་ འགོ་བཙུགས།"
+
+#: ../app/gui/themes.c:231
+#: ../app/plug-in/plug-ins.c:254
+#, c-format
+msgid "Writing '%s'\n"
+msgstr " '%s' འབྲི་དོ།\n"
+
+#: ../app/gui/themes.c:284
+#, c-format
+msgid "Adding theme '%s' (%s)\n"
+msgstr "བརྗོད་དོན་ '%s' (%s) ཁ་སྐོང་རྐྱབས་དོ།\n"
+
+#: ../app/paint/gimpairbrush.c:69
+#: ../app/tools/gimpairbrushtool.c:55
+msgid "Airbrush"
+msgstr "ཨེ་རི་ བ་རཤི།"
+
+#: ../app/paint/gimpbrushcore.c:369
+msgid "No brushes available for use with this tool."
+msgstr "ལག་ཆས་འདི་དང་ཅིག་ཁར་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ པྱིར་ ཐོབ་མ་ཚུགས།"
+
+#: ../app/paint/gimpclone.c:89
+#: ../app/tools/gimpclonetool.c:89
+msgid "Clone"
+msgstr "ངོ་འདྲ།"
+
+#: ../app/paint/gimpconvolve.c:121
+#: ../app/tools/gimpconvolvetool.c:70
+msgid "Convolve"
+msgstr "དཀྱི་ནི།"
+
+#: ../app/paint/gimpdodgeburn.c:87
+#: ../app/tools/gimpdodgeburntool.c:70
+msgid "Dodge/Burn"
+msgstr "གཟུར་ཐབས/ བཙུགས་སྤྱོད།"
+
+#: ../app/paint/gimperaser.c:64
+#: ../app/tools/gimperasertool.c:70
+msgid "Eraser"
+msgstr "ཀྲེག་གཏང་མི།"
+
+#: ../app/paint/gimppaintbrush.c:65
+#: ../app/tools/gimppaintbrushtool.c:51
+msgid "Paintbrush"
+msgstr "ཚོན་གཏང་ནིའི་ པྱིར།"
+
+#: ../app/paint/gimppencil.c:38
+#: ../app/tools/gimppenciltool.c:51
+msgid "Pencil"
+msgstr "ཞ་མྱུག"
+
+#: ../app/paint/gimpsmudge.c:78
+#: ../app/tools/gimpsmudgetool.c:54
+msgid "Smudge"
+msgstr "མི་གསལ་བ།"
+
+#: ../app/paint/paint-enums.c:23
+msgid "Image source"
+msgstr "གཟུགས་བརྙན་འབྱུང་ཁུངས།"
+
+#: ../app/paint/paint-enums.c:24
+msgid "Pattern source"
+msgstr "དཔེ་གཞི་འབྱུང་ཁུངས།"
+
+#: ../app/paint/paint-enums.c:52
+msgid "Non-aligned"
+msgstr "ཕྲང་-མེདཔ།"
+
+#: ../app/paint/paint-enums.c:53
+msgid "Aligned"
+msgstr "ཕྲང་སྒྲིག་འབད་ཡོདཔ།"
+
+#: ../app/paint/paint-enums.c:54
+msgid "Registered"
+msgstr "ཐོ་བཀོད་འབད་ཡོདཔ།"
+
+#: ../app/paint/paint-enums.c:81
+#: ../app/widgets/gimpwidgets-constructors.c:60
+#: ../app/widgets/gimpwidgets-constructors.c:93
+msgid "Dodge"
+msgstr "གཟུར་ཐབས།"
+
+#: ../app/paint/paint-enums.c:82
+#: ../app/widgets/gimpwidgets-constructors.c:61
+#: ../app/widgets/gimpwidgets-constructors.c:94
+msgid "Burn"
+msgstr " བཙུགས་སྤྱོད།"
+
+#: ../app/paint/paint-enums.c:109
+msgid "Blur"
+msgstr "རབ་རིབ།"
+
+#: ../app/paint/paint-enums.c:110
+msgid "Sharpen"
+msgstr "རྣོ་ཅན།"
+
+#: ../app/paint/paint-enums.c:167
+msgid "Constant"
+msgstr "ཆད་མེད།"
+
+#: ../app/paint/paint-enums.c:168
+#: ../app/tools/gimppaintoptions-gui.c:163
+msgid "Incremental"
+msgstr "ཡར་འཕར།"
+
+#: ../app/pdb/color_cmds.c:140
+#: ../app/tools/gimpbrightnesscontrasttool.c:85
+msgid "Brightness-Contrast"
+msgstr "དཀར་མདངས་དང་ ཚོན་མདངས།"
+
+#: ../app/pdb/color_cmds.c:457
+#: ../app/tools/gimpposterizetool.c:78
+msgid "Posterize"
+msgstr "གསལ་སྦྱང་བཟོ།"
+
+#: ../app/pdb/color_cmds.c:745
+#: ../app/pdb/color_cmds.c:870
+#: ../app/tools/gimpcurvestool.c:141
+msgid "Curves"
+msgstr "གུག་གུགཔ།"
+
+#: ../app/pdb/color_cmds.c:995
+#: ../app/tools/gimpcolorbalancetool.c:96
+msgid "Color Balance"
+msgstr "ཚོས་གཞི་ ཚད་སྙོམས།"
+
+#: ../app/pdb/color_cmds.c:1120
+#: ../app/tools/gimpcolorizetool.c:96
+msgid "Colorize"
+msgstr "ཚོན་གཏང་།"
+
+#: ../app/pdb/color_cmds.c:1399
+#: ../app/tools/gimphuesaturationtool.c:110
+msgid "Hue-Saturation"
+msgstr "ཚོན་མདངས མཐའ་ཚད།"
+
+#: ../app/pdb/color_cmds.c:1506
+#: ../app/tools/gimpthresholdtool.c:92
+msgid "Threshold"
+msgstr "ཐེརེཤ་ཧཱོལ།"
+
+#: ../app/pdb/drawable_transform_cmds.c:249
+#: ../app/pdb/drawable_transform_cmds.c:404
+msgid "Flip..."
+msgstr "མྱུར་ལྷོག་འབད།..."
+
+#: ../app/pdb/drawable_transform_cmds.c:563
+#: ../app/pdb/drawable_transform_cmds.c:746
+#: ../app/pdb/transform_tools_cmds.c:197
+#: ../app/tools/gimpperspectivetool.c:141
+msgid "Perspective..."
+msgstr "སྣང་ཚུལ།..."
+
+#: ../app/pdb/drawable_transform_cmds.c:1650
+#: ../app/pdb/drawable_transform_cmds.c:1791
+#: ../app/pdb/transform_tools_cmds.c:586
+#: ../app/tools/gimpsheartool.c:158
+msgid "Shearing..."
+msgstr "གཏུབ་ནི།..."
+
+#: ../app/pdb/drawable_transform_cmds.c:1943
+#: ../app/pdb/drawable_transform_cmds.c:2124
+#: ../app/pdb/drawable_transform_cmds.c:2311
+#: ../app/pdb/drawable_transform_cmds.c:2512
+#: ../app/pdb/transform_tools_cmds.c:719
+msgid "2D Transform..."
+msgstr "༢་ཌི་ བཟོ་བསྒྱུར།..."
+
+#: ../app/pdb/edit_cmds.c:673
+#: ../app/tools/gimpblendtool.c:249
+msgid "Blending..."
+msgstr "མཉམ་སྡེབ་འབད་དོ།..."
+
+#: ../app/pdb/image_cmds.c:3758
+#: ../app/text/gimptext-parasite.c:168
+msgid "(invalid UTF-8 string)"
+msgstr "(ནུས་མེད་ ཡུ་ཊི་ཨེཕི་-༨ ཡིག་རྒྱུན།)"
+
+#: ../app/pdb/image_cmds.c:3900
+msgid "Image resolution is out of bounds, using the default resolution instead."
+msgstr "གཟུགས་བརྙན་གྱི་ཧུམ་ཆ་དེ་ སྔོན་སྒྲིག་ཧུམ་ཆ་ལག་ལེན་འཐབ་ནི་དེ་གིས་ བཅད་མཚམས་ ལས་འགལ་སོང་ནུག"
+
+#: ../app/pdb/internal_procs.c:86
+msgid "Internal Procedures"
+msgstr "ནང་འཁོད བྱ་སྒོའི་རིམ་ལུགས།"
+
+#: ../app/pdb/internal_procs.c:86
+msgid "Brush"
+msgstr "པྱིར།"
+
+#: ../app/pdb/internal_procs.c:89
+msgid "Brush UI"
+msgstr "ཡུ་ཨའི་པྱིར།"
+
+#: ../app/pdb/internal_procs.c:98
+#: ../app/tools/gimppaintoptions-gui.c:283
+#: ../app/widgets/gimpwidgets-constructors.c:75
+#: ../app/widgets/gimpwidgets-constructors.c:108
+msgid "Color"
+msgstr "ཚོས་གཞི།"
+
+#: ../app/pdb/internal_procs.c:104
+msgid "Convert"
+msgstr "གཞི་བསྒྱུར་འབད།"
+
+#: ../app/pdb/internal_procs.c:107
+msgid "Display procedures"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཚུ་བཀྲམ་སྟོན་འབད།"
+
+#: ../app/pdb/internal_procs.c:110
+msgid "Drawable procedures"
+msgstr "འབྲི་བཏུབ་པའི་བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:113
+msgid "Transformation procedures"
+msgstr "བཟོ་བསྒྱུར་ བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:116
+msgid "Edit procedures"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཚུ་ཞུན་དག་འབད།"
+
+#: ../app/pdb/internal_procs.c:119
+msgid "File Operations"
+msgstr "ཡིག་སྣོད་བཀོལ་སྤྱོད་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:122
+msgid "Floating selections"
+msgstr "འཕུར་ལྡིང་ སེལ་འཐུ་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:125
+msgid "Font UI"
+msgstr "ཡིག་གཟུགས་ཡུ་ཨའི།"
+
+#: ../app/pdb/internal_procs.c:131
+msgid "Gimprc procedures"
+msgstr "ཇིམཔི་ཨར་སི་ བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:134
+msgid "Gradient"
+msgstr "སྟེགས་ རིས།"
+
+#: ../app/pdb/internal_procs.c:137
+msgid "Gradient UI"
+msgstr "སྟེགས་རིས་ཡུ་ཨའི།"
+
+#: ../app/pdb/internal_procs.c:143
+msgid "Guide procedures"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཚུ་འཁྱིད།"
+
+#: ../app/pdb/internal_procs.c:146
+msgid "Help procedures"
+msgstr "གྲོགས་རམ་ བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:155
+msgid "Message procedures"
+msgstr "འཕྲིན་དོན་ བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:158
+msgid "Miscellaneous"
+msgstr "སྣ་ཚོགས།"
+
+#: ../app/pdb/internal_procs.c:161
+msgid "Paint Tool procedures"
+msgstr "ལག་ཆས་བྱ་སྒོའི་ལམ་ལུགས་ཚུ་ཚོན་གཏང་།"
+
+#: ../app/pdb/internal_procs.c:164
+msgid "Palette"
+msgstr "པེ་ལེཊི།"
+
+#: ../app/pdb/internal_procs.c:167
+msgid "Palette UI"
+msgstr "པེ་ལེཊི་ཡུ་ཨའི།"
+
+#: ../app/pdb/internal_procs.c:173
+msgid "Parasite procedures"
+msgstr "གཞན་བརྟེན་པའི་བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:182
+msgid "Pattern UI"
+msgstr "དཔེ་གཞི་ཡུ་ཨའི།"
+
+#: ../app/pdb/internal_procs.c:188
+msgid "Plug-in"
+msgstr "པ་ལག་ཨིན།"
+
+#: ../app/pdb/internal_procs.c:191
+msgid "Procedural database"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཀྱི་རྒྱུད་རིམ་ གནད་སྡུད་གཞི་བརྟེན།"
+
+#: ../app/pdb/internal_procs.c:194
+#: ../app/widgets/gimpprogressdialog.c:239
+msgid "Progress"
+msgstr "ཡར་འཕེལ།"
+
+#: ../app/pdb/internal_procs.c:197
+msgid "Image mask"
+msgstr "གཟགས་བརྙན་གདོང་ཁེབས།"
+
+#: ../app/pdb/internal_procs.c:200
+msgid "Selection Tool procedures"
+msgstr "སེལ་འཐུའི ལག་ཆས་བྱ་སྒོའི་ལམ་ལུགས།"
+
+#: ../app/pdb/internal_procs.c:203
+msgid "Text procedures"
+msgstr "ཚིག་ཡིག་ བྱ་སྒོའི་ལམ་ལུགས་ཚུ།"
+
+#: ../app/pdb/internal_procs.c:206
+msgid "Transform Tool procedures"
+msgstr "ལག་ཆས་བྱ་སྒོའི་ལམ་ལུགས་ཚུ་བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/pdb/procedural_db.c:254
+#, c-format
+msgid ""
+"PDB calling error:\n"
+"procedure '%s' not found"
+msgstr ""
+"པི་ཌི་བི་གིས་ འཛོལ་བ་འདུག་ཟེར་སླབ་དོ།\n"
+"བྱ་སྒོའི་ལམ་ལུགས་ '%s'ཐོབ་མ་ཚུགས།"
+
+#: ../app/pdb/procedural_db.c:275
+#: ../app/pdb/procedural_db.c:392
+#, c-format
+msgid ""
+"PDB calling error for procedure '%s':\n"
+"Argument #%d type mismatch (expected %s, got %s)"
+msgstr ""
+"བྱ་སྒོའི་ལམ་ལུགས་ '%sགི་དོན་ལུ་ པི་ཌི་བི་གིས་ འཛོལ་བ་འདུག་ཟེར་སླབ་དོ། :\n"
+"སྒྲུབ་རྟགས #%d གི་དབྱེ་བ་དེ་ མི་མཐུན་པས། (རེ་བ་ཡོད་མི་ %s,གིས %sཐོབ་ཅི།)"
+
+#: ../app/pdb/procedural_db_cmds.c:80
+msgid "Internal GIMP procedure"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ནང་འཁོད བྱ་སྒོའི་ལམ་ལུགས།"
+
+#: ../app/pdb/procedural_db_cmds.c:81
+msgid "GIMP Plug-In"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ པ་ལག་-ཨིན།"
+
+#: ../app/pdb/procedural_db_cmds.c:82
+msgid "GIMP Extension"
+msgstr "ཇི་ཨའི་ཨེམ་པི་རྒྱ་བསྐྱེད།"
+
+#: ../app/pdb/procedural_db_cmds.c:83
+msgid "Temporary Procedure"
+msgstr "གནས་སྐབས་ བྱ་སྒོའི་ལམ་ལུགས།"
+
+#: ../app/pdb/selection_tools_cmds.c:332
+#: ../app/tools/gimpfreeselecttool.c:96
+msgid "Free Select"
+msgstr "རང་དགར་སེལ་འཐུ།"
+
+#: ../app/plug-in/plug-in.c:551
+#: ../app/plug-in/plug-in.c:581
+#, c-format
+msgid "Terminating plug-in: '%s'\n"
+msgstr "པ་ལག་ཨིན་'%s' རྩ་གྲོལ་གཏང་དོ།\n"
+
+#: ../app/plug-in/plug-in.c:737
+#, c-format
+msgid ""
+"Plug-In crashed: \"%s\"\n"
+"(%s)\n"
+"\n"
+"The dying Plug-In may have messed up GIMP's internal state. You may want to save your images and restart GIMP to be on the safe side."
+msgstr ""
+"པ་ལག་ཨིན་ བརྡབ་འཁྲུག་འབད་ནུག\"%s\"\n"
+"(%s)\n"
+"\n"
+"ཤི་རྐྱེན་འབྱུང་མི་ པ་ལག་ཨིན་དེ་གིས་  ཇི་ཨའི་ཨེམ་པི་གི་ ནང་འཁོད་གནས་ལུགས རིམ་དཀྲུགས་འབད་འབདཝ་འོང་། ཁྱོད་ཀྱིས་ གཟུགས་བརྙན་ སྲུང་བཞག་འབད་ནི་དང་ ཇི་ཨའི་ཨེམ་པི་དེ་ཉེན་སྲུང་ཅན་གྱི་ཕྱོགས་ལུ་ བཞག་ནིའི་དོན་ལུ་  ལོག་འགོ་བཙུགས།"
+
+#: ../app/plug-in/plug-in-rc.c:176
+#, c-format
+msgid "Skipping '%s': wrong GIMP protocol version."
+msgstr "%s' གོམ་འགྱོ་དོ། ཇི་ཨའི་ཨེམ་པི་ ཕྱི་འགྱུར་ གནད་སྤེལ་ལམ་ལུགས་ཀྱི་ ཐོན་རིམ།"
+
+#: ../app/plug-in/plug-in-rc.c:432
+#, c-format
+msgid "invalid value '%s' for icon type"
+msgstr "ངོས་དཔར་བཟུམ་སྦེ་ཡོད་མི་གི་དོན་ལུ་ ནུས་མེད་གནས་གོང་'%s' "
+
+#: ../app/plug-in/plug-in-rc.c:447
+#, c-format
+msgid "invalid value '%ld' for icon type"
+msgstr "ངོས་དཔར་བཟུམ་སྦེ་ཡོད་མི་གི་དོན་ལུ་ ནུས་མེད་གནས་གོང་'%ld'"
+
+#: ../app/plug-in/plug-ins.c:139
+msgid "Resource configuration"
+msgstr "ཐོན་ཁུངས་ རིམ་སྒྲིག"
+
+#. Query any plug-ins that have changed since we last wrote out
+#. *  the pluginrc file.
+#.
+#: ../app/plug-in/plug-ins.c:153
+msgid "Querying new Plug-ins"
+msgstr "པ་ལག་ཨིནསི་ གསརཔ་ འདྲི་དཔྱད་འབད་དོ།"
+
+#: ../app/plug-in/plug-ins.c:170
+#, c-format
+msgid "Querying plug-in: '%s'\n"
+msgstr "པ་ལག་ཨིནསི་ '%s' དྲི་དཔྱད་འབད་དོ།\n"
+
+#. initialize the plug-ins
+#: ../app/plug-in/plug-ins.c:180
+msgid "Initializing Plug-ins"
+msgstr "པ་ལག་ཨིནསི་ འགོ་འབྱེད་འབད་དོ།"
+
+#: ../app/plug-in/plug-ins.c:194
+#, c-format
+msgid "Initializing plug-in: '%s'\n"
+msgstr "པ་ལག་ཨིནསི་ %s' འགོ་འབྱེད་འབད་དོ།\n"
+
+#: ../app/plug-in/plug-ins.c:351
+msgid "Starting Extensions"
+msgstr "རྒྱ་བསྐྱེད་ འགོ་བཙུགས་དོ།"
+
+#: ../app/plug-in/plug-ins.c:358
+#, c-format
+msgid "Starting extension: '%s'\n"
+msgstr "རྒྱ་བསྐྱེད་: '%s' འགོ་བཙུགས་དོ།\n"
+
+#: ../app/text/text-enums.c:81
+msgid "Left justified"
+msgstr "གཡོན་ ལྟེམས་བཅོས་འབད་ཡི།"
+
+#: ../app/text/text-enums.c:82
+msgid "Right justified"
+msgstr "གཡས་ ལྟེམས་བཅོས་འབད་ཡི།"
+
+#: ../app/text/text-enums.c:83
+msgid "Centered"
+msgstr "དབུས་སྒྲིག།"
+
+#: ../app/text/text-enums.c:84
+msgid "Filled"
+msgstr "བཀང་།"
+
+#. This is a so-called pangram; it's supposed to
+#. contain all characters found in the alphabet.
+#: ../app/text/gimpfont.c:39
+msgid ""
+"Pack my box with\n"
+"five dozen liquor jugs."
+msgstr ""
+"ངེས་ཀྱི་སྒྲོམ་ གཤེར་ཁུ་ ཇག་ ཌ་ཛནི་་ལྔ་དང་བཅས་ \n"
+" སྒམ་རྐྱབས།"
+
+#: ../app/text/gimptext-compat.c:108
+#: ../app/tools/gimptexttool.c:699
+msgid "Add Text Layer"
+msgstr "བང་རིམ་གྱི་ ཚིག་ཡིག་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/text/gimptextlayer.c:170
+msgid "Text Layer"
+msgstr "ཚིག་ཡིག་ བང་རིམ།"
+
+#: ../app/text/gimptextlayer.c:171
+msgid "Rename Text Layer"
+msgstr "ཚིག་ཡིག་གི བང་རིམ་ བསྐྱར་མིང་བཏགས།"
+
+#: ../app/text/gimptextlayer.c:172
+msgid "Move Text Layer"
+msgstr "ཚིག་ཡིག་གི་བང་རིམ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/text/gimptextlayer.c:173
+msgid "Scale Text Layer"
+msgstr "ཚིག་ཡིག་གི་ བང་རིམ་ ཆ་ཚད་འཇལ།"
+
+#: ../app/text/gimptextlayer.c:174
+msgid "Resize Text Layer"
+msgstr "ཚིག་ཡིག་གི་ བང་རིམ་ ཚད་བསྐྱར་བཟོ།"
+
+#: ../app/text/gimptextlayer.c:175
+msgid "Flip Text Layer"
+msgstr "ཚིག་ཡིག་གི་ བང་རིམ་ མྱུར་ལྷོག་འབད།"
+
+#: ../app/text/gimptextlayer.c:176
+msgid "Rotate Text Layer"
+msgstr "ཚིག་ཡིག་གི་ བང་རིམ་ བསྒྱིར།"
+
+#: ../app/text/gimptextlayer.c:177
+msgid "Transform Text Layer"
+msgstr "ཚིག་ཡིག་གི་ བང་རིམ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/text/gimptextlayer.c:531
+msgid "Discard Text Information"
+msgstr "ཚིག་ཡིག་གི་ བརྡ་དོན་ བཏོན་བཀོག།"
+
+#: ../app/text/gimptextlayer.c:581
+msgid "Due to lack of any fonts, text functionality is not available."
+msgstr "ཡིག་གཟུགས་ག་ནི་ཡང་མེདཔ་ལས་བརྟེན་ ཚིག་ཡིག་གི་ ལས་འགན་དེ་ ཐོབ་མི་ཚུགས།"
+
+#: ../app/text/gimptextlayer.c:616
+msgid "Empty Text Layer"
+msgstr "ཚིག་ཡིག་གི་ བང་རིམ་ སྟོངམ།"
+
+#: ../app/text/gimptextlayer-xcf.c:73
+#, c-format
+msgid ""
+"Problems parsing the text parasite for layer '%s':\n"
+"%s\n"
+"\n"
+"Some text properties may be wrong. Unless you want to edit the text layer, you don't need to worry about this."
+msgstr ""
+"བང་རིམ་'%s':\n"
+"%s\n"
+"\n"
+" གི་དོན་ལུ་ ཚིག་ཡིག་གཞན་བརྟེན་ མིང་དཔྱད་འབད་ནི་ལུ་ དཀའ་ངལ་འབྱུངམ་མས། ཚིག་ཡིག་གི་ ལ་ལུ་ཅིག་གི་རྒྱུ་དངོས་ ཕྱི་འགྱུར་ཨིནམ་འོང་། ཁྱོད་ ཚིག་ཡིག་གི་ བང་རིམ་ ཞུན་དག་འབད་གོ་མ་མནོ་ཚུན་ འདི་གི་སྐོར་ལས་ ཚ་གྱང་ ལངས་མི་གོ་"
+
+#: ../app/tools/tools-enums.c:25
+msgid "Pick only"
+msgstr "འཐུ་ནི་ རྐྱངམ་ཅིག"
+
+#: ../app/tools/tools-enums.c:26
+msgid "Set foreground color"
+msgstr "གདོང་གཞི་ ཚོས་གཞི་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/tools/tools-enums.c:27
+msgid "Set background color"
+msgstr "རྒྱབ་གཞི་ ཚོས་གཞི་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/tools/tools-enums.c:54
+msgid "Crop"
+msgstr "བཏོག་བཅོས།"
+
+#: ../app/tools/tools-enums.c:55
+msgid "Resize"
+msgstr "ཚཚད་བསྐྱར་བཟོ།"
+
+#: ../app/tools/tools-enums.c:83
+msgid "Free select"
+msgstr "རང་དགར་ སེལ་འཐུ།"
+
+#: ../app/tools/tools-enums.c:84
+msgid "Fixed size"
+msgstr "ཚད་ གཏན་བཟོས།"
+
+#: ../app/tools/tools-enums.c:85
+msgid "Fixed aspect ratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད་ གཏན་བཟོས།"
+
+#: ../app/tools/tools-enums.c:113
+msgid "Transform layer"
+msgstr "བང་རིམ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/tools/tools-enums.c:114
+msgid "Transform selection"
+msgstr "སེལ་འཐུ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/tools/tools-enums.c:115
+msgid "Transform path"
+msgstr "འགྲུལ་ལམ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/tools/tools-enums.c:143
+msgid "Design"
+msgstr "བཀོད་བསྒྲིག"
+
+#: ../app/tools/tools-enums.c:145
+#: ../app/tools/gimpmovetool.c:116
+msgid "Move"
+msgstr "སྤོ་བཤུད།"
+
+#: ../app/tools/tools-enums.c:174
+msgid "Outline"
+msgstr "མཐའ་ཐིག"
+
+#: ../app/tools/tools-enums.c:177
+msgid "Image + Grid"
+msgstr "གཟུགས་བརྙན་+ གི་རིཊི།"
+
+#: ../app/tools/tools-enums.c:204
+msgid "Number of grid lines"
+msgstr "གི་རིཊི་ གྲལ་ཐིག་གི་ གྱངས་ཁ།"
+
+#: ../app/tools/tools-enums.c:205
+msgid "Grid line spacing"
+msgstr "གི་རིཊི་ གྲལ་ཐིག་ བར་སྟོང་གཏོན་དོ།"
+
+#: ../app/tools/gimp-tools.c:284
+msgid "This tool has no options."
+msgstr "ལག་ཆས་འདི་ལུ་ འདམ་ཁ་མེད།"
+
+#: ../app/tools/gimpairbrushtool.c:56
+msgid "Airbrush with variable pressure"
+msgstr "ཨེར་བརཤི་ དང་བཅས་ འགྱུར་ཅན་ གཡེབ་ཤུགས།"
+

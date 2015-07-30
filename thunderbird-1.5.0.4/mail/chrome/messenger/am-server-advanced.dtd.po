@@ -1,0 +1,101 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/am-server-advanced.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: am-server-advanced.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-08 09:22+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: serverAdvanced.label
+msgid "Advanced Account Settings"
+msgstr "མཐོ་རིམ་ཅན་གྱི་རྩིས་ཐོ་སྒྲིག་སྟངས་"
+
+# LOCALIZATION NOTE (serverDirectory.label): DONT_TRANSLATE "IMAP"
+#: imapAdvanced.label
+msgid "Advanced IMAP Server Settings"
+msgstr "མཐོ་རིམ་ཅན་གྱི་ ཨའི་མེཔ་སར་བར་སྒྲིག་སྟངས་"
+
+#: serverDirectory.label
+#: serverDirectory.accesskey
+msgid "IMAP server &directory:"
+msgstr "ཨའི་མེཔ་སར་བར་སྣོད་ཐོ་(&d)"
+
+#: usingSubscription.label
+#: usingSubscription.accesskey
+msgid "Sho&w only subscribed folders"
+msgstr "མཁོ་མངགས་འབད་མི་ སྣོད་འཛིན་ཚུ་རྐྱངམ་གཅིག་སྟོན་(&w)"
+
+#: dualUseFolders.label
+#: dualUseFolders.accesskey
+msgid "Server supports &folders that contain sub-folders and messages"
+msgstr "སར་བར་གྱིས་ ཡན་ལག་སྣོད་འཛིན་དང་འཕྲིན་དོན་ཚུ་ཡོད་མི་ སྣོད་འཛིན་ཚུ་ལུ་ རྒྱབ་སྐྱོར་འབདཝ་ཨིན།(&f)"
+
+#: useIdle.label
+#: useIdle.accesskey
+msgid "Use &IDLE command if the server supports it"
+msgstr "སར་བར་གྱིས་ འདི་ལུ་རྐྱབ་སྐྱོར་འབད་བ་ཅིན་ ལས་མེད་བརྡ་དོན་ ལག་ལེན་འཐབ་(&I)"
+
+#: maximumConnectionsNumber.label
+#: maximumConnectionsNumber.accesskey
+msgid "&Maximum number of server connections to cache"
+msgstr "འདྲ་མཛོད་ལུ་ སར་བར་མཐུད་ལམ་གྱི་ གྱངས་ཁའི་མང་མཐའ།(&M)"
+
+#: personalNamespace.label
+#: personalNamespace.accesskey
+msgid "&Personal namespace:"
+msgstr "རང་དོན་མིང་གི་བར་སྟོང་:(&P)"
+
+#: publicNamespace.label
+#: publicNamespace.accesskey
+msgid "P&ublic (shared):"
+msgstr "མི་མང་གི་(རུབ་སྤྱོད་)(&u)"
+
+#: otherUsersNamespace.label
+#: otherUsersNamespace.accesskey
+msgid "&Other Users:"
+msgstr "ལག་ལེན་པ་གཞན་ཚུ་:(&O)"
+
+#: overrideNamespaces.label
+#: overrideNamespaces.accesskey
+msgid "&Allow server to override these namespaces"
+msgstr "སར་བར་གྱིས་ མིང་གི་བར་སྟོང་ཚུ་ ཚབ་སྲུང་འབད་བཅུག་(&A)"
+
+#: pop3Desc.label
+msgid "When downloading pop mail for this server, use the following folder for new mail:"
+msgstr "སར་བར་འདི་གི་དོན་ལུ་ པོཔ་ཡིག་འཕྲིན་ ཕབ་ལེན་འབད་བའི་སྐབས་ལུ་ ཡིག་འཕྲིན་གསར་པའི་དོན་ལས་ འོག་གི་སྣོད་འཛིན་ལག་ལེན་འཐབ་:"
+
+#: folderStorage.label
+msgid "Where to store mail"
+msgstr "ཡིག་འཕྲིན་གསོག་འཇོག་འབད་ས་"
+
+#: globalInbox.label
+#: globalInbox.accesskey
+msgid "&Global Inbox (Local Folders Account)"
+msgstr "སྤྱི་ཁྱབ་ནང་སྒྲོམ་(ཉེ་གནས་སྣོད་འཛིན་གྱི་རྩིས་ཐོ་)(&G)"
+
+#: accountDirectory.label
+#: accountDirectory.accesskey
+msgid "Inbox for thi&s server's account"
+msgstr "སར་བར་འདི་གི་རྩིས་ཐོའི་ནང་སྒྲོམ་(&s)"
+
+#: deferToServer.label
+#: deferToServer.accesskey
+msgid "Inbox for &different account"
+msgstr "རྩིས་ཐོ་སོ་སོའི་དོན་ལུ་ནང་སྒྲོམ་(&d)"
+
+#: deferGetNewMail.label
+#: deferGetNewMail.accesskey
+msgid "&Include this server when getting new mail"
+msgstr "ཡིག་འཕྲིན་གསརཔ་ལེནམ་ད་ སར་བར་འདི་གྲངས་སུ་བཙུགས་(&I)"
+

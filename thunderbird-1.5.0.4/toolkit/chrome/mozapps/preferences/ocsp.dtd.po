@@ -1,0 +1,55 @@
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/preferences/ocsp.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: oscp.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-11-03 11:29+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: window.width
+msgid ""
+"_: Do not translate this.  Only change the numeric values if you need this dialogue box to appear bigger.\n"
+"38em"
+msgstr "ཨི་ཨེམ་༣༨།"
+
+#: ocspDialog.title
+msgid "Verification"
+msgstr "བདེན་སྦྱོར་"
+
+#: validation.ocsp.description
+msgid "&brandShortName; can use Online Certificate Status Protocol (OCSP) to verify certificates. Set &brandShortName; to use OCSP as follows:"
+msgstr "&brandShortName;གིས་ ལག་ཁྱེར་ཚུ་བདེན་སྦྱོར་འབད་ནི་ལུ་ ལག་ཁྱེར་གནས་ཚད་གནས་སྤེལ་ལམ་ལུགས་(ཨོ་སི་ཨེསི་པི) ལག་ལེན་འཐབ་ཚུགས། ཨོ་སི་ཨེསི་པི་ གཤམ་གསལ་ལྟར་དུ་ ལག་ལེན་འཐབ་ནི་ལུ་ &brandShortName;གཞི་སྒྲིག་འབད།"
+
+#: disableOCSP.label
+msgid "Do not use OCSP for certificate validation"
+msgstr "ལག་ཁྱེར་ནུས་ཅན་བཟོ་ནི་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་མ་འཐབ།"
+
+#: certOCSP.label
+msgid "Use OCSP to validate only certificates that specify an OCSP service URL"
+msgstr "ཨོ་སི་ཨེསི་པི་ ཞབས་ཏོག་གི་ཡུ་ཨར་ཨེལ་ཅིག་ གསལ་བཀོད་འབད་མི་ ལག་ཁྱེར་ཚུ་རྐྱངམ་གཅིག་ ནུས་ཅན་བཟོ་ནི་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ།"
+
+#: proxyOCSP.label
+msgid "Use OCSP to validate all certificates using this URL and signer:"
+msgstr "ཡུ་ཨར་ཨེལ་དང་ མིང་རྟགས་བཀོད་མི་འདི་ ལག་ལེན་འཐབ་མི་ ལག་ཁྱེར་ཆ་མཉམ་ར་ ནུས་ཅན་བཟོ་ནི་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ།"
+
+#: serviceURL.label
+#: serviceURL.accesskey
+msgid "&Service URL:"
+msgstr "ཞབས་ཏོག་གི་ཡུ་ཨར་ཨེལ་:(&S)"
+
+#: signingCA.label
+#: signingCA.accesskey
+msgid "&Response Signer:"
+msgstr "ངོས་ལན་ལུ་མིང་རྟགས་བཀོད་མི་:(&R)"
+

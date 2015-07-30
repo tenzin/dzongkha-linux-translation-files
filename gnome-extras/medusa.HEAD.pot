@@ -1,0 +1,476 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: medusa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-13 22:10+0100\n"
+"PO-Revision-Date: 2006-12-14 03:48+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../indexer/medusa-file-index-daemon.c:128
+msgid "Specify the root folder to start indexing at"
+msgstr "ལུ་ཟུར་ཐོ་འགོ་བཙུགས་ནི་ལུ་སྣོད་འཛིན་རྩ་བོ་འདི་གསལ་བཀོད་འབད།"
+
+#: ../indexer/medusa-file-index-daemon.c:129
+#: ../msearch/medusa-command-line-search.c:156
+msgid "PATH"
+msgstr "འགྲུལ་ལམ།"
+
+#: ../indexer/medusa-file-index-daemon.c:131
+msgid "Create a named index"
+msgstr "མིང་བཏགས་ཡོད་མི་ཟུར་ཐོ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../indexer/medusa-file-index-daemon.c:132
+msgid "NAME"
+msgstr "མིང་།"
+
+#: ../indexer/medusa-file-index-daemon.c:134
+msgid "Count the space taken in the text index by file name and mime type"
+msgstr "ཡིག་སྣོད་མིང་དང་མ་ཡིམ་དབྱེ་བ་གིས་ཚིག་ཡིག་ཟུར་ཐོ་འདི་ནང་བར་སྟོངས་ཐོབ་མི་འདི་གྱངས་ཁ་རྐྱབས།"
+
+#: ../indexer/medusa-file-index-daemon.c:137
+msgid "Don't sleep when medusa-idled reports user activity"
+msgstr "མི་ཌུ་ས་-ལས་མེདཔ་སྙན་ཞུ་ཚུ་ལག་ལེན་པ་ཤུགས་ལྡན་སྐབས་མ་བསྒུག"
+
+#: ../indexer/medusa-file-index-daemon.c:140
+msgid "Create index even if the disk looks too full to support it"
+msgstr "ཌེཀསི་འདི་རྒྱབ་སྐྱོར་འབད་ནི་ལུ་གངམ་མཐོང་རུང་ཟུར་ཐོ་འདི་གསར་བསྐྲུན་འབད།"
+
+#: ../indexer/medusa-file-index-daemon.c:143
+msgid "Don't fork the listener. Run it in debugging mode"
+msgstr "ཉན་མི་འདི་ཁ་སྤེལ་མ་འབད། སྐྱོན་སེལ་འབད་ནི་ཐབས་ལམ་ནང་གཡོག་བཀོལ།"
+
+#: ../indexer/medusa-file-index-daemon.c:171
+msgid "Medusa Index Daemon"
+msgstr "མི་ཌུ་ས་ཟུར་ཐོ་ཌེ་མཱོན།"
+
+#: ../indexer/medusa-file-index-daemon.c:187
+#, c-format
+msgid "Invalid argument: %s\n"
+msgstr "ནུས་མེད་སྒྲུབ་རྟགས།: %s\n"
+
+#: ../indexer/medusa-file-index-daemon.c:191
+msgid "Using the default root folder for index.\n"
+msgstr "སྔོན་སྒྲིག་སྣོད་འཛིན་རྩ་བོ་ཟུར་ཐོ་དོན་ལུ་ལག་ལེན་འཐབ་དེ།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:198
+msgid "The root folder of the index is not specified, nor is it set in GConf."
+msgstr "ཟུར་ཐོ་གི་སྣོད་འཛིན་རྩ་བོ་འདི་གསལ་བཀོད་མ་འབད་བར་ཡོདཔ་ཡང་ན་འདི་ཇི་སི་ཨོ་ཨེན་ཨེཕ་ནང་གཞི་སྒྲིག་མ་འབད།"
+
+#: ../indexer/medusa-file-index-daemon.c:202
+msgid "Invalid argument: Index name cannot contain the '/' character.\n"
+msgstr "ནུས་མེད་སྒྲུབ་རྟགས་: ཟུར་ཐོ་མིང་ནང་ན་ '/' ཡིག་འབྲུ་མེད།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:234
+msgid "Finished indexing"
+msgstr "ཟུར་ཐོ་བཀོད་ནི་མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../indexer/medusa-file-index-daemon.c:237
+msgid "Removed account files"
+msgstr "རྩིས་ཐོ་ཡིག་སྣོད་ཚུ་རྩ་བསྐྲད་གཏང་ཡོདཔ།"
+
+#: ../indexer/medusa-file-index-daemon.c:262
+#, c-format
+msgid "Can not determine file system status for %s, the disk may be too full for an index."
+msgstr "ཌེཀསི་དོན་ལུ་ %s,ཡང་ན་ཅིན་ཟུར་ཐོ་གི་དོན་ལུ་གང་ཡོད་པ་ཅིན་ཡིག་སྣོད་རིམ་ལུགས་གནས་ཚད་གཏན་འབེབས་མི་ཚུགས། "
+
+#: ../indexer/medusa-file-index-daemon.c:264
+msgid "Indexing is continuing"
+msgstr "ཟུར་ཐོ་བཀོད་ནི་འཕྲོ་མཐུད་དོ།"
+
+#: ../indexer/medusa-file-index-daemon.c:272
+#, c-format
+msgid "File system %s has %ld blocks, %ld free\n"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་ %s དེ་ལུ་ %ld ལེབ་དུམ་ཚུ་ %ld རང་དབང་ཡོདཔ།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:277
+#, c-format
+msgid "Indexing aborted because disk is either more than 95%% full or 40 megs of space are not available at location %s"
+msgstr "ཟུར་ཐོ་བཀོད་ནི་བར་བཤོལ་འབད་ཡོད་མི་ག་ཅི་སྨོ་ཟེར་བ་ཅིན་ཌེཀསི་འདི་ཡང་ན་ ༩༥%% ལས་མངམ་གང་ཡོདཔ་ཡང་ན་བར་སྟོང་གི་ཨེམ་ཨི་ཇིསི་ ༤༠་གི་་ཐོབ་ཚུགས་བའི་གནས་ཁོངས་ལུ་མེདཔ། %s"
+
+#: ../indexer/medusa-file-index-daemon.c:300
+#, c-format
+msgid "Indexing aborted because %s did not exist but an error occurred creating it"
+msgstr "ཟུར་ཐོ་བཀོད་ནི་བར་བཤོལ་འབད་ཡོདཔ་ག་ཅི་སྨོ་ཟེར་བ་ཅིན་ %s འདི་མེདཔ་ཨིན་རུང་གསར་བསྐྲུན་འབད་བའི་སྐབས་འཛོལ་བ་འབྱུང་ཡོདཔ།"
+
+#: ../indexer/medusa-file-index-daemon.c:311
+msgid "Failed to acquire lock file for indexing\n"
+msgstr "ཟུར་ཐོ་འབད་ནི་དོན་ལུ་བསྡམ་བཞག་ཡིག་སྣོད་འཐོབ་ནི་ལུ་འཐུས་ཤོར་ཡོདཔ།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:328
+msgid "Indexing...\n"
+msgstr "ཟུར་ཐོ་འབད་དོ།...\n"
+
+#: ../indexer/medusa-file-index-daemon.c:333
+msgid "Finished indexing\n"
+msgstr "ཟུར་ཐོ་འབད་ནི་མཇུག་བསྡུ་ཡོདཔ།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:338
+msgid "Done moving index files to correct locations\n"
+msgstr "ངེས་བདེན་གནས་ཁོངས་ཚུ་ལུ་ཟུར་ཐོ་ཡིག་སྣོད་ཚུ་སྤོ་ནི་འབད་ཚར་ཡོདཔ།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:341
+msgid "Released lock\n"
+msgstr "ལྡེ་མིག་འཛིན་འགྲོལ་ཡོདཔ།\n"
+
+#: ../indexer/medusa-file-index-daemon.c:343
+msgid "Exiting\n"
+msgstr "ཕྱིར་ཐོན་དོ།\n"
+
+#: ../msearch-gui/interface.c:211
+msgid "Cannot get the application window."
+msgstr "གློག་རིམ་ཝིནཌོ་འདི་ལེན་མ་ཚུགསཔ།"
+
+#: ../msearch-gui/interface.c:226
+msgid "Cannot set the application's default icon:"
+msgstr "གློག་རིམ་གྱི་སྔོན་སྒྲིག་ངོས་དཔར་འདི་གཞི་སྒྲིག་འབད་མ་ཚུགསཔ།:"
+
+#: ../msearch-gui/interface.c:290
+msgid "Cannot load emblem:"
+msgstr "ལས་རྟགས་མངོན་གསལ་འབད་མ་ཚུགསཔ།:"
+
+#: ../msearch-gui/interface.c:302
+msgid "NULL emblem pixbuf:"
+msgstr "སྟོང་ཆ་ལས་རྟགས་པར་ཁོངས།:"
+
+#: ../msearch-gui/medusa-treemvc.c:485
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../msearch-gui/medusa-treemvc.c:505
+msgid "Folder"
+msgstr "སྣོད་འཛིན།"
+
+#: ../msearch-gui/medusa-treemvc.c:516
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../msearch-gui/medusa-treemvc.c:526
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../msearch-gui/medusa-treemvc.c:536
+msgid "Date Modified"
+msgstr "ཚེས་ལེགས་བཅོས་འབད་ཡོདཔ།"
+
+#: ../msearch-gui/medusa-treemvc.c:804
+msgid "Cannot load mime-type icon:"
+msgstr "མ་ཡིམ-དབྱེ་བ་ངོས་དཔར་མངོན་གསལ་འབད་མ་ཚུགསཔ།:"
+
+#: ../msearch-gui/medusa-treemvc.c:839
+msgid "link (broken)"
+msgstr "འབྲེལ་ལམ། (ཆད་པ།)"
+
+#: ../msearch-gui/medusa-treemvc.c:844
+#, c-format
+msgid "link to %s"
+msgstr "ལུ་འབྲེལ་མཐུད། %s"
+
+#: ../msearch-gui/medusa-treemvc.c:865
+msgid "%Y-%m-%d, %-I:%M %p"
+msgstr "%Y-%m-%d, %-I:%M %p"
+
+#: ../msearch-gui/medusa-treemvc.c:872
+msgid "unknown time"
+msgstr "མ་ཤེས་པའི་ཆུ་ཚོད།"
+
+#: ../msearch-gui/medusa-treemvc.c:1081
+msgid "_Open"
+msgstr "ཁ་ཕྱེ།(_O)"
+
+#: ../msearch-gui/medusa-treemvc.c:1085
+msgid "O_pen Folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ།(_p)"
+
+#: ../msearch-gui/msearch-gui.c:85
+msgid "Cannot load the interface glade file."
+msgstr "ངོས་འདྲ་བ་གེལེཌི་ཡིག་སྣོད་འདི་མངོན་གསལ་འབད་མ་ཚུགསཔ།"
+
+#: ../msearch-gui/msearch-gui.c:98
+msgid "Cannot get the results GtkTreeview."
+msgstr "ཇི་ཊི་ཀེ་རྩ་འབྲེལ་མཐོང་སྣང་འགྲུབ་འབྲས་ཚུ་ལེན་མ་ཚུགསཔ།"
+
+#: ../msearch-gui/msearch-gui.c:147
+msgid "You run medusa-indexd to make an index first"
+msgstr "ཁྱོད་ཀྱིས་ཟུར་ཐོ་ཅིག་དང་པ་བཟོ་ནི་ལུ་མི་ཌུ་ས་-ཟུར་ཐོ་ཡོད་མི་གཡོག་བཀོལ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:1
+msgid "Emblems"
+msgstr "ལས་རྟགས་ཚུ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:2
+msgid "File Content"
+msgstr "ཡིག་སྣོད་ནང་དོན།"
+
+#: ../msearch-gui/msearch-gui.glade.h:3
+msgid "File location"
+msgstr "ཡིག་སྣོད་གནས་ཁོངས།"
+
+#: ../msearch-gui/msearch-gui.glade.h:4
+msgid "File name"
+msgstr "ཡིག་སྣོད་མིང།"
+
+#: ../msearch-gui/msearch-gui.glade.h:5
+msgid "File size"
+msgstr "ཡིག་སྣོད་ཚད།"
+
+#: ../msearch-gui/msearch-gui.glade.h:6
+msgid "File type"
+msgstr "ཡིག་སྣོད་དབྱེ་བ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:7
+msgid "Force indexing"
+msgstr "ཟུར་ཐོ་བང་བཙོང་ནི།"
+
+#: ../msearch-gui/msearch-gui.glade.h:8
+msgid "Group"
+msgstr "སྡེ་ཚན།"
+
+#: ../msearch-gui/msearch-gui.glade.h:9
+msgid ""
+"Index age: ?\n"
+"Index last run: ?\n"
+"Index size on disk: ?\n"
+"Number of files in the index: ?\n"
+"Number of words in the index: ?\n"
+msgstr ""
+"ཟུར་ཐོ་སྐྱེ་ལོ།: ?\n"
+"ཟུར་ཐོ་མཇུག་གཡོག་བཀོལ།: ?\n"
+"ཟུར་ཐོ་ཌེཀསི་གུ་ཚད།: ?\n"
+"ཟུར་ཐོ་འདི་ནང་ཡིག་སྣོད་ཚུ་གི་ཨང་།: ?\n"
+"ཟུར་ཐོ་འདི་ནང་མིང་ཚིག་ཚུ་གི་ཨང་།: ?\n"
+
+#: ../msearch-gui/msearch-gui.glade.h:15
+msgid "Indexer options"
+msgstr "ཟུར་སྦྲགས་འབད་མི་གདམ་ཁ་ཚུ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:16
+msgid "Last modified"
+msgstr "མཇུག་ལེགས་བཅོས་འབད་ཡོད་མི།"
+
+#: ../msearch-gui/msearch-gui.glade.h:17
+msgid "Medusa"
+msgstr "མི་ཌུ་ས།"
+
+#: ../msearch-gui/msearch-gui.glade.h:18
+msgid "Medusa Index Status"
+msgstr "མི་ཌུ་ས་ཟུར་ཐོ་གནས་ཚད།"
+
+#: ../msearch-gui/msearch-gui.glade.h:19
+msgid "Mime-type"
+msgstr "མ་ཡིམ་-དབྱེ་བ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:20
+msgid "Not indexing"
+msgstr "ཟུར་ཐོ་ནང་བཀོད་ནི་མེནམ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:21
+msgid "Owner"
+msgstr "བདག་པོ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:22
+msgid "View and update the search index"
+msgstr "འཚོལ་ཞིབ་ཟུར་ཐོ་འདི་དུས་མཐུན་བཟོ་ནི་དང་བལྟ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:23
+msgid "Without idle checks"
+msgstr "ལས་མེད་ཁྲ་ཅན་མེདཔ་སྦེ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:24
+msgid "_Index Status"
+msgstr "ཟུར་ཐོ་གནས་ཚད།(_I)"
+
+#: ../msearch-gui/msearch-gui.glade.h:25
+msgid "_New"
+msgstr "གསརཔ།(_N)"
+
+#: ../msearch-gui/msearch-gui.glade.h:26
+msgid ""
+"application\n"
+"music\n"
+"text\n"
+"file\n"
+"directory"
+msgstr ""
+"གློག་རིམ།\n"
+"སྙན་ཆ།\n"
+"ཚིག་ཡིག\n"
+"ཡིག་སྣོད།\n"
+"སྣོད་ཐོ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:31
+msgid ""
+"include\n"
+"do not include"
+msgstr ""
+"གྲངས་སུ་བཙུགས།\n"
+"གྲངས་སུ་མ་བཙུགས།"
+
+#: ../msearch-gui/msearch-gui.glade.h:33
+msgid ""
+"includes all of\n"
+"includes any of\n"
+"does not include all of\n"
+"does not include any of"
+msgstr ""
+"གི་ཆ་མཉམ་གྲངས་སུ་བཙུགསཔ།\n"
+"གི་གང་རུང་གྲངས་སུ་བཙུགསཔ།\n"
+"གི་ཆ་མཉམ་གྲངས་སུ་མི་བཙུགསཔ།\n"
+"གི་གང་རུང་ཆ་མཉམ་གྲངས་སུ་མི་བཙུགསཔ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:37
+msgid "is"
+msgstr "ཨའི་ཨེསི།"
+
+#: ../msearch-gui/msearch-gui.glade.h:38
+msgid ""
+"is\n"
+"contains\n"
+"does not contain\n"
+"begins with\n"
+"ends with\n"
+"matches\n"
+"regexp matches"
+msgstr ""
+"ཨའི་ཨེསི།\n"
+"ཤོམ་པ།\n"
+"མི་ཤོམ་པ།\n"
+"གི་འགོ་བཙུགསཔ།\n"
+"གི་མཇུག་བསྡུཝ།\n"
+"མཐུན་སྒྲིགཔ།\n"
+"དུས་རྒྱུན་བརྗོད་ཚུལ་མཐུན་སྒྲིགཔ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:45
+msgid ""
+"is\n"
+"contains\n"
+"regexp matches\n"
+"does not regexp match"
+msgstr ""
+"ཨའི་ཨེསི།\n"
+"ཤོམ་པ།\n"
+"དུས་རྒྱུན་བརྗོད་ཚུལ་མཐུན་སྒྲིགཔ།\n"
+"དུས་རྒྱུན་བརྗོད་ཚུལ་མཐུན་སྒྲིག་མི་འབདཝ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:49
+msgid ""
+"is\n"
+"is not"
+msgstr ""
+"ཨའི་ཨེསི།\n"
+"ཨའི་ཨེསི་མེནམ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:51
+msgid ""
+"is\n"
+"is not\n"
+"has uid\n"
+"does not have uid"
+msgstr ""
+"ཨའི་ཨེསི།\n"
+"ཨའི་ཨེསི་མེནམ།\n"
+"ཡུ་ཨའི་ཌི་ཡོདཔ།\n"
+"ཡུ་ཨའི་ཌི་མེདཔ།"
+
+#: ../msearch-gui/msearch-gui.glade.h:55
+msgid ""
+"is\n"
+"is not\n"
+"is before\n"
+"is after\n"
+"is within a week of\n"
+"is within a month of"
+msgstr ""
+"ཨའི་ཨེསི།\n"
+"ཨའི་ཨེསི་མེནམ།\n"
+"ཨའི་ཨེསི་ཧེ་མ།\n"
+"ཨའི་ཨེསི་ཤུལ་མ།\n"
+"ཨའི་ཨེསི་གི་བདུན་ཕྲག་ཅིག་གི་ནང་འཁོད།\n"
+"ཨའི་ཨེསི་གི་ཟླཝ་ཅིག་གི་ནང་འཁོད།"
+
+#: ../msearch-gui/msearch-gui.glade.h:61
+msgid ""
+"is\n"
+"smaller than\n"
+"larger than"
+msgstr ""
+"ཨའི་ཨེསི།\n"
+"ལས་ཆུང་མི།\n"
+"ལས་སྦོམ་མི།"
+
+#: ../msearch/medusa-command-line-search.c:146
+msgid "Specify the index to search"
+msgstr "ཟུར་ཐོ་འདི་འཚོལ་ཞིབ་ལུ་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:147
+msgid "INDEX NAME"
+msgstr "ཟུར་ཐོ་མིང་།"
+
+#: ../msearch/medusa-command-line-search.c:149
+msgid "File name matches"
+msgstr "ཡིག་སྣོད་མིང་མཐུན་སྒྲིག་འབདཝ་མས།"
+
+#: ../msearch/medusa-command-line-search.c:150
+msgid "FILE NAME"
+msgstr "ཡིག་སྣོད་མིང་།"
+
+#: ../msearch/medusa-command-line-search.c:152
+msgid "Specify minimum file age in days"
+msgstr "ཡིག་སྣོད་སྐྱེ་ལོ་ཉུང་མཐའ་ཉིནམ་ཚུ་ནང་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:153
+msgid "DAYS"
+msgstr "ཉིནམ་ཚུ།"
+
+#: ../msearch/medusa-command-line-search.c:155
+msgid "Specify a path or path segment to match"
+msgstr "འགྲུལ་ལམ་ཡང་ན་འགྲུལ་ལམ་ཆ་བགོས་མཐུན་སྒྲིག་ལུ་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:158
+msgid "Specify a file's size"
+msgstr "ཡིག་སྣོད་ཀྱི་ཚད་ཅིག་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:159
+msgid "SIZE"
+msgstr "ཚད།"
+
+#: ../msearch/medusa-command-line-search.c:161
+msgid "Specify a file's type out of application, music, text file, file or directory"
+msgstr "ཡིག་སྣོད་ཀྱི་དབྱེ་བ་གློག་རིམ་ སྙན་ཆ ཚིག་ཡིག་ཡིག་སྣོད་ ཡིག་སྣོད་ཡང་ན་སྣོད་ཐོ་གི་ཕྱི་ཁ་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:162
+msgid "FILE TYPE"
+msgstr "ཡིག་སྣོད་དབྱེ་བ།"
+
+#: ../msearch/medusa-command-line-search.c:164
+msgid "Specify a file's MIME type"
+msgstr "ཡིག་སྣོད་ཀྱི་མ་ཡིམ་དབྱེ་བ་ཅིག་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:165
+msgid "MIME TYPE"
+msgstr "མ་ཡིམ་དབྱེ་བ།"
+
+#: ../msearch/medusa-command-line-search.c:167
+msgid "Specify a search by search uri"
+msgstr "འཚོལ་ཞིབ་ཡུ་ཨར་ཨའི་གིས་་འཚོལ་ཞིབ་ཅིག་གསལ་བཀོད་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:168
+msgid "SEARCH URI"
+msgstr "ཡུ་ཨར་ཨའི་འཚོལ་ཞིབ་འབད།"
+
+#: ../msearch/medusa-command-line-search.c:176
+msgid "Medusa Search Program"
+msgstr "མི་ཌུ་ས་འཚོལ་ཞིབ་ལས་རིམ།"
+

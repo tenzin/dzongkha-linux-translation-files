@@ -1,0 +1,110 @@
+# translation of caps.properties.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/communicator/security/caps.properties
+# , 2006.
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: caps.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-15 00:19+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:55 EST 2006
+#: EnableCapabilityQuery
+msgid ""
+"A script from \"%S\" is requesting enhanced abilities that are UNSAFE and could be used to compromise your machine or data\\:\n"
+"\n"
+"%S\n"
+"\n"
+"Allow these abilities only if you trust this source to be free of viruses or malicious programs."
+msgstr ""
+"\"%S\" ནང་ལས་ཡིག་ཚུགས་གཅིག་གིས་སྒོང་སྤེལ་གྱི་ལྕོགས་གྲུབ་ཉེན་སྲུང་མེད་མི་དང་ཁྱོད་རའི་གླིག་འཕྲུལ་ཡང་ན་གནད་སྡུད་ནང་འགྲིགས་འབད་ནིའི་ལག་ལེན་འཐབ་ནི་ཚུ་ཞུ་བ་འབདཝ་ཨིན་པས།\\:\n"
+"\n"
+"%S\n"
+"\n"
+"འ་ནི་ལྕོགས་གྲུབ་ཚུ་ཁྱོད་ཀྱིས་གནོད་འབུབ་ཚུ་མེད་པ་ཡང་ན་ངན་སེམས་ཅན་གྱི་ལས་རིམ་ཚུ་མེད་པར་བློ་གཏདཔ་ཨིན་པ་ཅིན་འབད་བཅུག"
+
+#: capdesc.UniversalBrowserWrite
+msgid "Modify any open window"
+msgstr "སྒོ་སྒྲིག་ཁ་ཕྱེ་མི་ག་ཅི་རང་ཨིན་རུང་ལེགས་བཅོས་འབད།"
+
+#: capdesc.UniversalXPConnect
+msgid "Run or install software on your machine"
+msgstr "ཁྱོད་རའི་གློག་འཕྲུལ་གུ་ལུ་མཉེན་ཆས་དེ་གཡོག་བཀོལ་ནི་དང་ཡང་ན་གཞི་བཙུགས་འབད།"
+
+#: capdesc.UniversalPreferencesRead
+msgid "Read program settings"
+msgstr "ལས་རིམ་གྱི་སྒྲིག་སྟངས་ཚུ་ལྷག"
+
+#: CheckMessage
+msgid "Remember this decision"
+msgstr "གྲོས་ཐག་གཅད་མི་འདི་སེམས་ཁར་བཞག"
+
+#: Yes
+msgid "Allow"
+msgstr "འབད་བཅུག"
+
+#: No
+msgid "Deny"
+msgstr "ཉན་མི་བཏུབ་པས།"
+
+#: ExtensionCapability
+msgid "Unknown\\: %S"
+msgstr "མ་ཤེསཔ\\: %S"
+
+#: capdesc.CapabilityPreferencesAccess
+msgid "By-pass core security settings"
+msgstr "ནང་སྙིང་མཐའ་བཙན་གྱི་སྒྲིག་སྟངས་ཚུ་རྒྱུད་མ་དགོ་པར་གཏང་།"
+
+#: SetPropertyDenied
+msgid "Permission denied to set property %S.%S"
+msgstr "རྒྱུ་དངོས་ %S གཞི་སྒྲིག་འབད་མིའི་གནང་བ་དེ་ཉན་མ་བཏུབ། %S"
+
+#: capdesc.UniversalBrowserRead
+msgid "Read private data from any site or window"
+msgstr "སྒེར་དོན་གྱི་གནད་སྡུད་དེ་ས་ཁོངས་ཡང་ན་སྒོ་སྒྲིག་ག་སྟེ་ལས་འབད་རུང་ལྷག"
+
+#: CheckLoadURIError
+msgid "Security Error\\: Content at %S may not load or link to %S."
+msgstr "མཐའ་བཙན་གྱི་འཛོལ་བ\\: %S གི་ནང་དོན་དེ་གིས་ %S ལུ་མངོན་གསལ་ཡང་ན་འབྲེལ་མཐུད་མི་འབད།"
+
+#: capdesc.UniversalPreferencesWrite
+msgid "Modify program settings"
+msgstr "ལས་རིམ་གྱི་སྒྲིག་སྟངས་ཚུ་ལེགས་བཅོས་འབད།"
+
+#: CheckSameOriginError
+msgid "Security Error\\: Content at %S may not load data from %S."
+msgstr "མཐའ་བཙན་གྱི་འཛོལ་བ\\: %S གི་ནང་དོན་དེ་གིས་ %S ལས་གནད་སྡུད་མངོན་གསལ་མི་འབད།"
+
+#: CreateWrapperDenied
+msgid "Permission denied to create wrapper for object of class %S"
+msgstr "དབྱེ་རིམ་ %S གི་དངོས་པོའི་དོན་ལས་ལོག་མཚམས་གསར་བསྐྲུན་བཟོ་མིའི་གནང་བ་དེ་ཉན་མ་བཏུབ།"
+
+#: EnableCapabilityDenied
+msgid "A script from \"%S\" was denied %S privileges."
+msgstr "\"%S\" ལས་ཡིག་ཚུགས་གཅིག་ %S གི་ཁེ་དབང་ཉན་མ་བཏུབ།"
+
+#: CallMethodDenied
+msgid "Permission denied to call method %S.%S"
+msgstr "ཐབས་ལམ་ %S བོད་བརྡ་འབད་ནིའི་གནང་བ་དེ་ཉན་མ་བཏུབ། %S"
+
+#: capdesc.UniversalFileRead
+msgid "Read and upload local files"
+msgstr "ཉེ་གནས་ཀྱི་ཡིག་སྣོད་ཚུ་ལྷག་ནི་དང་བཀལ་བཙིགས་འབད།"
+
+#: Titleline
+msgid "Internet Security"
+msgstr "ཨིན་ཊར་ནེཊི་གི་མཐའ་བཙན།"
+
+#: GetPropertyDenied
+msgid "Permission denied to get property %S.%S"
+msgstr "རྒྱུ་དངོས་ %S ལེན་ནིའི་གནང་བ་དེ་ཉན་མ་བཏུབ། %S"
+

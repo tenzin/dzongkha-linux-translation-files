@@ -1,0 +1,109 @@
+# extracted from dz-BT_orig/toolkit/chrome/global/intl.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: intl.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-25 12:49+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# all.js
+#
+# Localization Note: Cases of charset names must be preserved. If you're
+# adding charsets to your localized version, please refer to
+# intl/uconv/src/charsetalias.properties file for the list of canonical
+# charset names and use canonical names exactly as listed there.
+# Also note that "UTF-8" should always be included in intl.charsetmenu.browser.static
+#: general.useragent.locale
+msgid "en-US"
+msgstr "en-US"
+
+# Localization Note: font.language.group controls the initial setting of the
+# language drop-down in the fonts pref panel. Set it to the value of one of the
+# menuitems in the "selectLangs" menulist in
+# browser/components/preferences/fonts.xul
+#: font.language.group
+msgid "x-western"
+msgstr "ཨེགསི་-ནུབ་ཕྱོགས་ཀྱི་"
+
+# Localization Note: Add the code for your language at the front of this entry,
+# leaving "en-us, en" for fallback. It's recommended to use the same form, e.g.
+# "ja-jp, ja, en-us, en"
+#: intl.accept_languages
+msgid "en-us, en"
+msgstr "en-us, en"
+
+#: intl.charsetmenu.browser.static
+msgid "ISO-8859-1, UTF-8"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡། ཡི་ཊི་ཨེཕ་-༨།"
+
+#: intl.charsetmenu.browser.more1
+msgid "ISO-8859-1, ISO-8859-15, IBM850, x-mac-roman, windows-1252, ISO-8859-14, ISO-8859-7, x-mac-greek, windows-1253, x-mac-icelandic, ISO-8859-10, ISO-8859-3"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༥། ཨའི་བི་ཨེམ་༨༥༠། ཨེགསི་-མེཀ་-རོ་མཱན། ཝིན་ཌོསི་-༡༢༥༢། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༤། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༧། ཨེགསི་-མེཀ་-གི་རིཀ། ཝུན་ཌོསི་-༡༢༥༣། ཨེགསི་-མེཀ་-ཨའིསི་ལེན་ཌིཀ། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༠། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༣།"
+
+#: intl.charsetmenu.browser.more2
+msgid "ISO-8859-4, ISO-8859-13, windows-1257, IBM852, ISO-8859-2, x-mac-ce, windows-1250, x-mac-croatian, IBM855, ISO-8859-5, ISO-IR-111, KOI8-R, x-mac-cyrillic, windows-1251, IBM866, KOI8-U, x-mac-ukrainian, ISO-8859-16, x-mac-romanian"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༤། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༣། ཝིན་ཌོསི་-༡༢༥༧། ཨའི་བི་ཨེམ་༨༥༢། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༢། ཨེགསི་-མེཀ་-སི་ཨི། ཝིན་ཌོསི་-༡༢༥༠། ཨེགསི་-མེཀ-ཀོརོ་ཤི་ཡཱན། ཨའི་བི་ཨེམ་༨༥༥། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༥། ཨའི་ཨེསི་ཨོ་-ཨའི་ཨར་-༡༡༡། ཀེ་ཨོ་ཨའི་༨-ཨར། ཨེགསི་-མེཀ་-སི་རི་ལིཀ། ཝིན་ཌོསི་-༡༢༥༡། ཨའི་བི་ཨེམ་༨༦༦། ཀེ་ཨོ་༡༨-ཡུ། ཨེགམི་-མེཀ་-ཡུཀའི་ནི་ཡཱན། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༦། ཨེགསི་-མེཀ་-མོ་མ་ནི་ཡཱན།"
+
+#: intl.charsetmenu.browser.more3
+msgid "GB2312, x-gbk, gb18030, HZ-GB-2312, ISO-2022-CN, Big5, Big5-HKSCS, x-euc-tw, EUC-JP, ISO-2022-JP, Shift_JIS, EUC-KR, x-windows-949, x-johab, ISO-2022-KR"
+msgstr "ཇི་བི་༢༣༡༢། ཨེགསི་-ཇི་བི་ཀེ། ཇི་བི་༡༨༠༣༠། ཨེཆ་ཛེཌི་-ཇི་བི་-༢༣༡༢། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-སི་ཨེན། བིག་༥། བིག་༥-ཨེཆ་ཀེ་ཨེསི་སི་ཨེསི། ཨེགསི་-ཨི་ཡུ་སི་-ཊི་ཌབ་ལུ། ཨི་ཡུ་སི་-ཇེ་པི། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-ཇེ་པི། སོར་ལྡེ་ ཇེ་ཨའི་ཨེསི། ཨི་ཡུ་སི་-ཀེ་ཨར། ཨེགསི་-ཝིན་ཌོསི་-༩༤༩། ཨེགསི་-ཇོ་ཧབ། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-ཀེ་ཨར།"
+
+#: intl.charsetmenu.browser.more4
+msgid "armscii-8, GEOSTD8, TIS-620, ISO-8859-11, windows-874, IBM857, ISO-8859-9, x-mac-turkish, windows-1254, x-viet-tcvn5712, VISCII, x-viet-vps, windows-1258, x-mac-devanagari, x-mac-gujarati, x-mac-gurmukhi"
+msgstr "ཨེར་ཨར་ཨེམ་ཨེསི་སིii-༨། ཇི་ཨི་ཨོ་ཨེསི་ཊི་ཌི་༨། ཊི་ཨའི་ཨེསི་-༦༢༠། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༡། ཝིན་ཌོསི་-༨༧༤། ཨའི་བི་ཨེམ་༨༥༧། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༩། ཨེགསི་-མེཀ་-ཊར་ཀིཤ། ཝིན་ཌོསི་-༡༢༥༤། ཨེགསི་-ཝི་ཨའིཨི་ཊི་-ཊི་སི་ཝི་ཨེན་༥༧༡༢། ཝི་ཨའི་ཨེསི་སི་II། ཨེགསི་-ཝི་ཨའིཨི་ཊི་-ཝི་པི་ཨེསི། ཝིན་ཌོསི་-༡༢༥༨། ཨེགསི་-མེཀ་-དེ་བ་ན་ག་རི། ཨེགསི་-མེཀ་-གུ་ཇ་ར་ཏི། ཨེགསི་-མེཀ་-གུར་མུ་ཁི།"
+
+#: intl.charsetmenu.browser.more5
+msgid "ISO-8859-6, windows-1256, IBM864, x-mac-arabic, x-mac-farsi, ISO-8859-8-I, windows-1255, ISO-8859-8, IBM862, x-mac-hebrew"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༦། ཝིན་ཌོསི་-༡༢༥༦། ཨའི་བི་ཨེམ་༨༦༤། ཨེགསི་-མེཀ་-ཨ་ར་བིཀ། ཨེགསི་-མེཀ་-ཕར་སི། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༨-ཨའི། ཝིན་ཌོསི་-༡༢༥༥། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༨། ཨའི་བི་ཨེམ་༨༦༢། ཨེགསི་-མེཀ་-ཧེབ་བིརིའུ།"
+
+# Localization Note: Never change the following entry.
+#: intl.charsetmenu.browser.unicode
+msgid "UTF-8, UTF-16LE, UTF-16BE, UTF-32LE, UTF-32BE, UTF-7"
+msgstr "ཡུ་ཊི་ཨེཕ་-༨། ཡུ་ཊི་ཨེཕ་-༡༦ ཨེལ་ཨི། ཡུ་ཊི་ཨེཕ་-༡༦ བི་ཨི། ཡུ་ཊི་ཨེཕ་-༣༢ ཨེལ་ཨི། ཡུ་ཊི་ཨེཕ་-༣༢ བིཨི། ཡུ་ཊི་ཨེཕ་-༧།"
+
+#: intl.charset.default
+msgid "ISO-8859-1"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡།"
+
+#: intl.charset.detector
+msgid "_: intl.charset.detector\n"
+msgstr ""
+
+#: intl.charsetmenu.mailedit
+msgid "ISO-8859-1, ISO-8859-15, ISO-8859-6, armscii-8, geostd8, ISO-8859-13, ISO-8859-14, ISO-8859-2, GB2312, GB18030, Big5, KOI8-R, windows-1251, KOI8-U, ISO-8859-7, ISO-8859-8-I, windows-1255, ISO-2022-JP, EUC-KR, ISO-8859-10, ISO-8859-3, TIS-620, ISO-8859-9, UTF-8, VISCII"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༥། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༦། ཨེ་ཨར་ཨེམ་ཨེསི་སི་ii-༨། ཇི་ཨི་ཨོ་ཨེསི་ཊུ་ཌི་༨། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༣། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༤། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༢། ཇི་བི་༢༣༡༢། ཇི་བི་༡༨༠༣༠། བིག་༥། ཀེ་ཨོ་ཨའི་༨-ཨར། ཝིན་ཌོསི་-༡༢༥༡། ཀེ་ཨོ་ཨའི་༨-ཡུ། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༧། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༨-ཨའི། ཝིན་ཌོསི་-༡༢༥༥། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-ཇེ་པི། ཨི་ཡུ་སི་-ཀེ་ཨར། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༠། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༣། ཊི་ཨའི་ཨེསི་-༦༢༠། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༩། ཡི་ཊི་ཨེཕ་-༨། ཝི་ཨའི་ཨེསི་སི་II།"
+
+# valid collation options are: <empty string> or useCodePointOrder
+#: intl.collationOption
+msgid "_: intl.collationOption\n"
+msgstr ""
+
+#: wallet.Server
+msgid "http://www.mozilla.org/wallet/tables/"
+msgstr "http://www.mozilla.org/wallet/tables/"
+
+#: wallet.Samples
+msgid "http://www.mozilla.org/wallet/samples/"
+msgstr "http://www.mozilla.org/wallet/samples/"
+
+# valid intl.menuitems.appendedacceskeys are: true or false, <empty string> (missing or empty preference equals false)
+#: intl.menuitems.alwaysappendaccesskeys
+msgid "_: intl.menuitems.alwaysappendaccesskeys\n"
+msgstr ""
+
+# valid intl.menuitems.insertseparatorbeforeaccesskeys are: true or false, <empty string> (missing or empty preference equals false)
+#: intl.menuitems.insertseparatorbeforeaccesskeys
+msgid "true"
+msgstr "བདེན་པ་"
+

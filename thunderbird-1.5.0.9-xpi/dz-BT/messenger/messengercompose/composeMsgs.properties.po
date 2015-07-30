@@ -1,0 +1,566 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/messenger/messengercompose/composeMsgs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: composeMsgs.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-05 11:03+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#
+# The following are used by the compose back end
+#
+## @name NS_MSG_UNABLE_TO_OPEN_FILE
+#: 12500
+msgid "Unable to open the file %P0%."
+msgstr "ཡིག་སྣོད་%P0%ཁ་ཕྱེ་མ་ཚུགས།"
+
+## @name NS_MSG_UNABLE_TO_OPEN_TMP_FILE
+#: 12501
+msgid "Unable to open the temporary file %P0%. Check your 'Temporary Directory' setting."
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་%P0% ཁ་ཕྱེ་མ་ཚུགས། ཁྱོད་རའི་ 'གནས་སྐབས་སྣོད་ཐོ་' གི་སྒྲིག་སྟངས་ལུ་ ཞིབ་དཔྱད་འབད།"
+
+## @name NS_MSG_UNABLE_TO_SAVE_TEMPLATE
+#: 12502
+msgid "Unable to save your message as template."
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་དེ་ ཊེམ་པེལེཊི་སྦེ་ བསྲུང་མ་ཚུགས།"
+
+## @name NS_MSG_UNABLE_TO_SAVE_DRAFT
+#: 12503
+msgid "Unable to save your message as draft."
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་དེ་ ཟིན་འབྲི་སྦེ་ བསྲུང་མ་ཚུགས།"
+
+## @name NS_MSG_LOAD_ATTACHMNTS
+#: 12504
+msgid "Loading attachments..."
+msgstr "མཉམ་སྦྲགས་ཚུ་མངོན་གསལ་འབད་དོ་་་"
+
+## @name NS_MSG_LOAD_ATTACHMNT
+#: 12505
+msgid "Loading attachment..."
+msgstr "མཉམ་སྦྲགས་མངོན་གསལ་འབད་དོ་་་་"
+
+## @name NS_MSG_COULDNT_OPEN_FCC_FOLDER
+#: 12506
+msgid "Couldn't open Sent Mail folder. Please verify that your Mail preferences are correct."
+msgstr "ཡིག་འཕྲིན་བཏང་ཡོད་པའི་སྣོད་འཛིན་ ཁ་ཕྱེ་མ་ཚུགས། ཁྱོད་རའི་ཡིག་འཕྲིན་གྱི་གདའ་གདམ་ཚུ་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད།"
+
+## @name NS_MSG_CANT_POST_TO_MULTIPLE_NEWS_HOSTS
+#: 12507
+msgid "Can't post to multiple news hosts. Try again."
+msgstr "སྣ་མིང་གནས་ཚུལ་ཧོསིཊི་ཚུ་ལུ་ འགྲེམ་སྐྱེལ་འབད་མི་ཚུགས་པས། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད།"
+
+## @name NS_MSG_ASSEMB_DONE_MSG
+#: 12508
+msgid "Assembling message...Done"
+msgstr "འཕྲིན་དོན་མཉམ་སྒྲིག་འབད་ཚར།"
+
+## @name NS_MSG_ASSEMBLING_MSG
+#: 12509
+msgid "Assembling message..."
+msgstr "འཕྲིན་དོན་མཉམ་སྒྲིག་འབད་དོ་་་"
+
+## @name NS_MSG_NO_SENDER
+#: 12510
+msgid "No sender was specified. Please fill in your email address in the Mail & Newsgroups account settings."
+msgstr "གཏང་མི་གསལ་བཀོད་མ་འབད་བས། ཡིག་འཕྲིན་དང་ གནས་ཚུལ་སྡེ་ཚན་གྱི་ རྩིས་ཐོ་སྒྲིག་སྟངས་ནང་ ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་བཀང་གནང་།"
+
+## @name NS_MSG_NO_RECIPIENTS
+#: 12511
+msgid "No recipients were specified. Please enter a recipient or newsgroup in the addressing area."
+msgstr "ལེན་མཁན་གསལ་བཀོད་མ་འབད་བས། ཁ་བྱང་བཀོད་ནིའི་མངའ་ཁོངས་ནང་ ལེན་མཁན་ཅིག་ ཡང་ན་ གནས་ཚུལ་སྡེ་ཚན་ཅིག་ བཙུགས་གནང་།"
+
+## @name NS_MSG_ERROR_WRITING_FILE
+#: 12512
+msgid "Error writing temporary file."
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་འབྲི་ནི་ལུ་འཛོལ་བ།"
+
+## @name NS_ERROR_COULD_NOT_LOGIN_TO_SMTP_SERVER
+#: 12513
+msgid "An error occurred sending mail: Unable to connect to SMTP server %S. The server may be down or may be incorrectly configured. Please verify that your Mail/News account settings are correct and try again."
+msgstr "ཡིག་འཕྲིན་གཏང་བའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ཡི་: ཨེསི་ཨེམ་ཊི་པི་སར་བར་%Sལུ་མཐུད་མ་ཚུགས། སར་བར་དེ་ཉམས་སོང་བའམ་ ཕྱི་འགྱུར་སྦེ་ རིམ་སྒྲིག་འབད་འབདཝ་འོང་ནི་མས། ཁྱོད་རའི་ཡིག་འཕྲིན་/གནས་ཚུལ་རྩིས་ཐོའི་སྒྲིག་སྟངས་ཚུ་ ངེས་བདེན་བཟོ་ཞིནམ་ལས་ ལག་སྟེ་འབད་བརྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_SENDING_FROM_COMMAND
+#: 12514
+msgid "An error occurred while sending mail. The mail server responded:  %s.  Please verify that your email address is correct in your Mail preferences and try again."
+msgstr "ཡིག་འཕྲིན་གཏང་བའི་སྐབས་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི། ཡིག་འཕྲིན་སར་བར་གྱིས་%sངོས་ལན་འབད་ཡི།  ཁྱོད་རའི་ཡིག་འཕྲིན་གྱི་གདའ་གདམ་ཚུ་ནང་ ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་དེ་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_SENDING_RCPT_COMMAND
+#: 12515
+msgid "An error occurred while sending mail. The mail server responded:  %s. Please check the message recipients and try again."
+msgstr "ཡིག་འཕྲིན་གཏང་བའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ཡི། ཡིག་འཕྲིན་སར་བར་གྱིས་%sངོས་ལན་འབད་ཡི།  འཕྲིན་དོན་ལེན་མཁན་ཚུ་ལུ་ ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_SENDING_DATA_COMMAND
+#: 12516
+msgid "An (SMTP) error occurred while sending mail. The server responded:  %s."
+msgstr "ཡིག་འཕྲིན་གཏང་བའི་སྐབས་ལུ་ (ཨེསི་ཨེམ་ཊི་པི་)འཛོལ་བ་ཅིག་བྱུང་ཡི། ཡིག་འཕྲིན་སར་བར་གྱིས་%sངོས་ལན་འབད་ཡི།  "
+
+## @name NS_ERROR_SENDING_MESSAGE
+#: 12517
+msgid "An error occurred while sending mail. The mail server responded:  %s. Please check the message and try again."
+msgstr "ཡིག་འཕྲིན་གཏང་བའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ཡི། ཡིག་འཕྲིན་སར་བར་གྱིས་%sངོས་ལན་འབད་ཡི།  འཕྲིན་དོན་ལུ་ཞིབ་དཔྱད་འབད་དེ་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_POST_FAILED
+#: 12518
+msgid "The message could not be posted because connecting to the news server failed. The server may be unavailable or is refusing connections. Please verify that your news server setting is correct and try again, or else contact your network administrator."
+msgstr "གནས་ཚུལ་སར་བར་ལུ་ མཐུད་མ་ཚུགསཔ་ལས་ འཕྲིན་དོན་དེ་འགྲེམ་སྐྱེལ་འབད་མ་ཚུགས། སར་བར་དེ་ ཐོབ་མ་ཚུགས་པའམ་ མཐུན་ལམ་ལུ་ཉན་མི་བཏུབ་འོང་ནི་མས། ཁྱོད་རའི་གནས་ཚུལ་སར་བར་གྱི་སྒྲིག་སྟངས་དེ་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་ ཡང་ན་ ཁྱོད་རའི་ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པ་ལུ་ འབྲེལ་བ་འཐབ་གནང་།"
+
+## @name NS_ERROR_QUEUED_DELIVERY_FAILED
+#: 12519
+msgid "An error occurred delivering unsent messages."
+msgstr "མ་བཏང་པར་ཡོད་མི་འཕྲིན་དོན་ཚུ་ འགྲེམ་སྤེལ་འབད་བའི་སྐབས་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི།"
+
+## @name NS_ERROR_SEND_FAILED
+#: 12520
+msgid "Sending of message failed."
+msgstr "འཕྲིན་དོན་གཏང་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+## @name SMTP_DELIV_MAIL
+#: 12521
+msgid "Delivering mail..."
+msgstr "ཡིག་འཕྲིན་འགྲེམ་སྤེལ་འབད་དོ་་་་"
+
+## @name SMTP_MESSAGE_SENT_WAITING_MAIL_REPLY
+#: 12522
+msgid "Mail: Message sent; waiting for reply..."
+msgstr "ཡིག་འཕྲིན་: འཕྲིན་དོན་བཏང་ཡོད། ལན་གསལ་ལུ་བསྒུག་སྟེ་ཡོད།"
+
+## @name SMTP_PROGRESS_MAILSENT
+#: 12523
+msgid "Mail sent successfully"
+msgstr "ཡིག་འཕྲིན་མཐར་འཁྱོལ་སྦེ་བཏང་ཡོད།"
+
+## @name NS_ERROR_SMTP_SERVER_ERROR
+#: 12524
+msgid "An error occurred sending mail: SMTP server error. The server responded:  %s Contact your mail administrator for assistance."
+msgstr "ཡིག་འཕྲིན་བཏང་བའི་སྐབས་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡོད། ཨེསི་ཨེམ་ཊི་པི་སར་བར་གྱི་འཛོལ་བ། སར་བར་གྱི་%sངོས་ལན་འབད་ཡི། གྲོགས་རམ་གྱི་དོན་ལུ་ ཁྱོད་རའི་ཡིག་འཕྲིན་བདག་སྐྱོང་པ་ལུ་ འབྲེལ་བ་འཐབ།"
+
+## @name NS_MSG_UNABLE_TO_SEND_LATER
+#: 12525
+msgid "Unable to save your message in order to send it later."
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་དེ་ ཤུལ་ལས་གཏང་ནིའི་དོན་ལུ་ བསྲུང་མ་ཚུགས།"
+
+## @name NS_ERROR_COMMUNICATIONS_ERROR
+#: 12526
+msgid "A communications error occurred: %d.  Please try again."
+msgstr "བརྒྱུད་འབྲེལ་གྱི་འཛོལ་བ་%dབྱུང་ཡི། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_BUT_DONT_SHOW_ALERT
+#: 12527
+msgid "THIS IS JUST A PLACEHOLDER.  YOU SHOULD NEVER SEE THIS STRING."
+msgstr "འདི་ས་སྒོ་བཟུང་མི་ཙམ་ཅིག་ཨིན། ཁྱོད་ཀྱིས་ཡིག་རྒྱུན་འདི་ ནམ་ཡང་བལྟ་ནི་མི་འོང་།"
+
+## @name NS_ERROR_TCP_READ_ERROR
+#: 12528
+msgid "A network error occurred while receiving data.  (Network Error: %s)  Try connecting again."
+msgstr "གནས་སྡུད་ལེན་པའི་སྐབས་ལུ་ ཡོངས་འབྲེལ་གྱི་འཛོལ་བ་ཅིག་བྱུང་ཡི།  (ཡོངས་འབྲེལ་འཛོལ་བ་: %s)  ལོག་སྟེ་མཐུད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད།"
+
+## @name NS_ERROR_COULD_NOT_GET_USERS_MAIL_ADDRESS
+#: 12529
+msgid "An error occurred sending mail:  the return mail address was invalid.  Please verify that your email address is correct in your Mail preferences and try again."
+msgstr "ཡིག་འཕྲིན་གཏང་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ཡི་: ལོག་གཏང་ནིའི་ཡིག་འཕྲིན་ཁ་བྱང་དེ་ ནུས་མེད་ཨིན་མས། ཁྱོད་རའི་ཡིག་འཕྲིན་གདའ་གདམ་ཚུ་ནང་ ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_SMTP_PASSWORD_UNDEFINED
+#: 12530
+msgid "Error getting mail password."
+msgstr "ཡིག་འཕྲིན་ཁ་བྱང་ལེན་ནི་ལུ་འཛོལ་བ།"
+
+## @name NS_ERROR_MIME_MPART_ATTACHMENT_ERROR
+#: 12531
+msgid "Attachment error."
+msgstr "མཉམ་སྦྲགས་ཀྱི་འཛོལ་བ།"
+
+## @name NS_MSG_FAILED_COPY_OPERATION
+#: 12532
+msgid "The message was sent successfully, but could not be copied to your Sent folder."
+msgstr "འཕྲིན་དོན་དེ་མཐར་འཁྱོལ་སྦེ་བཏང་ཡི། དེ་འབདཝ་ད་ ཁྱོད་ཀྱི་ བཏང་ཡོད་པའི་ སྣོད་འཛིན་ནང་འདྲ་བཤུས་བརྐྱབ་མ་ཚུགས།"
+
+## @name NS_MSG_FAILURE_ON_OBJ_EMBED_WHILE_SAVING
+#: 12533
+msgid "There was a problem including the file %.200s in the message. Would you like to continue saving the message without this file?"
+msgstr "ཡིག་སྣོད་%.200s དེ་ འཕྲིན་དོན་གྱི་གྲངས་སུ་བཙུགས་ནི་ལུ་ དཀའ་ངལ་ཅིག་བྱུང་ཡི། ཁྱོད་ཀྱིས་ཡིག་སྣོད་འདི་མེདཔ་སྦེ་ འཕྲོ་མཐུད་དེ་བསྲུང་ནི་ཨིན་ན?"
+
+## @name NS_MSG_ASSEMBLING_MESSAGE
+#: 12534
+msgid "Assembling mail information..."
+msgstr "ཡིག་འཕྲིན་གྱི་བརྡ་དོན་ མཉམ་སྒྲིག་འབད་དོ་་་་"
+
+## @name NS_MSG_GATHERING_ATTACHMENT
+#: 12535
+msgid "Attaching %s..."
+msgstr " %sམཉམ་སྦྲགས་འབད་དོ་་་་"
+
+## @name NS_MSG_CREATING_MESSAGE
+#: 12536
+msgid "Creating mail message..."
+msgstr "ཡིག་འཕྲིན་གྱི་འཕྲིན་དོན་ གསར་བསྐྲུན་འབད་དོ་་་"
+
+## @name NS_MSG_FAILURE_ON_OBJ_EMBED_WHILE_SENDING
+#: 12537
+msgid "There was a problem including the file %.200s in the message. Would you like to continue sending the message without this file?"
+msgstr "ཡིག་སྣོད་%.200s དེ་ འཕྲིན་དོན་གྱི་གྲངས་སུ་བཙུགས་ནི་ལུ་ དཀའ་ངལ་ཅིག་བྱུང་ཡི། ཁྱོད་ཀྱིས་ཡིག་སྣོད་འདི་མེདཔ་སྦེ་ འཕྲོ་མཐུད་དེ་གཏང་ནི་ཨིན་ན?"
+
+## @name NS_MSG_START_COPY_MESSAGE
+#: 12538
+msgid "Copying message to %S folder..."
+msgstr "འཕྲིན་དོན་དེ་སྣོད་འཛིན་%Sལུ་འདྲ་བཤུས་རྐྱབ་དོ་་་་"
+
+## @name NS_MSG_START_COPY_MESSAGE_COMPLETE
+#: 12539
+msgid "Copy complete."
+msgstr "འདྲ་བཤུས་བརྐྱབས་ཚར།"
+
+## @name NS_MSG_START_COPY_MESSAGE_FAILED
+#: 12540
+msgid "Copy failed."
+msgstr "འདྲ་བཤུས་རྐྱབ་མ་བཏུབ།"
+
+## @name NS_MSG_LARGE_MESSAGE_WARNING
+#: 12541
+msgid "Warning! You are about to send a %d byte message. Are you sure that you want to do this?"
+msgstr "ཉེན་བརྡ! ཁྱོད་ཀྱི་འཕྲིན་དོན་ བའིཊི་ འབད་མི་ཅིག་ གཏང་ནི་འབད་དོ། ཁྱོད་ཀྱིས་འདི་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: noIdentities
+msgid "You don't have any email identities yet.  Create one with the Account Wizard."
+msgstr "ད་ལྟོ་ཚུན་ཚོད་ ཁྱོད་ལུ་གློག་འཕྲིན་གྱི་ངོ་རྟགས་མིན་འདུག། རྩིས་ཐོ་ཝི་ཛརཌི་གི་ཐོག་ལས་ གཅིག་གསར་བསྐྲུན་འབད།"
+
+## @name NS_SMTP_PASSWORD_PROMPT_TITLE
+#: 12542
+msgid "Mail Server Password Required"
+msgstr "ཡིག་འཕྲིན་སར་བར་གྱི་ ཆོག་ཡིག་དགོ་པས།"
+
+## @name NS_SMTP_PASSWORD_PROMPT1
+#: 12543
+msgid "Enter your password for %S:"
+msgstr " %Sགི་དོན་ལུ་ ཁྱོད་ཀྱི་ཆོག་ཡིག་བཙུགས།"
+
+## @name NS_SMTP_PASSWORD_PROMPT2
+#: 12544
+msgid "Enter your password for %S on %S:"
+msgstr "%Sགི་དོན་ལུ་ %Sགུ་ ཁྱོད་ཀྱི་ཆོག་ཡིག་བཙུགས།"
+
+## @name NS_SMTP_CONNECTING_TO_SERVER
+#: 12545
+msgid "Connecting to server..."
+msgstr "སར་བར་ལུ་མཐུད་དོ་་་་་"
+
+## @name NS_MSG_SENDING_MESSAGE
+#: 12550
+msgid "Sending message..."
+msgstr "འཕྲིན་དོན་གཏང་དོ་་་་"
+
+## @name NS_MSG_POSTING_MESSAGE
+#: 12551
+msgid "Posting message..."
+msgstr "འཕྲིན་དོན་འགྲེམ་སྐྱེལ་འའབད་དོ་་་་"
+
+## @name NS_ERROR_MSG_MULTILINGUAL_SEND
+#: 12553
+msgid "The message you composed contains characters not found in the selected Character Encoding. While you can choose a different Character Encoding, it is usually safe to use Unicode (UTF-8) for mail. If you just send in the current Character Encoding, be aware that those not covered by the current Character Encoding will be turned to question marks and illegible by the recipient."
+msgstr "ཁྱོད་ཀྱིས་བརྩམས་མི་འཕྲིན་དོན་དེ་ནང་ སེལ་འཐུ་འབད་མི་ ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་ནང་མེད་པའི་ ཡིག་འབྲུ་ཚུ་འདུག། ཁྱོད་ཀྱིས་ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་ སོ་སོ་གདམ་ཁ་བརྐྱབ་བཏུབ་ཨིན་རུང་ སྤྱིར་བཏང་ལུ་ ཡིག་འཕྲིན་གྱི་དོན་ལས་ ཡུ་ནི་ཀོཌི་ (ཡུ་ཊི་ཨེཕ་-༨) ལག་ལེན་འཐབ་པ་ཅིན་ ཉེན་སྲུང་ཡོད། ཁྱོད་ཀྱིས་ད་ལྟོའི་ ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་ནང་གཏང་པ་ཅིན་ ད་ལྟོ་ཡོད་པའི་ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་གིས་ ཁྱབ་མ་ཚུགས་མི་ཚུ་ དྲི་རྟགས་དང་བཅསཔ་སྦེ་ ལོག་གཏང་ནི་དང་ ཐོབ་མཁན་གྱིས་ ལྷག་མི་ཚུགས།"
+
+#: sendInUTF8
+msgid "Send in UTF-8"
+msgstr "ཡུ་ཊི་ཨེཕ་-༨ ནང་གཏང་།"
+
+#: sendAnyway
+msgid "Send anyway"
+msgstr "གང་རུང་སྦེ་གཏང་"
+
+## @name NS_ERROR_NNTP_NO_CROSS_POSTING
+#: 12554
+msgid "You can only send a message to one news server at a time."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་ཅིག་ དུས་ཅིག་ལུ་ གནས་ཚུལ་སར་བར་ གཅིག་ལུ་རྐྱངམ་གཅིག་གཏང་ཚུགས།"
+
+## @name NS_MSG_CANCELLING
+#: 12555
+msgid "Cancelling..."
+msgstr "ཆ་མེད་གཏང་དོ་་་་"
+
+## @name NS_MSG_SEND_ERROR_TITLE
+#: 12556
+msgid "Send Message Error"
+msgstr "འཕྲིན་དོན་གྱི་འཛོལ་བ་གཏང་"
+
+## @name NS_MSG_SENDLATER_ERROR_TITLE
+#: 12557
+msgid "Send Later Error"
+msgstr "ཤུལ་བས་གཏང་བའི་འཛོལ་བ་"
+
+## @name NS_MSG_SAVE_DRAFT_TITLE
+#: 12558
+msgid "Save Draft Error"
+msgstr "ཟིན་འབྲིའི་འཛོལ་བ་སྲུངས།"
+
+## @name NS_MSG_SAVE_TEMPLATE_TITLE
+#: 12559
+msgid "Save Template Error"
+msgstr "ཊེམ་པེལེཊི་འཛོལ་བ་སྲུངས།"
+
+## @name NS_ERROR_SEND_FAILED_BUT_NNTP_OK
+#: 12560
+msgid "Your message has been posted to the newsgroup but has not been sent to other recipient."
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་དེ་ གནས་ཚུལ་སྡེ་ཚན་ལུ་་འགྲེམ་སྐྱེལ་འབད་ནུག། དེ་འབདཝ་ད་ ལེན་མཁན་གཞན་ལུ་ མ་བཏང་པས།"
+
+## @name NS_MSG_ASK_TO_COMEBACK_TO_COMPOSE
+#: 12561
+msgid "Would you like to return to the compose window?"
+msgstr "ཁྱོད་ཀྱིས་རྩོམ་འབྲི་སྒོ་སྒྲིག་ལུ་ ལོག་ནི་ཨིན་ན?"
+
+## @name NS_MSG_GENERIC_FAILURE_EXPLANATION
+#: 12562
+msgid "Please verify that your Mail & Newsgroups account settings are correct and try again."
+msgstr "ཁྱོད་རའི་ཡིག་འཕྲིན་དང་གནས་ཚུལ་སྡེ་ཚན་གྱི་ རྩིས་ཐོའི་སྒྲིག་སྟངས་ཚུ་ ངེས་བཏེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_MSG_ERROR_READING_FILE
+#: 12563
+msgid "Error reading file."
+msgstr "ཡིག་སྣོད་ལྷག་ནི་ལུ་འཛོལ་བ།"
+
+## @name NS_FOLLOWUPTO_SENDER
+#: 12564
+msgid "The author of this message has requested that responses be sent only to the author. If you also want to reply to the newsgroup, add a new row to the addressing area, choose Newsgroup from the recipients list, and enter the name of the newsgroup."
+msgstr "འཕྲིན་དོན་འདི་གི་ རྩོམ་པ་པོ་གིས་ ལན་གསལ་ཚུ་ རྩོམ་པ་པོ་རྐྱངམ་གཅིག་ལུ་ གཏང་དགོ་པའི་ཞུ་བ་འབད་ནུག། ཁྱོད་ཀྱིས་གནས་ཚུལ་སྡེ་ཚན་ལུ་ ལན་གསལ་གཏང་དགོ་མནོ་བ་ཅིན་ ཁ་བྱང་བཀོད་སའི་མངའ་ཁོངས་ལུ་ གྲལ་ཐིག་གསརཔ་ཅིག་ ཁ་སྐོང་རྐྱབ་ཞིནམ་ལས་ ལེན་མཁན་གྱི་ཐོ་ཡིག་ནང་ལས་ གནས་ཚུལ་སྡེ་ཚན་ གདམ་ཁ་བརྐྱབས་པའི་རྗེས་སུ་ གནས་ཚུལ་སྡེ་ཚན་གྱི་མིང་བཙུགས།"
+
+## @name NS_ERROR_SMTP_SEND_FAILED
+#: 12565
+msgid "The message could not be sent because connecting to SMTP server %S failed. The server may be unavailable or is refusing SMTP connections. Please verify that your SMTP server setting is correct and try again, or else contact your network administrator."
+msgstr "འཕྲིན་དོན་འདི་གཏང་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཨེསི་ཨེམ་ཊི་པི་སར་བར་%Sལུ་མཐུད་མ་ཚུགས། སར་བར་དེ་མེདཔ་འོང་ནི་དང་ ཡང་ན་ ཨེསི་ཨེམ་ཊི་པི་ མཐུད་ནི་ལུ་ ཉེན་མ་བཏུབ་འོང་ནི་མས། ཁྱོད་རའི་ཨེསི་ཨེམ་ཊི་པི་ སར་བར་གྱི་སྒྲིག་སྟངས་ཚུ་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་ ཡང་ན་ ཁྱོད་རའི་ཡོངས་འབྲེལ་བདག་སྐྱོང་པ་དང་གཅིག་ཁར་ འབྲེལ་བ་འཐབ།"
+
+## @name NS_MSG_UNDISCLOSED_RECIPIENTS
+## LOCALIZATION NOTE: this string must be using only US_ASCII characters
+#: 12566
+msgid "undisclosed-recipients"
+msgstr "གསང་བཞག་ཡོད་པའི་ལེན་མཁན་ཚུ།"
+
+## @name NS_ERROR_SMTP_TEMP_SIZE_EXCEEDED
+#: 12567
+msgid "The size of the message you are trying to send exceeds a temporary size limit of the server. The message was not sent, try to reduce the message size and try again. The server responded:  %s."
+msgstr "ཁྱོད་ཀྱིས་གཏང་ནི་འབད་མི་ འཕྲིན་དོན་གྱི་ཚད་དེ་ སར་བར་གྱི་གནས་སྐབས་ཀྱི་ཚད་ལས་ལྷག་པས། དེ་གིས་སྦེ་འཕྲིན་དོན་དེ་མ་བཏང་པར་ཡོད། འཕྲིན་དོན་གྱི་ཚད་ མར་ཕབ་འབད་དེ་ ལོག་སྟེ་གཏང་། སར་བར་གྱིས་%sངོས་ལན་འབད་ཡི།"
+
+## @name NS_ERROR_SMTP_PERM_SIZE_EXCEEDED_1
+#: 12568
+msgid "The size of the message you are trying to send exceeds the global size limit (%d bytes) of the server. The message was not sent, try to reduce the message size and try again."
+msgstr "ཁྱོད་ཀྱིས་གཏང་ནི་འབད་མི་ འཕྲིན་དོན་གྱི་ཚད་དེ་ སར་བར་གྱི་སྤྱི་ཁྱབ་ཚད་(བའིཊི་%d)ལས་ལྷག་པས། དེ་གིས་སྦེ་འཕྲིན་དོན་དེ་མ་བཏང་པར་ཡོད། འཕྲིན་དོན་གྱི་ཚད་ མར་ཕབ་འབད་དེ་ ལོག་སྟེ་གཏང་། "
+
+## @name NS_ERROR_SMTP_PERM_SIZE_EXCEEDED_2
+#: 12569
+msgid "The size of the message you are trying to send exceeds the global size limit of the server. The message was not sent, try to reduce the message size and try again. The server responded:  %s."
+msgstr "ཁྱོད་ཀྱིས་གཏང་ནི་འབད་མི་ འཕྲིན་དོན་གྱི་ཚད་དེ་ སར་བར་གྱི་སྤྱི་ཁྱབ་ཚད་ལས་ལྷག་པས། དེ་གིས་སྦེ་འཕྲིན་དོན་དེ་མ་བཏང་པར་ཡོད། འཕྲིན་དོན་གྱི་ཚད་ མར་ཕབ་འབད་དེ་ ལོག་སྟེ་གཏང་། སར་བར་གྱིས་  %sངོས་ལན་འབད་ནུག།"
+
+## @name NS_MSG_ERROR_ATTACHING_FILE
+#: 12570
+msgid "There was an error attaching %S. Please check if you have access to the file."
+msgstr "%Sམཉམ་སྦྲགས་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་འདུག། ཁྱོད་ཀྱིས་ཡིག་སྣོད་དེ་ལུ་ འཛུལ་སྤྱོད་ཡོད་མེད་ཞིབ་དཔྱད་འབད་གནང་།"
+
+## @name NS_MSG_ERROR_DOING_FCC
+#: 12571
+msgid "There was an error copying the message to the Sent folder. Retry?"
+msgstr "བཏང་ཡོད་པའི་སྣོད་འཛིན་ལུ་ འཕྲིན་དོན་འདྲ་བཤུས་བརྐྱབ་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི། སླར་རྩོལ་བསྐྱེད།"
+
+## @name NS_ERROR_SMTP_GREETING
+#: 12572
+msgid "An error occurred sending mail: The mail server sent an incorrect greeting:  %s."
+msgstr "འཕྲིན་དོན་གཏང་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི། ཡིག་འཕྲིན་སར་བར་གྱིས་ བདེན་མེད་ཀྱི་ལེགས་སྨོན་: %sཅིག་བཏང་ནུག།"
+
+## @name NS_ERROR_COULD_NOT_LOGIN_TO_SMTP_SERVER_WITH_STARTTLS1
+#: 12573
+msgid "An error occurred sending mail: Unable to connect to SMTP server %S via STARTTLS since it doesn't support EHLO. Please verify that your Mail/News account settings are correct and try again."
+msgstr "འཕྲིན་དོན་གཏང་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི། STARTTLS བརྒྱུད་དེ་ ཨེསི་ཨེམ་ཊི་པི་སར་བར་%Sལུ་མཐུད་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་གིས་EHLO ལུ་རྒྱབ་སྐྱོར་མིན་འདུག། ཁྱོད་རའི་ཡིག་འཕྲིན་/གནས་ཚུལ་གྱི་རྩི་ཐོའི་སྒྲིག་སྟངས་ཚུ་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## @name NS_ERROR_COULD_NOT_LOGIN_TO_SMTP_SERVER_WITH_STARTTLS2
+#: 12574
+msgid "An error occurred sending mail: Unable to connect to SMTP server %S via STARTTLS since it doesn't offer STARTTLS In EHLO reponse. Please verify that your Mail/News account settings are correct and try again."
+msgstr "འཕྲིན་དོན་གཏང་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི། STARTTLS བརྒྱུད་དེ་ ཨེསི་ཨེམ་ཊི་པི་སར་བར་%Sལུ་མཐུད་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་གིས་EHLO ནང་ STARTTLSམི་བམྱིན་པས། ཁྱོད་རའི་ཡིག་འཕྲིན་/གནས་ཚུལ་གྱི་རྩི་ཐོའི་སྒྲིག་སྟངས་ཚུ་ ངེས་བདེན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+## Strings use for the save message dialog shown when the user close a message compose window
+## Strings used by Save as Draft/Template dialog
+#: saveDlogTitle
+#: SaveDialogTitle
+msgid "Save Message"
+msgstr "འཕྲིན་དོན་སྲུངས་"
+
+#: saveDlogMessage
+msgid "Message has not been sent. Do you want to save the message in the Drafts folder?"
+msgstr "འཕྲིན་དོན་མ་བཏང་པས། ཁྱོད་ཀྱིས་འཕྲིན་དོན་དེ་ ཟིན་འབྲི་སྣོད་འཛིན་ནང་ བསྲུང་བཞག་ནི་ཨིན་ན?"
+
+#: saveDlogSaveBtn
+msgid "Save"
+msgstr "སྲུངས་"
+
+#: saveDlogDontSaveBtn
+msgid "Don't Save"
+msgstr "མ་སྲུངས་"
+
+#: saveDlogCancelBtn
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+## generics string
+#: defaultSubject
+msgid "(no subject)"
+msgstr "(དོན་ཚན་མིན་འདུག)"
+
+#: chooseFileToAttach
+msgid "Attach File(s)"
+msgstr "ཡིག་སྣོད་མཉམ་སྦྲགས་འབད་"
+
+##
+#: windowTitlePrefix
+msgid "Compose:"
+msgstr "རྩོམས་:"
+
+## String used by the dialog that ask the user to enter a subject
+## Strings used by prompt for Ctrl-Enter check before sending message
+#: sendMsgTitle
+#: sendMessageCheckWindowTitle
+msgid "Send Message"
+msgstr "འཕྲིན་དོན་གཏང་"
+
+#: subjectDlogMessage
+msgid "You did not specify a subject for this message. If you would like to provide one, please type it now."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་གི་དོན་ལུ་ དོན་ཚན་ཅིག་ གསལབཀོད་མ་འབད་བས། ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་དགོ་མནོ་བ་ཅིན་ ད་ལྟོ་ཡིག་དཔར་རྐྱབས་གནང་།"
+
+## String used by the dialog that informs the user about the newsgroup recipient
+#: recipientDlogMessage
+msgid "This account only supports email recipients. Continuing will ignore newsgroups."
+msgstr "རྩིས་ཐོ་འདི་གིས་ གློག་འཕྲིན་ལེན་མཁན་ཚུ་ལུ་རྐྱངམ་གཅིག་ རྒྱབ་སྐྱོར་ཡོད། འཕྲོ་མཐུད་པ་ཅིན་ གནས་ཚུལ་སྡེ་ཚན་ཚུ་ སྣང་མེད་བཏག་འོང་།"
+
+#String used by the alert that tells the user an e-mail address is invalid
+#: addressInvalid
+msgid "%1$S is not a valid e-mail address because it is not of the form user@host. You must correct it before sending the e-mail."
+msgstr "%1$Sདེ་ ནུས་ཅན་གྱི་གློག་འཕྲིན་ཁ་བྱང་ཅིག་མེན་པས། གཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་user@host གི་རྣམ་པ་ནང་མེན་པས།  ཁྱོད་ཀྱིས་གློག་འཕྲིན་མ་བཏང་པའི་ཧེ་མ་ བཅོ་ཁ་རྐྱབས།"
+
+## String used by the dialog that ask the user to attach a web page
+#: attachPageDlogTitle
+msgid "Please specify a location to attach"
+msgstr "མཉམ་སྦྲགས་འབད་ནི་ལུ་ གནས་ཁོངས་ཅིག་ གསལ་བཀོད་འབད།"
+
+#: attachPageDlogMessage
+msgid "Web Page (URL):"
+msgstr "ཝེབ་ཤོག་ལེབ་(ཡུ་ཨར་ཨེལ):"
+
+## String used for attachment pretty name, when attachment is a message
+#: messageAttachmentSafeName
+msgid "Attached Message"
+msgstr "མཉམ་སྦྲགས་འབད་ཡོད་པའི་འཕྲིན་དོན།"
+
+## String used for attachment pretty name, when attachment is message part
+#: partAttachmentSafeName
+msgid "Attached Message Part"
+msgstr "མཉམ་སྦྲགས་འབད་ཡོད་པའི་འཕྲིན་དོན་གྱི་ཡན་ལག།"
+
+## String used by the Initialization Error dialog
+#: initErrorDlogTitle
+msgid "Message Compose"
+msgstr "འཕྲིན་དོན་རྩོམ་འབྲི་"
+
+## LOCALIZATION NOTE (initErrorDlogMessage): %1$s will be replaced by the error string.  do not translate \n
+#: initErrorDlogMessage
+msgid ""
+"An error occurred while creating a message compose window. Please try again.\n"
+"%1$s"
+msgstr ""
+"འཕྲིན་དོན་རྩོམ་འབྲི་སྒོ་སྒྲིག་ གསར་བསྐྲུན་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ཡི། ལོག་སྟེ་འབད་བསྐྱེད་གནང་།\n"
+"%1$s"
+
+## LOCALIZATION NOTE (SaveDialogMsg): %1$S is folder name, %2$S is host name
+#: SaveDialogMsg
+msgid "Your message has been saved to the folder %1$S under %2$S."
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་དེ་%2$Sགི་ཐོག་ལུ་ སྣོད་འཛིན་  %1$S ནང་བསྲུངས་བཞག་ཡོད།"
+
+#: CheckMsg
+msgid "Do not show me this dialog box again."
+msgstr "ང་ལུ་ ཌའི་ལོག་སྒྲོམ་འདི་ ལོག་སྟེ་མ་སྟོན།"
+
+## Strings used by prompt when Quitting while in progress
+#: quitComposeWindowTitle
+msgid "Sending Message"
+msgstr "འཕྲིན་དོན་གཏང་དོ་"
+
+## LOCALIZATION NOTE (quitComposeWindowMessage): don't translate \n
+#: quitComposeWindowMessage
+msgid ""
+"Mail is currently in the process of sending a message.\n"
+"Would you like to wait until the message has been sent before quitting or quit now?"
+msgstr ""
+"ཡིག་འཕྲིན་འདི་གིས་ ད་ལྟོ་འཕྲིན་དོན་ཅིག་ བཏང་པའི་བསྒང་འདུག།\n"
+"ཁྱོད་ཀྱིས་འཕྲིན་དོན་དེ་ བཏང་མ་ཚར་ཚུན་ཚོད་ མ་སྤང་པར་བསྒུག་ནི་སྨོ་ ད་ལྟོ་ར་སྤང་ནི་སྨོ?"
+
+#: quitComposeWindowQuitButtonLabel
+msgid "Quit"
+msgstr "སྤངས་"
+
+#: quitComposeWindowWaitButtonLabel
+msgid "Wait"
+msgstr "བསྒུག་"
+
+#: sendMessageCheckLabel
+msgid "Are you sure you are ready to send this message?"
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་གཏང་ནི་གི་གྲ་སྒྲིག་ ངེས་གཏན་ཨིན་ན?"
+
+#: sendMessageCheckSendButtonLabel
+msgid "Send"
+msgstr "གཏང་"
+
+## reply header in composeMsg
+## <author> wrote:
+#: mailnews.reply_header_authorwrote
+msgid "%s wrote"
+msgstr "%s གིས་བྲིས་ཡོད་"
+
+#: mailnews.reply_header_ondate
+msgid "On %s"
+msgstr "%sགུ་"
+
+## reply header in composeMsg
+## user specified
+#: mailnews.reply_header_originalmessage
+msgid "-------- Original Message --------"
+msgstr "-------- འཕྲིན་དོན་ངོ་མ་ --------"
+

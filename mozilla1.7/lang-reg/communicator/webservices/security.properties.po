@@ -1,0 +1,51 @@
+# translation of security.properties.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/communicator/webservices/security.properties
+# , 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: security.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-02-27 17:45+0600\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:55 EST 2006
+#: UnknownRootElement
+msgid "The root element \"%S\" is not recognized. Please use \"webScriptAccess\" element."
+msgstr "རྩ་བའི་རྒྱུ་རྫས་ \"%S\" དེ་ངོས་འཛིན་མ་འབད། \"webScriptAccess\"རྒྱུ་རྫས་དེ་ལག་ལེན་འཐབ་གནང་།"
+
+#: UnknownElement
+msgid "The element \"%S\" is not recognized."
+msgstr "རྒྱུ་རྫས་\"%S\"དེ་ངོས་འཛིན་མ་འབད།"
+
+#: UnsupportedNamespace
+msgid "The namespace \"%S\" is not supported. Please use \"http\\://www.mozilla.org/2002/soap/security\"."
+msgstr "མིང་གི་བར་སྟོང་\"%S\"དེ་རྒྱབ་སྐྱོར་མ་འབད། \"http\\://www.mozilla.org/2002/soap/security\"ལག་ལེན་འཐབ་གནང་།"
+
+#: TooManyElements
+msgid "There can be no more than one \"%S\" element."
+msgstr "\"%S\" རྒྱུ་རྫས་དེ་གཅིག་ལས་ལྷག་སྟེ་མི་འོང་།"
+
+#: UnknownAttribute
+msgid "The attribute \"%S\" is not recognized."
+msgstr "ཁྱད་ཆོས་\"%S\"དེ་ངོས་འཛིན་མ་འབད།"
+
+#: ElementNotEmpty
+msgid "The \"%S\" element should be empty."
+msgstr "\"%S\"རྒྱུ་རྫས་དེ་སྟོངམ་ཨིན་དགོ།"
+
+#: ElementHasSibling
+msgid "\"%S\" element cannot have \"%S\" sibiling."
+msgstr "\"%S\"རྒྱུ་རྫས་དེ་གིས་\"%S\"སིབ་བི་ལིང་དེ འཐོབ་མི་ཚུགས།"
+
+#: SOAPFault
+msgid "SOAP { %S } %S call resulted in fault\\: { %S } %S \\: %S."
+msgstr "ཨེསི་ཨོ་ཨེ་པི་ {%S} %S གི་བོད་བརྡ་དེ་སྐྱོན་སྦེ་བྱུང་ནུག\\:{%S} %S \\: %S"
+

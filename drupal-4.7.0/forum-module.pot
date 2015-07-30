@@ -1,0 +1,326 @@
+# LANGUAGE translation of Drupal (modules/forum.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: forum.module,v 1.328.2.1 2006/05/08 18:02:03 killes
+# yangka <yanang_ka@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: forum\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-21 01:07+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/forum.module:15
+msgid "The forum module lets you create threaded discussion forums for a particular topic on your site. This is similar to a message board system such as phpBB. Forums are very useful because they allow community members to discuss topics with one another, and they are archived for future reference."
+msgstr "གྲོས་གནས་ཚད་གཞི་འདི་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་བྱེ་བྲག་གནད་དོན་ལུ་ཐེ་རེཌི་གྲོས་གཞི་གསར་བསྐྲུན་འབད་བཅུགཔ་ཨིན། པི་ཨེཆ་པི་བི་བི་བཟུམ་སྦེ་འཕྲིན་དོན་རྩེད་པང་རིམ་ལུགས་ཅིག་ལུ་ཆ་འདྲ་བཝ་ཨིན། གྲོས་གནས་ཚུ་ནག་མེད་ས་མེད་ཕན་ཐོགས་ཅན་ཨིན་ག་ཅི་སྨོ་ཟེར་བ་ཅིན་དེ་ཚུ་གིས་མི་སྡེའི་འཐུས་མི་ཚུ་ལུ་གནད་དོན་ཚུ་གཞན་ཅིག་ལུ་གྲོས་བསྡུར་འབད་བཅུགཔ་དང་དེ་ཚུ་མ་འོངས་པ་པའི་གཞི་བརྟེན་སྦེ་ཡིག་མཛོད་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:16
+msgid "Forums can be organized under what are called <em>containers</em>. Containers hold forums and, in turn, forums hold threaded discussions. Both containers and forums can be placed inside other containers and forums. By planning the structure of your containers and forums well, you make it easier for users to find a topic area of interest to them.  Forum topics can be moved by selecting a different forum and can be left in the existing forum by selecting <em>leave a shadow copy</em>.  Forum topics can also have their own URL."
+msgstr "གྲོས་གནས་ཚུ་<em>འཛིན་སྣོད་ཚུ་</em>ཟེར་སླབ་མི་འོག་ལུ་འགོ་འདྲེན་འཐབ་བཏུབ། འཛིན་སྣོད་ཚུ་གིས་གྲོས་གནས་ཚུ་འཛིནམ་དང་ལོག་གྲོས་གནས་ཚུ་གིས་ཐེ་རེཌི་འབད་ཡོད་མི་གྲོས་གཞི་ཚུ་འཛིནམ་ཨིན། འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུ་གཞན་འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུའི་ནང་ན་བཞག་བཏུབ་ཨིན། ཁྱོད་ཀྱིས་འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུ་ལེགས་ཤོམ་སྦེ་གཞི་བཀོད་འཆར་གཞི་འབད་ནི་འདི་གིས་ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཚུ་ལུ་གནད་དོན་མངའ་ཁོངས་འཚོལ་ནིའི་སྤྲོ་བ་འཇམ་ཏོག་ཏོ་བཟོཝ་ཨིན། གྲོས་གནས་གནད་དོན་ཚུ་གྲོས་གནས་སོ་སོ་ཅིག་སེལ་འཐུ་འབད་ནི་དང་<em>གྱིབ་མ་འདྲ་བཤུས་ཅིག་བཞག་སེལ་འཐུ་འབད་འདི་གིས་</em>གྲོས་གནས་ཡོད་མི་ནང་བཞག་འདི་སྤོ་བཏུབ་ཨིན། གྲོས་གནས་གནད་དོན་ཚུ་ཡང་ཁོང་རའི་ཡུ་ཨར་ཨེལ་ཡོད།"
+
+#: modules/forum.module:17
+msgid "Forums module <strong>requires Taxonomy and Comments module</strong> be enabled."
+msgstr "གྲོས་གནས་་ཀྱི་ཚད་གཞི་ལུ་ <strong>དབྱེ་བསལ་ལམ་ལུགས་དང་བསམ་བཀོད་ཚད་གཞི་ཚུ་</strong> ལྕོགས་ཅན་ཡོདཔ་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>administer forums at <a href=\"%admin-forum\">administer &gt;&gt; forums</a>.</li>\n"
+"<li>enable the required comment and taxonomy modules at <a href=\"%admin-modules\">administer &gt;&gt; modules</a>.</li>\n"
+"<li>read about the comment module at <a href=\"%admin-help-comment\">administer &gt;&gt; help &gt;&gt; comment</a>.</li>\n"
+"<li>read about the taxonomy module at <a href=\"%admin-help-taxonomy\">administer &gt;&gt; help &gt;&gt; taxonomy</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་</p>\n"
+"<ul>\n"
+"<li>བདག་སྐྱོང་འཐབ་ནི་གྲོས་གནས་ཚུ་ <a href=\"%admin-forum\">བདག་སྐྱོང་འཐབ་ནི་ལུ་འཐབ &gt;&gt; forums</a>།</li>\n"
+"<li>དགོས་མཁོ་ཡོད་པའི་བསམ་བཀོད་དང་དབྱེ་བསལ་ལམ་ལུགས་ཚད་གཞི་ཚུ་ <a href=\"%admin-modules\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; ཚད་གཞི་ལུ་</a>ལྕོགས་ཅན་བཟོ།</li>\n"
+"<li>བསམ་བཀོད་ཚད་གཞིའི་སྐོར་ལས་ <a href=\"%admin-help-comment\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; help &gt;&gt; བསམ་བཀོད་ལས་ལྷག</a></li>\n"
+"<li>དབྱེ་བསལ་ལམ་ལུགས་ཚད་གཞིའི་སྐོར་ལས་ <a href=\"%admin-help-taxonomy\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; help &gt;&gt; དབྱེ་བསལ་ལམ་ལུགས་ལས་ལྷག</a></li>\n"
+"</ul>\n"
+
+#: modules/forum.module:26
+msgid "For more information please read the configuration and customization handbook <a href=\"%forum\">Forum page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"%forum\">གྲོས་གནས་ཤོག་ལེབ་</a>ལྷག་གནང་།"
+
+#: modules/forum.module:29
+msgid "Enables threaded discussions about general topics."
+msgstr "ཐེ་རེཌི་འབད་ཡོདཔ་གྲོས་གཞི་ཚུའི་སྐོར་ལས་ཡོངས་གྲགས་གནད་དོན་ཚུ་ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: modules/forum.module:31
+msgid "<p>This is a list of existing containers and forums that you can edit. Containers hold forums and, in turn, forums hold threaded discussions. Both containers and forums can be placed inside other containers and forums. By planning the structure of your containers and forums well, you make it easier for users to find a topic area of interest to them.</p>"
+msgstr "ཁྱོད་ཀྱིས་ཞུན་དག་འབད་མི་འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུ་ཡོད་པའི་ཐོ་ཡིག་ཅིག་ཨིན། འཛིན་སྣོད་ཚུ་གིས་གྲོས་གནས་ཚུ་འཛིནམ་དང་ལོག་གྲོས་གནས་ཚུ་གིས་ཐེ་རེཌི་འབད་ཡོད་མི་གྲོས་ཆེད་ཚུ་འཛིནམ་ཨིན། འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུ་གཉིས་ཆ་ར་གཞན་འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུ་ནང་བཞག་བཏུབ་ཨིན། ཁྱོད་རའི་འཛིན་སྣོད་ཚུ་དང་གྲོས་གནས་ཚུ་ལེགས་ཤོམ་སྦེ་གཞི་བཀོད་འཆར་གཞི་ནི་འདི་གིས་ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཚུ་ལུ་གནད་དོན་མངའ་ཁོངས་ཅིག་འཚོལ་ནི་ལུ་སྤྲོ་བ་འཇམ་ཏོག་ཏོ་བཟོཝ་ཨིན།"
+
+#: modules/forum.module:33
+msgid "<p>Containers help you organize your forums. The job of a container is to hold, or contain, other forums that are related. For example, a container named \"Food\" might hold two forums named \"Fruit\" and \"Vegetables\".</p>"
+msgstr "<p>འཛིན་སྣོད་ཚུ་གིས་ཁྱོད་ཀྱི་གྲོས་གནས་ཚུ་འགོ་དྲན་འཐབ་བཅུགཔ་ཨིན།  འཛིན་སྣོད་ཀྱི་གཡོག་འདི་འཛིན་ནི་ཡང་ན་ནང་ན་ཡོད་པ་གཞན་འབྲེལ་བ་ཡོད་པའི་གྲོས་གནས་ཚུ་ཨིན། དཔེར་ན་འཛིན་སྣོད་མིང་ \"Food\" གིས་གྲོས་གནས་མིང་ \"Fruit\" དང་ \"Vegetables\"གཉིས་འཛིན་འོང་།</p>"
+
+#: modules/forum.module:35
+msgid "<p>A forum holds discussion topics that are related. For example, a forum named \"Fruit\" might contain topics titled \"Apples\" and \"Bananas\".</p>"
+msgstr "<p>གྲོས་གནས་ཀྱིས་འབྲེལ་བ་ཡོད་པའི་གྲོས་གཞི་གནད་དོན་ཚུ་འཛིནམ་ཨིན། དཔེར་ན་གྲོས་གནས་མིང་ \"Fruit\" གིས་་གནད་དོན་མགོ་མིང་ \"Apples\" དང་ \"Bananas\"ནང་ན་ཡོདཔ་འོང་།</p>"
+
+#: modules/forum.module:37
+msgid "This is where you can configure system-wide options for how your forums act and display."
+msgstr "འ་ནི་འདི་ཁྱོད་ཀྱི་གྲོས་གནས་ཚུ་ག་དེ་དང་བཀྲམ་བཏོན་འབད་ནིའི་དོན་ལུ་་རིམ་ལུགས་རྒྱ་ཚད་གདམ་ཁ་ཚུ་་རིམ་སྒྲིག་སྒྲིགཔ་ཨིན།"
+
+#: modules/forum.module:39
+msgid "Create a new topic for discussion in the forums."
+msgstr "གྲོས་གནས་ཚུ་ནང་གྲོས་གཞིའི་དོན་ལུ་གནད་དོན་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: modules/forum.module:51;110;217
+msgid "forum topic"
+msgstr "གྲོས་གནས་གནད་དོན།"
+
+#: modules/forum.module:54;59
+msgid "forums"
+msgstr "གྲོས་གནས་ཚུ།"
+
+#: modules/forum.module:69
+msgid "add container"
+msgstr "འཛིན་སྣོད་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/forum.module:74
+msgid "add forum"
+msgstr "གྲོས་གནས་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/forum.module:89;579
+msgid "edit container"
+msgstr "འཛིན་སྣོད་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/forum.module:95;582
+msgid "edit forum"
+msgstr "གྲོས་གནས་ཞུན་དག་འབད།"
+
+#: modules/forum.module:183
+msgid "Hot topic threshold"
+msgstr "གནད་དོན་ཚ་བ་ཐེརེཤ་ཧཱོལ།"
+
+#: modules/forum.module:186
+msgid "The number of posts a topic must have to be considered hot."
+msgstr "གནད་དོན་ཚ་བ་སྦེ་ཆ་འཇོག་འབད་དགོ་པ་ཅིན་གནས་བསྐྱོད་ཚུའི་ཨང་་འདི།"
+
+#: modules/forum.module:190
+msgid "Topics per page"
+msgstr "ཤོག་ལེབ་རེ་རེ་གནད་དོན་ཚུ།"
+
+#: modules/forum.module:193
+msgid "The default number of topics displayed per page; links to browse older messages are automatically being displayed."
+msgstr "ཤོག་ལེབ་རེ་རེ་བཀྲམ་བཏོན་འབད་ཡོད་མི་གནད་དོན་ཚུ་གི་སྔོན་སྒྲིག་ཨང་འདི་གིས་འཕྲིན་དོན་རྙིངམ་ཚུ་རང་བཞིན་གྱིས་བཀྲམ་འབད་ནི་བརྡ་འཚོལ་ལུ་འབྲེལ་མཐུད་འབདཝ་ཨིན།"
+
+#: modules/forum.module:195
+msgid "Posts - most active first"
+msgstr "གནས་བསྐྱོད་ཚུ་-ཤུགས་ལྡན་ཆེ་ཤོས་དང་པམ།"
+
+#: modules/forum.module:195
+msgid "Posts - least active first"
+msgstr "གནས་བསྐྱོད་ཚུ་-ཤུགས་ལྡན་དང་པམ་ཉུང་ཤོས།"
+
+#: modules/forum.module:197
+msgid "Default order"
+msgstr "སྔོན་སྒྲིག་གོ་རིམ།"
+
+#: modules/forum.module:200
+msgid "The default display order for topics."
+msgstr "གནད་དོན་ཚུའི་དོན་ལུ་སྔོན་སྒྲིག་བཀྲམ་བཏོན་འབད།"
+
+#: modules/forum.module:214
+msgid "This is the designated forum vocabulary. Some of the normal vocabulary options have been removed."
+msgstr "འ་ནི་འདི་གོ་གནས་ཡོད་མི་གྲོས་གནས་མིང་ཆིག་ཨིན། སྤྱིར་བཏང་མིང་ཚིག་གདམ་ཁ་ཚུ་ལ་ལོ་ཅིག་རྩ་བསྐྲད་གཏང་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:217
+msgid "forum topic is affixed to the forum vocabulary."
+msgstr "གྲོས་གནས་གནད་དོན་འདི་གྲོས་གནས་མིང་ཚིག་འདི་ལུ་ཚིང་གྲོགས་འབད་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:248;264
+msgid "Active forum topics"
+msgstr "གྲོས་གནས་གནད་དོན་ཚུ་ཤུགས་ལྡན་བཟོ།"
+
+#: modules/forum.module:249;273
+msgid "New forum topics"
+msgstr "གྲོས་གནས་གནད་དོན་གསརཔ་ཚུ།"
+
+#: modules/forum.module:253
+msgid "Number of topics"
+msgstr "གནད་དོན་ཚུའི་ཨང་།"
+
+#: modules/forum.module:283
+msgid "Read the latest forum topics."
+msgstr "མཐའ་མཇུག་གྲོས་གནས་གནད་དོན་ཚུ་ལྷག"
+
+#: modules/forum.module:362
+msgid "The item %forum is only a container for forums. Please select one of the forums below it."
+msgstr "%forum རྣམ་གྲངས་འདི་གྲོས་གནས་ཚུའི་དོན་ལུ་རྐྱངམ་ཅིག་འཛིན་སྣོད་ཨིན། འོག་གི་གྲོས་གནས་ཚུ་ལས་གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: modules/forum.module:391
+msgid "Leave shadow copy"
+msgstr "གྱིབ་མ་འདྲ་བཤུས་བཞག"
+
+#: modules/forum.module:391
+msgid "If you move this topic, you can leave a link in the old forum to the new forum."
+msgstr "ཁྱོད་ཀྱིས་གནད་དོན་འདི་སྤོ་བ་ཅིན་གྲོ་གནས་གསརཔ་འདི་ལུ་གྲོས་གནས་རྙིངམ་འདི་ནང་འབྲེལ་ལམ་ཅིག་བཞག་གནང་།"
+
+#: modules/forum.module:437
+msgid "Container name"
+msgstr "འཛིན་སྣོད་མིང་།"
+
+#: modules/forum.module:441
+msgid "The container name is used to identify related forums."
+msgstr "འཛིན་མིང་འདི་འབྲེལ་བའི་གྲོས་གནས་ངོས་འཛིན་ལུ་ལག་ལེན་འཐབ་ཨིན།"
+
+#: modules/forum.module:449
+msgid "The container description can give users more information about the forums it contains."
+msgstr "འཛིན་སྣོད་འགྲེལ་བཤད་འདི་གིས་ལག་ལེན་པ་ཚུ་ལུ་་གྲོས་གནས་ཚུ་ཤོམ་མིའི་སྐོར་ལས་བརྡ་དོན་ཧེང་བཀེལ་བྱིནམ་ཨིན།"
+
+#: modules/forum.module:456
+msgid "When listing containers, those with with light (small) weights get listed before containers with heavier (larger) weights. Containers with equal weights are sorted alphabetically."
+msgstr "འཛིན་སྣོད་ཚུ་ཐོ་བཀོད་འབད་བའི་སྐབས་ ལྗིད་ཚད་ཡང་བ་ཚུ་(ཆུང་ཀུ་)འཛིན་སྣོད་ལྗིད་ཚད་ལྗིད་ཅན་ཚུའི་(སྦོམ་མི་)ཧེ་མ་ཐོ་བཀོད་འབད་ཡོདཔ་ཨིན། འཛིན་སྣོད་ཚུ་ལྗིད་ཚད་འདྲ་མཉམ་ཚུ་ཀ་ཁའི་གོ་རིམ་འཁྲིལ་ཏེ་དབྱེ་སེལ་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:485
+msgid "Forum name"
+msgstr "གྲོས་གནས་མིང་།"
+
+#: modules/forum.module:488
+msgid "The forum name is used to identify related discussions."
+msgstr "གྲོས་གནས་མིང་འདི་འབྲེལ་བའི་གྲོས་བསྡུར་ཚུ་ངོས་འཛིན་ནི་ལུ་ལག་ལེན་འཐབ་ཨིན།"
+
+#: modules/forum.module:494
+msgid "The forum description can give users more information about the discussion topics it contains."
+msgstr "གྲོས་གནས་འགྲེལ་བཤད་འདི་གིས་ལག་ལེན་པ་ཚུ་ལུ་འདིའི་ནང་གྲོས་གཞི་གནད་དོན་ཚུ་ཡོད་པའི་སྐོར་ལས་བརྡ་དོན་ཧེང་བཀེལ་བྱིནམ་ཨིན།"
+
+#: modules/forum.module:501
+msgid "When listing forums, those with lighter (smaller) weights get listed before containers with heavier (larger) weights. Forums with equal weights are sorted alphabetically."
+msgstr "གྲོས་གནས་ཚུ་ཐོ་བཀོད་འབད་བའི་སྐབས་ ལྗིད་ཚད་ཡང་བ་ཚུ་(ཆུང་ཀུ་)འཛིན་སྣོད་ལྗིད་ཚད་ལྗིད་ཅན་(སྦོམ་མི་)འབད་མའི་ཧེ་མ་ཐོ་བཀོད་འབད་ཡོདཔ་ཨིན། གྲོས་གནས་ཚུ་ལྗིད་ཚད་འདྲ་མཉམ་ཚུ་ཀ་ཁའི་གོ་རིམ་འགཁྲིལ་ཏེ་དབྱེ་སེལ་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:520
+msgid "forum container"
+msgstr "གྲོས་གནས་འཛིན་སྣོད།"
+
+#: modules/forum.module:524;0
+msgid "forum"
+msgstr "གྲོས་གནས།"
+
+#: modules/forum.module:535
+msgid "Created new %type %term."
+msgstr " %type %term.གསརཔ་གསར་བསྐྲུན་འབད་ཡོདཔ།"
+
+#: modules/forum.module:538
+msgid "The %type %term has been updated."
+msgstr " %type %term འདི་དུས་མཐུན་བཟོ་ཡོདཔ།"
+
+#: modules/forum.module:555
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "ཁྱོད་ཀྱིས་གྲོས་གནས་%name འདི་བཏོན་གཏང་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/forum.module:555
+msgid "Deleting a forum or container will delete all sub-forums and associated posts as well. This action cannot be undone."
+msgstr "གྲོས་གནས་ཅིག་ཡང་ན་འཛིན་སྣོད་བཏོན་གཏང་བ་ཅིན་གྲོས་གནས་འོགམ་ཚུ་དང་འབྲེལ་བའི་གནས་བསྐྱོད་ཚུ་ཡང་བཏོན་གཏང་འོང་། བྱ་འདི་འབད་བཤོལ་མི་བཏུབ།"
+
+#: modules/forum.module:563
+msgid "The forum %term and all sub-forums and associated posts have been deleted."
+msgstr "%term གྲོས་གནས་དང་གྲོས་གནས་འོགམ་ཚུ་དང་འབྲེལ་བའི་གནས་བསྐྱོད་ཚུ་བཏོན་གཏང་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:564
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr "གྲོས་གནས:  %term དང་གྲོས་གནས་འོགམ་ཚུ་དང་འབྲེལ་བའི་གནས་བསྐྱོད་ཚུ་ བཏོན་གཏང་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:588
+msgid "There are no existing containers or forums. You may add some on the <a href=\"%container\">add container</a> or <a href=\"%forum\">add forum</a> pages."
+msgstr "འཛིན་སྣོད་ཚུ་ཡང་ན་གྲོས་གནས་ཚུ་མེདཔ་ཨིན། ཁྱོད་ཀྱིས་ <a href=\"%container\">གུ་འཛིན་སྣོད་ཁ་སྐོང་རྐྱབས་</a> ཡང་ན་ <a href=\"%forum\">གྲོས་གནས་</a> ཤོག་ལེབ་ཚུ་ཁ་སྐོང་རྐྱབས་བཏུབ།"
+
+#: modules/forum.module:629
+msgid "Containers are usually placed at the top (root) level of your forum but you can also place a container inside a parent container or forum."
+msgstr "འཛིན་སྣོད་ཚུ་སྤྱིར་བཏང་ཁྱོད་རའི་གྲོས་གནས་ཀྱི་གནས་རིམ་(རྩ་བ་)མགོ་ལུ་བཞག་ཡོདཔ་ཨིན་རུང་ཁྱོད་ཀྱིས་འཛིན་སྣོད་ཅིག་རྩ་ལག་འཛིན་སྣོད་ཡང་ན་གྲོས་གནས་ཅིག་གི་ནང་ན་བཞག་བཏུབ་ཨིན།"
+
+#: modules/forum.module:632
+msgid "You may place your forum inside a parent container or forum, or at the top (root) level of your forum."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་གྲོས་གནས་རྩ་ལག་འཛིན་སྣོད་ཡང་ན་གྲོས་གནས་ཡང་ན་གྲོས་གནས་ཀྱི(རྩ་བ་)གནས་རིམ་མགོ་ལུ་བཞག་བཏུབ་ཨིན།"
+
+#: modules/forum.module:668
+msgid "%time ago<br />by %author"
+msgstr " %author གིས་འབད་<br />time ཧེ་མ།"
+
+#: modules/forum.module:753
+msgid "Topic"
+msgstr "གནད་དོན།"
+
+#: modules/forum.module:755
+msgid "Created"
+msgstr "གསར་བསྐྲུན་འབད་ཡོདཔ།"
+
+#: modules/forum.module:756
+msgid "Last reply"
+msgstr "ལན་གསལ་མཇུག"
+
+#: modules/forum.module:837
+msgid "The forum module requires both the taxonomy module and the comment module to be enabled and configured."
+msgstr "གྲོས་གནས་ཚད་གཞི་འདི་ལྕོགས་ཅན་དང་རིམ་སྒྲིག་ནི་ལུ་དབྱེ་བསལ་ལམ་ལུགས་ཚད་གཞི་དང་བསམ་བཀོད་ཚད་གཞི་གཉིས་ཆ་ར་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/forum.module:883
+msgid "My discussions."
+msgstr "ངེའི་གྲོས་ཆེད་ཚུ།"
+
+#: modules/forum.module:886
+msgid "Active discussions."
+msgstr "གྲོས་བསྡུར་ཚུ་ཤུགས་ལྡན།"
+
+#: modules/forum.module:890
+msgid "Post new forum topic."
+msgstr "གྲོས་གནས་གནད་དོན་གསརཔ་གནས་བསྐྱོད་འབད།"
+
+#: modules/forum.module:893
+msgid "You are not allowed to post a new forum topic."
+msgstr "ཁྱོད་ཀྱིས་གྲོས་གནས་གནད་དོན་གསརཔ་གནས་བསྐྱོད་འབད་མི་ཆོག"
+
+#: modules/forum.module:896
+msgid "<a href=\"%login\">Login</a> to post a new forum topic."
+msgstr "<a href=\"%login\">གྲོས་གནས་གནད་དོན་གསརཔ་ཅིག་ལུ་གནས་བསྐྱོད་</a> ནང་བསྐྱོད།"
+
+#: modules/forum.module:914
+msgid "No forums defined"
+msgstr "གྲོས་གནས་ཚུ་ངེས་འཛིན་མ་འབདཝ།"
+
+#: modules/forum.module:931
+msgid "Forum"
+msgstr "གྲོས་གནས།"
+
+#: modules/forum.module:931
+msgid "Topics"
+msgstr "གནད་དོན་ཚུ།"
+
+#: modules/forum.module:931
+msgid "Posts"
+msgstr "གནས་བསྐྱོད་ཚུ།"
+
+#: modules/forum.module:990
+msgid "This topic has been moved"
+msgstr "གནད་དོན་འདི་རྩ་བསྐྲད་གཏང་ཡོདཔ།"
+
+#: modules/forum.module:1075
+msgid "Go to previous forum topic"
+msgstr "གྲོས་གནས་གནད་དོན་ཧེ་མམ་ལུ་འགྱོ།"
+
+#: modules/forum.module:1078
+msgid "Go to next forum topic"
+msgstr "གྲོས་གནས་གནད་དོན་ཤུལ་མམ་ལུ་འགྱོ།"
+
+#: modules/forum.module:134
+msgid "create forum topics"
+msgstr "གྲོས་གནས་གནད་དོན་ཚུ་གསར་བསྐྲུན་འབད།"
+
+#: modules/forum.module:134
+msgid "edit own forum topics"
+msgstr "རང་གི་གྲོས་གནས་གནད་དོན་ཚུ་ཞུན་དག་འབད།"
+
+#: modules/forum.module:134
+msgid "administer forums"
+msgstr "བདག་སྐྱོང་འཐབ་ནི་གྲོས་གནས་ཚུ།"
+

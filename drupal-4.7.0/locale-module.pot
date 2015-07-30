@@ -1,0 +1,220 @@
+# LANGUAGE translation of Drupal (modules/locale.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: locale.module,v 1.135 2006/03/17 18:35:56 killes
+# wangmo sherpa <rinwanshe@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: locale-module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-27 03:35+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/locale.module:22
+msgid "The locale module allows you to present your Drupal site in a language other than the default English. You can use it to set up a multi-lingual web site or replace given <em>built-in</em> text with text which has been customized for your site. Whenever the locale module encounters text which needs to be displayed, it tries to translate it into the currently selected language. If a translation is not available, then the string is remembered, so you can look up untranslated strings easily."
+msgstr "ལོ་ཀེལ་ཚད་གཞི་གིས་ཁྱོད་ཀྱི་ཌུ་པཱལ་ས་ཁོངས་དེ་སྔོན་སྒྲིག་དབྱིན་སྐད་མ་ཡིན་པའི་སྐད་ཡིག་གཞན་མི་ཚུ་ནང་སྟོན་བཅུགཔ་ཨིན། འ་ནི་དེ་ ཁྱོད་རའི་ས་ཁོངས་དོན་ལུ་སྲོལ་སྒྲིག་འབད་ཡོད་པའི་ཚིག་ཡིག་དང་བཅས་གྲ་སྒྲིག་འབད་ཡོད་པའི་ <em>built-in</em> ཚིག་ཡིག་ཚབ་བཙུགས་འབད་ནི་དང་ཡང་ན་ སྐད་རིགས་སྣ་མང་ཝེབ་ས་ཁོངས་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཚུགསཔ་ཨིན། ལོ་ཀེལ་ཚད་གཞི་གིས་ བཀྲམ་སྟོན་འབད་དགོ་པའི་ཚིག་ཡིག་དང་གདོང་ཐུག་འབྱུངམ་ད་ དེ་གིས་ ཚིག་ཡིག་དེ་ད་ལྟོ་སེལ་འཐུ་གྲུབ་ཡོད་པའི་སྐད་ཡིག་ནང་སྐད་སྒྱུར་བརྐྱབ་ནི་འབད་རྩོལ་བསྐྱེདཔ་ཨིན། སྐད་སྒྱུར་དེ་ཐོབ་ཆོགཔ་མེད་པ་ཅིན་ ཡིག་རྒྱུན་དེ་སེམས་ཁར་དྲན་ཡོདཔ་ལས་ཁྱོད་ཀྱིས་ སྐད་སྒྱུར་མ་བརྐྱབ་པའི་ཡིག་རྒྱུན་ཚུ་འཇམ་ཏོང་ཏོ་སྦེ་བལྟ་ཚུགསཔ་ཨིན། "
+
+#: modules/locale.module:23
+msgid "The locale module provides two options for providing translations. The first is the integrated web interface, via which you can search for untranslated strings, and specify their translations. An easier and less time-consuming method is to import existing translations for your language.  These translations are available as <em>GNU gettext Portable Object files</em> (<em>.po</em> files for short).  Translations for many languages are available for download from the translation page."
+msgstr "ལོ་ཀེལ་ཚད་གཞི་གིས་ སྐད་སྒྱུར་ཚུའི་དོན་ལུ་གདམ་ཁ་གཉིས་བྱིནམ་ཨིན། དང་པམ་དེ་རང་ ཁྱོད་ཀྱིས་དེ་བརྒྱུད་དེ་སྐད་སྒྱུར་མ་འབད་བའི་ཡིག་རྒྱུན་ཚུ་འཚོལ་ཞིབ་འབད་ཚུགས་ནི་དང་ ཁོང་རའི་སྐད་སྒྱུར་ཚུ་གསལ་བཀོད་འབད་ཚུགས་པའི་ གཅིག་ཁར་བསྒྲིལ་བའི་ཝེབ་ངོས་འདྲ་བ་དེ་ཨིན། འཇམ་ཏོང་ཏོ་དང་ དུས་ཚོད་ཉུང་སུ་སྤྱོད་ནིའི་ཐབས་ལམ་དེ་ གནས་བཞིན་ཡོད་པའི་སྐད་སྒྱུར་ཚུ་ ཁྱོད་རའི་སྐད་ཡིག་དོན་ལུ་ ནང་འདྲེན་འབད་ནི་དེ་ཨིན། འ་ནི་སྐད་སྒྱུར་ཚུ་ <em> ཇི་ཨེན་ཡུ་ ཚིག་ཡིག་ལེན་འབག་བཏུབ་དངོས་པོ་ཡིག་སྣོད་ཚུ་བཟུམ་སྦེ་ཐོབ་ཆོགཔ་ཡོདཔ་ཨིན </em> (<em> ཡིག་སྣོད་ཐུང་ཀུ་ཚུའི་དོན་ལུ་ </em> .po) ། སྐད་ཡིག་ཚུ་ལེ་ཤའི་དོན་ལུ་ སྐད་སྒྱུར་དེ་ ཕབ་ལེན་དོན་ལུ་ སྐད་སྒྱུར་ཤོག་ལེབ་ནང་ལས་ཐོབ་ཚུགསཔ་ཨིན། "
+
+#: modules/locale.module:24
+msgid "If an existing translation does not meet your needs, the <em>.po</em> files are easily edited with special editing tools. The locale module's import feature allows you to add strings from such files into your site's database. The export functionality enables you to share your translations with others, generating Portable Object files from your site strings."
+msgstr "གནད་བཞིན་ཡོད་པའི་སྐད་སྒྱུར་གིས་ ཁྱོད་ཀྱིས་དགོཔ་དེ་བདའ་མ་ཟུན་པ་ཅིན་ <em>.po</em> ཡིག་སྣོད་ཚུ་ དམིགས་བསལ་ཞུན་དག་འབད་ནི་ལག་ཆས་ཚུ་དང་གཅིག་ཁར་འཇམ་ཏོང་ཏོ་སྦེ་ཞུན་དག་འབད་ཡོདཔ་ཨིན། ལོ་ཀེལ་ཚད་གཞི་གི་ནང་འདྲེན་ཁྱད་རྣམ་གྱིས་ཁྱོད་ལུ་ ཁྱོད་རའི་ས་ཁོངས་ཀྱི་གནད་སྡུད་གཞི་རྟེན་ནང་ན་ལུ་ ནི་བཟུམ་ཡིག་སྣོད་ཚུ་ལས་ ཡིག་རྒྱུན་ཚུ་ཁ་སྐོང་བརྐྱབ་བཅུགཔ་ཨིན། ཕྱིར་འདྲེན་ལས་འགན་གྱིས་ ཁྱོད་རའི་སྐད་སྒྱུར་ཚུ་གཞན་ཚུ་དང་གཅིག་ཁར་རུབ་སྤྱོད་འབད་དེ་ ཁྱོད་རའི་ས་ཁོངས་ཡིག་རྒྱུན་ཚུ་ལས་འབད་བཏུབ་དངོས་པོ་ཡིག་སྣོད་ཚུ་བཟོ་སྟོན་འབད་ནི་ལུ་ལྕོགས་ཅན་བཟོཝ་ཨིན། "
+
+#: modules/locale.module:25
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>administer localization at <a href=\"%admin-locale\">administer &gt;&gt; localization</a>.</li>\n"
+"<li>manage strings for the localization: <a href=\"%admin-locale-string-search\">administer &gt;&gt; localization &gt;&gt; manage strings</a>.</li>\n"
+"<li>add a locale language: <a href=\"%admin-locale-language-add\">administer &gt;&gt; localization &gt;&gt; add language</a>.</li>\n"
+"<li>download translation files from the <a href=\"%external-http-drupal-org-project-Translations\">Drupal translations page</a>.\n"
+"</li>\n"
+"</ul>\n"
+msgstr ""
+"<p> ཁྱོད་ཀྱིས་ </p>\n"
+"<ul>\n"
+"<li> ཡུལ་མཐུན་བཟོ་བ་དེ་  <a href=\"%admin-locale\"> བདག་སྐྱོང་འཐབ་ &gt;&gt; ཡུལ་མཐུན་བཟོ་བ་ལུ་ </a> བདག་སྐྱོང་འཐབ་ཚུགསཔ་ཨིན། </li>\n"
+"<li> ཡུལ་མཐུན་བཟོ་བ་ལས་ ཡིག་རྒྱུན་ཚུ་འཛིན་སྐྱོང་འབད།  <a href=\"%admin-locale-string-search\"> ཡུལ་མཐུན་བཟོ་བ་  &gt;&gt; བདག་སྐྱོང་འཐབ། &gt;&gt; ཡིག་རྒྱུན་ཚུ་འཛིན་སྐྱོང་འབད། </a>.</li>\n"
+"<li> ལོ་ཀེལ་སྐད་ཡིག་ཁ་སྐོང་བརྐྱབ། : <a href=\"%admin-locale-language-add\"> ཡུལ་མཐུན་བཟོ་བ་ &gt;&gt; བདག་སྐྱོང་འཐབ་སྟེ་ &gt;&gt; སྐད་ཡིག་ཁ་སྐོང་བརྐྱབ། </a>.</li>\n"
+"<li> སྐད་སྒྱུར་ཡིག་སྣོད་ཚུ་ <a href=\"%external-http-drupal-org-project-Translations\"> ཌུ་པཱལ་སྐད་སྒྱུར་ཚུའི་ཤོག་ལེབ་ལས་ </a> ཕབ་ལེན་འབད། \n"
+"</li>\n"
+"</ul>\n"
+
+#: modules/locale.module:34
+msgid "For more information please read the configuration and customization handbook <a href=\"%locale\">Locale page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་ <a href=\"%locale\"> ལོ་ཀེལ་ ཤོག་ལེབ་ </a> ལྷབ་གནང་། "
+
+#: modules/locale.module:37
+msgid "Enables the translation of the user interface to languages other than English."
+msgstr "ལག་ལེན་པའི་ངོས་འདྲ་བའི་སྐད་སྒྱུར་བརྐྱབ་ནི་དེ་ དབྱིན་སྐད་མ་ཡིན་པའི་སྐད་ཡིག་གཞན་མི་ཚུ་ནང་ ལྕོགས་ཅན་བཟོཝ་ཨིན། "
+
+#: modules/locale.module:40
+msgid "<p>Drupal provides support for the translation of its interface text into different languages.  This page provides an overview of the installed languages. You can add a language on the <a href=\"%add-language\">add language page</a>, or directly by <a href=\"%import\">importing a translation</a>. If multiple languages are enabled, registered users will be able to set their preferred language.  The site default will be used for anonymous visitors and for users without their own settings.</p><p>Drupal interface translations may be added or extended by several courses: by <a href=\"%import\">importing</a> an existing translation, by <a href=\"%search\">translating everything</a> from scratch, or by a combination of these approaches.</p>"
+msgstr "<p> ཌུ་པཱལ་གྱིས་ སྐད་ཡིག་སོ་སོར་ཚུ་ནང་དེའི་ངོས་འདྲའི་ཚིག་ཡིག་གི་ སྐད་སྒྱུར་དོན་ལུ་ རྒྱབ་སྐྱོར་བྱིནམ་ཨིན། འ་ནི་ཤོག་ལེབ་ཀྱིས་ གཞི་བཙུགས་འབད་ཡོད་པའི་སྐད་ཡིག་ཚུའི་སྤྱི་མཐོང་བྱིནམ་ཨིན། ཁྱོད་ཀྱིས་ <a href=\"%add-language\"> སྐད་ཡིག་ཚུ་ཁ་སྐོང་ཟེར་བའི་ཤོག་ལེབ་གུ་ལུ་ </a> སྐད་ཡིག་ཁ་སྐོང་བརྐྱབ་ཚུགས་ནི་དང་ཡང་ན་ <a href=\"%import\"> ཐད་ཀར་དུ་སྐད་སྒྱུར་ནང་འདྲེན་འབད་བའི་ཐོག་ལས་ཁ་སྐོང་བརྐྱབ་ཚུགསཔ་ཨིན་ </a> ། སྐད་ཡིག་སྣ་མང་ཚུ་ ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ ཐོ་བཀོད་འབད་དེ་ཡོད་པའི་ལག་ལེན་པ་ཚུ་གིས་ ཁོང་རའི་གདམ་ཁ་བརྐྱབ་ཡོད་པའི་སྐད་ཡིག་ནང་གཞི་སྒྲིག་འབད་ཚུགསཔ་ཨིན། ས་ཁོངས་སྔོན་སྒྲིག་དེ་ མིང་མེད་པའི་ལྟ་སྐོརཔ་ཚུ་དང་ ཁོང་རའི་རང་རང་གི་སྒྲིག་སྟངས་ཚུ་མེད་པའི་ལག་ལེན་པ་ཚུའི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན། </p><p> ཌུ་པཱལ་ངོས་འདྲའི་སྐད་སྒྱུར་དེ་ ཁ་ཕྱོགས་ལེ་ཤའི་ཐོག་ལས་ཁ་སྐོང་ཡང་ན་རྒྱ་བསྐྱེད་གཏང་ཚུགསཔ་ཨིན་དེ་ཡང་ : གནས་བཞིན་ཡོད་པའི་ <a href=\"%import\"> སྐད་སྒྱུར་དེ་ </a> ནང་འདྲེན་འབད་ཐོག་ལས་དང་ <a href=\"%search\"> འབྲི་བསུབ་ལས་ </a> ཡོད་ཚད་ཅིགཔོ་སྐད་སྒྱུར་བརྐྱབ་ཐོག་ལས་དང་ ཡང་ན་ འ་ནི་ཐབས་ལམ་ཚུ་མཉམ་མཐུད་ཐོག་ལས་འབད་ཚུགསཔ་ཨིན།</p>"
+
+#: modules/locale.module:42
+msgid "<p>You need to add all languages in which you would like to display the site interface. If you can't find the desired language in the quick-add dropdown, then you will need to provide the proper language code yourself. The language code may be used to negotiate with browsers and to present flags, etc., so it is important to pick a code that is standardised for the desired language. You can also add a language by <a href=\"%import\">importing a translation</a>.</p>"
+msgstr "<p> ཁྱོད་ཀྱིས་ ས་ཁོངས་ངོས་འདྲ་བ་བཀྲམ་སྟོན་འབད་ནི་ཨིན་པའི་ནང་ སྐད་ཡིག་ཚུ་ཆ་མཉམ་རང་ཁ་སྐོང་བརྐྱབ་དགོཔ་ཨིན། ཁྱོད་ཀྱིས་ འདོད་པའི་སྐད་ཡིག་དེ་ ཁ་སྐོང་འཕྲལ་མགྱོགས་གདམ་ཐོ་ནང་མ་ཐོབ་པ་ཅིན་ ཁྱོད་ཀྱིས་སྐད་ཡིག་གསང་ཡིག་འོས་ལྡན་གཅིག་བྱིན་དགོཔ་ཨིན། སྐད་ཡིག་གསང་ཡིག་དེ་ ཟུར་རྟགས་ཚུ་སྟོན་ནི་དང་བརའུ་ཟར་ཚུ་དང་གཅིག་ཁར་བདེ་སྒྲིག་འབད་ནི་ལ་སོགས་པ་ཚུ་ནང་ལག་ལེན་འཐབ་སྟེ་ཡོདཔ་ཨིནམ་ལས་ འདོད་པའི་སྐད་ཡིག་དོན་ལུ་ཚད་ལྡན་བཟོ་ཡོད་པའི་གསང་ཡིག་འཐུ་ནི་དེ་ཁག་ཆེ། ཁྱོད་ཀྱིས་ <a href=\"%import\"> སྐད་སྒྱུར་ནང་འདྲེན་འབད་ཐོག་ལས་ཡང་ </a> སྐད་ཡིག་དེ་ཁ་སྐོང་བརྐྱབ་ཚུགསཔ་ཨིན། </p>"
+
+#: modules/locale.module:44
+msgid "<p>This page allows you to import a translation provided in the gettext Portable Object (.po) format.  The easiest way to get your site translated is to obtain an existing Drupal translation and to import it.  You can find existing translations on the <a href=\"%url\">Drupal translation page</a>. Note that importing a translation file might take a while.</p>"
+msgstr "<p> འ་ནི་ཤོག་ལེབ་ཀྱིས་ཁྱོད་ལུ་ ཚིག་ཡིག་ལེན་འབག་བཏུབ་དངོས་པོ་ (.po) རྩ་སྒྲིག་ནང་ལུ་བྱིན་ཡོད་པའི་སྐད་སྒྱུར་ནང་འདྲེན་འབད་བཅུགཔ་ཨིན། ཁྱོད་ཀྱི་ས་ཁོངས་སྐད་སྒྱུར་འབད་ནིའི་དོན་ལུ་ཐབས་ལམ་འཇམ་ཤོས་རང་ གནས་བཞིན་ཡོད་པའི་ཌུ་པཱལ་སྐད་སྒྱུར་ལེན་ནི་དང་ ནང་འདྲེན་འབད་ནི་དེ་ཨིན། ཁྱོད་ཀྱིས་ གནས་བཞིན་ཡོད་པའི་སྐད་སྒྱུར་ཚུ་ <a href=\"%url\"> ཌུ་པཱལ་སྐད་སྒྱུར་ཤོག་ལེབ་གུ་ལུ་ཡང་ </a> ཐོབ་ཚུགསཔ་ཨིན། སྐད་བསྒྱུར་ཡིག་སྣོད་ཅིག་ནང་འདྲེན་འབད་ནི་ལུ་སྐབས་ཅིག་བསྒོར་ནི་འདི་དྲན་དགོཔ།</p>"
+
+#: modules/locale.module:46
+msgid "<p>This page allows you to export Drupal strings. The first option is to export a translation so it can be shared.  The second option generates a translation template, which contains all Drupal strings, but without their translations. You can use this template to start a new translation using various software packages designed for this task.</p>"
+msgstr "<p> འ་ནི་ཤོག་ལེབ་ཀྱིས་ཁྱོད་ལུ་ ཌུ་པཱལ་ཡིག་རྒྱུན་ཚུ་ཕྱིར་འདྲེན་འབད་བཅུགཔ་ཨིན། གདམ་ཁ་དང་པམ་དེ་རུབ་སྤྱོད་འབད་བཏུབ་པའི་ཕྱིར་དུ་ སྐད་སྒྱུར་ཕྱིར་འདྲེན་འབད་ནི་དེ་ཨིན། གདམ་ཁ་གཉིས་པ་གིས་ནང་ན་སྐད་སྒྱུར་ཚུ་མེད་པའི་ཌུ་པཱལ་ཡིག་རྒྱུན་ཚུ་ཤོམ་པའི་སྐད་སྒྱུར་ཊེམ་པེལེཊི་བཟོ་སྟོན་འབདཝ་ཨིན། ཁྱོད་ཀྱིས་འ་ནི་ཊེམ་པེལེཊི་དེ་ འ་ནི་ལས་ཀའི་དོན་ལུ་ བཀོད་སྒྲིག་འབད་ཡོད་པའི་མཉེན་ཆས་ཐུམ་སྒྲིག་འདྲ་མིན་སྣོ་ཚོགས་ཚུ་ལག་ལེན་འཐབ་ཐོག་ལས་ སྐད་སྒྱུར་གསརཔ་འགོ་བཙུགས་ནི་དོན་ལུ་ལག་ལེན་འཐབ་ཚུགསཔ་ཨིན། </p>"
+
+#: modules/locale.module:48
+msgid "<p>It is often convenient to get the strings from your setup on the <a href=\"%export\">export page</a>, and use a desktop Gettext translation editor to edit the translations.  On this page you can search in the translated and untranslated strings, and the default English texts provided by Drupal.</p>"
+msgstr "<p> ཤོག་ལེབ་ཕྱིར་འདྲེན་ <a href=\"%export\"> གུ་ལུ་ </a> ཁྱོད་རའི་གཞི་སྒྲིག་ལས་ཡིག་རྒྱུན་ཚུ་ལེན་ནི་དང་ སྐད་སྒྱུར་ཚུ་ཞུན་དག་འབད་ནིའི་དོན་ལུ་ཌེཀསི་ཊོབ་ཚིག་ཡིག་ལེན་སྐད་སྒྱུར་ཞུན་དག་པ་ལག་ལེན་འཐབ་ནི་དེ་སྟབས་བདེ་དྲགས་ཨིན། འ་ནི་ཤོག་ལེབ་གུ་ལུ་ཁྱོད་ཀྱིས་ ཌུ་པཱལ་གྱིས་བྱིན་ཏེ་ཡོད་པའི་ཡིག་རྒྱུན་སྐད་སྒྱུར་འབད་འབདཝ་དང་སྐད་སྒྱུར་མ་འབད་མི་དེ་ལས་ དབྱིན་སྐད་ཚིག་ཡིག་སྔོན་སྒྲིག་ཚུ་འཚོལ་ཞིབ་འབད་ཚུགསཔ་ཨིན། </p>"
+
+#: modules/locale.module:62
+msgid "localization"
+msgstr "ཡུལ་མཐུན་བཟོ་བ།"
+
+#: modules/locale.module:68
+msgid "manage languages"
+msgstr "སྐད་ཡིག་ཚུ་འཛིན་སྐྱོང་འབད།"
+
+#: modules/locale.module:73
+msgid "manage strings"
+msgstr "ཡིག་རྒྱུན་ཚུ་འཛིན་སྐྱོང་འབད།"
+
+#: modules/locale.module:87
+msgid "add language"
+msgstr "སྐད་ཡིག་ཁ་སྐོང་བརྐྱབ།"
+
+#: modules/locale.module:93
+msgid "import"
+msgstr "ནང་འདྲེན།"
+
+#: modules/locale.module:99
+msgid "export"
+msgstr "ཕྱིར་འདྲེན།"
+
+#: modules/locale.module:107
+msgid "confirm"
+msgstr "ངེས་དཔྱད་འབད།"
+
+#: modules/locale.module:116
+msgid "edit string"
+msgstr "ཡིག་རྒྱུན་ཞུན་དག་འབད།"
+
+#: modules/locale.module:122
+msgid "delete string"
+msgstr "ཡིག་རྒྱུན་བཏོན་གཏང་།"
+
+#: modules/locale.module:151
+msgid "Interface language settings"
+msgstr "ངོས་འདྲ་བའི་སྐད་ཡིག་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/locale.module:158
+msgid "Selecting a different locale will change the interface language of the site."
+msgstr "ལོ་ཀེལ་སོ་སོར་སེལ་འཐུ་འབད་ནི་དེ་གིས་ འ་ནི་ས་ཁོངས་ཀྱི་ངོས་འདྲའི་སྐད་ཡིག་བསྒྱུར་བཅོས་འབད་འོང་།"
+
+#: modules/locale.module:324
+msgid "The English locale cannot be deleted."
+msgstr "དབྱིན་སྐད་ལོ་ཀེལ་དེ་ བཏོན་གཏང་མི་བཏུབ་པས།"
+
+#: modules/locale.module:336
+msgid "Are you sure you want to delete the language %name?"
+msgstr "ཁྱོད་ཀྱིས་ %name སྐད་ཡིག་བཏོན་གཏང་ནི་ཟེར་མི་དེ་ངེས་གཏན་ཨིན་ན?"
+
+#: modules/locale.module:336
+msgid "Deleting a language will remove all data associated with it. This action cannot be undone."
+msgstr "སྐད་ཡིག་སྟོན་གཏང་ནི་དེ་གིས་ གནད་སྡུད་ཚུ་དང་འབྲེལ་བའི་གནད་སྡུད་ཚུ་ཆ་མཉམ་རང་རྩ་བསྐྲད་གཏངམ་ཨིན། འ་ནི་བྱ་བ་དེ་ མཇུག་མ་བསྡུ་བར་བཞག་མི་བཏུབ་པས།"
+
+#: modules/locale.module:348
+msgid "The language %locale has been removed."
+msgstr "%locale སྐད་ཡིག་དེ་རྩ་བསྐྲད་གཏང་སྟེ་ཡོདཔ་ཨིན།"
+
+#: modules/locale.module:422
+msgid "Are you sure you want to delete the following string?"
+msgstr "ཁྱོད་ཀྱིས་ ཐད་རི་འབའ་རི་ འོག་གི་ཡིག་རྒྱུན་འདི་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: modules/locale.module:137
+msgid "administer locales"
+msgstr "ལོ་ཀེལསི་བདག་སྐྱོང་འཐབ།"
+
+#: modules/locale.module:0
+msgid "Jan"
+msgstr "ཟླཝ་དངམ།"
+
+#: modules/locale.module:0
+msgid "Feb"
+msgstr "ཟླཝ་གཉིསཔ།"
+
+#: modules/locale.module:0
+msgid "Mar"
+msgstr "ཟླཝ་གསུམཔ།"
+
+#: modules/locale.module:0
+msgid "Apr"
+msgstr "ཟླཝ་བཞིཔ།"
+
+#: modules/locale.module:0
+msgid "Jun"
+msgstr "ཟླཝ་དྲུགཔ།"
+
+#: modules/locale.module:0
+msgid "Jul"
+msgstr "ཟླཝ་བདུནམ།"
+
+#: modules/locale.module:0
+msgid "Aug"
+msgstr "ཟླཝ་བརྒྱདཔ།"
+
+#: modules/locale.module:0
+msgid "Sep"
+msgstr "ཟླཝ་དགུཔ།"
+
+#: modules/locale.module:0
+msgid "Oct"
+msgstr "ཟླཝ་བཅུཔ།"
+
+#: modules/locale.module:0
+msgid "Nov"
+msgstr "ཟླཝ་བཅུ་གཅིགཔ།"
+
+#: modules/locale.module:0
+msgid "Dec"
+msgstr "ཟླཝ་བུ་གཉིསཔ།"
+
+#: modules/locale.module:0;0
+msgid "Thu"
+msgstr "པ།"
+
+#: modules/locale.module:0
+msgid "Fri"
+msgstr "སྤེན།"
+
+#: modules/locale.module:0
+msgid "Sat"
+msgstr "ཉིམ།"
+
+#: modules/locale.module:0
+msgid "Sun"
+msgstr "ཟླ།"
+
+#: modules/locale.module:0
+msgid "Mon"
+msgstr "མིག"
+
+#: modules/locale.module:0
+msgid "Tue"
+msgstr "ལྷག"
+
+#: modules/locale.module:0
+msgid "Wed"
+msgstr "ཕུར།"
+

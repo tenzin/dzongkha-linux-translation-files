@@ -1,0 +1,316 @@
+# extracted from dz-BT_orig/security/manager/chrome/pippki/pref-ssl.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: pref-ssl.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-10-27 15:21+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is mozilla.org code.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corp.
+# - Portions created by the Initial Developer are Copyright (C) 2001
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -   Bob Lord <lord@netscape.com>
+# -   Terry Hayes <thayes@netscape.com>
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either the GNU General Public License Version 2 or later (the "GPL"), or
+# - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+#: SSLProtocolVersions
+msgid "SSL Protocol Versions"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ གནས་སྤེལ་ལམ་ལུགས་ཐོན་རིམ་"
+
+#: SSLWarnings
+msgid "SSL Warnings"
+msgstr "ཨེསེ་ཨེསི་ཨེལ་ཉེན་བརྡ་ཚུ་"
+
+#: SSLClientAuthMethod
+msgid "Client Certificate Selection"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་ལག་ཁྱེར་སེལ་འཐུ།"
+
+#: prefheader.title
+msgid "Secure Sockets Layer (SSL)"
+msgstr "མཐའ་བཙན་སོ་ཀེཊི་བང་རིམ་ (ཨེསི་ཨེསི་ཨེལ་)"
+
+#: enable.ssl2
+msgid "Enable SSL version 2"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ཐོན་རིམ་ ༢ པ་ ལྕོགས་ཅན་བཟོ་"
+
+#: enable.ssl3
+msgid "Enable SSL version 3"
+msgstr "སི་ཨེསི་ཨེལ་ ཐོན་རིམ་ ༣ པ་ ལྕོགས་ཅན་བཟོ་"
+
+#: enable.tls
+msgid "Enable TLS"
+msgstr "ཊི་ཨེལ་ཨེསི་ ལྕོགས་ཅན་བཟོ་"
+
+#: edit.sslciphers
+msgid "Edit Ciphers..."
+msgstr "གསང་ཡིག་ཚུ་ཞུན་དག་རྐྱབས་་་་"
+
+#: edit.sslciphers.accesskey
+msgid "E"
+msgstr "E"
+
+#: warn.description
+msgid "&brandShortName; can alert you to the security status of the web page you are viewing. Set &brandShortName; to show a warning and ask permission before:"
+msgstr "&brandShortName; གིས་ ཁྱོད་ཀྱིས་བལྟ་བའི་བསྒང་ཡོད་པའི་ ཝེབ་ཤོག་ལེབ་དེ་གི་ སྲུང་སྐྱོབ་གནས་ཚད་སྐོར་ དྲན་བརྡ་འབད་ཚུགས། ཉེན་བརྡ་སྟོན་ནི་དང་ གནང་བ་ལེན་ནིའི་དོན་ལུ་ &brandShortName; གཞི་སྒྲིག་འབད།"
+
+#: warn.enteringsecure
+msgid "Loading a page that supports encryption"
+msgstr "གསང་བཟོ་ལུ་རྒྱབ་སྐྱོར་འབད་མི་ ཤོག་ལེབ་ཅིག་མངོན་གསལ་འབད་དོ།"
+
+#: warn.enteringweak
+msgid "Loading a page that uses low-grade encryption"
+msgstr "སྤུས་ཚད་དམའ་བའི་གསང་བཟོ་ ལག་ལེན་འཐབ་མི་ ཤོག་ལེབ་ཅིག་མངོན་གསལ་འབད་དོ།"
+
+#: warn.insecurepost
+msgid "Sending form data from an unencrypted page to an unencrypted page"
+msgstr "གསང་བཟོས་མེན་པའི་ཤོག་ལེབ་ཅིག་ནང་ལས་ གསང་བཟོས་མེན་པའི་ཤོགལེབ་ཅིག་ནང་ འབྲི་ཤོག་གི་བརྡ་དོན་གཏང་དོ།"
+
+#: warn.leavingsecure
+msgid "Leaving a page that supports encryption"
+msgstr "གསང་བཟོ་ལུ་རྒྱབ་སྐྱོར་འབད་མི་ ཤོག་ལེབ་ཅིག་ བཞག་འགྱོ་དོ།"
+
+#: warn.secureredirect
+msgid "Redirecting from one encrypted page to another"
+msgstr "གསང་བཟོས་ཤོག་ལེབ་གཅིག་ལས་ གཞན་མི་ལུ་ སླར་ལོག་གཏང་དོ།"
+
+#: warn.secureredirecttoinsecure
+msgid "Redirecting from an encrypted page to an unencrypted page"
+msgstr "གསང་བཟོས་ཤོག་ལེབ་ཅིག་ལས་ གསང་བཟོས་མེན་པའི་ཤོག་ལེབ་ཅིག་ནང་ སླར་ལོག་གཏང་དོ།"
+
+#: warn.viewmixed
+msgid "Viewing a page with an encrypted/unencrypted mix"
+msgstr "གསང་བཟོས་/གསང་བཟོས་མེན་པའི་ བསྲེ་སྦྱོར་ཅིག་གི་ཐོག་ལས་ ཤོག་ལེབ་ཅིག་ལུ་བལྟ་དོ།"
+
+#: certselect.description
+msgid "Decide how &brandShortName; selects a security certificate to present to web sites that require one:"
+msgstr "སྲུང་སྐྱོབ་ལག་ཁྱེར་དགོ་མི་ ཝེབ་ས་ཁོངས་ཚུ་ལུ་སྤྲོད་ནིའི་དོན་ལུ་ &brandShortName;གིས་ སྲུང་སྐྱོབ་ལག་ཁྱེར་ཅིག་ ག་དེ་སྦེ་ སེལ་འཐུ་འབདཝ་ཨིན་ན་ གྲོས་ཐག་གཅད།"
+
+#: certselect.auto
+msgid "Select Automatically"
+msgstr "རང་བཞིན་གྱིས་ སེལ་འཐུ་འབད་"
+
+#: certselect.ask
+msgid "Ask Every Time"
+msgstr "ཨ་རྟག་ར་དྲིས་"
+
+# Cipher pref window
+#: cipher.title
+msgid "SSL: Edit Ciphers"
+msgstr "ཨེསི་ཨེསི་ཨེལ་: གསང་ཡིག་ཞུན་དག་རྐྱབས་"
+
+#: cipher.ssl2.label
+msgid "SSL2 Cipher Suites"
+msgstr "ཨེསི་ཨེསི་ཨེལ་༢ ཀྱི་གསང་ཡིག་ཆ་ཚང་"
+
+#: cipher.ssl3.label
+msgid "SSL3/TLS Cipher Suites"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ༣ གྱི་གསང་ཡིག་ཆ་ཚང་"
+
+#: cipher.ssl3_extra.label
+msgid "Extra SSL3/TLS Cipher Suites"
+msgstr "ཨེསི་ཨེསི་ཨེལ་༣/ཊི་ཨེལ་ཨེསི་གི་ གསང་ཡིག་ཆ་ཚང་"
+
+#: cipher.tab.ssl2
+msgid "SSL2"
+msgstr "ཨེསི་ཨེསི་ཨེལ་༢་"
+
+#: cipher.tab.ssl3tls
+msgid "SSL3/TLS"
+msgstr "ཨེསི་ཨེསི་ཨེལ་༣/ཊི་ཨེལ་ཨེསི་"
+
+#: cipher.tab.ssl3tls_extra
+msgid "Extra SSL3/TLS"
+msgstr "ཨེསི་ཨེསི་ཨེལ་༣/ཊི་ཨེལ་ཨེསི་ཐེབས་"
+
+# SSL2 Ciphers
+# SSL3/TLS ciphers
+#: cipher.ssl2.rc4_128
+#: cipher.ssl3.rsa_rc4_128_md5
+msgid "128-bit RC4 encryption with RSA and an MD5 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེམ་ཌི་༥ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༢༨ ཨར་སི་༤ གི་གསང་བཟོ།"
+
+#: cipher.ssl2.rc2_128
+msgid "128-bit RC2 encryption with RSA and an MD5 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེམ་ཌི་༥ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༢༨ ཨར་སི་༢ ཀྱི་གསང་བཟོ།"
+
+#: cipher.ssl2.des_ede3_192
+msgid "168-bit Triple DES encryption with RSA and MD5 MAC "
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེམ་ཌི་༥ མེཀ་དང་བཅས་པའི་ བིཊི་-༡༦༨ ཌི་ཨི་ཨེསི་གསུམ་ཅན་གྱི་གསང་བཟོ།"
+
+#: cipher.ssl2.des_64
+msgid "56-bit DES encryption with RSA and an MD5 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེམ་ཌི་༥ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༥༦ ཌི་ཨི་ཨེསི་གི་གསང་བཟོ།"
+
+#: cipher.ssl2.rc4_40
+#: cipher.ssl3.rsa_rc4_40_md5
+msgid "40-bit RC4 encryption with RSA and an MD5 MAC (export)"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེམ་ཌི་༥ མེཀ་(ཕྱིར་འདྲེན)ཅིག་དང་བཅས་པའི་ བིཊི་-༤༠ ཨར་སི་༤གི་་གསང་བཟོ།"
+
+#: cipher.ssl2.rc2_40
+#: cipher.ssl3.rsa_rc2_40_md5
+msgid "40-bit RC2 encryption with RSA and an MD5 MAC (export)"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེམ་ཌི་༥ མེཀ་(ཕྱིར་འདྲེན་)ཅིག་དང་བཅས་པའི་ བིཊི་-༤༠ ཨར་སི་༢ ཀྱི་གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_rc4_128_sha
+msgid "128-bit RC4 encryption with RSA and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༢༨ ཨར་སི་༤ གི་གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_fips_des_ede3_sha
+msgid "168-bit Triple DES with RSA and a SHA1 MAC (FIPS)"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་(ཨེཕ་ཨའི་པི་ཨེསི་)ཅིག་དང་བཅས་པའི་ བིཊི་-༡༦༨ ཌི་ཨི་ཨེསི་གསུམ་ཅན།"
+
+#: cipher.ssl3.rsa_des_ede3_sha
+msgid "168-bit Triple DES with RSA and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༦༨ ཌི་ཨི་ཨེསི་གསུམ་ཅན།"
+
+#: cipher.ssl3.rsa_fips_des_sha
+msgid "56-bit DES encryption with RSA and a SHA1 MAC (FIPS)"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་(ཨེཕ་ཨའི་པི་ཨེསི)ཅིག་དང་བཅས་པའི་ བིཊི་-༡༦༨ ཌི་ཨི་ཨེསི་ གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_des_sha
+msgid "56-bit DES encryption with RSA and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༥༦ ཌི་ཨི་ཨེསི་ གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_1024_rc4_56_sha
+msgid "56-bit RC4 encryption with RSA and a SHA1 MAC (export)"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་(ཕྱིར་འདྲེན་)ཅིག་དང་བཅས་པའི་ བིཊི་-༥༦ ཨར་སི་༤ གི་གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_1024_des_cbc_sha
+msgid "56-bit DES encryption with RSA and a SHA1 MAC (export)"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་(ཕྱིར་འདྲེན་)ཅིག་དང་བཅས་པའི་ བིཊི་-༥༦ ཌི་ཨི་ཨེསི་གསང་བཟོ།"
+
+# Extra SSL3/TLS ciphers
+#: cipher.ssl3.dhe_rsa_aes_256_sha
+msgid "256-bit AES encryption with RSA, DHE, and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༢༥༦  ཨེ་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.dhe_dss_aes_256_sha
+msgid "256-bit AES encryption with DSA, DHE, and a SHA1 MAC"
+msgstr "ཌི་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༢༥༦  ཨེ་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_aes_256_sha
+msgid "256-bit AES encryption with RSA and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༢༥༦  ཨེ་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.dhe_rsa_aes_128_sha
+msgid "128-bit AES encryption with RSA, DHE, and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༢༨  ཨེ་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.dhe_dss_aes_128_sha
+msgid "128-bit AES encryption with DSA, DHE, and a SHA1 MAC"
+msgstr "ཌི་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༢༨  ཨེ་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_aes_128_sha
+msgid "128-bit AES encryption with RSA and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༢༨  ཨེ་ཨི་ཨེསི་ གསང་བཟོ།"
+
+#: cipher.ssl3.dhe_rsa_des_ede3_sha
+msgid "168-bit Triple DES with RSA, DHE, and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༦༨  ཌི་ཨི་ཨེསི་གསུམ་ཅན།"
+
+#: cipher.ssl3.dhe_dss_des_ede3_sha
+msgid "168-bit Triple DES with DSA, DHE, and a SHA1 MAC"
+msgstr "ཌི་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༡༦༨ ཌི་ཨི་ཨེསི་ གསུམ་ཅན།"
+
+#: cipher.ssl3.dhe_rsa_des_sha
+msgid "56-bit DES encryption with RSA, DHE, and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༥༦  ཌི་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.dhe_dss_des_sha
+msgid "56-bit DES encryption with DSA, DHE, and a SHA1 MAC"
+msgstr "ཌི་ཨེསི་ཨེ་དང་ ཌི་ཨེཆ་ཨི་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་ཅིག་དང་བཅས་པའི་ བིཊི་-༥༦ ཌི་ཨི་ཨེསི་གསང་བཟོ།"
+
+#: cipher.ssl3.rsa_null_sha
+msgid "No encryption with RSA authentication and a SHA1 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་བདེན་བཤད་དང་ ཨེསི་ཨེཆ་ཨེ་༡ མེཀ་གི་ཐོག་ལས་ གསང་བཟོ་མིན་འདུག།"
+
+#: cipher.ssl3.rsa_null_md5
+msgid "No encryption with RSA authentication and an MD5 MAC"
+msgstr "ཨར་ཨེསི་ཨེ་བདེན་བཤད་དང་ ཨེམ་ཌི་༥ མེཀ་ཅིག་གི་ཐོག་ལས་ གསང་བཟོ་མིན་འདུག།"
+
+# Labels for cipher attributes
+#: cipher.name
+msgid "Cipher"
+msgstr "གསང་ཡིག་"
+
+#: cipher.encryption
+msgid "Encryption Algorithm:"
+msgstr "གསང་བཟོའི་ཨཱལ་གོ་རི་དམ་:"
+
+#: cipher.authAlg
+msgid "Authentication Algorithm:"
+msgstr "བདེན་བཤད་ཨཱལ་གོ་རི་དམ་:"
+
+#: cipher.keyAlg
+msgid "Key Algorithm:"
+msgstr "ལྡེ་མིག་ཨཱལ་གོ་རི་དམ་:"
+
+#: cipher.keySize
+msgid "Effective Key Size:"
+msgstr "ནུས་ཤུགས་ཅན་གྱི་ལྡེ་མིག་ཚད་:"
+
+#: cipher.macAlg
+msgid "MAC Algorithm:"
+msgstr "མེཀ་ཨཱལ་གོ་རི་དམ་:"
+
+#: cipher.other
+msgid "Other Attributes:"
+msgstr "ཁྱད་ཆོས་གཞན་ཚུ་:"
+
+#: cipher.fips
+msgid "FIPS"
+msgstr "ཨེཕ་ཨའི་པི་ཨེསི་"
+
+#: cipher.exportable
+msgid "IsExportable"
+msgstr "ཕྱིར་འདྲེན་འབད་བཏུབ་ཨིན་"
+
+#: cipher.details
+msgid "Details..."
+msgstr "རྒྱས་བཤད་ཚུ་་་"
+
+#: cipherinfo.title
+msgid "Cipher Details"
+msgstr "གསང་ཡིག་གི་རྒྱས་བཤད་"
+

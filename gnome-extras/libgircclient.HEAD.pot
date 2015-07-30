@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgircclient.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-14 22:10+0100\n"
+"PO-Revision-Date: 2006-12-16 22:44+0530\n"
+"Last-Translator: dorji tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit,gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libgircclient/girc-channel.c:41
+msgid "A channel who's name begins with a \"#\" character is a standard channel."
+msgstr "རྒྱུ་ལམ་གྱི་མིང་\"#\"ཟེར་མི་ཡིག་འབྲུ་དེ་གིས་འགོ་བཙུགས་མི་དེ་ ཚད་ལྡན་རྒྱུ་ལམ་ཅིག་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:44
+msgid "A channel who's name begins with a \"&\" character is one that only appears on the current server. Users must be on the same server as the channel was created to join it."
+msgstr "རྒྱུ་ལམ་གྱི་མིང་\"&\"་ཟེར་མི་ཡིག་འབྲུ་དེ་གིས་འགོ་བཙུགས་མི་དེ་ ཐ་ལྟོའི་སར་བར་གུ་བྱུང་མི་དེ་ཨིན། རྒྱུ་ལམ་དེ་མཐུད་ནིའི་དོན་ལུ་གསར་བསྐྲུན་འབད་འབདཝ་ཨིནམ་ལས་ ལག་ལེན་པ་དེ་སར་བར་གཅིག་གུ་འོང་དགོཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:49
+msgid "A channel who's name begins with a \"!\" character is one that has a channel ID automatically appended to it, so it will be created if there is another channel with the same basic name."
+msgstr "རྒྱུ་ལམ་གྱི་མིང་ \"!\"ཟེར་མི་ཡིག་འབྲུ་དེ་གིས་འགོ་བཙུགས་མི་དེ་ ཁོ་ར་ལུ་རྒྱུ་ལམ་གྱི་ཨའི་ཌི་ཅིག་རང་བཞིན་གྱིས་མཉམ་སྦྲགས་འབད་ཡོད་མི་ཅིག་ཨིནམ་ལས་ རྒྱ་ལམ་གཞན་མི་ཅིག་ལུ་གཞི་རིམ་མིང་ཅོག་གཅིགཔ་ཡོད་པ་ཅིག་ དེ་གིས་གསར་བསྐྲུན་འབད་འོང་།"
+
+#: ../libgircclient/girc-channel.c:54
+msgid "A channel who's name begins with a \"+\" character is one that only allows the topic protection mode to be set, all other modes are set by the server."
+msgstr "རྒྱུ་ལམ་གྱི་མིང་\"+\"ཟེར་མི་ཡིག་འབྲུ་ཅིག་གིས་འགོ་བཙུགས་མི་དེ་ གནད་དོན་ཉེན་སྐྱོབ་ཐབས་ལམ་དེ་གཞི་སྒྲིག་འབད་བཞག་བཅུག་མི་ཅིག་ཨིནམ་ད་ གཞན་མི་ཐབས་ལམ་ཆ་མཉམ་སར་བར་དེ་གིས་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:65
+msgid "All messages on the channel are \"anonymous\" to other users on the channel. This mode can only be set by Channel Creators on safe (\"!\") channels, and Channel Operators on local (\"&\") channels."
+msgstr "རྒྱུ་ལམ་གུ་ཡོད་མི་འཕྲིན་དོན་ཚུ་ཆ་མཉམ་རང་ རྒྱ་ལམ་གཞན་མི་ཚུ་གི་ལགལེཔ་པ་ཚུ་ལུ་ \"anonymous\" ཨིན། ཐབས་ལམ་འདི་ ཉེན་མེད་(\"!\") རྒྱུ་ལམ་གུ་ཡོད་མི་ རྒྱུ་ལམ་གསར་བསྐྲུན་པ་དང་ ཉེ་གནས་(\"&\")རྒྱུ་ལམ་གུ་ཡོད་མི་ རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་ཚུ་གིས་རྐྱངམ་ཅིག་གཞི་སྒྲིག་འབད་ཚུགསཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:72
+msgid "Only users who have been invited by a user already on the channel, or are listed in the invite exceptions list can join the channel."
+msgstr "རྒྱུ་ལམ་གུ་ཧེ་མ་ལས་ཡོད་མི་ལག་ལེན་པ་ཅིག་གིས་མགྲོན་བརྡ་འབད་ཡོད་མི་ལག་ལེན་པ་ཚུ་རྐྱངམ་ཅིག་དང་ ཡང་ན་ དམིགས་བསལ་མགྲོན་བརྡའི་ཐོ་ཡིག་ནང་ལུ་ཐོ་འགོད་འབད་ཡོད་པ་ཅིན་ རྒྱུ་ལམ་དེ་ལུ་མཐུད་ཚུགས།"
+
+#: ../libgircclient/girc-channel.c:78
+msgid "Only Channel Operators, Half-Operators, and Voiced users can speak on moderated channels."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་དང་ བཀོལ་སྤྱོདཔ་ཕྱད་ཀ་ དེ་ལས་ ཧེ་མ་ལས་སྐད་བཙུགས་ཡོད་པའི་ལག་ལེན་པ་ཚུ་གིས་རྐྱངམ་ཅིག་ རྒྱུ་ལམ་རན་པ་སྦེ་ཡོད་མི་གུ་ཁ་སླབ་ཚུགས།"
+
+#: ../libgircclient/girc-channel.c:84
+msgid "Only users who are in the channel can speak."
+msgstr "རྒྱུ་ལམ་ནང་ལུ་ཡོད་མི་ལག་ལེན་པ་ཚུ་རྐྱངམ་ཅིག་གིས་ཁ་སླབ་ཚུགས།"
+
+#: ../libgircclient/girc-channel.c:89
+msgid "Only Channel Operators and Half-Operators can change the channel's topic."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་དང་ བཀོལ་སྤྱོདཔ་ཕྱད་ཀ་སྦེ་ཡོད་མི་ཚུ་རྐྱངམ་ཅིག་གིས་ རྒྱུ་ལམ་གྱི་གནོད་དོན་དེ་བསྒྱ྄ར་བཅོས་འབད་ཚུགས།"
+
+#: ../libgircclient/girc-channel.c:94
+msgid "The channel will automatically give Channel Operator abilities to a random user on the channel if it has been without Operators for a period of time."
+msgstr "བཀོལ་སྤྱོདཔ་ཚུ་དུས་ཡུན་དག་པ་ཡོར་སོངམ་ཨིན་པ་ཅིན་ རྒྱུ་ལམ་གུ་ཡོད་མི་གང་བྱུང་ལག་ལེན་པ་ཚུ་ལུ་ རྒྱུ་ལམ་གྱུ་ལམ་གྱིས་རང་བཞིན་གྱིས་ རྒྱ྄་ལམ་བཀོལ་སྤྱོདཔ་གི་ལྕོགས་གྲུབ་འབྱིན་འོང་།"
+
+#: ../libgircclient/girc-channel.c:100
+msgid "The channel does not appear in a user's information."
+msgstr "ལག་ལེན་པའི་བརྡ་དོན་ཅིག་ནང་ལུ་ རྒྱུ་ལམ་དེ་མི་འབྱུང་།"
+
+#: ../libgircclient/girc-channel.c:104
+msgid "The channel does not appear in a user's information or any listing of available channels."
+msgstr "རྒྱུ་ལམ་དེ་ ལག་ལེན་པའི་བརྡ་དོན་ནང་ལུ་ དང་ ཡང་ན་ ཐོ་འགོད་འབད་ནིའི་འཐོབ་ཚུགས་པའི་རྒྱུ་ལམ་ནང་ལུ་མི་འབྱུང་།"
+
+#: ../libgircclient/girc-channel.c:109
+msgid "The channel does not appear in a user's information or any listing of available channels, and other users on the channel are hidden."
+msgstr "རྒྱུ་ལམ་དེ་ ལག་ལེན་པའི་བརྡ་དོན་ཅིག་ནང་ལུ་དང་ ཡང་ན་ ཐོ་འགོད་འབད་ནིའི་འཐོབ་ཚུགས་པའི་རྒྱུ་ལམ་ནངལུ་མི་འབྱུངམ་ཨནམ་དང་ རྒྱུ་ལམ་གུ་ཡོད་མི་ལག་ལེན་པ་གཞན་མི་ཚུ་སྦ་བཞགཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:115
+msgid "The channel requires a password to join."
+msgstr "འཛུལ་ནིའི་དོན་ལུ་ རྒྱུ་ལམ་དེ་ལུ་ཆོག་ཡིག་ཅིག་དགོ"
+
+#: ../libgircclient/girc-channel.c:120
+msgid "The channel has a limited number of users who can join."
+msgstr "རྒྱུ་ལམ་དེ་ལུ་ འཛུལ་ཚུགས་མི་ལག་ལེན་པ་གྱངས་ཁ་ཆོདཔ་ཅིག་རང་ཨིན་པས།"
+
+#: ../libgircclient/girc-channel.c:125
+msgid "The channel has banned certain users from entering."
+msgstr "ལག་ལེན་པ་དེ་གིས་ ལག་ལེན་ལ་ལོ་ཅིག་བཙུགས་ནི་ལས་བཀག་དམ་འབད་ཡོདཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:130
+msgid "The channel has allowed some users to join in spite of a ban."
+msgstr "རྒྱུ་ལམ་དེ་གིས་ ལག་ལེན་པ་དག་པ་ཅིག་བཀག་དམ་མ་འབད་བར་ འཛུལ་བཅུག་ཡོདཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:135
+msgid "The channel has invited certain users to join."
+msgstr "རྒྱུ་ལམ་དེ་གིས་ལག་ལེན་ལ་ལོ་ཅིག་འཛུལ་ནི་ལུ་མགྲོན་བརྡ་འབད་ནུག"
+
+#: ../libgircclient/girc-channel.c:140
+msgid "The channel has allowed some users to join without an invitation."
+msgstr "རྒྱུ་ལམ་དེ་གིས་ལག་ལེན་པ་དག་པ་ཅིག་ མགྲོན་བརྡ་མ་འབད་བར་འཛུལ་བཅུག་ནུག"
+
+#: ../libgircclient/girc-channel.c:149
+msgid "A normal user has no special abilities."
+msgstr "སྤྱིར་བཏང་གི་ལག་ལེན་པ་དེ་ལུ་ དམིགས་བསལ་གྱི་ལྕོགས་གྲུབ་མེད།"
+
+#: ../libgircclient/girc-channel.c:153
+msgid "A Channel Operator has the ability to set channel modes, kick and ban other users from the channel, talk freely when the channel is moderated, and give other users these abilities."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་དེ་ལུ་ རྒྱུ་ལམ་གྱི་ཐབས་ལམ་ཚུ་གཞི་སྒྲིག་འབད་ནི་དང་ རྒྱུ་ལམ་དེ་ནང་ལས་ལག་ལེན་པ་གཞན་མི་ཚུ་ བཏོན་གཏང་ནི་དང་བཀག་དམ་འབད་ནི་ རྒྱུ་ལམ་དེ་རན་པ་སྦེ་ཡོདཔ་ད་ལུ་རང་དབང་གི་ཐོག་ལས་ཁ་སླབ་ནི་དང་ དེ་ལས་ ལྕོགས་གྲུབ་འདི་ལག་ལེན་པ་གཞན་མི་ཚུ་གི་དོན་ལུ་འབྱིན་ནི་གི་ལྕོགས་གྲུབ་ཡོདཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:159
+msgid "A Half-Operator has the ability to set channel modes, kick and ban other users (but not Channel Operators), talk freely when the channel is moderated, and give other users these limited abilities."
+msgstr "བཀོལ་སྤྱོདཔ་ཕྱད་ཀ་དེ་ལུ་ རྒྱུ་ལམ་གྱི་ཐབས་ལམ་ཚུ་གཞི་སྒྲིག་འབད་ནི་དང་ ལགལེན་པ་གཞན་མི་ཚུ་བཏོན་གཏང་ནི་དང་ བཀག་དམའབད་ནི་(དེ་འབདཝ་ད་རྒྱ྄་ལམ་བཀོལ་སྤྱོད་འབད་མི་ཚུ་མེན་) རྒྱུ་ལམ་དེ་རན་པ་སྦེ་ཡོད་པའི་སྐབས་ལུ་དང་ དེ་ལས་ ལག་ལེན་པ་གཞན་མི་ཚུ་གི་དོན་ལུ་གྱངས་ཁ་ཆོདཔ་ཅིག་ལས་མེད་མི་ ལྕོགས་གྲུབ་འ་ན་ཚུ་འབྱིན་ཚུགས་པའི་ལྕོགས་གྲུབ་ཡོད།"
+
+#: ../libgircclient/girc-channel.c:165
+msgid "A Voiced user has the ability talk freely when the channel is moderated."
+msgstr "རྒྱུ་ལམ་དེ་རན་པ་སྦེ་ཡོད་པའི་སྐབས་ལུ་ ཧེ་མ་ལས་སྐད་ཡོད་མི་ལག་ལེན་པ་དེ་ལུ་ རང་དབང་ཐོག་ལས་ཁ་སླབ་ནའི་ལྕོགས་གྲུབ་ཡོདཔ་ཨིན།"
+
+#: ../libgircclient/girc-channel.c:169
+msgid "A Channel Creator is automatically selected by the server when a safe channel (\"!\") is created. A Channel Creator has the ability to set channel modes (including the anonymous and re-op modes), kick and ban other users from the channel, talk freely when the channel is moderated, and give other users Channel Operator abilities."
+msgstr "ཉེན་མེད་རྒྱུ་ལམ་(\"!\") དེ་གསར་སྐྲུན་འབད་བའི་སྐབས་ལུ་ རྒྱུ་ལམ་གསར་བསྐྲུན་པ་དེ་ སར་བར་དེ་གིས་རང་བཞིན་གྱིས་སེལ་འཐུ་འབད་བཞགཔ་ཨིན། རྒྱ྄་ལམ་གསར་སྐྲུན་པ་དེ་ལུ་ རྒྱ྄་ལམ་གྱི་ཐབས་ལམ་ཚུ་གཞི་སྒྲིག་འབད་ནི་དང་(མིང་མེད་མི་དང་ རི་-ཨོཔ་ ཐབས་ལམ་ཚུ་རྩིས་ཏེ་) རྒྱུ་ལམ་དེ་ནང་ལས་ལག་ལེན་པ་གཞན་མི་ཚུ་བཏོན་གཏང་ནི་དང་བཀག་ནི་ རྒྱུ་ལམ་ཚུ་རཔ་སྦེ་ཡོད་པའི་སྐབས་ལུ་རང་དབང་གི་ཐོག་ལས་ཁ་སླབ་ནི་དང་ དེ་ལས་ ལག་ལེན་པ་གཞན་མི་ཅིག་ལུ་ རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་གི་ལྕོགས་གྲུབ་ཚུ་འབྱིན་ཚུགས་པའི་ལྕོགས་གྲུབ་ཡོདཔ་ཨིན།"
+
+#: ../libgircclient/girc-client.c:784
+msgid "Nickname"
+msgstr "སྐྱོན་མིང་"
+
+#: ../libgircclient/girc-client.c:785
+msgid "The nickname currently being used."
+msgstr "ད་ལྟོ་འཕྲལ་ཁམས་ལག་ལེན་འཐབ་ཡོད་མི་སྐྱོན་མིང་།"
+
+#: ../libgircclient/girc-client.c:790
+msgid "Preferred Nickname"
+msgstr "དགའ་གདམ་ཅན་གྱི་སྐྱོན་མིང་"
+
+#: ../libgircclient/girc-client.c:791
+msgid "The user's preferred nickname."
+msgstr "ལག་ལེན་པའི་དགའ་གདམ་ཅན་གྱི་སྐྱོན་མིང་།"
+
+#: ../libgircclient/girc-client.c:795
+msgid "User Name"
+msgstr "ལག་ལེན་པའི་མིང་"
+
+#: ../libgircclient/girc-client.c:796
+msgid "The local user name of the user."
+msgstr "ལག་ལེན་པ་དེ་གི་ ཉེ་གནས་ཀྱི་ལག་ལེན་པའི་མིང་"
+
+#: ../libgircclient/girc-client.c:802
+msgid "Real Name"
+msgstr "མིང་ངོ་མ་"
+
+#: ../libgircclient/girc-client.c:803
+msgid "The real name of the user."
+msgstr "ལག་ལེན་པ་དེ་གི་མིང་ངོ་མ་"
+
+#: ../libgircclient/girc-client.c:808
+msgid "Hostname"
+msgstr "ཧོསཊི་ནེམ་"
+
+#: ../libgircclient/girc-client.c:809
+msgid "The local host name."
+msgstr "ཉེ་གནས་ཀྱི་ཧོསཊི་ནེམ།"
+
+#: ../libgircclient/girc-client.c:812
+msgid "Password"
+msgstr "ཆོག་ཡིག་"
+
+#: ../libgircclient/girc-client.c:813
+msgid "The password for this session."
+msgstr "ལཱ་ཡུན་འདི་གི་དོན་ལུ་ཆོག་ཡིག་"
+
+#: ../libgircclient/girc-client.c:819
+msgid "Server Name"
+msgstr "སར་བར་གྱི་མིང་"
+
+#: ../libgircclient/girc-client.c:820
+msgid "The name of the server."
+msgstr "སར་བར་དེ་གི་མིང་།"
+
+#: ../libgircclient/girc-client.c:824
+msgid "Server's Encoding"
+msgstr "སར་བར་དེ་གི་ཨིན་ཀོསཌི་འབད་ནི་"
+
+#: ../libgircclient/girc-client.c:825
+msgid "The character set we believe the server expects."
+msgstr "ང་བཅས་ཀྱི་མནོ་བསམ་གཏང་དོ་བཟུམ་འབད་བ་ཅིན་ སར་བར་གྱིས་ཡིག་འབྲི་གཞི་སྒྲིག་དེ་རེ་འདོད་བསྐྱེད་དོ་བཟུམ་ཅིག་འདུག"
+
+#: ../libgircclient/girc-client.c:833
+msgid "User Is Marked Away"
+msgstr "ལག་ལེན་པ་འདི་ རྟགས་བཀལ་གཏང་ནུག"
+
+#: ../libgircclient/girc-client.c:834
+msgid "Whether the user is marked away or not."
+msgstr "ལག་ལེན་པ་དེ་རྟགས་བཀལ་གཏང་ཡོད་དང་མེད།"
+
+#: ../libgircclient/girc-client.c:839
+msgid "Channels Array"
+msgstr "རྒྱུ་ལམ་གྱི་ཨེ་རེ་"
+
+#: ../libgircclient/girc-client.c:840
+msgid "An GValueArray of GIrcChannel structures for the channels this GIrcClient is on."
+msgstr "རྒྱུ་ལམ་གུ་ཡོད་མི་ GIrcClient གི་དོན་ལུ་ GIrcChannel གཞི་བཀོད་ཀྱི་GValueArray ཅིག་ "
+
+#: ../libgircclient/girc-client.c:851
+msgid "Queries Array"
+msgstr "ཨེ་རེ་འདྲི་དཔྱད་འབདཝ་ཨིན་"
+
+#: ../libgircclient/girc-client.c:852
+msgid "A GValueArray of GIrcQuery structures for the user queries this GIrcClient has open."
+msgstr "ལག་ལེན་པའི་འདྲི་དཔྱད་ཀྱི་དོན་ལུ་ GIrcClient འདི་གིས་ཁ་ཕྱེ་ཡོད་མི་ GIrcQuery གཞི་བཀོད་ཚུ་གི་GValueArray ཅིག་"
+
+#: ../libgircclient/girc-client.c:864
+msgid "Message Of The Day"
+msgstr "ཉིནམ་དེ་གི་འཕྲིན་དོན་"
+
+#: ../libgircclient/girc-client.c:865
+msgid "The server's introductory message."
+msgstr "སར་བར་གྱི་འགོ་འཛུགས་འཕྲིན་དོན།"
+
+#: ../libgircclient/girc-client.c:875
+msgid "Network Name"
+msgstr "ཡོངས་འབྲེལ་གྱི་མིང་"
+
+#: ../libgircclient/girc-client.c:876
+msgid "The name of the network this server is on."
+msgstr "སར་བར་འདི་ཡོད་མི་ཡོངས་འབྲེལ་དེ་གི་མིང་།"
+
+#: ../libgircclient/girc-client.c:882
+msgid "Character Mapping Style"
+msgstr "ཡིག་འབྲུ་ ས་ཁྲ་བཟོ་ནིའི་བཟོ་རྣམ་"
+
+#: ../libgircclient/girc-client.c:883
+msgid "The character mapping the server uses (rfc1459 or ascii)."
+msgstr "སར་བར་གྱི་ལག་ལེན་འཐབ་མི་ ཡིག་འབྲུ་ས་ཁྲ་བཟོ་ནི་(rfc1459 or ascii)."
+
+#: ../libgircclient/girc-client.c:891
+msgid "Expected Character Set"
+msgstr "རེ་འདོད་ཡོད་མི་ཡིག་འབྲུ་ཆ་ཚན་"
+
+#: ../libgircclient/girc-client.c:892
+msgid "The character set the server uses."
+msgstr "སར་བར་གྱི་ལག་ལེན་འཐབ་མི་ཡིག་འབྲུའི་ཆ་ཚན།"
+
+#: ../libgircclient/girc-client.c:899
+msgid "Channels Limit"
+msgstr "རྒྱུ་ལམ་གྱི་ཚད་"
+
+#: ../libgircclient/girc-client.c:900
+msgid "The maximum number of channels a user can join at any one time."
+msgstr "རྒྱུ་ལམ་ཚུ་གི་གྱངས་ཁ་གང་མང་ ལག་ལེན་པ་ཅིག་གིས་ཐེངས་ཅིག་ནང་ལུ་རང་མཐུད་ཚུགས།"
+
+#: ../libgircclient/girc-client.c:906
+msgid "Maximum Number Of Bans"
+msgstr "བཀག་དམ་གྱི་གྱངས་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:907
+msgid "The maximum number of items allowed in a channel's ban list."
+msgstr "རྒྱུ་ལམ་གྱི་བཀག་དམ་ཐོ་ཡིག་ཅིག་ནང་ལུ་ཆོག་མི་ རྣམ་གྲངས་ཀྱི་གྱངས་ཁ་མང་མཐའ།"
+
+#: ../libgircclient/girc-client.c:914
+msgid "Maximum Nickname Size"
+msgstr "སྐྱོན་མིང་གི་ཚད་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:915
+msgid "The maximum number of characters allowed in a nickname."
+msgstr "སྐྱོན་མིང་ནང་ལུ་ཆོག་མི་ཡིག་འབྲུ་ཚུ་གི་གངས་ཁ་མང་མཐའ།"
+
+#: ../libgircclient/girc-client.c:922
+msgid "Maximum Topic Size"
+msgstr "གདན་དོན་གྱི་ཚད་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:923
+msgid "The maximum number of bytes allowed in a channel's topic."
+msgstr "རྒྱུ་ལམ་གྱི་གདན་དོན་ཅིག་ནང་ལུ་ཆོག་མི་ བཡིཊ་ཚུ་གི་གྱངས་ཁ་མང་མཐའ།"
+
+#: ../libgircclient/girc-client.c:929
+msgid "Maximum Kick Message Size"
+msgstr "བཏོན་གཏང་ནིའི་འཕྲིན་དོན་གྱི་ཚད་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:930
+msgid "The maximum number of bytes allowed in a KICK command's message."
+msgstr "བཏོན་གཏང་ནིའི་བརྡ་བཀོད་ཀྱི་འཕྲིན་དོན་ཅིག་ནང་ལུ་ ཆོག་མི་བཡིཊི་ཚུ་གི་གྱངས་ཁ་མང་མཐའ།"
+
+#: ../libgircclient/girc-client.c:937
+msgid "Channel ID Length"
+msgstr "རྒྱུ་ལམ་ཨའི་ཌི་རིང་ཚད་"
+
+#: ../libgircclient/girc-client.c:938
+msgid "The number of characters used in a \"!\" channel's ID."
+msgstr " \"!\" རྒྱུ་ལམ་གྱི་ཨའི་ཌི་ཅིག་ནང་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ཡིག་འབྲུའི་གྱངས་ཁ།"
+
+#: ../libgircclient/girc-client.c:945
+msgid "Channel Name Length"
+msgstr "རྒྱ྄་ལམ་མིང་གི་ཡིག་ཚད་"
+
+#: ../libgircclient/girc-client.c:946
+msgid "The maximum number of characters which can be used in a channel name."
+msgstr "རྒྱུ་ལམ་གྱི་མིང་ནང་ལུ་ལག་ལེན་འཐབ་ཚུགས་མི་ ཡིག་འབྲུའི་གྱངས་ཁ་མང་མཐའ།"
+
+#: ../libgircclient/girc-client.c:953
+msgid "Maximum Number of Targets"
+msgstr "དམིགས་གཏད་ཚུ་གྱི་གྱངས་ཁ་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:954
+msgid "The maximum number of targets for a CPRIVMSG, WALLCHOPS, or CNOTICE command."
+msgstr "CPRIVMSG, WALLCHOPS, ཡང་ན་ CNOTICE བརྡ་བཀོད་ཚུ་གི་དོན་ལུ་ མིགས་གཏད་ཚུ་གི་གྱངས་ཁ་མང་མཐའ།"
+
+#: ../libgircclient/girc-client.c:961
+msgid "Maximum Number of Watches"
+msgstr "ཆུ་ཚོད་འཁོར་ལོ་ཚུ་གི་གྱངས་ཁ་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:962
+msgid "The maximum number of watches the user can have."
+msgstr "ལག་ལེན་པ་གིས་ མང་མཐའ་ལུ་ཐོབ་དགོ་པའི་ ཆུ་ཚོད་འཁོར་ལོ་"
+
+#: ../libgircclient/girc-client.c:968
+msgid "Maximum Number of Modes"
+msgstr "ཐབས་ལམ་ཚུ་གི་གྱངས་ཁ་མང་མཐའ་"
+
+#: ../libgircclient/girc-client.c:969
+msgid "The maximum number of modes that can be set for each use of the MODE command +bbb, for example, is 3."
+msgstr "ཐབས་ལམ་བརྡ་བཀོད་+bbbདེ་གི་ ལག་ལེན་རེ་རེ་བཞིན་གྱི་དོན་ལུ་ གཞི་སྒྲིག་འབད་ཚུགས་པའི་ཐབས་ལམ་ཚུ་གི་གྱངས་ཁ་མང་མཐའ། དཔེ་འབད་བ་ཅིན་  is 3."
+
+#: ../libgircclient/girc-client.c:978
+msgid "Silence Command Size"
+msgstr "ཁུ་སིམ་སིམ་སྦེ་སྡོད་ནིའི་བརྡ་བཀོད་ཀྱི་ཚད་"
+
+#: ../libgircclient/girc-client.c:979
+msgid "The maximum number of items allowed in the SILENCE list. If zero, the command is not supported."
+msgstr "ཁུ་སིམ་སིམ་ཐོ་ཡིག་དེ་ནང་ལུ་ཆོག་པའི་ རྣམ་གྲངས་ཚུ་གི་གྱངས་ཁ་མང་མཐའ། གལ་སྲིད་ ཀླད་ཀོར་ཨན་པ་ཅིན་ བརྡ་བཀོད་དེ་རྒྱབ་སྐྱོར་མ་འབདཝ་ཨིན།"
+
+#: ../libgircclient/girc-client.c:989
+msgid "Channel User Modes"
+msgstr "རྒྱུ་ལམ་ལག་ལེན་པའི་ཐབས་ལམ་ཚུ་"
+
+#: ../libgircclient/girc-client.c:990
+msgid "An array of GIrcChannelUserMode structures that the server supports."
+msgstr "སར་བར་གྱི་རྒྱབ་སྐྱོར་འབད་མི་ GIrcChannelUserMode གཞི་བཀོད་ཚུ་གི་ཨེ་རེ་ཅིག"
+
+#: ../libgircclient/girc-client.c:1001
+msgid "Channel Types"
+msgstr "རྒྱུ་ལམ་གྱི་དབྱེ་བ་ཚུ་"
+
+#: ../libgircclient/girc-client.c:1002
+msgid "A GValueArray of GIrcChannelPrefix structures that the server supports."
+msgstr "སར་བར་གྱིས་རྒྱབ་སྐྱོར་འབད་མི་GIrcChannelPrefixགཞི་བཀོད་ཚུ་གི་GValueArray ཅིག"
+
+#: ../libgircclient/girc-client.c:1010
+msgid "Channel Modes"
+msgstr "རྒྱུ་ལམ་གྱི་ཐབས་ལམ་ཚུ་"
+
+#: ../libgircclient/girc-client.c:1011
+msgid "A GValueArray of GIrcChannelModes the server supports, and their argument style."
+msgstr "སར་བར་གྱིས་རྒྱབ་སྐྱོར་འབད་མི་GIrcChannelModes གི་ GValueArray ཅིག་དང་ གོང་གི་སྒྲུབ་རྟགས་བཀོད་ཐངས་"
+
+#: ../libgircclient/girc-client.c:1023
+msgid "Supported Languages"
+msgstr "རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་སྐད་ཡིག་ཚུ་"
+
+#: ../libgircclient/girc-client.c:1024
+msgid "A GValueArray of strings corresponding to the languages the server supports via the LANGUAGE command."
+msgstr "སྐད་ཡིག་བརྡ་བཀོད་བརྒྱུད་དེ་སར་བར་གྱིས་རྒྱབ་སྐྱོར་འབད་མི་ སྐད་ཡིག་ཚུ་དང་ཆ་མཉམ་མི་ཡིག་རྒྱུན་ཚུ་གི་ GValueArrayཅིག"
+
+#: ../libgircclient/girc-client.c:1039
+msgid "User IP Command Support"
+msgstr "ལག་ལེན་པ་ ཨའི་པི་ བརྡ་བཀོད་རྒྱབ་སྐྱོར་"
+
+#: ../libgircclient/girc-client.c:1040
+msgid "Whether the IRC server supports the USERIP command to get the IP address of a user."
+msgstr "ལག་ལེན་པའི་ ཨའི་པི་ཁ་བྱང་དེ་འཐོབ་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ USERIP བརྡ་བཀོད་དེ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་དང་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1046
+msgid "Knock Command Support"
+msgstr "བརྡ་བཀོད་རྒྱབ་སྐྱོར་དཀྲོག་"
+
+#: ../libgircclient/girc-client.c:1047
+msgid "Whether the IRC server supports the KNOCK command for selecting character set."
+msgstr "ཡིག་འབྲུ་ཆ་ཚད་ཅིག་སེལ་འཐུ་འབད་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་གྱིས་ བཏོན་གཏང་ནིའི་བརྡ་བཀོད་དེ་ལུ་ རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་དང་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1053
+msgid "CJoin Command Support"
+msgstr "སི་ཇོ་ཡིན་ བརྡ་བཀོད་རྒྱབ་སྐྱོར་ "
+
+#: ../libgircclient/girc-client.c:1054
+msgid "Whether the IRC server supports the CJOIN command for joining multiple channels."
+msgstr "རྒྱུ་ལམ་སྣ་མང་ལུ་མཐུད་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་དེ་གིས་ སི་ཇོ་ཡིན་བརྡ་བཀོད་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1061
+msgid "CPrivMsg Command Support"
+msgstr "CPrivMsg བརྡ་བཀོད་རྒྱབ་སྐྱོར་"
+
+#: ../libgircclient/girc-client.c:1062
+msgid "Whether the IRC server supports the CPRIVMSG command for sending PRIVMSGs to multiple users."
+msgstr "PRIVMSG ཚུ་སྣ་མག་ལག་ལེན་པ་ལུ་ཚུ་གཏང་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ CPRIVMSG བརྡ་བཀོད་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1069
+msgid "CNotice Command Support"
+msgstr "CNotice བརྡ་བཀོད་རྒྱབ་སྐྱོར་"
+
+#: ../libgircclient/girc-client.c:1070
+msgid "Whether the IRC server supports the CNOTICE command for sending NOTICEs to multiple users."
+msgstr "སྣ་མང་ལག་ལེན་པ་ཚུ་ལུ་NOTICE ལུ་གཏང་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་CNOTICE བརྡ་བཀོད་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1077
+msgid "Warn All Channel Ops Command Support"
+msgstr "རྒྱུ་ལམ་ ཨོ་པི་ཨེསི་ བརྡ་བཀོད་རྒྱབ་སྐྱོར་ཚུ་ཆ་མཉམ་ལུ་ཉེན་བརྡ་འབད་"
+
+#: ../libgircclient/girc-client.c:1078
+msgid "Whether the IRC server supports the WALLCHOPS command for sending NOTICEs to all the channel operators in a particular channel."
+msgstr "བྱེ་བྲག་རྒྱུ་ལམ་ཅིག་ནང་ལུ་ རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་ཚུ་ཆ་མཉམ་ལུ་ NOTICEs གཏང་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ WALLCHOPS བརྡ་བཀོད་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1086
+msgid "Language Command Support"
+msgstr "སྐད་ཡིག་བརྡ་བཀོད་རྒྱབ་སྐྱོར་"
+
+#: ../libgircclient/girc-client.c:1087
+msgid "Whether the IRC server supports the LANGUAGE command."
+msgstr "ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ སྐད་ཡིག་བརྡ་བཀོད་དེ་ལུ་ རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1095
+msgid "WHO Command is in WHOX Format"
+msgstr "WH བརྡ་བཀོད་འདི་WHOX རྩ་སྒྲིག་ནང་ལུ་ཡོད།"
+
+#: ../libgircclient/girc-client.c:1096
+msgid "Whether the IRC server uses a WHOX-style command for WHO."
+msgstr "WHO གི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་  WHO-བཟོ་རྣམ་བརྡ་བཀོད་ཅིག་ ལག་ལེན་འཐབ་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1102
+msgid "Ban Exceptions Support"
+msgstr "དམིགས་བསལ་རྒྱབ་སྐྱོར་བཀག་དམ་འབད་"
+
+#: ../libgircclient/girc-client.c:1103
+msgid "Whether the IRC server supports channel ban exceptions via the 'e' channel mode."
+msgstr "'e' རྒྱུ་ལམ་ཐབས་ལམ་དེ་བརྒྱུད་དེ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ རྒྱུ་ལམ་བཀག་དམ་དམིག་བསལ་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1110
+msgid "Invite Exceptions Support"
+msgstr "དམིགས་བསལ་རྒྱབ་སྐྱོར་མགྲོན་བརྡ་འབད་"
+
+#: ../libgircclient/girc-client.c:1111
+msgid "Whether the IRC server supports channel invite exceptions via the 'I' channel mode."
+msgstr "'I'རྒྱུ་ལམ་ཐབས་ལམ་བརྒྱུད་དེ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ རྒྱུ་ལམ་མགྲོན་བརྡའི་དམིགས་བསལ་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1118
+msgid "Command Time Penalties"
+msgstr "བརྡ་བཀོད་དུས་ཚོད་ཀྱི་ཉེས་ཆད་"
+
+#: ../libgircclient/girc-client.c:1119
+msgid "Whether the IRC server enforces a time penalty on certain commands."
+msgstr "བརྡ་བཀོད་ལ་ལོ་ཅིག་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ ཆུ་ཚོད་ཉེས་ཆད་དེ་ བེད་སྤྱོད་གཏང་དོ་ཡོདཔ་ཨིན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1126
+msgid "Forced Nickname Change"
+msgstr "བང་བཙོང་ཡོད་པའི་སྐྱོན་མིང་བསྒྱུར་བཅོས་"
+
+#: ../libgircclient/girc-client.c:1127
+msgid "Whether the IRC server can change the user's nickname without the user requesting it."
+msgstr "ལགལེན་པ་གིས་ཞུ་བ་མ་འབད་དེ་འབད་རུང་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ ལག་ལེན་པའི་སྐྱོན་མིང་དེ་བསྒྱུར་བཅོས་འབད་ཚུགས་དང་མི་ཚུགས།"
+
+#: ../libgircclient/girc-client.c:1134
+msgid "Save LIST Command"
+msgstr "ཐོ་ཡིག་(ཨེལ་ཨའི་ཨེསི་ཊི་)བརྡ་བཀོད་སྲུང་བཞག་འབད་"
+
+#: ../libgircclient/girc-client.c:1135
+msgid "Whether the IRC server sends the return from a LIST command in several stages."
+msgstr "གོ་རིམ་ལེ་ཤ་ཅིག་ནང་ལུ་ཡོད་མི་ཐོ་ཡིག་བརྡ་བཀོད་ཅིག་ནང་ལས་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ སྲལ་ལོག་གཏང་དོ་ཡོདཔ་ཨིན་ན་མེན་ན།"
+
+#: ../libgircclient/girc-client.c:1142
+msgid "Server-Side Ignores"
+msgstr "སར་བར་-བཤུད་བརྙན་གྱིས་སྣང་མེད་འབད་བཞགཔ་ཨིན་"
+
+#: ../libgircclient/girc-client.c:1143
+msgid "Whether the IRC server supports the (+g) user mode and ACCEPT command to ignore users from the server."
+msgstr "ལག་ལེན་པ་ཚུ་ སར་བར་དེ་ནང་ལས་སྣང་མེད་སྦེ་བཞག་ནིའི་དོན་ལུ་ ཨའི་ཨཱར་སི་སར་བར་དེ་གིས་ (+g) ལག་ལེན་པ་དེ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན་ན་མེན་དང་ བརྡ་བཀོད་དང་ལེན་འབད་དང་མི་འབད།"
+
+#: ../libgircclient/girc-client.c:1532
+msgid "?"
+msgstr "?"
+
+#: ../libgircclient/parser.c:1710
+#, c-format
+msgid "Unknown server variable: '%s'. Please report to <jcape@ignore-your.tv>."
+msgstr "མ་ཤེས་པའི་སར་བར་འགྱུར་ཅན་:'%s'. <jcape@ignore-your.tv>ལུ་སྙན་ཞུ་འབད་གནང་།"
+

@@ -1,0 +1,187 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: popularity-contest_debian_po\n"
+"Report-Msgid-Bugs-To: grub2@packages.debian.org\n"
+"POT-Creation-Date: 2009-08-30 17:54+0200\n"
+"PO-Revision-Date: 2006-08-07 16:20+0530\n"
+"Last-Translator: dorji tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pegyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../grub-pc.templates.in:2001
+msgid "Chainload from menu.lst?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../grub-pc.templates.in:2001
+msgid "GRUB upgrade scripts have detected a GRUB Legacy setup in /boot/grub."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../grub-pc.templates.in:2001
+msgid ""
+"In order to replace the Legacy version of GRUB in your system, it is "
+"recommended that /boot/grub/menu.lst is adjusted to chainload GRUB 2 from "
+"your existing GRUB Legacy setup.  This step may be automaticaly performed "
+"now."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../grub-pc.templates.in:2001
+msgid ""
+"It's recommended that you accept chainloading GRUB 2 from menu.lst, and "
+"verify that your new GRUB 2 setup is functional for you, before you install "
+"it directly to your MBR (Master Boot Record)."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../grub-pc.templates.in:2001
+msgid ""
+"In either case, whenever you want GRUB 2 to be loaded directly from MBR, you "
+"can do so by issuing (as root) the following command:"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../grub-pc.templates.in:2001
+msgid "upgrade-from-grub-legacy"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:1001
+msgid "Linux command line:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:1001
+msgid ""
+"The following Linux command line was extracted from /etc/default/grub or the "
+"`kopt' parameter in GRUB Legacy's menu.lst.  Please verify that it is "
+"correct, and modify it if necessary."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:2001
+msgid "Linux default command line:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:2001
+msgid ""
+"The following string will be used as Linux parameters for the default menu "
+"entry but not for the recovery mode."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:3001
+msgid "kFreeBSD command line:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:3001
+msgid ""
+"The following kFreeBSD command line was extracted from /etc/default/grub or "
+"the `kopt' parameter in GRUB Legacy's menu.lst.  Please verify that it is "
+"correct, and modify it if necessary."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:4001
+msgid "kFreeBSD default command line:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates.in:4001
+msgid ""
+"The following string will be used as kFreeBSD parameters for the default "
+"menu entry but not for the recovery mode."
+msgstr ""
+
+#~ msgid "Participate in the package usage survey?"
+#~ msgstr "ཐུམ་སྒྲིལ་ལག་ལེན་གྲངས་རྩིས་ནང་ལུ་ བཅའ་མར་གཏོགས་ནི་ཨིན་ན?"
+
+#~ msgid ""
+#~ "The system may anonymously supply the distribution developers with "
+#~ "statistics about the most used packages on this system.  This information "
+#~ "influences decisions such as which packages should go on the first "
+#~ "distribution CD."
+#~ msgstr ""
+#~ "རིམ་ལུགས་དེ་གིས་  ཁྱོད་ཀྱིས་ རིམ་ལུགས་འདི་ནང་ལུ་ ལག་ལེན་མང་ཤོས་འཐབ་ཡོད་ཐུམ་སྒྲིལ་་གྱི་སྐོར་གྱི་ ཚད་"
+#~ "རྩིས་དང་གཅིག་ཁར་བཀྲམ་སྤེལ་བཟོ་མི་དེ་ མིང་མེད་ཐོག་ལས་བཀྲམ་སྤེལ་འབད་འོང་།  བརྡ་དོན་འདི་གིས་ ཐུམ་"
+#~ "སྒྲིལ་ག་དེ་ ཌེ་བི་ཡཱན་སི་ཌི་དང་པའི་གུར་འགྱོ་ནི་ཨིན་ན་ ལ་སོགས་པ་བཟུམ་གྱི་ གྲོས་ཆོད་ཚུ་ལུ་རྒྱུད་བསྐུལ་"
+#~ "འབདཝ་ཨིན།"
+
+#~ msgid ""
+#~ "If you choose to participate, the automatic submission script will run "
+#~ "once every week, sending statistics to the distribution developers. The "
+#~ "collected statistics can be viewed on http://popcon.debian.org/."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་གདམ་བཅའ་མར་གཏོགས་ནི་ནང་ལུ་གདམ་ཁ་རྐྱབ་པ་ཅིན་ རང་བཞིན་གྱིས་ཞུ་འབུལ་ཡིག་ཚུགས་དེ་གིས་ "
+#~ "བགོ་བཀྲམ་བཟོ་མི་ནང་ལུ་ཚད་རྩིས་གཏང་པའི་ཐོག་ལས་ བདུན་ཕྲག་རེ་ནང་ཚར་རེ་ གཡོག་བཀོལ་འོང་། ཚད་རྩིས་"
+#~ "བསྡུ་ལེན་འབད་ཡོད་མི་ཚུ་http://popcon.debian.org/.དེ་གི་ཐོག་ལས་སྟོན་ཚུགས།"
+
+#~ msgid ""
+#~ "This choice can be later modified by running \"dpkg-reconfigure "
+#~ "popularity-contest\"."
+#~ msgstr ""
+#~ "གདམ་ཁ་འདི་ཤུལ་ལས་ :\"dpkg-reconfigure popularity-contest\" དེ་གཡོག་བཀོལ་བའི་ཐོག་"
+#~ "ལས་ལེགས་བཅོས་གཏང་ཚུགས།"
+
+#~ msgid "Generating unique host identifier failed"
+#~ msgstr "མཐུན་མོངས་མ་ཡིན་པའི་ཧོསཊི་ངོས་འཛིན་པ་བཟོ་སྟོན་འབད་ནི་དེ་ འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#~ msgid ""
+#~ "The install script could not generate a unique host identifier. This is a "
+#~ "fatal error, as all hosts submitting information need to have an unique "
+#~ "identifier."
+#~ msgstr ""
+#~ "གཞི་བཙུགས་ཡིག་ཚུགས་དེ་གིས་ མཐུན་མོངས་མ་ཡིན་པའི་ཧོསཊི་ངོས་འཛིན་པ་ཅིག་ བཟོ་སྟོན་འབད་མ་ཚུགས། བརྡ་"
+#~ "དོན་ཕུལ་མི་ཧོས་ཊི་ཚུ་་ཆ་མཉམ་ལུ་ མཐུན་མོང་མ་ཡིན་པའི་ངོས་འཛིན་པ་དགོཔ་ཡོདཔ་ལས་ འ་ནི་འདི་འཛོལ་བ་"
+#~ "འཚུབ་ཅན་ཨིན། "
+
+#~ msgid ""
+#~ "Please report this problem as a bug against the popularity-contest "
+#~ "package, and include information about your configuration."
+#~ msgstr ""
+#~ "ཡོངས་གྲགས་ཅན་གྱི་-འགྲན་སྡུར་ཐུམ་སྒྲིལ་ལུ་ དཀའ་ངལ་འདི་རྐྱེན་སྦེ་སྙན་ཞུ་འབད་གནང་བཞིནམ་ལས་ དེ་ལས་ "
+#~ "ཁྱོད་རའི་རིམ་སྒྲིག་གི་སྐོར་ལས་བརྡ་དོན་གྲངས་སུ་བཙུགས།"
+
+#~ msgid "Use HTTP to submit reports?"
+#~ msgstr "སྙན་ཞུ་ཚུ་ཕུལ་ནིའི་དོན་ལུ་ ཨེཆ་ཊི་ཊི་པི་དེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#~ msgid "If you do not want to use HTTP, email is used instead."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ཨེཆ་ཊི་ཊི་པི་དེ་ལག་ལེན་འཐབ་དགོ་མ་མནོ་བ་ཅིན་ དེ་གི་ཚབ་ལུ་གློག་འཕྲིན་ལག་ལེན་འཐབ་ཨིན།"

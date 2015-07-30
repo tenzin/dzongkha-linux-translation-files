@@ -1,0 +1,128 @@
+# LOCALIZATION NOTE: Do not translate <html:br/> 
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/profile/profileSelection.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: profileSelection.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-11-03 14:53+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyeleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: restartTitle
+msgid "Close %S"
+msgstr "%Sཁ་བསྡམས་"
+
+#: restartMessageNoUnlocker
+msgid "%S is already running, but is not responding. To open a new window, you must first close the existing %S process, or restart your system."
+msgstr "%Sཧེ་མ་ལས་གཡོག་བཀོལ་བཞིན་འདུག། དེ་འབདཝ་ད་ ངོས་ལན་འབད་མི་བཏུབ་པས། སྒོ་སྒྲིག་གསརཔ་ཅིག་ཁ་ཕྱེ་ནི་ལུ་ དང་པ་ར་ %Sགི་ད་ལྟོའི་ལས་སྦྱོར་དེ་ཁ་བསྡམ་དགོ་ ཡང་ན་ ཁྱོད་རའི་རིམ་ལུགས་ ལོག་སྟེ་འགོ་བཙུགས་དགོ།"
+
+#: restartMessageUnlocker
+msgid "%S is already running, but is not responding. The old %S process must be closed to open a new window."
+msgstr "%Sཧེ་མ་ལས་གཡོག་བཀོལ་བཞིན་འདུག། དེ་འབདཝ་ད་ ངོས་ལན་འབད་མི་བཏུབ་པས། སྒོ་སྒྲིག་གསརཔ་ཅིག་ ཁ་ཕྱེ་ནི་ལུ་ %Sགི་ལས་སྦྱོར་རྙིངམ་དེ་ ཁ་བསྡམ་དགོ།"
+
+#: profileTooltip
+msgid "Profile: '%S' - Path: '%S'"
+msgstr "གསལ་སྡུད་: '%S' - འགྲུལ་ལམ་: '%S'"
+
+#: pleaseSelectTitle
+msgid "Select Profile"
+msgstr "གསལ་སྡུད་སེལ་འཐུ་འབད་"
+
+#: pleaseSelect
+msgid "Please select a profile to begin %S, or create a new profile."
+msgstr "%Sའགོ་བཙུགས་ནི་ལུ་ གསལ་སྡུད་ཅིག་སེལ་འཐུ་འབད་ ཡང་ན་ གསལ་སྡུད་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: profileLockedTitle
+msgid "Profile In Use"
+msgstr "ལག་ལེན་ནང་ཡོད་མི་གསལ་སྡུད་"
+
+#: profileLocked2
+msgid ""
+"%S cannot use the profile \"%S\" because it is in use.\n"
+"\n"
+"To continue, close the running instance of %S or choose a different profile."
+msgstr ""
+"%Sགིས་ གསལ་སྡུད་\"%S\"ལག་ལེན་འཐབ་མི་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་ལག་ལེན་འཐབ་པའི་བསྒང་འདུག།\n"
+"\n"
+"འཕྲོ་མཐུད་ནི་ལུ་  %Sགི་གཡོག་བཀོལ་བཞིན་ཡོད་པའི་དུས་སྐབས་ཏེ་ཁ་བསྡམས་ ཡང་ན་ གསལ་སྡུད་སོ་སོ་ཅིག་ གདམ་ཁ་རྐྱབས།"
+
+#: renameProfileTitle
+msgid "Rename Profile"
+msgstr "གསལ་སྡུད་ལུ་ བསྐྱར་མིང་བཏགས་"
+
+#: renameProfilePrompt
+msgid "Rename the profile \"%S\" to:"
+msgstr "གསལ་སྡུད་\"%S\"དེ་ལུ་ དེ་བསྐྱར་མིང་འདི་བཏགས་:"
+
+#: profileNameInvalidTitle
+msgid "Invalid profile name"
+msgstr "ནུས་མེད་གསལ་སྡུད་མིང་"
+
+#: profileNameInvalid
+msgid "The profile name \"%S\" is not allowed."
+msgstr "གསལ་སྡུད་མིང་\"%S\"དེ་མི་ཆོག།"
+
+#: chooseFolder
+msgid "Choose Profile Folder"
+msgstr "གསལ་སྡུད་སྣོད་འཛིན་ གདམ་ཁ་རྐྱབས་"
+
+#: profileNameEmpty
+msgid "An empty profile name is not allowed."
+msgstr "གསལ་སྡུད་མིང་སྟོངམ་མི་ཆོག།"
+
+#: invalidChar
+msgid "The character \"%S\" is not allowed in profile names. Please choose a different name."
+msgstr "ཡིག་འབྲུ་\"%S\"དེ་ གསལ་སྡུད་མིང་ཚུ་ནང་མི་ཆོག། མིང་སོ་སོ་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: deleteTitle
+msgid "Delete Profile"
+msgstr "གསལ་སྡུད་བཏོན་གཏང་"
+
+#: deleteProfile
+msgid ""
+"Deleting a profile will remove the profile from the list of available profiles and cannot be undone.\n"
+"You may also choose to delete the profile data files, including your saved mail, settings, and certificates. This option will delete the folder \"%S\" and cannot be undone.\n"
+"Would you like to delete the profile data files?"
+msgstr ""
+"གསལ་སྡུད་ཅིག་བཏོན་གཏང་ནི་དེ་གིས་ གསལ་སྡུད་དེ་ ཐོབ་ཚུགས་པའི་གསལ་སྡུད་ཐོ་ཡིག་ནང་ལས་ རྩ་བསྐྲད་བཏང་སྟེ་ ལོག་སྟེ་འབད་བཤོལ་འབད་མི་བཏུབ།.\n"
+"ཁྱོད་ཀྱིས་བསྲུངས་ཏེ་ཡོད་པའི་ ཡིག་འཕྲིན་དང་ སྒྲིག་སྟངས་ ལག་ཁྱེར་ཚུ་བརྩིས་ཏེ་ གསལ་སྡུད་གནས་སྡུད་ཡིག་སྣོད་ཚུ་ཡང་ བཏོན་གཏང་བཏུབ། གདམ་ཁ་འདི་གིས་ སྣོད་འཛིན་ \"%S\" དེ་རྩ་བསྐྲད་བཏང་ཞིནམ་ལས་ འབད་བཤོལ་འབད་མི་ཚུགས།\n"
+"ཁསལ་སྡུད་གནས་སྡུད་ཡིག་སྣོད་ཚུ་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: deleteFiles
+msgid "Delete Files"
+msgstr "ཡིག་སྣོད་ཚུ་བཏོན་གཏང་"
+
+#: dontDeleteFiles
+msgid "Don't Delete Files"
+msgstr "ཡིག་སྣོད་ཚུ་ བཏོན་མ་གཏང་"
+
+#: profileCreationFailed
+msgid "Profile couldn't be created. Probably the chosen folder isn't writable."
+msgstr "གསལ་སྡུད་གསར་བསྐྲུན་འབད་མ་ཚུགས། གདམ་ཁ་བརྐྱབས་མི་སྣོད་འཛིན་དེ་ ཡི་གུ་འབྲི་མ་བཏུབ་ཅིག་ ཨིནམ་འོང་ནི་མས།"
+
+#: profileCreationFailedTitle
+msgid "Profile Creation failed"
+msgstr "གསལ་སྡུད་གསར་བསྐྲུན་མ་བཏུབ།"
+
+#: profileExists
+msgid "A profile with this name already exists. Please choose another name."
+msgstr "མིང་འདི་ཡོད་མི་ གསལ་སྡུད་ཅིག་ ཧེ་མ་ལས་ར་འདུག། མིང་སོ་སོ་ཅིག་ གདམ་ཁ་རྐྱབས།"
+
+#: profileExistsTitle
+msgid "Profile Exists"
+msgstr "གསལ་སྡུད་གནས་ཏེ་འདུག།"
+
+#: profileFinishText
+msgid "Click Finish to create this new profile."
+msgstr "གསལ་སྡུད་གསརཔ་འདི་ གསར་བསྐྲུན་འབད་ནི་ལུ་ རྫོགས་ གུ་ཨེབ་གཏང་འབད།"
+

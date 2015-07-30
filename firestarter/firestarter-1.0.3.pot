@@ -1,0 +1,1850 @@
+# translation of firestarter.HEAD.po to Dzongkha
+# translation of gnome-bluetooth to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# tashi tshewang <tashi2ta@yahoo.com>, 2006.
+# Norbu <nor_den@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: firestarter.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-12 09:36+0600\n"
+"PO-Revision-Date: 2006-05-12 17:33+0530\n"
+"Last-Translator: Jurmey Rabgay <jurmeyti@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+
+#: ../firestarter.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "ཌེཀསི་ཊོཔ་ཕ་ཡེར་ཝཱལ་ལག་ཆས།"
+
+#: ../firestarter.desktop.in.h:2
+#: ../src/firestarter.c:297
+msgid "Firestarter"
+msgstr "ཕ་ཡེར་ཨིས་ཊ་ཊར།"
+
+#: ../firestarter.schemas.in.h:1
+msgid "Apply changes made to policy immediately, the alternative is for the user to confirm the changes in advance."
+msgstr "སྲིད་བྱུས་ལུ་བསྒྱུར་བཅོས་འབད་ཡོད་མི་ཚུ་དེ་འཕྲོ་ལས་འཇུག་སྤྱོད་འབད་ ཐབས་གཞན་འདི་ལག་ལེན་པ་གིས་མཐོ་རིམ་ནང་གི་བསྒྱུར་བཅོས་ངེས་དཔྱད་འབད་ནི་དོན་ལུ་ཨིན།"
+
+#: ../firestarter.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "ཝི་ཛཌ་ནང་ལུ་རིམ་སྒྲིག་འབད་ཡོདཔ་བཞིན་དུ་ ཨའི་སི་ཨེམ་པི་གཞི་སྒྲིག་འཇུག་སྤྱོད་འབད།"
+
+#: ../firestarter.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "ཝི་ཛཌ་ནང་ལུ་རིམ་སྒྲིག་འབད་ཡོདཔ་བཞིན་དུ་ ཞབས་ཏོག་གི་དབྱེ་བ་གི་གཞི་སྒྲིག་འཇུག་སྤྱོད་འབད།"
+
+#: ../firestarter.schemas.in.h:4
+#: ../src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr "ཕྱིའི་ཡོངས་འབྲེལ་ལས་རྒྱང་བསྒྲགས་འབད་མི་ཚུ་བཀག་ནི།"
+
+#: ../firestarter.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr "ཕྱིའི་ཡོངས་འབྲེལ་ལས་རྒྱང་བསྒྲགས་འབད་མི་ཚུ་བཀག་ནི།"
+
+#: ../firestarter.schemas.in.h:6
+#: ../src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr "ནང་འཁོདི་ཡོངས་འབྲེལ་ལས་རྒྱང་བསྒྲགས་འབད་མི་ཚུ་བཀག་ནི།"
+
+#: ../firestarter.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr "ནང་འཁོདི་ཡོངས་འབྲེལ་ལས་རྒྱང་བསྒྲགས་འབད་མི་ཚུ་བཀག་ནི།"
+
+#: ../firestarter.schemas.in.h:8
+msgid "Block potentially spoofed traffic claiming to come from IANA reserved address space on the external interface."
+msgstr "ཨའི་ཨེ་ཨེན་ཨེ་ཟུར་གསོག་འབད་ཡོད་མི་ལས་ཀྱི་ཨིས་པོཕ་ཊེ་ཕིག་བཀག ཕྱིའི་དངོས་འདྲ་བའི་ནང་བར་སྟོང་སེལ།།"
+
+#: ../firestarter.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr "མི་མང་གི་དངོས་འདྲ་བའི་བར་སྟོང་སེལ་ཡོད་མི་གི་ཟུར་གསོག་འབད་མི་ནང་ལས་ཀྱི་འགྲུལ་ལམ་བཀག"
+
+#: ../firestarter.schemas.in.h:10
+msgid "Deny packets"
+msgstr "འཕྲིན་ཚན་ལུ་མ་ཉནམཔས།"
+
+#: ../firestarter.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr "འཛོལ་བ་ཅན་གྱི་འཕྲིན་ཚན་ལོག་མ་གཏང་པར་ ཉན་མ་བཏུབ་པའི་འཕྲིན་ཚན་བཀོག་བཞག"
+
+#: ../firestarter.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "ཌི་ཨེཆ་སི་པི་སར་བར་གྱི་དོན་ལུ་མཐུད་ལམ་རུབ་སྤྱོད་ཡོདཔ་བཟོ།"
+
+#: ../firestarter.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "ཨེན་ཨེ་ཊི་ལྕོགས་ཅན་བཟོ་ནི།"
+
+#: ../firestarter.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "ཡོངས་འབྲེལ་ཁ་བྱང་སྐད་བསྒྱུར་ལྕོགས་ཅི་བཟོ་ ཡངན་ ཨིན་ཊར་ནེཊི་མཐུད་ལམ་འཇུག་སྤྱོད་ཡོདཔ་བཟོ་ནི།"
+
+#: ../firestarter.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "ཨའི་ཨི་ཨེམ་པི་གི་རིམ་སྒྲིག་ས་ལྕོགས་ཅན་བཟོ་ནི།"
+
+#: ../firestarter.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "ཊོས་ཀྱིི་རིམ་སྒྲིག་ས་ལྕོགས་ཅན་བཟོ་ནིག"
+
+#: ../firestarter.schemas.in.h:17
+#: ../src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "ཤོག་སྣོད་ངོས་དཔར་ལྕོགས་ཅན་བཟོ་ནི།"
+
+#: ../firestarter.schemas.in.h:18
+msgid "Filter out hits not targeted at the firewall"
+msgstr "ཕ་ཡར་ཝལ་གུ་དམིགས་གཏད་མ་བསྐྱེད་པའི་ཧེང་བཀལ་བཙག་གཏང་།"
+
+#: ../firestarter.schemas.in.h:19
+msgid "Filter out hits that have an destination IP that does not match the firewall host."
+msgstr "ཕ་ཡར་ཝལ་ཧོསཊི་དང་མ་མཐུན་པའི་ཧེང་བཀལ་འགྲོ་ཡུལ་ཨའི་པི་ཡོད་མི་བཙག་གཏང།"
+
+#: ../firestarter.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "ཧེང་བཀལ་མང་དྲགས་ཡོད་མི་ཚུ་བཙག་གཏང་།"
+
+#: ../firestarter.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "འབྱུང་རིམ་དབྱེར་མེད་པ་ཧེང་བཀལ་ཚུ་བཙག་གཏང་།"
+
+#: ../firestarter.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr "ཌི་ཨེཆ་སི་པི་ཞབས་ཏོག་སྤྱོད་མི་ལུ་ཞབས་ཏོག་ཞུ་མི་གི་ཁྱབ་ཚད་ནང་གི་ཨའི་པི་མཐོ་ཤོས།"
+
+#: ../firestarter.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr "ལག་ལེན་པ་གིས་རིམ་ལུགས་འདི་འགོ་དང་པ་གཡོག་བཀོལཝ་ཨིན་ནང་།"
+
+#: ../firestarter.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr "ཌི་ཨེཆ་སི་པི་ཞབས་ཏོག་སྤྱོད་མི་ལུ་ཞབས་ཏོག་ཞུ་མི་གི་ཁྱབ་ཚད་ནང་གི་ཨའི་པི་དམའོ་ཤོས།"
+
+#: ../firestarter.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr "ཤོག་སྣོད་ལུ་ཆུང་ཀུ་བཟོ།"
+
+#: ../firestarter.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr "ཌི་ཨེཆ་སི་པི་ཞབས་ཏོག་སྤྱོད་མི་ཟེར་བའི་མིང་ཅན་སར་བར་ལག་ལེན་འཐབ་དགོ།"
+
+#: ../firestarter.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr "སྲིད་བྱུས་རང་བཞིན་གྱྀས་འཇུག་སྤྱོད་འབད་ནི།"
+
+#: ../firestarter.schemas.in.h:28
+msgid "Restrict outbound traffic by default, only allowing whitelisted outgoing connections."
+msgstr "ཝའིཊ་ལིས་ཊེཌ་ཕྱིར་འགྲོའི་མཐུད་ལམ་རྐྱངམ་ཅིག་འགྱོ་བཅུག་སྟེ་ སྔོན་སྒྲིག་གི་ཐོག་ལས་ཨའུཊ་བོནཌ་འགྲུལ་ལམ་བཀག་དམ་འབད་ནི།"
+
+#: ../firestarter.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr "བཀག་དམ་ཅན་གྱི་ཨའུཊ་བཱོནཌ་སྲིད་བྱུས་ཐབས་ལམ།"
+
+#: ../firestarter.schemas.in.h:30
+msgid "Run the system dhcpd server in conjunction with Firestarter Internet connection sharing."
+msgstr "རིམ་ལུགས་ཌི་ཨེཆ་སི་པི་ཌི་སར་བར་འདི་ཕ་ཡར་ཨིས་ཊ་ཊར་ཨིན་ཊར་ནེཊ་ མཐུད་ལམ་རུབ་སྤྱོད་དང་གཅིག་ཁར་འབྲེལ་མཐུད་དང་མཉམ་གཡོག་བཀོལ།"
+
+#: ../firestarter.schemas.in.h:31
+msgid "Show the Firestarter icon in the notification area."
+msgstr "ཕ་ཡར་ཨིས་ཊ་ཊར་གྱི་ངོས་དཔར་འདི་བརྡ་བསྐུལ་གྱི་མངའ་ཁོངས་ནང་ལུ་སྟོན།"
+
+#: ../firestarter.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ཞབས་ཏོག་ཀེར་ཐིག་གི་དབྱེ་བ་འདི་སྟོན།"
+
+#: ../firestarter.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "འགྲོ་ཡུལ་གྱི་ཀེར་ཐིག་འདི་ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་སྟོན"
+
+#: ../firestarter.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "འགྲོ་ཡུལ་གྱི་ཀེར་ཐིག་འདི་ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་སྟོན།"
+
+#: ../firestarter.schemas.in.h:35
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཧེང་བཀལ་བཀྲམ་ནི་ཐོབ་ཡོད་པའི་ ཐབས་འཕྲུལ་སྟོན།"
+
+#: ../firestarter.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཧེང་བཀལ་བཀྲམ་ནི་འདི་འགྲུལ་ལམ་བཟོ་ཡོད་པའི་ ཐབས་འཕྲུལ་སྟོན།"
+
+#: ../firestarter.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཁ་ཕྱོགས་ཀྱི་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཁ་ཕྱོགས་ཀྱི་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ནང་གི་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ རིང་ཚད་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཕྱིའི་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ འཕྲིན་ཚན་རིང་ཚད་ཀྱི་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ འདྲེན་ལམ་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ འདྲེན་ལམ་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ གནད་སྤེལ་ལམ་ལུགས་ཀྱི་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ གནད་སྤེལ་ལམ་ལུགས་ཀྱི་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཞབས་ཏོག་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ ཞབས་ཏོག་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་འབྱུང་ཁུངས་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་འབྱུང་ཁུངས་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ཆུ་ཚོད་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ཆུ་ཚོད་ཀེར་ཐིག་སྟོན།"
+
+#: ../firestarter.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "ཧེང་བཀལ་བཀྲམ་ནིའི་མཐོང་སྣང་ནང་ལུ་ཊོསི་ཀེར་ཐིག་སྟོན"
+
+#: ../firestarter.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr "ཌི་ཨེཆ་སི་པི་ ལེན་མི་ཚུའི་དོན་ལུ་ ཨའི་པི་གི་བར་སྟོང་ལག་ལེན་འཐབ་ཡོད་མི་གི་ཚད་མཐོ་ཤོས་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../firestarter.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr "ཌི་ཨེཆ་སི་པི་ ལེན་མི་ཚུའི་དོན་ལུ་ ཨའི་པི་གི་བར་སྟོང་ལག་ལེན་འཐབ་ཡོད་མི་གི་ཚད་དམའ་ཤོས་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../firestarter.schemas.in.h:56
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "ཌི་ཨེཆ་སི་པི་ལེན་མི་བསྐྱར་གསོ་འབད་བཏུབ་མི་ཅིག་གུ་ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས།"
+
+#: ../firestarter.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "ལས་རིམ་འདི་མངོན་གསལ་འབད་བའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འོག་བཙུགས"
+
+#: ../firestarter.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "ལས་རིམ་འདི་མངོན་གསལ་འབད་བའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འོག་བཙུགས།"
+
+#: ../firestarter.schemas.in.h:59
+msgid "Start the firewall when the system boots"
+msgstr "རིམ་ལུགས་འདི་བུཊི་འབད་བའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས"
+
+#: ../firestarter.schemas.in.h:60
+msgid "Start the firewall when the system boots."
+msgstr "རིམ་ལུགས་འདི་བུཊི་འབད་བའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས།"
+
+#: ../firestarter.schemas.in.h:61
+msgid "Start the firewall when the system dials out"
+msgstr "རིམ་ལུགས་ཌ་ཡེལ་འབད་བའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས"
+
+#: ../firestarter.schemas.in.h:62
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "རིམ་ལུགས་ཀྱིས་ པི་པི་པི་གི་མཐུད་ལམ་ཅིག་གཞི་འཛུགས་འབད་བའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས།"
+
+#: ../firestarter.schemas.in.h:63
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "རིམ་ལུགས་ཀྱིས་ཌི་ཨེཆ་སི་པི་ལེན་མི་གསརཔ་ཅིག་ཐོབ་ཡོད་པའི་སྐབས་ ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས།"
+
+#: ../firestarter.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "ཨིན་ཊར་ནེཊི་མཐུད་ཡོད་པའི་ཡོངས་འབྲེལ་ངོས་འདྲ་བ། དཔེར་ན་ པི་པི་པི་༠ ཡང་ན་ ཨི་ཊི་ཨེཆ༠།"
+
+#: ../firestarter.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་མཐུད་ཡོད་པའི་ཡོངས་འབྲེལ་ངོས་འདྲ་བ། དཔེར་ན་ ཨི་ཊི་ཨེཆ་༠ ཡང་ན་ ཨི་ཊི་ཨེཆ་༡།"
+
+#: ../firestarter.schemas.in.h:66
+msgid "The external interface"
+msgstr "ཕྱིའི་ངོས་འདྲ་བ།"
+
+#: ../firestarter.schemas.in.h:67
+msgid "The first time Firestarter starts several special actions are taken."
+msgstr "ཕ་ཡེར་ཨིས་ཊ་ཊར་འདི་འགོ་དང་པ་འགོ་བཙུགསཔ་ད་ དམིགས་བསལ་གྱི་བྱ་བ་ལེ་ཤ་ཅིག་འབདཝ་ཨིན།"
+
+#: ../firestarter.schemas.in.h:68
+msgid "The internal interface"
+msgstr "ནང་འཁོད་ཀྱི་ངོས་འདྲ་བ།"
+
+#: ../firestarter.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "རིམ་ལུགས་དྲན་དེབ་བཀོད་ནི་ཌེ་མཱོན་གྱིས་རྩོམ་སྒྲིག་འབད་ས་ ཡིག་སྣོད་ཀྱི་གནས་ཁོངས།"
+
+#: ../firestarter.schemas.in.h:70
+msgid "The nameserver clients should use. You can specify multiple nameserver in a space separated list. A value of &lt;dynamic&gt; causes the nameservers to be determined at run time."
+msgstr "མིང་གི་སར་བར་ཞབས་ཏོག་སྤྱོད་མི་གིས་ལག་ལེན་འཐབ་དགོ ཁྱོད་ཀྱིས་ བར་སྟོང་གིས་སོ་སོ་ཁ་འཕྱལ་འཕྱལཝ་ཐོ་ཡིག་ཅིག་ནང་ལུ་ སྣ་མང་མིང་གི་སར་བར་གསལ་བཀོད་འབད་ཚུགས། &lt;dynamic&gt; གི་གནས་གོང་ཅིག་གིས་ མིང་གི་སར་བར་འདི་ རཱན་ཊའིམ་ལུ་གཏན་འབེབས་བཟོ་བཅུགཔ་ཨིན།"
+
+#: ../firestarter.schemas.in.h:71
+msgid "The system log file"
+msgstr "རིམ་ལུགས་དྲན་དེབ་ཀྱི་ཡིག་སྣོད།"
+
+#: ../firestarter.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr "ལས་རིམ་གྱི་སྒོ་སྒྲིག་ཁ་བསྡམ་པའི་སྐབས་ ཕྱིར་འཐོན་ནིའི་ཚབ་ལུ་ སྒོ་སྒྲིག་འདི་སྦ་བཞག"
+
+#: ../src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr "རྩོམ་སྒྲིག་གི་དོན་ལུ་ཌི་ཨེཆ་སི་པི་ སར་བར་རིམ་སྒྲིག་གི་ཡིག་སྣོད་ཁ་ཕྱེ་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ:"
+
+#: ../src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr "ཌི་ཨེཆ་སི་པི་སར་བར་རིམ་སྒྲིག་གི་ཡིག་སྣོད་ནང་ལུ་འབྲི་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ:"
+
+#: ../src/firestarter.c:83
+#: ../src/firestarter.c:85
+#: ../src/firestarter.c:86
+msgid "Failed to stop the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་བཀག་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/firestarter.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "ཕ་ཡེར་ཝཱལ་བཀག་ནིའི་འབད་རྩོལ་བསྐྱེད་པའི་སྐབས་ གཏན་འབེབས་མ་འབད་བའི་འཛོལ་བ་ཅིག་འདུག"
+
+#: ../src/firestarter.c:126
+#: ../src/firestarter.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr "ཐབས་འཕྲུལ་ %sའདི་ གྲ་སྒྲིག་མེན།"
+
+#: ../src/firestarter.c:133
+msgid "Your kernel does not support iptables."
+msgstr "ཁྱོད་ཀྱི་ཀར་ནེལ་གྱིས་ ཨའི་པི་ཐིག་ཁྲམ་ལུ་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: ../src/firestarter.c:135
+msgid "An unknown error occurred."
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་ཅིག་འབྱུང་ནུག"
+
+#: ../src/firestarter.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"ཁྱོད་རའི་ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་ཚུ་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ཁྱོད་ཀྱི་ \n"
+"ཨིན་ཊར་ནེཊི་མཐུད་ལམ་འདི་ཤུགས་ལྡན་ཨིནམ་ངེས་ཏིག་བཟོ།"
+
+#: ../src/firestarter.c:143
+msgid "Failed to start the firewall\n"
+msgstr "ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།\n"
+
+#: ../src/firestarter.c:147
+#: ../src/firestarter.c:148
+msgid "Failed to start the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/firestarter.c:200
+#: ../src/firestarter.c:202
+#: ../src/firestarter.c:203
+msgid "Failed to lock the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་ལྡེ་མིག་རྐྱབས་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/firestarter.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་ལྡེ་མིག་རྐྱབས་ནིའི་འབད་རྩོལ་བསྐྱེད་པའི་སྐབས་གཏན་འབེབས་མ་འབད་བའི་འཛོལ་བ་ཅིག་འབྱུང་ནུག"
+
+#: ../src/firestarter.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current configuration\n"
+"     --start-hidden     Start Firestarter with the GUI not visible\n"
+" -v, --version          Prints Firestarter's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+" -s, --འགོ་བཙུགས            ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས།\n"
+" -p, --བཀག             ཕ་ཡེར་ཝཱལ་འདི་བཀག\n"
+"     --ལྡེ་མིག             ཕ་ཡེར་ཝཱལ་འདི་ལྡེ་མིག་རྐྱབས། འགྲུལ་ལམ་ཆ་མཉམ་བཀག་དོ\n"
+"     --བཟོ་བཏོན་-ཡིག་ཚུགས་ཚུ་ ད་ལྟོའི་རིམ་སྒྲིག་ལས་ཕ་ཡེར་ཝཱལ་ཡིག་ཚུགས་བཟོ་བཏོན་འབད།\n"
+"     --འགོ་བཙུགས-གསང་བ     ཕ་ཡེར་ཨིསི་ཊ་ཊར་འདི་ ཇི་ཡུ་ཨའི་ མ་མཐོང་མི་དང་ཅིག་ཁར་འགོ་བཙུགས།\n"
+" -v, --ཐོན་རིམ          ཕ་ཡེར་ཨིསི་ཊ་ཊར་གྱི་ཐོན་རིམ་ཨང་དཔར་བསྐྲུན་འབདཝ་ཨིན།\n"
+" -h, --གྲོགས་རམ             ཁྱོད་འདི་ལུ་བལྟ་དེས།\n"
+
+#: ../src/firestarter.c:316
+#: ../src/firestarter.c:318
+#: ../src/firestarter.c:319
+msgid "Insufficient privileges"
+msgstr "ཁེ་དབང་མ་ལངམ།"
+
+#: ../src/firestarter.c:320
+msgid "You must have root user privileges to use Firestarter."
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ཁྱོད་ལུ་རྩ་བ་ལག་ལེན་པའི་ཁེ་དབང་ཡོད་དགོ"
+
+#: ../src/firestarter.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་ཐོན་རིམ་གསརཔ་ནང་ལུ་དུས་མཐུན་བཟོ་དོ...\n"
+
+#: ../src/firestarter.c:425
+#, c-format
+msgid "Firewall update complete\n"
+msgstr "ཕ་ཡེར་ཝཱལ་དུས་མཐུན་བཟོ་ནི་མཇུག་བསྡུ་ཡོདཔ།\n"
+
+#: ../src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ ཆ་མཉམ་གཅིག་ནང་གི་ལི་ནགསི་ཕ་ཡེར་ཝཱལ་སྤྱོད་ཆས།\n"
+
+#: ../src/gui.c:269
+#: ../src/statusview.c:962
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#: ../src/gui.c:274
+#: ../src/preferences.c:240
+#: ../src/preferences.glade.h:42
+#: ../src/statusview.c:968
+msgid "Events"
+msgstr "བྱུང་ལས་ཚུ།"
+
+#: ../src/gui.c:279
+#: ../src/preferences.c:245
+#: ../src/preferences.glade.h:60
+msgid "Policy"
+msgstr "སྲིད་བྱུས།"
+
+#: ../src/hitview.c:264
+#: ../src/statusview.c:999
+msgid "Outbound"
+msgstr "ཕྱིའི་བཅད་མཚམས།"
+
+#: ../src/hitview.c:268
+#: ../src/statusview.c:992
+msgid "Inbound"
+msgstr "ནང་གི་བཅད་མཚམས།"
+
+#: ../src/hitview.c:271
+#: ../src/service.c:176
+#: ../src/service.c:209
+#: ../src/service.c:244
+#: ../src/util.c:300
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#. column for time
+#: ../src/hitview.c:444
+#: ../src/menus.c:91
+msgid "Time"
+msgstr "ཆུ་ཚོད།"
+
+#. column for direction
+#: ../src/hitview.c:451
+#: ../src/menus.c:92
+msgid "Direction"
+msgstr "ཁ་ཕྱོགས།"
+
+#. column for in device
+#: ../src/hitview.c:458
+#: ../src/menus.c:93
+msgid "In"
+msgstr "ནང་།"
+
+#. column for out device
+#: ../src/hitview.c:465
+#: ../src/menus.c:94
+msgid "Out"
+msgstr "ཕྱི།"
+
+#. column for port
+#: ../src/hitview.c:472
+#: ../src/menus.c:95
+#: ../src/policyview.c:598
+#: ../src/policyview.c:689
+#: ../src/policyview.c:1210
+#: ../src/policyview.c:1219
+#: ../src/policyview.c:1279
+#: ../src/policyview.c:1297
+#: ../src/preferences.glade.h:61
+#: ../src/statusview.c:937
+msgid "Port"
+msgstr "འདྲེན་ལམ།"
+
+#. column for source
+#: ../src/hitview.c:479
+#: ../src/menus.c:96
+#: ../src/statusview.c:935
+msgid "Source"
+msgstr "འབྱུང་ཁུངས།"
+
+#. column for destination
+#: ../src/hitview.c:486
+#: ../src/menus.c:97
+#: ../src/statusview.c:936
+msgid "Destination"
+msgstr "འགྲོ་ཡུལ།"
+
+#. column for packet length
+#: ../src/hitview.c:493
+#: ../src/menus.c:98
+msgid "Length"
+msgstr "རིང་ཚད།"
+
+#. column for ToS
+#: ../src/hitview.c:500
+msgid "TOS"
+msgstr "ཊི་ཨོ་ཨེསི།"
+
+#. column for protocol
+#: ../src/hitview.c:507
+#: ../src/menus.c:100
+msgid "Protocol"
+msgstr "གནད་སྤེལ་ལམ་ལུགས།"
+
+#. column for service
+#: ../src/hitview.c:514
+#: ../src/menus.c:101
+#: ../src/statusview.c:938
+msgid "Service"
+msgstr "ཞབས་ཏོག"
+
+#: ../src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "བཀག་ཡོད་པའི་མཐུད་ལམ་ཚུ།"
+
+#: ../src/menus.c:43
+msgid "_Firewall"
+msgstr "ཕ་ཡེར་ཝཱལ།(_F)"
+
+#: ../src/menus.c:44
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../src/menus.c:45
+msgid "E_vents"
+msgstr "བྱུང་ལས་ཚུ།(_v)"
+
+#: ../src/menus.c:46
+msgid "_Show Column"
+msgstr "ཀེར་ཐིག་སྟོན།(_S)"
+
+#: ../src/menus.c:47
+msgid "_Policy"
+msgstr "སྲིད་བྱུས།(_P)"
+
+#: ../src/menus.c:48
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#. Q
+#: ../src/menus.c:50
+msgid "_Quit"
+msgstr "སྤང་།(_Q)"
+
+#: ../src/menus.c:50
+msgid "Quit the program"
+msgstr "འ་ནི་ལས་རིམ་འདི་སྤང་།"
+
+#: ../src/menus.c:51
+msgid "Run _Wizard"
+msgstr "ཝི་ཛརཌི་གཡོག་བཀོལ།(_W)"
+
+#: ../src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "ཕ་ཡེར་ཝཱལ་ཝི་ཛརཌི་འདི་གཡོག་བཀོལ།"
+
+#. S
+#: ../src/menus.c:52
+msgid "_Start Firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས།(_S)"
+
+#: ../src/menus.c:52
+msgid "Start the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་འགོ་བཙུགས།"
+
+#. P
+#: ../src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་བཀག(_p)"
+
+#: ../src/menus.c:53
+msgid "Stop the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་བཀག"
+
+#: ../src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་ལྡེ་མིག་རྐྱབས།(_L)"
+
+#: ../src/menus.c:54
+msgid "Lock the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་ལྡེ་མིག་རྐྱབས།"
+
+#: ../src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་ལྡེ་མིག་ཕྱེ།(_U)"
+
+#: ../src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་ལྡེ་མིག་ཕྱེ།"
+
+#. C
+#: ../src/menus.c:57
+msgid "_Copy description"
+msgstr "འགྲེལ་བཤད་ འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#: ../src/menus.c:57
+msgid "Copy event description"
+msgstr "བྱུང་ལས་ཀྱི་འགྲེལ་བཤད་འདྲ་བཤུས་རྐྱབས།"
+
+#: ../src/menus.c:58
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_P)"
+
+#: ../src/menus.c:58
+msgid "Program preferences"
+msgstr "ལས་རིམ་དགའ་གདམ་ཚུ།"
+
+#. F12
+#: ../src/menus.c:60
+msgid "_Save List"
+msgstr "ཐོ་ཡིག་སྲུང་བཞག་འབད།(_S)"
+
+#: ../src/menus.c:60
+msgid "Save the events to a file"
+msgstr "བྱུང་ལས་ཚུ་ཡིག་སྣོད་ཅིག་ནང་ལུ་སྲུང་བཞག་འབད།"
+
+#. L
+#: ../src/menus.c:61
+msgid "_Clear"
+msgstr "བསལ།(_C)"
+
+#: ../src/menus.c:61
+msgid "Clear the events"
+msgstr "བྱུང་ལས་འདི་ཚུ་བསལ།"
+
+#: ../src/menus.c:62
+msgid "_Reload"
+msgstr "ཡང་བསྐྱར་མངོན་གསལ།(_R)"
+
+#: ../src/menus.c:62
+msgid "Reload the events"
+msgstr "བྱུང་ལས་འདི་ཚུ་ ཡང་བསྐྱར་མངོན་གསལ་འབད།"
+
+#: ../src/menus.c:63
+msgid "_Cancel"
+msgstr "ཆ་མེད་གཏང་།(_C)"
+
+#: ../src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "བྱུང་ལས་འདི་ཚུ་ཡང་བསྐྱར་མངོན་གསལ་འབད་ནི་ཆ་མེད་གཏང་།"
+
+#: ../src/menus.c:65
+msgid "_Remove Rule"
+msgstr "ལམ་ལུགས་རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: ../src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ལམ་ལུགས་འདི་རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/menus.c:66
+msgid "_Add Rule"
+msgstr "ལམ་ལུགས་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་སྲིད་བྱུས་ཀྱི་སྡེ་ཚན་འདི་ནང་ལམ་ལུགས་ཅིག་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/menus.c:67
+msgid "_Edit Rule"
+msgstr "ལམ་ལུགས་ཞུན་དག་འབད།(_E)"
+
+#: ../src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ལམ་ལུགས་འདི་ཞུན་དག་འབད།"
+
+#: ../src/menus.c:68
+msgid "A_pply Policy"
+msgstr "སྲིད་བྱུས་འཇུག་སྤྱོད་འབད།(_p)"
+
+#: ../src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr "བསྒྱུར་བཅོས་ཀྱིས་བཟོ་ཡོད་མི་སྲིད་བྱུས་འདི་ འཇུག་སྤྱོད་འབད།"
+
+#: ../src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "གློག་ཐོག་ལག་ལེན་པའི་ལག་དེབ།(_M)"
+
+#: ../src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr "གློག་ཐོག་ལག་ལེན་པའི་ལག་དེབ་འདི་ བརའུ་ཟར་ཅིག་ནང་ཁ་ཕྱེ།"
+
+#: ../src/menus.c:71
+msgid "Firestarter _Homepage"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་ ཁྱིམ་ཤོག་ལེབ།(_H)"
+
+#: ../src/menus.c:71
+msgid "Open the Firestarter homepage in a browser"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་ ཁྱིམ་ཤོག་ལེབ་འདི་ བརའུ་ཟར་ཅིག་ནང་ཁ་ཕྱེ།"
+
+#: ../src/menus.c:72
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../src/menus.c:72
+msgid "About Firestarter"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་གྱི་སྐོར་ལས།"
+
+#: ../src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr "མཐུད་ལམ་ཚུ་འབྱུང་ཁུངས་ལས་ འབད་བཅུག"
+
+#: ../src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr "མཐུད་ལམ་ཚུ་ཆ་མཉམ་འ་ནི་འབྱུང་ཁུངས་ལས་འབད་བཅུག"
+
+#: ../src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr "ག་རའི་དོན་ལུ་ནང་གི་བཅད་མཚམས་ཞབས་ཏོག་འབད་བཅུག"
+
+#: ../src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr "ག་རའི་དོན་ལུ་ནང་གི་བཅད་མཚམས་ཞབས་ཏོག་འབད་བཅུག"
+
+#: ../src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr "འབྱུང་ཁུངས་ཀྱི་དོན་ལུ་ནང་གི་བཅད་མཚམས་ཞབས་ཏོག་ འབད་བཅུག"
+
+#: ../src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr "འབྱུང་ཁུངས་ཀྱི་དོན་ལུ་ནང་གི་བཅད་མཚམས་ཞབས་ཏོག་འབད་བཅུག"
+
+#: ../src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr "མཐུད་ལམ་ཚུ་འགྲོ་ཡུལ་ལུ་འབད་བཅུག"
+
+#: ../src/menus.c:77
+msgid "Allow connections to destination"
+msgstr "མཐུད་ལམ་ཚུ་འགྲོ་ཡུལ་ལུ་འབད་བཅུག"
+
+#: ../src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr "ག་རའི་དོན་ལུ་ཕྱིའི་བཅད་མཚམས་ཞབས་ཏོག་ འབད་བཅུག"
+
+#: ../src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr "ག་རའི་དོན་ལུ་ཕྱིའི་བཅད་མཚམས་ཞབས་ཏོག་ འབད་བཅུག"
+
+#: ../src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr "འབྱུང་ཁུངས་ཀྱི་དོན་ལུ་ཕྱིའི་བཅད་མཚམས་ཞབས་ཏོག་ འབད་བཅུག"
+
+#: ../src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr "འབྱུང་ཁུངས་ཀྱི་དོན་ལུ་ཕྱིའི་བཅད་མཚམས་ཞབས་ཏོག་ འབད་བཅུག"
+
+#: ../src/menus.c:80
+msgid "Disable Events from Source"
+msgstr "བྱུང་ལས་ཚུ་འབྱུང་ཁུངས་ལས་ལྕོགས་མིན་བཟོ།"
+
+#: ../src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr "མ་འོངས་པའི་བྱུང་ལས་ཚུ་འ་ནི་འབྱུང་ཁུངས་ལས་མ་སྟོན།"
+
+#: ../src/menus.c:81
+msgid "Disable Events on Port"
+msgstr "འདྲེན་ལམ་གུའི་བྱུང་ལས་ཚུ་ལྕོགས་མིན་བཟོ།"
+
+#: ../src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr "མ་འོངས་པའི་བྱུང་ལས་ཚུ་འ་ནི་འདྲེན་ལམ་གུ་ལུ་མ་སྟོན།"
+
+#. R
+#: ../src/menus.c:82
+#: ../src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "ཧོསཊི་གི་མིག་ཚུ་བལྟ།(_L)"
+
+#: ../src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཨེབ་ནིའི་ཧོསཊི་གི་མིང་ལུ་ བལྟ།"
+
+#: ../src/menus.c:84
+msgid "_Terminate Connection"
+msgstr "མཐུད་ལམ་རྩ་གྲོལ་གཏང་།(_T)"
+
+#: ../src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr "སེལ་འཐུ་འབད་འབད་བའི་མཐུད་ལམ་རྩ་གྲོལ་གཏང་།"
+
+#: ../src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་ལམ་གྱི་ཧོསཊི་མིང་ལུ་ བལྟ།"
+
+#: ../src/menus.c:91
+msgid "Show time column"
+msgstr "ཆུ་ཚོད་ཀྱི་ཀེར་ཐིག་སྟོན།"
+
+#: ../src/menus.c:92
+msgid "Show direction column"
+msgstr "ཁ་ཕྱོགས་ཀྱི་ཀེར་ཐིག་སྟོན།"
+
+#: ../src/menus.c:93
+msgid "Show in column"
+msgstr "ནང་གི་ཀེར་ཐིག་སྟོན།"
+
+#: ../src/menus.c:94
+msgid "Show out column"
+msgstr "ཕྱིའི་ཀེར་ཐིག་སྟོན།"
+
+#: ../src/menus.c:95
+#: ../src/menus.c:96
+#: ../src/menus.c:97
+#: ../src/menus.c:98
+#: ../src/menus.c:99
+#: ../src/menus.c:100
+#: ../src/menus.c:101
+msgid "Show port column"
+msgstr "འདྲེན་ལམ་གྱི་ཀེར་ཐིག་སྟོན།"
+
+#: ../src/menus.c:99
+#: ../src/preferences.glade.h:77
+msgid "ToS"
+msgstr "ཊི་ཨོ་ཨེསི།"
+
+#: ../src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "ཕ་ཡེར་ཝཱལ་ཡིག་ཚུགས་འདི་ %sསྦེ་ སྲུངས་ཡི།\n"
+
+#: ../src/policyview.c:233
+#: ../src/policyview.c:234
+#: ../src/policyview.c:259
+#: ../src/policyview.c:260
+msgid "Invalid host"
+msgstr "ནུས་མེད་ཧོསཊི།"
+
+#: ../src/policyview.c:235
+#: ../src/policyview.c:261
+#: ../src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+"ཧོསཊི་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་འདི་ནུས་ཅན་ཧོསཊི་ཅིག་མེན་པས།\n"
+"ཁྱོད་རའི་གདམ་ཁ་འདི་བསྐྱར་ཞིབ་འབད་གནང་།"
+
+#: ../src/policyview.c:245
+#: ../src/policyview.c:246
+msgid "Invalid port"
+msgstr "ནུས་མེད་འདྲེན་ལམ།"
+
+#: ../src/policyview.c:247
+#: ../src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+"འདྲེན་ལམ་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་འདི་ནུས་ཅན་འདྲེན་ལམ་ཅིག་མེན་་པས།\n"
+"ཁྱོད་རའི་གདམ་ཁ་འདི་བསྐྱར་ཞིབ་འབད་གནང་།"
+
+#: ../src/policyview.c:271
+#: ../src/policyview.c:272
+msgid "Invalid internal host"
+msgstr "ནུས་མེད་ནང་འཁོད་ཀྱི་ཧོསཊི།"
+
+#: ../src/policyview.c:280
+#: ../src/policyview.c:281
+msgid "Invalid internal port"
+msgstr "ནུས་མེད་ནང་འཁོད་ཀྱི་འདྲེན་ལམ།"
+
+#: ../src/policyview.c:510
+#: ../src/policyview.c:632
+msgid "IP, host or network"
+msgstr "ཨའི་པི། ཧོསཊི་ཡང་ན་ ཡོངས་འབྲེལ།"
+
+#: ../src/policyview.c:583
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/policyview.c:626
+msgid "Anyone"
+msgstr "ག་འབད་རུང་།"
+
+#: ../src/policyview.c:628
+msgid "Firewall host"
+msgstr "ཕ་ཡེར་ཝཱལཧོསཊི།"
+
+#: ../src/policyview.c:630
+msgid "LAN clients"
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་ ཞབས་ཏོག་སྤྱོད་མི་ཚུ།"
+
+#: ../src/policyview.c:675
+msgid "IP or host"
+msgstr "ཨའི་པི་ཡང་ན་ཧོསཊི།"
+
+#: ../src/policyview.c:1027
+#: ../src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr "སྲིད་བྱུས་འཇུག་སྤྱོད་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr "ནང་གི་བཅད་མཚམས་ཀྱི་སྲིད་བྱུས་འཇུག་སྤྱོད་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr "ནང་གི་སྲིད་བྱུས་འཇུག་སྤྱོད་འབད་བའི་སྐབས་འཛོལ་བ་ཅིག་འདུག:"
+
+#: ../src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr "ཕྱིའི་བཅད་མཚམས་ཀྱི་སྲིད་བྱུས་འཇུག་སྤྱོད་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr "ཕྱིའི་བཅད་མཚམས་ཀྱི་སྲིད་བྱུས་འཇུག་སྤྱོད་འབད་བའི་སྐབས་འཛོལ་བ་ཅིག་འདུག:"
+
+#: ../src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr "ཧོསཊི་ལས་མཐུད་ལམ་ཚུ་འབད་བཅུག"
+
+#: ../src/policyview.c:1205
+#: ../src/policyview.c:1212
+#: ../src/policyview.c:1220
+#: ../src/policyview.c:1229
+#: ../src/policyview.c:1238
+#: ../src/policyview.c:1247
+#: ../src/policyview.c:1269
+#: ../src/policyview.c:1274
+#: ../src/policyview.c:1281
+#: ../src/policyview.c:1287
+#: ../src/policyview.c:1292
+#: ../src/policyview.c:1299
+#: ../src/policyview.c:1335
+#: ../src/policyview.c:1343
+#: ../src/policyview.c:1352
+#: ../src/policyview.c:1363
+#: ../src/policyview.c:1371
+#: ../src/policyview.c:1380
+msgid "Comment"
+msgstr "བསམ་བཀོད།"
+
+#: ../src/policyview.c:1209
+#: ../src/policyview.c:1236
+#: ../src/policyview.c:1296
+#: ../src/policyview.c:1378
+msgid "Allow service"
+msgstr "ཞབས་ཏོག་འབད་བཅུག"
+
+#: ../src/policyview.c:1211
+#: ../src/policyview.c:1280
+#: ../src/policyview.c:1298
+msgid "For"
+msgstr "དོན་ལུ།"
+
+#: ../src/policyview.c:1216
+msgid "Forward service"
+msgstr "ཞབས་ཏོག་གདོང་བསྐྱོད་འབད།"
+
+#: ../src/policyview.c:1217
+msgid "Firewall Port"
+msgstr "ཕ་ཡེར་ཝཱལ་འདྲེན་ལམ།"
+
+#: ../src/policyview.c:1218
+msgid "To"
+msgstr "ལུ།"
+
+#: ../src/policyview.c:1227
+#: ../src/policyview.c:1235
+#: ../src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr "ནང་གི་བཅད་མཚམས་ཀྱི་ལམ་ལུགས་གསརཔ་ཁ་སྐོང་རྐྱབས།་"
+
+#: ../src/policyview.c:1228
+#: ../src/policyview.c:1370
+msgid "Allow connections from"
+msgstr "ལས་མཐུད་ལམ་ཚུ་འབད་བཅུག"
+
+#: ../src/policyview.c:1237
+#: ../src/policyview.c:1351
+#: ../src/policyview.c:1379
+msgid "When the source is"
+msgstr "འབྱུང་ཁུངས་འདི་ཨིན་པའི་སྐབས་"
+
+#: ../src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr "ཕ་ཡེར་ཝཱལ་ལས་ཞབས་ཏོག་གདོང་བསྐྱོད་འབད།"
+
+#: ../src/policyview.c:1246
+msgid "To internal host"
+msgstr "ནང་འཁོད་ཀྱི་ཧོསཊི་ལུ།"
+
+#: ../src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr "ཧོསཊི་ལུ་མཐུད་ལམ་ཚུ་མ་ཉན།"
+
+#: ../src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་ཧོསཊི་ལས་མཐུད་ལམ་ཚུ་མ་ཉན།"
+
+#: ../src/policyview.c:1278
+#: ../src/policyview.c:1350
+msgid "Deny service"
+msgstr "ཞབས་ཏོཀ་མ་ཉན།"
+
+#: ../src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr "ཧོསཊི་ལུ་མཐུད་ལམ་ཚུ་འབད་བཅུག"
+
+#: ../src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་ཧོསཊི་ལས་མཐུད་ལམ་ཚུ་འབད་བཅུག"
+
+#: ../src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr "ཕྱིའི་བཅད་མཚམས་ཀྱི་འགྲུལ་ལམ།(_O)"
+
+#: ../src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr "སྔོན་སྒྲིག་ བེལེཀ་ལིསཊི་ འགྲུལ་ལམ་ གྱིས་གནང་བ་བྱིན་མི།"
+
+#: ../src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr "སྔོན་སྒྲིག་ ཝའིཊི་ལིསཊི་ འགྲུལ་ལམ་ གྱིས་བཀག་དམ་འབད་མི།"
+
+#: ../src/policyview.c:1333
+#: ../src/policyview.c:1341
+#: ../src/policyview.c:1349
+#: ../src/policyview.c:1361
+#: ../src/policyview.c:1369
+#: ../src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr "ཕྱིའི་བཅད་མཚམས་ཀྱི་ལམ་ལུགས་གསརཔ་ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/policyview.c:1334
+msgid "Deny connections to"
+msgstr "ལུ་མཐུད་ལམ་ཚུ་མ་ཉན།"
+
+#: ../src/policyview.c:1342
+msgid "Deny connections from"
+msgstr "ལས་མཐུད་ལམ་ཚུ་མ་ཉན།"
+
+#: ../src/policyview.c:1362
+msgid "Allow connections to"
+msgstr "ལུ་མཐུད་ལམ་ཚུ་འབད་བཅུག"
+
+#: ../src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr "ནང་གི་བཅད་མཚམས་འགྲུལ་ལམ་གྱི་སྲིད་བྱུས།"
+
+#: ../src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr "ཕྱིའི་བཅད་མཚམས་འགྲུལ་ལམ་གྱི་སྲིད་བྱུས།"
+
+#: ../src/policyview.c:1454
+msgid "Editing"
+msgstr "ཞུན་དག་འབད་དོ།"
+
+#: ../src/preferences.c:155
+msgid ""
+"A proper configuration for Firestarter was not found. If you are running Firestarter from the directory you built it in, run 'make install-data-local' to install a configuration, or simply 'make install' to install the whole program.\n"
+"\n"
+"Firestarter will now close."
+msgstr ""
+"ཕ་ཡེར་ཨིསི་ཊ་ཊར་གྱི་དོན་ལུ་རིམ་སྒྲིག་ཚུལ་ལྡན་ཅིག་མ་འཐོབ། ཁྱོད་ཀྱིས་ནང་སྦྲགས་འབད་མི་སྣོད་ཐོ་ལས་ཕ་ཡེར་ཨིསི་ཊ་ཊར་གཡོག་བཀོལཝ་ཨིན་པ་ཅིན་ 'make install-data-local' འདི་རིམ་སྒྲིག་ཅིག་གཡོག་བཀོལ་ནིའི་དོན་ལས་གཡོག་བཀོལ་ ཡང་ན་ ལས་རིམ་ཧྲིལ་བུམ་གཞི་བཙུགས་འབད་ནིའི་དོན་ལས་ འཇམ་སམ་སྦེ་ 'make install' འབད།\n"
+"\n"
+"ཕ་ཡེར་ཨིསི་ཊ་ཊར་འདི་ད་ཁ་བསྡམ་འོང་།"
+
+#: ../src/preferences.c:235
+#: ../src/preferences.glade.h:53
+msgid "Interface"
+msgstr "ངོས་འདྲ་བ།"
+
+#: ../src/preferences.c:253
+#: ../src/preferences.glade.h:45
+#: ../src/statusview.c:950
+msgid "Firewall"
+msgstr "ཕ་ཡེར་ཝཱལ།"
+
+#: ../src/preferences.c:258
+#: ../src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "ཡོངས་འབྲེལ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ཨའི་སི་ཨེམ་པི་ བཙགས་དོ།"
+
+#: ../src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "ཊི་ཨོ་ཨེསི་ བཙགས་དོ།"
+
+#: ../src/preferences.c:273
+msgid "Advanced Options"
+msgstr "མཐོ་རིམ་གྱི་གདམ་ཁ་ཚུ།"
+
+#: ../src/preferences.c:505
+msgid "Hosts"
+msgstr "ཧོསཊིསི།"
+
+#: ../src/preferences.c:509
+msgid "Ports"
+msgstr "འདྲེན་ལམ་ཚུ།"
+
+#: ../src/preferences.c:672
+#: ../src/wizard.c:534
+#: ../src/wizard.c:551
+msgid "Please review your choices"
+msgstr "ཁྱོད་རའི་གདམ་ཁ་ཚུ་བསྐྱར་ཞིབ་འབད་གནང་།"
+
+#: ../src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "ནུས་མེད་ ཌི་ཨེཆ་སི་པི་ རིམ་སྒྲིག"
+
+#: ../src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+"ཁྱོད་རའི་ ཌི་ཨེཆ་སི་པི་ སྒྲིག་སྟངས་ཚུ་བསྐྱར་ཞིབ་འབད་གནང་། རིམ་སྒྲིག་\n"
+"ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་འདི་ནུས་ཅན་མེན་པས།"
+
+#: ../src/preferences.c:909
+msgid "Missing file"
+msgstr "བརླག་སྟོར་ཞུགས་ཡོད་པའི་ཡིག་སྣོད།"
+
+#: ../src/preferences.c:910
+msgid "Firestarter interface file not found"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་ངོས་འདྲ་བའི་ཡིག་སྣོད་མ་ཐོབ།"
+
+#: ../src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr "ངོས་འདྲ་བ་རྟགས་བཀོད་ནིའི་ཡིག་སྣོད་དགའ་གདམ་ཚུའི་ གེལེཌི་ མ་ཐོབ།"
+
+#: ../src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: ../src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr "<b>འོག་གི་ཨའི་སི་ཨེམ་པི་ འཕྲིན་ཚན་གྱི་དབྱེ་བ་ཚུ་འབད་བཅུག</b>"
+
+#: ../src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr "<b>བཀག་ཡོད་པའི་མཐུད་ལམ་ཚུ།</b>"
+
+#: ../src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr "<b>འགྲུལ་ལམ་རྒྱང་བསྒྲགས་འབད།</b>"
+
+#: ../src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr "<b>ཌི་ཨེཆ་སི་པི་ སར་བར་གྱི་རྒྱས་བཤད།</b>"
+
+#: ../src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr "<b>འགོ་གི་དོན་ལུ་ བྱུང་ལས་ཚུ་ལོག་མ་འབད།</b>"
+
+#: ../src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr "<b>ལས་བྱུང་ལས་ཚུ་ལོག་མ་འབད།</b>"
+
+#: ../src/preferences.glade.h:9
+msgid "<b>Internet connected network device</b>"
+msgstr "<b>ཨིན་ཊར་ནེཊི་མཐུད་ཡོད་པའི་ཡོངས་འབྲེལ་གྱི་ཐབས་འཕྲུལ།</b>"
+
+#: ../src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr "<b>ཉེ་གནས་ཡོངས་འབྲེལ་མཐུད་ཡོད་པའི་ཐབས་འཕྲུལ།</b>"
+
+#: ../src/preferences.glade.h:11
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "<b>དགའ་བའི་འཕྲིན་ཚན་གྱི་དང་ལེན་སྤང་ནིའི་ཐབས་ལམ།</b>"
+
+#: ../src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr "<b>འདི་མང་མཐའ་བཟོ་ཐོག་ལས་གཙོ་རིམ་བཟོ།</b>"
+
+#: ../src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr "<b>གིས་མཐུན་མོང་ལུ་ལག་ལེན་འཐབ་མི་ཞབས་ཏོག་ཚུ་ གཙོ་རིམ་བཟོ།</b>"
+
+#: ../src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr "<b>ལམ་ལུགས་ཞུན་དག་འབད་དོ།</b>"
+
+#: ../src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr "<b>འགོ་བཙུགས་ནི་ དང་ ཨུ་ཚུགས་བརྐྱབ་ནི།</b>"
+
+#: ../src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr "<b>རིམ་ལུགས་ཤོག་སྣོད་ངོས་དཔར།</b>"
+
+#: ../src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr "<b>འགྲུལ་ལམ་ནུས་ལྡན་བཟོ་ནི།</b>"
+
+#: ../src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">མཐོ་རིམ་ཕ་ཡེར་ཝཱལ་གྱི་གདམ་ཁ་ཚུ</span>"
+
+#: ../src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">བྱུང་ལས་ཀྱི་ཐོ་ཡིག</span>"
+
+#: ../src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ཕ་ཡེར་ཝཱལ</span>"
+
+#: ../src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ཨའི་སི་ཨེམ་པི་བཙགས་དོ</span>"
+
+#: ../src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ཡོངས་འབྲེལ་གྱི་སྒྲིག་སྟངས་ཚུ</span>"
+
+#: ../src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">སྲིད་བྱུས་ཞུན་དག་པ</span>"
+
+#: ../src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ཞབས་ཏོག་བཙགས་པའི་དབྱེ་བ།</span>"
+
+#: ../src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ལག་ལེན་པའི་ངོས་འདྲ་བ</span>"
+
+#: ../src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "ཁ་བྱང་གདོང་ཁེབས་བཟོ་དོ།"
+
+#: ../src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "མཐོ་རིམ།"
+
+#: ../src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr "སྲིད་བྱུས་བསྒྱུར་བཅོས་ཚུ་དེ་འཕྲལ་ལས་འཇུག་སྤྱོད་འབད།"
+
+#: ../src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr "མི་མང་གི་ངོས་འདྲ་བ་ཚུ་གུའི་ཟུར་གསོག་འབད་ཡོད་པའི་ཁ་བྱང་ཚུ་ལས་འགྲུལ་ལམ་བཀག"
+
+#: ../src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr "ཌི་ཨེཆ་སི་པི་རིམ་སྒྲིག་གསརཔ་གསར་བསྐྲུན་འབད།"
+
+#: ../src/preferences.glade.h:33
+#: ../src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "སྐྱོན་འཛིན་བྱུང་ཡོད་པའི་ཐབས་འཕྲུལ་(ཚུ):"
+
+#: ../src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr "སྐད་མེད་པར་བཀོག་བཞག"
+
+#: ../src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr "བྲག་ཅ་ལན་གསལ།(པོང་)"
+
+#: ../src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr "བྲག་ཅ་ཞུ་བ(པིང་)"
+
+#: ../src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་གྱི་དོན་ལུ་ཌི་ཨེཆ་སི་པི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/preferences.glade.h:38
+msgid "Enable ICMP filtering"
+msgstr "ཨའི་སི་ཨེམ་པི་བཙགས་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/preferences.glade.h:39
+#: ../src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr "ཨིན་ཊར་ནེཊི་མཐུད་ལམ་རུབ་སྤྱོད་འབད་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/preferences.glade.h:40
+msgid "Enable Type of Service filtering"
+msgstr "ཞབས་ཏོག་བཙགས་ནིའི་དབྱེ་བ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/preferences.glade.h:43
+msgid "Filter host"
+msgstr "ཧོསཊི་བཙགས།"
+
+#: ../src/preferences.glade.h:44
+msgid "Filter port"
+msgstr "འདྲེན་ལམ་བཙགས།"
+
+#: ../src/preferences.glade.h:46
+#: ../src/wizard.c:344
+msgid "Highest IP address to assign:"
+msgstr "འགན་སྤྲོད་འབད་ནིའི་དོན་ལས་ཨའི་པི་གི་ཁ་བྱང་མཐོ་ཤོས:"
+
+#: ../src/preferences.glade.h:47
+msgid "Host"
+msgstr "ཧོསཊི།"
+
+#: ../src/preferences.glade.h:48
+msgid "ICMP"
+msgstr "ཨའི་སི་ཨེམ་པི།"
+
+#: ../src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+"ཨའི་སི་ཨེམ་པི་བཙགས་ནི་གིས་ཁྱོད་ལུ་ ཚད་འཛིན་འཕྲིན་ཚན་གསར་བསྐྲུན་འབད་ནི་བཀག་དམ་འབད་ནི་དང་\n"
+"ཕ་ཡེར་ཝཱལ་གྱིས་བསུ་ལེན་འབད་ནི་ ཕན་ནུས་ལྡན་པའི་སྔོན་བཀག་འབད་ནི་<i>Denial of Service</i>\n"
+"སྐྱོན་བརྗོད་འབད་ནི་ཚུ་འབད་བཅུགཔ་ཨིན། དེ་འབདཝ་ད་ མཐུན་མོང་གི་ཡོངས་འབྲེལ་ལག་ཆས་ཡང་ལྕོགས་མིན་བཟོ་ཐོག"
+
+#: ../src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr "ཕན་ཚུན་འབྲེལ་ལྡན།"
+
+#: ../src/preferences.glade.h:54
+#: ../src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "ཡོད་བཞིན་པའི་ཌི་ཨེཆ་སི་པི་རིམ་སྒྲིག་བཞག"
+
+#: ../src/preferences.glade.h:55
+#: ../src/wizard.c:334
+msgid "Lowest IP address to assign:"
+msgstr "འགན་སྤྲོད་འབད་ནིའི་དོན་ལས་ཨའི་པི་དམའ་ཤོས:"
+
+#: ../src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "ཨེམ་ཨེསི་འཚོལ་ལམ།"
+
+#: ../src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr "སྒོ་སྒྲིག་ཁ་བསྡམ་ནི་གུ་ལུ་ཤོག་སྟོན་ཆུང་ཀུ་བཟོ།"
+
+#: ../src/preferences.glade.h:58
+#: ../src/wizard.c:354
+msgid "Name server:"
+msgstr "མིང་སར་བར:"
+
+#: ../src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: ../src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "སླར་ལོག"
+
+#: ../src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr "འཕྲིན་ཚན་འཛོལ་བ་དང་ཅིག་ཁར་དང་ལེན་སྤང་།"
+
+#: ../src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "ཁུང་ལྡན།"
+
+#: ../src/preferences.glade.h:66
+msgid "Servers"
+msgstr "སར་བར་ཚུ།"
+
+#: ../src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr "འགྲོ་ཡུལ་འདི་ཕ་ཡེར་ཝཱལ་མེན་ས་ལུ་ཐོ་བཀོད་ཚུ་གོང་འགྱོ།"
+
+#: ../src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr "ཐོ་བཀོད་མང་དྲགས་ཚུ་གོམ་འགྱོ།"
+
+#: ../src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr "འབྱུང་ཁུངས་"
+
+#: ../src/preferences.glade.h:70
+msgid "Start firewall on system boot"
+msgstr "རིམ་ལུགས་བུཊི་གུ་ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས།"
+
+#: ../src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr "ཌི་ཨེཆ་སི་པི་ ལེན་མི་བསྐྱར་གསོ་འབད་བཏུབ་མི་གུ་ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་/ལོག་འགོ་བཙུགས།"
+
+#: ../src/preferences.glade.h:72
+msgid "Start/restart firewall on dial-out"
+msgstr "ཌ་ཡེལ་འབད་ནི་གུ་ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་/ལོག་འགོ་བཙུགས།"
+
+#: ../src/preferences.glade.h:73
+msgid "Start/restart firewall on program startup"
+msgstr "ལས་རིམ་འགོ་བཙུགས་གུ་ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་/ལོག་འགོ་བཙུགས།"
+
+#: ../src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "ཨེགསི་ སྒོ་སྒྲིག་རིམ་ལུགས།"
+
+#: ../src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "བརྒྱུད་དེ་བཙུགས།"
+
+#: ../src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "དུས་བཀོད་དོ།"
+
+#: ../src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "འཚོལ་ལམ།"
+
+#: ../src/preferences.glade.h:79
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"ཞབས་ཏོག་བཙགས་ནིའི་དབྱེ་བ་གིས་ཁྱོད་ལུ་ ཡོངས་འབྲེལ་གྱི་འགྲུལ་ལམ་ \n"
+"འཇུག་སྤྱོད་དག་པ་ཅིག་ལུ་ མཐོ་ཤོས་བརྒྱུད་དེ་བཙུགས་ནིའི་མགྱོགས་ཚད་ཡང་ན་\n"
+"ཕན་ཚུན་འབྲེལ་ལྡན་ལེགས་ཤོམ་བཟོ་ནིའི་དོན་ལུ་ གོ་རིམ་བཟོཝ་ཨིན།"
+
+#: ../src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "བདའ་མི་ཟུན་པ།"
+
+#: ../src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "ལཱ་གཡོག་ལྟེ་བ།"
+
+#: ../src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "དང་ལེན།(_A)"
+
+#: ../src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+"ཡིག་སྣོད་ %s ནང་ལུ་རྩོམ་སྒྲིག་འབད་ནི་འཛོལ་བ།\n"
+"\n"
+"%s"
+
+#: ../src/savelog.c:92
+msgid "Save Events To File"
+msgstr "བྱུང་ལས་ཚུཡིག་སྣོད་ནང་སྲུང་བཞག་འབད།"
+
+#: ../src/statusview.c:485
+#: ../src/statusview.c:1034
+msgid "Active"
+msgstr "ཤུགས་ལྡན།"
+
+#: ../src/statusview.c:487
+msgid "Disabled"
+msgstr "ལྕོགས་མིན་བཟོ་ཡོདཔ།"
+
+#: ../src/statusview.c:489
+msgid "Locked"
+msgstr "ལྡེ་མིག་རྐྱབས་ཡོདཔ།"
+
+#: ../src/statusview.c:681
+msgid "Internet"
+msgstr "ཨིན་ཊར་ནེཊི།"
+
+#: ../src/statusview.c:684
+msgid "Local"
+msgstr "ཉེ་གནས།"
+
+#: ../src/statusview.c:939
+msgid "Program"
+msgstr "ལས་རིམ།"
+
+#: ../src/statusview.c:940
+msgid "Color"
+msgstr "ཚོས་གཞི།"
+
+#: ../src/statusview.c:980
+msgid "Total"
+msgstr "བསྡོམས།"
+
+#: ../src/statusview.c:986
+msgid "Serious"
+msgstr "འཚུབ་ཅན།"
+
+#: ../src/statusview.c:1046
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ།"
+
+#: ../src/statusview.c:1058
+msgid "Device"
+msgstr "ཐབས་འཕྲུལ།"
+
+#: ../src/statusview.c:1064
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../src/statusview.c:1070
+msgid "Received"
+msgstr "ཐོབ་ཡོད།"
+
+#: ../src/statusview.c:1076
+msgid "Sent"
+msgstr "གཏང་ཡོད།"
+
+#: ../src/statusview.c:1082
+msgid "Activity"
+msgstr "ལཱ།"
+
+#: ../src/statusview.c:1089
+msgid "Active connections"
+msgstr "ཤུགས་ལྡན་མཐུད་ལམ་ཚུ།"
+
+#: ../src/tray.c:144
+msgid "Firewall stopped"
+msgstr "ཕ་ཡེར་ཝཱལ་བཀག་ཡོདཔ།"
+
+#: ../src/tray.c:147
+msgid "Firewall running"
+msgstr "ཕ་ཡེར་ཝཱལ་གཡོག་བཀོལ་དོ།"
+
+#: ../src/tray.c:150
+msgid "Firewall locked"
+msgstr "ཕ་ཡེར་ཝཱལ་ལྡེ་མིག་རྐྱབས་ཡོདཔ།"
+
+#: ../src/tray.c:204
+msgid "_Show Firestarter"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་སྟོན།(_S)"
+
+#: ../src/tray.c:214
+msgid "_Exit"
+msgstr "ཕྱིར་ཐོན།(_E)"
+
+#: ../src/util.c:109
+msgid "Firestarter error"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་འཛོལ་བ།"
+
+#: ../src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"རིམ་ལུགས་ཀྱི་དྲན་དེབ་ཁ་ཕྱེ་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།\n"
+"\n"
+
+#: ../src/util.c:140
+msgid "No event information will be available."
+msgstr "བྱུང་ལས་ཀྱི་བརྡ་དོན་གཅིག་ཡང་ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr "ལྷག་ནིའི་དོན་ལུ་ /proc/net/dev ཁ་ཕྱེ་ནི་ལུ་ འཐུས་ཤོར་བྱུང་ཡོདཔ་: "
+
+#: ../src/util.c:277
+msgid "Ethernet device"
+msgstr "ཨི་ཐར་ནེཊི་ཐབས་འཕྲུལ།"
+
+#: ../src/util.c:279
+msgid "Ethernet"
+msgstr "ཨི་ཐར་ནེཊི།"
+
+#: ../src/util.c:282
+msgid "Dialup device"
+msgstr "ཌ་ེཡེལ་ཨཔ་ཐབས་འཕྲུལ།"
+
+#: ../src/util.c:284
+msgid "Dialup"
+msgstr "ཌ་ེཡེལ་ཨཔ།"
+
+#: ../src/util.c:287
+msgid "Wireless device"
+msgstr "རླུང་འཕྲིན་གྱི་ཐབས་འཕྲུལ།"
+
+#: ../src/util.c:289
+msgid "Wireless"
+msgstr "རླུང་འཕྲིན།"
+
+#: ../src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr "IPv6 ས་དོང་།"
+
+#: ../src/util.c:293
+msgid "VPN Tunnel"
+msgstr "ཝི་པི་ཨེན་ ས་དོང་།"
+
+#: ../src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr "འགྲུལ་ལམ་བཟོ་ཡོད་པའི་ ཨའི་པི་ ས་དོང་།"
+
+#: ../src/util.c:298
+msgid "Unknown device"
+msgstr "མ་ཤེས་པའི་ཐབས་འཕྲུལ།"
+
+#: ../src/wizard.c:106
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"འཐོབ་ཚུགས་པའི་ཐབས་འཕྲུལ་ཚུ་གི་གདམ་ཐོ་\n"
+"ནང་ལས་ ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་མཐུད་ཡོད་པའི་ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་ སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/wizard.c:137
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"ཕན་བསླབ་:ཁྱོད་ཀྱིས་ མོ་ཌེམ་ལག་ལེན་འཐབ་པ་ཅིན་ ཐབས་འཕྲུལ་མིང་འདི་ ppp0 ཨིནམ་བཟུམ་ཅིག་འདུག ཁྱོད་ལུ་ བཀྲམ་ཐག་མོ་ཌེམ་ ཡང་ན་ \n"
+"ཌི་ཨེསི་ཨེལ་ མཐུད་ལམ་ཡོད་པ་ཅིན་ eth0 གདམ་ཁ་རྐྱབས། ཁྱོད་ཀྱིས་ཁྱོད་རའི་བཀྲམ་ཐག་ ཡང་ན་ ཌི་ཨེསི་ཨེལ་ བཀོལ་སྤྱོད་པ་གིས་ \n"
+" PPPoE གནད་སྤེལ་ལམ་ལུགས་ཤེས་པ་ཅིན་ ppp0 གདམ་ཁ་རྐྱབས། "
+
+#: ../src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "ཌ་ཡེལ་-ཨའུཊི་གུ་ ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས།"
+
+#: ../src/wizard.c:149
+msgid "Check this option and the firewall will start when you dial your Internet Service Provider."
+msgstr "གདམ་ཁ་འདི་ཞིབ་དཔྱད་འབད་ དེ་ལས་ཕ་ཡར་ཝཱལ་འདི་ ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་ཞབས་ཏོག་བྱིན་མཁན་ལུ་ཌ་ཡེལ་འབདཝ་ད་ འགོ་བཙུགས་འོང་།"
+
+#: ../src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "ཨའི་པི་ཁ་བྱང་འདི་ ཌི་ཨེཅི་སི་པི་ལས་བརྒྱུད་དེ་ འགན་སྤྲོད་འབད་ནུག"
+
+#: ../src/wizard.c:157
+msgid "Check this option if you need to connect to a DHCP server. Cable modem and DSL users should check this."
+msgstr "ཁྱོད་ཀྱིས་ ཌི་ཨེཅི་སི་པི་ སར་བར་ཅིག་ལུ་ མཐུད་དགོཔ་འབྱུང་པ་ཅིན་ གདམ་ཁ་འདི་ཞིབ་དཔྱད་འབད། བཀྲམ་ཐག་མོ་ཌེམ་དང་ཌི་ཨེསི་ཨེལ་ ལག་ལེན་པ་ཚུ་གིས་ འདི་ཞིབ་དཔྱད་འབད་དགོ"
+
+#: ../src/wizard.c:237
+msgid ""
+"Firestarter can share your Internet connection with the computers on your local network\n"
+"using a single public IP address and a method called Network Address Translation."
+msgstr ""
+"ཕ་ཡེར་སི་ཊ་ཊར་གྱིས་ མི་མང་ཨའི་པི་ཁ་བྱང་རྐྱང་པ་ཅིག་དང་ཡོངས་འབྲེལ་ཁ་བྱང་སྐད་བསྒྱུར་ཟེར་སླབ་མི་གཉིས་ཀུ་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ ཁྱོད་ཀྱི་ཨིན་ཊར་ནེཊི་མཐུད་ལམ་འདི་ ཁྱོད་རའི་ཉེ་གནས་ཡོངས་འབྲེལ་\n"
+"གུ་ གློག་རིག་དང་བཅས་ རུབ་སྤྱོད་འབད་ཚུགས།"
+
+#: ../src/wizard.c:263
+msgid "Local area network device:"
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་གྱི་ཐབས་འཕྲུལ་:"
+
+#: ../src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr "ཉེ་གནས་ཡོངས་འབྲེལ་གྱི་དོན་ལུ་ཌི་ཨེཅི་སི་པི་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr "ཌི་ཨེཅི་སི་པི་ ལས་འགན་ བཤད་པ་རྐྱབས་་་་་་"
+
+#: ../src/wizard.c:293
+msgid "DHCP server details"
+msgstr "ཌི་ཨེཅི་་སི་པི་ སར་བར་རྒྱས་བཤད་ཚུ།"
+
+#: ../src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "ཌི་ཨེཅི་སི་པི་རིམ་སྒྲིག་གསརཔ་ གསར་བསྐྲུན་འབད།"
+
+#: ../src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"ཝི་ཛརཌི་འདི་གིས་ ཁྱོད་ཀྱི་མ་འཕྲུལ་ལི་ནགསི་\n"
+"གི་དོན་ལུ་ ཕ་ཡེར་ཝཱལ་གསར་བསྐྲུན་འབད་ནི་ལུ་གྲོགས་རམ་འབད་འོང་།  ཁྱོད་ཀྱི་རིམ་ལུགས་ཀྱི་དོན་ལས་ ཕ་ཡེར་ཝཱལ་སྲོལ་སྒྲིག་\n"
+"འབད་ནི་ལུ་ ཁྱོད་རའི་ཡོངས་འབྲེལ་གཞི་སྒྲིག་འབད་ནིའི་སྐོར་ལས་ འདྲི་བ་\n"
+"དག་པ་ཅིག་ འདྲི་འོང་།\n"
+"\n"
+
+#: ../src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"ཕན་བསླབ་:ཁྱོད་ཀྱིས་ འདྲི་བ་ཚུ་གི་ལན་བཀོད་ནིའི་ངེས་ལྡན་མེད་པ་ཅིན་ \n"
+"སྔོན་སྒྲིག་བེ་ལུ་བཀྲམ་སྟོན་འབད་ཡོད་མི་འདི་ལག་ལེན་འཐབ་པ་ཅིན་ ལེགས་ཤོམ་ཨིན།\n"
+"\n"
+
+#: ../src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "འཕྲོ་མཐུད་ནིའི་དོན་ལས་གདོང་བསྐྱོད་ཀྱི་གཡེབ་རྟ་འདི་ཨེབ་གནང་།\n"
+
+#: ../src/wizard.c:430
+msgid "The wizard is now ready to start your firewall."
+msgstr "ཝི་ཛརཌི་འདི་ ཁྱོད་ཀྱི་ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་ནིའི་གྲ་སྒྲིག་ཨིན་པས།"
+
+#: ../src/wizard.c:431
+msgid "Press the save button to continue, or the back button to review your choices."
+msgstr "འཕྲོ་མཐུད་ནིའི་དོན་ལས་སྲུང་བཞག་གི་གཡེབ་རྟ་འདི་ཨེབ་ ཡང་ན་ ཁྱོད་རའི་གདམ་ཁ་ཚུ་བསྐྱར་ཞིབ་འབད་ནིའི་དོན་ལས་རྒྱབ་ཁའི་ཨེབ་རྟ་འདི་ལག་ལེན་འཐབ།"
+
+#: ../src/wizard.c:437
+msgid "Start firewall now"
+msgstr "ཕ་ཡེར་ཝཱལ་འདི་ ད་ལྟོ་འགོ་བཙུགས།"
+
+#: ../src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+" ཕན་བསླབ་:ཁྱོད་ཀྱིས་ཐག་རིང་ལས་ ཕ་ཡེར་ཝཱལ་ཧོསཊི་ལུ་མཐུད་པ་ཅིན་ ཁ་སྐོང་ཅན་གྱི་སྲིད་བྱུས་ གསར་བསྐྲུན་མ་འབད་ཚུན་ཚོད་ ཁྱོད་ཀྱིས་ཕ་ཡེལ་འགོ་བཙུགས་ནི་འདི་\n"
+" ཕར་འགྱངས་འབད་དགོཔ་འོང་།"
+
+#: ../src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr "ཉེ་གནས་མངའ་ཁོངས་དང་ཨིན་ཊར་ནེཊི་མཐུད་ཡོད་པའི་ཐབས་འཕྲུལ་ཚུ་ ཅོག་མི་འཐད།"
+
+#: ../src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr "བཀྲམ་སྤེལ་འབད་ཡོད་པའི་ ཌི་ཨེཅི་སི་པི་ རིམ་སྒྲིག་འདི་ ནུས་མེད་ཨིན།"
+
+#: ../src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "ཕ་ཡེར་ཝཱལ་ཝི་ཛརཌི།"
+
+#: ../src/wizard.c:643
+msgid "Welcome to Firestarter"
+msgstr "ཕ་ཡེར་ཨིསི་ཊ་ཊར་ནང་བྱོན་པ་ལེགས་སོ།"
+
+#: ../src/wizard.c:649
+msgid "Network device setup"
+msgstr "ཡོངས་འབྲེལ་ཞབས་ཏོག་གཞི་སྒྲིག"
+
+#: ../src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "ཨིན་ཊར་ནེཊི་མཐུད་ལམ་རུབ་སྤྱོད་གཞི་སྒྲིག"
+
+#. Final page
+#: ../src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "ཁྱོད་ཀྱི་ཕ་ཡེར་ཝཱལ་ འགོ་བཙུགས་ནིའི་གྲ་སྒྲིག་ཨིན།"
+
+#~ msgid "Virtual IPv6 device"
+#~ msgstr "བར་ཅུ་ཡལ་ ཨའི་པི་ཝི་༦ ཐབས་འཕྲུལ།"
+#~ msgid "Network Setup"
+#~ msgstr "ཡོངས་འབྲེལ་གཞི་སྒྲིག"
+#~ msgid "Connection Sharing"
+#~ msgstr "མཐུད་ལམ་རུབ་སྤྱོད་འབད་དོ།"
+#~ msgid "Setup Complete"
+#~ msgstr "གཞི་སྒྲིག་མཇུག་བསྡུ་ཡོད།"
+#~ msgid "High"
+#~ msgstr "མཐོ།"
+#~ msgid "Traffic must match policy"
+#~ msgstr "འགྲུལ་ལམ་འདི་སྲིད་བྱུས་དང་མཐུན་དགོ"
+#~ msgid "Low"
+#~ msgstr "དམའ།"
+#~ msgid "Traffic is unrestricted"
+#~ msgstr "འགྲུལ་ལམ་འདི་བཀག་དམ་ཅན་མེན།"
+#~ msgid "None"
+#~ msgstr "ཅི་་མེད།"
+#~ msgid "Depends on system settings"
+#~ msgstr "རིམ་ལུགས་སྒྲིག་སྟངས་ཚུ་ལུ་རྟེནམ་ཨིན།"
+#~ msgid "Local Network"
+#~ msgstr "ཉེ་གནས་ཡོངས་འབྲེལ།"
+#~ msgid "Untrusted Network"
+#~ msgstr "བློ་གཏད་མིན་པའི་ཡོངས་འབྲེལ།"
+#~ msgid "Trusted Network"
+#~ msgstr "བློ་གཏད་ཅན་གྱི་ཡོངས་འབྲེལ།"
+#~ msgid "Ignored Network"
+#~ msgstr "སྣང་མེད་བཞག་ཡོད་པའི་ཡོངས་འབྲེལ།"
+#~ msgid "Share Internet connection"
+#~ msgstr "ཨིན་ཊར་ནེཊི་གི་མཐུད་ལམ་རུབ་སྤྱོད་འབད།"
+#~ msgid "Enable DHCP service"
+#~ msgstr "ཌི་ཨེཆ་སི་པི་ཞབས་ཏོག་ལྕོགས་ཅན་བཟོ།"
+#~ msgid "DHCP details"
+#~ msgstr "ཌི་ཨེཆ་སི་པི་རྒྱས་བཤད།"
+#~ msgid "How to install a DHCP server package"
+#~ msgstr "ཌི་ཨེཆ་སི་པི་སར་བར་གྱི་འཕྲིན་ཚན་ག་དེ་སྦེ་གཞི་བཙུགས་འབདཝ་ཨིན་ན།"
+#~ msgid "The interface markup file wizard.glade could not be found."
+#~ msgstr "ངོས་འདྲ་བ་རྟགས་བཀོད་ནིའི་ཡིག་སྣོད་ཝི་ཛརཌི་ གེལེཌི་འདི་མ་ཐོབ།"
+#~ msgid "<b>Network services:</b>"
+#~ msgstr "<b>ཡོངས་འབྲེལ་གྱི་ཞབས་ཏོག་ཚུ:</b>"
+#~ msgid "<b>Note:</b>"
+#~ msgstr "<b>དྲན་འཛིན:</b>"
+#~ msgid ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">Network Device</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">ཡོངས་འབྲེལ་ཐབས་"
+#~ "འཕྲུལ</span>"
+#~ msgid ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">Network</span>"
+#~ msgstr ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">ཡོངས་འབྲེལ</span>"
+#~ msgid ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">Security Level</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">སྲུང་སྐྱོབ་གནས་རིམ།</"
+#~ "span>"
+#~ msgid ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">Security "
+#~ "Profile</span>"
+#~ msgstr ""
+#~ "<span size=\"large\" weight=\"bold\" underline=\"single\">སྲུང་སྐྱོབ་སྣོད་འཛིན།</"
+#~ "span>"
+#~ msgid ""
+#~ "<span size=\"x-large\" weight=\"ultrabold\">Firewall Setup Wizard</span>"
+#~ msgstr ""
+#~ "<span size=\"x-large\" weight=\"ultrabold\">ཕ་ཡེར་ཝཱལ་གཞི་སྒྲིག་ཝི་ཛརཌི།</span>"
+#~ msgid ""
+#~ "<span size=\"x-large\" weight=\"ultrabold\">Ready to start your firewall</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size=\"x-large\" weight=\"ultrabold\">ཁྱོད་ཀྱི་ཕ་ཡེར་ཝཱལ་འགོ་བཙུགས་ནི་གྲ་སྒྲིག་"
+#~ "ཨིན</span>"
+#~ msgid "Devices"
+#~ msgstr "ཐབས་འཕྲུལ་ཚུ།"
+#~ msgid "Done"
+#~ msgstr "འབད་ཚར།"
+#~ msgid ""
+#~ "Firestarter has detected the following network device(s) in your "
+#~ "machine.\n"
+#~ "Please specify for each device the type of network it is connected to."
+#~ msgstr ""
+#~ "ཕ་ཡེར་ཨིསི་ཊ་ཊར་གྱིས་ཁྱོད་རའི་གློག་འཕྲུལ་ནང་འོག་གི་ཡོངས་འབྲེལ་གྱི་ཐབས་འཕྲུལ་(ཚུ་)སྐྱོན་འཛིན་བྱུང་ཡོད།\n"
+#~ "ཐབས་འཕྲུལ་རེ་ལུ་ ཡོངས་འབྲེལ་གྱི་དབྱེ་བ་ག་ཅི་བཟུམ་ཅིག་ལུ་མཐུད་ཡོདཔ་ཨིན་ན་གསལ་བཀོད་འབད་གནང་།"
+#~ msgid "Header"
+#~ msgstr "མགོ་ཡིག"
+#~ msgid ""
+#~ "If you are running any publicly accessible services on the firewall host, "
+#~ "please select them below."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ ཕ་ཡེར་ཝཱལ་ཧོསཊི་གུ་ཡོངས་གྲགས་སུ་འཛུལ་སྤྱོད་འབད་ཚུགས་མི་ཚུ་གཡོག་བཀོལཝ་ཨིན་པ་ཅིན་ འདི་ཚུ་"
+#~ "འོག་ལུ་སེལ་འཐུ་འབད་གནང་།"
+#~ msgid "Overwrite existing DHCP configuration"
+#~ msgstr "ཡོད་བཞིན་པའི་ཌི་ཨེཆ་སི་པི་ རིམ་སྒྲིག་ཚབ་སྲུང་འབད།"
+#~ msgid "Services"
+#~ msgstr "ཞབས་ཏོག་ཚུ།"
+#~ msgid "Sharing"
+#~ msgstr "རུབ་སྤྱོད་འབད་དོ།"
+#~ msgid ""
+#~ "The services can later easily be changed from the Firestarter policy tab."
+#~ msgstr ""
+#~ "ཞབས་ཏོག་ཚུ་ཤུལ་ལས་འཇམ་ཏོང་ཏོ་འབད་ ཕ་ཡེར་ཨིསི་ཊ་ཊར་སྲིད་བྱུས་ཀྱི་མཆོང་ལྡེ་ལས་བསྒྱུར་བཅོས་འབད་"
+#~ "ཚུགས།"
+#~ msgid "Welcome"
+#~ msgstr "བྱོན་པ་ལེགས་སོ།"
+

@@ -1,0 +1,103 @@
+# translation of filter.properties.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/messenger/filter.properties
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: filter.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-16 16:32+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:56 EST 2006
+#: mustSelectAction
+msgid "You must select at least one filter action."
+msgstr "ཁྱོད་ཀྱིས་ཉུང་མཐའ་ཚགས་མའི་བྱ་བ་གཅིག་སེལ་འཐུ་འབད་དགོ"
+
+#: deleteFilterConfirmation
+msgid "Are you sure you want to delete this filter?"
+msgstr "ཁྱོད་འ་ནི་ཚགས་མ་བཏོན་གཏང་ནི་ལུ་ངེས་ཏིག་ཨིན་ན?"
+
+#: customHeaderOverflow
+msgid "You've exceeded the limit of 50 custom headers. Please remove one or more custom headers and try again."
+msgstr "ཁྱོད་ཀྱིས་སྲོལ་སྒྲིག་ ༥༠ མགོ་ཡིག་གི་ཚད་ལས་ལྷག་ཡོད། སྲོལ་སྒྲིག་གི་མགོ་ཡིག་གཅིག་ཡང་ན་དེ་ལས་ལྷག་སྟེ་རྩ་བསྐྲད་གཏང་སྟེ་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: cannotEnableFilter
+msgid "This filter was probably created by future version of mozilla/netscape. You cannot enable this filter because we don't know how to apply it."
+msgstr "འ་ནི་ཚགས་མ་དེ་ ཡང་ཅིན་མོ་ཛིལ་ལ་/ནེཊི་སིཀེཔ་གི་མ་འོངས་ཐོན་རིམ་གྱིས་གསར་བསྐྲུན་འབད་འབད་འོང་། ཁྱོད་ཀྱིས་འ་ནི་ཚགས་མ་འདི་ལྕོགས་ཅན་བཟོ་མི་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ང་བཅས་ཀྱིས་ག་དེ་སྦེ་འཇུག་སྤྱོད་འབད་ནི་ཨིན་ན་མི་ཤེས།"
+
+#: continueButtonLabel
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད།"
+
+#: cannotHaveDuplicateFilterMessage
+msgid "The filter name you entered already exists. Please enter a different filter name."
+msgstr "ཚགས་མའི་མིང་ཁྱོད་ཀྱིས་ཐོ་བཀོད་འབད་མི་དེ་ཧེ་མ་ལས་རང་ཡོད། ཚགས་མའི་མིང་སོ་སོ་ཅིག་ཐོ་བཀོད་འབད་གནང་།"
+
+#: mustSelectPriority
+msgid "You must select a priority."
+msgstr "ཁྱོད་ཀྱིས་གཙོ་རིམ་ཅིག་སེལ་འཐུ་འབད་དགོ"
+
+#: invalidCustomHeader
+msgid "One of your filters uses a custom header that contains an invalid character, such as '\\:', a non-printable character, a non-ascii character, or an eight-bit ascii character. Please edit the msgFilterRules.dat file, which contains your filters, to remove invalid characters from your custom headers."
+msgstr "ཁྱོད་ཀྱི་ཚགས་མ་ཚུའི་གྲལ་ལས་གཅིག་གིས་སྲོལ་སྒྲིག་གི་མགོ་ཡིག་ནང་ན་ནུས་མེད་ཡིག་འབྲུ་ དཔེར་ན་ '\\:' དཔར་བསྐྲུན་འབད་མ་བཏུབ་པའི་ཡིག་འབྲུ་ ཨེ་ཨེསི་སི་ཨའི་ཨའི་གི་ཡིག་འབྲུ་མེན་མི་ ཡང་ན་བརྒྱད་བིཊི་ཨེ་ཨེསི་སི་ཨའི་ཨའི་གི་ཡིག་འབྲུ་གཅིག་ ཡོད་མི་ལག་ལེན་འཐབ་ཨིན་པས། ཁྱོད་རའི་སྲོལ་སྒྲིག་གི་མགོ་ཡིག་ནང་ལས་ནུས་མེད་ཡིག་འབྲུ་ཚུ་རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ འཕྲིན་དོན་ཚགས་མའི་ལམ་ལུགས་ གནད་སྡུད་ཡིག་སྣོད་ཁྱོད་ཀྱི་ཚགས་མ་ཡོད་མི་དེ་ཞུན་དག་འབད།"
+
+#: filterListBackUpMsg
+msgid "Your filters do not work because the msgFilterRules.dat file, which contains your filters, could not be read. A new msgFilterRules.dat file will be created and a backup of the old file, called rulesbackup.dat, will be created in the same directory."
+msgstr "ཁྱོད་ཀྱི་ཚགས་མ་འདི་ལཱ་མི་འབད་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  འཕྲིན་དོན་ཚགས་མའི་ལམ་ལུགས་ གནད་སྡུད་ཡིག་སྣོད་ཁྱོད་ཀྱི་ཚགས་མ་ཚུ་ཡོད་མི་དེ་ལྷག་མི་ཚུགས། འཕྲིན་དོན་ཚགས་མའི་ལམ་ལུགས་གནད་སྡུད་ཡིག་སྣོད་གསརཔ་གཅིག་གསར་བསྐྲུན་འབད་འོང་ དེ་ལས་ཡིག་སྣོད་རྙིངམ་གི་རྒྱབ་ཐག་སྦེ་ ལམ་ལུགས་རྒྱབ་ཐག་ གནད་སྡུད་ཟེར་སླབ་མི་ཅིག་ སྣོད་ཐོ་གཅིག་པ་ནང་རང་གསར་བསྐྲུན་འབད་འོང་།"
+
+#: cannotHaveDuplicateFilterTitle
+msgid "Duplicate Filter Name"
+msgstr "ཚགས་མའི་མིང་རྫུན་མ།"
+
+#: promptTitle
+msgid "Running Filters"
+msgstr "ཚགས་མ་ཚུ་གཡོག་བཀོལ་དོ།"
+
+#: mustSelectLabel
+msgid "You must select a label."
+msgstr "ཁྱོད་ཀྱིས་ཁ་ཡིག་ཅིག་སེལ་འཐུ་འབད་དགོ"
+
+#: untitledFilterName
+msgid "Untitled Filter"
+msgstr "མགོ་མིང་མ་བཀོད་པའི་ཚགས་མ།"
+
+#: mustSelectFolder
+msgid "You must select a target folder."
+msgstr "ཁྱོད་ཀྱིས་དམིགས་གཏད་ཀྱི་སྣོད་འཛིན་ཅིག་སེལ་འཐུ་འབད་དགོ"
+
+#: filterCustomHeaderOverflow
+msgid "Your filters have exceeded the limit of 50 custom headers. Please edit the msgFilterRules.dat file, which contains your filters, to use fewer custom headers."
+msgstr "ཁྱོད་ཀྱི་ཚགས་མ་དེ་ ༥༠་ སྲོལ་སྒྲིག་མགོ་ཡིག་གི་བཅད་མཚམས་ལས་ལྷག་སོང་ནུག འཕྲིན་དོན་ཚགས་མའི་ལམ་ལུགས་ གནད་སྡུད་ཡིག་སྣོད་ ཁྱོད་ཀྱི་ཚགས་མ་ཚུ་ཡོད་མི་ གིས་སྲོལ་སྒྲིག་གི་མགོ་ཡིག་ཉུང་མི་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ཞུན་དག་འབད་གནང་།"
+
+#: continueFilterExecution
+msgid "Applying filter %S failed. Would you like to continue applying filters?"
+msgstr "ཚགས་མ་་%S འཇུག་སྤྱོད་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོད། ཁྱོད་ཚགས་མ་ཚུ་འཇུག་སྤྱོད་འབད་ནི་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: promptMsg
+msgid ""
+"You are currently in the process of filtering messages.\n"
+"Would you like to continue applying filters?"
+msgstr ""
+"ཁྱོད་ད་ལྟོ་འཕྲིན་དོན་ཚུ་བཙགས་ནི་ལས་སྦྱོར་ནང་ཡོད།\n"
+"ཁྱོད་ཚགས་མ་ཚུ་འཇུག་སྤྱོད་འབད་ནི་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: mustEnterName
+msgid "You must give this filter a name."
+msgstr "ཁྱོད་ཀྱིས་འ་ནི་ཚགས་མ་འདི་ལུ་མིང་གཅིག་བྱིན་དགོ"
+
+#: stopButtonLabel
+msgid "Stop"
+msgstr "བཀག"
+

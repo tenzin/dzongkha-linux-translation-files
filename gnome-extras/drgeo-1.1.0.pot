@@ -1,0 +1,2372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drgeo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-18 11:25+0600\n"
+"PO-Revision-Date: 2007-04-22 23:16+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../drgenius_main.cc:56
+#, c-format
+msgid ""
+"Command line options:\n"
+"Term under [] are options, || means OR:\n"
+"   drgeo [--file geo_file_name || macro_file_name] [geo_file_name.fgeo] [macro_file_name.mgeo] [--evaluate dsf_file_name] [--texmacs] [--help]\n"
+"\n"
+"--file       : to load a Dr. Geo file\n"
+"--evaluate   : to load and evaluate a Dr. Geo Scheme Figure (DSF)\n"
+"--texmacs    : start Dr. Geo as a TeXmacs plug-in\n"
+"--help       : this help summary\n"
+"\n"
+"Several files can be loaded using a --file command for each\n"
+"\n"
+msgstr ""
+"བརྡ་བཀོད་གྱལ་གདམ་ཁ་ཚུ་:\n"
+"Term under [] are options, || means OR:\n"
+"   drgeo [--file geo_file_name || macro_file_name] [geo_file_name.fgeo] [macro_file_name.mgeo] [--evaluate dsf_file_name] [--texmacs] [--help]\n"
+"\n"
+"--file       :  Dr. Geo ཡིག་སྣོད་མངོན་གསལ་འབད་ནི་ལུ་\n"
+"--evaluate   :  Dr. Geo འཆར་ལས་དཔར་རིས་ (DSF)བརྟག་ཞིབ་འབད་ནི་ལུ་དང་མངོན་གསལ་འབད་ནི་ལུ་\n"
+"--texmacs    :  Dr. Geo  TeXmacs plug-inབཟུམ་སྦེ་Dr. Geoའགོ་བཙུགས།\n"
+"--help       : བཅུད་དོན་གྲོགས་རམ་འབདཝ་ཨིན།\n"
+"\n"
+"Several files can be loaded using a --file command for each\n"
+"\n"
+
+#: ../drgenius_main.cc:160
+#, c-format
+msgid ""
+"\n"
+"Miss a filename in --file\n"
+"\n"
+msgstr ""
+"\n"
+"ནང་ཡིག་སྣོད་མིང་ཅིག་མིསི་ --ཡིག་སྣོད།\n"
+"\n"
+
+#: ../drgenius_main.cc:172
+#, c-format
+msgid ""
+"\n"
+"Miss a filename to evaluate in --evaluate\n"
+"\n"
+msgstr ""
+"\n"
+"ནང་བརྟག་ཞིབ་འབད་ནི་ལུ་ཡིག་སྣོད་མིང་ཅིག་མིསི --བརྟག་ཞིབ་འབད་ནི།\n"
+"\n"
+
+#: ../drgenius_main.cc:196
+#, c-format
+msgid "Unknown file type: %s (try .fgeo, .mgeo)\n"
+msgstr "མ་ཤེས་པའི་ཡིག་སྣོད་དབྱེ་བ་: %s (try .fgeo, .mgeo)\n"
+
+#: ../drgenius_main.cc:200
+#, c-format
+msgid ""
+"\n"
+"Unknows command: %s\n"
+msgstr ""
+"\n"
+"མ་ཤེས་པའི་བརྡ་བཀོད་: %s\n"
+
+#: ../drgenius_mdi.cc:99
+msgid "Welcome to GNU Dr. Geo - Free Interactive geometry by OFSET"
+msgstr "ཨོཕ་སིཊི་ཇི་ཨེན་ཡུ་ ཌི་ཨར་.ཇི་ཨི་ཨོ་-རང་དབང་ཕན་ཚུན་འབྲེལ་ལྡན་ཐིག་རྩིས་ལུ་བྱོན་པ་ལེགས་སོ།"
+
+#: ../drgenius_mdi.cc:149
+#, c-format
+msgid "Error loading file '%s'"
+msgstr "ཡིག་སྣོད་མངོན་གསལ་འབད་ནི་འཛོལ་བ་ '%s'"
+
+#: ../drgenius_mdi.cc:592
+msgid "Are you sure to quit Dr. Geo?"
+msgstr "ཁྱོད་ཀྱིས་ཌི་ཨར་ ཇི་ཨི་ཨོ་སྤང་ནི་ལུ་ངེས་ཏིག་ཨིན་ན?"
+
+#: ../drgenius_mdi.cc:643
+#: ../drgenius_mdi.cc:703
+#, c-format
+msgid "Can't open file '%s'"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་མི་བཏུབ་ '%s'"
+
+#: ../drgenius_mdi.cc:668
+msgid "Open..."
+msgstr "ཁ་ཕྱེ་..."
+
+#: ../drgenius_mdi.cc:727
+msgid "Evaluate..."
+msgstr "བརྟག་ཞིབ་..."
+
+#: ../drgenius_mdi.cc:767
+#: ../drgenius_mdi.cc:797
+#, c-format
+msgid "Error saving to '%s'!"
+msgstr "ལུ་སྲུང་བཞག་འཛོལ་བ་ '%s'!"
+
+#: ../drgenius_mdi.cc:829
+#: ../drgenius_mdi.cc:859
+#: ../drgenius_mdi.cc:890
+#: ../drgenius_mdi.cc:925
+#, c-format
+msgid "Error exporting to '%s'!"
+msgstr "ལུ་ཕྱིར་འདྲེན་འབད་ནི་འཛོལ་བ་ '%s'!"
+
+#: ../drgenius_mdi.cc:943
+#, c-format
+msgid ""
+"Error exporting to '%s'!\n"
+"Exporting to PNG required the Image Magick package.\n"
+"Install it and try again!"
+msgstr ""
+"ལུ་ཕྱིར་འདྲེན་འབད་ནི་འཛོལ་བ '%s'!\n"
+"གཟུགས་བརྙན་མེ་ཇིཀ་ཐུམ་སྒྲིལ་འདི་དགོས་མཁོ་ཡོད་མི་པི་ཨེན་ཇི་ལུ་ཕྱིར་འདྲེན་འབད་དོ།\n"
+"གཞི་བཙུགས་འབད་སྦེ་ལོག་འབད་རྩོལ་བསྐྱེད!"
+
+#: ../drgenius_mdi.cc:972
+msgid "Define the printing area"
+msgstr "དཔར་བསྐྲུན་མངའ་ཁོངས་འདི་ངེས་འཛིན་འབད།"
+
+#: ../drgenius_mdi.cc:1003
+#: ../drgenius_mdi.cc:1087
+#: ../drgenius_mdi.cc:1112
+#: ../drgenius_mdi.cc:1138
+#: ../drgenius_mdi.cc:1165
+#: ../drgenius_mdi.cc:1192
+#, c-format
+msgid ""
+"File '%s' exists!\n"
+"Overwrite?"
+msgstr ""
+"ཡིག་སྣོད་ '%s' ཡོདཔ་!\n"
+"ཚབ་སྲུང་འབད་ནི་?"
+
+#: ../drgenius_mdi.cc:1027
+msgid "Save As..."
+msgstr "བཟུམ་སྦེ་སྲུང་བཞག..."
+
+#: ../drgenius_mdi.cc:1215
+#: ../drgenius_mdi.cc:1865
+msgid "Interactive 2D Figure"
+msgstr "ཕན་ཚུན་འབྲེལ་ལྡན་དཔར་རིས་༢་ཌི་"
+
+#: ../drgenius_mdi.cc:1216
+msgid "Console"
+msgstr "མ་སྒྲོམ་"
+
+#: ../drgenius_mdi.cc:1217
+#: ../drgenius_mdi.cc:1866
+msgid "Text Buffer"
+msgstr "ཚིག་ཡིག་གནད་ཁོངས།"
+
+#: ../drgenius_mdi.cc:1241
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../drgenius_mdi.cc:1246
+#: ../glade/drgeo2.glade.h:68
+msgid "Name"
+msgstr "མིང་།"
+
+#. Next we add the list of avalaible macro-construction
+#: ../drgenius_mdi.cc:1280
+#: ../drgenius_mdi.cc:1872
+#: ../glade/drgeo2.glade.h:66
+msgid "Macro-construction"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན།"
+
+#: ../drgenius_mdi.cc:1365
+msgid "Error printing the current figure!"
+msgstr "ད་ལྟོའི་དཔར་རིས་འདི་དཔར་བསྐྲུན་འབད་ནི་འཛོལ་བ་!"
+
+#: ../drgenius_mdi.cc:1409
+msgid ""
+"Only geometric figure\n"
+"can be exported to Flydraw!"
+msgstr ""
+"ཐིག་རྩིས་ཀྱི་དཔར་རིས་རྐྱངམ་ཅིག་\n"
+"ཕལའི་ཌོ་ལུ་ཕྱིར་འདྲེན་འབད་བཏུབ་ཨིན!"
+
+#: ../drgenius_mdi.cc:1426
+#: ../drgenius_mdi.cc:1478
+#: ../drgenius_mdi.cc:1529
+#: ../drgenius_mdi.cc:1585
+#: ../glade/drgeoMDI.glade.h:43
+msgid "Export As..."
+msgstr "བཟུམ་སྦེ་ཕྱིར་འདྲེན་འབད་..."
+
+#: ../drgenius_mdi.cc:1461
+msgid ""
+"Only geomteric figure\n"
+"can be exported to LaTex!"
+msgstr ""
+"ཐིག་རྩིས་ཀྱི་དཔར་རིས་རྐྱངམ་ཅིག་\n"
+"ལེ་ཊེགསི་ལུ་ཕྱིར་འདྲེན་འབད་བཏུབ!"
+
+#: ../drgenius_mdi.cc:1513
+msgid ""
+"Only geomteric figure\n"
+"can be exported to PostScript!"
+msgstr ""
+"ཐིག་རྩིས་ཀྱི་དཔར་རིས་རྐྱངམ་ཅིག་\n"
+"པོསིཊི་སིཀིརིཔཊི་ལུ་ཕྱིར་འདྲེན་འབད་བཏུབ!"
+
+#: ../drgenius_mdi.cc:1566
+msgid ""
+"Only geomteric figure\n"
+"can be exported to PNG!"
+msgstr ""
+"ཐིག་རྩིས་ཀྱི་དཔར་རིས་རྐྱངམ་ཅིག་\n"
+"པི་ཨེན་ཇི་ལུ་ཕྱིར་འདྲེན་འབད་བཏུབ!"
+
+#: ../drgenius_mdi.cc:1705
+msgid "Are you sure to close this figure?"
+msgstr "ཁྱོད་ཀྱིས་དཔར་རིས་འདི་ཁ་བསྡམས་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: ../drgenius_mdi.cc:1729
+msgid "About Dr. Geo"
+msgstr "ཌི་ཨར་.ཇི་ཨི་ཨོ་གི་སྐོར་ལས།"
+
+#. VERSION
+#: ../drgenius_mdi.cc:1742
+msgid ""
+"\n"
+"Free Interactive Geometry\n"
+"\n"
+"(c) Copyright 1996-2005 H. Fernandes  \n"
+"(c) Copyright 2000 L. Gauthier\n"
+"(c) Copyright 2000-2005 OFSET\n"
+"Translation: translator_name"
+msgstr ""
+"\n"
+"རང་དབང་ཕན་ཚུག་འབྲེལ་ལྡན་ཐིག་རྩིས།\n"
+"\n"
+"(སི) འདྲ་བཤུས་དབང་ཆ་ ༡༩༩༦-༢༠༠༥ ཨེཆ་.ཕར་ནེནཊིསི།  \n"
+"(སི) འདྲ་བཤུས་དབང་ཆ་ ༢༠༠༠ ཨེལ་.གའུ་ཐི་ཡར།\n"
+"(སི) འདྲ་བཤུས་དབང་ཆ ༢༠༠༠-༢༠༠༥ ཨོཕ་སིཊི\n"
+"སྐད་བསྒྱུར་: སྐད་བསྒྱུར་པའི་མིང་།(_n)"
+
+#: ../drgenius_mdi.cc:1826
+msgid "Save Session As..."
+msgstr "བཟུམ་སྦེ་ལཱ་ཡུན་སྲུང་བཞག་འབད་..."
+
+#: ../drgenius_mdi.cc:1921
+#: ../geo/drgeo_control.cc:812
+msgid "Play a recorded macro-construction"
+msgstr "སྒྲ་བཟུང་འབད་ཡོད་མི་མེཀརོ་བཟོ་བསྐྲུན་ཅིག་གཏང་།"
+
+#: ../drgenius_mdi.cc:1976
+msgid "Select a free point to animate it"
+msgstr "འདི་བསྒུལ་ཅན་བཟོ་ནི་ལུ་རང་དབང་རྩེ་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../drgeo.desktop.in.h:1
+msgid "Dr.Geo"
+msgstr "ཌི་ཨར་.ཇི་ཨི་ཨོ།"
+
+#: ../drgeo.desktop.in.h:2
+msgid "Dr.Geo Math Tool"
+msgstr "ཌི་ཨར་.ཇི་ཨི་ཨོ་ཨང་རྩིས་ལག་ཆས།"
+
+#: ../drgeo_adaptDialog.cc:404
+msgid ""
+"Password does not match\n"
+" Access denied!"
+msgstr ""
+"ཆོག་ཡིག་མཐུན་སྒྲིག་མི་འབད\n"
+"འཛུལ་སྤྱོད་འབད་ནི་ཉན་མི་བཏུབ་པར་ཡོདཔ་!"
+
+#. create a new name
+#: ../editor_view.cc:42
+#, c-format
+msgid "Text %d"
+msgstr "ཚིག་ཡིག་ %d"
+
+#: ../geo_view.cc:32
+#, c-format
+msgid "Figure %d"
+msgstr "དཔར་རིས་ %d"
+
+#: ../geo_view.cc:132
+msgid "Items"
+msgstr "རྣམ་གྲངས་ཚུ།"
+
+#: ../geo/drgeo_angle.cc:210
+#: ../geo/drgeo_angle.cc:241
+msgid "this angle %1"
+msgstr "གྲུ་ཟུར་འདི་ %1"
+
+#: ../geo/drgeo_angle.cc:285
+#, c-format
+msgid "Geometric angle:: %s"
+msgstr "ཐིག་རྩིས་ཀྱི་གྲུ་ཟུར:: %s"
+
+#: ../geo/drgeo_angle.cc:286
+#: ../geo/drgeo_angle.cc:288
+#: ../geo/drgeo_arcCircle.cc:377
+#: ../geo/drgeo_circle.cc:359
+#: ../geo/drgeo_halfLine.cc:260
+#: ../geo/drgeo_line.cc:320
+#: ../geo/drgeo_numeric.cc:481
+#: ../geo/drgeo_numeric.cc:486
+#: ../geo/drgeo_numeric.cc:503
+#: ../geo/drgeo_numeric.cc:510
+#: ../geo/drgeo_numeric.cc:517
+#: ../geo/drgeo_numeric.cc:518
+#: ../geo/drgeo_point.cc:445
+#: ../geo/drgeo_point.cc:446
+#: ../geo/drgeo_polygon.cc:289
+#, c-format
+msgid "Point %s"
+msgstr "རྩེ་ %s"
+
+#: ../geo/drgeo_angle.cc:287
+#, c-format
+msgid "Vertex %s"
+msgstr "སྤྱི་ཏོག %s"
+
+#: ../geo/drgeo_angle.cc:292
+#, c-format
+msgid "Oriented angle:: %s"
+msgstr "ཕྱོགས་ཡོད་མི་གྲུ་ཟུར་:: %s"
+
+#: ../geo/drgeo_angle.cc:293
+#: ../geo/drgeo_angle.cc:294
+#: ../geo/drgeo_numeric.cc:461
+#: ../geo/drgeo_numeric.cc:491
+#: ../geo/drgeo_numeric.cc:496
+#, c-format
+msgid "Vector %s"
+msgstr "མཉམ་ཐིག %s"
+
+#: ../geo/drgeo_arcCircle.cc:282
+#: ../geo/drgeo_arcCircle.cc:286
+msgid "this arc %1"
+msgstr "གཞུ་དབྱིབས་འདི་ %1"
+
+#: ../geo/drgeo_arcCircle.cc:335
+#, c-format
+msgid "Rotate arc-circle:: %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་བསྒྱིར་:: %s"
+
+#: ../geo/drgeo_arcCircle.cc:336
+#: ../geo/drgeo_arcCircle.cc:344
+#: ../geo/drgeo_arcCircle.cc:351
+#, c-format
+msgid "Transformed arc-circle %s"
+msgstr "བཟོ་བསྒྱུར་ཡོད་མི་གཞུ་དབྱིབས་སྒོར་ཐིག %s"
+
+#: ../geo/drgeo_arcCircle.cc:338
+#: ../geo/drgeo_arcCircle.cc:346
+#: ../geo/drgeo_arcCircle.cc:369
+#: ../geo/drgeo_circle.cc:319
+#: ../geo/drgeo_circle.cc:327
+#: ../geo/drgeo_circle.cc:350
+#: ../geo/drgeo_circle.cc:358
+#: ../geo/drgeo_circle.cc:366
+#: ../geo/drgeo_circle.cc:375
+#: ../geo/drgeo_halfLine.cc:221
+#: ../geo/drgeo_halfLine.cc:229
+#: ../geo/drgeo_halfLine.cc:252
+#: ../geo/drgeo_line.cc:282
+#: ../geo/drgeo_line.cc:290
+#: ../geo/drgeo_line.cc:312
+#: ../geo/drgeo_point.cc:383
+#: ../geo/drgeo_point.cc:391
+#: ../geo/drgeo_point.cc:413
+#: ../geo/drgeo_polygon.cc:297
+#: ../geo/drgeo_polygon.cc:305
+#: ../geo/drgeo_polygon.cc:328
+#: ../geo/drgeo_segment.cc:223
+#: ../geo/drgeo_segment.cc:231
+#: ../geo/drgeo_segment.cc:254
+#: ../geo/drgeo_vector.cc:248
+#: ../geo/drgeo_vector.cc:256
+#: ../geo/drgeo_vector.cc:279
+#, c-format
+msgid "Center %s"
+msgstr "དབུས་ %s"
+
+#: ../geo/drgeo_arcCircle.cc:339
+#: ../geo/drgeo_circle.cc:320
+#: ../geo/drgeo_halfLine.cc:222
+#: ../geo/drgeo_line.cc:283
+#: ../geo/drgeo_point.cc:384
+#: ../geo/drgeo_polygon.cc:298
+#: ../geo/drgeo_segment.cc:224
+#: ../geo/drgeo_vector.cc:249
+#, c-format
+msgid "Angle %s"
+msgstr "གྲུ་ཟུར་ %s"
+
+#: ../geo/drgeo_arcCircle.cc:343
+#: ../geo/drgeo_arcCircle.cc:350
+#, c-format
+msgid "Symmetric arc-circle:: %s"
+msgstr "མཛེས་སྙོམས་གཞུ་དབྱིབས་སྒོར་ཐིག:: %s"
+
+#: ../geo/drgeo_arcCircle.cc:353
+#: ../geo/drgeo_circle.cc:334
+#: ../geo/drgeo_halfLine.cc:236
+#: ../geo/drgeo_line.cc:297
+#: ../geo/drgeo_point.cc:398
+#: ../geo/drgeo_polygon.cc:312
+#: ../geo/drgeo_segment.cc:238
+#: ../geo/drgeo_vector.cc:263
+#, c-format
+msgid "Reflexion axe %s"
+msgstr "འཆར་གཟུགས་ཚད་ཐིག་ %s"
+
+#: ../geo/drgeo_arcCircle.cc:358
+#, c-format
+msgid "Translate arc-circle:: %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་སྐད་བསྒྱུར་འབད།:: %s"
+
+#: ../geo/drgeo_arcCircle.cc:359
+#, c-format
+msgid "Translated arc-circle %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་སྐད་བསྒྱུར་འབད། %s"
+
+#: ../geo/drgeo_arcCircle.cc:361
+#: ../geo/drgeo_circle.cc:342
+#: ../geo/drgeo_halfLine.cc:244
+#: ../geo/drgeo_line.cc:305
+#: ../geo/drgeo_point.cc:406
+#: ../geo/drgeo_polygon.cc:320
+#: ../geo/drgeo_segment.cc:246
+#: ../geo/drgeo_vector.cc:271
+#, c-format
+msgid "Vector of translation %s"
+msgstr "སྐད་བསྒྱུར་གྱི་མཉམ་ཐིག %s"
+
+#: ../geo/drgeo_arcCircle.cc:366
+#, c-format
+msgid "Scale arc-circle:: %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་ཚད་འཇལ:: %s"
+
+#: ../geo/drgeo_arcCircle.cc:367
+#, c-format
+msgid "Scaled arc-circle %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་ཚད་འཇལ་ཡོདཔ། %s"
+
+#: ../geo/drgeo_arcCircle.cc:370
+#: ../geo/drgeo_circle.cc:351
+#: ../geo/drgeo_halfLine.cc:253
+#: ../geo/drgeo_line.cc:313
+#: ../geo/drgeo_point.cc:414
+#: ../geo/drgeo_polygon.cc:329
+#: ../geo/drgeo_segment.cc:255
+#: ../geo/drgeo_vector.cc:280
+#, c-format
+msgid "Factor %s"
+msgstr "ཆ་རྐྱེན། %s"
+
+#: ../geo/drgeo_arcCircle.cc:375
+#, c-format
+msgid "Arc-circle defined by three points:: %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་རྩེ་གསུམ་གྱིས་ངེས་འཛིན་འབད་ཡོདཔ།:: %s"
+
+#: ../geo/drgeo_arcCircle.cc:376
+#: ../geo/drgeo_arcCircle.cc:378
+#: ../geo/drgeo_segment.cc:261
+#: ../geo/drgeo_segment.cc:262
+#: ../geo/drgeo_vector.cc:287
+#, c-format
+msgid "Extremity %s"
+msgstr "མཐའ་ཟུར %s"
+
+#: ../geo/drgeo_circle.cc:258
+#: ../geo/drgeo_circle.cc:262
+msgid "this circle %1"
+msgstr "སྒོར་ཐིག་འདི་ %1"
+
+#: ../geo/drgeo_circle.cc:316
+#, c-format
+msgid "Rotate circle:: %s"
+msgstr "སྒོར་ཐིག་བསྒྱིར།:: %s"
+
+#: ../geo/drgeo_circle.cc:317
+#: ../geo/drgeo_circle.cc:325
+#: ../geo/drgeo_circle.cc:332
+#, c-format
+msgid "Transformed circle %s"
+msgstr "སྒོར་ཐིག་བཟོ་བསྒྱུར་འབད་ཡོདཔ། %s"
+
+#: ../geo/drgeo_circle.cc:324
+#: ../geo/drgeo_circle.cc:331
+#, c-format
+msgid "Symmetric circle:: %s"
+msgstr "མཛེས་སྙོམས་པའི་སྒོར་ཐིག:: %s"
+
+#: ../geo/drgeo_circle.cc:339
+#, c-format
+msgid "Translate circle:: %s"
+msgstr "སྒོར་ཐིག་སྐད་བསྒྱུར་འབད།:: %s"
+
+#: ../geo/drgeo_circle.cc:340
+#, c-format
+msgid "Translated circle %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་སྒོར་ཐིག %s"
+
+#: ../geo/drgeo_circle.cc:347
+#, c-format
+msgid "Scale circle:: %s"
+msgstr "སྒོར་ཐིག་ཚད་འཇལ།:: %s"
+
+#: ../geo/drgeo_circle.cc:348
+#, c-format
+msgid "Scaled circle %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་སྒོར་ཐིག %s"
+
+#: ../geo/drgeo_circle.cc:356
+#, c-format
+msgid "Circle defined by its center and a point:: %s"
+msgstr "འདིའི་དབུས་དང་རྩེ་ཅིག་གིས་སྒོར་ཐིག་ངེས་འཛིན་འབད་ཡོདཔ།:: %s"
+
+#: ../geo/drgeo_circle.cc:364
+#, c-format
+msgid "Circle defined by its center and a segment:: %s"
+msgstr "འདིའི་དབུས་དང་ཆ་བགོས་ཅིག་གིས་སྒོར་ཐིག་ངེས་འཛིན་འབད་ཡོདཔ་ཨིན།:: %s"
+
+#: ../geo/drgeo_circle.cc:367
+#, c-format
+msgid "Radius from segment %s"
+msgstr "ཆ་བགོས་ལས་མཐའ་འཁོར %s"
+
+#: ../geo/drgeo_circle.cc:373
+#, c-format
+msgid "Circle defined by its center and radius:: %s"
+msgstr "འདིའི་དབུས་དང་མཐའ་འཁོར་གྱིས་སྒོར་ཐིག་ངེས་འཛིན་འབད་ཡོདཔ།:: %s"
+
+#: ../geo/drgeo_circle.cc:376
+#, c-format
+msgid "Radius %s"
+msgstr "མཐའ་འཁོར་%s"
+
+#: ../geo/drgeo_control.cc:254
+msgid "Free point: click on the plane or over a curve"
+msgstr "ཕིརི་པོའིནཊི་: བྱིལ་ལི་ཡང་ན་གུག་གུགཔ་ཅིག་གི་ལྟག་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../geo/drgeo_control.cc:276
+msgid "Middle: select two points or a segment"
+msgstr "བར་མ: རྩེ་གཉིས་ཡང་ན་ཆ་བགོས་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:298
+msgid "Intersection(s): select two curves"
+msgstr "ཕན་ཚུན་འབྲེལ་བ(s): གུག་གུགཔ་གཉིས་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:319
+msgid "Coordinate point: select two numbers (its coordinates)"
+msgstr "ཆ་སྙོམ་པའི་རྩེ་: ཨང་གཉིས་སེལ་འཐུ་འབད (འདིའི་ཆ་སྙོམ་ཚུ་)།"
+
+#: ../geo/drgeo_control.cc:340
+msgid "Line: select two points"
+msgstr "གྱལ་:རྩེ་གཉིས་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:361
+msgid "Ray: select its origin then another point"
+msgstr "རཱེ: འདིའི་འགོ་ཐོག་འབྱུང་ས་དེ་ལས་གཞན་རྩེ་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:382
+msgid "Segment: select its extremities"
+msgstr "ཆ་བགོས: འདིའི་མཐའ་ཟུར་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:404
+msgid "Vector: select its origin and extremity"
+msgstr "མཉམ་ཐིག: འདིའི་འགོ་ཐོག་འབྱུང་ས་དང་མཐའ་ཟུར་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:425
+msgid "Circle: select its center and a point or its radius (number or segment)"
+msgstr "སྒོར་ཐིག: འདིའི་དབུས་དང་རྩེ་ཅིག་ཡང་ན་འདིའི་མཐའ་འཁོར་སེལ་འཐུ་འབད། (number or segment)"
+
+#: ../geo/drgeo_control.cc:446
+msgid "Arc: select three points"
+msgstr "གཞུ་དབྱིབས: རྩེ་གཉིས་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:467
+msgid "Locus: select a free point and a dependent point"
+msgstr "ལོ་ཀསི་: ཕིརི་པོའིནཊི་དང་གཞན་རྟེན་པིའིནཊི་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:488
+msgid "Polygon: select its vertices, then click over the first one"
+msgstr "ཟུར་མང་དབྱིབས: འདིའི་སྤྱི་ཏོག་ཚུ་སེལ་འཐུ་འབད་དེ་ལས་དང་པམ་འདི་གི་ལྟག་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../geo/drgeo_control.cc:508
+msgid "Parallel line: select a point and a direction (line, ray, segment, vector) "
+msgstr "མཉམ་སྤྱོད་ཀྱི་གྱལ: རྩེ་ཅིག་དང་ཕྱོགས་ཅིག་སེལ་འཐུ་འབད (line, ray, segment, vector) །"
+
+#: ../geo/drgeo_control.cc:528
+msgid "Orthogonal line: select a point and a direction (line, ray, segment, vector)"
+msgstr "གཡས་ཕྱོགས་གཡོ་བའི་གྱལ: རྩེ་ཅིག་དང་ཕྱོགས་ཅིག་སེལ་འཐུ་འབད། (line, ray, segment, vector)"
+
+#: ../geo/drgeo_control.cc:548
+msgid "Axial symmetry: select a geometric object and a line"
+msgstr "མཐུད་མཚམས་ཀྱི་མཛེས་སྙོམ: ཐིག་རྩིས་དངོས་པོ་ཅིག་དང་གྱལ་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:568
+msgid "Central symmetry: select a geometric object and the center"
+msgstr "དབུས་ཀྱི་མཛེས་སྙོམ: ཐིག་རྩིས་དངོས་པོ་དང་དབུས་འདི་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:588
+msgid "Translation: select a geometric object and a vector"
+msgstr "སྐད་བསྒྱུར་འབད་ནི་: ཐིག་རྩིས་ཀྱི་དངོས་པོ་དང་མཉམ་ཐིག་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:608
+msgid "Rotation: select a geometric object, the center and an angle or a scalar"
+msgstr "བསྒྱིར་: ཐིག་རྩིས་དངོས་པོ་ དབུས་དང་གྲུ་ཟུར་ཡང་ན་སི་ཀེ་ལར་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:628
+msgid "Scale: select a geometric object, the center and a scalar"
+msgstr "ཚད་: ཐིག་རྩིས་ཀྱི་དངོས་པོ་ དབུས་དང་ཚད་བྱེད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:648
+msgid "Numeric: click on the back to edit a free value or select geometric object(s) to calculate distance"
+msgstr "ཨང་གྲངས་ཀྱི་: གྱང་ཚད་རྩིས་བཏོན་ནི་ལུ་རང་དབང་གནས་གོང་ཅིག་ཞུན་དག་འབད་ནི་ལུ་ཡང་ན་ཐིག་རྩིས་ཀྱི་དངོས་པོ་(ཨེསི)སེལ་འཐུ་འབད་ནི་ལུ་རྒྱབ་ཁར་ཨེབ་གཏང་འབད།"
+
+#: ../geo/drgeo_control.cc:668
+msgid "Angle: select three points (geometric angle) or two vectors (oriented angle)"
+msgstr "གྲུ་ཟུར་: རྩེ་གསུམ་ (ཐིག་རྩིས་གྲུ་ཟུར) ཡང་ན་མཉམ་ཐིག་གཉིས་ (ཕྱོགས་སྒྲིག་ཡོད་མི་གྲུ་ཟུར་)སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:688
+msgid "Coordinates & Equation: select a point, a vector, a line or a circle"
+msgstr "ཆ་སྙོམ་ སྙོམ་རྟགས་: རྩེ་ཅིག་ མཉམ་ཐིག་ཅིག་ གྱལ་ཅིག་ཡང་ན་སྒོར་ཐིག་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:709
+msgid "Script: select n objects (n >=0) then click on the background"
+msgstr "ཡིག་ཚུགས: དངོས་པོ་ཨེན་སེལ་འཐུ་འབད་ (n >=0)དེ་ལས་རྒྱབ་གཞི་འདི་གུ་ཨེབ་གཏང་འབད།"
+
+#: ../geo/drgeo_control.cc:729
+msgid "Delete object: select the object to delete"
+msgstr "དངོས་པོ་བཏོན་གཏང་:དངོས་པོ་འདི་བཏོན་གཏང་ནི་ལུ་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:749
+msgid "Look: select the object to change its look"
+msgstr "སྣང་ཚུལ་:དངོས་པོ་འདིའི་སྣང་ཚུལ་བསྒྱུར་བཅོས་ལུ་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:769
+msgid "Property: select the object to change its property"
+msgstr "རྒྱུ་དངོས:དངོས་པོ་འདིའི་རྒྱུ་དངོས་བསྒྱུར་བཅོས་ལུ་སེལ་འཐུ་འབད།"
+
+#: ../geo/drgeo_control.cc:790
+msgid "Construct a macro-construction "
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཅིག་བཟོ་བསྐྲུན་འབད།"
+
+#: ../geo/drgeo_control.cc:937
+msgid "Select: select and move an object"
+msgstr "སེལ་འཐུ་འབད:སེལ་འཐུ་འབད་ནི་དང་དངོས་པོ་ཅིག་སྤོ།"
+
+#: ../geo/drgeo_dialog.cc:62
+msgid "Enter a value"
+msgstr "གནས་གོང་ཅིག་བཙུགས།"
+
+#: ../geo/drgeo_equation.cc:173
+#: ../geo/drgeo_equation.cc:182
+msgid "the equation of %1"
+msgstr "གི་སྙོམ་རྟགས་འདི་ %1"
+
+#: ../geo/drgeo_equation.cc:230
+#, c-format
+msgid "Line's equation:: %s"
+msgstr "གྱལ་གྱི་སྙོམ་རྟགས་:: %s"
+
+#: ../geo/drgeo_equation.cc:231
+#: ../geo/drgeo_numeric.cc:471
+#: ../geo/drgeo_numeric.cc:511
+#, c-format
+msgid "Line %s"
+msgstr "གྱལ་ %s"
+
+#: ../geo/drgeo_equation.cc:235
+#, c-format
+msgid "Circle's equation:: %s"
+msgstr "སྒོར་ཐིག་གི་སྙོམ་རྟགས་:: %s"
+
+#: ../geo/drgeo_equation.cc:236
+#: ../geo/drgeo_numeric.cc:466
+#: ../geo/drgeo_numeric.cc:504
+#, c-format
+msgid "Circle %s"
+msgstr "སྒོར་ཐིག %s"
+
+#: ../geo/drgeo_gtkhelpers.cc:98
+#, c-format
+msgid ""
+"This help directory does not exist:\n"
+"'%s'\n"
+"Maybe the manual is not installed or it is not yet translated in your language.\n"
+"\n"
+"If you want to translate the manual contact ofset@ofset.org."
+msgstr ""
+"གྲོགས་རམ་སྣོད་ཐོ་མེདཔ།:\n"
+"'%s'\n"
+"ཡང་ཅིན་ལག་དེབ་འདི་གཞི་བཙུགས་མ་འབདཝ་ཡང་ན་ད་ལྟོ་ཚུན་ཚོད་ཁྱོད་རའི་སྐད་ཡིག་ནང་སྐད་བསྒྱུར་མ་འབདཝ་འོང་།\n"
+"\n"
+"ཁྱོད་རང་ལག་དེབ་འདི་སྐད་བསྒྱུར་འབད་ནི་ཨིན་པ་ཅིན་ ofset@ofset.org.འབྲེལ་བ་འཐབ།"
+
+#: ../geo/drgeo_gtkhelpers.cc:117
+msgid ""
+"A default online manual\n"
+"in English will be used."
+msgstr ""
+"སྔོན་སྒྲིག་གློག་ལམ་ཐོག་ལུ་གི་ལག་དེབ་\n"
+"ཨིང་ལིཤ་ནང་ཡོད་མི་འདི་ལག་ལེན་འཐབ་འོང་།"
+
+#: ../geo/drgeo_gtkhelpers.cc:129
+msgid "No default online manual can be found."
+msgstr "སྔོན་སྒྲིག་གློག་ལམ་ཐོག་ལུ་གི་ལག་དེབ་ཅིག་ཡང་འཚོལ་མ་ཐོབ།"
+
+#: ../geo/drgeo_halfLine.cc:152
+#: ../geo/drgeo_halfLine.cc:170
+msgid "this half-line %1"
+msgstr "གྱལ་ཕྱེད་ཀ་འདི་ %1"
+
+#: ../geo/drgeo_halfLine.cc:218
+#, c-format
+msgid "Rotate half-line:: %s"
+msgstr "གྱལ་ཕྱེད་ཀ་བསྒྱིར་:: %s"
+
+#: ../geo/drgeo_halfLine.cc:219
+#: ../geo/drgeo_halfLine.cc:227
+#: ../geo/drgeo_halfLine.cc:234
+#, c-format
+msgid "Transformed half-line %s"
+msgstr "བཟོ་བསྒྱུར་འབད་ཡོད་མི་གྱལ་ཕྱེད་ཀ་ %s"
+
+#: ../geo/drgeo_halfLine.cc:226
+#: ../geo/drgeo_halfLine.cc:233
+#, c-format
+msgid "Symmetric half-line:: %s"
+msgstr "མཛེས་སྙོམ་གྱལ་ཕྱེད་ཀ:: %s"
+
+#: ../geo/drgeo_halfLine.cc:241
+#, c-format
+msgid "Translate half-line:: %s"
+msgstr "གྱལ་ཕྱེད་ཀ་སྐད་བསྒྱུར་འབད།:: %s"
+
+#: ../geo/drgeo_halfLine.cc:242
+#, c-format
+msgid "Translated half-line %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་གྱལ་ཕྱེད་ཀ་ %s"
+
+#: ../geo/drgeo_halfLine.cc:249
+#, c-format
+msgid "Scale half-line:: %s"
+msgstr "གྱལ་ཕྱེད་ཀ་ཚད་འཇལ།:: %s"
+
+#: ../geo/drgeo_halfLine.cc:250
+#, c-format
+msgid "Scaled half-line %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་གྱལ་ཕྱེད་ཀ %s"
+
+#: ../geo/drgeo_halfLine.cc:258
+#, c-format
+msgid "Half-line defined by two points:: %s"
+msgstr "རྩེ་གཉིས་ཀྱིས་གྱལ་ཕྱེད་ཀ་ངེས་འཛིན་འབད་ཡོདཔ།:: %s"
+
+#: ../geo/drgeo_halfLine.cc:259
+#: ../geo/drgeo_vector.cc:286
+#, c-format
+msgid "Origin %s"
+msgstr "འགོ་ཐོག་འབྱུང་ས་ %s"
+
+#: ../geo/drgeo_line.cc:202
+#: ../geo/drgeo_line.cc:220
+msgid "this line %1"
+msgstr "གྱལ་འདི་ %1"
+
+#: ../geo/drgeo_line.cc:279
+#, c-format
+msgid "Rotate line:: %s"
+msgstr "གྱལ་བསྒྱིར་:: %s"
+
+#: ../geo/drgeo_line.cc:280
+#: ../geo/drgeo_line.cc:288
+#: ../geo/drgeo_line.cc:295
+#, c-format
+msgid "Transformed line %s"
+msgstr "བཟོ་བསྒྱུར་འབད་ཡོད་མི་གྱལ་ %s"
+
+#: ../geo/drgeo_line.cc:287
+#: ../geo/drgeo_line.cc:294
+#, c-format
+msgid "Symmetric line:: %s"
+msgstr "མཛེས་སྙོམ་གྱི་གྱལ་:: %s"
+
+#: ../geo/drgeo_line.cc:302
+#, c-format
+msgid "Translate line:: %s"
+msgstr "གྱལ་སྐད་བསྒྱུར་འབད་:: %s"
+
+#: ../geo/drgeo_line.cc:303
+#, c-format
+msgid "Translated line %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་གྱལ་ %s"
+
+#: ../geo/drgeo_line.cc:310
+#, c-format
+msgid "Scale line:: %s"
+msgstr "གྱལ་ཚད་འཇལ་:: %s"
+
+#: ../geo/drgeo_line.cc:311
+#, c-format
+msgid "Scaled line %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་གྱལ་%s"
+
+#: ../geo/drgeo_line.cc:318
+#, c-format
+msgid "Line going through two points:: %s"
+msgstr "གྱལ་རྩེ་གཉིས་བརྒྱུད་འགྱོ་མི་:: %s"
+
+#: ../geo/drgeo_line.cc:319
+#: ../geo/drgeo_line.cc:327
+#: ../geo/drgeo_line.cc:333
+#: ../geo/drgeo_line.cc:339
+#, c-format
+msgid "Point  %s"
+msgstr "རྩེ་  %s"
+
+#: ../geo/drgeo_line.cc:325
+#, c-format
+msgid "Line defined by a point and its slope:: %s"
+msgstr "གྱལ་རྩེ་དང་འདིའི་གསེག་ཁམས་ཀྱིས་ངེས་འཛིན་འབད་ཡོདཔ།:: %s"
+
+#: ../geo/drgeo_line.cc:328
+#, c-format
+msgid "Slope %s"
+msgstr "གསེག་ཁམས། %s"
+
+#: ../geo/drgeo_line.cc:332
+#, c-format
+msgid "Parallel line:: %s"
+msgstr "གྱལ་མཉམ་སྤྱོད་:: %s"
+
+#: ../geo/drgeo_line.cc:334
+#: ../geo/drgeo_line.cc:340
+#, c-format
+msgid "Direction %s"
+msgstr "ཕྱོགས་ %s"
+
+#: ../geo/drgeo_line.cc:338
+#, c-format
+msgid "Perpendicular line:: %s"
+msgstr "ཀེར་གཟུགས་གྱལ།:: %s"
+
+#. compute the string length
+#: ../geo/drgeo_locus.cc:303
+#: ../geo/drgeo_locus.cc:312
+msgid "%1's locus when %2 describes %3"
+msgstr "%1ལོ་ཀསི་ %2 འགྲེལ་བཤད་བརྐྱབ་པའི་སྐབས་ %3"
+
+#: ../geo/drgeo_locus.cc:350
+#, c-format
+msgid "Locus:: %s"
+msgstr "ལོ་ཀསི་:: %s"
+
+#: ../geo/drgeo_locus.cc:351
+#, c-format
+msgid "Free point on curve %s"
+msgstr "གུག་གུཔ་གུ་རང་དབང་གི་རྩེ་ %s"
+
+#: ../geo/drgeo_locus.cc:353
+#, c-format
+msgid "Constrained point %s"
+msgstr "དམ་ཡོད་མི་རྩེ་ %s"
+
+#: ../geo/drgeo_numeric.cc:275
+#: ../geo/drgeo_numeric.cc:281
+msgid "%1's length"
+msgstr "%1's རིང་ཚད་"
+
+#: ../geo/drgeo_numeric.cc:286
+#: ../geo/drgeo_numeric.cc:292
+msgid "%1's magnitude"
+msgstr "%1's བོངས་ཚད་"
+
+#: ../geo/drgeo_numeric.cc:297
+#: ../geo/drgeo_numeric.cc:303
+msgid "%1's perimeter"
+msgstr "%1་གི་ཀེར་གཟུགས་"
+
+#: ../geo/drgeo_numeric.cc:308
+#: ../geo/drgeo_numeric.cc:314
+msgid "the slope of %1"
+msgstr "གི་གསེག་ཁམས་འདི་ %1"
+
+#: ../geo/drgeo_numeric.cc:322
+#: ../geo/drgeo_numeric.cc:332
+msgid "the distance between %1 and %2"
+msgstr "འདི་བར་ན་ %1 དང་ %2གི་གྱང་ཚད།"
+
+#: ../geo/drgeo_numeric.cc:345
+#: ../geo/drgeo_numeric.cc:351
+msgid "the abscissa of %1"
+msgstr "གི་མཐའ་དྲེས་འདི་ %1"
+
+#: ../geo/drgeo_numeric.cc:357
+#: ../geo/drgeo_numeric.cc:363
+msgid "the ordinate of %1"
+msgstr "གི་ཆ་སྙོམ་འདི་ %1"
+
+#: ../geo/drgeo_numeric.cc:367
+#: ../geo/drgeo_value.cc:52
+msgid "this value"
+msgstr "གནས་གོང་འདི་"
+
+#: ../geo/drgeo_numeric.cc:451
+#, c-format
+msgid "Free value:: %s"
+msgstr "གནས་གོང་རང་དབང་:: %s"
+
+#: ../geo/drgeo_numeric.cc:455
+#, c-format
+msgid "Segment's length:: %s"
+msgstr "ཆ་བགོས་ཀྱི་རིང་ཚད་:: %s"
+
+#: ../geo/drgeo_numeric.cc:456
+#: ../geo/drgeo_point.cc:440
+#, c-format
+msgid "Segment %s"
+msgstr "ཆ་བགོས་ %s"
+
+#: ../geo/drgeo_numeric.cc:460
+#, c-format
+msgid "Vector's norm:: %s"
+msgstr "མཉམ་ཐིག་གི་སྤྱིར་བཏང་:: %s"
+
+#: ../geo/drgeo_numeric.cc:465
+#, c-format
+msgid "Circle's perimeter:: %s"
+msgstr "སྒོར་ཐིག་གི་ཀེར་གཟུགས:: %s"
+
+#: ../geo/drgeo_numeric.cc:470
+#, c-format
+msgid "Line's slope:: %s"
+msgstr "གྱལ་གྱི་གསེག་ཁམས:: %s"
+
+#: ../geo/drgeo_numeric.cc:475
+#, c-format
+msgid "Arc-circle's length:: %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག་གི་རིང་ཚད་:: %s"
+
+#: ../geo/drgeo_numeric.cc:476
+#, c-format
+msgid "Arc-circle %s"
+msgstr "གཞུ་དབྱིབས་སྒོར་ཐིག %s"
+
+#: ../geo/drgeo_numeric.cc:480
+#, c-format
+msgid "Point's abscissa:: %s"
+msgstr "རྩེའི་མཐའ་དྲེས་:: %s"
+
+#: ../geo/drgeo_numeric.cc:485
+#, c-format
+msgid "Point's ordinate:: %s"
+msgstr "རྩེ་གི་ཆ་སྙོམ:: %s"
+
+#: ../geo/drgeo_numeric.cc:490
+#, c-format
+msgid "Vector's abscissa:: %s"
+msgstr "མཉམ་ཐིག་གི་་མཐའ་དྲེས།:: %s"
+
+#: ../geo/drgeo_numeric.cc:495
+#, c-format
+msgid "Vector's ordinate:: %s"
+msgstr "མཉམ་ཐིག་གི་ཆ་སྙོམ:: %s"
+
+#: ../geo/drgeo_numeric.cc:501
+#, c-format
+msgid "Distance between a point and a circle:: %s"
+msgstr "རྩེ་དང་སྒོར་ཐིག་ཅིག་བར་ན་གྱང་ཚད་:: %s"
+
+#: ../geo/drgeo_numeric.cc:509
+#, c-format
+msgid "Distance between a point and a line:: %s"
+msgstr "རྩེ་དང་གྱལ་ཅིག་གི་བར་ན་གྱང་ཚད་:: %s"
+
+#: ../geo/drgeo_numeric.cc:516
+#, c-format
+msgid "Distance between two points:: %s"
+msgstr "རྩེ་གཉིས་ཀྱི་བར་ན་གྱང་ཚད:: %s"
+
+#: ../geo/drgeo_point.cc:380
+#, c-format
+msgid "Rotate point:: %s"
+msgstr "རྩེ་བསྒྱིར:: %s"
+
+#: ../geo/drgeo_point.cc:381
+#: ../geo/drgeo_point.cc:389
+#: ../geo/drgeo_point.cc:396
+#, c-format
+msgid "Transformed point %s"
+msgstr "བཟོ་བསྒྱུར་འབད་ཡོད་མི་རྩེ %s"
+
+#: ../geo/drgeo_point.cc:388
+#: ../geo/drgeo_point.cc:395
+#, c-format
+msgid "Symmetric point:: %s"
+msgstr "མཛེས་སྙོམ་གྱི་རྩེ་:: %s"
+
+#: ../geo/drgeo_point.cc:403
+#, c-format
+msgid "Translate point:: %s"
+msgstr "རྩེ་སྐད་བསྒྱུར་འབད:: %s"
+
+#: ../geo/drgeo_point.cc:404
+#, c-format
+msgid "Translated point %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་རྩེ %s"
+
+#: ../geo/drgeo_point.cc:411
+#, c-format
+msgid "Scale point:: %s"
+msgstr "རྩེ་ཚད་འཇལ་:: %s"
+
+#: ../geo/drgeo_point.cc:412
+#, c-format
+msgid "Scaled point %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་རྩེ་ %s"
+
+#: ../geo/drgeo_point.cc:418
+#, c-format
+msgid "Coordinate point:: %s"
+msgstr "རྩེ་ཆ་སྙོམ།:: %s"
+
+#: ../geo/drgeo_point.cc:419
+#, c-format
+msgid "Abscissa %s"
+msgstr "མཐའ་དྲེས། %s"
+
+#: ../geo/drgeo_point.cc:420
+#, c-format
+msgid "Ordinate %s"
+msgstr "ཆ་སྙོམ་ %s"
+
+#: ../geo/drgeo_point.cc:424
+#, c-format
+msgid "Free point:: %s"
+msgstr "རང་དབང་གི་རྩེ་:: %s"
+
+#: ../geo/drgeo_point.cc:428
+#, c-format
+msgid "Free point on curve:: %s"
+msgstr "གུག་གུཔ་གུ་རང་དབང་གི་རྩེ་:: %s"
+
+#: ../geo/drgeo_point.cc:429
+#: ../geo/drgeo_point.cc:434
+#: ../geo/drgeo_point.cc:435
+#, c-format
+msgid "Curve %s"
+msgstr "གུག་གུགཔ %s"
+
+#: ../geo/drgeo_point.cc:433
+#, c-format
+msgid "Intersection point:: %s"
+msgstr "ཕན་ཚུན་འབྲེལ་བའི་རྩེ།:: %s"
+
+#: ../geo/drgeo_point.cc:439
+#, c-format
+msgid "Middle of segment:: %s"
+msgstr "ཆ་བགོས་ཀྱི་བར་མ:: %s"
+
+#: ../geo/drgeo_point.cc:444
+#, c-format
+msgid "Middle of two points:: %s"
+msgstr "རྩེ་གཉིས་ཀྱི་བར་མ:: %s"
+
+#: ../geo/drgeo_point.cc:482
+#: ../geo/drgeo_point.cc:486
+msgid "this point %1"
+msgstr "རྩེ་འདི་ %1"
+
+#: ../geo/drgeo_polygon.cc:287
+#, c-format
+msgid "Polygon:: %s"
+msgstr "ཟུར་མང་དབྱིབས་:: %s"
+
+#: ../geo/drgeo_polygon.cc:294
+#, c-format
+msgid "Rotate polygon:: %s"
+msgstr "ཟུར་མང་དབྱིབས་བསྒྱིར་:: %s"
+
+#: ../geo/drgeo_polygon.cc:295
+#: ../geo/drgeo_polygon.cc:303
+#: ../geo/drgeo_polygon.cc:310
+#, c-format
+msgid "Transformed polygon %s"
+msgstr "བཟོ་བསྒྱུར་འབད་ཡོད་མི་ཟུར་མང་དབྱིབས་ %s"
+
+#: ../geo/drgeo_polygon.cc:302
+#: ../geo/drgeo_polygon.cc:309
+#, c-format
+msgid "Symmetric polygon:: %s"
+msgstr "མཛེས་སྙོམ་ཟུར་མང་དབྱིབས།:: %s"
+
+#: ../geo/drgeo_polygon.cc:317
+#, c-format
+msgid "Translate polygon:: %s"
+msgstr "ཟུར་མང་དབྱིབས་སྐད་བསྒྱུར་འབད:: %s"
+
+#: ../geo/drgeo_polygon.cc:318
+#, c-format
+msgid "Translated polygon %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་ཟུར་མང་དབྱིབས %s"
+
+#: ../geo/drgeo_polygon.cc:325
+#, c-format
+msgid "Scale polygon:: %s"
+msgstr "ཟུར་མང་དབྱིབས་ཚད་འཇལ:: %s"
+
+#: ../geo/drgeo_polygon.cc:326
+#, c-format
+msgid "Scaled polygon %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་ཟུར་མང་དབྱིབས %s"
+
+#: ../geo/drgeo_polygon.cc:383
+#: ../geo/drgeo_polygon.cc:407
+msgid "this polygon %1"
+msgstr "ཟུར་མང་དབྱིབས་འདི་ %1"
+
+#: ../geo/drgeo_repere.cc:148
+#: ../geo/drgeo_repere.cc:161
+msgid "this reference frame %1"
+msgstr "གཞི་བསྟུན་གཞི་ཁྲམ་འདི་ %1"
+
+#: ../geo/drgeo_scm_helper.cc:91
+#, c-format
+msgid "Error! Just got the following error tag: %s\n"
+msgstr "འཛོལ་བ་! འོག་གི་ངོ་རྟགས་འཛོལ་བ་འདི་ཐོབ་དེ་ཙམ།: %s\n"
+
+#: ../geo/drgeo_script.cc:158
+msgid "Unprintable result"
+msgstr "དཔར་བསྐྲུན་འབད་མ་བཏུབ་མི་འགྲུབ་འབྲས་"
+
+#: ../geo/drgeo_script.cc:171
+#: ../geo/drgeo_script.cc:175
+msgid "this script %1"
+msgstr "ཡིག་ཚུགས་འདི་ %1"
+
+#: ../geo/drgeo_script.cc:223
+#, c-format
+msgid "Script:: %s"
+msgstr "ཡིག་ཚུགས་:: %s"
+
+#: ../geo/drgeo_script.cc:225
+#, c-format
+msgid "Object %s"
+msgstr "དངོས་པོ་ %s"
+
+#: ../geo/drgeo_segment.cc:153
+#: ../geo/drgeo_segment.cc:171
+msgid "this segment %1"
+msgstr "ཆ་བགོས་འདི་ %1"
+
+#: ../geo/drgeo_segment.cc:220
+#, c-format
+msgid "Rotate segment:: %s"
+msgstr "ཆ་བགོས་བསྒྱིར་:: %s"
+
+#: ../geo/drgeo_segment.cc:221
+#: ../geo/drgeo_segment.cc:229
+#: ../geo/drgeo_segment.cc:236
+#, c-format
+msgid "Transformed segment %s"
+msgstr "བཟོ་བསྒྱུར་འབད་ཡོད་མི་ཆ་བགོས%s"
+
+#: ../geo/drgeo_segment.cc:228
+#: ../geo/drgeo_segment.cc:235
+#, c-format
+msgid "Symmetric segment:: %s"
+msgstr "མཛེས་སྙོམ་ཆ་བགོས:: %s"
+
+#: ../geo/drgeo_segment.cc:243
+#, c-format
+msgid "Translate segment:: %s"
+msgstr "ཆ་བགོས་སྐད་བསྒྱུར་འབད།:: %s"
+
+#: ../geo/drgeo_segment.cc:244
+#, c-format
+msgid "Translated segment %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་ཆ་བགོས་ %s"
+
+#: ../geo/drgeo_segment.cc:251
+#, c-format
+msgid "Scale segment:: %s"
+msgstr "ཆ་བགོས་ཚད་འཇལ:: %s"
+
+#: ../geo/drgeo_segment.cc:252
+#, c-format
+msgid "Scaled segment %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་ཆ་བགོས་ %s"
+
+#: ../geo/drgeo_segment.cc:260
+#, c-format
+msgid "Segment defined by its extremities:: %s"
+msgstr "འདིའི་མཐའ་ཟུར་ཚུ་གིས་ངེས་འཛིན་འབད་ཡོད་མི་ཆ་བགོས:: %s"
+
+#: ../geo/drgeo_tool.cc:950
+#, c-format
+msgid "Remove %s?"
+msgstr "རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན %s?"
+
+#: ../geo/drgeo_tool.cc:953
+msgid "Remove selected item?"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་རྣམ་གྲངས་རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: ../geo/drgeo_vector.cc:170
+#: ../geo/drgeo_vector.cc:188
+msgid "this vector %1"
+msgstr "མཉམ་ཐིག་འདི་ %1"
+
+#: ../geo/drgeo_vector.cc:245
+#, c-format
+msgid "Rotate vector:: %s"
+msgstr "མཉམ་ཐིག་བསྒྱིར་:: %s"
+
+#: ../geo/drgeo_vector.cc:246
+#: ../geo/drgeo_vector.cc:254
+#: ../geo/drgeo_vector.cc:261
+#, c-format
+msgid "Transformed vector %s"
+msgstr "བཟོ་བསྒྱུར་འབད་ཡོད་མི་མཉམ་ཐིག %s"
+
+#: ../geo/drgeo_vector.cc:253
+#: ../geo/drgeo_vector.cc:260
+#, c-format
+msgid "Symmetric vector:: %s"
+msgstr "མཛེས་སྙོམ་པའི་མཉམ་ཐིག:: %s"
+
+#: ../geo/drgeo_vector.cc:268
+#, c-format
+msgid "Translate vector:: %s"
+msgstr "མཉམ་ཐིག་སྐད་བསྒྱུར་འབད་:: %s"
+
+#: ../geo/drgeo_vector.cc:269
+#, c-format
+msgid "Translated vector %s"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོད་མི་མཉམ་ཐིག %s"
+
+#: ../geo/drgeo_vector.cc:276
+#, c-format
+msgid "Scale vector:: %s"
+msgstr "མཉམ་ཐིག་ཚད་འཇལ:: %s"
+
+#: ../geo/drgeo_vector.cc:277
+#, c-format
+msgid "Scaled vector %s"
+msgstr "ཚད་འཇལ་ཡོད་མི་མཉམ་ཐིག %s"
+
+#: ../geo/drgeo_vector.cc:285
+#, c-format
+msgid "Vector defined by two points:: %s"
+msgstr "རྩེ་གཉིས་ཀྱིས་ངེས་འཛིན་འབད་ཡོད་མི་མཉམ་ཐིག:: %s"
+
+#: ../glade/drgenius2.glade.h:1
+#: ../glade/drgeo2.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../glade/drgenius2.glade.h:2
+msgid "Angle"
+msgstr "གྲུ་ཟུར་"
+
+#: ../glade/drgenius2.glade.h:3
+msgid "Arc-Circle"
+msgstr "གཞི་དབྱིབས་སྒོར་ཐིག"
+
+#: ../glade/drgenius2.glade.h:4
+msgid "Circle"
+msgstr "སྒོར་ཐིག"
+
+#: ../glade/drgenius2.glade.h:5
+#: ../glade/drgeo2.glade.h:33
+msgid "Color"
+msgstr "ཚོས་གཞི་"
+
+#: ../glade/drgenius2.glade.h:6
+msgid "Default figure name used when a new figure is created. This name is combined with a numeric indicator"
+msgstr "དཔར་རིས་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་བའི་སྐབས་སྔོན་སྒྲིག་དཔར་རིས་མིང་ལག་ལེན་འཐབ་ཡོདཔ། མིང་འདི་ཨང་གྲངས་ཀྱི་བརྡ་སྟོན་པ་ཅིག་དང་གཅིག་ཁར་མཉམ་མཐུད་འབད་ཡོདཔ་ཨིན།"
+
+#: ../glade/drgenius2.glade.h:7
+msgid "Default file name used to export a geometric figure to the Flydraw format"
+msgstr "ཐིག་རྩིས་དཔར་རིས་ཕལའི་ཌོ་རྩ་སྒྲིག་ལུ་ཕྱིར་འདྲེན་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་སྔོན་སྒྲིག་ཡིག་སྣོད་མིང་།"
+
+#: ../glade/drgenius2.glade.h:8
+msgid "Default file name used to export a geometric figure to the LaTeX format (pstricks extension)"
+msgstr "ཐིག་རྩིས་ཀྱི་དཔར་རིས་ཅིག་ལེ་ཊེགསི་རྩ་སྒྲིག་འདི་ལུ་ཕྱིར་འདྲེན་འབད་ནི་ལུ་སྔོན་སྒྲིག་ཡིག་སྣོད་མིང་ལག་ལེན་འཐབ་ཡོདཔ (pstricks extension)།"
+
+#: ../glade/drgenius2.glade.h:9
+msgid "Default file name used to export a geometric figure to the encapsulated PostScript format"
+msgstr "ཐིག་རྩིས་ཀྱི་དཔར་རིས་ཅིག་བསྡུས་དོན་བཀོད་ནི་པོསིཊི་ཀིརིཔཊི་རྩ་སྒྲིག་འདི་ལུ་ཕྱིར་འདྲེན་འབད་ནི་ལུ་སྔོན་སྒྲིག་ཡིག་སྣོད་མིང་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན།"
+
+#: ../glade/drgenius2.glade.h:10
+msgid "Default file name used to save a geometric figure"
+msgstr "ཐིག་རྩིས་ཀྱི་དཔར་རིས་ཅིག་སྲུང་བཞག་འབད་ནི་ལུ་སྔོན་སྒྲིག་ཡིག་སྣོད་མིང་ལག་ལེན་འཐབ་ཡོདཔ།"
+
+#: ../glade/drgenius2.glade.h:11
+msgid "Default file name used to save a session (several documents in one file)"
+msgstr "ལཱ་ཡུན་ཅིག་སྲུང་བཞག་འབད་ནི་ལུ་སྔོན་སྒྲིག་ཡིག་སྣོད་མིང་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན (several documents in one file)།"
+
+#: ../glade/drgenius2.glade.h:12
+msgid "Default value"
+msgstr "སྔོན་སྒྲིག་གནས་གོང་"
+
+#: ../glade/drgenius2.glade.h:13
+msgid "Defaut file name"
+msgstr "སྔོན་སྒྲིག་ཡིག་སྣོད་མིང་"
+
+#: ../glade/drgenius2.glade.h:14
+msgid "Figure name"
+msgstr "དཔར་རིས་མིང་།"
+
+#: ../glade/drgenius2.glade.h:15
+msgid "Flydraw:"
+msgstr "ཕལའི་ཌོ།:"
+
+#: ../glade/drgenius2.glade.h:16
+msgid "Geometric figure "
+msgstr "ཐིག་རྩིས་ཀྱི་དཔར་རིས་"
+
+#: ../glade/drgenius2.glade.h:17
+msgid "Global preferences"
+msgstr "སྤྱི་ཁྱབ་ཀྱི་དགའ་གདམ་ཚུ་"
+
+#: ../glade/drgenius2.glade.h:18
+msgid "Half-Line"
+msgstr "གྱལ་ཕྱེད་ཀ"
+
+#: ../glade/drgenius2.glade.h:19
+msgid "Html viewer"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་མཐོང་བྱེད།"
+
+#: ../glade/drgenius2.glade.h:20
+msgid "LaTeX:"
+msgstr "ལེ་ཊེགསི་:"
+
+#: ../glade/drgenius2.glade.h:21
+#: ../glade/drgeo2.glade.h:58
+msgid "Large"
+msgstr "ཆེ་བ་"
+
+#: ../glade/drgenius2.glade.h:22
+msgid "Line"
+msgstr "གྱལ།"
+
+#: ../glade/drgenius2.glade.h:23
+msgid "Locus"
+msgstr "ལོ་ཀསི།"
+
+#: ../glade/drgenius2.glade.h:24
+#: ../glade/drgeo2.glade.h:69
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་།"
+
+#: ../glade/drgenius2.glade.h:25
+msgid "Number of undo/redo operations. 0 for infinite undo/redo level"
+msgstr "བཀོལ་སྤྱོད་ཀྱི་འབད་བཤོལ་/ལོག་འབད་ནི་ཨང་། ཚད་མེད་གནས་རིམ་འབད་བཤོལ་/ལོག་འབད་ནི་དོན་ལུ་༠།"
+
+#: ../glade/drgenius2.glade.h:26
+msgid "Numeric Precision"
+msgstr "ཨང་གྲངས་ཀྱི་ཀྲིག་ཀྲི"
+
+#: ../glade/drgenius2.glade.h:27
+msgid "Object Aspect"
+msgstr "དངོས་པོའི་རྣམ་པ།"
+
+#: ../glade/drgenius2.glade.h:28
+#: ../glade/drgeo2.glade.h:77
+msgid "Point"
+msgstr "རྩེ།"
+
+#: ../glade/drgenius2.glade.h:29
+msgid "Polygon"
+msgstr "ཟུར་མང་དབྱིབས།"
+
+#: ../glade/drgenius2.glade.h:30
+msgid "PostScript:"
+msgstr "པོསིཊི་སིཀིརིཔཊི་:"
+
+#: ../glade/drgenius2.glade.h:31
+msgid "Save a Dr Genius session"
+msgstr "ཌི་ཨར་བློ་རིག་ལཱ་ཡུན་ཅིག་སྲུང་བཞག་འབད།"
+
+#: ../glade/drgenius2.glade.h:32
+msgid "Save all"
+msgstr "ཆ་མཉམ་སྲུང་བཞག་འབད།"
+
+#: ../glade/drgenius2.glade.h:33
+msgid "Save selection"
+msgstr "སེལ་འཐུ་སྲུང་བཞག་འབད།"
+
+#: ../glade/drgenius2.glade.h:34
+msgid "Scalar"
+msgstr "ཚད་བྱེད།"
+
+#: ../glade/drgenius2.glade.h:35
+msgid "Segment"
+msgstr "ཆ་བགོས།"
+
+#: ../glade/drgenius2.glade.h:36
+msgid "Select Color"
+msgstr "ཚོས་གཞི་སེལ་འཐུ་འབད།"
+
+#: ../glade/drgenius2.glade.h:37
+msgid "Select data to save"
+msgstr "གནས་སྡུད་སྲུང་བཞག་འབད་ནི་ལུ་སེལ་འཐུ་འབད།"
+
+#: ../glade/drgenius2.glade.h:38
+msgid "Session:"
+msgstr "ལཱ་ཡུན:"
+
+#: ../glade/drgenius2.glade.h:39
+#: ../glade/drgeo2.glade.h:96
+msgid "Shape"
+msgstr "དབྱིབས།"
+
+#: ../glade/drgenius2.glade.h:40
+#: ../glade/drgeo2.glade.h:97
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../glade/drgenius2.glade.h:41
+#: ../glade/drgeo2.glade.h:98
+msgid "Small"
+msgstr "ཆུང་ཀུ།"
+
+#: ../glade/drgenius2.glade.h:42
+#: ../glade/drgeo2.glade.h:99
+msgid "Style"
+msgstr "བཟོ་རྣམ།"
+
+#: ../glade/drgenius2.glade.h:43
+msgid "Undo/Redo levels"
+msgstr "གནས་རིམ་ཚུ་འབད་བཤོལ/ལོག་འབད།"
+
+#: ../glade/drgenius2.glade.h:44
+msgid "Vector"
+msgstr "མཉམ་ཐིག"
+
+#: ../glade/drgenius2.glade.h:45
+msgid "dillo "
+msgstr "ཌིལ་ལོ།"
+
+#: ../glade/drgenius2.glade.h:46
+msgid "galeon -x "
+msgstr "ཨེགསི-གེ་ལི་ཨཱོན"
+
+#: ../glade/drgenius2.glade.h:47
+msgid "konqueror "
+msgstr "ཀོང་ཀུས་རར།"
+
+#: ../glade/drgenius2.glade.h:48
+msgid "mozilla "
+msgstr "མོ་ཛིལ་ལ།"
+
+#: ../glade/drgeo2.glade.h:3
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../glade/drgeo2.glade.h:5
+#: ../glade/drgeoMDI.glade.h:2
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: ../glade/drgeo2.glade.h:7
+#: ../glade/drgeoMDI.glade.h:4
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: ../glade/drgeo2.glade.h:9
+#: ../glade/drgeoMDI.glade.h:6
+#, no-c-format
+msgid "175%"
+msgstr "175%"
+
+#: ../glade/drgeo2.glade.h:11
+#: ../glade/drgeoMDI.glade.h:8
+#, no-c-format
+msgid "200%"
+msgstr "200%"
+
+#: ../glade/drgeo2.glade.h:13
+#: ../glade/drgeoMDI.glade.h:10
+#, no-c-format
+msgid "25%"
+msgstr "25%"
+
+#: ../glade/drgeo2.glade.h:15
+#: ../glade/drgeoMDI.glade.h:12
+#, no-c-format
+msgid "50%"
+msgstr "50%"
+
+#: ../glade/drgeo2.glade.h:17
+#: ../glade/drgeoMDI.glade.h:14
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: ../glade/drgeo2.glade.h:18
+msgid "Abscissa"
+msgstr "མཐའ་དྲེས།"
+
+#: ../glade/drgeo2.glade.h:19
+msgid "Adjust the line style"
+msgstr "གྱལ་བཟོ་རྣམ་འདི་བདེ་སྒྲིག་བཟོ།"
+
+#: ../glade/drgeo2.glade.h:20
+msgid "Adjust the point style"
+msgstr "རྩེའི་བཟོ་རྣམ་འདི་བདེ་སྒྲིག་བཟོ།"
+
+#: ../glade/drgeo2.glade.h:21
+msgid "Adjust the value style"
+msgstr "གནས་གོང་བཟོ་རྣམ་འདི་བདེ་སྒྲིག་བཟོ།"
+
+#: ../glade/drgeo2.glade.h:22
+msgid "Adjust the zoom factor"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་འདི་བདེ་སྒྲིག་བཟོ།"
+
+#: ../glade/drgeo2.glade.h:23
+#: ../glade/drgeoMDI.glade.h:15
+msgid "Angle defined by three points or two vectors"
+msgstr "གྲུ་ཟུར་རྩེ་གསུམ་ཡང་ན་མཉམ་ཐིག་ཚུ་གིས་ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:24
+#: ../glade/drgeoMDI.glade.h:24
+msgid "Arc circle defined by three points"
+msgstr "གཞི་དབྱིབས་སྒོར་ཐིག་རྩེ་གསུམ་གྱིས་ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:25
+msgid "Avalaible macro-construction"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཐོབ་ཚུགསཔ།"
+
+#: ../glade/drgeo2.glade.h:26
+#: ../glade/drgeoMDI.glade.h:25
+msgid "Axial symmetry of an object. When ambiguity, the first selected line is the line to transform"
+msgstr "དངོས་པོ་ཅིག་གི་མཐུད་མཚམས་ཀྱི་མཛོས་སྙོམ། ངེས་མེད་སྐབས་ དང་པ་སེལ་འཐུ་འབད་ཡོད་མི་གྱལ་འདི་བཟོ་བསྒྱུར་འབད་ནི་གྱལ་འདི་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:27
+msgid "Build a macro construction"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཅིག་བཟོ་བརྩིགས་འབད།"
+
+#: ../glade/drgeo2.glade.h:28
+msgid "Build a macro-construction"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཅིག་བཟོ་བརྩིགས་འབད།"
+
+#: ../glade/drgeo2.glade.h:29
+#: ../glade/drgeoMDI.glade.h:26
+msgid "Central symmetry of an object. When ambiguity, the first selected point is the point to transform"
+msgstr "དངོས་པོ་ཅིག་གི་དབུས་མཛེས་སྙོམ། ངེས་མེད་སྐབས་ དང་པ་སེལ་འཐུ་འབད་ཡོད་མི་རྩེ་འདི་བཟོ་བསྒྱུར་འབད་ནི་རྩེ་འདི་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:30
+#: ../glade/drgeoMDI.glade.h:29
+msgid "Change the property of an object"
+msgstr "དངོས་པོ་ཅིག་གི་རྒྱུ་དངོས་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../glade/drgeo2.glade.h:31
+msgid "Change the style of an object"
+msgstr "དངོས་པོ་ཅིག་གི་བཟོ་རྣམ་བསྒྱུར་བཅོས་འབད།"
+
+#: ../glade/drgeo2.glade.h:32
+#: ../glade/drgeoMDI.glade.h:30
+msgid "Circle defines by center and point, radius or segment"
+msgstr "སྒོར་ཐིག་་དབུས་དང་རྩེ་ མཐའ་འཁོར་ཡང་ན་ཆ་བགོས་ཀྱིས་ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:34
+msgid "Construct a macro"
+msgstr "མེཀརོ་ཅིག་བཟོ་བསྐྲུན་འབད།"
+
+#: ../glade/drgeo2.glade.h:35
+msgid "Create curve"
+msgstr "གུག་གུགཔ་གསར་བསྐྲུན་འབད།"
+
+#: ../glade/drgeo2.glade.h:36
+msgid "Create numeric object"
+msgstr "ཨང་གྲངས་ཀྱི་དངོས་པོ་གསར་བསྐྲུན་འབད།"
+
+#: ../glade/drgeo2.glade.h:37
+msgid "Create point"
+msgstr "རྩེ་གསར་བསྐྲུན་འབད།"
+
+#: ../glade/drgeo2.glade.h:38
+msgid "Curve"
+msgstr "གུག་གུགཔ།"
+
+#: ../glade/drgeo2.glade.h:39
+msgid "Custome User Interface"
+msgstr "སྲོལ་སྒྲིག་ལག་ལེན་པའི་ངོས་འདྲ་བ།"
+
+#: ../glade/drgeo2.glade.h:40
+msgid "Custome User Interface in the current view"
+msgstr "ད་ལྟོའི་མཐོང་སྣང་འདི་ནང་སྲོལ་སྒྲིག་ལག་ལེན་པའི་ངོས་འདྲ་བ།"
+
+#: ../glade/drgeo2.glade.h:41
+#: ../glade/drgeoMDI.glade.h:38
+msgid "Delete an object and its relatives"
+msgstr "དངོས་པོ་དང་འདིའི་འབྲེལ་བ་ཚུ་བཏོན་གཏང་།"
+
+#: ../glade/drgeo2.glade.h:42
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../glade/drgeo2.glade.h:43
+#: ../glade/drgeoMDI.glade.h:39
+msgid "Distance between objects, curve length, or edit free value"
+msgstr "དངོས་པོ་ཚུ་ གུག་གུགཔ་གི་རིང་ཚད་ ཡང་ན་གནས་གོང་རང་དབང་ཞུན་དག་བར་ན་གི་གྱང་ཚད།"
+
+#: ../glade/drgeo2.glade.h:44
+msgid "Edit Scheme script"
+msgstr "འཆར་ལས་ཡིག་ཚུགས་ཞུན་དག་འབད།"
+
+#: ../glade/drgeo2.glade.h:45
+msgid "Edit value"
+msgstr "གནས་གོང་ཞུན་དག་འབད།"
+
+#: ../glade/drgeo2.glade.h:46
+msgid "Enter the macro-construction description there"
+msgstr "དེ་ཁར་མེཀརོ་-བཟོ་བསྐྲུན་འགྲེལ་བཤད་འདི་བཙུགས།"
+
+#: ../glade/drgeo2.glade.h:47
+msgid "Enter the macro-construction name there"
+msgstr "དེ་ཁར་མེཀརོ་-བཟོ་བསྐྲུན་མིང་འདི་བཙུགས།"
+
+#: ../glade/drgeo2.glade.h:48
+msgid "Enter the name of this view:"
+msgstr "མཐོང་སྣང་འདི་གི་མིང་འདི་བཙུགས།:"
+
+#: ../glade/drgeo2.glade.h:49
+msgid "Execute"
+msgstr "ལག་ལན་འཐབ་ནི།"
+
+#: ../glade/drgeo2.glade.h:50
+msgid "Execute a macro-construction"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཅིག་ལག་ལེན་འཐབ།"
+
+#: ../glade/drgeo2.glade.h:51
+msgid "Execute pre-built macro"
+msgstr "སྔར་བཟོས་མེཀརོ་ལག་ལེན་འཐབ།"
+
+#: ../glade/drgeo2.glade.h:52
+msgid "Free point properties"
+msgstr "རྩེ་རང་དབང་གི་རྒྱུ་དངོས་ཚུ།"
+
+#: ../glade/drgeo2.glade.h:53
+msgid "Give a name and a description"
+msgstr "མིང་ཅིག་དང་འགྲེལ་བཤད་ཅིག་བྱིན།"
+
+#: ../glade/drgeo2.glade.h:54
+#: ../glade/drgeoMDI.glade.h:55
+msgid "Guile script using objects as input parameters"
+msgstr "དངོས་པོ་ཨིན་པུཊི་ཚད་བཟུང་བཟུམ་སྦེ་ལག་ལེན་འཐབ་དེ་ཡིག་ཚུགས་གཡོ་སྒྱུ་འབད།"
+
+#: ../glade/drgeo2.glade.h:55
+#: ../glade/drgeoMDI.glade.h:56
+msgid "Half-Line defined by two points, the first selected point is the origin"
+msgstr "གྱལ་ཕྱེད་ཀ་རྩེ་གཉིས་ཀྱིས་ངེས་འཛིན་འབད་ཡོདཔ་ དང་པ་སེལ་འཐུ་འབད་ཡོད་མི་རྩེ་འདི་འགོ་ཐོག་འབྱུང་ས་འདི་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:56
+msgid "Input"
+msgstr "ཨིན་པུཊི།"
+
+#: ../glade/drgeo2.glade.h:57
+msgid "Intro"
+msgstr "འགོ་བརྗོད།"
+
+#: ../glade/drgeo2.glade.h:59
+#: ../glade/drgeoMDI.glade.h:58
+msgid "Line defined by two points"
+msgstr "གྱལ་རྩེ་གཉིས་ཀྱིས་ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:60
+#: ../glade/drgeoMDI.glade.h:59
+msgid "Line passing through one point and orthogonal to a line, half-line, etc."
+msgstr "གྱལ་རྩེ་གཅིག་བརྒྱུད་དེ་ལག་བརྒྱུད་མི་དང་གྱལ་ཅིག་ གྱལ་ཕྱེད་ཀ་ལ་སོགས་པ་ལུ་གཡས་ཕྱོགས་གཡོ་མི།"
+
+#: ../glade/drgeo2.glade.h:61
+#: ../glade/drgeoMDI.glade.h:60
+msgid "Line passing through one point and parallel to a line, half-line, etc."
+msgstr "གྱལ་རྩེ་གཅིག་བརྒྱུད་དེ་ལག་བརྒྱུད་འཐབ་མི་དང་གྱལ་ཅིག་ གྱལ་ཕྱེད་ཀ་ལ་སོགས་པ་ལུ་མཉམ་སྤྱོད་མི།"
+
+#: ../glade/drgeo2.glade.h:62
+msgid "Lock"
+msgstr "ལྡེ་མིག་མ།"
+
+#: ../glade/drgeo2.glade.h:63
+msgid "Lock the interface"
+msgstr "ངོས་འདྲ་བ་འདི་བསྡམས་བཞག"
+
+#: ../glade/drgeo2.glade.h:64
+#: ../glade/drgeoMDI.glade.h:61
+msgid "Locus defined by a free point and a relative point"
+msgstr "རང་དབང་རྩ་དང་འབྲེལ་བའི་རྩེ་ཅིག་གིས་ལོ་ཀསི་ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:65
+msgid "Macro name"
+msgstr "མེཀརོ་མིང་།"
+
+#: ../glade/drgeo2.glade.h:67
+msgid "Masked"
+msgstr "གདོང་ཁེབས་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:70
+msgid "Not masked"
+msgstr "གདོང་ཁེབས་མེདཔ།"
+
+#: ../glade/drgeo2.glade.h:71
+msgid "Numeric"
+msgstr "ཨང་གྲངས་ཀྱི།"
+
+#: ../glade/drgeo2.glade.h:72
+msgid "Ordinate"
+msgstr "ཆ་སྙོམ།"
+
+#: ../glade/drgeo2.glade.h:73
+msgid "Other"
+msgstr "གཞན།"
+
+#: ../glade/drgeo2.glade.h:74
+msgid "Output"
+msgstr "ཨའུཊི་པུཊི།"
+
+#: ../glade/drgeo2.glade.h:75
+msgid "Password to lock the changes to the interface: "
+msgstr "ངོས་འདྲ་བ་འདི་ལུ་བསྒྱུར་བཅོས་ཚུ་བསྡམ་བཞག་ནི་ལུ་ཆོག་ཡིག: "
+
+#: ../glade/drgeo2.glade.h:76
+msgid "Password to unlock the changes to the interface:"
+msgstr "ངོས་འདྲ་བ་འདི་ལུ་བསྒྱུར་བཅོས་ཚུ་ལྡེ་མིག་ཕྱེ་ནི་ལུ་ཆོག་ཡིག:"
+
+#: ../glade/drgeo2.glade.h:78
+#: ../glade/drgeoMDI.glade.h:65
+msgid "Point given its coordinates"
+msgstr "འདིའི་ཆ་སྙོམ་ཚུ་བྱིན་ཡོད་མི་རྩེ།"
+
+#: ../glade/drgeo2.glade.h:79
+#: ../glade/drgeoMDI.glade.h:66
+msgid "Point on an object or the background plane"
+msgstr "དངོས་པོ་ཅིག་ཡང་ན་རྒྱབ་གཞི་བྱིལ་ལི་གུ་རྩེ།"
+
+#: ../glade/drgeo2.glade.h:80
+msgid "Polygon defined by n points. Last choosen point must be the initial point to terminate the selection"
+msgstr "ཨེན་རྩེ་གིས་ངེས་འཛིན་འབད་ཡོད་མི་ཟུར་མང་དབྱིབས། མཇུག་ལུ་གདམ་ཡོད་མི་རྩེ་འདི་སེལ་འཐུ་རྩ་གྲོལ་གཏང་་ནི་འགོ་ཐོག་རྩེ་འདི་ཨིནམ་འོང་།"
+
+#: ../glade/drgeo2.glade.h:81
+msgid "Press this button to mask the object"
+msgstr "དངོས་པོ་འདི་གདོང་ཁེབས་བརྐྱབ་ནི་ལུ་ཨེབ་རྟ་འདི་ཨེབ།"
+
+#: ../glade/drgeo2.glade.h:82
+msgid "Press this button to unmask the object"
+msgstr "དངོས་པོ་འདི་གདོང་ཁེབས་བཤོལ་འབད་ནི་ལུ་ཨེབ་རྟ་འདི་ཨེབ།"
+
+#: ../glade/drgeo2.glade.h:83
+msgid "Print Figure"
+msgstr "དཔར་རིས་དཔར་བསྐྲུན་འབད།"
+
+#: ../glade/drgeo2.glade.h:84
+msgid "Re-lock the interface"
+msgstr "ངོས་འདྲ་བ་འདི་ལོག་བསྡམ།"
+
+#: ../glade/drgeo2.glade.h:85
+msgid "Rename the view"
+msgstr "མཐོང་སྣང་འདི་བསྐྱར་མིང་བཏགས།"
+
+#: ../glade/drgeo2.glade.h:86
+#: ../glade/drgeoMDI.glade.h:75
+msgid "Rotation of an object. When ambiguity, the first selected point is the point to rotate"
+msgstr "དངོས་པོ་ཅིག་བསྒྱིར་ནི། ངེས་མེད་སྐབས་དང་པ་སེལ་འཐུ་འབད་ཡོད་མི་རྩེ་འདི་བསྒྱིར་་ནི་རྩེ་འདི་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:87
+#: ../glade/drgeoMDI.glade.h:78
+msgid "Scale an object. When ambiguity, the first selected point is the point to transform"
+msgstr "དངོས་པོ་ཅིག་ཚད་འཇལ། ངེས་མེད་སྐབས་དང་པ་སེལ་འཐུ་འབད་ཡོད་མི་རྩེ་འདི་བཟོ་བསྒྱུར་འབད་ནི་རྩེ་འདི་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:88
+msgid "Scheme script using objects as input parameters"
+msgstr "འཆར་ལས་ཡིག་ཚུགས་དངོས་པོ་ཚུ་ཨིན་པུཊི་ཚད་བཟུང་ཚུ་བཟུམ་སྦེ་ལག་ལེན་འཐབ་དོ།"
+
+#: ../glade/drgeo2.glade.h:89
+msgid "Script"
+msgstr "ཡིག་ཚུགས།"
+
+#: ../glade/drgeo2.glade.h:90
+#: ../glade/drgeoMDI.glade.h:79
+msgid "Segment defined by two points"
+msgstr "ཆ་བགོས་རྩེ་གཉིས་ཀྱིས་ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:91
+msgid "Select a macro-construction then the figure items"
+msgstr "མེཀརོ་-བཟོ་བསྐྲུན་ཅིག་སེལ་འཐུ་འབད་དེ་ལས་དཔར་རིས་རྣམ་གྲངས་ཚུ།"
+
+#: ../glade/drgeo2.glade.h:92
+msgid "Select and move an object"
+msgstr "སེལ་འཐུ་འབད་ནི་དང་དངོས་པོ་ཅིག་སྤོ།"
+
+#: ../glade/drgeo2.glade.h:93
+msgid "Select input parameters"
+msgstr "ཨིན་པུཊི་ཚཐ་བཟུང་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../glade/drgeo2.glade.h:94
+msgid "Select output parameters"
+msgstr "ཨའུཊི་པུཊི་ཚད་བཟུང་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../glade/drgeo2.glade.h:95
+msgid "Select printer: "
+msgstr "དཔར་འཕྲུལ་སེལ་འཐུ་འབད།: "
+
+#: ../glade/drgeo2.glade.h:100
+#: ../glade/drgeoMDI.glade.h:82
+msgid "The midpoint of a segment or between two points"
+msgstr "ཆ་བགོས་ཅིག་ཡང་ན་རྩེ་གཉིས་བར་ན་གི་དབུས་རྩེ་འདི།"
+
+#: ../glade/drgeo2.glade.h:101
+#: ../glade/drgeoMDI.glade.h:83
+msgid "The point(s) of intersection between two objects"
+msgstr "དངོས་པོ་གཉིས་ཀྱི་བར་ན་ཕན་ཚུན་འབྲེལ་བའི་རྩེ་(ཨེསི)འདི།"
+
+#: ../glade/drgeo2.glade.h:102
+msgid ""
+"This interface has already been locked.\n"
+"Enter the previously used password for this view: "
+msgstr ""
+"ངོས་འདྲ་བ་འདི་ཧེ་མ་ལས་བསྡམས་ཡོདཔ།\n"
+"མཐོང་སྣང་འདིའི་དོན་ལུ་ཧེ་མ་ལས་ལག་ལེན་འཐབ་ཡོད་མི་ཆོག་ཡིག་འདི་བཙུགས།: "
+
+#: ../glade/drgeo2.glade.h:104
+msgid ""
+"To build a macro-construction,\n"
+"\n"
+"1. First select the input parameters\n"
+"2. Next select the output parameters,\n"
+"3. Last chose a name and a description."
+msgstr ""
+"མེཀརོ-བཟོ་བསྐྲུན་ཅིག་བཟོ་བརྩིགས་དོན་ལུ་\n"
+"\n"
+"༡. དང་པ་རང་ཨིན་པུཊི་ཚད་བཟུང་འདི་སེལ་འཐུ་འབད།\n"
+"༢. ཤུལ་མ་ཨའུཊི་པུཊི་ཚད་བཟུང་འདི་སེལ་འཐུ་འབད།\n"
+"༣. མཇུག་རང་མིང་ཅིག་དང་འགྲེལ་བཤད་ཅིག་གདམ།"
+
+#: ../glade/drgeo2.glade.h:109
+msgid ""
+"To play a macro-construction,\n"
+"\n"
+"1. First select a macro-construction from the list,\n"
+"2. Select items on the figure. Only relevant items \n"
+"to the selected macro-construction are selectable.\n"
+"Once enought items are selected, the macro is \n"
+"automaticly executed.\n"
+"To start press the button \"next\"."
+msgstr ""
+"མེཀརོ་བཟོ་བསྐྲུན་ཅིག་གཏང་ནི་ལུ་\n"
+"\n"
+"༡. དང་པ་རང་ཐོ་ཡིག་ལས་མེཀརོ་བཟོ་བསྐྲུན་ཅིག་སེལ་འཐུ་འབད།\n"
+"༢. དཔར་རིས་འདི་གུ་རྣམ་གྲངས་ཚུ་སེལ་འཐུ་འབད།  སེལ་འཐུ་འབད་ཡོད་མི་མེཀརོ་བཟོ་བསྐྲུན་འདི་ལུ་ \n"
+"འབྲེལ་བ་ཡོད་པའི་རྣམ་གྲངས་ཚུ་རྐྱངམ་ཅིག་སེལ་འཐུ་འབད་བཏུབ་ཨིན།\n"
+"ཚར་གཅིག་རྣམ་གྲངས་ཚུ་ལངམ་སྦེ་སེལ་འཐུ་འབད་ཚརཝ་ཅིན་ མེཀརོ་འདི་ \n"
+"རང་བཞིན་གྱིས་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན།\n"
+"འགོ་བཙུགས་ནི་དོན་ལུ་ཨེབ་རྟ་འདི་ཨེབ། \"next\"."
+
+#: ../glade/drgeo2.glade.h:117
+msgid "Tools based on properties and transformations"
+msgstr "ལག་ཆས་ཚུ་རྒྱུ་དངོས་ཚུ་དང་བཟོ་བསྒྱུར་་ཚུ་གུ་གཞི་བཞག་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:118
+#: ../glade/drgeoMDI.glade.h:84
+msgid "Translation of an object. When ambiguity, the first selected vector is the vector to translate"
+msgstr "དངོས་པོ་ཅིག་གི་སྐད་བསྒྱུར། ངེས་མེད་སྐབས་དང་སེལ་འཐུ་འབད་ཡོད་མི་མཉམ་ཐིག་འདི་སྐད་བསྒྱུར་འབད་ནི་ལུ་མཉམ་ཐིག་ཨིན།"
+
+#: ../glade/drgeo2.glade.h:119
+msgid "Unlock"
+msgstr "ལྡེ་མིག་ཕྱེ།"
+
+#: ../glade/drgeo2.glade.h:120
+#: ../glade/drgeoMDI.glade.h:86
+msgid "Vector and point coordinates, line and circle equation"
+msgstr "མཉམ་ཐིག་དང་རྩེ་ཆ་སྙོམ་ གྱལ་དང་སྒོར་ཐིག་སྙོམ་རྟགས།"
+
+#: ../glade/drgeo2.glade.h:121
+#: ../glade/drgeoMDI.glade.h:87
+msgid "Vector defined by two points"
+msgstr "མཉམ་ཐིག་རཻ་གཉིས་ཀྱིས་ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: ../glade/drgeo2.glade.h:122
+msgid "Visibility"
+msgstr "མཐོང་ཚུགསཔ།"
+
+#: ../glade/drgeo2.glade.h:123
+msgid "Write down your description there."
+msgstr "ཁྱོད་རང་གི་འགྲེལ་བཤད་དེ་ཁར་འབྲི།"
+
+#: ../glade/drgeo2.glade.h:124
+msgid "You can edit the description"
+msgstr "ཁྱོད་ཀྱིས་འགྲེལ་བཤད་འདི་ཞུན་དག་འབད་བཏུབ།"
+
+#: ../glade/drgeo2.glade.h:125
+msgid "macro"
+msgstr "མེཀརོ།"
+
+#: ../glade/drgeo2.glade.h:126
+msgid "other"
+msgstr "གཞན།"
+
+#: ../glade/drgeo2.glade.h:127
+msgid "transformation"
+msgstr "བཟོ་བསྒྱུར་འབད་ནི།"
+
+#: ../glade/drgeoMDI.glade.h:16
+msgid "Animate a free point on a curve at speed 1"
+msgstr "མགྱོགས་ཚད་༡ ལུ་གུག་གུགཔ་ཅིག་གུ་རང་དབང་རྩེ་ཅིག་བསྒུལ་བཟོ་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:17
+msgid "Animate a free point on a curve at speed 2"
+msgstr "མགྱོགས་ཚད་༢ ལུ་གུག་གུགཔ་ཅིག་གུ་རང་དབང་རྩེ་ཅིག་བསྒུལ་བཟོ་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:18
+msgid "Animate a free point on a curve at speed 3"
+msgstr "མགྱོགས་ཚད་༣ ལུ་གུག་གུགཔ་ཅིག་རང་དབང་རྩེ་ཅིག་བསྒུལ་བཟོ་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:19
+msgid "Animate a free point on a curve at speed 4"
+msgstr "མགྱོགས་ཚད་༤ ལུ་གུག་གུགཔ་ཅིག་གུ་རང་དབང་རྩེ་ཅིག་བསྒུལ་བཟོ་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:20
+msgid "Animation x1"
+msgstr "བསྒུལ་བཟོ་ཨེགསི་༡།"
+
+#: ../glade/drgeoMDI.glade.h:21
+msgid "Animation x2"
+msgstr "བསྒུལ་བཟོ་༢།"
+
+#: ../glade/drgeoMDI.glade.h:22
+msgid "Animation x3"
+msgstr "བསྒུལ་བཟོ་ཨེགསི་༣།"
+
+#: ../glade/drgeoMDI.glade.h:23
+msgid "Animation x4"
+msgstr "བསྒུལ་བཟོ་ཨེགསི་༤།"
+
+#: ../glade/drgeoMDI.glade.h:27
+msgid "Change the User Interface of the current figure"
+msgstr "ད་ལྟོཞི་དཔར་རིས་འདི་གི་ལག་ལེན་པའི་ངོས་འདྲ་བ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:28
+msgid "Change the look of an object"
+msgstr "དངོས་པོ་ཅིག་གི་སྣང་ཚུལ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:31
+msgid "Create a new geometric figure"
+msgstr "ཐིག་རྩིས་དཔར་་རིས་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:32
+msgid "Create a new text"
+msgstr "ཚིག་ཡིག་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:34
+#, no-c-format
+msgid "Default 100%"
+msgstr "སྔོན་སྒྲིག 100%"
+
+#: ../glade/drgeoMDI.glade.h:35
+msgid "Define a macro-construction"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཅིག་ངེས་འཛིན་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:36
+msgid "Define exporting area"
+msgstr "ཕྱིར་འདྲེན་མངའ་ཁོངས་ངེས་འཛིན་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:37
+msgid "Define the exporting area"
+msgstr "ཕྱིར་འདྲེན་མངའ་ཁོངས་འདི་ངེས་འཛིན་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:40
+msgid "Dr Geo"
+msgstr "ཌི་ཨར་ ཇི་ཨི་ཨོ།"
+
+#: ../glade/drgeoMDI.glade.h:41
+msgid "Evaluate a figure defined in Scheme"
+msgstr "འཆར་ལས་ནང་ངེས་འཛིན་འབད་ཡོད་མི་དཔར་རིས་ཅིག་བརྟག་ཞིབ་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:42
+msgid "Execute a pre-built macro-construction"
+msgstr "སྔར་བཟོས་མེཀརོ་བཟོ་བསྐྲུན་ཅིག་ལག་ལེན་འཐབ།"
+
+#: ../glade/drgeoMDI.glade.h:44
+msgid "Export current figure to Flydraw (for WIMS)"
+msgstr "ད་ལྟོའི་དཔར་རིས་ཕལའི་ཌོ་ལུ་ཕྱིར་འདྲེན་འབད།(for WIMS)"
+
+#: ../glade/drgeoMDI.glade.h:45
+msgid "Export current figure to LaTeX (using PSTrick package)"
+msgstr "ད་ལྟོའི་དཔར་རིས་ལེ་ཊེགསི་ལུ་ཕྱིར་འདྲེན་འབད། (using PSTrick package)"
+
+#: ../glade/drgeoMDI.glade.h:46
+msgid "Export current figure to PNG (image format)"
+msgstr "ད་ལྟོའི་དཔར་རིས་པི་ཨེན་ཇི་ལུ་ཕྱིར་འདྲེན་འབད (image format)།"
+
+#: ../glade/drgeoMDI.glade.h:47
+msgid "Export current figure to PostScript (eps)"
+msgstr "ད་ལྟོའི་དཔར་རིས་པོསིཊི་ཀིརིཔཊི་ལུ་ཕྱིར་འདྲེན་འབད (eps)།"
+
+#: ../glade/drgeoMDI.glade.h:48
+msgid "Export figure to Flydraw"
+msgstr "དཔར་རིས་ཕལའི་ཌོ་ལུ་ཕྱིར་འདྲེན་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:49
+msgid "Export figure to LaTeX"
+msgstr "ཕྱིར་འདྲེན་དཔར་རིས་ལེ་ཊེགསི་ལུ།"
+
+#: ../glade/drgeoMDI.glade.h:50
+msgid "Export figure to PNG"
+msgstr "ཕྱིར་འདྲེན་དཔར་རིས་པི་ཨེན་ཇི་ལུ།"
+
+#: ../glade/drgeoMDI.glade.h:51
+msgid "Export figure to PostScript"
+msgstr "ཕྱིར་འདྲེན་དཔར་རིས་པོསིཊི་སིཀིརིཔཊི་ལུ།"
+
+#: ../glade/drgeoMDI.glade.h:52
+msgid "Export preferences"
+msgstr "ཕྱིར་འདྲེན་དགའ་གདམ་ཚུ།"
+
+#: ../glade/drgeoMDI.glade.h:53
+msgid "Free _point"
+msgstr "རང་དབང་གི་རྩེ།(_p)"
+
+#: ../glade/drgeoMDI.glade.h:54
+msgid "Grid"
+msgstr "གིརིཌི།"
+
+#: ../glade/drgeoMDI.glade.h:57
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#: ../glade/drgeoMDI.glade.h:62
+msgid "M_ove an object"
+msgstr "དངོས་པོ་ཅིག་སྤོ།(_o)"
+
+#: ../glade/drgeoMDI.glade.h:63
+msgid "New Figure"
+msgstr "དཔར་རིས་གསརཔ།"
+
+#: ../glade/drgeoMDI.glade.h:64
+msgid "New Text"
+msgstr "ཚིག་ཡིག་གསརཔ།"
+
+#: ../glade/drgeoMDI.glade.h:67
+msgid "Polygon defined by three points or more"
+msgstr "རྩེ་གསུམ་ཡང་ན་ལེ་ཤ་གིས་ངེས་འཛིན་འབད་ཡོད་མི་ཟུར་མང་དབྱིབས།"
+
+#: ../glade/drgeoMDI.glade.h:68
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: ../glade/drgeoMDI.glade.h:69
+msgid "Preferences set up"
+msgstr "དགའ་གདམ་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:70
+msgid "Re_name"
+msgstr "བསྐྱར་མིང་བཏགས།(_n)"
+
+#: ../glade/drgeoMDI.glade.h:71
+msgid "Remove exporting area"
+msgstr "ཕྱིར་འདྲེན་འབད་ནི་མངའ་ཁོངས་རྩ་བསྐྲད་གཏང་།"
+
+#: ../glade/drgeoMDI.glade.h:72
+msgid "Remove the exporting area"
+msgstr "ཕྱིར་འདྲེན་འབད་ནི་མངའ་ཁོངས་འདི་རྩ་བསྐྲད་གཏང་།"
+
+#: ../glade/drgeoMDI.glade.h:73
+msgid "Rename"
+msgstr "བསྐྱར་མིང་བཏགས།"
+
+#: ../glade/drgeoMDI.glade.h:74
+msgid "Rename the current view"
+msgstr "ད་ལྟོའི་མཐོང་སྣང་འདི་བསྐྱར་མིང་བཏགས།"
+
+#: ../glade/drgeoMDI.glade.h:76
+msgid "Save _multiple"
+msgstr "སྣ་མང་སྲུང་བཞག(_m)"
+
+#: ../glade/drgeoMDI.glade.h:77
+msgid "Save several data (figures, macro-constructions.) in one file"
+msgstr "ཡིག་སྣོད་གཅིག་ནང་ (figures, macro-constructions.) གནས་སྡུད་ལེ་ཤ་ཅིག་སྲུང་བཞག་འབད།"
+
+#: ../glade/drgeoMDI.glade.h:80
+msgid "Show or hide the grid"
+msgstr "གིརིཌི་འདི་སྟོན་ཡང་ན་སྦ་བཞག"
+
+#: ../glade/drgeoMDI.glade.h:81
+msgid "Show or hide the unit grid in the current view"
+msgstr "ད་ལྟོའི་མཐོང་སྣང་འདི་ནང་གིརིཌི་གི་ཆ་ཕྲན་འདི་སྟོན་ཡང་ན་སྦ་བཞག"
+
+#: ../glade/drgeoMDI.glade.h:85
+msgid "User manual"
+msgstr "ལག་ལེན་པའི་ལག་དེབ།"
+
+#: ../glade/drgeoMDI.glade.h:88
+msgid "Windows"
+msgstr "ཝིནཌོསི།"
+
+#: ../glade/drgeoMDI.glade.h:90
+#, no-c-format
+msgid "Zoom to 100%"
+msgstr "ལུ་རྒྱས་ཟུམ་ 100%"
+
+#: ../glade/drgeoMDI.glade.h:92
+#, no-c-format
+msgid "Zoom to 125%"
+msgstr "ལུ་རྒྱས་ཟུམ་125%"
+
+#: ../glade/drgeoMDI.glade.h:94
+#, no-c-format
+msgid "Zoom to 150%"
+msgstr "ལུ་རྒྱས་ཟུམ་ 150%"
+
+#: ../glade/drgeoMDI.glade.h:96
+#, no-c-format
+msgid "Zoom to 175%"
+msgstr "ལུ་རྒྱས་ཟུམ་ 175%"
+
+#: ../glade/drgeoMDI.glade.h:98
+#, no-c-format
+msgid "Zoom to 200%"
+msgstr "ལུ་རྒྱས་ཟུམ་ 200%"
+
+#: ../glade/drgeoMDI.glade.h:100
+#, no-c-format
+msgid "Zoom to 25%"
+msgstr "ལུ་རྒྱས་ཟུམ་ 25%"
+
+#: ../glade/drgeoMDI.glade.h:102
+#, no-c-format
+msgid "Zoom to 50%"
+msgstr "ལུ་རྒྱས་ཟུམ་ 50%"
+
+#: ../glade/drgeoMDI.glade.h:104
+#, no-c-format
+msgid "Zoom to 75%"
+msgstr "ལུ་རྒྱས་ཟུམ 75%"
+
+#: ../glade/drgeoMDI.glade.h:105
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../glade/drgeoMDI.glade.h:106
+msgid "_Angle"
+msgstr "གྲུ་ཟུར།(_A)"
+
+#: ../glade/drgeoMDI.glade.h:107
+msgid "_Animation"
+msgstr "བསྒུལ་བཟོ།(_A)"
+
+#: ../glade/drgeoMDI.glade.h:108
+msgid "_Arc Circle"
+msgstr "གཞི་དབྱིབས་སྒོར་ཐིག(_A)"
+
+#: ../glade/drgeoMDI.glade.h:109
+msgid "_Axial Symmetry"
+msgstr "མཐུད་མཚམས་ཀྱི་མཛོས་སྙོམ།(_A)"
+
+#: ../glade/drgeoMDI.glade.h:110
+msgid "_Central Symmetry"
+msgstr "དབུས་ཆ་སྙོམ་པ།(_C)"
+
+#: ../glade/drgeoMDI.glade.h:111
+msgid "_Circle"
+msgstr "སྒོར་ཐིག(_C)"
+
+#: ../glade/drgeoMDI.glade.h:112
+msgid "_Construct Macro"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་འབད།(_C)"
+
+#: ../glade/drgeoMDI.glade.h:113
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: ../glade/drgeoMDI.glade.h:114
+msgid "_Coordinates"
+msgstr "ཆ་སྙོམ་ཚུ།(_C)"
+
+#: ../glade/drgeoMDI.glade.h:115
+msgid "_Coordinates & Equation"
+msgstr "ཆ་སྙོམ་ སྙོམ་རྟགས།(& E)"
+
+#: ../glade/drgeoMDI.glade.h:116
+msgid "_Curve"
+msgstr "གུག་གུགཔ།(_C)"
+
+#: ../glade/drgeoMDI.glade.h:117
+msgid "_Custom Interface"
+msgstr "སྲོལ་སྒྲིག་ངོས་འདྲ་བ།(_C)"
+
+#: ../glade/drgeoMDI.glade.h:118
+msgid "_Delete an Object"
+msgstr "དངོས་པོ་ཅིག་བཏོན་གཏང་།(_D)"
+
+#: ../glade/drgeoMDI.glade.h:119
+msgid "_Distance & Length"
+msgstr "གྱང་ཚད་ རིང་ཚད།(_D)"
+
+#: ../glade/drgeoMDI.glade.h:120
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../glade/drgeoMDI.glade.h:121
+msgid "_Evaluate"
+msgstr "བརྟག་ཞིབ།(_E)"
+
+#: ../glade/drgeoMDI.glade.h:122
+msgid "_Execute Macro"
+msgstr "མེཀརོ་ལག་ལེན་འཐབ།(_E)"
+
+#: ../glade/drgeoMDI.glade.h:123
+msgid "_Figure"
+msgstr "དཔར་རིས།(_F)"
+
+#: ../glade/drgeoMDI.glade.h:124
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../glade/drgeoMDI.glade.h:125
+msgid "_Geometric Locus"
+msgstr "ཐིག་རྩིས་ཀྱི་ལོ་ཀསི།(_G)"
+
+#: ../glade/drgeoMDI.glade.h:126
+msgid "_Half-line"
+msgstr "གྱལ་ཕྱེད་ཀ།(_H)"
+
+#: ../glade/drgeoMDI.glade.h:127
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../glade/drgeoMDI.glade.h:128
+msgid "_Intersection"
+msgstr "ཕན་ཚུན་འབྲེལ་བ།(_I)"
+
+#: ../glade/drgeoMDI.glade.h:129
+msgid "_Line"
+msgstr "གྱལ།(_L)"
+
+#: ../glade/drgeoMDI.glade.h:130
+msgid "_Look"
+msgstr "སྣང་ཚུལ།(_L)"
+
+#: ../glade/drgeoMDI.glade.h:131
+msgid "_Macro"
+msgstr "མེཀརོ།(_M)"
+
+#: ../glade/drgeoMDI.glade.h:132
+msgid "_Macro-constructions"
+msgstr "མེཀརོ་བཟོ་བསྐྲུན་ཚུ།(_M)"
+
+#: ../glade/drgeoMDI.glade.h:133
+msgid "_Middle"
+msgstr "བར་མ།(_M)"
+
+#: ../glade/drgeoMDI.glade.h:134
+msgid "_Numeric"
+msgstr "ཨང་གྲངས་ཀྱི།(_N)"
+
+#: ../glade/drgeoMDI.glade.h:135
+msgid "_Orthogonal Line"
+msgstr "གཡས་ཕྱོགས་གཡོ་བའི་གྱལ།(_O)"
+
+#: ../glade/drgeoMDI.glade.h:136
+msgid "_Other"
+msgstr "གཞན།(_O)"
+
+#: ../glade/drgeoMDI.glade.h:137
+msgid "_Parallel Line"
+msgstr "མཉམ་སྤྱོད་གྱལ།(_P)"
+
+#: ../glade/drgeoMDI.glade.h:138
+msgid "_Point"
+msgstr "རྩེ།(_P)"
+
+#: ../glade/drgeoMDI.glade.h:139
+msgid "_Polygon"
+msgstr "ཟུར་མང་དབྱིབས།(_P)"
+
+#: ../glade/drgeoMDI.glade.h:140
+msgid "_Property"
+msgstr "རྒྱུ་དངོས།(_P)"
+
+#: ../glade/drgeoMDI.glade.h:141
+msgid "_Rotation"
+msgstr "བསྒྱིར་ནི།(_R)"
+
+#: ../glade/drgeoMDI.glade.h:142
+msgid "_Scale"
+msgstr "ཚད་ཤིང་།(_S)"
+
+#: ../glade/drgeoMDI.glade.h:143
+msgid "_Script"
+msgstr "ཡིག་ཚུགས།(_S)"
+
+#: ../glade/drgeoMDI.glade.h:144
+msgid "_Segment"
+msgstr "ཆ་བགོས།(_S)"
+
+#: ../glade/drgeoMDI.glade.h:145
+msgid "_Text"
+msgstr "ཚིག་ཡིག(_T)"
+
+#: ../glade/drgeoMDI.glade.h:146
+msgid "_Transformation"
+msgstr "བཟོ་བསྒྱུར།(_T)"
+
+#: ../glade/drgeoMDI.glade.h:147
+msgid "_Translation"
+msgstr "སྐད་བསྒྱུར།(_T)"
+
+#: ../glade/drgeoMDI.glade.h:148
+msgid "_Vector"
+msgstr "མཉམ་ཐིག(_V)"
+
+#: ../glade/drgeoMDI.glade.h:149
+msgid "_Zoom"
+msgstr "རྒྱས་ཟུམ།(_Z)"
+
+#~ msgid "epiphany"
+#~ msgstr "ཨི་པི་ཕ་ནི།"
+#~ msgid "firefox"
+#~ msgstr "ཕ་ཡེར་ཕོགསི།"
+#~ msgid "Automatic:"
+#~ msgstr "རང་བཞིན།:"
+#~ msgid "Complete"
+#~ msgstr "མཇུག་བསྡུ།"
+#~ msgid "Document Type"
+#~ msgstr "ཡིག་ཆ་དབྱེ་བ།"
+#~ msgid "Edge"
+#~ msgstr "མཐའམ།"
+#~ msgid "Export Latex"
+#~ msgstr "ལེ་ཊེགསི་ཕྱིར་འདྲེན་འབད།"
+#~ msgid "Fixed:"
+#~ msgstr "གཏན་བཟོས:"
+#~ msgid "Only graphics commands"
+#~ msgstr "ཚད་རིས་བརྡ་བཀོད་ཚུ་རྐྱངམ་ཅིག"
+#~ msgid "Screen"
+#~ msgstr "གསལ་གཞི།"
+#~ msgid "Selected"
+#~ msgstr "སེལ་འཐུ་འབད་ཡོདཔ།"
+#~ msgid "X max"
+#~ msgstr "ཨེགས་མང་མཐའ།"
+#~ msgid "X min"
+#~ msgstr "ཨེགསི་ཉུང་མཐའ།"
+#~ msgid "Y max"
+#~ msgstr "ཝའི་མང་མཐའ།"
+#~ msgid "Y min"
+#~ msgstr "ཝའི་ཉུང་མཐའ།"
+#~ msgid "pspicture"
+#~ msgstr "པི་ཨེསི་པར།"
+

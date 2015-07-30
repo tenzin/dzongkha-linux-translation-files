@@ -1,0 +1,272 @@
+# LANGUAGE translation of Drupal (modules/book.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: book.module,v 1.361.2.3 2006/05/24 11:41:07 killes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: book-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 11:33+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/book/book.module:15
+msgid "Book page"
+msgstr "ཀི་དེབ་ཤོག་ལེབ་"
+
+#: modules/book/book.module:17
+msgid "A book is a collaborative writing effort: users can collaborate writing the pages of the book, positioning the pages in the right order, and reviewing or modifying pages previously written. So when you have some information to share or when you read a page of the book and you didn't like it, or if you think a certain page could have been written better, you can do something about it."
+msgstr "ཀི་དེབ་འདི་མཉམ་འབྲེལ་རྩོམ་སྒྲིག་བརྩོན་ཤུགས་ཅིག་ཨིན: ལག་ལེན་པ་དེ་ཚུ་གིས་  ཀི་དེབ་ཀྱི་ཤོག་ལེབ་ཚུ་རྩོམ་སྒྲིག་མཉམ་འབྲེལ་འབད་ནི་དང་  ཤོག་ལེབ་ཚུ་གོ་རིམ་བདེན་མི་ནང་བཙུགས་ནི་  དེ་ལས་  ཧེ་མ་འབྲི་སྟེ་ཡོད་པའི་ཤོག་ལེབ་ཚུ་བསྐྱར་ཞིབ་འབད་ནི་ཡང་ན་ ལེགས་བཅོས་འབད་ཚུགས།  ཁྱོད་ཀྱིས་བརྡ་དོན་ལ་ལོ་ཅིག་རུབ་སྤྱོད་འབད་ནི་ཡོད་པ་ཅིན་  ཡང་ན་  ཁྱོད་ཀི་དེབ་ཀྱི་ཤོག་ལེབ་ལྷག་པའི་བསྒང་  ཁྱོད་ཀྱིས་མ་དགའ་མི་  ཡང་ན་  ཤོག་ལེབ་ལ་ལོ་ཅིག་འདི་བ་ལྷག་འབད་འབྲི་ཚུགས་ནི་མས་མནོ་བ་ཅིན་  ཁྱོད་ཀྱིས་དེ་ལུ་ག་ཅི་ཅིག་འབད་ད།"
+
+#: modules/book/book.module:68
+msgid "Add child page"
+msgstr "ཆ་ལག་ཤོག་ལེབ་འདི་ཁ་སྐོང་བརྐྱབ་"
+
+#: modules/book/book.module:74
+msgid "Printer-friendly version"
+msgstr "དཔར་འཕྲུལ་དང་མཐུན་པའི་ཐོན་རིམ་"
+
+#: modules/book/book.module:76
+msgid "Show a printer-friendly version of this book page and its sub-pages."
+msgstr "ཀི་དེབ་ཤོག་ལེབ་དེ་གི་  དཔར་འཕྲུལ་མཐུན་པའི་ཐོན་རིམ་དང་ དེ་གི་ཡན་ལག་ཤོག་ལེབ་ཚུ་སྟོན།"
+
+#: modules/book/book.module:94;111
+msgid "Books"
+msgstr "ཀི་དེབ་ཚུ་"
+
+#: modules/book/book.module:95
+msgid "Manage site's books and orphaned book pages."
+msgstr "དྭ་ཕྲུག་ཀི་དེབ་ཤོག་ལེབ་ཚུ་དང་  འཛིན་སྐྱོང་ས་ཁོངས་ཀྱི་ཀི་དེབ་ཚུ།"
+
+#: modules/book/book.module:104
+msgid "Orphan pages"
+msgstr "དྭ་ཕྲུག་གི་ཤོག་ལེབ་ཚུ་"
+
+#: modules/book/book.module:134
+msgid "Outline"
+msgstr "མཐའ་ཐིག་"
+
+#: modules/book/book.module:156
+msgid "Book navigation"
+msgstr "ཀི་དེབ་འགྲུལ་བསྐྱོད།"
+
+#: modules/book/book.module:216
+msgid "The parent section in which to place this page. Note that each page whose parent is &lt;top-level&gt; is an independent, top-level book."
+msgstr "ཤོག་ལེབ་འདི་བཞག་ནི་ཨིན་པའི་རྩ་ལག་དབྱེ་ཚན།  &lt;top-level&gt;རྩ་ལག་ཨིན་པའི་ཤོག་ལེབ་འདི་  རང་དབང་ཡོད་པའི་ཆེ་རིམ་ཨིན་ཟེར་དྲན་འཛིན་འབད།  "
+
+#: modules/book/book.module:216
+msgid "The parent that this page belongs in."
+msgstr "ཤོག་ལེབ་བང་མི་འདི་གི་རྩ་ལག"
+
+#: modules/book/book.module:240;272
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr "གནས་རིམ་ལུ་བྱིན་དེ་ཡོད་པའི་ཤོག་ལེབ་ཚུ་  ཧེ་མ་རང་ ལྗིད་ཚད་དང་ དེ་ལས་ གོ་མིང་གིས་འབད་གོ་རིམ་བཟོ་རོད།"
+
+#: modules/book/book.module:266
+msgid "The parent page in the book."
+msgstr "ཀི་དེབ་ནང་ལུ་རྩ་ལག་ཤོག་ལེབ།"
+
+#: modules/book/book.module:276
+msgid "An explanation to help other authors understand your motivations to put this post into the book."
+msgstr "གནས་བསྐྱོད་འདི་ཀི་དེབ་ནང་ལུ་བཙུགས་ནི་དོན་ལུ་  ཁྱོད་ཀྱི་རྒྱུད་སྐུལ་ཚུ་གཞན་རྩོམ་པ་པོ་ཚུ་ལུ་  གྲོགས་རམ་འབད་ནི་གི་གསལབཤད།"
+
+#: modules/book/book.module:282;309
+msgid "Update book outline"
+msgstr "ཀི་དེབ་མཐའ་ཐིག་འདི་དུས་མཐུན་བཟོ།"
+
+#: modules/book/book.module:285;314
+msgid "Remove from book outline"
+msgstr "ཀི་དེབ་མཐའ་ཐིག་ལས་རཙ་བསྐྲད་གཏང་།"
+
+#: modules/book/book.module:289;304
+msgid "Add to book outline"
+msgstr "ཀི་དེབ་མཐའ་ཐིག་ལུ་ཁ་སྐོང་བརྐྱབ།"
+
+#: modules/book/book.module:307
+msgid "The post has been added to the book."
+msgstr "གནས་བསྐྱོད་འདི་ཀི་དེབ་ལུ་ཁ་སྐོང་བརྐྱབ་ཡོད།"
+
+#: modules/book/book.module:312
+msgid "The book outline has been updated."
+msgstr "ཀི་དེབ་ཀྱི་མཐའ་ཐིག་འདི་དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/book/book.module:316
+msgid "The post has been removed from the book."
+msgstr "གནས་བསྐྱོད་འདི་ཀི་དེབ་ལས་རྩ་བསྐྲད་གཏང་ཡོད།"
+
+#: modules/book/book.module:493
+msgid "up"
+msgstr "ཡར།"
+
+#: modules/book/book.module:493
+msgid "Go to parent page"
+msgstr "རྩ་ལག་ཤོག་ལེབ་ལུ་སོང་།"
+
+#: modules/book/book.module:548
+msgid "top-level"
+msgstr "མགོའི་གནས་རིམ།"
+
+#: modules/book/book.module:653
+msgid "Unknown export format."
+msgstr "མ་ཤེས་པའི་ཕྱིར་འདྲེན་རཙ་སྒྲིག"
+
+#: modules/book/book.module:876;910
+msgid "Save book pages"
+msgstr "ཀི་དེབ་ཤོག་ལེབ་ཚུ་སྲུང་།"
+
+#: modules/book/book.module:915
+msgid "There are no orphan pages."
+msgstr "དྭ་ཕྲུག་གི་ཤོག་ལེབ་ཚུ་མིན་འདུག"
+
+#: modules/book/book.module:930
+msgid "%type: updated %title."
+msgstr "%title: %titleའདི་དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/book/book.module:930;0
+msgid "book"
+msgstr "ཀི་དེབ།"
+
+#: modules/book/book.module:937
+msgid "Updated book %title."
+msgstr "ཀི་དེབ་%titleའདི་དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/book/book.module:941
+msgid "Updated orphan book pages."
+msgstr "དྭ་ཕྲུག་ཀི་དེབ་ཤོག་ལེབ་ཚུ་དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/book/book.module:963
+msgid "outline"
+msgstr "མཐའ་ཐིག"
+
+#: modules/book/book.module:965
+#: modules/book/book.info:0
+msgid "Book"
+msgstr "ཀི་དེབ།"
+
+#: modules/book/book.module:976
+msgid "The <em>book</em> module is suited for creating structured, multi-page hypertexts such as site resource guides, manuals, and Frequently Asked Questions (FAQs). It permits a document to have chapters, sections, subsections, etc. Authors with suitable permissions can add pages to a collaborative book,  placing them into the existing document by adding them to a table of contents menu."
+msgstr "<em>ཀི་དེབ་</em>ནང་དོན་དབྱེ་བ་འདི་  ས་ཁོངས་ཐོན་ཁུངས་ལམ་སྟོན་པ་ཚུ་  ལག་དེབ་ཚུ་དང་ འཕྲལ་འཕྲལ་རང་བཀོད་དེ་ཡོད་པའི་འདྲི་བ་(FAQs)བཟུམ་མའི་  གཞི་བཀོད་དང་  སྣ་མང་ཤོག་ལེབ་ཧའི་པར་ཚིག་ཡིག་ཚུ་  གསར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་འོས་འབབ་ཡོད།  དེ་གིས་  ཡིག་ཆ་དེ་ལུ་  ལེའུ་ཚུ་  དབྱེ་ཚན་ཚུ་  ཡན་ལག་དབྱེ་ཚན་ཚུ་ཡོད་བཅུགཔ་ཨིན།  འོས་འབབ་ཡོད་པའི་གནང་བ་དང་ཅིག་ཁར་ རྩོམ་པ་པོ་འདི་  མཉམ་འབྲེལ་ཀི་དེབ་ཅིག་ལུ་ ཤོག་ལེབ་ཚུ་ཆ་མཉམ་ཁ་སྐོང་བརྐྱབ་བཏུབ་ཨིན་དེ་ཡང་  དེ་ཚུ་ དཀར་ཆག་ནང་དོན་གྱི་ཐིག་ཁྲམ་ཅིག་ལུ་ གནས་དེ་ཡོད་པའི་ཡིག་ཆ་འདི་ཁ་སྐོང་བརྐྱབ་པའི་ཐོག་ལས་ཨིན།"
+
+#: modules/book/book.module:977
+msgid "Book pages have navigation elements at the bottom of the page for moving through the text.  These link to the previous and next pages in the book, as well as a link labeled <em>up</em>, leading to the level above in the structure.  More comprehensive navigation may be provided by enabling the <em>book navigation block</em> on the <a href=\"@admin-block\">block administration page</a>."
+msgstr "ཚིག་ཡིག་ལས་སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་  ཤོག་ལེབ་རེ་རེ་གི་མཇུག་ལུ་  ཀི་དེབ་དེ་ཚུ་ལུ་<em>ཧེ་མ་</em>, <em>ཡར་</em>, དང་ <em>ཤུལ་མ་</em>འགྲུལ་བསྐྱོད་ཆ་ཤས་ཁ་སྐོང་འདི་ཡོདཔ་ཨིན།  འགྲུལ་བསྐྱོད་ཧེང་བཀལ་འདི་  <a href=\"%admin-block\">བཀག་ཆའི་བདག་སྐྱོད་ཤོག་ལེབ་</a>གུ་ <em>ཀི་དེབ་འགྲུལ་བསྐྱོད་བཀག་ཆ་</em>འདི་ལྕོགས་ཅན་བཟོ་ཐོག་ལས་ བྱིན་འོང་།"
+
+#: modules/book/book.module:978
+msgid "Users can select the <em>printer-friendly version</em> link visible at the bottom of a book page to generate a printer-friendly display of the page and all of its subsections. "
+msgstr "ཤོག་ལེབ་ཀྱི་དཔར་འཕྲུལ་མཐུན་པ་བཀྲམ་སྟོན་འབད་ནི་དང་  དབྱེ་ཚན་ཡན་ལག་ཚུ་ཆ་མཉམ་བཟོ་བཏོན་འབད་ནི་ལུ་  ལག་ལེན་པ་དེ་གིས་ ཀི་དེབ་ཀྱི་ཤོག་ལེབ་མཇུག་ལུ་ <em>དཔར་འཕྲུལ་མཐུན་པའི་ཐོན་རིམ་</em>མཐོང་ཚུགས་པའི་འབྲེལ་ལམ་འདི་སེལ་འཐུ་འབད་བཏུབ།"
+
+#: modules/book/book.module:979
+msgid "Posts of type %book are automatically added to the book hierarchy. Users with the <em>outline posts in books</em> permission can also add content of any other type to a book, placing it into the existing book structure through the interface that's available by clicking on the <em>outline</em> tab while viewing that post."
+msgstr "དབྱེ་བའི་%bookགི་གནས་བསྐྱོད་དེ་ཚུ་  རང་བཞིན་གྱིས་སྦེ་  ཀི་དེབ་སྡེ་རིམ་ལུ་ཁ་སྐོང་བརྐྱབ་ཨིན།  <em>ཀི་དེབ་ནང་མཐའ་ཐིག་གནས་བསྐྱོད་</em>གནང་བ་ཡོད་པའི་ལག་ལེན་པ་ཚུ་གིས་  གནས་བསྐྱོད་འདི་བལྟ་བའི་བསྒང་  <em>མཐའ་ཐིག་</em>ཨེབ་ལྡེ་གུ་  ཨེབ་གཏང་འབད་ཐོག་ལས་  ཐོབ་ཚུགས་པའི་ངོས་འདྲ་བ་ལས་བརྒྱུད་དེ་  གནས་ཏེ་ཡོད་པའི་ཀི་དེབ་གཞི་བཀོད་ནང་ལུ་བཞག་ཐོག་ལས་  ཀི་དེབ་ཅིག་ལུ་ དབྱེ་གང་རུང་གི་ནང་དོན་ཁ་སྐོང་བརྐྱབ་བཏུབ་ཨིན།  "
+
+#: modules/book/book.module:980
+msgid "Administrators can view a list of all books on the <a href=\"@admin-node-book\">book administration page</a>.  In this list there is a link to an outline page for each book, from which is it possible to change the titles of sections, or to change their weight, thus reordering sections. From this administrative interface, it is also possible to determine whether there are any orphan pages - pages that have become disconnected from the rest of the book structure."
+msgstr "བདག་སྐྱོང་པ་དེ་གིས་  <a href=\"@admin-node-book\">book administration page</a>གུ་ཡོད་པའི་ཀི་དེབ་ཆ་མཉམ་གྱི་ཐོ་ཡིག་འདི་སྟོན་ཚུགས།  ཐོ་ཡིག་འདི་ནང་  དབྱེ་ཚན་གྱི་མགོ་མིང་ཚུ་  ཡང་ན་  ལྗིད་ཚད་  དེ་ལས་དེ་ལུ་བརྟེན་ཏེ་  གོ་རིམ་བསྐྱར་སྒྲིག་གི་དབྱེ་ཚན་འབད་བསྒྱུར་བཅོས་འབད་ཚུགས་མི་ལས་  ཀི་དེབ་རེ་རེ་ལུ་མཐའ་ཐིག་ཤོག་ལེབ་ཅིག་ལུ་འབྲེལ་ལམ་ཡོདཔ་ཨིན།  ངོས་འདྲ་བའི་བདག་སྐྱོང་འདི་ལས་  ཨོར་ཕེན་ཤོག་ལེབ་ - དེ་ཡང་ཀི་དེབ་གཞན་མི་ལས་མཐུད་ལམ་བཏོགས་ཡོད་པའི་ཤོག་ལེབ་  གང་རུང་ཅིག་ཡོད་མེད་གཏན་འབེབས་བཟོ་ཚུགས། "
+
+#: modules/book/book.module:981
+msgid "For more information please read the configuration and customization handbook <a href=\"@book\">Book page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་ རིམ་སྒྲིག་འབད་ནི་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་<a href=\"@book\">ཀི་དེབ་ཤོག་ལེབ་</a>འདི་ལྷག་གནང་།"
+
+#: modules/book/book.module:984
+msgid "The book module offers a means to organize content, authored by many users, in an online manual, outline or FAQ."
+msgstr "ཀི་དེབ་ཚད་གཞི་དེ་གིས་  ལག་ལེན་པ་ལེ་ཤ་གིས་གློག་ཐོག་ལག་དེབ་གུ་ དང་  མཐའ་ཐིག་ཡང་ན་ཨེཕ་ཨེ་ཀིའུ་གུ  རྩོམ་ཡོད་པའི་ནང་དོན་འདི་འགོ་འདྲེན་འཐབ་ནི་གི་དོན་སྟོནམ་ཨིན།"
+
+#: modules/book/book.module:986
+msgid "Pages in a book are like a tree. As pages are edited, reorganized and removed, child pages might be left with no link to the rest of the book. Such pages are referred to as \"orphan pages\". On this page, administrators can review their books for orphans and reattach those pages as desired."
+msgstr "ཀི་དེབ་ནང་ཡོད་པའི་ཤོག་ལེབ་ཚུ་  རྩ་འབྲེལ་ཅིག་ཨིན།  ཤོག་ལེབ་ཚུ་ཞུན་དག་དང་ སླར་གོ་འདྲེན་འཐབ་ཡོདཔ་དང་ དེ་ལས་  རྩ་བསྐྲད་གཏང་ཡོདཔ་ལས་  ཆ་ལག་ཤོག་ལེབ་ཚུ་  ཀི་དེབ་གཞན་ལུ་འབྲེལ་བ་མེདཔ་འབད་ལུས་འོང་།  ནི་བཟུམ་མའི་ཤོག་ལེབ་ལུ་  \"orphan pages\"ཟེར་གཞི་བསྟུན་འབདཝ་ཨིན།  ཤོག་ལེབ་དེ་གུ་  བདག་སྐྱོང་པ་དེ་ཚུ་གིས་  ཁོང་རའི་ཀི་དེབ་འདི་  དྭ་ཕྲུག་གི་དོན་ལུ་བསྐྱར་ཞིབ་འབད་བཏུབ་ནི་དང་  རེ་འདོད་ལྟར་ཤོག་ལེབ་དེ་ཚུ་སླར་སྒྲིག་འབད་བཏུབ་ཨིན།"
+
+#: modules/book/book.module:990
+msgid "The outline feature allows you to include posts in the <a href=\"@book\">book hierarchy</a>."
+msgstr "མཐའ་ཐིག་ཁྱད་རྣམ་དེ་གིས་ ཁྱོད་ལུ་  གནས་བསྐྱོད་འདི་ <a href=\"%book\">ཀི་དེབ་སྡེ་རིམ་</a>ནང་གྱལ་ཁར་བཙུགས་བཅུགཔ་ཨིན།"
+
+#: modules/book/book.module:26
+msgid "outline posts in books"
+msgstr "ཀི་དེབ་ཚུ་གི་ནང་ལུ་ གནས་བསྐྱོད་ཚུ་མཐའ་ཐིག་འབད།"
+
+#: modules/book/book.module:26
+msgid "create book pages"
+msgstr "ཀི་དེབ་ཤོག་ལེབ་ཚུ་གསར་བསྐྲུན་འབད།"
+
+#: modules/book/book.module:26
+msgid "create new books"
+msgstr "ཀི་དེབ་གསརཔ་ཚུ་གསར་བསྐྲུན་འབད།"
+
+#: modules/book/book.module:26
+msgid "edit book pages"
+msgstr "ཀི་དེབ་ཤོག་ལེབ་ཚུ་ཞུན་དག་འབད།"
+
+#: modules/book/book.module:26
+msgid "edit own book pages"
+msgstr "རང་གི་ཀི་དེབ་ཤོག་ལེབ་ཚུ་ཞུན་དག་འབད།"
+
+#: modules/book/book.module:26
+msgid "see printer-friendly version"
+msgstr "དཔར་འཕྲུལ་མཐུན་མི་ཐོན་རིམ་འདི་ལུ་བལྟ།"
+
+#: modules/book/book.info:0
+msgid "Allows users to collaboratively author a book."
+msgstr "ལག་ལེན་པ་ཚུ་ལུ་ ཀི་དེབ་ཅིག་མཉམ་འབྲེལ་རྩོམ་པ་པོ་འབད་བཅུགཔ་ཨིན།"
+
+#~ msgid "books"
+#~ msgstr "ཀི་དེབ་ཚུ།"
+#~ msgid ""
+#~ "The post has been submitted for moderation and won't be accessible until "
+#~ "it has been approved."
+#~ msgstr ""
+#~ "གནས་བསྐྱོད་འདི་རན་པའི་དོན་ལུ་ཞུ་བ་འབད་དེ་ཡོདཔ་དང་  གནང་བ་མ་ཐོབ་ཚུན་འཛུལ་སྤྱོད་འབད་མི་ཚུགས།"
+#~ msgid ""
+#~ "Administrators can view a book outline, from which is it possible to "
+#~ "change the titles of sections, and their <i>weight</i> (thus reordering "
+#~ "sections).   From this outline, it is also possible to edit and/or delete "
+#~ "book pages.   Many content types besides pages (for example, blog "
+#~ "entries, stories, and polls) can be added to a collaborative book by "
+#~ "choosing the <em>outline</em> tab when viewing the post."
+#~ msgstr ""
+#~ "<i>ལྗིད་ཚད་</i> (དབྱེ་ཚན་ཚུ་སླར་གོ་རིམ་སྒྲིག་སྟེ་)དང་  དབྱེ་ཚན་ཚུ་གི་མགོ་མིང་བསྒྱུར་བཅོས་འབད་བཏུབ་"
+#~ "མི་ལས་  བདག་སྐྱོང་པ་དེ་གིས་  ཀི་དེབ་ཀྱི་མཐའ་ཐིག་ཅིག་མཐོང་ཚུགསཔ་ཨིན།  མཐའ་ཐིག་འདི་ལས་  ཀི་དེབ་"
+#~ "ཤོག་ལེབ་ཚུ་ཞུན་དག་འབད་ནི་དང་/ ཡང་ན་ བཏོན་གཏང་བཏུབ་ཨིན།  གནས་བསྐྱོད་འདི་སྟོན་པའི་སྐབས་  "
+#~ "<em>མཐའ་ཐིག་</em>ཨེབ་ལྡེ་འདི་གདམ་ཁ་བརྐྱབ་སྟེ་  ཤོག་ལེབ་མ་ཡིན་པ་གཞན་ (དཔེར་ན་  ཝེབ་དྲན་དེབ་"
+#~ "འཛུལ་ཞུགས་, གཏམ་, དང་ འོས་ཤོག་ཚུ་) ནང་དོན་གྱི་དབྱེ་བ་ཚུ་  མཉམ་འབྲེལ་ཀི་དེབ་ལུ་ཁ་སྐོང་བརྐྱབ་"
+#~ "བཏུབ་ཨིན།  "
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>create new book pages: <a href=\"%node-add-book\">create content &gt;"
+#~ "&gt; book page</a>.</li>\n"
+#~ "<li>administer individual books (choose a book from list): <a href=\"%"
+#~ "admin-node-book\">administer &gt;&gt; content &gt;&gt; books</a>.</li>\n"
+#~ "<li>set workflow and other global book settings on the book configuration "
+#~ "page: <a href=\"%admin-settings-content-types-book-page\" title=\"book "
+#~ "page content type\">administer &gt;&gt; settings &gt;&gt; content types "
+#~ "&gt;&gt; configure book page</a>.</li>\n"
+#~ "<li>enable the book navigation block: <a href=\"%admin-block\">administer "
+#~ "&gt;&gt; blocks</a>.</li>\n"
+#~ "<li>control who can create, edit, and outline posts in books by setting "
+#~ "access permissions: <a href=\"%admin-access\">administer &gt;&gt; access "
+#~ "control</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་ </p>\n"
+#~ "<ul>\n"
+#~ "<li>ཀི་དེབ་ཤོག་ལེབ་ཚུ་གསརཔ་གསར་བསྐྲུན་འབད་བཏུབ་: <a href=\"%node-add-book\">create "
+#~ "content &gt;&gt; ཀི་དེབ་ཤོག་ལེབ།</a>.</li>\n"
+#~ "<li>ངོ་རྐྱང་ཀི་དེབ་ཚུ་བདག་སྐྱོང་འབད་(ཐོ་ཡིག་ལས་ཀི་དེབ་ཅིག་སེལ་འཐུ་འབད་): <a href=\"%admin-"
+#~ "node-book\">administer &gt;&gt; content &gt;&gt; ཀི་དེབ་ཚུ།</a>.</li>\n"
+#~ "<li>ཀི་དེབ་རིམ་སྒྲིག་ཤོག་ལེབ་གུ་  ལཱ་རྒྱུན་དང་ གཞན་སྤྱི་ཁྱབ་ཀི་དེབ་སྒྲིག་སྟངས་ཚུ་གཞི་སྒྲིག་འབད : <a "
+#~ "href=\"%admin-settings-content-types-book-page\" title=\"book page "
+#~ "content type\">administer &gt;&gt; settings &gt;&gt; content types &gt;"
+#~ "&gt; ཀི་དེབ་ཤོག་ལེབ་འདི་རིམ་སྒྲིག་འབད།</a>.</li>\n"
+#~ "<li>ཀི་དེབ་འགྲུལ་བསྐྱོད་བཀག་ཆ་འདི་ལྕོགས་ཅན་བཟོ: <a href=\"%admin-block\">administer "
+#~ "&gt;&gt; blocks</a>.</li>\n"
+#~ "<li>འཛུལ་སྤྱོད་གནང་བ་ཚུ་གིས་འབད་ཀི་དེབ་ནང་  གསར་བསྐྲུན་  ཞུན་དག་དང་མཐའ་ཐིག་གནས་བསྐྱོད་ག་གི་"
+#~ "འབད་ཚུགས་ག་  འདི་ཚད་འཛིན་འབད: <a href=\"%admin-access\">administer &gt;&gt; "
+#~ "འཛུལ་སྤྱོད་ཚད་འཛིན།</a>.</li>\n"
+#~ "</ul>\n"
+

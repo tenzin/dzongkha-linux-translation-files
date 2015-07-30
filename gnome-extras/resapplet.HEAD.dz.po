@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: resapplet.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-21 21:17+0000\n"
+"PO-Revision-Date: 2007-03-26 09:32+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../resapplet.desktop.in.h:1
+msgid "Change your screen resolution"
+msgstr "ཁྱོད་རའི་གསལ་གཞི་ཧུམ་ཆ་འདི་བསྒྱུར་བཅོས་འབད་"
+
+#: ../resapplet.desktop.in.h:2
+msgid "Resolution Switcher"
+msgstr "ཧུམ་ཆ་སོར་བསྒྱུར་འབད་མི་"
+
+#: ../src/eggtrayicon.c:123
+msgid "Orientation"
+msgstr "ཕྱོགས་"
+
+#: ../src/eggtrayicon.c:124
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་ཀྱི་ཕྱོགས།"
+
+#: ../src/resapplet.c:97
+msgid "hundreds of colors"
+msgstr "ཚོས་གཞི་བརྒྱ་ཕྲག་ཚུ་"
+
+#: ../src/resapplet.c:99
+msgid "thousands of colors"
+msgstr "ཚོས་གཞི་སྟོང་ཕྲག་ཚུ་"
+
+#: ../src/resapplet.c:101
+msgid "millions of colors"
+msgstr "ཚོས་གཞི་ས་ཡ་ཚུ་"
+
+#: ../src/resapplet.c:103
+msgid "billions of colors"
+msgstr "ཚོས་གཞི་ཐེར་འབུམ་ཚུ་"
+
+#: ../src/resapplet.c:105
+msgid "unknown colors"
+msgstr "མ་ཤེས་པའི་ཚོས་གཞི་ཚུ་"
+
+#: ../src/resapplet.c:135
+#, c-format
+msgid "Display information: %s with %s at %dHz"
+msgstr "བརྡ་དོན་བཀྲམ་སྟོན་འབད:  %s དང་ཅིག་ཁར་ %s འདི་ %dHz ལུ་"
+
+#: ../src/resapplet.c:378
+#, c-format
+msgid "Testing the new settings. If you don't respond in %d second the previous settings will be restored."
+msgid_plural "Testing the new settings. If you don't respond in %d seconds the previous settings will be restored."
+msgstr[0] "སྒྲིག་སྟངས་གསརཔ་ཚུ་བརྟག་ཞིབ་འབད་དོ།  ཁྱོད་ཀྱིས་%dསྐར་ཆའི་ནང་ལན་བཀོད་མ་འབད་བ་ཅིན་  ཧེ་མའི་སྒྲིག་སྟངས་ཚུ་སོར་ཆུད་འབད་འོང་"
+msgstr[1] "སྒྲིག་སྟངས་གསརཔ་ཚུ་བརྟག་ཞིབ་འབད་དོ།  ཁྱོད་ཀྱིས་%dསྐར་ཆའི་ནང་ལན་བཀོད་མ་འབད་བ་ཅིན་  ཧེ་མའི་སྒྲིག་སྟངས་ཚུ་སོར་ཆུད་འབད་འོང་།"
+
+#: ../src/resapplet.c:429
+msgid "Keep Refresh Rate"
+msgstr "ཡང་སེལ་མགྱོགས་ཚད་བཞག་"
+
+#: ../src/resapplet.c:431
+msgid "Do you want to keep this refresh rate?"
+msgstr "ཁྱོད་ཀྱིས་ཡང་སེལ་མགྱོགས་ཚད་འདི་བཞག་ནི་ཨིན་ན?"
+
+#: ../src/resapplet.c:435
+msgid "Keep Rotation"
+msgstr "སྐོར་རྒྱབ་འདི་བཞག་"
+
+#: ../src/resapplet.c:437
+msgid "Do you want to keep this rotation?"
+msgstr "སྐོར་རྒྱབ་འདི་ཁྱོད་ཀྱིས་བཞག་ནི་ཨིན་ན?"
+
+#: ../src/resapplet.c:441
+msgid "Keep Resolution"
+msgstr "ཧུམ་ཆ་འདི་བཞག་"
+
+#: ../src/resapplet.c:443
+msgid "Do you want to keep this resolution?"
+msgstr "ཧུམ་ཆ་འདི་ཁྱོད་ཀྱིས་བཞག་ནི་ཨིན་ན?"
+
+#: ../src/resapplet.c:476
+msgid "Use _previous refresh rate"
+msgstr "ཧེ་མའི་ཡང་སེལ་མགྱོགས་ཚད་འདི་ལག་ལེན་འཐབ། (_p)"
+
+#: ../src/resapplet.c:477
+msgid "_Keep refresh rate"
+msgstr "ཡང་སེལ་འབད་བའི་མགྱོགས་ཚད་འདི་བཞག། (_K)"
+
+#: ../src/resapplet.c:483
+msgid "Use _previous rotation"
+msgstr "ཧེ་མའི་སྐོར་རྒྱབ་འདི་ལག་ལེན་འཐབ། (_p)"
+
+#: ../src/resapplet.c:484
+msgid "_Keep rotation"
+msgstr "སྐོར་རྒྱབ་འདི་བཞག། (_K)"
+
+#: ../src/resapplet.c:490
+msgid "Use _previous resolution"
+msgstr "ཧེ་མའི་ཧུམ་ཆ་འདི་ལག་ལེན་འཐབ། (_p)"
+
+#: ../src/resapplet.c:491
+msgid "_Keep resolution"
+msgstr "ཧུམ་ཆ་འདི་བཞག། (_K)"
+
+#: ../src/resapplet.c:697
+msgid "Counterclockwise"
+msgstr "གཡོན་སྐོར་"
+
+#: ../src/resapplet.c:699
+msgid "Upside down"
+msgstr "མགོ་མཇུག་སློག་སློགཔ་"
+
+#: ../src/resapplet.c:701
+msgid "Clockwise"
+msgstr "གཡས་སྐོར་"
+
+#: ../src/resapplet.c:703
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་"
+
+#: ../src/resapplet.c:765
+#, c-format
+msgid "Screen %d"
+msgstr "%dགསལ་གཞི་"
+
+#. Build list of screen resolutions ...
+#: ../src/resapplet.c:776
+msgid "Screen resolution"
+msgstr "གསལ་གཞི་ཧུམ་ཆ་"
+
+#: ../src/resapplet.c:823
+msgid "Screen rotation"
+msgstr "གསལ་གཞི་སྐོར་རྒྱབ་"
+
+#. Build list of screen refresh rates ...
+#: ../src/resapplet.c:859
+msgid "Screen refresh rate"
+msgstr "གསལ་གཞི་ཡང་སེལ་མགྱོགས་ཚད་"
+
+#: ../src/resapplet.c:901
+msgid "_Configure Display Settings"
+msgstr "སྒྲིག་སྟངས་བཀྲམ་སྟོན་ཚུ་རིམ་སྒྲིག་འབད། (_C)"
+
+#: ../src/resapplet.c:912
+msgid "_Remove From Panel"
+msgstr "པེ་ནཱལ་ལས་རྩ་བསྐྲད་གཏང་། (_R)"
+

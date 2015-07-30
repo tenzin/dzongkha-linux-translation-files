@@ -1,0 +1,601 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/addressbook/abMainWindow.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: abMainWindow.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-01 16:19+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: addressbookWindow.title
+msgid "Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་"
+
+# File Menu
+#: fileMenu.label
+#: fileMenu.accesskey
+msgid "&File"
+msgstr "ཡིག་སྣོད་(&F)"
+
+#: newMenu.label
+#: newMenu.accesskey
+msgid "&New"
+msgstr "གསརཔ་(&N)"
+
+#: newCard.label
+msgid "Address Book Card..."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཤོག་བྱང་་་"
+
+#: newCard.key
+msgid "N"
+msgstr "N"
+
+#: newListCmd.label
+msgid "Mailing List..."
+msgstr "ཡིག་འཕྲིན་ཐོ་ཡིག་་་་"
+
+#: newAddressBookCmd.label
+#: newAddressBookCmd.accesskey
+msgid "Address &Book..."
+msgstr "ཁ་བྱང་ཀི་དེབ་་་་་(&B)"
+
+#: newLDAPDirectoryCmd.label
+msgid "LDAP Directory..."
+msgstr "ཨེལ་ཌི་ཨེ་པི་ སྣོད་ཐོ་་་་"
+
+#: newMessageCmd.label
+#: newMessageCmd.accesskey
+msgid "&Message"
+msgstr "འཕྲིན་དོན་(&M)"
+
+#: newMessageCmd.key
+msgid "M"
+msgstr "M"
+
+#: closeCmd.label
+#: closeCmd.accesskey
+msgid "&Close"
+msgstr "ཁ་བསྡམས་(&C)"
+
+#: closeCmd.key
+msgid "W"
+msgstr "W"
+
+#: printSetupCmd.label
+#: printSetupCmd.accesskey
+msgid "Page Set&up..."
+msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་་་་(&u)"
+
+#: printPreviewCardViewCmd.label
+#: printPreviewCardViewCmd.accesskey
+msgid "Print Pre&view Card"
+msgstr "དཔར་བསྐྲུན་སྔོན་ལྟའི་ཤོག་བྱང་(&v)"
+
+#: printPreviewAddressBook.label
+#: printPreviewAddressBook.accesskey
+msgid "Print Preview Address &Book"
+msgstr "དཔར་བསྐྲུན་སྔོེན་ལྟའི་ཁ་བྱང་ཀི་དེབ་(&B)"
+
+#: printCardViewCmd.label
+#: printCardViewCmd.accesskey
+msgid "&Print Card..."
+msgstr "དཔར་བསྐྲུན་ཤོག་བྱང་་་་(&P)"
+
+#: printAddressBook.label
+#: printAddressBook.accesskey
+msgid "Print &Address Book..."
+msgstr "དཔར་བསྐྲུན་ཁ་བྱང་ཀི་དེབ་་་་(&A)"
+
+#: quitApplicationCmdWin.label
+#: quitApplicationCmdWin.accesskey
+msgid "E&xit"
+msgstr "ཕྱི་འཐོན་(&x)"
+
+#: quitApplicationCmd.label
+#: quitApplicationCmd.accesskey
+msgid "&Quit"
+msgstr "སྤངས་(&Q)"
+
+#: quitApplicationCmd.key
+msgid "Q"
+msgstr "Q"
+
+# Edit Menu
+#: editMenu.label
+#: editMenu.accesskey
+msgid "&Edit"
+msgstr "ཞུན་དག་(&E)"
+
+#: undoCmd.label
+#: undoCmd.accesskey
+msgid "&Undo"
+msgstr "འབད་བཤོལ་(&U)"
+
+#: undoCmd.key
+msgid "Z"
+msgstr "Z"
+
+#: redoCmd.label
+#: redoCmd.accesskey
+msgid "&Redo"
+msgstr "ལོག་འབད་(&R)"
+
+#: redoCmd.key
+msgid "Y"
+msgstr "Y"
+
+#: cutCmd.label
+#: cutCmd.accesskey
+msgid "Cu&t"
+msgstr "བཏོག་(&t)"
+
+#: cutCmd.key
+msgid "X"
+msgstr "X"
+
+#: copyCmd.label
+#: copyCmd.accesskey
+msgid "&Copy"
+msgstr "འདྲ་བཤུས་(&C)"
+
+#: copyCmd.key
+msgid "C"
+msgstr "C"
+
+#: pasteCmd.label
+#: pasteCmd.accesskey
+msgid "&Paste"
+msgstr "སྦྱར་(&P)"
+
+#: pasteCmd.key
+msgid "V"
+msgstr "V"
+
+#: deleteCmd.label
+#: deleteCmd.accesskey
+#: deleteButton.label
+#: deleteButton.accesskey
+#: deleteAddrBookCard.label
+#: deleteAddrBookCard.accesskey
+msgid "&Delete"
+msgstr "བཏོན་གཏང་(&D)"
+
+#: deleteCmd.key
+msgid "D"
+msgstr "D"
+
+#: deleteAbCmd.label
+msgid "Delete Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་བཏོན་གཏང་"
+
+#: deleteCardCmd.label
+msgid "Delete Card"
+msgstr "ཤོག་བྱང་བཏོན་གཏང་"
+
+#: deleteCardsCmd.label
+msgid "Delete Selected Cards"
+msgstr "སེལ་འཐུ་འབད་མི་ཤོག་བྱང་ཚུ་བཏོན་གཏང་"
+
+#: selectAllCmd.label
+#: selectAllCmd.accesskey
+msgid "Select &All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད་(&A)"
+
+#: selectAllCmd.key
+msgid "A"
+msgstr "A"
+
+#: searchAddressesCmd.key
+msgid "f"
+msgstr "f"
+
+#: swapFirstNameLastNameCmd.label
+#: swapFirstNameLastNameCmd.accesskey
+msgid "S&wap First/Last Name"
+msgstr "མིང་དང་པམ་/མཇུག་མམ་ སོར་སྟོན་འབད་(&w)"
+
+#: propertiesCmd.label
+msgid "Properties..."
+msgstr "རྒྱུ་དངོས་ཚུ་་་་"
+
+#: propertiesCmd.key
+msgid "i"
+msgstr "i"
+
+# View Menu
+#: viewMenu.label
+#: viewMenu.accesskey
+msgid "&View"
+msgstr "སྟོན་(&V)"
+
+#: viewToolbarsMenu.label
+#: viewToolbarsMenu.accesskey
+msgid "&Toolbars"
+msgstr "ལག་ཆས་ཕྲ་རིང་(&T)"
+
+#: showAbToolbarCmd.label
+#: showAbToolbarCmd.accesskey
+msgid "Address B&ook Toolbar"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་ ལག་ཆས་ཕྲ་རིང་(&o)"
+
+#: showSearchToolbarCmd.label
+#: showSearchToolbarCmd.accesskey
+msgid "S&earch Bar"
+msgstr "འཚོལ་ཞིབ་ཕྲ་རིང་(&e)"
+
+#: showTaskbarCmd.label
+#: showTaskbarCmd.accesskey
+msgid "&Status Bar"
+msgstr "གནས་ཚད་ཕྲ་རིང་(&S)"
+
+#: customizeToolbar.label
+#: customizeToolbar.accesskey
+msgid "&Customize..."
+msgstr "སྲོལ་སྒྲིག་་་(&C)"
+
+#: showCardPane.label
+#: showCardPane.accesskey
+msgid "&Card Summary Pane"
+msgstr "ཤོག་བྱང་བཅུད་དོན་གྱི་པེན་(&C)"
+
+#: menu_ShowNameAs.label
+#: menu_ShowNameAs.accesskey
+msgid "Show &Name As"
+msgstr "མིང་དེ་སྦེ་སྟོན་(&N)"
+
+#: firstLastCmd.label
+#: firstLastCmd.accesskey
+msgid "&First, Last"
+msgstr "དང་པམ་ མཇུག་མམ་(&F)"
+
+#: lastFirstCmd.label
+#: lastFirstCmd.accesskey
+msgid "&Last, First"
+msgstr "མཇུག་མམ་ དང་པམ་(&L)"
+
+#: displayNameCmd.label
+#: displayNameCmd.accesskey
+msgid "&Display Name"
+msgstr "མིང་བཀྲམ་སྟོན་འབད་(&D)"
+
+#: sortMenu.label
+#: sortMenu.accesskey
+msgid "&Sort by"
+msgstr "ཐོག་ལས་དབྱེ་སེལ་འབད་(&S)"
+
+# Tools Menu
+#: tasksMenu.label
+#: tasksMenu.accesskey
+msgid "&Tools"
+msgstr "ལག་ཆས་(&T)"
+
+#: messengerCmd.label
+#: messengerCmd.accesskey
+msgid "&Mail &amp; Newsgroups"
+msgstr "ཡིག་འཕྲིན་ &amp; གནས་ཚུལ་སྡེ་ཚན་ཚུ་(&M)"
+
+#: messengerCmd.commandkey
+msgid "1"
+msgstr "1"
+
+#: searchAddressesCmd.label
+#: searchAddressesCmd.accesskey
+msgid "&Search Addresses..."
+msgstr "ཁ་བྱང་ཚུ་འཚོལ་ཞིབ་འབད་་་(&S)"
+
+#: importCmd.label
+#: importCmd.accesskey
+msgid "&Import..."
+msgstr "ནང་འདྲེན་་་(&I)"
+
+#: exportCmd.label
+#: exportCmd.accesskey
+msgid "&Export..."
+msgstr "ཕྱིར་ཚོང་་་(&E)"
+
+#: preferencesCmd.label
+#: preferencesCmd.accesskey
+msgid "&Options..."
+msgstr "གདམ་ཁ་ཚུ་་་(&O)"
+
+#: preferencesCmd.key
+msgid "O"
+msgstr "O"
+
+#: preferencesCmdUnix.label
+#: preferencesCmdUnix.accesskey
+msgid "Prefere&nces"
+msgstr "དགའ་གདམ་ཚུ་་་་(&n)"
+
+# Help Menu
+#: helpMenu.label
+#: helpMenu.accesskey
+msgid "&Help"
+msgstr "གྲོགས་རམ་(&H)"
+
+#: releaseCmd.label
+#: releaseCmd.accesskey
+msgid "&Release Notes"
+msgstr "གསར་བཏོན་དྲན་འཛིན་(&R)"
+
+#: hintsAndTips.label
+#: hintsAndTips.accesskey
+msgid "&brandShortName; &Help"
+msgstr "&brandShortName; གྲོགས་རམ།(&H)"
+
+#: hintsAndTipsMac.commandkey
+msgid "?"
+msgstr "?"
+
+#: aboutCmd.label
+#: aboutCmd.accesskey
+msgid "&About &brandShortName;"
+msgstr "&brandShortName;གི་སྐོར་ལས་(&A)"
+
+# Address Book Toolbar and Context Menus
+#: newcardButton.label
+#: newcardButton.accesskey
+msgid "New &Card"
+msgstr "ཤོག་བྱང་གསརཔ་(&C)"
+
+#: newlistButton.label
+#: newlistButton.accesskey
+msgid "New &List"
+msgstr "ཐོ་ཡིག་གསརཔ་(&L)"
+
+#: editButton.label
+#: editButton.accesskey
+#: addrBookCardProperties.label
+#: addrBookCardProperties.accesskey
+msgid "&Properties"
+msgstr "རྒྱུ་དངོས་ཚུ་(&P)"
+
+#: newmsgButton.label
+#: newmsgButton.accesskey
+msgid "&Write"
+msgstr "བྲིས་(&W)"
+
+#: newIM.label
+#: newIM.accesskey
+msgid "&Instant Message"
+msgstr "འཕྲལ་མྱུར་འཕྲིན་དོན་(&I)"
+
+#: throbberItem.title
+msgid "Activity Indicator"
+msgstr "བྱ་བའི་བརྡ་སྟོན་པ་"
+
+# Address Book Toolbar Tooltips
+#: newcardButton.tooltip
+msgid "Create a new address book card"
+msgstr "ཁ་བྱི་ཀི་དེབ་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: newlistButton.tooltip
+msgid "Create a new list"
+msgstr "ཐོ་ཡིག་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: editButton.tooltip
+msgid "Edit the selected card"
+msgstr "སེལ་འཐུ་འབད་མི་ཤོག་བྱང་དེ་ ཞུན་དག་རྐྱབས་"
+
+#: newmsgButton.tooltip
+msgid "Send a mail message"
+msgstr "ཡིག་འཕྲིན་གྱི་འཕྲིན་དོན་ཅིག་གཏང་།"
+
+#: newIM.tooltip
+msgid "Send an instant message or chat"
+msgstr "འཕྲལ་མྱུར་འཕྲིན་དོན་ཅིག་གཏང་ ཡང་ན་ ཡིག་ཐོག་ཁ་སླབས།"
+
+#: deleteButton.tooltip
+msgid "Delete selected card or address book"
+msgstr "སེལ་འཐུ་འབད་མི་ཤོག་བྱང་ ཡང་ན་ ཁ་བྱང་ཀི་དེབ་བཏོན་གཏང་།"
+
+#: throbber.tooltip
+msgid "Go to the &vendorShortName; home page"
+msgstr "&vendorShortName; ལུ་སོང་། ཁྱིམ་གྱི་ཤོག་ལེབ།"
+
+# Dir Tree header
+#: dirTreeHeader.label
+msgid "Address Books"
+msgstr "ཁ་བྱི་ཀི་དེབ་ཚུ་"
+
+# Search Bar
+#: SearchNameOrEmail.label
+#: SearchNameOrEmail.accesskey
+msgid "&Name or Email"
+msgstr "མིང་ ཡང་ན་ གློག་འཕྲིན་(&N)"
+
+#: clearButton.label
+#: clearButton.accesskey
+msgid "&Clear"
+msgstr "བསལ་(&C)"
+
+#: clearButton.tooltip
+msgid "Clear the search criteria and show all entries"
+msgstr "འཚོལ་ཞིབ་ཁྱད་ཚད་བསལ་ཞིནམ་ལས་ ཐོ་བཀོད་ཆ་མཉམ་སྟོན།"
+
+#: advancedButton.label
+#: advancedButton.accesskey
+msgid "&Advanced..."
+msgstr "ཡར་ཐོན་ཅན་་་་(&A)"
+
+#: advancedButton.tooltip
+msgid "Advanced address search"
+msgstr "ཡར་ཐོན་ཅན་གྱི་ཁ་བྱང་འཚོལ་ཞིབ་"
+
+#: quickSearchCmd.key
+msgid "k"
+msgstr "k"
+
+# Results Pane
+#: GeneratedName.label
+#: GeneratedName.accesskey
+msgid "&Name"
+msgstr "མིང་(&N)"
+
+#: PrimaryEmail.label
+#: PrimaryEmail.accesskey
+msgid "&Email"
+msgstr "གློག་འཕྲིན་(&E)"
+
+#: ScreenName.label
+#: ScreenName.accesskey
+msgid "&Screen Name"
+msgstr "གསལ་གཞིའི་མིང་(&S)"
+
+#: Company.label
+#: Company.accesskey
+msgid "Organi&zation"
+msgstr "ལས་སྡེ་(&z)"
+
+#: NickName.label
+#: NickName.accesskey
+msgid "N&ickname"
+msgstr "སྐྱོན་མིང་(&i)"
+
+#: SecondEmail.label
+#: SecondEmail.accesskey
+msgid "Additiona&l Email"
+msgstr "གློག་འཕྲིན་ཁ་སྐོང་(&l)"
+
+#: Department.label
+#: Department.accesskey
+msgid "Depa&rtment"
+msgstr "ལས་ཁུངས་(&r)"
+
+#: JobTitle.label
+#: JobTitle.accesskey
+msgid "&Title"
+msgstr "གོ་གནས་(&T)"
+
+#: CellularNumber.label
+#: CellularNumber.accesskey
+msgid "&Mobile"
+msgstr "འགྲུལ་འཕྲིན་(&M)"
+
+#: PagerNumber.label
+#: PagerNumber.accesskey
+msgid "&Pager"
+msgstr "བརྡ་འཕྲུལ་(&P)"
+
+#: FaxNumber.label
+#: FaxNumber.accesskey
+msgid "&Fax"
+msgstr "དཔར་འཕྲིན་(&F)"
+
+#: HomePhone.label
+#: HomePhone.accesskey
+msgid "&Home Phone"
+msgstr "ཁྱིམ་ནང་གི་བརྒྱུད་འཕྲིན་(&H)"
+
+#: WorkPhone.label
+#: WorkPhone.accesskey
+msgid "&Work Phone"
+msgstr "ལཱ་སའི་བརྒྱུད་འཕྲིན་(&W)"
+
+#: sortAscending.label
+#: sortAscending.accesskey
+msgid "&Ascending"
+msgstr "ཡར་འཛེགས་(&A)"
+
+#: sortDescending.label
+#: sortDescending.accesskey
+msgid "&Descending"
+msgstr "མར་འབབ་(&D)"
+
+#: _PhoneticName.label
+#: _PhoneticName.accesskey
+msgid "Ph&onetic Name"
+msgstr "སྒྲ་རྟགས་ཀྱི་མིང་(&o)"
+
+# Results pane context menu
+#: composeEmail.label
+#: composeEmail.accesskey
+msgid "&Compose Email To"
+msgstr "ལུ་གློག་འཕྲིན་བརྩམ་(&C)"
+
+#: newAddrBookCard.label
+#: newAddrBookCard.accesskey
+msgid "&New Card..."
+msgstr "ཤོག་བྱང་གསརཔ་་་(&N)"
+
+#: newAddrBookMailingList.label
+#: newAddrBookMailingList.accesskey
+msgid "New &Mailing List..."
+msgstr "ཡིག་འཕྲིན་ཐོ་ཡིག་གསརཔ་་་་(&M)"
+
+# Card Summary Pane
+# Box Headings
+#: contact.heading
+msgid "Contact"
+msgstr "འབྲེལ་ས་"
+
+#: home.heading
+msgid "Home"
+msgstr "ཁྱིམ་ནང་"
+
+#: other.heading
+msgid "Other"
+msgstr "གཞན་"
+
+#: phone.heading
+msgid "Phone"
+msgstr "བརྒྱུད་འཕྲིན་"
+
+#: work.heading
+msgid "Work"
+msgstr "ལཱ་ས་"
+
+# Special Box Headings, for mailing lists
+#: description.heading
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: addresses.heading
+msgid "Addresses"
+msgstr "ཁ་བྱང་ཚུ་"
+
+# For Map It!
+#: mapItButton.label
+msgid "Get Map"
+msgstr "ས་ཁྲ་ཅིག་ལེན་"
+
+#: mapIt.tooltip
+msgid "Display a map of this address from the Web"
+msgstr "ཝེབ་ནང་ལས་ ཁ་བྱང་འདི་གི་ས་ཁྲ་ཅིག་བཀྲམ་སྟོན་འབད།"
+
+# Status Bar
+#: statusText.label
+msgid "_: statusText.label\n"
+msgstr ""
+
+# Mac OS X Window Menu
+#: windowMenu.label
+msgid "Window"
+msgstr "སྒོ་སྒྲིག་"
+
+#: minimizeWindow.key
+msgid "m"
+msgstr "m"
+
+#: minimizeWindow.label
+msgid "Minimize"
+msgstr "ཆུང་ཀུ་བཟོ་"
+
+#: bringAllToFront.label
+msgid "Bring All to Front"
+msgstr "ཆ་མཉམ་ཡིག་གཟུགས་ནི་འབག་ཤོག་"
+
+#: zoomWindow.label
+msgid "Zoom"
+msgstr "རྒྱས་ཟུམ་འབད་"
+

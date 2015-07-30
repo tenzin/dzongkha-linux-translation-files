@@ -1,0 +1,370 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-20 07:49+0100\n"
+"PO-Revision-Date: 2006-11-28 16:25+0530\n"
+"Last-Translator: dorji tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Finished"
+msgstr "མཇུག་བསྡུ་ཡི་"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Add New"
+msgstr "གསརཔ་ཁ་སྐོང་རྐྱབས་"
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Action:"
+msgstr "བྱ་བ:"
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Choose \"Add New\" to add a new session storage method, or choose an already configured store to modify or delete it."
+msgstr "ལ་ཡུན་བསག་མཛོད་ཐབས་ལམ་གསར་ཅིག་ཁ་སྐོང་བརྐྱབ་ནིའི་དོན་ལུ་ \"Add New\" དེ་གདམ་ཁ་རྐྱབས་ ཡང་ན་ འདི་ལེགས་བཅོས་འབད་ནི་དང་ ཡང་ན་ བཏོན་གཏང་ནིའི་དོན་ལུ་ ཧེ་མ་ལས་རིམ་སྒྲིག་འབད་ཡོད་པའི་མཛོད་ཁང་ཅིག་གདམ་ཁ་རྐྱབས།"
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Choose \"Finished\" when done."
+msgstr "འབད་ཚར་བའི་སྐབས་ལུ་ \"Finished\" གདམ་ཁ་རྐྱབས།"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Modify, Delete"
+msgstr "ལེགས་བཅོས་དེ་བཏོན་གཏང་"
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid "Action to perform on ${store}:"
+msgstr "${store}གུ་ལཱ་འགན་འགྲུབ་ནི་གི་བྱ་བ:"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Session storage method:"
+msgstr "ལཱ་ཡུན་གསོག་མཛོད་ཐབས་ལམ:"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid ""
+"Please select the storage method you wish to use:\n"
+" File:       File-based, using semaphores for locking.\n"
+" FileFile:   File-based, using lockfiles.\n"
+" DB_File:    DBM file storage, using lockfiles.\n"
+" Mysql:      MySQL storage, using semaphores for locking.\n"
+" MysqlMysql: MySQL storage, using MySQL for locking.\n"
+" Oracle:     Oracle storage and locking.\n"
+" Sybase:     Sybase storage and locking.\n"
+" Postgres:   PostgreSQL storage and locking."
+msgstr ""
+"ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་ནིའི་རེ་འདོད་ཡོད་མི་ གསོག་མཛོད་ཐབས་ལམ་དེ་སེལ་འཐུ་འབད་གནང་:\n"
+"ཡིག་སྣོད་: ཡིགསྣོད་གཞི་རྟེན་ ལྡེ་མིག་བརྐྱབ་ནིའི་དོན་ལུ་ སི་མ་ཕོར་ཚུ་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས\n"
+"ཡིག་སྣོད་ཡིག་སྣོད་: ཡིག་སྣོད་-གཞི་རྟེན་ ལྡེ་མིག་ཡིག་སྣོད་ཚུ་ལག་ལེན་འཐབ་པའི་ཐོག་ལས།\n"
+"ཌི་བི་ཡིག་སྣོད་: དི་བི་ཨེམ་ ཡིག་སྣོད་གསོག་མཛོད་ ལྡེ་མིག་ཡིག་སྣོད་ཚུ་ལག་ལེན་འཐབ་པའི་ཐོག་ལས།\n"
+" (_F)མའི་ཨེསི་ཀིཡུ་ཨེལ་: མའི་ཨེསི་ཀིཡུ་ཨེལ་ གསོག་མཛོད་ ལྡེ་མིག་བརྐྱབ་ནིའི་དོན་ལུ་ མའི་ཨེསི་ཀིཡུ་ཨེལ་ལག་ལེན་འཐབ་པའི་ཐོག་ལས།\n"
+"ཨོ་རེ་ཀཱལ: ཨོ་རེ་ཀཱལ་གསོག་མཛོད་དང་ ལྡེ་མིག་བརྐྱབ་ནི།\n"
+"སའི་བེསི:སའི་བེསི་གསོག་མཛོད་དང་ ལྡེ་མིག་བརྐྱབ་ནི།\n"
+"པོསོཊི་གིརིསི་: པོསོཊི་གིརི་ཨེསི་ཀིཡུ་ཨེལ་ གསོག་མཛོད་དང་ལྡེ་མིག་བརྐྱབ་ནི།\n"
+" "
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "The file-based methods are the simplest to configure, but don't scale to the needs of a high-volume site."
+msgstr "ཡིག་སྣོད་གཞི་རྟེན་ཐབས་ལམ་ཚུ་ རིམ་སྒྲིག་འབད་ནི་འཇམ་ཤོས་ཨིན་ དེ་འབདཝ་ད་ སྦུང་ཚད་ཐོ་དྲགས་སྦེ་ཡོད་མི་ས་ཁོངས་དེ་ལུ་ ཆ་ཚད་འཇལ་ནི་མི་འོང་།"
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Semaphore locking is faster than file-based locking, but cannot be shared between multiple hosts; in such a situation, you probably should be using one of the database backends anyway."
+msgstr "སི་མ་ཕོར་ལྡེ་མིག་བརྐྱབ་ནི་དེ་ ཡིག་སྣོད་ལུ་གཞི་རྟེན་འབད་ཡོད་པའི་ལྡེ་མིག་བརྐྱབ་ནི་ལས་མགྱོགས་དྲག་ཡོདཔ་ཨིན་ དེ་འབདཝ་ད་ སྣ་མང་ཧོསཊི་ཚུ་གི་བར་ན་ལུ་རུབ་སྤྱོད་འབད་མི་བཏུབ། དེ་བཟུམ་གྱི་གནས་སྟངས་དེ་ནང་ལུ་ ཁྱོད་ཀྱིས་ གནད་སྡུད་གཞི་རྟེན་རྒྱབ་མཐའ་གང་རུང་ཅིག་ལག་ལེན་འཐབ་དགོཔ་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Store name:"
+msgstr "མིང་གསོག་འཇོག་འབད:"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Please choose the name you will use when referring to this storage method."
+msgstr "ཁྱོད་ཀྱིས་ གསོག་མཛོད་ཐབས་ལམ་འདི་གཞི་བསྟུན་འབད་བའི་སྐབས་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་མི་ མིང་དེ་གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "File storage directory:"
+msgstr "ཡིག་སྣོད་གསོག་མཛོད་སྣཽད་ཐོ:"
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Please choose the directory in which to store session data. Each session will be a new file in this directory."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ སྣོད་ཐེ་དེ་གདམ་ཁ་བརྐྱབ་གནང་། སྣོད་ཐོ་འདི་ནང་ལུ་ ལཱ་ཡུན་ཚུ་ཆ་མཉམ་རང་ཡིག་སྣོད་གསརཔ་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Lockfile storage directory:"
+msgstr "ལྡེ་མིག་གསོག་མཛོད་སྣོད་ཐོ:"
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Please choose the directory in which to store session locks. Each lock is a new file in this directory."
+msgstr "ལཱ་ཡུན་ལྡེ་མིག་དེ་གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ སྣོད་ཐོ་དེ་གདམ་ཁ་བརྐྱབ་གནང་། སྣོད་ཐོ་འདི་ནང་ལུ་ ལྡེ་མིག་ཚུ་ཆ་མཉམ་ཡིག་སྣོད་གསརཔ་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "The filenames are chosen such that they will not conflict with session data, so you may repeat a file storage directory here."
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་ཚུ་ ལཱ་ཡུན་གནད་སྡུད་དེ་དང་གཅིག་ཁར་མ་མཐུན་པ་སྦེ་འབྱུང་མི་བཅུག་ནིའི་དོན་ལུ་ གདམ་ཁ་བརྐྱབ་རྐྱབ་ཨིན་ དེ་འཡབད་ནི་དེ་གིས་ ཁྱོད་ཀྱིས་ ཡིག་སྣོད་གསོག་མཛོད་སྣོད་ཐོ་ཅིག་ནཱ་ལུ་ཡང་བསྐྱར་འབད།"
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid "Database file:"
+msgstr "གནད་སྡུད་གཞི་རྟེན་ཡིག་སྣོད:"
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid "Please enter the DBM file used to store sessions."
+msgstr "ལཱ་ཡུན་ཚུ་གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ ཌི་བི་ཨེམ་ཡིག་སྣོད་དེ་བཙུགས་གནང་།"
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "MySQL data source:"
+msgstr "མའི་ཨེསི་ཀིཡུ་ཨེལ་ གནད་སྡུད་འབྱུང་ཁུངས:"
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Please choose the MySQL data source used for storing session data, in the form of a Perl DBI DSN (see the DBI manpage)."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་དེ་ པརཱལ་ཌི་བི་ཨའི་ ཌི་ཨེསི་ཨེན་གྱི་རྣམ་པའི་ཐོག་ལས་ ལག་ལེན་འཐབ་ཡོད་མི་ མའི་ཨེསི་ཀིཡུ་ཨེལ་གནད་སྡུད་འབྱུང་ཁུངས་དེ་གདམ་ཁ་བརྐྱབ་གནང་།(དི་བི་ཨའི་ལག་དེབ་དེ་ལུ་བལྟ་)"
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../templates:9001
+#: ../templates:12001
+msgid "The general form is \"dbi:mysql:<database>\". See the DBD::mysql manpage for more details."
+msgstr "སྤྱི་བཏང་གི་འབྲི་ཤོག་འདི་ \"dbi:mysql:<database>\"ཨིན། ཁ་གསལ་གྱི་དོན་ལུ་ ཌི་བི་ཌི་:: མའི་ཧེསི་ཀིཡུ་ཨེལ་ ལག་དེབ་དེ་ལུ་བལྟ།"
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid "MySQL username:"
+msgstr "མའི་ཨེསི་ཀིཡུ་ཨེལ་ ལག་ལེན་པའི་མིང་:"
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../templates:10001
+#: ../templates:16001
+#: ../templates:19001
+msgid "Please enter the username used to access the session database. If left blank, the current user's login will be used."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་གཞི་རྟེན་དེ་འཛུལ་བསྐྱོད་འབད་ནངིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ ལག་ལེན་པའི་མིང་དེ་བཙུགས་གནང་། སྟོངམ་སྦེ་བཞག་པ་ཅིན་ ད་ལྟོའི་ལག་ལེན་པའི་ནང་བསྐྱོད་དེ་ལག་ལེན་འཐབ་འོང་།"
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "MySQL password:"
+msgstr "མའི་ཨེསི་ཀིཡུ་ཨེལ་ ཆོག་ཡིག:"
+
+#. Type: password
+#. Description
+#. Type: password
+#. Description
+#. Type: password
+#. Description
+#: ../templates:11001
+#: ../templates:20001
+#: ../templates:23001
+msgid "Please enter the password used to access the session database. May be left blank if no password is needed."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་གཞི་རྟེན་དེ་འཛུལ་བསྐྱོད་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ ཆོག་ཡིག་དེ་བཙུགས་གནང་། ཆོག་ཡིག་དེ་དགོཔ་མེད་པ་ཅིན་ སྟོངམ་སྦེ་བཞག་རུང་བཏུབ།"
+
+#. Type: string
+#. Description
+#: ../templates:12001
+msgid "MySQL lock data source:"
+msgstr "མའི་ཨེསི་ཀིཡུ་ཨེལ་ ལྡེ་མིག་གནད་སྡུད་འབྱུང་ཁུངས:"
+
+#. Type: string
+#. Description
+#: ../templates:12001
+msgid "Please enter the MySQL data source used for locking, in the form of a Perl DBI DSN (see the DBI manpage). Locking is performed using MySQL's GET_LOCK and RELEASE_LOCK functions."
+msgstr "ལྡེ་མིག་བརྐྱབ་ནའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ མའི་ཨེསི་ཀིཡུ་ཨེལ་གནད་སྡུད་འབྱུང་ཁུངས་དེ་ པརཱལ་ ཌི་བི་ཨའི་ ཌི་ཨེསི་ཨེན་གྱི་རྣམ་པའི་ཐོག་ལས་བཙུགས་གནང་།(ཌི་བི་ཨའི་ལག་དེབ་དེ་ལུ་བལྟ་) ལྡེ་མིག་བརྐྱབ་ནི་དེ་MySQL's GET_LOCK དང་ RELEASE_LOCK ལས་འགན་ཚུ་ལག་ལེན་འཏབ་པའི་ཐོག་ལས་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../templates:12001
+msgid "You will almost certainly want to use the same value you used for the session data."
+msgstr "ཁྱོད་ཀྱིས་ ལཱ་ཡུན་གནད་སྡུད་དེ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་གནས་གོང་དེ་རང་ ལག་ལེན་འཐབ་དགོ་འོང་།"
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid "MySQL username for locking:"
+msgstr "ལྟེ་མིག་བརྐྱབ་ནིའི་དོན་ལུ་ མའི་ཨེསི་ཀིཡུ་ཨེལ་ལག་ལེན་པའི་མིང:"
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid "Please enter the username used to access the database for locking. If left blank, the current user's login will be used."
+msgstr "ལྡེ་མིག་བརྐྱབ་ནིའི་དོན་ལུ་ གནད་སྡུད་གཞི་རྟེན་དེ་འཚུལ་བསྐྱོད་འབད་ནིའ་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ ལག་ལེན་པའི་མིང་དེ་བཙུགས་གནང་། སྟོངམ་སྦེ་བཞག་པ་ཅིན་ ད་ལྟོའི་ལག་ལེན་པའི་ནང་བསྐྱོད་དེ་ལག་ལེན་འཐབ་འོང་།"
+
+#. Type: password
+#. Description
+#: ../templates:14001
+msgid "MySQL password for locking:"
+msgstr "ལྡེ་མིག་བརྐྱབ་ནིའི་དོན་ལུ་ མའི་ཨེསི་ཀིཡུ་ཨེལ་ཆོག་ཡིག:"
+
+#. Type: password
+#. Description
+#: ../templates:14001
+msgid "Please enter the password used to access the database for locking. May be left blank if no password is needed."
+msgstr "ལྡེ་མིག་བརྐྱབ་ནིའི་དོན་ལུ་ གནད་སྡུད་གཞི་རྟེན་འཛུལ་བསྐྱོད་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་ ཆོག་ཡིག་དེ་ཆོག་ཡིག་དེ་བཙུགས་གནང་། ཆོག་ཡིག་དེ་དགོཔ་མེད་པ་ཅིན་སྟོངམ་སྦེ་བཞག་རུང་བཏུབ།"
+
+#. Type: string
+#. Description
+#: ../templates:15001
+msgid "Oracle data source:"
+msgstr "ཨོ་རེ་ཀཱལ་ གནད་སྡུད་འབྱུང་ཁུངས:"
+
+#. Type: string
+#. Description
+#: ../templates:15001
+msgid "Please enter the Oracle data source used for storing session data, in the form of a Perl DBI DSN (see the DBI manpage).  .  The general form is \"dbi:Oracle:<database>\". See the DBD::Oracle manpage for more details."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་དེ་གི་དོན་ལུ་ལ་ག་ལེན་འཐབ་ཡོད་མི་ ཨོ་རེ་ཀཱལ་གནད་སྡུད་འབྱུང་ཁུངས་དེ་ པ་རཱལ་ ཌི་བི་ཨའི་ ཌི་ཨེསི་ཨེན་གྱི་རྣམ་པའི་ཐོག་ལས་བཙུགས་གནང་། (ཌི་བི་ཨའི་ ལག་དེབ་དེ་ལུ་བལྟ་) སྤྱིར་བཏང་གི་འབྲི་ཤོག་དེ་ \"dbi:Oracle:<da \"dbi:Oracle:<database>\".tabase>\"  ཁ་གསལ་གྱི་དོན་ལུ་ ཌི་བི་ཌི་:: ཨོ་རེ་ཀཱལ་ལག་དེབ་དེ་ལུ་བལྟ།"
+
+#. Type: string
+#. Description
+#: ../templates:16001
+msgid "Oracle username:"
+msgstr "ཨོ་རེ་ཀཱལ་ ལག་ལེན་པའི་མིང:"
+
+#. Type: password
+#. Description
+#: ../templates:17001
+msgid "Oracle password"
+msgstr "ཨོ་རེ་ཀཱལ་ ཆོག་ཡིག་"
+
+#. Type: password
+#. Description
+#: ../templates:17001
+msgid "Password used to access the session database. May be left blank if no password is needed."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་གཞི་རྟེན་དེ་འཛུལ་བསྐྱོད་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ཆོག་ཡིག ཆོག་ཡིག་དེ་དགོཔ་མེད་པ་ཅིན་ སྟོངམ་སྦེ་བཞག་རུང་བཏུབ།"
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid "Sybase data source:"
+msgstr "སའི་བེསི་ གནད་སྡུད་འབྱུང་ཁུངས:"
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid "Please enter the Sybase data source used for storing session data, in the form of a Perl DBI DSN (see the DBI manpage)."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་དེ་ པརཱལ་དི་བི་ཨའི་ ཌི་ཨེསི་ཨེན་གྱི་རྣམ་པའི་ཐོག་ལས་ གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ སའི་བེསི་གནད་སྡུད་འབྱུང་ཁུངས་དེ་བཙུགས་གནང་།(ཌི་བི་ཨའི་ལག་དེབ་དེ་ལུ་བལྟ་)"
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid "The general form is \"dbi:Sybase:database=<database>;server=<server>\". See the DBD::Sybase manpage for more details."
+msgstr "པྱིར་གཏང་གི་འབྲི་ཤོག་འདི་ \"dbi:Sybase:database=<database>;server=<server>\". ཨིན། ག་གསལ་གྱི་སྐོར་ལས་ ཌི་བི་ཌི་:: སའི་བེསི་ ལག་དེབ་དེ་ལུ་བལྟ།\"dbi:Sybase:database=<database>;server=<server>\". "
+
+#. Type: string
+#. Description
+#: ../templates:19001
+msgid "Sybase username:"
+msgstr "སའི་བེསི་ལག་ལེན་པའི་མིང:"
+
+#. Type: password
+#. Description
+#: ../templates:20001
+msgid "Sybase password:"
+msgstr "སའི་བེསི་ ཆོག་ཡིག:"
+
+#. Type: string
+#. Description
+#: ../templates:21001
+msgid "PostgreSQL data source:"
+msgstr "པོསི་གི་རི་ཨེསི་ཀིཡུ་ཨེལ་ གནད་སྡུད་འབྱུང་ཁུངས:"
+
+#. Type: string
+#. Description
+#: ../templates:21001
+msgid "Please enter the PostgreSQL data source used for storing session data, in the form of a Perl DBI DSN (see the DBI manpage)."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་དེ་ པརཱལ་ཌི་བི་ཨའི་ ཌི་ཨེསི་ཨེན་གྱི་རྣམ་པའི་ཐོག་ལས་ གསོག་འཇོག་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་མི་ པོསིཊི་གིརི་ཨེསི་ཀིཡུ་ཨེལ་ གནད་སྡུད་འབྱུང་ཁུངས་དེ་བཙུགས་གནང་།(ཌི་བི་ཨའི་ ལག་དེབ་དེ་ལུ་བལྟ)."
+
+#. Type: string
+#. Description
+#: ../templates:21001
+msgid "The general form is \"dbi:Pg:dbname=<database>;host=<server>\". See the DBD::Pg manpage for more details."
+msgstr "སྤྱི་གཏང་གི་འབྲི་ཤོག་འདི་ \"dbi:Pg:dbname=<database>;host=<server>\"ཨིན། ཁ་གསལ་གྱི་དོན་ལུ་ ཌི་བི་ཌི་::པི་ཇི་ ཤོག་ལེབ་ངོ་མ་དེ་ལུ་བལྟ།"
+
+#. Type: string
+#. Description
+#: ../templates:22001
+msgid "PostgreSQL username"
+msgstr "པོསི་གི་རི་ཨེསི་ཀིཡུ་ཨེལ་ ལག་ལེན་པའི་མིང་"
+
+#. Type: string
+#. Description
+#: ../templates:22001
+msgid "Username used to access the session database. If left blank, the current user's login will be used."
+msgstr "ལཱ་ཡུན་གནད་སྡུད་གཞི་རྟེན་དེ་འཛུལ་བསྐྱོད་འབད་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་མི་ལག་ལེན་པའི་མིང་། སྟོངམ་སྦེ་བཞག་པ་ཅིན་ ད་ལྟོའི་ལག་ལེན་པའི་ ནང་བསྐྱོད་དེ་ལག་ལེན་འཐབ་ཨིན།"
+
+#. Type: password
+#. Description
+#: ../templates:23001
+msgid "PostgreSQL password:"
+msgstr "པོསི་གི་རི་ཨེསི་ཀིཡུ་ཨེལ་ ཆོག་ཡིག:"
+
+#. Type: select
+#. Description
+#: ../templates:24001
+msgid "Default storage method:"
+msgstr "སྔོན་སྒྲིག་གསོག་མཛོད་འཐབས་ལམ་:"
+
+#. Type: select
+#. Description
+#: ../templates:24001
+msgid "Please choose the storage method that will be used by default if you don't specify a particular storage method at run time."
+msgstr "གཡོག་བཀོལ་དུས་ཚོད་དེ་ནང་ལུ་ ཁྱོད་ཀྱིས་དམིགས་བསལ་གྱི་གསོག་མཛོད་ཅིག་གསལ་བཀོད་འབད་མ་འབད་བ་ཅིན་ སྔོན་སྒྲིག་གིས་ལག་ལེན་འཐབ་ནི་ཨིན་མི་གསོག་མཛོད་ཐབས་ལམ་དེ་གདམ་ཁ་བརྐྱབ་གནང་།"
+

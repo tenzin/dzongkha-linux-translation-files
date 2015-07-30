@@ -1,0 +1,316 @@
+# LANGUAGE translation of Drupal (modules/contact.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: contact.module,v 1.51 2006/04/17 20:48:26 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: contact-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 11:36+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/contact/contact.module:15
+msgid "The contact module enables the use of both personal and site-wide contact forms, thereby facilitating easy communication within the community. While personal contact forms allow users to contact each other by e-mail, site-wide forms allow community members to contact the site administration from a central location. Users can specify a subject and message in the contact form, and also request that a copy of the e-mail be sent to their own address."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་ཚད་གཞི་གིས་  རང་དོན་དང་ས་ཁོངས་རྒྱ་ཅན་གྱི་འབྲེལ་ནིའི་འབྲི་ཤོག་ཚུ་ལག་ལེན་འཐབ་ནི་འདི་  ལྕོགས་ཅན་བཟོཝ་ཨིན་  དེ་གིས་འབད་  མི་སྡེ་ནང་འཁོད་ལུ་  འབྲེལ་བ་འཐབ་ནི་འདི་འཇམ་ཏོང་ཏོ་ལུ་ལྷན་འཐབ་འབདཝ་ཨིན།  རང་དོན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་དེ་གིས་  ལག་ལེན་པ་ཚུ་ལུ་  དབུས་ཀྱི་གནས་ཁོངས་ཅིག་ལས་  ས་ཁོངས་བདག་སྐྱོང་པ་འདི་འབྲེལ་བ་འཐབ་བཅུག་ནི་ལུ་   གློག་འཕྲིན་  ས་ཁོངས་རྒྱ་ཅན་འབྲི་ཤོག་གིས་མི་སྡེ་འཐུས་མི་ཚུ་གཅིག་གི་གཅིག་ལུ་  འབྲེལ་བ་འབད་བཅུགཔ་ཨིན།  ལག་ལེན་པ་དེ་གིས་  དོན་ཚན་དང་འཕྲིན་དོན་ཅིག་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་ནང་ལུ་གསལ་བཀོད་འབད་ནི་དང་   གློག་འཕྲིན་གྱི་འདྲ་བཤུས་འདི་  ཁོང་རའི་ཁ་བྱང་ནང་ལུ་གཏང་གནང་ཟེར་ཞུ་བ་འབདཝ་ཨིན།"
+
+#: modules/contact/contact.module:16
+msgid "Users can activate/deactivate their personal contact forms in their account settings. Upon activation, a contact tab will appear in their user profiles. Privileged users such as site administrators are able to contact users even if they have chosen not to enable this feature."
+msgstr "ལག་ལེན་པ་དེ་གིས་  ཁོང་རའི་རང་དོན་ཁ་བྱང་འབྲི་ཤོག་དེ་ཚུ་  རྩིས་ཐོའི་སྒྲིག་སྟངས་ཚུ་ནང་  ཤུགས་ལྡན་བཟོ་ནི་/ ཤུགས་མེད་བཟོ་བཏུབ་ཨིན།  ཤུས་ལྡན་བཟོ་བའི་ཤུལ་ལས་  འབྲེལ་བ་འཐབ་ནིའི་མཆོང་ལྡེ་འདི་  ཁོང་རའི་ལག་ལེན་པའི་གསལ་སྡུད་ཚུ་ནང་འབྱུངམ་ཨིན།  ཁེ་དབང་ཡོད་པའི་ལག་ལེན་པ་  ས་ཁོངས་བདག་སྐྱོང་པ་བཟུམ་འབད་བ་ཅིན་  ཁྱད་རྣམ་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་གདམ་ཁ་མ་བརྐྱབ་རུང་  ལག་ལེན་པ་ཚུ་དང་ཅིག་ཁར་ འབྲེལ་བ་འཐབ་ཚུགས་ནུག"
+
+#: modules/contact/contact.module:17
+msgid "Note that the contact tab will not appear when a user views his or her own profile; only when viewing another user's profile, if that user's contact form is enabled."
+msgstr "ལག་ལེན་པ་དེ་གིས་ཁོ་རའི་གསལ་སྡུད་སྟོནམ་ད་  འབྲེལ་བ་འཐབ་ནིའི་ཨེབ་ལྡེ་འདི་མི་བྱུང་ཟེར་  དྲན་འཛིན་འབད་ ; ལག་ལེན་པ་དེ་གི་འབྲེལ་བ་འཐབ་པའི་འབྲི་ཤོག་འདི་ལྕོགས་ཅན་བཟོ་ཡོད་པ་ཅིན་  ལག་ལེནཔ་གཞན་མི་གི་གསལ་སྡུད་སྟོནམ་ད་རྐྱངམ་ཅིག་ཨིན།"
+
+#: modules/contact/contact.module:18
+msgid "If the menu module is enabled, a menu item linking to the site-wide contact page is added to the navigation block. It is disabled by default, but can be enabled via the <a href=\"@menu-module\">menu management</a> page. Links to the contact page may also be added to the primary and secondary links using the same page."
+msgstr "དཀར་ཆག་ཚད་གཞི་འདི་ལྕོགས་ཅན་བཟོ་དེ་ཡོད་པ་ཅིན་  ས་ཁོངས་རྒྱ་ཅན་འབྲེལ་བ་འཐབ་ནིའི་ཤོག་ལེབ་ལུ་འབྲེལ་མཐུད་འབད་དེ་ཡོད་པའི་  དཀར་ཆག་རྣམ་གྲངས་འདི་  འགྲུལ་བསྐྱོད་བཀག་ཆ་ལུ་ཁ་སྐོང་བརྐྱབ་ཨིན།  སྔོན་སྒྲིག་གིས་ལྕོགས་མེད་བཟོཝ་ཨིན་  དེ་འབདཝ་ད་  <a href=\"%menu-module\">དཀར་ཆག་འཛིན་སྐྱོང་པ་</a>ལས་བརྒྱུད་དེ་  ལྕོགས་ཅན་བཟོ་བཏུབ་ཨིན།  འབྲེལ་བ་འཐབ་ནིའི་ཤོག་ལེབ་ལུ་འབྲེལ་མཐུད་ཚུ་  ཤོག་ལེབ་གཅིག་པ་ལག་ལེན་འཐབ་ཐོག་ལས་  གཞི་རིམ་དང་གལ་གནད་ཆུང་བའི་འབྲེལ་མཐུད་ཚུ་ལུ་ཁ་སྐོང་བརྐྱབ་བཏུབ།"
+
+#: modules/contact/contact.module:19
+msgid "For more information, please read the configuration and customization handbook page for the <a href=\"@contact\">contact module</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་ནི་དང་ <a href=\"@contact\"><a href=\"@contact\">འབྲེལ་བ་འཐབ་ནིའི་ཚད་གཞི་དོན་ལུ་  སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་ཤོག་ལེབ་འདི་ལྷག་གནང་།</a>."
+
+#: modules/contact/contact.module:22
+msgid "This page lets you setup <a href=\"@form\">your site-wide contact form</a>. To do so, add one or more categories. You can associate different recipients with each category to route e-mails to different people. For example, you can route website feedback to the webmaster and direct product information requests to the sales department. On the <a href=\"@settings\">settings page</a>, you can customize the information shown above the contact form. This can be useful to provide additional contact information such as your postal address and telephone number."
+msgstr "ཤོག་ལེབ་དེ་གིས་  <a href=\"@form\">ཁྱོད་རའི་ས་ཁོངས་རྒྱ་ཅན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་འདི་  ཁྱོད་ལུ་གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིན།  </a> འདི་འབད་ནིའི་དོན་ལུ་  དབྱེ་རིམ་གཅིག་  ཡང་ན་  ཧེང་བཀལ་ཁ་སྐོང་བརྐྱབ།  གློག་འཕྲིན་ཚུ་མི་གཞན་སོ་སོ་ལུ་འགྲུལ་ལམ་བཟོ་ནི་ལུ་  དབྱེ་རིམ་རེ་རེ་བཞིན་དང་བཅས་  ཁྱོད་ཀྱིས་ལེན་མཁན་མ་འདྲཝ་ཚོགས་བཏུབ།  དཔེར་ན་  ཁྱོད་ཀྱིས་  ཝེབ་ཀྱི་ས་སྟོངས་བསམ་ལན་འདི་  ཝེབ་འགོ་འཛིན་པ་དང་  ཐད་ཀར་ཐོན་སྐྱེད་བརྡ་དོན་ཞུ་བ་འདི་  ཚོང་བསྒྱུར་ལས་ཁུངས་ ལུ་འགྲུལ་ལམ་བཟོ་བཏུབ་དོ་བཟུམ་ཨིན།    <a href=\"@settings\">སྒྲིག་སྟངས་ཤོག་ལེབ་</a> གུ་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་གི་ལྟག་ལུ་སྟོན་ཏེ་ཡོད་པའི་བརྡ་དོན་འདི་  ཁྱོད་ཀྱིས་སྲོལ་སྒྲིག་འབད་བཏུབ་ཨིན།  ཁྱོད་རའི་འགྲེམ་ཁ་བྱང་དང་ བརྒྱུད་འཕྲིན་ཨང་བཟུམ་མའི་   ཁ་སྐོང་འབྲེལ་བ་འཐབ་ནིའི་བརྡ་དོན་བྱིན་ནི་ལུ་ ཕན་ཐོག་ཅན་ཡོད།"
+
+#: modules/contact/contact.module:24
+msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
+msgstr "དཀར་ཆག་རྣམ་གྲངས་འདི་  དཀར་ཆག་ཚད་གཞི་འདི་ <a href=\"@modules-page\">ལྕོགས་ཅན་</a>བཟོ་ཚར་བའི་ཤུལ་ལས་རྐྱངམ་ཅིག་  སྲོལ་སྒྲིག་འབད་ནི་དང་  རིམ་སྒྲིག་འབད་བཏུབ་ཨིན།</a>."
+
+#: modules/contact/contact.module:29
+msgid "The contact module also adds a <a href=\"@menu-settings\">menu item</a> (disabled by default) to the navigation block."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་ཚད་གཞི་གིས་གཞན་ཡང་ <a href=\"@menu-settings\">དཀར་ཆག་རྣམ་གྲངས་ཅིག་</a> (སྔོན་སྒྲིག་གིས་འབད་ལྕོགས་མེད་བཟོ་ནུག་) འགྲུལ་བསྐྱོད་བཀག་ཆ་ལུ་  ཁ་སྐོང་བརྐྱབ་ཨིན།"
+
+#: modules/contact/contact.module:47
+msgid "Contact form"
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་"
+
+#: modules/contact/contact.module:48
+msgid "Create a system contact form and set up categories for the form to use."
+msgstr "རིམ་ལུགས་འབྲེལ་སའི་འབྲི་ཤོག་འདི་གསར་བསྐྲུན་འབད་ནི་དང་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་འབྲི་ཤོག་གི་དོན་ལུ་  དབྱེ་རིམ་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: modules/contact/contact.module:67
+msgid "Edit contact category"
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་དབྱེ་རིམ་འདི་ཞུན་དག་འབད་"
+
+#: modules/contact/contact.module:74
+msgid "Delete contact"
+msgstr "འབྲེལ་བ་འཐབ་ནི་འདི་བཏོན་གཏང་"
+
+#: modules/contact/contact.module:89;101
+#: modules/contact/contact.info:0
+msgid "Contact"
+msgstr "འབྲེལ་བ་འཐབ་"
+
+#: modules/contact/contact.module:122
+msgid "Contact settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་འབྲེལ་བ་འཐབ་ནི།"
+
+#: modules/contact/contact.module:127
+msgid "Personal contact form"
+msgstr "རང་དོན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག"
+
+#: modules/contact/contact.module:129
+msgid "Allow other users to contact you by e-mail via <a href=\"@url\">your personal contact form</a>. Note that while your e-mail address is not made public to other members of the community, privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
+msgstr "ལག་ལེན་པ་གཞན་གྱིས་  ཁྱོད་ལུ་  <a href=\"@url\">ཁྱོད་རའི་རང་དོན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་</a>ཐོག་ལས་འབད་ གྱོག་འཕྲིན་གྱིས་འབད་ འབྲེལ་བ་འཐབ་བཅུག།  ཁྱོད་ཀྱི་གློག་འཕྲིན་ཁ་བྱང་འདི་  མི་སྡེ་གི་འཐུས་མི་གཞན་ཚུ་ལུ་  མི་མང་མ་བཟོ་བ་ཡོདཔ་ལས་  ཁེ་དབང་ལག་ལེན་པ་  དཔེར་ན་   ཁྱད་རྣམ་འདི་ལྕོགས་ཅན་བཟོ་ནི་གདམ་ཁ་མ་བརྐྱབ་རུང་  ས་ཁོངས་བདག་སྐྱོང་པ་ཚུ་གིས་  ཁྱོད་ལུ་འབྲེལ་བ་འཐབ་ཚུགསཔ་ཨིན་ཟེར་དྲན་འཛིན་འབད།"
+
+#: modules/contact/contact.module:150;170
+msgid "Recipients"
+msgstr "ལེན་འཁན་ཚུ།"
+
+#: modules/contact/contact.module:166
+msgid "Example: 'website feedback' or 'product information'."
+msgstr "དཔེར་ན་:  'website feedback' ཡང་ན་ 'product information'"
+
+#: modules/contact/contact.module:172
+msgid "Example: 'webmaster@example.com' or 'sales@example.com,support@example.com'. To specify multiple recipients, separate each e-mail address with a comma."
+msgstr "དཔེར་ན་: 'webmaster@example.com' ཡང་ན་ 'sales@example.com,support@example.com'. སྣ་མང་ལེན་འཁན་འདི་གསལ་བཀོད་འབད་ནི་ལུ་  གློག་འཕྲིན་ཁ་བྱང་རེ་རེ་འབད་ ལྷོད་རྟགས་དང་བཅས་  སོ་སོ་འཕྱལ།"
+
+#: modules/contact/contact.module:176
+msgid "Auto-reply"
+msgstr "རང་བཞིན་ལན་གསལ།"
+
+#: modules/contact/contact.module:178
+msgid "Optional auto-reply. Leave empty if you do not want to send the user an auto-reply message."
+msgstr "གདམ་ཁ་ཅན་གྱི་རང་བཞིན་ལན་གསལ།  ཁྱོད་རང་  ལག་ལེན་པ་ རང་བཞིན་ལན་གསལ་འཕྲིན་དོན་འདི་གཏང་དགོ་མ་མནོ་བ་ཅིན་  སྟོངམ་བཞག་ད།"
+
+#: modules/contact/contact.module:183
+msgid "When listing categories, those with lighter (smaller) weights get listed before categories with heavier (larger) weights. Categories with equal weights are sorted alphabetically."
+msgstr "དབྱེ་རིམ་ཚུ་ཐོ་བཀོད་བརྐྱབ་པའི་བསྒང་  ལྗིན་ཚད་ཡང་བ་(ཆུང་ཀུ་) དེ་ཚུ་  ལྗིན་ཚད་སྦོམ་(སྦོམ་ )ཡོད་མི་གི་ཧེ་མ་ལས་ ཐོ་བཀོད་བརྐྱབ་ཨིན།  ལྗིད་ཛད་འདྲ་མཉམ་ཡོད་པའི་དབྱེ་རིམ་ཚུ་  ཀ་ཁའི་གོ་རིམ་བཞིན་  དབྱེ་སེལ་འབདཝ་ཨིན།"
+
+#: modules/contact/contact.module:189
+msgid "Set this to <em>Yes</em> if you would like this category to be selected by default."
+msgstr "དབྱེ་རིམ་འདི་སྔོན་སྒྲིག་གིས་འབད་སེལ་འཐུ་འབད་དགོཔ་ཨིན་པ་ཅིན་  འདི་ <em>བཏུབ་</em>ལུ་གཞི་སྒྲིག་འབད།"
+
+#: modules/contact/contact.module:209
+msgid "You must enter one or more recipients."
+msgstr "ཁྱོད་ཀྱིས་  ལེན་འཁན་འདི་ གཅིག་ཡང་ན་མངམ་ཐོ་བཀོད་འབད་དགོ།"
+
+#: modules/contact/contact.module:215
+msgid "%recipient is an invalid e-mail address."
+msgstr "%recipient འདི་  ནུས་ཅན་མེད་པའི་གློག་འཕྲིན་ཁ་བྱང་ཨིན།"
+
+#: modules/contact/contact.module:237
+msgid "Category %category has been added."
+msgstr "དབྱེ་རིམ་ %category འདི་ ཁ་སྐོང་བརྐྱབ་སྟེ་ཡོད།"
+
+#: modules/contact/contact.module:238
+msgid "Contact form: category %category added."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག:  དབྱེ་རིམ་ %category འདི་ཁ་སྐོང་བརྐྱབ་ནུག"
+
+#: modules/contact/contact.module:243
+msgid "Category %category has been updated."
+msgstr "དབྱེ་རིམ་ %category འདི་  དུས་མཐུན་བཟོ་ནུག"
+
+#: modules/contact/contact.module:244
+msgid "Contact form: category %category updated."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག: དབྱེ་རིམ་ %category འདི་དུས་མཐུན་བཟོ་ནུག"
+
+#: modules/contact/contact.module:259
+msgid "Are you sure you want to delete %category?"
+msgstr "ཁྱོད་ཀྱིས་%category བཏོན་གཏང་ནི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: modules/contact/contact.module:262
+msgid "Category not found."
+msgstr "དབྱེ་རིམ་འདི་མ་ཐོབ་པས།"
+
+#: modules/contact/contact.module:272
+msgid "Category %category has been deleted."
+msgstr "དབྱེ་རིམ་ %category འདི་བཏོན་གཏང་ཡོད།"
+
+#: modules/contact/contact.module:273
+msgid "Contact form: category %category deleted."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག:  དབྱེ་རིམ་ %categoryའདི་བཏོན་གཏང་ནུག"
+
+#: modules/contact/contact.module:280
+msgid "Additional information"
+msgstr "བརྡ་དོན་ཁ་སྐོང་།"
+
+#: modules/contact/contact.module:281
+msgid "You can leave a message using the contact form below."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་  འོག་ལས་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་ལག་ལེན་འཐབ་སྟེ་ བཞག"
+
+#: modules/contact/contact.module:282
+msgid "Information to show on the <a href=\"@form\">contact page</a>. Can be anything from submission guidelines to your postal address or telephone number."
+msgstr "<a href=\"@form\">འབྲེལ་བ་འཐབ་ནིའི་ཤོག་ལེབ་</a>གུ་སྟོན་ནི་ཨིན་པའི་བརྡ་དོན།  ཞུ་འབུལ་ལམ་སྟོན་པ་ཚུ་ལས་  ཁྱོད་རའི་  འགྲེམ་གྱི་ཁ་བྱང་ཡང་ན་  བརྒྱུད་འཕྲིན་ཨང་ཚུན་ག་ཅི་ཨིན་རུང་བཏུབ།"
+
+#: modules/contact/contact.module:285
+msgid "Hourly threshold"
+msgstr "  ཆུ་ཚོད་རེ་བཞིན་གྱི་་ཐེརེཤ་ཧཱོལ།"
+
+#: modules/contact/contact.module:288
+msgid "The maximum number of contact form submissions a user can perform per hour."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་ཞུ་འབུལ་གྱི་མང་མཐའི་ཨང་འདི་  ལག་ལེན་པ་གིས་ ཚུ་ཚོད་གཅིག་ནང་འཁོད་ལཱ་འགན་འགྲུབ་ཨིན།"
+
+#: modules/contact/contact.module:292
+msgid "Enable personal contact form by default"
+msgstr "སྔོན་སྒྲིག་གིས་སྦེ་  རང་དོན་འབྲེལ་བ་འཐབ་ས་འདི་ལྕོགས་ཅན་བཟོ་"
+
+#: modules/contact/contact.module:294
+msgid "Default status of the personal contact form for new users."
+msgstr "ལག་ལེན་འཐབ་མི་ཚུ་གི་དོན་ལུ་  རང་དོན་འབྲེལ་སའི་སྔོན་སྒྲིག་གནས་ཚད།"
+
+#: modules/contact/contact.module:307
+msgid "You need to provide a valid e-mail address to contact other users. Please update your <a href=\"@url\">user information</a> and try again."
+msgstr "ལག་ལེན་པ་གཞན་ཚུ་ལུ་འབྲེལ་བ་འཐབ་ནིའི་དོན་ལུ་  ཁྱོད་ཀྱིས་  ནུས་ཅན་ཡོད་པའི་གློག་འཕྲིན་ཁ་བྱང་ཅིག་བྱིན་དགོ།   ཁྱོད་རའི་ <a href=\"@url\">བརྡ་དོན་ལག་ལེན་པ་</a>འདི་དུས་མཐུན་བཟོ་བཞིནམ་ལས་  སླར་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: modules/contact/contact.module:310
+msgid "You cannot contact more than %number users per hour. Please try again later."
+msgstr "ཚུ་ཚོད་གཅིག་ནང་འཁོད་ཁྱོད་ཀྱིས་  %number ལག་ལེན་པ་ལས་ལྷག་སྟེ་འབྲེལ་བ་འཐབ་མི་ཚུགས།  ཤུལ་མ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: modules/contact/contact.module:328
+msgid "From"
+msgstr "ལས་"
+
+#: modules/contact/contact.module:332
+msgid "To"
+msgstr "ལུ་"
+
+#: modules/contact/contact.module:346;477
+msgid "Send yourself a copy."
+msgstr "ཁྱོད་རང་ལུ་འདྲ་བཤུས་ཅིག་གཏང་གནང་།"
+
+#: modules/contact/contact.module:349;481
+msgid "Send e-mail"
+msgstr "གློག་འཕྲིན་གཏང་།"
+
+#: modules/contact/contact.module:363
+msgid "!name (!name-url) has sent you a message via your contact form (!form-url) at !site."
+msgstr "!name (!name-url) གིས་  ཁྱོད་རའི་ འབྲེལ་བ་འཐབ་ནི་ལས་བརྒྱུད་དེ་ (!form-url) ལས་ !siteལུ་  འཕྲིན་དོན་གཏང་ནུག"
+
+#: modules/contact/contact.module:364
+msgid "If you don't want to receive such e-mails, you can change your settings at !url."
+msgstr "ཁྱོད་ཀྱིས་  ནི་བཟུམ་མའི་གློག་འཕྲིན་ཚུ་ལེན་དགོ་མ་མནོ་བ་ཅིན་  ཁྱོད་ཀྱིས་ཁྱོད་རའི་ སྒྲིག་སྟངས་འདི་  !url ལུ་འབད་བསྒྱུར་བཅོས་འབད་ད།"
+
+#: modules/contact/contact.module:365
+msgid "Message:"
+msgstr "འཕྲིན་དོན:"
+
+#: modules/contact/contact.module:393
+msgid "%name-from sent %name-to an e-mail."
+msgstr "%nameགཏང་ལས་ གློག་འཕྲིན་ལུ་ %name"
+
+#: modules/contact/contact.module:396
+msgid "The message has been sent."
+msgstr "འཕྲིན་དོན་འདི་གཏང་ཡོད།"
+
+#: modules/contact/contact.module:409
+msgid "You cannot send more than %number messages per hour. Please try again later."
+msgstr "ཚུ་ཚོད་གཅིག་ནང་ ཁྱོད་ཀྱིས་  %number འཕྲིན་དོན་ལས་ལྷག་སྟེ་གཏང་མི་ཚུགས།  ཤུལ་མ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: modules/contact/contact.module:431
+msgid "You can leave us a message using the contact form below."
+msgstr "འོག་ལས་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་འདི་ལག་ལེན་འཐབ་ཐོག་ལས་  ཁྱོད་ཀྱིས་  ང་བཅས་ལུ་  འཕྲིན་དོན་བཞག་བཏུབ་ཨིན།"
+
+#: modules/contact/contact.module:439
+msgid "Your e-mail address"
+msgstr "ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: modules/contact/contact.module:453
+msgid "--"
+msgstr "--"
+
+#: modules/contact/contact.module:485
+msgid "The contact form has not been configured."
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་འདི་རིམ་སྒྲིག་མ་འབད་བས།"
+
+#: modules/contact/contact.module:495
+msgid "You must select a valid category."
+msgstr "ཁྱོད་ཀྱིས་ནུས་ཅན་ཡོད་པའི་དབྱེ་རིམ་སེལ་འཐུ་འབད་དགོ།"
+
+#: modules/contact/contact.module:498
+msgid "You must enter a valid e-mail address."
+msgstr "ཁྱོད་ཀྱིས་ནུས་ཅན་ཡོད་པའི་གློག་འཕྲིན་ཁ་བྱང་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: modules/contact/contact.module:512
+msgid "!name sent a message using the contact form at !form."
+msgstr "!formལུ་ འབྲེལ་བ་འཐབ་ནི་འདི་ལག་ལེན་འཐབ་སྟེ་ !name འཕྲིན་དོན་ཅིག་གཏང་།"
+
+#: modules/contact/contact.module:524
+msgid "[!category] !subject"
+msgstr "[!category] !subject"
+
+#: modules/contact/contact.module:544
+msgid "%name-from sent an e-mail regarding %category."
+msgstr "%category དོན་ལུ་  གློག་འཕྲིན་གཏང་ལས་ %name"
+
+#: modules/contact/contact.module:547
+msgid "Your message has been sent."
+msgstr "ཁྱོད་ཀྱི་འཕྲིན་དོན་འདི་གཏང་ཡོད།"
+
+#: modules/contact/contact.module:238;244;273;393;544
+msgid "mail"
+msgstr "ཡིག་འཕྲིན།"
+
+#: modules/contact/contact.module:38
+msgid "access site-wide contact form"
+msgstr "ས་ཁོངས་-རྒྱ་ཅན་འབྲེལ་བ་འཐབ་སའི་འབྲི་ཤོག་འདི་འཛུལ་སྤྱོད་འབད་"
+
+#: modules/contact/contact.module:0
+msgid "contact"
+msgstr "འབྲེལ་བ་འཐབ།"
+
+#: modules/contact/contact.info:0
+msgid "Enables the use of both personal and site-wide contact forms."
+msgstr "རང་དོན་དང་ས་ཁོངས་རྒྱ་ཅན་འབྲེལ་བ་འཐབ་ནིའི་རྣམ་པ་གཉིས་ཆ་རང་ལག་ལེན་འཐབ་ནི་འདི་ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#~ msgid "Contact module links:"
+#~ msgstr "འབྲེལ་བ་འཐབ་ནིའི་ཚད་གཞི་འབྲེལ་མཐུད་ཚུ:"
+#~ msgid "Default site-wide <a href=\"%contact-page\">contact page</a>."
+#~ msgstr ""
+#~ "སྔོན་སྒྲིག་ས་ཁོངས་རྒྱ་ཅན་ <a href=\"%contact-page\">འབྲེལ་བ་འཐབ་ནིའི་ཤོག་ལེབ།</a>."
+#~ msgid ""
+#~ "Site-wide contact form <a href=\"%configuration-page\">category "
+#~ "configuration</a>."
+#~ msgstr ""
+#~ " ས་ཁོངས་རྒྱ་ཅན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་<a href=\"%configuration-page\">དབྱེ་རིམ་རིམ་"
+#~ "སྒྲིག་འབད་ནི།</a>."
+#~ msgid ""
+#~ "Site-wide contact form <a href=\"%additional-settings\">general settings</"
+#~ "a>."
+#~ msgstr ""
+#~ "ས་ཁོངས་རྒྱ་ཅན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་ <a href=\"%additional-settings\">ཡོངས་ཁྱབ་སྒྲིག་"
+#~ "སྟངས།</a>."
+#~ msgid ""
+#~ "Site-wide contact form <a href=\"%menu-configuration\">menu "
+#~ "configuration</a>."
+#~ msgstr ""
+#~ "ས་ཁོངས་རྒྱ་ཅན་འབྲེལ་བ་འཐབ་ནིའི་འབྲི་ཤོག་<a href=\"%menu-configuration\">དཀར་ཆག་རིམ་"
+#~ "སྒྲིག་འབད་ནི།</a>."
+#~ msgid "%name is not accepting e-mails."
+#~ msgstr "%name འདི་གིས་  གློག་འཕྲིན་ཚུ་དང་ལེན་འབད་མི་བཏུབ་པས།"
+#~ msgid ""
+#~ "Please <a href=\"%login\">login</a> or <a href=\"%register\">register</a> "
+#~ "to send %name a message."
+#~ msgstr ""
+#~ " %name འཕྲིན་དོན་གཅིག་གཏང་ནི་དོན་ལུ་ <a href=\"%login\">ནང་བསྐྱོད་འབད་</a> ཡང་ན་ <a "
+#~ "href=\"%register\">ཐོ་འགོད་འབད་གནང་།</a>  "
+

@@ -1,0 +1,1513 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: red-carpet.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 03:18+0000\n"
+"PO-Revision-Date: 2007-01-16 10:04+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/rcd_util.py:432
+msgid "Please wait while getting data."
+msgstr "གནས་སྡུད་ལེནམ་ད་བསྒུག་གནང་།"
+
+#: ../src/rcd_util.py:486
+#: ../src/rcd_util.py:504
+msgid "Please ensure that your network settings are correct."
+msgstr "ཁྱོད་རའི་ཡོངས་འབྲེལ་སྒྲིག་སྟངས་ཚུ་བདེན་པ་ཨིནམ་སྦེ་  ངེས་གཏན་བཟོ་གནང་།"
+
+#: ../src/rcd_util.py:493
+msgid "Refreshing catalog data"
+msgstr "ཐོ་གཞུང་གནས་སྡུད་ཡང་བསལ་འབད་དོ་"
+
+#: ../src/rcd_util.py:495
+msgid "Downloading catalog information"
+msgstr "ཐོ་གཞུང་བརྡ་དོན་འདི་ཕབ་ལེན་འབད་དོ་"
+
+#: ../src/rcd_util.py:521
+msgid "Verifying"
+msgstr "བདེན་སྦྱོར་འབད་དོ་"
+
+#: ../src/rcd_util.py:522
+msgid "Unable to verify package signature for"
+msgstr "ཐུམ་སྒྲིལ་མིང་རྟགས་བདེན་སྦྱོར་འབད་མ་ཚུགས་"
+
+#: ../src/rcd_util.py:523
+msgid "There is no package signature for"
+msgstr "དེ་ནང་ཐུམ་སྒྲིལ་མིང་རྟགས་མེདཔ་ཨིན་"
+
+#: ../src/rcd_util.py:524
+msgid "Preparing Transaction"
+msgstr "སྤྲོད་ལེན་གྲ་སྒྲིག་འབད་དོ་"
+
+#: ../src/rcd_util.py:525
+msgid "Installing"
+msgstr "གཞི་བཙུག་འབད་དོ་"
+
+#: ../src/rcd_util.py:526
+msgid "Removing"
+msgstr "རྩ་བསྐྲད་གཏང་དོ་"
+
+#: ../src/rcd_util.py:527
+msgid "Configuring"
+msgstr "རིམ་སྒྲིག་འབད་དོ་"
+
+#: ../src/red_about.py:50
+msgid "Licensed under the GNU General Public License, version 2"
+msgstr "ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ཐོན་རིམ་ ༢་ པའི་ནང་གནང་བ་ཐོབ་ཡོད་"
+
+#: ../src/red_activation.py:27
+msgid "Registration"
+msgstr "ཐོ་བཀོད་"
+
+#: ../src/red_activation.py:53
+msgid "Service:"
+msgstr "ཞབས་ཏོག:"
+
+#: ../src/red_activation.py:57
+msgid "Email:"
+msgstr "གློག་འཕྲིན:"
+
+#: ../src/red_activation.py:61
+msgid "Registration Code:"
+msgstr "ཐོ་བཀོད་ཀྱི་ཨང་རྟགས:"
+
+#: ../src/red_activation.py:87
+msgid "Register"
+msgstr "ཐོ་འགོད་"
+
+#: ../src/red_activation.py:113
+msgid "Please fill in both email and registration code."
+msgstr "གློག་འཕྲིན་དང་ཐོ་བཀོད་ཨང་རྟགས་གཉིས་ཆ་རང་གི་ནང་ལུ་བཀང་གནང་།"
+
+#: ../src/red_activation.py:128
+msgid "Unable to activate"
+msgstr "ཤུགས་ལྡན་བཟོ་མ་ཚུགས་"
+
+#: ../src/red_activation.py:129
+msgid "Please ensure you typed the email address and registration code correctly"
+msgstr "ཁྱོད་ཀྱིས་གློག་འཕྲིན་དང་ཐོ་བཀོད་ཨང་རྟགས་འདི་ངེས་བདེན་སྦེ་  ཡིག་དཔར་བརྐྱབ་ཡོདཔ་འདི་ངེས་གཏན་འབད་གནང་"
+
+#. TRANSLATORS: *Only* localize this to the language code if the
+#. Red Carpet help is localized.
+#: ../src/red_appwindow.py:92
+msgid "C"
+msgstr "སི་"
+
+#: ../src/red_appwindow.py:129
+msgid "Unable to show help because the help files were missing.  Please report this to your vendor."
+msgstr "གྲོགས་རམ་གྱི་ཡིག་སྣོད་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ་ལས་  གྲོགས་རམ་འདི་སྟོན་མ་ཚུགས།  འདི་ཁྱོད་རའི་བཙོང་མི་ལུ་སྙན་ཞུ་འབད་གནང་།"
+
+#: ../src/red_appwindow.py:139
+msgid "Unable to show help because there are no applications available to view help."
+msgstr "གྲོགས་རམ་འདི་སྟོན་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  གྲོགས་རམ་འདི་བལྟ་ནི་དོན་ལུ་  གློག་རིམ་ཚུ་མེདཔ་ཨིན།"
+
+#: ../src/red_appwindow.py:414
+#, python-format
+msgid "Are you sure you want to open %d package information windows?"
+msgstr "ཁྱོད་ཀྱིས་  %d ཐུམ་སྒྲིལ་གྱི་བརྡ་དོན་སྒོ་སྒྲིག་ཁ་ཕྱེ་ནི་འདི་ངེས་གཏན་ཨིན་ན?"
+
+#: ../src/red_appwindow.py:442
+msgid "Run Now"
+msgstr "ད་ལྟོ་གཡོག་བཀོལ་"
+
+#: ../src/red_appwindow.py:443
+msgid "Perform installations and removals"
+msgstr "བཙུག་བཞག་ཚུ་དང་རྩ་བསྐྲད་གཏང་ནི་ཚུ་ལཱ་འགན་འགྲུབ་"
+
+#: ../src/red_appwindow.py:450
+msgid "Catalogs"
+msgstr "ཐོ་གཞུང་ཚུ་"
+
+#: ../src/red_appwindow.py:451
+msgid "Change your catalog subscriptions"
+msgstr "ཁྱོད་རའི་ཐོ་གཞུང་གི་མཁོ་མངགས་ཚུ་བསྒྱུར་བཅོས༌འབད་"
+
+#: ../src/red_appwindow.py:459
+msgid "Refresh"
+msgstr "ཡང་སེལ་འབད་"
+
+#: ../src/red_appwindow.py:460
+msgid "Refresh catalog data"
+msgstr "ཐོ་གཞུང་གནས་སྡུད་འདི་ཡང་སེལ་འབད་"
+
+#. Install
+#: ../src/red_appwindow.py:471
+#: ../src/red_packageview.py:232
+msgid "Mark for _Installation"
+msgstr "བཙུག་བཞག་འབད་ནི་གི་དོན་ལུ་རྟགས་བཀལ། (_I)"
+
+#: ../src/red_appwindow.py:472
+msgid "Mark selected packages for installation"
+msgstr "བཙུག་བཞག་འབད་ནི་གི་དོན་ལུ་  སེལ་འཐུ་འབད་ཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་རྟགས་བཀལ་"
+
+#. #
+#. # Remove Package
+#. #
+#. Remove
+#: ../src/red_appwindow.py:477
+#: ../src/red_appwindow.py:775
+#: ../src/red_packageview.py:245
+msgid "Mark for _Removal"
+msgstr "རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་རྟགས་བཀལ། (_R)"
+
+#: ../src/red_appwindow.py:478
+msgid "Mark selected packages for removal"
+msgstr "རྩ་བསྐྲད་གཏང་ནི་གི་དོན་ལུ་  སེལ་འཐུ་འབད་ཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་རྟགས་བཀལ་"
+
+#. Cancel
+#: ../src/red_appwindow.py:483
+#: ../src/red_appwindow.py:788
+#: ../src/red_packageview.py:258
+msgid "_Cancel"
+msgstr "ཆ་མེད་གཏང་། (_C)"
+
+#: ../src/red_appwindow.py:484
+msgid "Cancel marked package actions"
+msgstr "རྟགས་བཀལ་ཡོད་པའི་ཐུམ་སྒྲིལ་བྱ་བ་ཚུ་ཆ་མེད་གཏང་"
+
+#. Info
+#: ../src/red_appwindow.py:489
+#: ../src/red_packageview.py:276
+msgid "I_nformation"
+msgstr "བརྡ་དོན། (_n)"
+
+#: ../src/red_appwindow.py:490
+msgid "Package information"
+msgstr "ཐུམ་སྒྲིལ་བརྡ་དོན་"
+
+#: ../src/red_appwindow.py:547
+msgid "_File"
+msgstr "ཡིག་སྣོད། (_F)"
+
+#: ../src/red_appwindow.py:548
+msgid "_Edit"
+msgstr "ཞུན་དག་འབད། (_E)"
+
+#: ../src/red_appwindow.py:549
+#: ../src/red_appwindow.py:838
+msgid "_View"
+msgstr "མཐོང་སྣང་། (_V)"
+
+#: ../src/red_appwindow.py:550
+msgid "_Actions"
+msgstr "བྱ་བ་ཚུ། (_A)"
+
+#: ../src/red_appwindow.py:551
+msgid "_Help"
+msgstr "གྲོགས་རམ་འབད། (_H)"
+
+#: ../src/red_appwindow.py:559
+msgid "Connect to daemon..."
+msgstr "ཌེ་མཱོན་ལུ་མཐུད..."
+
+#: ../src/red_appwindow.py:560
+msgid "Connect to a remote daemon"
+msgstr "ཐག་རིང་གི་ཌེ་མཱོན་ཅིག་ལུ་མཐུད་ད་"
+
+#: ../src/red_appwindow.py:570
+msgid "Install from _File..."
+msgstr "ཡིག་སྣོད་ལས་གཞི་བཙུག་འབད... (_F)"
+
+#: ../src/red_appwindow.py:571
+msgid "Install a package from a local file"
+msgstr "ཉེ་གནས་ཀྱི་ཡིག་སྣོད་ཅིག་ལས་  ཐུམ་སྒྲིལ་ཅིག་གཞི་བཙུག་འབད་"
+
+#: ../src/red_appwindow.py:580
+msgid "Install from _URL..."
+msgstr "ཡུ་ཨར་ཨེལ་ལས་གཞི་བཙུག... (_U)"
+
+#: ../src/red_appwindow.py:581
+msgid "Install a package from a remote URL"
+msgstr "ཐག་རིང་གི་ཡུ་ཨར་ཨེལ་ཅིག་ལས་  ཐུམ་སྒྲིག་ཅིག་གཞི་བཙུག་འབད་"
+
+#: ../src/red_appwindow.py:598
+msgid "_Mount Directory..."
+msgstr "སྣོད་ཐོ་འདི་སྦྱར་བརྩེགས་འབད... (_M)"
+
+#: ../src/red_appwindow.py:599
+msgid "Mount a directory as a catalog"
+msgstr "སྣོད་ཐོ་འདི་ཐོ་གཞུང་འབད་སྦྱར་བརྩེགས་འབད་"
+
+#: ../src/red_appwindow.py:615
+msgid "U_nmount Directory..."
+msgstr "སྣོད་ཐོ་འདི་སྦྱར་བརྩེགས་མ་འབད... (_n)"
+
+#: ../src/red_appwindow.py:616
+msgid "Unmount a directory"
+msgstr "སྣོད་ཐོ་ཅིག་ སྦྱར་བརྩེགས་མ་འབད་"
+
+#: ../src/red_appwindow.py:632
+msgid "_Register..."
+msgstr "ཐོ་འགོད... (_R)"
+
+#: ../src/red_appwindow.py:633
+msgid "Register daemon"
+msgstr "ཌེ་མཱོན་འདི་ཐོ་འགོད་འབད་"
+
+#: ../src/red_appwindow.py:639
+msgid "Quit"
+msgstr "སྤང་"
+
+#: ../src/red_appwindow.py:640
+msgid "Quit Red Carpet"
+msgstr "རེཌི་ཀར་པེཊི་འདི་སྤང་"
+
+#: ../src/red_appwindow.py:655
+msgid "Select _All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད། (_A)"
+
+#: ../src/red_appwindow.py:656
+msgid "Select all items"
+msgstr "རྣམ་གྲངས་ཚུ་ཆ་མཉམ་སེལ་འཐུ་འབད་"
+
+#: ../src/red_appwindow.py:661
+msgid "Select _None"
+msgstr "ཅི་མེད་སེལ་འཐུ་འབད། (_N)"
+
+#: ../src/red_appwindow.py:662
+msgid "Deselect all items"
+msgstr "རྣམ་གྲངས་ཚུ་ཆ་མཉམ་སེལ་འཐུ་མ་འབད་"
+
+#: ../src/red_appwindow.py:669
+msgid "Services..."
+msgstr "ཞབས་ཏོག་ཚུ..."
+
+#: ../src/red_appwindow.py:670
+msgid "Edit services"
+msgstr "ཞབས་ཏོག་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/red_appwindow.py:674
+msgid "Catalog _Subscriptions..."
+msgstr "ཐོ་གཞུང་མཁོ་མངགས... (_S)"
+
+#: ../src/red_appwindow.py:675
+msgid "Edit your catalog subscriptions"
+msgstr "ཁྱོད་རའི་ཐོ་གཞུང་མཁོ་མངགས་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/red_appwindow.py:680
+msgid "_Preferences..."
+msgstr "དགའ་གདམ་ཚུ... (_P)"
+
+#: ../src/red_appwindow.py:681
+msgid "Edit your Red Carpet preferences"
+msgstr "ཁྱོད་རའི་རེཌི་ཀར་པེཊི་དགའ་གདམ་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/red_appwindow.py:685
+msgid "_Users..."
+msgstr "ལག་ལེན་པ་ཚུ... (_U)"
+
+#: ../src/red_appwindow.py:686
+msgid "Edit user permissions for this daemon"
+msgstr "ཌེ་མཱོན་འདི་གི་དོན་ལུ་  ལག་ལེན་པའི་གནང་བ་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/red_appwindow.py:699
+msgid "_Sidebar"
+msgstr "ཟུར་ཁའི་ཕྲ་རིང་། (_S)"
+
+#: ../src/red_appwindow.py:700
+msgid "Hide or show the Pending Actions sidebar"
+msgstr "བྱ་བ་བསྣར་བའི་ཟུར་ཕྲ་རིང་འདི་སྟོན་ཡང་ན་སྦ་བཞག་"
+
+#: ../src/red_appwindow.py:704
+msgid "_Advanced Search Options"
+msgstr "སྔ་གཡར་འཚོལ་ཞིབ་ཀྱི་གདམ་ཁ་ཚུ་"
+
+#: ../src/red_appwindow.py:705
+msgid "Hide or show advanced search options"
+msgstr "སྔ་གཡར་འཚོལ་ཞིབ་ཀྱི་གདམ་ཁ་ཚུ་སྟོན་ཡང་ན་ སབ་བཞག་"
+
+#: ../src/red_appwindow.py:709
+msgid "_Catalog Names"
+msgstr "ཐོ་གཞུང་གི་མིང་ཚུ། (_C)"
+
+#: ../src/red_appwindow.py:710
+msgid "Hide or show catalog names in package lists"
+msgstr "ཐུམ་སྒྲིལ་གྱི་ཐོ་ཡིག་ཚུ་ནང་  ཐོ་གཞུང་མིང་སྟོན་ ཡང་ན་སྦ་བཞག་"
+
+#: ../src/red_appwindow.py:716
+msgid "Package _Information..."
+msgstr "ཐུམ་སྒྲིལ་གྱི་བརྡ་དོན... (_I)"
+
+#: ../src/red_appwindow.py:717
+msgid "View information about currently selected packages"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་གི་སྐོར་ལས་  བརྡ་དོན་སྟོན་"
+
+#: ../src/red_appwindow.py:725
+msgid "_Daemon Information..."
+msgstr "ཌེ་མཱོན་བརྡ་དོན... (_D)"
+
+#: ../src/red_appwindow.py:726
+msgid "View information about this daemon"
+msgstr "ཌེ་མཱོན་འདི་གི་སྐོར་ལས་བརྡ་དོན་སྟོན་"
+
+#: ../src/red_appwindow.py:738
+msgid "Run _Now"
+msgstr "ད་ལྟོ་གཡོག་བཀོལ། ( _N)"
+
+#: ../src/red_appwindow.py:739
+msgid "Run the current transaction"
+msgstr "ད་ལྟོའི་སྤྲོད་ལེན་འདི་གཡོག་བཀོལ་"
+
+#: ../src/red_appwindow.py:753
+msgid "_Verify System Dependencies"
+msgstr "རིམ་ལུགས་རྟེན་འབྲེལ་ཚུ་བདེན་སྦྱོར་འབད་"
+
+#: ../src/red_appwindow.py:754
+msgid "Verify that all system dependencies are met"
+msgstr "རིམ་ལུགས་རྟེན་འབྲེལ་ཆ་མཉམ་ཚང་ཡོདཔ་འདི་བདེན་སྦྱོར་འབད་"
+
+#. #
+#. # Install Package
+#. #
+#: ../src/red_appwindow.py:765
+msgid "Mark for I_nstallation"
+msgstr "བཙུག་བཞག་གི་དོན་ལུ་རྟགས་བཀལ། (_n)"
+
+#: ../src/red_appwindow.py:766
+msgid "Mark this package for installation"
+msgstr "བཙུག་བཞག་འབད་ནིའི་དོན་ལུ་  ཐུམ་སྒྲིལ་འདི་རྟགས་བཀལ་"
+
+#: ../src/red_appwindow.py:776
+msgid "Mark this package for removal"
+msgstr "རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་  ཐུམ་སྒྲིལ་འདི་རྟགས་བཀལ་"
+
+#: ../src/red_appwindow.py:789
+msgid "Cancel installation or removal mark"
+msgstr "བཙུག་བཞག་ཡང་ན་རྩ་བསྐྲད་གཏང་ནིའི་རྟགས་འདི་ཆ་མེད་གཏང་"
+
+#: ../src/red_appwindow.py:803
+msgid "Re_fresh Catalog Data"
+msgstr "ཐོ་གཞུང་གནས་སྡུད་འདི་ཡང་སེལ་འབད། (_f)"
+
+#: ../src/red_appwindow.py:804
+msgid "Download latest catalog data"
+msgstr "མཇུག་གི་ཐོ་གཞུང་གནས་སྡུད་འདི་ཕབ་ལེན་འབད་"
+
+#: ../src/red_appwindow.py:813
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ། (_C)"
+
+#: ../src/red_appwindow.py:814
+msgid "View Red Carpet help"
+msgstr "རེཌི་ཀར་པེཊི་གི་གྲོགས་རམ་འདི་སྟོན་"
+
+#: ../src/red_appwindow.py:819
+msgid "_About..."
+msgstr "སྐོར་ལས... (_A)"
+
+#: ../src/red_appwindow.py:820
+msgid "About Red Carpet"
+msgstr "རེཌི་ཀར་པེཊི་གི་སྐོར་ལས་"
+
+#: ../src/red_appwindow.py:839
+#, python-format
+msgid "Go to the '%s' page"
+msgstr "'%s' ཤོག་ལེབ་ལུ་སོང་"
+
+#: ../src/red_bundlearray.py:32
+#: ../src/red_packagearray.py:91
+msgid "installed"
+msgstr "གཞི་བཙུགས་འབད་ཡོདཔ་"
+
+#: ../src/red_bundlearray.py:34
+#: ../src/red_packagearray.py:97
+msgid "not installed"
+msgstr "གཞི་བཙུག་མ་འབད་བས་"
+
+#: ../src/red_bundlearray.py:231
+#, python-format
+msgid "Found %d matching bundles"
+msgstr "%d མཐུན་སྒྲིག་གི་ཆག་པ་ཚུ་ཐོབ་ཡོད་"
+
+#: ../src/red_bundlearray.py:233
+msgid "Found 1 matching bundle"
+msgstr "མཐུན་སྒྲིག་གི་ཆག་པ་ ༡ ཐོབ་ཡོད་"
+
+#: ../src/red_bundlearray.py:235
+msgid "No matching bundles found"
+msgstr "མཐུན་སྒྲིག་གི་ཆག་པ་ཚུ་མ་ཐོབ་"
+
+#: ../src/red_bundlesearchbox.py:73
+msgid "All Bundles"
+msgstr "ཆག་པ་ཆ་མཉམ་"
+
+#: ../src/red_bundlesearchbox.py:74
+msgid "Uninstalled Bundles"
+msgstr "གཞི་བཙུག་མ་འབད་བའི་ཆག་པ་ཚུ་"
+
+#: ../src/red_bundlesearchbox.py:75
+msgid "Installed Bundles"
+msgstr "གཞི་བཙུག་འབད་ཡོད་པའི་ཆག་པ་ཚུ་"
+
+#: ../src/red_bundlesearchbox.py:101
+#: ../src/red_searchbox.py:322
+msgid "Catalog:"
+msgstr "ཐོ་གཞུང་:"
+
+#: ../src/red_bundleview.py:14
+#: ../src/red_bundleview.py:126
+#: ../src/red_history.py:327
+#: ../src/red_packagepage_info.py:90
+#: ../src/red_services.py:150
+msgid "Name"
+msgstr "མིང་"
+
+#: ../src/red_bundleview.py:24
+#: ../src/red_bundleview.py:98
+#: ../src/red_packageview.py:301
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: ../src/red_bundleview.py:52
+#: ../src/red_bundleview.py:137
+#: ../src/red_packagepage_info.py:91
+#: ../src/red_packageview.py:452
+msgid "Version"
+msgstr "ཐོན་རིམ་"
+
+#: ../src/red_bundleview.py:62
+#: ../src/red_bundleview.py:147
+msgid "Installed"
+msgstr "གཞི་བཙུག་འབད་ཡོདཔ་"
+
+#: ../src/red_bundleview.py:72
+#: ../src/red_bundleview.py:157
+#: ../src/red_history.py:326
+msgid "Type"
+msgstr "དབྱེ་བ་"
+
+#: ../src/red_channeloption.py:64
+msgid "All Catalogs"
+msgstr "ཐོ་གཞུང་ཆ་མཉམ་"
+
+#: ../src/red_channeloption.py:69
+msgid "All Subscribed Catalogs"
+msgstr "མཁོ་མངགས་འབད་ཡོད་པའི་ཐོ་གཞུང་ཆ་མཉམ་"
+
+#: ../src/red_channeloption.py:74
+msgid "No Catalog/Unknown Catalog"
+msgstr "ཐོ་གཞུང་/མ་ཤེས་པའི་ཐོ་གཞུང་མེད་"
+
+#: ../src/red_connection.py:49
+#, python-format
+msgid ""
+"Unable to connect to the daemon:\n"
+" '%s'."
+msgstr ""
+"ཌེ་མཱོན་ལུ་མཐུད་མ་ཚུགས:\n"
+" '%s'."
+
+#: ../src/red_connection.py:67
+#, python-format
+msgid ""
+"Detected Red Carpet Daemon version %d.%d.%d.\n"
+"Version %d.%d.%d (or newer) is required"
+msgstr ""
+"རེཌི་ཀར་པེཊི་ཌེ་མཱོན་གྱི་ཐོན་རིམ་ %d.%d.%d འདི་སྐྱོན་འཛིན་བྱུང་ཡོདཔ།\n"
+"ཐོན་རིམ་ %d.%d.%d (ཡང་ན་གསརཔ་) འདི་དགོཔ་ཨིན་"
+
+#: ../src/red_connection.py:93
+#, python-format
+msgid "Detected protocol version %d.  Version %d is required.  You must update your version of rcd."
+msgstr "གནད་སྤེལ་ལམ་ལུགས་ཀྱི་ཐོན་རིམ་  %d འདི་སྐྱོན་འཛིན་བྱུང་ཡོདཔ།  ཐོན་རིམ་ %d འདི་དགོཔ་ཨིན།  ཁྱོད་རའི་ཨར་སི་ཌི་གི་ཐོན་རིམ་འདི་ཁྱོད་ཀྱིས་དུས་མཐུན་བཟོ་དགོ།"
+
+#: ../src/red_connection.py:123
+msgid "Starting daemon..."
+msgstr "ཌེ་མཱོན་འགོ་བཙུག་དོ... "
+
+#: ../src/red_connection.py:197
+msgid ""
+"Red Carpet requires a Red Carpet Daemon to be running.\n"
+"Would you like to start one now?"
+msgstr ""
+"རེཌི་ཀར་པེཊི་འདི་གཡོག་བཀོལ་ནིའི་དོན་ལུ་  རེཌི་ཀར་པེཊི་ཌེ་མཱོན་འདི་དགོཔ་ཨིན། \n"
+"ཁྱོད་ཀྱིས་ད་ལྟོ་གཅིག་འགོ་བཙུག་ནི་ཨིན་ན?"
+
+#: ../src/red_connection.py:345
+msgid "Connect to this system"
+msgstr "རིམ་ལུགས་འདི་ལུ་མཐུད་"
+
+#: ../src/red_connection.py:349
+msgid "Connect to a remote system"
+msgstr "ཐག་རིང་གི་རིམ་ལུགས་ཅིག་ལུ་མཐུད་"
+
+#: ../src/red_connection.py:357
+msgid "Server:"
+msgstr "སར་བར:"
+
+#: ../src/red_connection.py:361
+#: ../src/red_users.py:389
+msgid "User name:"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../src/red_connection.py:365
+#: ../src/red_prefs.py:237
+#: ../src/red_users.py:192
+#: ../src/red_users.py:395
+msgid "Password:"
+msgstr "ཆོག་ཡིག:"
+
+#: ../src/red_connection.py:401
+msgid "Connect"
+msgstr "མཐུད་"
+
+#: ../src/red_console.py:50
+msgid "ZENworks Error Console"
+msgstr "ཛེརཌི་ཨི་ཨེན་ལཱ་ཚུ་གི་འཛོལ་བའི་མ་སྒྲོམ་"
+
+#: ../src/red_deaddaemon.py:35
+msgid "Connection to daemon restored.\n"
+msgstr "ཌེ་མཱོན་སོར་ཆུད་ཀྱི་མཐུད་ལམ། \n"
+
+#: ../src/red_deaddaemon.py:68
+msgid "Lost contact with the daemon!"
+msgstr "ཌེ་མཱོན་དང་ཅིག་ཁར་བརླག་སྟོར་ཞུགས་ཡོད་པའི་འབྲེལ་ས!"
+
+#: ../src/red_deaddaemon.py:69
+msgid "Exit Red Carpet"
+msgstr "རེཌི་ཀར་པེཊི་འདི་ཕྱིར་ཐོན་"
+
+#: ../src/red_depcomponent.py:75
+#: ../src/red_depcomponent.py:403
+msgid "Dependency Resolution"
+msgstr "བརྟེན་སྡོད་པའི་ཧུམ་ཆ་"
+
+#: ../src/red_depcomponent.py:125
+msgid "Verifying System"
+msgstr "བདེན་སྦྱོར་འབད་བའི་རིམ་ལུགས་"
+
+#: ../src/red_depcomponent.py:137
+msgid "Resolving Dependencies"
+msgstr "རྟེན་འབྲེལ་ཚུ་མོས་མཐུན་འབད་དོ་"
+
+#: ../src/red_depcomponent.py:159
+msgid "You must agree to the licenses covering this software before installing it."
+msgstr "གཞི་བཙུག་མ་འབད་བའི་ཧེ་མ་གི་མཉེན་ཆས་འདི་གང་མི་ཆོག་ཐམ་ཚུ་ལུ་  ཁྱོད་ཀྱིས་ཁ་བཟེད་དགོ།"
+
+#: ../src/red_depcomponent.py:203
+msgid "I Agree"
+msgstr "ང་གིས་ཁ་བཟེད་ནི་ཨིན་"
+
+#: ../src/red_depcomponent.py:308
+msgid "Dependency Resolution Failed"
+msgstr "བརྟེན་པའི་ཧུམ་ཆ་འདི་འཐུས་ཤོར་བྱུང་ཡོདཔ"
+
+#: ../src/red_depcomponent.py:358
+msgid "System Verified"
+msgstr "རིམ་ལུགས་བདེན་སྦྱོར་འབད་ཡོདཔ་"
+
+#: ../src/red_depcomponent.py:360
+msgid "All package dependencies are satisfied, and no corrective actions are required."
+msgstr "ཐུམ་སྒྲིལ་གྱི་རྟེན་འབྲེལ་ཚུ་ཆ་མཉམ་ངལ་རང་པ་དང་  ནོར་བཅོས་ཀྱི་བྱ་བ་ཚུ་དགོཔ་མེད།"
+
+#: ../src/red_depcomponent.py:414
+msgid "Requested Installations"
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་བཙུག་བཞག་ཚུ་"
+
+#: ../src/red_depcomponent.py:418
+msgid "Requested Removals"
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་སྤོ་བཤུད་ཚུ་"
+
+#: ../src/red_depcomponent.py:422
+msgid "Required Installations"
+msgstr "དགོས་མཁོ་ཡོད་པའི་བཙུག་བཞག་ཚུ་"
+
+#: ../src/red_depcomponent.py:426
+msgid "Required Removals"
+msgstr "དགོ་མཁོ་ཡོད་པའི་སྤོ་བཤུད་ཚུ་"
+
+#: ../src/red_depcomponent.py:452
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་"
+
+#: ../src/red_depview.py:47
+#: ../src/red_mount.py:230
+#: ../src/red_packagepage_info.py:95
+#: ../src/red_packageview.py:367
+msgid "Catalog"
+msgstr "ཐོ་གཞུང་"
+
+#: ../src/red_depview.py:50
+#: ../src/red_history.py:180
+#: ../src/red_packageview.py:423
+msgid "Package"
+msgstr "ཐུམ་སྒྲིལ་"
+
+#: ../src/red_depview.py:53
+#: ../src/red_packageview.py:462
+msgid "Current Version"
+msgstr "ད་ལྟོའི་ཐོན་རིམ་"
+
+#: ../src/red_depview.py:56
+#: ../src/red_history.py:329
+#: ../src/red_history.py:462
+#: ../src/red_updates.py:94
+msgid "New Version"
+msgstr "ཐོན་རིམ་གསརཔ་"
+
+#: ../src/red_depview.py:59
+#: ../src/red_packageview.py:498
+msgid "Size"
+msgstr "ཚད་"
+
+#: ../src/red_history.py:115
+#: ../src/red_users.py:30
+msgid "All"
+msgstr "ཆ་མཉམ་"
+
+#: ../src/red_history.py:116
+msgid "Installations"
+msgstr "བཙུག་བཞག་ཚུ་"
+
+#: ../src/red_history.py:117
+msgid "Removals"
+msgstr "སྤོ་བཤུད་ཚུ་"
+
+#: ../src/red_history.py:118
+msgid "Upgrades"
+msgstr "ཡར་བསྐྱེད་ཚུ་"
+
+#: ../src/red_history.py:123
+msgid "User:"
+msgstr "ལག་ལེན་པ:"
+
+#: ../src/red_history.py:129
+msgid "Timeframe (days):"
+msgstr "དུས་གཞི་ཁྲམ་ (ཉིནམ་):"
+
+#: ../src/red_history.py:182
+msgid "Bundle"
+msgstr "ཆག་པ་"
+
+#: ../src/red_history.py:183
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../src/red_history.py:301
+msgid "Searching..."
+msgstr "འཚོལ་ཞིབ་འབད་དོ..."
+
+#: ../src/red_history.py:323
+#: ../src/red_history.py:458
+msgid "Time"
+msgstr "དུས་ཡུན་"
+
+#: ../src/red_history.py:324
+#: ../src/red_history.py:459
+#: ../src/red_packageview.py:330
+msgid "Action"
+msgstr "བྱ་བ་"
+
+#: ../src/red_history.py:325
+#: ../src/red_history.py:460
+#: ../src/red_users.py:113
+msgid "User"
+msgstr "ལག་ལེན་པ་"
+
+#: ../src/red_history.py:328
+#: ../src/red_history.py:461
+msgid "Old Version"
+msgstr "ཐོན་རིམ་རྙིངམ་"
+
+#: ../src/red_history.py:359
+#: ../src/red_packagepage.py:45
+msgid "History"
+msgstr "ལོ་རྒྱུས་"
+
+#: ../src/red_history.py:362
+msgid "_History"
+msgstr "ལོ་རྒྱུས། (_H)"
+
+#: ../src/red_history.py:406
+msgid "No results found."
+msgstr "གྲུབ་འབྲས་ཚུ་མ་ཐོབ།"
+
+#: ../src/red_installfiles.py:80
+#: ../src/red_installfiles.py:149
+#, python-format
+msgid "%s is not a valid package"
+msgstr "%s འདི་ནུས་ཅན་ཡོད་པའི་ཐུམ་སྒྲིལ་ཅིག་མེན་"
+
+#: ../src/red_installfiles.py:90
+msgid "There are no valid packages to install"
+msgstr "གཞི་བཙུག་འབད་ནི་ལུ་  ནུས་ཅན་ཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་མིན་འདུག་"
+
+#: ../src/red_installfiles.py:109
+msgid "Install from File"
+msgstr "ཡིག་སྣོད་ལས་གཞི་བཙུག་འབད་"
+
+#: ../src/red_installfiles.py:126
+#, python-format
+msgid "Downloading %s..."
+msgstr "%sཕབ་ལེན་འབད་དོ..."
+
+#: ../src/red_installfiles.py:165
+msgid "Install from URL"
+msgstr "ཡུ་ཨར་ཨེལ་ལས་གཞི་བཙུག་འབད་"
+
+#: ../src/red_installfiles.py:170
+msgid "Package URL:"
+msgstr "ཡུ་ཨར་ཨེལ་ཐུམ་སྒྲིལ:"
+
+#: ../src/red_main.py:110
+#: ../trayicon/red_icon_main.py:211
+msgid "ERROR: You cannot specify both -h/--host and -l/--local options"
+msgstr "འཛོལ་བ: ཁྱོད་ཀྱིས་-h/--host དང་ -l/--local optionsགཉིས་ཆ་རང་གསལ་བཀོད་འབད་མི་ཚུགས་"
+
+#: ../src/red_main.py:141
+#: ../trayicon/red_icon_main.py:242
+msgid "ERROR: You cannot specify a user to a local daemon"
+msgstr "འཛོལ་བ: ཁྱོད་ཀྱིས་  ལག་ལེན་པ་འདི་ཉེ་གནས་ཀྱི་ཌེ་མཱོན་ཅིག་ལུ་གསལ་བཀོད་འབད་མི་ཚུགས་"
+
+#: ../src/red_mirrors.py:76
+msgid "Mirror"
+msgstr "ངོ་འཆར་"
+
+#: ../src/red_mirrors.py:81
+msgid "Location"
+msgstr "གནས་ཁོངས་"
+
+#: ../src/red_mirrors.py:108
+msgid "Choose a Mirror"
+msgstr "ངོ་འཆར་ཅིག་གདམ་ཁ་བརྐྱབ་"
+
+#: ../src/red_mount.py:91
+#, python-format
+msgid "Unable to unmount '%s'"
+msgstr "'%s' འདི་བརྩེགས་བཤོལ་འབད་མ་ཚུགས་"
+
+#: ../src/red_mount.py:117
+msgid "Browse..."
+msgstr "བརྡ་འཚོལ་འབད..."
+
+#: ../src/red_mount.py:128
+msgid "Mount Directory"
+msgstr "སྣོད་ཐོ་འདི་སྦྱར་བརྩེགས་འབད་"
+
+#: ../src/red_mount.py:141
+msgid "Mount catalog"
+msgstr "ཐོ་གཞུང་འདི་སྦྱར་བརྩེགས་འབད་"
+
+#: ../src/red_mount.py:145
+msgid "Mount a directory as catalog"
+msgstr "སྣོད་ཐོ་འདི་ཐོ་གཞུང་སྦེ་སྦྱར་བརྩེགས་འབད་"
+
+#: ../src/red_mount.py:153
+msgid "Catalog Name:"
+msgstr "ཐོ་གཞུང་གི་མིང་:"
+
+#: ../src/red_mount.py:157
+msgid "Directory:"
+msgstr "སྣོད་ཐོ:"
+
+#: ../src/red_mount.py:168
+msgid "Look for packages recursively"
+msgstr "ཐུམ་སྒྲིལ་ཚུ་གི་དོན་ལུ་  ལོག་རིམ་ཐོག་ལས་བལྟ་"
+
+#: ../src/red_mount.py:193
+msgid "Please choose the path for catalog."
+msgstr "ཐོ་གཞུང་གི་དོན་ལུ་འགྲུལ་ལམ་འདི་གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: ../src/red_mount.py:214
+msgid "Unmount Catalog"
+msgstr "ཐོ་གཞུང་བརྩེགས་བཤོལ་"
+
+#: ../src/red_mount.py:243
+msgid "Unmount?"
+msgstr "བརྩེགས་བཤོལ་ཨིན་ན?"
+
+#: ../src/red_news.py:174
+#, python-format
+msgid "%s News"
+msgstr "%s གནས་ཚུལ་"
+
+#: ../src/red_option.py:24
+msgid "Connect to a locally running daemon"
+msgstr "ཉེ་གནས་གཡོལ་བཀོལ་བའི་ཌེ་མཱོན་ཅིག་ལུ་མཐུད་"
+
+#: ../src/red_option.py:25
+msgid "hostname"
+msgstr "ཧོསཊི་ནེམ་"
+
+#: ../src/red_option.py:25
+msgid "Contact daemon on specified host"
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་ཧོསཊི་གུ་ཌེ་མཱོན་འབྲེལ་བ་འཐབ་ནི་"
+
+#: ../src/red_option.py:26
+msgid "username"
+msgstr "ལག་ལེན་པའི་མིང་"
+
+#: ../src/red_option.py:26
+msgid "Specify user name"
+msgstr "ལག་ལེན་པའི་མིང་འདི་གསལབཀོད་འབད་"
+
+#: ../src/red_option.py:27
+msgid "password"
+msgstr "ཆོག་ཡིག་"
+
+#: ../src/red_option.py:27
+msgid "Specify password"
+msgstr "ཆོག་ཡིག་འདི་གསལ་བཀོད་འབད་"
+
+#: ../src/red_option.py:28
+msgid "Print client version and exit"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གི་ཐོན་རིམ་འདི་དཔར་བསྐྲུན་འབད་ནི་དང་ཕྱིར་ཐོན་འབད་"
+
+#: ../src/red_option.py:29
+msgid "Get usage information"
+msgstr "བེད་སྤྱོད་ཀྱི་བརྡ་དོན་ལེན་"
+
+#: ../src/red_option.py:120
+#, python-format
+msgid "Usage: %s <options> ..."
+msgstr "བེད་སྤྱོད: %s <options> ..."
+
+#: ../src/red_option.py:122
+msgid "The following options are understood:"
+msgstr "འོག་གི་གདམ་ཁ་ཚུ་ཧ་གོ་ནུག:"
+
+#. upgrade
+#: ../src/red_packagearray.py:93
+msgid "newer"
+msgstr "གསརཔ་"
+
+#: ../src/red_packagearray.py:95
+msgid "older"
+msgstr "རྙིངམ་"
+
+#: ../src/red_packagearray.py:123
+msgid "upgrade"
+msgstr "ཡར་བསྐྱེད་"
+
+#: ../src/red_packagearray.py:125
+msgid "downgrade"
+msgstr "མར་བསྐྱེད་ནི་"
+
+#: ../src/red_packagearray.py:127
+msgid "install"
+msgstr "གཞི་བཙུག་"
+
+#: ../src/red_packagearray.py:134
+msgid "remove"
+msgstr "རྩ་བསྐྲད་གཏང་"
+
+#: ../src/red_packagearray.py:614
+#, python-format
+msgid "Found %d matching packages"
+msgstr "%d མཐུན་སྒྲིག་གི་ཐུམ་སྒྲིལ་ཚུ་ཐོབ་ནུག་"
+
+#: ../src/red_packagearray.py:616
+msgid "Found 1 matching package"
+msgstr "མཐུན་སྒྲིག་གི་ཐུམ་སྒྲིལ་ ༡་ ཐོབ་ནུག་"
+
+#: ../src/red_packagearray.py:618
+msgid "No matching packages found"
+msgstr "མཐུན་སྒྲིག་གི་ཐུམ་སྒྲིལ་མ་ཐོབ་"
+
+#: ../src/red_packagearray.py:776
+msgid "Looking for updates..."
+msgstr "དུས་མཐུན་ཚུ་གི་དོན་ལུ་འཚོལ་དོ..."
+
+#: ../src/red_packagearray.py:801
+#, python-format
+msgid "Found %d matching patches"
+msgstr "%d མཐུན་སྒྲིག་མཚམས་ཐོར་ཚུ་ཐོབ་ནུག་"
+
+#: ../src/red_packagearray.py:803
+msgid "Found 1 matching patch"
+msgstr "མཐུན་སྒྲིག་གི་མཚམས་ཐོར་ ༡ ཐོབ་ནུག་"
+
+#: ../src/red_packagearray.py:805
+msgid "No matching patches found"
+msgstr "མཐུན་སྒྲིག་གི་མཚམས་ཐོར་མ་ཐོབ་"
+
+#: ../src/red_packagebook.py:44
+msgid "Package Information"
+msgstr "ཐུམ་སྒྲིལ་གྱི་བརྡ་དོན་"
+
+#: ../src/red_packagepage.py:32
+msgid "Unnamed"
+msgstr "མིང་མ་བཏགས་པ་"
+
+#: ../src/red_packagepage_deps.py:29
+msgid "Dependencies"
+msgstr "རྟེན་འབྲེལ་"
+
+#: ../src/red_packagepage_deps.py:67
+msgid "Provides"
+msgstr "བྱིནམ་ཨིན་"
+
+#: ../src/red_packagepage_deps.py:70
+msgid "Requires"
+msgstr "དགོས་མཁོ་ཡོདཔ་ཚུ་"
+
+#: ../src/red_packagepage_deps.py:73
+msgid "Conflicts With"
+msgstr "མི་མཐུན་པ་"
+
+#: ../src/red_packagepage_info.py:92
+msgid "Release"
+msgstr "གསར་བཏོན་"
+
+#: ../src/red_packagepage_info.py:93
+msgid "Package Size"
+msgstr "ཐུམ་སྒྲིལ་གྱི་ཚད་"
+
+#: ../src/red_packagepage_info.py:94
+msgid "Installed Size"
+msgstr "གཞི་བཙུག་འབད་ཡོད་པའི་ཚད་"
+
+#: ../src/red_packagepage_info.py:96
+msgid "Section"
+msgstr "དབྱེ་ཚན་"
+
+#: ../src/red_packagepage_info.py:97
+msgid "Summary"
+msgstr "བཅུད་དོན་"
+
+#: ../src/red_packagepage_info.py:98
+#: ../src/red_prefs.py:413
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: ../src/red_packagepage_info.py:152
+msgid "Info"
+msgstr "བརྡ་དོན་"
+
+#: ../src/red_packageview.py:472
+msgid "Importance"
+msgstr "གལ་གནད་"
+
+#: ../src/red_patches.py:35
+msgid "Patches"
+msgstr "མཚམས་ཐོར་"
+
+#: ../src/red_patches.py:38
+msgid "YOU Patches"
+msgstr "མཚམས་ཐོར་ ཝའི་ཨོ་ཡུ་"
+
+#: ../src/red_patches.py:72
+msgid "Searching for matching patches..."
+msgstr "མཐུན་སྒྲིག་མཚམས་ཐོར་གྱི་དོན་ལུ་འཚོལ་ཞིབ་འབད་དོ..."
+
+#: ../src/red_patches.py:111
+msgid "No matching patches found."
+msgstr "མཐུན་སྒྲིག་གི་མཚམས་ཐོར་མ་ཐོབ།"
+
+#: ../src/red_pendingview.py:347
+#, python-format
+msgid "%.1f%% completed"
+msgstr "%.1f%% མཇུག་བསྡུ་ཡོདཔ་"
+
+#: ../src/red_pendingview.py:536
+msgid "Updating System"
+msgstr "རིམ་ལུགས་དུས་མཐུན་བཟོ་དོ་"
+
+#: ../src/red_pendingview.py:609
+msgid "Download cancelled"
+msgstr "ཆ་མེད་གཏང་ཡོདཔ་འདི་ཕབ་ལེན་འབད་"
+
+#: ../src/red_pendingview.py:610
+msgid "Transaction cancelled"
+msgstr "སྤྲོད་ལེན་ཆ་མེད་གཏང་ཡོདཔ་"
+
+#: ../src/red_pendingview.py:645
+msgid "Transaction Finished"
+msgstr "སྤྲོད་ལེན་མཇུག་བསྡུ་ནུག་"
+
+#: ../src/red_pendingview.py:658
+msgid "Downloading packages"
+msgstr "ཐུམ་སྒྲིལ་ཚུ་ཕབ་ལེན་འབད་དོ་"
+
+#: ../src/red_pendingview.py:671
+msgid "Download Failed"
+msgstr "ཕབ་ལེན་འབད་ནི་འདི་འཐུས་ཤོར་བྱུང་ནུག་"
+
+#: ../src/red_pendingview.py:672
+msgid "Unknown Error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+#: ../src/red_pendingview.py:689
+msgid "Processing Transaction"
+msgstr "སྤྲོད་ལེན་བཟོ་སྦྱོར་འབད་དོ་"
+
+#: ../src/red_pendingview.py:728
+msgid "The transaction has completed successfully"
+msgstr "སྤྲོད་ལེན་འདི་མཐར་འཁྱལཝ་སྦེ་མཇུག་བསྡུད་ནུག་"
+
+#: ../src/red_pendingview.py:733
+msgid "Transaction failed"
+msgstr "སྤྲོད་ལེན་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#: ../src/red_pendingview.py:735
+msgid "Transaction Failed"
+msgstr "སྤྲོད་ལེན་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#: ../src/red_prefs.py:171
+msgid "Interval to refresh catalog data (in hours):"
+msgstr "ཐོ་གཞུང་གནས་སྡུད་(ཆུ་ཚོད་ནང་)འདི་ཡང་སེལ་འབད་ནི་ལུ་ བར་མཚམས:"
+
+#. Packages section
+#: ../src/red_prefs.py:182
+msgid "Packages"
+msgstr "ཐུམ་སྒྲིལ་ཚུ་"
+
+#: ../src/red_prefs.py:191
+msgid "Require package signatures"
+msgstr "ཐུམསྒྲིལ་མིང་རྟགས་ཚུ་དགོཔ་ཨིན་"
+
+#: ../src/red_prefs.py:196
+msgid "Maximum number of packages to download at once:"
+msgstr "ཚར་ཅིག་ལུ་ཕབ་ལེན་འབད་ནི་ལུ་  ཐུམ་སྒྲིལ་ཚུ་གི་ཨང་གྲངས་མང་མཐའ:"
+
+#: ../src/red_prefs.py:206
+msgid "Enable package rollback"
+msgstr "ཐུམ་སྒྲིལ་རྒྱབ་སྒྲིལ་འདི་ལྕོགས་ཅན་བཟོ་"
+
+#. Proxy section - requires superuser
+#: ../src/red_prefs.py:210
+msgid "Proxy"
+msgstr "པོརོ་སི་"
+
+#: ../src/red_prefs.py:219
+msgid "Use a proxy"
+msgstr "པོརོ་སི་ཅིག་ལག་ལེན་འཐབ་"
+
+#: ../src/red_prefs.py:223
+msgid "Proxy URL:"
+msgstr "པོརོ་སི་ཡུ་ཨར་ཨེལ:"
+
+#: ../src/red_prefs.py:230
+msgid "Username:"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../src/red_prefs.py:270
+msgid "You do not have permissions to view proxy settings"
+msgstr "པོརོ་སི་སྒྲིག་སྟངས་ཚུ་སྟོན་ནི་ལུ་  ཁྱོད་ལུ་གནང་བ་མེད་"
+
+#: ../src/red_prefs.py:294
+msgid "Cache downloaded packages and metadata"
+msgstr "འདྲ་མཛོད་ཕབ་ལེན་ཐུམ་སྒྲིལ་ཚུ་དང་ མེ་ཊ་གནད་སྡུད་"
+
+#: ../src/red_prefs.py:300
+msgid "Location of cached data:"
+msgstr "འདྲ་མཛོད་གནས་སྡུད་ཀྱི་གནས་ཁོངས:"
+
+#. Expiration section
+#: ../src/red_prefs.py:308
+msgid "Expiration"
+msgstr "དུས་ཡོལ་འགྱོ་ནི་"
+
+#: ../src/red_prefs.py:312
+msgid "Cache expires"
+msgstr "འདྲ་མཛོད་དུས་ཡོལ་"
+
+#: ../src/red_prefs.py:318
+msgid "Maximum age in days:"
+msgstr "ཉིནམ་གྱི་ནང་འཁོད་ སྐྱེས་ལོ་མང་མཐའ:"
+
+#: ../src/red_prefs.py:329
+msgid "Maximum size in MB:"
+msgstr "ཨེམ་བི་ནང་ཚད་མང་མཐའ:"
+
+#: ../src/red_prefs.py:340
+msgid "Current cache size:"
+msgstr "ད་ལྟོའི་འདྲ་མཛོད་ཀྱི་ཚད:"
+
+#: ../src/red_prefs.py:357
+msgid "Are you sure you want to delete the package files in your cache?"
+msgstr "ཁྱོད་རའི་འདྲ་མཛོད་ནང་ལུ་  ཐུམ་སྒྲིལ་འདི་ཁྱོད་ཀྱིས་བཏོན་གཏང་ནི་འདི་ཁྱོད་ངེས་གཏན་ཨིན་ན?"
+
+#: ../src/red_prefs.py:373
+msgid "Empty Cache"
+msgstr "འདྲ་མཛོད་སྟོངམ་"
+
+#: ../src/red_prefs.py:395
+#, python-format
+msgid "%d MB"
+msgstr "%d ཨེམ་བི་"
+
+#: ../src/red_prefs.py:443
+msgid "Value"
+msgstr "གནས་གོང་"
+
+#: ../src/red_prefs.py:456
+msgid "Loading preferences..."
+msgstr "དགའ་གདམ་ཚུ་མངོན་གསལ་འབད་དོ..."
+
+#: ../src/red_prefs.py:520
+#, python-format
+msgid "%s Preferences"
+msgstr "%s དགའ་གདམ་ཚུ་"
+
+#: ../src/red_search.py:35
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་འབད་"
+
+#: ../src/red_search.py:38
+msgid "S_earch Packages"
+msgstr "ཐུམ་སྒྲིལ་ཚུ་ཞཚོལ་ཞིབ་འབད། (_e)"
+
+#: ../src/red_search.py:72
+#: ../src/red_software.py:50
+#: ../src/red_software.py:119
+msgid "Searching for matching packages..."
+msgstr "མཐུན་སྒྲིག་ཚུ་གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་དོ..."
+
+#: ../src/red_search.py:109
+msgid "No matching packages found."
+msgstr "མཐུན་སྒྲིག་གི་ཐུམ་སྒྲིལ་མ་ཐོབ།"
+
+#: ../src/red_searchbox.py:146
+msgid "All Packages"
+msgstr "ཐུམ་སྒྲིལ་ཆ་མཉམ་"
+
+#: ../src/red_searchbox.py:147
+#: ../src/red_updates.py:31
+msgid "Updates"
+msgstr "དུས་མཐུན་འབདཝ་ཨིན་"
+
+#: ../src/red_searchbox.py:148
+msgid "Uninstalled Packages"
+msgstr "གཞི་བཙུག་མ་འབད་བའི་ཐུམ་སྒྲིལ་ཚུ་"
+
+#: ../src/red_searchbox.py:149
+msgid "Installed Packages"
+msgstr "གཞི་བཙུག་འབད་ཡོད་པའི་ཐུམ་སྒྲིལ་ཚུ་"
+
+#: ../src/red_searchbox.py:174
+msgid "All Sections"
+msgstr "དབྱེ་ཚན་ཆ་མཉམ་"
+
+#: ../src/red_searchbox.py:175
+msgid "Productivity"
+msgstr "ཐོན་ཤུགས་"
+
+#: ../src/red_searchbox.py:176
+msgid "Imaging"
+msgstr "གཟུགས་བརྙན་བཏབ་ནི་"
+
+#: ../src/red_searchbox.py:177
+msgid "Personal Info. Mgmt"
+msgstr "རང་དོན་ Info. Mgmt"
+
+#: ../src/red_searchbox.py:178
+msgid "X Windows"
+msgstr "ཨེགསི་ཝིན་ཌོསི་"
+
+#: ../src/red_searchbox.py:179
+msgid "Games"
+msgstr "རྩེདམོ་ཚུ་"
+
+#: ../src/red_searchbox.py:180
+msgid "Multimedia"
+msgstr "སྣ་མང་བརྡ་བརྒྱུད་"
+
+#: ../src/red_searchbox.py:181
+msgid "Internet"
+msgstr "ཨིན་ཊར་ནེཊི་"
+
+#: ../src/red_searchbox.py:182
+msgid "Utilities"
+msgstr "སྤྱོད་ཆས་ཚུ་"
+
+#: ../src/red_searchbox.py:183
+msgid "System"
+msgstr "རིམ་ལུགས་"
+
+#: ../src/red_searchbox.py:184
+msgid "Documentation"
+msgstr "ཡིག་ཐོག་བཀོད་པ་"
+
+#: ../src/red_searchbox.py:185
+msgid "Libraries"
+msgstr "དཔེ་མཛོད་ཚུ་"
+
+#: ../src/red_searchbox.py:186
+msgid "Development"
+msgstr "གོང་འཕེལ་"
+
+#: ../src/red_searchbox.py:187
+msgid "Development Tools"
+msgstr "གོང་འཕེལ་ལག་ཆས་ཚུ་"
+
+#: ../src/red_searchbox.py:188
+msgid "Miscellaneous"
+msgstr "སྣ་ཚོགས་ཀྱི་"
+
+#: ../src/red_searchbox.py:274
+msgid "Search descriptions"
+msgstr "འགྲེལ་བཤད་ཚུ་འཚོལ་ཞིབ་འབད་"
+
+#. ##
+#. ## Match radio buttons
+#. ##
+#: ../src/red_searchbox.py:286
+msgid "Match:"
+msgstr "མཐུན་སྒྲིག:"
+
+#: ../src/red_serverinfo.py:46
+msgid "The daemon identified itself as:"
+msgstr "ཌེ་མཱོན་འདི་དེ་ཉིད་སྦེ་ངོས་འཛིན་བྱུང་མི:"
+
+#: ../src/red_serverinfo.py:57
+msgid "System type"
+msgstr "རིམ་ལུགས་དབྱེ་བ་"
+
+#: ../src/red_serverinfo.py:60
+msgid "Server URL"
+msgstr "ཡུ་ཨར་ཨེལ་སར་བར་"
+
+#: ../src/red_serverinfo.py:63
+msgid "Server supports enhanced features."
+msgstr "སར་བར་དེ་གིས་  གོང་སྤེལ་གྱི་ཁྱད་རྣམ་ཚུ་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།"
+
+#: ../src/red_serverinfo.py:68
+msgid "Unable to contact the daemon."
+msgstr "ཌེ་མཱོན་འདི་འབྲེལ་བ་འཐབ་མ་ཚུགས།"
+
+#: ../src/red_serverinfo.py:76
+msgid "Dump daemon info to XML file"
+msgstr "ཌེ་མཱོན་བརྡ་དོན་འདི་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་ནང་ལུ་བཀོག་བཞག་"
+
+#: ../src/red_serverinfo.py:94
+#, python-format
+msgid "Could not open file '%s': %s"
+msgstr "'%s' ཡིག་སྣོད་འདི་ཁ་ཕྱེ་མ་ཚུགས:  %s"
+
+#: ../src/red_serverinfo.py:135
+msgid "Choose file to write XML to"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་འབྲི་ནི་ལུ་ ཡིག་སྣོད་གདམ་ཁ་བརྐྱབ་"
+
+#: ../src/red_services.py:88
+msgid "Add Service"
+msgstr "ཞབས་ཏོག་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/red_services.py:99
+msgid "Service URL"
+msgstr "ཡུ་ཨར་ཨེལ་ཞབས་ཏོག་"
+
+#: ../src/red_services.py:105
+msgid "Service type"
+msgstr "ཞབས་ཏོག་གི་དབྱེ་བ་"
+
+#: ../src/red_services.py:111
+msgid "Registration key"
+msgstr "ཐོ་བཀོད་ཀྱི་ལྡེ་མིག་"
+
+#: ../src/red_services.py:126
+msgid "Edit Services"
+msgstr "ཞབས་ཏོག་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/red_services.py:155
+msgid "URL"
+msgstr "ཡུ་ཨར་ཨེལ་"
+
+#: ../src/red_services.py:171
+msgid "_Remove service"
+msgstr "ཞབས་ཏོག་འདི་རྩ་བསྐྲད་གཏང་། (_R)"
+
+#: ../src/red_services.py:188
+msgid "_Add service"
+msgstr "ཞབས་ཏོག་ཁ་སྐོང་བརྐྱབ། (_A)"
+
+#: ../src/red_sidebar.py:61
+#: ../src/red_transaction.py:133
+msgid "Pending Actions"
+msgstr "ཐག་མ་ཆོད་པའི་བྱ་བ་ཚུ་"
+
+#: ../src/red_sidebar.py:89
+#, python-format
+msgid "%d pending install"
+msgstr "%d ཐག་མ་ཆོད་པའི་གཞི་བཙུགས་"
+
+#: ../src/red_sidebar.py:91
+#, python-format
+msgid "%d pending installs"
+msgstr "%d ཐག་མ་ཆོད་པའི་གཞི་བཙུགས་ཚུ་"
+
+#: ../src/red_sidebar.py:97
+#, python-format
+msgid "%d pending removal"
+msgstr "%d ཐག་མ་ཆོད་པའི་རྩ་བསྐྲད་གཏང་ནི་"
+
+#: ../src/red_sidebar.py:99
+#, python-format
+msgid "%d pending removals"
+msgstr "%d ཐག་མ་ཆོད་པའི་རྩ་བསྐྲད་གཏང་ནི་ཚུ་"
+
+#: ../src/red_sidebar.py:103
+msgid "No pending actions"
+msgstr "ཐག་མ་ཆོད་པའི་བྱ་བ་ཚུ་མེད་"
+
+#: ../src/red_software.py:28
+msgid "Installed Software"
+msgstr "གཞི་བཙུག་འབད་ཡོད་པའི་མཉེན་ཆས་"
+
+#: ../src/red_software.py:31
+msgid "I_nstalled Software"
+msgstr "གཞི་བཙུག་འབད་ཡོད་པའི་མཉེན་ཆས་ཚུ། (_n)"
+
+#: ../src/red_software.py:97
+msgid "Available Software"
+msgstr "ཐོབ་ཚུགས་པའི་མཉེན་ཆས་"
+
+#: ../src/red_software.py:100
+msgid "A_vailable Software"
+msgstr "ཐོབ་ཚུགས་པའི་མཉེན་ཆས། (_v)"
+
+#: ../src/red_statusbar.py:50
+#, python-format
+msgid "Connected to %s"
+msgstr "%s ལུ་མཐུད་ནུག་"
+
+#: ../src/red_subscriptions.py:57
+msgid "Subscribed"
+msgstr "མཁོ་མངགས་འབད་ཡོདཔ་"
+
+#: ../src/red_subscriptions.py:64
+msgid "Catalog Name"
+msgstr "ཐོ་གཞུང་གི་མིང་"
+
+#: ../src/red_subscriptions.py:78
+#, python-format
+msgid "%s Catalog Subscriptions"
+msgstr "%s ཐོ་གཞུང་གི་མཁོ་མངགས་ཚུ་"
+
+#: ../src/red_subscriptions.py:99
+msgid "You do not have permission to subscribe or unsubscribe from catalogs.  You will be unable to make any changes to the subscriptions."
+msgstr "ཐོ་གཞུང་ལས་  མཁོ་མངགས་འབད་ནི་དང་མཁོ་མངགས་མི་འབད་ནིའི་དོན་ལུ་  ཁྱོད་ལུ་གནང་བ་མེད།  མཁོ་མངགས་དེ་ལུ་ཁྱོད་ཀྱིས་བསྒྱུར་བཅོས་ཅིག་ཡང་འབད་མི་ཚུགས།"
+
+#: ../src/red_thrashingtreeview.py:138
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ་"
+
+#: ../src/red_transaction.py:96
+msgid "Are you sure you want to quit?"
+msgstr "ཁྱོད་སྤང་ནི་ཨིན་ཟེར་མི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: ../src/red_transaction.py:136
+msgid "_Pending Actions"
+msgstr "ཐག་མ་ཆོད་པའི་བྱ་བ་ཚུ། (_P)"
+
+#: ../src/red_updates.py:34
+msgid "_Updates"
+msgstr "དུས་མཐུན་ཚུ། (_U)"
+
+#: ../src/red_updates.py:77
+msgid "_Update All"
+msgstr "ཆ་མཉམ་དུས་མཐུན་བཟོ། (_U)"
+
+#: ../src/red_updates.py:109
+msgid "The system is up-to-date."
+msgstr "རིམ་ལུགས་དུས་མཐུན།"
+
+#: ../src/red_updates.py:110
+msgid "There are no software updates available in any subscribed catalogs."
+msgstr "མཁོ་མངགས་འབད་ཡོད་པའི་ཐོ་གཞུང་ཚུ་ནང་  མཉེན་ཆས་དུས་མཐུན་ཚུ་མིན་འདུག།"
+
+#: ../src/red_users.py:131
+msgid "Privilege"
+msgstr "ཁེ་དབང་"
+
+#: ../src/red_users.py:148
+msgid ""
+"If you remove superuser privileges from yourself, you will be unable to re-add them.\n"
+"\n"
+"Are you sure you want to do this?"
+msgstr ""
+"ཁྱོད་ཀྱིས་ལག་ལེན་པ་གཙོ་བོ་གི་ཁེ་དབང་ཚུ་ཁྱོད་རང་ལས་  རྩ་བསྐྲད་གཏང་པ་ཅིན་  ཁྱོད་ཀྱིས་དེ་ཚུ་ཡང་བསྐྱར་ཁ་སྐོང་བརྐྱབ་མི་ཚུགས། \n"
+"\n"
+"ཁྱོད་ཀྱིས་འདི་ངེས་གཏན་འབད་ནི་ཨིན་ན?"
+
+#: ../src/red_users.py:166
+msgid "Enabled"
+msgstr "ལྕོགས་ཅན་བཟོ་ནུག་"
+
+#: ../src/red_users.py:181
+msgid "Edit Users"
+msgstr "ལག་ལེན་པ་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/red_users.py:196
+#: ../src/red_users.py:399
+msgid "Confirm:"
+msgstr "ངེས་དཔྱད་འབད་ནི:"
+
+#: ../src/red_users.py:217
+msgid "Set Password"
+msgstr "ཆོག་ཡིག་གཞི་སྒྲིག་འབད་"
+
+#: ../src/red_users.py:246
+#: ../src/red_users.py:422
+msgid "Password can not be empty."
+msgstr "ཆོག་ཡིག་སྟོངམ་མི་བཏུབ།"
+
+#: ../src/red_users.py:248
+#: ../src/red_users.py:424
+msgid "Passwords do not match."
+msgstr "ཆོག་ཡིག་ཚུ་མི་མཐུན་བས།"
+
+#: ../src/red_users.py:268
+#, python-format
+msgid "Set %s's password"
+msgstr "%s'གི་ཆོག་ཡིག་གཞི་སྒྲིག་འབད་"
+
+#: ../src/red_users.py:289
+msgid "Users"
+msgstr "ལག་ལེན་པ་ཚུ་"
+
+#: ../src/red_users.py:306
+msgid "Add"
+msgstr "ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/red_users.py:320
+#, python-format
+msgid "Are you sure you want to delete '%s'?"
+msgstr "ཁྱོད་ཀྱིས་ '%s' བཏོན་གཏང་ནི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: ../src/red_users.py:326
+msgid "Remove"
+msgstr "རྩ་བསྐྲད་གཏང་"
+
+#: ../src/red_users.py:339
+msgid "Privileges"
+msgstr "ཁེ་དབང་ཚུ་"
+
+#: ../src/red_users.py:379
+msgid "Add new user"
+msgstr "ལག་ལེན་གསརཔ་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/red_users.py:426
+msgid "Invalid user name."
+msgstr "ནུས་ཅན་མེད་པའི་ལག་ལེན་པའི་མིང་།"
+
+#: ../src/red_users.py:428
+#, python-format
+msgid "User '%s' already exists."
+msgstr "ལག་ལེན་པ་ '%s' འདི་ཧེ་མ་ལས་རང་འདུག།"
+
+#: ../trayicon/bindings/eggtrayicon.c:117
+msgid "Orientation"
+msgstr "ཕྱོགས་"
+
+#: ../trayicon/bindings/eggtrayicon.c:118
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་ཀྱི་ཕྱོགས།"
+
+#: ../trayicon/red_icon_main.py:185
+msgid "There appears to be a Red Carpet update icon already running.  Exiting."
+msgstr "རེཌི་ཀར་པེཊི་དུས་མཐུན་ངོས་དཔར་འདི་ཧེ་མ་ལས་རང་ལཱ་འབད་དེ་ཡོདཔ་བཟུམ་ཅིག་འདུག། ཕྱིར་ཐོན་འབད་དོ།"
+

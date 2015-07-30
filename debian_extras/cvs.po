@@ -1,0 +1,215 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cvs.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-30 19:23+0200\n"
+"PO-Revision-Date: 2006-11-29 01:38+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:1001
+msgid "Repository directories:"
+msgstr "མཛོད་གནས་ཀྱི་གནོད་ཐོ་ཚུ་:"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:1001
+msgid "Please list the directories that are the roots of your repositories, separated by colons."
+msgstr "ཀོ་ལཱོན་གྱིས་ཁ་འཕྱལ་ཡོད་པའི་ཁྱོད་རའི་མཛོད་གནས་ཀྱི་རྩ་བའི་སྣོད་ཐོ་ཚུ་ ཐོ་བཀོད་འབད་གནང་།"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:1001
+msgid "These repositories can be exported by the pserver, have their history files rotated automatically every week, and general repository security checks will be performed on them."
+msgstr "མཛོད་གནས་ཚུ་ པི་སར་བར་གྱིས་ཕྱིར་འདྲེན་འབད་ནི་ཨིནམ་ལས་ དེ་ཚུ་གི་ལོ་རྒྱུས་ཡིག་སྣོད་ཚུ་ བདུན་ཕྲག་རེ་ལུ་ རང་བཞིན་གྱིས་ བསྒྱིར་དགོཔ་ཨིནམ་དང་ ཡོངས་ཁྱབ་སྲུང་སྐྱོོབ་ཞིབ་དཔྱད་ཚུ་ དེ་ཚུའི་གུ་ ལས་འགན་འགྲུབ་ནི་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:1001
+msgid "If you wish to create a new repository, enter the path where you wish to create it. You will then be given the option of creating it later."
+msgstr "ཁྱོད་ཀྱིས་ མཛོད་གནས་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་ནི་གི་རེ་འདོད་ཡོད་པ་ཅིན་ ག་སྟེ་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་ དེ་ཁར་འགྲུལ་ལམ་བཙུགས། དེ་ལས་འབདན་ ཁྱོད་ལུ་ཤུལ་ལས་གསར་བསྐྲུན་འབད་ནིའི་གདམ་ཁ་བྱིན་འོང་།"
+
+#. Type: select
+#. Choices
+#: ../cvs.templates:2001
+msgid "create, ignore, reenter"
+msgstr "གསར་བསྐྲུན་ སྣང་མེད་ སླར་བཙུགས་"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:2002
+msgid "Method to fix invalid repositories:"
+msgstr "ནུས་མེད་མཛོད་གནས་ གཏན་བཟོའི་ཐབས་ལམ་:"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:2002
+msgid "The following items you entered are not directories or do not contain a CVSROOT subdirectory:"
+msgstr "ཁྱོད་ཀྱིས་ འགོ་ལུ་ཐོ་བཀོད་འབད་ཡོད་པའི་རྣམ་གྲངས་ཚུ་ སྣོད་ཐོ་མེན་ ཡང་ན སི་བི་ཨེསི་ཨར་ཨོ་ཨོ་ཊི་ ཡན་ལག་སྣོད་ཐོ་ཅིག་མེདཔ་ཨིན་:"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:2002
+msgid "If you have not yet created these repositories, they can be created by selecting 'create'. You could also select 'ignore' and use the 'cvs-makerepos' command to create them, or create them individually using 'cvs init'."
+msgstr "ཁྱོད་ཀྱིས་ད་ལྟོ་ཚུན་ མཛོད་གནས་དེ་ཚུ་གསར་བསྐྲུ་མ་འབད་བ་ཅིན་ དེ་ཚུ་ 'create'སེལ་འཐུ་འབད་བའི་ཐོག་ལས་ གསར་བསྐྲུན་འབད་ཚུགས། དེ་མ་ཚད་ཁྱོད་ཀྱིས་ དེ་ཚུ་གསར་བསྐྲུན་འབད་ནི་གི་དོན་ལུ་ 'ignore' སེལ་འཐུ་འབད་ཞིནམ་ལས་ 'cvs-makerepos'བརྡ་བཀོད་ལགལེན་འཐབ་ཚུགས་ ཡང་ན་ དེ་ཚུ་ 'cvs init' ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ རེ་རེ་བཞིན་དུ་གསར་བསྐྲུན་འབད་ཚུགས།"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:2002
+msgid "You can also choose to 'reenter' your repositories list."
+msgstr "ཁྱོད་རའི་མཛོད་གནས་ཀྱི་ཐོ་ཡིག་ཚུ་ 'reenter' འབད་ནི་ལུ་ གདམ་ཁ་བརྐྱབ་ཚུགས།"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../cvs.templates:3001
+#: ../cvs.templates:5001
+msgid "yes, no, individual"
+msgstr "ཨིན་ མེན་ ངོ་རྐྱང་"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:3002
+msgid "Weekly rotation for history files in repositories:"
+msgstr "མཛོད་གནས་ནང་གི་ལོ་རྒྱུས་ཡིག་སྣོད་ལུ་ བདུན་ཕྲག་རྟག་བུ་ར་ བསྒྱིར་ནི་:"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:3002
+msgid "Weekly rotation of history files is primarily useful for servers with a lot of activity. The script /etc/cron.weekly/cvs will rotate the history files. Select \"individual\" if you want to control rotation on a per-repository basis."
+msgstr "བདུན་ཕྲག་བཞིན་བསྒྱིར་བའི་ལོ་རྒྱུས་ཡིག་སྣོད་འདི་ ལཱ་ལེ་ཤ་ཡོད་པའི་སར་བར་ལུ་ གནམ་མེན་ས་མེད་ཁ་ཆེཝ་ཨིན། script /etc/cron.weekly/cvs གིས་ ལོ་རྒྱུས་ཡིག་སྣོད་བསྒྱིརཝ་ཨིན། མཛོད་གནས་གཞི་རྩ་རེ་རེའི་གུ་ བསྒྱིར་ནི་ལས་ཚད་འཛིན་འབད་དགོ་པ་ཅིན་ \"individual\" སེལ་འཐུ་འབད།"
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:4001
+msgid "Rotate the history files of the repository in ${repos} each week?"
+msgstr "མཛོད་གནས་ཀྱི་ལོ་རྒྱུས་ཡིག་སྣོད་ཚུ་ ${repos} ནང་ བདུན་ཕྲག་རེ་རེ་ལུ་ཚར་རེ་བསྒྱིར་ནི་ཨིན་ན?"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:5002
+msgid "Change the number of kept history files:"
+msgstr "བཞག་ཡོད་པའི་ལོ་རྒྱུས་ཡིག་སྣོད་ཀྱི་ཨང་གྲངས་ཚུ་སོར་:"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:5002
+msgid "When rotating history files in repositories, by default the previous 7 are kept. Choosing \"yes\" will allow you to change this number globally. Choosing \"individual\" will allow you to specify the number of days to keep history files for individual repositories."
+msgstr "ལོ་རྒྱུས་ཡིག་སྣོད་ཚུ་ མཛོད་གནས་ནང་བསྒྱིར་བའི་སྐབས་ལུ་ སྔོན་སྒྲིག་གིས་འབད་ ཧེ་མའི་ ༧ འདི་བཞགཔ་ཨིན། \"yes\" གདམ་ཁ་བརྐྱབ་མི་འདི་གིས་ ཨང་གྲངས་འདི་སྤྱི་ཁྱབ་སྦེ་ བསྒྱུར་བཅོས་འབད་བཅུགཔ་ཨིན། དེ་ལས་ \"yes\" གདམ་ཁ་བརྐྱབ་མི་འདི་གིས་ ངོ་རྐྱང་མཛོད་གནས་ཀྱི་དོན་ལུ་ ལོ་རྒྱུས་ཡིག་སྣོད་ཚུ་ བཞག་ནི་ལུ་ཉིན་གྲངས་གསལ་བཀོད་འབད་བཅུགཔ་ཨིན། "
+
+#. Type: string
+#. Description
+#: ../cvs.templates:6001
+msgid "Number of previous history files to keep (global setting):"
+msgstr "བཞག་དགོ་པའི་ཧེ་མའི་ལོ་རྒྱུས་ཡིག་སྣོད་ཀྱི་ཨང་གྲངས་(སྤྱི་ཁྱབ་སྒྲིག་སྟངས་):"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:6001
+msgid "Please choose how many previous history files should be kept when the history files in your repositories are rotated each week."
+msgstr "ཁྱོད་རའི་མཛོད་གནས་ནང་ཡོད་པའི་ལོ་རྒྱུས་ཚུ་བདུན་ཕྲག་རེ་ལུ་ཚར་རེ་བསྒྱིར་བའི་སྐབས་ ཧེ་མའི་ཡིག་སྣོད་ཚུ་ ག་དེམ་་ཅིག་བཞག་དགོཔ་ཨིན་ན་ གདམ་ཁ་རྐྱབས་གནང་།"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:7001
+msgid "Number of previous history files to keep in ${repos}:"
+msgstr "${repos}ནང་བཞག་ནིའི་ ཧེ་མའི་ལོ་རྒྱུས་ཡིག་སྣོད་ཨང་གྲངས་:"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:7001
+msgid "Please choose how many previous history files should be kept in ${repos} when the history files in your repositories are rotated each week."
+msgstr "ཁྱོད་རའི་མཛོད་གནས་ནང་ བདུན་ཕྲག་རེ་ལུ་ཚར་རེ་་བསྒྱིར་བའི་སྐབས་ ${repos} ནང་ ལོ་རྒྱུས་ཡིག་སྣོད་ག་དེམ་ཅིག་བཞག་དགོཔ་ཨིན་ན་ གདམ་ཁ་རྐྱབས་གནང་།"
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:8001
+msgid "Should the CVS pserver be enabled?"
+msgstr "སི་བི་ཨེསི་ པི་སར་བར་ལྕོགས་ཅན་བཟོ་དགོ་ག་?"
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:8001
+msgid "The CVS pserver is a client-to-server mechanism which can be used by CVS as a replacement for the standard \"server\" method, which uses \"rsh\", or an rsh compatible program, such as ssh. It is more efficient than the standard server protocol, also supporting its own password files, making it more secure. However, it may be a security risk, and used to contain a security problem whereby a remote connection may have been able to read the passwd or other security-related files on the system. Read README.Debian for more details, and extra ways to secure the pserver."
+msgstr "སི་བི་ཨེསི་ པི་སར་བར་འདི་ སར་བར་-ལུ་-ཞབས་ཏོག་སྤྱོད་མི་ཐབས་རིག་ཅིག་ཨིནམ་དང་ དེ་སི་བི་ཨེསི་གིས་ དཔེར་ན་ sshབཟུམ་མའི་ \"rsh\" ཡང་ན་ rsh མཐུན་འགྱུར་ཅན་གྱི་ལས་རིམ་ལག་ལེན་འཐབ་ཨིན་པའི་ ཚད་ལྡན་ \"server\" ཐབས་ལམ་ལུ་ ཚབ་མ་སྦེ་ལག་ལེན་འཐབ་བཏུབ་ཨིན། འདི་ ཚད་ལྡན་གྱི་སར་བར་གནད་སྤེལ་ལམ་ལུགས་ལས་ཡང་ ནུས་ཤུགས་ཅན་ཅིག་ཨིན་པའི་ཁར་ མཐའ་བཙན་བཟོ་སྟེ་ རང་རའི་ཆོག་ཡིག་ཡིག་སྣོད་ཚུ་ལུ་རྒྱབ་སྐྱོར་འབད་དོ་ཡོདཔ་ཨིན། ཨིན་རུང་ སྲུང་སྐྱོབ་ཀྱི་ཉེན་ཁ་ཡོདཔ་ལས་ རིམ་ལུགས་་གུ་  ཐག་རིག་མཐུད་ལམ་གྱིས་ ཆོག་ཡིག་ ཡངན་ སྲུང་སྐྱོབ་དང་འབྲེལ་བའི་ཡིག་སྣོད་ཚུ་ལྷག་ཚུགས་པའི་སྲུང་སྐྱོབ་དཀའ་ངལ་ཚུ་དང་ལྡན་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། རྒྱས་བཤད་ཀྱི་དོན་ལུ་ README.Debian ལྷག་ཞིནམ་ལས་ གཞན་ཡང་ པི་སར་བར་མཐའ་བཙན་བཟོ་ནི་གི་དོན་ལུ་ ཐབས་ལམ་ལེ་ཤ་ཡོདཔ་ཨིན། "
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:8001
+msgid "It is not recommended to choose this option. CVS now only allows access to particular repositories specified on the command line. When chosen, it will be installed in inetd, using tcpd wrappers."
+msgstr "གདམ་ཁ་འདི་གདམ་ནི་གི་དོན་ལུ་ འོས་སྦྱོར་མ་འབད། ད་ལས་ཕར་ སི་བི་ཨེསི་གིས་ བརྡ་བཀོད་གྲལ་ཐིག་གུ་ གསལ་བཀོད་འབད་ཡོད་པའི་བྱེ་བྲག་མཛོད་གནས་ལུ་རྐྱངམ་ཅིག་འཛུལ་སྤྱོད་འབད་བཅུགཔ་ཨིན། གདམ་ཁ་འདི་གདམ་ཞིནམ་ལས་ tcpd ལོག་མཚམས་བཟོ་མི་ཚུ་ལག་ལེན་འཐབ་པའི་སྒོ་ལས་ inetd ནང་གཞི་བཙུག་འབད་ནི་ཨིན། "
+
+#. Type: select
+#. Choices
+#: ../cvs.templates:9001
+msgid "all, some"
+msgstr "ཆ་མཉམ་ ལ་ལོ་ཅིག་"
+
+#. Type: select
+#. Description
+#: ../cvs.templates:9002
+msgid "Repositories to export via the pserver:"
+msgstr "པི་སར་བར་ལས་བརྒྱུད་དེ་ཕྱིར་འདྲེན་འབད་ནིའི་མཛོད་གནས་:"
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:10001
+msgid "Do you want the repository ${repos} exported via pserver?"
+msgstr "མཛོད་གནས་ ${repos} འདི་ པི་སར་བར་ལས་བརྒྱུད་དེ་ ཕྱིར་འདྲེན་འབད་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:11001
+msgid "Change the maximum pserver processes spawned in one minute?"
+msgstr "དཀར་ཆ་གཅིག་ནང་ དར་ཁྱབ་བྱུང་ཡོད་པའི་ པི་སར་བར་གྱི་ལས་སྦྱོར་མང་མཐའ་ སོར་ནི་ཨིན་ན་?"
+
+#. Type: boolean
+#. Description
+#. Type: string
+#. Description
+#: ../cvs.templates:11001
+#: ../cvs.templates:12001
+msgid "When running a pserver, inetd's default limit of allowing 40 connections in 1 minute can easily be exceeded if a script calls CVS individually on many files over a pserver connection. This limit is designed to stop system load from rising too high if the service is continually failing."
+msgstr "པི་སར་བར་འདི་ གཡོག་བཀོལ་བའི་བསྒང་ ཡིག་ཚུགས་ཅིག་གིས་ སི་་བི་ཨེསི་ཚུ་རེ་རེ་བཞིན་དུ་ པི་སར་བར་མཐུད་ལམ་ལྟག་གི་ཡིག་སྣོད་ཚུ་གུ་ འབོད་བརྡ་འབད་བ་ཅིན་ དཀར་མ་གཅིག་ནང་ མཐུད་ལམ་ ༤༠ འཛུལ་སྤྱོད་འབད་བཅུག་པའི་ inetd གི་སྔོན་སྔོན་སྒྲིག་ཚད་འདི་ ལྷག་ལུས་འོང་། ཚད་འདི་ ག་དེམ་ཅིག་འབད་ ཞབས་ཏོག་འདི་འཕྲོ་མཐུད་དེ་འབུད་བ་ཅིན་ རིམ་ལུགས་ཡར་འཕར་་འགྱོ་ནི་ལས་བཀག་ནི་ལུ་ བཀོད་སྒྲིག་འབད་དེ་ཡོདཔ་ཨིན། "
+
+#. Type: boolean
+#. Description
+#: ../cvs.templates:11001
+msgid "Thus, a more sensible default limit for most systems is 400. However, if you are running an inetd clone which does not support the syntax \"nowait.[limit]\", you will need to not set a limit using this method."
+msgstr "དེ་འབདཝ་ལས་ རིམ་ལུགས་མང་ཤོས་ཅིག་གི་དྲན་ཤེས་ལྡན་པའི་སྔོན་སྒྲིག་ཚད་འདི་ ༤༠༠ ཨིན། ག་དེ་འབད་ཨིན་རུང་ ཚིག་སྦྱོར་ \"nowait.[limit]\"རྒྱབ་སྐྱོར་མ་འབད་བའི་ inetdངོ་འདྲ་ གཡོག་བཀོལ་བའི་བསྒང་ཨིན་པ་ཅིན་ ཐབས་ལམ་འདི་གི་ཐོག་ལས་ ཚད་ཅིག་གཞི་སྒྲིག་འབད་ནི་མི་འོང་།"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:12001
+msgid "Inetd spawn limit for the CVS pserver:"
+msgstr "སི་པི་ཨེསི་ པི་སར་བར་དོན་ལུ་ Inetd དར་ཁྱབ་ཚད་:"
+
+#. Type: string
+#. Description
+#: ../cvs.templates:12001
+msgid "Thus, a more sensible default limit for most systems is 400."
+msgstr "དེ་འབདཝ་ལས་ རིམ་ལུགས་མང་ཤོས་ཅིག་གི་ དྲན་ཤེས་ལྡན་པའི་སྔོན་སྒྲིག་ཚད་ལེ་ཤ་ཅིག་ར་ ༤༠༠ ཨིན། "
+

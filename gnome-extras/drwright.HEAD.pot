@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drwright\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-16 03:24+0000\n"
+"PO-Revision-Date: 2007-01-18 21:26+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/glade/drw-preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../data/glade/drw-preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: ../data/glade/drw-preferences.glade.h:3
+msgid "<b>Break</b>"
+msgstr "<b>མཚམས་</b>"
+
+#: ../data/glade/drw-preferences.glade.h:4
+msgid "<b>Work</b>"
+msgstr "<b>ལཱ་གཡོག་</b>"
+
+#: ../data/glade/drw-preferences.glade.h:5
+msgid "Check if breaks are allowed to be postponed"
+msgstr "མཚམས་ཚུ་ཕར་འཕུལ་འབད་ནི་ལུ་ཆོགཔ་ཨིན་པ་ཅིན་བརྟག་ཞིབ་འབད།"
+
+#: ../data/glade/drw-preferences.glade.h:6
+msgid "DrWright Preferences"
+msgstr "ཌི་ཨར་རའིཊི་དགའ་གདམ་ཚུ་"
+
+#: ../data/glade/drw-preferences.glade.h:7
+msgid "Duration of the break when typing is disallowed"
+msgstr "ཡིག་དཔར་བརྐྱབ་ནིའི་མ་ཆོག་པའི་སྐབས་ཀྱི་དུས་ཡུན།"
+
+#: ../data/glade/drw-preferences.glade.h:8
+msgid "Duration of warning before starting a break"
+msgstr "མཚམས་ཅིག་འགོ་མ་བཙུགས་པའི་ཧེ་མ་ཉེན་བརྡ་གི་དུས་ཡུན།"
+
+#: ../data/glade/drw-preferences.glade.h:9
+msgid "Duration of work before forcing a break"
+msgstr "མཚམས་ཅིག་བང་བཙོང་ནིའི་ཧེ་མ་ལཱ་གཡོག་གི་དུས་ཡུན།"
+
+#: ../data/glade/drw-preferences.glade.h:10
+msgid "Optional phrase to use for postponing a break"
+msgstr "གདམ་ཁ་ཅན་གྱི་ཚིག་ཚོགས་མཚམས་ཅིག་ཕར་འཕུལ་དོན་ལུ་ལག་ལེན་འཐབ།"
+
+#: ../data/glade/drw-preferences.glade.h:11
+msgid "_Allow postponing of breaks"
+msgstr "མཚམས་ཚུ་གི་ཕར་འཕུལ་འབད་བཅུག(_A)"
+
+#: ../data/glade/drw-preferences.glade.h:12
+msgid "_Break interval lasts"
+msgstr "རྒྱུན་ཆད་བར་མཚམས་མཇུག་ཚུ།(_B)"
+
+#: ../data/glade/drw-preferences.glade.h:13
+msgid "_Warning time is"
+msgstr "ཉེན་བརྡ་གི་དུས་ཚོད་འདི།(_W)"
+
+#: ../data/glade/drw-preferences.glade.h:14
+msgid "_Work interval lasts"
+msgstr "བར་མཚམས་མཇུག་ཚུ་ལཱ་གཡོག(_W)"
+
+#: ../data/glade/drw-preferences.glade.h:15
+msgid "minutes"
+msgstr "སྐར་མ་ཚུ་"
+
+#: ../src/main.c:128
+msgid "DrWright is already running."
+msgstr "ཌི་ཨར་རའིཊི་འདི་ཧེ་མ་ལས་གཡོག་བཀོལ་ཡོདཔ།"
+
+#: ../src/main.c:141
+msgid "DrWright uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choose 'Add to panel -> Utilities -> Notification area'."
+msgstr "ཌི་ཨར་རའིཊི་གིས་བརྡ་དོན་བཀྲམ་སྟོན་འབད་ནི་ལུ་བརྡ་བསྐུལ་མངའ་ཁོངས་འདི་ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱི་པེ་ནཱལ་གུ་བརྡ་བསྐུལ་མངའ་ཁོངས་ཅིག་ཡོདཔ་མི་མཐོང་མས། ཁྱོད་ཀྱིས་པེ་ནཱལ་གུ་གཡས་ཨེབ་གཏང་འབད་དེ་གིས་'Add to panel -> Utilities -> Notification area' གདམ།"
+
+#: ../src/drwright.c:138
+msgid "/_Enabled"
+msgstr "/ལྕོགས་ཅན་བཟོ་ཡོདཔ།(_E)"
+
+#: ../src/drwright.c:139
+msgid "/_Take a Break"
+msgstr "/མཚམས་ཅིག་ལེན་སྡོད།(_T)"
+
+#: ../src/drwright.c:141
+msgid "/_Preferences"
+msgstr "/དགའ་གདམ་ཚུ།(_P)"
+
+#: ../src/drwright.c:142
+msgid "/_About"
+msgstr "/སྐོར་ལས།(_A)"
+
+#: ../src/drwright.c:144
+msgid "/_Remove Icon"
+msgstr "/ངོས་དཔར་རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: ../src/drwright.c:475
+msgid "Disabled"
+msgstr "ལྕོགས་མིན་བཟོ་ཡོདཔ།"
+
+#: ../src/drwright.c:493
+#, c-format
+msgid "%d minutes until the next break"
+msgstr "%d ཤུལ་མམ་གྱི་མཚམས་འདི་ཚུན་ཚོད་སྐར་མ་ཚུ་"
+
+#: ../src/drwright.c:496
+msgid "One minute until the next break"
+msgstr "ཤུལ་མམ་གྱི་མཚམས་འདི་ཚུན་ཚོད་སྐར་མ་གཅིག"
+
+#: ../src/drwright.c:498
+msgid "Less than one minute until the next break"
+msgstr "ཤུལ་མམ་གྱི་མཚམས་འདི་ཚུན་ཚོད་སྐར་མ་གཅིག་ལས་ཉུང་མི་"
+
+#: ../src/drwright.c:609
+msgid "Quit DrWright?"
+msgstr "ཌི་ཨར་རའིཊི་སྤང་ནི་ཨིན་ན?"
+
+#: ../src/drwright.c:610
+msgid "Don't forget to take regular breaks."
+msgstr "དུས་རྒྱུན་གྱི་མཚམས་ཚུ་བཞག་ནི་མ་བརྗེད།"
+
+#: ../src/drwright.c:621
+msgid "Don't Quit"
+msgstr "མ་སྤང་།"
+
+#: ../src/drwright.c:625
+msgid "Quit"
+msgstr "སྤང་"
+
+#: ../src/drwright.c:674
+msgid "About DrWright"
+msgstr "ཌི་ཨར་རའིཊི་གི་སྐོར་ལས་"
+
+#: ../src/drwright.c:699
+msgid "A computer break reminder."
+msgstr "གློག་རིག་ཅིག་གི་རྒྱུན་ཆད་དྲན་བསྐུལ་"
+
+#: ../src/drwright.c:700
+msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+msgstr "རིཆི་ཧཌི་ཧལཊི་ཨའི་ཊི་གིས་འབྲི་ཡོདཔ་richard@imendio.com&gt(&I)"
+
+#: ../src/drwright.c:701
+msgid "Eye candy added by Anders Carlsson"
+msgstr "ཨེན་ཌརསི་ཀལསི་སཱོན་གྱིས་ཨའི་ཀེན་ཌི་ཁ་སྐོང་འབད་ཡོདཔ།"
+
+#: ../src/drwright.c:868
+msgid "Break reminder"
+msgstr "མཚམས་དྲན་བསྐུལ་"
+
+#: ../src/drw-break-window.c:208
+msgid "_Postpone break"
+msgstr "མཚམས་ཕར་འཕུལ།(_P)"
+
+#: ../src/drw-break-window.c:251
+msgid "Take a break!"
+msgstr "མཚམས་ཅིག་སྡོད!"
+

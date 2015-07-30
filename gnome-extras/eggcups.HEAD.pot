@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eggcups.HEAD.pot\n"
+"Report-Msgid-Bugs-To: twaugh@redhat.com\n"
+"POT-Creation-Date: 2007-01-17 03:24+0000\n"
+"PO-Revision-Date: 2007-01-19 13:07-0500\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
+"Language-Team: Dzongkha < pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../ec-cups-job-monitor.c:234
+#: ../ec-cups-job-monitor.c:235
+#: ../ec-cups-job-monitor.c:236
+#: ../ec-cups-job-monitor.c:252
+#: ../ec-cups-job-monitor.c:255
+#: ../ec-job-list.c:890
+#: ../ec-job-list.c:910
+#: ../ec-job-list.c:911
+#: ../ec-job-list.c:932
+#: ../ec-job-list.c:950
+#: ../ec-job-list.c:951
+#: ../ec-job-list.c:1034
+#: ../ec-job-list.c:1116
+#: ../ec-job-list.c:1171
+#: ../ec-job-list.c:1175
+#: ../ec-job-list.c:1190
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../ec-cups-job-monitor.c:237
+msgid "Pending"
+msgstr "བསྣར"
+
+#: ../ec-cups-job-monitor.c:238
+msgid "Paused"
+msgstr "ཐེམ་ཡོདཔ།"
+
+#: ../ec-cups-job-monitor.c:239
+msgid "Printing"
+msgstr "དཔར་བསྐྲུན་འབད་དོ།"
+
+#: ../ec-cups-job-monitor.c:240
+msgid "Stopped"
+msgstr "བཀག་ཡོདཔ།"
+
+#: ../ec-cups-job-monitor.c:241
+msgid "Cancelled"
+msgstr "ཆ་མེད་བཏང་ཡོདཔ།"
+
+#: ../ec-cups-job-monitor.c:242
+msgid "Aborted"
+msgstr "བར་བཤོལ་ཡོདཔ།"
+
+#: ../ec-cups-job-monitor.c:243
+msgid "Completed"
+msgstr "མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../ec-job-list.c:269
+msgid "Document List"
+msgstr "ཡིག་ཆའི་མཐོ།"
+
+#: ../ec-job-list.c:271
+msgid "Lists the user's documents submitted for printing"
+msgstr "ལག་ལེན་པའི་ཡིག་ཆ་དཔར་བསྐྲུན་གྱི་དོན་ལུ་ཕུལ་ཡོད་མི་ཐོ་བཀོད་འབད།"
+
+#: ../ec-job-list.c:281
+msgid "Document"
+msgstr "ཡིག་ཆ།"
+
+#: ../ec-job-list.c:292
+#: ../gnome-default-printer.c:254
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ།"
+
+#: ../ec-job-list.c:304
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../ec-job-list.c:316
+msgid "Time Submitted"
+msgstr "ཕུལ་ཡོད་པའི་དུས་ཚོད།"
+
+#: ../ec-job-list.c:329
+msgid "Position"
+msgstr "གནས་ས།"
+
+#: ../ec-job-list.c:341
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#: ../ec-job-list.c:362
+msgid "Document print status"
+msgstr "ཡིག་ཆ་དཔར་བསྐྲུན་གྱི་གནས་ཚད།"
+
+#: ../ec-job-list.c:477
+#, c-format
+msgid "Cancel printing of \"%s\" on printer \"%s\"?"
+msgstr "དཔར་འཕྲུལ \"%s\"?གྱི་དཔར་བསྐྲུན་་\"%s\"ཆ་མེད་བཏང་།"
+
+#: ../ec-job-list.c:483
+msgid "If you select \"Cancel printing\", the selected job will be cancelled."
+msgstr "གལ་སྲིད་ཁྱོད་ཀྱིས\"Cancel printing\"སེལ་འཐུ་འབདན་  སེལ་འཐུ་སྒྲུབ་པའི་ལཱ་ཆ་མེད་འགོ་འོང་།་"
+
+#: ../ec-job-list.c:486
+#: ../ec-job-list.c:509
+msgid "Keep printing"
+msgstr "དཔར་བསྐྲུན་འབད་དེ་རང་བཞག"
+
+#: ../ec-job-list.c:488
+#: ../ec-job-list.c:511
+msgid "Cancel printing"
+msgstr "དཔར་བསྐྲུན་ཆ་མེད་གཏང་།"
+
+#: ../ec-job-list.c:494
+#, c-format
+msgid "Cancel printing of %d document?"
+msgid_plural "Cancel printing of %d documents?"
+msgstr[0] "ཡིག་ཆ་གི %d དཔར་བསྐྲུན་འབད་ནི་ཆ་་མེད་གཏང་ནི་ཨིན་ན?"
+msgstr[1] "ཡག་ཆ་ཚུགི %d དཔར་བསྐྲུན་འབད་ནིཆ་་མེད་གཏང་ནི་ཨིན་ན?"
+
+#: ../ec-job-list.c:506
+msgid "If you select \"Cancel printing\", the selected jobs will be cancelled."
+msgstr "ཁྱོད་ཀྱིས་ \"Cancel printing\" སེལ་འཐུ་འབད་བ་ཅིན  སེལ་འཐུ་འབད་ཡོད་མི་ལཱ་ཚུ་ཆ་མེད་གཏང་ཡོདཔ་ཨིན།"
+
+#: ../ec-job-list.c:691
+#: ../ec-job-list.c:799
+msgid "_Cancel Documents"
+msgstr "ཡིག་ཆ་ཚུ་ཆ་མེད་གཏང་།(_C)"
+
+#: ../ec-job-list.c:698
+#: ../ec-job-list.c:811
+msgid "_Pause Documents"
+msgstr "ཡིག་ཆ་ཚུ་ཐེམ་བཞག།(_P)"
+
+#: ../ec-job-list.c:705
+#: ../ec-job-list.c:823
+msgid "_Resume Documents"
+msgstr "ཡིག་ཆ་ཚུ་"
+
+#. File menu.
+#: ../ec-job-list.c:773
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../ec-job-list.c:784
+msgid "Close the window"
+msgstr "ཝིནཌོ་བསྡམ།"
+
+#. Edit menu.
+#: ../ec-job-list.c:792
+msgid "_Edit"
+msgstr "ཞུན་དག(_E)"
+
+#: ../ec-job-list.c:803
+msgid "Cancel printing of the selected documents"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ཡིག་ཆ་ཚུ་གི་དཔར་བསྐྲུན་འབད་ནི་ཆ་མེད་གཏང་།"
+
+#: ../ec-job-list.c:815
+msgid "Pause printing of the selected documents"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ཡིག་ཆ་ཚུ་གི་དཔར་བསྐྲུན་འབད་ནི་ཐེམ་བཞག"
+
+#: ../ec-job-list.c:827
+msgid "Resume printing of the selected documents"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་ཆ་ཚུ་གི་དཔར་བསྐྲུན་ནི་བསྐྱར་་ལོག་འབད།"
+
+#: ../ec-job-list.c:835
+msgid "C_lear Completed Documents"
+msgstr "མཇུག་བསྡུ་ཡོད་མི་ཡིག་ཆ་ཚུ་བསལ།(_C)"
+
+#: ../ec-job-list.c:839
+msgid "Remove completed documents from the list"
+msgstr "མཇུག་བསྡུ་ཡོད་པའི་ཡིག་ཆ་ཚུ་ཐོ་ཡིག་ལས་རྩ་བསྐྲད་གཏང་།"
+
+#. Help menu.
+#: ../ec-job-list.c:850
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../ec-job-list.c:973
+#, c-format
+msgid "%d page"
+msgid_plural "%d pages"
+msgstr[0] "%d ཤོག་ལེབ།"
+msgstr[1] "%d ཤོག་ལེབ་ཚུ།"
+
+#. Translators: This is the size of print jobs in kibibytes, and
+#. * expands to "42k" for 42 kibibytes. Do not translate the "job size|" prefix.
+#. * Remove it instead.
+#.
+#: ../ec-job-list.c:979
+#, c-format
+msgid "job size|%ldk"
+msgstr "ལཱ་གི་ཚད |%ldk"
+
+#: ../ec-job-list.c:1043
+#, c-format
+msgid "%ld minute"
+msgid_plural "%ld minutes"
+msgstr[0] "%ld སྐར་མ།"
+msgstr[1] "%ld སྐར་མ་ཚུ།"
+
+#: ../ec-job-list.c:1044
+#, c-format
+msgid "%ld hour"
+msgid_plural "%ld hours"
+msgstr[0] "%ld ཆུ་ཚོད།"
+msgstr[1] "%ld ཆུ་ཚོད་ཚུ།"
+
+#: ../ec-job-list.c:1045
+#, c-format
+msgid "%ld day"
+msgid_plural "%ld days"
+msgstr[0] "%ld ཉིནམ།"
+msgstr[1] "%ld ཉིནམ་ཚུ།"
+
+#. Translators: the format is "X days, X hours and X minutes ago"
+#: ../ec-job-list.c:1049
+#, c-format
+msgid "%s, %s ago"
+msgstr "%s, %s ཧེ་མ།"
+
+#. Translators: the format is "X hours and X minutes ago"
+#: ../ec-job-list.c:1055
+#, c-format
+msgid "%s and %s ago"
+msgstr "%s དང %s ཧེ་མ།"
+
+#. Translators: the format is "X minutes ago"
+#: ../ec-job-list.c:1061
+#, c-format
+msgid "%s ago"
+msgstr "%s ཧེ་མ།"
+
+#: ../ec-job-list.c:1065
+msgid "Less than one minute ago"
+msgstr "སྐར་མ་གཅིག་མ་ལང་པའི་ཧེ་མ།"
+
+#: ../ec-job-list.c:1181
+msgid "Sending"
+msgstr "གཏང་དོ།"
+
+#: ../ec-job-list.c:1187
+msgid "Sending (?)"
+msgstr "གཏང་དོ།(?)"
+
+#: ../ec-tray-icon.c:99
+msgid "/_About"
+msgstr "/ སྐོར་ལས།(_A)"
+
+#: ../ec-tray-icon.c:102
+msgid "/_Hide"
+msgstr "/ སྦ།"
+
+#: ../ec-tray-icon.c:348
+msgid "Copyright © 2002 Tim Waugh."
+msgstr "འདྲ་བཤུས་དབང་ཆ © ༢༠༠༢ ཊི་མ་ཝེག"
+
+#: ../ec-tray-icon.c:349
+msgid "Copyright © 2004 Colin Walters."
+msgstr "འདྲ་བཤུས་དབང་ཆ © ༢༠༠༤ ཀོ་ལིན་ཝལ་ཊརསི།"
+
+#: ../ec-tray-icon.c:350
+msgid "Copyright © 2004 Matthias Clasen."
+msgstr "འདྲ་བཤུས་དབང་ཆ © ༢༠༠༤ མེ་ཐའིསི ཀ་ལ་སིན། "
+
+#: ../ec-tray-icon.c:351
+#: ../ec-tray-icon.c:412
+msgid "Based on code by CodeFactory."
+msgstr "ཨང་རྟགས་འཕྲུལ་ཁང་གིསཨང་རྟགས་གུ་གཞི་བཞག"
+
+#: ../ec-tray-icon.c:355
+#: ../ec-tray-icon.c:407
+#: ../main.c:123
+msgid "Print Notifier"
+msgstr "བརྡ་བསྐུལ་འབད་མི་དཔར་བསྐྲུན་འབད།"
+
+#: ../ec-tray-icon.c:357
+#: ../ec-tray-icon.c:408
+msgid "A program for print job notification."
+msgstr "དཔར་བསྐྲུན་ལས་གཡོག་བརྡ་བསྐུལ་གྱི་དོན་ལུ་ལས་རིམ་་ཅིག"
+
+#: ../ec-tray-icon.c:385
+msgid "About Print Notifier"
+msgstr "དཔར་བསྐྲུན་བརྡ་བསྐུལ་གྱི་སྐོར་ལས།"
+
+#: ../ec-tray-icon.c:664
+#, c-format
+msgid "Password for printer \"%s\""
+msgstr "དཔར་བསྐྲུན་\"%s\"གི་དོན་ལུ་ཆོག་ཡིག"
+
+#: ../ec-tray-icon.c:688
+msgid "Couldn't store password in keyring"
+msgstr "ཆོག་ཡིག་འདི་ལྡེ་འཁོར་ནང་ གསོག་འཇོག་འབད་མ་ཚུགསཔ།"
+
+#: ../ec-tray-icon.c:690
+#, c-format
+msgid "Got error code %d while trying to store password"
+msgstr "ཆོག་ཡིག་གསོག་འཇོག་འབད་ནི་ལུ་འབད་རྩོལ་སྐབས%d ཨང་རྟགས་འཛོལ་བ་ཐོབ་ཅི།"
+
+#: ../ec-tray-icon.c:727
+#, c-format
+msgid "Enter password for printer \"%s\""
+msgstr "དཔར་བསྐྲུན་ \"%s\"གི་དོན་ལུ་ཆོག་ཡིག་བཙུགས།"
+
+#: ../ec-tray-icon.c:1023
+#, c-format
+msgid "%d documents queued"
+msgstr "%d ཡིག་ཆ་ཚུ་གྲལ་བཙུགས།"
+
+#: ../ec-tray-icon.c:1031
+msgid "No documents queued for printing"
+msgstr "དཔར་བསྐྲུན་གྱི་དོན་ལུ་ཡིག་ཆ་ཚུ་ གྲལ་ནང་མེད།"
+
+#: ../ec-tray-icon.c:1140
+msgid "At least one of the resources needed by the document, such as media, fonts, resource objects, etc., is not ready."
+msgstr "ཡིག་ཆ་འདི་གིས་དགོ་པའི་་ཐོན་ཁུངས་ཉ྄ང་མཐའ་གཅིག་ དེ་བཟུམ་སྦེ་བརྡ་བརྒྱུད  ཡིག་གཟུགས་ཚུ  ཐོན་ཁུངས་དངོས་པོ་ལ་སོགས་པ་གྲ་སྒྲིག་མེདཔ་ཨིན།"
+
+#: ../ec-tray-icon.c:1144
+msgid "The printer is partly stopped."
+msgstr "དཔར་འཕྲུལ་འདི་ ཆ་ཤས་ཅིག་མཚམས་འཇོག་འབད་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1146
+msgid "The printer is stopped."
+msgstr "དཔར་འཕྲུལ་འདི་མཚམས་འཇོག་འབད་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1148
+msgid "Someone else has paused it."
+msgstr "མི་ཅིག་གིས་ ཐེམ་བཞག་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1150
+#: ../ec-tray-icon.c:1177
+#: ../ec-tray-icon.c:1206
+msgid "You may want to find out why."
+msgstr "ག་ཅི་འབད་ཨིན་ན་ ཁྱོད་ཀྱིས་ཚུལ་དགོ་མནོ་འོང་།"
+
+#: ../ec-tray-icon.c:1156
+#, c-format
+msgid "Printing of \"%s\" on printer \"%s\" was paused."
+msgstr "དཔར་འཕྲུལ་གུ \"%s\"གི་དཔར་བསྐྲུན་ \"%s\" དེ་ཐེམ་བཞག་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1173
+msgid "An operator has cancelled it."
+msgstr "བཀོལ་སྤྱོདཔ་ཀྱིས་ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1175
+msgid "Someone at the printer has cancelled it."
+msgstr "དཔར་འཕྲུལ་འདི་ལུ་མི་ཅིག་གིས་ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1183
+#, c-format
+msgid "Printing of \"%s\" on printer \"%s\" was cancelled."
+msgstr "དཔར་འཕྲུལ་གུ་ \"%s\"གི་དཔར་བསྐྲུན་\"%s\" དེ་ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../ec-tray-icon.c:1196
+msgid "The document was aborted by the system because the printer could not decompress the data."
+msgstr "དཔར་འཕྲུལ་གྱིས་གནས་སྡུད་འདི་ ཨེབ་བཙུགས་བཤོལ་མ་ཚུགསཔ་ལས་  རིམ་ལུགས་འདི་གིས་ཡིག་ཆ་འདི་བར་བཤོལ་གཏང་ཡོདཔ་ཨིན།"
+
+#: ../ec-tray-icon.c:1202
+msgid "The document was aborted by the system because the printer did not understand the document format."
+msgstr "དཔར་འཕྲུལ་གྱིས་ཡིག་ཆ་རྩ་སྒྲིག་འདི་ཧ་མ་གོཝ་ལས་  རིམ་ལུགས་འདི་གིས་ཡིག་ཆ་འདི་བར་བཤོལ་གཏང་ཡོདཔ་ཨིན།"
+
+#: ../ec-tray-icon.c:1212
+#, c-format
+msgid "Printing of \"%s\" on printer \"%s\" was aborted."
+msgstr "དཔར་འཕྲུལ་གུ \"%s\" གི་དཔར་བསྐྲུན་ \"%s\" དེ་བར་བཤོལ་གཏང་ཡོདཔ།"
+
+#: ../eggtrayicon.c:124
+msgid "Orientation"
+msgstr "ཕྱོགས།"
+
+#: ../eggtrayicon.c:125
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་འདི་གི་ཕྱོགས།"
+
+#: ../gnome-default-printer.c:231
+#: ../gnome-default-printer.desktop.in.h:1
+msgid "Default Printer"
+msgstr "སྔོན་སྒྲིག་དཔར་འཕྲུལ།"
+
+#: ../gnome-default-printer.c:236
+msgid "_Set Default"
+msgstr "སྔོན་སྒྲིག་གཞི་སྒྲིག་འབད།(_S)"
+
+#: ../gnome-default-printer.c:262
+msgid "Location"
+msgstr "གནས་ཁོངས།"
+
+#: ../gnome-default-printer.desktop.in.h:2
+msgid "Select default printer"
+msgstr "སྔོན་སྒྲིག་དཔར་འཕྲུལ་སེལ་འཐུ་འབད"
+
+#: ../main.c:111
+msgid "Enable debugging information"
+msgstr "བརྡ་དོན་རྐྱེན་སེལ་ལྕོགས་ཅན་བཟོ་དོ།"
+
+#: ../main.c:112
+msgid "Show icon by default"
+msgstr "དངོས་པར་སྔོན་སྒྲིག་སྟོན།"
+
+#: ../driverdialog.glade.h:2
+#, no-c-format
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Specify Printer Driver</span>\n"
+"\n"
+"You have just plugged in a '%s %s' printer. The proper driver for the printer was not detected. Please select a driver:"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">དཔར་འཕྲུལ་འདྲེན་བྱེད་གསལ་བཀེད་འབད</span>\n"
+"\n"
+"ཁྱོད་ཀྱིས་་'%s %s'དཔར་འཕྲུལ་་ཅིག་ནང་ བཙུགས་ཡོདཔ། དཔརའཕྲུལ་གི་དོན་ལུ་ཚུལ་དོན་འདྲེན་བྱེད་སྐྱོན་འཛིན་མ་འབད་བར་ཡོདཔ། འདྲེན་བྱེད་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../driverdialog.glade.h:5
+msgid "Manufacturer:"
+msgstr "བཟོ་བསྐྲུན་པ:"
+
+#: ../driverdialog.glade.h:6
+msgid "Model:"
+msgstr "དཔེ།"
+

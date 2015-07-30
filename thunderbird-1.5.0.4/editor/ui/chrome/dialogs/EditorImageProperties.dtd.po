@@ -1,0 +1,264 @@
+# extracted from dz-BT_orig/editor/ui/chrome/dialogs/EditorImageProperties.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: EditorImageProperties.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-10-05 10:36+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is Mozilla Communicator client code, released
+# - March 31, 1998.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corporation.
+# - Portions created by the Initial Developer are Copyright (C) 1998-2000
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either of the GNU General Public License Version 2 or later (the "GPL"),
+# - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+# These strings are for use specifically in the editor's image and form image dialogs.
+# Window title
+#: windowTitle.label
+msgid "Image Properties"
+msgstr "གཟུགས་བརྙན་རྒྱུ་དངོས་ཚུ་"
+
+#: pixelsPopup.value
+msgid "pixels"
+msgstr "པིག་སེལ་ཚུ་"
+
+#: percentPopup.value
+msgid "percent"
+msgstr "བརྒྱ་ཆ་"
+
+# These are in the Location tab panel
+#: locationEditField.label
+#: locationEditField.accessKey
+msgid "Image &Location:"
+msgstr "གཟུགས་བརྙན་གནས་ཁོངས་:(&L)"
+
+#: locationEditField.tooltip
+msgid "Type the image's filename or location"
+msgstr "གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་ ཡང་ན་ གནས་ཁོངས་ཡིག་དཔར་རྐྱབས་"
+
+#: title.label
+#: title.accessKey
+msgid "&Tooltip:"
+msgstr "ལག་ཆས་ཕན་བསླབ་:(&T)"
+
+#: title.tooltip
+msgid "The html 'title' attribute that displays as a tooltip"
+msgstr "ལག་ཆས་ཕན་བསླབ་སྦེ་ ལག་ལེན་འཐབ་མི་ ཨེཆ་ཊི་ཨེམ་ཨེལ་'མགོ་མིང་' གི་ཁྱད་ཆོས་དེ་"
+
+#: altText.label
+#: altText.accessKey
+msgid "&Alternate text:"
+msgstr "ཚིང་ཡིག་གི་ཐབས་གཞན་:(&A)"
+
+#: altTextEditField.tooltip
+msgid "Type text to display in place of the image"
+msgstr "གཟུགས་བརྙན་གྱི་ས་གནས་བཀྲམ་སྟོནའ་བད་ནི་ལུ་ ཚིག་ཡིག་ཡིག་དཔར་རྐྱབས་"
+
+#: noAltText.label
+#: noAltText.accessKey
+msgid "&Don't use alternate text"
+msgstr "ཚིག་ཡིག་གཞན་ལག་ལེན་མ་འཐབ་(&D)"
+
+#: previewBox.label
+msgid "Image Preview"
+msgstr "གཟུགས་བརྙན་སྔོན་ལྟ་"
+
+#: MoreFewerButton.tooltip
+msgid "Display more or fewer properties to edit"
+msgstr "ཞུན་དག་བརྐྱབ་ནིའི་དོན་ལུ་ རྒྱུ་དངོས་མངམ་ ཡང་ན་ ཉུངམ་བཀྲམ་སྟོན་འབད་"
+
+# These controls are in the Dimensions tab panel
+# actualSize.label should be same as actualSizeRadio.label + ":"
+#: actualSize.label
+msgid "Actual Size:"
+msgstr "ཚད་གཞི་ངོ་མ་:"
+
+#: actualSizeRadio.label
+#: actualSizeRadio.accessKey
+msgid "&Actual Size"
+msgstr "ཚད་གཞི་ངོ་མ་(&A)"
+
+#: actualSizeRadio.tooltip
+msgid "Revert to the image's actual size"
+msgstr "གཟུགས་བརྙན་གྱི་ཚད་གཞི་ངོ་མ་ལུ་རིམ་ལོག་འབད་"
+
+#: customSizeRadio.label
+#: customSizeRadio.accessKey
+msgid "Custom &Size"
+msgstr "ཚད་གཞི་སྲོལ་སྒྲིག་འབད་(&S)"
+
+#: customSizeRadio.tooltip
+msgid "Change the image's size as displayed in the page"
+msgstr "གཟུགས་བརྙན་གྱི་ཚད་གཞི་དེ་ ཤོག་ལེབ་ནང་བཀྲམ་སྟོན་འབད་དོ་བཟུམ་སྦེ་ བསྒྱུར་བཅོས་འབད་"
+
+#: heightEditField.label
+#: heightEditField.accessKey
+msgid "Hei&ght:"
+msgstr "མཐོ་ཚད་:(&g)"
+
+#: widthEditField.label
+#: widthEditField.accessKey
+msgid "&Width:"
+msgstr "རྒྱ་ཚད་:(&W)"
+
+#: constrainCheckbox.label
+#: constrainCheckbox.accessKey
+msgid "&Constrain"
+msgstr "དམ་ནི་(&C)"
+
+#: constrainCheckbox.tooltip
+msgid "Maintain the image's aspect ratio"
+msgstr "གཟུགས་བརྙན་གྱི་རྣམ་པའི་དཔྱ་ཚད་ རྒྱུན་སྐྱོང་འཐབ་"
+
+# These controls are in the Image Map box of the expanded area
+#: imagemapBox.label
+msgid "Image Map"
+msgstr "གཟུགས་བརྙན་ས་ཁྲ་"
+
+#: removeImageMapButton.label
+#: removeImageMapButton.accessKey
+msgid "&Remove"
+msgstr "རྩ་བསྐྲད་གཏང་(&R)"
+
+#: editImageMapButton.label
+msgid "Edit..."
+msgstr "ཞུན་དག་་་་"
+
+#: editImageMapButton.tooltip
+msgid "Create clickable hotspots for this image"
+msgstr "གཟུགས་བརྙན་འདི་གི་དོན་ལུ་ ཨེབ་གཏང་འབད་བཏུབ་པའི་ སྤྲོ་གནས་གསར་བསྐྲུན་འབད་"
+
+# These are the options for image alignment
+#: alignment.label
+msgid "Align Text to Image"
+msgstr "ཚིག་ཡིག་དེ་གཟུགས་བརྙན་ལུ་ཕྲང་སྒྲིག་འབད་"
+
+#: bottomPopup.value
+msgid "At the bottom"
+msgstr "མཇུག་ལུ་"
+
+#: topPopup.value
+msgid "At the top"
+msgstr "མགོ་ལུ་"
+
+#: centerPopup.value
+msgid "In the center"
+msgstr "དབུས་ལུ་"
+
+#: wrapRightPopup.value
+msgid "Wrap to the right"
+msgstr "གཡས་ལུ་ལོག་མཚམས་བཟོ་"
+
+#: wrapLeftPopup.value
+msgid "Wrap to the left"
+msgstr "གཡོན་ལུ་ལོག་མཚམས་བཟོ་"
+
+# These controls are in the Spacing Box
+#: spacingBox.label
+msgid "Spacing"
+msgstr "བར་སྟོང་བཏག་ཐངས་"
+
+#: spacingBox.tooltip
+msgid "Type a number for the amount of space around image"
+msgstr "གཟུགས་བརྙན་གྱི་མཐའ་སྐོར་ཏེ་ བར་སྟོང་གི་ཚད་ཀྱི་དོན་ལུ་  ཨང་ཡིག་ཅིག་ཡིག་དཔར་རྐྱབས།"
+
+#: leftRightEditField.label
+#: leftRightEditField.accessKey
+msgid "&Left and Right:"
+msgstr "གཡོན་དང་གཡས་:(&L)"
+
+#: topBottomEditField.label
+#: topBottomEditField.accessKey
+msgid "&Top and Bottom:"
+msgstr "མགོ་དང་མཇུག་:(&T)"
+
+#: borderEditField.label
+#: borderEditField.accessKey
+msgid "Solid &Border:"
+msgstr "མཐའ་མཚམས་རགས་པ་:(&B)"
+
+# These controls are in the Link Box
+#: showImageLinkBorder.label
+#: showImageLinkBorder.accessKey
+msgid "Show &border around linked image"
+msgstr "འབྲེལ་ལམ་ཡོད་པའི་གཟུགས་བརྙན་གྱི་མཐའ་སྐོར་ལུ་ མཐའ་མཚམས་སྟོན་(&b)"
+
+# These controls may be added some day; currently not used
+#: makePageBackgroundCheckbox.label
+msgid "Make Page Background"
+msgstr "ཤོག་ལེབ་ཀྱི་རྒྱབ་གཞི་བཟོ་"
+
+#: makePageBackgroundCheckbox.tooltip
+msgid "Use image as background for your page"
+msgstr "ཁྱོད་རའི་ཤོག་ལེབ་ཀྱི་དོན་ལུ་ གཟུགས་བརྙན་རྒྱབ་གཞི་སྦེ་ ལག་ལེན་འཐབ་"
+
+#: editImageButton.label
+msgid "Edit Image"
+msgstr "གཟུགས་བརྙན་ཞུན་དག་རྐྱབས་"
+
+#: editImageButton.tooltip
+msgid "Edit image file in another program"
+msgstr "གཟུགས་བརྙན་ཡིག་སྣོད་དེ་ གློག་རིམ་གཞན་ནང་ ཞུན་དག་རྐྱབས་"
+
+# These tabs are currently used in the image input dialog
+#: imageInputTab.label
+msgid "Form"
+msgstr "འབྲི་ཤོག་"
+
+#: imageLocationTab.label
+msgid "Location"
+msgstr "གནས་ཁོངས་"
+
+#: imageDimensionsTab.label
+msgid "Dimensions"
+msgstr "རྒྱ་ཁྱོན་"
+
+#: imageAppearanceTab.label
+msgid "Appearance"
+msgstr "འབྲུང་སྣང་"
+
+#: imageLinkTab.label
+msgid "Link"
+msgstr "འབྲེལ་ལམ་"
+

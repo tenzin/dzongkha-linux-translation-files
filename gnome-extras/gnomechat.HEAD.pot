@@ -1,0 +1,3623 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomechat.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-21 05:36+0100\n"
+"PO-Revision-Date: 2006-12-28 16:00+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/gnomechat-networks.schemas.in.h:1
+msgid "**"
+msgstr "**"
+
+#: ../data/gnomechat-networks.schemas.in.h:2
+msgid "A boolean corresponding to whether or not the server will be tried."
+msgstr "སར་བར་འདི་འབད་རྩོལ་བསྐྱེད་ནི་ཨིན་རུང་མེན་རུང་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:3
+msgid "A boolean determining whether @PACKAGE@ will automatically connect to this network on startup."
+msgstr "འགོ་བཙུག་གུ་ @PACKAGE@ དེ་གིས་  རང་བཞིན་གྱིས་ཡོངས་འབྲེལ་ལུ་མཐུད་རུང་མ་མཐུད་རུང་  བུ་ལིན་གཏན་འབེབས་བཟོ་བ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:4
+msgid "A string corresponding to the category ID of this network."
+msgstr "ཡོངས་འབྲེལ་འདི་གི་དབྱེ་རིམ་ཨའི་ཌི་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:5
+msgid "A string corresponding to the category of this network."
+msgstr "ཡོངས་འབྲེལ་འདི་གི་དབྱེ་རིམ་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:6
+msgid "A string corresponding to the country of this server."
+msgstr "སར་བར་འདི་གི་རྒྱལ་ཁབ་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:7
+msgid "A string corresponding to the description of this network the user sees."
+msgstr "ཡོངས་འབྲེལ་འདི་གི་འགྲེལ་བཤད་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག་  ལག་ལེན་པ་དེ་གིས་མཐོངམ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:8
+msgid "A string corresponding to the geographic location of this server."
+msgstr "སར་བར་འདི་གི་གནས་སྟངས་གནས་ཁོངས་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:9
+msgid "A string corresponding to the name the user sees for this network."
+msgstr "ལག་ལེན་པ་གིས་  ཡོངས་འབྲེལ་འདི་གི་དོན་ལུ་མཐོང་བའི་མིང་དེ་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:10
+msgid "A string list of channels to automatically join."
+msgstr "རང་བཞིན་གྱིས་མཐུད་ནི་ལུ་  རྒྱུ་ལམ་ཚུ་གི་ཡིག་རྒྱུན་ཐོ་ཡིག་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:11
+msgid "A string list of network dirs (gconf keyname parts) that IRC Networks are stored in."
+msgstr "ཨའི་ཨར་སི་ཡོངས་འབྲེལ་ཚུ་གསོག་འཇོག་འབད་དེ་ཡོད་ཟེར་  ཡོངས་འབྲེལ་ཌི་ཨའི་ཨར་ཨེསི་ (ཇི་སི་ཨོ་ཨེན་ཨེཕ་  ལྡེ་མིག་མིང་གི་ཆ་ཤས་ཚུ་) གི་ཡིག་རྒྱུན་ཐོ་ཡིག་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:12
+msgid "A string list of server dirs that servers on this network are stored in."
+msgstr "ཡོངས་འབྲེལ་འདི་གུ་ཡོད་པའི་སར་བར་ཚུ་གསོག་འཇོག་འབད་དེ་ཡོད་ཟེར་  སར་བར་ཌི་ཨའི་ཨར་ཨེསི་གི་ཡིག་རྒྱུན་ཐོ་ཡིག་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:13
+msgid "A string used to for the icon filename or stock image ID of this category."
+msgstr "དབྱེ་རིམ་འདི་གི་  ངོས་དཔར་ཡིག་སྣོད་མིང་ ཡང་ན་  ཅ་མཛོད་གཟུགས་བརྙན་ཨའི་ཌི་གི་དོན་ལུ་  ཡིག་རྒྱུན་ཅིག་ལག་ལེན་འཐབ་ཡོདཔ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:14
+msgid "A string used to show the description of this category."
+msgstr "དབྱེ་རིམ་འདི་གི་འགྲེལ་བཤད་སྟོན་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་ཡིག་རྒྱུན་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:15
+msgid "A string used to show the name of this category."
+msgstr "དབྱེ་རིམ་འདི་གི་མིང་སྟོན་ནིའི་དོན་ལུ་  ལག་ལེན་འཐབ་ཡོད་པའི་ཡིག་རྒྱུན་ཅིག།"
+
+#: ../data/gnomechat-networks.schemas.in.h:16
+msgid "A string/enum corresponding to the category of this network, valid values include \"large\", \"small\", \"regional\", \"interest\", or \"user\"."
+msgstr "ཡོངས་འབྲེལ་འདི་གི་དབྱེ་རིམ་ལུ་ཆ་མཉམ་པའི་  ཡིག་རྒྱུན་/ཨི་ནམ་ཅིག་   ནུས་ཅན་ཡོད་པའི་གནས་གོང་ཚུ་  \"large\", \"small\", \"regional\", \"interest\", ཡང་ན་ \"user\" གྲངས་སུ་བརྩིཝ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:17
+msgid "Aarhus, Denmark"
+msgstr "ཨཱར་ཧསི་  ཌེན་མཱརཀ"
+
+#: ../data/gnomechat-networks.schemas.in.h:18
+msgid "Adelaide, Australia"
+msgstr "ཨེ་ཌི་ལེའིཊི་  ཨཱསི་ཊ་ལི་ཡ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:19
+msgid "Alberta, Canada"
+msgstr "ཨལ་བར་ཊ་  ཀེ་ན་ཌ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:20
+msgid "Amsterdam"
+msgstr "ཨེམསི་ཊར་ཌམ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:21
+msgid "Antwerp, Belgium"
+msgstr "ཨེནཊི་རིཔ་  བེལ་ཇི་ཡམ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:22
+msgid "Arizona, U.S."
+msgstr "ཨ་རི་ཛོ་ན་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:23
+msgid "Atlanta, U.S."
+msgstr "ཨེཊི་ལན་ཊ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:24
+msgid "Australia"
+msgstr "ཨཱསི་ཊ་ལི་ཡ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:25
+msgid "Automatically Connect"
+msgstr "རང་བཞིན་གྱིས་མཐུད་"
+
+#: ../data/gnomechat-networks.schemas.in.h:26
+msgid "Automatically Joined Channels"
+msgstr "རང་བཞིན་གྱིས་མཐུད་དེ་ཡོད་པའི་རྒྱུ་ལམ་ཚུ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:27
+msgid "Bangkok, Thailand"
+msgstr "བེང་ཀོཀ་  ཐཱའི་ལེནཌི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:28
+msgid "Boston, U.S."
+msgstr "བཱོསི་ཊཱོན་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:29
+msgid "Brussels, Belgium"
+msgstr "བུརུ་སེལསི་  བེལ་ཇི་ཡམ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:30
+msgid "Caen, France"
+msgstr "སིཨེན་  ཕརཱནསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:31
+msgid "California, U.S."
+msgstr "ཀེ་ལི་ཕོར་ནི་ཡ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:32
+msgid "Category Description"
+msgstr "དབྱེ་རིམ་འགྲེལ་བཤད་"
+
+#: ../data/gnomechat-networks.schemas.in.h:33
+msgid "Category Icon"
+msgstr "དབྱེ་རིམ་ངོས་དཔར་"
+
+#: ../data/gnomechat-networks.schemas.in.h:34
+msgid "Category Name"
+msgstr "དབྱེ་རིམ་མིང་"
+
+#: ../data/gnomechat-networks.schemas.in.h:35
+msgid "Character Set"
+msgstr "ཡིག་འབྲུ་གཞི་སྒྲིག་"
+
+#: ../data/gnomechat-networks.schemas.in.h:36
+msgid "Chicago, U.S."
+msgstr "ཤི་ཀ་གོ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:37
+msgid "China"
+msgstr "རྒྱ་ནག་"
+
+#: ../data/gnomechat-networks.schemas.in.h:38
+msgid "Custom"
+msgstr "སྲོལ་སྒྲིག་"
+
+#: ../data/gnomechat-networks.schemas.in.h:39
+msgid "Custom Icon"
+msgstr "སྲོལ་སྒྲིག་ངོས་དཔར་"
+
+#: ../data/gnomechat-networks.schemas.in.h:40
+msgid "Custom networks are networks which you have added to the list."
+msgstr "སྲོལ་སྒྲིག་ཡོངས་འབྲེལ་ཚུ་  ཁྱོད་ཀྱིས་ཐོ་ཡིག་གུ་ཁ་སྐོང་བརྐྱབ་ཡོད་པའི་ཡོངས་འབྲེལ་ཚུ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:41
+msgid "DALnet is the largest chat network with over 140,000 people online at any one time. DALnet is widely regarded as the most \"friendly\" of the major IRC networks, and supports nickname and channel registration."
+msgstr "DALnet  ཟེར་མི་འདི་   གློག་ཐོག་གུ་  དུས་ཡུན་ནམ་འབད་རུང་ མི་མང་  ༡༤༠,༠༠༠ ལས་ལྷགཔ་སྦེ་ཡོད་པའི་  ཁ་སླབ་ཡོངས་འབྲེལ་སྦོམ་ཤོས་ཅིག་ཨིན།  DALnet ཟེར་མི་འདི་  ཨའི་ཨར་སི་ཡོངས་འབྲེལ་ཤུགས་ཅན་ཚུ་གི་   \"friendly\" སྦེ་བརྩི་འཇོག་འབདཝ་ཨིནམ་དང་  སྐྱོན་མིང་དང་རྒྱུ་ལམ་ཐོ་འགོད་ཚུ་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:42
+msgid "Denmark"
+msgstr "ཌེན་མཱརཀ"
+
+#: ../data/gnomechat-networks.schemas.in.h:43
+msgid "Description"
+msgstr "འགྲལ་བཤད་"
+
+#: ../data/gnomechat-networks.schemas.in.h:44
+msgid "England"
+msgstr "ཨིང་ལེནཌི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:45
+msgid "Europe"
+msgstr "ཡུ་རོཔ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:46
+msgid "Florida, U.S."
+msgstr "ཕལའོ་རི་ཌི་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:47
+msgid "Geographic Location"
+msgstr "གནས་སྟངས་ཀྱི་གནས་ཁོངས"
+
+#: ../data/gnomechat-networks.schemas.in.h:48
+msgid "Georgia, U.S."
+msgstr "ཇིའོར་ཇི་ཡ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:49
+msgid "Gothenburg, Sweden"
+msgstr "གོ་ཐེན་བརུཀ་ སུའི་ཌེན་"
+
+#: ../data/gnomechat-networks.schemas.in.h:50
+msgid "Hadsund, Denmark"
+msgstr "ཧེཌ་སཱནཌི་  ཌེན་མཱརཀ་ "
+
+#: ../data/gnomechat-networks.schemas.in.h:51
+msgid "Haifa, Israel"
+msgstr "ཧའེ་ཕ་  ཨིཛི་རེལ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:52
+msgid "Hawii, U.S."
+msgstr "ཧ་ཝའེ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:53
+msgid "Helsinki, Finland"
+msgstr "ཧེལ་སིང་ཀི་  ཕིན་ལེནཌི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:54
+msgid "IRC-Hispano is a regional network serving Spain and Portugal."
+msgstr "ཨའི་ཨར་སི་- ཧིསི་པེ་ནོ་འདི་  སིཔེན་དང་པོར་ཊུ་གཱལ་ཞབས་ཏོག་ཞུ་མིའི་  ལུང་ཕྱོགས་ཀྱི་ཡོངས་འབྲེལ་ཅིག་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:55
+msgid "ISO Country Code"
+msgstr "ཨའི་ཨེསི་ཨོ་རྒྱལ་ཁབ་ཀྱི་ཨང་རྟགས་"
+
+#: ../data/gnomechat-networks.schemas.in.h:56
+msgid "Israel"
+msgstr "ཨིཛི་རེལ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:57
+msgid "Large"
+msgstr "ཆེ་བ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:58
+msgid "Large networks are public networks which average over 10,000 users online at any one time and are not designed for a particular topic or interest."
+msgstr "ཡོངས་འབྲེལ་ཆེ་བ་དེ་ཚུ་  དུས་ཡུན་ནམ་རང་འབད་རུང་  གློག་ཐོག་གུ་ལག་ལེན་འཐབ་མི་  ༡༠,༠༠༠་ ལས་ལྷག་སྟེ་ཡོད་མི་  མི་མང་ཡོངས་འབྲེལ་ཨིནམ་དང་  དེ་ཚུ་གནད་དོན་བྱེ་བྲག་ཡང་ན་དང་འདོད་ཅིག་གི་དོན་ལུ་ བཀོད་སྒྲིག་འབད་དེ་མེད།"
+
+#: ../data/gnomechat-networks.schemas.in.h:59
+msgid "London, England"
+msgstr "ལཱོན་ཌཱོན་  ཨིང་ལེནཌི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:60
+msgid "Los Angeles, U.S."
+msgstr "ལོསི་ ཨེན་ཇི་ལིསི་  ཡུ་ཨེསི།"
+
+#: ../data/gnomechat-networks.schemas.in.h:61
+msgid "Maryland, U.S."
+msgstr "མེ་རི་ལེནཌི་  ཡུ་ཨེསི།"
+
+#: ../data/gnomechat-networks.schemas.in.h:62
+msgid "Michigan, U.S."
+msgstr "མི་ཤི་གན་  ཡུ་ཨེསི།"
+
+#: ../data/gnomechat-networks.schemas.in.h:63
+msgid "Minimum User Filter"
+msgstr "ཚག་མ་ལག་ལེན་འཐབ་མི་ཉུང་མཐའ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:64
+msgid "Minimum users channels must have to be displayed when auto-running the /LIST command."
+msgstr "ལག་ལེན་འཐབ་ཡོད་པའི་རྒྱུ་ལམ་ཉུང་མཐའ་འདི་  /LIST བརྡ་བཀོད་འདི་  རང་བཞིན་གཡོག་བཀོལཝ་ད་  བཀྲམ་སྟོན་འབད་དགོ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:65
+msgid "Minnesota, U.S."
+msgstr "མིན་ནི་སོ་ཌ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:66
+msgid "Montreal, Canada"
+msgstr "མོན་ཊིཡལ་  ཀེ་ན་ཌ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:67
+msgid "Moscow, Russia"
+msgstr "མོསོ་ཀའོ་  ར་ཤི་ཡ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:68
+msgid "Myanmar"
+msgstr "མི་ཡཱན་མར།"
+
+#: ../data/gnomechat-networks.schemas.in.h:69
+msgid "Netherlands"
+msgstr "ནེ་དར་ལེནཌིསི།"
+
+#: ../data/gnomechat-networks.schemas.in.h:70
+msgid "Network Category"
+msgstr "ཡོངས་འབྲེལ་དབྱེ་རིམ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:71
+msgid "Network List"
+msgstr "ཡོངས་འབྲེལ་ཐོ་ཡིག་"
+
+#: ../data/gnomechat-networks.schemas.in.h:72
+msgid "Network Name"
+msgstr "ཡོངས་འབྲེལ་མིང་"
+
+#: ../data/gnomechat-networks.schemas.in.h:73
+msgid "New Jersey, U.S."
+msgstr "ཇར་སི་གསརཔ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:74
+msgid "North Carolina, U.S."
+msgstr "བྱང་ ཀེ་རོ་ལི་ན་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:75
+msgid "Norway"
+msgstr "ནོར་ཝེ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:76
+msgid "Ohio, U.S."
+msgstr "ཨོཧིའོ་ ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:77
+msgid "Ontario, Canada"
+msgstr "ཨོན་ཊ་རིའོ་  ཀེ་ན་ཌ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:78
+msgid "Paris, France"
+msgstr "པེ་རིསི་  ཕརཱནསི་་"
+
+#: ../data/gnomechat-networks.schemas.in.h:79
+msgid "Random"
+msgstr "གང་འབྱུང་"
+
+#: ../data/gnomechat-networks.schemas.in.h:80
+msgid "Regional"
+msgstr "ལུང་ཕྱོགས་ཀྱི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:81
+msgid "Regional networks are public networks which are designed to serve a particular area."
+msgstr "ལུང་ཕྱོགས་ཀྱི་ཡོངས་འབྲེལ་ཚུ་  ས་ཁོངས་བྱེ་བྲག་ཅིག་ལུ་ལཱ་འབད་མི་  མི་མང་ཡོངས་འབྲེལ་ཚུ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:82
+msgid "Seattle, U.S."
+msgstr "སི་ཊེལ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:83
+msgid "Server Address"
+msgstr "སར་བར་ཁ་བྱང་"
+
+#: ../data/gnomechat-networks.schemas.in.h:84
+msgid "Server Address</short> <short>Custom Icon"
+msgstr "སར་བར་ཁ་བྱང་</short> <short>སྲོལ་སྒྲིག་ངོས་དཔར་"
+
+#: ../data/gnomechat-networks.schemas.in.h:85
+msgid "Server Directory List"
+msgstr "སར་བར་སྣོད་ཐོའི་ཐོ་ཡིག་"
+
+#: ../data/gnomechat-networks.schemas.in.h:86
+msgid "Server Enabled"
+msgstr "སར་བར་ལྕོགས་ཅན་བཟོ་ཡོདཔ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:87
+msgid "Server Port"
+msgstr "སར་བར་འདྲེན་ལམ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:88
+msgid "Singapore"
+msgstr "སིང་ག་པོར་"
+
+#: ../data/gnomechat-networks.schemas.in.h:89
+msgid "Small"
+msgstr "ཆུང་ཀུ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:90
+msgid "Small networks are public networks which have under 10,000 users online at any one time and are not designed for a particular topic or interest."
+msgstr "ཡོངས་འབྲེལ་ཆུང་ཀུ་ཚུ་  དུས་ཡུན་གང་རུང་ཅིག་ལུ་  གློག་ཐོག་གུ་ལག་ལེན་འཐབ་མི་  ༡༠,༠༠༠་གི་འོག་ལུ་ཡོད་པའི་  མི་མང་ཡོངས་འབྲེལ་ཚུ་ཨིནམ་དང་  གནད་དོན་བྱེ་བྲག་ཡང་ན་དང་འདོད་ཅིག་གི་དོན་ལུ་ བཀོད་སྒྲིག་འབད་དེ་མེདཔ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:91
+msgid "Special Interest"
+msgstr "དམིགས་བསལ་གྱི་དག་འདོད་"
+
+#: ../data/gnomechat-networks.schemas.in.h:92
+msgid "Special Interest networks are public networks which are designed for a particular topic or interest."
+msgstr "དམིགས་བསལ་གྱི་དང་འདོད་ཡོངས་འབྲེལ་ཚུ་  གནད་དོན་བྱེ་བྲག་ཡང་ན་དང་འདོད་ཅིག་གི་དོན་ལུ་བཀོད་སྒྲིག་འབད་ཡོད་པའི་  མི་མང་ཡོངས་འབྲེལ་ཚུ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:93
+msgid "Sweden"
+msgstr "སུའི་ཌེན་"
+
+#: ../data/gnomechat-networks.schemas.in.h:94
+msgid "Texas, U.S."
+msgstr "ཊི་སསི་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:95
+msgid "The Eris Free Network (EFNet) is a descendent of the first chat network, and has approximately 100,000 users online at any one time. Many servers on this network require the user's system to have an identd server installed and running, and attempt to scan your computer for badly configured proxies before allowing your connection."
+msgstr "ཨའི་རིསི་བར་སྟོང་ཡོངས་འབྲེལ་ (ཨི་ཨེཕ་ནེཊི་) འདི་  ཁ་སླབ་ཡོངས་འབྲེལ་དང་པའི་འབྱུང་མི་ཅིག་ཨིནམ་དང་  དུས་ཡུན་གང་རུང་ཅིག་ལུ་  གློག་ཐོག་ལག་ལེན་འཐབ་མི་  ཧ་ལམ་ ༡༠,༠༠༠་ དེ་ཅིག་ཡོད།  ཡོངས་འབྲེལ་འདི་གུ་ཡོད་པའི་སར་བར་མང་ཤོས་ཅིག་ལུ་རང་  ཨའི་ཌི་ཨི་ཨེན་ཊི་ཌི་སར་བར་གཞི་བཙུག་དང་གཡོག་བཀོལ་ནིའི་དོན་ལུ་  ཡོངས་འབྲེལ་དེ་ལུ་    དེ་ལས་  ཁྱོད་རའི་མཐུད་ལམ་འདི་མ་ཆོག་པའི་ཧེ་མ་  རིམ་སྒྲིག་བྱང་ཉེས་པོརོ་སི་ཚུ་གི་དོན་ལུ་  ཁྱོད་རའི་གློག་རིམ་འདི་ཞིབ་ལྟ་འབད་ནི་དཔའ་བཅམ་ནིའི་དོན་ལུ་  ལག་ལེན་པའི་རིམ་ལུགས་འདི་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: ../data/gnomechat-networks.schemas.in.h:96
+msgid "The URL (if any) for this network's official website."
+msgstr "ཡོངས་འབྲེལ་འདི་གི་  གཞུང་འབྲེལ་ཝེབ་ཀྱི་ས་སྟོང་ཚུ་གི་དོན་ལུ་  ཡུ་ཨར་ཨེལ་ (གང་རུང་ཅིག་)"
+
+#: ../data/gnomechat-networks.schemas.in.h:97
+msgid "The custom icon filename (if any) to use for this network."
+msgstr "ཡོངས་འབྲེལ་འདི་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ལུ་  སྲོལ་སྒྲིག་ངོས་དཔར་ཡིག་སྣོད་མིང་  (གང་རུང་ཡོད་པ་ཅིན)"
+
+#: ../data/gnomechat-networks.schemas.in.h:98
+msgid "Toronto, Canada"
+msgstr "ཏོ་རོན་ཏོ་  ཀེ་ན་ཌ་"
+
+#: ../data/gnomechat-networks.schemas.in.h:99
+msgid "U.S."
+msgstr "ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:100
+msgid "US"
+msgstr "ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:101
+msgid "Virginia, U.S."
+msgstr "བར་ཇི་ནི་ཡ་  ཡུ་ཨེསི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:102
+msgid "Warsaw, Poland"
+msgstr "ཝར་སོ་  པོ་ལེནཌི་"
+
+#: ../data/gnomechat-networks.schemas.in.h:103
+msgid "Website"
+msgstr "ཝེབ་ཀྱི་ས་སྟོང་"
+
+#: ../data/gnomechat-networks.schemas.in.h:104
+msgid "What character encoding servers on this network expect by default."
+msgstr "སྔོན་སྒྲིག་དེ་གིས་  ཡོངས་འབྲེལ་གུ་  ཡིག་འབྲུ་ཨིན་ཀོ་ཌིང་སར་བར་ག་འདི་རེ་བ་བསྐྱེདཝ་སྨོ།"
+
+#: ../data/gnomechat-networks.schemas.in.h:105
+msgid "ZANet.org is the first regional network serving South Africa. It supports nickname and channel registration, as well as notes and help."
+msgstr "ZANet.org འདི་  ལྷོ་ཨཕ་རི་ཀ་ལུ་ལཱ་འབད་མི་  ལུང་ཕྱོགས་ཀྱི་ཡོངས་འབྲེལ་འགོ་དང་པ་འདི་ཨིན།  དེ་གིས་  སྐྱོན་མིང་དང་རྒྱུ་ལམ་ཐོ་འགོད་རྒྱབ་སྐྱོར་འབད་ནི་དང་  དྲན་འཛིན་ཚུ་དང་གྲོགས་རམ་ཡང་འབདཝ་ཨིན།"
+
+#: ../data/gnomechat.desktop.in.h:1
+#: ../src/main.c:47
+msgid "IRC Chat"
+msgstr "ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../data/gnomechat.desktop.in.h:2
+msgid "Internet Chat"
+msgstr "ཨིན་ཊར་ནེཊི་ཁ་སླབ་"
+
+#: ../data/gnomechat.schemas.in.h:1
+msgid "\"Connect...\" Dialog Height"
+msgstr "\"Connect...\" ཌའི་ལོག་མཐོ་ཚད"
+
+#: ../data/gnomechat.schemas.in.h:2
+msgid "\"Connect...\" Dialog Width"
+msgstr "\"Connect...\" ཌའོ་ལོག་རྒྱ་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:3
+msgid "A boolean corresponding to whether or not GnomeChat has completed it's first run assistant sucessfully."
+msgstr "ཇི་ནོམ་ཁ་སླབ་དེ་གིས་  མགོ་ལུ་གཡོག་བཀོལ་ཡོད་པའི་ཕན་གྲོགས་འདི་  མཐར་འཁྱཝ་འབད་མཇུག་བསྡུ་རང་མ་བསྡུ་རུང་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:4
+msgid "A boolean corresponding to whether or not to show a network's information in the \"Connect...\" dialog."
+msgstr "ཡོངས་འབྲེལ་གྱི་བརྡ་དོན་འདི་  \"Connect...\" ཌའི་ལོག་ནང་ལུ་སྟོན་རུང་མ་སྟོན་རུང་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:5
+msgid "A boolean corresponding to whether the user list along the right edge is visible or collapsed."
+msgstr "མཐའམ་གཡས་ལུ་ཡོད་པའི་ལག་ལེན་པའི་ཐོ་ཡིག་འདི་  མཐོང་ཚུགསཔ་ཡང་ན་རམ་ཡོད་རུང་མེད་རུང་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:6
+msgid "A boolean for whether or not searches are case-insensitive."
+msgstr "འཚོལ་ཞིབ་ཚུ་གནད་དོན་ཚུ་-དྲན་ཚོར་མེདཔ་ཨིན་རུང་མེད་རུང་གི་དོན་ལུ་  བུ་ལིན་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:7
+msgid "A string corresponding to the folder to look for files to send in (auto-saved from the send files dialog)."
+msgstr "(གཏང་བའི་ཡིག་སྣོད་ཌའི་ལོག་ཚུ་ལས་  རང་བཞིན་སྲུང་བཞག་འབད་ཡོདཔ )ནང་གཏང་ནིའི་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་  བལྟ་མིའི་སྣོད་འཛིན་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:8
+msgid "A string corresponding to the folder to place recieved files in."
+msgstr "ཐོབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་བཞག་ནིའི་སྣོད་འཛིན་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:9
+msgid "A string corresponding to the requested nickname."
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་སྐྱོན་མིང་འདི་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:10
+msgid "A string corresponding to the user's login name."
+msgstr "ལག་ལེན་པའི་ནང་བསྐྱོད་མིང་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:11
+msgid "A string corresponding to the user's photo filename."
+msgstr "ལག་ལེན་པའི་པར་གྱི་ཡིག་སྣོད་མིང་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:12
+msgid "A string corresponding to the user's real name."
+msgstr "ལག་ལེན་པའི་མིང་ངོ་མ་ལུ་  ཡིག་རྒྱུན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:13
+msgid "A string/enum corresponding to the style to use for naming received files. Valid values are \"filename\", \"sender-folder\", \"sender.filename\"."
+msgstr "ཐོབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་མིང་བཏགས་ནིའི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་གི་བཟོ་རྣམ་ལུ་ ཡིག་རྒྱུན་/ཨི་ནམ་ཆ་མཉམ་པ་ཅིག།  ནུས་ཅན་ཡོད་པའི་གནས་གོང་ཚུ་  \"filename\", \"sender-folder\", \"sender.filename\"."
+
+#: ../data/gnomechat.schemas.in.h:14
+msgid "A string/enum for which layout style to use for new windows. Legal values are \"tabs\", \"tree\", \"windows\"."
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་གི་  སྒྲིག་བཀོད་བཟོ་རྣམ་གྱི་དོན་ལུ་  ཡིག་རྒྱུན་/ཨི་ནམ་ཅིག།  ལི་གཱལ་གནས་གོང་ཚུ་  \"tabs\", \"tree\", \"windows\"."
+
+#: ../data/gnomechat.schemas.in.h:15
+msgid "Actions Background Color"
+msgstr "བྱ་བ་ཚུ་གི་རྒྱབ་གཞིའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:16
+msgid "Actions Bold Font"
+msgstr "བྱ་བ་ཚུ་གི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:17
+msgid "Actions Color"
+msgstr "བྱ་བའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:18
+msgid "Actions Italic Font"
+msgstr "བྱ་བ་ཚུ་གི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:19
+msgid "Actions Underline"
+msgstr "བྱ་བ་ཚུ་གི་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:20
+msgid "An boolean corresponding to whether or not the \"More Options\" disclosure is expanded in the Preferences dialog."
+msgstr "\"More Options\" ཕྱི་ཁར་བཏོན་ནི་འདི་  གདའ་གདམ་བརྐྱབ་ཡོད་པའི་ཌའི་ལོག་ནང་རྒྱ་འཕར་གཏང་སྟེ་ཡོད་རུང་མེད་རུང་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:21
+msgid "An boolean corresponding to whether or not the main entry is using multiple lines (GtkTextView) or not (GtkEntry)."
+msgstr "འཛུལ་ཞུགས་ངོ་མ་འདི་གིས་  སྣ་མང་འགྲལ་ཐིག་ (GtkTextView) ཡང་ན་ (GtkEntry) འདི་ལག་ལེན་འཐབ་རུང་མ་འཐབ་རུང་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:22
+msgid "An integer corresponding to the default height of a new window"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཅིག་གི་སྔོན་སྒྲིག་མཐོ་ཚད་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག་"
+
+#: ../data/gnomechat.schemas.in.h:23
+msgid "An integer corresponding to the default placement of a new window's left edge."
+msgstr "སྒོ་སྒྲིག་གསརཔ་གི་མཐའམ་གཡོན་ཅིག་གི་  སྔོན་སྒྲིག་བཙུག་བཞག་འདི་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:24
+msgid "An integer corresponding to the default width of a new window"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཅིག་གི་  སྔོན་སྒྲིག་རྒྱ་ཚད་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག"
+
+#: ../data/gnomechat.schemas.in.h:25
+msgid "An integer corresponding to the height of the \"Connect...\" dialog."
+msgstr "\"Connect...\" ཌའི་ལོག་གི་མཐོ་ཚད་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:26
+msgid "An integer corresponding to the height of the \"Preferences\" dialog."
+msgstr "\"Preferences\" ཌའི་ལོག་གི་མཐོ་ཚད་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:27
+msgid "An integer corresponding to the placement of a new window's top edge."
+msgstr "སྒོ་སྒྲིག་གསརཔ་གི་མགོའི་མཐའམ་ཅིག་གི་བཙུག་བཞག་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:28
+msgid "An integer corresponding to the width of the \"Connect...\" dialog."
+msgstr "\"Connect...\" ཌའི་ལོག་གི་རྒྱ་ཚད་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:29
+msgid "An integer corresponding to the width of the Preferences dialog."
+msgstr "དགའ་གདམ་བརྐྱབ་ཡོད་པའི་ཌའི་ལོག་གི་རྒྱ་ཚད་ལུ་  ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:30
+msgid "An integer corresponding to the width of the network information pane in the \"Connect...\" dialog."
+msgstr "\"Connect...\" ཌའི་ལོག་ནང་གི་  ཡོངས་འབྲེལ་བརྡ་དོན་པེན་གྱི་  རྒྱ་ཚད་ལུ་ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:31
+msgid "An integer corresponding to the width of the tree along the left edge used in the \"View as List\" mode"
+msgstr "\"View as List\" ཐབས་ལམ་ནང་མཐའམ་གཡོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་རྩ་འབྲེལ་གྱི་  རྒྱ་ཚད་ལུ་ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:32
+msgid "An integer corresponding to the width of the user list along the right side in channels."
+msgstr "རྒྱུ་ལམ་ཚུ་ནང་ཟུར་གཡས་ལས་ལག་ལེན་པའི་ཐོ་ཡིག་གི་  རྒྱ་ཚད་ལུ་ཧྲིལ་གྲངས་ཆ་མཉམ་པ་ཅིག།"
+
+#: ../data/gnomechat.schemas.in.h:33
+msgid "Ask When Clearing Chats"
+msgstr "ཁ་སླབ་ཚུ་བསལཝ་ད་  འདྲི་"
+
+#: ../data/gnomechat.schemas.in.h:34
+msgid "Ask When Removing Networks"
+msgstr "ཡོངས་འབྲེལ་ཚུ་རྩ་བསྐྲད་གཏངམ་ད་འདྲི་"
+
+#: ../data/gnomechat.schemas.in.h:35
+msgid "Ask When Removing Servers"
+msgstr "སར་བར་ཚུ་རྩ་བསྐྲད་གཏངམ་ད་འདྲི་"
+
+#: ../data/gnomechat.schemas.in.h:36
+msgid "Case Insensitive Searches"
+msgstr "གནད་དོན་ཚོར་སྣང་མེདཔ་འཚོལ་ཞིབ་ཚུ་"
+
+#: ../data/gnomechat.schemas.in.h:37
+msgid "Channel Message Background Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:38
+msgid "Channel Message Bold Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:39
+msgid "Channel Message Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:40
+msgid "Channel Message Italic Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:41
+msgid "Channel Message Name Background Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་མིང་གི་  རྒྱབ་གཞིའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:42
+msgid "Channel Message Name Bold Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་མིང་གི་ ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:43
+msgid "Channel Message Name Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་མིང་གི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:44
+msgid "Channel Message Name Italic Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་མིང་གི་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:45
+msgid "Channel Message Name Underline"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་མིང་གི་ འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:46
+msgid "Channel Message Nick Background Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ནིཀ་གི་རྒྱབ་གཞིའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:47
+msgid "Channel Message Nick Bold Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ནིཀ་གི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:48
+msgid "Channel Message Nick Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་ནིཀ་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:49
+msgid "Channel Message Nick Italic Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ནིཀ་གི་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:50
+msgid "Channel Message Nick Underline"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་ནིཀ་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:51
+msgid "Channel Message Underline"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:52
+msgid "Channel Message Value Background Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་གནས་གོང་རྒྱབ་གཞིའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:53
+msgid "Channel Message Value Bold Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གནས་གོང་གི་  ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:54
+msgid "Channel Message Value Color"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གནས་གོང་གི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:55
+msgid "Channel Message Value Italic Font"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་གནས་གོང་གི་  ཡིག་གཟུགས་ཨའི་ཊ་ལིཀ"
+
+#: ../data/gnomechat.schemas.in.h:56
+msgid "Channel Message Value Underline"
+msgstr "རྒྱི་ལམ་འཕྲིན་དོན་གནས་གོང་གི་  འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:57
+msgid "Chats Tree Is Visible"
+msgstr "ཁ་སླབ་རྩ་འབྲེལ་འདི་མཐོང་ཚུགས་པའི་"
+
+#: ../data/gnomechat.schemas.in.h:58
+msgid "Chats Tree Size"
+msgstr "ཁ་སླབ་ཀྱི་རྩ་འབྲེལ་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:59
+msgid "Default Main Window Height"
+msgstr "སྔོན་སྒྲིག་ངོ་མའི་སྒོ་སྒྲིག་མཐོ་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:60
+msgid "Default Main Window Left Edge"
+msgstr "སྔོན་སྒྲིག་ངོ་མའི་སྒོ་སྒྲིག་མཐའམ་གཡོན་"
+
+#: ../data/gnomechat.schemas.in.h:61
+msgid "Default Main Window Top Edge"
+msgstr "སྔོན་སྒྲིག་ངོ་མའི་སྒོ་སྒྲིག་མགོའི་མཐའམ་"
+
+#: ../data/gnomechat.schemas.in.h:62
+msgid "Default Main Window Width"
+msgstr "སྔོན་སྒྲིག་ངོ་མའི་སྒོ་སྒྲིག་རྒྱ་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:63
+msgid "Default Window Layout"
+msgstr "སྔོན་སྒྲིག་སྒོ་སྒྲིག་བཀོད་སྒྲིག་"
+
+#: ../data/gnomechat.schemas.in.h:64
+msgid "Error Background Color"
+msgstr "འཛོལ་བའི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:65
+msgid "Error Bold Font"
+msgstr "འཛོལ་བའི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:66
+msgid "Error Color"
+msgstr "འཛོལ་བའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:67
+msgid "Error Italic Font"
+msgstr "འཛོལ་བའི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:68
+msgid "Error Underline"
+msgstr "འཛོལ་བའི་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:69
+msgid "First Run Completed"
+msgstr "གཡོག་བཀོལ་དང་པ་མཇུག་བསྡུ་ནུག་"
+
+#: ../data/gnomechat.schemas.in.h:70
+msgid "Force Main Window Position"
+msgstr "སྒོ་སྒྲིག་ངོ་མའི་གནས་ས་བང་བཙོང་"
+
+#: ../data/gnomechat.schemas.in.h:71
+msgid "Force Window Size"
+msgstr "སྒོ་སྒྲིག་ཚད་བང་བཙོང་"
+
+#: ../data/gnomechat.schemas.in.h:72
+msgid "Link Background Color"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་འབྲེལ་མཐུད་འབད"
+
+#: ../data/gnomechat.schemas.in.h:73
+msgid "Link Bold Font"
+msgstr "ཡིག་གཟུགས་རྒྱག་པ་འབྲེལ་མཐུད་འབད་"
+
+#: ../data/gnomechat.schemas.in.h:74
+msgid "Link Color"
+msgstr "ཚོས་གཞི་འབྲེལ་མཐུད་འབད་"
+
+#: ../data/gnomechat.schemas.in.h:75
+msgid "Link Italic Font"
+msgstr "ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་འདི་འབྲེལ་མཐུད་འབད་"
+
+#: ../data/gnomechat.schemas.in.h:76
+msgid "Link Underline"
+msgstr "འོག་ཐིག་འབྲེལ་མཐུད་འབད་"
+
+#: ../data/gnomechat.schemas.in.h:77
+msgid "My Actions Background Color"
+msgstr "ངེས་ཀྱི་བྱ་བའི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:78
+msgid "My Actions Bold Font"
+msgstr "ངེས་ཀྱི་བྱ་བ་ཚུ་གི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:79
+msgid "My Actions Color"
+msgstr "ངེས་ཀྱི་བྱ་བའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:80
+msgid "My Actions Italic Font"
+msgstr "ངེས་ཀྱི་བྱ་བའི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:81
+msgid "My Actions Underline"
+msgstr "ངེས་ཀྱི་བྱ་བའི་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:82
+msgid "My Nick Background Color"
+msgstr "ངེས་ཀྱི་ནིཀ་གི་ཚོས་གཞི་རྒྱབ་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:83
+msgid "My Nick Bold Font"
+msgstr "ངེས་ཀྱི་ནིཀ་གི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:84
+msgid "My Nick Color"
+msgstr "ངེས་ཀྱི་ནིཀ་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:85
+msgid "My Nick Italic Font"
+msgstr "ངེས་ཀྱི་ནིཀ་ཨའི་ཊ་ལིག་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:86
+msgid "My Nick Underline"
+msgstr "ངེས་ཀྱི་ནིག་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:87
+msgid "Network Information Size"
+msgstr "ཡོངས་འབྲེལ་བརྡ་དོན་ཚད་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:88
+msgid "Nick Background Color"
+msgstr "ནིཀ་རྒྱབ་གཞིའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:89
+msgid "Nick Bold Font"
+msgstr "ནིཀ་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:90
+msgid "Nick Color"
+msgstr "ནིཀ་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:91
+msgid "Nick Italic Font"
+msgstr "ནིཀ་ཨའི་ཊ་ལིཀ་"
+
+#: ../data/gnomechat.schemas.in.h:92
+msgid "Nick Underline"
+msgstr "ནིཀ་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:93
+msgid "Nickname"
+msgstr "སྐྱོན་མིང་"
+
+#: ../data/gnomechat.schemas.in.h:94
+msgid "Notebook Tab Side"
+msgstr "འབྲི་དེབ་མཆོང་ལྡེའི་ཟུར་"
+
+#: ../data/gnomechat.schemas.in.h:95
+msgid "Notification Icon"
+msgstr "བརྡ་བསྐུལ་ངོས་དཔར་"
+
+#: ../data/gnomechat.schemas.in.h:96
+msgid "Notification Message Highlight Color"
+msgstr "བརྡ་བསྐུལ་འབྲིན་དོན་གཙོ་དམིགས་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:97
+msgid "Notification Text Highlight Color"
+msgstr "བརྡ་བསྐུལ་ཚིག་ཡིག་གཙོ་དམིགས་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:98
+msgid "Place a notification icon in the status tray."
+msgstr "གནས་ཚད་ཤོག་སྣོད་ནང་ལུ་  བརྡ་བསྐུལ་ངོས་དཔར་ཅིག་བཞག།"
+
+#: ../data/gnomechat.schemas.in.h:99
+msgid "Preferences Dialog Height"
+msgstr "དགའ་གདམ་ཚུའི་ཌའི་ལོག་མཐོ་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:100
+msgid "Preferences Dialog Width"
+msgstr "དགའ་གདམ་ཚུའི་ཌའི་ལོག་རྒྱ་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:101
+msgid "Prompt for confirmation before clearing the text from a chat."
+msgstr "ཚིག་ཡིག་འདི་ཁ་སླབ་ནི་ལས་བསལ་མ་བཏང་པའི་ཧེ་མ་  ངེས་དཔྱད་དོན་ལུ་ནུས་སྤེལ་འབད།"
+
+#: ../data/gnomechat.schemas.in.h:102
+msgid "Prompt for confirmation before removing a network from the list of available networks."
+msgstr "ཡོངས་འབྲེལ་འཐོབ་ཚུགསཔ་ཚུ་ལས་  ཡོངས་འབྲེལ་འདི་རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་  ངེས་དཔྱད་ཀྱི་དོན་ལུ་ནུས་སྤེལ་འབད།"
+
+#: ../data/gnomechat.schemas.in.h:103
+msgid "Prompt for confirmation before removing a server from the list of servers to try connecting to for a network."
+msgstr "ཡོངས་འབྲེལ་ཅིག་ལུ་མཐུན་ནིའི་འབད་རྩོལ་ལུ་སར་བར་ཚུ་གི་ཐོ་ཡིག་ལས་  སར་བར་ཅིག་རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་  ངེས་དཔྱད་དོན་ལུ་ནུས་སྤེལ་འབད།"
+
+#: ../data/gnomechat.schemas.in.h:104
+msgid "Real Name"
+msgstr "མིང་ངོ་མ་"
+
+#: ../data/gnomechat.schemas.in.h:105
+msgid "Received Files Naming Style"
+msgstr "བཟོ་རྣམ་ཟེར་མིང་བཏགས་བཀལ་ཡོད་པའི་  ཡིག་སྣོད་ཚུ་ཐོབ་ནུག་"
+
+#: ../data/gnomechat.schemas.in.h:106
+msgid "Recieved Files Folder"
+msgstr "ཡིག་སྣོད་ཚུ་གི་སྣོད་འཛིན་ཐོབ་ནུག་"
+
+#: ../data/gnomechat.schemas.in.h:107
+msgid "Send Files Folder"
+msgstr "ཡིག་སྣོད་ཚུ་གི་སྣོད་འཛིན་གཏང་"
+
+#: ../data/gnomechat.schemas.in.h:108
+msgid "Server Background Color"
+msgstr "སར་བར་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:109
+msgid "Server Bold Font"
+msgstr "སར་བར་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:110
+msgid "Server Color"
+msgstr "སར་བར་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:111
+msgid "Server Italic Font"
+msgstr "སར་བར་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:112
+msgid "Server Name Background Color"
+msgstr "སར་བར་མིང་གི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:113
+msgid "Server Name Bold Font"
+msgstr "སར་བར་མིང་གི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:114
+msgid "Server Name Color"
+msgstr "སར་བར་མིང་གི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:115
+msgid "Server Name Italic Font"
+msgstr "སར་བར་མིང་གི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:116
+msgid "Server Name Underline"
+msgstr "སར་བར་མིང་གི་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:117
+msgid "Server Underline"
+msgstr "སར་བར་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:118
+msgid "Show Channel Topics In The Titlebar"
+msgstr "རྒྱུ་ལམ་གནད་དོན་ཚུ་མགོ་མིང་ཕྲ་རིང་ནང་སྟོན་"
+
+#: ../data/gnomechat.schemas.in.h:119
+msgid "Show Message Of The Day On Connect"
+msgstr "མཐུད་ཟེར་མི་གུ་  ཉིནམ་གྱི་འཕྲིན་དོན་འདི་སྟོན་"
+
+#: ../data/gnomechat.schemas.in.h:120
+msgid "Show More Window Options"
+msgstr "སྒོ་སྒྲིག་གདམ་ཁ་ཚུ་མངམ་སྟོན་"
+
+#: ../data/gnomechat.schemas.in.h:121
+msgid "Show Network Information"
+msgstr "ཡོངས་འབྲེལ་བརྡ་དོན་སྟོན་"
+
+#: ../data/gnomechat.schemas.in.h:122
+msgid "Show Timestamps"
+msgstr "དུས་བཀོད་ཚུ་སྟོན་"
+
+#: ../data/gnomechat.schemas.in.h:123
+msgid "The background color to use for actions to me."
+msgstr "ང་ལུ་བྱ་བ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  ཚོས་གཞི་རྒྱབ་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:124
+msgid "The background color to use for actions."
+msgstr "བྱ་བ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:125
+msgid "The background color to use for channel messages."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་ རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:126
+msgid "The background color to use for error messages."
+msgstr "འཛོལ་བའི་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:127
+msgid "The background color to use for links."
+msgstr "འབྲེལ་ལམ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:128
+msgid "The background color to use for messages from the server."
+msgstr "སར་བར་ལས་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:129
+msgid "The background color to use for my nickname."
+msgstr "ངེས་ཀྱི་སྐྱོན་མིང་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:130
+msgid "The background color to use for the main viewer."
+msgstr "མཐོང་བྱེད་ངོ་མའི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:131
+msgid "The background color to use for the name of a channel in a channel message."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཅིག་ནང་ལུ་རྒྱུ་ལམ་གྱི་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:132
+msgid "The background color to use for the new value of a channel setting, or the message associated with a setting (example: the kick message in a /kick)."
+msgstr "རྒྱུ་ལམ་སྒྲིག་སྟངས་ཅིག་གི་གནས་གོང་གསརཔ་  ཡང་ན་  སྒྲིག་སྟངས་ (དཔེར་ན་:  /kick  ཅིག་ནང་བཏོན་གཏང་ནིའི་འཕྲིན་དོན་) དང་ཅིག་ཁར་འབྲེལ་བའི་འཕྲིན་དོན་གྱི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:133
+msgid "The background color to use for the nickname in messages to me."
+msgstr "ང་ལུ་གཏང་ཡོད་པའི་འཕྲིན་དོན་ཚུ་ནང་སྐྱོན་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:134
+msgid "The background color to use for the nickname in messages."
+msgstr "འཕྲིན་དོན་ཚུ་གི་ནང་སྐྱོན་མིང་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:135
+msgid "The background color to use for the nickname of a channel operator or user in a channel message."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་ཡང་ན་  རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་ནིཀ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་   རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:136
+msgid "The background color to use for the server name in messages from the server."
+msgstr "སར་བར་ལས་འཕྲིན་དོན་ཚུ་ནང་གི་  སར་བར་མིང་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  རྒྱབ་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:137
+msgid "The font to use for the main viewer."
+msgstr "མཐོང་བྱེད་ངོ་མའི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  ཡགི་གཟུགས།"
+
+#: ../data/gnomechat.schemas.in.h:138
+msgid "The foreground color to use for actions to me."
+msgstr "ང་ལུ་བྱ་བ་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་ གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:139
+msgid "The foreground color to use for actions."
+msgstr "བྱ་བ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:140
+msgid "The foreground color to use for channel messages."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:141
+msgid "The foreground color to use for my actions."
+msgstr "ངེས་ཀྱི་བྱ་བ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:142
+msgid "The foreground color to use for my nickname."
+msgstr "ངེས་ཀྱི་སྐྱོན་མིང་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  གདོང་ཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:143
+msgid "The foreground color to use for server messages from the server."
+msgstr "སར་བར་ལས་  སར་བར་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:144
+msgid "The foreground color to use for the main viewer."
+msgstr "མཐོང་བྱེད་ངོ་མའི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:145
+msgid "The foreground color to use for the name of a channel in a channel message."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཅིག་ནང་  རྒྱུ་ལམ་ཅིག་གི་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:146
+msgid "The foreground color to use for the new value of a channel setting, or the message associated with a setting (example: the kick message in a /kick)."
+msgstr "རྒྱུ་ལམ་སྒྲིག་སྟངས་ཡང་ན་  སྒྲིག་སྟངས་   (དཔེར་ན་:  /kickནང་ལུ་བཏོན་གཏང་ནིའི་འཕྲིན་དོན་) དང་ཅིག་ཁར་འབྲེལ་བའི་འཕྲིན་དོན་ཅིག་གི་  གནས་གོང་གསརཔ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:147
+msgid "The foreground color to use for the nickname in messages to me."
+msgstr "ང་ལུ་འཕྲིན་དོན་ཟེར་མི་ནང་སྐྱོན་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞིི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:148
+msgid "The foreground color to use for the nickname in messages."
+msgstr "འཕྲིན་དོན་ཚུ་ནང་སྐྱོན་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:149
+msgid "The foreground color to use for the nickname of a channel operator or user in a channel message."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་ཡང་ན་  རྒྱུ་ལམ་འཕྲིན་དོན་གྱི་སྐྱོན་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:150
+msgid "The foreground color to use for the server name in messages from the server."
+msgstr "སར་བར་ལས་འཕྲིན་དོན་ནང་གི་སར་བར་མིང་གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:151
+msgid "The foreground color to used for error messages."
+msgstr "འཛོལ་བའི་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་  གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:152
+msgid "The foreground color to used for links."
+msgstr "འབྲེལ་བ་ཚུ་གི་དོན་ལུ་གདོང་གཞི་ཚོས་གཞི།"
+
+#: ../data/gnomechat.schemas.in.h:153
+msgid "To Me Actions Background Color"
+msgstr "ང་ལུ་བྱ་བ་ཚུ་གི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:154
+msgid "To Me Actions Bold Font"
+msgstr "ང་ལུ་བྱ་བའི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:155
+msgid "To Me Actions Color"
+msgstr "ང་ལུའི་བྱ་བའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:156
+msgid "To Me Actions Italic Font"
+msgstr "ང་ལུའི་བྱ་བ་ཚུ་གི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:157
+msgid "To Me Actions Underline"
+msgstr "ང་ལུའི་  བྱ་བ་ཚུ་གི་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:158
+msgid "To Me Background Color"
+msgstr "ང་ལུའི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:159
+msgid "To Me Bold Font"
+msgstr "ང་ལུའི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:160
+msgid "To Me Color"
+msgstr "ང་ལུའི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:161
+msgid "To Me Nick Background Color"
+msgstr "ང་ལུའི་ནིཀ་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:162
+msgid "To Me Nick Bold Font"
+msgstr "ང་ལུའི་ཡིག་གཟུགས་རྒྱག་པ་"
+
+#: ../data/gnomechat.schemas.in.h:163
+msgid "To Me Nick Color"
+msgstr "ང་ལུའི་ནིཀ་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:164
+msgid "To Me Nick Italic Font"
+msgstr "ང་ལུའི་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:165
+msgid "To Me Nick Underline"
+msgstr "ང་ལུའི་ནིཀ་འོག་ཐིག་"
+
+#: ../data/gnomechat.schemas.in.h:166
+msgid "Use Image Smileys"
+msgstr "གཟུགས་བརྙན་སི་མའི་ལི་ལག་ལེན་འཐབ་"
+
+#: ../data/gnomechat.schemas.in.h:167
+msgid "Use Multi-line Entry widget"
+msgstr "སྣ་མང་འབྲེལ་ཐིག་ཐོ་འགོད་ཝི་གེཊི་ལག་ལེན་འཐབ་"
+
+#: ../data/gnomechat.schemas.in.h:168
+msgid "User List Is Visible"
+msgstr "ལག་ལེན་པའི་ཐོ་ཡིག་འདི་མཐོང་ཚུགས་"
+
+#: ../data/gnomechat.schemas.in.h:169
+msgid "User List Size"
+msgstr "ལག་ལེན་པའི་ཐོ་ཡིག་ཚད་"
+
+#: ../data/gnomechat.schemas.in.h:170
+msgid "User Name"
+msgstr "ལག་ལེན་པའི་མིང་"
+
+#: ../data/gnomechat.schemas.in.h:171
+msgid "Viewer Background Color"
+msgstr "མཐོང་བྱེད་ཀྱི་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:172
+msgid "Viewer Font"
+msgstr "མཐོང་བྱེད་ཀྱི་ཡིག་གཟུགས་"
+
+#: ../data/gnomechat.schemas.in.h:173
+msgid "Viewer Text Color"
+msgstr "མཐོང་བྱེད་ཀྱི་ཚིག་ཡིག་ཚོས་གཞི་"
+
+#: ../data/gnomechat.schemas.in.h:174
+msgid "Viewer Theme Name"
+msgstr "མཐོང་བྱེད་ཀྱི་བརྗོད་དོན་མིང་"
+
+#: ../data/gnomechat.schemas.in.h:175
+msgid "What GnomeChat viewer theme to use. Currently un-implemented."
+msgstr "ཇི་ནོམ་ཁ་སླབ་མཐོང་བྱེད་བརྗོད་དོན་ག་འདི་ལག་ལེན་འཐབ་ནི།  ད་ལྟོ་ལག་ལེན་མ་འཐབ་པས།"
+
+#: ../data/gnomechat.schemas.in.h:176
+msgid "What color to use for the notification highlight for tabs, tree, & menu items, when the notification is about a message to you in the chat."
+msgstr "ཁ་སླབ་ཀྱི་ནང་ལུ་བརྡ་བསྐུལ་འདི་  ཁྱོད་ལུ་འཕྲིན་དོན་འདི་ཨིནམ་ད་  མཆོང་ལྡེ་  རྩ་འབྲེལ་དང་དཀར་ཆག་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་  བརྡ་བསྐུལ་གཙོ་དམིགས་ཀྱི་དོན་ལུ་  ཚོས་གཞི་ག་འདི་ལག་ལེན་འཐབ་ནི།"
+
+#: ../data/gnomechat.schemas.in.h:177
+msgid "What color to use for the notification highlight for tabs, tree, & menu items, when the notification is about text in the chat."
+msgstr "བརྡ་བསྐུལ་འདི་  ཁ་སླབ་ནང་ལུ་ཚིག་ཡིག་ཨིནམ་ད་  མཆོང་ལྡེ་ཚུ་  རྩ་འབྲེལ་དང་  དཀར་ཆག་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་  བརྡ་བསྐུལ་གཙོ་དམིགས་ཀྱི་དོན་ལུ་  ཚོས་གཞི་ག་འདི་ལག་ལེན་འཐབ་ནི།"
+
+#: ../data/gnomechat.schemas.in.h:178
+msgid "Whether or not to append a channel's topic to it's name in the titlebar (e.g. \"#&lt;channel&gt;: (&lt;topic&gt;) - &lt;network&gt; - IRC Chat\")."
+msgstr "མགོ་མིང་ཕྲ་རིང་ནང་ལུ་  རྒྱུ་ལམ་གྱི་མགོ་མིང་འདི་མིང་ཅིག་ལུ་མཇུག་བསྣོན་འབད་རུང་མ་འབད་རུང་  (e.g. \"#&lt;channel&gt;: (&lt;topic&gt;) - &lt;network&gt; - IRC Chat\")"
+
+#: ../data/gnomechat.schemas.in.h:179
+msgid "Whether or not to force a new window to open at a particular position."
+msgstr "གནས་ས་བྱེ་བྲག་ཅིག་ལུ་  སྒོ་སྒྲིག་གསརཔ་ཅིག་བང་བཙོང་འབད་ཁ་ཕྱེ་རུང་མ་ཕྱེ་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:180
+msgid "Whether or not to force the opening window size to the values in /apps/gnomechat/windows/main-window/width and /apps/gnomechat/windows/main-window/height."
+msgstr "/apps/gnomechat/windows/main-window/width and /apps/gnomechat/windows/main-window/height ནང་ཡོད་པའི་གནས་གོང་ཚུ་ལུ་  སྒོ་སྒྲིག་གི་ཚད་ཚུ་བང་བཙོང་འབད་ཁ་ཕྱེ་རུང་མ་ཕྱེ་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:181
+msgid "Whether or not to open the message of the day dialog after connecting to a network."
+msgstr "ཡོངས་འབྲེལ་ལུ་འབྲེལ་མཐུད་འབད་ཚར་བའི་ཤུལ་ལུ་  ཉིནམ་གྱི་ཌའི་ལོག་འདི་ཁ་ཕྱེ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:182
+msgid "Whether or not to prepend a timestamp to messages in the viewer."
+msgstr "མཐོང་བྱེད་ནང་འཕྲིན་དོན་ཚུ་ལུ་  དུས་བཀོད་ཅིག་ པིརི་པེནཌི་འབད་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:183
+msgid "Whether or not to replace text smileys \":-)\" with graphical smileys."
+msgstr "ཚིག་ཡིག་སི་མི་ལིསི་ \":-)\" འདི་  ས་ཆའི་སི་མི་ལིསི་དང་ཅིག་ཁར་ཚབ་བཙུག་འབད་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:184
+msgid "Whether or not to underline actions to me."
+msgstr "བྱ་བ་ཚུ་ང་ལུ་ འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:185
+msgid "Whether or not to underline actions."
+msgstr "བྱ་བ་ཚུ་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:186
+msgid "Whether or not to underline channel messages."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚུ་  འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:187
+msgid "Whether or not to underline error messages."
+msgstr "འཛོལ་བའི་འཕྲིན་དོན་ཚུ་  འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:188
+msgid "Whether or not to underline links."
+msgstr "འབྲེལ་ཐིག་ཚུ་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:189
+msgid "Whether or not to underline messages from the server."
+msgstr "སར་བར་ལས་འཕྲིན་དོན་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:190
+msgid "Whether or not to underline my actions."
+msgstr "ངེས་ཀྱི་བྱ་བ་ཚུ་  འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:191
+msgid "Whether or not to underline my nickname."
+msgstr "ངེས་ཀྱི་སྐྱོན་མིང་འདི་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:192
+msgid "Whether or not to underline the name of a channel in a channel message."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཅིག་ནང་  རྒྱུ་ལམ་ཅིག་གི་མིང་འདི་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:193
+msgid "Whether or not to underline the new value of a channel setting, or the message associated with a setting (example: the kick message in a /kick)."
+msgstr "རྒྱུ་ལམ་སྒྲིག་སྟངས་  ཡང་ན་  སྒྲིག་སྟངས་ (དཔེར་ན: /kick ནང་ལུ་བཏོན་གཏང་ནིའི་འཕྲིན་དོན་) འཕྲིན་དོན་ཅིག་དང་འབྲེལ་བའི་འཕྲིན་དོན་གྱི་  གནས་གོང་གསརཔ་འདི་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:194
+msgid "Whether or not to underline the nickname in messages to me."
+msgstr "ང་ལུའི་འཕྲིན་དོན་ཟེར་མིའི་ནང་ལུ་  སྐྱོན་མིང་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:195
+msgid "Whether or not to underline the nickname in messages."
+msgstr "འཕྲིན་དོན་ཚུ་ནང་  སྐྱོན་མིང་འདི་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:196
+msgid "Whether or not to underline the nickname of a channel operator or user in a channel message."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཅིག་ནང་  རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་ཡང་ན་ལག་ལེན་པ་ཅིག་གི་སྐྱོན་མིང་འདི་  འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:197
+msgid "Whether or not to underline the server name in messages from the server."
+msgstr "སར་རབ་ལས་འཕྲིན་དོན་ཚུ་ནང་  སར་བར་མིང་འདི་འོག་ཐིག་འཐེན་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:198
+msgid "Whether or not to use a bold font for actions to me."
+msgstr "ང་ལུའི་བྱ་བ་ཚུ་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:199
+msgid "Whether or not to use a bold font for actions."
+msgstr "བྱ་བ་ཚུ་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:200
+msgid "Whether or not to use a bold font for channel messages."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:201
+msgid "Whether or not to use a bold font for error messages."
+msgstr "འཕྲིན་དོན་འཛོལ་བའི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:202
+msgid "Whether or not to use a bold font for links."
+msgstr "འབྲེལ་ལམ་ཚུ་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:203
+msgid "Whether or not to use a bold font for messages from the server."
+msgstr "སར་བར་ལས་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:204
+msgid "Whether or not to use a bold font for my actions."
+msgstr "ངེས་ཀྱི་བྱ་བ་ཚུ་ཟེར་མིའི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:205
+msgid "Whether or not to use a bold font for my nickname."
+msgstr "ངེས་ཀྱི་སྐྱོན་མིང་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:206
+msgid "Whether or not to use a bold font for the name of a channel in a channel message."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ནང་ལུ་   རྒྱུ་ལམ་གྱི་མིང་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:207
+msgid "Whether or not to use a bold font for the new value of a channel setting, or the message associated with a setting (example: the kick message in a /kick)."
+msgstr "རྒྱུ་ལམ་སྒྲིག་སྟངས་  ཡང་ན་  སྒྲིག་སྟངས་  (དཔེར་ན: /kickགི་ནང་ལུ་བཏོན་གཏང་བའི་འཕྲིན་དོན་) ཅིག་དང་ཅིག་ཁར་འབྲེལ་བའི་འཕྲིན་དོན་གྱི་  གནས་གོང་གསརཔ་འདི་གི་དོན་ལུ་   ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:208
+msgid "Whether or not to use a bold font for the nickname in messages to me."
+msgstr "ང་ལུའི་འཕྲིན་དོན་ཟེར་མི་ནང་གི་སྐྱོན་མིང་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:209
+msgid "Whether or not to use a bold font for the nickname in messages."
+msgstr "འཕྲིན་དོན་ཚུ་ནང་  སྐྱོན་མིང་གི་དོན་ལུ་ཡིག་གཟུགས་རྒྱག་པ་ཅིག་  ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:210
+msgid "Whether or not to use a bold font for the nickname of a channel operator or user in a channel message."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་ཡང་ན་  རྒྱུ་ལམ་འཕྲིན་དོན་ཅིག་གི་སྐྱོན་མིང་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:211
+msgid "Whether or not to use a bold font for the server name in messages from the server."
+msgstr "སར་བར་ལས་འཕྲིན་དོན་ཚུ་ཨིན་མིའི་སར་བར་གྱི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:212
+msgid "Whether or not to use an italic font for actions to me."
+msgstr "ང་ལུའི་བྱ་བ་ཚུ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་  ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:213
+msgid "Whether or not to use an italic font for actions."
+msgstr "བྱ་བ་ཚུ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:214
+msgid "Whether or not to use an italic font for channel messages."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:215
+msgid "Whether or not to use an italic font for error messages."
+msgstr "འཕྲིན་དོན་འཛོལ་བ་ཚུ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:216
+msgid "Whether or not to use an italic font for links."
+msgstr "འབྲེལ་མཐུད་ཚུ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:217
+msgid "Whether or not to use an italic font for messages from the server."
+msgstr "སར་བར་ལས་ཨིན་པའི་འཕྲིན་དོན་གྱི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:218
+msgid "Whether or not to use an italic font for my actions."
+msgstr "ངེས་ཀྱི་བྱ་བ་ཚུ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:219
+msgid "Whether or not to use an italic font for my nickname."
+msgstr "ངེས་ཀྱི་སྐྱོན་མིང་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:220
+msgid "Whether or not to use an italic font for the name of a channel in a channel message."
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ནང་ལུ་  རྒྱུ་ལམ་གྱི་མིང་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:221
+msgid "Whether or not to use an italic font for the new value of a channel setting, or the message associated with a setting (example: the kick message in a /kick)."
+msgstr "རྒྱུ་ལམ་སྒྲིག་སྟངས་ ཡང་ན་ སྒྲིག་སྟངས་ (དཔེར་ན:  /བཏོན་གཏང་ཟེར་མིའི་ནང་ལུ་  བཞོན་གཏང་བའི་འཕྲིན་དོན་) དང་ཅིག་ཁར་འབྲེལ་བའི་འཕྲིན་དོན་གྱི་  གནས་གོང་གསརཔ་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།  "
+
+#: ../data/gnomechat.schemas.in.h:222
+msgid "Whether or not to use an italic font for the nickname in messages to me."
+msgstr "ང་ལུའི་འཕྲིན་དོན་ཟེར་མི་ནང་ལུ་  སྐྱོན་མིང་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:223
+msgid "Whether or not to use an italic font for the nickname in messages."
+msgstr "འཕྲིན་དོན་ཚུ་ནང་སྐྱོན་མིང་གི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:224
+msgid "Whether or not to use an italic font for the nickname of a channel operator or user in a channel message."
+msgstr "རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་གི་སྐྱོན་མིང་ ཡང་ན་ རྒྱུ་ལམ་འཕྲིན་དོན་ཅིག་ནང་ལག་ལེན་པའི་དོན་ལུ་  ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:225
+msgid "Whether or not to use an italic font for the server name in messages from the server."
+msgstr "སར་བར་ལས་ཨིན་པའི་འཕྲིན་དོན་ཚུ་ནང་   སར་བར་མིང་གི་དོན་ལུ་ཨའི་ཊ་ལིཀ་ཡིག་གཟུགས་ཅིག་ ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../data/gnomechat.schemas.in.h:226
+msgid "Which edge the notebook tabs in a main window should appear along"
+msgstr "སྒོ་སྒྲིག་ངོ་མའི་ནང་ལུ་  འབྲི་དེབ་མཆོང་ལྡེ་ཚུ་གི་མཐའམ་ག་འདི་  འབྱུང་དགོཔ་སྨོ་"
+
+#: ../data/gnomechat.schemas.in.h:227
+msgid "whether A boolean corresponding to whether the tree along the left edge is visible or collapsed in the \"View as List\" mode."
+msgstr "མཐའམ་གཡོན་བདའ་སྟེ་ཡོད་པའི་རྩ་འབྲེལ་འདི་མཐོང་ཚུགསཔ་  ཡང་ན་  \"View as List\" ཐབས་ལམ་ནང་ཧྲམ་ནི་ཨིན་ན་མེན་ན་  བུ་ལིན་ཆ་མཉམ་པ་ཅིག་ཨིན་ན་མེན་ན།"
+
+#: ../src/about.c:63
+msgid "Copyright 2002, 2003 James M. Cape."
+msgstr "འདྲ་བཤུས་དབང་ཆ་  ༢༠༠༢, ༢༠༠༣ ཇེམསི་ ཨེམ. ཀེཔ"
+
+#: ../src/about.c:64
+msgid "I ain't gonna work for Maggie's brother no more!"
+msgstr "མེ་ཇིསི་གི་ཕོ་རྒནམ་གྱི་དོན་ལུ་  ང་ལཱ་མ་པ་ལས་རང་མི་འབད!"
+
+#: ../src/about.c:77
+msgid "An Anarchist FAQ"
+msgstr "ཁྲིམས་མེད་རིང་ལུགས་པ་  ཨེཕ་ཨེ་ཀིའུ་"
+
+#: ../src/about.c:82
+msgid "GnomeChat Website"
+msgstr "ཇི་ནོམ་ཁ་སླབ་ཝེབ་ཀྱི་ས་ཁོངས་"
+
+#: ../src/connect-ui.c:286
+#, c-format
+msgid "Connecting to %s - %s"
+msgstr "%s - %s ལུ་མཐུད་དོ་"
+
+#: ../src/connect-ui.c:772
+#: ../src/network-ui.c:352
+msgid "New Network"
+msgstr "ཡོངས་འབྲེལ་གསརཔ་"
+
+#: ../src/connect-ui.c:813
+#: ../src/connect-ui.c:1070
+#: ../src/network-ui.c:812
+#, c-format
+msgid "Remove %s?"
+msgstr "%s རྩ་བསྐྲད་གཏང་ག?"
+
+#: ../src/connect-ui.c:814
+#: ../src/network-ui.c:812
+msgid "Removing a network will prevent future connections to that network."
+msgstr "ཡོངས་འབྲེལ་རྩ་བསྐྲད་གཏང་མི་དེ་གིས་  ཡོངས་འབྲེལ་འདི་ལུ་མ་འོངས་པའི་མཐུད་ལམ་ཚུ་སྔོན་བཀག་འབདཝ་ཨིན།"
+
+#: ../src/connect-ui.c:827
+#: ../src/network-ui.c:827
+#, c-format
+msgid "Remove Network - %s"
+msgstr "- %sཡོངས་འབྲེལ་འདི་རྩ་བསྐྲད་གཏང་ད"
+
+#: ../src/connect-ui.c:839
+#: ../src/network-ui.c:839
+msgid "_Ask before removing networks in the future"
+msgstr "མ་འོངས་པའི་ནང་ཡོངས་འབྲེལ་ཚུ་  རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་ལས་འདྲི་ད།  (_A)"
+
+#: ../src/connect-ui.c:1071
+#, c-format
+msgid "Removing a server will prevent connection attempts to that server when connecting to %s."
+msgstr "སར་བར་རྩ་བསྐྲད་གཏང་མི་དེ་གིས་  %s ལུ་མཐུད་ལམ་འབད་བའི་བསྒང་  སར་བར་དེ་ལུ་མཐུད་ལམ་དཔའ་བཅམ་ནི་འདི་སྔོན་བཀག་འབདཝ་ཨིན།"
+
+#: ../src/connect-ui.c:1081
+#, c-format
+msgid "Remove Server - %s"
+msgstr "- %s སར་བར་འདི་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/connect-ui.c:1098
+msgid "_Ask before removing servers in the future"
+msgstr "མ་འོངས་པའི་ནང་སར་བར་ཚུ་རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་འདྲི་ད། (_A)"
+
+#: ../src/connect-ui.c:1202
+msgid "#ChannelName"
+msgstr "#ChannelName"
+
+#: ../src/connect-ui.c:1308
+#, c-format
+msgid "Edit Networks - %s"
+msgstr "- %s ཡོངས་འབྲེལ་ཚུ་ཞུན་དག་འབད་"
+
+#: ../src/connect-ui.c:1349
+msgid "Networks"
+msgstr "ཡོངས་འབྲེལ་ཚུ་"
+
+#: ../src/connect-ui.c:1370
+#: ../src/connect-ui.c:1607
+#: ../src/connect-ui.c:1766
+msgid "Add"
+msgstr "ཁ་སྐོང་"
+
+#: ../src/connect-ui.c:1375
+#: ../src/connect-ui.c:1613
+#: ../src/connect-ui.c:1772
+msgid "Remove"
+msgstr "རྩ་བསྐྲད་"
+
+#: ../src/connect-ui.c:1386
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ་"
+
+#: ../src/connect-ui.c:1404
+msgid "<b>Information</b>"
+msgstr "<b>བརྡ་དོན</b>"
+
+#. Network Name
+#: ../src/connect-ui.c:1423
+msgid "_Name: "
+msgstr "མིང་: (_N)"
+
+#. Network Description
+#: ../src/connect-ui.c:1438
+msgid "_Description: "
+msgstr "འགྲེལ་བཤད: (_D)"
+
+#. Network Website URL
+#: ../src/connect-ui.c:1462
+msgid "_Website: "
+msgstr "ཝེབ་ཀྱི་ས་ཁོངས: (_W)"
+
+#: ../src/connect-ui.c:1485
+msgid "<b>Technical</b>"
+msgstr "<b>ཐབས་རིག</b>"
+
+#. Autoconnect
+#: ../src/connect-ui.c:1504
+msgid "_Automatically connect to this network on startup"
+msgstr "འགོ་བཙུག་གུ་  ཡོངས་འབྲེལ་འདི་རང་བཞིན་གྱིས་འབད་མཐུད། (_A)"
+
+#. Network Encoding
+#: ../src/connect-ui.c:1514
+msgid "Default _encoding: "
+msgstr "སྔོན་སྒྲིག་ཨིན་ཀོ་ཌིང་: (_e)"
+
+#: ../src/connect-ui.c:1525
+#: ../src/connect-ui.c:1705
+#: ../src/menus.c:571
+msgid "Select An Encoding - IRC Chat"
+msgstr "ཨིན་ཀོ་ཌིང་ - ཨའི་ཨར་སི་ཁ་སླབ་ཅིག་སེལ་འཐུ་འབད"
+
+#: ../src/connect-ui.c:1527
+msgid "What character encoding this network uses by default"
+msgstr "སྔོན་སྒྲིག་གིས་འབད་  ཡོངས་འབྲེལ་དེ་གིས་ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་ག་འདི་ལག་ལེན་འཐབ་ཨིན་ན"
+
+#: ../src/connect-ui.c:1528
+#: ../src/connect-ui.c:1708
+msgid "This item allows you to select the character encoding this network is using. This option is typically only useful when chats on this network show all \"?\" characters."
+msgstr "ཡོངས་འབྲེལ་འདི་གིས་ལག་ལེན་འཐབ་དོ་ཡོད་མི་  ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་འདི་ རྣམ་གྲངས་དེ་གིས་ཁྱོད་ལུ་སེལ་འཐུ་འབ་དབཅུགཔ་ཨིན།  ཡོངས་འབྲེལ་གུ་ཡོད་པའི་ཁ་སླབ་དེ་གིས་  \"?\" ཡིག་འབྲུ་ཆ་ཚང་སྟོནམ་ད་རྐྱངམ་ཅིག་  གདམ་ཁ་འདི་འཁྲུལ་བ་མེདཔ་སྦེ་  ཕན་ཐོགས་ཅན་ཡོདཔ་ཨིན།"
+
+#. Servers Page
+#: ../src/connect-ui.c:1539
+#: ../src/network-ui.c:498
+msgid "Servers"
+msgstr "སར་བར་ཚུ་"
+
+#: ../src/connect-ui.c:1586
+#: ../src/esco-encoding-selection.c:341
+msgid "Location"
+msgstr "གནས་ཁོངས་"
+
+#: ../src/connect-ui.c:1595
+msgid "Address"
+msgstr "ཁ་བྱང་"
+
+#: ../src/connect-ui.c:1632
+msgid "_Location: "
+msgstr "གནས་ཁོངས: (_L)"
+
+#: ../src/connect-ui.c:1646
+msgid "_Address: "
+msgstr "ཁ་བྱང་: (_A)"
+
+#: ../src/connect-ui.c:1660
+msgid "_Port: "
+msgstr "འདྲེན་ལམ: (_P)"
+
+#: ../src/connect-ui.c:1680
+msgid "Pass_word: "
+msgstr "ཆོག་ཡིག: (_w)"
+
+#: ../src/connect-ui.c:1694
+msgid "_Encoding: "
+msgstr "ཨིན་ཀོ་ཌིང་: (_E)"
+
+#: ../src/connect-ui.c:1707
+msgid "What character encoding this server uses by default"
+msgstr "སྔོན་སྒྲིག་གིས་འབད་སར་བར་འདི་ལུ་  ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་ག་འདི་ལག་ལེན་འཐབ་ཨིན་ན་"
+
+#. Channels page
+#. Channels Page
+#: ../src/connect-ui.c:1719
+#: ../src/network-ui.c:563
+msgid "Channels"
+msgstr "རྒྱུ་ལམ་ཚུ་"
+
+#: ../src/connect-ui.c:1828
+#: ../src/gnomechat-rdf-model.c:1264
+msgid "(Unknown)"
+msgstr "(མ་ཤེསཔ་)"
+
+#: ../src/connect-ui.c:1946
+#: ../src/network-ui.c:1048
+msgid "Connect - IRC Chat"
+msgstr "ཨའི་ཨར་སི་ - ཁ་སླབ་འདི་མཐུད་ད"
+
+#: ../src/connect-ui.c:1971
+msgid "Show: "
+msgstr "སྟོན:"
+
+#: ../src/connect-ui.c:2052
+msgid "Website: "
+msgstr "ཝེབ་ཀྱི་ས་ཁོངས:"
+
+#: ../src/connect-ui.c:2201
+msgid "Disconnect - IRC Chat"
+msgstr "ཨའི་ཨར་སི་ - ཁ་སླབ་འདི་མཐུད་ལམ་བཏོག་"
+
+#: ../src/connect.c:255
+#, c-format
+msgid "Disconnected from %s."
+msgstr "%s ལས་མཐུད་ལམ་བཏོག་ནུག"
+
+#: ../src/connect.c:273
+#, c-format
+msgid "Reconnecting to %s..."
+msgstr "%s ལུ་སླར་མཐུད་དོ..."
+
+#: ../src/connect.c:319
+#: ../src/connect.c:1172
+#, c-format
+msgid ""
+"%sConnecting to %s%s\n"
+"Finding %s..."
+msgstr ""
+"%sའདི་ %s%sལུ་མཐུད་དོ\n"
+"%sའཚོལ་ཞིབ་འབད་དོ..."
+
+#: ../src/connect.c:366
+#, c-format
+msgid ""
+"%sConnecting to %s%s\n"
+"Opening connection to %s..."
+msgstr ""
+"%s འདི་ %s%s ལུ་མཐུད་དོ\n"
+"%sལུ་མཐུད་ལམ་ཁ་ཕྱེ་དོ..."
+
+#: ../src/connect.c:400
+#, c-format
+msgid "Logging in to %s..."
+msgstr " %s ལུ་ནང་བསྐྱོད་འབད་དོ..."
+
+#: ../src/connect.c:404
+#, c-format
+msgid ""
+"%sConnecting to %s%s\n"
+"%s"
+msgstr ""
+"%s འདི་ %s%s ལུ་མཐུད་དོ\n"
+"%s"
+
+#: ../src/connect.c:410
+#, c-format
+msgid "Connected to %s..."
+msgstr "%s མཐུད་ནུག..."
+
+#: ../src/connect.c:541
+#, c-format
+msgid "Joining %s..."
+msgstr "%s མཐུད་དོ..."
+
+#: ../src/connect.c:549
+#, c-format
+msgid "Opening private chat with %s..."
+msgstr "%s དང་ཅིག་ཁར་  སྒེར་དོན་ཁ་སླབ་ཁ་ཕྱེ་དོ..."
+
+#: ../src/connect.c:579
+#, c-format
+msgid "Left %s (Reason: %s)"
+msgstr "གཡོན་ %s (རྒྱུ་མཚན: %s)"
+
+#: ../src/connect.c:584
+#, c-format
+msgid "Left %s"
+msgstr "གཡོན་ %s"
+
+#: ../src/connect.c:589
+#, c-format
+msgid "Closing private chat with %s."
+msgstr "%s དང་ཅིག་ཁར་  སྒེར་དོན་ཁ་སླབ་འདི་ཁ་བསྡམ་དོ།"
+
+#: ../src/connect.c:1075
+#, c-format
+msgid "%s has requested to know what version of %s you are using."
+msgstr "%s དེ་གིས་  ཁྱོད་ཀྱིས་ %s གི་འཐོན་རིམ་ག་འདི་ལག་ལེན་འཐབ་དོ་ཡོདཔ་ཨིན་ན་ ཤེས་ནི་ལུ་ཞུ་བ་འབད་ནུག།"
+
+#: ../src/connect.c:1082
+#, c-format
+msgid "%s has requested to know more about you."
+msgstr "%s དེ་གིས་  ཁྱོད་ཀྱི་སྐོར་ལས་མངམ་ཤེས་ནི་ལུ་ཞུ་བ་འབད་ནུག།"
+
+#: ../src/connect.c:1087
+#, c-format
+msgid "%s has requested to know more about %s's capabilities."
+msgstr "%s དེ་གིས་  %s's གི་ལྕོགས་གྲུབ་ཚུ་གི་སྐོར་ལས་ཤེས་ནི་ལུ་ཞུ་བ་འབད་ནུག།"
+
+#: ../src/connect.c:1093
+#, c-format
+msgid "%s has requested a speed check."
+msgstr "%s དེ་གིས་  ཞིབ་དཔྱད་མགྱོགས་ཚད་ཅིག་ཞུ་བ་འབད་ནུག།"
+
+#: ../src/connect.c:1098
+#, c-format
+msgid "%s has requested your local time."
+msgstr "%s དེ་གིས་  ཁྱོད་ཀྱི་ཉེ་གནས་དུས་ཡུན་འདི་ཞུ་བ་འབད་ནུག།"
+
+#: ../src/esco-chat-box.c:64
+msgid "(None)"
+msgstr "(ཅི་མེད་)"
+
+#: ../src/esco-chat-box.c:1015
+msgid "Chat Privately"
+msgstr "གསང་བའི་སྒོ་ལས་ཁ་སླབ་"
+
+#: ../src/esco-chat-box.c:1016
+msgid "Activating this button opens a private chat to the selected user."
+msgstr "ཨེབ་རྟ་འདི་ཤུགས་ལྡན་བཟོ་མི་དེ་གིས་  སེལ་འཐུ་འབད་ཡོད་པའི་ལག་ལེན་པ་ལུ་  གསང་བའི་ཁ་སླབ་ནི་ཅིག་ཁ་ཕྱེཝ་ཨིན།"
+
+#: ../src/esco-chat-box.c:1028
+msgid "Send File"
+msgstr "ཡིག་སྣོད་གཏང་"
+
+#: ../src/esco-chat-box.c:1029
+msgid "Activating this button will send a file to the selected user."
+msgstr "ཨེབ་རྟ་འདི་ཤུགས་ལྡན་བཟོ་མི་དེ་གིས་  སེལ་འཐུ་འབད་ཡོད་པའི་ལག་ལེན་པ་ལུ་  ཡིག་སྣོད་ཅིག་གཏངམ་ཨིན།"
+
+#: ../src/esco-chat-box.c:1040
+msgid "User Properties"
+msgstr "རྒྱུ་དངོས་ལག་ལེན་པ་"
+
+#: ../src/esco-chat-box.c:1041
+msgid "Activating this button will open the selected user's properties from the server."
+msgstr "ཨེབ་རྟ་འདི་ཤུགས་ལྡན་བཟོ་མི་དེ་གིས་  སེལ་འཐུ་འབད་ཡོད་པའི་ལག་ལེན་པའི་རྒྱུ་དངོས་ཚུ་  སར་བར་ལས་ཁ་ཕྱེཝ་ཨིན།"
+
+#: ../src/esco-chat-box.c:1075
+msgid "Your nickname - Click to toggle between a single-line and multi-line entry box"
+msgstr "ཁྱོད་རའི་སྐྱོན་མིང་ - གྲལ་ཐིག་རྐྱང་པ་ཅིག་དང་  གྲལ་ཐིག་སྣ་མང་ཐོ་བཀོད་སྒྲོམ་གྱི་བར་ན་  སོར་སྟོན་འབད་ནི་ལུ་ཨེབ་རྟ་འབད་"
+
+#: ../src/esco-chat-box.c:1077
+msgid "Activating this item will expand the entry box to use multiple lines."
+msgstr "རྣམ་གྲངས་འདི་ཤུགས་ལྡན་བཟོ་མི་དེ་གིས་  གྲལ་ཐིག་སྣ་མང་ལག་ལེན་འཐབ་ནིའི་ལུ་  ཐོ་བཀོད་སྒྲོམ་འདི་རྒྱ་འཕར་གཏངམ་ཨིན།"
+
+#: ../src/esco-chat-box.c:1117
+msgid "_Send"
+msgstr "གཏང་། (_S)"
+
+#: ../src/esco-chat-box.c:1119
+msgid "Send Message"
+msgstr "འཕྲིན་དོན་གཏང་"
+
+#: ../src/esco-chat-box.c:1120
+msgid "Activating this button sends the message in the entry to the Channel, Server, or User."
+msgstr "ཨེབ་རྟ་འདི་ཤུགས་ལྡན་བཟོ་མི་དེ་གིས་  རྒྱུ་ལམ་  སར་བར་ ཡང་ན་ ལག་ལེན་པ་ལུ་  འཕྲིན་དོན་འདི་ཐོ་བཀོད་ནང་ལུ་གཏངམ་ཨིན།"
+
+#: ../src/esco-chat-box.c:1175
+msgid "ChatBox Mode"
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་ཐབས་ལམ་"
+
+#: ../src/esco-chat-box.c:1176
+msgid "The view mode of the chatbox"
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་མཐོང་ཚུགས་ཐབས་ལམ་"
+
+#: ../src/esco-chat-box.c:1184
+msgid "ChatBox Nickname"
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་སྐྱོན་མིང་"
+
+#: ../src/esco-chat-box.c:1185
+msgid "The nickname of the chatbox user."
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་ལག་ལེན་པའི་སྐྱོན་མིང་།"
+
+#: ../src/esco-chat-box.c:1192
+msgid "ChatBox Title"
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་མགོ་མིང་"
+
+#: ../src/esco-chat-box.c:1194
+msgid "The title to use."
+msgstr "ལག་ལེན་འཐབ་ནི་ཨིན་པའི་མགོ་མིང་"
+
+#: ../src/esco-chat-box.c:1199
+msgid "ChatBox Encoding"
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་ཨིན་ཀོ་ཌིང་"
+
+#: ../src/esco-chat-box.c:1201
+msgid "The character encoding to use."
+msgstr "ལག་ལེན་འཐབ་ནི་ཨིན་པའི་  ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་།"
+
+#: ../src/esco-chat-box.c:1206
+msgid "ChatBox Topic"
+msgstr "ཁ་སླབ་སྒྲོམ་གྱི་གནད་དོན་"
+
+#: ../src/esco-chat-box.c:1207
+msgid "The topic entry's contents."
+msgstr "གནད་དོན་ཐོ་བཀོད་ཀྱི་ནང་དོན་ཚུ།"
+
+#: ../src/esco-chat-box.c:1553
+#: ../src/esco-chat-box.c:1565
+msgid "Clear Chat?"
+msgstr "ཁ་སླབ་བསལ་ད་ག?"
+
+#: ../src/esco-chat-box.c:1554
+msgid "Clearing this chat will permenantly loose any messages recieved."
+msgstr "ཁ་སླབ་བསལ་མི་དེ་གིས་  ཐོབ་ཡོད་པའི་འཕྲིན་དོན་འདི་  རྟག་པར་སྦེ་བརླག་སྟོར་ཞུགས་འོང་།"
+
+#: ../src/esco-chat-box.c:1579
+msgid "Ask when clearing chats in the future."
+msgstr "ཁ་སླབ་ཚུ་མ་འོངས་པའི་ནང་  བསལཝ་ད་འདྲི་ད།"
+
+#: ../src/esco-disclosure.c:237
+msgid "Expander Size"
+msgstr "འཕར་བྱེད་ཀྱི་ཚད་"
+
+#: ../src/esco-disclosure.c:238
+msgid "Size of the expander arrow"
+msgstr "འཕར་བྱེད་མདའ་རྟགས་ཀྱི་ཚད་"
+
+#: ../src/esco-encoding-menu.c:314
+msgid "Other..."
+msgstr "གཞན..."
+
+#: ../src/esco-encoding-menu.c:372
+#: ../src/esco-encoding-picker.c:219
+#: ../src/esco-encoding-selection.c:364
+#: ../src/esco-encoding-selection.c:420
+#: ../src/esco-encoding-selection.c:635
+msgid "Character Encoding"
+msgstr "ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་"
+
+#: ../src/esco-encoding-menu.c:373
+#: ../src/esco-encoding-picker.c:220
+#: ../src/esco-encoding-selection.c:421
+#: ../src/esco-encoding-selection.c:636
+msgid "The currently selected encoding."
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་ཨིན་ཀོ་ཌིང་།"
+
+#: ../src/esco-encoding-menu.c:380
+#: ../src/esco-encoding-picker.c:228
+msgid "Browse Dialog Title"
+msgstr "ཌའི་ལོག་མགོ་མིང་འདི་བརྡ་འཚོལ་འབད་"
+
+#: ../src/esco-encoding-menu.c:381
+#: ../src/esco-encoding-picker.c:229
+msgid "The title to use for the browse dialog."
+msgstr "ཌའི་ལོག་བརྡ་འཚོལ་འབད་ནིའི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ཨིན་པའི་མགོ་མིང་།"
+
+#: ../src/esco-encoding-menu.c:383
+#: ../src/esco-encoding-picker.c:231
+msgid "Select A Character Encoding"
+msgstr "ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་ཅིག་སེལ་འཐུ་འབད་"
+
+#: ../src/esco-encoding-menu.c:389
+#: ../src/esco-encoding-picker.c:238
+msgid "Browse Dialog Modal"
+msgstr "ཌའི་ལོག་ཐབས་ལམ་གྱི་ཟེར་མི་འདི་ བརྡ་འཚོལ་འབད་"
+
+#: ../src/esco-encoding-menu.c:390
+#: ../src/esco-encoding-picker.c:239
+msgid "Whether or not the browse dialog will be modal."
+msgstr "བརྡ་འཚོལ་བའི་ཌའི་ལོག་འདི་ཐབས་ལམ་འདི་ཨིན་རུང་མེན་རུང་།"
+
+#: ../src/esco-encoding-menu.c:396
+#: ../src/esco-encoding-picker.c:247
+msgid "Browse Dialog"
+msgstr "ཌའི་ལོག་བརྡ་འཚོལ་འབད་"
+
+#: ../src/esco-encoding-menu.c:397
+#: ../src/esco-encoding-picker.c:248
+msgid "The browse dialog itself."
+msgstr "ཌའོ་ལོག་དེ་ཉིད་ཀྱིས་འབད་བརྡ་འཚོལ་འབད།"
+
+#: ../src/esco-encoding.c:137
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: ../src/esco-encoding.c:137
+msgid "Universal: UTF-8"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-8"
+
+#: ../src/esco-encoding.c:141
+msgid "UTF-7"
+msgstr "UTF-7"
+
+#: ../src/esco-encoding.c:141
+msgid "Universal: UTF-7"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-7"
+
+#: ../src/esco-encoding.c:145
+msgid "UTF-16"
+msgstr "UTF-16"
+
+#: ../src/esco-encoding.c:145
+msgid "Universal: UTF-16"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-16"
+
+#: ../src/esco-encoding.c:149
+msgid "UTF-16 (Mainframe)"
+msgstr "UTF-16 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:149
+msgid "Universal: UTF-16 (Mainframe)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-16 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:153
+msgid "UTF-16 (IBM PC)"
+msgstr "UTF-16 (ཨའི་བི་ཨེམ་ པི་སི་)"
+
+#: ../src/esco-encoding.c:153
+msgid "Universal: UTF-16 (IBM PC)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-16 (ཨའི་བི་ཨེམ་  པི་སི་)"
+
+#: ../src/esco-encoding.c:157
+msgid "UTF-32"
+msgstr "UTF-32"
+
+#: ../src/esco-encoding.c:157
+msgid "Universal: UTF-32"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-32"
+
+#: ../src/esco-encoding.c:161
+msgid "UTF-32 (Mainframe)"
+msgstr "UTF-32 (གཞི་ཁྲམ་ངོ་མ་)"
+
+#: ../src/esco-encoding.c:161
+msgid "Universal: UTF-32 (Mainframe)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-32 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:165
+msgid "UTF-32 (IBM PC)"
+msgstr "UTF-32 (ཨའི་བི་ཨེམ་ པི་སི་)"
+
+#: ../src/esco-encoding.c:165
+msgid "Universal: UTF-32 (IBM PC)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UTF-32 (ཨའི་བི་ཨེམ་ པི་སི་)"
+
+#: ../src/esco-encoding.c:169
+msgid "UCS-2"
+msgstr "UCS-2"
+
+#: ../src/esco-encoding.c:169
+msgid "Universal: UCS-2"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UCS-2"
+
+#: ../src/esco-encoding.c:173
+msgid "UCS-2 (Mainframe)"
+msgstr "UCS-2 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:173
+msgid "Universal: UCS-2 (Mainframe)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UCS-2 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:177
+msgid "UCS-2 (IBM PC)"
+msgstr "UCS-2 (ཨའི་བི་ཨེམ་  པི་སི)"
+
+#: ../src/esco-encoding.c:177
+msgid "Universal: UCS-2 (IBM PC)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UCS-2 (ཨའི་བི་ཨེམ་  པི་སི་)"
+
+#: ../src/esco-encoding.c:181
+msgid "UCS-4"
+msgstr "UCS-4"
+
+#: ../src/esco-encoding.c:181
+msgid "Universal: UCS-4"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UCS-4"
+
+#: ../src/esco-encoding.c:185
+msgid "UCS-4 (Mainframe)"
+msgstr "UCS-4 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:185
+msgid "Universal: UCS-4 (Mainframe)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UCS-4 (གཞི་ཁྲམ་ངོ་མ)"
+
+#: ../src/esco-encoding.c:189
+msgid "UCS-4 (IBM PC)"
+msgstr "UCS-4 (ཨའི་བི་ཨེམ་  པི་སི་)"
+
+#: ../src/esco-encoding.c:189
+msgid "Universal: UCS-4 (IBM PC)"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ: UCS-4 (ཨའི་བི་ཨེམ་  པི་སི་)"
+
+#: ../src/esco-encoding.c:343
+msgid "Chinese Simplified (GB)"
+msgstr "རྒྱ་ནག་གི།(འཇམ་བཟོས་) (ཇི་བི་)"
+
+#: ../src/esco-encoding.c:343
+msgid "Chinese Simplified: GB"
+msgstr "རྒྱ་ནག་གི།(འཇམ་བཟོས་):(ཇི་བི)"
+
+#: ../src/esco-encoding.c:346
+msgid "Chinese Simplified (GBK)"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་) (ཇི་བི་ཀེ)"
+
+#: ../src/esco-encoding.c:346
+msgid "Chinese Simplified: GBK"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་): ཇི་བི་ཀེ་"
+
+#: ../src/esco-encoding.c:349
+msgid "Chinese Simplified (GB18030)"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་) (GB18030)"
+
+#: ../src/esco-encoding.c:349
+msgid "Chinese Simplified: GB18030"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་): GB18030"
+
+#: ../src/esco-encoding.c:352
+msgid "Chinese Simplified (ISO 2022-CN)"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་) (ISO 2022-CN)"
+
+#: ../src/esco-encoding.c:352
+msgid "Chinese Simplified: ISO 2022-CN"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་): ISO 2022-CN"
+
+#: ../src/esco-encoding.c:356
+msgid "Chinese Traditional (Big 5)"
+msgstr "རྒྱ་ནག་གི། (འཇམ་བཟོས་) (Big 5)"
+
+#: ../src/esco-encoding.c:356
+msgid "Chinese Traditional: Big 5"
+msgstr "རྒྱ་ནག་གི། (སྔོན་སྲོལ): Big 5"
+
+#: ../src/esco-encoding.c:359
+msgid "Chinese Traditional (Big 5 HK)"
+msgstr "རྒྱ་ནག་གི། (སྔོན་སྲོལ) (Big 5 HK)"
+
+#: ../src/esco-encoding.c:359
+msgid "Chinese Traditional: Big 5 (HK)"
+msgstr "རྒྱ་ནག་གི། (སྔོན་སྲོལ): Big 5 (HK)"
+
+#: ../src/esco-encoding.c:362
+msgid "Chinese Traditional (EUC-TW)"
+msgstr "རྒྱ་ནག་གི། (སྔོན་སྲོལ) (EUC-TW)"
+
+#: ../src/esco-encoding.c:362
+msgid "Chinese Traditional: EUC-TW"
+msgstr "རྒྱ་ནག་གི། (སྔོན་སྲོལ): EUC-TW"
+
+#: ../src/esco-encoding.c:366
+msgid "Japanese (ISO 2022-JP)"
+msgstr "ཇ་པ་ནིསི།  (ISO 2022-JP)"
+
+#: ../src/esco-encoding.c:366
+msgid "Japanese: ISO 2022-JP"
+msgstr "ཇ་པ་ནིསི: ISO 2022-JP"
+
+#: ../src/esco-encoding.c:369
+msgid "Japanese (EUC-JP)"
+msgstr "ཇ་པ་ནིསི་ (EUC-JP)"
+
+#: ../src/esco-encoding.c:369
+msgid "Japanese: EUC-JP"
+msgstr "ཇ་པ་ནིསི: EUC-JP"
+
+#: ../src/esco-encoding.c:372
+msgid "Japanese (Shift JIS)"
+msgstr "ཇ་པ་ནིསི་ (Shift JIS)"
+
+#: ../src/esco-encoding.c:372
+msgid "Japanese: Shift JIS"
+msgstr "ཇ་པ་ནིསི: Shift JIS"
+
+#: ../src/esco-encoding.c:376
+msgid "Korean (ISO 2022-KR)"
+msgstr "ཀོ་རི་ཡའི་ (ISO 2022-KR)"
+
+#: ../src/esco-encoding.c:376
+msgid "Korean: ISO 2022-KR"
+msgstr "ཀོ་རི་ཡའི: ISO 2022-KR"
+
+#: ../src/esco-encoding.c:379
+msgid "Korean (EUC-KR)"
+msgstr "ཀོ་རི་ཡའི་ (EUC-KR)"
+
+#: ../src/esco-encoding.c:379
+msgid "Korean: EUC-KR"
+msgstr "ཀོ་རི་ཡའི: EUC-KR"
+
+#: ../src/esco-encoding.c:382
+msgid "Korean (UHC)"
+msgstr "ཀོ་རི་ཡའི་ (UHC)"
+
+#: ../src/esco-encoding.c:382
+msgid "Korean: UHC"
+msgstr "ཀོ་རི་ཡའི: UHC"
+
+#: ../src/esco-encoding.c:385
+msgid "Korean (JOHAB)"
+msgstr "ཀོ་རི་ཡའི་ (JOHAB)"
+
+#: ../src/esco-encoding.c:385
+msgid "Korean: JOHAB"
+msgstr "ཀོ་རི་ཡའི: JOHAB"
+
+#: ../src/esco-encoding.c:389
+msgid "Thai (TIS-620)"
+msgstr "ཐཱའི་ (TIS-620)"
+
+#: ../src/esco-encoding.c:389
+msgid "Thai: TIS-620"
+msgstr "ཐཱའི: TIS-620"
+
+#: ../src/esco-encoding.c:393
+msgid "Vietnamese (TCVN)"
+msgstr "ཝེཊི་ན་མིསི། (TCVN)"
+
+#: ../src/esco-encoding.c:393
+msgid "Vietnamese: TCVN"
+msgstr "ཝེཊི་ན་མིསི: TCVN"
+
+#: ../src/esco-encoding.c:396
+msgid "Vietnamese (VISCII)"
+msgstr "ཝེཊི་ན་མིསི། (VISCII)"
+
+#: ../src/esco-encoding.c:396
+msgid "Vietnamese: VISCII"
+msgstr "ཝེཊི་ན་མིསི: VISCII"
+
+#: ../src/esco-encoding.c:399
+msgid "Vietnamese (Windows)"
+msgstr "ཝེཊི་ན་མིསི། (སྒོ་སྒྲིག་ཚུ་)"
+
+#: ../src/esco-encoding.c:399
+msgid "Vietnamese: Windows"
+msgstr "ཝེཊི་ན་མིསི: སྒོ་སྒྲིག་ཚུ་"
+
+#: ../src/esco-encoding.c:460
+msgid "Armenian (ARMSCII)"
+msgstr "ཨར་མི་ནི་ཡཱན། (ARMSCII)"
+
+#: ../src/esco-encoding.c:460
+msgid "Armenian: ARMSCII"
+msgstr "ཨར་མི་ནི་ཡཱན: ARMSCII"
+
+#: ../src/esco-encoding.c:464
+msgid "Georgian (GEOSTD8)"
+msgstr "ཇིའོར་ཇི་ཡཱན། (GEOSTD8)"
+
+#: ../src/esco-encoding.c:464
+msgid "Georgian: GEOSTD8"
+msgstr "ཇིའོར་ཇི་ཡཱན: GEOSTD8"
+
+#: ../src/esco-encoding.c:468
+msgid "Turkish (ISO 8859-9)"
+msgstr "ཊར་ཀིཤ།  (ISO 8859-9)"
+
+#: ../src/esco-encoding.c:468
+msgid "Turkish: ISO 8859-9"
+msgstr "ཊར་ཀིཤ: ISO 8859-9"
+
+#: ../src/esco-encoding.c:471
+msgid "Turkish (IBM-857)"
+msgstr "ཊར་ཀིཤ།  (IBM-857)"
+
+#: ../src/esco-encoding.c:471
+msgid "Turkish: IBM-857"
+msgstr "ཊར་ཀིཤ: IBM-857"
+
+#: ../src/esco-encoding.c:474
+msgid "Turkish (Microsoft)"
+msgstr "ཊར་ཀིཤ། (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:474
+msgid "Turkish: Microsoft"
+msgstr "ཊར་ཀིཤ: མའི་ཀོརོ་སོཕཊི་"
+
+#: ../src/esco-encoding.c:645
+msgid "Baltic (ISO 8859-13)"
+msgstr "བཱལ་ཊིཀ  (ISO 8859-13)"
+
+#: ../src/esco-encoding.c:645
+msgid "Baltic: ISO 8859-13"
+msgstr "བཱལ་ཊིཀ: ISO 8859-13"
+
+#: ../src/esco-encoding.c:648
+msgid "Baltic (ISO 8859-4)"
+msgstr "བཱལ་ཊིཀ  (ISO 8859-4)"
+
+#: ../src/esco-encoding.c:648
+msgid "Baltic: ISO 8859-4"
+msgstr "བཱལ་ཊིཀ:  ISO 8859-4"
+
+#: ../src/esco-encoding.c:651
+msgid "Baltic (Microsoft)"
+msgstr "བཱལ་ཊིཀ  (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:651
+msgid "Baltic: Microsoft"
+msgstr "བཱལ་ཊིཀ: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:655
+msgid "Cyrillic (ISO 8859-5)"
+msgstr "སི་རི་ལིཀ   (ISO 8859-5)"
+
+#: ../src/esco-encoding.c:655
+msgid "Cyrillic: ISO 8853-5"
+msgstr "སི་རི་ལིཀ: ISO 8853-5"
+
+#: ../src/esco-encoding.c:658
+msgid "Cyrillic (IBM-855)"
+msgstr "སི་རི་ལིཀ (IBM-855)"
+
+#: ../src/esco-encoding.c:658
+msgid "Cyrillic: IBM-855"
+msgstr "སི་རི་ལིཀ: IBM-855"
+
+#: ../src/esco-encoding.c:661
+msgid "Cyrillic (KOI-8)"
+msgstr "སི་རི་ལིཀ  (KOI-8)"
+
+#: ../src/esco-encoding.c:661
+msgid "Cyrillic: KOI-8"
+msgstr "སི་རི་ལིཀ: KOI-8"
+
+#: ../src/esco-encoding.c:664
+msgid "Cyrillic (ISO IR-111)"
+msgstr "སི་རི་ལིཀ (ISO IR-111)"
+
+#: ../src/esco-encoding.c:664
+msgid "Cyrillic: ISO IR-111"
+msgstr "སི་རི་ལིཀ: ISO IR-111"
+
+#: ../src/esco-encoding.c:667
+msgid "Cyrillic (Microsoft)"
+msgstr "སི་རི་ལིཀ  (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:667
+msgid "Cyrillic: Microsoft"
+msgstr "སི་རི་ལིཀ: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:670
+msgid "Cyrillic (Apple)"
+msgstr "སི་རི་ལིཀ  (ཨེ་པཱལ)"
+
+#: ../src/esco-encoding.c:670
+msgid "Cyrillic: Apple"
+msgstr "སི་རི་ལིཀ: ཨེ་པཱལ"
+
+#: ../src/esco-encoding.c:674
+msgid "Eastern (ISO 8859-2)"
+msgstr "ཤར་ཕྱོགས་ཀྱི། (ISO 8859-2)"
+
+#: ../src/esco-encoding.c:674
+msgid "Eastern: ISO 8853-2"
+msgstr "ཤར་ཕྱོགས་ཀྱི: ISO 8853-2"
+
+#: ../src/esco-encoding.c:677
+msgid "Eastern (IBM-852)"
+msgstr "ཤར་ཕྱོགས་ཀྱི། (IBM-852)"
+
+#: ../src/esco-encoding.c:677
+msgid "Eastern: IBM-852"
+msgstr "ཤར་ཕྱོགས་ཀྱི: IBM-852"
+
+#: ../src/esco-encoding.c:680
+msgid "Eastern (Microsoft)"
+msgstr "ཤར་ཕྱོགས་ཀྱི། (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:680
+msgid "Eastern: Microsoft"
+msgstr "ཤར་ཕྱོགས་ཀྱི: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:684
+msgid "Romainian (ISO 8859-16)"
+msgstr "རོ་མ་ནི་ཡཱན། (ISO 8859-16)"
+
+#: ../src/esco-encoding.c:684
+msgid "Romainian: ISO 8859-16"
+msgstr "རོ་མ་ནི་ཡཱན: ISO 8859-16"
+
+#: ../src/esco-encoding.c:688
+msgid "Russian (KOI-8-R)"
+msgstr "ར་ཤི་ཡཱན། (KOI-8-R)"
+
+#: ../src/esco-encoding.c:688
+msgid "Russian: KOI-8-R"
+msgstr "ར་ཤི་ཡཱན: KOI-8-R"
+
+#: ../src/esco-encoding.c:691
+msgid "Russian (IBM-866)"
+msgstr "ར་ཤི་ཡཱན། (IBM-866)"
+
+#: ../src/esco-encoding.c:691
+msgid "Russian: IBM-866"
+msgstr "ར་ཤི་ཡཱན: IBM-866"
+
+#: ../src/esco-encoding.c:695
+msgid "Ukranian (KOI-8-U)"
+msgstr "ཡུཀ་ར་ནི་ཡཱན། (KOI-8-U)"
+
+#: ../src/esco-encoding.c:695
+msgid "Ukranian: KOI-8-U"
+msgstr "ཡུཀ་ར་ནི་ཡཱན:  KOI-8-U"
+
+#: ../src/esco-encoding.c:698
+msgid "Ukranian (Apple)"
+msgstr "ཡུཀ་ར་ནི་ཡཱན།  (ཨེ་པཱལ)"
+
+#: ../src/esco-encoding.c:698
+msgid "Ukranian: Apple"
+msgstr "ཡུཀ་ར་ནི་ཡཱན: ཨེ་པཱལ"
+
+#: ../src/esco-encoding.c:838
+msgid "Celtic (ISO 8859-14)"
+msgstr "སེལ་ཊིཀ། (ISO 8859-14)"
+
+#: ../src/esco-encoding.c:838
+msgid "Celtic: ISO 8859-14"
+msgstr "སེལ་ཊིཀ: ISO 8859-14"
+
+#: ../src/esco-encoding.c:842
+msgid "Greek (ISO 8859-7)"
+msgstr "གི་རིཀ། (ISO 8859-7)"
+
+#: ../src/esco-encoding.c:842
+msgid "Greek: ISO 8859-7"
+msgstr "གི་རིཀ: ISO 8859-7"
+
+#: ../src/esco-encoding.c:845
+msgid "Greek (Microsoft)"
+msgstr "གི་རིཀ། (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:845
+msgid "Greek: Microsoft"
+msgstr "གི་རིཀ: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:849
+msgid "Nordic (ISO 8859-10)"
+msgstr "ནོར་ཌིཀ (ISO 8859-10)"
+
+#: ../src/esco-encoding.c:849
+msgid "Nordic: ISO 8859-10"
+msgstr "ནོར་ཌིཀ: ISO 8859-10"
+
+#: ../src/esco-encoding.c:853
+msgid "Southern (ISO 8859-3)"
+msgstr "ལྷོ་ཕྱོགས་ཀྱི། (ISO 8859-3)"
+
+#: ../src/esco-encoding.c:853
+msgid "Southern: ISO 8859-3"
+msgstr "ལྷོ་ཕྱོགས་ཀྱི: ISO 8859-3"
+
+#: ../src/esco-encoding.c:857
+msgid "Western (ISO 8859-15)"
+msgstr "ནུབ་ཕྱོགས་ཀྱི། (ISO 8859-15)"
+
+#: ../src/esco-encoding.c:857
+msgid "Western: ISO 8859-15"
+msgstr "ནུབ་ཕྱོགས་ཀྱི: ISO 8859-15"
+
+#: ../src/esco-encoding.c:860
+msgid "Western (ISO 8859-1)"
+msgstr "ནུས་ཕྱོགས་ཀྱི། (ISO 8859-1)"
+
+#: ../src/esco-encoding.c:860
+msgid "Western: ISO 8859-1"
+msgstr "ནུབ་ཕྱོགས་ཀྱི: ISO 8859-1"
+
+#: ../src/esco-encoding.c:863
+msgid "Western (IBM-850)"
+msgstr "ནུབ་ཕྱོགས་ཀྱི། (IBM-850)"
+
+#: ../src/esco-encoding.c:863
+msgid "Western: IBM 850"
+msgstr "ནུབ་ཕྱོགས་ཀྱི: IBM 850"
+
+#: ../src/esco-encoding.c:866
+msgid "Western (Microsoft)"
+msgstr "ནུབ་ཕྱོགས་ཀྱི། (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:866
+msgid "Western: Microsoft"
+msgstr "ནུབ་ཕྱོགས་ཀྱི: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:869
+msgid "Western (Apple)"
+msgstr "ནུབ་ཕྱོགས་ཀྱི། (ཨེ་པཱལ)"
+
+#: ../src/esco-encoding.c:869
+msgid "Western: Apple"
+msgstr "ནུབ་ཕྱོགས་ཀྱི: ཨེ་པཱལ"
+
+#: ../src/esco-encoding.c:873
+msgid "English (ASCII)"
+msgstr "ཨིང་ལིཤ (ASCII)"
+
+#: ../src/esco-encoding.c:873
+msgid "English: ASCII"
+msgstr "ཨིང་ལིཤ: ASCII"
+
+#: ../src/esco-encoding.c:950
+msgid "Arabic (ISO 8859-6)"
+msgstr "ཨ་ར་བིཀ (ISO 8859-6)"
+
+#: ../src/esco-encoding.c:950
+msgid "Arabic: ISO 8859-6"
+msgstr "ཨ་ར་བིཀ: ISO 8859-6"
+
+#: ../src/esco-encoding.c:953
+msgid "Arabic (IBM 864)"
+msgstr "ཨ་ར་བིཀ (IBM 864)"
+
+#: ../src/esco-encoding.c:953
+msgid "Arabic: IBM 864"
+msgstr "ཨ་ར་བིཀ: IBM 864"
+
+#: ../src/esco-encoding.c:956
+msgid "Arabic (Microsoft)"
+msgstr "ཨ་ར་བིཀ (མའི་ཀོརོ་སོཕཊི)"
+
+#: ../src/esco-encoding.c:956
+msgid "Arabic: Microsoft"
+msgstr "ཨ་ར་བིཀ: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:960
+msgid "Hebrew (ISO 8859-8)"
+msgstr "ཧེབ་བིརིའུ། (ISO 8859-8)"
+
+#: ../src/esco-encoding.c:960
+msgid "Hebrew: ISO 8859-8"
+msgstr "ཧེབ་བིརིའུ: ISO 8859-8"
+
+#: ../src/esco-encoding.c:963
+msgid "Hebrew (IBM-862)"
+msgstr "ཧེབ་བིརིའུ། (IBM-862)"
+
+#: ../src/esco-encoding.c:963
+msgid "Hebrew: IBM-862"
+msgstr "ཧེབ་བིརིའུ: IBM-862"
+
+#: ../src/esco-encoding.c:966
+msgid "Hebrew (Microsoft)"
+msgstr "ཧེབ་བིརིའུ། (མའི་ཀོརོ་སོཕཏི)"
+
+#: ../src/esco-encoding.c:966
+msgid "Hebrew: Microsoft"
+msgstr "ཧེབ་བིརིའུ: མའི་ཀོརོ་སོཕཊི"
+
+#: ../src/esco-encoding.c:974
+msgid "Universal"
+msgstr "འཛམ་གླིང་ཡོངས་ཁྱབ"
+
+#: ../src/esco-encoding.c:975
+msgid "Eastern Asia"
+msgstr "ཤར་ཕྱོགས་ཀྱི་ཨེ་ཤི་ཡ"
+
+#: ../src/esco-encoding.c:976
+msgid "Western Asia"
+msgstr "ནུབ་ཕྱོགས་ཀྱི་ཨེ་ཤི་ཡ"
+
+#: ../src/esco-encoding.c:977
+msgid "Eastern Europe"
+msgstr "ཤར་ཕྱོགས་ཀྱི་ཡུ་རོཔ"
+
+#: ../src/esco-encoding.c:978
+msgid "Western Europe"
+msgstr "ནུབ་ཕྱོགས་ཀྱི་ཡུ་རོཔ"
+
+#: ../src/esco-encoding.c:979
+msgid "Middle East"
+msgstr "མི་ཌཱལ་ཨིསཊི"
+
+#: ../src/esco-hpaned.c:118
+msgid "HPaned Open/Closed"
+msgstr "ཨེཆ་པེནཌི་ ཁ་ཕྱེ་/ ཁ་བསྡམ་ཡོདཔ་"
+
+#: ../src/esco-hpaned.c:120
+msgid "Whether the HPaned is open or closed"
+msgstr "ཨེཆ་པེནཌི་འདི་  ཁ་ཕྱེ་ཡང་ན་ཁ་བསྡམ་དེ་ཡོདཔ་ཨིན་ན་མེན་ན"
+
+#: ../src/esco-hpaned.c:129
+msgid "HPaned Close Side"
+msgstr "ཨེཆ་པེནཌི་ ཟུར་བསྡམ"
+
+#: ../src/esco-hpaned.c:130
+msgid "Which side the Hpaned hides when it closes."
+msgstr "ཁ་བསྡམ་པའི་བསྒང་  ཨེཆ་པེནཌི་གི་ཟུར་ག་འདི་སྦ་ནི་ཨིན་ན།"
+
+#: ../src/esco-hpaned.c:140
+msgid "HPaned Size Saving Function"
+msgstr "ཨེཆ་པེནཌི་གི་ཚད་སྲུང་བཞག་འབད་བའི་ལས་འགན"
+
+#: ../src/esco-hpaned.c:143
+msgid "Which function to call when this paned's size is set."
+msgstr "པེནཌི་གི་ཚད་འདི་གཞི་སྒྲིག་འབད་ཚར་བའི་ཤུལ་ལུ་  ལས་འགན་ག་ཨིན་ཟེར་སླབ་ནི།"
+
+#: ../src/esco-hpaned.c:152
+msgid "HPaned Size Loading Function"
+msgstr "ཨེཆ་པེནཌི་གི་ཚད་འདི་མངོན་གསལ་འབད་བའི་ལས་འགན"
+
+#: ../src/esco-hpaned.c:155
+msgid "Which function to call when this paned's is realized, to get the initial size."
+msgstr "འགོ་ཐོག་ཚད་འདི་ཐོབ་ནི་ཨིན་ཟེར་  པེནཌི་དེ་གིས་ཤེས་པའི་ཤུལ་ལུ་  ལས་འགན་ག་འདི་ཨིན་ཟེར་སླབ་ནི།"
+
+#. Users Page
+#: ../src/esco-userlist-view.c:457
+#: ../src/netserv-ui.c:1763
+msgid "Users"
+msgstr "ལག་ལེན་པ་ཚུ"
+
+#: ../src/esco-viewer.c:1530
+msgid "Error:"
+msgstr "འཛོལ་བ:"
+
+#: ../src/esco-viewer.c:1740
+#, c-format
+msgid ""
+"Your system is not capable of displaying text which uses \"%s\" character coding.\n"
+"\n"
+"Please select a different character coding."
+msgstr ""
+"\"%s\" ཡིག་འབྲུའི་ཀོ་ཌིང་ལག་ལེན་འཐབ་མི་  ཁྱོད་ཀྱི་རིམ་ལུགས་འདི་ལྕོགས་གྲུབ་མིན་འདུག། \n"
+"\n"
+"ཡིག་འབྲུའི་ཀོ་ཌིང་སོ་སོ་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/esco-viewer.c:1793
+msgid "_Open Link"
+msgstr "འབྲེལ་ལམ་ཁ་ཕྱེ། (_O)"
+
+#: ../src/esco-viewer.c:1801
+msgid "_Copy Link Location"
+msgstr "འབྲེལ་ལམ་གནས་ཁོངས་འདི་འདྲ་བཤུས་བརྐྱབ། (_C)"
+
+#: ../src/esco-viewer.c:1996
+msgid "Viewer Mode"
+msgstr "མཐོང་བྱེད་ཀྱི་ཐབས་ལམ"
+
+#: ../src/esco-viewer.c:1997
+msgid "Whether this viewer is a query, channel, or server"
+msgstr "མཐོང་བྱེད་འདི་  འདྲི་དཔྱད་  རྒྱུ་ལམ་  ཡང་ན་ སར་བར་ཨིན་ན་མེན་ན"
+
+#: ../src/esco-viewer.c:2006
+msgid "Viewer Nickname"
+msgstr "མཐོང་བྱེད་ཀྱི་སྐྱོན་མིང་"
+
+#: ../src/esco-viewer.c:2007
+msgid "The nickname to highlight text for"
+msgstr "ཚིག་ཡིག་གཙོ་དམིགས་བཀོད་ནིའི་  སྐྱོན་མིང་"
+
+#: ../src/esco-viewer.c:2014
+msgid "Viewer Encoding"
+msgstr "མཐོང་བྱེད་ཨིན་ཀོ་ཌིང་"
+
+#: ../src/esco-viewer.c:2015
+msgid "The encoding to use for translating incoming strings to UTF-8."
+msgstr "UTF-8 ཡུ་ཊི་ཨེཕ་ལུ་འོང་བའི་ཡིག་རྒྱུན་འདི་  སྐད་བསྒྱུར་འབད་ནིའི་དོན་ལུ་  ཨིན་ཀོ་ཌིང་།"
+
+#: ../src/esco-window.c:554
+msgid "Chats"
+msgstr "ཁ་སླབ་ཚུ"
+
+#: ../src/esco-window.c:618
+msgid "Window Layout"
+msgstr "སྒོ་སྒྲིག་སྒྲིག་བཀོད"
+
+#: ../src/esco-window.c:619
+msgid "The layout style of the window"
+msgstr "སྒོ་སྒྲིག་གི་སྒྲིག་བཀོད་བཟོ་རྣམ"
+
+#: ../src/menus.c:99
+msgid "_Chat Privately"
+msgstr "གསང་བའི་ཐོག་ལས་ཁ་སླབ། (_C)"
+
+#: ../src/menus.c:100
+msgid "Chat privately with this user"
+msgstr "ལག་ལེན་པ་འདི་དང་ཅིག་ཁར་  གསང་བའི་ཐོག་ལས་ཁ་སླབ"
+
+#: ../src/menus.c:104
+msgid "_Send File..."
+msgstr "ཡིག་སྣོད་གཏང་...(_S)"
+
+#: ../src/menus.c:104
+msgid "Send a file to this user"
+msgstr "ལག་ལེན་པ་འདི་ལུ་  ཡིག་སྣོད་ཅིག་གཏང་"
+
+#: ../src/menus.c:168
+msgid "_New Chat"
+msgstr "ཁ་སླབ་གསརཔ། (_N)"
+
+#: ../src/menus.c:168
+msgid "Open a new chat"
+msgstr "ཁ་སླབ་གསརཔ་ཅིག་ཁ་ཕྱེ"
+
+#: ../src/menus.c:170
+msgid "New _Window"
+msgstr "སྒོ་སྒྲིག་གསརཔ། (_W)"
+
+#: ../src/menus.c:170
+msgid "Open a new window"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཅིག་ཁ་ཕྱེ"
+
+#: ../src/menus.c:174
+msgid "Connec_t..."
+msgstr "མཐུད...(_t)"
+
+#: ../src/menus.c:174
+#: ../src/menus.c:176
+msgid "Connect to a server"
+msgstr "སར་བར་ཅིག་ལུ་མཐུད"
+
+#: ../src/menus.c:176
+msgid "New Connec_t..."
+msgstr "གསར་མཐུད་འབད...(_t)"
+
+#: ../src/menus.c:178
+msgid "_Disconnect..."
+msgstr "མཐུད་ལམ་བཏོག་ནི...(_D)"
+
+#: ../src/menus.c:179
+msgid "Disconnect from a server"
+msgstr "སར་བར་ལས་མཐུད་ལམ་བཏོག་ད"
+
+#: ../src/menus.c:302
+msgid "Find Text - IRC Chat"
+msgstr "ཚིག་ཡིག་- ཨའི་ཨར་སི་ཁ་སླབ་འདི་འཚོལ"
+
+#: ../src/menus.c:337
+msgid "Text to find: "
+msgstr "འཚོལ་ནིའི་ཚིག་ཡིག:"
+
+#: ../src/menus.c:359
+msgid "Ignore upper and lower case"
+msgstr "ཚུགས་ཡིག་དང་མགྱོགས་ཡིག་སྣང་མེདཔ་བཞག"
+
+#: ../src/menus.c:452
+msgid "As _Tabs"
+msgstr "མཆོང་ལྡེ་བཟུམ། (_T)"
+
+#: ../src/menus.c:453
+msgid "Show chats in the current window as tabs"
+msgstr "ད་ལྟའི་སྒོ་སྒྲིག་ནང་མཆོང་ལྡེ་སྦེ་  ཁ་སླབ་ཚུ་སྟོན"
+
+#: ../src/menus.c:455
+msgid "As a _List"
+msgstr "ཐོ་ཡིག་བཟུམ། (_L)"
+
+#: ../src/menus.c:456
+msgid "Show chats in the current window in a list"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ལུ་ཐོ་ཡིག་སྦེ་  ཁ་སླབ་ཚུ་སྟོན"
+
+#: ../src/menus.c:458
+msgid "As _Windows"
+msgstr "སྒོ་སྒྲིག་བཟུམ། (_W)"
+
+#: ../src/menus.c:459
+msgid "Show chats in the current window as individual windows"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ལུ་སྒོ་སྒྲིག་ངོ་རྐྱང་སྦེ་ ཁ་སླབ་ཚུ་སྟོན"
+
+#: ../src/menus.c:487
+msgid "Older _Messages..."
+msgstr "འཕྲིན་དོན་རྙིང་ཚུ...(_M)"
+
+#: ../src/menus.c:488
+msgid "View older messages recieved on this item"
+msgstr "རྣམ་གྲངས་འདི་གུ་ཐོབ་ཡོད་པའི་འཕྲིན་དོན་རྙིངམ་འདི་སྟོན"
+
+#: ../src/menus.c:491
+#: ../src/stock-items.c:351
+msgid "_Server Properties"
+msgstr "སར་བར་རྒྱུ་དངོས། (_S)"
+
+#: ../src/menus.c:492
+msgid "View information about this server"
+msgstr "སར་བར་འདི་གི་སྐོར་ལས་བརྡ་དོན་སྟོན"
+
+#: ../src/menus.c:495
+#: ../src/stock-items.c:357
+msgid "_User Properties"
+msgstr "ལག་ལེན་པའི་རྒྱུ་དངོས། (_U)"
+
+#: ../src/menus.c:496
+msgid "View information about this user"
+msgstr "ལག་ལེན་པ་འདི་གི་སྐོར་ལས་བརྡ་དོན་སྟོན"
+
+#: ../src/menus.c:498
+#: ../src/stock-items.c:354
+msgid "Channel _Properties"
+msgstr "རྒྱུ་ལམ་རྒྱུ་དངོས། (_P)"
+
+#: ../src/menus.c:499
+msgid "View information about this channel"
+msgstr "རྒྱུ་ལམ་འདི་གི་སྐོར་ལས་བརྡ་དོན་སྟོན"
+
+#: ../src/menus.c:503
+#: ../src/stock-items.c:361
+msgid "Character C_oding"
+msgstr "ཡིག་འབྲུའི་ཀོ་ཌིང་། (_o)"
+
+#: ../src/menus.c:504
+msgid "Change the character encoding this channel uses"
+msgstr "རྒྱུ་ལམ་འདི་གིས་ལག་ལེན་འཐབ་དོ་ཡོད་པའི་ ཡིག་འབྲུའི་ཨིན་ཀོ་ཌིང་འདི་བསྒྱུར་བཅོས་འབད"
+
+#: ../src/menus.c:522
+msgid "_Documentation..."
+msgstr "ཡིག་ཐོག་བཀོད་པ...(_D)"
+
+#: ../src/menus.c:522
+msgid "Read the GnomeChat documentation"
+msgstr "ཇི་ནོམ་ཁ་སླབ་ཡིག་ཐོག་བཀོད་པ་འདི་ལྷག"
+
+#: ../src/menus.c:535
+msgid "_IRC Chat"
+msgstr "ཨའི་ཨར་སི་ཁ་སླབ། (_I)"
+
+#: ../src/menus.c:535
+#: ../src/menus.c:543
+msgid "Open chats with servers, channels, or users"
+msgstr "སར་བར་ཚུ་དང་རྒྱུ་ལམ་ ཡང་ན་ ལག་ལེན་པ་ཚུ་དང་ཅིག་ཁར་ཁ་སླབ་ཚུ་ཁ་ཕྱེ"
+
+#: ../src/menus.c:543
+msgid "_Chats"
+msgstr "ཁ་སླབ་ཚུ། (_C)"
+
+#: ../src/netserv-ui.c:561
+msgid "<b>Retrieving user information...</b>"
+msgstr "<b>ལག་ལེན་པའི་བརྡ་དོན་འདི་སླར་འདྲེན་འབད...</b>"
+
+#: ../src/netserv-ui.c:585
+msgid "<b>General</b>"
+msgstr "<b>ཡོངས་ཁྱབ</b>"
+
+#: ../src/netserv-ui.c:605
+msgid "Nickname: "
+msgstr "སྐྱོན་མིང་:"
+
+#: ../src/netserv-ui.c:618
+msgid "Real name: "
+msgstr "མིང་ངོ་མ:"
+
+#: ../src/netserv-ui.c:631
+msgid "User name: "
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../src/netserv-ui.c:644
+msgid "Host name: "
+msgstr "ཧོསཊི་མིང་:"
+
+#: ../src/netserv-ui.c:657
+msgid "Host address: "
+msgstr "ཧོསཊི་ཁ་བྱང་:"
+
+#: ../src/netserv-ui.c:670
+msgid "Server: "
+msgstr "སར་བར:"
+
+#: ../src/netserv-ui.c:683
+msgid "Server Comment: "
+msgstr "སར་བར་བརྡ་བཀོད:"
+
+#: ../src/netserv-ui.c:707
+msgid "<b>Channels</b>"
+msgstr "<b>རྒྱུ་ལམ་ཚུ</b>"
+
+#: ../src/netserv-ui.c:767
+msgid "Channel Name"
+msgstr "རྒྱུ་ལམ་མིང་"
+
+#: ../src/netserv-ui.c:817
+#, c-format
+msgid "%s on %s - IRC Chat"
+msgstr "%s གུ་ %s - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/netserv-ui.c:934
+#, c-format
+msgid "Message Of The Day - %s - IRC Chat"
+msgstr "ཉིནམ་འདི་གི་འཕྲིན་དོན་ - %s - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/netserv-ui.c:988
+msgid "There is no message of the day for this server"
+msgstr "སར་བར་འདི་གི་དོན་ལུ་  ཉིནམ་གྱི་འཕྲིན་དོན་འདི་མིན་འདུག"
+
+#: ../src/netserv-ui.c:1499
+#, c-format
+msgid "%s Properties - %s - IRC Chat"
+msgstr "%s རྒྱུ་དངོས - %s - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#. Settings Page
+#: ../src/netserv-ui.c:1521
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ"
+
+#: ../src/netserv-ui.c:1549
+msgid "<b>Retrieving channel settings...</b>"
+msgstr "<b>རྒྱུ་ལམ་སྒྲིག་སྟངས་ཚུ་སླར་འདྲེན་འབད་དོ...</b>"
+
+#: ../src/netserv-ui.c:1569
+msgid "<b>Topic</b>"
+msgstr "<b>གནད་དོན</b>"
+
+#: ../src/netserv-ui.c:1587
+msgid "Only allow channel operators to change the _topic"
+msgstr "གནད་དོན་བསྒྱུར་བཅོས་འབད་ནི་ལུ་  རྒྱུ་ལམ་བཀོལ་སྤྱོདཔ་འདི་རྐྱངམ་ཅིག་ཆོག། ( _t)"
+
+#: ../src/netserv-ui.c:1596
+msgid "To_pic: "
+msgstr "གནད་དོན: (_p)"
+
+#: ../src/netserv-ui.c:1617
+msgid "<b>Messages</b>"
+msgstr "<b>འཕྲིན་དོན་ཚུ</b>"
+
+#: ../src/netserv-ui.c:1635
+msgid "Only allow those in this channel to talk o_n it"
+msgstr "དེ་གི་སྐོར་ལས་སླབ་ནི་ལུ་  རྒྱུ་ལམ་འདི་ནང་ཡོད་མི་རྐྱངམ་ཅིག་ཆོག། (_n)"
+
+#: ../src/netserv-ui.c:1641
+msgid "Only allow operators and users with per_mission to talk"
+msgstr "ཁ་སླབ་ནི་ལུ་གནང་བ་དང་ཅིག་ཁར་  བཀོལ་སྤྱོདཔ་ཚུ་དང་ལག་ལེན་པ་ཚུ་རྐྱངམ་ཅིག་ཆོག། (_m)"
+
+#: ../src/netserv-ui.c:1655
+msgid "<b>Users</b>"
+msgstr "<b>ལག་ལེན་པ་ཚུ</b>"
+
+#: ../src/netserv-ui.c:1676
+msgid "A_llow a maximum of "
+msgstr "མང་མཐའ་ཆོག། (_l)"
+
+#: ../src/netserv-ui.c:1687
+msgid " users to join"
+msgstr "མཐུད་ནི་ཨིན་པའི་ལག་ལེན་པ་ཚུ"
+
+#: ../src/netserv-ui.c:1693
+msgid "Only allow _invited users to join"
+msgstr "འབོ་དེ་ཡོད་པའི་ལག་ལེན་པ་ཚུ་རྐྱངམ་ཅིག་མཐུད་ཆོག། (_i)"
+
+#: ../src/netserv-ui.c:1702
+msgid "Require a password to _join:"
+msgstr "མཐུད་ནི་ལུ་  ཆོག་ཡིག་ཅིག་དགོ: (_j)"
+
+#: ../src/netserv-ui.c:1723
+msgid "<b>Privacy</b>"
+msgstr "<b>སྒེར་གཙང་</b>"
+
+#: ../src/netserv-ui.c:1741
+msgid "List this c_hannel and its users"
+msgstr "རྒྱུ་ལམ་འདི་དང་དེའི་ ལག་ལེན་པ་ཚུ་ཐོ་ཡིག་བརྐྱབ། (_h)"
+
+#: ../src/netserv-ui.c:1748
+msgid "_Hide users on this channel from being listed"
+msgstr "རྒྱུ་ལམ་འདི་གུ་ལག་ལེན་པ་ཚུ་ཐོ་བཀོད་ལས་སྤང་ནིའི་དོན་ལུ་ སྦ་བཞག། (_H)"
+
+#: ../src/netserv-ui.c:1756
+msgid "Hide this channel _and its users from being listed"
+msgstr "ཐོ་བཀོད་བརྐྱབ་ནི་ལས་སྤང་ནིའི་དོན་ལུ་  རྒྱུ་ལམ་དང་དེའི་ལག་ལེན་པ་ཚུ་སྦ་བཞག། ( _a)"
+
+#: ../src/netserv-ui.c:1790
+msgid "<b>Retrieving user list...</b>"
+msgstr "<b>ལག་ལེན་པའི་ཐོ་ཡིག་སླར་འདྲེན་འབད་དོ...</b>"
+
+#. Bans Page
+#: ../src/netserv-ui.c:1859
+msgid "Bans"
+msgstr "བཀག་དམ་ཚུ"
+
+#: ../src/netserv-ui.c:1886
+msgid "<b>Retrieving ban information...</b>"
+msgstr "<b>བཀག་དམ་བརྡ་དོན་སླར་འདྲེན་འབད་དོ...</b>"
+
+#: ../src/netserv-ui.c:1906
+msgid "<b>Banned Users</b>"
+msgstr "<b>བཀག་དམ་ཅན་གྱི་ལག་ལེན་པ་ཚུ་</b>"
+
+#: ../src/netserv-ui.c:1980
+msgid "<b>Ban Exceptions</b>"
+msgstr "<b>བཀག་དམ་དམིགས་བསལ་ཚུ</b>"
+
+#. Invites Page
+#: ../src/netserv-ui.c:2048
+msgid "Invitations"
+msgstr "གདན་ཞུ་ཚུ་"
+
+#: ../src/netserv-ui.c:2080
+msgid "<b>Retrieving invitation information...</b>"
+msgstr "<b>གནད་ཞུའི་བརྡ་དོན་འདི་སླར་འདྲེན་འབད་དོ...</b>"
+
+#: ../src/netserv-ui.c:2100
+msgid "<b>Invited Users</b>"
+msgstr "<b>གདན་ཞུ་འབད་ཡོད་པའི་ལག་ལེན་པ་ཚུ་</b>"
+
+#: ../src/netserv-ui.c:2174
+msgid "<b>Invitation Exceptions</b>"
+msgstr "<b>དམིགས་བསལ་གྱི་གདན་ཞུ</b>"
+
+#: ../src/netserv-ui.c:2680
+#, c-format
+msgid "Kick %s from %s - IRC Chat"
+msgstr "%sའདི་ %s ལས་བཏོན་གཏང་ - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/netserv-ui.c:2683
+#, c-format
+msgid ""
+"<b>Kick %s from %s?</b>\n"
+"Kicking a user from a channel will forcibly remove them from the channel."
+msgstr ""
+"<b> %sའདི་ %s ལས་བཏོན་གཏང་ག?</b>\n"
+"རྒྱུ་ལམ་ལས་ལག་ལེན་པ་ཅིག་བཏོན་གཏང་མི་དེ་གིས་  དེ་ཚུ་རྒྱུ་ལམ་ལས་བང་བཙོང་འབད་རྩ་བསྐྲད་གཏངམ་ཨིན།"
+
+#. Ban Checkbutton
+#: ../src/netserv-ui.c:2710
+#: ../src/netserv-ui.c:2735
+msgid "_Ban this user and prevent them from coming back."
+msgstr "ལག་ལེན་པ་འདི་བཀག་ནི་དང་  དེ་ཚུ་ལོག་འོང་ནི་ལས་སྔོན་བཀག་འབད།"
+
+#: ../src/netserv-ui.c:2720
+#: ../src/netserv-ui.c:2745
+msgid "Reason to give: "
+msgstr "བྱིན་ནི་ལུ་རྒྱུ་མཚན:"
+
+#: ../src/network-ui.c:202
+#, c-format
+msgid "Edit %s - IRC Chat"
+msgstr "%s ཞུན་དག་འབད - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/network-ui.c:274
+msgid "#Channel"
+msgstr "#Channel"
+
+#: ../src/network-ui.c:343
+#, c-format
+msgid "Edit %s - %s"
+msgstr "%s ཞུན་དག་འབད - %s"
+
+#. Information Page
+#: ../src/network-ui.c:411
+#: ../src/prefs-ui.c:1946
+msgid "Information"
+msgstr "བརྡ་དོན"
+
+#: ../src/network-ui.c:425
+msgid "_Location:"
+msgstr "གནས་ཁོངས: (_L)"
+
+#: ../src/network-ui.c:445
+msgid "_Description:"
+msgstr "འགྲེལ་བཤད: (_D)"
+
+#: ../src/network-ui.c:470
+msgid "_Website:"
+msgstr "ཝེབ་ས་ཁོངས: (_W)"
+
+#: ../src/network-ui.c:486
+msgid "_Character Coding:"
+msgstr "ཡིག་འབྲུའི་ཀོ་ཌིང་: (_C)"
+
+#: ../src/network-ui.c:492
+msgid "Select A Character Coding - IRC Chat"
+msgstr "ཡིག་འབྲུའི་ཀོ་ཌིང་ཅིག་སེལ་འཐུ་འབད - ཨའི་ཨར་སི་ ཁ་སླབ"
+
+#: ../src/network-ui.c:1169
+msgid "Website:"
+msgstr "ཝེབ་ས་ཁོངས:"
+
+#: ../src/outgoing.c:98
+msgid "You must specify a channel to /join."
+msgstr "རྒྱུ་ལམ་འདི་/མཐུད་ནི་ལུ་ ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་དགོ།"
+
+#: ../src/outgoing.c:123
+#, c-format
+msgid "You can only join %u channel at a time."
+msgid_plural "You can only join %u channels at a time."
+msgstr[0] "%uརྒྱུ་ལམ་འདི་  ཁྱོད་ཀྱིས་ཚར་ཅིག་གུ་རྐྱངམ་ཅིག་མཐུད་ཚུགས།"
+msgstr[1] "%uམཐུད་ལམ་འདི་ཁྱོད་ཀྱིས་ ཚར་ཅིག་གུ་རྐྱངམ་ཅིག་མཐུད་ཚུགས།"
+
+#: ../src/outgoing.c:167
+msgid "You can only /part channels and private chats."
+msgstr "ཁྱོད་ཀྱིས་རྒྱུ་ལམ་ཚུ་དང་སྒེར་དོན་ཁ་སླབ་ཚུ་/རྐྱངམ་ཅིག་འཕྱལ་ཚུགས།"
+
+#: ../src/outgoing.c:189
+msgid "You can only kick users from channels."
+msgstr "ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཚུ་རྒྱུ་ལམ་ཚུ་ལས་བཏོན་གཏང་ཚུགས།"
+
+#: ../src/outgoing.c:199
+#: ../src/outgoing.c:216
+#, c-format
+msgid "You must specify a user to kick from %s."
+msgstr "%sལས་བཏོན་གཏང་ནིའི་དོན་ལུ་  ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཅིག་གསལ་བཀོད་འབད་དགོ།"
+
+#: ../src/outgoing.c:236
+#, c-format
+msgid "There is no user named \"%s\" on %s."
+msgstr "%sགི་ལག་ལེན་པའི་མིང་  \"%s\" ཟེར་མི་མེད།"
+
+#: ../src/outgoing.c:251
+#, c-format
+msgid "You do not have the necessary permissions to kick %s out of %s."
+msgstr "%sའདི་ %sགི་ཕྱི་ཁར་བཏོན་གཏང་ནིའི་དོན་ལུ་  ཁྱོད་ལུ་གནང་བ་ཉེར་མཁོ་མེད།"
+
+#: ../src/outgoing.c:303
+#: ../src/outgoing.c:315
+msgid "You can only request or set a topic for a channel."
+msgstr "རྒྱུ་ལམ་གྱི་དོན་ལུ་  ཁྱོད་ཀྱིས་གནད་དོན་དང་ཞུ་བ་འདི་རྐྱང་ཅིག་གཞི་སྒྲིག་འབད་ཚུགས།"
+
+#: ../src/outgoing.c:350
+msgid "You must specify a new nickname."
+msgstr "ཁྱོད་ཀྱིས་སྐྱོན་མིང་གསརཔ་ཅིག་གསལ་བཀོད་འབད་ཚུགས།"
+
+#: ../src/outgoing.c:361
+msgid "You can only change to one nickname."
+msgstr "ཁྱོད་ཀྱིས་སྐྱོན་མིང་གཅིག་ལུ་བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/outgoing.c:401
+msgid "You must specify a user to retrieve information for."
+msgstr "བརྡ་དོན་སླར་འདྲེན་འབད་ནི་ལུ་  ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཅིག་གསལ་བཀོད་འབད་དགོ།"
+
+#: ../src/outgoing.c:424
+#: ../src/outgoing.c:435
+msgid "You can only send a message to a user or a channel."
+msgstr "ལག་ལེན་པ་ཡང་ན་རྒྱུ་ལམ་ལུ་  ཁྱོད་ཀྱིས་འཕྲིན་དོན་རྐྱངམ་ཅིག་གཏང་ཚུགས།"
+
+#: ../src/outgoing.c:492
+msgid "You can only send an action to a user or a channel."
+msgstr "ལག་ལེན་པ་ཡང་ན་རྒྱུ་ལམ་ལུ་  ཁྱོད་ཀྱིས་ བྱ་བ་ཅིག་རྐྱངམ་ཅིག་གཏང་ཚུགས།"
+
+#: ../src/outgoing.c:502
+msgid "You must include an message with a /me command."
+msgstr "/me བརྡ་བཀོད་དང་ཅིག་ཁར་  ཁྱོད་ཀྱིས་འཕྲིན་དོན་ཅིག་བརྩི་དགོ།"
+
+#: ../src/outgoing.c:590
+#, c-format
+msgid "Retrieving information on %s..."
+msgstr "%s གུ་ བརྡ་དོན་སླར་འདྲེན་འབད་དོ..."
+
+#: ../src/outgoing.c:643
+msgid "You need to specify a user or channel to view their properties."
+msgstr "རྒྱུ་དངོས་བལྟ་ནིའི་དོན་ལུ་  ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཅིག་ཡང་ན་རྒྱུ་ལམ་གསལ་བཀོད་འབད་དགོ།"
+
+#: ../src/outgoing.c:807
+msgid "There was no message to send."
+msgstr "གཏང་ནིའི་དོན་ལུ་འཕྲིན་དོན་མིན་འདུག།"
+
+#: ../src/prefs-ui.c:184
+msgid "Website: http://ignore-your.tv/"
+msgstr "Website: http://ignore-your.tv/"
+
+#: ../src/prefs-ui.c:186
+#: ../src/prefs-ui.c:189
+#: ../src/prefs-ui.c:196
+#: ../src/prefs-ui.c:199
+#: ../src/prefs-ui.c:204
+#: ../src/prefs-ui.c:208
+msgid "SomeUser"
+msgstr "ལག་ལེན་པ་ལ་ལོ་ཅིག"
+
+#: ../src/prefs-ui.c:186
+msgid "This is a regular message."
+msgstr "འདི་དུས་རྒྱུན་འཕྲིན་དོན་ཅིག་ཨིན།"
+
+#: ../src/prefs-ui.c:188
+#, c-format
+msgid "This is a message to %s"
+msgstr "འདི་ %s ལུ་འཕྲིན་དོན་ཅིག་ཨིན་"
+
+#: ../src/prefs-ui.c:193
+msgid "is doing something."
+msgstr "འདི་ག་ཅི་ཅིག་འབད་དོ།"
+
+#: ../src/prefs-ui.c:196
+msgid "is doing something else."
+msgstr "འདི་ག་ཅི་ཅིག་འབད་དོ།"
+
+#: ../src/prefs-ui.c:198
+#, c-format
+msgid "is directing an action toward %s"
+msgstr "འདི་  %sཁ་ཐུག་ལུ་བྱ་བ་ཅིག་བཀོད་རྒྱ་བྱིན་དོ་"
+
+#: ../src/prefs-ui.c:204
+msgid "The new topic"
+msgstr "གནད་དོན་གསརཔ་"
+
+#: ../src/prefs-ui.c:208
+msgid "SomeOtherUser"
+msgstr "ལག་ལེན་པ་གཞན་མི་ཚུ"
+
+#: ../src/prefs-ui.c:208
+msgid "Just Because."
+msgstr "ག་ཅི་འབད་ཟེར་མི་འདི་རྐྱངམ་ཅིག།"
+
+#: ../src/prefs-ui.c:211
+msgid "A sample server message."
+msgstr "དཔེ་གཞི་གི་སར་བར་འཕྲིན་དོན་ཅིག།"
+
+#: ../src/prefs-ui.c:214
+msgid "A sample error message."
+msgstr "དཔེ་གཞི་གི་འཛོལ་བའི་འཕྲིན་དོན་ཅིག།"
+
+#: ../src/prefs-ui.c:233
+msgid "Messages from me"
+msgstr "ང་ལུའི་འཕྲིན་དོན་"
+
+#: ../src/prefs-ui.c:237
+msgid "Messages to me"
+msgstr "ང་ལུའི་འཕྲིན་དོན་"
+
+#: ../src/prefs-ui.c:241
+msgid "Other messages"
+msgstr "འཕྲིན་དོན་གཞན་"
+
+#: ../src/prefs-ui.c:245
+msgid "Server messages"
+msgstr "སར་བར་འཕྲིན་དོན་ཚུ་"
+
+#: ../src/prefs-ui.c:249
+msgid "Channel messages"
+msgstr "རྒྱུ་ལམ་འཕྲིན་དོན་ཚུ་"
+
+#: ../src/prefs-ui.c:253
+#: ../src/prefs-ui.c:417
+msgid "Links"
+msgstr "འབྲེལ་ལམ་ཚུ་"
+
+#: ../src/prefs-ui.c:257
+msgid "Error messages"
+msgstr "འཛོལ་བའི་འཕྲིན་དོན་ཚུ་"
+
+#: ../src/prefs-ui.c:278
+msgid "My _Nickname"
+msgstr "ངེས་ཀྱི་སྐྱོན་མིང་། (_N)"
+
+#: ../src/prefs-ui.c:284
+msgid "My _Actions"
+msgstr "ངེས་ཀྱི་བྱ་བ་ཚུ། (_A)"
+
+#: ../src/prefs-ui.c:303
+#: ../src/prefs-ui.c:333
+msgid "_Nicknames"
+msgstr "སྐྱོན་མིང་ཚུ། (_N)"
+
+#: ../src/prefs-ui.c:309
+#: ../src/prefs-ui.c:357
+#: ../src/prefs-ui.c:383
+msgid "_Text"
+msgstr "ཚིག་ཡིག། (_T)"
+
+#: ../src/prefs-ui.c:315
+#: ../src/prefs-ui.c:339
+msgid "_Actions"
+msgstr "བྱ་བ་ཚུ། (_A)"
+
+#: ../src/prefs-ui.c:363
+msgid "Server _Name"
+msgstr "སར་བར་གྱི་མིང་། (_N)"
+
+#: ../src/prefs-ui.c:389
+msgid "_Nickname"
+msgstr "སྐྱོན་མིང་། (_N)"
+
+#: ../src/prefs-ui.c:395
+msgid "_Channel _Name"
+msgstr "རྒྱུ་ལམ་གྱི་མིང་། (_C_N)"
+
+#: ../src/prefs-ui.c:400
+msgid "New _Setting"
+msgstr "སྒྲིག་སྟངས་གསརཔ། (_S)"
+
+#: ../src/prefs-ui.c:434
+msgid "Errors"
+msgstr "འཛོལ་བ་ཚུ"
+
+#: ../src/prefs-ui.c:975
+msgid "More Font & Color Options - IRC Chat"
+msgstr "ཡིག་གཟུགས་མངམ་དང་ ཚོས་གཞི་གདམ་ཁ་ཚུ་ - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#. Fonts & Colors Label
+#: ../src/prefs-ui.c:997
+#: ../src/prefs-ui.c:1360
+msgid "Fonts & Colors"
+msgstr "ཡིག་གཟུགས་དང་ཚོས་གཞི་ཚུ"
+
+#: ../src/prefs-ui.c:1081
+#: ../src/prefs-ui.c:1432
+msgid "Text _color:"
+msgstr "ཚིག་ཡིག་ཚོས་གཞི: (_c)"
+
+#: ../src/prefs-ui.c:1100
+#: ../src/prefs-ui.c:1447
+msgid "Select a Text Color - IRC Chat"
+msgstr "ཚིག་ཡིག་ཚོས་གཞི་ཅིག་སེལ་འཐུ་འབད་- ཨའི་ཨར་སི"
+
+#: ../src/prefs-ui.c:1103
+msgid "Text Color"
+msgstr "ཚིག་ཡིག་ཚོས་གཞི་"
+
+#: ../src/prefs-ui.c:1104
+msgid "Change the text color this style uses"
+msgstr "བཟོ་རྣམ་དེ་གིས་ལག་ལེན་འཐབ་མི་  ཚིག་ཡིག་ཚོས་གཞི་འདི་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/prefs-ui.c:1120
+#: ../src/prefs-ui.c:1463
+msgid "_Background color:"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི: (_B)"
+
+#: ../src/prefs-ui.c:1138
+msgid "Background Color"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../src/prefs-ui.c:1139
+msgid "Change the background color (if any) this style uses"
+msgstr "བཟོ་རྣམ་དེ་གིས་ (གང་རུང་ཅིག་) རྒྱབ་གཞི་ཚོས་གཞི་ལག་ལེན་འཐབ་མི་འདི་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/prefs-ui.c:1142
+#: ../src/prefs-ui.c:1479
+msgid "Select a Background Color - IRC Chat"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་ཅིག་སེལ་འཐུ་འབད- ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/prefs-ui.c:1159
+msgid "Font style:"
+msgstr "ཡིག་གཟུགས་ཀྱི་བཟོ་རྣམ:"
+
+#: ../src/prefs-ui.c:1174
+msgid "Bold"
+msgstr "རྒྱག་པ་"
+
+#: ../src/prefs-ui.c:1174
+msgid "Use a bold font for this style"
+msgstr "བཟོ་རྣམ་འདི་གི་དོན་ལུ་  ཡིག་གཟུགས་རྒྱག་པ་ཅིག་ལག་ལེན་འཐབ་"
+
+#: ../src/prefs-ui.c:1191
+msgid "Italic"
+msgstr "ཨའི་ཊ་ལིཀ་"
+
+#: ../src/prefs-ui.c:1191
+msgid "Italicize text using this style"
+msgstr "བཟོ་རྣམ་འདི་ལག་ལེན་འཐབ་སྟེ་  ཚིག་ཡིག་ཨའི་ཊ་ལིཀ་བཟོ་"
+
+#: ../src/prefs-ui.c:1208
+msgid "Underline"
+msgstr "འོག་ཐིག་འཐེན་"
+
+#: ../src/prefs-ui.c:1208
+msgid "Underline text using this style"
+msgstr "བཟོ་རྣམ་འདི་ལག་ལེན་འཐབ་སྟེ་ཚིག་ཡིག་འདི་འོག་ཐིག་འཐེན་"
+
+#: ../src/prefs-ui.c:1226
+msgid "Preview"
+msgstr "སྔོན་ལྟ་"
+
+#: ../src/prefs-ui.c:1338
+msgid "Preferences - IRC Chat"
+msgstr "དགའ་གདམ་ཚུ་ - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/prefs-ui.c:1373
+msgid "Chatting"
+msgstr "ཁ་སླབ་དོ་"
+
+#: ../src/prefs-ui.c:1396
+msgid "_Font:"
+msgstr "ཡིག་གཟུགས: (_F)"
+
+#: ../src/prefs-ui.c:1413
+msgid "<Nickname> Message"
+msgstr "<Nickname> འཕྲིན་དོན་"
+
+#: ../src/prefs-ui.c:1414
+msgid "Select a Font - IRC Chat"
+msgstr "ཡིག་གཟུགས་ཅིག་སེལ་འཐུ་འབད་-ཨའི་ཨར་སི་ཁ་སླབ་"
+
+#: ../src/prefs-ui.c:1415
+msgid "Font"
+msgstr "ཡིག་གཟུགས་"
+
+#: ../src/prefs-ui.c:1415
+msgid "Change the font"
+msgstr "ཡིག་གཟུགས་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/prefs-ui.c:1450
+msgid "Default Text Color"
+msgstr "སྔོན་སྒྲིག་ཚིག་ཡིག་ཚོས་གཞི་"
+
+#: ../src/prefs-ui.c:1450
+msgid "Change the default text color"
+msgstr "སྔོན་སྒྲིག་ཚིག་ཡིག་ཚོས་གཞི་བསྒྱུར་བཅོས་འབད་"
+
+#: ../src/prefs-ui.c:1480
+msgid "Default Background Color"
+msgstr "སྔོན་སྒྲིག་རྒྱབ་གཞི་ཚོས་གཞི་"
+
+#: ../src/prefs-ui.c:1481
+msgid "Change the default background color"
+msgstr "སྔོན་སྒྲིག་རྒྱབ་གཞི་ཚོས་གཞི་བསྒྱུར་བཅོས་འབད་"
+
+#. Show Timestamps checkbutton
+#: ../src/prefs-ui.c:1492
+msgid "_Show the time a message was sent"
+msgstr "འཕྲིན་དོན་འདི་གཏང་ཡོད་པའི་དུས་ཡུན་སྟོན། (_S)"
+
+#. Image Smileys checkbutton
+#: ../src/prefs-ui.c:1501
+msgid "_Show smileys as pictures"
+msgstr "སི་མི་ལི་ཚུ་པར་སྦེ་སྟོན། (_S)"
+
+#: ../src/prefs-ui.c:1515
+msgid "Advanced font and style settings"
+msgstr "སྔ་གཡར་ཡིག་གཟུགས་དང་ བཟོ་རྣམ་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/prefs-ui.c:1516
+msgid "Change the font styles used individually for the various types of messages recieved on IRC."
+msgstr "ཨའི་ཨར་སི་གུ་ཐོབ་ཡོད་པའི་འཕྲིན་དོན་ཚུ་གི་  སྣ་མང་དབྱེ་བ་ཚུ་གི་དོན་ལུ་  ཡིག་གཟུགས་བཟོ་རྣམ་ཚུ་ངོ་རྐྱང་འབད་བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/prefs-ui.c:1535
+msgid "_More Options"
+msgstr "གདམ་ཁ་ལེ་ཤ། (_M)"
+
+#: ../src/prefs-ui.c:1545
+msgid "Notification"
+msgstr "བརྡ་བསྐུལ་"
+
+#: ../src/prefs-ui.c:1563
+msgid "Show a notification icon in the status tray"
+msgstr "གནས་ཚད་ཤོག་སྣོད་ནང་ལུ་  བརྡ་བསྐུལ་ཅིག་སྟོན།"
+
+#: ../src/prefs-ui.c:1576
+msgid "M_essages to me:"
+msgstr "ང་ལུའི་འཕྲིན་དོན: (_e)"
+
+#: ../src/prefs-ui.c:1595
+msgid "Select Message Notification Color - IRC Chat"
+msgstr "འཕྲིན་དོན་བརྡ་བསྐུལ་ཚོས་གཞི་འདི་སེལ་འཐུ་འབད་ - ཨའི་ཨར་སི་ཁ་སླབ"
+
+#: ../src/prefs-ui.c:1598
+msgid "Color to use for chats with new messages to you in them"
+msgstr "དེ་ཚུ་ཟེར་མི་ནང་ལུ་ཡོད་མི་  ཁྱོད་ལུ་འཕྲིན་དོན་གསརཔ་དང་ཅིག་ཁར་  ཁ་སླབ་ཀྱི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ལུ་ཚོས་གཞི་"
+
+#: ../src/prefs-ui.c:1599
+msgid "The message notification color is used to highlight the names of chats in the \"Chats\" menu and on notebook tabs when a new message with your nickname in it is recieved."
+msgstr "འཕྲིན་དོན་བརྡ་བསྐུལ་ཚོས་གཞི་འདི་  \"Chats\" གི་དཀར་ཆག་དང་  ཁྱོད་རའི་སྐྱོན་མིང་དང་ཅིག་ཁར་འཕྲིན་དོན་གསརཔ་ཐོབ་ད་  འབྲི་དེབ་མཆོང་ལྡེ་ཚུ་ནང་  ཁ་སླབ་ཚུ་གི་མིང་ཚུ་གཙོ་དམིགས་བཀོད་ནི་ལུ་ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../src/prefs-ui.c:1615
+msgid "_Discussion:"
+msgstr "གྲོས་བསྡུར: (_D)"
+
+#: ../src/prefs-ui.c:1634
+msgid "Select Text Notification Color - IRC Chat"
+msgstr "ཚིག་ཡིག་བརྡ་བསྐུལ་ཚོས་གཞི་འདི་སེལ་འཐུ་འབད་ - ཨའི་ཨར་སི་ཁ་སླབ་"
+
+#: ../src/prefs-ui.c:1637
+msgid "Color to use for chats with new discussions in them"
+msgstr "དེ་ཚའི་ནང་ལུ་ཡོད་པའི་གྲོས་བསྟུན་གསརཔ་དང་ཅིག་ཁར་  ཁ་སླབ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་པའི་ཚོས་གཞི་"
+
+#: ../src/prefs-ui.c:1638
+msgid "The message notification color is used to highlight the names of chats in the \"Chats\" menu and on notebook tabs when a new message is recieved."
+msgstr "འཕྲིན་དོན་བརྡ་བསྐུལ་ཚོས་གཞི་འདི་  \"Chats\" དཀར་ཆག་ནང་ལུ་  དང་  འཕྲིན་དོན་གསརཔ་ཐོབ་ད་འབྲི་དེབ་མཆོང་ལྡེ་གུ་  ཁ་སླབ་ཚུ་གི་མིང་ཚུ་གཙོ་དམིགས་བཀོད་ནི་ལུ་ལག་ལེན་འཐབ་པའི་ཚོས་གཞི་ཨིན།"
+
+#. Windows Label
+#: ../src/prefs-ui.c:1651
+msgid "Windows"
+msgstr "སྒོ་སྒྲིག་ཚུ་"
+
+#: ../src/prefs-ui.c:1665
+msgid "New Windows"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཚུ་"
+
+#: ../src/prefs-ui.c:1688
+msgid "_Layout:"
+msgstr "སྒྲིག་བཀོད: (_L)"
+
+#: ../src/prefs-ui.c:1695
+msgid "Tabs"
+msgstr "མཆོང་ལྡེ་ཚུ་"
+
+#: ../src/prefs-ui.c:1701
+msgid "List"
+msgstr "ཐོ་བཀོད་"
+
+#: ../src/prefs-ui.c:1707
+msgid "Separate Windows"
+msgstr "སྒོ་སྒྲིག་ཚུ་སོ་སོ་འཕྱལ་"
+
+#: ../src/prefs-ui.c:1729
+msgid "_Tab side:"
+msgstr "མཆོང་ལྡེའི་ཟུར: (_T)"
+
+#: ../src/prefs-ui.c:1736
+msgid "Left"
+msgstr "གཡོན་"
+
+#: ../src/prefs-ui.c:1741
+msgid "Right"
+msgstr "གཡས་"
+
+#: ../src/prefs-ui.c:1746
+msgid "Top"
+msgstr "མགོ་"
+
+#: ../src/prefs-ui.c:1751
+msgid "Bottom"
+msgstr "མཇུག་"
+
+#. More options
+#: ../src/prefs-ui.c:1768
+msgid "_More options"
+msgstr "གདམ་ཁ་ལེ་ཤ། (_M)"
+
+#: ../src/prefs-ui.c:1787
+msgid "Force si_ze of new windows:"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཚུ་གི་ཚད་འདི་བང་བཙོང་འབད: (_z)"
+
+#. Width
+#: ../src/prefs-ui.c:1809
+msgid "_Width:"
+msgstr "རྒྱ་ཚད: (_W)"
+
+#. Height
+#: ../src/prefs-ui.c:1830
+msgid "_Height:"
+msgstr "མཐོ་ཚད: (_H)"
+
+#: ../src/prefs-ui.c:1863
+msgid "Force _placement of new windows:"
+msgstr "སྒོ་སྒྲིག་གསརཔ་ཚུ་གི་གནས་ས་འདི་བང་བཙོང་འབད: (_p)"
+
+#. Left
+#: ../src/prefs-ui.c:1886
+msgid "Left _edge:"
+msgstr "མཐའམ་གཡོན: (_e)"
+
+#. Top
+#: ../src/prefs-ui.c:1906
+msgid "T_op edge:"
+msgstr "མཐའམ་མགོ: (_o)"
+
+#. Identity Label
+#: ../src/prefs-ui.c:1932
+msgid "Identity"
+msgstr "ངོ་རྟགས་"
+
+#: ../src/prefs-ui.c:1969
+msgid "_Nickname:"
+msgstr "སྐྱོན་མིང་: (_N)"
+
+#: ../src/prefs-ui.c:1994
+msgid "_Real name:"
+msgstr "མིང་ངོ་མ: (_R)"
+
+#: ../src/prefs-ui.c:2019
+msgid "_User name:"
+msgstr "ལག་ལེན་པའི་མིང་: (_U)"
+
+#: ../src/prefs-ui.c:2044
+msgid "Photo"
+msgstr "དཔར་"
+
+#: ../src/prefs-ui.c:2059
+msgid "Select a Photo - IRC Chat"
+msgstr "དཔར་ཅིག་སེལ་འཐུ་འབད་ - ཨའི་ཨར་སི་ཁ་སླབ་"
+
+#. DCC Label
+#: ../src/prefs-ui.c:2071
+msgid "File Transfer"
+msgstr "ཡིག་སྣོད་གནས་སོར་"
+
+#: ../src/prefs-ui.c:2085
+msgid "Recieved Files"
+msgstr "ཡིག་སྣོད་ཚུ་ཐོབ་ཡོདཔ་"
+
+#: ../src/prefs-ui.c:2108
+msgid "_Place received files in:"
+msgstr "ཐོབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ནང་ན་བཞག: (_P)"
+
+#: ../src/prefs-ui.c:2115
+msgid "Select A Folder - IRC Chat"
+msgstr "སྣོད་འཛིན་ཅིག་སེལ་འཐུ་འབད་ - ཨའི་ཨར་སི་ཁ་སླབ་"
+
+#: ../src/prefs-ui.c:2145
+msgid "_Received files are:"
+msgstr "ཐོབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ: (_R)"
+
+#: ../src/prefs-ui.c:2156
+msgid "Placed in the above folder as-is"
+msgstr "ལྟག་གི་ as-is སྣོད་འཛིན་ནང་བཞག་ཡོདཔ་"
+
+#: ../src/prefs-ui.c:2164
+msgid "Placed in a sub-folder called <Sender>"
+msgstr "ཡན་ལག་སྣོད་འཛིན་ <Sender> ཟེར་མི་འདི་ནང་བཞག་ཡོད་"
+
+#: ../src/prefs-ui.c:2172
+msgid "Re-named to <Sender>.<Filename>"
+msgstr "<Sender>ལུ་བསྐྱར་མིང་བཏགས་ཡོདཔ།<Filename>"
+
+#. Miscellaneous Label
+#: ../src/prefs-ui.c:2196
+msgid "Miscellaneous"
+msgstr "སྣ་ཚོགས་ཀྱིས་"
+
+#: ../src/prefs-ui.c:2210
+msgid "IRC Options"
+msgstr "ཨའི་ཨར་སི་གདམ་ཁ་ཚུ་"
+
+#: ../src/prefs-ui.c:2228
+msgid "Show message of the day after connecting"
+msgstr "མཐུད་ཚར་བའི་ཤུལ་ལུ་  ཉིནམ་འདི་གི་འཕྲིན་དོན་འདི་སྟོན་"
+
+#: ../src/prefs-ui.c:2239
+msgid "Alerts"
+msgstr "དྲན་བརྡ་ཚུ་"
+
+#: ../src/prefs-ui.c:2268
+msgid "Ask before removing _networks"
+msgstr "ཡོངས་འབྲེལ་ཚུ་རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་ལས་སླབ། (_n)"
+
+#: ../src/prefs-ui.c:2276
+msgid "Ask before removing _servers"
+msgstr "སར་བར་ཚུ་རྩ་བསྐྲད་མ་གཏང་པའི་ཧེ་མ་ལས་འདྲི། (_s)"
+
+#: ../src/prefs-ui.c:2284
+msgid "Ask before _clearing chats"
+msgstr "ཁ་སླབ་ཚུ་མ་བསལ་བའི་ཧེ་མ་ལས་འདྲི། (_c)"
+
+#: ../src/stock-items.c:323
+msgid "Connec_t"
+msgstr "མཐུད། (_t)"
+
+#: ../src/stock-items.c:326
+msgid "_Disconnect"
+msgstr "མཐུད་ལམ་བཏོགས་ནི། (_D)"
+
+#: ../src/stock-items.c:330
+msgid "_Edit"
+msgstr "ཞུན་དག་འབད། (_E)"
+
+#: ../src/stock-items.c:333
+msgid "_Information"
+msgstr "བརྡ་དོན། (_I)"
+
+#: ../src/stock-items.c:337
+msgid "Send _File"
+msgstr "ཡིག་སྣོད་གཏང་། (_F)"
+
+#: ../src/stock-items.c:340
+msgid "_Join"
+msgstr "མཐུད། (_J)"
+
+#: ../src/stock-items.c:343
+msgid "Cha_t"
+msgstr "ཁ་སླབ། (_t)"
+
+#: ../src/stock-items.c:347
+msgid "_Kick"
+msgstr "བཏོན་གཏང་། (_K)"
+
+#: ../src/tray-icon.c:139
+#: ../src/tray-icon.c:140
+msgid "IRC Chats"
+msgstr "ཨའི་ཨར་སི་ཁ་སླབ་ཚུ་"
+
+#: ../src/utils.c:177
+#, c-format
+msgid "No '/' in key \"%s\""
+msgstr " '/' ལྡེ་མིག་ནང་ མེད་ \"%s\""
+
+#: ../src/welcome.c:115
+#: ../src/welcome.c:123
+msgid "Quit Setup?"
+msgstr "གཞི་སྒྲིག་འདི་སྤང་ག?"
+
+#: ../src/welcome.c:116
+msgid "If you quit before completing the initial setup, you will have to complete it later."
+msgstr "ཁྱོད་ཀྱིས་འགོ་ཐོག་གཞི་སྒྲིག་འདི་  མཇུག་མ་བསྡུ་བའི་ཧེ་མ་སྤང་པ་ཅིག་  ཁྱོད་ཀྱིས་ཤུལ་མ་མཇུག་བསྡུ་དགོ།"
+
+#: ../src/welcome.c:391
+msgid "Welcome to "
+msgstr "བྱོན་པ་ལེགས་སོ་"
+
+#: ../src/welcome.c:417
+msgid "Welcome To IRC Chat"
+msgstr "ཨའི་ཨར་སི་ཁ་སླབ་ནང་ལུ་  བྱོན་པ་ལེགས་སོ་"
+
+#: ../src/welcome.c:418
+msgid ""
+"IRC Chat is a program for chatting on IRC networks.\n"
+"\n"
+"This assistant will help you configure IRC Chat and connect you to an IRC server to chat.\n"
+"\n"
+"To get started, just click \"Forward\"."
+msgstr ""
+"ཨའི་ཨར་སི་ཁ་སླབ་འདི་  ཨའི་ཨར་སི་ཡོངས་འབྲེལ་གུ་ཁ་སླབ་ནིའི་དོན་ལུ་ལས་རིམ་ཅིག་ཨིན། \n"
+"\n"
+"ཕན་གྲོགས་དེ་གིས་  ཁྱོད་ལུ་ཨའི་ཨར་སི་ཁ་སླབ་རིམ་སྒྲིག་འབད་ནི་དང་  ཨའི་ཨར་སི་སར་བར་ལུ་ཁྱོད་ཁ་སླབ་ནི་ལུ་མཐུདཔ་ཨིན། \n"
+"\n"
+"འགོ་བཙུག་ནིའི་དོན་ལུ་ \"Forward\" ཨེབ་གཏང་འབད།"
+
+#. Identity Page
+#: ../src/welcome.c:430
+msgid "Your Identity"
+msgstr "ཁྱོད་རའི་ངོ་རྟགས"
+
+#: ../src/welcome.c:446
+msgid "What nickname do you want to _use?"
+msgstr "སྐྱོན་མིང་ག་ཅི་ཟེར་མི་འདི་  ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་ནི་སྨོ? (_u)"
+
+#: ../src/welcome.c:447
+msgid ""
+"Your nickname is what people on IRC will know you by. It will appear before things\n"
+"you say."
+msgstr ""
+"ཁྱོད་རའི་སྐྱོན་མིང་འདི་  ཨའི་ཨར་སི་གུ་ཡོད་པའི་མི་ཚུ་གིས་ཁྱོད་ཨིན་ཟེར་  ངོ་ཤེསཔ་ཨིན།  ཁྱོད་ཀྱིས་ག་ནི་ཡང་མ་སླབ་པའི་ཧེ་མ་ \n"
+"བྱུངམ་ཨིན།"
+
+#: ../src/welcome.c:458
+msgid "What is your _name?"
+msgstr "ཁྱོད་ཀྱི་མིང་ག་ཅི་སྨོ? (_n)"
+
+#: ../src/welcome.c:459
+msgid "You do not have to use your real name if you do not want to."
+msgstr "ཁྱོད་རང་མ་དགོ་པ་ཅིན་  ཁྱོད་རའི་མིང་ངོ་མ་འདི་ལག་ལེན་འཐབ་མི་དགོ།"
+
+#.
+#. hbox = gtk_hbox_new (FALSE, 4);
+#. gtk_box_pack_start (GTK_BOX
+#. (GNOME_DRUID_PAGE_STANDARD (win->id_page)->vbox), hbox,
+#. FALSE, FALSE, 0);
+#.
+#. win->vcard_label = gtk_label_new (NULL);
+#. gtk_misc_set_alignment (GTK_MISC (win->vcard_label), 1.0, 0.5);
+#. gtk_container_add (GTK_CONTAINER (hbox), win->vcard_label);
+#.
+#.
+#. win->vcard_button = gtk_button_new_with_mnemonic (_("_Business Card..."));
+#. g_signal_connect (win->vcard_button, "clicked",
+#. G_CALLBACK (vcard_button_clicked_cb), win);
+#. gtk_box_pack_start (GTK_BOX (hbox), win->vcard_button, FALSE, FALSE, 0);
+#.
+#. Server Page
+#: ../src/welcome.c:479
+msgid "Connect To A Server"
+msgstr "སར་བར་ལུ་མཐུད་ད"
+
+#: ../src/welcome.c:490
+msgid "What server do you want to _connect to?"
+msgstr "ཁྱོད་ཀྱིས་སར་བར་ག་ཅི་ཟེར་མི་འདི་མཐུད་ནི་སྨོ? (_c)"
+
+#: ../src/welcome.c:491
+msgid "You can also connect from the \"Connect...\" item in the \"File\" menu."
+msgstr "\"File\"དཀར་ཆག་ནང་ལུ་  \"Connect...\" རྣམ་གྲངས་ལས་  ཁྱོད་ཀྱིས་གཞན་ཡང་ མཐུད་ཚུགས།"
+
+#: ../src/welcome.c:494
+msgid "Do _not connect now"
+msgstr "ད་ལྟོ་མ་མཐུད། (_n)"
+
+#: ../src/welcome.c:503
+msgid "_Connect to:"
+msgstr "མཐུད: (_C)"
+
+#: ../src/welcome.c:514
+msgid "Connect to a _different server"
+msgstr "སར་བར་སོ་སོ་ཅིག་ལུ་མཐུད་ད། (_d)"
+
+#. Last Page
+#: ../src/welcome.c:524
+#: ../src/welcome.c:532
+msgid "Setup Finished"
+msgstr "མཇུག་བསྡུ་ནུག་ཟེར་མི་འདི་གཞི་སྒྲིག་འབད།"
+
+#: ../src/welcome.c:533
+msgid ""
+"IRC Chat is now configured properly for your system.\n"
+"\n"
+"To connect to a server the next time you start IRC Chat, use the \"Connect...\" item in the \"IRC Chat\" menu.\n"
+"\n"
+"To change other settings, use the \"Preferences...\" item  in the \"Edit\" menu."
+msgstr ""
+"ཨའི་ཨར་སི་ཁ་སླབ་འདི་  ད་ཁྱོད་རའི་རིམ་ལུགས་ཀྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་དེ་ཡོད། \n"
+"\n"
+"སར་བར་ལུ་མཐུད་ནིའི་དོན་ལུ་  ཤུལ་མམ་ཁྱོད་ཀྱིས་ཨའི་ཨར་སི་ཁ་སླབ་འགོ་བཙུགཔ་ད་  \"IRC Chat\" དཀར་ཆག་ནང་ལུ་  \"Connect...\" འདི་ལག་ལེན་འཐབ། \n"
+"\n"
+"སྒྲིག་སྟངས་གཞན་མི་ཚུ་བསྒྱུར་བཅོས་འབད་ནི་ལུ་  \"Edit\" དཀར་ཆག་ནང་  \"Preferences...\" འདི་ལག་ལེན་འཐབ།"
+

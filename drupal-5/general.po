@@ -1,0 +1,1648 @@
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  updates.inc,v 1.224.2.5 2006/05/24 21:58:31 killes
+#  common.inc,v 1.537.2.2 2006/05/15 20:53:26 dries
+#  image.inc,v 1.12 2005/12/14 20:06:41 dries
+#  unicode.inc,v 1.17 2006/03/13 21:44:49 unconed
+#  legacy.module,v 1.8 2006/02/21 18:46:54 dries
+#  system.module,v 1.320.2.6 2006/06/01 22:08:06 killes
+#  aggregator.module,v 1.278.2.2 2006/05/04 18:45:18 killes
+#  blogapi.module,v 1.82 2006/04/26 15:07:12 killes
+#  book.module,v 1.361.2.3 2006/05/24 11:41:07 killes
+#  comment.module,v 1.455.2.2 2006/05/23 09:51:18 killes
+#  contact.module,v 1.51 2006/04/17 20:48:26 dries
+#  filter.module,v 1.122.2.1 2006/05/04 11:13:00 killes
+#  menu.module,v 1.73 2006/04/07 13:10:17 killes
+#  node.module,v 1.641.2.5 2006/05/14 23:57:58 killes
+#  profile.module,v 1.154 2006/04/17 20:48:26 dries
+#  user.module,v 1.612.2.10 2006/05/23 09:39:47 killes
+#  file.inc,v 1.74.2.2 2006/06/01 21:36:59 killes
+#  form.inc,v 1.112.2.9 2006/06/01 15:52:26 killes
+#  locale.inc,v 1.74.2.4 2006/06/01 10:05:18 killes
+#  block.module,v 1.206.2.1 2006/05/21 13:49:07 killes
+#  path.module,v 1.83 2006/04/13 08:25:27 killes
+#  drupal.module,v 1.119.2.1 2006/06/01 20:42:53 killes
+#  statistics.module,v 1.225.2.1 2006/05/05 12:03:51 killes
+#  upload.module,v 1.100.2.1 2006/06/01 21:36:59 killes
+#  forum.module,v 1.328.2.1 2006/05/08 18:02:03 killes
+#  taxonomy.module,v 1.275.2.8 2006/06/01 01:04:07 killes
+#  watchdog.module,v 1.143 2006/04/13 08:25:27 killes
+#  search.module,v 1.176.2.2 2006/05/07 17:51:24 killes
+#  locale.module,v 1.135 2006/03/17 18:35:56 killes
+#  menu.inc,v 1.120.2.1 2006/06/01 13:22:02 killes
+#  chameleon.theme,v 1.44 2006/04/15 04:07:18 unconed
+#  pager.inc,v 1.54 2006/04/13 08:25:27 killes
+#  theme.inc,v 1.292.2.3 2006/05/02 13:04:49 killes
+#  phptemplate.engine,v 1.33.2.1 2006/05/24 11:00:45 killes
+#  blog.module,v 1.245.2.2 2006/05/14 15:17:13 killes
+#  page.module,v 1.154 2006/03/27 18:02:48 killes
+#  story.module,v 1.186 2006/03/27 18:02:48 killes
+#  tracker.module,v 1.129 2006/04/17 20:48:26 dries
+#  archive.module,v 1.87 2006/03/07 11:36:49 dries
+#  throttle.module,v 1.59 2006/02/21 18:46:54 dries
+#  help.module,v 1.50 2006/03/12 01:56:11 unconed
+#  poll.module,v 1.195 2006/04/14 09:05:19 killes
+#  cron.php,v 1.34 2005/12/31 14:18:22 dries
+#  database.pgsql.inc,v 1.29.2.1 2006/05/24 20:47:13 killes
+#  tablesort.inc,v 1.38 2006/04/13 08:25:27 killes
+#  xmlrpc.inc,v 1.34.2.1 2006/05/16 13:11:28 killes
+#  xmlrpcs.inc,v 1.19 2006/04/11 11:33:14 killes
+#  ping.module,v 1.35 2006/04/11 11:19:59 killes
+# Kinley Tshering <gasepkuenden2k3@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-4.7.0/general.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-19 10:36+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: includes/common.inc:326
+#: modules/system/system.module:865
+msgid "@site is currently under maintenance. We should be back shortly. Thank you for your patience."
+msgstr "@siteའདི་  ད་ལྟོ་རྒྱུན་སྐྱོང་གི་འོག་ལུ་ཨིན་པས།  ང་བཅས་བགྱོགས་པ་རང་  ལོག་འོང་དགོ་པས། ནཱ་གི་ བཟོད་སྲན་བསྐྱེདཔ་གནང་མི་འདི་ལུ་  བཀའ་དྲིན་ཆེ་ཟེར་ཞུ་ནི་ཨིན།"
+
+#: includes/common.inc:999
+#: modules/upload/upload.module:201;210
+msgid "MB"
+msgstr "ཨེམ་བི་"
+
+#: includes/common.inc:555
+#: includes/image.inc:61
+#: includes/unicode.inc:151;184
+#: modules/system/system.install:2342;2572
+msgid "php"
+msgstr "པི་ཨེཆི་པི།"
+
+#: includes/database.mysql.inc:24
+#: includes/database.mysqli.inc:27
+msgid "MySQL database"
+msgstr "མའི་ཨེསི་ཀིའུ་ཨེལ་གནས་སྡུད་གཞི་རྟེན་"
+
+#: includes/database.mysql.inc:30
+#: includes/database.mysqli.inc:33
+msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
+msgstr "ཁྱོད་རའི་ མའི་ཨེསི་ཀིའུ་ཨེལ་སར་བར་འདི་གནམ་མེད་ས་མེད་རྙིངམ་ཨིན་བས།  ཌུ་པཱལ་དེ་ལུ་  མའི་ཨེསི་ཀིའུ་ཨེལ་ %version ཉུང་མཐའ་དགོཔ་ཨིན།"
+
+#: includes/file.inc:97
+#: modules/system/system.install:116
+msgid "The directory %directory does not exist."
+msgstr "སྣོད་ཐོ་ %directory འདི་མེད།"
+
+#: includes/file.inc:123
+#: modules/user/user.module:1223;1467;2184
+msgid "security"
+msgstr "སྲུང་སྐྱོབ།"
+
+#: includes/form.inc:536;542
+#: modules/filter/filter.module:848
+msgid "An illegal choice has been detected. Please contact the site administrator."
+msgstr "ཁྲིམས་འགལ་གདམ་ཁ་འདི་  སྐྱོན་འཛིན་བྱུང་ཡོད།  ས་ཁོངས་བདག་སྐྱོང་པ་འདི་ལུ་ འབྲེལ་བམཛད་གནང་།"
+
+#: includes/form.inc:543
+#: modules/filter/filter.module:849
+msgid "Illegal choice %choice in %name element."
+msgstr "%nameཆ་ཤས་ནང་ལུ་ ཁྲིམས་འགལ་ གདམ་ཁ་ %choice"
+
+#: includes/form.inc:1032
+#: modules/user/user.module:485;906
+msgid "Password"
+msgstr "ཆོག་ཡིག་"
+
+#: includes/form.inc:537;543
+#: modules/filter/filter.module:849
+msgid "form"
+msgstr "འབྲི་ཤོག"
+
+#: includes/locale.inc:77
+#: modules/filter/filter.module:463;553
+#: modules/system/system.module:1070;1163;1195;1359
+msgid "Save configuration"
+msgstr "རིམ་སྒྲིག་དེ་ སྲུངས་བཞག་འབད།"
+
+#: includes/locale.inc:90
+#: modules/blogapi/blogapi.module:242
+#: modules/filter/filter.module:783
+#: modules/forum/forum.module:695
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/locale.inc:90;1384
+#: modules/block/block.module:249
+#: modules/book/book.module:857
+#: modules/comment/comment.module:795
+#: modules/contact/contact.module:148
+#: modules/filter/filter.module:320
+#: modules/menu/menu.module:675
+#: modules/node/content_types.inc:31
+#: modules/node/node.module:1646
+#: modules/path/path.module:309
+#: modules/profile/profile.module:401
+#: modules/user/user.module:1730
+msgid "delete"
+msgstr "བཏོན་གཏང་།"
+
+#: includes/locale.inc:93
+#: modules/comment/comment.module:502
+#: modules/drupal/drupal.module:63;110
+#: modules/statistics/statistics.module:364
+#: modules/system/system.module:587;694;813;1184;1530
+#: modules/upload/upload.module:349
+#: modules/user/user.module:2303
+msgid "Enabled"
+msgstr "ལྕོགས་ཅན།"
+
+#: includes/locale.inc:93
+#: modules/filter/filter.module:349
+#: modules/system/system.module:1184
+msgid "Default"
+msgstr "སྔོན་སྒྲིག"
+
+#: includes/locale.inc:93;1376
+#: modules/aggregator/aggregator.module:983;994
+#: modules/block/block.module:354
+#: modules/book/book.module:846;965
+#: modules/comment/comment.module:1132
+#: modules/contact/contact.module:150
+#: modules/filter/filter.module:349
+#: modules/forum/forum.module:585
+#: modules/menu/menu.module:599
+#: modules/node/content_types.inc:15
+#: modules/node/node.module:1553;1616
+#: modules/path/path.module:302
+#: modules/profile/profile.module:407
+#: modules/statistics/statistics.module:208;235;263;317
+#: modules/system/system.module:1184
+#: modules/taxonomy/taxonomy.module:156;168
+#: modules/user/user.module:1725;1967;1994;2062
+#: modules/watchdog/watchdog.module:120
+msgid "Operations"
+msgstr "བཀོལ་སྤྱོད་ཚུ།"
+
+#: includes/locale.inc:141
+#: modules/locale/locale.module:77
+msgid "Add language"
+msgstr "སྐད་ཡིག་ཁ་སྐོང་བརྐྱབ་"
+
+#: includes/locale.inc:248
+#: modules/locale/locale.module:83
+msgid "Import"
+msgstr "ནང་འདྲེན་འབད་"
+
+#: includes/locale.inc:286;297
+#: modules/locale/locale.module:89
+msgid "Export"
+msgstr "ཕྱིར་འདྲེན་"
+
+#: includes/locale.inc:341;360
+#: modules/search/search.module:131;144;1002;1042
+#: modules/search/search.info:0
+#: modules/user/user.module:2318
+msgid "Search"
+msgstr "འཚོལ་ཞིབ།"
+
+#: includes/locale.inc:351
+#: modules/locale/locale.module:146
+msgid "Language"
+msgstr "སྐད་ཡིག།"
+
+#: includes/locale.inc:1384
+#: modules/aggregator/aggregator.module:986;997
+#: modules/book/book.module:856
+#: modules/comment/comment.module:799;810;1144
+#: modules/contact/contact.module:148
+#: modules/menu/menu.module:654
+#: modules/node/content_types.inc:27
+#: modules/node/node.module:1541
+#: modules/path/path.module:309
+#: modules/profile/profile.module:401
+#: modules/taxonomy/taxonomy.module:184
+#: modules/user/user.module:999;1235;1730;2039
+msgid "edit"
+msgstr "ཞུན་དག"
+
+#: includes/locale.inc:32;270;499;1144;1165
+#: modules/locale/locale.module:340;0
+msgid "locale"
+msgstr "ལོ་ཀེལ།"
+
+#: includes/menu.inc:544
+#: modules/node/node.module:2174
+#: themes/bluemarine/page.tpl.php:17;17;18
+#: themes/chameleon/chameleon.theme:51;51
+#: themes/pushbutton/page.tpl.php:19;19;25
+msgid "Home"
+msgstr "ཁྱིམ།"
+
+#: includes/menu.inc:1051
+#: modules/user/user.module:510;554
+msgid "Navigation"
+msgstr "འགྲུལ་བསྐྱོདཔ།"
+
+#: includes/pager.inc:382
+#: modules/book/book.module:489
+msgid "Go to previous page"
+msgstr "ཧེ་མའི་ཤོག་ལེབ་གུར་འགྱོ།"
+
+#: includes/pager.inc:383
+#: modules/book/book.module:497
+msgid "Go to next page"
+msgstr "ཤོག་ལེབ་གཞན་གུར་འགྱོ།"
+
+#: includes/theme.inc:874
+#: themes/engines/phptemplate/phptemplate.engine:310
+msgid "new"
+msgstr "གསརཔ།"
+
+#: includes/theme.inc:1022
+#: modules/user/user.module:625
+msgid "View user profile."
+msgstr "ལག་ལེན་པའི་  གསལ་སྡུད་དེ་སྟོན།"
+
+#: includes/theme.inc:1043
+#: modules/comment/comment.module:1474;1483
+#: modules/node/node.module:2002
+#: modules/system/system.module:566
+#: modules/user/user.module:622
+msgid "Anonymous"
+msgstr "མིང་མེདཔ་"
+
+#: modules/aggregator/aggregator.module:49
+#: modules/contact/contact.module:59
+msgid "Add category"
+msgstr "དབྱེ་རིམ་ཁ་སྐོང་རྐྱབས་"
+
+#: modules/aggregator/aggregator.module:65
+#: modules/block/block.module:72
+#: modules/book/book.module:100
+#: modules/comment/comment.module:160
+#: modules/contact/contact.module:53
+#: modules/filter/filter.module:65
+#: modules/forum/forum.module:50
+#: modules/locale/locale.module:71
+#: modules/menu/menu.module:47
+#: modules/node/node.module:1076;1112
+#: modules/path/path.module:56
+#: modules/system/system.module:155;194;198
+#: modules/taxonomy/taxonomy.module:72;118
+#: modules/upload/upload.module:817
+#: modules/user/user.module:724;747
+msgid "List"
+msgstr "ཐོ་ཡིག་"
+
+#: modules/aggregator/aggregator.module:69
+#: modules/comment/comment.module:174
+#: modules/contact/contact.module:81
+#: modules/forum/forum.module:67
+#: modules/menu/menu.module:101
+#: modules/poll/poll.module:187
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་"
+
+#: modules/aggregator/aggregator.module:86;1387
+#: modules/taxonomy/taxonomy.module:66;668
+msgid "Categories"
+msgstr "དབྱེ་རིམ་ཚུ།"
+
+#: modules/aggregator/aggregator.module:91
+#: modules/node/node.module:1134
+msgid "RSS feed"
+msgstr "ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་འབད་ནི་"
+
+#: modules/aggregator/aggregator.module:124;146
+#: modules/comment/comment.module:200
+#: modules/filter/filter.module:105
+#: modules/legacy/legacy.module:58;64;70
+#: modules/node/node.module:1159;1164
+#: modules/user/user.module:805
+msgid "View"
+msgstr "སྟོན་"
+
+#: modules/aggregator/aggregator.module:134;156
+#: modules/filter/filter.module:113
+#: modules/system/system.module:164
+msgid "Configure"
+msgstr "རིམ་སྒྲིག་འབད་"
+
+#: modules/aggregator/aggregator.module:195
+#: modules/block/block.module:228
+#: modules/system/system.module:672
+#: modules/taxonomy/taxonomy.module:382;545
+msgid "none"
+msgstr "གང་ཡང་མེནམ།"
+
+#: modules/aggregator/aggregator.module:199
+#: modules/filter/filter.module:162;164;1048
+msgid "Allowed HTML tags"
+msgstr "འབད་བཅུག་པའི་  ཨེཆ་ཊི་ཨེམ་ཨེལ་ ངོ་རྟགས་ཚུ།"
+
+#: modules/aggregator/aggregator.module:288;296
+#: modules/blog/blog.module:285
+#: modules/forum/forum.module:280
+msgid "more"
+msgstr "ཧེང་བཀལ"
+
+#: modules/aggregator/aggregator.module:319;423;983;994
+#: modules/book/book.module:846
+#: modules/filter/filter.module:202
+#: modules/menu/menu.module:194;314;350
+#: modules/node/content_types.inc:63
+#: modules/node/node.module:379;1553
+#: modules/profile/profile.module:237;407
+#: modules/statistics/statistics.module:188
+msgid "Title"
+msgstr "མགོ་མིང་།"
+
+#: modules/aggregator/aggregator.module:325
+#: modules/forum/forum.module:448;503
+#: modules/menu/menu.module:200;356
+#: modules/node/content_types.inc:15;108
+#: modules/system/system.module:1536;1690;1781
+#: modules/taxonomy/taxonomy.module:214;361
+#: modules/upload/upload.module:817
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: modules/aggregator/aggregator.module:328;342;459;473
+#: modules/contact/contact.module:195
+#: modules/forum/forum.module:464;516
+#: modules/menu/menu.module:324;404
+#: modules/node/node.module:2029
+#: modules/taxonomy/taxonomy.module:262;388
+#: modules/user/user.module:1426
+msgid "Submit"
+msgstr "བྱིན།"
+
+#: modules/aggregator/aggregator.module:331;361;462;497
+#: modules/block/block.module:532
+#: modules/comment/comment.module:1067
+#: modules/contact/contact.module:259
+#: modules/filter/filter.module:368
+#: modules/forum/forum.module:467;476;518;567
+#: modules/locale/locale.module:326
+#: modules/menu/menu.module:437;609
+#: modules/node/content_types.inc:391
+#: modules/node/node.module:1173;1210;1257;2031;2246;2399
+#: modules/path/path.module:101
+#: modules/profile/profile.module:375
+#: modules/taxonomy/taxonomy.module:264;346;391;525;1336;1349
+#: modules/upload/upload.module:817
+#: modules/user/user.module:811;1414;1428;1441;1662
+msgid "Delete"
+msgstr "བཏོན་གཏང་།"
+
+#: modules/aggregator/aggregator.module:390;526
+#: modules/blogapi/blogapi.module:221;277
+#: modules/book/book.module:855;930
+#: modules/comment/comment.module:680;753;1180
+#: modules/contact/contact.module:238;244
+#: modules/menu/menu.module:530
+#: modules/node/content_types.inc:332
+#: modules/node/node.module:2216;2221
+#: modules/profile/profile.module:348;388
+msgid "view"
+msgstr "སྟོན།"
+
+#: modules/aggregator/aggregator.module:430
+#: modules/profile/profile.module:795
+#: modules/statistics/statistics.module:187
+msgid "URL"
+msgstr "ཡུ་ཨར་ཨེལ།"
+
+#: modules/aggregator/aggregator.module:986;1301
+#: modules/comment/comment.module:239
+#: modules/statistics/statistics.module:354
+#: modules/tracker/tracker.module:112
+#: modules/user/user.module:2038
+msgid "@time ago"
+msgstr "@time གི་ཧེ་མ།"
+
+#: modules/aggregator/aggregator.module:986;986;1304
+#: modules/user/user.module:2038
+msgid "never"
+msgstr "ནམ་ཡང་།"
+
+#: modules/aggregator/aggregator.module:1207
+#: modules/node/node.module:1807
+msgid "read more"
+msgstr "ཧེང་བཀལ་ ལྷག"
+
+#: modules/aggregator/aggregator.info:0
+#: modules/blog/blog.info:0
+#: modules/blogapi/blogapi.info:0
+#: modules/book/book.info:0
+#: modules/color/color.info:0
+#: modules/comment/comment.info:0
+#: modules/contact/contact.info:0
+#: modules/drupal/drupal.info:0
+#: modules/forum/forum.info:0
+#: modules/help/help.info:0
+#: modules/legacy/legacy.info:0
+#: modules/locale/locale.info:0
+#: modules/menu/menu.info:0
+#: modules/path/path.info:0
+#: modules/ping/ping.info:0
+#: modules/poll/poll.info:0
+#: modules/profile/profile.info:0
+#: modules/search/search.info:0
+#: modules/statistics/statistics.info:0
+#: modules/taxonomy/taxonomy.info:0
+#: modules/throttle/throttle.info:0
+#: modules/tracker/tracker.info:0
+#: modules/upload/upload.info:0
+msgid "Core - optional"
+msgstr "ནང་སྙིང་-གདམ་ཁ་ཅན་"
+
+#: modules/aggregator/aggregator.info:0
+#: modules/block/block.info:0
+#: modules/blog/blog.info:0
+#: modules/blogapi/blogapi.info:0
+#: modules/book/book.info:0
+#: modules/color/color.info:0
+#: modules/comment/comment.info:0
+#: modules/contact/contact.info:0
+#: modules/drupal/drupal.info:0
+#: modules/filter/filter.info:0
+#: modules/forum/forum.info:0
+#: modules/help/help.info:0
+#: modules/legacy/legacy.info:0
+#: modules/locale/locale.info:0
+#: modules/menu/menu.info:0
+#: modules/node/node.info:0
+#: modules/path/path.info:0
+#: modules/ping/ping.info:0
+#: modules/poll/poll.info:0
+#: modules/profile/profile.info:0
+#: modules/search/search.info:0
+#: modules/statistics/statistics.info:0
+#: modules/system/system.info:0
+#: modules/taxonomy/taxonomy.info:0
+#: modules/throttle/throttle.info:0
+#: modules/tracker/tracker.info:0
+#: modules/upload/upload.info:0
+#: modules/user/user.info:0
+#: modules/watchdog/watchdog.info:0
+msgid "VERSION"
+msgstr "ཐོན་རིམ་"
+
+#: modules/block/block.module:247
+#: modules/filter/filter.module:319
+#: modules/system/system.module:1153
+msgid "configure"
+msgstr "རིམ་སྒྲིག"
+
+#: modules/block/block.module:330
+#: modules/comment/comment.module:333;352;502
+#: modules/drupal/drupal.module:63;110
+#: modules/statistics/statistics.module:364;469
+#: modules/system/system.module:587;667;694;813
+#: modules/taxonomy/taxonomy.module:233
+#: modules/upload/upload.module:349
+#: modules/user/user.module:2303
+msgid "Disabled"
+msgstr "ལྕོགས་མིན།"
+
+#: modules/block/block.module:350
+#: modules/book/book.module:236;269;846
+#: modules/contact/contact.module:181
+#: modules/filter/filter.module:562
+#: modules/forum/forum.module:455;510
+#: modules/menu/menu.module:219;392
+#: modules/node/node.module:948
+#: modules/profile/profile.module:262
+#: modules/taxonomy/taxonomy.module:257;386
+msgid "Weight"
+msgstr "ལྗིད་ཚད།"
+
+#: modules/block/block.module:352
+#: modules/system/system.module:1532
+#: modules/throttle/throttle.module:16;106
+#: modules/throttle/throttle.info:0
+msgid "Throttle"
+msgstr "མར་ཕབ།"
+
+#: modules/block/block.module:532
+#: modules/comment/comment.module:1068;1244
+#: modules/contact/contact.module:259
+#: modules/filter/filter.module:368
+#: modules/forum/forum.module:567
+#: modules/locale/locale.module:326
+#: modules/node/node.module:1011;1597;2246
+#: modules/path/path.module:101
+#: modules/poll/poll.module:246
+#: modules/profile/profile.module:375
+#: modules/search/search.module:243
+#: modules/system/system.module:1417;1668;2150
+#: modules/taxonomy/taxonomy.module:347;526
+#: modules/user/user.module:1441;1663;2265
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་།"
+
+#: modules/block/block.info:0
+#: modules/filter/filter.info:0
+#: modules/node/node.info:0
+#: modules/system/system.info:0
+#: modules/user/user.info:0
+#: modules/watchdog/watchdog.info:0
+msgid "Core - required"
+msgstr "ནང་སྙིང་-འདི་དགོ་པས་"
+
+#: modules/blog/blog.module:51
+#: modules/blog/blog.info:0
+#: modules/legacy/legacy.module:52
+msgid "Blog"
+msgstr "ཝེབ་དྲན་དེབ་"
+
+#: modules/blog/blog.module:55
+#: modules/user/user.module:453
+msgid "History"
+msgstr "རྒྱལ་རབས།"
+
+#: modules/blogapi/blogapi.module:221;277
+#: modules/book/book.module:930
+#: modules/comment/comment.module:666;680;753;772;1180;1789;1795
+#: modules/forum/forum.module:576
+#: modules/node/node.module:1675;1700;2216;2221;2283
+#: themes/engines/phptemplate/phptemplate.engine:30
+msgid "content"
+msgstr "ནང་དོན།"
+
+#: modules/book/book.module:212;263
+#: modules/forum/forum.module:453;508
+#: modules/taxonomy/taxonomy.module:374
+msgid "Parent"
+msgstr "རྩ་ལག།"
+
+#: modules/book/book.module:275
+#: modules/node/node.module:1986
+msgid "Log message"
+msgstr "འཕྲིན་དོན་ཚུ་  དྲན་དེབ་ནང་བཀོད།"
+
+#: modules/book/book.module:489
+#: modules/forum/forum.module:1087
+msgid "‹ "
+msgstr "‹ "
+
+#: modules/book/book.module:497
+#: modules/forum/forum.module:1094
+msgid " ›"
+msgstr " ›"
+
+#: modules/color/color.module:164
+#: modules/menu/menu.module:180
+#: modules/node/node.module:2028;2049;2173
+msgid "Preview"
+msgstr "སྔོན་ལྟ།"
+
+#: modules/color/color.module:219
+#: modules/node/content_types.inc:210;279;301;322
+#: modules/system/system.module:1071;1087;1113;1123;1164
+msgid "Reset to defaults"
+msgstr "སྔོན་སྒྲིག་འདི་ཚུ་ སླར་སྒྲིག་འབད།"
+
+#: modules/comment/comment.module:153
+#: themes/garland/template.php:49
+msgid "Comments"
+msgstr "བསམ་བཀོད་ཚུ་"
+
+#: modules/comment/comment.module:510
+#: modules/node/node.module:991
+msgid "Optional"
+msgstr "གདམ་ཁ་ཅན།"
+
+#: modules/comment/comment.module:510
+#: modules/node/node.module:991
+#: modules/taxonomy/taxonomy.module:252
+msgid "Required"
+msgstr "དགོས་མཁོ་ཡོདཔ།"
+
+#: modules/comment/comment.module:1115
+#: modules/node/node.module:1523
+#: modules/user/user.module:2003
+msgid "Update options"
+msgstr "དུས་མཐུན་གྱི་གདམ་ཁ།"
+
+#: modules/comment/comment.module:1123
+#: modules/node/node.module:1532
+#: modules/user/user.module:2018;2633
+msgid "Update"
+msgstr "དུས་མཐུན།"
+
+#: modules/comment/comment.module:1129;1491
+#: modules/contact/contact.module:336;445
+#: modules/forum/forum.module:110
+msgid "Subject"
+msgstr "དོན་ཚན།"
+
+#: modules/comment/comment.module:1130
+#: modules/node/node.module:1553
+#: modules/tracker/tracker.module:120
+msgid "Author"
+msgstr "རྩོམ་པ་པོ།"
+
+#: modules/comment/comment.module:1131
+#: modules/statistics/statistics.module:205
+msgid "Time"
+msgstr "དུས་ཚོད།"
+
+#: modules/comment/comment.module:1184
+#: modules/node/node.module:1490
+#: modules/user/user.module:2112
+msgid "The update has been performed."
+msgstr "དུས་མཐུན་གྱི་ལས་འགན་གྲུབ་ཡོད།"
+
+#: modules/comment/comment.module:1243
+#: modules/contact/contact.module:259
+#: modules/menu/menu.module:437
+#: modules/node/content_types.inc:389
+#: modules/node/node.module:1596;2245
+#: modules/path/path.module:100
+#: modules/system/system.module:2141
+#: modules/user/user.module:1661;2264
+msgid "This action cannot be undone."
+msgstr "འ་ནི་བྱ་བ་འདི་  མ་འབད་བར་བཞག་མི་བཏུབ།"
+
+#: modules/comment/comment.module:1332
+#: modules/node/node.module:1909
+msgid "You have to specify a valid date."
+msgstr "ཁྱོད་ཀྱི་ ཆ་གནས་ཡོད་པའི་ཚེས་གྲངས་ཅིག་  གསལ་བཀོད་འབད།"
+
+#: modules/comment/comment.module:1422;1438
+#: modules/node/node.module:2002
+msgid "Authored by"
+msgstr "རྩོམ་མི།"
+
+#: modules/comment/comment.module:1446;1477;1485
+#: modules/user/user.module:1563;1700
+msgid "E-mail"
+msgstr "གློག་འཕྲིན།"
+
+#: modules/comment/comment.module:1450;1477;1485
+#: modules/profile/profile.module:621
+msgid "The content of this field is kept private and will not be shown publicly."
+msgstr "འ་ནི་ས་སྒོ་འདི་གི་  ནང་དོན་འདི་ སྒེར་དོན་སྦེ་བཞག་ཡོདཔ་དང་  མང་མང་ལུ་མི་སྟོན།"
+
+#: modules/comment/comment.module:1462
+#: modules/node/node.module:2003
+msgid "Authored on"
+msgstr "ནམ་རྩམ་ཡོདཔ།"
+
+#: modules/comment/comment.module:1464
+#: modules/node/node.module:1553
+#: modules/user/user.module:1323;1990;2058
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#: modules/comment/comment.module:1464
+#: modules/node/content_types.inc:161
+#: modules/node/node.module:2018
+msgid "Published"
+msgstr "དཔེ་བསྐྲུན་འབད་ཡོདཔ།"
+
+#: modules/comment/comment.module:1468;1474;1483
+#: modules/contact/contact.module:433
+msgid "Your name"
+msgstr "ཁྱོད་རའི་མིང་།"
+
+#: modules/comment/comment.module:1830
+#: modules/forum/forum.module:193
+msgid "Date - newest first"
+msgstr "ཚེས་གྲངས-དང་པ་ གསར་ཤོས་འདི།"
+
+#: modules/comment/comment.module:1831
+#: modules/forum/forum.module:193
+msgid "Date - oldest first"
+msgstr "ཚེས་གྲངས་-དང་པ་ རྙིས་ཤོས་འདི།"
+
+#: modules/comment/comment.module:263;393
+#: modules/node/node.module:68
+msgid "1 comment"
+msgid_plural "@count comments"
+msgstr[0] "བསམ་བཀོད་༡།"
+msgstr[1] "%count བསམ་བཀོད་ཚུ།"
+
+#: modules/contact/contact.module:148;187
+#: modules/menu/menu.module:695
+#: modules/upload/upload.module:183
+msgid "Yes"
+msgstr "ཨིན།"
+
+#: modules/contact/contact.module:148;187
+#: modules/menu/menu.module:695
+#: modules/upload/upload.module:183
+msgid "No"
+msgstr "མེན།"
+
+#: modules/contact/contact.module:150;163;456
+#: modules/profile/profile.module:230;407
+msgid "Category"
+msgstr "དབྱེ་རིམ།"
+
+#: modules/contact/contact.module:150;186
+#: modules/system/system.module:514
+msgid "Selected"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོདཔ།"
+
+#: modules/contact/contact.module:206
+#: modules/profile/profile.module:318
+msgid "You must enter a category."
+msgstr "ཁྱོད་ཀྱི་དབྱེ་རིམ་ཅིག་  ཐོ་བཀོད་འབད་དགོ"
+
+#: modules/contact/contact.module:341;470
+#: modules/watchdog/watchdog.module:118;167;224
+msgid "Message"
+msgstr "འཕྲིན་དོན།"
+
+#: modules/drupal/drupal.module:355
+#: modules/drupal/drupal.info:0
+#: modules/system/system.install:20
+msgid "Drupal"
+msgstr "ཊུ་པཱལ།"
+
+#: modules/filter/filter.module:349;562
+#: modules/forum/forum.module:585
+#: modules/node/content_types.inc:15;77
+#: modules/profile/profile.module:407
+#: modules/system/system.module:514;533;1184;1534;1689
+#: modules/taxonomy/taxonomy.module:156;168
+#: modules/user/user.module:1967
+msgid "Name"
+msgstr "མིང་།"
+
+#: modules/filter/filter.module:349;418
+#: modules/user/user.module:737;1329;1991;2059
+msgid "Roles"
+msgstr "ལས་འགན།"
+
+#: modules/filter/filter.info:0
+#: modules/node/node.module:1392;1449
+#: modules/user/user.module:2554;2617
+#: modules/watchdog/watchdog.module:98
+msgid "Filter"
+msgstr "ཚགས་མ།"
+
+#: modules/forum/forum.module:632
+#: modules/taxonomy/taxonomy.module:374;377
+msgid "root"
+msgstr "རྩ་བ།"
+
+#: modules/forum/forum.module:778
+#: modules/tracker/tracker.module:120
+msgid "Replies"
+msgstr "ལན་གསལ་ཚུ།"
+
+#: modules/forum/forum.module:942
+#: modules/tracker/tracker.module:120
+msgid "Last post"
+msgstr "མཐའ་མཇུག་ལུ་འགྲེམ་སྐྱེལ་འབད་ཡོད་མི།"
+
+#: modules/forum/forum.module:973;1008
+#: modules/tracker/tracker.module:103
+msgid "1 new"
+msgid_plural "@count new"
+msgstr[0] "གསརཔ་ ༡།"
+msgstr[1] "%count གསརཔ།"
+
+#: modules/help/help.module:18
+#: modules/help/help.info:0
+#: modules/user/user.module:710
+msgid "Help"
+msgstr "གྲོགས་རམ་"
+
+#: modules/legacy/legacy.module:0
+#: modules/system/system.install:2788
+msgid "legacy"
+msgstr "སྔོན་བཤུལ།"
+
+#: modules/locale/locale.module:97
+#: modules/system/system.module:2158
+msgid "Confirm"
+msgstr "ངེས་དཔྱད་འབད་"
+
+#: modules/locale/locale.module:0;0
+#: modules/system/system.module:845
+msgid "Thursday"
+msgstr "པ་སངས།"
+
+#: modules/locale/locale.module:0
+#: modules/system/system.module:845
+msgid "Friday"
+msgstr "སྤེན་པ།"
+
+#: modules/locale/locale.module:0
+#: modules/system/system.module:845
+msgid "Saturday"
+msgstr "ཉིམ།"
+
+#: modules/locale/locale.module:0
+#: modules/system/system.module:845
+msgid "Sunday"
+msgstr "ཟླཝ།"
+
+#: modules/locale/locale.module:0
+#: modules/system/system.module:845
+msgid "Monday"
+msgstr "མིག་དམར།"
+
+#: modules/locale/locale.module:0
+#: modules/system/system.module:845
+msgid "Tuesday"
+msgstr "ལྷག་པ།"
+
+#: modules/locale/locale.module:0
+#: modules/system/system.module:845
+msgid "Wednesday"
+msgstr "ཕུརཔ།"
+
+#: modules/menu/menu.module:465
+#: modules/node/node.module:1395;1465
+#: modules/user/user.module:2561;2630
+msgid "Reset"
+msgstr "སླར་སྒྲིག"
+
+#: modules/menu/menu.module:606
+#: modules/node/node.module:1167
+#: modules/user/user.module:808
+msgid "Edit"
+msgstr "ཞུན་དག་འབད་"
+
+#: modules/menu/menu.module:649
+#: modules/user/user.module:1973
+msgid "locked"
+msgstr "ལྡེ་མིག་རྐྱབ་ཡོདཔ།"
+
+#: modules/menu/menu.module:449;453;530;0
+#: modules/node/content_types.inc:402
+msgid "menu"
+msgstr "དཀར་ཆག་"
+
+#: modules/node/content_types.inc:15;86;100
+#: modules/node/node.module:1553
+#: modules/profile/profile.module:407
+#: modules/taxonomy/taxonomy.module:156
+#: modules/tracker/tracker.module:120
+#: modules/watchdog/watchdog.module:116;204
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: modules/node/content_types.inc:47
+#: modules/node/node.module:2126
+msgid "No content types available."
+msgstr "ནང་དོན་དབྱེ་བ་ཚུ་ཐོབ་ཚུགསཔ་མེད།"
+
+#: modules/node/content_types.inc:64
+#: modules/node/node.module:386
+msgid "Body"
+msgstr "མ་གཟུགས།"
+
+#: modules/node/content_types.inc:162
+#: modules/node/node.module:2019
+msgid "Promoted to front page"
+msgstr "ཤོག་ལེབ་དང་པའི་ནང་ཡར་བསྐྱེད་འབད་ནུག་"
+
+#: modules/node/content_types.inc:163
+#: modules/node/node.module:2020
+msgid "Sticky at top of lists"
+msgstr "ཐོ་ཡིག་གི་མགོ་ལུ་རྩི་ཅན་"
+
+#: modules/node/content_types.inc:164
+#: modules/node/node.module:2021
+msgid "Create new revision"
+msgstr "བསྐྱར་ལོག་གསརཔ་གསར་བསྐྲུན་འབད་"
+
+#: modules/node/content_types.inc:332
+#: modules/node/node.module:0
+msgid "node"
+msgstr "མཐུད་མཚམས་"
+
+#: modules/node/node.module:983
+#: modules/poll/poll.module:183
+msgid "Unlimited"
+msgstr "ཚད་མེདཔ།"
+
+#: modules/node/node.module:1310
+#: modules/user/user.module:2482
+msgid "status"
+msgstr "གནས་ཚད་"
+
+#: modules/node/node.module:1392;1450
+#: modules/user/user.module:2554;2617
+msgid "Refine"
+msgstr "ཡང་དག་བཟོ་ནི་"
+
+#: modules/node/node.module:1394;1462
+#: modules/user/user.module:2558;2627
+msgid "Undo"
+msgstr "འབད་བཤོལ་"
+
+#: modules/node/node.module:1423
+#: modules/user/user.module:2590
+msgid "and"
+msgstr "དང་"
+
+#: modules/node/node.module:1423
+#: modules/user/user.module:2590
+msgid "where"
+msgstr "ག་ཏེ་"
+
+#: modules/node/node.module:1429
+#: modules/user/user.module:2596
+msgid "is"
+msgstr "འདི་"
+
+#: modules/node/node.module:1570
+#: modules/tracker/tracker.module:117
+msgid "No posts available."
+msgstr "གནས་བསྐྱོད་ཐོབ་ཚུགསཔ་མེད།"
+
+#: modules/node/node.module:1597
+#: modules/user/user.module:2265
+msgid "Delete all"
+msgstr "ཆ་མཉམ་བཏོན་གཏང་"
+
+#: modules/poll/poll.module:184
+#: modules/user/user.module:1323
+msgid "Active"
+msgstr "ཤུགས་ལྡན།"
+
+#: modules/poll/poll.module:487
+#: modules/statistics/statistics.module:315
+msgid "Visitor"
+msgstr "ལྟ་སྐོར་པ་"
+
+#: modules/statistics/statistics.module:135
+#: modules/watchdog/watchdog.module:49
+msgid "Details"
+msgstr "རྒྱས་བཤད་ཚུ་"
+
+#: modules/statistics/statistics.module:163
+#: modules/tracker/tracker.module:43
+msgid "Track"
+msgstr "རྗེས་ལམ་"
+
+#: modules/statistics/statistics.module:189;206
+#: modules/watchdog/watchdog.module:220
+msgid "Referrer"
+msgstr "གཞི་བསྟུན།"
+
+#: modules/statistics/statistics.module:190
+#: modules/watchdog/watchdog.module:117;208
+msgid "Date"
+msgstr "ཚེས་གྲངས།"
+
+#: modules/statistics/statistics.module:191;207;262
+#: modules/user/user.module:801
+#: modules/user/user.info:0
+#: modules/watchdog/watchdog.module:119;212
+msgid "User"
+msgstr "ལག་ལེན་པ།"
+
+#: modules/statistics/statistics.module:192
+#: modules/user/user.module:1572
+#: modules/watchdog/watchdog.module:232
+msgid "Hostname"
+msgstr "ཧོསཊི་ནེམ་།"
+
+#: modules/statistics/statistics.module:234;261;291
+#: modules/system/system.install:3245
+msgid "Page"
+msgstr "ཤོག་ལེབ་"
+
+#: modules/system/system.module:93
+#: modules/upload/upload.module:94
+msgid "File download"
+msgstr "ཡིག་སྣོད་ ཕབ་ལེན་འབད་"
+
+#: modules/system/system.module:237
+#: modules/system/system.install:139
+msgid "File system"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་"
+
+#: modules/system/system.module:295
+#: modules/system/system.install:58
+msgid "PHP"
+msgstr "པི་ཨེཆ་པི་"
+
+#: modules/system/system.module:540
+#: modules/user/user.module:1304
+msgid "E-mail address"
+msgstr "གློག་འཕྲིན་གྱི་ཁ་བྱང།"
+
+#: modules/throttle/throttle.module:100
+#: modules/user/user.module:586;589
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "ལག་ལེན་པ་ ༡།"
+msgstr[1] "%count ་ལག་ལེན་པ།"
+
+#: modules/watchdog/watchdog.module:109;109;198
+#: themes/engines/phptemplate/phptemplate.engine:383
+msgid "error"
+msgstr "འཚོལ་བ།"
+
+#: themes/chameleon/chameleon.theme:19
+#: themes/engines/phptemplate/phptemplate.engine:28
+msgid "left sidebar"
+msgstr "གཡོན་ ཟུར་ཁའི་ཕྲ་རིང་།"
+
+#: themes/chameleon/chameleon.theme:20
+#: themes/engines/phptemplate/phptemplate.engine:29
+msgid "right sidebar"
+msgstr "གཡས་ ཟུར་ཁའི་ཕྲ་རིང་།"
+
+#: themes/garland/comment.tpl.php:5
+#: themes/garland/node.tpl.php:12
+msgid "!date — !username"
+msgstr "!date — !username"
+
+#: themes/garland/color/color.inc:8
+#: themes/garland/minnelli/color/color.inc:8
+msgid "Blue Lagoon (Default)"
+msgstr "བུལུ་ བུ་ལིན་ (སྔོན་སྒྲིག)"
+
+#: themes/garland/color/color.inc:9
+#: themes/garland/minnelli/color/color.inc:9
+msgid "Ash"
+msgstr "ཐལ་དཀར་"
+
+#: themes/garland/color/color.inc:10
+#: themes/garland/minnelli/color/color.inc:10
+msgid "Aquamarine"
+msgstr "བཻཌུར་ཡ་ལྗང་སྔོན་"
+
+#: themes/garland/color/color.inc:11
+#: themes/garland/minnelli/color/color.inc:11
+msgid "Belgian Chocolate"
+msgstr "བེལ་ཇི་ཡཱན་ བྱི་རིལ་"
+
+#: themes/garland/color/color.inc:12
+#: themes/garland/minnelli/color/color.inc:12
+msgid "Bluemarine"
+msgstr "བུལུ་མེ་རིན་"
+
+#: themes/garland/color/color.inc:13
+#: themes/garland/minnelli/color/color.inc:13
+msgid "Citrus Blast"
+msgstr "སྐྱུར་འབྲས་ཀྱི་བཙའ་ནད་"
+
+#: themes/garland/color/color.inc:14
+#: themes/garland/minnelli/color/color.inc:14
+msgid "Cold Day"
+msgstr "ཉིནམ་ཁོད་སི་སི་"
+
+#: themes/garland/color/color.inc:15
+#: themes/garland/minnelli/color/color.inc:15
+msgid "Greenbeam"
+msgstr "འོད་མདངས་ལྗང་ཁུ་"
+
+#: themes/garland/color/color.inc:16
+#: themes/garland/minnelli/color/color.inc:16
+msgid "Mediterrano"
+msgstr "མེ་ཌི་ཊ་ར་ནོ་"
+
+#: themes/garland/color/color.inc:17
+#: themes/garland/minnelli/color/color.inc:17
+msgid "Mercury"
+msgstr "དངུལ་ཆུ་"
+
+#: themes/garland/color/color.inc:18
+#: themes/garland/minnelli/color/color.inc:18
+msgid "Nocturnal"
+msgstr "ནུབ་མོ་གི་"
+
+#: themes/garland/color/color.inc:19
+#: themes/garland/minnelli/color/color.inc:19
+msgid "Olivia"
+msgstr "ཨོ་ལི་བི་ཡ་"
+
+#: themes/garland/color/color.inc:20
+#: themes/garland/minnelli/color/color.inc:20
+msgid "Pink Plastic"
+msgstr "འགྱིབ་ཤོག་ཤ་ཁ་"
+
+#: themes/garland/color/color.inc:21
+#: themes/garland/minnelli/color/color.inc:21
+msgid "Shiny Tomato"
+msgstr "ཊོ་མེ་ཊོ་འོད་ཆེམ་ཆེམ་"
+
+#: themes/garland/color/color.inc:22
+#: themes/garland/minnelli/color/color.inc:22
+msgid "Teal Top"
+msgstr "སྔོ་ལྗང་གི་མགོ་"
+
+#: includes/database.pgsql.inc:23
+msgid "PostgreSQL database"
+msgstr "PostgreSQL གནས་སྡུད་གཞི་རྟེན་"
+
+#: includes/database.pgsql.inc:29
+msgid "Your PostgreSQL Server is too old. Drupal requires at least PostgreSQL %version."
+msgstr "ཁྱོད་རའི་  PostgreSQL སར་བར་འདི་གནམ་མེད་ས་མེད་རྙིངམ་ཨིན་མས།  ཌུ་པཱལ་དེ་ལུ་ཉུང་མཐའ་རང་  PostgreSQL %version འདི་དགོཔ་ཨིན།"
+
+#: includes/database.pgsql.inc:402
+msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
+msgstr "ཁྱོད་ཀྱི་ པོསིཊི་གི་རི་ ཨིསི་ཀིའུ་ཨེལ་གནད་སྡུད་གཞི་རྟེན་འདི་  ཡིག་འབྲི་ཕྱི་འགྱུར་གྱི་ཨིན་ཀོ་ཊིང་(%encoding)དང་ཅིག་ཁར་གཞི་སྒྲིག་འབད་དེ་འདུག   འདི་སྲིད་པ་ཅིག་ཨིན་  འདི་གིས་རེ་བ་བསྐྱེད་དོ་བཟུམ་སྦེ་ལཱ་མི་འབད། འདི་ ཡུ་ཊི་ཨེཕི་-༨/ཡུ་ནི་ཀོཌི་ ཨིན་ཀོ་ཌིང་དང་གཅིག་ཁར་ལོག་གསར་བསྐྲུན་འབད་དགོཔ་སྦེ་  སླབ་བྱ་བྱིན་ཡོནཔ་ཨིན།  བརྡ་དོན་ཧེང་བཀལ་ <a href=\"@url\">PostgreSQL ཡིག་ཐོག་བཀོད་པ་</a>ནང་ལུ་འཐོབ་ཚུགས།   "
+
+#: includes/form.inc:396
+msgid "Validation error, please try again. If this error persists, please contact the site administrator."
+msgstr "ནུས་ལྡན་བཟོ་ནིའི་འཛོལ་བ་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང།  འ་ནི་འཛོལ་བ་འདི་གིས་ ཨུ་ཚུགས་རྐྱབ་པ་ཅིན་  ས་ཁོངས་བདག་སྐྱོང་པ་དེ་ལུ་ འབྲེལ་བ་འཐབ་གནང་།"
+
+#: includes/form.inc:521
+msgid "!name field is required."
+msgstr "!nameས་སྒོ་འདི་དགོས་མཁོ་ཡོད།"
+
+#: includes/form.inc:537
+msgid "Illegal choice %choice in !name element."
+msgstr "!nameཆ་ཤས་ནང་ལུ་ ཁྲིམས་འགལ་ གདམ་ཁ་!choice"
+
+#: includes/form.inc:1037
+msgid "Confirm password"
+msgstr "ཆོག་ཡིག་ངེས་དཔྱད་འབད་"
+
+#: includes/form.inc:1054
+msgid "The specified passwords do not match."
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་ ཆོག་ཡིག་དེ་  མཐུན་སྒྲིག་མི་འབད་བས།"
+
+#: includes/form.inc:1058
+msgid "Password field is required."
+msgstr "ཆོག་ཡིག་གི་ས་སྒོ་འདི་དགོ་པས།"
+
+#: includes/form.inc:1136
+msgid "The specified date is invalid."
+msgstr "གསལ་བཀོད་འབད་ཡོད་པའི་  ཚེས་གྲངས་འདི་ ནུས་མེད་ཨིན་པས།"
+
+#: includes/form.inc:1452
+msgid "This field is required."
+msgstr "ས་སྒོ་འདི་དགོས་མཁོ་ཡོད།"
+
+#: includes/form.inc:1457;1460
+msgid "!title: !required"
+msgstr "!title: !required"
+
+#: includes/image.inc:21
+msgid "Built-in GD2 toolkit"
+msgstr "ཇི་ཌི་༢་ ཆས་སྒྲོམ་འདི་  ནང་སྦྲགས་འབད།"
+
+#: includes/image.inc:61
+msgid "The selected image handling toolkit %toolkit can not correctly process %function."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ གཟུགས་བརྙན་  ཆས་སྒྲོམ་ %toolkitལེགས་སྐྱོང་འཐབ་ནི་འདི་གིས་  %functionདེ་  ངེས་བདེན་སྦེ་ལས་སྦྱོར་འབད་མ་ཚུགས།"
+
+#: includes/image.inc:184
+msgid "The built-in GD2 toolkit is installed and working properly."
+msgstr "ཇི་ཌི་༢་ ཆས་སྒྲོམ་ནང་སྦྲགས་འདི་ གཞི་བཙུགས་འབད་ཡོདཔ་དང་  ཚུལ་ལྡན་འབད་ལཱ་འབད་དོ།  "
+
+#: includes/image.inc:187
+msgid "The built-in GD image toolkit requires that the GD module for PHP be installed and configured properly. For more information see <a href=\"@url\">PHP's image documentation</a>."
+msgstr "ཇི་ཌི་ གཟུགས་བརྙན་ཆས་སྒྲོམ་  ནང་སྦྲགས་འདི་ལུ་  པི་ཨེཆི་པི་ གི་དོན་ལུ་  ཇི་ཊི་ཚད་གཞི་དེ་  གཞི་བཙུགས་འབད་ཞིནམ་ལས་   ཚུལ་ལྡན་སྦེ་ རིམ་སྒྲིག་འབད་ནི་འདི་དགོས་མཁོ་ཡོདཔ་ཨིན། བརྡ་དོ་ཧེང་བཀལ་གི་དོན་ལུ་ <a href=\"@url\">པི་ཨེཆ་པི་གི་གཟུགས་བརྙན་ཡིག་ཐོག་བཀོད་པ་</a>ནང་ལུ་ བལྟ་གནང་།"
+
+#: includes/install.inc:734
+msgid "Currently using !item !version"
+msgstr "ད་ལྟོ་ལག་ལེན་འཐབ་དོ་ !item !version"
+
+#: includes/menu.inc:879
+msgid "Edit primary links"
+msgstr "གཞི་རིམ་འབྲེལ་ལམ་འདི་ཚུ་ཞུན་དག་འབད་"
+
+#: includes/menu.inc:1387
+msgid "Operating in off-line mode."
+msgstr "ཨོཕ་གྲལ་ཐིག་གི་ ཐབས་ལམ་ནང་ བཀོལ་སྤྱོད་འབད་དོ།"
+
+#: includes/pager.inc:118;381
+msgid "« first"
+msgstr "« དང་པ།"
+
+#: includes/pager.inc:119;382
+msgid "‹ previous"
+msgstr "‹ ཧེ་མ།"
+
+#: includes/pager.inc:121;383
+msgid "next ›"
+msgstr "ཤུལ་མའི ›"
+
+#: includes/pager.inc:122;384
+msgid "last »"
+msgstr "མཇུག »"
+
+#: includes/pager.inc:381
+msgid "Go to first page"
+msgstr "ཤོག་ལེབ་དང་པམ་ནང་འགྱོ།"
+
+#: includes/pager.inc:384
+msgid "Go to last page"
+msgstr "མཇུག་གི་ཤོག་ལེབ་ནང་འགྱོ།"
+
+#: includes/pager.inc:391
+msgid "Go to page @number"
+msgstr "@numberཤོག་ལེབ་ནང་འགྱོ།"
+
+#: includes/tablesort.inc:66
+msgid "sort by @s"
+msgstr "@sགིས་དབྱེ་སེལ་འབད་ཡོད་མི།"
+
+#: includes/xmlrpc.inc:450
+msgid "Parse error. Not well formed"
+msgstr "འཛོལ་བ་མིང་དཔྱད་འབད། ལེགས་ཤོམ་སྦེ་གཞི་སྒྲུབ་མ་འབད་བས།"
+
+#: includes/xmlrpcs.inc:62
+msgid "Parse error. Request not well formed."
+msgstr "འཛོལ་བ་མིང་དཔྱད་འབད། ཞུ་བ་འདི་ལེགས་ཤོམ་སྦེ་གཞི་སྒྲུབ་མ་འབད་བས།"
+
+#: includes/xmlrpcs.inc:65
+msgid "Server error. Invalid XML-RPC. Request must be a methodCall."
+msgstr "སར་བར་འཛོལ་བ། ནུས་མེད་ཀྱི་ཨེགསི་ཨེམ་ཨེལ་-ཨར་པི་སི། ཞུ་བ་འདི་ ཐབས་ལམ་-བོད་བརྡ་ཅིག་ཨིན་དགོ"
+
+#: includes/xmlrpcs.inc:152;296
+msgid "Server error. Requested method %methodname not specified."
+msgstr "སར་བར་འཛོལ་བ། ཞུ་བ་འབད་ཡོད་པའི་ཐབས་ལམ་ %methodnameའདི་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: includes/xmlrpcs.inc:163
+msgid "Server error. Wrong number of method parameters."
+msgstr "སར་བར་འཛོལ་བ། ཨང་གྲངས་ཕྱི་འགྱུར་ཨིན་པའི་ཚད་བཟུང་ཐབས་ལམ།"
+
+#: includes/xmlrpcs.inc:200
+msgid "Server error. Invalid method parameters."
+msgstr "སར་གྱི་འཛོལ་བ། ནུས་མེད་ཀྱི་ཚད་བཟུང་ཐབས་ལམ།"
+
+#: includes/xmlrpcs.inc:211
+msgid "Server error. Requested function %method does not exist."
+msgstr "སར་གྱི་འཛོལ་བ་། ཞུ་བ་འབད་ཡོད་པའི་ལས་འགན་ %methodའདི་ མིན་འདུག"
+
+#: includes/xmlrpcs.inc:224
+msgid "Invalid syntax for system.multicall."
+msgstr "system.multicall ལུ་ནུས་མེད་ཀྱི་ཚིག་སྦྱོར། "
+
+#: includes/xmlrpcs.inc:230
+msgid "Recursive calls to system.multicall are forbidden."
+msgstr "system.multicall ལུ་ ལོག་རིམ་བོད་བརྡ་ཚུ་ མ་ཆོགཔ་ཨིན།"
+
+#: includes/xmlrpcs.inc:299
+msgid "Server error. Requested method %methodname signature not specified."
+msgstr "སར་བར་འཛོལ། ཐབས་ལམ་ %methodnameམིང་རྟགས་ཞུ་བ་འབད་ཡོད་མི་འདི་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: modules/color/color.install:21
+msgid "The GD library for PHP is enabled, but was compiled without PNG support. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
+msgstr "པི་ཨེཆ་པི་གི་དོན་ལུ་  ཇི་ཌི་དཔེ་མཛོད་འདི་ལྕོགས་ཅན་བཟོ་ཡོད་  དེ་འབདཝ་ད་  པི་ཨེན་ཇི་རྒྱབ་སྐྱོར་མེད་པར་ཕྱོགས་སྒྲིག་འབད་ནུག།  འདི་ག་དེ་སྦེ་ནོར་བཅོས་འབད་ནི་ཨིན་ན་གི་སྐོར་ལས་  བརྡ་དོན་གྱི་དོན་ལུ་  <a href=\"@url\">པི་ཨེཆ་པི་གཟུགས་བརྙན་གྱི་ཡིག་ཐོག་བཀོད་པ་</a> འདི་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: modules/color/color.install:26
+msgid "Not installed"
+msgstr "གཞི་བཙུག་མ་འབད་བས་"
+
+#: modules/color/color.install:28
+msgid "The GD library for PHP is missing or outdated. Please check the <a href=\"@url\">PHP image documentation</a> for information on how to correct this."
+msgstr "པི་ཨེཆ་པི་གི་དོན་ལུ་  ཇི་ཌི་དཔེ་མཛོད་འདི་  བརླག་སྟོར་ཞུགས་ཡོད་ཡང་ན་  དུས་ལས་ཡོལ་སོང་ནུག།  འདི་ག་དེ་སྦེ་ནོར་བཅོས་འབད་ནི་ཨིན་ན་གི་སྐོར་ལས་  བརྡ་དོན་འདིགི་དོན་ལུ་  <a href=\"@url\">པི་ཨེཆ་པི་གཟུགས་བརྙན་གྱི་ཡིག་ཐོག་བཀོད་པ་</a>ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: modules/color/color.install:31
+msgid "GD library"
+msgstr "ཇི་ཌི་དཔེ་མཛོད་"
+
+#: modules/help/help.module:42
+msgid ""
+"\n"
+"  <h2>Help topics</h2>\n"
+"  <p>Help is available on the following items:</p>\n"
+"  !help_pages\n"
+"  <h2>Glossary of Drupal terminology</h2>\n"
+"  <dl>\n"
+"   <dt>Block</dt><dd>A small box containing information or content placed in a region of a web page (e.g. in a sidebar, below or above the content, or in any other region the current theme allows).</dd>\n"
+"   <dt>Comment</dt><dd>Text attached to a post intended to clarify, explain, criticize, or express an opinion on the original post.</dd>\n"
+"   <dt>Node</dt><dd>The basic unit of content in Drupal, often referred to as a \"post\". All content that can be created using the \"create content\" menu is a node. Keep in mind that comments, blocks, and users are <em>not</em> nodes.</dd>\n"
+"   <dt>Published</dt><dd>A post that is viewable by every visitor of the site, regardless of whether he is logged in (see also \"Unpublished\").</dd>\n"
+"   <dt>Role</dt><dd>A classification users are placed into for the purpose of setting users' permissions. A user receives the combined permissions of all roles to which he or she is subscribed.</dd>\n"
+"   <dt>Taxonomy</dt><dd>A categorization system that allows the building of complex hierarchial or relational structures and tagging of content (see <a href=\"@taxonomy\">taxonomy help</a>).</dd>\n"
+"   <dt>Unpublished</dt><dd>A post that is only viewable by administrators and moderators.</dd>\n"
+"   <dt>User</dt><dd>A person who has an account at your Drupal site, and is currently logged in with that account.</dd>\n"
+"   <dt>Visitor</dt><dd>A person who does not have an account at your Drupal site or a person who has an account at your Drupal site but is <em>not</em> currently logged in with that account. A visitor is also called an \"anonymous user\".</dd>\n"
+"  </dl>"
+msgstr ""
+"\n"
+"  <h2>གྲོགས་རམ་གྱི་གནད་དོན།</h2>\n"
+"  <p>གྲོགས་རམ་ཚུ་  འོག་གི་རྣམ་གྲགས་འདི་ཚུ་ནང་ལུ་  ཐོབ་ཆོག་ཆོག་ཡོད།:</p>\n"
+"  %help_pages།\n"
+"  <h2>ཌུ་པཱལ་ ཐ་སྙད་ཀྱི་ ཚིག་ཐོ།</h2>\n"
+"  <dl>\n"
+"   <dt>སྡེབ་ཚན་</dt><dd>བརྡ་དོན་ཚུ་ཡོད་མི་  སྒྲོམ་ཆུང་ཀུ་  ཡང་ན་  ཝེབ་ ཤོག་ལེབ་ ཟུར་ཁའི་ཕྲ་རིང་གི་ ལག་གཡས་དང་ ལག་གཡོན་ཁ་ཐུག་ལུ་ བཞག་ཡོད་པའི་ནང་དོན།</dd>\n"
+"   <dt>བསམ་བཀོད།</dt><dd>མཐུད་མཚམས་ལུ་  མཉམ་སྦྲགས་འབད་ཡོད་པའི་ དྲན་འཛིན་འདི་གིས་  སྤྱིར་བཏང་གི་རེ་བ་ལྟར་དུ་  ཅ་ཆས་ངོ་མ་ནང་ བསམ་འཆར་ཚུ་ ཁ་གསལ་དང་  གསལ་བཤད་  སྐྱོན་བརྗོད་  ཡང་ན་ སླབ་ཨིན།</dd>\n"
+"   <dt>འཚམས་ཚོད།</dt>\n"
+"   <dd>ཌུ་པཱལ་ ས་ཁོངས་ཅིག་ལུ་  གནས་བསྐྱོད་ངེས་གཏན་ཅིག་  བཟོ་ནིའི་ལཱ་འདི་གིས་  ཌུ་པཱལ་ས་ཁོངས་ཀྱི་དོན་ལུ་  རེ་བ་བསྐྱེདཔ་ཡོད་མི་ལུ་ཚུད་སྒྲིག་འབདཝ་ཨིན།\n"
+"    <dl>\n"
+"     <dt>གནང་བ་བྱིན་ཡོདཔ།</dt><dd>པར་འགྲེམས་འབད་ནིའི་དོན་ལུ་  འཚམས་ཚོད་བཟོ་མི་ཚུ་  དང་ལེན་འབད་ཡོད་པའི་  འཚམས་ཚོད་འགྲེམསྐྱེལ། (པར་འགྲེམས་འབད་ཡོད་མི་ལུ་བལྟ།).</dd>\n"
+"     <dt>བསྒུག་དོ།</dt><dd>པར་འགྲེམས་ འབད་ནིའི་དོན་ལུ་  དང་ལེན་འབད་ནི་ཨིན་མི་ འཚམས་ཚོད་ཀྱི་འགྲེམས་སྐྱེལ་དེ་  ད་ལྟོ་ཡང་གདམ་ཁ་རྐྱབ་པའི་བསྐང་ཡོད། (པར་འགྲེམས་འབད་ཡོད་མི་ལུ་བལྟ།)</dd>\n"
+"    </dl>\n"
+"   </dd>\n"
+"   <dt>མཐུད་མཚམས།</dt><dd>ཌུ་པཱལ་ནང་གི་ གཞི་རིམ་གནད་སྡུད་ཀྱི་ཆ་འཕྲན། ཡོད་ཚད་གཅིགཔ་ གེ་རང་  མཐུད་མཚམས་དང་  ཡང་ན་ མཐུད་མཚམས་ཀྱི་རྒྱ་བསྐྱེད་ཚུ་ཨིན་པས།</dd>\n"
+"   <dt>མི་མང་།</dt><dd>དཔེ་བསྐྲུན་འབད་ཡོད་མི་ལུ་བལྟ།</dd>\n"
+"   <dt>དཔེ་བསྐྲུད་འབད་ཡོདཔ།</dt><dd>ག་རང་གི་མཐོང་ཚུགསཔ་འབད་མི་  མཐུད་མཚམས། (དཔེ་བསྐྲུན་མ་འབད་མི་ལུ་བལྟ།)</dd>\n"
+"   <dt>ལས་འགན།</dt><dd>ལག་ལེན་པ་ཚུ་གི་  གནང་བ་གཞི་སྒྲིག་འབད་ནིའི་  དགོས་དོན་ལུ་  ལག་ལེན་པ་ཚུ་གི་དབྱེ་བཟོ་ཚུ་ བཞག་ཡོད།</dd>\n"
+"   <dt>དབྱེ་བྱ་རིམ།</dt><dd>དངོས་པོ་ཚུ་གི་བསྡུ་གསོག་ཅིག་གི་སྡེ་ཚན་འདི་ གོ་རིམ་བཞིན་ཡོད་མི་འདི་ སྡེ་ཚན་ནང་ལུ་དབྱེ་དསེལ་འབད་ཡོད། (See <a href=\"%taxonomy\">ཊེགསི་ཊོ་མོ་ནི་གྲོགས་རམ་</a>.)</dd>\n"
+"   <dt>དཔེ་བསྐྲུན་མ་འབད་པར་ཡོད་མི།</dt><dd>བདག་སྐྱོང་པ་དང་  འཚམས་ཚོད་བཟོ་མི་ཚུ་གིས་  མཐོང་ཚུགས་པའི་ མཐུད་མཚམས།</dd>\n"
+"   <dt>ལག་ལེན་པ།</dt><dd>ཁྱོད་རའི་ ཌུ་པཱལ་ ས་ཁོངས་ནང་ལུ་ རྩིས་ཐོ་་  ཡོད་མི་དང་ འ་ནི་རྩིས་ཐོ་འདི་གི་ཐོག་་ལུ་ ནང་བསྐྱོད་འབད་ཡོད་མི་གང་ཟག</dd>\n"
+"   <dt>བལྟ་སྤྱོད་པ།</dt><dd>ཁྱོད་རའི་ ཌུ་པཱལ་ ས་ཁོངས་ནང་ལུ་  རྩི་ཐོ་མེད་མི་གང་ཟག་དང་ ཡང་ན་ ཁྱོད་རའི་ ཌའུ་པཱལ་ས་ཁོངས་ནང་ལུ་  རྩིས་ཐོ་ཡོད་མི་  འདི་འབདཝ་ད་ <em>not</em> འ་ནི་རྩིས་ཐོ་འདི་གི་ཐོག་ལུ་  ནང་བསྐྱོད་འབད་ཡོད་མི་གང་ཟག་འདི་ཡང་ \"anonymous user\"སྦེ་བཞགཔ་ཨིན། </dd>\n"
+"  </dl>"
+
+#: modules/help/help.module:93
+msgid ""
+"<p>This guide explains what the various modules in <a href=\"@Drupal\">Drupal</a> do and how to configure them. Additionally, you will find a glossary of basic Drupal terminology to help get you started.</p>\n"
+"<p>It is not a substitute for the <a href=\"@handbook\">Drupal handbook</a> available online and should be used in conjunction with it. The online reference handbook might be more up-to-date and has helpful user-contributed comments. It is your definitive reference point for all Drupal documentation.</p>\n"
+msgstr ""
+"<p>འ་ནི་ལམ་སྟོན་འདི་གིས་ <a href=\"@Drupal\">ཌུ་པཱལ་</a>ནང་ལུ་  ཚད་གཞི་འདྲ་མི་ག་ཅི་རང་འབདཝ་ཨིན་ན་དང་  འདི་ཚུ་ག་དེ་སྦེ་  རིམ་སྒྲིག་འབད་ནི་ཨིན་ན་  གསལ་བཤད་འབདཝ་ཨིན།</p>\n"
+"<p>འ་ནི་འདི་<a href=\"@handbook\">ཌུ་པཱལ་ལག་དེབ་</a>གློག་ལམ་ཐོག་ལུ་  ཐོབ་ཚུགས་མི་འདི་གི་  ཚབ་མ་མེནམ་དང་ འདི་དང་གཅིག་ཁར་  འབྲེལ་ཚིག་ནང་སྦེ་ལག་ལེན་འཐབ་དགོཔ་ཨིན།  གློག་ལམ་ཐོག་ལུ་ཡོད་པའི་  གཞི་བསྟུན་ལག་དེབ་འདི་  ཧེང་བཀལ་དུས་མཐུན་བཟོ་ཡོདཔ་དང་  ལག་ལེན་པ་འདི་ཚུ་གིས་  ཞལ་འདེབས་འབད་ཡོད་པའི་བསམ་བཀོད་ཚུ་ཡོད། ཌུ་པཱལ་གྱི་ཡིག་ཐོ་བཀོད་པ་  ཆ་མཉམ་གྱི་དོན་ལུ་ འ་ནི་འདི་  ཁྱོད་རའི་ ངེས་བདེན་གྱི་  གཞི་བསྟུན་ས་ཚིགས་ཅིག་ཨིན།</p>\n"
+
+#: modules/help/help.module:98
+msgid "The help module displays context sensitive help information. Users can learn how to use modules and accomplish tasks quicker with less errors by clicking on links in provided by the help module."
+msgstr "གྲོགས་རམ་ཚད་གཞི་འདི་གིས་  སྐབས་དོན་ཚོར་ཅན་གྱི་གྲོགས་རམ་བརྡ་དོན་དེ་  བཀྲམ་སྟོན་འབདཝ་ཨིན།  ལག་ལེན་པ་འདི་ཚུ་གིས་  གྲོགས་རམ་ཚད་གཞི་འདི་ཚུ་གིས་བྱིན་ཡོད་པའི་  འབྲེལ་ལམ་ནང་ལུ་  ཨེབ་གཏང་འབད་ཐོག་ལས་  ཚད་གཞི་འདི་ཚུ་ག་དེ་སྦེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་  ལྷགཔ་ཚུགསཔ་མ་ཚད་  འཛོལ་བ་ཉུང་དྲག་གི་ཐོག་ལས་  ལས་ཀ་ གང་མགྱོགས་མཐར་ཕྱིན་ཚུགས། "
+
+#: modules/help/help.module:99
+msgid ""
+"<p>Modules can make documentation available to other modules with this module. All user help should be presented using this module. Some examples of help: </p>\n"
+"<ul>\n"
+"<li>The name of a module (unused, but there).</li>\n"
+"<li>The description found on the admin/settings/modules page.</li>\n"
+"<li>The module's help text, displayed on the admin/help page and through the module's individual help link.</li>\n"
+"<li>The help for a distributed authorization module (if applicable).</li>\n"
+"<li>The description of a post type (if applicable).</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཚད་གཞི་འདི་ཚུ་གིས་  འ་ནཱི་ཚད་གཞི་འདི་གི་ཐོག་ལས་  གཞན་ཚད་གཞི་འདི་ཚུ་ལུ་  ཡིག་ཐོ་བཀོད་པ་དེ་ཚུ་  འཐོབ་ཚུགསཔ་བཟོ་ཚུགས།  ལག་ལེན་པའི་གྲོགས་རམ་  ཆ་མཉམ་འ་ནི་ཚད་གཞི་དེ་ལག་ལེན་འཐབ་ཐོག་ལས་  གསལ་སྟོན་འབད་དགོ།  གྲོགས་རམ་གྱི་དཔེ་  ལ་ལོ་ཅིག: </p>\n"
+"<ul>\n"
+"<li>ཚད་གཞི་གི་མིང་(ལག་ལེན་མ་འཐབ་མི་ འདི་འབདཝ་ད་ཕར་ཡོད་མི།).</li>\n"
+"<li>བདག་སྐྱོང་པ་/རིམས་ལུགས་/ཚད་གཞིའི་ཤོག་ལེབ་ནང་  ཐོབ་ཡོད་པའི་  འགྲལ་བཤད།</li>\n"
+"<li>ཚད་གཞི་ངོ་རྐྱང་གྲོགས་རམ་གྱི་འབྲེལ་ལམ་  བརྒྱུད་དེ་  བདག་སྐྱོང་/གྲོགས་རམ་གྱི་ཤོག་ལེབ་གུར་   བཀྲམ་སྟོན་ཡོད་པའི་  ཚད་གཞི་གྲོགས་རམ་གྱི་ཚིག་ཡིག།</li>\n"
+"<li>བགོ་བཀྲམ་འབད་ཡོད་པའི་  དབང་སྤྲོད་ཚད་གཞི་ཅིག་གི་དོན་ལུ་  གྲོགས་རམ། (འཇུག་ཁྱབ་ཡོད་པ་ཅིན།).</li>\n"
+"<li>འགྲེམ་སྐྱེལ་དབྱེ་བའི་འགྲལ་བཤད།(འཇུག་ཁྱབ་ཡོད་པ་ཅིན།) </li>\n"
+"</ul>\n"
+
+#: modules/help/help.module:108
+msgid "For more information please read the configuration and customization handbook <a href=\"@help\">Help page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གི་དོན་ལུ་  རིམ་སྒྲིག་དང་  སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"@help\">གྲོགས་རམ་ཤོག་ལེབ་</a>འདི་ ལྷག།"
+
+#: modules/help/help.module:125
+msgid "No help is available for module %module."
+msgstr "ཚད་གཞི་ %moduleགི་དོན་ལུ་  གྲོགས་རམ་དེ་མི་ཐོབ་པས།"
+
+#: modules/help/help.module:133
+msgid "@module administration pages"
+msgstr "@module བདག་སྐྱོང་གི་ཤོག་ལེབ་ཚུ་"
+
+#: modules/help/help.module:0
+msgid "help"
+msgstr "གྲོགས་རམ།"
+
+#: modules/help/help.info:0
+msgid "Manages the display of online help."
+msgstr "གློག་ལམ་ཐོག་གི་གྲོགས་རམ་འདི་  འཛིན་སྐྱོང་འབད།"
+
+#: modules/legacy/legacy.module:15
+msgid "The legacy module provides legacy handlers for upgrades from older installations. These handlers help automatically redirect references to pages from old installations and prevent <em>page not found</em> errors for your site."
+msgstr "གཞི་བཙུགས་རྙིངམ་ནང་ལས་  ཡར་བསྐྱེད་འབད་ནིའི་དོན་ལུ་  སྔོན་ཤུལ་ཚད་གཞི་འདི་གིས་  སྔོན་ཤུལ་ལེགས་སྐྱོངས་པ་འདི་ཚུ་བྱིནམ་ཨིན།  འ་ནཱི་ལེགས་སྐྱོང་པ་འདི་ཚུ་གིས་  གཞི་བཙུགས་རྙིངམ་འདི་ཚུ་ནང་གི་ཤོག་ལེབ་ལུ་  གཞི་བསྟུན་ཚུ་  རང་བཞིན་གྱིས་སླར་ལོག་གཏང་ནི་ལུ་གྲོགས་རམ་འབདཝ་ཨིནམ་དང་   ཁྱོད་རའི་ས་ཁོངས་ཚུ་གི་དོན་ལུ་<em>ཤོག་ལེབ་མ་ཐོབ་མི་</em>འཛོལ་བ་ཚུ་  སྔོན་བཀག་འབདཝ་ཨིན།  "
+
+#: modules/legacy/legacy.module:16
+msgid "The legacy module handles legacy style taxonomy page, taxonomy feed, and blog feed paths. It also handles URL upgrades from Drupal 4.1. It rewrites old-style URLs to new-style URLs (clean URLs). "
+msgstr "སྔོད་ཤུལ་ཚད་གཞི་འདི་གིས་  སྔོད་ཤུལ་བཟོ་རྣམ་ དབྱེ་སེལ་བྱ་རིམ་གྱི་ཤོག་ལེབ་དང་  དབྱེ་སེལ་མཁོ་སྤྲོད་འབད་ནི་  དེ་ལས་  ཝེབ་དྲན་དེབ་གྱི་མཁོ་སྤྲོད་འགྲུལ་ལམ་འདི་ཚུ་  ལེགས་སྐྱོང་འཐབ་ཨིན།  འདི་མ་ཚད་  ཌུ་པཱལ་ ༤.༡་ནང་ལས་ཡང་  ཡུ་ཨར་ཨེལ་ ཡར་བསྐྱེད་དེ་  ལེགས་སྐྱོང་འཐབ་ཨིན།  ཡུ་ཨར་ཨེལ་ བཟོ་རྣམ་གསརཔ་འདི་ཚུ་ནང་ལུ་  ཡུ་ཨར་ཨེལ་  བཟོ་རྣམ་རྙིམ་འདི་ཚུ་  ལོག་འབྲིཝ་ཨིན་ (ཡུ་ཨར་ཨེལ་  གཙང་དག།)"
+
+#: modules/legacy/legacy.module:17
+msgid ""
+"<p>Example Mappings:</p>\n"
+"<ul>\n"
+"<li><em>taxonomy/page/or/52,97</em> to <em>taxonomy/term/52+97</em>.</li>\n"
+"<li><em>taxonomy/feed/or/52,97</em> to <em>taxonomy/term/52+97/0/feed</em>.</li>\n"
+"<li><em>blog/feed/52</em> to <em>blog/52/feed</em>.</li>\n"
+"<li><em>node/view/52</em> to <em>node/52</em>.</li>\n"
+"<li><em>book/view/52</em> to <em>node/52</em>.</li>\n"
+"<li><em>user/view/52</em> to <em>user/52</em>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>དཔེར་ན་ ས་ཁྲ་བཟོ་ནི་ཚུ།:</p>\n"
+"<ul>\n"
+"<li><em>དབྱེ་སེལ་བྱ་རིམ་/ཐ་སྙད་/52+97</em>ལས་<em>དབྱེ་སེལ་བྱ་རིམ་/ཤོག་ལེབ་/ཡང་ན་/52,97</em>ཚུན་ </li>\n"
+"<li><em>དབྱེ་སེལ་བྱ་རིམ་/ཐ་སྙད་/52+97/0/མཁོ་སྤྲོད</em>ལས་<em>དབྱེ་སེལ་བྱ་རིམ་/མཁོ་སྤྲོད་/ཡང་ན་/52,97</em>ཚུན་ </li>\n"
+"<li><em>ཝེབ་དྲན་དེབ་/52/མཁོ་སྤྲོད་</em>ལས་<em>ཝེབ་དྲན་དེབ་/མཁོ་སྤྲོད་/52</em>ཚུན</li>\n"
+"<li><em>མཐུད་མཚམས་/52</em>ལས་<em>མཐུད་མཚམས་/མཐོང་སྣང་/52</em>ཚུན་ </li>\n"
+"<li><em>མཐུད་མཚམས་/52</em>ལས་<em>ཀི་དེབ/མཐོང་སྣང་/52</em>ཚུན་་</li>\n"
+"<li><em>ལག་ལོན་པ་/52</em>ལས་<em>ལག་ལེན་པ་/བཐོང་སྣང་/52</em>ཚུན་</li>\n"
+"</ul>\n"
+
+#: modules/legacy/legacy.module:27
+msgid "For more information please read the configuration and customization handbook <a href=\"@legacy\">Legacy page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་དང་ སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"@legacy\">སྔོན་ཤུལ་ ཤོག་ལེབ་</a>འདི་ལྷགཔ་གནང་།"
+
+#: modules/legacy/legacy.module:119
+msgid "Legacy filter"
+msgstr "སྔོན་ཤུལ་གྱི་ཚགས་མ།"
+
+#: modules/legacy/legacy.module:122
+msgid "Replaces URLs from Drupal 4.1 (and lower) with updated equivalents."
+msgstr "དུས་མཐུན་བཟོ་ཡོད་མི་ འདྲ་མཉམ་ཚུདང་བཅས་ཌུ་པཱལ་ ༤.༡ (དང་འོག་གི)ནང་ལས་ ཡུ་ཨར་ཨེལ་འདི་ཚབས་བཙུགས།  "
+
+#: modules/legacy/legacy.info:0
+msgid "Legacy"
+msgstr "སྔོན་བཤུལ་"
+
+#: modules/legacy/legacy.info:0
+msgid "Provides legacy handlers for upgrades from older Drupal installations."
+msgstr "ཌུ་པཱལ་ གཞི་བཙུགས་ རྙིངམ་ནང་ལས་  ཡར་བསྐྱེད་འབད་ནིའི་དོན་ལུ་  སྔོན་བཤུལ་ལེགས་སྐྱོང་འཐབ་མི་ཚུ་  བྱིནམ་ཨིན།"
+
+#: modules/ping/ping.module:15
+msgid "The ping module is useful for notifying interested sites that your site has changed. It automatically sends notifications (called \"pings\") to the <a href=\"@external-http-pingomatic-com\">pingomatic</a> service to tell it that your site has changed. In turn pingomatic will ping other services such as weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover, etc."
+msgstr "པིང་སྒྲ་ཚད་གཞི་འདི་  ཁྱོད་རའི་ས་ཁོངས་དེ་གིས་  བསྒྱུར་བཅོས་འབད་ཡོད་པའི་  དང་འདོད་ཅན་གྱི་  ས་ཁོངས་དེ་ཚུ་  བརྡ་བསྐུལ་འབད་ནིའི་དོན་ལུ་  ཕན་ཐོག་ཅན་ཅིག་ཨིན།  དེ་གི་   རངབཞིན་གྱིས་རང་  ཁྱོད་རའི་  ས་ཁོངས་དེ་བསྒྱུར་བཅོས་འབད་ཡོད་པའི་  སྐོར་ལས་སླབ་ནི་ལུ་  <a href=\"@external-http-pingomatic-com\">པིང་གོ་མེ་ཊིག་c</a>ཞབས་ཏོག་ལུ་  བརྡ་བསྐུལ་ཚུ་(\"pings\"ཟེར་མི་ཅིག་)གཏངམ་ཨིན། ལོག་སྟེ་  པིང་གོ་མེ་ཊིག་དེ་གིས་ weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com,ལ་སོག་པའི་ གཞན་མི་  ཞབས་ཏོག་ཚུ་  པིང་འབད་འོང་།"
+
+#: modules/ping/ping.module:16
+msgid "The ping module requires <code>cron</code> or a similar periodic job scheduler to be enabled."
+msgstr "པིང་སྒྲ་བྱ་རིམ་ལམ་ལུགས་འདི་  ལྕོགས་ཅན་བཟོ་ནི་ལུ་  <code>ཀོརོན་</code>ཡང་ན་ ཆ་འདྲ་བའི་ལས་གཡོག་ཆ་རིམ་ཅིག་  དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/ping/ping.module:17
+msgid "For more information please read the configuration and customization handbook <a href=\"@ping\">Ping page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་  ལག་དེབ་<a href=\"@ping\">པིང་སྒྲའི་  ཤོག་ལེབ་དེ་ </a>ལྷགཔ་དེ་ བཀའ་དྲིན་བསྐྱངས་གནང་།"
+
+#: modules/ping/ping.module:55
+msgid "Failed to notify pingomatic.com (site)."
+msgstr "pingomatic.com (ས་ཁོངས)འདི་བརྡ་བསྐུལ་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ནུག"
+
+#: modules/ping/ping.module:55
+msgid "directory ping"
+msgstr "སྣོད་ཐོ་པིང་སྒྲ།"
+
+#: modules/ping/ping.module:0
+msgid "ping"
+msgstr "པིང་སྒྲ།"
+
+#: modules/ping/ping.info:0
+msgid "Ping"
+msgstr "པིང་སྒྲ་"
+
+#: modules/ping/ping.info:0
+msgid "Alerts other sites when your site has been updated."
+msgstr "ཁྱོད་ཀྱི་ས་ཁོངས་འདི་  དུས་མཐུན་བཟོ་ཡོདཔ་དང་  ས་ཁོངས་གཞན་མི་ཚུ་  དྲན་བརྡ་འབདཝ་ཨིན།"
+
+#: themes/chameleon/chameleon.theme:141;162
+msgid "By !author at @date"
+msgstr "!author གིས་ @dateལུ།"
+
+#: themes/chameleon/chameleon.theme:0
+msgid "chameleon"
+msgstr "ཀེ་མི་ལི་ཡོན།"
+
+#: themes/engines/phptemplate/phptemplate.engine:31
+msgid "header"
+msgstr "མགོ་ཡིག"
+
+#: themes/engines/phptemplate/phptemplate.engine:32
+msgid "footer"
+msgstr "མཇུག་ཡིག"
+
+#: themes/engines/phptemplate/phptemplate.engine:288;312
+msgid "Submitted by !a on @b."
+msgstr "!aགི་@b་ལུ་ཕུལ་ཕུལཝ།"
+
+#: themes/engines/phptemplate/phptemplate.engine:383
+msgid "%engine.engine was instructed to override the %name theme function, but no valid template file was found."
+msgstr "%engine.engine འདི་ %name བརྗོད་དོན་ལས་འགན་ཚབ་སྲུང་འབད་ནི་ལུ་  བསླབ་སྟོན་འབད་འབདཝ་ཨིན་  དེ་འབདཝ་ད་  ནུས་ཅན་ཡོད་པའི་ཊེམ་པེལེཊི་ཡིག་སྣོད་ཡདི་མ་ཐོབ།"
+
+#: themes/pushbutton/page.tpl.php:13;13
+msgid "Skip navigation"
+msgstr "གོམ་འགྱོ་འགྲུལ་བསྐྱོདཔ།"
+
+#~ msgid "This Drupal site"
+#~ msgstr "ཌུ་པཱལ་ ས་ཁོངས་འདི།"
+#~ msgid "categories"
+#~ msgstr "དབྱེ་རིམ་ཚུ།"
+#~ msgid "January"
+#~ msgstr "སྤྱི་ཟླ་དང་པ་།"
+#~ msgid "February"
+#~ msgstr "སྤྱི་ཟླ་གཉིས་པ།"
+#~ msgid "March"
+#~ msgstr "སྤྱི་ཟླ་གསུམ་པ།"
+#~ msgid "April"
+#~ msgstr "སྤྱི་ཟླ་བཞི་པ།"
+#~ msgid "May"
+#~ msgstr "སྤཱི་ཟླ ལྔ་པ།"
+#~ msgid "June"
+#~ msgstr "སྤྱི་ཟླ་དྲུག་པ།"
+#~ msgid "July"
+#~ msgstr "སྤྱི་ཟླ་བདུན་པ།"
+#~ msgid "August"
+#~ msgstr "སྤྱི་ཟླ་བརྒྱད་པ།"
+#~ msgid "September"
+#~ msgstr "སྤྱི་ཟླ་དགུ་པ།"
+#~ msgid "October"
+#~ msgstr "སྤྱི་ཟླ་བཅུ་པ།"
+#~ msgid "November"
+#~ msgstr "སྤྱི་ཟླ་བཅུ་གཅིག་པ།"
+#~ msgid "December"
+#~ msgstr "སྤྱི་ཟླ་བཅུ་གཉིས་པ།"
+#~ msgid ""
+#~ "An explanation of the additions or updates being made to help other "
+#~ "authors understand your motivations."
+#~ msgstr ""
+#~ "གཞན་རྩོམ་པ་པོ་འདི་ཚུ་ལུ་  ཁྱོད་ཀྱི་རྒྱུད་བསྐུལ་འདི་ཚུ་ ཧ་གོ་བཅུག་ནིའི་  གྲོགས་རམ་ལུ་   ཁ་སྐོང་ཚུ་གི་"
+#~ "གསལ་བཤད་  ཡང་ན་  དུས་མཐུན་འདི་ཚུ་བཟོཝ་ཨིན། "
+#~ msgid "%type: updated %title."
+#~ msgstr "%type: དུས་མཐུན་བཟོ་ཡོད་པའི་  %title"
+#~ msgid "taxonomy"
+#~ msgstr "དབྱེ་བསལ་ལམ་ལུགས།"
+#~ msgid "search"
+#~ msgstr "འཚོལ་ཞིབ།"
+#~ msgid "results"
+#~ msgstr "གྲུབ་འབྲས།"
+#~ msgid "General settings"
+#~ msgstr "ཡོངས་ཁྱབ་ཀྱི་སྒྲིག་སྟངས།"
+#~ msgid "Last cron run did not complete."
+#~ msgstr "མོཐའ་མཇུག་གི་ ཀོརཱན་ གཡོག་བཀོལ་དེ་  མཇུག་བསྡུ་བས།"
+#~ msgid "Cron run completed"
+#~ msgstr "ཀོརཱོན་ གཡོག་བཀོལ་དེ་ མཇུག་བསྡུ་ཡོད།"
+#~ msgid "cron"
+#~ msgstr "ཀོརཱོན།"
+#~ msgid "You can not administer the help system."
+#~ msgstr "ཁྱོད་ཀྱི་གྲོགས་རམ་རིམ་ལུག་དེ་ བདག་སྐྱོང་འབད་མི་ཆོག"
+#~ msgid "Legacy module has no configurable options."
+#~ msgstr "སྔོད་ཤུལ་ཚད་གཞི་ལུ་  རིམ་སྒྲིག་འབད་བཏུབ་པའི་ གདམ་ཁ་ཚུ་མིན་འདུག"
+#~ msgid ""
+#~ "<p>You can:</p>\n"
+#~ "<ul>\n"
+#~ "<li> enable or disable the ping module at <a href=\"%admin-modules"
+#~ "\">administer &gt;&gt; modules</a>.</li>\n"
+#~ "<li>run your cron job at your sites <a href=\"%file-cron\">cron page</a>."
+#~ "</li>\n"
+#~ "<li>read about <a href=\"%external-http-drupal-org-node-23714"
+#~ "\">configuring cron jobs</a>.</li>\n"
+#~ "</ul></p>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས:</p>\n"
+#~ "<ul>\n"
+#~ "<li> པིང་སྒྲ་ ཚད་གཞི་དེ་ <a href=\"%admin-modules\">ནང་ ལྕོགས་ཅན་ ཡང་ན་ ལྕོགས་མིན་"
+#~ "བཟོ་ཚུགས་  gt;&gt; ཚད་གཞི་ཚུ་</a>བདག་སྐྱོངསའབདཝ་ཨིན།</li>\n"
+#~ "<li>ཀོརོན་ ལས་གཡོག་དེ་  ཁྱོད་རའི་ས་ཁོངས་<a href=\"%file-cron\">ཀོོརོན་ཤོག་ལེབ་ནང་ལུ་གཡོག་"
+#~ "བཀོལ་བེཏུབ།</a>.</li>\n"
+#~ "<li>ཁྱོད་ཀྱིས<a href=\"%external-http-drupal-org-node-23714\">རིམ་སྒརིག་འབད་ནིའི་ "
+#~ "ཀོརོན་ལས་གཡོག་ཚུགི་ བསྐོར་ལས་ ལྷག་ཚུགས།</a>.</li>\n"
+#~ "</ul></p>\n"
+#~ msgid ""
+#~ "The story module is used to create a content post type called <em>stories."
+#~ "</em> Stories are articles in their simplest form: they have a title, a "
+#~ "teaser and a body. Stories are typically used to post news articles or as "
+#~ "a group blog. "
+#~ msgstr ""
+#~ "ཚད་གཞི་ གནས་ཚུལ་དེ་ <em>གནས་ཚུལ་ཟེར་མི་  ནང་དོན་འགྲེམ་སྐྱེལ་གྱི་དབྱེ་བ་ཅིག་གསར་བསྐྲུན་འབད་ནིའི་"
+#~ "དོན་ལུ་  ལག་ལེན་འཐབ་ཨིན།  གདས་ཚུལ་འདི་ཚུ་  འཇམ་སམ་འབྲི་ཤོག་གི་ཐོག་ལུ་  ཡོད་པའི་  རྩོམ་འབྲི་པ་"
+#~ "ཅིག་ཨིན:  དོ་ཚུ་ལུ་མགོ་མིང་དང་  ཊི་ཟར་དང་མ་གཟུགས་ཅིག་ཡོད།  གནས་ཚུལ་འདི་ཚུ་  འཁྲུལ་བ་མེད་པའི་"
+#~ "ཐོག་ལས་  གདས་ཚུལ་གྱི་རྩོམ་འབྲི་པ་དང་  ཡང་ན་  ཝེབ་དྲན་དེབ་སྡེ་ཚན་སྦེ་  འགྲེམ་སྐྱེལ་འབད་ནི་ལུ་  "
+#~ "ལག་ལེན་འཐབ་ཨིན།"
+#~ msgid ""
+#~ "The story administration interface allows for complex configuration. It "
+#~ "provides a submission form, workflow, default view permission, default "
+#~ "edit permission, permissions for permission, and attachments.  Trackbacks "
+#~ "can also be enabled."
+#~ msgstr ""
+#~ "གོ་དཀའ་བའི་རིམ་སྒྲིག་གི་དོན་ལུ་ གནས་ཚུལ་བདག་སྐྱོང་པའི་  ངོས་འདྲ་བ་འདི་  འབད་བཅུགཔ་ཨིན།  འདི་"
+#~ "གིས་ ཞུ་འབུལ་འབྲི་ཤོག་དང་  ལཱ་གི་རྒྱུན་  སྔོན་སྒྲིག་མཐོང་སྣང་གི་གནང་བ་  སྔོནསྒྲིག་ཞུད་དག་གི་མཐོང་"
+#~ "སྣང་  གནང་བའི་དོན་ལུ་གནང་བ་  དེ་ལས་མཉམ་སྒྲགས་དེ་ཚུ་  བྱིནམ་ཨིན། རྒྱབ་འཚོལ་འབད་ནི་དེ་ཡང་  "
+#~ "ལྕོགས་ཅན་བཟོ་བཏུབ།"
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>post a story at <a href=\"%node-add-story\">create content &gt;&gt; "
+#~ "story</a>.</li>\n"
+#~ "<li>configure story at <a href=\"%admin-settings-content-types-story"
+#~ "\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; configure "
+#~ "story</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱི་</p>\n"
+#~ "<ul>\n"
+#~ "<li>གནད་ཚུལ་དེ་ <a href=\"%node-add-story\">ནང་འགྲེམསྐྱེལ་འབད་བཏུབ་ ནང་དོན་ &gt;"
+#~ "&gt; གདས་ཚུལ་གསར་བསྐྲུན་འབད་བཏུབ</a>.</li>\n"
+#~ "<li>གནད་ཚུལ་དེ་ <a href=\"%admin-settings-content-types-story\">ནང་རིམ་སྒྲིག་"
+#~ "འབད་&gt;&gt;དང སྒྲིག་སྟངས་ &gt;&gt; ནང་དོན་གྱི་དབྱེ་བ་&gt;&gt;ཚུ་ནང་བདག་སྐྱོང་འབད་  "
+#~ "གནད་ཚུལ་རིམ་སྒྲིག་འབད།</a>.</li>\n"
+#~ "</ul>\n"
+#~ msgid ""
+#~ "For more information please read the configuration and customization "
+#~ "handbook <a href=\"%story\">Story page</a>."
+#~ msgstr ""
+#~ "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་དང་  སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"%story\">གནས་ཚུལ་གྱི་"
+#~ "ཤོག་ལེབ་འདི་ཚུ་</a>ལྷག་དེ་བཀའ་དྲིན་བསྐྱངས་གནང་།"
+#~ msgid "Allows users to submit stories, articles or similar content."
+#~ msgstr "ལག་ལེན་པ་འདི་ཚུ་ལུ་  གནསཚུལ་དང་ རྩོམ་བྲིས་ དེ་ལས་ ཆ་འདྲ་བའི་ནང་དོན་ཚུ་ཕུལ་བཅུགཔ་ཨིན།"
+#~ msgid ""
+#~ "Stories are articles in their simplest form: they have a title, a teaser "
+#~ "and a body, but can be extended by other modules. The teaser is part of "
+#~ "the body too. Stories may be used as a personal blog or for news articles."
+#~ msgstr ""
+#~ "གནས་ཚུལ་དེ་ཚུ་  འཇམ་སམ་གྱི་འབྲི་ཤོག་ཐོག་ལུ་  ཡོད་པའི་རྩོམ་འབྲི་འདི་ཚུ་ཨིན:  འདི་ཚུ་ལུ་མགོ་མིང་"
+#~ "དང་  ཊི་ཟར་ དེ་ལས་ མ་གཟུགས་དེཚུ་ཡོད་  འདི་འབདཝ་ད་ ཚད་གཞི་གཞན་མི་ཚུ་གི་ཐོག་ལས་  རྒྱ་བསྐྱེད་"
+#~ "འབད་བཏུབ་ཨིན།  ཊི་ཟར་འདི་  མ་གཟུགས་ཀྱི་ཡན་ལག་ཅིག་ཡང་ཨིན།   གནད་ཚུལ་འདི་ཚུ་  རང་དོན་གྱི་"
+#~ "ཝེབ་དྲེན་དེབ་  ཡང་ན་  གནས་ཚུལ་རྩོམ་འབྲི་སྦེ་ཡང་ལག་ལེན་འདབ་བཏུབ་ཨིན།"
+#~ msgid "story"
+#~ msgstr "གནས་ཚུལ།"
+#~ msgid "create stories"
+#~ msgstr "གནད་ཚུལ་ཚུ་གསར་བསྐྲུན་འབད།"
+#~ msgid "edit own stories"
+#~ msgstr "རང་དབང་གི་ ལོ་རྒྱུས་ཚུ་ཞུན་དག་འབད།"
+

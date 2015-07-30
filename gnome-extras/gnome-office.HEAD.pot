@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-office.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-01 03:49+0100\n"
+"PO-Revision-Date: 2006-10-31 22:24+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: DZongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8 \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gnomeoffice/go-service-data.c:114
+msgid "Method not implemented"
+msgstr "ཐབས་ལམ་འདི་ བསྟར་སྤྱོད་མ་འབད་བས་"
+
+#: ../gnomeoffice/go-service-function-group.c:206
+#, c-format
+msgid "Function %s has already been registered in function group"
+msgstr "ལས་འགན་ %s འདི་ ཧེ་མ་ལས་ར་ ལས་འགན་སྡེ་ཚན་ནང་ལུ་ ཐོ་བཀོད་འབད་ནུག"
+
+#: ../gnomeoffice/go-service-function-group.c:214
+#: ../gnomeoffice/go-service-function-group.c:218
+#, c-format
+msgid "Unmatched number of argument types/names for function %s"
+msgstr "སྒྲུབ་རྟགས་དབྱེ་བའི་མཐུན་སྒྲིག་མེད་པའི་ཨང་གྲངས་/ལས་འགན་ %s ལུ་མིང་"
+
+#. g_signal_connect (renderer, "toggled",
+#. G_CALLBACK (cb_cell_renderer_toggled), self);
+#: ../gnomeofficeui/go-plugin-manager-dialog.c:180
+msgid "Activated"
+msgstr "ཤུགས་ལྡན་བཟོ་ཡོདཔ་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.c:185
+msgid "Plugin Name"
+msgstr "པ་ལག་ཡིན་མིང་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.c:220
+msgid "Plugin Manager"
+msgstr "པ་ལག་ཡིན་འཛིན་སྐྱོང་པ་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:1
+msgid "<span weight=\"bold\">Plugin Description</span>"
+msgstr "<span weight=\"bold\">པ་ལག་ཡིན་འགྲེལ་བཤད་</span>"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:2
+msgid "<span weight=\"bold\">Plugins</span>"
+msgstr "<span weight=\"bold\">པ་ལག་ཡིནསི་</span>"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:3
+msgid "Activate All"
+msgstr "ཆ་མཉམ་ ཤུགས་ལྡན་བཟོ་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:4
+msgid "Activate plugins by default"
+msgstr "སྔོན་སྒྲིག་གིས་འབད་ པ་ལག་ཡིནསི་ཤུགས་ལྡན་བཟོ་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:5
+msgid "Deactivate All"
+msgstr "ཆ་མཉམ་ ཤུགས་མེད་བཟོ་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:6
+msgid "Directories"
+msgstr "སྣོད་ཐོ་ཚུ་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:7
+msgid "Plugin Details"
+msgstr "པ་ལག་ཡིན་རྒྱས་བཤད་"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:8
+msgid "Plugin Directory:"
+msgstr "པ་ལང་ཡིན་སྣོད་ཐོ་:"
+
+#: ../gnomeofficeui/go-plugin-manager-dialog.glade.h:9
+msgid "Plugin List"
+msgstr "པ་ལག་ཡིན་ཐོ་ཡིག་"
+
+#. create dialog
+#: ../plugins/database/data-service-ui.c:52
+msgid "Data Sources"
+msgstr "གནད་སྡུད་འབྱུང་ཁུངས་ཚུ་ "
+
+#: ../plugins/database/data-service.c:71
+msgid "Data access service for GNOME Office"
+msgstr "ཇི་ནོམ་ཨོ་ཕིསི་ལུ་ གནད་སྡུད་འཛུལ་སྤྱོད་ཞབས་ཏོག་"
+
+#: ../plugins/database/data-service.c:77
+#: ../plugins/scripting/mono-engine.c:50
+msgid "Help - FIXME"
+msgstr "གྲོགས་རམ་ - ཕིགསི་མི་"
+
+#: ../plugins/database/data-service.c:96
+msgid "DSN parameter needed, but not found"
+msgstr "ཌི་ཨེསི་ཨེན་ ཚད་བཟུང་འདི་དགོཔ་ཡོད་རུང་ མ་ཐོབ་"
+
+#: ../plugins/database/data-service.c:103
+msgid "No SQL command has been specified"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་ བརྡ་བཀོད་འདི་གསལ་བཀོད་མ་འབད་"
+
+#: ../plugins/scripting/mono-engine.c:44
+msgid "Mono scripting service for GNOME Office"
+msgstr "ཇི་ནོམ་ཨོ་ཕིསི་ལུ་ མོ་ནོ་ ཡིག་ཚུགས་ཞབས་ཏོག་"
+
+#: ../plugins/scripting/mono-engine.c:56
+msgid "Scripting Language"
+msgstr "ཡིག་ཚུགས་སྐད་ཡིག་"
+
+#: ../plugins/scripting/mono-engine.c:86
+#, c-format
+msgid "Could not load assembly from %s"
+msgstr "%s ནང་ལས་ ཚང་སྒྲིག་མངོན་གསལ་འབད་མ་ཚུགས་"
+

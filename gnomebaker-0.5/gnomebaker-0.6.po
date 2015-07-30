@@ -1,0 +1,1624 @@
+# translation of gnomebaker.po to Dzongkha
+# translation of gnomebaker.po to
+# This file is distributed under the same license as the PACKAGE package.
+# translator, 2006.
+# translator, 2006.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Norbu <nor_den@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomebaker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-14 11:12+0600\n"
+"PO-Revision-Date: 2006-11-14 18:11+0530\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: Dzongkha <pgyeleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/audioproject.c:153
+#: ../src/cairofillbar.c:672
+#, c-format
+msgid "%d mins %d secs used - %d mins %d secs remaining"
+msgstr "%d སྐར་མ་ %d སྐར་ཆ་ ལག་ལེན་འཐབ་ཡོདཔ - %d སྐར་མ་ %d སྐར་ཆ་ལྷག་ལུས།"
+
+#: ../src/audioproject.c:182
+msgid "Track is too large to fit in the remaining space on the CD"
+msgstr "གླུ་རིམ་འདི་སི་ཌི་གི་བར་སྟོང་ལྷག་ལུས་ནང་ ཚུད་སྒྲིག་འབད་ནི་ལུ་ སྦོམ་དྲགས་པས།"
+
+#: ../src/audioproject.c:382
+#, c-format
+msgid "The file [%s] referred to in the play_list could not be imported as it does not exist."
+msgstr "གླུ་ཐོ་ནང་གཞི་བསྟུན་འབད་ཡོད་པའི་ཡིག་སྣོད་ [%s] འདི་ གནས་ཏེ་མེདཔ་ལས་ནང་འདྲེན་འབད་མི་ཚུགས་པས།"
+
+#: ../src/audioproject.c:513
+msgid "Not enough space on the disk"
+msgstr "ཌིཀསི་གུ་ལུ་བར་སྟོང་ལངམ་སྦེ་མིན་འདུག"
+
+#: ../src/audioproject.c:601
+msgid "The file you have selected is not a supported play_list. Please select a pls or m3u file."
+msgstr "ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཡོད་མི་ཡིག་སྣོད་འདི་རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་གླུ་ཐོ་མེན་པས། པི་ཨེལ་ཨེསེ་ ཡང་ན་ ཨེམ་3 ཡུ་ཡིག་སྣོད་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/audioproject.c:621
+#: ../src/audioproject.c:658
+msgid "Failed to write play_list file"
+msgstr "གླུ་ཐོ་ཡིག་སྣོད་འབྲི་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ།(_l)"
+
+#: ../src/audioproject.c:707
+msgid ""
+"Playlist already exists.\n"
+" Do you want to replace it?"
+msgstr ""
+"གླུ་ཐོ་ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན།\n"
+"ཁྱོད་ཀྱིས་འདི་ཚབ་བཙུགས་ནི་ཨིན་ན?"
+
+#: ../src/audioproject.c:845
+#: ../src/dataproject.c:1317
+#: ../src/filebrowser.c:577
+msgid "_Open"
+msgstr "ཁ་ཕྱེ།(_O)"
+
+#: ../src/audioproject.c:850
+msgid "Move selected _up"
+msgstr "སེལ་འཐུ་འབད་མི་ཡར་སྤོ་བཤུད་འབད།(_u)"
+
+#: ../src/audioproject.c:852
+msgid "Move selected _down"
+msgstr "སེལ་འཐུ་འབད་མི་མར་སྤོ།(_d)"
+
+#: ../src/audioproject.c:855
+#: ../src/dataproject.c:1330
+#: ../src/dataproject.c:1367
+msgid "_Remove selected"
+msgstr "སེལ་འཐུ་འབད་ཚར་མི་འདི་ རྩ་བསྐྲད་བཏང་།(_R)"
+
+#: ../src/audioproject.c:857
+msgid "_Clear"
+msgstr "བསལ།(_C)"
+
+#: ../src/audioproject.c:1080
+msgid "No."
+msgstr "ཨང་གྲངས།"
+
+#: ../src/audioproject.c:1092
+msgid "Duration"
+msgstr "དུས་ཡུན།"
+
+#: ../src/audioproject.c:1101
+msgid "Artist"
+msgstr "གླུ་གཞསཔ།"
+
+#: ../src/audioproject.c:1110
+msgid "Album"
+msgstr "གླུ་མཛོད།"
+
+#: ../src/audioproject.c:1119
+msgid "Title"
+msgstr "མགོ་མིང་།"
+
+#: ../src/audioproject.c:1128
+msgid "Track"
+msgstr "གླུ་རིམ།"
+
+#: ../src/audioproject.c:1145
+msgid "Info"
+msgstr "བརྡ་དོན།"
+
+#: ../src/audioproject.c:1176
+#: ../gnomebaker.glade.h:21
+msgid "Audio CD"
+msgstr "རྣར་ཉན་སི་ཌི།"
+
+#: ../src/burn.c:93
+#: ../src/burn.c:139
+msgid "Burning CD image"
+msgstr "སི་ཌི་གཟུགས་བརྙན་བཙུགས་སྤྱོད་འབད་དོ།"
+
+#: ../src/burn.c:93
+#: ../src/burn.c:139
+msgid "Please wait while the CD image you selected is burned to CD."
+msgstr "ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཚར་མི་ སི་ཌི་གཟུགས་བརྙན་དེ་ སི་ཌི་ནང་ལུ་བཙུགས་སྤྱོད་འབདཝ་ད་ལུ་ བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:115
+msgid "The file you have selected seems not to be a DVD image. Do you really want to write it to DVD?"
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་ཡོད་་མི ་ཡིག་སྣོད་དེ ་ཌི་བི་ཌི་གཟུགས་བརྙན་མེནབཟུམ་འབད་འདུག། ཁྱོད་ཀྱིས་ འདི་ཐད་རི་འབའ་རི་ ཌི་བི་ཌི་ནང་ལུ་འབྲི་ནི་ཨིན་ན?"
+
+#: ../src/burn.c:120
+msgid "Burning DVD image"
+msgstr "ཌི་བི་ཌི་གི་གཟུགས་བརྙན་ བཙུགས་སྤྱོད་འབད་དོ།"
+
+#: ../src/burn.c:120
+msgid "Please wait while the DVD image you selected is burned to DVD."
+msgstr "ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཡོད་་མི ་ཌི་བི་ཌི་གཟུགས་བརྙན་དེ ་ཌི་བི་ཌིནང་ལུ་བཙུགས་སྤྱོད་འབདཝ་ད་ལུ་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:163
+msgid "The file you have selected seems not to be a CD image. Do you really want to write it to CD?"
+msgstr "ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཡོད་མི་ཡིག་སྣོད་དེ་ སི་ཌི་གཟུགས་བརྙན་མེནམ་བཟུམ་སྦེ་འདུག ཁྱོད་ཀྱིས་ འདི་ཐད་རི་འབའ་རི་ སི་ཌི་ནང་ལུ་འབྲི་ནི་ཨིན་ན?"
+
+#: ../src/burn.c:180
+msgid "Creating data CD image"
+msgstr "གནད་སྡུད་སི་ཌི་གི་གཟུགས་བརྙན་གསར་བསྐྲུན་འབད་དོ།"
+
+#: ../src/burn.c:180
+msgid "Please wait while the data CD image is created."
+msgstr "གནད་སྡུད་སི་ཌི་གི་གཟུགས་བརྙན་གསར་བསྐྲུན་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:186
+#: ../src/burn.c:196
+msgid "Burning data CD"
+msgstr "གནད་སྡུད་སི་ཌི་དེ་བཙུགས་སྤྱོད་འབད་དོ།"
+
+#: ../src/burn.c:186
+msgid "Please wait while the data is burned directly to CD."
+msgstr "གནད་སྡུད་དེ་ཐད་ཀར་དུ་སི་ཌི་ནང་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:196
+msgid "Please wait while the data disk image is created and then burned to CD. Depending on the speed of your CD writer, this may take some time. "
+msgstr "གནད་སྡུད་ཌིཀསི་གི་གཟུགས་བརྙན་གསར་བསྐྲུན་འབད་དེ་སི་ཌི་ནང་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་ བསྒུག་སྡོད་གནང་། ཁྱོད་རའི་ སི་ཌི་རའི་ཊར་གྱི་མགྱོགས་ཚད་དང་འཁྲིལ་ཏེ འདི་གི་དུས་ཚོད་དུམ་གྲ་ཅིག་འགོར་འོང་།"
+
+#: ../src/burn.c:221
+#: ../src/burn.c:231
+msgid "Appending to data CD"
+msgstr "གནད་སྡུད་སི་ཌི་དེ་མཇུག་བསྣོན་འབད་དོ།"
+
+#: ../src/burn.c:221
+msgid "Please wait while the additional data is burned directly to CD."
+msgstr "ཁ་སྐོང་གི་གནད་སྡུད་དེ་ཐད་ཀར་དུ་སི་ཌི་ནང་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་ བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:231
+msgid "Please wait while the data disk image is created and then appended to the CD. Depending on the speed of your CD writer, this may take some time. "
+msgstr "གནད་སྡུད་ཌིགསི་གི་གཟུགས་བརྙན་འདི་གསར་བསྐྲུན་འབད་དེ་ སི་ཌི་ནང་ལུ་མཇུག་བསྣོན་འབད་བའི་སྐབས་ བསྒུག་སྡོད་གནང་། སི་ཌི་རའི་ཊར་གྱི་མགྱོགས་ཚད་དང་འཁྲིལ་ཏེ་ འདི་གི་དུས་ཚོད་དུམ་གྲ་ཅིག་འགོར་འོང་།"
+
+#: ../src/burn.c:253
+msgid "Burning audio CD"
+msgstr "སི་ཌི་རྣར་ཉན་བཙུགས་སྤྱོད་འབད་དོ།"
+
+#: ../src/burn.c:253
+msgid "Please wait while the selected tracks are converted to CD audio and then burned to CD."
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་གླུ་རིམ་ཚུ་ སི་ཌི་རྣར་ཉན་ལུ་གཞི་སྒྱུར་འབད་དེ་སི་ཌི་ནང་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་ བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:312
+msgid "Extracting CD image"
+msgstr "སི་ཌི་གཟུགས་བརྙན་ ཕྱིར་འདོན་འབད་དོ།"
+
+#: ../src/burn.c:312
+msgid "Please wait while the data CD image is extracted."
+msgstr "གནད་སྡུད་སི་ཌི་གི་གཟུགས་བརྙན་ ཕྱིར་འདོན་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:318
+msgid "Copying data CD"
+msgstr "གནད་སྡུད་སི་ཌི་གི་འདྲ་བཤུས་རྐྱབས་དོ།"
+
+#: ../src/burn.c:318
+msgid "Please wait while the data CD image is extracted and then burned to CD."
+msgstr "གནད་སྡུད་སི་ཌི་གི་གཟུགས་བརྙན་འདི་ ཕྱིར་དོན་འབད་དེ་ སི་ཌི་ནང་ལུ་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:338
+msgid "Copying audio CD"
+msgstr "རྣར་ཉན་སི་ཌི་དེ་དྲ་བཤུས་རྐྱབས་དོ།"
+
+#: ../src/burn.c:338
+msgid "Please wait while the audio CD tracks are extracted and then burned to CD."
+msgstr "རྣར་ཉན་སི་ཌི་གི་གླུ་རིམ་ཚུ་ ཕྱིར་དོན་འབད་དེ་ སི་ཌི་ནང་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:354
+msgid "Copying CD"
+msgstr "སི་ཌི་འདྲ་བཤུས་བརྐྱབ་དོ།"
+
+#: ../src/burn.c:354
+msgid "Please wait while the CD is copied"
+msgstr "སི་ཌི་འདི་འདྲ་བཤུས་བརྐྱབ་ད་བསྒུག་གནང་།"
+
+#: ../src/burn.c:371
+msgid "Extracting DVD image"
+msgstr "ཌི་ཝི་ཌི་གཟུགས་བརྙན་ཕྱིར་འདོན་འབད་དོ།"
+
+#: ../src/burn.c:371
+msgid "Please wait while the DVD image is extracted."
+msgstr "ཌི་ཝི་ཌི་གཟུགས་བརྙན་འདི་ཕྱིར་འདོན་འབད་བའི་བསྒང་བསྒུག་གནང་།"
+
+#: ../src/burn.c:377
+msgid "Copying DVD"
+msgstr "ཌི་ཝི་ཌི་ འདྲ་བཤུས་བརྐྱབ་དོ།"
+
+#: ../src/burn.c:377
+msgid "Please wait while the DVD image is extracted and then burned to DVD"
+msgstr "ཌི་ཝི་ཌི་ལུ་ ཌི་ཝི་ཌི་གཟུགས་བརྙན་འདི་ ཕྱིར་འདོན་འབད་བཞིནམ་ལས་བསྲེག་པའི་སྐབས་སུ་བསྒུག་གནང་།"
+
+#: ../src/burn.c:397
+msgid "Blanking CD"
+msgstr "སི་ཌི་སྟོངམ་སྟོན་དོ།"
+
+#: ../src/burn.c:397
+msgid "Please wait while the CD is blanked."
+msgstr "སི་ཌི་དེ་སྟོངམ་བཏོན་པའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:413
+msgid "Formatting re-writeable DVD"
+msgstr "སླར་-འབྲི་བཏུབ་པའི་ཌི་བི་ཌི་འདི་རྩ་སྒྲིག་འབད་དོ།"
+
+#: ../src/burn.c:413
+msgid "Please wait while the DVD is formatted."
+msgstr "ཌི་བི་ཌི་དེ་སྟོངམ་བཏོན་པའི་བསྒང་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:433
+msgid "Creating data DVD image"
+msgstr "གནད་སྡུད་ཌི་བི་ཌི་གི་གཟུགས་བརྙན་དེ་གསར་བསྐྲུན་འབད་དོ།"
+
+#: ../src/burn.c:433
+msgid "Please wait while the data DVD image is created."
+msgstr "གནད་སྡུད་ཌི་བི་ཌི་གི་གཟུགས་བརྙན་དེ་གསར་བསྐྲུན་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:439
+msgid "Burning data DVD"
+msgstr "གནད་སྡུད་ཌི་བི་ཌི་བཙུགས་སྤྱོད་འབད་དོ།"
+
+#: ../src/burn.c:439
+msgid "Please wait while the data is burned directly to DVD."
+msgstr "གནད་སྡུད་དེ་ཐད་ཀར་དུ་ཌི་བི་ཌི་ནང་བཙུགས་སྤྱོད་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:458
+#: ../src/burn.c:520
+msgid "Appending to data DVD"
+msgstr "གནད་སྡུད་ཌི་བི་ཌི་ལུ་མཇུག་བསྣོན་འབད་དོ།"
+
+#: ../src/burn.c:458
+#: ../src/burn.c:520
+msgid "Please wait while the data is appended directly to the DVD."
+msgstr "གནད་སྡུད་དེ་ཐད་ཀར་དུ་ཌི་བི་ཌི་ནང་མཇུག་བསྣོན་འབད་བའི་སྐབས་བསྒུག་སྡོད་གནང་།"
+
+#: ../src/burn.c:485
+#: ../src/execfunctions.c:1685
+msgid "Verifying the disk content"
+msgstr "ཌིགསི་གི་ནང་དོན་དེ་བདེན་སྦྱོར་འབད་དོ།"
+
+#: ../src/cairofillbar.c:684
+#, c-format
+msgid "%s of %s used. <b>Overburning</b>."
+msgstr "%s གི་ %s ལག་ལེན་འཐབ་ཡོདཔ།  <b> བཟོད་མ་ཚུགས་པའི་ཚ་བ། </b>."
+
+#: ../src/cairofillbar.c:690
+#: ../src/dataproject.c:389
+#, c-format
+msgid "%s used - %s remaining."
+msgstr "%s ལག་ལེན་འཐབ་ཡོདཔ། - %s ལྷག་ལུས།"
+
+#: ../src/cairofillbar.c:696
+#, c-format
+msgid "%s of %s used. <b>Disk full</b>."
+msgstr "%s གི་ %s ལག་ལེན་འཐབ་ཡོདཔ། <b> ཌིཀསི་ལྟེམ་ལྟེ། </b>."
+
+#: ../src/dataproject.c:172
+#: ../src/startdlg.c:587
+msgid "GnomeBaker data disk"
+msgstr "ཇི་ནོམ་བེ་ཀར་གནད་སྡུད་ཌིཀསི།"
+
+#: ../src/dataproject.c:383
+#, c-format
+msgid "%s of %s used. Overburning."
+msgstr "%s གི་ %s ལག་ལེན་འཐབ་ཡོདཔ། བཟོད་མ་ཚུགས་པའི་ཚ་བ།"
+
+#: ../src/dataproject.c:395
+#, c-format
+msgid "%s of %s used. Disk full."
+msgstr "%s གི་ %s ལག་ལེན་འཐབ་ཡོདཔ། ཌིཀསི་ལྟེམ་ལྟེ།"
+
+#: ../src/dataproject.c:1180
+msgid "New Folder"
+msgstr "སྣོད་འཛིན་གསརཔ།"
+
+#: ../src/dataproject.c:1321
+#: ../src/dataproject.c:1357
+msgid "_Add Folder"
+msgstr "སྣོད་འཛིན་ཁ་སྐོང་བརྐྱབ།(_A)"
+
+#: ../src/dataproject.c:1326
+#: ../src/dataproject.c:1361
+msgid "_Edit name"
+msgstr "མིང་ཞུན་དག་འབད།(_E)"
+
+#: ../src/dataproject.c:1332
+#: ../src/dataproject.c:1371
+msgid "Clear"
+msgstr "བསལ།"
+
+#: ../src/dataproject.c:1493
+#, c-format
+msgid ""
+"Error getting session information.\n"
+"\n"
+"%s"
+msgstr ""
+"ལཱ་ཡུན་གྱི་བརྡ་དོན་ལུ་འཛོལ་བ་ལེན་དོ།\n"
+"\n"
+"%s"
+
+#: ../src/dataproject.c:1494
+#: ../src/devices.c:664
+msgid "unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ།"
+
+#: ../src/dataproject.c:1620
+msgid "Compilation exeeds the capacity or the remaining space of the disk"
+msgstr "ཕྱོགས་སྒྲིག་གི་ ཤོང་ཚད་ཡང་ན་ ཌིཀསི་གི་ལྷག་ལུས་བར་སྟོང་ཚད་བརྒལཝ་མས།"
+
+#: ../src/dataproject.c:1703
+#, c-format
+msgid "Error importing session from [%s]. Please check the device configuration in preferences."
+msgstr "[%s]ནང་ལས་ལཱ་ཡུན་ནང་འདྲེན་འབདཝ་ད་ འཛོལ་བ། དགའ་གདམ་ནང་ལུ་ཐབས་འཕྲུལ་རིམ་སྒྲིག་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/dataproject.c:1918
+#: ../src/dataproject.c:2005
+#: ../gnomebaker.glade.h:33
+msgid "Contents"
+msgstr "ནང་དོན་ཚུ།"
+
+#: ../src/dataproject.c:1941
+#: ../src/dataproject.c:1951
+#: ../src/filebrowser.c:785
+#: ../src/filebrowser.c:795
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../src/dataproject.c:1961
+msgid "Full Path"
+msgstr "འགྲུལ་ལམ་ཆ་ཚང་།"
+
+#: ../src/dataproject.c:2134
+#: ../gnomebaker.glade.h:38
+msgid "Data DVD"
+msgstr "གནད་སྡུད་ ཌི་ཝི་ཌི།"
+
+#. preferences_get_int(GB_DATA_DISK_SIZE)
+#: ../src/dataproject.c:2140
+#: ../gnomebaker.glade.h:37
+msgid "Data CD"
+msgstr "གནད་སྡུད་ སི་ཌི།"
+
+#: ../src/devices.c:653
+msgid "The mount point (e.g. /mnt/cdrom) for the writing device could not be obtained. Please check that the writing device has an entry in /etc/fstab and then go to preferences and rescan for devices."
+msgstr "ཐབས་འཕྲུལ་བྲིས་ནི་གི་དོན་ལུ་སྦྱར་བརྩེག་འབད་ས་(དཔེར་ན /ཨེམ་ཨེན་ཊི/སི་ཌི་ཨར་ཨོ་ཨེམ་)འདི་ལེན་མ་ཚུགས། /ཨི་ཊི་སི་/ཨེཕ་ཨེསི་ཊི་ཨེ་བི་ ནང་ལུ་བྲིས་ནི་གི་ཐབས་འཕྲུལ་ལུ་ཐོ་བཀོད་ཅིག་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་། དེ་ལས་དགའ་གདམ་ནང་ལུ་འགྱོ་ཞིནམ་ལས་ ཐབས་འཕྲུལ་ཚུའི་དོན་ལུ་ལོག་ཞིབ་ལྟ་འབད།"
+
+#: ../src/devices.c:663
+#, c-format
+msgid ""
+"Error mounting %s.\n"
+"\n"
+"%s"
+msgstr ""
+"འགོ་བཙུག་ནི་འཛོལ་བ། %s.\n"
+"\n"
+"%s"
+
+#: ../src/devices.c:792
+#, c-format
+msgid "Please insert a disk into the %s"
+msgstr "%s གི་ནང་ལུ་ཌིཀསི་ཅིག་བཙུགས་གནང་།"
+
+#: ../src/execfunctions.c:86
+msgid "Preparing to blank disk"
+msgstr "ཌིཀསི་སྟོངམ་བཟོ་ནིའི་དོན་ལས་གྲ་སྒྲིག་འབད་དོ།"
+
+#: ../src/execfunctions.c:144
+msgid "Preparing to burn disk"
+msgstr "ཌིཀསི་བཙུགས་སྤྱོད་འབད་ནིའི་དོན་ལས་གྲ་སྒྲིག་འབད་དོ།"
+
+#. GB_TRACE("^^^^^ current [%d] first [%d] current [%f] total [%f] fraction [%f]",
+#. current_track, cdrecord_first_track, current, total, total_fraction);
+#: ../src/execfunctions.c:201
+#, c-format
+msgid "Writing track %d"
+msgstr "གླུ་རིམ་ %d བྲིས་དོ།"
+
+#: ../src/execfunctions.c:292
+#: ../src/execfunctions.c:1015
+#: ../src/startdlg.c:208
+#: ../src/startdlg.c:234
+#: ../src/startdlg.c:235
+msgid "Auto"
+msgstr "རང་བཞིན།"
+
+#: ../src/execfunctions.c:411
+msgid "Preparing to extract audio tracks"
+msgstr "རྣར་ཉན་གླུ་རིམ་ཕྱིར་འདོན་འབད་ནིའི་དོན་ལས་གྲ་སྒྲིག་འབད་དོ།"
+
+#: ../src/execfunctions.c:422
+msgid "Audio tracks from a previous sesion already exist on disk, do you wish to use the existing tracks?"
+msgstr "ཧེ་མའི་ལཱ་ཡུན་ཅིག་ནང་གི་རྣར་ཉན་གླུ་རིམ་དེ་ཧེ་མ་ལས་རང་ཌིཀསི་གུ་ལུ་ཡོད། ཁྱོད་ད་ལྟོ་ཡོད་མི་གླུ་རིམ་འདི་རང་ལག་ལེན་འཐབ་ནའི་རེ་འདོད་ཡོད་ག?"
+
+#: ../src/execfunctions.c:479
+#, c-format
+msgid "Extracting audio track %d"
+msgstr "རྣར་ཉན་གྱི་གླུ་རིམ་%dཕྱིར་འདོན་འབད་དོ།"
+
+#: ../src/execfunctions.c:549
+msgid "Calculating data disk image size"
+msgstr "གནད་སྡུད་ཌིཀསི་གི་གཟུགས་བརྙན་གྱི་ཚད་ རྩིས་སྟོན་འབད་དོ།"
+
+#: ../src/execfunctions.c:587
+msgid "Creating data disk image"
+msgstr "གནད་སྡུད་ཌིཀསི་གི་གཟུགས་བརྙན་འདི་གསར་བསྐྲུན་འབད་དོ།"
+
+#: ../src/execfunctions.c:594
+msgid "A data CD image from a previous session already exists on disk, do you wish to use the existing image?"
+msgstr "ཧེ་མའི་ལཱ་ཡུན་ནང་གི་གནད་སྡུད་སི་ཌི་ཅིག་གི་གཟུགས་བརྙན་ཧེ་མ་ལས་རང་ཌིཀསི་གུ་ལུ་ཡོད། ཁྱོད་ཀྱི་ད་ལྟོ་ཡོད་མི་གཟུགས་བརྙན་དེ་རང་ལག་ལེན་འཐབ་ནིའི་རེ་འདོད་ཡོད་ག?"
+
+#: ../src/execfunctions.c:831
+msgid "Formatting DVD"
+msgstr " ཌི་བི་ཌི་རྩ་སྒྲིག་འབད་དོ།"
+
+#: ../src/execfunctions.c:912
+msgid "Preparing to burn DVD"
+msgstr "ཌི་བི་ཌི་བཙུགས་སྤྱོད་འབད་ནིའི་དོན་ལས་གྲ་སྒྲིག་འབད་དོ།"
+
+#: ../src/execfunctions.c:943
+#: ../src/execfunctions.c:968
+msgid "Writing DVD"
+msgstr "ཌི་བི་ཌི་རྩོམ་སྒྲིག"
+
+#: ../src/execfunctions.c:1083
+msgid "Reading CD image"
+msgstr "སི་ཌི་གི་གཟུགས་བརྙན་འདི་ལྷག་དོ"
+
+#: ../src/execfunctions.c:1091
+msgid "A CD image from a previous session already exists on disk, do you wish to use the existing image?"
+msgstr "ཧེ་མའི་ལཱ་ཡུན་ནང་གི་གནད་སྡུད་སི་ཌི་ཅིག་གི་གཟགས་བརྙན་ཧེ་མ་ལས་རང་ཌིཀསི་གུ་ལུ་ཡོད། ཁྱོད་ཀྱི་ད་ལྟོ་ཡོད་མི་གཟུགས་བརྙན་དེ་རང་ལག་ལེན་འཐབ་ནིའི་རེ་འདོད་ཡོད་ག?"
+
+#: ../src/execfunctions.c:1480
+#, c-format
+msgid "Converting %s to cd audio"
+msgstr "%s འདི་སི་ཌི་རྣར་ཉན་ལུ་གཞི་བསྒྱུར་འབད་དོ།"
+
+#: ../src/execfunctions.c:1727
+msgid "Reading DVD image"
+msgstr "ཌི་ཝི་ཌི་ གཟུགས་བརྙན་ལྷག་དོ།"
+
+#: ../src/execfunctions.c:1735
+msgid "A DVD image from a previous session already exists on disk, do you wish to use the existing image?"
+msgstr "འ་ནི་ཌིཀསི་གུ་ལུ་ ཧེ་མའི་ལཱ་ཡུན་ལས་ ཌི་ཝི་ཌི་གཟུགས་བརྙན་གཅིག་ཧེ་མ་ལས་རང་གནས་བཞིན་ཡོད་ ཁྱོད་ཀྱིས་གནས་བཞིན་ཡོད་པའི་གཟུགས་བརྙན་ལག་ལེན་འཐབ་ནིའི་འདོད་པ་ཡོད་ག?"
+
+#: ../src/filebrowser.c:73
+#: ../src/filebrowser.c:674
+#: ../src/startdlg.c:415
+#: ../src/startdlg.c:443
+msgid "Filesystem"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས།"
+
+#: ../src/filebrowser.c:74
+msgid "Home"
+msgstr "ཁྱིམ།"
+
+#: ../src/filebrowser.c:75
+msgid "(empty)"
+msgstr "(སྟོངམ།)"
+
+#: ../src/filebrowser.c:76
+msgid "Folder"
+msgstr "སྣོད་འཛིན།"
+
+#: ../src/filebrowser.c:568
+msgid "_Add directory"
+msgstr "ཚིག་མཛོད་ཁ་སྐ྄ོང་རྐྱབས།(_A)"
+
+#: ../src/filebrowser.c:581
+msgid "_Add file(s)"
+msgstr "ཡིག་སྣོད་(ཨེསི)ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../src/filebrowser.c:596
+#: ../gnomebaker.glade.h:76
+msgid "_Burn CD Image"
+msgstr "སི་ཌི་གཟུགས་བརྙན་བཙུགས་སྤྱོད་འབད།(_B)"
+
+#: ../src/filebrowser.c:599
+msgid "_Burn DVD Image"
+msgstr "ཌི་བི་ཌི་གཟུགས་བརྙན་བཙུགས་སྤྱོད་འབད།(_B)"
+
+#: ../src/filebrowser.c:704
+#, c-format
+msgid "%s's home"
+msgstr "%s གི་ཁྱིམ།"
+
+#: ../src/filebrowser.c:770
+msgid "File"
+msgstr "ཡིག་སྣོད།"
+
+#: ../src/filebrowser.c:805
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../src/filebrowser.c:814
+msgid "Mime"
+msgstr "མ་ཡིམ།"
+
+#: ../src/gbcommon.c:556
+msgid "All files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ།"
+
+#: ../src/gbcommon.c:564
+msgid "Save file as type:"
+msgstr "དབྱེ་བ་སྦེ་ཡིག་སྣོད་སྲུང་བཞག་འབད:"
+
+#: ../src/gnomebaker.c:238
+msgid "There are unsaved projects, your changes will be lost if you quit. Are you sure you want to quit?"
+msgstr "ཕི་ཁར་ལུ་སྲུངས་བཞག་མ་འབད་བའི་ལས་འགུལ་ཚུ་འདུག་ སྟེ་ཁྱོད་ཀྱིས་དེ་ཚུ་སྤང་པ་ཅིན་ཁྱོད་རའི་བསྒྱུར་བཅོས་ཚུ་བརླག་སྟོར་ཞུགས་འོང་། ཁྱོད་ཀྱིས་སྤང་ནི་འདི་ངེས་གཏན་ཨིན་ན?"
+
+#: ../src/gnomebaker.c:309
+msgid "CD Image files"
+msgstr "སི་ཌི་གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gnomebaker.c:310
+msgid "Please select a CD image file."
+msgstr "སི་ཌི་གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/gnomebaker.c:325
+msgid "DVD Image files"
+msgstr "ཌི་བི་ཌི་གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gnomebaker.c:326
+msgid "Please select a DVD image file."
+msgstr "ཌི་བི་ཌི་གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/gnomebaker.c:420
+msgid ""
+"GnomeBaker is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+msgstr ""
+"ཇི་ནོམ་བེ་ཀར་འདི་ མཉེན་ཆས་སྟོང་པ་ཨིནམ་ལས་ མཉེན་ཆས་གཞི་རྟེན་སྟོང་པ་གིས་ / དཔེ་བསྐྲུན་འབད་ཡོདཔ་བཟུམ་སྦེ་\n"
+"ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ ཐ་སྙད་འོག་ལུ་ ཡང་ན་ཆོག་ཐམ་གྱི་ཐོན་རིམ་ ༢ ཡང་ན་\n"
+"(ཁྱོད་རའི་གདམ་ཁའི་གུ་ལུ་)ཤུལ་མའི་ཐོན་རིམ་འོག་ལུ་\n"
+"ཁྱོད་ཀྱིས་ ལོག་བགོ་བཀྲམ་ཡང་ན་ལེགས་བཅོས་འབད་བཏུབ་ཨིན།\n"
+
+#: ../src/gnomebaker.c:424
+msgid ""
+"GnomeBaker is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+msgstr ""
+"ཇི་ནོམ་བེ་ཀར་འདི་ དགོས་དོན་བྱེ་བྲག་ཚུད་སྒྲིག་དོན་ལུ་ ཡང་ན་ཚོང་འབྲེལ་གྱི་ བར་སྟོན་ཉེན་ལེན་ཡང་མེདཔ་དང་;་ཉེན་ལེན་ག་ནི་ཡང་མེནཔ་སྦེ་\n"
+"ཕན་ཐོགས་འབྱུང་ནིའི་རེ་བ་བསྐྱེད་དེ་བགོ་བཀྲམ་འབད་ཡོདཔ་ཨིན།\n"
+"རྒྱས་བཤད་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ ཆོག་ཐམ་\n"
+"བལྟ་གནང་།\n"
+
+#: ../src/gnomebaker.c:428
+msgid ""
+"You should have received a copy of the GNU General Public License\n"
+"along with GnomeBaker; if not, write to the Free Software Foundation, Inc.,\n"
+"59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་ ཇི་ནོམ་བེ་ཀར་དང་གཅིག་ཁར་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གཅིག་ལེན་དགོཔ་ཨིན་\n"
+"འདི་མེན་པ་ཅིན་ མཉེན་ཆས་གཞི་རྟེན་ ཨའི་ཨེན་སི་ .,\n"
+"༥༩ ཊེམ་པཱལ་ པེལེསི་ སུཊི་ ༣༣༠ བཱོསི་ཊཱོན་ ཨེམ་ཨེ་ ༠༢༡༡༡-༡༣༠༧ ཡུ་ཨེསི་ཨེ་ ལུ་ འབྲི།\n"
+
+#: ../src/gnomebaker.c:438
+#: ../src/main.c:96
+#: ../gnomebaker.glade.h:45
+msgid "GnomeBaker"
+msgstr "ཇི་ནོམ་བེ་ཀར།"
+
+#: ../src/gnomebaker.c:441
+msgid "Simple CD/DVD Burning for Gnome"
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ སི་ཌི་/ཌི་བི་ཌི་ འཇམ་སམ་བཙུགས་སྤྱོད་འབད་དོ།"
+
+#: ../src/gnomebaker.c:446
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་-ངོ་བསྟོད་ཚུ།"
+
+#: ../src/gnomebaker.c:762
+#: ../src/gnomebaker.c:992
+msgid "Playlist files"
+msgstr "གླུ་ཐོའི་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gnomebaker.c:769
+msgid "Save playlist as..."
+msgstr "སྦེ་ གླུ་ཐོ་སྲུང་བཞག་འབད..."
+
+#: ../src/gnomebaker.c:792
+msgid "Project files"
+msgstr "ལས་འགུལ་གྱི་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gnomebaker.c:862
+msgid "Please select a project file."
+msgstr "ལས་འགུལ་ཡིག་སྣོད་གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/gnomebaker.c:900
+#: ../gnomebaker.glade.h:66
+msgid "Save project"
+msgstr "ལས་འགུལ་སྲུངས།"
+
+#: ../src/gnomebaker.c:993
+msgid "Please select a playlist."
+msgstr "གླུ་ཐོ་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/gnomebaker.c:1019
+msgid "Project is not saved. Are you sure you want to close the project?"
+msgstr "ལས་འགུལ་འདི་སྲུངས་ཏེ་མ་བཞག་པས། ཁྱོད་ཀྱིས་ ལས་འགུལ་ཁ་བསྡམས་མི་འདི་ངེས་གཏན་ཨིན་ན?"
+
+#: ../src/gnomebaker.c:1081
+msgid "Please select files to add to the disk."
+msgstr "ཌིགསི་ནང་ལུ་ཁ་སྐོང་བརྐྱབ་ནིའི་དོན་ལུ་་ཡིག་སྣོད་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/gnomebaker.c:1090
+msgid "Please select folders to add to the disk."
+msgstr "ཌིཀསི་ལུ་ཁ་སྐོང་བརྐྱབ་ནིའི་དོན་ལུ་ སྣོད་འཛིན་ཚུ་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/gnomebaker.c:1100
+msgid "_Add Folders"
+msgstr "སྣོད་འཛིན་ཁ་སྐོང་བརྐྱབ།(_A)"
+
+#: ../src/gnomebaker.c:1102
+msgid "_Add Files"
+msgstr "ཡིག་སྣོད་ཚུ་ཁ་སྐོང་བརྐྱབ།(_A)"
+
+#: ../src/gnomebaker.c:1114
+#: ../gnomebaker.glade.h:40
+msgid "Data _DVD"
+msgstr "གནད་སྡུད་ ཌི་ཝི་ཌི།(_D)"
+
+#: ../src/gnomebaker.c:1116
+#: ../gnomebaker.glade.h:39
+msgid "Data _CD"
+msgstr "གནད་སྡུད་སི་ཌི།(_C)"
+
+#: ../src/gnomebaker.c:1118
+#: ../gnomebaker.glade.h:75
+msgid "_Audio CD"
+msgstr "རྣར་ཉན་ སི་ཌི།(_A)"
+
+#: ../src/gnomebaker.c:1155
+msgid "Audio files"
+msgstr "རྣར་ཉན་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gnomebaker.c:1227
+msgid "Recent projects"
+msgstr "འཕྲལ་གྱི་ལས་འགུལ་ཚུ།"
+
+#: ../src/main.c:44
+msgid "Show tracing information (useful when debugging)"
+msgstr "བཤུལ་འཚོལ་འབད་ནིའི་བརྡ་དོན་(རྐྱེན་སེལ་འབད་བའི་སྐབས་ཕན་ཐོགས་ཅན་ཨིན་མི་)སྟོན།"
+
+#: ../src/main.c:53
+msgid " - GNOME CD/DVD burning application"
+msgstr " - ཇི་ནོམ་ སི་ཌི་/ ཌི་བི་ཌི་ བཙུགས་སྤྱོད་འབད་ནིའི་གློག་རིམ།"
+
+#: ../src/main.c:111
+msgid "Loading preferences..."
+msgstr "དགའ་གདམ་ཚུ་མངོན་གསལ་འབད་དོ..."
+
+#: ../src/main.c:116
+msgid "Detecting devices..."
+msgstr "ཐབས་འཕྲུལ་ཚུ་སྐྱོན་འཛིན་འབད་དོ..."
+
+#: ../src/main.c:121
+msgid "Registering gstreamer plugins..."
+msgstr "ཇིསི་ཊི་མར་ པ་ལག་ཨིན་ ཐོ་འགོད་འབད་དོ..."
+
+#: ../src/main.c:126
+msgid "Loading GUI..."
+msgstr "ཇི་ཡུ་ཨའི་ མངོན་གསལ་འབད་དོ..."
+
+#: ../src/media.c:497
+#, c-format
+msgid "The plugin to handle a file of type %s is not installed."
+msgstr "དབྱེ་བ་ %s འབད་མི་ཡིག་སྣོད་ཅིག་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལས་ པ་ལག་ཨིན་དེ་གཞི་བཙུགས་མ་འབད་བས།"
+
+#: ../src/preferences.c:71
+#: ../src/preferences.c:72
+msgid "default"
+msgstr "སྔོན་སྒྲིག།"
+
+#: ../src/prefsdlg.c:139
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/prefsdlg.c:154
+msgid "Id"
+msgstr "ཨའི་ཌི།"
+
+#: ../src/prefsdlg.c:163
+msgid "Node"
+msgstr "མཐུད་མཚམས།"
+
+#: ../src/prefsdlg.c:172
+msgid "Mount point"
+msgstr "སྦྱར་བརྩེགས་འབད་ས།"
+
+#: ../src/prefsdlg.c:181
+msgid "Write CD-R"
+msgstr "སི་ཌི་-ཨར་ བྲིས།"
+
+#: ../src/prefsdlg.c:190
+msgid "Write CD-RW"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་ བྲིས།"
+
+#: ../src/prefsdlg.c:199
+msgid "Write DVD-R"
+msgstr "ཌི་བི་ཌི་-ཨར་ བྲིས།"
+
+#: ../src/prefsdlg.c:208
+msgid "Write DVD-RAM"
+msgstr "དི་བི་ཌི་-ཨར་ཨེ་ཨེམ་ བྲིས།"
+
+#: ../src/progressdlg.c:82
+#, c-format
+msgid "%d minutes %d seconds"
+msgstr "%d སྐར་མ་ཚུ་ %d སྐར་ཆ་ཚུ།"
+
+#: ../src/progressdlg.c:84
+#, c-format
+msgid "%d minute %d seconds"
+msgstr "%d སྐར་མ་ %d སྐར་ཆ་ཚུ།"
+
+#: ../src/progressdlg.c:86
+#, c-format
+msgid "%d seconds"
+msgstr "%d སྐར་ཆ་ཚུ།"
+
+#: ../src/progressdlg.c:91
+msgid "1 minute"
+msgstr "སྐར་མ་ ༡།"
+
+#: ../src/progressdlg.c:93
+#, c-format
+msgid "%d minutes"
+msgstr "%d སྐར་མ་ཚུ།"
+
+#: ../src/progressdlg.c:235
+#, c-format
+msgid "Approximately %s remaining"
+msgstr "%s ཧ་ལམ་ལྷག་ལུས།"
+
+#: ../src/progressdlg.c:290
+#: ../gnomebaker.glade.h:69
+msgid "Show output"
+msgstr "ཨའུཊི་པུཊི་སྟོན།"
+
+#: ../src/progressdlg.c:290
+msgid "Hide output"
+msgstr "ཨའུཊི་པུཊི་སྦ།"
+
+#: ../src/progressdlg.c:369
+#, c-format
+msgid "Elapsed time %s"
+msgstr "ཆུ་ཚོད་ %s སོང་བ།"
+
+#: ../src/progressdlg.c:375
+msgid "Completed"
+msgstr "མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../src/progressdlg.c:385
+msgid "Failed"
+msgstr "འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/project.c:74
+msgid "0%"
+msgstr "༠%"
+
+#: ../src/project.c:111
+msgid "_Burn"
+msgstr "འཚིག་པ།(_B)"
+
+#: ../src/startdlg.c:108
+msgid "Please select an image file to save to."
+msgstr "ལུ་ སྲུངས་བཞག་འབད་ནིའི་དོན་ལུ་ གཟུགས་བརྙན་ཡིག་སྣོད་གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/startdlg.c:130
+msgid "CD/DVD Image files"
+msgstr "སི་ཌི་/ཌི་བི་ཌི་གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/startdlg.c:195
+msgid "<b>Reader</b>"
+msgstr "<b> ལྷག་མི། </b>"
+
+#: ../src/startdlg.c:200
+msgid "<b>Writer</b>"
+msgstr "<b> རྩོམ་འབྲི་པ། </b>"
+
+#: ../src/startdlg.c:204
+msgid "Speed:"
+msgstr "མགྱོགས་ཚད:"
+
+#: ../src/startdlg.c:230
+msgid "Mode:"
+msgstr "ཐབས་ལམ:"
+
+#: ../src/startdlg.c:253
+msgid "<b>Options</b>"
+msgstr "<b>གདམ་ཁ་ཚུ</b>"
+
+#: ../src/startdlg.c:282
+msgid "_Start"
+msgstr "འགོ་བཙུགས།(_S)"
+
+#: ../src/startdlg.c:345
+msgid "<b>Disk Information</b>"
+msgstr "<b>ཌིཀསི་གི་བརྡ་དོན</b>"
+
+#: ../src/startdlg.c:347
+msgid "Volume ID:"
+msgstr "སྐད་ཤུགས་ཀྱི་ཨའི་ཌི:"
+
+#: ../src/startdlg.c:350
+msgid "Application ID:"
+msgstr "གློག་རིམ་གྱི་ཨའི་ཌི:"
+
+#: ../src/startdlg.c:353
+msgid "Preparer:"
+msgstr "གྲ་སྒྲིག་འབད་མི:"
+
+#: ../src/startdlg.c:356
+msgid "Publisher:"
+msgstr "དཔེ་བསྐྲུན་པ:"
+
+#: ../src/startdlg.c:359
+msgid "Copyright:"
+msgstr "འདྲ་བཤུས་དབང་ཆ:"
+
+#: ../src/startdlg.c:362
+msgid "Abstract:"
+msgstr "སྙིང་བཅུད:"
+
+#: ../src/startdlg.c:365
+msgid "Bibliography:"
+msgstr "དེབ་ཐོ:"
+
+#: ../src/startdlg.c:376
+msgid "<b>Filesystem</b>"
+msgstr "<b> ཡིག་སྣོད་རིམ་ལུགས། </b>"
+
+#: ../src/startdlg.c:414
+#: ../src/startdlg.c:442
+msgid "Writing"
+msgstr "རྩོམ་སྒྲིག"
+
+#: ../src/startdlg.c:416
+#: ../src/startdlg.c:444
+msgid "Disk Information"
+msgstr "ཌིཀསི་གི་བརྡ་དོན།"
+
+#: ../src/startdlg.c:561
+msgid "Dummy write"
+msgstr "དཔེ་གཟུགས་འབྲི།"
+
+#: ../src/startdlg.c:562
+msgid "Eject disk"
+msgstr "ཌིཀསི་ཕྱིར་བཏོན་འབད།"
+
+#: ../src/startdlg.c:563
+msgid "Fast blank"
+msgstr "སྟོངམ་མགྱོགས་དྲགས།"
+
+#: ../src/startdlg.c:564
+msgid "BurnFree"
+msgstr "བཙུགས་སྤྱོད་བར་སྟོང་།"
+
+#: ../src/startdlg.c:565
+msgid "Burn the disk"
+msgstr "ཌིཀསི་ བཙུགས་སྤྱོད་འབད།"
+
+#: ../src/startdlg.c:567
+msgid "Only create image"
+msgstr "གཟུགས་བརྙན་རྐྱངམ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../src/startdlg.c:570
+msgid "Force format"
+msgstr "བང་བཙོང་ནིའི་རྩ་སྒྲིག"
+
+#: ../src/startdlg.c:571
+msgid "Finalize"
+msgstr "མཐའ་བཅད་འབད།"
+
+#: ../src/startdlg.c:572
+msgid "Fast format"
+msgstr "རྩ་སྒྲིག་མགྱོགས་དྲགས།"
+
+#: ../src/startdlg.c:573
+msgid "Joliet"
+msgstr "ཇོ་ལིཡིཊི།"
+
+#: ../src/startdlg.c:574
+msgid "Rock Ridge"
+msgstr "རོཀ་ རྩེ་ཐང།"
+
+#: ../src/startdlg.c:575
+msgid "On the fly"
+msgstr "འཕུར་གུ་ལུ།"
+
+#: ../src/startdlg.c:585
+msgid "_Browse..."
+msgstr "བརྡ་འཚོལ...(_B)"
+
+#: ../src/burn.h:69
+msgid "Blank CD-RW"
+msgstr "སི་ཌི་-ཨར་ཌབ་ལུ་ སྟོངམ།"
+
+#: ../src/burn.h:70
+msgid "Copy Data CD"
+msgstr "གནད་སྡུད་སི་ཌི་ འདྲ་བཤུས་རྐྱབས།"
+
+#: ../src/burn.h:71
+msgid "Copy Audio CD"
+msgstr "རྣར་ཉན་སི་ཌི་ འདྲ་བཤུས་རྐྱབས།"
+
+#: ../src/burn.h:72
+msgid "Copy CD"
+msgstr "སི་ཌི་འདྲ་བཤུས་བརྐྱབ།"
+
+#: ../src/burn.h:73
+msgid "Copy DVD"
+msgstr "ཌི་ཝི་ཌི་ འདྲ་བཤུས་བརྐྱབ།"
+
+#: ../src/burn.h:74
+msgid "Burn CD Image"
+msgstr "སི་དི་གཟུགས་བརྙན་བཙུགས་སྤྱོད་འབད།"
+
+#: ../src/burn.h:75
+msgid "Burn DVD Image"
+msgstr "ཌི་བི་ཌི་གཟུགས་བརྙན་བཙུགས་སྤྱོད་འབད།"
+
+#: ../src/burn.h:76
+msgid "Create Data CD"
+msgstr "གནད་སྡུད་སི་ཌི་གསར་བསྐྲུན་འབད།"
+
+#: ../src/burn.h:77
+msgid "Append to Data CD"
+msgstr "གནད་སྡུད་སི་ཌི་ལུ་མཇུག་བསྣོན་འབད།"
+
+#: ../src/burn.h:78
+msgid "Create Audio CD"
+msgstr "རྣར་ཉན་སི་ཌི་གསར་བསྐྲུན་འབད།"
+
+#: ../src/burn.h:79
+msgid "Create Mixed CD"
+msgstr "སི་ཌི་སླ་བསྲེ་ཡོད་མི་གསར་བསྐྲུན་འབད།"
+
+#: ../src/burn.h:80
+msgid "Create Video CD"
+msgstr "ཝི་ཌིའོ་སི་ཌི་གསར་བསྐྲུན་འབད།"
+
+#: ../src/burn.h:81
+msgid "Format DVD RW"
+msgstr "ཌི་ཝི་ཌི་ ཨར་ཌབ་ལུ་ རྩ་སྒྲིག"
+
+#: ../src/burn.h:82
+msgid "Create Data DVD"
+msgstr "གནད་སྡུད་ཌི་བི་ཌི་གསར་བསྐྲུན་འབད།"
+
+#: ../src/burn.h:83
+msgid "Append to Data DVD"
+msgstr "གནད་སྡུད་ཌི་བི་ཌི་མཇུག་བསྣོན་འབད།"
+
+#: ../gnomebaker.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../gnomebaker.glade.h:2
+msgid "..."
+msgstr "..."
+
+#: ../gnomebaker.glade.h:3
+msgid "/tmp"
+msgstr "གནས་སྐབས་ཀྱི།(/t)"
+
+#: ../gnomebaker.glade.h:4
+msgid "<b><big>...</big></b>"
+msgstr "<b><big>...</big></b>"
+
+#: ../gnomebaker.glade.h:5
+msgid "<b>Additional <i>cdrecord</i> options</b>"
+msgstr "<b> ཁ་སྐོང་ <i>སི་ཌི་དྲན་ཐོ་</i> གདམ་ཁ་ཚུ</b>"
+
+#: ../gnomebaker.glade.h:6
+msgid "<b>Boot options</b>"
+msgstr "<b>བུཊི་གི་འདམ་ཁ་ཚུ</b>"
+
+#: ../gnomebaker.glade.h:7
+msgid "<b>Create new project</b\t>"
+msgstr "<b> ལས་འགུལ་གསརཔ་གསར་བསྐྲུན་འབད། </b\t>"
+
+#: ../gnomebaker.glade.h:8
+msgid "<b>Created by</b>"
+msgstr "<b>གསར་བསྐྲུན་འབད་མི</b>"
+
+#: ../gnomebaker.glade.h:9
+msgid "<b>Detected devices</b>"
+msgstr "<b>སྐྱོན་འཛིན་བྱུང་ཡོད་མི་ཐབས་འཕྲུལ་ཚུ་</b>"
+
+#: ../gnomebaker.glade.h:10
+msgid "<b>Open existing project</b>"
+msgstr "<b> གནས་བཞིན་ཡོད་པའི་ལས་འགུལ་ཁ་ཕྱེ། </b>"
+
+#: ../gnomebaker.glade.h:11
+msgid "<b>Other</b>"
+msgstr "<b>གཞན</b>"
+
+#: ../gnomebaker.glade.h:12
+msgid "<b>Select Writer</b>"
+msgstr "<b> རྩོམ་འབྲི་པ་སེལ་འཐུ་འབད། </b>"
+
+#: ../gnomebaker.glade.h:13
+msgid "<b>Temporary Directory</b>"
+msgstr "<b>གནས་སྐབས་ཀྱི་སྣོད་ཐོ</b>"
+
+#: ../gnomebaker.glade.h:14
+msgid "<b>Volume label</b>"
+msgstr "<b>སྦུང་ཚད་ཀྱི་ཁ་ཡིག</b>"
+
+#: ../gnomebaker.glade.h:15
+msgid "<b>Welcome</b>"
+msgstr "<b> བྱོན་པ་ལེགས་སོ། </b>"
+
+#: ../gnomebaker.glade.h:16
+msgid "<i>...</i>"
+msgstr "<i>...</i>"
+
+#: ../gnomebaker.glade.h:17
+msgid "Add file(s)"
+msgstr "ཡིག་སྣོད་ཁ་སྐོང་རྐྱབས།(ཨེསི)"
+
+#: ../gnomebaker.glade.h:18
+msgid "Add the selected files to the disk"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ ཌིཀསི་ལུ་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../gnomebaker.glade.h:19
+msgid "Advanced"
+msgstr "མཐོ་རིམ།"
+
+#: ../gnomebaker.glade.h:20
+msgid "Always scan for devices on startup"
+msgstr "འགོ་བཙུགས་པའི་སྐབས་ལུ་ཐབས་འཕྲུལ་ཚུའི་དོན་ལུ་ཨ་རྟག་ར་ཞིབ་ལྟ་འབད།"
+
+#: ../gnomebaker.glade.h:22
+msgid "Automatically scroll the progress window output"
+msgstr "ཡར་འཕེལ་ཝིན་ཌོ་ཨའུཊི་པུཊི་འདི་ རང་བཞིན་གྱིས་བཤུད་སྒྲིལ་འབད།"
+
+#: ../gnomebaker.glade.h:23
+msgid "Baking"
+msgstr "བེ་ཀིང་།"
+
+#: ../gnomebaker.glade.h:24
+msgid "Bl_ank CD-RW"
+msgstr "སི་ཌི་-ཨར་་ཌབ་ལུ་ སྟོངམ།(_a)"
+
+#: ../gnomebaker.glade.h:25
+msgid "Boot Image"
+msgstr "བུཊི་གི་གཟུགས་བརྙན།"
+
+#: ../gnomebaker.glade.h:26
+msgid "Boot Image list"
+msgstr "བུཊི་གཟུགས་བརྙན་གྱི་ཐོ་ཡིག"
+
+#: ../gnomebaker.glade.h:27
+msgid "Boot catalog"
+msgstr "བུཊི་གི་ཐོ་གཞུང་།"
+
+#: ../gnomebaker.glade.h:28
+msgid "Burn _DVD Image"
+msgstr "ཌི་བི་ཌི་གཟུགས་བརྙན་བཙུགས་སྤྱོད་འབད།(_D)"
+
+#: ../gnomebaker.glade.h:29
+msgid "C_opy Data CD"
+msgstr "གནད་སྡུད་སི་ཌི་འདྲ་བཤུས་རྐྱབས།(_o)"
+
+#: ../gnomebaker.glade.h:30
+msgid "Clean temporary directory on exit"
+msgstr "གནས་སྐབས་ཀྱི་སྣོད་ཐོ་ ཕྱིར་ཐོན་གུར་བསལ་ཏོག་ཏོ་བཟོ།"
+
+#: ../gnomebaker.glade.h:31
+msgid "Clear the contents of the disk"
+msgstr "ཌིཀསི་གི་ནང་དོན་ཚུ་བསལ། "
+
+#: ../gnomebaker.glade.h:32
+msgid "Co_py Audio CD"
+msgstr "རྣར་ཉན་སི་ཌི་འདྲ་བཤུས་རྐྱབས།(_p)"
+
+#: ../gnomebaker.glade.h:34
+msgid "Copy D_VD"
+msgstr "ཌི་ཝི་ཌི་ འདྲ་བཤུས་བརྐྱབ།(_V)"
+
+#: ../gnomebaker.glade.h:35
+msgid "Create a new project"
+msgstr "ལས་འགུལ་གསརཔ་གཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../gnomebaker.glade.h:36
+msgid "Created by username"
+msgstr "ལག་ལེན་པའི་མིང་གིས་ གསར་བསྐྲུན་འབད་ཡོད།"
+
+#: ../gnomebaker.glade.h:41
+msgid "Devices"
+msgstr "ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../gnomebaker.glade.h:42
+msgid "Floppy disk image"
+msgstr "ཕོལོ་པི་ ཌིགསི་གི་གཟུགས་བརྙན།"
+
+#: ../gnomebaker.glade.h:43
+msgid "Force"
+msgstr "བང་བཙོང་ནི།"
+
+#: ../gnomebaker.glade.h:44
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../gnomebaker.glade.h:46
+msgid "GnomeBaker Preferences"
+msgstr "ཇི་ནོམ་བེ་ཀར་གྱི་དགའ་གདམ་ཚུ།"
+
+#: ../gnomebaker.glade.h:47
+msgid "GnomeBaker data cd"
+msgstr "ཇི་ནོམ་བེ་ཀར་གྱི་གནད་སྡུད་སི་ཌི།"
+
+#: ../gnomebaker.glade.h:48
+msgid "Hard disk image"
+msgstr "ཧརཌི་ཌིཀིསི་གི་གཟུགས་བརྙན།"
+
+#: ../gnomebaker.glade.h:49
+msgid "ISO filesystem details"
+msgstr "ཨའི་ཨེསི་ཨོ་ཡིག་སྣོད་རིམ་ལུགས་རྒྱས་བཤད།"
+
+#: ../gnomebaker.glade.h:50
+msgid "Import Session"
+msgstr "ལཱ་ཡུན་ ནང་འདྲེན་འབད།"
+
+#: ../gnomebaker.glade.h:51
+msgid "Move Selected Files _Down"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་མར་སྤོ།(_D)"
+
+#: ../gnomebaker.glade.h:52
+msgid "Move Selected Files _Up"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ཡར་སྤོ།(_U)"
+
+#: ../gnomebaker.glade.h:53
+msgid "Move audio tracks down"
+msgstr "རྣར་ཉན་གླུ་རིམ་ཚུ་མར་སྤོ།"
+
+#: ../gnomebaker.glade.h:54
+msgid "Move audio tracks up"
+msgstr "རྣར་ཉན་གླུ་རིམ་ཚུ་ཡར་སྤོ།"
+
+#: ../gnomebaker.glade.h:55
+msgid "Not bootable"
+msgstr "བུཊི་འབད་མ་བཏུབ་མི།"
+
+#: ../gnomebaker.glade.h:56
+msgid "Notify me when burning is complete"
+msgstr "འཚིག་པ་འདི་ཡོངས་རྫོགསཔ་ད་ང་ལུ་བརྡ་བསྐུལ་འབད།"
+
+#: ../gnomebaker.glade.h:57
+msgid "Open an existing project"
+msgstr "གནས་བཞིན་ཡོད་པའི་ལས་འགུལ་གཅིག་ཁ་ཕྱེ།"
+
+#: ../gnomebaker.glade.h:58
+msgid "PC bootable"
+msgstr "པི་སི་ བུཊི་འབད་བཏུབ་མི།"
+
+#: ../gnomebaker.glade.h:59
+msgid "Please select the writing device from the list below and insert the disk containing the existing session"
+msgstr "འོག་གི་ཐོ་ཡིག་ནང་ལས་ རྩོམ་སྒྲིག་ཐབས་འཕྲུལ་འདི་སེལ་འཐུ་འབད་དེ་ ནང་ན་ལུ་ གནས་བཞིན་ཡོད་པའི་ལཱ་ཡུན་ཤོམ་ཏེ་ཡོད་མི་ ཌིཀསི་ཅིག་བཙུགས་གནང་།"
+
+#: ../gnomebaker.glade.h:60
+msgid "Refresh the file browser file list"
+msgstr "ཡིག་སྣོད་བརའུ་ཟར་གྱི་ཡིག་སྣོད་ཐོ་ཡིག་ཡང་སེལ་འབད།"
+
+#: ../gnomebaker.glade.h:61
+msgid "Remove selected"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་རྩ་བསྐྲད་བཏང་།"
+
+#: ../gnomebaker.glade.h:62
+msgid "Remove the selected files from the disk"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ཌིཀསི་ལས་རྩ་བསྐྲད་གཏང་།"
+
+#: ../gnomebaker.glade.h:63
+msgid "S_how hidden files"
+msgstr "སྦ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་སྟོན།(_h)"
+
+#: ../gnomebaker.glade.h:64
+msgid "Save All"
+msgstr "ཆ་མཉམ་རང་སྲུངས།"
+
+#: ../gnomebaker.glade.h:65
+msgid "Save Project _As"
+msgstr "ལས་འགུལ་འདི་བཟུམ་སྦེ་སྲུངས་བཞག(_A)"
+
+#: ../gnomebaker.glade.h:67
+msgid "Sc_an for devices"
+msgstr "ཐབས་འཕྲུལ་གྱི་དོན་ལུ་ཞིབ་ལྟ་འབད།(_a)"
+
+#: ../gnomebaker.glade.h:68
+msgid "Sh_ow human-readable file sizes"
+msgstr "འགྲོ་བ་མིའི་-ལྷག་བཏུབ་ཡིག་སྣོད་ཚད་ཚུ་སྟོན།(_o)"
+
+#: ../gnomebaker.glade.h:70
+msgid "Splash window"
+msgstr "སིཔེལེཤ་ཝིན་ཌོ།"
+
+#: ../gnomebaker.glade.h:71
+msgid "Starting GnomeBaker..."
+msgstr "ཇི་ནོམ་བེ་ཀར་འགོ་བཙུགས་དོ..."
+
+#: ../gnomebaker.glade.h:72
+msgid "Sun workstation bootable"
+msgstr "བུཊི་འབད་བཏུབ་མི་ སཱན་ལཱ་གཡོག་ལྟེ་བ།"
+
+#: ../gnomebaker.glade.h:73
+msgid "_Add Selected Files"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ཁ་སྐོང་བརྐྱབ།(_A)"
+
+#: ../gnomebaker.glade.h:74
+msgid "_Add device"
+msgstr "ཐབས་འཕྲུལ་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../gnomebaker.glade.h:77
+msgid "_Close Project"
+msgstr "ལས་འགུལ་ཁ་བསྡམས།(_C)"
+
+#: ../gnomebaker.glade.h:78
+msgid "_Copy CD"
+msgstr "སི་ཌི་འདྲ་བཤུས་བརྐྱབ།(_C)"
+
+#: ../gnomebaker.glade.h:79
+msgid "_Export"
+msgstr "ཕྱིར་འདྲེན་འབད།(_E)"
+
+#: ../gnomebaker.glade.h:80
+msgid "_Format DVD±RW"
+msgstr "ཌི་ཝི་ཌི་±ཨར་ཌབ་ལུ་རྩ་སྒྲིག(_F)"
+
+#: ../gnomebaker.glade.h:81
+msgid "_Import"
+msgstr "ནང་འདྲེན་འབད།(_I)"
+
+#: ../gnomebaker.glade.h:82
+msgid "_Import Session"
+msgstr "ལཱ་ཡུན་ནང་འདྲེན་འབད།(_I)"
+
+#: ../gnomebaker.glade.h:83
+msgid "_New Project"
+msgstr "ལས་འགུལ་གསརཔ།(_N)"
+
+#: ../gnomebaker.glade.h:84
+msgid "_Open Project"
+msgstr "ལས་འགུལ་ཁ་ཕྱེ།(_O)"
+
+#: ../gnomebaker.glade.h:85
+msgid "_Playlist"
+msgstr "གླུ་ཐོ།(_P)"
+
+#: ../gnomebaker.glade.h:86
+msgid "_Project"
+msgstr "ལས་འགུལ།(_P)"
+
+#: ../gnomebaker.glade.h:87
+msgid "_Refresh"
+msgstr "ཡང་སེལ།(_R)"
+
+#: ../gnomebaker.glade.h:88
+msgid "_Remove Selected Files"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ རྩ་བསྐྲད་བཏང་།(_R)"
+
+#: ../gnomebaker.glade.h:89
+msgid "_Save Project"
+msgstr "ལས་འགུལ་སྲུངས།(_S)"
+
+#: ../gnomebaker.glade.h:90
+msgid "_Show File Browser"
+msgstr "ཡིག་སྣོད་བརའུ་ཟར་སྟོན།(_S)"
+
+#: ../gnomebaker.glade.h:91
+msgid "_Tools"
+msgstr "ལག་ཆས་ཚུ།(_T)"
+
+#: ../gnomebaker.glade.h:92
+msgid "_Window"
+msgstr "ཝིན་ཌོ།(_W)"
+
+#~ msgid "0 mins 0 secs"
+#~ msgstr "སྐར་མ་ ༠ སྐར་ཆ་༠།"
+#~ msgid "%d mins %d secs"
+#~ msgstr "སྐར་མ་%d སྐར་ཆ%d"
+#~ msgid ""
+#~ "The file you have selected is not a DVD image. Please select a DVD image "
+#~ "to burn."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཡོད་མི་ཡིག་སྣོད་འདི་ ཌི་བི་ཌི་གི་གཟུགས་བརྙན་མེན་འབད།   བཙུགས་སྤྱོད་འབད་ནའི་"
+#~ "དོན་ལས་ཌི་བི་ཌི་གི་གཟུགས་བརྙན་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+#~ msgid ""
+#~ "The file you have selected is not a cd image. Please select a cd image to "
+#~ "burn."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱི་སེལ་འཐུ་འབད་ཡོད་མི་ཡིག་སྣོད་འདི་ སི་ཌི་གི་གཟུགས་བརྙན་མེན་འབད།   བཙུགས་སྤྱོད་འབད་ནའི་དོན་"
+#~ "ལས་སི་ཌི་གི་གཟུགས་བརྙན་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+#~ msgid ""
+#~ "File or directory is too large to fit in the remaining space on the CD"
+#~ msgstr "ཡིག་སྣོད་ཡང་ན་སྣོད་ཐོ་འདི་ སི་ཌི་གི་བར་སྟོང་ལྷག་ལུས་ནང་ལུ་ཚུད་སྒྲིག་འབད་ནི་ལུ་སྦོམ་དྲག་པས།"
+#~ msgid "Session"
+#~ msgstr "ལཱ་ཡུན།"
+#~ msgid "mounting"
+#~ msgstr "སྦྱར་བརྩེགས་འབད་དོ།"
+#~ msgid "unmounting"
+#~ msgstr "བརྩེགས་ཤོར་མ་འབད་བས།"
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "ཁྱོད་སྤང་ནི་འདི་ངེས་ཏིག་ཨིན་ན?"
+#~ msgid "Create ISO only"
+#~ msgstr "ཨའི་ཨོསི་ཨོ་རྐྱངམ་ཅིག་གསར་བསྐྲུན་འབད།"
+#~ msgid "Fast"
+#~ msgstr "མགྱོགས་དྲགས། "
+#~ msgid "Format DVD+RW"
+#~ msgstr "རྩ་སྒྲིག་ ཌི་བི་ཌི་+ ཨར་ཌབ་ལུ།"
+#~ msgid "_Actions"
+#~ msgstr "བྱ་བ།(_A)"
+#~ msgid "_Format DVDRW"
+#~ msgstr "རྩ་སྒྲིག་ ཌི་བི་ཌི་ཨར་ཌབ་ལུ།(_F)"
+#~ msgid "_View"
+#~ msgstr "མཐོང་སྣང་།(_V)"
+#~ msgid "Edit GnomeBaker's preferences"
+#~ msgstr "ཇི་ནོམ་བེ་ཀར་གྱི་དགའ་གདམ་ཞུན་དག་འབད།"
+#~ msgid "Import existing session"
+#~ msgstr "ད་ལྟོ་ཡོད་མི་ལཱ་ཡུན་ནང་འདྲེན་འབད།"
+#~ msgid "Import"
+#~ msgstr "ནང་འདྲེན་འབད།"
+#~ msgid "Click to begin the process of creating a data disk."
+#~ msgstr "གནད་སྡུད་ཌིཀསི་གསར་སྐྲུན་འབད་ནིའི་ལུ་ ལས་སྦྱོར་འགོ་བཙགས་ནིའི་དོན་ལས་ཨེབ་གཏང་།"
+#~ msgid "Create Data Disk"
+#~ msgstr "གནད་སྡུད་ཌིཀསི་གསར་སྐྲུན་འབད།"
+#~ msgid "<b>Data Disk</b>"
+#~ msgstr "<b>གནད་སྡུད་ཌིཀསི་</b>"
+#~ msgid "Click to begin the process of creating an audio cd"
+#~ msgstr "རྣར་ཉན་སི་ཌི་གསར་སྐྲུན་གྱི་ལས་སྦྱོར་འགོ་བཙུཊ་ནིའི་དོན་ལས་ཨེབ་གཏང་།"
+#~ msgid "Create Audio Disk"
+#~ msgstr "རྣར་ཉན་ཌིཀསི་གསར་སྐྲུན་འབད།"
+#~ msgid "<b>Audio Disk</b>"
+#~ msgstr "<b>རྣར་ཉན་དིཀསི་</b>"
+#~ msgid "Create Video Disk"
+#~ msgstr "ཝི་ཌིའོ་ཌིཀསི་གསར་སྐྲུན་འབད།"
+#~ msgid "<b>Video CD</b>"
+#~ msgstr "<b>ཝི་ཌིའོ་སི་ཌི</b>"
+#~ msgid "GPL"
+#~ msgstr "ཇི་པི་ཨེལ།"
+#~ msgid "Simple CD burning for Gnome."
+#~ msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་འཇམ་སམ་སི་ཌི་བཙུགས་སྤྱོད་འབད་དོ།"
+#~ msgid "<b>File Browser</b>"
+#~ msgstr "<b>ཡིག་སྣོད་བརའུ་ཟར</b>"
+#~ msgid "Ask on quit"
+#~ msgstr "སྤང་པའི་སྐབས་སུ་འདྲི།"
+#~ msgid "Start burning..."
+#~ msgstr "བཙུགས་སྤྱོད་འབད་ནི་འགོ་བཙུགས..."
+#~ msgid "Mode"
+#~ msgstr "ཐབས་ལམ།"
+#~ msgid "tao"
+#~ msgstr "ཊའོ།"
+#~ msgid "dao"
+#~ msgstr "ཌའོ།"
+#~ msgid "raw96p"
+#~ msgstr "རོ་༩༦་པི།"
+#~ msgid "raw16"
+#~ msgstr "རོ་༡༦།"
+#~ msgid "<b>Devices</b>"
+#~ msgstr "<b>ཐབས་འཕྲུལ་ཚུ</b>"
+#~ msgid "Reader"
+#~ msgstr "ལྷག་བྱད།"
+#~ msgid "Writer"
+#~ msgstr "རྩོམ་འབྲི་པ།"
+#~ msgid "Speed"
+#~ msgstr "མགྱོགས་ཚད།"
+#~ msgid "mime type is %s for %s %s"
+#~ msgstr "%s %s གི་དོན་ལུ་%s འདི་མ་ཡིམ་གྱི་དབྱེ་བ་ཨིན།"
+#~ msgid "File %s was not opened \n"
+#~ msgstr "ཡིག་སྣོད་ %s འདི་ཁ་མ་ཕྱེ་བས། \n"
+#~ msgid "Error reading wav header for file [%s]"
+#~ msgstr "[%s]ལུ་འཛོལ་བ་འབད་ལྷག་མི་ཝེཔ་གི་མགོ་ཡིག"
+#~ msgid "Performer"
+#~ msgstr "ལཱ་འབད་མི།"
+#~ msgid "Albumtitle"
+#~ msgstr "གླུ་མཛོད་ཀྱི་མགོ་མིང་།"
+#~ msgid "Tracktitle"
+#~ msgstr "གླུ་རིམ་གྱི་མགོ་མིང་།"
+#~ msgid "File %s was not opened"
+#~ msgstr "ཡིག་སྣོད་ %s འདི་ཁ་མ་ཕྱེ་བས།"
+#~ msgid "Stereo"
+#~ msgstr "གླུ་སྒྲོམ། "
+#~ msgid "Joint Stereo"
+#~ msgstr "གླུ་སྒྲོམ་མཐུད་ཡོད་མི།"
+#~ msgid "Dual Channel"
+#~ msgstr "རྒྱུ་ལམ་བཟུང་ལྡན།"
+#~ msgid "Single Channel"
+#~ msgstr "རྒྱུ་ལམ་རྐྱང་པ།"
+#~ msgid "TITLE="
+#~ msgstr "མགོ་མིང་="
+#~ msgid "ARTIST="
+#~ msgstr "གླུ་གཞསཔ="
+#~ msgid "ALBUM="
+#~ msgstr "གླུ་མཛོད="
+#~ msgid "Failed to start child process"
+#~ msgstr "ཆ་ལག་གི་ལས་སྦྱོར་འགོ་བཙུགས་ནི་འདི་འཐུས་ཤོར་བྱུང་ནུག"
+#~ msgid "burn - [%s]"
+#~ msgstr " བཙུགས་སྤྱོད - [%s]"
+#~ msgid "failed to stat file [%s] with ret code [%d] error no [%s]"
+#~ msgstr ""
+#~ "རེཊི་ཨང་རྟགས་ གི་ འཛོལ་བའི་ཨང་གྲངས་ [%s] [%d]འདི་གི་ཐོག་ལས་ ཡིག་སྣོད་ [%s] འགོ་བཙུགས་ནི་"
+#~ "འདི་འཐུས་ཤོར་བྱུང་ཡོད།"
+#~ msgid "received sel %s"
+#~ msgstr "སིལ་ %s འདི་ཐོབ་ཡོད།"
+#~ msgid "datacd next session is [%s]"
+#~ msgstr "གནས་སྡུད་སི་ཌི་ཤུལ་མམ་གྱི་ལཱ་ཡུན་འདི་[%s]་ཨིན།"
+#~ msgid "Error getting msinfo"
+#~ msgstr "འཛོལ་བ་འདི་ཨེམ་ཨེསི་བརྡ་དོན་ལེན་དོ།"
+#~ msgid "Error mounting writer device"
+#~ msgstr "ཐབས་འཕྲུལ་རྩོམ་འབྲི་པའི་འཛོལ་བ་སྦྱར་བརྩེགས་འབད་དོ།"
+#~ msgid "Error unmounting writer device"
+#~ msgstr "རྩོམ་འབྲི་པའི་ཐབས་འཕྲུལ་འཛོལ་བའི་བརྩེགས་བཤོལ།"
+#~ msgid "devices_write_device_to_gconf - Added [%s] [%s] [%s] [%s]"
+#~ msgstr ""
+#~ "[%s] [%s] [%s] [%s] - བསྡོམས་ཡོད་པའི་_ཐབས་འཕྲུལ་ཚུ་_ ཇི་ཀཱོནཕ་གི་_ཐབས་འཕྲུལ་ལུ_་འབྲི།"
+#~ msgid "node [%s] mount [%s]"
+#~ msgstr "མཐུད་མཚམས [%s] སྦྱར་བརྩེགས།[%s]"
+#~ msgid "node [%s] is link to [%s]"
+#~ msgstr "མཐུད་མཚམས་ [%s] འདི་[%s] ལུ་འབྲེལ་མཐུད་འབད།"
+#~ msgid "devices_probe_bus - Failed to scan the scsi bus"
+#~ msgstr ""
+#~ "ཐབས་འཕྲུལ་_ བདེན་ཁུངས་_བརྡ་རྟགས་འགྲུལ་ལམ་-འདི་ ཨེསི་སི་ཨེསི་ཨའི་བརྡ་རྟགས་འགྲུལ་ལམ་ཞིབ་ལྟ་འབད་ནི་"
+#~ "ལུ་འཐུས་ཤོར་བྱུང་ནུག"
+#~ msgid "devices_probe_bus - failed to parse cdrecord output"
+#~ msgstr ""
+#~ "ཐབས་འཕྲུལ་_ བདེན་ཁུངས་_བརྡ་རྟགས་འགྲུལ་ལམ་-འདི་ སི་ཌི་སྒྲ་བཟུང་གི་ཨའུཊི་པུཊི་ལུ་  མིང་དཔྱད་འབད་ནི་"
+#~ "ལུ་འཐུས་ཤོར་བྱུང་ནུག"
+#~ msgid "devices_add_ide_device - probing [%s]"
+#~ msgstr "ཐབས་འཕྲུལ་ཚུ་_བསྡོམས་_ཨའི་ཌི་ཨི་_ཐབས་འཕྲུལ་-བདེན་ཁུངས་བཀོད་དོ།[%s]"
+#~ msgid "Failed to open %s"
+#~ msgstr "%s ཁ་ཕྱེ་ནའི་དོན་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+#~ msgid "devices_add_scsi_device - probing [%s]"
+#~ msgstr "ཐབས་འཕྲུལ་ཚུ་_བསྡོམས་_ཨེསི་སི་ཨེསི་ཨའི་_ཐབས་འཕྲུལ་- བདེན་ཁུངས་བཀོད་དོ།[%s]"
+#~ msgid "Failed to open /proc/scsi/sg/devices"
+#~ msgstr "/པི་ཨར་ཨོ་སི་/ཨེསི་སི་ཨེསི་ཨའི་/ཨེསི་ཇི་/ཐབས་འཕྲུལ་ཚུ་ ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།"
+#~ msgid "Failed to open /proc/scsi/sg/device_strs"
+#~ msgstr ""
+#~ "/པི་ཨར་ཨོ་སི་/ཨེསི་སི་ཨེསི་ཨའི་/ཨེསི་ཇི་/ཐབས་འཕྲུལ་ཨེསི་ཊི་ཨར་ཨེསི་ ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།(_s)"
+#~ msgid "Error reading scsi information from /proc/scsi/sg/devices"
+#~ msgstr ""
+#~ "པི་ཨར་ཨོ་སི་/ཨེསི་སི་ཨེསི་ཨའི་/ཨེསི་ཇི་/ཐབས་འཕྲུལ་ཚུ་ལས་ ཨེསི་སི་ཨེསི་ཨའི་བརྡ་དོན་ལྷག་ན་ལུ་འཛོལ་བ།"
+#~ msgid "---- key [%s], value [%s]"
+#~ msgstr "----  གཙོ་བོ། [%s], གནས་གོང་། [%s]"
+#~ msgid "looking for device [%d]"
+#~ msgstr "ཐབས་འཕྲུལ་གྱི་དོན་ལུ་ལྟ་དོ།[%d]"
+#~ msgid ""
+#~ "Requested device index [%d] is out of bounds. All devices have been read."
+#~ msgstr ""
+#~ "ཞུ་བ་འབད་ཡོདཔ་པའི་ཐབས་འཕྲུལ་ཟུར་ཐོ་ [%d] འདི་བཅད་མཚམས་ཀྱི་ཕྱི་ཁར་ཨིན། ཐབས་འཕྲུལ་ཚུ་ཆ་མཉམ་"
+#~ "ལྷག་ནུག"
+#~ msgid "Failed to open /proc/sys/dev/cdrom/info"
+#~ msgstr ""
+#~ "/པི་ཨར་ཨོ་སི་/ཨེསི་ཝའི་ཨེསི་/ཌི་ཨི་ཝི་/སི་ཌི་ཨར་ཨོ་ཨེམ་/བརྡ་དོན་ ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།"
+#~ msgid "subdir from GValue is NULL"
+#~ msgstr "ཇི་གི་གནས་གོང་ལས་ སབ་ཌིར་འདི་སྟོང་ཆ་ཨིན།"
+#~ msgid "Stat of file [%s] failed"
+#~ msgstr "ཡིག་སྣོད་ [%s] གི་སིཊེཊི་འདི་འཐུས་ཤོར་བྱུང་ཡོད།"
+#~ msgid "selection data is %s\n"
+#~ msgstr "གནས་སྡུད་སེལ་འཐུ་འབད་མི་འདི་%sཨིན།\n"
+#~ msgid "exec_thread - parent created child with pid %d"
+#~ msgstr ""
+#~ " ལག་ལེན་འཐབ་ནི་གི་ཐེ་རེཌི་-རྩ་ལག་འདི་གིས་ཆ་ལག་པི་ཨའི་ཌི་%d དང་བཅས་གསར་བསྐྲུན་འབད་ནུག(_t)"
+#~ msgid "exec_thread - created child"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་གི་ཐེརེཌི་-གིས་ཆ་ལག་གསར་བསྐྲུན་འབད་ནུག(_t)"
+#~ msgid "exec_thread - Exec failed"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་གི་ཐེརེཌི་- ལག་ལེན་འཐབ་ནི་འདི་འཐུས་ཤོར་བྱུང་ནུག(_t)"
+#~ msgid "exec_thread - child exited with code [%d]\n"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་གི་ཐེརེཌི་- གིས་ཆ་ལག་འདི་[%d]ཨང་རྟགས་གི་ཐོག་ལས་ཕྱིར་ཐོན་ནུག།(_t) \n"
+#~ msgid "exec_thread - exiting"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་གི་ཐེརེཌི་ -ཕྱིར་ཐོན་དོ།(_t)"
+#~ msgid "exec_go - failed to create thread [%d] [%s]"
+#~ msgstr ""
+#~ "ལག་ལེན་འཐབ་ནི་འགྱོ་ - འདི་གིས་ཐེརེཌི་[%d] [%s] གསར་བསྐྲུན་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།(_t)"
+#~ msgid "exec_cancel - killing %d"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ཆ་མེད་གཏང་-འདི་གིས་%dགསད།(_t)"
+#~ msgid "exec_cancel - complete"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ཆ་མེད་གཏང་-འདི་མཇུག་བསྡུ་ད།(_t)"
+#~ msgid "exec_run_cmd - %s"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་གཡོག་བཀོལ་ _སི་ཨེམ་ཌི་-%s(_r)"
+#~ msgid "error [%s] spawning command [%s]"
+#~ msgstr "འཛོལ་བའི་[%s] དར་ཁྱབ་འབྱུང་བའི་བརྡ་བཀོད།[%s]"
+#~ msgid "Uknown error spawning command [%s]"
+#~ msgstr "མ་ཤེས་པའི་འཛོལ་བ་དར་ཁྱབ་འབྱུང་བའི་བརྡ་དཀོད།[%s]"
+#~ msgid "returning [%s]"
+#~ msgstr " [%s] སླར་ལོག་འབད་དོ། "
+#~ msgid "creating [%s]"
+#~ msgstr "[%s] གསར་བསྐྲུན་འབད་དོ།"
+#~ msgid "failed to create temp %d"
+#~ msgstr " %d ཊི་ཨི་ཨེམ་པི་ གསར་བསྐྲུན་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།"
+#~ msgid "Failed to get contents of file [%s]"
+#~ msgstr "ཡིག་སྣོད་[%s]གི་ནང་དོན་ལེན་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།"
+#~ msgid "MessageDialog message [%s]"
+#~ msgstr "འཕྲིན་དོན་ཌའི་ལོག་འཕྲིན་དོན་ [%s]"
+#~ msgid "ISO files"
+#~ msgstr "ཨའི་ཨེསི་ཨོ་ཡིག་སྣོད་ཚུ།"
+#~ msgid "file is %s"
+#~ msgstr "%s འདི་ཡིག་སྣོད་ཨིན།"
+#~ msgid "mime type is %s for %s"
+#~ msgstr "%s གི་དོན་ལུ་མ་ཡིམ་གྱི་དབྱེ་བ་%s འདི་ཨིན།"
+#~ msgid "Simple CD Burning for Gnome"
+#~ msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་འཇམ་སམ་གྱི་སི་ཌི་བཙུགས་སྤྱོད་འབད་དོ།"
+#~ msgid "toolbar style [%s] [%d]"
+#~ msgstr "ལག་ཆས་ཕྲ་རིང་གི་བཟོ་རྣམ། [%s] [%d]"
+#~ msgid "Invalid row in device list"
+#~ msgstr "ཐབས་འཕྲུལ་གྱི་ཐོ་བཀོད་ནང་ལུ་ནུས་མེད་ཀྱི་གྲལ་ཐིག"
+#~ msgid "<b>Burning disk...</b>"
+#~ msgstr "<b>དིཀསི་བཙུགས་སྤྱོད་འབད་དོ།</b>"
+#~ msgid "<b>Blanking disk...</b>"
+#~ msgstr "<b>ཌིཀསི་སྟོངམ་བཏོན་དོ...</b>"
+#~ msgid "Please insert the CD-RW into the CD writer"
+#~ msgstr "སི་ཌི་-ཨར་ཌབལུ་འདི་སི་ཌི་རྩོམ་འབྲི་པ་གི་ནང་ལུ་བཙུགས་གནང་།"
+#~ msgid "Fixating"
+#~ msgstr "གཏན་པར་བཟོ་བ།"
+#~ msgid "cdrecord - adding create audio data [%s]"
+#~ msgstr "སི་ཌི་སྒྲ་བཟུང་ལུ་ - རྣར་ཉན་གྱི་གནས་སྡུད་[%s]གསར་བསྐྲུན་འདི་ཁ་སྐོང་རྐྱབས་དོ།"
+#~ msgid "adding [%s]"
+#~ msgstr "[%s] ཁ་སྐོང་རྐྱབས་དོ།"
+#~ msgid "Please insert the audio CD into the CD reader"
+#~ msgstr "རྣར་ཉན་གྱི་སི་ཌི་འདི་སི་ཌི་ལྷག་མི་ནང་ལུ་བཙུགས་གནང་།"
+#~ msgid "Tracks:"
+#~ msgstr "གླུ་རིམ་ཚུ:"
+#~ msgid "cdda2wav_read_proc - total tracks %d"
+#~ msgstr "སི་ཌིཌི་ཨེ་༢་ ཝེཔ_ལྷག་_པི་ཨར་ཨོ་སི་ - %d ་གླུ་རིམ་གྱི་བསྡོམས། "
+#~ msgid "<b>Creating data disk image...</b>"
+#~ msgstr "<b>གནད་སྡུད་ཌིཀསི་གི་གཟུགས་བརྙན་འདི་གསར་བསྐྲུད་འབད་དོ...</b>"
+#~ msgid "<b>Formatting DVD...</b>"
+#~ msgstr "<b>ཌི་ཝི་ཌི་འདི་རྩ་སྒྲིག་འབད་དོ...</b>"
+#~ msgid "Please insert a rewritable DVD into the DVD writer"
+#~ msgstr "ཌི་ཝི་ཌི་བསྐྱར་འབྲི་འབད་བཏུབ་མི་འདི་ཌི་ཝི་ཌི་རྩོམ་འབྲི་པ་གི་ནང་ལུ་བཙུགས་གནང་།"
+#~ msgid "<b>Burning DVD...</b>"
+#~ msgstr "<b>བཙུགས་སྤྱོད་འབད་དོ་ཌི་བི་ཌི་...</b>"
+#~ msgid "Please insert a writable DVD into the DVD writer"
+#~ msgstr "ཌི་ཝི་ཌི་འབྲི་འབད་བཏུབ་མི་འདི་ཌི་ཝི་ཌི་རྩོམ་འབྲི་པ་གི་ནང་ལུ་བཙུགས་གནང་།"
+#~ msgid "growisofs: progress: %d"
+#~ msgstr "གོརོ་ཝི་སོཕིསི:ཡར་འཕེལ་ : %d"
+#~ msgid "growisofs: fraction: %f"
+#~ msgstr "གོརོ་ཝི་སོཕིསི:དཔྱ་ཕྲན : %f"
+#~ msgid "<b>Converting mp3 to cd audio...</b>"
+#~ msgstr "<b>ཨེམ་པི་༣་འདི་སི་ཌི་གླུ་རིམ་ལུ་གཞི་བསྒྱུར་འབད་དོ...</b>"
+#~ msgid "Converted file is [%s]"
+#~ msgstr "ཡིག་སྣོད་གཞི་བསྒྱུར་འབད་ཡོད་མི་འདི་ [%s] ཨིན།"
+#~ msgid "<b>Converting ogg to cd audio...</b>"
+#~ msgstr "<b>ཨོ་ཇི་ཇི་འདི་སི་ཌི་གླུ་རིམ་ལུ་གཞི་བསྒྱུར་འབད་དོ...</b>"
+#~ msgid "Entering [%s] [%s] [%d]\n"
+#~ msgstr " [%s] [%s] [%d] ཐོ་བཀོད་འབད་དོ།\n"
+#~ msgid "Add the current directory to the CD"
+#~ msgstr "སི་ཌི་ལུ་ད་ལྟོ་ཡོད་པའི་སྣད་ཐོ་འདི་ཁ་སྐོང་རྐྱབས།"
+#~ msgid "74 min. CD"
+#~ msgstr "སི་ཌི་སྐར་ཆ་ ༧༤།"
+#~ msgid "80 min. CD"
+#~ msgstr "སི་ཌི་སྐར་ཆ་ ༨༠།"
+#~ msgid "<b>Burning</b>"
+#~ msgstr "<b>བཙུགས་སྤྱོད་འབད་དོ།</b>"
+#~ msgid "Start burning"
+#~ msgstr "བཙུགས་སྤྱོད་འབད་ནི་འགོ་བཙུགས"
+#~ msgid "Allow overburning"
+#~ msgstr "ལྷག་སྟེ་བཙུགས་སྤྱོད་འབད་བཅུག"
+#~ msgid "Multisession"
+#~ msgstr "ལཱ་ཡུན་སྣ་མང་།"
+#~ msgid "Create ISO Only"
+#~ msgstr "ཨའི་ཨེསི་ཨོ་རྐྱངམ་ཅིག་གསར་བསྐྲུན་འབད།"
+#~ msgid "Eject CD"
+#~ msgstr "སི་ཌི་ཕྱིར་བཏོན།"
+#~ msgid "Reader:"
+#~ msgstr "ལྷག་བྱད:"
+#~ msgid "Writer:"
+#~ msgstr "རྩོམ་འབྲི་པ:"
+#~ msgid "<b>Progress window</b>"
+#~ msgstr "<b>ཡར་འཕེལ་གྱི་སྒོ་སྒྲིག</b>"
+#~ msgid "Move selection _down"
+#~ msgstr "སེལ་འཐུ་འབད་མི་མར་སྤོ།(_d)"
+#~ msgid "Move selection _up"
+#~ msgstr "སེལ་འཐུ་འབད་མི་ཡར་སྤོ།(_u)"
+#~ msgid "_Remove selection"
+#~ msgstr "སེལ་འཐུ་འབད་ཚར་མི་ རྩ་བསྐྲད་བཏང་།(_R)"
+#~ msgid "raw96r"
+#~ msgstr "རོ་༩༦ ཨར"
+

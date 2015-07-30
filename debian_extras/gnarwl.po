@@ -1,0 +1,65 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnarwl.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-11 09:04+0100\n"
+"PO-Revision-Date: 2006-11-28 10:08+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Name/address of the LDAP server:"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་གྱི་ མིང་/ཁ་བྱང་:"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Gnarwl contacts a LDAP server in order to get information about vacation messages and accounts. Please specify the server alternativly with the port to be used."
+msgstr "ཇི་ནརལ་གྱིས་ ངལ་གསོའི་འཕྲིན་དོན་དང་རྩིས་ཐོ་གི་སྐོར་ལས་ བརྡ་དོན་ལེན་ནིའི་དོན་ལས་ ཨེལ་ཌི་ཨེ་པི་སར་བར་ཅིག་དང་འབྲེལ་བ་འཐབ་ཨིན། ལག་ལེན་འཐབ་ནི་གི་འདྲེན་ལམ་དང་གཅིག་ཁར་ སར་བར་འདི་ཐབས་གཞན་གྱི་ཐོག་ གསལ་བཀོད་འབད་གནང་།"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Example: ldap.yourdomain.local:389"
+msgstr "དཔེར་བརྗོད་:  ldap.yourdomain.local:389"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Base DN of the LDAP server:"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་འདི་གི་ གཞི་རྟེན་ཌི་ཨེན་:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "In order to access the LDAP server, please specify the base gnarwl should use for LDAP queries."
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་འདི་འཛུལ་སྤྱོད་འབད་ནིའི་དོན་ལས་ གཞི་རྟེན་ཇི་ནརལ་འདི་ ཨེལ་ཌི་ཨེ་པི་འདྲི་དཔྱད་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་དགོཔ་འབད་ གསལ་བཀོད་འབད་གནང་།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Example: dc=yourdomain,dc=somewhere"
+msgstr "དཔེར་བརྗོད་: ཌི་སི་=ཁྱོད་རའི་ཌོ་མེན་  ཌི་སི་=ག་ཏེ་འབད་རུང་"
+

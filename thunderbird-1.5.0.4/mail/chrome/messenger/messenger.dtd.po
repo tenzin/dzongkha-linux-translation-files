@@ -1,0 +1,1618 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/messenger.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: messenger.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-14 12:04+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: messengerWindow.title
+msgid "Mail &amp; Newsgroups"
+msgstr "ཡིག་འཕྲིན་ &amp; གནས་ཚུལ་སྡེ་ཚན་ཚུ་"
+
+#: titledefault.label
+msgid "&brandFullName;"
+msgstr "&brandFullName;"
+
+#: titleSeparator.label
+msgid " - "
+msgstr " - "
+
+# File Menu
+#: newFolderCmd.label
+#: newFolderCmd.accesskey
+msgid "&Folder..."
+msgstr "སྣོད་འཛིན་་་་(&F)"
+
+#: newVirtualFolderCmd.label
+#: newVirtualFolderCmd.accesskey
+msgid "&Saved Search..."
+msgstr "བསྲུངས་ཏེ་ཡོད་པའི་འཚོལ་ཞིབ་་་(&S)"
+
+#: newAccountCmd.label
+#: newAccountCmd.accesskey
+msgid "&Account..."
+msgstr "རྩིས་ཐོ་་་་(&A)"
+
+#: openMessageMenu.label
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#: openMessageFileCmd.label
+#: openMessageFileCmd.accesskey
+msgid "&Open Saved Message..."
+msgstr "བསྲུངས་ཏེ་ཡོད་པའི་འཕྲིན་དོན་ཁ་ཕྱེ་་་་(&O)"
+
+#: openAttachmentCmd.label
+#: openAttachmentCmd.accesskey
+#: sortByAttachmentsCmd.label
+#: sortByAttachmentsCmd.accesskey
+msgid "&Attachments"
+msgstr "མཉམ་སྦྲགས་ཚུ་(&A)"
+
+#: saveAsMenu.label
+#: saveAsMenu.accesskey
+msgid "&Save As"
+msgstr "དེ་སྦེ་སྲུངས་(&S)"
+
+#: saveAsFileCmd.label
+#: saveAsFileCmd.accesskey
+msgid "&File"
+msgstr "སྣོད་འཛིན་(&F)"
+
+#: saveAsFileCmd.key
+msgid "s"
+msgstr "s"
+
+#: saveAsTemplateCmd.label
+#: saveAsTemplateCmd.accesskey
+msgid "&Template"
+msgstr "ཊེམ་པེལེཊི་(&T)"
+
+#: getNewMsgCmd.label
+#: getNewMsgCmd.accesskey
+msgid "&Get New Messages"
+msgstr "འཕྲིན་དོན་གསརཔ་ཚུ་ལེན་(&G)"
+
+#: getNewMsgCmd.key
+#: getAllNewMsgCmd.key
+#: nextUnreadThreadCmd.key
+msgid "t"
+msgstr "t"
+
+#: getNewMsgForCmd.label
+#: getNewMsgForCmd.accesskey
+msgid "Get Ne&w Messages for"
+msgstr "གི་དོན་ལུ་ འཕྲིན་དོན་ལུ་འཕྲིན་དོན་གསརཔ་ལེན་(&w)"
+
+#: getAllNewMsgCmd.label
+msgid "Get All New Messages"
+msgstr "འཕྲིན་དོན་གསརཔ་ཆ་མཉམ་ལེན་"
+
+#: getNextNMsgCmd.label
+#: getNextNMsgCmd.accesskey
+msgid "Ge&t Next 500 News Messages"
+msgstr "ཤུལ་མའི་འཕྲིན་དོན་གསརཔ་ ༥༠༠ ལེན་(&t)"
+
+#: sendUnsentCmd.label
+#: sendUnsentCmd.accesskey
+msgid "Sen&d Unsent Messages"
+msgstr "མ་བཏང་པར་ཡོད་མི་ འཕྲིན་དོན་ཚུ་གཏང་(&d)"
+
+#: loadFirstDraft.label
+msgid "Load First Draft Message"
+msgstr "འཕྲིན་དོན་གྱི་ཟིན་འབྲི་དང་པ་ མངོན་གསལ་འབད་"
+
+#: subscribeCmd.label
+#: subscribeCmd.accesskey
+#: folderContextSubscribe.label
+#: folderContextSubscribe.accesskey
+msgid "Su&bscribe..."
+msgstr "མཁོ་མངགས་འབད་་་་(&b)"
+
+#: renameFolder.label
+#: renameFolder.accesskey
+msgid "&Rename Folder..."
+msgstr "སྣོད་འཛིན་ལུ་བསྐྱར་མིང་བཏགས་་་(&R)"
+
+#: renameFolder.key
+msgid "VK_F2"
+msgstr "ཝི་ཀེ་ F2"
+
+#: compactFolders.label
+msgid "Compact Folders"
+msgstr "སྲབ་ཆུང་སྣོད་འཛིན་ཚུ་"
+
+#: compactFolder.accesskey
+#: previousFlaggedMsgCmd.accesskey
+msgid "F"
+msgstr "F"
+
+#: emptyTrashCmd.label
+#: emptyTrashCmd.accesskey
+#: folderContextEmptyTrash.label
+#: folderContextEmptyTrash.accesskey
+msgid "Empt&y Trash"
+msgstr "ཕྱགས་ཧོད་སྟོངམ་བཏོན་(&y)"
+
+#: importCmd.label
+#: importCmd.accesskey
+msgid "&Import..."
+msgstr "ནང་འདྲེན་་་(&I)"
+
+#: printCmd.label
+#: printCmd.accesskey
+#: contextPrint.label
+#: contextPrint.accesskey
+msgid "&Print..."
+msgstr "དཔར་བསྐྲུན་འབད་་་(&P)"
+
+#: printCmd.key
+#: previousUnreadMsgCmd.key
+msgid "p"
+msgstr "p"
+
+#: printPreviewCmd.label
+#: printPreviewCmd.accesskey
+msgid "Print Pre&view"
+msgstr "དཔར་བསྐྲུན་སྔོན་ལྟ་(&v)"
+
+#: printPreviewCmd.key
+msgid "v"
+msgstr "v"
+
+#: printSetupCmd.label
+#: printSetupCmd.accesskey
+msgid "Page Set&up..."
+msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་(&u)"
+
+# Edit Menu
+#: deleteMsgCmd.label
+#: deleteMsgCmd.accesskey
+msgid "&Delete Message"
+msgstr "འཕྲིན་དོན་བཏོན་གཏང་(&D)"
+
+#: undeleteMsgCmd.label
+#: undeleteMsgCmd.accesskey
+msgid "Un&delete Message"
+msgstr "འཕྲིན་དོན་བཏོན་གཏང་ནི་བཤོལ་(&d)"
+
+#: cancelNewsMsgCmd.label
+#: cancelNewsMsgCmd.accesskey
+msgid "Cancel &Message"
+msgstr "འཕྲིན་དོན་ཆ་མེད་གཏང་(&M)"
+
+#: deleteMsgsCmd.label
+#: deleteMsgsCmd.accesskey
+msgid "&Delete Selected Messages"
+msgstr "སེལ་འཐུ་འབད་མི་ འཕྲིན་དོན་ཚུ་བཏོན་གཏང་(&D)"
+
+#: undeleteMsgsCmd.label
+#: undeleteMsgsCmd.accesskey
+msgid "Un&delete Selected Messages"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་ཚུ་ བཏོན་གཏང་ནི་བཤོལ་(&d)"
+
+#: cancelNewsMsgsCmd.label
+#: cancelNewsMsgsCmd.accesskey
+msgid "Ca&ncel Selected Messages"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་ཚུ་ ཆ་མེད་གཏང་(&n)"
+
+#: deleteFolderCmd.label
+#: deleteFolderCmd.accesskey
+msgid "&Delete Folder"
+msgstr "སྣོད་འཛིན་བཏོན་གཏང་(&D)"
+
+#: unsubscribeNewsgroupCmd.label
+#: unsubscribeNewsgroupCmd.accesskey
+msgid "U&nsubscribe"
+msgstr "མཁོ་མངགས་འབད་ནི་བཤོལ་(&n)"
+
+#: selectMenu.label
+#: selectMenu.accesskey
+msgid "&Select"
+msgstr "སེལ་འཐུ་འབད་(&S)"
+
+#: all.label
+#: all.accesskey
+#: viewAll.label
+#: viewAll.accesskey
+#: allMsgsCmd.label
+#: allMsgsCmd.accesskey
+#: headersAllCmd.label
+#: headersAllCmd.accesskey
+msgid "&All"
+msgstr "ཆ་མཉམ་(&A)"
+
+#: selectThreadCmd.label
+#: selectThreadCmd.accesskey
+msgid "&Thread"
+msgstr "ཐེརེཌི་(&T)"
+
+#: selectThreadCmd.key
+msgid "a"
+msgstr "a"
+
+#: filtersCmd.label
+#: filtersCmd.accesskey
+msgid "Message &Filters..."
+msgstr "འཕྲིན་དོན་ཚགས་མ་ཚུ་་་(&F)"
+
+#: filtersApply.label
+#: filtersApply.accesskey
+msgid "&Run Filters on Folder"
+msgstr "སྣོད་འཛིན་གུ་ ཚགས་མ་གཡོག་བཀོལ་(&R)"
+
+#: folderPropsCmd.label
+#: folderPropsCmd.accesskey
+msgid "Pr&operties..."
+msgstr "རྒྱུ་དངོས་ཚུ་་་་(&o)"
+
+#: folderPropsFolderCmd.label
+msgid "Folder Properties..."
+msgstr "སྣོད་འཛིན་གྱི་རྒྱུ་དངོས་ཚུ་་་་"
+
+#: folderPropsNewsgroupCmd.label
+msgid "Newsgroup Properties..."
+msgstr "གནས་ཚུལ་སྡེ་ཚན་གྱི་རྒྱུ་དངོས་ཚུ་་་་"
+
+#: accountManagerCmd.label
+#: accountManagerCmd.accesskey
+msgid "A&ccount Settings..."
+msgstr "རྩིས་ཐོའི་སྒྲིག་སྟངས་་་་(&c)"
+
+#: accountManagerCmdUnix.accesskey
+msgid "A"
+msgstr "A"
+
+#: undoDeleteMsgCmd.label
+msgid "Undo Delete Message"
+msgstr "འཕྲིན་དོན་བཏོན་གཏང་བཤོལ་"
+
+#: redoDeleteMsgCmd.label
+msgid "Redo Delete Message"
+msgstr "འཕྲིན་དོན་བཏོན་གཏང་ནི་ལོག་འབད་"
+
+#: undoMoveMsgCmd.label
+msgid "Undo Move Message"
+msgstr "འཕྲིན་དོན་སྤོ་བཤུད་འབད་ནི་བཤོལ་"
+
+#: redoMoveMsgCmd.label
+msgid "Redo Move Message"
+msgstr "འཕྲིན་དོན་སྤོ་བཤུད་འབད་ནི་ལོག་འབད་"
+
+#: undoCopyMsgCmd.label
+msgid "Undo Copy Message"
+msgstr "འཕྲིན་དོན་འདྲ་བཤུས་བརྐྱབ་ནི་བཤོལ་"
+
+#: redoCopyMsgCmd.label
+msgid "Redo Copy Message"
+msgstr "འཕྲིན་དོན་འདྲ་བཤུས་བརྐྱབ་ནི་ལོག་འབད་"
+
+#: undoDefaultCmd.label
+#: undoDefaultCmd.accesskey
+msgid "&Undo"
+msgstr "བཤོལ་(&U)"
+
+#: redoDefaultCmd.label
+#: redoDefaultCmd.accesskey
+msgid "&Redo"
+msgstr "ལོག་འབད་(&R)"
+
+#: editDraftCmd.label
+#: editDraftCmd.accesskey
+msgid "Edit Dra&ft"
+msgstr "ཟིན་འབྲི་ཞུན་དག་རྐྱབས་(&f)"
+
+# View Menu
+#: showMessengerToolbarCmd.label
+#: showMessengerToolbarCmd.accesskey
+msgid "Mail T&oolbar"
+msgstr "ཡིག་འཕྲིན་གྱི་ལག་ཆས་ཕྲ་རིང་(&o)"
+
+#: showSearchToolbarCmd.label
+#: showSearchToolbarCmd.accesskey
+msgid "S&earch Bar"
+msgstr "འཚོལ་ཞིབ་ཕྲ་རིང་(&e)"
+
+#: customizeToolbar.label
+#: customizeToolbar.accesskey
+#: viewCustomView.label
+#: viewCustomView.accesskey
+msgid "&Customize..."
+msgstr "སྲོལ་སྒྲིག་འབད་་་་(&C)"
+
+# Layout Style Menu
+#: messagePaneLayoutStyle.label
+#: messagePaneLayoutStyle.accesskey
+msgid "&Layout"
+msgstr "སྒྲིག་བཀོད་(&L)"
+
+#: messagePaneClassic.label
+#: messagePaneClassic.accesskey
+msgid "&Classic View"
+msgstr "ཀ་ལ་སིཀ་ མཐོང་སྣང་།(&C)"
+
+#: messagePaneWide.label
+#: messagePaneWide.accesskey
+msgid "&Wide View"
+msgstr "རྒྱ་ཅན་མཐོང་སྣང་(&W)"
+
+#: messagePaneVertical.label
+#: messagePaneVertical.accesskey
+msgid "&Vertical View"
+msgstr "ཀེར་ཕྲང་མཐོང་སྣང་(&V)"
+
+#: showMessageCmd.label
+#: showMessageCmd.accesskey
+msgid "&Message Pane"
+msgstr "འཕྲིན་དོན་པེན་(&M)"
+
+# Sort Menu
+#: sortMenu.label
+#: sortMenu.accesskey
+msgid "&Sort by"
+msgstr "དབྱེ་སེལ་འབད་(&S)"
+
+#: sortByDateCmd.label
+#: sortByDateCmd.accesskey
+msgid "Dat&e"
+msgstr "ཚེས་གྲངས་ཐོག་ལས་(&e)"
+
+#: sortByFlagCmd.label
+#: sortByFlagCmd.accesskey
+#: markFlaggedCmd.label
+#: markFlaggedCmd.accesskey
+msgid "&Flag"
+msgstr "ཟུར་རྟགས་ཐོག་ལས་(&F)"
+
+#: sortByPriorityCmd.label
+#: sortByPriorityCmd.accesskey
+msgid "&Priority"
+msgstr "གཙོ་རིམ་ཐོག་ལས་(&P)"
+
+#: sortBySizeCmd.label
+#: sortBySizeCmd.accesskey
+msgid "Si&ze"
+msgstr "ཚད་ཀྱི་ཐོག་ལས་(&z)"
+
+#: sortByStatusCmd.label
+#: sortByStatusCmd.accesskey
+msgid "Stat&us"
+msgstr "གནས་ཚད་ཐོག་ལས་(&u)"
+
+#: sortByLabelCmd.label
+#: sortByLabelCmd.accesskey
+#: labelMenu.label
+#: labelMenu.accesskey
+msgid "&Label"
+msgstr "ཁ་ཡིག་ཐོག་ལས་(&L)"
+
+#: sortByJunkStatusCmd.label
+#: sortByJunkStatusCmd.accesskey
+msgid "&Junk Status"
+msgstr "མཁོ་མེད་གནས་ཚད་(&J)"
+
+#: sortBySubjectCmd.label
+#: sortBySubjectCmd.accesskey
+msgid "&Subject"
+msgstr "དོན་ཚན་(&S)"
+
+#: sortBySenderCmd.label
+#: sortBySenderCmd.accesskey
+msgid "Se&nder"
+msgstr "གཏང་མི་(&n)"
+
+#: sortByRecipientCmd.label
+#: sortByRecipientCmd.accesskey
+msgid "Re&cipient"
+msgstr "ཐོབ་མཁན་(&c)"
+
+#: sortByUnreadCmd.label
+#: sortByUnreadCmd.accesskey
+msgid "&Read"
+msgstr "ལྷག་(&R)"
+
+#: sortByOrderReceivedCmd.label
+#: sortByOrderReceivedCmd.accesskey
+msgid "&Order Received"
+msgstr "བཀོད་རྒྱ་ཐོབ་ཅི།(&O)"
+
+#: sortAscending.label
+#: sortAscending.accesskey
+msgid "&Ascending"
+msgstr "ཡར་འཛེགས་(&A)"
+
+#: sortDescending.label
+#: sortDescending.accesskey
+msgid "&Descending"
+msgstr "མར་འབབ་(&D)"
+
+#: sortThreaded.label
+#: sortThreaded.accesskey
+msgid "&Threaded"
+msgstr "ཐེརེཌི་འབད་འབདཝ་(&T)"
+
+#: sortUnthreaded.label
+#: sortUnthreaded.accesskey
+msgid "Unt&hreaded"
+msgstr "ཐེརེཌི་མ་འབདཝ་(&h)"
+
+#: groupBySort.label
+#: groupBySort.accesskey
+msgid "&Grouped By Sort"
+msgstr "དབྱེ་སེལ་ཐོག་ལས་སྡེ་ཚན་བཟོ་ཡོདཔ་(&G)"
+
+#: groupBySortCmd.key
+msgid "G"
+msgstr "G"
+
+#: msgsMenu.label
+#: msgsMenu.accesskey
+msgid "&Messages"
+msgstr "འཕྲིན་དོན་ཚུ་(&M)"
+
+#: viewUnread.label
+#: viewUnread.accesskey
+#: unreadMsgsCmd.label
+#: unreadMsgsCmd.accesskey
+msgid "&Unread"
+msgstr "མ་ལྷགཔ་(&U)"
+
+#: threads.label
+#: threads.accesskey
+msgid "Thr&eads"
+msgstr "ཐེརེཌི་ཚུ་(&e)"
+
+#: expandOrCollapseMenu.label
+#: expandOrCollapseMenu.accesskey
+msgid "E&xpand/Collapse"
+msgstr "རྒྱ་འཕར་/ཧྲམ་(&x)"
+
+#: expandAllThreadsCmd.label
+#: expandAllThreadsCmd.accesskey
+msgid "&Expand All Threads"
+msgstr "ཐེརེཌི་ཆ་མཉམ་རྒྱ་འཕར་(&E)"
+
+#: expandAllThreadsCmd.key
+msgid "*"
+msgstr "*"
+
+#: collapseAllThreadsCmd.label
+#: collapseAllThreadsCmd.accesskey
+msgid "&Collapse All Threads"
+msgstr "ཐེརེཌི་ཆ་མཉམ་ཧྲམ་(&C)"
+
+#: collapseAllThreadsCmd.key
+msgid "\\"
+msgstr "\\"
+
+#: threadsWithUnreadCmd.label
+#: threadsWithUnreadCmd.accesskey
+msgid "&Threads with Unread"
+msgstr "མ་ལྷགཔ་དང་བཅས་པའི་ཐེརེཌི་(&T)"
+
+#: watchedThreadsWithUnreadCmd.label
+#: watchedThreadsWithUnreadCmd.accesskey
+msgid "&Watched Threads with Unread"
+msgstr "མ་ལྷགཔ་དང་བཅས་པའི་ཐེརེཌི་བལྟ་ཡོདཔ།(&W)"
+
+#: ignoredThreadsCmd.label
+#: ignoredThreadsCmd.accesskey
+msgid "&Ignored Threads"
+msgstr "སྣང་མེད་བཞག་ཡོད་པའི་ཐེརེཌི་(&I)"
+
+#: headersMenu.label
+#: headersMenu.accesskey
+msgid "&Headers"
+msgstr "མགོ་ཡིག་(&H)"
+
+#: headersNormalCmd.label
+#: headersNormalCmd.accesskey
+#: textZoomResetCmd.label
+#: textZoomResetCmd.accesskey
+msgid "&Normal"
+msgstr "སྤྱིར་བཏང་(&N)"
+
+#: bodyMenu.label
+#: bodyMenu.accesskey
+msgid "Message &Body As"
+msgstr "འཕྲིན་དོན་མ་གཟུགས་(&B)"
+
+#: bodyAllowHTML.label
+#: bodyAllowHTML.accesskey
+msgid "Original &HTML"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ངོ་མ་སྦེ་(&H)"
+
+#: bodySanitized.label
+#: bodySanitized.accesskey
+msgid "&Simple HTML"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་འཇམ་སམ་སྦེ་(&S)"
+
+#: bodyAsPlaintext.label
+#: bodyAsPlaintext.accesskey
+msgid "&Plain Text"
+msgstr "ཡིག་རྐྱང་(&P)"
+
+#: viewAttachmentsInlineCmd.label
+#: viewAttachmentsInlineCmd.accesskey
+msgid "Display &Attachments Inline"
+msgstr "མཉམ་སྒྲགས་ཚུ་ གྱལ་རིམ་ནང་བཀྲམ་སྟོན་འབད་(&A)"
+
+#: reloadCmd.label
+#: reloadCmd.accesskey
+msgid "&Reload"
+msgstr "སླར་མངོན་གསལ་འབད་(&R)"
+
+#: stopCmd.label
+#: stopCmd.accesskey
+msgid "&Stop"
+msgstr "བཀག་(&S)"
+
+#: textZoomEnlargeCmd.label
+#: textZoomEnlargeCmd.accesskey
+msgid "&Increase"
+msgstr "ཡར་འཕར་(&I)"
+
+#: textZoomEnlargeCmd.commandkey
+msgid "+"
+msgstr "+"
+
+# + is above this key on many keyboards
+#: textZoomEnlargeCmd.commandkey2
+msgid "="
+msgstr "="
+
+#: textZoomReduceCmd.label
+#: textZoomReduceCmd.accesskey
+msgid "&Decrease"
+msgstr "མར་ཕབ་(&D)"
+
+#: textZoomReduceCmd.commandkey
+msgid "-"
+msgstr "-"
+
+#: textZoomResetCmd.commandkey
+#: labelCmd0.accesskey
+#: labelCmd0.key
+msgid "0"
+msgstr "0"
+
+#: textSize.label
+#: textSize.accesskey
+msgid "Te&xt Size"
+msgstr "ཚིག་ཡིག་གི་ཚད་(&x)"
+
+#: pageSourceCmd.label
+#: pageSourceCmd.accesskey
+msgid "Message S&ource"
+msgstr "འཕྲིན་དོན་འབྱུང་ཁུངས་(&o)"
+
+#: pageSourceCmd.key
+msgid "u"
+msgstr "u"
+
+# Search Menu
+#: searchMenu.label
+#: searchMenu.accesskey
+msgid "&Search"
+msgstr "འཚོལ་ཞིབ་(&S)"
+
+#: find.label
+#: find.accesskey
+msgid "&Find"
+msgstr "འཚོལ་(&F)"
+
+#: findCmd.label
+#: findCmd.accesskey
+msgid "&Find in This Message..."
+msgstr "འཕྲིན་དོན་འདི་ནང་འཚོལ་་་་(&F)"
+
+#: findCmd.key
+#: searchMailCmd.key
+#: nextMsgCmd.key
+msgid "f"
+msgstr "f"
+
+#: findAgainCmd.label
+#: findAgainCmd.accesskey
+msgid "Find A&gain"
+msgstr "ལོག་སྟེ་འཚོལ་(&g)"
+
+#: findAgainCmd.key
+#: findPrevCmd.key
+msgid "g"
+msgstr "g"
+
+#: findAgainCmd.key2
+#: findPrevCmd.key2
+msgid "VK_F3"
+msgstr "ཝི་ཀེ་F3(_F)"
+
+#: findPrevCmd.label
+#: findPrevCmd.accesskey
+msgid "Find Pre&vious"
+msgstr "ཧེ་མམ་འཚོལ་(&v)"
+
+#: searchMailCmd.label
+#: searchMailCmd.accesskey
+msgid "Search &Messages..."
+msgstr "འཕྲིན་དོན་ཚུ་འཚོལ་ཞིབ་འབད་་་་(&M)"
+
+#: searchAddressesCmd.label
+#: searchAddressesCmd.accesskey
+msgid "&Search Addresses..."
+msgstr "ཁ་བྱང་ཚུ་འཚོལ་ཞིབ་འབད་་་(&S)"
+
+# Go Menu
+#: goMenu.label
+#: goMenu.accesskey
+msgid "&Go"
+msgstr "འགྱོ་(&G)"
+
+#: nextMenu.label
+#: nextMenu.accesskey
+msgid "&Next"
+msgstr "ཤུལ་མམ་(&N)"
+
+#: nextMsgCmd.label
+#: nextMsgCmd.accesskey
+#: prevMsgCmd.label
+#: prevMsgCmd.accesskey
+#: msgMenu.label
+#: msgMenu.accesskey
+#: newNewMsgCmd.label
+#: newNewMsgCmd.accesskey
+msgid "&Message"
+msgstr "འཕྲིན་དོན་(&M)"
+
+#: nextUnreadMsgCmd.label
+#: nextUnreadMsgCmd.accesskey
+#: prevUnreadMsgCmd.label
+#: prevUnreadMsgCmd.accesskey
+msgid "&Unread Message"
+msgstr "མ་ལྷག་པའི་འཕྲིན་དོན་(&U)"
+
+#: nextUnreadMsgCmd.key
+msgid "n"
+msgstr "n"
+
+#: nextFlaggedMsgCmd.label
+#: nextFlaggedMsgCmd.accesskey
+msgid "&Flagged Message"
+msgstr "ཟུར་རྟགས་བཀལ་ཡོད་པའི་འཕྲིན་དོན་(&F)"
+
+#: nextUnflaggedMsgCmd.label
+msgid "Unflagged Message"
+msgstr "ཟུར་རྟགས་མ་བཀལ་བའི་འཕྲིན་དོན་"
+
+#: nextUnreadThread.label
+msgid "Unread Thread"
+msgstr "མ་ལྷག་པའི་ཐེརེཌི་"
+
+#: nextUnreadThreadCmd.accesskey
+msgid "T"
+msgstr "T"
+
+#: prevMenu.label
+#: prevMenu.accesskey
+msgid "&Previous"
+msgstr "ཧེ་མམ་(&P)"
+
+#: previousMsgCmd.key
+msgid "b"
+msgstr "b"
+
+#: previousMsgCmd.accesskey
+msgid "M"
+msgstr "M"
+
+#: previousUnreadMsgCmd.accesskey
+msgid "U"
+msgstr "U"
+
+#: prevFlaggedMsgCmd.label
+msgid "Flagged Message"
+msgstr "ཟུར་རྟགས་བཀལ་ཡོད་པའི་འཕྲིན་དོན་"
+
+#: startPageCmd.label
+#: startPageCmd.accesskey
+msgid "Mail &Start Page"
+msgstr "ཡིག་འཕྲིན་འགོ་བཙུགས་ཤོག་ལེབ་(&S)"
+
+#: newMsgCmd.label
+#: newMsgCmd.accesskey
+msgid "&New Message"
+msgstr "འཕྲིན་དོན་གསརཔ་(&N)"
+
+#: replyMsgCmd.label
+#: replyMsgCmd.accesskey
+msgid "&Reply"
+msgstr "ལན་གསལ་(&R)"
+
+#: replyMsgCmd.key
+#: replyToAllMsgCmd.key
+#: markThreadAsReadCmd.key
+msgid "r"
+msgstr "r"
+
+#: replySenderCmd.label
+#: replySenderCmd.accesskey
+#: contextReplySender.label
+#: contextReplySender.accesskey
+msgid "&Reply to Sender Only"
+msgstr "གཏང་མི་ལུ་རྐྱངམ་གཅིག་ལན་གསལ་གཏང་(&R)"
+
+#: replyNewsgroupCmd.label
+#: replyNewsgroupCmd.accesskey
+#: contextReplyNewsgroup.label
+#: contextReplyNewsgroup.accesskey
+msgid "Repl&y to Newsgroup"
+msgstr "གནས་ཚུལ་སྡེ་ཚན་ལུ་ལན་གསལ་གཏང་(&y)"
+
+#: replyToAllMsgCmd.label
+#: replyToAllMsgCmd.accesskey
+msgid "Re&ply to All"
+msgstr "ཆ་མཉམ་ལུ་ལན་གསལ་གཏང་(&p)"
+
+#: forwardMsgCmd.label
+#: forwardMsgCmd.accesskey
+#: contextForward.label
+#: contextForward.accesskey
+msgid "&Forward"
+msgstr "གདོང་བསྐྱོད་(&F)"
+
+#: forwardMsgCmd.key
+msgid "l"
+msgstr "l"
+
+#: forwardAsMenu.label
+#: forwardAsMenu.accesskey
+msgid "F&orward As"
+msgstr "གདོང་བསྐྱོད་འབད་(&o)"
+
+#: forwardAsInline.label
+#: forwardAsInline.accesskey
+msgid "&Inline"
+msgstr "གྱིལ་རིམ་ནང་སྦེ་(&I)"
+
+#: forwardAsAttachmentCmd.label
+#: forwardAsAttachmentCmd.accesskey
+msgid "&Attachment"
+msgstr "མཉམ་སྦྲགས་སྦེ་(&A)"
+
+#: editMsgAsNewCmd.label
+#: editMsgAsNewCmd.accesskey
+msgid "&Edit Message As New"
+msgstr "འཕྲིན་དོན་གསརཔ་སྦེ་ཞུན་དག་རྐྱབས་(&E)"
+
+#: editMsgAsNewCmd.key
+msgid "e"
+msgstr "e"
+
+#: createFilter.label
+#: createFilter.accesskey
+msgid "Cre&ate Filter From Message..."
+msgstr "འཕྲིན་དོན་ནང་ལས་ ཚགས་མ་གསར་བསྐྲུན་འབད་་་(&a)"
+
+#: moveMsgMenu.label
+#: moveMsgMenu.accesskey
+msgid "&Move"
+msgstr "སྤོ་(&M)"
+
+#: copyMessageLocation.label
+#: copyMessageLocation.accesskey
+msgid "Copy &Message Location"
+msgstr "འཕྲིན་དོན་གྱི་གནས་ཁོངས་འདྲ་བཤུས་རྐྱབས་(&M)"
+
+#: copyMsgMenu.label
+#: copyMsgMenu.accesskey
+msgid "&Copy"
+msgstr "འདྲ་བཤུས་(&C)"
+
+#: killThreadMenu.label
+#: killThreadMenu.accesskey
+msgid "&Ignore Thread"
+msgstr "སྣང་མེད་བཞག་(&I)"
+
+# Search Bar
+#: killThreadMenu.key
+#: quickSearchCmd.key
+msgid "k"
+msgstr "k"
+
+#: watchThreadMenu.label
+#: watchThreadMenu.accesskey
+msgid "&Watch Thread"
+msgstr "ཐེརེཌི་ལུ་བལྟ།(&W)"
+
+#: watchThreadMenu.key
+msgid "w"
+msgstr "w"
+
+#: fileHereMenu.label
+#: fileHereMenu.accesskey
+msgid "&File Here"
+msgstr "ནཱ་ལུ་ཡིག་སྣོད་ནང་བཙུགས་(&F)"
+
+#: copyHereMenu.label
+#: copyHereMenu.accesskey
+msgid "&Copy Here"
+msgstr "ནཱ་ལུ་འདྲ་བཤུས་རྐྱབས་(&C)"
+
+#: labelCmd1.label
+#: labelCmd1.accesskey
+msgid "&1"
+msgstr "༡་(&1)"
+
+#: labelCmd1.key
+#: messengerCmd.commandkey
+msgid "1"
+msgstr "༡་"
+
+#: labelCmd2.label
+#: labelCmd2.accesskey
+msgid "&2"
+msgstr "༢་(&2)"
+
+#: labelCmd2.key
+#: addressBookCmd.commandkey
+msgid "2"
+msgstr "༢་"
+
+#: labelCmd3.label
+#: labelCmd3.accesskey
+msgid "&3"
+msgstr "༣་(&3)"
+
+#: labelCmd3.key
+msgid "3"
+msgstr "༣་"
+
+#: labelCmd4.label
+#: labelCmd4.accesskey
+msgid "&4"
+msgstr "༤་(&4)"
+
+#: labelCmd4.key
+msgid "4"
+msgstr "༤་"
+
+#: labelCmd5.label
+#: labelCmd5.accesskey
+msgid "&5"
+msgstr "༥་(&5)"
+
+#: labelCmd5.key
+msgid "5"
+msgstr "༥་"
+
+#: markMenu.label
+#: markMenu.accesskey
+msgid "Mar&k"
+msgstr "རྟགས་བཀལ་(&k)"
+
+#: markAsReadCmd.label
+#: markAsReadCmd.accesskey
+msgid "As &Read"
+msgstr "ལྷག་ཡོད་སྦེ་(&R)"
+
+# Mac OS X Window Menu
+#: markAsReadCmd.key
+#: minimizeWindow.key
+msgid "m"
+msgstr "m"
+
+#: markAsUnreadCmd.label
+#: markAsUnreadCmd.accesskey
+msgid "As &Unread"
+msgstr "མ་ལྷགཔ་སྦེ་(&U)"
+
+#: markThreadAsReadCmd.label
+#: markThreadAsReadCmd.accesskey
+msgid "&Thread As Read"
+msgstr "ལྷག་ཡོདཔ་སྦེ་ ཐེརེཌི་འབད་(&T)"
+
+#: markReadByDateCmd.label
+#: markReadByDateCmd.accesskey
+msgid "As Read by &Date..."
+msgstr "ཚེས་གྲངས་ཐོག་ལས་ལྷག་ཡོདཔ་སྦེ་(&D)"
+
+#: markReadByDateCmd.key
+#: markAllReadCmd.key
+msgid "c"
+msgstr "c"
+
+#: markAllReadCmd.label
+#: markAllReadCmd.accesskey
+msgid "&All Read"
+msgstr "ཆ་མཉམ་ལྷག་ཡོདཔ་(&A)"
+
+#: markFlaggedCmd.key
+msgid "i"
+msgstr "i"
+
+#: markAsJunkCmd.label
+#: markAsJunkCmd.accesskey
+msgid "As &Junk"
+msgstr "མཁོ་མེད་སྦེ་(&J)"
+
+#: markAsJunkCmd.key
+#: markAsNotJunkCmd.key
+msgid "j"
+msgstr "j"
+
+#: markAsNotJunkCmd.label
+#: markAsNotJunkCmd.accesskey
+msgid "As &Not Junk"
+msgstr "མཁོ་ཅན་སྦེ་(&N)"
+
+#: recalculateJunkScoreCmd.label
+#: recalculateJunkScoreCmd.accesskey
+msgid "Run Junk Mail &Controls"
+msgstr "མཁོ་མེད་ཡིག་འཕྲིན་ཚད་འཛིན་ཚུ་གཡོག་བཀོལ་(&C)"
+
+#: openMessageWindowCmd.label
+#: openMessageWindowCmd.accesskey
+msgid "&Open Message"
+msgstr "འཕྲིན་དོན་ཁ་ཕྱེ་(&O)"
+
+#: openMessageWindowCmd.key
+msgid "o"
+msgstr "o"
+
+# Windows Menu
+#: windowMenu.label
+#: windowMenu.accesskey
+msgid "&Window"
+msgstr "སྒོ་སྒྲིག་(&W)"
+
+# Tools Menu
+#: tasksMenu.label
+#: tasksMenu.accesskey
+msgid "&Tools"
+msgstr "ལག་ཆས་(&T)"
+
+#: extensions.label
+#: extensions.accesskey
+msgid "&Extensions"
+msgstr "རྒྱ་བསྐྱེད་ཚུ་(&E)"
+
+#: extensions.tooltip
+msgid "Show and Manage installed Extensions"
+msgstr "གཞི་བཙུགས་འབད་ཡོད་པའི་རྒྱ་བསྐྱེད་ཚུ་སྟོན་ཞིནམ་ལས་འཛིན་སྐྱོང་འཐབ།"
+
+#: themes.label
+#: themes.accesskey
+msgid "&Themes"
+msgstr "བརྗོད་དོན་ཚུ་(&T)"
+
+#: themes.tooltip
+msgid "Change the Theme"
+msgstr "བརྗོད་དོན་སོར་"
+
+#: messengerCmd.label
+#: messengerCmd.accesskey
+msgid "&Mail &amp; Newsgroups"
+msgstr "ཡིག་འཕྲིན་&amp; གནས་ཚུལ་སྡེ་ཚན་ཚུ་(&M)"
+
+#: addressBookCmd.label
+#: addressBookCmd.accesskey
+msgid "&Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་(&A)"
+
+#: junkMailCmd.label
+#: junkMailCmd.accesskey
+msgid "&Junk Mail Controls..."
+msgstr "མཁོ་མེད་ཡིག་འཕྲིན་ཚད་འཛིན་ཚུ་་་་(&J)"
+
+#: runJunkControls.label
+#: runJunkControls.accesskey
+msgid "R&un Junk Mail Controls on Folder"
+msgstr "སྣོད་འཛིན་གུ་ མོཁ་མེད་ཡིག་འཕྲིན་ཚད་འཛིན་ཚུ་གཡོག་བཀོལ་(&u)"
+
+#: deleteJunk.label
+#: deleteJunk.accesskey
+msgid "De&lete Mail Marked as Junk in Folder"
+msgstr "སྣོད་འཛིན་ནང་མཁོ་མེད་སྦེ་རྟགས་བཀལ་ཡོད་མི་ཡིག་འཕྲིན་དེ་བཏོན་གཏང་(&l)"
+
+#: javaScriptConsoleCmd.label
+#: javaScriptConsoleCmd.accesskey
+msgid "JavaScript Co&nsole"
+msgstr "ཇ་བ་ཡིག་ཚུགས་ཀྱི་མ་སྒྲོམ་(&n)"
+
+# Help Menu
+#: helpMenu.label
+#: helpMenu.accesskey
+msgid "&Help"
+msgstr "གྲོགས་རམ་(&H)"
+
+#: releaseCmd.label
+#: releaseCmd.accesskey
+msgid "&Release Notes"
+msgstr "དྲན་འཛིན་ཚུ་འཛིན་འགྲོལ་འབད་(&R)"
+
+#: hintsAndTips.label
+#: hintsAndTips.accesskey
+msgid "&brandFullName; &Help"
+msgstr "&brandFullName; གྲོགས་རམ་(&H)"
+
+#: hintsAndTipsMac.commandkey
+#: junkInfoButton.label
+msgid "?"
+msgstr "?"
+
+#: updateCmd.label
+#: updateCmd.accesskey
+msgid "Check f&or Updates..."
+msgstr "དུས་མཐུན་གྱི་དོན་ལུ་ཞིབ་དཔྱད་འབད་་་(&o)"
+
+#: aboutCmd.label
+#: aboutCmd.accesskey
+msgid "&About &brandFullName;"
+msgstr "&brandFullName; སྐོར་ལས་(&A)"
+
+# Mail Toolbar
+#: getMsgButton.label
+msgid "Get Mail"
+msgstr "ཡིག་འཕྲིན་ལེན་"
+
+#: newMsgButton.label
+msgid "Write"
+msgstr "བྲིས་"
+
+#: replyButton.label
+msgid "Reply"
+msgstr "ལན་གསལ་གཏང་"
+
+#: replyAllButton.label
+msgid "Reply All"
+msgstr "ཆ་མཉམ་ལུ་ལན་གསལ་གཏང་"
+
+#: forwardButton.label
+msgid "Forward"
+msgstr "གདོང་བསྐྱོད་"
+
+#: fileButton.label
+msgid "File"
+msgstr "ཡིག་སྣོད་"
+
+#: nextButton.label
+msgid "Next"
+msgstr "ཤུལ་མམ་"
+
+#: previousButton.label
+msgid "Previous"
+msgstr "ཧེ་མམ་"
+
+#: deleteButton.label
+msgid "Delete"
+msgstr "བཏོན་གཏང་"
+
+#: markButton.label
+msgid "Mark"
+msgstr "རྟགས་བཀལ་"
+
+#: printButton.label
+msgid "Print"
+msgstr "དཔར་བསྐྲུན་"
+
+#: stopButton.label
+msgid "Stop"
+msgstr "བཀག་"
+
+#: throbberItem.title
+msgid "Activity Indicator"
+msgstr "བྱ་བའི་བརྡ་སྟོན་པ་"
+
+#: updatesItem.title
+msgid "Updates"
+msgstr "དུས་མཐུན་ཚུ་"
+
+#: junkButton.label
+msgid "Junk"
+msgstr "མཁོ་མེད་"
+
+#: notJunkButton.label
+msgid "Not Junk"
+msgstr "མཁོ་ཅན་"
+
+#: addressBookButton.label
+msgid "Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་"
+
+# Mail Toolbar Tooltips
+#: advancedButton.tooltip
+msgid "Advanced message search"
+msgstr "མཐོ་རིམ་འཕྲིན་དོན་འཚོལ་ཞིབ་"
+
+#: clearButton.tooltip
+msgid "Clear the search criteria and show all messages"
+msgstr "འཚོལ་ཞིབ་ཁྱད་ཚད་བསལ་ཞིནམ་ལས་ འཕྲིན་དོན་ཆ་མཉམ་སྟོན་"
+
+#: getMsgButton.tooltip
+msgid "Get new messages"
+msgstr "འཕྲིན་དོན་གསརཔ་ཚུ་ལེན་"
+
+#: newMsgButton.tooltip
+msgid "Create a new message"
+msgstr "འཕྲིན་དོན་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: replyButton.tooltip
+msgid "Reply to the message"
+msgstr "འཕྲིན་དོན་ལུ་ལན་གསལ་གཏང་"
+
+#: replyAllButton.tooltip
+msgid "Reply to sender and all recipients"
+msgstr "གཏང་མི་དང་ཐོབ་མཁན་ཆ་མཉམ་ལུ་ལན་གསལ་གཏང་།"
+
+#: forwardButton.tooltip
+msgid "Forward selected message"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་དེ་གདོང་བསྐྱོད་འབད་"
+
+#: fileButton.tooltip
+msgid "File selected message"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་དེ་ ཡིག་སྣོད་ནང་བཙུགས།"
+
+#: nextButton.tooltip
+msgid "Move to the next unread message"
+msgstr "མ་ལྷག་པའི་འཕྲིན་དོན་ཤུལ་མམ་ལུ་སྤོ།"
+
+#: previousButton.tooltip
+msgid "Move to the previous unread message"
+msgstr "མ་ལྷག་པའི་འཕྲིན་དོན་ཧེ་མམ་ལུ་སྤོ།"
+
+#: deleteButton.tooltip
+msgid "Delete selected message or folder"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་ ཡང་ན་ སྣོད་འཛིན་བཏོན་གཏང་།"
+
+#: markButton.tooltip
+msgid "Mark messages"
+msgstr "འཕྲིན་དོན་ཚུ་ལུ་རྟགས་བཀལ་"
+
+#: printButton.tooltip
+msgid "Print this message"
+msgstr "འཕྲིན་དོན་འདི་དཔར་བསྐྲུན་འབད།"
+
+#: stopButton.tooltip
+msgid "Stop the current transfer"
+msgstr "ད་ལྟོའི་གནས་སོར་དེ་བཀག།"
+
+#: throbber.tooltip
+msgid "Go to the &vendorShortName; home page"
+msgstr "&vendorShortName; གི་ཁྱིམ་གྱི་ཤོག་ལེབ་འགྱོ།"
+
+#: junkButton.tooltip
+msgid "Mark the selected messages as junk"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་ཚུ་མཁོམེད་སྦེ་རྟགས་བཀལ།"
+
+#: notJunkButton.tooltip
+msgid "Mark the selected messages as not junk"
+msgstr "སེལ་འཐུ་འབད་མི་འཕྲིན་དོན་ཚུ་ མཁོ་ཅན་སྦེ་རྟགས་བཀལ།"
+
+#: addressBookButton.tooltip
+msgid "Go to the address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ལུ་འགྱོ།"
+
+# Folder Pane
+#: folderPaneHeader.label
+msgid "Folders"
+msgstr "སྣོད་འཛིན་ཚུ་"
+
+#: folderColumn.label
+msgid "Name"
+msgstr "མིང་"
+
+#: folderSizeColumn.label
+#: sizeColumn.label
+msgid "Size"
+msgstr "ཚད་"
+
+# Folder Pane Context Menu
+#: folderContextGetMessages.label
+#: folderContextGetMessages.accesskey
+msgid "&Get Messages for Account"
+msgstr "རྩིས་ཐོའི་དོན་ལུ་འཕྲིན་དོན་ཚུ་ལེན་(&G)"
+
+#: folderContextOpenNewWindow.label
+#: folderContextOpenNewWindow.accesskey
+msgid "Open in New Mail &Window"
+msgstr "ཡིག་འཕྲིན་གྱི་སྒོ་སྒྲིག་གསར་པའི་ནང་ཁ་ཕྱེ།(&W)"
+
+#: folderContextRename.label
+#: folderContextRename.accesskey
+msgid "&Rename"
+msgstr "བསྐྱར་མིང་བཏགས་(&R)"
+
+#: folderContextRemove.label
+#: folderContextRemove.accesskey
+#: contextDelete.label
+#: contextDelete.accesskey
+msgid "&Delete"
+msgstr "བཏོན་གཏང་(&D)"
+
+#: folderContextCompact.label
+#: folderContextCompact.accesskey
+msgid "Compact This &Folder"
+msgstr "སྣོད་འཛིན་འདི་སྲབ་ཆུང་བཟོ།(&F)"
+
+#: folderContextSendUnsentMessages.label
+#: folderContextSendUnsentMessages.accesskey
+msgid "Sen&d Unsent Messages..."
+msgstr "མ་བཏང་པར་ཡོད་མི་འཕྲིན་དོན་ཚུ་གཏང་་་་(&d)"
+
+#: folderContextUnsubscribe.label
+#: folderContextUnsubscribe.accesskey
+msgid "&Unsubscribe"
+msgstr "མཁོ་མངགས་བཤོལ་(&U)"
+
+#: folderContextMarkNewsgroupRead.label
+#: folderContextMarkNewsgroupRead.accesskey
+msgid "Mar&k Newsgroup Read"
+msgstr "གནས་ཚུལ་སྡེ་ཚན་ལྷག་ཡོདཔ་སྦེ་རྟགས་བཀལ།(&k)"
+
+#: folderContextMarkMailFolderRead.label
+#: folderContextMarkMailFolderRead.accesskey
+msgid "Mar&k Folder Read"
+msgstr "སྣོད་འཛིན་ལྷག་ཡོདཔ་སྦེ་རྟགས་བཀལ།(&k)"
+
+#: folderContextNew.label
+#: folderContextNew.accesskey
+msgid "&New Subfolder..."
+msgstr "ཡན་ལག་སྣོད་འཛིན་གསརཔ་་་(&N)"
+
+#: folderContextSearchMessages.label
+#: folderContextSearchMessages.accesskey
+msgid "&Search Messages..."
+msgstr "འཕྲིན་དོན་ཚུ་འཚོལ་ཞིབ་འབད་་་(&S)"
+
+#: folderContextProperties.label
+#: folderContextProperties.accesskey
+msgid "&Properties..."
+msgstr "རྒྱུ་དངོས་ཚུ་་་་(&P)"
+
+#: folderContextCopyLocation.label
+#: folderContextCopyLocation.accesskey
+msgid "&Copy Folder Location"
+msgstr "སྣོད་འཛིན་གནས་ཁོངས་འདྲ་བཤུས་རྐྱབས།(&C)"
+
+# Search Bar
+#: viewPicker.label
+#: viewPicker.accesskey
+msgid "V&iew:"
+msgstr "སྟོན་:(&i)"
+
+#: viewPickerAll.label
+msgid "All"
+msgstr "ཆ་མཉམ་"
+
+#: viewPickerUnread.label
+#: unreadColumn.label
+msgid "Unread"
+msgstr "མ་ལྷགཔ་ཚུ་"
+
+#: viewPickerCustomView.label
+msgid "Customize..."
+msgstr "སྲོལ་སྒྲིག་འབད་་་་"
+
+#: viewPickerSaveAsVirtualFolder.label
+msgid "Save View as a Folder..."
+msgstr "མཐོང་སྣང་དེ་སྣོད་འཛིན་ཅིག་སྦེ་སྲུངས་་་་"
+
+#: SearchNameOrEmail.label
+#: SearchNameOrEmail.accesskey
+msgid "&Name or Email contains:"
+msgstr "མིང་ ཡང་ན་ གློག་འཕྲིན་ནང་འདུག་:(&N)"
+
+#: clearButton.label
+#: clearButton.accesskey
+msgid "&Clear"
+msgstr "བསལ་(&C)"
+
+# Quick Search Menu Bar
+#: searchSubjectMenu.label
+#: subjectColumn.label
+msgid "Subject"
+msgstr "དོན་ཚན་"
+
+#: searchSenderMenu.label
+#: senderColumn.label
+msgid "Sender"
+msgstr "གཏང་མི་"
+
+#: searchSubjectOrSenderMenu.label
+msgid "Subject or Sender"
+msgstr "དོན་ཚན་ ཡང་ན་ གཏང་མི་"
+
+#: searchRecipient.label
+msgid "To or Cc"
+msgstr "གཏང་ཡུལ་ ཡང་ན་ འདྲ་བཤུས་"
+
+#: searchMessageBody.label
+msgid "Entire Message"
+msgstr "འཕྲིན་དོན་ཧྲིལ་བུ་"
+
+#: findInMessageMenu.label
+msgid "Find In Message"
+msgstr "འཕྲིན་དོན་ནང་འཚོལ་"
+
+#: saveAsVirtualFolderMenu.label
+msgid "Save Search as a Folder..."
+msgstr "འཚོལ་ཞིབ་དེ་སྣོད་འཛིན་ཅིག་སྦེ་སྲུངས་་་་"
+
+# Thread Pane
+#: threadColumn.label
+msgid "Thread"
+msgstr "ཐེརེཌི་"
+
+#: recipientColumn.label
+msgid "Recipient"
+msgstr "ཐོབ་མཁན་"
+
+#: dateColumn.label
+msgid "Date"
+msgstr "ཚེས་གྲངས་"
+
+#: priorityColumn.label
+msgid "Priority"
+msgstr "གཙོ་རིམ་"
+
+#: labelColumn.label
+msgid "Label"
+msgstr "ཁ་ཡིག་"
+
+#: accountColumn.label
+msgid "Account"
+msgstr "རྩིས་ཐོ་"
+
+#: statusColumn.label
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: junkStatusColumn.label
+msgid "Junk Status"
+msgstr "མཁོ་མེད་གནས་ཚད་"
+
+#: linesColumn.label
+msgid "Lines"
+msgstr "གྱལ་རིམ་"
+
+#: totalColumn.label
+msgid "Total"
+msgstr "བསྡོམས་"
+
+#: readColumn.label
+msgid "Read"
+msgstr "ལྷག་"
+
+#: flagColumn.label
+msgid "Flag"
+msgstr "ཟུར་རྟགས་"
+
+#: locationColumn.label
+msgid "Location"
+msgstr "གནས་ཁོངས་"
+
+#: idColumn.label
+msgid "Order Received"
+msgstr "བཀོད་རྒྱ་ཐོབ་ཡོདཔ་"
+
+#: attachmentColumn.label
+msgid "Attachments"
+msgstr "མཉམ་སྦྲགས་ཚུ་"
+
+# Thread Pane Tooltips
+#: columnChooser.tooltip
+msgid "Click to select columns to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནིའི་ ཀེར་ཐིག་ཚུ་སེལ་འཐུ་འབད་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: threadColumn.tooltip
+msgid "Click to display message threads"
+msgstr "འཕྲིན་དོན་ཐེརེཌི་ བཀྲམ་སྟོན་འབད་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: senderColumn.tooltip
+msgid "Click to sort by sender"
+msgstr "གཏང་མི་གི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: recipientColumn.tooltip
+msgid "Click to sort by recipient"
+msgstr "ཐོབ་མཁན་གྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: subjectColumn.tooltip
+msgid "Click to sort by subject"
+msgstr "དོན་ཚན་གྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: dateColumn.tooltip
+msgid "Click to sort by date"
+msgstr "ཚེས་གྲངས་ཀྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: priorityColumn.tooltip
+msgid "Click to sort by priority"
+msgstr "གཙོ་རིམ་གྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: labelColumn.tooltip
+msgid "Click to sort by label"
+msgstr "ཁ་ཡིག་གི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: accountColumn.tooltip
+msgid "Click to sort by account"
+msgstr "རྩིས་ཐོའི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: statusColumn.tooltip
+msgid "Click to sort by status"
+msgstr "གནས་སྟངས་ཀྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: sizeColumn.tooltip
+msgid "Click to sort by size"
+msgstr "ཚད་ཀྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: junkStatusColumn.tooltip
+msgid "Click to sort by junk status"
+msgstr "མཁོ་མེད་གནས་ཚད་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེལ་གཏང་འབད།"
+
+#: unreadColumn.tooltip
+msgid "Number of unread messages in thread"
+msgstr "ཐེརེཌི་ནང་ མ་ལྷག་པའི་འཕྲིན་དོན་གྱི་གྱངས་ཁ།"
+
+#: totalColumn.tooltip
+msgid "Total number of messages in thread"
+msgstr "ཐེརེཌི་ནང་ འཕྲིན་དོན་གྱི་གྱངས་ཁའི་བསྡོམས།"
+
+#: readColumn.tooltip
+msgid "Click to sort by read"
+msgstr "ལྷག་ནིའི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: flagColumn.tooltip
+msgid "Click to sort by flag"
+msgstr "ཟུར་རྟགས་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: locationColumn.tooltip
+msgid "Click to sort by location"
+msgstr "གནས་ཁོངས་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེལ་གཏང་འབད།"
+
+#: idColumn.tooltip
+msgid "Click to sort by order received"
+msgstr "འབྱོར་བའི་བཀོད་རྒྱའི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+#: attachmentColumn.tooltip
+msgid "Click to sort by attachments"
+msgstr "མཉམ་སྦྲགས་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ཨེབ་གཏང་འབད།"
+
+# Thread Pane Context Menu
+#: contextOpenNewWindow.label
+#: contextOpenNewWindow.accesskey
+msgid "Open Message in New &Window"
+msgstr "འཕྲིན་དོན་སྒོ་སྒྲིག་གསར་པའི་ནང་ཁ་ཕྱེ།(&W)"
+
+#: contextEditAsNew.label
+#: contextEditAsNew.accesskey
+msgid "&Edit As New..."
+msgstr "གསརཔ་སྦེ་ཞུན་དག་རྐྱབས་་་(&E)"
+
+#: contextReplyAll.label
+#: contextReplyAll.accesskey
+msgid "Reply to &All"
+msgstr "ཆ་མཉམ་ལུ་ལན་གསལ་གཏང་(&A)"
+
+#: contextForwardAsAttachment.label
+#: contextForwardAsAttachment.accesskey
+msgid "F&orward as Attachments"
+msgstr "མཉམ་སྦྲགས་སྦེ་ གདོང་བསྐྱོད་འབད།(&o)"
+
+#: contextMoveMsgMenu.label
+#: contextMoveMsgMenu.accesskey
+msgid "&Move To"
+msgstr "སྤོ་བཤུད་འབད་ས་(&M)"
+
+#: contextCopyMsgMenu.label
+#: contextCopyMsgMenu.accesskey
+msgid "&Copy To"
+msgstr "འདྲ་བཤུས་བརྐྱབ་ས་(&C)"
+
+#: contextSaveAs.label
+#: contextSaveAs.accesskey
+msgid "&Save As..."
+msgstr "དེ་སྦེ་སྲུངས་་་་(&S)"
+
+#: contextPrintPreview.label
+msgid "Print Preview"
+msgstr "དཔར་བསྐྲུན་སྔོན་ལྟ་"
+
+#: contextAddSenderToAddressBook.label
+#: contextAddSenderToAddressBook.accesskey
+msgid "Add Sender To Address &Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ལུ་ གཏང་མི་ཁ་སྐོང་རྐྱབས།(&B)"
+
+#: contextAddAllToAddressBook.label
+#: contextAddAllToAddressBook.accesskey
+msgid "&Add All To Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ལུ་ ཆ་མཉམ་ཁ་སྐོང་རྐྱབས།(&A)"
+
+# Junk Bar
+#: junkBarMessage.label
+msgid "&brandShortName; thinks this message is junk."
+msgstr "&brandShortName; གིས་ འཕྲིན་དོན་འདི་ མཁོ་མེད་ཨིན་པས་ཟེར་མནོཝ་མས།"
+
+#: junkBarButton.label
+msgid "This is Not Junk"
+msgstr "འདི་མཁོ་ཅན་ཨིན།"
+
+# Remote Content Bar
+#: remoteContentMessage.label
+msgid "To protect your privacy, &brandShortName; has blocked remote images in this message."
+msgstr "ཁྱོད་ཀྱི་སྒེར་དབང་ ཉེན་སྐྱོབ་འབད་ནི་ལུ་  &brandShortName; གིས་ འཕྲིན་དོན་འདི་ནང་གི་ ཐག་རིང་གཟུགས་བརྙན་ཚུ་ བཀག་བཞག་ནུག།"
+
+#: loadRemoteContentButton.label
+msgid "Show Images"
+msgstr "གཟུགས་བརྙན་ཚུ་སྟོན་"
+
+# Phshing bar Bar
+#: phishingBarMessage.label
+msgid "&brandShortName; thinks this message might be an email scam."
+msgstr "&brandShortName; གིས་ འཕྲིན་དོན་འདི་ གློག་འཕྲིན་གྱི་གཡོ་སྒྱུ་ཅིག་ ཨིནམ་འོང་ནི་མས་ཟེར་མནོཝ་མས།"
+
+#: removePhishingBarButton.label
+msgid "Not a Scam"
+msgstr "གཡོ་སྒྱུ་མེན་"
+
+# Message Header Context Menu
+#: AddToAddressBook.label
+#: AddToAddressBook.accesskey
+msgid "Add to Address &Book..."
+msgstr "ཁ་བྱང་ཀི་དེབ་ལུ་ཁ་སྐོང་རྐྱབས་་་་(&B)"
+
+#: SendMailTo.label
+#: SendMailTo.accesskey
+msgid "Compo&se Mail To"
+msgstr "ཡིག་འཕྲིནརྩོམ་འབྲི་འབད་ས་(&s)"
+
+#: CopyEmailAddress.label
+#: CopyEmailAddress.accesskey
+msgid "&Copy Email Address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་འདྲ་བཤུས་རྐྱབས་(&C)"
+
+#: CreateFilter.label
+#: CreateFilter.accesskey
+msgid "Create &Filter from Message..."
+msgstr "གསར་བསྐྲུན་འབད་དེ་ འཕྲིན་དོན་ནང་ལས་བཙག་གཏང་་་་(&F)"
+
+#: BlockAddress.label
+#: BlockAddress.accesskey
+msgid "Block &Address"
+msgstr "ཁ་བྱང་བཀག་བཞག་ ( &A)"
+
+# Statusbar
+#: statusText.label
+msgid "Done"
+msgstr "འབད་ཚར་"
+
+#: unreadCountText.label
+msgid "Unread: "
+msgstr "མ་ལྷགཔ་:"
+
+#: totalCountText.label
+msgid " Total: "
+msgstr "བསྡོམས་:"
+
+#: minimizeWindow.label
+msgid "Minimize"
+msgstr "ཆུང་ཀུ་བཟོེ་"
+
+#: bringAllToFront.label
+msgid "Bring All to Front"
+msgstr "ཆ་མཉམ་གདོང་ཁར་འབག་ཤོག།"
+
+#: zoomWindow.label
+msgid "Zoom"
+msgstr "རྒྱ་བཟུམ་སྦེ་"
+

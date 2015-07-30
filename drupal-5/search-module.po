@@ -1,0 +1,214 @@
+# LANGUAGE translation of Drupal (modules/search.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: search.module,v 1.176.2.2 2006/05/07 17:51:24 killes
+# yangka <yanang_ka@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: search-module\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 14:52+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/search/search.module:99
+msgid "The search module adds the ability to search for content by keywords. Search is often the only practical way to find content on a large site. Search is useful for finding users and posts by searching on keywords."
+msgstr "འཚོལ་ཞིབ་ཚད་གཞི་དེ་གིས་  ནང་དོན་གྱི་དོན་ལུ་འཚོལ་ཞིབ་འབད་ནི་ལུ་  གཙོ་བོ་ཚིག་དང་ཅིག་ཁར་ལྕོགས་ཅན་ཅིག་ཁ་སྐོང་བརྐྱབ་ཨིན།  ནང་དོན་འདི་ས་ཁོངས་སྦོམ་ཅིག་གུ་འཚོལ་ནི་ལུ་  འཚོལ་ཞིབ་འདི་ལག་ལེན་དངོས་ཀྱི་ཐབས་ལམ་རྐྱངམ་ཅིག་ཨིན།  འཚོལ་ཞིབ་འདི་ལག་ལེན་པ་ཚུ་འཚོལ་ནི་ལུ་  ཕན་ཐོག་ཅན་ཡོདཔ་དང་ གཙོ་བོ་ཚིག་གུ་འཚོལ་ཞིབ་འབད་ཐོག་ལས་  གནས་བསྐྱོད་འབདཝ་ཨིན།"
+
+#: modules/search/search.module:100
+msgid "The search engine works by maintaining an index of the words in your site's content. It indexes the posts and users. You can adjust the settings to tweak the indexing behaviour. Note that the search requires cron to be set up correctly. The index percentage sets the maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
+msgstr "འཚོལ་ཞིབ་མ་འཕྲུལ་འདི་གིས་ཁྱོད་རའི་ས་ཁོངས་ཀྱི་ནང་དོན་ནང་  མིང་ཚིག་ཚུ་གི་ཟུར་ཐོ་ཅིག་འཛིན་སྐྱོང་འབད་དེ་གིས་ལཱ་འབདཝ་ཨིན།   འདི་གིས་གནས་བསྐྱོད་ཚུ་དང་ལག་ལེན་པ་ཚུ་ཟུར་ཐོ་བཀོདཔ་ཨིན།   ཁྱོད་ཀྱིས་སྒྲིག་སྟངས་ཚུ་ཟུར་ཐོ་བཀོད་མི་སྤྱོད་ལམ་འདི་  བསྒྱུར་བཅོས་ཆུང་ཀུ་འབད་ནི་ལུ་བདེ་སྒྲིག་འབད་བཏུབ་ཨིན།  དྲན་དགོཔ་འདི་འཚོལ་ཞིབ་འབད་ནི་ལུ་ངེས་བདེན་སྦེ་གཞི་སྒྲིག་འབད་ནི་ལུ་ཀོན་རཱོན་དགོས་མཁོ་དགོཔ་ཨིན།  ཟུར་ཐོ་བརྒྱ་ཆ་འདི་གིས་གཡོག་བཀོལ་ཀོན་རཱོན་གཅིག་ནང་  ཟུར་ཐོ་འབད་ནི་ལུ་རྣམ་གྲངས་ཚུ་གི་དངུལ་བསྡོམ་མང་མཐའ་འདི་གཞི་སྒྲིག་འབདཝ་ཨིན།  ཁྱོད་རའི་ཀོན་རཱོན་འདི་  དུས་འཛིན་ལས་ཕྱི་ཁ་ཡང་ན་པི་ཨེཆ་པི་འདི་དྲན་ཚད་ཀྱི་གཡོག་བཀོལ་ཕྱི་ཁ་འགྱོ་བ་ཅིན་  ཨང་འདི་དམའ་སུ་འབད་གཞི་སྒྲིག་འབད།"
+
+#: modules/search/search.module:101
+msgid "For more information please read the configuration and customization handbook <a href=\"@search\">Search page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལུ་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"@search\">འཚོལ་ཞིབ་ཤོག་ལེབ་</a>ལྷག་གནང་།"
+
+#: modules/search/search.module:104
+msgid "The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly."
+msgstr "འཚོལ་ཞིབ་མ་འཕྲུལ་འདི་ཁྱོད་རའི་ས་ཁོངས་ཀྱི་ནང་དོན་ནང་  མིང་ཚིག་ཚུའི་ཟུར་ཐོ་ཅིག་རྒྱུན་སྐྱོང་་འབད་དེ་གིས་ལཱ་འབདཝ་ཨིན།  ཁྱོད་རང་སྤྱོད་ལམ་ཟུར་ཐོ་འདི་བསྒྱུར་བཅོས་ཆུང་ཀུ་འབད་ནི་ལུ་  འོག་གི་སྒྲིག་སྟངས་ཚུ་བདེ་སྒྲིག་འབད།  དྲན་དགོཔ་འཚོལ་ཞིབ་འདི་ལུ་ངེས་བདེན་སྦེ་གཞི་སྒྲིག་འབད་ནི་ལུ་ཀོ་རཱོན་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/search/search.module:106
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: <em>\"blue smurf\"</em> will match less than <em>blue smurf</em>.</li>\n"
+"<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will match less than <em>blue OR smurf</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li>ཁྱོད་ཀྱི་ཡིག་སྡེབ་འདི་ངེས་བདེན་ཨིན་ན་ཞིབ་དཔྱད་འབད།</li>\n"
+"<li>: <em>\"blue smurf\"</em> will match less than <em>blue smurf</em>.</li>\n"
+"<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will match less than <em>blue OR smurf</em>.</li>\n"
+"</ul>"
+
+#: modules/search/search.module:126
+msgid "Search form"
+msgstr "འཚོལ་ཞིབ་འབྲི་ཤོག"
+
+#: modules/search/search.module:150
+msgid "Search settings"
+msgstr "འཚོལ་ཞིབ་ཚུ་སྒྲིག་སྟངས་འབད་"
+
+#: modules/search/search.module:151
+msgid "Configure relevance settings for search and other indexing options"
+msgstr "འཚོལ་ཞིབ་ཀྱི་དོན་ལུ་འབྲེལ་བ་ཡོད་པའི་སྒྲིག་སྟངས་ཚུ་དང་  ཟུར་ཐོ་ནང་བཀོད་ནི་གི་གདམ་ཁ་གཞན་ཚུ་རིམ་སྒྲིག་འབད་"
+
+#: modules/search/search.module:157
+msgid "Clear index"
+msgstr "ཟུར་ཐོ་བསལ།"
+
+#: modules/search/search.module:162
+msgid "Top search phrases"
+msgstr "མགོ་ལུ་འཚོལ་ཞིབ་འབད་ཡོད་པའི་ཚིག་ཚན་ཚུ་"
+
+#: modules/search/search.module:163
+msgid "View most popular search phrases."
+msgstr "ཡོངས་གྲགས་ཅན་གྱི་འཚོལ་ཞིབ་ཚིག་ཚན་ཚུ་སྟོན།"
+
+#: modules/search/search.module:189;219;243
+msgid "Re-index site"
+msgstr "ས་ཁོངས་ལོག་ཟུར་ཐོ་བཀོད།"
+
+#: modules/search/search.module:195;252
+msgid "The index will be rebuilt."
+msgstr "ཟུར་ཐོ་འདི་སླར་བཟོ་རྩིག་འོང་།"
+
+#: modules/search/search.module:216
+msgid "%percentage of the site has been indexed."
+msgstr "%percentage ས་ཁོངས་འདི་ཟུར་ཐོ་བཀོད་ཡོདཔ།"
+
+#: modules/search/search.module:217
+msgid "Indexing status"
+msgstr "གནས་ཚད་ཟུར་ཐོ་བཀོད་དོ།"
+
+#: modules/search/search.module:224
+msgid "Indexing throttle"
+msgstr "མར་ཕབ་ཟུར་ཐོ་བཀོད་དོ།"
+
+#: modules/search/search.module:225
+msgid "Items to index per cron run"
+msgstr "ཀོ་རཱོན་གཡོག་བཀོལ་ཟུར་ཐོ་རེ་རེ་ལུ་རྣམ་གྲངས་ཚུ།"
+
+#: modules/search/search.module:225
+msgid "The maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
+msgstr "རྣམ་གྲངས་ཚུ་གི་མང་མཐའ་བསྡོམས་འདི་གཡོག་བཀོལ་ཀོ་རཱོན་གཅིག་ནང་ཟུར་ཐོ་བཀོད་འོང་། ཁྱོད་ཀྱི་ཀོ་རཱོན་འདི་དུས་འཛིན་ལས་ཕྱི་ཁ་ཡང་ན་པི་ཨེཆ་པི་འདི་དྲན་ཚད་ཀྱི་ཕྱི་ཁ་གཡོག་བཀོལ་བའི་བསྒང་ཡོད་པ་ཅིན་ཨང་འདི་དམའ་སུ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: modules/search/search.module:227
+msgid "Indexing settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་ཟུར་ཐོ་བཀོད་དོ།"
+
+#: modules/search/search.module:228
+msgid "<p>Changing the settings below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</p><p>The default settings should be appropriate for the majority of sites.</p>"
+msgstr "<p>འོག་གི་སྒྲིག་སྟངས་ཚུ་བསྒྱུར་བཅོས་འབད་ནི་དེ་གིས་ས་ཁོངས་ཟུར་ཐོ་འདི་སླར་བཟོ་བརྩིག་འབདཝ་ཨིན། འཚོལ་ཞིབ་ཟུར་ཐོ་འདི་བསལ་མེདཔ་ཨིན་རུང་སྒྲིག་སྟངས་གསརཔ་ཚུ་འཆར་སྣང་ལུ་རིམ་ལུགས་ཀྱིས་དུས་མཐུན་བཟོ་ཡོདཔ་ཨིན། འཚོལ་ཞིབ་འབད་ནི་འདི་གིས་ལཱ་འབད་ནི་ལུ་འཕྲོ་མཐུད་འོང་ཨིན་རུང་ནང་དོན་གསརཔ་འདི་ནང་དོན་ཡོད་མི་ཆ་མཉམ་སླར་ཟུར་ཐོ་མ་བཀོད་ཚུན་ཚོད་ཟུར་ཐོ་མི་འབད། </p><p>སྔོན་སྒྲིག་སྒྲིག་སྟངས་ཚུ་ས་ཁོངས་ཚུ་གི་ཤུགས་ཅན་དོན་ལུ་འོས་ལྡན་དགོཔ་ཨིན།</p>"
+
+#: modules/search/search.module:229
+msgid "Minimum word length to index"
+msgstr "ཟུར་ཐོ་ལུ་མིང་ཚིག་རིང་ཚད་ཉུང་མཐའ།"
+
+#: modules/search/search.module:229
+msgid "The number of characters a word has to be to be indexed. A lower setting means better search result ranking, but also a larger database. Each search query must contain at least one keyword that is this size (or longer)."
+msgstr "ཡིག་འབྲུ་ཚུ་གི་ཨག་འདི་མིང་ཚིག་ཅིག་ཟུར་ཐོ་བཀོད་དགོཔ་ཨིན། འོག་གི་སྒྲིག་སྟངས་འདི་འཚོལ་ཞིབ་འགྲུབ་འབྲས་རཱེན་ཀིང་ལེགས་མི་ཨིན་རུང་གནད་སྡུད་གཞི་རྟེན་སྦོམ་མི་ཅིག་ཡང་ཨིན། འཚོལ་ཞིབ་འདྲི་དཔྱད་རེ་རེའི་ནང་ན་ཚད་འདིའི་ཉུང་མཐའ་གཙོ་ཚིག་གཅིག་དགོཔ་ཨིན(ཡང་ན་རིངམ།)དགོཔ་ཨིན།"
+
+#: modules/search/search.module:230
+msgid "Simple CJK handling"
+msgstr "སི་ཇེ་ཀེ་འཇམ་སམ་ལེགས་སྐྱོང་འཐབ་ཐངས།"
+
+#: modules/search/search.module:230
+msgid "Whether to apply a simple Chinese/Japanese/Korean tokenizer based on overlapping sequences. Turn this off if you want to use an external preprocessor for this instead. Does not affect other languages."
+msgstr "འཇམ་སམ་རྒྱ་ནག་གི་སྐད་ཡིག/ཇ་པ་ནིསི/ཀོ་རི་ཡའི་ངོ་རྟགས་པ་ཅིག་འཇུག་སྤྱོད་འབད་ནིལུ་ཨིན་རུང་མཐའ་མནོན་འབྱུང་རིམ་གུ་གཞི་བཞགཔ་ཨིན། ཁྱོད་ཀྱིས་ཕྱིའི་སྔ་སྒོང་ལས་སྦྱོར་འཕྲུལ་ཅིག་འདི་ཚབ་མ་གོན་ལུ་ལག་ལེན་འཐབ་ནི་ལུ་ཨིན་པ་ཅིན་འདི་ཨོཕ་བཟོ་བ་ཅིན་གཞན་ཁ་སྐད་ཚུ་ཕན་གནོད་མི་འོང་།"
+
+#: modules/search/search.module:242
+msgid "Are you sure you want to re-index the site?"
+msgstr "ཁྱོད་ཀྱིས་ས་ཁོངས་འདི་སླར་ཟུར་ཐོ་བཀོད་ནི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/search/search.module:243
+msgid " The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed. This action cannot be undone."
+msgstr "འཚོལ་ཞིབ་ཟུར་ཐོ་འདི་བསལ་མེདཔ་ལས་ཨིན་རུང་སྒྲིག་སྟངས་གསརཔ་ཚུ་འཆར་སྣང་ལུ་རིམ་ལུགས་ཀྱིས་དུས་མཐུན་བཟོ་ཡོདཔ་ཨིན། འཚོལ་ཞིབ་འབད་ནི་འདི་ལཱ་འབད་ནི་ལུ་འཕྲོ་མཐུད་འོང་ཨིན་རུང་གསརཔ་འདི་ནང་དོན་ཡོད་མི་འདི་སླར་ལོག་ཟུར་ཐོ་མ་བཀོད་ཚུན་ཚོད་ནང་དོན་ཟུར་ཐོ་མི་འབད། བྱ་བ་འདི་འབད་བཤོལ་མི་འབད།"
+
+#: modules/search/search.module:843
+msgid "You must include at least one positive keyword with @count characters or more."
+msgstr "ཁྱོད་ཀྱིས་ཡོད་ཆ་གཙོ་ཚིག་@count དང་གཅིག་ཁར་ཡིག་འབྲུ་ཚུ་ཡང་ན་ཧེང་སྐལ་ཉུང་མཐའ་གཅིག་གྲངས་སུ་བཙུགས་དགོ།"
+
+#: modules/search/search.module:911
+msgid "%keys (@type)."
+msgstr "འཚོལ་ཞིབ: %keys (@type)"
+
+#: modules/search/search.module:911
+msgid "results"
+msgstr "འགྲུབ་འབྲས་ཚུ་"
+
+#: modules/search/search.module:917
+msgid "Search results"
+msgstr "འགྲུབ་འབྲས་ཚུ་འཚོལ་ཞིབ་འབད།"
+
+#: modules/search/search.module:920
+msgid "Your search yielded no results"
+msgstr "ཁྱོད་ཀྱིས་འཚོལ་ཞིབ་ཐོན་འབྲས་འགྲུབ་འབྲས་ཚུ་མེདཔ།"
+
+#: modules/search/search.module:982
+msgid "Enter your keywords"
+msgstr "ཁྱོད་རའི་གཙོ་ཚིག་ཚུ་བཙུགས།"
+
+#: modules/search/search.module:1023
+msgid "Please enter some keywords."
+msgstr "གཙོ་ཚིག་ལ་ལོ་བཙུགས་གནང་།"
+
+#: modules/search/search.module:1040
+msgid "Enter the terms you wish to search for."
+msgstr "ཁྱོད་ཀྱིས་འཚོལ་ཞིབ་འབད་ནི་དོན་ཚིག་ཚུ་བཙུགས།"
+
+#: modules/search/search.module:911;0
+msgid "search"
+msgstr "འཚོལ་ཞིབ་འབད་"
+
+#: modules/search/search.module:214
+msgid "There is 1 item left to index."
+msgid_plural "There are @count items left to index."
+msgstr[0] "རྣམ་གྲངས་༡་ཟུར་ཐོ་བཀོད་ནི་ལུས་ཡོདཔ།"
+msgstr[1] "ཟུར་ཐོ་ལུ་ལུས་མི་རྣམ་གྲངས་ཚུ་%count ཨིན། "
+
+#: modules/search/search.module:118
+msgid "search content"
+msgstr "འཚོལ་ཞིབ་ནང་དོན།"
+
+#: modules/search/search.module:118
+msgid "use advanced search"
+msgstr "འཚོལ་ཞིབ་སྔ་གཡར་ལག་ལེན་འཐབ་"
+
+#: modules/search/search.module:118
+msgid "administer search"
+msgstr "འཚོལ་ཞིབ་བདག་སྐྱོང་འཐབ་ནི།"
+
+#: modules/search/search.info:0
+msgid "Enables site-wide keyword searching."
+msgstr "ས་ཁོངས་རྒྱ་ཚད་གཙོ་ཚིག་འཚོལ་ཞིབ་འབད་ནི་ལྕོགས་ཅན་འབདཝ་ཨིན།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>read about how your site uses cron in the <a href=\"%admin-help-system"
+#~ "\">administer &gt;&gt; help &gt;&gt; system</a>.</li>\n"
+#~ "<li>run your <a href=\"%file-cron\">cron.php</a>.</li>\n"
+#~ "<li>read about <a href=\"%external-http-drupal-org-node-23714"
+#~ "\">configuring cron jobs</a>.</li>\n"
+#~ "<li><a href=\"%admin-settings-search\">administer &gt;&gt; settings &gt;"
+#~ "&gt; search</a>.</li></ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ཁྱོད་རའི་ས་ཁོངས་ཀྱིས་<a href=\"%admin-help-system\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; "
+#~ "གྲོགས་རམ་ &gt;&gt; རིམ་ལུགས་</a>ནང་  ཀོརོན་ག་དེ་འབད་ལག་ལེན་འཐབ་ནི་ཨིན་ནའི་སྐོར་ལས་ ལྷག་"
+#~ "ཚུགས། </li>\n"
+#~ "<li>ཁྱོད་རའི་<a href=\"%file-cron\">cron.php</a>གཡོག་བཀོལ་བཏུབ།</li>\n"
+#~ "<li>ཀོ་རཱོན་གཡོག་ཚུ་རིམ་སྒྲིག་ <a href=\"%external-http-drupal-org-node-23714\">སྐོར་"
+#~ "ལས་</a>ལྷག་ཚུགས། </li>\n"
+#~ "<li><a href=\"%admin-settings-search\">བདག་སྐྱོང་འཐབ་ནི་ &gt;&gt; སྒྲིག་སྟངས་ཚུ་"
+#~ "&gt;&gt; འཚོལ་ཞིབ།</a>.</ul>\n"
+

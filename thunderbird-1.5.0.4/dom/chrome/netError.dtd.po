@@ -1,0 +1,148 @@
+# extracted from dz-BT_orig/dom/chrome/netError.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: netError.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2007-02-13 13:40+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: loadError.label
+msgid "Page Load Error"
+msgstr "ཤོག་ལེབ་མངོན་གསལ་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: retry.label
+msgid "Try Again"
+msgstr "ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་"
+
+# Specific error messages
+#: connectionFailure.title
+msgid "Failed to Connect"
+msgstr "མཐུད་མ་ཚུགས་"
+
+#: connectionFailure.longDesc
+msgid "<p>Though the site seems valid, the browser was unable to establish a connection.</p><ul><li>Could the site be temporarily unavailable? Try again later.</li><li>Are you unable to browse other sites?  Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy? Incorrect settings can interfere with Web browsing.</li></ul>"
+msgstr "ས་ཁོངས་དེ་ནུས་ཅན་ཨིནམ་བཟུམ་ཡོད་རུང་ བརའུ་ཟར་གྱིས་མཐུད་ལམ་ཅིག་ གཞི་འཛུགས་འབད་མ་ཚུགས། </p><ul><li> ས་ཁོངས་དེ་གནས་སྐབས་ཅིག་ མི་འཐོབ་ཨིན་ན? ལོག་ཤུལ་ལས་འབད་རྩོལ་བསྐྱེད་གནང་། </li><li> ཁྱོད་ཀྱི་ས་ཁོངས་གཞན་ཚུ་ལུ་ཡང་ བརྡ་འཚོལ་འབད་མི་ཚུགས་པས་ག? གློག་རིག་གི་ཡོངས་འབྲེལ་མཐུད་ལམ་ལུ་ ཞིབ་དཔྱད་འབད། </li><li> ཁྱོད་ཀྱི་གློག་རིག་ ཡང་ན་ ཡོངས་འབྲེལ་དེ་ སྐྱོབ་གྱང་ ཡང་ན་ པོརོག་སི་གིས་ ཉེན་སྐྱོབ་འབད་དེ་ཡོད་ག? ཚུལ་མིན་སྒྲིག་སྟངས་ཀྱིས་ཡང་ ཝེབ་བརྡ་འཚོལ་འབད་ནི་ལུ་ བར་ཆད་རྐྱབ་ཨིན། </li></ul>"
+
+#: deniedPortAccess.title
+msgid "Port Restricted for Security Reasons"
+msgstr "སྲུང་སྐྱོབ་ཀྱི་རྒྱུ་མཚན་ལུ་བརྟེན་ཏེ་ འདྲེན་ལམ་བཀག་ཆ་འབད་ནུག།"
+
+#: deniedPortAccess.longDesc
+msgid "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>"
+msgstr "ཞུ་བ་འབད་མི་ཁ་བྱང་དེ་གིས་ དུས་རྒྱུན་དུ་ ཝེབ་བརྡ་འཚོལ་གྱི་དོན་ལུ་མེན་པར་ <em>གཞན་</em>གྱི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ འདྲེན་ལམ་ཅིག་(དཔེར་ན་<q>mozilla.org:80</q> for port 80 on mozilla.org)གསལ་བཀོད་འབད་ནུག། བརའུ་ཟར་དེ་གིས་ ཁྱོད་ཀྱི་ཉེན་སྐྱོབ་དང་ སྲུང་སྐྱོབ་ཀྱི་དོན་ལུ་ ཞུ་བ་དེ་ཆ་མེད་བཏང་ནུག།</p>"
+
+#: dnsNotFound.title
+msgid "Address Not Found"
+msgstr "ཁ་བྱང་མ་ཐོབ་"
+
+#: dnsNotFound.longDesc
+msgid "<p>The browser could not find the host server for the provided address.</p><ul><li>Did you make a mistake when typing the domain? (e.g. <q><strong>ww</strong>.mozilla.org</q> instead of <q><strong>www</strong>.mozilla.org</q>)</li><li>Are you certain this domain address exists?  Its registration may have expired.</li><li>Are you unable to browse other sites?  Check your network connection and DNS server settings.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li></ul>"
+msgstr "<p>བརའུ་ཟར་དེ་གིས་ བྱིན་ཏེ་ཡོད་མི་ ཁ་བྱང་གི་དོན་ལུ་ ཧོསཊི་སར་བར་དེ་་འཚོལ་མ་ཐོབ་པས། </p><ul><li> ཁྱོད་ཀྱིས་ཌོ་མེན་ཡིག་དཔར་བརྐྱབསཔ་འི་སྐབས་ འཛོལ་སོངཔ་མེན་ན? (དཔེར་ན་<q><strong>www</strong>.mozilla.org</q>གི་ ཚབ་ལུ་ <q><strong>ww</strong>.mozilla.org</q>ལྟ་བུ་) </li><li> ཌོ་མེན་འདི་ཡོདཔ་ ངེས་གཏན་ཨིན་ན? དེ་གི་ཐོ་བཀོད་དེ་ དུས་ཡོལ་ཐལ་སོངཔ་འོང་། </li><li>ཁྱོད་ཀྱིས་ས་ཁོངས་གཞན་ཚུ་ལུ་ཡང་ བརྡ་འཚོལ་འབད་མི་ཚུགས་པས་ག? ཁྱོད་རའི་ཡོངས་འབྲེལ་མཐུད་ལམ་དང་ ཌི་ཨེན་ཨེསི་སར་བར་སྒྲིག་སྟངས་ཚུ་་ཞིབ་དཔྱད་འབད། </li><li> ཁྱོད་ཀྱི་གློག་རིག་ ཡང་ན་ ཡོངས་འབྲེལ་དེ་ སྐྱོབ་གྱང་ ཡང་ན་ པོརོག་སི་གིས་ ཉེན་སྐྱོབ་འབད་དེ་ཡོད་ག? ཚུལ་མིན་སྒྲིག་སྟངས་ཀྱིས་ཡང་ ཝེབ་བརྡ་འཚོལ་འབད་ནི་ལུ་ བར་ཆད་རྐྱབ་ཨིན། </li></ul>"
+
+#: fileNotFound.title
+msgid "File Not Found"
+msgstr "ཡིག་སྣོད་མ་ཐོབ་"
+
+#: fileNotFound.longDesc
+msgid "<ul><li>Could the item have been renamed, removed, or relocated?</li><li>Is there a spelling, capitalization, or other typographical error in the address?</li><li>Do you have sufficient access permissions to the requested item?</li></ul>"
+msgstr "<ul><li> རྣམ་གྲངས་དེ་ལུ་ བསྐྱར་མིང་བཏགས་ཡོདཔ་ ཡང་ན་ རྩ་བསྐརད་བཏང་ཡོདཔ་ ཡང་ན་ ས་གནས་སྤོ་བཤུད་འབད་དཔ་ཨིན་ན? </li><li> ཁ་བྱང་དེ་ནང་ ཡིག་སྡེབ་དང་ ཡིག་ཆེན་ ཡང་ན་ ཡིག་དཔར་གྱི་འཛོལ་བ་ཚུ་ཡོདཔ་ཨིན་ན? </li><li> ཞུ་བ་འབད་མི་རྣམ་གྲངས་དེ་ལུ་ ཁྱོད་ཀྱིས་འཛུལ་སྤྱོད་འབད་ནིའི་གནང་བ་ལངམ་ཡོད་ག?</li><li>"
+
+#: generic.title
+msgid "Cannot Complete Request"
+msgstr "ཞུ་བ་མཇུག་བསྡུ་མི་ཚུགས་པས།"
+
+#: generic.longDesc
+msgid "<p>Additional information about this problem or error is currently unavailable.</p>"
+msgstr "<p>དཀའ་ངལ་འདིའམ་ འཛོལ་བ་འདི་གི་སྐོར་ལས་ ད་ལྟོ་བརྡ་དོན་ཁ་སྐོང་འཐོབ་མི་ཚུགས་པས།</p>"
+
+#: malformedURI.title
+msgid "Invalid Address"
+msgstr "ནུས་མེད་ཁ་བྱང་"
+
+#: malformedURI.longDesc
+msgid "<p>The provided address is not in a recognized format. Please check the location bar for mistakes and try again.</p>"
+msgstr "<p>བྱིན་ཏེ་ཡོད་མི་ཁ་བྱང་དེ་ ངོས་འཛིན་ཅན་གྱི་རྩ་སྒྲིག་ཅིག་ནང་མེན་པས། འཛོལ་བ་ཡོད་མེད་བལྟ་ནིའི་དོན་ལུ་ གནས་ཁོངས་ཕྲ་རིང་ལུ་ཞིབ་དཔྱད་འབད་དེ་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།</p>"
+
+#: netInterrupt.title
+msgid "Data Transfer Interrupted"
+msgstr "གནས་སྡུད་གནས་སོར་འབད་ནི་ལུ་བར་ཆད་བྱུང་ནུག།"
+
+#: netInterrupt.longDesc
+msgid "<p>The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.</p><ul><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>"
+msgstr "<p>བརའུ་ཟར་དེ་ མཐར་འཁྱོར་ཅན་སྦེ་མཐུད་ཅི། དེ་འབདཝ་ད་ བརྡ་དོན་གནས་སོར་འབདཝ་ད་ བར་ཆད་བྱུང་ནུག། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་། </p><ul><li> ཁྱོད་ཀྱིས་ས་ཁོངས་གཞན་ནང་ཡང་ བརྡ་འཚོལ་འབད་མི་ཚུགས་པས་ག? གློག་རིག་གི་ཡོངས་འབྲེལལུ་ཞིབ་དཔྱད་འབད། </li><li> ད་རུང་དཀའ་ངལ་ཡོད་པ་ཅིན་ གྲོགས་རམ་ལེན་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཡོངས་འབྲེལ་བདག་སྐྱོང་པ་ ཡང་ན་ ཨིན་ཊར་ནེཊི་སྤེལ་མི་ལུ་ གྲོས་བསྟུན་འབད། </li></ul>"
+
+#: netOffline.title
+msgid "Offline Mode"
+msgstr "གློག་ཐོག་མེན་པའི་ཐབས་ལམ་"
+
+#: netOffline.longDesc
+msgid "<p>The browser is operating in its offline mode and cannot connect to the requested item.</p><ul><li>Is the computer connected to an active network?</li><li>Place the browser in online mode and try again.</li></ul>"
+msgstr "<p>བརའུ་ཟར་དེ་ གློག་ཐོག་ལུ་མེནམ་སྦེ་ བཀོལ་སྤྱོད་འབད་དོ་ཡོདཔ་ལས་ ཞུ་བ་འབད་མི་རྣམ་གྲངས་དེ་ལུ་ མཐུད་མི་ཚུགས་པས། </p><ul><li> གློག་རིག་དེ་ ཤུགས་ལྡན་ཡོངས་འབྲེལ་ཅིག་ལུ་ མཐུད་དེ་ཡོད་ག? </li><li> བརའུ་ཟར་དེ་ གློག་ཐོག་ཐབས་ལམ་གུ་བཀལ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད།</li></ul>"
+
+#: netReset.title
+msgid "Connection Interrupted"
+msgstr "མཐུད་ལམ་ལུ་བར་ཆད་བྱུང་ནུག་"
+
+#: netReset.longDesc
+msgid "<p>The network link was interrupted while negotiating a connection. Please try again.</p>"
+msgstr "<p>མཐུད་ལམ་ཅིག་བདེ་སྒྲིག་འབད་བའི་བར་ན་ ཡོངས་འབྲེལ་འབྲེལ་ལམ་དེ་ལུ་ བར་ཆད་བྱུང་ནུག། ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་། </p>"
+
+#: netTimeout.title
+msgid "Network Timeout"
+msgstr "ཡོངས་འབྲེལ་གྱི་ངལ་མཚམས་"
+
+#: netTimeout.longDesc
+msgid "<p>The requested site did not respond to a connection request and the browser has stopped waiting for a reply.</p><ul><li>Could the server be experiencing high demand or a temporary outage?  Try again later.</li><li>Are you unable to browse other sites? Check the computer's network connection.</li><li>Is your computer or network protected by a firewall or proxy?  Incorrect settings can interfere with Web browsing.</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>"
+msgstr "<p>ཞུ་བ་འབད་མི་ས་ཁོངས་དེ་གིས་ མཐུད་ལམ་གྱི་ཞུ་བ་ཅིག་ལུ་ ངོས་ལན་འབད་མ་བཏུབ་མ་ཚད་ བརའུ་ཛར་གྱིས་ ལན་གསལ་བསྒུག་ནི་ཡང་ མཚམས་འཇོག་འབད་ནུག། </p><ul><li> སར་བར་དེ་ལུ་ མཁོ་འདོད་མང་དྲགསཔ་ཨིན་ན་ ཡང་ན་ གནས་སྐབས་ཅིག་མཚམས་འཛིན་འབད་ཡོདཔ་ཨིན་ན? ལོག་སྟེ་ཤུལ་ལས་འབད་རྩོལ་བསྐྱེད་གནང་། </li><li>ཁྱོད་ཀྱིས་ས་ཁོངས་གཞན་ནང་ཡང་ བརྡ་འཚོལ་འབད་མི་ཚུགས་པས་ག? གློག་རིག་གི་ཡོངས་འབྲེལ་མཐུད་ལམ་ལུ་ཞིབ་དཔྱད་འབད། </li><li>ཁྱོད་ཀྱི་གློག་རིག་ ཡང་ན་ ཡོངས་འབྲེལ་དེ་ སྐྱོབ་གྱང་ ཡང་ན་ པོརོག་སི་གིས་ ཉེན་སྐྱོབ་འབད་དེ་ཡོད།ཚུལ་མིན་སྒྲིག་སྟངས་ཀྱིས་ ཝེབ་བརྡ་འཚོལ་འབད་ནི་ལུ་བར་ཆད་བརྐྱབ་ཨིན། </li><li> ད་རུང་དཀའ་ངལ་ཡོད་པ་ཅིན་ གྲོགས་རམ་ལེན་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཡོངས་འབྲེལ་བདག་སྐྱོང་པ་ ཡང་ན་ ཨིན་ཊར་ནེཊི་སྤེལ་མི་ལུ་ གྲོས་བསྟུན་འབད། </li></ul>"
+
+#: protocolNotFound.title
+msgid "Unknown Protocol"
+msgstr "མ་ཤེས་པའི་གནས་སྤེལ་ལམ་ལུགས་"
+
+#: protocolNotFound.longDesc
+msgid "<p>The address specifies a protocol (e.g. <q>wxyz://</q>) the browser does not recognize, so the browser cannot properly connect to the site.</p><ul><li>Are you trying to access multimedia or other non-text services? Check the site for extra requirements.</li><li>Some protocols may require third-party software or plugins before the browser can recognize them.</li></ul>"
+msgstr "<p>ཁ་བྱང་དེ་གིས་ བརའུ་ཟར་གྱིས་ངོས་འཛིན་འབད་མ་ཚུགསཔ་ལས་ ས་ཁོངས་ལུ་ཚུལ་མཐུན་སྦེ་ མཐུད་མ་ཚུགས་པའི་གནས་སྤེལ་ལམ་ལུགས་(དཔེར་ན་ <q>wxyz://</q>)ཅིག་ གསལ་བཀོད་འབད་ནུག། </p><ul><li>ཁྱོད་ཀྱིས་སྣ་མང་བརྡ་བརྒྱུད་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་གི་འབད་རྩོལ་བསྐྱེདཔ་ཨིན་ན་ ཚིག་ཡིག་མེན་པའི་ཞབས་ཏོག་གཞན་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ལུ་འབད་རྩོལ་བསྐྱེདཔ་ཨིན་ན? མཁོ་འདོོད་ཧེང་བཀལ་དགོ་མི་མིན་དགོ་གི་དོན་ལུ་ ས་ཁོངས་ལུ་ཞིབ་དཔྱད་འབད། </li><li>གནས་སྤེལ་ལམ་ལུགས་ལ་ལོ་ཅིག་ལུ་ བརའུ་ཟར་གྱིས་ ངོས་འཛིན་མ་འབད་བའི་ཧེ་མ་ རྩ་བོ་གསུམ་པའི་མཉེན་ཆས་སམ་ པ་ལག་ཨིནསི་དགོཔ་ཨིན།</li></ul>"
+
+#: proxyConnectFailure.title
+msgid "Proxy Server Refused Connection"
+msgstr "པོརོག་སི་སར་བར་གྱིས་ མཐུད་ལམ་ལུ་ཉན་མ་བཏུབ།"
+
+#: proxyConnectFailure.longDesc
+msgid "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>"
+msgstr "<p>བརའུ་ཟར་དེ་ པོརོག་སི་སར་བར་ཅིག་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ རིམ་སྒྲིག་འབད་ཡི། དེ་འབདཝ་ད་ པོརོག་སི་དེ་གིས་ མཐུད་ལམ་ལུ་ཉན་མ་བཏུབ། </p><ul><li> བརའུ་ཟར་གྱི་ པོརོག་སི་རིམ་སྒྲིག་དེ་ ངེས་བདེན་ཨིན་ན? སྒྲིག་སྟངས་ལུ་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད། </li><li>པོརོག་སི་ཞབས་ཏོ་དེ་གིས་ ཡོངས་འབྲེལ་འདི་ནང་ལས་ མཐུད་བཅུག་འོང་ག? </li><li> ད་རུང་དཀའ་ངལ་འདུག་ག? གྲོགས་རམ་ལེན་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཡོངས་འབྲེལ་བདག་སྐྱོང་པ་ ཡང་ན་ ཨིན་ཊར་ནེཊི་སྤེལ་མི་ལུ་ གྲོས་བསྟུན་འབད།</li></ul>"
+
+#: proxyResolveFailure.title
+msgid "Proxy Server Not Found"
+msgstr "པོརོག་སི་སར་བར་འཚོལ་མ་ཐོབ།"
+
+#: proxyResolveFailure.longDesc
+msgid "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>"
+msgstr "<p>བརའུ་ཐར་དེ་ པོརོག་སི་སརབར་ཅིག་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ རིམ་སྒྲིག་འབད་ཡི། དེ་འབདཝ་ད་ པོརོག་སི་དེ་འཚོལ་མ་ཐོབ། </p><ul><li>བརའུ་ཟར་གྱི་པོརོག་སི་རིམ་སྒྲིག་དེ་ ངེས་བདེན་ཨིན་ན? སྒྲིག་སྟངས་ལུ་ཞིབ་དཔྱད་འབད་དེ་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད། </li><li>གློག་རིག་དེ་ ཤུགས་ལྡན་ཡོངས་འབྲེལ་ཅིག་ལུ་ མཐུད་ནུག་ག? </li><li>ད་རུང་དཀའ་ངལ་འདུག་ག? གྲོགས་རམ་ལེན་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཡོངས་འབྲེལ་བདག་སྐྱོང་པ་ ཡང་ན་ ཨིན་ཊར་ནེཊི་སྤེལ་མི་ལུ་ གྲོས་བསྟུན་འབད།</li></ul>"
+
+#: redirectLoop.title
+msgid "Redirect Loop"
+msgstr "ལུཔ་སླར་ལོག་གཏང་"
+
+#: redirectLoop.longDesc
+msgid "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>"
+msgstr "<p>བརའུ་ཟར་དེ་གིས་ ཞུ་བ་འབད་མི་རྣམ་གྲངས་དེ་ སླར་འདྲེན་འབད་ནི་ མཚམས་འཇོག་འབད་ནུག། ས་ཁོངས་དེ་གིས་ ཞུ་བ་དེ་ ནམ་ཡང་མཇུག་བསྡུ་ནི་མེད་པའི་ཐབས་ལམ་ཅིག་གི་ཐོག་ལས་ སླར་ལོག་གཏང་དོ། </p><ul><li>ཁྱོད་ཀྱིས་ས་ཁོངས་འདི་ལུ་མཁོ་བའི་ཀུ་ཀིསི་ཚུ་ ལྕོགས་མིན་མ་བཟོ་ག་ ཡང་ན་ བཀག་ཆ་མ་འབད་ག? </li><li><em>དྲན་འཛིན་</em>:ས་ཁོངས་ཀྱི་ཀུ་ཀིསི་ཚུ་ དང་ལེན་འབད་ཞིནམ་ལས་ཡང་ དཀའ་ངལ་དེ་སེལ་མ་ཚུགས་པ་ཅིན་ ཁྱོད་རའི་གློག་རིག་གི་སྐྱོན་མེན་པར་ སར་བར་རིམ་སྒྲིག་གི་སྐྱོན་ཅིག་འོང་ནི་མས།</li></ul>"
+
+#: unknownSocketType.title
+msgid "Incorrect Response"
+msgstr "བདེན་མེད་ངོས་ལན་"
+
+#: unknownSocketType.longDesc
+msgid "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>"
+msgstr "<p>ས་ཁོངས་དེ་གིས་ ཡོངས་འབྲེལ་གྱི་ཞུ་བ་ལུ་ རེ་བ་མེད་པའི་ངོས་ལན་ཅིག་འབདཝ་ལས་ བརའུ་ཟར་གྱིས་འཕྲོ་མཐུད་མི་ཚུགས་པས།<p> "
+

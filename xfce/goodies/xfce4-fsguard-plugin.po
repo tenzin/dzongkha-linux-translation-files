@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-fsguard-plugin.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-20 23:05+0100\n"
+"PO-Revision-Date: 2007-04-09 12:25+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/fsguard.c:159
+#, c-format
+msgid "Only %.2f GB space left on %s (%s)!"
+msgstr "%.2f ཇི་བི་བར་སྟོང་རྐྱངམ་ཅིག་ %s (%s)གུ་ལུས་ཡོདཔ!"
+
+#: ../panel-plugin/fsguard.c:161
+#, c-format
+msgid "Only %.2f MB space left on %s (%s)!"
+msgstr "%.2f ཨེམ་བི་བར་སྟོང་རྐྱངམ་ཅིག་ %s (%s)གུ་ལུས་ཡོདཔ!"
+
+#: ../panel-plugin/fsguard.c:165
+#, c-format
+msgid "Only %.2f GB space left on %s!"
+msgstr "%.2f ཇི་བི་བར་སྟོང་རྐྱངམ་ཅིག་ %s གུ་ལུས་ནུག!"
+
+#: ../panel-plugin/fsguard.c:167
+#, c-format
+msgid "Only %.2f MB space left on %s!"
+msgstr "%.2f ཨེམ་བི་བར་སྟོང་རྐྱངམ་ཅིག་ %s གུ་ལུས་ནུག!"
+
+#: ../panel-plugin/fsguard.c:179
+#, c-format
+msgid "%.2f GB space left on %s (%s)"
+msgstr "%.2f ཇི་བི་བར་སྟོང་འདི་ %s (%s)ལུས་ནུག་"
+
+#: ../panel-plugin/fsguard.c:181
+#, c-format
+msgid "%.2f MB space left on %s (%s)"
+msgstr "%.2f ཨེམ་བི་བར་སྟོང་འདི་ %s (%s)གུ་ལུས་ཡོདཔ་"
+
+#: ../panel-plugin/fsguard.c:185
+#, c-format
+msgid "%.2f GB space left on %s"
+msgstr "%.2f ཇི་བི་བར་སྟོང་འདི་ %sགུ་ལུས་ཡོདཔ་"
+
+#: ../panel-plugin/fsguard.c:187
+#, c-format
+msgid "%.2f MB space left on %s"
+msgstr "%.2f ཨེམ་བི་བར་སྟོང་འདི་%sགུ་ལུས་ཡོདཔ་"
+
+#: ../panel-plugin/fsguard.c:192
+#, c-format
+msgid "could not check mountpoint %s, please check your config"
+msgstr "སྦྱར་བརྩེགས་འབད་སའི་ %s འདི་ཞིབ་དཔྱད་འབད་མ་ཚུགས་  ཁྱོད་རའི་རིམ་སྒྲིག་ཞིབ་དཔྱད་འབད་གནང་"
+
+#: ../panel-plugin/fsguard.c:412
+msgid "label"
+msgstr "ཁ་ཡིག་"
+
+#: ../panel-plugin/fsguard.c:413
+msgid "mountpoint"
+msgstr "སྦྱར་བརྩེགས་འབད་ས་"
+
+#: ../panel-plugin/fsguard.c:414
+msgid "high alarm limit (MB)"
+msgstr "འཇིགས་བརྡ་ཚད་མཐོ་ཤོས་ (ཨེམ་བི་)"
+
+#: ../panel-plugin/fsguard.c:415
+msgid "high warn limit (MB)"
+msgstr "ཉེན་བརྡའི་ཚད་མཐོ་ཤོས་ (ཨེམ་བི་)"
+
+#: ../panel-plugin/fsguard.c:416
+msgid "filemanager"
+msgstr "ཡིག་སྣོད་འཛིན་སྐྱོང་པ་"
+
+#. }}}
+#. vim600: set foldmethod=marker: foldmarker={{{,}}}
+#: ../panel-plugin/fsguard.c:421
+#: ../panel-plugin/fsguard.desktop.in.in.h:1
+msgid "Free Space Checker"
+msgstr "རང་དབང་བར་སྟོང་ཞིབ་དྤཡད་པ་"
+
+#: ../panel-plugin/fsguard.desktop.in.in.h:2
+msgid "Monitor free disk space"
+msgstr "ལྟ་རྟོག་པ་རང་དབང་ཌིསིཀ་བར་སྟོང་"
+

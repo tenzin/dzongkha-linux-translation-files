@@ -1,0 +1,1334 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mlview.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-23 12:48+0600\n"
+"PO-Revision-Date: 2007-05-10 16:32+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/main.cc:76
+msgid "Prints The version of gnome-mlview you are using"
+msgstr "ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་མི་ ཇི་ནོམ་-ཨེམ་ཨེལ་ཝིཝ་གི་ཐོན་རིམ་འདི་དཔར་བསྐྲུན་འབདཝ་ཨིན་"
+
+#: ../src/main.cc:86
+msgid "Prints some information about gnome-mlview"
+msgstr "ཇི་ནོམ་-ཨེམ་ཨེལ་ཝིཝ་གི་སྐོར་ལས་ བརྡ་དོན་ལ་ལོ་ཅིག་དཔར་བསྐྲུན་འབདཝ་ཨིན་"
+
+#: ../src/main.cc:95
+msgid "Associates DTD with the XML documents on the commandline"
+msgstr "ཌི་ཊི་ཌི་འདི་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ཚུ་དང་གཅིག་ཁར་ བརྡ་བཀོད་གྲལ་ཐིག་འདི་གུ་ འབྲེལ་བ་བཟོཝ་ཨིན་"
+
+#: ../src/main.cc:127
+msgid "No useful info yet"
+msgstr "ད་ཚུན་ཕན་ཐོགས་ཅན་གྱི་བརྡ་དོན་ག་ནི་ཡང་མེད་"
+
+#: ../src/mlview-app.cc:208
+msgid "Save the XML Document"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་འདི་སྲུང་བཞག་འབད་"
+
+#: ../src/mlview-app.cc:213
+msgid "Save the XML Document in an other file"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་འདི་ ཡིག་སྣོད་གཞན་མི་ཅིག་ནང་སྲུང་བཞག་འབད་"
+
+#: ../src/mlview-app.cc:219
+msgid "Reload the XML Document saved on disk"
+msgstr "ཌིཀསི་གུ་སྲུང་བཞག་འབད་ཡོད་པའི་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་འདི་ཡང་བསྐྱར་མངོན་གསལ་འབད་"
+
+#: ../src/mlview-app.cc:224
+msgid "Close the XML Document"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་འདི་ཁ་བསྡམ་"
+
+#: ../src/mlview-app.cc:230
+#: ../src/mlview-app.cc:235
+msgid "Undo the last action"
+msgstr "མཇུག་གི་བྱ་བ་འདི་འབད་བཤོལ་འབད་"
+
+#. Tools menu
+#: ../src/mlview-app.cc:240
+msgid "_Tools"
+msgstr "ལག་ཆས་ཚུ་(_T)"
+
+#: ../src/mlview-app.cc:242
+msgid "New _view"
+msgstr "མཐོང་སྣང་གསརཔ་(_v)"
+
+#: ../src/mlview-app.cc:243
+msgid "Creates a new view on the current document"
+msgstr "ད་ལྟོའི་ཡིག་ཆ་འདི་གུ་ མཐོང་སྣང་གསརཔ་ཅིག་གསར་བསྐྲུན་འབདཝ་ཨིན་"
+
+#: ../src/mlview-app.cc:247
+msgid "Re_name view"
+msgstr "མཐོང་སྣང་བསྐྱར་མིང་བཏགས་(_n)"
+
+#: ../src/mlview-app.cc:248
+msgid "Rename the view"
+msgstr "མཐོང་སྣང་འདི་བསྐྱར་མིང་བཏགས་"
+
+#: ../src/mlview-app.cc:252
+#: ../ui/mlview-schemas-window.glade.h:4
+msgid "Schemas"
+msgstr "ལས་འཆར་ཚུ་"
+
+#: ../src/mlview-app.cc:253
+msgid "Manage the schemas/DTDs associated to the document"
+msgstr "ཡིག་ཆ་འདི་ལུ་འབྲེལ་བ་ཡོད་པའི་ འཆར་ལས་/ཌི་ཊི་ཌི་ཚུ་ འཛིན་སྐྱོང་འཐབ་"
+
+#: ../src/mlview-app.cc:257
+msgid "Va_lidate document"
+msgstr "ཡིག་ཆ་ནུས་ལྡན་བཟོ་(_l)"
+
+#: ../src/mlview-app.cc:258
+msgid "Validate the document against the associated DTD"
+msgstr "འབྲེལ་བ་ཡོད་པའི་ཌི་ཊི་ཌི་འདི་གི་དོན་ལུ་ ཡིག་ཆ་ནུས་ལྡན་བཟོ་"
+
+#: ../src/mlview-app.cc:262
+msgid "Apply an _XSL transform"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་བཟོ་བསྒྱུར་ཅིག་འཇུག་སྤྱོད་འབད་(_X)"
+
+#: ../src/mlview-app.cc:263
+msgid "Apply an XSL transform to the current document"
+msgstr "ཨེགསི་ཨེསིཨེལ་བཟོ་བསྒྱུར་ཅིག་ ད་ལྟོའི་ཡིག་ཆ་འདི་ལུ་འཇུག་སྤྱོད་འབད་"
+
+#: ../src/mlview-app.cc:267
+msgid "_Execute command on document"
+msgstr "ཡིག་ཆ་གུ་བརྡ་བཀོད་ལག་ལེན་འཐབ་(_E)"
+
+#: ../src/mlview-app.cc:268
+msgid "Execute a command on the current document"
+msgstr "ཡིག་ཆ་ཅིག་ ད་ལྟོའི་ཡིག་ཆ་འདི་གུ་ལག་ལེན་འཐབ་"
+
+#. File Menu
+#: ../src/mlview-app.cc:277
+msgid "_File"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#: ../src/mlview-app.cc:281
+msgid "Create a new XML Document"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../src/mlview-app.cc:287
+msgid "Open an XML Document"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/mlview-app.cc:292
+msgid "Open _location"
+msgstr "གནས་ཁོངས་ཁ་ཕྱེ་(_l)"
+
+#: ../src/mlview-app.cc:293
+msgid "Open an XML Document from an URI"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ཅིག་ ཡུ་ཨར་ཨའི་ཅིག་ལས་ཁ་ཕྱེ་"
+
+#: ../src/mlview-app.cc:299
+msgid "Quit the MlView application"
+msgstr "ཨེམ་ཨེལ་ཝིཝ་གློག་རིམ་འདི་སྤང་"
+
+#. Edit Menu
+#: ../src/mlview-app.cc:304
+msgid "_Edit"
+msgstr "ཞུན་དག་(_E)"
+
+#: ../src/mlview-app.cc:310
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../src/mlview-app.cc:316
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/mlview-app.cc:321
+msgid "About MlView ..."
+msgstr "ཨེམ་ཨེལ་ཝིཝ་སྐོར་ལས་"
+
+#: ../src/mlview-app.cc:337
+msgid "Author and maintainer:"
+msgstr "རྩེམ་པ་པོ་དང་རྒྱུན་སྐྱོང་པ་:"
+
+#: ../src/mlview-app.cc:339
+msgid "Substantial contributors:"
+msgstr "རྒྱ་ཆེ་དྲགས་ཕན་འདེབས་པ་:"
+
+#: ../src/mlview-app.cc:343
+msgid "Former contributors:"
+msgstr "ཧེ་མའི་ཕན་འདེབས་པ:"
+
+#: ../src/mlview-app.cc:353
+msgid "translator_credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>  (_c)"
+
+#: ../src/mlview-app.cc:371
+msgid "A simple xml editor for GNOME"
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ འཇམ་སམ་ཨེགསི་ཨེམ་ཨེལ་ཞུན་དག་པ་ཅིག་"
+
+#: ../src/mlview-app.cc:737
+msgid "You need to save the current document before you can run a command on it"
+msgstr "ཁྱོད་ཀྱིས་བརྡ་བཀོད་འདི་ གཡོག་མ་བཀོལ་བའི་ཧེ་མ་ ད་ལྟོའི་ཡིག་ཆ་འདི་སྲུང་བཞག་འབད་དགོ་"
+
+#: ../src/mlview-app-context.cc:947
+msgid "Name of the internal subset node"
+msgstr "ནང་འཁོད་ཆ་ཚན་ཡན་ལག་མཐུད་མཚམས་འདི་གི་མིང་"
+
+#: ../src/mlview-app-context.cc:960
+msgid "Internal subset node name:"
+msgstr "ནང་འཁོད་ཆ་ཚན་ཡན་ལག་མཐུད་མཚམས་མིང་:"
+
+#: ../src/mlview-attribute-picker.cc:163
+msgid "OK"
+msgstr "བཏུབ་"
+
+#: ../src/mlview-attribute-picker.cc:165
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: ../src/mlview-attribute-picker.cc:180
+msgid "attribute name"
+msgstr "ཁྱད་ཆོས་མིང་"
+
+#: ../src/mlview-attribute-picker.cc:203
+msgid "attribute type"
+msgstr "ཁྱད་ཆོས་དབྱེ་བ་"
+
+#: ../src/mlview-attribute-picker.cc:232
+msgid "attribute value:"
+msgstr "ཁྱད་ཆོས་གནས་གོང་:"
+
+#: ../src/mlview-attribute-picker.cc:259
+msgid "set value"
+msgstr "གནས་གོང་གཞི་སྒྲིག་འབད་"
+
+#: ../src/mlview-attribute-picker.cc:262
+msgid "add to value"
+msgstr "གནས་གོང་ལུ་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/mlview-attrs-editor.cc:288
+#: ../src/mlview-node-editor.cc:482
+msgid "Attribute names"
+msgstr "ཁྱད་ཆོས་མིང་ཚུ་"
+
+#: ../src/mlview-attrs-editor.cc:304
+#: ../src/mlview-node-editor.cc:484
+msgid "Attribute values"
+msgstr "ཁྱད་ཆོས་གནས་གོང་ཚུ་"
+
+#: ../src/mlview-attrs-editor.cc:410
+msgid "Enter attribute name and value"
+msgstr "ཁྱད་ཆོས་མིང་དང་གནས་གོང་ཐོ་བཀོད་འབད་"
+
+#: ../src/mlview-completion-table.cc:483
+msgid "Possible children"
+msgstr "སྲིད་པའི་ཆ་ལག་"
+
+#: ../src/mlview-completion-table.cc:509
+msgid "Possible previous siblings"
+msgstr "སྲིད་པའི་ཧེ་མའི་སྤུན་ཆ་ཚུ་"
+
+#: ../src/mlview-completion-table.cc:532
+msgid "Possible next siblings"
+msgstr "སྲིད་པའི་ཤུལ་མའི་སྤུན་ཆ་ཚུ་"
+
+#: ../src/mlview-completion-table.cc:555
+msgid "Possible attributes"
+msgstr "སྲིད་པའི་ཁྱད་ཆོས་ཚུ་"
+
+#: ../src/mlview-editor.cc:236
+#, c-format
+msgid ""
+"The document \"%s\" has been modifed.\n"
+"Should I save it before closing it?"
+msgstr ""
+"ཡིག་ཆ་ \"%s\" འདི་ལེགས་བཅོས་འབད་ཡོད།\n"
+"ང་གིས་འདི་ཁ་མ་བསྡམ་པའི་ཧེ་མ་སྲུང་བཞག་འབད་དགོཔ་ཨིན་ན?"
+
+#: ../src/mlview-editor.cc:241
+msgid "_Close without Saving"
+msgstr "སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་(_C)"
+
+#: ../src/mlview-editor.cc:294
+msgid "File already opened"
+msgstr "ཡིག་སྣོད་ཧེ་མ་ལས་རང་ཁ་ཕྱེ་སྟེ་ཡོད་"
+
+#: ../src/mlview-editor.cc:310
+msgid ""
+"This document is already open in the editor.\n"
+" Do you want to reload it ?"
+msgstr ""
+"འ་ནི་ཡིག་ཆ་འདི་ཧེ་མ་ལས་རང་ ཞུན་དག་པ་ནང་ཁ་ཕྱེ་སྟེ་ཡོད།\n"
+" ཁྱོད་ཀྱིས་འདི་ཡང་བསྐྱར་མངོན་གསལ་འབད་ནི་ཨིན་ན?"
+
+#: ../src/mlview-editor.cc:357
+#: ../src/mlview-view-manager.cc:665
+msgid "Select View"
+msgstr "མཐོང་སྣང་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-editor.cc:365
+#: ../src/mlview-view-manager.cc:673
+msgid "Select view to open"
+msgstr "ཁ་ཕྱེ་ནིའི་དོན་ལས་ མཐོང་སྣང་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-editor.cc:670
+#, c-format
+msgid "The following URI is not well formed: %s"
+msgstr "འོག་གི་ཡུ་ཨར་ཨའི་འདི་ ལེགས་སྒྲིག་ཅན་མེན་པས་: %s"
+
+#: ../src/mlview-editor.cc:697
+#, c-format
+msgid "Opening file %s..."
+msgstr "ཡིག་སྣོད་ %s ཁ་ཕྱེ་དོ་"
+
+#: ../src/mlview-editor.cc:933
+msgid "Open xml document"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ཁ་ཕྱེ་"
+
+#: ../src/mlview-editor.cc:938
+msgid "Choose the xml file to open"
+msgstr "ཁ་ཕྱེ་ནིའི་དོན་ལས་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་འདི་ གདམ་ཁ་རྐྱབས་"
+
+#: ../src/mlview-editor.cc:1125
+#, c-format
+msgid "Saving xml document as file %s..."
+msgstr "ཨེགསི་ཨེམ་ཡིག་ཆ་འདི་ ཡིག་སྣོད་ %s སྦེ་སྲུག་བཞགའབད་དོ་"
+
+#: ../src/mlview-editor.cc:1190
+#: ../src/mlview-editor.cc:1280
+msgid "Save xml document"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་སྲུང་བཞག་འབད་"
+
+#: ../src/mlview-editor.cc:1194
+#: ../src/mlview-editor.cc:1283
+msgid "Choose where to save the xml file"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་འདི་ག་སྟེ་ སྲུང་བཞག་འབད་ནི་ཨིན་ན་གདམ་ཁ་རྐྱབས་"
+
+#: ../src/mlview-editor.cc:1595
+#: ../src/mlview-editor.cc:1602
+msgid "The string entered is not a well formed element name!"
+msgstr "ཐོ་བཀོད་འབད་ཡོད་མི་ཡིག་རྒྱུན་འདི་ ལེགས་སྒྲིག་ཅན་རྒྱུ་རྫས་མིང་ཅིག་མེན་པས་!"
+
+#: ../src/mlview-editor.cc:1814
+msgid "Open an xslt stylesheet"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་ སི་ཊ་ཡེལ་ཤིཊི་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/mlview-editor.cc:1819
+msgid "Choose the xslt file to open"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་ཡིག་སྣོད་འདི་ ཁ་ཕྱེ་ནིའི་དོན་ལས་གདམ་ཁ་རྐྱབས་"
+
+#: ../src/mlview-editor.cc:1835
+msgid "document is not an XSLT Stylesheet"
+msgstr "ཡིག་ཆ་འདི་ ཨེགསི་ཨེསི་ཨེལ་ཊི་ སི་ཊ་ཡེལ་ཤིཊི་ཅིག་མེན་པས་"
+
+#: ../src/mlview-editor.cc:1890
+msgid "Select XSLT"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-editor.cc:1900
+msgid "Select xslt stylesheet"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་ སི་ཊ་ཡེལ་ཤིཊི་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-editor.cc:1902
+msgid "No xslt stylesheet is open"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་ སི་ཊ་ཡེལ་ཤིཊི་གཅིག་ཡང་ཁ་ཕྱེ་སྟེ་མིན་འདུག་"
+
+#: ../src/mlview-editor.cc:1945
+msgid "Browse..."
+msgstr "བརྡ་འཚོལ་"
+
+#: ../src/mlview-icon-tree.cc:1114
+#: ../src/mlview-node-type-picker.cc:256
+msgid "Element name"
+msgstr "རྒྱུ་རྫས་མིང་"
+
+#: ../src/mlview-icon-tree.cc:1148
+msgid "Attributes"
+msgstr "ཁྱད་ཆོས་ཚུ་"
+
+#: ../src/mlview-node-editor.cc:1660
+#: ../src/mlview-node-editor.cc:1793
+#: ../src/mlview-node-editor.cc:1818
+#: ../src/mlview-node-editor.cc:1992
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: ../src/mlview-node-type-picker.cc:268
+msgid "Node type"
+msgstr "མཐུད་མཚམས་དབྱེ་བ་"
+
+#: ../src/mlview-node-type-picker.cc:794
+#: ../src/mlview-node-type-picker.cc:970
+msgid "Element node name"
+msgstr "རྒྱུ་རྫས་མཐུད་མཚམས་མིང་"
+
+#: ../src/mlview-node-type-picker.cc:814
+msgid "Comment node content"
+msgstr "བསམ་བཀོད་མཐུད་མཚམས་ནང་དོན་"
+
+#: ../src/mlview-node-type-picker.cc:839
+msgid "Text node content"
+msgstr "ཚིག་ཡིག་མཐུད་མཚམས་ནང་དོན་"
+
+#: ../src/mlview-node-type-picker.cc:864
+msgid "PI node name"
+msgstr "པི་ཨེལ་མཐུད་མཚམས་མིང་"
+
+#: ../src/mlview-node-type-picker.cc:887
+msgid "CDATA section node content"
+msgstr "སི་ཌི་ཨེ་ཊི་ཨེ་ དབྱེ་ཚན་མཐུད་མཚམས་ནང་དོན་"
+
+#: ../src/mlview-node-type-picker.cc:913
+msgid "INTERNAL GENERAL ENTITY node name"
+msgstr "INTERNAL GENERAL ENTITY མཐུད་མཚམས་མིང་"
+
+#: ../src/mlview-node-type-picker.cc:920
+msgid "EXTERNAL GENERAL PARSED ENTITY node name"
+msgstr "EXTERNAL GENERAL PARSED ENTITY མཐུད་མཚམས་མིང་"
+
+#: ../src/mlview-node-type-picker.cc:927
+msgid "EXTERNAL GENERAL UNPARSED ENTITY node name"
+msgstr "EXTERNAL GENERAL UNPARSED ENTITY མཐུད་མཚུགས་མིང་"
+
+#: ../src/mlview-node-type-picker.cc:934
+msgid "INTERNAL PARAMETER ENTITY node name"
+msgstr "INTERNAL PARAMETER ENTITY མཐུད་མཚམས་མིང་"
+
+#: ../src/mlview-node-type-picker.cc:941
+msgid "EXTERNAL PARAMETER ENTITY node name"
+msgstr "EXTERNAL PARAMETER ENTITY མཐུད་མཚམས་མིང་"
+
+#: ../src/mlview-ns-editor.cc:597
+msgid "namespace uris"
+msgstr "མིང་གི་བར་སྟོང་ ཡུ་ཨར་ཨའི་ཨེསི་"
+
+#: ../src/mlview-ns-editor.cc:598
+msgid "namespace prefixes"
+msgstr "མིང་གི་བར་སྟོང་སྔོན་ཚིག་ཚུ་"
+
+#: ../src/mlview-parsing-utils.cc:528
+msgid "The external DTD subset was not found. I couldn't validate the document."
+msgstr "ཕྱིའི་ཌི་ཊི་ཌི་ཆ་ཚན་ཡན་ལག་འདི་མ་འཐོབ། ང་གིས་ཡིག་ཆ་འདི་ནུས་ལྡན་བཟོ་མ་ཚུགས་"
+
+#: ../src/mlview-parsing-utils.cc:817
+#: ../src/mlview-parsing-utils.cc:846
+msgid "Choose a DTD"
+msgstr "ཌི་ཊི་ཌི་ཅིག་གདམ་ཁ་རྐྱབས་"
+
+#: ../src/mlview-parsing-utils.cc:1154
+#: ../src/mlview-parsing-utils.cc:1215
+#, c-format
+msgid "could not load xml document %s"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ %s མངོན་གསལ་འབད་མ་ཚུགས་"
+
+#: ../src/mlview-parsing-utils.cc:1274
+msgid ""
+"Some error(s) occured during the parsing of the dtd.\n"
+"\n"
+msgstr ""
+"ཌི་ཊི་ཌི་འདི་མིང་དཔྱད་འབད་བའི་སྐབས་ འཛོལ་བ་(ཚུ་)འབྱུང་ཡོད།\n"
+"\n"
+
+#: ../src/mlview-parsing-utils.cc:1331
+msgid ""
+"Some error(s) occured during the validation of the document.\n"
+"\n"
+msgstr ""
+"ཡིག་ཆ་འདི་ནུས་ལྡན་བཟོ་བའི་སྐབས་ འཛོལ་བ་(ཚུ་)འབྱུང་ཡོད།\n"
+"\n"
+
+#: ../src/mlview-parsing-utils.cc:1401
+msgid "Choose a dtd file"
+msgstr "ཌི་ཊི་ཌི་ཡིག་སྣོད་ཅིག་གདམ་ཁ་རྐྱབས་"
+
+#: ../src/mlview-schema.cc:297
+msgid "Open a DTD"
+msgstr "ཌི་ཊི་ཌི་ཅིག་ཁ་ཕྱེ་"
+
+#: ../src/mlview-schema.cc:333
+msgid "Unable to open the selected schema."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་འཆར་ལས་འདི་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../src/mlview-schemas-window.cc:538
+msgid "Type"
+msgstr "དབྱེ་བ་"
+
+#: ../src/mlview-schemas-window.cc:543
+msgid "URL"
+msgstr "ཡུ་ཨར་ཨེལ་"
+
+#: ../src/mlview-styled-view.cc:619
+#: ../src/mlview-tree-view.cc:190
+msgid "Add child node"
+msgstr "ཆ་ལག་མཐུད་མཚམས་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/mlview-styled-view.cc:629
+msgid "Insert next node"
+msgstr "ཤུལ་མའི་མཐུད་མཚམས་བཙུགས་"
+
+#: ../src/mlview-styled-view.cc:640
+msgid "Insert previous node"
+msgstr "ཧེ་མའི་མཐུད་མཚམས་བཙུགས་"
+
+#: ../src/mlview-styled-view.cc:656
+#: ../src/mlview-tree-view.cc:228
+msgid "Copy node"
+msgstr "འདྲ་བཤུས་རྐྱབས་ནིའི་མཐུད་མཚམས་"
+
+#: ../src/mlview-styled-view.cc:667
+#: ../src/mlview-tree-view.cc:234
+msgid "Cut node"
+msgstr "བཏོག་ནིའི་མཐུད་མཚམས་"
+
+#: ../src/mlview-styled-view.cc:682
+#: ../src/mlview-tree-view.cc:240
+msgid "Paste node as child"
+msgstr "མཐུད་མཚམས་འདི་ཆ་ལག་སྦེ་སྦྱར་"
+
+#: ../src/mlview-styled-view.cc:693
+msgid "Paste node as prev"
+msgstr "མཐུད་མཚམས་འདི་ཧེ་མ་སྦེ་སྦྱར་"
+
+#: ../src/mlview-styled-view.cc:704
+msgid "Paste node as next"
+msgstr "མཐུད་མཚམས་འདི་ཤུལ་མ་སྦེ་སྦྱར་"
+
+#: ../src/mlview-styled-view.cc:720
+msgid "Expand current node"
+msgstr "ད་ལྟོའི་མཐུད་མཚམས་འདི་རྒྱ་འཕར་"
+
+#: ../src/mlview-styled-view.cc:731
+msgid "Find an xml node"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་མཐུད་མཚམས་ཅིག་འཚོལ་"
+
+#: ../src/mlview-styled-view.cc:763
+msgid "Load a Cascade"
+msgstr "ཀེསི་ཀེཌི་ཅིག་མངོན་གསལ་འབད་"
+
+#: ../src/mlview-styled-view.cc:777
+msgid "Dump box model"
+msgstr "ཕྱགས་སྙིགས་སྒྲོམ་དཔེ་"
+
+#: ../src/mlview-styled-view.cc:988
+#: ../src/mlview-tree-view.cc:898
+msgid "The document already has an internal subset defined !"
+msgstr "ཡིག་ཆ་འདི་ལུ་ཧེ་མ་ལས་རང་ ནང་འཁོད་ཆ་ཚན་ཡན་ལག་ངེས་འཛིན་འབད་འབདཝ་ཅིག་ཡོད་!"
+
+#: ../src/mlview-tree-editor.cc:1304
+msgid "Reached the beginning of the document"
+msgstr "ཡིག་ཆ་འདི་གི་འགོ་བཙུགས་ས་ལུ་ ལྷོད་ཡོད་"
+
+#: ../src/mlview-tree-editor.cc:1322
+msgid "Reached the end of the document"
+msgstr "ཡིག་ཆ་འདི་གི་མཇུག་ལུ་ལྷོད་ཡོད་"
+
+#: ../src/mlview-tree-editor.cc:1984
+msgid "Element start tag"
+msgstr "རྒྱུ་རྫས་འགོ་བཙུགས་ངོ་རྟགས་"
+
+#: ../src/mlview-tree-editor.cc:2007
+msgid "Element type"
+msgstr "རྒྱུ་རྫས་དབྱེ་བ་"
+
+#: ../src/mlview-tree-editor.cc:2780
+#: ../src/mlview-tree-editor.cc:2929
+msgid "Node name is not well formed"
+msgstr "མཐུད་མཚམས་མིང་འདི་ ལེགས་སྒྲིག་ཅན་མེན་པས་"
+
+#: ../src/mlview-tree-editor.cc:2844
+msgid "Nodes of the selected type cannot have an empty content."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དབྱེ་བ་གི་མཐུད་མཚམས་ཚུ་ལུ་ ནང་དོན་སྟོངམ་མི་བཏུབ་"
+
+#: ../src/mlview-tree-editor.cc:5911
+#: ../src/mlview-tree-editor.cc:6486
+msgid "An entity declaration node can only be a child of an internal subset node"
+msgstr "ངོ་བོ་གསལ་བསྒྲགས་མཐུད་མཚམས་འདི་ ནང་འཁོད་ཆ་ཚན་ཡན་ལག་མཐུད་མཚམས་ཅིག་གི་ཆ་ལག་ཅིག་རྐྱངམ་ཅིག་བཏུབ་"
+
+#: ../src/mlview-tree-editor.cc:5918
+msgid "Nodes of the selected type cannot be a DTD node's children."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་དབྱེ་བ་འདི་གི་མཐུད་མཚམས་ཚུ་ ཌི་ཊི་ཌི་མཐུད་མཚམས་ཀྱི་ཆ་ལག་ཚུ་སྦེམི་བཏུབ་"
+
+#.
+#. *we are trying to add a second root element
+#. *to the doc.
+#. *That's kinda forbiden
+#.
+#: ../src/mlview-tree-editor.cc:5932
+msgid "The xml document already has a root element"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་འདི་ལུ་ ཧེ་མ་ལས་རང་ རྩ་བ་རྒྱུ་རྫས་ཅིག་ཡོད་"
+
+#: ../src/mlview-tree-editor.cc:5981
+msgid "The currently selected node cannot have children."
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་ལུ་ ཆ་ལག་ཚུ་མི་བཏུབ་"
+
+#: ../src/mlview-tree-editor.cc:5988
+msgid "add a child node"
+msgstr "ཆ་ལག་མཐུད་མཚམས་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/mlview-tree-editor.cc:6219
+msgid "insert a previous sibling node"
+msgstr "ཧེ་མའི་སྤུན་ཆ་མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-editor.cc:6367
+msgid "insert a next sibling node"
+msgstr "ཤུལ་མའི་སྤུན་ཆ་མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-editor.cc:6500
+msgid "Only DTD nodes are allowed before the document root elements"
+msgstr "ཌི་ཊི་ཌི་མཐུད་མཚམས་ཚུ་ ཡིག་ཆ་རྩ་བ་རྒྱུ་རྫས་འདི་ཚུ་གི་ཧེ་མ་འབད་ཆོག་"
+
+#: ../src/mlview-tree-editor.cc:6505
+msgid "A document root element cannot have next sibling nodes"
+msgstr "ཡིག་ཆ་རྩ་བ་རྒྱུ་རྫས་འདི་ལུ་ ཤུལ་མའི་སྤུན་ཆ་མཐུད་མཚམས་མི་བཏུབ་"
+
+#.
+#. *You can't cut the root element node because
+#. *it makes no sense.
+#.
+#: ../src/mlview-tree-editor.cc:6662
+msgid "You can not cut or suppress the root element node of the document."
+msgstr "ཁྱོད་ཀྱིས་ ཡིག་ཆ་འདི་གི་རྩ་བ་རྒྱུ་རྫས་མཐུད་མཚམས་འདི་ བཏོག་ནི་ཡང་ན་མར་མནོན་འབད་མི་བཏུབ་"
+
+#: ../src/mlview-tree-editor.cc:6667
+msgid "You can not cut or suppress the XML Document Root node"
+msgstr "ཁྱོད་ཀྱིས་ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་རྩ་བ་མཐུད་མཚམས་འདི་ བཏོག་ནི་ཡང་ན་མར་མནོན་འབད་མི་བཏུབ་"
+
+#: ../src/mlview-tree-view.cc:178
+msgid "Comment"
+msgstr "བསམ་བཀོད་"
+
+#: ../src/mlview-tree-view.cc:179
+msgid "Comment the currently selected node"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་བསམ་བཀོད་འབད་"
+
+#: ../src/mlview-tree-view.cc:184
+msgid "Uncomment"
+msgstr "བསམ་བཀོད་མ་འབད་"
+
+#: ../src/mlview-tree-view.cc:185
+msgid "Uncomment the currently selected node"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་བསམ་བཀོད་མ་འབད་"
+
+#: ../src/mlview-tree-view.cc:191
+msgid "Add a child node to the currently selected node"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་ལུ་ ཆ་ལག་མཐུད་མཚམས་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/mlview-tree-view.cc:196
+msgid "Add custom child node"
+msgstr "སྲོལ་སྒྲིག་ཆ་ལག་མཐུད་མཚམས་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/mlview-tree-view.cc:197
+msgid "Add a custom child node to the currently selected node"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་ལུ་ སྲོལ་སྒྲིག་ཆ་ལག་མཐུད་མཚམས་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/mlview-tree-view.cc:203
+msgid "Insert a node after"
+msgstr "ཤུལ་ལས་མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-view.cc:204
+#: ../src/mlview-tree-view.cc:210
+#: ../src/mlview-tree-view.cc:216
+#: ../src/mlview-tree-view.cc:222
+msgid "Insert a node after the currently selected node"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་མི་མཐུད་མཚམས་འདི་གི་ཤུལ་མ་ མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-view.cc:209
+msgid "Insert a custom node after"
+msgstr "ཤུལ་ལས་ སྲོལ་སྒྲིག་མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-view.cc:215
+msgid "Insert a  node before"
+msgstr "ཧེ་མ་མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-view.cc:221
+msgid "Insert a custom node before"
+msgstr "ཧེ་མ་ སྲོལ་སྒྲིག་མཐུད་མཚམས་ཅིག་བཙུགས་"
+
+#: ../src/mlview-tree-view.cc:229
+msgid "Copy the current node to the internal clipboard"
+msgstr "ད་ལྟོའི་མཐུད་མཚམས་འདི་ ནང་འཁོད་འཛིང་པང་འདི་ལུ་འདྲ་བཤུས་རྐྱབས་"
+
+#: ../src/mlview-tree-view.cc:235
+msgid "Cuts the current node to the internal clipboard"
+msgstr "ད་ལྟོའི་མཐུད་མཚམས་འདི་ ནང་འཁོད་འཛིན་པང་འདི་ལུ་ བཏོགཔ་ཨིན་"
+
+#: ../src/mlview-tree-view.cc:241
+msgid "Paste node as a child of the currently selected node"
+msgstr "མཐུད་མཚམས་འདི་ ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་གི་ཆ་ལག་ཅིག་སྦེ་ སྦྱར་"
+
+#: ../src/mlview-tree-view.cc:246
+msgid "Paste node as previous sibling"
+msgstr "མཐུད་མཚམས་འདི་ ཧེ་མའི་སྤུན་ཆ་སྦེ་སྦྱར་"
+
+#: ../src/mlview-tree-view.cc:247
+msgid "Paste node as the previous sibling of the currently selected node"
+msgstr "མཐུད་མཚམས་འདི་ ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་གི་ཧེ་མའི་སྤུན་ཆ་སྦེ་སྦྱར་"
+
+#: ../src/mlview-tree-view.cc:252
+msgid "Paste node as next sibling"
+msgstr "མཐུད་མཚམས་འདི་ ཤུལ་མའི་སྤུན་ཆ་སྦེ་སྦྱར་"
+
+#: ../src/mlview-tree-view.cc:253
+msgid "Paste node as the next sibling of the currently selected node"
+msgstr "མཐུད་མཚམས་འདི་ ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་གི་ཤུལ་མའི་སྤུན་ཆ་སྦེ་ སྦྱར་"
+
+#: ../src/mlview-tree-view.cc:258
+msgid "Select next sibling"
+msgstr "ཤུལ་མའི་སྤུན་ཆ་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-tree-view.cc:259
+msgid "Select the next sibling node"
+msgstr "ཤུལ་མའི་སྤུན་ཆ་མཐུད་མཚམས་འདི་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-tree-view.cc:264
+msgid "Select prev sibling"
+msgstr "ཧེ་མའི་སྤུན་ཆ་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-tree-view.cc:265
+msgid "Select the previous sibling node"
+msgstr "ཧེ་མའི་སྤུན་ཆ་མཐུད་མཚམས་འདི་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-tree-view.cc:270
+msgid "Select parent node"
+msgstr "རྩ་ལག་མཐུད་མཚམས་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-tree-view.cc:271
+msgid "Select the parent of the currently selected node"
+msgstr "ད་ལྟོ་སེལ་འཐུ་འབད་ཡོད་པའི་མཐུད་མཚམས་འདི་གི་རྩ་ལག་འདི་སེལ་འཐུ་འབད་"
+
+#: ../src/mlview-tree-view.cc:277
+msgid "Find node"
+msgstr "མཐུད་མཚམས་འཚོལ་"
+
+#: ../src/mlview-tree-view.cc:278
+msgid "Find a node"
+msgstr "མཐུད་མཚམས་ཅིག་འཚོལ་"
+
+#: ../src/mlview-tree-view.cc:708
+msgid "Elements"
+msgstr "རྒྱུ་རྫས་ཚུ་"
+
+#: ../src/mlview-tree-view.cc:712
+msgid "Raw XML"
+msgstr "རགས་པ་ཨེགསི་ཨེམ་ཨེལ་"
+
+#: ../src/mlview-tree-view.cc:1482
+msgid "Choose the depth of the tree expansion"
+msgstr "རྩ་འབྲེལ་རྒྱ་འཕར་འབད་ནིའི་གཏིང་ཚད་འདི་གདམ་ཁ་རྐྱབས་"
+
+#: ../src/mlview-tree-view.cc:1494
+msgid "expand to leaves"
+msgstr "བཞག་ནི་ཚུ་ལུ་རྒྱ་འཕར་འབད་"
+
+#: ../src/mlview-tree-view.cc:1500
+msgid "absolute expansion depth:"
+msgstr "ཡང་དག་རྒྱ་འཕར་གཏིང་ཚད་:"
+
+#: ../src/mlview-source-view.cc:110
+msgid "Close last tag"
+msgstr "མཇུག་གི་ངོ་རྟགས་ཁ་བསྡམ་"
+
+#: ../src/mlview-source-view.cc:111
+msgid "Closes the last opened tags, if any"
+msgstr "མཇུག་ལུ་ཁ་ཕྱེ་ཡོད་པའི་ངོ་རྟགས་ཚུ་ཁ་བསྡམ་ཨིན་ "
+
+#: ../src/mlview-source-view.cc:116
+msgid "Close all tags"
+msgstr "ངོ་རྟགས་ཚུ་ཆ་མཉམ་ཁ་བསྡམ་"
+
+#: ../src/mlview-source-view.cc:117
+msgid "Closes all the relevant opened tag, if any"
+msgstr "ཁ་བསྡམ་ཏེ་ཡོད་པའི་འབྲེལ་ཡོད་ངོ་རྟགས་ཆ་མཉམ་ ཁ་བསྡམ་ཨིན་"
+
+#: ../src/mlview-validator-window.cc:151
+msgid "Document changed; Re-run validation"
+msgstr "ཡིག་ཆ་བསྒྱུར་བཅོས་འབད་ཡོད་  ནུས་ལྡན་བཟོ་ནི་ལོག་གཡོག་བཀོལ་"
+
+#: ../src/mlview-validator-window.cc:305
+msgid "No schema selected"
+msgstr "འཆར་ལས་སེལ་འཐུ་འབད་འབདཝ་མེད་"
+
+#: ../src/mlview-validator-window.cc:315
+msgid "You must associate a schema with your document in order to validate it."
+msgstr "ཁྱོད་ཀྱིས་འཆར་ལས་ཅིག་ ཁྱོད་རའི་ཡིག་ཆ་འདི་ལུ་ ནུས་ལྡན་བཟོ་ནིའི་དོན་ལས་ འབྲེལ་བ་བཟོ་དགོ"
+
+#: ../src/mlview-validator-window.cc:360
+msgid "Valid document"
+msgstr "ནུས་ལྡན་ཡིག་ཆ་"
+
+#: ../src/mlview-validator-window.cc:372
+msgid "Invalid document"
+msgstr "ནུས་མེད་ཡིག་ཆ་"
+
+#: ../src/mlview-validator-window.cc:384
+msgid "Validation error"
+msgstr "ནུས་ལྡན་བཟོ་ནི་འཛོལ་བ་"
+
+#: ../src/mlview-validator-window.cc:440
+#: ../src/mlview-validator-window.cc:702
+msgid "Message"
+msgstr "འཕྲིན་དོན་"
+
+#: ../src/mlview-validator-window.cc:443
+msgid "Warning"
+msgstr "ཉེན་བརྡ་"
+
+#: ../src/mlview-validator-window.cc:446
+msgid "Error"
+msgstr "འཛོལ་བ་"
+
+#: ../src/mlview-validator-window.cc:449
+msgid "Fatal"
+msgstr "འཚུབ་ཆེན་"
+
+#: ../src/mlview-validator-window.cc:507
+msgid "No node for message"
+msgstr "འཕྲིན་དོན་གྱི་དོན་ལུ་མཐུད་མཚམས་མེད་"
+
+#: ../src/mlview-validator-window.cc:517
+msgid "No existing node is associated with this message."
+msgstr "འ་ནི་འཕྲིན་དོན་དང་གཅིག་ཁར་འབྲེལ་བ་ཡོད་པའི་ ཡོད་བཞིན་པའི་མཐུད་མཚམས་མེད་"
+
+#: ../src/mlview-validator-window.cc:645
+msgid "Node"
+msgstr "ནོཌི་"
+
+#: ../src/mlview-validator-window.cc:678
+msgid "Priority"
+msgstr "གཙོ་རིམ་"
+
+#: ../src/mlview-view-adapter.cc:204
+msgid "Type the name of the current view"
+msgstr "ད་ལྟོའི་མཐོང་སྣང་འདི་གི་མིང་འདི་ཡིག་དཔར་རྐྱབས་"
+
+#: ../src/mlview-xml-document.cc:3470
+#, c-format
+msgid ""
+"The file '%s' already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"ཡིག་སྣོད་ '%s' ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན།\n"
+"ཁྱོད་ཀྱིས་འདི་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: ../src/mlview-xml-document.cc:3478
+msgid "Save"
+msgstr "སྲུངས་"
+
+#: ../src/mlview-xslt-utils.cc:134
+msgid "XSLT transformation failed"
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་བཟོ་བསྒྱུར་འཐུས་ཤོར་འབྱུང་ཡོད་"
+
+#: ../src/mlview-view-factory.cc:40
+msgid "Tree view"
+msgstr "རྩ་ལག་མཐོང་སྣང་"
+
+#: ../src/mlview-view-factory.cc:41
+msgid "An editing view well suited for the tree oriented editing paradigm"
+msgstr "ཞུན་དག་འབད་ནིའི་མཐོང་སྣང་འདི་ རྩ་འབྲེལ་བསྒྱུར་ཡོད་པའི་ཞུན་དག་འབད་ནིའི་དཔེ་འདི་གི་དོན་ལུ་ འོས་འབབ་ཡོདཔ་"
+
+#: ../src/mlview-view-factory.cc:48
+msgid "A highly experimental view to render/edit XML using a CSS"
+msgstr "མཐོ་དྲགས་སྦེ་མོ་བཏབ་འབད་ནིའི་མཐོངསྣང་ཅིག་ སི་ཨེསི་ཨེསི་ཅིག་ལག་ལེན་འཐབ་ཐོག་ ཨེགསི་ཨེམ་ཨེལ་ ལྷ་སྟོན་འབད་ནི་/ཞུན་དག་འབད་ནིའི་དོན་ལས་"
+
+#: ../src/mlview-view-factory.cc:54
+msgid "Source view"
+msgstr "འབྱུང་ཁུངས་མཐོང་སྣང་"
+
+#: ../src/mlview-view-factory.cc:55
+msgid "An editing view well suited for the source oriented editing paradigm"
+msgstr "ཞུན་དག་འབད་ནིའི་མཐོང་སྣང་འདི་ འབྱུང་ཁུངས་བསྒྱུར་ཡོད་པའི་ཞུན་དག་འབད་ནིའི་དཔེ་འདི་གི་དོན་ལུ་ འོས་འབབ་ཡོདཔ་"
+
+#. namespace mlview
+#: ../ui/mlview-css-picker.glade.h:1
+#: ../ui/mlview-schemas-window.glade.h:1
+#: ../ui/mlview-uri-dialog.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../ui/mlview-css-picker.glade.h:2
+msgid "Author CSS path"
+msgstr "རྩོམ་པ་པོ་སི་ཨེསི་ཨེསི་འགྲུལ་ལམ་"
+
+#: ../ui/mlview-css-picker.glade.h:3
+msgid "Load a cascade"
+msgstr "ཀེསི་ཀེཌི་ཅིག་མངོན་གསལ་འབད་"
+
+#: ../ui/mlview-css-picker.glade.h:4
+msgid "Select the CSS StyleSheets to be used to render the XML document"
+msgstr "སི་ཨེསི་ཨེསི་ སི་ཊ་ཡེལ་ཤིཊི་འདི་ཚུ་ ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་འདི་ལྷག་སྟོན་འབད་ནིའི་དོན་ལས་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་"
+
+#: ../ui/mlview-css-picker.glade.h:5
+msgid "User Agent CSS Path"
+msgstr "ལག་ལེན་པ་ལས་ཚབ་སི་ཨེསི་ཨེསི་འགྲུལ་ལམ་"
+
+#: ../ui/mlview-css-picker.glade.h:6
+msgid "User CSS path"
+msgstr "ལག་ལེན་པ་སི་ཨེསི་ཨེསི་འགྲུལ་ལམ་"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:1
+#: ../ui/mlview-dtd-choice.glade.h:1
+msgid "Choose another DTD"
+msgstr "ཌི་ཊི་ཌི་གཞན་མི་གདམ་ཁ་རྐྱབས་"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:2
+msgid "DTD Choice"
+msgstr "ཌི་ཊི་ཌི་གདམ་ཁ་"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:3
+#: ../ui/mlview-dtd-choice.glade.h:3
+msgid "Do not validate"
+msgstr "ནུས་ལྡན་མ་བཟོ་"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:4
+msgid "I have not found that DTD. Do you want to choose another one?"
+msgstr "ཌི་ཊི་ཌི་འདི་ང་གིས་མ་འཐོབ། ཁྱོད་ཀྱིས་གཞན་མི་ཅིག་གདམ་ཁ་རྐྱབས་ནི་ཨིན་ན?"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:5
+msgid "Public ID:"
+msgstr "མི་མང་ཨའི་ཌི་:"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:6
+msgid "System ID:"
+msgstr "རིམ་ལུགས་ཨའི་ཌི་:"
+
+#: ../ui/mlview-dtd-choice-dtd-not-resolved.glade.h:7
+msgid "The document refers to a DTD with:"
+msgstr "དང་གཅིག་ཁར་ཡིག་ཆ་འདི་གིས་ ཌི་ཊི་ཌི་ཅིག་ལུ་གཞི་བསྟུན་འབདཝ་ཨིན་"
+
+#: ../ui/mlview-dtd-choice.glade.h:2
+msgid "DTD choice"
+msgstr "ཌི་ཊི་དི་གདམ་ཁ་"
+
+#: ../ui/mlview-dtd-choice.glade.h:4
+msgid "Do you want to load and use that DTD or choose another one?"
+msgstr "ཁྱོད་ཀྱིས་ཌི་ཊི་ཌི་འདི་མངོན་གསལ་འབད་ནི་དང་ལག་ལེན་འཐབ་ནི་ཡང་ན་ གཞན་མི་ཅིག་གདམ་ཁ་རྐྱབས་ནི་ཨིན་ན?"
+
+#: ../ui/mlview-dtd-choice.glade.h:5
+msgid "Load that DTD"
+msgstr "འ་ནི་ཌི་ཊི་ཌི་མངོན་གསལ་འབད་"
+
+#: ../ui/mlview-dtd-choice.glade.h:6
+msgid "Public Id:"
+msgstr "མི་མང་ཨའི་ཌི་:"
+
+#: ../ui/mlview-dtd-choice.glade.h:7
+msgid "System Id:"
+msgstr "རིམ་ལུགས་ཨའི་ཌི་:"
+
+#: ../ui/mlview-dtd-choice.glade.h:8
+msgid "That document has been resolved to:"
+msgstr "ལུ་ ཡིག་ཆ་འདི་མོས་མཐུན་འབད་ཡོད་"
+
+#: ../ui/mlview-dtd-choice.glade.h:9
+msgid "The document refers a DTD with:"
+msgstr "དང་གཅིག་ཁར་འབད་མི་ཌི་ཊི་ཌི་ཅིག་ལུ་ ཡིག་ཆ་འདི་གཞི་བསྟུན་འབདཝ་ཨིན་"
+
+#: ../ui/mlview-dtd-choice.glade.h:10
+msgid "Using system catalog."
+msgstr "རིམ་ལུགས་ཐོ་གཞུང་ལག་ལེན་འཐབ་དོ་:"
+
+#: ../ui/mlview-main-app-win2.glade.h:1
+#: ../ui/mlview-main-app-win.glade.h:2
+msgid "MlView"
+msgstr "ཨེམ་ཨེལ་ཝིཝ་"
+
+#: ../ui/mlview-main-app-win.glade.h:1
+msgid "Apply XSLT..."
+msgstr "ཨེགསི་ཨེསི་ཨེལ་ཊི་འཇུག་སྤྱོད་འབད་"
+
+#: ../ui/mlview-main-app-win.glade.h:3
+msgid "New view on doc"
+msgstr "ཌོཀ་གུ་མཐོང་སྣང་གསརཔ་"
+
+#: ../ui/mlview-main-app-win.glade.h:4
+msgid "Rename view"
+msgstr "མཐོང་སྣང་བསྐྱར་མིང་བཏགས་"
+
+#: ../ui/mlview-main-app-win.glade.h:5
+msgid "Schemas..."
+msgstr "འཆར་ལས་ཚུ་"
+
+#: ../ui/mlview-main-app-win.glade.h:6
+msgid "Validate document"
+msgstr "ཡིག་ཆ་ནུས་ལྡན་བཟོ་"
+
+#: ../ui/mlview-main-app-win.glade.h:7
+msgid "_Action"
+msgstr "བྱ་བ་(_A)"
+
+#: ../ui/mlview-main-app-win.glade.h:8
+msgid "_New"
+msgstr "གསརཔ་(_N)"
+
+#: ../ui/mlview-schemas-window.glade.h:2
+msgid "Add Schema"
+msgstr "འཆར་ལས་ཁ་སྐོང་རྐྱབས་"
+
+#: ../ui/mlview-schemas-window.glade.h:3
+#: ../ui/mlview-new-document.glade.h:6
+msgid "Schema Type: "
+msgstr "འཆར་ལས་དབྱེ་བ་:"
+
+#: ../ui/mlview-schemas-window.glade.h:5
+msgid "Select the schema to associate to the current document:"
+msgstr "ད་ལྟོའི་ཡིག་ཆ་འདི་ལུ་འབྲེལ་བ་བཟོ་ནིའི་དོན་ལས་ འཆར་ལས་འདི་སེལ་འཐུ་འབད་:"
+
+#: ../ui/mlview-search-node.glade.h:1
+msgid "Case sensitive"
+msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁ་"
+
+#: ../ui/mlview-search-node.glade.h:2
+msgid "Match upper/lower case"
+msgstr "ཚུགས་ཡིག་/མགྱོགས་ཡིག་མཐུན་སྒྲིག་འབད་"
+
+#: ../ui/mlview-search-node.glade.h:3
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་"
+
+#: ../ui/mlview-search-node.glade.h:4
+#: ../ui/mlview-prefs-window.glade.h:20
+msgid "Search among attribute names"
+msgstr "ཁྱད་ཆོས་མིང་ཚུ་ལས་འཚོལ་ཞིབ་འབད་"
+
+#: ../ui/mlview-search-node.glade.h:5
+#: ../ui/mlview-prefs-window.glade.h:21
+msgid "Search among attribute values"
+msgstr "ཁྱད་ཆོས་གནས་གོང་ཚུ་ལས་འཚོལ་ཞིབ་འབད་"
+
+#: ../ui/mlview-search-node.glade.h:6
+#: ../ui/mlview-prefs-window.glade.h:22
+msgid "Search among node contents"
+msgstr "མཐུད་མཚམས་ནང་དོན་ཚུ་ལས་འཚོལ་ཞིབ་འབད་"
+
+#: ../ui/mlview-search-node.glade.h:7
+#: ../ui/mlview-prefs-window.glade.h:23
+msgid "Search among node names"
+msgstr "མཐུད་མཚམས་མིང་ཚུ་ལས་འཚོལ་ཞིབ་འབད་"
+
+#: ../ui/mlview-search-node.glade.h:8
+msgid "Search options"
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་"
+
+#: ../ui/mlview-search-node.glade.h:9
+msgid "Search:"
+msgstr "འཚོལ་ཞིབ་:"
+
+#: ../ui/mlview-uri-dialog.glade.h:2
+msgid ""
+"Enter the location (URI) of the file you would like to open:\n"
+"<span color=\"darkgray\"><i><small>(eg: http://www.mlview.org/index.html)</small></i></span>"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཁ་ཕྱེ་དགོ་མནོ་མི་ཡིག་སྣོད་འདི་གི་གནས་ཁོང་(ཡུ་ཨར་ཨའི་) འདི་ཐོ་བཀོད་འབད་:\n"
+"<འཕར་ཚད་ཚོས་གཞི་=\"darkgray\"><i><small>(དཔེར་བརྗོད་: http://www.mlview.org/index.html)</small></i></span>"
+
+#: ../ui/mlview-uri-dialog.glade.h:4
+msgid "Open location"
+msgstr "གནས་ཁོངས་ཁ་ཕྱེ་"
+
+#: ../ui/mlview-validation-report.glade.h:1
+msgid "<b>Document</b>"
+msgstr "<b>ཡིག་ཆ་</b>"
+
+#: ../ui/mlview-validation-report.glade.h:2
+msgid "<b>Schema</b>"
+msgstr "<b>འཆར་ལས་</b>"
+
+#: ../ui/mlview-validation-report.glade.h:3
+msgid "<b>Status</b>"
+msgstr "<b>གནས་ཚད་</b>"
+
+#: ../ui/mlview-validation-report.glade.h:4
+msgid "<b>Validation</b>"
+msgstr "<b>ནུས་ལྡན་བཟོ་ནི་</b>"
+
+#: ../ui/mlview-validation-report.glade.h:5
+msgid "<span color=\"gray\">Document not validated ; Run validation</span>"
+msgstr "<འཕར་ཚད་ལྗིད་ཚད་=\"gray\">ཡིག་ཆ་ནུས་ལྡན་མེན་ ; ནུས་ལྡན་བཟོ་ནི་གཡོག་བཀོལ་</span>"
+
+#: ../ui/mlview-validation-report.glade.h:6
+msgid "<span color=\"gray\">Document not validated ; press 'Validate'</span>"
+msgstr "<འཕར་ཚད་ལྗིད་ཚད་=\"gray\">ཡིག་ཆ་ནུས་ལྡན་མ་བཟོ་བས་ ;  'Validate' ཨེབ་</span>"
+
+#: ../ui/mlview-validation-report.glade.h:7
+msgid "Run"
+msgstr "གཡོག་བཀོལ་"
+
+#: ../ui/mlview-validation-report.glade.h:8
+msgid "Validation"
+msgstr "ནུས་ལྡན་བཟོ་ནི་"
+
+#: ../ui/mlview-validation-report.glade.h:9
+msgid "_Validate"
+msgstr "ནུས་ལྡན་བཟོ་(_V)"
+
+#: ../ui/mlview-validation-report.glade.h:10
+msgid "unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../ui/mlview-new-document.glade.h:1
+msgid "1.0"
+msgstr "༡.༠"
+
+#: ../ui/mlview-new-document.glade.h:2
+msgid "Associated Schema"
+msgstr "འབྲེལ་བ་ཡོད་པའི་འཆར་ལས་"
+
+#: ../ui/mlview-new-document.glade.h:3
+msgid "Encoding:"
+msgstr "ཨིན་ཀོ་ཌིང་:"
+
+#: ../ui/mlview-new-document.glade.h:4
+msgid "New Document"
+msgstr "ཡིག་ཆ་གསརཔ་"
+
+#: ../ui/mlview-new-document.glade.h:5
+msgid "RootNode name:"
+msgstr "རྩ་བ་མཐུད་མཚམས་མིང་:"
+
+#: ../ui/mlview-new-document.glade.h:7
+msgid "XML Version:"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཐོན་རིམ་:"
+
+#: ../ui/mlview-node-editor.glade.h:1
+msgid "<b>Attributes</b>"
+msgstr "<b>ཁྱད་ཆོས་ཚུ་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:2
+msgid "<b>CDATA Node</b>"
+msgstr "<b>CDATA མཐུད་མཚམས་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:3
+msgid "<b>Comment Node</b>"
+msgstr "<b>བསམ་བཀོད་ མཐུད་མཚམས་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:4
+msgid "<b>Content</b>"
+msgstr "<b>ནང་དོན་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:5
+msgid "<b>Document Node</b>"
+msgstr "<b>ཡིག་ཆ་མཐུད་མཚམས་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:6
+msgid "<b>Element Node</b>"
+msgstr "<b>རྒྱུ་རྫས་མཐུད་མཚམས་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:7
+msgid "<b>Namespace</b>"
+msgstr "<b>མིང་གི་བར་སྟོང་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:8
+msgid "<b>Processing Instruction Node</b>"
+msgstr "<b>བཟོ་སྦྱོར་གྱི་བསླབ་སྟོན་མཐུད་མཚམས་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:9
+msgid "<b>Text Node Content</b>"
+msgstr "<b>ཚིག་ཡིག་མཐུད་མཚམས་ནང་དོན་</b>"
+
+#: ../ui/mlview-node-editor.glade.h:10
+msgid "Document URI"
+msgstr "ཡིག་ཆ་ཡུ་ཨར་ཨའི་"
+
+#: ../ui/mlview-node-editor.glade.h:11
+msgid "External ID"
+msgstr "ཕྱིའི་ཨའི་ཌི་"
+
+#: ../ui/mlview-node-editor.glade.h:12
+msgid "Name"
+msgstr "མིང་"
+
+#: ../ui/mlview-node-editor.glade.h:13
+msgid "Standalone"
+msgstr "རང་དབང་"
+
+#: ../ui/mlview-node-editor.glade.h:14
+msgid "System ID"
+msgstr "རིམ་ལུགས་ཨའི་ཌི་"
+
+#: ../ui/mlview-node-editor.glade.h:15
+msgid "XML Encoding"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཨིན་ཀོ་ཌིག་"
+
+#: ../ui/mlview-node-editor.glade.h:16
+msgid "XML Version"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཐོན་རིམ་"
+
+#: ../ui/mlview-search-box.glade.h:1
+msgid "Case Sensitive"
+msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁ་"
+
+#: ../ui/mlview-search-box.glade.h:2
+msgid "Find : "
+msgstr "འཚོལ་:"
+
+#: ../ui/mlview-search-box.glade.h:3
+msgid "Find Next"
+msgstr "ཤུལ་མམ་འཚོལ་"
+
+#: ../ui/mlview-search-box.glade.h:4
+msgid "Find Previous"
+msgstr "ཧེ་མམ་འཚོལ་"
+
+#: ../ui/mlview-prefs-window.glade.h:1
+msgid "<b><big>GENERAL</big></b>"
+msgstr "<b><big>GENERAL</big></b>"
+
+#: ../ui/mlview-prefs-window.glade.h:2
+msgid "<b><big>LABEL</big></b>"
+msgstr "<b><big>LABEL</big></b>"
+
+#: ../ui/mlview-prefs-window.glade.h:3
+msgid "<b><big>SEARCH</big></b>"
+msgstr "<b><big>SEARCH</big></b>"
+
+#: ../ui/mlview-prefs-window.glade.h:4
+msgid "<b><big>SOURCEVIEW</big></b>"
+msgstr "<b><big>SOURCEVIEW</big></b>"
+
+#: ../ui/mlview-prefs-window.glade.h:5
+msgid "<b><big>TREEVIEW</big></b>"
+msgstr "<b><big>TREEVIEW</big></b>"
+
+#: ../ui/mlview-prefs-window.glade.h:6
+msgid "<b><big>VIEWS</big></b>"
+msgstr "<b><big>VIEWS</big></b>"
+
+#: ../ui/mlview-prefs-window.glade.h:7
+msgid "<b>Colors</b>"
+msgstr "<b>ཚོས་གཞི་ཚུ་</b>"
+
+#: ../ui/mlview-prefs-window.glade.h:8
+msgid "<b>Font</b>"
+msgstr "<b>ཡིག་གཟུགས་</b>"
+
+#: ../ui/mlview-prefs-window.glade.h:9
+msgid "<b>Indentation</b>"
+msgstr "<b>འགོ་མཚམས་བཀལ་བ་</b>"
+
+#: ../ui/mlview-prefs-window.glade.h:10
+msgid "<b>Line numbers</b>"
+msgstr "<b>གྲལ་ཐིག་ཨང་ཚུ་</b>"
+
+#: ../ui/mlview-prefs-window.glade.h:11
+msgid "<b>Margin</b>"
+msgstr "<b>ས་སྟོང་</b>"
+
+#: ../ui/mlview-prefs-window.glade.h:12
+msgid "Auto indentation"
+msgstr "རང་བཞིན་འགོ་མཚམས་བཀལ་བ་"
+
+#: ../ui/mlview-prefs-window.glade.h:13
+msgid "Background "
+msgstr "རྒྱབ་གཞི་"
+
+#: ../ui/mlview-prefs-window.glade.h:14
+msgid "Default edition view"
+msgstr "སྔོན་སྒྲིག་ཞུན་དག་མཐོང་སྣང་"
+
+#: ../ui/mlview-prefs-window.glade.h:15
+msgid "Enable completion box"
+msgstr "ཡོངས་སྒྲུབ་སྒྲོམ་ལྕོགས་ཅན་བཟོ་"
+
+#: ../ui/mlview-prefs-window.glade.h:16
+msgid "Foreground"
+msgstr "གདོང་གཞི་"
+
+#: ../ui/mlview-prefs-window.glade.h:17
+msgid "Margin position "
+msgstr "ས་སྟོང་གནས་ས་"
+
+#: ../ui/mlview-prefs-window.glade.h:18
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../ui/mlview-prefs-window.glade.h:19
+msgid "Replace tabs with spaces"
+msgstr "མཆོང་ལྡེ་ཚུ་ བར་སྟོང་གིས་ཚབ་བཙུགས་"
+
+#: ../ui/mlview-prefs-window.glade.h:24
+msgid "Show line numbers"
+msgstr "གྲལ་ཐིག་ཨང་ཚུ་སྟོན་"
+
+#: ../ui/mlview-prefs-window.glade.h:25
+msgid "Show margin "
+msgstr "ས་སྟོང་སྟོན་"
+
+#: ../ui/mlview-prefs-window.glade.h:26
+msgid "Tabs width"
+msgstr "མཆོང་ལྡེ་གི་རྒྱ་ཚད་"
+
+#: ../ui/mlview-prefs-window.glade.h:27
+msgid "The following categories contain view-specific options."
+msgstr "འོག་གི་དབྱེ་རིམ་ཚུ་ནང་ མཐོང་སྣང་དམིགས་བསལ་གདམ་ཁ་ཚུ་ཡོད།"
+
+#: ../ui/mlview-prefs-window.glade.h:28
+msgid ""
+"Tree View\n"
+"Source View"
+msgstr ""
+"རྩ་འབྲེལ་མཐོང་སྣང་\n"
+"འབྱུང་ཁུངས་མཐོང་སྣང་"
+
+#: ../ui/mlview-prefs-window.glade.h:30
+msgid "Tree expansion depth"
+msgstr "རྩ་འབྲེལ་རྒྱ་འཕར་གཏིང་ཚད་"
+
+#: ../ui/mlview-prefs-window.glade.h:31
+msgid "Use validation"
+msgstr "ནུས་ལྡན་བཟོ་ནི་ལག་ལེན་འཐབ་"
+
+#: ../ui/mlview-prefs-window.glade.h:32
+msgid "_Reset to Default"
+msgstr "སྔོན་སྒྲིག་ལུ་སླར་སྒྲིག་འབད་(_R)"
+
+#~ msgid "Open File"
+#~ msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་"
+#~ msgid "Close File"
+#~ msgstr "ཡིག་སྣོད་ཁ་བསྡམ་"
+#~ msgid "Save File"
+#~ msgstr "ཡིག་སྣོད་སྲུངས་"
+#~ msgid "Opening file %s ..."
+#~ msgstr "ཡིག་སྣོད་ %s ཁ་ཕྱེ་དོ་"
+#~ msgid "Name of the root element"
+#~ msgstr "རྩ་བ་རྒྱུ་རྫས་འདི་གི་མིང་"
+#~ msgid "Root element name:"
+#~ msgstr "རྩ་བ་རྒྱུ་རྫས་མིང་:"
+#~ msgid "Saving xml document as file %s ..."
+#~ msgstr "ཨེགསི་ཨེམ་ཧེལ་ཡིག་ཆ་ ཡིག་སྣོད་ %s སྦེ་སྲུང་བཞག་འབད་དོ་"
+#~ msgid "Choose a xml document"
+#~ msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་ཆ་ཅིག་གདམ་ཁ་རྐྱབས་"
+#~ msgid "Document has changed"
+#~ msgstr "ཡིག་ཆ་འདི་བསྒྱུར་བཅོས་འབད་ཡོད་"
+#~ msgid "Save before closing"
+#~ msgstr "ཁ་མ་བསྡམ་པའི་ཧེ་མ་སྲུང་བཞག་འབད་"
+#~ msgid "Close without saving"
+#~ msgstr "སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་"
+#~ msgid "The document has been modifed. Should I save it before closing it ?"
+#~ msgstr "ཡིག་ཆ་འདི་ལེགས་བཅོས་འབད་ཡོད། ང་གིས་འདི་ཁ་མ་བསྡམ་པའི་ཧེ་མ་ སྲུང་བཞག་འབད་ནི་ཨིན་ན?"
+#~ msgid ""
+#~ "Enter the command to execute on the current document:\n"
+#~ "<span size=\"small\" color=\"darkgray\">%s will be replaced by the "
+#~ "document filename</span>"
+#~ msgstr ""
+#~ "ད་ལྟོའི་ཡིག་ཆ་འདི་གུ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ བརྡ་བཀོད་འདི་ཐོ་བོད་འབད་:\n"
+#~ "<འཕར་ཚད་ཚད་=\"small\" ཚོས་གཞི་=\"darkgray\">%s འདི་ཡིག་ཆ་ཡིག་སྣོད་མིང་གིས་ཚབ་བཙུགས་"
+#~ "འོང་</span>"
+#~ msgid "Execute command..."
+#~ msgstr "བརྡ་བཀོད་ལག་ལེན་འཐབ་"
+#~ msgid "Execution output"
+#~ msgstr "ལག་ལེན་འཐབ་ནིའི་ཨའུཊི་པུཊི་"
+#~ msgid "Extensions"
+#~ msgstr "རྒྱ་བསྐྱེད་ཚུ་"
+#~ msgid "Load Plugin"
+#~ msgstr "པ་ལག་ཨིན་མངོན་གསལ་འབད་"
+#~ msgid "Select the plugin to be loaded :"
+#~ msgstr "མངོན་གསལ་འབད་ནིའི་དོན་ལས་པ་ལག་ཨིན་འདི་སེལ་འཐུ་འབད་:"
+#~ msgid "_Load new..."
+#~ msgstr "གསརཔ་མངོན་གསལ་འབད་(_L)"
+

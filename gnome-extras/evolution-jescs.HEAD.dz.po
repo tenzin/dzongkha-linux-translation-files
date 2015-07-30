@@ -1,0 +1,853 @@
+# translation of gnome-bluetooth to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# tashi tshewang <tashi2ta@yahoo.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-jescs.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-02 02:20+0000\n"
+"PO-Revision-Date: 2007-03-28 10:43+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+
+#: ../calendar/cal-backend-wcap.c:1374
+msgid "Can't save calendar data: Malformed URI."
+msgstr "ཟླ་ཐོའི་གནས་སྡུད:Malformed URI.སྲུང་མི་བཏུབ་པས།"
+
+#. override the labels/defaults of the standard settings
+#: ../camel/camel-sunone-provider.c:28
+msgid "_User"
+msgstr "ལག་ལེན་པ།(_U)"
+
+#. extra SunOne configuration settings
+#: ../camel/camel-sunone-provider.c:31
+msgid "Calendar"
+msgstr "ཟླ་ཐོ།"
+
+#: ../camel/camel-sunone-provider.c:32
+msgid "_Server URL:"
+msgstr "སར་བརURL:(S)"
+
+#: ../camel/camel-sunone-provider.c:33
+msgid "_Use System Proxy Settings"
+msgstr "རིམ་ལུགས་པོརོག་སི་གཞི་སྒྲིག་ལག་ལེན་འཐབ།(U)"
+
+#: ../camel/camel-sunone-provider.c:43
+msgid "Sun Calendar WCAP"
+msgstr "སན་ཟླ་ཐོ་WCAP"
+
+#: ../camel/camel-sunone-provider.c:44
+msgid "For accessing Sun Calendar servers"
+msgstr "སན་ཟླ་ཐོ་འཛུལ་སྤྱོད་འབད་ནི་དོན་གྱི་སར་བར།"
+
+#: ../storage/GNOME_Evolution_SunOne_Storage.server.in.in.h:1
+msgid "*Control*F6"
+msgstr "*ཚད་འཛིན་*ཨེཕ་༦"
+
+#: ../storage/GNOME_Evolution_SunOne_Storage.server.in.in.h:2
+msgid "Evolution Sun JESCS Component"
+msgstr "སན་JESCSཆ་ཤས་ཨི་བོ་ལུ་ཤན།"
+
+#: ../storage/GNOME_Evolution_SunOne_Storage.server.in.in.h:3
+msgid "JESCS"
+msgstr "ཇེ་ཨི་ཨེས་ཨི་ཨེས།"
+
+#: ../storage/GNOME_Evolution_SunOne_Storage.server.in.in.h:4
+msgid "SUN Connector for Jescs"
+msgstr "ཇེ་ཨི་ཨེས་ཨི་ཨེས་གི་སན་ཀ་ནེག་ཊར།"
+
+#: ../storage/GNOME_Evolution_SunOne_Storage.server.in.in.h:5
+msgid "Sun Java System Calendar Server Backend"
+msgstr "སན་ཇ་བ་རིམ་ལུགས་ཟླ་ཐོ་སར་བར་ཟླ་ཐོ་འཕྲུལ་ཁང་།"
+
+#: ../storage/GNOME_Evolution_SunOne_Storage.server.in.in.h:6
+msgid "_JESCS"
+msgstr "ཇེ་ཨི་ཨེས་ཨི་ཨེས(J)"
+
+#: ../storage/main.c:160
+msgid "Sun JESCS Connector"
+msgstr "སན་ཇེ་ཨི་ཨེས་ཨི་ཨེས་མཐུད་བྱེད།"
+
+#: ../storage/sunone-account.c:344
+msgid "Enter password"
+msgstr "ཆོག་ཡིག"
+
+#: ../storage/sunone-account.c:637
+msgid "Sun JESCS Account is offline"
+msgstr "སན་ཇེ་ཨི་ཨེས་སི་ཨེས་རྩིས་ཐོ་འདི་ཨོཕ་ལ་ཡིན་ཨིན་པས།"
+
+#: ../storage/sunone-account.c:648
+#, c-format
+msgid "Please enter the password for %s@%s"
+msgstr "%s@%sགི་དོན་ལུ་ཆོག་ཡིག་བཙུགས།"
+
+#: ../storage/sunone-account.c:672
+#, c-format
+msgid ""
+"Unable to authenticate to WCAP server.\n"
+"Wrong password or could not connect to server.\n"
+"Please enter the password for %s@%s\n"
+"or click Cancel button to cancel"
+msgstr ""
+"ཌབ་ལུ་སི་ཨེ་པི་སར་བར་ལུ་བདེན་བཤད་འབད་མ་ཚུགས། \n"
+"ཆོག་ཡིག་འཛོལ་བ་ཡང་ན་སར་བར་ལུ་མཐུད་མ་ཚུགས། \n"
+"%s@%s\n"
+"དོན་ལུ་ཆོག་ཡིག་ཐོ་བཀོད་འབད་གནང་ཡང་ན་  ཆ་མེད་གཏང་ནི་ལུ་ཆ་མེད་ཨེབ་གཏང་འདི་ཨེབ་གཏང་འབད་"
+
+#: ../storage/sunone-add-permission-dialog.c:227
+msgid "Could not load UI for dialog"
+msgstr "ཌའི་ལོག་གི་དོན་ལུ་ཡུ་ཨེལ་མངོན་གསལ་འབད་མ་ཚུགས།ི"
+
+#: ../storage/sunone-add-permission-dialog.c:300
+#: ../storage/sunone-permissions-dialog.c:615
+msgid "Everybody"
+msgstr "ག་ར།"
+
+#: ../storage/sunone-add-permission-dialog.c:316
+msgid "Edit permission"
+msgstr "ཞུན་དག་གནང་བ།"
+
+#: ../storage/sunone-add-permission-dialog.c:318
+msgid "Add permission"
+msgstr "ཁ་བསྐོང་གནང་བ།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:1
+msgid "Add new permission"
+msgstr "གནང་བ་གསརཔ་ཁ་བསྐོང་རྐྱབས།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:2
+#: ../storage/sunone-permissions-dialog.c:566
+msgid "Availability"
+msgstr "ཡོད་ཧིང་།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:3
+#: ../storage/sunone-permissions-dialog.c:585
+msgid "Delete"
+msgstr "བཏོན་གཏང་།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:4
+#: ../storage/sunone-permissions-dialog.c:572
+msgid "Invite"
+msgstr "དྲན་བརྡ་འབད་ནི།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:5
+#: ../storage/sunone-permissions-dialog.c:591
+msgid "Modify"
+msgstr "ལེགས་བཅོས།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:6
+#: ../storage/sunone-permissions-dialog.glade.h:24
+msgid "Permissions"
+msgstr "གནང་བ།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:7
+#: ../storage/sunone-permissions-dialog.c:579
+msgid "Read"
+msgstr "ལྷག་ནི།"
+
+#: ../storage/sunone-add-permission-dialog.glade.h:8
+msgid "User:"
+msgstr "ལག་ལེན་པ།"
+
+#: ../storage/sunone-config-listener.c:299
+msgid "Personal Calendar"
+msgstr "རང་དོན་ཟླ་ཐོ།"
+
+#: ../storage/sunone-config-listener.c:303
+msgid "Personal Task"
+msgstr "རང་དོན་ལས་འགན།"
+
+#: ../storage/sunone-config-listener.c:496
+msgid ""
+"Some changes to Sun JESCS account configuration will take\n"
+"place after you quit and restart Evolution."
+msgstr ""
+"སན་ཇེ་ཨི་ཨེས་ཨི་ཨེས་རྩིས་ཐོ་རིམ་སྒྲིག་ནང་ལུ་བསྒྱུར་བཅོས་དག་པ་ཅི་འབྱུང་འོང་\n"
+"ཁྱོད་ཀྱི་སྤང་ཞིནམ་ལས་ཨི་བུ་ལུ་ཤན་ལོག་འགོ་བཙུགས།།"
+
+#: ../storage/sunone-config-listener.c:520
+msgid "The account is connecting now. It will be deleted after you restart Evolution."
+msgstr "རྩིས་ཐོ་འདི་ད་ལྟོ་མཐུད་དོ། ཁྱོད་ཀྱི་སྤང་ཞིནམ་ལས་ཨི་བུ་ལུ་ཤན་ལོག་འགོ་བཙུགས།"
+
+#: ../storage/sunone-folder-tree.c:145
+msgid ""
+"Cannot display this folder in this view.\n"
+" Please switch to Calendars/Tasks view to see the calendars/tasks.\n"
+"\n"
+" This view is used to create or delete calendar/tasks folders,\n"
+" manage folder permissions and subscriptions, show your invitations."
+msgstr ""
+"མཐོང་སྣང་འདི་ནང་སྣོད་འཛིན་འདི་བཀྲམ་སྟོན་འབད་མི་བཏུབཔ།\n"
+"ཟླ་ཐོ་གུར་སོར་བསྒྱུར་འབད་གནང་/ཟླ་ཐོ་ལྟ་ནི་གི་དོན་ལུ་ལས་ཀ་ཚུ་གི་མཐོང་སྣང་།\n"
+"\n"
+"མཐོང་སྣང་འདི་ཟླ་ཐོ་གསརཔ་བཟོ་ནི་ཡངན་བཏོན་གཏང་ནི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད/ལས་ཀ་སྣོད་འཛིན\n"
+"སྣོད་འཛིན་གནང་བ་དང་མཁོ་མངགས་འཛིན་སྐྱོང་འཐབ། ཁྱོད་རའི་དྲན་བརྡ་སྟོན།"
+
+#: ../storage/sunone-folder-tree.c:412
+msgid "Connecting..."
+msgstr "མཐུད་དོ..."
+
+#: ../storage/sunone-folder-tree.c:661
+msgid "Offline"
+msgstr "ཨོཕ་ལ་ཡིན།"
+
+#: ../storage/sunone-folder-tree.c:743
+msgid "Cannot create the specified folder: Cannot create a folder with that name"
+msgstr "གསལ་བཀོད་ཅན་གྱི་སྣོད་འཛིན་གསར་གཏོད་འབད་མ་ཚུགས། འ་ནི་མིང་ལྡན་པའི་སྣོད་འཛིན་གསར་གཏོད་འབད་མི་ཚུགས་པས།།"
+
+#: ../storage/sunone-folder-tree.c:746
+msgid "Cannot create the specified folder: Operation not supported"
+msgstr "གསལ་བཀོད་ཅན་གྱི་སྣོད་འཛིན་གསར་གཏོད་འབད་མ་ཚུགས། བཀོལ་སྤྱོད་རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../storage/sunone-folder-tree.c:751
+msgid "Cannot create the specified folder: Permission denied"
+msgstr "གསལ་བཀོད་ཅན་གྱི་སྣོད་འཛིན་གསར་གཏོད་འབད་མ་ཚུགས། གནང་བ་ལུ་ཉན་མ་བཏུབ།"
+
+#: ../storage/sunone-folder-tree.c:754
+msgid "Cannot create the specified folder: Generic error"
+msgstr "གསལ་བཀོད་ཅན་གྱི་སྣོད་འཛིན་གསར་གཏོད་འབད་མ་ཚུགས། དབྱེ་རིགས་ཀྱི་འཛོལ་བ།"
+
+#: ../storage/sunone-folder-tree.c:793
+msgid "This operation cannot be performed in offline mode"
+msgstr "ཨོཕ་ལ་ཡིན་ཐབས་ལམ་ནང་ལུ་བཀུལ་སྤྱོད་འབད་མ་བཏུབད་མ་ཚུགས།"
+
+#: ../storage/sunone-folder-tree.c:861
+msgid "Create calendar"
+msgstr "ཟླ་ཐོ་གསར་གཏོད།"
+
+#: ../storage/sunone-folder-tree.c:880
+msgid "Please input the name of the new calendar:"
+msgstr "ཟླ་ཐོ་གསརཔ་གི་མིང་ཨིན་པུཊ་འབད་གནང་།"
+
+#: ../storage/sunone-folder-tree.c:1010
+msgid "Rename folder"
+msgstr "སྣོད་འཛིན་གྱི་མིང་ལོག་བཏགས་གནང་།"
+
+#: ../storage/sunone-folder-tree.c:1019
+#, c-format
+msgid "Rename the \"%s\" folder to:"
+msgstr "\"%s\"གི་སྣོད་འཛིན་མིང་ལོག་བཏགས།"
+
+#: ../storage/sunone-folder-tree.c:1122
+#, c-format
+msgid "Really delete folder \"%s\"?"
+msgstr "\"%s\"གི་སྣོད་འཛིན་དོན་དོན་རང་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../storage/sunone-folder-tree.c:1239
+msgid "_New Calendar..."
+msgstr "ཟླ་ཐོ་གསརཔ།(N)"
+
+#: ../storage/sunone-folder-tree.c:1240
+msgid "_Rename"
+msgstr "བསྐྱར་མིང་བཏགས།(R)"
+
+#: ../storage/sunone-folder-tree.c:1241
+msgid "_Delete"
+msgstr "བཏོན་གཏང་།(D)"
+
+#: ../storage/sunone-folder-tree.c:1245
+msgid "_Permissions..."
+msgstr "གནང་བ།(P)"
+
+#: ../storage/sunone-folder-tree.c:1246
+msgid "Manage _Subscriptions..."
+msgstr "འཛིན་སྐྱོང་མཁོ་མངགས།(S)"
+
+#: ../storage/sunone-folder-tree.c:1247
+msgid "_Login"
+msgstr "ནང་བསྐྱོད།(L)"
+
+#: ../storage/sunone-invitation-list.c:291
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../storage/sunone-invitation-list.c:494
+msgid "Starts"
+msgstr "འགོ་བཙུགས།"
+
+#: ../storage/sunone-invitation-list.c:503
+msgid "Summary"
+msgstr "བཅུད་དོན།"
+
+#: ../storage/sunone-invitation-list.c:512
+msgid "Organizer"
+msgstr "འགོ་འདྲེན་པ།"
+
+#: ../storage/sunone-invitation-list.c:521
+#: ../storage/sunone-invitation-list-model.c:357
+#: ../storage/sunone-invitation-list-model.c:695
+msgid "Needs Action"
+msgstr "བྱ་བ་དགོཔ།"
+
+#: ../storage/sunone-invitation-list.c:522
+#: ../storage/sunone-invitation-list-model.c:360
+#: ../storage/sunone-invitation-list-model.c:697
+msgid "Accepted"
+msgstr "དང་ལེན་འབད་ཡོདཔ།"
+
+#: ../storage/sunone-invitation-list.c:523
+#: ../storage/sunone-invitation-list-model.c:363
+#: ../storage/sunone-invitation-list-model.c:699
+msgid "Declined"
+msgstr "ཁ་མ་བཟེདཔ།"
+
+#: ../storage/sunone-invitation-list.c:524
+#: ../storage/sunone-invitation-list-model.c:366
+#: ../storage/sunone-invitation-list-model.c:701
+msgid "Tentative"
+msgstr "ངེས་མེད།"
+
+#: ../storage/sunone-invitation-list.c:534
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#: ../storage/sunone-invitation-list-model.c:327
+#: ../storage/sunone-invitation-list-model.c:330
+msgid "Untitled Appointment"
+msgstr "གོ་གནས་མེད་པའི་བསྐོ་བཞགཔ།"
+
+#: ../storage/sunone-invitation-list-model.c:369
+msgid "N/A"
+msgstr "ཨེན/ཨེ"
+
+#. strftime format of a weekday and a date.
+#: ../storage/sunone-itip-view.c:138
+msgid "Today"
+msgstr "ད་རིས།"
+
+#. strftime format of a time,
+#. in 24-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:143
+msgid "Today %H:%M"
+msgstr "ད་རིས%H:%M"
+
+#. strftime format of a time,
+#. in 24-hour format.
+#: ../storage/sunone-itip-view.c:147
+msgid "Today %H:%M:%S"
+msgstr "ད་རིས%H:%M:%S"
+
+#. strftime format of a time,
+#. in 12-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:152
+msgid "Today %l:%M %p"
+msgstr "ད་རེས་%l:%M %p"
+
+#. strftime format of a time,
+#. in 12-hour format.
+#: ../storage/sunone-itip-view.c:156
+msgid "Today %l:%M:%S %p"
+msgstr "ད་རེས་%l:%M:%S %p"
+
+#. strftime format of a weekday and a date.
+#: ../storage/sunone-itip-view.c:166
+msgid "Tomorrow"
+msgstr "ནངས་པ་"
+
+#. strftime format of a time,
+#. in 24-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:171
+msgid "Tomorrow %H:%M"
+msgstr "ནངས་པ་%H:%M"
+
+#. strftime format of a time,
+#. in 24-hour format.
+#: ../storage/sunone-itip-view.c:175
+msgid "Tomorrow %H:%M:%S"
+msgstr "ནངས་པ་%H:%M:%S"
+
+#. strftime format of a time,
+#. in 12-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:180
+msgid "Tomorrow %l:%M %p"
+msgstr "ནངས་པ་%l:%M %p"
+
+#. strftime format of a time,
+#. in 12-hour format.
+#: ../storage/sunone-itip-view.c:184
+msgid "Tomorrow %l:%M:%S %p"
+msgstr "ནངས་པ་%l:%M:%S %p"
+
+#. strftime format of a weekday.
+#: ../storage/sunone-itip-view.c:203
+#, c-format
+msgid "%A"
+msgstr "%A"
+
+#. strftime format of a weekday and a
+#. time, in 24-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:208
+msgid "%A %H:%M"
+msgstr "%A %H:%M"
+
+#. strftime format of a weekday and a
+#. time, in 24-hour format.
+#: ../storage/sunone-itip-view.c:212
+msgid "%A %H:%M:%S"
+msgstr "%A %H:%M:%S"
+
+#. strftime format of a weekday and a
+#. time, in 12-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:217
+msgid "%A %l:%M %p"
+msgstr "%A %l:%M %p"
+
+#. strftime format of a weekday and a
+#. time, in 12-hour format.
+#: ../storage/sunone-itip-view.c:221
+msgid "%A %l:%M:%S %p"
+msgstr "%A %l:%M:%S %p"
+
+#. strftime format of a weekday and a date
+#. without a year.
+#: ../storage/sunone-itip-view.c:230
+msgid "%A, %B %e"
+msgstr "%A, %B %e"
+
+#. strftime format of a weekday, a date
+#. without a year and a time,
+#. in 24-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:236
+msgid "%A, %B %e %H:%M"
+msgstr "%A, %B %e %H:%M"
+
+#. strftime format of a weekday, a date without a year
+#. and a time, in 24-hour format.
+#: ../storage/sunone-itip-view.c:240
+msgid "%A, %B %e %H:%M:%S"
+msgstr "%A, %B %e %H:%M:%S"
+
+#. strftime format of a weekday, a date without a year
+#. and a time, in 12-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:245
+msgid "%A, %B %e %l:%M %p"
+msgstr "%A, %B %e %l:%M %p"
+
+#. strftime format of a weekday, a date without a year
+#. and a time, in 12-hour format.
+#: ../storage/sunone-itip-view.c:249
+msgid "%A, %B %e %l:%M:%S %p"
+msgstr "%A, %B %e %l:%M:%S %p"
+
+#. strftime format of a weekday and a date.
+#: ../storage/sunone-itip-view.c:255
+msgid "%A, %B %e, %Y"
+msgstr "%A, %B %e, %Y"
+
+#. strftime format of a weekday, a date and a
+#. time, in 24-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:260
+msgid "%A, %B %e, %Y %H:%M"
+msgstr "%A, %B %e, %Y %H:%M"
+
+#. strftime format of a weekday, a date and a
+#. time, in 24-hour format.
+#: ../storage/sunone-itip-view.c:264
+msgid "%A, %B %e, %Y %H:%M:%S"
+msgstr "%A, %B %e, %Y %H:%M:%S"
+
+#. strftime format of a weekday, a date and a
+#. time, in 12-hour format, without seconds.
+#: ../storage/sunone-itip-view.c:269
+msgid "%A, %B %e, %Y %l:%M %p"
+msgstr "%A, %B %e, %Y %l:%M %p"
+
+#. strftime format of a weekday, a date and a
+#. time, in 12-hour format.
+#: ../storage/sunone-itip-view.c:273
+msgid "%A, %B %e, %Y %l:%M:%S %p"
+msgstr "%A, %B %e, %Y %l:%M:%S %p"
+
+#: ../storage/sunone-itip-view.c:293
+#: ../storage/sunone-itip-view.c:294
+#: ../storage/sunone-itip-view.c:364
+#: ../storage/sunone-itip-view.c:365
+msgid "An unknown person"
+msgstr "གང་ཟག་ངོ་མ་ཤེསཔ་ཅིག"
+
+#: ../storage/sunone-itip-view.c:299
+#, c-format
+msgid "<b>%s</b> through %s has published the following meeting information:"
+msgstr "%s བརྒྱུད་དེ་<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཀྱི་བརྡ་དོན་པར་བསྐྲུན་འབད་ནུག"
+
+#: ../storage/sunone-itip-view.c:301
+#, c-format
+msgid "<b>%s</b> has published the following meeting information:"
+msgstr "<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཀྱི་བརྡ་དོན་པར་བསྐྲུན་འབད་ནུག"
+
+#: ../storage/sunone-itip-view.c:306
+#, c-format
+msgid "<b>%s</b> has delegated the following meeting to you:"
+msgstr "<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཁྱོད་ལུ་བགོ་སྤེལ་འབད་ནུག"
+
+#: ../storage/sunone-itip-view.c:309
+#, c-format
+msgid "<b>%s</b> through %s requests your presence at the following meeting:"
+msgstr "%sབརྒྱུད་དེ་<b>%s</b> གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ནང་ལུ་ཁྱོད་ཀྱི་ ངོ་འཛོམས་དགོཔ་འབད་ཞུ་བ་འབདཝ་ཨིན་མས།"
+
+#: ../storage/sunone-itip-view.c:311
+#, c-format
+msgid "<b>%s</b> requests your presence at the following meeting:"
+msgstr "<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ནང་ལུ་ཁྱོད་ཀྱི་ ངོ་འཛོམས་དགོཔ་འབད་ཞུ་བ་འབདཝ་ཨིན་མས།"
+
+#: ../storage/sunone-itip-view.c:314
+msgid "Please choose your answer from the status field of the table above."
+msgstr "གོང་གི་ཐིག་ཁྲམ་གྱི་གནས་ཚད་ས་སྒོ་ནང་ལས་ཁྱོད་རའི་ལན་གདམ་གནང་།"
+
+#: ../storage/sunone-itip-view.c:320
+#, c-format
+msgid "<b>%s</b> through %s wishes to add to an existing meeting:"
+msgstr "%s བརྒྱུད་དེ་<b>%s</b>གིས་ད་ལྟོ་ཡོད་པའི་ཞལ་འཛོམས་གུར་ཁ་བསྐོང་རྐྱབ་ནི་རེ་བ་ཨིན་པས།"
+
+#: ../storage/sunone-itip-view.c:322
+#, c-format
+msgid "<b>%s</b> wishes to add to an existing meeting:"
+msgstr "<b>%s</b>གིས་ད་ལྟོ་ཡོད་པའི་ཞལ་འཛོམས་གུར་ཁ་བསྐོང་རྐྱབ་ནི་རེ་བ་ཨིན་པས།"
+
+#: ../storage/sunone-itip-view.c:325
+#, c-format
+msgid "<b>%s</b> wishes to receive the latest information for the following meeting:"
+msgstr "<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཀྱི་དོན་ལས་ མཐའ་མཇུག་གི་བརྡ་དོན་འཐོབ་ནིའི་རེ་བ་བསྐྱེདཔ་ཨིན་པས།"
+
+#: ../storage/sunone-itip-view.c:328
+#, c-format
+msgid "<b>%s</b> has sent back the following meeting response:"
+msgstr "<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཀྱི་ལན་ལོག་གཏང་ནུགཔས།"
+
+#: ../storage/sunone-itip-view.c:332
+#, c-format
+msgid "<b>%s</b> through %s has cancelled the following meeting:"
+msgstr "%s བརྒྱུད་དེ་<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཚུ་ཆ་མེད་གཏང་ཡོད། "
+
+#: ../storage/sunone-itip-view.c:334
+#, c-format
+msgid "<b>%s</b> has cancelled the following meeting."
+msgstr "<b>%s</b>གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཚུ་ཆ་མེད་གཏང་ཡོད། "
+
+#: ../storage/sunone-itip-view.c:337
+#, c-format
+msgid "<b>%s</b> has proposed the following meeting changes."
+msgstr "<b>%s</b> གིས་ཞལ་འཛོམས་ཀྱི་བསྒྱུར་བཅོས་གྲོས་འཆར་བཀོད་ཡོད། "
+
+#: ../storage/sunone-itip-view.c:341
+#, c-format
+msgid "<b>%s</b> through %s has declined the following meeting changes:"
+msgstr "%sབརྒྱུད་དེ་<b>%s</b> གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཀྱི་བསྒྱུར་བཅོས་ཁ་མ་བཟེདཔ།"
+
+#: ../storage/sunone-itip-view.c:343
+#, c-format
+msgid "<b>%s</b> has declined the following meeting changes."
+msgstr "<b>%s</b> གིས་གཤམ་འཁོད་ཞལ་འཛོམས་ཀྱི་བསྒྱུར་བཅོས་ཁ་མ་བཟེདཔ།"
+
+#: ../storage/sunone-itip-view.c:370
+#, c-format
+msgid "<b>%s</b> through %s has published the following task:"
+msgstr "%sབརྒྱུད་དེ<b>%s</b> གིས་གཤམ་འཁོད་ལས་ཀ་ཚུ་པར་བསྐྲུན་འབད་དགོ"
+
+#: ../storage/sunone-itip-view.c:372
+#, c-format
+msgid "<b>%s</b> has published the following task:"
+msgstr "<b>%s</b> གིས་གཤམ་འཁོད་ལས་ཀ་ཚུ་པར་བསྐྲུན་འབད་དགོ"
+
+#: ../storage/sunone-itip-view.c:377
+#, c-format
+msgid "<b>%s</b> requests the assignment of %s to the following task:"
+msgstr "<b>%s</b> གིས་གཤམ་འཁོད་ལས་ཀ་ཚུ་གི་དོན་ལུ་ %sགི་འགན་ལས་དགོ་པའི་ཞུ་བ་འབད་ཨིན་མས།པར་བསྐྲུན་འབད་དགོ"
+
+#: ../storage/sunone-itip-view.c:380
+#, c-format
+msgid "<b>%s</b> through %s has assigned you a task:"
+msgstr "%sབརྒྱུད་དེ<b>%s</b> གིས་ཁྱོད་ལུ་ལས་ཀ་ཅིག་འགན་སྤྲོད་ཡོད།"
+
+#: ../storage/sunone-itip-view.c:382
+#, c-format
+msgid "<b>%s</b> has assigned you a task:"
+msgstr "<b>%s</b> གིས་ཁྱོད་ལུ་ལས་ཀ་ཅིག་འགན་སྤྲོད་ཡོད།"
+
+#: ../storage/sunone-itip-view.c:388
+#, c-format
+msgid "<b>%s</b> through %s wishes to add to an existing task:"
+msgstr "%sབརྒྱུད་དེ<b>%s</b> གིས་ད་ལྟོ་ཡོད་པའི་ལུ་ལསགུར་ཁ་བསྐོང་རྐྱབ་ནི་གི་རེ་བ་བསྐྱེདཔ་ཨིན།"
+
+#: ../storage/sunone-itip-view.c:390
+#, c-format
+msgid "<b>%s</b> wishes to add to an existing task:"
+msgstr "<b>%s</b> གིས་ད་ལྟོ་ཡོད་པའི་ལུ་ལསགུར་ཁ་བསྐོང་རྐྱབ་ནི་གི་རེ་བ་བསྐྱེདཔ་ཨིན།"
+
+#: ../storage/sunone-itip-view.c:393
+#, c-format
+msgid "<b>%s</b> wishes to receive the latest information for the following assigned task:"
+msgstr "<b>%s</b> གིས་འགན་སྤྲོད་ཡོད་པའི་གཤམ་འཁོད་ལས་ཀ་ཚུ་གི་དོན་ལས་བརྡ་དོན་གསརཔ་འབྱོར་བའི་རེ་བ་བསྐྱེདཔ་ཨིན།"
+
+#: ../storage/sunone-itip-view.c:396
+#, c-format
+msgid "<b>%s</b> has sent back the following assigned task response:"
+msgstr "<b>%s</b> གིས་གཤམ་འཁོད་ི་་ཀའི་ལན་ལོག་གཏང་ཡོད་ཨིན།ྲོད་ཡོད།"
+
+#: ../storage/sunone-itip-view.c:400
+#, c-format
+msgid "<b>%s</b> through %s has cancelled the following assigned task:"
+msgstr "%sབརྒྱུད་དེ<b>%s</b> གིས་འགན་སྤྲོད་ཡོད་པའི་གཤམ་འཁོད་ལས་ཀ་ཆ་མེད་གཏང་ཡོད།"
+
+#: ../storage/sunone-itip-view.c:402
+#, c-format
+msgid "<b>%s</b> has cancelled the following assigned task:"
+msgstr "<b>%s</b> གིས་འགན་སྤྲོད་ཡོད་པའི་གཤམ་འཁོད་ལས་ཀ་ཆ་མེད་གཏང་ཡོད།"
+
+#: ../storage/sunone-itip-view.c:405
+#, c-format
+msgid "<b>%s</b> has proposed the following task assignment changes:"
+msgstr "<b>%s</b> གིས་གཤམ་འཁོད་ལས་ཀའི་བསྒྱུར་བཅོས་ཀྱི་གྲས་འཆར་བཀོད་ཡོད།"
+
+#: ../storage/sunone-itip-view.c:409
+#, c-format
+msgid "<b>%s</b> through %s has declined the following assigned task:"
+msgstr "%sབརྒྱུད་དེ<b>%s</b> གིས་འགན་སྤྲོད་ཡོད་པའི་གཤམ་འཁོད་ལས་ཀ་ཁ་མ་བཟེད་པས།"
+
+#: ../storage/sunone-itip-view.c:411
+#, c-format
+msgid "<b>%s</b> has declined the following assigned task:"
+msgstr "<b>%s</b> གིས་འགན་སྤྲོད་ཡོད་པའི་གཤམ་འཁོད་ལས་ཀ་ཁ་མ་བཟེད་པས།"
+
+#. Location
+#: ../storage/sunone-itip-view.c:727
+msgid "Location:"
+msgstr "གནས་ཁོངས།"
+
+#. Start time
+#: ../storage/sunone-itip-view.c:735
+msgid "Start time:"
+msgstr "འགོ་བཙུགས་དུས་ཚོད།"
+
+#. End time
+#: ../storage/sunone-itip-view.c:744
+msgid "End time:"
+msgstr "མཇུག་བསྡུའི་དུས་ཚོད།"
+
+#. Status
+#: ../storage/sunone-itip-view.c:752
+msgid "Status:"
+msgstr "གནས་ཚད།"
+
+#. Comment
+#: ../storage/sunone-itip-view.c:760
+#: ../storage/sunone-itip-view.c:805
+msgid "Comment:"
+msgstr "བསམ་བཀོད།"
+
+#: ../storage/sunone-permissions-dialog.c:232
+msgid "Could not load UI for add-owner-dialog"
+msgstr "ཨེཌ་ཨོ་ནར་ཌའི་ལོག་གི་དོན་ལུ་ ཨུ་ཨེལ་མངོན་གསལ་འབད་མ་ཚུགས།ི"
+
+#: ../storage/sunone-permissions-dialog.c:331
+#: ../storage/sunone-subscription-dialog.c:229
+msgid "Could not load permissions dialog UI"
+msgstr "གནང་བ་ཅན་གྱི་ཌའི་ལོག་ཡུ་ཨེལ་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ../storage/sunone-permissions-dialog.c:531
+msgid "Could not set permissions for the folder"
+msgstr "སྣོད་འཛིན་གྱི་དོན་ལུ་གནང་བ་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../storage/sunone-permissions-dialog.c:559
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../storage/sunone-permissions-dialog.c:611
+#, c-format
+msgid "Domain %s"
+msgstr "ཌོ་མེན%s"
+
+#: ../storage/sunone-permissions-dialog.c:618
+#: ../storage/sunone-permissions-dialog.glade.h:25
+msgid "Primary owners"
+msgstr "གཞི་རིམ་བདག་པོ།"
+
+#: ../storage/sunone-permissions-dialog.c:621
+#: ../storage/sunone-permissions-dialog.glade.h:23
+msgid "Owners"
+msgstr "བདག་པོ།"
+
+#: ../storage/sunone-permissions-dialog.c:624
+#: ../storage/sunone-permissions-dialog.glade.h:21
+msgid "Non-owners"
+msgstr "བདག་པོ་མེད་པ།"
+
+#: ../storage/sunone-permissions-dialog.c:654
+msgid "User"
+msgstr "ལག་ལེན་པ།"
+
+#: ../storage/sunone-permissions-dialog.c:687
+msgid "Folder permissions"
+msgstr "སྣོད་འཛིན་གནང་བ།"
+
+#: ../storage/sunone-permissions-dialog.c:701
+msgid "Could not get properties for this folder."
+msgstr "སྣོད་འཛིན་འདི་གི་དོན་ལུ་རྒྱུ་དངོས་མ་ཐོབ།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:1
+#: ../storage/sunone-subscription-dialog.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../storage/sunone-permissions-dialog.glade.h:2
+msgid "A domain"
+msgstr "ཌོ་མན་ཅིག"
+
+#: ../storage/sunone-permissions-dialog.glade.h:3
+msgid "A specific user"
+msgstr "དམིགས་བསལ་ལག་ལེན་པ་གཅིག"
+
+#: ../storage/sunone-permissions-dialog.glade.h:4
+msgid "Add"
+msgstr "ཁ་བསྐོང་རྐྱབ།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:5
+msgid "All users"
+msgstr "ལག་ལེན་པ་ག་ར།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:6
+msgid "Basic permissions"
+msgstr "གཞི་རྟེན་གནང་བ།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:7
+msgid "Calendar components"
+msgstr "ཟླ་ཐོའི་ཆ་ཤས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:8
+msgid "Calendar components and properties"
+msgstr "ཟླ་ཐོའི་ཆ་ཤས་དང་རྒྱུ་དངོས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:9
+msgid "Calendar properties"
+msgstr "ཟླ་ཐོའཔ་རྒྱུ་དངོས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:10
+msgid "Can accept/decline invitations"
+msgstr "དང་ལེན་འབད་ཚུགས/དྲན་བརྡ་ཁ་མ་བཟེད།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:11
+msgid "Can cancel meetings"
+msgstr "ཞལ་འཛོམས་ཆ་མེད་གཏང་ཚུགས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:12
+msgid "Can delete"
+msgstr "བཏོན་གཏང་ཚུགས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:13
+msgid "Can invite others"
+msgstr "གཞན་ཡང་དྲན་བརྡ་བྱིན་ཚུགས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:14
+msgid "Can schedule meetings"
+msgstr "ཞལ་འཛོམས་ཀྱི་འཆར་རིམ་བཟོ་ཚུགས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:15
+msgid "Deny access from"
+msgstr "ལས་འཛུལ་སྤྱོད་འབད་ནི་ཉན་མི་བཏུབ་པས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:16
+msgid "Down"
+msgstr "མར།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:17
+msgid "Enter user name"
+msgstr "ལག་ལེན་པའི་མིང་བཙུགས།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:18
+msgid "Free/Busy access"
+msgstr "དལཝ/ཁོམ་མེད་འཛུལ་སྤྱོད་"
+
+#: ../storage/sunone-permissions-dialog.glade.h:19
+msgid "Grant access to"
+msgstr "འཛུལ་སྤྱོད་འབད་བཅུག"
+
+#: ../storage/sunone-permissions-dialog.glade.h:20
+msgid "Meeting permissions"
+msgstr "ཞལ་འཛོམས་གནང་བ།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:22
+msgid "On"
+msgstr "ཨཱོན།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:26
+msgid "Read access"
+msgstr "འཛུལ་སྤྱོད་ལྷག"
+
+#: ../storage/sunone-permissions-dialog.glade.h:27
+msgid "Remove"
+msgstr "རྩ་བསྐྲད་གཏང་ནི།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:28
+msgid "Up"
+msgstr "ཡར།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:29
+msgid "Write access"
+msgstr "འཛུལ་སྤྱོད་འབྲི།"
+
+#: ../storage/sunone-permissions-dialog.glade.h:30
+msgid "_Edit"
+msgstr "ཞུན་དག་རྐྱབ་ནི།(E)"
+
+#: ../storage/sunone-subscription-dialog.c:440
+msgid "Could not set preferences for this connection"
+msgstr "འ་ནི་མཐུད་ལམ་གྱི་དོན་ལུ་དགའ་གདམ་ཚུ་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../storage/sunone-subscription-dialog.c:467
+msgid "Subscription"
+msgstr "མཁོ་མངགས།"
+
+#: ../storage/sunone-subscription-dialog.c:474
+msgid "Calendar ID"
+msgstr "ཟླ་ཐོའི་ཨའི་ཌི།"
+
+#: ../storage/sunone-subscription-dialog.c:481
+msgid "Owner"
+msgstr "བདག་པོ།"
+
+#: ../storage/sunone-subscription-dialog.c:488
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../storage/sunone-subscription-dialog.c:514
+msgid "Remote Calendar Subscriptions"
+msgstr "ཐག་རིང་གི་ཟླ་ཐོའི་མཁོ་མངགས།"
+
+#: ../storage/sunone-subscription-dialog.glade.h:2
+msgid "_Find Now"
+msgstr "ད་ལྟོ་འཚོལ།(F)"
+
+#: ../storage/sunone-subscription-dialog.glade.h:3
+msgid ""
+"contains\n"
+"begins with"
+msgstr ""
+"ཡོད་པ\n"
+"མཉམ་འགོ་བཙུགས།"
+
+#: ../storage/sunone-subscription-dialog.glade.h:5
+msgid ""
+"name or ID\n"
+"name\n"
+"primary owner\n"
+"ID"
+msgstr ""
+"མིང་ཡངན་ཨའི་ཌི\n"
+"མིང\n"
+"གཞི་རིམ་བདག་པོ\n"
+"ཨའི་ཌི"
+
+#~ msgid "Personal"
+#~ msgstr "རང་དོན།"
+#~ msgid "Personal Invitations"
+#~ msgstr "རང་དོན་དྲན་བརྡ།"
+#~ msgid "Could not create connection for %s"
+#~ msgstr "%sགི་དོན་ལུ་མཐུད་ལན་གསར་གཏོད་འབད་མ་ཚུགས།"
+

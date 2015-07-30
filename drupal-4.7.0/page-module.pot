@@ -1,0 +1,80 @@
+# LANGUAGE translation of Drupal (modules/page.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: page.module,v 1.154 2006/03/27 18:02:48 killes
+# sonam pelden <sonaa_peldn@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: page-module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-22 14:52+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongka <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/page.module:15
+msgid "The page module allows users to create static pages, which are the most basic type of content.  Pages are commonly collected in books via the book module.  Users should create a page if the information on the page is static.  An example would be an \"about\" page. "
+msgstr "ཤོག་ལེབ་ཚད་གཞི་དེ་གིས་  ལག་ལེན་པ་ཚུ་ལུ་  ནང་དོན་གྱི་གཞི་རིམ་དབྱེ་བ་ཨིན་པའི་རྟག་བརྟན་ཤོག་ལེབ་ཚུ་  གསར་བསྐྲུན་འབད་བཅུགཔ་ཨིན།  ཤོག་ལེབ་ཚུ་མཐུན་མོང་གི་ཐོག་ལས་  ཀི་དེབ་ཚད་གཞི་ཐོག་ལས་འབད་  ཀི་དེབ་ནང་ལུ་བསྡུ་ལེན་འབད་དེ་ཡོདཔ་ཨིན།  ཤོག་ལེབ་གུ་ཡོད་པའི་བརྡ་དོན་འདི་ རྟག་བརྟན་ཨིན་པ་ཅིན་  ལག་ལེན་ཚུ་གིས་ཤོག་ལེབ་ཅིག་གསར་བསྐྲུན་འབད་དགོཔ་ཨིན།  དེ་གི་དཔེ་འདི་ \"about\" ཤོག་ལེབ་འདི་ཨིན།"
+
+#: modules/page.module:16
+msgid "When a  page is created, a user can set authoring information, configure publishing options, whether readers will be able to post comments.  They can also select the content type of the page (e.g., full HTML, filtered HTML). "
+msgstr "ཤོག་ལེབ་ཅིག་གསར་བསྐྲུན་འབདཝ་ད་  ལྷག་མི་ཚུ་གིས་བརྡ་བཀོད་ཚུ་གནས་བསྐྱོད་འབད་ཚུགས་མི་ཚུགས་བལྟ་སྟེ་  ལག་ལེན་པ་དེ་གིས་  བརྡ་དོན་རྩོམ་ནི་དང་  དེབ་བསྐྲུན་རིམ་སྒྲིག་འབད་ནི་གི་དམ་ཁ་ཚུ་གཞི་སྒྲིག་འབད་བཏུབ་ཨིན།  དེ་ཚུ་གིས་  ཤོག་ལེབ་(e.g., ཨེཆ་ཊི་ཨེམ་ཨེལ་ཆ་ཚང་   ཚགས་མའི་ ཨེཆ་ཊི་ཨེམ་ཨེལ།)ཀྱི་ནང་དོན་དབྱེ་བ་འདི་སེལ་འཐུ་ཡང་འབད་བཏུབ་ཨིན།"
+
+#: modules/page.module:17
+msgid "As an administrator, you can set the publishing default for a page (in its workflow): you can specify whether a page is by default published, sent to moderation, promoted to the front page, sticky at the top of lists, and whether revisions are enabled by default.    You can set the permissions that different user roles have to view, create, and edit pages."
+msgstr "བདག་སྐྱོང་ཨིན་པའི་ཐོག་ལས་  ཁྱོད་ཀྱིས་  ཤོག་ལེབ་ (ལཱ་རྒྱུན་ནང་ལུ་)ཀྱི་དོན་ལུ་དེབ་བསྐྲུན་སྔོན་སྒྲིག་འདི་གཞི་སྒྲིག་འབད་བཏུབ་ཨིན:  ཤོག་ལེབ་འདི་ སྔོན་སྒྲིག་དེབ་བསྐྲུན་ཨིན་ན་  རན་པ་ལུ་གཏང་ནུག་ག་  མདོང་ཁའི་ཤོག་ལེབ་ལུ་ཡར་བསྐྱེད་གཏང་ནུག་ག་  ཐོ་ཡིག་ཚུ་གི་གོ་ལུ་རྩི་ཅན་ཨིན་མས་ག་ དང་  བསྐྱར་སྦྱོང་ཚུ་སྔོན་སྒྲིག་གིས་ལྕོགས་ཅན་བཟོ་ཡོད་མེད་ཚུ་  ཁྱོད་ཀྱིས་ གསལ་བཀོད་འབད།  ལག་ལེན་པ་སོ་སོའི་ལས་འགན་ཚུ་ སྟོན་ནི་  གསར་བསྐྲུན་འབད་ནི་དང་  ཤོག་ལེབ་ཚུ་ཞུན་དག་འབད་ནི་འདི་ཚུ་ལུ་  ཁྱོད་ཀྱིས་  གནང་བ་ཚུ་གཞི་སྒྲིག་འབད་བཏུབ་ཨིན།"
+
+#: modules/page.module:18
+msgid "If the location module is enabled, then location specific information can be added.  If the trackback module is enabled trackbacks can be configured."
+msgstr "གནས་ཁོངས་ཀྱི་ཚད་གཞི་འདི་ལྕོགས་ཅན་བཟོ་དེ་ཡོད་པ་ཨིན་  གནས་ཁོངས་དམིགས་བསལ་བརྡ་དོན་འདི་ཁ་སྐོང་བརྐྱབ་བཏུབ།  རྒྱབ་འཚོལ་ཚད་གཞི་འདི་ལྕོགས་ཅན་བཟོ་དེ་ཡོད་པ་ཅིན་  རྒྱབ་འཚོལ་དེ་ཚུ་ལོག་རིམ་སྒྲིག་འབད་བཏུབ།"
+
+#: modules/page.module:19
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>read the node administration help at <a href=\"%admin-help-node\">administer &gt;&gt; help &gt;&gt; node</a>.</li>\n"
+"<li>read the page administration help at <a href=\"%admin-help-page\">administer &gt;&gt; help &gt;&gt; page</a>.</li>\n"
+"<li>read the story administration help at <a href=\"%admin-help-story\">administer &gt;&gt; help &gt;&gt; story</a>.</li>\n"
+"<li>create a page at <a href=\"%node-add-page\">create content &gt;&gt; page</a>.</li>\n"
+"<li>administer page content type at <a href=\"%admin-settings-content-types-page\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; configure page</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་ </p>\n"
+"<ul>\n"
+"<li>བདག་སྐྱོང་མཐུད་མཚམས་གྲོགས་རམ་འདི་ <a href=\"%admin-help-node\">administer &gt;&gt; help &gt;&gt; མཐུད་མཚམས་ལུ་ལྷག</a>.</li>\n"
+"<li>ཤོག་ལེབ་བདག་སྐྱོང་གྲོགས་རམ་འདི་ <a href=\"%admin-help-page\">administer &gt;&gt; help &gt;&gt; ཤོག་ལེབ་ལུ་ལྷག</a>.</li>\n"
+"<li>གཏམ་གྱི་བདག་སྐྱོང་གྲོགས་རམ་འདི་  <a href=\"%admin-help-story\">administer &gt;&gt; help &gt;&gt; གཏམ་ལུ་ལྷག</a>.</li>\n"
+"<li>ཤོག་ལེབ་འདི་ <a href=\"%node-add-page\">create content &gt;&gt; ཤོག་ལེབ་ལུ་གསར་བསྐྲུན་འབད།</a>.</li>\n"
+"<li>ཤོག་ལེབ་ནང་དོན་དབྱེ་བ་འདི་  <a href=\"%admin-settings-content-types-page\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; རིམ་སྒྲིག་ཤོག་ལེབ་ལུ་བདག་སྐྱོང་འབད།</a>.</li>\n"
+"</ul>\n"
+
+#: modules/page.module:28
+msgid "For more information please read the configuration and customization handbook <a href=\"%page\">Page page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་ནི་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་<a href=\"%page\">ཤོག་ལེབ་ཤོག་ལེབ་</a>འདི་ལྷག་གནང་།"
+
+#: modules/page.module:31
+msgid "Enables the creation of pages that can be added to the navigation system."
+msgstr "འགྲུལ་བསྐྱོད་རིམ་ལུགས་ལུ་ཁ་སྐོང་བརྐྱབ་བཏུབ་པའི་ ཤོག་ལེབ་ཚུ་གི་གསར་བསྐྲུན་འདི་ལྕོགས་ཅན་བཟོཝ་ཨིན། "
+
+#: modules/page.module:33
+msgid "If you want to add a static page, like a contact page or an about page, use a page."
+msgstr "ཁྱོད་ཀྱིས་རྟག་བརྟན་ཤོག་ལེབ་  འབྲེལ་བ་འཐབ་ནིའི་ཤོག་ལེབ་ ཡང་ན་ ཤོག་ལེབ་སྐོར་ཅིག་  ཁ་སྐོང་བརྐྱབ་དགོ་པ་ཅིན་  ཤོག་ལེབ་འདི་ལག་ལེན་འཐབ།"
+
+#: modules/page.module:48;75;0
+msgid "page"
+msgstr "ཤོག་ལེབ།"
+
+#: modules/page.module:41
+msgid "create pages"
+msgstr "ཤོག་ལེབ་ཚུ་གསར་བསྐྲུན་འབདཝ་ཨིན།"
+
+#: modules/page.module:41
+msgid "edit own pages"
+msgstr "རང་སའི་ཤོག་ལེབ་འདི་ཞུན་དག་འབད།"
+

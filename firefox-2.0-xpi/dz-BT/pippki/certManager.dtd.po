@@ -1,0 +1,320 @@
+# extracted from dz-BT_orig/security/manager/chrome/pippki/certManager.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: certManager.dtd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-17 15:42+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is mozilla.org code.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corp.
+# - Portions created by the Initial Developer are Copyright (C) 2001
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -   Ian McGreer <mcgreer@netscape.com>
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either the GNU General Public License Version 2 or later (the "GPL"), or
+# - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+#: certmgr.title
+msgid "Certificate Manager"
+msgstr "ལག་ཁྱེར་འཛིན་སྐྱོང་པ་"
+
+#: certmgr.tab.mine
+msgid "Your Certificates"
+msgstr "ཁྱོད་ཀྱི་ལག་ཁྱེར་ཚུ་"
+
+#: certmgr.tab.others
+msgid "Other People's"
+msgstr "མི་གཞན་གྱི་"
+
+#: certmgr.tab.websites
+msgid "Web Sites"
+msgstr "ཝེབ་ས་ཁོངས་ཚུ་"
+
+#: certmgr.tab.ca
+msgid "Authorities"
+msgstr "དབང་འཛིན་ཚུ་"
+
+#: certmgr.ca.builtins
+msgid "Built-in CAs"
+msgstr "ནང་སྦྲགས་ལག་ཁྱེར་ཚུ་"
+
+#: certmgr.ca.mycas
+msgid "CAs Managed By You"
+msgstr "ཁྱོད་ཀྱིས་འཛིན་སྐྱོང་འཐབ་མི་ལག་ཁྱེར་ཚུ་"
+
+#: certmgr.mine
+msgid "You have certificates from these organizations that identify you:"
+msgstr "ཁྱོད་ལུ་ཁྱོད་རང་གིས་ངོས་འཛིན་འབད་མི་ ལས་སྡེ་ཚུ་ནང་གི་ ལག་ཁྱེར་ཚུ་འདུག་:"
+
+#: certmgr.others
+msgid "You have certificates on file that identify these people:"
+msgstr "ཁྱོད་ལུ་ མི་དེ་ཚུ་ངོས་འཛིན་འབད་མི་ ཡིག་སྣོད་ནང་ ལག་ཁྱེར་ཚུ་འདུག"
+
+#: certmgr.websites
+msgid "You have certificates on file that identify these web sites:"
+msgstr "ཁྱོད་ལུ་ ཝེབ་ས་ཁོངས་དེ་ཚུ་ ངོས་འཛིན་འབད་མི་ ཡིག་སྣོད་ནང་ ལག་ཁྱེར་ཚུ་འདུག"
+
+#: certmgr.cas
+msgid "You have certificates on file that identify these certificate authorities:"
+msgstr "ཁྱོད་ལུ་ དབང་འཛིན་དེ་ཚུ་ངོས་འཛིན་འབད་མི་ ཡིག་སྣོད་ནང་ ལག་ཁྱེར་ཚུ་འདུག"
+
+#: certmgr.detail.general_tab.title
+msgid "General"
+msgstr "ཡོངས་ཁྱབ་"
+
+#: certmgr.detail.prettyprint_tab.title
+msgid "Details"
+msgstr "རྒྱས་བཤད་"
+
+#: certmgr.subjectinfo.label
+msgid "Issued To"
+msgstr "སྤྲོད་ཡུལ་"
+
+#: certmgr.issuerinfo.label
+msgid "Issued By"
+msgstr "སྤྲོད་མི་"
+
+#: certmgr.validity.label
+msgid "Validity"
+msgstr "ནུས་ཅན་དུས་ཚོད་"
+
+#: certmgr.fingerprints.label
+msgid "Fingerprints"
+msgstr "མཛུབ་རྗེས་"
+
+#: certmgr.certdetail.title
+msgid "Certificate Detail"
+msgstr "ལག་ཁྱེར་གྱི་རྒྱས་བཤད་"
+
+#: certmgr.certdetail.cn
+msgid "Common Name (CN)"
+msgstr "སྤྱི་མཐུན་མིང་(སི་ཨེན)"
+
+#: certmgr.certdetail.o
+msgid "Organization (O)"
+msgstr "ལས་སྡེ་ (O)"
+
+#: certmgr.certdetail.ou
+msgid "Organizational Unit (OU)"
+msgstr "ལས་སྡེའི་ཆ་ཕྲན་(OU)"
+
+#: certmgr.certdetail.serialnumber certmgr.serial
+msgid "Serial Number"
+msgstr "ཨང་རིམ་གྲངས་"
+
+#: certmgr.certdetail.sha1fingerprint
+msgid "SHA1 Fingerprint"
+msgstr "ཨེསི་ཨེཆ་ཨེ་༡ མཛུབ་རྗེས།"
+
+#: certmgr.certdetail.md5fingerprint
+msgid "MD5 Fingerprint"
+msgstr "ཨེམ་ཌི་༥ མཛུབ་རྗེས་"
+
+#: certmgr.editcert.title
+msgid "Edit Security Certificate Settings"
+msgstr "སྲུང་སྐྱོབ་ལག་ཁྱེར་གྱི་སྒྲིག་སྟངས་ཞིན་དག་རྐྱབས་"
+
+#: certmgr.editcacert.title
+msgid "Edit CA certificate trust settings"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གྱི་ ལག་ཁྱེར་བློ་གཏད་སྒྲིག་སྟངས་ ཞུན་དག་རྐྱབས།"
+
+#: certmgr.editsslcert.title
+msgid "Edit web site certificate trust settings"
+msgstr "ཝེབ་ས་ཁོངས་ཀྱི་ ལག་ཁྱེར་བློགཏད་སྒྲིག་སྟངས་ ཞུན་དག་རྐྱབས།"
+
+#: certmgr.editcert.edittrust
+msgid "Edit trust settings:"
+msgstr "བློ་གཏད་སྒྲིག་སྟངས་ ཞུན་དག་རྐྱབས་:"
+
+#: certmgr.editcert.trustssl
+msgid "This certificate can identify web sites."
+msgstr "ལག་ཁྱེར་འདི་གིས་ ཝེབ་ས་ཁོངས་ཚུ་ ངོས་འཛིན་འབད་ཚུགས།"
+
+#: certmgr.editcert.trustemail
+msgid "This certificate can identify mail users."
+msgstr "ལག་ཁྱེར་འདི་གིས་ ཡིག་འཕྲིད་ལག་ལེན་པ་ཚུ་ ངོས་འཛིན་འབད་ཚུགས།"
+
+#: certmgr.editcert.trustobjsign
+msgid "This certificate can identify software makers."
+msgstr "ལག་ཁྱེར་འདི་གིས་ མཉེན་ཆས་བཟོ་མི་ཚུ་ ངོས་འཛིན་འབད་ཚུགས།"
+
+#: certmgr.editsslcert.edittrust certmgr.editemailcert.edittrust
+msgid "Edit certificate trust settings:"
+msgstr "ལག་ཁྱེར་བློ་གཏད་སྒྲིག་སྟངས་ ཞུན་དག་རྐྱབས་:"
+
+#: certmgr.editsslcert.dotrust certmgr.editemailcert.dotrust
+msgid "Trust the authenticity of this certificate."
+msgstr "ལག་ཁྱེར་འདི་གི་བདེན་ཚུལ་ལུ་ བློ་གཏད་འབད།"
+
+#: certmgr.editsslcert.donttrust certmgr.editemailcert.donttrust
+msgid "Do not trust the authenticity of this certificate."
+msgstr "ལག་ཁྱེར་འདི་གི་བདེན་ཚུལ་ལུ་ བློ་གཏད་མ་འབད།"
+
+#: certmgr.editemailcert.title
+msgid "Edit email certificate trust settings"
+msgstr "གློག་འཕྲིན་ལག་ཁྱེར་བློ་གཏད་སྒྲིག་སྟངས་ ཞུན་དག་རྐྱབས།"
+
+#: certmgr.deletecert.title
+msgid "Delete Certificate"
+msgstr "ལག་ཁྱེར་བཏོན་གཏང་"
+
+#: certmgr.deletecert.beforename
+msgid "You have requested to delete this certificate:"
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་ བཏོན་གཏང་ནིའི་ཞུ་བ་འབད་ནུག་:"
+
+#: certmgr.deletecert.aftername
+msgid "Are you sure you want to delete this certificate?"
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: certmgr.deleteusercert.title
+msgid "Delete Your Certificate"
+msgstr "ཁྱོད་རའི་ལག་ཁྱེར་བཏོན་གཏང་"
+
+#: certmgr.deleteusercert.beforename
+msgid "You have requested to delete the certificate:"
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་ བཏོན་གཏང་ནིའི་ཞུ་བ་འདབ་ནུག་:"
+
+#: certmgr.deleteusercert.aftername
+msgid "Once you have deleted this certificate, you will not be able to read mail that has been encrypted with it."
+msgstr "ཁྱོད་ཀྱིས་ལག་ཁྱེར་འདི་ བཏོན་བཏང་ཞིནམ་ལས་ དེ་དང་གཅིག་ཁར་གསང་བཟོས་འབད་མི་ ཡིག་འཕྲིན་དེ་ ཁྱོད་ཀྱིས་ལྷག་མི་ཚུགས།"
+
+#: certmgr.certname
+msgid "Certificate Name"
+msgstr "ལག་ཁྱེར་མིང་"
+
+#: certmgr.tokenname
+msgid "Security Device"
+msgstr "སྲུང་སྐྱོབ་ཐབས་འཕྲུལ་"
+
+#: certmgr.purpose
+msgid "Purposes"
+msgstr "དགོས་དོན་"
+
+#: certmgr.issued
+msgid "Issued On"
+msgstr "སྤྲོད་པའི་ཚེས་གྲངས་"
+
+#: certmgr.expires
+msgid "Expires On"
+msgstr "དུས་ཡོལ་ཚེས་གྲངས་"
+
+#: certmgr.email
+msgid "E-Mail Address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་"
+
+#: certmgr.ocsp_info
+msgid "Certificates have not been validated with OCSP. Click View to do so."
+msgstr "ཨོ་སི་ཨེསི་པི་གི་ཐོག་ལས་ ནུས་ཅན་མ་བཟོ་བའི་ལག་ཁྱེར་ཚུ། དེསྦེ་འབད་ནིའི་དོན་ལུ་ མཐོང་སྣང་ གུ་ཨེབ་གཏང་འབད།"
+
+#: certmgr.close.label certmgr.close.accesskey
+msgid "&Close"
+msgstr "ཁ་བསྡམས་(&C)"
+
+#: certmgr.view.label certmgr.view.accesskey
+msgid "&View"
+msgstr "སྟོན་(&V)"
+
+#: certmgr.edit.label certmgr.edit.accesskey
+msgid "&Edit"
+msgstr "ཞུ་དག་(&E)"
+
+#: certmgr.editca.label certmgr.editca.accesskey
+msgid "E&dit CA Trust"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་གྱི་བློ་གཏད་ཞུན་དག་རྐྱབས།(&d)"
+
+#: certmgr.add.label certmgr.add.accesskey
+msgid "&Add"
+msgstr "ཁ་སྐོང་རྐྱབས་(&A)"
+
+#: certmgr.delete.label certmgr.delete.accesskey
+msgid "&Delete"
+msgstr "བཏོན་གཏང་(&D)"
+
+#: certmgr.backup.label certmgr.backup.accesskey
+msgid "&Backup"
+msgstr "རྒྱབ་ཐག་(&B)"
+
+#: certmgr.backupall.label certmgr.backupall.accesskey
+msgid "Bac&kup All"
+msgstr "ཆ་མཉམ་ལུ་རྒྱབ་ཐག་འབད་(&k)"
+
+#: certmgr.restore.label certmgr.restore.accesskey
+msgid "I&mport"
+msgstr "ནང་འདྲེན་འབད་(&m)"
+
+#: certmgr.details.label certmgr.details.accesskey
+msgid "Certificate &Fields"
+msgstr "ལག་ཁྱེར་ས་སྒོ་(&F)"
+
+#: certmgr.fields.label certmgr.fields.accesskey
+msgid "Field &Value"
+msgstr "གནས་གོང་འཚོལ་(&V)"
+
+#: certmgr.hierarchy.label certmgr.hierarchy.accesskey
+msgid "&Certificate Hierarchy"
+msgstr "ལག་ཁྱེར་གྱི་གནས་རིམ་(&C)"
+
+#~ msgid "Close"
+#~ msgstr "ཁ་བསྡམས་"
+#~ msgid "View"
+#~ msgstr "མཐོང་སྣང་"
+#~ msgid "Edit"
+#~ msgstr "ཞུན་དག་"
+#~ msgid "Edit CA Trust"
+#~ msgstr "ལག་ཁྱེར་དབང་འཛིན་བློ་གཏད་ ཞུན་དག་རྐྱབས་"
+#~ msgid "Add"
+#~ msgstr "ཁ་སྐོང་རྐྱབས་"
+#~ msgid "Delete"
+#~ msgstr "བཏོན་གཏང་"
+#~ msgid "Backup"
+#~ msgstr "རྒྱབ་ཐག་འབད་"
+#~ msgid "Backup All"
+#~ msgstr "ཆམཉམ་ལུ་རྒྱབ་ཐག་འབད་"
+#~ msgid "Import"
+#~ msgstr "ནང་འདྲེན་"
+#~ msgid "Certificate Fields"
+#~ msgstr "ལག་ཁྱེར་ས་སྒོ་"
+#~ msgid "Field Value"
+#~ msgstr "ས་སྒོའི་བེ་ལུ་"
+#~ msgid "Certificate Hierarchy"
+#~ msgstr "ལག་ཁྱེར་གྱི་སྡེ་རིམ་"
+

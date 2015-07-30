@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bakery.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-08 03:49+0000\n"
+"PO-Revision-Date: 2007-01-07 03:07+0530\n"
+"Last-Translator: dorji tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Tell user that it's already open:
+#: ../bakery/App/App_WithDoc.cc:105
+msgid "Document already open"
+msgstr "ཡིག་ཆ་ཧེ་མ་ལས་རང་ཁ་ཕྱེ་སྟེ་ཡོད་"
+
+#: ../bakery/App/App_WithDoc.cc:105
+msgid "This document is already open."
+msgstr "ཡིག་ཆ་འདི་ཧེ་མ་ལས་རང་ཁ་ཕྱེ་སྟེ་ཡོདཔ་ཨིན།"
+
+#: ../bakery/App/App_WithDoc.cc:155
+msgid "Open failed."
+msgstr "ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../bakery/App/App_WithDoc.cc:155
+msgid "The document could not be opened."
+msgstr "ཡིག་ཆ་དེ་ཁ་ཕྱེ་མི་ཚུགས།"
+
+#. The save failed. Tell the user and don't do anything else:
+#: ../bakery/App/App_WithDoc.cc:245
+#: ../bakery/App/App_WithDoc.cc:296
+msgid "Save failed."
+msgstr "སྲུང་བཞག་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../bakery/App/App_WithDoc.cc:245
+#: ../bakery/App/App_WithDoc.cc:296
+msgid "There was an error while saving the file. Your changes have not been saved."
+msgstr "ཡིག་སྣོད་དེ་སྲུང་བཞག་འབད་བའི་སྐབས་ལུ་འཛོལ་བ་ཅིག་བྱུང་ནུག། ཁྱོད་ཀྱི་བསྒྱུར་བཅོས་ཚུ་སྲུང་བཞག་མ་འབད་བས།"
+
+#: ../bakery/App/App_Gtk.cc:286
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../bakery/App/App_Gtk.cc:286
+msgid "About the application"
+msgstr "གློག་རིམ་གྱི་སྐོར་ལས་"
+
+#: ../bakery/App/App_WithDoc_Gtk.cc:163
+msgid "_File"
+msgstr "ཡིག་སྣོད་(_F)"
+
+#: ../bakery/App/App_WithDoc_Gtk.cc:164
+msgid "_Recent Files"
+msgstr "ད་ལྟོ་འཕྲལ་ཁམས་ཀྱི་ཡིག་སྣོད་ཚུ་(_R)"
+
+#: ../bakery/App/App_WithDoc_Gtk.cc:232
+msgid " (read-only)"
+msgstr "(ལྷག་ནི་ཙམ་)"
+
+#: ../bakery/App/Dialog_OfferSave.cc:12
+msgid "Close without Saving"
+msgstr "སྲུང་བཞག་མ་འབད་བར་ཁ་བསྡམ་"
+
+#. The HIG says that alert dialogs should not have titles. The default comes from the message type.
+#: ../bakery/App/Dialog_OfferSave.cc:16
+msgid "This document has unsaved changes. Would you like to save the document?"
+msgstr "ཡིག་ཆ་འདི་ནང་ལུ་སྲུང་བཞག་མ་འབད་བའི་ཡིག་ཆ་ཚུ་འདུག ཁྱོད་ཀྱིས་ཡིག་ཆ་དེ་སྲུང་བཞག་འབད་ནི་ཨིན་ན?"
+
+#: ../bakery/App/Dialog_OfferSave.cc:18
+#: ../bakery/App/Dialog_OverwriteFile.cc:17
+msgid ""
+"\n"
+"\n"
+"Document:\n"
+msgstr ""
+"\n"
+"\n"
+"ཡིག་ཆ་:\n"
+
+#: ../bakery/App/Dialog_OfferSave.cc:22
+msgid "Discard"
+msgstr "བཏོན་བཀོག་"
+
+#: ../bakery/App/Dialog_OverwriteFile.cc:11
+msgid "Overwrite File?"
+msgstr "ཡིག་སྣོད་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#. The HIG says that alert dialogs should not have titles. The default comes from the message type.
+#: ../bakery/App/Dialog_OverwriteFile.cc:15
+msgid "Do you want to overwrite the existing file?"
+msgstr "ཁྱོད་ཀྱིས་ད་ལྟོ་ཡོད་མི་ཡིག་སྣོད་དེ་ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: ../bakery/App/Dialog_OverwriteFile.cc:21
+msgid "Overwrite"
+msgstr "ཚབ་སྲུང་"
+
+#: ../bakery/App/Dialog_OverwriteFile.cc:22
+msgid "Choose New FileName"
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་གསརཔ་གདམ་ཁ་རྐྱབས་"
+
+#: ../bakery/Document/Document.cc:288
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ་"
+

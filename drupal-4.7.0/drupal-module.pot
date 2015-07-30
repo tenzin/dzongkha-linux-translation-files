@@ -1,0 +1,214 @@
+# LANGUAGE translation of Drupal (modules/drupal.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: drupal.module,v 1.119.2.1 2006/06/01 20:42:53 killes
+# sonam rinchen <somindruk@druknet.bt>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-20 21:19+0530\n"
+"Last-Translator: sonam rinchen <somindruk@druknet.bt>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/drupal.module:15
+msgid "The Drupal module uses the XML-RPC network communication protocol to connect your site with a central server that maintains a directory of client sites."
+msgstr "ཌུ་པཱལ་ཚད་གཞི་འདི་གིས་ཞབས་ཏོག་སྤྱོད་མིའི་ས་ཁོངས་ཚུའི་སྣོད་ཐོ་རྒྱུན་སྐྱོང་འབད་མི་དབུས་ཀྱི་སར་བར་གཅིག་ཁར་ཁྱོད་ཀྱི་ས་ཁོངས་མཐུད་ནི་ལུ་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་ཡོངས་འབྲེལ་བརྒྱུད་འབྲེལ་གནད་སྤེལ་ལམ་ལུགས་འདི་ལག་ལེན་འཐབཔ་ཨིན།"
+
+#: modules/drupal.module:16
+msgid ""
+"<p>Enabling the Drupal module will allow you to:</p>\n"
+"<ul>\n"
+"  <li>register your site with a server, including (optionally) posting information on your installed modules and themes and summary statistics on your number of posts and users, information that can help rank Drupal modules and themes</li>\n"
+"  <li>enable other sites to register with your site</li>\n"
+"  <li>allow members on all sites using the Drupal module to log in to your site without registering using their distributed identification</li>\n"
+"  <li>allow members to log in to any other site that uses the Drupal module, using a login name that looks much like an e-mail address: <em>username@example.com</em></li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཌུ་པཱལ་ཚད་གཞི་ལྕོགས་ཅན་བཟོ་མི་འདི་གིས་ཁྱོད་ལུ་:</p>\n"
+"<ul>\n"
+"  <li>བརྗོད་དོན་ཚུ་དང་ཌུ་པཱལ་ཚད་གཞི་ཚུའི་གོ་རིམ་གྲོགས་རམ་འབད་ཚུགས་མི་བརྡ་དོན་ གནས་བསྐྱོད་ཚུ་དང་ལག་ལེན་པ་ཚུ་གི་ཁྱོད་ཀྱི་གྲངས་གུ་ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་ཡོད་པའི་བཅུད་དོན་ཚད་རྩིས་ཚུ་དང་བརྗོད་དོན་ཚུ་དང་ཚད་གཞི་གུ་གསལ་བསྒྲགས་སྦྱར་ནིའི་བརྡ་དོན་(གདམ་ཁ་ཅན་སྦེ་) གྲངས་སུ་བཙུགས་ཏེ་ སར་བར་གཅིག་ཁར་ཁྱོད་ཀྱི་ས་ཁོངས་ཐོ་བཀོད་འབད་བཅུག་འོང་། </li>\n"
+"  <li>གཞན་ས་ཁོངས་ཚུ་ཁྱོད་ཀྱི་ས་ཁོངས་གཅིག་ཁར་ཐོ་བཀོད་འབད་ནི་ལུ་ལྕོགས་ཅན་བཟོ།</li>\n"
+"  <li>ཁྱོད་ཀྱི་ས་ཁོངས་ནང་ལུ་ཌུ་པཱལ་ཚད་གཞི་ལག་ལེན་འཐབ་ཐོག་ལས་ས་ཁོངས་ཚུ་ཆ་མཉམ་ལུ་འཐུས་མི་ཚུ་ཁོང་ལུ་བགོ་བཀྲམ་འབད་ཡོད་པའི་ངོ་རྟགས་ལག་ལེན་འཐབ་ཐོག་ལས་ཐོ་བཀོད་འབད་མ་དགོ་པར་ནང་བསྐྱོད་འབད་བཅུག།</li>\n"
+"  <li>འཐུས་མི་ཚུ་ནང་བསྐྱོད་འབད་ནིའི་མིང་གློག་འཕྲིན་ཁ་བྱང་བཟུམ་སྦེ་གཅིག་པ་མཐོང་མི་: <em>username@example.com ལག་ལེན་འཐབ་ཐོག་ལས་ ཌུ་པཱལ་ཚད་གཞི་ལག་ལེན་འཐབ་མི་ས་ཁོངས་གཞན་མི་གང་རུང་ཅིག་ལུ་ནང་བསྐྱོད་འབད་བཅུག།</em></li>\n"
+"</ul>\n"
+
+#: modules/drupal.module:24
+msgid "The Drupal module administration page allows you to set the xml-rpc server page and other related options."
+msgstr "ཌུ་པཱལ་ཚད་གཞི་བདག་སྐྱོང་ཤོག་ལེབ་འདི་གིས་ཁྱོད་ལུ་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་སར་བར་ཤོག་ལེབ་དང་གཞན་འབྲེལ་བ་ཅན་གྱི་གདམ་ཁ་ཚུ་གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིན།"
+
+#: modules/drupal.module:25
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"  <li>run your cron job at your site's <a href=\"%file-cron\">cron page</a></li>\n"
+"  <li>view your <a href=\"%file-xmlrpc\">XML-RPC page</a>.</li>\n"
+"  <li>administer Drupal <a href=\"%admin-settings-drupal\">administer &gt;&gt; settings &gt;&gt; drupal</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ཀོ་རཱོན་ལས་གཡོག་འདི་</p>\n"
+"<ul>\n"
+"  <li>ཁྱོད་ཀྱི་ས་ཁོངས་ཚུའི་ཀོ་རཱོན་ཤོག་ལེབ་ <a href=\"%file-cron\">ལུ་གཡོག་བཀོལ་ཚུགས་</a></li>\n"
+"  <li>ཁྱོད་ཀྱི་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་ <a href=\"%file-xmlrpc\">ཤོག་ལེབ་སྟོན།། </a>.</li>\n"
+"  <li>བདག་སྐྱོང་འཐབ་ནིའི་ཌུ་པཱལ་ <a href=\"%admin-settings-drupal\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; སྒྲིག་སྟངས་&gt;&gt; ཌུ་པཱལ།</a>.</li>\n"
+"</ul>\n"
+
+#: modules/drupal.module:32
+msgid ""
+"If you maintain a directory of sites, you can list them on a page using the <code>drupal_client_page()</code> function. Sample instructions:\n"
+"<ul>\n"
+"  <li>Enable the page module. Select create content &gt;&gt; page.</li>\n"
+"  <li>For input format, select PHP code.</li>\n"
+"  <li>Give the page a title. For body, put:\n"
+"<pre>\n"
+"&lt;?php\n"
+"print drupal_client_page();\n"
+"?&gt;\n"
+"</pre>\n"
+"  <li>Save the page.</li>\n"
+"</ul>"
+msgstr ""
+"ཁྱོད་ཀྱིས་ས་ཁོངས་ཚུ་གི་སྣོད་ཐོ་རྒྱུན་སྐྱོང་འབད་བ་ཅིན་ ཁྱོད་ཀྱིས་<code>ཌུ་པཱལ་_ཞབས་ཏོག་སྤྱོད་མི་_ཤོག་ལེབ་ཀྱི་ལས་འགན་()</code> ལག་ལེན་འཐབ་ཐོག་ལས་ཤོག་ལེབ་གུ་དེ་ཚུ་ཐོ་བཀོད་འབད་ཚུགས། དཔེ་ཚད་བརྡ་དོན་ཚུ་:\n"
+"<ul>\n"
+"  <li>ཤོག་ལེབ་ཚད་གཞི་ལྕོགས་ཅན་བཟོ། ནང་དོན་གསར་བསྐྲུན་ &gt;&gt; ཤོག་ལེབ་སེལ་འཐུ་འབད།</li>\n"
+"  <li>ཨིན་པུཊི་རྩ་སྒྲིག་གི་དོན་ལས་ པི་ཨེཆ་པི་ཨང་རྟགས་སེལ་འཐུ་འབད།</li>\n"
+"  <li>ཤོག་ལེབ་ལུ་མགོ་མིང་བྱིན། མ་གཟུགས་ཀྱི་དོན་ལས་ བཙུགས་:\n"
+"<pre>\n"
+"&lt;?པི་ཨེཆ་པི་\n"
+"ཌུ་པཱལ་_ཞབས་ཏོག་སྤྱོད་མི་_ཤོག་ལེབ་དཔར་བསྐྲུན་འབད་();\n"
+"?&gt;\n"
+"</pre>\n"
+"  <li>ཤོག་ལེབ་སྲུངས།</li>\n"
+"</ul>"
+
+#: modules/drupal.module:45
+msgid "For more information please read the configuration and customization handbook <a href=\"%drupal\">Drupal page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལས་རིམ་སྒྲིག་དང་སྲོལ་སྒརིག་འབད་ནིའི་ལག་དེབ་ཌུ་པཱལ་ཤོག་ལེབ་<a href=\"%drupal\">ལྷག་གནང་།</a>."
+
+#: modules/drupal.module:48
+msgid "Lets you register your site with a central server and improve ranking of Drupal projects by posting information on your installed modules and themes; also enables users to log in using a Drupal ID."
+msgstr "ཁྱོད་ལུ་དབུས་ཀྱི་སར་བར་གཅིག་ཁར་ཁྱོད་ཀྱི་ས་ཁོངས་ཐོ་བཀོད་འབད་བཅུགཔ་ཨིནམ་དང་ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་ཡོད་པའི་ཚད་གཞི་ཚུ་དང་བརྗོད་དོན་ཚུ་གུ་བརྡ་དོན་གསལ་བསྒྲགས་སྦྱར་ཐོག་ལས་ཌུ་པཱལ་ལས་འགུལ་ཚུ་གི་གོ་རིམ་སྒྲིག་ནི་འདི་ཡར་དྲག་བཟོཝ་ཨིན་ ཡང་ ལག་ལེན་པ་ཚུ་ཌུ་པཱལ་ཨའི་དི་ལག་ལེན་འཐབ་ཐོག་ལས་ནང་བསྐྱོད་འབད་ནི་ལུ་ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: modules/drupal.module:50
+msgid "<p>Using this your site can \"call home\" to another Drupal server. By calling home to drupal.org and sending a list of your installed modules and themes, you help rank projects on drupal.org and so assist all Drupal administrators to find the best components for meeting their needs. If you want to register with a different server, you can change the Drupal XML-RPC server setting -- but the server has to be able to handle Drupal XML. Some XML-RPC servers may present directories of all registered sites. To get all your site information listed, go to the <a href=\"%site-settings\">settings page</a> and set the site name, the e-mail address, the slogan, and the mission statement.</p>"
+msgstr "<p>ཨ་ནི་ལག་ལེན་འཐབ་ཐོག་ལས་ ཁྱོད་ཀྱི་ས་ཁོངས་འདི་གིས་ཌུ་པཱལ་སར་བར་གཞན་མི་ལུ་ \"call home\" འབད་ཚུགས། ཌུ་པཱལ་.ཨོ་ཨཱར་ཇི་ལུ་ཁྱིམ་བོད་བརྡ་འབད་བའི་ཐོག་ལས་དང་ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་ཡོད་པའི་ཚད་གཞི་ཚུ་དང་བརྗོད་དོན་ཚུ་གི་ཐོ་ཡིག་གཏང་ཐོག་ལས་ ཁྱོད་ཀྱིས་ཌུ་པཱལ་.ཨོ་ཨཱར་ཇི་གུ་གོ་རིམ་ལས་འགུལ་ཚུ་གྲོགས་རམ་འབད་དེ་ལས་ཁོང་གི་དགོས་མཁོ་ཚུ་འགྲུབ་ནིའི་དོན་ལས་ཆ་ཤས་དྲག་ཤོས་ཚུ་འཚོལ་ནི་ལུ་ཌུ་པཱལ་བདག་སྐྱོང་པ་ཚུ་ཆ་མཉམ་གྲོགས་རམ་འབད། ཁྱོད་ཀྱིས་སར་བར་སོ་སོ་གཅིག་ཁར་ཐོ་བཀོད་འབད་ནི་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱིས་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་སར་བར་སྒྲིག་སྟངས་བསྒྱུར་བཅོས་འབད་ཚུགས་ -- དེ་འབདཝ་ད་སར་བར་འདི་གིས་ཌུ་པཱལ་ཨེཀསི་ཨེམ་ཨེལ་ལེགས་སྐྱོང་འཐབ་ཚུགསཔ་དགོ། ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་སར་བར་ལ་ལོ་ཅིག་ལུ་ཐོ་བཀོད་ཡོད་པའི་ས་ཁོངས་ཚུ་ཆ་མཉམ་གྱི་སྣོད་ཐོ་ཚུ་སྟོན་ཆོག། ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་བརྡ་དོན་ཆ་མཉམ་ཐོ་བཀོད་འབད་ཚུགས་ནི་ལུ་ <a href=\"%site-settings\">སྒྲིག་སྟངས་ཚུའི་ཤོག་ལེབ་ལུ་འགྱོ་ཞིནམ་དང་</a> ས་ཁོངས་ཀྱི་མིང་ གློག་འཕྲིན་ཁ་བྱང་ འབོ་ཚིག་དང་ལཱའི་གསལ་བཤད་གཞི་སྒྲིག་འབད།</p>"
+
+#: modules/drupal.module:52
+msgid ""
+"<p><a href=\"%Drupal\">Drupal</a> is the name of the software that powers %this-site. There are Drupal web sites all over the world, and many of them share their registration databases so that users may freely log in to any Drupal site using a single <strong>Drupal ID</strong>.</p>\n"
+"<p>So please feel free to log in to your account here at %this-site with a username from another Drupal site. The format of a Drupal ID is similar to an e-mail address: <strong>username</strong>@<em>server</em>. An example of a valid Drupal ID is <strong>mwlily</strong>@<em>drupal.org</em>.</p>"
+msgstr ""
+"<p><a href=\"%Drupal\"ཌུ་པཱལ་འདི་</a> %this-site ལུ་ནུས་ཤུགས་བྱིན་མིམཉེན་ཆས་ཀྱི་མིང་ཅིག་ཨིན། འཛམ་གླིང་ཆ་མཉམ་ནང་ཌུ་པཱལ་ཝེབ་ཀྱི་ས་ཁོངས་འདི་ཡོདཔ་ཨིནམ་དང་ ཁོང་ཚུ་མང་ཤོས་ཅིག་གིས་ཁོང་རའི་ཐོ་བཀོད་འབད་ནིའི་གནད་སྡུད་གཞི་བརྟེན་ཚུ་རུབ་སྤྱོད་འབདཝ་ཨིནམ་ལས་ལག་ལེན་པ་ཚུ་གིས་ཌུ་པཱལ་ཨའི་ཌི་རྐྱང་པ་ལག་ལེན་འཐབ་ཐོག་ལས་ <strong>ཌུ་པཱལ་ས་ཁོངས་གང་རུང་ལུ་རང་དབང་སྦེ་ནང་བསྐྱོད་འབད་ཆོག།</strong>.</p>\n"
+"<p>དེ་འབདཝ་ལས་གཞན་ཌུ་པཱལ་ས་ཁོངས་ལས་ལག་ལེན་པའི་མིང་གཅིག་ཁར་ %this-site འདི་ཁར་ལུ་ཁྱོད་ཀྱི་རྩིས་ཐོ་ནང་ལུ་ནང་བསྐྱོད་འབད་ནི་ལུ་རང་དབང་ཚོར་གནང་། ཌུ་པཱལ་ཨའི་ཌི་གི་རྩ་སྒྲིག་འདི་གློག་འཕྲིན་ཁ་བྱང་ལུ་ཆ་འདར་བ་ཨིན་: <strong>ལག་ལེན་པའི་མིང་</strong>@<em>སར་བར་</em>. ཌུ་པཱལ་ཨའི་ཌི་ནུས་ཅན་གྱི་དཔེ་འདི་ <strong>mwlily</strong>@<em>drupal.org</em>.</p>"
+
+#: modules/drupal.module:63
+msgid "You must set the name of your site on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་མངའ་ཁོངས་ཀྱི་མིང་འདི་<a href=\"%url\">བདག་སྐྱོང་འཐབ་ནིའི་ &raquo; སྒྲིག་སྟངས་ཚུའི་</a> ཤོག་ལེབ་གུ་ངེས་པར་གཞི་སྒྲིག་འབད་དགོ།"
+
+#: modules/drupal.module:66
+msgid "You must set an e-mail address for your site on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་དོན་ལས་གློག་འཕྲིན་ཁ་བྱང་འདི་<a href=\"%url\">བདག་སྐྱོང་འཐབ་ནིའི་ &raquo; སྒྲིག་སྟངས་ཚུའི་</a> ཤོག་ལེབ་གུ་ངེས་པར་གཞི་སྒྲིག་འབད་དགོ།"
+
+#: modules/drupal.module:69
+msgid "You must set your site slogan on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་འབོ་ཚིག་འདི་<a href=\"%url\">བདག་སྐྱོང་འཐབ་ནིའི་ &raquo; སྒྲིག་སྟངས་ཚུའི་</a> ཤོག་ལེབ་གུ་ངེས་པར་གཞི་སྒྲིག་འབད་དགོ།"
+
+#: modules/drupal.module:72
+msgid "You must set your site mission on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་ལཱ་འདི་<a href=\"%url\">བདག་སྐྱོང་འཐབ་ནིའི་ &raquo; སྒྲིག་སྟངས་ཚུའི་</a> ཤོག་ལེབ་གུ་ངེས་པར་གཞི་སྒྲིག་འབད་དགོ།"
+
+#: modules/drupal.module:78
+msgid "Post data to another site"
+msgstr "ས་ཁོངས་གཞན་ལུ་གནད་སྡུད་གནས་བསྐྱོད་འབད།"
+
+#: modules/drupal.module:84
+msgid "Register with a Drupal server"
+msgstr "ཌུ་པཱལ་སར་བར་གཅིག་ཁར་ཐོ་བཀོད་འབད།"
+
+#: modules/drupal.module:87
+msgid "If enabled, your Drupal site will register itself with the specified Drupal XML-RPC server. For this to work properly, you must set your site's name, e-mail address, slogan and mission statement. When the \"Drupal XML-RPC server\" field is set to \"%drupal-xml-rpc\", your web site will register itself with drupal.org. Requires the cron feature to be enabled."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་ཌུ་པཱལ་ས་ཁོངས་འདི་གིས་གསལ་བཀོད་འབད་ཡོད་པའི་ཌུ་པཱལ་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་སར་བར་གཅིག་ཁར་ཁོ་རང་གིས་ཐོ་བཀོད་འབད་འོང་། འདི་གི་དོན་ལས་ལཱ་ཚུལ་ལྡན་སྦེ་འབད་ནི་ལུ་ ཁྱོད་ཀྱིས་ཁྱོད་ཀྱི་ས་སྒོའི་མིང་ གློག་འཕྲིན་ཁ་བྱང་ འབོ་ཚིག་དང་ལཱའི་གསལ་བཤད་ངེས་པར་གཞི་སྒྲིག་འབད་དགོ། \"Drupal XML-RPC server\" ས་སྒོ་འདི་ \"%drupal-xml-rpc\" ལུ་གཞི་སྒྲིག་འབདཝ་ད་ ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་འདི་ཁོ་རང་གིས་ཌུ་པཱལ་.ཨོ་ཨཱར་ཇི་ གཅིག་ཁར་ཐོ་བཀོད་འབད་འོང་ ཀོརཱོན་ཁྱད་རྣམ་ལྕོགས་ཅན་བཟོ་ནི་ལུ་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/drupal.module:92
+msgid "Drupal XML-RPC server"
+msgstr "ཌུ་པཱལ་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་སར་བར།"
+
+#: modules/drupal.module:94
+msgid "The URL of the Drupal XML-RPC server you wish to register with."
+msgstr "གཅིག་ཁར་ཐོ་བཀོད་ནི་ལུ་ཁྱོད་ཀྱིས་རེ་འདོད་བསྐྱེད་མི་ཌུ་པཱལ་ཨེཀསི་ཨེམ་ཨེལ་-ཨཱར་པི་སི་སར་བར་གྱི་ཡུ་ཨཱར་ཨེལ།"
+
+#: modules/drupal.module:99
+msgid "Send system information"
+msgstr "རིམ་ལུགས་ཀྱི་བརྡ་དོན་གཏང་།"
+
+#: modules/drupal.module:102
+msgid "If enabled, your site will send information on its installed components (modules, themes, and theme engines). This information can help in compiling statistics on usage of Drupal projects."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་ས་ཁོངས་འདི་གིས་ཁོ་ར་ལུ་གཞི་བཙུགས་འབད་ཡོད་པའི་ཆ་ཤས་ (ཚད་གཞི་ཚུ་ བརྗོད་དོན་ཚུ་དང་བརྗོད་དོན་མ་འཕྲུལ་ཚུ་) གུ་བརྡ་དོན་གཏང་འོང་། བརྡ་དོན་འདི་གིས་ཌུ་པཱལ་ལས་འགུལ་ཚུ་གི་བདེ་སྤྱོད་གུ་ཚད་རྩིས་ཚུ་ཕྱོགས་སྒྲིག་འབད་ནི་ལུ་གྲོགས་རམ་འབད་ཚུགས།"
+
+#: modules/drupal.module:107
+msgid "Send statistics"
+msgstr "ཚད་རྩིས་གཏང་།"
+
+#: modules/drupal.module:110
+msgid "If enabled, your site will send summary statistics on the number of registered users and the total number of posts. No private information will be sent. These data help to improve the ranking statistics of Drupal projects."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་ས་ཁོངས་འདི་གིས་ཐོ་བཀོད་ཡོད་པའི་འདས་ཤུལ་གྱི་ཡོངས་བསྡོམས་དང་ལག་ལེན་པ་ཚུའི་གྲངས་གུ་བཅུད་དོན་ཚད་རྩིས་གཏང་འོང་། གནད་སྡུད་འདི་གིས་ཌུ་པཱལ་ལས་འགུལ་ཚུའི་ཚད་རྩིས་གོ་རིམ་བསྒྲིག་ནིའི་ལེགས་བཟོ་འབད་ནི་ལུ་གྲོགས་རམ་འབདཝ་ཨིན།"
+
+#: modules/drupal.module:115
+msgid "Receive data from other sites"
+msgstr "གཞན་ས་ཁོངས་ཚུ་ལས་གནད་སྡུད་ལེན།"
+
+#: modules/drupal.module:121
+msgid "Allow other Drupal sites to register"
+msgstr "གཞན་ཌུ་པཱལ་ས་ཁོངས་ཚུ་ཐོ་བཀོད་བཅུག།"
+
+#: modules/drupal.module:124
+msgid "If enabled, your Drupal site will allow other sites to register with your site and send information to this site. This functionality can be used to maintain a list of related sites."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་ཌུ་པཱལ་མངའ་ཁོངས་འདི་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་གཅིག་ཁར་གཞན་ས་ཁོངས་ཚུ་ཐོ་བཀོད་འབད་བཅུག་ནི་དང་ས་ཁོངས་འདི་ལུ་བརྡ་དོན་གཏང་འོང་། ཨ་ནི་ལས་འགན་འདི་འབྲེལ་བ་ཅན་གྱི་ས་ཁོངས་ཚུ་ཐོ་ཡིག་རྒྱུན་སྐྱོང་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཚུགས།"
+
+#: modules/drupal.module:129
+msgid "Authentication service"
+msgstr "བདེན་བཤད་སར་བར།"
+
+#: modules/drupal.module:132
+msgid "If enabled, your Drupal site will accept logins with the user names of other Drupal sites, and likewise provide authentication for users logging into other Drupal sites, based on their user accounts here."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་ཌུ་པཱལ་ས་ཁོངས་འདི་གིས་གཞན་ཌུ་པཱལ་ས་ཁོངས་ཚུ་གི་ལག་ལེན་པའི་མིང་གཅིག་ཁར་ནང་བསྐྱོད་ཚུ་དང་ལེན་འབད་འོང་ དེ་བཟུམ་སྦེ་འདི་ཁར་ཁོང་ཚུའི་ལག་ལེན་པའི་རྩིས་ཐོ་གུ་གཞི་བརྟེན་འབད་ཡོད་མི་ གཞན་ཌུ་པཱལ་ས་ཁོངས་ནང་ལུ་ལག་ལེན་པ་ཚུ་ནང་བསྐྱོད་འབད་ནིའི་དོན་ལས་བདེན་བཤད་བྱིན་འོང་།"
+
+#: modules/drupal.module:196
+msgid "Ping from %name (%link)."
+msgstr "%name (%link) ལས་པིང་སྒྲ།"
+
+#: modules/drupal.module:248
+msgid "Handling ping request"
+msgstr "པིང་སྒྲའི་ཞུ་བ་ལེགས་སྐྱོང་འཐབ་དོ།"
+
+#: modules/drupal.module:256
+msgid "Logging into a Drupal site"
+msgstr "ཌུ་པཱལ་ས་ཁོངས་ནང་ལུ་དྲན་དེབ་འབད་དོ།"
+
+#: modules/drupal.module:291
+msgid "Failed to notify %server; error code: %errno; error message: %error_msg."
+msgstr "%server; འཛོལ་བའི་ཨང་རྟགས་: %errno; འཛོལ་བའི་འཕྲིན་དོན་: %error_msg བརྡ་བསྐུལ་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: modules/drupal.module:317
+msgid "Error %code : %message"
+msgstr "འཛོལ་བ་ %code : %message"
+
+#: modules/drupal.module:196
+msgid "client ping"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་པིང་སྒྲ།"
+
+#: modules/drupal.module:291
+msgid "server ping"
+msgstr "སར་བར་པིང་སྒྲ།"
+
+#: modules/drupal.module:0
+msgid "drupal"
+msgstr "ཌུ་པཱལ།"
+

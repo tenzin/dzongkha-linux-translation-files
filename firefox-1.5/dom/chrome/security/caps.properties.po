@@ -1,0 +1,149 @@
+# extracted from dz-BT_orig/dom/chrome/security/caps.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: security/caps.properties.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-21 10:31+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 2000
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Mitch Stoltz <mstoltz@netscape.com>
+#   Christopher A. Aillon <christopher@aillon.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+#: Yes
+msgid "Allow"
+msgstr "བཅུག་ནི"
+
+#: No
+msgid "Deny"
+msgstr "མི་བཅུག་ནི།"
+
+#: Titleline
+msgid "Internet Security"
+msgstr "ཨིན་ཊར་ནེཊི་སྲུང་སྐྱོབ།"
+
+#: CheckMessage
+msgid "Remember this decision"
+msgstr "གྲོས་ཆད་འདི་སེམས་ཁར་བཞག"
+
+#: EnableCapabilityQuery
+msgid ""
+"A script from \"%S\" is requesting enhanced abilities that are UNSAFE and could be used to compromise your machine or data:\n"
+"\n"
+"%S\n"
+"\n"
+"Allow these abilities only if you trust this source to be free of viruses or malicious programs."
+msgstr ""
+"\"%S\"་ལས་ཨིན་པའི་ཡིག་ཚུགས་དེ་གིས་  ཁྱོད་ཀྱི་གློག་འཕྲུལ་ཡང་ན་གནད་སྡུད་འདི་ ནང་འགྲིགས་འབད་ནི་ལུ་  ལག་ལེན་འཐབ་བཏུབ་མི་དང་  UNSAFEའབད་ཡོད་པའི་  གོང་སྤེལ་གྱི་ལྕོགས་གྲུབ་འདི་ ཞུ་བ་འབད་དོ:\n"
+"\n"
+"%S\n"
+"\n"
+"  ཁྱོད་ཀྱིས་  འབྱུང་ཁུངས་འདི་  གནོད་ཅན་གྱི་ལས་རིམ་ཚུ་དང་  གནོད་འབུབ་ཚུ་མེད་ཟེར་བློ་གཏད་པ་ཅིན་རྐྱངམ་ཅིག་  ལྕོགས་གྲུབ་དེ་ཚུ་  བཅུག་ད།"
+
+#: EnableCapabilityDenied
+msgid "A script from \"%S\" was denied %S privileges."
+msgstr "\"%S\"ལས་ཚུགས་ཡིག་འདི་ %S ཁེ་དབང་ཚུ་གིས་ཉེན་མ་བཏུབ་པས།"
+
+#: CheckLoadURIError
+msgid "Security Error: Content at %S may not load or link to %S."
+msgstr "སྲུང་སྐྱོབ་ཀྱི་འཛོལ་བ:  %Sལུ་ཡོད་པའི་ནང་དོན་འདི་  %Sལུ་ ཡང་ན་མངོན་གསལ་མི་འབད་ ཡང་ན་ འབྲེལ་ལམ་མུ་འབད་འོང་།"
+
+#: CheckSameOriginError
+msgid "Security Error: Content at %S may not load data from %S."
+msgstr "སྲུང་སྐྱོབ་ཀྱི་འཛོལ་བ:  %Sལུ་ཡོད་པའི་ ནང་དོན་དེ་གིས་  %Sལས་  གནད་སྡུད་འདི་མངོན་གསལ་མི་འབད་འོང་།"
+
+#: GetPropertyDenied
+msgid "Permission denied to get property %S.%S"
+msgstr "རྒྱུ་དངོས་  %S ལེན་ནི་དོན་ལུ་  གནང་བ་བྱིན་མ་བཏུབ་པས།%S"
+
+#: SetPropertyDenied
+msgid "Permission denied to set property %S.%S"
+msgstr "རྒྱུ་དངོས་%S འདི་གཞི་སྒྲིག་འབད་ནི་དོན་ལུ་  གནང་བ་འདི་བྱིན་མ་བཏུབ་པས།%S"
+
+#: CallMethodDenied
+msgid "Permission denied to call method %S.%S"
+msgstr "ཐབས་ལམ་ %S འདི་འབོ་ནི་ལུ་  གནང་བ་འདི་བྱིན་མ་བཏུབ་པས།%S"
+
+#: CreateWrapperDenied
+msgid "Permission denied to create wrapper for object of class %S"
+msgstr "དབྱེ་རིགས་ %S གི་དངོས་པོའི་དོན་ལུ་  ལོག་མཚམས་བཟོ་ནི་འདི་གསར་བསྐྲུན་འབད་ནི་ལུ་  གནང་བ་འདི་བྱིན་མ་བཏུབ་པས།"
+
+#: ExtensionCapability
+msgid "Unknown: %S"
+msgstr "མ་ཤསཔ:  %S"
+
+#
+# The following descriptions are shown in the EnableCapabilityQuery dialog
+#
+#: capdesc.UniversalBrowserRead
+msgid "Read private data from any site or window"
+msgstr "སྒེར་དོན་གནད་སྡུད་འདི་  ས་ཁོངས་ཡང་ན་སྒོ་སྒྲིག་གང་རུང་ཅིག་ལས་  ལྷག་ད།"
+
+#: capdesc.UniversalBrowserWrite
+msgid "Modify any open window"
+msgstr "ཁ་ཕྱེ་བའི་སྒོ་སྒྲིག་གང་རུང་ཅིག་ལེགས་བཅོས་འབད།"
+
+#: capdesc.UniversalXPConnect
+msgid "Run or install software on your machine"
+msgstr "ཁྱོད་རའི་གློག་འཕྲུལ་གུ་  མཉེན་ཆས་འདི་གཡོག་བཀོལ་ནི་ ཡང་ན་ གཞི་བཙུགས་འབད།"
+
+#: capdesc.UniversalFileRead
+msgid "Read and upload local files"
+msgstr "ཉེ་གནས་ཡིག་སྣོད་ཚུ་  ལྷག་ཞིནམ་ལས་སྐྱེལ་བཙུགས་འབད།"
+
+#: capdesc.CapabilityPreferencesAccess
+msgid "By-pass core security settings"
+msgstr "ཟུར་ལམ་ནང་སྙིང་སྲུང་སྐྱོབ་སྒྲིག་སྟངས་ཚུ།"
+
+#: capdesc.UniversalPreferencesRead
+msgid "Read program settings"
+msgstr "ལས་རིམ་སྒྲིག་སྟངས་ཚུ་ལྷག"
+
+#: capdesc.UniversalPreferencesWrite
+msgid "Modify program settings"
+msgstr "ལས་རིམ་སྒྲིག་སྟངས་ཚུ་ ལེགས་བཅོས་འབད།"
+

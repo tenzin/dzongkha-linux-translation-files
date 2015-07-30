@@ -1,0 +1,362 @@
+# LANGUAGE translation of Drupal (modules/aggregator.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: aggregator.module,v 1.278.2.2 2006/05/04 18:45:18 killes
+# sonam pelden <sonaa_peldn@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-4.7.0/aggregator-module.po\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-18 14:57+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/aggregator.module:15
+msgid "The news aggregator is a powerful on-site RSS syndicator/news reader that can gather fresh content from news sites and weblogs around the web."
+msgstr "གནས་ཚུལ་སྤྱི་སྙོམས་འབད་མི་འདི་  ཝེབ་ཀྱི་མཐའ་འཁོར་ལུ་ཡོད་པའི་  གནས་ཚུལ་ས་སྟོང་ཚུ་དང་  ཝེབ་དྲན་དེབ་ལས་ནང་དོན་གསརཔ་ཚུ་བསྡུས་སྤུངས་འབད་བཏུབ་པའི་  on-site ཨར་ཨེསི་ཨེསི་མཉམ་རུབ་འབད་མི་ནུས་ཤུགས་ཅན་/ གནས་ཚུལ་ལྷག་མི་ཅིག་ཨིན།  "
+
+#: modules/aggregator.module:16
+msgid "Users can view the latest news chronologically in the <a href=\"%aggregator\">main news aggregator display</a> or by <a href=\"%aggregator-sources\">source</a>. Administrators can add, edit and delete feeds and choose how often to check for newly updated news for each individual feed. Administrators can also tag individual feeds with categories, offering selective grouping of some feeds into separate displays. Listings of the latest news for individual sources or categorized sources can be enabled as blocks for display in the sidebar through the <a href=\"%admin-block\">block administration page</a>. The news aggregator requires cron to check for the latest news from the sites to which you have subscribed. Drupal also provides a <a href=\"%aggregator-opml\">machine-readable OPML file</a> of all of your subscribed feeds."
+msgstr "ལག་ལེན་པ་ཚུ་གིས་  མཐའ་མཇུག་གི་གནས་ཚུལ་འདི་ཚུ་  <a href=\"%aggregator\">གནས་ཚུལ་སྤྱི་སྙོམས་འབད་མི་ངོ་མ་འདི་བཀྲམ་སྟོན་འབད་ནི་</a>ཡང་ན་  <a href=\"%aggregator-sources\">འབྱུང་ཁུངས་</a>དེ་ཚུ་གི་ནང་ལུ་  གོ་རིམ་བཞིན་དུ་འབད་མཐོང་ཚུགསཔ་ཨིན།  བདག་སྐྱོང་པ་དེ་གིས་  མཁོ་སྤྲོད་འབད་ནི་ཚུ་  ཁ་སྐོང་བརྐྱབ་ནི་དང་ ཞུན་དག་འབད་ནི་དེ་ལས་  བཏོན་གཏང་ནི་དང་  མཁོ་སྤྲོད་འབད་ནི་ངོ་རྐྱང་རེ་རེ་གི་དོན་ལུ་  གནས་ཚུལ་དུས་མཐུན་བཟོ་ཡོད་པའི་གནས་ཚུལ་ཚུ་གི་དོན་ལུ་  ཞིབ་དཔྱད་འཕྲལ་འཕྲལ་ག་དེ་སྦེ་འབད་ནི་ཨིན་ན་འདི་  གདམ་ཁ་བརྐྱབ་བཏུབ་ཨིན།  བདག་སྐྱོང་པ་དེ་གིས་  དབྱེ་རིམ་ཚུ་དང་ཅིག་ཁར་  མཁོ་སྤྲོད་འབད་ནི་ལ་ལོ་ཅིག་གི་སེལ་འཐུ་འབད་ཡོད་པའི་སྡེ་བཟོ་འདི་  བཀྲམ་སྟོན་སོ་སོ་འཕྱལ་འཕྱལཝ་ནང་ལུ་  ངོ་རྐྱང་གི་མཁོ་སྤྲོད་འབད་ནི་ཚུ་ངོ་རྟགས་བཀལ་བཏུབ་ཨིན།  <a href=\"%admin-block\">བཀག་ཆའི་བདག་སྐྱོངས་ཤོག་ལེབ་</a>ལས་བརྒྱུད་དེ་  ཟུར་ཁའི་ཕྲ་རིང་ནང་ལུ་  ངོ་རྐྱང་འབྱུང་ཁུངས་ཡང་ན་  དབྱེ་རིམ་བཟོ་དེ་ཡོད་པའི་འབྱུང་ཁུངས་ཀྱི་དོན་ལུ་  མཐའ་མཇུག་གནས་ཚུལ་གྱི་ཐོ་ཡིག་འདི་  བཀག་ཆ་འབད་ལྕོགས་ཅན་བཟོ་བཏུབ་ཨིན།  ཁྱོད་ཀྱིས་ཁོ་མངགས་འབད་ཡོད་མི་གི་  ས་སྟོང་ལས་ མཐའ་མཇུག་གི་གནས་ཚུལ་འདི་  ཞིབ་དཔྱད་འབད་ནི་གི་དོན་ལུ་  གནས་ཚུལ་སྤྱི་སྙོམས་འབད་མི་ལུ་  ཀོརཱོན་འདི་དགོཔ་ཨིན།  ཌུ་པཱལ་དེ་གིས་  ཁྱོད་ཀྱིས་མཁོ་མངགས་འབད་དེ་ཡོད་པའི་མཁོ་སྤྲོད་འབད་ནི་ཚུ་ཆ་མཉམ་ལུ་  <a href=\"%aggregator-opml\">machine-readable ཨོ་པི་ཨེམ་ཨེལ་ཡིག་སྣོད་</a> འདི་ བྱིནམ་ཨིན།"
+
+#: modules/aggregator.module:17
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>administer your list of news feeds <a href=\"%admin-aggregator\">administer &gt;&gt;  aggregator</a>.</li>\n"
+"<li>add a new feed <a href=\"%admin-aggregator-add-feed\">administer &gt;&gt; aggregator &gt;&gt; add feed</a>.</li>\n"
+"<li>add a new category <a href=\"%admin-aggregator-add-category\">administer &gt;&gt; aggregator &gt;&gt; add category</a>.</li>\n"
+"<li>configure global settings for the news aggregator <a href=\"%admin-settings-aggregator\">administer &gt;&gt; settings &gt;&gt; aggregator</a>.</li>\n"
+"<li>control access to the aggregator module through access permissions <a href=\"%admin-access\">administer &gt;&gt; access control &gt;&gt; permissions</a>.</li>\n"
+"<li>set permissions to access new feeds for user roles such as anonymous users at <a href=\"%admin-access\">administer &gt;&gt; access control</a>.</li>\n"
+"<li>view the <a href=\"%aggregator\">aggregator page</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་ </p>\n"
+"<ul>\n"
+"<li>ཁྱོད་རའི་ གནས་ཚུལ་མཁོ་སྤྲོད་འབད་ནི་གི་ཐོ་ཡིག་འདི་  བདག་སྐྱོང་འབད། <a href=\"%admin-aggregator\"> &gt;&gt; སྤྱི་སྙོམས་འབད་མི་འདི་བདག་སྐྱོང་འབད་བཏུབ་ཨིན།</a>.</li>\n"
+"<li>མཁོ་སྤྲོད་འབད་ནི་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་ནི་དང་  <a href=\"%admin-aggregator-add-feed\"> &gt;&gt; སྤྱི་སྙོམས་ &gt;&gt; མཁོ་སྤྲོད་འབད་ནི་འདི་བདག་སྐྱོང་འབད།</a>.</li>\n"
+"<li>དབྱེ་རིམ་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་ <a href=\"%admin-aggregator-add-category\">administer &gt;&gt; aggregator &gt;&gt; དབྱེ་རིམ་ཁ་སྐོང་བརྐྱབ།</a>.</li>\n"
+"<li>གནས་ཚུལ་སྤྱི་སྙོམས་གྱི་དོན་ལུ་  སྤྱི་ཁྱབ་སྒྲིག་སྟངས་འདི་ཚུ་རིམ་སྒྲིག་འབད། <a href=\"%admin-settings-aggregator\">administer &gt;&gt; settings &gt;&gt; སྤྱི་སྙོམས་འབད་མི།</a>.</li>\n"
+"<li>འཛུལ་སྤྱོད་འབད་ནི་གནང་བ་ལས་བརྒྱུད་དེ་  ཚད་འཛིན་འཛུལ་སྤྱོད་འདི་  སྤྱི་སྙོམས་འབད་མི་ཚད་གཞི་ལུ། <a href=\"%admin-access\">administer &gt;&gt; access control &gt;&gt; གནང་བ་ཚུ།</a>.</li>\n"
+"<li>set permissions to access new feeds for user roles such as anonymous users at <a href=\"%admin-access\">administer &gt;&gt; access control</a>ལུ་ཡོད་པའི་  མིང་མེདཔ་ལག་ལེན་པ་ཚུ་བཟུམ་འབད་  ལག་ལེན་པའི་ལས་འགན་ཚུ་གི་དོན་ལུ་  མཁོ་སྤྲོད་འབད་ནི་གནསཔ་གི་དོན་ལུ་  གནང་བ་འདི་གཞི་སྒྲིག་འབད། </li>\n"
+"<li>སྤྱི་སྙོམས་ཤོག་ལེབ་འདི་ <a href=\"%aggregator\">སྟོན།</a>.</li>\n"
+"</ul>\n"
+
+#: modules/aggregator.module:28
+msgid "For more information please read the configuration and customization handbook <a href=\"%aggregator\">Aggregator page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་འབད་དེ་ཡོད་པའི་  ལག་དེབ་ <a href=\"%aggregator\">སྤྱི་སྙོམས་ཤོག་ལེབ་འདི་</a> ལྷག་གནང་།"
+
+#: modules/aggregator.module:31
+msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
+msgstr "མཉམ་རུབ་འབད་དེ་ཡོད་པའི་ནང་དོན་  (ཨར་ཨེསི་ཨེསི, ཨར་ཌི་ཨེཕ་, དང་ ཨེ་ཊོམ་མཁོ་སྤྲོད་འབད་ནི་) སྤྱི་སྙོམས་འབདཝ་ཨིན།"
+
+#: modules/aggregator.module:33
+msgid "<p>Thousands of sites (particularly news sites and weblogs) publish their latest headlines and/or stories in a machine-readable format so that other sites can easily link to them. This content is usually in the form of an <a href=\"http://blogs.law.harvard.edu/tech/rss\">RSS</a> feed (which is an XML-based syndication standard). To display the feed or category in a block you must decide how many items to show by editing the feed or block and turning on the <a href=\"%block\">feed's block</a>.</p>"
+msgstr "<p>ས་སྟོང་སྟོང་ཕྲག་འབད་  (བྱེ་བྲག་འབད་ གནས་ཚུལ་ཚུ་གི་ས་སྟོང་ཚུ་དང་ ཝེབ་དྲན་དེབ་ཚུ་) ཁོང་གི་མཐའ་མཇུག་གི་གཙོ་དོན་ཚུ་དང་ / གཏམ་ཚུ་   machine-readable རྩ་སྒྲིག་ནང་ལུ་དཔེ་བསྐྲུན་འབདཝ་ཨིནམ་ལས་  ས་སྟོང་གཞན་མི་ཚུ་གིས་  འཇམ་ཏོང་ཏོ་འབད་འབྲེལ་མཐུད་འབད་ཚུགསཔ་ཨིན།  འ་ནི་ནང་དོན་འདི་  <a href=\"http://blogs.law.harvard.edu/tech/rss\">RSS</a> མཁོ་སྤྲོད་འབད་ནི་གི་འབྲི་ཤོག་ནང་ལུ་འོངམ་ཨིན། (དེ་ཡང་ ཨེགསི་ཨེམ་ཨེལ་-གཞི་བཞག་མཉམ་རུབ་ཚད་ལྡན་). བཀག་ཆའི་ནང་ལུ་ མཁོ་སྤྲོད་ཡང་ན་ དབྱེ་རིམ་འདི་བཀྲམ་སྟོན་འབད་ནི་ལུ་  ཁྱོད་ཀྱིས་   <a href=\"%block\">feed's block</a>གུ་བསྒྱིར་ནི་དང་  མཁོ་སྤྲོད་འབད་ནི་ཡང་ན་  བཀག་ཆ་འདི་ཞུན་དག་འབད་དེ་  རྣམ་གྲངས་ག་དེ་ཅིག་སྟོན་ནི་ཨིན་ན་འདི་ གྲོས་ཐག་བཅད།</p>"
+
+#: modules/aggregator.module:35
+msgid "<p>Add a site that has an RSS/RDF/Atom feed. The URL is the full path to the feed file. For the feed to update automatically you must run \"cron.php\" on a regular basis. If you already have a feed with the URL you are planning to use, the system will not accept another feed with the same URL.</p>"
+msgstr "<p> RSS/RDF/ཨེ་ཊོམ་མཁོ་སྤྲོད་འབད་ནི་  ཡོད་མི་གི་ས་སྟོང་ཅིག་ཁ་སྐོང་བརྐྱབ། ཡུ་ཨར་ཨེལ་འདི་ མཁོ་སྤྲོད་འབད་ནི་གི་ཡིག་སྣོད་ལུ་  འགྲུལ་ལམ་ཆ་ཚང་ཅིག་ཨིན།   མཁོ་སྤྲོད་འབད་ནི་འདི་རང་བཞིན་གྱིས་དུས་མཐུན་བཟོ་ནི་དོན་ལུ་  ཁྱོད་ཀྱིས་  དུས་རྒྱུན་གཞི་རྩ་གུ་   \"cron.php\" འདི་ གཡོག་བཀལ་དགོཔ་ཨིན།  ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་ནི་ཟེར་འཆར་གཞི་ཙམ་མི་ཡུ་ཨར་ཨེལ་དང་ཅིག་ཁར་  མཁོ་སྤྲོད་འདི་ཧེ་མ་ལས་རང་ཡོད་པ་ཅིན་   རིམ་ལུགས་དེ་གིས་  མཁོ་སྤྲོད་འབད་ནི་གཞན་ཅིག་  ཡུ་ཨར་ཨེལ་དང་ཅིག་ཁར་དང་ལེན་མི་འབད།</p>"
+
+#: modules/aggregator.module:37
+msgid "<p>Categories provide a way to group items from different news feeds together. Each news category has its own feed page and block. For example, you could tag various sport-related feeds as belonging to a category called <em>Sports</em>. News items can be added to a category automatically by setting a feed to automatically place its item into that category, or by using the categorize items link in any listing of news items.</p>"
+msgstr "<p>དབྱེ་རིམ་དེ་གིས་  གནས་ཚུལ་མཁོ་སྤྲོད་སོ་སོ་ཚུ་ཅིག་ཁར་ལས་  རྣམ་གྲངས་ཚུ་སྡེ་ཚན་བཟོ་ནི་གི་ལག་ལུགས་ཅིག་བྱིནམ་ཨིན། གནས་ཚུལ་དབྱེ་རིམ་རེ་ལུ་  རང་རང་སའི་ མཁོ་སྤྲོད་འབད་ནི་གི་ཤོག་ལེབ་དང་བཀག་ཆ་ཡོདཔ་ཨིན།  དཔེར་ན་    <em>Sports</em>ཟེར་མི་གི་དབྱེ་རིམ་ཅིག་ལུ་ བང་མི་འབད་  ཁྱོད་ཀྱིས་  sport-related སྣ་མང་ལུ་ངོ་རྟགས་བཀལ་བཏུབ་ཨིན། གནས་ཚུལ་རྣམ་གྲངས་འདི་ཚུ་  དབྱེ་རིམ་ཅིག་ལུ་རང་བཞིན་གྱིས་ཁ་སྐོང་བརྐྱབ་ནི་འདི་  མཁོ་སྤྲོད་འབད་ནི་ཅིག་སྒྲིག་སྟངས་འབད་དེ་ དབྱེ་རིམ་དེ་གི་ནང་ལུ་རྣམ་གྲངས་ཚུ་  རང་བཞིན་གྱིས་གནས་དེ་  ཡང་ན་  དབྱེ་རིམ་འབད་དེ་ཡོད་པའི་རྣམ་གྲངས་འདི་ཚུ་  གནས་ཚུལ་རྣམ་གྲངས་ཐོ་ཡིག་གང་རུང་ཅིག་གི་ནང་ལུ་  འབྲེལ་མཐུད་འབད་དེ་ ཁ་སྐོང་བརྐྱབ་བཏུབ་ཨིན། </p>"
+
+#: modules/aggregator.module:51;1194;374;385;507;518;707;756;761;818;0
+msgid "aggregator"
+msgstr "སྤྱི་སྙོམས་འབད་མི།"
+
+#: modules/aggregator.module:55
+msgid "add feed"
+msgstr "མཁོ་སྤྲོད་འབད་ནི་འདི་ཁ་སྐོང་བརྐྱབ།"
+
+#: modules/aggregator.module:65;970
+msgid "remove items"
+msgstr "རྣམ་གྲངས་ཚུ་རྩ་བསྐྲད་གཏང་།"
+
+#: modules/aggregator.module:70;970
+msgid "update items"
+msgstr "རྣམ་གྲངས་ཚུ་དུས་མཐུན་བཟོ།"
+
+#: modules/aggregator.module:80
+msgid "news aggregator"
+msgstr "སྤྱི་སྙོམས་གནས་ཚུལ་ཚུ།"
+
+#: modules/aggregator.module:85
+msgid "sources"
+msgstr "འབྱུང་ཁུངས་ཚུ།"
+
+#: modules/aggregator.module:94
+msgid "RSS feed"
+msgstr "ཨར་ཨེསི་ཨེསི་མཁོ་སྤྲོད་འབད་ནི།"
+
+#: modules/aggregator.module:99
+msgid "OPML feed"
+msgstr "ཨོ་པི་ཨེམ་ཨེལ་མཁོ་སྤྲོད་འབད་ནི།"
+
+#: modules/aggregator.module:127;148
+msgid "categorize"
+msgstr "དབྱེ་རིམ་བཟོ་ནི།"
+
+#: modules/aggregator.module:167
+msgid "edit feed"
+msgstr "མཁོ་སྤྲོད་འབད་ནི་འདི་ཞུན་དག་འབད།"
+
+#: modules/aggregator.module:178
+msgid "edit category"
+msgstr "དབྱེ་རིམ་འདི་ཞུན་དག་འབད།"
+
+#: modules/aggregator.module:201
+msgid "The list of tags which are allowed in feeds, i.e., which will not be removed by Drupal."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ནང་ལུ་ཆོག་མི་  ངོ་རྟགས་ཚུ་གི་ཐོ་ཡིག་  དེ་ཡང་  ཌུ་པཱལ་གྱིས་རྩ་བསྐྲད་གཏང་མ་ཚུགས་མི།"
+
+#: modules/aggregator.module:205
+msgid "Items shown in sources and categories pages"
+msgstr "འབྱུང་ཁུངས་དང་ དབྱེ་རིམ་ཤོག་ལེབ་ཚུ་གི་ནང་ལུ་སྟོན་དེ་ཡོད་པའི་རྣམ་གྲངས་ཚུ།"
+
+#: modules/aggregator.module:207
+msgid "The number of items which will be shown with each feed or category in the feed and category summary pages."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་དང་ དབྱེ་རིམ་བཅུད་དོན་ཤོག་ལེབ་ནང་ལུ་ཡོད་པའི་  མཁོ་སྤྲོད་འབད་ནི་ཡང་ན་ དབྱེ་རིམ་རེ་དང་ཅིག་ཁར་སྟོན་ནི་ཨིན་པའི་  རྣམ་གྲངས་ཀྱི་ཨང་གྲངས།"
+
+#: modules/aggregator.module:211
+msgid "Discard news items older than"
+msgstr "རྙིངམ་ཡོད་པའི་གནས་ཚུལ་རྣམ་གྲངས་ཚུ་ བཏོན་བཀོག"
+
+#: modules/aggregator.module:213
+msgid "Older news items will be automatically discarded.  Requires crontab."
+msgstr "གནས་ཚུལ་རྣམ་གྲངས་རྙིངམ་ཚུ་རང་བཞིན་གྱིས་  བཏོན་བཀོགཝ་ཨིན།  ཀོརཱོན་ཨེབ་ལྡེ་འདི་དགོཔ་ཨིན།"
+
+#: modules/aggregator.module:217
+msgid "Category selection type"
+msgstr "དབྱེ་རིམ་སེལ་འཐུའི་དབྱེ་བ།"
+
+#: modules/aggregator.module:218
+msgid "checkboxes"
+msgstr "དཔྱད་སྒྲོམ་ཚུ།"
+
+#: modules/aggregator.module:218
+msgid "multiple selector"
+msgstr "སྣ་མང་སེལ་འཐུ་འབད་མི།"
+
+#: modules/aggregator.module:219
+msgid "The type of category selection widget which is shown on categorization pages. Checkboxes are easier to use; a multiple selector is good for working with large numbers of categories."
+msgstr "དབྱེ་རིམ་བཟོ་དེ་ཡོད་པའི་ཤོག་ལེབ་གུ་སྟོན་མི་  དབྱེ་རིམ་སེལ་འཐུ་ཝི་གེཊི་གི་དབྱེ་བ། དཔྱད་སྒྲོམ་ཚུ་ལག་ལེན་འཐབ་ནི་ལུ་འཇམ་ཏོང་ཏོ་ཡོད་ ;  སྣ་མང་སེལ་འཐུ་འདི་  དབྱེ་རིམ་ཨང་གྲངས་ཆེ་བ་དང་ཅིག་ཁར་ལཱ་འབད་ནི་འདི་ ལེགས་ཤོག་ཡོད།"
+
+#: modules/aggregator.module:253
+msgid "%title category latest items"
+msgstr "%titleདབྱེ་བ་  མཐའ་མཇུག་གི་རྣམ་གྲངས་ཚུ།"
+
+#: modules/aggregator.module:257
+msgid "%title feed latest items"
+msgstr "%title མཁོ་སྤྲོད་འབད་ནི་མཐའ་མཇུག་གི་རྣམ་གྲངས་ཚུ།"
+
+#: modules/aggregator.module:268
+msgid "Number of news items in block"
+msgstr "བཀག་ཆའི་ནང་ལུ་འབད་  གནས་ཚུལ་རྣམ་གྲངས་ཚུ་གི་ཨང་གྲངས།"
+
+#: modules/aggregator.module:287
+msgid "View this feed's recent news."
+msgstr "འཕྲལ་གྱི་མཁོ་སྤྲོད་ཀྱི་གནས་ཚུལ་འདི་སྟོན།"
+
+#: modules/aggregator.module:295
+msgid "View this category's recent news."
+msgstr "དབྱེ་རིམ་དེ་གི་འཕྲལ་གྱི་གནས་ཚུལ་འདི་སྟོན།"
+
+#: modules/aggregator.module:346
+msgid "A category named %category already exists. Please enter a unique title."
+msgstr "% categoryཟེར་བའི་དབྱེ་རིམ་འདི་ཧེ་མ་ལས་རང་གནས་དེ་འདུག  མགོ་མིང་མཐུན་མོང་མ་ཡིན་པ་ཅིག་ཐོ་བཀོད་འབད་གནང་།"
+
+#: modules/aggregator.module:365
+msgid "The category %category has been updated."
+msgstr "དབྱེ་རིམ་ %categoryའདི་ དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/aggregator.module:374
+msgid "Category %category deleted."
+msgstr "དབྱེ་རིམ་ %categoryའདི་བཏོན་གཏང་ནུག"
+
+#: modules/aggregator.module:375
+msgid "The category %category has been deleted."
+msgstr "དབྱེ་རིམ་ % categoryའདི་བཏོན་གཏང་ཡོད།"
+
+#: modules/aggregator.module:385
+msgid "Category %category added."
+msgstr "དབྱེ་རིམ་ % categoryའདི་ཁ་སྐོང་བརྐྱབ་ནུག"
+
+#: modules/aggregator.module:386
+msgid "The category %category has been added."
+msgstr "དབྱེ་རིམ་ %categoryའདི་ ཁ་སྐོང་བརྐྱབ་ཡོད།"
+
+#: modules/aggregator.module:421
+msgid "The name of the feed; typically the name of the web site you syndicate content from."
+msgstr "མཁོ་སྤྲོད་ཀྱི་མིང་; ཁྱོད་ཀྱིས་ འཁྲུལ་བ་མེད་པར་ནང་དོན་ལས་སྤྱི་སྙོམས་འབད་མི་ ཝེབ་ཀྱི་ས་སྟོང་གི་མིང་།"
+
+#: modules/aggregator.module:428
+msgid "The fully-qualified URL of the feed."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ལུ་  ཆ་ཚང་ཁྱད་ཆོས་ཚང་མི་ ཡུ་ཨར་ཨེལ།"
+
+#: modules/aggregator.module:432
+msgid "Update interval"
+msgstr "བར་མཚམས་དུས་མཐུན་བཟོ།"
+
+#: modules/aggregator.module:435
+msgid "The refresh interval indicating how often you want to update this feed. Requires crontab."
+msgstr "ཁྱོད་ཀྱིས་ མཁོ་སྤྲོད་འབད་ནི་འདི་ག་དེ་ཅིག་ཚུན་དུས་མཐུན་བཟོ་ནི་ཨིན་ན་དེ་  ཡང་སེལ་བར་མཚམས་དེ་གིས་ བརྡ་སྟོན་དོ།  ཀོརཱོན་ཨེབ་ལྡེ་འདི་དགོཔ་ཨིན།"
+
+#: modules/aggregator.module:448
+msgid "Categorize news items"
+msgstr "གནས་ཚུལ་རྣམ་གྲངས་འདི་ཚུ་དབྱེ་རིམ་བཟོ།"
+
+#: modules/aggregator.module:451
+msgid "New items in this feed will be automatically filed in the checked categories as they are received."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ནང་གི་རྣམ་གྲངས་གསརཔ་དེ་ཚུ་  ཐོབ་ཅིག་ཞིབ་དཔྱད་འབད་དེ་ཡོད་པའི་དབྱེ་རིམ་ནང་ རང་བཞིན་གྱིས་  བཀང་འགྱོཝ་ཨིན།"
+
+#: modules/aggregator.module:478
+msgid "A feed named %feed already exists. Please enter a unique title."
+msgstr "%feedཟེར་མི་མིང་གི་མཁོ་སྤྲོད་འབད་ནི་འདི་  ཧེ་མ་ལས་རང་གནས་དེ་ཡོད། མགོ་མིང་མཐུན་མོང་མ་ཡིན་པ་ཅིག་ཐོ་བཀོད་འབད་གནང་།"
+
+#: modules/aggregator.module:498
+msgid "The feed %feed has been updated."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ %feedའདི་ དུས་མཐུན་བཟོ་ཡོད།"
+
+#: modules/aggregator.module:507
+msgid "Feed %feed deleted."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ %feedའདི་ བཏོན་གཏང་ནུག"
+
+#: modules/aggregator.module:508
+msgid "The feed %feed has been deleted."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ %feedའདི་ བཏོན་གཏང་ཡོད།"
+
+#: modules/aggregator.module:518
+msgid "Feed %feed added."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ %feed  འདི་ཁ་སྐོང་བརྐྱབ་ནུག"
+
+#: modules/aggregator.module:519
+msgid "The feed %feed has been added."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་ % feedའདི་ ཁ་སྐོང་བརྐྱབ་ཡོད།"
+
+#: modules/aggregator.module:572
+msgid "The news items from %site have been removed."
+msgstr "%siteལས་གནས་ཚུལ་རྣམ་གྲངས་འདི་རྩ་བསྐྲད་གཏང་ཡོད།"
+
+#: modules/aggregator.module:703
+msgid "There is no new syndicated content from %site."
+msgstr "%siteལས་ ནང་དོན་སྤྱི་སྙོམས་འབད་འབདཝ་གསརཔ་འདི་མིན་འདུག"
+
+#: modules/aggregator.module:707
+msgid "Updated URL for feed %title to %url."
+msgstr "མཁོ་སྤྲོད་འབད་ནི་%title ལས་ %url གི་དོན་ལུ་ དུས་མཐུན་བཟོ་ཡོད་པའི་ཡུ་ཨར་ཨེལ།"
+
+#: modules/aggregator.module:756;757
+msgid "There is new syndicated content from %site."
+msgstr "%siteལས་  ནང་དོན་སྤྱི་སྙོམས་གསརཔ་འདི་འདུག"
+
+#: modules/aggregator.module:761
+msgid "The RSS-feed from %site seems to be broken, due to \"%error\"."
+msgstr "%siteལས་ཨིན་པའི་ ཨར་ཨེསི་ཨེསི་-མཁོ་སྤྲོད་འདི་  \"%error\" ལས་བརྟེན་ ཆད་འགྱོ་འགྱོཝ་བཟུམ་ཅིག་འདུག"
+
+#: modules/aggregator.module:762
+msgid "The RSS-feed from %site seems to be broken, because of error \"%error\"."
+msgstr "%siteལས་ཨར་ཨེསི་ཨེསི་-མཁོ་སྤྲོད་འདི་   \"%error\" འཛོལ་བའི་རྒྱུ་མཚན་ལས་བརྟེན་ ཆད་འགྱོ་འགྱོཝ་བཟུམ་ཅིག་འདུག"
+
+#: modules/aggregator.module:818
+msgid "The RSS-feed from %site seems to be broken, due to an error \"%error\" on line %line."
+msgstr "%siteལས་ ཨར་ཨེསི་ཨེསི་-མཁོ་སྤྲོད་འདི་ %གྲལ་ཐིག་གི་གྱལ་རིམ་གུ་ འཛོལ་བ་ \"%error\"འདི་ལས་བརྟེན་  ཆད་འགྱོ་འགྱོཝ་བཟུམ་ཅིག་འདུག"
+
+#: modules/aggregator.module:819
+msgid "The RSS-feed from %site seems to be broken, because of error \"%error\" on line %line."
+msgstr "%siteལས་ ཨར་ཨེསི་ཨེསི་-མཁོ་སྤྲོད་འདི་   %གྲལ་ཐིག་གི་གྱལ་རིམ་གུ་འཛོལ་བ་ \"%error\"འདུག"
+
+#: modules/aggregator.module:965
+msgid "Feed overview"
+msgstr "མཁོ་སྤྲོད་འདི་སྤྱི་མཐོང་།"
+
+#: modules/aggregator.module:967;978
+msgid "Items"
+msgstr "རྣམ་གྲངས་ཚུ།"
+
+#: modules/aggregator.module:967
+msgid "Last update"
+msgstr "མཐའ་མཇུག་གི་དུས་མཐུན་བཟོ་ནི།"
+
+#: modules/aggregator.module:967
+msgid "Next update"
+msgstr "ཤུལ་མའི་དུས་མཐུན་བཟོ་ནི།"
+
+#: modules/aggregator.module:970
+msgid "%time left"
+msgstr "གཡོན་གྱི་ %time"
+
+#: modules/aggregator.module:976
+msgid "Category overview"
+msgstr "དབྱེ་རིམ་སྤྱི་མཐོང་།"
+
+#: modules/aggregator.module:1077
+msgid "Save categories"
+msgstr "དབྱེ་རིམ་ཚུ་སྲུངས།"
+
+#: modules/aggregator.module:1105
+msgid "Categorize"
+msgstr "དབྱེ་རིམ་བཟོ།"
+
+#: modules/aggregator.module:1114
+msgid "You are not allowed to categorize this feed item."
+msgstr "མཁོ་སྤྲོད་རྣམ་གྲངས་འདི་  ཁྱོད་ཀྱིས་  དབྱེ་རིམ་འབད་མི་ཆོག"
+
+#: modules/aggregator.module:1127
+msgid "The categories have been saved."
+msgstr "དབྱེ་རིམ་ཚུ་སྲུངས་ཡོད།"
+
+#: modules/aggregator.module:1166
+msgid "in category"
+msgstr "དབྱེ་རིམ་ནང་།"
+
+#: modules/aggregator.module:1194
+msgid "aggregated feeds"
+msgstr "མཁོ་སྤྲོད་སྤྱི་སྙོམས།"
+
+#: modules/aggregator.module:1265
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ:"
+
+#: modules/aggregator.module:1278
+msgid "Updated:"
+msgstr "དུས་མཐུན་བཟོ་ཡོད:"
+
+#: modules/aggregator.module:1293;1293
+msgid "blog it"
+msgstr "བ་ལོག་འབད།"
+
+#: modules/aggregator.module:1294
+msgid "Comment on this news item in your personal blog."
+msgstr "ཁྱོད་རའི་རང་དོན་བ་ལོག་ནང་ལུ་  གནས་ཚུལ་འདི་གི་སྐོར་ལས་བསམ་བཀོད་འབད།"
+
+#: modules/aggregator.module:1314
+msgid "%age old"
+msgstr "%age གི་ལོ་གྲངས།"
+
+#: modules/aggregator.module:1334
+msgid "%ago ago"
+msgstr "%agoགི་ཧེ་མ།"
+
+#: modules/aggregator.module:970;981;1373
+msgid "1 item"
+msgid_plural "%count items"
+msgstr[0] "རྣམ་གྲངས་ ༡་"
+msgstr[1] "%count རྣམ་གྲངས་ཚུ།"
+
+#: modules/aggregator.module:228
+msgid "administer news feeds"
+msgstr "གནས་ཚུལ་མཁོ་སྤྲོད་ཚུ་བདག་སྐྱོང་རའབད།"
+
+#: modules/aggregator.module:228
+msgid "access news feeds"
+msgstr "གནས་ཚུལ་མཁོ་སྤྲོད་ཚུ་འཛུལ་སྤྱོད་འབད།"
+

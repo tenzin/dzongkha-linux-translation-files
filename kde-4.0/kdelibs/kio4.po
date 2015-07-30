@@ -1,0 +1,5401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-07-20 04:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: kio/netaccess.cpp:105
+#, qt-format
+msgid "File '%1' is not readable"
+msgstr ""
+
+#: kio/netaccess.cpp:430
+#, qt-format
+msgid "ERROR: Unknown protocol '%1'"
+msgstr ""
+
+#: kio/job.cpp:151
+msgid "Moving"
+msgstr ""
+
+#: kio/job.cpp:152 kio/job.cpp:159 kio/job.cpp:184
+msgid "Source"
+msgstr ""
+
+#: kio/job.cpp:153 kio/job.cpp:160
+msgid "Destination"
+msgstr ""
+
+#: kio/job.cpp:158
+msgid "Copying"
+msgstr ""
+
+#: kio/job.cpp:165
+msgid "Creating directory"
+msgstr ""
+
+#: kio/job.cpp:166
+msgid "Directory"
+msgstr ""
+
+#: kio/job.cpp:171
+msgid "Deleting"
+msgstr ""
+
+#: kio/job.cpp:172 kio/job.cpp:178
+msgid "File"
+msgstr ""
+
+#: kio/job.cpp:177
+msgid "Stating"
+msgstr ""
+
+#: kio/job.cpp:183
+msgid "Transferring"
+msgstr ""
+
+#: kio/job.cpp:189
+msgid "Mounting"
+msgstr ""
+
+#: kio/job.cpp:190
+msgid "Device"
+msgstr ""
+
+#: kio/job.cpp:191 kio/job.cpp:197
+msgid "Mountpoint"
+msgstr ""
+
+#: kio/job.cpp:196
+msgid "Unmounting"
+msgstr ""
+
+#: kio/job.cpp:1831 kio/paste.cpp:62 kio/copyjob.cpp:1101 kio/copyjob.cpp:1605
+#: kio/global.cpp:698
+msgid "File Already Exists"
+msgstr ""
+
+#: kio/kimageio.cpp:44
+msgid "All Pictures"
+msgstr ""
+
+#: kio/pastedialog.cpp:57
+msgid "Data format:"
+msgstr ""
+
+#: kio/slaveinterface.cpp:499
+msgid "The peer SSL certificate appears to be corrupt."
+msgstr ""
+
+#: kio/slaveinterface.cpp:499 kio/tcpslavebase.cpp:753
+msgid "SSL"
+msgstr ""
+
+#: kio/paste.cpp:46 kio/paste.cpp:114
+msgid "Filename for clipboard content:"
+msgstr ""
+
+#: kio/paste.cpp:107
+#, qt-format
+msgid "%1 (%2)"
+msgstr ""
+
+#: kio/paste.cpp:123
+msgid ""
+"The clipboard has changed since you used 'paste': the chosen data format is "
+"no longer applicable. Please copy again what you wanted to paste."
+msgstr ""
+
+#: kio/paste.cpp:186 kio/paste.cpp:233
+msgid "The clipboard is empty"
+msgstr ""
+
+#: kio/paste.cpp:198 kio/renamedialog.cpp:397 kio/kdirlister.cpp:295
+#: kio/krun.cpp:798
+#, qt-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+
+#: kio/paste.cpp:274
+#, qt-format
+msgid "&Paste File"
+msgid_plural "&Paste %1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/paste.cpp:276
+#, qt-format
+msgid "&Paste URL"
+msgid_plural "&Paste %1 URLs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/paste.cpp:278
+msgid "&Paste Clipboard Contents"
+msgstr ""
+
+#: kio/passworddialog.cpp:62
+msgid "Authorization Dialog"
+msgstr ""
+
+#: kio/kfileitemdelegate.cpp:194
+msgctxt "Items in a folder"
+msgid "? items"
+msgstr ""
+
+#: kio/kfileitemdelegate.cpp:196
+#, qt-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/kfileitemdelegate.cpp:234 kio/kfileitemdelegate.cpp:237
+#: kssl/ksslcertificate.cpp:201
+msgid "Unknown"
+msgstr ""
+
+#: kio/renamedialog.cpp:103
+msgid "&Rename"
+msgstr ""
+
+#: kio/renamedialog.cpp:105
+msgid "Suggest New &Name"
+msgstr ""
+
+#: kio/renamedialog.cpp:111
+msgid "&Skip"
+msgstr ""
+
+#: kio/renamedialog.cpp:114
+msgid "&Auto Skip"
+msgstr ""
+
+#: kio/renamedialog.cpp:119
+msgid "&Overwrite"
+msgstr ""
+
+#: kio/renamedialog.cpp:123
+msgid "O&verwrite All"
+msgstr ""
+
+#: kio/renamedialog.cpp:129
+msgid "&Resume"
+msgstr ""
+
+#: kio/renamedialog.cpp:134
+msgid "R&esume All"
+msgstr ""
+
+#: kio/renamedialog.cpp:146
+#, qt-format
+msgid ""
+"This action would overwrite '%1' with itself.\n"
+"Please enter a new file name:"
+msgstr ""
+
+#: kio/renamedialog.cpp:148
+msgid "C&ontinue"
+msgstr ""
+
+#: kio/renamedialog.cpp:199 kio/renamedialog.cpp:277
+#, qt-format
+msgid "An older item named '%1' already exists."
+msgstr ""
+
+#: kio/renamedialog.cpp:201 kio/renamedialog.cpp:279
+#, qt-format
+msgid "A similar file named '%1' already exists."
+msgstr ""
+
+#: kio/renamedialog.cpp:203 kio/renamedialog.cpp:281
+#, qt-format
+msgid "A newer item named '%1' already exists."
+msgstr ""
+
+#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:250
+#, qt-format
+msgid "size %1"
+msgstr ""
+
+#: kio/renamedialog.cpp:223 kio/renamedialog.cpp:257
+#, qt-format
+msgid "created on %1"
+msgstr ""
+
+#: kio/renamedialog.cpp:230 kio/renamedialog.cpp:264
+#, qt-format
+msgid "modified on %1"
+msgstr ""
+
+#: kio/renamedialog.cpp:239
+#, qt-format
+msgid "The source file is '%1'"
+msgstr ""
+
+#: kio/kstatusbarofflineindicator.cpp:38
+msgid "The desktop is offline"
+msgstr ""
+
+#: kio/chmodjob.cpp:200
+#, qt-format
+msgid ""
+"<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
+"access to the file to perform the change.</qt>"
+msgstr ""
+
+#: kio/chmodjob.cpp:200
+msgid "&Skip File"
+msgstr ""
+
+#: kio/kbuildsycocaprogressdialog.cpp:33
+msgid "Updating System Configuration"
+msgstr ""
+
+#: kio/kbuildsycocaprogressdialog.cpp:34
+msgid "Updating system configuration."
+msgstr ""
+
+#: kio/kdirlister.cpp:305
+#, qt-format
+msgid ""
+"URL cannot be listed\n"
+"%1"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:350
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:356 kio/tcpslavebase.cpp:1111
+msgid "Security Information"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:357
+msgid "C&ontinue Loading"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:724
+msgid "Enter the certificate password:"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:725
+msgid "SSL Certificate Password"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:738
+msgid "Unable to open the certificate. Try a new password?"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:751
+msgid "The procedure to set the client certificate for the session failed."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:915
+#, qt-format
+msgid ""
+"The IP address of the host %1 does not match the one the certificate was "
+"issued to."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:919 kio/tcpslavebase.cpp:927 kio/tcpslavebase.cpp:954
+#: kio/tcpslavebase.cpp:1028 kio/tcpslavebase.cpp:1040
+#: kio/tcpslavebase.cpp:1049 kio/tcpslavebase.cpp:1073
+msgid "Server Authentication"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:920 kio/tcpslavebase.cpp:928 kio/tcpslavebase.cpp:1050
+msgid "&Details"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:929
+msgid "Co&ntinue"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:924 kio/tcpslavebase.cpp:1046
+#, qt-format
+msgid "The server certificate failed the authenticity test (%1)."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:951 kio/tcpslavebase.cpp:1070
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:955 kio/tcpslavebase.cpp:1074
+msgid "&Forever"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:956 kio/tcpslavebase.cpp:1075
+msgid "&Current Sessions Only"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1027
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1039
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE Control Center."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1051
+msgid "Co&nnect"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1100
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1112
+msgid "Display SSL &Information"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:1114
+msgid "C&onnect"
+msgstr ""
+
+#: kio/skipdialog.cpp:40
+msgid "Information"
+msgstr ""
+
+#: kio/skipdialog.cpp:48
+msgid "Skip"
+msgstr ""
+
+#: kio/skipdialog.cpp:51
+msgid "AutoSkip"
+msgstr ""
+
+#: kio/copyjob.cpp:828 kio/global.cpp:708
+msgid "Folder Already Exists"
+msgstr ""
+
+#: kio/copyjob.cpp:1101 kio/copyjob.cpp:1605
+msgid "Already Exists as Folder"
+msgstr ""
+
+#: kio/kscan.cpp:50
+msgid "Acquire Image"
+msgstr ""
+
+#: kio/kscan.cpp:99
+msgid "OCR Image"
+msgstr ""
+
+#: kio/global.cpp:92
+#, qt-format
+msgid "1 day %2"
+msgid_plural "%1 days %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/global.cpp:122
+msgid "No Items"
+msgstr ""
+
+#: kio/global.cpp:122
+#, qt-format
+msgid "One Item"
+msgid_plural "%1 Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/global.cpp:123
+msgid "No Files"
+msgstr ""
+
+#: kio/global.cpp:123
+#, qt-format
+msgid "One File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/global.cpp:124
+msgid "No Folders"
+msgstr ""
+
+#: kio/global.cpp:124
+#, qt-format
+msgid "One Folder"
+msgid_plural "%1 Folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/global.cpp:126
+#, qt-format
+msgid "(%1 Total)"
+msgstr ""
+
+#: kio/global.cpp:127
+#, qt-format
+msgctxt "Items (Folders, Files), Size"
+msgid "%1 (%2, %3), %4"
+msgstr ""
+
+#: kio/global.cpp:129
+#, qt-format
+msgctxt "Items (Folders, Files)"
+msgid "%1 (%2, %3)"
+msgstr ""
+
+#: kio/global.cpp:187
+#, qt-format
+msgid "Could not read %1."
+msgstr ""
+
+#: kio/global.cpp:190
+#, qt-format
+msgid "Could not write to %1."
+msgstr ""
+
+#: kio/global.cpp:193
+#, qt-format
+msgid "Could not start process %1."
+msgstr ""
+
+#: kio/global.cpp:196
+#, qt-format
+msgid ""
+"Internal Error\n"
+"Please send a full bug report at http://bugs.kde.org\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:199
+#, qt-format
+msgid "Malformed URL %1."
+msgstr ""
+
+#: kio/global.cpp:202
+#, qt-format
+msgid "The protocol %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:205
+#, qt-format
+msgid "The protocol %1 is only a filter protocol."
+msgstr ""
+
+#: kio/global.cpp:212
+#, qt-format
+msgid "%1 is a folder, but a file was expected."
+msgstr ""
+
+#: kio/global.cpp:215
+#, qt-format
+msgid "%1 is a file, but a folder was expected."
+msgstr ""
+
+#: kio/global.cpp:218
+#, qt-format
+msgid "The file or folder %1 does not exist."
+msgstr ""
+
+#: kio/global.cpp:221
+#, qt-format
+msgid "A file named %1 already exists."
+msgstr ""
+
+#: kio/global.cpp:224
+#, qt-format
+msgid "A folder named %1 already exists."
+msgstr ""
+
+#: kio/global.cpp:227
+msgid "No hostname specified."
+msgstr ""
+
+#: kio/global.cpp:227
+#, qt-format
+msgid "Unknown host %1"
+msgstr ""
+
+#: kio/global.cpp:230
+#, qt-format
+msgid "Access denied to %1."
+msgstr ""
+
+#: kio/global.cpp:233
+#, qt-format
+msgid ""
+"Access denied.\n"
+"Could not write to %1."
+msgstr ""
+
+#: kio/global.cpp:236
+#, qt-format
+msgid "Could not enter folder %1."
+msgstr ""
+
+#: kio/global.cpp:239
+#, qt-format
+msgid "The protocol %1 does not implement a folder service."
+msgstr ""
+
+#: kio/global.cpp:242
+#, qt-format
+msgid "Found a cyclic link in %1."
+msgstr ""
+
+#: kio/global.cpp:248
+#, qt-format
+msgid "Found a cyclic link while copying %1."
+msgstr ""
+
+#: kio/global.cpp:251
+#, qt-format
+msgid "Could not create socket for accessing %1."
+msgstr ""
+
+#: kio/global.cpp:254
+#, qt-format
+msgid "Could not connect to host %1."
+msgstr ""
+
+#: kio/global.cpp:257
+#, qt-format
+msgid "Connection to host %1 is broken."
+msgstr ""
+
+#: kio/global.cpp:260
+#, qt-format
+msgid "The protocol %1 is not a filter protocol."
+msgstr ""
+
+#: kio/global.cpp:263
+#, qt-format
+msgid ""
+"Could not mount device.\n"
+"The reported error was:\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:266
+#, qt-format
+msgid ""
+"Could not unmount device.\n"
+"The reported error was:\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:269
+#, qt-format
+msgid "Could not read file %1."
+msgstr ""
+
+#: kio/global.cpp:272
+#, qt-format
+msgid "Could not write to file %1."
+msgstr ""
+
+#: kio/global.cpp:275
+#, qt-format
+msgid "Could not bind %1."
+msgstr ""
+
+#: kio/global.cpp:278
+#, qt-format
+msgid "Could not listen %1."
+msgstr ""
+
+#: kio/global.cpp:281
+#, qt-format
+msgid "Could not accept %1."
+msgstr ""
+
+#: kio/global.cpp:287
+#, qt-format
+msgid "Could not access %1."
+msgstr ""
+
+#: kio/global.cpp:290
+#, qt-format
+msgid "Could not terminate listing %1."
+msgstr ""
+
+#: kio/global.cpp:293
+#, qt-format
+msgid "Could not make folder %1."
+msgstr ""
+
+#: kio/global.cpp:296
+#, qt-format
+msgid "Could not remove folder %1."
+msgstr ""
+
+#: kio/global.cpp:299
+#, qt-format
+msgid "Could not resume file %1."
+msgstr ""
+
+#: kio/global.cpp:302
+#, qt-format
+msgid "Could not rename file %1."
+msgstr ""
+
+#: kio/global.cpp:305
+#, qt-format
+msgid "Could not change permissions for %1."
+msgstr ""
+
+#: kio/global.cpp:308
+#, qt-format
+msgid "Could not delete file %1."
+msgstr ""
+
+#: kio/global.cpp:311
+#, qt-format
+msgid "The process for the %1 protocol died unexpectedly."
+msgstr ""
+
+#: kio/global.cpp:314
+#, qt-format
+msgid ""
+"Error. Out of memory.\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:317
+#, qt-format
+msgid ""
+"Unknown proxy host\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:320
+#, qt-format
+msgid "Authorization failed, %1 authentication not supported"
+msgstr ""
+
+#: kio/global.cpp:323
+#, qt-format
+msgid ""
+"User canceled action\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:326
+#, qt-format
+msgid ""
+"Internal error in server\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:329
+#, qt-format
+msgid ""
+"Timeout on server\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:332
+#, qt-format
+msgid ""
+"Unknown error\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:335
+#, qt-format
+msgid ""
+"Unknown interrupt\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:346
+#, qt-format
+msgid ""
+"Could not delete original file %1.\n"
+"Please check permissions."
+msgstr ""
+
+#: kio/global.cpp:349
+#, qt-format
+msgid ""
+"Could not delete partial file %1.\n"
+"Please check permissions."
+msgstr ""
+
+#: kio/global.cpp:352
+#, qt-format
+msgid ""
+"Could not rename original file %1.\n"
+"Please check permissions."
+msgstr ""
+
+#: kio/global.cpp:355
+#, qt-format
+msgid ""
+"Could not rename partial file %1.\n"
+"Please check permissions."
+msgstr ""
+
+#: kio/global.cpp:358
+#, qt-format
+msgid ""
+"Could not create symlink %1.\n"
+"Please check permissions."
+msgstr ""
+
+#: kio/global.cpp:364
+#, qt-format
+msgid ""
+"Could not write file %1.\n"
+"Disk full."
+msgstr ""
+
+#: kio/global.cpp:367
+#, qt-format
+msgid ""
+"The source and destination are the same file.\n"
+"%1"
+msgstr ""
+
+#: kio/global.cpp:373
+#, qt-format
+msgid "%1 is required by the server, but is not available."
+msgstr ""
+
+#: kio/global.cpp:376
+msgid "Access to restricted port in POST denied."
+msgstr ""
+
+#: kio/global.cpp:379
+#, qt-format
+msgid ""
+"Unknown error code %1\n"
+"%2\n"
+"Please send a full bug report at http://bugs.kde.org."
+msgstr ""
+
+#: kio/global.cpp:389
+#, qt-format
+msgid "Opening connections is not supported with the protocol %1."
+msgstr ""
+
+#: kio/global.cpp:391
+#, qt-format
+msgid "Closing connections is not supported with the protocol %1."
+msgstr ""
+
+#: kio/global.cpp:393
+#, qt-format
+msgid "Accessing files is not supported with the protocol %1."
+msgstr ""
+
+#: kio/global.cpp:395
+#, qt-format
+msgid "Writing to %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:397
+#, qt-format
+msgid "There are no special actions available for protocol %1."
+msgstr ""
+
+#: kio/global.cpp:399
+#, qt-format
+msgid "Listing folders is not supported for protocol %1."
+msgstr ""
+
+#: kio/global.cpp:401
+#, qt-format
+msgid "Retrieving data from %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:403
+#, qt-format
+msgid "Retrieving mime type information from %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:405
+#, qt-format
+msgid "Renaming or moving files within %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:407
+#, qt-format
+msgid "Creating symlinks is not supported with protocol %1."
+msgstr ""
+
+#: kio/global.cpp:409
+#, qt-format
+msgid "Copying files within %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:411
+#, qt-format
+msgid "Deleting files from %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:413
+#, qt-format
+msgid "Creating folders is not supported with protocol %1."
+msgstr ""
+
+#: kio/global.cpp:415
+#, qt-format
+msgid "Changing the attributes of files is not supported with protocol %1."
+msgstr ""
+
+#: kio/global.cpp:417
+#, qt-format
+msgid "Using sub-URLs with %1 is not supported."
+msgstr ""
+
+#: kio/global.cpp:419
+#, qt-format
+msgid "Multiple get is not supported with protocol %1."
+msgstr ""
+
+#: kio/global.cpp:421
+#, qt-format
+msgid "Opening files is not supported with protocol %1."
+msgstr ""
+
+#: kio/global.cpp:423
+#, qt-format
+msgid "Protocol %1 does not support action %2."
+msgstr ""
+
+#: kio/global.cpp:443 kio/global.cpp:525
+msgid "(unknown)"
+msgstr ""
+
+#: kio/global.cpp:455
+msgid "<b>Technical reason</b>: "
+msgstr ""
+
+#: kio/global.cpp:456
+msgid "</p><p><b>Details of the request</b>:"
+msgstr ""
+
+#: kio/global.cpp:457
+#, qt-format
+msgid "</p><ul><li>URL: %1</li>"
+msgstr ""
+
+#: kio/global.cpp:459
+#, qt-format
+msgid "<li>Protocol: %1</li>"
+msgstr ""
+
+#: kio/global.cpp:461
+#, qt-format
+msgid "<li>Date and time: %1</li>"
+msgstr ""
+
+#: kio/global.cpp:462
+#, qt-format
+msgid "<li>Additional information: %1</li></ul>"
+msgstr ""
+
+#: kio/global.cpp:464
+msgid "<p><b>Possible causes</b>:</p><ul><li>"
+msgstr ""
+
+#: kio/global.cpp:469
+msgid "<p><b>Possible solutions</b>:</p><ul><li>"
+msgstr ""
+
+#: kio/global.cpp:535
+msgid ""
+"Contact your appropriate computer support system, whether the system "
+"administrator, or technical support group for further assistance."
+msgstr ""
+
+#: kio/global.cpp:538
+msgid "Contact the administrator of the server for further assistance."
+msgstr ""
+
+#: kio/global.cpp:541
+msgid "Check your access permissions on this resource."
+msgstr ""
+
+#: kio/global.cpp:542
+msgid ""
+"Your access permissions may be inadequate to perform the requested operation "
+"on this resource."
+msgstr ""
+
+#: kio/global.cpp:544
+msgid ""
+"The file may be in use (and thus locked) by another user or application."
+msgstr ""
+
+#: kio/global.cpp:546
+msgid ""
+"Check to make sure that no other application or user is using the file or "
+"has locked the file."
+msgstr ""
+
+#: kio/global.cpp:548
+msgid "Although unlikely, a hardware error may have occurred."
+msgstr ""
+
+#: kio/global.cpp:550
+msgid "You may have encountered a bug in the program."
+msgstr ""
+
+#: kio/global.cpp:551
+msgid ""
+"This is most likely to be caused by a bug in the program. Please consider "
+"submitting a full bug report as detailed below."
+msgstr ""
+
+#: kio/global.cpp:553
+msgid ""
+"Update your software to the latest version. Your distribution should provide "
+"tools to update your software."
+msgstr ""
+
+#: kio/global.cpp:555
+msgid ""
+"When all else fails, please consider helping the KDE team or the third party "
+"maintainer of this software by submitting a high quality bug report. If the "
+"software is provided by a third party, please contact them directly. "
+"Otherwise, first look to see if the same bug has been submitted by someone "
+"else by searching at the <a href=\"http://bugs.kde.org/\">KDE bug reporting "
+"website</a>. If not, take note of the details given above, and include them "
+"in your bug report, along with as many other details as you think might help."
+msgstr ""
+
+#: kio/global.cpp:563
+msgid "There may have been a problem with your network connection."
+msgstr ""
+
+#: kio/global.cpp:566
+msgid ""
+"There may have been a problem with your network configuration. If you have "
+"been accessing the Internet with no problems recently, this is unlikely."
+msgstr ""
+
+#: kio/global.cpp:569
+msgid ""
+"There may have been a problem at some point along the network path between "
+"the server and this computer."
+msgstr ""
+
+#: kio/global.cpp:571
+msgid "Try again, either now or at a later time."
+msgstr ""
+
+#: kio/global.cpp:572
+msgid "A protocol error or incompatibility may have occurred."
+msgstr ""
+
+#: kio/global.cpp:573
+msgid "Ensure that the resource exists, and try again."
+msgstr ""
+
+#: kio/global.cpp:574
+msgid "The specified resource may not exist."
+msgstr ""
+
+#: kio/global.cpp:575
+msgid "You may have incorrectly typed the location."
+msgstr ""
+
+#: kio/global.cpp:576
+msgid "Double-check that you have entered the correct location and try again."
+msgstr ""
+
+#: kio/global.cpp:578
+msgid "Check your network connection status."
+msgstr ""
+
+#: kio/global.cpp:582
+msgid "Cannot Open Resource For Reading"
+msgstr ""
+
+#: kio/global.cpp:583
+#, qt-format
+msgid ""
+"This means that the contents of the requested file or folder <strong>%1</"
+"strong> could not be retrieved, as read access could not be obtained."
+msgstr ""
+
+#: kio/global.cpp:586
+msgid "You may not have permissions to read the file or open the folder."
+msgstr ""
+
+#: kio/global.cpp:592
+msgid "Cannot Open Resource For Writing"
+msgstr ""
+
+#: kio/global.cpp:593
+#, qt-format
+msgid ""
+"This means that the file, <strong>%1</strong>, could not be written to as "
+"requested, because access with permission to write could not be obtained."
+msgstr ""
+
+#: kio/global.cpp:601
+#, qt-format
+msgid "Cannot Initiate the %1 Protocol"
+msgstr ""
+
+#: kio/global.cpp:602
+msgid "Unable to Launch Process"
+msgstr ""
+
+#: kio/global.cpp:603
+#, qt-format
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol could not be started. This is usually due to technical "
+"reasons."
+msgstr ""
+
+#: kio/global.cpp:606
+msgid ""
+"The program which provides compatibility with this protocol may not have "
+"been updated with your last update of KDE. This can cause the program to be "
+"incompatible with the current version and thus not start."
+msgstr ""
+
+#: kio/global.cpp:614
+msgid "Internal Error"
+msgstr ""
+
+#: kio/global.cpp:615
+#, qt-format
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has reported an internal error."
+msgstr ""
+
+#: kio/global.cpp:623
+msgid "Improperly Formatted URL"
+msgstr ""
+
+#: kio/global.cpp:624
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
+"strong>ocator (URL) that you entered was not properly formatted. The format "
+"of a URL is generally as follows:<blockquote><strong>protocol://user:"
+"password@www.example.org:port/folder/filename.extension?query=value</"
+"strong></blockquote>"
+msgstr ""
+
+#: kio/global.cpp:633
+#, qt-format
+msgid "Unsupported Protocol %1"
+msgstr ""
+
+#: kio/global.cpp:634
+#, qt-format
+msgid ""
+"The protocol <strong>%1</strong> is not supported by the KDE programs "
+"currently installed on this computer."
+msgstr ""
+
+#: kio/global.cpp:637
+msgid "The requested protocol may not be supported."
+msgstr ""
+
+#: kio/global.cpp:638
+#, qt-format
+msgid ""
+"The versions of the %1 protocol supported by this computer and the server "
+"may be incompatible."
+msgstr ""
+
+#: kio/global.cpp:640
+msgid ""
+"You may perform a search on the Internet for a KDE program (called a "
+"kioslave or ioslave) which supports this protocol. Places to search include "
+"<a href=\"http://kde-apps.org/\">http://kde-apps.org/</a> and <a href="
+"\"http://freshmeat.net/\">http://freshmeat.net/</a>."
+msgstr ""
+
+#: kio/global.cpp:649
+msgid "URL Does Not Refer to a Resource."
+msgstr ""
+
+#: kio/global.cpp:650
+msgid "Protocol is a Filter Protocol"
+msgstr ""
+
+#: kio/global.cpp:651
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
+"strong>ocator (URL) that you entered did not refer to a specific resource."
+msgstr ""
+
+#: kio/global.cpp:654
+msgid ""
+"KDE is able to communicate through a protocol within a protocol; the "
+"protocol specified is only for use in such situations, however this is not "
+"one of these situations. This is a rare event, and is likely to indicate a "
+"programming error."
+msgstr ""
+
+#: kio/global.cpp:662
+#, qt-format
+msgid "Unsupported Action: %1"
+msgstr ""
+
+#: kio/global.cpp:663
+#, qt-format
+msgid ""
+"The requested action is not supported by the KDE program which is "
+"implementing the <strong>%1</strong> protocol."
+msgstr ""
+
+#: kio/global.cpp:666
+msgid ""
+"This error is very much dependent on the KDE program. The additional "
+"information should give you more information than is available to the KDE "
+"input/output architecture."
+msgstr ""
+
+#: kio/global.cpp:669
+msgid "Attempt to find another way to accomplish the same outcome."
+msgstr ""
+
+#: kio/global.cpp:674
+msgid "File Expected"
+msgstr ""
+
+#: kio/global.cpp:675
+#, qt-format
+msgid ""
+"The request expected a file, however the folder <strong>%1</strong> was "
+"found instead."
+msgstr ""
+
+#: kio/global.cpp:677
+msgid "This may be an error on the server side."
+msgstr ""
+
+#: kio/global.cpp:682
+msgid "Folder Expected"
+msgstr ""
+
+#: kio/global.cpp:683
+#, qt-format
+msgid ""
+"The request expected a folder, however the file <strong>%1</strong> was "
+"found instead."
+msgstr ""
+
+#: kio/global.cpp:690
+msgid "File or Folder Does Not Exist"
+msgstr ""
+
+#: kio/global.cpp:691
+#, qt-format
+msgid "The specified file or folder <strong>%1</strong> does not exist."
+msgstr ""
+
+#: kio/global.cpp:699
+msgid ""
+"The requested file could not be created because a file with the same name "
+"already exists."
+msgstr ""
+
+#: kio/global.cpp:701
+msgid "Try moving the current file out of the way first, and then try again."
+msgstr ""
+
+#: kio/global.cpp:703
+msgid "Delete the current file and try again."
+msgstr ""
+
+#: kio/global.cpp:704
+msgid "Choose an alternate filename for the new file."
+msgstr ""
+
+#: kio/global.cpp:709
+msgid ""
+"The requested folder could not be created because a folder with the same "
+"name already exists."
+msgstr ""
+
+#: kio/global.cpp:711
+msgid "Try moving the current folder out of the way first, and then try again."
+msgstr ""
+
+#: kio/global.cpp:713
+msgid "Delete the current folder and try again."
+msgstr ""
+
+#: kio/global.cpp:714
+msgid "Choose an alternate name for the new folder."
+msgstr ""
+
+#: kio/global.cpp:718
+msgid "Unknown Host"
+msgstr ""
+
+#: kio/global.cpp:719
+#, qt-format
+msgid ""
+"An unknown host error indicates that the server with the requested name, "
+"<strong>%1</strong>, could not be located on the Internet."
+msgstr ""
+
+#: kio/global.cpp:722
+#, qt-format
+msgid ""
+"The name that you typed, %1, may not exist: it may be incorrectly typed."
+msgstr ""
+
+#: kio/global.cpp:729
+msgid "Access Denied"
+msgstr ""
+
+#: kio/global.cpp:730
+#, qt-format
+msgid "Access was denied to the specified resource, <strong>%1</strong>."
+msgstr ""
+
+#: kio/global.cpp:732 kio/global.cpp:948
+msgid "You may have supplied incorrect authentication details or none at all."
+msgstr ""
+
+#: kio/global.cpp:734 kio/global.cpp:950
+msgid "Your account may not have permission to access the specified resource."
+msgstr ""
+
+#: kio/global.cpp:736 kio/global.cpp:952 kio/global.cpp:964
+msgid ""
+"Retry the request and ensure your authentication details are entered "
+"correctly."
+msgstr ""
+
+#: kio/global.cpp:742
+msgid "Write Access Denied"
+msgstr ""
+
+#: kio/global.cpp:743
+#, qt-format
+msgid ""
+"This means that an attempt to write to the file <strong>%1</strong> was "
+"rejected."
+msgstr ""
+
+#: kio/global.cpp:750
+msgid "Unable to Enter Folder"
+msgstr ""
+
+#: kio/global.cpp:751
+#, qt-format
+msgid ""
+"This means that an attempt to enter (in other words, to open) the requested "
+"folder <strong>%1</strong> was rejected."
+msgstr ""
+
+#: kio/global.cpp:759
+msgid "Folder Listing Unavailable"
+msgstr ""
+
+#: kio/global.cpp:760
+#, qt-format
+msgid "Protocol %1 is not a Filesystem"
+msgstr ""
+
+#: kio/global.cpp:761
+msgid ""
+"This means that a request was made which requires determining the contents "
+"of the folder, and the KDE program supporting this protocol is unable to do "
+"so."
+msgstr ""
+
+#: kio/global.cpp:769
+msgid "Cyclic Link Detected"
+msgstr ""
+
+#: kio/global.cpp:770
+msgid ""
+"UNIX environments are commonly able to link a file or folder to a separate "
+"name and/or location. KDE detected a link or series of links that results in "
+"an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to "
+"itself."
+msgstr ""
+
+#: kio/global.cpp:774 kio/global.cpp:796
+msgid ""
+"Delete one part of the loop in order that it does not cause an infinite "
+"loop, and try again."
+msgstr ""
+
+#: kio/global.cpp:783
+msgid "Request Aborted By User"
+msgstr ""
+
+#: kio/global.cpp:784 kio/global.cpp:1077
+msgid "The request was not completed because it was aborted."
+msgstr ""
+
+#: kio/global.cpp:786 kio/global.cpp:980 kio/global.cpp:1079
+msgid "Retry the request."
+msgstr ""
+
+#: kio/global.cpp:790
+msgid "Cyclic Link Detected During Copy"
+msgstr ""
+
+#: kio/global.cpp:791
+msgid ""
+"UNIX environments are commonly able to link a file or folder to a separate "
+"name and/or location. During the requested copy operation, KDE detected a "
+"link or series of links that results in an infinite loop - i.e. the file was "
+"(perhaps in a roundabout way) linked to itself."
+msgstr ""
+
+#: kio/global.cpp:801
+msgid "Could Not Create Network Connection"
+msgstr ""
+
+#: kio/global.cpp:802
+msgid "Could Not Create Socket"
+msgstr ""
+
+#: kio/global.cpp:803
+msgid ""
+"This is a fairly technical error in which a required device for network "
+"communications (a socket) could not be created."
+msgstr ""
+
+#: kio/global.cpp:805 kio/global.cpp:918 kio/global.cpp:929 kio/global.cpp:938
+msgid ""
+"The network connection may be incorrectly configured, or the network "
+"interface may not be enabled."
+msgstr ""
+
+#: kio/global.cpp:811
+msgid "Connection to Server Refused"
+msgstr ""
+
+#: kio/global.cpp:812
+#, qt-format
+msgid ""
+"The server <strong>%1</strong> refused to allow this computer to make a "
+"connection."
+msgstr ""
+
+#: kio/global.cpp:814
+msgid ""
+"The server, while currently connected to the Internet, may not be configured "
+"to allow requests."
+msgstr ""
+
+#: kio/global.cpp:816
+#, qt-format
+msgid ""
+"The server, while currently connected to the Internet, may not be running "
+"the requested service (%1)."
+msgstr ""
+
+#: kio/global.cpp:818
+msgid ""
+"A network firewall (a device which restricts Internet requests), either "
+"protecting your network or the network of the server, may have intervened, "
+"preventing this request."
+msgstr ""
+
+#: kio/global.cpp:825
+msgid "Connection to Server Closed Unexpectedly"
+msgstr ""
+
+#: kio/global.cpp:826
+#, qt-format
+msgid ""
+"Although a connection was established to <strong>%1</strong>, the connection "
+"was closed at an unexpected point in the communication."
+msgstr ""
+
+#: kio/global.cpp:829
+msgid ""
+"A protocol error may have occurred, causing the server to close the "
+"connection as a response to the error."
+msgstr ""
+
+#: kio/global.cpp:835
+msgid "URL Resource Invalid"
+msgstr ""
+
+#: kio/global.cpp:836
+#, qt-format
+msgid "Protocol %1 is not a Filter Protocol"
+msgstr ""
+
+#: kio/global.cpp:837
+#, qt-format
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
+"strong>ocator (URL) that you entered did not refer to a valid mechanism of "
+"accessing the specific resource, <strong>%1%2</strong>."
+msgstr ""
+
+#: kio/global.cpp:842
+msgid ""
+"KDE is able to communicate through a protocol within a protocol. This "
+"request specified a protocol be used as such, however this protocol is not "
+"capable of such an action. This is a rare event, and is likely to indicate a "
+"programming error."
+msgstr ""
+
+#: kio/global.cpp:850
+msgid "Unable to Initialize Input/Output Device"
+msgstr ""
+
+#: kio/global.cpp:851
+msgid "Could Not Mount Device"
+msgstr ""
+
+#: kio/global.cpp:852
+#, qt-format
+msgid ""
+"The requested device could not be initialized (\"mounted\"). The reported "
+"error was: <strong>%1</strong>"
+msgstr ""
+
+#: kio/global.cpp:855
+msgid ""
+"The device may not be ready, for example there may be no media in a "
+"removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
+"peripheral/portable device, the device may not be correctly connected."
+msgstr ""
+
+#: kio/global.cpp:859
+msgid ""
+"You may not have permissions to initialize (\"mount\") the device. On UNIX "
+"systems, often system administrator privileges are required to initialize a "
+"device."
+msgstr ""
+
+#: kio/global.cpp:863
+msgid ""
+"Check that the device is ready; removable drives must contain media, and "
+"portable devices must be connected and powered on.; and try again."
+msgstr ""
+
+#: kio/global.cpp:869
+msgid "Unable to Uninitialize Input/Output Device"
+msgstr ""
+
+#: kio/global.cpp:870
+msgid "Could Not Unmount Device"
+msgstr ""
+
+#: kio/global.cpp:871
+#, qt-format
+msgid ""
+"The requested device could not be uninitialized (\"unmounted\"). The "
+"reported error was: <strong>%1</strong>"
+msgstr ""
+
+#: kio/global.cpp:874
+msgid ""
+"The device may be busy, that is, still in use by another application or "
+"user. Even such things as having an open browser window on a location on "
+"this device may cause the device to remain in use."
+msgstr ""
+
+#: kio/global.cpp:878
+msgid ""
+"You may not have permissions to uninitialize (\"unmount\") the device. On "
+"UNIX systems, system administrator privileges are often required to "
+"uninitialize a device."
+msgstr ""
+
+#: kio/global.cpp:882
+msgid "Check that no applications are accessing the device, and try again."
+msgstr ""
+
+#: kio/global.cpp:887
+msgid "Cannot Read From Resource"
+msgstr ""
+
+#: kio/global.cpp:888
+#, qt-format
+msgid ""
+"This means that although the resource, <strong>%1</strong>, was able to be "
+"opened, an error occurred while reading the contents of the resource."
+msgstr ""
+
+#: kio/global.cpp:891
+msgid "You may not have permissions to read from the resource."
+msgstr ""
+
+#: kio/global.cpp:900
+msgid "Cannot Write to Resource"
+msgstr ""
+
+#: kio/global.cpp:901
+#, qt-format
+msgid ""
+"This means that although the resource, <strong>%1</strong>, was able to be "
+"opened, an error occurred while writing to the resource."
+msgstr ""
+
+#: kio/global.cpp:904
+msgid "You may not have permissions to write to the resource."
+msgstr ""
+
+#: kio/global.cpp:913 kio/global.cpp:924
+msgid "Could Not Listen for Network Connections"
+msgstr ""
+
+#: kio/global.cpp:914
+msgid "Could Not Bind"
+msgstr ""
+
+#: kio/global.cpp:915 kio/global.cpp:926
+msgid ""
+"This is a fairly technical error in which a required device for network "
+"communications (a socket) could not be established to listen for incoming "
+"network connections."
+msgstr ""
+
+#: kio/global.cpp:925
+msgid "Could Not Listen"
+msgstr ""
+
+#: kio/global.cpp:935
+msgid "Could Not Accept Network Connection"
+msgstr ""
+
+#: kio/global.cpp:936
+msgid ""
+"This is a fairly technical error in which an error occurred while attempting "
+"to accept an incoming network connection."
+msgstr ""
+
+#: kio/global.cpp:940
+msgid "You may not have permissions to accept the connection."
+msgstr ""
+
+#: kio/global.cpp:945
+#, qt-format
+msgid "Could Not Login: %1"
+msgstr ""
+
+#: kio/global.cpp:946
+msgid ""
+"An attempt to login to perform the requested operation was unsuccessful."
+msgstr ""
+
+#: kio/global.cpp:957
+msgid "Could Not Determine Resource Status"
+msgstr ""
+
+#: kio/global.cpp:958
+msgid "Could Not Stat Resource"
+msgstr ""
+
+#: kio/global.cpp:959
+#, qt-format
+msgid ""
+"An attempt to determine information about the status of the resource <strong>"
+"%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
+msgstr ""
+
+#: kio/global.cpp:962
+msgid "The specified resource may not have existed or may not be accessible."
+msgstr ""
+
+#: kio/global.cpp:970
+msgid "Could Not Cancel Listing"
+msgstr ""
+
+#: kio/global.cpp:971
+msgid "FIXME: Document this"
+msgstr ""
+
+#: kio/global.cpp:975
+msgid "Could Not Create Folder"
+msgstr ""
+
+#: kio/global.cpp:976
+msgid "An attempt to create the requested folder failed."
+msgstr ""
+
+#: kio/global.cpp:977
+msgid "The location where the folder was to be created may not exist."
+msgstr ""
+
+#: kio/global.cpp:984
+msgid "Could Not Remove Folder"
+msgstr ""
+
+#: kio/global.cpp:985
+#, qt-format
+msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
+msgstr ""
+
+#: kio/global.cpp:987
+msgid "The specified folder may not exist."
+msgstr ""
+
+#: kio/global.cpp:988
+msgid "The specified folder may not be empty."
+msgstr ""
+
+#: kio/global.cpp:991
+msgid "Ensure that the folder exists and is empty, and try again."
+msgstr ""
+
+#: kio/global.cpp:996
+msgid "Could Not Resume File Transfer"
+msgstr ""
+
+#: kio/global.cpp:997
+#, qt-format
+msgid ""
+"The specified request asked that the transfer of file <strong>%1</strong> be "
+"resumed at a certain point of the transfer. This was not possible."
+msgstr ""
+
+#: kio/global.cpp:1000
+msgid "The protocol, or the server, may not support file resuming."
+msgstr ""
+
+#: kio/global.cpp:1002
+msgid "Retry the request without attempting to resume transfer."
+msgstr ""
+
+#: kio/global.cpp:1007
+msgid "Could Not Rename Resource"
+msgstr ""
+
+#: kio/global.cpp:1008
+#, qt-format
+msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
+msgstr ""
+
+#: kio/global.cpp:1016
+msgid "Could Not Alter Permissions of Resource"
+msgstr ""
+
+#: kio/global.cpp:1017
+#, qt-format
+msgid ""
+"An attempt to alter the permissions on the specified resource <strong>%1</"
+"strong> failed."
+msgstr ""
+
+#: kio/global.cpp:1024
+msgid "Could Not Delete Resource"
+msgstr ""
+
+#: kio/global.cpp:1025
+#, qt-format
+msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
+msgstr ""
+
+#: kio/global.cpp:1032
+msgid "Unexpected Program Termination"
+msgstr ""
+
+#: kio/global.cpp:1033
+#, qt-format
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has unexpectedly terminated."
+msgstr ""
+
+#: kio/global.cpp:1041
+msgid "Out of Memory"
+msgstr ""
+
+#: kio/global.cpp:1042
+#, qt-format
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol could not obtain the memory required to continue."
+msgstr ""
+
+#: kio/global.cpp:1050
+msgid "Unknown Proxy Host"
+msgstr ""
+
+#: kio/global.cpp:1051
+#, qt-format
+msgid ""
+"While retrieving information about the specified proxy host, <strong>%1</"
+"strong>, an Unknown Host error was encountered. An unknown host error "
+"indicates that the requested name could not be located on the Internet."
+msgstr ""
+
+#: kio/global.cpp:1055
+msgid ""
+"There may have been a problem with your network configuration, specifically "
+"your proxy's hostname. If you have been accessing the Internet with no "
+"problems recently, this is unlikely."
+msgstr ""
+
+#: kio/global.cpp:1059
+msgid "Double-check your proxy settings and try again."
+msgstr ""
+
+#: kio/global.cpp:1064
+#, qt-format
+msgid "Authentication Failed: Method %1 Not Supported"
+msgstr ""
+
+#: kio/global.cpp:1066
+#, qt-format
+msgid ""
+"Although you may have supplied the correct authentication details, the "
+"authentication failed because the method that the server is using is not "
+"supported by the KDE program implementing the protocol %1."
+msgstr ""
+
+#: kio/global.cpp:1070
+msgid ""
+"Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
+"a> to inform the KDE team of the unsupported authentication method."
+msgstr ""
+
+#: kio/global.cpp:1076
+msgid "Request Aborted"
+msgstr ""
+
+#: kio/global.cpp:1083
+msgid "Internal Error in Server"
+msgstr ""
+
+#: kio/global.cpp:1084
+#, qt-format
+msgid ""
+"The program on the server which provides access to the <strong>%1</strong> "
+"protocol has reported an internal error: %2."
+msgstr ""
+
+#: kio/global.cpp:1087
+msgid ""
+"This is most likely to be caused by a bug in the server program. Please "
+"consider submitting a full bug report as detailed below."
+msgstr ""
+
+#: kio/global.cpp:1090
+msgid "Contact the administrator of the server to advise them of the problem."
+msgstr ""
+
+#: kio/global.cpp:1092
+msgid ""
+"If you know who the authors of the server software are, submit the bug "
+"report directly to them."
+msgstr ""
+
+#: kio/global.cpp:1097
+msgid "Timeout Error"
+msgstr ""
+
+#: kio/global.cpp:1098
+#, qt-format
+msgid ""
+"Although contact was made with the server, a response was not received "
+"within the amount of time allocated for the request as follows:"
+"<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout "
+"for receiving a response: %2 seconds</li><li>Timeout for accessing proxy "
+"servers: %3 seconds</li></ul>Please note that you can alter these timeout "
+"settings in the KDE Control Center, by selecting Network -> Preferences."
+msgstr ""
+
+#: kio/global.cpp:1109
+msgid "The server was too busy responding to other requests to respond."
+msgstr ""
+
+#: kio/global.cpp:1115
+msgid "Unknown Error"
+msgstr ""
+
+#: kio/global.cpp:1116
+#, qt-format
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has reported an unknown error: %2."
+msgstr ""
+
+#: kio/global.cpp:1124
+msgid "Unknown Interruption"
+msgstr ""
+
+#: kio/global.cpp:1125
+#, qt-format
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has reported an interruption of an unknown type: %2."
+msgstr ""
+
+#: kio/global.cpp:1133
+msgid "Could Not Delete Original File"
+msgstr ""
+
+#: kio/global.cpp:1134
+#, qt-format
+msgid ""
+"The requested operation required the deleting of the original file, most "
+"likely at the end of a file move operation. The original file <strong>%1</"
+"strong> could not be deleted."
+msgstr ""
+
+#: kio/global.cpp:1143
+msgid "Could Not Delete Temporary File"
+msgstr ""
+
+#: kio/global.cpp:1144
+#, qt-format
+msgid ""
+"The requested operation required the creation of a temporary file in which "
+"to save the new file while being downloaded. This temporary file <strong>%1</"
+"strong> could not be deleted."
+msgstr ""
+
+#: kio/global.cpp:1153
+msgid "Could Not Rename Original File"
+msgstr ""
+
+#: kio/global.cpp:1154
+#, qt-format
+msgid ""
+"The requested operation required the renaming of the original file <strong>%"
+"1</strong>, however it could not be renamed."
+msgstr ""
+
+#: kio/global.cpp:1162
+msgid "Could Not Rename Temporary File"
+msgstr ""
+
+#: kio/global.cpp:1163
+#, qt-format
+msgid ""
+"The requested operation required the creation of a temporary file <strong>%"
+"1</strong>, however it could not be created."
+msgstr ""
+
+#: kio/global.cpp:1171
+msgid "Could Not Create Link"
+msgstr ""
+
+#: kio/global.cpp:1172
+msgid "Could Not Create Symbolic Link"
+msgstr ""
+
+#: kio/global.cpp:1173
+#, qt-format
+msgid "The requested symbolic link %1 could not be created."
+msgstr ""
+
+#: kio/global.cpp:1180
+msgid "No Content"
+msgstr ""
+
+#: kio/global.cpp:1185
+msgid "Disk Full"
+msgstr ""
+
+#: kio/global.cpp:1186
+#, qt-format
+msgid ""
+"The requested file <strong>%1</strong> could not be written to as there is "
+"inadequate disk space."
+msgstr ""
+
+#: kio/global.cpp:1188
+msgid ""
+"Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
+"archiving files to removable media storage such as CD-Recordable discs; or "
+"3) obtain more storage capacity."
+msgstr ""
+
+#: kio/global.cpp:1195
+msgid "Source and Destination Files Identical"
+msgstr ""
+
+#: kio/global.cpp:1196
+msgid ""
+"The operation could not be completed because the source and destination "
+"files are the same file."
+msgstr ""
+
+#: kio/global.cpp:1198
+msgid "Choose a different filename for the destination file."
+msgstr ""
+
+#: kio/global.cpp:1209
+msgid "Undocumented Error"
+msgstr ""
+
+#: kio/kemailsettings.cpp:250 kio/kemailsettings.cpp:253
+#: kio/kemailsettings.cpp:260
+msgid "Default"
+msgstr ""
+
+#: kio/krun.cpp:112
+#, qt-format
+msgid ""
+"<qt>Unable to enter <b>%1</b>.\n"
+"You do not have access rights to this location.</qt>"
+msgstr ""
+
+#: kio/krun.cpp:149
+#, qt-format
+msgid ""
+"<qt>The file <b>%1</b> is an executable program. For safety it will not be "
+"started.</qt>"
+msgstr ""
+
+#: kio/krun.cpp:156
+#, qt-format
+msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
+msgstr ""
+
+#: kio/krun.cpp:181
+msgid "You are not authorized to select an application to open this file."
+msgstr ""
+
+#: kio/krun.cpp:185
+msgid "Open with:"
+msgstr ""
+
+#: kio/krun.cpp:485
+msgid "You are not authorized to execute this file."
+msgstr ""
+
+#: kio/krun.cpp:505
+#, qt-format
+msgid "Launching %1"
+msgstr ""
+
+#: kio/krun.cpp:668
+msgid "You are not authorized to execute this service."
+msgstr ""
+
+#: kio/krun.cpp:834
+#, qt-format
+msgid ""
+"<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
+"not exist.</qt>"
+msgstr ""
+
+#: kio/krun.cpp:1333
+#, qt-format
+msgid "Could not find the program '%1'"
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:48
+#, qt-format
+msgid "The desktop entry file %1 has no Type=... entry."
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:66
+#, qt-format
+msgid ""
+"The desktop entry of type\n"
+"%1\n"
+"is unknown."
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:81 kio/kdesktopfileactions.cpp:159
+#: kio/kdesktopfileactions.cpp:311
+#, qt-format
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is of type FSDevice but has no Dev=... entry."
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:124
+#, qt-format
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+"is of type Link but has no URL=... entry."
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:166
+msgid "Mount"
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:175
+msgid "Eject"
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:177
+msgid "Unmount"
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:228
+#, qt-format
+msgid "The desktop menu %1 has an invalid X-KDE-GetActionMenu entry."
+msgstr ""
+
+#: kio/kdesktopfileactions.cpp:283
+#, qt-format
+msgid ""
+"The desktop entry file\n"
+"%1\n"
+" has an invalid menu entry\n"
+"%2."
+msgstr ""
+
+#: kio/kfileitem.cpp:909
+#, qt-format
+msgid "(Symbolic Link to %1)"
+msgstr ""
+
+#: kio/kfileitem.cpp:911
+#, qt-format
+msgid "(%1, Link to %2)"
+msgstr ""
+
+#: kio/kfileitem.cpp:938 bookmarks/kbookmarkmenu.cc:641
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:218
+msgid "Name:"
+msgstr ""
+
+#: kio/kfileitem.cpp:939 kfile/kpropertiesdialog.cpp:973
+msgid "Type:"
+msgstr ""
+
+#: kio/kfileitem.cpp:943
+#, qt-format
+msgid "Link to %1 (%2)"
+msgstr ""
+
+#: kio/kfileitem.cpp:948 kfile/kpropertiesdialog.cpp:1021
+msgid "Size:"
+msgstr ""
+
+#: kio/kfileitem.cpp:953 kfile/kpropertiesdialog.cpp:1084
+msgid "Modified:"
+msgstr ""
+
+#: kio/kfileitem.cpp:956
+msgid "Owner:"
+msgstr ""
+
+#: kio/kfileitem.cpp:957
+msgid "Permissions:"
+msgstr ""
+
+#: kio/kdbusservicestarter.cpp:76
+#, qt-format
+msgid "No service implementing %1"
+msgstr ""
+
+#: kio/slave.cpp:406
+#, qt-format
+msgid "Unknown protocol '%1'."
+msgstr ""
+
+#: kio/slave.cpp:414
+#, qt-format
+msgid "Can not find io-slave for protocol '%1'."
+msgstr ""
+
+#: kio/slave.cpp:433
+#, qt-format
+msgid "Cannot talk to klauncher: %1"
+msgstr ""
+
+#: kio/slave.cpp:441
+#, qt-format
+msgid ""
+"Unable to create io-slave:\n"
+"klauncher said: %1"
+msgstr ""
+
+#: kio/kmimetypechooser.cpp:73 kfile/kpropertiesdialog.cpp:2734
+msgid "Mime Type"
+msgstr ""
+
+#: kio/kmimetypechooser.cpp:77 kfile/kpropertiesdialog.cpp:2747
+msgid "Comment"
+msgstr ""
+
+#: kio/kmimetypechooser.cpp:81
+msgid "Patterns"
+msgstr ""
+
+#: kio/kmimetypechooser.cpp:94
+msgid "&Edit..."
+msgstr ""
+
+#: kio/kmimetypechooser.cpp:104
+msgid "Click this button to display the familiar KDE mime type editor."
+msgstr ""
+
+#: kio/connection.cpp:189
+#, qt-format
+msgid "Unable to create io-slave: %1"
+msgstr ""
+
+#: kio/kdirmodel.cpp:554 kfile/kacleditwidget.cpp:626
+#: ../kfile/k3filedetailview.cpp:65
+msgid "Name"
+msgstr ""
+
+#: kio/kdirmodel.cpp:556 ../kfile/k3filedetailview.cpp:66
+msgid "Size"
+msgstr ""
+
+#: kio/kdirmodel.cpp:558
+msgid "Modified"
+msgstr ""
+
+#: kio/kdirmodel.cpp:560 ../kfile/k3filedetailview.cpp:68
+msgid "Permissions"
+msgstr ""
+
+#: kio/kdirmodel.cpp:562 kfile/kacleditwidget.cpp:61
+#: kfile/kacleditwidget.cpp:454 ../kfile/k3filedetailview.cpp:69
+msgid "Owner"
+msgstr ""
+
+#: kio/kdirmodel.cpp:564 kfile/kpropertiesdialog.cpp:2015
+#: ../kfile/k3filedetailview.cpp:70
+msgid "Group"
+msgstr ""
+
+#: kio/kdirmodel.cpp:566 kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr ""
+
+#: kssl/ksslpemcallback.cpp:37
+msgid "Certificate password"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:99 kssl/ksslinfodialog.cpp:156
+msgid "Current connection is secured with SSL."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:102 kssl/ksslinfodialog.cpp:159
+msgid "Current connection is not secured with SSL."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:106
+msgid "SSL support is not available in this build of KDE."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:118
+msgid "C&ryptography Configuration..."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:129 kssl/ksslkeygen.cpp:130
+msgid "KDE SSL Information"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:149
+msgid ""
+"The main part of this document is secured with SSL, but some parts are not."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:151
+msgid "Some of this document is secured with SSL, but the main part is not."
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:192
+msgid "Chain:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:201
+msgid "0 - Site Certificate"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:218
+msgid "Peer certificate:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:220
+msgid "Issuer:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:227
+msgid "IP address:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:236 kfile/kpropertiesdialog.cpp:2604
+msgid "URL:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:239
+msgid "Certificate state:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:245
+msgid "Valid from:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:247
+msgid "Valid until:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:250
+msgid "Serial number:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:252
+msgid "MD5 digest:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:255
+msgid "Cipher in use:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:257
+msgid "Details:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:259
+msgid "SSL version:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:261
+msgid "Cipher strength:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:262
+#, qt-format
+msgid "%1 bits used of a %2 bit cipher"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:406
+msgid "Organization:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:412
+msgid "Organizational unit:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:418
+msgid "Locality:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:424
+msgctxt "Federal State"
+msgid "State:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:430
+msgid "Country:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:436
+msgid "Common name:"
+msgstr ""
+
+#: kssl/ksslinfodialog.cpp:442
+msgid "Email:"
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:200
+msgid "Signature Algorithm: "
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:204
+msgid "Signature Contents:"
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:336
+msgctxt "Unknown"
+msgid "Unknown key algorithm"
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:340
+#, qt-format
+msgid "Key type: RSA (%1 bit)"
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:342
+msgid "Modulus: "
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:354
+msgid "Exponent: 0x"
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:363
+#, qt-format
+msgid "Key type: DSA (%1 bit)"
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:365
+msgid "Prime: "
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:377
+msgid "160 bit prime factor: "
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:401
+msgid "Public key: "
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:917
+msgid "The certificate is valid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:921
+msgid ""
+"Certificate signing authority root files could not be found so the "
+"certificate is not verified."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:924
+msgid "Certificate signing authority is unknown or invalid."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:926
+msgid "Certificate is self-signed and thus may not be trustworthy."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:928
+msgid "Certificate has expired."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:930
+msgid "Certificate has been revoked."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:932
+msgid "SSL support was not found."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:934
+msgid "Signature is untrusted."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:936
+msgid "Signature test failed."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:939
+msgid "Rejected, possibly due to an invalid purpose."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:941
+msgid "Private key test failed."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:943
+msgid "The certificate has not been issued for this host."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:945
+msgid "This certificate is not relevant."
+msgstr ""
+
+#: kssl/ksslcertificate.cpp:950
+msgid "The certificate is invalid."
+msgstr ""
+
+#: kssl/ksslutils.cpp:78
+msgid "GMT"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:88
+msgid "KDE Certificate Request"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:95
+msgid "KDE Certificate Request - Password"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:130
+msgid "Unsupported key size."
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:136
+msgid "KDE"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:137
+msgid "Please wait while the encryption keys are generated..."
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:150
+msgid "Do you wish to store the passphrase in your wallet file?"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:150
+msgid "Store"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:150
+msgid "Do Not Store"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:266
+msgid "2048 (High Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:267
+msgid "1024 (Medium Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:268
+msgid "768  (Low Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:269
+msgid "512  (Low Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:271
+msgid "No SSL support."
+msgstr ""
+
+#: kssl/ksslcertdialog.cpp:63
+msgid "Certificate"
+msgstr ""
+
+#: kssl/ksslcertdialog.cpp:71
+msgid "Save selection for this host."
+msgstr ""
+
+#: kssl/ksslcertdialog.cpp:80
+msgid "Send certificate"
+msgstr ""
+
+#: kssl/ksslcertdialog.cpp:84
+msgid "Do not send a certificate"
+msgstr ""
+
+#: kssl/ksslcertdialog.cpp:89
+msgid "KDE SSL Certificate Dialog"
+msgstr ""
+
+#: kssl/ksslcertdialog.cpp:144
+#, qt-format
+msgid ""
+"The server <b>%1</b> requests a certificate.<p>Select a certificate to use "
+"from the list below:"
+msgstr ""
+
+#: misc/kpac/proxyscout.cpp:122
+#, qt-format
+msgid ""
+"The proxy configuration script is invalid:\n"
+"%1"
+msgstr ""
+
+#: misc/kpac/proxyscout.cpp:186
+#, qt-format
+msgid ""
+"The proxy configuration script returned an error:\n"
+"%1"
+msgstr ""
+
+#: misc/kpac/downloader.cpp:81
+#, qt-format
+msgid ""
+"Could not download the proxy configuration script:\n"
+"%1"
+msgstr ""
+
+#: misc/kpac/downloader.cpp:83
+msgid "Could not download the proxy configuration script"
+msgstr ""
+
+#: misc/kpac/discovery.cpp:117
+msgid "Could not find a usable proxy configuration script"
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:389
+#, qt-format
+msgid ""
+"<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
+"password for this wallet below."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:391
+#, qt-format
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
+"b>'. Please enter the password for this wallet below."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1501
+msgid "&Open"
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:396 misc/kwalletd/kwalletd.cpp:432
+#: misc/kwalletd/kwalletd.cpp:595 misc/kwalletd/kwalletd.cpp:607
+#: misc/kwalletd/kwalletd.cpp:616 misc/kwalletd/kwalletd.cpp:621
+#: misc/kwalletd/kwalletd.cpp:1101
+msgid "KDE Wallet Service"
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:403 misc/kwalletd/kwalletd.cpp:440
+#, qt-format
+msgid ""
+"<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br>(Error code %"
+"2: %3)"
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:420
+msgid ""
+"KDE has requested to open the wallet. This is used to store sensitive data "
+"in a secure fashion. Please enter a password to use with this wallet or "
+"click cancel to deny the application's request."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:422
+#, qt-format
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
+"is used to store sensitive data in a secure fashion. Please enter a password "
+"to use with this wallet or click cancel to deny the application's request."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:426
+#, qt-format
+msgid ""
+"<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
+"choose a password for this wallet, or cancel to deny the application's "
+"request."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:428
+#, qt-format
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to create a new wallet named "
+"'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
+"application's request."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:433
+msgid "C&reate"
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:511
+#, qt-format
+msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:513
+#, qt-format
+msgid ""
+"<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
+"2</b>'."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:595
+msgid ""
+"Unable to open wallet. The wallet must be opened in order to change the "
+"password."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:606
+#, qt-format
+msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:616
+msgid "Error re-encrypting the wallet. Password was not changed."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:621
+msgid "Error reopening the wallet. Data may be lost."
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:1101
+msgid ""
+"There have been repeated failed attempts to gain access to a wallet. An "
+"application may be misbehaving."
+msgstr ""
+
+#: misc/kwalletd/kwalletwizard.cpp:139
+msgid "<qt>Password is empty.  <b>(WARNING: Insecure)"
+msgstr ""
+
+#: misc/kwalletd/kwalletwizard.cpp:141
+msgid "Passwords match."
+msgstr ""
+
+#: misc/kwalletd/kwalletwizard.cpp:144
+msgid "Passwords do not match."
+msgstr ""
+
+#: misc/ktelnetservice.cpp:37
+msgid "telnet service"
+msgstr ""
+
+#: misc/ktelnetservice.cpp:38
+msgid "telnet protocol handler"
+msgstr ""
+
+#: misc/ktelnetservice.cpp:72
+#, qt-format
+msgid "You do not have permission to access the %1 protocol."
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:44
+msgid "Error connecting to server."
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:47
+msgid "Not connected."
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:50
+msgid "Connection timed out."
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:53
+msgid "Time out waiting for server interaction."
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:57
+#, qt-format
+msgid "Server said: \"%1\""
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:72
+msgid "KSendBugMail"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:73
+msgid "Sends a short bug report to submit@bugs.kde.org"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:74
+msgid "(c) 2000 Stephan Kulow"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:75
+msgid "Stephan Kulow"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:75
+msgid "Author"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:78
+msgid "Subject line"
+msgstr ""
+
+#: misc/ksendbugmail/main.cpp:79
+msgid "Recipient"
+msgstr ""
+
+#: misc/kmailservice.cpp:29
+msgid "KMailService"
+msgstr ""
+
+#: misc/kmailservice.cpp:29
+msgid "Mail service"
+msgstr ""
+
+#: kfile/kimagefilepreview.cpp:71
+msgid "&Automatic preview"
+msgstr ""
+
+#: kfile/kimagefilepreview.cpp:76
+msgid "&Preview"
+msgstr ""
+
+#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:1013
+#: bookmarks/kbookmarkmenu.cc:650
+msgid "Location:"
+msgstr ""
+
+#: kfile/kurlrequesterdialog.cpp:131 kfile/kicondialog.cpp:588
+#: kfile/kencodingfiledialog.cpp:105 kfile/kencodingfiledialog.cpp:123
+#: kfile/kencodingfiledialog.cpp:138 kfile/kencodingfiledialog.cpp:156
+#: kfile/kfiledialog.cpp:193 kfile/kfiledialog.cpp:217
+#: kfile/kfiledialog.cpp:233 kfile/kfiledialog.cpp:247
+#: kfile/kfiledialog.cpp:263 kfile/kfiledialog.cpp:301
+msgid "Open"
+msgstr ""
+
+#: kfile/kpreviewprops.cpp:49
+msgid "P&review"
+msgstr ""
+
+#: kfile/tests/kopenwithtest.cpp:32
+msgid "kopenwithdialogtest"
+msgstr ""
+
+#: kfile/tests/kurlrequestertest.cpp:9
+msgid "kurlrequestertest"
+msgstr ""
+
+#: kfile/tests/kurlrequestertest.cpp:9 kfile/tests/kfstest.cpp:52
+#: ../kfile/tests/kdirselectdialogtest.cpp:10
+msgid "test app"
+msgstr ""
+
+#: kfile/tests/kfstest.cpp:52
+msgid "kfstest"
+msgstr ""
+
+#: kfile/kicondialog.cpp:275 kfile/kicondialog.cpp:288
+msgid "Select Icon"
+msgstr ""
+
+#: kfile/kicondialog.cpp:309
+msgid "Icon Source"
+msgstr ""
+
+#: kfile/kicondialog.cpp:319
+msgid "S&ystem icons:"
+msgstr ""
+
+#: kfile/kicondialog.cpp:325
+msgid "O&ther icons:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 204
+#: kfile/kicondialog.cpp:328 rc.cpp:211
+msgid "&Browse..."
+msgstr ""
+
+#: kfile/kicondialog.cpp:340
+msgid "&Search:"
+msgstr ""
+
+#: kfile/kicondialog.cpp:347
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr ""
+
+#: kfile/kicondialog.cpp:368
+msgid "Actions"
+msgstr ""
+
+#: kfile/kicondialog.cpp:369
+msgid "Animations"
+msgstr ""
+
+#: kfile/kicondialog.cpp:370
+msgid "Applications"
+msgstr ""
+
+#: kfile/kicondialog.cpp:371
+msgid "Categories"
+msgstr ""
+
+#: kfile/kicondialog.cpp:372
+msgid "Devices"
+msgstr ""
+
+#: kfile/kicondialog.cpp:373
+msgid "Emblems"
+msgstr ""
+
+#: kfile/kicondialog.cpp:374
+msgid "Emotes"
+msgstr ""
+
+#: kfile/kicondialog.cpp:375
+msgid "Filesystems"
+msgstr ""
+
+#: kfile/kicondialog.cpp:376
+msgid "International"
+msgstr ""
+
+#: kfile/kicondialog.cpp:377
+msgid "Mimetypes"
+msgstr ""
+
+#: kfile/kicondialog.cpp:378
+msgid "Places"
+msgstr ""
+
+#: kfile/kicondialog.cpp:379
+msgid "Status"
+msgstr ""
+
+#: kfile/kicondialog.cpp:586
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr ""
+
+#: kfile/kfilemetainfowidget.cpp:161
+msgid "<Error>"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
+#: kfile/kpropertiesdialog.cpp:2019
+msgid "Others"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:65 kfile/kacleditwidget.cpp:474
+msgid "Named User"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:66 kfile/kacleditwidget.cpp:479
+msgid "Named Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:100
+msgid "Add Entry..."
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:104
+msgid "Edit Entry..."
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:108
+msgid "Delete Entry"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:304
+msgid " (Default)"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:428
+msgid "Edit ACL Entry"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:438
+msgid "Entry Type"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
+msgstr ""
+
+#: kfile/kencodingfiledialog.cpp:177 kfile/kencodingfiledialog.cpp:202
+#: kfile/kfiledialog.cpp:350 kfile/kfiledialog.cpp:383
+#: kfile/kfiledialog.cpp:402
+msgid "Save As"
+msgstr ""
+
+#: kfile/kurlrequester.cpp:220
+msgid "Open file dialog"
+msgstr ""
+
+#: kfile/kdevicelistmodel.cpp:115
+msgid "Device name"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:262
+msgid "Known Applications"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:464
+msgid "Open With"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:469
+#, qt-format
+msgid ""
+"<qt>Select the program that should be used to open <b>%1</b>. If the program "
+"is not listed, enter the name or click the browse button.</qt>"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:475
+msgid "Choose the name of the program with which to open the selected files."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:500
+#, qt-format
+msgid "Choose Application for %1"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:501
+#, qt-format
+msgid ""
+"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
+"listed, enter the name or click the browse button.</qt>"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:516
+msgid "Choose Application"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:517
+msgid ""
+"<qt>Select a program. If the program is not listed, enter the name or click "
+"the browse button.</qt>"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:582
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the comment"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:617
+msgid "Run in &terminal"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:630
+msgid "&Do not close when command exits"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:647
+msgid "&Remember application association for this type of file"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:98
+msgid "&Meta Info"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:206 kfile/kpropertiesdialog.cpp:221
+#: kfile/kpropertiesdialog.cpp:233 kfile/kpropertiesdialog.cpp:253
+#: kfile/kpropertiesdialog.cpp:269
+#, qt-format
+msgid "Properties for %1"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:231
+#, qt-format
+msgid "Properties for 1 item"
+msgid_plural "Properties for %1 Selected Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kpropertiesdialog.cpp:788
+msgid "&General"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:989
+msgid "Create new file type"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:991
+msgid "Edit file type"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1004
+msgid "Contents:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1041
+msgid "Calculate"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1042
+msgid "Stop"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1052 kfile/kpropertiesdialog.cpp:1259
+msgid "Refresh"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1060
+msgid "Points to:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1073
+msgid "Created:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1095
+msgid "Accessed:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1114
+msgid "Mounted on:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1121 kfile/kpropertiesdialog.cpp:2953
+msgid "Free disk space:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1224 kfile/kpropertiesdialog.cpp:3094
+#, qt-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 out of %2 (%3% used)"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1238 kfile/kpropertiesdialog.cpp:1254
+#, qt-format
+msgid "1 file"
+msgid_plural "%1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kpropertiesdialog.cpp:1239 kfile/kpropertiesdialog.cpp:1255
+#, qt-format
+msgid "1 sub-folder"
+msgid_plural "%1 sub-folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kpropertiesdialog.cpp:1235
+#, qt-format
+msgid ""
+"Calculating... %1 (%2)\n"
+"%3, %4"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1268
+msgid "Calculating..."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1307
+msgid "Stopped"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1343
+msgid "The new file name is empty."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1482 kfile/kpropertiesdialog.cpp:2660
+#: kfile/kpropertiesdialog.cpp:2830 kfile/kpropertiesdialog.cpp:3123
+#: kfile/kpropertiesdialog.cpp:3360
+#, qt-format
+msgid ""
+"<qt>Could not save properties. You do not have sufficient access to write to "
+"<b>%1</b>.</qt>"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1565 kfile/kpropertiesdialog.cpp:1569
+#: kfile/kpropertiesdialog.cpp:1574
+msgid "Forbidden"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1566
+msgid "Can Read"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1567
+msgid "Can Read & Write"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1570
+msgid "Can View Content"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1571
+msgid "Can View & Modify Content"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1575
+msgid "Can View Content & Read"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1576
+msgid "Can View/Read & Modify/Write"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1672
+msgid "&Permissions"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1685 kfile/kpropertiesdialog.cpp:1942
+msgid "Access Permissions"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1695
+msgid "This file is a link and does not have permissions."
+msgid_plural "All files are links and do not have permissions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kpropertiesdialog.cpp:1699
+msgid "Only the owner can change permissions."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1702
+msgid "O&wner:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1708
+msgid "Specifies the actions that the owner is allowed to do."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1710
+msgid "Gro&up:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1716
+msgid "Specifies the actions that the members of the group are allowed to do."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1718
+msgid "O&thers:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1724
+msgid ""
+"Specifies the actions that all users, who are neither owner nor in the "
+"group, are allowed to do."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1729
+msgid "Only own&er can rename and delete folder content"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1730
+msgid "Is &executable"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1734
+msgid ""
+"Enable this option to allow only the folder's owner to delete or rename the "
+"contained files and folders. Other users can only add new files, which "
+"requires the 'Modify Content' permission."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1738
+msgid ""
+"Enable this option to mark the file as executable. This only makes sense for "
+"programs and scripts. It is required when you want to execute them."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1745
+msgid "A&dvanced Permissions"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1754
+msgid "Ownership"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1763
+msgid "User:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1849
+msgid "Group:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1892
+msgid "Apply changes to all subfolders and their contents"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1932
+msgid "Advanced Permissions"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1952
+msgid "Class"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1957
+msgid ""
+"Show\n"
+"Entries"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1959
+msgid "Read"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1964
+msgid "This flag allows viewing the content of the folder."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1966
+msgid "The Read flag allows viewing the content of the file."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1970
+msgid ""
+"Write\n"
+"Entries"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1972
+msgid "Write"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1977
+msgid ""
+"This flag allows adding, renaming and deleting of files. Note that deleting "
+"and renaming can be limited using the Sticky flag."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1980
+msgid "The Write flag allows modifying the content of the file."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1985
+msgctxt "Enter folder"
+msgid "Enter"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1986
+msgid "Enable this flag to allow entering the folder."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1989
+msgid "Exec"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1990
+msgid "Enable this flag to allow executing the file as a program."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2000
+msgid "Special"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2004
+msgid ""
+"Special flag. Valid for the whole folder, the exact meaning of the flag can "
+"be seen in the right hand column."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2007
+msgid ""
+"Special flag. The exact meaning of the flag can be seen in the right hand "
+"column."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 89
+#: kfile/kpropertiesdialog.cpp:2011 rc.cpp:83
+msgid "User"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2023
+msgid "Set UID"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2027
+msgid ""
+"If this flag is set, the owner of this folder will be the owner of all new "
+"files."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2030
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the owner."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2034
+msgid "Set GID"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2038
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2041
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the group."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2045
+msgctxt "File permission"
+msgid "Sticky"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2049
+msgid ""
+"If the Sticky flag is set on a folder, only the owner and root can delete or "
+"rename files. Otherwise everybody with write permissions can do this."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2053
+msgid ""
+"The Sticky flag on a file is ignored on Linux, but may be used on some "
+"systems"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2227
+msgid "Link"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2243
+msgid "Varying (No Change)"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2341
+msgid "This file uses advanced permissions"
+msgid_plural "These files use advanced permissions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kpropertiesdialog.cpp:2362
+msgid "This folder uses advanced permissions."
+msgid_plural "These folders use advanced permissions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kfile/kpropertiesdialog.cpp:2378
+msgid "These files use advanced permissions."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2596
+msgid "U&RL"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2711
+msgid "A&ssociation"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2720
+msgid "Pattern ( example: *.html;*.htm )"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2758
+msgid "Left click previews"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2885
+msgid "De&vice"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2917
+msgid "Device (/dev/fd0):"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2918
+msgid "Device:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2931
+msgid "Read only"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2935
+msgid "File system:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2943
+msgid "Mount point (/mnt/floppy):"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2944
+msgid "Mount point:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:2977
+msgid "Unmounted Icon"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:3179
+msgid "&Application"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:3298
+#, qt-format
+msgid "Add File Type for %1"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:3299
+msgid "Select one or more file types to add:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:3433
+msgid "Only executables on local file systems are supported."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:3447
+#, qt-format
+msgid "Advanced Options for %1"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:59
+msgid "&Share"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:133
+msgid "Only folders in your home folder can be shared."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:143
+msgid "Not shared"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:148
+msgid "Shared"
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:160
+msgid ""
+"Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
+"(Samba)."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:167
+msgid "You can also reconfigure file sharing authorization."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:171 kfile/kfilesharedialog.cpp:195
+msgid "Configure File Sharing..."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:180
+msgid ""
+"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:187
+msgid "You need to be authorized to share folders."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:190
+msgid "File sharing is disabled."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:257
+#, qt-format
+msgid "Sharing folder '%1' failed."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:258
+#, qt-format
+msgid ""
+"An error occurred while trying to share folder '%1'. Make sure that the Perl "
+"script 'fileshareset' is set suid root."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:263
+#, qt-format
+msgid "Unsharing folder '%1' failed."
+msgstr ""
+
+#: kfile/kfilesharedialog.cpp:264
+#, qt-format
+msgid ""
+"An error occurred while trying to unshare folder '%1'. Make sure that the "
+"Perl script 'fileshareset' is set suid root."
+msgstr ""
+
+#: tests/kruntest.cpp:89
+msgid "kruntest"
+msgstr ""
+
+#: tests/jobtest.cpp:931
+msgid "1 day 23:59:00"
+msgstr ""
+
+#: tests/jobtest.cpp:936
+msgid "00:00:50"
+msgstr ""
+
+#: tests/kmimetypechoosertest_gui.cpp:29
+msgid "Select the MimeTypes you want for this file type."
+msgstr ""
+
+#: tests/kmimetypechoosertest_gui.cpp:31
+msgid "Select Mime Types"
+msgstr ""
+
+#: tests/kprotocolinfotest.cpp:29
+msgid "KProtocolinfo Test"
+msgstr ""
+
+#: tests/kdirmodeltest_gui.cpp:38
+msgid "Directory(ies) to model"
+msgstr ""
+
+#: tests/kdirmodeltest_gui.cpp:40
+msgid "KDirModelTest"
+msgstr ""
+
+#: tests/kdirmodeltest_gui.cpp:41
+msgid "Test for KDirModel"
+msgstr ""
+
+#: tests/kioslavetest.cpp:485
+msgid "Source URL"
+msgstr ""
+
+#: tests/kioslavetest.cpp:487
+msgid "Destination URL"
+msgstr ""
+
+#: tests/kioslavetest.cpp:489
+msgid "Operation (list,listrecursive,stat,get,put,copy,move,del,shred,mkdir)"
+msgstr ""
+
+#: tests/kioslavetest.cpp:491
+msgid "Progress Type (none,default,status)"
+msgstr ""
+
+#: tests/kioslavetest.cpp:494
+msgid "Test for kioslaves"
+msgstr ""
+
+#: tests/kioslavetest.cpp:496
+msgid "KIOSlave test"
+msgstr ""
+
+#: tests/previewtest.cpp:59
+msgid "previewtest"
+msgstr ""
+
+#: tests/kdirwatchtest.cpp:22
+msgid "Directory(ies) to watch"
+msgstr ""
+
+#: tests/kdirwatchtest.cpp:24
+msgid "KDirWatchTest"
+msgstr ""
+
+#: tests/kdirwatchtest.cpp:25
+msgid "Test for KDirWatch"
+msgstr ""
+
+#: tests/getalltest.cpp:11
+msgid "getalltest"
+msgstr ""
+
+#: tests/kscantest.cpp:6
+msgid "kscantest"
+msgstr ""
+
+#: tests/kdirwatchtest_gui.cpp:38 tests/kdirwatchtest_gui.cpp:39
+msgid "KDirWatchTest_GUI"
+msgstr ""
+
+#: tests/kdirwatchtest_gui.cpp:40
+msgid "(C) 2006 Dirk Stoecker"
+msgstr ""
+
+#: tests/kdirwatchtest_gui.cpp:41
+msgid "Dirk Stoecker"
+msgstr ""
+
+#: tests/kdcopcheck.cpp:92 tests/ksycocaupdatetest.cpp:8
+msgid "whatever"
+msgstr ""
+
+#: tests/kdirlistertest_gui.cpp:159
+msgid "kdirlistertest"
+msgstr ""
+
+#: tests/kiopassdlgtest.cpp:11
+msgid "KIO Password Dialog Test"
+msgstr ""
+
+#: tests/kpropsdlgtest.cpp:11
+msgid "the path or url to the file/dir for which to show properties"
+msgstr ""
+
+#: tests/kpropsdlgtest.cpp:13
+msgid "KIO Properties Dialog Test"
+msgstr ""
+
+#: tests/speed.cpp:60
+msgid "SpeedApp"
+msgstr ""
+
+#: tests/speed.cpp:60
+msgid "A KIO::listRecursive testing tool"
+msgstr ""
+
+#: tests/speed.cpp:63
+msgid "the URL to list"
+msgstr ""
+
+#: tests/kurlcompletiontest.cpp:167
+msgid "kurlcompletiontest"
+msgstr ""
+
+#: tests/safesitetest.cpp:6
+msgid "safesitetest"
+msgstr ""
+
+#: tests/kacltest.cpp:71
+msgid "kacltest"
+msgstr ""
+
+#: tests/netaccesstest.cpp:32
+msgid "netaccesstest"
+msgstr ""
+
+#: tests/kionetrctest.cpp:40
+msgid "Unit test for .netrc and kionetrc parser."
+msgstr ""
+
+#: tests/kionetrctest.cpp:42
+msgid "[url1,url2 ,...]"
+msgstr ""
+
+#: tests/kionetrctest.cpp:44
+msgid "KIO-netrc-test"
+msgstr ""
+
+#: tests/ksycocatest.cpp:60
+msgid "ksycocatest"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/keygenwizard2.ui line 35
+#: rc.cpp:5
+msgid ""
+"You must now provide a password for the certificate request. Please choose a "
+"very secure password as this will be used to encrypt your private key."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/keygenwizard2.ui line 48
+#: rc.cpp:8
+msgid "&Repeat password:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/keygenwizard2.ui line 58
+#: rc.cpp:11
+msgid "&Choose password:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/keygenwizard.ui line 35
+#: rc.cpp:14
+msgid ""
+"You have indicated that you wish to obtain or purchase a secure certificate. "
+"This wizard is intended to guide you through the procedure. You may cancel "
+"at any time, and this will abort the transaction."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 30
+#: rc.cpp:17
+msgid "<u>KWallet</u> - The KDE Wallet System"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 49
+#: rc.cpp:20
+msgid ""
+"Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
+"passwords and other personal information on disk in an encrypted file, "
+"preventing others from viewing the information.  This wizard will tell you "
+"about KWallet and help you configure it for the first time."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 86
+#: rc.cpp:23
+msgid "&Basic setup (recommended)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 96
+#: rc.cpp:26
+msgid "&Advanced setup"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 19
+#: rc.cpp:29
+msgid ""
+"Various applications may attempt to use the KDE wallet to store passwords or "
+"other information such as web form data and cookies.  If you would like "
+"these applications to use the wallet, you must enable it now and choose a "
+"password.  The password you choose <i>cannot</i> be recovered if it is lost, "
+"and will allow anyone who knows it to obtain all the information contained "
+"in the wallet."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 32
+#: rc.cpp:32
+msgid "Yes, I wish to use the KDE wallet to store my personal information."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 91
+#: rc.cpp:35
+msgid "Enter a new password:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 107
+#: rc.cpp:38
+msgid "Verify password:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageexplanation.ui line 19
+#: rc.cpp:41
+msgid ""
+"The KDE Wallet system stores your data in a <i>wallet</i> file on your local "
+"hard disk.  The data is only written in encrypted form, presently using the "
+"blowfish algorithm with your password as the key.  When a wallet is opened, "
+"the wallet manager application will launch and display an icon in the system "
+"tray.  You can use this application to manage your wallets.  It even permits "
+"you to drag wallets and wallet contents, allowing you to easily copy a "
+"wallet to a remote system."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 19
+#: rc.cpp:44
+msgid ""
+"The KDE Wallet system allows you to control the level of security of your "
+"personal data.  Some of these settings do impact usability.  While the "
+"default settings are generally acceptable for most users, you may wish to "
+"change some of them.  You may further tune these settings from the KWallet "
+"control module."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 51
+#: rc.cpp:47
+msgid "Automatically close idle wallets"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 58
+#: rc.cpp:50
+msgid "Store network passwords and local passwords in separate wallet files"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 55
+#: rc.cpp:53
+msgid "Allow &Once"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 65
+#: rc.cpp:56
+msgid "Allow &Always"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 72
+#: rc.cpp:59
+msgid "&Deny"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 79
+#: rc.cpp:62
+msgid "Deny &Forever"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 25
+#: rc.cpp:65
+msgid "Terminal"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 53
+#: rc.cpp:68
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application or if you want the information that is provided by the terminal "
+"emulator window."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 56
+#: rc.cpp:71
+msgid "&Run in terminal"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 63
+#: rc.cpp:74
+msgid "&Terminal options:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 73
+#: rc.cpp:77
+msgid ""
+"Check this option if the text mode application offers relevant information "
+"on exit. Keeping the terminal emulator open allows you to retrieve this "
+"information."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 76
+#: rc.cpp:80
+msgid "Do not &close when command exits"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 101
+#: rc.cpp:86
+msgid ""
+"Check this option if you want to run this application with a different user "
+"id. Every process has a different user id associated with it. This id code "
+"determines file access and other permissions. The password of the user is "
+"required to use this option."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 104
+#: rc.cpp:89
+msgid "Ru&n as a different user"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 127
+#: rc.cpp:92
+msgid "Enter the user name you want to run the application as."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 130
+#: rc.cpp:95
+msgid "&Username:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 140
+#: rc.cpp:98
+msgid "Enter the user name you want to run the application as here."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 150
+#: rc.cpp:101
+msgid "Startup"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 162
+#: rc.cpp:104
+msgid ""
+"Check this option if you want to make clear that your application has "
+"started. This visual feedback may appear as a busy cursor or in the taskbar."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 165
+#: rc.cpp:107
+msgid "Enable &launch feedback"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 172
+#: rc.cpp:110
+msgid ""
+"Check this option if you want to have a system tray handle for your "
+"application."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 175
+#: rc.cpp:113
+msgid "&Place in system tray"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 182
+#: rc.cpp:116
+msgid "&DBUS registration:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 193
+#: rc.cpp:119
+msgid "None"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 198
+#: rc.cpp:122
+msgid "Multiple Instances"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 203
+#: rc.cpp:125
+msgid "Single Instance"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 208
+#: rc.cpp:128
+msgid "Run Until Finished"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 52
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 73
+#: rc.cpp:131 rc.cpp:139
+msgid ""
+"<qt><p>This list should show the types of file that your application can "
+"handle. This list is organized by <u>mimetypes</u>.</p>\n"
+"<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for "
+"identifying the type of data based on filename extensions and correspondent "
+"<u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in "
+"flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</"
+"u>. To know which application should open each type of file, the system "
+"should be informed about the abilities of each application to handle these "
+"extensions and mimetypes.</p>\n"
+"<p>If you want to associate this application with one or more mimetypes that "
+"are not in this list, click on the button <b>Add</b> below. If there are one "
+"or more filetypes that this application cannot handle, you may want to "
+"remove them from the list clicking on the button <b>Remove</b> below.</p></"
+"qt>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 55
+#: rc.cpp:136
+msgid "&Supported file types:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 86
+#: rc.cpp:144
+msgid "Mimetype"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 91
+#: rc.cpp:147
+msgid "Description"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 99
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 112
+#: rc.cpp:150 rc.cpp:156
+msgid ""
+"Type the name you want to give to this application here. This application "
+"will appear under this name in the applications menu and in the panel."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 102
+#: rc.cpp:153
+msgid "&Name:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 119
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 132
+#: rc.cpp:159 rc.cpp:165
+msgid ""
+"Type the description of this application, based on its use, here. Examples: "
+"a dial up application (KPPP) would be \"Dial up tool\"."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 122
+#: rc.cpp:162 ../kfile/kfileplaceeditdialog.cpp:102
+msgid "&Description:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 139
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 152
+#: rc.cpp:168 rc.cpp:174
+msgid "Type any comment you think is useful here."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 142
+#: rc.cpp:171
+msgid "Comm&ent:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 170
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 194
+#: rc.cpp:177 rc.cpp:194
+msgid ""
+"Type the command to start this application here.\n"
+"\n"
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the caption"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 173
+#: rc.cpp:191
+msgid "Co&mmand:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 201
+#: rc.cpp:208
+msgid ""
+"Click here to browse your file system in order to find the desired "
+"executable."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 211
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 224
+#: rc.cpp:214 rc.cpp:220
+msgid "Sets the working directory for your application."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 214
+#: rc.cpp:217
+msgid "&Work path:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 231
+#: rc.cpp:223
+msgid ""
+"Click on this button if you want to add a type of file (mimetype) that your "
+"application can handle."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 234
+#: rc.cpp:226
+msgid "Add..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 257
+#: rc.cpp:229
+msgid ""
+"If you want to remove a type of file (mimetype) that your application cannot "
+"handle, select the mimetype in the list above and click on this button."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 260
+#: rc.cpp:232
+msgid "Remove"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 283
+#: rc.cpp:235
+msgid ""
+"Click here to modify the way this application will run, launch feedback, "
+"DBUS options or to run it as a different user."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 286
+#: rc.cpp:238
+msgid "Ad&vanced Options"
+msgstr ""
+
+#: httpfilter/httpfilter.cc:276
+msgid "Unexpected end of data, some information may be lost."
+msgstr ""
+
+#: httpfilter/httpfilter.cc:333
+msgid "Receiving corrupt data."
+msgstr ""
+
+#: bookmarks/konqbookmarkmenu.cc:69
+msgid "Open Folder in Tabs"
+msgstr ""
+
+#: bookmarks/konqbookmarkmenu.cc:73
+msgid "Open in New Window"
+msgstr ""
+
+#: bookmarks/konqbookmarkmenu.cc:74
+msgid "Open in New Tab"
+msgstr ""
+
+#: bookmarks/konqbookmarkmenu.cc:193
+msgid "Netscape Bookmarks"
+msgstr ""
+
+#: bookmarks/kbookmarkimporter_ns.cc:108 bookmarks/kbookmarkimporter_ns.cc:111
+msgid "*.html|HTML Files (*.html)"
+msgstr ""
+
+#: bookmarks/kbookmarkimporter_ns.cc:195
+msgid "<!-- This file was generated by Konqueror -->"
+msgstr ""
+
+#: bookmarks/kbookmarkimporter_ns.cc:198 bookmarks/kbookmarkimporter_ns.cc:199
+#: bookmarks/kbookmarkmenu.cc:679 ../kfile/kfilewidget.cpp:1929
+msgid "Bookmarks"
+msgstr ""
+
+#: bookmarks/kbookmarkimporter_opera.cc:112
+#: bookmarks/kbookmarkimporter_opera.cc:115
+msgid "*.adr|Opera Bookmark Files (*.adr)"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu_p.h:68 bookmarks/kbookmarkmenu.cc:453
+msgid "Add Bookmark"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:240
+msgid "Add Bookmark Here"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:245
+msgid "Open Folder in Bookmark Editor"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:247
+msgid "Delete Folder"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:254 ../kfile/kdiroperator.cpp:1469
+msgid "Properties"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:259
+msgid "Copy Link Address"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:261
+msgid "Delete Bookmark"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:293
+msgid "Bookmark Properties"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:315 bookmarks/kbookmarkmanager.cc:509
+msgid "Cannot add bookmark with empty URL."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:352
+#, qt-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:353
+#, qt-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:354
+msgid "Bookmark Folder Deletion"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:355
+msgid "Bookmark Deletion"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:436
+msgid "Bookmark Tabs as Folder..."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:441
+msgid "Add a folder of bookmarks for all open tabs."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:459
+msgid "Add a bookmark for the current document"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:474
+msgid "Edit your bookmark collection in a separate window"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:483
+msgid "&New Bookmark Folder..."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:489
+msgid "Create a new bookmark folder in this menu"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:714
+msgid "&Add"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:717
+msgid "&Update"
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:722
+msgid "&New Folder..."
+msgstr ""
+
+#: bookmarks/kbookmark.cc:128
+msgid "Create New Bookmark Folder"
+msgstr ""
+
+#: bookmarks/kbookmark.cc:129
+#, qt-format
+msgid "Create New Bookmark Folder in %1"
+msgstr ""
+
+#: bookmarks/kbookmark.cc:131
+msgid "New folder:"
+msgstr ""
+
+#: bookmarks/kbookmark.cc:334
+msgid "--- separator ---"
+msgstr ""
+
+#: bookmarks/kbookmarkmanager.cc:363
+#, qt-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:321
+#, qt-format
+msgid "Opening connection to host %1"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:339
+#, qt-format
+msgid "Connected to host %1"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:378
+#, qt-format
+msgid ""
+"%1.\n"
+"\n"
+"Reason: %2"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:407
+msgid "Sending login information"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:454
+#, qt-format
+msgid ""
+"Message sent:\n"
+"Login using username=%1 and password=[hidden]\n"
+"\n"
+"Server replied:\n"
+"%2\n"
+"\n"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:5047
+msgid "You need to supply a username and a password to access this site."
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:5055
+msgid "Site:"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:465
+#, qt-format
+msgid "<b>%1</b>"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:528
+msgid "Login OK"
+msgstr ""
+
+#: ../kioslave/ftp/ftp.cpp:557
+#, qt-format
+msgid "Could not login to %1."
+msgstr ""
+
+#: ../kioslave/file/file.cpp:214
+#, qt-format
+msgid "Setting ACL for %1"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:760 ../kioslave/file/file.cpp:994
+#, qt-format
+msgid ""
+"Could not change permissions for\n"
+"%1"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:925
+#, qt-format
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:1368
+#, qt-format
+msgid "No media in device for %1"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:1520
+msgid "No Media inserted or Media not recognized."
+msgstr ""
+
+#: ../kioslave/file/file.cpp:1530 ../kioslave/file/file.cpp:1731
+msgid "\"vold\" is not running."
+msgstr ""
+
+#: ../kioslave/file/file.cpp:1565
+msgid "Could not find program \"mount\""
+msgstr ""
+
+#: ../kioslave/file/file.cpp:1744
+msgid "Could not find program \"umount\""
+msgstr ""
+
+#: ../kioslave/file/file.cpp:1832
+#, qt-format
+msgid "Could not read %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:453
+msgid "No host specified."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1478
+msgid "Otherwise, the request would have succeeded."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1482
+msgid "retrieve property values"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1485
+msgid "set property values"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1488
+msgid "create the requested folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1491
+msgid "copy the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1494
+msgid "move the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1497
+msgid "search in the specified folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1500
+msgid "lock the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1503
+msgid "unlock the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1506
+msgid "delete the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1509
+msgid "query the server's capabilities"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1512
+msgid "retrieve the contents of the specified file or folder"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1524 ../kioslave/http/http.cpp:1677
+#, qt-format
+msgid "An unexpected error (%1) occurred while attempting to %2."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1532
+msgid "The server does not support the WebDAV protocol."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1573
+#, qt-format
+msgid ""
+"An error occurred while attempting to %1, %2. A summary of the reasons is "
+"below.<ul>"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1585 ../kioslave/http/http.cpp:1688
+#, qt-format
+msgid "Access was denied while attempting to %1."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1592
+msgid "The specified folder already exists."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1598 ../kioslave/http/http.cpp:1693
+msgid ""
+"A resource cannot be created at the destination until one or more "
+"intermediate collections (folders) have been created."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1607
+#, qt-format
+msgid ""
+"The server was unable to maintain the liveness of the properties listed in "
+"the propertybehavior XML element or you attempted to overwrite a file while "
+"requesting that files are not overwritten. %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1617
+#, qt-format
+msgid "The requested lock could not be granted. %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1623
+msgid "The server does not support the request type of the body."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1628 ../kioslave/http/http.cpp:1700
+#, qt-format
+msgid "Unable to %1 because the resource is locked."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1632
+msgid "This action was prevented by another error."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1639 ../kioslave/http/http.cpp:1705
+#, qt-format
+msgid ""
+"Unable to %1 because the destination server refuses to accept the file or "
+"folder."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1646 ../kioslave/http/http.cpp:1711
+msgid ""
+"The destination resource does not have sufficient space to record the state "
+"of the resource after the execution of this method."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1668
+#, qt-format
+msgid "upload %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:1989
+#, qt-format
+msgid "Connecting to %1..."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:2007 ../kioslave/http/http.cpp:2011
+#, qt-format
+msgid "Proxy %1 at port %2"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:2043
+#, qt-format
+msgid "%1 (port %2)"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:2578
+#, qt-format
+msgid "%1 contacted. Waiting for reply..."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:2944
+msgid "Server processing request, please wait..."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3787
+msgid "Requesting data to send"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:3828
+#, qt-format
+msgid "Sending data to %1"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:4235
+#, qt-format
+msgid "Retrieving %1 from %2..."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:4244
+#, qt-format
+msgid "Retrieving from %1..."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5027 ../kioslave/http/http.cpp:5175
+msgid "Authentication Failed."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5030 ../kioslave/http/http.cpp:5178
+msgid "Proxy Authentication Failed."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5035
+msgid "  Do you want to retry?"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5036
+msgid "Authentication"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5056 ../kioslave/http/http.cpp:5073
+#, qt-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5063
+msgid ""
+"You need to supply a username and a password for the proxy server listed "
+"below before you are allowed to access any sites."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5072
+msgid "Proxy:"
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5094
+#, qt-format
+msgid "Authentication needed for %1 but authentication is disabled."
+msgstr ""
+
+#: ../kioslave/http/http.cpp:5713
+msgid ""
+"Unsupported method: authentication will fail. Please submit a bug report."
+msgstr ""
+
+#: ../kioslave/http/http_cache_cleaner.cpp:200
+#: ../kioslave/http/http_cache_cleaner.cpp:201
+msgid "KDE HTTP cache maintenance tool"
+msgstr ""
+
+#: ../kioslave/http/http_cache_cleaner.cpp:204
+msgid "Empty the cache"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:232
+msgid "KCookiejar regression test"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:234
+msgid "kcookietest"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:234
+msgid "(C) 2004 Waldo Bastian"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:238
+msgid "Regression test to run"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:32
+msgid "HTTP Cookie Daemon"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:36
+msgid "HTTP cookie daemon"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:39
+msgid "Shut down cookie jar"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:40
+msgid "Remove cookies for domain"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:41
+msgid "Remove all cookies"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:42
+msgid "Reload configuration file"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:70
+msgid "Cookie Alert"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:99
+#, qt-format
+msgid "You received a cookie from"
+msgid_plural "You received %1 cookies from"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:117
+msgid " <b>[Cross Domain]</b>"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:120
+msgid "Do you want to accept or reject?"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "Apply Choice To"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:130
+msgid "&Only this cookie"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:130
+msgid "&Only these cookies"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:134
+msgid ""
+"Select this option to accept/reject only this cookie. You will be prompted "
+"if another cookie is received. <em>(see WebBrowsing/Cookies in the Control "
+"Center)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:138
+msgid "All cookies from this do&main"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:141
+msgid ""
+"Select this option to accept/reject all cookies from this site. Choosing "
+"this option will add a new policy for the site this cookie originated from. "
+"This policy will be permanent until you manually change it from the Control "
+"Center <em>(see WebBrowsing/Cookies in the Control Center)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:147
+msgid "All &cookies"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:150
+msgid ""
+"Select this option to accept/reject all cookies from anywhere. Choosing this "
+"option will change the global cookie policy set in the Control Center for "
+"all cookies <em>(see WebBrowsing/Cookies in the Control Center)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:164
+msgid "&Accept"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
+msgid "&Reject"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:170
+msgid "See or modify the cookie information"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:211
+msgid "Cookie Details"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:226
+msgid "Value:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:233
+msgid "Expires:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:240
+msgid "Path:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:247
+msgid "Domain:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:254
+msgid "Exposure:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:263
+msgctxt "Next cookie"
+msgid "&Next >>"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:268
+msgid "Show details of the next cookie"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:301
+msgid "Not specified"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:310
+msgid "End of Session"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:315
+msgid "Secure servers only"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:317
+msgid "Secure servers, page scripts"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:322
+msgid "Servers"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:324
+msgid "Servers, page scripts"
+msgstr ""
+
+#: ../kioslave/metainfo/metainfo.cpp:39
+msgid "kio_metainfo"
+msgstr ""
+
+#: ../kioslave/metainfo/metainfo.cpp:98
+#, qt-format
+msgid "No metainfo for %1"
+msgstr ""
+
+#: ../kfile/k3fileiconview.cpp:70
+msgid "Small Icons"
+msgstr ""
+
+#: ../kfile/k3fileiconview.cpp:74
+msgid "Large Icons"
+msgstr ""
+
+#: ../kfile/k3fileiconview.cpp:83
+msgid "Thumbnail Previews"
+msgstr ""
+
+#: ../kfile/k3fileiconview.cpp:119
+msgid "Icon View"
+msgstr ""
+
+#: ../kfile/kfileview.cpp:80
+msgid "Unknown View"
+msgstr ""
+
+#: ../kfile/tests/kdirselectdialogtest.cpp:10
+msgid "kdirselectdialogtest"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:273
+#, qt-format
+msgid "&Edit '%1'..."
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:276
+#, qt-format
+msgid "&Hide '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:283
+msgid "&Show All Entries"
+msgstr ""
+
+#: ../kfile/kfileplacesview.cpp:294
+#, qt-format
+msgid "&Remove '%1'"
+msgstr ""
+
+#: ../kfile/k3filedetailview.cpp:63 ../kfile/kdiroperator.cpp:1007
+#: ../kfile/kdiroperator.cpp:1445
+msgid "Detailed View"
+msgstr ""
+
+#: ../kfile/k3filedetailview.cpp:67
+msgid "Date"
+msgstr ""
+
+#: ../kfile/kfilefiltercombo.cpp:33 ../kfile/kfilewidget.cpp:1377
+msgid "*|All Files"
+msgstr ""
+
+#: ../kfile/kfilefiltercombo.cpp:162
+msgid "All Supported Files"
+msgstr ""
+
+#: ../kfile/kfilepreview.cpp:66
+msgid "Preview"
+msgstr ""
+
+#: ../kfile/kfilepreview.cpp:73
+msgid "No preview available."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:175
+msgid ""
+"<p>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> menu."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:207
+msgid "Current location"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:208
+msgid ""
+"This is the currently listed location. The drop-down list also lists "
+"commonly used locations. This includes standard locations, such as your home "
+"folder, as well as locations that have been visited recently."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:218
+#, qt-format
+msgid "Drive: %1"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:225
+#, qt-format
+msgid "Root Folder: %1"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:232
+#, qt-format
+msgid "Home Folder: %1"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:241
+#, qt-format
+msgid "Documents: %1"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:248
+#, qt-format
+msgid "Desktop: %1"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:290
+#, qt-format
+msgid ""
+"<qt>Click this button to enter the parent folder.<p>For instance, if the "
+"current location is file:/home/%1 clicking this button will take you to "
+"file:/home.</qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:294
+msgid "Click this button to move backwards one step in the browsing history."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:296
+msgid "Click this button to move forward one step in the browsing history."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:298
+msgid "Click this button to reload the contents of the current location."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:301
+msgid "Click this button to create a new folder."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:304
+msgid "Show Quick Access Navigation Panel"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:311
+msgid "Show Bookmarks"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:316
+msgid "Configure"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:318
+msgid ""
+"<qt>This is the configuration menu for the file dialog. Various options can "
+"be accessed from this menu including: <ul><li>how files are sorted in the "
+"list</li><li>types of view, including icon and list</li><li>showing of "
+"hidden files</li><li>the Quick Access navigation panel</li><li>file "
+"previews</li><li>separating folders from files</li></ul></qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:369
+msgid "&Location:"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:391
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:397
+msgid "&Filter:"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:559
+msgid "Please specify the filename to save to."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:561
+msgid "Please select the file to open."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:618 ../kfile/kfilewidget.cpp:661
+#: ../kfile/kfilewidget.cpp:1322
+msgid "You can only select local files."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:619 ../kfile/kfilewidget.cpp:662
+#: ../kfile/kfilewidget.cpp:1323
+msgid "Remote Files Not Accepted"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:653
+#, qt-format
+msgid ""
+"%1\n"
+"does not appear to be a valid URL.\n"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:653
+msgid "Invalid URL"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:973
+msgid "This is the name to save the file as."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:978
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:985
+msgid "This is the name of the file to open."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1254
+msgid ""
+"The chosen filenames do not\n"
+"appear to be valid."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1256
+msgid "Invalid Filenames"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1285
+#, qt-format
+msgid ""
+"The requested filenames\n"
+"%1\n"
+"do not appear to be valid;\n"
+"make sure every filename is enclosed in double quotes."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1289
+msgid "Filename Error"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1374
+msgid "*|All Folders"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1641
+#, qt-format
+msgid "Automatically select filename e&xtension (%1)"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1642
+#, qt-format
+msgid "the extension <b>%1</b>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1650
+msgid "Automatically select filename e&xtension"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1651
+msgid "a suitable extension"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1661
+#, qt-format
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br><br></li><li>If "
+"no extension is specified in the <b>%2</b> text area when you click <b>Save</"
+"b>, %3 will be added to the end of the filename (if the filename does not "
+"already exist). This extension is based on the file type that you have "
+"chosen to save in.<br><br>If you do not want KDE to supply an extension for "
+"the filename, you can either turn this option off or you can suppress it by "
+"adding a period (.) to the end of the filename (the period will be "
+"automatically removed).</li></ol>If unsure, keep this option enabled as it "
+"makes your files more manageable."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1932
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<p>These bookmarks are specific to the file dialog, but otherwise "
+"operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:80
+msgid "Home"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:81
+msgid "Network"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:84 ../kfile/kfileplacesmodel.cpp:86
+msgid "Root"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:88
+msgid "Trash"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:638
+#, qt-format
+msgid "&Eject '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:640
+#, qt-format
+msgid "&Safely remove '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:642
+#, qt-format
+msgid "&Unmount '%1'"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:700
+#, qt-format
+msgid "An error occurred while accessing '%1', the system said: %2"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:704
+#, qt-format
+msgid "An error occurred while accessing '%1'"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:539
+msgid "Custom Path"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:102
+msgid "Select Folder"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:104 ../kfile/kdirselectdialog.cpp:142
+#: ../kfile/kdiroperator.cpp:1385
+msgid "New Folder..."
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:126
+msgid "Folders"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:148
+msgid "Show Hidden Folders"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:428 ../kfile/kdirselectdialog.cpp:432
+#: ../kfile/kdiroperator.cpp:468 ../kfile/kdiroperator.cpp:476
+msgid "New Folder"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:433 ../kfile/kdiroperator.cpp:477
+#, qt-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:456 ../kfile/kdiroperator.cpp:505
+#, qt-format
+msgid "A file or folder named %1 already exists."
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:460 ../kfile/kdiroperator.cpp:509
+msgid "You do not have permission to create that folder."
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:85
+msgid "Edit Quick Access Entry"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:91
+msgid ""
+"<qt><b>Please provide a description, URL and icon for this Quick Access "
+"entry.</b></br></qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:99
+msgid ""
+"<qt>This is the text that will appear in the Quick Access panel.<p>The "
+"description should consist of one or two words that will help you remember "
+"what this entry refers to.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
+#, qt-format
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/kde/"
+"stable<p>By clicking on the button next to the text edit box you can browse "
+"to an appropriate URL.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:113
+msgid "&URL:"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:120
+msgid ""
+"<qt>This is the icon that will appear in the Quick Access panel.<p>Click on "
+"the button to select a different icon.</qt>"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:122
+msgid "Choose an &icon:"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:140
+#, qt-format
+msgid "&Only show when using this application (%1)"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:142
+#, qt-format
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<p>If this setting is not selected, the entry will "
+"be available in all applications.</qt>"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:531
+msgid "You did not select a file to delete."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:532
+msgid "Nothing to Delete"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:546
+#, qt-format
+msgid ""
+"<qt>Do you really want to delete\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:548
+msgid "Delete File"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:554
+#, qt-format
+msgid "Do you really want to delete this item?"
+msgid_plural "Do you really want to delete these %1 items?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kfile/kdiroperator.cpp:556
+msgid "Delete Files"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:588
+msgid "You did not select a file to trash."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:589
+msgid "Nothing to Trash"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:603
+#, qt-format
+msgid ""
+"<qt>Do you really want to trash\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:605
+msgid "Trash File"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:606 ../kfile/kdiroperator.cpp:614
+msgctxt "to trash"
+msgid "&Trash"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:611
+#, qt-format
+msgid "translators: not called for n == 1"
+msgid_plural "Do you really want to trash these %1 items?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kfile/kdiroperator.cpp:613
+msgid "Trash Files"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:733 ../kfile/kdiroperator.cpp:802
+msgid "The specified folder does not exist or was not readable."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1012 ../kfile/kdiroperator.cpp:1440
+msgid "Short View"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1363
+msgid "Menu"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1367
+msgid "Parent Folder"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1374
+msgid "Home Folder"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1377
+msgid "Reload"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1390
+msgid "Move to Trash"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1396
+msgid "Delete"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1403
+msgid "Sorting"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1406
+msgid "By Name"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1410
+msgid "By Date"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1414
+msgid "By Size"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1418
+msgid "Reverse"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1427
+msgid "Folders First"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1431
+msgid "Case Insensitive"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1436
+msgid "&View"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1450
+msgid "Show Hidden Files"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1454
+msgid "Separate Folders"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1458
+msgid "Show Preview"
+msgstr ""
+
+#: ../kfile/kurltogglebutton.cpp:77
+msgid "Click for Location Navigation"
+msgstr ""
+
+#: ../kfile/kurltogglebutton.cpp:79
+msgid "Click to Edit Location"
+msgstr ""
+
+#: ../kfile/kurlbutton.cpp:86
+msgid "Copy"
+msgstr ""
+
+#: ../kfile/kurlbutton.cpp:90
+msgid "Paste"
+msgstr ""
+
+#: ../kfile/kurlbutton.cpp:97
+msgid "Edit"
+msgstr ""
+
+#: ../kfile/kurlbutton.cpp:100
+msgid "Navigate"
+msgstr ""

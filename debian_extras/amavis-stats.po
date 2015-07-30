@@ -1,0 +1,65 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian_extras/amavias-stats.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-26 12:34+0100\n"
+"PO-Revision-Date: 2006-11-27 12:40+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "All"
+msgstr "ཆ་མཉམ་"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Web server to reconfigure:"
+msgstr "སླར་རིམ་སྒྲིག་འབད་ནི་ལུ་  ཝེབ་སར་བར:"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Amavis-stats supports any web server that php3/php4 does, but this automatic configuration process only supports Apache and Apache-SSL."
+msgstr "པི་ཨེཆ་པི་༣/པི་ཨེཆ་པི་༤གིས་འབད་དོ་བཟུམ་  ཨ་མ་ཝིསི་-སི་ཊེཊིསི་གིས་ཡང་  ཝེབ་སར་བར་ལུ་རྒྱབ་སྐྱོར་འབདཝ་ཨིན་  དེ་འབདཝ་ད་  རང་བཞིན་གྱི་རིམ་སྒྲིག་ལས་སྦྱོར་དེ་གིས་  ཨེ་པ་ཅེ་དང་ཨེ་པ་ཅེ་-ཨེསི་ཨེསི་ཨེལ་ལུ་རྐྱངམ་ཅིག་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Remove RRD files on purge?"
+msgstr "ཕྱིར་བསྐྲད་གུར་ཨར་ཨར་ཌི་ཡིག་སྣོད་ཚུ་རྩ་བསྐྲད་གཏང་ག?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Amavis-stats keeps its database files under /var/cache/amavis-stats. Choose this option if this directory should be removed completely on purge."
+msgstr "ཨ་མ་ཝིསི་-སི་ཊེཊིསི་དེ་གིས་  དེ་ཉིད་གནས་སྡུད་གཞི་རྟེན་ཡིག་སྣོད་ཚུ་  /ཝི་ཨེ་ཨར་/འདྲ་མཛོད་/ཨ་མ་ཝིསི་-སི་ཊེཊིསི་འོག་ལུ་བཞགཔ་ཨིན།  སྣོད་ཐོ་འདི་ཕྱིར་བསྐྲད་གུ་རྩ་བ་ལས་རྩ་བསྐྲད་གཏང་དགོ་པ་ཅིན་  གདམ་ཁ་འདི་གདམ་ཁ་བརྐྱབ།"
+

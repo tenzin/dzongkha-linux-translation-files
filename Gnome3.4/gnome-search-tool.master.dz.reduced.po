@@ -1,0 +1,1068 @@
+# Dzongkha translation of gnome-utils
+# Copyright @ 2006 Free Software Foundation, Inc.
+# Mindu Dorji
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.HEAD.dz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-07 07:08+0000\n"
+"PO-Revision-Date: 2007-05-25 04:59+0530\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-DamnedLies-Scope: partial\n"
+"X-Po-Language: Dzongkha\n"
+"X-Po-Country: BHUTAN\n"
+"X-Po-SourceCharset: utf-8\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr ""
+"གློག་རིག་འདི་གུ་ཡོད་པའི་ ཡིག་ཆ་དང་སྣོད་འཛིན་ཚུ་ མིང་གི་ཐོག་ལས་ ཡང་ན་ ནང་དོན་གྱི་ཐོག་ལས་ ག་ཡོད་"
+"འཚོལ།"
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "ཡིག་སྣོད་ཚུ་ འཚོལ་ཞིབ་འབད།"
+
+#: ../data/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "སྔོན་སྒྲིག་སྒོ་སྒྲིག་གི་མཐོ་ཚད།"
+
+#: ../data/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "སྔོན་སྒྲིག་སྒོ་སྒྲིག་སྦོམ་བཟོ་ཡོདཔ།"
+
+#: ../data/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "སྔོན་སྒྲིག་སྒོ་སྒྲིག་གི་རྒྱ་ཚད།"
+
+#: ../data/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "འཕྲལ་མྱུར་འཚོལ་ཞིབ་ ལྕོགས་མིན་བཟོ།"
+
+#: ../data/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "འཕྲལ་མྱུར་འཚོལ་ཞིབ་ ཞིབ་ལྟ་གཉིས་པ་ ལྕོགས་མིན་བཟོ།"
+
+#: ../data/gnome-search-tool.schemas.in.h:6
+#, fuzzy
+msgid "Look in Folder"
+msgstr "སྣོད་འཛིན་ནང་བལྟ།"
+
+#: ../data/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Excluded Paths"
+msgstr "འཕྲལ་མྱུར་འཚོལ་ཞིབ་ནང་ འགྲུལ་ལམ་ཚུ་ གྲངས་སུ་མེད།།"
+
+#: ../data/gnome-search-tool.schemas.in.h:8
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "འཕྲལ་མྱུར་འཚོལ་ཞིབ་ ཞིབ་ལྟ་གཉིས་པའི་ནང་ འགྲུལ་ལམ་གྲངས་སུ་མེད།"
+
+#: ../data/gnome-search-tool.schemas.in.h:9
+msgid "Search Result Columns Order"
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས་ཀྱི་ཀེར་ཐིག་གོ་རིམ།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:12
+msgid "Select the search option \"Contains the text\""
+msgstr "\"Contains the text\" ཟེར་མི་ གདམ་ཁ་སེལ་འཐུ་འབད"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:15
+msgid "Select the search option \"Date modified less than\""
+msgstr "\"Date modified less than\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:18
+msgid "Select the search option \"Date modified more than\""
+msgstr "\"Date modified less than\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:21
+#, fuzzy
+msgid "Select the search option \"Exclude other filesystems\""
+msgstr "\"Include other filesystems\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:24
+msgid "Select the search option \"File is empty\""
+msgstr "\"File is empty\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:27
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "\"Follow symbolic links\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:30
+msgid "Select the search option \"Name does not contain\""
+msgstr "\"Name does not contain\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:33
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "\"Name matches regular expression\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:36
+msgid "Select the search option \"Owned by group\""
+msgstr "\"Contains the text\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:39
+msgid "Select the search option \"Owned by user\""
+msgstr "\"Owned by user\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:42
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "\"Owner is unrecognized\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:45
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "\"Show hidden files and folders\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:48
+msgid "Select the search option \"Size at least\""
+msgstr "\"Size at least\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:51
+msgid "Select the search option \"Size at most\""
+msgstr "\"Size at most\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད།"
+
+#: ../data/gnome-search-tool.schemas.in.h:52
+msgid "Show Additional Options"
+msgstr "གདམ་ཁ་ཁ་སྐོང་སྟོན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:54
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་གྲུབ་འབྲས་ནང་ ཀེར་ཐིག་གི་གོ་རིམ་ངེས་འཛིན་འབདཝ་ཨིན། ལྡེ་མིག་འདི་ལག་ལེན་པ་"
+"གིས་ ལེགས་བཅོས་འབད་ནི་མི་འོང་།"
+
+#: ../data/gnome-search-tool.schemas.in.h:55
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ཀྱིས་ འཕྲལ་མྱུར་འཚོལ་ཞིབ་ཅིག་གི་གྲས་ལས་བཏོན་ནིའི་ འགྲུལ་ལམ་ངེས་འཛིན་"
+"འབདཝ་ཨིན།ཝའིལ་ཀཌིསི་ '*' དང་' ?' ཚུ་ལུ་རྒྱབ་སྐྱོར་ཡོད། སྔོན་སྒྲིག་ལེ་བུསི་ /mnt/*, /media/*, /"
+"dev/*, /tmp/*, /proc/*, and /var/*ཚུ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ཀྱིས་ འཕྲལ་མྱུར་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ ཟིབ་འཚག་གཉིས་པའི་གྲངས་ལས་"
+"བཏོན་ནིའི་ འགྲུལ་ལམ་ངེས་འཛིན་འབདཝ་ཨིན། ཞིབ་ལྟ་གཉིས་པ་གིས་ ཡིག་སྣོད་འཚོལ་ཞིབ་འབད་ནི་ལུ་ འཚོལ་བའི་"
+"བརྡ་བཀོད་ ལག་ལེན་འཐབ་ཨིན། ཞིབ་ལྟ་གཉིས་པའི་དགོས་དོན་དེ་ ཟུར་སྦྲགས་མེད་པའི་ཡིག་སྣོད་ཚུ་ འཚོལ་ནིའི་དོན་"
+"ལུ་ཨིན། ཝའིལ་ཀཌིསི་ *' དང་ '?' ལུ་རྒྱབ་སྐྱོར་ཡོད། སྔོན་སྒྲིག་ལེ་བུ་དེ་ / ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:57
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་སྒོ་སྒྲིག་གི་མཐོ་ཚད་ངེས་འཛིན་འབདཝ་ཨིནམ་ད་ འདི་ལཱ་ཡུན་ཚུ་གི་བར་ན་ འཚོལ་ཞིབ་ལག་ཆས་ཀྱི་"
+"ཚད་སེམས་ཁར་བཞག་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། -༡ གུ་གཞི་སྒྲིག་འབདཝ་ད་ འཚོལ་ཞིབ་ལག་ཆས་ལུ་ སྔོན་སྒྲིག་མཐོ་"
+"ཚད་དེ་ ལག་ལེན་འཐབ་བཅུགཔ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་སྒོ་སྒྲིག་གི་རྒྱ་ཚད་ངེས་འཛིན་འབདཝ་ཨིནམ་ད་ འདི་ལཱ་ཡུན་ཚུ་གི་བར་ན་ འཚོལ་ཞིབ་ལག་ཆས་ཀྱི་"
+"ཚད་སེམས་ཁར་བཞག་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། -༡ གུ་གཞི་སྒྲིག་འབདཝ་ད་ འཚོལ་ཞིབ་ལག་ཆས་ལུ་ སྔོན་སྒྲིག་རྒྱ་"
+"ཚད་དེ་ ལག་ལེན་འཐབ་བཅུགཔ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:59
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Contains the text\" ཟེར་མི་ འཚོལ་ཞིབ་"
+"གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Date modified less than\" ཟེར་མི་ "
+"འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:61
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Date modified more than\"ཟེར་མི་ "
+"འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:62
+#, fuzzy
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Include other filesystems\"ཟེར་མི་ "
+"འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"File is empty\"  ཟེར་མི་ འཚོལ་ཞིབ་"
+"གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:64
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Follow symbolic links\" ཟེར་མི་ "
+"འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:65
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Name does not contain\" ཟེར་མི་ "
+"འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Name matches regular expression"
+"\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:67
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Owned by group\" ཟེར་མི་ འཚོལ་ཞིབ་"
+"གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:68
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Owned by user\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་"
+"ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:69
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Owner is unrecognized\" ཟེར་མི་ "
+"འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:72
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Show more options\"ཟེར་མི་ དབྱེ་ཚན་"
+"དེ་ རྒྱ་བསྐྱེད་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:73
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Show hidden files and folders\" "
+"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:74
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Size at least\"  ཟེར་མི་ འཚོལ་ཞིབ་"
+"གདམ་ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:75
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་ འགོ་བཙུགས་པའི་སྐབས་ \"Size at most\" ཟེར་མི་ འཚོལ་ཞིབ་གདམ་"
+"ཁ་དེ་ སེལ་འཐུ་འབད་མ་འབད་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:76
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཕྲལ་མྱུར་འཚོལ་ཞིབ་འབད་བའི་ཤུལ་ལུ་ འཚོལ་ཞིབ་ལག་ཆས་ཀྱིས་ འཚོལ་ནིའི་་བརྡ་བཀོད་ལག་ལེན་"
+"དེ་ ལྕོགས་མིན་བཟོ་མི་བཟོ་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:77
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ ཡིག་སྣོད་མིང་ འཇམ་སམ་འཚོལ་ཞིབ་འབད་བའི་སྐབས་ འཚོལ་ཞིབ་ལག་ཆས་ཀྱིས་ ག་ཡོད་བལྟ་ནིའི་"
+"བརྡ་བཀོད་ལག་ལེན་དེ་ ལྕོགས་མིན་བཟོ་མི་བཟོ་ ངེས་འཛིན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-search-tool.schemas.in.h:78
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"ལྡེ་མིག་འདི་གིས་ འཚོལ་ཞིབ་ལག་ཆས་སྒོ་སྒྲིག་དེ་ སྦོམ་གྱི་གནས་ལུགས་ནང་ འགོ་བཙུགས་མི་བཙུགས་ ཐག་བཅདཔ་ཨིན།"
+
+#: ../src/gsearchtool-callbacks.c:194
+msgid "Could not open help document."
+msgstr "གྲོགས་རམ་་ཡིག་ཆ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:341
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] " ཁྱོད་ཀྱིས་ ཡིག་ཆ་ %d ངེས་པར་ཁ་ཕྱེ་ནི་ཨིན་ན?"
+msgstr[1] " ཁྱོད་ཀྱིས་ ཡིག་ཆ་ %d ཚུ་ ངེས་པར་ཁ་ཕྱེ་ནི་ཨིན་ན?"
+
+#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "འདི་གིས་ སྒོ་སྒྲིག་སོ་སོ་ %d ཁ་ཕྱེ་འོང་།"
+msgstr[1] "འདི་གིས་སྒོ་སྒྲིག་སོ་སོ་ %d ཚུ་ ཁ་ཕྱོ་འོང་།"
+
+#: ../src/gsearchtool-callbacks.c:382
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "ཡིག་ཆ་ \"%s\" ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:407
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "སྣོད་འཛིན་ \"%s\" ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:415
+msgid "The nautilus file manager is not running."
+msgstr "ནའུ་ཊི་ལཱསི་ ཡིག་སྣོད་འཛིན་སྐྱོང་པ་དེ་ ལཱ་མ་བཀོལ་བས།"
+
+#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
+msgid "The document does not exist."
+msgstr "ཡིག་ཆ་དེ་མིན་འདུག"
+
+#: ../src/gsearchtool-callbacks.c:503
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "ཡིག་ཆ་དེ་ བཀྲམ་སྟོན་འབད་ཚུགས་པའི་མཐོང་བྱེད་ གཞི་བཙུགས་འབད་འབདཝ་མིན་འདུག"
+
+#: ../src/gsearchtool-callbacks.c:526
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "ཁྱོད་ཀྱིས་སྣོད་འཛིན་ %d ངེས་པར་ཁ་ཕྱེ་ནི་ཨིན་ན?"
+msgstr[1] " ཁྱོད་ཀྱིས་སྣོད་འཛིན་ %d ཚུ་ ངེས་པར་ཁ་ཕྱེ་ནི་ཨིན་ན?"
+
+#: ../src/gsearchtool-callbacks.c:675
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "\"%s\" ཕྱགས་ཧོད་ནང་ སྤོ་བཤུད་འབད་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:702
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "ཁྱོད་ཀྱིས་ \"%s\" རྟག་གཏན་སྦེ་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "ཕྱགས་ཧོད་མི་ཐོབ་བས། \"%s\" ཕྱགས་ཧོད་ནང་ སྤོ་བཤུད་འབད་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:740
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "\"%s\" བཏོན་གཏང་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:847
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "\"%s\"བཏོན་གཏང་མ་ཚུགས། %s.\""
+
+#: ../src/gsearchtool-callbacks.c:859
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "\"%s\"སྤོ་བཤུད་འབད་མ་ཚུགས། %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
+msgid "_Open"
+msgstr "ཁ་ཕྱེ།(_O)"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1042
+#, c-format
+msgid "_Open with %s"
+msgstr ""
+
+#: ../src/gsearchtool-callbacks.c:1077
+#, c-format
+msgid "Open with %s"
+msgstr ""
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1110
+msgid "Open Wit_h"
+msgstr ""
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1155
+#, fuzzy
+msgid "Open Containing _Folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ་(_O)"
+
+#: ../src/gsearchtool-callbacks.c:1173
+msgid "Mo_ve to Trash"
+msgstr "ཕྱགས་ཧོད་ནང་ སྤོ་བཤུད་འབད།(_v)"
+
+#: ../src/gsearchtool-callbacks.c:1195
+msgid "_Save Results As..."
+msgstr "གྲུབ་འབྲས་དེ་སྦེ་སྲུངས།(_S)"
+
+#: ../src/gsearchtool-callbacks.c:1577
+msgid "Save Search Results As..."
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས་ཚུ་ དེ་སྦེ... སྲུངས།"
+
+#: ../src/gsearchtool-callbacks.c:1608
+msgid "Could not save document."
+msgstr "ཡིག་ཆ་སྲུང་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:1609
+msgid "You did not select a document name."
+msgstr "ཁྱོད་ཀྱིས་ཡིག་ཆའི་མིང་ཅིག་ སེལ་འཐུ་མ་འབད་བས།"
+
+#: ../src/gsearchtool-callbacks.c:1635
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "ཡིག་ཆ་ \"%s\" དེ་ \"%s\" ལུ་སྲུང་མ་ཚུགས།"
+
+#: ../src/gsearchtool-callbacks.c:1665
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "ཡིག་ཆ་ \"%s\" ཧེ་མ་ལས་རང་འདུག ཁྱོད་ཀྱིས་དེ་གི་ཚབ་བཙུགས་ནི་ཨིན་ན?"
+
+#: ../src/gsearchtool-callbacks.c:1669
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "ཁྱོད་ཀྱིས་ད་ལྟོ་ཡོད་མི་ ཡིག་སྣོད་ཅིག་གི་ ཚབ་བཙུགས་པ་ཅིན་ དེ་གི་ནང་དོན་ཚུ་ སླར་སྲུང་འབད་འོང་།"
+
+#: ../src/gsearchtool-callbacks.c:1680
+msgid "_Replace"
+msgstr "ཚབ་འཙུགས།(_R)"
+
+#: ../src/gsearchtool-callbacks.c:1730
+msgid "The document name you selected is a folder."
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཡིག་ཆ་དེ་ སྣོད་འཛིན་ཅིག་ཨིན་པས།"
+
+#: ../src/gsearchtool-callbacks.c:1768
+msgid "You may not have write permissions to the document."
+msgstr "ཁྱོད་ལུ་ཡིག་ཆ་དེ་འབྲི་ནིའི་ གནང་བ་མེདཔ་འོང་ནི་མས། "
+
+#: ../src/gsearchtool-support.c:63
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"ཇི་ཀཱོནཕ་འཛོལ་བ་:\n"
+"  %s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:696
+msgid "today at %-I:%M %p"
+msgstr "ད་རིས་ %-I:%M %p ལུ། "
+
+#: ../src/gsearchtool-support.c:698
+msgid "yesterday at %-I:%M %p"
+msgstr "ཁ་རྩང་  %-I:%M %p ལུ།"
+
+#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %B %-d %Y %-I:%M:%S %p ལུ། "
+
+#: ../src/gsearchtool-support.c:889
+msgid "link (broken)"
+msgstr "འབྲེལ་ལམ། (ཆད་པ)"
+
+#: ../src/gsearchtool-support.c:893
+#, c-format
+msgid "link to %s"
+msgstr "%s ལུ་འབྲེལ་ལམ།"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1497
+msgid " (copy)"
+msgstr "(འདྲ་བཤུས)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1499
+msgid " (another copy)"
+msgstr "(འདྲ་བཤུས་གཞན་མི)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
+#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
+msgid "th copy)"
+msgstr " ཀྲི་ཨེཆ འདྲ་བཤུས)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1509
+msgid "st copy)"
+msgstr "ཨེསི་ཀྲི འདྲ་བཤུས)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1511
+msgid "nd copy)"
+msgstr "ཨེན་ཌི འདྲ་བཤུས)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1513
+msgid "rd copy)"
+msgstr "ཨར་ཌི་ འདྲ་བཤུས)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1530
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (འདྲ་བཤུས)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1532
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (འདྲ་གཞན་མི)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
+#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%dth འདྲ་བཤུས)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1542
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%dst འདྲ་བཤུས)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1544
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%dnd འདྲ་བཤུས)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1546
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%drd འདྲ་བཤུས)%s"
+
+#: ../src/gsearchtool-support.c:1593
+msgid " (invalid Unicode)"
+msgstr "(ནུས་མེད་ཡུ་ནི་ཀོཌི)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1682
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1690
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../src/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "ནང་ན་ཚིག་ཡིག་ཡོད།(_t)"
+
+#: ../src/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "ཚེས་གྲངས་དེ་ལས་ཉུངམ་སྦེ་ བསྒྱུར་བཅོས་འབད་ཡོད།(_D)"
+
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+msgid "days"
+msgstr "ཉིནམ།"
+
+#: ../src/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "ཚེས་གྲངས་མངམ་སྦེ་ བསྒྱུར་བཅོས་འབད་ཡོདཔ།"
+
+#: ../src/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "ཚད་དམའ་ཤོས་ལུ།(_i)"
+
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "ཀི་ལོ་བ་ཡིཊིསི།"
+
+#: ../src/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "ཚད་མཐོ་ཤོས་ལུ།(_z)"
+
+#: ../src/gsearchtool.c:88
+msgid "File is empty"
+msgstr "ཡིག་སྣོད་སྟོངམ་ཨིན་པས།"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "ལག་ལེན་པ་གིས་དབང་ཡོདཔ།(_u)"
+
+#: ../src/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "སྡེ་ཚན་གྱིས་དབང་ཡོད།(_g)"
+
+#: ../src/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "ཇོ་བདག་ངོས་འཛིན་མེདཔ།"
+
+#: ../src/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "མིང་གི་ནང་ན་མེདཔ།(_m)"
+
+#: ../src/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "མིང་གིས་དུས་རྒྱུན་བརྗོད་ཚུལ་ མཐུན་སྒྲིག་འབདཝ་ཨིན།(_x)"
+
+#: ../src/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "སྦ་སྟེ་ཡོད་པའི་ཡིག་སྣོད་དང་ རྒྱབ་ཐག་ཡིག་སྣོད་ཚུ་སྟོན།"
+
+#: ../src/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "བརྡ་མཚོན་འབྲེལ་ལམ་ཚུ་གི་རྗེས་སུ་འབྲང་།"
+
+#: ../src/gsearchtool.c:99
+#, fuzzy
+msgid "Exclude other filesystems"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་གཞན་ གྲངས་སུ་བཙུགས།"
+
+#: ../src/gsearchtool.c:157
+#, fuzzy
+msgid "Show version of the application"
+msgstr "གློག་རིམ་རིརྩ་སྒྲིག་འབད།"
+
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+msgid "STRING"
+msgstr ""
+
+#: ../src/gsearchtool.c:159
+msgid "PATH"
+msgstr ""
+
+#: ../src/gsearchtool.c:160
+msgid "VALUE"
+msgstr ""
+
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+msgid "DAYS"
+msgstr ""
+
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr ""
+
+#: ../src/gsearchtool.c:169
+msgid "USER"
+msgstr ""
+
+#: ../src/gsearchtool.c:170
+msgid "GROUP"
+msgstr ""
+
+#: ../src/gsearchtool.c:173
+msgid "PATTERN"
+msgstr ""
+
+#: ../src/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "ག་ཡོད་བལྟ་ནིའི་ གནད་སྡུད་གཞི་རྟེན་ཅིག་ གསར་བསྐྲུན་མ་འབདཝ་འོང་ནི་མས།"
+
+#: ../src/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "\"%s\" གི་དོན་ལུ་ ཡིག་འབྲུ་ཆ་ཚན་གཞི་བསྒྱུར་མ་བཏུབ།"
+
+#: ../src/gsearchtool.c:506
+msgid "Searching..."
+msgstr "འཚོལ་ཞིབ་འབད་དོ།"
+
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
+#: ../src/gsearchtool.c:2976
+msgid "Search for Files"
+msgstr "ཡིག་སྣོད་ཀྱི་དོན་ལུ་ འཚོལ་ཞིབ་འབད།"
+
+#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+msgid "No files found"
+msgstr "ཡིག་སྣོད་ག་ནི་ཡང་མ་ཐོབ།"
+
+#: ../src/gsearchtool.c:984
+msgid "(stopped)"
+msgstr "བཀག་ཡོདཔ།"
+
+#: ../src/gsearchtool.c:990
+msgid "No Files Found"
+msgstr "ཡིག་སྣོད་ག་ནི་ཡང་མ་ཐོབ།"
+
+#: ../src/gsearchtool.c:995
+#, fuzzy, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "ཡིག་སྣོད་ %d ཐོབ་ཅི།"
+msgstr[1] " ཡིག་སྣོད་ %d ཚུ་ཐོབ་ཅི།"
+
+#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#, fuzzy, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "ཡིག་སྣོད་ %d ཐོབ་ཅི།"
+msgstr[1] " ཡིག་སྣོད་ %d ཚུ་ཐོབ་ཅི།\""
+
+#: ../src/gsearchtool.c:1128
+msgid "Entry changed called for a non entry option!"
+msgstr "ཐོ་བཀོད་བསྒྱུར་བཅོས་འབད་ཡོད་མི་གིས་ ཐོ་བཀོད་མིན་པའི་གདམ་ཁ་ཅིག་གི་ ཞུ་བ་འབད་ཡི།"
+
+#: ../src/gsearchtool.c:1288
+msgid "Set the text of \"Name contains\" search option"
+msgstr "\"Name contains\"ཟེར་མི་ འཚོལ་ཞིབ་གདམ་ཁའི་ ཚིག་ཡིག་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gsearchtool.c:1289
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "\"Look in folder\" འཚོལ་ཞིབ་གདམ་ཁའི་ ཚིག་ཡིག་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gsearchtool.c:1290
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"འོག་གི་གཅིག་གི་ཐོག་ལས་ ཡིག་སྣོད་ཚུ་དབྱེ་སེལ་འབད: མིང་, སྣོད་འཛིན་, ཚད་, དབྱེ་བ་, ཡང་ན་ ཚེས་གྲངས།"
+
+#: ../src/gsearchtool.c:1291
+msgid "Set sort order to descending, the default is ascending"
+msgstr "དབྱེ་སེལ་གོ་རིམ་ མར་འབབ་ལུ་ གཞི་སྒྲིག་འབད། སྔོན་སྒྲིག་དེ་ ཡར་འཛེགས་ཨིན།"
+
+#: ../src/gsearchtool.c:1292
+msgid "Automatically start a search"
+msgstr "རང་བཞིན་གྱིས་ འཚོལ་ཞིབ་ཅིག་ འགོ་བཙུགས།"
+
+#: ../src/gsearchtool.c:1298
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་ \"%s\" དེ་ སེལ་འཐུ་འབད།"
+
+#: ../src/gsearchtool.c:1301
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་ \"%s\" དེ་ སེལ་འཐུ་འབད་དེ་ གཞི་སྒྲིག་འབད།"
+
+#: ../src/gsearchtool.c:1408
+msgid "Invalid option passed to sortby command line argument."
+msgstr "དབྱེ་སེལ་གྱི་བཀོད་ལམ་ སྒྲུབ་རྟགས་ལུ་ ནུས་མེད་གདམ་ཁ་ཅིག་སྤྲོད་ནུག"
+
+#: ../src/gsearchtool.c:1702
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"...བཀྲམ་སྟོན་འབད་ནིའི་འཛོལ་བ་ ལེ་ཤ་འདུག"
+
+#: ../src/gsearchtool.c:1716
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"འཚོལ་ཞིབ་གྲུབ་འབྲས་དེ་ཚུ་ ནུས་མེད་འོང་ནི་མས། འཚོལ་ཞིབ་འདི་ ལག་ལེན་འཐབ་པའི་སྐབས་ འཛོལ་བ་ཚུ་འདུག"
+
+#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+msgid "Show more _details"
+msgstr "རྒྱས་བཤད་ཧེང་བཀལ་སྟོན།(_d)"
+
+#: ../src/gsearchtool.c:1755
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"འཚོལ་ཞིབ་གྲུབ་འབྲས་དེ་ཚུ་ ཚེས་གྲགས་ཡོལ་བའམ་ ནུས་མེད་འོང་ནི་མས། ཁྱོད་ཀྱི་འཕྲལ་མྱུར་ འཚོལ་ཞིབ་ཁྱད་རྣམ་"
+"དེ་ ལྕོགས་མིན་བཟོ་ནི་ཨིན་ན?"
+
+#: ../src/gsearchtool.c:1777
+msgid "Disable _Quick Search"
+msgstr "འཕྲལ་མྱུར་ཞིབ་འཚོལ་ ལྕོགས་མིན་བཟོ།(_Q)"
+
+#: ../src/gsearchtool.c:1804
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "ཆ་ལག་་ %d: %s གི་ ལས་སྦྱོར་སྡེ་ཚན་ཨའི་ཌི་གཞི་སྒྲིག་འབད་མ་ཚུགས། \n"
+
+#: ../src/gsearchtool.c:1829
+msgid "Error parsing the search command."
+msgstr "འཚོལ་ཞིབ་བརྡ་བཀོད་ མིང་དཔྱད་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/gsearchtool.c:1858
+msgid "Error running the search command."
+msgstr "འཚོལ་ཞིབ་བརྡ་བཀོད་ གཡོག་བཀོལ་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/gsearchtool.c:1974
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་ \"%s\" གི་དོན་ལུ་ ཚིག་ཡིག་གི་ བེ་ལུ་ཅིག་བཙུགས།"
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1979
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\" ། %s ནང་།\""
+
+#: ../src/gsearchtool.c:1981
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "བེ་ལུ་ཅིག་བཙུགས་ %s ནང་། འཚོལ་ཞིབ་གདམ་ཁ་ \"%s\" གི་དོན་ལུ།"
+
+#: ../src/gsearchtool.c:2039
+#, c-format
+msgid "Remove \"%s\""
+msgstr "\"%s\" རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/gsearchtool.c:2040
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་ \"%s\" དེ་ རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2133
+msgid "A_vailable options:"
+msgstr "ཡོད་པའི་གདམ་ཁ་ཚུ་:(_v)"
+
+#: ../src/gsearchtool.c:2162
+msgid "Available options"
+msgstr "\"འཐོབ་ཚུགས་པའི་གདམ་ཁ་ཚུ་།"
+
+#: ../src/gsearchtool.c:2163
+msgid "Select a search option from the drop-down list."
+msgstr "གདམ་ཐོའི་ཐོ་ཡིག་ནང་ལས་ འཚོལ་ཞིབ་གདམ་ཁ་ཅིག་ སེལ་འཐུ་འབད།"
+
+#: ../src/gsearchtool.c:2175
+msgid "Add search option"
+msgstr "འཚོལ་ཞིབ་གདམ་ཁ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/gsearchtool.c:2176
+msgid "Click to add the selected available search option."
+msgstr "སེལ་འཐུ་འབད་མི་ འཐོབ་ཚུགས་པའི་ འཚོལ་ཞིབ་གདམ་ཁ་དེ་ ཁ་སྐོང་བརྐྱབ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2265
+msgid "S_earch results:"
+msgstr "གྲུབ་འབྲས་འཚོལ་ཞིབ་འབད།(_e)"
+
+#: ../src/gsearchtool.c:2309
+msgid "List View"
+msgstr "ཐོ་ཡིག་མཐོང་སྣང་།"
+
+#: ../src/gsearchtool.c:2369
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/gsearchtool.c:2393
+msgid "Folder"
+msgstr "སྣོད་འཛིན།"
+
+#: ../src/gsearchtool.c:2406
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../src/gsearchtool.c:2418
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: ../src/gsearchtool.c:2430
+msgid "Date Modified"
+msgstr "ཚེས་གྲངས་བསྒྱུར་འབད་ཡོདཔ།"
+
+#: ../src/gsearchtool.c:2746
+msgid "_Name contains:"
+msgstr "མིང་ནང་ཡོདཔ་:(_N)"
+
+#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr "ཡིག་སྣོད་མིང་ཅིག་ ཡང་ཅིན་ མིང་གི་ཆ་ཤས་ཅིག་ ཝ་ཡིལཌི་ཀཌི་ ཡོད་པའམ་མེད་པའི་ཐོག་ལས་བཙུགས།"
+
+#: ../src/gsearchtool.c:2761
+msgid "Name contains"
+msgstr "མིང་ནང་ཡོད་པ།"
+
+#: ../src/gsearchtool.c:2767
+msgid "_Look in folder:"
+msgstr "སྣོད་འཛིན་ནང་བལྟ་:།(_L)"
+
+#: ../src/gsearchtool.c:2773
+msgid "Browse"
+msgstr "བརྡ་འཚོལ།"
+
+#: ../src/gsearchtool.c:2782
+msgid "Look in folder"
+msgstr "སྣོད་འཛིན་ནང་བལྟ།"
+
+#: ../src/gsearchtool.c:2782
+msgid "Select the folder or device from which you want to begin the search."
+msgstr ""
+"ཁྱོད་ཀྱིས་འཚོལ་ཞིབ་ ག་ཏེ་ལས་འགོ་བཙུག་ནི་ཨིན་ན་ སྣོད་འཛིན་ ཡང་ན་ ཐབས་འཕྲུལ་དེ་ སེལ་འཐུ་འབད།"
+
+#: ../src/gsearchtool.c:2800
+msgid "Select more _options"
+msgstr "གདམ་ཁ་ཧེང་བཀལ་སེལ་འཐུ་འབད།(_o)"
+
+#: ../src/gsearchtool.c:2809
+msgid "Select more options"
+msgstr "གདམ་ཁ་ཧེང་བཀལ་ སེལ་འཐུ་འབད།"
+
+#: ../src/gsearchtool.c:2809
+msgid "Click to expand or collapse the list of available options."
+msgstr "འཐོབ་ཚུགས་པའི་གདམ་ཁ་ཚུ་གི་ཐོ་ཡིག་ རྒྱ་བསྐྱེད་འབད་ནིའམ་ ཧྲམ་གཏང་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2833
+msgid "Click to display the help manual."
+msgstr "གྲོགས་རམ་ལག་དེབ་ བཀྲམ་སྟོན་འབད་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2841
+msgid "Click to close \"Search for Files\"."
+msgstr "\"Search for Files\" ཁ་བསྡམ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2867
+msgid "Click to perform a search."
+msgstr "འཚོལ་ཞིབ་ཅིག་ ལག་ལེན་འཐབ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2868
+msgid "Click to stop a search."
+msgstr "འཚོལ་ཞིབ་ཅིག་ བཀག་ཆ་འབད་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/gsearchtool.c:2961
+msgid "- the GNOME Search Tool"
+msgstr ""
+
+#: ../src/gsearchtool.c:2970
+#, fuzzy, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "དབྱེ་སེལ་གྱི་བཀོད་ལམ་ སྒྲུབ་རྟགས་ལུ་ ནུས་མེད་གདམ་ཁ་ཅིག་སྤྲོད་ནུག"
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, fuzzy, c-format
+msgid "File is not a valid .desktop file"
+msgstr "%s དེ་ ནུས་ཅན་སྣོད་འཛིན་ཅིག་མིན་པས་"
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:252
+#, fuzzy
+msgid "Session management options:"
+msgstr "གསལ་གཞིའི་པར་གྱི་གདམ་ཁ་ཚུ་སྟོན།"
+
+#: ../libeggsmclient/eggsmclient.c:253
+#, fuzzy
+msgid "Show session management options"
+msgstr "གསལ་གཞིའི་པར་གྱི་གདམ་ཁ་ཚུ་སྟོན།"

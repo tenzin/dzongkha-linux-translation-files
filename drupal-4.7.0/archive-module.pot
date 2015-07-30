@@ -1,0 +1,120 @@
+# LANGUAGE translation of Drupal (modules/archive.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: archive.module,v 1.87 2006/03/07 11:36:49 dries
+# yangka <yanang_ka@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: module\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-28 23:44+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/archive.module:15
+msgid "The archive page allows content to be viewed by date.  It also provides a monthly calendar view that users can use to navigate through content."
+msgstr "ཡིག་མཛོད་ཤོག་ལེབ་དེ་ཚེས་གིས་འབད་ནང་དོན་སྔོན་ལྟ་འབད་བཅུགཔ་ཨིན། དེ་གིས་ལག་ལེན་པ་ཚུ་གིས་ནང་དོན་བརྒྱུད་འགྲུལ་བསྐྱོད་ལག་ལེན་འཐབ་ནི་ལུ་ཟླ་རིམ་སྔོན་ལྟ་ཟླ་ཐོ་ཅིག་ཡང་བྱིནམ་ཨིན།"
+
+#: modules/archive.module:16
+msgid "To view the archive by date, select the date in the calendar.  Administrators can enable the <em>browse archives</em> block in block administration to allow users to browse by calendar.  Clicking on a date in the monthly calendar view shows the content for that date.  Users can navigate to different months using arrows beside the month's name in the calendar display.   The current date will be highlighted in the calendar."
+msgstr "ཡིག་མཛོད་དེ་ཚེས་ཀྱིས་འབད་སྔོན་ལྟ་ལུ་ཟླ་ཐོ་དེ་ནང་ཚེས་དེ་སེལ་འཐུ་འབད། བདག་སྐྱོང་པ་ཚུ་གིས་ལག་ལེན་པ་ཚུ་ལུ་ཟླ་ཐོ་གིས་འབད་བརྡ་འཚོལ་བཅུག་ནི་ལུ་བདག་སྐྱོང་པ་སྡེབ་ཚན་ནང་འགག་ནི་<em>ཡིག་མཛོད་ཚུ་བརྡ་འཚོལ་</em>དེ་ལྕོགས་ཅན་བཟོ་བཏུབ། ཟླ་རིམ་ཟླ་ཐོ་སྔོན་ལྟ་དེ་ནང་གི་ཚེས་གུ་ཨེབ་གཏང་འབདཝ་ད་ཚེས་དེའི་དོན་ལུ་ནང་དོན་དེ་སྟོནམ་ཨིན། ལག་ལེན་པ་ཚུ་གིས་བཀྲམ་བཏོན་འབད་མི་ཟླ་རིམ་ཟླ་ཐོ་མིང་དེ་ནང་བརྡ་རྟགས་ཚུ་ལག་ལེན་འཐབ་དེ་སོ་སོ་ཟླཝ་ཚུ་ལུ་འགྲུལ་བསྐྱོད་འབད་བཏུབ། ད་ལྟོའི་ཚེས་དེ་ཟླ་ཐོ་དེ་ནང་གཙོ་དམིགས་འབད་འོང་།"
+
+#: modules/archive.module:17
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view your <a href=\"%archive\">archive by day</a>.</li>\n"
+"<li>enable the <em>browse archives</em> block at <a href=\"%admin-block\">administer &gt;&gt; block</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་</p>\n"
+"<ul>\n"
+"<li>ཁྱོད་རའི་ <a href=\"%archive\">ཡིག་མཛོད་དེ་ཉིནམ་གྱིས་འབད་སྔོན་ལྟ་འབད་བཏུབ།</a>.</li>\n"
+"<li>ཡིག་མཛོད་བརྡ་འཚོལ་ཚུ་ <em>ལྕོགས་ཅན་བཟོ་དེ་</em> སྡེབ་ཚན་ལུ་<a href=\"%admin-block\">བདག་སྐྱོང་པ་ལུ་ལྕོགས་ཅན་བཟོ།་ &gt;&gt; block</a>.</li>\n"
+"</ul>\n"
+
+#: modules/archive.module:23
+msgid "For more information please read the configuration and customization handbook <a href=\"%archive\">Archive page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་དོན་ལུ་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་ལག་དེབ་<a href=\"%archive\">ཡིག་མཛོད་ཤོག་ལེབ་</a>དེ་ལྷག་གནང་།"
+
+#: modules/archive.module:26
+msgid "Displays a calendar for navigating older content."
+msgstr "ནང་དོན་རྒས་མི་འགྲུལ་བསྐྱོད་འབད་ནིའི་དོན་ལུ་ཟླ་ཐོ་ཅིག་བཀྲམ་བཏོན་འབདཝ་ཨིན།"
+
+#: modules/archive.module:38
+msgid "archives"
+msgstr "ཡིག་མཛོད་ཚུ།"
+
+#: modules/archive.module:54
+msgid "Calendar to browse archives"
+msgstr "ཡིག་མཛོད་ཚུ་བརྡ་འཚོལ་ལུ་ཟླ་ཐོ།"
+
+#: modules/archive.module:58
+msgid "Browse archives"
+msgstr "ཡིག་མཛོད་ཚུ་བརྡ་འཚོལ།"
+
+#: modules/archive.module:130
+msgid "A calendar to browse the archives"
+msgstr "ཟླ་ཐོ་ཅིག་ཡིག་མཛོད་དེ་ཚུ་བརྡ་འཚོལ་ལུ།"
+
+#: modules/archive.module:131
+msgid "Previous month"
+msgstr "ཧེ་མམ་གྱི་ཟླཝ།"
+
+#: modules/archive.module:131
+msgid "Next month"
+msgstr "ཤུལ་མམ་གྱི་ཟླཝ།"
+
+#: modules/archive.module:143
+msgid "Su"
+msgstr "ཟླ།"
+
+#: modules/archive.module:143
+msgid "Mo"
+msgstr "མིག"
+
+#: modules/archive.module:143
+msgid "Tu"
+msgstr "ལྷག"
+
+#: modules/archive.module:143
+msgid "We"
+msgstr "ཕུར།"
+
+#: modules/archive.module:143
+msgid "Th"
+msgstr "པ།"
+
+#: modules/archive.module:143
+msgid "Fr"
+msgstr "སྤེན།"
+
+#: modules/archive.module:143
+msgid "Sa"
+msgstr "ཉི།"
+
+#: modules/archive.module:240;244
+msgid "No posts found."
+msgstr "གནས་བསྐྱོད་ཚུ་འཚོལ་མ་ཐོབ།"
+
+#: modules/archive.module:272
+msgid "Show"
+msgstr "སྟོན།"
+
+#: modules/archive.module:173
+msgid "1 post"
+msgid_plural "%count posts"
+msgstr[0] "གནས་བསྐྱོད་གཅིག"
+msgstr[1] "%གྱངས་ཁ་གནས་བསྐྱོད་ཚུ།"
+
+#: modules/archive.module:0
+msgid "archive"
+msgstr "ཡིག་མཛོད།"
+

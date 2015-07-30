@@ -1,0 +1,1154 @@
+# LANGUAGE translation of Drupal (modules/user.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: user.module,v 1.612.2.10 2006/05/23 09:39:47 killes
+# Kinley Tshering <gasepkuenden2k3@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: user-module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-27 04:12+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/user.module:233
+msgid "You must enter a username."
+msgstr "ཁྱོད་ཀྱི་ལག་ལེན་པའི་  མིང་ཅིག་ ཐོ་བཀོད་དགོ"
+
+#: modules/user.module:234
+msgid "The username cannot begin with a space."
+msgstr "ལག་ལེན་པའི་མིང་དེ་  བར་སྟོང་དང་གཅིག་ཁར་  འགོ་བཙུགས་མི་བཏུབ།"
+
+#: modules/user.module:235
+msgid "The username cannot end with a space."
+msgstr "ལག་ལེན་པའི་མིང་དེ་  བར་སྟོང་དང་གཅིག་ཁར་ མཇུག་བསྡུ་མི་བཏུབ།"
+
+#: modules/user.module:236
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "ལག་ལེན་པའི་མིང་དེ་  གྱལ་ནང་ལུ་  སྣ་མང་བར་སྟོང་  ཤོངམ་འབད་མེད།"
+
+#: modules/user.module:237;248
+msgid "The username contains an illegal character."
+msgstr "ལག་ལེན་པའི་མིང་འདི་ནང་ལུ་  ཁྲིམས་འགལ་གྱི་ ཡིག་འབྲུ་ཅིག་འདུག"
+
+#: modules/user.module:250
+msgid "The username is not a valid authentication ID."
+msgstr "ལག་ལེན་པའི་མིང་དེ་  ནུས་ཅན་ བདེན་བཤད་ཀྱི་ ཨའི་ཌི་ཅིག་མེན་པས།"
+
+#: modules/user.module:251
+msgid "The username %name is too long: it must be less than 56 characters."
+msgstr "ལག་ལེན་པའི་མིང་  %name དེ་  གནམ་མེད་ས་མེད་རིངམོ་འདུག:  འདི་ཡིག་འབྲུ་ ༥༦་ ལས་ཉུངམ་འོང་ནི་མས།"
+
+#: modules/user.module:255
+msgid "You must enter an e-mail address."
+msgstr "ཁྱོད་ཀྱི་གློག་འཕྲིན་གྱི་  ཁ་བྱང་  ཐོ་བཀོད་འབད་དགོ"
+
+#: modules/user.module:257
+msgid "The e-mail address %mail is not valid."
+msgstr "གློག་འཕྲིན་ཁ་བྱང་  %mail་དེ་  ནུས་ཅན་མེན་པས།"
+
+#: modules/user.module:272
+msgid "The uploaded file was not an image."
+msgstr "སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་  ཡིག་སྣོད་དེ་  གཟུགས་བརྙན་མེན་པས།"
+
+#: modules/user.module:278
+msgid "The uploaded image is too large; the maximum file size is %size kB."
+msgstr "སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་  གཟུགས་བརྙན་དེ་  ཧ་ཅང་གིས་སྦོམ་འདུག   མང་མཐའ་ཡིག་སྣོད་ཀྱི་ཚད་འདི་  %size ་ཀྱི་ཀེ་བི་ཨིན།"
+
+#: modules/user.module:281
+msgid "The uploaded image is too large; the maximum dimensions are %dimensions pixels."
+msgstr "སྐྱེལ་བཙུགས་འབད་ཡོད་པའི་  གཟུགས་བརྙན་དེ་  ཧ་ཅང་གིས་སྦོམ་འདུག་  མང་མཐའི་རྒྱ་འཁོན་འདི་  %dimensions གི་  པིག་སེལ་ཚུ་ཨིན། "
+
+#: modules/user.module:289
+msgid "Failed to upload the picture image; the %directory directory doesn't exist."
+msgstr "པར་གྱི་གཟུགས་བརྙན་དེ་  སྐྱེལ་བཙུགས་འབད་ནི་ལུ་  འཐུས་ཤོར་བྱུང་ཡོད་   %directory  སྣོད་ཐོ་དེ་མིན་འདུག"
+
+#: modules/user.module:478;742;749
+msgid "users"
+msgstr "ལག་ལེན་པ་ཚུ།"
+
+#: modules/user.module:499;1960
+msgid "Member for"
+msgstr "གྱི་དོན་ལུ་འཐུས་མི།"
+
+#: modules/user.module:519
+msgid "account settings"
+msgstr "རྩིས་ཐོའི་ སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/user.module:530;578
+msgid "User login"
+msgstr "ལག་ལེན་པ་ ནང་བསྐྱོད།"
+
+#: modules/user.module:532;599
+msgid "Who's new"
+msgstr "ག་གསརཔ་འདུག"
+
+#: modules/user.module:533;634
+msgid "Who's online"
+msgstr "ག་གློག་ལམ་ཐོག་ལུ་འདུག"
+
+#: modules/user.module:539
+msgid "User activity"
+msgstr "ལག་ལེན་པའི་ལཱ།"
+
+#: modules/user.module:539
+msgid "A user is considered online for this long after they have last viewed a page."
+msgstr "མཐའ་མཇུག་  ཤོག་ལེབ་ཅིག་བལྟ་ཞིནམ་ལས་  རྐྱངམ་ཅིག་  ལག་ལེན་པ་དེ་  འདི་ཚོན་ཚོད་གློག་ལམ་ཐོག་ལུ་  ཨིནམ་སྦེ་ཆ་འཇོག་འབདཝ་ཨིན།"
+
+#: modules/user.module:540
+msgid "User list length"
+msgstr "ལག་ལེན་པའི་  ཐོ་ཡིག་གི་རིང་ཚད།"
+
+#: modules/user.module:540
+msgid "Maximum number of currently online users to display."
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ལུ་  ད་ལྟོ་གློག་ཐོག་ལུ་ཡོད་པའི་  ལག་ལེན་པ་གི་ མང་མཐའི་གྲངས།"
+
+#: modules/user.module:558;904;1041;1189;1309;1533;1680;1958
+msgid "Username"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#: modules/user.module:564;917;1203;1324
+msgid "Password"
+msgstr "ཆོག་ཡིག"
+
+#: modules/user.module:569;922;1142
+msgid "Log in"
+msgstr "ནང་བསྐྱོད།"
+
+#: modules/user.module:573;1225;2029
+msgid "Create new account"
+msgstr "རྩིས་ཐོ་ གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: modules/user.module:573
+msgid "Create a new user account."
+msgstr "ལག་ལེན་པའི་  རྩིས་ཐོ་གསརཔ་ཅིག་  གསར་བསྐྲུན་འབད།"
+
+#: modules/user.module:575
+msgid "Request new password"
+msgstr "ཆོག་ཡིག་གསརཔ་ཅིག་  ཞུ་བ་འབད།"
+
+#: modules/user.module:575
+msgid "Request new password via e-mail."
+msgstr "གློག་འཕྲིན་ལས་  བརྒྱུད་དེ་  ཆོག་ཡིག་གསརཔ་ཅིག་  ཞུ་བ་འབད།"
+
+#: modules/user.module:616
+msgid "There is currently %members and %visitors online."
+msgstr "ད་ལྟོ་གློག་ལམ་ཐོག་ལུ་%membersདང་  %visitorsའདི་ཚུ་འདུག"
+
+#: modules/user.module:619
+msgid "There are currently %members and %visitors online."
+msgstr "ད་ལྟོ་གློག་ལམ་ཐོག་ལུ་  %members་དང་  %visitorsའདི་ཚུ་འདུག"
+
+#: modules/user.module:631
+msgid "Online users"
+msgstr "གློག་ལམ་ཐོག་ལུ་  ལག་ལེན་པ་འདི་ཚུ།"
+
+#: modules/user.module:652
+msgid "%user's picture"
+msgstr "%user's་གི་ པར།"
+
+#: modules/user.module:723
+msgid "user account"
+msgstr "ལག་ལེན་པའི་ རྩིས་ཐོ།"
+
+#: modules/user.module:726
+msgid "user autocomplete"
+msgstr "ལག་ལེན་པའི་  རང་བཞིན་ཡོངས་སྒྲུབ།"
+
+#: modules/user.module:730
+msgid "log in"
+msgstr "ནང་བསྐྱོད།"
+
+#: modules/user.module:732
+msgid "register"
+msgstr "ཐོ་འགོད།"
+
+#: modules/user.module:734
+msgid "request new password"
+msgstr "ཆོག་ཡིག་གསརཔ་ཅིག་  ཞུ་བ་འབད།"
+
+#: modules/user.module:736
+msgid "reset password"
+msgstr "ཆོག་ཡིག་སླར་སྒྲིག་འབད།"
+
+#: modules/user.module:746
+msgid "add user"
+msgstr "ལག་ལེན་པ་ ཁ་སྐོང་རྐྱབ།"
+
+#: modules/user.module:753
+msgid "access control"
+msgstr "ཚད་འཛིན་འཛུལ་སྤྱོད་འབད་ནི།"
+
+#: modules/user.module:755
+msgid "permissions"
+msgstr "གནང་བ་ཚུ།"
+
+#: modules/user.module:758
+msgid "roles"
+msgstr "ལས་འགན་ཚུ།"
+
+#: modules/user.module:761
+msgid "edit role"
+msgstr "ལས་འགན་ཞུན་དག་འབད།"
+
+#: modules/user.module:764
+msgid "access rules"
+msgstr "ལམ་ལུགས་ འཛུལ་སྤྱོད་འབད།"
+
+#: modules/user.module:769
+msgid "add rule"
+msgstr "ལམ་ལུགས་  ཁ་སྐོང་རྐྱབ།"
+
+#: modules/user.module:772
+msgid "check rules"
+msgstr "ལམ་ལུགས་ཚུ་ ཞིབ་དཔྱད་འབད།"
+
+#: modules/user.module:775
+msgid "edit rule"
+msgstr "ལམ་ལུགས་ ཞུན་དག་འབད།"
+
+#: modules/user.module:778
+msgid "delete rule"
+msgstr "ལམ་ལུགས་ བཏོན་གཏང་།"
+
+#: modules/user.module:790
+msgid "my account"
+msgstr "ངེའི་ རྩིས་ཐོ།"
+
+#: modules/user.module:795
+msgid "log out"
+msgstr "ཕྱིར་བསྐྱོད།"
+
+#: modules/user.module:810;941;958;991;1008;1025;1087;1091;1128;1251;1466;0
+msgid "user"
+msgstr "ལག་ལེན་པ།"
+
+#: modules/user.module:911
+msgid "Enter your %s username, or an ID from one of our affiliates: %a."
+msgstr "ཁྱོད་རའི་ %s ལག་ལེན་པའི་མིང་ཐོ་བཀོད་འབད་  ཡང་ན་ ང་བཅས་རའི་ ཁོངས་སུ་གཏོགས་པའི་  ཨའི་ཌི་གཅིག་ ནང་ལས་ ཐོ་བཀོད་འབད། :%a"
+
+#: modules/user.module:914
+msgid "Enter your %s username."
+msgstr "ཁྱོད་རའི་ %s ལག་ལེན་པའི་མིང་  ཐོ་བཀོད་འབད།"
+
+#: modules/user.module:918
+msgid "Enter the password that accompanies your username."
+msgstr "ཁྱོད་རའི་ལག་ལེན་པའི་མིང་ལུ་  ཆ་རོག་འབད་མི་  ཆོག་ཡིག་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: modules/user.module:930
+msgid "The username %name has not been activated or is blocked."
+msgstr "ལག་ལེན་པའི་མིང་  %name་དེ་  ཤུགས་ལྡན་  ཡང་ན་  འགག་མ་བཞག་པས།"
+
+#: modules/user.module:934
+msgid "The name %name is a reserved username."
+msgstr "མིང་ %name་འདི་  ཟུར་གསོག་འབད་ཡོད་པའི་  ལག་ལེན་པའི་མིང་ཅིག་ཨིན།"
+
+#: modules/user.module:940
+msgid "Sorry. Unrecognized username or password."
+msgstr "དགོངམ་མ་ཁྲེལ་  ངོ་མ་ཤེས་པའི་ ལག་ལེན་པའི་མིང་དང་ ཅོག་ཡིག་ཨིན་པས།"
+
+#: modules/user.module:940
+msgid "Have you forgotten your password?"
+msgstr "ཁྱོད་ཀྱི་  ཁྱོད་རའི་ ཆོག་ཡིག་དེ་  བརྗེད་སོང་ནུག་ཡ་ ?"
+
+#: modules/user.module:941
+msgid "Login attempt failed for %user."
+msgstr "%user་གི་དོན་ལུ་  ནང་བསྐྱོད་འབད་ནིའི་  དཔའ་བཆམ་མི་དེ་  འཐུས་ཤོར་བྱུང་ནུག"
+
+#: modules/user.module:953
+msgid "Session opened for %name."
+msgstr " %name་གི་དོན་ལུ་  ལཱ་ཡུན་ཅིག་ཁ་ཕྱེ་ནུག"
+
+#: modules/user.module:991
+msgid "External load by %user using module %module."
+msgstr "ཚད་གཞི་ %moduleདེ་  ལག་ལེན་འཐབ་ཐོག་ལས་  %user  ཕྱི་ཁའི་འགན་ལྗིད།"
+
+#: modules/user.module:994
+msgid "Invalid password for %s."
+msgstr "%s གི་དོན་ལུ་  ནུས་མེད་ཀྱི་  ཆོག་ཡིག"
+
+#: modules/user.module:1008
+msgid "New external user: %user using module %module."
+msgstr "ཕྱི་ཁའི་ལག་ལེན་པ་  གརསཔ་: %user   ཚད་གཞི་  %moduleལག་ལེན་འཐབ་མི།"
+
+#: modules/user.module:1025
+msgid "Session closed for %name."
+msgstr "%nameགི་དོན་ལུ་  ལཱ་ཡུན་དེ་ཁ་བསྡམས་ནུག"
+
+#: modules/user.module:1051
+msgid "E-mail new password"
+msgstr "གློག་འཕྲིན་ ཆོག་ཡིག་གསརཔ།"
+
+#: modules/user.module:1063
+msgid "Sorry. The username %name is not recognized."
+msgstr "དགོངམ་མ་འཁྲེལ་  ལག་ལེན་པའི་མིང་  %name ངོས་འཛིན་མ་འབད་བས།"
+
+#: modules/user.module:1066
+msgid "Sorry. The e-mail address %email is not recognized."
+msgstr "དགོངམ་མ་ཁྲེལ་  གློག་འཕྲིན་གྱི་ཁ་བྱང་  %email་  ངོས་འཛིན་མ་འབད་བས།"
+
+#: modules/user.module:1069
+msgid "You must provide either a username or e-mail address."
+msgstr "ཁྱོད་ཀྱི་ ལག་ལེན་པའི་མིང་  ཡང་ན་  གློག་འཕྲིན་གྱི་ ཁ་བྱང་ཅིག་བྱིན་དགོ།"
+
+#: modules/user.module:1087
+msgid "Password reset instructions mailed to %name at %email."
+msgstr "ཆོག་ཡིག་སླར་སྒྲིག་འབད་ནིའི་  བསླབ་སྟོན་ཚུ་  %nameགི་ %email་ལུ་  ཡིག་འཕྲིན་གཏང་ཡོད།"
+
+#: modules/user.module:1088
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "དེ་མ་ཚད་  ཁྱོད་རའི་ གློག་འཕྲིན་ཁབྱང་ལུ་  བསླབ་སྟོན་ཐེབས་ཚུ་ཡང་  གཏང་སྟེ་ཡོདཔ་ཨིན།"
+
+#: modules/user.module:1091
+msgid "Error mailing password reset instructions to %name at %email."
+msgstr "%email་གུ་ %name ལུ་ ཆོག་ཡིག་སླར་སྒྲིག་འབད་ནིའི་  བཀོད་རྒྱ་གཏང་ནི་ལུ་  འཛོལ་བ།"
+
+#: modules/user.module:1092
+msgid "Unable to send mail. Please contact the site admin."
+msgstr "ཡིག་འཕྲིན་དེ་ གཏང་མ་ཚུགས།  ས་ཁོངས་ཀྱི་བདག་སྐྱོང་པ་དེ་ལུ་  འབྲེལ་བ་འཐབ་གནང་།"
+
+#: modules/user.module:1098
+msgid "Enter your username <strong><em>or</em></strong> your e-mail address."
+msgstr "ཁྱོད་རའི་  ལག་ལེན་པའི་མིང་<སྒྲིང་སྒྲིང་><em>ཡང་ན་</em></སྒྲིང་སྒྲིང>ཁྱོད་རའི་ གློག་འཕྲིན་གྱི་ཁ་བྱང་དེ་ ཐོ་བཀོད་འབད།"
+
+#: modules/user.module:1111
+msgid "You have already used this one-time login link. It is not necessary to use this link to login anymore. You are already logged in."
+msgstr "ཁྲོད་ཀྱི་ཧེ་མ་ལས་རང་  ཚར་གཅིག་གི་  ནང་བསྐྱོད་འབྲེལ་ལམ་དེ་  ལག་ལེན་འཐབ་སྟེ་འདུག  ནང་བསྐྱོད་འབད་ནི་ལུ་  འ་ནཱི་འབྲེལ་ལམ་  ལག་ལེན་འཐབ་ནི་དེ་  ཉེ་བར་མཁོ་ཅིག་མེན།  ཁྱོད་ཧེ་མ་ལས་རང་  ནང་བསྐྱོད་འབད་དེ་འདུག།"
+
+#: modules/user.module:1122
+msgid "You have tried to use a one-time login link that has expired. Please request a new one using the form below."
+msgstr "ཁྱོད་ཀྱི་ཐེངས་གཅིག་  ནང་བསྐྱོད་འབད་ནིའི་  འབྲེལ་ལམ་ དུས་ཡོལ་ཐལ་ཡོད་མི་དེ་  ལག་ལེན་འཐབ་ནི་ལུ་  འབད་རྩོལ་བསྐྱེད་དེ་སྡོད་ནུག  འོག་གི་འབྲི་ཤོག་དེ་  ལག་ལེན་འཐབ་ཐོག་ལས་  གསརཔ་ཅིག་ ཞུ་བ་འབད་གནང་།"
+
+#: modules/user.module:1128
+msgid "User %name used one-time login link at time %timestamp."
+msgstr "ཆུ་ཚོད་ %timestampལུ་  ལག་ལེན་པ་%nameགིས་  ནང་བསྐྱོད་འབྲེལ་ལམ་  ཐེངས་གཅིག་ལག་ལེན་འཐབ་ནུག"
+
+#: modules/user.module:1136
+msgid "You have just used your one-time login link. It is no longer necessary to use this link to login. Please change your password."
+msgstr "ཁྱོད་ཀྱི་  ཁྱོད་རའི་ནང་བསྐྱོད་ཐེངས་གཅིག་གི་  འབྲེལ་ལམ་འདི་  ལག་ལེན་འཐབ་ནུག   ནང་བསྐྱོད་འབད་ནི་ལུ་  འ་ནཱི་འབྲེལ་ལམ་དེ་  ལག་ལེན་འཐབ་ནི་ལུ་  དགོས་མཁོ་མེད།  ཁྱོད་རའི་  ཆོག་ཡིག་དེ་  སོར་དེ་  བཀའ་དྲིན་བསྐྱངས།"
+
+#: modules/user.module:1140
+msgid "<p>This is a one-time login for %user_name and will expire on %expiration_date</p><p>Click on this button to login to the site and change your password.</p>"
+msgstr "<p>%user_name གི་དོན་ལུ་  འ་ནཱི་དེ་  ནང་བསྐྱོད་ཐེངས་དང་པ་འདི་  ཨིནམ་དང་  %expiration_date་ནང་  དུས་ཡོལ་ཐལ་འོང་།</p><p>འ་ནཱི་ ཨེབ་རྟ་ལུ་  ཨེབ་གཏང་འབད་དེ་  ཁྱོད་རའི་ས་ཁོངས་ལུ་  ནང་བསྐྱོད་འབད་ཞིནམ་ལས་  ཁྱོད་རའི་ ཆོག་ཡིག་དེ་ སོར་གཏང་།</p>"
+
+#: modules/user.module:1141
+msgid "<p>This login can be used only once.</p>"
+msgstr "<p>འ་ནཱི་  ནང་བསྐྱོད་དེ་  ཚརགཅིག་རྐྱངམ་ཅིག་  ལག་ལེན་འཐབ་བཏུབ་ཨིན།</p>"
+
+#: modules/user.module:1148
+msgid "You have tried to use a one-time login link which has either been used or is no longer valid. Please request a new one using the form below."
+msgstr "ཁྱོད་ཀྱི་ ལག་ལེན་འཐབ་པར་ མ་བཞག་ཡོད་མི་དང་  ཡང་ན་  ད་ལས་ཕར་  ནུས་ཅན་མེད་མི་   ནང་བསྐྱོད་ཐེངས་གཅིགཔདེ་  ལག་ལེན་འཐབ་ནི་ལུ་  འབད་རྩོལ་བསྐྱེད་དེ་  སྡོད་ནུག  འོག་གི་འབྲི་ཤོག་དེ་  ལག་ལེན་འཐབ་ཐོག་ལས་  གསརཔ་ཅིག་  ཞུ་འབད་གནང་།"
+
+#: modules/user.module:1186
+msgid "Note: if you have an account with one of our affiliates (%s), you may <a href=\"%login_uri\">login now</a> instead of registering."
+msgstr "དྲན་འཛིན་:ཁྱོད་ལུ་  ང་ཅི་གི་  འབྲེལ་གཏོགས་ (%s)དང་གཅིག་ཁར་  རྩིས་ཐོ་ཅིག་ཡོད་པ་ཅིན་  ཐོ་བཀོད་འབད་ནིའི་ཚབ་ལུ་  ཁྱོད་ཀྱི་ <a href=\"%login_uri\">login now</a>ད་ལྟོ་  ནང་བསྐྱོད་འབད་བཏུབ།"
+
+#: modules/user.module:1192
+msgid "Your full name or your preferred username; only letters, numbers and spaces are allowed."
+msgstr "ཁྱོད་རའི་ མིང་ཆ་ཚང་དང་  ཡང་ན་  དགའ་གདམ་ཅན་གྱི་   ལག་ལེན་པའི་མིང་   ཡིག་གུ་དང་  ཨང་གྲངས་  དེ་ལས་  བར་སྟོང་ཚུ་རྐྱངམ་ཅིག་  ཆོགཔ་ཨིན།"
+
+#: modules/user.module:1198
+msgid "A password and instructions will be sent to this e-mail address, so make sure it is accurate."
+msgstr "ཆོག་ཡིག་དང་  བཀོད་རྒྱ་ཚུ་  འ་ནཱི་གློག་འཕྲི་ཁ་བྱང་དེ་ནང་ལུ་  གཏང་ནི་ཨིནམ་ལས་  འདི་ཚུ་ཀྲིག་ཀྲི་ཨིནམ་སྦེ་  གཏན་འཁལ་བཟོ།"
+
+#: modules/user.module:1205
+msgid "Provide a password for the new account."
+msgstr "རྩིས་ཐོ་གསརཔ་གི་དོན་ལུ་  ཆོག་ཡིག་ཅིག་བྱིན།"
+
+#: modules/user.module:1210
+msgid "Notify user of new account"
+msgstr "རྩིས་ཐོ་གསརཔ་གི་   ལག་ལེན་པ་དེ་  བརྡ་བསྐུལ་འབད།"
+
+#: modules/user.module:1217;1305
+msgid "Account information"
+msgstr "རྩིས་ཐོའི་བརྡ་དོན།"
+
+#: modules/user.module:1246;1441
+msgid "Detected malicious attempt to alter protected user fields."
+msgstr "སྐྱོན་འཛིན་བྱུང་ཡོད་པའི་ ངན་སེམས་ཅན་དེ་གིས་   ཉེན་སྐྱོབ་འབད་ཡོད་པའི་  ལག་ལེན་པའི་ས་སྒོ་དེ་ཚུ་  བསྒྱུར་ནིའི་དཔའ་བཅམ་ཨིན་པས།  "
+
+#: modules/user.module:1251
+msgid "New user: %name %email."
+msgstr "ལག་ལེན་པ་གསརཔ་:%name %email."
+
+#: modules/user.module:1257
+msgid "Drupal user account details for %s"
+msgstr "%s གི་དོན་ལུ་  ཌུ་པཱལ་ ལག་ལེན་པའི་  རྩིས་མཐོའི་  རྒྱས་བཤད་ཚུ།"
+
+#: modules/user.module:1257
+msgid ""
+"%username,\n"
+"\n"
+"You may now login to %uri using the following username and password:\n"
+"\n"
+"  username: %username\n"
+"  password: %password\n"
+"\n"
+"%edit_uri\n"
+"\n"
+"--drupal"
+msgstr ""
+"%username,\n"
+"ཁྱོད་ཀྱི་ འོག་གི་ ལག་ལེན་པའི་མིང་དང་  ཆོག་ཡིག་དེ་ལག་ལེན་འཐབ་ཐོག་ལས་  %uri ་ལུ་ནང་བསྐྱོད་འབད་བཏུབ:\n"
+"\n"
+"ལག་ལེན་པའི་མིང་:%username\n"
+"ཆོག་ཡིག་: %password\n"
+"\n"
+"%edit_uri\n"
+"\n"
+"--ཌུ་པཱལ།"
+
+#: modules/user.module:1258
+msgid "<p>Welcome to Drupal. You are user #1, which gives you full and immediate access.  All future registrants will receive their passwords via e-mail, so please make sure your website e-mail address is set properly under the general settings on the <a href=\"%settings\">settings page</a>.</p><p> Your password is <strong>%pass</strong>. You may change your password below.</p>"
+msgstr "<p>ཌུ་པཱལ་ལུ་  བྱོན་པ་ལེགས་སོ་ཡོད།  ཁྱོད་ལུ་  འཛུལ་སྤྱོད་འབད་ནི་ཚུ་  ཆ་ཚང་དང་  དེ་འཕྲལ་ལས་རང་བྱིན་མི་  ལག་ལེན་པ་ #1་ཨིན།  ཤུལ་ལས་ཀྱི་ཐོ་བཀོད་འབད་མི་  ཆ་མཉམ་གྱི་  ཁོང་རའི་  ཆོག་ཡིག་འདི་ཚུ་  གློག་འཕྲིན་བརྒྱུད་དེ་  འཐོབ་འོང་  འདི་འབདཝ་ལས་ <a href=\"%settings\">སྒྲིག་སྟངས་ཤོག་ལེབ་གུ་  ཡོངས་ཁྱབ་སྒྲིག་སྟངས་ཀྱི་འོག་ལུ་  ཁྱོད་རའི་  ཝེབ་ས་ཁོངས་ གློག་འཕྲིན་གྱི་ཁ་བྱང་དེ་  ལེགས་ཤོམ་སྦེ་གཞི་སྒྲིག་འབད་ཡོདཔ་སྦེ་  གཏན་འཁལ་བཟོ།</a>.</p><p>ཁྱོད་ཀྱི་ ཆོག་ཡིག་དེ་  <སྒྲིང་སྒྲིང>%pass</strong>ཁྱོད་ཀྱི་  ཁྱོད་རའི་ཆོག་ཡིག་དེ་  འོག་ལས་བསྒྱུར་བཅོས་འབད་བཏུབ།"
+
+#: modules/user.module:1269
+msgid "Created a new user account. No e-mail has been sent."
+msgstr "ལག་ལེན་པ་གསརཔ་གི་  རྩིས་ཐོ་ཅིག་གསར་བསྐྲུན་འབད་ཡོད།  གློག་འཕྲིན་གཅིག་ཡང་  མ་གཏང་པས།"
+
+#: modules/user.module:1281
+msgid "Password and further instructions have been e-mailed to the new user %user."
+msgstr "ཆོག་ཡིག་དང་  བཀོད་རྒྱ་ཐེབས་འདི་ཚུ་  ལག་ལེན་པ་གསརཔ་  %user་ལུ་  གློག་འཕྲིན་འབད་དེ་ཡོད།"
+
+#: modules/user.module:1285
+msgid "Your password and further instructions have been sent to your e-mail address."
+msgstr "ཁྱོད་ཀྱི་ཆོག་ཡིག་དང་  བཀོད་བརྒྱ་ཐེབས་དོ་ཚུ་  ཁྱོད་རའི་  གློག་འཕྲིན་གྱི་ཁ་བྱང་ནང་  གཏང་སྟེ་ཡོད།"
+
+#: modules/user.module:1295
+msgid ""
+"%u has applied for an account.\n"
+"\n"
+"%uri"
+msgstr ""
+"%u་འདི་གིས་  རྩིས་ཐོ་གཅིག་གི་དོན་ལུ་  འཇུག་སྤྱོད་འབད་དོ་ཡོད།\n"
+"\n"
+"%uri"
+
+#: modules/user.module:1296
+msgid "Thank you for applying for an account. Your account is currently pending approval by the site administrator.<br />In the meantime, your password and further instructions have been sent to your e-mail address."
+msgstr "རྩི་ཐོ་ཅིག་ལུ་  འཇུག་སྤྱོད་འབད་མི་དེ་ལུ་  བཀའ་དྲིན་ཆེ་ཟེར་ཞུ་དགེ   ཁྱོད་ཀྱི་རྩིས་ཐོ་དེ་  ས་ཁོངས་བདག་སྐྱོང་པ་གིས་  ད་ལྟོའི་བར་ན་ཡང་  གནང་བ་དེ་  བསྣར་བཞག་སྟེ་འདུག་<br /> དུས་ཚོད་འ་ནིམ་ཅིག་གི་བར་ན་  ཁྱོད་རའི་  ཆོག་ཡིག་དང་  བཀོད་རྒྱ་ཐེབ་དེ་ཚུ་  ཁྱོད་རའི་ གློག་འཕྲིན་གྱི་ཁ་བྱང་ནང་  གཏང་སྟེ་ཡོད།"
+
+#: modules/user.module:1312
+msgid "Your full name or your preferred username: only letters, numbers and spaces are allowed."
+msgstr "ཁྱོད་རའི་མིང་ ཆ་ཚང་དང་  ཡང་ན་  དགའ་གདམ་རྐྱབ་སྟེ་ཡོད་པའི་  ལག་ལེན་པའི་མིང་: ཡིག་གུ་དང་  ཨང་གྲངས་དེ་ལས་  བར་སྟོང་ཚུ་དོ་བཀོད་འབད་བཅུགཔ་ཨིན།"
+
+#: modules/user.module:1320
+msgid "Insert a valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail."
+msgstr "ནུས་ཅན་གྱི་  གློག་འཕྲིན་ཁ་བྱང་ཅིག་བཙུགས།  རིམ་ལུགས་ནང་གི་  གློག་འཕྲིན་དེ་ཚུ་ཆ་མཉམ་  འ་ནཱི་ཁ་བྱང་དེ་ལུ་  གཏང་འོང་།  གློག་འཕྲིན་གྱི་ཁ་བྱང་དེ་  མི་མང་གི་དོན་ལུ་བཟོ་བཟོཝ་མེནམ་དང་   ཁྱོད་རང་ ཆོག་ཡིག་གསརཔ་དང་  གནས་ཚུལ་ལ་ལོ་ཅིག་  ཡང་ན་  བརྡ་བསྐུལ་ཚུ་  གློག་འཕྲིན་གྱི་ཐོག་ལས་  ལེན་པ་ཅིན་རྐྱངམ་ཅིག་  འ་ནཱི་དེ་  ལག་ལེན་འཐབ་འོང་།"
+
+#: modules/user.module:1325
+msgid "To change the current user password, enter the new password in both fields."
+msgstr "ད་ལྟོའི་ལག་ལེན་པའི་  ཆོག་ཡིག་དེ་  བསྒྱུར་བཅོས་འབད་ནིའི་དོན་ལུ་  ས་སྒོ་གཉིས་ཆ་རང་ན་  ཆོག་ཡིག་གསརཔ་ཅིག་བཙུགས།"
+
+#: modules/user.module:1328
+msgid "Blocked"
+msgstr "བཀག་ཡོདཔ།"
+
+#: modules/user.module:1334
+msgid "The user receives the combined permissions of the %au role, and all roles selected here."
+msgstr "ལག་ལེན་པ་འདི་ཚུ་ལུ་   %au ལས་འགན་གྱི་མཉམ་མཐུད་འབད་ཡོད་པའི་  གནང་བ་ཚུ་  བྱིནམ་ཨིནམ་དང་  ལས་འགན་དེ་ཚུ་  འ་ནཱ་ལུ་  སེལ་འཐུ་འབདཝ་ཨིན།"
+
+#: modules/user.module:1334
+msgid "authenticated user"
+msgstr "བདེན་བཤད་ཡོད་པའི་  ལག་ལེན་པ།"
+
+#: modules/user.module:1340
+msgid "Picture"
+msgstr "པར།"
+
+#: modules/user.module:1344
+msgid "Delete picture"
+msgstr "པར་བཏོད་གཏང་།"
+
+#: modules/user.module:1344
+msgid "Check this box to delete your current picture."
+msgstr "ཁྱོད་རའི་ ད་ལྟོའི་པར་དེ་ བཏོན་གཏང་ནི་ལུ་  ད་ནཱི་སྒྲོམ་འདི་ཞིབ་དཔྱད་འབད།"
+
+#: modules/user.module:1348
+msgid "Upload picture"
+msgstr "པར་སྐྱེལ་བཙུགས་འབད།"
+
+#: modules/user.module:1348
+msgid "Your virtual face or picture.  Maximum dimensions are %dimensions and the maximum size is %size kB."
+msgstr "ཁྱོད་རའི་བར་ཅུ་ཡལ་ གདོང་ ཡང་ན་ པར།  མང་མཐའི་རྒྱ་འཁོན་དེ་ཚུ་ %dimensions  དང་ མང་མཐའི་ཚད་དེ་ཚུ་  %size kB་དེ་ཚུ་ཨིན།"
+
+#: modules/user.module:1362
+msgid "The name %name is already taken."
+msgstr "མིང་  %nameདེ་ ཧེ་མ་ལས་རང་ འབག་ཡར་སོང་ནུག"
+
+#: modules/user.module:1365
+msgid "The name %name has been denied access."
+msgstr "མིང་  %name འདི་  འཛུལ་སྤྱོད་འབད་ནི་  ཉན་མ་བཏུབ།"
+
+#: modules/user.module:1374
+msgid "The e-mail address %email is already taken."
+msgstr "གློག་འཕྲིན་གྱི་ཁ་བྱང་  %emailདེ་  ཧེ་མ་ལས་རང་  འབག་ཡར་སོང་ནུག"
+
+#: modules/user.module:1377
+msgid "The e-mail address %email has been denied access."
+msgstr "གློག་འཕྲིན་གྱི་ཁ་བྱང་  %emailའདི་གིས་  འཛུལ་སྤྱོད་འབད་ནི་ལུ་  ཉན་མ་བཏུབ།"
+
+#: modules/user.module:1405
+msgid "The account does not exist or has already been deleted."
+msgstr "རྩིས་ཐོ་འདི་མིན་འདུག་ ཡང་ན་ འདི་ཧེ་མ་ལས་ར་བཏོན་གཏང་ཡོདཔ་ཨིན་མས།"
+
+#: modules/user.module:1413
+msgid "Are you sure you want to delete the account %name?"
+msgstr "ཁྱོད་ཀྱི་ རྩིས་ཐོ་  %nameབཏོན་གཏང་ནི་དེ་  ངེས་གཏན་ཨིན་ན་?"
+
+#: modules/user.module:1413
+msgid "All submissions made by this user will be attributed to the anonymous account. This action cannot be undone."
+msgstr "འ་ནཱི་ལག་ལེན་པ་འདི་ཚུ་གིས་  བཟོ་ཡོད་པའི་  ཞུ་འབུལ་དེ་ཚུ་  མིང་མེད་པའི་རྩིས་ཐོ་ནང་ལུ་  ཆེད་བརྗོད་འབད་དེ་ཡོདཔ་ཨིན།  འ་ནི་བྱ་བ་དེ་  མ་འབད་བར་སྦེ་བཞག་མི་བཏུབ།"
+
+#: modules/user.module:1456;1861;1881
+msgid "The changes have been saved."
+msgstr "བསྒྱུར་བཅོས་འབད་ཡོད་མི་ཚུ་  སྲུངས་བཞག་འབད་ཡོད།"
+
+#: modules/user.module:1466
+msgid "Deleted user: %name %email."
+msgstr "བཏོད་གཏང་ཡོད་པའི་  ལག་ལེན: %name %email."
+
+#: modules/user.module:1467
+msgid "The account has been deleted."
+msgstr "རྩིས་ཐོ་དེ་  བཏོན་གཏང་ད་ནུག།"
+
+#: modules/user.module:1507
+msgid "Account details for %username at %site"
+msgstr "%siteགུ་  %usernameགི་དོན་ལུ་  རྩིས་ཐོའི་རྒྱས་བཤད་ཚུ།"
+
+#: modules/user.module:1509
+msgid ""
+"%username,\n"
+"\n"
+"Thank you for registering at %site. You may now log in to %login_uri using the following username and password:\n"
+"\n"
+"username: %username\n"
+"password: %password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in your browser:\n"
+"\n"
+"%login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to %edit_uri so you can change your password.\n"
+"\n"
+"Your new %site membership also enables to you to login to other Drupal powered websites (e.g. http://drupal.org/) without registering. Just use the following Drupal ID and password:\n"
+"\n"
+"Drupal ID: %username@%uri_brief\n"
+"password: %password\n"
+"\n"
+"\n"
+"--  %site team"
+msgstr ""
+"%username,\n"
+"\n"
+"%site་ནང་ལུ་  ཐོ་བཀོད་འབད་མི་དེ་ལུ་  བཀའ་དྲིན་ཆེ་ཟེར་ཞུ་དགེ།  ཁྱོད་ཀྱི་ད་འབདན་  འོག་གི་  ལག་ལེན་པའི་མིང་དང་  ཆོག་ཡིག་དེ་ལག་ལེན་འཐབ་ཐོག་ལས་ %login_uri ནང་ལུ་  ནང་བསྐྱོད་འབད་བཏུབ: \n"
+"\n"
+"ལག་ལེན་པའི་མིང་:%username\n"
+"ཆོག་ཡིག:%password\n"
+"\n"
+"ཁྱོད་ཀྱི་འ་ནི་  འབྲེལ་ལམ་དེ་ནང་ལུ་  ཨེབ་གཏང་འབད་ཐོག་ལས་དང་   ཡང་ན་  ཁྱོད་རའི་  བརའུ་ཟར་ནང་འདྲ་བཤུས་དང་  སྦྱར་ཐོག་ལས་ཡང་  ནང་བསྐྱོད་འབད་བཏུབ།%login_url\n"
+"\n"
+"འ་ནི་འདི་  ནང་བསྐྱོད་ཐེངས་གཅིགཔ་དེ་ཨིན་  འདི་འབདཝ་ལས་  འདི་ཚར་གཅིག་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་བཏུབ་ཨིན།\n"
+"ནང་བསྐྱོད་འབད་ཚར་བའི་ཤུལ་ལས་  ཁྱོད་རའི་ཆོག་ཡིག་དེ་  བསྒྱུར་བཅོས་འབད་ཚུགསཔ་ནིའི་དོན་ལུ་  ཁྱོད་%edit_uri ་ནང་ལུ་སླར་ལོག་གཏངམ་ཨིན།\n"
+"ཁྱོད་རའི་ %site་འཐུས་མི་གོ་གནས་འདི་གིས་ཡང་   ཐོ་བཀོད་མ་འབད་བའི་ཐོག་ལས་  གཞན་ ཌུ་པཱལ་ནུས་ཤུགས་ཡོད་པའི་  ཝེབ་ས་ཁོངས་ཚུ་(e.g. http://drupal.org/)   ནང་བསྐྱོད་འབད་ནི་ལུ་  ལྕོགས་ཅན་བཟོཝ་ཨིན།\n"
+"ཌུ་པཱལ་གྱི་ ཨའི་ཌི་:%username@%uri_brief\n"
+"ཆོག་ཡིག་:%password\n"
+"\n"
+"\n"
+"--  %site team"
+
+#: modules/user.module:1511
+msgid "An administrator created an account for you at %site"
+msgstr "བདག་སྐྱོངས་པ་དེ་གིས་  ཁྱོད་ཀྱི་དོན་ལུ་   %siteནང་  རྩིས་ཐོ་ཅིག་གསར་བསྐྲུན་འབད་ཡོད།"
+
+#: modules/user.module:1513
+msgid ""
+"%username,\n"
+"\n"
+"A site administrator at %site has created an account for you. You may now log in to %login_uri using the following username and password:\n"
+"\n"
+"username: %username\n"
+"password: %password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in your browser:\n"
+"\n"
+"%login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to %edit_uri so you can change your password.\n"
+"\n"
+"Your new %site membership also enables to you to login to other Drupal powered websites (e.g. http://www.drupal.org/) without registering. Just use the following Drupal ID and password:\n"
+"\n"
+"Drupal ID: %username@%uri_brief\n"
+"password: %password\n"
+"\n"
+"\n"
+"--  %site team"
+msgstr ""
+"%username,\n"
+"\n"
+"ས་ཁོངས་  བདག་སྐྱོངཔ་  %site ་ནང་ལུ་ཡོད་མི་འདི་གིས་  ཁྱོད་ཀྱི་དོན་ལུ་  རྩིས་ཐོ་ཅིག་གསར་བསྐྲུན་འབད་དེ་འདུག   འོག་གི་ལག་ལེན་པའི་མིང་དང་  ཆོག་ཡིག་དེ་ལག་ལེན་འཐབ་ཐོག་ལས་   ཁྱོད་ཀྱི་ %login_uri ལུ་ཡང་ནང་བསྐྱོད་འབད་བཏུབ།ལག་ལེན་པའི་མིང་: %username\n"
+"ཆོག་ཡིག: %password\n"
+"ཁྱོད་ཀྱི་འ་ནི་  འབྲེལ་ལམ་འདི་ལུ་  ཨེབ་གཏང་འབད་ནི་དང་  ཡང་ན་  ཁྱོད་རའི་ བརའུ་ཟར་ནང་  འདྲ་བཤུས་དང་སྦྱར་ཐོག་ལས་ཡང་  ནང་བསྐྱོད་འབད་བཏུབ་:\n"
+"\n"
+"%login_url\n"
+"\n"
+"འ་ནཱ་འདི་  ཐེངས་གཅིག་གི་  ནང་བསྐྱོད་འབད་ནི་དེ་ཨིན་  འདི་འབདཝ་ལས་  དེ་ཚར་གཅིག་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་བཏུབ།\n"
+"\n"
+"ཁྱོད་རའི་ ཆོག་ཡིག་དེ་  སོར་བཏུབ་ནིའི་དོན་ལུ་  ནང་བསྐྱོད་འབད་ཚར་བའི་ཤུལ་ལས་  ཁྱོད་%edit_uri ་ནང་ལུ་སླར་ལོག་གཏང་འོང་།\n"
+"\n"
+"ཐོ་བཀོད་མ་འབད་བར་རང་  ཁྱོད་རའི་%siteའཐུས་མི་གོ་གནས་གསརཔ་ འདི་གི་ཡང་  གཞན་ ཌུ་པཱལ་ ནུས་ཤུགས་ཡོད་པའི་  ཝེབ་ས་ཁོངས་ནང་(e.g. http://www.drupal.org/)   ནང་བསྐྱོད་འབད་ནི་ལུ་ལྕོགས་ཅན་བཟོཝ་ཨིན།  འོག་གི་ ཌུ་པཱལ་ ཨའི་ཌི་དང་  ཆོག་ཡིག་འདི་  ལག་ལེན་འཐབ་:\n"
+"\n"
+"ཌུ་པཱལ་ཨའི་ཌི་: %username@%uri_brief\n"
+"ཆོག་ཡིག: %password\n"
+"\n"
+"\n"
+"--  %site team"
+
+#: modules/user.module:1515
+msgid "Account details for %username at %site (pending admin approval)"
+msgstr "%username ་གི་དོན་ལུ་  %siteནང་  རྩིས་ཐོའི་རྒྱཤ་བཤད་ཚུ།  (བདག་སྐྱོངས་པའི་ བསྣ་ཡོད་པའི་གནང་བ།)"
+
+#: modules/user.module:1517
+msgid ""
+"%username,\n"
+"\n"
+"Thank you for registering at %site. Your application for an account is currently pending approval. Once it has been granted, you may log in to %login_uri using the following username and password:\n"
+"\n"
+"username: %username\n"
+"password: %password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in your browser:\n"
+"\n"
+"%login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you may wish to change your password at %edit_uri\n"
+"\n"
+"Your new %site membership also enables to you to login to other Drupal powered websites (e.g. http://www.drop.org/) without registering. Just use the following Drupal ID and password:\n"
+"\n"
+"Drupal ID: %username@%uri_brief\n"
+"password: %password\n"
+"\n"
+"\n"
+"--  %site team"
+msgstr ""
+"%username,\n"
+"\n"
+"%site་ལུ་ཐོག་བཀོད་འབད་གནང་མི་དེ་ལུ་  བཀའ་དྲིན་ཆེ་ཟེར་ཞུ་དགེ  རྩིས་ཐོ་གི་དོན་ལུ་  ཁྱོད་རའི་གློག་རིམ་དེ་  ད་ལྟོ་གནང་བ་ལེན་ནིའི་དོན་ལུ་  ཕར་བསྣར་བཞག་དེ་ཡོད།  གནང་བ་དེ་ཚར་གཅིག་ གནང་ཚར་་ཞིནམ་ལས་  འོག་གི་ལག་ལེན་པའི་མིང་དང་  ཆོག་ཡིག་དེ་  ལག་ལེན་འཐབ་ཐོག་ལས་  ཁྱོད་ཀྱི་ %login_uri་ནང་ལུ་  ནང་བསྐྱོད་འབད་བཏུབ་:\n"
+"\n"
+"ལག་ལེན་པའི་མིང་: %username\n"
+"ཆོག་ཡིག: %password\n"
+"\n"
+"ཁྱོད་ཀྱི་  འ་ནཱི་འབྲེལ་ལམ་འདི་ལུ་  ཨེབ་གཏང་དང་  ཡང་ན་  ཁྱོད་རའི་  བརའུ་ཟར་ནང་ འདྲ་བཤུས་དང་སྦྱར་ཐོག་ལས་ཡང་  ནང་བསྐྱོད་འབད་བཏུབ:\n"
+"\n"
+"%login_url\n"
+"\n"
+"འ་ནཱི་དེ་  ཐེངང་གཅིག་གི་  ནང་བསྐྱོད་དེ་ཨིནམ་ལས་  ཚར་གཅིག་རྐྱངམ་ཅིག་  ལག་ལེན་འཐབ་བཏུབ་ཨིན།\n"
+"\n"
+"ནང་བསྐྱོད་འབད་ཚར་བའི་ཤུལ་ལས་  ཁྱོད་ཀྱི་%edit_uri་ནང་  ཁྱོད་རའི་ཆོག་ཡིག་དེ་  སོར་དགོ་མནོ་འོང་།\n"
+"\n"
+"ཁྱོད་རའི་  %site ་འཐུས་མི་གོ་གནས་གསརཔ་འདི་གི་ཡང་  ཐོ་བཀོད་མ་འབད་བར་རང་  གཞན་ ཌུ་པཱལ་(e.g. http://www.drop.org/)  ནུས་ཤུགས་ཡོད་པའི་ ཝེབ་ས་ཁོངས་ནང་  ནང་བསྐྱོད་འབད་ནི་ལུ་  ལྕོགས་ཅན་བཟོཝ་ཨིན:\n"
+"\n"
+"ཌུ་པཱལ་ཨའི་ཌི་: %username@%uri_brief\n"
+"ཆོག་ཡིག: %password\n"
+"\n"
+"\n"
+"--  %site team"
+
+#: modules/user.module:1519
+msgid "Replacement login information for %username at %site"
+msgstr "%site་ལུ་  %username་གི་དོན་ལུ་  ཚབ་མ་ནང་བསྐྱོད་ཀྱི་བརྡ་དོན།"
+
+#: modules/user.module:1521
+msgid ""
+"%username,\n"
+"\n"
+"A request to reset the password for your account has been made at %site.\n"
+"\n"
+"You may now log in to %uri_brief clicking on this link or copying and pasting it in your browser:\n"
+"\n"
+"%login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to %edit_uri so you can change your password."
+msgstr ""
+"%username,\n"
+"\n"
+"ཁྱོད་རའི་  རྩི་ཐོ་གི་དོན་ལུ་  ཆོག་ཡིག་སླར་སྒྲིག་འབད་ནིའི་ཞུ་བ་འབད་ཡོད་མི་དེ་  %site་ནང་ལུ་  བཟོ་དེ་ཡོད།\n"
+"\n"
+"འ་ནཱི་འབྲེལ་ལམ་དེ་ལུ་  ཨེབ་གཏང་འབད་ནི་དང་  ཡང་ན་  ཁྱོད་རའི་བརའུ་ཟར་ནང་  འདྲ་བཤུས་དང་  ཨེབ་གཏང་འབད་ཐོག་ལས་  ཁྱོད་ཀྱི་ད་འབདན་   %uri_brief་ནང་ལུ་   ནང་བསྐྱོད་འབད་བཏུབ:\n"
+"\n"
+"%login_url\n"
+"\n"
+"འ་ནཱི་འདི་  ཐེངས་གཅིག་གི་  ནང་བསྐྱོད་དེ་ཨིན་  འདི་འབདཝ་ལས་  འདི་  ཚར་གཅིག་རྐྱངམ་ཅིག་ ལག་ལེན་འཐབ་བཏུབ།  འདི་ ཉིནམ་གཅིག་གི་རྒྱབ་ལས་  ་དུས་ཡལ་འགྱོཝ་ཨིནམ་དང་  འདི་ལག་ལེན་མ་འཐབ་རུང་ཡང་  ག་ནི་ཡང་མི་འབད།\n"
+"\n"
+"ནང་བསྐྱོད་འབད་ཚར་བའི་ཤུལ་ལས་  ཁྱོད་ཀྱི་  ཁྱོད་རའི་ཆོག་ཡིག་དེ་  སོར་བཏུབ་ནིའི་དོན་ལུ་  ཁྱོད་ %edit_uri ནང་ལུ་  སླར་ལོག་གཏངམ་ཨིན།"
+
+#: modules/user.module:1534
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "ཆོག་ག་མི་ཆོག་  ཞི་དཔྱད་འབད་ནི་ལུ་  ལག་ལེན་པའི་མིང་བཙུགས།"
+
+#: modules/user.module:1536
+msgid "Check username"
+msgstr "ལག་ལེན་པའི་མིང་  ཞིབ་དཔྱད་འབད།"
+
+#: modules/user.module:1541
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "འདི་གིས་ ཉན་མ་བཏུབ་ ཡང་ན་ ཉནབཏུབ་ཨིན་ན་  ཞིབ་དཔྱད་འབད་ནི་ལུ་  གློག་འཕྲིན་གྱི་ཁ་བྱང་ཅིག་བཙུགསཔ་ཨིན།"
+
+#: modules/user.module:1543
+msgid "Check e-mail"
+msgstr "གློག་འཕྲིན་ཞིབ་དཔྱད་འབད།"
+
+#: modules/user.module:1548
+msgid "Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr "འདི་གིས་  ཉན་མ་བཏུབ་ ཡངན་ ཉན་བཏུབ་ག་  ཞིབ་དཔྱད་འབད་ནི་ལུ་  ཧོསཊི་གི་མིང་དང་  ཡང་ན་  ཨའི་པི་ཁ་བྱང་ཚུ་ཞིབ་དཔྱད་འབད།"
+
+#: modules/user.module:1550
+msgid "Check hostname"
+msgstr "ཧོསཊི་གི་མིང་ ཞིབ་དཔྱད་འབད།"
+
+#: modules/user.module:1559
+msgid "No value entered. Please enter a test string and try again."
+msgstr "གནས་གོང་མ་བཙུགས་པས།  ཡིག་བརྒྱུན་བརྟག་ཞིབ་འབད་ཞིནམ་ལས་  ལོག་སྟེ་རང་འབད་རྩོལ་བསྐྱེདཔ།"
+
+#: modules/user.module:1567
+msgid "The username %name is not allowed."
+msgstr "ལག་ལེན་པའི་མིང་%name་འདི་ མི་ཆོག"
+
+#: modules/user.module:1570
+msgid "The username %name is allowed."
+msgstr "ལག་ལེན་པའི་མིང་ %nameདེ་ཆོག"
+
+#: modules/user.module:1575
+msgid "The e-mail address %mail is not allowed."
+msgstr "གློག་འཕྲིན་གྱི་ཁ་བྱང་%mailའདི་ མི་ཆོག"
+
+#: modules/user.module:1578
+msgid "The e-mail address %mail is allowed."
+msgstr "གློག་འཕྲིན་གྱི་ཁ་བྱང་  %mailདེ་མི་ཆོག།"
+
+#: modules/user.module:1583
+msgid "The hostname %host is not allowed."
+msgstr "ཧོསཊི་གི་མིང་%hostའདི་  མི་ཆོག"
+
+#: modules/user.module:1586
+msgid "The hostname %host is allowed."
+msgstr "ཧོསཊི་གི་མིང་ %hostའདི་ ཆོག།"
+
+#: modules/user.module:1600;1653
+msgid "You must enter a mask."
+msgstr "ཁྱོད་ཀྱི་གདོང་ཁེབས་ཅིག་  བཙུགས་དགོ།"
+
+#: modules/user.module:1605
+msgid "The access rule has been added."
+msgstr "འཚུལ་སྤྱོད་ཀྱི་  ལམ་ལུགས་འདི་  ཁ་སྐོངས་རྐྱབས་སྟེ་ཡོད།"
+
+#: modules/user.module:1618
+msgid "Add rule"
+msgstr "ལམ་ལུགས་ཁ་སྐཽངས་རྐྱབ།"
+
+#: modules/user.module:1627;1705
+msgid "username"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#: modules/user.module:1627;1705
+msgid "e-mail"
+msgstr "གློག་འཕྲིན།"
+
+#: modules/user.module:1633
+msgid "Are you sure you want to delete the %type rule for %rule?"
+msgstr "ཁྱོད་ཀྱི   %ruleགི་་དོན་ལུ་  %type་བཏོན་གཏང་ནི་དེ་  ངེས་གཏན་ཨིན་ན།"
+
+#: modules/user.module:1643
+msgid "The access rule has been deleted."
+msgstr "འཛུལ་སྤྱོད་ཀྱི་ལམ་ལུགས་དེ་  བཏོན་གཏང་དེ་ཡོད།"
+
+#: modules/user.module:1657
+msgid "The access rule has been saved."
+msgstr "འཛུལ་སྤྱོད་ཀྱི་ལམ་ལུགས་དེ་  སྲུངས་བཞག་འབད་དེ་ཡོད།"
+
+#: modules/user.module:1668
+msgid "Save rule"
+msgstr "ལམ་ལུགས་སྲུངས།"
+
+#: modules/user.module:1676;1703
+msgid "Access type"
+msgstr "འཛུལ་སྤྱོད་ཀྱི་དབྱེ་བ།"
+
+#: modules/user.module:1678
+msgid "Allow"
+msgstr "འབད་བཅུག"
+
+#: modules/user.module:1678
+msgid "Deny"
+msgstr "འབད་མ་བཅུག"
+
+#: modules/user.module:1680
+msgid "Host"
+msgstr "ཧོསཊི།"
+
+#: modules/user.module:1683;1703
+msgid "Rule type"
+msgstr "ལམ་ལུགས་ཀྱི་དབྱེ་བ།"
+
+#: modules/user.module:1689;1703
+msgid "Mask"
+msgstr "གདོང་ཁེབས།"
+
+#: modules/user.module:1693
+msgid "Matches any number of characters, even zero characters"
+msgstr "ཡིག་འབྲུག་གི་ཨང་གྲངས་  ཀླད་ཀོར་ལ་འགོ་བཙུགས་སྟེ་  མཐུན་སྒྲིག་འབདཝ་མས།"
+
+#: modules/user.module:1693
+msgid "Matches exactly one character."
+msgstr "ཡིག་འབྲུ་གཅིག་  ཏག་ཏ་མཐུན་སྒྲིག་འབདཝ་མས།"
+
+#: modules/user.module:1705
+msgid "host"
+msgstr "ཧོསཊི།"
+
+#: modules/user.module:1708
+msgid "allow"
+msgstr "འབད་བཅུག"
+
+#: modules/user.module:1708
+msgid "deny"
+msgstr "ཉན་མ་བཏུབ།"
+
+#: modules/user.module:1711
+msgid "There are currently no access rules."
+msgstr "ད་ལྟོ་ལམ་སྟོན་ཚུ་ འཛུལ་སྤྱོད་མིན་འདུག"
+
+#: modules/user.module:1757
+msgid "all roles"
+msgstr "ལས་འགན་ཚུ་ཆ་མཉམ།"
+
+#: modules/user.module:1786
+msgid "%module module"
+msgstr "%module  ཚད་གཞི།"
+
+#: modules/user.module:1805
+msgid "Save permissions"
+msgstr "གནང་བ་སྲུངས།"
+
+#: modules/user.module:1831
+msgid "Permission"
+msgstr "གནང་བ།"
+
+#: modules/user.module:1876;1926
+msgid "Save role"
+msgstr "ལས་འགན་སྲུངས།"
+
+#: modules/user.module:1885;1915
+msgid "You must specify a valid role name."
+msgstr "ཁྱོད་ཀྱི་ཐེས་ཅན་ལས་འགན་གྱི་མིང་ཅིག་  གསལ་བཀོད་འབད་དགོ"
+
+#: modules/user.module:1892;1927
+msgid "Delete role"
+msgstr "ལས་འགན་བཏོན་གཏང་།"
+
+#: modules/user.module:1899
+msgid "The role has been deleted."
+msgstr "ལས་འགན་ཚུ་  བཏོན་གཏང་ཡོད།"
+
+#: modules/user.module:1906;1932
+msgid "Add role"
+msgstr "ལས་འགན་ཁ་སྐོང་རྐྱབ་ཡོད།"
+
+#: modules/user.module:1911
+msgid "The role has been added."
+msgstr "ལས་འགན་ཚུ་  ཁ་སྐོང་རྐྱབ་ཡོད།"
+
+#: modules/user.module:1925
+msgid "Role name"
+msgstr "ལས་འགན་གྱི་མིང་།"
+
+#: modules/user.module:1925
+msgid "The name for this role. Example: \"moderator\", \"editorial board\", \"site architect\"."
+msgstr "འ་ནི་ལས་འགན་འདི་གི་དོན་ལུ་  མིང་། དཔེར་ན་: \"moderator\", \"editorial board\", \"site architect\"བཟུམ།"
+
+#: modules/user.module:1961
+msgid "Last access"
+msgstr "མཐའ་མཇུག་གི་ འཛུལ་སྤྱོད།"
+
+#: modules/user.module:1968
+msgid "blocked"
+msgstr "བཀག་ཡོད།"
+
+#: modules/user.module:1968
+msgid "active"
+msgstr "ཤུགས་ལྡན་ཚུ།"
+
+#: modules/user.module:1984
+msgid "User registration settings"
+msgstr "ལག་ལེན་པའི་ ཐོ་བཀོད་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/user.module:1985
+msgid "Public registrations"
+msgstr "མི་མང་གི་  ཐོ་བཀོད་ཚུ།"
+
+#: modules/user.module:1985
+msgid "Only site administrators can create new user accounts."
+msgstr "ས་ཁོངས་བདག་སྐྱོངས་པ་རྐྱངམ་ཅིག་གིས་  ལག་ལེན་པ་གསརཔ་གི་  རྩིས་ཐོ་འདི་ཚུ་  གསར་བསྐྲུན་འབད་བཏུབ།"
+
+#: modules/user.module:1985
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr "བདག་སྐྱོངས་པའི་གནང་བ་དགོཔ་མེད་པར་  བལྟ་སྤྱོད་པ་ཚུ་གིས་  ཁོང་རའི་རྩིས་ཐོ་དེ་ཚུ་  གསར་བསྐྲུན་འབད་བཏུབ།"
+
+#: modules/user.module:1985
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr "བལྟ་སྤྱོད་པ་འདི་ཚུ་གིས་  རྩིས་ཐོ་ཚུ་གསར་བསྐྲུན་འབད་བཏུབ་  འདི་འབདཝ་ད་  བདག་སྐྱོང་པའི་  གནང་བ་དགོཔ་ཨིན།"
+
+#: modules/user.module:1986
+msgid "User registration guidelines"
+msgstr "ལག་ལེན་པ་ ཐོ་བཀོད་ཀྱི་ལམ་སྟོན་ཚུ།"
+
+#: modules/user.module:1986
+msgid "This text is displayed at the top of the user registration form.  It's useful for helping or instructing your users."
+msgstr "འ་ནི་ཚིག་ཡིག་དེ་  ལག་ལེན་པའི་ ཐོ་བཀོད་འབྲི་ཤོག་གི་མགོ་ལུ་  བཀྲམ་སྟོན་འབད་ཡོདཔ་ཨིན།  འ་ནཱི་དེ་  ཁྱོད་རའི་ལག་ལེན་པ་འདི་ཚུ་ལུ་  གྲོགས་རམ་འབད་ནི་དང་  བཀོད་རྒྱ་གཏང་ནི་ནང་ལུ་  ཕན་ཐོགས་ཅན་ཅིག་ཨིན།"
+
+#: modules/user.module:1989
+msgid "User e-mail settings"
+msgstr "ལག་ལེན་པ་ གློག་འཕྲིན་གྱི་སྒྲིག་སྟངས།"
+
+#: modules/user.module:1990
+msgid "Subject of welcome e-mail"
+msgstr "བྱོན་པ་ལེགས་སོ་  གློག་འཕྲིན་གྱི་དོན་ཚན།"
+
+#: modules/user.module:1990
+msgid "Customize the subject of your welcome e-mail, which is sent to new members upon registering."
+msgstr "ཐོ་བཀོད་ཀྱི་ཐོག་ལུ་  འཐུས་མི་གསརཔ་གཏང་མི་  ཁྱོད་རའི་ བྱོན་པ་ལེགས་སོའི་  གློག་འཕྲིན་གྱི་དོན་ཚན་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:1990;1991;1992;1993;1994;1995;1996;1997
+msgid "Available variables are:"
+msgstr "འཐོབ་ཚུགས་པའི་  འགྱུར་ཅན་ཚུ:"
+
+#: modules/user.module:1991
+msgid "Body of welcome e-mail"
+msgstr "བྱོན་པ་ལེགས་སོའི་  གློག་འཕྲིན་གྱི་མ་གཟུགས།"
+
+#: modules/user.module:1991
+msgid "Customize the body of the welcome e-mail, which is sent to new members upon registering."
+msgstr "ཐོ་བཀོད་ཀྱི་ཐོག་ལུ་  འཐུས་མི་གསརཔ་ནང་གཏང་ཡོད་པའི་  བྱོད་པ་ལེགས་སོའི་གློག་འཕྲིན་གྱི་  མ་གཟུགས་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:1992
+msgid "Subject of welcome e-mail (user created by administrator)"
+msgstr "བྱོན་པ་ལེགས་སོ་  གློག་འཕྲིན་གྱི་དོན་ཚན་(བདག་སྐྱོང་པ་གིས་  གསར་བསྐྲུན་འབད་ཡོད་པའི་  ལག་ལེན་པ།)"
+
+#: modules/user.module:1992
+msgid "Customize the subject of your welcome e-mail, which is sent to new member accounts created by an administrator."
+msgstr "བདག་སྐྱོང་པ་ཅིག་གིས་  གསར་བསྐྲུན་འབད་ཡོད་པའི་  འཐུས་མི་གསརཔ་གི་རྩིས་ཐོ་ལུ་གཏང་ཡོད་མི་  ཁྱོད་རའི་ བྱོན་པ་ལེགས་སོའི་  གློག་འཕྲིན་གྱི་དོན་ཚན་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:1993
+msgid "Body of welcome e-mail (user created by administrator)"
+msgstr "བྱོན་པ་ལེགས་ གློག་འཕྲིན་གྱི་མ་གཟུགས།(བདག་སྐྱོང་པ་གིས་གསར་བསྐྲུན་འབད་ཡོདཔ།)"
+
+#: modules/user.module:1993
+msgid "Customize the body of the welcome e-mail, which is sent to new member accounts created by an administrator."
+msgstr "བདག་སྐྱོངས་པ་གིས་ གསར་བསྐྲུན་འབད་ཡོད་པའི་  འཐུས་མི་གསརཔ་གི་རྩིས་ཐོ་ནང་ལུ་གཏང་ཡོད་པའི་  བྱོན་པ་ལེགས་སོའི་  གློག་འཕྲིན་གྱི་  མ་གཟུགས་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:1994
+msgid "Subject of welcome e-mail (awaiting admin approval)"
+msgstr "བྱོན་པ་ལེགས་སོ་ གློག་འཕྲིན་གྱི་དོན་ཚན།(བདག་སྐྱོང་པའི་ གནང་བ་ བསྒུག་དོ།)"
+
+#: modules/user.module:1994
+msgid "Customize the subject of your awaiting approval welcome e-mail, which is sent to new members upon registering."
+msgstr "ཐོ་བཀོད་འབད་ཐོག་ལས་  འཐུས་མི་གསར་པའི་ནང་ལུ་  གཏང་ཡོད་པའི་  ཁྱོད་རའི་གནང་བ་བསྒུག་ཡོད་པའི་  བྱོན་པ་ལེགས་སོའི་  གློག་འཕྲིན་གྱི་དོན་ཚན་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:1995
+msgid "Body of welcome e-mail (awaiting admin approval)"
+msgstr "བྱོན་པ་ལེགས་སོའི་  གློག་འཕྲིན་གྱི་མ་གཟུགས།(བདག་སྐྱོང་པའི་  གནང་བ་བསྒུག་དོ།)"
+
+#: modules/user.module:1995
+msgid "Customize the body of the awaiting approval welcome e-mail, which is sent to new members upon registering."
+msgstr "ཐོ་བཀོད་འབད་ཐོག་ལས་  འཐུས་མི་གསར་པ་ཚུ་ནང་ལུ་   གཏང་ཡོད་པའི་  གནང་བ་བསྒུག་མི་     བྱོན་པ་ལེགས་སོའི་གློག་འཕྲིན་གྱི་མ་གཟུགས་འདི་གི་  མ་གཟུགས་དེ་  སྲོལ་སྒྲིག་འབད། "
+
+#: modules/user.module:1996
+msgid "Subject of password recovery e-mail"
+msgstr "སླར་གསོ་ གློག་འཕྲིན་ཆོག་ཡིག་གི་  དོན་ཚན།"
+
+#: modules/user.module:1996
+msgid "Customize the Subject of your forgotten password e-mail."
+msgstr "བརྗེད་ཡོད་པའི་  གློག་འཕྲིན་་ཆོག་ཡིག་གི་དོན་ཚན་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:1997
+msgid "Body of password recovery e-mail"
+msgstr "ཆོག་ཡིག་སླར་གསོ་  གློག་འཕྲིན་གྱི་མ་གཟུགས།"
+
+#: modules/user.module:1997
+msgid "Customize the body of the forgotten password e-mail."
+msgstr "བརྗེད་ཡོད་པའི་  གློག་རིམ་ཆོག་ཡིག་གི་མ་གཟུགས་དེ་  སྲོལ་སྒྲིག་འབད།"
+
+#: modules/user.module:2005
+msgid "Pictures"
+msgstr "པར་ཚུ།"
+
+#: modules/user.module:2006
+msgid "Picture support"
+msgstr "པར་གྱིརྒྱབ་སྐྱོར།"
+
+#: modules/user.module:2006
+msgid "Enable picture support."
+msgstr "ལྕོགས་ཅན་པར་གྱི་རྒྱབ་སྐྱོར།"
+
+#: modules/user.module:2007
+msgid "Picture image path"
+msgstr "པར་གྱི་གཟུགས་བརྙན་གྱི་འགྲུལ་ལམ།"
+
+#: modules/user.module:2007
+msgid "Subdirectory in the directory \"%dir\" where pictures will be stored."
+msgstr "པར་འདི་ཚུ་  གསོག་འཇོག་འབད་བཏུབ་པའི་  སྣོད་ཐོ་ \"%dir\" ནང་   ཡན་ལག་ཁ་བྱང་ཐོ་དེབ།"
+
+#: modules/user.module:2008
+msgid "Default picture"
+msgstr "སྔཽན་སྒྲིག་གི་ པར།"
+
+#: modules/user.module:2008
+msgid "URL of picture to display for users with no custom picture selected. Leave blank for none."
+msgstr "པར་གྱི་སྲོལ་སྒྲིག་  སེལ་འཐུ་མ་འབད་བར་ཡོད་མི་  ལག་ལེན་པ་ཚུ་གི་དོན་ལུ་  བཀྲམ་སྟོན་འབད་ནི་ལུ་  པར་གྱི་ ཡུ་ཨར་ཨེལ།  ག་ལུ་ཡང་ སྟོངམ་མ་བཞག"
+
+#: modules/user.module:2009
+msgid "Picture maximum dimensions"
+msgstr "པར་གྱི་མང་མཐའི་  རྒྱ་འཁོན་ཚུ།"
+
+#: modules/user.module:2009
+msgid "Maximum dimensions for pictures."
+msgstr "པར་ཚུ་གི་་དོན་ལུ་  མང་མཐའི་རྒྱ་ཁྱོན།"
+
+#: modules/user.module:2010
+msgid "Picture maximum file size"
+msgstr "པར་གྱི་མང་མཐའི་  ཡིག་སྣོད་ཀྱི་ཚད།"
+
+#: modules/user.module:2010
+msgid "Maximum file size for pictures, in kB."
+msgstr "ཀེ་བི་ནང་  པར་གྱི་དོན་ལུ་  མང་མཐའི་ ཡིག་སྣོད་ཀྱི་ཚད།"
+
+#: modules/user.module:2011
+msgid "Picture guidelines"
+msgstr "ལམ་སྟོན་གྲལ་ཐིག"
+
+#: modules/user.module:2011
+msgid "This text is displayed at the picture upload form in addition to the default guidelines.  It's useful for helping or instructing your users."
+msgstr "སྔོན་སྒྲིག་ལམ་སྟོན་ཚུ་གི་  ཁ་སྐོང་ལུ་  འ་ནི་ཚིག་ཡིག་དེ་  པར་ སྐྱེལ་བཙུགས་ཀྱི་  འབྲི་ཤོག་ནང་  བཀྲམ་སྟོན་འབད་ཡོདཔ་ཨིན།  འདི་ ཁྱོད་རའི་  ལག་ལེན་པ་དེ་ཚུ་ལུ་  གྲོགས་རམ་འབད་ནི་དང་  ཡང་ན་  བསླབ་སྟོན་འབད་ནིའི་དོན་ལུ་  ཕན་ཐོགས་ཅན་ཅིག་ཨིན།  "
+
+#: modules/user.module:2047
+msgid "The user module allows users to register, login, and logout. Users benefit from being able to sign on because it associates content they create with their account and allows various permissions to be set for their roles.  The user module supports user roles which can setup fine grained permissions allowing each role to do only what the administrator wants them to. Each user is assigned to one or more roles. By default there are two roles <em>anonymous</em> - a user who has not logged in, and <em>authenticated</em> a user who has signed up and who has been authorized. "
+msgstr "ལག་ལེན་པའི་ཚད་གཞི་དེ་གིས་  ལག་ལེན་པ་འདི་ཚུ་  ཐོ་བཀོད་དང་  ནང་བསྐྱོད་  དེ་ལས་ ཕྱིར་བསྐྱོད་འབད་བཅུགཔ་ཨིན།  ལག་ལེན་པ་འདི་ཚུ་ལུ་  ནང་བསྐྱོད་འབད་ཚུགསཔ་ལས་བརྟེན་  ཁེ་ཕན་བྱུངམ་ཨིན་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  ཁོང་རའི་རྩིས་ཐོ་ཚུ་དང་གཅིག་ཁར་  གསར་བསྐྲུན་འབད་ཞིནམ་ལས་  ཁོང་རའི་ལས་འགན་ཚུ་  གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་  འདྲ་མིན་སྣ་ཚོགས་ཀྱི་གནང་བ་ཚུ་  བྱིན་ནིའི་  ནང་དོན་ཚུ་  འབྲེལ་བ་འབདཝ་ཨིན།  ལག་ལེན་པའི་ཚད་གཞི་དེ་གིས་ བདག་སྐྱོང་པ་དེ་  ཁོ་རང་ག་དགོཔ་ཨིན་ནའི་  ལས་འགན་དེ་ཚུ་  རེ་རེ་བཞིན་འབད་བཅུགཔ་པའི་ཐོག་ལས་ ལེག་ཤོམ་སྦེ་བཟོ་ཡོད་པའི་  གནང་བ་ཚུ་  གཞི་སྒྲིག་འབད་མི་  ལག་ལེན་པའི་ལས་འགན་དེ་ཚུ་ལུ་  རྒྱབ་སྐྱོར་འབདཝ་ཨིན། ལག་ལེན་པ་ཚུ་གེ་རང་ གཅིག་  ཡང་ན་  དེ་བ་ཡང་ལྷག་པའི་ ལས་འགན་ཚུ་  འགན་སྤྲོད་འབད་ཡོདཔ་ཨིན།  སྔོན་སྒྲིག་གི་སྦེ་  <em>མིང་མེདཔ་</em>ཟེར་  ནང་བསྐྱོད་མ་འབད་མི་ལག་ལེན་པ་དང་  <em>བདེན་བཤད་འབད་ཡོདཔ་</em>ཟེར་  ལག་ལེན་པ་  མིང་རྟགས་བཀད་ཡོད་མི་དང་ གནང་བ་སྤྲོད་ཡོད་པའི་  ལས་འགན་གཉིས་ཡོད། "
+
+#: modules/user.module:2048
+msgid "Users can use their own name or handle and can fine tune some personal configuration settings through their individual my account page.  Registered users need to authenticate by supplying either a local username and password, or a remote username and password such as DelphiForums ID, or one from a Drupal powered website.  A visitor accessing your website is assigned an unique ID, the so-called session ID, which is stored in a cookie. For security's sake, the cookie does not contain personal information but acts as a key to retrieve the information stored on your server. "
+msgstr "ལག་ལེན་པ་འདི་ཚུ་གིས་  ཁོང་རའི་མིང་དང་   ཡང་ན་  ལེགས་སྐྱོངས་འཐབ་དེ་ལག་ལེན་འཐབ་ཞིནམ་ལས་   ཁོང་ར་  སོ་སོའི་  ངེད་ཀྱི་རྩིས་ཐོའི་ཤོག་ལེབ་ཚུ་  བརྒྱུད་དེ་  རང་དོན་གྱི་རིམ་སྒྲིག་གི་གཞི་སྒྲིག་དེ་ཚུ་  ལེགས་ཤོམ་བཟོ་བཏུབ་ཨིན།  ཐོ་བཀོད་འབད་ཡོད་པའི་  ལག་ལེན་པ་འདི་ཚུ་  ཉེ་གནས་ཀྱི་ལག་ལེན་པའི་མིང་དང་  ཆོག་ཡིག་  ཡང་ན་ ཌེལ་ཕི་ གྲོས་གནས་ཀྱི་  ཨའི་ཌི་ ཡང་ན་   ཌུ་པཱལ་གི་ནུས་ཤུགས་ཡོད་པའི་ ཝེབ་ས་ཁོངས་གཅིག་ནང་ལས་ བཟུམ་མའི་  ཐག་རིང་གི་ལག་ལེན་པའི་མིང་དང་  ཆོག་ཡིག་  བཀྲམ་སྤེལ་འབད་ཐོག་ལས་  བདེན་བཤད་འབད་དགོ "
+
+#: modules/user.module:2049
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view your <a href=\"%user\">user page</a>.</li>\n"
+"<li>administer users at <a href=\"%admin-user\">administer &gt;&gt; user</a>.</li>\n"
+"<li>allow users who have the \"select different theme\" permission to select themes from their user account by enabling themes in <a href=\"%admin-themes\">administer &gt;&gt; themes</a>.</li>\n"
+"<li>read user profile help at <a href=\"%admin-help-profile\">administer &gt;&gt; help &gt;&gt; profile</a>.</li>\n"
+"<li>read about distributed authentication in the system module help at <a href=\"%admin-help-system\">administer &gt;&gt; help &gt;&gt; system</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱི་</p>\n"
+"<ul>\n"
+"<li>ཁྱོད་རའི་ <a href=\"%user\">ལག་ལེན་པའི་ཤོག་ལེབ་དེ་  སྟོན་བཏུབ</a>.</li>\n"
+"<li>ལག་ལེན་པ་ཚུ་ <a href=\"%admin-user\">བདག་སྐྱོང་འབད་ནི་ &gt;&gt; ལག་ལེན་པ་</a>ནང་ལུ་བདག་སྐྱོང་འབད་བཏུབ།.</li>\n"
+"<li>ལག་ལེན་པ་ཚུ་  \"select different theme\" ཁོང་རའི་ ལག་ལེན་པའི་རྩིས་ཐོ་ནང་ལས་  བརྗོད་དོན་ཚུ་  སེལ་འཐུ་འབད་ནིའི་  གནང་བ་ཡོད་མི་ཚུ་<a href=\"%admin-themes\">བདག་སྐྱོང་འབད་ནི་ &gt;&gt; བརྗོད་དོན་ཚུ་</a>ནང་ལུ་  བརྗོད་དོན་ཚུ་  ལྕོགས་ཅན་བཟོ་ཐོག་ལས་ ཆོགཔ་བཟོ་བཏུབ། .</li>\n"
+"<li>ལག་ལེན་པའི་  གསལ་སྡུད་གྲོགས་རམ་དེ་  <a href=\"%admin-help-profile\">བདག་སྐྱོང་པའི་ &gt;&gt; གྲོགས་རམ་ &gt;&gt; གསལ་སྡུད་</a>ལྷག་བཏུབ།.</li>\n"
+"<li>བགོ་བཀྲམ་འབད་ཡོད་པའི་  བདེན་བཤད་ཀྱི་བསྐོར་ལས་  ཚད་གཞི་ རིམ་ལུགས་ཀྱི་གྲོགས་རམ་ནང་<a href=\"%admin-help-system\">བདག་སྐྱོང་འབད་ནི་ &gt;&gt; གྲོགས་རམ་ &gt;&gt; རིམ་ལུགས་</a>ལྷག་བཏུབ།.</li>\n"
+"</ul>\n"
+
+#: modules/user.module:2058
+msgid "For more information please read the configuration and customization handbook <a href=\"%user\">User page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་  ལག་དེབ་<a href=\"%user\">ལག་ལེན་པའི་ཤོག་ལེབ་</a>ལྷག་བཀའ་དྲི་བསྐྱངས།"
+
+#: modules/user.module:2061
+msgid "Manages the user registration and login system."
+msgstr "ལག་ལེན་པའི་ ཐོ་བཀོད་དང་ ནང་བསྐྱོད་རིམ་ལུགས་དེ་ཚུ་  འཛིན་སྐྱོང་འབདཝ་ཨིན།"
+
+#: modules/user.module:2063
+msgid "<p>Drupal allows users to register, login, logout, maintain user profiles, etc. No participant can use his own name to post content until he signs up for a user account.</p>"
+msgstr "<pཌུ་པཱལ་དེ་གིས་  ལག་ལེན་པ་འདི་ལུ་  ཐོ་འགོད་འབད་ནི་  ནང་བསྐྱོད་འབད་ནི་  ཕྱིར་བསྐྱོད་འབད་ནི་  ལག་ལེན་པའི་གསལ་སྡུད་འཛིན་སྐྱོད་འཐབ་ནི་ ལ་སོགས་པ་ཚུ་འབད་བཅུགཔ་ཨིན།  ཁོ་གིས་ལག་ལེན་པའི་རྩིས་ཐོ་ཅིག་ལུ་མིང་རྟགས་མ་བཀོད་ཚུན་ཚོད་  བཅའ་མར་གཏོགས་མི་འདི་གིས་  གནས་བསྐྱོད་ནང་དོན་ལུ་ཁོ་རའི་མིང་ངོ་མ་འདི་ལག་ལེན་འཐབ་མི་བཏུབ་ཨིན། </p> "
+
+#: modules/user.module:2066
+msgid "<p>This web page allows the administrators to register a new users by hand. Note that you cannot have a user where either the e-mail address or the username match another user in the system.</p>"
+msgstr "<p>ཝེབ་ཤོག་ལེབ་འདི་གིས་  བདག་སྐྱོང་འཐབ་མི་འདི་ལུ་  ལགཔ་གིས་འབད་ལག་ལེན་པ་གསརཔ་ཅིག་ཐོ་འགོད་འབད་བཅུགཔ་ཨིན།  རིམ་ལུགས་ནང་ལུ་  ལག་ལེན་པ་འདི་གིས་  གློག་འཕྲིན་ཁ་བྱང་ཡང་ན་  ལག་ལེན་པའི་མིང་འདི་གིས་ལག་ལེན་པ་གཞན་མི་ཅིག་དང་མཐུན་སྒྲིག་འབད་བ་ཅིན་  ཁྱོད་ལུ་ལག་ལེན་པ་ཡོདཔ་འདི་མི་བཏུབ་ཟེར་དྲན་དགོ།  </p>"
+
+#: modules/user.module:2068
+msgid "<p>Set up username and e-mail address access rules for new <em>and</em> existing accounts (currently logged in accounts will not be logged out). If a username or e-mail address for an account matches any deny rule, but not an allow rule, then the account will not be allowed to be created or to log in. A host rule is effective for every page view, not just registrations.</p>"
+msgstr "<p> <em>and</em> གནས་དེ་ཡོད་པའི་  རྩིས་ཐོ་(ད་ལྟོ་རྩིས་ཐོ་ནང་ལུ་ནང་སྐྱོད་འབད་དེ་ཡོད་མི་འདི་ཕྱིར་སྐྱོད་མི་འབད་)གསརཔ་གི་དོན་ལུ་  ལག་ལེན་པའི་མིང་དང་གློག་འཕྲིན་ཁ་བྱང་འཛུལ་སྤྱོད་ལམ་ལུགས་ཚུ་གཞི་སྒྲིག་འབད།  རྩིས་ཐོའི་དོན་ལུ་ཨིན་པའི་གློག་འཕྲིན་ཁ་བྱང་ཡང་ན་  ལག་ལེན་པའི་མིང་འདི་གིས་  ཉན་མ་བཏུབ་པའི་ལམ་ལུགས་གང་རུང་ཅིག་ལུ་མཐུན་སྒྲིག་འབད་ནི་དང་ དེ་འབདཝ་ད་  འབད་བཅུག་པའི་ལམ་ལུགས་འདི་མེན་པ་ཅིན་  རྩི་ཐོ་འདི་གསར་བསྐྲུན་འབད་ནི་དང་ཡང་ན་ ནང་སྐྱོད་འབད་མི་བཅུག།  ཧོསཊི་མཐོང་སྣང་འདི་  ཐོ་འགོད་རྐྱངམ་ཅིག་ལུ་མེན་པར་  ཤོག་ལེབ་མཐོང་སྣང་རེ་གི་དོན་ལུ་  ཕན་གནོད་ཡོདཔ་ཨིན། </p>"
+
+#: modules/user.module:2070
+msgid "<p>Permissions let you control what users can do on your site.  Each user role (defined on the <a href=\"%role\">user roles page</a>) has its own set of permissions. For example, you could give users classified as \"Administrators\" permission to \"administer nodes\" but deny this power to ordinary, \"authenticated\" users. You can use permissions to reveal new features to privileged users (those with subscriptions, for example). Permissions also allow trusted users to share the administrative burden of running a busy site.</p>"
+msgstr "<p> གནང་བ་འདི་གིས་ ཁྱོད་ལུ་ ལག་ལེན་པ་འདི་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་ནང་ག་ཅི་འབད་ནི་ཨིན་ན་འདི་ཚད་འཛིན་འབད་བཅུགཔ་ཨིན།  <a href=\"%role\">user roles page</a>)གུ་ངེས་འཛིན་འབད་འདི་ཡོད་མི་  ལག་ལེན་པའི་ལས་འགན་འདི་ལུ་  རང་སའི་གནང་བ་གཞི་སྒྲིག་འདི་ཡོདཔ་ཨིན།  དཔེར་ན་    \"administer nodes\" ལུ་གནང་བ་\"Administrators\"སྦེ་ཟེར་དབྱེ་བ་བཟོ་ཡོད་མི་  དེ་འབདཝ་ད་  ནུས་ཤུགས་འདི་དཀྱུ་མ་ལུ་ཉན་མ་བཏུབ་འབད་ནི་  \"authenticated\" ལག་ལེན་པ་བཟུམ་མའི་དབྱེ་བ་བཟོ་ཡོད་མི་འདི་  ཁྱོད་ཀྱིས་ལག་ལེན་པ་ལུ་བྱིན་བཏུབ་ཨིན།  ཁེ་དབང་ཅན་གྱི་ལག་ལེན་པ་(དཔེ་འབད་བ་ཅིན་ མཁོ་མངགས་དང་ཅི་ཁར་ཡོད་མི་ )ལུ་  ཁྱད་རྣམ་གསརཔ་ཕྱིར་གསལ་འབད་ནི་དོན་ལུ་ ཁྱོད་ཀྱིས་གནང་བ་འདི་ལག་ལེན་འཐབ་བཏུབ་ཨིན།  གནང་བ་འདི་གིས་  གཞན་ཡང་  བློ་གཏད་ཅན་གྱི་ལག་ལེན་པ་ཚུ་ལུ་  ཁོམ་མེད་ས་ཁོངས་ཅིག་གཡོག་བཀལ་མི་གི་  བདག་སྐྱོང་པའི་དཀའ་ངལ་འདི་རུབ་སྤྱོད་འབད་བཅུགཔ་ཨིན། </p>"
+
+#: modules/user.module:2072
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A role defines a group of users that have certain privileges as defined in <a href=\"%permissions\">user permissions</a>. Examples of roles include: anonymous user, authenticated user, moderator, administrator and so on. In this area you will define the <em>role names</em> of the various roles. To delete a role choose \"edit\".</p><p>By default, Drupal comes with two user roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p> ལས་འགན་འདི་གིས་ ཁྱོད་ལུ་  ཌུ་པཱལ་གྱི་སྲུང་སྐྱོབས་དང་བདག་སྐྱོང་འཐབ་ནི་འདི་ལེགས་པ་བཟོཝ་ཨིན།  ལས་འགན་འདི་གིས་ <a href=\"%permissions\">ལག་ལེན་པའི་གནང་བ་</a>ནང་ལུ་ངེས་འཛིན་འབད་དེ་ཡོད་པའི་  ཁེ་དབང་ལ་ལོ་ཅིག་ཡོད་མི་ལག་ལེན་པའི་སྡེ་ཚན་ཅིག་ངེས་འཛིན་འབདཝ་ཨིན། ལས་འགན་གྱི་དཔེ་འདི་: ལག་ལེན་པ་མིང་མེདཔ་ བདེན་བཤད་འབད་ནི་ལག་ལེན་པ་  རན་པ་འབད་མི་  བདག་སྐྱོང་འཐབ་མི་ལ་སོགས་པ་ཚུ་ཨིན།  མངའ་ཁོངས་འདི་གི་ནང་ལུ་  ཁྱོད་ཀྱིས་  ལས་འགན་སྣ་མང་གི་<em>ལས་འགན་གྱི་མིང་</em>འདི་ངེས་འཛིན་འབད་ནི་ཨིན། ལས་འགན་འདི་བཏོན་གཏང་ནི་དོན་ལུ་  \"edit\"འདི་གདམ་ཁ་བརྐྱབ། སྔོན་སྒྲིག་གིས་ </p><p>འདི་ ལག་ལེན་པ་གཉིས་དང་བཅས་  འོངམ་ཨིན:</p>\n"
+"      <ul>\n"
+"      <li>མིང་མེདཔ་ལག་ལེན་པ་:  ལས་འགན་འདི་  ལག་ལེན་འཐབ་ནི་གི་རྩིས་ཐོ་མེད་མི་ཡང་ན་  བདེན་བཤད་མ་འབད་མི་གི་དོན་ལུ་ལག་ལེན་འཐབ་ཨིན། </li>\n"
+"<li>བདེན་བཤད་འབད་ཡོད་པའི་ལག་ལེན་པ་: ལས་འགན་འདི་རང་བཞིན་གྱིས་  ཆ་མཉམ་ལག་ལེན་པའི་ནང་སྐྱོད་ནང་ལུ་  ཁས་ལེནམ་ཨིན།</li>\n"
+"      </ul>"
+
+#: modules/user.module:2078
+msgid "<p>Enter a simple pattern (\"*\" may be used as a wildcard match) to search for a username.  For example, one may search for \"br\" and Drupal might return \"brian\", \"brad\", and \"brenda\".</p>"
+msgstr "<p> ལག་ལེན་པའི་མིང་འདི་འཚོལ་ཞིབ་འབད་ནི་དོན་ལུ་  དཔེ་གཞི་འཇམ་སམ་ (\"*\" ཡང་ན་ཝའིལ་ཀཌི་ མཐུན་སྒྲིག་ཅིག་འབད་ལག་ལེན་འཐབ་འོང་།)འདི་ཐོ་བཀོད་འབད། དཔེར་ན་  གཅིག་གི་ \"br\" དང་ཌུ་པཱལ་འདི་ལོག་འོང་ནི་ \"brian\", \"brad\", དང་\"brenda\" དོན་ལུ་འཚོལ་དོ་བཟུམ་ཨིན། </p>"
+
+#: modules/user.module:2081
+msgid "<p>In order to use the full power of Drupal a visitor must sign up for an account. This page lets you setup how a user signs up, logs out, the guidelines from the system about user subscriptions, and the e-mails the system will send to the user.</p>"
+msgstr "ཌུ་པཱལ་གི་ནུས་ཤུགས་ གེ་རང་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་  བལྟ་སྤྱོད་པ་ཚུ་གིས་  རྩིས་ཐོ་གཅིག་  གསར་བསྐྲུན་འབད་དགོ   འ་ནཱི་ཤོག་ལེབ་འདི་གིས་  ཁྱོད་ལུ་  ལག་ལེན་པ་འདི་ཚུ་གིས་  མིང་རྟགས་བཀོད་ཐངས་དང་  ཕྱིར་བསྐྱོད་འབད་ཐངས་ཚུ་  གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིནམ་མ་ཚད་  རིམ་ལུགས་ནང་ལས་  ལག་ལེན་པའི་  མཁོ་མངགས་དང་ གློག་འཕྲིན་ཚུ་གི་སྐོར་ལས་  རིམ་ལུགས་འདི་   ལག་ལེན་པ་ནང་ལུ་  གཏངའོང་།"
+
+#: modules/user.module:2085
+msgid ""
+"\n"
+"      <h3>Distributed authentication<a id=\"da\"></a></h3>\n"
+"      <p>One of the more tedious moments in visiting a new website is filling out the registration form. Here at %site, you do not have to fill out a registration form if you are already a member of %help-links. This capability is called <em>distributed authentication</em>, and is unique to <a href=\"%drupal\">Drupal</a>, the software which powers %site.</p>\n"
+"      <p>Distributed authentication enables a new user to input a username and password into the login box, and immediately be recognized, even if that user never registered at %site. This works because Drupal knows how to communicate with external registration databases. For example, lets say that new user 'Joe' is already a registered member of <a href=\"%delphi-forums\">Delphi Forums</a>. Drupal informs Joe on registration and login screens that he may login with his Delphi ID instead of registering with %site. Joe likes that idea, and logs in with a username of joe@remote.delphiforums.com and his usual Delphi password. Drupal then contacts the <em>remote.delphiforums.com</em> server behind the scenes (usually using <a href=\"%xml\">XML-RPC</a>, <a href=\"%http-post\">HTTP POST</a>, or <a href=\"%soap\">SOAP</a>) and asks: \"Is the password for user Joe correct?\".  If Delphi replies yes, then we create a new %site account for Joe and log him into it.  Joe may keep on logging into %site in the same manner, and he will always be logged into the same account.</p>"
+msgstr ""
+"\n"
+"      <h3>བགོ་བཀྲམ་འབད་ཡོད་པའི་  བདེན་བཤད<a id=\"da\"></a></h3>\n"
+"      <p>ཝེབ་ས་ཁོངས་ཅིག་ནང་  བལྡ་སྤྱོད་འབད་ནིའི་དོན་ལུ་  ཐང་ཆད་ཤོས་ཀྱི་ཡུན་དེ་རང་  ཐོ་བཀོད་འབད་ནིའི་འབྲི་ཤོག་བཀང་ནི་འདི་ཨིན།  %site་གི་ས་ཁོངས་འདི་ནང་ལུ་  ཁྱོད་ཧེ་མ་ལས་  %help-links་གི་འཐུ་མི་ཅིག་ཨིན་པ་ཅིན་  ཐོ་བཀོད་འབད་ནིའི་འབྲི་ཤོག་དེ་  བཀང་མི་དགོ"
+
+#: modules/user.module:616;619
+msgid "1 guest"
+msgid_plural "%count guests"
+msgstr[0] "མགྱོནམ་༡།"
+msgstr[1] "%countགྱི་ མགྱོནམ་ཚུ།"
+
+#: modules/user.module:456
+msgid "administer access control"
+msgstr "བདག་སྐྱོང་པའི་ འཚུལ་སྤྱོད་ཚད་འཛིན།"
+
+#: modules/user.module:456
+msgid "administer users"
+msgstr "བདག་སྐྱོང་པའི་ལག་ལེན་པ་ཚུ།"
+
+#: modules/user.module:456
+msgid "access user profiles"
+msgstr "ལག་ལེན་པའི་གསལ་སྡུད་དེ་  འཚུལ་སྤྱོད་འབད།"
+
+#: modules/user.module:456
+msgid "change own username"
+msgstr "བདག་བཟུང་ ལག་ལེན་པའི་བསྒྱུར་བཅོས་འབད།"
+

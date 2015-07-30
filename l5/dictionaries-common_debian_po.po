@@ -1,0 +1,196 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: po.pot\n"
+"POT-Creation-Date: 2005-04-30 17:13+0200\n"
+"PO-Revision-Date: 2006-05-25 17:15+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:3
+msgid "An invalid debconf value [${value}] has been found"
+msgstr "ནུས་མེད་ཀྱི་ debconf བེ་ལུ་[${value}] ཐོབ་ཅི།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:3
+msgid "It does not correspond to any installed package in the system."
+msgstr "རིམ་ལུགས་ནང་ གཞི་བཙུགས་འབད་ཡོད་པའི་ཐུམ་སྒྲིལ་ག་ཅི་དང་ཡང་ཆ་མི་མཉམ་པས།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:3
+msgid "That is usually caused by problems at some time during packages installation, where the package providing [${value}] was selected for installation but finally not installed because of errors in other packages."
+msgstr "དེ་ཚུ་གཙོ་བོ་རང་རེ་ཅིག་སྐབས་ ཐུམ་སྒྲིལ་ཚུ་གཞི་བཙུགས་འབད་བའི་བསྒང་ལུ་ དཀའ་ངལ་ཚུ་གིས་རྒྱུ་རྐྱེན་རྐྱབ་ཨིན་ དེ་ཡང་  [${value}]བྱིན་མི་ཐུམ་སྒྲིལ་འདི་ གཞི་བཙུགས་ཀྱི་དོན་ལུ་སེལ་འཐུ་འབད་དེ་ཡོད་ དེ་འབདཝ་ད་ ཐུམ་སྒྲིལ་གཞན་ཚུ་ནང་ལུ་འཇོལ་བ་བྱུངམ་ལས་བརྟེེན་ཏེ་ གཞི་བཙུགས་འབད་མ་ཚུགས།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:3
+msgid "To fix this error, reinstall (or install) the package that provides the missing value.  Then, if you don't want this package on your system, remove it, which will also remove its debconf entries. Menu to be shown after this message will try to leave the system in a working state until then."
+msgstr "འཛོལ་བའི་དཀའ་ངལ་སེལ་ནི་ལུ་ བརླག་སྟོར་ཞུགས་པའི་བེ་ལུ་བྱིན་པའི་ཐུམ་སྒྲིལ་ ལོག་གཞི་བཙུགས་(ཡངན་ གཞི་བཙུགས་)འབད། དེ་ལས་ ཁྱོད་རའི་རིམ་ལུགས་གུ་ ཐུམ་སྒྲིལ་འདི་མ་དགོ་པ་ཅིན་རྩ་བསྐྲད་གཏང་ དེ་གིས་ debconfཐོ་བཀོད་ཚུ་ཡང་རྩ་བསྐྲད་གཏངམ་ཨིན། འཕྲིན་དོན་འདིའི་ཤུལ་མ་སྟོན་དགོ་པའི་དཀར་ཆག་གིས་ དེ་མ་སྟོན་ཚུན་ཚོད་ལུ་ལཱ་གི་གནས་ལུགས་ཅིག་ནང་ རིམ་ལུགས་བཞག་ནིའི་འབད་རྩོལ་བསྐྱེད་འོང་།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:3
+msgid "This error message can also appear during ispell dictionary or wordlist renaming (e.g., wenglish-> wamerican). In this case it is harmless and everything will be fixed after you select your default in the menu(s) shown after this message."
+msgstr "འཛོལ་བའི་འཕྲིན་དོན་འདི་ སི་པེལ་ཚིག་མཛོད་ ཡང་ན་ མིང་ཚིག་ཐོ་ཡིག་བསྐྱར་མིང་བཏགས་པའི་སྐབས་ལུ་ཡང་འབྱུང་འོང་(དཔེར་ན་ ཝེང་ལིཤ་->ཝེ་མི་རི་ཀེན་)། གནད་དོན་འདི་ནང་ འདི་གནོད་པ་མེདཔ་དང་ འཕྲིན་དོན་གྱི་ཤུལ་མ་ དཀར་ཆག་(ཚུ་)སྟོན་ཡོད་མི་ནང་ཁྱོད་རའི་སྔོན་སྒྲིག་སེལ་འཐུ་འབད་བའི་ཤུལ་ལུ་ ཡོད་ཚད་གཅིགཔ་གཏན་ཁེལ་བཟོ་འོང་།"
+
+#. Type: select
+#. Description
+#: ../dictionaries-common.templates:25
+msgid "Which ispell dictionary should be the system's default?"
+msgstr "སི་པེལ་ཚིག་མཛོད་ག་འདི་ རིམ་ལུགས་ཀྱི་སྔོན་སྒྲིག་ཨིན་དགོཔ་སྨོ?"
+
+#. Type: select
+#. Description
+#: ../dictionaries-common.templates:25
+msgid "Because more than one ispell dictionary will be available in your system, please select the one you'd like applications to use by default."
+msgstr "ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་སི་པེལ་ཚིག་མཛོད་གཅིག་ལས་ལྷག་སྟེ་འཐོབ་ཚུགས་འོང་ ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་དགོ་མནོ་མི་གློག་རིམ་ཚུ་ནང་ལས་སྔོན་སྒྲིག་གི་ཐོག་ལས་ གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#. Type: select
+#. Description
+#: ../dictionaries-common.templates:25
+msgid "You can change the default ispell dictionary at any time by running \"select-default-ispell\"."
+msgstr "ཁྱོད་ཀྱིས་ \"select-default-ispell\"གཡོག་བཀོལ་བའི་ཐོག་ལས་ནམ་ཨིན་རུང་ སྔོན་སྒྲིག་སི་པེལ་ཚིག་མཛོད་འདི་བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#. Type: select
+#. Choices
+#: ../dictionaries-common.templates:34
+msgid "${choices}, Manual symlinks setting"
+msgstr "${choices}ལག་དེབ་སིམ་ལིངསི་སྒྲིག་སྟངས།"
+
+#. Type: select
+#. Description
+#: ../dictionaries-common.templates:35
+msgid "Which wordlist should be the system's default?"
+msgstr "མིང་ཚིག་ཐོ་ཡིག་ག་འདི་ རིམ་ལུགས་ཀྱི་སྔོན་སྒྲིག་ཨིན་སྨོ?"
+
+#. Type: select
+#. Description
+#: ../dictionaries-common.templates:35
+msgid "Because more than one wordlist will be available in your system, please select the one you'd like applications to use by default."
+msgstr "ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་མིང་ཚིག་ཐོ་ཡིག་གཅིག་ལས་ལྷག་སྟེ་ འཐོབ་ཚུགས་འོང་ ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་དགོ་མནོ་མི་གློག་རིམ་ཚུ་ནང་ལས་སྔོན་སྒྲིག་གི་ཐོག་ལས་ གཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#. Type: select
+#. Description
+#: ../dictionaries-common.templates:35
+msgid "You can change the default wordlist at any time by running \"select-default-wordlist\"."
+msgstr "ཁྱོད་ཀྱིས་ \"select-default-wordlist\"གཡོག་བཀོལ་བའི་ཐོག་ལས་ དུས་ཚོད་ནམ་ཨིན་རུང་ སྔོན་སྒྲིག་མིང་ཚིག་ཐོ་ཡིག་འདི་ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:45
+msgid "Move non-FHS stuff under /usr/dict to /usr/dict-pre-FHS?"
+msgstr "/usr/dict to /usr/dict-pre-FHS འོག་ལུ་ ཨེཕི་ཨེཅི་ཨེསི་མེན་མི་ཚུ་ སྤོ་བཤུད་འབད་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:45
+msgid "Some stuff under /usr/dict that is not a symlink to /usr/share/dict has been detected in your system. /usr/share/dict is now the FHS location for those files. Everything under /usr/dict can be moved to /usr/dict-pre-FHS and a symlink /usr/dict -> /usr/share/dict set."
+msgstr "/usr/share/dict ལུ་སིམ་ལིང་མེན་པའི་ /usr/dict གི་འོག་ལུ་ཡོད་པའི་ཅ་ཆས་ལ་ལོ་ཅིག་ ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་སྐྱོན་འཛིན་འབད་ཡི། /usr/share/dict འདི་ད་ལས་ཕར་ ཡིག་སྣོད་དེ་ཚུ་གི་དོན་ལུ་ ཨེཕི་ཨེཅི་ཨེསི་ གནས་ཁོངས་ཨིན།  /usr/dict འོག་གི་ཡོད་ཚད་ཅིགཔ་ /usr/dict-pre-FHS ལུ་སྤོ་ཚུགསཔ་དང་ སིམ་ལིང་/usr/dict -> /usr/share/dict གཞི་སྒྲིག་འབད་ཚུགས། "
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:45
+msgid "Although no current Debian package uses that obsolete /usr/dict location, not having that symlink may break some of your old applications that used it, so you are encouraged to let the files be moved and the link be set up."
+msgstr "མ་གཞི་ད་ལྟོའི་ཌི་བི་ཡཱན་ཐུམ་སྒྲིལ་གྱིས་ ཕན་མེད་ /usr/dict གནས་ཁོངས་དེ་ ལག་ལེན་འཐབ་ཨིན་ དེ་འབདཝ་ད་ སིམ་ལིང་མེད་ནི་འདི་གིས་ ཁྱོད་རའི་གློག་རིམ་རྙིངམ་ལག་ལེན་འཐབ་ཡོད་མི་ལ་ལོ་ཅིག་ རྒྱུན་ཆད་འོང་། དེ་འབད་ནི་འདི་གིས་ ཡིག་སྣོད་ཚུ་རྩ་བསྐྲད་དང་འབྲེལ་ལམ་གཞི་སྒྲིག་འབད་བཅུག"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:58
+msgid "Remove obsolete /etc/dictionary link?"
+msgstr "ཕན་མེད་/etc/ཚིག་མཛོད་འབྲེལ་ལམ་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:58
+msgid "There is a /etc/dictionary link in your system. This is obsolete and no longer means anything. You are strongly suggested to allow removal of that link."
+msgstr "ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་ /etc/ཚིག་མཛོད་འདུག འདི་ཕན་མེད་ཨིན་པའི་ཁར་ད་ལས་ཕར་ག་ཅི་ཡང་མི་བཏུབ། དེ་འབད་ནི་འདི་གིས་ ཁྱོད་ལུ་འབྲེལ་ལམ་དེ་རྩ་བསྐྲད་གཏང་བཅུག་ནིའི་བསམ་འཆར་བཀོདཔ་ཨིན།"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:58
+msgid "You will be called to explicitly select the default wordlist during installation of wordlist packages. You can change your selection at any time by running 'select-default-wordlist'."
+msgstr "མིང་ཚིག་ཐུམ་སྒྲིལ་ཚུ་གཞི་བཙུགས་འབད་བའི་བསྒང་ སྔོན་སྒྲིག་མིང་ཚིག་ཐོ་ཡིག་འདི་གཏན་ཁེལ་སྦེ་ སེལ་འཐུ་འབད་ནིའི་དོན་ལས་ ཁྱོད་ལུ་འབོད་བརྡ་འབད་འོང་།  "
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:69
+msgid "Problems rebuilding an ${xxpell} hash file (${hashfile})"
+msgstr "${xxpell} དྲྭ་རྟགས་ཡིག་སྣོད་ (${hashfile})སླར་བཟོ་རྩིག་འབད་བའི་བསྒང་ལུ་ དཀའ་ངལ་ཚུ།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:69
+msgid "** Error: ${errormsg}"
+msgstr "** འཛོལ་བ་: ${errormsg}"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:69
+msgid "This error was caused by package providing '${hashfile}', although it can be made evident during other package postinst. Please complain to the maintainer of package providing '${hashfile}'."
+msgstr "མ་གཞི་ ཐུམ་སྒྲིལ་པོསིཊིངསིཊི་གི་སྐབས་ གསལ་ཏོག་ཏོ་བཟོ་ཚུགས་རུང་ འཛོལ་བ་འདི་ ཐུམ་སྒྲིལ་བྱིན་པ་'${hashfile}' གིས་ ཆ་རྐྱེན་བརྐྱབས་རྐྱབ་ཨིན། ཐུམ་སྒྲིལ་བྱིན་པ་'${hashfile}'གི་རྒྱུན་སྐྱོང་པ་ལུ་ ཞུ་གཏུགས་འབད།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:69
+msgid "Until this problem is fixed you will not be able to use ${xxpell} with '${hashfile}'."
+msgstr "དཀའ་ངལ་འདི་གཏན་གཏན་མ་བཟོ་བར་དུ་ ཁྱོད་ཀྱིས་'${hashfile}'དང་བཅས་ ${xxpell}ལག་ལེན་འཐབ་མི་ཚུགས།"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:82
+msgid "Remove obsolete /usr/dict symlink?"
+msgstr "ཕན་མེད་ /usr/dict སིམ་ལིང་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:82
+msgid "A non FHS /usr/dict symlink has been found. Since it is obsolete, no Debian package currently uses that location and none of your programs should rely on it, so you are strongly suggested to accept its removal."
+msgstr "ཨེཕི་ཨེཅི་ཨེསི་ /usr/dict ལིམ་ལིང་མེན་མི་ཅིག་ ཐོབ་ཅི། འདི་ཕན་མེད་ཨིནམ་ལས་ གནས་ཁོངས་དེ་ ད་ལྟོ་ཌི་བི་ཡཱན་ཐུམ་སྒྲིལ་གྱིས་ལག་ལེན་མི་འཐབ་ཨིནམ་དང་ ཁྱོད་ཀྱི་ལས་རིམ་ཚུ་ཡང་དེ་གུ་བརྟེན་དགོཔ་མེདཔ་ལས་ ཁྱོད་ལུ་འདི་རྩ་བསྐྲད་གཏང་ནི་ལུ་དང་ལེན་འབད་ནིའི་བསམ་འཆར་བཀོདཔ་ཨིན།"
+
+#. Type: boolean
+#. Description
+#: ../dictionaries-common.templates:82
+msgid "If for whatever reason you need that symlink, recreate it again, but you are suggested to better fix your old programs to use the current /usr/share/dict location."
+msgstr "སིམ་ལིང་འདི་ རྒྱུ་མཚན་ག་ཅིའི་ཐད་ལས་ཨིན་རུང་ཁྱོད་ལུ་དགོ་པ་ཅིན་ དོ་རུང་ལོག་སྟེ་གསར་བསྐྲུན་འབད་ དེ་འབདཝ་ད་ ད་ལྟོའི་ /usr/share/dict གནས་ཁོངས་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ལས་རིམ་རྙིངམ་ཚུ་གཏན་གཏན་བཟོ་ནིའི་བསམ་འཆར་བཀོདཔ་ཨིན།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:93
+msgid "Default values for ispell dictionary/wordlist are not set here."
+msgstr "སི་པེལ་ཚིག་མཛོད་/མིང་ཚིག་ཐོ་ཡིག་གི་དོན་ལུ་ སྔོན་སྒྲིག་བེ་ལུསི་ཚུ་ ནཱ་ལུ་གཞི་སྒྲིག་མ་འབད་བས།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:93
+msgid "Running 'dpkg-reconfigure dictionaries-common' will not set the default values for ispell dictionary/wordlist. Running 'dpkg-reconfigure ispell' will not set the default ispell dictionary."
+msgstr " 'dpkg-reconfigure dictionaries-common'གཡོག་བཀོལ་ཡོད་མི་གིས་ སི་པེལ་ཚིག་མཛོད་/མིང་ཚིག་ཐོ་ཡིག་གི་དོན་ལུ་ སྔོན་སྒྲིག་བེ་ལུསི་ གཞི་སྒྲིག་མི་འབད།   'dpkg-reconfigure ispell'གཡོག་བཀོལ་ཡོད་མི་གིས་ སྔོན་སྒྲིག་སི་པེལ་ཚིག་མཛོད་ གཞི་སྒྲིག་མི་འབད།"
+
+#. Type: note
+#. Description
+#: ../dictionaries-common.templates:93
+msgid "Use instead 'select-default-ispell' or 'select-default-wordlist' scripts."
+msgstr "དེ་གི་ཚབ་ལུ་ 'select-default-ispell' ཡང་ན་ 'select-default-wordlist' ཡིག་ཚུགས་ ལག་ལེན་འཐབ།"
+

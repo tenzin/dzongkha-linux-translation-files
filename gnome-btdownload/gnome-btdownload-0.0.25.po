@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-btdownload-0.0.25.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-20 11:58+0600\n"
+"PO-Revision-Date: 2006-11-20 14:19+0530\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/gnome-btdownload:171
+msgid "Couldn't locate file, will probably explode..."
+msgstr "ཡིག་སྣོད་འདི་ ག་ཡོད་འཚོལ་མ་ཐོབ་ ཡང་ཅིན་འབདན་འགས་ནི་འོང་།..."
+
+#: ../share/glade/contdiag.glade.h:1
+msgid "<b>A possible previous save location for this BitTorrent has been found:</b>"
+msgstr "<b> བིཊི་ཊོ་རེནཊི་དོན་ལུ་ སྲིད་པའི་ཧེ་མའི་གནས་ཁོངས་གཅིག་ཐོབ་ཡོདཔ་ཨིན། :</b>"
+
+#: ../share/glade/contdiag.glade.h:2
+msgid "Continue to download to this location or save elsewhere?"
+msgstr "འ་ནི་གནས་ཁོངས་ནང་ཕབ་ལེན་འཕྲོ་མཐུད་ཡང་ན་ གཞན་ཅིག་ཁར་སྲུངས་བཞག་འབད་ནི་ཨིན་ན?"
+
+#: ../share/glade/dlsession.glade.h:1
+msgid "<b>Address:</b>"
+msgstr "<b> ཁ་བྱང་། :</b>"
+
+#: ../share/glade/dlsession.glade.h:2
+msgid "<b>File:</b>"
+msgstr "<b> ཡིག་སྣོད། :</b>"
+
+#: ../share/glade/dlsession.glade.h:3
+msgid "<b>Status:</b>"
+msgstr "<b> གནས་ཚད། :</b>"
+
+#: ../share/glade/dlsession.glade.h:4
+msgid "<b>Time Elapsed:</b>"
+msgstr "<b> དུས་རྫོགས། :</b>"
+
+#: ../share/glade/dlsession.glade.h:5
+msgid "<b>Time Remaining:</b>"
+msgstr "<b> དུས་ཚོད་ལྷག་ལུས། :</b>"
+
+#: ../share/glade/dlsession.glade.h:6
+msgid "BitTorrent Session"
+msgstr "བིཊི་ཊོ་རེནཊི་ལཱ་ཡུན།"
+
+#: ../share/glade/dlsession.glade.h:7
+msgid "Cap Upload Rate:"
+msgstr "གོང་ཚད་སྐྱེལ་བཙུགས་མང་ཚད་བཟོ།:"
+
+#: ../share/glade/dlsession.glade.h:8
+msgid "Cap Uploads:"
+msgstr "སྐྱེལ་བཙུགས་ཚུ་མང་ཚད་བཟོ།:"
+
+#: ../share/glade/dlsession.glade.h:9
+msgid "Display Error Dialogs"
+msgstr "འཛོལ་བའི་ཌའི་ལོགསི་བཀྲམ་སྟོན་འབད།"
+
+#: ../share/glade/dlsession.glade.h:10
+msgid "Download"
+msgstr "ཕབ་ལེན།"
+
+#: ../share/glade/dlsession.glade.h:11
+msgid "Events"
+msgstr "བྱུང་ལས་ཚུ།"
+
+#: ../share/glade/dlsession.glade.h:12
+msgid "KB/s"
+msgstr "ཀེ་བི་/ཨེསི།"
+
+#: ../share/glade/dlsession.glade.h:13
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../share/glade/dlsession.glade.h:14
+msgid "Upload"
+msgstr "སྐྱེལ་བཙུགས།"
+
+#: ../share/glade/dlsession.glade.h:15
+msgid "Users"
+msgstr "ལག་ལེན་པ་ཚུ།"
+
+#: ../share/glade/dlsession.glade.h:16
+msgid "_Resume"
+msgstr "བསྐྱར་ལོག(_R)"
+
+#: ../src/gnome-btdownload.schemas.in.h:1
+msgid "If cap_upload is true, the number of uploading peers"
+msgstr "སྐྱེལ་བཙུགས་མང་ཚད་བཟོ་ནི་འདི་བདེན་པ་ཨིན་པ་ཅིན་ སྐྱེལ་བཙུགས་འབད་ནིའི་གྱངས་ཁ་གིས་ དོ་མཉམ་ཨིན།(_u)"
+
+#: ../src/gnome-btdownload.schemas.in.h:2
+msgid "If cap_upload_rate is true, the maximum amount of bandwidth to allow to be used uploading data to peers"
+msgstr "སྐྱེལ་བཙུགས་གོང་ཚད་མང་ཚད་བཟོ་ནི་འདི་ བདེན་པ་ཨིན་པ་ཅིན་ དོ་མཉམ་ལུ་གནས་སྡུད་སྐྱེལ་བཙུགས་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པའི་བེན་ཝིཐ་གི་དངུལ་བསྡོམས་མང་མཐའ།(_u)(_r)"
+
+#: ../src/gnome-btdownload.schemas.in.h:3
+msgid "If true, display an error dialog as well as log an event whenever an error occurs; otherwise, just log an error"
+msgstr "བདེན་པ་ཨིན་པ་ཅིན་ འཛོལ་བ་ནམ་འབྱུང་རུང་ འཛོལ་བའི་ཌའི་ལོག་བཀྲམ་སྟོན་དང་ བྱུང་ལས་དྲན་དེབ་བཀོད་; དེ་མེན་པ་ཅིན་ འཛོལ་བ་གཅིག་རྐྱངམ་ཅིག་དྲན་དེབ་བཀོད།"
+
+#: ../src/gnome-btdownload.schemas.in.h:4
+msgid "Specifies the maximum port in a range of ports to listen to"
+msgstr "ལུ་ཉན་ནིའི་དོན་ལུ་ འདྲེན་ལམ་ཚུའི་ཁྱབ་ཚད་ནང་ འདྲེན་ལམ་མང་མཐའ་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../src/gnome-btdownload.schemas.in.h:5
+msgid "Specifies the minimum port in a range of ports to listen to"
+msgstr "ལུ་ཉན་ནིའི་དོན་ལུ་ འདྲེན་ལམ་ཚུའི་ཁྱབ་ཚད་ནང་འདྲེན་ལམ་ཉུང་མཐའ་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../src/gnome-btdownload.schemas.in.h:6
+msgid "The last path a BitTorrent session was saved in"
+msgstr "མཇུག་གི་འགྲུལ་ལམ་བིཊི་ཊོ་རེནཊི་ལཱ་ཡུན་འདི་ ནང་ སྲུངས་བཞག་འབད་ཡོདཔ་ཨིན།"
+
+#: ../src/gnome-btdownload.schemas.in.h:7
+msgid "The last path a BitTorrent session was saved in and the initial directory to pull up when next asking for a save location"
+msgstr "མཇུག་གི་འགྲུལ་ལམ་བིཊི་ཊོ་རེནཊི་འདི་སྲུངས་བཞག་འབད་ཡོདཔ་ད་ ཤུལ་ལས་སྲུངས་བཞག་གནས་ཁོངས་འདྲི་བའི་སྐབས་སུ་འགོ་ཐོག་སྣོད་ཐོ་ཡར་འཐེན།"
+
+#: ../src/gnome-btdownload.schemas.in.h:8
+msgid "The maximum listening port"
+msgstr "ཉན་ནིའི་འདྲེན་ལམ་མང་མཐའ།"
+
+#: ../src/gnome-btdownload.schemas.in.h:9
+msgid "The maximum number of uploaders"
+msgstr "སྐྱེལ་བཙུགསཔ་ཚུའི་གྱངས་ཁ་མང་མཐའ།"
+
+#: ../src/gnome-btdownload.schemas.in.h:10
+msgid "The maximum upload rate"
+msgstr "སྐྱེལ་བཙུགས་ཚད་མང་མཐའ།"
+
+#: ../src/gnome-btdownload.schemas.in.h:11
+msgid "The minimum listening port"
+msgstr "ཉན་ནིའི་འདྲེན་ལམ་ཉུང་མཐའ།"
+
+#: ../src/gnome-btdownload.schemas.in.h:12
+msgid "True to limit the amount of out-going bandwidth to the number specified in cap_upload_rate_kbps, false for no limit"
+msgstr "སྐྱེལ་བཙུགས་ཚད་མང་ཚད་བཟོ་ནིའི་ ཀེ་བི་པི་ཨེསི་ ནང་གསལ་བཀོད་འབད་ཡོད་པའི་གྱངས་ཁ་ལུ་བེན་ཝིཐ་ཕྱིར་-བསྐྱོད་ཀྱི་དངུལ་བསྡོམས་ལུ་ཚད་ཡོད་མི་ལུ་བདེན་པ་དང་ཚད་མེད་མི་ལུ་རྫུན་མ།(_u)(_r)(_k)"
+
+#: ../src/gnome-btdownload.schemas.in.h:13
+msgid "True to limit the number of uploading peers to the number specified in cap_upload_peers, false for no limit"
+msgstr "སྐྱེལ་བཙུགས་མང་ཚད་བཟོ་ནི་དོ་མཉམ་ཚུ་ནང་གསལ་བཀོད་འབད་ཡོད་མི་གྱངས་ཁ་ལུ་དོ་མཉམ་ཚུ་སྐྱེལ་བཙུགས་ཀྱི་གྱངས་ཁ་ཚད་ཡོད་མི་ལུ་བདེན་པ་དང་ཚད་མེད་མི་ལུ་རྫུན་མ།(_u)(_p)"
+
+#: ../src/gnome-btdownload.schemas.in.h:14
+msgid "Whether or not to cap the number of uploaders"
+msgstr "སྐྱེལ་བཙུགསཔ་ཚུའི་གྱངས་ཁ་མང་ཚད་བཟོ་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../src/gnome-btdownload.schemas.in.h:15
+msgid "Whether or not to cap the out-going bandwidth"
+msgstr "ཕྱིར་བསྐྱོད་བེན་ཝིཐ་འདི་མང་ཚད་བཟོ་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../src/gnome-btdownload.schemas.in.h:16
+msgid "Whether or not to display a dialog when errors occur"
+msgstr "འཛོལ་བ་འབྱུངམ་ད་ ཌའི་ལོག་བཀྲམ་སྟོན་འབད་ནི་ཨིན་ན་མེན་ན།"
+

@@ -1,0 +1,573 @@
+# translation of source.po to Dzongkha
+# translation of source.po to
+# , 2006.
+# , 2006.
+# , 2006.
+# , 2006.
+# , 2006.
+# , 2006.
+# tashi tshewang <tashi2ta@yahoo.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: source\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-13 11:36+0200\n"
+"PO-Revision-Date: 2007-06-05 09:32+0530\n"
+"Last-Translator: yumkee lhamo <yumkeyl08@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Accelerator-Marker: ~\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
+msgid ""
+"_: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text\n"
+"~Send"
+msgstr "གཏང་།(~S)"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
+msgid "I~gnore"
+msgstr "སྣང་མེད་བཞག (I~g)"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
+msgid "I~nteractive"
+msgstr "ཕན་ཚུན་འབྲེལ་ལྡན།(I~n)"
+
+#: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
+msgid "Future Cookie Handling"
+msgstr "མ་འོངས་ཀུ་ཀི་ལེགས་སྐྱོང་འཐབ་ནི།"
+
+#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
+msgid "~Ignore"
+msgstr "སྣང་མེད་བཞག (I~g)"
+
+#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
+msgid ""
+"_: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text\n"
+"~Send"
+msgstr "གཏང་།(~S)"
+
+#: cookiedg.src#STR_COOKIES_RECV_START.string.text
+msgid ""
+"The '${HOST}' server wishes to set one or more cookies.\n"
+"Cookies contain information referring to certain URL classes. If %PRODUCTNAME later requests a document with a URL corresponding to the class of a previously set cookie, %PRODUCTNAME will send this information to the server. This allows a server to recognize the status of a WWW application, e.g., when shopping online.\n"
+"\n"
+"The following Cookies should be set:\n"
+"\n"
+msgstr ""
+"The '${HOST}' སར་བར་གྱིས་ཀུ་ཀི་གཅིག་ ཡངན་ མང་སུ་གཞི་སྒྲིག་འབད་ནི་གི་རེ་བ་ཨིན་པས། \n"
+"ཀུ་ཀིས་ཚུ་ནང་ལུ་ ཡུ་ར་ཨེལ་སྡེ་ཚན་ལ་ལུ་ཅིག་དང་འབྲེལ་བའི་བརྡ་དོན་ཡོདཔ་ཨིན། ག་དེམ་ཅིག་སྦེ་ %PRODUCTNAME གིས་ ཤུལ་ལས་ཧེ་མར་ལས་ག་གཞི་སྒྲིག་འབཡོད་པའི་ཀུ་ཀི་གི་སྡེ་ཚན་དང་འབྲེལ་བའི་ཡུ་ཨར་ཨེལ་གྱི་ཡིག་ཆ་དགོཔ་འབད་ཞུ་བ་འབད་བ་ཅིན་ %PRODUCTNAME གིས་བརྡ་དོན་འདི་སར་བར་ནང་གཏང་འོང་། འདི་གིས་སར་བར་ལུ་WWW.ལག་ལེན་དཔེར་ན་གློག་ཐོག་ཉོ་ཚོང་འཐབ་དོ་བཟུམ་མའི་གནས་ཚད་ངོས་འཛིན་འབད་བཅུགཔ་ཨིན།   e.g.\n"
+"གཤམ་འཁོད་ཀབ་ཀིས་ཚུ་གཞི་སྒྲིག་འབད་དགོ།t:\n"
+"\n"
+
+#: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
+msgid ""
+"_: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text\n"
+"Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
+msgstr "ཌོ་མན: ${DOMAIN}, འགྲུལ་ལམ: ${PATH}, ཀུ་ཀི: ${COOKIE}.\n"
+
+#: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
+msgid "Cookie Reception"
+msgstr "ཀུ་ཀི་བསུ་ལེན།"
+
+#: cookiedg.src#STR_COOKIES_SEND_START.string.text
+msgid ""
+"%PRODUCTNAME has saved cookies for the server '${HOST}' which will be sent when requesting the document ${PATH}.\n"
+"Cookies contain information which refers to certain URL classes. They are sent by some servers to %PRODUCTNAME where they are saved when certain documents are accessed. If %PRODUCTNAME loads a document that, according to the URL, corresponds to a class of one of the previously received Cookies, %PRODUCTNAME will send this information to that server. This enables a server to keep track of the status of a WWW application, e.g., when shopping online.\n"
+"\n"
+"The following Cookies should be set:\n"
+"\n"
+msgstr ""
+"%PRODUCTNAME གིས་ཡིག་ཆའི་${PATH}ཞུ་བ་འབདཝ་ད་གཏང་ནི་དོན་ལསདུ་ སར་བ'${HOST}'ར་གྱི་དོན་ལས་ཀུ་ཀིས་སྲུང་བཞག་ཡོH}.ཀུ་ཀིས་ཚུ་ནང་ལུ་ཡུ་ཨར་ཨེལ་སྡེ་ཚན་ལ་ལི་ཅིག་དང་འབྲེལ་བའི་བརྡ་དོན་ཡོད། དེ་ཚུ་སར་བར་ལ་ལུ་ཅིག་གིས་ %PRODUCTNAME ནང་གཏང་སྟེ་ དེ་ཚུ་ཡིག་ཆ་ལ་ལུ་ཅིག་འཛུལ་སྤྱོད་འབད་བའི་སྐབས་སྲུང་བཞགཔ་ཨིན། ག་དེམ་ཅིག་འབད་ %PRODUCTNAME ཡུ་ཨར་ཨེལ་དང་འཁྲིལཝ་ད་ སྔོན་མ་ལས་འབྱོར་ཡོད་པའི་ཀུ་ཀིས་ཅིག་གི་སྡེ་ཚན་དང་མཐུན་པའི་ཡིག་ཆ་ཅིག་མངོན་གསལ་འབད་བ་ཅིན་ %PRODUCTNAME བརྡ་དོདེ་ཚུ་སར་བར་ནང་གཏང་འོང་། t:\n"
+"\n"
+" འདི་གིས་སར་བར་ལུ་WWW.ལག་ལེན་དཔེར་ན་གློག་ཐོག་ཉོ་ཚོང་འཐབ་དོ་བཟུམ་མའི་གནས་ཚད་ཀྱི་རྗེས་ལམ་བཞག་ཚུགསབཟོཝ་ཨིན།\n"
+"\n"
+" e.\n"
+"གཤམ་འཁུད་ཀབ་ཀིས་ཚུ་གཞི་སྒྲིག་འབད་དགset:\n"
+"\n"
+
+#: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
+msgid ""
+"_: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text\n"
+"Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
+msgstr "ཌོ་མན: ${DOMAIN}, འགྲུལ་ལམ: ${PATH}, ཀུ་ཀི: ${COOKIE}.\n"
+
+#: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
+msgid "Send Cookies"
+msgstr "ཀུ་ཀིས་གཏང་།"
+
+#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
+msgid "Filter Selection"
+msgstr "སེལ་འཐུ་བཙག"
+
+#: ids.src#RID_KEEP_PASSWORD.string.text
+msgid "~Remember password till end of session"
+msgstr "ལཱ་ཡུན་གྱི་མཇུག་ཚུན་ཚོད་ཆོག་ཡིག་སེམས་ཁར་བཞག(~R)"
+
+#: ids.src#RID_SAVE_PASSWORD.string.text
+msgid "~Remember password"
+msgstr "ཆོག་ཡིག་སེམས་ཁར་བཞག(~R)"
+
+#: ids.src#_.title.text
+msgid "Invalid Document Signature"
+msgstr "ནུས་མེད་མིང་རྟགས་ཡིག་ཆ་"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ABORT___ERRCODE_RES_MASK_.string.text
+msgid "The operation executed on $(ARG1) was aborted."
+msgstr "$(ARG1)གུ་ལག་ལེན་འཐབ་ཡོད་པའི་བཀོལ་སྤྱོད་འདི་བར་བཤོལ་འབད་ནུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ACCESSDENIED___ERRCODE_RES_MASK_.string.text
+msgid "Access to $(ARG1) was denied."
+msgstr "$(ARG1)ལུ་  འཛུལ་སྤྱོད་འདི་ཉན་མ་བཏུབ་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ALREADYEXISTS___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) already exists."
+msgstr "$(ARG1)ཧེ་མ་ལས་རང་གནས་ཏེ་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TARGETALREADYEXISTS___ERRCODE_RES_MASK_.string.text
+msgid "Target already exists."
+msgstr "དམིགས་གཏད་ཧེ་མ་ལས་རང་གནས་ཏེ་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
+msgid ""
+"You are about to save/export a password protected basic library containing module(s) \n"
+"$(ARG1)\n"
+"which are too large to store in binary format. If you wish users that don't have access to the library password to be able to run macros in those module(s) you must split those modules into a number of smaller modules. Do you wish to continue to save/export this library?"
+msgstr ""
+"ཚད་གཞི་(ཚུ་)གནས་ཏེ་ཡོད་མི་  ཆོག་ཡིག་སྲུང་སྐྱོབས་གཞི་རྩའི་དཔེ་མཛོད་ཅིག་  ཁྱོད་ཀྱིས་སྲུང་ནི་/ཕྱིར་འདྲེན་འབད་ནི་འབད་དོ།\n"
+"$(ARG1)\n"
+"ཟུང་ལྡན་རྩ་སྒྲིག་ནང་གསོག་འཇོག་འབད་ནི་ལུ་སྦོམ་མས།  ཚད་གཞི་(ཚུ་)ནང་  མེཀ་རོསི་གཡོག་བཀོལ་ནི་ལུ་དཔེ་མཛོད་ཆོག་ཡིག་ལུ་  ཁྱོད་ཀྱིས་འཛུལ་སྤྱོད་མེད་མི་ལག་ལེན་པ་རེ་སྨོན་ཡོད་པ་ཅིན་  ཚད་གཞི་དེ་ཚུ་  ཚད་གཞི་ཆུང་ཀུའི་ཨང་གྲངས་ཅིག་ནང་ལུ་  ཁྱོད་ཀྱིས་  གཤག་དགོ།  དཔེ་མཛོད་འདི་ཁྱོད་ཀྱིས་  སྲུང་ནི་/ཕྱིར་འདྲེན་འབད་ནི་ལུ་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
+msgid "The data from $(ARG1) has an incorrect checksum."
+msgstr "$(ARG1)ལས་གནས་སྡུད་འདི་ལུ་  ཅེག་སམ་བདེན་མེད་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE___ERRCODE_RES_MASK_.string.text
+msgid "The object $(ARG1) cannot be created in directory $(ARG2)."
+msgstr "$(ARG1)འདི་  སྣོད་ཐོ་ $(ARG2) ནང་གསར་བསྐྲུན་འབད་མི་བཏུབ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTREAD___ERRCODE_RES_MASK_.string.text
+msgid "Data of $(ARG1) could not be read."
+msgstr "$(ARG1)གི་གནས་སྡུད་འདི་ལྷག་མ་ཚུགས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTSEEK___ERRCODE_RES_MASK_.string.text
+msgid "The seek operation on $(ARG1) could not be performed."
+msgstr "$(ARG1)གུ་འཚོལ་ཞིབ་བཀོལ་སྤྱོད་འདི་  ལག་ལེན་འཐབ་མ་ཚུགས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTTELL___ERRCODE_RES_MASK_.string.text
+msgid "The tell operation on $(ARG1) could not be performed."
+msgstr "$(ARG1)གུ་བཤད་མི་བཀོལ་སྤྱོད་འདི་  ལག་ལེན་འཐབ་མ་ཚུགས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTWRITE___ERRCODE_RES_MASK_.string.text
+msgid "Data for $(ARG1) could not be written."
+msgstr "$(ARG1) དོན་ལུ་གནས་སྡུད་འདི་  འབྲི་མ་ཚུགས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CURRENTDIR___ERRCODE_RES_MASK_.string.text
+msgid "Action impossible: $(ARG1) is the current directory."
+msgstr "བྱ་བ་མི་སྲིད་པ: $(ARG1)འདི་ད་ལྟོའི་སྣོད་ཐོ་ཨིན།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not ready."
+msgstr "$(ARG1)འདི་གྲ་སྒྲིག་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSAMEDEVICE___ERRCODE_RES_MASK_.string.text
+msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
+msgstr "བྱ་བ་མི་སྲིད་པ: $(ARG1)དང་ $(ARG2)ཚུ་  ཐབས་འཕྲུལ་(འདྲེན་འཕྲུལ་)སོ་སོ་ཨིན།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
+msgid "General input/output error while accessing $(ARG1)."
+msgstr "$(ARG1)འཛུལ་སྤྱོད་འབདཝ་ད་ ཡོངས་ཁྱབ་ཨིན་པུཊི་/ཨའུཊི་པུཊི་འཛོལ་བ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
+msgid "An attempt was made to access $(ARG1) in an invalid way."
+msgstr "$(ARG1)ནུས་ཅན་མེད་པའི་ཐབས་ལམ་ནང་འཛུལ་སྤྱོད་འབད་ནི་ལུ་  དཔར་བཅམ་ནི་ཅིག་བཟོ་ནུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDCHAR___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) contains invalid characters."
+msgstr "$(ARG1)གིས་  ནུས་ཅན་མེད་པའི་ཡིག་འབྲུ་ཚུ་གནས་ཏེ་ཡོདཔ་ཨིན།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDDEVICE___ERRCODE_RES_MASK_.string.text
+msgid "The device (drive) $(ARG1) is invalid."
+msgstr "ཐབས་འཕྲུལ་(འདྲེན་འཕྲུལ་)$(ARG1)འདི་ནུས་ཅན་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDLENGTH___ERRCODE_RES_MASK_.string.text
+msgid "The data from $(ARG1) has an invalid length."
+msgstr "$(ARG1)ལས་གནས་སྡུད་འདི་ལུ་  ནུས་ཅན་མེད་པའི་རིང་ཚད་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) was started with an invalid parameter."
+msgstr "$(ARG1) གུ་ཡོད་པའི་བཀོལ་སྤྱོད་འདི་  ནུས་ཅན་མེད་པའི་ཚད་བཟུང་དང་བཅས་འགོ་བཙུགས་ནུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ISWILDCARD___ERRCODE_RES_MASK_.string.text
+msgid "The operation cannot be performed because $(ARG1) contains wildcards."
+msgstr "བཀོལ་སྤྱོད་འདི་ལག་ལེན་འཐབ་མི་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  $(ARG1)གིས་  ཝའིལ་ཀཌིསི་གནས་ཏེ་འདུག "
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_LOCKVIOLATION___ERRCODE_RES_MASK_.string.text
+msgid "Error during shared access to $(ARG1)."
+msgstr "$(ARG1).རུབ་སྟེ་སྤྱོད་པའི་སྐབས་ལུ་འཛོལ་བ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MISPLACEDCHAR___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) contains misplaced characters."
+msgstr "$(ARG1) འོས་འབབ་མེད་པའི་ཡིག་འབྲུ་ཚུ་ཡོདཔ་ཨིན།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NAMETOOLONG___ERRCODE_RES_MASK_.string.text
+msgid "The name $(ARG1) contains too many characters."
+msgstr "$(ARG1)མིང་འདི་གིས་  ཡིག་འབྲུ་ལེ་ཤ་གནས་ཏེ་ཡོད།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) does not exist."
+msgstr "$(ARG1)འདི་གནས་ཏེ་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTSPATH___ERRCODE_RES_MASK_.string.text
+msgid "The path $(ARG1) does not exist."
+msgstr "$(ARG1)འགྲུལ་ལམ་འདི་  གནས་ཏེ་མེད།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSUPPORTED___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) is not supported on this operating system."
+msgstr "$(ARG1)གུ་བཀོལ་སྤྱོད་འདི་  བཀོལ་སྤྱོད་རིམ་ལུགས་འདི་གུ་རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTADIRECTORY___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not a directory."
+msgstr "$(ARG1)འདི་སྣོད་ཐོ་མེན་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTAFILE___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not a file."
+msgstr "$(ARG1)འདི་  ཡིག་སྣོད་མེན།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFSPACE___ERRCODE_RES_MASK_.string.text
+msgid "There is no space left on device $(ARG1)."
+msgstr "$(ARG1)ཐབས་འཕྲུལ་གུ་  བར་སྟོང་ལྷག་མ་ལུས་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TOOMANYOPENFILES___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) cannot be performed because too many files are already open."
+msgstr "$(ARG1)གུ་བཀོལ་སྤྱོད་འདི་ལག་ལེན་འཐབ་མི་བཏུབ་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  ཡིག་སྣོད་ལེ་ཤ་ཅིག་ཧེ་མ་ལས་རང་ཁ་ཕྱེ་ནུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFMEMORY___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) cannot be performed because there is no more memory available."
+msgstr "$(ARG1) གུ་བཀོལ་སྤྱོད་ལག་ལེན་འཐབ་མི་བཏུབ་པས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  དྲན་ཚད་འཐོབ་ཚུགས་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_PENDING___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) cannot continue because more data is pending."
+msgstr "$(ARG1) གུ་བཀོལ་སྤྱོད་འདི་འཕྲོ་མཐུད་མི་བཏུབ་བས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  གནས་སྡུད་མངམ་བསྣར་དོ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_RECURSIVE___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) cannot be copied into itself."
+msgstr "$(ARG1)ཁོ་རའི་ནང་ལུ་འདྲ་བཤུས་བརྐྱབ་མི་བཏུབ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNKNOWN___ERRCODE_RES_MASK_.string.text
+msgid "Unknown input/output error while accessing $(ARG1)."
+msgstr "$(ARG1)འཛུལ་སྤྱོད་འབདཝ་ད་  མ་ཤེས་པའི་ཨིན་པུཊི་/ཨའུཊི་པུཊི་འཛོལ་བ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRITEPROTECTED___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is write protected."
+msgstr "$(ARG1)འདི་  འབྲི་ནི་ལས་ཉེན་སྐྱོབ་འབད་ཡོདཔ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGFORMAT___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not in the correct format."
+msgstr "$(ARG1) འདི་  ནོར་བཅོས་འབད་བའི་རྩ་བསྒྲིག་ནང་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGVERSION___ERRCODE_RES_MASK_.string.text
+msgid "The version of $(ARG1) is not correct."
+msgstr "$(ARG1)གི་འཐོན་རིམ་འདི་  ངེས་བདེན་མེན་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_VOLUME___ERRCODE_RES_MASK_.string.text
+msgid "Drive $(ARG1) does not exist."
+msgstr "$(ARG1)འདྲེན་འཕྲུལ་འདི་  གནས་ཏེ་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
+msgid "Folder $(ARG1) does not exist."
+msgstr "$(ARG1)སྣོད་འཛིན་འདི་  གནས་ཏེ་མིན་འདུག "
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA___ERRCODE_RES_MASK_.string.text
+msgid "The installed Java version is not supported."
+msgstr "གཞི་བཙུགས་འབད་དེ་ཡོད་པའི་ཇ་བ་འཐོན་རིམ་འདི་  རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION___ERRCODE_RES_MASK_.string.text
+msgid "The installed Java version $(ARG1) is not supported."
+msgstr "གཞི་བཙུགས་འབད་དེ་ཡོད་པའི་  $(ARG1)ཇ་བ་འཐོན་རིམ་འདི་  རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_MIN___ERRCODE_RES_MASK_.string.text
+msgid "The installed Java version is not supported, at least version $(ARG1) is required."
+msgstr "གཞི་བཙུགས་འབད་དེ་ཡོད་པའི་ ཇ་བ་འཐོན་རིམ་འདི་རྒྱབ་སྐྱོར་མ་འབད་བས་  ཉུང་མཐའ་རང་ $(ARG1)འཐོན་རིམ་འདི་དགོས་མཁོ་ཡོད།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION_MIN___ERRCODE_RES_MASK_.string.text
+msgid "The installed Java version $(ARG1) is not supported, at least version $(ARG2) is required."
+msgstr "གཞི་བཙུགས་འབད་དེ་ཡོད་པའི་  $(ARG1) ཇ་བ་འཐོན་རིམ་འདི་རྒྱབ་སྐྱོར་མ་འབད་བས་   ཉུང་མཐའ་རང་  $(ARG2) འཐོན་རིམ་འདི་དགོས་མཁོ་ཡོད།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP___ERRCODE_RES_MASK_.string.text
+msgid "The data associated with the partnership is corrupted."
+msgstr "མཉམ་བསྡོམས་དང་འབྲེལ་བའི་གནས་སྡུད་འདི་ངན་ཅན་ཨིན་པས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP_NAME___ERRCODE_RES_MASK_.string.text
+msgid "The data associated with the partnership $(ARG1) is corrupted."
+msgstr "མཉམ་བསྡོམས་$(ARG1)དང་འབྲེལ་བའི་གནས་སྡུད་འདི་ངན་ཅན་ཨིན་པས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME___ERRCODE_RES_MASK_.string.text
+msgid "Volume $(ARG1) is not ready."
+msgstr "$(ARG1)སྒྲ་སྐད་འདི་གྲ་སྒྲིག་མིན་འདུག"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not ready; please insert a storage medium."
+msgstr "$(ARG1)འདི་གྲ་སྒྲིག་མིན་འདུག་; བསག་མཛོད་འབྲིང་མ་ཅིག་བཙུགས་གནང་།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
+msgid "Volume $(ARG1) is not ready; please insert a storage medium."
+msgstr "$(ARG1)སྒྲ་སྐད་འདི་གྲ་སྒྲིག་མིན་འདུག་; བསག་མཛོད་འབྲིང་མ་འདི་བཙུགས་གནང་།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGMEDIUM___ERRCODE_RES_MASK_.string.text
+msgid "Please insert disk $(ARG1)."
+msgstr "$(ARG1)ཌིཀསི་གབཙུགས་གནང་།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE_NONAME___ERRCODE_RES_MASK_.string.text
+msgid "The object cannot be created in directory $(ARG1)."
+msgstr "$(ARG1)སྣོད་ཐོ་ནང་  དངོས་པོ་འདི་གསར་བསྐྲུན་མ་འབད་བས།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNSUPPORTEDOVERWRITE___ERRCODE_RES_MASK_.string.text
+msgid "%PRODUCTNAME cannot keep files from being overwritten when this transmission protocol is used. Do you want to continue anyway?"
+msgstr "འ་ནི་སྤེལ་བཀྲམ་ལམ་ལུགས་འདི་ལག་ལེན་འཐབ་པའི་སྐབས་ལུ་ %PRODUCTNAME གིས་ཡིག་སྣོད་ཚུ་ཚབ་སྲུང་འབད་མི་ཚུགས་པས། ཨིན་རུང་ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་དེ་རང་འབད་ནི་ཨིན་ན?"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE___ERRCODE_RES_MASK_.string.text
+msgid "The file '$(ARG1)' is corrupt and therefore cannot be opened. Should %PRODUCTNAME repair the file?"
+msgstr "ཡིག་སྣོད་'$(ARG1)'འདི་ངན་ཅན་ཨིནམ་ལས་ཁ་ཕྱེ་ནི་བཏུབ། %PRODUCTNAME གིས་ཡིག་སྣོད་བཅོས་ཁ་རྐྱབ་ག?"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE_CANTREPAIR___ERRCODE_RES_MASK_.string.text
+msgid "The file '$(ARG1)' could not be repaired and therefore cannot be opened."
+msgstr "ཡིག་སྣོད་'$(ARG1)'བཅོས་ཁ་རྐྱབ་མི་བཏུབ་པས་ དེ་འབདཝ་ལས་ཁ་ཡང་ཕྱེ་མི་བཏུབ།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_NOREMOVE___ERRCODE_RES_MASK_.string.text
+msgid ""
+"Configuration data in '$(ARG1)' is corrupted. Without this data some functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
+msgstr ""
+"'$(ARG1)'ནང་གི་རིམ་སྒྲིག་གནས་སྡུད་འདི་ངན་ཅན་ཨིན། གནས་སྡུད་དེ་མེད་པར་ ལས་འགན་ལ་ལུ་ཅིག་ངེས་བདེན་འབད་བཀུལ་སྤྱོད་འབད་མི་བཏུབ།\n"
+"ཁྱོད་ རིམ་སྒྲིག་གནས་སྡུད་ངན་ཅན་མེད་པར་ %PRODUCTNAME འཕྲོ་མཐུད་དེ་རང་འགོ་བཙུགས་ན?"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_WITHREMOVE___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The personal configuration file '$(ARG1)' is corrupted and must be deleted to continue. Some of your personal settings may be lost.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
+msgstr ""
+"རང་དོན་རྩ་སྒྲིག་ཡིག་སྣོད་'$(ARG1)' འདི་ངན་ཅན་ཨིནམ་ལས་ འཕྲོ་མཐུད་རྐྱབ་ནི་དོན་ལུ་བཏོན་གཏང་དགོ ཁྱོད་ཀྱི་རང་དོན་གཞི་སྒྲིག་ལ་ལུ་ཅིག་བརླག་སྟོར་ཞུགས་འོང་། \n"
+"ཁྱོད་ཀྱིས་ %PRODUCTNAME འདི་ངན་ཅན་རྩ་སྒྲིག་གནས་སྡུད་མེད་པར་འཕྲོ་མཐུད་དེ་རང་འགོ་བཙུགས་ན?"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
+msgid "The configuration data source '$(ARG1)' is unavailable. Without this data some functions may not operate correctly."
+msgstr "རྩ་སྒྲིག་གནས་སྡུད་ཀྱི་'བྱུང་ཁུངས་$(ARG1)'འདི་མིན་འདུག གནས་སྡུད་འདི་མེད་པར་ལས་འགན་ལ་ལུ་ཅིག་བཀུལ་སྤྱོད་ངེས་བདེན་སྦར་འབད་མི་བཏུབ་འོང་།"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The configuration data source '$(ARG1)' is unavailable. Without this data some functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the missing configuration data?"
+msgstr ""
+"རྩ་སྒྲིག་གནས་སྡུད་ཀྱི་'བྱུང་ཁུངས་$(ARG1)'འདི་མིན་འདུག གནས་སྡུད་འདི་མེད་པར་ལས་འགན་ལ་ལུ་ཅིག་བཀུལ་སྤྱོད་ངེས་བདེན་སྦར་འབད་མི་བཏུབ་འོང་། \n"
+"ཁྱོད་ཀྱིས་ %PRODUCTNAME བརླག་སྟོར་ཞུགས་པའི་རྩ་སྒྲིག་གནས་སྡུད་མེད་པར་འཕྲོ་མཐུད་དེ་རང་འགོ་བཙུགས་ན?"
+
+#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
+msgid "The form contains invalid data. Do you still want to continue?"
+msgstr "འབྲི་ཤོག་ནང་ལུ་ནུས་མེད་གནས་སྡུད་འདུག་ ཨིན་རུང་ཁྱོད་ཀྱིས་འཕྲོ་མཐུད་དེ་རྐྱབ་ན?"
+
+#: logindlg.src#DLG_UUI_LOGIN.GB_LOGIN_ERROR.fixedline.text
+msgid "Message from server"
+msgstr "སར་བར་ནང་ལས་ཀྱི་འཕྲིན་དོན།"
+
+#: logindlg.src#DLG_UUI_LOGIN.INFO_LOGIN_REQUEST.fixedtext.text
+msgid "Enter the user name and password for %1 here."
+msgstr "འདི་ནང་ལུ་ %1 གི་དོན་ལས་ནིང་དང་ཆོག་ཡིག་བཙུགས།"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+msgid "~Path"
+msgstr "འགྲུལ་ལམ། (~P)"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+msgid "~User name"
+msgstr "ལག་ལེན་པའི་མིང་།"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+msgid "Pass~word"
+msgstr "ཆོག་ཡིག(~w)"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+msgid "A~ccount"
+msgstr "རྩིས་ཐོ།(~c)"
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+msgid "~Save password"
+msgstr "ཆོག་ཡིག་སྲུང་།(~S)"
+
+#: logindlg.src#DLG_UUI_LOGIN.GB_LOGIN_LOGIN.fixedline.text
+msgid "Log in"
+msgstr "ལོག་ཨིན།"
+
+#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+msgid "Please enter user name and password for \"%2\" on %1 here."
+msgstr "འདི་ནང་\"%2\" on %1 གི་དོན་ལུ་ལག་ལེན་པའི་མིང་དང་ཆོག་ཡིག་བཙུགས་གནང་།"
+
+#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
+msgid "User Name and Password Required"
+msgstr "ལག་ལེན་པའི་མིང་དང་ཆོག་ཡིག་དགོ་པས།"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+msgid ""
+"_: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text\n"
+"Master password"
+msgstr "ཆོག་ཡིག་ཨམ།"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+msgid "~Confirm master password"
+msgstr "ཆོག་ཡིག་ཨམ་ངེས་དཔྱད་འབད།"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid ""
+"_: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text\n"
+"Enter Master Password"
+msgstr "ཆོག་ཡིག་ཨམ་བཙུགས།"
+
+#: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.FT_MASTERPASSWORD.fixedtext.text
+msgid ""
+"_: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.FT_MASTERPASSWORD.fixedtext.text\n"
+"Master password"
+msgstr "ཆོག་ཡིག་ཨམ།"
+
+#: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.modaldialog.text
+msgid ""
+"_: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.modaldialog.text\n"
+"Enter Master Password"
+msgstr "ཆོག་ཡིག་ཨམབཙུགས།"
+
+#: passcrtdlg.src#DLG_UUI_PASSWORD_CRT.FT_PASSWORD_CRT.fixedtext.text
+msgid "~Enter password"
+msgstr "ཆོག་ཡིག་བཙུགས།"
+
+#: passcrtdlg.src#DLG_UUI_PASSWORD_CRT.FT_PASSWORD_REPEAT.fixedtext.text
+msgid "~Confirm password"
+msgstr "ཆོག་ཡིག་ངེས་དཔྱད་འབད།"
+
+#: passcrtdlg.src#DLG_UUI_PASSWORD_CRT.modaldialog.text
+msgid ""
+"_: passcrtdlg.src#DLG_UUI_PASSWORD_CRT.modaldialog.text\n"
+"Password"
+msgstr "ཆོག་ཡིག"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.FT_PASSWORD.fixedtext.text
+msgid "Enter password"
+msgstr "ཆོག་ཡིག་བཙུགས།"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.modaldialog.text
+msgid ""
+"_: passworddlg.src#DLG_UUI_PASSWORD.modaldialog.text\n"
+"Password"
+msgstr "ཆོག་ཡིག"
+
+#: passworderrs.src#STR_ERROR_PASSWORD_WRONG.string.text
+msgid "An incorrect password was entered. Please enter it again."
+msgstr "བདེན་མེན་ཆོག་ཡིག་བཙུགས་ནུག ཆོག་ཡིག་ལོག་བཙུགས་གནང་།"
+
+#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "An incorrect master password was entered. Please enter it again."
+msgstr "བདེན་མེན་ཆོག་ཡིག་ཨམ་བཙུགས་ནུག ཆོག་ཡིག་ཨམ་ལོག་བཙུགས་གནང་།"
+
+#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The passwords do not match. Please enter the password again."
+msgstr "ཆོག་ཡིག་འདི་མཐུན་སྒྲིག་མེན་པས་། ཆུག་ཡིག་ལོག་བཙུགས་གནང་།"
+
+#~ msgid "The operation executed on $(ARG1) was aborted"
+#~ msgstr "$(ARG1) གུ་བཀུལ་སྤྱོད་འབད་ཡོད་པའི་ལག་ལེན་བར་བཤོལ་འབད་བཞག་ཡི།"
+#~ msgid "Access to $(ARG1) was denied"
+#~ msgstr "$(ARG1) ནང་ལུ་འཛུལ་སྤྱོད་འབད་ནི་འདི་ཉན་མ་བཏུབ།"
+#~ msgid "$(ARG1) already exists"
+#~ msgstr "$(ARG1) ཧེ་མ་ལས་འདུག།"
+#~ msgid "Target already exists"
+#~ msgstr "དམིགས་གཏད་ཧེ་མ་ལས་འདུག"
+#~ msgid "The data from $(ARG1) has an incorrect checksum"
+#~ msgstr "གནས་སྡུད་འབྲི་ཤོག་ $(ARG1) ཅེག་སམ་འཛོལ་འཛོལཝ་འདུག"
+#~ msgid "The object $(ARG1) cannot be created in directory $(ARG2)"
+#~ msgstr "དངོས་པོ་ $(ARG1) འདི་སྣོད་ཐོ་ $(ARG2) ནང་ལུ་གསར་བསྐྲུན་འབད་མི་བཏུབ་པས།"
+#~ msgid "Data of $(ARG1) could not be read"
+#~ msgstr "$(ARG1) གི་གནས་སྡུད་ལྷག་མི་བཏུབ་པས།"
+#~ msgid "The seek operation on $(ARG1) could not be performed"
+#~ msgstr "$(ARG1) གུ་བཀུས་སྤྱོད་འབད་ནི་སྦེ་འཚོལ་ཡོད་མི་འདི་ལག་ལེན་འཐབ་མི་བཏུབ་པས།"
+#~ msgid "The tell operation on $(ARG1) could not be performed"
+#~ msgstr "$(ARG1) གུ་བཀུས་སྤྱོད་ལག་ལེན་འཐབ་མི་བཏུབ་པས་ཟེར་སླབ།"
+#~ msgid "Data for $(ARG1) could not be written"
+#~ msgstr "Data for $(ARG1) དོན་གྱི་གནས་སྡུད་འབྲི་མི་བཏུབ་པས།"
+#~ msgid "Action impossible: $(ARG1) is the current directory"
+#~ msgstr "བྱ་བ་མི་བཏུབ་པས་: $(ARG1) འདི་ད་ལྟོའི་སྣོད་ཐོ་ཨིན།"
+#~ msgid "$(ARG1) is not ready"
+#~ msgstr "$(ARG1) འདི་གྲ་སྒྲིག་མིན་འདུག"
+#~ msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)"
+#~ msgstr "བྱ་བ་མི་བཏུབ་པས་: $(ARG1) དང་$(ARG2) གཉིསཔོ་ཐབས་འཕྲུལ་སོ་སོ་ཨིན།"
+#~ msgid "General input/output error while accessing $(ARG1)"
+#~ msgstr "$(ARG1)འཛུལ་སྤྱོད་འབད་བའི་སྐབས་ཡོངས་ཁྱབ་ཨིན་པུཊ་དང་ཨའུཊི་པུཊི་འཛོལ་བ།"
+#~ msgid "An attempt was made to access $(ARG1) in an invalid way"
+#~ msgstr "ནུས་མེད་ཀྱི་ཐོག་ལས་$(ARG1) ནང་ལུ་འཛུལ་སྤྱོད་འབད་ནི་གི་དཔའ་བཅམ་ནུག"
+#~ msgid "$(ARG1) contains invalid characters"
+#~ msgstr "$(ARG1)ནང་ལུ་ནུས་མེད་ཡིག་འབྲུ་འདུག"
+#~ msgid "The device (drive) $(ARG1) is invalid"
+#~ msgstr "ཐབས་འཕྲུལ་(drive) $(ARG1)་འདི་ནུས་མེད་ཨིན་པས།"
+#~ msgid "The data from $(ARG1) has an invalid length"
+#~ msgstr "The data from $(ARG1) ནང་ལས་ཀྱི་གནས་སྡུད་ལུ་ནུས་མེད་ཀྱི་རིང་ཚད་འདུག"
+#~ msgid "The operation on $(ARG1) was started with an invalid parameter"
+#~ msgstr "$(ARG1) གི་བཀུས་སྤྱོད་འདི་ནུས་མེད་ཚད་བཟུང་ཐོག་ལས་འགོ་བཙུགས་ནུག"
+#~ msgid "The operation cannot be performed because $(ARG1) contains wildcards"
+#~ msgstr "$(ARG1) ནང་ལུ་ཝའིལ་ཀཌིསི་ཡོདཔ་ལས་བཀུས་སྤྱོད་འབད་མི་བཏུབ་པསཝ"
+#~ msgid "$(ARG1) contains misplaced characters"
+#~ msgstr "$(ARG1) ནང་ལུ་ཡིག་འབྲུའི་གོ་རིམ་འཛོལ་འཛོལཝབ་འདུག"
+#~ msgid "The name $(ARG1) contains too many characters"
+#~ msgstr "མིང་$(ARG1) ནང་ལུ་ཡིག་འབྲུ་ལེ་ཤ་འདུག"
+#~ msgid "$(ARG1) does not exist"
+#~ msgstr "$(ARG1) མིན་འདུག"
+#~ msgid "The path $(ARG1) does not exist"
+#~ msgstr "འགྲུལ་ལམ་$(ARG1) མིན་འདུག"
+#~ msgid "The operation on $(ARG1) is not supported on this operating system"
+#~ msgstr "$(ARG1) གི་བཀུལ་སྤྱོད་འདི་ བཀུལ་སྤྱོད་རིམ་ལུགས་འདི་ནང་ལུ་རྒྱབ་སྐྱོར་མི་འབད་བས།"
+#~ msgid "$(ARG1) is not a directory"
+#~ msgstr "$(ARG1) འདི་སྣོད་ཐོ་མེན།"
+#~ msgid "$(ARG1) is not a file"
+#~ msgstr "$(ARG1) འདི་ཡིག་སྣོད་མེན།"
+#~ msgid "There is no space left on device $(ARG1)"
+#~ msgstr "ཐབས་འཕྲུལ་$(ARG1) ནང་ལུ་ས་སྟོང་མིན་འདུག"
+#~ msgid "The operation on $(ARG1) cannot be performed because too many files are already open"
+#~ msgstr "$(ARG1) གི་བཀུས་སྤྱོད་འབད་མི་བཏུབ་པས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཡིག་སྣོད་ལེ་ཤ་ཁ་ཕྱེ་འདུག"
+#~ msgid "The operation on $(ARG1) cannot be performed because there is no more memory available"
+#~ msgstr "$(ARG1) གི་བཀུས་སྤྱོད་འབད་མི་བཏུབ་པས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་ནང་ལུ་དྲན་ཚད་མིན་ཁ་ཕྱ་འདུགག"
+#~ msgid "The operation on $(ARG1) cannot continue because more data is pending"
+#~ msgstr "$(ARG1) གི་བཀུས་སྤྱོད་འཕྲོ་མཐུད་འབད་མི་བཏུབ་པས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ གནས་སྡུད་མང་རབས་ཅིག་མ་བཙུགས་པར་བསྣར་ཏེ་ཁ་ཕྱ་འདུགག"
+#~ msgid "$(ARG1) cannot be copied into itself"
+#~ msgstr "$(ARG1) འདི་ དེ་རང་གི་ནང་ལུ་འདྲ་བཤུས་རྐྱབ་མི་བཏུབ།ོད་ལེ་ཤ་ཁ་ཕྱེ་འདུགག"
+#~ msgid "Unknown input/output error while accessing $(ARG1)"
+#~ msgstr "$(ARG1) ་བཀུས་སྤྱོདའབད་བའི་སྐབས་ལུ་ ག་ཅི་ཨིན་ན་མ་ཤེས་པའི་ཨིན་པུཊ་དང་ཨའུཊི་པུཊ་གི་འཛོལ་བ།ེ་ཤ་ཁ་ཕྱེ་འདུགག"
+#~ msgid "$(ARG1) is write protected"
+#~ msgstr "$(ARG1) འདི་འབྲི་མ་བཏུབ་བཟོ་བཟོཝ་ཨིན།"
+#~ msgid "$(ARG1) is not in the correct format"
+#~ msgstr "$(ARG1) འདི་ངེས་བདེན་རྩ་སྒྲིག་ནང་མེན་འབད།"
+#~ msgid "The version of $(ARG1) is not correct"
+#~ msgstr "$(ARG1) གི་ཐོན་རིམ་འདི་ངེཤ་བདེན་མེན།"
+#~ msgid "Drive $(ARG1) does not exist"
+#~ msgstr "ཐབས་འཕྲུལ་$(ARG1) འདི་མིན་འདུག"
+#~ msgid "Folder $(ARG1) does not exist"
+#~ msgstr "སྣོད་འཛིནུལ་$(ARG1) འདི་མིན་འདུག"
+#~ msgid "The installed Java version is not supported"
+#~ msgstr "གཞི་བཙུགས་འབད་ཡོད་པའི་ཇ་བ་ཐོན་རིམ་འདི་རྒྱབ་སྐྱོར་མི་འབད་བས།"
+#~ msgid "The installed Java version $(ARG1) is not supported"
+#~ msgstr "གཞི་བཙུགས་འབད་ཡོད་པའི་ཇ་བ་ཐོན་རིམ་$(ARG1)འདི་རྒྱབ་སྐྱོར་མི་འབད་བས།"
+#~ msgid "The installed Java version is not supported, at least version $(ARG1) is required"
+#~ msgstr "གཞི་བཙུགས་འབད་ཡོད་པའི་ཇ་བ་ཐོན་རིམ་འདི་རྒྱབ་སྐྱོར་མི་འབད་བས་ འདི་གི་དོན་ལི་ཉུང་ཤོས་ཐོན་རིམ་$(ARG1)འདི་དགོབད་བས།"
+#~ msgid "The installed Java version $(ARG1) is not supported, at least version $(ARG2) is required"
+#~ msgstr "གཞི་བཙུགས་འབད་ཡོད་པའི་ཇ་བ་ཐོན་རིམ་$(ARG1)འདི་རྒྱབ་སྐྱོར་མི་འབད་བས་ འདི་གི་དོན་ལི་ཉུང་ཤོས་ཐོན་རིམ་$(ARG2)འདི་དགོ།"
+#~ msgid "Volume $(ARG1) is not ready"
+#~ msgstr "སྦུང་ཚད་$(ARG1)འདི་གྲ་སྒྲིག་མིན་འདུག"
+#~ msgid "$(ARG1) is not ready; please insert a storage medium"
+#~ msgstr "$(ARG1)འདི་གྲ་སྒྲིག་མིན་འདུག གསག་མཛོད་བརྡ་ལམ་བཙུགས་གནང་།"
+#~ msgid "Volume $(ARG1) is not ready; please insert a storage medium"
+#~ msgstr "སྦུང་ཚད་$(ARG1)འདི་གྲ་སྒྲིག་མིན་འདུག གསག་མཛོད་བརྡ་ལམ་བཙུགས་གནང་།"
+#~ msgid "Please insert disk $(ARG1)"
+#~ msgstr "ཌིཀསི།$(ARG1)བཙུགས་གནང་།"
+#~ msgid "The object cannot be created in directory $(ARG1)"
+#~ msgstr "སྣོད་ཐོ་$(ARG1)ནང་བྱ་བ་གསརཔ་བཟོ་ནི་བཏུབ།ི།"
+

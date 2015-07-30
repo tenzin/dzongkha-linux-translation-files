@@ -1,0 +1,1947 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pim.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 03:30+0000\n"
+"PO-Revision-Date: 2007-01-23 11:39+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Translators: This is "WEEKDAY MONTH DAY YEAR".
+#: ../gncal/calendar-day.c:195
+#: ../gncal/utils-time.c:72
+msgid "%A %B %d %Y"
+msgstr "%A %B %d %Y"
+
+#: ../gncal/calendar-editor.c:156
+#: ../gncal/calendar-editor.c:163
+#: ../gncal/calendar-editor.c:171
+#: ../gncal/calendar-editor.c:223
+#: ../gncal/calendar-editor.c:277
+#: ../gncal/calendar-editor.c:286
+#: ../gnomecard/card-editor.c:415
+#: ../gnomecard/card-editor.c:443
+#: ../gnomecard/card-editor.c:465
+#: ../gnomecard/card-editor.c:488
+#: ../gnomecard/card-editor.c:525
+#: ../gnomecard/card-editor.c:556
+#: ../gnomecard/card-editor.c:581
+#: ../gnomecard/cardeditor-addresses.c:686
+#: ../gnomecard/cardeditor-email.c:436
+#: ../gnomecard/cardeditor-phone.c:461
+#: ../gnomecard/gnomecard-find-dialog.c:173
+#, c-format
+msgid "File %s is corrupt. Please check your installation."
+msgstr "ཡིག་སྣོད་ %s འདི་ངན་ཅན་ཨིན། ཁྱོད་རའི་གཞི་བཙུགས་འབད་ནི་འདི་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../gncal/calendar-editor.c:254
+#: ../gncal/calendar-editor.glade.h:9
+msgid "Appointment properties"
+msgstr "ངོ་འཕྲད་རྒྱུ་དངོས་ཚུ་"
+
+#: ../gncal/calendar-editor.c:271
+#: ../gnomecard/card-editor.c:395
+#: ../gnomecard/card-editor.c:434
+#: ../gnomecard/card-editor.c:458
+#: ../gnomecard/card-editor.c:481
+#: ../gnomecard/card-editor.c:504
+#: ../gnomecard/card-editor.c:547
+#: ../gnomecard/card-editor.c:569
+#: ../gnomecard/cardeditor-addresses.c:652
+#: ../gnomecard/cardeditor-email.c:420
+#: ../gnomecard/cardeditor-phone.c:420
+#: ../gnomecard/gnomecard-find-dialog.c:162
+#, c-format
+msgid "File %s could not be found. Please check your installation."
+msgstr "ཡིག་སྣོད་ %s འཚོལ་མ་འཐོབ། ཁྱོད་རའི་གཞི་བཙུགས་འབད་ནི་འདི་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../gncal/calendar-editor.glade.h:1
+#: ../gnomecard/card-editor.glade.h:1
+msgid "\t"
+msgstr "\t"
+
+#: ../gncal/calendar-editor.glade.h:2
+msgid "<b>Classification</b>"
+msgstr "<b>དབྱེ་བཟོ་</b>"
+
+#: ../gncal/calendar-editor.glade.h:3
+msgid "<b>End Date</b>"
+msgstr "<b>མཇུག་བསྡུ་ཚེས་གྲངས་</b>"
+
+#: ../gncal/calendar-editor.glade.h:4
+msgid "<b>Exceptions</b>"
+msgstr "<b>དམིགས་བསལ་</b>"
+
+#: ../gncal/calendar-editor.glade.h:5
+msgid "<b>General</b>"
+msgstr "<b>ཡོངས་ཁྱབ་</b>"
+
+#: ../gncal/calendar-editor.glade.h:6
+msgid "<b>Time</b>"
+msgstr "<b>ཆུ་ཚོད་</b>"
+
+#: ../gncal/calendar-editor.glade.h:7
+msgid "<b>Warning Time</b>"
+msgstr "<b>ཉེན་བརྡ་ཆུ་ཚོད་</b>"
+
+#: ../gncal/calendar-editor.glade.h:8
+msgid "<b>Warning Type</b>"
+msgstr "<b>ཉེན་བརྡ་དབྱེ་བ་</b>"
+
+#: ../gncal/calendar-editor.glade.h:10
+msgid "Command:"
+msgstr "བརྡ་བཀོད་:"
+
+#: ../gncal/calendar-editor.glade.h:11
+msgid "Con_fidential"
+msgstr "གསང་བའི་(_f)"
+
+#: ../gncal/calendar-editor.glade.h:12
+msgid "End _at"
+msgstr "ལུ་མཇུག་བསྡུ་(_a)"
+
+#: ../gncal/calendar-editor.glade.h:13
+msgid "End af_ter"
+msgstr "ཤུལ་ལས་མཇུག་བསྡུ་(_t)"
+
+#: ../gncal/calendar-editor.glade.h:14
+msgid "General"
+msgstr "ཡོངས་ཁྱབ་"
+
+#: ../gncal/calendar-editor.glade.h:15
+msgid ""
+"Never\n"
+"Daily\n"
+"Weekly\n"
+"Monthly\n"
+"Yearly"
+msgstr ""
+"ནམ་ཡང་\n"
+"ཉིན་བསྟར་\n"
+"བདུན་རིམ་\n"
+"ཟླ་རིམ་\n"
+"ལོ་བསྟར་"
+
+#: ../gncal/calendar-editor.glade.h:20
+msgid "Owner:"
+msgstr "བདག་པོ་:"
+
+#: ../gncal/calendar-editor.glade.h:21
+msgid "Pri_vate"
+msgstr "སྒེར་དོན་(_v)"
+
+#: ../gncal/calendar-editor.glade.h:22
+msgid "Receiver:"
+msgstr "ལེན་མི་:"
+
+#: ../gncal/calendar-editor.glade.h:23
+msgid "Recurrence"
+msgstr "སླར་འབྱུང་"
+
+#: ../gncal/calendar-editor.glade.h:24
+msgid "Reminder"
+msgstr "དྲན་་བསྐུལ་"
+
+#: ../gncal/calendar-editor.glade.h:25
+msgid "Repeat in_definitely"
+msgstr "ངེས་བཟུང་མེད་པར་ཡང་བསྐྱར་འབད་(_d)"
+
+#: ../gncal/calendar-editor.glade.h:26
+msgid "_All day event"
+msgstr "ཉིནམ་གང་ བྱུང་ལས་(_A)"
+
+#: ../gncal/calendar-editor.glade.h:27
+msgid "_Audible alarm"
+msgstr "རྣར་ཉན་བཏུབ་པའི་འཇིགས་བརྡ་(_A)"
+
+#: ../gncal/calendar-editor.glade.h:28
+msgid "_Begin:"
+msgstr "འགོ་བཙུགས་(_B)"
+
+#: ../gncal/calendar-editor.glade.h:29
+msgid "_Days"
+msgstr "ཉིནམ་(_D)"
+
+#: ../gncal/calendar-editor.glade.h:30
+msgid "_Display alarm"
+msgstr "འཇིགས་བརྡ་བཀྲམ་སྟོན་འབད་(_D)"
+
+#: ../gncal/calendar-editor.glade.h:31
+msgid "_E-mail message"
+msgstr "གློག་འཕྲིན་འཕྲིན་དོན་(_E)"
+
+#: ../gncal/calendar-editor.glade.h:32
+msgid "_End:"
+msgstr "མཇུག་(_E)"
+
+#: ../gncal/calendar-editor.glade.h:33
+msgid "_Hours"
+msgstr "ཆུ་ཚོད་ཚུ་(_H)"
+
+#: ../gncal/calendar-editor.glade.h:34
+msgid "_Minutes"
+msgstr "སྐར་མ་ཚུ་(_M)"
+
+#: ../gncal/calendar-editor.glade.h:35
+msgid "_Program execution"
+msgstr "ལས་རིམ་ལག་ལེན་འཐབ་ནི་(_P)"
+
+#: ../gncal/calendar-editor.glade.h:36
+msgid "_Public"
+msgstr "མི་མང་(_P)"
+
+#: ../gncal/calendar-editor.glade.h:37
+msgid "_Recurrence:"
+msgstr "སླར་འབྱུང་:(_R)"
+
+#: ../gncal/calendar-editor.glade.h:38
+#: ../gncal/todo-dialog.c:455
+msgid "_Summary:"
+msgstr "བཅུད་དོན་:(_S)"
+
+#: ../gncal/calendar-editor.glade.h:39
+msgid "_Warning time:"
+msgstr "ཉེན་བརྡ་དུས་ཚོད་:(_W)"
+
+#: ../gncal/calendar-editor.glade.h:40
+msgid "occurrences"
+msgstr "འབྱུང་བ་"
+
+#. Translators: This is "MONTH YEAR".
+#: ../gncal/calendar-month.c:204
+msgid "%B %Y"
+msgstr "%B %Y"
+
+#: ../gncal/calendar-month-item.c:249
+#: ../gncal/calendar-year-item.c:187
+msgid "X Position"
+msgstr "ཨེགསི་ གནས་ས་"
+
+#: ../gncal/calendar-month-item.c:250
+#: ../gncal/calendar-year-item.c:188
+msgid "Canvas item x position"
+msgstr "འབྲི་གཞི་རྣམ་གྲངས་ ཨེགསི་གནས་ས་"
+
+#: ../gncal/calendar-month-item.c:255
+#: ../gncal/calendar-year-item.c:193
+msgid "Y Position"
+msgstr "ཝའི་གནས་་"
+
+#: ../gncal/calendar-month-item.c:256
+#: ../gncal/calendar-year-item.c:194
+msgid "Canvas item y position"
+msgstr "འབྲི་གཞི་རྣམ་གྲངས་ ཝའི་གནས་ས་"
+
+#: ../gncal/calendar-month-item.c:261
+#: ../gncal/calendar-year-item.c:199
+msgid "Width"
+msgstr "རྒྱ་ཚད་"
+
+#: ../gncal/calendar-month-item.c:262
+#: ../gncal/calendar-year-item.c:200
+msgid "Canvas item width"
+msgstr "འབྲི་གཞི་རྣམ་གྲངས་རྒྱ་ཚད་"
+
+#: ../gncal/calendar-month-item.c:267
+#: ../gncal/calendar-year-item.c:205
+msgid "Height"
+msgstr "མཐོ་ཚད་"
+
+#: ../gncal/calendar-month-item.c:268
+#: ../gncal/calendar-year-item.c:206
+msgid "Canvas item height"
+msgstr "འབྲི་གཞི་རྣམ་གྲངས་མཐོ་ཚད་"
+
+#: ../gncal/calendar-month-item.c:273
+#: ../gncal/calendar-year-item.c:211
+#: ../libegg/egg-datetime.c:293
+msgid "Year"
+msgstr "ལོ་"
+
+#: ../gncal/calendar-month-item.c:274
+#: ../gncal/calendar-year-item.c:212
+msgid "The displayed year"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ལོ་"
+
+#: ../gncal/calendar-month-item.c:279
+#: ../gncal/calendar-year-item.c:217
+#: ../libegg/egg-datetime.c:299
+msgid "Month"
+msgstr "ཟླ་"
+
+#: ../gncal/calendar-month-item.c:280
+#: ../gncal/calendar-year-item.c:218
+msgid "The displayed month (1-12)"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ཟླཝ་ (༡-༡༢)"
+
+#: ../gncal/calendar-month-item.c:285
+#: ../gncal/calendar-year-item.c:223
+#: ../libegg/egg-datetime.c:305
+msgid "Day"
+msgstr "ཉིནམ་"
+
+#: ../gncal/calendar-month-item.c:286
+#: ../gncal/calendar-year-item.c:224
+msgid "The displayed day of month (1-31)"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ ཟླཝ་གི་ཉིནམ་ (༡-༣༡)"
+
+#: ../gncal/calendar-month-item.c:291
+msgid "Heading font"
+msgstr "མགུ་རྒྱན་ཡིག་གཟུགས་"
+
+#: ../gncal/calendar-month-item.c:292
+msgid "Font to use for the heading"
+msgstr "མགུ་རྒྱན་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནི་གི་ཡིག་གཟུགས་"
+
+#: ../gncal/calendar-month-item.c:297
+msgid "Heading font description"
+msgstr "མགུ་རྒྱན་ཡིག་གཟུགས་འགྲེལ་བཤད་"
+
+#: ../gncal/calendar-month-item.c:298
+msgid "PangoFontDescription of the font to use for the heading"
+msgstr "མགུ་རྒྱན་གྱི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་གི་ ཡིག་གཟུགས་འདི་གི་ པང་གོ་ཡིག་གཟུགས་འགྲེལ་བཤད་"
+
+#: ../gncal/calendar-month-item.c:302
+msgid "Day font"
+msgstr "ཉིནམ་ཡིག་གཟུགས་"
+
+#: ../gncal/calendar-month-item.c:303
+msgid "Font to use for the day items"
+msgstr "ཉིནམ་གི་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་གི་ཡིག་གཟུགས་"
+
+#: ../gncal/calendar-month-item.c:308
+msgid "Day font description"
+msgstr "ཉིནམ་ཡིག་གཟུགས་འགྲེལ་བཤད་"
+
+#: ../gncal/calendar-month-item.c:309
+msgid "PangoFontDescription of the font to use for the day items"
+msgstr "ཉིནམ་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་གི་ ཡིག་གཟུགས་འདི་གི་ པང་གོ་ཡིག་གཟུགས་འགྲེལ་བཤད་"
+
+#: ../gncal/calendar-month-item.c:313
+msgid "Heading padding"
+msgstr "མགུ་རྒྱན་བར་ཤབས་"
+
+#: ../gncal/calendar-month-item.c:314
+msgid "Size of the heading's padding"
+msgstr "མགུ་རྒྱན་འདི་གི་བར་ཤབས་ཀྱི་ཚད་"
+
+#: ../gncal/calendar-month-item.c:319
+msgid "Day padding"
+msgstr "ཉིནམ་བར་ཤབས་"
+
+#: ../gncal/calendar-month-item.c:320
+msgid "Size of the padding around day items"
+msgstr "ཉིནམ་གི་རྣམ་གྲངས་ཚུ་གི་མཐའ་སྐོར་ བར་ཤབས་འདི་གི་ཚད་"
+
+#: ../gncal/calendar-month-item.c:325
+msgid "Show week numbers"
+msgstr "བདུན་ཕྲག་གི་གྲངས་ཚུ་སྟོན་"
+
+#: ../gncal/calendar-month-item.c:326
+msgid "Whether week numbers are displayed"
+msgstr "བདུན་ཕྲག་གི་ཨང་ཚུ་བཀྲམ་སྟོན་འབད་ཡོདཔ་ཨིན་ན་མེན་ན་"
+
+#. Translate to calendar:week_start:1 if you want Monday to be the
+#. * first day of the week; otherwise translate to calendar:week_start:0.
+#. * Do *not* translate it to anything else, if it isn't calendar:week_start:1
+#. * or calendar:week_start:0 it will not work.
+#.
+#: ../gncal/calendar-month-item.c:346
+#: ../gncal/calendar-week.c:281
+#: ../libegg/egg-datetime.c:438
+msgid "calendar:week_start:0"
+msgstr "ཟླ་ཐོ་: བདུན་ཕྲག་འགོ་བཙུགས་:༠ (_s)"
+
+#. Update labels
+#: ../gncal/calendar-week.c:383
+msgid "Week %V/%G"
+msgstr "བདུན་ཕྲག་ %V/%G"
+
+#. Translators: This is "%weekstart to %weekend". You should probably
+#. * use FIGURE DASH (0x2012) instead of '-'.
+#: ../gncal/calendar-week.c:391
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../gncal/calendar-week-day.c:491
+#: ../gncal/calendar-widget.c:275
+#, c-format
+msgid "%A %d"
+msgstr "%A %d"
+
+#: ../gncal/calendar-widget.c:192
+msgid "Save file"
+msgstr "ཡིག་སྣོད་སྲུང་བཞག་འབད་"
+
+#. FIXME: this baby is never freed
+#: ../gncal/calendar-widget.c:252
+msgid "New appointment..."
+msgstr "ངོ་འཕྲད་གསརཔ་..."
+
+#: ../gncal/calendar-widget.c:314
+#, c-format
+msgid "Error while creating backup file %s: %s"
+msgstr "རྒྱབ་ཐག་ཡིག་སྣོད་ %s གསར་བསྐྲུན་འབད་བའི་སྐབས་འཛོལ་བ་: %s"
+
+#: ../gncal/calendar-widget.c:377
+msgid "Day View"
+msgstr "ཉིནམ་མཐོང་སྣང་"
+
+#: ../gncal/calendar-widget.c:390
+msgid "Week View"
+msgstr "བདུན་ཕྲག་མཐོང་སྣང་"
+
+#: ../gncal/calendar-widget.c:404
+msgid "Month View"
+msgstr "ཟླཝ་མཐོང་སྣང་"
+
+#: ../gncal/calendar-widget.c:418
+msgid "Year View"
+msgstr "ལོ་མཐོང་སྣང་"
+
+#: ../gncal/calendar-widget.c:588
+#, c-format
+msgid "Could not stat %s: %s"
+msgstr " %s: %s སི་ཊེཊི་འབད་མ་ཚུགས་"
+
+#: ../gncal/calendar-widget.c:602
+#, c-format
+msgid "File %s has changed since it was loaded. Save anyways and overwrite any changes?"
+msgstr "ཡིག་སྣོད་ %s འདི་ མངོན་གསལ་འབད་མི་ལས་ཚུར་ བསྒྱུར་བཅོས་འབད་ཡོད། བསྒྱུར་བཅོས་ཚུ་ག་ཅི་འབད་རུང་ ག་དེ་སྦེ་འབད་རུང་སྲུང་བཞག་འབད་ནི་དང་ ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: ../gncal/gnomecal.desktop.in.h:1
+msgid "Calendar (GNOME Calendar)"
+msgstr "ཟླ་ཐོ་ (ཇི་ནོམ་ཟླ་ཐོ་)"
+
+#: ../gncal/gnomecal.desktop.in.h:2
+#: ../gncal/gnomecal-main-window.c:184
+msgid "The GNOME personal calendar and schedule manager"
+msgstr "ཇི་ནོམ་རང་དོན་ཟླ་ཐོ་དང་ འཆར་རིམ་འཛིན་སྐྱོང་པ་"
+
+#: ../gncal/gnomecal-alarm-sink.c:362
+msgid "Snooze"
+msgstr "ཉིན་གཉིད་ཁུག་ནི་"
+
+#: ../gncal/gnomecal-goto.c:282
+msgid "January"
+msgstr "སྤྱི་ཟླ་དང་པ་"
+
+#: ../gncal/gnomecal-goto.c:283
+msgid "February"
+msgstr "སྤྱི་ཟླ་གཉིས་པ་"
+
+#: ../gncal/gnomecal-goto.c:284
+msgid "March"
+msgstr "སྤྱི་ཟླ་གསུམ་པ་"
+
+#: ../gncal/gnomecal-goto.c:285
+msgid "April"
+msgstr "སྤྱི་ཟླ་བཞི་པ་"
+
+#: ../gncal/gnomecal-goto.c:286
+msgid "May"
+msgstr "སྤྱི་ཟླ་ལྔ་པ་"
+
+#: ../gncal/gnomecal-goto.c:287
+msgid "June"
+msgstr "སྤྱི་ཟླ་དྲུག་པ་"
+
+#: ../gncal/gnomecal-goto.c:288
+msgid "July"
+msgstr "སྤྱི་ཟླ་བདུན་པ་"
+
+#: ../gncal/gnomecal-goto.c:289
+msgid "August"
+msgstr "སྤྱི་ཟླ་བརྒྱད་པ་"
+
+#: ../gncal/gnomecal-goto.c:290
+msgid "September"
+msgstr "སྤྱི་ཟླ་དགུ་པ་"
+
+#: ../gncal/gnomecal-goto.c:291
+msgid "October"
+msgstr "སྤྱི་ཟླ་བཅུ་པ་"
+
+#: ../gncal/gnomecal-goto.c:292
+msgid "November"
+msgstr "སྤྱི་ཟླ་བཅུ་གཅིག་པ་"
+
+#: ../gncal/gnomecal-goto.c:293
+msgid "December"
+msgstr "སྤྱི་ཟླ་བཅུ་གཉིས་པ་"
+
+#. Widget Setup
+#: ../gncal/gnomecal-goto.c:325
+msgid "Go to date"
+msgstr "ཚེས་གྲངས་ལུ་འགྱོ་"
+
+#. Label
+#: ../gncal/gnomecal-goto.c:344
+msgid "Please choose the date to jump to:"
+msgstr " ལུ་མཆོང་ནིའི་ ཚེས་གྲངས་འདི་གདམ་ཁ་རྐྱབས་"
+
+#: ../gncal/gnomecal-goto.c:354
+msgid "_Year:"
+msgstr "ལོ་:(_Y)"
+
+#: ../gncal/gnomecal-goto.c:370
+msgid "_Month:"
+msgstr "ཟླཝ་:(_M)"
+
+#: ../gncal/gnomecal-goto.c:405
+msgid "_Today"
+msgstr "ད་རིས་(_T)"
+
+#: ../gncal/gnomecal-main-window.c:178
+#: ../gnomecard/gnomecard-main-window.c:433
+msgid "translator_credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>"
+
+#: ../gncal/gnomecal-main-window.c:188
+#: ../gncal/gnomecal-main-window.c:197
+msgid "GNOME Calendar"
+msgstr "ཇི་ནོམ་ ཟླ་ཐོ་"
+
+#: ../gncal/gnomecal-main-window.c:262
+msgid "Load calendar"
+msgstr "ཟླ་ཐོ་མངོན་གསལ་འབད་"
+
+#: ../gncal/gnomecal-main-window.c:307
+msgid "Save calendar"
+msgstr "ཟླ་ཐོ་སྲུང་བཞག་འབད་"
+
+#: ../gncal/gnomecal-main-window.c:522
+msgid "_New calendar"
+msgstr "ཟླ་ཐོ་གསརཔ་(_N)"
+
+#: ../gncal/gnomecal-main-window.c:522
+msgid "Create a new calendar"
+msgstr "ཟླ་ཐོ་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../gncal/gnomecal-main-window.c:537
+msgid "_New appointment..."
+msgstr "ངོ་འཕྲད་གསརཔ་(_N)"
+
+#: ../gncal/gnomecal-main-window.c:537
+#: ../gncal/gnomecal-main-window.c:571
+msgid "Create a new appointment"
+msgstr "ངོ་འཕྲད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../gncal/gnomecal-main-window.c:538
+msgid "New appointment for _today..."
+msgstr "ད་རིས་ཀྱི་དོན་ལུ་ ངོ་འཕྲད་གསརཔ་(_t)"
+
+#: ../gncal/gnomecal-main-window.c:538
+msgid "Create a new appointment for today"
+msgstr "ད་རིས་ཀྱི་དོན་ལུ་ ངོ་འཕྲད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../gncal/gnomecal-main-window.c:571
+#: ../gnomecard/gnomecard-main-window.c:563
+msgid "New"
+msgstr "གསརཔ་"
+
+#: ../gncal/gnomecal-main-window.c:575
+msgid "Prev"
+msgstr "ཧེ་མམ་"
+
+#: ../gncal/gnomecal-main-window.c:575
+msgid "Go back in time"
+msgstr "དུས་ཚོད་ཁར་ལོག་འགྱོ་"
+
+#: ../gncal/gnomecal-main-window.c:576
+msgid "Today"
+msgstr "ད་རིས་"
+
+#: ../gncal/gnomecal-main-window.c:576
+msgid "Go to present time"
+msgstr "ད་ལྟོའི་དུས་ཚོད་ལུ་འགྱོ་"
+
+#: ../gncal/gnomecal-main-window.c:577
+msgid "Next"
+msgstr "ཤུལ་མམ་"
+
+#: ../gncal/gnomecal-main-window.c:577
+msgid "Go forward in time"
+msgstr "དུས་ཚོད་ཁར་གདོང་བསྐྱོད་འགྱོ་"
+
+#: ../gncal/gnomecal-main-window.c:581
+msgid "Go to"
+msgstr "ལུ་འགྱོ་"
+
+#: ../gncal/gnomecal-main-window.c:581
+msgid "Go to a specific date"
+msgstr "དམིགས་བསལ་ཚེས་གྲངས་ཅིག་ལུ་འགྱོ་"
+
+#: ../gncal/gnomecal-main.c:80
+#, c-format
+msgid "%s: Invalid argument for --view option: %s!\n"
+msgstr "%s: ནུས་མེད་སྒྲུབ་རྟགས་  --མཐོང་སྣང་གདམ་ཁ་: %s གི་དོན་ལུ་!\n"
+
+#: ../gncal/gnomecal-main.c:94
+msgid "calendar file to load"
+msgstr "མངོན་གསལ་འབད་ནི་གི་ ཟླ་ཐོ་ཡིག་སྣོད་"
+
+#: ../gncal/gnomecal-main.c:94
+msgid "FILE"
+msgstr "ཡིག་སྣོད་"
+
+#: ../gncal/gnomecal-main.c:95
+msgid "startup view mode (dayview, weekview, monthview, yearview)"
+msgstr "མཐོང་སྣང་ཐབས་ལམ་ འགོ་བཙུགས་ (ཉིནམ་མཐོང་སྣང་  བདུན་ཕྲག་མཐོང་སྣང་  ཟླཝ་མཐོང་སྣང་  ལོ་མཐོང་སྣང་)"
+
+#: ../gncal/gnomecal-main.c:95
+msgid "VIEW"
+msgstr "མཐོང་སྣང་"
+
+#: ../gncal/gnomecal-main.c:96
+msgid "start in iconic mode"
+msgstr "ངོས་དཔར་གྱི་ཐབས་ལམ་ནང་འགོ་བཙུགས་"
+
+#: ../gncal/gnomecal-prefs.c:63
+msgid "Outline:"
+msgstr "མཐའ་ཐིག་:"
+
+#: ../gncal/gnomecal-prefs.c:64
+msgid "Headings:"
+msgstr "མགུ་རྒྱན་ཚུ་:"
+
+#: ../gncal/gnomecal-prefs.c:65
+msgid "Empty days:"
+msgstr "ཉིནམ་སྟོངམ་ཚུ་:"
+
+#: ../gncal/gnomecal-prefs.c:66
+msgid "Appointments:"
+msgstr "ངོ་འཕྲད་ཚུ་:"
+
+#: ../gncal/gnomecal-prefs.c:67
+msgid "Highlighted day:"
+msgstr "གཙོ་དམིགས་འབད་ཡོད་པའི་ཉིནམ་:"
+
+#: ../gncal/gnomecal-prefs.c:68
+msgid "Day numbers:"
+msgstr "ཉིནམ་གི་གྲངས་:"
+
+#: ../gncal/gnomecal-prefs.c:69
+msgid "Current day's number:"
+msgstr "ད་ལྟོའི་ཉིནམ་གི་གྲངས་:"
+
+#: ../gncal/gnomecal-prefs.c:70
+msgid "Event day's number:"
+msgstr "བྱུང་ལས་ཉིནམ་གི་གྲངས་:"
+
+#: ../gncal/gnomecal-prefs.c:71
+msgid "To-Do item that is not yet due:"
+msgstr "ད་ཚུན་རན་པ་མེན་པའི་ ཊུ་ཌུ་རྣམ་གྲངས་:"
+
+#: ../gncal/gnomecal-prefs.c:72
+msgid "To-Do item that is due today:"
+msgstr "ད་རིས་རན་པ་ཨིན་མི་ ཊུ་ཌུ་རྣམ་གྲངས་:"
+
+#: ../gncal/gnomecal-prefs.c:73
+msgid "To-Do item that is overdue:"
+msgstr "རན་པ་ཨིན་མི་ ཊུ་ཌུ་རྣམ་གྲངས་:"
+
+#: ../gncal/gnomecal-prefs.c:277
+msgid "Executable files"
+msgstr "ལག་ལེན་འཐབ་བཏུབ་པའི་ཡིག་སྣོད་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:291
+#, c-format
+msgid "Configuration error: The configuration key %s has the invalid value %d! Values must be in the range 0 to 144000. The key is reset to a sane value."
+msgstr "རིམ་སྒྲིག་འཛོལ་བ་: རིམ་སྒྲིག་ལྡེ་མིག་ %s ལུ་ ནུས་མེད་གནས་གོང་ %d འདུག! གནས་གོང་ཚུ་ ༠ ལས་ ༡༤༤༠༠༠ གི་ཁྱབ་ཚད་ནང་ཨིན་དགོ  ལྡེ་མིག་འདི་ སེན་གནས་གོང་ནང་སླར་སྒྲིག་འབད་ཡོདཔ་ཨིན།"
+
+#: ../gncal/gnomecal-prefs.c:301
+#, c-format
+msgid "Configuration error: The configuration key %s has the invalid value %d! Values must be day hours, i.e. in the range 0 to 23. The key is reset to a sane default value."
+msgstr "རིམ་སྒྲིག་འཛོལ་བ་: རིམ་སྒྲིག་ལྡེ་མིག་ %s ལུ་ ནུས་མེད་གནས་གོང་ %d འདུག! གནས་གོང་ཚུ་ ཉིནམ་ཆུ་ཚོད་ཨིན་དགོ་ དེ་ཡང་ ༠ ལས་ ༢༣ གི་ཁྱབ་ཚད་ནང་།  ལྡེ་མིག་འདི་ སེན་སྔོན་སྒྲིག་གནས་གོང་ནང་སླར་སྒྲིག་འབད་ཡོདཔ་ཨིན།"
+
+#: ../gncal/gnomecal-prefs.c:716
+msgid "Choose command"
+msgstr "བརྡ་བཀོད་གདམ་ཁ་རྐྱབས་"
+
+#. Day range
+#: ../gncal/gnomecal-prefs.c:1070
+msgid "Day Range"
+msgstr "ཉིནམ་ཁྱབ་ཚད་"
+
+#: ../gncal/gnomecal-prefs.c:1089
+msgid "Please select the start and end hours you want to be displayed in the day view and week view. Times outside this range will not be displayed by default."
+msgstr "ཁྱོད་ཀྱིས་ ཉིནམ་མཐོང་སྣང་དང་བདུན་ཕྲག་མཐོང་སྣང་འདི་ནང་ བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་མི་ འགོ་བཙུགས་དང་མཇུག་ཆུ་ཚོད་འདི་སེལ་འཐུ་འབད་གནང་། འ་ནི་ཁྱབ་ཚད་ཀྱི་ཕྱི་ཁའི་ཆུ་ཚོད་འདི་ སྔོན་སྒྲིག་གིས་བཀྲམ་སྟོན་མི་འབད།"
+
+#: ../gncal/gnomecal-prefs.c:1103
+msgid "Day _start:"
+msgstr "ཉིནམ་འགོ་བཙུགས་:(_s)"
+
+#: ../gncal/gnomecal-prefs.c:1115
+msgid "Day _end:"
+msgstr "ཉིནམ་མཇུག་:(_e)"
+
+#. Options
+#: ../gncal/gnomecal-prefs.c:1137
+#: ../gncal/gnomecal-prefs.c:1506
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1156
+msgid "_Roll calendar to next day on midnight"
+msgstr "ཟླ་ཐོ་འདི་ ནུབ་ཕྱེད་གུའི་ཉིནམ་ཤུལ་མམ་ལུ་ཤོ་རིལ་འབད་(_R)"
+
+#: ../gncal/gnomecal-prefs.c:1235
+msgid "Example"
+msgstr "དཔེར་བརྗོད་"
+
+#. Title
+#: ../gncal/gnomecal-prefs.c:1282
+msgid "Displayed Attributes"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ཁྱད་ཆོས་ཚུ་"
+
+#. Explanation
+#: ../gncal/gnomecal-prefs.c:1303
+msgid "The following attributes are displayed in the to do list:"
+msgstr "འོག་གི་ཁྱད་ཆོས་ཚུ་ ཊུ་ཌུ་ཐོ་ཡིག་འདི་ནང་ བཀྲམ་སྟོན་འབད་ཡོད་:"
+
+#. Check boxes
+#: ../gncal/gnomecal-prefs.c:1311
+#: ../gncal/todo-list.c:1051
+msgid "Summary"
+msgstr "བཅུད་དོན་:"
+
+#: ../gncal/gnomecal-prefs.c:1317
+msgid "_Due date"
+msgstr "ཆད་ཚེས་གྲངས་(_D)"
+
+#: ../gncal/gnomecal-prefs.c:1324
+msgid "_Priority"
+msgstr "གཙོ་རིམ་(_P)"
+
+#: ../gncal/gnomecal-prefs.c:1331
+msgid "Time _until due"
+msgstr "རན་པ་ཚུན་ཚོད་ཆུ་ཚོད་(_u)"
+
+#: ../gncal/gnomecal-prefs.c:1338
+msgid "Cate_gories"
+msgstr "དབྱེ་རིམ་ཚུ་(_g)"
+
+#: ../gncal/gnomecal-prefs.c:1359
+msgid "Minutes"
+msgstr "སྐར་མ་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1360
+msgid "Hours"
+msgstr "ཆུ་ཚོད་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1361
+msgid "Days"
+msgstr "ཉིནམ་ཚུ་"
+
+#. Alarm properties header
+#: ../gncal/gnomecal-prefs.c:1397
+msgid "Alarm Properties"
+msgstr "འཇིགས་བརྡ་རྒྱུ་དངོས་ཚུ་"
+
+#. Beep on display alarms
+#: ../gncal/gnomecal-prefs.c:1418
+msgid "_Beep on display alarms"
+msgstr "འཇིགས་བརྡ་བཀྲམ་སྟོན་འབད་ནི་ཚུ་གུ་ བརྡ་སྐད་སྟོན་(_B)"
+
+#: ../gncal/gnomecal-prefs.c:1431
+msgid "Audio alarms t_imeout after"
+msgstr "རྣར་ཉན་འཇིགས་བརྡ་ངལ་མཚམས་ཤལ་ལས་(_i)"
+
+#: ../gncal/gnomecal-prefs.c:1444
+#: ../gncal/gnomecal-prefs.c:1467
+msgid "seconds"
+msgstr "སྐར་ཆ་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1454
+msgid "Enable _snoozing for"
+msgstr "དོན་ལུ་ ཉིན་གཉིད་ཁུག་ནི་ལྕོགས་ཅན་བཟོ་(_s)"
+
+#. Default alarm types header
+#: ../gncal/gnomecal-prefs.c:1473
+msgid "Default Alarm Types"
+msgstr "སྔོན་སྒྲིག་འཇིགས་བརྡ་དབྱེ་བ་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1492
+msgid "Alarm type"
+msgstr "འཇིགས་བརྡ་དབྱེ་བ་"
+
+#: ../gncal/gnomecal-prefs.c:1499
+msgid "Advance warning time"
+msgstr "མཐོ་རིམ་ཉེན་བརྡ་ཆུ་ཚོད་"
+
+#: ../gncal/gnomecal-prefs.c:1513
+msgid "_Display"
+msgstr "བཀྲམ་སྟོན་(_D)"
+
+#: ../gncal/gnomecal-prefs.c:1520
+msgid "A_udio"
+msgstr "རྣར་ཉན་(_u)"
+
+#: ../gncal/gnomecal-prefs.c:1527
+msgid "_Program"
+msgstr "ལས་རིམ་(_P)"
+
+#: ../gncal/gnomecal-prefs.c:1534
+msgid "_Mail"
+msgstr "ཡིག་འཕྲིན་(_M)"
+
+#: ../gncal/gnomecal-prefs.c:1608
+msgid "_Run program:"
+msgstr "ལས་རིམ་གཡོག་བཀོལ་:(_R)"
+
+#: ../gncal/gnomecal-prefs.c:1621
+msgid "Browse..."
+msgstr "བརྡ་འཚོལ་..."
+
+#. translator note: the person who receives mail
+#: ../gncal/gnomecal-prefs.c:1629
+msgid "Mail recei_ver:"
+msgstr "ཡིག་འཕྲིན་ལེན་མི་:(_v)"
+
+#: ../gncal/gnomecal-prefs.c:1681
+#, c-format
+msgid "Configuration error: Day end time (%d) is before day start time (%d)! The times are reset to sane default values."
+msgstr "རིམ་སྒྲིག་འཛོལ་བ་: ཉིནམ་དང་ཆུ་ཚོད་ (%d) འདི་ ཉིནམ་འགོ་བཙུགས་ཆུ་ཚོད་ (%d) གི་ཧེ་མ་ཨིན་པས་! ཆུ་ཚོད་འདི་ཚུ་ སེན་སྔོན་སྒྲིག་གནས་གོང་ཚུ་ལུ་ སླར་སྒྲིག་འབད་ཡོད།"
+
+#: ../gncal/gnomecal-prefs.c:1821
+msgid "GNOME Calendar Preferences"
+msgstr "ཇི་ནོམ་ཟླ་ཐོ་དགའ་གདམ་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1843
+msgid "Time Display"
+msgstr "ཆུ་ཚོད་བཀྲམ་སྟོན་"
+
+#: ../gncal/gnomecal-prefs.c:1849
+msgid "Colors"
+msgstr "ཚོས་གཞི་ཚུ་"
+
+#: ../gncal/gnomecal-prefs.c:1855
+msgid "To Do List"
+msgstr "ཊུ་ཌུ་ཐོ་ཡིག་"
+
+#: ../gncal/gnomecal-prefs.c:1861
+msgid "Alarms"
+msgstr "འཇིགས་བརྡ་ཚུ་"
+
+#: ../gncal/gnomecal.schemas.in.h:1
+msgid "Audio alarm timeout"
+msgstr "རྣར་ཉན་འཇིགས་བརྡ་ངལ་མཚམས་"
+
+#: ../gncal/gnomecal.schemas.in.h:2
+msgid "Audio alarms by default?"
+msgstr "རྣར་ཉན་འཇིགས་བརྡ་ སྔོན་སྒྲིག་གིས་སྦེ?"
+
+#: ../gncal/gnomecal.schemas.in.h:3
+msgid "Auto-rollover at midnight?"
+msgstr "ནུབ་ཕྱེད་ལུ་ རང་བཞིན་སྐོར་ར་རྐྱབས་མི?"
+
+#: ../gncal/gnomecal.schemas.in.h:4
+msgid "Beep on display alarms?"
+msgstr "བཀྲམ་སྟོན་འཇིགས་བརྡ་ཚུ་གུ་བརྡ་སྐད་བཏོན?"
+
+#: ../gncal/gnomecal.schemas.in.h:5
+msgid "Calendar colors"
+msgstr "ཟླ་ཐོ་ཚོས་གཞི་ཚུ་"
+
+#: ../gncal/gnomecal.schemas.in.h:6
+msgid "Color of overdue to do items"
+msgstr "རན་པ་ཊུ་ཌུ་རྣམ་གྲངས་ཚུ་གི་ཚོས་གཞི་ཚུ་"
+
+#: ../gncal/gnomecal.schemas.in.h:7
+msgid "Color of to do items due today"
+msgstr "ཊུ་ཌུ་རྣམ་གྲངས་རན་པ་ད་རིས་ཀྱི་ ཚོས་གཞི་"
+
+#: ../gncal/gnomecal.schemas.in.h:8
+msgid "Day end"
+msgstr "ཉིནམ་མཇུག་"
+
+#: ../gncal/gnomecal.schemas.in.h:9
+msgid "Day start"
+msgstr "ཉིནམ་འགོ་བཙུགས་"
+
+#: ../gncal/gnomecal.schemas.in.h:10
+msgid "Default alarm mail warning time"
+msgstr "སྔོན་སྒྲིག་འཇིགས་བརྡ་ཡིག་འཕྲིན་ཉེན་བརྡ་དུས་ཚོད་"
+
+#: ../gncal/gnomecal.schemas.in.h:11
+msgid "Default alarm pop-up warning time"
+msgstr "སྔོན་སྒྲིག་འཇིགས་བརྡ་པོཔ་ཨཔ་ཉེན་བརྡ་དུས་ཚོད་"
+
+#: ../gncal/gnomecal.schemas.in.h:12
+msgid "Default alarm program start time"
+msgstr "སྔོན་སྒྲིག་འཇིགས་བརྡ་ ལས་རིམ་འགོ་བཙུགས་དུས་ཚོད་"
+
+#: ../gncal/gnomecal.schemas.in.h:13
+msgid "Default alarm program to execute"
+msgstr "སྔོན་སྒྲིག་འཇིགས་བརྡ་ ལས་རིམ་ ལག་ལེན་འཐབ་ནིའི་དོན་ལས་"
+
+#: ../gncal/gnomecal.schemas.in.h:14
+msgid "Default audio alarm warning time"
+msgstr "སྔོན་སྒྲིག་རྣར་ཉན་ འཇིགས་བརྡ་ཉེན་བརྡ་དུས་ཚོད་"
+
+#: ../gncal/gnomecal.schemas.in.h:15
+msgid "Default mail receiver"
+msgstr "སྔོན་སྒྲིག་ཡིག་འཕྲིན་ལེན་མི་"
+
+#: ../gncal/gnomecal.schemas.in.h:16
+msgid "Display alarm pop-ups by default?"
+msgstr "སྔོན་སྒྲིག་གིས་སྦེ་ འཇིགས་བརྡ་པོཔ་ཨཔ་བཀྲམ་སྟོན་འབད?"
+
+#: ../gncal/gnomecal.schemas.in.h:17
+msgid "Execute program on alarms by default?"
+msgstr "སྔོན་སྒྲིག་གིས་སྦེ་ འཇིགས་བརྡ་ཚུ་གུ་ ལས་རིམ་ཚུ་ལག་ལེན་འཐབ?"
+
+#: ../gncal/gnomecal.schemas.in.h:18
+msgid "If this option is enabled, GNOME Calendar's day view will automatically jump to the next day at midnight if the current day was displayed before."
+msgstr "འ་ནི་གདམ་ཁ་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན་ ཇི་ནོམ་ཟླ་ཐོ་གི་ཉིནམ་མཐོང་སྣང་འདི་ རང་བཞིན་གྱིས་ ད་ལྟོའི་ཉིནམ་འདི་ ཧེ་མ་བཀྲམ་སྟོན་འབད་ཡོདཔ་ཨིན་པ་ཅིན་ ནུབ་ཕྱེད་གུའི་ཉིནམ་ཤུལ་མམ་འདི་ལུ་མཆོང་འོང་།"
+
+#: ../gncal/gnomecal.schemas.in.h:19
+msgid "If this option is enabled, all alarms default to execute a program on occurence."
+msgstr "འ་ནི་གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན་ འཇིགས་བརྡ་ཚུ་ཆ་མཉམ་ འབྱུང་བ་གུ་ལས་རིམ་ཅིག་ ལག་ལེན་ཐབ་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:20
+msgid "If this option is enabled, all alarms default to opening a pop-up on occurence."
+msgstr "འ་ནི་གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན་ འཇིགས་བརྡ་ཚུ་ཆ་མཉམ་ འབྱུང་བ་གུ་ པོཔ་ཨཔ་ཅིག་ཁ་ཕྱེ་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:21
+msgid "If this option is enabled, all alarms default to playing a sound on occurence."
+msgstr "འ་ནི་གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན་ འཇིགས་བརྡ་ཚུ་ཆ་མཉམ་ འབྱུང་བ་གུ་ སྒྲ་སྐད་ཅིག་གཏང་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:22
+msgid "If this option is enabled, all alarms default to sending mail on occurence."
+msgstr "འ་ནི་གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན འཇིགས་བརྡ་ཚུ་ཆ་མཉམ་ འབྱུང་བ་གུ་ ཡིག་འཕྲིན་གཏང་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:23
+msgid "If this option is enabled, there will be an audible beep whenever a alarm pop-up opens. This does not affect other types of notifications."
+msgstr "འ་ནི་གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོ་ཡོདཔ་ཨིན་པ་ཅིན་ འཇིགས་བརྡ་པོཔ་ཨཔ་ཅིག་ནམ་རང་འབད་རུང་ཁ་ཕྱེ་བའི་སྐབས་ རྣར་ཉན་བཏུབ་པའི་བརྡ་སྐད་བཏོན་ནི་ཅིག་འོང་། འ་ནི་འདི་གིས་ བརྡ་བསྐུལ་གྱི་དབྱེ་བ་གཞན་མི་ལུ་མི་གནོད།"
+
+#: ../gncal/gnomecal.schemas.in.h:24
+msgid "Normal color of to do items"
+msgstr "ཊུ་ཌུ་རྣམ་གྲངས་ཚུ་གི་ སྤྱི་བཏང་ཚོས་གཞི་"
+
+#: ../gncal/gnomecal.schemas.in.h:25
+msgid "Send mail on alarms by default?"
+msgstr "སྔོན་སྒྲིག་གིས་སྦེ་ འཇིགས་བརྡ་ཚུ་གུ་ཡིག་འཕྲིན་བཏང་?"
+
+#: ../gncal/gnomecal.schemas.in.h:26
+msgid "Show which to do list columns?"
+msgstr "ཊུ་ཌུ་ཐོ་ཡིག་ཀེར་ཐིག་ག་འདི་ཨིན་ན་སྟོན?"
+
+#: ../gncal/gnomecal.schemas.in.h:27
+msgid "Snooze timeout"
+msgstr "ཉིན་གཉིད་ཁུག་ནི་ངལ་མཚམས་"
+
+#: ../gncal/gnomecal.schemas.in.h:28
+msgid "These attributes determine which columns are shown in the to do list."
+msgstr "འ་ནི་ཁྱད་ཆོས་ཚུ་གིས་ ཀེར་ཐིག་ག་འདི་ཚུ་ ཊུ་ཌུ་ཐོ་ཡིག་ནང་ལུ་སྟོན་ཏེ་ཡོདཔ་ཨིན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:29
+msgid "These attributes specify the different color for the calendar."
+msgstr "འ་ནི་ཁྱད་ཆོས་ཚུ་གིས་ ཟླ་ཐོ་འདི་གི་དོན་ལུ་ ཚོས་གཞི་སོ་སོ་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:30
+msgid "This attribute specifies the color to use for to do items that are due today."
+msgstr "འ་ནི་ཁྱད་ཆོས་ཚོས་འདི་གིས་ ད་རིས་ཆད་ཨིན་མི་ ཊུ་ཌུ་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:31
+msgid "This attribute specifies the color to use for to do items that are overdue."
+msgstr "འ་ནི་ཁྱད་ཆོས་འདི་གིས་ རན་པ་ཨིན་མི་ ཊུ་ཌུ་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:32
+msgid "This attribute specifies the color to use for to do items that either have no due date set or where the due date is neither today nor in the past."
+msgstr "འ་ནི་ཁྱད་ཆོས་འདི་གིས་ ཡང་ཅིན་ རན་ཚེས་འདི་གཞི་སྒྲིག་འབད་འབདཝ་མེད་མི་ ཡང་ན་ རན་ཚེས་འདི་ ད་རིས་ཡང་ན་ཧེ་མ་མེན་མི་ཡོད་མི་ ཊུ་ཌུ་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་ ཚོས་གཞི་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:33
+msgid "This option specifies the default program that gets executed whenever a program alarm occurs."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ ནམ་རང་འབད་རུང་ ལས་རིམ་འཇིགས་བརྡ་ཅིག་འབྱུང་པའི་སྐབས་ ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་ལས་རིམ་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:34
+msgid "This option specifies the default receiver for e-mail that is sent in response the the occurance of an alarm."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ འཇིགས་བརྡ་ཅིག་གི་འབྱུང་བ་འདི་གི་ལན་ལུ་བཏང་ཡོད་མི་ གློག་འཕྲིན་གྱི་དོན་ལུ་ སྔོན་སྒྲིག་འཐོབ་མི་འདི་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:35
+msgid "This option specifies the default time in minutes that pop-up are display in advance of the scheduled date."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ པོཔ་ཨཔ་ཚུ་ འཆར་རིམ་འབད་ཡོད་པའི་ཚེས་གྲངས་འདི་གི་སྔ་གཡར་ནང་བཀྲམ་སྟོན་འབད་ཡོདཔ་སྦེ་ སྔོན་སྒྲིག་ཆུ་ཚོད་འདི་ སྐར་མ་ནང་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:36
+msgid "This option specifies the default time in minutes that programs are executed in advance of the scheduled date."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ ལས་རིམ་ཚུ་ འཆར་རིམ་འབད་ཡོད་པའི་ཚེས་གྲངས་འདི་གི་སྔ་གཡར་ནང་ ལག་ལེན་འཐབ་ཡོདཔ་སྦེ་ སྔོན་སྒྲིག་ཆུ་ཚོད་འདི་ སྐར་མ་ནང་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:37
+msgid "This option specifies the default time in minutes that sounds are played in advance of the scheduled date."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ སྒྲ་སྐད་ཚུ་ འཆར་རིམ་འབད་ཡོད་པའི་ཚེས་གྲངས་འདི་གི་སྔ་གཡར་ནང་ གཏང་ཡོདཔ་སྦེ་ སྔོན་སྒྲིག་ཆུ་ཚོད་འདི་ སྐར་མ་ནང་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:38
+msgid "This option specifies the maximum time in seconds for the snooze mode. If this is 0 the snooze mode is turned off."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ ཉིན་གཉིད་ཁུག་ནི་ཐབས་ལམ་འདི་གི་དོན་ལུ་ མང་མཐའ་ཆུ་ཚོད་འདི་སྐར་ཆ་ནང་གསལ་བཀོད་འབདཝ་ཨིན། འ་ནི་འདི་ ༠ ཨིན་པ་ཅིན་ ཉིན་གཉིད་ཁུག་ནི་ཐབས་ལམ་འདི་ ཨོཕ་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:39
+msgid "This option specifies the maximum time in seconds that audio alarms will sound. If this is 0 they will sound forever if not turned off."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ རྣར་ཉན་འཇིགས་བརྡ་ཚུ་སྐད་རྐྱབས་ནིའི་དོན་ལས་ མང་མཐའ་ཆུ་ཚོད་འདི་སྐྲཆ་ནང་གསལ་བཀོད་འབདཝ་ཨིན། འ་ནི་འདི་ ༠ ཨིན་པ་ཅིན་ འདི་ཚུ་ ཨོཕ་མ་འབད་བ་ཅིན་ རྟག་པར་སྐད་རྐྱབས་འོང་།"
+
+#: ../gncal/gnomecal.schemas.in.h:40
+msgid "This option specifies the time in minutes that e-mail is sent in advance of the scheduled date."
+msgstr "འ་ནི་གདམ་ཁ་འདི་གིས་ གློག་འཕྲིན་འདི་ འཆར་རིམ་འབད་ཡོད་པའི་ཚེས་གྲངས་འདི་གི་སྔ་གཡར་ནང་བཏང་ཡོདཔ་སྦེ་ ཆུ་ཚོད་འདི་སྐར་མ་ཚུ་ནང་གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../gncal/gnomecal.schemas.in.h:41
+msgid "This value determines the first hour that is to be displayed in the day view and week view. Times before this hour are not displayed by default."
+msgstr "འ་ནི་གནས་གོང་འདི་གིས་ ཉིནམ་མཐོང་སྣང་དང་བདུན་ཕྲག་མཐོང་སྣང་ནང་ལུ་ བཀྲམ་སྟོན་འབད་ནི་ཨིན་མི་ ཆུ་ཚོད་དང་པ་འདི་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་ཆུ་ཚོད་འདི་གི་ཧེ་མའི་དུས་ཚོད་ཚུ་ སྔོན་སྒྲིག་གིས་བཀྲམ་སྟོན་མི་འབད།"
+
+#: ../gncal/gnomecal.schemas.in.h:42
+msgid "This value determines the last hour that is to be displayed in the day view and week view. Times after this hour are not displayed by default."
+msgstr "འ་ནི་གནས་གོང་འདི་གིས་ ཉིནམ་མཐོང་སྣང་དང་བདུན་ཕྲག་མཐོང་སྣང་འདི་ནང་ བཀྲམ་སྟོན་འབད་ནི་ཨིན་མི་ ཆུ་ཚོད་མཇུག་འདི་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་ཆུ་ཚོད་འདི་གི་ཤུལ་མའི་དུས་ཚོད་ཚུ་ སྔོན་སྒྲིག་གིས་བཀྲམ་སྟོན་མི་འབད།"
+
+#: ../gncal/todo-categories.c:167
+msgid "Church"
+msgstr "ཅརཅི་"
+
+#: ../gncal/todo-categories.c:168
+msgid "Friends"
+msgstr "ཆ་རོགས་ཚུ་"
+
+#: ../gncal/todo-categories.c:169
+msgid "Guadec"
+msgstr "གའུ་དེཀ་"
+
+#: ../gncal/todo-categories.c:170
+msgid "Hacking"
+msgstr "གསང་དཀྲོགས་འབད་དོ་"
+
+#: ../gncal/todo-categories.c:171
+msgid "Hobby"
+msgstr "སྤྲོ་ལས་"
+
+#: ../gncal/todo-categories.c:172
+msgid "Housekeeping"
+msgstr "སྡོད་ཁང་བདག་འཛིན་འཐབ་ནི་"
+
+#: ../gncal/todo-categories.c:173
+msgid "Love"
+msgstr "བྱམས་བརྩེ་"
+
+#: ../gncal/todo-categories.c:174
+msgid "Meeting"
+msgstr "འཛོམས་འདུ་"
+
+#: ../gncal/todo-categories.c:175
+msgid "Money"
+msgstr "དངུལ་"
+
+#: ../gncal/todo-categories.c:176
+msgid "Music"
+msgstr "སྙན་ཆ་"
+
+#: ../gncal/todo-categories.c:177
+msgid "Paperwork"
+msgstr "ཤོག་ལཱ་"
+
+#: ../gncal/todo-categories.c:178
+msgid "Relatives"
+msgstr "འབྲེལ་བ་ཚུ་"
+
+#: ../gncal/todo-categories.c:179
+msgid "School"
+msgstr "སློབ་གྲྭ"
+
+#: ../gncal/todo-categories.c:180
+msgid "Shopping"
+msgstr "ཉོ་ཚོང་"
+
+#: ../gncal/todo-categories.c:181
+msgid "Travel"
+msgstr "ལམ་འགྲུལ་"
+
+#: ../gncal/todo-categories.c:182
+msgid "Work"
+msgstr "ལཱ་གཡོག་"
+
+#: ../gncal/todo-categories.c:255
+msgid "To Do Item Categories"
+msgstr "ཊུ་ཌུ་རྣམ་གྲངས་དབྱེ་རིམ་ཚུ་"
+
+#: ../gncal/todo-categories.c:268
+msgid "Please select the categories of the current item:"
+msgstr "འ་ལྟོའི་རྣམ་གྲངས་འདི་གི་ དབྱེ་རིམ་འདི་ཚུ་སེལ་འཐུ་འབད་གནང་:"
+
+#. Modify button
+#: ../gncal/todo-categories.c:288
+msgid "C_onfigure Categories..."
+msgstr "དབྱེ་རིམ་ཚུ་རིམ་སྒྲིག་འབད་...(_o)"
+
+#: ../gncal/todo-dialog.c:405
+#: ../gncal/todo-list.c:711
+msgid "<Unnamed>"
+msgstr "<མིང་མ་བཏགསཔ་>"
+
+#. default
+#: ../gncal/todo-dialog.c:407
+#, c-format
+msgid "%s properties"
+msgstr "%s རྒྱུ་དངོས་ཚུ་"
+
+#: ../gncal/todo-dialog.c:414
+#, c-format
+msgid "%s categories"
+msgstr "%s དབྱེ་རིམ་ཚུ་"
+
+#: ../gncal/todo-dialog.c:467
+msgid "_Due Date:"
+msgstr "རན་ཚེས་:(_D)"
+
+#: ../gncal/todo-dialog.c:481
+msgid "_Priority:"
+msgstr "གཙོ་རིམ་:(_P)"
+
+#: ../gncal/todo-dialog.c:497
+#: ../gnomecard/card-editor.glade.h:9
+msgid "C_ategories:"
+msgstr "དབྱེ་རིམ་ཚུ་:(_a)"
+
+#: ../gncal/todo-dialog.c:507
+msgid "Modify..."
+msgstr "ལེགས་བཅོས་..."
+
+#: ../gncal/todo-dialog.c:514
+msgid "Item C_omments:"
+msgstr "རྣམ་གྲངས་བསམ་བཀོད་ཚུ་:(_o)"
+
+#: ../gncal/todo-list.c:616
+msgid "Overdue!"
+msgstr "རན་པ་!"
+
+#: ../gncal/todo-list.c:619
+msgid "Due today!"
+msgstr "ད་རིས་རན་པ་!"
+
+#: ../gncal/todo-list.c:623
+#, c-format
+msgid "%d week(s), %d day(s)"
+msgstr "%d བདུན་ཕྲག་(ཚུ་), %d ཉིནམ་(ཚུ་)"
+
+#: ../gncal/todo-list.c:627
+#, c-format
+msgid "%d day(s)"
+msgstr "%d ཉིནམ་(ཚུ་)"
+
+#. Translators: This is YYYY-MM-DD
+#. TODO: should handle other display modes as well...
+#. Translators: This is YYYY-MM-DD
+#: ../gncal/todo-list.c:730
+#: ../libegg/egg-datetime.c:1137
+#, c-format
+msgid "%04d-%02d-%02d"
+msgstr "%04d-%02d-%02d"
+
+#: ../gncal/todo-list.c:748
+#, c-format
+msgid "High (%d)"
+msgstr "མཐོ་ (%d)"
+
+#: ../gncal/todo-list.c:750
+#, c-format
+msgid "Medium (%d)"
+msgstr "འབྲིང་མ་ (%d)"
+
+#: ../gncal/todo-list.c:752
+#, c-format
+msgid "Low (%d)"
+msgstr "དམའ་ (%d)"
+
+#: ../gncal/todo-list.c:1062
+msgid "Due Date"
+msgstr "རན་ཚེས་"
+
+#: ../gncal/todo-list.c:1073
+msgid "Priority"
+msgstr "གཙོ་རིམ་"
+
+#: ../gncal/todo-list.c:1084
+msgid "Time Left"
+msgstr "དུས་ཚོད་ལྷག་ལུས་"
+
+#: ../gncal/todo-list.c:1095
+msgid "Categories"
+msgstr "དབྱེ་རིམ་ཚུ་"
+
+#. Translators: This is a time string, containing the hour and
+#. minute and (optionally) an AM/PM indicator. Example representations
+#. are %I:%M %p for America, or %H:%M for European languages. The
+#. default is the ISO format.
+#.
+#: ../gncal/utils-time.c:48
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#. Translators: This is a verbose date and time string. Default
+#. is the ISO format.
+#: ../gncal/utils-time.c:61
+msgid "%Y-%m-%d %H:%M"
+msgstr "%Y-%m-%d %H:%M"
+
+#: ../gncal/utils-ui.c:44
+#: ../gnomecard/gnomecard-ui.c:280
+#, c-format
+msgid "Could not display help: %s"
+msgstr "%s : གྲོགས་རམ་བཀྲམ་སྟོན་འབད་མ་ཚུགས་"
+
+#: ../gnomecard/card-display.c:351
+msgid "No Card Name"
+msgstr "ཤོག་བྱང་མིང་མིན་འདུག་"
+
+#: ../gnomecard/card-editor.c:427
+#: ../gnomecard/card-editor.glade.h:22
+msgid "Identity"
+msgstr "ངོ་རྟགས་"
+
+#: ../gnomecard/card-editor.c:451
+#: ../gnomecard/card-editor.glade.h:25
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ་"
+
+#: ../gnomecard/card-editor.c:474
+#: ../gnomecard/card-editor.glade.h:8
+msgid "Addresses"
+msgstr "ཁ་བྱང་ཚུ་"
+
+#: ../gnomecard/card-editor.c:497
+#: ../gnomecard/card-editor.glade.h:31
+#: ../gnomecard/cardlist-headers.c:41
+msgid "Phone"
+msgstr "བརྒྱུད་འཕྲིན་"
+
+#: ../gnomecard/card-editor.c:540
+#: ../gnomecard/card-editor.glade.h:21
+msgid "Geographical"
+msgstr "ས་ཆའི་"
+
+#: ../gnomecard/card-editor.c:562
+#: ../gnomecard/card-editor.glade.h:18
+msgid "Explanatory"
+msgstr "གསལ་བཤད་འབད་བཏུབ་"
+
+#: ../gnomecard/card-editor.c:587
+#: ../gnomecard/card-editor.glade.h:37
+msgid "Security"
+msgstr "སྲུང་སྐྱོབ་"
+
+#: ../gnomecard/card-editor.glade.h:2
+#: ../gnomecard/gnomecard.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gnomecard/card-editor.glade.h:3
+msgid "<b>Birthday</b>"
+msgstr "<b>སྐྱེ་བའི་ཉིནམ་</b>"
+
+#: ../gnomecard/card-editor.glade.h:4
+msgid "<b>Name</b>"
+msgstr "<b>མིང་</b>"
+
+#: ../gnomecard/card-editor.glade.h:5
+msgid "<b>Organization</b>"
+msgstr "<b>ཚོགས་སྡེ་</b>"
+
+#: ../gnomecard/card-editor.glade.h:6
+msgid "<b>Type</b>"
+msgstr "<b>དབྱེ་བ་</b>"
+
+#: ../gnomecard/card-editor.glade.h:7
+msgid "A_ddress:"
+msgstr "ཁ་བྱང་:(_d)"
+
+#: ../gnomecard/card-editor.glade.h:10
+msgid "C_omment:"
+msgstr "བསམ་བཀོད་:(_o)"
+
+#: ../gnomecard/card-editor.glade.h:11
+msgid "Car phon_e"
+msgstr "ཀཱར་བརྒྱུད་འཕྲིན་(_e)"
+
+#: ../gnomecard/card-editor.glade.h:12
+msgid "Card Properties"
+msgstr "ཤོག་བྱང་རྒྱུ་དངོས་ཚུ་"
+
+#: ../gnomecard/card-editor.glade.h:13
+msgid "Ce_ll phone"
+msgstr "འགྲུལ་འཕྲིན་(_l)"
+
+#: ../gnomecard/card-editor.glade.h:14
+msgid "Cit_y:"
+msgstr "གྲོང་སྡེ་:(_y)"
+
+#: ../gnomecard/card-editor.glade.h:15
+msgid "Cou_ntry:"
+msgstr "རྒྱལ་ཁབ་:(_n)"
+
+#: ../gnomecard/card-editor.glade.h:16
+msgid "Do_mestic"
+msgstr "རྒྱལ་ཁབ་ནང་འཁོད་ཀྱི་(_m)"
+
+#: ../gnomecard/card-editor.glade.h:17
+msgid "E_xtended:"
+msgstr "རྒྱ་བསྐྱེད་ཅན་:(_x)"
+
+#: ../gnomecard/card-editor.glade.h:19
+msgid "Fa_x"
+msgstr "དཔར་འཕྲིན་(_x)"
+
+#: ../gnomecard/card-editor.glade.h:20
+msgid "File _As:"
+msgstr "བཟུམ་སྦེ་བཙུགས་:(_A)"
+
+#: ../gnomecard/card-editor.glade.h:23
+msgid "L_ongitude:"
+msgstr "གཞུང་ཐིག་:(_o)"
+
+#: ../gnomecard/card-editor.glade.h:24
+msgid "Mo_dem"
+msgstr "མོ་ཌེམ་(_d)"
+
+#: ../gnomecard/card-editor.glade.h:26
+msgid "Ot_her"
+msgstr "གཞན་མི་(_h)"
+
+#: ../gnomecard/card-editor.glade.h:27
+msgid "PC_S"
+msgstr "པི་སི་ཨེསི་(_S)"
+
+#: ../gnomecard/card-editor.glade.h:28
+msgid "P_ostal"
+msgstr "འགྲེམ་གྱི་(_o)"
+
+#: ../gnomecard/card-editor.glade.h:29
+msgid "Pa_ger"
+msgstr "བརྡ་འཕྲུལ་(_g)"
+
+#: ../gnomecard/card-editor.glade.h:30
+msgid "Parce_l"
+msgstr "ལག་རྟགས་(_l)"
+
+#: ../gnomecard/card-editor.glade.h:32
+msgid "Pos_tal Code:"
+msgstr "འགྲེམ་ཨང་:(_t)"
+
+#: ../gnomecard/card-editor.glade.h:33
+msgid "Postal _Box:"
+msgstr "འགྲེམ་སྒྲོམ་:(_B)"
+
+#: ../gnomecard/card-editor.glade.h:34
+msgid "Pre_ferred"
+msgstr "དགའ་མི་(_f)"
+
+#: ../gnomecard/card-editor.glade.h:35
+msgid "Public _key:"
+msgstr "མི་མང་ལྡེ་མིག་:(_k)"
+
+#: ../gnomecard/card-editor.glade.h:36
+msgid "Re_gion:"
+msgstr "ལུང་ཕྱོགས་:(_g)"
+
+#: ../gnomecard/card-editor.glade.h:38
+msgid "Telephone _number:"
+msgstr "བརྒྱུད་འཕྲིན་ཨང་:(_n)"
+
+#: ../gnomecard/card-editor.glade.h:39
+msgid "Time _Zone"
+msgstr "ཆུ་ཚོད་གླིང་སྡེ་(_Z)"
+
+#: ../gnomecard/card-editor.glade.h:40
+msgid "V_oice"
+msgstr "སྐད་(_o)"
+
+#: ../gnomecard/card-editor.glade.h:41
+msgid "Voice _message"
+msgstr "སྐད་འཕྲིན་དོན་(_m)"
+
+#: ../gnomecard/card-editor.glade.h:42
+msgid "_Address:"
+msgstr "ཁ་བྱང་:(_A)"
+
+#: ../gnomecard/card-editor.glade.h:43
+msgid "_BBS"
+msgstr "བི་བི་ཨེསི་(_B)"
+
+#: ../gnomecard/card-editor.glade.h:44
+msgid "_Birthdate:"
+msgstr "སྐྱེ་བའི་ཉིནམ་:(_B)"
+
+#: ../gnomecard/card-editor.glade.h:45
+msgid "_Family name:"
+msgstr "རིགས་ཚན་མིང་:(_F)"
+
+#: ../gnomecard/card-editor.glade.h:46
+msgid "_Freeform address"
+msgstr "ཕིརི་ཕོརམ་ ཁ་བྱང་(_F)"
+
+#: ../gnomecard/card-editor.glade.h:47
+msgid "_Geographical Position"
+msgstr "ས་ཆའི་གནས་ས་(_G)"
+
+#: ../gnomecard/card-editor.glade.h:48
+msgid "_Given name:"
+msgstr "བྱིན་ཡོད་པའི་མིང་:(_G)"
+
+#: ../gnomecard/card-editor.glade.h:49
+msgid "_Hours:"
+msgstr "ཆུ་ཚོད་ཚུ་:(_H)"
+
+#: ../gnomecard/card-editor.glade.h:50
+msgid "_ISDN"
+msgstr "ཨའི་ཨེསི་ཌི་ཨེན་(_I)"
+
+#: ../gnomecard/card-editor.glade.h:51
+msgid "_International"
+msgstr "རྒྱལ་སྤྱི་(_I)"
+
+#: ../gnomecard/card-editor.glade.h:52
+msgid "_Internet"
+msgstr "ཨིན་ཊར་ནེཊི་(_I)"
+
+#: ../gnomecard/card-editor.glade.h:53
+msgid "_Job title:"
+msgstr "ལས་གཡོག་ མགོ་མིང་:(_J)"
+
+#: ../gnomecard/card-editor.glade.h:54
+msgid "_Latitude:"
+msgstr "སྐེད་ཐིག་:(_L)"
+
+#: ../gnomecard/card-editor.glade.h:55
+msgid "_Middle name:"
+msgstr "མིང་བར་མ་:(_M)"
+
+#: ../gnomecard/card-editor.glade.h:56
+msgid "_Minutes:"
+msgstr "སྐར་མ་ཚུ་:(_M)"
+
+#: ../gnomecard/card-editor.glade.h:57
+msgid "_Organization:"
+msgstr "ཚོགས་སྡེ་:(_O)"
+
+#: ../gnomecard/card-editor.glade.h:58
+msgid "_PGP"
+msgstr "པི་ཇི་པི་(_P)"
+
+#: ../gnomecard/card-editor.glade.h:59
+msgid "_Prefix:"
+msgstr "སྔོན་ཚིག་:(_P)"
+
+#: ../gnomecard/card-editor.glade.h:60
+msgid "_Private"
+msgstr "སྒེར་དོན་(_P)"
+
+#: ../gnomecard/card-editor.glade.h:61
+msgid "_Street:"
+msgstr "ཁྲོམ་ལམ་:(_S)"
+
+#: ../gnomecard/card-editor.glade.h:62
+msgid "_Suffix:"
+msgstr "རྗེས་ཚིག་:(_S)"
+
+#: ../gnomecard/card-editor.glade.h:63
+msgid "_Take From Name"
+msgstr "མིང་ལས་འབག་(_T)"
+
+#: ../gnomecard/card-editor.glade.h:64
+msgid "_Video"
+msgstr "ཝི་ཌིའོ་(_V)"
+
+#: ../gnomecard/card-editor.glade.h:65
+msgid "_Web page:"
+msgstr "ཝེབ་ཤོག་ལེབ་:(_W)"
+
+#: ../gnomecard/card-editor.glade.h:66
+msgid "_Work"
+msgstr "ལཱ་གཡོག་(_W)"
+
+#: ../gnomecard/card-editor.glade.h:67
+msgid "_X.400"
+msgstr "ཨེགསི་ ༤༠༠ (_X)"
+
+#: ../gnomecard/card-editor.glade.h:68
+msgid "_X.509"
+msgstr "ཨེགསི་ ༥༠༩ (_X)"
+
+#: ../gnomecard/cardlist-headers.c:31
+msgid "Card Name"
+msgstr "ཤོག་བྱང་མིང་"
+
+#: ../gnomecard/cardlist-headers.c:32
+msgid "Given Name"
+msgstr "བྱིན་ཡོད་པའི་མིང་"
+
+#: ../gnomecard/cardlist-headers.c:33
+msgid "Middle Name"
+msgstr "མིང་བར་མ་"
+
+#: ../gnomecard/cardlist-headers.c:34
+msgid "Family Name"
+msgstr "རིགས་ཚན་མིང་"
+
+#: ../gnomecard/cardlist-headers.c:35
+msgid "Prefix"
+msgstr "སྔོན་ཚིག་"
+
+#: ../gnomecard/cardlist-headers.c:36
+msgid "Suffix"
+msgstr "རྗེས་ཚིག་"
+
+#: ../gnomecard/cardlist-headers.c:37
+msgid "Organization"
+msgstr "ཚོགས་སྡེ་"
+
+#: ../gnomecard/cardlist-headers.c:38
+msgid "Job Title"
+msgstr "ལས་གཡོག་མགོ་མིང་"
+
+#: ../gnomecard/cardlist-headers.c:39
+msgid "E-Mail"
+msgstr "གློག་འཕྲིན་"
+
+#: ../gnomecard/cardlist-headers.c:40
+msgid "WWW"
+msgstr "ཌབ་ལུ་ཌབ་ལུ་ཌབ་ལུ་"
+
+#: ../gnomecard/cardlist-widget.c:250
+#, c-format
+msgid "'%s' is not a valid column name"
+msgstr "'%s' འདི་ ནུས་ལྡན་ཀེར་ཐིག་མིང་ཅིག་མེན་"
+
+#: ../gnomecard/cardlist-widget.c:1014
+msgid "No matching card found."
+msgstr "མཐུན་མི་ཤོག་བྱང་མ་འཐོབ།"
+
+#: ../gnomecard/cardlist-widget.c:1044
+msgid "The end of the card list was reached, but the card was not found. Continue search from the beginning?"
+msgstr "ཤོག་བྱང་ཐོ་ཡིག་འདི་གི་མཇུག་འདི་ལྷོད་ཡོད་ དེ་འབདཝ་ད་ ཤོག་བྱང་འདི་འཚོལ་མ་འཐོབ། འཚོལ་ཞིབ་འབད་ནི་འདི་ འགོ་བཙུགས་ས་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: ../gnomecard/cardlist-widget.c:1046
+msgid "The start of the card list was reached, but the card was not found. Continue search from the end?"
+msgstr "ཤོག་བྱང་ཐོ་ཡིག་འདི་གི་འགོ་བཙུགས་ས་འདི་ལྷོད་ཡོད་ དེ་འབདཝ་ད་ ཤོག་བྱང་འདི་འཚོལ་མ་འཐོབ། འཚོལ་ཞིབ་འབད་ནི་འདི་ མཇུག་ལས་འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: ../gnomecard/cardlist-widget.c:1055
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་"
+
+#: ../gnomecard/gnomecard.desktop.in.h:1
+msgid "Address Book (GNOME Card)"
+msgstr "ཁ་བྱང་ཀི་དེབ་ (ཇི་ནོམ་ ཤོག་བྱང་)"
+
+#: ../gnomecard/gnomecard.desktop.in.h:2
+msgid "GNOME Personal Address Book"
+msgstr "ཇི་ནོམ་རང་དོན་ཁ་བྱང་ཀི་དེབ་"
+
+#: ../gnomecard/gnomecard.glade.h:2
+msgid "Case _sensitive"
+msgstr "ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁ་(_s)"
+
+#: ../gnomecard/gnomecard.glade.h:3
+msgid "Fin_d:"
+msgstr "འཚོལ་:(_d)"
+
+#: ../gnomecard/gnomecard.glade.h:4
+msgid "Find _backwards"
+msgstr "རྒྱབ་བསྐྱོད་འཚོལ་(_b)"
+
+#: ../gnomecard/gnomecard.glade.h:5
+msgid "dialog1"
+msgstr "ཌའི་ལོག་༡"
+
+#: ../gnomecard/gnomecard.schemas.in.h:1
+msgid "Column headers to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་གི་ཀེར་ཐིག་མགོ་ཡིག་"
+
+#: ../gnomecard/gnomecard.schemas.in.h:2
+msgid "This list specifies the column headers that should be displayed in the card list. Allowed entries are: CardName, GivenName, MiddleName, FamilyName, Prefix, Suffix, Organization, Title (Job Description), EMail (e-mail address), URL (home page), and Phone (phone number)."
+msgstr "འ་ནི་ཐོ་ཡིག་འདི་གིས་ ཤོག་བྱང་ཐོ་ཡིག་ནང་བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་མི་ ཀེར་ཐིག་མགོ་ཡིག་འདི་ཚུ་གསལ་བཀོད་འབདཝ་ཨིན། འབད་ཆོག་པའི་ཐོ་བཀོད་ཚུ་: ཤོག་བྱང་མིང་  བྱིན་ཡོད་པའི་མིང་  བརམིང་  རིགས་ཚན་མིང་  སྔོན་ཚིག་  རྗེས་ཚིག་  ཚོགས་སྡེ་  མགོ་མིང་(ལཱ་གཡོག་འགྲེལ་བཤད་)  གློག་འཕྲིན་(གློག་འཕྲིན་ཁ་བྱང་)  ཡུ་ཨར་ཨེལ་(ཁྱིམ་ཤོག་ལེབ་)  དང་བརྒྱུད་འཕྲིན་(བརྒྱུད་འཕྲིནཨང་)"
+
+#: ../gnomecard/gnomecard-find-dialog.c:148
+msgid "Find Card"
+msgstr "ཤོག་བྱང་འཚོལ་"
+
+#: ../gnomecard/gnomecard-main.c:39
+msgid "Address book to load"
+msgstr "མངོན་གསལ་འབད་ནི་གི་ཁ་བྱང་ཀི་དེབ་"
+
+#: ../gnomecard/gnomecard-main.c:39
+msgid "path"
+msgstr "འགྲུལ་ལམ་"
+
+#: ../gnomecard/gnomecard-main-window.c:439
+msgid "Electronic Business Card Manager"
+msgstr "གློག་ཆས་ཚོང་འབྲེལ་ཤོག་བྱང་འཛིན་སྐྱོང་པ་"
+
+#: ../gnomecard/gnomecard-main-window.c:442
+msgid "GNOME Address Book"
+msgstr "ཇི་ནོམ་ཁ་བྱང་ཀི་དེབ་"
+
+#: ../gnomecard/gnomecard-main-window.c:523
+msgid "<unnamed>"
+msgstr "<མི་མ་བཏགསཔ་>"
+
+#: ../gnomecard/gnomecard-main-window.c:525
+#, c-format
+msgid "%s - GNOME Address Book"
+msgstr "%s - ཇི་ནོམ་ཁ་བྱང་ཀི་དེབ་"
+
+#: ../gnomecard/gnomecard-main-window.c:563
+msgid "Create a new card file"
+msgstr "ཤོག་བྱང་ཡིག་སྣོད་གསརཔ་ཅིག་གར་བསྐྲུན་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:570
+msgid "_Insert..."
+msgstr "བཙུགས་...(_I)"
+
+#: ../gnomecard/gnomecard-main-window.c:570
+msgid "Add the contents of another card file"
+msgstr "ཤོག་བྱང་ཡིག་སྣོད་གཞན་མི་ཅིག་གི་ ནང་དོནའདི་ཁ་སྐོང་རྐྱབས་"
+
+#: ../gnomecard/gnomecard-main-window.c:577
+msgid "Open _Default"
+msgstr "སྔོན་སྒྲིག་ཁ་ཕྱེ་(_D)"
+
+#: ../gnomecard/gnomecard-main-window.c:577
+msgid "Open the default file"
+msgstr "སྔོན་སྒྲིག་ཡིག་སྣོད་འདི་ཁ་ཕྱེ་"
+
+#: ../gnomecard/gnomecard-main-window.c:597
+msgid "By Card Name"
+msgstr "ཤོག་བྱང་མིང་གིས་སྦེ་"
+
+#: ../gnomecard/gnomecard-main-window.c:597
+msgid "Sort by card name"
+msgstr "ཤོག་བྱང་མིང་གིས་སྦེ་དབྱེ་སེལ་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:604
+msgid "By Family Name"
+msgstr "རིགས་ཚན་མིང་གིས་སྦེ་"
+
+#: ../gnomecard/gnomecard-main-window.c:604
+msgid "Sort by last name"
+msgstr "མཇུག་མིང་གིས་སྦེ་དབྱེ་སེལ་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:611
+msgid "By E-mail"
+msgstr "གློག་འཕྲིན་གྱིས་སྦེ་"
+
+#: ../gnomecard/gnomecard-main-window.c:611
+msgid "Sort by e-mail address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་གིས་སྦེ་དབྱེ་སེལ་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:618
+msgid "By Organization"
+msgstr "ཚོགས་སྡེ་གིས་སྦེ་"
+
+#: ../gnomecard/gnomecard-main-window.c:618
+msgid "Sort by organization"
+msgstr "ཚོགས་སྡེ་གིས་སྦེ་དབྱེ་སེལ་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:636
+msgid "_New card"
+msgstr "ཤོག་བྱང་གསརཔ་(_N)"
+
+#: ../gnomecard/gnomecard-main-window.c:636
+msgid "Create new card"
+msgstr "ཤོག་བྱང་གསརཔ་གསར་བསྐྲུན་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:645
+msgid "_Delete card"
+msgstr "ཤོག་བྱང་བཏོན་གཏང་(_D)"
+
+#: ../gnomecard/gnomecard-main-window.c:645
+msgid "Remove the current card"
+msgstr "ད་ལྟོའི་ཤོག་བྱང་འདི་རྩ་བསྐྲད་གཏང་"
+
+#: ../gnomecard/gnomecard-main-window.c:656
+msgid "Sort"
+msgstr "དབྱེ་སེལ་"
+
+#: ../gnomecard/gnomecard-main-window.c:656
+msgid "Set sort criterium"
+msgstr "དབྱེ་སེལ་ཀརའི་ཊི་རི་ཡམ་གཞི་སྒྲིག་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:877
+msgid "Open Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཁ་ཕྱེ་"
+
+#. FIXME: multi select
+#: ../gnomecard/gnomecard-main-window.c:963
+msgid "Append Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་མཇུག་བསྣོན་འབད་"
+
+#: ../gnomecard/gnomecard-main-window.c:1030
+msgid "Save Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་སྲུང་བཞག་འབད་"
+
+#: ../gnomecard/gnomecard-prefs.c:476
+msgid "Displayed c_olumns"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ཀེར་ཐིག་ཚུ་(_o)"
+
+#: ../gnomecard/gnomecard-prefs.c:530
+msgid "GNOME Card Preferences"
+msgstr "ཇི་ནོམ་ ཤོག་བྱང་དགའ་གདམ་ཚུ་"
+
+#: ../gnomecard/gnomecard-prefs.c:550
+msgid "Layout"
+msgstr "སྒྲིག་བཀོད་"
+
+#: ../gnomecard/gnomecard-ui.c:234
+msgid "Save changes to address books before quitting?"
+msgstr "མ་སྤང་པའི་ཧེ་མ་ བསྒྱུར་བཅོས་ཚུ་ ཁ་བྱང་ཀི་དེབ་ལུ་སྲུངའབད་ནི་ཨིན་ན?"
+
+#: ../gnomecard/gnomecard-ui.c:236
+msgid "Save changes to default address book before quitting?"
+msgstr "མ་སྤང་པའི་ཧེ་མ་ བསྒྱུར་བཅོས་ཚུ་ སྔོན་སྒྲིག་ཁ་བྱང་ཀི་དེབ་ལུ་ སྲུང་བཞག་འབད་ནི་ཨིན་ན?"
+
+#: ../gnomecard/gnomecard-ui.c:238
+#, c-format
+msgid "Save changes to address book \"%s\" before quitting?"
+msgstr "མ་སྤང་པའི་ཧེ་མ་ བསྒྱུར་བཅོས་ཚུ་ ཁ་བྱང་ཀི་དེབ་ \"%s\" ལུ་སྲུང་བཞག་འབནི་ཨིན་ན?"
+
+#: ../gnomecard/gnomecard-ui.c:249
+msgid "Quit without Saving"
+msgstr "སྲུང་བཞག་མ་འབད་བར་སྤང་"
+
+#: ../libegg/egg-datetime.c:281
+msgid "Display flags"
+msgstr "ཟུར་རྟགས་ཚུ་བཀྲམ་སྟོན་འབད་"
+
+#: ../libegg/egg-datetime.c:282
+msgid "Displayed date and/or time properties"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ ཚེས་གྲངས་དང་/ཡང་ན་ ཆུ་ཚོད་རྒྱུ་དངོས་ཚུ་"
+
+#: ../libegg/egg-datetime.c:287
+msgid "Lazy mode"
+msgstr "ལེ་ལོ་ཅན་ཐབས་ལམ་"
+
+#: ../libegg/egg-datetime.c:288
+msgid "Lazy mode doesn't normalize entered date and time values"
+msgstr "ལེ་ལོ་ཅན་ཐབས་ལམ་འདི་གིས་ ཐོ་བཀོད་འབད་ཡོད་པའི་ཚེས་གྲངས་དང་ཆུ་ཚོད་གནས་གོང་ཚུ་སྤྱིར་བཏང་མི་བཟོ་"
+
+#: ../libegg/egg-datetime.c:294
+msgid "Displayed year"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ལོ་"
+
+#: ../libegg/egg-datetime.c:300
+msgid "Displayed month"
+msgstr "བཀྲམ་སཏོན་འབད་ཡོད་པའི་ཟླཝ་"
+
+#: ../libegg/egg-datetime.c:306
+msgid "Displayed day of month"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ ཟླཝ་གི་ཉིནམ་"
+
+#: ../libegg/egg-datetime.c:311
+msgid "Hour"
+msgstr "ཆུ་ཚོད་"
+
+#: ../libegg/egg-datetime.c:312
+msgid "Displayed hour"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་ཆུ་ཚོད་"
+
+#: ../libegg/egg-datetime.c:317
+msgid "Minute"
+msgstr "སྐར་མ་"
+
+#: ../libegg/egg-datetime.c:318
+msgid "Displayed minute"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་སྐར་མ་"
+
+#: ../libegg/egg-datetime.c:323
+msgid "Second"
+msgstr "སྐར་ཆ་"
+
+#: ../libegg/egg-datetime.c:324
+msgid "Displayed second"
+msgstr "བཀྲམ་སྟོན་འབད་ཡོད་པའི་སྐར་ཆ་"
+
+#: ../libegg/egg-datetime.c:329
+msgid "Lower limit year"
+msgstr "ལོའི་དམའ་མི་ཚད་"
+
+#: ../libegg/egg-datetime.c:330
+msgid "Year part of the lower date limit"
+msgstr "དམའ་མི་ཚེས་གྲངས་ཚད་ཀྱི་ལོའི་ཡན་ལག་"
+
+#: ../libegg/egg-datetime.c:335
+msgid "Upper limit year"
+msgstr "ལོའི་ཡར་གྱི་ཚད་"
+
+#: ../libegg/egg-datetime.c:336
+msgid "Year part of the upper date limit"
+msgstr "ཡར་གྱི་ཚེས་གྲངས་ཚད་ཀྱི་ ལོའི་ཡན་ལག་"
+
+#: ../libegg/egg-datetime.c:341
+msgid "Lower limit month"
+msgstr "དམའ་མི་ཟླ་བའི་ཚད་"
+
+#: ../libegg/egg-datetime.c:342
+msgid "Month part of the lower date limit"
+msgstr "དམའ་མི་ཚེས་གྲངས་ཚད་འདི་གི་ ཟླཝ་གི་ཡན་ལག་"
+
+#: ../libegg/egg-datetime.c:347
+msgid "Upper limit month"
+msgstr "ཡར་གྱི་ཚད་ཟླཝ་"
+
+#: ../libegg/egg-datetime.c:348
+msgid "Month part of the upper date limit"
+msgstr "ཡར་གྱི་ཚེས་གྲངས་ཚད་འདི་གི་ཡན་ལག་ཟླཝ་"
+
+#: ../libegg/egg-datetime.c:353
+msgid "Lower limit day"
+msgstr "དམའ་མི་ཚད་ཉིནམ་"
+
+#: ../libegg/egg-datetime.c:354
+msgid "Day of month part of the lower date limit"
+msgstr "དམའ་མི་ཚེས་གྲངས་ཚད་འདི་གི་ ཡན་ལག་ཟླཝ་གི་ཉིནམ་"
+
+#: ../libegg/egg-datetime.c:359
+msgid "Upper limit day"
+msgstr "ཡར་གྱི་ཚད་ཉིནམ་"
+
+#: ../libegg/egg-datetime.c:360
+msgid "Day of month part of the upper date limit"
+msgstr "ཡར་གྱི་ཚེས་གྲངས་ཚད་འདི་གི་ ཡན་ལག་ཟླཝ་གི་ཉིནམ་"
+
+#: ../libegg/egg-datetime.c:365
+msgid "Lower limit hour"
+msgstr "དམའ་མི་ཚད་ཆུ་ཚོད"
+
+#: ../libegg/egg-datetime.c:366
+msgid "Hour part of the lower time limit"
+msgstr "དམའ་མི་ཆུ་ཚོད་འདི་གི་ཡན་ལག་ཆུ་ཚོད་"
+
+#: ../libegg/egg-datetime.c:371
+msgid "Upper limit hour"
+msgstr "ཡར་གྱི་ཚད་ཆུ་ཚོད་"
+
+#: ../libegg/egg-datetime.c:372
+msgid "Hour part of the upper time limit"
+msgstr "ཡར་གྱི་ཆུ་ཚོད་ཚད་འདི་གི་ཡན་ལག་ཆུ་ཚོད་"
+
+#: ../libegg/egg-datetime.c:377
+msgid "Lower limit minute"
+msgstr "དམའ་མི་ཚད་སྐར་མ་"
+
+#: ../libegg/egg-datetime.c:378
+msgid "Minute part of the lower time limit"
+msgstr "དམའ་མི་ཆུ་ཚོད་ཚད་འདི་གི་ཡན་ལག་སྐར་མ་"
+
+#: ../libegg/egg-datetime.c:383
+msgid "Upper limit minute"
+msgstr "ཡར་གྱི་ཚད་སྐར་མ་"
+
+#: ../libegg/egg-datetime.c:384
+msgid "Minute part of the upper time limit"
+msgstr "ཡར་གྱི་ཆུ་ཚོད་ཚད་འདི་གི་ ཡན་ལག་སྐར་མ་"
+
+#: ../libegg/egg-datetime.c:389
+msgid "Lower limit second"
+msgstr "དམའ་མི་ཚད་སྐར་ཆ་"
+
+#: ../libegg/egg-datetime.c:390
+msgid "Second part of the lower time limit"
+msgstr "དམའ་མི་ཆུ་ཚོད་ཚད་འདི་གི་ཡན་ལག་སྐར་ཆ་"
+
+#: ../libegg/egg-datetime.c:395
+msgid "Upper limit second"
+msgstr "ཡར་གྱི་ཚད་སྐར་ཆ་"
+
+#: ../libegg/egg-datetime.c:396
+msgid "Second part of the upper time limit"
+msgstr "ཡར་གྱི་ཆུ་ཚོད་ཚད་འདི་གི་ ཡན་ལག་སྐར་ཆ་"
+
+#: ../libegg/egg-datetime.c:460
+msgid "Date"
+msgstr "ཚེས་གྲངས་"
+
+#: ../libegg/egg-datetime.c:460
+msgid "Enter the date directly"
+msgstr "ཚེས་གྲངས་འདི་ཐད་ཀར་དུ་སེལ་ཐུ་འབད་"
+
+#: ../libegg/egg-datetime.c:467
+msgid "Select Date"
+msgstr "ཚེས་གྲངས་སེལ་འཐུ་འབད་"
+
+#: ../libegg/egg-datetime.c:467
+msgid "Select the date from a calendar"
+msgstr "ཚེས་གྲངས་འདི་ ཟླ་ཐོ་ཅིག་ལས་སེལ་འཐུ་འབད་"
+
+#: ../libegg/egg-datetime.c:485
+#: ../libegg/egg-datetime.c:2160
+msgid "Time"
+msgstr "ཆུ་ཚོད་"
+
+#: ../libegg/egg-datetime.c:485
+msgid "Enter the time directly"
+msgstr "ཆུ་ཚོད་འདི་ཐད་ཀར་དུ་ཐོ་བཀོད་འབད་"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Select Time"
+msgstr "ཆུ་ཚོད་སེལ་འཐུ་འབད་"
+
+#: ../libegg/egg-datetime.c:492
+msgid "Select the time from a list"
+msgstr "ཐོ་ཡིག་ཅིག་ལས་ ཆུ་ཚོད་འདི་སེལ་འཐུ་འབད་"
+
+#. Translators: set this to anything else if you want to use a
+#. * 24 hour clock.
+#.
+#: ../libegg/egg-datetime.c:759
+msgid "24hr: no"
+msgstr "ཆུ་ཚོད་༢༤: མེད་"
+
+#: ../libegg/egg-datetime.c:763
+#: ../libegg/egg-datetime.c:1221
+#: ../libegg/egg-datetime.c:1225
+msgid "AM"
+msgstr "སྔ་ཆ་"
+
+#: ../libegg/egg-datetime.c:765
+#: ../libegg/egg-datetime.c:1222
+#: ../libegg/egg-datetime.c:1229
+msgid "PM"
+msgstr "ཕྱི་ཆ་"
+
+#. Translators: This is hh:mm:ss AM/PM.
+#: ../libegg/egg-datetime.c:773
+#, c-format
+msgid "%02d:%02d:%02d %s"
+msgstr "%02d:%02d:%02d %s"
+
+#. Translators: This is hh:mm AM/PM.
+#: ../libegg/egg-datetime.c:776
+#, c-format
+msgid "%02d:%02d %s"
+msgstr "%02d:%02d %s"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:780
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Translators: This is hh:mm.
+#: ../libegg/egg-datetime.c:783
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. Translators: This is hh:mm:ss.
+#: ../libegg/egg-datetime.c:1202
+#, c-format
+msgid "%u:%u:%u"
+msgstr "%u:%u:%u"
+

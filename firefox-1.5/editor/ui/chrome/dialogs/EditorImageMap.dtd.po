@@ -1,0 +1,235 @@
+# extracted from dz-BT_orig/editor/ui/chrome/dialogs/EditorImageMap.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: EditorImageMap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-18 05:18+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is Mozilla Communicator client code, released
+# - March 31, 1998.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corporation.
+# - Portions created by the Initial Developer are Copyright (C) 1998-1999
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -   Dan Haddix (dan6992@hotmail.com)
+# -   Brian King (briano9@yahoo.com)
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either of the GNU General Public License Version 2 or later (the "GPL"),
+# - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+# These strings are for use specifically in the editor's image map dialog.
+# Window title
+#: windowTitle.label
+msgid "Image Map Editor"
+msgstr "གཟུགས་བརྙན་ས་ཁྲ་ཞུན་དགཔ།"
+
+# Menu Items
+# File menu
+#: mapfileMenu.label
+msgid "File"
+msgstr "ཡིག་སྣོད།"
+
+#: mapfilemenu.accesskey
+msgid "f"
+msgstr "f"
+
+#: clearCmd.label
+msgid "Clear"
+msgstr "བསལ།"
+
+#: mapfileclear.accesskey
+#: selectall.accesskey
+msgid "a"
+msgstr "a"
+
+#: closeCmd.label
+msgid "Close"
+msgstr "ཁ་བསྡམ།"
+
+#: mapfileclose.accesskey
+#: mapeditcopy.accesskey
+#: copy.accesskey
+msgid "c"
+msgstr "c"
+
+# Edit menu
+#: mapeditMenu.label
+msgid "Edit"
+msgstr "ཞུན་དག"
+
+#: mapeditmenu.accesskey
+msgid "e"
+msgstr "e"
+
+#: cutCmd.label
+msgid "Cut"
+msgstr "བཏོག"
+
+#: mapeditcut.accesskey
+#: mapviewtbar.accesskey
+#: tbar.accesskey
+msgid "t"
+msgstr "t"
+
+#: copyCmd.label
+msgid "Copy"
+msgstr "འདྲ་བཤུས།"
+
+#: pasteCmd.label
+msgid "Paste"
+msgstr "སྦྱར།"
+
+#: mapeditpaste.accesskey
+#: props.accesskey
+msgid "p"
+msgstr "p"
+
+#: selectallCmd.label
+msgid "Select All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད།"
+
+#: mapselectall.accesskey
+msgid "s"
+msgstr "s"
+
+#: propsCmd.label
+msgid "Hotspot Properties"
+msgstr "འཁྱམས་གནས་རྒྱུ་དངོས་ཚུ།"
+
+#: mapeditprops.accesskey
+#: maphelpmenu.accesskey
+msgid "h"
+msgstr "h"
+
+# View menu
+#: mapviewMenu.label
+msgid "View"
+msgstr "མཐོང་སྣང་།"
+
+#: mapviewmenu.accesskey
+#: paste.accesskey
+msgid "v"
+msgstr "v"
+
+#: showhideTbarCmd.label
+msgid "Hide Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་གསང་།"
+
+# Scaling
+#: mapviewScale.label
+msgid "Scale"
+msgstr "ཚད་ཤིང་།"
+
+#: mapviewscale.accesskey
+msgid "S"
+msgstr "S"
+
+#: apercentCmd.label
+msgid "100"
+msgstr "༡༠༠"
+
+#: zoomone.accesskey
+msgid "1"
+msgstr "1"
+
+#: bpercentCmd.label
+msgid "200"
+msgstr "200"
+
+#: zoomtwo.accesskey
+msgid "2"
+msgstr "2"
+
+#: cpercentCmd.label
+msgid "400"
+msgstr "400"
+
+#: zoomthree.accesskey
+msgid "4"
+msgstr "4"
+
+# end scaling
+#: contrastCmd.label
+msgid "Contrast"
+msgstr "མཚོན་མདངས།"
+
+#: contrast.accesskey
+msgid "n"
+msgstr "n"
+
+# Help menu
+#: maphelpMenu.label
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#: aboutCmd.label
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: about.accesskey
+msgid "b"
+msgstr "b"
+
+#: zoominCmd.label
+msgid "Zoom In"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: zoomoutCmd.label
+msgid "Zoom Out"
+msgstr "ནང་བཟུམ།"
+
+#: delSpotCmd.label
+msgid "Delete Spot"
+msgstr "ས་ཁོངས་བཏོན་གཏང་།"
+
+# Keys
+#: clear.accesskey
+msgid "d"
+msgstr "d"
+
+#: close.accesskey
+msgid "l"
+msgstr "l"
+
+#: cut.accesskey
+msgid "x"
+msgstr "x"
+

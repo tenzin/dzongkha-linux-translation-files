@@ -1,0 +1,635 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome build\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-20 04:11+0100\n"
+"PO-Revision-Date: 2007-06-20 12:06+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/backends/libgbf_am/gbf-am-build.c:177
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-build.c:182
+msgid "Build ended"
+msgstr "བཟོ་བརྩིགས་མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-config.c:96
+#: ../src/backends/libgbf_am/gbf-am-config.c:130
+msgid "Invalid GbfAmConfigValue type"
+msgstr "ནུས་མེད་ཇི་བི་ཨེཕ་ཨེ་ཨེམ་རིམ་སྒྲིག་གནས་གོང་དབྱེ་བ།"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:1
+msgid "<b>Select Package to add:</b>"
+msgstr "<b>ཁ་སྐོང་འབད་ནི་ལུ་ཐུམ་སྒྲིལ་སེལ་འཐུ་འབད།</b>"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:2
+msgid "Add _Package"
+msgstr "ཐུམ་སྒྲིལ་ཁ་སྐོང་འབད།(_P)"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:3
+msgid "Add _module"
+msgstr "ཚད་གཞི་ཁ་སྐོང་འབད།(_m)"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:4
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:5
+msgid "Packages"
+msgstr "ཐུམ་སྒྲིལ་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:6
+msgid "Select package"
+msgstr "ཐུམ་སྒྲིལ་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../src/backends/libgbf_am/gbf-am-dialogs.glade.h:7
+msgid "Variables"
+msgstr "འགྱུར་ཅན་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:139
+#: ../src/backends/libgbf_am/gbf-am-properties.c:183
+#: ../src/backends/libgbf_am/gbf-am-project.c:3411
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3329
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:109
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:153
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:348
+#: ../src/backends/libgbf_am/gbf-am-properties.c:400
+msgid "Enter new module"
+msgstr "ཚད་གཞི་གསརཔ་བཙུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:436
+#: ../src/backends/libgbf_am/gbf-am-properties.c:924
+msgid "Module/Packages"
+msgstr "ཚད་གཞི་/ཐུམ་སྒྲིལ་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:442
+#: ../src/backends/libgbf_am/gbf-am-properties.c:932
+msgid "Version"
+msgstr "ཐོན་རིམ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:528
+#, c-format
+msgid "Are you sure you want to remove module \"%s\" and all its associated packages?"
+msgstr "ཁྱོད་ཀྱིས་ཚད་གཞི་རྩ དང་ \"%s\"འདིའི་འབྲེལ་བ་ཡོད་མི་ཐུམ་སྒྲིལ་ཚུ་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་ནི་ངེས་བདེན་ཨིན་ན ?"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:530
+#, c-format
+msgid "Are you sure you want to remove package \"%s\"?"
+msgstr "ཁྱོད་ཀྱིས་ཐུམ་སྒྲིལ་རྩ་བསྐྲད་གཏང་ནི་ངེས་བདེན་ཨིན་ན \"%s\"?"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:586
+#: ../src/backends/libgbf_am/gbf-am-properties.c:668
+msgid "Enter new variable"
+msgstr "འགྱུར་ཅན་གསརཔ་བཙུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:699
+#, c-format
+msgid "Are you sure you want to remove variable \"%s\"?"
+msgstr "ཁྱོད་ཀྱིས་འགྱུར་ཅན་རྩ་བསྐྲད་གཏང་ནི་ངེས་བདེན་ཨིན་ན \"%s\"?"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:848
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:182
+msgid "Project:"
+msgstr "ལས་འགུལ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:851
+msgid "Package name:"
+msgstr "ཐུམ་སྒྲིལ་མིང་།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:854
+msgid "Version:"
+msgstr "ཐོན་རིམ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:857
+msgid "Url:"
+msgstr "ཡུ་ཨར་ཨེལ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:964
+msgid "Variable"
+msgstr "འགྱུར་ཅན།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:973
+msgid "Value"
+msgstr "གནས་གོང་།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1069
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:249
+msgid "Group name:"
+msgstr "སྡེ་ཚན་མིང་།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1072
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:252
+msgid "Includes:"
+msgstr "གྲངས་སུ་བཙུགས་ནི།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1076
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1251
+msgid "Compiler Settings"
+msgstr "ཕྱོགས་སྒྲིག་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1081
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1256
+msgid "C compiler flags:"
+msgstr "ཕྱོགས་སྒྲིག་ཟུར་རྟགས་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1083
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1258
+msgid "C preprocessor flags"
+msgstr "སི་ སྔ་སྒོང་ལས་སྦྱོར་འཕྲུལ་ཆས་ཟུར་རྟགས་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1085
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1260
+msgid "C++ compiler flags"
+msgstr "སི་++ཕྱོགས་སྒྲིག་ཟུར་རྟགས་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1087
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1262
+msgid "gcj compiler flags (ahead-of-time)"
+msgstr "ཇི་སི་ཇི་ཕྱོགས་སྒྲིག་ཟུར་རྟགས་ཚུ(དུས་ཚོད་ཀྱི་ཧེ་མ)"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1089
+msgid "Java compiler flags (just-in-time)"
+msgstr "ཇ་བ་ཕྱོགས་སྒྲིག་ཟུར་རྟགས་ཚུ(དུས་ཚོད་ནང་)"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1091
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1264
+msgid "Fortran compiler flags:"
+msgstr "ཕོར་ཊེན་ཕྱོགས་སྒྲིག་ཟུར་རྟགས་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1101
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:263
+msgid "Install directories:"
+msgstr "གཞི་བཙུགས་སྣོད་ཐོ་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1190
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:352
+msgid "Target name:"
+msgstr "དམིགས་གཏད་མིང་།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1193
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:355
+msgid "Type:"
+msgstr "དབྱེ་བ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1199
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:361
+msgid "Group:"
+msgstr "སྡེ་ཚན།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1217
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1233
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1240
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:379
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:396
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:403
+msgid "Install directory:"
+msgstr "གཞི་བཙུགས་སྣོད་ཐོ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1268
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:415
+msgid "Linker flags:"
+msgstr "འབྲེལ་མཐུདཔ་ཟུར་རྟགས་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1274
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:421
+msgid "Libraries:"
+msgstr "དཔེར་མཛོད་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-properties.c:1280
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-properties.c:427
+msgid "Dependencies:"
+msgstr "གཞི་རྟེན་པ་ཚུ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2464
+#: ../src/backends/libgbf_am/gbf-am-project.c:2542
+#: ../src/backends/libgbf_am/gbf-am-project.c:2885
+#: ../src/backends/libgbf_am/gbf-am-project.c:3094
+#: ../src/backends/libgbf_am/gbf-am-project.c:3244
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2465
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2543
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2874
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3060
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3208
+msgid "Group doesn't exist"
+msgstr "སྡེ་གནས་མེདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2484
+#: ../src/backends/libgbf_am/gbf-am-project.c:2587
+#: ../src/backends/libgbf_am/gbf-am-project.c:3137
+#: ../src/backends/libgbf_am/gbf-am-project.c:3359
+#: ../src/backends/libgbf_am/gbf-am-project.c:3575
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2485
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2588
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3103
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3283
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3469
+msgid "Target doesn't exist"
+msgstr "དམིགས་གཏད་གནས་མེདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2518
+#: ../src/backends/libgbf_am/gbf-am-project.c:2562
+#: ../src/backends/libgbf_am/gbf-am-project.c:2605
+#: ../src/backends/libgbf_am/gbf-am-project.c:3055
+#: ../src/backends/libgbf_am/gbf-am-project.c:3115
+#: ../src/backends/libgbf_am/gbf-am-project.c:3319
+#: ../src/backends/libgbf_am/gbf-am-project.c:3380
+#: ../src/backends/libgbf_am/gbf-am-project.c:3637
+#: ../src/backends/libgbf_am/gbf-am-project.c:3698
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2519
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2563
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2606
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3021
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3081
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3244
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3304
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3531
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3592
+msgid "Unable to update project"
+msgstr "ལས་དུས་མཐུན་བཟོ་མ་ཚུགསཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2648
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2649
+msgid "Invalid or remote path (only local paths supported)"
+msgstr "ནུས་མེད་ཡང་ན་ཐག་་རིང་་གི་འགྲུལ་ལམ(ཉེ་གནས་འགྲུལ་ལམ་ཚུ་རྐྱངམ་ཅིག་རྒྱབ་སྐྱོར་འབད་ཡོདཔ)"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2656
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2657
+msgid "Project doesn't exist or invalid path"
+msgstr "ལས་འགུལ་གནས་མེདཔ་ཡང་ན་འགྲུལ་ལམ་ནུས་མེད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2667
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2668
+msgid "Malformed project"
+msgstr "བཟོ་ཉེས་འགྱུར་བའི་ལས་འགུལ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2778
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2780
+#, c-format
+msgid "Build specific target: %s"
+msgstr "བཟོ་བརྩིགས་གསལ་བཀོད་དམིགས་གཏད %s"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2801
+msgid "Generate"
+msgstr "བཟོ་བཏོན།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2802
+msgid "Generate Makefile"
+msgstr "ཡིག་སྣོད་བཟོ་ནི་བཟོ་བཏོན་འབད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2808
+msgid "Configure"
+msgstr "རིམ་སྒྲིག"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2809
+msgid "Configure the project"
+msgstr "ལས་འགུལ་འདི་རིམ་སྒྲིག་འབད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2815
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2804
+msgid "All"
+msgstr "ཆ་མཉམ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2816
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2805
+msgid "Build the entire project"
+msgstr "ལས་འགུལ་ཧྲིལ་བུམ་བཟོ་བརྩིགས་འབད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2822
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2811
+msgid "Install"
+msgstr "གཞི་བཙུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2823
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2812
+msgid "Build the entire project and install it"
+msgstr "ལས་འགུལ་ཧྲིལ་བུམ་བཟོ་བརྩིས་འབད་ནི་དང་གཞི་བཙུགས་འབད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:2998
+msgid "Please specify group name"
+msgstr "སྡེ་ཚན་མིང་གསལ་བཀོད་འབད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3012
+msgid "Group name can only contain alphanumeric, '_', '-' or '.' characters"
+msgstr "སྡེ་ཚན་མིང་གིས་ཀ་ཁ་ཨང་ཡིག་ '_', '-' ཡང་ན་ '.' ཡིག་འབྲུ་ཚུ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3021
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2987
+msgid "Parent group doesn't exist"
+msgstr "རྩ་ལག་སྡེ་ཚན་གནས་མེདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3032
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:2998
+msgid "Group already exists"
+msgstr "སདེ་ཚན་ཧེ་མ་ལས་གནས་ཡོདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3042
+#: ../src/backends/libgbf_am/gbf-am-project.c:3069
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3008
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3035
+msgid "Group couldn't be created"
+msgstr "སྡེ་ཚན་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3102
+msgid "Group couldn't be removed"
+msgstr "སདེ་ཚན་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3252
+msgid "Please specify target name"
+msgstr "དམིགས་གཏད་མིང་གསལ་བཀོད་གནང་།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3266
+msgid "Target name can only contain alphanumeric, '_', '-' or '.' characters"
+msgstr "དམིགས་གཏད་མིང་དེ་གིས་ཀ་ཁ་ཨང་ཡིག་ '_', '-' ཡང་ན་ '.' ཡིག་འབྲུ་ཚུ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3275
+msgid "Shared library target name must be of the form 'libxxx.la'"
+msgstr "རུབ་སྤྱོད་འབད་ཡོད་མི་དཔེར་མཛོད་དམིགས་གཏད་མིང་འདི་'libxxx.la'གི་རྣམ་པ་དགོཔ་ཨིན།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3284
+msgid "Static library target name must be of the form 'libxxx.a'"
+msgstr "རྟག་བརྟན་དཔེར་མཛོད་དམིགས་གཏད་མིང་འདི་'libxxx.a'གི་རྣམ་པ་དགོཔ་ཨིན།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3296
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3221
+msgid "Target already exists"
+msgstr "དམིགས་གཏད་ཧེ་མ་ལས་གནས་ཡོདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3306
+msgid "General failure in target creation"
+msgstr "དམིགས་གཏད་གསར་བསྐྲུན་ནང་ཡོངས་ཁྱབ་འཐུས་ཤོར།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3334
+msgid "Newly created target could not be identified"
+msgstr "དམིགས་གཏད་གསརཔ་གསར་བསྐྲུན་འབད་ཡོད་མི་ངོས་འཛིན་འབད་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3367
+msgid "Target couldn't be removed"
+msgstr "དམིགས་གཏད་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3391
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3315
+msgid "Static Library"
+msgstr "རྟག་བརྟན་དཔེར་མཛོད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3393
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3317
+msgid "Shared Library"
+msgstr "རུབ་སྤྱོད་འབད་ཡོད་མི་དཔེར་མཛོད།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3395
+msgid "Header Files"
+msgstr "མགོ་ཡིག་ ཡིག་སྣོད་ཚུ་"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3397
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3319
+msgid "Man Documentation"
+msgstr "མན་ཡིག་ཐོག་བཀོད་པ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3399
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3321
+msgid "Miscellaneous Data"
+msgstr "གནས་སྡུད་སྣ་ཚོགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3401
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3323
+msgid "Program"
+msgstr "ལས་རིམ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3403
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3325
+msgid "Script"
+msgstr "ཡིག་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3405
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3327
+msgid "Info Documentation"
+msgstr "ཡིག་ཐོག་བཀོད་པའི་བརྡ་དོན།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3407
+msgid "Java Module"
+msgstr "ཇ་བ་ཚད་གཞི།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3409
+msgid "Python Module"
+msgstr "པ་ཡི་ཐཱོན་ཚད་གཞི།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3467
+#: ../src/backends/libgbf_am/gbf-am-project.c:3675
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3379
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3569
+msgid "Source doesn't exist"
+msgstr "འབྱུང་ཁུངས་གནས་མེདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3567
+msgid "Source file name can only contain alphanumeric, '_', '-' or '.' characters"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་མིང་ནང་ཀ་ཁ་ཨང་ཡིག་ '_', '-' ཡང་ན་'.' ཡིག་འབྲུ་ཚུ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན༔"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3590
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3484
+msgid "Source file must be inside the project directory"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་དེ་ལས་འགུལ་སྣོད་ཐོ་ནང་ན་ཡོདཔ་འོང་།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3602
+msgid "Source file is already in given target"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་འདི་ཧེ་མ་ལས་དམིགས་གཏད་ནང་བྱིན་ཡོདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3619
+msgid "General failure in adding source file"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་ཁ་སྐོང་འབད་ནི་ནང་ཡོངས་ཁྱབ་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3652
+msgid "Newly added source file could not be identified"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་གསརཔ་ཁ་སྐོང་འབད་ཡོད་མི་ངོས་འཛིན་འབད་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3683
+msgid "Source couldn't be removed"
+msgstr "འབྱུང་ཁུངས་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_am/gbf-am-project.c:3775
+#: ../src/backends/libgbf_am/gbf-am-project.c:3776
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3669
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3670
+msgid "Project directory"
+msgstr "ལས་འགུལ་སྣོད་ཐོ།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-config.c:102
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-config.c:136
+msgid "Invalid GbfMkfileConfigValue type"
+msgstr "ནུས་མེད་ཇི་བི་ཨེཕ་ཨེམ་ཀེ་ཡིག་སྣོད་རིམ་སྒྲིག་གནས་གོང་དབྱེ་བ།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3068
+msgid "Group coudn't be removed"
+msgstr "སྡེ་ཚན་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3231
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3258
+msgid "Target couldn't be created"
+msgstr "དམིགས་གཏད་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3291
+msgid "Target coudn't be removed"
+msgstr "དམིགས་གཏད་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3496
+msgid "Source is already in target"
+msgstr "འབྱུང་ཁུངས་འདི་ཧེ་མ་ལས་དམིགས་གཏད་ནང་ཡོདཔ།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3513
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3545
+msgid "Source couldn't be added"
+msgstr "འབྱུང་ཁུངས་ཁ་སྐོང་འབད་མ་ཚུགས།"
+
+#: ../src/backends/libgbf_mkfile/gbf-mkfile-project.c:3577
+msgid "Source coudn't be removed"
+msgstr "འབྱུང་ཁུངས་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/gbf/create_dialogs.glade.h:1
+msgid "Add Source"
+msgstr "འབྱུང་ཁུངས་ཁ་སྐོང་འབད།"
+
+#: ../src/gbf/create_dialogs.glade.h:2
+msgid "New Group"
+msgstr "སྡེ་ཚན་གསརཔ།"
+
+#: ../src/gbf/create_dialogs.glade.h:3
+msgid "New Target"
+msgstr "དམིགས་གཏད་གསརཔ།"
+
+#: ../src/gbf/create_dialogs.glade.h:4
+msgid "Select the _target for the new source files:"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་གསརཔ་ཚུ་གི་དོན་ལུ་དམིགས་གཏད་འདི་སེལ་འཐུ་འབད།(_t)"
+
+#: ../src/gbf/create_dialogs.glade.h:5
+msgid "Source files:"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gbf/create_dialogs.glade.h:6
+msgid "Specify _where to create the group:"
+msgstr "སདེ་ཚན་ག་སྟེ་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་གསལ་བཀོད་འབད།(_w)"
+
+#: ../src/gbf/create_dialogs.glade.h:7
+msgid "Specify _where to create the target:"
+msgstr "དམིགས་གཏད་ག་སྟེ་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་གསལ་བཀོད་འབད།(_w)"
+
+#: ../src/gbf/create_dialogs.glade.h:8
+msgid "Target _name:"
+msgstr "དམིགས་གཏད་མིང་།(_n)"
+
+#: ../src/gbf/create_dialogs.glade.h:9
+msgid "Target _type:"
+msgstr "དམིགས་གཏད་དབྱེ་བ།(_t)"
+
+#: ../src/gbf/create_dialogs.glade.h:10
+msgid "TargetTypes"
+msgstr "དམིགས་གཏད་དབྱེ་བ་ཚུ།"
+
+#: ../src/gbf/create_dialogs.glade.h:11
+msgid "_Group name:"
+msgstr "སདེ་ཚན་མིང་།(_G)"
+
+#: ../src/gbf/create_dialogs.glade.h:12
+msgid "_Select file to add..."
+msgstr "ཁ་སྐོང་འབད་ནི་ཡིག་སྣོད་སེལ་འཐུ་འབད།(_S)"
+
+#: ../src/gbf/gbf-build-info.c:103
+#: ../src/gbf/gbf-project-model.c:238
+msgid "Project"
+msgstr "ལས་འགུལ།"
+
+#: ../src/gbf/gbf-build-info.c:104
+msgid "Project Object"
+msgstr "ལས་འགུལ་དངོས་པོ།"
+
+#: ../src/gbf/gbf-build-info.c:137
+msgid "No build started"
+msgstr "བཟོ་བརྩིགས་འགོ་བཙུགས་མེདཔ།"
+
+#: ../src/gbf/gbf-project-model.c:239
+msgid "GbfProject Object"
+msgstr "ཇི་བི་ཨེཕ་ལས་འགུལ་དངོས་པོ།"
+
+#: ../src/gbf/gbf-project-model.c:256
+msgid "No project loaded"
+msgstr "ལས་འགུལ་མངོན་གསལ་འབད་ཡོད་མི་མེདཔ།"
+
+#: ../src/gbf/gbf-project-util.c:84
+msgid "Couldn't load glade file"
+msgstr "གེ་ལེཌི་ཡིག་སྣོད་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ../src/gbf/gbf-project-util.c:266
+#: ../src/gbf/gbf-project-util.c:274
+msgid "Can not add group"
+msgstr "སདེ་ཚན་ཁ་སྐོང་འབད་མི་ཚུགས།"
+
+#: ../src/gbf/gbf-project-util.c:275
+msgid "No parent group selected"
+msgstr "རྩ་ལག་སདེ་ཚན་སེལ་འཐུ་འབད་མེདཔ།"
+
+#: ../src/gbf/gbf-project-util.c:448
+#: ../src/gbf/gbf-project-util.c:457
+msgid "Can not add target"
+msgstr "དམིགས་གཏད་ཁ་སྐོང་འབད་མི་ཚུགས།"
+
+#: ../src/gbf/gbf-project-util.c:458
+msgid "No group selected"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་སདེ་ཚན་མེདཔ།"
+
+#: ../src/gbf/gbf-project-util.c:563
+msgid "Select sources..."
+msgstr "འབྱུང་ཁུངས་ཚུ་སེལ་འཐུ་འབད་་་"
+
+#: ../src/gbf/gbf-project-util.c:796
+#: ../src/gbf/gbf-project-util.c:803
+msgid "Can not add source files"
+msgstr "འབྱུང་ཁུངས་ཡིག་སྣོད་ཚུ་ཁ་སྐོང་འབད་མི་ཚུགས།"
+
+#: ../src/gbf/gbf-project-util.c:804
+msgid "No target has been selected"
+msgstr "དམིགས་གཏད་སེལ་འཐུ་འབད་མེདཔ།"
+
+#: ../src/gbf/test-controls.xml.h:1
+msgid "Add _Source..."
+msgstr "འབྱུང་ཁུངས་ཁ་སྐོང་འབད་་་(_S)"
+
+#: ../src/gbf/test-controls.xml.h:2
+msgid "New _Group..."
+msgstr "སྡེ་ཚན་གསརཔ་་་(_G)"
+
+#: ../src/gbf/test-controls.xml.h:3
+msgid "New _Target..."
+msgstr "དམིགས་གཏད་གསརཔ་་་(_T)"
+
+#: ../src/gbf/test-controls.xml.h:4
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../src/gbf/test-controls.xml.h:5
+msgid "_Project"
+msgstr "ལས་འགུལ།(_P)"
+
+#: ../src/gbf/test-project-view.c:99
+msgid "Open Project"
+msgstr "ལས་འགུལ་ཁ་ཕྱེ།"
+
+#: ../src/gbf/test-project-view.c:227
+msgid "Test Project View"
+msgstr "བརྟག་ཞིབ་ལས་འགུལ་སྟོན།"
+
+#: ../src/gbf/test-project-view.c:290
+msgid "Can't initialize bonobo!"
+msgstr "བོ་ནོ་བོ་འགོ་འབྱེད་འབད་མི་ཚུགས།"
+

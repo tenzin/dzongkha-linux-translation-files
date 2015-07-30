@@ -1,0 +1,93 @@
+# extracted from dz-BT_orig/dom/chrome/dom/dom.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: dom/chrome/dom/dom.properties.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-16 14:41+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: KillScriptTitle
+msgid "Warning: Unresponsive script"
+msgstr "ཉེན་བརྡ: ངོས་ལེན་མེད་པའི་ཡིག་ཚུགས།"
+
+#: KillScriptMessage
+msgid "A script on this page may be busy, or it may have stopped responding. You can stop the script now, or you can continue to see if the script will complete."
+msgstr "ཤོག་ལེབ་དེ་གུ་ཡོད་པའི་ཚུགས་ཡིག་འདི་  ཡང་ན་ ཁོམ་མེད་འོང་ ཡང་ན་  ངོས་ལེན་འབད་ནི་འདི་བཀག་ཡོདཔ་འོང་།  ཚུགས་ཡིག་འདི་ཁྱོད་ཀྱིས་  ད་ལྟོ་བཀག་ཚུགས་  ཡང་ན་  ཚུགས་ཡིག་འདི་མཇུག་བསྡུཝ་ཨིན་ན་མེན་  ཁྱོད་ཀྱིས་  འཕྲོ་མཐུད་དེ་བལྟ་ད།"
+
+#: KillScriptWithDebugMessage
+msgid "A script on this page may be busy, or it may have stopped responding. You can stop the script now, open the script in the debugger, or let the script continue."
+msgstr "ཤོག་ལེབ་འདི་གུ་ཡོད་པའི་ཡིག་ཚུགས་ཅིག་ ཁོམ་སེད་ཨིནམ་འོང་་ཡང་ན་ ངོས་ལན་འབད་ནི་བཤོལ་དཔ་འོང་།  ད་ལྟོ་ཁྱོད་ཀྱིས་ཡིག་ཚིགས་མཚམས་འཇོག་འབད་དེ་ ཡིག་ཚུགས་དེ་ ཌི་བག་གར་ནང་ཁ་ཕྱེ་ ཡང་ན་ ཡིག་ཚུགས་དེ་འཕྲོ་མཐུད་བཅུག།"
+
+#: StopScriptButton
+msgid "Stop script"
+msgstr "ཚུགས་ཡིག་འདི་བཀག་ད།"
+
+#: DebugScriptButton
+msgid "Debug script"
+msgstr "ཡིག་ཚུགས་རྐྱེན་སེལ་འབད་"
+
+#: WaitForScriptButton
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་ད།"
+
+#: JSURLLoadBlockedWarning
+msgid ""
+"Attempt to load a javascript: URL from one host\n"
+"in a window displaying content from another host\n"
+"was blocked by the security manager."
+msgstr ""
+"ཇ་བ་ཡིག་ཚུགས་ཅིག་མངོན་གསལ་འབད་ནི་ལུ་དཔའ་བཅམ་ད:  སྒོ་སྒྲིག་ཅིག་གི་ནང་ལུ་ \n"
+" ཡུ་ཨར་ཨེལ་འདི་ཧོསཊི་གཅིག་ལས་  ཧོསཊི་གཞན་མི་ལས་ \n"
+" ནང་དོན་བཀྲམ་སྟོན་འབད་མི་འདི་  སྲུང་སྐྱོབ་འཛིན་སྐྱོང་པ་གིས་འགགས་ཡོད།"
+
+#: WindowCloseBlockedWarning
+msgid "Scripts may not close windows that were not opened by script."
+msgstr "ཚུགས་ཡིག་གིས་ཁ་ཕྱེ་དེ་མེད་པའི་སྒོ་སྒྲིག་ཚུ་  ཚུགས་ཡིག་གིས་ཁ་མི་བསྡམས་འོང་།"
+
+#: OnBeforeUnloadPreMessage
+msgid "Are you sure you want to navigate away from this page?"
+msgstr "ཁྱོད་ ཤོག་ལེབ་འདི་ལས་འགྲུལ་བསྐྱོད་འབད་ནི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: OnBeforeUnloadPostMessage
+msgid "Press OK to continue, or Cancel to stay on the current page."
+msgstr "འཕྲོ་མཐུད་ནི་དོན་ལུ་  བཏུབ་  འདི་མནན་ནི་  ཡང་ན་  ད་ལྟོའི་ཤོག་ལེབ་གུ་སྡོད་ནི་དོན་ལུ་  ཆ་མེད་གཏང་ འདི་མནན་ད།"
+
+#: DocumentAllUsed
+msgid "Non-standard document.all property was used. Use W3C standard document.getElementById() instead."
+msgstr "ཚད་ལྡན་མེད་པའི་ཡིག་ཆ.all propertyའདི་ལག་ལེན་འཐབ་ནུག  W3C ཚད་ལྡན་ཡིག་ཆ་.getElementById() འདི་ལག་ལེན་འཐབ།"
+
+#: GlobalScopeElementReference
+msgid "Element referenced by ID/NAME in the global scope. Use W3C standard document.getElementById() instead."
+msgstr "སྤྱི་ཁྱབ་འོས་སྐབས་ནང་གི་  ID/NAME གིས་ གཞི་བསྟུན་འབད་ཡོད་པའི་ཆ་ཤས།  W3C ཚད་ལྡན་ཡིག་ཆ་.getElementById() འདི་ལག་ལེན་འཐབ།"
+
+#: UseOfCaptureEventsWarning
+msgid "Use of captureEvents() is deprecated, see bug 330494."
+msgstr "འཛིན་བཟུང་བྱུང་ལས་() ཚུ་ལུ་ ངོས་ལེན་མིན་འདུག་ རྐྱེན་༣༣༠༤༩༤ ལུ་བལྟ།"
+
+#: UseOfReleaseEventsWarning
+msgid "Use of releaseEvents() is deprecated, see bug 330494."
+msgstr "ཐར་གྲོལ་བྱུང་ལས་() དེ་གིས་ངོས་ལེན་མིན་འདུག་ རྐྱེན་ ༣༣༠༤༩༤ ལུ་བལྟ།"
+
+#: UseOfRouteEventWarning
+msgid "Use of routeEvent() is deprecated, see bug 330494."
+msgstr "འགྲུལ་ལམ་བྱུང་ལས་() དེ་ལུ་ངོས་ལེན་མིན་འདུག་ རྐྱེན་༣༣༠༤༩༤ ལུ་བལྟ།"
+
+#: UseOfPreventBubbleWarning
+msgid "Event=%S, use of preventBubble() is deprecated. Use W3C standard stopPropagation() instead."
+msgstr "བྱུང་ལས་=%S། བབ་བཱལ་བཀག་ཆ་ ལག་ལེན་འཐབ་ནི་ལུ་ ངོས་ལེན་མིན་འདུག། དེ་གི་ཚབ་ལུ་ W3C གནས་ཚད་ཀྱི་ ཡར་སྤེལ་མཚམས་འཇོག་() ལག་ལེན་འཐབ།"
+
+#: UseOfPreventCaptureWarning
+msgid "Event=%S, use of preventCapture() is deprecated. Use W3C standard stopPropagation() instead."
+msgstr "བྱུང་ལས་=%S། འཛིན་བཟུང་བཀག་ཆ་() ལག་ལེན་འཐབ་ནི་ལུ་ ངོས་ལེན་མིན་འདུག། དེ་གི་ཚབ་ལུ་ W3C གནས་ཚད་ཀྱི་ ཡར་སྤེལ་མཚམས་འཇོག་() ལག་ལེན་འཐབ།"
+

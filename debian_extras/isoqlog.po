@@ -1,0 +1,191 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-26 12:04+0100\n"
+"PO-Revision-Date: 2006-11-27 15:04+0530\n"
+"Last-Translator: dorji tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Description
+#: ../templates:1001
+msgid "MTA log type:"
+msgstr "ཨེམ་ཊི་ཨེ་དྲན་དེབ་དབྱེ་བ:"
+
+#. Type: select
+#. Description
+#: ../templates:1001
+msgid "Isoqlog has multi-mta support. You must select the logformat which is used by your mail server."
+msgstr "ཨའིསིཀེ་ དྲན་དེབ་དེ་ལུ་ སྣ་མང་ ཨེམ་ཊི་ཨེ་རྒྱབ་སྐྱོར་ཡོདཔ་ཨིན། ཁྱོད་ཀྱིས་ ཁྱོད་རའི་ཡིག་འཕྲིན་སར་བར་གྱིས་ལག་ལེནའཐབ་ཡོད་མི་ དྲན་དེབ་རྩ་སྒྲིག་དེ་སེལ་འཐུ་འབད་དགོ"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Directory to use for HTML outputs:"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཨའུཊི་པུཊི་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནིའི་སྣོད་ཐོ:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Please choose the directory where isoqlog should write its output. It must be in \"WebRoot\" of your webserver."
+msgstr "ཨའི་ཨེསི་ཨོ་དྲན་དེབ་དེ་གིས་ ཁོ་རའི་ཨའུཊི་པུཊི་དེ་འབྲི་ནིའི་སྣོད་ཐོ་དེ་གདམ་ཁ་བརྐྱབ་གནང་། འདི་ཁྱོད་རའི་ ཁྱོད་རའི་ཝེབ་སར་བར་གྱི་\"WebRoot\"དེ་ནང་ལུ་འོང་དགོཔ་ཨིན།"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Local host name:"
+msgstr "ཉེ་གནས་ཧོསཊི་གི་མིང: "
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Bulgarian"
+msgstr "བཱལ་ག་རི་ཡཱན་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Czech"
+msgstr "ཅེཛི་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Danish"
+msgstr "ཌེ་ནིཤ་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Dutch"
+msgstr "ཌཆ་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "English"
+msgstr "ཨིང་ལིཤ་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Finnish"
+msgstr "ཕིན་ནིཤ་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "French"
+msgstr "ཕིརེནཆི་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "German"
+msgstr "ཇར་མཱན་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Italian"
+msgstr "ཨི་ཊ་ལི་ཡཱན་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Norwegian"
+msgstr "ནོར་ཝེ་ཇི་ཡཱན་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Polish"
+msgstr "པོ་ལིཤ་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Portuguese"
+msgstr "པོར་ཊུ་གིསི་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Romanian"
+msgstr "རོ་མ་ནི་ཡཱན་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Russian"
+msgstr "ར་ཤི་ཡཱན་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Spanish"
+msgstr "སིཔེ་ནིཤི་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Swedish"
+msgstr "སུའི་ཌིཤི་"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Turkish"
+msgstr "ཊར་ཀིཤ་"
+
+#. Type: select
+#. DefaultChoice
+#. This is the default choice. Translators may put their own language here
+#. instead of the default.
+#. WARNING, please use the ENGLISH name of the language, not the
+#. translated value
+#: ../templates:4002
+msgid "English[ translators, please see comment in PO files]"
+msgstr "dzongkha"
+
+#. Type: select
+#. Description
+#: ../templates:4003
+msgid "Language to use for outputs:"
+msgstr "ཨའུཊི་པུཊི་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནིའི་སྐད་ཡིག་:"
+
+#. Type: select
+#. Description
+#: ../templates:4003
+msgid "Isoqlog has multi language support on reports. You can select the preferred language for outputs."
+msgstr "ཨའིསིཀེ་དྲན་དེབ་དེ་གིས་ སྙན་ཞུ་གུ་སྣ་མང་སྙན་ཞུའི་རྒྱབ་སྐྱོར་འདུག ཨའུཊི་པུཊི་ཚུ་གི་དོན་ལས་ སེམས་ཁར་བབ་པའི་སྐད་ཡིག་དེ་སེལ་འཐུ་འབད་ཚུགས།"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Domains for which you want to make reports:"
+msgstr "ཁྱོད་ཀྱིས་སྙན་ཞུ་ཚུ་བཟོ་དགོ་མནོ་མི་ ཌོ་མེན་"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Isoqlog can display Top incoming, outgoing, total, and byte based statistics for each domain. Please enter the domains separated by spaces."
+msgstr "ཨའི་ཨོག་དྲན་དེབ་དེ་གིས་ ཌོ་མེན་རེ་རེ་གི་དནོ་ལུ་ ནང་འབྱོར་དང་ ཕྱིར་བསྐྱོད་ བསྡོམས་ དང་ གནད་སྡུད་རིག་པ་ལུ་གཞི་བཞག་ཡོད་མི་ བཡིཊི་དྲག་ཤོས་ཚུ་བཀྲམ་སྟོན་འབད་ཚུགས། བར་སྟོང་གིས་སོ་སོ་ཁ་ཕྱེ་ཡོད་མི་ཌོ་མེན་ཚུ་བཙུགས་དནང་།"
+

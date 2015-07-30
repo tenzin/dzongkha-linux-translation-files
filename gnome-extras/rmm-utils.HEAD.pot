@@ -1,0 +1,722 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rmm-utils.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 03:22+0000\n"
+"PO-Revision-Date: 2007-01-12 12:17+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gmedia_format/gformat_stubs.c:163
+#: ../gmedia_prop/gmedia_prop.c:105
+#: ../gmedia_prot/callbacks.c:120
+#: ../gmedia_slice/callbacks.c:586
+#: ../gmedia_slice/callbacks.c:875
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "%s གྲོགས་རམ་འདི་བཀྲམ་སྟོན་འབདཝ་ད་  འཛོལ་བ་བྱུང་ཡོདཔ:"
+
+#: ../gmedia_format/gformat_stubs.c:187
+msgid "Error determining media size"
+msgstr "བརྡ་བརྒྱུད་ཚད་འདི་གཏན་འབེབས་བཟོཝ་ད་འཛོལ་བ་"
+
+#: ../gmedia_format/gformat_stubs.c:188
+msgid "gmedia_format cannot determine the size of the media, execution will be terminated."
+msgstr "ཇི་བརྡ་བརྒྱུད་རྩ་སྒྲིག་ དེ་གིས་  བརྡ་བརྒྱུད་ཀྱི་ཚད་འདི་གཏན་འབེབས་བཟོ་མི་ཚུགས་  ལག་ལེན་འཐབ་ནི་འདི་བཏོན་གཏང་འོང་། (_f)"
+
+#: ../gmedia_format/gformat_stubs.c:191
+msgid "Error formatting media"
+msgstr "བརྡ་བརྒྱུད་འདི་རྩ་སྒྲིག་འབདཝ་ད་འཛོལ་བ་"
+
+#: ../gmedia_format/gformat_stubs.c:192
+msgid "gmedia_format has encountered an error trying to format this media. Execution will be terminated."
+msgstr "ཇི་བརྡ་བརྒྱུད་རྩ་སྒྲིག་ དེ་གིས་  བརྡ་བརྒྱུད་འདི་རྩ་སྒྲིག་འབད་ནི་འབདཝ་ད་  འཛོལ་བ་ཅིག་གདོང་ཐུག་བྱུང་ནུག།  ལག་ལེན་འཐབ་པ་འདི་ བཏོན་གཏང་འོང་། (_f)"
+
+#: ../gmedia_format/gformat_stubs.c:195
+msgid "Error accessing slice information file"
+msgstr "བརྡ་དོན་སི་ལའིསི་ཡིག་སྣོད་འདི་འཛུལ་སྤྱོད་འབདཝ་ད་འཛོལ་བ་"
+
+#: ../gmedia_format/gformat_stubs.c:196
+msgid "gmedia_format is unable to open the slice file, execution will be terminated."
+msgstr "ཇི་བརྡ་བརྒྱུད་རྩ་སྒྲིག་ དེ་གིས་  སི་ལའིསི་ཡིག་སྣོད་འདི་ཁ་ཕྱེ་མ་ཚུགས་  ལག་ལེན་འཐབ་པ་འདི་བཏོན་གཏང་འོང་། (_f)"
+
+#: ../gmedia_format/gformat_stubs.c:200
+msgid "Error parsing slice file"
+msgstr "སི་ལའིསི་ཡིག་སྣོད་མིང་དཔྱད་འབདཝ་ད་འཛོལ་བ་"
+
+#: ../gmedia_format/gformat_stubs.c:201
+msgid "gmedia_format cannot parse the information in the slice file, execution will be terminated."
+msgstr "ཇི་བརྡ་བརྒྱུད་རྩ་སྒྲིག་ དེ་གིས་  སི་ལའིསི་ཡིག་སྣོད་ནང་ལུ་  བརྡ་དོན་འདི་མིང་དཔྱད་འབད་མི་ཚུགས་  ལག་ལེན་འཐབ་པ་འདི་བཏོན་གཏང་འོང་། (_f)"
+
+#: ../gmedia_format/gformat_stubs.c:204
+msgid "Format Completed"
+msgstr "རྩ་སྒྲིག་མཇུག་བསྡུ་ནུག་"
+
+#: ../gmedia_format/gformat_stubs.c:205
+msgid "gmedia_format has finished formatting the device."
+msgstr "ཇི་བརྡ་བརྒྱུད་རྩ་སྒྲིག་དེ་གིས་  ཐབས་འཕྲུལ་འདི་རྩ་སྒྲིག་འབད་ཚར་ནུག།"
+
+#: ../gmedia_format/gformat_stubs.c:209
+msgid "Error Opening the Device"
+msgstr "ཐབས་འཕྲུལ་འདི་ཁ་ཕྱེཝ་ད་འཛོལ་བ་"
+
+#: ../gmedia_format/gformat_stubs.c:210
+#, c-format
+msgid "gmedia_format is unable to open the device: %s, execution will be terminated now."
+msgstr "ཇི་བརྡ་བརྒྱུད་འདི་  %s ཐབས་འཕྲུལ་འདི་ཁ་ཕྱེ་མ་ཚུགས: ལག་ལེན་འཐབ་པ་འདི་ད་ལྟོ་བཏོན་གཏང་ནི་ཨིན།"
+
+#: ../gmedia_format/gformat_stubs.c:215
+msgid "Error Getting the Media Properties"
+msgstr "བརྡ་བརྒྱུད་རྒྱུ་དངོས་འདི་ལེན་པའི་བསྒང་ འཛོལ་བ་"
+
+#: ../gmedia_format/gformat_stubs.c:216
+msgid "gmedia_format is unable to get the properties of the device, execution will be terminated."
+msgstr "ཇི་བརྡ་བརྒྱུད་རྩ་སྒྲིག་འདི་ ཐབས་འཕྲུལ་གྱི་རྒྱུ་དངོས་འདི་ལེན་མ་ཚུགས་  ལག་ལེན་འཐབ་པ་འདི་བཏོན་གཏང་འོང་།"
+
+#: ../gmedia_format/gformat_stubs.c:253
+msgid "Usage: gmedia_format -d raw_device [ -m mount_point ]"
+msgstr "བེད་སྤྱོད: gmedia_format -d raw_device [ -m mount_point ]"
+
+#: ../gmedia_format/gformat_stubs.c:261
+#, c-format
+msgid "Cannot open device %s"
+msgstr "%s ཐབས་འཕྲུལ་འདི་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../gmedia_format/gformat_stubs.c:265
+#: ../gmedia_slice/main.c:511
+#, c-format
+msgid "Could not open file %s."
+msgstr "%sཡིག་སྣོད་འདི་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../gmedia_format/gformat_stubs.c:269
+msgid "Error remounting media please eject and re-insert."
+msgstr "བརྡ་བརྒྱུད་འདི་སླར་སྦྱར་བརྩེགས་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག་  ཕྱིར་བཏོན་ནི་དང་སླར་བཙུགས་འབད་གནང་།"
+
+#: ../gmedia_format/gformat_stubs.c:273
+#: ../gmedia_slice/main.c:516
+#, c-format
+msgid "Error parsing file %s"
+msgstr "%s ཡིག་སྣོད་མིང་དཔྱད་འབདཝ་ད་འཛོལ་བ་"
+
+#: ../gmedia_format/gmedia_format.c:92
+msgid "Usage error"
+msgstr "བེད་སྤྱོད་ཀྱི་འཛོལ་བ་"
+
+#.
+#. * Define the label for the warning and attach to the table what are
+#. * the 5's for??
+#.
+#: ../gmedia_format/gmedia_format.c:140
+msgid ""
+"Formatting is a two stage process involving a Low-level Format which prepares the medium for a file system, and then construction of the file system.\n"
+"\n"
+"WARNING:  THIS PROCESS IS NOT REVERSIBLE."
+msgstr ""
+"རྩ་སྒྲིག་འབད་ནི་འདི་  ཡིག་སྣོད་རིམ་ལུགས་ཅི་གི་དོན་ལུ་བརྡ་ལམ་གྲ་སྒྲིག་འབད་མི་གནས་རིམ་དམའ་མི་ཅིག་དང་  དེ་ལས་ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་བཟོ་བསྐྲུན་འབྲེལ་བ་ཡོད་པའི་  གོ་རིམ་གཉིས་ཡོད་པའི་ལས་སྦྱོར་ཅིག་ཨིན།\n"
+"\n"
+"ཉེན་བརྡ:  ལས་སྦྱོར་འདི་རིམ་ལོག་འབད་བཏུབ་མེན།"
+
+#: ../gmedia_format/gmedia_format.c:153
+msgid "Low level formatting"
+msgstr "རྩ་སྒྲིག་གི་གནས་རིམ་དམའ་མི།"
+
+#: ../gmedia_format/gmedia_format.c:158
+msgid "_Quick Format"
+msgstr "རྩ་སྒྲིག་མགྱོགས་མི། (_Q)"
+
+#: ../gmedia_format/gmedia_format.c:166
+msgid "_Long Format"
+msgstr "རྩ་སྒྲིག་རིངམ། (_L)"
+
+#.
+#. * define a vbox to put the label, button and text area into then add
+#. * vbox to table
+#.
+#: ../gmedia_format/gmedia_format.c:181
+msgid "Construct File System"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་འདི་བཟོ་བསྐྲུན་འབད་"
+
+#: ../gmedia_format/gmedia_format.c:214
+msgid "_File System Type:"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་དབྱེ་བ: (_F)"
+
+#: ../gmedia_format/gmedia_format.c:229
+msgid "_Volume Label:"
+msgstr "སྦུང་ཚད་ཀྱི་ཁ་ཡིག: (_V)"
+
+#: ../gmedia_format/gmedia_format.c:248
+msgid "Slice _Editor..."
+msgstr "ཞུན་དགཔ་སི་ལའིསི... (_E)"
+
+#. Keep  Cancel button as it is
+#: ../gmedia_format/gmedia_format.c:270
+#: ../gmedia_format/gmedia_format.c:360
+#: ../gmedia_prot/interface.c:280
+msgid "_Cancel"
+msgstr "ཆ་མེད་གཏང་། (_C)"
+
+#: ../gmedia_format/gmedia_format.c:276
+msgid "_Format"
+msgstr "རྩ་སྒྲིག། (_F)"
+
+#: ../gmedia_format/gmedia_format.c:285
+msgid "Press button to format"
+msgstr "རྩ་སྒྲིག་ལུ་ཨེབ་རྟ་འདི་ཨེབ་གཏང་འབད་"
+
+#. Change Cancel button to  Stop
+#: ../gmedia_format/gmedia_format.c:366
+msgid "_Stop"
+msgstr "བཀག། (_S)"
+
+#. Change Cancel button to  Close
+#: ../gmedia_format/gmedia_format.c:373
+msgid "_Close"
+msgstr "ཁ་བསྡམ། (_C)"
+
+#: ../gmedia_format/gmedia_format.c:498
+msgid "Low Level Format Progress"
+msgstr "གནས་རིམ་དམའ་བའི་  རྩ་སྒྲིག་ལས་སྦྱོར་"
+
+#: ../gmedia_format/gmedia_format.c:578
+msgid "Formatting is in progress. Stopping the format now may make the disk unusable. Do you really want to stop formatting?"
+msgstr "རྩ་སྒྲིག་འདི་ཡར་འཕེལ་འགྱོ་བའི་བསྒང་འདུག།  རྩ་སྒྲིག་འདི་ད་ལྟོ་བཀག་མི་དེ་གིས་  ཌིཀསི་ལག་ལེན་འཐབ་མ་བཏུབ་བཟོ་འོང་།  རྩ་སྒྲིག་འདི་ཁྱོད་ཀྱིས་ངེས་བདེན་འབད་རང་བཀག་ནི་ཨིན་ན?"
+
+#: ../gmedia_format/gmedia_format.c:581
+msgid "_Quit Format"
+msgstr "རྩ་སྒྲིག་འདི་སྤང་། (_Q)"
+
+#: ../gmedia_format/gmedia_format.c:586
+msgid "Co_ntinue Format"
+msgstr "རྩ་སྒྲིག་འདི་འཕྲོ་མཐུད། (_n)"
+
+#: ../gmedia_prop/gmedia_prop.c:173
+msgid "Gnome Media Properties"
+msgstr "ཇི་ནོམ་བརྡ་བརྒྱུད་ཀྱི་རྒྱུ་དངོས་"
+
+#: ../gmedia_prop/gmedia_prop.c:191
+msgid "_Information"
+msgstr "བརྡ་དོན། (_I)"
+
+#: ../gmedia_prop/gmedia_prop.c:193
+msgid "_Floating Capacities"
+msgstr "ཤོང་ཚད་ལྡིང་མི། (_F)"
+
+#: ../gmedia_prop/gmedia_prop.c:201
+msgid "Category:"
+msgstr "དབྱེ་རིམ:"
+
+#: ../gmedia_prop/gmedia_prop.c:223
+msgid "Alias:"
+msgstr "མིང་གཞན:"
+
+#: ../gmedia_prop/gmedia_prop.c:235
+msgid "Product Id:"
+msgstr "ཐོན་སྐྱེད་ ཨའི་ཌི:"
+
+#: ../gmedia_prop/gmedia_prop.c:247
+msgid "Write Protect:"
+msgstr "འབྲི་མ་བཏུབ:"
+
+#: ../gmedia_prop/gmedia_prop.c:259
+msgid "Password Protect:"
+msgstr "ཆོག་ཡིག་ཉེན་སྐྱོབ:"
+
+#: ../gmedia_prop/gmedia_prop.c:271
+msgid "File System:"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས:"
+
+#: ../gmedia_prop/gmedia_prop.c:283
+msgid "Mount Point:"
+msgstr "དོན་ཚན་སྦྱར་བརྩེགས:"
+
+#: ../gmedia_prop/gmedia_prop.c:295
+msgid "Total Capacity:"
+msgstr "ཤོང་ཚད་ཀྱི་བསྡོམས:"
+
+#: ../gmedia_prop/gmedia_prop.c:330
+msgid "Used Capacity:"
+msgstr "ལག་ལེན་འཐམ་ཡོད་པའི་ཤོང་ཚད:"
+
+#: ../gmedia_prop/gmedia_prop.c:344
+msgid "Available Capacity:"
+msgstr "ཐོབ་ཚུགས་ཡོད་པའི་ཤོང་ཚད:"
+
+#: ../gmedia_prop/gmedia_prop.c:400
+msgid ""
+"You have not supplied any parameters\n"
+"\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཚད་བཟུང་ཅིག་ཡང་བཀྲམ་སྤེལ་མ་འབད་བས། \n"
+"\n"
+
+#: ../gmedia_prop/gmedia_prop.c:401
+#: ../gmedia_prop/gmedia_prop.c:405
+#: ../gmedia_prop/gmedia_prop.c:409
+#: ../gmedia_prop/gmedia_prop.c:412
+msgid ""
+"Usage: sdtmedia_prop [-u units] raw_device_path\n"
+"\n"
+msgstr ""
+"བེད་སྤྱོད: sdtmedia_prop [-u units] raw_device_path\n"
+"\n"
+
+#: ../gmedia_prop/gmedia_prop.c:404
+msgid ""
+"You have supplied too many parameters\n"
+"\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཚད་བཟུང་ལེ་ཤ་བཀྲམ་སྤེལ་འབད་ནུག། \n"
+"\n"
+
+#: ../gmedia_prop/gmedia_prop.c:408
+msgid ""
+"The PATH you have supplied is not a valid path to a raw device \n"
+"\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་བཀྲམ་སྤེལ་འབད་ཡོད་པའི་འགྲུལ་ལམ་འདི་  ཐབས་འཕྲུལ་རགས་པ་ཅིག་ལུ་ནུས་ཅན་ཡོད་པའི་འགྲུལ་ལམ་མེད་པས།\n"
+"\n"
+
+#: ../gmedia_prop/gmedia_prop.c:425
+msgid "bytes"
+msgstr "བཱའིཊིསི་"
+
+#: ../gmedia_prop/gmedia_prop.c:427
+msgid "kilobytes"
+msgstr "ཀི་ལོ་བཱའིཊིསི་"
+
+#: ../gmedia_prop/gmedia_prop.c:429
+msgid "megabytes"
+msgstr "མེ་ག་བཱའིཊིསི་"
+
+#: ../gmedia_prop/gmedia_prop.c:431
+msgid "gigabytes"
+msgstr "ཇི་ག་བཱའིཊིསི་"
+
+#: ../gmedia_prop/gmedia_prop.c:438
+#: ../gmedia_prop/properties.c:266
+#: ../gmedia_prop/setup_alias_stuff.c:94
+msgid "cdrom"
+msgstr "སི་ཌི་རཱོམ་"
+
+#: ../gmedia_prop/gmedia_prop.c:439
+#: ../gmedia_prop/gmedia_prop.c:455
+#: ../gmedia_prop/gmedia_prop.c:459
+#: ../gmedia_prop/gmedia_prop.c:460
+#: ../gmedia_prop/gmedia_prop.c:463
+#: ../gmedia_prop/gmedia_prop.c:464
+msgid "True"
+msgstr "བདེན་པ་"
+
+#: ../gmedia_prop/gmedia_prop.c:440
+#: ../gmedia_prop/gmedia_prop.c:451
+#: ../gmedia_prop/gmedia_prop.c:452
+#: ../gmedia_prop/gmedia_prop.c:456
+msgid "False"
+msgstr "རྫུན་མ་"
+
+#: ../gmedia_prop/gmedia_prop.c:444
+#: ../gmedia_prop/gmedia_prop.c:467
+msgid "Unable to determine protection"
+msgstr "ཉེན་སྐྱོབ་འདི་གཏན་འབེབས་བཟོ་མ་ཚུགས་"
+
+#: ../gmedia_prop/gmedia_prop.c:445
+#: ../gmedia_prop/gmedia_prop.c:468
+msgid "Unable to determine password"
+msgstr "ཆོག་ཡིག་འདི་གཏན་འབེབས་བཟོ་མ་ཚུགས་"
+
+#: ../gmedia_prop/properties.c:253
+#: ../gmedia_prop/properties.c:285
+#: ../gmedia_prop/setup_alias_stuff.c:90
+#: ../gmedia_prop/setup_alias_stuff.c:122
+#: ../gmedia_prop/setup_alias_stuff.c:126
+#: ../gmedia_prop/setup_alias_stuff.c:127
+#: ../gmedia_prop/setup_alias_stuff.c:128
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../gmedia_prop/properties.c:271
+msgid "dvd"
+msgstr "ཌི་ཝི་ཌི་"
+
+#: ../gmedia_prop/properties.c:276
+msgid "floppy"
+msgstr "ཕོལོ་པི་"
+
+#: ../gmedia_prop/properties.c:279
+msgid "zip"
+msgstr "གནས་ཡུལ་"
+
+#: ../gmedia_prop/properties.c:282
+msgid "jaz"
+msgstr "ཇེཛི་"
+
+#: ../gmedia_prop/properties.c:410
+#: ../gmedia_prop/properties.c:412
+#: ../gmedia_prop/properties.c:414
+msgid "Cannot determine"
+msgstr "གཏན་འབེབས་བཟོ་མི་ཚུགས་"
+
+#: ../gmedia_prop/properties.c:415
+#, c-format
+msgid "Error %d: Cannot execute a statvfs on %s"
+msgstr "%dའཛོལ་བ: %s གུ་  སི་ཊེཊི་ཝི་ཨེཕ་ཨེསི་འདི་ལག་ལེན་འཐབ་མི་བཏུབ་"
+
+#: ../gmedia_prop/setup_alias_stuff.c:81
+#, c-format
+msgid "Error: Cannot open %s"
+msgstr "འཛོལ་བ: %s་འདི་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../gmedia_prot/callbacks.c:149
+msgid "Please enter password to enable protection:"
+msgstr "ཉེན་སྐྱོབ་འདི་ལྕོགས་ཅན་བཟོ་ནི་ལུ་  ཆོག་ཡིག་ཐོ་བཀོད་འབད:"
+
+#: ../gmedia_prot/callbacks.c:155
+msgid "Please enter password to disable protection:"
+msgstr "ཉེན་སྐྱོབ་འདི་ལྕོགས་མེད་བཟོ་ནི་ལུ་  ཆོག་ཡིག་ཐོ་བཀོད་འབད་གནང་:"
+
+#: ../gmedia_prot/callbacks.c:183
+msgid "Password verification failed. Please re-enter and verify the password."
+msgstr "ཆོག་ཡིག་བདེན་སྦྱོར་འབད་མ་ཚུགས།  ལོག་ཐོ་བཀོད་འབད་ཞིནམ་ལས་  ཆོག་ཡིག་འདི་བདེན་སྦྱོར་འབད་གནང་།"
+
+#: ../gmedia_prot/callbacks.c:198
+msgid "Password verification failed. Some problem check out errno."
+msgstr "ཆོག་ཡིག་བདེན་སྦྱོར་འབད་མ་ཚུགས།  དཀའ་ངལ་ལ་ལོ་ཅིག་འདུག་  ཨར་ནོ་འདི་ཞིབ་དཔྱད་གནང་།"
+
+#: ../gmedia_prot/callbacks.c:226
+#: ../gmedia_prot/main.c:126
+msgid "Protection for this medium is Write Protect with Password."
+msgstr "བརྡ་བརྒྱུད་འདི་གི་དོན་ལུ་ཉེན་སྐྱོབ་འདི་  ཆོག་ཡིག་དང་ཅིག་ཁར་འབྲི་མི་བཏུབ།"
+
+#: ../gmedia_prot/callbacks.c:228
+#: ../gmedia_prot/main.c:132
+msgid "Protection for this medium is Read-Write Protect with Password."
+msgstr "བརྡ་བརྒྱུད་འདི་གི་དོན་ལུ་ཉེན་སྐྱོབ་འདི་  ཆོག་ཡིག་དང་ཅིག་ཁར་ལྷག་འབྲི་ཉེན་སྐྱོབ་ཨིན།"
+
+#: ../gmedia_prot/callbacks.c:230
+#: ../gmedia_prot/main.c:138
+msgid "Protection for this medium unknown."
+msgstr "བརྡ་བརྒྱུད་མ་ཤེསཔ་གི་དོན་ལུ་ཉེན་སྐྱོབ།"
+
+#: ../gmedia_prot/interface.c:71
+msgid "Current Protection:"
+msgstr "ད་ལྟོའི་ཉེན་སྐྱོབ:"
+
+#: ../gmedia_prot/interface.c:79
+msgid "Select a new protection mode:"
+msgstr "ཉེན་སྐྱོབ་ཐབས་ལམ་གསརཔ་ཅིག་སེལ་འཐུ་འབད:"
+
+#: ../gmedia_prot/interface.c:94
+msgid "_Disable Protection"
+msgstr "ཉེན་སྐྱོབ་འདི་ལྕོགས་མིན་བཟོ: (_D)"
+
+#: ../gmedia_prot/interface.c:102
+msgid "Write Protect Withou_t Password"
+msgstr "ཆོག་ཡིག་མེདཔ་དང་ཅིག་ཁར་ འབྲི་མི་བཏུབ། (_t)"
+
+#: ../gmedia_prot/interface.c:110
+msgid "Write Protect _With Password"
+msgstr "ཆོག་ཡིག་དང་ཅིག་ཁར་  འབྲི་མི་བཏུབ། (_W)"
+
+#: ../gmedia_prot/interface.c:118
+msgid "_Read-Write Protect With Password"
+msgstr "ཆོག་ཡིག་དང་ཅིག་ཁར་  ལྷ་འབྲི་ཉེན་སྐྱོབ། (_R)"
+
+#: ../gmedia_prot/interface.c:207
+msgid "Please enter password:"
+msgstr "ཆོག་ཡིག་འདི་ཐོ་བཀོད་འབད་གནང་:"
+
+#: ../gmedia_prot/interface.c:229
+msgid "Enter Password:"
+msgstr "ཆོག་ཡིག་ཐོ་བཀོད་འབད:"
+
+#: ../gmedia_prot/interface.c:252
+msgid "Verify Password:"
+msgstr "ཆོག་ཡིག་བདེན་སྦྱོར་འབད:"
+
+#: ../gmedia_prot/interface.c:273
+msgid "_Apply"
+msgstr "འཇུག་སྤྱོད་འབད། (_A)"
+
+#: ../gmedia_prot/main.c:112
+msgid "Protection for this medium is Disabled."
+msgstr "བརྡ་བརྒྱུད་འདི་གི་དོན་ལུ་ཉེན་སྐྱོབ་འདི་ལྕོགས་མིན་བཟོ་ཡོད།"
+
+#: ../gmedia_prot/main.c:120
+msgid "Protection for this medium is Write Protect without Password."
+msgstr "བརྡ་བརྒྱུད་འདི་གི་དོན་ལུ་ཉེན་སྐྱོབ་འདི་  ཆོག་ཡིག་མེད་པར་འབྲི་མི་བཏུབ།"
+
+#: ../gmedia_prot/main.c:156
+msgid "Cannot open device"
+msgstr "ཐབས་འཕྲུལ་འདི་ཁ་ཕྱེ་མི་ཚུགས་"
+
+#: ../gmedia_prot/main.c:159
+msgid "This action is not allowed on this medium type"
+msgstr "བརྡ་བརྒྱུད་དབྱེ་བ་འདི་གུ་  བྱ་བ་འདི་མི་ཆོག་"
+
+#: ../gmedia_prot/main.c:162
+msgid "fork error eject media"
+msgstr "ཁ་སྤེལ་ནིའི་འཛོལ་བ་  བརྡ་བརྒྱུད་འདི་ཕྱིར་བཏོན་"
+
+#: ../gmedia_prot/main.c:165
+msgid "execle error eject media"
+msgstr "ཨེགསི་སི་འཛོལ་བ་  བརྡ་བརྒྱུད་ཕྱིར་བཏོན་"
+
+#: ../gmedia_prot/main.c:168
+msgid "Wait error eject media"
+msgstr "བསྒུག་ནི་ལུ་འཛོལ་བ་  བརྡ་བརྒྱུད་ཕྱིར་བཏོན་"
+
+#: ../gmedia_prot/support.c:61
+#, c-format
+msgid "Widget not found: %s"
+msgstr "ཝི་གེཊི་ %s འདི་མ་ཐོབ:"
+
+#: ../gmedia_prot/support.c:119
+#: ../gmedia_prot/support.c:157
+#: ../gmedia_slice/support.c:119
+#: ../gmedia_slice/support.c:157
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "པར་ཁྲ་ %s འདི་མ་ཐོབ:"
+
+#: ../gmedia_prot/support.c:135
+#: ../gmedia_slice/support.c:135
+#, c-format
+msgid "Couldn't create pixmap from file: %s"
+msgstr "ཡིག་སྣོད་ %s ལས་པར་ཁྲ་འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས:"
+
+#: ../gmedia_slice/callbacks.c:739
+#, c-format
+msgid "Could not open file"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../gmedia_slice/callbacks.c:747
+msgid "Warning: No Slices detected. If you do not want to slice this medium, select Cancel in the Slice Editor Dialog"
+msgstr "ཉེན་བརྡ: སི་ལའིསི་སྐྱོན་འཛིན་མ་བྱུང་བས།  ཁྱོད་ཀྱིས་བརྡ་བརྒྱུད་འདི་སི་ལའིསི་འབད་ནི་མེན་པ་ཅིན་  སི་ལའིསི་ཞུན་དགཔ་ཌའི་ལོག་ནང་  ཆ་མེད་གཏང་  འདི་སེལ་འཐུ་འབད་"
+
+#: ../gmedia_slice/callbacks.c:761
+msgid "Warning: Overlaps detected. Please remove them before proceeding, or switch on Prevent Overlaps to remove them automatically."
+msgstr "ཉེན་བརྡ: སྐྱོན་འཛིན་བྱུང་ཡོདཔ་འདི་མཐའ་མནོན་འབདཝ་ཨིན།  བྱ་རིམ་མ་འབད་བའི་ཧེ་མ་རྩ་བསྐྲད་གཏང་ནི་དང་  ཡང་ན་  དེ་ཚུ་རང་བཞིན་གྱིས་རྩ་བསྐྲད་གཏང་ནི་ལུ་  མཐའ་མནོན་འབད་ནི་འདི་སྔོན་བཀག་འབད་གནང་།"
+
+#.
+#. * All the widget pointers made by glade have been moved to interface.h
+#.
+#: ../gmedia_slice/interface.c:46
+msgid "Slice Editor"
+msgstr "སི་ལའིསི་ཞུན་དགཔ་"
+
+#: ../gmedia_slice/interface.c:59
+msgid ""
+"Use this window to manage Solaris Slices (partitions) on removable media.\n"
+"Warning: This process is not reversible."
+msgstr ""
+"བཏོན་བཏུབ་པའི་བརྡ་བརྒྱུད་གུ་  སོ་ལ་རིསི་སི་ལའིསི་ (བར་བཅད་) འཛིན་སྐྱོང་འཐབ་ནི་ལུ་  སྒོ་སྒྲིག་འདི་ལག་ལེན་འཐབ།\n"
+"ཉེན་བརྡ: ལས་སྦྱོར་འདི་རིམ་ལོག་འབད་མི་བཏུབ།"
+
+#: ../gmedia_slice/interface.c:80
+msgid "Slices (Partitions)"
+msgstr "སི་ལའིསི་ (བར་བཅད་ཚུ་)"
+
+#: ../gmedia_slice/interface.c:190
+msgid "_Delete"
+msgstr "བཏོན་གཏང་། (_D)"
+
+#: ../gmedia_slice/interface.c:197
+msgid "Delete a slice"
+msgstr "སི་ལའིསི་ཅིག་བཏོད་གཏང་"
+
+#: ../gmedia_slice/interface.c:199
+msgid "_AutoSlice..."
+msgstr "རང་བཞིན་སི་ལའིསི... (_A)"
+
+#: ../gmedia_slice/interface.c:206
+msgid "AutoSlice media into partitions of equal size"
+msgstr "མཉམ་པའི་ཚད་ཀྱི་བར་བཅད་ནང་ལུ་རང་བཞིན་སི་ལའིསི་བརྡ་བརྒྱུད་"
+
+#: ../gmedia_slice/interface.c:208
+msgid "Slice Details"
+msgstr "སི་ལའིསི་རྒྱས་བཤད་ཚུ་"
+
+#: ../gmedia_slice/interface.c:233
+msgid "_Start:"
+msgstr "འགོ་བཙུགསཧ: (_S)"
+
+#: ../gmedia_slice/interface.c:243
+msgid "S_ize:"
+msgstr "ཚད: (_i)"
+
+#: ../gmedia_slice/interface.c:265
+msgid "Select byte count for slice"
+msgstr "སི་ལའིསི་གི་དོན་ལུ་ བཱའིཊི་གྱངས་རྐྱབས་ནི་འདི་སེལ་འཐུ་འབད་"
+
+#: ../gmedia_slice/interface.c:274
+msgid "Bytes"
+msgstr "བཱའིཊིསི་"
+
+#: ../gmedia_slice/interface.c:277
+msgid "KBytes"
+msgstr "ཀེ་བཱའིཊིསི་"
+
+#: ../gmedia_slice/interface.c:280
+msgid "MBytes"
+msgstr "ཨེམ་བཱའིཊིསི་"
+
+#: ../gmedia_slice/interface.c:283
+msgid "Cylinders"
+msgstr "སི་ལིན་ཌར་ཚུ་"
+
+#: ../gmedia_slice/interface.c:289
+msgid "_Prevent Overlaps"
+msgstr "མཐའ་མནོན་ཚུ་སྔོན་བཀག་འབད། (_P)"
+
+#: ../gmedia_slice/interface.c:323
+msgid "_File System:"
+msgstr "ཡིག་སྣོད་རིམ་ལུགས: (_F)"
+
+#: ../gmedia_slice/interface.c:334
+msgid "Select a tag for slice"
+msgstr "སི་ལའིསི་གི་དོན་ལུ་ ངོ་རྟགས་ཅིག་སེལ་འཐུ་འབད་"
+
+#: ../gmedia_slice/interface.c:343
+msgid "alternates"
+msgstr "གཅིག་ཤུལ་གཅིག་"
+
+#: ../gmedia_slice/interface.c:346
+msgid "boot"
+msgstr "བུཊི་"
+
+#: ../gmedia_slice/interface.c:349
+msgid "home"
+msgstr "ཁྱིམ་"
+
+#: ../gmedia_slice/interface.c:352
+msgid "root"
+msgstr "རྩ་བ་"
+
+#: ../gmedia_slice/interface.c:355
+msgid "stand"
+msgstr "ལོང་ནི་"
+
+#: ../gmedia_slice/interface.c:358
+msgid "swap"
+msgstr "བརྗེ་སོར་འབད་ནི་"
+
+#: ../gmedia_slice/interface.c:361
+msgid "unassigned"
+msgstr "འགན་སྤྲོད་མ་འབད་མི་"
+
+#: ../gmedia_slice/interface.c:364
+msgid "usr"
+msgstr "ཡུ་ཨེསི་ཨར་"
+
+#: ../gmedia_slice/interface.c:367
+msgid "var"
+msgstr "ཝི་ཨེ་ཨར་"
+
+#: ../gmedia_slice/interface.c:372
+msgid "_Tags:"
+msgstr "ངོ་རྟགས་ཚུ: (_T)"
+
+#: ../gmedia_slice/interface.c:385
+msgid "Select a file system to slice"
+msgstr "སི་ལའིསི་ལུ་ཡིག་སྣོད་རིམ་ལུགས་ཅིག་སེལ་འཐུ་འབད་"
+
+#: ../gmedia_slice/interface.c:397
+msgid "UFS"
+msgstr "ཡུ་ཨེཕ་ཨེསི་"
+
+#: ../gmedia_slice/interface.c:400
+msgid "UDFS"
+msgstr "ཡུ་ཌི་ཨེཕ་ཨེསི་"
+
+#: ../gmedia_slice/interface.c:403
+msgid "PCFS"
+msgstr "པི་སི་ཨེཕ་ཨེསི་"
+
+#: ../gmedia_slice/interface.c:416
+msgid "Flags:"
+msgstr "ཟུར་རྟགས་ཚུ:"
+
+#: ../gmedia_slice/interface.c:424
+msgid "_Read"
+msgstr "ལྷག། (_R)"
+
+#: ../gmedia_slice/interface.c:433
+msgid "_Write"
+msgstr "འབྲི། (_W)"
+
+#: ../gmedia_slice/interface.c:442
+msgid "_Mountable"
+msgstr "སྦྱར་བརྩེགས་འབད་བཏུབ། (_M)"
+
+#: ../gmedia_slice/interface.c:459
+msgid "_New"
+msgstr "གསརཔ། (_N)"
+
+#: ../gmedia_slice/interface.c:466
+msgid "Create a new slice"
+msgstr "སི་ལའིསི་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../gmedia_slice/interface.c:468
+msgid "C_hange"
+msgstr "བསྒྱུར་བཅོས་འབད། (_h)"
+
+#: ../gmedia_slice/interface.c:475
+msgid "Change the slice details"
+msgstr "སི་ལའིསི་རྒྱས་བཤད་ཚུ་བསྒྱུར་བཅོས་འབད་"
+
+#. GtkWidget *dialog2;
+#. GtkWidget *dialog_vbox2;
+#. GtkWidget *autoslicedialogmsg;
+#. GtkWidget *hbox6;
+#. GtkWidget *autoslicenumlabel;
+#. GtkObject *autoslicespinbox_adj;
+#. GtkWidget *autoslicespinbox;
+#. GtkWidget *dialog_action_area2;
+#. GtkWidget *autosliceOKbtn;
+#. GtkWidget *autoslicecancelbtn;
+#. GtkWidget *autoslicehelpbtn;
+#: ../gmedia_slice/interface.c:635
+msgid "Autoslice"
+msgstr "རང་བཞིན་སི་ལའིསི་"
+
+#: ../gmedia_slice/interface.c:644
+msgid "Slice media into partitions of equal size"
+msgstr "མཉམ་པའི་ཚད་ཀྱི་བར་བཅད་ནང་ལུ་ སི་ལའིསི་བརྡ་བརྒྱུད་"
+
+#: ../gmedia_slice/interface.c:660
+msgid "_Number of slices:"
+msgstr "སི་ལའིསི་གི་ཨང་གྲངས: (_N)"
+
+#: ../gmedia_slice/main.c:130
+#, c-format
+msgid "Removable Media: %d Bytes available in %d Cylinders"
+msgstr "རྩ་བསྐྲད་གཏང་བཏུབ་པའི་བརྡ་བརྒྱུད:  %d བཱའིཊི་དེ་ཚུ་  %d སི་ལིན་ཌར་ཚུ་ནང་ཐོབ་ཚུགས་"
+
+#: ../gmedia_slice/main.c:502
+msgid "Improper device path"
+msgstr "ཚུལ་ལྡན་མིན་པའི་ཐབས་འཕྲུལ་འགྲུལ་ལམ་"
+
+#: ../gmedia_slice/main.c:508
+msgid "Problem acessing device"
+msgstr "ཐབས་འཕྲུལ་འདི་འཛུལ་སྤྱོད་འབདཝ་ད་གི་དཀའ་ངལ་"
+
+#: ../gmedia_slice/main.c:521
+msgid "Cannot slice this device"
+msgstr "ཐབས་འཕྲུལ་འདི་སི་ལའིསི་འབད་མི་ཚུགས་"
+
+#: ../rmm-utils.desktop.in.h:1
+msgid "Open Floppy"
+msgstr "ཕོལོ་པི་ཁ་ཕྱེ་"
+

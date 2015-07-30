@@ -1,0 +1,2743 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-jabber\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-22 05:30+0100\n"
+"PO-Revision-Date: 2007-01-09 11:53+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gnome-jabber.desktop.in.h:1
+#: ../src/gnome-jabber.glade.h:132
+msgid "Gnome Jabber"
+msgstr "ཇི་ནོམ་ཇབ་བར་"
+
+#: ../gnome-jabber.desktop.in.h:2
+msgid "Instant Messenger"
+msgstr "འཕྲལ་མྱུར་འཕྲིན་དོན་"
+
+#: ../gnome-jabber.schemas.in.h:1
+msgid "Agents are the services which provide MSN, ICQ, etc..."
+msgstr "ལས་ཚབ་ཚུ་ ཨེམ་ཨེསི་ཨེན་ ཨའི་སི་ཀིའུ་ལ་སོགས་པ་བྱིན་མི་ཞབས་ཏོག་ཚུ་ཨིན་"
+
+#: ../gnome-jabber.schemas.in.h:2
+msgid "Automatically Away status message."
+msgstr "རང་བཞིན་ ཕྱི་ཁའི་གནས་ཚད་འཕྲིན་དོན།"
+
+#: ../gnome-jabber.schemas.in.h:3
+msgid "Automatically Extended Away status message."
+msgstr "རང་བཞིན་རྒྱ་བསྐྱེད་ཅན་གྱི་ཕྱིའི་གནས་ཚད་འཕྲིན་དོན།"
+
+#: ../gnome-jabber.schemas.in.h:4
+msgid "Automatically connect when the application starts."
+msgstr "གློག་རིམ་འགོ་བཙུགསཔ་ད་ རང་བཞིན་གྱིས་མཐུདཔ་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:5
+msgid "Automatically re-connect when disconnected from the server."
+msgstr "སར་བར་ལས་མཐུད་བཏོག་ཡོད་པའི་སྐབས་ རང་བཞིན་གྱིས་སླར་མཐུད་འབདཝ་ཨིན། "
+
+#: ../gnome-jabber.schemas.in.h:6
+msgid "Automatically set presence to away after 'n' minutes."
+msgstr "'n'དཀར་ཆའི་ཤུལ་མ་ རང་བཞིན་གྱིས་ངོ་འཛོམས་འདི་ཕྱི་ཁ་སྦེ་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:7
+msgid "Automatically set presence to extended away after 'n' minutes."
+msgstr "'n'དཀར་ཆའི་ཤུལ་མ་ ངོ་འཛོམས་འདི་རྒྱ་བསྐྱེད་ཅན་གྱི་ཕྱི་ཁ་སྦེ་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:8
+msgid "Do not show additional presence information on the roster."
+msgstr "ལས་རིམ་རེའུ་མིག་གུ་ ཁ་སྐོང་ཅན་གྱི་ངོ་འཛོམས་བརྡ་དོན་མ་སྟོན།"
+
+#: ../gnome-jabber.schemas.in.h:9
+msgid "Do not show agents on the roster."
+msgstr "ལས་རིམ་རེའུ་མིག་གུ་ ལས་ཚབ་མ་སྟོན།"
+
+#: ../gnome-jabber.schemas.in.h:10
+msgid "Do not show offline contacts on the roster."
+msgstr "ལས་རིམ་རེའུ་མིག་གུ་ ཨཱོཕ་ལ་ཡིན་གྱི་འབྲེལ་ས་མ་སྟོན།"
+
+#: ../gnome-jabber.schemas.in.h:11
+msgid "Do not show the offline contacts group on the roster."
+msgstr "ལས་རིམ་རེའུ་མིག་གུ་ ཨཱོཕ་ལ་ཡིན་འབྲེལ་སའི་སྡེ་ཚན་མ་སྟོན།"
+
+#: ../gnome-jabber.schemas.in.h:12
+msgid "For example, if your account is joebloggs@jabber.org, the username would be joebloggs."
+msgstr "དཔེར་ན་ ཁྱོད་ཀྱི་རྩིས་ཐོ་འདི་ joebloggs@jabber.org ཨིན་པ་ཅིན་ ལག་ལེན་པའི་མིང་འདི་ ཇོ་ཡེ་བུ་ལོགསི་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:13
+msgid "Hide the timestamp in the chat window."
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག་ནང་ དུས་བཀོད་སྦ།"
+
+#: ../gnome-jabber.schemas.in.h:14
+msgid "If not set, you can auto connect on start up and re-connect on disconnections. If set, you will be prompted for a password when connecting."
+msgstr "གཞི་སྒྲིག་མ་འབད་བ་ཡོད་པ་ཅིན་ འགོ་བཙུག་གུ་རང་བཞིན་གྱིས་མཐུད་བཏུབ་དང་མཐུད་བཏོག་གུ་ སླར་མཐུད་འབད་བཏུབ་ཨིན། གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་ མཐུད་པའི་སྐབས་ལུ་ ཆོག་ཡིག་བཙུག་དགོ་པའི་ནུས་པ་སྤེལ་འོང་།"
+
+#: ../gnome-jabber.schemas.in.h:15
+msgid "If this is unchecked, then each users' presence status is shown under their name."
+msgstr "ཞིབ་དཔྱད་འབད་དེ་མེད་པ་ཅིན་ ལག་ལེན་པ་རེ་རེའི་ངོ་འཛོམས་གནས་ཚད་འདི་ ཁོང་རའི་མིང་གི་འོག་ལུ་ སྟོནམ་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:16
+msgid "If you use SHA1 (Secure Hashing Algorithm), then the password is not obvious to people if they read the data stream."
+msgstr "ཨེས་ཨེཆ་ཨའི་༡ (མཐའ་བཙན་ཨང་རྟགས་ཨཱལ་གོ་རི་དམ་)ལག་ལེན་འཐབ་པ་ཅིན་ དོརུང་གནད་སྡུད་རྒྱུན་རིམ་དེ་ལྷག་པ་ཅིན་ ཆོག་ཡིག་འདི་མི་གིས་མི་མཐོང་།"
+
+#: ../gnome-jabber.schemas.in.h:17
+msgid "Importance for message delivery."
+msgstr "འཕྲིན་དོན་འགྲེམ་སྤེལ་གྱི་དོན་ལུ་ དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:18
+msgid "N/A Yet."
+msgstr "ད་ཚུན་ ཨེན་/ཨེ་"
+
+#: ../gnome-jabber.schemas.in.h:19
+msgid "Password to use for authentication."
+msgstr "བདེན་བཤད་ལགལེན་འཐབ་ནི་གི་དོན་ལུ་ཆོག་ཡིག"
+
+#: ../gnome-jabber.schemas.in.h:20
+msgid "Port to connect to."
+msgstr "མཐུད་ནིའི་འདྲེན་ལམ།"
+
+#: ../gnome-jabber.schemas.in.h:21
+msgid "Priorities are only relevant when you use resources. If you have two active resources, and someone sends a message to you, the resource with the lowest priority number will be delivered the message."
+msgstr "འབྱུང་ཁུངས་ཚུ་ལག་ལེན་འཐབ་པ་ཅིན་ གཙོ་རིམ་ཚུ་གཞི་བསྟུན་རྐྱངམ་ཅིག་ཨིན། ཁྱོད་ལུ་ཤུགས་ལྡན་འབྱུང་ཁུངས་གཉིས་ཡོད་པའི་ཁར་ གཞན་ཅིག་གིས་འཕྲིན་དོན་ཅིག་གཏང་པ་ཅིན་ གཙོ་རིམ་ཨང་དམའ་ཤོས་ཀྱི་འབྱུང་ཁུངས་ཀྱིས་ འཕྲིན་དོན་འགྲེམ་སྤེལ་འབད་འོང་།"
+
+#: ../gnome-jabber.schemas.in.h:22
+msgid "Prompt for the password."
+msgstr "ཆོག་ཡིག་གི་དོན་ལུ་ ནུས་པ་སྤེལ།"
+
+#: ../gnome-jabber.schemas.in.h:23
+msgid "Raises the chat window when messages arrive."
+msgstr "འཕྲིན་དོན་ལྷོད་པའི་ཚེ་ ཁ་སླབ་སྒོ་སྒྲིག་འདི་ཆེར་བསྐྱེད་འབདཝ་ཨིན། "
+
+#: ../gnome-jabber.schemas.in.h:24
+msgid "Resource to identify this connection."
+msgstr "མཐུད་ལམ་ངོས་འཛིན་འབད་ནིའི་འབྱུང་ཁུངས།"
+
+#: ../gnome-jabber.schemas.in.h:25
+msgid "Resources are really handy if you log on to the same account with DIFFERENT resources (note: they can not be the same or the originating account is forced to log out and is disconnected). You can use these resources to identify different locations (for example, home and work)."
+msgstr "འབྱུང་ཁུངས་ཚུ་ འབྱུང་ཁུངས་སོ་སོར་དང་བཅས་རྩིས་ཐོ་ཅོག་ཐདཔ་གུ་ནང་བསྐྱོད་འབ་བ་ཅིན་ སྟབས་བདེ་ཏོག་ཏོག་ཨིན་(དྲན་དགོཔ་: དེ་ཚུ་སོར་སོ་ཨིན་ ཡངན་ འགོ་ཐོག་འབྱུང་སའི་རྩིས་ཐོ་འདི་ སྦང་ཅན་སྦེ་ཕྱིར་བསྐྱོད་དང་མཐུད་བཏོགཔ་ཨིན)། འབྱུང་་ཁུངས་ཚུ་ གནས་ཁོངས་མ་འདྲཝ་ཚུ་ངོས་འཛིན་འབད་ནི་གི་དོན་ལས་ དེ་ལག་ལེན་འཐབ་བཏུབ་ཨིན་(དཔེར་ན་ ཁྱིམ་དང་ལཱ་)།"
+
+#: ../gnome-jabber.schemas.in.h:26
+msgid "Reversing the text direction means the newest message appears at the top."
+msgstr "་"
+
+#: ../gnome-jabber.schemas.in.h:27
+msgid "Server to connect to."
+msgstr "མཐུད་ནིའི་སར་བར།"
+
+#: ../gnome-jabber.schemas.in.h:28
+msgid "The default port for Jabber is 5222, and 5223 for SSL connections."
+msgstr "ཇབ་བར་གྱི་དོན་ལུ་ སྔོན་སྒྲིག་འདྲེན་ལམ་འདི་ ༥༢༢༣ དང་ ཨེསི་ཨེསི་ཨེལ་མཐུད་ལམ་གྱི་དོན་ལུ་ ༥༢༢༣ ཨིན། "
+
+#: ../gnome-jabber.schemas.in.h:29
+msgid "The path where history files can be found."
+msgstr "ལོ་རྒྱུས་ཡིག་སྣོད་ཐོབ་ཚུགས་པའི་འགྲུལ་ལམ།"
+
+#: ../gnome-jabber.schemas.in.h:30
+msgid "The path where the log can be found."
+msgstr "དྲན་དེབ་ཐོབ་ཚུགས་པའི་འགྲུལ་ལམ།"
+
+#: ../gnome-jabber.schemas.in.h:31
+msgid "This is even MORE secure than SHA1. All transmissions are encrypted."
+msgstr "འ་ནི་འདི་ ཨེསི་ཨེཆ་ཨེ་༡ ལས་ལྷག་སྟེ་མཐའ་བཙན་དང་ལྡནམ་ཨིན། སྤེལ་བཀྲམ་ཚུ་ཆ་མཉམ་ གསང་བཟོ་འབདཡོདཔ།"
+
+#: ../gnome-jabber.schemas.in.h:32
+msgid "This is usually the host name of the server your Jabber account is associated with. For example, if your account is joebloggs@jabber.org, the server would be jabber.org."
+msgstr "འ་ནི་འདི་ ཁྱོད་རའི་ཇབ་བར་རྩིས་ཐོ་དང་འབྲེལ་བ་ཡོད་པའི་སར་བར་གྱི་ཧོསཊི་མིང་ཨིན། དཔེར་ན་ ཁྱོད་ཀྱི་རྩིས་ཐོ་འདི་ joebloggs@jabber.org ཨིན་པ་ཅིན་ སར་བར་འདི་ jabber.org ཨིན་དགོ"
+
+#: ../gnome-jabber.schemas.in.h:33
+msgid "Use automatic away notifications."
+msgstr "རང་བཞིན་ཕྱི་ཁའི་བརྡ་བསྐུལ་ ལག་ལེན་འཐབ།"
+
+#: ../gnome-jabber.schemas.in.h:34
+msgid "Use chat or messages to be the double click action."
+msgstr "ཨེབ་གཏང་གཉིས་ལྡན་གྱི་བྱ་བའི་དོན་ལུ་ ཁ་སླབ་ ཡང་ན་ འཕྲིན་དོན་ལག་ལེན་འཐབ།"
+
+#: ../gnome-jabber.schemas.in.h:35
+msgid "Use smiley icons where text matches. E.g. :)"
+msgstr "ཚིག་ཡིག་མཐུན་སྒྲིག་འབདཝ་ཨིན་པའི་སི་མའི་ལི་ ལག་ལེན་འཐབ། དཔེར་ན་ :)"
+
+#: ../gnome-jabber.schemas.in.h:36
+msgid "Username to authenticate with."
+msgstr "བདེན་པ་བཤད་ནིའི་དོན་ལུ་ ལག་ལེན་པའི་མིང་།"
+
+#: ../gnome-jabber.schemas.in.h:37
+msgid "Uses SSL (encryption)."
+msgstr "ཨེསི་ཨེསི་ཨེལ་ ལག་ལེན་འཐབ་ཨིན་(གསང་བཟོ་)།"
+
+#: ../gnome-jabber.schemas.in.h:38
+msgid "Uses readable text instead of SHA1."
+msgstr "ཨེསི་ཨེཅ་ཨེ་༡ གི་ཚབ་ལུ་ ལྷག་བཏུབ་པའི་ཚིག་ཡིག་ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../gnome-jabber.schemas.in.h:39
+msgid "When a contact goes offline, they are moved into an OFFLINE group. This option allows you to hide that group."
+msgstr "འབྲེལ་ས་འདི་ཨཱོཕ་ལ་ཡིན་འབད་བའི་སྐབས་ དེ་ཚུ་ཨཱོཕ་ལ་ཡིན་གྱི་སྡེ་ཚན་ལུ་སྤོཝ་ཨིན། གདམ་ཁ་དེ་གིས་ སྡེ་ཚན་འདི་སྦ་བཅུགཔ་ཨིན། "
+
+#: ../gnome-jabber.schemas.in.h:40
+msgid "When receiving the first message from a contact, this (if enabled) creates a new window and displays it. If disabled the user sees a flashing event on the roster."
+msgstr "འབྲེལ་ས་ཅིག་ལས་ འཕྲིན་དོན་དང་པ་ཐོབ་པའི་སྐབས་ལུ་ འདི་(ལྕོགས་ཅན་བཟོ་ཡོད་པ་ཅིན་)གིས་ སྒོ་སྒྲིག་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་དེ་བཀྲམ་སྟོན་འབདཝ་ཨིན། ལྕོགས་མིན་བཟོ་ཡོད་པ་ཅིན་ ལས་རིམ་རེའི་མིག་གུ་ ལག་ལེན་པ་གིས་ རིབ་སྟོན་བྱུང་ལས་ཅིག་མཐོངམ་ཨིན།"
+
+#: ../src/gj_config.c:484
+#: ../src/gj_config.c:522
+#: ../src/gj_config.c:541
+#: ../src/gj_config.c:767
+#: ../src/gj_config.c:835
+#: ../src/gj_config.c:886
+#: ../src/gj_gtk_event_viewer.c:461
+msgid "show"
+msgstr "སྟོན་"
+
+#: ../src/gj_config.c:488
+#: ../src/gj_config.c:526
+#: ../src/gj_config.c:545
+#: ../src/gj_config.c:771
+#: ../src/gj_config.c:839
+#: ../src/gj_config.c:890
+#: ../src/gj_gtk_event_viewer.c:464
+msgid "status"
+msgstr "གནས་ཚད་"
+
+#: ../src/gj_config.c:492
+#: ../src/gj_config.c:530
+#: ../src/gj_config.c:549
+#: ../src/gj_config.c:775
+#: ../src/gj_config.c:843
+#: ../src/gj_config.c:894
+msgid "priority"
+msgstr "གཙོ་རིམ་"
+
+#: ../src/gj_config.c:579
+msgid "Not at my computer"
+msgstr "ངེའི་གློག་རིག་ནང་མེན་"
+
+#: ../src/gj_config.c:580
+msgid "Away for a while"
+msgstr "ཕྱི་ཁ་ཡུད་ཐེངས་ཅིག་"
+
+#: ../src/gj_connection.c:917
+msgid "Connection succeeded"
+msgstr "མཐུད་ལམ་མཐར་འཁྱོལ་བྱུང་ཡོདཔ་"
+
+#: ../src/gj_connection.c:918
+msgid "Error, address lookup failed"
+msgstr "འཛོལ་བ་ ཁ་བྱང་བལྟ་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#: ../src/gj_connection.c:919
+msgid "Error, could not connect"
+msgstr "འཛོལ་བ་ མཐུད་མ་ཚུགས་"
+
+#: ../src/gj_connection.c:922
+#: ../src/gj_connection.c:953
+#: ../src/gj_connection.c:967
+#: ../src/gj_translate.c:63
+#: ../src/gj_translate.c:77
+#: ../src/gj_translate.c:91
+#: ../src/gj_translate.c:104
+#: ../src/gj_translate.c:123
+#: ../src/gj_translate.c:139
+#: ../src/gj_translate.c:176
+#: ../src/gj_translate.c:221
+#: ../src/gj_translate.c:292
+msgid "unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../src/gj_connection.c:928
+msgid "An error occurred."
+msgstr "འཛོལ་བ་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_connection.c:929
+msgid "Success."
+msgstr "མཐར་འཁྱོལ།"
+
+#: ../src/gj_connection.c:930
+msgid "End of file."
+msgstr "ཡིག་སྣོད་ཀྱི་མཇུག"
+
+#: ../src/gj_connection.c:931
+msgid "Resource temporarily unavailable."
+msgstr "འབྱུང་ཁུངས་འདི་གནས་སྐབས་ཅིག་ལང་མི་ཚུགས།"
+
+#. Derived from errno
+#: ../src/gj_connection.c:941
+msgid "File too large."
+msgstr "ཡིག་སྣོད་སྦོམ་དྲགས་པས།"
+
+#: ../src/gj_connection.c:942
+msgid "Invalid argument."
+msgstr "ནུས་མེད་ཀྱི་སྒྲུབ་རྟགས།"
+
+#: ../src/gj_connection.c:943
+msgid "IO error."
+msgstr "ཨའི་ཨོ་ འཛོལ་བ།"
+
+#: ../src/gj_connection.c:944
+msgid "File is a directory."
+msgstr "ཡིག་སྣོད་འདི་སྣོད་ཐོ་ཨིན།"
+
+#: ../src/gj_connection.c:945
+msgid "No space left on device."
+msgstr "ཐབས་འཕྲུལ་གུ་བར་སྟོང་མ་ལུས་པས།"
+
+#: ../src/gj_connection.c:946
+msgid "No such device or address."
+msgstr "དེ་བཟུམ་ཐབས་འཕྲུལ་ ཡང་ན་ ཁ་བྱང་མིན་འ་དུག"
+
+#: ../src/gj_connection.c:947
+msgid "Value too large for defined datatype."
+msgstr "ངེས་འཛིན་འབད་ཡོད་པའི་གནད་སྡུད་དབྱེ་བའི་དོན་ལུ་ བེ་ལུ་སྦོམ་དྲགས་པས།"
+
+#: ../src/gj_connection.c:948
+msgid "Broken pipe."
+msgstr "ཆད་ཡོད་པའི་རྒྱུད་དུང་།"
+
+#. Other
+#: ../src/gj_connection.c:950
+msgid "Some other error."
+msgstr "འཛོལ་བ་གཞན།"
+
+#: ../src/gj_connection.c:959
+msgid "There is data to read."
+msgstr "ལྷག་ནིའི་གནས་སྡུད་ཡོད།"
+
+#: ../src/gj_connection.c:960
+msgid "Data can be written (without blocking)."
+msgstr "གནད་སྡུད་འདི་འབྲི་བཏུབ་(བཀག་ཆ་མེད་)།"
+
+#: ../src/gj_connection.c:961
+msgid "There is urgent data to read."
+msgstr "དེ་ཁར་ འཕྲལ་མཁོ་ལྷག་ནིའི་གནད་སྡུད་འདུག"
+
+#: ../src/gj_connection.c:962
+msgid "Error condition."
+msgstr "འཛོེལ་བའི་གནས་སྟངས།"
+
+#: ../src/gj_connection.c:963
+msgid "Hung up (the connection has been broken, usually for pipes and sockets)."
+msgstr "ཐོགས་ཡོདཔ་(མཐུད་ལམ་འདི་རྒྱུན་ཆད་ཡོད་མི་འདི་ སྤྱིར་བཏང་ལུ་རྒྱུད་དུང་དང་སོ་ཀེཊི་གཉིས་ལུ་འབྱུངམ་ཨིན་)།"
+
+#: ../src/gj_connection.c:964
+msgid "Invalid request. The file descriptor is not open."
+msgstr "ནུས་མེད་ཀྱི་་ཞུ་བ། ཡིག་སྣོད་འགྲེལ་བཤད་པ་འདི་ཁ་མ་ཕྱེ་བས།"
+
+#: ../src/gj_gtk_about.c:410
+msgid "Version"
+msgstr "འཐོན་རིམ་"
+
+#: ../src/gj_gtk_about.c:419
+msgid "Build"
+msgstr "བཟོ་རྩིག་"
+
+#: ../src/gj_gtk_about.c:581
+msgid "Credits"
+msgstr "ངོ་བསྟོད་"
+
+#: ../src/gj_gtk_about.c:614
+msgid "Written by"
+msgstr "བྲིས་ཡོདཔ་"
+
+#: ../src/gj_gtk_about.c:648
+msgid "Translated by"
+msgstr "སྐད་བསྒྱུར་འབད་ཡོདཔ་"
+
+#: ../src/gj_gtk_add_contact.c:387
+#: ../src/gj_gtk_event_viewer.c:255
+#: ../src/gnome-jabber.glade.h:168
+msgid "Name"
+msgstr "མིང་"
+
+#: ../src/gj_gtk_add_contact.c:498
+#: ../src/gj_gtk_edit_groups.c:378
+msgid "Select"
+msgstr "སེལ་འཐུ་"
+
+#: ../src/gj_gtk_add_contact.c:511
+#: ../src/gj_gtk_edit_groups.c:391
+msgid "Group"
+msgstr "སྡེ་ཚན་"
+
+#: ../src/gj_gtk_add_contact.c:777
+msgid ""
+"Waiting for details associated with this contact.\n"
+"Please wait..."
+msgstr ""
+"འབྲེལ་ས་འདི་དང་འབྲེལ་བའི་རྒྱས་བཤད་ཚུ་བསྒུག་དོ།\n"
+"བསྒུག་གནང་་་་་་"
+
+#: ../src/gj_gtk_add_contact.c:1126
+msgid "No personal information available."
+msgstr "རང་་དོན་གྱི་བརྡ་དོན་ལངམ་ཐོབ་མ་ཚུགས།"
+
+#: ../src/gj_gtk_add_contact.c:1129
+msgid "Use these details to confirm that you have the right person."
+msgstr "ཁྱོད་ལུ་གང་ཟག་ལེགས་ཤོམ་ཅིག་ཡོད་ཟེར་ངེས་དཔྱད་འབད་ནི་གི་དོན་ལས་ རྒྱས་བཤད་འདི་ལག་ལེན་འཐབ།"
+
+#. insert column
+#: ../src/gj_gtk_browse_services.c:366
+msgid "Services"
+msgstr "ཞབས་ཏོག་ཚུ་"
+
+#: ../src/gj_gtk_browse_services.c:571
+#: ../src/gj_gtk_browse_services.c:572
+#: ../src/gj_gtk_browse_services.c:573
+msgid "yes"
+msgstr "ཨིན་"
+
+#: ../src/gj_gtk_browse_services.c:571
+#: ../src/gj_gtk_browse_services.c:572
+#: ../src/gj_gtk_browse_services.c:573
+msgid "no"
+msgstr "མེན་"
+
+#: ../src/gj_gtk_browse_services.c:593
+msgid "Failed to Browse Services."
+msgstr "ཞབསཏོག་བརྡ་འཚོལ་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#. warn about error - usually a timeout
+#: ../src/gj_gtk_browse_services.c:629
+#: ../src/gj_gtk_roster.c:3352
+msgid "Failed to Unregister Service."
+msgstr "ཞབསཏོག་ཐོ་བཀོད་བཤོལ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_gtk_browse_services.c:827
+#: ../src/gj_gtk_group_chat_join.c:307
+#: ../src/gj_gtk_new_account.c:275
+#: ../src/gj_gtk_register_service.c:212
+#: ../src/gj_gtk_register_service.c:524
+#: ../src/gj_gtk_support.c:1730
+#: ../src/gnome-jabber.glade.h:204
+msgid "Progress"
+msgstr "ཡར་འཕེལ་"
+
+#: ../src/gj_gtk_browse_services.c:828
+msgid "Requesting Services"
+msgstr "ཞབས་ཏོག་ཞུ་བ་འབད་དོ་"
+
+#: ../src/gj_gtk_browse_services.c:829
+#, c-format
+msgid "Server is \"%s\""
+msgstr "སར་བར་འདི་ \"%s\"ཨིན་"
+
+#: ../src/gj_gtk_chat.c:669
+msgid "Chatting with"
+msgstr "གཅིག་ཁར་ཁ་སླབ་དོ་"
+
+#. set details
+#: ../src/gj_gtk_chat.c:1279
+#: ../src/gnome-jabber.glade.h:278
+msgid "User Offline"
+msgstr "ལག་ལེན་པ་ཨཱོཕ་ལ་ཡིན་"
+
+#: ../src/gj_gtk_directory_search.c:872
+msgid "Correct the error and try again."
+msgstr "འཛོལ་བ་འདི་ནོར་བཅོས་འབད་དེ་ལོག་འབད་རྩོལ་བསྐྱེད"
+
+#: ../src/gj_gtk_edit_groups.c:225
+#, c-format
+msgid ""
+"Edit the groups using the list below for:\n"
+"\"%s\""
+msgstr ""
+"འོག་གི་ཐོ་ཡིག་ལག་ལེན་གྱི་ཐོག་ལས་ སྡེ་ཚན་ཞུན་དག་འབད་:\n"
+"\"%s\""
+
+#: ../src/gj_gtk_event_viewer.c:212
+msgid "Time"
+msgstr "ཆུ་ཚོད་"
+
+#: ../src/gj_gtk_event_viewer.c:270
+msgid "ID"
+msgstr "ཨའི་ཌི་"
+
+#: ../src/gj_gtk_event_viewer.c:286
+msgid "Type"
+msgstr "དབྱེ་བ་"
+
+#: ../src/gj_gtk_event_viewer.c:301
+#: ../src/gnome-jabber.glade.h:104
+msgid "Details"
+msgstr "རྒྱས་བཤད་ཚུ་"
+
+#: ../src/gj_gtk_event_viewer.c:459
+#: ../src/gj_gtk_event_viewer.c:539
+msgid "type"
+msgstr "དབྱེ་བ་"
+
+#: ../src/gj_gtk_event_viewer.c:469
+#: ../src/gj_gtk_event_viewer.c:552
+msgid "error code"
+msgstr "འཛོལ་ཨང་"
+
+#: ../src/gj_gtk_event_viewer.c:474
+#: ../src/gj_gtk_event_viewer.c:557
+msgid "error reason"
+msgstr "འཛོལ་བའི་རྒྱུ་མཚན་"
+
+#: ../src/gj_gtk_event_viewer.c:542
+msgid "thread"
+msgstr "ཐེ་རེཌི་"
+
+#: ../src/gj_gtk_event_viewer.c:547
+msgid "xevent"
+msgstr "ཨེགསི་བྱུང་ལས་"
+
+#: ../src/gj_gtk_event_viewer.c:562
+msgid "body"
+msgstr "མ་གཟུགས་"
+
+#: ../src/gj_gtk_group_chat.c:263
+msgid "Chatting in"
+msgstr "ཁ་སླབ་དོ་"
+
+#: ../src/gj_gtk_group_chat_join.c:217
+msgid "Joining Group Chat Failed."
+msgstr "སྡེ་ཚན་སྦེ་ཁ་སླབ་ནི་འདི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_gtk_group_chat_join.c:262
+msgid "You are already chatting in this room."
+msgstr "ཁྱོད་ཧེ་མ་ལས་ ཁང་མིག་འདི་ནང་ཁ་སླབ་དེས།"
+
+#: ../src/gj_gtk_group_chat_join.c:263
+#, c-format
+msgid "If you want to chat under a different nickname, close the window currently open for this room (%s@%s) and try again."
+msgstr "ཁྱོད་ སྐྱོན་མིང་སོར་སོའི་ཐོག་ལས་ཁ་སླབ་དགོ་མནོ་བ་ཅིན་  (%s@%s)དོན་ལུ་ ད་ལྟོ་ཁ་ཕྱེ་མི་ཁང་མིག་འདི་ཁ་བསྡམ་ཞིནམ་ལས་ ལོག་འབད་རྩོལ་བསྐྱེད།"
+
+#: ../src/gj_gtk_group_chat_join.c:308
+msgid "Joining Group Chat"
+msgstr "སྡེ་ཚན་ཁ་སླབ་ཀྱི་གྲངས་སུ་འཛུལ་དོ་"
+
+#: ../src/gj_gtk_group_chat_join.c:309
+#, c-format
+msgid "Waiting for room \"%s\" at \"%s\" to respond..."
+msgstr "ལན་བཀོད་འབད་ནི་ལུ་ ཁང་མིག་ \"%s\" འདི་ \"%s\"ལུ་ བསྒུག་དོ་་་་་"
+
+#. set title
+#: ../src/gj_gtk_group_message.c:208
+msgid "Sending Message to Group"
+msgstr "སྡེ་ཚན་ལུ་འཕྲིན་དོན་གཏང་དོ་"
+
+#. set title
+#: ../src/gj_gtk_headline.c:281
+msgid "Headlines for"
+msgstr "གཙོ་དོན་ཚུ་"
+
+#: ../src/gj_gtk_message.c:236
+#: ../src/gnome-jabber.glade.h:231
+msgid "Send Message"
+msgstr "འཕྲིན་དོན་གཏང་"
+
+#: ../src/gj_gtk_message.c:237
+#: ../src/gj_translate.c:71
+msgid "To"
+msgstr "ལུ་"
+
+#: ../src/gj_gtk_message.c:253
+msgid "Message Received"
+msgstr "འཕྲིན་དོན་ཐོབ་ཡོདཔ་"
+
+#: ../src/gj_gtk_message.c:254
+#: ../src/gj_translate.c:72
+msgid "From"
+msgstr "ལས་"
+
+#: ../src/gj_gtk_message.c:449
+#: ../src/gj_gtk_message.c:452
+msgid "Next"
+msgstr "ཤུལ་མམ་"
+
+#: ../src/gj_gtk_presence_presets.c:357
+msgid "Show"
+msgstr "སྟོན་"
+
+#: ../src/gj_gtk_presence_presets.c:368
+msgid "Priority"
+msgstr "གཙོ་རིམ་"
+
+#: ../src/gj_gtk_presence_presets.c:380
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: ../src/gj_gtk_presence_presets.c:713
+msgid "About the place..."
+msgstr "ས་གནས་ཀྱི་སྐོར་ལས་་་་"
+
+#: ../src/gj_gtk_presence_presets.c:714
+msgid "Eating"
+msgstr "ཟ་དོ་"
+
+#: ../src/gj_gtk_presence_presets.c:715
+msgid "Out for a bit"
+msgstr "དུམ་གྲ་ཅིག་ཕྱི་ཁ་འགྱོ་ཡོདཔ་"
+
+#: ../src/gj_gtk_presence_presets.c:716
+msgid "In the shower"
+msgstr "འབྲུ་ཆར་ནང་"
+
+#: ../src/gj_gtk_presence_presets.c:717
+msgid "Sleeping... zZzZ"
+msgstr "ཉལ་དོ་་་་་zZzZ"
+
+#: ../src/gj_gtk_presence_presets.c:718
+msgid "Working!"
+msgstr "ལཱ་འབད་དོ་!"
+
+#: ../src/gj_gtk_password_change.c:178
+msgid "Error Changing Password."
+msgstr "ཆོག་ཡིག་སོར་བའི་སྐབས་ལུ་འཛོལ་བ།"
+
+#: ../src/gj_gtk_password_change.c:187
+msgid "Password Change."
+msgstr "ཆོག་ཡིག་བསྒྱུར་བཅོས།"
+
+#: ../src/gj_gtk_new_account.c:186
+#: ../src/gj_gtk_new_account.c:194
+#: ../src/gj_gtk_new_account.c:204
+#: ../src/gj_gtk_new_account.c:212
+msgid "Details Incomplete."
+msgstr "རྒྱས་བཤད་ཚུ་མཇུག་མ་བསྡུ་བས།"
+
+#: ../src/gj_gtk_new_account.c:188
+msgid "Server was not specified."
+msgstr "སར་བར་འདི་གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../src/gj_gtk_new_account.c:196
+msgid "Username was not specified."
+msgstr "ལག་ལེན་པའི་མིང་འདི་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../src/gj_gtk_new_account.c:206
+msgid "Password was not specified."
+msgstr "ཆོག་ཡིག་འདི་གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../src/gj_gtk_new_account.c:214
+msgid "Passwords do NOT match."
+msgstr "ཆོག་ཡིག་འདི་མི་མཐུན་པས།"
+
+#: ../src/gj_gtk_new_account.c:276
+msgid "Registering New Account"
+msgstr "རྩིས་ཐོ་གསརཔ་ ཐོ་བཀོད་འབད་དོ་"
+
+#: ../src/gj_gtk_new_account.c:277
+#, c-format
+msgid "Username is \"%s\""
+msgstr "ལག་ལེན་པའི་མིང་འདི་  \"%s\"ཨིན། "
+
+#: ../src/gj_gtk_new_account.c:355
+#: ../src/gj_gtk_new_account.c:359
+msgid "Failed to Register New Account."
+msgstr "རྩིས་ཐོ་གསརཔ་ཐོ་བཀོད་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_gtk_new_account.c:361
+msgid "Unknown Error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+#. ok
+#. service not entered
+#: ../src/gj_gtk_new_account.c:382
+#: ../src/gj_gtk_register_service.c:374
+msgid "Registration Success."
+msgstr "ཐོ་བཀོད་མཐར་འཁྱོལ་ཡོདཔ།"
+
+#: ../src/gj_gtk_register_service.c:213
+msgid "Requesting Registration Details for Service"
+msgstr "ཞབས་ཏོག་གི་དོན་ལུ་ ཐོ་བཀོད་རྒྱས་བཤད་ཞུ་བ་འབད་དོ་"
+
+#: ../src/gj_gtk_register_service.c:214
+#: ../src/gj_gtk_register_service.c:526
+#, c-format
+msgid "Service is \"%s\""
+msgstr "ཞབས་ཏོག་འདི་ \"%s\"ཨིན།"
+
+#. warn about error - usually a timeout
+#: ../src/gj_gtk_register_service.c:289
+#: ../src/gj_gtk_register_service.c:376
+#: ../src/gj_gtk_register_service.c:407
+#: ../src/gj_gtk_register_service.c:445
+msgid "Failed to Register Service."
+msgstr "ཞབས་ཏོག་ཐོ་བཀོད་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_gtk_register_service.c:525
+msgid "Attempting to Register Service"
+msgstr "ཞབས་ཏོག་ཐོ་བཀོད་འབད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་དོ་"
+
+#: ../src/gj_gtk_roster.c:103
+msgid "Offline"
+msgstr "ཨཱོཕ་ལ་ཡིན་"
+
+#: ../src/gj_gtk_roster.c:104
+msgid "Not On Roster"
+msgstr "ལས་རིམ་རེའུ་མིག་གུ་མེན་"
+
+#: ../src/gj_gtk_roster.c:105
+msgid "Resources"
+msgstr "འབྱུང་ཁུངས་ཚུ་"
+
+#: ../src/gj_gtk_roster.c:106
+msgid "Subscribing"
+msgstr "མཁོ་མངགས་འབད་དོ་"
+
+#: ../src/gj_gtk_roster.c:107
+msgid "Agents"
+msgstr "ལས་ཚབ་"
+
+#: ../src/gj_gtk_roster.c:905
+#: ../src/gnome-jabber.glade.h:297
+msgid "_Connect"
+msgstr "མཐུད་(_C)"
+
+#: ../src/gj_gtk_roster.c:936
+msgid "Cancel _Connect"
+msgstr "མཐུད་ལམ་ཆ་མེད་གཏང་(_C)"
+
+#: ../src/gj_gtk_roster.c:990
+msgid "Connect"
+msgstr "མཐུད་"
+
+#: ../src/gj_gtk_roster.c:2768
+msgid "No Headlines."
+msgstr "གཙོ་དོན་མིན་འདུག"
+
+#: ../src/gj_gtk_roster.c:2769
+msgid "There are no headlines for this user."
+msgstr "ལག་ལེན་པ་འདི་གི་་དོན་ལུ་ གཙོ་དོན་མེད་"
+
+#: ../src/gj_gtk_roster.c:2981
+msgid "You are about to remove a contact."
+msgstr "ཁྱོད་ཀྱིས་ འབྲེལ་ས་ཅིག་རྩ་བསྐྲད་གཏང་ནི་ར་འབད་དེས་"
+
+#: ../src/gj_gtk_roster.c:2982
+#, c-format
+msgid "Proceed to remove contact \"%s\"?"
+msgstr "འབྲེལ་ས་ \"%s\"རྩ་བསྐྲད་གཏང་ནི་ལུ་ འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: ../src/gj_gtk_roster.c:2988
+#, c-format
+msgid ""
+"This agent is responsible for 1 contact!\n"
+"Proceed to remove agent \"%s\"?"
+msgstr ""
+"ལས་ཚབ་འདི་ འབྲེལ་ས་ ༡ གི་དོན་ལུ་འགན་ཁུར་འབགཔ་ཨིན་!\n"
+"ལས་ཚབ་ \"%s\"འདི་ རྩ་བསྐྲད་གཏང་ནི་གི་དོན་ལས་ འཕྲོ་མཐུད་དེ་འབད་ནི་ཨིན་ན་?"
+
+#: ../src/gj_gtk_roster.c:2991
+#, c-format
+msgid ""
+"This agent is responsible for %d contacts!\n"
+"Proceed to remove agent \"%s\"?"
+msgstr ""
+"%d འབྲེལ་ས་འདི་ ལས་ཚབ་ཀྱི་འགན་ཁུར་ཨིན་!\n"
+"ལས་ཚབ་ \"%s\"རྩ་བསྐྲད་གཏང་ནི་ལུ་ འཕྲོ་མཐུད་འབད་ནི་ཨིན་ན་?"
+
+#: ../src/gj_gtk_roster.c:2999
+msgid "You are about to remove an agent."
+msgstr "ཁྱོད་ཀྱིས་ ལས་ཚབ་འདི་རྩ་བསྐྲད་གཏང་ནི་འབད་དེས།"
+
+#: ../src/gj_gtk_roster.c:3002
+msgid "Remove all contacts this agent is responsible for?"
+msgstr "ལས་ཚབ་ལུ་འགན་ཁུར་ཕོག་པའི་འབྲེལ་ས་ཆ་མཉམ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/gj_gtk_roster.c:3192
+msgid "You are about to remove a group."
+msgstr "ཁྱོད་ཀྱིས་ སྡེ་ཚན་ཅིག་རྩ་བསྐྲད་གཏང་ནི་འབད་དེས།"
+
+#: ../src/gj_gtk_roster.c:3193
+#, c-format
+msgid "Proceed to remove group \"%s\"?"
+msgstr "སྡེ་ཚན་ \"%s\"རྩ་བསྐྲད་གཏང་ནི་ལུ་ འཕྲོ་མཐུད་དེ་འབད་ནི་ཨིན་ན་?"
+
+#: ../src/gj_gtk_roster.c:3200
+msgid "Remove the contact in this group from roster?"
+msgstr "ལས་རིམ་རེའུ་མིག་ནང་ལས་ འབྲེལ་ས་འདི་སྡེ་ཚན་ནང་ལུ་རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/gj_gtk_roster.c:3202
+#, c-format
+msgid "Remove all %d contacts in this group from roster?"
+msgstr "%d འབྲེལ་ས་ཆ་མཉམ་ར་ ལས་རིམ་རེའུ་མིག་ནང་ལས་ སྡེ་ཚན་འདི་ནང་ལུ་རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན་?"
+
+#: ../src/gj_gtk_roster.c:3276
+msgid "Unregister this account?"
+msgstr "རྩིས་ཐོ་འདི་ཐོ་བཀོད་འབད་བཤོལ་ནི་ཨིན་ན་?"
+
+#: ../src/gj_gtk_roster.c:3278
+msgid "Note: The server may not be updated immediately.  There can be some time before your account is unavailable."
+msgstr "དྲན་དགོཔ་: སར་བར་འདི་མགྱོགས་པར་དུས་མཐུན་མི་བཟོ་འོང་། ཁྱོདརི་རྩིས་ཐོ་འདི་མ་ལང་བར་དུ་ དུས་ཚོད་ཨ་ཙི་འགོར་འོང་།"
+
+#: ../src/gj_gtk_roster.c:3281
+msgid "If you continue you will be disconnected from the server immediately."
+msgstr "འཕྲོ་མཐུད་དེ་འབད་བཅིན་ ཁྱོད་མགྱོགས་པ་ར་ སར་བར་ལས་མཐུད་བཏོག་འོང་།"
+
+#. warn about error - usually a timeout
+#: ../src/gj_gtk_roster.c:3314
+msgid "Failed to get requirements to unregister Service."
+msgstr "ཞབསཏོག་ཐོ་བཀོད་འབད་བཤོལ་ནི་ལུ་ དགོས་མཁོ་ཐོབ་ནི་འདི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_gtk_roster.c:3359
+msgid "Account unregistered successfully"
+msgstr "རྩིས་ཐོ་འདི་མཐའ་འཁྱོལ་ཅན་སྦེ་ ཐོ་བཀོད་འབད་བཤོལ་ཡོདཔ་"
+
+#: ../src/gj_gtk_roster.c:3387
+msgid "Subscription Canceled"
+msgstr "མཁོ་མངགས་ཆ་མེད་བཏང་ཡོདཔ་"
+
+#: ../src/gj_gtk_roster.c:3388
+#, c-format
+msgid "You have been denied status information from \"%s\"."
+msgstr "ཁྱོད་ \"%s\"ནང་ལས་ གནས་ཚད་བརྡ་དོན་དང་ལེན་འབད་མ་བཏུབ་པས།"
+
+#. To translators: this label comes after 'You have been denied status information from "%s".'
+#: ../src/gj_gtk_roster.c:3392
+msgid "Do you want to remove them from your roster?"
+msgstr "དེ་ཚུ་ཁྱོད་རའི་ལས་རིམ་རེའུ་མིག་ནང་ལས་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན་?"
+
+#: ../src/gj_gtk_roster.c:4058
+msgid "Read..."
+msgstr "ལྷག་་་་"
+
+#: ../src/gj_gtk_roster.c:4069
+msgid "New _Message"
+msgstr "འཕྲིན་དོན་གསརཔ་(_M)"
+
+#: ../src/gj_gtk_roster.c:4075
+msgid "New _Chat"
+msgstr "ཁ་སླབ་གསརཔ་(_C)"
+
+#: ../src/gj_gtk_roster.c:4082
+msgid "File Transfer..."
+msgstr "ཡིག་སྣོད་གནས་སོར་་་"
+
+#: ../src/gj_gtk_roster.c:4087
+msgid "Vie_w Headlines"
+msgstr "གཙོ་དོན་སྟོན་(_w)"
+
+#: ../src/gj_gtk_roster.c:4097
+#: ../src/gnome-jabber.glade.h:304
+msgid "_History"
+msgstr "རྒྱས་བཤད་(_H)"
+
+#: ../src/gj_gtk_roster.c:4111
+msgid "Edit _Groups..."
+msgstr "སྡེ་ཚན་ཞུན་དག་འབད་་་་(_G)"
+
+#: ../src/gj_gtk_roster.c:4115
+#: ../src/gj_gtk_roster.c:4195
+msgid "Rename..."
+msgstr "བསྐྱར་མིང་བཏགས་་་་"
+
+#. To translators: menu with _Request, _Cancel, Subscription
+#: ../src/gj_gtk_roster.c:4126
+#: ../src/gj_gtk_roster.c:4220
+msgid "_Request"
+msgstr "ཞུ་བ་(_R)"
+
+#: ../src/gj_gtk_roster.c:4132
+#: ../src/gj_gtk_roster.c:4227
+msgid "_Authorise"
+msgstr "དབང་ཚད་བྱིན་(_A)"
+
+#: ../src/gj_gtk_roster.c:4136
+#: ../src/gj_gtk_roster.c:4231
+#: ../src/gnome-jabber.glade.h:295
+msgid "_Cancel"
+msgstr "ཆ་མེད་གཏང་(_C)"
+
+#: ../src/gj_gtk_roster.c:4140
+#: ../src/gj_gtk_roster.c:4235
+msgid "_Subscription"
+msgstr "མཁོ་མངགས་(_S)"
+
+#: ../src/gj_gtk_roster.c:4202
+msgid "Log _In"
+msgstr "ནང་བསྐྱོད་(_I)"
+
+#: ../src/gj_gtk_roster.c:4208
+msgid "Log _Out"
+msgstr "ཕྱིར་བསྐྱོད་(_O)"
+
+#: ../src/gj_gtk_roster.c:4273
+msgid "Send _Message to All"
+msgstr "ཆ་མཉམ་ལུ་འཕྲིན་དོན་གཏང་(_M)"
+
+#: ../src/gj_gtk_roster.c:4282
+msgid "Rename"
+msgstr "བསྐྱར་མིང་བཏགས་"
+
+#: ../src/gj_gtk_roster.c:4309
+msgid "Show/Hide Window"
+msgstr "སྒོ་སྒྲིག་སྟོན་/སྦ་"
+
+#: ../src/gj_gtk_roster.c:4366
+msgid "Failed to Remove Contact."
+msgstr "འབྲེལ་ས་རྩ་བསྐྲད་གཏང་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#: ../src/gj_gtk_roster.c:4437
+msgid "Cancel Connect"
+msgstr "མཐུད་ལམ་ཆ་མེད་གཏང་"
+
+#: ../src/gj_gtk_roster.c:4448
+msgid "Waiting for Password"
+msgstr "ཆོག་ཡིག་བསྒུག་དོ་"
+
+#: ../src/gj_gtk_roster.c:4524
+#: ../src/gj_gtk_roster.c:4559
+msgid "Connection Error"
+msgstr "མཐུད་ཀྱི་འཛོལ་བ་"
+
+#: ../src/gj_gtk_roster.c:4525
+msgid "Could not create new stream."
+msgstr "རྒྱུན་རིམ་གསརཔ་ གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../src/gj_gtk_roster.c:4550
+msgid "Connecting..."
+msgstr "མཐུད་དོ་་་་"
+
+#: ../src/gj_gtk_roster.c:4560
+msgid "Could not open stream."
+msgstr "རྒྱུན་རིམ་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/gj_gtk_roster.c:4606
+msgid "Requesting Authentication Method"
+msgstr "བདེན་བཤད་ཐབས་ལམ་ ཞུ་བ་་འབད་དོ་"
+
+#: ../src/gj_gtk_roster.c:4682
+#: ../src/gj_gtk_roster.c:4781
+msgid "Connection Error."
+msgstr "མཐུད་ལམ་འཛོལ་བ།"
+
+#: ../src/gj_gtk_roster.c:4717
+msgid "Requesting Authentication..."
+msgstr "བདེན་བཤད་ཞུ་བ་འབད་དོ་་་་"
+
+#: ../src/gj_gtk_roster.c:4783
+msgid "Failed to authenticate."
+msgstr "བདེན་བཤད་སླབ་ནི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+#: ../src/gj_gtk_roster.c:5262
+#: ../src/gnome-jabber.glade.h:59
+msgid "About"
+msgstr "སྐོར་ལས་"
+
+#: ../src/gj_gtk_subscription_request.c:304
+msgid "Allow"
+msgstr "འབད་བཅུག་"
+
+#: ../src/gj_gtk_subscription_request.c:335
+msgid "Nickname"
+msgstr "སྐྱོན་མིང་"
+
+#: ../src/gj_gtk_subscription_request.c:352
+msgid "Reason"
+msgstr "རྒྱུ་མཚན་"
+
+#: ../src/gj_gtk_support.c:1117
+#: ../src/gj_gtk_support.c:1161
+msgid "Disconnected"
+msgstr "མཐུད་བཏོག་ཡོདཔ་"
+
+#: ../src/gj_gtk_support.c:1127
+#: ../src/gj_gtk_support.c:1265
+#: ../src/gj_translate.c:130
+#: ../src/gj_translate.c:146
+msgid "Away"
+msgstr "ཕྱི་ཁ་"
+
+#: ../src/gj_gtk_support.c:1130
+#: ../src/gj_gtk_support.c:1258
+#: ../src/gj_translate.c:131
+#: ../src/gj_translate.c:148
+#: ../src/gj_translate.c:168
+#: ../src/gnome-jabber.glade.h:79
+msgid "Chat"
+msgstr "ཁ་སླབ་"
+
+#: ../src/gj_gtk_support.c:1133
+#: ../src/gj_gtk_support.c:1279
+#: ../src/gj_translate.c:132
+#: ../src/gj_translate.c:150
+msgid "Busy"
+msgstr "ཁོམ་མེད་"
+
+#: ../src/gj_gtk_support.c:1136
+#: ../src/gj_gtk_support.c:1180
+#: ../src/gj_gtk_support.c:1251
+#: ../src/gj_translate.c:111
+#: ../src/gj_translate.c:133
+#: ../src/gj_translate.c:152
+#: ../src/gnome-jabber.glade.h:72
+msgid "Available"
+msgstr "འཐོབ་ཚུགསཔ་"
+
+#: ../src/gj_gtk_support.c:1139
+#: ../src/gj_gtk_support.c:1183
+#: ../src/gj_gtk_support.c:1272
+#: ../src/gj_translate.c:134
+#: ../src/gj_translate.c:154
+msgid "Not Available"
+msgstr "འཐོབ་མ་ཚུགསཔ་"
+
+#: ../src/gj_gtk_support.c:1142
+#: ../src/gj_gtk_support.c:1186
+#: ../src/gj_gtk_support.c:1289
+#: ../src/gj_translate.c:135
+#: ../src/gj_translate.c:156
+msgid "Invisible"
+msgstr "མཐོང་མ་ཚུགསཔ་"
+
+#: ../src/gj_gtk_support.c:1171
+msgid "Away (be right back)"
+msgstr "ཕྱི་ཁ་(ལོག་ཤོག་)"
+
+#: ../src/gj_gtk_support.c:1174
+msgid "Chat (open to talk...)"
+msgstr "ཁ་སླབ་(ཁ་སླབ་ནི་ལུ་ཕྱེ་་་་)"
+
+#: ../src/gj_gtk_support.c:1177
+msgid "Busy!"
+msgstr "ཁོམ་མེད་!"
+
+#: ../src/gj_gtk_support.c:1312
+msgid "Big Grin"
+msgstr "གིརིན་སྦོམ་"
+
+#: ../src/gj_gtk_support.c:1323
+msgid "Confused"
+msgstr "མགུ་འཐོམ་ཡོདཔ་"
+
+#: ../src/gj_gtk_support.c:1334
+msgid "Cool"
+msgstr "བསིལ་བ་"
+
+#: ../src/gj_gtk_support.c:1345
+msgid "Eek"
+msgstr "ཨཱིཀ་"
+
+#: ../src/gj_gtk_support.c:1356
+msgid "Frown"
+msgstr "དཔྱལཝ་ཨོ་ཀྲོ་བསུམ་ནི་"
+
+#: ../src/gj_gtk_support.c:1367
+msgid "Mad"
+msgstr "འཆོལ་ལོང་"
+
+#: ../src/gj_gtk_support.c:1378
+msgid "Red Face"
+msgstr "གདོང་དམརཔོ་"
+
+#: ../src/gj_gtk_support.c:1389
+msgid "Roll Eyes"
+msgstr "ཤོ་རིལ་མིག་ཏོ་"
+
+#: ../src/gj_gtk_support.c:1400
+msgid "Smile"
+msgstr "བགའ་འཛུམ་སྟོན་"
+
+#: ../src/gj_gtk_support.c:1411
+msgid "Tongue"
+msgstr "ལྕེ་"
+
+#: ../src/gj_gtk_support.c:1422
+msgid "Wink"
+msgstr "མིག་འཁྲིབ་རྐྱབ་ནི་"
+
+#: ../src/gj_gtk_support.c:1854
+#: ../src/gj_translate.c:118
+#: ../src/gj_translate.c:171
+msgid "Error"
+msgstr "འཛོལ་བ་"
+
+#: ../src/gj_gtk_support.c:1855
+#, c-format
+msgid ""
+"Error Code: %d\n"
+"Error Reason: %s"
+msgstr ""
+"འཛོལ་ཨང་: %d\n"
+"འཛོལ་བའི་རྒྱུ་མཚན་: %s"
+
+#: ../src/gj_gtk_support.c:1858
+msgid "None Given"
+msgstr "མ་བྱིན་པས་"
+
+#: ../src/gj_gtk_support.c:1884
+msgid "Completed Successfully."
+msgstr "མཐར་འཁྱོལ་ཅན་སྦེ་མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../src/gj_gtk_user_information.c:328
+msgid "Yes"
+msgstr "ཨིན་"
+
+#: ../src/gj_gtk_user_information.c:328
+msgid "No"
+msgstr "མེན་"
+
+#: ../src/gj_gtk_user_information.c:627
+#, c-format
+msgid "%d %s, %d %s, %d %s, %d %s ago"
+msgstr "%d %s, %d %s, %d %s, %d %s གི་ཧེ་མ་"
+
+#: ../src/gj_gtk_user_information.c:628
+msgid "day"
+msgstr "ཉིནམ་"
+
+#: ../src/gj_gtk_user_information.c:628
+msgid "days"
+msgstr "ཉིནམ་ཚུ་"
+
+#: ../src/gj_gtk_user_information.c:629
+msgid "hour"
+msgstr "ཆུ་ཚོད་"
+
+#: ../src/gj_gtk_user_information.c:629
+msgid "hours"
+msgstr "ཆུ་ཚོད་ཚུ་"
+
+#: ../src/gj_gtk_user_information.c:630
+msgid "minute"
+msgstr "དཀར་མ་"
+
+#: ../src/gj_gtk_user_information.c:630
+#: ../src/gnome-jabber.glade.h:331
+msgid "minutes"
+msgstr "དཀར་མ་ཚུ་"
+
+#: ../src/gj_gtk_user_information.c:631
+msgid "second"
+msgstr "དཀར་ཆ་"
+
+#: ../src/gj_gtk_user_information.c:631
+msgid "seconds"
+msgstr "དཀར་ཆ་ཚུ་"
+
+#: ../src/gj_gtk_user_information.c:636
+msgid "unknown action"
+msgstr "མ་ཤེས་པའི་བྱ་བ་"
+
+#: ../src/gj_gtk_log.c:315
+msgid "error"
+msgstr "འཛོལ་བ་"
+
+#: ../src/gj_gtk_log.c:318
+msgid "critical"
+msgstr "ཚབས་ཆེན་"
+
+#: ../src/gj_gtk_log.c:321
+msgid "warning"
+msgstr "ཉེན་བརྡ་"
+
+#: ../src/gj_gtk_log.c:324
+msgid "message"
+msgstr "འཕྲིན་དོན་"
+
+#: ../src/gj_gtk_log.c:327
+msgid "debug"
+msgstr "རྐྱེན་སེལ་"
+
+#: ../src/gj_gtk_log.c:331
+msgid "other"
+msgstr "གཞན་"
+
+#: ../src/gj_main.c:213
+msgid "Logs more, uses local glade file, etc."
+msgstr "དྲན་དེབ་ལེ་ཤ་བཀོདཔ་ཨིན་ ཉེ་གནས་གི་ལེཊི་ཡིག་སྣོད་ལག་ལེན་འཐབ་ནི་ལ་སོགས་པ་"
+
+#: ../src/gj_main.c:221
+msgid "Logs to screen (stdout)."
+msgstr "གསལ་གཞི་ལུ་དྲན་དེབ་བཀོདཔ་ཨིན་(stdout)།"
+
+#: ../src/gj_stream.c:827
+msgid "Stream Error."
+msgstr "རྒྱུན་རིམ་འཛོལ་བ།"
+
+#: ../src/gj_translate.c:56
+#: ../src/gj_translate.c:69
+#: ../src/gj_translate.c:83
+#: ../src/gj_translate.c:97
+#: ../src/gj_translate.c:110
+#: ../src/gj_translate.c:129
+#: ../src/gj_translate.c:144
+#: ../src/gj_translate.c:166
+#: ../src/gj_translate.c:209
+#: ../src/gj_translate.c:227
+msgid "NULL"
+msgstr "སྟོང་ཆ་"
+
+#: ../src/gj_translate.c:57
+#: ../src/gj_translate.c:70
+#: ../src/gj_translate.c:119
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: ../src/gj_translate.c:58
+msgid "Contact"
+msgstr "འབྲེལ་ས་"
+
+#: ../src/gj_translate.c:59
+msgid "Agent"
+msgstr "ལས་ཚབ་"
+
+#: ../src/gj_translate.c:73
+msgid "Both"
+msgstr "གཉིས་ཀུ་"
+
+#: ../src/gj_translate.c:84
+msgid "Neither users have presence."
+msgstr "ལག་ལེན་པ་ཚུ་ ངོ་འཛོམས་ཐོག་ལུ་ཡོད་མེད།"
+
+#: ../src/gj_translate.c:85
+msgid "You can see the users presence."
+msgstr "ཁྱོད་ཀྱིས་ ལག་ལེན་པའི་ངོ་འཛོམས་མཐོང་ཚུགས།"
+
+#: ../src/gj_translate.c:86
+msgid "The user can see your presence."
+msgstr "ཁྱོད་རའི་ངོ་འཛོམས་མཐོང་ཚུགས།"
+
+#: ../src/gj_translate.c:87
+msgid "Presence is available to and from the user."
+msgstr "ངོ་འཛོམས་འདི་ལག་ལེན་པ་ཚུ་ནང་ལས་ལངམ་སྦེ་འཐོབ་ཚུགས།"
+
+#: ../src/gj_translate.c:88
+msgid "Subscription has not been set."
+msgstr "མཁོ་མངགས་འདི་གཞི་སྒྲིག་མ་འབད་བས།"
+
+#: ../src/gj_translate.c:98
+#: ../src/gnome-jabber.glade.h:199
+msgid "Presence"
+msgstr "ངོ་འཛོམས་"
+
+#: ../src/gj_translate.c:99
+#: ../src/gnome-jabber.glade.h:160
+msgid "Message"
+msgstr "འཕྲིན་དོན་"
+
+#: ../src/gj_translate.c:100
+msgid "File Transfer"
+msgstr "ཡིག་སྣོད་གནས་སོར་"
+
+#: ../src/gj_translate.c:112
+msgid "Unavailable"
+msgstr "འཐོབ་མ་ཚུགསཔ་"
+
+#: ../src/gj_translate.c:113
+msgid "Probe"
+msgstr "བདེན་ཁུངས་"
+
+#: ../src/gj_translate.c:114
+msgid "Subscribe"
+msgstr "མཁོ་མངགས་"
+
+#: ../src/gj_translate.c:115
+msgid "Unsubscribe"
+msgstr "མཁོ་མངགས་བཤོལ་"
+
+#: ../src/gj_translate.c:116
+msgid "Subscribed"
+msgstr "མཁོ་མངགས་འབད་ཡོདཔ་"
+
+#: ../src/gj_translate.c:117
+msgid "Unsubscribed"
+msgstr "མཁོ་མངགས་འབད་བཤོལ་ཡོདཔ་"
+
+#: ../src/gj_translate.c:167
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་"
+
+#: ../src/gj_translate.c:169
+#: ../src/gnome-jabber.glade.h:133
+msgid "Group Chat"
+msgstr "སྡེ་ཚན་སྦེ་ཁ་སླབ་ནི་"
+
+#: ../src/gj_translate.c:170
+msgid "Headline"
+msgstr "གཙོ་དོན་"
+
+#: ../src/gj_translate.c:172
+msgid "X Event"
+msgstr "ཨེགསི་ བྱུང་ལས་"
+
+#: ../src/gj_translate.c:210
+msgid "application"
+msgstr "གློག་རིམ་"
+
+#: ../src/gj_translate.c:211
+msgid "conference"
+msgstr "གྲོས་ཚོགས་"
+
+#: ../src/gj_translate.c:212
+msgid "headline"
+msgstr "གཙོ་དོན་"
+
+#: ../src/gj_translate.c:213
+msgid "keyword"
+msgstr "གཙོ་ཚིག་"
+
+#: ../src/gj_translate.c:214
+msgid "render"
+msgstr "ལྷག་སྟོན་འབད་ནི་"
+
+#: ../src/gj_translate.c:215
+msgid "service"
+msgstr "ཞབས་ཏོག་"
+
+#: ../src/gj_translate.c:216
+msgid "user"
+msgstr "ལག་ལེན་པ་"
+
+#: ../src/gj_translate.c:217
+msgid "validate"
+msgstr "དུས་མཐུན་"
+
+#. application
+#: ../src/gj_translate.c:230
+msgid "Automated conversations"
+msgstr "རང་བཞིན་ཅན་གྱི་གྲོས་གླེང་"
+
+#: ../src/gj_translate.c:231
+msgid "Calendaring and scheduling service"
+msgstr "ཞབས་ཏོག་གི་ཟླ་་ཐོ་དང་འཆར་རིམ་བཟོ་དོ་"
+
+#: ../src/gj_translate.c:232
+msgid "Collaborative editor"
+msgstr "མཉམ་འབྲེལ་ཞུན་དགཔ་"
+
+#: ../src/gj_translate.c:233
+msgid "Available files"
+msgstr "འཐོབ་ཚུགས་པའི་ཡིག་སྣོད་ཚུ་"
+
+#: ../src/gj_translate.c:234
+msgid "Multi-player game"
+msgstr "སྣ་མང་རྩེད་འཕྲུལ་"
+
+#: ../src/gj_translate.c:235
+msgid "Whiteboard tool"
+msgstr "པང་དེབ་དཀརཔོ་གི་ལག་ཆས་"
+
+#. conference
+#: ../src/gj_translate.c:238
+msgid "IRC rooms (note: this enables Jabber users to connect to Internet Relay Chat rooms)"
+msgstr "ཨའི་ཨར་སི་ཁང་མིག་(དྲན་དགོཔ་: དེ་གིས་ ཇབ་བར་ལག་ལེན་པ་ཚུ་ ཁང་མིག་ལུ་བརྒྱུད་སྤྲོད་འབད་དེ་ཨིན་ཊར་ནེཊི་ལུ་མཐུད་ནི་ལུ་ལྕོགས་ཅན་བཟོཝ་ཨིན་)"
+
+#: ../src/gj_translate.c:239
+msgid "Mailing-list-style conferences"
+msgstr "ཡིག་འཕྲིན་ཐོ་ཡིག་བཟོ་རྣམ་ གྲོས་བསྟུན་"
+
+#: ../src/gj_translate.c:240
+msgid "Private, dynamically-generated conference rooms"
+msgstr "སྒེར་གཙང་ ནུས་ཅན་གྱིས་བཟོ་བཏོན་འབད་ཡོད་པའི་གྲོས་བསྟུན་ཁང་མིག་"
+
+#: ../src/gj_translate.c:241
+msgid "Public, permanent conference rooms"
+msgstr "མི་མང་གི་ བརྟན་འཇག་གྲོས་བསྟུན་ཁང་མིག་"
+
+#: ../src/gj_translate.c:242
+msgid "Topic-based conferences"
+msgstr "གནད་དོན་ལུ་བརྟེན་པའི་གྲོས་བསྟུན་"
+
+#: ../src/gj_translate.c:243
+msgid "Website-hosted conferences"
+msgstr "ཝེབ་ས་ཁོངས་ཧོསཊེཊི་གྲོས་བསྟུན་"
+
+#. headline
+#: ../src/gj_translate.c:246
+msgid "Log messages (usually presented in a scrolling GUI)"
+msgstr "དྲན་དེབ་འཕྲིན་དོན་(སྤྱིར་བཏང་ལུ་ བཤུད་བསྒྲིལ་ཇི་ཡུ་ཨའི་ཅིག་ནང་གསལ་སྟོན་འབདཝ་ཨིན་)།"
+
+#: ../src/gj_translate.c:247
+msgid "Alerts and warnings (usually presented as popup messages)"
+msgstr "དྲན་བརྡ་དང་ཉེན་བརྡ་(པོཔ་ཨཔ་འཕྲིན་དོན་སྦེ་གསལ་སྟོན་འབདཝ་ཨིན་)།"
+
+#: ../src/gj_translate.c:248
+msgid "Rich Site Summary syndication"
+msgstr "ས་ཁོངས་ཕྱུག་པོའི་བཅུད་དོན་མཉམ་རུབ་ཚོགས་པ་"
+
+#: ../src/gj_translate.c:249
+msgid "Stock market information by symbol (ticker)"
+msgstr "བརྡ་རྟགས་(བདེན་རྟགས་བཀལ་མི་)ཀྱིས་ ཅ་མཛོད་ཚོང་འབྲེལ་བརྡ་དོན་སྟོནམ་ཨིན་"
+
+#. keyword
+#: ../src/gj_translate.c:252
+msgid "Dictionary lookup service"
+msgstr "ཚིག་མཛོད་བལྟ་བའི་ཞབས་ཏོག་"
+
+#: ../src/gj_translate.c:253
+msgid "DNS resolver"
+msgstr "ཌི་ཨེན་ཨེསི་ མོས་མཐུན་པ་"
+
+#: ../src/gj_translate.c:254
+msgid "Software search"
+msgstr "མཉེན་ཆས་འཚོལ་ཞིབ་"
+
+#: ../src/gj_translate.c:255
+msgid "Thesaurus lookup service"
+msgstr "མངོན་བརྗོད་བལྟ་བའི་ཞབས་ཏོག་"
+
+#: ../src/gj_translate.c:256
+msgid "Web search"
+msgstr "ཝེབ་འཚོལ་ཞིབ་"
+
+#: ../src/gj_translate.c:257
+msgid "Whois query service"
+msgstr "ཝུ་ཨིསི་འདྲི་དཔྱད་ཞབས་ཏོག་"
+
+#. render
+#: ../src/gj_translate.c:260
+msgid "English to French"
+msgstr "ཨིང་ལིཤ་ལས་ཕིརེནཆ་ལུ་"
+
+#: ../src/gj_translate.c:261
+msgid "Other language to language (using standard language codes)"
+msgstr "སྐད་ཡིག་གཞན་ལས་གཞན་ལུ་(ཚད་ལྡན་སྐད་ཡིག་ཨང་ ལག་ལེན་འཐབ་ཐོག་ལས་)"
+
+#: ../src/gj_translate.c:262
+msgid "Text to Speech"
+msgstr "ཚིག་ཡིག་ལས་གསུང་བཤད་"
+
+#. service
+#: ../src/gj_translate.c:265
+msgid "AIM transport"
+msgstr "ཨེ་ཨའི་ཨེམ་ སྐྱེལ་འདྲེན་"
+
+#: ../src/gj_translate.c:266
+msgid "ICQ transport"
+msgstr "ཨའི་སི་ཀིའུ་ སྐྱེལ་འདྲེན་"
+
+#: ../src/gj_translate.c:267
+msgid "IRC gateway (note: this enables IRC users to connect to Jabber)"
+msgstr "ཨའི་ཨར་སི་ འཛུལ་སྒོ་(དྲན་དགོཔ་: དེ་གིས་ ཇབ་བར་ལུ་མཐུད་ནི་གི་དོན་ལུ་ ཨའི་ཨར་སི་ལག་ལེན་པ་ཚུ་ལྕོགས་ཅན་བཟོཝ་ཨིན་)"
+
+#: ../src/gj_translate.c:268
+msgid "A Jabber server which conforms to the specification for the 'jabber:client' namespace"
+msgstr "'jabber:client' མིང་གི་ས་སྟོང་གི་དོན་ལུ་ གསལ་བཀོད་དང་འཁྲིལཝ་ཨིན་པའི་ཇབ་བར་སར་བར་ཅིག་"
+
+#: ../src/gj_translate.c:269
+msgid "Jabber User Directory"
+msgstr "ཇབ་བར་ལག་ལེན་པའི་སྣོད་ཐོ་"
+
+#: ../src/gj_translate.c:270
+msgid "MSN transport"
+msgstr "ཨེམ་ཨེསི་ཨེན་ སྐྱེལ་འདྲེན་"
+
+#: ../src/gj_translate.c:271
+msgid "Pager gateway"
+msgstr "བརྡ་འཕུལ་འཛུལ་སྒོ་"
+
+#: ../src/gj_translate.c:272
+msgid "A list of servers. It is assumed that this node has service/* children"
+msgstr "སར་བར་ཐོ་ཡིག། ནོཌི་འདི་ལུ་ service/* ཆ་ལག་ཚུ་ཡོདཔ་སྦེ་མནོཝ་ཨིན་པས།"
+
+#: ../src/gj_translate.c:273
+msgid "SMS gateway"
+msgstr "ཨེསི་ཨེམ་ཨེསི་ འཛུལ་སྒོ་"
+
+#: ../src/gj_translate.c:274
+msgid "SMTP gateway"
+msgstr "ཨེསི་ཨེམ་ཊི་པི་ འཛུལ་སྒོ་"
+
+#: ../src/gj_translate.c:275
+msgid "Yahoo! transport"
+msgstr "ཡ་ཧུ་! སྐྱེལ་འདྲེན་"
+
+#. user
+#: ../src/gj_translate.c:278
+msgid "A standard or fully-featured Jabber client compliant with the 'jabber:client' namespace"
+msgstr "'jabber:client' མིང་གི་བར་སྟོང་དང་གཅིག་ཁར་ ཚད་ལྡན་ཅིག་ ཡང་ན་ ཁྱད་རྣམ་ཆ་ཚང་ལྡན་པའི་ཞབསཏོག་སྤྱོད་མིའི་འཁྲིལ་བ་"
+
+#: ../src/gj_translate.c:279
+msgid "A forward alias"
+msgstr "གདོང་བསྐྱོད་མིང་གཞན་"
+
+#: ../src/gj_translate.c:280
+msgid "An alternate inbox"
+msgstr "ཐབས་གཞན་གྱི་ནང་སྒྲོམ་"
+
+#: ../src/gj_translate.c:281
+msgid "A portable device implementing some of the 'jabber:client' namespace"
+msgstr "'jabber:client' མིང་གི་བར་སྟོང་གི་འབག་བཏུབ་པའི་ཐབས་འཕྲུལ་ལ་ལོ་ཅིག་ བསྟར་བཅོས་འབད་དོ་"
+
+#: ../src/gj_translate.c:282
+msgid "A node providing phone or voice access"
+msgstr "བརྒྱུད་འཕྲིན་ ཡང་ན་ སྐད་ཀྱི་འཛུལ་སྤྱོད་བྱིན་མི་ནོཌི་ཅིག་"
+
+#. validate
+#: ../src/gj_translate.c:285
+msgid "Grammar-checking tool"
+msgstr "བརྡ་ཡིག་ཞིབ་དཔྱད་ལག་ཆས་"
+
+#: ../src/gj_translate.c:286
+msgid "Spell-checking tool"
+msgstr "སྡེབ་དཔྱད་ལག་ཆས་"
+
+#: ../src/gj_translate.c:287
+msgid "XML validator"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ དུས་མཐུད་བཟོ་མི་"
+
+#: ../src/gnome-jabber.glade.h:1
+msgid "###"
+msgstr "###"
+
+#: ../src/gnome-jabber.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: ../src/gnome-jabber.glade.h:3
+msgid "-"
+msgstr "-"
+
+#: ../src/gnome-jabber.glade.h:4
+msgid "<b>Connecting...</b>"
+msgstr "<b>མཐུད་དོ་...</b>"
+
+#: ../src/gnome-jabber.glade.h:5
+msgid "<b>You must have an account with the protocol first!</b>"
+msgstr "<b>ཁྱོད་ལུ་དང་པ་ར་ གནད་སྤེལ་ལམ་ལུགས་དང་བཅས་རྩིས་ཐོ་ཅིག་དགོ་!</b>"
+
+#: ../src/gnome-jabber.glade.h:6
+msgid ""
+"<b>Your password is required!</b>\n"
+"Enter your password below and click OK to continue."
+msgstr ""
+"<b>ཁྱོད་རའི་ཆོག་ཡིག་འདི་དགོ་!</b>\n"
+"ཁྱོད་རའི་ཆོག་ཡིག་འདི་འོག་ལུ་བཙུགས་ཞིནམ་ལས་ བཏུབ་གུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gnome-jabber.glade.h:8
+msgid "<span size=\"larger\">Instant Messenger for the Jabber agent.</span>"
+msgstr "<span size=\"larger\">ཇབ་བར་ལས་ཚབ་ཀྱི་དོན་ལུ་ འཕྲལ་མྱུར་འཕྲིན་དོན། </span>"
+
+#: ../src/gnome-jabber.glade.h:9
+msgid "<span size=\"xx-large\" weight=\"heavy\">Gnome-Jabber</span>"
+msgstr "<span size=\"xx-large\" weight=\"heavy\">ཇི་ནོམ་-ཇབ་བར་</span>"
+
+#: ../src/gnome-jabber.glade.h:10
+msgid "<span size=\"xx-large\"><b>Add by Jabber ID</b></span>"
+msgstr "<span size=\"xx-large\"><b>ཇབ་བར་ཨའི་ཌི་གིས་ཁ་སྐོང་རྐྱབས་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:11
+msgid "<span size=\"xx-large\"><b>Add by Protocol</b></span>"
+msgstr "<span size=\"xx-large\"><b>གནས་སྤེལ་ལམ་ལུགས་ཀྱིས་ ཁ་སྐོང་རྐྱབས་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:12
+msgid "<span size=\"xx-large\"><b>Contact Details</b></span>"
+msgstr "<span size=\"xx-large\"><b>འབྲེལ་སའི་རྒྱས་བཤད་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:13
+msgid "<span size=\"xx-large\"><b>Finished!</b></span>"
+msgstr "<span size=\"xx-large\"><b>མཇུག་བསྡུ་ཡོདཔ་!</b></span>"
+
+#: ../src/gnome-jabber.glade.h:14
+msgid "<span size=\"xx-large\"><b>Method</b></span>"
+msgstr "<span size=\"xx-large\"><b>ཐབས་ལམ་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:15
+msgid "<span size=\"xx-large\"><b>Probing Service</b></span>"
+msgstr "<span size=\"xx-large\"><b>བདེན་ཁུངས་ཞབས་ཏོག་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:16
+msgid "<span size=\"xx-large\"><b>Request Subscription...</b></span>"
+msgstr "<span size=\"xx-large\"><b>མཁོ་མངགས་ཞུ་བ་་་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:17
+msgid "<span size=\"xx-large\"><b>Request</b></span>"
+msgstr "<span size=\"xx-large\"><b>ཞུ་བ་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:18
+msgid "<span size=\"xx-large\"><b>Results</b></span>"
+msgstr "<span size=\"xx-large\"><b>གྲུབ་འབྲས་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:19
+msgid "<span size=\"xx-large\"><b>Roster Details</b></span>"
+msgstr "<span size=\"xx-large\"><b>ལས་རིམ་རེའུ་མིག་གི་རྒྱས་བཤད་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:20
+msgid "<span size=\"xx-large\"><b>Search Details</b></span>"
+msgstr "<span size=\"xx-large\"><b>འཚོལ་ཞིབ་རྒྱས་བཤད་</b></span>"
+
+#: ../src/gnome-jabber.glade.h:21
+msgid "<span size=\"xx-large\"><b>Searching...</b></span>"
+msgstr "<span size=\"xx-large\"><b>འཚོལ་དོ་...</b></span>"
+
+#: ../src/gnome-jabber.glade.h:22
+msgid "<span size=\"xx-large\"><b>Welcome!</b></span>"
+msgstr "<span size=\"xx-large\"><b>འབྱོན་པ་ལེགས་སོ་!</b></span>"
+
+#: ../src/gnome-jabber.glade.h:23
+msgid "<span size=\"xx-large\"><b>Which Directory?</b></span>"
+msgstr "<span size=\"xx-large\"><b>སྣོད་ཐོ་ག་?</b></span>"
+
+#: ../src/gnome-jabber.glade.h:24
+msgid "<span weight=\"bold\"> History</span>"
+msgstr "<span weight=\"bold\"> རྒྱས་བཤད་</span>"
+
+#: ../src/gnome-jabber.glade.h:25
+msgid "<span weight=\"bold\">Actions</span>"
+msgstr "<span weight=\"bold\">བྱ་བ་</span>"
+
+#: ../src/gnome-jabber.glade.h:26
+msgid "<span weight=\"bold\">Address</span>"
+msgstr "<span weight=\"bold\">ཁ་བྱང་</span>"
+
+#: ../src/gnome-jabber.glade.h:27
+msgid "<span weight=\"bold\">Automatic Presence</span>"
+msgstr "<span weight=\"bold\">རང་བཞིན་གྱི་ངོ་འཛོམས་</span>"
+
+#: ../src/gnome-jabber.glade.h:28
+msgid "<span weight=\"bold\">Behaviour</span>"
+msgstr "<span weight=\"bold\">བྱ་སྤྱོད་</span>"
+
+#: ../src/gnome-jabber.glade.h:29
+msgid "<span weight=\"bold\">Birth Date</span>"
+msgstr "<span weight=\"bold\">སྐྱེས་ཚེས་</span>"
+
+#: ../src/gnome-jabber.glade.h:30
+msgid "<span weight=\"bold\">Connection</span>"
+msgstr "<span weight=\"bold\">མཐུད་ལམ་</span>"
+
+#: ../src/gnome-jabber.glade.h:31
+msgid "<span weight=\"bold\">Contact</span>"
+msgstr "<span weight=\"bold\">སྐབས་དོན་</span>"
+
+#: ../src/gnome-jabber.glade.h:32
+msgid "<span weight=\"bold\">Contacts</span>"
+msgstr "<span weight=\"bold\">འབྲེལ་ས་</span>"
+
+#: ../src/gnome-jabber.glade.h:33
+msgid "<span weight=\"bold\">Criteria</span>"
+msgstr "<span weight=\"bold\">ཁྱད་ཚད་</span>"
+
+#: ../src/gnome-jabber.glade.h:34
+msgid "<span weight=\"bold\">Description</span>"
+msgstr "<span weight=\"bold\">འགྲེལ་བཤད་</span>"
+
+#: ../src/gnome-jabber.glade.h:35
+msgid "<span weight=\"bold\">Details</span>"
+msgstr "<span weight=\"bold\">རྒྱས་བཤད་</span>"
+
+#: ../src/gnome-jabber.glade.h:36
+msgid "<span weight=\"bold\">Display</span>"
+msgstr "<span weight=\"bold\">བཀྲམ་སྟོན་འབད་</span>"
+
+#: ../src/gnome-jabber.glade.h:37
+msgid "<span weight=\"bold\">Docklet</span>"
+msgstr "<span weight=\"bold\">ཌོཀ་ལེཊི་</span>"
+
+#: ../src/gnome-jabber.glade.h:38
+msgid "<span weight=\"bold\">Event Sounds</span>"
+msgstr "<span weight=\"bold\">བྱུང་ལས་སྒྲ་སྐད་</span>"
+
+#: ../src/gnome-jabber.glade.h:39
+msgid "<span weight=\"bold\">Group</span>"
+msgstr "<span weight=\"bold\">སྡེ་ཚན་</span>"
+
+#: ../src/gnome-jabber.glade.h:40
+msgid "<span weight=\"bold\">Identification</span>"
+msgstr "<span weight=\"bold\">ངོ་རྟགས་</span>"
+
+#: ../src/gnome-jabber.glade.h:41
+msgid "<span weight=\"bold\">Last Action</span>"
+msgstr "<span weight=\"bold\">མཇུག་གི་བྱ་བ་</span>"
+
+#: ../src/gnome-jabber.glade.h:42
+msgid "<span weight=\"bold\">Log Location</span>"
+msgstr "<span weight=\"bold\">དྲན་དེབ་གནས་ཁོངས་</span>"
+
+#: ../src/gnome-jabber.glade.h:43
+msgid "<span weight=\"bold\">Name</span>"
+msgstr "<span weight=\"bold\">མིང་</span>"
+
+#: ../src/gnome-jabber.glade.h:44
+msgid "<span weight=\"bold\">Occupation</span>"
+msgstr "<span weight=\"bold\">ལས་གཡོག་</span>"
+
+#: ../src/gnome-jabber.glade.h:45
+msgid "<span weight=\"bold\">Options</span>"
+msgstr "<span weight=\"bold\">གདམ་ཁ་</span>"
+
+#: ../src/gnome-jabber.glade.h:46
+msgid "<span weight=\"bold\">Presence / Subscription</span>"
+msgstr "<span weight=\"bold\">ངོ་འཛོམས་ / མཁོ་མངགས་</span>"
+
+#: ../src/gnome-jabber.glade.h:47
+msgid "<span weight=\"bold\">Requests</span>"
+msgstr "<span weight=\"bold\">ཞུ་བ་</span>"
+
+#: ../src/gnome-jabber.glade.h:48
+msgid "<span weight=\"bold\">Selected Contact</span>"
+msgstr "<span weight=\"bold\">སེལ་འཐུ་འབད་ཡོད་པའི་འབྲེལ་ས་</span>"
+
+#: ../src/gnome-jabber.glade.h:49
+msgid "<span weight=\"bold\">Service</span>"
+msgstr "<span weight=\"bold\">ཞབས་ཏོག་</span>"
+
+#: ../src/gnome-jabber.glade.h:50
+msgid "<span weight=\"bold\">Spelling</span>"
+msgstr "<span weight=\"bold\">ཡིག་སྡེབ་</span>"
+
+#: ../src/gnome-jabber.glade.h:51
+msgid "<span weight=\"bold\">Time</span>"
+msgstr "<span weight=\"bold\">ཆུ་ཚོད་</span>"
+
+#: ../src/gnome-jabber.glade.h:52
+msgid "<span weight=\"bold\">Users Directory</span>"
+msgstr "<span weight=\"bold\">ལག་ལེན་པའི་སྣོད་ཐོ་</span>"
+
+#: ../src/gnome-jabber.glade.h:53
+msgid "<span weight=\"bold\">Venue</span>"
+msgstr "<span weight=\"bold\">ས་གནས་</span>"
+
+#: ../src/gnome-jabber.glade.h:54
+msgid "<span weight=\"bold\">Version</span>"
+msgstr "<span weight=\"bold\">འཐོན་རིམ་</span>"
+
+#: ../src/gnome-jabber.glade.h:55
+msgid ""
+"A file transfer request has been requested to you.\n"
+"You can <b>accept</b> to continue, or <b>reject</b> the request from:"
+msgstr ""
+"ཡིག་སྣོད་གནས་སོར་གྱི་ཞུ་བ་འདི་ ཁྱོད་ལུ་ཞུ་བ་འབད་ཡི།\n"
+"ཁྱོད་ཀྱིས་ འཕྲོ་མཐུད་ནི་གི་དོན་ལུ་ <b>དང་ལེན་འབད་བཏུབ་</b> ཡང་ན་ ཞུ་བའི་འབྲི་ཤོག་འདི་ <b>དང་ལེན་སྤང་འོང་</b> "
+
+#: ../src/gnome-jabber.glade.h:57
+msgid "A_dd Contact"
+msgstr "འབྲེལ་ས་ཁ་སྐོང་རྐྱབས་(_d)"
+
+#: ../src/gnome-jabber.glade.h:58
+msgid "A_dd by Protocol"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་གྱིས་འབད་ཁ་སྐོང་རྐྱབས་(_d)"
+
+#: ../src/gnome-jabber.glade.h:60
+msgid "Action:"
+msgstr "བྱ་བ་:"
+
+#: ../src/gnome-jabber.glade.h:61
+msgid "Add All"
+msgstr "ཆ་མཉམ་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/gnome-jabber.glade.h:62
+msgid "Add New Contact"
+msgstr "འབྲེལ་ས་གསརཔ་ ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/gnome-jabber.glade.h:63
+msgid "Add another contact"
+msgstr "འབྲེལ་ས་གཞན་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/gnome-jabber.glade.h:64
+msgid "Add by Jabber I_D"
+msgstr "ཇབ་བར་ཨའི་ཌི་གིས་ཁ་སྐོང་རྐྱབས་(_D)"
+
+#: ../src/gnome-jabber.glade.h:65
+msgid "Adding Contact to Roster..."
+msgstr "ལས་རིམ་རེའུ་མིག་ལུ་ འབྲེལ་ས་ཁ་སྐོང་རྐྱབ་དོ་་་་"
+
+#: ../src/gnome-jabber.glade.h:66
+msgid "Agent:"
+msgstr "ལས་ཚབ་:"
+
+#: ../src/gnome-jabber.glade.h:67
+msgid ""
+"All other information will only be available to contacts\n"
+"if specifically asked."
+msgstr ""
+"དམིགས་བསལ་གྱིས་འབད་འདྲི་བ་ཅིན་ བརྡ་དོན་གཞན་ཆ་མཉམ་ར་ འབྲེལ་ས་\n"
+"ལུ་རྐྱངམ་ཅིག་ལངམ་སྦེ་འཐོབ་ཚུགས།"
+
+#: ../src/gnome-jabber.glade.h:69
+msgid "Allow All"
+msgstr "ཆ་མཉམ་ལུ་གནང་བ་བྱིན་"
+
+#: ../src/gnome-jabber.glade.h:70
+msgid "As soon as the application is started a connection will be attempted to the server with the saved settings."
+msgstr "གློག་རིམ་འདི་འགོ་བཙུགས་ཚརཝ་ཅིག་ མཐུད་ལམ་འདི་ སྲུངས་ཏེ་ཡོད་པའི་སྒྲིག་སྟངས་ཚུ་དང་ཅིག་ཁར་ སར་བར་ལུ་དཔའ་བཅམ་འོང་།"
+
+#: ../src/gnome-jabber.glade.h:71
+msgid "Automatically set my status when inactive."
+msgstr "ཤུགས་མེད་ཀྱི་སྐབས་ལུ་ ངེ་གི་གནས་ཚད་འདི་རང་བཞིན་གྱིས་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:73
+msgid "Away Status:"
+msgstr "ཕྱིའི་གནས་ཚད་:"
+
+#: ../src/gnome-jabber.glade.h:74
+msgid "Browse"
+msgstr "བརྡ་འཚོལ་འབད་"
+
+#: ../src/gnome-jabber.glade.h:75
+msgid "Browse Services"
+msgstr "ཞབས་ཏོག་ཚུ་བརྡ་འཚོལ་འབད་"
+
+#: ../src/gnome-jabber.glade.h:76
+msgid "Build:"
+msgstr "བཟོ་བརྩིགས་:"
+
+#: ../src/gnome-jabber.glade.h:77
+msgid "Change Pass_word"
+msgstr "ཆོག་ཡིག་སོར་(_w)"
+
+#: ../src/gnome-jabber.glade.h:78
+msgid "Change Password"
+msgstr "ཆོག་ཡིག་སོར་"
+
+#: ../src/gnome-jabber.glade.h:80
+msgid "Chat..."
+msgstr "ཁ་སླབ་་་"
+
+#: ../src/gnome-jabber.glade.h:81
+msgid "Clear the log."
+msgstr "དྲན་དེབ་སེལ།"
+
+#: ../src/gnome-jabber.glade.h:82
+msgid "Click here to change your status."
+msgstr "ཁྱོད་རའི་གནས་ཚད་སོར་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gnome-jabber.glade.h:83
+msgid "Click here to tell people what you are doing (e.g. Working)."
+msgstr "ཁྱོད་ར་ག་ཅི་འབད་དོ་ག་ མི་ཚུ་ལུ་སླབ་་ནིའི་དོན་ལས་ ནཱ་ལུ་ཨེབ་གཏང་འབད་(དཔེར་ན་ ལཱ་འབད་ནི་)།"
+
+#: ../src/gnome-jabber.glade.h:84
+msgid "Client Information"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་བརྡ་དོན་"
+
+#: ../src/gnome-jabber.glade.h:85
+msgid "Con_firm Password:"
+msgstr "ཆོག་ཡིག་ངེས་དཔྱད་འབད་:"
+
+#: ../src/gnome-jabber.glade.h:86
+msgid "Con_firm:"
+msgstr "ངེས་དཔྱད་:(_f)"
+
+#: ../src/gnome-jabber.glade.h:87
+msgid "Congratulations, you have finished adding a contact.  They should receive your request shortly."
+msgstr "ཁྱོད་ཀྱིས་ འབྲེལ་ས་ཅིག་ཁ་སྐོང་རྐྱབ་མི་འདི་མཇུག་བསྡུ་ཡོད་མི་ལུ་ ལེགས་སོ་ཡོད། ཁོང་ཚུ་གིས་ ཁྱོད་ཀྱིས་ཞུ་བ་འདི་ དུམ་གྲ་ཅིག་ལས་འཐོབ་ཚུགས་དགོ"
+
+#: ../src/gnome-jabber.glade.h:88
+msgid "Connection Progress"
+msgstr "མཐུད་ལམ་ཡར་འཕེལ་"
+
+#: ../src/gnome-jabber.glade.h:89
+msgid "Connection Settings"
+msgstr "མཐུད་ལམ་སྒྲིག་སྟངས་"
+
+#: ../src/gnome-jabber.glade.h:90
+msgid "Connection _Settings"
+msgstr "མཐུད་ལམ་སྒྲིག་སྟངས་(_S)"
+
+#: ../src/gnome-jabber.glade.h:91
+msgid "Contact is Composing..."
+msgstr "འབྲེལ་ས་འདི་རྩམ་དོ་་་་"
+
+#: ../src/gnome-jabber.glade.h:92
+msgid "Country:"
+msgstr "རྒྱལ་ཁབ་:"
+
+#: ../src/gnome-jabber.glade.h:93
+msgid "Criteria"
+msgstr "ཁྱད་ཚད་"
+
+#: ../src/gnome-jabber.glade.h:94
+msgid ""
+"Currently the Gnome Jabber client does not have an assistant for first time users to get their instant messaging accounts configured.   \n"
+"\n"
+"You can configure your connection settings from the <b>Jabber</b> menu, add users (from menus <b>Action</b>, <b>Add Contact</b>) and register IM protocol transports (from menus <b>Action</b>, <b>Browse services</b>)."
+msgstr ""
+"ད་ལྟོ་ ཇི་ནོམ་ཇབ་བར་ཞབས་ཏོག་སྤྱོད་མི་ལུ་ ལག་ལེན་པ་དང་པ་ཨིན་མི་ཚུ་ ཁོང་རའི་འཕྲལ་མྱུར་འཕྲིན་དོན་རྩིས་ཐོ་ཚུ་རིམ་སྒྲིག་འབད་དེ་འཐོབ་ནི་གི་དོན་ལུ་ ལས་རོགས་མིན་འདུག   \n"
+"\n"
+"ཁྱོད་ཀྱིས་ ཁྱོད་རའི་མཐུད་ལམ་སྒྲིག་སྒྲིག་སྟངས་འདི་ <b>Jabber</b> དཀར་ཆག་དང་ ལག་ལེན་པ་ཁ་སྐོང་རྐྱབས་(དཀར་ཆག་ཚུ་ <b>བྱ་བ་</b>, <b>འབྲེལ་ས་ཁ་སྐོང་རྐྱབས་</b>ནང་ལས་)ཟེར་མི་ཚུ་དང་ ཨའི་ཨེམ་གནད་སྤེལ་ལམ་ལུགས་སྐྱེལ་འདྲེན་(དཀར་ཆག་ཚུ་<b>བྱ་བ་</b>, <b>ཞབས་ཏོག་ཚུ་བརྡ་འཚོལ་འབད་</b>ནང་ལས་)ཚུ་ནང་ལས་རིམ་སྒྲིག་འབད་ཚུགས།"
+
+#: ../src/gnome-jabber.glade.h:97
+msgid "DOB"
+msgstr "ཌི་ཨོ་བི་"
+
+#: ../src/gnome-jabber.glade.h:98
+msgid "Date:"
+msgstr "ཚེས་གྲངས་:"
+
+#: ../src/gnome-jabber.glade.h:99
+msgid "Debugging"
+msgstr "རྐྱེན་སེལ་འབད་དོ་"
+
+#: ../src/gnome-jabber.glade.h:100
+msgid "Decide _Later"
+msgstr "ཤུལ་ལས་གྲོས་ཐག་བཅད་(_L)"
+
+#: ../src/gnome-jabber.glade.h:101
+msgid "Deny All"
+msgstr "ཆ་མཉམ་སྣང་མེད་སྦེ་བཞག་"
+
+#: ../src/gnome-jabber.glade.h:102
+msgid "Description of interests."
+msgstr "དང་འདོད་འགྲེལ་བཤད།"
+
+#: ../src/gnome-jabber.glade.h:103
+msgid "Description:"
+msgstr "འགྲེལ་བཤད་:"
+
+#: ../src/gnome-jabber.glade.h:105
+msgid "Directory Search"
+msgstr "སྣོད་ཐོའི་འཚོལ་ཞིབ་"
+
+#: ../src/gnome-jabber.glade.h:106
+msgid ""
+"Discovering valid search fields for service.\n"
+"Please wait..."
+msgstr ""
+"ཞབས་ཏོག་གི་དོན་ལུ་ ནུས་ཅན་འཚོལ་ཞིབ་ས་སྒོ་ཚུ་ གསར་རྙེད་འབད་དོ།\n"
+"ཨ་ཙི་བསྒུག་གནང་་་་་་"
+
+#: ../src/gnome-jabber.glade.h:108
+msgid "Do not publish my information in the JUD"
+msgstr "ངེ་གི་བརྡ་དོན་འདི་ ཇེ་ཡུ་ཌི་ནང་དཔེ་བསྐྲུན་མ་འབད་"
+
+#: ../src/gnome-jabber.glade.h:109
+msgid "Double Click event initiates:"
+msgstr "ཨེབ་གཏང་ཚར་གཉིས་ཀྱི་བྱུང་ལས་ འགོ་བཙུགསཔ་ཨིན་:"
+
+#: ../src/gnome-jabber.glade.h:110
+msgid "Each contact/agent on the roster has presence information available from the User Information dialog.  If this option is unchecked, that information is viewable on the roster (under the name of the contact/agent) in a small print."
+msgstr "ལས་རིམ་རེའི་མིག་གུ་ འབྲེལ་ས་/ལས་ཚབ་རེ་རེ་ལུ་ ལག་ལེན་པའི་བརྡ་དོན་ཌའི་ལོག་ནང་ལས་ ངོ་འཛོམས་བརྡ་དོན་ལངམ་སྦེ་འཐོབ་ཚུགསཔ་ཡོདཔ་ཨིན། ག་དེམ་ཅིག་འབད་ གདམ་ཁ་འདི་ཞིབ་དཔྱད་མ་འབད་བ་ཡོད་པ་ཅིན་ བརྡ་དོན་དེ་ ལས་རིམ་རེའི་མིག་གུ་(འབྲེལ་ས་/ལས་ཚབ་མིང་གི་འོག་ལུ་)དཔར་བསྐྲུན་ཆུང་ཀུ་སྦེ་མཐོང་བཏུབ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:111
+msgid "Edit Groups"
+msgstr "སྡེ་ཚན་ཞུན་དག་འབད་"
+
+#: ../src/gnome-jabber.glade.h:112
+msgid "Edit _Status Messages"
+msgstr "གནས་ཚད་འཕྲིན་དོན་ ཞུན་དག་འབད་(_S)"
+
+#: ../src/gnome-jabber.glade.h:113
+msgid "Email:"
+msgstr "གློག་འཕྲིན་:"
+
+#: ../src/gnome-jabber.glade.h:114
+msgid ""
+"Enter the Jabber ID for this message, for example, \n"
+"<i>joe.bloggs@jabber.org</i>"
+msgstr ""
+"འཕྲིན་དོན་དེ་གི་དོན་ལུ་ ཇབ་བར་ ཨའི་ཌི་བཙུགས་ དཔེར་ན་ \n"
+"<i>joe.bloggs@jabber.org</i>"
+
+#: ../src/gnome-jabber.glade.h:116
+msgid "Enter the Jabber ID of the contact you wish to add.  This ID takes the form <b>someone@jabber.org</b>."
+msgstr "ཁྱོད་ཀྱིས་ ཁ་སྐོང་བརྐྱབ་དགོ་མནོ་མི་འབྲེལ་སའི་ཇབ་བར་ཨའི་ཌི་བཙུགས། ཨའི་ཌི་འདི་ <b>someone@jabber.org</b> གི་རྣམ་པ་དང་ལྡནམ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:117
+msgid "Enter the name which will appear on the roster for this contact and select the group for that contact to be associated with."
+msgstr "འབྲེལ་སའི་དོན་ལུ་ ལས་རིམ་རེའུ་མིག་གུ་འབྱུང་ནི་ཨིན་པའི་མིང་བཙུགས་ཏེ་གཞན་དང་འབྲེལ་ནིའི་འབྲེལ་སའི་དོན་ལས་སྡེ་ཚན་སེལ་འཐུ་འབད།"
+
+#: ../src/gnome-jabber.glade.h:118
+msgid "Enter your new password and then re-type it to make sure they match:"
+msgstr "ཁྱོད་རའི་ཆོག་ཡིག་གསརཔ་འདི་བཙུག་ཞིནམ་ལས་ དེ་ཚུ་མཐུན་སྒྲིག་ཡོད་མེད་བལྟ་གི་དོན་ལས་ ལོག་ཡིག་དཔར་རྐྱབས་:"
+
+#: ../src/gnome-jabber.glade.h:119
+msgid "Event Viewer"
+msgstr "བྱུང་ལས་སྟོན་མི་"
+
+#: ../src/gnome-jabber.glade.h:120
+msgid "Event _Viewer"
+msgstr "བྱུང་ལས་སྟོན་མི་(_V)"
+
+#: ../src/gnome-jabber.glade.h:121
+msgid "Family:"
+msgstr "རིགས་ཚན་:"
+
+#: ../src/gnome-jabber.glade.h:122
+msgid "File Transfer Request"
+msgstr "ཡིག་སྣོད་གནས་སོར་གྱི་ཞུ་བ་"
+
+#: ../src/gnome-jabber.glade.h:123
+msgid "Filename:"
+msgstr "ཡིག་སྣོད་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:124
+msgid "Finish"
+msgstr "མཇུག་བསྡུ་"
+
+#: ../src/gnome-jabber.glade.h:125
+msgid "First Name:"
+msgstr "འགོ་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:126
+msgid "First Time Run"
+msgstr "གཡོག་བཀོལ་ནི་དང་པ་"
+
+#: ../src/gnome-jabber.glade.h:127
+msgid "First of all, thank you for installing Gnome Jabber Instant Messenger.  "
+msgstr "དང་པ་ར་ ཇི་ནོམ་འཕྲལ་མྱུར་་འཕྲིན་སྐྱེལ་པ་ཅིག་གཞི་བཙུགས་འབད་མི་ལུ་བཀྲིན་ཆེ།"
+
+#: ../src/gnome-jabber.glade.h:128
+msgid "For example, <b>jabber@conference.jabber.org</b>"
+msgstr "དཔེར་ན་ <b>jabber@conference.jabber.org</b>"
+
+#: ../src/gnome-jabber.glade.h:129
+msgid "Full:"
+msgstr "ཆ་ཚང་:"
+
+#: ../src/gnome-jabber.glade.h:130
+msgid "General"
+msgstr "སྤྱིར་བཏང་"
+
+#: ../src/gnome-jabber.glade.h:131
+msgid "Given:"
+msgstr "བྱིན་ཡོད་མི་:"
+
+#: ../src/gnome-jabber.glade.h:134
+msgid "Group(s):"
+msgstr "སྡེ་ཚན་(ཚུ་):"
+
+#: ../src/gnome-jabber.glade.h:135
+msgid "Headlines"
+msgstr "གཙོ་དོན་"
+
+#: ../src/gnome-jabber.glade.h:136
+msgid "Hide Agents (e.g.: ICQ Transport)"
+msgstr "ལས་ཚབ་སྦ་(དཔེར་ན་: ཨའི་སི་ཡུ་སྐྱེལ་འདྲེན་)"
+
+#: ../src/gnome-jabber.glade.h:137
+msgid "Hide Contact Presence Details"
+msgstr "འབྲེལ་སའི་ངོ་འཛོམས་རྒྱས་བཤད་ཚུ་སྦ།"
+
+#: ../src/gnome-jabber.glade.h:138
+msgid "Hide Offline Contacts"
+msgstr "ཨཱོཕ་ལ་ཡིན་འབྲེལ་ས་སྦ་"
+
+#: ../src/gnome-jabber.glade.h:139
+msgid "Hide Offline Group"
+msgstr "ཨཱོཕ་ལ་ཡིན་སྡེ་ཚན་སྦ་"
+
+#: ../src/gnome-jabber.glade.h:140
+msgid "Hide Time"
+msgstr "ཆུ་ཚོད་སྦ་"
+
+#: ../src/gnome-jabber.glade.h:141
+msgid "Home"
+msgstr "ཁྱིམ་"
+
+#: ../src/gnome-jabber.glade.h:142
+msgid "Host:"
+msgstr "ཧོསཊི་:"
+
+#: ../src/gnome-jabber.glade.h:143
+msgid "I Have An _Account"
+msgstr "ང་ལུ་རྩིས་ཐོ་ཡོད་(_A)"
+
+#: ../src/gnome-jabber.glade.h:144
+msgid "I just want to make you aware that this is still a developing application and there are bound to be things that do and don't work as well as people expect them to.  I am open to suggestions, improvements and most of all bug fixes."
+msgstr "འ་ནི་འདི་ ད་ལྟོའི་བར་ཡང་གོང་འཕེལ་གཏང་པའི་བསྒང་གི་གློག་རིམ་ཅིག་ཨིནམ་ལས་ དེ་ནང་ལཱ་འབད་བཏུབ་དང་མ་བཏུབ་ དེ་ལས་མི་ཚུ་གི་རེ་བ་ལྟར་འབད་དགོ་པའི་ལཱ་ཡང་འཐོན་ནི་ཨིནམ་ ཧ་གོ་བཅུག་ནི་ཨིན། དེ་ནང་ལུ་ ལེགས་བཟོ་དང་རྐྱེན་སེལ་འབད་ནི་ཚུ་འབད་ཆོགཔ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:145
+msgid "I would like to add you to my roster."
+msgstr "ང་གིས་ཁྱོད་ ངེ་གི་ལས་རིམ་རེའུ་མིག་གུ་ཁ་སྐོང་རྐྱབ་ནི།"
+
+#: ../src/gnome-jabber.glade.h:146
+msgid "I'm A _New User"
+msgstr "ང་ ལག་ལེན་པ་གསརཔ་ཅིག་ཨིན་(_N)"
+
+#: ../src/gnome-jabber.glade.h:147
+msgid "If this is set, then you will need to enter a password to authenticate.  If you wish to connect on startup without any user interaction when connecting, you will need this option checked along with the 'Automatically Connect on Startup' option."
+msgstr "ག་དེམ་ཅིག་འབད་དེ་གཞི་སྒྲིག་འབད་དེ་ཡོད་པ་ཅིན་ བདེན་བཤད་ཀྱི་དོན་ལུ་ ཆོག་ཡིག་ཅིག་བཙུགས་དགོ དེ་ལས་འགོ་བཙུག་གུ་ མཐུད་པའི་སྐབས་ལུ་ ལག་ལེན་པའི་ཕན་ཚུན་འབྲེལ་བ་མེད་པར་ མཐུད་དགོ་མནོ་བ་ཅིན་ 'Automatically Connect on Startup' གདམ་ཁ་དང་གཅིག་ཁར་ ག་དམ་ཁ་འདི་ཞིབ་དཔྱད་འབད་དེ་དགོཔ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:148
+msgid "If you use a plain text password, it can be seen by anyone watching the TCP stream.  It is HIGHLY recommended you do not use this option unless you have to. The alternative is SHA (Secure Hashing Algorithm)."
+msgstr "ཁྱོད་ཀྱིས་ ཚིག་ཡིག་ཉག་རྐྱང་གི་ཆོག་ཡིག་ཅིག་ལག་ལེན་འཐབ་པ་ཅིན་ ཊི་སི་པི་རྒྱུན་རིམ་ལུ་བལྟ་སྟེ་ ག་ར་་གིས་མཐོང་ཚུགས། གདམ་ཁ་འདི་ ལག་ལེན་འཐབ་དགོཔ་ད་མ་གཏོགས་ག་ལྷོད་ལྷོད་ལག་ལེན་འཐབ་མི་ཆོག་པའི་གནམ་མེད་ས་མེད་འོས་སྦྱོར་འབད་དེ་ཡོདཔ་ཨིན། ཐབས་ལམ་གཞན་མི་འདི་ ཨེསི་ཨེཆ་ཨེ་(ཨང་རྟགས་ཨཱལ་གོ་རི་དམ་མཐའ་བཙན་བཟོ་)།"
+
+#: ../src/gnome-jabber.glade.h:149
+msgid "Input XML into Parser:"
+msgstr "མིང་དཔྱད་ནང་ལུ་ ཨིན་པུཊི་ ཨེགསི་ཨེམ་ཨེལ་:"
+
+#: ../src/gnome-jabber.glade.h:150
+msgid "JID:"
+msgstr "ཇེ་ཨའི་ཌི་:"
+
+#: ../src/gnome-jabber.glade.h:151
+msgid "Jabber ID:"
+msgstr "ཇབ་བར་ ཨའི་ཌི་:"
+
+#: ../src/gnome-jabber.glade.h:152
+msgid "Jabber User Directory:"
+msgstr "ཇབ་བར་ལག་ལེན་པའི་སྣོད་ཐོ་:"
+
+#: ../src/gnome-jabber.glade.h:153
+msgid "Job Title:"
+msgstr "ལཱ་གཡོག་མགོ་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:154
+msgid "Join Group Chat"
+msgstr "སྡེ་ཚན་ཁ་སླབ་ནང་འཛུལ་"
+
+#: ../src/gnome-jabber.glade.h:155
+msgid "Last Name:"
+msgstr "མཇུག་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:156
+msgid "Locality:"
+msgstr "ཉེ་གནས་:"
+
+#: ../src/gnome-jabber.glade.h:157
+msgid "Locally: "
+msgstr "ཉེ་གནས་ཀྱི་:"
+
+#: ../src/gnome-jabber.glade.h:158
+msgid "Location"
+msgstr "གནས་ཁོངས་"
+
+#: ../src/gnome-jabber.glade.h:159
+msgid "Log"
+msgstr "དྲན་དེབ་"
+
+#: ../src/gnome-jabber.glade.h:161
+msgid "Message/Chat"
+msgstr "འཕྲིན་དོན་/ཁ་སླབ་"
+
+#: ../src/gnome-jabber.glade.h:162
+msgid "Method"
+msgstr "ཐབས་ལམ་"
+
+#: ../src/gnome-jabber.glade.h:163
+msgid "Misc"
+msgstr "མིསཀི་"
+
+#: ../src/gnome-jabber.glade.h:164
+msgid "My Information"
+msgstr "ངེ་གི་བརྡ་དོན་"
+
+#: ../src/gnome-jabber.glade.h:165
+msgid "My _Information"
+msgstr "ངེ་གི་བརྡ་དོན་(_I)"
+
+#: ../src/gnome-jabber.glade.h:166
+msgid "NOTE: If the text sent is NOT valid XML it is likely the server will disconnect you!"
+msgstr "དྲན་དགོཔ་: བཏང་ཡོད་པའི་ཚིག་ཡིག་འདི་ནུས་ལྡན་གྱི་ཨེགསི་ཨེམ་ཨེལ་མེན་པ་ཅིན་ སར་བར་གྱིས་མཐུད་བཏོག་འོང་!"
+
+#: ../src/gnome-jabber.glade.h:167
+msgid "NOTE: The text MUST strictly be XML"
+msgstr "དྲན་དགོཔ་: ཚིག་ཡིག་འདི་ ཨེགསི་ཨེམ་ཨེལ་ཨིན་དགོ"
+
+#: ../src/gnome-jabber.glade.h:169
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../src/gnome-jabber.glade.h:170
+msgid "New Account"
+msgstr "རྩིས་ཐོ་གསརཔ་"
+
+#: ../src/gnome-jabber.glade.h:171
+msgid "New Name:"
+msgstr "མིང་གསརཔ་:"
+
+#: ../src/gnome-jabber.glade.h:172
+msgid "New Pass_word:"
+msgstr "ཆོག་ཡིག་གསརཔ་:"
+
+#: ../src/gnome-jabber.glade.h:173
+msgid "Nick:"
+msgstr "སྐྱོན་:"
+
+#: ../src/gnome-jabber.glade.h:174
+msgid "Nickname:"
+msgstr "སྐྱོན་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:175
+msgid "Not Yet Supported"
+msgstr "ད་ཚུན་རྒྱབ་སྐྱོར་མ་འབད་"
+
+#: ../src/gnome-jabber.glade.h:176
+msgid "Note: If you're changing your password, the server may not be updated immediately.  There can be some time before you will be able to use your new password."
+msgstr "དྲན་དགོཔ་: ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཆོག་ཡིག་འདི་སོརཝ་ཨིན་པ་ཅིན་ སར་བར་འདི་མགྱོགས་པ་ར་དུས་མཐུན་མི་བཟོ་འོང་། དེ་འབདཝ་ལས་ཁྱོད་རའི་ཆོག་ཡིག་གསརཔ་འདི་ལག་ལེན་མ་འཐབ་པའི་ཧེ་མ་ དུས་ཚོད་ལེ་ཤ་ཡོདཔ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:177
+msgid "Note: contacts can belong to multiple groups or they can be in no group at all."
+msgstr "དྲན་དགོཔ་: འབྲེལ་ས་ཚུ་སྣ་མང་སྡེ་ཚན་གྱིས་བང་ནི་ཨིན་ ཡང་ན་ དེ་ཚུ་སྡེ་ཚན་ག་ནང་ཡང་མེད་པར་ལུས་འོང་།"
+
+#: ../src/gnome-jabber.glade.h:178
+msgid "Notification"
+msgstr "བརྡ་བསྐུལ་"
+
+#: ../src/gnome-jabber.glade.h:179
+msgid "Occupation"
+msgstr "ལཱ་གཡོག་"
+
+#: ../src/gnome-jabber.glade.h:180
+msgid ""
+"Offline\n"
+"<span font_family=\"Sans\" size=\"7000\" weight=\"ultralight\">Disconnected</span>"
+msgstr ""
+"ཨཱོཕ་ལ་ཡིན་\n"
+"<span font_family=\"Sans\" size=\"7000\" weight=\"ultralight\">མཐུད་བཏོག་ཡོདཔ་</span>"
+
+#: ../src/gnome-jabber.glade.h:182
+msgid "On Roster:"
+msgstr "ལས་རིམ་རེའུ་མིག་གུ་:"
+
+#: ../src/gnome-jabber.glade.h:183
+msgid "One or more users with the details below wish to add you to their contact list.  Select those you want to <b>Deny</b> or <b>Allow</b>:"
+msgstr "ལག་ལེན་པ་གཅིག་ ཡང་ན་ ལེ་ཤ་ཅིག་གིས་ འོག་ལུ་ཡོད་པའི་རྒྱས་བཤད་ཀྱི་ཐོག་ལས་ ཁྱོད་ ཁོང་ཚུ་གི་འབྲེལ་སའི་ཐོ་ཡིག་ནང་ཁ་སྐོང་བརྐྱབ་ནི་ཨིན་པས། <b>དང་ལེན་སྤང་</b> ཡང་ན་ <b>འབད་བཅུག་</b> ནི་ཨིན་ན་སེལ་འཐུ་འབད་:"
+
+#: ../src/gnome-jabber.glade.h:184
+msgid "Open window on new message"
+msgstr "འཕྲིན་དོན་གསརཔ་ཅིག་གུ་ སྒོ་སྒྲིག་ཁ་ཕྱེ་"
+
+#: ../src/gnome-jabber.glade.h:185
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ་"
+
+#: ../src/gnome-jabber.glade.h:186
+msgid "Organisation:"
+msgstr "ཚོགས་སྡེ་:"
+
+#: ../src/gnome-jabber.glade.h:187
+msgid "Output XML to Server:"
+msgstr "སར་བར་ལུ་ ཨའུཊི་པུཊི་ཨེགསི་ཨེམ་ཨེལ་:"
+
+#: ../src/gnome-jabber.glade.h:188
+msgid "P_assword:"
+msgstr "ཆོག་ཡིག་:"
+
+#: ../src/gnome-jabber.glade.h:189
+msgid "P_riority:"
+msgstr "གཙོ་རིམ་:(_r)"
+
+#: ../src/gnome-jabber.glade.h:190
+msgid "Parse XML"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ མིང་དཔྱད་འབད་"
+
+#: ../src/gnome-jabber.glade.h:191
+msgid "Pass_word:"
+msgstr "ཆོག་ཡིག་:(_w)"
+
+#: ../src/gnome-jabber.glade.h:192
+msgid "Password Required"
+msgstr "ཆོག་ཡིག་དགོཔ་ཨིན་་"
+
+#: ../src/gnome-jabber.glade.h:193
+msgid "Password:"
+msgstr "ཆོག་ཡིག་:"
+
+#: ../src/gnome-jabber.glade.h:194
+msgid "Personal"
+msgstr "རང་དོན་"
+
+#: ../src/gnome-jabber.glade.h:195
+msgid "Please Wait."
+msgstr "ཨ་ཙི་བསྒུག།"
+
+#: ../src/gnome-jabber.glade.h:196
+msgid "Po_rt:"
+msgstr "འདྲེན་ལམ་:(_r)"
+
+#: ../src/gnome-jabber.glade.h:197
+msgid "Post Code:"
+msgstr "འགྲེམ་ཨང་:"
+
+#: ../src/gnome-jabber.glade.h:198
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../src/gnome-jabber.glade.h:200
+msgid "Press Enter to save."
+msgstr "སྲུང་ནིའི་དོན་ལུ་ བཙུག་གུ་ཨེབས།"
+
+#: ../src/gnome-jabber.glade.h:201
+msgid "Pri_ority:"
+msgstr "གཙོ་དོན་:(_o)"
+
+#: ../src/gnome-jabber.glade.h:202
+msgid "Pro_mpt for Password when Logging In."
+msgstr "ནང་བསྐྱོད་འབད་བའི་དུས་ལུ་ ཆོག་ཡིག་གི་དོན་ལུ་ ནུས་པ་སྤེལ།(_m)"
+
+#: ../src/gnome-jabber.glade.h:203
+msgid "Probing"
+msgstr "བདེན་ཁུངས་བཤད་དོ་"
+
+#: ../src/gnome-jabber.glade.h:205
+msgid "Protected under the GNU General Public License."
+msgstr "ཇི་ཨེན་ཡུ་ སྤྱིར་བཏང་མི་མང་གི་ཆོག་ཐམ་འོག་ལུ་ ཉན་སྐྱོབ་་འབད་ཡོདཔ།"
+
+#: ../src/gnome-jabber.glade.h:206
+msgid "R_egister"
+msgstr "ཐོ་བཀོད་འབད་(_e)"
+
+#: ../src/gnome-jabber.glade.h:207
+msgid "Raise window on message"
+msgstr "འཕྲིན་དོན་གུ་ སྒོ་སྒྲིག་ཆེར་བསྐྱེད་འབད་"
+
+#: ../src/gnome-jabber.glade.h:208
+msgid "Read Next"
+msgstr "གཞན་མི་འདི་ལྷག་"
+
+#: ../src/gnome-jabber.glade.h:209
+msgid "Receive Chat"
+msgstr "ཁ་སླབ་ཐོབ་ནི་"
+
+#: ../src/gnome-jabber.glade.h:210
+msgid "Receive Error"
+msgstr "འཛོལ་བ་འབྱུང་ནི་"
+
+#: ../src/gnome-jabber.glade.h:211
+msgid "Receive Headlines"
+msgstr "གཙོ་དོན་ཐོབ་ནི་"
+
+#: ../src/gnome-jabber.glade.h:212
+msgid "Receive Message"
+msgstr "འཕྲིན་དོན་ཐོབ་ནི་"
+
+#: ../src/gnome-jabber.glade.h:213
+msgid "Refresh the services list."
+msgstr "ཞབས་ཏོག་ཐོ་ཡིག་ ཡང་སེལ་འབད།"
+
+#: ../src/gnome-jabber.glade.h:214
+msgid "Region:"
+msgstr "ཆོས་ལུགས་:"
+
+#: ../src/gnome-jabber.glade.h:215
+msgid "Register Ne_w..."
+msgstr "གསརཔ་ཐོ་བཀོད་འབད་་་་(_w)"
+
+#: ../src/gnome-jabber.glade.h:216
+msgid "Register Service"
+msgstr "ཞབས་ཏོག་ཐོ་བཀོད་འབད་"
+
+#: ../src/gnome-jabber.glade.h:217
+msgid "Remove All"
+msgstr "ཆ་མཉམ་ རྩ་བསྐྲད་གཏང་"
+
+#: ../src/gnome-jabber.glade.h:218
+msgid "Rename Contact"
+msgstr "འབྲེལ་སའི་བསྐྱར་མིང་བཏགས་"
+
+#: ../src/gnome-jabber.glade.h:219
+msgid "Rename Group"
+msgstr "སྡེ་ཚན་ལུ་བསྐྱར་མིང་བཏགས་"
+
+#: ../src/gnome-jabber.glade.h:220
+msgid "Report _Bug"
+msgstr "རྐྱེན་སེལ་སྙན་ཞུ་(_B)༉"
+
+#: ../src/gnome-jabber.glade.h:221
+msgid "Request"
+msgstr "ཞུ་བ་"
+
+#: ../src/gnome-jabber.glade.h:222
+msgid "Resource:"
+msgstr "འབྱུང་ཁུངས་:"
+
+#: ../src/gnome-jabber.glade.h:223
+msgid "Reverse Text Direction"
+msgstr "ཚིག་ཡིག་ཁ་ཕྱོགས་ རིམ་ལོག་འབད་"
+
+#: ../src/gnome-jabber.glade.h:224
+msgid "Role:"
+msgstr "ལས་འགན་"
+
+#: ../src/gnome-jabber.glade.h:225
+msgid "Room:"
+msgstr "ཁང་མིག་:"
+
+#: ../src/gnome-jabber.glade.h:226
+msgid "Roster"
+msgstr "ལས་རིམ་རེའུ་མིག་"
+
+#: ../src/gnome-jabber.glade.h:227
+msgid "S_earch Jabber User Directory"
+msgstr "ཇབ་བར་ལག་ལེན་པའི་སྣོད་ཐོ་ འཚོལ་ཞིབ་འབད་"
+
+#: ../src/gnome-jabber.glade.h:228
+msgid "Save Conversations"
+msgstr "གྲོས་གླེང་སྲུངས་"
+
+#: ../src/gnome-jabber.glade.h:229
+msgid "Screen Name:"
+msgstr "གསལ་གཞིའི་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:230
+msgid "Select the method for adding a new contact.  If you know the screen name on another IM system, use the second option."
+msgstr "འབྲེལ་ས་་གསརཔ་ཅིག་་ཁ་སྐོང་་བརྐྱབ་ནིའི་་ཐབས་ལམ་སེལ་འཐུ་འབད། ཁྱོད་ཀྱིས་ ཨའི་ཨེམ་རིམ་ལུགས་གུ་ གསལ་གཞིའི་མིང་ཤེས་པ་ཅིན་ གདམ་ཁ་གཉིས་པ་འདི་ལག་ལེན་འཐབ།"
+
+#: ../src/gnome-jabber.glade.h:232
+msgid "Send Message to Group"
+msgstr "སྡེ་ཚན་ལུ་འཕྲིན་དོན་གཏང་"
+
+#: ../src/gnome-jabber.glade.h:233
+msgid "Send XML"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་གཏང་"
+
+#: ../src/gnome-jabber.glade.h:234
+msgid "Send _Message"
+msgstr "འཕྲིན་དོན་གཏང་"
+
+#: ../src/gnome-jabber.glade.h:235
+msgid "Server"
+msgstr "སར་བར་"
+
+#: ../src/gnome-jabber.glade.h:236
+msgid "Service:"
+msgstr "ཞབས་ཏོག་:"
+
+#: ../src/gnome-jabber.glade.h:237
+msgid "Set to Away after"
+msgstr "ཕྱི་ཁ་སྦེ་གཞི་སྒྲིག་འབད་"
+
+#: ../src/gnome-jabber.glade.h:238
+msgid "Set to Extended Away after"
+msgstr "རྒྱ་བསྐྱེད་ཅན་གྱི་ཕྱི་ཁ་སྦེ་གཞི་སྒྲིག་འབད་"
+
+#: ../src/gnome-jabber.glade.h:239
+msgid "Setting up subscription with new contact and adding them to your roster."
+msgstr "འབྲེལ་ས་་གསརཔ་དང་གཅིག་ཁར་མཁོ་མངགས་སྒྲིག་སྟངས་དང་དེ་ཚུ་ཁྱོད་རའི་ལས་རིམ་རེའུ་མིག་ལུ་ཁ་སྐོང་རྐྱབ་དོ།"
+
+#: ../src/gnome-jabber.glade.h:240
+msgid "Show J_abber ID"
+msgstr "ཇབ་བར་ཨའི་ཌི་སྟོན་(_a)"
+
+#: ../src/gnome-jabber.glade.h:241
+msgid "Show:"
+msgstr "སྟོན་:"
+
+#: ../src/gnome-jabber.glade.h:242
+msgid "Size:"
+msgstr "ཚད་:"
+
+#: ../src/gnome-jabber.glade.h:243
+msgid "Status Message Presets"
+msgstr "གནས་ཚད་འཕྲིན་དོན་སྔོན་སྒྲིག་"
+
+#: ../src/gnome-jabber.glade.h:244
+msgid "Status:"
+msgstr "གནས་ཚད་:"
+
+#: ../src/gnome-jabber.glade.h:245
+msgid "Street 1:"
+msgstr "ཁྲོམ་ལམ་ ༡:"
+
+#: ../src/gnome-jabber.glade.h:246
+msgid "Street 2:"
+msgstr "ཁྲོམ་ལམ་ ༢:"
+
+#: ../src/gnome-jabber.glade.h:247
+msgid "Subj_ect:"
+msgstr "དོན་ཚན་:(_e)"
+
+#: ../src/gnome-jabber.glade.h:248
+msgid "Subscription Request"
+msgstr "མཁོ་མངགས་ཞུ་བ་"
+
+#: ../src/gnome-jabber.glade.h:249
+msgid "Subscription:"
+msgstr "མཁོ་མངགས་:"
+
+#: ../src/gnome-jabber.glade.h:250
+msgid "System:"
+msgstr "རིམ་ལུགས་:"
+
+#: ../src/gnome-jabber.glade.h:251
+msgid "Telephone:"
+msgstr "བརྒྱུད་འཕྲིན་:"
+
+#: ../src/gnome-jabber.glade.h:252
+msgid "The JUD (Jabber User Directory) holds information about people that use Jabber.  If you wish to be unknown to this Directory, check this option."
+msgstr "ཇེ་ཡུ་ཌི་(ཇབ་བར་ལག་ལེན་པའི་སྣོད་ཐོ་)གིས་ ཇབ་བར་ལག་ལེན་འཐབ་མི་མི་ཚུ་གི་སྐོར་ལས་བརྡ་དོན་འཛིནམ་ཨིན། སྣོད་ཐོ་ལས་མ་ཤེསཔ་སྦེ་སྡོད་དགོ་མནོ་བ་ཅིན་ གདམ་ཁ་འདི་ཞིབ་དཔྱད་འབད།"
+
+#: ../src/gnome-jabber.glade.h:253
+msgid "The connection with the lowest priority value will be delivered messages (for example: if Work and Home both are different resources using the same account, and Home has a priority value of -10, and Work has a priority value of 100, Home will receive the messages)."
+msgstr "གཙོ་རིམ་བེ་ལུ་ཉུང་ཤོས་ཀྱི་མཐུད་ལམ་འདི་ འཕྲིན་དོན་འདི་ཐོབ་ཨིན་(དཔེར་ན་: ག་དེམ་ཅིག་འབད་ ལཱ་དང་ཁྱིམ་གཉིས་ རྩིས་ཐོ་ཅོག་ཐདཔ་སྦེ་ལག་ལེན་འཐབ་ཐོག་ལས་ འབྱུང་ཁུངས་་མ་འདྲཝ་ཨིན་པའི་ཁར་ ཁྱིམ་ལུ་གཙོ་རིམ་བེ་ལུ་ -༡༠ དང་ ལཱ་ལུ་གཙོ་རིམ་བེ་ལུ་ ༡༠༠ ཡོད་པ་ཅིན་ འཕྲིན་་དོན་འདི་ཁྱིམ་གྱིས་ཐོབ་ཨིན་)།"
+
+#: ../src/gnome-jabber.glade.h:254
+msgid "The contact must be asked and permission granted before you can see their online status.  You can personalise the request below if you would like."
+msgstr "འབྲེལ་ས་འདི་འདྲི་ཞིནམ་ལས་ ཁོང་ཚུ་གི་གློག་ཐོག་གནས་ཚད་མཐོང་ཚུགས་པའི་ཧེ་མ་ལས་གནང་བ་བྱིན་ཡོདཔ། ཁྱོད་རའི་བློ་འདོད་ལྟར་ འོག་གི་་ཞུ་བ་འདི་ རང་དོན་བཟོ་ཚུགས།"
+
+#: ../src/gnome-jabber.glade.h:255
+msgid "The details associated with this contact have been requested and should populate below..."
+msgstr "འབྲེལ་ས་དང་འབྲེལ་བའི་རྒྱས་བཤད་ཚུ་ ཞུ་བ་འབད་ཡོདཔ་དང་ དེ་ཚུ་་འོག་ལུ་བཞག་དགོ་་་་་་"
+
+#: ../src/gnome-jabber.glade.h:256
+msgid ""
+"The information you enter on the <i>personal</i> page \n"
+"will be stored on the Jabber Users Directory unless \n"
+"you decide not to by the option below."
+msgstr ""
+"ཁྱོད་ཀྱིས་ <i>personal</i> page \n"
+" གུ་བཙུག་ཡོད་པའི་བརྡ་དོན་འདི་ འོག་གི་གདམ་ཁ་གིས་མ་འབད་ཚུན་ ཇབ་བར་ལག་ལེན་པའི་སྣོད་ཐོ་གུ་གསོ་འཇོག་འབད་འོང་།"
+
+#: ../src/gnome-jabber.glade.h:259
+msgid "The response from the search has been used to populate the list below:"
+msgstr "འཚོལ་ཞིབ་ལས་ཐོབ་པའི་ལན་གསལ་འདི་ འོག་གི་ཐོ་ཡིག་བཞག་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཨིན་:"
+
+#: ../src/gnome-jabber.glade.h:260
+msgid "There is more than one Jabber User Directory.  The largest and most commonly searched directory can be found at <b>users.jabber.org</b>.  Specify the directory you want to search."
+msgstr "ཇབ་བར་ལག་ལེན་པའི་སྣོད་ཐོ་གཅིག་ལས་ལྷག་སྟེ་ཡོདཔ་ཨིན། སྣོད་ཐོ་སྦོམ་ཤོས་དང་ཐུན་མོང་སྦེ་འཚོལ་ཞིབ་འབད་ཡོད་མི་འདི་ <b>users.jabber.org</b>ལུ་མཐོང་ཚུགས། ཁྱོད་ཀྱིས་ འཚོལ་ཞིབ་འབད་དགོ་མནོ་མི་སྣོད་ཐོ་གསལབཀོད་འབད།"
+
+#: ../src/gnome-jabber.glade.h:261
+msgid "This dialog allows you to send a message to a contact which currently does not exist on your roster."
+msgstr "ཌའི་ལོག་འདི་གིས་ ད་ལྟོ་ཁྱོད་རའི་ལས་རིམ་རེའུ་མིག་ནང་མེད་པའི་འབྲེལ་ས་ཅིག་ལུ་ འཕྲིན་དོན་གཏང་བཅུགཔ་ཨིན། "
+
+#: ../src/gnome-jabber.glade.h:262
+msgid "This is used for your nick name in chat/messages."
+msgstr "འ་ནི་འདི་ ཁ་སླབ་/འཕྲིན་དོན་ནང་ལུ་ ཁྱོད་རའི་སྐྱོན་མིང་སྦེ་ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:263
+msgid "This option (if checked) will convert all smiley text to the appropriate image."
+msgstr "གདམ་ཁ་(ཞིབ་དཔྱད་འབད་ཡོད་པ་ཅིན་)འདི་གིས་ སི་མའི་ལི་ཚིག་ཡིག་ཆ་མཉམ་འོས་ལྡན་གཟུགས་བརྙན་ལུ་གཞི་བསྒྱུར་འབད་་འོང་།"
+
+#: ../src/gnome-jabber.glade.h:264
+msgid "This option will make the text in the message/chat windows appear with the last message at the bottom of the text box (if selected)."
+msgstr "གདམཁ་འདི་གིས་ (སེལ་འཐུ་འབད་ཡོད་པ་ཅིན་) ཚིག་ཡིག་སྒྲོམ་གྱི་གཤམ་ལུ་ཡོད་པའི་མཇུག་གི་འཕྲིན་དོན་དང་བཅས་ སྒོ་སྒྲིག་འབྱུང་སྟེ་འཕྲིན་དོན་/ཁ་སླབ་ནང་ཚིག་ཡིག་བཟོ་འོང་།"
+
+#: ../src/gnome-jabber.glade.h:265
+msgid "This should take no more that 30 seconds, please wait!"
+msgstr "དེ་གིས་དཀར་ཆ་ ༣༠ ལས་བརྒལ་ནི་མི་འོང་ ཨ་ཙི་བསྒུག་གནང་!"
+
+#: ../src/gnome-jabber.glade.h:266
+msgid "Time:"
+msgstr "ཆུ་ཚོད་:"
+
+#: ../src/gnome-jabber.glade.h:267
+msgid "Toggle the scrolling."
+msgstr "བཤུད་སྒྲིལ་སོར་སྟོན་འབད་དོ།"
+
+#: ../src/gnome-jabber.glade.h:268
+msgid "Type:"
+msgstr "དབྱེ་བ་:"
+
+#: ../src/gnome-jabber.glade.h:269
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ་:"
+
+#: ../src/gnome-jabber.glade.h:270
+msgid "Unit:"
+msgstr "ཆ་་ཕྲན་:"
+
+#: ../src/gnome-jabber.glade.h:271
+msgid "Us_er name:"
+msgstr "ལག་ལེན་པའི་མིང་:(_e)"
+
+#: ../src/gnome-jabber.glade.h:272
+msgid "Use Docklet"
+msgstr "ཌོཀ་ལེཊི་ལག་ལེན་འཐབ་"
+
+#: ../src/gnome-jabber.glade.h:273
+msgid "Use Plain Te_xt Password (not as secure!)"
+msgstr "(མཐའ་བཙན་སྦེ་མེན་པ་!)ཚིག་ཡིག་ཉག་རྐྱང་གི་ཆོག་ཡིག་ལག་ལེན་འཐབ་"
+
+#: ../src/gnome-jabber.glade.h:274
+msgid "Use SS_L to Server (encrypted communication)"
+msgstr "སར་བར་ལུ་ ཨེསི་ཨེསི་ཨེལ་ ལག་ལེན་འཐབ་(གསང་བཟོས་བརྒྱུད་འབྲེལ་)"
+
+#: ../src/gnome-jabber.glade.h:275
+msgid "Use smiley graphical images"
+msgstr "སི་མའི་ལི་ཚད་རིས་གཟུགས་བརྙན་ ལག་ལེན་འཐབ་"
+
+#: ../src/gnome-jabber.glade.h:276
+msgid "Use spell checker (if possible)"
+msgstr "སྡེབ་དཔྱོདཔ་(འབད་ཚུགས་པ་ཅིན་) ལག་ལེན་འཐབ་"
+
+#: ../src/gnome-jabber.glade.h:277
+msgid "User Information"
+msgstr "ལག་ལེན་པའི་བརྡ་དོན་"
+
+#: ../src/gnome-jabber.glade.h:279
+msgid "User Online"
+msgstr "ལག་ལེན་པའི་ཨཱོཕ་ལ་ཡིན་"
+
+#: ../src/gnome-jabber.glade.h:280
+msgid "Username:"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../src/gnome-jabber.glade.h:281
+msgid "View _Information"
+msgstr "བརྡ་དོན་སྟོན་(_I)"
+
+#: ../src/gnome-jabber.glade.h:282
+msgid "Welcome"
+msgstr "འབྱོན་པ་ལེགས་སོ་"
+
+#: ../src/gnome-jabber.glade.h:283
+msgid "With each message in a chat window, the time is prepended unless this option is set."
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག་ནང་ལུ་ འཕྲིན་དོན་རེ་རེ་དང་བཅས་ གདམ་ཁ་་འདི་གཞི་སྒྲིག་མ་འབད་བའི་ཧེ་མ་ ཆུ་ཚོད་པིརི་པེནཌི་འབད་ཡོདཔ།"
+
+#: ../src/gnome-jabber.glade.h:284
+msgid "XA Status:"
+msgstr "ཨེགསི་ཨེ་ གནས་ཚད་:"
+
+#: ../src/gnome-jabber.glade.h:285
+msgid "You have registered with all agents shown here.  If you wish to add a contact which belongs to a agent NOT listed here, click the \"Register New Service\" button."
+msgstr "ཁྱོད་ཀྱིས་ ནཱ་ལུ་སྟོན་ཡོད་མི་ལས་ཚབ་ཆ་མཉམ་དང་བཅས་ཐོ་བཀོད་འབད་ཡོདཔ། ནཱ་ལུ་ཐོ་ཡིག་མ་བཀོད་པའི་ལས་ཚབ་ཀྱིས་བང་བའི་འབྲེལ་ས་ཅིག་ཁ་སྐོང་བརྐྱབ་དགོ་མནོ་བ་ཅིན་ \"Register New Service\" ཨེབ་རྟ་གུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/gnome-jabber.glade.h:286
+msgid "You need to register with an agent for each protocol.  There are agents for each protocol you have an account with.  Some servers support more protocols than others.  You can use agents from multiple servers too.  "
+msgstr "ཁྱོད་ཀྱིས་གནད་སྤེལ་ལམ་ལུགས་རེ་རེ་གི་དོན་ལུ་ ལས་ཚབ་དང་གཅིག་ཁར་ཐོ་བཀོད་འབད་དགོ ཁྱོད་ལུ་རྩིས་ཐོ་ཡོད་པའི་གནད་སྤེལ་ལམ་ལུགས་རེ་ལུ་ལས་ཚབ་ཚུ་ཡོདཔ་ཨིན། སར་བར་ལ་ལོ་ཅིག་གིས་ གཞན་ལས་ལྷག་སྟེ་གནད་སྤེལ་ལམ་ལུགས་ལེ་ཤ་ཅིག་ལུ་རྒྱབ་སྐྱོར་འབདཝ་ཨིན། དོརུང་ཁྱོད་ཀྱིས་ སྣ་མང་སར་བར་ཚུ་ནང་ལས་ ལས་ཚབ་ཚུ་ལག་ལེན་འཐབ་ཚུགས།"
+
+#: ../src/gnome-jabber.glade.h:287
+msgid "Your <b>name</b> is what identifies you in the room.  It can not duplicate a name in the same room.  There are a number of <b>rooms</b> for each <b>host</b>."
+msgstr "ཁྱོད་རའི་  <b>མིང་</b>འདི་ ཁང་མིག་ནང་ཁྱོད་ར་ངོས་འཛིན་འབད་མི་ཅིག་ཨིན། ཁང་མིག་དེ་ནང་ མིང་བརྫུན་མ་བཟོ་མི་ཚུགས། <b>ཁང་མིག་</b>ལེ་ཤཱ་ཅིག་<b>ཧོསཊི་</b>རེ་རེའི་དོན་ལུ་ ཡོདཔ་ཨིན།"
+
+#: ../src/gnome-jabber.glade.h:288
+msgid "Zone:"
+msgstr "གླིང་སྡེ་:"
+
+#: ../src/gnome-jabber.glade.h:289
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../src/gnome-jabber.glade.h:290
+msgid "_Accept"
+msgstr "དང་ལེན་(_A)"
+
+#: ../src/gnome-jabber.glade.h:291
+msgid "_Action"
+msgstr "བྱ་བ་(_A)"
+
+#: ../src/gnome-jabber.glade.h:292
+msgid "_Add Contact"
+msgstr "འབྲེལ་ས་ཁ་སྐོང་རྐྱབས་(_A)"
+
+#: ../src/gnome-jabber.glade.h:293
+msgid "_Automatically Connect on Startup"
+msgstr "འགོ་བཙུག་ལུ་རང་བཞིན་གྱིས་མཐུད་(_A)"
+
+#: ../src/gnome-jabber.glade.h:294
+msgid "_Browse Services"
+msgstr "ཞབས་ཏོག་ཚུ་བརྡ་འཚོལ་འབད་(_B)"
+
+#: ../src/gnome-jabber.glade.h:296
+msgid "_Close"
+msgstr "ཁ་བསྡམས་(_C)"
+
+#: ../src/gnome-jabber.glade.h:298
+msgid "_Credits"
+msgstr "ངོ་བསྟོད་(_C)"
+
+#: ../src/gnome-jabber.glade.h:299
+msgid "_Debug"
+msgstr "རྐྱེན་སེལ་(_D)"
+
+#: ../src/gnome-jabber.glade.h:300
+msgid "_Disconnect"
+msgstr "མཐུད་བཏོག་(_D)"
+
+#: ../src/gnome-jabber.glade.h:301
+msgid "_Emote"
+msgstr "ཨི་མོཊི་(_E)"
+
+#: ../src/gnome-jabber.glade.h:302
+msgid "_Group Chat"
+msgstr "སྡེ་ཚན་སྦེ་ཁ་སླབ་ནི་(_G)"
+
+#: ../src/gnome-jabber.glade.h:303
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/gnome-jabber.glade.h:305
+msgid "_Homepage"
+msgstr "ཁྱིམ་ཤོག་ལེབ་(_H)"
+
+#: ../src/gnome-jabber.glade.h:306
+msgid "_Host:"
+msgstr "ཧོསཊི་:(_H)"
+
+#: ../src/gnome-jabber.glade.h:307
+msgid "_Information"
+msgstr "བརྡ་དོན་(_I)"
+
+#: ../src/gnome-jabber.glade.h:308
+msgid "_Jabber"
+msgstr "ཇབ་བར་(_J)"
+
+#: ../src/gnome-jabber.glade.h:309
+msgid "_Log"
+msgstr "དྲན་དེབ་(_L)"
+
+#: ../src/gnome-jabber.glade.h:310
+msgid "_Message:"
+msgstr "འཕྲིན་དོན་:(_M)"
+
+#: ../src/gnome-jabber.glade.h:311
+msgid "_Port:"
+msgstr "འདྲེན་ལམ་:(_P)"
+
+#: ../src/gnome-jabber.glade.h:312
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../src/gnome-jabber.glade.h:313
+msgid "_Quit"
+msgstr "སྤང་(_Q)"
+
+#: ../src/gnome-jabber.glade.h:314
+msgid "_Register New Account"
+msgstr "རྩིས་ཐོ་གསརཔ་ཐོ་བཀོད་འབད་(_R)"
+
+#: ../src/gnome-jabber.glade.h:315
+msgid "_Reject"
+msgstr "དང་ལེན་སྤངས་(_R)"
+
+#: ../src/gnome-jabber.glade.h:316
+msgid "_Reply"
+msgstr "ལན་གསལ་(_R)"
+
+#: ../src/gnome-jabber.glade.h:317
+msgid "_Resource:"
+msgstr "འབྱུང་ཁུངས་:(_R)"
+
+#: ../src/gnome-jabber.glade.h:318
+msgid "_Send"
+msgstr "གཏང་(_S)"
+
+#: ../src/gnome-jabber.glade.h:319
+msgid "_Server:"
+msgstr "སར་བར་:(_S)"
+
+#: ../src/gnome-jabber.glade.h:320
+msgid "_State:"
+msgstr "གནས་ལུགས་:(_S)"
+
+#: ../src/gnome-jabber.glade.h:321
+msgid "_Subject:"
+msgstr "ཆོས་ཚན་:(_S)"
+
+#: ../src/gnome-jabber.glade.h:322
+msgid "_Time:"
+msgstr "ཆུ་ཚོད་:(_T)"
+
+#: ../src/gnome-jabber.glade.h:323
+msgid "_Unregister"
+msgstr "ཐོ་བཀོད་འབད་བཤོལ་(_U)"
+
+#: ../src/gnome-jabber.glade.h:324
+msgid "_Unregister Account"
+msgstr "རྩིས་ཐོ་ཐོབཀོད་འབད་བཤོལ་(_U)"
+
+#: ../src/gnome-jabber.glade.h:325
+msgid "_Update"
+msgstr "དུས་མཐུན་བཟོ་(_U)༉"
+
+#: ../src/gnome-jabber.glade.h:326
+msgid "_Username:"
+msgstr "ལག་ལེན་པའི་མིང་:(_U)"
+
+#: ../src/gnome-jabber.glade.h:327
+msgid "_View"
+msgstr "མཐོང་སྣང་(_V)"
+
+#: ../src/gnome-jabber.glade.h:328
+msgid "e.g. For MSN messenger, use joe@hotmail.com.   e.g. For ICQ, use the UIN, i.e. 14591108"
+msgstr "དཔེར་ན་ ཨེམ་ཨེསི་ཨེན་འཕྲིན་སྐྱེལ་པའི་དོན་ལུ་  joe@hotmail.com ལག་ལེན་འཐབ། དཔེར་ན་ ཨའི་སི་ཀིའུ་གི་དོན་ལུ་ ༡༤༥༩༡༡༠༨ འབད་མི་ཡུ་ཨའི་ཨེན་འདི་ལག་ལེན་འཐབ་"
+
+#: ../src/gnome-jabber.glade.h:329
+msgid "e.g. MSN, ICQ, AIM, etc"
+msgstr "དཔེར་ན་ ཨེམ་ཨེསི་ཨེན་ ཨའི་སི་ཀིའུ་ ཨེ་ཨའི་ཨེམ་ལ་སོགས་པ་"
+
+#: ../src/gnome-jabber.glade.h:330
+msgid "e.g. joebloggs@jabber.org"
+msgstr "དཔེར་ན་ joebloggs@jabber.org"
+
+#: ../src/gnome-jabber.glade.h:332
+msgid "results"
+msgstr "གྲུབ་འབྲས་"
+
+#: ../src/gnome-jabber.glade.h:333
+msgid "users.jabber.org"
+msgstr "users.jabber.org"
+

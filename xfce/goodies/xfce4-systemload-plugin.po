@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-systemload-plugin.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-17 11:09+0100\n"
+"PO-Revision-Date: 2007-04-10 11:16+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/cpu.c:58
+msgid "File /proc/stat not found!"
+msgstr "ཡིག་སྣོད་ /པོརོཀ་/སིཊེཊི་མ་ཐོབ!"
+
+#: ../panel-plugin/systemload.c:159
+#, c-format
+msgid "System Load: %ld%%"
+msgstr "རིམ་ལུགས་མངོན་གསལ: %ld%%"
+
+#: ../panel-plugin/systemload.c:167
+#, c-format
+msgid "Memory: %ldMB of %ldMB used"
+msgstr "དྲན་ཚད: %ldMB of %ldMB ལག་ལེན་འཐབ་སྟེ་ཡོད་"
+
+#: ../panel-plugin/systemload.c:176
+#, c-format
+msgid "Swap: %ldMB of %ldMB used"
+msgstr "བརྗེ་སོར: %ldMB of %ldMB ལག་ལེན་འཐབ་ཡོདཔ་"
+
+#: ../panel-plugin/systemload.c:179
+msgid "No swap"
+msgstr "བརྗེ་སོར་མེད་"
+
+#: ../panel-plugin/systemload.c:190
+#, c-format
+msgid "%d days"
+msgstr "%d ཉིནམ་ཚུ་"
+
+#: ../panel-plugin/systemload.c:197
+msgid "Uptime:"
+msgstr "བཏུབ་པའི་དུས་ཚོད:"
+
+#: ../panel-plugin/systemload.c:683
+msgid "Select color"
+msgstr "ཚོས་གཞི་སེལ་འཐུ་འབད་"
+
+#: ../panel-plugin/systemload.c:747
+msgid "CPU monitor"
+msgstr "སི་པི་ཡུ་ལྟ་རྟོག་པ་"
+
+#: ../panel-plugin/systemload.c:748
+msgid "Memory monitor"
+msgstr "དྲན་ཚད་ལྟ་རྟོག་པ་"
+
+#: ../panel-plugin/systemload.c:749
+msgid "Swap monitor"
+msgstr "ལྟ་རྟོག་པ་བརྗེ་སོར་འབད་"
+
+#: ../panel-plugin/systemload.c:750
+msgid "Uptime monitor"
+msgstr "ལྟ་རྟོག་པ་བཏུབ་པའི་དུས་ཚོད་"
+
+#: ../panel-plugin/systemload.c:755
+#: ../panel-plugin/systemload.desktop.in.in.h:2
+msgid "System Load Monitor"
+msgstr "རིམ་ལུགས་མངོན་གསལ་ལྟ་རྟོག་པ་"
+
+#: ../panel-plugin/systemload.c:782
+#: ../panel-plugin/systemload.c:863
+msgid "Show monitor"
+msgstr "ལྟ་རྟོག་པ་སྟོན་"
+
+#: ../panel-plugin/systemload.c:792
+msgid "Text to display:"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ཨིན་པའི་ཚིག་ཡིག:"
+
+#: ../panel-plugin/systemload.c:824
+msgid "Bar color:"
+msgstr "ཚོས་གཞི་ཕྲ་རིང་:"
+
+#: ../panel-plugin/uptime.c:52
+msgid "File /proc/uptime not found!"
+msgstr "ཡིག་སྣོད་ /པོརོཀ་/བཏུབ་པའི་དུས་ཚོད་མ་ཐོབ!"
+
+#: ../panel-plugin/systemload.desktop.in.in.h:1
+msgid "Monitor CPU load, swap usage and memory footprint"
+msgstr "ལྟ་རྟོག་པ་སི་པི་ཡུ་མངོན་གསལ་  བེད་སྤྱོད་དང་དྲན་ཚད་ཕུཊི་པིརིནཊི་བརྗེ་སོར་འབད་"
+

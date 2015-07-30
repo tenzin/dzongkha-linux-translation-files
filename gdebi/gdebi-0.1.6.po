@@ -1,0 +1,422 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gdebi-0.1.6.po\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2006-08-22 19:35+0000\n"
+"PO-Revision-Date: 2006-11-20 02:39+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gdebi:20
+#, c-format
+msgid "Usage: %s [package.deb]"
+msgstr "བེད་སྤྱོད: %s [package.deb]"
+
+#: ../gdebi:22
+msgid ""
+"To use the graphical user interface, right-click\n"
+"on a '.deb' software package in the file browser\n"
+"and select: Open with 'GDebi Package Installer'."
+msgstr ""
+"ས་ཆའི་ལག་ལེན་པ་ངོས་དཔར་་ལག་ལེན་འཐབ་ནི་ལུ་\n"
+"ཡིག་སྣོད་བརའུ་ཟར་འདི་ནང་མཉེན་ཆས་ཐུམ་སྒྲིལ་ '.deb' ཅིག་གུ་གཡས་ཨེབ་གཏང་འབད་\n"
+"དང་: ཁ་ཕྱེ་མི་དང་གཅིག་ཁར་ 'GDebi Package Installer'སེལ་འཐུ་འབད།"
+
+#: ../gdebi:27
+#, c-format
+msgid "gdebi error, file not found: %s"
+msgstr "ཇི་ཌི་བི་ཨའི་འཛོལ་བ་ཡིག་སྣོད་འཚོལ་མ་འཐོབ:%s"
+
+#: ../gdebi:33
+#: ../GDebi/GDebiCli.py:70
+msgid "Do you want to install the software package? [y/N]:"
+msgstr "ཁྱོད་ཀྱི་མཉེན་ཆས་ཐུམ་སྒྲིལ་འདི་གཞི་འཛུགས་འབད་ནི་ཨིན་ན་? [y/N]:"
+
+#: ../gdebi-gtk:27
+msgid "Run non-interactive (dangerous!)"
+msgstr "ཕན་ཚུན་འབྲེལ་ལྡན་ཅན་(ཉེན་ཁ་ཅན!)གཡོག་བཀོལ།"
+
+#: ../data/gdebi.glade.h:1
+msgid "  "
+msgstr "  "
+
+#: ../data/gdebi.glade.h:2
+msgid "(c) 2005-2006 Canonical"
+msgstr "(སི) ༢༠༠༥-༢༠༠༦ ཀེ་ནོ་ནི་ཀཱལ།"
+
+#: ../data/gdebi.glade.h:3
+msgid "<b><big>   </big></b>"
+msgstr "<b><big>   </big></b>"
+
+#: ../data/gdebi.glade.h:4
+msgid "<b>Maintainer:</b>"
+msgstr "<b>རྒྱུན་སྐྱོང་པ:</b>"
+
+#: ../data/gdebi.glade.h:5
+msgid "<b>Priority:</b>"
+msgstr "<b>གཙོ་རིམ:</b>"
+
+#: ../data/gdebi.glade.h:6
+msgid "<b>Section:</b>"
+msgstr "<b>དབྱེ་ཚན:</b>"
+
+#: ../data/gdebi.glade.h:7
+msgid "<b>Size:</b>"
+msgstr "<b>ཚད:</b>"
+
+#: ../data/gdebi.glade.h:8
+msgid "<b>To install the following changes are required:</b>"
+msgstr "<b>གཞི་འཛུགས་འབད་ནི་ལུ་འོག་གི་བསྒྱུར་བཅོས་ཚུ་དགོས་མཁོ་ཡོདཔ:</b>"
+
+#: ../data/gdebi.glade.h:9
+msgid "<b>Version:</b>"
+msgstr "<b>ཐོན་རིམ:</b>"
+
+#: ../data/gdebi.glade.h:10
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../data/gdebi.glade.h:11
+msgid "Description:"
+msgstr "འགྲེལ་བཤད:"
+
+#: ../data/gdebi.glade.h:12
+msgid "Details"
+msgstr "རྒྱས་བཤད་ཚུ།"
+
+#: ../data/gdebi.glade.h:13
+msgid "GPL, see /usr/share/common-licenses/GPL"
+msgstr "ཇི་པི་ཨེལ་   /ཡུ་ཨེསི་ཨར/རུབ་སྤྱོད་/མཐུན་མོང་ཆོག་ཐམ་ལག་འཁྱེར་/ཇི་པི་ཨེལ་བལྟ།"
+
+#: ../data/gdebi.glade.h:14
+msgid "Included Files"
+msgstr "གྲངས་སུ་བཙུགས་ཡོད་མི་ཡིག་སྣོད་ཚུ།"
+
+#: ../data/gdebi.glade.h:15
+#: ../data/gdebi.desktop.in.h:2
+msgid "Install and view software packages"
+msgstr "མཉེན་ཆས་ཐུམ་སྒྲིལ་ཚུ་བལྟ་ནི་དང་གཞི་འཛུགས་འབད་ནི།"
+
+#: ../data/gdebi.glade.h:16
+#: ../data/gdebi.desktop.in.h:3
+msgid "Package Installer"
+msgstr "ཐུམ་སྒྲིལ་གཞི་འཛུགས་འབད་མི།"
+
+#: ../data/gdebi.glade.h:17
+msgid "Package:"
+msgstr "ཐུམ་སྒྲིལ:"
+
+#: ../data/gdebi.glade.h:18
+msgid "Status:"
+msgstr "གནས་ཚད:"
+
+#: ../data/gdebi.glade.h:19
+msgid "Terminal"
+msgstr "ཊར་མི་ནཱལ།"
+
+#: ../data/gdebi.glade.h:20
+msgid "_Details"
+msgstr "རྒྱས་བཤད་ཚུ།(_D)"
+
+#: ../data/gdebi.glade.h:21
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../data/gdebi.glade.h:22
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../data/gdebi.glade.h:23
+#: ../GDebi/GDebi.py:214
+#: ../GDebi/GDebi.py:282
+msgid "_Install Package"
+msgstr "ཐུམ་སྒྲིལ་གཞི་འཛུགས་འབད།(_I)"
+
+#: ../data/gdebi.glade.h:24
+msgid "gdebi"
+msgstr "ཇི་ཌི་བི་ཨའི།"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../data/gdebi.glade.h:26
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད་ཚུ།"
+
+#: ../data/gdebi.xml.in.h:1
+msgid "Software package"
+msgstr "མཉེན་ཆས་ཐུམ་སྒྲིལ།"
+
+#: ../data/gdebi.desktop.in.h:1
+msgid "GDebi Package Installer"
+msgstr "ཇི་ཌི་བི་ཨའི་ཐུམ་སྒྲིལ་གཞི་འཛུགས་འབད་མི།"
+
+#: ../GDebi/GDebi.py:54
+msgid "Loading..."
+msgstr "མངོན་གསལ་འབད་དོ..."
+
+#: ../GDebi/GDebi.py:73
+msgid "Broken dependencies"
+msgstr "རྟེན་འབྲེལ་ཚུ་ཆད་པ།"
+
+#: ../GDebi/GDebi.py:74
+msgid "Your system has broken dependencies. This application can not continue until this is fixed. To fix it run 'sudo synaptic' or 'sudo apt-get install -f' in a terminal window."
+msgstr "ཁྱོད་ཀྱི་རིམ་ལུགས་ཀྱིས་རྟེན་འབྲེལ་ཚུ་ཆད་གཏང་ཡོདཔ། གློག་རིམ་འདིའི་དཀའ་ངལ་མ་སེལ་ཚུན་ཚོད་འཕྲོ་མཐུད་མི་ཚུགས། དཀའ་ངལ་སེལ་ནི་ལུ་ཊར་མི་ནལ་ཝིནཌོ་ཅིག་ནང་ 'sudo synaptic' ཡང་ན་'sudo apt-get install -f'གཡོག་བཀོལ།"
+
+#: ../GDebi/GDebi.py:134
+#, python-format
+msgid "Could not open '%s'"
+msgstr "ཁ་ཕྱེ་མ་བཏུབ་ '%s'"
+
+#: ../GDebi/GDebi.py:135
+#: ../GDebi/GDebiCli.py:20
+msgid "The package might be corrupted or you are not allowed to open the file. Check the permissions of the file."
+msgstr "ཐུམ་སྒྲིལ་འདི་ངན་ཅན་བཟོ་ཡོདཔ་ཡང་ན་ཁྱོད་ཀྱིས་ཡིག་སྣོད་འདི་ཁ་ཕྱེ་མ་ཆོགཔ་ཨིན། ཡིག་སྣོད་འདི་གི་གནང་བ་ཚུ་ཞིབ་དཔྱད་འབད།"
+
+#. set window title
+#: ../GDebi/GDebi.py:148
+#, python-format
+msgid "Package Installer - %s"
+msgstr "ཐུམ་སྒྲིལ་གཞི་འཛུགས་འབད་མི - %s"
+
+#: ../GDebi/GDebi.py:221
+msgid "Same version is already installed"
+msgstr "ཐོན་རིམ་ཅོག་འཐདཔ་འདི་ཧེ་མ་ལས་གཞི་འཛུགས་འབད་ཡོདཔ།"
+
+#: ../GDebi/GDebi.py:222
+msgid "_Reinstall Package"
+msgstr "ཐུམ་སྒྲིལ་སླར་གཞི་འཛུགས་འབད།(_R)"
+
+#: ../GDebi/GDebi.py:239
+msgid "Same version is available in a software channel"
+msgstr "ཐོན་རིམ་གཅིགཔ་འདི་མཉེན་ཆས་རྒྱུན་ལམ་ཅིག་ནང་འཐོབ་ཚུགསཔ་ཨིན།"
+
+#: ../GDebi/GDebi.py:240
+msgid "You are recommended to install the software from the channel instead."
+msgstr "ཚབ་ལུ་རྒྱུན་ལམ་འདི་ལས་མཉེན་ཆས་འདི་གཞི་འཛུགས་འབད་ནི་ལུ་འོས་སྦྱོར་འབད་ཡོདཔ་ཨིན།"
+
+#: ../GDebi/GDebi.py:244
+msgid "An older version is available in a software channel"
+msgstr "ཐོན་རིམ་རྒས་མི་འདི་མཉེན་ཆས་རྒྱུན་ལམ་ཅིག་ནང་འཐོབ་ཚུགསཔ།"
+
+#: ../GDebi/GDebi.py:245
+msgid "Generally you are recommended to install the version from the software channel, since it is usually better supported."
+msgstr "ཡོངས་ཁྱབ་ཀྱི་ཁྱོད་ཀྱི་མཉེན་ཆས་རྒྱུན་ལམ་ལས་ཐོན་རིམ་འདི་གཞི་འཛུགས་འབད་ནི་ལུ་སྤྱིར་བཏང་ལེགས་མི་འབད་རྒྱབ་སྐྱོར་འབད་ཡོདཔ་ལས་འོས་སྦྱོར་འབད་ཡོདཔ་ཨིན།"
+
+#: ../GDebi/GDebi.py:250
+msgid "A later version is available in a software channel"
+msgstr "ཤུལ་མམ་གྱི་ཐོན་རིམ་ཅིག་མཉེན་ཆས་རྒྱུན་ལམ་ཅིག་ནང་འཐོབ་ཚུགསཔ།"
+
+#: ../GDebi/GDebi.py:252
+msgid "You are strongly advised to install the version from the software channel, since it is usually better supported."
+msgstr "ཁྱོད་ཀྱིས་མཉེན་ཆས་རྒྱུན་ལམ་ལས་ཐོན་རིམ་འདི་གཞི་འཛུགས་འབད་ནི་སྤྱིར་བཏང་འདི་ལུགས་མི་སྦེ་རྒྱབ་སྐྱོར་འབད་ཡོདཔ་ལས་ཁ་བཀོད་སྒྲིང་སྒྲིང་བྱིན་ཡོདཔ་ཨིན།"
+
+#: ../GDebi/GDebi.py:269
+msgid "All dependencies are satisfied"
+msgstr "རྟེན་འབྲེལ་ཚུ་ཆ་མཉམ་ངལ་རངས་ཡོདཔ།"
+
+#. FIXME: use ngettext here
+#: ../GDebi/GDebi.py:275
+#, python-format
+msgid "Requires the <b>removal</b> of %s packages\n"
+msgstr "ཐུམ་སྒྲིལ་ཚུ %s གི་<b>རྩ་བསྐྲད་གཏང་ནི་</b>འདི་དགོས་མཁོ་ཡདོཔ།\n"
+
+#: ../GDebi/GDebi.py:277
+#, python-format
+msgid "Requires the installation of %s packages"
+msgstr "ཐུམ་སྒྲིམ་ཚུ་ %s གི་གཞི་འཛུགས་འབད་ནི་འདི་དགོས་མཁོ་ཡོདཔ།"
+
+#: ../GDebi/GDebi.py:291
+#, python-format
+msgid "<b>To be removed: %s</b>"
+msgstr "<b>རྩ་བསྐྲད་གཏང་ནི་ཨིན་མི་: %s</b>"
+
+#: ../GDebi/GDebi.py:293
+#, python-format
+msgid "To be installed: %s"
+msgstr "གཞི་འཛུགས་འབད་ནི་ཨིན་མི: %s"
+
+#: ../GDebi/GDebi.py:307
+msgid "Open Software Package"
+msgstr "མཉེན་ཆས་ཐུམ་སྒྲིལ་ཁ་ཕྱེ།"
+
+#: ../GDebi/GDebi.py:312
+msgid "Software packages"
+msgstr "མཉེན་ཆས་ཐུམ་སྒྲིལ་ཚུ།"
+
+#. print "install"
+#: ../GDebi/GDebi.py:330
+msgid "Installing package file..."
+msgstr "ཐུམ་སྒྲིལ་ཡིག་སྣོད་གཞི་འཛུགས་འབད་དོ..."
+
+#: ../GDebi/GDebi.py:333
+msgid "Install unauthenticated software?"
+msgstr "བདེན་བཤད་མ་འབད་བའི་མཉེན་ཆས་གཞི་འཛུགས་འབད་ནི་ཨིན་ན?"
+
+#: ../GDebi/GDebi.py:334
+msgid ""
+"Malicous software can damage your data and take control of your system.\n"
+"\n"
+"The packages below are not authenticated and could therefor be of malicous nature."
+msgstr ""
+"ངེན་སེམས་ཅན་གྱི་མཉེན་ཆས་ཀྱིས་ཁྱོད་ཀྱི་གནས་སྡུད་མེདཔ་གཏངམ་དང་ཁྱོད་ཀྱི་རིམ་ལུགས་གྱི་ཚད་འཛིན་འབད་འོང་།\n"
+"\n"
+"འོག་གི་ཐུམ་སྒྲིལ་ཚུ་བདེན་བཤད་མེདཔ་ལས་ངེན་སེམས་ཅན་གྱི་རང་བཞིན་འོང་།"
+
+#: ../GDebi/GDebi.py:372
+#: ../GDebi/GDebi.py:394
+msgid "Only one software management tool is allowed to run at the same time"
+msgstr "མཉེན་ཆས་འཛིན་སྐྱོང་ལག་ཆས་གཅིག་རྐྱངམ་ཅིག་དུས་ཚོད་གཅིགཔ་ལུ་གཡོག་བཀོལ་བཅུགཔ་ཨིན།"
+
+#: ../GDebi/GDebi.py:374
+#: ../GDebi/GDebi.py:396
+msgid "Please close the other application e.g. 'Update Manager', 'aptitude' or 'Synaptic' first."
+msgstr "གཞན་གློག་རིམ་འདི་ཁ་བསྡམས་གནང་། དཔེར་ན་ 'Update Manager', 'aptitude' ཡང་་ན་ 'Synaptic' ཧེ་མ།"
+
+#: ../GDebi/GDebi.py:418
+msgid "Could not download all required files"
+msgstr "དགོས་མཁོ་ཡོད་པའི་ཡིག་སྣོད་ཚུ་ཆ་མཉམ་ཕབ་ལེན་འབད་མ་བཏུབ།"
+
+#: ../GDebi/GDebi.py:419
+msgid "Please check your internet connection or installation medium."
+msgstr "ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་མཐུད་ལམ་ཡང་ན་གཞི་འཛུགས་བརྡ་ལམ་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../GDebi/GDebi.py:423
+msgid "Could not install all dependencies"
+msgstr "རྟེན་འབྲེལ་ཚུ་ཆ་མཉམ་གཞི་འཛུགས་མ་ཚུགསཔ།"
+
+#: ../GDebi/GDebi.py:424
+msgid "Usually this is related to an error of the software distributor. See the terminal window for more details."
+msgstr "མཉེན་ཆས་བགོ་བཀྲམ་པ་གི་འཛོལ་བ་ཅིག་ལུ་འབྲེལ་བ་ཡོདཔ་སྤྱིར་བཏང་། རྒྱས་བཤད་ཚུ་གི་དོན་ལུ་ཊར་མི་ནལིནཌོ་འདི་བལྟ།"
+
+#: ../GDebi/GDebi.py:433
+msgid "Failed to install package file"
+msgstr "ཐུམ་སྒྲིལ་ཡིག་སྣོད་གཞི་འཛུགས་འབད་ནི་ལུ་འཐུས་ཤོར་ཡོདཔ།"
+
+#. install the package itself
+#: ../GDebi/GDebi.py:437
+msgid "Installing package file"
+msgstr "ཐུམ་སྒྲིལ་ཡིག་སྣོད་གཞི་འཛུགས་འབད་དོ།"
+
+#: ../GDebi/GDebi.py:448
+msgid "Installation finished"
+msgstr "གཞི་འཛུགས་འབད་ནི་མཇུག་བསྡུས་ཡོདཔ།"
+
+#: ../GDebi/GDebi.py:450
+#, python-format
+msgid "Package '%s' was installed"
+msgstr "ཐུམ་སྒྲིལ་ '%s' དེ་གཞི་འཛུགས་འབད་ཡོདཔ།"
+
+#: ../GDebi/GDebi.py:452
+#, python-format
+msgid "Failed to install package '%s'"
+msgstr "གཞི་འཛུགས་འབད་ནི་ལུ་འཐུས་ཤོར་ཡོད་མི་ཐུམ་སྒྲིལ '%s'"
+
+#: ../GDebi/GDebi.py:454
+msgid "Installation complete"
+msgstr "གཞི་འཛུགས་འབད་ནི་མཇུག་བསྡུས་ཡོདཔ།"
+
+#: ../GDebi/GDebi.py:462
+msgid "Failed to completely install all dependencies"
+msgstr "རྟེན་འབྲེལ་ཚུ་ཆ་མཉམ་གཞི་འཛུགས་འབད་ནི་རྩ་བ་ལས་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../GDebi/GDebi.py:463
+msgid "To fix this run 'sudo apt-get install -f' in a terminal window."
+msgstr "ཊར་མི་ཝིནཌོ་ཅིག་ནང་ 'sudo apt-get install -f' གཡོག་བཀོལ་་ནི་འདི་དཀའ་ངལ་སེལ་ནི་ལུ།"
+
+#. ui
+#: ../GDebi/GDebi.py:540
+#, python-format
+msgid "Installing '%s'..."
+msgstr "གཞི་འཛུགས་འབད་དོ '%s'..."
+
+#: ../GDebi/GDebi.py:618
+msgid "Installing dependencies..."
+msgstr "རྟེན་འབྲེལ་ཚུ་གཞི་འཛུགས་འབད་དོ..."
+
+#. print "start()"
+#: ../GDebi/GDebi.py:642
+msgid "Downloading additional package files..."
+msgstr "ཁ་སྐོང་འབད་ནི་ཐུམ་སྒྲིལ་ཡིག་སྣོད་ཚུ་ཕབ་ལེན་འབད་དོ..."
+
+#: ../GDebi/GDebi.py:648
+#, python-format
+msgid "File %s of %s at %s/s"
+msgstr "ལུ %s གི %s ཡིག་སྣོད %s/s"
+
+#. print "mediaChange %s %s" % (medium, drive)
+#: ../GDebi/GDebi.py:655
+#, python-format
+msgid "Please insert '%s' into the drive '%s'"
+msgstr "འདྲེན་འཕྲུལ་ནང་ན་ '%s' བཙུགས་གནང་། '%s'"
+
+#: ../GDebi/DebPackage.py:85
+#, python-format
+msgid "Dependency is not satisfiable: %s\n"
+msgstr "རྟེན་འབྲེལ་འདི་ངལ་རངས་བཏུབ་མེན་པས: %s\n"
+
+#: ../GDebi/DebPackage.py:102
+#, python-format
+msgid "Conflicts with the installed package '%s'"
+msgstr "གཞི་འཛུགས་འབད་ཡོད་མི་ཐུམ་སྒྲིལ་དང་གཅིག་ཁར་མི་མཐུན་པ་ཚུ་'%s'"
+
+#: ../GDebi/DebPackage.py:187
+#, python-format
+msgid "Wrong architecture '%s'"
+msgstr "བཟོ་བཀོད་འཛོལ་བ '%s'"
+
+#. the deb is older than the installed
+#: ../GDebi/DebPackage.py:193
+msgid "A later version is already installed"
+msgstr "ཤུལ་མམ་གྱི་ཐོན་རིམ་ཅིག་ཧེ་མ་ལས་གཞི་འཛུགས་འབད་ཡོདཔ།"
+
+#: ../GDebi/DebPackage.py:221
+#, python-format
+msgid "Cannot install '%s'"
+msgstr "གཞི་འཛུགས་འབད་མི་བཏུབ '%s'"
+
+#: ../GDebi/DebPackage.py:231
+msgid "Failed to satisfy all dependencies (broken cache)"
+msgstr "རྟེན་འབྲེལ་(འདྲ་མཛོད་ཆད་པ)ཚུ་ཆ་མཉམངལ་རངས་ལུ་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#. Translators: it's for missing entries in the deb package,
+#. e.g. a missing "Maintainer" field
+#: ../GDebi/DebPackage.py:280
+#, python-format
+msgid "%s is not available"
+msgstr "%s འཐོབ་མ་ཚུགསཔ།"
+
+#: ../GDebi/GDebiCli.py:19
+msgid "Failed to open the software package"
+msgstr "མཉེན་ཆས་ཐུམ་སྒྲིལ་འདི་ཁ་ཕྱེ་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../GDebi/GDebiCli.py:28
+msgid "No description is available"
+msgstr "འགྲེལ་བཤད་འདི་འཐོབ་ཚུགསཔ་མེདཔ།"
+
+#: ../GDebi/GDebiCli.py:32
+msgid "This package is uninstallable"
+msgstr "ཐུམ་སྒྲིལ་འདི་གཞི་འཛུགས་འབད་མི་བཏུབ།"
+
+#: ../GDebi/GDebiCli.py:39
+msgid "The following packages are UNAUTHENTICATED: "
+msgstr "འོག་གི་ཐུམ་སྒྲིལ་ཚུ་བདེན་བཤད་མེདཔ: "
+
+#: ../GDebi/GDebiCli.py:43
+msgid "Requires the REMOVAL of the following packages: "
+msgstr "འོག་གི་ཐུམ་སྒྲིལ་ཚུ་གི་རྩ་བསྐྲད་གཏང་ནི་འདི་དགོས་མཁོ་ཡོདཔ: "
+
+#: ../GDebi/GDebiCli.py:48
+msgid "Requires the installation of the following packages: "
+msgstr "འོག་གི་ཐུམ་སྒྲིལ་ཚུ་གི་གཞི་འཛུགས་དགཅས་མཁོ་ཡོདཔ།: "
+

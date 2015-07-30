@@ -1,0 +1,1377 @@
+# translation of gimp-plug-ins.HEAD.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Dorji Tashi <dorjee_doss@hotmail.com>, 2006.
+# Sonam Rinchen <somchen@druknet.bt>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-plug-ins.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-03 11:15+0200\n"
+"PO-Revision-Date: 2006-05-11 21:45+0530\n"
+"Last-Translator: Jurmey Rabgay <jurmeyti@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Progress bar for rendering tiles
+#: ../plug-ins/common/mosaic.c:559
+msgid "Rendering tiles"
+msgstr "ལྷག་སྟོན་ཊ་ཡིལསི།"
+
+#: ../plug-ins/common/mosaic.c:592
+msgid "Mosaic"
+msgstr "མོ་ས་ཡིཀ"
+
+#: ../plug-ins/common/mosaic.c:632
+msgid "Squares"
+msgstr "གྲུ་བཞི་ཚུ།"
+
+#: ../plug-ins/common/mosaic.c:633
+msgid "Hexagons"
+msgstr "ཟུར་དྲུག་མ་ཚུ།"
+
+#: ../plug-ins/common/mosaic.c:634
+msgid "Octagons & squares"
+msgstr "ཟུར་བརྒྱད་མ་ཚུ་དང་གྲུ་བཞི་ཚུ།"
+
+#: ../plug-ins/common/mosaic.c:635
+msgid "Triangles"
+msgstr "ཟུར་གསུམ་མ་ཚུ།"
+
+#: ../plug-ins/common/mosaic.c:643
+msgid "_Tiling primitives:"
+msgstr "ཊའི་ལིང་ པིརི་མི་ཊིབསི།(_T)"
+
+#: ../plug-ins/common/mosaic.c:651
+msgid "Tile _size:"
+msgstr "ཊ་ཡིལ་གྱི་ཚད་:(_s)"
+
+#: ../plug-ins/common/mosaic.c:676
+msgid "Til_e spacing:"
+msgstr "ཊ་ཡིལ་གྱི་བར་སྟོང་བཞག་ཐངས་:(_e)"
+
+#: ../plug-ins/common/mosaic.c:688
+msgid "Tile _neatness:"
+msgstr "ཊ་ཡིལ་བཀོད་ལེགས་ཅན་:(_n)"
+
+#: ../plug-ins/common/mosaic.c:701
+msgid "Light _direction:"
+msgstr "འོད་ཀྱི་ཁ་ཕྱོགས་:(_d)"
+
+#: ../plug-ins/common/mosaic.c:713
+msgid "Color _variation:"
+msgstr "ཚོས་གཞིའི་འགྱུར་བ་:(_v)"
+
+#: ../plug-ins/common/mosaic.c:742
+msgid "Co_lor averaging"
+msgstr "ཚོས་གཞི་ཆ་སྙོམས་བཟོ་ནི།(_l)"
+
+#: ../plug-ins/common/mosaic.c:755
+msgid "Allo_w tile splitting"
+msgstr "ཊ་ཡིལ་གཤག་བཅུག(_w)"
+
+#: ../plug-ins/common/mosaic.c:768
+msgid "_Pitted surfaces"
+msgstr "ཐིག་ཁྲ་ཅན་གྱི་ཕྱི་ངོས་ཚུ།(_p)"
+
+#: ../plug-ins/common/mosaic.c:781
+msgid "_FG/BG lighting"
+msgstr "ཨེཕི་ཇི་/བི་ཇི་ འོད་འཆར་བ།(_F)"
+
+#: ../plug-ins/common/mosaic.c:2685
+msgid "Unable to add additional point.\n"
+msgstr "ཁ་སྐོང་ཅན་གྱི་གནད་དོན་ ཁ་སྐོང་རྐྱབ་མ་ཚུགས།\n"
+
+#: ../plug-ins/common/neon.c:134
+msgid "Simulate the glowing boundary of a neon light"
+msgstr "འོད་རྫས་འོད་ཀྱི་དམར་མདངས་མཐའ་མཚམས་ ཤུགས་བསྐྱེད་ནི།"
+
+#: ../plug-ins/common/neon.c:139
+msgid "_Neon..."
+msgstr "འོད་རྫས་་་(_N)"
+
+#: ../plug-ins/common/neon.c:211
+msgid "Neon"
+msgstr "འོད་རྫས།"
+
+#: ../plug-ins/common/neon.c:702
+msgid "Neon Detection"
+msgstr "འོད་རྫས་སྐྱོན་འཛིན།"
+
+#: ../plug-ins/common/neon.c:754
+#: ../plug-ins/common/unsharp.c:694
+msgid "_Amount:"
+msgstr "དངུལ་བསྡོམས་:(_A)"
+
+#: ../plug-ins/common/newsprint.c:127
+msgid "Round"
+msgstr "སྒོར་སྒོརམ།"
+
+#: ../plug-ins/common/newsprint.c:136
+msgid "Line"
+msgstr "གྲལ་ཐིག"
+
+#: ../plug-ins/common/newsprint.c:145
+msgid "Diamond"
+msgstr "ཕ་ལམ།"
+
+#: ../plug-ins/common/newsprint.c:153
+msgid "PS Square (Euclidean Dot)"
+msgstr "པི་ཨེསི་ གྲུ་བཞི་(ཡུ་ཀིལི་ཌི་ཡེན་ ཌོཊི་)།"
+
+#: ../plug-ins/common/newsprint.c:162
+msgid "PS Diamond"
+msgstr "པི་ཨེསི་ ཕ་ལམ།"
+
+#: ../plug-ins/common/newsprint.c:334
+msgid "_Grey"
+msgstr "སྐྱ་ཐལ།(_G)"
+
+#: ../plug-ins/common/newsprint.c:347
+msgid "R_ed"
+msgstr "དམརཔོ།(_e)"
+
+#: ../plug-ins/common/newsprint.c:376
+msgid "C_yan"
+msgstr "སྔོ་ལྗང་།(_y)"
+
+#: ../plug-ins/common/newsprint.c:384
+msgid "Magen_ta"
+msgstr "དམར་སྨུག(_t)"
+
+#: ../plug-ins/common/newsprint.c:392
+msgid "_Yellow"
+msgstr "སེརཔོ།(_Y)"
+
+#: ../plug-ins/common/newsprint.c:413
+msgid "Luminance"
+msgstr "འོད་མདངས།"
+
+#: ../plug-ins/common/newsprint.c:519
+msgid "Halftone the image to give newspaper-like effect"
+msgstr "གནས་ཚུལ་ཤོག་ལེབ་བཟུམ་གྱི་ནུས་པ་བྱིན་ནི་ལུ་ གཟུགས་བརྙན་སྐད་ཀྱི་སྙན་ཆ་ཕྱེད་ཀ་སྦེ་བཟོ།"
+
+#: ../plug-ins/common/newsprint.c:528
+msgid "Newsprin_t..."
+msgstr "གནས་ཚུལ་དཔར་བསྐྲུན་་་(_t)"
+
+#: ../plug-ins/common/newsprint.c:629
+#: ../plug-ins/common/newsprint.c:1190
+msgid "Newsprint"
+msgstr "གནས་ཚུལ་དཔར་བསྐྲུན།"
+
+#: ../plug-ins/common/newsprint.c:1033
+msgid "_Spot function:"
+msgstr "ས་ཁོངས་ལས་འགན་:(_S)"
+
+#. resolution settings
+#: ../plug-ins/common/newsprint.c:1241
+msgid "Resolution"
+msgstr "ཧུམ་ཆ།"
+
+#: ../plug-ins/common/newsprint.c:1260
+msgid "_Input SPI:"
+msgstr "ཨིན་པུཊི་ ཨེསི་པི་ཨའི་:(_I)"
+
+#: ../plug-ins/common/newsprint.c:1274
+msgid "O_utput LPI:"
+msgstr "ཨའུཊི་པུཊི་ ཨེལ་པི་ཨའི་:(_u)"
+
+#: ../plug-ins/common/newsprint.c:1287
+msgid "C_ell size:"
+msgstr "ནང་ཐིག་གི་ཚད་:(_e)"
+
+#. screen settings
+#: ../plug-ins/common/newsprint.c:1300
+#: ../plug-ins/gflare/gflare.c:559
+msgid "Screen"
+msgstr "གསལ་གཞི།"
+
+#: ../plug-ins/common/newsprint.c:1319
+msgid "B_lack pullout (%):"
+msgstr "གནགཔ་ པུལ་ཨའུཊི་ (%):(_l)"
+
+#: ../plug-ins/common/newsprint.c:1341
+msgid "Separate to:"
+msgstr "སོ་སོ་འཕྱལ་ནི་:"
+
+#: ../plug-ins/common/newsprint.c:1345
+msgid "_RGB"
+msgstr "ཨར་ཇི་བི།(_R)"
+
+#: ../plug-ins/common/newsprint.c:1362
+msgid "C_MYK"
+msgstr "སི་ཨེམ་ཝའི་ཀེ(_M)"
+
+#: ../plug-ins/common/newsprint.c:1379
+msgid "I_ntensity"
+msgstr "དྲགས་ཤུགས།(_n)"
+
+#: ../plug-ins/common/newsprint.c:1404
+msgid "_Lock channels"
+msgstr "རྒྱུ་ལམ་ཚུ་ལྡེ་མིག་རྐྱབས།(_L)"
+
+#: ../plug-ins/common/newsprint.c:1417
+msgid "_Factory Defaults"
+msgstr "འཕྲུལ་ཁང་སྔོན་སྒྲིག་ཚུ།(_F)"
+
+#. anti-alias control
+#: ../plug-ins/common/newsprint.c:1443
+#: ../plug-ins/gfig/gfig-dialog.c:1262
+msgid "Antialiasing"
+msgstr "ཨེན་ཊི་ཨེ་ལའི་སིང་།"
+
+#: ../plug-ins/common/newsprint.c:1451
+msgid "O_versample:"
+msgstr "དཔེ་ཚད་ལྷག་:(_v)"
+
+#: ../plug-ins/common/nlfilt.c:120
+msgid "Nonlinear swiss army knife filter"
+msgstr "ནོན་ལི་ནི་ཡར་ སིའུསི་ ཨར་མི་ ནའིཕི་ ཕིལ་ཊར།"
+
+#: ../plug-ins/common/nlfilt.c:126
+msgid "_NL Filter..."
+msgstr "ཨེན་ཨེལ་ཚགས་མ་...(_N)"
+
+#: ../plug-ins/common/nlfilt.c:955
+#: ../plug-ins/common/nlfilt.c:1018
+msgid "NL Filter"
+msgstr "ཨེན་ཨེལ་ཚགས་མ།"
+
+#: ../plug-ins/common/nlfilt.c:1046
+msgid "Filter"
+msgstr "ཚགས་མ།"
+
+#: ../plug-ins/common/nlfilt.c:1050
+msgid "_Alpha trimmed mean"
+msgstr "ཨཱལ་ཕ་རྩེ་སྙོམས་ཡོད་པའི་མཱིན།(_A)"
+
+#: ../plug-ins/common/nlfilt.c:1052
+msgid "Op_timal estimation"
+msgstr "གང་དྲག་ཕོག་ཚོད།(_t)"
+
+#: ../plug-ins/common/nlfilt.c:1054
+msgid "_Edge enhancement"
+msgstr "མཐའམ་གོང་སྤེལ།(_E)"
+
+#: ../plug-ins/common/nlfilt.c:1079
+msgid "A_lpha:"
+msgstr "ཨཱལ་ཕ་:(_l)"
+
+#: ../plug-ins/common/noisify.c:144
+msgid "Distort colors by random amounts"
+msgstr "གྲངས་བསྡོམས་གང་འབྱུང་གི་ཐོག་ལས་ ཚོས་གཞི་ཚུ་བཟོ་ཉེས་བཟོ།"
+
+#: ../plug-ins/common/noisify.c:154
+msgid "_RGB Noise..."
+msgstr "ཨར་ཇི་བི་ རྩུབས་སྒྲ་...(_R)"
+
+#: ../plug-ins/common/noisify.c:282
+msgid "Adding noise"
+msgstr "རྩུབས་སྒྲ་ཁ་སྐོང་འབད་དོ།"
+
+#: ../plug-ins/common/noisify.c:448
+msgid "RGB Noise"
+msgstr "ཨར་ཇི་བི་ རྩུབས་སྒྲ།"
+
+#: ../plug-ins/common/noisify.c:481
+msgid "Co_rrelated noise"
+msgstr "ཕན་ཚུན་འབྲེལ་བའི་རྩུབས་སྒྲ།"
+
+#: ../plug-ins/common/noisify.c:496
+msgid "_Independent RGB"
+msgstr "རང་དབང་གི་ཨར་ཇི་བི།(_I)"
+
+#: ../plug-ins/common/noisify.c:520
+#: ../plug-ins/common/noisify.c:524
+msgid "_Gray:"
+msgstr "སྐྱ་ཐལ་:(_G)"
+
+#: ../plug-ins/common/noisify.c:550
+#, c-format
+msgid "Channel #%d:"
+msgstr "རྒྱུ་ལམ་#%d:"
+
+#: ../plug-ins/common/normalize.c:77
+msgid "Stretch brightness values to cover the full range"
+msgstr "ཁྱབ་ཚད་གེ་ར་ཁྱབ་ནིའི་དོན་ལུ་ དཀར་མདངས་བེ་ལུསི་བསྣར།"
+
+#: ../plug-ins/common/normalize.c:123
+msgid "Normalizing"
+msgstr "སླར་གསོ་འབད་ནི།"
+
+#: ../plug-ins/common/nova.c:167
+msgid "Add a starburst to the image"
+msgstr "གཟུགས་བརྙན་ལུ་སི་ཊར་བརསིཊི་ ཁ་སྐོང་འབད།"
+
+#: ../plug-ins/common/nova.c:176
+msgid "Su_pernova..."
+msgstr "སུ་པར་ནོ་བ་་་་་་(_p)"
+
+#: ../plug-ins/common/nova.c:260
+msgid "Rendering supernova"
+msgstr "སུ་པར་ནོ་བ་ ལྷག་སྟོན་ནི།"
+
+#: ../plug-ins/common/nova.c:303
+msgid "Supernova"
+msgstr "སུ་པར་ནོ་བ།"
+
+#: ../plug-ins/common/nova.c:347
+msgid "Supernova Color Picker"
+msgstr "སུ་པར་ནོ་བའི་ཚོས་གཞི་འཐུ་མི།"
+
+#: ../plug-ins/common/nova.c:376
+msgid "_Spokes:"
+msgstr "རྩིབས་ཚུ་:(_S)"
+
+#: ../plug-ins/common/nova.c:391
+msgid "R_andom hue:"
+msgstr "གང་འབྱུང་ཚོན་མདངས་:(_a)"
+
+#: ../plug-ins/common/nova.c:443
+msgid "Center of Nova"
+msgstr "ནོ་བའི་དབུས།"
+
+#: ../plug-ins/common/oilify.c:97
+msgid "Smear colors to simulate an oil painting"
+msgstr "སྣུམ་ཚོན་མཚུངས་པ་བཟོ་ནིའི་དོན་ལུ་ ཚོས་གཞི་ཚུ་ཧུམ་འཕུར་རྐྱབས།"
+
+#: ../plug-ins/common/oilify.c:104
+msgid "Oili_fy..."
+msgstr "སྣུམ་འཕུར་རྐྱབ་པ་་་(_f)་"
+
+#: ../plug-ins/common/oilify.c:182
+msgid "Oil painting"
+msgstr "སྣུམ་ཚོན།"
+
+#: ../plug-ins/common/oilify.c:470
+msgid "Oilify"
+msgstr "སྣུམ་འཕུར་རྐྱབ་པ།"
+
+#: ../plug-ins/common/oilify.c:504
+msgid "_Mask size:"
+msgstr "གདོང་ཁེབས་ཚད་:(_M)"
+
+#: ../plug-ins/common/oilify.c:515
+msgid "_Use intensity"
+msgstr "དྲགས་ཤུགས་ ལག་ལེན་འཐབ།(_U)"
+
+#: ../plug-ins/common/papertile.c:234
+#: ../plug-ins/common/papertile.c:533
+msgid "Paper Tile"
+msgstr "ཤོག་ལེབ་ཊ་ཡིལ།"
+
+#: ../plug-ins/common/papertile.c:260
+msgid "Division"
+msgstr "སྡེ་ཚན།"
+
+#: ../plug-ins/common/papertile.c:299
+msgid "Fractional Pixels"
+msgstr "དཔྱ་ཕྲན་གྱི་པིག་སེལསི།"
+
+#: ../plug-ins/common/papertile.c:304
+msgid "_Background"
+msgstr "རྒྱབ་གཞི།(_B)"
+
+#: ../plug-ins/common/papertile.c:306
+msgid "_Ignore"
+msgstr "སྣང་མེད་བཞག(_I)"
+
+#: ../plug-ins/common/papertile.c:308
+msgid "_Force"
+msgstr "བང་བཙོང་ནི།(_F)"
+
+#: ../plug-ins/common/papertile.c:315
+msgid "C_entering"
+msgstr "དབུས་སྒྲིག་འབད་ནི།(_e)"
+
+#: ../plug-ins/common/papertile.c:330
+msgid "Movement"
+msgstr "འགུལ་བསྐྱོད།"
+
+#: ../plug-ins/common/papertile.c:343
+msgid "_Max (%):"
+msgstr "མང་མཐའ་(%):(_M)"
+
+#: ../plug-ins/common/papertile.c:349
+msgid "_Wrap around"
+msgstr "མཐའ་བསྐོར་ཏེ་ལོག་མཚམས་བཟོ།(_W)"
+
+#: ../plug-ins/common/papertile.c:359
+msgid "Background Type"
+msgstr "རྒྱབ་གཞིའི་དབྱེ་བ།"
+
+#: ../plug-ins/common/papertile.c:366
+msgid "I_nverted image"
+msgstr "གནས་ལོག་ཅན་གྱི་གཟུགས་བརྙན།(_n)"
+
+#: ../plug-ins/common/papertile.c:368
+msgid "Im_age"
+msgstr "གཟུགས་བརྙན།(_a)"
+
+#: ../plug-ins/common/papertile.c:370
+msgid "Fo_reground color"
+msgstr "གདོང་གཞིའི་ཚོས་གཞི།(_r)"
+
+#: ../plug-ins/common/papertile.c:372
+msgid "Bac_kground color"
+msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི།(_k)"
+
+#: ../plug-ins/common/papertile.c:374
+msgid "S_elect here:"
+msgstr "ནཱ་ལུ་སེལ་འཐུ་འབད་:(_e)"
+
+#: ../plug-ins/common/papertile.c:381
+msgid "Background Color"
+msgstr "རྒྱཕ་གཞིའི་ཚོས་གཞི།"
+
+#: ../plug-ins/common/papertile.c:814
+msgid "Cut image into paper tiles, and slide them"
+msgstr "གཟུགས་བརྙན་འདི་ཤོག་ལེབ་ཊ་ཡིལསི་ནང་བཏོག་ཞིནམ་ལས་ བཤུད།"
+
+#: ../plug-ins/common/papertile.c:819
+msgid "September 31, 1999"
+msgstr "སྤྱི་ཟླ་དགུ་པ་ ༣༡་ ༡༩༩༩།"
+
+#: ../plug-ins/common/papertile.c:820
+msgid "_Paper Tile..."
+msgstr "ཤོག་ལེབ་ ཊ་ཡིལ་་་་་(_P)"
+
+#: ../plug-ins/common/pat.c:123
+#: ../plug-ins/common/pat.c:146
+msgid "GIMP pattern"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ དཔེ་གཞི།"
+
+#: ../plug-ins/common/pat.c:362
+#, c-format
+msgid "Invalid UTF-8 string in pattern file '%s'."
+msgstr "དཔེ་གཞི་ཡིག་སྣོད་ '%s' ནང་ ནུས་མེད་ཀྱི་ ཡུ་ཊི་ཨེཕི་-༨ ཡིག་རྒྱུན།"
+
+#: ../plug-ins/common/pat.c:517
+msgid "Save as Pattern"
+msgstr "དཔེ་གཞི་བཟུབ་སྦེ་ སྲུངས།"
+
+#: ../plug-ins/common/pcx.c:147
+#: ../plug-ins/common/pcx.c:166
+msgid "ZSoft PCX image"
+msgstr "ཛེཌི་སོཕཊི་ པི་སི་ཨེགསི་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/pcx.c:319
+#, c-format
+msgid "Could not read header from '%s'"
+msgstr "'%s' ལས་ མགོ་ཡིག་ལྷག་མ་ཚུགས།"
+
+#: ../plug-ins/common/pcx.c:326
+#, c-format
+msgid "'%s' is not a PCX file"
+msgstr "'%s' འདི་ ་པི་སི་ཨེགསི་ཡིག་སྣོད་མེན།"
+
+#: ../plug-ins/common/pcx.c:380
+msgid "Unusual PCX flavour, giving up"
+msgstr "ཨ་རྟག་དང་མ་འདྲ་བའི་ པི་སི་ཨེགསི་གི་བྲོ་བ་བཞག་དོ། "
+
+#: ../plug-ins/common/photocopy.c:155
+msgid "Simulate color distortion produced by a copy machine"
+msgstr "འདྲ་བཤུས་མ་འཕྲུལ་གྱིས་བཟོ་བསྐྲུན་འབད་ཡོད་པའི་ཚོས་གཞི་བཟོ་ཉེས་ མཚུངས་པ་བཟོ།"
+
+#: ../plug-ins/common/photocopy.c:160
+msgid "_Photocopy..."
+msgstr "ངོ་བཤུས་བརྐྱབ་ནི་་་་(_P)"
+
+#: ../plug-ins/common/photocopy.c:839
+msgid "Photocopy"
+msgstr "ངོ་བཤུས་བརྐྱབ་ནི།"
+
+#: ../plug-ins/common/photocopy.c:890
+#: ../plug-ins/common/sharpen.c:514
+#: ../plug-ins/common/softglow.c:695
+msgid "_Sharpness:"
+msgstr "རྣོ་ཅན་:(_S)"
+
+#: ../plug-ins/common/photocopy.c:904
+msgid "Percent _black:"
+msgstr "བརྒྱ་ཆ་གནགཔོ་:(_b)"
+
+#: ../plug-ins/common/photocopy.c:918
+msgid "Percent _white:"
+msgstr "བརྒྱ་ཆ་དཀརཔོ་:(_w)"
+
+#: ../plug-ins/common/pix.c:140
+#: ../plug-ins/common/pix.c:157
+msgid "Alias|Wavefront PIX image"
+msgstr "མིང་གཞན་| ཝེབ་ཕོརོནཊི་ པི་ཨའི་ཨེགསི་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/pixelize.c:164
+msgid "Simplify image into an array of solid-colored squares"
+msgstr "གཟུགས་བརྙན་འདི་ རགས་པ་-ཚོས་གཞི་ཅན་གྱི་གྲུ་བཞི་ཚུའི་ཨེ་རེ་ནང་འཇམ་སམ་བཟོ།"
+
+#: ../plug-ins/common/pixelize.c:171
+msgid "_Pixelize..."
+msgstr "པིག་སེལ་ལའིསི་་་་(_P)"
+
+#: ../plug-ins/common/pixelize.c:273
+msgid "Pixelizing"
+msgstr "པིག་སེལ་ལའི་སིང་།"
+
+#: ../plug-ins/common/pixelize.c:314
+msgid "Pixelize"
+msgstr "པིག་སེལ་ལའིསི།"
+
+#: ../plug-ins/common/pixelize.c:350
+msgid "Pixel _width:"
+msgstr "པིག་སེལ་རྒྱ་ཚད་:(_w)"
+
+#: ../plug-ins/common/pixelize.c:355
+msgid "Pixel _height:"
+msgstr "པིག་སེལ་མཐོ་ཚད་:(_h)"
+
+#: ../plug-ins/common/plasma.c:178
+msgid "Create a random plasma texture"
+msgstr "གང་འབྱུང་ པ་ལསི་མ་ རེག་བྱ་ གསར་བསྐྲུན་འབད།"
+
+#: ../plug-ins/common/plasma.c:183
+msgid "_Plasma..."
+msgstr "པ་ལསི་མ་་་་(_P)"
+
+#: ../plug-ins/common/plasma.c:265
+#: ../plug-ins/common/plasma.c:302
+msgid "Plasma"
+msgstr "པ་ལསི་མ།"
+
+#: ../plug-ins/common/plasma.c:338
+msgid "Random _seed:"
+msgstr "གང་འབྱུང་གི་སོན་:(_s)"
+
+#: ../plug-ins/common/plasma.c:349
+msgid "T_urbulence:"
+msgstr "ཤིན་ཏུ་འཁྲུགས་པ་:(_u)"
+
+#: ../plug-ins/common/plugin-browser.c:134
+msgid "Display information about plug-ins"
+msgstr "པ་ལག་ཡིནསི་གི་སྐོར་ལས་ བརྡ་དོན་བཀྲམ་སྟོན་འབད།"
+
+#: ../plug-ins/common/plugin-browser.c:144
+msgid "_Plug-In Browser"
+msgstr "པ་ལག་ཡིན་བརའུ་ཟར།(_P)"
+
+#: ../plug-ins/common/plugin-browser.c:372
+msgid "Searching by name"
+msgstr "མིང་གི་ཐོག་ལས་འཚོལ་ཞིབ་འབད་ནི།"
+
+#: ../plug-ins/common/plugin-browser.c:386
+#, c-format
+msgid "%d plug-ins"
+msgstr "%dཔ་ལག་ཡིནསི།"
+
+#: ../plug-ins/common/plugin-browser.c:393
+msgid "No matches for your query"
+msgstr "ཁྱོད་ཀྱི་འདྲི་དཔྱད་ལུ་མཐུན་སྒྲིག་མེད།"
+
+#: ../plug-ins/common/plugin-browser.c:396
+#, c-format
+msgid "%d plug-in matches your query"
+msgid_plural "%d plug-ins match your query"
+msgstr[0] "%d པ་ལག་ཡིན་འདི་ཁྱོད་ཀྱི་འདྲི་དཔྱད་དང་མཐུན་སྒྲིག་ཡོདཔ་ཨིན།"
+msgstr[1] "%d པ་ལག་ཡིནསི་འདི་ཁྱོད་ཀྱི་འདྲི་དཔྱད་དང་མཐུན་སྒྲིག་ཡོདཔ་ཨིན།"
+
+#: ../plug-ins/common/plugin-browser.c:527
+msgid "No matches"
+msgstr "མཐུན་སྒྲིག་མེད།"
+
+#: ../plug-ins/common/plugin-browser.c:552
+msgid "Plug-In Browser"
+msgstr "པ་ལག་ཡིན་བརའུ་ཟར།"
+
+#: ../plug-ins/common/plugin-browser.c:595
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../plug-ins/common/plugin-browser.c:603
+#: ../plug-ins/common/plugin-browser.c:666
+msgid "Menu Path"
+msgstr "དཀར་ཆག་འགྲུལ་ལམ།"
+
+#: ../plug-ins/common/plugin-browser.c:611
+#: ../plug-ins/common/plugin-browser.c:675
+msgid "Image Types"
+msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་བ་ཚུ་།"
+
+#: ../plug-ins/common/plugin-browser.c:621
+#: ../plug-ins/common/plugin-browser.c:684
+msgid "Installation Date"
+msgstr "གཞི་བཙུགས་ཚེས་གྲངས།"
+
+#: ../plug-ins/common/plugin-browser.c:645
+msgid "List View"
+msgstr "ཐོ་ཡིག་མཐོང་སྣང་།"
+
+#: ../plug-ins/common/plugin-browser.c:707
+msgid "Tree View"
+msgstr "རྩ་འགྲེལ་མཐོང་སྣང་།"
+
+#: ../plug-ins/common/png.c:264
+#: ../plug-ins/common/png.c:285
+#: ../plug-ins/common/png.c:307
+#: ../plug-ins/common/png.c:326
+msgid "PNG image"
+msgstr "པི་ཨེན་ཇི་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/png.c:691
+#, c-format
+msgid "Error while reading '%s'. File corrupted?"
+msgstr "'%s' ལྷག་པའི་སྐབས་ལུ་ འཛོལ་བ། ཡིག་སྣོད་ངན་ཅན་བཟོ་ནུག་ག?"
+
+#. Aie! Unknown type
+#: ../plug-ins/common/png.c:819
+#, c-format
+msgid "Unknown color model in PNG file '%s'."
+msgstr "'%s'པི་ཨེན་ཇི་ ཡིག་སྣོད་ནང་ མ་ཤེས་པའི་ཚོས་གཞིའི་དཔེ།"
+
+#: ../plug-ins/common/png.c:873
+msgid "The PNG file specifies an offset that caused the layer to be positioned outside the image."
+msgstr "པི་ཨེན་ཇི་ཡིག་སྣོད་འདི་གིས་ བང་རིམ་འདི་གཟུགས་བརྙན་གྱི་ཕྱི་ཁར་གནས་དགོཔ་སྦེ་བྱུང་བཅུག་པའི་པར་ལེན་ཅིག་ གསལ་བཀོད་འབདཝ་ཨིན།"
+
+#: ../plug-ins/common/png.c:1209
+#, c-format
+msgid "Error while saving '%s'. Could not save image."
+msgstr "'%s'སྲུངས་པའི་སྐབས་ལུ་ འཛོལ་བ། གཟུགས་བརྙན་ སྲུངས་མ་ཚུགས།"
+
+#: ../plug-ins/common/png.c:1659
+msgid "Save as PNG"
+msgstr "པི་ཨེན་ཇི་བཟུམ་སྦེ་ སྲུངས།"
+
+#: ../plug-ins/common/png.c:1663
+msgid "_Load defaults"
+msgstr "མངོན་གསལ་སྔོན་སྒྲིག་ཚུ།(_L)"
+
+#: ../plug-ins/common/png.c:1664
+msgid "_Save defaults"
+msgstr "སྔོན་སྒྲིག་ སྲུངས།(_S)"
+
+#: ../plug-ins/common/png.c:1694
+msgid "_Interlacing (Adam7)"
+msgstr "ཕན་ཚུན་སླ་བ་(ཨེ་ཌེམ་ ༧)།(_I)"
+
+#: ../plug-ins/common/png.c:1705
+msgid "Save _background color"
+msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི་ཚུ་ སྲུངས།(_b)"
+
+#: ../plug-ins/common/png.c:1713
+msgid "Save _gamma"
+msgstr "གམ་མ་ སྲུངས།(_g)"
+
+#: ../plug-ins/common/png.c:1722
+msgid "Save layer o_ffset"
+msgstr "པར་ལེན་བང་རིམ་ སྲུངས།(_f)"
+
+#: ../plug-ins/common/png.c:1731
+msgid "Save _resolution"
+msgstr "ཧུམ་ཆ་ སྲུངས།(_r)"
+
+#: ../plug-ins/common/png.c:1740
+msgid "Save creation _time"
+msgstr "གསར་བསྐྲུན་དུས་ཚོད་ སྲུངས།(_t)"
+
+#: ../plug-ins/common/png.c:1748
+msgid "Save comme_nt"
+msgstr "བསམ་བཀོད་ སྲུངས།(_n)"
+
+#: ../plug-ins/common/png.c:1763
+msgid "Save color _values from transparent pixels"
+msgstr "དྭངས་གསལ་པིག་སེལསི་ནང་ལས་ ཚོས་གཞི་བེ་ལུསི་སྲུངས།(_v)"
+
+#: ../plug-ins/common/png.c:1776
+msgid "Co_mpression level:"
+msgstr "ཨེབ་བཙུགས་གནས་རིམ་:(_m)"
+
+#: ../plug-ins/common/png.c:1896
+msgid "Could not load PNG defaults"
+msgstr "པི་ཨེན་ཇི་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ../plug-ins/common/pnm.c:239
+msgid "PNM Image"
+msgstr "པི་ཨེན་ཨེམ་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/pnm.c:259
+msgid "PNM image"
+msgstr "པི་ཨེན་ཨེམ་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/pnm.c:271
+msgid "PGM image"
+msgstr "པི་ཇི་ཨེམ་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/pnm.c:283
+msgid "PPM image"
+msgstr "པི་པི་ཨེམ་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/pnm.c:473
+#: ../plug-ins/common/pnm.c:495
+#: ../plug-ins/common/pnm.c:502
+#: ../plug-ins/common/pnm.c:511
+#: ../plug-ins/common/pnm.c:586
+#: ../plug-ins/common/pnm.c:644
+msgid "PNM: Premature end of file."
+msgstr "པི་ཨེན་ཨེམ་:ཡིག་སྣོད་ཀྱི་དུས་ཚོད་མ་རནམ་ལས་རྫོགས་ནི།"
+
+#: ../plug-ins/common/pnm.c:475
+msgid "PNM: Invalid file."
+msgstr "པི་ཨེན་ཨེམ་:ནུས་མེད་ཡིག་སྣོད།"
+
+#: ../plug-ins/common/pnm.c:489
+msgid "File not in a supported format."
+msgstr "ཡིག་སྣོད་འདི་རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་རྩ་སྒྲིག་ནང་མེན་པས།"
+
+#: ../plug-ins/common/pnm.c:498
+msgid "PNM: Invalid X resolution."
+msgstr "པི་ཨེན་ཨེམ་:ནུས་མེད་ ཨེགསི་ ཧུམ་ཆ།"
+
+#: ../plug-ins/common/pnm.c:505
+msgid "PNM: Invalid Y resolution."
+msgstr "པི་ཨེན་ཨེམ་:ནུས་མེད་ ཝའི་ ཧུམ་ཆ།"
+
+#: ../plug-ins/common/pnm.c:517
+msgid "PNM: Invalid maximum value."
+msgstr "པི་ཨེན་ཨེམ་:ནུས་མེད་བེ་ལུ་ མང་མཐའ།"
+
+#: ../plug-ins/common/pnm.c:695
+msgid "PNM: Error reading file."
+msgstr "པི་ཨེན་ཨེམ་:ཡིག་སྣོད་ལྷག་པའི་སྐབསས་ལུ་ འཛོལ་བ།"
+
+#: ../plug-ins/common/pnm.c:810
+msgid "PNM save cannot handle images with alpha channels."
+msgstr "པི་ཨེན་ཨེམ་སྲུང་བཞག་གིས་ ཨཱལ་ཕ་རྒྱུ་ལམ་གྱི་ཐོག་ལས་ གཟུགས་བརྙན་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས།"
+
+#: ../plug-ins/common/pnm.c:963
+msgid "Save as PNM"
+msgstr "པི་ཨེན་ཨེམ་བཟུབ་སྦེ་ སྲུངས།"
+
+#. file save type
+#: ../plug-ins/common/pnm.c:980
+msgid "Data formatting"
+msgstr "གནད་སྡུད་རྩ་སྒྲིག་འབད་ནི།"
+
+#: ../plug-ins/common/pnm.c:984
+msgid "Raw"
+msgstr "རགས་པ།"
+
+#: ../plug-ins/common/pnm.c:985
+msgid "Ascii"
+msgstr "ཨེ་ཨེསི་སི་ཨའི་ཨའི།"
+
+#: ../plug-ins/common/polar.c:154
+msgid "Convert image to or from polar coordinates"
+msgstr "གཟུགས་བརྙན་འདི་ པོ་ལར་ཆ་སྙོམ་ལུ་ གཞི་བསྒྱུར་འབད་ ཡང་ཅིན་ པོ་ལར་ཆ་སྙོམ་ནང་ལས་ གཟུགས་བརྙན་གཞི་བསྒྱུར་འབད།"
+
+#: ../plug-ins/common/polar.c:161
+msgid "P_olar Coordinates..."
+msgstr "པོ་ལར་ཆ་སྙོམ་ཚུ་་་་་(_o)"
+
+#: ../plug-ins/common/polar.c:349
+msgid "Polar coordinates"
+msgstr "པོ་ལར་ཆ་སྙོམ་ཚུ།"
+
+#: ../plug-ins/common/polar.c:581
+msgid "Polar Coordinates"
+msgstr "པོ་ལར་ཆ་སྙོམ་ཚུ།"
+
+#: ../plug-ins/common/polar.c:619
+msgid "Circle _depth in percent:"
+msgstr "བརྒྱ་ཆ་ནང་སྒོར་ཐིག་གི་གཏིང་ཚད་:(_d)"
+
+#: ../plug-ins/common/polar.c:631
+msgid "Offset _angle:"
+msgstr "པར་ལེན་ གྲུ་ཟུར་:(_a)"
+
+#: ../plug-ins/common/polar.c:646
+msgid "_Map backwards"
+msgstr "ས་ཁྲ་རྒྱབ་བསྐྱོད་ཚུ།(_M)"
+
+#: ../plug-ins/common/polar.c:652
+msgid "If checked the mapping will begin at the right side, as opposed to beginning at the left."
+msgstr "ཞིབ་དཔྱད་འབད་དེ་ཡོད་པ་ཅིན་ ས་ཁྲ་བཟོ་བ་འདི་གིས་ གཡོན་ཕྱོགས་ལུ་རྒྱབ་འགལ་དུ་འགོ་བཙུགས་ཡོད་མི་བཟུམ་སྦེ་ གཡས་ཕྱོགས་ལུ་ཡང་འགོ་བཙུགས་འོང་།"
+
+#: ../plug-ins/common/polar.c:663
+msgid "Map from _top"
+msgstr "མགོ་ལས་ས་ཁྲ།(_t)"
+
+#: ../plug-ins/common/polar.c:669
+msgid "If unchecked the mapping will put the bottom row in the middle and the top row on the outside.  If checked it will be the opposite."
+msgstr "ཞིབ་དཔྱད་མ་འབད་བ་ཅིན་ ས་ཁྲ་བཟོ་བ་འདི་གིས་ མཇུག་གི་གྲལ་ཐིག་འདི་སྦུག་ལུ་བཙུགསཔ་ཨིནམ་དང་མགུ་གི་གྲལ་ཐིག་འདི་ཕྱི་ཁ་ལུ་བཙུགས་འོང་། ག་དེམ་ཅིག་འབད་ཞིབ་དཔྱད་ཡོད་པ་ཅིན་ ཕྱི་འགྱུར་སྦེ་གནས་འོང་།"
+
+#: ../plug-ins/common/polar.c:681
+msgid "To _polar"
+msgstr "པོ་ལར་ལུ།(_p)"
+
+#: ../plug-ins/common/polar.c:687
+msgid "If unchecked the image will be circularly mapped onto a rectangle.  If checked the image will be mapped onto a circle."
+msgstr "ཞིབ་དཔྱད་མ་འབད་བ་ཅིན་ ས་ཁྲ་འདི་ཐད་སྒོརམ་སྦེ་གཟུགས་བརྙན་འདི་གྲུ་བཞི་ནར་མོའི་གུ་ བཟོ་འོང་། དེ་ལས་ཞིབ་དཔྱད་འབད་ད་པ་ཅིན་ ས་ཁྲ་འདི་གཟུགས་བརྙན་འདི་སྒོར་ཐིག་གུ་བཟོ་འོང་། "
+
+#: ../plug-ins/common/poppler.c:147
+msgid "Portable Document Format"
+msgstr "འབག་བཏུབ་པའི་ཡིག་ཆ་རྩ་སྒྲིག"
+
+#: ../plug-ins/common/poppler.c:503
+#, c-format
+msgid "%s-%s"
+msgstr "%s-%s"
+
+#: ../plug-ins/common/poppler.c:505
+#: ../plug-ins/common/postscript.c:1100
+#, c-format
+msgid "%s-pages"
+msgstr "%s-ཤོག་ལེབ་ཚུ།"
+
+#: ../plug-ins/common/poppler.c:701
+msgid "Import from PDF"
+msgstr "པི་ཌི་ཨེཕི་ནང་ལས་ནང་འདྲེན་འབད།"
+
+#: ../plug-ins/common/poppler.c:706
+#: ../plug-ins/common/postscript.c:3032
+msgid "_Import"
+msgstr "ནང་འདྲེན།(_I)"
+
+#: ../plug-ins/common/poppler.c:767
+msgid "_Width (pixels):"
+msgstr "རྒྱ་ཚད་(པིག་སེལསི་):(_W)"
+
+#: ../plug-ins/common/poppler.c:768
+msgid "_Height (pixels):"
+msgstr "མཐོ་ཚད་(པིག་སེལསི་):(_H)"
+
+#: ../plug-ins/common/poppler.c:771
+#: ../plug-ins/common/poppler.c:772
+msgid "_Resolution:"
+msgstr "ཧུམ་ཆ་:(_R)"
+
+#. Antialiasing
+#: ../plug-ins/common/poppler.c:786
+msgid "A_ntialiasing"
+msgstr "ཨེན་ཊི་ཨེ་ལའིསིང་།(_A)"
+
+#: ../plug-ins/common/postscript.c:588
+#: ../plug-ins/common/postscript.c:680
+msgid "PostScript document"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ཡིག་ཆ།"
+
+#: ../plug-ins/common/postscript.c:607
+#: ../plug-ins/common/postscript.c:696
+msgid "Encapsulated PostScript image"
+msgstr "བསྡུས་དོན་བཀོད་ཡོད་པའི་ པོསིཊི་སིཀིརིཔཊི་གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/postscript.c:627
+msgid "PDF document"
+msgstr "པི་ཌི་ཨེཕི་ཡིག་ཆ།"
+
+#: ../plug-ins/common/postscript.c:1025
+#, c-format
+msgid "Could not interpret '%s'"
+msgstr " '%s' འདི་ཁ་བསྒྱུར་འབད་མ་ཚུགས།"
+
+#: ../plug-ins/common/postscript.c:1165
+msgid "PostScript save cannot handle images with alpha channels"
+msgstr "པོསིཊི་སིཀིརིཔཊི་སྲུང་བཞག་གིས་ ཨཱལ་ཕ་རྒྱུ་ལམ་གྱི་ཐོག་ལས་ གཟུགས་བརྙན་ཚུ་ལེགས་སྐྱོང་འཐབ་མ་ཚུགས།"
+
+#: ../plug-ins/common/postscript.c:1692
+#, c-format
+msgid "Error starting ghostscript (%s)"
+msgstr "གྲིབ་ཡིག་(%s) འགོ་བཙུགསཔ་ད་ལུ་ འཛོལ་བ།"
+
+#: ../plug-ins/common/postscript.c:1722
+#, c-format
+msgid "Error starting ghostscript: %s"
+msgstr "གྲིབ་ཡིག་ འགོ་བཙུགསཔ་ད་ལུ་ འཛོལ་བ་: %s"
+
+#: ../plug-ins/common/postscript.c:1886
+#: ../plug-ins/common/tiff.c:888
+#, c-format
+msgid "Page %d"
+msgstr "ཤོག་ལེབ་%d"
+
+#: ../plug-ins/common/postscript.c:2538
+#: ../plug-ins/common/postscript.c:2671
+#: ../plug-ins/common/postscript.c:2823
+#: ../plug-ins/common/postscript.c:2952
+#: ../plug-ins/common/sunras.c:1446
+#: ../plug-ins/common/sunras.c:1554
+#: ../plug-ins/fits/fits.c:828
+#: ../plug-ins/fits/fits.c:952
+msgid "Write error occurred"
+msgstr "བྱུང་ཡོད་པའི་འཛོལ་བ་ བྲིས།"
+
+#: ../plug-ins/common/postscript.c:3027
+msgid "Import from PostScript"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ནང་ལས་ ནང་འདྲེན་འབད།"
+
+#. Rendering
+#: ../plug-ins/common/postscript.c:3068
+msgid "Rendering"
+msgstr "ལྷག་སྟོན།"
+
+#. Resolution
+#: ../plug-ins/common/postscript.c:3084
+#: ../plug-ins/common/svg.c:909
+#: ../plug-ins/common/wmf.c:670
+#: ../plug-ins/print/gimp_main_window.c:1104
+msgid "Resolution:"
+msgstr "ཧུམ་ཆ་:"
+
+#: ../plug-ins/common/postscript.c:3114
+msgid "Pages:"
+msgstr "ཤོག་ལེབ་ཚུ་:"
+
+#: ../plug-ins/common/postscript.c:3121
+msgid "Pages to load (e.g.: 1-4 or 1,3,5-7)"
+msgstr "(དཔེར་ན་.: ༡-༤ ཡང་ན་ ༡,༣,༥-༧)མངོན་གསལ་འབད་ནིའི་དོན་ལུ་ ཤོག་ལེབ་ཚུ།"
+
+#: ../plug-ins/common/postscript.c:3125
+#: ../plug-ins/common/spheredesigner.c:2621
+msgid "Layers"
+msgstr "བང་རིམ་ཚུ།"
+
+#: ../plug-ins/common/postscript.c:3127
+msgid "Images"
+msgstr "གཟུགས་བརྙན་ཚུ།"
+
+#: ../plug-ins/common/postscript.c:3130
+msgid "Open as"
+msgstr "བཟུམ་སྦེ་ཁ་ཕྱེ།"
+
+#: ../plug-ins/common/postscript.c:3134
+msgid "Try Bounding Box"
+msgstr "བཅད་མཚམས་ཀྱི་སྒྲོམ་ འབད་རྩོལ་བསྐྱེད།"
+
+#. Colouring
+#: ../plug-ins/common/postscript.c:3147
+msgid "Coloring"
+msgstr "ཚོན་མདངས་བཟོ་བ།"
+
+#: ../plug-ins/common/postscript.c:3151
+msgid "B/W"
+msgstr "བི་/ཌབ་ལུ།"
+
+#: ../plug-ins/common/postscript.c:3152
+#: ../plug-ins/rcm/rcm_dialog.c:419
+msgid "Gray"
+msgstr "སྐྱ་ཐལ།"
+
+#: ../plug-ins/common/postscript.c:3153
+#: ../plug-ins/common/xpm.c:468
+#: ../plug-ins/gimpressionist/color.c:48
+#: ../plug-ins/gimpressionist/general.c:151
+#: ../plug-ins/print/gimp_main_window.c:1416
+msgid "Color"
+msgstr "ཚོས་གཞི།"
+
+#: ../plug-ins/common/postscript.c:3154
+#: ../plug-ins/fits/fits.c:1007
+msgid "Automatic"
+msgstr "རང་བཞིན་གྱི།"
+
+#: ../plug-ins/common/postscript.c:3164
+msgid "Text antialiasing"
+msgstr "ཚིག་ཡིག་ ཨེན་ཊི་ཨེ་ལའིསིང་།"
+
+#: ../plug-ins/common/postscript.c:3169
+#: ../plug-ins/common/postscript.c:3181
+msgid "Weak"
+msgstr "ནུས་མེད།"
+
+#: ../plug-ins/common/postscript.c:3170
+#: ../plug-ins/common/postscript.c:3182
+msgid "Strong"
+msgstr "སྒྲིང་སྒྲིང་།"
+
+#: ../plug-ins/common/postscript.c:3176
+msgid "Graphic antialiasing"
+msgstr "ཚད་རིས་ ཨེན་ཊི་ཨེ་ལའིསིང་།"
+
+#: ../plug-ins/common/postscript.c:3254
+msgid "Save as PostScript"
+msgstr "པོསིཊི་སིཀིརིཔཊི་བཟུམ་སྦེ་ སྲུངས།"
+
+#. Image Size
+#: ../plug-ins/common/postscript.c:3285
+msgid "Image Size"
+msgstr "གཟུགས་བརྙན་ཚད།"
+
+#: ../plug-ins/common/postscript.c:3334
+msgid "_Keep aspect ratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད་ བཞག(_K)"
+
+#: ../plug-ins/common/postscript.c:3340
+msgid "When toggled, the resulting image will be scaled to fit into the given size without changing the aspect ratio."
+msgstr "སོར་སྟོན་འབད་ཡོད་པའི་སྐབས་ལུ་ གཟུགས་བརྙན་གྲུབ་འབྲས་འབྱུང་ནི་འདི་ རྣམ་པའི་དཔྱ་ཚད་བསྒྱུར་བཅོས་མ་འབད་བའི་ཐོག་ལས་ བཀོད་ཡོད་པའི་ཚད་ནང་ཚུད་སྒྲིག་འབད་ནིའི་དོན་ལུ་ ཆ་ཚད་བཟོ་འོང་།"
+
+#. Unit
+#: ../plug-ins/common/postscript.c:3349
+msgid "Unit"
+msgstr "ཆ་ཕྲན།"
+
+#: ../plug-ins/common/postscript.c:3353
+msgid "_Inch"
+msgstr "ཨིནཅི།(_I)"
+
+#: ../plug-ins/common/postscript.c:3354
+msgid "_Millimeter"
+msgstr "མི་ལི་མི་ཊར།(_M)"
+
+#. Format
+#: ../plug-ins/common/postscript.c:3380
+msgid "Output"
+msgstr "ཨའུཊི་པུཊི།"
+
+#: ../plug-ins/common/postscript.c:3386
+msgid "_PostScript level 2"
+msgstr "པོསིཊི་སིཀིརིཔཊི་ གནས་རིམ་ ༢།(_p)"
+
+#: ../plug-ins/common/postscript.c:3395
+msgid "_Encapsulated PostScript"
+msgstr "བསྡུས་དོན་བཀོད་ཡོད་པའི་ པོསིཊི་སིཀིརིཔཊི།(_E)"
+
+#: ../plug-ins/common/postscript.c:3404
+msgid "P_review"
+msgstr "སྔོན་ལྟ།(_r)"
+
+#: ../plug-ins/common/postscript.c:3425
+msgid "Preview _size:"
+msgstr "སྔོན་ལྟའི་ཚད་:(_s)"
+
+#: ../plug-ins/common/procedure-browser.c:83
+msgid "List available procedures in the PDB"
+msgstr "པི་ཌི་བི་ནང་ཐོབ་ཚུགས་པའི་བྱ་སྒོའི་ལམ་ལུགས་ཚུ་ ཐོ་བཀོད་འབད།"
+
+#: ../plug-ins/common/procedure-browser.c:88
+msgid "Procedure _Browser"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ བརའུ་ཟར།(_B)"
+
+#: ../plug-ins/common/procedure-browser.c:126
+msgid "Procedure Browser"
+msgstr "བྱ་སྒོའི་ལམ་ལུགས་ བརའུ་ཟར།"
+
+#: ../plug-ins/common/psd.c:524
+msgid "Invalid UTF-8 string in PSD file"
+msgstr "པི་ཨེསི་ཌི་ཡིག་སྣོད་ནང་ནུས་མེད་ཀྱི་ ཡུ་ཊི་ཨེཕི་-༨ ཡིག་རྒྱུན།"
+
+#: ../plug-ins/common/psd_save.c:198
+msgid "Photoshop image"
+msgstr "པར་ཚོང་ཁང་གི་གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/psd_save.c:316
+#, c-format
+msgid "Unable to save layer with mode '%c'. The psd file format does not support that, using normal mode instead."
+msgstr "ཐབས་ལམ་ '%c'དང་བཅས་བང་རིམ་ སྲུང་མ་ཚུགས། དེ་གི་ཚབ་ལུ་ པི་ཨེསི་ཌི་ཡིག་སྣོད་རྩ་སྒྲིག་འདི་གིས་ སྤྱིར་བཏང་ཐབས་ལམ་ལག་ལེན་གྱི་ཐོག་ལུ་ རྒྱབ་སྐྱོར་མ་འབད།"
+
+#: ../plug-ins/common/psd_save.c:323
+msgid "Unable to save layer with UNKNOWN mode. Using normal mode as fallback."
+msgstr "མ་ཤེས་པའི་ཐབས་ལམ་དང་བཅས་ བང་རིམ་སྲུང་མ་ཚུགས། སྤྱིར་བཏང་ཐབས་ལམ་འདི་གློ་བུར་རྒྱབ་ཐག་སྦེ་ལག་ལེན་འཐབ་ནི།"
+
+#: ../plug-ins/common/psd_save.c:518
+msgid "Error: Can't convert GIMP base imagetype to PSD mode"
+msgstr "འཛོལ་བ་:ཇི་ཨའི་ཨེམ་པི་གཞི་རྟེན་ གཟུགས་བརྙན་གྱི་དབྱེ་བ་འདི་ པི་ཨེསི་ཌི་ཐབས་ལམ་ལུ་ གཞི་བསྒྱུར་འབད་མ་ཚུགས།"
+
+#: ../plug-ins/common/psd_save.c:1419
+#, c-format
+msgid "Unable to save '%s'.  The psd file format does not support images that are more than 30000 pixels wide or tall."
+msgstr "'%s' སྲུངས་མ་ཚུགས། པི་ཨེསི་ཌི་ཡིག་སྣོད་རྩ་སྒྲིག་འདི་གིས་ རྒྱ་ཅན་ ཡང་ན་ མཐོ་ཚད་ ༣༠༠༠༠ པིག་སེལསི་འབད་མི་གཟུགས་བརྙན་ཚུ་ལུ་ རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: ../plug-ins/common/psd_save.c:1431
+#, c-format
+msgid "Unable to save '%s'.  The psd file format does not support images with layers that are more than 30000 pixels wide or tall."
+msgstr "'%s' སྲུངས་མ་ཚུགས། པི་ཨེསི་ཌི་ཡིག་སྣོད་རྩ་སྒྲིག་འདི་གིས་ རྒྱ་ཅན་ ཡང་ན་ མཐོ་ཚད་ ༣༠༠༠༠ པིག་སེལསི་འབད་མི་གཟུགས་བརྙན་འདི་བང་རིམ་དང་བཅས་ རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: ../plug-ins/common/psp.c:359
+#: ../plug-ins/common/psp.c:383
+msgid "Paint Shop Pro image"
+msgstr "པོརོ་གཟུགས་བརྙན་གྱི་ཚོང་ཁང་ ཚོན་གཏང་།"
+
+#: ../plug-ins/common/psp.c:400
+msgid "Save as PSP"
+msgstr "པི་ཨེསི་པི་བཟུམ་སྦེ་ སྲུངས།"
+
+#. file save type
+#: ../plug-ins/common/psp.c:417
+msgid "Data Compression"
+msgstr "གནད་སྡུད་ཨེབ་བཙུགས།"
+
+#: ../plug-ins/common/psp.c:422
+msgid "RLE"
+msgstr "ཨར་ཨེལ་ཨི།"
+
+#: ../plug-ins/common/psp.c:423
+msgid "LZ77"
+msgstr "ཨེལ་ཛེཌི་༧༧།"
+
+#: ../plug-ins/common/randomize.c:102
+msgid "Random Hurl"
+msgstr "གང་འབྱུང་ཧརལ།"
+
+#: ../plug-ins/common/randomize.c:103
+msgid "Random Pick"
+msgstr "གང་འབྱུང་པིག"
+
+#: ../plug-ins/common/randomize.c:104
+msgid "Random Slur"
+msgstr "གང་འབྱུང་སི་ལར།"
+
+#: ../plug-ins/common/randomize.c:200
+msgid "Completely randomize a fraction of pixels"
+msgstr "པིག་སེལསི་གི་དཔྱ་ཕྲན་ཅིག་རྩ་བ་ལས་ གང་འབྱུང་བཟོ།"
+
+#: ../plug-ins/common/randomize.c:202
+msgid "Randomly interchange some pixels with neighbors"
+msgstr "ཁྱིམ་མཚེས་ཚུ་དང་བཅས་ པིག་སེལསི་ལ་ལོ་ཅིག་གང་འབྱུང་སྦེ་ ཕན་ཚུན་བརྗེ་སོར་འབད།"
+
+#: ../plug-ins/common/randomize.c:204
+msgid "Randomly slide some pixels downward (similar to melting)"
+msgstr "པིག་སེལསི་ལ་ལོ་ཅིག་གང་འབྱུང་སྦེ་(བཞུ་ནི་དང་ཅོག་འཐདཔ་སྦེ་)མར་ཕྱོགས་ལུ་ བཤུད།"
+
+#: ../plug-ins/common/randomize.c:231
+msgid "_Hurl..."
+msgstr "ཧརལ་་་་(_H)"
+
+#: ../plug-ins/common/randomize.c:243
+msgid "_Pick..."
+msgstr "པིག་་་་(_P)"
+
+#: ../plug-ins/common/randomize.c:255
+msgid "_Slur..."
+msgstr "སི་ལར་་་་(_S)"
+
+#: ../plug-ins/common/randomize.c:744
+#: ../plug-ins/common/snoise.c:617
+msgid "_Random seed:"
+msgstr "གང་འབྱུང་སོན་:(_R)"
+
+#: ../plug-ins/common/randomize.c:753
+msgid "R_andomization (%):"
+msgstr "གང་འབྱུང་བཟོ་བ(%):(_a)"
+
+#: ../plug-ins/common/randomize.c:756
+msgid "Percentage of pixels to be filtered"
+msgstr "བཙགས་ནི་ཨིན་པའི་པིག་སེལསི་གི་བརྒྱ་ཆ།"
+
+#: ../plug-ins/common/randomize.c:765
+msgid "R_epeat:"
+msgstr "ཡང་བསྐྱར་:(_e)"
+
+#: ../plug-ins/common/randomize.c:768
+msgid "Number of times to apply filter"
+msgstr "ཚགས་མ་འཇུག་སྤྱོད་འབད་ནི་ལུ་ བསྐོར་ཐེངས་ཀྱི་གྲངས།"
+
+#: ../plug-ins/common/raw.c:178
+#: ../plug-ins/common/raw.c:193
+msgid "Raw image data"
+msgstr "རགས་པའི་གཟུགས་བརྙན་གནད་སྡུད།"
+
+#: ../plug-ins/common/raw.c:925
+msgid "Load Image from Raw Data"
+msgstr "རགས་པ་གནད་སྡུད་ནང་ལས་ མངོན་གསལ་གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/raw.c:958
+msgid "Image"
+msgstr "གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/raw.c:970
+msgid "Planar RGB"
+msgstr "པ་ལ་ནར་ ཨར་ཇི་བི།"
+
+#: ../plug-ins/common/raw.c:971
+msgid "Indexed"
+msgstr "ཟུར་ཐོ་བཀོད་ཡོདཔ།"
+
+#: ../plug-ins/common/raw.c:976
+msgid "Image _Type:"
+msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་བ་:(_T)"
+
+#: ../plug-ins/common/raw.c:1026
+msgid "Palette"
+msgstr "པེ་ལེཊི།"
+
+#: ../plug-ins/common/raw.c:1036
+#: ../plug-ins/common/raw.c:1132
+msgid "R, G, B (normal)"
+msgstr "ཨར་ ཇི་ བི་(སྤྱིར་གཏང་)།"
+
+#: ../plug-ins/common/raw.c:1037
+#: ../plug-ins/common/raw.c:1134
+msgid "B, G, R, X (BMP style)"
+msgstr "བི་, ཇི་, ཨར་, ཨེགསི་(བི་ཨེམ་པི་ བཟོ་རྣམ་)།"
+
+#: ../plug-ins/common/raw.c:1042
+msgid "_Palette Type:"
+msgstr "པེ་ལེཊི་དབྱེ་བ་:(_P)"
+
+#: ../plug-ins/common/raw.c:1053
+msgid "Off_set:"
+msgstr "པར་ལེན་:(_s)"
+
+#: ../plug-ins/common/raw.c:1065
+msgid "Select Palette File to Load"
+msgstr "མངོན་གསལ་འབད་ནི་ལུ་ པེ་ལེཊི་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../plug-ins/common/raw.c:1068
+msgid "Pal_ette File:"
+msgstr "པེ་ལེཊི་ཡིག་སྣོད་:(_e)"
+
+#: ../plug-ins/common/raw.c:1096
+msgid "Raw Image Save"
+msgstr "རགས་པའི་གཟུགས་བརྙན་སྲུང་བཞག"
+
+#: ../plug-ins/common/raw.c:1118
+msgid "RGB Save Type"
+msgstr "ཨར་ཇི་བི་སྲུང་བཞག་དབྱེ་བ།"
+
+#: ../plug-ins/common/raw.c:1122
+msgid "Standard (R,G,B)"
+msgstr "ཚད་ལྡན་(ཨར་ ཇི་ བི་)།"
+
+#: ../plug-ins/common/raw.c:1123
+msgid "Planar (RRR,GGG,BBB)"
+msgstr "པ་ལ་ནར་(ཨར་ཨར་ཨར་,ཇི་ཇི་ཇི་,བི་བི་བི་)།"
+
+#: ../plug-ins/common/raw.c:1128
+msgid "Indexed Palette Type"
+msgstr "ཟུར་ཐོ་བཀོད་ཡོད་པའི་པེ་ལེཊི་གི་དབྱེ་བ།"
+
+#: ../plug-ins/common/redeye.c:107
+msgid "Remove the red eye effect caused by camera flashes"
+msgstr "པར་ཆས་རིབ་སྟོན་གྱིས་རྒྱུ་རྐྱེན་བྱེད་པའི་ མིག་ཏོག་དམརཔོ་གི་ནུས་པ་འདི་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../plug-ins/common/redeye.c:118
+msgid "_Red Eye Removal..."
+msgstr "མིག་ཏོག་དམརཔོ་ བཏོན་བཏུབ་པའི་་་་(_R)"
+
+#: ../plug-ins/common/redeye.c:146
+msgid "Red Eye Removal"
+msgstr "མིག་ཏོག་དམརཔོ་ བཏོན་བཏུབ།"
+
+#: ../plug-ins/common/redeye.c:180
+msgid "Threshold for the red eye color to remove."
+msgstr "རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལས་ མིག་ཏོག་དམརཔོ་གི་ཚོས་གཞི་ལུ་ཐེརེཤ་ཧཱོལ།"
+
+#: ../plug-ins/common/redeye.c:183
+msgid "Manually selecting the eyes may improve the results."
+msgstr "ལག་ཐོག་ལས་མིག་ཏོག་སེལ་འཐུ་འབད་མི་འདི་གིས་ གྲུབ་འབྲས་ལེགས་ཤོམ་བཟོ་འོང་།"
+
+#: ../plug-ins/common/redeye.c:319
+msgid "Removing red eye"
+msgstr "མིག་ཏོག་དམརཔོ་ རྩ་བསྐྲད་གཏང་ནི།"
+
+#: ../plug-ins/common/retinex.c:156
+msgid "Enhance contrast using the Retinex method"
+msgstr "རེ་ཊི་ནེགསི་ཐབས་ལམ་ལག་ལེན་གྱི་ཐོག་ལས་ ཚོན་མདངས་གོང་དུ་སྤེལ།"
+
+#: ../plug-ins/common/retinex.c:166
+msgid "_Retinex..."
+msgstr "རེ་ཊི་ནེགསི་་་་(_R)"
+
+#: ../plug-ins/common/retinex.c:250
+msgid "Retinex"
+msgstr "རེ་ཊི་ནེགསི།"
+
+#: ../plug-ins/common/retinex.c:289
+msgid "Retinex Image Enhancement"
+msgstr "རེ་ཊི་ནེགསི་ གཟུགས་བརྙན་གོང་སྤེལ།"
+
+#: ../plug-ins/common/retinex.c:318
+msgid "Level"
+msgstr "གནས་རིམ།"
+
+#: ../plug-ins/common/retinex.c:322
+msgid "_Uniform"
+msgstr "གཅིག་མཚུངས།(_U)"
+
+#: ../plug-ins/common/retinex.c:324
+msgid "_Low"
+msgstr "དམའ།(_L)"
+
+#: ../plug-ins/common/retinex.c:326
+msgid "_High"
+msgstr "མཐོ།(_H)"
+
+#: ../plug-ins/common/retinex.c:351
+msgid "_Scale:"
+msgstr "ཆ་ཚད་:(_S)"
+
+#: ../plug-ins/common/retinex.c:366
+msgid "_Scale division:"
+msgstr "ཆ་ཚད་སྡེ་ཚན་:(_S)"
+
+#: ../plug-ins/common/retinex.c:381
+msgid "_Dynamic:"
+msgstr "ནུས་ཅན།(_D)"
+
+#: ../plug-ins/common/retinex.c:654
+msgid "Retinex: filtering"
+msgstr "རེ་ཊི་ནེགསི་:བཙགས་པ།"
+
+#: ../plug-ins/common/ripple.c:129
+msgid "Displace pixels in a ripple pattern"
+msgstr "ཆུ་རིས་དཔེ་གཞི་ནང་པིག་སེལསི་འདི་ གནས་མེདཔ་བཟོ།"
+
+#: ../plug-ins/common/ripple.c:136
+msgid "_Ripple..."
+msgstr "ཆུ་རིས་་་(_R)"
+
+#: ../plug-ins/common/ripple.c:220
+msgid "Rippling"
+msgstr "ཆུ་རིས་བཟོ་ནི།"
+
+#: ../plug-ins/common/ripple.c:462
+msgid "Ripple"
+msgstr "ཆུ་རིས།"
+
+#: ../plug-ins/common/ripple.c:519
+msgid "_Retain tilability"
+msgstr "གནས་སར་བཞག་པ།(_R)"
+
+#. Edges toggle box
+#: ../plug-ins/common/ripple.c:553
+msgid "Edges"
+msgstr "མཐའམ་ཚུ།"
+
+#: ../plug-ins/common/ripple.c:559
+msgid "_Blank"
+msgstr "སྟོངམ།(_B)"
+
+#. Wave toggle box
+#: ../plug-ins/common/ripple.c:581
+msgid "Wave Type"
+msgstr "ཝེབ་ཀྱི་དབྱེ་བ།"
+
+#: ../plug-ins/common/ripple.c:585
+msgid "Saw_tooth"
+msgstr "སོ་ལིའི་སོ།(_t)"
+
+#: ../plug-ins/common/ripple.c:586
+msgid "S_ine"
+msgstr "སིན།(_i)"
+
+#: ../plug-ins/common/ripple.c:609
+msgid "_Period:"
+msgstr "དུས་ཡུན་:(_P)"
+
+#: ../plug-ins/common/ripple.c:622
+msgid "A_mplitude:"
+msgstr "རྒྱ་ཆེ་བ་:(_m)"
+
+#: ../plug-ins/common/rotate.c:413
+msgid "You can not rotate the whole image if there's a selection."
+msgstr "སེལ་འཐུ་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱིས་གཟུགས་བརྙན་ཧྲིལ་བུ་བསྒྱིར་མི་ཚུགས།"
+
+#: ../plug-ins/common/rotate.c:420
+msgid "You can not rotate the whole image if there's a floating selection."
+msgstr "འཕུར་ལྡིང་སེལ་འཐུ་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱིས་གཟུགས་བརྙན་ཧྲིལ་བུ་བསྒྱིར་མི་ཚུགས།"
+
+#: ../plug-ins/common/rotate.c:431
+msgid "Sorry, channels and masks can not be rotated."
+msgstr "དགོངསམ་མ་ཁྲེལ་ རྒྱུ་ལམ་དང་གདོང་ཁེབས་ཀྱིས་ བསྒྱིར་མི་ཚུགས།"
+

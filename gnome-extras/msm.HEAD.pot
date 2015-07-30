@@ -1,0 +1,954 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msn.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-12 22:18+0100\n"
+"PO-Revision-Date: 2006-12-15 10:24+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../gsmclient/gsmclient-test.c:18
+msgid "Quitting...\n"
+msgstr "སྤང་དོ...\n"
+
+#: ../gsmclient/gsmclient-test.c:27
+msgid "Saving state...\n"
+msgstr "གནས་ལུགས་སྲུང་བཞག་འབད་དོ...\n"
+
+#: ../gsmclient/gsmclient-test.c:28
+#, c-format
+msgid "Count level is '%d'\n"
+msgstr "གྱངས་ཁའི་གནས་རིམ་འདི་'%d'\n"
+
+#: ../gsmclient/gsmclient-test.c:95
+#, c-format
+msgid "Unknown restart style '%s'.Using default restart style (if-running).\n"
+msgstr "མ་ཤེས་པའི་ལོག་འགོ་བཙུག་པའི་བཟོ་རྣམ་ '%s' སྔོན་སྒྲིག་ལག་ལེན་འཐབ་ཐོག་ལས་  བཟོ་རྣམ་འདི་ལོག་འགོ་བཙུག་(གཡོག་བཀོལ་དོ་ཡོད་པ་ཅིན།)\n"
+
+#: ../gsmclient/gsmclient-test.c:123
+#, c-format
+msgid "Unknown client role '%s'.Using default role (normal).\n"
+msgstr "མ་ཤེས་པའི་ཞབས་ཏོག་སྤྱོད་མིའི་ལས་འགན་ '%s' སྔོན་སྒྲིག་ལས་འགན་ལག་ལེན་འཐབ་ཐོག་ལས་(སྤྱིར་བཏང་།)\n"
+
+#: ../gsmclient/gsmclient-test.c:142
+msgid "Specify session management ID"
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་ཨའི་ཌི་འདི་གསལ་བཀོད་འབད་"
+
+#: ../gsmclient/gsmclient-test.c:142
+msgid "ID"
+msgstr "ཨའི་ཌི་"
+
+#: ../gsmclient/gsmclient-test.c:145
+msgid "Specify client role.  Can be one of: normal, window-manager, setup, desktop-component"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་ལས་འགན་འདི་གསལ་བཀོད་འབད།  དེ་ཚུ་གི་གྱལ་ལས་གཅིག་ཨིནམ་འོང་:  སྤྱིར་བཏང་  སྒོ་སྒྲིག་-འཛིན་སྐྱོང་པ་  གཞི་སྒྲིག་  ཌེཀསི་ཊོཔ་-ཆ་ཤས།"
+
+#: ../gsmclient/gsmclient-test.c:146
+msgid "ROLE"
+msgstr "ལས་འགན་"
+
+#: ../gsmclient/gsmclient-test.c:149
+msgid "Specify restart style.  Can be one of: if-running, anyway, immediately, never"
+msgstr "ལོག་འགོ་བཙུག་པའི་བཟོ་རྣམ་འདི་གསལ་བཀོད་འབད།  དེ་ཚུ་གི་གྱལ་ལས་གཅིག་ཨིནམ་འོང་:  གཡོག་བཀོལ་བའི་བསྒང་ཨིན་མི་  ག་ལས་སྐོར་རུང་  མྱུར་དུ་  ནམ་ཡང་"
+
+#: ../gsmclient/gsmclient-test.c:150
+msgid "STYLE"
+msgstr "བཟོ་རྣམ་"
+
+#: ../gsmclient/gsmclient-test.c:153
+msgid "Specify where to count from"
+msgstr "ག་སྟེ་ལས་གྱངས་ཁ་བརྐྱབ་ནི་ཨིན་ན་འདི་གསལ་བཀོད་འབད་"
+
+#: ../gsmclient/gsmclient-test.c:153
+msgid "NUMBER"
+msgstr "ཨང་གྲངས་"
+
+#: ../gsmclient/gsmclient.c:361
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s འདི་ལཱ་ཡུན་འཛིན་སྐྱོང་པ་%sལུ་མཐུད་ནི་འདི་འཐུས་ཤོར་འབྱུང་ནུག: \n"
+
+#: ../gsmclient/xsmp-control.c:59
+#, c-format
+msgid "Can't specify both --logout and --save\n"
+msgstr "both --logout and --save གཉིས་ཆ་རང་གསལ་བཀོད་འབད་མ་ཚུགས་པས། \n"
+
+#: ../gsmclient/xsmp-control.c:64
+#, c-format
+msgid "Must specify either --logout or --save\n"
+msgstr " either --logout or --save གང་རུང་ཅིག་གསལ་བཀོད་འབད་དགོ།\n"
+
+#: ../gsmclient/xsmp-control.c:78
+#, c-format
+msgid "Failed to connect to session manager\n"
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པ་ལུ་མཐུད་ནི་འདི་འཐུས་ཤོར་འབྱུང་ནུག། \n"
+
+#: ../src/client.c:215
+#, c-format
+msgid "Client '%s' attempted to register when it was already registered\n"
+msgstr "ཧེ་མ་ལས་རང་ཐོ་བཀོད་འབད་དེ་ཡོད་རུང་   ཞབས་ཏོག་སྤྱོད་མི་ '%s' འདི་  ཐོ་བཀོད་འབད་ནི་དཔའ་བཅམ་ནུག། \n"
+
+#: ../src/client.c:243
+#, c-format
+msgid "Client '%s' requested interaction when it was not being saved\n"
+msgstr "སྲུང་བཞག་འབད་དེ་མེད་རུང་  ཞབས་ཏོག་སྤྱོད་མི་ '%s' འདི་ཕན་ཚུན་འབྲེལ་ནིའི་ཞུ་བ་འབད་ནུག། \n"
+
+#: ../src/client.c:290
+#, c-format
+msgid "Tried to save client '%s' but it was not in the idle state\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་  '%s' འདི་སྲུང་བཞག་འབད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ནུག་  འདི་འབདཝ་ད་  ལས་མེད་གནས་ལུགས་ནང་མེན་པས། \n"
+
+#: ../src/client.c:353
+#, c-format
+msgid "Tried to send cancel shutdown to client '%s' which is in state %s\n"
+msgstr "སྒོ་བསྡམ་ནི་ཆ་མེད་གཏང་ཟེར་མི་འདི་  གནས་ལུགས་ %s ནང་ཨིན་པའི་  ཞབས་ཏོག་སྤྱོད་མི་ '%s' ལུ་གཏང་ནི་གི་འབད་རྩོལ་བསྐྱེད་ནུག། \n"
+
+#: ../src/client.c:361
+#, c-format
+msgid "Tried to send cancel shutdown to client '%s' which is not in shutdown state, state %s"
+msgstr "སྒོ་བསྡམ་ཆ་མེད་གཏང་ཟེར་མི་འདི་  སྒོ་བསྡམ་གནས་ལུགས་ནང་མེན་པའི་ གནས་ལུགས་ %s འདི་  ཞབས་ཏོག་སྤྱོད་མི་  '%s' ལུ་གཏང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ནུག།"
+
+#: ../src/client.c:382
+#, c-format
+msgid "Client '%s' requested phase 2 save but was not in a phase 1 save\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ '%s' དེ་གིས་ གོ་རིམ་ ༢་ སྲུང་ཟེར་མི་འདི་ཞུ་བ་འབད་ནུག་  འདི་འབདཝ་ད་  གོ་རིམ་ ༡་ སྲུང་ཟེར་མི་ནང་མིན་འདུག། \n"
+
+#: ../src/client.c:397
+#, c-format
+msgid "We tried to save client '%s' in phase 2, but it hadn't requested it.\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ '%s' འདི་ ང་བཅས་ཀྱིས་གོ་རིམ་ ༢་ ནང་སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ཡི་  འདི་འབདཝ་ད་  དེ་གིས་ཞུ་བ་མ་འབད་བས། \n"
+
+#: ../src/client.c:443
+#, c-format
+msgid "Client '%s' said it was done saving, but it hadn't been told to save\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ '%s' དེ་གིས་  སྲུང་བཞག་འབད་ཚར་ཡི་ཟེར་སླབ་ནུག་  འདི་འབདཝ་ད་  སྲུང་བཞག་འབད་ཟེར་མ་སླབ་པས \n"
+
+#: ../src/client.c:619
+msgid "Application has connected to the session manager, but hasn't registered successfully."
+msgstr "གློག་རིམ་འདི་ལཱ་ཡུན་འཛིན་སྐྱོང་པ་ལུ་མཐུད་ནུག་  འདི་འབདཝ་ད་  མཐར་འཁྱོལཝ་འབད་ཐོ་འགོད་མ་འབད་བས།"
+
+#: ../src/client.c:623
+msgid "Internal error in the session manager: we aren't actually waiting on this application for anything!"
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་ནང་ནང་འཁོད་འཛོལ་བ:  གློག་རིམ་དེ་གི་ཐོག་ལུ་ང་བཅས་ག་ཅི་གི་དོན་ལུ་ཡང་བསྒུག་བསྒུགཔ་མེན!"
+
+#: ../src/client.c:627
+msgid "Application is in phase 1 of the session save."
+msgstr "གློག་རིམ་འདི་ ལཱ་ཡུན་སྲུང་ཟེར་མི་གི་གོ་རིམ་ ༡་ ནང་ཡོད།"
+
+#: ../src/client.c:631
+msgid "Application requested interaction but was never granted it."
+msgstr "གློག་རིམ་དེ་གིས་ཕན་ཚུན་འབྲེལ་བ་འདི་ཞུ་བ་འབད་ནུག་  འདི་འབདཝ་ད་  ཁས་མ་ལེན་བས།"
+
+#: ../src/client.c:635
+msgid "Internal error in the session manager: application is interacting with user, but we are still timed it out."
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་ནང་ནང་འཁོད་འཛོལ་བ:  གློག་རིམ་འདི་ལག་ལེན་པ་དང་ཅིག་ཁར་ཕན་ཚུན་འབྲེལ་བ་འབད་ནུག་  འདི་འབདཝ་ད་  ང་བཅས་ཚུ་ད་ལྟོ་ཡང་ངལ་མཚམས་བཞག་ནུག།"
+
+#: ../src/client.c:639
+msgid "Application recently finished interacting with user."
+msgstr "གློག་རིམ་འདི་འཕྲལ་རང་  ལག་ལེན་པ་དང་ཅིག་ཁར་ཕན་ཚུན་འབྲེལ་བ་འབད་ཚར་ནུག།"
+
+#: ../src/client.c:643
+msgid "Internal error in the session manager: application has requested a phase 2 save, but we aren't waiting for the application to do anything."
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་ནང་  ནང་འཁོད་འཛོལ་བ:  གློག་རིམ་དེ་གིས་གོ་རིམ་ ༢་ སྲུང་ཟེར་མི་འདི་ཞུ་བ་འབད་ནུག་  འདི་འབདཝ་ད་  ང་བཅས་ཚུ་གློག་རིམ་གྱིས་ག་ཅི་ཨིན་རུང་འབད་ཟེར་བསྒུག་བསྒུགཔ་མེན།"
+
+#: ../src/client.c:647
+msgid "Application is in phase 2 of the session save."
+msgstr "གློག་རིམ་འདི་ལཱ་ཡུན་སྲུང་བཞག་འབད་ཟེར་མིའི་གོ་རིམ་ ༢་ ནང་ཡོད།"
+
+#: ../src/client.c:651
+msgid "Internal error in the session manager: application has successfully finished saving, we aren't waiting for it."
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་ནང་ནང་འཁོད་འཛོལ་བ:  གློག་རིམ་འདི་མཐར་འཁྱོལཝ་འབད་སྲུང་བཞག་འབད་ནུག་  ང་བཅས་འདི་ལུ་བསྒུགཔ་མེན།"
+
+#: ../src/client.c:655
+msgid "Internal error in the session manager: application failed to successfully save, but we aren't waiting for it."
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་ནང་ནང་འཁོད་འཛོལ་བ:  མཐར་འཁྱོལཝ་འབད་སྲུང་བཞག་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག་  འདི་འབདཝ་ད་  ང་བཅས་འདི་ལུ་བསྒུགཔ་མེན།"
+
+#: ../src/client.c:659
+msgid "Application was asked to exit prior to logout, but it's still running."
+msgstr "ཕྱིར་བསྐྱོད་འབད་ནི་དོན་ལུ་  གློག་རིམ་འདི་གིས་གོང་ལུ་ཕྱིར་འཐོན་ཟེར་སླབ་ནུག་  དེ་འབདཝ་ད་འདི་ད་ལྟོ་ཡང་གཡོག་བཀོལ་དོ།"
+
+#: ../src/dialogs.c:36
+msgid "Your currently open applications have been recorded. These same applications will be opened next time you log in."
+msgstr "ཁྱོད་ཀྱིས་ད་ལྟོ་ཁ་ཕྱེ་སྟེ་ཡོད་པའི་གློག་རིམ་ཚུ་ ཐོ་བཀོད་འབད་དེ་ཡོད།  གློག་རིམ་དེ་དང་ལྕོག་ཐདཔ་འདི་  ཤུལ་ལས་ཁྱོད་ཀྱིས་ནང་བསྐྱོད་འབདཝ་ད་ཁ་ཕྱེ་ནི་ཨིན།"
+
+#: ../src/dialogs.c:63
+msgid "_Details"
+msgstr "རྒྱས་བཤད་ཚུ། (_D)"
+
+#: ../src/dialogs.c:108
+msgid "Your current applications were not successfully recorded, and may not be restored next time you log in."
+msgstr "ཁྱོད་རའི་ད་ལྟོ་གི་གློག་རིམ་ཚུ་མཐར་འཁྱལཝ་འབད་ཐོ་བཀོད་མ་འབད་བའི་ཁར་  ཤུལ་མ་ཁྱོད་ཀྱིས་ནང་བསྐྱོད་འབདཝ་ད་སོར་ཆུད་མི་ཚུགས།"
+
+#: ../src/gdmremote.c:47
+#, c-format
+msgid "Failed to stat socket '%s': %s\n"
+msgstr "སོ་ཀེཊི་'%s'སིཊེཊི་འབད་མ་ཚུགས: %s\n"
+
+#: ../src/gdmremote.c:55
+#, c-format
+msgid "Failed to verify access permissions of socket '%s': %s\n"
+msgstr "སོ་ཀེཊི་ '%s' གི་འཛུལ་སྤྱོད་འབད་ནིའི་གནང་བ་ཚུ་བདེན་སྦྱོར་འབད་མ་ཚུགས: %s\n"
+
+#: ../src/gdmremote.c:183
+#, c-format
+msgid "Failed to retrieve socket descriptor: %s\n"
+msgstr "སོ་ཀེཊི་འགྲེལ་བཤད་%sསླར་འདྲེན་འབད་མ་ཚུགས:\n"
+
+#: ../src/gdmremote.c:193
+#, c-format
+msgid "Failed to connect to socket '%s': %s\n"
+msgstr "སོ་ཀེཊི་ '%s' ལུ་མཐུད་མ་ཚུགས:  %s\n"
+
+#: ../src/gdmremote.c:256
+#, c-format
+msgid "Failed to open X authorization file '%s': %s\n"
+msgstr "ཨེགསི་དབང་སྤྲོད་ཡིག་སྣོད་ '%s' ཁ་ཕྱེ་མ་ཚུགས:  %s\n"
+
+#: ../src/gdmremote.c:323
+#, c-format
+msgid "All authentication cookies failed to authenticate with GDM socket '%s'"
+msgstr "བདེན་བཤད་ཀུ་ཀི་ཚུ་ཆ་མཉམ་རང་  ཇི་ཌི་ཨེམ་སོ་ཀེཊི་ '%s' དང་ཅིག་ཁར་བདེན་བཤད་འབད་མ་ཚུགས"
+
+#: ../src/gdmremote.c:352
+#, c-format
+msgid "Failed to send command '%s' to socket: %s\n"
+msgstr "བརྡ་བཀོད་ '%s' འདི་ སོ་ཀེཊི་%sལུ་གཏང་མ་ཚུགས: \n"
+
+#: ../src/gdmremote.c:370
+#, c-format
+msgid "Failed to receive answer from socket: %s\n"
+msgstr "སོ་ཀེཊི་ %sལས་ལེན་འཐོབ་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག: \n"
+
+#: ../src/gdmremote.c:395
+#, c-format
+msgid "Command '%s' failed: %s\n"
+msgstr "བརྡ་བཀོད་ '%s' འདི་འཐུས་ཤོར་འབྱུང་ནུག་%s:\n"
+
+#: ../src/gdmremote.c:397
+msgid "unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+#: ../src/logout.c:183
+msgid "Really log out?"
+msgstr "ཐད་རི་འབའ་རི་རང་ཕྱིར་བསྐྱོད་འབད་ནི་ཨིན་ན?"
+
+#: ../src/logout.c:204
+#: ../src/shutdowndialog.c:195
+msgid "Save current setup"
+msgstr "ད་ལྟོའི་གཞི་སྒྲིག་འདི་སྲུང་"
+
+#: ../src/logout.c:224
+msgid "Action"
+msgstr "བྱ་བ་"
+
+#: ../src/logout.c:232
+msgid "Logout"
+msgstr "ཕྱིར་བསྐྱོད་འབད་"
+
+#: ../src/logout.c:235
+msgid "Shut Down"
+msgstr "སྒོ་བསྡམ་"
+
+#: ../src/logout.c:238
+msgid "Reboot"
+msgstr "རི་བུཊི་"
+
+#: ../src/logout.c:333
+#: ../src/shutdowndialog.c:272
+msgid "_Log out"
+msgstr "ཕྱིར་བསྐྱོད་འབད། (_L)"
+
+#: ../src/logout.c:336
+msgid "_Shut down"
+msgstr "སྒོ་བསྡམ། (_S)"
+
+#: ../src/logout.c:339
+#: ../src/shutdowndialog.c:278
+msgid "_Reboot"
+msgstr "རི་བུཊི། (_R)"
+
+#: ../src/logout.c:342
+msgid "_Cancel"
+msgstr "ཆ་མེད་གཏང་། (_C)"
+
+#: ../src/logout.c:510
+#: ../src/server.c:409
+msgid "Log out"
+msgstr "ཕྱིར་བསྐྱོད་འབད་"
+
+#: ../src/logout.c:549
+msgid "Sa_ve open applications to restore next time"
+msgstr "ཤུལ་མ་སོར་ཆུད་འབད་ནི་ལུ་ ཁ་ཕྱེ་སྟེ་ཡོད་པའི་གློག་རིམ་ཚུ་སྲུང་། (_v)"
+
+#: ../src/main.c:68
+msgid "Run in failsafe mode."
+msgstr "འཐུས་ཤོར་ཉན་སྲུང་ཐབས་ལམ་ནང་གཡོག་བཀོལ།"
+
+#: ../src/main.c:71
+msgid "Display detailed information about application progress."
+msgstr "གློག་རིམ་ཡར་འཕེལ་སྐོར་ལས་  རྒྱས་བཤད་བརྡ་དོན་བཀྲམ་སྟོན་འབད།"
+
+#: ../src/main.c:74
+msgid "Load specified session."
+msgstr "གསལ་བཀོད་འབད་དེ་ཡོད་པའི་ལཱ་ཡུན་མངོན་གསལ་འབད།"
+
+#: ../src/main.c:74
+msgid "session"
+msgstr "ལཱ་ཡུན་"
+
+#: ../src/server.c:215
+#, c-format
+msgid "Could not initialize SMS: %s\n"
+msgstr "ཨེསི་ཨེམ་ཨེསི་%sའདི་འགོ་བྱེད་འབད་མ་ཚུགས: \n"
+
+#: ../src/server.c:289
+#, c-format
+msgid "session management error on client '%s' in state %s:\n"
+msgstr "གནས་ལུགས་  %s ནང་ ཞབས་ཏོག་སྤྱོད་མི་ '%s' གུ་  ལཱ་ཡུན་འཛིན་སྐྱོང་འཛོལ་བ: \n"
+
+#: ../src/server.c:290
+msgid "(unknown)"
+msgstr "(མ་ཤེསཔ་)"
+
+#: ../src/server.c:291
+msgid "n/a"
+msgstr "n/a"
+
+#: ../src/server.c:406
+msgid "Reboot or shutdown was unsuccessful."
+msgstr "རི་བོཊི་ཡང་ན་སྒོ་བསྡམ་ནི་འདི་མཐར་མ་འཁྱོལ་བས།"
+
+#: ../src/server.c:596
+#, c-format
+msgid "Client '%s' requested interaction, but interaction is not allowed right now.\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ '%s' དེ་གིས་ཕན་ཚུན་འབྲེལ་བ་འདི་ཞུ་བ་འབད་ནུག་  འདི་འབདཝ་ད་  ཕན་ཚུན་འབྲེལ་བ་འདི་ད་ལྟོ་མི་ཆོག། \n"
+
+#: ../src/server.c:634
+#, c-format
+msgid "Received InteractDone from client '%s' which should not be interacting right now\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ '%s' ལས་ཕན་ཚུན་འབྲེལ་ཚར་ཡི་ཟེར་མི་འདི་འཐོབ་ནུག་  དེ་ཡང་  ད་ལྟོ་ཕན་ཚུན་འབྲེལ་བ་འབད་མ་བཏུ་མི། \n"
+
+#: ../src/server.c:727
+#, c-format
+msgid "Client '%s' requested save, but is not currently in the idle state\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ '%s' དེ་གིས་སྲུང་ཟེར་མི་འདི་ཞུ་བ་འབད་ནུག་  འདི་འབདཝ་ད་  ད་ལྟོ་ལས་མེད་གནས་ལུགས་ནང་མེན་པས། \n"
+
+#: ../src/server.c:917
+msgid "Refusing new client connection because the session is currently being shut down\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གསརཔ་འདི་ངོས་ལེན་མི་འབད་བས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  ལཱ་ཡུན་འདི་ད་ལྟོ་སྒོ་བསྡམ་ནུག \n"
+
+#: ../src/server.c:1512
+#, c-format
+msgid "Application '%s' is not responding. Keep waiting for it to respond, or ignore it for now?"
+msgstr "གློག་རིམ་ '%s' དེ་གིས་ལན་བཀོད་མི་འབད་བས།  ལན་བཀོད་འབད་ནིའི་དོན་ལུ་བསྒུག་བཞག་  ཡང་ན་  ད་ལྟོའི་དོན་དོན་ལུ་སྣང་མེད་བཞག་ག?"
+
+#: ../src/server.c:1520
+msgid "An application is not responding. Keep waiting for it to respond, or ignore it for now?"
+msgstr "གློག་རིམ་དེ་གིས་ལན་བཀོད་མི་འབད་བས།  ལན་བཀོད་འབད་ནིའི་དོན་ལུ་བསྒུག་བཞག་  ཡང་ན་  ད་ལྟོའི་དོན་ལུ་སྣང་མེད་བཞག་ག?"
+
+#: ../src/server.c:1528
+msgid "_Keep waiting"
+msgstr "བསྒུག་བཞག། (_K)"
+
+#: ../src/server.c:1530
+msgid "_Ignore it"
+msgstr "སྣང་མེད་འབད་བཞག། (_I)"
+
+#: ../src/server.c:1823
+msgid "Failed to accept new ICE connection\n"
+msgstr "ཨའི་སི་ཨི་མཐུད་ལམ་གསརཔ་དང་ལེན་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག། \n"
+
+#: ../src/server.c:1871
+msgid "IO error trying to accept new connection (client may have crashed trying to connect to the session manager, or client may be broken, or someone yanked the ethernet cable)\n"
+msgstr "ཨའི་ཨོ་འཛོལ་བ་འདི་མཐུད་ལམ་གསརཔ་ཅིག་དང་ལེན་འབད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་དོ་ (ལཱ་ཡུན་འཛིན་སྐྱོང་པ་ལུ་མཐུད་ནི་འབདཝ་ད་ཞབས་ཏོག་སྤྱོད་མི་འདི་བརྡབ་འཁྲུག་བྱུང་ཡོདཔ་  ཡང་ན་  ཞབས་ཏོག་སྤྱོད་མི་འདི་ཆད་ཆདཔ་  ཡང་ན་  ལ་ལོ་ཅིག་གིས་ཨི་ཐར་ནེཊི་ཧང་སྟོང་མར་འཐེན་འཐེནམ་འོང་།)\n"
+
+#: ../src/server.c:1873
+msgid "Rejecting new connection (some client was not allowed to connect to the session manager)\n"
+msgstr "མཐུད་ལམ་གསརཔ་འདི་དང་ལེན་སྤང་དོ་(ཞབས་ཏོག་སྤྱོད་མི་ལ་ལོ་ཅིག་  ལཱ་ཡུན་འཛིན་སྐྱོང་པ་ལུ་མཐུད་མ་བཅུག་པས།)\n"
+
+#. The default error handler would give a more informative message
+#. * than we are, but it would also exit most of the time, which
+#. * is not appropriate here.
+#. *
+#. * gnome-session closes the connection in here, but I'm not sure that
+#. * counts as a good idea. the default handler doesn't do that.
+#.
+#: ../src/server.c:1912
+#, c-format
+msgid "ICE error received, opcode: %d sequence: %lu class: %d severity: %d\n"
+msgstr "ཨའི་སི་ཨི་འཛོལ་བ་འཐོབ་ནུག་  ཨོ་པི་ཨང་རྟགས: %d འབྱུང་རིམ: %lu དབྱེ་རིགས: %d འཚུབ་ཆ: %d\n"
+
+#: ../src/server.c:1954
+#, c-format
+msgid "Could not initialize ICE: %s\n"
+msgstr "ཨའི་སི་ཨི༌ %sའགོ་འབྱེད་འབད་མ་ཚུགས: \n"
+
+#: ../src/server.c:1988
+msgid "Could not set up authentication\n"
+msgstr "བདེན་བཤད་གཞི་སྒྲིག་འབད་མ་ཚུགས། \n"
+
+#: ../src/server.c:2040
+#, c-format
+msgid "Failed to run 'iceauth': %s\n"
+msgstr " 'iceauth' %sགཡོག་བཀོལ་མ་ཚུགས: \n"
+
+#: ../src/server.c:2055
+#, c-format
+msgid "Failed to write iceauth script: %s\n"
+msgstr "ཨའིསི་ཨའུཊི་%sཡིག་ཚུགས་འབྲི་མ་ཚུགས: \n"
+
+#: ../src/server.c:2075
+#, c-format
+msgid "Unexpected error in waitpid() executing iceauth (%s)\n"
+msgstr "ཝེཊི་པིཌི་()ལག་ལེན་འཐབ་པའི་ཨའིསི་ཨའུཊ་(%s)ནང་རེ་བ་མེད་པའི་འཛོལ་བ། \n"
+
+#: ../src/server.c:2090
+#, c-format
+msgid "iceauth exited with failure status %d\n"
+msgstr "འཐུས་ཤོར་གནས་ཚད་ %d དང་ཅིག་ཁར་ཨའིསི་ཨའུཊ་ཕྱིར་འཐོན་འབད་ནུག \n"
+
+#: ../src/server.c:2097
+#, c-format
+msgid "iceauth exited abnormally with signal %d\n"
+msgstr "བརྡ་རྟགས་ %d དང་ཅིག་ཁར་ཨའིསི་ཨའུཊ་འདི་ཨ་གརྟ་དང་མ་འདྲཝ་འབད་ཕྱིར་འཐོན་འབད་ནུག། \n"
+
+#. should not happen
+#: ../src/server.c:2104
+msgid "iceauth exited abnormally, unknown error\n"
+msgstr "ཨའིསི་ཨའུཊ་འདི་ཨ་རྟག་དང་མ་འདྲཝ་འབད་ཕྱིར་འཐོན་འབད་ནུག་  མ་ཤེས་པའི་འཛོལ་བ། \n"
+
+#: ../src/session.c:317
+msgid "Sawfish Window Manager"
+msgstr "སོ་ཕིཤ་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་"
+
+#: ../src/session.c:320
+msgid "Metacity Window Manager"
+msgstr "མེ་ཊ་སི་ཊི་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་"
+
+#: ../src/session.c:323
+msgid "Window Manager"
+msgstr "སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་"
+
+#: ../src/session.c:326
+msgid "The Panel"
+msgstr "པེ་ནཱལ་"
+
+#: ../src/session.c:329
+msgid "Session Manager Proxy"
+msgstr "ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་པོརོ་སི་"
+
+#: ../src/session.c:332
+msgid "Nautilus"
+msgstr "ནའུ་ཊི་ལཱསི་"
+
+#: ../src/session.c:335
+msgid "Desktop Settings"
+msgstr "ཌེཀསི་ཊོཔ་སྒྲིག་སྟངས་ཚུ་"
+
+#: ../src/session.c:503
+#, c-format
+msgid "The application '%s' has been restarted several times in the last few seconds, but crashed or exited each time. What do you want to do with this application?"
+msgstr "གློག་རིམ་ '%s' འདི་  མཇུག་གི་སྐར་ཆ་དག་པ་ཅིག་ནང་  ཚར་ལས་ཤ་རང་ལོག་འགོ་བཙུགས་ནུག་  འདི་འབདཝ་ད་  བརྡབ་འཁྲུག་དང་ཡང་ན་དུས་ཡུན་རེ་རེ་ནང་ཕྱིར་འཐོན་འབད་ནུག།  གློག་རིམ་འདི་དང་ཅིག་ཁར་ཁྱོད་ཀྱིས་ག་ཅི་འབད་ནི?"
+
+#: ../src/session.c:507
+msgid "_Keep restarting"
+msgstr "ལོག་འགོ་བཙུག་འབད་བཞག། (_K)"
+
+#: ../src/session.c:509
+msgid "_Never restart again"
+msgstr "ལོག་ནང་ཡང་འགོ་མ་བཙུག། (_N)"
+
+#: ../src/session.c:511
+msgid "_Stop restarting for now"
+msgstr "ད་ལྟོའི་དོན་ལུ་ལོག་འགོ་བཙུག་ནི་འདི་བཞག་ད། (_S)"
+
+#: ../src/session.c:544
+#, c-format
+msgid "The application '%s' could not be launched."
+msgstr "གློག་རིམ་ '%s' འདི་གསར་བཙུག་འབད་མ་ཚུགས།"
+
+#: ../src/session.c:630
+msgid "Application"
+msgstr "གློག་རིམ་"
+
+#: ../src/session.c:640
+msgid "Error details"
+msgstr "འཛོལ་བའི་རྒྱས་བཤད་ཚུ་"
+
+#: ../src/session.c:724
+msgid "There can be only one window manager loaded at once"
+msgstr "ཚར་ཅིག་གུ་མངོན་གསལ་འབད་ཡོད་པའི་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་འདི་  གཅིག་རྐྱངམ་ཅིག་འོང་"
+
+#: ../src/session.c:747
+msgid "Internal session manager error, did not record an error for failed client launch"
+msgstr "ནང་འཁོད་ལཱ་ཡུན་འཛིན་སྐྱོང་པའི་འཛོལ་བ་  འཐུས་ཤོར་འབྱུང་ཡོད་པའི་ཞབས་ཏོག་སྤྱོད་མི་གསར་བཙུག་འབད་ནིའི་དོན་ལུ་  འཛོལ་བ་ཐོ་བཀོད་མ་འབད་བས་"
+
+#: ../src/session.c:1126
+msgid "Some applications were not successfullly started."
+msgstr "གློག་རིམ་ལ་ལོ་ཅིག་མཐར་འཁྱོལཝ་འབད་འགོ་མ་བཙུག་པས།"
+
+#: ../src/session.c:1349
+#, c-format
+msgid "Session file '%s' is read-only.\n"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་  '%s' འདི་ལྷག་ཙམ་ཨིན། \n"
+
+#: ../src/session.c:1360
+#, c-format
+msgid "Failed to open the session file '%s': %s (%s)"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་ '%s' ཁ་ཕྱེ་མ་ཚུགས: %s (%s)"
+
+#: ../src/session.c:1370
+#, c-format
+msgid "Failed to open the session file '%s': %s"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་ '%s' ཁ་ཕྱེ་མ་ཚུགས: %s"
+
+#: ../src/session.c:1396
+#, c-format
+msgid "Failed to lock the session file '%s': %s"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་  '%s' བསྡམ་བཞག་མ་ཚུགས: %s"
+
+#: ../src/session.c:1417
+#, c-format
+msgid "Failed to parse the session file '%s': %s\n"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་ '%s' འདི་མིང་དཔྱད་འབད་མ་ཚུགས: %s\n"
+
+#: ../src/session.c:1450
+#: ../src/session.c:2276
+msgid "Default"
+msgstr "སྔོན་སྒྲིག་"
+
+#: ../src/session.c:1490
+msgid "Failsafe"
+msgstr "འཐུས་ཤོར་ཉེན་སྲུང་"
+
+#: ../src/session.c:1614
+#, c-format
+msgid "Not saving unknown property type '%s'\n"
+msgstr "མ་ཤེས་པའི་རྒྱུ་དངོས་དབྱེ་བ་ '%s' འདི་སྲུང་བཞག་མ་འབད་བས། \n"
+
+#: ../src/session.c:1647
+#, c-format
+msgid "Session '%s' is read-only\n"
+msgstr "ལཱ་ཡུན་ '%s' འདི་ལྷག་ཙམ་ཨིན། \n"
+
+#: ../src/session.c:1657
+#, c-format
+msgid "Failed to open '%s': %s\n"
+msgstr "'%s' ཁ་ཕྱེ་མ་ཚུགས: %s\n"
+
+#: ../src/session.c:1664
+#, c-format
+msgid "Failed to lock file '%s': %s"
+msgstr "ཡིག་སྣོད་ '%s' ཁ་བསྡམ་མ་ཚུགས: %s"
+
+#: ../src/session.c:1723
+#, c-format
+msgid "Error writing new session file '%s': %s"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་གསརཔ་ '%s' འབྲིཝ་ད་འཛོལ་བ: %s"
+
+#: ../src/session.c:1735
+#: ../src/session.c:1750
+#, c-format
+msgid "Failed to replace the old session file '%s' with the new session contents in the temporary file '%s': %s"
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ '%s'ནང་ལུ་ཡོད་པའི་ལཱ་ཡུན་གསརཔ་གི་ནང་དོན་དང་ཅིག་ཁར་  ལཱ་ཡུན་ཡིག་སྣོད་ '%s' རྙིངམ་འདི་ཚབ་བཙུག་མ་ཚུགས: %s"
+
+#: ../src/session.c:1744
+#, c-format
+msgid "Could not remove temporary file '%s': %s\n"
+msgstr "གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ '%s' འདི་རྩ་བསྐྲད་གཏང་མ་ཚུགས: %s\n"
+
+#: ../src/session.c:1920
+msgid "Select a session"
+msgstr "ལཱ་ཡུན་ཅིག་སེལ་འཐུ་འབད་"
+
+#: ../src/session.c:1925
+msgid "Load Session"
+msgstr "ལཱ་ཡུན་ཅིག་མངོན་གསལ་འབད་"
+
+#: ../src/session.c:1936
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Select a session</span>\n"
+"\n"
+"Please select a session to load from the list below."
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ལཱ་ཡུན་ཅིག་སེལ་འཐུ་འབད་</span>\n"
+"\n"
+"འོག་ལུ་ཡོད་པའི་ཐོ་ཡིག་ལས་མངོན་གསལ་འབད་ནི་ལུ་  ལཱ་ཡུན་ཅིག་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../src/session.c:1993
+msgid "(read-only)"
+msgstr "(ལྷག་ཙམ)"
+
+#: ../src/session.c:2018
+msgid "Session"
+msgstr "ལཱ་ཡུན་"
+
+#: ../src/session.c:2024
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: ../src/session.c:2135
+#, c-format
+msgid "Could not open the session \"%s.\""
+msgstr "ལཱ་ཡུན་ \"%s.\"འདི་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../src/session.c:2139
+msgid "Abort login"
+msgstr "ནང་བསྐྱོད་བར་བཤོལ་འབད་"
+
+#: ../src/session.c:2141
+#: ../src/session.c:2164
+#: ../src/session.c:2183
+#: ../src/session.c:2201
+#: ../src/session.c:2219
+msgid "Log into other session"
+msgstr "ལཱ་ཡུན་གཞན་མི་ནང་ལུ་དྲན་དེབ་འབད་"
+
+#: ../src/session.c:2143
+#: ../src/session.c:2185
+#: ../src/session.c:2203
+#: ../src/session.c:2221
+msgid "Log into default session"
+msgstr "མངོན་སྒྲིག་ལཱ་ཡུན་ནང་ལུ་དྲན་དེབ་འབད་"
+
+#: ../src/session.c:2145
+#: ../src/session.c:2166
+msgid "Log into failsafe session"
+msgstr "འཐུས་ཤོར་ཉེན་སྲུང་ལཱ་ཡུན་ནང་ལུ་དྲན་དེབ་འབད་"
+
+#: ../src/session.c:2155
+#, c-format
+msgid "You are already logged in elsewhere, using the session \"%s.\" You can only use a session from one location at a time."
+msgstr "ལཱ་ཡུན་ \"%s.\" ལག་ལེན་འཐབ་ཐོག་ལས་  ཁྱོད་ཧེ་མ་ལས་རང་གཞན་ཁར་ནང་བསྐྱོད་འབད་ནུག་  དུས་ཡུན་ཅིག་ལས་ཁྱོད་ཀྱིས་ལཱ་ཡུན་གཅིག་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་བཏུབ།"
+
+#: ../src/session.c:2160
+msgid "Log in anyway"
+msgstr "ག་ལས་སྐོར་རུང་ནང་བསྐྱོད་འབད་"
+
+#: ../src/session.c:2162
+msgid "Try again"
+msgstr "ལོག་འབད་རྩོལ་བསྐྱེད་"
+
+#: ../src/session.c:2176
+#, c-format
+msgid "The session file for session \"%s\" appears to be invalid or corrupted."
+msgstr "ལཱ་ཡུན་ \"%s\" གི་དོན་ལུ་ལཱ་ཡུན་ཡིག་སྣོད་འདི་  ནུས་ཅན་མེདཔ་ཡང་ན་ངན་ཅན་འབད་འབྱུངམ་ཨིན།"
+
+#: ../src/session.c:2181
+#: ../src/session.c:2199
+#: ../src/session.c:2217
+msgid "Revert session to defaults"
+msgstr "སྔོན་སྒྲིག་ཚུ་ལུ་ལཱ་ཡུན་རྒྱབ་ལོག་འབད་"
+
+#: ../src/session.c:2195
+#, c-format
+msgid "The session \"%s\" contains no applications."
+msgstr "ལཱ་ཡུན་ \"%s\" དེ་ལུ་གློག་རིམ་ཚུ་མེད།"
+
+#: ../src/session.c:2213
+#, c-format
+msgid "The session \"%s\" has encountered an unrecoverable error."
+msgstr "ལཱ་ཡུན་ \"%s\" དེ་གིས་  སླར་གསོ་འབད་མ་བཏུབ་པའི་འཛོལ་བ་འབད་ནུག།"
+
+#: ../src/session.c:2257
+msgid "User selected session could not be loaded."
+msgstr "ལག་ལེན་པ་སེལ་འཐུ་འབད་དེ་ཡོད་པའི་ལཱ་ཡུན་འདི་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ../src/session.c:2339
+#, c-format
+msgid "line %d character %d: %s\n"
+msgstr "གྲལ་ཐིག་ %d ཡིག་འབྲུ་ %d: %s\n"
+
+#: ../src/session.c:2355
+msgid "<client> element must have an 'id' attribute giving the session ID"
+msgstr "<client> ཆ་ཤས་དེ་ལུ་  ལཱ་ཡུན་ཨའི་ཌི་བྱིན་ནི་ལུ་ 'id' ཁྱད་ཆོས་འོང་དགོ"
+
+#: ../src/session.c:2361
+#: ../src/session.c:2368
+#, c-format
+msgid "<client> element does not allow the attribute '%s', only an 'id' attribute"
+msgstr "<client> ཆ་ཤས་དེ་གིས་ཁྱད་ཆོས་ '%s' མི་ཆོག་ 'id' ཁྱད་ཆོས་རྐྱངམ་ཅིག་ཨིན་"
+
+#: ../src/session.c:2375
+msgid "'id' attribute of <client> element has empty value"
+msgstr "<client>ཆ་ཤས་ཀྱི་ཁྱད་ཆོས་ 'id' དེ་ལུ་གནས་གོང་སྟོངམ"
+
+#: ../src/session.c:2386
+#, c-format
+msgid "'id' attribute of <client> element duplicates another <client> element's id (duplicate id is '%s')"
+msgstr " <client> ཆ་ཤས་ཀྱི་ཁྱད་ཆོས་ 'id'དེ་གིས་    <client> ཆ་ཤས་ཀྱི་ ཨའི་ཌི་གཞན་མི་ཅིག་ངོ་བཤུས་བཟོཝ་ཨིན་ (ངོ་བཤུའི་ཨའི་ཌི་འདི་ '%s')"
+
+#: ../src/session.c:2425
+msgid "'name' attribute specified twice on <prop> element"
+msgstr "'name' ཁྱད་ཆོས་ཚར་གཉིས་ <prop> ཆ་ཤས་གུ་གསལ་བཀོད་འབད་ནུག"
+
+#: ../src/session.c:2436
+msgid "'type' attribute specified twice on <prop> element"
+msgstr "'type' ཁྱད་ཆོས་ཚར་གཉིས་ <prop> ཆ་ཤས་གུ་གསལ་བཀོད་འབད་ནུག"
+
+#: ../src/session.c:2445
+#, c-format
+msgid "Attribute '%s' not allowed on <prop> element"
+msgstr "ཁྱད་ཆོས་ '%s' འདི་ <prop>ཆ་ཤས་གུ་མི་ཆོག"
+
+#: ../src/session.c:2456
+msgid "<prop> element must have a 'type' attribute"
+msgstr "<prop> ཆ་ཤས་འདི་ལུ་ 'type' ཁྱད་ཆོས་ཅིག་འོང་དགོ"
+
+#: ../src/session.c:2462
+msgid "<prop> element must have a 'name' attribute"
+msgstr "<prop> ཆ་ཤས་འདི་ལུ་  'name' ཁྱད་ཆོས་ཅིག་འོང་དགོ"
+
+#: ../src/session.c:2490
+#, c-format
+msgid "<prop> type '%s' is unknown, should be %s, %s, or %s"
+msgstr "<prop> དབྱེ་བ་ '%s' འདི་མ་ཤེསཔ་ %s, %s,ཡང་ན་ %sའོང་དགོ"
+
+#: ../src/session.c:2520
+#, c-format
+msgid "File does not appear to be a session file; outermost element is <%s> rather than <msm_session>"
+msgstr "ཡིག་སྣོད་དེ་གིས་ལཱ་ཡུན་ཡིག་སྣོད་འབད་མི་འབྱུང་;  ཕྱི་མཐའི་ཆ་ཤས་འདི་ <msm_session>མེན་པར་  <%s> འདི་ཨིན།"
+
+#: ../src/session.c:2533
+#, c-format
+msgid "Element <%s> may not appear inside the <msm_session> element"
+msgstr "ཆ་ཤས་<%s>འདི་ <msm_session> ཆ་ཤས་ནང་ལུ་མི་འབྱུང་"
+
+#: ../src/session.c:2553
+#, c-format
+msgid "Element <%s> may not appear inside a <client> element"
+msgstr "ཆ་ཤས་<%s>འདི་ <client> ཆ་ཤས་ཅིག་ནང་མི་འབྱུང་"
+
+#: ../src/session.c:2572
+#, c-format
+msgid "Element <%s> may not appear inside a <prop> element"
+msgstr "ཆ་ཤས་<%s> འདི་ <prop> ཆ་ཤས་ཅིག་ནང་མི་འབྱུང་"
+
+#: ../src/session.c:2578
+msgid "Attributes are not allowed on the <value> element"
+msgstr "ཁྱད་ཆོས་ཚུ་ <value>ཆ་ཤས་ནང་མི་ཆོག"
+
+#: ../src/session.c:2588
+#, c-format
+msgid "No elements allowed inside <value> element (<%s> found)"
+msgstr "<value>ཆ་ཤས་ (<%s> ཐོབ་)ནང་ ཆ་ཤས་མི་ཆོག"
+
+#: ../src/session.c:2594
+#: ../src/session.c:2760
+#, c-format
+msgid "Element <%s> appears after the <msm_session> element"
+msgstr "ཆ་ཤས་ <%s> འདི་ <msm_session> ཆ་ཤས་ཀྱི་ཤུལ་མ་རྐྱངམ་ཅིག་འབྱུངམ་ཨིན"
+
+#: ../src/session.c:2613
+#: ../src/session.c:2621
+#: ../src/session.c:2634
+#: ../src/session.c:2653
+#: ../src/session.c:2675
+#, c-format
+msgid "Unexpected close element tag </%s>"
+msgstr "རེ་བ་མེད་པའི་ཁ་བསྡམ་པའི་ཆ་ཤས་ངོ་རྟགས་ </%s>"
+
+#: ../src/session.c:2688
+msgid "<value> element has no contents"
+msgstr "<value> ཆ་ཤས་དེ་ལུ་ནང་དོན་མེད་"
+
+#: ../src/session.c:2694
+msgid "Exactly one <value> element required below <prop> elements other than type LISTofARRAY8 - no more and no less"
+msgstr "<prop>ཆ་ཤས་ཀྱི་འོག་ལུ་ LISTofARRAY8 ལས་མ་ཡིན་པ་གཞན་  <value>ཆ་ཤས་ཅིག་དགོཔ་ཨིན་- མང་ཡང་མ་མང་ཉུང་ཡང་མ་ཉུངམ་འབད་དགོ།"
+
+#: ../src/session.c:2710
+#, c-format
+msgid "Failed to parse '%s' (given as value of a CARD8 property) as an integer"
+msgstr "'%s' ( CARD8 རྒྱུ་དངོས་ཀྱི་གནས་གོང་ཅིག་བྱིན་ཡོད་མི་འདི་) འདི་ཧྲིལ་གྲངས་སྦེ་མིང་དཔྱད་འབད་མ་ཚུགས་"
+
+#: ../src/session.c:2716
+#, c-format
+msgid "Only values between 0 and 255 are allowed in CARD8 properties (%ld too large)"
+msgstr "CARD8རྒྱུ་དངོས་ (%ld སྣ་མེད་ས་མེད་སྦོམ་) ནང་ གནས་གོང་ ༠་དང་༢༥༥་ཚུ་གི་བར་ན་ཡོད་མི་རྐྱངམ་ཅིག་ཆོག"
+
+#: ../src/session.c:2796
+msgid "Unexpected text outside of <value> element"
+msgstr "<value>ཆ་ཤས་ཀྱི་ཕྱི་ཁར་རེ་བ་མེད་པའི་ཚིག་ཡིག"
+
+#. Can't imagine this actually happening
+#: ../src/session.c:2875
+#, c-format
+msgid "Failed to stat new session file descriptor (%s)\n"
+msgstr "ལཱ་ཡུན་ཡིག་སྣོད་གསརཔ་གི་འགྲེལ་བཤད་(%s)སི་ཊེཊི་འབད་མ་ཚུགས་ \n"
+
+#: ../src/session.c:2892
+msgid "Session is empty and no global session available.\n"
+msgstr "ལཱ་ཡུན་འདི་སྟོངམ་ཨིནམ་དང་སྤྱི་ཁྱབ་ལཱ་ཡུན་འཐོབ་ཚུགསཔ་མིན་འདུག། \n"
+
+#: ../src/session.c:3040
+#, c-format
+msgid "No '%s' command provided by the application"
+msgstr "གློག་རིམ་དེ་གིས་ '%s' བརྡ་བཀོད་འདི་མ་བྱིན་བས་"
+
+#: ../src/session.c:3120
+#, c-format
+msgid "Failed to clean up saved session data for '%s': %s"
+msgstr "'%s' གི་དོན་ལུ་  སྲུང་བཞག་འབད་ཡོད་པའི་ལཱ་ཡུན་འདི་བསལ་མ་ཚུགས: %s"
+
+#: ../src/shutdowndialog.c:133
+msgid "Shutdown Types"
+msgstr "སྒོ་བསྡམ་ནིའི་དབྱེ་བ་ཚུ་"
+
+#: ../src/shutdowndialog.c:134
+msgid "Available shutdown types to offer to user"
+msgstr "ལག་ལེན་པ་ལུ་སྤྲོད་ནིའི་དོན་ལུ་  ཐོབ་ཚུགས་པའི་སྒོ་བསྡམ་པའི་དབྱེ་བ་"
+
+#: ../src/shutdowndialog.c:143
+msgid "Save Session"
+msgstr "ལཱ་ཡུན་སྲུང་བཞག་འབད་"
+
+#: ../src/shutdowndialog.c:144
+msgid "Whether or not to save session"
+msgstr "ལཱ་ཡུན་འདི་སྲུང་རུང་མ་སྲུང་རུང་"
+
+#: ../src/shutdowndialog.c:151
+msgid "Selected Shutdown Type"
+msgstr "སེལ་འཐུ་འབད་དེ་ཡོད་པའི་སྒོ་བསྡམ་པའི་དབྱེ་བ་"
+
+#: ../src/shutdowndialog.c:152
+msgid "Default shutdown type"
+msgstr "སྔོན་སྒྲིག་སྒོ་བསྡམ་པའི་དབྱེ་བ་"
+
+#: ../src/shutdowndialog.c:184
+msgid ""
+"<span weight=\"bold\" size=\"larger\">End the session</span>\n"
+"\n"
+"Would you like to end the session?  "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ལཱ་ཡུན་མཇུག་བསྡུ</span>\n"
+"\n"
+"ཁྱོད་ཀྱིས་ལཱ་ཡུན་འདི་མཇུག་བསྡུ་ནི་ཨིན་ན?  "
+
+#: ../src/shutdowndialog.c:275
+msgid "_Power off"
+msgstr "ནུས་ཤུགས་ཨཱོཕ། (_P)"
+
+#: ../src/shutdowndialog.c:411
+msgid "End Session"
+msgstr "ལཱ་ཡུན་འདི་མཇུག་བསྡུ་"
+
+#: ../src/splashwindow.c:183
+msgid "Icon Spacing"
+msgstr "ངོས་དཔར་བར་སྟོང་བཞག་ཐང་"
+
+#: ../src/splashwindow.c:185
+msgid "Space between splash screen icons."
+msgstr "སིཔེལེཤ་གསལ་གཞི་ངོས་དཔར་ཚུ་གི་བར་ནིའི་བར་སྟོང་།"
+
+#: ../src/splashwindow.c:192
+msgid "Icon Border Width"
+msgstr "ངོས་དཔར་མཐའ་མཚམས་རྒྱ་ཚད་"
+
+#: ../src/splashwindow.c:194
+msgid "Space around splash screen icons."
+msgstr "སིཔེལེཤ་གསལ་གཞི་ངོས་དཔར་ཚུ་གི་མཐའ་འཁོར་ཡོད་པའི་བར་སྟོང་།"
+
+#: ../src/splashwindow.c:201
+msgid "Icon Size"
+msgstr "ངོས་དཔར་གྱི་ཚད་"
+
+#: ../src/splashwindow.c:203
+msgid "Size of splash screen icons."
+msgstr "སིཔེལེཤ་གསལ་གཞི་ངོས་དཔར་ཚུ་གི་ཚད།"
+
+#: ../src/splashwindow.c:210
+msgid "Status Font Size"
+msgstr "གནས་ཚད་ཡིག་གཟུགས་ཀྱི་ཚད་"
+
+#: ../src/splashwindow.c:212
+msgid "Size of splash screen status text."
+msgstr "སིཔིལེཤ་གསལ་གཞི་གནས་ཚད་ཚིག་ཡིག་གི་ཚད།"
+
+#: ../src/splashwindow.c:218
+msgid "Background"
+msgstr "རྒྱབ་གཞི་"
+
+#: ../src/splashwindow.c:220
+msgid "Splash screen background image."
+msgstr "སིཔེལེཤ་གསལ་གཞིའི་རྒྱབ་གཞི་གཟུགས་བརྙན།"
+
+#: ../src/startup-default.c:142
+#: ../src/startup.c:339
+#, c-format
+msgid "Starting session \"%s,\" please wait"
+msgstr "ལཱ་ཡུན་ \"%s,\" འདི་འགོ་བཙུག་དོ་  བསྒུག་གནང་"
+
+#: ../src/startup-default.c:162
+#: ../src/startup.c:350
+msgid "Finished starting applications"
+msgstr "གློག་རིམ་ཚུ་འགོ་བཙུག་ཚར་ནུག་"
+
+#: ../src/startup-default.c:180
+#: ../src/startup.c:369
+#, c-format
+msgid "Starting \"%s\""
+msgstr "\"%s\" འགོ་བཙུག་དོ་"
+
+#: ../src/startup-default.c:197
+#: ../src/startup.c:409
+#, c-format
+msgid "Successfully started \"%s\""
+msgstr "\"%s\" འདི་མཐར་འཁྱོལཝ་འབད་འགོ་བཙུག་ནུག་"
+
+#: ../src/startup.c:87
+#: ../src/startup.c:95
+#, c-format
+msgid "Failed to open startup progress indicator module '%s': %s\n"
+msgstr "འགོ་བཙུག་ཡར་འཕེལ་བརྡ་སྟོན་པའི་ཚད་གཞི་ '%s' ཁ་ཕྱེ་མ་ཚུགས: %s\n"
+
+#: ../src/startup.c:108
+#, c-format
+msgid "No function 'msm_startup_module_get_vtable' in module %s"
+msgstr "ཚད་གཞི་ %s ནང་ 'msm_startup_module_get_vtable' ལཱ་འགན་མིན་འདུག"
+
+#: ../src/startup.c:124
+#, c-format
+msgid "Module '%s' is for interface version %d but msm was compiled for %d"
+msgstr "ཚད་གཞི་  '%s' འདི་  ཐོན་རིམ་ངོས་འདྲ་བ་ %d གི་དོན་ལུ་ཨིན་  དེ་འབདཝ་ད་  ཨེམ་ཨེསི་ཨེན་འདི་ %dགི་དོན་ལུ་ཕྱོགས་སྒྲིག་འབད་ནུག"
+
+#: ../src/startup.c:134
+#, c-format
+msgid "Failed to init module '%s'"
+msgstr "ཚད་གཞི་ '%s' ཨིན་ཨིཊི་འབད་མ་ཚུགས་"
+
+#: ../src/startup.c:411
+#, c-format
+msgid "Unsuccessfully started \"%s\""
+msgstr "\"%s\" འདི་མཐར་མ་འཁྱལཝ་འབད་འགོ་བཙུག་ནུག་"
+
+#: ../src/util.c:157
+#, c-format
+msgid "Failed to create directory '%s': %s\n"
+msgstr "སྣོད་ཐོ་ '%s' གསར་བསྐྲུན་འབད་མ་ཚུགས: %s\n"
+
+#: ../src/util.c:206
+#, c-format
+msgid "Failed to get writable status of file '%s': %s\n"
+msgstr "ཡིག་སྣོད་ '%s' གི་འབྲི་བཏུབ་པའི་གནས་ཚད་ཐོབ་མ་ཚུགས: %s\n"
+
+#: ../src/util.c:231
+#, c-format
+msgid "Failed to get readable status of file '%s': %s\n"
+msgstr "ཡིག་སྣོད་ '%s' གི་ལྷག་བཏུབ་པའི་གནས་ཚད་ཐོབ་མ་ཚུགས: %s\n"
+
+#: ../src/util.c:265
+#, c-format
+msgid "Failed to overwrite file '%s': %s\n"
+msgstr "ཡིག་སྣོད་ '%s' འདི་ཚབ་སྲུང་འབད་མ་ཚུགས: %s\n"
+

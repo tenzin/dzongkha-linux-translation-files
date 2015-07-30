@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scribus-8.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-28 13:43+0100\n"
+"PO-Revision-Date: 2006-05-15 15:26+0530\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.govt.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Scribus - Scripter Preferences"
+msgstr "ཨིསི་ཀརི་བསི་-ཨིསི་ཀིརིཔ་ཊར་དགའ་དམ་ཚུ།"
+
+msgid "Enable Scripter Extensions"
+msgstr "ཨིསི་ཀིརིཔ་ཊར་རྒྱ་བསྐྱེད་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+msgid "Turn on extension scripts and macros"
+msgstr "རྒྱ་བསྐྱེད་ཡིག་ཚུགས་ཚུ་དང་མེཀ་ཀོརོསི་ཚུ་ ཊཱན་ཨཱོན་འབད།"
+
+msgid ""
+"<qt><p>Enabling scripter extensions turns on additional scripter functionality including Python macros and the option of loading a Python script at start-up. Turning on this option unlocks the <tt>Load Extension Script</tt> item in the Script menu.</p>\n"
+"<p>\n"
+"Only scripts written to be run as extension scripts should be used with <tt>Load Extension Script</tt> or as start-up scripts. See the scripter documentation for more details.</p></qt>"
+msgstr ""
+"<qt><p>ཨེསི་རིབ་ཊར་རྒྱ་བསྐྱེད་ཚུ་ལྕོགས་ཙན་བཟོ་ཞིནམ་ལས་ཨེསི་རིབ་ཊར་ལས་འགན་ཁ་སྐོང་གུ་པ་ཡི་ཐཱོན་ཡིག་ཚུགས་འགོ་བཙུགསཔ་ད་ལུ་མངོན་གསལ་གི་གདམ་ཁ་འདི་དང་པ་ཡི་ཐཱོན་མཀེ་རོ་གྲངས་སུ་བཙུགས་ནི་གུ་ལོགཔ་ཨིན།འ་ནི་གདམ་ཁ་གུ་ཨིནམ་སྦེ་བཟོ་ཞིནམ་ལས་<tt>ཡིག་ཚུགས་རྒྱ་བསྐྱེད་མངོན་གསལ་འབད་ནི།</tt> ཡིག་ཚུགས་དཀར་ཆག་ནང་གི་རྣམ་གྲངས་འདི།</p>ལྡེ་མིག་ཕྱེཝ་ཨིན།\n"
+"<p>\n"
+"གཡོག་བཀོལ་ནི་སྦེ་འབད་ཡོད་པའི་ཡིག་ཚུགས་ཚུ་རྐྱངམ་ཅིག་ <tt>ཡིག་ཚུགས་རྒྱ་བསྐྱེད་མངོན་གསལ་ </tt>ཡང་ན་ཡིག་ཚུགས་ཚུ་འགོ་བཙུགསཔ་སྦེ་ བཅས་ལག་ལེན་འཐབ་དགོ། </p></qt>རྒྱ་བཤད་ཧེང་བཀལ་གྱི་དོན་ལུ་ཨེསི་ཀིརིབ་ཊར་ཡིག་ཆ་ཐོ་བཀོད་ནང་བལྟ།"
+
+msgid "Use a Startup Script"
+msgstr "འགོ་བཙུགས་ཡིག་ཚུགས་གཅིག་ལག་ལེན་འཐབ།"
+
+msgid ""
+"<qt><p>If <tt>Use a Startup Script</tt> is checked, Scribus will load the script file specified here as an extension script at start-up. It is important that the script be written as an extension script, as if not written carefully it can potentially cause problems.</p>\n"
+"<p><tt>Use a Startup Script</tt> will be disabled if scripter extensions are off, as extension scripts cannot be loaded without scripter extensions enabled.</p></qt>"
+msgstr ""
+"<qt><p>If <tt>འགོ་བཙུགས་ཡིག་ཚུགས་ལག་ལེན་འཐབ་</tt>འདི་ཞིབ་དཔྱད་འབད་ཡོདཔ་  སི་ཀིརི་བསི་གིས་ ནཱ་འགོ་བཙུགས་ལུ་རྒྱ་བསྐྱེད་ཡིག་ཚུགས་སྦེ་གསལ་བཀོད་འབད་དེ་ཡོད་པའི་ཡིག་ཚུགས་ཡིག་སྣོད་འདི་མངོན་གསལ་འབདཝ་ཨིན། ཡིག་ཚུགས་འདི་ རྒྱ་བསྐྱེད་ཡིག་ཚུགས་འབད་འབྲི་དགོས་མི་འདི་གལ་ཆེ་ དྲན་ཤེས་ཀྱི་སྒོ་ལས་མ་འབྲི་བ་ཅིན་ འ་ནི་གིས་དཀའ་ངལ་ཚུ་འབྱུང་སྲིད།</p>\n"
+"<p><tt>འགོ་བཙུགས་ཡིག་ཚུགས་ལག་ལེན་འཐབ་</tt>འདི་ཡིག་ཚུགས་རྒྱ་བསྐྱེད་ཚུ་ཨཱོཕ་ཡོད་པ་ཅིན་ལྕོགས་མིན་བཟོ་ནི་ཨིན་ འདི་ཡང་སི་ཀིརིཔ་ཊར་ རྒྱ་བསྐྱེད་ཚུ་ལྕོགས་ཅན་མ་བཟོ་བ་ཅིན་རྒྱ་བསྐྱེད་ཡིག་ཚུགས་ཚུ་མངོན་གསལ་འབད་མི་བཏུབ་ཨིན།"
+
+msgid "Browse..."
+msgstr "བརྡ་འཚོལ།..."
+
+msgid "Browse for a new script file"
+msgstr "ཡིག་སྣོད་ཡིག་ཚུགས་གསརཔ་གཅིག་གི་དོན་ལུ་བརྡ་འཚོལ་འབད།"
+
+msgid "<qt>Browse for a new script file</qt>"
+msgstr "<qt>ཡིག་སྣོད་ཡིག་ཚུགས་གསརཔ་གཅིག་གི་དོན་ལུ་བརྡ་འཚོལ་འབད།</qt>"
+
+msgid "What script file to load at start-up"
+msgstr "འགོ་-བཙུགས་ལུ་ཡིག་ཚུགས་ཡིག་སྣོད་ག་ཅི་མངོན་གསལ་འབད་ནི།"
+
+msgid ""
+"<qt><p>The file containing the Python script to run as an extension script at start-up.</p>\n"
+"<p>Note that when this script is run, Scribus has not completely started up and the workspace does not yet exist.</p></qt>"
+msgstr ""
+"<qt><p>འགོ་བཙུགས་ལུ་རྒྱ་བསྐྱེད་ཡིད་ཚུགས་སྦེ་གཡོག་བཀོལ་ནིའི་ པ་ཡི་ཐཱོན་ཡིག་ཚུགས་ནང་ན་ཤོམ་ཏེ་ཡོད་པའི་ཡིག་སྣོད།</p>\n"
+"<p>དྲན་དགོསཔ་ འ་ནི་ཡིག་ཚུགས་འདི་གཡོག་བཀོལ་འབདཝ་ད་ སི་ཀིརི་བསི་འདི་རྩ་བ་ལས་རང་འགོ་བཙུགས་མེདཔ་དང་ ལཱའི་ས་སྟོང་འདི་ད་ལྟོ་ཡང་མི་གནས།</p></qt>"
+
+msgid "Script File:"
+msgstr "ཡིག་ཚུགས་ཡིག་སྣོད།:"
+
+msgid "Close without saving changes"
+msgstr "བསྒྱུར་བཅོས་ཚུ་མ་སྲུངས་པར་ཁ་བསྡམས།"
+
+msgid "Save changes and close"
+msgstr "བསྒྱུར་བཅོས་ཚུ་སྲུངས་ཏེ་ཁ་བསྡམས།"
+
+msgid "Import All Names at Startup"
+msgstr "འགོ་བཙུགས་ལུ་མིང་ཚུ་ཆ་མཉམ་རང་ནང་འདྲེན་འབད།"
+
+msgid "Run 'from scribus import *' in the script console at start-up"
+msgstr "ཡིག་ཚུགས་མ་སྒྲོམ་ནང་ལུ་'སི་ཀིརི་བསི་ནང་འདྲེན་ལས་*'འགོ་བཙུགས་ལུ་གཡོག་བཀོལ་འབད།"
+
+msgid ""
+"<qt><p><tt>Import All Names at Startup</tt> is an advanced option. You should probably leave it checked unless you have read the documentation and know what you are doing.</p>\n"
+"<p>Unchecking this option will prevent the scripter from running its usual <tt>from scribus import *</tt> command when it initializes the main interpreter (used for the script console and extension scripts) at start-up.</p>\n"
+"<p>This option does not take effect until Scribus is restarted.</p></qt>"
+msgstr ""
+"<qt><p><tt>འགོ་བཙུགས་ལུ་མིང་ཚུ་ཆ་མཉམ་རང་ནང་འདྲེན་</tt>འདི་མཐོ་རིམ་གདམ་ཁ་གཅིག་ཨིན། ཡིག་ཐོག་ལུ་བཀོད་པ་ལྷག་ནི་དང་ ཁྱོད་ཀྱིས་ག་ཅི་འབད་དོ་ག་ཚུ་མ་ཤེས་ཚུན་ཞིབ་དཔྱད་འབད་བཞག་དགོས།</p>\n"
+"<p>འ་ནི་གདམ་ཁ་ཞིབ་དཔྱད་འབད་བཤོལ་དེ་གིས་ སི་ཀིརིཔ་ཊར་ ཨ་རྟག་གི་གཡོག་བཀོལ་འབད་ནི་ལས་བཀགཔ་ཨིན་<tt>སི་ཀིརི་བསི་ནང་འདྲེན་ལས་*</tt> ཁ་སྒྱུར་མི་ངོ་མ་ལས་འགོ་འབྱེད་འབདཝ་དང་བརྡ་བཀོད་(མ་སྒྲོམ་ཡིག་ཚུགས་དང་རྒྱ་བསྐྱེད་ཡིག་ཚུགས་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་པའི་)འགོ་བཙུགས་ལུ།</p>\n"
+"སི་ཀིརི་བསི་འདི་ལོག་འགོ་མ་བཙུགས་ཚུན་འ་ནི་གདམ་ཁ་གིས་ནུས་པ་མི་འཐོབ།</p></qt>"
+
+msgid "Enable Legacy Name Aliases"
+msgstr "སྔོན་བཤུལ་མིང་གཞན་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+msgid "<qt>Enable the use of OldStyle function names</qt>"
+msgstr "<qt>བཟོ་རྣམ་རྙིངམ་ལས་འགན་མིང་ཚུ་ལག་ལེན་འཐབ་ནི་འདི་ལྕོགས་ཅན་བཟོ།</qt>"
+
+msgid ""
+"<qt><p><tt>Enable Legacy Name Aliases</tt> is an advanced option. You should probably leave it how it is.</p>\n"
+"<p>If checked, this option will cause the scripter to create a large number of function and constant name aliases for 1.2.0 script compatibility. It defaults to checked.</p>\n"
+"<p>This option does not take effect until Scribus is restarted.</p></qt>"
+msgstr ""
+"<qt><p><tt>སྔོན་བཤུལ་མིང་གཞན་ཚུ་ལྕོགས་ཅན་བཟོ་ནི་འདི་</tt>མཐོ་རིམ་གདམ་ཁ་གཅིག་ཨིན། ཁྱོད་ཀྱིས་འདི་ག་དེ་སྦེ་ཡོདཔ་ཨིན་ན་དེ་འབད་རང་བཞག་དགོས།</p>\n"
+"<p> ཞིབ་དཔྱད་འབད་བ་ཅིན་ འ་ནི་གདམ་ཁ་དེ་གིས་སི་ཀིརིཔ་ཊར་ལུ་ ཨང་གྲངས་ཆེ་བའི་ལས་འགན་དང་ ཡིག་ཚུགས་མཐུན་འགྱུར་༡་༢་༠ གི་དོན་ལུ་ཆད་མེད་མིང་གཞན་ཚུ་གསར་བསྐྲུན་འབད་ནི་ལུ་རྒྱུ་རྐྱེན་འབདཝ་ཨིན། དེ་གིས་ཞིབ་དཔྱད་འབད་ཡོད་མི་ལུ་སྔོན་སྒྲིག་འབདཝ་ཨིན།</p>\n"
+"<p>འ་ནི་གདམ་ཁ་གིས་ སི་ཀིརི་བསི་འདི་ལོག་འགོ་མ་བཙུགས་ཚུན་ཚོད་ནུས་པ་མི་འཐོབ།"
+
+msgid "Use Fake Stdin"
+msgstr "ཨེསི་ཊི་ཌི་ཨའི་ཨེན་ རྫུན་མ་ལག་ལེན་འཐབ།"
+
+msgid "<qt>Replace sys.stdin with a fake file to prevent Scribus hanging when a script tries to read from stdin.</qt>"
+msgstr "<qt>ཨེསི་ཊི་ཌི་ཨའི་ཨེན་ལས་ཡིག་ཚུགས་ཀྱིས་ལྷག་ནི་འབད་རྩོལ་བསྐྱེད་བའི་སྐབས་ལུ་ སི་ཀིརི་བསི་དཔྱངས་ནི་འདི་བཀག་ནིའི་དོན་ལུ་ཨེསི་ཝའི་ཨེསི་.ཨེསི་ཊི་ཌི་ཨའི་ཨེན་འདི་ཡིག་སྣོད་རྫུན་མ་དང་བཅསཔ་སྦེ་ཚབ་བཙུགས།</qt>"
+
+msgid ""
+"<qt><p><tt>Use Fake Stdin</tt> is an advanced option. You should probably leave it how it is.</p>\n"
+"<p>Normally, scribus will provide Python with a fake file object for <tt>sys.stdin</tt>, so that reads from stdin always return an empty string. If the real <tt>sys.stdin</tt> is left in place, scripts that try to read from it will block - and in turn block scribus's execution, making the app appear to hang - until input arrives on stdin. It's unusual for GUI apps to expect anything on stdin, so mostly users will think scribus has crashed.</p>\n"
+"<p>You can disable this option if you want to accept input on stdin. Generally you should use <tt>os.popen</tt> to make a pipe instead, or use some other input mechanism, but this option is here just in case.</p></qt>"
+msgstr ""
+"<qt><p><tt>ཨེསི་ཊི་ཌི་ཨའི་ཨེན་རྫུན་མ་ལག་ལེན་འཐབ་</tt>འདི་མཐོ་རིམ་གདམ་ཁ་ཨིན། ཁྱོད་ཀྱིས་འདི་ག་དེ་སྦེ་ཡོདཔ་ཨིན་ན་དེ་འབད་རང་བཞག་དགོས།</p>\n"
+"<p>སྤྱིར་གཏང་འབད་བ་ཅིན་སི་ཀིརི་བསི་གིས་པ་ཡི་ཐཱོན་འདི་ཡིག་སྣོད་དངོས་པོ་རྫུན་མ་དང་བཅསཔ་སྦེ་བྱིནམ་ཨིན་ <tt>ཨེསི་ཝའི་ཨེསི་.ཨེསི་ཊི་ཌི་ཨའི་ཨེན་</tt>འདི་ཡང་ཨེསི་ཊི་ཌི་ཨའི་ཨེན་ལས་ལྷག་ནི་ཚུ་ ཨ་རྟག་རང་ཡིག་རྒྱུན་སྟོངམ་གཅིག་སླར་ལོག་འབད་འོང་། ག་དེམ་ཅིག་འབད་ <tt>ངོ་མ་ ཨེསི་ཝའི་ཨེསི་.ཨེསི་ཊི་ཌི་ཨའི་ཨེན་</tt>འདི་ས་གནས་ནང་བཞག་བཞགཔ་ཡོད་པ་ཅིན་  འདི་ནང་ལས་ལྷག་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་མི་ཡིག་ཚུགས་ཚུ་གིས་བཀག་སྟེ་ ཚབ་ལུ་སི་ཀིརི་བསི་གི་ལག་ལེན་འདི་བཀག་ ཨེ་པི་པི་འབྱུང་ནི་འདི་ དཔྱངས་བཅུག་སྟེ་ ཨིན་པུཊི་འདི་ ཨེསི་ཊི་ཌི་ཨའི་ཨེན་གུ་མ་ལྷོདཔ་ཚུན་ཚོད་དཔྱངས་བཅུག ཇི་ཡུ་ཨའི་ འབྱུང་ནི་གིས་ ཨེསི་ཊི་ཌི་ཨའི་ཨེན་གུ་ལུ་ག་ཅི་འབད་རུང་གཅིག་ རེ་བ་བསྐྱེད་ནི་འདི་སྤྱིར་བཏང་མེནམ་ལས་ མང་ཤོས་རང་ ལག་ལེན་པ་ཚུ་གིས་ སི་ཀིརི་བསི་ འདི་བརྡབ་འཁྲུག་བྱུང་ནུག་ཟེར་མནོཝ་མས།</</p>\n"
+"<p>ཨིསི་ཊི་ཌི་ཨའི་ཨེན་གུ་ ཨིན་པུཊི་འདི་དང་ལེན་འབད་དགོས་པ་ཅིན་ འ་ནི་གདམ་ཁ་འདི་ ལྕོགས་མིན་བཟོ་ཚུགསཔ་ཨིན། ཡོངས་ཁྱབ་ལུ་ ཁྱོད་ཀྱིས་<tt>ཨོ་ཨེསི་.པོ་པེན་</tt> འདིརྒྱུད་དུང་བཟོ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་དགོས་ ཡང་ན་ ཨིན་པུཊི་ཐབས་རིག་གཞན་ཚུ་ལག་ལེན་འཐབ་བཏུབ་རུང་ འ་ནི་གདམ་ཁ་འདི་ ནཱ་ཡི་གུ་དེ་ཙམ་ནང་ཡོདཔ་ཨིན།"
+
+msgid "Cannot render an empty sample."
+msgstr "དཔེ་ཚད་སྟོངམ་གཅིག་ལྷག་སྟོན་མི་བཏུབ་པས།"
+
+msgid "Unable to save pixmap."
+msgstr "པིགསི་ས་ཁྲ་སྲུངས་མ་ཚུགསཔ།"
+
+msgid "Cannot have an empty layer name."
+msgstr "བང་རིམ་མིང་སྟོངམ་བཞག་མི་བཏུབ་པས།"
+
+msgid "Layer not found."
+msgstr "བང་རིམ་འཐོབ་མ་ཚུགསཔ།"
+
+msgid "Cannot remove the last layer."
+msgstr "མཇུག་གི་བང་རིམ་འདི་རྩ་བསྐྲད་གཏང་མི་བཏུབ་པས།"
+
+msgid "Cannot create layer without a name."
+msgstr "བང་རིམ་མིང་མེདཔ་སྦེ་གསར་བསྐྲུན་འབད་མ་བཏུབ།"
+
+msgid "Color not found - python error"
+msgstr "ཚོས་གཞི་འཐོབ་མ་ཚུགསཔ་-པ་ཡི་ཐཱོན་འཛོལ་བ།"
+
+msgid "Cannot get a color with an empty name."
+msgstr "མིང་སྟོངམ་དང་གཅིག་ཁར་ཚོས་གཞི་ལེན་མི་བཏུབ།"
+
+msgid "Color not found."
+msgstr "ཚོས་གཞི་འཐོབ་མ་ཚུགསཔ།"
+
+msgid "Cannot get a colour with an empty name."
+msgstr "མིང་སྟོངམ་དང་གཅིག་ཁར་ཚོས་གཞི་ལེན་མི་བཏུབ།"
+
+msgid "Color not found"
+msgstr "ཚོས་གཞི་འཐོབ་མ་ཚུགས།"
+
+msgid "Cannot change a color with an empty name."
+msgstr "མིང་སྟོངམ་དང་གཅིག་ཁར་ཚོས་གཞི་བསྒྱུར་བཅོས་འབད་མི་བཏུབ།"
+
+msgid "Color not found in document."
+msgstr "ཡིག་ཆ་ནང་ཚོས་གཞི་མ་འཐོབ།"
+
+msgid "Color not found in default colors."
+msgstr "སྔོན་སྒྲིག་ཚོས་གཞི་ཚུ་ནང་ཚོས་གཞི་འཐོབ་མ་ཚུགསཔ།"
+
+msgid "Cannot create a color with an empty name."
+msgstr "མིང་སྟོངམ་དང་གཅིག་ཁར་ཚོས་གཞི་གསར་བསྐྲུན་འབད།"
+
+msgid "Cannot delete a color with an empty name."
+msgstr "མིང་སྟོངམ་དང་གཅིག་ཁར་ཚོས་གཞི་བཏོན་གཏང་མི་བཏུབ།"
+
+msgid "Cannot replace a color with an empty name."
+msgstr "མིང་སྟོངས་དང་གཅིག་ཁར་ཚོས་གཞི་ཚབ་བཙུགས་འབད་མི་བཏུབ་པས།"
+
+msgid "The filename must be a string."
+msgstr "ཡིག་སྣོད་མིང་འདི་ཡིག་རྒྱུན་གཅིག་འོང་དགོསཔ་ཨིན།"
+
+msgid "Cannot delete image type settings."
+msgstr "གཟུགས་བརྙན་དབྱེ་བའི་སྒྲིག་སྟངས་ཚུ་བཏོན་གཏང་མ་བཏུབ།"
+
+msgid "The image type must be a string."
+msgstr "གཟུགས་བརྙན་དབྱེ་བ་འདི་ཡིག་རྒྱུན་གཅིག་འོང་དགོསཔ་ཨིན།"
+
+msgid "'allTypes' attribute is READ-ONLY"
+msgstr "'དབྱེ་བ་ཚུ་ཆ་མཉམ་རང་'ཁྱད་ཆོས་འདི་ལྷག་ནི་ཙམ།"
+
+msgid "Failed to export image"
+msgstr "གཟུགས་བརྙན་ཕྱིར་འདྲེན་འབད་ནིའི་འཐུས་ཤོར་བྱུང་ཡོདཔ།"
+
+msgid "Manage Macros"
+msgstr "མེཀ་ཀོརོསི་ འཛིན་སྐྱོང་འབད།"
+
+msgid "Brings up a graphical window for creating, deleting, editing, saving and loading macros."
+msgstr "གསར་བསྐྲུན་འབད་ནི་  བཏོན་གཏང་ནི་ ཞུན་དག་འབད་ནི་ སྲུངས་ནི་དང་མངོན་གསལ་འབད་ནིའི་དོན་ལུ་ཚད་རིས་ཀྱི་སྒོ་སྒྲིག་འབག་འོངམ་ཨིན།"
+
+msgid "Create, edit and delete macros"
+msgstr "མེཀ་ཀོརོསི་ དེ་ཚུ་གསར་བསྐྲུན་དང་ཞུན་དག་དེ་ལས་བཏོན་གཏང་།"
+
+msgid "&Macro"
+msgstr "མེཀ་ཀོརོ།(&M)"
+
+msgid "Unable to open the requested file: %1"
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་ཡིག་སྣོད་: %1འདི་ཁ་ཕྱེ་མ་ཚུགསཔ།"
+
+msgid "Scribus - Edit Macro"
+msgstr "སི"
+
+msgid "Enter name for new macro: "
+msgstr "མེཀ་ཀོརོ་ གསརཔ་གི་དོན་ལུ་མིང་བཙུགས།"
+
+msgid "<qt>The macro name you requested is already taken  by another macro.</qt>"
+msgstr "<qt>ཁྱོད་ཀྱིས་ཞུ་བ་འབད་ཡོད་པའི་མེཀརོ་མིང་འདི་ ཧེ་མ་ལས་རང་མེཀ་ཀོརོ་གཞན་མི་གཅིག་གིས་འབག་འགྱོ་ནུག</qt>"
+
+msgid "<qt>Macro creation failed. The macro manager was unable to set up the macro.</qt>"
+msgstr "<qt>མེཀ་ཀོརོ་གསར་བསྐྲུན་འབད་ནི་འདི་འཐུས་ཤོར་བྱུང་ཡོདཔ། མེཀ་ཀོརོ་འཛིན་སྐྱོང་པ་གིས་ མེཀ་ཀོརོ་འདི་གཞི་སྒྲིག་འབད་མ་ཚུགས་པས།</qt>"
+
+msgid ""
+"The macro '%1' has reported a minor error.\n"
+"The error is: %2\n"
+"A full traceback follows:\n"
+"\n"
+"%3\n"
+msgstr ""
+"མེཀ་ཀོརོ་ '%1' འདི་གིས་འཛོལ་བ་ཆུང་ཀུ་སྙན་ཞུ་འབད་ཡོདཔ།\n"
+"འཛོལ་བ་འདི་: %2\n"
+"རྒྱབ་བཤུལ་ཆ་ཚང་རྗེས་སུ་འབྲང་ནི་ཚུ།:\n"
+"\n"
+"%3\n"
+
+msgid ""
+"The macro '%1' failed to execute correctly.\n"
+"The error is: %2\n"
+"A full traceback follows:\n"
+"\n"
+"%3\n"
+msgstr ""
+"མེཀ་ཀོརོ་ '%1' ངེས་བདེན་སྦེ་ལག་ལེན་འཐབ་ནི་འཐུས་ཤོར་ཡོདཔ།\n"
+"འཛོལ་བ་འདི་: %2\n"
+"བཤུལ་རྒྱབ་གངམ་རྗེས་སུ་འབྲང་ནི་ཚུ་:\n"
+"\n"
+"%3\n"
+
+msgid "Import &SVG..."
+msgstr "ཨེསི་ཝི་ཇི་ ནང་འདྲེན་འབད།...(&S)"
+
+msgid "SVG-Images (*.svg *.svgz);;All Files (*)"
+msgstr "ཨེསི་ཝི་ཇི་ -གཟུགས་བརྙན་ཚུ།(*.svg *.svgz);; ཡིག་སྣོད་ཚུ་ཆ་མཉམ།(*)"
+
+msgid "SVG-Images (*.svg);;All Files (*)"
+msgstr "ཨེསི་ཝི་ཇི་-གཟུགས་བརྙན་ཚུ།(*.svg);;ཡིག་སྣོད་ཚུ་ཆ་མཉམ། (*)"
+
+msgid "Choose a Export Directory"
+msgstr "ཕྱིར་འདྲེན་སྣོད་ཐོ་གཅིག་གདམ།"
+
+msgid "Export as Image(s)"
+msgstr "གཟུགས་བརྙན་ཚུ་བཟུམ་སྦེ་ཕྱིར་འདྲེན་འབད།"
+
+msgid "&Export to Directory:"
+msgstr "སྣོད་ཐོ་ལུ་ཕྱིར་འདྲེན་འབད།:(&E)"
+
+msgid "Image &Type:"
+msgstr "གཟུགས་བརྙན་ དབྱེ་བ།:(&T)"
+
+msgid "&Current page"
+msgstr "ད་ལྟོའི་ཤོག་ལེབ།(&C)"
+
+msgid "&All pages"
+msgstr "ཤོག་ལེབ་ཚུ་ཆ་མཉམ་རང་།(&A)"
+
+msgid "&Range"
+msgstr "ཁྱབ་ཚད།(&R)"
+
+msgid "C"
+msgstr "སི།"
+
+msgid "Export a range of pages"
+msgstr "ཤོག་ལེབ་ཚུ་གི་ཁྱབ་ཚད་གཅིག་ཕྱིར་འདྲེན་འབད།"
+
+msgid "Export all pages"
+msgstr "ཤོག་ལེབ་ཚུ་ཆ་མཉམ་རང་ཕྱིར་འདྲེན་འབད།"
+
+msgid "Export only the current page"
+msgstr "ད་ལྟོའི་ཤོག་ལེབ་རྐྱངམ་ཅིག་ཕྱིར་འདྲེན་འབད།"
+
+msgid ""
+"Resolution of the Images\n"
+"Use 72 dpi for Images intended for the Screen"
+msgstr ""
+"གཟུགས་བརྙན་ཚུ་གི་ཧུམ་ཆ་\n"
+"རེ་བ་ལྟར་དུ་གསལ་གཞི་གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་༧༢ ཌི་པི་ཨའི་ལག་ལེན་འཐབ།"
+
+#, c-format
+msgid "Size of the images. 100% for no changes, 200% for two times larger etc."
+msgstr "གཟུགས་བརྙན་ཚུ་གི་ཚད། 100% for no changes, 200% for two times larger etc."
+
+#, c-format
+msgid "The quality of your images - 100% is the best, 1% the lowest quality"
+msgstr "ཁྱོད་ཀྱི་གཟུགས་བརྙན་གྱི་སྤུས་ཚད། - 100% is the best, 1% the lowest quality"
+
+msgid "Available export formats"
+msgstr "འཐོབ་ཚུགས་པའི་ཕྱིར་འདྲེན་རྩ་སྒྲིག་ཚུ།"
+
+msgid ""
+"The output directory - the place to store your images.\n"
+"Name of the export file will be 'documentname-pagenumber.filetype'"
+msgstr ""
+"ཨའུཊི་པུཊི་སྣོད་ཐོ་-ཁྱོད་ཀྱི་གཟུགས་བརྙན་ཚུ་གསོག་འཇོག་འབད་སའི་ས་གནས།\n"
+"ཕྱིར་འདྲེན་ཡིག་སྣོད་ཀྱི་མིང་འདི་ 'ཡིག་སྣོད་མིང་-ཤོག་ལེབ་ཨང་།ཡིག་སྣོད་དབྱེ་བ་' ཨིན།"
+
+msgid "Change the output directory"
+msgstr "ཨའུཊི་པུཊི་ སྣོད་ཐོ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+msgid "Save as &Image..."
+msgstr "གཟུགས་བརྙན་སྦེ་སྲུངས།...(&I)"
+
+msgid "Save as Image"
+msgstr "གཟུགས་བརྙན་སྦེ་སྲུངས།"
+
+msgid "Error writting the output file(s)."
+msgstr "ཨའུཊི་པུཊི་ཡིག་སྣོད་ཚི་འབྲིཝ་ད་འཛོལ་བ།"
+
+msgid "Error writing the output file(s)."
+msgstr "ཨའུཊི་པུཊི་ ཡིག་སྣོད་ཚུ་འབྲིཝ་ད་འཛོལ་བ།"
+
+msgid "Export successful."
+msgstr "ཕྱིར་འདྲེན་མཐར་འཁྱོལ་ཡོདཔ།"
+
+msgid "File exists. Overwrite?"
+msgstr "ཡིག་སྣོད་གནས་ཏེ་ཡོད།ཚབ་སྲུང་འབད་ག?"
+
+msgid "exists already. Overwrite?"
+msgstr "ཧེ་མ་ལས་རང་གནས་ཏེ་ཡོད།ཚབ་སྲུང་འབད་ག?"
+
+msgid "Yes all"
+msgstr "ཆ་མཉམ་རང་བཏུབ།"
+
+msgid "Save Page as &SVG..."
+msgstr "ཤོག་ལེབ་འདི་ཨེསི་ཝི་ཇི་སྦེ་སྲུངས།...(&S)"
+
+msgid "Import &EPS/PS..."
+msgstr "ཨི་པི་ཨེསི་/པི་ཨེསི་ནང་འདྲེན་འབད།...(&E)"
+
+msgid "All Supported Formats (*.eps *.EPS *.ps *.PS);;"
+msgstr "རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་རྩ་སྒྲིག་ཚུ་ཆ་མཉམ་རང་།(*.eps *.EPS *.ps *.PS);;"
+
+msgid ""
+"Importing File:\n"
+"%1\n"
+"failed!"
+msgstr ""
+"ཡིག་སྣོད་ནང་འདྲེན་འབད་ནི་:\n"
+"%1\n"
+"འཐུས་ཤོར་ཡོདཔ།"
+

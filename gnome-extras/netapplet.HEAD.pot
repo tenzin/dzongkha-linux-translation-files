@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: netapplet.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-12 22:18+0100\n"
+"PO-Revision-Date: 2006-12-13 14:14+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/eggtrayicon.c:121
+msgid "Orientation"
+msgstr "ཕྱོགས་"
+
+#: ../src/eggtrayicon.c:122
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་འདི་གི་ཕྱོགས་"
+
+#: ../src/netapplet.c:152
+msgid "Disconnected"
+msgstr "མཐུད་ལམ་བཏོག་ཡོདཔ་"
+
+#: ../src/netapplet.c:154
+msgid "Ethernet connection"
+msgstr "ཨི་ཐར་ནེཊི་མཐུད་ལམ་"
+
+#: ../src/netapplet.c:156
+msgid "Dial-up connection"
+msgstr "ཌེ་ཡེལ་-ཨཔ་མཐུད་ལམ་"
+
+#: ../src/netapplet.c:318
+#: ../src/netapplet.c:339
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Network switching is currently unavailable</span>\n"
+"\n"
+"The \"netdaemon\" service is not running"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ཡོངས་འབྲེལ་སོར་བསྒྱུར་འབད་ནི་འདི་ ད་ལྟོ་འཐོབ་ཚུགསཔ་མེད་</span>\n"
+"\n"
+" \"netdaemon\" ཞབས་ཏོག་འདི་ གཡོག་མི་བཀོལ་བས་"
+
+#: ../src/netapplet.c:386
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Do you want to disconnect all network connections?</span>\n"
+"\n"
+"Applications which use the network, such as web browsers and email programs, will likely stop working while you are disconnected."
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ཁྱོད་ཀྱིས་ཡོངས་འབྲེལ་གྱི་མཐུད་ལམ་ཚུ་ཆ་མཉམ་ མཐུད་ལམ་བཏོག་གཏང་ནི་ཨིན་ན?</span>\n"
+"\n"
+"ཡོངས་འབྲེལ་ལག་ལེན་འཐབ་མི་གློག་རིམ་ དཔེར་ན་ ཝེབ་བརའུ་ཟར་དང་གླིག་འཕྲིན་ལས་རིམ་བཟུམ་ཚུ་  མཐུད་ལམ་བཏོག་གཏང་པའི་སྐབས་ ལཱ་གཡོག་འབད་ནི་བཀག་འོང་།"
+
+#: ../src/netapplet.c:418
+#, c-format
+msgid "Error trying to set default keyring: %d"
+msgstr "སྔོན་སྒྲིག་ལྡེ་འཁོར་གཞི་སྒྲིག་འབད་ནིའི་འབད་རྩོལ་བསྐྱེདཔ་ད་འཛོལ་བ་: %d"
+
+#: ../src/netapplet.c:437
+#, c-format
+msgid "Error trying to create keyring: %d"
+msgstr "ལྡེ་འཁོར་གསར་བསྐྲུན་འབད་ནིའི་འབད་རྩོལ་བསྐྱེདཔ་ད་འཛོལ་བ་: %d"
+
+#: ../src/netapplet.c:454
+#, c-format
+msgid "Error trying to get default keyring: %d"
+msgstr "སྔོན་སྒྲིག་ལྡེ་འཁོར་ལེན་ནིའི་འབད་རྩོལ་བསྐྱེདཔ་ད་འཛོལ་བ་: %d"
+
+#: ../src/netapplet.c:506
+#, c-format
+msgid "Unable to save to keyring!  Err: %d"
+msgstr "ལྡེ་འཁོར་སྲུང་བཞག་འབད་མ་ཚུགས་! འཛོལ་བ་: %d"
+
+#: ../src/netapplet.c:523
+#, c-format
+msgid "Password for network \"%s\""
+msgstr "ཡོངས་འབྲེལ་ \"%s\" གི་དོན་ལུ་ཆོག་ཡིག་"
+
+#: ../src/netapplet.c:613
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Invalid Encryption Key: </span>\n"
+"\n"
+"Key contains illegal characters!"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད=\"larger\">ནུས་མེད་གསང་བཟོ་ལྡེ་མིག་: </span>\n"
+"\n"
+"ལྡེ་མིག་ནང་ལུ་ཁྲིམས་འགལ་ཡིག་འབྲུ་ཚུ་འདུག་!"
+
+#: ../src/netapplet.c:738
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Invalid ESSID: </span>\n"
+"\n"
+"ESSID is blank or contains illegal characters!"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ནུས་མེད་ཨི་ཨེསི་ཨེསི་ཨའི་ཌི་: </span>\n"
+"\n"
+"ཨི་ཨེསི་ཨེསི་ཨའི་ཌི་འདི་ སྟོངམ་ཡང་ན་ནང་ན་ཁྲིམས་འགལ་ཡིག་འབྲུ་ཚུ་ཡོདཔ་ཨིན་!"
+
+#: ../src/netapplet.c:754
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Invalid Encryption Key:</span>\n"
+"\n"
+"Key contains illegal characters!"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ནུས་མེད་གསང་བཟོ་ལྡེ་མིག་:</span>\n"
+"\n"
+"ལྡེ་མིག་ནང་ན་ཁྲིམས་འགལ་ཡིག་འབྲུ་ཚུ་འདུག་!"
+
+#: ../src/netapplet.c:808
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Error displaying connection information: </span>\n"
+"\n"
+"No active connection!"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">མཐུད་ལམ་བརྡ་དོན་བཀྲམ་སྟོན་འབདཝ་ད་འཛོལ་བ་: </span>\n"
+"\n"
+"ཤུགས་ལྡན་མཐུད་ལམ་མིན་འདུག!"
+
+#: ../src/netapplet.c:824
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Error displaying connection information: </span>\n"
+"\n"
+"Unable to open socket!"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">མཐུད་ལམ་བརྡ་དོན་བཀྲམ་སྟོན་འབདཝ་ད་འཛོལ་བ་: </span>\n"
+"\n"
+"སོ་ཀེཊི་ཁ་ཕྱེ་མ་ཚུགས་!"
+
+#: ../src/netapplet.c:846
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Error displaying information: </span>\n"
+"\n"
+"SIOCGIFFLAGS failed on socket!"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">བརྡ་དོན་བཀྲམ་སྟོན་འབདཝ་ད་འཛོལ་བ་: </span>\n"
+"\n"
+"SIOCGIFFLAGS སོ་ཀེཊི་གུ་འཐུས་ཤོར་འབྱུང་ཡོདཔ་!"
+
+#: ../src/netapplet.c:990
+#, c-format
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Network configuration could not be run</span>\n"
+"\n"
+"%s"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ཡོངས་འབྲེལ་རིམ་སྒྲིག་གཡོག་བཀོལ་མི་བཏུབ་</span>\n"
+"\n"
+"%s"
+
+#: ../src/netapplet.c:1075
+msgid "Network Connections"
+msgstr "ཡོངས་འབྲེལ་མཐུད་ལམ་ཚུ་"
+
+#: ../src/netapplet.c:1078
+msgid "No network connections available"
+msgstr "ཡོངས་འབྲེལ་གྱི་མཐུད་ལམ་ཚུ་འཐོབ་ཚུགསཔ་མེད་"
+
+#: ../src/netapplet.c:1090
+#, c-format
+msgid "%s: %s (active)"
+msgstr "%s: %s (ཤུགས་ལྡན་)"
+
+#: ../src/netapplet.c:1135
+msgid "Wireless Networks"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་"
+
+#: ../src/netapplet.c:1138
+msgid "Wireless disabled"
+msgstr "རླུང་འཕྲིན་ལྕོགས་མིན་བཟོ་ཡོདཔ་"
+
+#: ../src/netapplet.c:1141
+msgid "No wireless networks available"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་ཅིག་ཡང་འཐོབ་ཚུགསཔ་མེད་"
+
+#: ../src/netapplet.c:1152
+#, c-format
+msgid "%s (active)"
+msgstr "%s (ཤུགས་ལྡན་)"
+
+#: ../src/netapplet.c:1192
+msgid "Connection _Information"
+msgstr "མཐུད་ལམ་བརྡ་དོན་(_I)"
+
+#: ../src/netapplet.c:1202
+msgid "_Configure Network Settings"
+msgstr "ཡོངས་འབྲེལ་སྒྲིག་སྟངས་རིམ་སྒྲིག་འབད་(_C)"
+
+#: ../src/netapplet.c:1213
+msgid "_Remove From Panel"
+msgstr "པེ་ནཱལ་ལས་རྩ་བསྐྲད་གཏང་(_R)"
+
+#: ../src/netapplet.c:1671
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Network switching is currently unavailable</span>\n"
+"\n"
+"You do not have the permissions to change network settings"
+msgstr ""
+"<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ཡོངས་འབྲེལ་སོར་བསྒྱུར་འབད་ནི་འདི་ད་ལྟོ་འཐོབ་ཚུགསཔ་མེད་</span>\n"
+"\n"
+"ཁྱོད་ལུ་ཡོངས་འབྲེལ་སྒྲིག་སྟངས་བསྒྱུར་བཅོས་འབད་ནིའི་གནང་བ་མེད་"
+
+#: ../src/netapplet.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../src/netapplet.glade.h:2
+msgid "<span weight=\"bold\" size=\"larger\">Active Connection Information</span>"
+msgstr "<འཕར་ཚད་ལྗིད་ཚད་=\"bold\" ཚད་=\"larger\">ཤུགས་ལྡན་མཐུད་ལམ་བརྡ་དོན་</span>"
+
+#: ../src/netapplet.glade.h:3
+msgid "Add to Keyring"
+msgstr "ལྡེ་འཁོར་ལུ་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/netapplet.glade.h:4
+msgid "Broadcast Address:"
+msgstr "རྒྱང་བསྒྲགས་འབད་ནིའི་ཁ་བྱང་:"
+
+#: ../src/netapplet.glade.h:5
+msgid "Connection Information"
+msgstr "མཐུད་ལམ་བརྡ་དོན་"
+
+#: ../src/netapplet.glade.h:6
+msgid "Destination Address:"
+msgstr "འགྲོ་ཡུལ་ཁ་བྱང་:"
+
+#: ../src/netapplet.glade.h:7
+msgid "ESSID:"
+msgstr "ཨི་ཨེསི་ཨེསི་ཨེསི་ཨའི་ཌི་:"
+
+#: ../src/netapplet.glade.h:8
+msgid "Encryption Key:"
+msgstr "གསང་བཟོ་ལྡེ་མིག་:"
+
+#: ../src/netapplet.glade.h:9
+msgid "Hardware Address:"
+msgstr "སྲ་ཆས་ཁ་བྱང་:"
+
+#: ../src/netapplet.glade.h:10
+msgid "IP Address:"
+msgstr "ཨའི་པི་ཁ་བྱང་:"
+
+#: ../src/netapplet.glade.h:11
+msgid "Interface:"
+msgstr "ངོས་འདྲ་བ་:"
+
+#: ../src/netapplet.glade.h:12
+msgid "Show Encryption Key"
+msgstr "གསང་བཟོ་ལྡེ་མིག་སྟོན་"
+
+#: ../src/netapplet.glade.h:13
+msgid "Specify an ESSID"
+msgstr "ཨི་ཨེསི་ཨེསི་ཨའི་ཌི་ཅིག་གསལ་བཀོད་འབད་"
+
+#: ../src/netapplet.glade.h:14
+msgid "Specify the key"
+msgstr "ལྡ་མིག་འདི་གསལ་བཀོད་འབད་"
+
+#: ../src/netapplet.glade.h:15
+msgid "Subnet Mask:"
+msgstr "སབ་ནེཊི་གདོང་ཁེབས་:"
+
+#: ../src/netapplet.glade.h:16
+msgid "Type:"
+msgstr "དབྱེ་བ་:"
+
+#: ../share/share.glade.h:1
+msgid "<b>Internet Sharing</b>"
+msgstr "<b>ཨིན་ཊར་ནེཊི་རུབ་སྤྱོད་</b>"
+
+#: ../share/share.glade.h:2
+msgid "Share your connection from:"
+msgstr "ལས་ ཁྱོད་ཀྱི་མཐུད་ལམ་རུབ་སྤྱོད་འབད་:"
+
+#: ../share/share.glade.h:3
+msgid "Start"
+msgstr "འགོ་བཙུགས་"
+
+#: ../share/share.glade.h:4
+msgid "To computers using:"
+msgstr "གློག་རིག་ལག་ལེན་གྱི་དོན་ལས་:"
+

@@ -1,0 +1,124 @@
+# LANGUAGE translation of Drupal (modules/blog.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: blog.module,v 1.245.2.2 2006/05/14 15:17:13 killes
+# sonam pelden <sonaa_peldn@yahoo.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blog-module.po\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-19 15:07+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/blog.module:13;267
+msgid "blog entry"
+msgstr "ཝེབ་དྲན་དེབ་ཀྱི་ཐོ་བཀོད།"
+
+#: modules/blog.module:45
+msgid "Blog"
+msgstr "ཝེབ་དྲན་དེབ།"
+
+#: modules/blog.module:46
+msgid "view recent blog entries"
+msgstr "འཕྲལ་གྱི་ཝེབ་དྲན་དེབ་འཛུལ་ཞུགས་སྟོན།"
+
+#: modules/blog.module:46;252
+msgid "Read %username's latest blog entries."
+msgstr "%username'sམཐའ་མཇུག་གི་ཝེབ་དྲན་དེབ་འཛུལ་ཞུགས་འདི་ལྷག"
+
+#: modules/blog.module:59
+msgid "The blog module allows registered users to maintain an online weblog (commonly known as a blog), often referred to as an online journal or diary.  Blogs are made up of individual posts that are time stamped and are typically viewed by date as you would a diary. Blogs often contain links to webpages users have read and/or agree/disagree with."
+msgstr "ཝེབ་དྲན་དེབ་ཚད་གཞི་དེ་གིས་  ཐོ་འགོད་འབད་ཡོད་པའི་ལག་ལེན་པ་ལུ་  འཕྲལ་རང་  གློག་ཐོག་གསར་དེབ་ཡང་ན་ཉིན་དེབ་ལུ་གཞི་བསྟུན་འབད་མི་  གློག་ཐོག་ཝེབ་དྲན་དེབ་ (མཐུན་མོང་ལུ་ཝེབ་དྲན་དེབ་ཟེར་མི་) འདི་  རྒྱུན་སྐྱོང་འབད་བཅུགསཔ་ཨིན། ཁྱོད་ཀྱིས་ཉིན་དེབ་ལུ་འབད་དོ་བཟུམ་  ཝེབ་དྲན་དེབ་དེ་ཚུ་ཡང་  ཚེས་གྲངས་ཀྱིས་སྟོན་དོ་བཟུམ་མའི་དུས་ཚོད་བཀོད་ཡོད་པའི་གནས་བསྐྱོད་ངོ་རྐྱང་ཚུ་གིས་བཟོ་དེ་ཡོད།  ཝེབ་དྲེན་དེབ་དེ་གིས་    ལྷག་ནི་དང་/ཡང་ན་ དང་ལེན་འབད་ནི་/དང་ལེན་སྤང་ནི་དང་བཅས་པའི་ ཝེབ་ཤོག་ལེབ་ལག་ལེན་པ་ལུ་  འབྲེལ་མཐུད་ཚུ་གནས་དེ་ཡོདཔ་ཨིན།"
+
+#: modules/blog.module:60
+msgid "The blog module adds a <em>user blogs</em> navigation link to the site, which takes any visitor to a page that displays the most recent blog entries from all the users on the site. The navigation menu has a <em>create a blog entry</em> link (which takes you to a submission form) and a <em>view personal blog</em> link (which displays your blog entries as other people will see them).  The blog module also creates a <em>recent blog posts</em> block that can be enabled."
+msgstr "ས་ཁོངས་གུ་ཡོད་པའི་ལག་ལེན་པ་ཆ་མཉམ་ལས་   འཕྲལ་གྱི་ཝེབ་དྲན་དེབ་འཛུལ་ཞུགས་བཀྲམ་སྟོན་འབད་མི་  ཤོག་ལེབ་ཅིག་ལུ་བལྟ་སྤྱོད་གང་རུང་འབག་མི་  ས་ཁོངས་ལུ་  ཝེབ་དྲན་དེབ་ཚད་གཞི་དེ་གིས་  <em>ལག་ལེན་པའི་ཝེབ་དྲན་དེབ་</em> འགྲུལ་བསྐྱོད་འབྲེལ་ལམ་ཅིག་ཁ་སྐོང་བརྐྱབ་ཨིན།  འགྲུལ་བསྐྱོད་དཀར་ཆག་དེ་ལུ་ <em>ཝེབ་དྲན་དེབ་ཐོ་བཀོད་</em>འབྲེལ་ལམ་ཅིག་ (ཁྱོད་ཞུ་འབུལ་འབྲི་ཤོག་ཅིག་ལུ་འབག་མི་) དང་ <em>རང་དོན་ཝེབ་དྲན་དེབ་</em> འབྲེལ་ལམ་འདི་སྟོན་ནི་འདི་གསར་བསྐྲུན་འབད། (གཞན་མི་ཚུ་གིས་མཐོང་ཚུགསཔ་འབད་ཁྱོད་ཀྱི་ཝེབ་འཛུལ་ཞུགས་འདི་བཀྲམ་སྟོན་འབད་མི་) ཝེབ་དྲན་དེབ་ཚད་གཞི་དེ་གིས་ ལྕོགས་ཅན་བཟོ་ཚུགས་པའི་ <em>འཕྲལ་གྱི་བཀག་ཆའི་གནས་བསྐྱོད་</em>བཀག་ཆ་འདི་ཡང་གསར་བསྐྲུན་འབདཝ་ཨིན།"
+
+#: modules/blog.module:61
+msgid "If a user has the ability to post blogs, then the import module (news aggregator) will display a blog-it link next to each news item in its lists. Clicking on this takes the user to the blog submission form, with the title, a link to the item, and a link to the source into the body text already in the text box, ready for the user to add a comment or explanation. This actively encourages people to add blog entries about things they see and hear elsewhere in the website and from your syndicated partner sites."
+msgstr "ལག་ལེན་པ་དེ་ལུ་ ཝེབ་དྲན་དེབ་འདི་གནས་བསྐྱོད་འབད་ནི་གི་ལྕོགས་གྲུབ་ཡོད་པ་ཅིན་  ནང་འདྲེན་ཚད་གཞི་(གནས་ཚུལ་སྤྱི་སྙོམས་)དེ་གིས་  ཐོ་ཡིག་རེ་གི་གནས་ཚུལ་རྣམ་གྲངས་ཀྱི་ཤུལ་མ་  blog-itའབྲེལ་ལམ་འདི་བཀྲམ་སྟོན་འབདཝ་ཨིན།  དེ་གུ་ཨེབ་གཏང་པའི་བསྒང་  ལག་ལེན་པ་འདི་  ཝེབ་དྲན་དེབ་ཞུ་འབུལ་འབྲི་ཤོག་འདི་  རྣམ་གྲངས་ལུ་འབྲེལ་མཐུད་འབད་ དང་  ཧེ་མ་ལས་ཚིག་ཡིག་སྒྲོམ་ནང་ཡོད་པའི་ མ་གཟུགས་ཚིག་ཡིག་ དེ་ཡང་  ལག་ལེན་པའི་དོན་ལུ་ བརྡ་བཀོད་ཡང་ན་འགྲེལ་བཤད་འདི་གྲ་སྒྲིག་ཡོད་མི་ནང་གི་  འབྱུང་ཁུངས་ལུ་འབྲེལ་ལམ་ཅིག་ཟེར་བའི་མགོ་མིང་དང་བཅས་འབགཔ་ཨིན།  དེ་གིས་མི་ཚུ་ལུ་  ཁོང་གིས་ཝེབ་ས་སྟོང་ནང་མཐོང་མི་དང་   ཁྱོད་རའི་མཉམ་རུབ་འབད་ནི་གི་ ཆ་རོགས་ཀྱི་ས་ཁོངས་ཚུ་གི་སྐོར་ལས་  ཝེབ་དྲན་དེབ་འཛུལ་ཞུགས་ཁ་སྐོང་བརྐྱབ་ནི་ཚུ་སྤྲོ་བ་བསྐྱེད་བཅུགཔ་ཨིན།"
+
+#: modules/blog.module:62
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>read your blog via your user profile at <a href=\"%user\">my account</a>.</li>\n"
+"<li>post a blog at <a href=\"%node-add-blog\">create content &gt;&gt; personal blog entry</a>.</li>\n"
+"<li>administer blog at <a href=\"%admin-node-configure-types-blog\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; configure blog entry</a>.</li>\n"
+"<li>administer blog api at <a href=\"%admin-settings-blogapi\">administer &gt;&gt; settings &gt;&gt; blogapi</a>.</li>\n"
+"<li>enable the \"recent blog posts\" block at <a href=\"%admin-block\">administer &gt;&gt; blocks</a> to show the 10 most recent blog posts.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་ </p>\n"
+"<ul>\n"
+"<li>ཝེབ་དྲན་དེབ་འདི་ <a href=\"%user\">ངེས་ཀྱི་རྩིས་ཐོ་ལུ་ཡོད་པའི་  ཁྱོད་རའི་གསལ་སྡུད་ལས་བརྒྱུད་དེ་ལྷག</a>.</li>\n"
+"<li>ཝེབ་དྲན་དེབ་འདི་ <a href=\"%node-add-blog\">create content &gt;&gt; རང་དོན་ཝེབ་ཐོ་བཀོད་ལུ་གནས་བསྐྱོད་འབད།</a>.</li>\n"
+"<li>ཝེབ་དྲན་དེབ་འདི་  <a href=\"%admin-node-configure-types-blog\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; ཝེབ་དྲན་དེབ་ཐོ་བཀོད་རིམ་སྒྲིག་འབད་ཟེར་ས་ལུ་བདག་སྐྱོང་འབད།</a>.</li>\n"
+"<li>ཝེབ་དྲན་དེབ་ཨེ་པི་ཨའི་འདི་  <a href=\"%admin-settings-blogapi\">administer &gt;&gt; settings &gt;&gt; blogapi</a>ལུ་བདག་སྐྱོང་འབད།</li>\n"
+"<li>enable the \"recent blog posts\" ཝབ་དྲན་དེབ་འདི་  <a href=\"%admin-block\">administer &gt;&gt; blocks</a>ལུ་ལྕོགས་ཅན་བཟོ་ དེ་ཡང་ འཕྲལ་གྱི་ཝེབ་དྲན་དེབ་གནས་བསྐྱོད་ ༡༠ སྟོན་ནི་དོན་ལུ་ཨིན།</li>\n"
+"</ul>\n"
+
+#: modules/blog.module:71
+msgid "For more information please read the configuration and customization handbook <a href=\"%blog\">Blog page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  རིམ་སྒྲིག་འབད་ནི་དང་ སྲོལ་སྒྲིག་འབད་ནི་གི་ལག་དེབ་ <a href=\"%blog\">ཝེབ་དྲན་དེབ་ཤོག་ལེབ་</a>འདི་ལྷག་གནང་།"
+
+#: modules/blog.module:74
+msgid "Enables keeping an easily and regularly updated web page or a blog."
+msgstr "འཇམ་ཏོང་ཏོ་དང་དུས་རྒྱུན་འབད་དུས་མཐུན་བཟོ་ཡོད་པའི་ ཝེབ་ཤོག་ལེབ་ཡང་ན་ཝེབ་དྲན་དེབ་འདི་ ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: modules/blog.module:76
+msgid "A blog is a regularly updated journal or diary made up of individual posts shown in reversed chronological order.  A blog is tightly coupled to the author so each user will have his 'own' blog."
+msgstr "ཝེབ་དྲན་དེབ་ཟེར་མི་འདི་  གོ་རིམ་རིམ་ལོག་གོ་རིམ་ནང་སྟོན་ཡོད་པའི་ངོ་རྐྱང་གནས་བསྐྱོད་ཀྱི་བཟོ་ཡོད་པའི་  དུས་རྒྱུན་དུས་མཐུན་བཟོ་ཡོད་པའི་གསར་དེབ་ཡང་ན་ ཉིན་དེབ་འདི་ཨིན།  ཝེབ་དྲན་དེབ་འདི་  དམ་དམ་འབད་རྩོམ་པ་པོ་ལུ་ཆ་བསྒྲིག་འབད་དེ་ཡོད་  དེ་འབད་བ་ཅིན་ ལག་ལེན་པ་རེ་ལུ་ ཁོ་རའི་ཝེབ་དྲན་དེབ་'own' འབད་འོངམ་ཨིན།"
+
+#: modules/blog.module:141;237
+msgid "%name's blog"
+msgstr "%name's གི་ཝེབ་དྲན་དེབ།"
+
+#: modules/blog.module:144
+msgid "Post new blog entry."
+msgstr "ཝེབ་དྲན་དེབ་ཐོ་བཀོད་གསརཔ་འདི་གནས་བསྐྱོད་འབད།"
+
+#: modules/blog.module:147
+msgid "You are not allowed to post a new blog entry."
+msgstr "ཝེབ་དྲན་དེབ་ཐོ་བཀོད་གསརཔ་འདི་  ཁྱོད་ཀྱིས་གནས་བསྐྱོད་འབད་མི་ཆོག"
+
+#: modules/blog.module:166
+msgid "RSS - %title"
+msgstr "ཨར་ཨེསི་ཨེསི་ - %title"
+
+#: modules/blog.module:193
+msgid "RSS - blogs"
+msgstr "ཨར་ཨེསི་ཨེསི་- ཝེབ་དྲན་དེབ་ཚུ།"
+
+#: modules/blog.module:236;269
+msgid "blogs"
+msgstr "ཝེབ་དྲན་དེབ་ཚུ།"
+
+#: modules/blog.module:252
+msgid "%username's blog"
+msgstr "%username'sགི་ཝེབ་དྲན་དེབ།"
+
+#: modules/blog.module:273
+msgid "my blog"
+msgstr "ངེས་ཀྱི་ཝེབ་དྲན་དེབ།"
+
+#: modules/blog.module:289;298
+msgid "Recent blog posts"
+msgstr "འཕྲལ་གྱི་ཝེབ་དྲན་དེབ་གནས་བསྐྱོད་ཚུ།"
+
+#: modules/blog.module:297
+msgid "Read the latest blog entries."
+msgstr "མཐའ་མཇུག་ཝེབ་དྲན་དེབ་ཀྱི་འཛུལ་ཞུགས་འདི་ལྷག"
+
+#: modules/blog.module:20
+msgid "edit own blog"
+msgstr "རང་གི་ཝེབ་དྲན་དེབ་འདི་ཞུན་དག་འབད།"
+

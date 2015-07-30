@@ -1,0 +1,418 @@
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/extensions/extensions.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: extensions.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-30 10:05+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: aboutWindowTitle
+msgid "About %S"
+msgstr "%Sགི་སྐོར་ལས་"
+
+#: aboutWindowCloseButton
+msgid "Close"
+msgstr "ཁ་བསྡམས་"
+
+#: aboutWindowVersionString
+msgid "version %S"
+msgstr "ཐོན་རིམ་%S"
+
+#: aboutExtension
+msgid "About %S..."
+msgstr "%Sགི་སྐོར་ལས་་་"
+
+#: updatingMessage
+msgid "Looking for updates to %S..."
+msgstr "%Sལུ་དུས་མཐུན་གྱི་དོན་ལུ་བལྟ་དོ་་་་"
+
+#: updateAvailableMessage
+msgid "A new version of %S (%S) is available."
+msgstr "%S (%S)གི་ཐོན་རིམ་གསརཔ་ཅིག་འཐོབ་ཚུགས།"
+
+#: updateCompatibilityMessage
+msgid "A compatibility update has been applied to %S."
+msgstr "མཐུན་འགྱུར་གྱི་དུས་མཐུན་ཅིག་ %Sའཇུག་སྤྱོད་འབད་ནུག།"
+
+#: updateNoUpdateMessage
+msgid "No updates were found for %S."
+msgstr "%Sགི་དོན་ལས་དུས་མཐུན་མ་མཐོང་།"
+
+#: updateErrorMessage
+msgid "An error occurred while trying to find updates for %S."
+msgstr "%Sགི་དོན་ལུ་ དུས་མཐུན་འཚོལ་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ཡི།"
+
+#: updateDisabledMessage
+msgid "Updates are disabled for %S."
+msgstr "%Sགི་དོན་ལུ་ དུས་མཐུན་ཚུ་ ལྕོགས་མིན་བཟོ་དགོ།"
+
+#: updateAppManagedMessage
+msgid "Updates to %S are performed when %S is updated."
+msgstr "%Sདེ་དུས་མཐུན་བཟོཝ་ད་ %Sལུ་དུས་མཐུན་བཟོཝ་ཨིན།"
+
+#: updateReadOnlyMessage
+msgid "Update not supported (install location is read only)."
+msgstr "དུས་མཐུན་བཟོ་ནི་ལུ་རྒྱབ་སྐྱོར་མིན་འདུག།(གསར་་བཙུགས་གནས་ཁོངས་དེ་ལྷག་ནི་ཙམ་ཨིན་མས)"
+
+#: updateNotManagedMessage
+msgid "Update not supported (install location is not managed by %S)."
+msgstr "དུས་མཐུན་བཟོ་ནི་ལུ་རྒྱབ་སྐྱོར་མིན་འདུག།(གསར་་བཙུགས་གནས་ཁོངས་དེ་%Sགིས་འཛིན་སྐྱོང་མ་འཐབ་པས)"
+
+#: restartBeforeEnableTitle
+msgid "Enable Extension"
+msgstr "རྒྱ་བསྐྱེད་ལྕོགས་ཅན་བཟོ།"
+
+#: restartBeforeDisableTitle
+msgid "Disable Extension"
+msgstr "རྒྱ་བསྐྱེད་ལྕོགས་མིན་བཟོ།"
+
+#: restartBeforeEnableMessage
+msgid "%S will be enabled when %S is restarted."
+msgstr "%Sལོག་འགོ་བཙུགསཔ་ད་ %Sལྕོགས་ཅན་བཟོ་འོང་།"
+
+#: restartBeforeDisableMessage
+msgid "%S will be disabled when %S is restarted."
+msgstr "%Sལོག་འགོ་བཙུགསཔ་ད་ %Sལྕོགས་མིན་བཟོ་འོང་།"
+
+#: restartBeforeUninstallTitle
+msgid "Uninstall"
+msgstr "གཞི་བཙུགས་བཤོལ།"
+
+#: restartBeforeUninstallMessage
+msgid "%S will be uninstalled when %S is restarted."
+msgstr "%Sལོག་འགོ་བཙུགསཔ་ད་%Sགཞི་བཙུགས་བཤོལ་འོང་།"
+
+#: restartBeforeInstallMessage
+msgid "%S will be installed when %S is restarted."
+msgstr "%Sལོག་འགོ་བཙུགསཔ་ད་%Sགཞི་བཙུགས་འབད་འོང་།"
+
+#: restartBeforeUpgradeMessage
+msgid "%S will be upgraded when %S is restarted."
+msgstr "%Sལོག་འགོ་བཙུགསཔ་ད་%Sཡར་བསྐྱེད་འབད་འོང་།"
+
+#: incompatibleUpdateMessage
+msgid "%S is checking for a compatibility update to %S."
+msgstr "%Sགིས་ %Sལུ་མཐུན་འགྱུར་གྱི་དུས་མཐུན་ཅིག་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་དོ།"
+
+#: queryUninstallExtensionMessage
+msgid "If you uninstall %S, the functionality it offers will no longer be available. Do you want to uninstall %S?"
+msgstr "ཁྱོད་ཀྱིས་%Sགཞི་བཙུགས་བཤོལ་བ་ཅིན་ ངེ་ལས་ཕར་ དེ་གིས་འབད་མི་ལས་འགན་དེ་ འཐོབ་མི་ཚུགས། ཁྱོད་ཀྱིས་ %Sདེ་་གཞི་བཙུགས་བཤོལ་ནི་ཨིན་ན?"
+
+#: queryUninstallThemeMessage
+msgid "Do you want to uninstall %S?"
+msgstr "ཁྱོད་ཀྱིས་%Sདེ་གཞི་བཙུགས་བཤོལ་ནི་ཨིན་ན?"
+
+#: queryUninstallTitle
+msgid "Uninstall %S"
+msgstr "%Sདེ་གཞི་བཙུགས་བཤོལ།"
+
+#: installSuccess
+msgid "Install completed successfully"
+msgstr "གཞི་བཙུགས་མཐར་འཁྱོལ་སྦེ་ མཇུག་བསྡུ་ཡི།"
+
+#: installWaiting
+msgid "Waiting..."
+msgstr "བསྒུག་སྡོད་དོ་་་་་"
+
+#: installInstalling
+msgid "Installing..."
+msgstr "གཞི་བཙུགས་འབད་དོ་་་་"
+
+#: droppedInWarning
+msgid "The following items were found in your Extensions folder. Do you want to install them?"
+msgstr "ཁྱོད་ཀྱི་རྒྱ་བསྐྱེད་སྣོད་འཛིན་ནང་ འོག་གི་རྣམ་གྲངས་ཚུ་འདུག། ཁྱོད་ཀྱིས་དེ་ཚུ་གཞི་བཙུགས་འབད་ནི་ཨིན་ན?"
+
+#: disabledBySafeMode
+msgid "%S is disabled by safe mode."
+msgstr "%Sདེ་ཉེན་སྲུང་ཐབས་ལམ་གྱིས་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: extensions.update.url
+msgid "https://addons.mozilla.org/update/VersionCheck.php?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%"
+msgstr "https://addons.mozilla.org/update/VersionCheck.php?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%"
+
+#: extensions.getMoreExtensionsURL
+msgid "https://addons.mozilla.org/extensions/?application=%APPID%"
+msgstr "https://addons.mozilla.org/extensions/?གློག་རིམ་=%APPID%"
+
+#: extensions.getMoreThemesURL
+msgid "https://addons.mozilla.org/themes/?application=%APPID%"
+msgstr "https://addons.mozilla.org/themes/?གློག་རིམ་=%APPID%"
+
+#: themesTitle
+msgid "Themes"
+msgstr "བརྗོད་དོན་ཚུ་"
+
+#: extensionsTitle
+msgid "Extensions"
+msgstr "རྒྱ་བསྐྱེད་ཚུ་"
+
+#: globalItemList
+msgid ""
+"The following items are available to all users. \n"
+"You can start Firefox with -lock-item \"{GUID}\" to prevent users from uninstalling or disabling an item. To unlock an item, start Firefox with -unlock-item \"{GUID}\""
+msgstr ""
+"འོག་གི་རྣམ་གྲངས་ཚུ་ ལགལེན་པ་ཆ་མཉམ་ལུ་འཐོབ། \n"
+"ལག་ལེན་པ་ཚུ་གིས་ རྣམ་གྲངས་ཅིག་གི་ གཞི་བཙུགས་བཤོལ་ནི་དང་ ལྕོགས་མིན་བཟོ་ནི་ལས་བཀག་ཐབས་ལུ་ ཁྱོད་ཀྱིས་ཕ་ཡེར་ཕོགསི་-རྣམ་གྲངས་ལྡེ་མིག་རྐྱབས་  \"{GUID}\" ཟེར་མི་ཐོག་ལས་ འགོ་བཙུགས་བཏུབ། རྣམ་གྲངས་ཅིག་ ལྡེ་མིག་ཕྱེ་ནི་ལུ་ ཕ་ཡེར་ཕོགསི་ -རྣམ་གྲངས་ལྡེ་མིག་ཕྱེ་  \"{GUID}\" ཟེར་མི་དེ་ འགོ་བཙུགས་དགོ།"
+
+#: globalItemListExtensions
+msgid ""
+"\n"
+"\n"
+"Globally Available Extensions:\n"
+"==============================\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"སྤྱིར་ཁྱབ་ལུ་འཐོབ་པའི་རྒྱ་བསྐྱེད་ཚུ་:\n"
+"==============================\n"
+
+#: globalItemListThemes
+msgid ""
+"\n"
+"\n"
+"Globally Available Themes:\n"
+"==========================\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"སྤྱིར་ཁྱབ་ལུ་འཐོབ་པའི་བརྗོད་དོན་ཚུ་:\n"
+"==============================\n"
+
+#: statusFormatKBKB
+msgid "#1 of #2 KB"
+msgstr "ཀེ་བི་#༢ ལས་#༡།"
+
+#: statusFormatKBMB
+msgid "#1 KB of #2 MB"
+msgstr "ཀེ་བི་#༢ ལས་#༡།"
+
+#: statusFormatMBMB
+msgid "#1 of #2 MB"
+msgstr "ཨེམ་བི་#༢ ལས་#༡།"
+
+#: disabledObsoleteTitle
+msgid "Old Extensions"
+msgstr "རྒྱ་བསྐྱེད་རྙིངམ་ཚུ།"
+
+#: disabledObsoleteMessage
+msgid "Any old extensions that you have installed have been disabled."
+msgstr "ཁྱོད་ཀྱིས་གཞི་བཙུགས་འབད་མི་ རྒྱ་བསྐྱེད་རྙིངམ་ཡོད་མི་ཚུ་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: type-32
+msgid "Multiple Extension Package"
+msgstr "སྣ་མང་རྒྱ་བསྐྱེད་ཐུམ་སྒྲིལ།"
+
+#: type-4
+msgid "Theme"
+msgstr "བརྗོད་དོན།"
+
+#: type-2
+msgid "Extension"
+msgstr "རྒྱ་བསྐྱེད།"
+
+#: incompatibleTitle
+msgid "Incompatible %S"
+msgstr "%Sདེ་མཐུན་འགྱུར་མིན་འདུག།"
+
+#: incompatibleMsg
+msgid "%S %S could not be installed because it is not compatible with %S %S. (%S %S will only work with %S versions from %S to %S)"
+msgstr "%S %Sདེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ %S %Sདང་གཅིག་ཁར་ མཐུན་འགྱུར་མིན་འདུག། (%S %S དེ་གིས་%Sལས་%Sཚུན་གྱི་ཐོན་རིམ་%S དང་གཅིག་ཁར་རྐྱངམ་གཅིག་ལཱ་འབད་འོང་)"
+
+#: incompatibleMsgSingleAppVersion
+msgid "%S %S could not be installed because it is not compatible with %S %S. (%S %S will only work with %S %S)"
+msgstr "%S %Sདེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ %S %Sདང་གཅིག་ཁར་ མཐུན་འགྱུར་མིན་འདུག། (%S %S གིས་ %S %Sདང་གཅིག་ཁར་རྐྱངམ་གཅིག་ལཱ་འབད་འོང་)"
+
+#: incompatibleMessageNoApp
+msgid "%S %S could not be installed because it is not compatible with %S."
+msgstr "%S %Sདེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ %Sདང་གཅིག་ཁར་ མཐུན་འགྱུར་མིན་འདུག། "
+
+#: incompatibleOlder
+msgid "versions 0.8 or older."
+msgstr "ཐོན་རིམ་༠.༨ ཡང་ན་ དེ་ལས་རྙིང་མི།"
+
+#: incompatibleThemeName
+msgid "this Theme"
+msgstr "བརྗོག་དོན་འདི་"
+
+#: incompatibleExtension
+msgid "Disabled - not compatible with %S %S"
+msgstr "ལྕོགས་མིན་ཨིན་པས་ -  %S %Sདང་གཅིག་ཁར་ མཐུན་འགྱུར་མིན་འདུག།"
+
+#: invalidGUIDMessage
+msgid "\"%S\" could not be installed because of an error in its Install Manifest (\"%S\" is not a valid GUID). Please contact the author of this item about the problem."
+msgstr "\"%S\"དེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དེ་གི་གཞི་བཙུགས་རྣམ་སྤྲུལ་(\"%S\" དེ་ ནུས་ཅན་གྱི་ ཇི་ཡུ་ཨའི་ཌི་) ཅིག་མེན་པས། དཀལ་ངལ་འདི་གི་སྐོར་ལས་ རྣམ་གྲངས་འདི་གི་རྩོམ་པ་པོ་ལུ་ འབྲེལ་བ་འཐབ་གནང་།"
+
+#: invalidVersionMessage
+msgid "\"%S\" could not be installed because of an error in its Install Manifest (\"%S\" is not a valid Version String). Please contact the author of this item about the problem."
+msgstr "\"%S\"དེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དེ་གི་གཞི་བཙུགས་རྣམ་སྤྲུལ་(\"%S\" དེ་ ནུས་ཅན་གྱི་ ཐོན་རིམ་ཡིག་རྒྱུན) ཅིག་མེན་པས། དཀལ་ངལ་འདི་གི་སྐོར་ལས་ རྣམ་གྲངས་འདི་གི་རྩོམ་པ་པོ་ལུ་ འབྲེལ་བ་འཐབ་གནང་།"
+
+#: incompatiblePlatformMessage
+msgid "\"%S\" could not be installed because it is not compatible with your %S build type (%S). Please contact the author of this item about the problem."
+msgstr "\"%S\"དེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དེ་ཁྱོད་ཀྱི་གཟུགས་ %Sགི་དབྱེ་བ་(%S)དང་གཅིག་ཁར་མཐུན་འགྱུར་མིན་འདུག། དཀལ་ངལ་འདི་གི་སྐོར་ལས་ རྣམ་གྲངས་འདི་གི་རྩོམ་པ་པོ་ལུ་ འབྲེལ་བ་འཐབ་གནང་།"
+
+#: missingFileTitle
+msgid "Missing File"
+msgstr "བརླག་སྟོར་ཞུགས་མི་ཡིག་སྣོད།"
+
+#: missingFileMessage
+msgid "%S could not load this item because the file %S was missing."
+msgstr "%Sགིས་རྣམ་གྲངས་འདི་ མངོན་གསལ་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཡིག་སྣོད་%S དེ་བརླག་སྟོར་ཞུགས་ནུག།"
+
+#: missingFileConsoleMessage
+msgid "Failed to install from %S because %S was not provided at the top level of the jar/xpi file."
+msgstr "%Sནང་ལས་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ %Sདེ་ཡིག་སྣོད་jar/xpiགི་གནས་རིམ་མཐོ་ཤོས་ལུ་མ་བྱིན་པས།"
+
+#: malformedMessage
+msgid "%S could not install this item because \"%S\" (provided by the item) is not well-formed or does not exist. Please contact the author about this problem."
+msgstr "%Sགིས་རྣམ་གྲངས་འདི་ གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ (རྣམ་གྲངས་འདི་གིས་བྱིན་མི) \"%S\"དེ་ ལེགས་ཤོམ་སྦེ་གཞི་སྒྲུབ་མ་འབད་བས་ ཡང་ན་ མེདཔ་འོང་ནི་མས། དཀའ་ངལ་འདི་གི་སྐོར་ལས་ རྩོམ་པ་པོ་ལུ་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: malformedTitle
+msgid "Malformed File"
+msgstr "བཟོ་ཉེས་གྱུར་བའི་ཡིག་སྣོད་"
+
+#: malformedRegistrationTitle
+msgid "Chrome Registration Failed"
+msgstr "ཀོརོམ་ཐོ་འགོད་མ་བཏུབ།"
+
+#: malformedRegistrationMessage
+msgid "%S could not install this item because of a failure in Chrome Registration. Please contact the author about this problem."
+msgstr "%Sདེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཀོརོམ་ཐོ་འགོད་ནང་ལུ་ འཐུས་ཤོར་ཅིག་བྱུང་ནུག། དཀའ་ངལ་འདི་གི་སྐོར་ལས་ རྩོམ་པ་པོ་ལུ་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: invalidFileExtTitle
+msgid "Invalid File Extension"
+msgstr "ནུས་མེད་ཡིག་སྣོད་རྒྱ་བསྐྱེད།"
+
+#: invalidFileExtMessage
+msgid "\"%S\" could not be installed because this item has an invalid file extension (%S is not a valid file extension for a %S). Please contact the author about this problem."
+msgstr "\"%S\"དེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ རྣམ་གྲངས་འདི་ལུ་ནུས་མེད་ཡིག་སྣོད་རྒྱ་བསྐྱེད་ཅིག་འདུག།(%Sདེ་ %Sགི་དོན་ལུ་ ནུས་ཅན་ཡིག་སྣོད་རྒྱ་བསྐྱེད་ཅིག་མེན་པས) དཀའ་ངལ་འདི་གི་སྐོར་ལས་ རྩོམ་པ་པོ་ལུ་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: missingPackageFilesTitle
+msgid "Missing Installation Files"
+msgstr "བརླག་སྟོར་ཞུགས་པའི་གཞི་བཙུགས་ཡིག་སྣོད།"
+
+#: missingPackageFilesMessage
+msgid "\"%S\" could not be installed because it does not contain a valid package (a %S must contain at least one extension or theme). Please contact the author about this problem."
+msgstr "\"%S\" དེ་གཞི་བཙུགས་འབད་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དེ་ལུ་ནུས་ཅན་ཐུམ་སྒྲིལ་ཅིག་མིན་འདུག།(%Sཅིག་ནང་ལུ་ ཉུང་ཤོས་ར་རྒྱ་བསྐྱེད་གཅིག་ ཡང་ན་ བརྗོད་དོན་གཅིག་ཡོད་དགོ) དཀའ་ངལ་འདི་སྐོར་ལས་ རྩོམ་པ་པོ་ལུ་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: errorInstallTitle
+msgid "Error"
+msgstr "འཛོལ་བ།"
+
+#: errorInstallMsg
+msgid ""
+"%S could not install the file at \n"
+"\n"
+"%S\n"
+"\n"
+"because: %S"
+msgstr ""
+"གིས་ ཡིག་སྣོད་དེ་ \n"
+"\n"
+"%Sལུ་ \n"
+"\n"
+"གཞི་བཙུགས་འབད་མ་ཚུགས་་ག་ཅི་སྦེ་ཟེར་བ་ཅིན་:%S"
+
+# The following are used by Thunderbird only in order to provide a way to load
+# extension and JAR files.
+#: extensionFilter
+msgid "Extensions (*.xpi)"
+msgstr "རྒྱ་བསྐྱེད་ཚུ་(*.xpi)"
+
+#: themesFilter
+msgid "Themes (*.jar)"
+msgstr "བརྗོད་དོན་ཚུ་(*.jar)"
+
+#: installThemePickerTitle
+msgid "Select a theme to install"
+msgstr "གཞི་བཙུགས་འབད་ནིའི་བརྗོད་དོན་ཅིག་སེལ་འཐུ་འབད།"
+
+#: installExtensionPickerTitle
+msgid "Select an extension to install"
+msgstr "གཞི་བཙུགས་འབད་ནིའི་རྒྱ་བསྐྱེད་ཅིག་སེལ་འཐུ་འབད།"
+
+#: cmdUninstallTooltipTheme
+msgid "Uninstalls the selected Theme"
+msgstr "སེལ་འཐུ་འབད་མི་བརྗོད་དོན་དེ་ གཞི་བཙུགས་བཤོལཝ་ཨིན།"
+
+#: cmdUpdateTooltipTheme
+msgid "Checks for Updates to your Themes"
+msgstr "ཁྱོད་ཀྱི་བརྗོད་དོན་ཚུ་ལུ་ དུས་མཐུན་བཟོེ་དགོཔ་ཡོད་མེད་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
+
+#: cmdInstallTooltipTheme
+msgid "Install a Theme"
+msgstr "བརྗོད་དོན་ཅིག་གཞི་བཙུགས་འབད་"
+
+#: dssSwitchAfterRestart
+msgid "Restart %S to use."
+msgstr "ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ ལོག་འགོ་བཙུགས།"
+
+#: updateFailedMsg
+msgid "Update failed for this item."
+msgstr "རྣམ་གྲངས་འདི་གི་དོན་ལུ་ དུས་མཐུན་བཟོ་ནི་མ་བཏུབ།"
+
+#: updateDisabledMsg
+msgid "Update is disabled for this item."
+msgstr "རྣམ་གྲངས་འདི་གི་དོན་ལུ་ དུས་མཐུན་བཟོ་ནི་དེ་ ལྕོགས་མིན་ཨིན་པས།"
+
+# Default window size for extensions manager and themes manager
+# Size in Pixel (e.g. '460')
+#: extensionsManagerWidth
+msgid "480"
+msgstr "༤༨༠"
+
+#: extensionsManagerHeight
+msgid "300"
+msgstr "༣༠༠"
+
+#: themesManagerWidth
+msgid "560"
+msgstr "༥༦༠"
+
+#: themesManagerHeight
+msgid "380"
+msgstr "༣༨༠"
+
+# The left column in themes manager
+# Size in em (e.g. '20em')
+# Note: the unit string 'em' is necessary here!
+#: themesManagerLeftColumn
+msgid "20em"
+msgstr "ཨི་ཨེམ་༢༠"
+
+#: updatesAvailableMessage1
+msgid "%S found updates to the following items:"
+msgstr "%Sགིས་ འོག་གི་རྣམ་གྲངས་ཚུ་ལུ་ དུས་མཐུན་བཟོ་ནི་ཐོབ་ཅི།"
+
+#: updatesAvailableMessage2
+msgid "Click Install Now to download and install the updates."
+msgstr "དུས་མཐུན་ཚུ་ཕབ་ལེན་འབད་དེ་ གཞི་བཙུགས་འབད་ནི་ལུ་ ད་ལྟོ་ར་གཞི་བཙུགས་འབད་ གུ་ཨེབ་གཏང་འབད།"
+
+#: updatesAvailableAccept
+msgid "Install Now"
+msgstr "ད་ལྟོ་ར་གཞི་བཙུགས་འབད།"
+
+#: updatesAvailableCancel
+msgid "Later"
+msgstr "ཤུལ་ལས་"
+
+#: updatesAvailableTitle
+msgid "Updates Found"
+msgstr "དུས་མཐུན་བཟོ་དགོཔ་ཐོབ་ཅི།"
+
+#: itemFormat
+msgid "%S %S (New version: %S)"
+msgstr "%S %S (ཐོན་རིམ་: %S)"
+

@@ -1,0 +1,971 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extras/mergeant.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-02 03:22+0000\n"
+"PO-Revision-Date: 2007-03-06 10:50+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/mergeant.keys.in.h:1
+msgid "Documents"
+msgstr "ཡིག་ཆ་ཚུ་"
+
+#: ../data/mergeant.keys.in.h:2
+msgid "Mergeant database file"
+msgstr "མཉམ་བསྡོམས་འབད་ནིའི་གནད་སྡུད་གཞི་རྟེན་ཡིག་སྣོད་"
+
+#: ../mergeant.desktop.in.h:1
+msgid "Maintain and query a SQL database"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་གནད་སྡུད་གཞི་རྟེན་ཅིག་ རྒྱུན་སྐྱོང་དང་འདྲི་དཔྱད་འབད་"
+
+#: ../mergeant.desktop.in.h:2
+msgid "Mergeant Database Administration"
+msgstr "མཉམ་བསྡོམས་འབད་ནིའི་གནད་སྡུད་གཞི་རྟེན་བདག་སྐྱོང་"
+
+#: ../src/GNOME_Mergeant.server.in.in.h:1
+msgid "Database components"
+msgstr "གནད་སྡུད་གཞི་རྟེན་ཆ་ཤས་ཚུ་"
+
+#: ../src/GNOME_Mergeant.server.in.in.h:2
+msgid "Mergeant application automation interface"
+msgstr "མཉམ་བསྡོམས་འབད་ནིའི་གློག་རིམ་གྱི་ འཕྲུལ་སྤྱོད་ངོས་འདྲ་བ་"
+
+#: ../src/mg-extra-formgrid.c:163
+msgid "Toggle between grid and form presentations"
+msgstr "འཛིན་པ་དང་འབྲི་ཤོག་གསལ་སྟོན་འབད་ནི་གི་བར་ན་ སོར་སྟོན་འབད་"
+
+#: ../src/mg-plugin-editor.c:146
+msgid "Data entry type:"
+msgstr "གནད་སྡུད་ཐོ་བཀོད་དབྱེ་བ་:"
+
+#: ../src/mg-plugin-editor.c:151
+msgid "Options:"
+msgstr "གདམ་ཁ་ཚུ་:"
+
+#: ../src/mg-plugin-editor.c:156
+msgid "Preview:"
+msgstr "སྔོན་ལྟ་:"
+
+#: ../src/mg-plugin-editor.c:319
+msgid "Default"
+msgstr "སྔོན་སྒྲིག་"
+
+#: ../src/mg-plugin-editor.c:367
+#, c-format
+msgid "Options '%s' are set for the '%s' plugin, but it does not have any option"
+msgstr "གདམ་ཁ་ '%s' ཚུ་ པ་ལག་ཨིན་ '%s' དེ་གི་དོན་ལུ་ གཞི་སྒྲིག་འབད་ཡོད་ དེ་འབདཝ་ད་ དེ་ལུ་གདམ་ཁ་ག་ནི་ཡང་མེད་"
+
+#: ../src/mg-plugin-editor.c:374
+#, c-format
+msgid "Plugin editor cannot handle %s objects"
+msgstr "པ་ལག་ཨིན་ཞུན་དག་པ་གིས་  %s དངོས་པོ་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས་"
+
+#: ../src/mg-plugin-editor.c:392
+#, c-format
+msgid "Options '%s=%s' is set but unknown to the plugin used"
+msgstr "གདམ་ཁ་ '%s=%s' གཞི་སྒྲིག་འབད་ཡོད་ དེ་འབདཝ་ད་ ལག་ལེན་འཐབ་ཡོད་པའི་པ་ལག་ཨིན་འདི་ལུ་མ་ཤེསཔ་"
+
+#: ../src/query-druid.c:284
+msgid "New query"
+msgstr "འདྲི་དཔྱད་གསརཔ་"
+
+#: ../src/query-druid.c:286
+msgid ""
+"This druid allows you to create a new query.\n"
+"\n"
+"The query can be a data manipulation query of any type (SELECT, INSERT, UPDATE or DELETE) and can also be an aggregation query (UNION, INTERSECT or EXCEPT).\n"
+"\n"
+"The query can be created either with a point and click interface or entering the corresponding SQL statement."
+msgstr ""
+"འ་ནི་ཌུའིཌི་འདི་གིས་ ཁྱོད་ལུ་འདྲི་དཔྱད་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་བཅུགཔ་ཨིན།\n"
+"\n"
+"འདྲི་དཔྱད་འདི་ དབྱེ་བ་ག་ཅི་གི་འབད་རུང་ གནད་སྡུད་ལག་ལེན་བསྟར་བ་ཅིག་འབད་བཏུབ་ (སེལ་འཐུ་འབད་  བཙུགས་ དུས་མཐུན་བཟོ་  ཡང་ན་བཏོན་གཏང་) དང་ སྤྱི་བསྡོམས་འབད་ནིའི་འདྲི་དཔྱད་ཡང་བཏུབ་་(འདུས་ཚོགས་  དུས་བུར་གཅོད་པ་ ཡང་ན་དམིགས་བསལ་)།\n"
+"\n"
+"འདྲི་དཔྱད་འདི་ ཡང་ཅིན་ ཡིག་ཚད་ཅིག་དང་གཅིག་ཁར་ ཡང་ན་ངོས་འདྲ་བ་ཨེབ་གཏང་འབད་བཏུབ་ ཡང་ན་ ཆ་སྙོམ་པའི་ཨེསི་ཀིའུ་ཨེལ་གསལ་བཤད་དེ་ཐོ་བཀོད་འབད་ཐོག་ གསར་བསྐྲུན་འབད་བཏུབ།"
+
+#: ../src/query-druid.c:313
+msgid "Query attributes"
+msgstr "འདྲི་དཔྱད་ཁྱད་ཆོས་ཚུ་"
+
+#: ../src/query-druid.c:317
+msgid "Name and description:"
+msgstr "མིང་དང་འགྲེལ་བཤད་:"
+
+#: ../src/query-druid.c:331
+#: ../src/query-editor.c:219
+#: ../src/ws-dbrels.c:476
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../src/query-druid.c:338
+msgid "Untitled"
+msgstr "མགོ་མིང་མ་བཏགསཔ་"
+
+#: ../src/query-druid.c:344
+#: ../src/query-editor.c:231
+#: ../src/ws-dbrels.c:482
+msgid "Description:"
+msgstr "འགྲེལ་བཤད་:"
+
+#: ../src/query-druid.c:355
+msgid "Type of query:"
+msgstr "འདྲི་དཔྱད་ཀྱི་དབྱེ་བ་:"
+
+#: ../src/query-druid.c:364
+msgid "Point & click wizard"
+msgstr "ཡིག་ཚད་དང་ཨེབ་གཏང་ཝི་ཛརཌི་"
+
+#: ../src/query-druid.c:378
+msgid "SELECT query"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་འབད་"
+
+#: ../src/query-druid.c:387
+msgid "INSERT query"
+msgstr "འདྲི་དཔྱད་བཙུགས་"
+
+#: ../src/query-druid.c:395
+msgid "UPDATE query"
+msgstr "འདྲི་དཔྱད་དུས་མཐུན་བཟོ་"
+
+#: ../src/query-druid.c:403
+msgid "DELETE query"
+msgstr "འདྲི་དཔྱད་བཏོན་གཏང་"
+
+#: ../src/query-druid.c:411
+msgid "Aggreation query (union, intersect or except)"
+msgstr "སྤྱི་བསྡོམས་བཟོ་ནིའི་འདྲི་དཔྱད་(འདུས་ཚོགས་  དུམ་བུར་གཅོད་པ་ ཡང་ན་ དམིགས་བསལ་)"
+
+#: ../src/query-druid.c:419
+msgid "SQL query (of any type)"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་འདྲི་དཔྱད་(ག་ཅི་གི་དབྱེ་བ་འབད་རུང་)"
+
+#: ../src/query-druid.c:480
+msgid "SELECT query: targets"
+msgstr "འདྲི་དཔྱད་སེལ་འཐབ་འབད་: དམིགས་གཏད་"
+
+#: ../src/query-druid.c:485
+msgid "Target selection:"
+msgstr "དམིགས་གཏད་སེལ་འཐུ་འབད་ནི་:"
+
+#: ../src/query-druid.c:486
+msgid "select the tables and views from which data will be extracted."
+msgstr "གནད་སྡུད་ག་དེ་ཚུ་ཕྱིར་འདོན་འབད་ནི་ཨིན་ན་ལས་ ཐིག་ཁྲམ་ཚུ་དང་མཐོང་སྣང་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../src/query-druid.c:500
+msgid "Tables / Views:"
+msgstr "ཐིག་ཁྲམ་ཚུ་/མཐོང་སྣང་ཚུ་:"
+
+#: ../src/query-druid.c:510
+msgid "Query targets:"
+msgstr "འདྲི་དཔྱད་དམིགས་གཏད་ཚུ་:"
+
+#: ../src/query-druid.c:715
+msgid "SELECT query: joins"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་འབད་: མཐུདཔ་ཨིན་"
+
+#: ../src/query-druid.c:720
+msgid "Targets' joins:"
+msgstr "དམིགས་གཏད་ཀྱི་མཐུད་ནི་:"
+
+#: ../src/query-druid.c:721
+msgid "choose the joins that should be taken into account in the query (most of the time there are not any target not joined to any other target)"
+msgstr "འདྲི་དཔྱད་དེ་ནང་གི་རྩིས་ཐོ་ནང་འབག་ནིའི་དོན་ལས་ མཐུད་ནི་ཚུ་གདམ་ཁ་རྐྱབས་(མང་ཤོས་ཅིག་རང་ དམིགས་གཏད་ཚུ་ གཞན་མི་དམིགས་གཏད་ཚུ་ལུ་མཐུད་མཐུདཔ་མི་འོང་)"
+
+#: ../src/query-druid.c:758
+msgid "SELECT query: fields"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་འབད་: ས་སྒོ་ཚུ་"
+
+#: ../src/query-druid.c:763
+msgid "Fields selection:"
+msgstr "ས་སྒོའི་སེལ་འཐུ་འབད་ནི་:"
+
+#: ../src/query-druid.c:764
+msgid "select the fields from the already selected targets. Alternatively fields can be entered as textual expressions for functions, constants, etc."
+msgstr "ཧེ་མ་ལས་སེལ་འཐུ་འབད་ཡོད་པའི་དམིགས་གཏད་དེ་ཚུ་ལས་ ས་སྒོ་དེ་ཚུ་སེལ་འཐུ་འབད། ཐབས་གཞན་ཡང་ ས་སྒོ་ཚུ་ ལས་འགན་ ཆད་མེད་ ལ་སོགས་པའི་དོན་ལུ་ ཚིག་ཡིག་གི་གསལ་་བརྗོད་སྦེ་ ཐོ་བཀོད་འབད་བཏུབ་"
+
+#: ../src/query-druid.c:779
+msgid "Possible fields:"
+msgstr "སྲིད་པའི་ས་སྒོ་ཚུ་:"
+
+#: ../src/query-druid.c:789
+msgid "Query fields:"
+msgstr "འདྲི་དཔྱད་ས་སྒོ་ཚུ་:"
+
+#: ../src/query-druid.c:799
+msgid ""
+"Textual\n"
+"expression:"
+msgstr ""
+"ཚིག་ཡིག་གི་\n"
+"གསལ་བརྗོད་:"
+
+#: ../src/query-druid.c:979
+#: ../src/query-druid.c:988
+#: ../src/query-fields-menu.c:516
+#: ../src/query-fields-menu.c:525
+msgid "Error parsing/analysing field expression:"
+msgstr "ས་སྒོ་གསལ་བརྗོད་ མིང་དཔྱད་/དཔྱད་ཞིབ་འབདཝ་ད་འཛོལ་བ་:"
+
+#: ../src/query-druid.c:980
+#: ../src/query-druid.c:989
+#: ../src/query-editor.c:634
+#: ../src/query-editor.c:643
+#: ../src/query-fields-editor.c:495
+#: ../src/query-fields-editor.c:504
+#: ../src/query-fields-menu.c:517
+#: ../src/query-fields-menu.c:526
+msgid "while parsing"
+msgstr "མིང་དཔྱད་འབད་བའི་སྐབས་"
+
+#: ../src/query-druid.c:1065
+msgid "SELECT query: condition and ordering"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་འབད་: གནས་སྟངས་དང་མངགས་ནི་"
+
+#: ../src/query-druid.c:1070
+msgid "Selection condition and ordering:"
+msgstr "གནས་སྟངས་དང་མངགས་ནི་སེལ་འཐུ་འབད་ནི་:"
+
+#: ../src/query-druid.c:1071
+msgid "Enter the conditions to apply on the selected rows to filter the final rows, and the ordering"
+msgstr "མཐའ་མཇུག་གི་གྲལ་ཐིག་ཚུ་དང་ བཙགས་ནི་དང་ མངགས་ནིའི་དོན་ལས་ སེལ་འཐུ་འབད་ཡོད་པའི་གྲལ་ཐིག་དེ་ཚུ་གུ་འཇུག་སྤྱོད་འབད་ནིའི་དོན་ལས་ གནས་སྟངས་འདི་ཐོ་བཀོད་འབད་"
+
+#: ../src/query-druid.c:1095
+msgid "SELECT query: parameters definition"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་འབད་: ཚད་བཟུང་གི་ངེས་ཚིག་"
+
+#: ../src/query-druid.c:1114
+msgid "SELECT query: ready"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་འབད་: གྲ་སྒྲིག་"
+
+#: ../src/query-druid.c:1115
+msgid "The selection query is now ready."
+msgstr "སེལ་འཐུ་འབད་ནིའི་འདྲི་དཔྱད་འདི་ ད་གྲ་སྒྲིག་ཨིན།"
+
+#: ../src/query-druid.c:1136
+msgid "SQL statement Query"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་གསལ་བཤད་འདྲི་དཔྱད་"
+
+#: ../src/query-druid.c:1140
+msgid "Enter the SQL statement representing the query:"
+msgstr "འདྲི་དཔྱད་འདི་ ཁྱད་ཚབ་འབད་མི་ ཨེསི་ཀིའུ་ཨེལ་གསལ་བཤད་འདི་ཐོ་བཀོད་འབད་:"
+
+#: ../src/query-druid.c:1156
+msgid "Test query validity"
+msgstr "བརྟག་ཞིབ་འདྲི་དཔྱད་ནུས་ལྡན་དུས་ཚོད་"
+
+#: ../src/query-druid.c:1176
+#: ../src/query-druid.c:1180
+msgid "Parsing/analyzing error:"
+msgstr "མིང་དཔྱད་/དཔྱད་ཞིབ་འབད་བའི་འཛོལ་བ་:"
+
+#: ../src/query-druid.c:1181
+msgid "The query has an error"
+msgstr "འདྲི་དཔྱད་དེ་ལུ་འཛོལ་བ་མེད་"
+
+#: ../src/query-druid.c:1193
+msgid "No error parsing and analyzing the query"
+msgstr "འདྲི་དཔྱད་དེ་མིང་དཔྱད་དང་དཔྱད་ཞིབ་འབད་བའི་སྐབས་ འཛོལ་བ་མེད་"
+
+#: ../src/query-druid.c:1218
+msgid "To be implemented"
+msgstr "བསྟར་སྤྱོད་འབད་དགོཔ་"
+
+#: ../src/query-druid.c:1222
+msgid "This functionality is not yet implemented"
+msgstr "ལས་འགན་འདི་ད་ཚུན་བསྟར་སྤྱོད་མ་འབད་བས་"
+
+#: ../src/query-editor.c:199
+msgid "Query attributes:"
+msgstr "འདྲི་དཔྱད་ཁྱད་ཆོས་ཚུ་:"
+
+#: ../src/query-editor.c:243
+msgid "SQL"
+msgstr "ཨེས་ཀིའུ་ཨེལ་"
+
+#: ../src/query-editor.c:265
+msgid "SQL statement representing the query:"
+msgstr "འདྲི་དཔྱད་དེ་ ཁྱད་ཚབ་འབད་མི་ ཨེསི་ཀིའུ་ཨེལ་གསལ་བཤད་:"
+
+#: ../src/query-editor.c:266
+msgid "Click on the \"Apply\" button to validate any modification in the text"
+msgstr "ཚིག་ཡིག་དེ་ནང་ལུ་ ལེགས་བཅོས་ག་ཅི་རང་འབད་རུང་ ནུས་ལྡན་བཟོ་ནིའི་དོན་ལས་  \"Apply\" ཨེབ་རྟ་གུ་ཨེབ་གཏང་འབད་"
+
+#: ../src/query-editor.c:323
+msgid "Query targets and their joining rules:"
+msgstr "འདྲི་དཔྱད་དམིགས་གཏད་ཚུ་དང་ དེ་ཚུ་གི་མཐུད་ནིའི་ལམ་ལུགས་ཚུ་:"
+
+#: ../src/query-editor.c:360
+msgid "Query fields and their properties:"
+msgstr "འདྲི་དཔྱད་ས་སྒོ་ཚུ་དང་ དེ་ཚུ་གི་རྒྱུ་དངོས་ཚུ་:"
+
+#: ../src/query-editor.c:383
+msgid "Other properties:"
+msgstr "གཞན་མི་རྒྱུ་དངོས་ཚུ་:"
+
+#: ../src/query-editor.c:403
+msgid "Global WHERE filter rule:"
+msgstr "སྤྱི་ཁྱབ་ཝེ་ཡར་ཚགས་མའི་ལམ་ལུགས་:"
+
+#: ../src/query-editor.c:429
+msgid "Query parameters:"
+msgstr "འདྲི་དཔྱད་ཚད་བཟུང་ཚུ་:"
+
+#: ../src/query-editor.c:548
+msgid "Error (no details available)."
+msgstr "འཛོལ་བ་ (རྒྱས་བཤད་ཚུ་འཐོབ་ཚུགསཔ་མེད་)།"
+
+#: ../src/query-editor.c:558
+msgid "SQL query analyse warning:"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་འདྲི་དཔྱད་དཔྱད་ཞིབ་ཀྱི་ཉེན་བརྡ་:"
+
+#: ../src/query-editor.c:559
+msgid "This prevents extra treatments, such as graphical edition of this query, which will be considered as a SQL statement specific to the connected database."
+msgstr "འ་ནི་འདི་གིས་ སྐྱོང་བཞག་ཐེབས་ དཔེར་ན་ འ་ནི་འདྲི་དཔྱད་དེ་གི་ཚད་རིས་ཀྱི་ཞུན་དག་འབད་ནི་བཟུམ་ མཐུད་ཡོད་པའི་གནད་སྡུད་གཞི་རྟེན་དེ་ལུ་ ཨེསི་ཀིའུ་ཨེལ་གསལ་བཤད་ཀྱི་དམིགས་བསལ་ཅིག་སྦེ་ཆ་འཇོག་འབད་མི་ཚུ་ སྔོན་བཀག་འབདཝ་ཨིན།"
+
+#: ../src/query-editor.c:562
+msgid "Do you still want to use that SQL for the query?"
+msgstr "འདྲི་དཔྱད་དེ་གི་དོན་ལུ་ ཁྱོད་ཀྱིས་ད་རུང་ཡང་ ཨེསི་ཀིའུ་ཨེལ་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: ../src/query-editor.c:633
+#: ../src/query-editor.c:642
+msgid "Error parsing/analysing WHERE expression:"
+msgstr "ཝེ་ཡར་གསལ་བརྗོད་ མིང་དཔྱད་/དཔྱད་ཞིབ་འབདཝ་ད་འཛོལ་བ་:"
+
+#: ../src/query-fields-editor.c:244
+msgid "Field"
+msgstr "ས་སྒོ་"
+
+#: ../src/query-fields-editor.c:257
+msgid "Shown & alias"
+msgstr "སྟོན་ཡོད་མི་དང་མིང་གཞན་"
+
+#: ../src/query-fields-editor.c:280
+msgid "Filter"
+msgstr "ཚགས་མ་"
+
+#: ../src/query-fields-editor.c:298
+msgid "Ordering"
+msgstr "མངགས་དོ་"
+
+#: ../src/query-fields-editor.c:494
+#: ../src/query-fields-editor.c:503
+msgid "Error parsing/analysing condition expression:"
+msgstr "གནས་སྟངས་གསལ་བརྗོད་ མིང་དཔྱད་/དཔྱད་ཞིབ་འབདཝ་ད་འཛོལ་བ་:"
+
+#. add a menu item for field creation from a textual expression
+#: ../src/query-fields-menu.c:333
+msgid "From expression..."
+msgstr "གསལ་བརྗོད་ལས་..."
+
+#. add a menu item for "target.*" field creation
+#: ../src/query-fields-menu.c:406
+msgid "*"
+msgstr "*"
+
+#: ../src/query-fields-menu.c:473
+msgid "Add a query field from an expression"
+msgstr "གསལ་བརྗོད་ཅིག་ལས་ འདྲི་དཔྱད་ས་སྒོ་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/query-fields-menu.c:484
+msgid "Textual expression:"
+msgstr "ཚིག་ཡིག་གི་གསལ་བརྗོད་:"
+
+#: ../src/query-fields-menu.c:485
+msgid ""
+"The following expression will be analysed to create\n"
+"a new field in the query"
+msgstr ""
+"འོག་གི་གསལ་བརྗོད་དེ་ \n"
+"འདྲི་དཔྱད་དེ་ནང་ལུ་ས་སྒོ་གསརཔ་ཅིག་ གསརབསྐྲུན་འབད་ནིའི་དོན་ལས་ དཔྱད་ཞིབ་འབད་འོང་"
+
+#: ../src/query-params-editor.c:284
+msgid "Name"
+msgstr "མིང་"
+
+#: ../src/query-params-editor.c:298
+msgid "Parameter?"
+msgstr "ཚད་བཟུང་?"
+
+#: ../src/query-params-editor.c:313
+msgid "Value"
+msgstr "གནས་གོང་"
+
+#: ../src/query-params-editor.c:327
+#: ../src/ws-queries.c:302
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: ../src/query-params-editor.c:343
+msgid "Data type"
+msgstr "གནད་སྡུད་དབྱེ་བ་"
+
+#: ../src/query-params-editor.c:356
+msgid "NULL Ok?"
+msgstr "སྟོང་ཆ་ བཏུབ?"
+
+#: ../src/query-params-editor.c:508
+#, c-format
+msgid "Error: data type '%s' does not exist"
+msgstr "འཛོལ་བ་: གནད་སྡུད་དབྱེ་བ་ '%s' དེ་མེད་"
+
+#: ../src/utils.c:66
+msgid "Please fill in the following information."
+msgstr "འོག་གི་བརྡ་དོན་དེ་ནང་བཀང་གནང་།"
+
+#: ../src/utils.c:77
+msgid "Provider selection"
+msgstr "བྱིན་མཁན་སེལ་འཐུ་འབད་ནི་"
+
+#: ../src/utils.c:91
+msgid "Provider:"
+msgstr "བྱིན་མཁན་:"
+
+#: ../src/utils.c:123
+msgid ""
+"The provider associated to this connection\n"
+"does not support this operation"
+msgstr ""
+"འ་ནི་མཐུད་ལམ་དེ་ལུ་ འབྲེལ་བའི་བྱིན་མཁན་\n"
+"གྱིས་འ་ནི་བཀོལ་སྤྱོད་དི་ལུ་རྒྱབ་སྐྱོར་མི་འབད་"
+
+#: ../src/utils.c:132
+#: ../src/utils.c:276
+#, c-format
+msgid ""
+"Could not get the information required to perform that operation:\n"
+"%s"
+msgstr ""
+"བཀོལ་སྤྱོད་དེ་ ལཱ་འགན་འགྲུབ་ནིའི་དོན་ལས་ དགོས་མཁོ་ཡོད་པའི་བརྡ་དོན་དེ་ ཐོབ་མ་ཚུགས་:\n"
+"%s"
+
+#: ../src/utils.c:133
+#: ../src/utils.c:189
+#: ../src/utils.c:277
+#: ../src/workspace-window.c:153
+#: ../src/workspace-window.c:163
+#: ../src/workspace-window.c:316
+#: ../src/workspace-window.c:789
+#: ../src/ws-queries.c:767
+msgid "No detail"
+msgstr "རྒྱས་བཤད་མིན་འདུག་"
+
+#: ../src/utils.c:188
+msgid "Could not perform operation"
+msgstr "བཀོལ་སྤྱོད་ལས་འགན་གྲུབ་མ་ཚུགས་"
+
+#: ../src/utils.c:241
+msgid "Internal error: can't instantiate a provider object"
+msgstr "ནང་འཁོད་འཛོལ་བ་: བྱིན་མཁན་གྱི་དངོས་པོ་ཅིག་ འཕྲུལ་མྱུར་འབད་མ་ཚུགས་"
+
+#: ../src/utils.c:270
+msgid "Selected provider does not support this operation"
+msgstr "སེལ་ཐུ་འབད་ཡོད་པའི་བྱིན་མཁན་གྱིས་ འ་ནི་བཀོལ་སྤྱོད་འདི་རྒྱབ་སྐྱོར་མི་འབད་"
+
+#: ../src/workspace-page.c:208
+#, c-format
+msgid ""
+"This feature (%s)\n"
+"is not yet implemented\n"
+"\n"
+"In %s, %s(), line %d"
+msgstr ""
+"འ་ནི་ཁྱད་རྣམ་ (%s)\n"
+"འདི་ ད་ཚུན་བསྟར་སྤྱོད་མ་འབད་བས་\n"
+"\n"
+"%s ནང་, %s(), གྲལ་ཐིག་ %d"
+
+#: ../src/workspace-page.c:213
+#, c-format
+msgid ""
+"This feature is not yet implemented\n"
+"\n"
+"In %s, %s(), line %d"
+msgstr ""
+"འ་ནི་ཁྱད་རྣམ་འདི་ད་ཚུན་བསྟར་སྤྱོད་མ་འབད་བས་\n"
+"\n"
+"%s ནང་, %s(), གྲལ་ཐིག་ %d"
+
+#: ../src/workspace-window.c:124
+#, c-format
+msgid ""
+"<b>A transaction has been started on the %s connection.</b>\n"
+"\n"
+"if it is not committed, any change since the beginning of the transaction will be lost. \n"
+"\n"
+"<u>Rollback</u> the transaction to cancel any change made since the transaction was started, <u>commit</u> the transaction to save those changes, or <u>ignore</u> the transaction to let the DBMS handle the transaction (this usually leads to lose any change). What do you want to do?"
+msgstr ""
+"<b> %s མཐུད་ལམ་དེ་གུ་ སྤྲོད་ལེན་ཅིག་འགོ་བཙུགས་ཡོད།</b>\n"
+"\n"
+"དེ་ཁས་མ་ལེན་པ་ཅིན་ སྤྲོད་ལེན་འདི་འགོ་བཙུགས་པའི་སྐབས་ལས་ཀྱི་བསྒྱུར་བཅོས་ག་ཅི་འབད་རུང་ བརླག་སྟོར་ཞུགས་འོང་། \n"
+"\n"
+"<u>རྒྱབ་བསྒྲིལ་</u> སྤྲོད་ལེན་འདི་འགོ་བཙུགས་ཡོད་མི་ལས་ཚུར་ བསྒྱུར་བཅོས་ག་ཅི་རང་འབད་ཡོད་རུང་ ཆ་མེད་གཏང་ནིའི་དོན་ནི་གི་ སྤྲོད་ལེན་<u>ཁས་ལེན་</u> བསྒྱུར་བཅོས་ཚུ་སྲུང་བཞག་འབད་ནི་གི་སྤྲོད་ལེན་ ཡང་ན་ <u>སྣང་མེད་བཞག་</u> ཌི་བི་ཨེམ་ཨེསི་ལུ་སྤྲོད་ལེན་དེ་ ལེགས་སྐྱོང་འཐབ་བཅུག་ནིའི་སྤྲོད་ལེན་ (འ་ནི་འདི་གིས་སྤྱིར་བཏང་ལུ་ བསྒྱུར་བཅོས་ག་ཅི་འབད་རུང་ བརླག་སྟོར་ཞུགས་བཅུགཔ་ཨིན)། ཁྱོད་ཀྱིས་ག་ཅི་འབད་ནི?"
+
+#: ../src/workspace-window.c:136
+msgid "Rollback transaction"
+msgstr "སྤྲོད་ལེན་རྒྱབ་བསྒྲིལ་འབད་"
+
+#: ../src/workspace-window.c:137
+msgid "Commit transaction"
+msgstr "སྤྲོད་ལེན་ཁས་ལེན་"
+
+#: ../src/workspace-window.c:138
+msgid "Ignore transaction"
+msgstr "སྤྲོད་ལེན་སྣང་མེད་བཞག་"
+
+#: ../src/workspace-window.c:150
+#, c-format
+msgid ""
+"<b>Could not rollback current transaction:</b>\n"
+"%s\n"
+"\n"
+"What do you want to do?"
+msgstr ""
+"<b>ད་ལྟོའི་སྤྲོད་ལེན་འདི་རྒྱབ་བསྒྲིལ་འབད་མ་ཚུགས་:</b>\n"
+"%s\n"
+"\n"
+"ཁྱོད་ཀྱིས་ག་ཅི་འབད་ནི?"
+
+#: ../src/workspace-window.c:160
+#, c-format
+msgid ""
+"<b>Could not commit current transaction:</b>\n"
+"%s\n"
+"\n"
+"What do you want to do?"
+msgstr ""
+"<b>ད་ལྟོའི་སྤྲོད་ལེན་འདི་ཁས་ལེན་འབད་མ་ཚུགས་:</b>\n"
+"%s\n"
+"\n"
+"ཁྱོད་ཀྱིས་ག་ཅི་འབད་ནི?"
+
+#: ../src/workspace-window.c:169
+msgid "Close anyway"
+msgstr "གང་རུང་སྦེ་ཁ་བསྡམ་"
+
+#: ../src/workspace-window.c:170
+msgid "Don't close this workspace window"
+msgstr "འ་ནི་ལཱ་གི་ས་སྒོའི་སྒོ་སྒྲིག་འདི་ཁ་མ་བསྡམ་"
+
+#. dialog
+#: ../src/workspace-window.c:239
+msgid "Transactions management"
+msgstr "སྤྲོད་ལེན་གྱི་འཛིངན་སྐྱོང་པ་"
+
+#: ../src/workspace-window.c:275
+msgid "Database creation requires that first a database provider be selected."
+msgstr "གནད་སྡུད་གཞི་རྟེན་གསར་བསྐྲུན་འབད་ནི་དེ་ལུ་ དང་པ་རང་གནད་སྡུད་གཞི་རྟེན་བྱིན་མཁན་ཅིག་ སེལ་འཐུ་འབད་དགོ"
+
+#: ../src/workspace-window.c:276
+msgid ""
+"The 'SQLite' provider allows you to create a database stored in a single file\n"
+"and does not require a database server to be set up."
+msgstr ""
+"'ཨེསི་ཀིའུ་ལའིཊི་' བྱིན་མཁན་གྱིས་ ཁྱོད་ལུ་ཡིག་སྣོད་རྐྱང་པ་ཅིག་ནང་ གསོག་འཇོག་འབད་ཡོད་པའི་གནད་སྡུད་གཞི་རྟེན་ཅིག་ གསར་བསྐྲུན་འབད་བཅུགཔ་ཨིན་\n"
+"དེ་ལས་ གནད་སྡུད་གཞི་རྟེན་གྱི་སར་བར་ཅིག་ གཞི་སྒྲིག་འབདམི་དགོ"
+
+#: ../src/workspace-window.c:280
+msgid "Create a database"
+msgstr "གནད་སྡུད་གཞི་རྟེན་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../src/workspace-window.c:292
+msgid "Delete a database"
+msgstr "གནད་སྡུད་གཞི་རྟེན་ཅིག་བཏོན་གཏང་"
+
+#: ../src/workspace-window.c:293
+msgid "Database destruction requires that first a database provider be selected."
+msgstr "གནད་སྡུད་གཞི་རྟེན་སྟོར་བཤིག་འབད་ནི་འདི་ལུ་ དང་པ་རང་གནད་སྡུད་གཞི་རྟེན་བྱིན་མཐན་ཅིག་ སེལ་འཐུ་འབད་དགོ"
+
+#: ../src/workspace-window.c:315
+msgid "Could not find the 'gnome-database-properties' program"
+msgstr "'ཇི་ནོམ་-གནད་སྡུད་གཞི་རྟེན་-རྒྱུ་དངོས་ཀྱི་'ལས་རིམ་དེ་འཚོལ་མ་འཐོབ་"
+
+#. dialog
+#: ../src/workspace-window.c:334
+msgid "SQL console"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་མ་སྒྲོམ་"
+
+#: ../src/workspace-window.c:357
+msgid "SQL Console (type \\? + ENTER for help)\n"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་མསྒྲོམ་ (དབྱེ་བ་ \\? + ལོག་ལྡེ་ གྲོགས་རམ་གྱི་དོན་ལུ་)\n"
+
+#: ../src/workspace-window.c:436
+msgid "Database services for the GNOME Desktop"
+msgstr "ཇི་ནོམ་ཌེཀསི་ཊོཔ་དེ་གི་དོན་ལུ་ གནད་སྡུད་གཞི་རྟེན་ཞབས་ཏོག་ཚུ་"
+
+#: ../src/workspace-window.c:514
+msgid "Metadata synchronisation"
+msgstr "མེ་ཊ་གནད་སྡུད་མཉམ་བྱུང་"
+
+#: ../src/workspace-window.c:533
+#, c-format
+msgid ""
+"Error updating Server metadata:\n"
+"%s\n"
+msgstr ""
+"སར་བར་གྱི་མེ་ཊ་གནད་སྡུད་ དུས་མཐུན་འབད་བའི་སྐབས་འཛོལ་བ་:\n"
+"%s\n"
+
+#: ../src/workspace-window.c:788
+#, c-format
+msgid ""
+"Error Opening connection:\n"
+"%s\n"
+msgstr ""
+"མཐུད་ལམ་ཁ་ཕྱེཝ་ད་འཛོལ་བ་:\n"
+"%s\n"
+
+#: ../src/workspace-window.c:826
+msgid "Opening connection"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ་དོ་"
+
+#: ../src/workspace-window.c:827
+msgid "The connection to the data source is now being opened."
+msgstr "གནད་སྡུད་འབྱུང་དེ་ལུའི་མཐུད་ལམ་འདི་ ད་ཁ་ཕྱེ་སྟེ་ཡོད།"
+
+#: ../src/workspace-window.c:895
+#, c-format
+msgid ""
+"<b><big>Failed loading data dictionary</big></b>\n"
+"<small>The previously saved data dictionary for this connection can't be loaded because it contains errors:\n"
+"%s</small>\n"
+"\n"
+"Do you want to force a synchronization with the database dictionary now?\n"
+"\n"
+"<small><u>Warning:</u> if you answer 'Yes', all the queries, etc. defined will be lost; answering 'No' allows you try to fix the error</small>"
+msgstr ""
+"<b><big>གནད་སྡུད་ཚིག་མཛོད་མངོན་གསལ་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོད་</big></b>\n"
+"<small>འ་ནི་མཐུད་ལམ་གྱི་དོན་ལུ་ ཧེ་མ་སྲུང་བཞག་འབད་ཡོད་མི་གནད་སྡུད་ཚིག་མཛོད་འདི་ མངོན་གསལ་འབད་མི་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དེ་ནང་འཛོལ་བ་འདུག་:\n"
+"%s</ཆུང་ཀུ་>\n"
+"\n"
+"ཁྱོད་ཀྱིས་ད་ལྟོ་ གནད་སྡུད་གཞི་རྟེན་ཚིག་མཛོད་དེ་དང་གཅིག་ཁར་ མཉམ་འབྱུང་ཅིག་ བང་བཙོང་ནི་ཨིན་ན?\n"
+"\n"
+"<ཆུང་ཀུ་><u>ཉེན་བརྡ་:</u> ཁྱོད་ཀྱི་'ཨིན་'ཟེར་ལན་སླབ་པ་ཅིན་ འདྲི་དཔྱད་ ལ་སོགས་པ་ཚུ་ཆ་མཉམ་ བརླག་སྟོར་ཞུགས་འོང་ 'མེན་' ཟེར་སླབ་པ་ཅིན་ ཁྱོད་ལུ་འཛོལ་བ་འདི་ དཀའ་ངལ་སེལ་བཅུགཔ་ཨིན་</small>"
+
+#: ../src/workspace-window.c:1002
+msgid "Loading dictionary"
+msgstr "ཚིག་མཛོད་མངོན་གསལ་འབད་དོ་"
+
+#: ../src/workspace-window.c:1003
+msgid "The dictionary is a file where data from a previous session is stored. If this is the first session for the requested data source, then there is no dictionary."
+msgstr "ཚིག་མཛོད་འདི་ གནད་སྡུད་ཧེ་མའི་ལཱ་ཡུན་འདི་གསོག་འཇོག་འབད་ཡོད་སའི་ ཡིག་སྣོད་ཅིག་ཨིན། འ་ནི་འདི་ཞུ་བ་འབད་ཡོད་པའི་གནད་སྡུད་འབྱུང་ཁུངས་དེ་གི་དོན་ལུ་ ལཱ་ཡུན་དང་པ་འདི་ཨིན་པ་ཅིན་ དེ་ལས་དེ་ནང་ཚིག་མཛོད་མེད།"
+
+#. dialog to choose the connection
+#: ../src/workspace-window.c:1044
+msgid "Connect"
+msgstr "མཐུད་"
+
+#: ../src/ws-datatypes.c:227
+msgid "Please select a data type from the list on the left"
+msgstr "གཡོན་ཁ་ཐུག་གི་ཐོ་ཡིག་འདི་ལས་ གནད་སྡུད་དབྱེ་བ་ཅིག་སེལ་འཐུ་འབད་"
+
+#: ../src/ws-datatypes.c:236
+#: ../src/ws-dbrels.c:288
+#: ../src/ws-tables.c:309
+msgid "<b>Description:</b>"
+msgstr "<b>འགྲེལ་བཤད་:</b>"
+
+#: ../src/ws-datatypes.c:255
+msgid "<b>Synonyms:</b>"
+msgstr "<b>མིང་གི་རྣམ་གྲངས་ཚུ་:</b>"
+
+#: ../src/ws-datatypes.c:274
+msgid "<b>Select a filter option:</b>"
+msgstr "<b>ཚགས་མའི་གདམ་ཁ་ཅིག་སེལ་འཐུ་འབད་:</b>"
+
+#: ../src/ws-datatypes.c:290
+msgid "Functions returning this data type"
+msgstr "འ་ནི་གནད་སྡུད་དབྱེ་བ་སླར་ལོག་འབད་བའི་སྐབས་ ལཱ་འབདཝ་ཨིན་"
+
+#: ../src/ws-datatypes.c:298
+msgid "Functions using this data type"
+msgstr "འ་ནི་གནད་སྡུད་དབྱེ་བ་འདི་ལག་ལེན་འཐམ་ཐོག་ལཱ་འབདཝ་ཨིན་"
+
+#: ../src/ws-datatypes.c:306
+msgid "Aggregates using this data type"
+msgstr "འ་ནི་གནད་སྡུད་དབྱེ་བ་འདི་ལག་ལེན་འཐབ་ཐོག་ སྤྱི་བསྡོམས་འབདཝ་ཨིན་"
+
+#: ../src/ws-datatypes.c:314
+msgid "<b>Result of filter:</b>"
+msgstr "<b>ཚགས་མའི་དོན་ལུ་གྲུབ་འབྲས་:</b>"
+
+#: ../src/ws-datatypes.c:551
+msgid "Data types"
+msgstr "གནད་སྡུད་དབྱེ་བ་ཚུ་"
+
+#: ../src/ws-datatypes.c:570
+msgid "No data type selected"
+msgstr "གནད་སྡུད་ཀྱི་དབྱེ་བ་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../src/ws-datatypes.c:592
+msgid "Types"
+msgstr "དབྱེ་བ་ཚུ་"
+
+#: ../src/ws-dbrels.c:278
+msgid ""
+"Please select a graph from the list on the left,\n"
+"or create a new one using the 'Add' button below."
+msgstr ""
+"གཡོན་ཕྱོགས་ཀྱི་ཐོ་ཡིག་འདི་ལས་ ཚད་ཁྲམ་ཅིག་སེལ་འཐུ་འབད་གནང་\n"
+"ཡང་ན་ འོག་གི་'ཁ་སྐོང་'ཨེབ་རྟ་འདི་ལག་ལེན་འཐབ་ཐོག་ གསརཔ་གཅིག་ གསར་བསྐྲུན་འབད་གནང་།"
+
+#: ../src/ws-dbrels.c:307
+msgid "<b>Relations:</b>"
+msgstr "<b>མཐུན་འབྲེལ་ཚུ་:</b>"
+
+#: ../src/ws-dbrels.c:453
+msgid "Relations view properties"
+msgstr "མཐུན་འབྲེལ་གྱི་མཐོང་སྣང་རྒྱུ་དངོས་ཚུ་"
+
+#: ../src/ws-dbrels.c:502
+msgid "Enter the name and description for this database's relations representation."
+msgstr "འ་ནི་གནད་སྡུད་གཞི་རྟེན་གྱི་འབྲེལ་བའི་ཁྱད་ཚབ་ཀྱི་དོན་ལུ་ མིང་དང་འགྲེལ་བཤད་འདི་ཐོ་བཀོད་འབད།"
+
+#: ../src/ws-dbrels.c:534
+#, c-format
+msgid "Do you want to delete the '%s' graph?"
+msgstr "ཁྱོད་ཀྱིས་ '%s' ཚད་ཁྲམ་དེ་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/ws-dbrels.c:537
+msgid "Do you want to delete the graph <no name>?"
+msgstr "ཁྱོད་ཀྱིས་ཚད་ཁྲམ་<མིང་མེད་>འདི་བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/ws-dbrels.c:579
+msgid "Database Relations"
+msgstr "གནད་སྡུད་གཞི་རྟེན་མཐུན་འབྲེལ་ཚུ་"
+
+#: ../src/ws-dbrels.c:598
+msgid "No database relation selected"
+msgstr "གནད་སྡུད་གཞི་རྟེན་མཐུན་འབྲེལ་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../src/ws-dbrels.c:620
+msgid "Relations"
+msgstr "མཐུན་འབྲེལ་ཚུ་"
+
+#: ../src/ws-queries.c:287
+msgid ""
+"Please select a query from the list on the left,\n"
+"or create a new one using the 'Add' button below."
+msgstr ""
+"གཡོན་ཕྱོགས་ཀྱི་ཐོ་ཡིག་འདི་ལས་ འདྲི་དཔྱད་ཅིག་སེལ་འཐུ་འབད་གནང་\n"
+"ཡང་ན་ འོག་གི་'ཁ་སྐོང་' ཨེབ་རྟ་འདི་ལག་ལེན་འཐབ་ཐོག་ གསརཔ་གཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../src/ws-queries.c:328
+msgid "SQL statement"
+msgstr "ཨེསི་ཀིའུ་ཨེལ་གསལ་བཤད་"
+
+#: ../src/ws-queries.c:347
+#: ../src/ws-queries.c:386
+msgid "For information only, to edit, click on the \"Edit\" button."
+msgstr "བརྡ་དོན་རྐྱངམ་ཅིག་གི་དོན་ལུ་ ཞུན་དག་འབད་ནིའི་དོན་ལས་  \"Edit\" ཨེབ་རྟ་དེ་གུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/ws-queries.c:367
+msgid "Query parameters"
+msgstr "འདྲི་དཔྱད་ཚད་བཟུང་ཚུ་"
+
+#: ../src/ws-queries.c:460
+msgid "New Query"
+msgstr "འདྲི་དཔྱད་གསརཔ་"
+
+#: ../src/ws-queries.c:479
+#, c-format
+msgid "Edition of query '%s'"
+msgstr "འདྲི་དཔྱད་ '%s' གི་ཞུན་དག་འབད་ནི་"
+
+#: ../src/ws-queries.c:503
+#, c-format
+msgid "Do you want to delete the '%s' query?"
+msgstr "ཁྱོད་ཀྱིས་ '%s' འདྲི་དཔྱད་འདི་ བཐོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/ws-queries.c:540
+msgid "Values to be filled"
+msgstr "བཀང་ནི་གི་གནས་གོང་ཚུ་"
+
+#: ../src/ws-queries.c:541
+msgid ""
+"<big><b>Required values:</b></big>\n"
+"<small>The following values are required to execute the query.</small>"
+msgstr ""
+"<big><b>དགོ་པའི་གནས་གོང་ཚུ་:</b></big>\n"
+"<small>འོག་གི་གནས་གོང་ཚུ་ འདྲི་དཔྱད་དེ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་དགོཔ་ཨིན།</small>"
+
+#: ../src/ws-queries.c:622
+msgid "Execute the following insertion query?"
+msgstr "འགོ་གི་བཙུགས་ནིའི་འདྲི་དཔྱད་དེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: ../src/ws-queries.c:626
+msgid "Execute the following update query?"
+msgstr "འགོ་གི་དུས་མཐུན་བཟོ་ནིའི་འདྲི་དཔྱད་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: ../src/ws-queries.c:630
+msgid "Execute the following deletion query?"
+msgstr "འོག་གི་བཏོན་གཏང་ནིའི་འདྲི་དཔྱད་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན?"
+
+#: ../src/ws-queries.c:647
+#, c-format
+msgid ""
+"<b><big>%s</big></b>\n"
+"<small>The preferences require a confirmation for the following query</small>\n"
+"\n"
+"%s"
+msgstr ""
+"<b><big>%s</big></b>\n"
+"<small>དགའ་གདམ་ཚུ་ལུ་ འོག་གི་གི་འདྲི་དཔྱད་འདི་གི་དོན་ལུ་ ངེས་དཔྱད་ཅིག་དགོ་</small>\n"
+"\n"
+"%s"
+
+#: ../src/ws-queries.c:700
+#, c-format
+msgid ""
+"The following error occurred while preparing the query:\n"
+"%s"
+msgstr ""
+"འདྲི་དཔྱད་འདི་གྲ་སྒྲིག་འབད་བའི་སྐབས་ འོག་གི་འཛོལ་བ་འདི་འབྱུང་ཡོད་:\n"
+"%s"
+
+#: ../src/ws-queries.c:705
+msgid "An unknown error occurred while preparing the query."
+msgstr "འདྲི་དཔྱད་འདི་གྲ་སྒྲིག་འབད་བའི་སྐབས་ མ་ཤེས་པའི་འཛོལ་བ་ཅིག་འབྱུང་ཡོད།"
+
+#: ../src/ws-queries.c:769
+msgid "Can't execute query:"
+msgstr "འདྲི་དཔྱད་ལག་ལེན་འབ་མི་ཚུགས་:"
+
+#: ../src/ws-queries.c:798
+#, c-format
+msgid "Execution of query '%s'"
+msgstr "འདྲི་དཔྱད་ '%s' གི་ལག་ལེན་འཐབ་ནི་"
+
+#: ../src/ws-queries.c:849
+#, c-format
+msgid ""
+"<b><big>Execute the following query ?</big></b>\n"
+"<small>This query can't be parsed: it may contain some syntax or grammar which is dependant on the type of database used, or may contain some error.</small>\n"
+"\n"
+"%s"
+msgstr ""
+"<b><big>འོག་གི་འདྲི་དཔྱད་འདི་ལག་ལེན་འཐབ་ནི་ཨིན་ན?</big></b>\n"
+"<small>འ་ནི་འདྲི་དཔྱད་འདི་ མིང་དཔྱད་འབད་མི་བཏུབ་: དེ་ནང་ཚིག་སྦྱོར་དང་བརྡ་ཡིག་ གནད་སྡུད་གཞི་རྟེན་ལག་ལེན་འཐབ་ཡོད་མི་གི་དབྱེ་བ་དེ་ལུ་རྟེན་མི་ལ་ལུ་ཅིག་ཡོདཔ་འོང་ ཡང་ན་ འཛོལ་བ་ལ་ལུ་ཡོདཔ་འོང་།</small>\n"
+"\n"
+"%s"
+
+#: ../src/ws-queries.c:894
+msgid "Execution results"
+msgstr "ལག་ལེན་འཐབ་ནིའི་གྲུབ་འབྲས་"
+
+#: ../src/ws-queries.c:974
+msgid "Non reported error"
+msgstr "སྙན་ཞུ་མ་འབད་བའི་འཛོལ་བ་"
+
+#: ../src/ws-queries.c:995
+#: ../src/ws-queries.c:1036
+msgid "Queries"
+msgstr "འདྲི་དཔྱད་ཚུ་"
+
+#: ../src/ws-queries.c:1014
+msgid "No query selected"
+msgstr "འདྲི་དཔྱད་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../src/ws-tables.c:295
+msgid ""
+"Please select a table from the list on the left,\n"
+"or create a new one using the 'Add' button below."
+msgstr ""
+"གཡོན་ཕྱོགས་ཀྱི་ཐོ་ཡིག་འདི་ལས་ ཐིག་ཁྲམ་ཅིག་སེལ་འཐུ་འབད་གནང་\n"
+"ཡང་ན་ འོག་གི་'ཁ་སྐོང་'ཨེབ་འདི་ལག་ལེན་འཐབ་ཐོག་ གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../src/ws-tables.c:321
+msgid "<b>Fields:</b>"
+msgstr "<b>ས་སྒོ་ཚུ་:</b>"
+
+#: ../src/ws-tables.c:347
+msgid "<b>Constraints and integrity rules:</b>"
+msgstr "<b>བར་ཆད་ཚུ་དང་ཆིག་སྒྲིལ་ལམ་ལུགས་ཚུ་:</b>"
+
+#: ../src/ws-tables.c:386
+msgid "<b>Field's display specifications</b>"
+msgstr "<b>ས་སྒོ་འི་བཀྲམ་སྟོན་གྱི་གསལ་བཀོད་</b>"
+
+#: ../src/ws-tables.c:532
+#, c-format
+msgid ""
+"Data cannot be modified for the following reason:\n"
+"%s"
+msgstr ""
+"འོག་གི་རྒྱུ་མཚན་ཚུ་གི་དོན་ལུ་ གནད་སྡུད་དེ་ལེགས་བཅོས་འབད་མི་བཏུབ་:\n"
+"%s"
+
+#: ../src/ws-tables.c:535
+msgid "Data cannot be modified"
+msgstr "གནད་སྡུད་དེ་ ལེགས་བཅོས་འབད་མི་བཏུབ་"
+
+#: ../src/ws-tables.c:541
+msgid "Data cannot be modified because it is a view's data"
+msgstr "གནད་སྡུད་དེ་ལེགས་བཅོས་འབད་མི་བཏུབ་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་མཐོང་སྣང་གི་གནད་སྡུད་ཅིག་ཨིན་པས་"
+
+#: ../src/ws-tables.c:547
+#, c-format
+msgid "Contents of view '%s'"
+msgstr "མཐོང་སྣང་ '%s' གི་ནང་དོན་ཚུ་"
+
+#: ../src/ws-tables.c:549
+#, c-format
+msgid "Contents of table '%s'"
+msgstr "ཐིག་ཁྲམ་ '%s' གི་ནང་དོན་ཚུ་"
+
+#: ../src/ws-tables.c:652
+msgid "Primary key"
+msgstr "གཞི་རིམ་ལྡེ་མིག་"
+
+#: ../src/ws-tables.c:689
+msgid "Foreign key"
+msgstr "ཕྱི་རྒྱལ་ལྡེ་མིག་"
+
+#: ../src/ws-tables.c:729
+msgid "UNIQUE constraint"
+msgstr "མཐུན་མོང་མ་ཡིན་པའི་བར་ཆད་"
+
+#: ../src/ws-tables.c:769
+msgid "Tables and views"
+msgstr "ཐིག་ཁྲམ་ཚུ་དང་མཐོང་སྣང་ཚུ་"
+
+#: ../src/ws-tables.c:791
+msgid "No table selected"
+msgstr "ཐིག་ཁྲམ་སེལ་འཐུ་མ་འབད་བས་"
+
+#: ../src/ws-tables.c:813
+msgid "Tables"
+msgstr "ཐིག་ཁྲམ་ཚུ་"
+
+#: ../src/ws-tables.c:867
+msgid "Create a table"
+msgstr "ཐིག་ཁྲམ་ཅིག་གསར་བསྐྲུན་འབད་"
+
+#: ../src/ws-tables.c:890
+msgid "Delete a table"
+msgstr "ཐིག་ཁྲམ་ཅིག་བཏོན་གཏང་"
+
+#: ../src/ws-tables.c:958
+msgid "Rename a table"
+msgstr "ཐིག་ཁྲམ་ཅིག་བསྐྱར་མིང་བཏགས་"
+
+#: ../src/ws-tables.c:983
+msgid "Add a column to a table"
+msgstr "ཐིག་ཁྲམ་ཅིག་ལུ་་ཀེར་ཐིག་ཅིག་ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/ws-tables.c:1014
+msgid "Delete a column drom a table"
+msgstr "ཐིག་ཁྲམ་ཅིག་ལས་་ཀེར་ཐིག་ཅིག་བཏོན་གཏང་"
+

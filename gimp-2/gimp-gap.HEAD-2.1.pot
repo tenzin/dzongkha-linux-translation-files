@@ -1,0 +1,662 @@
+# translation of gimp-gap.HEAD-2.1.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Norbu <nor_den@hotmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-gap.HEAD-2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-19 02:39+0200\n"
+"PO-Revision-Date: 2006-05-10 21:40+0600\n"
+"Last-Translator: Norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: ../gap/gap_stock.c:44
+msgid "Anim Preview"
+msgstr "ཨེ་ནིམ་ སྔོན་ལྟ།"
+
+#: ../gap/gap_stock.c:45
+msgid "Delete All Points"
+msgstr "ས་ཚིགས་ཚུ་ཆ་མཉམ་བཏོན་གཏང་།"
+
+#: ../gap/gap_stock.c:46
+msgid "Delete Point"
+msgstr "ས་ཚིགས་བཏོན་གཏང་།"
+
+#: ../gap/gap_stock.c:47
+msgid "First Point"
+msgstr "ས་ཚིགས་དང་པ།"
+
+#: ../gap/gap_stock.c:48
+msgid "Grab Path"
+msgstr "འགྲུལ་ལམ་འཛིན།"
+
+#: ../gap/gap_stock.c:49
+msgid "Insert Point"
+msgstr "ས་ཚིགས་བཙུགས།"
+
+#: ../gap/gap_stock.c:50
+msgid "Last Point"
+msgstr "ས་ཚིགས་མཇུག"
+
+#: ../gap/gap_stock.c:51
+msgid "Next Point"
+msgstr "ས་ཚིགས་ཤུལ་མམ།"
+
+#: ../gap/gap_stock.c:55
+msgid "Prev Point"
+msgstr "ས་ཚིགས་ཚིག་ཧེ་མམ།"
+
+#: ../gap/gap_stock.c:56
+msgid "Reset All Points"
+msgstr "ས་ཚིགས་ཚུ་ཆ་མཉམ་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_stock.c:57
+msgid "Reset Point"
+msgstr "ས་ཚིགས་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_stock.c:58
+msgid "Rotate Follow"
+msgstr "རྗེས་སུ་འབྲང་ནི་བསྒྱིར།"
+
+#: ../gap/gap_story_dialog.c:1381
+#: ../gap/gap_story_dialog.c:1437
+#, c-format
+msgid ""
+"** ERROR: Storyboard parser reported:\n"
+"%s\n"
+msgstr ""
+"**འཛོལ་བ:གནས་ཚུལ་རྩེད་པང་གི་མིང་དཔྱདཔ་འདི་སྙན་ཞུ་འབད་ཡོད།\n"
+"%s\n"
+
+#: ../gap/gap_story_dialog.c:1861
+msgid "Load Storyboard"
+msgstr "གནས་ཚུལ་རྩེད་པང་ མངོན་གསལ་འབད།"
+
+#: ../gap/gap_story_dialog.c:1865
+msgid "Load Cliplist"
+msgstr "འཛིན་ལྕགས་ཀྱི་ཐོ་ཡིག་མངོན་གསལ་འབད།"
+
+#: ../gap/gap_story_dialog.c:1903
+msgid "Save Storyboard file"
+msgstr "གནས་ཚུལ་རྩེད་པང་གི་ཡིག་སྣོད་སྲུང་བཞག་འབད།"
+
+#: ../gap/gap_story_dialog.c:2941
+msgid "Global Layout Properties dialog already open"
+msgstr "སྤྱི་ཁྱབ་སྒྲིག་བཀོད་ཀྱི་རྒྱུ་དངོས་ཚུའི་ཌའི་ལོག་དེ་ ཧེ་མ་ལས་རང་ཁ་ཕྱེ་སྟེ་ཡོད།"
+
+#: ../gap/gap_story_dialog.c:2947
+msgid "large"
+msgstr "ཆེ་བ།"
+
+#: ../gap/gap_story_dialog.c:2948
+msgid "medium"
+msgstr "འབྲིང་མ།"
+
+#: ../gap/gap_story_dialog.c:2949
+msgid "small"
+msgstr "ཆུང་ཀུ།"
+
+#: ../gap/gap_story_dialog.c:2954
+msgid "Cliplist Layout:"
+msgstr "འཛིན་ལྕགས་ཐོ་ཡིག་གི་སྒྲིག་བཀོད:"
+
+#: ../gap/gap_story_dialog.c:2959
+#: ../gap/gap_story_dialog.c:2999
+msgid "Thumbnail Size:"
+msgstr "མཐེ་གཟེར་གྱི་ཚད:"
+
+#: ../gap/gap_story_dialog.c:2960
+msgid "Thumbnail size in the cliplist"
+msgstr "འཛིན་ལྕགས་དེ་ནང་ལུ་ མཐེ་གཟེར་གྱི་ཚད།"
+
+#: ../gap/gap_story_dialog.c:2970
+#: ../gap/gap_story_dialog.c:3010
+msgid "Columns:"
+msgstr "ཀེར་ཐིག་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:2971
+msgid "columns in the cliplist"
+msgstr "འཛིན་ལྕགས་ཀྱི་ཐོ་ཡིག་ནང་ལུ་ཀེར་ཐིག་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:2981
+#: ../gap/gap_story_dialog.c:3021
+msgid "Rows:"
+msgstr "གྲལ་ཐིག་ཚུ:"
+
+#: ../gap/gap_story_dialog.c:2982
+msgid "rows in the cliplist"
+msgstr "འཛིན་ལྕགས་དེ་ནང་ལུ་ གྲལ་ཐིག་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:2994
+msgid "Storyboard Layout:"
+msgstr "གནས་ཚུལ་རྩེད་པང་ སྒྲིག་བཀོད:"
+
+#: ../gap/gap_story_dialog.c:3000
+msgid "Thumbnail size in the storyboard list"
+msgstr "གནས་ཚུལ་རྩེད་པང་གི་ཐོ་ཡིག་ནང་ལུ་ མཐེ་གཟེར་གྱི་ཚད།"
+
+#: ../gap/gap_story_dialog.c:3011
+msgid "columns in the storyboard list"
+msgstr "གནས་ཚུལ་རྩེད་པང་གི་ཐོ་ཡིག་ནང་ལུ་ ཀེར་ཐིག་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:3022
+msgid "rows in the storyboard list"
+msgstr "གནས་ཚུལ་རྩེད་པང་གི་ཐོ་ཡིག་ནང་ལུ་ གྲལ་ཐིག་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:3034
+msgid "Use the standard built in layout settings"
+msgstr "སྒྲིག་བཀོད་ཀྱི་སྒྲིག་སྟངས་ནང་ལུ་ ཚད་ལྡན་ནང་སྦྲགས་དེ་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_story_dialog.c:3036
+msgid "Global Layout Properties"
+msgstr "སྤྱི་ཁྱབ་སྒྲིག་བཀོད་ཀྱི་རྒྱུ་དངོས་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:3136
+msgid "GIMP-GAP is compiled without videoapi support. Therfore thumbnails for videoframes can not be displayed."
+msgstr "ཇིམཔ་-ཇི་ཨེ་པི་དེ་ ཝི་ཌིའོ་ཨེ་པི་ཨའི་གི་རྒྱབ་སྐྱོར་མེད་པར་ ཕྱོགས་སྒྲིག་འབད་ཡོད། དེ་འབདཝ་ལས་ ཝི་ཌིའོ་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་ མཐེ་གཟེར་དེ་ བཀྲམ་སྟོན་མི་འབད།"
+
+#: ../gap/gap_story_dialog.c:3236
+#, c-format
+msgid ""
+"Failed to write cliplistfile\n"
+"filename: '%s':\n"
+"%s"
+msgstr ""
+"འཛིན་ལྕགས་ཐོ་ཡིག་ཡིག་སྣོད་རྩོམ་སྒྲིག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ\n"
+"ཡིག་སྣོད་མིང་: '%s':\n"
+"%s"
+
+#: ../gap/gap_story_dialog.c:3437
+#, c-format
+msgid ""
+"Failed to write storyboardfile\n"
+"filename: '%s':\n"
+"%s"
+msgstr ""
+"གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་རྩོམ་སྒྲིག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ\n"
+"ཡིག་སྣོད་མིང་: '%s':\n"
+"%s"
+
+#: ../gap/gap_story_dialog.c:3655
+msgid "Global"
+msgstr "སྤྱི་ཁྱབ།"
+
+#. the frame
+#: ../gap/gap_story_dialog.c:3657
+#: ../gap/gap_story_dialog.c:3728
+#: ../gap/gap_story_dialog.c:3803
+#: ../gap/gap_story_properties.c:1743
+msgid "Properties"
+msgstr "རྒྱུ་དངོས་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:3663
+msgid "Videothumbnails"
+msgstr "ཝི་ཌིའོ་མཐེ་གཟེར་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:3683
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#. the clp_frame
+#: ../gap/gap_story_dialog.c:3698
+#: ../gap/gap_story_dialog.c:5584
+msgid "Cliplist"
+msgstr "འཛིན་ལྕགས་ཐོ་ཡིག"
+
+#. XXXXXXXXXXX Player Frame  XXXXXXXXXXXX
+#. the player_frame
+#: ../gap/gap_story_dialog.c:3722
+#: ../gap/gap_story_dialog.c:3797
+#: ../gap/gap_story_dialog.c:5633
+msgid "Playback"
+msgstr "གླུ་གཞས་གཏང་ནི།"
+
+#: ../gap/gap_story_dialog.c:3734
+#: ../gap/gap_story_dialog.c:3809
+msgid "Create Clip"
+msgstr "འཛིན་ལྕགས་གསར་བསྐྲུན་འབད།"
+
+#: ../gap/gap_story_dialog.c:3739
+#: ../gap/gap_story_dialog.c:3814
+msgid "Toggle Unit"
+msgstr "སོར་སྟོན་ཆ་ཕྲན།"
+
+#: ../gap/gap_story_dialog.c:3745
+#: ../gap/gap_story_dialog.c:3820
+msgid "Add Audio Otone"
+msgstr "རྣར་ཉན་ ཨོ་སྐད་ཀྱི་སྙན་ཆ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../gap/gap_story_dialog.c:3751
+#: ../gap/gap_story_dialog.c:3826
+msgid "Encode"
+msgstr "ཨིན་ཀོཌི།"
+
+#: ../gap/gap_story_dialog.c:3773
+msgid "_Storyboard"
+msgstr "གནས་ཚུལ་རྩེད་པང་།(_S)"
+
+#: ../gap/gap_story_dialog.c:3868
+#, c-format
+msgid "Unsaved cliplist changes '%s'"
+msgstr "སྲུང་བཞག་མ་འབད་བའི་འཛིན་ལྕགས་ཀྱི་ཐོ་ཡིག་གིས་ '%s' བསྒྱུར་བཅོས་འབདཝ་ཨིན།"
+
+#: ../gap/gap_story_dialog.c:3880
+#, c-format
+msgid "Unsaved storyboard changes '%s'"
+msgstr "སྲུང་བཞག་མ་འབད་བའི་གནས་ཚུལ་རྩེད་པང་གི་ཐོ་ཡིག་གིས་ '%s' བསྒྱུར་བཅོས་འབདཝ་ཨིན།"
+
+#: ../gap/gap_story_dialog.c:3892
+msgid "Quit Storyboard"
+msgstr "གནས་ཚུལ་རྩེད་པང་ སྤང་།"
+
+#: ../gap/gap_story_dialog.c:3905
+#: ../gap/gap_story_dialog.c:3906
+msgid "Storyboard unsaved changes"
+msgstr "གནས་ཚུལ་རྩེད་པང་སྲུང་བཞག་མ་འབད་མི་བསྒྱུར་བཅོས་འགྱོཝ་ཨིན།"
+
+#: ../gap/gap_story_dialog.c:3958
+msgid "Storyboard:"
+msgstr "གནས་ཚུལ་རྩེད་པང་:"
+
+#: ../gap/gap_story_dialog.c:3973
+#: ../gap/gap_story_dialog.c:4002
+msgid "(modified)"
+msgstr "(ལེགས་བཅོས་གྲུབ་ཡོདཔ)"
+
+#: ../gap/gap_story_dialog.c:3979
+msgid "Cliplist:"
+msgstr "འཛིན་ལྕགས་ཐོ་ཡིག:"
+
+#: ../gap/gap_story_dialog.c:4195
+#, c-format
+msgid "Creating Index (decoder: %s)"
+msgstr "ཟུར་ཐོ་གསར་བསྐྲུན་འབད་དོ (ཌི་ཀོ་ཌར: %s)"
+
+#: ../gap/gap_story_dialog.c:4334
+#, c-format
+msgid "Videoseek (decoder: %s)"
+msgstr "ཝི་ཌིའོ་འཚོལ (ཌི་ཀོ་ཌར: %s)"
+
+#: ../gap/gap_story_dialog.c:4665
+msgid "videothumbnail cancelled"
+msgstr "ཝི་ཌིའོ་མཐེ་གཟེར་ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../gap/gap_story_dialog.c:4680
+#, c-format
+msgid "Fetching videothumbnail for clip: %d (out of %d)"
+msgstr "འཛིན་ལྕགས་ཀྱི་དོན་ལུ་ ཝི་ཌིའོ་མཐེ་གཟེར་ལེན་དོ: %d (%d ལས)"
+
+#: ../gap/gap_story_dialog.c:5270
+msgid "Load storyboard file"
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་མངོན་གསལ་འབད།"
+
+#: ../gap/gap_story_dialog.c:5276
+msgid "Load cliplist file"
+msgstr "འཛིན་ལྕགས་ཐོ་ཡིག་ཡིག་སྣོད་མངོན་གསལ་འབད།"
+
+#: ../gap/gap_story_dialog.c:5291
+msgid "Save storyboard to file"
+msgstr "གནས་ཚུལ་རྩེད་པང་དེ་ཡིག་སྣོད་ནང་ལུ་སྲུང་བཞག་འབད།"
+
+#: ../gap/gap_story_dialog.c:5300
+msgid "Save cliplist to file"
+msgstr "འཛིན་ལྕགས་དེ་ཡིག་སྣོད་ནང་ལུ་སྲུང་བཞག་འབད།"
+
+#: ../gap/gap_story_dialog.c:5316
+msgid "Cut a clip"
+msgstr "འཛིན་ལྕགས་ཅིག་བཏོག"
+
+#: ../gap/gap_story_dialog.c:5328
+msgid "Copy a clip"
+msgstr "འཛིན་ལྕགས་ཅིག་འདྲ་བཤུས་རྐྱབས།"
+
+#: ../gap/gap_story_dialog.c:5340
+msgid "Paste a clip after last (selected) element"
+msgstr "འཛིན་ལྕགས་ཅིག་མཇུག་གི་(སེལ་འཐུ་འབད་ཡོད་མི་)རྒྱུ་རྫས་ཀྱི་ཤུལ་ལས་སྦྱར།"
+
+#: ../gap/gap_story_dialog.c:5354
+msgid "Playback storyboard file. SHIFT: Play only selected clips"
+msgstr "གླུ་གཞས་གཏང་ནིའི་གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད། སོར་ལྡེ: སེལ་འཐུ་འབད་ཡོད་མི་ འཛིན་ལྕགས་ཚུ་རྐྱངམ་ཅིག་གཏང་།"
+
+#: ../gap/gap_story_dialog.c:5363
+msgid "Playback cliplist. SHIFT: Play only selected clips"
+msgstr "གླུ་གཞས་གཏང་ནིའི་འཛིན་ལྕགས་ཐོ་ཡིག སོར་ལྡེ:སེལ་འཐུ་འབད་ཡོད་པའི་འཛིན་ལྕགས་ཚུ་རྐྱངམ་ཅིག་གཏང་།"
+
+#. gtk_widget_show (entry);
+#. Row label
+#: ../gap/gap_story_dialog.c:5381
+msgid "Row:"
+msgstr "གྲལ་ཐིག:"
+
+#: ../gap/gap_story_dialog.c:5396
+msgid "Top rownumber"
+msgstr "མགོ་གི་གྲལ་ཐིག་ཨང་།"
+
+#. of label
+#: ../gap/gap_story_dialog.c:5402
+msgid "of:"
+msgstr "གི:"
+
+#. The dialog and main vbox
+#. the help_id is passed as NULL to avoid creation of the HELP button
+#. * (the Help Button would be the only button in the action area and results
+#. *  in creating an extra row
+#. *  additional note: the Storyboard dialog provides
+#. *  Help via Menu-Item
+#.
+#. the stb_frame
+#. radio button Storyboard input_mode
+#: ../gap/gap_story_dialog.c:5538
+#: ../gap/gap_story_dialog.c:5649
+#: ../vid_common/gap_cme_gui.c:2365
+msgid "Storyboard"
+msgstr "གནས་ཚུལ་རྩེད་པང་།"
+
+#: ../gap/gap_story_dialog.c:5716
+#: ../vid_common/gap_cme_gui.c:2237
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་།"
+
+#: ../gap/gap_story_dialog.c:5777
+msgid "Generate original tone audio track for all video clips in the storyboard"
+msgstr "གནས་ཚུལ་རྩེད་པང་དེ་ནང་གི་ཝི་ཌིའོ་འཛིན་ལྕགས་ཚུ་ཆ་མཉམ་གྱི་དོན་ལུ་ སྐད་ཀྱི་སྙན་ཆ་ རྣར་ཉན་གླུ་རིམ་ངོ་མ་བཟོ་བཏོན་འབད།"
+
+#: ../gap/gap_story_dialog.c:5783
+msgid "Input Audiotrack:"
+msgstr "ཨིན་པུཊི་ རྣར་ཉན་གླུ་རིམ།"
+
+#: ../gap/gap_story_dialog.c:5784
+msgid "select input audiotrack in the videofile(s).(if your input videos have multiple audiotracks values > 1 usually refer to non-default language)"
+msgstr "ཝི་ཌིའོ་ཡིག་སྣོད་(ཚུ་)ནང་ལུ་ཨིན་པུཊི་རྣར་ཉན་གླུ་རིམ་སེལ་འཐུ་འབད། (ཁྱོད་ཀྱི་ཨིན་པུཊི་ཝི་ཌིའོ་ཚུ་ལུ་ སྣ་མང་རྣར་ཉན་གླུ་རིམ་གྱི་གནས་གོང་ > ༡ ཡོདཔ་ཨིན་པ་ཅིན་ དེ་སྤྱིར་བཏང་ལུ་ སྔོན་སྒྲིག་མིན་པའི་སྐད་ཡིག་ལུ་འབྲེལ་བསྟུན་འབདཝ་ཨིན།)"
+
+#: ../gap/gap_story_dialog.c:5797
+msgid "Output Audiotrack:"
+msgstr "ཨཔུཊི་པུཊི་ རྣར་ཉན་གླུ་རིམ:"
+
+#: ../gap/gap_story_dialog.c:5798
+msgid "output audiotrack to be generated in the storyboard file. The generated storyboard audiotrack will be a list of references to the audioparts in the input videos, corresponding to all used video clip references."
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་ནང་ལུ་བཟོ་བཏོན་འབད་ནི་ཨིན་མི་ ཨའུཊི་པུཊི་རྣར་ཉན་གླུ་རིམ། བཟོ་བཏོན་འབད་ཡོད་མི་གནས་ཚུལ་རྩེད་པང་ རྣར་ཉན་གླུ་རིམ་དེ་ ལག་ལེན་འཐབ་ཡོད་པའི་ཝི་ཌིའོ་འཛིན་ལྕགས་ཀྱི་གཞི་བསྟུན་ཆ་མཉམ་ལུ་ཆ་མཉམ་པ་འབད་ ཨིན་པུཊི་ཝི་ཌིའོ་ཚུ་ནང་གི་རྣར་ཉན་ཡན་ལག་ཚུའི་གཞི་བསྟུན་གྱི་ཐོ་ཡིག་ཅིག་འབད་འོང་།"
+
+#: ../gap/gap_story_dialog.c:5810
+msgid "Replace Audiotrack:"
+msgstr "རྣར་ཉན་གླུ་རིམ་ཚབ་བཙུགས:"
+
+#: ../gap/gap_story_dialog.c:5811
+msgid "ON: Allow replacing of already existing audio clip references  in the storyboard"
+msgstr "ཨཱོན: གནས་ཚུལ་རྩེད་པང་ནང་གི་ ཧེ་མ་ལས་ཡོད་པའི་རྣར་ཉན་འཛིན་ལྕགས་ཀྱི་གཞི་བསྟུན་ཚུའི་ ཚབ་བཙུགས་ནི་དེ་འབད་བཅུག"
+
+#: ../gap/gap_story_dialog.c:5821
+msgid "Reset parameters to default values"
+msgstr "ཚད་བཟུང་འདི་སྔོན་སྒྲིག་གནས་གོང་ཚུ་ལུ་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_story_dialog.c:5829
+msgid "Generate Original Tone Audio"
+msgstr "སྐད་ཀྱི་སྙན་ཆ་རྣར་ཉན་ངོ་མ་ བཟོ་བཏོན་འབད།"
+
+#: ../gap/gap_story_dialog.c:5856
+#, c-format
+msgid ""
+"Original tone track was not created.\n"
+"The storyboard %s\n"
+"has already audio clip references at track %d.\n"
+"Use another track number or allow replace at next try."
+msgstr ""
+"སྐད་ཀྱི་སྙན་ཆའི་གླུ་རིམ་ངོ་མ་འདི་གསར་བསྐྲུན་མ་འབད་བས།\n"
+"གནས་ཚུལ་རྩེད་པང་ %s\n"
+"འདི་ལུ་ཧེ་མ་ལས་རང་ རྣར་ཉན་འཛིན་ལྕགས་ཀྱི་གཞི་བསྟུན་ཚུ་ གླུ་རིམ་%d ལུ་ཡོད།\n"
+"གླུ་རིམ་གྱི་ཨང་གྲངས་གཞན་མི་ཅིག་ལག་ལེན་འཐབ་ཡང་ན་ ཤུལ་མམ་གི་འབད་རྩོལ་ནང་ལུ་ཚབ་བཙུགས་ནི་འབད་བཅུག"
+
+#: ../gap/gap_story_dialog.c:5882
+msgid "automatic"
+msgstr "རང་བཞིན།"
+
+#: ../gap/gap_story_dialog.c:5919
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../gap/gap_story_dialog.c:5923
+msgid "Name of the Storyboardfile"
+msgstr "གནས་ཚུལ་རྩེད་པང་ཡིག་སྣོད་དེ་གི་མིང་།"
+
+#: ../gap/gap_story_dialog.c:5929
+msgid "Name of the Cliplistfile"
+msgstr "འཛིན་ལྕགས་ཐོ་ཡིག་ ཡིག་སྣོད་དེ་གི་མིང་།"
+
+#: ../gap/gap_story_dialog.c:5939
+#: ../gap/gap_story_dialog.c:5943
+#, c-format
+msgid "Name: %s"
+msgstr "མིང་: %s"
+
+#: ../gap/gap_story_dialog.c:5952
+msgid "Master width of the resulting video in pixels"
+msgstr "པིག་སེལསི་ནང་ལུ་ གྲུབ་འབྲལ་བྱུང་མི་ ཝི་ཌིའོ་དེ་གི་རྒྱ་ཚད་ཨམ།"
+
+#: ../gap/gap_story_dialog.c:5963
+msgid "Master height of the resulting video in pixels)"
+msgstr "པིག་སེལསི་ནང་ལུ་ གྲུབ་འབྲལ་བྱུང་མི་ ཝི་ཌིའོ་དེ་གི་མཐོ་ཚད་ཨམ)"
+
+#: ../gap/gap_story_dialog.c:5975
+msgid "Framerate in frames/sec."
+msgstr "གཞི་ཁྲམ་གོང་ཚད་དེ་ གཞི་ཁྲམ་ཚུ་/སྐར་ཆ་ ནང་།"
+
+#. the (preferred) Decoder label
+#: ../gap/gap_story_dialog.c:6015
+#: ../gap/gap_vex_dialog.c:2139
+msgid "Decoder:"
+msgstr "ཌི་ཀོ་ཌར:"
+
+#: ../gap/gap_story_dialog.c:6016
+msgid "Select preferred video decoder library, or leave empty for automatic selection.The decoder setting is only relevant if videoclips are used (but not for frames that are imagefiles)"
+msgstr "དགའ་མི་ཝི་ཌིའོ་ཌིཀོ་ཌར་དཔེ་མཛོད་ སེལ་འཐུ་འབད་ ཡང་ན་ རང་བཞིན་གྱི་སེལ་འཐུ་དོན་ལུ་སྟོངམ་བཞག ཌི་ཀོ་ཌར་གྱི་སྒྲིག་སྟངས་དེ་ ཝི་ཌིའོ་འཛིན་ལྕགས་ཚུ་ལག་ལེན་འཐབ་ཡོདཔ་ཨིན་པ་ཅིན་(དེ་འབདཝ་ད་ གཟུགས་བརྙན་ཡིག་སྣོད་ུའི་གཟི་ཁྲམ་གྱི་དོན་ལུ་མེན) རྐྱངམ་ཅིག་ འབྲེལ་བ་ཡོདཔ་ཨིན།"
+
+#: ../gap/gap_story_dialog.c:6034
+msgid "Master audio samplerate for the resulting video in samples/sec."
+msgstr "དཔེ་ཚད་ཚུ་/སྐར་ཆ་ ནང་གི་གྲུབ་འབྲས་བྱུང་མི་ཝི་ཌིའོ་དེའི་དོན་ལུ་ རྣར་ཉན་དཔེ་ཚད་གོང་ཚད་ཨམ།"
+
+#: ../gap/gap_story_dialog.c:6050
+msgid "Master audio volume, where 1.0 keeps original volume"
+msgstr "རྣར་ཉན་སྐད་ཤུགས་ཨམ་ ༡.༠ གིས་སྐད་ཤུགས་ངོ་མ་བཞག་ས།"
+
+#. should use GIMP_STOCK_RESET if possible
+#: ../gap/gap_story_dialog.c:6066
+msgid "Reset parameters to inital values"
+msgstr "ཚད་བཟུང་ཚུ་ འགོ་ཐོག་གི་གནས་གོང་ལུ་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_story_dialog.c:6077
+msgid "Master Properties"
+msgstr "རྒྱུ་དངོས་ཨམ་ཚུ།"
+
+#: ../gap/gap_story_dialog.c:6467
+msgid "STORY_new.txt"
+msgstr "གནས་ཚུལ་ གསརཔ.txt (_n)"
+
+#: ../gap/gap_story_file.c:366
+#: ../gap/gap_story_file.c:400
+msgid "internal error"
+msgstr "ནང་འཁོད་ཀྱི་འཛོལ་བ།"
+
+#: ../gap/gap_story_file.c:1276
+#, c-format
+msgid "illegal number: %s (valid range is %d upto %d)\n"
+msgstr "ཁྲིམས་འགལ་གྱི་ཨང་གྲངས: %s (ནུས་ཅན་གྱི་ཁྱབ་ཚད་འདི་ %d ལས་ %d ལུ་ཨིན)\n"
+
+#: ../gap/gap_story_file.c:1315
+#, c-format
+msgid "illegal number: %s (valid range is %.3f upto %.3f)"
+msgstr "ཁྲིམས་འགལ་གྱི་ཨང་གྲངས: %s (ནུས་ཅན་གྱི་ཁྱབ་ཚད་འདི་ %.3f ལས་ %.3f ལུ་ཨིན)"
+
+#: ../gap/gap_story_file.c:1418
+msgid "same parameter used more than once"
+msgstr "ཚད་བཟུང་གཅིག་པ་དེ་ ཚར་གཅིག་ལས་ལྷག་སྟེ་ ལག་ལེན་འཐབ་ཡོདཔ།"
+
+#: ../gap/gap_story_file.c:1430
+msgid "conflict: positional parameter shadows named parameter"
+msgstr "མི་མཐུན་པ: གནས་ས་ཅན་གྱི་ཚད་བཟུང་གིས་ མིང་བཏགས་བཏགས་པའི་ཚད་བཟུང་ གྱིབ་མ་བཟོཝ་ཨིན།"
+
+#: ../gap/gap_story_file.c:1478
+#, c-format
+msgid ""
+"Header not found!\n"
+"(line 1 must start with:  %s or %s"
+msgstr ""
+"མགོ་ཡིག་མ་ཐོབ!\n"
+"(གྲལ་ཐིག་ ༡ དེ་ :  %s or %s དང་ཅིག་ཁར་འགོ་བཙུགས་དགོ"
+
+#: ../gap/gap_story_file.c:1701
+#, c-format
+msgid "illegal keyword: %s (expected keywords are: width, height, both, none"
+msgstr "ཁྲིམས་འགལ་གྱི་གཙོ་ཚིག: %s (རེ་བ་བསྐྱེད་མི་གཙོ་ཚིག་ཚུ: རྒྱ་ཚད་ མཐོ་ཚད་ གཉིས་ཆ་རང་ ཅི་མེད"
+
+#: ../gap/gap_story_file.c:1728
+#, c-format
+msgid "illegal keyword: %s (expected keywords are: keep_proportions, change_proportions"
+msgstr "ཁྲིམས་འགལ་གྱི་གཙོ་ཚིག: %s (རེ་བ་བསྐྱེད་མི་གཙོ་ཚིག་ཚུ: སྙོམས་ཚད་ཚུ་བཞག སྙོམས་ཚད་ཚུ་བསྒྱུར་བཅོས་འབད།(_p)(_p)"
+
+#. unsupported lines raise an error for files without correct Header
+#.
+#. accept unsupported lines (with just a warning)
+#. * because the file has correct Header
+#.
+#: ../gap/gap_story_file.c:2188
+#: ../gap/gap_story_file.c:2195
+msgid "Unsupported line was ignored"
+msgstr "རྒྱབ་སྐྱོར་མ་འབད་བའི་གྲལ་ཐིག་དེ་སྣང་མེད་བཞག་ཡོདཔ།"
+
+#: ../gap/gap_story_file.c:2366
+#, c-format
+msgid "the passed filename %s has irrelevant content or could not be opened by the parser"
+msgstr "རྩིས་སྤྲོད་འབད་ཡོད་པའི་ཡིག་སྣོད་མིང་ %s དེ་ལུ་ འབྲེལ་བ་མེད་པའི་ནང་དོན་འདུག་ ཡང་ན་ མིང་དཔྱདཔ་གིས་ཁ་ཕྱེ་མི་ཚུགས།"
+
+#: ../gap/gap_story_main.c:164
+msgid "<Image>/Video/Storyboard..."
+msgstr "<གཟུགས་བརྙན་>/ཝིཌིའོ་/གནས་ཚུལ་རྩེད་པང་..."
+
+#: ../gap/gap_story_properties.c:430
+msgid "Automatic scene detection operates only on cliptypes MOVIE and FRAMES"
+msgstr "རང་བཞིན་གྱི་འཆར་སྣང་སྐྱོན་འཛིན་ནི་གིས་ འཛིན་ལྕགས་དབྱེ་བ་ གློག་བརྙན་ དང་གཞི་ཁྲམ་ཚུ་ལུ་རྐྱངམ་ཅིག་བཀོལ་སྤྱོད་འབདཝ་ཨིན།"
+
+#: ../gap/gap_story_properties.c:437
+msgid "Scene detection depends on video thumbnails. Please enable videothumbnails (in the Windows Menu)"
+msgstr "འཆར་སྣང་སྐྱཅན་འཛིན་འབད་ནི་དེ་ ཝི་ཌིའོ་མཐེ་གཟེར་ཚུ་ལུ་རྟེནམ་ཨིན། ཝི་ཌིའོ་མཐེ་གཟེར་ཚུ་(ཝིན་ཌོསི་དཀར་ཆག་ནང་ལུ་)ལྕོགས་ཅན་བཟོ་གནང་།"
+
+#: ../gap/gap_story_properties.c:497
+#: ../gap/gap_story_properties.c:561
+msgid "Scene detection for cliptype FRAMES depends on thumbnails. Please create thumbnails for your frames and then try again."
+msgstr "འཛིན་ལྕགས་དབྱེ་བ་ གཞི་ཁྲམ་ཚུའི་དོན་ལུ་ འཆར་སྣང་སྐྱོན་འཛིན་འབད་ནི་དེ་ མཐེ་གཟེར་ཚུ་ལུ་རྟེནམ་ཨིན། ཁྱོད་རའི་གཞི་ཁྲམ་ཚུའི་དོན་ལུ་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་ཞིནམ་ལས་ ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../gap/gap_story_properties.c:1235
+msgid "Set Image or Frame Filename"
+msgstr "གཟུགས་བརྙན་ཡང་ན་གཞི་ཁྲམ་ ཡིག་སྣོད་མིང་ གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_story_properties.c:1365
+msgid "EMPTY"
+msgstr "སྟོངམ།"
+
+#: ../gap/gap_story_properties.c:1368
+msgid "COLOR"
+msgstr "ཚོས་གཞི།"
+
+#: ../gap/gap_story_properties.c:1371
+msgid "SINGLE-IMAGE"
+msgstr "གཟུགས་བརྙན་-རྐྱང་པ།"
+
+#: ../gap/gap_story_properties.c:1375
+msgid "ANIM-IMAGE"
+msgstr "ཨེ་ནིམ་-གཟུགས་བརྙན།"
+
+#: ../gap/gap_story_properties.c:1379
+msgid "FRAME-IMAGES"
+msgstr "གཞི་ཁྲམ་-གཟུགས་བརྙན་ཚུ།"
+
+#: ../gap/gap_story_properties.c:1384
+msgid "MOVIE"
+msgstr "གློག་བརྙན།"
+
+#: ../gap/gap_story_properties.c:1387
+msgid "COMMENT"
+msgstr "བསམ་བཀོད།"
+
+#: ../gap/gap_story_properties.c:1390
+msgid "** UNKNOWN **"
+msgstr "** མ་ཤེསཔ **"
+
+#: ../gap/gap_story_properties.c:1439
+#, c-format
+msgid "%d (frames)"
+msgstr "%d (གཞི་ཁྲམ་ཚུ)"
+
+#: ../gap/gap_story_properties.c:1709
+#: ../gap/gap_story_properties.c:1721
+msgid "Clip Properties"
+msgstr "འཛིན་ལྕགས་ཀྱི་རྒྱུ་དངོས་ཚུ།"
+
+#: ../gap/gap_story_properties.c:1714
+#: ../gap/gap_story_properties.c:1725
+msgid "Find Scene End"
+msgstr "འཆར་སྣང་གི་མཇུག་འཚོལ།"
+
+#: ../gap/gap_story_properties.c:1715
+#: ../gap/gap_story_properties.c:1726
+msgid "Auto Scene Split"
+msgstr "རང་བཞིན་ འཆར་སྣང་གཤག"
+
+#. the cliptype label
+#: ../gap/gap_story_properties.c:1758
+msgid "Clip Type:"
+msgstr "འཛིན་ལྕགས་དབྱེ་བ:"
+
+#. the filename label
+#: ../gap/gap_story_properties.c:1773
+msgid "File:"
+msgstr "ཡིག་སྣོད:"
+
+#: ../gap/gap_story_properties.c:1808
+msgid "From:"
+msgstr "ལས:"
+
+#. lower/upper
+#. step, page
+#. digits
+#. constrain
+#. lower/upper unconstrained
+#: ../gap/gap_story_properties.c:1815
+msgid "framenumber of the first frame in the clip range"
+msgstr "འཛིན་ལྕགས་ཁྱབ་ཚད་ནང་གི་ གཞི་ཁྲམ་དང་པའི་གཞི་ཁྲམ་ཨང་།"
+
+#: ../gap/gap_story_properties.c:1837
+msgid "To:"
+msgstr "ལུ:"
+
+#. lower/upper
+#. step, page
+#. digits
+#. constrain
+#. lower/upper unconstrained
+#: ../gap/gap_story_properties.c:1844
+msgid "framenumber of the last frame in the clip range"
+msgstr "འཛིན་ལྕགས་ཁྱབ་ཚད་ནང་གི་ གཞི་ཁྲམ་མཇུག་གི་གཞི་ཁྲམ་ཨང་།"
+
+#: ../gap/gap_story_properties.c:1856
+msgid "Loops:"
+msgstr "འཕྲལ་བཀོལ་ཚུ:"
+
+#. lower/upper
+#. step, page
+#. digits
+#. constrain
+#. lower/upper unconstrained
+#: ../gap/gap_story_properties.c:1863
+msgid "number of loops (how often to play the framerange)"
+msgstr "འཕྲལ་བཀོལ་ཚུའི་གྲངས (གཞི་ཁྲམ་ཁྱབ་ཚད་དེ་འཕྲལ་འཕྲལ་ག་དེ་སྦེ་གཏང་ནི་ཨིན་ན)"
+

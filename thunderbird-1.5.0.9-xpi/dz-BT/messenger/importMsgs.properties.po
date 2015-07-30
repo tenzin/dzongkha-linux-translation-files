@@ -1,0 +1,556 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 2001
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/messenger/importMsgs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: importMsgs.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-11 15:53+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyelg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#
+# The following are used by the import code to display status/error
+# and informational messages
+#
+# Success message when no address books are found to import
+## @name IMPORT_NO_ADDRBOOKS
+## @loc None
+#: 2000
+msgid "No address books were found to import."
+msgstr "ནང་འདྲེན་འབད་ནིའི་ ཁ་བྱང་ཀི་དེབ་གཅིག་ཡང་མ་ཐོབ།"
+
+# Error: Address book import not intialized\t\t
+## @name IMPORT_ERROR_AB_NOTINITIALIZED
+## @loc None
+#: 2001
+msgid "Unable to import address books: initialization error."
+msgstr "ཁ་བྱང་ཀི་དེབ་ནང་འདྲེན་འབད་མ་ཚུགས་: འགོ་འབྱེད་ཀྱི་འཛོལ་བ།"
+
+# Error: Unable to create the import thread
+## @name IMPORT_ERROR_AB_NOTHREAD
+## @loc None
+#: 2002
+msgid "Unable to import address books: cannot create import thread."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཚུ་ ནང་འདྲེན་འབད་མ་ཚུགས་: ནང་འདྲེན་ཐེརེཌི་ གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+# Error: Unable to create the import thread
+## @name IMPORT_ERROR_GETABOOK
+## @loc None
+# LOCALIZATION NOTE (Error 2003): Do not translate the word "%S" below.
+#: 2003
+msgid "Error importing %S: unable to create address book."
+msgstr "%Sནང་འདྲེན་འབད་ནི་ལུ་འཛོལ་བ་: ཁ་བྱང་ཀི་དེབ་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+# Success message when no mailboxes are found to import
+## @name IMPORT_NO_MAILBOXES
+## @loc None
+#: 2004
+msgid "No mailboxes were found to import"
+msgstr "ནང་འདྲེན་འབད་ནིའི་ཡིག་སྒྲོམ་ཚུ་ཐོབ་མ་ཚུགས།"
+
+# Error: Mailbox import not intialized\t\t
+## @name IMPORT_ERROR_MB_NOTINITIALIZED
+## @loc None
+#: 2005
+msgid "Unable to import mailboxes, initialization error"
+msgstr "ཡིག་སྒྲོམ་ཚུ་ནང་འདྲེན་འབད་མ་ཚུགས། འགོ་འབྱེད་ཀྱི་འཛོལ་བ།"
+
+# Error: Unable to create the import thread
+## @name IMPORT_ERROR_MB_NOTHREAD
+## @loc None
+#: 2006
+msgid "Unable to import mailboxes, cannot create import thread"
+msgstr "ཡིག་སྒྲོམ་ཚུ་ ནང་འདྲེན་འབད་མ་ཚུགས། ནང་འདྲེན་ཐིརེཌི་ གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+# Error: Unable to create the proxy object for importing mailboxes
+## @name IMPORT_ERROR_MB_NOPROXY
+## @loc None
+#: 2007
+msgid "Unable to import mailboxes, cannot create proxy object for destination mailboxes"
+msgstr "ཡིག་སྒྲོམ་ཚུ་ ནང་འདྲེན་འབད་མ་ཚུགས། འགྲོ་ཡུལ་གྱི་ཡིག་སྒྲོམ་ཚུ་གི་དོན་ལུ་ པོ་རོག་སི་དངོས་པོ་ གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+# Error: Error creating destination mailboxes
+## @name IMPORT_ERROR_MB_FINDCHILD
+## @loc None
+# LOCALIZATION NOTE (Error 2008): Do not translate the word "%S" below.
+# Place %S in your translation where the name of the mailbox should appear.
+#: 2008
+msgid "Error creating destination mailboxes, cannot find mailbox %S"
+msgstr "འགྲོ་ཡུལ་གྱི་ཡིག་སྒྲོམ་ཚུ་ གསར་བསྐྲུན་འབད་ནི་ལུ་འཛོལ་བ། ཡིག་སྒྲོམ་%Sའཚོལ་མི་འཐོབ་པས།"
+
+# Error: Error creating destination mailboxes
+## @name IMPORT_ERROR_MB_CREATE
+## @loc None
+# LOCALIZATION NOTE (Error 2009): Do not translate the word "%S" below.
+# Place %S in your translation where the name of the mailbox should appear.
+#: 2009
+msgid "Error importing mailbox %S, unable to create destination mailbox"
+msgstr "ཡིག་སྒྲོམ་%Sནང་འདྲེན་འབད་ནི་ལུ་འཛོལ་བ་། འགྲོ་ཡུལ་གྱི་ཡིག་སྒྲོམ་ གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+# Error: No destination folder to import mailboxes
+## @name IMPORT_ERROR_MB_NODESTFOLDER
+## @loc None
+#: 2010
+msgid "Unable to create folder to import mail into"
+msgstr "ཡིག་འཕྲིན་ནང་འདྲེན་འབད་ནི་ལུ་ སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC_START
+## @loc None
+#: 2100
+msgid "First Name"
+msgstr "མགོ་མིང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2101
+msgid "Last Name"
+msgstr "མཇུག་མིང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2102
+msgid "Display Name"
+msgstr "མིང་བཀྲམ་སྟོན་འབད་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2103
+msgid "Nickname"
+msgstr "སྐྱོན་མིང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2104
+msgid "Primary Email"
+msgstr "གཞི་རིམ་གློག་འཕྲིན་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2105
+msgid "Secondary Email"
+msgstr "གནད་ཆུང་གློག་རིམ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2106
+msgid "Work Phone"
+msgstr "ལཱ་སའི་བརྒྱུད་འཕྲིན་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2107
+msgid "Home Phone"
+msgstr "ཁྱིམ་གྱི་བརྒྱུད་འཕྲིན་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2108
+msgid "Fax Number"
+msgstr "དཔར་འཕྲིན་ཨང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2109
+msgid "Pager Number"
+msgstr "བརྡ་འཕྲུལ་ཨང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2110
+msgid "Mobile Number"
+msgstr "འགྲུལ་འཕྲིན་ཨང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2111
+msgid "Home Address"
+msgstr "ཁྱིམ་གྱི་ཁ་བྱང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2112
+msgid "Home Address 2"
+msgstr "ཁྱིམ་གྱི་ཁ་བྱང་༢པ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2113
+msgid "Home City"
+msgstr "ཁྱིམ་གྱི་གྲོང་སྡེ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2114
+msgid "Home State"
+msgstr "ཁྱིམ་གྱི་མངའ་སྡེ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2115
+msgid "Home ZipCode"
+msgstr "ཁྱིམ་གྱི་གནས་ཨང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2116
+msgid "Home Country"
+msgstr "ཁྱིམ་གྱི་རྒྱལ་ཁབ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2117
+msgid "Work Address"
+msgstr "ལཱ་སའི་ཁ་བྱང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2118
+msgid "Work Address 2"
+msgstr "ལཱ་སའི་ཁ་བྱང་༢པ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2119
+msgid "Work City"
+msgstr "ལཱ་སའི་གྲོང་སྡེ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2120
+msgid "Work State"
+msgstr "ལཱ་སའི་མངའ་སྡེ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2121
+msgid "Work ZipCode"
+msgstr "ལཱ་སའི་གནས་ཨང་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2122
+msgid "Work Country"
+msgstr "ལཱ་སའི་རྒྱལ་ཁབ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2123
+msgid "Job Title"
+msgstr "ལཱ་འགན་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2124
+msgid "Department"
+msgstr "ལས་ཁུངས་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2125
+msgid "Organization"
+msgstr "ལས་སྡེ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2126
+msgid "Web Page 1"
+msgstr "ཝེབ་ཤོག་ལེབ་ ༡་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2127
+msgid "Web Page 2"
+msgstr "ཝེབ་ཤོག་ལེབ་ ༢་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2128
+msgid "Birth Year"
+msgstr "སྐྱེ་བའི་སྤྱི་ལོ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2129
+msgid "Birth Month"
+msgstr "སྐྱེ་བའི་ཟླཝ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2130
+msgid "Birth Day"
+msgstr "སྐྱེ་བའི་ཚེ་གྲངས་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2131
+msgid "Custom 1"
+msgstr "སྲོལ་སྒྲིག་༡པ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2132
+msgid "Custom 2"
+msgstr "སྲོལ་སྒྲིག་༢པ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2133
+msgid "Custom 3"
+msgstr "སྲོལ་སྒྲིག་༣པ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC
+## @loc None
+#: 2134
+msgid "Custom 4"
+msgstr "སྲོལ་སྒྲིག་༣པ་"
+
+# Description: Address book field name
+## @name IMPORT_FIELD_DESC_END
+## @loc None
+#: 2135
+msgid "Notes"
+msgstr "དྲན་འཛིན་"
+
+# Description: Strings for the import dialog
+#: ImportMailDialogTitle
+msgid "Import Mail"
+msgstr "ཡིག་འཕྲིན་ནང་འདྲེན་འབད་"
+
+#: ImportAddressBooksDialogTitle
+msgid "Import Address Books"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཚུ་ནང་འདྲེན་འབད་"
+
+#: ImportSettingsDialogTitle
+msgid "Import Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་ནང་འདྲེན་འབད་"
+
+#: ImportMailListLabel
+msgid "Select application to import mail from:"
+msgstr "ཡིག་འཕྲིན་ནང་འདྲེན་འབད་སའི་ གློག་རིམ་སེལ་འཐུ་འབད་:"
+
+#: ImportAddressBooksListLabel
+msgid "Select address book format:"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་རྩ་སྒྲིག་སེལ་འཐུ་འབད་"
+
+#: ImportSettingsListLabel
+msgid "Select application to import settings from:"
+msgstr "སྒྲིག་སྟངས་ནང་འདྲེན་འབད་སའི་གློག་རིམ་སེལ་འཐུ་འབད་:"
+
+#Error strings
+#: ImportAlreadyInProgress
+msgid "An import operation is currently in progress. Try again when the current import has finished."
+msgstr "ད་ལྟོ་ནང་འདྲེན་གྱི་བཀོལ་སྤྱོད་ཅིག་ ཡར་འཕེལ་འགྱོ་བའི་བསྒང་འདུག། ད་ལྟོ་གི་ནང་འདྲེན་དེ་ མཇུག་བསྡུ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#Error strings for settings import
+#: ImportSettingsBadModule
+msgid "Unable to load settings module"
+msgstr "སྒྲིག་སྟངས་ཀྱི་ཚད་གཞི་ མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ImportSettingsNotFound
+msgid "Unable to find settings.  Check to make sure the application is installed on this machine."
+msgstr "སྒྲིག་སྟངས་འཚོལ་མ་ཐོབ། གློག་འཕྲུལ་འདི་གུ་ གློག་རིམ་དེ་གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་གཏན་བཟོ།"
+
+#: ImportSettingsFailed
+msgid "An error occurred while importing settings.  Some, or all, of the settings may not have been imported."
+msgstr "སྒྲིག་སྟངས་ནང་འདྲེན་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ཡི། སྒྲིག་སྟངས་ལ་ལོ་ཅིག་ ཡང་ན་ ཆ་མཉམ་ར་ ནང་འདྲེན་མ་འབདཝ་འོང་ནི་མས།"
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: ImportSettingsSuccess
+msgid "Settings were imported from %S"
+msgstr "སྒྲིག་སྟངས་ཚུ་%Sནང་ལས་ ནང་འདྲེན་འབད་ཡི།"
+
+#Error string for mail import
+#: ImportMailBadModule
+msgid "Unable to load mail import module"
+msgstr "ཡིག་འཕྲིན་ནང་འདྲེན་གྱི་ཚད་གཞི་ མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ImportMailNotFound
+msgid "Unable to find mail to import.  Check to make sure the mail application is correctly installed on this machine."
+msgstr "ནང་འདྲེན་འབད་ནིའི་ཡིག་འཕྲིན་ འཚོལ་མ་ཐོབ། "
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: ImportMailFailed
+msgid "An error occurred importing mail from %S"
+msgstr " %Sནང་ལས་ ཡིག་འཕྲིན་ནང་འདྲེན་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ཡི།"
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: ImportMailSuccess
+msgid "Mail was successfully imported from %S"
+msgstr "%Sནང་ལས་ ཡིག་འཕྲིན་མཐར་འཁྱོལ་སྦེ་ ནང་འདྲེན་འབད་ཡི།"
+
+# Error string for address import
+#: ImportAddressBadModule
+msgid "Unable to load address book import module."
+msgstr "ཁ་བྱང་ཀི་དེབ་ནང་འདྲེན་འབད་ནིའི་ཚད་གཞི་ མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ImportAddressNotFound
+msgid "Unable to find any address books to import.  Check to make sure the selected application or format is correctly installed on this machine."
+msgstr "ནང་འདྲེན་འབད་ནིའི་ ཁ་བྱང་ཀི་དེབ་གཅིག་ཡང་ འཚོལ་མ་ཐོབ། སེལ་འཐུ་འབད་མི་གློག་རིམ་ ཡང་ན་ རྩ་སྒྲིག་དེ་ གློག་འཕྲུལ་འདི་གུ་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་མ་འབད་ ཞིབ་དཔྱད་རྐྱབས།"
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: ImportAddressFailed
+msgid "An error occurred importing addresses from %S."
+msgstr "%Sནང་ལས་ ཁ་བྱང་ཚུ་ནང་འདྲེན་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ཡི།"
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: ImportAddressSuccess
+msgid "Addresses successfully imported from %S."
+msgstr "%Sནང་ལས་ ཁ་བྱང་ཚུ་མཐར་འཁྱོལ་སྦེ་ ནང་འདྲེན་འབད་ཡི།"
+
+#Progress strings
+#: MailProgressTitle
+msgid "Importing Mail"
+msgstr "ཡིག་འཕྲིན་དང་འདྲེན་འབད་དོ་"
+
+#: AddrProgressTitle
+msgid "Importing Address Books"
+msgstr "ཁ་བྱང་ཀི་དེབ་ནང་འདྲེན་འབད་དོ་"
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: MailProgressMeterText
+msgid "Converting mailboxes from %S"
+msgstr "%Sནང་ལས་ ཡིག་སྒྲོམ་ཚུ་ གཞི་བསྒྱུར་འབད་དོ་"
+
+# LOCALIZATION NOTE : Do not translate the word "%S" below.
+#: AddrProgressMeterText
+msgid "Converting address books from %S"
+msgstr "%Sནང་ལས་ ཁ་བྱང་ཀི་དེབ་ཚུ་ གཞི་བསྒྱུར་འབད་དོ་"
+
+#Import file dialog strings
+#: ImportSelectSettings
+msgid "Select settings file"
+msgstr "སྒྲིག་སྟངས་ཡིག་སྣོད་ སེལ་འཐུ་འབད་"
+
+#: ImportSelectMailDir
+msgid "Select mail directory"
+msgstr "ཡིག་འཕྲིན་གྱི་སྣོད་ཐོ་ སེལ་འཐུ་འབད་"
+
+#: ImportSelectAddrDir
+msgid "Select address book directory"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་སྣོད་ཐོ་ སེལལ་འཐུ་འབད་"
+
+#: ImportSelectAddrFile
+msgid "Select address book file"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཡིག་སྣོད་ སེལ་འཐུ་འབད་"
+
+# LOCALIZATION NOTE : "Communicator 4.x" is the used for previous versions of Netscape Communicator
+# Please translate using the brandname in respective languages for Netscape Communicator 4 releases.
+# LOCALIZATION NOTE : Please do not translate "*.na2", this represents the extension of the address book
+# files from the Netscape Communicator 4 releases.
+# Comm4.xTo6.xImport user selection string
+#: Comm4xImportName
+msgid "Communicator 4.x"
+msgstr "ཀ་མུས་ནི་ཀེ་ཊར་4.x"
+
+#: Comm4xFiles
+msgid "Communicator Address Book files (*.na2)"
+msgstr "ཀ་མུས་ནི་ཀེ་ཊར་ ཁ་བྱང་ཀི་དེབ་ཡིག་སྣོད་ཚུ་ (*.na2)"
+
+#: HomeButtonDesc
+msgid "Home"
+msgstr "ཁྱིམ་གྱི་"
+
+#: WorkButtonDesc
+msgid "Work"
+msgstr "ལཱ་སའི་"
+
+# Folder Names for imported Mail
+#: DefaultFolderName
+msgid "Imported Mail"
+msgstr "ནང་འདྲེན་འབད་མི་ཡིག་འཕྲིན་"
+
+# LOCALIZATION NOTE: Do not translate the word "%S" below.
+#: ModuleFolderName
+msgid "%S Mail"
+msgstr "ཡིག་འཕྲིན་%S"
+
+# LOCALIZATION NOTE : "Communicator 4.x" is the used for previous versions of Netscape Communicator
+# Please translate using the brandname in respective languages for Netscape Communicator 4 releases.
+# strings profile dialog that comes up when importing mail from 4.x
+#: profileTitle
+msgid "Communicator 4.x profiles"
+msgstr "ཀ་མུས་ནི་ཀེ་ཊར་ 4.x གི་གསལ་སྡུད་"
+
+#: profileText
+msgid "Choose the profile that contains the Local Mail you want to import:"
+msgstr "ཁྱོད་ཀྱིས་ནང་འདྲེན་འབད་དགོ་མནོ་མི་ ཉེ་གནས་ཡིག་འཕྲིན་ཡོད་པའི་ གསལ་སྡུད་དེ་གདམ་ཁ་རྐྱབས་:"
+

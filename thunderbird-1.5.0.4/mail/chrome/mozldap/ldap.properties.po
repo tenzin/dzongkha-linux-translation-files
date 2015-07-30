@@ -1,0 +1,436 @@
+# 
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is the mozilla.org LDAP XPCOM SDK.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 2000
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Dan Mosedale <dmose@netscape.com> (Original Author)
+#   Chuck Boatwright <cboatwri@netscape.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/mozldap/ldap.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: ldap.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-20 12:07+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# The following two strings are used when prompting the user for authentication
+# information:
+## @name AUTH_PROMPT_TITLE
+## @loc none
+#: authPromptTitle
+msgid "LDAP Server Password Required"
+msgstr "ཨེལ་ཌི་ཨི་པི་སར་བར་གྱི་ ཆོག་ཡིག་དགོ་པས་"
+
+## @name AUTH_PROMPT_TEXT
+## @loc %1$S should not be localized.  It is the hostname of the LDAP server.
+#: authPromptText
+msgid "Please enter your password for %1$S."
+msgstr "%1$Sགི་དོན་ལུ་ ཁྱོད་རའི་ཆོག་ཡིག་བཙུགས།"
+
+# These are string versions of all the errors defined in
+# nsILDAPErrors.idl, as well as the nsresult codes based on those
+# errors.  See that file for the genesis of these codes, as well as
+# for info about how to get documentation about their precise
+# meanings.
+## @name OPERATIONS_ERROR
+## @loc none
+#: 1
+msgid "Operations error"
+msgstr "བཀོལ་སྤྱོད་ཀྱི་འཛོལ་བ་"
+
+## @name PROTOCOL_ERROR
+## @loc none
+#: 2
+msgid "Protocol error"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་ཀྱི་འཛོལ་བ་"
+
+## @name TIMELIMIT_EXCEEDED
+## @loc none
+#: 3
+msgid "Timelimit exceeded"
+msgstr "ཆུ་ཚོད་ཀྱི་ཚད་ཀྱི་ལྷག་སོ་ནུག།"
+
+## @name SIZELIMIT_EXCEEDED
+## @loc none
+#: 4
+msgid "Sizelimit exceeded"
+msgstr "ཚད་ཀྱི་བཅད་མཚམས་ལས་ལྷག་སོ་ནུག་"
+
+## @name COMPARE_FALSE
+## @loc none
+#: 5
+msgid "Compare false"
+msgstr "རྫུན་མ་གོ་བསྡུར་རྐྱབས་"
+
+## @name COMPARE_TRUE
+## @loc none
+#: 6
+msgid "Compare true"
+msgstr "བདེན་པ་ག་བསྡུར་རྐྱབས་"
+
+## @name STRONG_AUTH_NOT_SUPPORTED
+## @loc none
+#: 7
+msgid "Authentication method not supported"
+msgstr "བདེན་བཤད་ཐབས་ལམ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག།"
+
+## @name STRONG_AUTH_REQUIRED
+## @loc none
+#: 8
+msgid "Strong authentication required"
+msgstr "བདེན་སྒྲིང་སྒྲིང་དགོ་པས།"
+
+## @name PARTIAL_RESULTS
+## @loc none
+#: 9
+msgid "Partial results and referral received"
+msgstr "གྲུབ་འབྲས་ཆ་ཤས་དང་ འབྲེལ་བསྟུན་ཐོབ་ཅི་"
+
+## @name REFERRAL
+## @loc none
+#: 10
+msgid "Referral received"
+msgstr "འབྲེལ་བསྟུན་ཐོབ་ཅི་"
+
+## @name ADMINLIMIT_EXCEEDED
+## @loc none
+#: 11
+msgid "Administrative limit exceeded"
+msgstr "བདག་སྐྱོང་གི་ཚད་ལས་ལྷག་སོ་ནུག་"
+
+## @name UNAVAILABLE_CRITICAL_EXTENSION
+## @loc none
+#: 12
+msgid "Unavailable critical extension"
+msgstr "མ་ཐོབ་པའི་གནད་དགག་ཅན་གྱི་རྒྱ་བསྐྱེད་"
+
+## @name CONFIDENTIALITY_REQUIRED
+## @loc none
+#: 13
+msgid "Confidentiality required"
+msgstr "གསང་བ་དགོཔ་"
+
+## @name SASL_BIND_IN_PROGRESS
+## @loc none
+#: 14
+msgid "SASL bind in progress"
+msgstr "ཨེསི་ཨེ་ཨེསི་ཨེལ་བའིན་ ཡར་འཕེལ་འགྱོ་བའི་བསྒང་"
+
+## @name NO_SUCH_ATTRIBUTE
+## @loc none
+#: 16
+msgid "No such attribute"
+msgstr "དེ་བཟུམ་མའི་ཁྱད་ཆོས་མིན་འདུག་"
+
+## @name UNDEFINED_TYPE
+## @loc none
+#: 17
+msgid "Undefined attribute type"
+msgstr "ངེས་འཛིན་མ་འབད་བའི་ཁྱད་ཆོས་ཀྱི་དབྱེ་བ་"
+
+## @name INAPPROPRIATE MATCHIN
+## @loc none
+#: 18
+msgid "Inappropriate matching"
+msgstr "འོས་མིན་གྱི་མཐུན་སྒྲིག་"
+
+## @name CONSTRAINT_VIOLATION
+## @loc none
+#: 19
+msgid "Constraint violation"
+msgstr "བར་ཆད་ཀྱི་འགལ་བ་"
+
+## @name TYPE_OR_VALUE_EXISTS
+## @loc none
+#: 20
+msgid "Type or value exists"
+msgstr "དབྱེ་བ་་ཡང་ན་ བེ་ལུ་ གནས་ཏེ་འདུག་"
+
+## @name INVALID_SYNTAX
+## @loc none
+#: 21
+msgid "Invalid syntax"
+msgstr "ནུས་མེད་ཚིག་སྦྱོར་"
+
+## @name NO_SUCH_OBJECT
+## @loc none
+#: 32
+msgid "No such object"
+msgstr "དེ་བཟུམ་མའི་དངོས་པོ་མིན་འདུག་"
+
+## @name ALIAS_PROBLEM
+## @loc none
+#: 33
+msgid "Alias problem"
+msgstr "མིང་གཞན་གྱི་དཀའ་ངལ་"
+
+## @name INVALID_DN_ SYNTAX
+## @loc none
+#: 34
+msgid "Invalid DN syntax"
+msgstr "ནུས་མེད་ཌི་ཨེན་ཚིག་སྦྱོར་"
+
+## @name IS_LEAF
+## @loc none
+#: 35
+msgid "Object is a leaf"
+msgstr "དངོས་པོ་དེ་ སྲབ་དངོས་ཅིག་ཨིན་པས།"
+
+## @name ALIAS_DEREF_PROBLEM
+## @loc none
+#: 36
+msgid "Alias dereferencing problem"
+msgstr "མིང་གཞན་འབྲེལ་མཐུན་བཤོལ་ནིའི་དཀའ་ངལ་"
+
+## @name INAPPROPRIATE_AUTH
+## @loc none
+#: 48
+msgid "Inappropriate authentication"
+msgstr "འོས་མིན་གྱི་བདེན་བཤད་"
+
+## @name INVALID_CREDENTIALS
+## @loc none
+#: 49
+msgid "Invalid credentials"
+msgstr "ནུས་མེད་ངོ་སྤྲོད་ཡིག་ཆ་"
+
+## @name INSUFFICIENT_ACCESS
+## @loc none
+#: 50
+msgid "Insufficient access"
+msgstr "མ་ལང་པའི་འཛུལ་སྤྱོད་"
+
+## @name BUSY
+## @loc none
+#: 51
+msgid "The LDAP server is busy"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་ ཁོམ་མེད་མིན་མས།"
+
+## @name UNAVAILABLE
+## @loc none
+#: 52
+msgid "LDAP server is unavailable"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་ མ་ཐོབ་པས།"
+
+## @name UNWILLING_TO_PERFORM
+## @loc none
+#: 53
+msgid "LDAP server is unwilling to perform"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་གྱིས་ ལཱ་འབད་ནིའི་ཁ་བཟེད་མི་བཏུབ་པས།"
+
+## @name LOOP_DETECT
+## @loc none
+#: 54
+msgid "Loop detected"
+msgstr "འཕྲལ་བཀོལ་ངོས་འཛིན་འབད་ཡོད།"
+
+## @name SORT_CONTROL_MISSING
+## @loc none
+#: 60
+msgid "Sort Control is missing"
+msgstr "དབྱེ་སེལ་ཚན་འཛིན་དེ་ བརླག་སྟོར་ཞུགས་ནུག"
+
+## @name INDEX_RANGE_ERROR
+## @loc none
+#: 61
+msgid "Search results exceed the range specified by the offsets"
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས་དེ་ པར་ལེན་གྱིས་གསལ་བཀོད་འབད་མི་ ཁྱབ་ཚད་ལས་ལྷག་པས།"
+
+## @name NAMING_VIOLATION
+## @loc none
+#: 64
+msgid "Naming violation"
+msgstr "མིང་བཏགས་ནི་ལུ་འགལ་བ།"
+
+## @name OBJECT_CLASS_VIOLATION
+## @loc none
+#: 65
+msgid "Object class violation"
+msgstr "དངོས་པོའི་དབྱེ་རིགས་འགལ་བ་"
+
+## @name NOT_ALLOWED_ON_NONLEAF
+## @loc none
+#: 66
+msgid "Operation not allowed on nonleaf"
+msgstr "སྲབ་དངོས་མེན་མི་ལུ་ བཀོལ་སྤྱོད་མི་ཆོག"
+
+## @name NOT_ALLOWED_ON_RDN
+## @loc none
+#: 67
+msgid "Operation not allowed on RDN"
+msgstr "ཨར་ཌི་ཨེན་ལུ་ བཀོལ་སྤྱོད་མི་ཆོག"
+
+## @name ALREADY_EXISTS
+## @loc none
+#: 68
+msgid "Already exists"
+msgstr "ཧེ་མ་ལས་ར་འདུག་"
+
+## @name NO_OBJECT_CLASS_MODS
+## @loc none
+#: 69
+msgid "Cannot modify object class"
+msgstr "དངོས་པའི་དབྱེ་རིགས་ལེགས་བཅོས་འབད་མི་ཚུགས་"
+
+## @name RESULTS_TOO_LARGE
+## @loc none
+#: 70
+msgid "Results too large"
+msgstr "གྲུབ་འབྲས་སྦོམ་དྲགས་པས་"
+
+## @name AFFECTS_MULTIPLE_DSAS
+## @loc none
+#: 71
+msgid "Affects multiple servers"
+msgstr "སྣ་མང་སར་བར་ལུ་ཕན་གནོད་ཡོད།"
+
+## @name OTHER
+## @loc none
+#: 80
+msgid "Unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+## @name SERVER_DOWN
+## @loc none
+#: 81
+msgid "Can't contact the LDAP server"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་ལུ་ འབྲེལ་བ་འཐབ་མི་ཚུགས་པས།"
+
+## @name LOCAL_ERROR
+## @loc none
+#: 82
+msgid "Local error"
+msgstr "ཉེ་གནས་ཀྱི་འཛོལ་བ་"
+
+## @name ENCODING_ERROR
+## @loc none
+#: 83
+msgid "Encoding error"
+msgstr "ཨང་བཀོད་ལུ་འཛོལ་བ་"
+
+## @name DECODING_ERROR
+## @loc none
+#: 84
+msgid "Decoding error"
+msgstr "ཨང་བཀོེད་བཤོལ་ནི་ལུ་འཛོལ་བ་"
+
+## @name TIMEOUT
+## @loc none
+#: 85
+msgid "The LDAP server timed out"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་གྱི་ངལ་མཚམས་"
+
+## @name AUTH_UNKNOWN
+## @loc none
+#: 86
+msgid "Unknown authentication method"
+msgstr "མ་ཤེས་པའི་བདེན་བཤད་ཐབས་ལམ།"
+
+## @name FILTER_ERROR
+## @loc none
+#: 87
+msgid "Invalid search filter"
+msgstr "ནུས་མེད་འཚོལ་ཞིབ་ཚགས་མ་"
+
+## @name USER_CANCELLED
+## @loc none
+#: 88
+msgid "User cancelled operation"
+msgstr "ལག་ལེན་པ་གིས་ བཀོལ་སྤྱོད་ཆ་མེད་བཏང་ནུག་"
+
+## @name PARAM_ERROR
+## @loc none
+#: 89
+msgid "Bad parameter to an LDAP routine"
+msgstr "ཨེལ་ཌི་ཨེ་པི་རྒྱུན་ལས་ཅིག་ལུ་ ཚད་བཟུང་བྱང་ཉེས་"
+
+## @name NO_MEMORY
+## @loc none
+#: 90
+msgid "Out of memory"
+msgstr "དྲན་ཚད་ཀྱི་བདའ་མ་ཟུནམ་"
+
+## @name CONNECT_ERROR
+## @loc none
+#: 91
+msgid "Can't connect to the LDAP server"
+msgstr "ཨེལ་ཌི་ཨེ་པི་སར་བར་ལུ་ མཐུད་མི་ཚུགས་པས་"
+
+## @name NOT_SUPPORTED
+## @loc none
+#: 92
+msgid "Not supported by this version of the LDAP protocol"
+msgstr "ཨེལ་ཌི་ཨེ་པི་གནས་སྤེལ་ལམ་ལུགས་ཀྱི་ཐོན་རིམ་འདི་གིས་ རྒྱབ་སྐྱོར་མིན་འདུག་"
+
+## @name CONTROL_NOT_FOUND
+## @loc none
+#: 93
+msgid "Requested LDAP control not found"
+msgstr "ཞུ་བ་འབད་མི་ ཨེལ་ཌི་ཨེ་པི་ཚད་འཛིན་དེ་མི་ཐོབ་པས།"
+
+## @name NO_RESULTS_RETURNED
+## @loc none
+#: 94
+msgid "No results returned"
+msgstr "གྲུབ་འབྲས་སླར་ལོག་མ་བཏང་པས་"
+
+## @name MORE_RESULTS_TO_RETURN
+## @loc none
+#: 95
+msgid "More results to return"
+msgstr "སླར་ལོག་གཏང་དགོ་པའི་གྲུབ་འབྲས་མངམ་"
+
+## @name CLIENT_LOOP
+## @loc none
+#: 96
+msgid "Client detected loop"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གིས་ འཕྲལ་བཀོལ་ངོས་འཛིན་འབད་ཡི།"
+
+## @name REFERRAL_LIMIT_EXCEEDED
+## @loc none
+#: 97
+msgid "Referral hop limit exceeded"
+msgstr "འབྲེལ་བསྟུན་གྱི་རེ་བའི་ཚད་ལས་ལྷག་ཡོདཔ་"
+

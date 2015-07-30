@@ -1,0 +1,359 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/messenger/localMsgs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: localMags.properties dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-12 10:51+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg.dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#
+# The following are used by the local mail code to display progress/status/error messages
+#
+## @name MK_POP3_OUT_OF_DISK_SPACE
+## @loc None
+#: -321
+msgid "There is not enough disk space to download new messages. Try deleting old mail, emptying the Trash folder, and compacting your mail folders, and then try again."
+msgstr "འཕྲིན་དོན་གསརཔ་ཕབ་ལེན་འབད་ནི་ལུ་ ཌིཀསི་ནང་བར་སྟོང་ལངམ་མིན་འདུག། འཕྲིན་དོན་རྙིངམ་ཚུ་བཏོན་གཏང་ ཕྱགས་ཧོད་སྟོངམ་བཏོན་ ཁྱོད་རའི་ཡིག་འཕྲིན་སྣོད་འཛིན་ཚུ་སྲབ་ཆུང་བཟོ་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+# Out of memory
+## @name LOCAL_OUT_OF_MEMORY
+## @loc None
+#: -1000
+msgid "Application is out of memory."
+msgstr "གློག་རིམ་དེ་ དྲན་ཚད་ཀྱིས་བདའ་མི་ཟུན་པས།"
+
+# Status - parsing folder
+## @name LOCAL_STATUS_SELECTING_MAILBOX
+## @loc None
+#LOCALIZATION NOTE (4000): Do not translate %s in the following line.
+# Place the word %s where the name of the mailbox should appear
+#: 4000
+msgid "Building summary file for %S..."
+msgstr "%Sགི་དོན་ལུ་བཅུད་དོན་ཡིག་སྣོད་བཟོ་རྩིག་འབད་དོ་་་་"
+
+# Status - parsing folder
+## @name LOCAL_STATUS_DOCUMENT_DONE
+## @loc None
+#: 4001
+msgid "Done"
+msgstr "འབད་ཚར་"
+
+# Status - receiving message n of m
+## @name LOCAL_STATUS_RECEIVING_MESSAGE_OF
+## @loc None
+#LOCALIZATION NOTE (4002): Do not translate %lu in the following line.
+# Place the word %lu where the number of messages should appear.
+# The first %lu will receive the number of messages received so far;
+# the second %lu will receive the total number of messages
+#: 4002
+msgid "Downloading message %S of %S"
+msgstr "འཕྲིན་དོན་%Sལས་%Sཕབ་ལེན་འབད་དོ་"
+
+# Status - pop3 server error
+## @name POP3_SERVER_ERROR
+## @loc None
+#LOCALIZATION NOTE (4003): Do not translate POP3 in the following line.
+#: 4003
+msgid "An error occurred with the POP3 mail server."
+msgstr "POP3 ཡིག་འཕྲིན་སར་བར་ལུ་ འཛོལ་ཅིག་བྱུང་ནུག།"
+
+# Status - pop3 user name failed
+## @name POP3_USERNAME_FAILURE
+## @loc None
+#: 4004
+msgid "Sending of username did not succeed."
+msgstr "ལག་ལེན་པའི་མིང་ གཏང་ནི་དེ་ མཐར་འཁྱོར་བྱུང་མ་ཚུགས་པས།"
+
+# Status - password failed
+## @name POP3_PASSWORD_FAILURE
+## @loc None
+#: 4005
+msgid "Sending of password did not succeed."
+msgstr "ཆོག་ཡིག་གཏང་ནི་དེ་ མཐར་འཁྱོར་བྱུང་མ་ཚུགས་པས།"
+
+# Status - write error occurred
+## @name POP3_MESSAGE_WRITE_ERROR
+## @loc None
+#: 4006
+msgid "Unable to write the email to the mailbox. Make sure the file system allows you write privileges, and you have enough disk space to copy the mailbox."
+msgstr "གློག་འཕྲིན་དེ་ ཡིག་སྒྲོམ་ལུ་འབྲི་མ་ཚུགས། ཡིག་སྣོད་རིམ་ལུགས་ཀྱིས་ ཁྱོད་ལུ་འབྲི་ནིའི་ཁེ་དབང་ཡོདཔ་དང་ ཡིག་སྒྲོམ་འདྲ་བཤུས་བརྐྱབ་ནིའི་དོན་ལུ་ ཌིཀསི་ནང་བར་སྟོང་ལངམ་ཡོདཔ་ ངེས་གཏན་བཟོ།"
+
+# Status - write error occurred
+## @name POP3_MESSAGE_FOLDER_BUSY
+## @loc None
+#: 4029
+msgid "This folder is being processed. Please wait until processing is complete to get messages."
+msgstr "སྣོད་འཛིན་འདི་ ལས་སྦྱོར་འབད་དོ། འཕྲིན་དོན་ཚུ་ལེན་ནི་ལུ་ ལས་སྦྱོར་མཇུག་མ་བསྡུ་ཚུན་ཚོད་ བསྒུག་སྡོད་གནང་།"
+
+# Status - connecting to host
+## @name POP3_CONNECT_HOST_CONTACTED_SENDING_LOGIN_INFORMATION
+## @loc None
+#: 4007
+msgid "Connect: Host contacted, sending login information..."
+msgstr "མཐུད་: ཧོསཊི་ལུ་འབྲེལ་བ་འཐབ་ཅི། ནང་བསྐྱོད་བརྡ་དོན་གཏང་དོ་་་་"
+
+# Status - no messages to download
+## @name POP3_NO_MESSAGES
+## @loc None
+#: 4008
+msgid "There are no new messages on the server."
+msgstr "སར་བར་གུ་ འཕྲིན་དོན་གསརཔ་མིནའདུག།"
+
+# Status - messages received after the download
+## @name POP3_DOWNLOAD_COUNT
+## @loc None
+#LOCALIZATION NOTE (4009): Do not translate %ld in the following line.
+# Place the word %ld where the number of messages should appear.
+# The first %ld will receive the number of messages received so far;
+# the second %ld will receive the total number of messages
+#: 4009
+msgid "Received %ld of %ld messages"
+msgstr "འཕྲིན་དོན་ %ld ལས་%ldཐོབ་ཅིག།"
+
+# Status - the server doesn't support UIDL...
+## @name POP3_SERVER_DOES_NOT_SUPPORT_UIDL_ETC
+## @loc None
+# LOCALIZATION NOTE(4010): The following sentence should be translated in this way:
+# Do not translate "POP3"
+# Do not translate "%S". Place %s in your translation where the name of the server should appear.
+# Do not translate "UIDL"
+#: 4010
+msgid "The POP3 server (%S) does not support UIDL, which is needed to implement the ``Leave on Server'' and ``Maximum Message Size'' options. To download your mail, turn off these options in the Mail Server panel of Preferences."
+msgstr "POP3 སར་བར་ (%S) གིས་ ``སར་བར་གུ་བཞག་'' དང་ ``འཕྲིན་དོན་གྱི་ཚད་ཀྱི་མང་མཐའི་'' གདམ་ཁ་ལག་ལེན་འཐབ་ནི་ལུ་དགོ་པའི་ UIDL ལུ་རྒྱབ་མིན་འདུག། ཁྱོད་ཀྱི་ཡིག་འཕྲིན་ ཕབ་ལེན་འབད་ནི་ལུ་ དགའ་གདམ་གྱི་ ཡིག་འཕྲིན་སར་བར་པེ་ནཱལ་ནང་ལུ་ གདམ་ཁ་འདི་ཚུ་ཨོཕ་རྐྱབས།"
+
+# Status - the server doesn't support the top command
+## @name POP3_SERVER_DOES_NOT_SUPPORT_THE_TOP_COMMAND
+## @loc None
+# LOCALIZATION NOTE(4011): The following sentence should be translated in this way:
+# Do not translate "POP3"
+# Do not translate "%s". Place %s in your translation where the name of the server should appear.
+# Do not translate "TOP"
+#: 4011
+msgid "The POP3 mail server (%s) does not support the TOP command. Without server support for this, we cannot implement the ``Maximum Message Size'' preference.  This option has been disabled, and messages will be downloaded regardless of their size."
+msgstr "POP3 སར་བར་ (%S) གིས་ TOP བརྡ་བཀོད་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས། འདི་གི་དོན་ལུ་ སརབར་གྱི་རྒྱབ་སྐྱོར་མེད་པར་ ང་བཅས་ཀྱིས་ ``འཕྲིན་དོན་ཚད་ཀྱི་མང་མཐའི་'' དགའ་གདམ་དེ་ ལག་ལེན་འཐབ་མིཚུགས། གདམ་ཁ་འདི་ ལྕོགས་མིན་བཟོ་ནུག། དེ་གིས་སྦེ་ འཕྲིན་དོན་ཚུ་ ཚད་ཀྱི་དབྱེ་བ་མེད་པར་ ཕབ་ལེན་འབད་འོང་།"
+
+# Status - retr failure from the server
+## @name POP3_RETR_FAILURE
+## @loc None
+# LOCALIZATION NOTE(4012): Do not translate the word "POP3" below.
+#: 4012
+msgid "The RETR command did not succeed. Error retrieving a message."
+msgstr "སླྦར་འདྲེན་བརྡ་བཀོད་དེ་ མཐར་འཁྱོལ་མྱུང་མ་ཚུགསཔ་ལས་ འཕྲིན་དོན་སླར་འདྲེན་འབད་ནི་ལུ་འཛོལ་བ།"
+
+# Status - password undefined
+## @name POP3_PASSWORD_UNDEFINED
+## @loc None
+#: 4013
+msgid "Error getting mail password."
+msgstr "ཡིག་འཕྲིན་ཆོག་ཡིག་ལེན་ནི་ལུ་འཛོལ་བ།"
+
+# Status - username undefined
+## @name POP3_USERNAME_UNDEFINED
+## @loc None
+#: 4014
+msgid "You have not supplied a username for this server.  Please provide one in the account setup menu and try again."
+msgstr "ཁྱོད་ཀྱིས་སར་བར་འདི་གི་དོན་ལུ་ ལག་ལེན་པའི་མིང་ཅིག་མ་བྱིན་པས། རྩིས་ཐོ་གཞི་སྒྲིག་དཀར་ཆག་ནང་ མིང་གཅིག་བྱིན་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+# Status - list failure
+## @name POP3_LIST_FAILURE
+## @loc None
+# LOCALIZATION NOTE(4015): Do not translate the word "POP3" below.
+#: 4015
+msgid "The LIST command did not succeed. Error getting the ID and size of a message."
+msgstr "ཐོ་ཡིག་བརྡ་བཀོད་ མཐར་འཁྱོལ་བྱུང་མ་ཚུགས་པས། འཕྲིན་དོན་གྱི་ངོ་རྟགས་དང་ཚད་ ལེན་ནི་ལུ་འཛོལ་བ།"
+
+# Status - delete error
+## @name POP3_DELE_FAILURE
+## @loc None
+# LOCALIZATION NOTE(4016): Do not translate the word "POP3" below.
+#: 4016
+msgid "The DELE command did not succeed. Error marking a message as deleted."
+msgstr "བཏོན་གཏང་ནིའི་བརྡ་བཀོད་དེ་ མཐར་འཁྱོལ་བྱུང་མ་ཚུགས་བས། འཕྲིན་དོན་ཅིག་ བཏོན་བཏང་ཡོདཔ་སྦེ་ རྟགས་བཀལ་ནི་ལུ་འཛོལ་བ།"
+
+## @name POP3_ENTER_PASSWORD_PROMPT
+## @loc None
+# LOCALIZATION NOTE(4016): Do not translate the word "%1$s@%2$s" below.
+# Place the word "%1$s" and "%2$s" where email account name should appear (i.e. john.smith@example.org)
+#: 4017
+msgid "Enter your password for %1$s on %2$s:"
+msgstr "  %1$s གི་དོན་ལུ་ %2$s གུ་ ཁྱོད་རའི་ཆོག་ཡིག་བཙུགས་:"
+
+## @name POP3_PREVIOUSLY_ENTERED_PASSWORD_IS_INVALID_ETC
+## @loc None
+# LOCALIZATION NOTE(4016): Do not translate the word "%s" below. It will receive the message returned by the server.
+# Do not translate "%.100s" and "%.100s". It will receive the email account name.
+#: 4018
+msgid "Please enter a new password for user %.100s on %.100s:"
+msgstr "ལག་ལེན་པ་%.100s གི་དོན་ལུ་  %.100s གུ་ ཆོག་ཡིག་གསརཔ་ཅིག་བཙུགས་གནང་།"
+
+## @name POP3_NO_ANSWER
+## @loc None
+#: 4019
+msgid "No Answer"
+msgstr "ལན་གསལ་མིན་འདུག"
+
+## @name POP3_ENTER_PASSWORD_PROMPT_TITLE
+## @loc None
+#: 4020
+msgid "Enter your password:"
+msgstr "ཁྱོད་རའི་ཆོག་ཡིག་བཙུགས་:"
+
+## @name moveFolderToTrash
+## @loc None
+#: 4021
+msgid "Are you sure you want to move the selected folder into the Trash?"
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་སྣོད་འཛིན་དེ་ ཕྱགས་ཧོད་ནང་སྤོ་བཤུད་འབད་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+## @name POP3_FOLDER_FOR_TRASH
+## @loc None
+#: 4023
+msgid "The Trash already contained a folder named %s. The folder which you just deleted can be found in the Trash under the new name %s."
+msgstr "ཕྱགས་ཧོད་ནང་ལུ་ སྣོད་འཛིན་མིང་ %sའབད་མི་ཅིག་ ཧེ་མ་ལས་ར་འདུག། ཁྱོད་ཀྱིས་ད་ལྟོ་ བཏོན་བཏང་མི་སྣོད་འཛིན་དེ་ ཕྱགས་ཧོད་ནང་ མིང་གསརཔ་%s གི་ཐོག་ལུ་ཐོབ་ཚུགས།"
+
+# Status - stat failed
+## @name POP3_STAT
+## @loc None
+#: 4024
+msgid "The STAT command did not succeed. Error getting message number and sizes."
+msgstr "གནས་ཚད་བརྡ་བཀོད་ མཐར་འཁྱོལ་བྱུང་མ་ཚུགས། འཕྲིན་དོན་གྱི་ཨང་དང་ཚད་ཚུ་ ལེན་ནི་ལུ་འཛོལ་བ།"
+
+## @name POP3_SERVER_SAID
+## @loc None
+#: 4025
+msgid "Mail server %S responded:"
+msgstr "ཡིག་འཕྲིན་སར་བར་%Sགིས་ ངོས་ལན་འབད་ཡོདཔ་:"
+
+## @name DELETING_MSGS_STATUS
+## @loc None
+#: 4026
+msgid "Deleting %S of %S messages"
+msgstr "འཕྲིན་དོན་%S ལས་%Sབཏོན་གཏང་དོ།"
+
+## @name COPYING_MSGS_STATUS
+## @loc None
+#: 4027
+msgid "Copying %S of %S messages to %S"
+msgstr "འཕྲིན་དོན་%Sལས་%Sདེ་ཅིག་%Sལུ་འདྲ་བཤུས་རྐྱབ་དོ་"
+
+## @name MOVING_MSGS_STATUS
+## @loc None
+#: 4028
+msgid "Moving %S of %S messages to %S"
+msgstr "འཕྲིན་དོན་%Sལས་%Sདེ་ཅིག་%Sལུ་ སྤོ་བཤུད་འབད་དོ་"
+
+# secure authentication failed
+## @name CANNOT_PROCESS_SECURE_AUTH
+## @loc None
+#: 4030
+msgid "Mail server does not support secure authentication."
+msgstr "འཕྲིན་དོན་སར་བར་གྱིས་ མཐའ་བཙན་བདེན་བཤད་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+# secure authentication failed and unsure why
+## @name CANNOT_PROCESS_APOP_AUTH
+## @loc None
+#: 4031
+msgid "Mail server does not support secure authentication or you have entered an incorrect password. Please check your password, or turn off secure authentication in the account settings for your mail server.\n"
+msgstr "འཕྲིན་དོན་སར་བར་གྱིས་ མཐའ་བཙན་བདེན་བཤད་ལུ་ རྒྱབ་སྐྱོར་མི་འབདཝ་འོང་ནི་དང་ ཡང་ན་ ཁྱོད་ཀྱིས་བདེན་མེད་ཆོག་ཡིག་བཙུགས་བཙུགསཔ་འོང་ནི་མས། ཁྱོད་རའི་ཆོག་ཡིག་ ཞིབ་དཔྱད་རྐྱབས་ ཡང་ན་ ཁྱོད་རའི་ཡིག་འཕྲིན་སར་བར་གྱི་ རྩིས་ཐོ་སྒྲིག་སྟངས་དང་ མཐའ་བཙན་བདེན་བཤད་དེ་ ཨོཕ་རྐྱབས།\n"
+
+## @name MOVEMAIL_SPOOL_FILE_LOCKED
+## @loc None
+#: 4032
+msgid "The mail spool file %S is locked."
+msgstr "ཡིག་འཕྲིན་གྱི་འཕྲལ་གསོག་ཡིག་སྣོད་%S དེ་ལྡེ་མིག་བརྐྱབས་ནུག།"
+
+## @name MOVEMAIL_CANT_OPEN_SPOOL_FILE
+## @loc None
+#: 4033
+msgid "Unable to open mail spool file %S."
+msgstr "ཡིག་འཕྲིན་གྱི་འཕྲལ་གསོག་ཡིག་སྣོད%Sཁ་ཕྱེ་མ་ཚུགས།"
+
+## @name MOVEMAIL_CANT_CREATE_LOCK
+## @loc None
+#: 4034
+msgid "Unable to create lock file %S. For movemail to work, it is necessary to create lock files in the mail spool directory. On many systems, this is best accomplished by making the spool directory be mode 01777."
+msgstr "ལྡེ་མིག་ཡིག་སྣོད་%Sགསར་བསྐྲུན་འབད་མ་ཚུགས། མུབ་མེལ་དེ་ ལཱ་འབད་ནི་ལུ་ ཡིག་འཕྲིན་འཕྲལ་གསོག་སྣོད་ཐོ་ནང་ ལྡེ་མིག་ཡིག་སྣོད་ཚུ་ གསར་བསྐྲུན་འབད་དགོ། དེཡང་ རིམ་ལུགས་ལེ་ཤ་ཅིག་ནང་ འཕྲལ་གསོག་སྣོད་ཐོ་དེ་ ཐབས་ལམ་༠༡༧༧༧ བཟོ་བའི་ཐོག་ལས་ ལེགས་ཤོམ་སྦེ་བསྒྲུབས་ཚུགསཔ་ཨིན།"
+
+## @name MOVEMAIL_CANT_DELETE_LOCK
+## @loc None
+#: 4035
+msgid "Unable to delete lock file %S."
+msgstr "ལྡེ་མིག་ཡིག་སྣོད་%Sབཏོན་གཏང་མ་ཚུགས།"
+
+## @name MOVEMAIL_CANT_TRUNCATE_SPOOL_FILE
+## @loc None
+#: 4036
+msgid "Unable to truncate spool file %S."
+msgstr "འཕྲལ་གསོག་ཡིག་སྣོད་%Sཆུང་ཀུ་བཟོ་མ་ཚུགས།"
+
+## @name MOVEMAIL_SPOOL_FILE_NOT_FOUND
+## @loc None
+#: 4037
+msgid "Unable to locate mail spool file."
+msgstr "ཡིག་འཕྲིན་འཕྲལ་གསོག་ཡིག་སྣོད་ ག་ཡོད་འཚོལ་མ་ཐོབ།"
+
+## @name POP3_TMP_DOWNLOAD_FAILED
+## @loc None
+#: 4038
+msgid ""
+"There was an error downloading the following message:   \n"
+"From: %S\n"
+"   Subject: %S\n"
+" This message may contain a virus or there is not enough disk space. Skip this message?"
+msgstr ""
+"%Sནང་ལས་ \n"
+"འཕྲིན་དོན་ཕབ་ལེན་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི།\n"
+"དོན་ཚན་:%S\n"
+"འཕྲིན་དོན་འདི་ནང་ གནོད་འབུཔ་ཅིག་ཡོདཔ་འོང་ནི་དང་ ཡང་ན་ ཌིཀསི་ནང་བར་སྟོང་ལངམ་མེདཔ་འོང་ནི་མས། འཕྲིན་དོན་འདི་གོམ་འགྱོ་ནི་ཨིན་ན?"
+
+## @name NS_ERROR_COULD_NOT_CONNECT_VIA_TLS
+## @loc None
+#: 4039
+msgid "Unable to establish TLS connection to POP3 server. The server may be down or may be incorrectly configured. Please verify that your Mail/News account settings are correct and try again."
+msgstr "POP3 སར་བར་ལུ་ TLS  མཐུད་ལམ་ གཞི་འཛུགས་འབད་མ་ཚུགས། སར་བར་དེ་ཉམས་སོངཔ་འོང་ནི་དང་ ཡང་ན་ བདེན་མེད་སྦེ་ རིམ་སྒྲིག་འབད་འབདཝ་འོང་ནི་མས། ཁྱོད་རའི་ཡིག་འཕྲིན་/གནས་ཚུལ་རྩིས་ཐོའི་སྒྲིག་སྟངས་ཚུ་ ངེས་གཏན་སྦེ་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+

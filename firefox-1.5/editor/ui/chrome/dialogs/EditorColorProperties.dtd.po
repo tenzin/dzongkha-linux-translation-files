@@ -1,0 +1,120 @@
+# extracted from dz-BT_orig/editor/ui/chrome/dialogs/EditorColorProperties.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: EditorColorProperties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-18 04:31+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is Mozilla Communicator client code, released
+# - March 31, 1998.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corporation.
+# - Portions created by the Initial Developer are Copyright (C) 1998-1999
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either of the GNU General Public License Version 2 or later (the "GPL"),
+# - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+# Window title
+#: windowTitle.label
+msgid "Page Colors and Background"
+msgstr "ཤོག་ལེབ་ཚོས་གཞི་དང་རྒྱབ་གཞི།"
+
+#: pageColors.label
+msgid "Page Colors"
+msgstr "ཤོག་ལེབ་ཚོས་གཞི་ཚུ།"
+
+#: defaultColorsRadio.label
+#: defaultColorsRadio.accessKey
+msgid "Reader's default colors (&Don't set colors in page)"
+msgstr "ལྷག་མི་གི་སྔོན་སྒྲིག་ཚོས་གཞི་ཚུ།(ཤོག་ལེབ་ནང་ཚོས་གཞི་ཚུ་གཞི་སྒྲིག་མ་འབད)(&D)"
+
+#: defaultColorsRadio.tooltip
+msgid "Use the color settings from the viewer (reader's) browser only"
+msgstr "ཚོས་གཞི་སྒྲིག་སྟངས་དེ་མཐོང་བྱེད་(ལྷག་མི་)གི་བརའུ་ཟར་རྐྱངམ་ཅིག་ལས་ལག་ལེན་འཐབ།"
+
+#: customColorsRadio.label
+#: customColorsRadio.accessKey
+msgid "Use &custom colors:"
+msgstr "སྲོལ་སྒྲིག་ཚོས་གཞི་ཚུ་ལག་ལེན་འཐབ:(&c)"
+
+#: customColorsRadio.tooltip
+msgid "These color settings override the viewer's browser settings"
+msgstr "ཚོས་གཞི་སྒྲིག་སྟངས་ཚུ་གིས་མཐོང་བྱེད་ཀྱི་བརའུ་ཟར་སྒྲིག་སྟངས་དེ་མེདཔ་གཏངམ་ཨིན།"
+
+#: normalText.label
+#: normalText.accessKey
+msgid "&Normal text"
+msgstr "སྤྱིར་བཏང་ཚིག་ཡིག (&N)"
+
+#: linkText.label
+#: linkText.accessKey
+msgid "&Link text"
+msgstr "འབྲེལ་ལམ་ཚིག་ཡིག (&L)"
+
+#: activeLinkText.label
+#: activeLinkText.accessKey
+msgid "&Active link text"
+msgstr "འབྲེལ་ལམ་ཚིག་ཡིག་ཤུགས་ལྡན་བཟོ།(&A)"
+
+#: visitedLinkText.label
+#: visitedLinkText.accessKey
+msgid "&Visited link text"
+msgstr "བལྟ་སྤྱོད་འབད་ཡོད་མི་འབྲེལ་ལམ་ཚིག་ཡིག (&V)"
+
+#: background.label
+#: background.accessKey
+msgid "&Background:"
+msgstr "རྒྱབ་གཞི:(&B)"
+
+#: colon.character
+msgid ":"
+msgstr ":"
+
+#: backgroundImage.label
+#: backgroundImage.accessKey
+msgid "Background I&mage:"
+msgstr "རྒྱབ་གཞི་གཟུགས་བརྙན:(&m)"
+
+#: backgroundImage.tooltip
+msgid "Use an image file as the background for your page"
+msgstr "ཁྱོད་རའི་ཤོག་ལེབ་དོན་ལུ་གཟུགས་བརྙན་ཡིག་སྣོད་ཅིག་རྒྱབ་གཞི་སྦེ་ལག་ལེན་འཐབ།"
+

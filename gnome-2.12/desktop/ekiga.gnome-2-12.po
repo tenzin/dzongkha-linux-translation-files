@@ -1,0 +1,3648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemeeting.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-06 05:15+0100\n"
+"PO-Revision-Date: 2006-03-20 10:03-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Add the window icon and title
+#: ../gnomemeeting.desktop.in.h:1
+#: ../src/main_window.cpp:3719
+#: ../src/main_window.cpp:3911
+msgid "GnomeMeeting"
+msgstr "ཇི་ནོམ་མི་ཊིང།"
+
+#: ../gnomemeeting.desktop.in.h:2
+msgid "Talk to people over the Internet"
+msgstr "ཨིན་ཊར་ནེཊི་གི་ཐོག་ལས་ མི་མང་ལུ་ཁ་སླབ།"
+
+#: ../gnomemeeting.desktop.in.h:3
+msgid "Videoconferencing"
+msgstr "གློག་ཐོག་ཞལ་འཛོམས།"
+
+#: ../gnomemeeting.schemas.in.in.h:1
+msgid "1: 56Kbps, 2: ISDN, 3:DSL, 4: LAN, 5: Custom"
+msgstr "༡: ཀེ་བི་པི་ཨེསི་༥༦། ༢: ཨའི་ཨེསི་ཌི་ཨེན། ༣: ཌི་ཨེསི་ཨེལ། ༤: ཨེལ་ཨེ་ཨེན། ༥: སྲོལ་སྒྲིག"
+
+#: ../gnomemeeting.schemas.in.in.h:2
+msgid "Address of public IP detector"
+msgstr "མི་མང་གི་ ཨའི་པི་སྐྱོན་འཛིན་པའི་ཁ་བྱང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:3
+msgid "Always forward calls to the given host"
+msgstr "ཨ་རྟག་ར་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:4
+msgid "Audio input device"
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ཐབས་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:5
+msgid "Audio output device"
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:6
+msgid "Audio plugin"
+msgstr "རྣར་ཉན་ པ་ལག་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:7
+msgid "Automatic echo cancellation"
+msgstr "རང་བཞིན་གྱི་ བྲག་ཅ་ཆ་མེད།"
+
+#: ../gnomemeeting.schemas.in.in.h:8
+#: ../src/pref_window.cpp:716
+msgid "Automatically clear the text chat at the end of calls"
+msgstr "བོད་བརྡ་ཚུ་ ་མཇུག་བསྡུཝ་ད་ ཁ་སླབ་ཚིག་ཡིག་ཚུ་ རང་བཞིན་གྱིས་བསལ།"
+
+#: ../gnomemeeting.schemas.in.in.h:9
+#: ../src/pref_window.cpp:784
+msgid "Automatically reject or forward incoming calls if no answer is given after the specified amount of time (in seconds)"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ཚུ་ལུ་ གསལ་བཀོད་འབད་མི་དུས་ཚོད་ནང་འཁོད་(སྐར་ཆའི་ནང་) ལན་གསལ་མེད་པ་ཅིན་ རང་བཞིན་གྱིས་ དང་ལེན་མེད་པའམ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:10
+msgid "Automatically switch to fullscreen for images displayed in the main GUI at the beginning of the call"
+msgstr "འབོད་བརྡ་འགོ་འཛུགས་སྐབས་ ཇི་ཡུ་ཨའི་གཙོ་བོའི་ནང་ བཀྲམ་སྟོན་འབད་ནིའི་ གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་ རང་བཞིན་གྱིས་ གསལ་གཞི་གངམ་ལུ་སོར་བསྒྱུར་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:11
+msgid "Change the control panel section"
+msgstr "ཚད་འཛིན་པེ་ནཱལ་གྱི་དབྱེ་ཚན་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:12
+msgid "Change the control panel section (4 means that the control panel is off)"
+msgstr "ཚད་འཛིན་པེ་ནཱལ་གྱི་དབྱེ་ཚན་ བསྒྱུར་བཅོས་འབད། (༤ གི་དོན་དག་ ཚད་འཛིན་པེ་ནཱལ་དེ་ཨོཕ་ཨིན་)"
+
+#: ../gnomemeeting.schemas.in.in.h:13
+msgid "Choose the number of blocks (that have not changed) transmitted with each frame. These blocks fill in the background"
+msgstr "གཞི་ཁྲམ་རེ་རེ་དང་གཅིག་ཁར་ སྤེལ་བཀྲམ་འབད་མི་ སྡེབ་ཚན་ཚུ་ གདམ་ཁ་རྐྱབས། (བསྒྱུར་བཅོས་མ་འགྱོ་མི་ཚུ) སྡེབ་ཚན་འདི་ཚུ་གིས་ རྒྱབ་གཞི་བཀངམ་ཨིན་།"
+
+#: ../gnomemeeting.schemas.in.in.h:14
+msgid "Clear inactive calls"
+msgstr "ནུས་མེད་ཀྱི་ འབོད་བརྡ་ཚུ་བསལ་གཏང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:15
+#: ../src/addressbook_window.cpp:974
+msgid "Comment"
+msgstr "བསམ་བཀོད།"
+
+#: ../gnomemeeting.schemas.in.in.h:16
+msgid "Connection will be established in Fast Start mode. Fast Start is a new way to start calls faster that was introduced in H.323v2. It is not supported by Netmeeting and using both Fast Start and H.245 Tunnelling can crash some versions of Netmeeting"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ཐབས་ལམ་ནང་ མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨིན། མགྱོགས་པར་འགོ་བཙུགས་ཐབས་ལམ་དེ་ འབོད་བརྡ་ཚུ་ H.323v2 ནང་འགོ་བཙུགས་ཏེ་ཡོད་མི་དེ་ལས་ མགྱོགས་དྲགས་སྦེ་ འགོ་བཙུགས་ནིའི་ཐབས་ཤེས་གསརཔ་ཅིག་ཨིན། དེ་ལུ་ནེཊི་མི་ཊིང་གིས་ རྒྱབ་སྐྱོར་མེདཔ་ལས་ མགྱོགས་པར་འགོ་བཙུགས་དང་ H.245 ཊ་ན་ལིང་གཉིས་ཆ་རང་ ལག་ལེན་འཐབ་པ་ཅིན་ ནེཊི་མི་ཊིང་གི་་ ཐོན་རིམ་ལ་ལོ་ཅིག་ལུ་ བརྡབ་འཁྲུག་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:17
+msgid "Country code"
+msgstr "རྒྱལ་ཁབ་ཀྱི་ཀོཌི།"
+
+#: ../gnomemeeting.schemas.in.in.h:18
+msgid "DTMF sending"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་ གཏང་དོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:19
+msgid "Display a popup window when receiving a call"
+msgstr "འབོད་བརྡ་ཅིག་འབྱོར་བའི་སྐབས་ པོཔ་ཨཔ་སྒོ་སྒྲིག་ཅིག་ བཀྲམ་སྟོན་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:20
+msgid "E-mail address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:21
+msgid "Enable 'Fast Start'"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:22
+msgid "Enable H.245 tunnelling"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:23
+msgid "Enable IP checking"
+msgstr "ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:24
+msgid "Enable IP translation"
+msgstr "ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:25
+msgid "Enable STUN Support"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:26
+msgid "Enable bilinear filtering on displayed video"
+msgstr "བཀྲམ་སྟོན་འབད་མི་ ཝི་ཌིའོ་ལུ་ བའི་ལི་ནི་ཡར་ འཚག་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:27
+msgid "Enable early H.245"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:28
+msgid "Enable or disable bilinear interpolation when rendering video images (this has no effect in fullscreen mode)"
+msgstr "ཝི་ཌོའི་གཟུགས་བརྙན་ཚུ་ལྷག་སྟོན་འབད་བའི་སྐབས་ བའི་ལི་ནི་ཡར་བསྐྱར་བསྣོན་ ལྕོགས་ཅན་ནམ་ ལྕོགས་མིན་བཟོ། (འདི་གིས་གསལ་གཞི་གང་བའི་ཐབས་ལམ་ལུ་ནུས་པ་མེད་)"
+
+#: ../gnomemeeting.schemas.in.in.h:29
+msgid "Enable registering"
+msgstr "ཐོ་འགོད་འབད་ནི་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:30
+msgid "Enable silence detection"
+msgstr "ཁུ་སིམ་སིམ་སྐྱོན་འཛིན་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:31
+msgid "Enable video reception"
+msgstr "ཝི་ཌིའོ་སྒྲ་འབྱོར་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:32
+msgid "Enable video transmission"
+msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:33
+msgid "Enter a comment about yourself for the user directory"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོའི་དོན་ལུ་ ཁྱོད་རའི་སྐོར་ལས་ བསམ་བཀོད་ཅིག་བཙུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:34
+msgid "Enter a valid URL to connect to a web application that outputs the public IP of your host"
+msgstr "ཁྱོད་རའི་ཧོསིཊི་གི་ མི་མང་ཨའི་པི་བྱིན་མི་ ཝེབ་ཀྱི་གློག་རིམ་ཅིག་ལུ་ མཐུད་ནིའི་དོན་ལས་ ནུས་ཅན་གྱི་ཡུ་ཨར་ཨེལ་ཅིག་བཙུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:35
+msgid "Enter the public IP of your NAT/PAT router if you want to use IP translation. If you are registered to ils.seconix.com, GnomeMeeting will automatically fetch the public IP using the ILS service"
+msgstr "ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་འདོད་ཡོད་པ་ཅིན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི་དེ་བཙུགས། ཁྱོད་རང་ ils.seconix.com ལུ་ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གིས་ རང་བཞིན་གྱིས་ ཨའི་ཨེལ་ཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ མི་མང་གི་ཨའི་པི་ལེན་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:36
+#: ../src/pref_window.cpp:663
+msgid "Enter your e-mail address"
+msgstr "ཁྲོད་རའི་གློག་འཕྲིན་ཁ་བྱང་བཙུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:37
+#: ../src/pref_window.cpp:649
+msgid "Enter your first name"
+msgstr "ཁྱོད་རའི་འགོ་མིང་བཙུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:38
+msgid "Enter your last name"
+msgstr "ཁྱོར་རའི་མཇུག་མིང་བཙུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:39
+msgid "Enter your location (country or city) for the user directory"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོའི་དོན་ལུ་ ཁྱོད་རའི་ཉེ་གནས་བཙུགས། (རྒྱལ་ཁབ་བམ་ཁྲོམ་སྡེ་)"
+
+#: ../gnomemeeting.schemas.in.in.h:40
+msgid "First name"
+msgstr "འགོ་མིང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:41
+msgid "Forward calls to host"
+msgstr "འབོད་བརྡ་ཚུ་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:42
+msgid "Forward calls to the given host if busy"
+msgstr "ཁོམ་མེད་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:43
+msgid "Forward calls to the given host if no answer"
+msgstr "ལན་གསལ་མེད་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:44
+#: ../src/pref_window.cpp:986
+msgid "Gatekeeper ID"
+msgstr "སྒོ་སྲུང་པའི་ཨའི་ཌི།"
+
+#: ../gnomemeeting.schemas.in.in.h:45
+msgid "Gatekeeper alias"
+msgstr "སྒོ་སྲུང་པའི་མིང་གཞན།"
+
+#: ../gnomemeeting.schemas.in.in.h:46
+msgid "Gatekeeper alias as primary alias"
+msgstr "སྒོ་སྲུང་པའི་མིང་གཞན་ གཞི་རིམ་གྱི་མིང་གཞན་བཟུམ་སྦེ།"
+
+#: ../gnomemeeting.schemas.in.in.h:47
+#: ../src/pref_window.cpp:985
+msgid "Gatekeeper host"
+msgstr "སྒོ་སྲུང་པའི་ཧོསིཊི།"
+
+#: ../gnomemeeting.schemas.in.in.h:48
+msgid "Gatekeeper password"
+msgstr "སྒོ་སྲུང་པའི་ཆོག་ཡིག"
+
+#: ../gnomemeeting.schemas.in.in.h:49
+msgid "Gateway/proxy host"
+msgstr "འཛུལ་སྒོ/པོརོག་སི་ ཧོསིཊི།"
+
+#: ../gnomemeeting.schemas.in.in.h:50
+#: ../src/pref_window.cpp:701
+msgid "If enabled, GnomeMeeting will start hidden provided that the notification area is present in the GNOME panel"
+msgstr "ལྕོགས་ཅན་བཟོཝ་ད་ ཇི་ནོམ་པེ་ནཱལ་ནང་ བརྡ་བསྐུལ་མངའ་ཁོངས་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གིས་ གསང་བ་འགོ་བཙུགསཔ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:51
+msgid "If enabled, a popup window will be displayed when receiving an incoming call"
+msgstr "ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་འཐོབ་པའི་སྐབས་ པོཔ་ཨཔ་སྒོ་སྒྲིག་ཅིག་ བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:52
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field below"
+msgstr "ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ཆ་མཉམ་ འོག་གི་ས་སྒོའི་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:53
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field below if you already are in a call or if you are in Do Not Disturb mode"
+msgstr "ཁྱོད་རང་ཧེ་མ་ལས་རང་ འབོད་བརྡ་ཅིག་ནང་ཡོདཔ་ད་ ཡང་ན་ མ་དཀྲོགས་ཟེར་མི་ ཐབས་ལམ་ནང་ཡོད་པ་ཅིན་ ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ཆ་མཉམ་ འོག་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:54
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field below if you do not answer the call"
+msgstr "ཁྱོད་ཀྱིས་འབོད་བརྡ་ལུ་ ལན་གསལ་མ་བྱིན་པ་ཅིན་ ལྕོགས་ཅན་བཟོཝ་ད་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་ཆ་མཉམ་ འོག་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:55
+msgid "If enabled, allows video to be received during a call"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ཡང་ ཝི་ཌིའོ་ལེན་བཅུགཔ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:56
+#: ../src/pref_window.cpp:780
+msgid "If enabled, calls for which no audio and video has been received in the last 30 seconds are automatically cleared"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འདས་པའི་སྐར་ཆ་༣༠ ནང་འཁོད་ལུ་ རྣར་ཉན་དང་ ཝི་ཌིའོ་མེད་པའི་ འབོད་བརྡ་འབྱོར་མི་ཚུ་ རང་བཞིན་གྱིས་བསལཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:57
+msgid "If enabled, register with the selected user directory"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ སེལ་འཐུ་འབད་མི་ ལག་ལེན་པའི་སྣོད་ཐོ་ནང་ ཐོ་འགོད་འབདཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:58
+#: ../src/pref_window.cpp:699
+msgid "If enabled, the splash screen will be displayed when GnomeMeeting starts"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ ཇི་ནོམ་མི་ཊིང་འགོ་བཙུགསཔ་ད་ སིཔེལེཤ་གསལ་གཞི་དེ་ བཀྲམ་སྟོན་འབད་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:59
+#: ../src/pref_window.cpp:716
+msgid "If enabled, the text chat will automatically be cleared at the end of calls"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་མཇུག་བསྡུཝ་ད་ ཁ་སླབ་ཚིག་ཡིག་ཚུ་ རང་བཞིན་གྱིས་བསལཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:60
+msgid "If enabled, use silence detection with the GSM and G.711 codecs"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་དེ་ ཇི་ཨེསི་ཨེམ་དང་ ཇི་.༧༡༡ ཀོ་ཌེགསི་དང་གཅིག་ཁར་ ལག་ལེན་འཐབ།"
+
+#: ../gnomemeeting.schemas.in.in.h:61
+msgid "If enabled, video is transmitted during a call"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡའི་སྐབས་ལུ་ ཝི་ཌིའོ་སྤེལ་བཀྲམ་འབདཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:62
+msgid "If enabled, your details are shown to people browsing the user directory. If disabled, you are not visible to users browsing the user directory, but they can still use the callto URL to call you"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ ཁྱོད་རའི་རྒྱས་བཤད་ཚུ་ ལག་ལེན་པའི་སྣོད་ཐོ་ བརྡ་འཚོལ་འབད་མི་ མི་མང་ལུ་སྟོནམ་ཨིན། ལྕོགས་མིན་བཟོ་བ་ཅིན་ ལག་ལེན་པའི་སྣོད་ཐོ་ བརྡ་འཚོལ་འབད་མི་ཚུ་གིས་ ཁྱོད་མི་མཐོང་། དེ་འབདཝ་ད་ ཁྱོད་ལུ་འབོད་བརྡ་གཏང་ནིའི་དོན་ལུ་ ཁོང་ཆ་ཁྱབ་ཀྱིས་ གཏང་ཡུལ་ ཡུ་ཨར་ཨེལ་ ལག་ལེན་འཐབ་ཚུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:63
+msgid "Incoming call mode"
+msgstr "ནང་འབྱོར་འབོད་བརྡའི་ཐབས་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:64
+msgid "Kind of network selected in the druid"
+msgstr "ཌུའིཌི་ནང་ སེལ་འཐུ་འབད་མི་ ཡོངས་འབྲེལ་གྱི་དབྱེ་ཁག"
+
+#: ../gnomemeeting.schemas.in.in.h:65
+msgid "Last name"
+msgstr "མཇུག་མིང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:66
+msgid "Listen port"
+msgstr "ཉན་ནིའི་འདྲེན་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:67
+msgid "Local video window size"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌོའི་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:68
+#: ../src/addressbook_window.cpp:1028
+msgid "Location"
+msgstr "གནས་ཁོངས།"
+
+#: ../gnomemeeting.schemas.in.in.h:69
+msgid "Maximum jitter buffer"
+msgstr "ཇི་ཊར་གནད་ཁོངས་ཀྱི་མང་མཐའ།"
+
+#: ../gnomemeeting.schemas.in.in.h:70
+msgid "Maximum video bandwidth"
+msgstr "ཝི་ཌིའོ་གི་ བེན་ཝིཐ་གི་ མང་མཐའ།"
+
+#: ../gnomemeeting.schemas.in.in.h:71
+msgid "Minimum jitter buffer"
+msgstr "ཇི་ཊར་གནད་ཁོངས་ཀྱི་ཉུང་མཐའ།"
+
+#: ../gnomemeeting.schemas.in.in.h:72
+msgid "Minimum transmitted video quality"
+msgstr "སྤེལ་བཀྲམ་འབད་བའི་ ཝི་ཌིའོ་གི་སྤུས་ཚད་ཉུང་མཐའ།"
+
+#: ../gnomemeeting.schemas.in.in.h:73
+msgid "Missed calls history"
+msgstr "འབོད་བརྡ་བྱིག་ཡར་སོང་བའི་ལོ་རྒྱུས།"
+
+#: ../gnomemeeting.schemas.in.in.h:74
+msgid "No answer timeout"
+msgstr "ལན་གསལ་མེད་པའི་ངལ་མཚམས།"
+
+#: ../gnomemeeting.schemas.in.in.h:75
+msgid "Number of frames for G.711"
+msgstr "ཇི་.༧༡༡ གི་དོན་ལུ་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../gnomemeeting.schemas.in.in.h:76
+msgid "Number of frames for GSM"
+msgstr "ཇི་ཨེསི་ཨེམ་གྱི་དོན་ལུ་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../gnomemeeting.schemas.in.in.h:77
+msgid "Number of frames transmitted in each packet for the G.711 codec"
+msgstr "ཇི་.༧༡༡ ཀོ་ཌེཀ་གི་དོན་ལུ་ སྒམ་ཆུང་རེ་རེ་བཞིན་དུའི་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../gnomemeeting.schemas.in.in.h:78
+msgid "Number of frames transmitted in each packet for the GSM codec"
+msgstr "ཇི་ཨེསི་ཨེམ་ ཀོ་ཌེཀ་གི་དོན་ལུ་ སྒམ་ཆུང་རེ་རེ་བཞིན་དུའི་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས།"
+
+#: ../gnomemeeting.schemas.in.in.h:79
+msgid "Output device type"
+msgstr "ཨའུཊི་པུཊི་ཐབས་ལམ་གྱི་དབྱེ་བ།"
+
+#: ../gnomemeeting.schemas.in.in.h:80
+#: ../src/pref_window.cpp:709
+msgid "Place windows displaying video above other windows during calls"
+msgstr "འབོད་བརྡ་ཚུ་གི་སྐབས་ལུ་ སྒོ་སྒྲིག་གཞན་གྱི་ལྟག་ལུ་ ཝི་ཌིའོ་བཀྲམ་སྟོན་འབད་མི་ སྒོ་སྒྲིག་ཚུ་བཞག"
+
+#: ../gnomemeeting.schemas.in.in.h:81
+msgid "Placed calls history"
+msgstr "བཞག་ཡོད་པའི་ འབོད་བརྡའི་ལོ་རྒྱུས།"
+
+#: ../gnomemeeting.schemas.in.in.h:82
+#: ../src/pref_window.cpp:1855
+msgid "Play busy tone"
+msgstr "ཁོམ་མེད་སྐད་ཀྱི་སྙན་ཆ་གཏང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:83
+#: ../src/pref_window.cpp:1846
+msgid "Play ring tone"
+msgstr "འབོད་བརྡའི་སྐད་ཀྱི་སྙན་ཆ།"
+
+#: ../gnomemeeting.schemas.in.in.h:84
+#: ../src/pref_window.cpp:1837
+msgid "Play sound on incoming calls"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ཚུ་ལུ་ སྒྲ་སྐད་གཏང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:85
+msgid "Position of the local video window"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་གི་གནས་ས།"
+
+#: ../gnomemeeting.schemas.in.in.h:86
+msgid "Position on the screen of the PC-To-Phone window"
+msgstr "གསལ་གཞི་ལུ་ གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་ སྒོ་སྒྲིག་གི་གནས་ས།"
+
+#: ../gnomemeeting.schemas.in.in.h:87
+msgid "Position on the screen of the address book window"
+msgstr "ཁ་བྱང་ཀི་དེབ་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../gnomemeeting.schemas.in.in.h:88
+msgid "Position on the screen of the calls history window"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../gnomemeeting.schemas.in.in.h:89
+msgid "Position on the screen of the druid window"
+msgstr "ཌུའིཌི་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../gnomemeeting.schemas.in.in.h:90
+msgid "Position on the screen of the log window"
+msgstr "དྲན་དེབ་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས།"
+
+#: ../gnomemeeting.schemas.in.in.h:91
+msgid "Position on the screen of the main window"
+msgstr "སྒོ་སྒྲིག་གཙོ་བོའི་ གསལ་གཞི་གུ་གནས་ས་།"
+
+#: ../gnomemeeting.schemas.in.in.h:92
+msgid "Position on the screen of the preferences window"
+msgstr "དགའ་གདམ་སྒོ་སྒྲིག་གི་ གསལ་གཞི་གུ་གནས་ས་།"
+
+#: ../gnomemeeting.schemas.in.in.h:93
+msgid "Public IP of the NAT/PAT router"
+msgstr "ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི།"
+
+#: ../gnomemeeting.schemas.in.in.h:94
+msgid "Received calls history"
+msgstr "འབྱོར་ཡོད་པའི་འབོད་བརྡའི་ལོ་རྒྱུས།"
+
+#: ../gnomemeeting.schemas.in.in.h:95
+msgid "Registering method"
+msgstr "ཐོ་འགོད་ཀྱི་ཐབས་ཤེས།"
+
+#: ../gnomemeeting.schemas.in.in.h:96
+msgid "Registration timeout"
+msgstr "ཐོ་འགོད་ཀྱི་ངལ་མཚམས།"
+
+#: ../gnomemeeting.schemas.in.in.h:97
+msgid "Remote video window position"
+msgstr "ཐག་རིང་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../gnomemeeting.schemas.in.in.h:98
+msgid "Remote video window size"
+msgstr "ཐག་རིང་་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:99
+msgid "Revision of the schema file"
+msgstr "ལས་འཆར་ཡིག་སྣོད་བསྐྱར་ཞིབ།"
+
+#: ../gnomemeeting.schemas.in.in.h:100
+#: ../src/pref_window.cpp:1118
+msgid "Select the audio input device to use"
+msgstr "ལག་ལེན་གྱི་དོན་ལུ་ རྣར་ཉན་ཨིན་པུཊི་ཐབས་འཕྲུལ་ སེལ་འཐུ་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:101
+#: ../src/pref_window.cpp:1111
+msgid "Select the audio output device to use"
+msgstr "ལག་ལེན་གྱི་དོན་ལུ་ རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་ལམ་ སེལ་འཐུ་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:102
+msgid "Select the audio output device to use for the ring sound event."
+msgstr "འབོད་སྐད་བྱིང་ལས་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་ཨའུཊི་པུཊི་ཐབས་ལམ་ སེལ་འཐུ་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:103
+#: ../src/pref_window.cpp:1195
+msgid "Select the format for video cameras (does not apply to most USB cameras)"
+msgstr "ཝི་ཌིའོ་པར་ཆས་ཀྱི་དོན་ལུ་ རྩ་སྒྲིག་སེལ་འཐུ་འབད། (ཡུ་ཨེསི་བི་ པར་ཆས་མང་ཤོས་ལུ་ འཇུག་སྤྱོད་མི་འབད)"
+
+#: ../gnomemeeting.schemas.in.in.h:104
+#: ../src/pref_window.cpp:1193
+msgid "Select the transmitted video size: Small (QCIF 176x144) or Large (CIF 352x288)"
+msgstr "སྤེལ་བཀྲམ་འབད་མི་ ཝི་ཌིའོ་གི་ཚད་ སེལ་འཐུ་འབད་: ཆུང་ཀུ་ (ཀིའུ་སི་ཨའི་ཨེཕ་ ༡༧༦x༡༤༤) ཡང་ན་ ཆེ་བ་(སི་ཨའི་ཨེཕ་ ༣༥༢x༢༨༨)"
+
+#: ../gnomemeeting.schemas.in.in.h:105
+#: ../src/pref_window.cpp:1187
+msgid "Select the video input device to use. If an error occurs when using this device a test picture will be transmitted."
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཨིན་པུཊི་ཐབས་ལམ་ སེལ་འཐུ་འབད། ཐབས་འཕྲུལ་འདི་ ལག་ལེན་འཐབ་པའི་སྐབས་ འཛོལ་བ་འབྱུང་པ་ཅིན་ བརྟག་ཞིབ་ཀྱི་དཔར་ཅིག་ སྤེལ་བཀྲམ་འབད་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:106
+msgid "Show chat window"
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག་སྟོན།"
+
+#: ../gnomemeeting.schemas.in.in.h:107
+msgid "Show my details to other registered users"
+msgstr "ཐོ་འགོད་འབད་མི་ ལག་ལེན་པ་གཞན་ཚུ་ལུ་ ངེད་ཀྱི་རྒྱས་བཤད་སྟོན།"
+
+#: ../gnomemeeting.schemas.in.in.h:108
+msgid "Show splash screen at startup"
+msgstr "འགོ་བཙུགས་སྐབས་ སིཔེ་ལེཤ་ གསལ་གཞི་སྟོན།"
+
+#: ../gnomemeeting.schemas.in.in.h:109
+msgid "Show the chat window in the main window"
+msgstr "ཁ་སླབ་སྒོ་སྒྲིག་དེ་ སྒོ་སྒྲིག་གཙོ་བོའི་ནང་སྟོན།"
+
+#: ../gnomemeeting.schemas.in.in.h:110
+msgid "Size of the PC-To-Phone window"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ལུ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:111
+msgid "Size of the address book window"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:112
+msgid "Size of the calls history window"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས་ཀྱི་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:113
+msgid "Size of the druid window"
+msgstr "ཌུའིཌི་གི་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:114
+msgid "Size of the log window"
+msgstr "དྲན་དེབ་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:115
+msgid "Size of the preferences window"
+msgstr "དགའ་གདམ་སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:116
+msgid "Start hidden"
+msgstr "གསང་བ་འགོ་བཙུགས།"
+
+#: ../gnomemeeting.schemas.in.in.h:117
+#: ../src/main_window.cpp:1143
+#: ../src/main_window.cpp:1649
+#: ../src/main_window.cpp:1674
+msgid "Switch to fullscreen"
+msgstr "གསལ་གཞི་གངམ་ལུ་སོར་བསྒྱུར་འབད།"
+
+#: ../gnomemeeting.schemas.in.in.h:118
+msgid "TCP port range"
+msgstr "ཊི་སི་པི་འདྲེན་ལམ་གྱི་ཁྱབ་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:119
+msgid "The Audio Codecs List"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀསི་ ཐོ་ཡིག"
+
+#: ../gnomemeeting.schemas.in.in.h:120
+#: ../src/pref_window.cpp:1126
+msgid "The Automatic Echo Cancellation level: Off, Low, Medium, High, Automatic Gain Compensation. Choosing Automatic Gain Compensation modulates the volume for best quality."
+msgstr "རང་བཞིན་བྲག་ཅ་ཆ་མེད་གནས་རིམ་: ཨོཕ། དམའ་བ། འབྲིང་མ། མཐོ་བ། རང་བཞིན་ཁེ་ཕན་རྒུད་འཐུས། རང་བཞིན་ཁེ་ཕནརྒུད་འཐུས་་གདམ་ཁ་རྐྱབ་ད་ སྤུས་ཚད་དྲག་ཤོས་ཀྱི་ སྐད་ཤུགས་བྱིནམ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:121
+#: ../src/pref_window.cpp:999
+msgid "The Gatekeeper alias to use when registering (string, or E164 ID if only 0123456789#)"
+msgstr "ཐོ་འགོད་འབདཝ་ད་ སྒོ་སྲུང་པ་གིས་ མིང་གཞན་ལག་ལེན་འཐབ་དགོཔ། (ཡིག་རྒྱུན་ ཡང་ན་ ཨི་༡༦༤ ཨའི་ཌི་ཨིན་པ་ཅིན་༠༡༢༣༤༥༦༧༨༩#"
+
+#: ../gnomemeeting.schemas.in.in.h:122
+#: ../src/pref_window.cpp:997
+msgid "The Gatekeeper host to register with"
+msgstr "ཐོ་འགོད་འབད་དགོ་པའི་ སྒོ་སྲུང་པའི་ཧོསིཊི།"
+
+#: ../gnomemeeting.schemas.in.in.h:123
+#: ../src/pref_window.cpp:995
+msgid "The Gatekeeper identifier to register with"
+msgstr "ཐོ་འགོད་འབད་དགོ་པའི་ སྒོ་སྲུང་པའི་ངོས་འཛིན་པ།"
+
+#: ../gnomemeeting.schemas.in.in.h:124
+#: ../src/pref_window.cpp:1002
+msgid "The Gatekeeper password to use for H.235 authentication to the Gatekeeper"
+msgstr "སྒོ་སྲུང་པ་ལུ་ H.235 བདེན་བཤད་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ སྒོ་སྲུང་པའི་ཆོག་ཡིག"
+
+#: ../gnomemeeting.schemas.in.in.h:125
+#: ../src/pref_window.cpp:1027
+msgid "The Gateway host is the host to use to do H.323 calls through a gateway that will relay calls"
+msgstr "འཛུལ་སྒོའི་ཧོསིཊི་དེ་ འཛུལ་སྒོ་ཅིག་བརྒྱུད་དེ་ འབོད་བརྡ་སྤེལ་མི་ H.323 འབོད་བརྡའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་ ཧོསིཊི་དེ་རང་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:126
+msgid "The STUN Server"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ སར་བར།"
+
+#: ../gnomemeeting.schemas.in.in.h:127
+#: ../src/pref_window.cpp:1059
+msgid "The STUN server to use for STUN Support. STUN is a technic that permits to go through some types of NAT gateways."
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཨེསི་ཊི་ཡུ་ཨེན་སར་བར། ཨེསི་ཊི་ཡུ་ཨེན་ཟེར་མི་དེ་ ནེཊི་འཛུལ་སྒོའི་དབྱེ་བ་ལ་ལོ་ཅིག་བརྒྱུད་དེ་ འགྱོ་ནིའི་གནང་བ་བྱིན་མི་ ཐབས་རིག་ཅིག་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:128
+msgid "The audio plugin that will be used to detect the devices and manage them"
+msgstr "ཐབས་འཕྲུལ་ཚུ་སྐྱོན་འཛིན་འབད་དེ་ འཛིན་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་གྱི་པ་ལག་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:129
+msgid "The busy tone sound"
+msgstr "ཁོམ་མེད་སྒྲ་སྐད་ཀྱི་སྙན་ཆ།"
+
+#: ../gnomemeeting.schemas.in.in.h:130
+msgid "The chosen sound will be played at the end of calls or calling somebody who is busy, if enabled"
+msgstr "ལྕོགས་ཅན་བཟོ་བ་ཅིན་ འབོད་བརྡ་རྫོགས་མཚམས་ལུ་ ཡང་ན་ ཁོམ་མེད་ཅིག་ལུ་ འབོད་བརྡ་གཏང་བའི་སྐབས་ གདམ་ཁ་བརྐྱབས་མི་སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:131
+msgid "The chosen sound will be played on incoming calls, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡའི་སྐབས་ལུ་ གདམ་ཁ་བརྐྱབས་མི་ སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:132
+msgid "The chosen sound will be played when calling somebody, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ མི་ཅིག་ལུ་འབོད་བརྡ་གཏང་བའི་སྐབས་ གདམ་ཁ་བརྐྱབས་མི་ སྒྲ་སྐད་དེ་གཏང་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:133
+msgid "The default video view"
+msgstr "སྔོན་སྒྲིག་འབད་མི་ ཝི་ཌིའོ་གི་མཐོང་སྣང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:134
+msgid "The default video view (0: Local, 1: Remote, 2: Both incrusted, 3: Both with local video in a separate window, 4: Both)"
+msgstr "སྔོན་སྒྲིག་ཝི་ཌིའོ་གི་མཐོང་སྣང་། (༠:ཉེ་གནས། ༡:ཐག་རིང་། ༢:གཉིས་ཆ་ར་སྲ་ཤུན་ཆགས་པ། ༣:གཉིས་ཆ་ར་ སྒོ་སྒྲིག་སོ་སོ་ནང་ ཉེ་གནས་ཀྱི་ཝི་ཌིའོ་དང་གཅིག་ཁར། ༤: གཉིས་ཆ་ར)"
+
+#: ../gnomemeeting.schemas.in.in.h:135
+msgid "The history of the last 100 missed calls"
+msgstr "མཐའ་མཇུག་བྱིག་ཡར་སོང་མི་ འབོད་བརྡ་༡༠༠ གི་ལོ་རྒྱུས།"
+
+#: ../gnomemeeting.schemas.in.in.h:136
+msgid "The history of the last 100 placed calls"
+msgstr "མཐའ་མཇུག་བཏང་ཡོད་མི་ འབོད་བརྡ་༡༠༠ གི་ལོ་རྒྱུས།"
+
+#: ../gnomemeeting.schemas.in.in.h:137
+msgid "The history of the last 100 received calls"
+msgstr "མཐའ་མཇུག་འབྱོར་ཡོད་མི་ འབོད་བརྡ་༡༠༠ གི་ལོ་རྒྱུས།"
+
+#: ../gnomemeeting.schemas.in.in.h:138
+#: ../src/pref_window.cpp:755
+msgid "The host where calls should be forwarded to in the cases selected above"
+msgstr "གོང་ལུ་སེལ་འཐུ་འབད་མི་ འབྲེལ་གནད་ཀྱི་སྐབས་ལུ་ འབོད་བརྡ་ཚུ་ གདོང་བསྐྱོད་འབད་སའི་ཧོསཊི།"
+
+#: ../gnomemeeting.schemas.in.in.h:139
+#: ../src/pref_window.cpp:1198
+msgid "The image to transmit if \"Picture\" is selected as video plugin or if the opening of the device fails. Leave blank to use the default GnomeMeeting logo."
+msgstr "གལ་སྲིད་\"Picture\"དེ་ཝི་ཌིའོ་པ་ལག་ཨིན་སྦེ་ སེལ་འཐུ་འབད་ཡོདཔ་དང་ ཡང་ན་ ཐབས་འཕྲུལ་དེ་ ཁ་ཕྱེ་མ་བཏུབ་པ་ཅིན་ སྤེལ་བཀྲམ་འབད་ནིའི་གཟུགས་བརྙན།\" སྔོན་སྒྲིག་ཇི་ནོམ་མི་ཊིང་གི་ལས་རྟགས་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ ས་སྟོང་བཞག"
+
+#: ../gnomemeeting.schemas.in.in.h:140
+msgid "The incoming call sound"
+msgstr "ནང་འབྱོར་འབོད་བརྡའི་སྒྲ་སྐད།"
+
+#: ../gnomemeeting.schemas.in.in.h:141
+msgid "The local zoom value"
+msgstr "ཉེ་གནས་ཀྱི་ རྒྱས་ཟུམ་བེ་ལུ།"
+
+#: ../gnomemeeting.schemas.in.in.h:142
+msgid "The maximum jitter buffer size for audio reception (in ms)"
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཚད་ཀྱི་མང་མཐའ། (མི་ལི་སྐར་ཆའི་ནང་)"
+
+#: ../gnomemeeting.schemas.in.in.h:143
+msgid "The maximum video bandwidth in kbytes/s. The video quality and the number of transmitted frames per second will be dynamically adjusted above their minimum during calls to try to minimize the bandwidth to the given value"
+msgstr "ཝི་ཌིའོ་གི་ བེནཌི་ཝིཐ་གི་མང་མཐའ་ ཀེ་བཱའིཊིསི་ནང་། གྲ་བསྒྲིགས་ཡོད་པའི་བེ་ལུའི་ བེནཌི་ཝིཐ་ མར་ཕབ་འབད་ཐབས་ལུ་ ཝི་ཌིའོ་གི་སྤུས་ཚད་དང་ སྐར་ཆ་རེ་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས་ཚུ་ འབོད་བརྡའི་སྐབས་ལུ་ ཁོང་རའི་ཉུང་མཐའི་ལྟག་ལུ་ ནུས་ཅན་གྱི་སྒོ་ལས་ བདེ་སྒྲིག་འབད་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:144
+msgid "The minimum jitter buffer size for audio reception (in ms)"
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཚད་ཀྱི་ཉུང་མཐའ། (མི་ལི་སྐར་ཆའི་ནང་)"
+
+#: ../gnomemeeting.schemas.in.in.h:146
+#, no-c-format
+msgid "The minimum transmitted video quality to keep when trying to minimize the used bandwidth: choose 100% on a LAN for the best quality, 1% being the worst quality"
+msgstr "ལག་ལེན་འཐབ་ཡོད་པའི་ བེནཌི་ཝིཐ་མར་ཕབ་ བརྐྱབ་ཐབས་འབདཝ་ད་ སྤེལ་བཀྲམ་འབད་མི་ཝི་ཌིའོ་གི་ སྤུས་ཚད་ཉུང་མཐའ་ བདག་འཛིན་འཐབ་དགོཔ་: སྤུས་ཚད་དྲག་ཤོས་ཀྱི་དོན་ལུ་ ཉེ་གནས་ཡོངས་འབྲེལ་ནང་ ༡༠༠% གདམ་ཁ་རྐྱབས། ༡% དེ་ སྤུས་ཚད་སྐྱོ་ཤོས་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:147
+#: ../src/pref_window.cpp:1128
+msgid "The output device type is the type of device connected to your Quicknet card. It can be either a POTS (Plain Old Telephone System) or a headset."
+msgstr "ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་གྱི་དབྱེ་བ་དེ་ ཁྱོད་རའི་ ཀུའིཀ་ནེཊི་ ཤོག་བྱང་ལུ་ མཐུད་དེ་ཡོད་མི་ ཐབས་འཕྲུལ་གྱི་ དབྱེ་བ་དེ་རང་ཨིན། དེ་ཡང་ ཡང་ཅིན་ པི་ཨོ་ཊི་ཨེསི་ (བརྒྱུད་འཕྲིན་རིམ་ལུགས་རྙིང་རྐྱང་) ཅིག་འོང་སྲིད་ནི་དང་ ཡང་ཅིན་ རྣར་དཔག་སྒྲ་ཆས་ཅིག་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:148
+msgid "The port to listen to for incoming connections. GnomeMeeting needs to be restarted for the new value to take effect."
+msgstr "ནང་འབྱོར་མཐུད་ལམ་ཚུ་གི་དོན་ལུ་ ཉན་ནིའི་འདྲེན་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:149
+msgid "The position of the local video window"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../gnomemeeting.schemas.in.in.h:150
+msgid "The position of the remote video window"
+msgstr "ཐག་རིང་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་གནས་ས་།"
+
+#: ../gnomemeeting.schemas.in.in.h:151
+msgid "The prefix that will be used to save pictures of the conversation. That prefix is followed by the snapshot number."
+msgstr "གྲོས་གླེང་གི་དཔར་ཚུ་ སྲུང་བཞག་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་སྔོན་ཚིག སྔོན་ཚིག་དེ་གི་ཤུལ་བདའ་སྟེ་ པར་གྱི་ཨང་འོངམ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:152
+msgid "The range of TCP ports beside the listen_port that GnomeMeeting will use for the H.245 channel. You can change the TCP port range if you are using IP translation and if you need to have several GnomeMeeting running behind your NAT/PAT router. GnomeMeeting needs to be restarted for the new values to take effect. This port range has no effect if both participants to the conference are using H.245 Tunneling."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ H.245 གི་དོན་ལུ་  ལག་ལེན་འཐབ་ནི་ལུ་ ཉན་ནིའི་འདྲེན་ལམ་གྱིས་མ་ཚད་པར་ ཊི་སི་པི་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད། ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་པའི་བསྒང་ཨིནམ་ད་ ཡང་ན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་རྒྱབ་ལས་ ཇི་ནོམ་མི་ཊིང་ལེ་ཤ་ཅིག་དགོ་པ་ཅིན་ ཁྱོད་ཀྱིས་ཊི་སི་པི་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་དེ་སོར་བཏུབ། བེ་ལུསི་གསརཔ་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ ཇི་ནོམ་མི་ཊིང་དེ་ ལོག་འགོ་བཙུགས་དགོ ཞལ་འཛོམས་དེ་ནང་བཅའ་མར་གཏོགས་མི་ གཉིས་ཆ་ར་གིས་ H.245 ཊ་ན་ལིང་ ལག་ལེན་འཐབ་པ་ཅིན་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་འདི་ལུ་ ནུས་པ་མེད། "
+
+#: ../gnomemeeting.schemas.in.in.h:153
+msgid "The range of UDP ports that GnomeMeeting will use for RTP (audio and video communication channels). You can change the UDP port range if you are using IP translation and if you need to have several GnomeMeeting running behind your NAT/PAT router. GnomeMeeting needs to be restarted for the new values to take effect."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ ཨར་ཊི་པི་ (རྣར་ཉན་དང་ ཝི་ཌིའོ་གི་བརྒྱུད་འབྲེལ་གྱི་རྒྱུ་ལམ་ཚུ) གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཡུ་ཌི་པི་འདྲེན་ལམ་གྱི་ཁྱབ་ཚད། ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་པའི་བསྒང་ཨིནམ་ད་ ཡང་ན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་རྒྱབ་ལས་ ཇི་ནོམ་མི་ཊིང་ལེ་ཤ་ཅིག་དགོ་པ་ཅིན་ ཁྱོད་ཀྱིས་ཡུ་ཌི་པི་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་དེ་སོར་བཏུབ། བེ་ལུསི་གསརཔ་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ ཇི་ནོམ་མི་ཊིང་དེ་ ལོག་འགོ་བཙུགས་དགོ"
+
+#: ../gnomemeeting.schemas.in.in.h:154
+msgid "The range of UDP ports that GnomeMeeting will use when registering to gatekeepers. You can change the UDP port range if you are using IP translation and if you need to have several GnomeMeeting running behind your NAT/PAT router. GnomeMeeting needs to be restarted for the new values to take effect. This port range has no effect if you are not registering to a gatekeeper."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ སྒོ་སྲུང་པ་ལུ་ ཐོ་འགོད་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡུ་ཌི་པི་གི་འདྲེན་ལམ་གྱི་ཁྱབ་ཚད། ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་པའི་བསྒང་ཨིནམ་ད་ ཡང་ན་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་རྒྱབ་ལས་ ཇི་ནོམ་མི་ཊིང་ལེ་ཤ་ཅིག་དགོ་པ་ཅིན་ ཁྱོད་ཀྱིས་ཡུ་ཌི་པི་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་དེ་སོར་བཏུབ། བེ་ལུསི་གསརཔ་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ ཇི་ནོམ་མི་ཊིང་དེ་ ལོག་འགོ་བཙུགས་དགོ ཁྱོད་ཀྱིས་སྒོ་སྲུང་པ་ཅིག་ལུ་ ཐོ་འགོད་མ་འབད་བ་ཅིན་ འདྲེན་ལམ་གྱི་ཁྱབ་ཚད་འདི་ལུ་ ནུས་པ་མེད།"
+
+#: ../gnomemeeting.schemas.in.in.h:155
+#: ../src/pref_window.cpp:1010
+msgid "The registering method to use"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཐོ་འགོད་ཐབས་ཤེས།"
+
+#: ../gnomemeeting.schemas.in.in.h:156
+msgid "The remote zoom value"
+msgstr "ཐག་རིང་རྒྱས་ཟུམ་གྱི་བེ་ལུ།"
+
+#: ../gnomemeeting.schemas.in.in.h:157
+msgid "The ring tone sound"
+msgstr "འབོད་བརྡའི་སྐད་ཀྱི་སྙན་ཆ།"
+
+#: ../gnomemeeting.schemas.in.in.h:158
+msgid "The save prefix"
+msgstr "སྲུང་བཞག་སྔོན་ཚིག"
+
+#: ../gnomemeeting.schemas.in.in.h:159
+msgid "The size of the local video window"
+msgstr "ཉེ་གནས་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:160
+msgid "The size of the remote video window"
+msgstr "ཐག་རིང་ཝི་ཌིའོ་ སྒོ་སྒྲིག་གི་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:161
+msgid "The sound that will be played at the end of calls or when calling somebody who is busy, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འབོད་བརྡ་རྫོགས་མཚམས་དང་ ཡང་ན་ ཁོམ་མེད་ཀྱི་མི་ཅིག་ལུ་ འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../gnomemeeting.schemas.in.in.h:162
+msgid "The sound that will be played on incoming calls, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../gnomemeeting.schemas.in.in.h:163
+msgid "The sound that will be played when calling somebody, if enabled"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ མི་ཅིག་ལུ་འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ གཏང་ནིའི་སྒྲ་སྐད།"
+
+#: ../gnomemeeting.schemas.in.in.h:164
+#: ../src/pref_window.cpp:1006
+msgid "The time after which GnomeMeeting will renew its registration with the gatekeeper"
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ སྒོ་སྲུང་པ་དང་གཅིག་ཁར་ ཐོ་འགོད་བསྐྱར་གསོ་འབད་ནིའི་དུས་ཚོད།"
+
+#: ../gnomemeeting.schemas.in.in.h:165
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)"
+msgstr "ཁྱོད་རའི་རྒྱལ་ཁབ་ཀྱི་ ཡི་གུ་གཉིས་འབད་མི་ རྒྱལ་ཁབ་ཀྱི་ཨང་རྟགས། (དཔེར་ན་ BE, UK, FR, DE, ..ལྟ་བུ)"
+
+#: ../gnomemeeting.schemas.in.in.h:166
+msgid "The user directory server to register with"
+msgstr "ཐོ་འགོད་འབད་དགོ་པའི་ ལག་ལེན་པའི་སྣོད་ཐོ་སར་བར།"
+
+#: ../gnomemeeting.schemas.in.in.h:167
+#: ../src/pref_window.cpp:1191
+msgid "The video channel number to use (to select camera, tv or other sources)"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཝི་ཌིའོ་གི་རྒྱུ་ལམ་ཨང་། (པར་ཆས་དང་ རྒྱང་མཐོང་ ཡང་ན་ འབྱུང་ཁུངས་གཞན་ཚུ་)"
+
+#: ../gnomemeeting.schemas.in.in.h:168
+#: ../src/pref_window.cpp:1175
+msgid "The video plugin that will be used to detect the devices and manage them"
+msgstr "ཐབས་ལམ་ཚུ་ ངོས་འཛིན་འབད་དེ་ དེ་ཚུ་འཛིན་སྐྱོང་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཝི་ཌིའོ་པ་ལག་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:169
+msgid "The way to react to incoming calls: 0 displays a popup, 1 automatically answers the call, 2 automatically rejects the call and 3 forwards the call to the given URL, if any"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ཚུ་ལུ་ གདོང་ལན་འབད་ཐངས་: ༠ གིས་པོཔ་ཨཔ་ཅིག་བཀྲམ་སྟོན་འབདཝ་ཨིན། ༡ གིས་རང་བཞིན་གྱིས་ འབོད་བརྡ་དེ་ལུ་ ལན་རྐྱབ་ཨིན། ༢ ཀྱིས་རང་བཞིན་གྱིས་འབོད་བརྡ་དེ་ལུ་ དང་ལེན་སྤངམ་ཨིན། ༣ གྱིས་གྲ་བསྒྲིགས་ཡོད་པའི་ ཡུ་ཨར་ཨེལ་ལུ་ (ཡོད་པ་ཅིན་) གདོང་བསྐྱོད་འབད་ནི།"
+
+#: ../gnomemeeting.schemas.in.in.h:170
+msgid "The zoom value"
+msgstr "རྒྱས་ཟུམ་གྱི་བེ་ལུ།"
+
+#: ../gnomemeeting.schemas.in.in.h:171
+msgid "The zoom value to apply to images displayed in the local video window (can be 0.50, 1.00, or 2.00)"
+msgstr "ཉེ་གནས་ཀྱི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་ནང་ བཀྲམ་སྟོན་འབད་མི་ གཟུགས་བརྙན་ཚུ་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྒྱས་ཟུམ་གྱི་བེ་ལུ་དེ། (༠.༥༠ འམ་ ༡.༠༠ འམ་ ༢.༠༠ ཚུ་བཏུབ)"
+
+#: ../gnomemeeting.schemas.in.in.h:172
+msgid "The zoom value to apply to images displayed in the main GUI (can be 0.50, 1.00, or 2.00)"
+msgstr "ཇི་ཡུ་ཨའི་གཙོ་བོའི་ནང་ བཀྲམ་སྟོན་འབད་མི་ གཟུགས་བརྙན་ཚུ་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྒྱས་ཟུམ་གྱི་བེ་ལུ་དེ། (༠.༥༠ འམ་ ༡.༠༠ འམ་ ༢.༠༠ ཚུ་བཏུབ)"
+
+#: ../gnomemeeting.schemas.in.in.h:173
+msgid "The zoom value to apply to images displayed in the remote video window (can be 0.50, 1.00, or 2.00)"
+msgstr "ཐག་རིང་གི་ ཝི་ཌིའོ་སྒོ་སྒྲིག་ནང་ བཀྲམ་སྟོན་འབད་མི་ གཟུགས་བརྙན་ཚུ་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྒྱས་ཟུམ་གྱི་བེ་ལུ་དེ། (༠.༥༠ འམ་ ༡.༠༠ འམ་ ༢.༠༠ ཚུ་བཏུབ)"
+
+#: ../gnomemeeting.schemas.in.in.h:174
+msgid "This enables H.245 Tunnelling mode. In H.245 Tunnelling mode H.245 messages are encapsulated into the the H.225 channel (port 1720). This saves one TCP connection during calls. H.245 Tunnelling was introduced in H.323v2 and Netmeeting does not support it. Using both Fast Start and H.245 Tunnelling can crash some versions of Netmeeting."
+msgstr "འདི་གིས་H.245 ཊ་ན་ལིང་ཐབས་ལམ་ ལྕོགས་ཅན་བཟོཝ་ཨིན། H.245 ཊ་ན་ལིང་ཐབས་ལམ་ནང་ H.245འཕྲིན་དོན་ཚུ་ H.225 རྒྱུ་ལམ་ འདྲེན་ལམ་༡༧༢༠) ནང་ལུ་ མདོར་བསྡུས་ཏེ་ཡོདཔ་ཨིན། འདི་གིས་འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ ཊི་སི་པི་མཐུད་ལམ་གཅིག་ སྲུང་བཞག་འབདཝ་ཨིན། H.245  ཊ་ན་ལིང་དེ་ H.323v2 ནང་འགོ་བཙུགས་ཏེ་ཡོདཔ་ད་ ནེཊི་མི་ཊིང་གིས་ དེ་ལུ་རྒྱབ་སྐྱོར་མི་འབད། མགྱོགས་པར་འགོ་བཙུགས་དང་ H.245  ཊ་ན་ལིང་གཉིས་ཆ་ར་ ལག་ལེན་འཐབ་པ་ཅིན་ ནེཊི་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ མེདཔ་འགྱོ་འོང་།"
+
+#: ../gnomemeeting.schemas.in.in.h:175
+#: ../src/pref_window.cpp:963
+msgid "This enables H.245 early in the setup"
+msgstr "འདི་གིས་གཞི་སྒྲིག་སྐབས་ འགོ་དང་འགོ་ལས་རང་ H.245  ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:176
+msgid "This enables IP checking from seconix.com and fills the IP in the public IP of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only used when IP Translation is enabled. If you disable IP checking, you will have to manually enter the IP of your gateway in the GnomeMeeting preferences"
+msgstr "འདི་གིས་ seconix.com ་ནང་ལས་ ཨའི་པི་གི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ་བའི་ཁར་ ཇི་ནོམ་མི་ཊིང་གི་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ འཛུལ་སྒོ་ས་སྒོ་གི་ མི་མང་ཨའི་པི་ནང་ལུ་ ཨའི་པི་བཀངམ་ཨིན། སླར་ལོག་གི་ཨའི་པི་དེ་ ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་ཨིན་པའི་སྐབས་ལུ་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱིས་ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་མིན་བཟོ་བ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གི་ དགའ་གདམ་ཚུ་ནང་ ཁྱོད་རའི་འཛུལ་སྒོའི་ཨའི་པི་དེ་ ལག་ཐོག་ལས་བཙུགས་དགོ"
+
+#: ../gnomemeeting.schemas.in.in.h:177
+msgid "This enables IP translation. IP translation is useful if GnomeMeeting is running behind a NAT/PAT router. You have to put the public IP of the router in the field below. If you are registered to ils.seconix.com, GnomeMeeting will automatically fetch the public IP using the ILS service. If your router natively supports H.323, you can disable this"
+msgstr "འདི་གིས་ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོཝ་ཨིན། ཨའི་པི་སྐད་བསྒྱུར་དེ་ ཇི་ནོམ་མི་ཊིང་དེ་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་རོ་ཊར་གྱི་རྒྱབ་ཁར་ གཡོག་བཀོལ་བའི་བསྒང་ཡོད་པ་ཅིན་ ཕན་ཐོགས་ཡོད། ཁྱོད་ཀྱིས་འོག་གི་ས་སྒོ་ནང་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི་བཙུགས་དགོ  ཁྱོད་རང་ils.seconix.com ལུ་ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གིས་ རང་བཞིན་གྱིས་ ཨའི་ཨེལཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་པའི་སྒོ་ལས་ མི་མང་གི་ཨའི་པི་ལེནམ་ཨིན། ཁྱོད་རའི་རོ་ཊར་གྱིས་ H.323 ལུ་རྒྱབ་སྐྱོར་འབད་བ་ཅིན་ ཁྱོད་ཀྱིས་འདི་ལྕོགས་མིན་བཟོ་རུང་བཏུབ།"
+
+#: ../gnomemeeting.schemas.in.in.h:178
+#: ../src/pref_window.cpp:1057
+msgid "This enables STUN Support. STUN is a technic that permits to go through some types of NAT gateways."
+msgstr "འདི་གིས་ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོཝ་ཨིན། ཨེསི་ཊི་ཡུ་ཨེན་དེ་ ཨེན་ཨེ་ཊི་ འཛུལ་སྒོའི་དབྱེ་བ་ ལ་ལོ་ཅིག་བརྒྱུད་དེ་ འགྱོ་ནིའི་གནང་བ་བྱིན་མི་ ཐབས་རིག་ཅིག་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:179
+msgid "This permits to set the mode for DTMFs sending. The values can be \"All\" (0), \"None\" (1), \"rfc2833\" (2), \"Signal\" (3) or \"String\" (4) (default is \"All\"). Choosing other values than \"All\", \"String\" or \"rfc2833\" disables the Text Chat"
+msgstr "འདི་གིས་ ཌི་ཊི་ཨེམ་ཨེཕ་གཏང་ནིའི་དོན་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་གི་ གནང་བ་བྱིནམ་ཨིན། བཏུབ་པའི་བེ་ལུསི་ཚུ་ \"All\"(༠), \"None\" (༡), \"rfc2833\" (༢), \"Signal\" (༣)ཡང་ན་ \"String\"(༤)(སྔོན་སྒྲིག་དེ་ \"All\")ཨིན། \"All\", \"String\"  ཡང་ན་ \"rfc2833\" མ་ཡིན་པའི་ བེལུསི་གཞན་ གདམ་ཁ་བརྐྱབ་པ་ཅིན་ ཁ་སླབ་ཚིག་ཡིག་དེ་ ལྕོགས་མིན་བཟོཝ་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:180
+msgid "Transmitted background blocks"
+msgstr "རྒྱབ་གཞིའི་འགག་ཆ་ སྤེལ་བཀྲམ་འབད་ཡོདཔ།"
+
+#: ../gnomemeeting.schemas.in.in.h:181
+msgid "UDP port range"
+msgstr "ཡི་ཌི་པི་ མཐུད་ལམ་གྱི་ཁྱབ་ཚད།"
+
+#: ../gnomemeeting.schemas.in.in.h:182
+msgid "Use the gateway"
+msgstr "འཛུལ་སྒོ་དེ་ ལག་ལེན་འཐབ།"
+
+#: ../gnomemeeting.schemas.in.in.h:183
+#: ../src/pref_window.cpp:1029
+msgid "Use the specified gateway to do calls"
+msgstr "འབོད་བརྡ་གཏང་ནིའི་དོན་ལུ་ གསལ་བཀོད་འབད་མི་ འཛུལ་སྒོ་ལག་ལེན་འཐབ།"
+
+#: ../gnomemeeting.schemas.in.in.h:184
+msgid "Use this option to ensure the above alias is used as the primary alias when registering with a gatekeeper. This may be required if your gatekeeper can only perform authentication using the first alias in the list"
+msgstr "སྒོ་སྲུང་པ་ལུ་ ཐོ་འགོད་འབད་བའི་སྐབས་ གོང་གི་མིང་གཞན་དེ་ མིང་གཞན་གཙོ་བོ་སྦེ་ ངེས་ཏིག་བཟོ་ནི་ལུ་ གདམ་ཁ་འདི་ ལག་ལེན་འཐབ། དེ་ཡང་ ཁྱོད་ཀྱི་སྒོ་སྲུང་པ་གིས་ ཐོ་ཡིག་ནང་གི་ མིང་གཞན་དང་པམ་དེ་ ལག་ལེན་འཐབ་སྟེ་མ་གཏོགས་ བདེན་བཤད་འབད་མ་ཚུགས་པ་ཅིན་དགོཔ་འོང་"
+
+#: ../gnomemeeting.schemas.in.in.h:185
+msgid "User directory"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ།"
+
+#: ../gnomemeeting.schemas.in.in.h:186
+msgid "Version"
+msgstr "ཐོན་རིམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:187
+msgid "Video channel"
+msgstr "ཝི་ཌིའོ་རྒྱུ་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:188
+msgid "Video format"
+msgstr "ཝི་ཌིའོ་རྩ་སྒྲིག"
+
+#: ../gnomemeeting.schemas.in.in.h:189
+msgid "Video image"
+msgstr "ཝི་ཌིའོ་གཟུགས་བརྙན།"
+
+#: ../gnomemeeting.schemas.in.in.h:190
+msgid "Video input device"
+msgstr "ཝི་ཌིའོ་ཨིན་པུཊི་ཐབས་ལམ།"
+
+#: ../gnomemeeting.schemas.in.in.h:191
+msgid "Video plugin"
+msgstr "ཝི་ཌིའོ་པ་ལག་ཨིན།"
+
+#: ../gnomemeeting.schemas.in.in.h:192
+msgid "Video preview"
+msgstr "ཝི་ཌིའོ་སྔོན་ལྟ།"
+
+#: ../gnomemeeting.schemas.in.in.h:193
+msgid "Video size"
+msgstr "ཝི་ཌིའོ་ཚད།"
+
+#: ../lib/about/gnome-about.c:203
+msgid "Credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: ../lib/about/gnome-about.c:235
+msgid "Written by"
+msgstr "བྲིས་མི།"
+
+#: ../lib/about/gnome-about.c:250
+msgid "Documented by"
+msgstr "ཡིག་ཐོག་ལུ་བཀོད་མི།"
+
+#: ../lib/about/gnome-about.c:265
+msgid "Translated by"
+msgstr "སྐད་བསྒྱུར་འབད་མི།"
+
+#. Add the credits button
+#: ../lib/about/gnome-about.c:326
+msgid "C_redits"
+msgstr "\"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: ../lib/about/gnome-about.c:407
+msgid "Authors"
+msgstr "རྩོམ་པ་པོ་ཚུ།"
+
+#: ../lib/about/gnome-about.c:408
+msgid "List of authors of the programs"
+msgstr "ལས་རིམ་ཚུ་གི་རྩོམ་པ་པོ་ཚུ་གི་ཐོ་ཡིག"
+
+#: ../lib/about/gnome-about.c:421
+msgid "Documenter entry"
+msgstr "ཡིག་ཐོག་ལུ་བཀོད་མིའི་ཐོ་བཀོད།"
+
+#: ../lib/about/gnome-about.c:422
+msgid "A single documenter entry"
+msgstr "ཡིག་ཐོག་ལུ་བཀོད་མི་ རྐྱང་པོའི་ཐོ་བཀོད།"
+
+#: ../lib/about/gnome-about.c:518
+#, c-format
+msgid "About %s"
+msgstr "སྐོར་ལས་%s།"
+
+#: ../lib/dialog.c:254
+msgid "Do not show this dialog again"
+msgstr "ཌའི་ལོག་འདི་ ལོག་སྟེ་མ་བཏོན།"
+
+#: ../lib/gm_conf-gconf.c:155
+msgid ""
+"An error has happened in the configuration backend.\n"
+"Maybe some of your settings won't be saved."
+msgstr ""
+"རིམ་སྒྲིག་གི་རྒྱབ་མཐའ་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག\n"
+"ཁྱོད་ཀྱི་གཞི་སྒྲིག་ལ་ལོ་ཅིག་ སྲུང་བཞག་མི་འབདཝ་འོང་།"
+
+#: ../lib/stats_drawing_area.c:332
+#, c-format
+msgid "Total: %.2f MB"
+msgstr "བསྡོམས་:%.2f་ ཨེམ་བི།"
+
+#: ../lib/contacts/gm_contacts-zeroconf.cpp:309
+msgid "Contacts Near Me"
+msgstr "ངེད་ཀྱི་སྦོ་ལོགས་ཁའི་འབྲེལ་ས།"
+
+#: ../src/addressbook_window.cpp:774
+msgid "Contact collision"
+msgstr "འབྲེལ་བའི་གདོང་ཐུག"
+
+#: ../src/addressbook_window.cpp:776
+#, c-format
+msgid ""
+"Another contact with the same speed dial already exists in your address book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+msgstr ""
+"ཁྱོད་ཀྱི་ཁ་བྱང་ཀི་དེབ་ནང་ མགྱོགས་ཚད་ཌ་ཡེལ་ཅོག་གཅིགཔ་འབད་མི་ འབྲེལ་ས་གཞན་ཅིག་ ཧེ་མ་ལས་རང་འདུག \n"
+"\n"
+"<b>མིང་</b>: %s\n"
+"<b>ཡུ་ཨར་ཨེལ་</b>: %s\n"
+"<b>མགྱོགས་ཚད་ཌ་ཡེལ་</b>: %s\n"
+
+#: ../src/addressbook_window.cpp:776
+#: ../src/addressbook_window.cpp:778
+#: ../src/druid.cpp:1838
+#: ../src/pref_window.cpp:948
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../src/addressbook_window.cpp:778
+#, c-format
+msgid ""
+"Another contact with similar information already exists in your address book:\n"
+"\n"
+"<b>Name</b>: %s\n"
+"<b>URL</b>: %s\n"
+"<b>Speed Dial</b>: %s\n"
+"\n"
+"Do you still want to add the contact?"
+msgstr ""
+"ཁྱོད་ཀྱི་ཁ་བྱང་ཀི་དེབ་ནང་ བརྡ་དོན་ཅོག་གཅིགཔ་འབད་མི་ འབྲེལ་ས་གཞན་ཅིག་ ཧེ་མ་ལས་རང་འདུག\n"
+"\n"
+"<b>མིང་</b>: %s\n"
+"<b>ཡུ་ཨར་ཨེལ་</b>: %s\n"
+"<b>མགྱོགས་ཚད་ཌ་ཡེལ་</b>: %s\n"
+"\n"
+"ཁྱོད་ཀྱིས་ད་རུང་ འབྲེལ་ས་དེ་ ཁ་སྐོང་བརྐྱབ་ནི་ཨིན་ན?"
+
+#. Translators: This is "S" as in "Status"
+#: ../src/addressbook_window.cpp:949
+msgid "S"
+msgstr "ཨེསི།"
+
+#: ../src/addressbook_window.cpp:960
+#: ../src/pref_window.cpp:509
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../src/addressbook_window.cpp:988
+#: ../src/calls_history_window.cpp:737
+msgid "Software"
+msgstr "མཉེན་ཆས།"
+
+#: ../src/addressbook_window.cpp:1002
+msgid "URL"
+msgstr "ཡུ་ཨར་ཨེལ།"
+
+#: ../src/addressbook_window.cpp:1016
+msgid "E-Mail"
+msgstr "གློག་འཕྲིན།"
+
+#: ../src/addressbook_window.cpp:1042
+msgid "Categories"
+msgstr "དབྱེ་ཁག"
+
+#: ../src/addressbook_window.cpp:1056
+msgid "Speed Dial"
+msgstr "མགྱོགས་ཚད་ཌ་ཡེལ།"
+
+#: ../src/addressbook_window.cpp:1089
+msgid "Name contains"
+msgstr "མིང་ནང་ཡོད་པ།"
+
+#: ../src/addressbook_window.cpp:1093
+msgid "URL contains"
+msgstr "ཡུ་ཨར་ཨེལ་ནང་ཡོད་པ།"
+
+#: ../src/addressbook_window.cpp:1099
+msgid "Belongs to category"
+msgstr "དབྱེ་ཁག་ལུ་བང་མི།"
+
+#: ../src/addressbook_window.cpp:1474
+#: ../src/addressbook_window.cpp:1504
+#: ../src/addressbook_window.cpp:2276
+#: ../src/calls_history_window.cpp:284
+msgid "C_all Contact"
+msgstr "འབྲེལ་ས་ལུ་འབོད་བརྡ་གཏང་།(_a)"
+
+#: ../src/addressbook_window.cpp:1479
+#: ../src/addressbook_window.cpp:1509
+msgid "_Copy URL to clipboard"
+msgstr "ཡུ་ཨར་ཨེལ་ འཛིན་པང་ལུ་ འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#: ../src/addressbook_window.cpp:1486
+#: ../src/addressbook_window.cpp:1544
+#: ../src/addressbook_window.cpp:2262
+msgid "_Properties"
+msgstr "རྒྱུ་དངོས།(_P)"
+
+#: ../src/addressbook_window.cpp:1493
+#: ../src/addressbook_window.cpp:1551
+#: ../src/addressbook_window.cpp:2257
+msgid "_Delete"
+msgstr "བཏོན་གཏང་།(_D)"
+
+#: ../src/addressbook_window.cpp:1516
+#: ../src/addressbook_window.cpp:2286
+#: ../src/calls_history_window.cpp:291
+msgid "Add Contact to _Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ལུ་ འབྲེལ་ས་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../src/addressbook_window.cpp:1776
+#, c-format
+msgid "Error while fetching users list from %s"
+msgstr "%sནང་ལས་ ལག་ལེན་པའི་ཐོ་ཡིག་ ལེན་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/addressbook_window.cpp:1780
+#, c-format
+msgid "Found %d user in %s"
+msgid_plural "Found %d users in %s"
+msgstr[0] "ལག་ལེན་པ་%dཐོབ་ཅི་%sནང་།"
+msgstr[1] "ལག་ལེན་པ་%dཐོབ་ཅི་%sནང་།"
+
+#: ../src/addressbook_window.cpp:1784
+msgid "Found %d user in %s for a total of %d users"
+msgid_plural "Found %d users in %s for a total of %d users"
+msgstr[0] "ལག་ལེན་པ་%dཐོབ་ཅི་%sནང་།"
+msgstr[1] "ལག་ལེན་པ་%dཐོབ་ཅི་%sནང་།"
+
+#: ../src/addressbook_window.cpp:2221
+msgid "Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ།"
+
+#: ../src/addressbook_window.cpp:2248
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../src/addressbook_window.cpp:2250
+msgid "New _Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་གསརཔ།(_A)"
+
+#: ../src/addressbook_window.cpp:2269
+#: ../src/main_window.cpp:1018
+msgid "_Close"
+msgstr "ཁ་བསྡམས།(_C)"
+
+#: ../src/addressbook_window.cpp:2274
+msgid "C_ontact"
+msgstr "འབྲེལ་ས།(_o)"
+
+#: ../src/addressbook_window.cpp:2282
+msgid "New _Contact"
+msgstr "འབྲེལ་ས་གསརཔ།(_C)"
+
+#: ../src/addressbook_window.cpp:2359
+msgid "Remote Contacts"
+msgstr "ཐག་རིང་གི་འབྲེལ་ས།"
+
+#: ../src/addressbook_window.cpp:2367
+msgid "Local Contacts"
+msgstr "ཉེ་གནས་ཀྱི་འབྲེལ་ས།"
+
+#: ../src/addressbook_window.cpp:2490
+msgid "Edit the Contact Information"
+msgstr "འབྲེལ་སའི་བརྡ་དོན་ ཞུན་དག་རྐྱབས།"
+
+#: ../src/addressbook_window.cpp:2511
+#: ../src/addressbook_window.cpp:2971
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../src/addressbook_window.cpp:2531
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ་:"
+
+#: ../src/addressbook_window.cpp:2551
+msgid "Email:"
+msgstr "གློག་འཕྲིན་:"
+
+#: ../src/addressbook_window.cpp:2572
+msgid "Speed Dial:"
+msgstr "མགྱོགས་ཚད་ཌ་ཡེལ་:"
+
+#: ../src/addressbook_window.cpp:2594
+msgid "Categories:"
+msgstr "དབྱེ་ཁག་ཚུ་:"
+
+#: ../src/addressbook_window.cpp:2619
+msgid "Local Addressbook:"
+msgstr "ཉེ་གནས་ཀྱི་ ཁ་བྱང་ཀི་དེབ་:"
+
+#: ../src/addressbook_window.cpp:2780
+#: ../src/addressbook_window.cpp:3274
+msgid "Missing information"
+msgstr "བརླག་སྟོར་ཞུགས་པའི་བརྡ་དོན།"
+
+#: ../src/addressbook_window.cpp:2780
+msgid "Please make sure to provide at least a full name or an URL for the contact."
+msgstr "འབྲེལ་སའི་དོན་ལུ་ མིང་ཆ་ཚང་ཅིག་དང་ ཡང་ན་ ཡུ་ཨར་ཨེལ་ཅིག་ ངེས་པར་བྱིན་གནང་།"
+
+#: ../src/addressbook_window.cpp:2824
+#, c-format
+msgid "Are you sure you want to delete %s from %s?"
+msgstr "ཁྱོད་ཀྱིས་%sནང་ལས་%s ངེས་པར་དུ་ བཏོན་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/addressbook_window.cpp:2950
+msgid "Edit an address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཅིག་ ཞུན་དག་རྐྱབས།"
+
+#: ../src/addressbook_window.cpp:2951
+msgid "Add an address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཅིག་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/addressbook_window.cpp:2996
+msgid "Type:"
+msgstr "དབྱེ་བ་:"
+
+#: ../src/addressbook_window.cpp:3003
+msgid "Local"
+msgstr "ཉེ་གནས།"
+
+#: ../src/addressbook_window.cpp:3008
+msgid "Remote LDAP"
+msgstr "ཐག་རིང་གི་ ཨེལ་ཌི་ཨེ་པི།"
+
+#: ../src/addressbook_window.cpp:3013
+msgid "Remote ILS"
+msgstr "ཐག་རིང་གི་ ཨའི་ཨེལ་ཨེསི།"
+
+#: ../src/addressbook_window.cpp:3046
+msgid "Hostname:"
+msgstr "ཧོསིཊི་ནེམ་:"
+
+#: ../src/addressbook_window.cpp:3069
+msgid "Port:"
+msgstr "འདྲེན་ལམ་:"
+
+#: ../src/addressbook_window.cpp:3094
+msgid "Base DN:"
+msgstr "གཞི་རྟེན་ ཌི་ཨེན་:"
+
+#: ../src/addressbook_window.cpp:3117
+msgid "Search Scope:"
+msgstr "འོས་སྐབས་འཚོལ་ཞིབ་འབད་:"
+
+#: ../src/addressbook_window.cpp:3124
+msgid "Subtree"
+msgstr "ཡན་ལག་རྩ་འབྲེལ།"
+
+#: ../src/addressbook_window.cpp:3129
+msgid "One Level"
+msgstr "གནས་རིམ་གཅིག"
+
+#: ../src/addressbook_window.cpp:3161
+msgid "Search Attribute:"
+msgstr "ཁྱད་ཆོས་འཚོལ་ཞིབ་འབད་:"
+
+#: ../src/addressbook_window.cpp:3274
+msgid "Please make sure to fill in all requested fields."
+msgstr "ཞུ་བ་འབད་མི་ ས་སྒོ་ཆ་མཉམ་ ངེས་པར་དུ་བཀང་གནང་།"
+
+#: ../src/addressbook_window.cpp:3317
+#, c-format
+msgid "Are you sure you want to delete %s and all its contacts?"
+msgstr "ཁྱོད་ཀྱིས་%sདང་ དེ་གི་འབྲེལ་ས་ཆ་མཉམ་ བཏོན་གཏང་ནི་ ངེས་ཏིག་ཨིན་ན?"
+
+#: ../src/bonobo_component.cpp:114
+msgid "Cannot run GnomeMeeting"
+msgstr "ཇི་ནོམ་མི་ཊིང་ གཡོག་བཀོལ་མི་ཚུགས་པས།"
+
+#: ../src/bonobo_component.cpp:114
+msgid "GnomeMeeting is already running, if you want it to call a given callto or h323 URL, please use \"gnomemeeting -c URL\"."
+msgstr "ཇི་ནོམ་མི་ཊིང་དེ་ ལཱ་འབད་བའི་བསྒང་འདུག དེ་གིས་གྲ་བསྒྲིགས་འབད་མི་ཅིག་ལུའམ h323 ཡུ་ཨར་ཨེལ་ལུ་ འབོད་བརྡ་གཏང་ནི་ཨིན་པ་ཅིན་ \"gnomemeeting -c URL\" ལག་ལེན་འཐབ་གནང་།"
+
+#: ../src/bonobo_component.cpp:167
+msgid "It appears that you do not have gnomemeeting.server installed in a valid location. Factory mode disabled.\n"
+msgstr "ཁྱོད་ལུ་ནུས་ཅན་གནས་་ཁོངས་ཅིག་ནང་ ཇི་ནོམ་མི་ཊིང་སར་བར་ གཞི་བཙུགས་འབད་འབདཝ་ མེདཔ་བཟུམ་ཅིག་འདུག འཕྲུལ་ཁང་གི་ཐབས་ལམ་ ལྕོགས་མིན་ཨིན་པས། \n"
+
+#: ../src/bonobo_component.cpp:171
+msgid "Error registering GnomeMeeting with the activation service; factory mode disabled.\n"
+msgstr "ཇི་ནོམ་མི་ཊིང་ ཤུགས་བསྐྱེད་ཞབས་ཏོག་དང་གཅིག་ཁར་ ཐོ་འགོད་འབད་ནི་ལུ་འཛོལ་བ། འཕྲུལ་ཁང་གི་ཐབས་ལམ་ལྕོགས་མིན་ཨིན་པས།\n"
+
+#: ../src/bonobo_component.cpp:211
+msgid "Failed to retrieve gnomemeeting server from activation server\n"
+msgstr "ཤུགས་བསྐྱེད་སར་བར་ནང་ལས་ ཇི་ནོམ་མི་ཊིང་གི་སར་བར་ སླར་འདྲེན་འབད་མ་ཚུགས།\n"
+
+#: ../src/callbacks.cpp:119
+msgid "Code contributors:"
+msgstr "ཀོཌི་གི་ཕན་འདེབས་པ་:"
+
+#: ../src/callbacks.cpp:133
+msgid "Artwork:"
+msgstr "རི་མོའི་ལཱ་:"
+
+#: ../src/callbacks.cpp:137
+msgid "Contributors:"
+msgstr "ཕན་འདེབས་པ་ཚུ་:"
+
+#. Translators: Please write translator credits here, and
+#. * seperate names with \n
+#: ../src/callbacks.cpp:173
+msgid "translator_credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#. Translators: Please test to see if your translation
+#. * looks OK and fits within the box
+#: ../src/callbacks.cpp:184
+msgid "GnomeMeeting is full-featured H.323 compatible videoconferencing, VoIP and IP-Telephony application that allows you to make audio and video calls to remote users with H.323 hardware or software."
+msgstr "ཇི་ནོམ་མི་ཊིང་དེ་ H.323 གི་ཁྱད་རྣམ་ཆ་ཚང་ཅན་ གློག་ཐོག་ཞལ་འཛོམས་དང་ ཝི་ཨོ་ཨའི་པི་ ཨའི་པི་-འབོད་བརྡ་གློག་རིམ་དང་ མཐུན་འགྱུར་ཡོད་མི་ཅིག་ཨིན། འདི་གིས་ H.323 གི་ སྲ་ཆས་སམ་མཉན་ཆས་ཀྱི་ཐོག་ལས་ ཐག་རིང་ལག་ལེན་པ་ཚུ་ལུ་ རྣར་ཉན་དང་ ཝི་ཌིའོ་གི་འབོད་བརྡ་ཚུ་ གཏང་བཅུགཔ་ཨིན།"
+
+#: ../src/calls_history_window.cpp:646
+msgid "Received Calls"
+msgstr "འབྱོར་ཡོད་པའི་འབོད་བརྡ་ཚུ།"
+
+#: ../src/calls_history_window.cpp:646
+msgid "Placed Calls"
+msgstr "བཏང་ཡོད་པའི་འབོད་བརྡ་ཚུ།"
+
+#: ../src/calls_history_window.cpp:646
+msgid "Missed Calls"
+msgstr "བྱིག་སོང་བའི་འབོད་བརྡ་ཚུ།"
+
+#: ../src/calls_history_window.cpp:658
+#: ../src/main_window.cpp:1164
+#: ../src/tray.cpp:302
+msgid "Calls History"
+msgstr "འབོད་བརྡའི་ལོ་རྒྱུས།"
+
+#: ../src/calls_history_window.cpp:701
+msgid "Date"
+msgstr "ཚེས་གྲངས།"
+
+#: ../src/calls_history_window.cpp:709
+msgid "Remote User"
+msgstr "ཐག་རིང་ལག་ལེན་པ།"
+
+#: ../src/calls_history_window.cpp:718
+msgid "Call Duration"
+msgstr "འབོད་བརྡའི་དུས་ཡུན།"
+
+#: ../src/calls_history_window.cpp:728
+msgid "Call End Reason"
+msgstr "འབོད་བརྡ་མཇུག་བསྡུའི་རྒྱུ་མཚན།"
+
+#. shouldn't happen...
+#: ../src/chat_window.cpp:240
+#, c-format
+msgid "---- Call begins at %s\n"
+msgstr "---- འབོད་བརྡ་%sལུ་ འགོ་བཙུགསཔ་ཨིན། \n"
+
+#. prepare the message to be displayed
+#: ../src/chat_window.cpp:275
+#, c-format
+msgid "---- Call ends at %s\n"
+msgstr "---- འབོད་བརྡ་%sལུ་ མཇུག་བསྡུཝ་ཨིན། \n"
+
+#: ../src/chat_window.cpp:408
+msgid "Open URI"
+msgstr "ཡུ་ཨར་ཨེལ་ ཁ་ཕྱེ།"
+
+#: ../src/chat_window.cpp:411
+#: ../src/chat_window.cpp:427
+msgid "Copy Link Location"
+msgstr "འབྲེལ་ལམ་གྱི་གནས་ཁོངས་འདྲ་བཤུས་རྐྱབས།"
+
+#: ../src/chat_window.cpp:423
+msgid "Connect to"
+msgstr "མཐུད་ས།"
+
+#: ../src/chat_window.cpp:425
+msgid "Add to Address Book"
+msgstr "སྣོད་ཐོ་ལུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../src/chat_window.cpp:445
+msgid "Copy Equation"
+msgstr "ཨི་ཀུའེ་ཤཱན་ འདྲ་བཤུས་རྐྱབས།"
+
+#: ../src/chat_window.cpp:460
+msgid "Send message:"
+msgstr "འཕྲིན་དོན་གཏང་:"
+
+#: ../src/config-tool-i18n.h:1
+msgid "YES"
+msgstr "ཨིན། "
+
+#: ../src/config-tool-i18n.h:2
+msgid "Sorry, this script won't work while GnomeMeeting is running"
+msgstr "དགོངས་མ་འཁྲེལ། ཇི་ནོམ་མི་ཊིང་ལཱ་འབད་བའི་སྐབས་ ཡིག་ཚུགས་འདི་གིས་ ལཱ་འབད་མི་བཏུབ།"
+
+#: ../src/config-tool-i18n.h:3
+msgid "  WARNING!!!"
+msgstr "ཉེན་བརྡ་!!!"
+
+#: ../src/config-tool-i18n.h:4
+msgid ""
+"  This script will delete all user GnomeMeeting configuration,\n"
+"  including preferences that may be important! \n"
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr ""
+"ཡིག་ཚུགས་འདི་གིས་ གལ་ཆེ་བའི་དགའ་གདམ་ཚུ་བརྩིས་པའི་ ཇི་ནོམ་མི་ཊིང་གི་རིམ་སྒྲིག་\n"
+" ལག་ལེན་པ་ཆ་མཉམ་ བཏོན་གཏང་འོང་། \n"
+"ཇི་ཀཱོནཕ་ཌེ་མཱོན་ སྒོ་བསྡམ་ནི་ཨིནམ་ལས་ དེ་ལུ་བརྟེན་ཏེ་ལཱ་འབད་མི་ \n"
+" གློག་རིམ་མེདཔ་ ངེས་ཏིག་བཟོ། \n"
+"ཁྱོད་ཀྱིས་ འདི་ངེས་པར་དུ་འབད་ནི་ཨིན་ན? \n"
+"\n"
+"འབད་འདོད་ཡོད་པ་ཅིན་ \"YES\" ཟེར་སླབ། \n"
+"\n"
+
+#: ../src/config-tool-i18n.h:5
+msgid "Removing $HOME/.gconf/apps/gnomemeeting"
+msgstr "རྩ་བསྐྲད་གཏང་དོ་ $ཧོམ་/.ཇི་ཀཱོནཕ་/ཨེ་པི་པི་ཨེསི་/ཇི་ནོམ་མི་ཊིང་།"
+
+#: ../src/config-tool-i18n.h:6
+#: ../src/config-tool-i18n.h:11
+#: ../src/config-tool-i18n.h:13
+msgid "Shutting down GConf daemon"
+msgstr "ཇི་ཀཱོནཕ་ཌེ་མཱོན་ སྒོ་བསྡམ་དོ།"
+
+#: ../src/config-tool-i18n.h:7
+msgid "...Done."
+msgstr "... ཚར།"
+
+#: ../src/config-tool-i18n.h:8
+msgid "Leaving configuration alone."
+msgstr "རིམ་སྒྲིག་རྐྱངམ་གཅིག་བཞག་དོ།"
+
+#: ../src/config-tool-i18n.h:9
+msgid "Have a nice day."
+msgstr "ཉིནམ་ལེགས་ཤོམ་ཅིག་འབྱུང་བཅུག"
+
+#: ../src/config-tool-i18n.h:10
+msgid ""
+"  The GConf daemon will be shut down, so make sure you have no\n"
+"  applications depending on it running.\n"
+"\n"
+"  Do you really want to do this?\n"
+"\n"
+"  If so, say \"YES\".\n"
+"\n"
+msgstr ""
+"ཇི་ཀཱོནཕ་ཌེ་མཱོན་ སྒོ་བསྡམ་ནི་ཨིནམ་ལས་ དེ་ལུ་བརྟེན་ཏེ་ལཱ་འབད་མི་ \n"
+" གློག་རིམ་མེདཔ་ ངེས་ཏིག་བཟོ། \n"
+"ཁྱོད་ཀྱིས་ འདི་ངེས་པར་དུ་འབད་ནི་ཨིན་ན? \n"
+"\n"
+"འབད་འདོད་ཡོད་པ་ཅིན་ \"YES\" ཟེར་སླབ། \n"
+"\n"
+
+#: ../src/config-tool-i18n.h:12
+msgid "Removing schemas"
+msgstr "ལས་འཆར་རྩ་བསྐྲད་གཏང་དོ།"
+
+#: ../src/config-tool-i18n.h:14
+msgid "Installing schemas"
+msgstr "ལས་འཆར་གཞི་བཙུགས་འབད་དོ།"
+
+#: ../src/config-tool-i18n.h:15
+msgid ""
+"CRITICAL ERROR -- Schema installation failed.\n"
+"Most probably you have the GConf daemon running as root.\n"
+"\n"
+"Run \"gnomemeeting-config-tool --install-schemas\" as root.\n"
+msgstr ""
+"ཚབས་ཆེན་གྱི་འཛོལ་བ་--ལས་འཆར་གཞི་བཙུགས་འབད་མ་ཚུགས།\n"
+" ཇི་ཀཱོནཕ་ཌེ་མཱོན་དེ་ རྩ་བ་བཟུམ་ཅིག་སྦེ་ གཡོག་བཀོལ་དོ་ཡོདཔ་འོང་ནི་མས།.\n"
+"\n"
+"\"gnomemeeting-config-tool --install-schemas\"ཚུ་རྩ་བ་བཟུམ་སྦེ་ གཡོག་བཀོལ།\n"
+
+#: ../src/config-tool-i18n.h:16
+msgid "Usage:  gnomemeeting-config-tool OPTION"
+msgstr "ལག་ལེན་: ཇི་ནོམ་མི་ཊིང་-རིམ་སྒྲིག་-ལག་ཆས་ གདམ་ཁ།"
+
+#: ../src/config-tool-i18n.h:17
+msgid "Fixes problems with the GnomeMeeting settings"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ གཞི་སྒྲིག་ཚུ་གི་ཐོག་ལས་ དཀའ་ངལ་སེལཝ་ཨིན།"
+
+#: ../src/config-tool-i18n.h:18
+msgid "  --clean                remove all user settings"
+msgstr "--གཙང་དག་བཟོ།     ལག་ལེན་པའི་གཞི་སྒྲིག་ཆ་མཉམ་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/config-tool-i18n.h:19
+msgid "  --install-schemas      install schemas with default settings (run as root)"
+msgstr "--ལས་འཆར་-གཞི་བཙུགས་འབད།   ལས་འཆར་ཚུ་ སྔོན་སྒྲིག་གཞི་སྒྲིག་དང་གཅིག་ཁར་ གཞི་བཙུགས་འབད། (རྩ་བ་སྦེ་གཡོག་བཀོལ)"
+
+#: ../src/config-tool-i18n.h:20
+msgid "  --clean-schemas        remove schemas with default settings (run as root)"
+msgstr "--ལས་འཆར་-གཙང་དག་བཟོ།   ལས་འཆར་ཚུ་ སྔོན་སྒྲིག་གཞི་སྒྲིག་དང་བཅསཔ་འབད་ རྩ་བསྐྲད་གཏང་། (རྩ་བ་སྦེ་གཡོག་བཀོལ)"
+
+#: ../src/config-tool-i18n.h:21
+msgid "  --fix-permissions      fix permissions of GConf repository (run as root)"
+msgstr "--གནང་བ་ཚུ་-ཉམས་བཅོས་འབད།  ཇི་ཀཱོནཕ་མཛོད་གནས་ཀྱི་ གནང་བ་ཚུ་ཉམས་བཅོས་འབད། (རྩ་བ་སྦེ་གཡོག་བཀོལ) "
+
+#: ../src/config.cpp:230
+#: ../src/config.cpp:493
+msgid "Changing this setting will only affect new calls"
+msgstr "གཞི་སྒྲིག་འདི་ བསྒྱུར་བཅོས་འབད་མི་གིས་ འབོད་བརྡ་གསརཔ་གཏང་མི་ཚུ་ལུ་རྐྱངམ་གཅིག་ ནུས་པ་འཐོབ་ཚུགས།"
+
+#: ../src/config.cpp:231
+#: ../src/config.cpp:494
+msgid "You have changed a setting that doesn't permit to GnomeMeeting to apply the new change to the current call. Your new setting will only take effect for the next call."
+msgstr "ཁྱོད་ཀྱིས་ཇི་ནོམ་མི་ཊིང་གིས་ ད་ལྟོའི་འབོད་བརྡ་དེ་ལུ་ བསྒྱུར་བཅོས་གསརཔ་ ལག་ལེན་འཐབ་མི་བཏུབ་པའི་ གཞི་སྒྲིག་ཅིག་ལུ་ བསྒྱུར་བཅོས་འབད་ནུག ཁྱོད་ཀྱི་གཞི་སྒྲིག་གསརཔ་དེ་གིས་ ཤུལ་མའི་འབོད་བརྡ་ལུ་རྐྱངམ་ཅིག་ ནུས་པ་བྱིན་འོང་།"
+
+#: ../src/config.cpp:301
+msgid "H.245 Tunneling disabled"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་མིན་ཨིན་པས།"
+
+#: ../src/config.cpp:302
+msgid "H.245 Tunneling enabled"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:333
+msgid "Early H.245 disabled"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:334
+msgid "Early H.245 enabled"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:365
+msgid "Fast Start disabled"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:366
+msgid "Fast Start enabled"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:398
+msgid "No gateway or proxy specified"
+msgstr "འཛུལ་སྒོའམ་ པོརོག་སི་ ག་ནི་ཡང་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../src/config.cpp:398
+msgid "You need to specify a host to use as gateway or proxy."
+msgstr "ཁྱོད་ཀྱིས་འཛུལ་སྒོ་འམ་ པོརོག་སི་འབད་ལག་ལེན་འཐབ་ནིའི་ ཧོསིཊི་ཅིག་ གསལ་བཀོད་འབད་དགོ"
+
+#: ../src/config.cpp:552
+msgid "Disabled silence detection"
+msgstr "ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:558
+msgid "Enabled silence detection"
+msgstr "ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ལྕོགས་ཅན་བཟོ་ཡི།"
+
+#: ../src/config.cpp:1120
+msgid "Forward URL not specified"
+msgstr "གསལ་བཀོད་མ་འབད་མི་ ཡུ་ཨར་ཨེལ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../src/config.cpp:1121
+msgid ""
+"You need to specify an URL where to forward calls in the call forwarding section of the preferences!\n"
+"\n"
+"Disabling forwarding."
+msgstr ""
+"ཁྱོད་ཀྱིས་འབོད་བརྡ་གདོང་བསྐྱོད་ཀྱི་ དགའ་གདམ་ཚུ་ནང་ འབོད་བརྡ་ཚུ་ ག་ཏེ་གདོང་བསྐྱོད་འབད་ནི་ཨིན་ན་གི་ ཡུ་ཨར་ཨེལ་ཅིག་ གསལ་བཀོད་འབད་དགོ!\n"
+"\n"
+"གདོང་བསྐྱོད་ལྕོགས་མིན་བཟོ་དོ།"
+
+#: ../src/connection.cpp:155
+#, c-format
+msgid "Opened codec %s for transmission"
+msgstr "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་ %s།"
+
+#: ../src/connection.cpp:158
+#, c-format
+msgid "Closed codec %s which was opened for transmission"
+msgstr "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་%sདེ་ ཁ་བསྡམས་ཡོད།"
+
+#: ../src/connection.cpp:162
+#, c-format
+msgid "Opened codec %s for reception"
+msgstr "སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་%s།"
+
+#: ../src/connection.cpp:165
+#, c-format
+msgid "Closed codec %s which was opened for reception"
+msgstr "སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཁ་ཕྱེ་མི་ ཀོ་ཌེཀ་%sདེ་ ཁ་བསྡམས་ཡོད།"
+
+#: ../src/connection.cpp:203
+#, c-format
+msgid "Failure opening %s for transmission, will try with next common codec"
+msgstr "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་%sཁ་ཕྱེ་མ་ཚུགས། ཤུལ་མའི་མཐུན་མོང་གི་ ཀོ་ཌེཀ་གི་ཐོག་ལས་ འབད་རྩོལ་བསྐྱེད་འོང་།"
+
+#: ../src/connection.cpp:204
+#, c-format
+msgid "Failure opening %s for reception, will try with next common codec"
+msgstr "སྤེལ་བཀྲམ་གྱི་དོན་ལུ་%sཁ་ཕྱེ་མ་ཚུགས། ཤུལ་མའི་མཐུན་མོང་གི་ ཀོ་ཌེཀ་གི་ཐོག་ལས་ འབད་རྩོལ་བསྐྱེད་འོང་།"
+
+#: ../src/connection.cpp:326
+#: ../src/connection.cpp:327
+#: ../src/urlhandler.cpp:77
+#: ../src/urlhandler.cpp:78
+msgid "Call transfer failed"
+msgstr "འབོད་བརྡ་གནས་སོར་ འབད་མ་བཏུབ།"
+
+#: ../src/connection.cpp:326
+msgid "The remote user tried to transfer your call to another user, but it failed."
+msgstr "ཐག་རིང་ལག་ལེན་པ་དེ་གིས་ ཁྱོད་ཀྱི་འབོད་བརྡ་དེ་ ལག་ལེན་པ་གཞན་ཅིག་ལུ་ གནས་སོར་འབད་ཐབས་འབད་ནུག དེ་འབདཝ་ད་ འབད་མ་ཚུགས་པས།"
+
+#: ../src/druid.cpp:601
+msgid ""
+"This is the GnomeMeeting general configuration druid. The following steps will set up GnomeMeeting by asking a few simple questions.\n"
+"\n"
+"Once you have completed these steps, you can always change them later by selecting Preferences in the Edit menu."
+msgstr ""
+"འདི་ཇི་ནོམ་མི་ཊིང་གི་ ཡོངས་ཁྱབ་རིམ་སྒྲིག་ཌུའིཌི་ཨིན། འོག་གི་ཐབས་རིམ་ཚུ་གིས་ དྲི་བ་འཇམ་སམ་དག་པ་ཅིག་ འདྲི་བའི་ཐོག་ལས་ ཇི་ནོམ་མི་ཊིང་ གཞི་སྒྲིག་འབད་འོང་།\n"
+"\n"
+"ཁྱོད་ཀྱིས་ཐབས་རིམ་དེ་ཚུ་ ཆ་ཚང་འབད་ཞིནམ་ལས་ ཤུལ་ལས་ནམ་རང་འབད་རུང་ ཞུན་དག་དཀར་ཆག་ནང་གི་ དགའ་གདམ་ཚུ་ སེལ་འཐུ་འབད་བའི་ཐོག་ལས་ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: ../src/druid.cpp:613
+#, c-format
+msgid "Configuration Druid - page 1/%d"
+msgstr "རིམ་སྒྲིག་ཌུའིཌི་ཤོག་ལེབ་༡/%d"
+
+#: ../src/druid.cpp:655
+#, c-format
+msgid "Personal Information - page %d/%d"
+msgstr "རང་དོན་བརྡ་དོན་-ཤོག་ལེབ་%d/%d"
+
+#. The user fields
+#: ../src/druid.cpp:668
+msgid "Please enter your first name and your surname:"
+msgstr "ཁྱོད་རའི་མགོ་མིང་དང་ མཇུག་མིང་བཙུགས།"
+
+#: ../src/druid.cpp:676
+msgid "Your first name and surname will be used when connecting to other VoIP and videoconferencing software."
+msgstr "ཁྱོད་ཀྱི་མགོ་མིང་དང་ མཇུག་མིང་ཚུ་ ཝི་ཨོ་ཨའི་པི་གཞན་དང་ གློག་ཐོག་ཞལ་འཛོམས་ཀྱི་མཉེན་ཆས་ཚུ་ལུ་ མཐུད་པའི་སྐབས་ ལག་ལེན་འཐབ་ནི་ཨིན།"
+
+#: ../src/druid.cpp:721
+#, c-format
+msgid "Callto URL - page %d/%d"
+msgstr "གཏང་ཡུལ་ ཡུ་ཨར་ཨེལ་-ཤོག་ལེབ་%d/%d"
+
+#: ../src/druid.cpp:732
+msgid "Please enter your e-mail address:"
+msgstr "ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་བཙུགས།"
+
+#: ../src/druid.cpp:740
+msgid "Your e-mail address is used when registering to the GnomeMeeting users directory. It is used to create a callto address permitting your contacts to easily call you wherever you are."
+msgstr "ཁྱོད་ཀྱི་གློག་འཕྲིན་ཁ་བྱང་དེ་ ཇི་ནོམ་ལག་ལེན་པའི་ སྣོད་ཐོ་ལུ་ ཐོ་འགོད་འབདཝ་ད་ ལག་ལེན་འཐབ་ཨིན། དེ་ཡང་ ཁྱོད་རའི་འབྲེལ་ས་ཚུ་གིས་ ཁྱོད་རང་ག་ཏེ་ཡོད་རུང་ འཇམ་ཏོང་ཏོ་སྦེ་ འབོད་བརྡ་གཏང་ཚུགས་པའི་ གཏང་ཡུལ་ཁ་བྱང་ཅིག་ བཟོ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཨིན།"
+
+#: ../src/druid.cpp:749
+msgid "I don't want to register to the GnomeMeeting users directory and get a callto address"
+msgstr "ང་ ཇི་ནོམ་མི་ཊིང་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ ཐོ་འགོད་འབད་ནི་དང་ གཏང་ཡུལ་གྱིཁ་བྱང་ཅིག་ ལེན་དགོ་མནོཝ་མེད།"
+
+#: ../src/druid.cpp:798
+#, c-format
+msgid "Connection Type - page %d/%d"
+msgstr "མཐུད་ལམ་གྱི་དབྱེ་བ་-ཤོག་ལེབ་%d/%d"
+
+#. The connection type
+#: ../src/druid.cpp:810
+msgid "Please choose your connection type:"
+msgstr "ཁྱོད་རའི་མཐུད་ལམ་གྱི་དབྱེ་བ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/druid.cpp:818
+msgid "The connection type will permit determining the best quality settings that GnomeMeeting will use during calls. You can later change the settings individually in the preferences window."
+msgstr "མཐུད་ལམ་གྱི་དབྱེ་བ་དེ་གིས་ ཇི་ནོམ་མི་ཊིང་གིས་ འབོད་བརྡ་གཏང་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ སྤུས་ཚད་དྲག་ཤོས་ཀྱི་གཞི་སྒྲིག་ཚུ་ ངོས་འཛིན་འབད་བཅུགཔ་ཨིན།  ཁྱོད་ཀྱིས་ཤུལ་ལས་ གཞི་སྒྲིག་ཚུ་ དགའ་གདམ་སྒོ་སྒྲིག་ནང་ལུ་ རེ་རེ་བཞིན་དུ་འབད་ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#: ../src/druid.cpp:856
+#, c-format
+msgid "NAT Type - page %d/%d"
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་-ཤོག་ལེབ་%d/%d"
+
+#: ../src/druid.cpp:866
+msgid "Click here to detect your NAT Type:"
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་ ངོས་འཛིན་གྱི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/druid.cpp:870
+msgid "Detect NAT Type"
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་ ངོས་འཛིན་འབད།"
+
+#: ../src/druid.cpp:874
+msgid "The NAT type detection will permit to assist you in configuring your NAT router to be able to do calls with GnomeMeeting."
+msgstr "ཨེན་ཨེ་ཊི་དབྱེ་བ་ངོས་འཛིན་དེ་གིས་ ཇི་ནོམ་མི་ཊིང་གི་ཐོག་ལས་ འབོད་བརྡ་གཏང་ཚུགས་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཨེན་ཨེ་ཊི་རོ་ཊར་ རིམ་སྒྲིག་འབད་ནི་ལུ་ ཕན་ཐོགས་འོང་།"
+
+#: ../src/druid.cpp:915
+#, c-format
+msgid "Audio Manager - page %d/%d"
+msgstr "རྣར་ཉན་འཛིན་སྐྱོང་པ་-ཤོག་ལེབ་%d/%d "
+
+#. The Audio devices
+#: ../src/druid.cpp:927
+msgid "Please choose your audio manager:"
+msgstr "ཁྱོད་རའི་རྣར་ཉན་འཛིན་སྐྱོང་པ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/druid.cpp:935
+msgid "The audio manager is the plugin that will manage your audio devices, ALSA is probably the best choice when available."
+msgstr "རྣར་ཉན་འཛིན་སྐྱོང་པ་དེ་ ཁྱོད་རའི་རྣར་ཉན་ཐབས་འཕྲུལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་མི་ པ་ལག་ཨིན་དེ་ཨིན། འཐོབ་ཚུགས་པའི་སྐབས་ གདམ་ཁ་དྲག་ཤོས་དེ་ ཨེ་ཨེལ་ཨེསི་ཨེ་ཨིན།"
+
+#: ../src/druid.cpp:974
+#, c-format
+msgid "Audio Devices - page %d/%d"
+msgstr "རྣར་ཉན་ཐབས་འཕྲུལ་ཚུ་-ཤོག་ལེབ་%d/%d"
+
+#. The Audio devices
+#: ../src/druid.cpp:986
+msgid "Please choose the audio output device:"
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་དེ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/druid.cpp:994
+msgid "The audio output device is the device managed by the audio manager that will be used to play audio."
+msgstr "རྣར་ཉན་ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་དེ་ རྣར་ཉན་འཛིན་སྐྱོང་པ་གིས་ རྣར་ཉན་གཏང་ནིའི་དོན་ལུ་ འཛིན་སྐྱོང་འཐབ་མི་ ཐབས་འཕྲུལ་དེ་ཨིན།"
+
+#: ../src/druid.cpp:1004
+msgid "Please choose the audio input device:"
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ ཐབས་འཕྲུལ་དེ་ གདམ་ཁ་རྐྱབས།་གནང་།"
+
+#: ../src/druid.cpp:1012
+msgid "The audio input device is the device managed by the audio manager that will be used to record your voice."
+msgstr "རྣར་ཉན་ཨིན་པུཊི་ ཐབས་འཕྲུལ་དེ་ རྣར་ཉན་འཛིན་སྐྱོང་པ་གིས་ ཁྱོད་རའི་སྐད་བཟུང་ནིའི་དོན་ལུ་ འཛིན་སྐྱོང་འཐབ་མི་ ཐབས་འཕྲུལ་དེ་ཨིན།"
+
+#: ../src/druid.cpp:1025
+#: ../src/druid.cpp:1159
+msgid "Test Settings"
+msgstr "གཞི་སྒྲིག་ཞིབ་དཔྱད།"
+
+#: ../src/druid.cpp:1069
+#, c-format
+msgid "Video Manager - page %d/%d"
+msgstr "ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་-ཤོག་ལེབ་%d/%d"
+
+#. The Audio devices
+#: ../src/druid.cpp:1081
+msgid "Please choose your video manager:"
+msgstr "ཁྱོད་རའི་ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་ གདམ་ཁ་རྐྱབས།"
+
+#: ../src/druid.cpp:1089
+msgid "The video manager is the plugin that will manage your video devices, Video4Linux is the most common choice if you own a webcam."
+msgstr "ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་དེ་ ཁྱོད་ཀྱི་ཝི་ཌིའོ་ཐབས་འཕྲུལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་མི་ པ་ལག་ཨིན་དེ་ཨིན། ཁྱོད་ལུ་ཝེབ་ཀེམ་ཅིག་ཡོད་པ་ཅིན་ མཐུན་མོང་གི་གདམ་ཁ་མང་ཤོས་དེ་ Video4Linux ཨིན།"
+
+#: ../src/druid.cpp:1127
+#, c-format
+msgid "Video Devices - page %d/%d"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་ཚུ་-ཤོག་ལེབ་%d/%d"
+
+#. The Video devices
+#: ../src/druid.cpp:1139
+msgid "Please choose the video input device:"
+msgstr "ཝི་ཌིའོ་གི་ཨིན་པུཊི་ཐབས་འཕྲུལ་དེ་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: ../src/druid.cpp:1147
+msgid "The video input device is the device managed by the video manager that will be used to capture video."
+msgstr "ཝི་ཌིའོ་ཨིན་པུཊི་ཐབས་འཕྲུལ་དེ་ ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་གིས་ ཝི་ཌིའོ་བཟུང་ནི་དོན་ལུ་ འཛིན་སྐྱོང་འཐབ་མི་ ཐབས་འཕྲུལ་དེ་ཨིན།"
+
+#: ../src/druid.cpp:1195
+#, c-format
+msgid "Configuration complete - page %d/%d"
+msgstr "རིམ་སྒྲིག་མཇུག་བསྡུ་-ཤོག་ལེབ་%d/%d "
+
+#: ../src/druid.cpp:1432
+#: ../src/druid.cpp:1692
+#: ../src/druid.cpp:1709
+#: ../src/druid.cpp:1775
+#: ../src/endpoint.cpp:1835
+#: ../src/gnomemeeting.cpp:275
+#: ../src/gnomemeeting.cpp:277
+#: ../src/gnomemeeting.cpp:279
+#: ../src/sound_handling.cpp:564
+#: ../src/sound_handling.cpp:565
+#: ../src/videograbber.cpp:310
+#: ../src/videograbber.cpp:585
+msgid "No device found"
+msgstr "ཐབས་འཕྲུལ་མ་ཐོབ།"
+
+#: ../src/druid.cpp:1562
+msgid "56k Modem"
+msgstr "ཀེ་༥༦ འབད་མི་ མོ་ཌེམ།"
+
+#: ../src/druid.cpp:1563
+msgid "ISDN"
+msgstr "ཨའི་ཨེསི་ཌི་ཨེན།"
+
+#: ../src/druid.cpp:1564
+msgid "xDSL/Cable"
+msgstr "ཨེགསི་ཌི་ཨེསི་ཨེལ་/བཀྲམ་ཐག"
+
+#: ../src/druid.cpp:1565
+msgid "T1/LAN"
+msgstr "ཊི་༡/ཉེ་གནས་ཡོངས་འབྲེལ"
+
+#: ../src/druid.cpp:1566
+msgid "Keep current settings"
+msgstr "ད་ལྟོའི་གཞི་སྒྲིག་ཚུ་ བདག་འཛིན་འཐབ་སྟེ་བཞག"
+
+#: ../src/druid.cpp:1838
+#, c-format
+msgid ""
+"You have now finished the GnomeMeeting configuration. All the settings can be changed in the GnomeMeeting preferences. Enjoy!\n"
+"\n"
+"\n"
+"Configuration summary:\n"
+"\n"
+"Username: %s\n"
+"Connection type: %s\n"
+"Audio manager: %s\n"
+"Audio player: %s\n"
+"Audio recorder: %s\n"
+"Video manager: %s\n"
+"Video input: %s\n"
+"Callto URL: %s\n"
+msgstr ""
+"ཁྱོད་ཀྱིས་ཇི་ནོམ་མི་ཊིང་ རིམ་སྒྲིག་འབད་ཚར་ཡི། གཞི་སྒྲིག་ཚུ་ཆ་མཉམ་ ཇི་ནོམ་མི་ཊིང་གི་དགའ་གདམ་ནང་ལུ་ བསྒྱུར་བཅོས་འབད་བཏུབ། སྤྲོ་སྟོན་! \n"
+"\n"
+"\n"
+"རིམ་སྒྲིག་བཅུད་དོན་: \n"
+"\n"
+"ལག་ལེན་པའི་མིང་: %s\n"
+"མཐུད་ལམ་གྱི་དབྱེ་བ་: %s\n"
+"རྣར་ཉན་འཛིན་སྐྱོང་པ་: %s\n"
+"རྣར་ཉན་གཏང་འཕྲུལ་: %s\n"
+"རྣར་ཉན་བཟུང་འཕྲུལ་: %s\n"
+"ཝི་ཌིའོ་འཛིན་སྐྱོང་པ་:  %s\n"
+"ཝི་ཌིའོ་ཨིན་པུཊི་: %s\n"
+"གཏང་ཡུལ་ ཡུ་ཨར་ཨེལ་: %s\n"
+
+#: ../src/druid.cpp:1891
+msgid "First Time Configuration Druid"
+msgstr "ཐེངས་དང་པའི་རིམ་སྒྲིག་ཌུའིཌི།"
+
+#. Update the log and status bar
+#: ../src/endpoint.cpp:826
+#, c-format
+msgid "Call from %s"
+msgstr "%sལས་འབོད་བརྡ།"
+
+#: ../src/endpoint.cpp:838
+#, c-format
+msgid "Forwarding call from %s to %s (Forward all calls)"
+msgstr "%sལས་%sལུ་ འབོད་བརྡ་གདོང་བསྐྱོད་འབད་བའི་བསྒང་། (འབོད་བརྡ་ཆ་མཉམ་གདོང་བསྐྱོད་འབད)"
+
+#: ../src/endpoint.cpp:845
+#, c-format
+msgid "Rejecting call from %s (Do Not Disturb)"
+msgstr "%sལས་འོང་མི་ འབོད་བརྡ་ལུ་ དང་ལེན་སྤང་བའི་བསྒང་། (མ་དཀྲོགས)"
+
+#: ../src/endpoint.cpp:857
+#, c-format
+msgid "Forwarding call from %s to %s (Busy)"
+msgstr "འབོད་བརྡ་%sལས་%sལུ་ གདོང་བསྐྱོད་འབད་བའི་བསྒང་། (ཁོམ་མེད)"
+
+#. there is no forwarding, so reject the call
+#: ../src/endpoint.cpp:866
+#, c-format
+msgid "Rejecting call from %s (Busy)"
+msgstr "%sནང་ལས་ཀྱི་ འབོད་བརྡ་ལུ་དང་ལེན་སྤང་བའི་བསྒང་། (ཁོམ་མེད)"
+
+#: ../src/endpoint.cpp:875
+#, c-format
+msgid "Accepting call from %s (Auto Answer)"
+msgstr "%s ནང་ལས་འབྱོར་མི་ འབོད་བརྡ་ལུ་ དང་ལེན་འབད་བའི་བསྒང་། (རང་བཞིན་ལན་གསལ)"
+
+#: ../src/endpoint.cpp:900
+msgid "Call rejected"
+msgstr "འབོད་བརྡ་ལུ་ དང་ལེན་སྤངས་ཡོདཔ།"
+
+#: ../src/endpoint.cpp:909
+#: ../src/endpoint.cpp:1313
+#: ../src/endpoint.cpp:2258
+msgid "Call forwarded"
+msgstr "འབོད་བརྡ་གདོང་བསྐྱོད་འབད་ཡོདཔ།"
+
+#: ../src/endpoint.cpp:921
+msgid "Call automatically answered"
+msgstr "འབོད་བརྡ་ལུ་ རང་བཞིན་གྱིས་ལན་བརྐྱབས་ཡོདཔ།"
+
+#: ../src/endpoint.cpp:1001
+#, c-format
+msgid "Forwarding call to %s"
+msgstr "འབོད་བརྡ་%sལུ་ གདོང་བསྐྱོད་འབད་དོ།"
+
+#: ../src/endpoint.cpp:1012
+#, c-format
+msgid "Error while forwarding call to %s"
+msgstr "འབོད་བརྡ་%sལུ་ གདོང་བསྐྱོད་འབདཝ་ད་འཛོལ་བ།"
+
+#: ../src/endpoint.cpp:1015
+msgid "There was an error when forwarding the call to the given host."
+msgstr "འབོད་བརྡ་དེ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
+
+#: ../src/endpoint.cpp:1104
+msgid "Connected"
+msgstr "མཐུད་ཡོདཔ།"
+
+#: ../src/endpoint.cpp:1106
+#, c-format
+msgid "Connected with %s using %s"
+msgstr "%sལག་ལེན་འཐབ་སྟེ་%sདང་གཅིག་ཁར་མཐུད་ཡོདཔ།"
+
+#: ../src/endpoint.cpp:1277
+msgid "Local user cleared the call"
+msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་གིས་ འབོད་བརྡ་དེ་ བསལ་བཏང་ནུག"
+
+#: ../src/endpoint.cpp:1280
+msgid "Remote user cleared the call"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་དེ་ བསལ་བཏང་ནུག"
+
+#: ../src/endpoint.cpp:1283
+msgid "Remote user did not accept the call"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་ལུ་ དང་ལེན་འབད་མ་བཏུབ།"
+
+#: ../src/endpoint.cpp:1286
+#: ../src/endpoint.cpp:1289
+msgid "Local user did not accept the call"
+msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་གིས་ འབོད་བརྡ་ལུ་ དང་ལེན་འབད་མ་བཏུབ།"
+
+#: ../src/endpoint.cpp:1292
+msgid "The Gatekeeper cleared the call"
+msgstr "སྒོ་སྲུང་པ་གིས་ འབོད་བརྡ་བསལ་བཏང་ནུག"
+
+#: ../src/endpoint.cpp:1295
+msgid "Call not answered in the required time"
+msgstr "དགོ་མཁོའི་དུས་ཚོད་ནང་ འབོད་བརྡ་ལུ་ ལན་མ་བརྐྱབས་པས།"
+
+#: ../src/endpoint.cpp:1298
+msgid "Remote user has stopped calling"
+msgstr "ཐག་རིང་ལག་ལེན་པ་གིས་ འབོད་བརྡ་གཏང་ནི་བཀག་ནུག"
+
+#: ../src/endpoint.cpp:1301
+msgid "Abnormal call termination"
+msgstr "ཚུལ་མིན་གྱི་འབོད་བརྡ་རྩ་གྲོལ།"
+
+#: ../src/endpoint.cpp:1304
+msgid "Could not connect to remote host"
+msgstr "ཐག་རིང་ཧོསིཊི་ལུ་ མཐུད་མ་ཚུགས།"
+
+#: ../src/endpoint.cpp:1307
+msgid "Insufficient bandwidth"
+msgstr "བེན༌ཌི་ཝིཐ་ ལངམ་མིན་འདུག"
+
+#: ../src/endpoint.cpp:1310
+msgid "No common codec"
+msgstr "མཐུན་མོང་གི་ ཀོ་ཌེཀ་མིན་འདུག"
+
+#: ../src/endpoint.cpp:1316
+msgid "Security check failed"
+msgstr "སྲུང་སྐྱོབ་ཞིབ་དཔྱད་འབད་མ་ཚུགས།"
+
+#: ../src/endpoint.cpp:1319
+msgid "Local user is busy"
+msgstr "ཉེ་གནས་ཀྱི་ལག་ལེན་པ་ ཁོམ་མེད་ཨིན་པས།"
+
+#: ../src/endpoint.cpp:1322
+msgid "Remote user is busy"
+msgstr "ཐག་རིང་ལག་ལེན་པ་ ཁོམ་མེད་ཨིན་པས།"
+
+#: ../src/endpoint.cpp:1325
+#: ../src/endpoint.cpp:1328
+msgid "Congested link to remote party"
+msgstr "ཐག་རིང་སྡེ་ཚོགས་ལུ་ འབྲེལ་ལམ་དོགས་དྲགས་ཨིན་པས།"
+
+#: ../src/endpoint.cpp:1331
+#: ../src/endpoint.cpp:1334
+msgid "Remote user is unreachable"
+msgstr "ཐག་རིང་ལག་ལེན་པ་ལུ་ ལྷོད་མི་ཚུགས་པས།"
+
+#: ../src/endpoint.cpp:1337
+msgid "Remote host is offline"
+msgstr "ཐག་རིང་ཧོསིཊི་ ཨོཕ་ལའིན་ཨིན་པས།"
+
+#: ../src/endpoint.cpp:1340
+msgid "Temporary failure"
+msgstr "གནས་སྐབས་ཅིག་གི་འཐུས་ཤོར།"
+
+#: ../src/endpoint.cpp:1343
+#: ../src/urlhandler.cpp:466
+#: ../src/urlhandler.cpp:471
+msgid "User not found"
+msgstr "ལག་ལེན་པ་ཐོབ་མ་ཚུགས།"
+
+#: ../src/endpoint.cpp:1347
+msgid "Call completed"
+msgstr "འབོད་བརྡ་མཇུག་བསྡུ་ཡོད།"
+
+#: ../src/endpoint.cpp:1370
+#, c-format
+msgid "Missed %d call"
+msgid_plural "Missed %d calls"
+msgstr[0] "འབོད་བརྡ་%dབྱིག་སོ་ནུག"
+msgstr[1] "འབོད་བརྡ་%dབྱིག་སོ་ནུག"
+
+#: ../src/endpoint.cpp:1670
+msgid "Error while starting the listener"
+msgstr "ཉན་མི་འགོ་བཙུགས་སྐབས་འཛོལ་བ།"
+
+#: ../src/endpoint.cpp:1670
+msgid "You will not be able to receive incoming calls. Please check that no other program is already running on the port used by GnomeMeeting."
+msgstr "ཁྱོད་ཀྱིས་ནང་ན་འོང་མི་ འབོད་བརྡ་ཚུ་ འཐོབ་མི་ཚུགས། ཇི་ནོམ་མི་ཊིང་གིས་ ལག་ལེན་འཐབ་མི་ འདྲེན་ལམ་དེ་གུ་ ལས་རིམ་གཞན་ ཧེ་མ་ལས་ གཡོག་བཀོལ་སྟེ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/endpoint.cpp:1821
+msgid "Attaching lid hardware to codec"
+msgstr "ལིཌི་སྲ་ཆས་ ཀོ་ཌེཀ་ལུ་ མཉམ་སྦྲགས་གཏང་དོ།"
+
+#: ../src/endpoint.cpp:1855
+#, c-format
+msgid "Opened %s for recording with plugin %s"
+msgstr "པ་ལག་ཨིན་%s དང་གཅིག་ཁར་ སྒྲ་བཟུང་གི་དོན་ལུ་%sཁ་ཕྱེ་ཡོད།"
+
+#: ../src/endpoint.cpp:1856
+#, c-format
+msgid "Opened %s for playing with plugin %s"
+msgstr "པ་ལག་ཨིན་%s དང་གཅིག་ཁར་ གཏང་ནིའི་དོན་ལུ་%sཁ་ཕྱེ་ཡོད།"
+
+#: ../src/endpoint.cpp:1892
+msgid "Could not open audio channel for audio transmission"
+msgstr "རྣར་ཉན་སྤེལ་བཀྲམ་གྱི་དོན་ལུ་ རྣར་ཉན་རྒྱུ་ལམ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/endpoint.cpp:1892
+msgid ""
+"An error occured while trying to record from the soundcard for the audio transmission. Please check that your soundcard is not busy and that your driver supports full-duplex.\n"
+"The audio transmission has been disabled."
+msgstr ""
+"རྣར་ཉན་བཀྲམ་སྤེལ་གྱི་དོན་ལུ་ སྒྲ་སྐད་ཤོག་བྱང་ལས་ སྒྲ་སྐད་བཟུང་ཐབས་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག ཁྱོད་ཀྱི་སྒྲ་སྐད་ཤོག་བྱང་ དལ་ཁོམ་ཡོད་མེད་དང་ ཁྱོད་རའི་འདྲེན་བྱེད་ཀྱིས་ ཌུ་པེལེགསི་ཧྲིལ་བུ་ལུ་ རྒྱབ་སྐྱོར་ཡོད་མེད་ ཞིབ་དཔྱད་འབད།\n"
+"རྣར་ཉན་སྤེལ་བཀྲམ་དེ་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/endpoint.cpp:1897
+msgid "Could not open audio channel for audio reception"
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ རྣར་ཉན་གྱི་རྒྱུ་ལམ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/endpoint.cpp:1897
+msgid ""
+"An error occured while trying to play audio to the soundcard for the audio reception. Please check that your soundcard is not busy and that your driver supports full-duplex.\n"
+"The audio reception has been disabled."
+msgstr ""
+"རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ སྒྲ་སྐད་ཤོག་བྱང་ལུ་ སྒྲ་སྐད་གཏང་ཐབས་འབདཝ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག ཁྱོད་ཀྱི་སྒྲ་སྐད་ཤོག་བྱང་ དལ་ཁོམ་ཡོད་མེད་དང་ ཁྱོད་རའི་འདྲེན་བྱེད་ཀྱིས་ ཌུ་པེལེགསི་ཧྲིལ་བུ་ལུ་ རྒྱབ་སྐྱོར་ཡོད་མེད་ ཞིབ་དཔྱད་འབད།\n"
+"རྣར་ཉན་སྒྲ་འབྱོར་དེ་ ལྕོགས་མིན་བཟོ་ཡི།"
+
+#: ../src/endpoint.cpp:2087
+#, c-format
+msgid "%.2ld:%.2ld:%.2ld  A:%.2f/%.2f   V:%.2f/%.2f"
+msgstr "%.2ld:%.2ld:%.2ld  ཨེ་:%.2f/%.2f   ཨེཕ:%.2f/%.2f"
+
+#: ../src/endpoint.cpp:2255
+#, c-format
+msgid "Forwarding Call to %s (No Answer)"
+msgstr "འབོད་བརྡ་%sལུ་ གདོང་བསྐྱོད་འབད་དོ། (ལན་གསལ་མིན་འདུག)"
+
+#: ../src/gatekeeper.cpp:132
+#, c-format
+msgid "Unregistered from gatekeeper %s"
+msgstr "སྒོ་སྲུང་པ་%sནང་ལས་ ཐོ་འགོད་མ་འབདཝ།"
+
+#: ../src/gatekeeper.cpp:148
+msgid "Invalid gatekeeper hostname"
+msgstr "ནུས་མེད་སྒོ་སྲུང་པའི་ ཧོསིཊི་ནེམ།"
+
+#: ../src/gatekeeper.cpp:148
+msgid "Please provide a hostname to use for the gatekeeper."
+msgstr "སྒོ་སྲུང་པའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཧོསིཊི་ནེམ་ཅིག་བྱིན་གནང་།"
+
+#: ../src/gatekeeper.cpp:156
+msgid "Invalid gatekeeper ID"
+msgstr "ནུས་མེད་སྒོ་སྲུང་པའི་ཨའི་ཌི།"
+
+#: ../src/gatekeeper.cpp:156
+msgid "Please provide a valid ID for the gatekeeper."
+msgstr "སྒོ་སྲུང་པའི་དོན་ལུ་ ནུས་ཅན་གྱི་ཨའི་ཌི་ཅིག་བྱིན་གནང་།"
+
+#: ../src/gatekeeper.cpp:199
+msgid "Gatekeeper registration failed: duplicate alias"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས: ངོ་བཤུས་ཀྱི་མིང་གཞན།"
+
+#: ../src/gatekeeper.cpp:203
+msgid "Gatekeeper registration failed: bad login/password"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས: ནང་བསྐྱོད་/ཆོག་ཡིག་བྱང་ཉེས།"
+
+#: ../src/gatekeeper.cpp:206
+msgid "Gatekeeper registration failed: transport error"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས: སྐྱེལ་འདྲེན་འཛོལ་བ།"
+
+#: ../src/gatekeeper.cpp:209
+#: ../src/gatekeeper.cpp:214
+msgid "Gatekeeper registration failed"
+msgstr "སྒོ་སྲུང་པ་ ཐོ་འགོད་འབད་མ་ཚུགས།"
+
+#: ../src/gatekeeper.cpp:229
+#, c-format
+msgid "Gatekeeper set to %s"
+msgstr "སྒོ་སྲུང་པ་%sལུ་ གཞི་སྒྲིག་འབད་ནུག"
+
+#: ../src/gnomemeeting.cpp:89
+msgid "Notification area not detected"
+msgstr "བརྡ་བསྐུལ་མངའ་ཁོངས་ སྐྱོན་འཛིན་མ་འབད་བས།"
+
+#: ../src/gnomemeeting.cpp:89
+msgid "You have chosen to start GnomeMeeting hidden, however the notification area is not present in your panel, GnomeMeeting can thus not start hidden."
+msgstr "ཁྱོད་ཀྱིས་ཇི་ནོམ་མི་ཊིང་ གསང་བའི་ཐོག་ལས་ འགོ་བཙུགས་ནི་ལུ་ གདམ་ཁ་བརྐྱབས་ནུག དེ་འབདཝ་ད་ ཁྱོད་ཀྱི་པེ་ནཱལ་ནང་ བརྡ་བསྐུལ་མངའ་ཁོངས་དེ་མིན་འདུག དེ་གིས་སྦེ་  ཇི་ནོམ་མི་ཊིང་གིས་ གསང་བའི་ཐོག་ལས་ འགོ་བཙུགས་མི་ཚུགས།"
+
+#: ../src/gnomemeeting.cpp:154
+msgid "Answering incoming call"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ལུ་ ལན་རྐྱབ་དོ།"
+
+#: ../src/gnomemeeting.cpp:176
+msgid "Trying to stop calling"
+msgstr "འབོད་བརྡ་བཀག་ཐབས་འབད་དོ།"
+
+#: ../src/gnomemeeting.cpp:185
+msgid "Stopping current call"
+msgstr "ད་ལྟོའི་འབོད་བརྡ་བཀག་དོ།"
+
+#: ../src/gnomemeeting.cpp:191
+msgid "Refusing Incoming call"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་ལུ་ ངོས་ལེན་བཀག་པའི་བསྒང་།"
+
+#. Init the address book
+#: ../src/gnomemeeting.cpp:424
+msgid "On This Computer"
+msgstr "གློག་རིག་འདི་གུ།"
+
+#: ../src/gnomemeeting.cpp:424
+msgid "Personal"
+msgstr "རང་དོན།"
+
+#: ../src/gnomemeeting.cpp:482
+#, c-format
+msgid "Started GnomeMeeting %d.%d.%d for user %s"
+msgstr "ཇི་ནོམ་མི་ཊིང་ %d.%d.%d འགོ་བཙུགས་ཅི་   %sགི་དོན་ལུ།"
+
+#: ../src/ils.cpp:101
+msgid "Invalid parameters"
+msgstr "ནུས་མེད་ལོག་མཚམས།"
+
+#: ../src/ils.cpp:101
+msgid "Please provide your first name and e-mail in the Personal Data section in order to be able to register to the users directory."
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོའི་ནང་ ཐོ་འགོད་འབད་ཚུགས་ནིའི་དོན་ལུ་ རང་དོན་གནད་སྡུད་དབྱེ་ཚན་ནང་ ཁྱོད་རའི་མགོ་མིང་དང་ གློག་འཕྲིན་ཁ་བྱང་བྱིན་གནང་།"
+
+#: ../src/ils.cpp:140
+msgid "Invalid users directory"
+msgstr "ནུས་མེད་ལག་ལེན་པའི་སྣོད་ཐོ།"
+
+#: ../src/ils.cpp:140
+msgid "Operation impossible since there is no users directory specified."
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ་ གསལ་བཀོད་མ་འབདཝ་ལས་ བཀོལ་སྤྱོད་འབད་མི་ཚུགས།"
+
+#: ../src/ils.cpp:226
+msgid "Failed to parse XML file"
+msgstr "ཨེགསི་ཨེམ་ཡིག་སྣོད་ མིང་དཔྱད་འབད་མ་ཚུགས།"
+
+#: ../src/ils.cpp:226
+msgid "There was an error while parsing the XML file. Please make sure that it is correctly installed in your system."
+msgstr "ཨེགསི་ཨེམ་ཡིག་སྣོད་ མིང་དཔྱད་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ནུག དེ་ཁྱོད་རའི་རིམ་ལུགས་ནང་ ཚུལ་ལྡན་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
+
+#: ../src/ils.cpp:237
+msgid "Bad information"
+msgstr "བརྡ་དོན་བྱང་ཉེས།"
+
+#: ../src/ils.cpp:237
+#, c-format
+msgid "Bad LDAP information from XML file: %s."
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ཡིག་སྣོད་: %sནང་ལས་ ཨེལ་ཌི་ཨེ་པི་ བརྡ་དོན་བྱང་ཉེས།"
+
+#: ../src/ils.cpp:245
+#, c-format
+msgid "ILS registration failed: unable to connect to %s"
+msgstr "ཨའི་ཨེལ་ཨེསི་ ཐོ་འགོད་འབད་མ་ཚུགས་: %s ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../src/ils.cpp:258
+msgid "ILS registration failed: unable to set time limit on operations"
+msgstr "ཨའི་ཨེལ་ཨེསི་ ཐོ་འགོད་འབད་མ་ཚུགས་: བཀོལ་སྤྱོད་ལུ་ དུས་ཚོད་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../src/ils.cpp:270
+#, c-format
+msgid "ILS registration failed: failed to bind to %s"
+msgstr "ཨའི་ཨེལ་ཨེསི་ ཐོ་འགོད་འབད་མ་ཚུགས་: %sལུ་ བསྡམས་མ་ཚུགས།"
+
+#: ../src/ils.cpp:298
+#, c-format
+msgid "Updated information on %s"
+msgstr "%sགི་སྐོར་ལས་ དུས་མཐུན་བཟོས་པའི་བརྡ་དོན།"
+
+#: ../src/ils.cpp:302
+#, c-format
+msgid "Unregistered from %s"
+msgstr "%sནང་ལས་ ཐོ་འགོད་མ་འབདཝ།"
+
+#: ../src/lid.cpp:114
+#, c-format
+msgid "Opened Quicknet device %s"
+msgstr "ཁ་ཕྱེ་སྟེ་ཡོད་པའི་ ཀུའིཀ་ནེཊི་ཐབས་འཕྲུལ་%s།"
+
+#: ../src/lid.cpp:135
+msgid "Error while opening the Quicknet device."
+msgstr "ཀུའིཀ་ནེཊི་ཐབས་འཕྲུལ་ ཁ་ཕྱེ་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/lid.cpp:135
+msgid "Please check that your driver is correctly installed and that the device is working correctly."
+msgstr "ཁྱོད་རའི་འདྲེན་བྱེད་དེ་ ཚུལ་ལྡན་སྦེ་གཞི་བཙུགས་འབད་མ་འབད་ ཞིབ་དཔྱད་འབད་དེ་ ཐབས་འཕྲུལ་དེ་ ཚུལ་ལྡན་སྦེ་ ལཱ་འབད་བཏུབ་བཟོ།"
+
+#: ../src/lid.cpp:162
+#, c-format
+msgid "Closed Quicknet device %s"
+msgstr "ཁ་བསྡམས་ཏེ་ཡོད་པའི་ ཀུའིཀ་ནེཊི་ཐབས་འཕྲུལ་%s།"
+
+#: ../src/lid.cpp:253
+#: ../src/lid.cpp:254
+msgid "Phone is off hook"
+msgstr "བརྒྱུད་འཕྲིན་དེ་ གཟེར་གུ་མིན་འདུག"
+
+#: ../src/lid.cpp:292
+#: ../src/lid.cpp:293
+msgid "Phone is on hook"
+msgstr "བརྒྱུད་འཕྲིན་་དེ་ གཟེར་གུ་འདུག"
+
+#: ../src/log_window.cpp:121
+#: ../src/main_window.cpp:1159
+msgid "General History"
+msgstr "ཡོངས་ཁྱབ་ལོ་རྒྱུས།"
+
+#: ../src/main_window.cpp:704
+msgid "Enter an URL to call on the left, and click on this button to connect to the given URL"
+msgstr "གཡོན་ལུ་འབོད་བརྡ་གཏང་ནིའི་དོན་ལུ་ ཡུ་ཨར་ཨེལ་ཅིག་བཙུགས། དེ་ལས་གྲ་བསྒྲིགས་ཡོད་པའི་ ཡུ་ཨར་ཨེལ་ལུ་ མཐུད་ནིའི་དོན་ལུ་ཨེབ་རྟ་འདི་གུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/main_window.cpp:756
+msgid "Open text chat"
+msgstr "ཡིག་ཐོག་ཁ་སླབ་ཁ་ཕྱེ།"
+
+#: ../src/main_window.cpp:780
+msgid "Open control panel"
+msgstr "ཚད་འཛིན་པེ་ནཱལ་ཁ་ཕྱེ།"
+
+#: ../src/main_window.cpp:799
+msgid "Open address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཁ་ཕྱེ།"
+
+#: ../src/main_window.cpp:820
+msgid "Display images from your camera device"
+msgstr "ཁྱོད་རའི་པར་ཆས་ཐབས་འཕྲུལ་ནང་ལས་ གཟུགས་བརྙན་ཚུ་ བཀྲམ་སྟོན་འབད།"
+
+#: ../src/main_window.cpp:846
+msgid "Audio transmission status. During a call, click here to suspend or resume the audio transmission."
+msgstr "རྣར་ཉན་སྤེལ་བཀྲམ་གྱི་གནས་ས་། འབོད་བརྡ་གཏང་བའི་རིང་ལུ་ རྣར་ཉན་སྤེལ་བཀྲམ་ འཕྲལ་བཀག་འབད་ནིའམ་ བསྐྱར་ལོག་འབད་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/main_window.cpp:869
+msgid "Video transmission status. During a call, click here to suspend or resume the video transmission."
+msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་གནས་ས་། འབོད་བརྡ་གཏང་བའི་རིང་ལུ་ ཝི་ཌིའོ་སྤེལ་བཀྲམ་ འཕྲལ་བཀག་འབད་ནིའམ་ བསྐྱར་ལོག་འབད་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/main_window.cpp:944
+msgid "C_all"
+msgstr "འབོད་བརྡ།(_a)"
+
+#: ../src/main_window.cpp:946
+msgid "C_onnect"
+msgstr "མཐུད།(_o)"
+
+#: ../src/main_window.cpp:946
+#: ../src/tray.cpp:258
+msgid "Create a new connection"
+msgstr "མཐུད་ལམ་གསརཔ་ཅིག་བཟོ།"
+
+#: ../src/main_window.cpp:949
+#: ../src/tray.cpp:261
+msgid "_Disconnect"
+msgstr "མཐུད་ལམ་བཏོག(_D)"
+
+#: ../src/main_window.cpp:950
+#: ../src/tray.cpp:262
+msgid "Close the current connection"
+msgstr "ད་ལྟོའི་མཐུད་ལམ་དེ་ཁ་བསྡམས།"
+
+#: ../src/main_window.cpp:956
+#: ../src/tray.cpp:268
+msgid "_Available"
+msgstr "ཡོད་པ།(_A)"
+
+#: ../src/main_window.cpp:957
+#: ../src/tray.cpp:269
+msgid "Display a popup to accept the call"
+msgstr "འབོད་བརྡ་ལུ་ དང་ལེན་གྱི་དོན་ལུ་ པོཔ་ཨཔ་ཅིག་ བཀྲམ་སྟོན་འབད།"
+
+#: ../src/main_window.cpp:962
+#: ../src/tray.cpp:274
+msgid "Aut_o Answer"
+msgstr "རང་བཞིན་ལན་གསལ།(_o)"
+
+#: ../src/main_window.cpp:963
+#: ../src/tray.cpp:275
+msgid "Auto answer calls"
+msgstr "རང་བཞིན་ལན་གསལ་གཏང་བའི་འབོད་བརྡ།"
+
+#: ../src/main_window.cpp:968
+#: ../src/tray.cpp:280
+msgid "_Do Not Disturb"
+msgstr "མ་དཀྲོགས།(_D)"
+
+#: ../src/main_window.cpp:969
+#: ../src/tray.cpp:281
+msgid "Reject calls"
+msgstr "འབོད་བརྡ་་ཚུ་ལུ་དང་ལེན་སྤངས་།"
+
+#: ../src/main_window.cpp:974
+#: ../src/tray.cpp:286
+msgid "_Forward"
+msgstr "གདོང་བསྐྱོད།(_F)"
+
+#: ../src/main_window.cpp:974
+#: ../src/tray.cpp:286
+msgid "Forward calls"
+msgstr "འབོད་བརྡ་ཚུ་གདོང་བསྐྱོད་འབད།"
+
+#: ../src/main_window.cpp:982
+msgid "Speed dials"
+msgstr "མགྱོགས་ཚད་ ཌ་ཡེལསི།"
+
+#: ../src/main_window.cpp:986
+#: ../src/main_window.cpp:2891
+msgid "_Hold Call"
+msgstr "འབོད་བརྡ་འཛིན་ཏེ་བཞག(_H)"
+
+#: ../src/main_window.cpp:986
+msgid "Hold the current call"
+msgstr "ད་ལྟོའི་འབོད་བརྡ་འཆང་སྟེ་བཞག"
+
+#: ../src/main_window.cpp:990
+msgid "_Transfer Call"
+msgstr "འབོད་བརྡ་གནས་སོར་གཏང་།(_T)"
+
+#: ../src/main_window.cpp:991
+msgid "Transfer the current call"
+msgstr "ད་ལྟོའི་འབོད་བརྡ་དེ་ གནས་སོར་གཏང་།"
+
+#: ../src/main_window.cpp:998
+#: ../src/main_window.cpp:2925
+msgid "Suspend _Audio"
+msgstr "རྣར་ཉན་འཕྲལ་བཀག་འབད།(_A)"
+
+#: ../src/main_window.cpp:999
+msgid "Suspend or resume the audio transmission"
+msgstr "རྣར་ཉན་སྤེལ་བཀྲམ་ འཕྲལ་བཀག་གམ་ བསྐྱར་ལོག་འབད།"
+
+#: ../src/main_window.cpp:1003
+#: ../src/main_window.cpp:2927
+msgid "Suspend _Video"
+msgstr "ཝི་ཌིའོ་ འཕྲལ་བཀག་འབད།(_V)"
+
+#: ../src/main_window.cpp:1004
+msgid "Suspend or resume the video transmission"
+msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་དེ་ འཕྲལ་བཀག་གམ་ བསྐྱར་ལོག་འབད།"
+
+#: ../src/main_window.cpp:1011
+msgid "_Save Current Picture"
+msgstr "ད་ལྟོའི་པར་སྲུངས།(_S)"
+
+#: ../src/main_window.cpp:1012
+msgid "Save a snapshot of the current video"
+msgstr "ད་ལྟོའི་ཝི་ཌིའོ་དེ་གི་ པར་ཅིག་སྲུངས།"
+
+#: ../src/main_window.cpp:1018
+msgid "Close the GnomeMeeting window"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ སྒོ་སྒྲིག་དེ་ ཁ་བསྡམས།"
+
+#: ../src/main_window.cpp:1025
+#: ../src/tray.cpp:342
+msgid "_Quit"
+msgstr "སྤངས་།(_Q)"
+
+#: ../src/main_window.cpp:1025
+#: ../src/tray.cpp:343
+msgid "Quit GnomeMeeting"
+msgstr "ཇི་ནོམ་མི་ཊིང་སྤངས་།"
+
+#: ../src/main_window.cpp:1029
+msgid "_Edit"
+msgstr "ཞུན་དག།(_E)"
+
+#: ../src/main_window.cpp:1031
+msgid "Configuration Druid"
+msgstr "རིམ་སྒྲིག་ཌུའིཌི།"
+
+#: ../src/main_window.cpp:1032
+msgid "Run the configuration druid"
+msgstr "རིམ་སྒྲིག་ཌུའིཌི་དེ་ གཡོག་བཀོལ།"
+
+#: ../src/main_window.cpp:1039
+#: ../src/tray.cpp:310
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_P)"
+
+#: ../src/main_window.cpp:1040
+#: ../src/tray.cpp:311
+msgid "Change your preferences"
+msgstr "ཁྱོད་རའི་གདའ་གདམ་ཚུ་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../src/main_window.cpp:1045
+msgid "_View"
+msgstr "མཐོང་སྣང་།(_V)"
+
+#: ../src/main_window.cpp:1047
+#: ../src/pref_window.cpp:714
+msgid "Text Chat"
+msgstr "ཡིག་ཐོག་ཁ་སླབ།"
+
+#: ../src/main_window.cpp:1048
+msgid "View/Hide the text chat window"
+msgstr "ཡིག་ཐོག་ཁ་སླབ་ སྒོ་སྒྲིག་དེ་ སྟོན་/སྦ་བཞག"
+
+#: ../src/main_window.cpp:1054
+msgid "Control Panel"
+msgstr "ཚད་འཛིན་པེ་ནཱལ།"
+
+#: ../src/main_window.cpp:1056
+#: ../src/main_window.cpp:1260
+msgid "Statistics"
+msgstr "ཚད་རྩིས་ཚུ།"
+
+#: ../src/main_window.cpp:1057
+msgid "View audio/video transmission and reception statistics"
+msgstr "རྣར་ཉན་/ཝི་ཌིའོ་གི་སྤེལ་བཀྲམ་དང་ སྒྲ་འབྱོར་གྱི་ཚད་རྩིས་ཚུ་སྟོན།"
+
+#: ../src/main_window.cpp:1062
+msgid "_Dialpad"
+msgstr "བསྒྱིར་གདན།(_D)"
+
+#: ../src/main_window.cpp:1062
+msgid "View the dialpad"
+msgstr "བསྒྱིར་གདན་སྟོན།"
+
+#: ../src/main_window.cpp:1067
+msgid "_Audio Settings"
+msgstr "རྣར་ཉན་གཞི་སྒྲིག་ཚུ།(_A)"
+
+#: ../src/main_window.cpp:1068
+msgid "View audio settings"
+msgstr "རྣར་ཉན་གཞི་སྒྲིག་གསརཔ་ཚུ།"
+
+#: ../src/main_window.cpp:1073
+msgid "_Video Settings"
+msgstr "ཝི་ཌིའོ་གཞི་སྒྲིག་ཚུ།(_V)"
+
+#: ../src/main_window.cpp:1074
+msgid "View video settings"
+msgstr "ཝི་ཌིའོ་གཞི་སྒྲིག་ཚུ་སྟོན།"
+
+#: ../src/main_window.cpp:1079
+#: ../src/pref_window.cpp:1077
+msgid "Off"
+msgstr "ཨོཕ།"
+
+#: ../src/main_window.cpp:1079
+msgid "Hide the control panel"
+msgstr "ཚད་འཛིན་པེ་ནཱལ་སྦ་བཞག"
+
+#: ../src/main_window.cpp:1087
+msgid "_Clear Text Chat"
+msgstr "ཡིག་ཐོག་ཁ་སླབ་ བསལ།(_C)"
+
+#: ../src/main_window.cpp:1088
+msgid "Clear the text chat"
+msgstr "ཡིག་ཐོག་ཁ་སླབ་ བསལ།"
+
+#: ../src/main_window.cpp:1095
+#: ../src/main_window.cpp:3863
+msgid "Local Video"
+msgstr "ཉེ་གནས་ཀྱི་ཝི་ཌིའོ།"
+
+#: ../src/main_window.cpp:1096
+msgid "Local video image"
+msgstr "ཉེ་གནས་ཀྱི་ཝི་ཌིའོ་གཟུགས་བརྙན།"
+
+#: ../src/main_window.cpp:1101
+#: ../src/main_window.cpp:3869
+msgid "Remote Video"
+msgstr "ཐག་རིང་གི་ཝི་ཌིའོ།"
+
+#: ../src/main_window.cpp:1102
+msgid "Remote video image"
+msgstr "ཐག་རིང་གི་ཝི་ཌིའོ་གཟུགས་བརྙན།"
+
+#: ../src/main_window.cpp:1107
+msgid "Both (Picture-in-Picture)"
+msgstr "གཉིས་ཆ་ར། (པར་གྱི་ནང་ན་པར)"
+
+#: ../src/main_window.cpp:1108
+#: ../src/main_window.cpp:1114
+#: ../src/main_window.cpp:1121
+msgid "Both video images"
+msgstr "ཝི་ཌིའོ་གཟུགས་བརྙན་གཉིས་ཆ་ར།"
+
+#: ../src/main_window.cpp:1113
+msgid "Both (Side-by-Side)"
+msgstr "གཉིས་ཆ་ར། (དུས་མཉམ་ལུ)"
+
+#: ../src/main_window.cpp:1120
+msgid "Both (Both in New Windows)"
+msgstr "གཉིས་ཆ་ར། (གཉིས་ཆ་ར་སྒོ་སྒྲིག་གསར་པའི་ནང་)"
+
+#: ../src/main_window.cpp:1129
+#: ../src/main_window.cpp:1635
+#: ../src/main_window.cpp:1660
+msgid "Zoom In"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../src/main_window.cpp:1129
+#: ../src/main_window.cpp:1635
+#: ../src/main_window.cpp:1660
+msgid "Zoom in"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../src/main_window.cpp:1133
+#: ../src/main_window.cpp:1639
+#: ../src/main_window.cpp:1664
+msgid "Zoom Out"
+msgstr "ནང་ན་ཟུམ།"
+
+#: ../src/main_window.cpp:1133
+#: ../src/main_window.cpp:1639
+#: ../src/main_window.cpp:1664
+msgid "Zoom out"
+msgstr "ནང་ན་ཟུམ།"
+
+#: ../src/main_window.cpp:1137
+#: ../src/main_window.cpp:1643
+#: ../src/main_window.cpp:1668
+msgid "Normal Size"
+msgstr "སྤྱིར་བཏང་གི་ཚད།"
+
+#: ../src/main_window.cpp:1137
+#: ../src/main_window.cpp:1643
+#: ../src/main_window.cpp:1668
+msgid "Normal size"
+msgstr "སྤྱིར་བཏང་གི་ཚད།"
+
+#: ../src/main_window.cpp:1143
+#: ../src/main_window.cpp:1649
+#: ../src/main_window.cpp:1674
+msgid "Fullscreen"
+msgstr "གསལ་གཞི་གངམ།"
+
+#: ../src/main_window.cpp:1149
+msgid "_Tools"
+msgstr "ལག་ཆས།(_T)"
+
+#: ../src/main_window.cpp:1151
+#: ../src/tray.cpp:294
+msgid "Address _Book"
+msgstr "ཁ་བྱང་ཀི་དེབ།(_B)"
+
+#: ../src/main_window.cpp:1152
+#: ../src/tray.cpp:295
+msgid "Open the address book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཁ་ཕྱེ།"
+
+#: ../src/main_window.cpp:1160
+msgid "View the operations history"
+msgstr "བཀོལ་སྤྱོད་ཚུ་གི་ལོ་རྒྱུས་སྟོན།"
+
+#: ../src/main_window.cpp:1165
+#: ../src/tray.cpp:303
+msgid "View the calls history"
+msgstr "འབོད་བརྡ་ཚུ་གི་ལོ་རྒྱུས་སྟོན།"
+
+#: ../src/main_window.cpp:1172
+msgid "PC-To-Phone Account"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་རྩིས་ཐོ་ལུ།"
+
+#: ../src/main_window.cpp:1173
+msgid "Manage your PC-To-Phone account"
+msgstr "ཁྱོད་རའི་གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་རྩིས་ཐོ་ འཛིན་སྐྱོང་འཐབ།"
+
+#: ../src/main_window.cpp:1178
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../src/main_window.cpp:1181
+#: ../src/main_window.cpp:1192
+#: ../src/tray.cpp:319
+#: ../src/tray.cpp:330
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: ../src/main_window.cpp:1182
+#: ../src/main_window.cpp:1193
+#: ../src/tray.cpp:320
+#: ../src/tray.cpp:331
+msgid "Get help by reading the GnomeMeeting manual"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ལག་དེབ་ ལྷག་ཐོག་ལས་ གྲོགས་རམ་ལེན།"
+
+#: ../src/main_window.cpp:1186
+#: ../src/main_window.cpp:1197
+#: ../src/tray.cpp:324
+#: ../src/tray.cpp:335
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../src/main_window.cpp:1187
+#: ../src/main_window.cpp:1198
+#: ../src/tray.cpp:325
+#: ../src/tray.cpp:336
+msgid "View information about GnomeMeeting"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་སྐོར་ལས་ བརྡ་དོན་སྟོན།"
+
+#: ../src/main_window.cpp:1255
+#: ../src/main_window.cpp:4053
+msgid ""
+"Lost packets:\n"
+"Late packets:\n"
+"Round-trip delay:\n"
+"Jitter buffer:"
+msgstr ""
+"བརླག་སྟོར་ཤོར་བའི་འཕྲིན་ཚན: \n"
+"ཕྱིས་པའི་འཕྲིན་ཚན་: \n"
+"འོ་ལོག་ ཕྱིར་འགྱངས་: \n"
+"ཇི་ཊར་གནད་ཁོངས་: "
+
+#: ../src/main_window.cpp:1324
+msgid "Dialpad"
+msgstr "བསྒྱིར་གདན།"
+
+#: ../src/main_window.cpp:1380
+msgid "Adjust brightness"
+msgstr "དཀར་མདངས་ བདེ་སྒྲིག་འབད།"
+
+#: ../src/main_window.cpp:1403
+msgid "Adjust whiteness"
+msgstr "དཀར་མདངས་བདེ་སྒྲིག་འབད།"
+
+#: ../src/main_window.cpp:1426
+msgid "Adjust color"
+msgstr "ཚོན་མདངས་བདེ་སྒྲིག་འབད།"
+
+#: ../src/main_window.cpp:1449
+msgid "Adjust contrast"
+msgstr "ཁྱད་པར་བདེ་བསྒྲིག་འབད།"
+
+#: ../src/main_window.cpp:1458
+msgid "Video"
+msgstr "ཝི་ཌིའོ།"
+
+#: ../src/main_window.cpp:1536
+msgid "Audio"
+msgstr "རྣར་ཉན།"
+
+#: ../src/main_window.cpp:2085
+#, c-format
+msgid "Sent DTMF %s"
+msgstr "བཏང་ཡོད་པའི་ ཌི་ཊི་ཨེམ་ཨེཕ་%s"
+
+#: ../src/main_window.cpp:2875
+msgid "_Retrieve Call"
+msgstr "འབོད་བརྡ་སླར་འདྲེན་འབད།(_R)"
+
+#: ../src/main_window.cpp:2929
+msgid "Resume _Audio"
+msgstr "རྣར་ཉན་བསྐྱར་ལོག་འབད།(_A)"
+
+#: ../src/main_window.cpp:2931
+msgid "Resume _Video"
+msgstr "ཝི་ཌིའོ་བསྐྱར་ལོག་འབད།(_V)"
+
+#: ../src/main_window.cpp:3547
+msgid "Transfer call to:"
+msgstr "འབོད་བརྡ་གནས་སོར་གཏང་ཡུལ་: "
+
+#: ../src/main_window.cpp:3548
+#: ../src/main_window.cpp:3621
+msgid "Transfer"
+msgstr "གནས་སོར།"
+
+#: ../src/main_window.cpp:3619
+msgid "Reject"
+msgstr "དང་ལེན་སྤངས་།"
+
+#: ../src/main_window.cpp:3623
+msgid "Accept"
+msgstr "དང་ལེན་འབད།"
+
+#: ../src/main_window.cpp:3631
+msgid "Incoming call from"
+msgstr "ནང་འབྱོར་འབོད་བརྡ་འོང་ས།"
+
+#: ../src/main_window.cpp:3644
+msgid "Remote URL:"
+msgstr "ཐག་རིང་གི་ ཡུ་ཨར་ཨེལ་:"
+
+#: ../src/main_window.cpp:3656
+msgid "Remote Application:"
+msgstr "ཐག་རིང་གི་གློག་རིམ།"
+
+#: ../src/main_window.cpp:3983
+msgid "Click to clear"
+msgstr "བསལ་ནིའི་དོན་ལུ ཨེབ་གཏང་འབད།"
+
+#: ../src/main_window.cpp:4081
+#, c-format
+msgid ""
+"Lost packets: %.1f %%\n"
+"Late packets: %.1f %%\n"
+"Round-trip delay: %d ms\n"
+"Jitter buffer: %d ms"
+msgstr ""
+"བརླག་སྟོར་ཤོར་བའི་འཕྲིན་ཚན: %.1f་%% \n"
+"ཕྱིས་པའི་འཕྲིན་ཚན་: %.1f་%%  \n"
+"འོ་ལོག་ ཕྱིར་འགྱངས་: %d ཨེམ་ཨེསི་ \n"
+"ཇི་ཊར་གནད་ཁོངས་: %d་ ཨེམ་ཨེསི་"
+
+#: ../src/main_window.cpp:4195
+msgid "Prints debug messages in the console (level between 1 and 6)"
+msgstr "མ་སྒྲོམ་ནང་གི་ རྐྱེན་སེལ་གྱི་འཕྲིན་དོན་ཚུ་ དཔར་བསྐྲུན་འབདཝ་ཨིན། (གནས་རིམ་༡ དང་༦གི་བར་ན)"
+
+#: ../src/main_window.cpp:4198
+msgid "Makes GnomeMeeting call the given URL"
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ གྲ་བསྒྲིགས་ཡོད་པའི་ ཡུ་ཨར་ཨེལ་ལུ་ འབོད་བརྡ་གཏང་བཅུགཔ་ཨིན།"
+
+#: ../src/main_window.cpp:4233
+msgid "No usable audio plugin detected"
+msgstr "ལག་ལེན་འཐབ་བཏུབ་པའི་ རྣར་ཉན་པ་ལག་ཨིན་ སྐྱོན་འཛིན་མ་འབད་བས།"
+
+#: ../src/main_window.cpp:4233
+msgid "GnomeMeeting didn't find any usable audio plugin. Make sure that your installation is correct."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ ལག་ལེན་འཐབ་བཏུབ་པའི་ རྣར་ཉན་པ་ལག་ཨིན་ ག་ནི་ཡང་ འཚོལ་མ་ཐོབ་པས། ཁྱོད་རའི་གཞི་བཙུགས་དེ་ ངེས་ཏིག་ཨིནམ་བཟོ།"
+
+#: ../src/main_window.cpp:4255
+#, c-format
+msgid ""
+"GnomeMeeting got an invalid value for the GConf key %s.\n"
+"\n"
+"It probably means that your GConf schemas have not been correctly installed or the that permissions are not correct.\n"
+"\n"
+"Please check the FAQ (http://www.gnomemeeting.org/faq.php), the throubleshoot section of the GConf site (http://www.gnome.org/projects/gconf/) or the mailing list archives for more information (http://mail.gnome.org) about this problem."
+msgstr ""
+"ཇི་ནོམ་མི་ཊིང་གིས་ ཇི་ཀཱོནཕི་ལྡེ་མིག་%sགི་དོན་ལུ་ ནུས་མེད་ཀྱི་བེ་ལུ་ཅིག་ཐོབ་ནུག.\n"
+"\n"
+"དེ་གི་དོན་དག་ ཁྱོད་ཀྱི་ཇི་ཀཱོནཕ་ལས་འཆར་དེ་ ཚུལ་ལྡན་སྦེ་ གཞི་བཙུགས་མ་འབད་བའམ་ གནང་བ་ཚུ་ ངེས་ཏིག་མེནམ་འོང་ནི་མས།.\n"
+"\n"
+"དཀའ་ངལ་འདི་གི་སྐོར་ལས་ བརྡ་དོན་ཧེང་བཀལ་འཐོབ་ནིའི་དོན་ལུ་ ཨེཕ་ཨེ་ཀིའུ་ (http://www.gnomemeeting.org/faq.php)དང་ ཇི་ཀཱོནཕ་ས་ཁོངས་ཀྱི་ དཀའ་ངལ་སེལ་ནིའི་སྡེ་ཚན་(http://www.gnome.org/projects/gconf/) ཡང་ན་ འཕྲིན་གཏང་ཐོ་ཡིག་གི་ཡིག་མཛོད་ (http://mail.gnome.org ལུ་ ཞིབ་དཔྱད་འབད།"
+
+#: ../src/main_window.cpp:4258
+msgid "Gconf key error"
+msgstr "ཇི་ཀཱོནཕ་ལྡེ་མིག་གི་འཛོལ་བ།"
+
+#: ../src/misc.cpp:113
+msgid "Generic error"
+msgstr "ཇེ་ནི་རིཀ་གི་འཛོལ་བ།"
+
+#: ../src/pref_window.cpp:495
+#: ../src/pref_window.cpp:853
+msgid "A"
+msgstr "ཨེ།"
+
+#: ../src/pref_window.cpp:520
+msgid "Bandwidth"
+msgstr "བེནཌི་ཝིཐ།"
+
+#: ../src/pref_window.cpp:642
+msgid "Personal Information"
+msgstr "རང་དོན་བརྡ་དོན།"
+
+#: ../src/pref_window.cpp:647
+msgid "_First name:"
+msgstr "མགོ་མིང་:(_F)"
+
+#: ../src/pref_window.cpp:654
+msgid "Sur_name:"
+msgstr "རུས་མིང་:(_n)"
+
+#: ../src/pref_window.cpp:656
+msgid "Enter your surname"
+msgstr "ཁྱོད་རའི་རུས་མིང་བཙུགས།"
+
+#: ../src/pref_window.cpp:661
+msgid "E-_mail address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་:(_m)"
+
+#: ../src/pref_window.cpp:668
+msgid "_Comment:"
+msgstr "བསམ་བཀོད་:(_C)"
+
+#: ../src/pref_window.cpp:670
+msgid "Enter a comment about yourself"
+msgstr "ཁྱོད་རའི་སྐོར་ལས་ བསམ་བཀོད་ཅིག་བཙུགས།"
+
+#: ../src/pref_window.cpp:675
+msgid "_Location:"
+msgstr "གནས་ཁོངས་:(_L)"
+
+#: ../src/pref_window.cpp:677
+msgid "Enter your country or city"
+msgstr "ཁྱོད་རའི་རྒྱལ་ཁབ་ ཡང་ན་ ཁྲོམ་སྡེ་བཙུགས།"
+
+#. Add the update button
+#: ../src/pref_window.cpp:683
+#: ../src/pref_window.cpp:1012
+#: ../src/pref_window.cpp:1061
+msgid "_Apply"
+msgstr "འཇུག་སྤྱོད་འབད།(_A)"
+
+#: ../src/pref_window.cpp:683
+msgid "Click here to update the users directory you are registered to with the new First Name, Last Name, E-Mail, Comment and Location or to update your alias on the Gatekeeper"
+msgstr "ཁྱོད་རང་ཐོ་འགོད་འབད་དེ་ཡོད་པའི་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ མགོ་མིང་དང་ མཇུག་མིང་ གློག་འཕྲིན་ བསམ་བཀོད་ གནས་ཁོངས་དང་བཅསཔ་འབད་ དུས་མཐུན་བཟོ་ནི་དང་ ཡང་ན་ སྒོ་སྲུང་པ་ལུ་ ཁྱོད་རའི་མིང་གཞན་ དུས་མཐུན་བཟོ་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/pref_window.cpp:697
+msgid "GnomeMeeting GUI"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ ཇི་ཡུ་ཨའི།"
+
+#: ../src/pref_window.cpp:699
+msgid "_Show splash screen"
+msgstr "སི་པེལེཤ་གསལ་གཞི་སྟོན།(_S)"
+
+#: ../src/pref_window.cpp:701
+msgid "Start _hidden"
+msgstr "གསང་བ་འགོ་བཙུགས།(_h)"
+
+#: ../src/pref_window.cpp:707
+msgid "Video Display"
+msgstr "ཝི་ཌིའོ་བཀྲམ་སྟོན།"
+
+#: ../src/pref_window.cpp:709
+msgid "Place windows displaying video _above other windows"
+msgstr "ཝི་ཌིའོ་བཀྲམ་སྟོན་འབད་མི་སྒོ་སྒྲིག་ཚུ་ སྒོ་སྒྲིག་གཞན་ཚུ་གི་ལྟག་ལུ་བཀལ།"
+
+#: ../src/pref_window.cpp:729
+msgid "Users Directory"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ།"
+
+#. Add all the fields
+#: ../src/pref_window.cpp:733
+msgid "Users directory:"
+msgstr "ལག་ལེན་པའི་སྣོད་ཐོ་:"
+
+#: ../src/pref_window.cpp:733
+msgid "The users directory server to register with"
+msgstr "ཐོ་འགོད་འབད་ནིའི་ ལག་ལེན་པའི་སྣོད་ཐོའི་སར་བར།"
+
+#: ../src/pref_window.cpp:735
+msgid "Enable _registering"
+msgstr "ཐོ་འགོད་འབད་ནི་ ལྕོགས་ཅན་བཟོ།(_r)"
+
+#: ../src/pref_window.cpp:735
+msgid "If enabled, register with the selected users directory"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ སེལ་འཐུ་འབད་མི་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ ཐོ་འགོད་འབད།"
+
+#: ../src/pref_window.cpp:737
+msgid "_Publish my details in the users directory when registering"
+msgstr "ཐོ་འགོད་འབད་བའི་སྐབས་ལུ་ ངེད་ཀྱི་རྒྱས་བཤད་ཚུ་ ལག་ལེན་པའི་སྣོད་ཐོ་ནང་ དཔེ་བསྐྲུན་འབད།"
+
+#: ../src/pref_window.cpp:737
+msgid "If enabled, your details are shown to people browsing the users directory. If disabled, you are not visible to users browsing the users directory, but they can still use the callto URL to call you."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་རྒྱས་བཤད་ཚུ་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ བརྡ་འཚོལ་འབད་མི་ཚུ་ལུ་སྟོནམ་ཨིན། ལྕོགས་མིན་ཨིན་པ་ཅིན་ ལག་ལེན་པའི་སྣོད་ཐོ་ལུ་ བརྡ་འཚོལ་འབད་མི་ཚུ་གིས་ ཁྱོད་མཐོང་མི་ཚུགས། དེ་འབདཝ་ད་ ཁྱོད་ལུ་འབོད་བརྡ་གཏང་ནི་ལུ་ ཁོང་གིས་ གཏང་ཡུལ་ཡུ་ཨར་ཨེལ་དེ་ ལག་ལེན་འཐབ་ཚུགས།"
+
+#: ../src/pref_window.cpp:750
+#: ../src/pref_window.cpp:1931
+msgid "Call Forwarding"
+msgstr "འབོད་བརྡ་གདོང་བསྐྱོད་འབད་དོ།"
+
+#: ../src/pref_window.cpp:755
+msgid "Forward calls to _host:"
+msgstr "འབོད་བརྡ་ཚུ་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད:(_h)"
+
+#: ../src/pref_window.cpp:760
+msgid "_Always forward calls to the given host"
+msgstr "ཨ་རྟག་ར་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../src/pref_window.cpp:760
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field above"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གོང་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་འོང་།"
+
+#: ../src/pref_window.cpp:762
+msgid "Forward calls to the given host if _no answer"
+msgstr "གལ་སྲིད་ལན་གསལ་མེད་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../src/pref_window.cpp:762
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field above if you do not answer the call"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཀྱིས་འབོད་བརྡ་ལུ་ ལན་གསལ་མ་འབད་བ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གོང་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་ནི་ཨིན།"
+
+#: ../src/pref_window.cpp:764
+msgid "Forward calls to the given host if _busy"
+msgstr "ཁོམ་མེད་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཚུ་ གྲ་བསྒྲིགས་ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད།(_b)"
+
+#: ../src/pref_window.cpp:764
+msgid "If enabled, all incoming calls will be forwarded to the host that is specified in the field above if you already are in a call or if you are in Do Not Disturb mode"
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཁྱོད་ཧེ་མ་ལས་རང་ འབོད་བརྡ་ཅིག་ནང་ཡོདཔ་ད་ ཡང་ན་ མ་དཀྲོགས་ཟེར་མི་ ཐབས་ལམ་ནང་ཡོད་པ་ཅིན་ ནང་འབྱོར་འབོད་བརྡ་ཆ་མཉམ་ གོང་གི་ས་སྒོ་ནང་ གསལ་བཀོད་འབད་མི་ ཧོསིཊི་ལུ་ གདོང་བསྐྱོད་འབད་ནི་ཨིན།"
+
+#: ../src/pref_window.cpp:776
+#: ../src/pref_window.cpp:1912
+msgid "Call Options"
+msgstr "འབོད་བརྡའི་གདམ་ཁ་ཚུ།"
+
+#. Add all the fields
+#: ../src/pref_window.cpp:780
+msgid "Automatically _clear calls after 30 seconds of inactivity"
+msgstr "སྐར་ཆ་༣༠ ཤུགས་མེད་སྦེ་སྡོད་པའི་ཤུལ་ལུ་ འབོད་བརྡ་ཚུ་ རང་བཞིན་གྱིས་བསལ་གཏང་།(_c)"
+
+#. Translators: the full sentence is Reject or forward
+#. unanswered incoming calls after X s (seconds)
+#: ../src/pref_window.cpp:784
+msgid "Reject or forward unanswered incoming calls after "
+msgstr "ལན་གསལ་མེད་པའི་ ནང་འབྱོར་འབོད་བརྡ་ཚུ་གི་ཤུལ་ལས་ དང་ལེན་སྤང་བའམ་ གདོང་བསྐྱོད་འབད།"
+
+#: ../src/pref_window.cpp:784
+msgid "seconds"
+msgstr "སྐར་ཆ།"
+
+#: ../src/pref_window.cpp:816
+msgid "GnomeMeeting Sound Events"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ སྒྲ་སྐད་བྱུང་ལས་ཚུ།"
+
+#: ../src/pref_window.cpp:865
+#: ../src/pref_window.cpp:874
+#: ../src/pref_window.cpp:883
+msgid "Event"
+msgstr "བྱུང་ལས།"
+
+#: ../src/pref_window.cpp:894
+msgid "Sound to play:"
+msgstr "གཏང་ནིའི་སྒྲ་སྐད་:"
+
+#: ../src/pref_window.cpp:907
+msgid "Play"
+msgstr "གཏང་།"
+
+#: ../src/pref_window.cpp:930
+msgid "Ring Output Device"
+msgstr "བརྡ་སྐད་ཀྱི་ ཨའུཊི་པུཊི་ཐབས་འཕྲུལ།"
+
+#: ../src/pref_window.cpp:936
+msgid "Ring Output device:"
+msgstr "བརྡ་སྐད་ཀྱི་ ཨའུཊི་པུཊི་ཐབས་འཕྲུལ་:"
+
+#: ../src/pref_window.cpp:936
+msgid "Select the audio output device to use for the ring sound event"
+msgstr "བརྡ་སྐད་བྱུང་ལས་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་གྱི་ ཨའུཊི་པུཊི་ཐབས་འཕྲུལ་ སེལ་འཐུ་འབད།"
+
+#: ../src/pref_window.cpp:947
+msgid "All"
+msgstr "ཆ་མཉམ་།"
+
+#: ../src/pref_window.cpp:949
+msgid "rfc2833"
+msgstr "rfc2833།"
+
+#: ../src/pref_window.cpp:950
+msgid "Signal"
+msgstr "བརྡ་རྟགས།"
+
+#: ../src/pref_window.cpp:951
+msgid "String"
+msgstr "ཡིག་རྒྱུན།"
+
+#: ../src/pref_window.cpp:958
+msgid "H.323 Version 2 Settings"
+msgstr "H.323 ཐོན་རིམ་ ༢ ཀྱི་གཞི་སྒྲིག་ཚུ།"
+
+#. The toggles
+#: ../src/pref_window.cpp:961
+msgid "Enable H.245 _tunneling"
+msgstr "H.245 ཊ་ན་ལིང་ ལྕོགས་ཅན་བཟོ།(_t)"
+
+#: ../src/pref_window.cpp:961
+msgid "This enables H.245 Tunneling mode. In H.245 Tunneling mode H.245 messages are encapsulated into the the H.225 channel (port 1720). This saves one TCP connection during calls. H.245 Tunneling was introduced in H.323v2 and Netmeeting does not support it. Using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting."
+msgstr "འདི་གིས་H.245 ཊ་ན་ལིང་ཐབས་ལམ་ ལྕོགས་ཅན་བཟོཝ་ཨིན། H.245 ཊ་ན་ལིང་ཐབས་ལམ་ནང་ H.245འཕྲིན་དོན་ཚུ་ H.225 རྒྱུ་ལམ་ འདྲེན་ལམ་༡༧༢༠) ནང་ལུ་ མདོར་བསྡུས་ཏེ་ཡོདཔ་ཨིན། འདི་གིས་འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ ཊི་སི་པི་མཐུད་ལམ་གཅིག་ སྲུང་བཞག་འབདཝ་ཨིན། H.245 ཊ་ན་ལིང་དེ་ H.323v2 ནང་ འགོ་བཙུགས་ཏེ་ཡོདཔ་ད་ ནེཊི་མི་ཊིང་གིས་ དེ་ལུ་རྒྱབ་སྐྱོར་མི་འབད། མགྱོགས་པར་འགོ་བཙུགས་དང་ H.245 ཊ་ན་ལིང་གཉིས་ཆ་ར་ ལག་ལེན་འཐབ་པ་ཅིན་ ནེཊི་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ མེདཔ་འགྱོ་འོང་།"
+
+#: ../src/pref_window.cpp:963
+msgid "Enable _early H.245"
+msgstr "སྔ་ཆའི་H.245 ལྕོགས་ཅན་བཟོ།(_e)"
+
+#: ../src/pref_window.cpp:965
+msgid "Enable fast _start procedure"
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ཀྱི་ བྱ་སྒོའི་ལམ་ལུགས་ ལྕོགས་ཅན་བཟོ།(_s)"
+
+#: ../src/pref_window.cpp:965
+msgid "Connection will be established in Fast Start mode. Fast Start is a new way to start calls faster that was introduced in H.323v2. It is not supported by Netmeeting and using both Fast Start and H.245 Tunneling can crash some versions of Netmeeting."
+msgstr "མགྱོགས་པར་འགོ་བཙུགས་ཐབས་ལམ་ནང་ མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨིན། མགྱོགས་པར་འགོ་བཙུགས་དེ་ H.323v2 ནང་འགོ་བཙུགས་ཏེ་ཡོད་མི་ མགྱོགས་པར་འབོད་བརྡ་གཏང་ནིའི་ ཐབས་ཤེས་གསརཔ་ཅིག་ཨིན། ཇི་ནོམ་མི་ཊིང་གིས་ འདི་ལུ་རྒྱབ་སྐྱོར་མེདཔ་ལས་ མགྱོགས་པར་འགོ་བཙུགས་དང་ H.245 ཊ་ན་ལིང་གཉིས་ཆ་ར་ ལག་ལེན་འཐབ་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གི་ ཐོན་རིམ་ལ་ལོ་ཅིག་ མེདཔ་འགྱོ་འོང་། "
+
+#: ../src/pref_window.cpp:971
+msgid "DTMF Sending"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་གཏང་དོ།"
+
+#: ../src/pref_window.cpp:973
+msgid "_Send DTMF as:"
+msgstr "ཌི་ཊི་ཨེམ་ཨེཕ་བཟུམ་སྦེ་གཏང་།: (_S)"
+
+#: ../src/pref_window.cpp:973
+msgid "This permits to set the mode for DTMFs sending. The values can be \"All\", \"None\", \"rfc2833\", \"Signal\" or \"String\" (default is \"All\"). Choosing other values than \"All\", \"String\" or \"rfc2833\" disables the Text Chat."
+msgstr "འདི་གིས་ ཌི་ཊི་ཨེམ་ཨེསི་ གཏང་ནི་ལུ་ ཐབས་ལམ་གཞི་སྒྲིག་འབདཝ་ཨིན། བེ་ལུ་ཚུ་ \"All\", \"None\", \"rfc2833\", \"Signal\" ཡང་ན་ \"String\" (default is \"All\") ཨིན། \"All\", \"String\" ཡང་ན་ \"rfc2833\" མིན་པའི་ བེ་ལུ་གཞན་ གདམ་ཁ་རྐྱབ་པ་ཅིན་ ཡིག་ཐོག་ཁ་སླབ་ ལྕོགས་མིན་བཟོཝ་ཨིན།"
+
+#: ../src/pref_window.cpp:984
+msgid "Do not register"
+msgstr "ཐོ་འགོད་མ་འབད།"
+
+#: ../src/pref_window.cpp:987
+msgid "Automatically discover"
+msgstr "རང་བཞིན་གྱིས་ གསར་རྙེད་འབད་ནི།"
+
+#: ../src/pref_window.cpp:993
+msgid "Gatekeeper"
+msgstr "སྒོ་སྲུང་པ།"
+
+#: ../src/pref_window.cpp:995
+msgid "Gatekeeper _ID:"
+msgstr "སྒོ་སྲུང་པའི་ཨའི་ཌི་:(_I)"
+
+#: ../src/pref_window.cpp:997
+msgid "Gatekeeper _host:"
+msgstr "སྒོ་སྲུང་པའི་ ཧོསིཊི་:(_h)"
+
+#: ../src/pref_window.cpp:999
+msgid "Gatekeeper _alias:"
+msgstr "སྒོ་སྲུང་པའི་མིང་གཞན་:(_a)"
+
+#: ../src/pref_window.cpp:1002
+msgid "Gatekeeper _password:"
+msgstr "སྒོ་སྲུང་པའི་ ཆོག་ཡིག་:(_p)"
+
+#. Translators: the full sentence is Registration timeout of X minutes
+#: ../src/pref_window.cpp:1006
+msgid "Registration timeout of"
+msgstr "ཐོ་འགོད་ངལ་མཚམས།"
+
+#: ../src/pref_window.cpp:1006
+msgid "minutes"
+msgstr "སྐར་མ།"
+
+#: ../src/pref_window.cpp:1008
+msgid "Register this alias as the primary alias with the gatekeeper"
+msgstr "མིང་གཞན་འདི་ སྒོ་སྲུང་པ་དང་གཅིག་ཁར་ མིང་གཙོ་བོ་སྦེ་ ཐོ་འགོད་འབད།"
+
+#: ../src/pref_window.cpp:1008
+msgid "Use this option to ensure the above alias is used as the primary alias when registering with a gatekeeper. This may be required if your gatekeeper can only perform authentication using the first alias in the list."
+msgstr "སྒོ་སྲུང་པ་དང་གཅིག་ཁར་ ཐོ་འགོད་འབད་བའི་སྐབས་ གོང་གི་མིང་གཞན་དེ་ ངེས་པར་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ གདམ་ཁ་འདི་ ལག་ལེན་འཐབ། དེ་ཡང་ ཁྱོད་ཀྱི་སྒོ་སྲུང་པ་གིས་ ཐོ་ཡིག་ནང་གི་ མིང་གཞན་དང་པ་དེ་ ལག་ལེན་འཐབ་སྟེ་མ་གཏོགས་ བདེན་དཔྱད་འབད་མ་ཚུགས་པའི་སྐབས་ལུ་དགོཔ་འོང་།"
+
+#: ../src/pref_window.cpp:1010
+msgid "Registering method:"
+msgstr "ཐོ་འགོད་ཀྱི་ཐབས་ཤེས་:"
+
+#: ../src/pref_window.cpp:1012
+msgid "Click here to update your Gatekeeper settings"
+msgstr "ཁྱོད་རའི་སྒོ་སྲུང་པའི་གཞི་སྒྲིག་ཚུ་ དུས་མཐུན་བཟོ་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/pref_window.cpp:1025
+msgid "Gateway/Proxy"
+msgstr "འཛུལ་སྒོ་/པོརོག་སི།"
+
+#: ../src/pref_window.cpp:1027
+msgid "Gateway / Proxy host:"
+msgstr "འཛུལ་སྒོ་/པོརོག་སི་ ཧོསིཊི་:"
+
+#: ../src/pref_window.cpp:1029
+msgid "Use gateway or proxy"
+msgstr "འཛུལ་སྒོ་ ཡང་ན་ པོརོག་སི་ལག་ལེན་འཐབ།"
+
+#: ../src/pref_window.cpp:1043
+msgid "IP Translation"
+msgstr "ཨའི་པི་སྐད་བསྒྱུར།"
+
+#: ../src/pref_window.cpp:1045
+msgid "Enable IP _translation"
+msgstr "ཨིའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོ།(_t)"
+
+#: ../src/pref_window.cpp:1045
+msgid "This enables IP translation. IP translation is useful if GnomeMeeting is running behind a NAT/PAT router. You have to put the public IP of the router in the field below. If you are registered to ils.seconix.com, GnomeMeeting will automatically fetch the public IP using the ILS service. If your router natively supports H.323, you can disable this."
+msgstr "འདི་གིས་ཨའི་པི་སྐད་བསྒྱུར་ ལྕོགས་ཅན་བཟོཝ་ཨིན། ཇི་ནོམ་མི་ཊིང་དེ་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་ཅིག་གི་རྒྱབ་ལུ་ གཡོག་བཀོལ་དེ་ཡོད་པ་ཅིན་ ཨའི་པི་སྐད་བསྒྱུ་དེ་ ཕན་ཐོགས་ཡོད། ཁྱོད་ཀྱིས་འོག་གི་སྒོ་ནང་ རོ་ཊར་གྱི་མི་མང་ཨའི་པི་ བཙུགས་དགོ ཁྱོད་རང་ ils.seconix.comལུ་ ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གིས་ ཨེའི་ཨེལ་ཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ རང་བཞིན་གྱིས་སྦེ་ མི་མང་ཨའི་པི་ལེན་འོང་། ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ H.323 ལུ་རྒྱབ་སྐྱོར་འབད་བ་ཅིན་ འདི་ལྕོགས་མིན་བཟོ་རུང་བཏུབ།"
+
+#: ../src/pref_window.cpp:1047
+msgid "Enable _automatic IP checking"
+msgstr "རང་བཞིན་གྱིས་ ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ།(_a)"
+
+#: ../src/pref_window.cpp:1047
+msgid "This enables IP checking from seconix.com and fills the IP in the public IP of the NAT/PAT gateway field of GnomeMeeting. The returned IP is only used when IP Translation is enabled. If you disable IP checking, you will have to manually enter the IP of your gateway in the GnomeMeeting preferences."
+msgstr "འདི་གིས་seconix.com་ནང་ལས་ ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་ཅན་བཟོ་བའི་ཁར་ ཇི་ནོམ་མི་ཊིང་གི་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ འཛུལ་སྒོ་ས་སྒོ་གི་ མི་མང་ཨའི་པི་ནང་ ཨའི་པི་བཀངམ་ཨིན། ལོག་བཏང་མི་ཨའི་པི་དེ་ སྐད་བསྒྱུར་ལྕོགས་ཅན་ཨིན་པའི་སྐབས་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱིས་ཨའི་པི་ཞིབ་དཔྱད་ ལྕོགས་མིན་བཟོ་བ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གི་དགའ་གདམ་ཚུ་ནང་ ཁྱོད་རའི་འཛུལ་སྒོའི་ ཨའི་པི་དེ་ ལག་ཐོག་ལས་བཙུགས་དགོ"
+
+#: ../src/pref_window.cpp:1049
+msgid "Public _IP of the NAT/PAT router:"
+msgstr "ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི།(_I)"
+
+#: ../src/pref_window.cpp:1049
+msgid "Enter the public IP of your NAT/PAT router if you want to use IP translation. If you are registered to ils.seconix.com, GnomeMeeting will automatically fetch the public IP using the ILS service."
+msgstr "ཁྱོད་ཀྱིས་ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ་དགོ་མནོ་བ་ཅིན་ ཁྱོད་རའི་ ཨེན་ཨེ་ཊི་/པི་ཨེ་ཊི་ རོ་ཊར་གྱི་ མི་མང་ཨའི་པི་བཙུགས། ཁྱོད་ils.seconix.com་ལུ་ ཐོ་འགོད་འབད་དེ་ཡོད་པ་ཅིན་ ཇི་ནོམ་མི་ཊིང་གིས་ ཨའི་ཨེལ་ཨེསི་ཞབས་ཏོག་ ལག་ལེན་འཐབ་སྟེ་ མི་མང་ཨའི་པི་དེ་ རང་བཞིན་གྱིས་ལེན་འོང་།"
+
+#: ../src/pref_window.cpp:1055
+msgid "STUN Support"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར།"
+
+#: ../src/pref_window.cpp:1057
+msgid "Enable _STUN Support"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོ།(_S)"
+
+#: ../src/pref_window.cpp:1059
+msgid "STUN Se_rver:"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ སར་བར་:(_r)"
+
+#: ../src/pref_window.cpp:1061
+msgid "Click here to update your STUN Server settings"
+msgstr "ཁྱོད་ཀྱི་ཨེསི་ཊི་ཡུ་ཨེན་ སར་བར་གཞི་སྒྲིག་ཚུ་ དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/pref_window.cpp:1078
+msgid "Low"
+msgstr "དམའ།"
+
+#: ../src/pref_window.cpp:1079
+msgid "Medium"
+msgstr "འབྲིང་།"
+
+#: ../src/pref_window.cpp:1080
+msgid "High"
+msgstr "མཐོ།"
+
+#: ../src/pref_window.cpp:1081
+msgid "AGC"
+msgstr "ཨེ་ཇི་སི།"
+
+#: ../src/pref_window.cpp:1084
+msgid "POTS"
+msgstr "པོ་ཨོ་ཊི་ཨེསི།"
+
+#: ../src/pref_window.cpp:1085
+msgid "Headset"
+msgstr "རྣར་དཔག་སྒྲ་ཆས།"
+
+#: ../src/pref_window.cpp:1093
+msgid "Audio Plugin"
+msgstr "རྣར་ཉན་ པ་ལག་ཨིན།"
+
+#: ../src/pref_window.cpp:1098
+msgid "Audio plugin:"
+msgstr "རྣར་ཉན་ པ་ལག་ཨིན:"
+
+#: ../src/pref_window.cpp:1098
+msgid "The audio plugin that will be used to detect the devices and manage them."
+msgstr "ཐབས་འཕྲུལ་ཚུ་ སྐྱོན་འཛིན་འབད་དེ་ འཛིན་སྐྱོང་འཐབ་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་པ་ལག་ཨིན།"
+
+#: ../src/pref_window.cpp:1104
+#: ../src/pref_window.cpp:1956
+msgid "Audio Devices"
+msgstr "རྣར་ཉན་ ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../src/pref_window.cpp:1111
+msgid "Output device:"
+msgstr "ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་:"
+
+#: ../src/pref_window.cpp:1118
+#: ../src/pref_window.cpp:1187
+msgid "Input device:"
+msgstr "ཨིན་པུཊི་ཐབས་འཕྲུལ་:"
+
+#: ../src/pref_window.cpp:1124
+msgid "Quicknet Hardware"
+msgstr "ཀུའིཀ་ནེཊི་ སྲ་ཆས།"
+
+#: ../src/pref_window.cpp:1126
+msgid "Echo _cancellation:"
+msgstr "བྲག་ཅ་ཆ་མེད་གཏང་བ་:(_c)"
+
+#: ../src/pref_window.cpp:1128
+msgid "Output device type:"
+msgstr "ཨའུཊི་པུཊི་ ཐབས་འཕྲུལ་གྱི་དབྱེ་བ:"
+
+#: ../src/pref_window.cpp:1131
+msgid "Country _code:"
+msgstr "རྒྱལ་ཁབ་ཀྱི་ཨང་རྟགས་:(_c)"
+
+#: ../src/pref_window.cpp:1131
+msgid "The two-letter country code of your country (e.g.: BE, UK, FR, DE, ...)."
+msgstr "ཁྱོད་རའི་རྒྱལ་ཁབ་ཀྱི་ ཡི་གུ་གཉིས་འབད་མི་ཨང་རྟགས། (དཔེར་ན་: BE, UK, FR, DE, ...ལྟ་བུ)"
+
+#. That button will refresh the devices list
+#: ../src/pref_window.cpp:1138
+#: ../src/pref_window.cpp:1212
+msgid "_Detect devices"
+msgstr "ཐབས་འཕྲུལ་ཚུ་ སྐྱོན་འཛིན་འབད།(_D)"
+
+#: ../src/pref_window.cpp:1138
+msgid "Click here to refresh the devices list"
+msgstr "ཐབས་འཕྲུལ་ཐོ་ཡིག་ ཡང་སེལ་འབད་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/pref_window.cpp:1156
+msgid "Small"
+msgstr "ཆུང་ཀུ།"
+
+#: ../src/pref_window.cpp:1157
+msgid "Large"
+msgstr "ཆེ་བ།"
+
+#: ../src/pref_window.cpp:1159
+msgid "PAL (Europe)"
+msgstr "པི་ཨེ་ཨེལ། (ཡུ་རོབ)"
+
+#: ../src/pref_window.cpp:1160
+msgid "NTSC (America)"
+msgstr "ཨེན་ཊི་ཨེསི་སི། (ཨེ་མི་རི་ཀ)"
+
+#: ../src/pref_window.cpp:1161
+msgid "SECAM (France)"
+msgstr "སི་ཀམ། (ཕརཱནསི)"
+
+#: ../src/pref_window.cpp:1162
+msgid "Auto"
+msgstr "རང་བཞིན།"
+
+#: ../src/pref_window.cpp:1171
+msgid "Video Plugin"
+msgstr "ཝི་ཌིའོ་ པ་ལག་ཨིན།"
+
+#: ../src/pref_window.cpp:1175
+msgid "Video plugin:"
+msgstr "ཝི་ཌིའོ་ པ་ལག་ཨིན:"
+
+#: ../src/pref_window.cpp:1181
+#: ../src/pref_window.cpp:1960
+msgid "Video Devices"
+msgstr "ཝི་ཌིའོ་ ཐབས་འཕྲུལ་ཚུ།"
+
+#. Video Channel
+#: ../src/pref_window.cpp:1191
+msgid "Channel:"
+msgstr "རྒྱུ་ལམ་:"
+
+#: ../src/pref_window.cpp:1193
+msgid "Size:"
+msgstr "ཚད་:"
+
+#: ../src/pref_window.cpp:1195
+msgid "Format:"
+msgstr "རྩ་སྒྲིག་:"
+
+#: ../src/pref_window.cpp:1198
+msgid "Image:"
+msgstr "གཟུགས་བརྙན་:"
+
+#: ../src/pref_window.cpp:1212
+msgid "Click here to refresh the devices list."
+msgstr "ཐབས་འཕྲུལ་ཚུ་གི་ཐོ་ཡིག་ ཡང་སེལ་འབད་ནི་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#: ../src/pref_window.cpp:1235
+msgid "Available Audio Codecs"
+msgstr "འཐོབ་ཚུགས་པའི་ རྣར་ཉན་ ཀོ་ཌེཀསི་ཚུ།"
+
+#: ../src/pref_window.cpp:1250
+msgid "Audio Codecs Settings"
+msgstr "རྣར་ཉན་ ཀོ་ཌེཀསི་གི་ གཞི་སྒྲིག་ཚུ།"
+
+#. Translators: the full sentence is Automatically adjust jitter buffer
+#. between X and Y ms
+#: ../src/pref_window.cpp:1254
+msgid "Automatically adjust _jitter buffer between"
+msgstr "ཇི་ཊར་གནད་ཁོངས་ཀྱི་བར་ན་ལུ་ རང་བཞིན་གྱིས་ བདེ་སྒྲིག་འབདཝ་ཨིན།(_j)"
+
+#: ../src/pref_window.cpp:1254
+msgid "and"
+msgstr "དང་།"
+
+#: ../src/pref_window.cpp:1254
+msgid "ms"
+msgstr "ཨེམ་ཨེསི།"
+
+#: ../src/pref_window.cpp:1254
+msgid "The minimum jitter buffer size for audio reception (in ms)."
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཀྱི་ ཉུང་མཐའི་ཚད། (ཨེམ་ཨེསི་ནང་)"
+
+#: ../src/pref_window.cpp:1254
+msgid "The maximum jitter buffer size for audio reception (in ms)."
+msgstr "རྣར་ཉན་སྒྲ་འབྱོར་གྱི་དོན་ལུ་ ཇི་ཊར་གནད་ཁོངས་ཀྱི་ མང་མཐའི་ཚད། (ཨེམ་ཨེསི་ནང་) "
+
+#: ../src/pref_window.cpp:1256
+msgid "Enable silence _detection"
+msgstr "ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ ལྕོགས་ཅན་བཟོ།(_d)"
+
+#: ../src/pref_window.cpp:1256
+msgid "If enabled, use silence detection with the GSM and G.711 codecs."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ ཇི་ཨེསི་ཨེམ་དང་ G.711 ཀོ་ཌེཀསི་དང་གཅིག་ཁར་ ཁུ་སིམ་སིམ་གྱི་སྐྱོན་འཛིན་ ལག་ལེན་འཐབ།"
+
+#: ../src/pref_window.cpp:1268
+#: ../src/pref_window.cpp:1903
+msgid "General Settings"
+msgstr "ཡོངས་ཁྱབ་གཞི་སྒྲིག་ཚུ།"
+
+#. Add fields
+#: ../src/pref_window.cpp:1272
+msgid "Enable video _transmission"
+msgstr "ཝི་ཌིའོ་སྤེལ་བཀྲམ་ ལྕོགས་ཅན་བཟོ།(_t)"
+
+#: ../src/pref_window.cpp:1272
+msgid "If enabled, video is transmitted during a call."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འབོད་བརྡ་ཅིག་གི་རིང་ལུ་ ཝི་ཌིའོ་སྤེལ་བཀྲམ་འབདཝ་ཨིན།"
+
+#: ../src/pref_window.cpp:1274
+msgid "Enable video _reception"
+msgstr "ཝི་ཌིའོ་སྒྲ་འབྱོར་ ལྕོགས་ཅན་བཟོ།(_r)"
+
+#: ../src/pref_window.cpp:1274
+msgid "If enabled, allows video to be received during a call."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ འབོད་བརྡ་གཏང་བའི་རིང་ལུ་ ཝི་ཌིའོ་སྒྲ་འབྱོར་འབད་བཅུགཔ་ཨིན།"
+
+#: ../src/pref_window.cpp:1279
+msgid "Bandwidth Control"
+msgstr "བེནཌི་ཝིཐ་ ཚད་འཛིན།"
+
+#. Translators: the full sentence is Maximum video bandwidth of X kB/s
+#: ../src/pref_window.cpp:1282
+msgid "Maximum video _bandwidth of"
+msgstr "ཝི་ཌིའོ་གི་ བེནཌི་གི་མང་མཐའ།(_b)"
+
+#: ../src/pref_window.cpp:1282
+msgid "The maximum video bandwidth in kbytes/s. The video quality and the number of transmitted frames per second will be dynamically adjusted above their minimum during calls to try to minimize the bandwidth to the given value."
+msgstr "ཝི་ཌིའོ་གི་ ་བེནཌི་མང་མཐའ་ ཀེ་བའིཊིསི་ནང་། གྲ་བསྒྲིགས་བེ་ལུ་དེ་ལུ་ བེནཌི་ཝིཐ་ མར་ཕབ་བརྐྱབ་ཐབས་ལུ་ ཝི་ཌིའོ་གི་སྤུས་ཚད་དང་ སྐར་ཆ་རེ་ནང་ སྤེལ་བཀྲམ་འབད་མི་ གཞི་ཁྲམ་གྱི་གྲངས་་ཚུ་ ནུས་ཅན་གྱི་ཐོག་ལས་ རང་སོའི་ཉུང་མཐའི་འབོད་བརྡ་ཚུ་གི་སྐབས་ལུ་ རང་བཞིན་གྱིས་ བདེ་སྒྲིག་འབད་འོང་།"
+
+#: ../src/pref_window.cpp:1282
+msgid "kB/s"
+msgstr "ཀེ་བི་/ཨེསི།"
+
+#: ../src/pref_window.cpp:1288
+msgid "Advanced Quality Settings"
+msgstr "མཐོ་རིམ་ཅན་གྱི་ སྤུས་ཚད་གཞི་སྒྲིག་ཚུ།"
+
+#. Translators: the full sentence is Keep a minimum video quality of X %
+#: ../src/pref_window.cpp:1291
+msgid "Frame Rate"
+msgstr "གཞི་ཁྲམ་གྱི་གོང་ཚད།"
+
+#: ../src/pref_window.cpp:1291
+msgid "Picture Quality"
+msgstr "པར་གྱི་སྤུས་ཚད།"
+
+#: ../src/pref_window.cpp:1291
+msgid "Choose if you want to favour speed or quality for the transmitted video."
+msgstr "སྤེལ་བཀྲམ་འབད་མི་ ཝི་ཌིའོ་གི་དོན་ལུ་ མགྱོགས་ཚད་དང་ སྤུས་ཚད་གཉིས་ལས་ ག་དེ་དགོ་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས།"
+
+#. Translators: the full sentence is Transmit X background blocks with each
+#. frame
+#: ../src/pref_window.cpp:1295
+msgid "Transmit"
+msgstr "སྤེལ་བཀྲམ་འབད།"
+
+#: ../src/pref_window.cpp:1295
+msgid "Choose the number of blocks (that have not changed) transmitted with each frame. These blocks fill in the background."
+msgstr "གཞི་ཁྲམ་རེ་རེ་བཞིན་དུ་དང་གཅིག་ཁར་ སྤེལ་བཀྲམ་འབད་ནིའི་ སྡེབ་ཚན་་གྱི་གྱངས་ གདམ་ཁ་རྐྱབས། (བསྒྱུར་བཅོས་མ་འགྱོ་མི་ཚུ) སྡེབ་ཚན་འདི་ཚུ་གིས་ རྒྱབ་གཞི་བཀངམ་ཨིན།"
+
+#: ../src/pref_window.cpp:1295
+msgid "background _blocks with each frame"
+msgstr "གཞི་ཁྲམ་རེ་རེ་དང་སྦྲགས་པའི་ རྒྱབ་གཞིའི་སྡེབ་ཚན།(_b)"
+
+#: ../src/pref_window.cpp:1486
+#: ../src/pref_window.cpp:1514
+msgid "Choose a Picture"
+msgstr "པར་ཅིག་གདམ་ཁ་རྐྱབས།"
+
+#: ../src/pref_window.cpp:1883
+msgid "GnomeMeeting Preferences"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ དགའ་གདམ་ཚུ།"
+
+#: ../src/pref_window.cpp:1897
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../src/pref_window.cpp:1898
+msgid "Personal Data"
+msgstr "རང་དོན་གནད་སྡུད།"
+
+#: ../src/pref_window.cpp:1908
+msgid "Directory Settings"
+msgstr "སྣོད་ཐོའི་གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/pref_window.cpp:1916
+msgid "NAT Settings"
+msgstr "ཨེན་ཨེ་ཊི་ གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/pref_window.cpp:1921
+msgid "Sound Events"
+msgstr "སྒྲ་སྐད་བྱུང་ལས།"
+
+#: ../src/pref_window.cpp:1925
+msgid "H.323 Settings"
+msgstr "H.323 གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/pref_window.cpp:1927
+msgid "Advanced Settings"
+msgstr "མཐོ་རིམ་ཅན་གྱི་ གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/pref_window.cpp:1936
+msgid "Gatekeeper Settings"
+msgstr "སྒོ་སྲུང་པའི་ གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/pref_window.cpp:1941
+msgid "Gateway / Proxy Settings"
+msgstr "འཛུལ་སྒོ་/པོརོག་སི་ གཞི་སྒྲིག་ཚུ།"
+
+#: ../src/pref_window.cpp:1945
+msgid "Codecs"
+msgstr "ཀོ་ཌེཀསི།"
+
+#: ../src/pref_window.cpp:1947
+msgid "Audio Codecs"
+msgstr "རྣར་ཉན་ཀོ་ཌེཀསི།"
+
+#: ../src/pref_window.cpp:1951
+msgid "Video Codecs"
+msgstr "ཝི་ཌིའོ་ ཀོ་ཌེཀསི།"
+
+#: ../src/pref_window.cpp:1955
+msgid "Devices"
+msgstr "ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../src/sound_handling.cpp:329
+msgid "Opening device for playing"
+msgstr "གཏང་ནིའི་དོན་ལུ་ ཐབས་འཕྲུལ་ཁ་ཕྱེ་བའི་བསྒང་།"
+
+#: ../src/sound_handling.cpp:331
+msgid "Opening device for recording"
+msgstr "སྒྲ་བཟུང་གི་དོན་ལུ་ ཐབས་འཕྲུལ་ཁ་ཕྱེ་བའི་བསྒང་།"
+
+#: ../src/sound_handling.cpp:343
+#: ../src/sound_handling.cpp:345
+#: ../src/videograbber.cpp:708
+msgid "Failed to open the device"
+msgstr "ཐབས་འཕྲུལ་དེ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/sound_handling.cpp:343
+#, c-format
+msgid "Impossible to open the selected audio device (%s) for recording. Please check your audio setup, the permissions and that the device is not busy."
+msgstr "སེལ་འཐུ་འབད་མི་ རྣར་ཉན་ཐབས་འཕྲུལ་(%s)དེ་ སྒྲ་བཟུང་གི་དོན་ལུ་ ཁ་ཕྱེ་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དང་ གནང་བ་ཚུ་ དེ་ལས་ ཐབས་འཕྲུལ་དེ་ དལ་ཁོམ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/sound_handling.cpp:345
+#, c-format
+msgid "Impossible to open the selected audio device (%s) for playing. Please check your audio setup, the permissions and that the device is not busy."
+msgstr "སེལ་འཐུ་འབད་མི་ རྣར་ཉན་ཐབས་འཕྲུལ་(%s)དེ་ གཏང་ནིའི་དོན་ལུ་ ཁ་ཕྱེ་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དང་ གནང་བ་ཚུ་ དེ་ལས་ ཐབས་འཕྲུལ་དེ་ དལ་ཁོམ་ཡོད་མེད་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/sound_handling.cpp:384
+#: ../src/sound_handling.cpp:460
+msgid "Cannot use the audio device"
+msgstr "རྣར་ཉན་ཐབས་འཕྲུལ་དེ་ ལག་ལེན་འཐབ་མི་ཚུགས་པས།"
+
+#: ../src/sound_handling.cpp:384
+#, c-format
+msgid "The selected audio device (%s) was successfully opened but it is impossible to read data from this device. Please check your audio setup."
+msgstr "སེལ་འཐུ་འབད་མི་ ཐབས་འཕྲུལ་(%s)དེ་ མཐར་འཁྱོལ་ཅན་སྦེ་ ཁ་ཕྱེ་ཚུགས་ཅི། དེ་འབདཝ་ད་ ཐབས་འཕྲུལ་འདི་ནང་ལས་ གནད་སྡུད་ཚུ་ ལྷག་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དེ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/sound_handling.cpp:393
+msgid "Recording your voice"
+msgstr "ཁྱོད་རའི་སྐད་ སྒྲ་བཟུང་དོ།"
+
+#: ../src/sound_handling.cpp:435
+msgid "Recording and playing back"
+msgstr "སྒྲ་བཟུང་ཞིནམས་ལས་ ལོག་གཏང་དོ།"
+
+#: ../src/sound_handling.cpp:460
+#, c-format
+msgid "The selected audio device (%s) was successfully opened but it is impossible to write data to this device. Please check your audio setup."
+msgstr "སེལ་འཐུ་འབད་མི་ ཐབས་འཕྲུལ་(%s)དེ་ མཐར་འཁྱོལ་ཅན་སྦེ་ ཁ་ཕྱེ་ཚུགས་ཅི། དེ་འབདཝ་ད་ ཐབས་འཕྲུལ་འདི་ནང་ལུ་ གནད་སྡུད་ཚུ་ འབྲི་མི་ཚུགས་པས། ཁྱོད་རའི་རྣར་ཉན་གཞི་སྒྲིག་དེ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../src/sound_handling.cpp:583
+#, c-format
+msgid "GnomeMeeting is now recording from %s and playing back to %s. Please say \"1 2 3\" in your microphone, you should hear yourself back into the speakers with a 4 seconds delay."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ ད་ལྟོ་%sནང་ལས་སྒྲ་བཟུང་ཞིནམ་ལས་%sལུ་ལོག་གཏང་དོ། ཁྱོད་རའི་ཁ་པར་ནང་ ༡ ༢ ༣ ཟེར་སླབ་ད་ སྐར་ཆ་༤ གི་ཤུལ་ལས་ སྒྲ་སྒྲོམ་ནང་ལས་ ལོག་ཁྱོད་རང་གིས་གོ་ཚུགས།"
+
+#: ../src/stunclient.cpp:102
+msgid "Unknown NAT"
+msgstr "མ་ཤེས་པའི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/stunclient.cpp:102
+msgid "Open NAT"
+msgstr "ཨེན་ཨེ་ཊི་ ཁ་ཕྱེ།"
+
+#: ../src/stunclient.cpp:103
+msgid "Cone NAT"
+msgstr "ཀཱོན་ ཨེན་ཨེ་ཊི། "
+
+#: ../src/stunclient.cpp:103
+msgid "Restricted NAT"
+msgstr "བཀག་དམ་ཅན་གྱི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/stunclient.cpp:103
+msgid "Port Restricted NAT"
+msgstr "མཐུད་ལམ་བཀག་དམ་ཅན་གྱི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/stunclient.cpp:104
+msgid "Symmetric NAT"
+msgstr "ཆ་མཚུངས་པའི་ ཨེན་ཨེ་ཊི།"
+
+#: ../src/stunclient.cpp:104
+msgid "Symmetric Firewall"
+msgstr "ཆ་མཚུངས་པའི་ བཀག་དམ།"
+
+#: ../src/stunclient.cpp:104
+msgid "Blocked"
+msgstr "འགགས་ཡོདཔ།"
+
+#: ../src/stunclient.cpp:105
+msgid "Partially Blocked"
+msgstr "ཆ་ཤས་ཅིག་ འགགས་ཡོདཔ།"
+
+#: ../src/stunclient.cpp:120
+#: ../src/stunclient.cpp:243
+msgid "Removed STUN server"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ སར་བར་ རྩ་བསྐྲད་ཏང་ཡོད།"
+
+#: ../src/stunclient.cpp:137
+#, c-format
+msgid "Set STUN server to %s (%s)"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ སར་བར་%s (%s)ལུ་ གཞི་སྒྲིག་འབད།"
+
+#: ../src/stunclient.cpp:157
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"GnomeMeeting could not detect the type of NAT you are using. The most appropriate method, if your router does not natively support H.323, is probably to forward the required ports to your internal machine and use IP translation if you are behind a NAT router. Please also make sure you are not running a local firewall."
+msgstr ""
+"ཨེསི་ཊི་ཡུ་ཨེན་ བརྟག་ཞིབ་གྲུབ་འབྲས་: %s.\n"
+"\n"
+"ཇི་ནོམ་མི་ཊིང་གིས་ ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་མི་ ཨེན་ཨེ་ཊི་གི་དབྱེ་བ་དེ་ ངོས་འཛིན་འབད་མ་ཚུགས། ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ H.323ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་ འོས་ལྡན་གྱི་ཐབས་ཤེས་དྲག་ཤོས་དེ་རང་ ཉེར་མཁོའི་འདྲེན་ལམ་ཚུ་ ཁྱོད་རའི་ནང་འཁོད་ཀྱི་ གློག་འཕྲུལ་ལུ་ གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ཁྱོད་ར་ཨེན་ཨེ་ཊི་ཅིག་གི་རྒྱབ་ཁར་ཡོད་པ་ཅིན་ ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ། དེ་འབདཝ་ད་ ཉེ་གནས་ཀྱི་ ཕ་ཡེར་ཝཱལ་ཅིག་ གཡོག་བཀོལ་བའི་བསྒང་མིནམ་ ངེས་ཏིག་བཟོ་དགོ"
+
+#: ../src/stunclient.cpp:163
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Your system does not need any specific configuration as long as you do not have a local firewall blocking the ports required by GnomeMeeting."
+msgstr ""
+"ཨེསི་ཊི་ཡུ་ཨེན་ བརྟག་ཞིབ་གྲུབ་འབྲས་: %s .\n"
+"\n"
+"ཇི་ནོམ་ལུ་དགོས་མཁོ་ཡོད་པའི་ འདྲེན་ལམ་ཚུ་ལུ་འགགས་མི་ ཉེ་གནས་ཀྱི་ཕ་ཡེར་ཝཱལ་ཅིག་མེད་པ་ཅིན་ ཁྱོད་ཀྱི་རིམ་ལུགས་ལུ་ དམིགས་བསལ་གྱི་རིམ་སྒྲིག་ ག་ནི་ཡང་དགོཔ་མེད།"
+
+#: ../src/stunclient.cpp:168
+msgid "GnomeMeeting detected Symmetric NAT. The most appropriate method, if your router does not natively support H.323, is to forward the required ports to your internal machine in order to change your Symmetric NAT into Cone NAT. Running this test again after the port forwarding has been done should report Cone NAT and allow GnomeMeeting to be used with STUN support enabled. If it does not report Cone NAT, then it means that there is a problem in your forwarding rules."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ ཆ་མཚུངས་པའི་ ཨེན་ཨེ་ཊི་ སྐྱོན་འཛིན་འབད་ནུག ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ H.323ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་ འོས་ལྡན་གྱི་ཐབས་ཤེས་དྲག་ཤོས་དེ་རང་ ཉེར་མཁོའི་འདྲེན་ལམ་ཚུ་ ཁྱོད་རའི་ནང་འཁོད་ཀྱི་ གློག་འཕྲུལ་ལུ་ གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ཁྱོད་རའི་ཆ་མཚུངས་པའི་ ཨེན་ཨེ་ཊི་དེ་ ཀཱོན་ཨེན་ཨེ་ཊི་ལུ་ བསྒྱུར་བཅོས་འབད་དགོ འདྲེན་ལམ་གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ལོག་སྟེ་བརྟག་ཞིབ་འབད་ནི་དེ་གིས་ ཀཱོན་ཨེན་ཨེ་ཊི་ སྙན་ཞུ་འབད་ཞིནམ་ལས་ ཇི་ནོམ་མི་ཊིང་དེ་ ལྕོགས་ཅན་གྱི་ ཨེསི་ཊི་ཡུ་ཨེན་ རྒྱབ་སྐྱོར་དང་གཅིག་ཁར་ ལག་ལེན་འཐབ་བཅུགཔ་ཨིན། གལ་སྲིད་དེ་གིས་ ཀཱོན་ཨེན་ཨེ་ཊི་ སྙན་ཞུ་མ་འབད་བ་ཅིན་ ཁྱོད་ཀྱི་གདོང་བསྐྱོད་ལམ་ལུགས་ནང་ དཀའ་ངལ་ཅིག་ཡོད་པའི་བརྡ་ཨིན།"
+
+#: ../src/stunclient.cpp:173
+#, c-format
+msgid ""
+"STUN test result: %s.\n"
+"\n"
+"Using a STUN server is most probably the most appropriate method if your router does not natively support H.323.\n"
+"Notice that STUN support is not sufficient if you want to contact H.323 clients that do not support H.245 Tunneling like Netmeeting. In that case you will have to use the classical IP translation and port forwarding.\n"
+"\n"
+"Enable STUN Support?"
+msgstr ""
+"ཨེསི་ཊི་ཡུ་ཨེན་ བརྟག་ཞིབ་གྲུབ་འབྲས་: %s .\n"
+"\n"
+"ཇི་ནོམ་མི་ཊིང་གིས་ ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་མི་ ཨེན་ཨེ་ཊི་གི་དབྱེ་བ་དེ་ ངོས་འཛིན་འབད་མ་ཚུགས། ཁྱོད་ཀྱི་རོ་ཊར་གྱིས་ H.323ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་ འོས་ལྡན་གྱི་ཐབས་ཤེས་དྲག་ཤོས་དེ་རང་ ཉེར་མཁོའི་འདྲེན་ལམ་ཚུ་ ཁྱོད་རའི་ནང་འཁོད་ཀྱི་ གློག་འཕྲུལ་ལུ་ གདོང་བསྐྱོད་འབད་ཞིནམ་ལས་ ཁྱོད་ར་ཨེན་ཨེ་ཊི་ཅིག་གི་རྒྱབ་ཁར་ཡོད་པ་ཅིན་ ཨའི་པི་སྐད་བསྒྱུར་ ལག་ལེན་འཐབ། དེ་འབདཝ་ད་ ཉེ་གནས་ཀྱི་ ཕ་ཡེར་ཝཱལ་ཅིག་ གཡོག་བཀོལ་བའི་བསྒང་མིནམ་ ངེས་ཏིག་བཟོ་དགོ"
+
+#: ../src/stunclient.cpp:182
+#: ../src/stunclient.cpp:196
+msgid "NAT Detection Successfull"
+msgstr "ཨེན་ཨེ་ཊི་ སྐྱོན་་འཛིན་མཐར་འཁྱོལ་བྱུང་ཡི།"
+
+#: ../src/stunclient.cpp:207
+msgid "The type of NAT was successfully detected"
+msgstr "ཨེf་ཨེ་ཊི་གི་དབྱེ་བ་དེ་ མཐར་འཁྱོལ་སྦེ་ སྐྱོན་འཛིན་བྱུང་ཡི།"
+
+#: ../src/stunclient.cpp:232
+#, c-format
+msgid "Set STUN server to %s"
+msgstr "ཨེསི་ཊི་ཡུ་ཨེན་ སར་བར་%sལུ་ གཞི་སྒྲིག་འབད།"
+
+#: ../src/tools.cpp:171
+#: ../src/tools.cpp:191
+msgid "PC-To-Phone Settings"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ལུ་གཞི་སྒྲིག"
+
+#: ../src/tools.cpp:180
+msgid ""
+"You can make calls to regular phones and cell numbers worldwide using GnomeMeeting. To enable this, you need to register an account using the URL below, then enter your Account number and PIN, and finally enable registering to the GnomeMeeting PC-To-Phone service.\n"
+"\n"
+"Please make sure you are using the URL below to get your account otherwise the service will not work."
+msgstr ""
+"ཁྱོད་ཀྱིས་ཇི་ནོམ་མི་ཊིང་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ དུས་རྒྱུན་གྱི་བརྒྱུད་འཕྲིན་དང་ ནང་ཚན་ཨང་གྲངས་ཚུ་ལུ་ འབོད་བརྡ་གཏང་ཚུགས། འདི་འབད་ཚུགས་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་འོག་གི་ཡུ་ཨར་ཨེལ་ནང་ རྩིས་ཐོ་ཅིག་ ཐོ་འགོད་འབད་དེ་ དེ་ནང་ཁྱོད་རའི་ རྩིས་ཐོ་ཨང་དང་ རང་གི་ངོ་རྟགས་ཨང་(པི་ཨའི་ཨེན) བཙུགས་ཞིནམ་ལས་ མཐའ་མཇུག་ལུ་ གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ཞབས་ཏོག་ལུ་ ཐོ་འགོད་ལྕོགས་ཅན་བཟོ་དགོ .\n"
+"\n"
+"ཁྱོད་རའི་རྩིས་ཐོ་ ལེན་ནིའི་དོན་ལུ་ འོག་གི་ཡུ་ཨར་ཨེལ་དེ་ ལག་ལེན་འཐབ་དགོ་ དེ་མིན་པ་ཅིན་ ཞབས་ཏོག་དེ་གིས་ ལཱ་འབད་མི་བཏུབ། "
+
+#: ../src/tools.cpp:193
+msgid "Account _number:"
+msgstr "རྩིས་ཐོ་ཨང་:(_n)"
+
+#: ../src/tools.cpp:193
+msgid "Use your MicroTelco account number"
+msgstr "ཁྱོད་རའི་མའི་ཀོརོ་ ཊེལ་ཀོ་ རྩིས་ཐོ་ཨང་ལག་ལེན་འཐབ།"
+
+#: ../src/tools.cpp:196
+msgid "_Pin:"
+msgstr "ངོ་རྟགས་ཨང་:(_P)"
+
+#: ../src/tools.cpp:196
+msgid "Use your MicroTelco PIN"
+msgstr "ཁྱོད་རའི་ མའི་ཀོརོ་ ཊེལ་ཀོ་ ངོ་རྟགས་ཨང་ ལག་ལེན་འཐབ།"
+
+#: ../src/tools.cpp:202
+msgid "Use PC-To-Phone service"
+msgstr "གློག་རིག་ལས་བརྒྱུད་འཕྲིན་ཞབས་ཏོག་ལུ་ ལག་ལེན་འཐབ།"
+
+#: ../src/tools.cpp:215
+msgid "Click on one of the following links to get more information about your existing GnomeMeeting PC-To-Phone account, or to create a new account."
+msgstr "ཁྱོད་རའི་ད་ལྟོ་ཡོད་མི་ ཇི་ནོམ་མི་ཊིང་གི་ གློག་རིག་ལས་བརྒྱུད་འཕྲིན་རྩིས་ཐོའི་སྐོར་ལས་ བརྡ་དོན་ཧེང་བཀལ་ འཐོབ་ནི་དང་ ཡང་ན་ རྩིས་ཐོ་གསརཔ་བཟོ་ནིའི་དོན་ལུ་ འོག་གི་འབྲེལ་ལམ་གཅིག་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../src/tools.cpp:224
+msgid "Get a GnomeMeeting PC-To-Phone account"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ གློག་རིག་ལས་བརྒྱུད་འཕྲིན་གྱི་ རྩིས་ཐོ་ཅིག་ལེན།"
+
+#: ../src/tools.cpp:238
+msgid "Recharge the account"
+msgstr "རྩིས་ཐོ་བསྐྱར་གསོ་འབད།"
+
+#: ../src/tools.cpp:252
+msgid "Consult the balance history"
+msgstr "ལྷག་ལུས་ལོ་རྒྱུས་ལུ་ གྲོས་བསྟུན་འབད།"
+
+#: ../src/tools.cpp:266
+msgid "Consult the calls history"
+msgstr "འབོད་བརྡའི་་ལོ་རྒྱུས་ལུ་ གྲོས་བསྟུན་འབད།"
+
+#: ../src/tray.cpp:244
+msgid "GnomeMeeting Tray Icon"
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ ཤོག་སྣོད་ངོས་དཔར།"
+
+#: ../src/tray.cpp:258
+msgid "_Connect"
+msgstr "མཐུད།(_C)"
+
+#: ../src/urlhandler.cpp:77
+msgid "The call transfer failed, the user was either unreachable, or simply busy when he received the call transfer request."
+msgstr "འབོད་བརྡ་གནས་སོར་ གཏང་མ་ཚུགས། ལག་ལེན་པ་དེ་ཡང་ ལྷོད་སར་མིན་འདུག ཡང་ན་ འབོད་བརྡ་གནས་སོར་གྱི་ཞུ་བ་ འབྱོར་བའི་སྐབས་ ཁོ་ཁོམ་མེད་ཨིནམ་འོང་ནི་མས།"
+
+#: ../src/urlhandler.cpp:385
+#, c-format
+msgid "No contact with speed dial %s# found, will call number %s instead"
+msgstr "མགྱོགས་ཚད་ཌ་ཡེལ་%s#དང་གཅིག་ཁར་ འབྲེལ་ས་འཚོལ་མ་ཐོབ། དེ་གི་ཚབ་ལུ་ ཨང་%sནང་ འབོད་བརྡ་གཏང་འོང་།"
+
+#: ../src/urlhandler.cpp:401
+msgid "Invalid URL handler"
+msgstr "ནུས་མེད་ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་པ།"
+
+#: ../src/urlhandler.cpp:401
+msgid "Please specify a valid URL handler. Currently both h323: and callto: are supported."
+msgstr "ནུས་ཅན་གྱི་ ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་པ་ཅིག་ གསལ་བཀོད་འབད་གནང་། ད་ལྟོ་ h323:དང་ གཏང་ཡུལ་གཉིས་ཆ་རང་ལུ་ རྒྱབ་སྐྱོར་ཡོད།"
+
+#: ../src/urlhandler.cpp:413
+#, c-format
+msgid "Calling %s"
+msgstr "%sལུ་ འབོད་བརྡ་་གཏང་དོ།"
+
+#: ../src/urlhandler.cpp:416
+#, c-format
+msgid "Transferring call to %s"
+msgstr "འབོད་བརྡ་%sལུ་ གནས་སོར་གཏང་་དོ།"
+
+#: ../src/videograbber.cpp:319
+#, c-format
+msgid "Opening video device %s with plugin %s"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sདེ་ པ་ལག་ཨིན་%sདང་གཅིག་ཁར་ ཁ་ཕྱེ་དོ།"
+
+#: ../src/videograbber.cpp:347
+#, c-format
+msgid "Successfully opened video device %s, channel %d"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sདང་ རྒྱུ་ལམ་%dམཐར་འཁྱོལ་སྦེ་ ཁ་ཕྱེ་ཡི།"
+
+#: ../src/videograbber.cpp:358
+#, c-format
+msgid "Error while opening video device %s"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sཁ་ཕྱེ་ནི་ལུ་འཛོལ་བ།"
+
+#. Translators: Do not translate MovingLogo and Picture
+#: ../src/videograbber.cpp:362
+msgid "A moving GnomeMeeting logo will be transmitted during calls. Notice that you can always transmit a given image or the moving GnomeMeeting logo by choosing \"Picture\" as video plugin and \"MovingLogo\" or \"StaticPicture\" as device."
+msgstr "ཇི་ནོམ་མི་ཊིང་གི་ འགུལ་ཅན་ལས་རྟགས་ཅིག་ འབོད་བརྡ་གཏང་བའི་སྐབས་ལུ་ སྤེལ་བཀྲམ་འབད་འོང་། སེམས་ཁར་ངེས་དགོཔ་ ཁྱོད་ཀྱིས་ནམ་རང་འབད་རུང་ གྲ་བསྒྲིགས་ཀྱི་གཟུགས་བརྙན་ཅིག་གམ་ འགུལ་ཅན་ཇི་ནོམ་མི་ཊིང་གི་ལས་རྟགས་དེ་ \"Picture\"ཝིན་ཌིའོ་པ་ལག་ཨིན་སྦེ་དང་ \"MovingLogo\" ཡང་ན་\"StaticPicture\" དེ་ ཐབས་འཕྲུལ་སྦེ་ གདམ་ཁ་བརྐྱབས་ཐོག་ལས་ སྤེལ་བཀྲམ་འབད་ཚུགས།"
+
+#: ../src/videograbber.cpp:364
+msgid "Couldn't open the video device"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/videograbber.cpp:368
+msgid "There was an error while opening the device. Please check your permissions and make sure that the appropriate driver is loaded."
+msgstr "ཐབས་འཕྲུལ་ཁ་ཕྱེ་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ནུག ཁྱོད་རའི་གནང་བ་ཚུ་ ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ འོས་ལྡན་གྱི་འདྲེན་བྱེད་དེ་ མངོན་གསལ་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
+
+#: ../src/videograbber.cpp:372
+#: ../src/videograbber.cpp:686
+msgid "Your video driver doesn't support the requested video format."
+msgstr "ཁྱོད་ཀྱི་ཝི་ཌིའོ་འདྲེན་བྱེད་དེ་གིས་ ཞུ་བ་འབད་མི་ ཝི་ཌིའོ་རྩ་སྒྲིག་དེ་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../src/videograbber.cpp:376
+msgid "Could not open the chosen channel."
+msgstr "གདམ་ཁ་རྐྱབ་མི་རྒྱུ་ལམ་དེ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/videograbber.cpp:380
+msgid ""
+"Your driver doesn't seem to support any of the colour formats supported by GnomeMeeting.\n"
+" Please check your kernel driver documentation in order to determine which Palette is supported."
+msgstr ""
+"ཁྱོད་ཀྱི་འདྲེན་བྱེད་དེ་གིས་ ཇི་ནོམ་མི་ཊིང་གིས་ རྒྱབ་སྐྱོར་འབད་མི་ ཚོས་གཞི་རྩ་སྒྲིག་ གཅིག་ལུ་ཡང་ རྒྱབ་སྐྱོར་མི་འབད་དོ་བཟུམ་ཅིག་འདུག \n"
+"པེ་ལེཊི་་ག་དེ་ལུ་རྒྱབ་སྐྱོར་ཡོད་ག་ ངོས་འཛིན་འབད་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ཀར་ནེལ་ འདྲེན་བྱེད་ཡིག་ཐོག་ལུ་བཀོད་ནི་དེ་ལུ་ ཞིབ་དཔྱད་འབད།"
+
+#: ../src/videograbber.cpp:384
+msgid "Error while setting the frame rate."
+msgstr "གཞི་ཁྲམ་གྱི་མགྱོགས་ཚད་ གཞི་སྒྲིག་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/videograbber.cpp:388
+msgid "Error while setting the frame size."
+msgstr "གཞི་ཁྲམ་གྱི་ཚད་ གཞི་སྒྲིག་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/videograbber.cpp:428
+msgid "Opened the video device using the \"Picture\" video plugin"
+msgstr "ཝི་ཌིའོ་ཐབས་འཕྲུལ་དེ་ \"Picture\" གྱི་ ཝི་ཌིའོ་པ་ལག་ཨིན་ ལག་ལེན་འཐབ་ཐོག་ལས་ ཁ་ཕྱེ་ཡི།"
+
+#: ../src/videograbber.cpp:586
+msgid "Picture"
+msgstr "པར།"
+
+#: ../src/videograbber.cpp:598
+#, c-format
+msgid "GnomeMeeting is now testing the %s video device. If you experience machine crashes, then report a bug to the video driver author."
+msgstr "ཇི་ནོམ་མི་ཊིང་གིས་ ད་ལྟོ་ཝི་ཌིའོ་ཐབས་འཕྲུལ་%sདེ་ལུ་ བརྟག་ཞིབ་འབད་དོ། གལ་སྲིད་ གློག་འཕྲུལ་ལུ་ དཀའ་ངལ་འབྱུང་པ་ཅིན་ ཝི་ཌིའོ་འདྲེན་བྱེད་རྩོམ་པ་པོ་ལུ་ རྐྱེན་གྱི་སྙན་ཞུ་ཅིག་གཏང་།"
+
+#: ../src/videograbber.cpp:660
+#, c-format
+msgid "Test %d done"
+msgstr "བརྟག་ཞིབ་%dཚར།"
+
+#: ../src/videograbber.cpp:662
+#, c-format
+msgid "Test %d failed"
+msgstr "བརྟག་ཞིབ་%d མ་ཚུགས།"
+
+#: ../src/videograbber.cpp:681
+#, c-format
+msgid "Error while opening %s."
+msgstr "%sཁ་ཕྱེ་བའི་སྐབས་འཛོལ་བ།"
+
+#: ../src/videograbber.cpp:690
+msgid "Could not open the chosen channel with the chosen video format."
+msgstr "གདམ་ཁ་རྐྱབ་མི་ ཝི་ཌིའོ་རྩ་སྒྲིག་དེ་གིས་ གདམ་ཁ་རྐྱབ་མི་ རྒྱུ་ལམ་དེ་ ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../src/videograbber.cpp:694
+msgid "Your driver doesn't support any of the color formats tried by GnomeMeeting"
+msgstr "ཁྱོད་ཀྱི་འདྲེན་བྱེད་དེ་གིས་ ཇི་ནོམ་མི་ཊིང་གིས་ འབད་རྩོལ་བསྐྱེད་མི་ ཚོས་གཞི་རྩ་སྒྲིག་གཅིག་ལུ་ཡང་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../src/videograbber.cpp:698
+msgid "Error with the frame rate."
+msgstr "གཞི་ཁྲམ་གྱི་མགྱོགས་ཚད་ལུ་འཛོལ་བ།"
+
+#: ../src/videograbber.cpp:702
+msgid "Error with the frame size."
+msgstr "གཞི་ཁྲམ་གྱི་ཚད་ལུ་འཛོལ་བ།"
+

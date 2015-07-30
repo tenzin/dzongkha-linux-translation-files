@@ -1,0 +1,308 @@
+# LANGUAGE translation of Drupal (modules/statistics.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: statistics.module,v 1.225.2.1 2006/05/05 12:03:51 killes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: statistics-module.pot\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-22 15:07+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/statistics/statistics.module:15
+msgid "The statistics module keeps track of numerous statistics of site usage. It counts how many times, and from where each of your posts is viewed. The statistics module can be used to learn many useful things about how users are interacting with each other and with your site."
+msgstr "ཚད་རྩིས་ཚད་གཞི་འདི་གིས་ས་ཁོངས་བེད་སྤྱོད་ཀྱི་ཚད་རྩིས་ལེ་ཤ་གི་རྗེས་ལམ་བདག་འཛིན་འབད་བཞགཔ་ཨིན། དེ་གིས་ཁྱོད་ཀྱི་འགྲེམ་སྐྱེལ་རེ་རེ་ག་སྟེ་ལས་སྟོན་ཡོདཔ་ཨིན་ན་དང་ཐེངས་ག་དེམ་ཅིག་སྟོན་ཡོདཔ་ཨིན་ན་གཡངས་ཁ་བརྐྱབ་ཨིན། ཚད་རྩིས་ཚད་གཞི་འདི་ ལག་ལེན་པ་ཚུ་ཁྱོད་ཀྱི་ས་ཁོངས་དང་ ཁོང་ར་གཅིག་གིས་གཅིག་ལུ་ག་དེ་སྦེ་ཕན་ཚུན་འབྲེལ་བ་འཐབ་ཨིན་ནའི་སྐོར་ལས་ཕན་ཐོགས་ཅན་ལེ་ཤ་ལྷབ་ནི་ལུ་ལག་ལེན་འཐབ་ཚུགས།"
+
+#: modules/statistics/statistics.module:16
+msgid ""
+"<p>Statistics module features</p>\n"
+"<ul>\n"
+"<li>Logs show statistics for how many times your site and specific content on your site has been accessed.</li>\n"
+"<li>Referrers tells you from where visitors came from (referrer URL).</li>\n"
+"<li>Top pages shows you what's hot, what is the most popular content on your site.</li>\n"
+"<li>Top users shows you the most active users for your site.</li>\n"
+"<li>Recent hits displays information about the latest activity on your site.</li>\n"
+"<li>Node count displays the number of times a node has been accessed in the node's link section next to <em># comments</em>.</li>\n"
+"<li>Popular content block creates a block that can display the day's top viewed content, the all time top viewed content, and the last content viewed.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཚད་རྩིས་ཚད་གཞིའི་ཁྱད་རྣམ་ཚུ་</p>\n"
+"<ul>\n"
+"<li>དྲན་དེབ་འདི་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་ཁྱོད་ཀྱི་ས་ཁོངས་དང་དམིགས་བསལ་ནང་དོན་འདི་ཐེངས་ག་དེམ་ཅིག་གི་རིང་འཛུལ་སྤྱོད་འབད་ཡོདཔ་ཨིན་ན་ཚད་རྩིས་སྟོནམ་ཨིན།</li>\n"
+"<li>གཞི་བསྟུན་པ་ཚུ་གིས་ཁྱོད་ལུ་ལྟ་སྐོར་པ་ཚུ་ག་སྟེ་ལས་འོང་ཡི་ག་བཤདཔ་ཨིན་ (གཞི་བསྟུན་པ་ ཡུ་ཨར་ཨེལ་).</li>\n"
+"<li>མགོའི་་ཤོག་ལེབ་འདི་གིས་ཁྱོད་ལུ་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་ཡོངས་གྲགས་ཅན་གྱི་ནང་དོན་ག་ཅི་ཨིན་ན་ སྙན་གྲགས་ག་ཅི་ཨིན་ན་སྟོནམ་ཨིན།</li>\n"
+"<li>མགོའི་ལག་ལེན་པ་འདི་གིས་ཁྱོད་ལུ་ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་དོན་ལས་ཤུགས་ལྡན་ལག་ལེན་པ་ཚུ་སྟོནམ་ཨིན།</li>\n"
+"<li>འཕྲལ་གྱི་གྲགས་ཐོབ་འདི་གིས་ཁྱོད་ཀྱི་ས་ཁོངས་གུ་མཐའ་མཇུག་གི་ལཱའི་སྐོར་ལས་བརྡ་དོན་བཀྲམ་སྟོན་འབདཝ་ཨིན།</li>\n"
+"<li>ནོཌི་གྱངས་ཁ་བརྐྱབ་ནི་འདི་གིས་ <em># བརྡ་བཀོད་ཚུ་གི་ཤུལ་མམ་ནོཌི་གི་འབྲེལ་ལམ་དབྱེ་ཚན་ནང་ནོཌི་འཛུལ་སྤྱོད་འབད་ཡོད་པའི་གྲངས་བཀྲམ་སྟོན་འབདཝ་ཨིན།</em>.</li>\n"
+"<li>ཡོངས་གྲགས་ཅན་གྱི་ནང་དོན་སྡེབ་ཚན་འདི་གིས་ཉིནམ་གཅིག་ལུ་མངམ་སྟོན་ཡོད་པའི་ནང་དོན་དང་ཨ་རྟག་རང་མངམ་སྟོན་ཡོད་པའི་ནང་དོན་དེ་ལས་མཇུག་ལུ་སྟོན་ཡོད་པའི་ནང་དོན་བཀྲམ་སྟོན་འབད་ཚུགས་མི་སྡེབ་ཚན་གསར་བསྐྲུན་འབདཝ་ཨིན།</li>\n"
+"</ul>\n"
+
+#: modules/statistics/statistics.module:27
+msgid ""
+"<p>Configuring the statistics module</p>\n"
+"<ul>\n"
+"<li>Enable access log allows you to turn the access log on and off. This log is used to store data about every page accessed, such as the remote host's IP address, where they came from (referrer), what node they've viewed, and their user name. Enabling the log adds one database call per page displayed by Drupal.</li>\n"
+"<li>Discard access logs older than allows you to configure how long an access log entry is saved, after which time it is deleted from the database table. To use this you need to run <em>cron.php</em></li>\n"
+"<li>Enable node view counter allows you to turn on and off the node-counting functionality of this module. If it is turned on, an extra database query is added for each node displayed, which increments a counter.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཚད་རྩིས་ཀྱི་ཚད་གཞི་རིམ་སྒྲིག་འབད་དོ།</p>\n"
+"<ul>\n"
+"<li>འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་ལྕོགས་ཅན་འདི་གིས་ཁྱོད་ལུ་འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་ཨཱོན་དང་ཨོཕ་འབད་བཅུགཔ་ཨིན། དྲན་དེབ་འདི་ཐག་རིང་གི་ཧོསཊི་གི་ཨའི་པི་ཁ་བྱང་ ཁོང་ཚུ་ག་སྟེ་ལས་འོང་ཡི་ག་(གཞི་བསྟུན་པ་) ཁོང་གིས་ནོཌི་དང་ཁོང་རའི་ལག་ལེན་པའི་མིང་ག་འདི་སྟོན་ཡོདཔ་ཨིན་ན་བཟུམ་མའི་ འཛུལ་སྤྱོད་འབད་ཡོད་པའི་ཤོག་ལེབ་རེ་རེའི་སྐོར་ལས་གནད་སྡུད་གསོག་འཇོག་འབད་ནི་ལུ་ལག་ལེན་འཐབཔ་ཨིན།དྲན་དེབ་ལྕོགས་ཅན་བཟོ་མི་འདི་གིས་གནད་སྡུད་གཞི་རྟེན་གཅིག་ཌུ་པཱལ་གྱིས་བཀྲམ་སྟོན་འབད་ཡོད་པའི་ཤོག་ལེབ་རེ་ཟེར་མི་ཁ་སྐོང་འབདཝ་ཨིན།</li>\n"
+"<li>བཏོན་བཀོག་ནིའི་འཛུལ་སྤྱོད་དྲན་དེབ་འདི་གིས་ འ་ནི་དེ་གནད་སྡུད་གཞི་རྟེན་ཐིག་ཁྲམ་ལས་བཏོན་གཏང་པའི་ཤུལ་ལས་ ཁྱོད་ལུ་འཛུལ་སྤཡོད་འབད་ནིའི་དྲན་དེབ་ཐོ་བཀོད་འདི་དུས་ཡུན་ག་དེམ་ཅིག་གི་རིང་སྲུང་བཞག་འབད་ཡོད་ག་རིམ་སྒྲིག་འབད་བཅུགཔ་ཨིན། འདི་ལག་ལེན་འཐབ་ནི་ལུ་ཁྱོད་ཀྱིས་ <em>ཀོརཱོན་.པི་ཨོ་པི་གཡོག་བཀོལ་དགོ།</em></li>\n"
+"<li>ལྕོགས་ཅན་ནོཌི་མཐོང་སྣང་གདོང་ལན་འདི་གིས་ཁྱོད་ལུ་ཚད་གཞི་འདི་གི་ནོཌི་-གྱངས་ཁ་བརྐྱབ་ནིའི་ལས་འགན་འདི་ཨཱོན་དང་ཨོཕ་འབད་བཅུགཔ་ཨིན། དེ་ཨཱོན་འབད་ཡོད་པ་ཅིན་ གནད་སྡུད་གཞི་རྟེན་འདྲི་དཔྱད་ཐེབས་ཅིག་ གདོང་ལན་ཡར་འཕར་འབད་མི་ བཀྲམ་སྟོན་འབད་ཡོད་པའི་ནོཌི་རེ་རེའི་དོན་ལས་ཁ་སྐོང་འབདཝ་ཨིན།</li>\n"
+"</ul>\n"
+
+#: modules/statistics/statistics.module:34
+msgid "For more information please read the configuration and customization handbook <a href=\"@statistics\">Statistics page</a>."
+msgstr "བརྡ་དོན་ཧེང་སྐལ་གྱི་དོན་ལས་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་<a href=\"@statistics\">ཚད་རྩིས་ཤོག་ལེབ་ལྷག་གནང་།</a>."
+
+#: modules/statistics/statistics.module:37
+msgid "Settings for the statistical information that Drupal will keep about the site. See <a href=\"@statistics\">site statistics</a> for the actual information."
+msgstr "ཌུ་པཱལ་གྱིས་ས་ཁོངས་ཀྱི་སྐོར་ལས་བཞག་ནི་ཨིན་མི་ཚད་རྩིས་ཀྱི་བརྡ་དོན་གྱི་དོན་ལས་སྒྲིག་སྟངས་ཚུ། བརྡ་དོན་ངོ་མའི་དོན་ལས་ <a href=\"@statistics\">ས་ཁོངས་ཀྱི་</a> ཚད་རྩིས་བལྟ།"
+
+#: modules/statistics/statistics.module:39
+msgid "This page shows you the most recent hits."
+msgstr "ཤོག་ལེབ་འདི་གིས་ཁྱོད་ལུ་འཕྲལ་སྐབས་ཀྱི་གྲགས་ཐོབ་ཚུ་སྟོནམ་ཨིན།"
+
+#: modules/statistics/statistics.module:41
+msgid "This page shows you all external referrers. These are links pointing to your web site from outside your web site."
+msgstr "ཤོག་ལེབ་འདི་གིས་ཁྱོད་ལུ་ཕྱའི་གཞི་བསྟུན་པ་ཚུ་ཆ་མཉམ་སྟོནམ་ཨིན།  འདི་ཚུ་ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ཀྱི་ཕྱི་ཁར་ལས་  ཁྱོད་ཀྱི་ཝེབ་ཀྱི་ས་ཁོངས་ལུ་དཔག་མི་གི་འབྲེལ་ལམ་ཨིན།"
+
+#: modules/statistics/statistics.module:43
+msgid "When you ban a visitor, you prevent the visitor's IP address from accessing your site. Unlike blocking a user, banning a visitor works even for anonymous users. The most common use for this is to block bots/web crawlers that are consuming too many resources."
+msgstr "ཁྱོད་ཀྱིས་ལྟ་སྐོར་པ་བཀག་དམ་འབདཝ་ད་  ཁྱོད་ཀྱི་ས་ཁོངས་འཛུལ་སྤྱོད་འབད་ནི་ལས་་ཁོ་གི་ཨའི་པི་ཁ་བྱང་སྔོན་བཀག་འབད།  ལག་ལེན་པ་འགག་ནི་བཟུམ་མིན་པའི་ མིང་མེད་ལག་ལེན་པ་ཚུ་གི་དོན་ལས་ཡང་ལྟ་སྐོར་པའི་ལཱ་ཚུ་བཀག་དམ་འབད་དོ།  འདི་གི་མཐུན་མོང་གི་ལག་ལེན་འདི་ཐོན་ཁུངས་ལེ་ཤ་སྤྱོད་མི་  བཱོཊིསི་/ཝེབ་གོགཔ་འགྱོ་མི་བཀག་ནི་འདི་ཨིན།"
+
+#: modules/statistics/statistics.module:109
+msgid "Recent hits"
+msgstr "འཕྲལ་གྱི་གྲགས་ཐོབ་ཚུ་"
+
+#: modules/statistics/statistics.module:110
+msgid "View pages that have recently been visited."
+msgstr "འཕྲལ་གྱི་བལྟ་སྤྱོད་འབད་ཡོད་པའི་ཤོག་ལེབ་ཚུ་སྟོན།"
+
+#: modules/statistics/statistics.module:115
+msgid "Top pages"
+msgstr "ཤོག་ལེབ་དྲག་ཤོས་ཚུ་"
+
+#: modules/statistics/statistics.module:116
+msgid "View pages that have been hit frequently."
+msgstr "འཕྲལ་འཕྲལ་རང་ཨེབ་ཡོད་པའི་ཤོག་ལེབ་ཚུ་སྟོན།"
+
+#: modules/statistics/statistics.module:122
+msgid "Top visitors"
+msgstr "ལྟ་སྐོར་པ་དྲག་ཤོས་ཚུ་"
+
+#: modules/statistics/statistics.module:123
+msgid "View visitors that hit many pages."
+msgstr "ཤོག་ལེབ་ལེ་ཤ་ཨེབ་མི་བལྟ་སྤྱོདཔ་ཚུ་ སྟོན།"
+
+#: modules/statistics/statistics.module:129
+msgid "Top referrers"
+msgstr "མགོའི་གཞི་བསྟུན་པ་ཚུ་"
+
+#: modules/statistics/statistics.module:130
+msgid "View top referrers."
+msgstr "མགོའི་གཞི་བསྟུན་པ་ཚུ་སྟོན།"
+
+#: modules/statistics/statistics.module:136
+msgid "View access log."
+msgstr "འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་སྟོན།"
+
+#: modules/statistics/statistics.module:142;367
+msgid "Access log settings"
+msgstr "དྲན་དེབ་སྒྲིག་སྟངས་ཚུ་འཛུལ་སྤྱོད་འབད།"
+
+#: modules/statistics/statistics.module:143
+msgid "Control details about what and how your site logs."
+msgstr "ཁྱོད་རའི་ས་ཁོངས་དང་དེ་གིས་ག་ཅི་དྲན་དེབ་འབདཝ་ཨིན་ན་གི་སྐོར་ལས་  ཚད་འཛིན་རྒྱས་བཤད།"
+
+#: modules/statistics/statistics.module:154
+msgid "Track page visits"
+msgstr "གླུ་རིམ་ཤོག་ལེབ་བལྟ་སྤྱོད་བལྟ་སྤྱོད་འབདཝ་ཨིན་"
+
+#: modules/statistics/statistics.module:216;242;274
+msgid "details"
+msgstr "རྒྱས་བཤད་ཚུ་"
+
+#: modules/statistics/statistics.module:233;260
+msgid "Timestamp"
+msgstr "དུས་བཀོད།"
+
+#: modules/statistics/statistics.module:290;314;345
+msgid "Hits"
+msgstr "གྲགས་ཐོབ།"
+
+#: modules/statistics/statistics.module:292
+msgid "Average page generation time"
+msgstr "ཆ་སྙོམས་ཤོག་ལེབ་ཀྱི་བཟོ་བཏོན་ཆུ་ཚོད།"
+
+#: modules/statistics/statistics.module:293;316
+msgid "Total page generation time"
+msgstr "ཤོག་ལེབ་བསྡོམས་ཀྱི་བཟོ་བཏོན་ཆུ་ཚོད།"
+
+#: modules/statistics/statistics.module:299
+msgid "%time ms"
+msgstr "%time ms"
+
+#: modules/statistics/statistics.module:302
+msgid "Top pages in the past %interval"
+msgstr "ཧེ་མའི་%interval ནང་ཤོག་ལེབ་དྲག་ཤོས་ཚུ།"
+
+#: modules/statistics/statistics.module:326
+msgid "unban"
+msgstr "བཀག་དམ་བཤོལ།"
+
+#: modules/statistics/statistics.module:326
+msgid "ban"
+msgstr "བཀག་དམ།"
+
+#: modules/statistics/statistics.module:330
+msgid "Top visitors in the past %interval"
+msgstr "ཧེ་མའི་%interval ནང་ལྟ་སྐོར་པ་དྲག་ཤོས་ཚུ།"
+
+#: modules/statistics/statistics.module:342
+msgid "Top referrers in the past %interval"
+msgstr "ཧེ་མའི་ %interval ནང་གཞི་བསྟུན་པ་དྲག་ཤོས་ཚུ།"
+
+#: modules/statistics/statistics.module:346
+msgid "Url"
+msgstr "ཡུ་ཨར་ཨེལ།"
+
+#: modules/statistics/statistics.module:347
+msgid "Last visit"
+msgstr "བལྟ་སྤྱོད་མཇུག།"
+
+#: modules/statistics/statistics.module:370
+msgid "Enable access log"
+msgstr "འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་ལྕོགས་ཅན་བཟོ།"
+
+#: modules/statistics/statistics.module:373
+msgid "Log each page access. Required for referrer statistics."
+msgstr "ཤོག་ལེབ་རེ་རེ་འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ། གཞི་བསྟུན་པའི་ཚད་རྩིས་ཀྱི་དོན་ལས་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/statistics/statistics.module:377
+msgid "Discard access logs older than"
+msgstr "ལས་འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་རྙིངམ་ཚུ་བཏོན་བཀོག།"
+
+#: modules/statistics/statistics.module:380
+msgid "Older access log entries (including referrer statistics) will be automatically discarded. Requires crontab."
+msgstr "(གཞི་བསྟུན་པའི་ཚད་རྩིས་གྲངས་སུ་བཙུགས་ཏེ་) འཛུལ་སྤྱོད་འབད་ནིའི་དྲན་དེབ་ཐོ་བཀོད་རྙིང་ཤོས་ཚུ་  རང་བཞིན་གྱིས་བཏོན་བཀོག་འོང་། ཀོརཱོན་ཕྲ་རིང་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: modules/statistics/statistics.module:385
+msgid "Content viewing counter settings"
+msgstr "ནང་དོན་སྟོན་ནིའི་གདོང་ལན་སྒྲིག་སྟངས་ཚུ།"
+
+#: modules/statistics/statistics.module:388
+msgid "Count content views"
+msgstr "ནང་དོན་མཐོང་སྣང་ཚུ་གྱངས་ཁ་བརྐྱབ།"
+
+#: modules/statistics/statistics.module:391
+msgid "Increment a counter each time content is viewed."
+msgstr "ནང་དོན་སྟོནམ་ད་ཆུ་ཚོད་རེ་རེ་ལུ་གདོང་ལན་ཡར་འཕར་འབད།"
+
+#: modules/statistics/statistics.module:463;502
+msgid "Popular content"
+msgstr "ཡོངས་གྲགས་ཅན་གྱི་ནང་དོན།"
+
+#: modules/statistics/statistics.module:470
+msgid "Number of day's top views to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ཨིན་མི་ཉིནམ་གྱི་མཐོང་སྣང་དྲག་ཤོས་ཚུའི་གྲངས།"
+
+#: modules/statistics/statistics.module:470
+msgid "How many content items to display in \"day\" list."
+msgstr " \"day\" ཐོ་ཡིག་ནང་ནང་དོན་རྣམ་གྲངས་ཚུ་ག་དེམ་ཅིག་བཀྲམ་སྟོན་འབད་ནི།"
+
+#: modules/statistics/statistics.module:471
+msgid "Number of all time views to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ཨིན་མི་དུས་ཨ་རྟག་རའི་མཐོང་སྣང་ཚུ་གི་གྲངས།"
+
+#: modules/statistics/statistics.module:471
+msgid "How many content items to display in \"all time\" list."
+msgstr "\"all time\" ཐོ་ཡིག་ནང་ནང་དོན་རྣམ་གྲངས་ཚུ་ག་དེམ་ཅིག་བཀྲམ་སྟོན་འབད་ནི།"
+
+#: modules/statistics/statistics.module:472
+msgid "Number of most recent views to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་ཨིན་མི་འཕྲལ་གྱི་མཐོང་སྣང་ཚུའི་གྲངས།"
+
+#: modules/statistics/statistics.module:472
+msgid "How many content items to display in \"recently viewed\" list."
+msgstr "\"recently viewed\" ཐོ་ཡིག་ནང་ནང་དོན་རྣམ་གྲངས་ཚུ་ག་དེམ་ཅིག་བཀྲམ་སྟོན་འབད་ནི།"
+
+#: modules/statistics/statistics.module:487
+msgid "Today's:"
+msgstr "ད་རེས་ཀྱི་:"
+
+#: modules/statistics/statistics.module:492
+msgid "All time:"
+msgstr "དུས་ཨ་རྟག་རང་:"
+
+#: modules/statistics/statistics.module:497
+msgid "Last viewed:"
+msgstr "མཇུག་ལུ་སྟོན་ཡོདཔ་:"
+
+#: modules/statistics/statistics.module:92
+msgid "1 read"
+msgid_plural "@count reads"
+msgstr[0] "༡ ལྷག།"
+msgstr[1] "%count ལྷགཔ་ཨིན།"
+
+#: modules/statistics/statistics.module:79
+msgid "access statistics"
+msgstr "ཚད་རྩིས་འཛུལ་སྤྱོད་འབད།"
+
+#: modules/statistics/statistics.module:79
+msgid "view post access counter"
+msgstr "འགྲེམ་སྐྱེལ་འཛུལ་སྤྱོད་འབད་ནིའི་གདོང་ལན་སྟོན།"
+
+#: modules/statistics/statistics.module:0
+msgid "statistics"
+msgstr "ཚད་རྩིས།"
+
+#: modules/statistics/statistics.info:0
+msgid "Statistics"
+msgstr "ཚད་རྩིས་"
+
+#: modules/statistics/statistics.info:0
+msgid "Logs access statistics for your site."
+msgstr "ཁྱོད་ཀྱི་ས་ཁོངས་ཀྱི་དོན་ལས་དྲན་དེབ་ཚུ་འཛུལ་སྤྱོད་འབད་ནིའི་ཚད་རྩིས།"
+
+#~ msgid ""
+#~ "<p>You can</p>\n"
+#~ "<ul>\n"
+#~ "<li>administer statistics <a href=\"%admin-settings-statistics"
+#~ "\">administer &gt;&gt; settings &gt;&gt; statistics</a>.</li>\n"
+#~ "<li>access statistics logs <a href=\"%admin-logs\">administer &gt;&gt; "
+#~ "logs</a>.</li>\n"
+#~ "<li>view recent hits <a href=\"%admin-logs-hits\">administer &gt;&gt; "
+#~ "logs &gt;&gt; recent hits</a>.</li>\n"
+#~ "<li>enable 'popular content' block in block administration <a href=\"%"
+#~ "admin-block\">administer &gt;&gt; blocks </a> but only after you have "
+#~ "enabled 'Count content views' in settings.</li>\n"
+#~ "</ul>\n"
+#~ msgstr ""
+#~ "<p>ཁྱོད་ཀྱིས་</p>\n"
+#~ "<ul>\n"
+#~ "<li>ཚད་རྩིས་ <a href=\"%admin-settings-statistics\">བདག་སྐྱོང་འཐབ་ཚུགས་  &gt;"
+#~ "&gt;བདག་སྐྱོང་འཐབ་ཚུགས་ སྒྲིག་སྟངས་ &gt;&gt; ཚད་རྩིས་བདག་སྐྱོང་འཐབ་ཚུགས།</a>.</li>\n"
+#~ "<li>ཚད་རྩིས་དྲན་དེབ་ <a href=\"%admin-logs\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; དརན་དེབ་ཚུ་"
+#~ "འཛུལ་སྤྱོད་འབད།</a>.</li>\n"
+#~ "<li>འཕྲལ་གྱི་གྲགས་ཐོབ་ <a href=\"%admin-logs-hits\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; དྲན་"
+#~ "དེབ་ &gt;&gt; འཕྲལ་གྱི་གྲགས་ཐོབ་སྟོན།</a>.</li>\n"
+#~ "<li>ཁྱོད་ཀྱིས་སྒྲིག་སྟངས་ཚུ་ནང་'གཡངས་ཁ་བརྐྱབ་ནིའི་ནང་དོན་མཐོང་སྣང་ཚུ་'ལྕོགས་ཅན་བཟོ་ཚར་བའི་ཤུལ་"
+#~ "ལས་རྐྱངམ་གཅིག་ 'ཡོངས་གྲགས་ཅན་གྱི་ནང་དོན་'སྡེབ་ཚན་ འདི་ བདག་སྐྱོང་སྡེབ་ཚན་ནང་<a href=\"%"
+#~ "admin-block\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; སྡེབ་ཚན་ </a> ལྕོགས་ཅན་བཟོ།</li>\n"
+#~ "</ul>\n"
+#~ msgid "Page"
+#~ msgstr "ཤོག་ལེབ།"
+#~ msgid "Visitor"
+#~ msgstr "ལྟ་སྐོར་པ།"
+

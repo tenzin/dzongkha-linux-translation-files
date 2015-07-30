@@ -1,0 +1,2291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-gap.HEAD.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-19 02:39+0200\n"
+"PO-Revision-Date: 2006-05-10 15:00-0500\n"
+"Last-Translator: kinley tshering <gasepkuenden2k3@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. label text
+#. scalesize spinsize
+#. value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3572
+msgid "Scale source layer's width in percent"
+msgstr " ཆ་ཚད་འབྱུང་ཁུངས་བང་རིམ་གྱི་རྒྱ་ཚད་ རྒྱ་ཆ་ནང་།"
+
+#. Height Scale
+#. table col, row
+#. the height label
+#: ../gap/gap_mov_dialog.c:3582
+#: ../gap/gap_story_dialog.c:5962
+#: ../vid_common/gap_cme_gui.c:3373
+msgid "Height:"
+msgstr "མཐོ་ཚད།:"
+
+#. label text
+#. scalesize spinsize
+#. value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3590
+msgid "Scale source layer's height in percent"
+msgstr "ཆ་ཚད་འབྱུང་ཁུངས་བང་རིམ་གྱི་མཐོ་ཚད་ བརྒྱ་ཆ་ནང་།"
+
+#: ../gap/gap_mov_dialog.c:3607
+#: ../gap/gap_resi_dialog.c:812
+msgid "Constrain aspect ratio"
+msgstr "རྣམ་པའི་དཔྱ་ཚད་དམ་།"
+
+#. the state of the contrain ratio chainbutton is checked in other callbacks (where needed)
+#. * there is no need for the chainbutton to have its own callback procedure
+#.
+#. Opacity
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3616
+#: ../gap/gap_onion_dialog.c:1130
+#: ../gap/gap_wr_opacity.c:321
+msgid "Opacity:"
+msgstr "དྭངས་སྒྲིབ།:"
+
+#. label text
+#. scalesize spinsize
+#. value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3624
+msgid "Set the source layer's opacity in percent"
+msgstr "འབྱུངས་ཁུངས་བང་རིམ་གྱི་དྭགས་སྒྲིབ་འདི་ བརྒྱ་ཆ་ནང་ལུ་གཞི་སྒྲིག་འབད།"
+
+#. Rotation
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3634
+msgid "Rotate:"
+msgstr "བསྒྱིར།:"
+
+#. label text
+#. scalesize spinsize
+#. value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3642
+msgid "Rotate source layer (in degree)"
+msgstr "འབྱུང་ཁུངས་བང་རིམ་( ཁུག་ཟུར་ནང)བསྒྱིར།"
+
+#. ttlx transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3688
+msgid "x1:"
+msgstr "ཨེགསི་ ༡:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3696
+msgid "Transformfactor for upper left corner X coordinate"
+msgstr "ཡར་གཡོན་སྒྱིད་ཁུག་ ཨེགསི་ཆ་སྙོམ་གྱི་དོན་ལུ་བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. ttly transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3707
+msgid "y1:"
+msgstr "ཝའི་༡་།:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3715
+msgid "Transformfactor for upper left corner Y coordinate"
+msgstr "ཡར་གཡོན་སྒྱིད་ཁུག་ ཝའི་ ཆ་སྙོམ་གྱི་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. ttrx transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3726
+msgid "x2:"
+msgstr "ཨེགསི་ ༢:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3734
+msgid "Transformfactor for upper right corner X coordinate"
+msgstr "ཡར་གཡས་སྒྱད་ཁུག་ ཨེགསི་ ཆ་སྙོམ་གྱི་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. ttry transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3744
+msgid "y2:"
+msgstr "ཝའི་༢།:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3752
+msgid "Transformfactor for upper right corner Y coordinate"
+msgstr "ཡར་གཡས་སྒྱིད་ཁུག་ ཝའི་ཆ་སྙོམ་གྱི་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. tblx transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3762
+msgid "x3:"
+msgstr "ཨེགསི་༣།:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3770
+msgid "Transformfactor for lower left corner X coordinate"
+msgstr "འོག་གི་གཡོན་སྒྱིད་ཁུག་ ཨེགསི་ ཆ་སྙོམ་གྱི་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. tbly transformfactor
+#. table col, row
+#. tbry transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3780
+#: ../gap/gap_mov_dialog.c:3816
+msgid "y3:"
+msgstr "ཝའི་༣།:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3788
+msgid "Transformfactor for lower left corner Y coordinate"
+msgstr "འོག་གི་གཡོན་སྒྱིད་ཁུག་ ཝའི་ ཆ་སྙོམ་གྱི་་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. tbrx transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3798
+msgid "x4:"
+msgstr "ཨེགསི་༤།:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3806
+msgid "Transformfactor for lower right corner X coordinate"
+msgstr "འོག་གི་གཡོན་སྒྱིད་ཁུག་ ཨེགསི་ ཆ་སྙོམ་གྱི་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3824
+msgid "Transformfactor for lower right corner Y coordinate"
+msgstr "འོག་གི་གཡས་སྒྱིད་ཁུག་ ཝའི་ ཆ་སྙོམ་གྱི་དོན་ལུ་ བཟོ་བསྒྱུར་ཆ་རྐྱེན།"
+
+#. Selection combo
+#: ../gap/gap_mov_dialog.c:3863
+msgid "Ignore selection (in all source images)"
+msgstr "སེལ་འཐུ་སྣང་མེད་སྦེ་བཞག(གཟུགས་བརྙན་ཚུ་གི་འབྱུང་ཁུངས་ཆ་མཉམ་ནང་།)"
+
+#: ../gap/gap_mov_dialog.c:3864
+msgid "Use selection (from initial source image)"
+msgstr "སེལ་འཐུ་ལག་ལེན་འཐབ། (གཟུགས་བརྙན་གྱི་འབྱུང་ཁུངས་འགོ་ཐོག་ནང་ལས)"
+
+#: ../gap/gap_mov_dialog.c:3865
+msgid "Use selections (from all source images)"
+msgstr "སེལ་འཐུ་ཚུ་ལག་ལེན་འཐབ།(གཟུགས་བརྙན་ཚུག་གི་་འབྱུང་ཁུངས་ཆ་མཉམ་ནང་ལས།)"
+
+#: ../gap/gap_mov_dialog.c:3874
+msgid "How to handle selections in the source image"
+msgstr "གཟུགས་བརྙན་འབྱུང་ཁུངས་ནང་ སེལ་འཐུ་ཚུ་ག་དེ་སྦེ་ལེགས་སྐྱོང་འཐབ་ནི་ཨིན་ན།"
+
+#. ttlx transformfactor
+#. table col, row
+#: ../gap/gap_mov_dialog.c:3880
+msgid "Selection Feather Radius:"
+msgstr "སེལ་འཐུ་བྱ་སྒྲོའི་མཐའ་འཁོར།:"
+
+#. label text
+#. scalesize spinsize
+#. initial value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3888
+msgid "Feather radius in pixels (for smoothing selection(s))"
+msgstr "པིག་སེལསི་ནང་ལུ་ བྱ་སྒྲོའི་མཐའ་འཁོར།(སེལ་འཐུ་ཧུམ་ཆ་བཟོ་ནིའི་དོན་ལུ།(ཨེསི།))"
+
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:3991
+msgid "X coordinate"
+msgstr "ཨེགསི་ ཆ་སྙོམ།"
+
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:4009
+msgid "Y coordinate"
+msgstr "ཝའི་ ཆ་སྙོམ།"
+
+#. Keyframe
+#. table col, row
+#: ../gap/gap_mov_dialog.c:4018
+msgid "Keyframe:"
+msgstr "ལྡེ་མིག་གཞི་ཁྲམ།:"
+
+#. label text
+#. scalesize spinsize
+#. value
+#. lower, upper
+#. step, page
+#. digits
+#. constrain
+#. lower, upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:4026
+msgid "Fix controlpoint to keyframe number where 0 == no keyframe"
+msgstr "0 ==་ གཞི་ཁྲམ་གཙོ་བོ་ག་སྟེ་མེད་ས་ལུ་ གཞི་ཁྲམ་གཙོ་བའི་ཨང་འདི་ཚད་འཛིན་ས་ཚིགས་ལུ་གཏན་གཏན་བཟོ།"
+
+#: ../gap/gap_mov_dialog.c:4052
+msgid "Scale and Modify"
+msgstr "ཚད་འཇལ་བཞིནམ་ལས་ལེགས་བཅོས་འབད།"
+
+#: ../gap/gap_mov_dialog.c:4058
+msgid "Perspective"
+msgstr "སྣང་ཚུལ།"
+
+#: ../gap/gap_mov_dialog.c:4065
+msgid "Selection Handling"
+msgstr "སེལ་འཐུ་ལེགས་སྐྱོ་འཐབ་པ།"
+
+#. startup with RED pathline color
+#: ../gap/gap_mov_dialog.c:4181
+msgid "Pathline Color Picker"
+msgstr "འགྲུལ་ལམ་གྲལ་ཐིག་གི་ ཚོས་གཞི་འཐུ་མི།"
+
+#: ../gap/gap_mov_dialog.c:4188
+msgid "Select the color that is used to draw pathlines in the preview"
+msgstr "སྔོན་ལྟ་ནང་ལུ་ འགྲུལ་ལམ་གྲལ་ཐིག་ཚུ་འབྲི་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ ཚོས་གཞི་དེ་སེལ་འཐུ་འབད།"
+
+#. toggle Show path
+#: ../gap/gap_mov_dialog.c:4200
+msgid "Path"
+msgstr "འགྲུལ་ལམ།"
+
+#: ../gap/gap_mov_dialog.c:4204
+msgid "Show path lines and enable pick/drag with left button or move with right button"
+msgstr "འགྲུལ་ལམ་གྲལ་ཐིག་སྟོན་བཞིནམ་ལས་ ཨེབ་རྟ་གཡོན་གྱི་ཐོག་ལས་འཐུ་ནི་ལྕོགས་ཅན་བཟོ/འདྲུད་ ཡང་ན་ཨེབ་རྟ་གཡས་ཀྱི་ཐོག་ལས་བཤུད།"
+
+#. toggle Show cursor
+#: ../gap/gap_mov_dialog.c:4218
+msgid "Cursor"
+msgstr "འོད་རྟགས།"
+
+#: ../gap/gap_mov_dialog.c:4222
+msgid "Show cursor crosslines"
+msgstr "འོད་རྟགས་ ཀོརོསི་ལ་ཡིན་སྟོན།"
+
+#. toggle Show Grid
+#: ../gap/gap_mov_dialog.c:4233
+msgid "Grid"
+msgstr "གིརིཌི།"
+
+#: ../gap/gap_mov_dialog.c:4237
+msgid "Show source layer as gridlines"
+msgstr "འབྱུང་ཁུངས་བང་རིམ་འདི་ གིརིཊི་གྲལ་ཐིག་སྦེ་སྟོན།"
+
+#. toggle Instant Apply
+#: ../gap/gap_mov_dialog.c:4247
+msgid "Instant Apply"
+msgstr "འཕྲལ་མྱུར་འཇུག་སྤྱོད།"
+
+#: ../gap/gap_mov_dialog.c:4251
+msgid "Update the preview automatically"
+msgstr "རང་ཡཞིན་གྱིས་སྔོན་ལྟ་འདི་དུས་མཐུན་བཟོ།"
+
+#. the Preview Frame Number
+#. table col, row
+#: ../gap/gap_mov_dialog.c:4270
+msgid "Frame:"
+msgstr "གཞི་ཁྲམ།:"
+
+#. label text
+#. scalesize spinsize
+#. value
+#. lower
+#. upper
+#. step, page
+#. digits
+#. constrain
+#. lower (unconstrained)
+#. upper (unconstrained)
+#: ../gap/gap_mov_dialog.c:4280
+msgid "Frame to show when 'Refresh' button is pressed"
+msgstr "'ཡང་སེལ་' ཨེབ་རྟ་འདི་ཨེབ་པའི་སྐབས་ ་སྟོན་ནིའི་གཞི་ཁྲམ།"
+
+#: ../gap/gap_mov_dialog.c:4985
+#, c-format
+msgid ""
+"Can't operate with current controlpoint\n"
+"or keyframe settings.\n"
+"\n"
+"Error List:\n"
+"%s"
+msgstr ""
+"ད་ལྟོའི་ཚད་འཛིན་ས་ཚིགས་་\n"
+"ཡང་ན་གཞི་ཁྲམ་གཙོ་བོའི་སྒྲིག་སྟངས་ཚུ་དང་གཅིག་ཁར་བཀོལ་སྤྱོད་འབད་མ་ཚུགས།\n"
+"\n"
+"འཛོལ་བའི་ཐོ་ཡིག:\n"
+"%s"
+
+#: ../gap/gap_mov_exec.c:236
+msgid "Tweenlayer"
+msgstr "ཊི་ཝིན་ལེ་ཡར།"
+
+#: ../gap/gap_mov_exec.c:686
+msgid ""
+"No source image was selected.\n"
+"Please open a 2nd image of the same type before opening 'Move Path'."
+msgstr ""
+"འབྱུང་ཁུངས་གཟུགས་བརྙན་ཚུ་སེལ་འཐུ་མ་འབད་བས།\n"
+"'བཤུད་ལམ'ཁ་མ་ཕྱེ་བའི་ཧེ་མ་དབྱེ་བ་གཅིག་པའི་གཟུགས་བརྙན་གཉིས་པམ་ཅིག་ཁ་ཕྱེ་གནང་།"
+
+#: ../gap/gap_mov_exec.c:697
+msgid "Copying layers into frames..."
+msgstr "བང་རིམ་འདི་ཚུ་གཞི་ཁྲམ་ཚུ་ནང་འདྲ་བཤུས་འབད་དོ།"
+
+#: ../gap/gap_mov_exec.c:701
+msgid "Generating animated preview..."
+msgstr "བསྒུལ་ཅན་བཟོ་ཡོད་པའི་སྔོན་ལྟ་ བཟོ་བཏོན་འབད་དོ།"
+
+#: ../gap/gap_mov_exec.c:1858
+#, c-format
+msgid ""
+"\n"
+"Error: Keyframe %d at point [%d] higher or equal than last handled frame"
+msgstr ""
+"\n"
+"འཛོལ་བ།:ས་ཚིགས་[%d]ལུ་ གཞི་ཁྲམ་གཙོ་བོ་%dའདི་མཇུག་ལུ་ལེགས་བཅོས་ཡོད་པའི་་གཞི་ཁྲམ་དེ་ལས་མཐོ་ཡང་ན་མཉམ་པ་ཨིན།"
+
+#: ../gap/gap_mov_exec.c:1866
+#, c-format
+msgid ""
+"\n"
+"Error: Keyframe %d at point [%d] leaves not enough space (frames)\n"
+"for the previous controlpoints"
+msgstr ""
+"\n"
+"འཛོལ་བ།:གཞི་ཁྲམ་གཙོ་བོ་%d་འདི་ ས་ཚིགས་[%d]ལུ་ ཧེ་མའི་ཚད་འཛིན་ས་ཚིགས་ཚུ་གྱི་དོན་ལུ་བར་སྟོང་(གཞི་ཁྲམ་ཚུ)\n"
+"ལངམ་སྦེ་མི་བཞག་དོ་པ་ཨིན།"
+
+#: ../gap/gap_mov_exec.c:1876
+#, c-format
+msgid ""
+"\n"
+"Error: Keyframe %d is not in sequence at point [%d]"
+msgstr ""
+"\n"
+"འཛོལ་བ།:ས་ཚིགས་ [%d]ལུ་གཞི་ཁྲམ་གཙོ་བོ་%d་འདི་འབྱུང་རིམ་ནང་མིན་འདུག"
+
+#: ../gap/gap_mov_exec.c:1894
+#, c-format
+msgid ""
+"\n"
+"Error: controlpoint [%d] is out of handled framerange"
+msgstr ""
+"\n"
+"འཛོལ་བ།:ཚད་འཛིན་ས་ཚིགས་[%d]འདི་ ལེགས་སྐྱོང་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཁྱབ་ཚདཀྱི་ ཕྱི་ཁར་ཨིན་པས།"
+
+#: ../gap/gap_mov_exec.c:1908
+#, c-format
+msgid ""
+"\n"
+"Error: More controlpoints (%d) than handled frames (%d).\n"
+"Please reduce controlpoints or select more frames"
+msgstr ""
+"\n"
+"འཛོལ་བ།:ལེགས་བཅོས་འཐབ་ཡོད་པའི་ གཞི་ཁྲམ་(%d)འདི་ལས་ཚད་འཛིན་ས་ཚིགས་(%d)ལྷག་པས།\n"
+"ཚད་འཛིན་ས་ཚིགས་ཚུ་མར་ཕབ་འབད་ཡང་ན་གཞི་ཁྲམ་ཚུ་ ཧེང་བཀལ་སེལ་འཐུ་འབད་གནང་།"
+
+#: ../gap/gap_mpege.c:125
+msgid "Requirements to run mpeg2encode 1.2:"
+msgstr "ཨེམ་པི་ཨི་ཇི་༢་ ཨིན་ཀོཌི་ ༡.༢་ གཡོག་བཀོལ་ནིའི་དོན་ལུ་ དགོས་མཁོ་ཚུ།:"
+
+#: ../gap/gap_mpege.c:129
+msgid "Requirements to run mpeg_encode 1.5:"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོཌི་ ༡.༥་ གཡོག་བཀོལ་ནིའི་དོན་ལུ་ དགོས་མཁོ་ཚུ།(_e)"
+
+#: ../gap/gap_mpege.c:145
+#, c-format
+msgid ""
+"mpeg2encode 1.2 must be installed\n"
+"you can get mpeg2encode at\n"
+"%s\n"
+"or at\n"
+"%s"
+msgstr ""
+"ཨེམ་པི་ཨི་ཇི་༢་ ཨིན་ཀོཌི་ ༡.༢་ འདི་གཞི་བཙུགས་འབད་དགོ\n"
+"ཁྱོད་ཀྱིས་ ཨེམ་པི་ཨི་ཇི་ ༢་ ཨིན་ཀོཌིའདི་་\n"
+" %s ནང་ལས་ཐོབ། ཡང་ན་\n"
+"%s་ ནང་ལས་ཐོབ།"
+
+#: ../gap/gap_mpege.c:158
+#, c-format
+msgid ""
+"mpeg_encode 1.5 must be installed\n"
+"you can get mpeg_encode at\n"
+"%s"
+msgstr ""
+"ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོཌི་ ༡.༥་ འདི་གཞི་བཙུགས་འབད་དགོ\n"
+"(_e)ཁྱོད་ཀྱིས ཨེམ་པི་ཨི་ཇི་ ཧིན་ཀོཌི་\n"
+"འདི་%sནང་ལས་ཐོབ།"
+
+#: ../gap/gap_mpege.c:177
+msgid ""
+"You need a series of single images on disk (video frames),\n"
+"all with fileformat PPM (or YUV)\n"
+"(use 'Frames Convert' from the video menu\n"
+"or 'Split Image to Frames' from the video menu)"
+msgstr ""
+"ཁྱོད་ཀྱི་ ཌིཀསི་ནང་ལུ་གཟུགས་བརྙན་རྐྱང་པ་གི་ རྒྱུན་རིམ་ཅིག་(ཝི་ཌོ་གཞི་ཁྲམ་ཚུ།)\n"
+" པི་པི་ཨེམ་ ཡིག་སྣོད་རྩ་སྒྲིག་ཆ་མཉམ་དང་བཅས་དགོཔ་ཨིན།(ཡང་ན་ ཝའི་ཡུ་ཝི།)\n"
+"(ཝི་ཌོ་ དཀར་ཆག་ནང་ལས་'གཞི་ཁྲམ་ གཞི་བསྒྱུར་འབད་ནི་'ལག་ལེན་འཐབ\n"
+"ཡང་ན་ ཝི་ཌོ་ དཀར་ཆག་ནང་ལས་ '་གཟུགས་བརྙན་གཞི་ཁྲམ་ལུགཤག')"
+
+#: ../gap/gap_mpege.c:185
+msgid ""
+"You need a series of single images on disk (video frames)\n"
+"all with fileformat JPEG (or YUV or PNM or PPM)\n"
+"(use 'Frames Convert' from the video menu\n"
+"or 'Split Image to Frames' from the video menu)"
+msgstr ""
+"ཁྱོད་ཀྱི་ ཌིཀསི་ནང་ལུ་ གཟུགས་བརྙན་རྐྱང་པ་གི་ རྒྱུན་རིམ་ཅིག་(ཝི་ཌོ་ གཞི་ཁྲམ་ཚུ་)\n"
+"ཇེ་པི་ཨི་ཇི་ ཡིག་སྣོད་རྩ་སྒྲིག་ཆ་མཉམ་དང་བཅས་དགོཔ་ཨིན།(ཡང་ན་ ཝའི་ཡུ་ཝི ་ཡང་ན་པི་ཨེན་ཨེམ་ ཡང་ན་པི་པི་ཨེམ)\n"
+"(ཝི་ཌོ་དཀར་ཆག་ནང་ལས་ 'གཞི་ཁྲམ་ གཞི་བསྒྱུར'ལག་ལེན་འཐབ།\n"
+"ཡང་ན་ཝི་ཌོ་ དཀར་ཆག་ནང་ལས་'གཟུགས་བརྙན་འདི་གཞི་ཁྲམ་ཚུ་ནང་ལུ་གཤག')"
+
+#: ../gap/gap_mpege.c:202
+msgid ""
+"All images must have the same size,\n"
+"width and height must be a multiple of 16\n"
+"(use scale or crop from the video menu)"
+msgstr ""
+"གཟུགས་བརྙན་ཚུ་ཆ་མཉམ་ལུ་ ཚདགཅིགཔ་དགོཔ་ཨིན།་\n"
+"་རྒྱ་ཚད་དང་ མཐོ་ཚད་འདི་ ༡༦་གི་ལྷག་མེད་མགོ་བྱའི་གྲངས་ཅིག་དགོཔ་ཨིན།\n"
+"(ཝི་ཌོ་ དཀར་ཆག་ནང་ལས་ ཚད་ཐིག་ཡང་ན་བཏོག་བཅོས་ ལག་ལེན་འཐབ།)"
+
+#: ../gap/gap_mpege.c:209
+msgid "All images must have the same size,"
+msgstr "གཟུགས་བརྙན་ཚུ་ ཆ་མཉམ་ལུ་ ཚད་གཅིགཔ་དགོཔ་ཨིན།"
+
+#: ../gap/gap_mpege.c:217
+msgid ""
+"\n"
+"INFORMATINON:\n"
+"For more efficient MPEG encoding use the menu:\n"
+"Video->Encode->Master Videoencoder"
+msgstr ""
+"\n"
+"བརྡ་དོན།:\n"
+"ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོ་ཌིང་ ཧེང་བཀལ་ཕན་ནུས་ཅན་བཟོ་ནིའི་དོན་ལུ་ དཀར་ཆག་ལག་ལེན་འཐབ།:\n"
+"ཝི་ཌོ།->ཨིན་ཀོཌི་།->ཝིཌོ་ ཨིན་ཀོན་ཌར་ ཨམ།"
+
+#: ../gap/gap_mpege.c:235
+msgid "MPEG_ENCODE Information"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོཌི་ བརྡ་དོན།(_E)"
+
+#: ../gap/gap_mpege.c:273
+msgid "generate MPEG1 (ISO/IEC 11172-2) stream"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ༡། (ཨའི་ཨེས་ཨོ/ཨའི་ཨི་སི་ ༡༡༡༧༢ -༢)རྒྱུན་རིམ་འདི་བཟོ་བཏོན་འབད།"
+
+#: ../gap/gap_mpege.c:274
+msgid "generate MPEG2 (ISO/IEC DIS 13818-2) stream"
+msgstr "ཨེམ་པི་ཨི་ཇི་༢་ (ཨའི་ཨེས་ཨོ་/ཨའི་ཨི་སི་ ཌི་ཨའི་ཨེས་ ༡༣༨༡༨-༢)རྒྱུན་རིམ་འདི་བཟོ་བཏོན་འབད།"
+
+#: ../gap/gap_mpege.c:284
+msgid "GenParams"
+msgstr "ཇེན་པར་རམསི།"
+
+#: ../gap/gap_mpege.c:286
+msgid "Gen + Encode"
+msgstr "ཇེན་+ ཨིན་ཀོཌི"
+
+#: ../gap/gap_mpege.c:320
+msgid "Framerate in frames/second"
+msgstr "གཞི་ཁྲམ་ཚུ/སྐར་ཆག་ནང་གཞི་ཁྲམ་ཁྱབ་ཚད་བཟོ།"
+
+#: ../gap/gap_mpege.c:329
+msgid "Bitrate:"
+msgstr "བིཊི་རེཊི།:"
+
+#: ../gap/gap_mpege.c:330
+msgid "Used for constant bitrates (bit/sec). low rate gives good compression + bad quality"
+msgstr "ཆད་མེད་བིཊི་རེཊིསི(བིཊི/སྐར་ཆག)གི་དོན་ལུ་ལག་ལེན་འཐབ་ཨིན། གོང་ཚད་དམའ་མི་འདི་གིས་ ཨེབ་བཚུགས་ལེགས་ཤོམ་དང་སྤུས་ཚད་བྱང་ཉེས་བྱིནམ་ཨིན།"
+
+#: ../gap/gap_mpege.c:346
+msgid "Outputfile:"
+msgstr "ཨའུཊི་པུཊི་ཡིག་སྣོད།:"
+
+#. pixel
+#: ../gap/gap_mpege.c:348
+msgid "Name of the resulting MPEG outputfile"
+msgstr "ཨེམ་པི་ཨི་ཇི་ ཨའུཊི་པུཊི་ཡིག་སྣོད་ གྲུབ་འབྲས་འབྱུང་ནི་ཡོད་པའི་མིང་།"
+
+#: ../gap/gap_mpege.c:354
+msgid "Paramfile:"
+msgstr "པར་རམ་ཡིག་སྣོད།:"
+
+#. pixel
+#: ../gap/gap_mpege.c:356
+msgid "Name of the encoder-parameterfile (to be generated)"
+msgstr "ཨིན་ཀོ་ཌར་-ཚད་བཟུང་ཡིག་སྣོད་(བཟོ་བཏོན་འབད་ནིའི་)ཀྱི་མིང་།"
+
+#: ../gap/gap_mpege.c:362
+msgid "Startscript:"
+msgstr "འགོ་བཙུགས་ཡིག་ཚུགས:"
+
+#. pixel
+#: ../gap/gap_mpege.c:364
+msgid "Name of the startscript (to be generated/executed)"
+msgstr "འགོ་བཙུགས་ཡིག་ཚུགས་(བཟོ་བཏོན་འབད་ནི་/ལག་ལེན་འཐབ་ནི།)ཀྱི་མིང།"
+
+#: ../gap/gap_mpege.c:380
+msgid ""
+"Generate parameterfile for mpeg_encode 1.5\n"
+"(the freely distributed Berkeley MPEG-1 video encoder.)\n"
+msgstr ""
+"ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོཌི་ ༡.༥་གི་དོན་ལུ་ ཚད་བཟུང་ཡིག་སྣོད་བཟོ་བཏོན་འབད།\n"
+"(_e)(སྟོང་པ་སྦེ་བགོ་བཀྲམ་འབད་ཡོད་མི་ བར་ཀེ་ལི་ཨེམ་པི་ཇི་ཨི་ཇི་-༡་ ཝི་ཌོ་ ཨིན་ཀོ་ཌར།.)\n"
+
+#: ../gap/gap_mpege.c:384
+msgid "Constant Bitrate:"
+msgstr "ཆད་མེད་ བིཊི་རེཊི།:"
+
+#: ../gap/gap_mpege.c:385
+msgid "Iqnore I/P/QSCALE values and use constant bit-rate)"
+msgstr "ཨའི་/པི་/ཀིའུ་སི་ཀེལ་ གནས་གོང་ཚུ་ སྣང་མེད་སྦེ་བཞག་བཞིནམ་ལས་ ཆད་མེད་བིཊི་རེཊི་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_mpege.c:392
+msgid "Pattern:"
+msgstr "དཔེ་གཞི།:"
+
+#. pixel
+#: ../gap/gap_mpege.c:394
+msgid "How to encode MPEG frame sequence (I/P/B frames)"
+msgstr "ཨེམ་པི་ཨི་ཇི་གཞི་ཁྲམ་འབྱུང་རིམ་ (ཨའི་/པི/བི གཞི་ཁྲམ)ལུ་ག་དེ་སྦེ་ ཨིན་ཀོཌི་འབད་ནི་ཨིན་ནའི་བསྐོར་ལས།"
+
+#: ../gap/gap_mpege.c:402
+msgid "IQSCALE:"
+msgstr "ཨའི་ཀིའུ་སི་ཀེལ།:"
+
+#: ../gap/gap_mpege.c:403
+msgid ""
+"Quality scale for I-frames\n"
+"(1 = best quality, 31 = best compression)"
+msgstr ""
+"ཨའི་-གཞི་ཁྲམ་ཚུ་གི་དོན་ལུ་ སྤུས་ཚད་དང་ལྡན་པའི་ཆ་ཚད།\n"
+"(༡་ = སྤུས་ཚད་དྲག་ཤོས་, ༣༡་ =  ཨེབ་བཙུགས་དྲག་ཤོས།)"
+
+#: ../gap/gap_mpege.c:412
+msgid "PQSCALE:"
+msgstr "པི་ཀིའུ་སི་ཀེལ།:"
+
+#: ../gap/gap_mpege.c:413
+msgid ""
+"Quality scale for P-frames\n"
+"(1 = best quality, 31 = best compression)"
+msgstr ""
+"པི་-གཞི་ཁྲམ་ཚུ་གི་དོན་ལུ་ སྤུས་ཚད་དང་ལྡན་པའི་ཆ་ཚད།\n"
+"(༡ = སྤུས་ཚད་ དྲག་ཤོས།, ༣༡ = ཨེབ་བཙུགས་ དྲག་ཤོས།)"
+
+#: ../gap/gap_mpege.c:422
+msgid "BQSCALE:"
+msgstr "བི་ཀིའུ་སི་ཀེལ།:"
+
+#: ../gap/gap_mpege.c:423
+msgid ""
+"Quality scale for B-frames\n"
+"(1 = best quality, 31 = best compression)"
+msgstr ""
+"བི་-གཞི་ཁྲམ་ཚུ་གི་དོན་ལུ་ སྤུས་ཚད་དང་ལྡན་པའི་ཆ་ཚད།\n"
+"(༡་ = སྤུས་ཚད་ དྲག་ཤོས, ༣༡་ = ཨེབ་བཙུགས་ དྲག་ཤོས།)"
+
+#: ../gap/gap_mpege.c:432
+msgid "P-Search:"
+msgstr "པི་-འཚོལ་ཞིབ།:"
+
+#: ../gap/gap_mpege.c:433
+msgid "Search algorithmus used for P-frames"
+msgstr "པི་-གཞི་ཁྲམ་ཚུ་གི་་དོན་ལུ་ལག་ལེན་འཐབ་སྟེ་་ཡོད་པའི་  ཨཱལ་གོ་རི་དམསི་ ཞིབ་འཚོལ་འབད།"
+
+#: ../gap/gap_mpege.c:441
+msgid "B-Search:"
+msgstr "བི་-ཞིབ་འཚོལ།:"
+
+#: ../gap/gap_mpege.c:442
+msgid "Search algorithmus used for B-frames"
+msgstr "བི་-གཞི་ཁྲམ་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་སྟེ་ཡོད་པའི་  ཨཱལ་གོ་རི་དམསི་ ཞིབ་འཚོལ་འབད།"
+
+#: ../gap/gap_mpege.c:449
+msgid "Gen MPEG_ENCODE Parameters"
+msgstr "ཇེན་ ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོཌི་ ཚད་བཟུང་ཚུ་ལག་ལེན་ཚུ།(_E)"
+
+#: ../gap/gap_mpege.c:450
+#: ../gap/gap_mpege.c:493
+msgid "Encode Values"
+msgstr "ཨིན་ཀོཌི་ གནས་གོང་ཚུ།"
+
+#: ../gap/gap_mpege.c:467
+msgid ""
+"Generate parameterfile for mpeg2encode 1.2\n"
+"(MPEG-2 video encoder.)\n"
+msgstr ""
+"ཨེམ་པི་ཨི་ཇི་ ༢་ ཨིན་ཀོཌི་ ༡.༢་གི་དོན་ལུ་ ཚད་བཟུང་ཡིག་སྣོད་བཟོ་བཏོན་འབད།།\n"
+"(ཨེམ་པི་ཨི་ཇི་༢་ ཝི་ཌོ ཨིན་ཀོན་ཌར།)\n"
+
+#: ../gap/gap_mpege.c:470
+msgid "MPEG-type:"
+msgstr "ཨེཤ་པི་ཨི་ཇི་-དབྱེ་བ།:"
+
+#: ../gap/gap_mpege.c:481
+msgid "Videoformat:"
+msgstr "ཝི་ཌོ་རྩ་སྒྲིག:"
+
+#: ../gap/gap_mpege.c:482
+msgid "Videoformat"
+msgstr "ཝི་ཌོ་རྩ་སྒྲིག"
+
+#. framerates above 30 ar not allowed in mpeg2encode
+#: ../gap/gap_mpege.c:492
+msgid "Gen MPEG2ENCODE Parameters"
+msgstr "ཇེན་ ཨེམ་པི་ཨི་ཇི་༢་ ཨིན་ཀོཌི་ ཚད་བཟུང་ཚུ།"
+
+#: ../gap/gap_mpege.c:1057
+msgid ""
+"\n"
+"WARNING: mpeg_encode does not support fileformat "
+msgstr ""
+"\n"
+"ཉེན་བརྡ།:ཨེམ་པི་ཨི་ཇི་ ཨིན་ཀོཌི་གིས་ཡིག་སྣོད་རྩ་སྒྲིག་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../gap/gap_mpege.c:1060
+msgid ""
+"\n"
+"ERROR: width not a multiple of 16"
+msgstr ""
+"\n"
+"འཛོལ་བ།:རྒྱ་ཚད་འདི་ ༡༦་གི་ལྷག་མེད་བགོ་བྱའི་གྲངས་མེན།"
+
+#: ../gap/gap_mpege.c:1061
+msgid ""
+"\n"
+"ERROR: height not a multiple of 16"
+msgstr ""
+"\n"
+"འཛོལ་བ།:མཐོ་ཚད་འདི་ ༡༦་གི་ལྷག་མེད་བགོ་བྱའི་གྲངས་མེན།"
+
+#: ../gap/gap_mpege.c:1067
+msgid ""
+"\n"
+"WARNING: mpeg2encode does not support fileformat "
+msgstr ""
+"\n"
+"ཉེན་བརྡ།:ཨེམ་པི་ཨི་ཇི་༢་ ཨིན་ཀོཌི་གིས་ ཡིག་སྣོད་རྩ་སྒྲིག་ལུ་རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: ../gap/gap_mpege.c:1072
+msgid ""
+"\n"
+"ERROR: invoked from a single image, but video frame is required"
+msgstr ""
+"\n"
+"འཛོལ་བ།:གཟུགས་བརྙན་རྐྱང་པ་ནང་ལས་ ལས་བཀོལ་འབད་ཡོདཔ་ཨིན་རུང་ ཝི་ཌོ་གཞི་ཁྲམ་འདི་དགོས་མཁོ་ཡོདཔ་ཨིན།"
+
+#: ../gap/gap_name2layer_main.c:169
+msgid "<Image>/Video/Filename to Layer..."
+msgstr "<Image>/ཝི་ཌོ/བང་རིམ་ལུ་ ཡིག་སྣོད་མིང་་་་་་་་་།"
+
+#: ../gap/gap_name2layer_main.c:444
+msgid "Modes to choose entire filename or just parts of the filename"
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་ཧྲིལ་བུ་གདམ་་ནིའི་དོན་ལུ་ཐབས་ལམ་ཡང་ན་ཡིག་སྣོདམིང་གི་དེ་ཙམ་ཡན་ལག་ཚུ།"
+
+#: ../gap/gap_name2layer_main.c:453
+msgid "Fontname:"
+msgstr "ཡིག་གཟུགས་ཀྱི་མིང་།:"
+
+#. pixel
+#: ../gap/gap_name2layer_main.c:455
+msgid "Select Fontname)"
+msgstr "ཡིག་གཟུགས་ཀྱི་མིང་སེལ་འཐུ་འབད།)"
+
+#: ../gap/gap_name2layer_main.c:463
+msgid "Fontsize:"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད།:"
+
+#: ../gap/gap_name2layer_main.c:464
+msgid "Fontsize in pixels"
+msgstr "པིག་སེལསི་ནང་ ཡིག་གཟུགས་ཀྱི་ཚད།"
+
+#: ../gap/gap_name2layer_main.c:475
+msgid "Position X-offset in pixels"
+msgstr "ཨེགསི་-པར་ལེན་གནས་ས་ པིག་སེལསི་ནང་། "
+
+#: ../gap/gap_name2layer_main.c:486
+msgid "Position Y-offset in pixels"
+msgstr "ཝའི་-པར་ལེན་གནས་ས་ པིག་སེལསི་ནང་།"
+
+#: ../gap/gap_name2layer_main.c:495
+msgid "Antialias:"
+msgstr "ཨེན་ཊི་ཨེ་ལའིསི།"
+
+#: ../gap/gap_name2layer_main.c:496
+msgid "Use antialias"
+msgstr "ཨེན་ཊི་ཨེ་ལའིསི་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_name2layer_main.c:502
+msgid "Create Layer:"
+msgstr "བང་རིམ་གསར་བསྐྲུན་འབད།:"
+
+#: ../gap/gap_name2layer_main.c:503
+msgid ""
+"ON: Create a new layer.\n"
+"OFF: Render on active drawable."
+msgstr ""
+"ཨཱོན།:བང་རིམ་གསརཔ་ཅིག་བཟོ།\n"
+"ཨོཕ།:འབྲི་བཏུབ་མི་ཤུགས་ལྡན་གུར་ལུ་ལྷག་སྟོན་འབད།"
+
+#: ../gap/gap_name2layer_main.c:517
+msgid "Render Filename to Layer"
+msgstr "བང་རིམ་ལུ་ཡིག་སྣོད་ཀྱི་མིང་ལྷག་སྟོན་འབད།"
+
+#: ../gap/gap_name2layer_main.c:518
+#: ../gap/gap_wr_opacity.c:348
+msgid "Settings :"
+msgstr "གཞི་སྒྲིག:"
+
+#: ../gap/gap_navigator_dialog.c:432
+msgid ""
+"Playback\n"
+"<Shift> converts the selected frames to temporary image and do layeranimation playback on the temporary image"
+msgstr ""
+"གླུ་གཞས་གཏང་།\n"
+"<སོར་ལྡེ།>་ སེལ་འཐུ་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་་གནས་སྐབས་ཀྱི་གཟུགས་བརྙན་ནང་ལུགཞི་བསྒྱུར་འབད་དེ་ གནས་སྐབས་ཀྱི་གཟེགས་བརྙན་གུར་བང་རིམ་བསྒུལ་བཟོའི་ གླུ་གཞས་བཏངམ་ཨིན།"
+
+#: ../gap/gap_navigator_dialog.c:438
+msgid ""
+"Smart update thumbnails\n"
+"<Shift> forced thumbnail update for all frames"
+msgstr ""
+"སི་མརཊི་ དུས་མཐུན་བཟོ་ནིའི་ མཐེ་གཟེར།\n"
+"<སོར་ལྡེ>གཞི་ཁྲམ་ཚུ་ཆ་མཉམ་གྱི་དོན་ལུ་ འབང་བཙོང་འབད་ཡོད་པའི་ མཐེ་གཟེར་དུས་མཐུན།"
+
+#: ../gap/gap_navigator_dialog.c:443
+msgid "Duplicate selected frames"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་ཐོ་བཤུས་འབད།"
+
+#: ../gap/gap_navigator_dialog.c:447
+msgid "Delete selected frames"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་བཏོན་གཏང་།"
+
+#: ../gap/gap_navigator_dialog.c:456
+msgid "Goto first frame"
+msgstr "མགོ་མིང་ལུ་འགྱོ།"
+
+#: ../gap/gap_navigator_dialog.c:460
+msgid ""
+"Goto prev frame\n"
+"<Shift> use timezoom stepsize"
+msgstr ""
+"སྔོན་ལྟ་གཞི་ཁྲམ་ལུ་འགྱོ།\n"
+"<སོར་ལྡེ།>ཆུ་ཚོད་རྒྱས་ཟུམ་གྱི་ རིམ་ཚད་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_navigator_dialog.c:465
+msgid ""
+"Goto next frame\n"
+"<Shift> use timezoom stepsize"
+msgstr ""
+"གཞི་ཁྲམ་གཞན་མི་ནང་འགྱོ།\n"
+"<སོར་ལྡེ>ཆུ་ཚོད་རྒྱས་ཟུམ་གྱི་ རིམ་ཚད་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_navigator_dialog.c:470
+msgid "Goto last frame"
+msgstr "མཇུག་གི་གཞི་ཁྲམ་ནང་འགྱོ།"
+
+#: ../gap/gap_navigator_dialog.c:538
+msgid "<Image>/Video/VCR Navigator..."
+msgstr "<གཟུགས་བརྙན>/ཝི་ཌོ/ཝི་སི་ཨར འགྲུལ་བསྐྱོད་པ།..."
+
+#: ../gap/gap_navigator_dialog.c:601
+msgid "Cant open two or more video navigator windows."
+msgstr "ཝི་ཌོ་འགྲུལ་བསྐྱོདཔ་སྒོ་སྒྲིག་གཉིས་ཡང་ན་དེ་ལས་ལྷག་སྟེ་ཁ་ཕྱེ་མི་ཚུགས།"
+
+#: ../gap/gap_navigator_dialog.c:652
+#, c-format
+msgid ""
+"The selected %d frame(s) will be deleted.\n"
+"There will be no undo for this operation\n"
+msgstr ""
+"སེལ་འཐུ་འབད་ཡོད་པའི་ %d་གཞི་ཁྲམ་(ཨེསི།)འདི་བཏོན་གཏང་ནི་ཨིན།\n"
+"འ་ནི་བཀོལ་སྤྱོད་ཀྱི་དོན་ལུ་འབད་བཤོལ་ཚུ་མི་འོང་།\n"
+
+#: ../gap/gap_navigator_dialog.c:741
+msgid "Error while positioning to frame. Video paste operation failed"
+msgstr "གཞི་ཁྲམ་ལུ་གནས་ས་བཙུགསཔ་ད་ འཛོལ་བ་བྱུང་ཡི། ཝི་ཌོ་སྦྱར་ནིའི་བཀོལ་སྤྱོད་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: ../gap/gap_navigator_dialog.c:763
+msgid "Video paste operaton failed"
+msgstr "ཝི་ཌོ་སྦྱར་ནིའི་བཀོལ་སྤྱོད་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: ../gap/gap_navigator_dialog.c:875
+msgid "Video copy (or cut) operation failed"
+msgstr "ཝི་ཌོ་འདྲ་བཤུས་ཀྱི་(ཡང་ན་བཏོག་ནི་)བཀོལ་སྤྱོད་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: ../gap/gap_navigator_dialog.c:923
+msgid "Video cut operation failed"
+msgstr "ཝི་ཌོ་བཏོག་ནིའི་བཀོལ་སྤྱོད་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: ../gap/gap_navigator_dialog.c:1638
+msgid ""
+"For the thumbnail update you have to select\n"
+"a thumbnail filesize other than 'No Thumbnails'\n"
+"in the environment section of the preferences dialog"
+msgstr ""
+"མཐེ་གཟེར་དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ དགའ་གདམ་ ཌའི་ལོག་གི་མཐའ་འཁོར་དབྱེ་ཚན་ནང་ལུ་  ཁྱོད་ཀྱིས་ 'མཐེ་གཟེར་མེད་པ།'\n"
+"མེན་པའི་གཞན་ མཐེ་གཟེར་ཡིག་སྣོད་ཀྱི་ཚད་ཅིག་སེལ་འཐུ་འབད་\n"
+"དགོ།"
+
+#. the active layer tracking label
+#: ../gap/gap_navigator_dialog.c:3818
+msgid "AL-Tracking:"
+msgstr "ཨེ་ཨེལ་-རྗེས་འཚོལ།"
+
+#. radio button active layer tracking OFF
+#: ../gap/gap_navigator_dialog.c:3828
+msgid "OFF"
+msgstr "ཨོ་ཕ།"
+
+#: ../gap/gap_navigator_dialog.c:3841
+msgid "Disable active layer tracking"
+msgstr "ཤུགས་ལྡན་བང་རིམ་རྗེས་འཚོལ་འདི་ ལྕོགས་མིན་བཟོ།"
+
+#. radio button thres_mode HSV
+#: ../gap/gap_navigator_dialog.c:3851
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../gap/gap_navigator_dialog.c:3864
+msgid "Enable tracking of the active layer by name at framechanges"
+msgstr "གཞི་ཁྲམ་བསྒྱུར་བཅོས་ལུ་མིང་གི་ཐོག་ལས་ཤུགས་ལྡན་བང་རིམ་གི་རྗེས་འཚོལ་ལྕོགས་ཅན་བཟོ།"
+
+#. radio button thres_mode VAL
+#: ../gap/gap_navigator_dialog.c:3875
+msgid "Pos"
+msgstr "གནས་ས།"
+
+#: ../gap/gap_navigator_dialog.c:3888
+msgid "Enable tracking of the active layer by stack position at framechanges"
+msgstr "གཞི་ཁྲམ་བསྒྱུར་ཚུ་བཅོས་ལུ་ བརྩེགས་ཕུང་གནས་སའི་ཐོག་ལས་ཤུགས་ལྡན་བང་རིམ་གྱི་རྗེས་འཚོལ་ཤུགས་ལྡན་བཟོ།"
+
+#. menu_item copy
+#: ../gap/gap_navigator_dialog.c:3993
+msgid "Copy"
+msgstr "འདྲ་བཤུས།"
+
+#. menu_item cut
+#: ../gap/gap_navigator_dialog.c:4003
+msgid "Cut"
+msgstr "བཏོག"
+
+#. menu_item paste before
+#: ../gap/gap_navigator_dialog.c:4012
+msgid "Paste Before"
+msgstr "ཧེ་མ་སྦྱར།"
+
+#. menu_item copy
+#: ../gap/gap_navigator_dialog.c:4021
+msgid "Paste After"
+msgstr "ཤུལ་ལས་སྦྱར།"
+
+#. menu_item copy
+#: ../gap/gap_navigator_dialog.c:4030
+msgid "Paste Replace"
+msgstr "ཚབ་མ་སྦྱར།"
+
+#. menu_item copy
+#: ../gap/gap_navigator_dialog.c:4039
+msgid "Clear Video Buffer"
+msgstr "ཝི་ཌོ་གནས་ཁོངས་ བསལ།"
+
+#. menu_item Select All
+#: ../gap/gap_navigator_dialog.c:4049
+msgid "Select All"
+msgstr "ཆ་མཉམ་ སེལ་འཐུ་འབད།"
+
+#. menu_item Select None
+#: ../gap/gap_navigator_dialog.c:4058
+msgid "Select None"
+msgstr "སེལ་འཐུ་ཅི་མེད།"
+
+#. Video Length (frames)
+#: ../gap/gap_navigator_dialog.c:4078
+#: ../gap/gap_player_dialog.c:5070
+msgid "Videoframes:"
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཚུ།:"
+
+#: ../gap/gap_navigator_dialog.c:4115
+msgid "Set framerate in frames/sec"
+msgstr "གཞི་ཁྲམ་ཚུ/སྐར་ཆག་་ནང་ལུ་ གཞི་ཁྲམ་ཚད་ གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_navigator_dialog.c:4123
+msgid "Timezoom:"
+msgstr "ཆུ་ཚོད་རྒྱས་ཟུམ།:"
+
+#: ../gap/gap_navigator_dialog.c:4145
+msgid "Show only every N.th frame"
+msgstr "ཨེན་ཨེཊི་ གཞི་ཁྲམ་རྐྱངཤ་ཅིག་སྟོན།"
+
+#. The main shell
+#: ../gap/gap_navigator_dialog.c:4253
+msgid "Video Navigator"
+msgstr "ཝི་ཌོ་ འགྲུལ་བསྐྱོདཔ།"
+
+#. set layername
+#: ../gap/gap_onion_base.c:557
+#, c-format
+msgid "onionskin_%06d"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས_%06d"
+
+#: ../gap/gap_onion_dialog.c:899
+msgid "Onionskin Configuration"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ རིམ་སྒྲིག"
+
+#: ../gap/gap_onion_dialog.c:964
+msgid "Onionskin Settings"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ སྒྲིག་སྟགས་ཚུ།"
+
+#: ../gap/gap_onion_dialog.c:981
+msgid "Reference Mode:"
+msgstr "གཞི་བསྟུན་ཐབས་ལམ།:"
+
+#: ../gap/gap_onion_dialog.c:992
+msgid "Normal +1,+2,+3,+4,+5,+6"
+msgstr "སྤྱིར་བཏང་།+༡,+༢,+༣,+༤,+༥,+༦།"
+
+#: ../gap/gap_onion_dialog.c:993
+msgid "Bidiriectional (single) +1,-2,+3,-4,+5,-6"
+msgstr "ཕྱོགས་གཉིས།(རྐྱང་པ།)+༡,-༢,+༣,-༤,+༥,-༦།"
+
+#: ../gap/gap_onion_dialog.c:994
+msgid "Bidiriectional (double) +1,-1,+2,-2,+3,-3"
+msgstr "ཕྱོགས་གཉིས།(གཉིས་ལྡན)+༡,-༡,+༢,-༢,+༣,-༤།"
+
+#: ../gap/gap_onion_dialog.c:1006
+msgid ""
+"Reference Modes determines stepsequence:\n"
+" normal: +1,+2,+3,+4,+5,+6\n"
+" bidirectional single: +1,-2,+3,-4,+5,-6\n"
+" bidirectional double: +1,-1,+2,-2,+3,-3\n"
+" (stepsize is set by frame reference parameter)"
+msgstr ""
+"གཞི་བསྟུན་ཐབས་ལམ་གྱིས་ རིམ་པ་འབྱུང་རིམ་ གཏན་འབེབས་བཟོཝ་ཨིན།:\n"
+"སྤྱིར་བཏང་།+༡,+༢,+༣,+༤,+༥,+༦།\n"
+"ཕྱོགས་གཉིས་ རྐྱང་པ།:+༡,-༢,+༣,-༤,+༥,-༦\n"
+"ཕྱོགས་གཉིས་ ལོག་བལྟབ།:+༡,-༢,+༢,-༢,+༣,-༣།\n"
+"འབྱུག་རིམ་ཚད་འདི་ གཞི་ཁྲམ་གཞི་བསྟུན་ཚད་བཟུང་གིས་གཞི་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1015
+msgid "Onionskin Layers:"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ བང་རིམ་ཚུ།:"
+
+#: ../gap/gap_onion_dialog.c:1040
+msgid "Number of onionskin layers to create in the handled frame."
+msgstr "ལེགས་སྐྱོང་འཐབ་ཡོད་པའི་གཞི་ཁྲམ་ནང་གསར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ཀྱི་གྲངས་ཁ།"
+
+#: ../gap/gap_onion_dialog.c:1045
+msgid "Ascending Opacity"
+msgstr "ཡར་འཛེགས་ དྭགས་སྒྲིབ།"
+
+#: ../gap/gap_onion_dialog.c:1051
+msgid ""
+"ON: Far neighbour frames have the higher opacity.\n"
+"OFF: Near neighbour frames have the higher opacity."
+msgstr ""
+"ཨཱོན།:ཐག་རིང་ཁྱིམ་ཚང་གི་ གཞི་ཁྲམ་ཚུ་ལུ་ དྭངས་གྲིབ་མཐོཝ་ཨིན།\n"
+"ཨོཕ།:ཉེ་འདབས་ཁྱིམ་ཚང་གི་གཞི་ཁྲམ་ཚུ་ལུ་ དྭངས་གྲིབ་མཐོཝ་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1057
+msgid "Frame Reference:"
+msgstr "གཞི་ཁྲམ་ གཞི་བསྟུན།:"
+
+#: ../gap/gap_onion_dialog.c:1079
+msgid "reference stepsize where -1 is previous frame, +1 is next frame. (stepsequence is built together with reference mode parameter)"
+msgstr "གཞི་བསྟུན་ རིམ་པའི་ཚད་ ༡་འདི་ཧེ་མའི་གཞི་ཁྱམ་ཨིན་ +་༡་འདི་ཤུལ་མའི་གཞི་ཁྲམ་ཨིན།(རིམ་པའི་འབྱུང་རིམ་འདི་ གཞི་བསྟུན་ཐབས་ལམ་གྱི་ཚད་འཛིན་གྱི་་ཐོག་ལས་གཅིག་ཁར་བཟོ་བརྩིགས་འབད་ཡོད།)"
+
+#: ../gap/gap_onion_dialog.c:1083
+msgid "Cyclic"
+msgstr "བསྐྱར་འཁོར།"
+
+#: ../gap/gap_onion_dialog.c:1089
+msgid "ON: Next frame of last is first and vice versa."
+msgstr "ཨཱན།:མཇུག་གི་ཤུལ་མའི་གཞི་ཁྲམ་འདི་དང་པ་དང་ ལུགས་ལྡོག་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1094
+msgid "Stackposition:"
+msgstr "བརྩེགས་ཕུང་གི་གནས་ས།:"
+
+#: ../gap/gap_onion_dialog.c:1116
+msgid "Stackposition where to place onionskin layer(s)"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ཀྱི་བང་རིམ(ཨེས།)བཞག་སའི་བརྩེགས་ཕུངས་གནས་ས།"
+
+#: ../gap/gap_onion_dialog.c:1119
+msgid "From Top"
+msgstr "མགོ་ལས་མར།"
+
+#: ../gap/gap_onion_dialog.c:1125
+msgid ""
+"ON: 0 is top of stack (in front).\n"
+"OFF: 0 is bottom of stack (in background)."
+msgstr ""
+"ཨཱོན།: ༠་ འདི་བརྩེགས་ཕུངས་ཀྱི་མགོ་ལུ་ཨིན། (གདོང་ཁ་ལུ).\n"
+"ཨོཕ།: ༠་ འདི་ བརྩེགས་ཕུངས་ཀྱི་མཇུག་ལུ་ཨིན།(རྒྱབ་གཞི་ནང་།)"
+
+#: ../gap/gap_onion_dialog.c:1152
+msgid "Opacity of first onionskin layer (0 is transparent, 100 full opaque)"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ བང་རིམ་དང་པའི་ དྭངས་སྒྲིབ།(༠་འདི་དྭངས་གསལ་ཅན་ཨིན, ༡༠༠་  ཆ་ཚང་དྭངས་སྒྲིབ་ཅན་ཨིན།)"
+
+#: ../gap/gap_onion_dialog.c:1170
+msgid "Descending opacity for 2.nd onionskin layer"
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་ ༢་པའི་དོན་ལུ་ དྭངས་སྒྲིབ་མར་འབབ།"
+
+#: ../gap/gap_onion_dialog.c:1187
+msgid "Ignore BG-layer(s):"
+msgstr "བི་ཇི་-བང་རིམ་(ཨེསི)སྣང་མེད་བཞག:"
+
+#: ../gap/gap_onion_dialog.c:1209
+msgid "Exclude N background layers. Use 0 if you dont want to exclude any layer."
+msgstr "ཨེན་ རྒྱབ་གཞིའི་བང་རིམ་ གྲངས་ལས་བཏོན་གཏང་། ཁྱོད་ཀྱིས་ བང་རིམ་གང་རུང་ གྲངས་ལས་བཏོན་མི་གཏང་ནི་ཨིན་པ་ཅིན་ ༠་ ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_onion_dialog.c:1212
+msgid "Select Mode:"
+msgstr "ཐབས་ལམ་སེལ་འཐུ་འབད།:"
+
+#: ../gap/gap_onion_dialog.c:1223
+msgid "Pattern is equal to layername"
+msgstr "དཔེ་གཞི་འདི་བང་རིམ་མིང་དང་མཉམ་པ་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1224
+msgid "Pattern is start of layername"
+msgstr "དཔེ་གཞི་འདི་ བང་རིམ་མིང་གི་འགོ་་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1225
+msgid "Pattern is end of layername"
+msgstr "དཔེ་གཞི་འདི་བང་རིམ་མིང་གི་་མཇུག་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1226
+msgid "Pattern is a part of layername"
+msgstr "དཔེ་གཞི་འདི་བང་རིམ་མིང་གི་ཡན་ལག་ཨིན།"
+
+#: ../gap/gap_onion_dialog.c:1241
+msgid "Modes how to use select pattern"
+msgstr "སེལ་འཐུ་དཔེ་གཞི་ལག་ལེན་འཐབ་ཐངས་ཀྱི་ཐབས་ལམ་ཚུ།"
+
+#. the selct options label
+#: ../gap/gap_onion_dialog.c:1248
+msgid "Select Options:"
+msgstr "གདམ་ཁ་ཚུ་སེལ་འཐུ་འབད།:"
+
+#: ../gap/gap_onion_dialog.c:1265
+msgid ""
+"ON: Case sensitive pattern.\n"
+"OFF: Ignore case."
+msgstr ""
+"ཨཱོན།:ཡི་གུ་ཆེ་ཆུང་ཉེན་ཁའི་དཔེ་གཞི།\n"
+"ཨོཕ།:ཡི་གུ་སྣང་མེད་བཞག"
+
+#: ../gap/gap_onion_dialog.c:1269
+msgid "Invert Selection"
+msgstr "སེལ་འཐུ་ གནས་ལོག་འབད།"
+
+#: ../gap/gap_onion_dialog.c:1273
+msgid ""
+"ON: Select non-matching layers.\n"
+"OFF: Select matching layers"
+msgstr ""
+"ཨཱོན།:མཐུན་སྒྲིག་མ་འབད་མི་བང་རིམ་ཚུ་སེལ་འཐུ་འབད།.\n"
+"ཨོཕ།:མཐུན་སྒྲིག་འབད་མི་བང་རིམ་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_onion_dialog.c:1277
+msgid "Select Pattern:"
+msgstr "དཔེ་གཞི་སེལ་འཐུ་འབད།:"
+
+#: ../gap/gap_onion_dialog.c:1290
+msgid "Select layernames by pattern (depends on mode and options)"
+msgstr "དཔེ་གཞིའི་ཐོག་ལས་བང་རིམ་མིང་ཚུ་སེལ་འཐུ་འབད། (ཐབས་ལམ་དང་གདམ་ཁ་ཚུ་ལུ་རྟེནམ་ཨིན།)"
+
+#: ../gap/gap_onion_dialog.c:1299
+#, c-format
+msgid "Set for: %s"
+msgstr "%s:གི་དོན་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_onion_dialog.c:1309
+msgid "Set onionskin parameters for the current video"
+msgstr "ད་ལྟོ་ ཝི་ཌོའི་དོན་ལུ་ ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ཚད་བཟུང་ཚུ་གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_onion_dialog.c:1323
+msgid "Auto create after load"
+msgstr "མངོན་གསལ་འབད་ཚར་བཞིནམ་ལས་ རང་བཞིན་གསར་བསྐྲུན།"
+
+#: ../gap/gap_onion_dialog.c:1326
+msgid "ON: Automatic creation/replacement of onionskin layer(s). Works on frame changes via 'VCR Navigator' and go to operations in the video menu -- but not on explicite load from the file menu."
+msgstr "ཨཱོན།:རང་བཞིན་གྱི་གསར་བསྐྲུན་ ཨོ་ནི་ཡན་ཕྱི་ལྤགས་ བང་རིམ་(ཨེསི)གྱི་ཚབ་མ། གཞི་ཁྲམ་བསྒྱུར་བཅོས་བརྒྱུད་དེ་'ཝི་སི་ཨར་འགྲུལ་བསྐྱོདཔ་'ནང་ལཱ་གཡོག་འབད་དེ་་ ཝི་ཌོ དཀར་ཆག་ནང་ལུ་འགྱོཝ་ཨིན། འདི་འབདཝ་ད་ཡིག་སྣོད་དཀར་ཆག་ནང་གི་མངོན་གསལ་གཏན་ཁལ་ནང་མེན།"
+
+#: ../gap/gap_onion_dialog.c:1335
+msgid "Auto delete before save"
+msgstr "སྲུངས་བཞག་མ་འབད་བའི་ཧེ་མ་རང་བཞིན་གྱི་བཏོན་གཏང་ནི།"
+
+#: ../gap/gap_onion_dialog.c:1338
+msgid "ON: Automatic delete of onionskin layer(s). Works on framechanges via 'VCR Navigator' and go to operations in the video menu -- but not on explicite save from the file menu. Use this option if you dont want onionskin layers to appear in thumbnail files."
+msgstr "ཨཱོན:ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་(ཨེསི)གྱི་རང་བཞིན་གྱིས་བཏོན་གཏང་ནི།གཞི་ཁྲམ་བསྒྱུར་བཅོས་བརྒྱུད་དེ་'ཝི་སི་ཨར་ འགྲུལ་བསྐྱོདཔ་'ནང་ལཱ་འབད་དེ་ ཝི་ཌོ་དཀར་ཆག་ནང་གི་བཀོལ་སྤྱོད་ཚུ་ནང་ལུ་འགྱོ། འདི་འབདཝ་ད་ ཡིག་སྣོད་དཀར་ཆག་ནང་གི་གཏན་འཁལ་སྲུངས་བཞག་ནང་མེན།ཁྱོད་ཀྱིས་ མཐེ་གཟེར་ཡིག་སྣོད་ཚུ་ནང་ ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་ཚུ་འབྱུང་མ་དགོ་པ་ཅིན་གདམ་ཁ་འདི་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_onion_dialog.c:1372
+msgid "Reset to default settings"
+msgstr "སྔོན་སྒྲིག་ སྒྲིག་སྟངས་ཚུ་ལུ་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_onion_dialog.c:1379
+msgid "Close window without any action"
+msgstr "བྱ་བ་ག་ནི་ཡང་མེད་སྦེ་ སྒོ་སྒྲིག་འདི་ཁ་བསྡམས།"
+
+#: ../gap/gap_onion_dialog.c:1386
+msgid ""
+"Close window without creating or deleting any onionskin layers\n"
+"but store current Settings"
+msgstr ""
+"སྒོ་སྒྲིག་འདི་ ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་ཚུ་ གསར་བསྐྲུན་འབད་ནི་ཡང་ན་བཏོན་གཏང་ནི་མེདཔ་སྦེ་ཁ་བསྡམས།\n"
+"འདི་འབདཝ་ད་ ད་ལྟོའི་སྒྲིག་སྟངས་དེ་གསོག་འཇོག་འབད།"
+
+#: ../gap/gap_onion_dialog.c:1394
+msgid "Remove all onionskin layers in all frames of the the selected frame range"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཁྱབ་ཚད་ཀྱི་གཞི་ཁྲམ་ཚུ་ཆ་མཉམ་ནང་ལས་ ཨོ་ནི་འན་ཕྱི་ལྤགས་བང་རིམ་ཚུ་གེ་རང་བཏོན་གཏང་།"
+
+#: ../gap/gap_onion_dialog.c:1403
+msgid "Create or replace onionskin layer(s) in all frames of the selected frame range"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཁྱབ་ཚད་ཀྱི་གཞི་ཁྲམ་ཚུ་ནང་ ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་(ཨེསི་)ཚུ་ གསར་བསྐྲུན་ཡང་ན་ཚབ་བཙུགས།"
+
+#: ../gap/gap_onion_main.c:155
+msgid "<Image>/Video/Onionskin/Configuration..."
+msgstr "<གཟུགས་བརྙན།>/ཝི་ཌོ།/ཨོ་ནི་ཡན་ཕྱི་ལྤགས།/རིམ་སྒྲིག..."
+
+#: ../gap/gap_onion_main.c:173
+msgid "<Image>/Video/Onionskin/Create or Replace"
+msgstr "<གཟུགས་བརྙན།>/ཝི་ཌོ།/ཨོ་ནི་ཡན་ཕྱི་ལྤགས།/གསར་བསྐྲུན་འབད་ཡང་ན་ཚབ་བཙུགས།"
+
+#: ../gap/gap_onion_main.c:188
+msgid "<Image>/Video/Onionskin/Delete"
+msgstr "<གཟུགས་བརྙན།>/ཝི་ཌོ།/ཨོ་ནི་ཡན་ཕྱི་ལྤགས།/བཏོན་གཏང་།"
+
+#: ../gap/gap_onion_main.c:201
+msgid "<Image>/Video/Onionskin/Toggle Visibility"
+msgstr "<གཟུགས་བརྙན་>/ཝི་ཌོ།/ཨོ་ནི་ཡན་ཕྱི་ལྤགས།/སོར་སྟོན་མཐོང་གསལ།"
+
+#: ../gap/gap_onion_worker.c:365
+msgid "Creating onionskin layers..."
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་ གསར་བསྐྲུན་འབད་དོ།..."
+
+#: ../gap/gap_onion_worker.c:369
+msgid "Removing onionskin layers..."
+msgstr "ཨོ་ནི་ཡན་ཕྱི་ལྤགས་བང་རིམ་ རྩ་བསྐྲད་དཏང་དོ།..."
+
+#. Format the message
+#: ../gap/gap_player_dialog.c:352
+#, c-format
+msgid ""
+"Problem with audioplayback. The audiolib reported:\n"
+"%s"
+msgstr ""
+"རྣར་ཉན་གླུ་གཞས་གཏང་ནི་ལུ་དཀའ་ངལ། ཨོ་ཌི་ཡོ་ལིབ་ཀྱིས་སྙན་ཞུ་འབད་ནུག།\n"
+"%s"
+
+#: ../gap/gap_player_dialog.c:373
+msgid "Audiosource:"
+msgstr "རྣར་ཉན་འབྱུང་ཁུངས།:"
+
+#: ../gap/gap_player_dialog.c:384
+msgid "Wavefile:"
+msgstr "ཝེབ་་ཡིག་སྣོད།:"
+
+#: ../gap/gap_player_dialog.c:386
+msgid "Name of wavefile to create as copy in RIFF WAVE format"
+msgstr "ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཝེབ་རྩ་སྒྲིག་ནང་འདྲ་བཤུས་སྦེ་གསར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ ཝེབ་ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#: ../gap/gap_player_dialog.c:393
+msgid "Resample:"
+msgstr "དཔེ་ཚད་བསྐྱར་བཟོ།:"
+
+#: ../gap/gap_player_dialog.c:394
+msgid ""
+"ON: Resample the copy at specified samplerate.\n"
+"OFF: Use original samplerate"
+msgstr ""
+"ཨཱོན།:འདྲ་བཤུས་འདི་གསལ་བཀོད་འབད་ཡོད་པའི་དཔེ་ཚད་གོང་ཚད་ནང་ལུ་ དཔེ་ཚད་བསྐྱར་བཟོ་འབད།\n"
+"ཨོཕ།:དཔེ་ཚད་བསྐྱར་བཟོ་ངོ་འདི་ལག་ལེན་འཐབ།"
+
+#. Audio Samplerate
+#. the Samplerate label
+#: ../gap/gap_player_dialog.c:402
+#: ../gap/gap_player_dialog.c:5012
+#: ../gap/gap_story_dialog.c:6033
+#: ../vid_common/gap_cme_gui.c:3039
+msgid "Samplerate:"
+msgstr "དཔེ་ཚད་བསྐྱར་བཟོ།:"
+
+#: ../gap/gap_player_dialog.c:403
+msgid "Target audio samperate in samples/sec. Ignored if resample is off)"
+msgstr "དམིགས་གཏད་རྣར་ཉན་ དཔེ་ཚད་ཀྱི་་གོང་ཚད་ དཔེ་ཚད་ཚུ/སྐར་ཆ་ནང་།དཔེ་ཚད་བསྐྱར་བཟོ་མེད་པ་ཅིན་སྣང་མེད་སྦེ་བཞགཔ་ཨིན།)"
+
+#: ../gap/gap_player_dialog.c:424
+msgid "Copy Audiofile as Wavefile"
+msgstr "ཨོ་ཌི་ཡོ་ཡིག་སྣོད་འདི་ ཝེབ་ཡིག་སྣོད་སྦེ་འདྲ་བཤུས་རྐྱབ།"
+
+#: ../gap/gap_player_dialog.c:425
+#: ../gap/gap_story_dialog.c:3037
+#: ../gap/gap_story_dialog.c:5830
+#: ../gap/gap_story_dialog.c:6078
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ།"
+
+#: ../gap/gap_player_dialog.c:509
+msgid ""
+"Failure to start the wavplay server is fatal.\n"
+"Please check the executability of the 'wavplay' command.\n"
+"If you have installed the wavplay executeable somewhere\n"
+"you can set the Environmentvariable WAVPLAYPATH before gimp startup\n"
+msgstr ""
+"ཝེབ་པི་ལེ་སར་བར་འགོ་བཙུགས་ནི་ལུ་འཐུས་ཤོར་བྱུང་མི་འདི་འཚུབ་ཆེན་ཅིག་ཨིན།\n"
+"'ཝེབ་པི་ལེ་' བརྡ་བཀོད་ཀྱི་ལག་ལེན་དེ་ཞིབ་དཔྱད་འབད་གནང་།\n"
+"ཁྱོད་ཀྱིས་ལག་ལེན་འཐབ་བཏུབ་པའི་ཝེབ་པི་ལེ་འདི་ ག་ཏེ་ཅིག་ཁར་གཞི་བཙུགས་འབད་ད་པ་ཅིན་\n"
+"ཁྱོད་ཀྱིས་ གཱིམཔ་ འགོ་མ་བཙུགས་པའི་སྔོན་མ་་ལས་ མཐའ་འཁོར་འགྱུར་ཅན་གྱི་ ཝེབ་པི་ལེ་པཏི་ གཞི་སྒྲིག་འབད་བཏུབ།\n"
+
+#: ../gap/gap_player_dialog.c:572
+msgid "Audio Delay"
+msgstr "རྣར་ཉན་གྱི་ཕྱིར་གྱངས།"
+
+#: ../gap/gap_player_dialog.c:584
+msgid "Syncron"
+msgstr "སིན་ཀོརནི།"
+
+#: ../gap/gap_player_dialog.c:588
+msgid "Audio Skipped"
+msgstr "རྣར་ཉན་་གོ་འགྱོ་ཡོདཔ།"
+
+#: ../gap/gap_player_dialog.c:600
+#, c-format
+msgid "%d (at %.4f frames/sec)"
+msgstr "%d (at %.4f ་གཞི་ཁྲམ་ཚུ་/སྐར་ཆ།)"
+
+#: ../gap/gap_player_dialog.c:694
+#, c-format
+msgid "Error at reading WAV header from file '%s'"
+msgstr " '%s'ཡིག་སྣོད་ནང་ལས་ ཌབ་ལུ་ཨེ་ཝི་ མགོ་ཡིག་ལྷག་ནི་ལུ་འཛོལ་བ།"
+
+#: ../gap/gap_player_dialog.c:827
+#, c-format
+msgid ""
+"WARNING: your gimprc file configuration for the wavplay audio server\n"
+"does not point to an executable program\n"
+"the configured value for %s is: %s\n"
+msgstr ""
+"ཉེན་བརྡ།:ཁྱོད་ཀྱི་ ཝེབ་པི་ལེ་རྣར་ཉན་སར་བར་གྱི་དོན་ལུ་ ཇིམཔ་ཨར་སི་ཡིག་སྣོད་རིམ་སྒྲིག་འདི་་གིས་\n"
+"ལག་ལེན་འཐབ་བཏུབ་པའི་ལས་རིམ་ནང་ལུ་ དོན་ཚན་ཅིག་མི་སྟོན་པས།\n"
+"%sགི་དོན་ལུ་རིམ་སྒྲིག་འབད་ཡོད་མི་གནས་གོང་འདི་%s་ཨིན།\n"
+
+#: ../gap/gap_player_dialog.c:884
+#, c-format
+msgid ""
+"No audiosupport available\n"
+"the audioserver executable file '%s' was not found.\n"
+"If you have installed '%s'\n"
+"you should add the installation dir to your PATH\n"
+"or set environment variable %s to the name of the executable\n"
+"before you start GIMP"
+msgstr ""
+"རྣར་ཉན་རྒྱབ་སྐྱོར་ མི་འཐོབ་མི་ཚུགས་པས།\n"
+"རྣར་ཉན་སར་བར་གྱི་ལག་ལེན་འཐབ་བཏུབ་པའི་ ཡིག་སྣོད་'%s'འདི་མ་ཐོབ་པས།\n"
+"ཁྱོད་ཀྱིས་'%s'གཞི་བཙུགས་འབད་ཡོད་པ་ཅིན།\n"
+"ཁྱོད་ཀྱིས་གཞི་བཙུགས་ སྣོད་ཐོ་འདི་ཁྱོད་རའི་འགྲུལ་ལམ་ནང་ལུ་བསྡོམས་དགོ\n"
+"ཡང་ན་ཇིམཔ་འགོ་མ་བཙུགསཔ་ལས་ལག་ལེན་འཐབ་བཏུབ་པའི་\n"
+"མིང་ལུ་ མཐའ་འཁོར་འགྱུར་ཅན་་%s་གཞི་སྒྲིག་འབད།"
+
+#. shortname prefix to indicate that displayed filename is from type storyboard file
+#: ../gap/gap_player_dialog.c:1687
+msgid "STB:"
+msgstr "ཨེས་ཊི་བི།:"
+
+#. shortname prefix to indicate that displayed filename is a single videofile
+#: ../gap/gap_player_dialog.c:1700
+msgid "VIDEO:"
+msgstr "ཝི་ཌོ།:"
+
+#. shortname prefix to indicate that displayed filename is basename of the frames
+#: ../gap/gap_player_dialog.c:1712
+msgid "FRAMES:"
+msgstr "གཞི་ཁྲམ།:"
+
+#. pending timer_go_job gets useless, since we start playback now
+#: ../gap/gap_player_dialog.c:1811
+#: ../gap/gap_player_dialog.c:2965
+msgid "Playing"
+msgstr "གཏང་དོ།:"
+
+#. the status value label
+#: ../gap/gap_player_dialog.c:1850
+#: ../gap/gap_player_dialog.c:5813
+msgid "Ready"
+msgstr "གྲ་སྒྲིག"
+
+#: ../gap/gap_player_dialog.c:2064
+#: ../gap/gap_story_dialog.c:4203
+msgid "Creating Index"
+msgstr "ཟུར་ཐོ་གསར་བསྐྲུན་འབད་དོ།"
+
+#: ../gap/gap_player_dialog.c:2087
+#, c-format
+msgid "No videoindex available. Access is limited to (slow) sequential read on file: %s"
+msgstr "ཝི་ཌོ་ཟུར་ཐོ་འཐོབ་མི་ཚུགས་པས། ཡིག་སྣོད་%sནང་ རྒྱུན་རིམ་ལྷག་ནི་ལུ་འཛུལ་སྤྱོད་འབད་ནི་འདི་ཚད་ཅིག་(ལྷོད་ཆ།)རང་ཨིན།"
+
+#: ../gap/gap_player_dialog.c:2168
+#: ../gap/gap_story_dialog.c:4338
+msgid "Videoseek"
+msgstr "ཝི་ཌོ་འཚོལ།"
+
+#: ../gap/gap_player_dialog.c:2373
+#: ../gap/gap_player_dialog.c:2424
+#: ../gap/gap_story_dialog.c:4246
+msgid "Canceled"
+msgstr "ཆ་མེད་དཏང་ཡོདཔ།"
+
+#. printf("DROP (SKIP) frame\n");
+#: ../gap/gap_player_dialog.c:2948
+msgid "Skip"
+msgstr "གོམ་འགྱོ།"
+
+#: ../gap/gap_player_dialog.c:2977
+#, c-format
+msgid "Delay %.2f"
+msgstr "%.2f་ ཕྱིར་འགྱངས་འབད།"
+
+#: ../gap/gap_player_dialog.c:4523
+#, c-format
+msgid ""
+"WARNING: Your gimprc file configuration for the audioconverter script\n"
+"does not point to an executable program\n"
+"the configured value for %s is: %s\n"
+msgstr ""
+"ཉེན་བརྡ།:ཁྱོད་ཀྱི་རྣར་ཉན་སྒྱུར་བྱེད་ཡིག་ཚུགས་ཀྱི་དོན་ལུ་ ཇིམཔི་ཨར་སི་ ཡིག་སྣོད་རིམ་སྒྲིག་འདི་གིས་་\n"
+"ལག་ལེན་འཐབ་བཏུབ་པའི་ལས་རིམ་ལུ་ དོན་ཚན་ཅིག་མི་སྟོན་པས།\n"
+"%s་གི་དོན་ལུ་རིམ་སྒྲིག་འབད་ཡོད་མི་གནས་གོང་འདི་%sཨིན།\n"
+
+#: ../gap/gap_player_dialog.c:4545
+#, c-format
+msgid ""
+"WARNING: The environment variable %s\n"
+"does not point to an executable program\n"
+"the current value is: %s\n"
+msgstr ""
+"ཉེན་བརྡ།:མཐའ་འཁོར་འགྱུར་ཅན་ %s\n"
+"འདི་གིས་ལག་ལེན་འཐབ་བཏུབ་པའི་ལས་རིམ་ལུ་ དོན་ཚན་ཅིག་མི་སྟོན་པས།\n"
+"ད་ལྟོའི་གནས་གོང་འདི་%sཨིན་པས།\n"
+
+#: ../gap/gap_player_dialog.c:4564
+#, c-format
+msgid ""
+"ERROR: The external program for audioconversion is not executable.\n"
+"Filename: '%s'\n"
+msgstr ""
+"འཛོལ་བ།:རྣར་ཉན་གཞི་བསྒྱུར་གྱི་དོན་ལུ་ ཕྱིའི་ལས་རིམ་འདི་ ལག་ལེན་འཐབ་མི་བཏུབ་པས།\n"
+"ཡིག་སྣོད་ཀྱི་མིང་།:'%s'\n"
+
+#: ../gap/gap_player_dialog.c:4584
+msgid "Creating audiofile - please wait"
+msgstr "རྣར་ཉན་གསར་བསྐྲུན་འབད་དོ།བསྒུག་གནང་།"
+
+#: ../gap/gap_player_dialog.c:4726
+msgid "Select Audiofile"
+msgstr "རྣར་ཉན་ཡིག་སྣོད་ སེལ་འཐུ་འབད།"
+
+#. audiofile label
+#. the output audiofile label
+#. the Audiofile label
+#: ../gap/gap_player_dialog.c:4798
+#: ../gap/gap_vex_dialog.c:2467
+#: ../vid_common/gap_cme_gui.c:2978
+msgid "Audiofile:"
+msgstr "རྣར་ཉན་ཡིག་སྣོད།:"
+
+#: ../gap/gap_player_dialog.c:4810
+msgid "Enter an audiofile. The file must be in RIFF WAVE fileformat."
+msgstr "རྣར་ཉན་ཡིག་སྣད་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: ../gap/gap_player_dialog.c:4831
+msgid "Open audiofile selection browser dialog window"
+msgstr "རྣར་ཉན་ཡིག་སྣོད་ སེལ་འཐུ་བརྡ་འཚོལ་ ཌའི་ལོག་སྒོ་སྒྲི་འདི་ཁ་ཕྱེ།"
+
+#. Volume
+#: ../gap/gap_player_dialog.c:4843
+#: ../gap/gap_story_dialog.c:6049
+msgid "Volume:"
+msgstr "སྐད་ཤུགས།"
+
+#: ../gap/gap_player_dialog.c:4863
+msgid "Audio Volume"
+msgstr "རྣར་ཉན་གྱི་སྐད་ཤུགས།"
+
+#. check button
+#: ../gap/gap_player_dialog.c:4869
+msgid "Enable"
+msgstr "ལྕོགས་ཅན་བཟོ།"
+
+#: ../gap/gap_player_dialog.c:4873
+msgid ""
+"ON: Play button plays video + audio.\n"
+"OFF: Play video silently"
+msgstr ""
+"ཨཱོན་:གཏང་ནིའི་ཨེབ་རྟ་གིས་ཝི་ཌོ་+ རྣར་ཉན་གཏངམ་ཨིན།\n"
+"ཨོཕ།:ཝི་ཌོ་ ཁུ་སིམ་སིམ་སྦེ་གཏང་།"
+
+#. Sample Offset
+#: ../gap/gap_player_dialog.c:4883
+msgid "Offset:"
+msgstr "པར་ལེན།:"
+
+#: ../gap/gap_player_dialog.c:4903
+msgid "Audio offset in frames at original video playback speed. A value of 0 starts audio and video at synchron time. A value of -10 will play frame 1 up to frame 9 silently and start audio at frame 10. A value of 10 starts audio at frame 1, but skips the audio begin part in a length that is equal to the duration of 10 frames at original video playback speed."
+msgstr "ཝི་ཌོ་ གླུ་གཞས་གཏང་ནིའི་མགྱོགས་ཚད་ངོ་མ་ལུ་ གཞི་ཁྲམ་ནང་གི་རྣར་ཉན་པར་ལེན། ༠་གི་གནས་གོང་གིས་རྣར་ཉན་དང་ཝི་ཌོ་ མཉམ་འབྱུང་ཆུ་ཚོད་ནང་ལུ་འགོ་བཙུགསཔ་ཨིན།༡༠་གི་གནས་གོང་གིས་ གཞི་ཁྲམ་༡་ ལས་༩་ཚུན་ཚོད་ ཁུ་སིམ་སིམ་སྦེ་གཏངམ་ཨིནམ་དང་གཞི་ཁྲམ་༡༠་ནང་ལུ་ རྣར་ཉན་འདིའགོ་བཙུགསཔ་ཨིན།༡༠་གི་གནས་གོང་གིས་རྣར་ཉན་འདི་གཞི་ཁྲམ་ ༡་ ནང་ལུ་འགོ་བཙུགསཔ་ཨིན་ འདི་འབདཝ་ད་ ཝི་ཌོ་ གླུ་གཞས་གཏང་ནིའི་མགྱོགས་ཚད་ངོ་མ་ནང་ གཞི་ཁྲམ་༡༠་གི་དུས་ཡུན་ལུ་ མཉམ་པ་འདི་གིས་ རིང་ཚད་ནང་གི་རྣར་ཉན་འགོ་བཙུགས་ཡན་ལག་འདི་གོམ་འགྱོཝ་ཨིན།"
+
+#: ../gap/gap_player_dialog.c:4919
+msgid "Reset offset and volume"
+msgstr "སླར་སྒྲིག་དང་པར་ལེན་དེ་ལས་སྐད་ཤུགས།"
+
+#. create wavfile button
+#: ../gap/gap_player_dialog.c:4930
+msgid "Copy As Wavfile"
+msgstr "ཝེབ་ཡིག་སྣོད་སྦེ་འདྲ་བཤུས་རྐྱབ།"
+
+#: ../gap/gap_player_dialog.c:4932
+msgid "Create a copy from audiofile as RIFF WAVE audiofile and use the copy for audio playback"
+msgstr "ཨར་ཨའི་ཨེཕ་ཨེཕ་ ཝེབ་ རྣར་ཉན་ཡིག་སྣོད་སྦེ་ རྣར་ཉན་ཡིག་སྣོད་ལས་འདྲ་བཤུས་ཅིག་གསར་བསྐྲུན་འབད་ནི་དང་འདྲ་བཤུས་འདི་རྣར་ཉན་གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ།"
+
+#. Audio Offset Length (mm:ss:msec)
+#: ../gap/gap_player_dialog.c:4953
+msgid "Offsettime:"
+msgstr "པར་ལེན་ཆུ་ཚོད།:"
+
+#. Total Audio Length (mm:ss:msec)
+#. the audio timing information labels
+#: ../gap/gap_player_dialog.c:4967
+#: ../vid_common/gap_cme_gui.c:3209
+msgid "Audiotime:"
+msgstr "རྣར་ཉན་དུས་ཡུན།:"
+
+#. Length (frames)
+#: ../gap/gap_player_dialog.c:4982
+msgid "Audioframes:"
+msgstr "རྣར་ཉན་གཞི་ཁྲམ་ཚུ།:"
+
+#. Audiolength (Samples)
+#: ../gap/gap_player_dialog.c:4997
+msgid "Samples:"
+msgstr "དཔེ་ཚད་ཚུ་།:"
+
+#. Audio Channels
+#: ../gap/gap_player_dialog.c:5026
+msgid "Channels:"
+msgstr "རྒྱུ་ལམ་ཚུ།"
+
+#. Bits per Audio Sample
+#: ../gap/gap_player_dialog.c:5040
+msgid "Bits/Sample:"
+msgstr "བིཊིསི།/དཔེ་ཚད།:"
+
+#. Total Video Length (mm:ss:msec)
+#. the video timing information labels
+#: ../gap/gap_player_dialog.c:5055
+#: ../vid_common/gap_cme_gui.c:3182
+msgid "Videotime:"
+msgstr "ཝི་ཌོ་དུསཡུན།:"
+
+#: ../gap/gap_player_dialog.c:5174
+msgid "Videoframe Playback"
+msgstr "གླུ་གཞས་གཏང་ནིའི་ཝི་ཌོ་གཞི་ཁྲམ།"
+
+#. the video options notebook tab
+#: ../gap/gap_player_dialog.c:5223
+#: ../vid_common/gap_cme_gui.c:2447
+msgid "Video Options"
+msgstr "ཝི་ཌོའི་གདམ་ཁ་ཚུ།"
+
+#. the Audio Options notebook tab
+#: ../gap/gap_player_dialog.c:5224
+#: ../vid_common/gap_cme_gui.c:2459
+msgid "Audio Options"
+msgstr "རྣར་ཉན་གྱི་གདམ་ཁ་ཚུ།"
+
+#: ../gap/gap_player_dialog.c:5286
+msgid "Click: go to frame, Ctrl-Click: set 'From Frame', Alt-Click: set 'To Frame'"
+msgstr "ཨེབ་གཏང་།:གཞི་ཁྲམ་ནང་ལུ་འགྱོ་ ཚད་འཛིན་ཨེབ་གཏང་འབད།:'གཞི་ཁྲམ་ལས' གདམ་་ལྡེ་ཨེབ་གཏང་འབད།:'གཞི་ཁྲམ་ལུ་'གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_player_dialog.c:5356
+#: ../gap/gap_player_dialog.c:5459
+msgid "The currently displayed frame number"
+msgstr "ད་ལྟོ་བཀྲམ་སྟོན་འབད་ཡོད་པའི་གཞི་ཁྲམ་གྱི་ཨང་གྲངས།"
+
+#. the framenr 1 button (does set Begin of range)
+#: ../gap/gap_player_dialog.c:5398
+#: ../vid_common/gap_cme_gui.c:1167
+msgid "Frame"
+msgstr "གཞི་ཁྲམ།"
+
+#: ../gap/gap_player_dialog.c:5409
+msgid ""
+"Click: Set current framenr as selection range start 'From Frame',\n"
+"SHIFT-Click: load this frame into the calling image"
+msgstr ""
+"ཨེབ་གཏང་འབད།:སེལ་འཐུ་ཁྱབ་ཚད་འགོ་བཙུགས་བཟུམ་སྦེ་ད་ལྟོའི་གཞི་ཁྲམ་ ཨེན་ཨར་འདི་གཞི་སྒྲིག་འབད། 'གཞི་ཁྲམ་ནང་ལས'\n"
+" སོ་ལྡེ་ ཨེབ་གཏང་།:གཞི་ཁྲམ་འདི་ བོད་བརྡ་གཟུགས་བརྙན་ནང་ལུ་མངོན་གསལ་འབད།"
+
+#: ../gap/gap_player_dialog.c:5420
+msgid "Set current framenr as selection range start 'From Frame'"
+msgstr "ད་ལྟོའི་གཞི་ཁྲམ་ ཨེན་ཨར་འདི་ སེལ་འཐུ་ཁྱབ་ཚད་འགོ་བཙུགས་སྦེ་'གཞི་ཁྲམ་ནང་ལས'གཞི་སྒྲིག་འབད།"
+
+#. the framenr 2 button (does set End of range)
+#: ../gap/gap_player_dialog.c:5425
+msgid "Nr:"
+msgstr "ཨེན་ཨར།:"
+
+#: ../gap/gap_player_dialog.c:5436
+msgid ""
+"Click: Set current framenr as selection range end 'To Frame',\n"
+"SHIFT-Click: load this frame into the calling image"
+msgstr ""
+"ཨེབ་གཏང་འབད།:ད་ལྟོའི་གཞི་ཁྲམ་ ཨེན་ཨར་འདི་ སེལ་འཐུ་ཁྱབ་ཚད་མཇུག་སྦེ་'གཞི་ཁྲམ་ལུ་'གཞི་སྒྲིག་འབད།\n"
+"སོར་ལྡེ་-ཨེབ་གཏང་།:གཞི་ཁྲམ་འདི་བོད་བརྡའི་གཟུགས་བརྙན་ནང་ལུ་མངོན་གསལ་འབད།"
+
+#: ../gap/gap_player_dialog.c:5447
+msgid "Set current framenr as selection range end 'To Frame'"
+msgstr "ད་ལྟོའི་གཞི་ཁྲམ་ ཨེན་ཨར་འདི་སེལ་འཐུ་ཁྱབ་ཚད་སྦེ་མཇུག་'གཞི་ཁྲམ་ནང་ལུ་'གཞི་སྒྲིག་འབད།"
+
+#. the time position
+#: ../gap/gap_player_dialog.c:5468
+msgid "Timepos:"
+msgstr "དུས་ཚོད་ཀྱི་གནས་ས།:"
+
+#: ../gap/gap_player_dialog.c:5513
+msgid "Add range to cliplist"
+msgstr "ཁྱབ་ཚད་འདི་བཏོག་ནིའི་ཐོ་ཡིག་ནང་ལུ་བསྡོམས།"
+
+#: ../gap/gap_player_dialog.c:5517
+msgid "Print range to stdout"
+msgstr "ཁྱབ་ཚད་འདི་ཨེསི་ཊི་ཌི་ཨའུཊི་ལུ་དཔར་བསྐྲུན་འབད།"
+
+#: ../gap/gap_player_dialog.c:5536
+msgid "Start framenumber of selection range"
+msgstr "སེལ་འཐུ་ཁྱབ་ཚད་ཀྱི་གཞི་ཁྲམ་ཨང་གྲངས་འགོ་བཙུགས།"
+
+#: ../gap/gap_player_dialog.c:5565
+msgid "Add inverse range to cliplist"
+msgstr "བཏོག་ནིའི་ཐོག་ཡིག་ལུ་ ལུག་ལྡོག་ཁྱབ་ཚད་དེ་བསྡོམས།"
+
+#: ../gap/gap_player_dialog.c:5569
+msgid "Print inverse range to stdout"
+msgstr "ཨེས་ཊི་ཌི་ ཨའུཊི་ནང་ལུ་ ལུག་ལྡོག་ཁྱབ་ཚད་འདི་དཔར་བསྐྲུན་འབད།"
+
+#: ../gap/gap_player_dialog.c:5590
+msgid "End framenumber of selection range"
+msgstr "སེལ་འཐུ་ཁྱབ་ཚད་ཀྱི་གཞི་ཁྲམ་ཨང་འདི་མཇུག་བསྡུ།"
+
+#. the origspeed_button
+#: ../gap/gap_player_dialog.c:5608
+msgid "Speed"
+msgstr "མགྱོགས་ཚད།"
+
+#: ../gap/gap_player_dialog.c:5613
+msgid "Reset playback speed to original (or previous) value"
+msgstr "གནས་གོང་ངོ་མ་ (ཡང་ན་ཧེ་མ་)ནང་ལུ་གླུ་གཞས་གཏང་ནིའི་མགྱོགས་ཚད་འདི་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_player_dialog.c:5633
+msgid "Current playback speed (frames/sec)"
+msgstr "ད་ལྟོའི་གླུ་གཞས་གཏང་ནིའི་མགྱོགས་ཚད། (གཞི་ཁྲམ་/སྐར་ཆག)"
+
+#. the size button
+#: ../gap/gap_player_dialog.c:5651
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../gap/gap_player_dialog.c:5658
+msgid "Toggle size 128/256. <Shift> Set 1:1 full image size"
+msgstr "༡༢༨/༢༥༦་ཚད་སོར་སྟོན་འབད།<སོར་ལྡེ།>༡:༡་གཟུགས་བརྙན་ཆ་ཚང་གི་ཚད་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../gap/gap_player_dialog.c:5677
+msgid "Video preview size (pixels)"
+msgstr "ཝི་ཌོ་སྔོན་ལྟའི་ཚད་(པིག་སེལསི།)"
+
+#: ../gap/gap_player_dialog.c:5713
+msgid ""
+"ON: Play in endless loop.\n"
+"OFF: Play only once"
+msgstr ""
+"ཨཱོན།:རྫོགས་ནི་མེད་པའི་འཕྲལ་བཀོལ་ནང་གཏང་།\n"
+"ཨོཕ།:ཚར་གཅིག་རྐྱངམ་ཅིག་གཏང་།"
+
+#. SelOnly Toggle
+#: ../gap/gap_player_dialog.c:5727
+msgid "Play selection only"
+msgstr "སེལ་འཐུ་རྐྱངམ་ཅིག་གཏང་།"
+
+#: ../gap/gap_player_dialog.c:5733
+msgid ""
+"ON: Play selection only.\n"
+"OFF: Play all frames"
+msgstr ""
+"ཨཱོན།:སེལ་འཐུ་རྐྱངམ་ཅིག་གཏང་།\n"
+"ཨོཔ།:གཞི་ཁྲམ་ཚུ་ཆ་མཉམ་གཏང་།"
+
+#. PingPong Toggle
+#: ../gap/gap_player_dialog.c:5746
+msgid "Ping pong"
+msgstr "པིང་པོང་།"
+
+#: ../gap/gap_player_dialog.c:5752
+msgid "ON: Play alternating forward/backward"
+msgstr "ཨཱོན།:གདོང་བསྐྱོད་/རྒྱབ་བསྐྱོད་སྤེལ་མ་སྦེ་གཏང་།"
+
+#. UseThumbnails Toggle
+#: ../gap/gap_player_dialog.c:5765
+msgid "Use thumbnails"
+msgstr "མཐེ་གཟེར་ཚུ་ལང་ལེན་འཐབ།"
+
+#: ../gap/gap_player_dialog.c:5771
+msgid ""
+"ON: Use thumbnails when available.\n"
+"OFF: Read full sized frames"
+msgstr ""
+"ཨཱོན་།:འཐོབ་ཚུགསཔ་ད་མཐེ་གཟེར་ཚུ་ལག་ལེན་འཐབ།\n"
+"ཨོཕ།:ཚད་ཆ་ཚང་འདབ་མི་གཞི་ཁྲམ་ཚུ་ལྷག"
+
+#. ExactTiming Toggle
+#: ../gap/gap_player_dialog.c:5786
+msgid "Exact timing"
+msgstr "དུས་ཚོད་ཏག་ཏག"
+
+#: ../gap/gap_player_dialog.c:5792
+msgid ""
+"ON: Skip frames to hold exact timing.\n"
+"OFF: Disable frame skipping"
+msgstr ""
+"ཨཱོན།:དུས་ཚོད་ཏག་ཏག་འཆང་ནིའི་དོན་ལུ་གཞི་ཁྲམ་ཚུ་གོ་འགྱོ་འབད།\n"
+"ཨོཕ།:གཞི་ཁྲམ་གོམ་འགྱོ་འདི་ལྕོགས་མིན་བཟོ།"
+
+#. the status label
+#: ../gap/gap_player_dialog.c:5805
+msgid "Status:"
+msgstr "གནས་ཚད།:"
+
+#. the Cancel Videoindex Creation button (only visible while creating vindex)
+#: ../gap/gap_player_dialog.c:5857
+msgid "Cancel Videoindex creation"
+msgstr "ཝི་ཌོ་ཟུར་ཐོ་གསར་བསྐྲུན་འབད་ནི་འདི་ཆ་མེད་གཏང་།"
+
+#: ../gap/gap_player_dialog.c:5861
+msgid "Cancel videoindex creation. Videoindex creation requires full scann of the video but allows fast random access to frames afterwards. Without a videoindex, access is done by very slow sequential read"
+msgstr "ཝི་ཌོ་ཟུར་ཐོ་གསར་བསྐྲུན་འབད་ནི་འདི་ཆ་མེད་གཏང་།ཝི་ཌོ་ཟུར་ཐོ་གསར་བསྐྲུན་འབད་ནི་ལུ་ཝི་ཌོ་གི་ཞིབ་ལྟ་འབད་ནི་ཆ་ཚང་དགོས་མཁོ་ཡོདཔ་ཨིན་ འདི་འབདཝ་ད་ ཤུལ་ལས་གཞི་ཁྲམ་ཚུ་ལུ་མགྱོགས་དྲགས་གང་འབྱུང་འཛུལ་སྤྱོད་འབད་བཅུགཔ་ཨིན།ཝི་ཌོ་ཟུར་ཐོ་མེད་པ་ཅིན་འཛུལ་སྤྱོད་འབད་ནི་འདི་ཧ་ཅང་ལྷོད་དྲགས་རྒྱུན་མཐུད་ལྷག་ནི་གིས་འབདཝ་ཨིན།"
+
+#: ../gap/gap_player_dialog.c:5888
+msgid "Start playback. SHIFT: snapshot frames  in a multilayer image at original size CTRL: snapshot at preview size ALT: force creation of new snapshot image"
+msgstr "གླུ་གཞས་གཏང་ནི་འགོ་བཙུགས། སོར་ལྡེ་:་གཞི་ཁྲམ་ཚུ་  སྣ་མང་བང་རིམ་གཟུགས་བརྙན་ཅིག་གི་ཚད་ངོ་མ་ནང་པར་བཏབ་ཨིན། ཚད་འཛིན་:སྔོན་ལྟ་གི་ཚད་ལུ་པར་བཏབ་ཨིན།གདམ་ལྡེ:པར་བཏབ་་གཟུགས་བརྙན་གསརཔ་བང་བཙོང་གསར་བསྐྲུན་འབད་ཡི།"
+
+#: ../gap/gap_player_dialog.c:5901
+msgid "Pause if playing (any mouseboutton). Go to selection start/active/end (left/middle/right mousebutton) if not playing"
+msgstr "གཏང་སྟེ་ཡོད་པ་ཅིན་ཐེམ་བཞག(མཱའུསི་གི་ཨེབ་རྟ་ག་འབད་རུང་ཅིག)གཏང་སྟེ་མེད་པ་ཅིན་ འགོ་བཙུགས་/ཤུགས་ལྡན/མཇུག་(གཡོན/བར་མ/གཡས་ མཱའུསི་ཨེབ་རྟ།)ཚུ་གི་སེལ་འཐུ་ནང་ལུ་འགྱོ།"
+
+#: ../gap/gap_player_dialog.c:5911
+msgid "Start reverse playback. SHIFT: snapshot frames  in a multilayer image at original size CTRL: snapshot at preview size ALT: force creation of new snapshot image"
+msgstr "གླུ་གཞས་གཏང་ནིའི་རིམ་ལོག་འགོ་བཙུགས། སོར་ལྡེ:གཞི་ཁྲམ་ཚུ་  སྣ་མང་བང་རིམ་གཟུགས་བརྙན་ཅིག་གི་ཚད་ངོ་མ་ནང་པར་བཏབ་ཨིན། ཚད་འཛིན་:སྔོན་ལྟ་གི་ཚད་ལུ་པར་བཏབ་ཨིན།གདམ་ལྡེ:པར་བཏབ་་གཟུགས་བརྙན་གསརཔ་ བང་བཙོང་གསར་བསྐྲུན་འབད་ཡི།"
+
+#: ../gap/gap_player_main.c:250
+msgid "<Image>/Video/Playback..."
+msgstr "<གཟུགས་བརྙན།>/ཝི་ཌོ/གླུ་གཞས་གཏང་ནི།..."
+
+#: ../gap/gap_range_ops.c:143
+msgid "New Width:"
+msgstr "རྒྱ་ཚད་གསརཔ།"
+
+#: ../gap/gap_range_ops.c:154
+msgid "New Height:"
+msgstr "མཐོ་ཚད་གསརཔ།:"
+
+#: ../gap/gap_range_ops.c:165
+msgid "Offset X:"
+msgstr "པར་ལེན་ ཨེགསི།:"
+
+#: ../gap/gap_range_ops.c:176
+msgid "Offset Y:"
+msgstr "པར་ལེན་ཝའི།:"
+
+#: ../gap/gap_range_ops.c:190
+msgid "Crop Video Frames (all)"
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཚུ་བཏོག་བཅོས་འབད།(ཆ་མཉམ།)"
+
+#: ../gap/gap_range_ops.c:191
+#, c-format
+msgid "Crop (original %dx%d)"
+msgstr "བཏོག་བཅོས་འབད།(ངོ་མ། %dx%d)"
+
+#: ../gap/gap_range_ops.c:201
+msgid "Resize Video Frames (all)"
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཚུ་གི་ཚད་བསྐྱར་བཟོ་འབད།(ཆ་མཉམ།)"
+
+#: ../gap/gap_range_ops.c:202
+#, c-format
+msgid "Resize (original %dx%d)"
+msgstr "ཚད་བསྐྱར་བཟོ་འབད།(ངོ་མ། %dx%d)"
+
+#: ../gap/gap_range_ops.c:208
+msgid "Scale Video Frames (all)"
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཚུ་གི་ཚད་འཇལ།(ཆ་མཉམ།)"
+
+#: ../gap/gap_range_ops.c:209
+#, c-format
+msgid "Scale (original %dx%d)"
+msgstr "ཚད་འཇལ།(ངོ་མ། %dx%d)"
+
+#: ../gap/gap_range_ops.c:215
+#: ../gap/gap_story_dialog.c:5820
+#: ../gap/gap_story_dialog.c:6065
+msgid "Reset"
+msgstr "སླར་སྒྲིག་འབད།"
+
+#. should use GIMP_STOCK_RESET if possible
+#: ../gap/gap_range_ops.c:216
+msgid "Reset parameters to original size"
+msgstr "ཚད་བཟུང་འདི་ཚུ་ ཚད་ངོ་མ་ནང་ལུ་སླར་སྒྲིག་འབད།"
+
+#: ../gap/gap_range_ops.c:318
+msgid "Layerstack position where 0 is the top layer"
+msgstr "༠་འདི་་བང་རིམ་མཐོ་ཤོས་ཨིན་སའི་བང་རིམ་བརྩེགས་ཕུངས་གནས་ས།"
+
+#: ../gap/gap_range_ops.c:370
+msgid "Generate Optimal Palette"
+msgstr "གང་དྲག་པེ་ལེཊི་འདི་བཟོ་བཏོན་འབད།"
+
+#: ../gap/gap_range_ops.c:371
+msgid "WEB Palette"
+msgstr "ཝེབ་ པེ་ལེཊི།"
+
+#: ../gap/gap_range_ops.c:372
+msgid "Use Custom Palette"
+msgstr "སྲོལ་སྒྲིག་ པེ་ལེཊི་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_range_ops.c:373
+msgid "Use Black/White (1-Bit) Palette"
+msgstr "གནགཔོ/དཀརཔོ་(༡-བིཊི)པེ་ལེཊི་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_range_ops.c:375
+msgid "Floyd-Steinberg Color Dithering (Normal)"
+msgstr "ཕོལོ་ཡིཌི་ སི་ཊིན་བརཀ་ ཚོས་གཞི་སྤར་དོ།(སྤྱིར་གཏང་།)"
+
+#: ../gap/gap_range_ops.c:376
+msgid "Floyd-Steinberg Color Dithering (Reduced Color Bleeding)"
+msgstr "ཕོལོ་ཡིཌི་-སི་ཊིན་བརཀ་ ཚོས་གཞི་སྤར་དོ། (Reduced Color Bleeding)"
+
+#: ../gap/gap_range_ops.c:377
+msgid "Positioned Color Dithering"
+msgstr "གནས་ས་བཙུགས་ཡོད་པའི་ཚོས་གཞི་སྤར་དོ།"
+
+#: ../gap/gap_range_ops.c:378
+msgid "No Color Dithering"
+msgstr "ཚོས་གཞི་མི་སྤར་བས།"
+
+#: ../gap/gap_range_ops.c:389
+msgid "Palette Type"
+msgstr "པེ་ལེཊི་གི་དབྱེ་བ།"
+
+#: ../gap/gap_range_ops.c:396
+msgid "Custom Palette"
+msgstr "པེ་ལེཊི་ སྲོལ་སྒྲིག"
+
+#: ../gap/gap_range_ops.c:397
+msgid "Name of a custom palette (ignored if palette type is not custom)"
+msgstr "སྲོལ་སྒྲིག་པེ་ལེཊི་གི་མིང་།(པེ་ལེཊི་གི་དབྱེ་བ་འདི་སྲོལ་སྒྲིག་མེན་པ་ཅིན་སྣང་མེད་སྦེ་བཞགཔ་ཨིན།)"
+
+#: ../gap/gap_range_ops.c:402
+msgid "Remove Unused"
+msgstr "ལག་ལེན་མ་འཐབ་པར་ཡོད་མི་ཚུ་རྩ་བསྐྲད་གཏང་།"
+
+#: ../gap/gap_range_ops.c:403
+msgid "Remove unused or double colors (ignored if palette type is not custom)"
+msgstr "ལག་ལེན་མ་འཐབ་པར་ཡོད་མི་ཚུ་རྩ་བསྐྲད་གཏང་ཡང་ན་ཚོས་གཞི་གཉིས་ལྡན་སྦེ་བཟོ།(པེ་ལེཊི་དབྱེ་བ་འདི་སྲོལ་སྒྲིག་མེད་པ་ཅིན་སྣང་མེད་སྦེ་བཞགཔ་ཨིན།)"
+
+#: ../gap/gap_range_ops.c:408
+msgid "Number of Colors"
+msgstr "ཚོས་གཞི་གི་གྲངས།"
+
+#: ../gap/gap_range_ops.c:409
+msgid "Number of resulting colors (ignored if palette type is not generate optimal palette)"
+msgstr "གྲུབ་འབྲས་བྱུང་བའི་ཚོས་གཞི་གི་གྱངས་ཁ།།(པེ་ལེཊི་གི་དབྱེ་བ་འདི་ བཟོ་བཏོན་འབད་ནིའི་གང་དྲག་ པེ་ལེཊི་ མེན་པ་ཅིན་སྣང་མེད་སྦེ་བཞགཔ་ཨིན།)"
+
+#: ../gap/gap_range_ops.c:416
+msgid "Dither Options"
+msgstr "སྤར་བའི་གདམ་ཁ་ཚུ།"
+
+#: ../gap/gap_range_ops.c:423
+msgid "Enable Transparency"
+msgstr "དྭངས་གསལ་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gap/gap_range_ops.c:424
+msgid "Enable dithering of transparency"
+msgstr "དྭངས་གསལ་གྱི་སྤར་བ་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../gap/gap_range_ops.c:427
+msgid "Convert Frames to Indexed"
+msgstr "གཞི་ཁྲམ་ཚུ་ཟུར་ཐོ་བཀོད་ཡོད་མི་ལུ་གཞི་བསྒྱུར་འབད།"
+
+#: ../gap/gap_range_ops.c:428
+msgid "Palette and Dither Settings"
+msgstr "པེ་ལེཊི་དང་སྤར་བ་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../gap/gap_range_ops.c:493
+msgid "Keep Type"
+msgstr "དབྱེ་བ་བདག་འཛིན་འབད་བཞག"
+
+#: ../gap/gap_range_ops.c:494
+msgid "Convert to RGB"
+msgstr "ཨར་ཇི་བི་ལུ་གཞི་བསྒྱུར་འབད།"
+
+#: ../gap/gap_range_ops.c:495
+msgid "Convert to Gray"
+msgstr "སྐྱ་ཐལ་ལུ་གཞི་བསྒྱུར་འབད།"
+
+#: ../gap/gap_range_ops.c:496
+msgid "Convert to Indexed"
+msgstr "ཟུར་ཐོ་བཀོད་ཡོད་མི་ལུ་གཞི་བསྒྱུར་འབད།"
+
+#. the basename label
+#: ../gap/gap_range_ops.c:523
+#: ../gap/gap_vex_dialog.c:2287
+msgid "Basename:"
+msgstr "གཞི་རྟེནགྱི་མིང་།"
+
+#: ../gap/gap_range_ops.c:524
+msgid "basename of the resulting frames. The number part and extension (000001.ext) is added automatically to all converted frames."
+msgstr "གྲུབ་འབྲས་འབྱུང་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་གི་གཞི་རྟེན་གྱི་མིང་། ཨང་གྲངས་ཡན་ལག་དང་རྒྱ་བསྐྱེད་(༠༠༠༠༠༡.རྒྱ་བསྐྱེད་)འདི་རང་བཞིན་གྱིས་གཞི་བསྒྱུར་འབད་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་ནང་ལུ་ཁ་སྐོང་རྐྱབ་སྟེ་ཡོད།"
+
+#. the extension label
+#: ../gap/gap_range_ops.c:530
+#: ../gap/gap_split.c:269
+#: ../gap/gap_vex_dialog.c:2357
+msgid "Extension:"
+msgstr "རྒྱ་བསྐྱེད།:"
+
+#: ../gap/gap_range_ops.c:531
+msgid "The extension of resulting frames is also used to define the fileformat. Please note that fileformats differ in capabilities to store informations for multiple layers and other things.Some fileformats may require converting to another imagetype and/or flattening the frames."
+msgstr "གྲུབ་འབྲས་བྱུང་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་གི་རྒྱ་བསྐྱེད་འདི་ཡང་ཡིག་སྣོད་རྩ་སྒྲིག་ངེས་འཛིན་འབད་ནི་ནང་ལུ་ལག་ལེན་འཐབ་སྟེ་ཡོད། ཡིག་སྣོད་རྩ་སྒྲིག་ཚུ་ སྣ་མང་བང་རིམ་དང་གཞན་ཅ་ལ་ཚུ་གི་དོན་ལུ་བརྡ་དོན་ཚུ་ བསག་་ནི་་ལུ་ལྕོགས་གྲུབ་ཀྱི་་ཁྱད་པར་ཡོད་ཨིནམ་སེམས་ཁར་ངེས་གནང་།ཡིག་སྣོད་རྩ་སྒྲིག་ཚུ་ལ་ལུ་ཅིག་ལུ་གཟུགས་བརྙན་དབྱེ་བ་གཞན་ཅིག་ལུ་གཞི་བསྒྱུར་འབད་དགོཔ་དང་ཡང་ན་ཡང་གཞི་ཁྲམ་ཚུ་ལེབ་ཏེམ་བཟོ་དགོཔ་འོང་།"
+
+#: ../gap/gap_range_ops.c:541
+msgid "Imagetype:"
+msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་།:"
+
+#: ../gap/gap_range_ops.c:542
+msgid "Convert to another imagetype, or keep imagetype as it is. Most fileformats can't handle all types and may require a conversion.Example: GIF can not handle RGB and requires convert to indexed imagetype."
+msgstr "གཟུགས་བརྙན་གྱི་དབྱེ་བ་གཞན་ཅིག་ལུ་གཞི་བསྒྱུར་འབད་ ཡང་ན་གཟུགས་བརྙན་གྱི་དབྱེ་བ་ཚུ་ཧེ་མ་ག་ཨིནམ་སྦེ་བཞག  ཡིག་སྣོད་རྩ་སྒྲིག་མང་ཤོས་ཅིག་རང་ དབྱེ་བ་ཚུ་ཆ་མཉམ་རང་ལེགས་སྐྱོང་འཐབ་མི་ཚུགསཔ་ཨིནམ་དང་གཞི་བསྒྱུར་ཅིག་དགོཔ་འོང་། དཔེར་ན་:ཇི་ཨའི་ཨེཕ་གིས་ ཨར་བི་ཇི་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས་པ་ཨིནམ་དང་ ཟུར་སྦྲགས་འབད་ཡོད་མི་ གཟུགས་བརྙན་གྱི་དབྱེ་བ་ལུ་གཞི་བསྒྱུར་འབད་ནི་དགོཔ་ཨིན།"
+
+#: ../gap/gap_range_ops.c:550
+#: ../gap/gap_split.c:285
+msgid "Flatten:"
+msgstr "ལེབ་ཏེམ་བཟོ།:"
+
+#: ../gap/gap_range_ops.c:551
+msgid "Flatten all resulting frames. Most fileformats can not handle multiple layers and need flattened frames (flattening does melt down all layers to one composite layer).Example: JPEG can not handle multiple layers and requires flattened frames."
+msgstr "གྲུབ་འབྲས་བྱུང་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་ལེབ་ཏེམ་བཟོ།ཡིག་སྣོད་རྩ་སྒྲིག་ཚུ་མང་ཆེ་བ་རང་སྣ་མང་བང་རིམ་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགསཔ་ཨིནམ་དང་ལེབ་ཏེམ་བཟོ་བཟོ་བའི་གཞི་ཁྲམ་(ལེབ་ཏེམ་བཟོ་ནི་འདི་གིས་བང་རིམ་ཚུ་ཆ་མཉམ་སྣ་སྡུད་བང་རིམ་གཅིག་ནང་ལུ་བཞུ་མི་གཏང་།)ཚུ་དགོཔ་ཨིན།དཔེར་ན་:ཇེ་པི་ཨི་ཇི་གིས་སྣ་མང་བང་རིམ་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས་དོ་བཟུམ་ཨིནམ་དང་ལེབ་ཏེམ་བཟོ་བཟོ་བའི་གཞི་ཁྲམ་ཚི་དགོཔ་ཨིན།"
+
+#: ../gap/gap_range_ops.c:561
+msgid "Convert Frames to other Formats"
+msgstr "གཞི་ཁྲམ་ཚུ་ རྩ་སྒྲིག་གཞན་ཚུ་ནང་ལུ་གཞི་བསྒྱུར་འབད།"
+
+#: ../gap/gap_range_ops.c:562
+msgid "Convert Settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་གཞི་བསྒྱུར་འབད།"
+
+#: ../gap/gap_range_ops.c:640
+msgid "Expand as necessary"
+msgstr "ཉེ་བར་མཁོ་བར་སྦེ་རྒྱ་འཕར་འབད།"
+
+#: ../gap/gap_range_ops.c:641
+msgid "Clipped to image"
+msgstr "གཟུགས་བརྙན་ལུ་ལྕགས་འཛིན་འབད་ཡོད།"
+
+#: ../gap/gap_range_ops.c:642
+msgid "Clipped to bottom layer"
+msgstr "གཤམ་གྱི་བང་རིམ་ལུ་ལྕགས་འཛིན་འབད་ཡོད།"
+
+#: ../gap/gap_range_ops.c:643
+msgid "Flattened image"
+msgstr "ལེབ་ཏེམ་བཟོ་བཟོ་བའི་གཟུགས་བརྙན།"
+
+#: ../gap/gap_range_ops.c:644
+msgid "Resulting layer size is made of the outline-rectangle of all visible layers (may differ from frame to frame)"
+msgstr "གྱུབ་འབྲས་བྱུང་ནིའི་བང་རིམ་ཚད་འདི་མཐོང་ཚུགས་པའི་བང་རིམ་ཚུ་གི་མཐའ་ཐིག་-གྲུ་བཞི་ནར་མོ་འདི་གིས་བཟོ་བཟོཝ་ཨིན།(གཞི་གྲམ་ལས་གཞི་ཁྲམ་ལུ་སོ་སོའི་ཁྱད་པར་འཐོན་འོང་།)"
+
+#: ../gap/gap_range_ops.c:645
+msgid "Resulting layer size is the frame size"
+msgstr "གྲུབ་འབྲས་བྱུང་ནིའི་བང་རིམ་གྱི་ཚད་འདི་གཞི་ཁྲམ་གྱི་ཚད་འདི་ཨིན།"
+
+#: ../gap/gap_range_ops.c:646
+msgid "Resulting layer size is the size of the bottom layer (may differ from frame to frame)"
+msgstr "གྲུབ་འབྲས་བྱུང་ནིའི་བང་རིམ་གྱི་ཚད་འདི་གཤམ་བང་རིམ་གྱི་ཚད་འདི་ཨིན།(གཞི་ཁྲམ་ལས་གཞི་ཁྲམ་ལུ་སོ་སོའི་ཁྱད་པར་རེ་འཐོན་འོང་།)"
+
+#: ../gap/gap_range_ops.c:647
+msgid "Resulting layer size is the frame size transparent parts are filled with background color"
+msgstr "གྲུབ་འབྲས་་བྱུང་ནི་གི་བང་་རིམ་ཚད་དེ་  གཞི་ཁྲམ་ཚད་ཨིན།དྭངས་གསལ་ཅན་གྱི་ཡན་ལག་ཚུ་རྒྱབ་ཚུས་གཞི་གིས་བཀང་སྟེ་ཡོད།"
+
+#: ../gap/gap_range_ops.c:658
+msgid "Select all layers where layername is equal to pattern"
+msgstr "བང་རིམ་གྱི་མིང་དཔེ་གཞི་ལུ་མཉམ་པ་འབད་མི་བང་རིམ་ཚུ་ཆ་མཉམ་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_range_ops.c:659
+msgid "Select all layers where layername starts with pattern"
+msgstr "བང་རིམ་གི་མིང་དཔེ་གཞི་དང་ཅིག་ཁར་་འགོ་བཙུགས་མི་བང་རིམ་ཚུ་ཆ་མཉམ་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_range_ops.c:660
+msgid "Select all layers where layername ends up with pattern"
+msgstr "བང་རིམ་གི་མིང་དཔེ་གཞི་དང་གཅིག་ཁར་མཇུག་བསྡུ་མི་བང་རིམ་ཚུ་སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_range_ops.c:661
+msgid "Select all layers where layername contains pattern"
+msgstr "བང་རིམ་གི་མིང་ དཔེ་གཞི་ནང་ན་ཡོད་མི་བང་རིམ་ཚུ་སེལ་འཐུ་འབད།"
+
+#. Selection modes
+#: ../gap/gap_range_ops.c:668
+msgid "Ignore"
+msgstr "སྣང་མེད་བཞག"
+
+#: ../gap/gap_range_ops.c:669
+msgid "Initial frame"
+msgstr "འགོ་ཐོག་གཞི་ཁྲམ།"
+
+#: ../gap/gap_range_ops.c:670
+msgid "Frame specific"
+msgstr "དམིགས་བསལ་གཞི་ཁྲམ།"
+
+#: ../gap/gap_range_ops.c:672
+msgid "Pick layers at full size. Ignore all pixel selections in all frames"
+msgstr "བང་རིམ་ཚུ་ཚད་ཆ་ཚང་འཐུ།གཞི་ཁྲམ་ཚུ་ནང་གི་པིག་སེལ་ སེལ་འཐུ་ཚུ་ཆ་མཉམ་སྣང་མེད་བཞག།"
+
+#: ../gap/gap_range_ops.c:674
+msgid "Pick only the selected pixels. Use the selection from the invoking frame as fixed selection in all handled frames."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་པིག་སེལ་རྐྱངམ་གཅིག་འཐུ། ལེགས་སྐྱོང་འཐབ་ཡོད་པའི་གཞི་ཁྲམ་ཆ་མཉམ་ནངགི་་སེལ་འཐུ་གཏན་་བཟོས་བཟུམ་སྦེ་ལས་བཀོལ་གཞི་ཁྲམ་ནང་ལས་སེལ་འཐུ་དེ་ ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_range_ops.c:677
+msgid "Pick only the selected pixels. Use the individual selection as it is in each handled frame."
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་པིག་སེལ་རྐྱངམ་ཅིག་འཐུ།ལེགས་སྐྱོང་འབཐ་ཡོད་པའི་གཞི་ཁྲམ་གེ་ར་ནང་ཡོདདོ་བཟུམ་སྦེ་ངོ་རྐྱང་སེལ་འཐུ་དེ་་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_range_ops.c:714
+msgid "Layer Basename:"
+msgstr "བང་རིམ་གཞི་རྟེན་གྱི་མིང་།"
+
+#: ../gap/gap_range_ops.c:715
+msgid "Basename for all layers where the string '[######]' is replaced by the frame number"
+msgstr "ཡིག་རྒྱུན་'[######]'འདི་གཞི་ཁྲམ་ཨང་གིས་ཚབ་བཙུགས་ཡོད་ས་་ བང་རིམ་ཚུ་་ཆ་མཉམ་གྱི་དོན་ལུ་གཞི་རྟེན་མིང་།"
+
+#: ../gap/gap_range_ops.c:733
+msgid "Layer Mergemode:"
+msgstr "བང་རིམ་ མཉམ་བསྡོམས་འབད་ནིའི་ཐབས་ལམ།:"
+
+#: ../gap/gap_range_ops.c:740
+msgid "Exclude BG-Layer:"
+msgstr "བི་ཇི་-བང་རིམ་གྲངས་ལས་བཏོན་གཏང་།"
+
+#: ../gap/gap_range_ops.c:741
+msgid "Exclude the background layer in all handled frames, regardless to the other settings of layer selection."
+msgstr "སེལ་འཐུ་བང་རིམ་གྱི་སྒྲིག་སྟངས་གཞན་ལུ་དབྱེ་བར་མེད་པར་  ལེགས་སྐྱོངས་འཐབ་ཡོད་པའི་གཞི་ཁྲམ་ཚུ་ཆ་མཉམ་ནང་ལས་ རྒྱབ་གཞིའི་བང་རིམ་དེ་གྲངས་ལས་བཏོན་གཏང་།"
+
+#: ../gap/gap_range_ops.c:748
+msgid "Layer Selection:"
+msgstr "བང་རིམ་སེལ་འཐུ།:"
+
+#. pixel
+#: ../gap/gap_range_ops.c:759
+msgid "String to identify layer(s) by name or by layerstack position numbers. Example: 0,3-5"
+msgstr "ཡིག་རྒྱུན་ལུ་ མིང་ཡང་ན་བང་རིམ་བརྩེགས་ཕུང་གནས་སའི་ཨང་གྲངས་ཚུ་གིས་སྦེ་ བང་རིམ་(ཨེསི)ངེས་འཛིན་འབད་ནི། དཔེར་ན།:༠་༣་-༥།"
+
+#: ../gap/gap_range_ops.c:766
+msgid "Case sensitive:"
+msgstr "ཡི་གུ་ཚོར་ཅན།:"
+
+#: ../gap/gap_range_ops.c:772
+msgid "Invert Layer Selection:"
+msgstr "བང་རིམ་སེལ་འཐུ་གནས་ལོག་འབད།:"
+
+#: ../gap/gap_range_ops.c:773
+msgid "Use all unselected layers"
+msgstr "སེལ་འཐུ་མ་འབད་བའི་བང་རིམ་ཚུ་ལག་ལེན་འཐབ།"
+
+#: ../gap/gap_range_ops.c:779
+msgid "Pixel Selection:"
+msgstr "པིག་སེལ་ སེལ་འཐུ།:"
+
+#: ../gap/gap_range_ops.c:867
+msgid "Creating layer-animated image..."
+msgstr "བང་རིམ་-བསྒུལ་སྤྱོད་བཟོས་པའི་གཟུགས་བརྙན་དེ་གསར་བསྐྲུན་འབད་དོ།..."
+
+#: ../gap/gap_range_ops.c:1147
+msgid "Frames to Image"
+msgstr "གཞི་ཁྲམ་ཚུ་ལས་གཟུགས་བརྙན་ལུ།"
+
+#: ../gap/gap_range_ops.c:1148
+msgid "Create Multilayer-Image from Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་ནང་ལས་སྣ་མང་གཟུགས་བརྙན་གསར་བསྐྲུན་འབད།"
+
+#: ../gap/gap_range_ops.c:1302
+msgid "Flattening frames..."
+msgstr "གཞི་ཁྲམ་ལེབ་ཏེམ་བཟོ་དོ།..."
+
+#: ../gap/gap_range_ops.c:1458
+msgid ""
+"Convert Frames: Save operation failed.\n"
+"Desired save plugin can't handle type\n"
+"or desired save plugin not available."
+msgstr ""
+"གཞི་ཁྲམ་ཚུ་གཞི་བསྒྱུར་འབད།:སྲུངས་བཞག་བཀོལ་སྤྱོད་འཐུས་ཤོར་བྱུང་ཡོད།\n"
+"རེ་འདུན་བསྐྱེད་ཡོད་པའི་སྲུངས་བཞག་པ་ལག་ཨིནདེ་གིས་དབྱེ་བ་ལེགས་སྐྱོང་འཐབ་མི་ཚུགས།\n"
+"ཡང་ན་རེ་འདུན་བསྐྱེད་ཡོད་པའི་སྲུངས་བཞག་ པ་ལག་ཨིན་དེ་འཐོབ་་ཚུགསཔ་མེད།"
+
+#: ../gap/gap_range_ops.c:1589
+msgid "Cropping all video frames..."
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཆ་མཉམ་བཏོག་བཅོས་འབད་དོ།..."
+
+#: ../gap/gap_range_ops.c:1592
+msgid "Resizing all video frames..."
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཆ་མཉམ་གྱི་ཚད་བསྐྱར་བཟོ་འབད་དོ།..."
+
+#: ../gap/gap_range_ops.c:1595
+msgid "Scaling all video frames..."
+msgstr "ཝི་ཌོ་གཞི་ཁྲམ་ཆ་མཉམ་གྱི་ཚད་འཇལ་དོ།..."
+
+#: ../gap/gap_range_ops.c:1685
+msgid "Flatten Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་ལེབ་ཏེམ་བཟོ།"
+
+#: ../gap/gap_range_ops.c:1752
+#, c-format
+msgid "Removing layer (pos:%ld) from frames..."
+msgstr "གཞི་ཁྲམ་ཚུ་ནང་ལས་བང་རིམ་(གནས་ས་:%ld)རྩ་བསྐྲད་གཏང་དོ།..."
+
+#: ../gap/gap_range_ops.c:1873
+msgid "Delete Layers in Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་ནང་བང་རིམ་ཚུ་བཏོན་གཏང་།"
+
+#: ../gap/gap_range_ops.c:1874
+msgid "Select Frame Range & Stack Position"
+msgstr "གཞི་ཁྲམ་ཁྱབ་ཚད་དང་བརྩེགས་ཕུང་གནས་ས་ སེལ་འཐུ་འབད།"
+
+#: ../gap/gap_resi_dialog.c:622
+msgid "Scale Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་ཚད་འཇལ།"
+
+#: ../gap/gap_resi_dialog.c:625
+msgid "Resize Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་གི་ ཚད་བསྐྱར་བཟོ་འབད།"
+
+#: ../gap/gap_resi_dialog.c:628
+msgid "Crop Frames"
+msgstr "གཞི་ཁྲམ་ཚུ་བཏོག་བཅོས་འབད།"
+
+#. the original width & height labels
+#: ../gap/gap_resi_dialog.c:668
+msgid "Current width:"
+msgstr "ད་ལྟོའི་རྒྱ་ཚད།:"
+
+#: ../gap/gap_resi_dialog.c:674
+msgid "Current height:"
+msgstr "བ་ལྟོའི་་མཐོ་ཚད།:"
+
+#. the new size labels
+#: ../gap/gap_resi_dialog.c:696
+msgid "New width:"
+msgstr "རྒྱ་ཚད་གསརཔ།:"
+
+#: ../gap/gap_resi_dialog.c:702
+msgid "New height:"
+msgstr "མཐོ་ཚད་གསརཔ།:"
+
+#. the scale ratio labels
+#: ../gap/gap_resi_dialog.c:750
+msgid "X ratio:"
+msgstr "ཨེགསི་ དཔྱ་ཚད།:"
+
+#: ../gap/gap_resi_dialog.c:756
+msgid "Y ratio:"
+msgstr "ཝའི་ དཔྱ་ཚད།:"
+
+#. the offset frame
+#: ../gap/gap_resi_dialog.c:828
+msgid "Offset"
+msgstr "པར་ལེན།"
+
+#. the center offsetX button
+#: ../gap/gap_resi_dialog.c:894
+msgid "Center Horizontal"
+msgstr "དབུས་ ཐད་སྙོམས།"
+
+#. the center offsetY button
+#: ../gap/gap_resi_dialog.c:905
+msgid "Center Vertical"
+msgstr "དབུས་ ཀེར་ཕྲང་།"
+
+#: ../gap/gap_split.c:108
+msgid "Splitting image into frames..."
+msgstr "གཞི་ཁྲམ་ཚུ་ནང་ལུ་གཟུགས་བརྙན་གཤག་དོ།..."
+
+#: ../gap/gap_split.c:196
+msgid ""
+"Split Frames: Save operation failed.\n"
+"desired save plugin can't handle type\n"
+"or desired save plugin not available."
+msgstr ""
+"གཞི་ཁྲམ་གཤག:སྲུངས་བཞག་བཀོལ་སྤྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"རེ་འདུན་བསྐྱེད་ཡོད་པའི་སྲུངས་བཞག་ པ་ལག་ཨིན་གྱིས་ དབྱེ་བ་ལེགས་སྐྱོངས་འཐབ་མ་ཚུགས།\n"
+"ཡང་ན་རེ་འདུན་བསྐྱེད་ཡོད་པའི་སྲུངས་བཞག་ པ་ལག་ཨིན་འཐོབ་ཚུགསཔ་མེད།"
+
+#: ../gap/gap_split.c:256
+#, c-format
+msgid ""
+"Make a frame (diskfile) from each layer.\n"
+"Frames are named in the style:\n"
+"<basename><framenumber>.<extension>\n"
+"The first frame for the current case gets the name\n"
+"\n"
+"%s000001.%s\n"
+msgstr ""
+"བང་རིམ་གེ་རང་ནང་ལས་གཞི་ཁྲམ་(ཌིཀསི་ཡིག་སྣོད།)ཅིག་བཟོ།\n"
+"གཞི་ཁྲམ་ཚུ་ བཟོ་རྣམ་གྱི་ཐོག་ལས་མིང་བཏགས་ཏེ་ཡོད།:\n"
+"<གཞི་རྟེན་གྱི་མིང་།><གཞི་ཁྲམ་གྱི་ཨང་གྲངས།>.<རྒྱ་བསྐྱེད།>\n"
+"ད་ལྟོའི་གནད་དོན་གྱི་དོན་ལུ་གཞི་ཁྲམ་དང་པ་འདི་གིས་ མིང་ལེནམ་ཨིན།\n"
+"\n"
+"%s000001.%s\n"
+
+#: ../gap/gap_split.c:270
+msgid "Extension of resulting frames. The extension is also used to define fileformat."
+msgstr "འགྲུབ་འབྲས་འབྱུང་ནིའི་གཞི་ཁྲམ་ཚུ་གྱི་ རྒྱ་བསྐྱེད། རྒྱ་བསྐྱེད་དེ་ ཡིག་སྣོད་རྩ་སྒྲིག་ངེས་འཛིན་འབད་ནི་ལུ་ཡང་ ལག་ལེན་འཐབ་སྟེ་ཡོད།"
+
+#: ../gap/gap_split.c:277
+msgid "Inverse Order:"
+msgstr "གོ་རིམ་ལུགས་ལྡོག་འབད།:"
+
+#: ../gap/gap_split.c:278
+msgid ""
+"ON: Start with frame 000001 at top layer.\n"
+"OFF: Start with frame 000001 at background layer."
+msgstr ""
+"ཨཱོན་།:བང་རིམ་གོངམ་་ལུ་གཞི་ཁྲམ་༠༠༠༠༠༡་དང་གཅིག་ཁར་འགོ་བཙུགས།\n"
+"ཨོཕ།:བང་རིམ་གྱི་རྒྱབ་གཞི་ལུ་གཞི་ཁྲམ་༠༠༠༠༠༡་ དང་གཅིག་ཁར་འགོ་བཚུགས།"
+
+#: ../gap/gap_split.c:286
+msgid ""
+"ON: Remove alpha channel in resulting frames. Transparent parts are filled with the background color.\n"
+"OFF: Layers in the resulting frames keep their alpha channel."
+msgstr ""
+"ཨཱོན།:གྲུབ་འབྲས་བྱུང་ནིའི་གཞི་ཁྲམ་ཚུ་ནང་ ཨཱལ་ཕ་རྒྱུ་ལམ་འདི་རྩ་བསྐྲད་གཏང་། དྭངས་གསལ་ཅན་གྱི་ཡན་ལག་ཚུ་ རྒྱབ་གཞི་ཚོས་གཞི་གིས་བཀང་སྟེ་ཡོདཔ་ཨིན།\n"
+"ཨོཕ།:གྲུབ་འབྲས་འབྱུང་ནིའི་གཞི་ཁརམ་ཚུ་གི་ནང་བང་རིམ་ཚུ་གིས་ ཁོང་རའི་ ཨལ་ཕ་རྒྱུ་ལམ་དེ་བདག་འཛིན་འབད་བཞགཔ་ཨིན།"
+
+#: ../gap/gap_split.c:293
+msgid "Only Visible:"
+msgstr "མཐོ་ཚུགསཔ་རྐྱངམ་ཅིག།:"
+
+#: ../gap/gap_split.c:294
+msgid ""
+"ON: Handle only visible layers.\n"
+"OFF: handle all layers and force visibiblity"
+msgstr ""
+"ཨཱོན་:མཐོང་ཚུགས་པའི་བང་རིམ་ཚུ་རྐྱངམ་ཅིག་ ལེགས་སྐྱོངས་འཐབ།\n"
+"ཨོཕ།:བང་རིམ་ཆ་མཉམ་དང་བང་བཙོང་མཐོང་གསལ་རྐྱངམ་ཅིག་ལེགས་སྐྱོང་འཐབ།"
+
+#: ../gap/gap_split.c:303
+msgid "How many digits to use for the framenumber filename part"
+msgstr "ཨང་ཡིག་ཚུ་ག་དེམ་ཅིག་ གཞི་ཁྲམ་ཨང་ ཡིག་སྣོད་མིང་གི་ཡན་ལག་གི་དོན་ལས་ ལགལེན་འཐབ་ནི་ཨིན་ན།"
+
+#: ../gap/gap_split.c:318
+msgid "Split Image into Frames"
+msgstr "གཟུགས་བརྙན་གཞི་ཁྲམ་ཚུ་ནང་ལུ་གཤག"
+
+#: ../gap/gap_split.c:319
+msgid "Split Settings"
+msgstr "གཤག་ནིའི་སྒྲིག་སྟངས་ཚུ།"
+
+#: ../gap/gap_split.c:383
+msgid ""
+"Operation cancelled.\n"
+"This image is already a video frame.\n"
+"Try again on a duplicate (Image/Duplicate)."
+msgstr ""
+"བཀོལ་སྤྱོད་ཆ་མེད་བཏང་ཡོད།\n"
+"གཟུགས་བརྙན་འདི་ཧེ་མ་ལས་རང་ཝི་ཌོ་གཞི་ཁྲམ་ཅིག་ཨིན།\n"
+"ངོ་བཤུས་ནང་ལུ་ལོག་སྟེ་རང་འབད་རྩོལ་བསྐྱེད།(གཟུགས་བརྭན།/ངོ་བཤུས།)"
+
+#: ../gap/gap_stock.c:43
+msgid "Add Point"
+msgstr "དོན་ཚད་ཁ་སྐོང་རྐྱབས།"
+

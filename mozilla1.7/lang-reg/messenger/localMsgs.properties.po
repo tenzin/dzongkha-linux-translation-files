@@ -1,0 +1,182 @@
+# translation of localMsgs.properties.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/messenger/localMsgs.properties
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: localMsgs.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-17 21:05+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:56 EST 2006
+#: -1000
+msgid "Application is out of memory."
+msgstr "འཇུག་སྤྱོད་དེ་དྲན་ཚད་ཀྱིས་བདའ་མ་ཟུན།"
+
+#: 4019
+msgid "No Answer"
+msgstr "ལན་གསལ་མེད།"
+
+#: 4018
+msgid "Please enter a new password for user %.100s on %.100s\\:"
+msgstr "%.100s གུའི་ %.100s ལག་ལེན་པའི་དོན་ལུ་ཆོག་ཡིག་གསརཔ་ཅིག་ཐོ་བཀོད་འབད་གནང་།\\:"
+
+#: 4017
+msgid "Enter your password for %1$s on %2$s\\:"
+msgstr "%1$s གུའི་ %1$s གི་དོན་ལུ་ཁྱོད་རའི་ཆོག་ཡིག་ཐོ་བཀོད་འབད།\\:"
+
+#: 4016
+msgid "The DELE command did not succeed. Error marking a message as deleted."
+msgstr "DELE གི་བརྡ་བཀོད་དེ་མཐར་འཁྱོལ་མ་འབྱུང་། འཕྲིན་དོན་ཅིག་བཏོན་གཏང་མི་སྦེ་བཟོཝ་ད་འཛོལ་བ།"
+
+#: 4015
+msgid "The LIST command did not succeed. Error getting the ID and size of a message."
+msgstr "LIST གི་བརྡ་བཀོད་དེ་མཐར་འཁྱོལ་མ་འབྱུང་། འཕྲིན་དོན་གྱི་ཨའི་ཌི་དང་ཚད་ལེནམ་ད་འཛོལ་བ།"
+
+#: 4014
+msgid "You have not supplied a username for this server.  Please provide one in the account setup menu and try again."
+msgstr "ཁྱོད་ཀྱིས་འ་ནི་སར་བར་གྱི་དོན་ལུ་ལག་ལེན་པའི་མིང་ཅིག་བཀྲམ་སྤེལ་མ་འབད་བས། རྩིས་ཐོའི་གཞི་སྒྲིག་དཀར་ཆག་ནང་ལུ་གཅིག་བྱིན་ཏེ་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: 4013
+msgid "Error getting mail password."
+msgstr "ཡིག་འཕྲིན་གྱི་ཆོག་ཡིག་ལེནམ་ད་འཛོལ་བ།"
+
+#: 4012
+msgid "The RETR command did not succeed. Error retrieving a message."
+msgstr "RETR བརྡ་བཀོད་དེ་མཐར་འཁྱོལ་མ་འབྱུང་། འཕྲིན་དོན་ཅིག་སླར་འདྲེན་འབདཝ་ད་འཛོལ་བ།"
+
+#: 4011
+msgid "The POP3 mail server (%s) does not support the TOP command. Without server support for this, we cannot implement the ``Maximum Message Size'' preference.  This option has been disabled, and messages will be downloaded regardless of their size."
+msgstr "པི་ཨོ་པི་ ༣ ཡིག་འཕྲིན་གྱི་སར་བར་(%s) དེས་ TOP གི་བརྡ་བཀོད་ལུ་རྒྱབ་སྐྱོར་མི་འབད། འ་ནི་ལུ་སར་བར་གྱི་རྒྱབ་སྐྱོར་མེད་པར་ང་བཅས་ཀྱིས་ ``Maximum Message Size'' གི་དགའ་གདམ་དེ་བསྟར་སྤྱོད་འབད་མི་ཚུགས། འ་ནི་གདམ་ཁ་དེ་ལྕོགས་མིན་བཟོ་ཡོད་ དེ་ལས་འཕྲིན་དོན་ཚུ་ཁོང་རའི་ཚད་ཀྱི་དབྱེབ་མེད་པར་ཕབ་ལེན་འབད་འོང་།"
+
+#: 4010
+msgid "The POP3 server (%S) does not support UIDL, which is needed to implement the ``Leave on Server'' and ``Maximum Message Size'' options. To download your mail, turn off these options in the Mail Server panel of Preferences."
+msgstr "པོཔ་ ༣ སར་བར་(%S) དེ་ཡུ་ཨའི་ཌི་ཨེལ་དེས་ ``Leave on Server'' དང་ ``Maximum Message Size'' གི་གདམ་ཁ་དེ་ཚུ་བསྟར་སྤྱོད་འབད་ནི་ལུ་དགོ་མི་འདི་ལུ་ རྒྱབ་སྐྱོར་མི་འབད་བས། ཁྲོད་ཀྱི་ཡིག་འཕྲིན་ཕབ་ལེན་འབད་ནིའི་དོན་ལུ་ དགའ་གདམ་ཚུའི་ཡིག་འཕྲིན་སར་བར་གྱི་པེ་ནཱལ་ནང་གི་འ་ནི་གདམ་ཁ་ཚུ་ཊཱན་ཨོཕ་འབད།"
+
+#: 4009
+msgid "Received %ld of %ld messages"
+msgstr "%ld %ld འཕྲིན་དོན་ཚུ་ལས་ཐོབ་ཡོད།"
+
+#: 4008
+msgid "There are no new messages on the server."
+msgstr "སར་བར་གུ་ལུ་འཕྲིན་དོན་གསརཔ་ཚུ་མེད།"
+
+#: 4007
+msgid "Connect\\: Host contacted, sending login information..."
+msgstr "མཐུད\\: ཧོསཊི་གི་འབྲེལ་བ་འཐབ་ཡོད་མི་ ནང་བསྐྱོད་ཀྱི་བརྡ་དོན་གཏང་དོ..."
+
+#: 4006
+msgid "Unable to write the email to the mailbox. Make sure the file system allows you write privileges, and you have enough disk space to copy the mailbox."
+msgstr "གློག་འཕྲིན་དེ་ཡིག་སྒྲོམ་ནང་ལུ་འབྲི་མ་ཚུགས། ཡིག་སྣོད་རིམ་ལུགས་ཀྱིས་ཁྱོད་ལུ་ཁེ་དབང་ཚུ་འབྲི་བཅུག་ནི་དང་ ཡིག་སྒྲོམ་འདྲ་བཤུས་རྐྱབས་ནིའི་དོན་ལུ་ཁྱོད་ལུ་ཌིགསི་གི་བར་སྟོང་ལངམ་སྦེ་ཡོད་མེད་ཚུ་ ངེས་ཏིག་བཟོ།"
+
+#: 4037
+msgid "Unable to locate mail spool file."
+msgstr "ཡིག་འཕྲིན་དཀྲ་ཤིང་གི་ཡིག་སྣོད་ག་ཡོད་བལྟ་མ་ཚུགས།"
+
+#: 4005
+msgid "Sending of password did not succeed."
+msgstr "ཆོག་ཡིག་གཏང་ནི་དེ་མཐར་འཁྱོལ་མ་འབྱུང་།"
+
+#: 4036
+msgid "Unable to truncate spool file %S."
+msgstr "དཀྲ་ཤིང་གི་ཡིག་སྣོད་%S དེ་ཆུང་ཀུ་བཟོ་མ་ཚུགས།"
+
+#: 4004
+msgid "Sending of username did not succeed."
+msgstr "ལག་ལེན་པའི་མིང་གཏང་ནི་དེ་མཐར་འཁྱོལ་མ་འབྱུང་།"
+
+#: 4035
+msgid "Unable to delete lock file %S."
+msgstr "ལྡེ་མིག་གི་ཡིག་སྣོད་%S བཏོན་གཏང་མ་ཚུགས།"
+
+#: 4003
+msgid "An error occurred with the POP3 mail server."
+msgstr "པོཔ་ ༣ ཡིག་འཕྲིན་གྱི་སར་བར་དང་ཅིག་ཁར་འཛོལ་བ་ཅིག་འབྱུང་ནུག"
+
+#: 4034
+msgid "Unable to create lock file %S. For movemail to work, it is necessary to create lock files in the mail spool directory. On many systems, this is best accomplished by making the spool directory be mode 01777."
+msgstr "ལྡེ་མིག་ཡིག་སྣོད་%S གསར་བསྐྲུན་འབད་མ་ཚུགས། མུབ་མེལ་ལཱ་འབད་ནིའི་དོན་ལུ་ ཡིག་འཕྲིན་དཀྲ་ཤིང་གི་སྣོད་ཐོ་ནང་ལུ་ལྡེ་མིག་ཡིག་སྣོད་ཚུ་གསར་བསྐྲུན་འབད་ནི་དེ་ཉེར་མཁོ་ཡོད་མི་ཅིག་ཨིན། རིམ་ལུགས་ལེ་ཤ་ཅིག་ནང་རང་ དཀྲ་ཤིང་སྣོད་ཐོ་གི་ཐབས་ལམ་ ༠༡༧༧༧ སྦེ་བཟོ་མི་འདི་དྲགས་ཤོས་ཨིན།"
+
+#: 4002
+msgid "Receiving\\: message %S of %S"
+msgstr "ཐོབ་དོ།\\:འཕྲིན་དོན་ %S  %S ལས།"
+
+#: 4001
+msgid "Done"
+msgstr "འབད་ཚར།"
+
+#: 4033
+msgid "Unable to open mail spool file %S."
+msgstr "ཡིག་འཕྲིན་དཀྲ་ཤིང་གི་ཡིག་སྣོད་ %S འདི་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: 4000
+msgid "Building summary file for %S..."
+msgstr "%S གི་དོན་ལུ་བཅུད་དོན་ཡིག་སྣོད་བཟོ་བརྩིགས་འབད་དོ..."
+
+#: 4032
+msgid "The mail spool file %S is locked."
+msgstr "ཡིག་འཕྲིན་དཀྲ་ཤིང་གི་ཡིག་སྣོད་ %S དེ་བསྡམ་བཞག་ནུག"
+
+#: 4031
+msgid "Mail server does not support secure authentication or you have entered an incorrect password. Please check your password, or turn off secure authentication in the account settings for your mail server."
+msgstr "ཡིག་འཕྲིན་སར་བར་གྱིས་མཐའ་བཙན་བདེན་བཤད་ལུ་རྒྱབ་སྐྱོར་མི་འབད་ ཡང་ན་ཁྱོད་ཀྱིས་བདེན་མེད་ཆོག་ཡིག་ཅིག་ཐོ་བཀོད་འབད་ནུག ཁྱོད་རའི་ཆོག་ཡིག་ཞིབ་དཔྱད་འབད་གནང་ ཡང་ན་ཁྱོད་རའི་ཡིག་འཕྲིན་སར་བར་གྱི་དོན་ལུ་རྩིས་ཐོའི་སྒྲིག་སྟངས་ནང་གི་མཐའ་བཙན་བདེན་བཤད་དེ་ཊཱན་ཨོཕ་འབད།"
+
+#: 4030
+msgid "Mail server does not support secure authentication."
+msgstr "ཡིག་འཕྲིན་སར་བར་གྱིས་མཐའ་བཙན་བདེན་བཤད་ལུ་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: -321
+msgid "There is not enough disk space to download new messages. Try deleting old mail, emptying the Trash folder, and compacting your mail folders, and then try again."
+msgstr "འཕྲིན་དོན་གསརཔ་ཚུ་ཕབ་ལེན་འབད་ནིའི་དོན་ལས་ཌིགསི་གི་བར་སྟོང་ལངམ་སྦེ་མེད། ཕྱགས་ཧོད་སྣོད་འཛིན་དེ་སྟོངམ་བཏོན་ཞིནམ་ལས་ ཡིག་འཕྲིན་དོན་རྙིངམ་དང་ ཁྱོད་རའི་ཡིག་འཕྲིན་གྱི་སྣོད་འཛིན་ཚུ་སྲབ་ཆུང་བཟོ་ནིའི་འབད་རྩོལ་བསྐྱེད་ཞིནམ་ལས་ ལོག་འབད་རྩོལ་བསྐྱེད།"
+
+#: 4029
+msgid "This folder is being processed. Please wait until processing is complete to get messages."
+msgstr "འ་ནི་སྣོད་འཛིན་འདི་ལས་སྦྱོར་འབད་བའི་བསྐང་ཡོད། འཕྲིན་དོན་ཚུ་ལེན་ནིའི་དོན་ལུ་ལས་སྦྱོར་དེ་མཇུག་མ་བསྡུ་ཚུན་ཚོད་བསྒུག་སྡོད་གནང་།"
+
+#: 4028
+msgid "Moving %S of %S messages to %S"
+msgstr "%S %S འཕྲིན་དོན་ཚུ་ལས་ %S ལུ་བཤུད་དོ།"
+
+#: 4027
+msgid "Copying %S of %S messages to %S"
+msgstr "%S %S འཕྲིན་དོན་ཚུ་ལས་ %S ལུ་འདྲ་བཤུས་རྐྱབས་དོ།"
+
+#: 4026
+msgid "Deleting %S of %S messages"
+msgstr "%S %S འཕྲིན་དོན་ཚུ་ལས་བཏོན་གཏང་དོ།"
+
+#: 4025
+msgid "Mail server %S responded\\:"
+msgstr "ཡིག་འཕྲིན་གྱི་སར་བར་ %S གིས་ལན་བཀོད་འབད་ཡོད\\:"
+
+#: 4024
+msgid "The STAT command did not succeed. Error getting message number and sizes."
+msgstr "STAT བརྡ་བཀོད་དེ་མཐར་འཁྱོལ་མ་འབྱུང་།་འཕྲིན་དོན་གྱི་གྲངས་དང་ཚད་ལེན་ནིའི་ནང་འཛོལ་བ།"
+
+#: 4023
+msgid "The Trash already contained a folder named %s. The folder which you just deleted can be found in the Trash under the new name %s."
+msgstr "ཕྱགས་ཧོད་འདི་ལུ་ཧེ་མ་ལས་རང་སྣོད་འཛིན་མིང་ %s སྦེ་མི་ཅིག་ནང་ན་ཡོད། སྣོད་འཛིན་ཁྱོད་ཀྱིས་བཏོན་གཏང་མི་དེ་མིང་གསརཔ་%s གི་འོག་ལུ་ཕྱགས་ཧོད་ནང་ལུ་འཐོབ་ཚུགས།"
+
+#: 4021
+msgid "Are you sure you want to move the selected folder into the Trash?"
+msgstr "ཁྱོད་ངེས་ཏིག་རང་སེལ་འཐུ་འབད་འབད་བའི་སྣོད་འཛིན་དེ་ཕྱགས་ཧོད་ནང་ལུ་བཤུད་ནི་ཨིན་ན?"
+
+#: 4020
+msgid "Enter your password\\:"
+msgstr "ཁྱོད་རའི་ཆོག་ཡིག་ཐོ་བཀོད་འབད\\:"
+

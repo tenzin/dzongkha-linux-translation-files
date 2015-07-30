@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus.gnome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-02 23:17+0200\n"
+"PO-Revision-Date: 2006-04-05 18:37-0500\n"
+"Last-Translator: \n"
+"Language-Team: Dzongkha <pgeyleg.dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "ལོཀ་ཌའུན་སྲིད་བྱུས་ རིམ་སྒྲིག་འབད།"
+
+#: ../data/pessulus.desktop.in.in.h:2
+#: ../data/pessulus.glade.h:7
+msgid "Lockdown Editor"
+msgstr "ལོཀ་ཌའུན་ཞུན་དགཔ།"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>ཨེཔ་ལེཊིསི་ཚུ་ ལྕོགས་མིན་བཟོ་</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>ཉེན་མེད་གནད་སྤེལ་ལམ་ལུགས་</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "ཉེན་ཅན་གནད་སྤེལ་ལམ་ལུགས་ ལྕོགས་མིན་བཟོ།(_u)"
+
+#: ../data/pessulus.glade.h:4
+msgid "Epiphany Web Browser"
+msgstr "ཨི་པི་ཕ་ནི་ ཝེབ་ བརའུ་ཟར།"
+
+#: ../data/pessulus.glade.h:5
+msgid "GNOME Screensaver"
+msgstr "ཇི་ནོམ་གསལ་གཞི་ཉེན་སྲུང་།"
+
+#: ../data/pessulus.glade.h:6
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../data/pessulus.glade.h:8
+msgid "Panel"
+msgstr "པེ་ནཱལ།"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting not mandatory"
+msgstr "སྒྲིག་སྟངས་འདི་ ངེས་མཁོ་མེནམ་སྦེ་བཟོ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../Pessulus/lockdownbutton.py:101
+msgid "Click to make this setting mandatory"
+msgstr "སྒྲིག་སྟངས་འདི་ ངེས་མཁོ་སྦེ་བཟོ་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../Pessulus/maindialog.py:48
+msgid "Disable _command line"
+msgstr "བཀོད་ལམ་ལྕོགས་མིན་བཟོ།(_c)"
+
+#: ../Pessulus/maindialog.py:49
+msgid "Disable _printing"
+msgstr "དཔར་བསྐྲུན་ལྕོགས་མིན་བཟོ།(_p)"
+
+#: ../Pessulus/maindialog.py:50
+msgid "Disable print _setup"
+msgstr "དཔར་བསྐྲུན་གཞི་སྒྲིག་ ལྕོགས་མིན་བཟོ།(_s)"
+
+#: ../Pessulus/maindialog.py:51
+msgid "Disable save to _disk"
+msgstr "ཌིཀསི་ལུ་བསྲུང་ནི་ ལྕོགས་མིན་བཟོ།(_d)"
+
+#: ../Pessulus/maindialog.py:53
+msgid "_Lock down the panels"
+msgstr "པེ་ནཱལ་ཚུ་ ལོཀ་ཌའུན་འབད།(_L)"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable force _quit"
+msgstr "བང་ཅན་སྦེ་སྤང་ནི་ ལྕོགས་མིན་བཟོ།(_q)"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable lock _screen"
+msgstr "གསལ་གཞི་ལྡེ་མིག་བརྐྱབ་ནི་ ལྕོགས་མིན་བཟོ།(_s)"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable log _out"
+msgstr "ཕྱིར་བསྐྱོད་ལྕོགས་མིན་བཟོ།(_o)"
+
+#: ../Pessulus/maindialog.py:58
+msgid "Disable _quit"
+msgstr "སྤང་ནི་ལྕོགས་མིན་བཟོ།(_q)"
+
+#: ../Pessulus/maindialog.py:59
+msgid "Disable _arbitrary URL"
+msgstr "མཐུན་སྒྲིག་ཡུ་ཨར་ཨེལ་ ལྕོགས་མིན་བཟོ།(_a)"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable _bookmark editing"
+msgstr "དེབ་རྟགས་ཞུན་དག་འབད་ནི་ ལྕོགས་མིན་བཟོ།(_b)"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable _history"
+msgstr "ལོ་རྒྱུས་ལྕོགས་མིན་བཟོ།(_h)"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable _javascript chrome"
+msgstr "ཇ་བ་སི་ཀིརིཔཊི་ ཀོརོམ་ ལྕོགས་མིན་བཟོ།(_j)"
+
+#: ../Pessulus/maindialog.py:63
+msgid "Disable _toolbar editing"
+msgstr "ལག་ཆས་ཕྲ་རིང་ཞུན་དག་འབད་ནི་ ལྕོགས་མིན་བཟོ།(_t)"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Force _fullscreen mode"
+msgstr "གསལ་གཞི་གང་བའི་ཐབས་ལམ་བང་ཅན་སྦེ་འཐོན་བཅུག(_f)"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Hide _menubar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་སྦ་བཞག(_m)"
+
+#: ../Pessulus/maindialog.py:66
+msgid "_Lock on activation"
+msgstr "ཤུགས་བཟོ་བའི་སྐབས་ལུ་ ལྡེ་མིག་རྐྱབས།(_L)"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Allow log _out"
+msgstr "ཕྱིར་བསྐྱོད་འབད་བཅུག(_o)"
+
+#: ../Pessulus/maindialog.py:68
+msgid "Allow user _switching"
+msgstr "ལག་ལེན་པའི་སོར་བསྒྱུར་འབད་བཅུག(_s)"
+

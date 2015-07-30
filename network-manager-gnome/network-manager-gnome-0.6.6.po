@@ -1,0 +1,949 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-applet.network-manager-applet-0-6.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-04 06:03+0000\n"
+"PO-Revision-Date: 2010-07-08 10:09+0530\n"
+"Last-Translator: yumkee <ylhamo@dit.gov.bt>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../editor/editor-app.c:589
+#: ../src/wso-none.c:53
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: ../editor/editor-app.c:594
+#: ../src/wso-wep-passphrase.c:135
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-བིཊི་ཆོག་ཚིག་"
+
+#: ../editor/editor-app.c:599
+#: ../src/wso-wep-hex.c:169
+msgid "WEP 64/128-bit Hex"
+msgstr "WEP 64/128-བིཊི་ཧེགསི་"
+
+#: ../editor/editor-app.c:604
+#: ../src/wso-wep-ascii.c:172
+msgid "WEP 64/128-bit ASCII"
+msgstr "WEP 64/128-བིཊི་ ASCII"
+
+#: ../editor/editor-app.c:609
+#: ../src/wso-wpa-psk.c:226
+msgid "WPA Personal"
+msgstr "ཌབ་ལུ་པི་ཨེ་རང་དོན་"
+
+#: ../editor/editor-app.c:614
+#: ../src/wso-wpa-psk.c:224
+msgid "WPA2 Personal"
+msgstr "WPA2 རང་དོན་"
+
+#: ../editor/editor-app.c:619
+#: ../src/wso-wpa-eap.c:337
+msgid "WPA Enterprise"
+msgstr "ཌབ་ལུ་པི་ཨེ་ཚོང་ལས་"
+
+#: ../editor/editor-app.c:624
+#: ../src/wso-wpa-eap.c:335
+msgid "WPA2 Enterprise"
+msgstr "WPA2 ཚོང་ལས་"
+
+#: ../editor/editor-app.c:629
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../editor/editor-app.c:716
+#: ../editor/editor-app.c:743
+msgid "NetworkManager Editor"
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པའི་ཞུན་དགཔ་"
+
+#: ../editor/editor-app.c:718
+#: ../editor/editor-app.c:745
+msgid "Copyright © 2007 Novell, Inc."
+msgstr "འདྲ་བཤུས་དབང་ཆ་  © 2007 Novell, Inc"
+
+#: ../editor/editor-app.c:719
+msgid "Editor for managing your wireless networks"
+msgstr "ཁྱོད་རའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་འཛིན་སྐྱོང་འབད་ནིའི་དོན་ལུ་ ཞུན་དགཔ་"
+
+#: ../editor/editor-app.c:722
+#: ../editor/editor-app.c:751
+#: ../src/applet.c:346
+#: ../src/applet.c:373
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་-ངོ་བསྟོད་ཚུ་"
+
+#: ../editor/editor-app.c:746
+msgid "Editor for managing your wireless networks."
+msgstr "ཁྱོད་རའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་འཛིན་སྐྱོང་འབད་ནིའི་དོན་ལུ་ ཞུན་དགཔ།"
+
+#: ../editor/editor-keyring-helper.c:121
+#: ../src/applet-compat.c:171
+#: ../src/applet-compat.c:504
+#: ../src/nm-gconf-wso.c:415
+#, c-format
+msgid "Passphrase for wireless network %s"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་%sགི་དོན་ལུ་ཆོག་ཚིག་"
+
+#. Save private_key_passwd to keyring
+#: ../editor/editor-keyring-helper.c:133
+#: ../src/applet-compat.c:459
+#: ../src/nm-gconf-wso-wpa-eap.c:417
+#, c-format
+msgid "Private key password for wireless network %s"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་%sགི་དོན་ལུ་སྒེར་ལྡེ་ཆོག་ཡིག་"
+
+#: ../editor/widget-wso-leap.c:108
+#: ../editor/widget-wso-wpa-enterprise.c:154
+#: ../editor/widget-wso-wpa-enterprise.c:187
+#: ../editor/widget-wso-wpa-personal.c:148
+msgid "Unable to set password"
+msgstr "ཆོག་ཡིག་གཞི་སྒྲིག་འབད་མ་ཚུགས་"
+
+#: ../editor/widget-wso-leap.c:110
+#: ../editor/widget-wso-wpa-personal.c:150
+#, c-format
+msgid "There was a problem storing the password in the gnome keyring. Error 0x%02X."
+msgstr "ཇི་ནོམ་ལྡེ་འཁོར་ནང་ཆོག་ཡིག་གསོག་འཇོག་འབད་་ནི་ལུ་དཀའ་ངལ་ཅིག་འབྱུང་ཡོད།  འཛོལ་བ་  0x%02X །"
+
+#: ../editor/widget-wso-wep.c:150
+msgid "Unable to set key"
+msgstr "ལྡེ་མིང་གཞི་སྒྲིག་འབད་མ་ཚུགས་"
+
+#: ../editor/widget-wso-wep.c:152
+#, c-format
+msgid "There was a problem setting the wireless key to the gnome keyring. Error 0x%02X."
+msgstr "ཇི་ནོམ་ལྡེ་འཁོར་ནང་ རླུང་འཕྲིན་གཞི་སྒྲིག་འབད་ནི་ལུ་དཀའ་ངལ་འབྱུང་ཡོད། འཛོལ་བ་  0x%02X"
+
+#: ../editor/widget-wso-wpa-enterprise.c:156
+#, c-format
+msgid "There was a problem storing the EAP password in the gnome keyring. Error 0x%02X."
+msgstr "ཇི་ནོམ་ལྡེ་འཁོར་ནང་ EAP ཆོག་ཡིག་གསོག་འཇོག་འབད་ནི་ལུ་དཀའ་ངོལ་ཅིག་འབྱུང་ཡོད། འཛོལ་བ་ 0x%02X །"
+
+#: ../editor/widget-wso-wpa-enterprise.c:189
+#, c-format
+msgid "There was a problem storing the private key password in the gnome keyring. Error 0x%02X."
+msgstr "ཇི་ནོམ་ལྡེ་འཁོར་ནང་ སྒེར་ལྡེ་ཆོག་ཡིག་གསོག་འཇོག་འབད་ནི་ལུ་དཀའ་ངལ་ཅིག་འབྱུང་ཡོད། འཛོལ་བ་ 0x%02X།"
+
+#: ../libnma/libnma.c:20
+msgid "Automatic (Default)"
+msgstr "རང་བཞིན་གྱི་ (སྔོན་སྒྲིག་)"
+
+#: ../libnma/libnma.c:27
+msgid "AES-CCMP"
+msgstr "AES-CCMP"
+
+#: ../libnma/libnma.c:35
+msgid "TKIP"
+msgstr "TKIP"
+
+#: ../libnma/libnma.c:43
+msgid "Dynamic WEP"
+msgstr "ནུས་ཅན་ཌབ་ལུ་ཨི་པི་"
+
+#: ../libnma/libnma.c:85
+msgid "None (Default)"
+msgstr "ཅི་མེད་ (སྔོན་སྒྲིག་)"
+
+#: ../libnma/libnma.c:90
+msgid "PAP"
+msgstr "པི་ཨེ་པི་"
+
+#: ../libnma/libnma.c:95
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnma/libnma.c:100
+msgid "MSCHAPV2"
+msgstr "MSCHAPV2"
+
+#: ../libnma/libnma.c:105
+msgid "GTC"
+msgstr "ཇི་ཊི་སི་"
+
+#: ../libnma/libnma.c:143
+msgid "PEAP"
+msgstr "PEAP"
+
+#: ../libnma/libnma.c:144
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnma/libnma.c:145
+msgid "TTLS"
+msgstr "TTLS"
+
+#: ../src/applet-dbus-devices.c:919
+#, c-format
+msgid "You are now connected to the Ad-Hoc wireless network '%s'."
+msgstr "ཁྱོད་ Ad-Hoc རླུང་འཕྲིན་ཡོངས་འབྲེལ་'%s'ལུ་མཐུད་དེཡོདཔ་ཨིན།"
+
+#: ../src/applet-dbus-devices.c:922
+#, c-format
+msgid "You are now connected to the wireless network '%s'."
+msgstr "ཁྱོད་རླུང་འཕྲིན་ཡོངས་འབྲེལ་ '%s'ལུ་མཐུད་དེ་ཡོདཔ་ཨིན།"
+
+#: ../src/applet-dbus-devices.c:929
+msgid "You are now connected to the wired network with a self-assigned address."
+msgstr "ད་འབདན་ཁྱོད་ རང་འགན་སྤྲོད་ཡོད་ཁ་བྱང་ཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་ལུ་མཐུད་དེ་ཡོད།"
+
+#: ../src/applet-dbus-devices.c:933
+#, c-format
+msgid "You are now connected to the wired network '%s'."
+msgstr "ད་འབདན་ཁྱོད་ རླུང་འཕྲིན་ཡོངས་འབྲེལ་ '%s' ལུ་མཐུད་དེ་ཡོདཔ་ཨིན།"
+
+#: ../src/applet-dbus-devices.c:935
+msgid "You are now connected to the wired network."
+msgstr "ཝའེརཊི་ཡོངས་འབྲེལ་ལུ་ཁྱོད་མཐུད་དེ་ཡོདཔ་ཨིན།"
+
+#: ../src/applet-dbus-devices.c:943
+msgid "Connection Established"
+msgstr "མཐུད་ལམ་གཞི་འཛུགས་འབད་དེ་ཡོདཔ་ཨིན་"
+
+#: ../src/applet-dbus-devices.c:986
+msgid "Disconnected"
+msgstr "མཐུད་ལམ་བཏོག་ཡོདཔ་"
+
+#: ../src/applet-dbus-devices.c:987
+msgid "The network connection has been disconnected."
+msgstr "ཡོངས་འབྲེལ་མཐུན་ལམ་འདི་ མཐུད་ལམ་བཏོག་ཡོདཔ།"
+
+#: ../src/applet-dbus.c:276
+#, c-format
+msgid "Connection to the wireless network '%s' failed."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་'%s' ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../src/applet-dbus.c:281
+msgid "Connection to the wired network failed."
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../src/applet.c:190
+msgid "Error displaying connection information:"
+msgstr "མཐུད་ལམ་བརྡ་དོན་བཀྲམ་སྟོན་འབདཝ་ད་འཛོལ་བ:"
+
+#: ../src/applet.c:208
+msgid "Could not find some required resources (the glade file)!"
+msgstr "དགོ་པའི་ཐོན་ཁུངས་(གེལེཌི་ཡིག་སྣོད་) ལ་ལོ་ཅིག་ཐོབ་མ་ཚུགས!"
+
+#: ../src/applet.c:219
+msgid "No active connections!"
+msgstr "ཤུགས་ལྡན་མཐུད་ལམ་ཚུ་མེདཔ་ཨིན!"
+
+#: ../src/applet.c:240
+#, c-format
+msgid "Ethernet (%s)"
+msgstr "ཨི་ཐར་ནེཊི་ (%s)"
+
+#: ../src/applet.c:242
+#, c-format
+msgid "802.11 WiFi (%s)"
+msgstr "༨༠༢.༡༡ WiFi (%s)"
+
+#: ../src/applet.c:339
+#: ../src/applet.c:365
+msgid "NetworkManager Applet"
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པའི་ཨེཔ་ལེཊི་"
+
+#: ../src/applet.c:341
+msgid ""
+"Copyright © 2004-2008 Red Hat, Inc.\n"
+"Copyright © 2005-2008 Novell, Inc."
+msgstr ""
+"Copyright © 2004-2006 རེཌི་ཧེཊི, Inc.\n"
+"Copyright © 2005-2006 ནོ་བེལ, Inc."
+
+#: ../src/applet.c:343
+#: ../src/applet.c:369
+msgid "Notification area applet for managing your network devices and connections."
+msgstr "ཁྱོད་རའི་ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་ཚུ་དང་མཐུད་ལམ་ཚུ་འཛིན་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་  བརྡ་བསྐུལ་མངའ་ཁོངས་ཨེཔ་ལེཊི།"
+
+#: ../src/applet.c:367
+msgid ""
+"Copyright © 2004-2005 Red Hat, Inc.\n"
+"Copyright © 2005-2006 Novell, Inc."
+msgstr ""
+"Copyright © 2004-2005 Red Hat, Inc.\n"
+"Copyright © 2005-2006 Novell, Inc."
+
+#: ../src/applet.c:429
+msgid "VPN Login Failure"
+msgstr "ཝི་པི་ཨེན་ནང་བསྐྱོད་འཐུས་ཤོར་"
+
+#: ../src/applet.c:430
+#, c-format
+msgid "Could not start the VPN connection '%s' due to a login failure."
+msgstr "ནང་བསྐྱོད་འཐུས་ཤོར་ལས་བརྟེན་  ཝི་པི་ཨེན་མཐུད་ལམ་ '%s'འདི་འགོ་བཙུགས་མ་ཚུགས།"
+
+#: ../src/applet.c:434
+msgid "VPN Start Failure"
+msgstr "ཝི་པི་ཨེན་འགོ་བཙུགས་མ་ཚུགས་"
+
+#: ../src/applet.c:435
+#, c-format
+msgid "Could not start the VPN connection '%s' due to a failure launching the VPN program."
+msgstr "ཝི་པི་ཨེན་ལས་རིམ་གཞི་བཙུགས་འབདཝ་ད་འཐུས་ཤོར་ལས་བརྟེན་  ཝི་པི་ཨེན་མཐུད་ལམ་'%s'འགོ་བཙུགས་མ་ཚུགས།"
+
+#: ../src/applet.c:439
+#: ../src/applet.c:449
+msgid "VPN Connect Failure"
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་འཐུས་ཤོར་"
+
+#: ../src/applet.c:440
+#, c-format
+msgid "Could not start the VPN connection '%s' due to a connection error."
+msgstr "མཐུད་ལམ་འཛོལ་བ་ལུ་བརྟན་  ཝི་པི་ཨེན་མཐུད་ལམ་ '%s' འགོ་བཙུགས་མ་ཚུགས།"
+
+#: ../src/applet.c:444
+msgid "VPN Configuration Error"
+msgstr "ཝི་པི་ཨེན་རིམ་སྒྲིག་འཛོལ་བ་"
+
+#: ../src/applet.c:445
+#, c-format
+msgid "The VPN connection '%s' was not correctly configured."
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་ '%s'འདི་ལེགས་ཤོམ་སྦེ་རིམ་སྒྲིག་མ་འབད་བས།"
+
+#: ../src/applet.c:450
+#, c-format
+msgid "Could not start the VPN connection '%s' because the VPN server did not return an adequate network configuration."
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་ '%s'འགོ་བཙུགས་མ་ཚུག་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ཝི་པི་ཨེན་སར་བར་དེ་གིས་དགོས་མཁོ་ལྡན་པའི་ཡོངས་འབྲེལ་རིམ་སྒྲིག་སླར་ལོག་འབདཝ་ལས་ཨིན།"
+
+#: ../src/applet.c:520
+msgid "VPN Login Message"
+msgstr "ཝི་པི་ཨེན་ནང་བསྐྱོད་འཕྲིན་དོན་"
+
+#: ../src/applet.c:744
+#: ../src/applet.c:2707
+#: ../src/nm-wired-dialog.c:134
+#: ../src/other-network-dialog.c:455
+#: ../src/passphrase-dialog.c:261
+msgid "The NetworkManager Applet could not find some required resources (the glade file was not found)."
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པའི་ཨེཔ་ལེཏི་འདི་གིས་  དགོས་མཁོ་ཡོད་པའི་ཐོན་ཁུངས་(གེལེཌི་ཡིག་སྣོད་འདི་ཐོབ་མ་ཚུགས་)ལ་ལོ་ཅིག་ཐོབ་མ་ཚུགས།"
+
+#: ../src/applet.c:756
+#, c-format
+msgid "The network device \"%s (%s)\" does not support wireless scanning."
+msgstr "ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་ \"%s (%s)\" རླུང་འཕྲིན་ཞིབ་ལྟའབད་ནི་ལུ་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: ../src/applet.c:764
+#, c-format
+msgid "The network device \"%s (%s)\" does not support link detection."
+msgstr "ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་ \"%s (%s)\" དེ་གིས་འབྲེལ་ལམ་སྐྱོན་འཛིན་འབད་མི་ལུ་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: ../src/applet.c:916
+#, c-format
+msgid "Preparing device %s for the wired network..."
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་གྱི་དོན་ལུ་  ཐབས་འཕྲུལ་ %sགྲ་སྒྲིག་འབད་དོ..."
+
+#: ../src/applet.c:918
+#, c-format
+msgid "Preparing device %s for the wireless network '%s'..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ '%s'གི་དོན་ལུ་ ཐབས་འཕྲུལ་ %sའདི་གྲ་སྒྲིག་འབད་དོ..."
+
+#: ../src/applet.c:926
+#, c-format
+msgid "Configuring device %s for the wired network..."
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་གྱི་དོན་ལུ་ ཐབས་འཕྲུལ་ %sའདི་རིམ་སྒྲིག་འབད་དོ..."
+
+#: ../src/applet.c:928
+#, c-format
+msgid "Attempting to join the wireless network '%s'..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་  '%s'མཐུད་ནི་ལུ་དཔའ་བཅམ་དོ..."
+
+#: ../src/applet.c:936
+#, c-format
+msgid "Waiting for Network Key for the wireless network '%s'..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ '%s'དང་ཅིག་ཁར་ ཡོངས་འབྲེལ་ལྡེ་མིག་གི་དོན་ལུ་བསྒུག་དོ..."
+
+#: ../src/applet.c:944
+#: ../src/applet.c:954
+#, c-format
+msgid "Requesting a network address from the wired network..."
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་ལས་ཡོངས་འབྲེལ་ཁ་བྱང་ཞུ་བ་འབད་དོ..."
+
+#: ../src/applet.c:946
+#: ../src/applet.c:956
+#, c-format
+msgid "Requesting a network address from the wireless network '%s'..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་'%s'ལས་ཡོངས་འབྲེལ་ཁ་བྱང་གཅིག་ཞུ་བ་འབད་དོ..."
+
+#: ../src/applet.c:964
+#, c-format
+msgid "Finishing connection to the wired network..."
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་ལུ་མཐུད་ལམ་མཇུག་བསྡུ་དོ..."
+
+#: ../src/applet.c:966
+#, c-format
+msgid "Finishing connection to the wireless network '%s'..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་'%s'ལུ་མཐུད་ལམ་མཇུག་བསྡུ་དོ..."
+
+#: ../src/applet.c:1083
+msgid "NetworkManager is not running"
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་འདི་ལཱ་མི་འབད་བས་"
+
+#: ../src/applet.c:1091
+#: ../src/applet.c:1931
+msgid "Networking disabled"
+msgstr "ཡོངས་འབྲེལ་བཟོ་བ་ལྕོགས་མེད་བཟོ་ཡོདཔ་"
+
+#: ../src/applet.c:1096
+msgid "No network connection"
+msgstr "ཡོངས་འབྲེལ་མཐུད་ལམ་མེད་"
+
+#: ../src/applet.c:1104
+msgid "Wired network connection with a self-assigned address"
+msgstr "རང་འགན་སྤྲོད་ཡོད་ཁ་བྱང་ཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་"
+
+#: ../src/applet.c:1106
+msgid "Wired network connection"
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་མཐུད་ལམ་"
+
+#: ../src/applet.c:1109
+msgid "Connected to an Ad-Hoc wireless network"
+msgstr "Ad-Hocརླུང་འཕྲིན་ཡོངས་འབྲེལ་ལུ་མཐུད་དེ་ཡོད་"
+
+#: ../src/applet.c:1111
+#, c-format
+msgid "Wireless network connection to '%s' (%d%%)"
+msgstr "'%s' (%d%%)ལུ་རླུང་འཕྲིན་ཡོངས་འབྲེལ་མཐུད་ལམ་"
+
+#: ../src/applet.c:1132
+#, c-format
+msgid "VPN connection to '%s'"
+msgstr "'%s'ལུ་ཝི་པི་ཨེན་མཐུད་ལམ་"
+
+#: ../src/applet.c:1140
+#, c-format
+msgid "VPN connecting to '%s'"
+msgstr "'%s'ལུ་ཝི་པི་ཨེན་མཐུད་ལམ་"
+
+#: ../src/applet.c:1595
+msgid "_Connect to Other Wireless Network..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་གཞན་མི་ལུ་མཐུད... (_C)"
+
+#: ../src/applet.c:1622
+msgid "Create _New Wireless Network..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་གསརཔ་གསར་བསྐྲུན་འབད... (_N)"
+
+#: ../src/applet.c:1642
+msgid "Connect to 802.1X _Protected Wired Network..."
+msgstr "༨༠༢.༡ X _ཉེན་སྲུངཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་..."
+
+#: ../src/applet.c:1785
+msgid "_VPN Connections"
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་ཚུ། (_V)"
+
+#: ../src/applet.c:1830
+msgid "_Configure VPN..."
+msgstr "ཝི་པི་ཨེན་རིམ་སྒྲིག་འབད... (_C)"
+
+#: ../src/applet.c:1834
+msgid "_Disconnect VPN..."
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་བཏོག... (_D)"
+
+#: ../src/applet.c:1856
+msgid "_Dial Up Connections"
+msgstr "མཐུད་ལམ་ཚུ་ཌེལ་ཨཔ། (_D)"
+
+#. FIXME: We should save and then check the state of the devices and show Connect _or_ Disconnect for each item
+#: ../src/applet.c:1867
+#, c-format
+msgid "Connect to %s..."
+msgstr "%sལུ་མཐུད..."
+
+#: ../src/applet.c:1874
+#, c-format
+msgid "Disconnect from %s..."
+msgstr "%s ལས་མཐུད་ལམ་བཏོག..."
+
+#: ../src/applet.c:1925
+msgid "No network devices have been found"
+msgstr "ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་ཐོབ་མ་ཚུགས་"
+
+#: ../src/applet.c:2138
+msgid "NetworkManager is not running..."
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པ་འདི་ལཱ་མི་འབད་བས..."
+
+#. 'Enable Networking' item
+#: ../src/applet.c:2320
+msgid "Enable _Networking"
+msgstr "ཡོངས་འབྲེལ་བཟོ་བ་ལྕོགས་ཅན་བཟོ། (_N)"
+
+#. 'Enable Wireless' item
+#: ../src/applet.c:2326
+msgid "Enable _Wireless"
+msgstr "རླུང་འཕྲིན་ལྕོགས་ཅན་བཟོ། (_W)"
+
+#. 'Connection Information' item
+#: ../src/applet.c:2335
+msgid "Connection _Information"
+msgstr "མཐུད་ལམ་བརྡ་དོན། (_I)"
+
+#. Edit networks item
+#: ../src/applet.c:2342
+msgid "_Edit Wireless Networks..."
+msgstr "_རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་ཞུན་དག་འབད..."
+
+#. Help item
+#: ../src/applet.c:2353
+msgid "_Help"
+msgstr "གྲོགས་རམ། (_H)"
+
+#. About item
+#: ../src/applet.c:2362
+msgid "_About"
+msgstr "སྐོར་ལས། (_A)"
+
+#: ../src/applet.c:2877
+msgid "The NetworkManager applet could not find some required resources.  It cannot continue.\n"
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པའི་ཨེཔ་ལེཊི་འདི་གིས་  དགོས་མཁོ་ཡོད་པའི་ཐོན་ཁུངས་ཐོབ་མ་ཚུགས།  འདི་འཕྲོ་མཐུད་མི་ཚུགས།\n"
+
+#: ../src/applet.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../src/applet.glade.h:2
+msgid "<span weight=\"bold\" size=\"larger\">Active Connection Information</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">ཤུགས་ལྡན་མཐུད་ལམ་བརྡ་དོན</span>"
+
+#: ../src/applet.glade.h:4
+#, no-c-format
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Passphrase Required by Wireless Network</span>\n"
+"\n"
+"A passphrase or encryption key is required to access the wireless network '%s'."
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">རླུང་འཕྲིན་ཡོངས་འབྲེལ་གྱིས་དགོས་མཁོ་ཡོད་པའི་ཆོག་ཚིག་</span>\n"
+"\n"
+"ཆོག་ཚིག་ཡང་ན་གསང་བཟོ་ལྡེ་མིག་འདི་  རླུང་འཕྲིན་ཡོངས་འབྲེལ་ '%s' འཛུལ་སྤྱོད་འབད་ནི་ལུ་དགོཔ་ཨིན།"
+
+#: ../src/applet.glade.h:8
+#, no-c-format
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Reduced Network Functionality</span>\n"
+"\n"
+"%s  It will not be completely functional."
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ཡོངས་འབྲེལ་ལས་འགན་ཕབ་ལེན་འབད་ཡོདཔ་</span>\n"
+"\n"
+"%s  འདི་གིས་ལས་འགན་ཅན་ཨིནམ་འོང་།"
+
+#: ../src/applet.glade.h:11
+msgid "Access Point:"
+msgstr "འཛུལ་སྤྱོད་འབད་ས:"
+
+#: ../src/applet.glade.h:12
+msgid "Access points"
+msgstr "འཛུལ་སྤྱོད་འབད་ས་ཚུ་"
+
+#: ../src/applet.glade.h:13
+msgid "Anonymous Identity:"
+msgstr "མིང་མེད་པའི་ངོ་རྟགས:"
+
+#: ../src/applet.glade.h:14
+msgid "Authentication:"
+msgstr "བདེན་བཤད:"
+
+#: ../src/applet.glade.h:15
+msgid "Broadcast Address:"
+msgstr "རྒྱང་བསྒྲགས་འབད་བའི་ཁ་བྱང་:"
+
+#: ../src/applet.glade.h:16
+msgid "CA Certificate File:"
+msgstr "སི་ཨེ་ལག་ཁྱེར་ཡིག་སྣོད:"
+
+#: ../src/applet.glade.h:17
+msgid "C_onnect"
+msgstr "མཐུད། (_o)"
+
+#: ../src/applet.glade.h:18
+msgid "Client Certificate File:"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ལག་ཁྱེར་ཡིག་སྣོད:"
+
+#: ../src/applet.glade.h:19
+msgid "Connection Information"
+msgstr "མཐུད་ལམ་བརྡ་དོན་"
+
+#: ../src/applet.glade.h:20
+msgid "Default Route:"
+msgstr "སྔོན་སྒྲིག་འགྲུལ་ལམ:"
+
+#: ../src/applet.glade.h:21
+msgid "Destination Address:"
+msgstr "འགྲོ་ཡུལ་ཁ་བྱང་:"
+
+#: ../src/applet.glade.h:22
+msgid "Driver:"
+msgstr "འདྲེན་བྱེད:"
+
+#: ../src/applet.glade.h:23
+msgid "EAP Method:"
+msgstr "ཨི་ཨེ་པི་ཐབས་ལམ:"
+
+#: ../src/applet.glade.h:24
+msgid "Edit Access Point"
+msgstr "འཛུལ་སྤྱོད་འབད་ས་"
+
+#: ../src/applet.glade.h:25
+msgid "Hardware Address:"
+msgstr "སྲ་ཆས་ཁ་བྱང་:"
+
+#: ../src/applet.glade.h:26
+msgid "IP Address:"
+msgstr "ཨའི་པི་ཁ་བྱང་:"
+
+#: ../src/applet.glade.h:27
+msgid "Identity:"
+msgstr "ངོ་རྟགས:"
+
+#: ../src/applet.glade.h:28
+msgid "Interface:"
+msgstr "ངོས་འདྲ་བ:"
+
+#: ../src/applet.glade.h:29
+msgid "Key Type:"
+msgstr "ལྡེ་མིག་དབྱེ་བ:"
+
+#: ../src/applet.glade.h:30
+msgid "Key management:"
+msgstr "ལྡེ་མིག་འཛིན་འཛིན་སྐྱོང་:"
+
+#: ../src/applet.glade.h:31
+msgid "Key:"
+msgstr "ལྡེ་མིག:"
+
+#: ../src/applet.glade.h:32
+msgid "Last Used:"
+msgstr "ལག་ལེན་མཇུག:"
+
+#: ../src/applet.glade.h:33
+msgid "Name:"
+msgstr "མིང་:"
+
+#: ../src/applet.glade.h:34
+msgid "Networks"
+msgstr "ཡོངས་འབྲེལ་ཚུ་"
+
+#: ../src/applet.glade.h:35
+msgid ""
+"None\n"
+"WEP 128-bit Passphrase\n"
+"WEB 64/128 bit Hex\n"
+"WEP 64/128-bit ASCII\n"
+msgstr ""
+"ཅི་མེད་\n"
+"WEP 128-བིཊི་ཆོག་ཚིག\n"
+"WEP 64/128-བིཊི་ཧེགསི\n"
+"WEP 64/128-བིཊི་ ASCII\n"
+
+#: ../src/applet.glade.h:40
+msgid ""
+"None\n"
+"WEP 128-bit Passphrase\n"
+"WEP 64/128-bit Hex\n"
+"WEP 64/128-bit ASCII\n"
+msgstr ""
+"None\n"
+"WEP 128-བིཊི་ཆོག་ཚིག\n"
+"WEP 64/128-བིཊི་ཧེགསི\n"
+"WEP 64/128-བིཊི་ ASCII\n"
+
+#: ../src/applet.glade.h:45
+msgid ""
+"Open System\n"
+"Shared Key"
+msgstr ""
+"རིམ་ལུགས་ཁ་ཕྱེ་\n"
+"རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག་"
+
+#: ../src/applet.glade.h:47
+msgid "Other Wireless Network..."
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་གཞན་མི..."
+
+#: ../src/applet.glade.h:48
+msgid "Passphrase:"
+msgstr "ཆོག་ཚིག:"
+
+#: ../src/applet.glade.h:49
+msgid "Password:"
+msgstr "ཆོག་ཡིག:"
+
+#: ../src/applet.glade.h:50
+msgid "Phase2 Type:"
+msgstr "གོ་རིམ་ ༢་པའི་དབྱེ་བ:"
+
+#: ../src/applet.glade.h:51
+msgid "Primary DNS:"
+msgstr "ཌི་ཨེན་ཨེསི་གཙོ་རིམ:"
+
+#: ../src/applet.glade.h:52
+msgid "Private Key File:"
+msgstr "སྒེར་སྡེ་ལྡེ་མིག་ཡིག་སྣོད:"
+
+#: ../src/applet.glade.h:53
+msgid "Private Key Password:"
+msgstr "སྒེར་སྡེ་ལྡེ་མིག་ཆོག་ཡིག:"
+
+#: ../src/applet.glade.h:54
+msgid "Properties"
+msgstr "རྒྱུ་དངོས་ཚུ་"
+
+#: ../src/applet.glade.h:55
+msgid "Secondary DNS:"
+msgstr "གལ་གནད་ཆུང་བ་ཌི་ཨེན་ཨེསི:"
+
+#: ../src/applet.glade.h:56
+msgid "Security:"
+msgstr "སྲུང་སྐྱོབ:"
+
+#: ../src/applet.glade.h:57
+msgid "Select the CA Certificate File"
+msgstr "སི་ཨེ་ལག་ཁྱེར་ཡིག་སྣོད་འདི་སེལ་འཐུ་འབད་"
+
+#: ../src/applet.glade.h:58
+msgid "Select the Client Certificate File"
+msgstr "ཞབས་ཏོག་ལག་ཁྱེར་ཡིག་སྣོད་འདི་སེལ་འཐུ་འབད་"
+
+#: ../src/applet.glade.h:59
+msgid "Select the Private Key File"
+msgstr "སྒེར་སྡེ་ལྡེ་མིག་ཡིག་སྣོད་འདི་སེལ་འཐུ་འབད་"
+
+#: ../src/applet.glade.h:60
+msgid "Set Password"
+msgstr "ཆོག་ཡིག་གཞི་སྒྲིག་འབད་:"
+
+#: ../src/applet.glade.h:61
+msgid "Set _Key"
+msgstr "ལྡེ་མིང་_གཞི་སྒྲིག་འབད་"
+
+#: ../src/applet.glade.h:62
+msgid "Set _Password"
+msgstr "ཆོག་ཡིག_གཞི་སྒྲིག་འབད་"
+
+#: ../src/applet.glade.h:63
+msgid "Show key"
+msgstr "ལྡེ་མིག་སྟོན་"
+
+#: ../src/applet.glade.h:64
+msgid "Show passphrase"
+msgstr "ཆོག་ཚིག་སྟོན་"
+
+#: ../src/applet.glade.h:65
+msgid "Show password"
+msgstr "ཆོག་ཡིག་སྟོན་"
+
+#: ../src/applet.glade.h:66
+msgid "Show passwords"
+msgstr "ཆོག་ཡིག་ཚུ་སྟོན་"
+
+#: ../src/applet.glade.h:67
+msgid "Speed:"
+msgstr "མགྱོགས་ཚད:"
+
+#: ../src/applet.glade.h:68
+msgid "Subnet Mask:"
+msgstr "སབ་ནེཊི་གདོང་ཁེབས:"
+
+#: ../src/applet.glade.h:69
+msgid "Type:"
+msgstr "དབྱེ་བ:"
+
+#: ../src/applet.glade.h:70
+msgid "User Name:"
+msgstr "ལག་ལེན་པའི་མིང་:"
+
+#: ../src/applet.glade.h:71
+msgid "Wireless Network Key Required"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ལྡེ་མིག་དགོཔ་"
+
+#: ../src/applet.glade.h:72
+msgid "Wireless Networks"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་"
+
+#: ../src/applet.glade.h:73
+msgid "Wireless _adapter:"
+msgstr "རླུང་འཕྲིན་མཐུན་བྱེད: (_a)"
+
+#: ../src/applet.glade.h:74
+msgid "_Add"
+msgstr "_ཁ་སྐོང་རྐྱབས་"
+
+#: ../src/applet.glade.h:75
+msgid "_Don't remind me again"
+msgstr "ང་ལུ་ལོག་དྲན་བསྐུལ་མ་འབད། (_D)"
+
+#: ../src/applet.glade.h:76
+msgid "_Edit"
+msgstr "_ཞུན་དག་"
+
+#: ../src/applet.glade.h:77
+msgid "_Network Name:"
+msgstr "ཡོངས་འབྲེལ་མིང་: (_N)"
+
+#: ../src/applet.glade.h:78
+msgid "_Remove"
+msgstr "_རྩ་བསྐྲད་གཏང་"
+
+#: ../src/applet.glade.h:79
+msgid "_Wireless Security:"
+msgstr "རླུང་འཕྲིན་སྲུང་སྐྱོབ: (_W)"
+
+#: ../src/applet.glade.h:80
+msgid "bssid editor"
+msgstr "bssid ཞུན་དག་པ་"
+
+#: ../src/applet.glade.h:81
+msgid "bssids:"
+msgstr "bssids:"
+
+#: ../src/eggtrayicon.c:134
+msgid "Orientation"
+msgstr "ཕྱོགས་"
+
+#: ../src/eggtrayicon.c:135
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་ཀྱི་ཕྱོགས།"
+
+#: ../src/menu-items.c:88
+#, c-format
+msgid "Wired Network (%s)"
+msgstr "ཝའིརཌི་ཡོངས་འབྲེལ་(%s)"
+
+#: ../src/menu-items.c:91
+msgid "_Wired Network"
+msgstr "ཡོངས་འབྲེལ་ཝའིརཌི། (_W)"
+
+#: ../src/menu-items.c:163
+#, c-format
+msgid "Wireless Network (%s)"
+msgid_plural "Wireless Networks (%s)"
+msgstr[0] "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ (%s)"
+msgstr[1] "རླུང་འཕྲིན་ཡོངས་འབྲེལ་  (%s)"
+
+#: ../src/menu-items.c:165
+msgid "Wireless Network"
+msgid_plural "Wireless Networks"
+msgstr[0] "རླུང་འཕྲིན་ཡོངས་འབྲེལ་"
+msgstr[1] "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ཚུ་"
+
+#: ../src/menu-items.c:344
+msgid " (invalid Unicode)"
+msgstr " (ནུས་ཅན་མེད་པའི་ཡུ་ནི་ཀོཌི་)"
+
+#: ../src/nm-wired-dialog.c:144
+msgid "Connect to 802.1X protected wired network"
+msgstr "༨༠༢.༡ X _ཉེན་སྲུངཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་"
+
+#: ../src/nm-wired-dialog.c:153
+#, c-format
+msgid ""
+"<span size=\"larger\" weight=\"bold\">Connect to a 802.1X protected wired network</span>\n"
+"\n"
+"A passphrase or encryption key is required to access the network '%s'."
+msgstr ""
+"<འཕར་ཚད་ ལྗི་ཚད་=\"རྒྱགས་པ་\" ཚད་=\"སྦོམ་\">༨༠༢.༡ X _ཉེན་སྲུངཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་</འཕར་ཚད་>\n"
+"\n"
+"རླུང་འཕྲིན་ཡོངས་འབྲེལ་ '%s' ནང་འཛུལ་སྤྱོད་འབད་ནི་ལུ་ ཆོག་ཚིག་ཡང་ན་གསང་བཟོ་ལྡེ་མིག་འདི་དགོཔ་ཨིན།"
+
+#: ../src/nm-wired-dialog.c:158
+msgid ""
+"<span size=\"larger\" weight=\"bold\">Connect to a 802.1X protected wired network</span>\n"
+"\n"
+"Enter the name and security settings of the network you wish to join."
+msgstr ""
+"<འཕར་ཚད་=\"སྦོམ་སུ་\" ལྗིད་ཚད་=\"རྒྱགས་པ་\">༨༠༢.༡X ཉེན་སྐྱོབས་ཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་ལུ་ མཐུད་</འཕར་ཚད་>\n"
+"\n"
+"ཁྱོད་ར་འཛུལ་འདོད་ཡོད་པའི་ཡོངས་འབྲེལ་གྱི་མིང་དང་ཉེན་སྲུང་གི་སྒྲིག་སྟངས་ཚུ་ཐོ་བཀོད་འབད།"
+
+#: ../src/other-network-dialog.c:354
+#, c-format
+msgid "By default, the wireless network's name is set to your computer's name, %s, with no encryption enabled"
+msgstr "སྔོན་སྒྲིག་གིས་སྦེ་  རླུང་འཕྲིན་ཡོངས་འབྲེལ་གྱི་མིང་འདི་ཁྱོད་རའི་རློག་རིག་མིང་ལུ་  %s གསང་བཟོས་ལྕོགས་ཅན་མ་བཟོ་མི་དང་ཅིག་ཁར་གཞི་སྒྲིག་འབད་དེ་ཡོདཔ་ཨིན་"
+
+#: ../src/other-network-dialog.c:360
+msgid "Create new wireless network"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་གསརཔ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/other-network-dialog.c:361
+msgid "Enter the name and security settings of the wireless network you wish to create."
+msgstr "ཁྱོད་རང་བཟོ་དགོ་མནོ་དོ་བཟུམ་སྦེ་  རླུང་འཕྲིན་ཡོངས་འབྲེལ་གྱི་མིང་དང་སྲུང་སྐྱོབ་སྒྲིག་སྟངས་ཚུ་ཐོ་བཀོད་འབད།"
+
+#: ../src/other-network-dialog.c:365
+msgid "Create New Wireless Network"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་གསརཔ་གསར་བསྐྲུན་འབད་"
+
+#: ../src/other-network-dialog.c:370
+msgid "Existing wireless network"
+msgstr "ད་ལྟོ་ཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་"
+
+#: ../src/other-network-dialog.c:371
+msgid "Enter the name of the wireless network to which you wish to connect."
+msgstr "ཁྱོད་ཀྱིས་མཐུད་དགོ་མནོ་མི་  རླུང་འཕྲིན་ཡོངས་འབྲེལ་གྱི་མིང་འདི་ཐོ་བཀོད་འབད།"
+
+#: ../src/other-network-dialog.c:373
+msgid "Connect to Other Wireless Network"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲུལ་གཞན་མི་ལུ་མཐུད་"
+
+#: ../src/passphrase-dialog.c:248
+msgid "Error connecting to wireless network"
+msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ལུ་མཐུད་པའི་བསྒང་འཛོལ་བ་"
+
+#: ../src/passphrase-dialog.c:249
+msgid "The requested wireless network requires security capabilities unsupported by your hardware."
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་རླུང་འཕྲིན་ཡོངས་འབྲེལ་དེ་གིས་  ཁྱོད་རའི་སྲ་ཆས་ཀྱི་རྒྱབ་སྐྱོར་མ་འབད་མི་སྲུང་སྐྱོབ་ལྕོགས་འགྲུབ་འདི་དགོཔ་ཨིན།"
+
+#: ../src/vpn-password-dialog.c:154
+#: ../src/vpn-password-dialog.c:191
+#, c-format
+msgid "Cannot start VPN connection '%s'"
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་ '%s'འགོ་བཙུགས་མ་ཚུགས་"
+
+#: ../src/vpn-password-dialog.c:157
+#, c-format
+msgid "Could not find the authentication dialog for VPN connection type '%s'. Contact your system administrator."
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་དབྱེ་བ་ '%s' གི་དོན་ལུ་བདེན་བཤད་ཌའི་ལོག་ཐོབ་མ་ཚུགས།  ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་འབྲེལ་བ་འཐབ།"
+
+#: ../src/vpn-password-dialog.c:194
+#, c-format
+msgid "There was a problem launching the authentication dialog for VPN connection type '%s'. Contact your system administrator."
+msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་དབྱེ་བ་'%s'གི་དོན་ལུ་བདེན་བཤད་ཌའི་ལོག་གཞི་བཙུགས་འབདཝ་ད་དཀའ་ངལ་བྱུང་ཡོདཔ།  ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་འབྲེལ་བ་འཐབ།"
+
+#: ../src/wireless-security-option.c:179
+msgid "Open System"
+msgstr "རིམ་ལུགས་ཁ་ཕྱེ་"
+
+#: ../src/wireless-security-option.c:182
+msgid "Shared Key"
+msgstr "རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག་"
+
+#~ msgid "Wireless Ethernet (%s)"
+#~ msgstr "རླུང་འཕྲིན་ཨི་ཐར་ནེཊི་(%s)"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Wireless Network Login "
+#~ "Confirmation</span>\n"
+#~ "\n"
+#~ "You have chosen to log in to the wireless network '%s'.  If you are sure "
+#~ "that this wireless network is secure, click the checkbox below and "
+#~ "NetworkManager will not require confirmation on subsequent log ins."
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">རླུང་འཕྲིན་ཡོངས་འབྲེལ་ནང་བསྐྱོད་ངེས་དཔྱད་</"
+#~ "span>\n"
+#~ "\n"
+#~ "ཁྱོད་ཀྱིས་རླུང་འཕྲིན་ཡོངས་འབྲེལ་'%s'ལུ་ནང་བསྐྱོད་འབད་ནི་གདམ་ཁ་བརྐྱབ་ཡོདཔ།  རླུང་འཕྲིན་ཡོངས་འབྲེལ་འདི་"
+#~ "མཐའ་བཙན་ཡོདཔ་སྦེ་ ཁྱོད་ངེས་བདེན་ཨིན་པ་ཅིན་, འོག་ལུ་ཡོད་མི་ཞིབ་དཔྱད་སྒྲོམ་ཨེབ་གཏང་འབད་ནི་དང་  "
+#~ "ཡོགས་འབྲེལ་འཛིན་སྐྱོང་པ་འདི་  ཤུལ་ལུ་ནང་བསྐྱོད་གུ་ངེས་དཔྱད་མི་དགོ། "
+#~ msgid "_Always Trust this Wireless Network"
+#~ msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་འདི་ཨ་རྟག་རང་བློ་གཏད། (_A)"
+#~ msgid "_Login to Network"
+#~ msgstr "ཡོངས་འབྲེལ་ལུ་ནང་བསྐྱོད་འབད། (_L)"
+

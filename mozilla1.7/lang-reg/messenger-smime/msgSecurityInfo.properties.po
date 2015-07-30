@@ -1,0 +1,225 @@
+# translation of msgSecurityInfo.properties.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/messenger-smime/msgSecurityInfo.properties
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: msgSecurityInfo.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-23 21:19+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:56 EST 2006
+#: SIUntrustedCA
+msgid "The certificate used to sign the message was issued by a certificate authority that you do not trust for issuing this kind of certificate."
+msgstr "འ་ནི་འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་དེ་ ཁྱོད་ཀྱིས་འ་ནི་ལག་ཁྱེར་གྱི་དབྱེ་བ་བཟུམ་སྤྲོད་མི་ལུ་བློ་གཏད་མི་འབད་ནིའི་དོན་ལས་ ལག་ཁྱེར་དབང་འཛིན་གྱིས་སྤྲོད་སྤྲོདཔ་ཨིན།"
+
+#: EPCannotLabel
+msgid "Message Cannot Be Encrypted"
+msgstr "འཕྲིན་དོན་དེ་གསང་བཟོ་འབད་མི་བཏུབ།"
+
+#: SICertWithoutAddress
+msgid "The certificate used to sign the message does not contain an email address. Please look at the details of the signature certificate to learn who signed the message."
+msgstr "འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་དེའི་ནང་ན་གློག་འཕྲིན་ཁ་བྱང་མེད། འཕྲིན་དོན་དེ་ག་གིས་མིང་རྟགས་བཀོད་བཀོདཔ་ཨིན་ན་ཧ་གོ་ནིའི་དོན་ལུ་མིང་རྟགས་ལག་ཁྱེར་གྱི་རྒྱས་བཤད་ནང་ལུ་བལྟ་གནང་།"
+
+#: SINone
+msgid "This message does not include the sender's digital signature. The absence of a digital signature means that the message could have been sent by someone pretending to have this email address. It is also possible that the message has been altered while in transit over the network. However, it is unlikely that either event has occurred."
+msgstr "འ་ནི་འཕྲིན་དོན་དེས་གཏང་མིའི་ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་དེ་གྲངས་སུ་མི་བཙུགས། ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་ཅིག་མེད་མི་དེ་ འཕྲིན་དོན་འདི་གཞན་མི་ཅིག་གིས་འ་ནི་གློག་འཕྲིན་གྱི་ཁ་བྱང་ཡོད་བརྫུ་བཏབ་མི་ཅིག་གིས་གཏང་གཏངམ་འོང་། ཡོངས་འབྲེལ་ནང་ལུ་སྐྱེལ་འདྲེན་འབད་བའི་སྐབས་འཕྲིན་དོན་དེ་བསྒྱུར་སོངམ་ཡང་སྲིད། ཨིན་རུང་དེ་གཉིས་ལས་གཅིག་ཡང་མ་བྱུངམ་བཟུམ་ཅིག་འདུག"
+
+#: SPNoValidCert
+msgid "The certificate you have specified for signing messages is not yet valid. Make sure your computer's clock is set correctly."
+msgstr "འཕྲིན་དོན་ཚུ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་ལག་ཁྱེར་དེ་ད་ཚུན་ནུས་ཅན་མེན། ཁྱོད་ཀྱི་གློག་རིག་གི་ཆེ་འཁོར་འདི་ངེས་བདེན་འབད་གཞི་སྒྲིག་འབད་ཡོདཔ་ངེས་ཏིག་བཟོ།"
+
+#: EIValidLabel
+msgid "Message Is Encrypted"
+msgstr "འཕྲིན་དོན་དེ་གསང་བཟོ་འབད་ཡོད།"
+
+#: EPCannotHeader
+msgid "This message cannot be encrypted."
+msgstr "འ་ནི་འཕྲིན་དོན་དེ་གསང་བཟོ་འབད་མི་བཏུབ།"
+
+#: SPCanLabel
+msgid "Message Can Be Signed"
+msgstr "འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་བཏུབ།"
+
+#: EINoneLabel
+msgid "Message Not Encrypted"
+msgstr "འཕྲིན་དོན་དེ་གསང་བཟོ་མ་འབད་བས།"
+
+#: SIInvalidHeader
+msgid "This message includes a digital signature, but the signature is invalid."
+msgstr "འ་ནི་འཕྲིན་དོན་དེས་ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་ཅིག་གྲངས་སུ་བཙུགསཔ་ཨིན། དེ་འབདཝ་ད་ མིང་རྟགས་དེ་ནུས་མེད་ཨིན།"
+
+#: SIInvalidCipher
+msgid "The message was signed using an encryption strength that this version of your software does not support."
+msgstr "འཕྲིན་དོན་དེ་ ཁྱོད་རའི་མཉེན་ཆས་ཀྱི་ཐོན་རིམ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད་མི་གསང་བཟོའི་སྟོབས་ཤུགས་ཅིག་ལག་ལེན་འཐབ་ཐོག་མིང་རྟགས་བཀོད་བཀོདཔ་ཨིན།"
+
+#: EPCanLabel
+msgid "Message Can Be Encrypted"
+msgstr "འཕྲིན་དོན་དེ་གསང་བཟོ་འབད་བཏུབ།"
+
+#: SIRevoked
+msgid "The certificate used to sign the message has been revoked. You should not trust the validity of this message until you verify its contents with the sender."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་འདི་ཆ་མེད་གཏང་གྲུབ་འབད་ཡོད། ཁྱོད་ཀྱིས་འཕྲིན་དོན་གཏང་མི་དང་ཅིག་ཁར་དེའི་ནང་དོན་ཚུ་བདེན་སྦྱོར་མ་འབད་ཚུན་ འ་ནི་འཕྲིན་དོན་གྱི་ནུས་ལྡན་དུས་ཚོད་བློ་གཏད་ནི་མི་འོང་།"
+
+#: EIValid
+msgid "This message was encrypted before it was sent to you. Encryption makes it very difficult for other people to view information while it is traveling over the network."
+msgstr "འ་ནི་འཕྲིན་དོན་དེ་ཁྱོད་ལུ་མ་གཏང་པའི་ཧེ་མ་གསང་བཟོ་འབད་ཡོད། གསང་བཟོ་འབད་ནི་དེས་གཞན་མི་མི་མང་ཚུ་ ཡོངས་འབྲེལ་ནང་ལུ་ལམ་འགྲུལ་འབད་བའི་སྐབས་བརྡ་དོན་སྟོན་ནིའི་དོན་ལུ་ལ་ཁག་བཟོཝ་ཨིན།"
+
+#: SINoneLabel
+msgid "Message Has No Digital Signature"
+msgstr "འཕྲིན་དོན་ལུ་ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་མེད།"
+
+#: SIContentAltered
+msgid "The signature does not match the message content correctly. The message appears to have been altered after the sender signed it. You should not trust the validity of this message until you verify its contents with the sender."
+msgstr "མིང་རྟགས་དེ་འཕྲིན་དོན་གྱི་ནང་དོན་དང་ངེས་བདེན་སྦེ་མཐུན་སྒྲིག་མི་འབད་བས། འཕྲིན་དོན་དེ་གཏང་མི་འདི་གིས་མིང་རྟགས་བཀོད་ཚརཝ་ད་བསྒྱུར་སོངམ་བཟུམ་སྦེ་བྱུངམ་ཨིན། ཁྱོད་ཀྱིས་འཕྲིན་དོན་གཏང་མི་དང་ཅིག་ཁར་དེའི་ནང་དོན་ཚུ་བདེན་སྦྱོར་མ་འབད་ཚུན་འ་ནི་འཕྲིན་དོན་གྱི་ནུས་ལྡན་དུས་ཚོད་དེ་བློ་གཏད་ནི་མི་འོང་།"
+
+#: SPCannotHeader
+msgid "You cannot digitally sign this message."
+msgstr "ཁྱོད་ཀྱིས་ཌི་ཇི་ཊལ་གྱི་ཐོག་ལས་འ་ནི་འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་མི་ཚུགས།"
+
+#: SIValid
+msgid "This message includes a valid digital signature. The message has not been altered since it was sent."
+msgstr "འ་ནི་འཕྲིན་དོན་དེ་གིས་ནུས་ཅན་ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་ཅིག་གྲངས་སུ་བཙུགསཔ་ཨིན།"
+
+#: SIPartiallyValidLabel
+msgid "Message is signed"
+msgstr "འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་ཡོད།"
+
+#: SPNoSigCert
+msgid "The certificate you have specified for signing messages cannot be used for that purpose."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་ཚུ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་གསལ་བཀོད་འབད་མི་ལག་ཁྱེར་འདི་ དགོས་འདོད་དེའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་བཏུབ།"
+
+#: EPCan
+msgid "If you have chosen to save copies of your outgoing messages, this message will be encrypted before being saved."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཕྱིར་གཏང་གི་འཕྲིན་དོན་ཚུའི་འདྲ་བཤུས་ཚུ་སྲུང་བཞག་འབད་ནི་སྦེ་གདམ་ཁ་རྐྱབས་ཡོདཔ་ཨིན་ཅིན་ འ་ནི་འཕྲིན་དོན་དེ་སྲུང་བཞག་མ་འབད་བའི་ཧེ་མ་གསང་བཟོ་འབད་འོང་།"
+
+#: SPRevokedCert
+msgid "The certificate you have specified for signing messages has been revoked."
+msgstr "འཕྲིན་དོན་ཚུ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་ལག་ཁྱེར་འདི་བསྒྱུར་སོང་ནུག"
+
+#: SIExpired
+msgid "The certificate used to signed the message appears to have expired. Make sure your computer's clock is set correctly."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་དེ་དུས་ལས་ཡོལ་སོངམ་སྦེ་བྱུངམ་ཨིན། ཁྱོད་རའི་གློག་རིག་གི་ཆེ་འཁོར་འདི་ངེས་བདེན་སྦེ་གཞི་སྒྲིག་འབད་ཡོདཔ་སྦེ་ངེས་ཏིག་བཟོ།"
+
+#: SINotYetValidCA
+msgid "The certificate used to sign the message was issued by a certificate authority whose own certificate is not yet valid. Make sure your computer's clock is set correctly."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་འདི་ ལག་ཁྱེར་གྱི་དབང་འཛིན་ བདག་དབང་གི་ལག་ཁྱེར་ད་ཚུན་ནུས་ཅན་མེན་མི་ ཅིག་གིས་སྤྲོད་སྤྲོདཔ་ཨིན། ཁྱོད་རའི་གློག་རིག་གི་ཆེ་འཁོར་འདི་ངེས་བདེན་སྦེ་གཞི་སྒྲིག་འབད་ཡོདཔ་སྦེ་ངེས་ཏིག་བཟོ།"
+
+#: EINoDecryptCert
+msgid "The certificate used to encrypt the message cannot be found."
+msgstr "འཕྲིན་དོན་གསང་བཟོ་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་དེ་འཚོལ་མ་འཐོབ།"
+
+#: EIPasswordError
+msgid "You did not enter your Master Password correctly."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཆོག་ཡིག་ཨམ་ངེས་བདེན་འབད་ཐོ་བཀོད་མ་འབད་བས།"
+
+#: SIUnknownCA
+msgid "The certificate used to sign the message was issued by an unknown certificate authority."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་འདི་མ་ཤེས་པའི་ལག་ཁྱེར་དབང་འཛིན་ཅིག་གིས་སྤྲོད་སྤྲོདཔ་ཨིན།"
+
+#: SIClueless
+msgid "There are unknown problems with this digital signature. You should not trust the validity of this message until you verify its contents with the sender."
+msgstr "འ་ནི་ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་དང་ཅིག་ཁར་མ་ཤེས་པའི་དཀའ་ངལ་ཚུ་འདུག གཏང་མི་དང་ཅིག་ཁར་དེའི་ནང་དོན་ཚུ་ཁྱོད་ཀྱིས་བདེན་སྦྱོར་མ་འབད་ཚུན་ ཁྱོད་ཀྱིས་འ་ནི་འཕྲིན་དོན་གྱི་ནུས་ལྡན་དུས་ཚོད་བློ་གཏད་ནི་མི་འོང་།"
+
+#: SPCan
+msgid "When other people receive your signed message, they can verify that the message comes from you and that it has not been altered since you signed it."
+msgstr "གཞན་མི་མི་མང་ཚུ་གིས་ཁྱོད་ཀྱི་མིང་རྟགས་བཀོད་བཀོད་པའི་འཕྲིན་དོན་དེ་ལེན་པའི་སྐབས་ ཁོང་ཚུ་གིས་འཕྲིན་དོན་དེ་ཁྱོད་ལས་འོང་འོངམ་ཨིནམ་དང་ཁྱོད་ཀྱིས་མིང་རྟགས་བཀོད་ཞིནམ་ལས་མ་བསྒྱུར་བར་ཡོདཔ་སྦེ་བདེན་སྦྱོར་འབད་ཚུགས།"
+
+#: EPClueless
+msgid "There are unknown problems with this message."
+msgstr "འ་ནི་འཕྲིན་དོན་དང་ཅིག་ཁར་མ་ཤེས་པའི་དཀའ་ངལ་ཚུ་འདུག"
+
+#: EIClueless
+msgid "There are unknown problems with this encrypted message."
+msgstr "འ་ནི་གསང་བཟོ་འབད་འབད་བའི་འཕྲིན་དོན་དང་ཅིག་ཁར་མ་ཤེས་པའི་དཀའ་ངལ་ཚུ་འདུག"
+
+#: SINotYetValid
+msgid "The certificate used to sign the message appears not be valid yet. Make sure your computer's clock is set correctly."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་འདི་ད་ཚུན་ནུས་ཅན་མེནམ་སྦེ་བྱུངམ་ཨིན། ཁྱོད་ཀྱི་གློག་རིག་གི་ཆེ་འཁོར་འདི་ངེས་བདེན་སྦེ་གཞི་སྒྲིག་འབད་ཡོདཔ་སྦེ་ངེས་ཏིག་བཟོ།"
+
+#: EIInvalidLabel
+msgid "Message Cannot Be Decrypted"
+msgstr "འཕྲིན་དོན་དེ་གསང་བཤོལ་འབད་མི་བཏུབ།"
+
+#: EIInvalidHeader
+msgid "This message was encrypted before it was sent to you, but it cannot be decrypted."
+msgstr "འ་ནི་འཕྲིན་དོན་དེ་ཁྱོད་ལུ་མ་གཏང་པའི་ཧེ་མ་གསང་བཟོ་འབད་འབདཝ་ཨིན། དེ་འབདཝ་ད་ དེ་གསང་བཤོལ་འབད་མི་ཚུགས།"
+
+#: EIInvalidCipher
+msgid "The message was encrypted using an encryption strength that this version of your software does not support."
+msgstr "ཁྱོད་ཀྱི་མཉེན་ཆས་ཀྱི་ཐོན་རིམ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད་མི་གསང་བཟོའི་སྟོབས་ཤུགས་ཅིག་ལག་ལེན་འཐབ་ཐོག་འཕྲིན་དོན་དེ་གསང་བཟོ་འབད་ཡོད།"
+
+#: SIValidLabel
+msgid "Message Is Signed"
+msgstr "འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་ཡོད།"
+
+#: SIPartiallyValidHeader
+msgid "Although the digital signature is valid, it is unknown whether sender and signer are the same person."
+msgstr "ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་འདི་ནུས་ཅན་ཨིན་རུང་རང་ གཏང་མི་དང་མིང་རྟགས་བཀོད་མི་གང་ཟག་གཅིག་ཨིན་མེན་མི་ཤེས་པས།"
+
+#: SPExpiredCert
+msgid "The certificate you have specified for signing messages has expired."
+msgstr "འཕྲིན་དོན་ཚུ་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་ལག་ཁྱེར་འདི་དུས་ལས་ཡོལ་སོང་ནུག"
+
+#: EPCanHeader
+msgid "You have chosen to encrypt this message before sending it."
+msgstr "འཕྲིན་དོན་དེ་མ་གཏང་པའི་ཧེ་མ་ཁྱོད་ཀྱིས་གསང་བཟོ་འབད་ནི་གདམ་ཁ་རྐྱབས་ནུག"
+
+#: EPRecipientUnknown
+msgid "You have not entered any recipients."
+msgstr "ཁྱོད་ཀྱིས་ལེན་མཁན་ག་ཡང་ཐོ་བཀོད་མ་འབད་བས།"
+
+#: SIExpiredCA
+msgid "The certificate used to sign the message was issued by a certificate authority whose own certificate has expired. Make sure your computer's clock is set correctly."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་འདི་ བདག་དབང་གི་ལག་ཁྱེར་དེ་དུས་ལས་ཡོལ་ཡོད་མི་ལག་ཁྱེར་དབང་འཛིན་གྱིས་སྤྲོད་སྤྲོདཔ་ཨིན། ཁྱོད་ཀྱི་གློག་རིག་གི་ཆེ་འཁོར་འདི་ངེས་བདེན་སྦེ་གཞི་སྒྲིག་འབད་ཡོདཔ་སྦེ་ངེས་ཏིག་བཟོ།"
+
+#: SIInvalidLabel
+msgid "Digital Signature Is Not Valid"
+msgstr "ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་དེ་ནུས་ཅན་མེན།"
+
+#: EINone
+msgid "This message was not encrypted before it was sent. Information sent over the Internet without encryption can be seen by other people while in transit."
+msgstr "འ་ནི་འཕྲིན་དོན་དེ་མ་གཏང་པའི་ཧེ་མ་གསང་བཟོ་མ་འབད་བར་ཡོད། ཨིན་ཊར་ནེཊི་ནང་ལུ་གསང་བཟོ་མ་འབད་བར་གཏང་མི་བརྡ་དོན་ཚུ་ སྐྱེལ་འདྲེན་སྐབས་གཞན་མི་མི་མང་གིས་མཐོང་ཚུགས།"
+
+#: SPCannotLabel
+msgid "Message Cannot Be Signed"
+msgstr "འཕྲིན་དོན་དེ་མིང་རྟགས་བཀོད་བཀོད་མི་ཚུགས།"
+
+#: SPCanHeader
+msgid "You have chosen to digitally sign this message before sending it."
+msgstr "ཁྱོད་ཀྱིས་འ་ནི་འཕྲིན་དོན་དེ་མ་གཏང་པའི་ཧེ་མ་ཌི་ཇི་ཊལ་གྱི་ཐོག་ལས་མིང་རྟགས་བཀོད་ནི་གདམ་ཁ་རྐྱབས་ནུག"
+
+#: EIContentAltered
+msgid "The message contents appear to have been altered during transmission."
+msgstr "འཕྲིན་དོན་གྱི་ནང་དོན་ཚུ་སྤེལ་བཀྲམ་འབད་བའི་སྐབས་བསྒྱུར་སོངམ་བཟུམ་སྦེ་བྱུངམ་ཨིན།"
+
+#: SIRevokedCA
+msgid "The certificate used to sign the message was issued by a certificate authority whose own certificate has been revoked. You should not trust the validity of this message until you verify its contents with the sender."
+msgstr "འཕྲིན་དོན་མིང་རྟགས་བཀོད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་ལག་ཁྱེར་འདི་ བདག་དབང་གི་ལག་ཁྱེར་ཆ་མེད་གཏང་གྲུབ་ཡོད་མི་ལག་ཁྱེར་དབང་འཛིན་ཅིག་གིས་སྤྲོད་སྤྲོདཔ་ཨིན། གཏང་མི་དང་ཅིག་ཁར་དེའི་ནང་དོན་ཚུ་ཁྱོད་ཀྱིས་བདེན་སྦྱོར་འབད་མ་ཚར་ཚུན་ ཁྱོད་ཀྱིས་འ་ནི་འཕྲིན་དོན་གྱི་ནུས་ལྡན་དུས་ཚོད་དེ་བློ་གཏད་ནི་མི་འོང་།"
+
+#: SPNoCert
+msgid "You have not specified a valid certificate for creating digital signatures."
+msgstr "ཌི་ཇི་ཊལ་གྱི་མིང་རྟགས་ཚུ་གསར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ཁྱོད་ཀྱིས་ནུས་ཅན་ལག་ཁྱེར་ཅིག་གསལ་བཀོད་མ་འབད་བས།"
+
+#: SIHeaderMismatch
+msgid "The email address listed in the signer's certificate is different from the email address that was used to send this message. Please look at the details of the signature certificate to learn who signed the message."
+msgstr "གློག་འཕྲིན་ཁ་བྱང་མིང་རྟགས་བཀོད་མིའི་ལག་ཁྱེར་ནང་ལུ་ཐོ་བཀོད་འབད་ཡོད་མི་དེ་ འ་ནི་འཕྲིན་དོན་གཏང་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་གློག་འཕྲིན་ཁ་བྱང་ལས་སོ་སོ་ཨིན་པས། འཕྲིན་དོན་དེ་ག་གིས་མིང་རྟགས་བཀོད་བཀོདཔ་ཨིན་ན་ཧ་གོ་ནིའི་དོན་ལུ་ མིང་རྟགས་ལག་ཁྱེར་གྱི་རྒྱས་བཤད་ཚུ་ལུ་བལྟ་གནང་།"
+
+#: EPNoCerts
+msgid "You do not have valid certificates for the following recipients\\:"
+msgstr "འོག་གི་ལེན་མཁན་ཚུའི་དོན་ལས་ཁྱོད་ལུ་ནུས་ཅན་ལག་ཁྱེར་ཚུ་མིན་འདུག\\:"
+

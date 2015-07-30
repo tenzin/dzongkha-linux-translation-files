@@ -1,0 +1,494 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: discover\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-20 14:37+0600\n"
+"PO-Revision-Date: 2006-11-20 21:19+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../lib/calls.c:92
+msgid "Can't run following command: "
+msgstr "འོག་གི་བརྡ་བཀོད་གཡོག་བཀོལ་མི་བཏུབ: "
+
+#: ../lib/calls.c:99
+#, c-format
+msgid "Something is wrong\n"
+msgstr "ག་ཅི་ཅིག་ཕྱི་འགྱུར་ཨིན་པས\n"
+
+#: ../lib/cdrom.c:37
+#, c-format
+msgid ""
+"\n"
+"Probing CDROM drive...\n"
+msgstr ""
+"\n"
+"སི་ཌི་ཨར་ཨོ་ཨེམ་འདྲེན་འཕྲུལ་བདེན་ཁུངས་འབད་དོ...\n"
+
+#: ../lib/cdrom.c:44
+#, c-format
+msgid "\tProbing ATAPI/IDE cdrom drive...\n"
+msgstr "\t ATAPI/IDE སི་ཌི་རཱོམ་འདྲེན་འཕྲུལ་འཚོལ་དོ་...\n"
+
+#: ../lib/cdrom.c:73
+#, c-format
+msgid "\tProbing SCSI cdrom drive...\n"
+msgstr "\t SCSI སི་ཌི་རཱོམ་འདྲེན་འཕྲུལ་འཚོལ་དོ་...\n"
+
+#. Note to translators: This are the device types, as they will be
+#. shown e.g. in HardDrake's device list
+#: ../lib/conv.c:225
+msgid "CPU"
+msgstr "སི་པི་ཡུ།"
+
+#: ../lib/conv.c:226
+msgid "Memory"
+msgstr "དྲན་ཚད།"
+
+#: ../lib/conv.c:227
+msgid "Floppy Drives"
+msgstr "ཕོལོ་པི་ཌའིབསི།"
+
+#: ../lib/conv.c:228
+msgid "Disks"
+msgstr "ཌིཀསི།"
+
+#: ../lib/conv.c:229
+msgid "CD-ROMs"
+msgstr "སི་ཌི་རཱོམ་སི།"
+
+#: ../lib/conv.c:230
+msgid "Tapes"
+msgstr "སྒྲ་ཐག་ཚུ།"
+
+#: ../lib/conv.c:231
+msgid "Network Device Cards"
+msgstr "ཡོངས་འབྲེལ་ཐབས་འཕྲུལ་ཤོག་བྱང་ཚུ།"
+
+#: ../lib/conv.c:232
+msgid "Modem"
+msgstr "མོ་ཌེམ།"
+
+#: ../lib/conv.c:233
+msgid "Videocards"
+msgstr "བརྙན་བྱང་ཚུ།"
+
+#: ../lib/conv.c:234
+msgid "TV Cards"
+msgstr "ཊི་ཝི་ཤོག་བྱང་ཚུ།"
+
+#: ../lib/conv.c:235
+msgid "Soundcards"
+msgstr "སྒྲ་སྐད་ཤོག་བྱང་ཚུ།"
+
+#: ../lib/conv.c:236
+msgid "Mouse"
+msgstr "མཱའུསི།"
+
+#: ../lib/conv.c:237
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ།"
+
+#: ../lib/conv.c:238
+msgid "Scanner"
+msgstr "པར་ལེན་འཕྲུལ་ཆས།"
+
+#: ../lib/conv.c:239
+msgid "Other Devices"
+msgstr "གཞན་ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../lib/conv.c:240
+msgid "IDE Interfaces"
+msgstr "ཨའི་ཌི་ཨི་ངོས་དཔར་ཚུ།"
+
+#: ../lib/conv.c:241
+msgid "SCSI Interfaces"
+msgstr "ཨེསི་སི་ཨེསི་ཨའི་ངོས་དཔར་ཚུ།"
+
+#: ../lib/conv.c:242
+msgid "USB Interfaces"
+msgstr "ཡུ་ཨེསི་བི་ངོས་དཔར་ཚུ།"
+
+#: ../lib/conv.c:243
+msgid "Joystick"
+msgstr "སྟངས་འཛིན།"
+
+#: ../lib/conv.c:244
+msgid "ISDN Adapters"
+msgstr "ཨའི་ཨེསི་ཌི་ཨེན་མཐུན་བྱེད་ཚུ།"
+
+#: ../lib/conv.c:245
+msgid "WebCams"
+msgstr "ཝེབ་ཀེམ་ཚུ།"
+
+#: ../lib/conv.c:246
+msgid "Bridge"
+msgstr "ཟམ།"
+
+#: ../lib/conv.c:247
+msgid "Unknown Devices"
+msgstr "མ་ཤེས་པའི་ཐབས་འཕྲུལ་ཚུ།"
+
+#: ../lib/cpu.c:44
+#, c-format
+msgid ""
+"\n"
+"Probing CPU...\n"
+msgstr ""
+"\n"
+"སི་པི་ཡུ་ངེས་བདེན་འབད་དོ...\n"
+
+#: ../lib/cpu.c:55
+#: ../lib/cpu.c:134
+#, c-format
+msgid "\tFound %s %s\n"
+msgstr "\tFound %s %s\n"
+
+#: ../lib/disk.c:88
+#, c-format
+msgid "\t\tFound %s %s on %s\n"
+msgstr "\t\tFound %s %s on %s\n"
+
+#: ../lib/ethernet.c:58
+#, c-format
+msgid ""
+"\n"
+"Probing ethernet card...\n"
+msgstr ""
+"\n"
+"ཨི་ཐར་ནེཊི་ཤོག་བྱང་ངེས་བདེན་འབད་དོ...\n"
+
+#: ../lib/ethernet.c:65
+#, c-format
+msgid "\tProbing PCI ethernet card...\n"
+msgstr "\tProbingཔི་སི་ཨའི་ཨི་ཐར་ནེཊི་ཤོག་བྱང་...\n"
+
+#: ../lib/ethernet.c:85
+#: ../lib/ethernet.c:181
+#: ../lib/ethernet.c:248
+#: ../lib/floppy.c:267
+#, c-format
+msgid "\t\tFound %s %s\n"
+msgstr "\t\tFound %s %s\n"
+
+#: ../lib/ethernet.c:94
+#, c-format
+msgid "\tProbing ISA ethernet card...\n"
+msgstr "\tProbing ཨའི་ཨེསི་ཨེ་ཨི་ཐར་ནེཊི་ཤོག་བྱང་...\n"
+
+#: ../lib/ethernet.c:130
+#, c-format
+msgid "\tProbing SBUS ethernet card...\n"
+msgstr "\tSBUSཨི་ཐར་ནེཊི་ཤོག་བྱང་འཚོལ་དོ་...\n"
+
+#: ../lib/ethernet.c:161
+#, c-format
+msgid "\tProbing PCMCIA ethernet card...\n"
+msgstr "\t PCMCIA ཨི་ཐར་ནེཊི་ཤོག་བྱང་འཚོལ་དོ་...\n"
+
+#: ../lib/ethernet.c:192
+#: ../lib/floppy.c:211
+#, c-format
+msgid "\tProbing PowerPC interface...\n"
+msgstr "\tPowerPCངོས་འདྲ་བ་འཚོལ་དོ...\n"
+
+#: ../lib/floppy.c:67
+#, c-format
+msgid ""
+"\n"
+"Probing floppy drive...\n"
+msgstr ""
+"\n"
+"ཕོལོ་པི་འདྲེན་འཕྲུལ་འཚོལ་དོ་...\n"
+
+#: ../lib/floppy.c:74
+#, c-format
+msgid "\tProbing FDC floppy drive...\n"
+msgstr "\t FDCཕོལོ་པི་འདྲེན་འཕྲུལ་འཚོལ་དོ་ ...\n"
+
+#: ../lib/floppy.c:105
+#: ../lib/floppy.c:173
+#: ../lib/floppy.c:200
+#, c-format
+msgid "\t\tFound %s on %s\n"
+msgstr "\t\tགུ་ %s འཚོལ་མ་ཐོབ %s\n"
+
+#: ../lib/floppy.c:139
+#, c-format
+msgid "\t\tFound %s"
+msgstr "\t\tའཚོལ་ཐོབ་ཡོདཔ་ %s"
+
+#: ../lib/floppy.c:149
+#, c-format
+msgid "\tProbing IDE floppy drive...\n"
+msgstr "\t IDE ཕོལོ་པི་འདྲེན་འཕྲུལ་འཚོལ་དོ་...\n"
+
+#: ../lib/floppy.c:182
+#, c-format
+msgid "\tProbing SCSI floppy drive...\n"
+msgstr "\t SCSI ཕོལོ་པི་འདྲེན་འཕྲུལ་འཚོལ་དོ་...\n"
+
+#: ../lib/isa.c:58
+#: ../lib/isa.c:217
+#, c-format
+msgid "!!! Error while trying to interrogate the ISA PnP cards !!!\n"
+msgstr "!!!  ISA PnP ཤོག་བྱང་ཚུ་འདྲི་བ་བཀོད་ནི་ལུ་བརྩོན་ཤུགས་བསྐྱེད་པའི་སྐབས་འཛོལ་བ་ !!!\n"
+
+#: ../lib/isa.c:64
+#, c-format
+msgid "!!! Error while trying to get IRQ/DMA information !!!\n"
+msgstr "!!!  IRQ/DMA བརྡ་དོན་ལུ་པའི་སྐབས་འཛོལ་བ་ !!!\n"
+
+#. Note to translators: `%s %s' = `PACKAGE VERSION'
+#: ../lib/report.c:89
+#, c-format
+msgid "This report has been generated by %s %s\n"
+msgstr "སྙན་ཞུ་འདི་ %s %sགིས་བཟོ་བཏོན་འབད་ཡོདཔ།\n"
+
+#: ../lib/report.c:107
+#: ../lib/report.c:159
+#: ../lib/report.c:182
+#: ../lib/report.c:203
+#: ../lib/report.c:224
+#: ../lib/report.c:244
+#: ../lib/report.c:272
+#: ../lib/report.c:292
+#: ../lib/report.c:312
+#: ../lib/report.c:332
+#: ../lib/report.c:353
+#: ../lib/report.c:374
+#: ../lib/report.c:400
+#: ../lib/report.c:420
+#: ../lib/report.c:442
+#: ../lib/report.c:462
+#: ../lib/report.c:482
+#: ../lib/report.c:504
+#: ../lib/report.c:528
+#: ../lib/report.c:574
+#: ../lib/report.c:590
+#: ../lib/report.c:611
+msgid "vendor"
+msgstr "བཙོང་མི།"
+
+#: ../lib/report.c:108
+#: ../lib/report.c:160
+#: ../lib/report.c:183
+#: ../lib/report.c:204
+#: ../lib/report.c:225
+#: ../lib/report.c:245
+#: ../lib/report.c:273
+#: ../lib/report.c:293
+#: ../lib/report.c:313
+#: ../lib/report.c:333
+#: ../lib/report.c:354
+#: ../lib/report.c:375
+#: ../lib/report.c:401
+#: ../lib/report.c:421
+#: ../lib/report.c:443
+#: ../lib/report.c:463
+#: ../lib/report.c:483
+#: ../lib/report.c:505
+#: ../lib/report.c:529
+#: ../lib/report.c:575
+#: ../lib/report.c:591
+#: ../lib/report.c:612
+msgid "model"
+msgstr "དཔེ།"
+
+#: ../lib/report.c:109
+msgid "frequency"
+msgstr "འབྱུང་ཐེངས།"
+
+#: ../lib/report.c:110
+#: ../lib/report.c:422
+msgid "flags"
+msgstr "ཟུར་རྟགས་ཚུ།"
+
+#: ../lib/report.c:111
+msgid "bogomips"
+msgstr "བོ་གོ་མའིཔིསི།"
+
+#: ../lib/report.c:112
+msgid "bugs"
+msgstr "རྐྱེན་ཚུ།"
+
+#: ../lib/report.c:131
+msgid "total"
+msgstr "བསྡོམས།"
+
+#: ../lib/report.c:132
+msgid "free"
+msgstr "རང་དབང་།"
+
+#: ../lib/report.c:133
+msgid "shared"
+msgstr "རུབ་སྤྱོད་ཡོདཔ།"
+
+#: ../lib/report.c:134
+msgid "buffers"
+msgstr "གནད་ཁོངས་ཚུ།"
+
+#: ../lib/report.c:135
+msgid "cached"
+msgstr "འདྲ་མཛོད་ཡོདཔ།"
+
+#: ../lib/report.c:136
+msgid "free_swap"
+msgstr "རང་དབང་བརྗེས་སོར་འབད།(_s)"
+
+#: ../lib/report.c:137
+msgid "total_swap"
+msgstr "བསྡོམས་བརྗེས་སོར་འབད།(_s)"
+
+#: ../lib/report.c:158
+#: ../lib/report.c:181
+#: ../lib/report.c:202
+#: ../lib/report.c:223
+#: ../lib/report.c:243
+#: ../lib/report.c:271
+#: ../lib/report.c:291
+#: ../lib/report.c:311
+#: ../lib/report.c:331
+#: ../lib/report.c:352
+#: ../lib/report.c:373
+#: ../lib/report.c:399
+#: ../lib/report.c:419
+#: ../lib/report.c:441
+#: ../lib/report.c:461
+#: ../lib/report.c:481
+#: ../lib/report.c:503
+#: ../lib/report.c:527
+#: ../lib/report.c:589
+#: ../lib/report.c:610
+msgid "bus"
+msgstr "བརྡ་རྟགས་འགྲུལ་ལམ།"
+
+#: ../lib/report.c:161
+#: ../lib/report.c:184
+#: ../lib/report.c:205
+#: ../lib/report.c:226
+#: ../lib/report.c:402
+#: ../lib/report.c:423
+#: ../lib/report.c:444
+#: ../lib/report.c:485
+#: ../lib/report.c:508
+#: ../lib/report.c:530
+#: ../lib/report.c:613
+msgid "module"
+msgstr "ཚད་གཞི།"
+
+#: ../lib/report.c:246
+#: ../lib/report.c:274
+#: ../lib/report.c:294
+#: ../lib/report.c:314
+#: ../lib/report.c:334
+#: ../lib/report.c:355
+#: ../lib/report.c:464
+#: ../lib/report.c:484
+#: ../lib/report.c:506
+#: ../lib/report.c:546
+#: ../lib/report.c:560
+#: ../lib/report.c:592
+msgid "device"
+msgstr "ཐབས་འཕྲུལ།"
+
+#: ../lib/report.c:247
+msgid "size(512k-blocks)"
+msgstr "ཚད་(༥༡༢་ཀེ་ལེབ་དུམ་ཚུ)"
+
+#: ../lib/report.c:248
+msgid "heads"
+msgstr "མགུ་ཏོག་ཚུ།"
+
+#: ../lib/report.c:249
+msgid "sectors"
+msgstr "གཡོག་སྡེ་ཚུ།"
+
+#: ../lib/report.c:250
+msgid "cylinders"
+msgstr "སི་ལེན་ཌར་ཚུ།"
+
+#: ../lib/report.c:376
+msgid "server"
+msgstr "སར་བར།"
+
+#: ../lib/report.c:377
+msgid "memory"
+msgstr "དྲན་ཚད།"
+
+#: ../lib/report.c:378
+msgid "ramdac"
+msgstr "རཱམ་ཌེསི།"
+
+#: ../lib/report.c:379
+msgid "clockchip"
+msgstr "ཆེ་འཁོར་ཅིབ།"
+
+#: ../lib/report.c:507
+msgid "speed"
+msgstr "མགྱོགས་ཚད།"
+
+#: ../lib/report.c:547
+#: ../lib/report.c:561
+msgid "DOS_equivalent"
+msgstr "ཌི་ཨོ་ཨེསི་འདྲ་མཉམ།"
+
+#: ../lib/report.c:609
+msgid "ID"
+msgstr "ཨའི་ཌི།"
+
+#: ../lib/report.c:643
+msgid "IRQ"
+msgstr "ཨའི་ཨར་ཀིའུ།"
+
+#: ../lib/report.c:656
+msgid "DMA"
+msgstr "ཌི་ཨེམ་ཨེ།"
+
+#: ../lib/serial.c:170
+#, c-format
+msgid ""
+"\n"
+"modem_detect(): Couldn't open previously open port %s\n"
+msgstr ""
+"\n"
+"མོ་ཌེམ་སྐྱོན་འཛིན་(): ཧེ་མ་ལས་ཁ་ཕྱེ་ཡོད་མི་འདྲེན་ལམ་ཁ་ཕྱེ་མི་བཏུབ་པས %s\n"
+
+#: ../lib/utils.h:70
+msgid "Can't allocate memory!\n"
+msgstr "དྲན་ཚད་སྤྲོད་བཞག་མི་བཏུབ་པས!\n"
+
+#: ../lib/utils.h:71
+#, c-format
+msgid "Can't open file `%s' for reading!\n"
+msgstr "ལྷག་ནི་དོན་ལུ་ ཡིག་སྣོད་`%s'ཁ་ཕྱེ་མི་བཏུབ་པས !\n"
+
+#: ../lib/utils.h:72
+#, c-format
+msgid "Can't open file `%s' for writing!\n"
+msgstr "འབྲི་ནི་དོན་ལུ་ཡིག་སྣོད་ `%s' ཁ་ཕྱེ་མི་བཏུབ་པས!\n"
+
+#: ../lib/utils.h:73
+msgid "Can't get kernel version\n"
+msgstr "ཀར་ནེལ་ཐོན་རིམ་ལེན་མི་བཏུབ་པས།\n"
+
+#: ../lib/utils.h:74
+msgid "You must have a kernel version superior at 2.1.120\n"
+msgstr "༢་༡་༢་ལུ་ཀར་ནེལ་ཐོན་རིམ་ཡང་དག་ཅིག་དགོ་\n"
+
+#: ../lib/utils.h:75
+msgid "Error in ioctl request!\n"
+msgstr "ioctlཞུ་བ་ནང་འཛོལ་བ!\n"
+

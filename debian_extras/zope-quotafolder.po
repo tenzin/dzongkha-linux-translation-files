@@ -1,0 +1,57 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: quotafolder.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-20 07:54+0100\n"
+"PO-Revision-Date: 2006-11-28 04:10+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: select
+#. Choices
+#: ../zope-quotafolder.templates:1001
+msgid "configuring, end, manually"
+msgstr "རིམ་སྒྲིག་འབད་བ་ མཇུག་བསྡུ་ ལག་ཐོག་ལས་ "
+
+#. Type: select
+#. Description
+#: ../zope-quotafolder.templates:1002
+msgid "When to restart Zope:"
+msgstr "ཛོབ་ ནམ་ལས་འགོ་བཙུག་ནི་ཨིན་ན་:"
+
+#. Type: select
+#. Description
+#: ../zope-quotafolder.templates:1002
+msgid ""
+"Zope has an extensible, object oriented structure that allows you to easily add extra components (products) or features. Each product or feature can usually be found in packages whose name starts with `zope-' prefix. Unfortunately, Zope needs to restart to use any new add-on. Here you can choose a common way to restart Zope:\n"
+" * configuring: each product will restart Zope while configuring.\n"
+" * end: Zope will restart only once at the end of the whole\n"
+"        installation/upgrading process.\n"
+" * manually: You will have to restart Zope."
+msgstr ""
+"ཛོབ་ལུ་ རྒྱ་བསྐྱེད་འབད་བཏུབ་མི་ དངོས་པོ་གིས་ཁ་ཕྱོགས་བཟོ་ཡོད་པའི་བཟོ་བཀོད་ཡོདཔ་དང་ དེ་གིས་ ཁྱོད་ལུ་ ཆ་ཤས་(ཐོན་བསྐྱེད་)ཐེབས་ ཡང་ན་ ཁྱད་རྣམ་ཚུ་ ཁ་སྐོང་འཇམ་ཏོང་ཏོ་འབད་བརྐྱབ་བཅུགཔ་ཨིན། ཐོན་བསྐྱེད་ ཡང་ན  ཁྱད་རྣམ་ཚུ་རེ་རེ་བཞིན་དུ་ `zope-' སྔོན་ཚིག་གིས་འགོ་བཙུག་པའི་མིང་གི་ཐུམ་སྒྲིལ་ནང་ལས་འཐོབ་ཨིན། ཁ་རྗེ་མེད་པར་ གང་རུང་ཅིག་ཁ་སྐོང་བརྐྱབ་ནི་གི་དོན་ལས་ ཛོབ་འདི་ལོག་འགོ་བཙུག་དགོཔ་ཨིན་པས། ནཱ་ལུ་ཁྱོད་ཀྱིས་ ཛོབ་སླར་འགོ་བཙུག་གི་དོན་ལུ་ སྤྱིར་བཏང་གི་ཐབས་ལམ་ཅིག་ གདམ་ཁ་བརྐྱབ་ཚུགས་:\n"
+" * རིམ་སྒྲིག་འབད་བ་: རིམ་སྒྲིག་འབད་བའི་སྐབས་ལུ་ ཐོན་བསྐྱེད་རེ་རེ་གིས་ ཛོབ་འདི་སླར་འགོ་བཙུགས་འོང་:\n"
+" * མཇུག་བསྡུ་: ཛོབ་ཀྱིས་ གཞི་བཙུགས་ཧྲིལ་བུ་ \n"
+"/ཡར་བསྐྱེད་ལས་སྦྱོར་གྱི་མཇུག་ལུ་ ཚར་ཅིག་རྐྱངམ་ཅིག་ སླར་འགོ་བཙུག་འོང་།\n"
+" * ལག་ཐོག་ལས་: ཛོབ་འདི་སླར་འགོ་བཙུག་དགོཔ་ཨིན། "
+

@@ -1,0 +1,157 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/browser/chrome/overrides/appstrings.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: overrieds/appstings/properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-16 11:35+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: malformedURI
+msgid "The URL is not valid and cannot be loaded."
+msgstr "ཡུ་ཨར་ཨེལ་དེ་ ནུས་ཅན་མེནམ་ལས་ མངོན་གསལ་འབད་མི་ཚུགས་པས།"
+
+#: fileNotFound
+msgid "Firefox can't find the file at %S."
+msgstr "%Sལུ་ ཕ་ཡེར་ཕོགསི་གིས་ ཡིག་སྣོད་འཚོལ་མི་ཐོབ་པས།"
+
+#: dnsNotFound
+msgid "Firefox can't find the server at %S."
+msgstr "%Sལུ་ ཕ་ཡེར་ཕོགསི་གིས་ སར་བར་འཚོལ་མི་ཐོབ་པས།"
+
+#: protocolNotFound
+msgid "Firefox doesn't know how to open this address, because the protocol (%S) isn't associated with any program."
+msgstr "ཕ་ཡེར་ཕོགསི་གིས་ ཁ་བྱང་འདི་ཁ་ཕྱེ་ཐངས་མི་ཤེས་པས། ག་ཅིཨིནམ་ཟེར་བ་ཅིན་ གནད་སྤེལ་ལམ་ལུག་ (%S)དེ་ ལས་རིམ་ག་ཅིག་དང་ཡང་འབྲེལ་བ་མིན་འདུག།"
+
+#: connectionFailure
+msgid "Firefox can't establish a connection to the server at %S."
+msgstr " %Sལུ་ཕ་ཡེར་ཕོགསི་གིས་ མཐུད་ལམ་གཞི་བཙུགས་འབད་མི་ཚུགས་པས།"
+
+#: netInterrupt
+msgid "The connection to %S was interrupted while the page was loading."
+msgstr "ཤོག་ལེབ་དེ་མངོན་གསལ་འབད་བའི་བར་ན་ གི་མཐུད་ལམ་དེ་ལུ་%Sབར་དཀྲོགས་བྱུང་ནུག།"
+
+#: netTimeout
+msgid "The server at %S is taking too long to respond."
+msgstr "%Sལུ་སར་བར་དེ་གིས་ངོས་ལན་འབད་ནི་ལུ་ ཡུན་རིང་འགོརཝ་མས།"
+
+#: redirectLoop
+msgid "Firefox has detected that the server is redirecting the request for this address in a way that will never complete."
+msgstr " སར་བར་དེ་གིས་ ཁ་བྱང་འདི་གི་ཞུ་བ་དེ་ ནམ་ཡང་མཇུག་བསྡུ་ནི་མེད་པའི་ ལམ་ལུགས་ཅིག་གི་ཐོག་ལས་ ལོག་གཏང་པའི་བསྒང་ཡོད་མི་དེ་ ཕ་ཡེར་ཕོགསི་གིས་ བད་འཟུན་ནུག།"
+
+#: repost
+msgid "The page you are trying to view contains POSTDATA that has expired from cache. If you resend the data, any action the form carried out (such as a search or online purchase) will be repeated. To resend the data, click OK. Otherwise, click Cancel."
+msgstr "ཁྱོད་ཀྱིས་བལྟ་ནི་སྦེ་དཔའ་བཅམ་མི་ ཤོག་ལེབ་དེ་ནང་ འདྲ་མཛོད་ནང་ས་དུས་ཡོལ་ཐལ་མི་ འདས་པའི་གནད་སྡུད་འདུག ཁྱོད་ཀྱིས་གནད་སྡུད་དེ་ ལོག་སྟེ་ར་གཏང་པ་ཅིན་ འབྲི་ཤོག་དེ་གིས་འབད་མི་བྱ་བ་གང་རུང་(དཔེར་ན་འཚོལ་ཞིབ་དང་གློག་ཐོག་ཉོ་བཙོང་)ཚུ་ ལོག་སྟེ་འབད་འོང་། གནད་སྡུད་ལོག་སྟེ་ར་གཏང་ནིའི་དོན་ལུ་ བཏུབ་ གུ་ཨེབ་གཏང་འབད་ དེ་མིན་ ཆ་མེད་གཏང་ གུ་ཨེབ་གཏང་འབད།"
+
+#: repostConfirm
+msgid "The page you are trying to view contains POSTDATA. If you resend the data, any action the form carried out (such as a search or online purchase) will be repeated. To resend the data, click OK. Otherwise, click Cancel."
+msgstr "ཁྱོད་ཀྱིས་བལྟ་ནི་སྦེ་དཔའ་བཅམ་མི་ ཤོག་ལེབ་དེ་ནང་ འདྲ་མཛོད་ནང་ས་དུས་ཡོལ་ཐལ་མི་ འདས་པའི་གནད་སྡུད་འདུག ཁྱོད་ཀྱིས་གནད་སྡུད་དེ་ ལོག་སྟེ་ར་གཏང་པ་ཅིན་ འབྲི་ཤོག་དེ་གིས་འབད་མི་བྱ་བ་གང་རུང་(དཔེར་ན་འཚོལ་ཞིབ་དང་གློག་ཐོག་ཉོ་བཙོང་)ཚུ་ ལོག་སྟེ་འབད་འོང་། གནད་སྡུད་ལོག་སྟེ་ར་གཏང་ནིའི་དོན་ལུ་ བཏུབ་ གུ་ཨེབ་གཏང་འབད་ དེ་མིན་ ཆ་མེད་གཏང་ གུ་ཨེབ་གཏང་འབད།"
+
+#: unknownSocketType
+msgid "Firefox doesn't know how to communicate with the server."
+msgstr "ཕ་ཡེར་ཕོགསི་གིས་ སར་བར་དང་གཅིག་ཁར་ བརྒྱུད་འབྲེལ་འབད་ཐངས་མི་ཤེས་པས།"
+
+#: netReset
+msgid "The connection to the server was reset while the page was loading."
+msgstr "ཤོག་ལེབ་དེ་མངོན་གསལ་འབད་བའི་བར་ན་ སར་བར་ལུ་མཐུད་ལམ་འདི་ སླར་སྒྲིག་འབད་ཡི།"
+
+#: netOffline
+msgid "Firefox is currently in offline mode and can't browse the Web."
+msgstr "ཕ་ཡེར་ཕོགསི་དེ་ ད་ལྟོ་ཨོཕ་ལའིན་ནི་ཡོདཔ་ལས་ ཝེབ་ནང་བརྡ་འཚོལ་འབད་མི་ཚུགས།"
+
+#: isprinting
+msgid "The document cannot change while Printing or in Print Preview."
+msgstr "དཔར་བསྐྲུན་འབད་བའི་སྐབས་ལུའམ་ དཔར་བསྐྲུན་སྔོན་ལྟའི་ནང་ ཡིག་ཆ་དཔར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: deniedPortAccess
+msgid "This address uses a network port which is normally used for purposes other than Web browsing. Firefox has canceled the request for your protection."
+msgstr "ཁ་བྱང་འདི་གིས་ སྤྱིར་བཏང་ལུ་ ཝེབ་བརྡ་འཚོལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་སྲོལ་མེད་མི་ ཡོངས་འབྲེལ་འདྲེན་ལམ་ཅིག་ལག་ལེན་འཐབ་དོ། ཁྱོད་ཀྱི་ཉེན་སྐྱོབ་ཀྱི་དོན་ལུ་ ཕ་ཡེར་ཕོགསི་གིས་ ཞུ་བ་དེ་ཆ་མེད་བཏང་ནུག།"
+
+#: proxyResolveFailure
+msgid "Firefox is configured to use a proxy server that can't be found."
+msgstr "ཕ་ཡེར་ཕོགསི་དེ་ ཐོབ་མ་ཚུགས་པའི་ པོརོག་སི་སར་བར་ཅིག་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ རིམ་སྒྲིག་འབད་ནུག།"
+
+#: proxyConnectFailure
+msgid "Firefox is configured to use a proxy server that is refusing connections."
+msgstr "ཕ་ཡེར་ཕོགསི་དེ་ མཐུད་ལམ་མ་བཏུབ་པའི་ པོརོག་སི་སར་བར་ཅིག་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ རིམ་སྒྲིག་འབད་ནུག།"
+
+#: externalProtocolTitle
+msgid "External Protocol Request"
+msgstr "ཕྱི་ཁའི་གནད་སྤེལ་ལམ་ལུགས་ཞུ་བ།"
+
+#: externalProtocolPrompt
+msgid ""
+"An external application must be launched to handle %1$S: links. Requested link:\n"
+"\n"
+"\n"
+"%2$S\n"
+"Application: %3$S\n"
+"\n"
+"\n"
+"If you were not expecting this request it may be an attempt to exploit a weakness in that other program. Cancel this request unless you are sure it is not malicious.\n"
+msgstr ""
+"འབྲཻལ་ལམ་%1$S: ལེགས་སྐྱོང་འཐབ་ནི་ལུ་ ཕྱི་ཁའི་གློག་རིམ་ཅིག་ གསར་བཙུགས་འབད་དགོཔ་འདུག། ཞུ་བ་འབད་ཡོད་པའི་འབྲེལ་ལམ་\n"
+"\n"
+"\n"
+"%2$S\n"
+"གློག་རིམ་:%3$S\n"
+"ཁྱོད་ཀྱིས་ཞུ་བ་དེ་གི་རེ་བ་མ་བསྐྱེད་པ་ཅིན་ ལས་རིམ་གཞན་དེ་ནང་གི་ སྐྱོན་སློང་ནིའི་དཔའ་བཅམ་ཨིནམ་འོང་། ཁྱོད་ཀྱིས་འདི་གནོད་སེམས་ཅན་མེན་པའི་ཐག་ཆོད་ན་མ་གཏོགས་ དེ་མིན་ཞུ་བ་འདི་ཆ་མེད་གཏང་།\n"
+
+#LOCALIZATION NOTE (externalProtocolUnknown): The following string is shown if the application name can't be determined
+#: externalProtocolUnknown
+msgid "<Unknown>"
+msgstr "<མ་ཤེསཔ་>"
+
+#: externalProtocolChkMsg
+msgid "Remember my choice for all links of this type."
+msgstr "དབྱེ་བ་འདི་བཟུམ་ཆ་མཉམ་གྱི་དོན་ལུ་ ངེད་ཀྱི་གདམ་ཁ་སེམས་ཁར་བཞག།"
+
+#: externalProtocolLaunchBtn
+msgid "Launch application"
+msgstr "གློག་རིམ་གསར་བཙུགས་འབད།"
+

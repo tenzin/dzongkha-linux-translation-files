@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: console-common_po.pot\n"
+"PO-Revision-Date: 2006-08-14 17:01+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Usage: install-keymap [ keymap_file | NONE | KERNEL ]"
+msgstr "ལག་ལེན་:  install-keymap [ keymap_file | NONE | KERNEL ]"
+
+msgid "Warning: cannot access console;"
+msgstr "ཉེན་བརྡ་: མ་སྒྲོམ་ལུ་འཛུལ་སྤྱོད་འབད་མི་ཚུགས་་ "
+
+msgid " deferring until console is accessible."
+msgstr "མ་སྒྲོམ་འདི་འཛུལ་སྤྱོད་འབད་མ་ཚུགས་ཚུན་ སོ་སོར་འགྱུར་ཏེ་སྡོད་འོང་།"
+
+msgid ""
+"Warning: cannot install keymap on a serial console.\n"
+" deferring until non-serial console present."
+msgstr ""
+"ཉེན་བརྡ་: ཨང་རིམ་མ་སྒྲོམ་ཅིག་གུ་ ས་ཁྲ་གཙོ་བོ་གཞི་བཙུགས་འབད་མི་ཚུགས། \n"
+"ཨང་རིམ་མིན་པའི་མ་སྒྲོམ་འདི་ ངོ་འཛོམས་མེད་ཚུན་ སོ་སོར་འགྱུར་ཏེ་སྡོད་འོང་།"
+
+msgid ""
+"Warning: no console utilities installed yet.\n"
+" deferring keymap setting until either console-tools or kbd is installed."
+msgstr ""
+"ཉེན་བརྡ་: ད་ཚུན་ མ་སྒྲོམ་སྤྱོད་ཆས་ གཞི་བཙུགས་མ་འབད། \n"
+"མ་སྒྲོམ་-ལག་ཆས་ ཡང་ན་ ཀེ་བི་ཌི་འདི་ གཞི་བཙུགས་་མ་འབད་ཚུན་ ས་ཁྲ་་གཙོ་བོའི་སྒྲིག་སྟངས་ སོ་སོར་འགྱུར་ཏེ་སྡོད་འོང་།"
+
+msgid "Failed to dump keymap!"
+msgstr "ས་ཁྲ་གཙོ་བོ་བཀོག་བཞག་ནི་ལུ་ འཐུས་ཤོར་བྱུང་ཡོདཔ་!"
+
+msgid ""
+"This might be because your console cannot be opened.  Perhaps you don't have\n"
+"a video card, are connected via the serial console or ssh.\n"
+"Not loading keymap!"
+msgstr ""
+"འདི་ཡང་ ཁྱོད་ཀྱི་མ་སྒྲོམ་འདི་ཁ་ཕྱེ་མ་བཏུབ་ལས་བརྟེན་འོང་། ཡང་ཅིན་ ཁྱོད་ལུ་ཝི་ཌིའོ་ཤོག་བྱང་ཅིག་\n"
+"མེདཔ་འོང་ དེ་ཚུ་ཨང་རིམ་མ་སྒྲོམ་ ཡང་ན་ ཨེསི་ཨེསི་ཨེཅ་ལས་བརྒྱུད་དེ་མཐུད་མཐུདཔ་འོང་། \n"
+"ས་ཁྲ་གཙོ་བོ་ མངོན་གསལ་འབད་ནི་མིན་འདུག་!"
+
+msgid "Failed to preserve keymap!"
+msgstr "ས་ཁྲ་གཙོ་བོ་ ཉམས་སྲུང་འབད་ནི་ལས་འཐུ་ས་ཤོར་བྱུང་ཡོདཔ་!"
+
+msgid "conffile ${CONFFILE} is a symlink : not overwriting"
+msgstr "conffile ${CONFFILE} འདི་ བརྡ་མཚོན་འབྲེལ་ལམ་ཨིན་: ཚབ་སྲུང་འབདཝ་མེན།"
+
+msgid ""
+"It is recommended that ${CONFFILE} is not a symlink; instead\n"
+"edit /etc/console-tools/remap to include any local changes."
+msgstr "${CONFFILE} འདི་ བརྡ་མཚོན་འབྲེལ་ལམ་མེན་པའི་འོས་སྦྱོར་འབད་ཡི་ ཉེ་གནས་ཀྱི་བསྒྱུར་བཅོས་ག་ཅི་ཨིན་རུང་གྲལ་་ཁར་བཙུགས་ནི་ལུ་  /etc/console-tools/remapཞུན་དག་འབད། "
+
+msgid ""
+"The new keymap has been placed in ${CONFFILE}.dpkg ;\n"
+"Please move it as required."
+msgstr ""
+"ས་ཁྲ་གཙོ་བོ་འདི་  ${CONFFILE}ནང་ བཞག་ཅི། dpkg ;\n"
+" དགོས་མཁོ་དང་འཁྲིལ་ཏེ་ སྤོ་བཤུད་འབད་གནང་། "
+
+msgid "Notice: doing keycode translation to use PC keymap on RiscPC"
+msgstr "བརྡ་བསྐུལ་: RiscPCགུ་ པི་སི་ས་ཁྲ་གཙོ་བོ་ལག་ལེན་འཐབ་ནི་ལུ་ ལྡེ་ཨང་སྐད་བསྒྱུར་འབདཝ་ཨིན། "
+
+msgid "Failed to load keymap!"
+msgstr "ས་ཁྲ་གཙོ་བོ་ མངོན་གསལ་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ་!"
+

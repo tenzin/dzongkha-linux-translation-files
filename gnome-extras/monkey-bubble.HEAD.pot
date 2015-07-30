@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: monkey-bubble\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-12 22:18+0100\n"
+"PO-Revision-Date: 2006-12-12 03:11+0530\n"
+"Last-Translator: dorji tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan \n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/keybinding.glade.h:1
+msgid "Keyboard Shortcuts"
+msgstr "ལྡེ་སྒྲོམ་མགྱོགས་ཐབས་"
+
+#: ../data/keybinding.glade.h:2
+msgid "_Shortcut Keys:"
+msgstr "མགྱོགས་ཐབས་ལྡེ་མིག་ཚུ་:(_S)"
+
+#: ../data/monkey-bubble.glade.h:1
+msgid ""
+"<markup>\n"
+"<span weight=\"bold\" size=\"large\"\n"
+"style=\"oblique\">\n"
+"Can't create server !\n"
+"</span>\n"
+"</markup>"
+msgstr ""
+"<markup>\n"
+"<span weight=\"bold\" size=\"large\"\n"
+"style=\"oblique\">\n"
+"སར་བར་གསར་བསྐྲུན་འབད་མི་ཚུགས་པས་ཡ!\n"
+"</span>\n"
+"</markup>"
+
+#: ../data/monkey-bubble.glade.h:7
+msgid "Join _network game"
+msgstr "ཡོངས་འབྲེལ་རྩེདམོ་ནང་ལུ་འཛུལ་(_n)"
+
+#: ../data/monkey-bubble.glade.h:8
+#: ../monkey-bubble.desktop.in.h:1
+msgid "Monkey Bubble"
+msgstr "མོངཀི་བ་བཱལ་"
+
+#: ../data/monkey-bubble.glade.h:9
+msgid "New 1 player"
+msgstr "གཏང་འཕྲུལ་༡་གསརཔ་སྟོན་"
+
+#: ../data/monkey-bubble.glade.h:10
+msgid "New 2 players"
+msgstr "གཏང་འཕྲུལ་གསརཔ་༢་སྟོན་"
+
+#: ../data/monkey-bubble.glade.h:11
+msgid "New network game"
+msgstr "ཡོངས་འབྲེལ་རྩེདམོ་"
+
+#: ../data/monkey-bubble.glade.h:12
+#: ../src/ui/ui-main.c:412
+#: ../src/ui/ui-main.c:544
+msgid "Pause game"
+msgstr "རྩེདམོ་ཐེམ་བཞག་"
+
+#: ../data/monkey-bubble.glade.h:13
+#: ../src/ui/keyboard-properties.c:84
+msgid "Stop game"
+msgstr "རྩེདམོ་བཀག་བཞག་"
+
+#: ../data/monkey-bubble.glade.h:14
+msgid "Warning"
+msgstr "ཉེན་བརྡ་"
+
+#: ../data/monkey-bubble.glade.h:15
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../data/monkey-bubble.glade.h:16
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ་(_C)"
+
+#: ../data/monkey-bubble.glade.h:17
+msgid "_Game"
+msgstr "རྩེདམོ་(_G)"
+
+#: ../data/monkey-bubble.glade.h:18
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../data/monkey-bubble.glade.h:19
+msgid "_High Scores"
+msgstr "སྐུགས་ཐོ་ཤོས་(_H)"
+
+#: ../data/monkey-bubble.schemas.in.h:1
+msgid "1 player game"
+msgstr "གཏང་འཕྲུལ་༡ འབད་མི་རྩེདམོ་"
+
+#: ../data/monkey-bubble.schemas.in.h:2
+msgid "2 players game"
+msgstr "གཏང་འཕྲུལ་༢ འབད་མི་རྩེདམོ་"
+
+#: ../data/monkey-bubble.schemas.in.h:3
+msgid "F1"
+msgstr "ཨེཕ་ ༡་"
+
+#: ../data/monkey-bubble.schemas.in.h:4
+msgid "F2"
+msgstr "ཨེཕ་ ༢་"
+
+#: ../data/monkey-bubble.schemas.in.h:5
+msgid "Left"
+msgstr "གཡོན་"
+
+#: ../data/monkey-bubble.schemas.in.h:6
+msgid "Pause"
+msgstr "ཐེམ་"
+
+#: ../data/monkey-bubble.schemas.in.h:7
+msgid "Pause the game"
+msgstr "རྩེདམོ་དེ་ཐེམ་བཞག་"
+
+#: ../data/monkey-bubble.schemas.in.h:8
+msgid "Quit the game"
+msgstr "རྩེདམོ་སྤང་བཞག་"
+
+#: ../data/monkey-bubble.schemas.in.h:9
+msgid "Right"
+msgstr "གཡས་"
+
+#: ../data/monkey-bubble.schemas.in.h:10
+msgid "Stop the game"
+msgstr "རྩེདམོ་དེ་བཀག་བཞག་"
+
+#: ../data/monkey-bubble.schemas.in.h:11
+msgid "Up"
+msgstr "ཡར་"
+
+#: ../data/monkey-bubble.schemas.in.h:12
+msgid "d"
+msgstr "ཌི་"
+
+#: ../data/monkey-bubble.schemas.in.h:13
+msgid "f"
+msgstr "ཨེཕ་"
+
+#: ../data/monkey-bubble.schemas.in.h:14
+msgid "left key for player one"
+msgstr "གཡོན་གྱི་ལྡེ་མིག་དེ་གཏང་འཕྲུལ་གཅིག་གི་དོན་ལུ་ཨིན་"
+
+#: ../data/monkey-bubble.schemas.in.h:15
+msgid "left key for player two"
+msgstr "གཡོན་གྱི་ལྡེ་མིག་དེ་གཏང་འཕྲུལ་གཉིས་པའི་དོན་ལུ་ཨིན་"
+
+#: ../data/monkey-bubble.schemas.in.h:16
+msgid "right key for player one"
+msgstr "གཡས་ཀྱི་ལྡེ་མིག་དེ་གཏང་འཕྲུལ་དང་པའི་དོན་ལུ་ཨིན་"
+
+#: ../data/monkey-bubble.schemas.in.h:17
+msgid "right key for player two"
+msgstr "གཡས་ཀྱི་ལྡེ་མིག་དེ་གཏང་འཕྲུལ་དང་པའི་དོན་ལུ་ཨིན་"
+
+#: ../data/monkey-bubble.schemas.in.h:18
+msgid "s"
+msgstr "ཨེསི་"
+
+#: ../data/monkey-bubble.schemas.in.h:19
+msgid "shoot key for player one"
+msgstr "གཏང་འཕྲུལ་དང་པའི་དོན་ལུ་ལྡེ་མིག་རྐྱབས་"
+
+#: ../data/monkey-bubble.schemas.in.h:20
+msgid "shoot key for player two"
+msgstr "གཏང་འཕྲུལ་གཉིས་པའི་དོན་ལུ་ལྡེ་མིག་རྐྱབས་"
+
+#: ../data/netgame.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../data/netgame.glade.h:2
+#: ../data/netserver.glade.h:1
+msgid "Network game"
+msgstr "ཡོངས་འབྲེལ་རྩེདམོ་"
+
+#: ../data/netgame.glade.h:3
+msgid "Number of games :"
+msgstr "རྩེགམོ་གི་གྱངས་ཁ:"
+
+#: ../data/netgame.glade.h:4
+msgid "Number of players :"
+msgstr "རྩེད་མའི་གྱངས་ཁ:"
+
+#: ../data/netgame.glade.h:5
+#: ../data/netserver.glade.h:4
+#: ../src/ui/keyboard-properties.c:86
+msgid "Quit game"
+msgstr "རྩེདམོ་སྤང་བཞག་"
+
+#: ../data/netgame.glade.h:6
+#: ../data/netserver.glade.h:5
+msgid "Ready"
+msgstr "གྲ་སྒྲིག"
+
+#: ../data/netgame.glade.h:7
+msgid "_Go"
+msgstr "འགྱོ་(_G)"
+
+#: ../data/netgame.glade.h:8
+msgid "_Server"
+msgstr "སར་བར་(_S)"
+
+#: ../data/netserver.glade.h:2
+msgid "Number of game"
+msgstr "རྩེདམོ་གྱི་གྱངས་ཁ་"
+
+#: ../data/netserver.glade.h:3
+msgid "Number of players"
+msgstr "རྩེད་མའི་གྱངས་"
+
+#: ../data/netserver.glade.h:6
+msgid "Start Game"
+msgstr "རྩེདམོ་འགོ་བཙུགས་"
+
+#: ../monkey-bubble.desktop.in.h:2
+msgid "Monkey Bubble Arcade Game"
+msgstr "མོང་ཀི་ བ་བཱལ་ ཨཱར་ཀེཌི་ རྩེདམོ་"
+
+#: ../src/ui/keyboard-properties.c:78
+msgid "New game 1 player"
+msgstr "རྩེད་གསརཔ་ རྩེད་མི་ ༡་"
+
+#: ../src/ui/keyboard-properties.c:80
+msgid "New game 2 player"
+msgstr "རྩེདམོ་གསརཔ་ རྩེད་མི་༢་"
+
+#: ../src/ui/keyboard-properties.c:82
+msgid "Pause/Resume"
+msgstr "ཐེམ/བསྐྱར་ལོག་"
+
+#: ../src/ui/keyboard-properties.c:92
+msgid "Full Screen"
+msgstr "གསལ་གཞི་གང་"
+
+#: ../src/ui/keyboard-properties.c:94
+msgid "Normal Size"
+msgstr "སྤྱི་གཏང་གི་ཚད་"
+
+#: ../src/ui/keyboard-properties.c:99
+#: ../src/ui/keyboard-properties.c:109
+msgid "aim left"
+msgstr "གཡོན་ལུ་དམིགས་པ་བསྐྱེད་"
+
+#: ../src/ui/keyboard-properties.c:101
+#: ../src/ui/keyboard-properties.c:111
+msgid "aim right"
+msgstr "གཡས་ལུ་དམིགས་པ་བསྐྱེད་"
+
+#: ../src/ui/keyboard-properties.c:103
+#: ../src/ui/keyboard-properties.c:113
+msgid "shoot"
+msgstr "རྐྱབས་"
+
+#: ../src/ui/keyboard-properties.c:120
+msgid "Player 1"
+msgstr "རྩེད་མི་༡་པ་"
+
+#: ../src/ui/keyboard-properties.c:121
+msgid "Player 2"
+msgstr "རྩེད་མི་༢་པ་"
+
+#: ../src/ui/keyboard-properties.c:122
+msgid "Game"
+msgstr "རྩེདམོ་"
+
+#: ../src/ui/keyboard-properties.c:123
+msgid "View"
+msgstr "མཐོང་སྣང་"
+
+#: ../src/ui/keyboard-properties.c:336
+#, c-format
+msgid "There was an error loading config from %s. (%s)\n"
+msgstr " %s. (%s)ནང་ལས་རིམ་སྒྲིག་མངོན་གསལ་འབད་ནི་ལུ་འཛོལ་བ་འདུག་\n"
+
+#: ../src/ui/keyboard-properties.c:350
+#, c-format
+msgid "There was an error subscribing to notification of terminal keybinding changes. (%s)\n"
+msgstr "ཊར་མི་ནཱལ་ ལྡེ་མིག་སྡམ་ཐག་གི་འགྱུར་བ་(%s) ཚུ་གི་བརྡ་བསྐུལ་ལུ་མཁོ་མངགས་འབད་ནི་ལུ་འཛོལ་བ་ཅིག་འདུག\n"
+
+#: ../src/ui/keyboard-properties.c:393
+#, c-format
+msgid "There was an error loading a terminal keybinding. (%s)\n"
+msgstr "ཊར་མི་ནཱལ་ ལྡེ་མིག་སྡམ་ཐག་(%s)མངོན་གསར་འབད་ནི་ལུ་འཛོལ་བ་ཅིག་འདུག་\n"
+
+#: ../src/ui/keyboard-properties.c:409
+#, c-format
+msgid "The value of configuration key %s is not valid; value is \"%s\"\n"
+msgstr "རིམ་སྒྲིག་ལྡེ་མིག་གི་གནས་གོང་%s འདི་ནུས་ཅན་མེན་པས; གནས་གོང་འདི་ \"%s\"ཨིན་\n"
+
+#: ../src/ui/keyboard-properties.c:432
+#, c-format
+msgid "There was an error loading config value for whether to use menubar access keys. (%s)\n"
+msgstr "ལག་དེབ་ཕྲ་རིང་འཛུལ་བསྐྱོད་ལྡེ་མིག་(%s)ཚུ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན་ན་གི་དོན་ལུ་ རིམ་སྒྲིག་གནས་གོང་དེ་མངོན་གསལ་འབད་ནི་ལུ་འཛོལ་བ་ཅིག་འདུག་ \n"
+
+#: ../src/ui/keyboard-properties.c:446
+#, c-format
+msgid "There was an error subscribing to notification on changes on whether to use menubar access keys (%s)\n"
+msgstr "ལག་དེབ་འཛུལ་བསྐྱོད་ལྡེ་མིག་(%s)ཚུ་ལག་ལེན་འཐབ་ནི་ཨིན་མེན་ན་ཚུ་གི་འགྱུར་བ་ཚུ་གི་བརྡ་བསྐུལ་དེ་ལུ་མཁོ་མངགས་འབད་ནི་ལུ་འཛོལ་བ་ཅིག་འདུག\n"
+
+#: ../src/ui/keyboard-properties.c:457
+#, c-format
+msgid "There was an error loading config value for whether to use menu accelerators. (%s)\n"
+msgstr "ལག་དེབ་མགྱོགས་འཕྲུལ་(%s) དེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན་ན་གི་དོན་ལུ་ རིམ་སྒྲིག་གནས་གོང་མངོན་གསལ་འབད་ནིའི་དོན་ལུ་འཛོལ་བ་ཅིག་འདུག\n"
+
+#: ../src/ui/keyboard-properties.c:473
+#, c-format
+msgid "There was an error subscribing to notification for use_menu_accelerators (%s)\n"
+msgstr "ལག་དེབ་_མགྱོགས་འཕྲུལ་_ལག་ལེན་འཐབ་(%s)ཟེར་མི་དེ་གི་དོན་ལུ་ བརྡ་བསྐུལ་ལུ་མཁོ་བསྔགས་འབད་བཞག་ནི་ལུ་འཛོལ་བ་ཅིག་འདུག\n"
+
+#: ../src/ui/keyboard-properties.c:755
+msgid "Disabled"
+msgstr "ལྕོགས་མིན་བཟོ་ཡོདཔ་"
+
+#: ../src/ui/keyboard-properties.c:815
+#, c-format
+msgid "Error propagating accelerator change to configuration database: %s\n"
+msgstr "མགྱོགས་འཕྲུལ་གྱི་འགྱུར་བ་དེ་ རིམ་སྒྲིག་གནད་སྡུད་གཞི་རྟེན་ལུ་དར་ཁྱབ་གཏང་ནིའི་དོན་ལུ་ འཛོལ་བ་འདུག: %s\n"
+
+#: ../src/ui/keyboard-properties.c:983
+#, c-format
+msgid "Error setting new accelerator in configuration database: %s\n"
+msgstr "རིམ་སྒྲིག་གནད་སྡུད་གཞི་རྟེན་ནང་ལུ་མགྱོགས་འཕྲུལ་གསརཔ་ཅིག་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་ འཛོལ་བ་འདུག:%s\n"
+
+#: ../src/ui/keyboard-properties.c:1082
+msgid "_Action"
+msgstr "བྱ་བ་(_A)"
+
+#: ../src/ui/keyboard-properties.c:1105
+msgid "Shortcut _Key"
+msgstr "མགྱོགས་ཐབས་ལྡེ་མིག་(_K)"
+
+#: ../src/ui/ui-main.c:537
+msgid "Resume game"
+msgstr "རྩེདམོ་བསྐྱར་ལོག་འབད་"
+
+#: ../src/ui/ui-main.c:635
+msgid "translator_credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད་(_c)"
+
+#: ../src/ui/ui-main.c:643
+msgid "Monkey Bubble is an Arcade Game for the GNOME Desktop Environment. Simply remove all Bubbles by the creation of unicolor triplets."
+msgstr "ཇི་ནོམ་ཌེཀསི་ཊོཔ་དེ་གི་དོན་ལུ་ མོང་ཀི་བ་བཱལ་འདི་ ཞུ་དབྱིབས་ཅན་གྱི་རྩེདམོ་ཅིག་ཨིན། ཡུ་ནི་ཀ་ལཱར་ ཊིབ་ལཊི་ཚུ་གསར་བསྐྲུན་འབད་བའི་ཐོག་ལས་ ཆུ་འབུར་ཚུ་ཆ་མཉམ་རྩ་བསྐྲད་གཏང་།"
+
+#: ../src/ui/ui-main.c:664
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "གྲོགས་རམ་: %s བཀྲམ་སྟོན་འབད་ནི་ལུ་འཛོལ་བ་འདུག"
+
+#: ../src/ui/ui-network-server.c:159
+#: ../src/ui/ui-network-client.c:149
+msgid "_Player name"
+msgstr "རྩེད་མའི་མིང་(_P)"
+
+#: ../src/ui/ui-network-server.c:166
+#: ../src/ui/ui-network-client.c:156
+msgid "_Owner"
+msgstr "བདག་པོ་(_O)"
+
+#: ../src/ui/ui-network-server.c:173
+#: ../src/ui/ui-network-client.c:163
+msgid "_Ready"
+msgstr "གྲ་སྒྲིག་(_R)"
+

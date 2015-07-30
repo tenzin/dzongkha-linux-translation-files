@@ -1,0 +1,5133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnopernicus.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-24 07:26+0100\n"
+"PO-Revision-Date: 2006-03-20 14:27-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: braille/test/remote.c:548
+msgid "Braille remote"
+msgstr "འབུར་ཡིག་ཐག་རིང་།"
+
+#: brlmon/brlmon.c:196
+msgid "Braille monitor"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས།"
+
+#: brlmon/brlmon.c:325
+#: brlmon/brlmon.c:333
+#, c-format
+msgid "Invalid port number: %d."
+msgstr "ནུས་མེད་འདྲེན་ལམ་ཨང་: %d"
+
+#: brlmon/brlmon.c:326
+#: brlmon/brlmon.c:334
+msgid "port_no = [1025 - 30000]."
+msgstr "འདྲེན་ལམ་ཨང་=[༡༠༢༥-༣༠༠༠༠](_n)"
+
+#: brlmon/brlmon.c:520
+msgid "Can not open socket!"
+msgstr "སོཀ་ཀེཊི་ཁ་ཕྱེ་མི་ཚུགས་པས།"
+
+#: brlmon/brlmon.c:543
+#, c-format
+msgid "Can not bind port number %d."
+msgstr "འདྲེན་ལམ་ཨང་%d བསྡམ་མི་ཚུགས་པས།"
+
+#: brlmon/brlmon.c:547
+#, c-format
+msgid "Waiting for data on port UDP %u."
+msgstr "འདྲེན་ལམ་ཡུ་ཌི་པི་%uགུ་ གནད་སྡུད་དོན་ལུ་ བསྒུག་སྟེ་ཡོད།"
+
+#: brlmon/brlmonui.c:225
+#: gnopi/gnopiconf.c:43
+msgid "Failed to init gconf client."
+msgstr "ཇི་ཀཱོནཕ་ ཞབས་ཏོག་སྤྱོད་མི་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:234
+#: srconf/libsrconf/libsrconf.c:418
+msgid "Failed to add directory."
+msgstr "སྣོད་ཐོ་ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:246
+#: gnopi/kbconf.c:79
+#: gnopi/spconf.c:89
+#: srconf/libsrconf/libsrconf.c:431
+msgid "Failed to add notify."
+msgstr "བརྡ་བསྐུལ་ཁ་སྐོང་བརྐྱབ་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:261
+#: gnopi/gnopiconf.c:145
+#, c-format
+msgid "Expected key: %s"
+msgstr "རེ་བ་བསྐྱེད་མི་ལྡེ་མིག་: %s "
+
+#: brlmon/brlmonui.c:301
+#, c-format
+msgid "Failed to set value: %d"
+msgstr "བེ་ལུ་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:342
+#: brlmon/brlmonui.c:444
+#: gnopi/gnopiconf.c:355
+#: gnopi/gnopiconf.c:409
+#: gnopi/gnopiconf.c:560
+#: gnopi/gnopiconf.c:733
+#, c-format
+msgid "Invalid type of key: %s."
+msgstr "ལྡེ་མིག་: %s གི་ནུས་མེད་དབྱེ་བ།"
+
+#: brlmon/brlmonui.c:345
+#: brlmon/brlmonui.c:364
+#, c-format
+msgid "Failed to set int value: %d."
+msgstr "ཐོག་མའི་བེ་ལུ་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:358
+#: brlmon/brlmonui.c:459
+#, c-format
+msgid "Failed to get value: %s."
+msgstr "བེ་ལུ་: %s ལེན་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:403
+#: gnopi/gnopiconf.c:357
+#: gnopi/gnopiconf.c:375
+#: gnopi/gnopiconf.c:562
+#: gnopi/gnopiconf.c:578
+#, c-format
+msgid "Failed to set value: %d."
+msgstr "བེ་ལུ་: %d གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:447
+#: brlmon/brlmonui.c:462
+#, c-format
+msgid "Failed to set boolean value: %d."
+msgstr "བུ་ལིན་བེ་ལུ་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:501
+#: gnopi/gnopiconf.c:496
+#: gnopi/gnopiconf.c:509
+#, c-format
+msgid "Failed to set value: %s."
+msgstr "བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:535
+#, c-format
+msgid "Failed to get string value: %s."
+msgstr "ཡིག་རྒྱུན་བེ་ལུ་: %sལེན་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:539
+#: brlmon/brlmonui.c:549
+#, c-format
+msgid "Failed to set string value: %s."
+msgstr "ཡིག་རྒྱུན་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: brlmon/brlmonui.c:583
+#: gnopi/bmui.c:297
+#, c-format
+msgid "Invalid modetype: %s."
+msgstr "ནུས་མེད་ཐབས་ལམ་དབྱེ་བ་: %s "
+
+#: brlmon/brlmonui.c:635
+#, c-format
+msgid "%s font not installed."
+msgstr "ཡིག་གཟུགས་%s གཞི་བཙུགས་མ་འབད་བས།"
+
+#. *
+#. * bmui_load_colors
+#. *
+#. * Load text colors.
+#. *
+#. * returns:
+#. *
+#: brlmon/brlmonui.c:639
+#: gnopi/bmui.c:251
+msgid "Can not parse color string."
+msgstr "ཚོས་གཞིའི་ཡིག་རྒྱུན་ མིང་དཔྱད་འབད་མི་ཚུགས་པས།"
+
+#: brlmon/brlmonui.c:1112
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#: brlmon/brlmonui.c:1319
+#, c-format
+msgid "Too many cells on display. [Max %d]"
+msgstr "བཀྲམ་སྟོན་འབད་མི་ ནང་ཐིག་མང་དྲགས་པས། [མང་མཐའ་%d]"
+
+#: brlmon/brlmonui.c:1320
+#, c-format
+msgid "Load default display size. Line: %d Column: %d."
+msgstr "སྔོན་སྒྲིག་བཀྲམ་སྟོན་གྱི་ཚད་ མངོན་གསལ་འབད། གྱལ་རིམ་: %d ཀེར་ཐིག་: %d"
+
+#. unsupported attribute
+#: brlmon/brlmonxml.c:84
+#, c-format
+msgid "BRLOUT attribute %s is not supported."
+msgstr "བི་ཨར་ཨེལ་ཨོ་ཡུ་ཊི་གི་ཁྱད་ཆོས་%s ལུ་ རྒྱབ་སྐྱོར་མ་འབད་བས།"
+
+#. unsupported attribute
+#: brlmon/brlmonxml.c:218
+#, c-format
+msgid "TEXT attribute %s is not supported."
+msgstr "ཚིག་ཡིག་གི་ཁྱོད་ཆོས་%s ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: gnopi/bmconf.c:318
+msgid "Failed to set display size."
+msgstr "བཀྲམ་སྟོན་གྱི་ཚད་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/bmconf.c:336
+msgid "Failed to set display position."
+msgstr "བཀྲམ་སྟོན་གྱི་གནས་ས་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/bmconf.c:368
+msgid "Failed to set display mode."
+msgstr "བཀྲམ་སྟོན་གྱི་ཐབས་ལམ་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/bmconf.c:392
+msgid "Failed to set dot type colors."
+msgstr "ཚག་གི་དབྱེ་བའི་ཚོས་གཞི་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/bmconf.c:409
+msgid "Failed to set font size."
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/bmui.c:328
+#, c-format
+msgid "Invalid position: %s."
+msgstr "ནུས་མེད་གནས་ས་: %s "
+
+#: gnopi/brlconf.c:282
+#: gnopi/cmdmapconf.c:237
+#: gnopi/coreconf.c:140
+#: gnopi/kbconf.c:126
+#: gnopi/magconf.c:226
+#: gnopi/spconf.c:152
+#: gnopi/spconf.c:1203
+msgid "Unable to allocate memory."
+msgstr "དྲན་ཚད་ག་ཡོད་འཚོལ་མ་ཐོབ།"
+
+#: gnopi/brlconf.c:388
+#, c-format
+msgid "Failed to set braille style: %s."
+msgstr "འབུར་ཡིག་དབྱེ་བ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:397
+#, c-format
+msgid "Failed to set braille cursor style: %s."
+msgstr "འབུར་ཡིག་འོད་རྟགས་དབྱེ་བ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:406
+#, c-format
+msgid "Failed to set attribute settings: %d."
+msgstr "ཁྱད་ཆོས་ཀྱི་གཞི་སྒྲིག་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:415
+#, c-format
+msgid "Failed to set braille device: %s."
+msgstr "འབུར་ཡིག་ཐབས་འཕྲུལ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:424
+#, c-format
+msgid "Failed to set fill character: %s."
+msgstr "བཀང་ནིའི་ཡིག་འབྲུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:433
+#, c-format
+msgid "Failed to set serial port number: %d."
+msgstr "ཨང་རིམ་འདྲེན་ལམ་ཨང་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:443
+#, c-format
+msgid "Failed to set translation table: %s."
+msgstr "སྐད་བསྒྱུར་ཐིག་ཁྲམ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:452
+#, c-format
+msgid "Failed to set optical sensor: %d."
+msgstr "མཐོང་བའི་ཚོར་འཕྲུལ: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:461
+#, c-format
+msgid "Failed to set position sensor: %d."
+msgstr "གནས་སའི་ཚོར་འཕྲུལ་: %d གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:470
+#, c-format
+msgid "Failed to set status cell: %s."
+msgstr "གནས་ཚད་ནང་ཐིག་%sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/brlconf.c:556
+msgid "<none>"
+msgstr "<none>"
+
+#: gnopi/brlui.c:79
+msgid "American English"
+msgstr "ཨ་མིརི་ཀཱན་ ཨིང་ལིཤ།"
+
+#: gnopi/brlui.c:80
+msgid "German"
+msgstr "ཇར་མཱན།"
+
+#: gnopi/brlui.c:81
+msgid "Spanish"
+msgstr "སི་པེ་ནིཤ།"
+
+#: gnopi/brlui.c:82
+msgid "Swedish"
+msgstr "སུའི་ཌིཤ།"
+
+#. To translators: X = X Window System server
+#: gnopi/brlui.c:351
+msgid "X display's _terminal number:"
+msgstr "ཨེགསི་གིས་ ཊར་མི་ནཱལ་ཨང་: བཀྲམ་སྟོན་འབདཝ་ཨིན།(_t)"
+
+#: gnopi/brlui.c:357
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:6
+msgid "_Port:"
+msgstr "འདྲེན་ལམ་:(_P)"
+
+#: gnopi/brlui.c:623
+msgid "Language"
+msgstr "སྐད་ཡིག"
+
+#: gnopi/brlui.c:1218
+#: gnopi/cmdmapui.c:475
+msgid "No selected command!"
+msgstr "སེལ་འཐུ་འབད་མི་ བརྡ་བཀོད་མིན་འདུག"
+
+#: gnopi/brlui.c:1242
+msgid "Invalid device key!"
+msgstr "ནུས་མེད་ཐབས་འཕྲུལ་ལྡེ་མིག"
+
+#: gnopi/brlui.c:1477
+#: gnopi/brlui.c:1900
+#: gnopi/cmdmapui.c:717
+#: gnopi/cmdmapui.c:1568
+#: gnopi/cmdmapui.c:1588
+msgid "Commands"
+msgstr "བརྡ་བཀོད་ཚུ།"
+
+#: gnopi/brlui.c:1632
+#: gnopi/cmdmapui.c:1186
+msgid "No selected item to modify!"
+msgstr "ལེགས་བཅོས་འབད་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་མིན་འདུག"
+
+#: gnopi/brlui.c:1644
+#: gnopi/brlui.c:1724
+#: gnopi/cmdmapui.c:1059
+#: gnopi/cmdmapui.c:1196
+msgid "Invalid selected item!"
+msgstr "ནུས་མེད་སེལ་འཐུ་འབད་མི་རྣམ་གྲངས།"
+
+#: gnopi/brlui.c:1712
+#: gnopi/cmdmapui.c:1046
+msgid "No selected item to remove!"
+msgstr "རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་མིན་འདུག"
+
+#: gnopi/brlui.c:1894
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:9
+msgid "Braille Keys"
+msgstr "འབུར་ཡིག་ལྡེ་མིག་ཚུ།"
+
+#: gnopi/cmdmapconf.c:462
+#: gnopi/cmdmapconf.c:503
+msgid "Change commit error."
+msgstr "འཛོལ་བ་བཟོ་མི་ བསྒྱུར་བཅོས་འབད།"
+
+#: gnopi/cmdmapui.c:45
+msgid "decrease y scale"
+msgstr "ཝའི་གི་ཆ་ཚད་ མར་ཕབ།"
+
+#: gnopi/cmdmapui.c:46
+msgid "decrease x scale"
+msgstr "ཨེགསི་གི་ཆ་ཚད་ མར་ཕབ།"
+
+#: gnopi/cmdmapui.c:47
+msgid "increase y scale"
+msgstr "ཝའི་གི་ཆ་ཚད་ ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:48
+msgid "increase x scale"
+msgstr "ཨེགསི་གི་ཆ་ཚད་ ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:49
+msgid "lock xy scale"
+msgstr "ཨེགསི་ཝའི་གི་ཆ་ཚད་ ལྡེ་མིག་རྐྱབས།"
+
+#: gnopi/cmdmapui.c:50
+msgid "smoothing toggle"
+msgstr "ཧུམ་ཆའི་སོར་སྟོན།"
+
+#: gnopi/cmdmapui.c:51
+msgid "cursor toggle"
+msgstr "འོད་རྟགས་སོར་སྟོན།"
+
+#: gnopi/cmdmapui.c:52
+msgid "cursor on/off"
+msgstr "འོད་རྟགས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:53
+msgid "cursor magnification on/off"
+msgstr "འོད་རྟགས་ཆེར་བསྐྱེད ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:54
+msgid "decrease cursor size"
+msgstr "འོད་རྟགས་ཚད་མར་ཕབ།"
+
+#: gnopi/cmdmapui.c:55
+msgid "increase cursor size"
+msgstr "འོད་རྟགས་ཚད་ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:56
+msgid "invert on/off"
+msgstr "ཨཱོན་/ཨོཕ་ གནས་ལོག་འབད།"
+
+#: gnopi/cmdmapui.c:57
+msgid "magnifier default"
+msgstr "ཆེ་ཤེལ་སྔོན་སྒྲིག"
+
+#: gnopi/cmdmapui.c:58
+msgid "crosshair on/off"
+msgstr "ཀོརོསི་ཧེའར་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:59
+msgid "crosshair clip on/off"
+msgstr "ཀོརོསི་ཧེའར་ འཛིན་ལྕགས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:60
+msgid "decrease crosshair size"
+msgstr "ཀོརོསི་ཧེའར་ཚད་མར་ཕབ་།"
+
+#: gnopi/cmdmapui.c:61
+msgid "increase crosshair size"
+msgstr "ཀོརོསི་ཧེའར་ཚད་ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:62
+msgid "automatic panning on/off"
+msgstr "རང་བཞིན་རྗེས་སུ་དམིགས་པ་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:63
+msgid "mouse tracking toggle"
+msgstr "མཱའུསི་ ཊེ་ཀིང་སོར་སྟོན་།"
+
+#: gnopi/cmdmapui.c:64
+msgid "load magnifier defaults"
+msgstr "ཆེ་ཤེལ་སྔོན་སྒྲིག་མངོན་གསལ་འབད"
+
+#: gnopi/cmdmapui.c:66
+msgid "decrease pitch"
+msgstr "སྟུག་ཚད་མར་ཕབ།"
+
+#: gnopi/cmdmapui.c:67
+msgid "increase pitch"
+msgstr "སྟུག་ཚད་ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:68
+msgid "default pitch"
+msgstr "སྔོན་སྒྲིག་སྟུག་ཚད"
+
+#: gnopi/cmdmapui.c:69
+msgid "decrease rate"
+msgstr "མགྱོགས་ཚད་མར་ཕབ།"
+
+#: gnopi/cmdmapui.c:70
+msgid "increase rate"
+msgstr "མགྱོགས་ཚད་ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:71
+msgid "default rate"
+msgstr "སྔོན་སྒྲིག་མགྱོགས་ཚད།"
+
+#: gnopi/cmdmapui.c:72
+msgid "decrease volume"
+msgstr "སྐད་ཤུགས་མར་ཕབ།"
+
+#: gnopi/cmdmapui.c:73
+msgid "increase volume"
+msgstr "སྐད་ཤུགས་ཡར་སེང་།"
+
+#: gnopi/cmdmapui.c:74
+msgid "default volume"
+msgstr "སྔོན་སྒྲིག་སྐད་ཤུགས།"
+
+#: gnopi/cmdmapui.c:75
+msgid "speech default"
+msgstr "གསུང་བཤད་སྔོན་སྒྲིག"
+
+#: gnopi/cmdmapui.c:77
+msgid "goto parent"
+msgstr "རྩ་ལག་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:78
+msgid "goto child"
+msgstr "ཆ་ལག་ལུ་སོང་།"
+
+#: gnopi/cmdmapui.c:79
+msgid "goto previous"
+msgstr "ཧེ་མམ་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:80
+msgid "goto next"
+msgstr "གཞན་མི་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:81
+msgid "repeat last"
+msgstr "མཐའ་མཇུག་ཡང་བསྐྱར་འབད།"
+
+#: gnopi/cmdmapui.c:82
+msgid "goto focus"
+msgstr "ཆེད་དམིགས་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:83
+msgid "goto title"
+msgstr "མགོ་མིང་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:84
+msgid "goto menu"
+msgstr "དཀར་ཆག་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:85
+msgid "goto toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་ལུ་འགྱོ་།"
+
+#: gnopi/cmdmapui.c:86
+msgid "goto statusbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་ལུའགྱོ།"
+
+#: gnopi/cmdmapui.c:87
+msgid "widget surroundings"
+msgstr "ཝི་གེཊི་གི་མཐའ་འཁོར་ལུ།"
+
+#: gnopi/cmdmapui.c:89
+msgid "goto caret"
+msgstr "ཀེ་རེཊི་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:90
+msgid "goto first"
+msgstr "དང་པམ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:91
+msgid "goto last"
+msgstr "མཐའ་མཇུག་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:92
+msgid "change navigation mode"
+msgstr "འགྲུལ་བསྐྱོད་ཐབས་ལམ་ བསྒྱུར་བཅོས་འབད།"
+
+#: gnopi/cmdmapui.c:94
+msgid "toggle flat review/focus tracking mode"
+msgstr "ཕེལེཊི་བསྐྱར་ཞིབ་སོར་སྟོན་་འབད/ཊེ་ཀིང་ཐབས་ལམ་ལུ་ ཆེད་དམིགས་འབད།"
+
+#: gnopi/cmdmapui.c:95
+msgid "flat review"
+msgstr "ཕེལེཊི་བསྐྱར་ཞིབ།"
+
+#: gnopi/cmdmapui.c:96
+msgid "window hierarchy"
+msgstr "སྒོ་སྒྲིག་གི་སྡེ་རིམ།"
+
+#: gnopi/cmdmapui.c:97
+msgid "read whole window"
+msgstr "སྒོ་སྒྲིག་ཧྲིལ་བུ་ལྷག"
+
+#: gnopi/cmdmapui.c:98
+msgid "detailed informations"
+msgstr "བརྡ་དོན་རྒྱས་བཤད།"
+
+#: gnopi/cmdmapui.c:99
+msgid "do default action"
+msgstr "སྔོན་སྒྲིག་བྱ་བ་བརྩམ།"
+
+#: gnopi/cmdmapui.c:100
+msgid "window overview"
+msgstr "སྒོ་སྒྲིག་སྤྱི་མཐོང་།"
+
+#: gnopi/cmdmapui.c:101
+msgid "find next"
+msgstr "གཞན་མི་འཚོལ།"
+
+#: gnopi/cmdmapui.c:102
+msgid "find set"
+msgstr "གཞི་སྒྲིག་འཚོལ།"
+
+#: gnopi/cmdmapui.c:103
+msgid "attributes at caret"
+msgstr "ཀེ་རེཊི་ལུ་ རྒྱུ་རྐྱེན་འབད།"
+
+#: gnopi/cmdmapui.c:104
+msgid "watch current object"
+msgstr "ད་ལྟོའི་དངོས་པོ་ལུ་ ལྟ་ཞིབ་འབད།"
+
+#: gnopi/cmdmapui.c:105
+#: srcore/srctrl.c:1353
+msgid "unwatch all objects"
+msgstr "དངོས་པོ་ཆ་མཉམ་ ལྟ་བཤོལ་འབད།"
+
+#: gnopi/cmdmapui.c:107
+msgid "mouse left press"
+msgstr "མཱའུསི་གཡོན་ལུ་ཨེབ།"
+
+#: gnopi/cmdmapui.c:108
+msgid "mouse left click"
+msgstr "མཱའུསི་གཡོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: gnopi/cmdmapui.c:109
+msgid "mouse left release"
+msgstr "མཱའུསི་གཡོན་ འཛིན་འགྲོལ་འབད།"
+
+#: gnopi/cmdmapui.c:110
+msgid "mouse right press"
+msgstr "མཱའུསི་གཡས་ལུ་ཨེབ།"
+
+#: gnopi/cmdmapui.c:111
+msgid "mouse right click"
+msgstr "མཱའུསི་གཡས་ལུ་ཨེབ་གཏང་།"
+
+#: gnopi/cmdmapui.c:112
+msgid "mouse right release"
+msgstr "མཱའུསི་གཡས་ལུ་འཛིན་འགྲོལ།"
+
+#: gnopi/cmdmapui.c:113
+msgid "mouse middle press"
+msgstr "མཱའུསི་སྦུག་ལུ་ཨེབ།"
+
+#: gnopi/cmdmapui.c:114
+msgid "mouse middle release"
+msgstr "མཱའུསི་སྦུག་འཛིན་འགྲོལ།"
+
+#: gnopi/cmdmapui.c:115
+msgid "mouse middle click"
+msgstr "མཱའུསི་སྦུག་ལུ་ཨེབ་གཏང་།"
+
+#: gnopi/cmdmapui.c:116
+msgid "mouse goto current"
+msgstr "མཱའུསི་ ད་ལྟོ་ལུ་འགྱོ།"
+
+#: gnopi/cmdmapui.c:118
+msgid "shutup"
+msgstr "སྒོ་བསྡམས།"
+
+#: gnopi/cmdmapui.c:119
+msgid "pause/resume"
+msgstr "ཐེམ་/བསྐྱར་ལོག་འབད།"
+
+#: gnopi/cmdmapui.c:121
+msgid "char left"
+msgstr "ཡིག་འབྲུ་གཡོན་ལུ།"
+
+#: gnopi/cmdmapui.c:122
+msgid "char right"
+msgstr "ཡིག་འབྲུ་གཡས་ལུ།"
+
+#: gnopi/cmdmapui.c:123
+msgid "display left"
+msgstr "བཀྲམ་སྟོན་གཡོན་ལུ།"
+
+#: gnopi/cmdmapui.c:124
+msgid "display right"
+msgstr "བཀྲམ་སྟོན་གཡས་ལུ།"
+
+#: gnopi/cmdmapui.c:126
+msgid "braille on/off"
+msgstr "འབུར་ཡིག་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:127
+msgid "speech on/off"
+msgstr "གསུང་བཤད་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:128
+msgid "magnifier on/off"
+msgstr "ཆེ་ཤེལ་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:129
+msgid "braille monitor on/off"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/cmdmapui.c:143
+msgid "A"
+msgstr "A"
+
+#: gnopi/cmdmapui.c:144
+msgid "B"
+msgstr "B"
+
+#: gnopi/cmdmapui.c:145
+msgid "C"
+msgstr "C"
+
+#: gnopi/cmdmapui.c:146
+msgid "D"
+msgstr "D"
+
+#: gnopi/cmdmapui.c:147
+msgid "E"
+msgstr "E"
+
+#: gnopi/cmdmapui.c:148
+msgid "F"
+msgstr "F"
+
+#: gnopi/cmdmapui.c:149
+msgid "G"
+msgstr "G"
+
+#: gnopi/cmdmapui.c:150
+msgid "H"
+msgstr "H"
+
+#: gnopi/cmdmapui.c:151
+msgid "I"
+msgstr "I"
+
+#: gnopi/cmdmapui.c:152
+msgid "J"
+msgstr "J"
+
+#: gnopi/cmdmapui.c:153
+msgid "K"
+msgstr "K"
+
+#: gnopi/cmdmapui.c:154
+msgid "L"
+msgstr "L"
+
+#: gnopi/cmdmapui.c:155
+msgid "M"
+msgstr "M"
+
+#: gnopi/cmdmapui.c:156
+msgid "N"
+msgstr "N"
+
+#: gnopi/cmdmapui.c:157
+msgid "O"
+msgstr "O"
+
+#: gnopi/cmdmapui.c:158
+msgid "P"
+msgstr "P"
+
+#: gnopi/cmdmapui.c:159
+msgid "Q"
+msgstr "Q"
+
+#: gnopi/cmdmapui.c:160
+msgid "R"
+msgstr "R"
+
+#: gnopi/cmdmapui.c:161
+msgid "S"
+msgstr "S"
+
+#: gnopi/cmdmapui.c:162
+msgid "T"
+msgstr "T"
+
+#: gnopi/cmdmapui.c:163
+msgid "U"
+msgstr "U"
+
+#: gnopi/cmdmapui.c:164
+msgid "V"
+msgstr "V"
+
+#: gnopi/cmdmapui.c:165
+msgid "W"
+msgstr "W"
+
+#: gnopi/cmdmapui.c:166
+msgid "X"
+msgstr "X"
+
+#: gnopi/cmdmapui.c:167
+msgid "Y"
+msgstr "Y"
+
+#: gnopi/cmdmapui.c:168
+msgid "Z"
+msgstr "Z"
+
+#: gnopi/cmdmapui.c:169
+msgid "F1"
+msgstr "F1"
+
+#: gnopi/cmdmapui.c:170
+msgid "F2"
+msgstr "F2"
+
+#: gnopi/cmdmapui.c:171
+msgid "F3"
+msgstr "F3"
+
+#: gnopi/cmdmapui.c:172
+msgid "F4"
+msgstr "F4"
+
+#: gnopi/cmdmapui.c:173
+msgid "F5"
+msgstr "F5"
+
+#: gnopi/cmdmapui.c:174
+msgid "F6"
+msgstr "F6"
+
+#: gnopi/cmdmapui.c:175
+msgid "F7"
+msgstr "F7"
+
+#: gnopi/cmdmapui.c:176
+msgid "F8"
+msgstr "F8"
+
+#: gnopi/cmdmapui.c:177
+msgid "F9"
+msgstr "F9"
+
+#: gnopi/cmdmapui.c:178
+msgid "F10"
+msgstr "F10"
+
+#: gnopi/cmdmapui.c:179
+msgid "F11"
+msgstr "F11"
+
+#: gnopi/cmdmapui.c:180
+msgid "F12"
+msgstr "F12"
+
+#: gnopi/cmdmapui.c:181
+msgid "0"
+msgstr "༠"
+
+#: gnopi/cmdmapui.c:182
+msgid "1"
+msgstr "༡"
+
+#: gnopi/cmdmapui.c:183
+msgid "2"
+msgstr "༢"
+
+#: gnopi/cmdmapui.c:184
+msgid "3"
+msgstr "༣"
+
+#: gnopi/cmdmapui.c:185
+msgid "4"
+msgstr "༤"
+
+#: gnopi/cmdmapui.c:186
+msgid "5"
+msgstr "༥"
+
+#: gnopi/cmdmapui.c:187
+msgid "6"
+msgstr "༦"
+
+#: gnopi/cmdmapui.c:188
+msgid "7"
+msgstr "༧"
+
+#: gnopi/cmdmapui.c:189
+msgid "8"
+msgstr "༨"
+
+#: gnopi/cmdmapui.c:190
+msgid "9"
+msgstr "༩"
+
+#: gnopi/cmdmapui.c:191
+msgid "apostrophe"
+msgstr "འབྲེལ་རྟགས།"
+
+#: gnopi/cmdmapui.c:192
+msgid "backslash"
+msgstr "གཡོ་ཤད་ལོག་པ།"
+
+#: gnopi/cmdmapui.c:193
+msgid "bracket left"
+msgstr "གཡོན་གྱི་གུག་ཤད།"
+
+#: gnopi/cmdmapui.c:194
+msgid "bracket right"
+msgstr "གཡས་ཀྱི་གུག་ཤད།"
+
+#: gnopi/cmdmapui.c:195
+msgid "comma"
+msgstr "ལྷོད་རྟགས།"
+
+#: gnopi/cmdmapui.c:196
+msgid "equal"
+msgstr "མཉམ་རྟགས།"
+
+#: gnopi/cmdmapui.c:197
+msgid "grave"
+msgstr "སྒྲ་རྟགས།"
+
+#: gnopi/cmdmapui.c:198
+msgid "minus"
+msgstr "ཕབ་རྟགས།"
+
+#: gnopi/cmdmapui.c:199
+msgid "period"
+msgstr "དུས་ཡུན།"
+
+#: gnopi/cmdmapui.c:200
+msgid "quote left"
+msgstr "གཡོན་གྱི་གནས་ལོག།"
+
+#: gnopi/cmdmapui.c:201
+msgid "semicolon"
+msgstr "སེ་མི་ཀོ་ལཱོན།"
+
+#: gnopi/cmdmapui.c:202
+msgid "slash"
+msgstr "གཡོ་ཤད།"
+
+#: gnopi/cmdmapui.c:1133
+msgid "Invalid key or existent key."
+msgstr "ནུས་མེད་ལྡེ་མིག་གམ་ གནས་པའི་ལྡེ་མིག"
+
+#: gnopi/cmdmapui.c:1562
+msgid "Layer Keys"
+msgstr "བང་རིམ་ལྡེ་མིག་ཚུ།"
+
+#: gnopi/cmdmapui.c:1582
+msgid "User Keys"
+msgstr "ལག་ལེན་པའི་ལྡེ་མིག་ཚུ།"
+
+#: gnopi/coreconf.c:248
+#, c-format
+msgid "Failed to set exit val: %d."
+msgstr "ཕྱིར་འཐོན་བེ་ལུ་: : %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:290
+#, c-format
+msgid "Failed to set move mouse: %d."
+msgstr "མཱའུསི་སྤོ་བཤུད་:%dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:299
+#, c-format
+msgid "Failed to set simulate click: %d."
+msgstr "མཚུངས་བཟོའི་ཨེབ་གཏང་་:%dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:308
+#, c-format
+msgid "Failed to set find text: %s."
+msgstr "ཡིག་འཚོལ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:318
+#, c-format
+msgid "Failed to set magnifier status: %d."
+msgstr "ཆེ་ཤེལ་གནས་ཚད་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:327
+#, c-format
+msgid "Failed to set speech status: %d."
+msgstr "གསུང་བཤད་གནས་ཚད་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:336
+#, c-format
+msgid "Failed to set braille status: %d."
+msgstr "འབུར་ཡིག་གནས་ཚད་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:345
+#, c-format
+msgid "Failed to set braille monitor status: %d."
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས་གནས་ཚད་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:354
+#, c-format
+msgid "Failed to set minimize flag: %d."
+msgstr "མར་ཕབ་ཟུར་རྟགས་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/coreconf.c:363
+#, c-format
+msgid "Failed to set exit ack: %d."
+msgstr "ཕྱིར་འཐོན་ཨེ་སི་ཀེ་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས། "
+
+#: gnopi/coreconf.c:372
+#, c-format
+msgid "Failed to set language: %s."
+msgstr "སྐད་ཡིག་: %s གཞི་སྒྲིག་འབད་མ་ཚུགས། "
+
+#: gnopi/coreconf.c:381
+#, c-format
+msgid "Failed to set screen review: %d."
+msgstr "གསལ་གཞི་བསྐྱར་ཞིབ་: %dགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/defui.c:73
+#, c-format
+msgid "Are you sure you want to load default values for %s?"
+msgstr "ཁྱོད་ཀྱིས་%sགི་དོན་ལུ་ སྔོན་སྒྲིག་བེ་ལུསི་ ངེས་པར་མངོན་གསལ་འབད་ནི་ཨིན་ན?"
+
+#: gnopi/defui.c:100
+msgid "braille"
+msgstr "འབུར་ཡིག"
+
+#: gnopi/defui.c:116
+msgid "Braille default setting loaded."
+msgstr "འབུར་ཡིག་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:125
+msgid "speech"
+msgstr "གསུང་བཤད།"
+
+#: gnopi/defui.c:133
+msgid "Speech default setting loaded."
+msgstr "གསུང་བཤད་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:142
+msgid "magnifier"
+msgstr "ཆེ་ཤེལ།"
+
+#: gnopi/defui.c:156
+msgid "Magnifier default setting loaded."
+msgstr "ཆེ་ཤེལ་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:165
+msgid "keyboard"
+msgstr "ལྡེ་སྒྲོམ།"
+
+#: gnopi/defui.c:173
+msgid "Keyboard default setting loaded."
+msgstr "ལྡེ་སྒྲོམ་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:182
+msgid "braille monitor"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས།"
+
+#: gnopi/defui.c:189
+msgid "Braille monitor default setting loaded."
+msgstr "འབུར་ཡིག་གསལ་གཞི་་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:198
+msgid "start up"
+msgstr "འགོ་བཙུགས།"
+
+#: gnopi/defui.c:207
+msgid "Startup default setting loaded."
+msgstr "འགོ་བཙུགས་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:217
+msgid "command map"
+msgstr "བརྡ་བཀོད་ས་ཁྲ།"
+
+#: gnopi/defui.c:225
+msgid "Command map default setting loaded."
+msgstr "བརྡ་བཀོད་ས་ཁྲ་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:235
+msgid "presentation"
+msgstr "གསལ་སྟོན།"
+
+#: gnopi/defui.c:241
+msgid "Presentation default setting loaded."
+msgstr "གསལ་སྟོན་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:250
+msgid "screen review"
+msgstr "གསལ་གཞི་བསྐྱར་ཞིབ།"
+
+#: gnopi/defui.c:256
+msgid "Screen review default setting loaded."
+msgstr "གསལ་གཞི་བསྐྱར་ཞིབ་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་ མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/defui.c:279
+msgid "all modules"
+msgstr "ཚད་གཞི་ཆ་མཉམ།"
+
+#: gnopi/defui.c:282
+msgid "All default settings loaded."
+msgstr "སྔོན་སྒྲིག་སྒྲིག་སྟངས་ ཆ་མཉམ་མངོན་གསལ་འབད་ཡི།"
+
+#: gnopi/genui.c:66
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:12
+msgid "_Braille"
+msgstr "འབུར་ཡིག(_B)"
+
+#: gnopi/genui.c:69
+msgid "_Braille (unavailable)"
+msgstr "འབུར་ཡིག (འཐོབ་མི་ཚུགསཔ་)(_B)"
+
+#: gnopi/genui.c:74
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:13
+msgid "_Magnifier"
+msgstr "ཆེ་ཤེལ།(_M)"
+
+#: gnopi/genui.c:77
+msgid "_Magnifier (unavailable)"
+msgstr "ཆེ་ཤེལ། (འཐོབ་མི་ཚུགསཔ་)(_M)"
+
+#: gnopi/genui.c:82
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:14
+msgid "_Speech"
+msgstr "གསུང་བཤད། (_S)"
+
+#: gnopi/genui.c:85
+msgid "_Speech (unavailable)"
+msgstr "གསུང་བཤད། (འཐོབ་མི་ཚུགསཔ་)(_S)"
+
+#: gnopi/genui.c:90
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:4
+msgid "B_raille monitor"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས། (_r)"
+
+#: gnopi/genui.c:93
+msgid "B_raille monitor (unavailable)"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས། (འཐོབ་མི་ཚུགསཔ་)(_r)"
+
+#: gnopi/gnopernicus.desktop.in.h:1
+msgid "Assistive Technologies for Blind and Visually Impaired"
+msgstr "མིག་ཞར་དང་ མཐོང་སྐྱོན་ཡོད་མི་ཚུ་གི་དོན་ལུ་ ཕན་ཐོགས་ཅན་གྱི་འཕྲུལ་རིག"
+
+#: gnopi/gnopernicus.desktop.in.h:2
+msgid "Screen Reader and Magnifier"
+msgstr "གསལ་གཞི་ལྷག་མི་དང་ ཆེ་ཤེལ།"
+
+#: gnopi/gnopi.c:302
+msgid "gnopernicus"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི།"
+
+#: gnopi/gnopi.c:309
+msgid "Gconf initialization failed."
+msgstr "ཇི་ཀཱོནཕ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: gnopi/gnopi.c:316
+msgid "Invalid parameters."
+msgstr "ནུས་མེད་ཚད་བཟུང་།"
+
+#: gnopi/gnopi.c:322
+msgid "Multiple instances are NOT ALLOWED. This instance will end."
+msgstr "སྣ་མང་གོ་སྐབས་ཚུ་མི་ཆོག གོ་སྐབས་འདི་མཇུག་བསྡུ་འོང་།"
+
+#: gnopi/gnopi.c:328
+msgid "GTK initialization failed."
+msgstr "ཇི་ཊི་ཀེ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: gnopi/gnopi.c:334
+msgid "Can not create a new process."
+msgstr "བྱ་རིམ་གསརཔ་ཅིག་ བཟོ་མི་ཚུགས།"
+
+#: gnopi/gnopi.c:344
+msgid "Exit gnopernicus."
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ ཕྱིར་འཐོན་འབད།"
+
+#: gnopi/gnopi.c:352
+msgid "Gnopernicus initialization failed."
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: gnopi/gnopi.c:359
+msgid "Can not load .glade2 file"
+msgstr "ཡིག་སྣོད་གེལེཌི་༢ མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#. if (WIFSIGNALED (gn_srcore_status) != 0)
+#. sru_message ("signal no: %d", WTERMSIG (gn_srcore_status));
+#: gnopi/gnopi.c:663
+msgid "srcore exited."
+msgstr "སར་ཀོར་ ཕྱིར་ཐོན་འབད་ཡི།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:1
+msgid "<b>Color</b>"
+msgstr "<b>ཚོས་གཞི་</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>ཡིག་གཟུགས་</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:3
+msgid "<b>Mode Type</b>"
+msgstr "<b>ཐབས་ལམ་དབྱེ་བ་</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:4
+msgid "<b>Position</b>"
+msgstr "<b>གནས་ས་</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:5
+msgid "<b>Size</b>"
+msgstr "<b>ཚད་</b>"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:6
+msgid "B_raille"
+msgstr "<b>འབུར་ཡིག་</b>(_r)"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:7
+msgid "Braille Monitor Preferences"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:8
+msgid "Color selection for texts which use dot 7"
+msgstr "ཚག་ ༧ ལག་ལེན་འཐབ་མི་ ཚིག་ཡིག་ཚུ་གི་དོན་ལུ་ ཚོས་གཞིའི་སེལ་འཐུ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:9
+msgid "Color selection for texts which use dot 8"
+msgstr "ཚག་ ༨ ལག་ལེན་འཐབ་མི་ ཚིག་ཡིག་ཚུ་གི་དོན་ལུ་ ཚོས་གཞིའི་སེལ་འཐུ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:10
+msgid "Color selection for texts which use dots 7 and 8"
+msgstr "ཚག་ ༧ དང་ ༨ ལག་ལེན་འཐབ་མི་ ཚིག་ཡིག་ཚུ་གི་དོན་ལུ་ ཚོས་གཞིའི་སེལ་འཐུ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:11
+msgid "Colu_mns:"
+msgstr "ཀེར་ཐིག་ཚུ་:(_m)"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:12
+msgid "Display at bottom of screen"
+msgstr "གསལ་གཞིའི་མཇུག་ལུ་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:13
+msgid "Display on top of screen"
+msgstr "གསལ་གཞིའི་མགོ་ལུ་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:14
+msgid "Display using braille font"
+msgstr "འབུར་ཡིག་ཡིག་གཟུགས་ ལག་ལེན་འཐབ་སྟེ་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:15
+msgid "Display using normal font"
+msgstr "ཨ་རྟག་གི་ཡིག་གཟུགས་ ལག་ལེན་འཐབ་སྟེ་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:16
+msgid "Display with both fonts"
+msgstr "ཡིག་གཟུགས་གཉིས་ཆ་རང་ ལག་ལེན་འཐབ་སྟེ་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:17
+msgid "Dot 7:"
+msgstr "ཚག་ ༧:"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:18
+msgid "Dot 8:"
+msgstr "ཚག་ ༨:"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:19
+msgid "Dots 78:"
+msgstr "ཚག་ ༧༨:"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:20
+msgid "Number of cell columns"
+msgstr "ནང་ཐིག་ཀེར་ཐིག་གི་གྲངས།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:21
+msgid "Number of cell lines"
+msgstr "ནང་ཐིག་གི་གྱལ་རིམ་གྲངས།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:22
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:43
+msgid "Pick a color"
+msgstr "ཚོས་གཞི་ཅིག་འཐུ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:23
+msgid "Size of font"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:24
+msgid "Use system theme colors"
+msgstr "རིམ་ལུགས་བརྗོད་དོན་ཚོས་གཞི་ ལག་ལེན་འཐབ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:25
+msgid "Use theme _system colors"
+msgstr "བརྗོད་དོན་རིམ་ལུགས་ཚོས་གཞི་ ལག་ལེན་འཐབ།"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:26
+msgid "_Dual"
+msgstr "ཟུང་ལྡན།(_D)"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:27
+msgid "_Lines:"
+msgstr "གྱལ་རིམ་ཚུ་:(_L)"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:28
+msgid "_Normal"
+msgstr "སྤྱིར་བཏང་།(_N)"
+
+#: gnopi/gnopi_files/Braille_Monitor_Settings/braille_monitor_settings.glade2.h:29
+msgid "_Size:"
+msgstr "ཚད་:(_S)"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:1
+msgid "Attributes"
+msgstr "ཁྱད་ཆོས་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:2
+msgid "_1. Dot 8"
+msgstr "༡. ཚག་ ༨(_1)"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:3
+msgid "_2. Dot 7"
+msgstr "༢. ཚག་ ༧(_2)"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:4
+msgid "_3. Dot 8 or 7"
+msgstr "༣. ཚག་ ༨ ཡང་ན་ ༧(_3)"
+
+#: gnopi/gnopi_files/Braille_Settings/attribute_settings.glade2.h:5
+msgid "_4. Off"
+msgstr "༤. ཨོཕ(_4)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:1
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:1
+#: gnopi/gnopi_files/Find/find.glade2.h:2
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:1
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:1
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:3
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:2
+msgid "Braille Device"
+msgstr "འབུར་ཡིག་གི་ཐབས་འཕྲུལ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:3
+msgid "Braille devices list"
+msgstr "འབུལ་ཡིག་ཐབས་འཕྲུལ་གྱི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:4
+msgid "Serial port number where the device is linked"
+msgstr "ཐབས་འཕྲུལ་དེ་ འབྲེལ་བ་ཡོད་པའི་ ཨང་རིམ་འདྲེན་ལམ་གྱི་གྲངས་།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_device.glade2.h:5
+msgid "_Device:"
+msgstr "ཐབས་འཕྲུལ་:(_D)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:2
+msgid "10 _Font size"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད་༡༠།(_F)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:3
+msgid "11 _Activate script function \"OnPosSwitch\""
+msgstr "༡༡ ཡིག་ཚུགས་ཀྱི་བྱ་ལས་ཤུགས་ལྡན་བཟོ། \"OnPosSwitch\"(_A)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:4
+msgid "12 _Present attributes"
+msgstr "ད་ལྟའི་ཁྱད་ཆོས་ཚུ་༡༢།(_P)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:5
+msgid "<b>_Braille keys list</b>"
+msgstr "<b>འབུར་ཡིག་ལྡེ་མིག་ཚུ་གི་ཐོ་ཡིག་</b>(_B)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:6
+msgid "Activate script function \"OnPosSwitch\""
+msgstr "ཡིག་ཚུགས་བྱ་ལས་ཤུགས་ལྡན་བཟོ།\"OnPosSwitch\""
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:7
+msgid "Add item in braille keys list"
+msgstr "འབུར་ཡིག་ལྡེ་མིག་ཐོ་ཡིག་ནང་ རྣམ་གྲངས་ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:8
+msgid "Braille Display Key Mapping"
+msgstr "འབུར་ཡིག་བཀྲམ་སྟོན་ལྡེ་མིག་གི་ས་ཁྲ་བཟོ་བ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:10
+msgid "Braille device keys list"
+msgstr "འབུར་ཡིག་ཐབས་འཕྲུལ་ལྡེ་མིག་ཚུ་གི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:11
+msgid "Braille keys list"
+msgstr "འབུར་ཡིག་ལྡེ་མིག་ཚུ་གི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:12
+msgid "Command List"
+msgstr "བརྡ་བཀོད་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:13
+msgid "Command list"
+msgstr "བརྡ་བཀོད་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:14
+msgid "Font name"
+msgstr "ཡིག་གཟུགས་ཀྱི་མིང་།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:15
+msgid "Font size"
+msgstr "ཡིག་གཟུགས་ཀྱི་ཚད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:16
+msgid "Font style"
+msgstr "ཡིག་གཟུགས་ཀྱི་བཟོ་རྣམ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:17
+msgid "Modify selected item"
+msgstr "སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་ ལེགས་བཅོས་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:18
+msgid "Move caret"
+msgstr "ཀེ་རེཊི་ སྤོ་བཤུད་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:19
+msgid "Move mouse and click left"
+msgstr "མཱའུསི་སྤོ་བཤུད་འབད་དེ་ གཡོན་ལུ་ཨེབ་གཏང་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:20
+msgid "Move mouse and click left and right"
+msgstr "མཱའུསི་སྤོ་བཤུད་འབད་དེ་ གཡོན་དང་གཡས་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:21
+msgid "Move mouse and click right"
+msgstr "མཱའུསི་སྤོ་བཤུད་འབད་དེ་ གཡས་ལུ་ཨེབ་གཏང་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:22
+msgid "Only move mouse"
+msgstr "མཱའུསི་སྤོ་བཤུད་རྐྱངམ་གཅིག་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:23
+msgid "Optical Sensors"
+msgstr "མཐོང་བའི་ཚོར་འཕྲུལ་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:24
+msgid "Optical sensors off"
+msgstr "མཐོང་བའི་ཚོར་འཕྲུལ་ཚུ་ཨོཕ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:25
+msgid "Position Sensors"
+msgstr "གནས་སའི་ཚོར་འཕྲུལ་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:26
+msgid "Position sensors off"
+msgstr "གནས་སའི་ཚོར་འཕྲུལ་ཚུ་ཨོཕ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:27
+msgid "Present attributes"
+msgstr "ད་ལྟའི་ཁྱད་ཆོས་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:28
+msgid "Remove selected item from braille keys list"
+msgstr "འབུར་ཡིག་ལྡེ་མིག་ཐོ་ཡིག་ནང་ལས་ སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་ཚུ་ རྩ་བསྐྲད་གཏང་།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:29
+msgid "Show X coordinate"
+msgstr "ཨེགསི་གི་ཆ་སྙོམ་སྟོན།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:30
+msgid "Show Y coordinate"
+msgstr "ཝའི་གི་ཆ་སྙོམ་སྟོན།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:31
+msgid "_0 Optical sensors off"
+msgstr "༠ མཐོང་བའི་ཚོར་འཕྲུལ་ཚུ་ཨོཕ།(_0)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:32
+msgid "_0 Position sensors off"
+msgstr "༠ གནས་སའི་་ཚོར་འཕྲུལ་ཚུ་ཨོཕ།(_0)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:33
+msgid "_1 Only move mouse"
+msgstr "༡ མཱའུསི་རྐྱངམ་གཅིག་སྤོ་བཤུད་འབད(_1)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:34
+msgid "_2 Move mouse and click left"
+msgstr "༢ མཱའུསི་ སྤོ་བཤུད་འབད་དེ་ གཡོན་ལུ་ཨེབ་གཏང་འབད།(_2)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:35
+msgid "_3 Move mouse and click right"
+msgstr "༣ མཱའུསི་ སྤོ་བཤུད་འབད་དེ་ གཡས་ལུ་ཨེབ་གཏང་འབད།(_3)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:36
+msgid "_4 Move mouse and click left or right"
+msgstr "༤ མཱའུསི་ སྤོ་བཤུད་འབད་དེ་ གཡོན་ནམ་གཡས་ལུ་ ཨེབ་གཏང་འབད།(_4)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:37
+msgid "_5 Move caret"
+msgstr "༥ ཀེ་རེཊི་ སྤོ་བཤུད་འབད།(_5)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:38
+msgid "_6 Show X coordinate"
+msgstr "༦ ཨེགསི་གི་ཆ་སྙོམ་སྟོན།(_6)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:39
+msgid "_7 Show Y coordinate"
+msgstr "༧ ཝའི་གི་ཆ་སྙོམ་སྟོན།(_7)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:40
+msgid "_8 Font style"
+msgstr "༨ ཡིག་གཟུགས་བཟོ་རྣམ།(_8)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:41
+msgid "_9 Font name"
+msgstr "༩ ཡིག་གཟུགས་མིང་།(_9)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:42
+msgid "_Commands:"
+msgstr "བརྡ་བཀོད་ཚུ་:(_C)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:43
+msgid "_Device key:"
+msgstr "ཐབས་འཕྲུལ་ལྡེ་མིག་:(_D)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_mapping.glade2.h:44
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:85
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:28
+msgid "_Modify"
+msgstr " ལེགས་བཅོས་འབད།(_M)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:1
+msgid "Braille Preferences"
+msgstr "འབུར་ཡིག་གི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:2
+msgid "Close braille settings"
+msgstr "འབུར་ཡིག་གི་སྒྲིག་སྟངས་ཚུ་ ཁ་བསྡམ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:3
+msgid "Map function for display keys"
+msgstr "བཀྲམ་སྟོན་ལྡེ་མིག་གི་དོན་ལུ་ ས་ཁྲའི་བྱ་ལས།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:4
+msgid "Select braille device"
+msgstr "འབུར་ཡིག་ཐབས་འཕྲུལ་ སེལ་འཐུ་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:5
+msgid "Select braille style 8/6 dots"
+msgstr "འབུར་ཡིག་བཟོ་རྣམ་ ཚག་ ༨/༦ སེལ་འཐུ་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:6
+msgid "Select cursor setting FullCell/UnderLined/NoCursor"
+msgstr "འོད་རྟགས་སྒྲིག་སྟངས་ ནང་ཐིག་ཧྲིལ་བུ་/འོག་ཐིག་ཅན་/འོད་རྟགས་མེདཔ་ སེལ་འཐུ་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:7
+msgid "Select translation table for braille device"
+msgstr "འབུར་ཡིག་ཐབས་འཕྲུལ་གྱི་དོན་ལུ་ སྐད་བསྒྱུར་ཐིག་ཁྲམ་ སེལ་འཐུ་འབད།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:8
+msgid "_1 Braille Device"
+msgstr "༡ འབུར་ཡིག་ཐབས་འཕྲུལ།(_1)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:9
+msgid "_2 Translation Table"
+msgstr "༢ སྐད་བསྒྱུར་ཐིག་ཁྲམ།(_2)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:10
+msgid "_3 Braille Style"
+msgstr "༣ འབུར་ཡིག་བཟོ་རྣམ།(_3)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:11
+msgid "_4 Cursor Preferences"
+msgstr "༤ འོད་རྟགས་དགའ་གདམ་ཚུ།(_4)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_settings.glade2.h:12
+msgid "_5 Braille Key Mapping"
+msgstr "༥ འབུར་ཡིག་ལྡེ་མིག་གི་ས་ཁྲ་བཟོ་བ།(_5)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:1
+msgid "Braille Style"
+msgstr "འབུར་ཡིག་བཟོ་རྣམ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:2
+msgid "Use 6 dots"
+msgstr "ཚག་ ༦ ལག་ལེན་འཐབ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:3
+msgid "Use 8 dots"
+msgstr "ཚག་ ༨ ལག་ལེན་འཐབ།"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:4
+msgid "_6 Dot Braille"
+msgstr "ཚག་ ༦ འབད་མི་འབུར་ཡིག(_6)"
+
+#: gnopi/gnopi_files/Braille_Settings/braille_style.glade2.h:5
+msgid "_8 Dot Braille"
+msgstr "ཚག་ ༨ ཀྱི་ འབུར་ཡིག(_8)"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:1
+msgid "Cursor Preferences"
+msgstr "འོད་རྟགས་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:2
+msgid "Cursor on braille display is a full cell"
+msgstr "འབུར་ཡིག་བཀྲམ་སྟོན་གུའི་ འོད་རྟགས་དེ་ ནང་ཐིག་གངམ་ཅིག་ཨིན་པས།"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:3
+msgid "Cursor on braille display is an underline"
+msgstr "འབུར་ཡིག་བཀྲམ་སྟོན་གུའི་ འོད་རྟགས་དེ་ འོག་ཐིག་ཅན་ཅིག་ཨིན་པས།"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:4
+msgid "No cursor on braille display"
+msgstr "འབུར་ཡིག་བཀྲམ་སྟོན་གུ་ འོད་རྟགས་མིན་འདུག"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:5
+msgid "_Full cell cursor"
+msgstr "ནང་ཐིག་གང་བའི་འོད་རྟགས།(_F)"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:6
+msgid "_No cursor"
+msgstr "འོད་རྟགས་མིན་འདུག(_N)"
+
+#: gnopi/gnopi_files/Braille_Settings/cursor_settings.glade2.h:7
+msgid "_Underline cursor (dots 7 and 8)"
+msgstr "འོད་རྟགས་ལུ་ འོག་ཐིག་རྐྱབས། (ཚག་༧ དང་༨)(_U)"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:1
+msgid "Translation Table"
+msgstr "སྐད་བསྒྱུར་ཐིག་ཁྲམ།"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:2
+msgid "Translation table list"
+msgstr "སྐད་བསྒྱུར་ཐིག་ཁྲམ་གྱི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Braille_Settings/translation_table.glade2.h:3
+msgid "_Select language:"
+msgstr "སྐད་ཡིག་སེལ་འཐུ་འབད་:(_S)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:1
+msgid "   "
+msgstr "   "
+
+#: gnopi/gnopi_files/Find/find.glade2.h:3
+msgid "<b>Fi_nd Text:</b>"
+msgstr "<b> ཚིག་ཡིག་འཚོལ་</b>(_n)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:4
+msgid "<b>Find Attributes:</b>"
+msgstr "<b> ཁྱད་ཆོས་འཚོལ་</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:5
+msgid "<b>Match</b>"
+msgstr "<b> མཐུན་སྒྲིག་འབད་</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:6
+msgid "<b>Scope</b>"
+msgstr "<b> འོས་སྐབས་</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:7
+msgid "<b>Search For</b>"
+msgstr "<b> དོན་ལུ་འཚོལ་ཞིབ་</b>"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:8
+msgid "A_ll chosen attributes"
+msgstr "གདམ་ཁ་བརྐྱབས་མི་ ཁྱད་ཆོས་ཆ་མཉམ།(_l)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:9
+msgid "A_ny chosen attributes"
+msgstr "གདམ་ཁ་བརྐྱབས་མི་ ཁྱད་ཆོས་གང་རུང་ཅིག(_n)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:10
+msgid "A_ttribute"
+msgstr "ཁྱད་ཆོས།(_t)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:11
+msgid "Bold"
+msgstr "རྒྱགས་པ།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:12
+msgid "Case _sensitive"
+msgstr "ཡི་གུའི་དྲན་ཚོར།(_s)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:13
+msgid "Case sensitive on/off"
+msgstr "ཡི་གུའི་དྲན་ཚོར་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:14
+msgid "Italic"
+msgstr "ཨི་ཊ་ལིཀ"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:15
+msgid "S_elected"
+msgstr "སེལ་འཐུ་འབད་ཡོདཔ།(_e)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:16
+msgid "Scope area is a desktop"
+msgstr "འོས་སྐབས་ཀྱི་མངའ་ཁོངས་དེ་ ཌེཀསི་ཊོཔ་ཅིག་ཨིན།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:17
+msgid "Scope area is a window"
+msgstr "འོས་སྐབས་ཀྱི་མངའ་ཁོངས་དེ་ སྒོ་སྒྲིག་ཅིག་ཨིན།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:18
+msgid "Scope area is an application"
+msgstr "འོས་སྐབས་ཀྱི་མངའ་ཁོངས་དེ་ གློག་རིམ་ཅིག་ཨིན།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:19
+msgid "Search Preferences"
+msgstr "འཚོལ་ཞིབ་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:20
+msgid "Search criteria is a graphics"
+msgstr "འཚོལ་ཞིབ་ཀྱི་ཁྱད་ཚད་དེ་ ཚད་རིས་ཅིག་ཨིན།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:21
+msgid "Search criteria is a text"
+msgstr "འཚོལ་ཞིབ་ཀྱི་ཁྱད་ཚད་དེ་ ཚིག་ཡིག་ཅིག་ཨིན།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:22
+msgid "Search criteria is an attribute"
+msgstr "འཚོལ་ཞིབ་ཀྱི་ཁྱད་ཚད་དེ་ ཁྱད་ཆོས་ཅིག་ཨིན།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:23
+msgid "Selected item"
+msgstr "སེལ་འཐུ་འབད་མི་རྣམ་གྲངས།"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:24
+msgid "Stri_kethrough"
+msgstr "སྦུག་བྲེག(_k)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:25
+msgid "Strikethrough"
+msgstr "སྦུག་བྲེག"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:26
+msgid "Te_xt"
+msgstr "ཚིག་ཡིག(_x)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:27
+msgid "Text to search"
+msgstr "འཚོལ་ཞིབ་འབད་ནིའི་ཚིག་ཡིག"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:28
+msgid "Underline"
+msgstr "འོག་ཐིག"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:29
+msgid "_Application"
+msgstr "གློག་རིམ།(_A)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:30
+msgid "_Bold"
+msgstr "རྒྱགས་པ།(_B)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:31
+msgid "_Desktop"
+msgstr "ཌེསིཀ་ཊོཔ།(_D)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:32
+msgid "_Graphics"
+msgstr "ཚད་རིས།(_G)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:33
+msgid "_Italic"
+msgstr "ཨའི་ཊ་ལིཀ(_I)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:34
+msgid "_Underline"
+msgstr "འོག་ཐིག(_U)"
+
+#: gnopi/gnopi_files/Find/find.glade2.h:35
+msgid "_Window"
+msgstr "སྒོ་སྒྲིག(_W)"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:2
+msgid "<b>Active Components</b>"
+msgstr "<b>ཤུགས་ལྡན་ཆ་ཤས་</b>"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:3
+msgid "<b>Startup</b>"
+msgstr "<b>འགོ་བཙུགས་</b>"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:5
+msgid "Braille monitor on/off"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:6
+msgid "Braille on/off"
+msgstr "འབུར་ཡིག་ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:7
+msgid "Magnifier on/off"
+msgstr "ཆེ་ཤེལ་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:8
+msgid "Speech on/off"
+msgstr "གསུང་བཤད་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:9
+msgid "Start gnopernicus minimized"
+msgstr "ཆུང་བཟོས་ཇི་ནོ་པར་ནི་ཀཱསི་ འགོ་བཙུགས།"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:10
+msgid "Start m_inimized"
+msgstr "ཆུང་བཟོས་འགོ་བཙུགས།(_i)"
+
+#: gnopi/gnopi_files/General_Settings/general_settings.glade2.h:11
+msgid "Startup Mode"
+msgstr "འགོ་བཙུགས་ཐབས་ལམ།"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:1
+msgid "Mouse Preferences"
+msgstr "མཱའུསི་གི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:2
+msgid "Simulate click on current object"
+msgstr "ད་ལྟོའི་དངོས་པོ་གུ་ མཚུངས་བཟོ་ཨེབ་གཏང་འབད།"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:3
+msgid "Take mouse at current object"
+msgstr "མཱའུསི་ ད་ལྟོའི་དངོས་པོ་གུ་འབག་སོང་།"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:4
+msgid "_Simulate click on current object"
+msgstr "ད་ལྟོའི་དངོས་པོ་གུ་ མཚུངས་བཟོ་ཨེབ་གཏང་འབད།(_S"
+
+#: gnopi/gnopi_files/Keyboard_Mouse_Settings/keyboard_mouse_settings.glade2.h:5
+msgid "_Take mouse at current object"
+msgstr "མཱའུསི་ ད་ལྟོའི་དངོས་པོ་གུ་འབག་སོང་།(_T)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:1
+msgid "Close \"Load Default Preferences\""
+msgstr "\"Load Default Preferences\" ཁ་བསྡམས།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:2
+msgid "Load Default Preferences"
+msgstr "སྔོན་སྒྲིག་དགའ་གདམ་ཚུ་མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:3
+msgid "Load Default Settings"
+msgstr "སྔོན་སྒྲིག་སྒྲིག་སྟངས་ཚུ་མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:4
+msgid "Load all defaults"
+msgstr "སྔོན་སྒྲིག་ཆ་མཉམ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:5
+msgid "Load braille defaults"
+msgstr "འབུར་ཡིག་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:6
+msgid "Load braille monitor defaults"
+msgstr "འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:7
+msgid "Load command map defaults"
+msgstr "བརྡ་བཀོད་ས་ཁྲའི་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:8
+msgid "Load magnifier defaults"
+msgstr "ཆེ་ཤེལ་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:9
+msgid "Load mouse defaults"
+msgstr "མཱའུསི་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:10
+msgid "Load presentation defaults"
+msgstr "གསལ་སྟོན་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:11
+msgid "Load screen review defaults"
+msgstr "གསལ་གཞི་བསྐྱར་ཞིབ་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:12
+msgid "Load speech defaults"
+msgstr "གསུང་བཤད་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:13
+msgid "Load startup mode defaults"
+msgstr "འགོ་བཙུགས་ཐབས་ལམ་སྔོན་སྒྲིག་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:14
+msgid "_0 All"
+msgstr "༠ ཆ་མཉམ།(_0)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:15
+msgid "_1 Braille"
+msgstr "༡ འབུར་ཡིག(_1)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:16
+msgid "_2 Speech"
+msgstr "༢ གསུང་བཤད།(_2)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:17
+#: gnopi/gnopi_files/gnopi.glade2.h:33
+msgid "_3 Magnifier"
+msgstr "༣ ཆེ་ཤེལ།(_3)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:18
+msgid "_4 Keyboard"
+msgstr "༤ ལྡེ་སྒྲོམ།(_4)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:19
+#: gnopi/gnopi_files/gnopi.glade2.h:36
+msgid "_5 Braille Monitor"
+msgstr "༥ འབུར་ཡིག་གསལ་གཞི་འཕྲུལ་ཆས།(_5)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:20
+msgid "_6 Startup"
+msgstr "༦ འགོ་བཙུགས།(_6)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:21
+msgid "_7 Command Map"
+msgstr "༧ བརྡ་བཀོད་ས་ཁྲ།(_7)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:22
+msgid "_8 Presentation"
+msgstr "༨ གསལ་སྟོན།(_8)"
+
+#: gnopi/gnopi_files/Load_Default/load_default.glade2.h:23
+msgid "_9 Screen Review"
+msgstr "༩ གསལ་གཞི་བསྐྱར་ཞིབ།(_9)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:2
+msgid "<b>Border settings</b>"
+msgstr "<b>མཐའ་མཚམས་སྒྲིག་སྟངས་ཚུ་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:3
+msgid "<b>Cross-hair</b>"
+msgstr "<b>ཀོརོསི་-ཧེའར་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:4
+msgid "<b>Cursor setting</b>"
+msgstr "<b>འོད་རྟགས་སྒྲིག་སྟངས་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:5
+msgid "<b>Display screen</b>"
+msgstr "<b>གསལ་གཞི་བཀྲམ་སྟོན་འབད་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:6
+msgid "<b>Focus tracking mode</b>"
+msgstr "<b>ཊེ་ཀིང་ཐབས་ལམ་ལུ་ ཆེད་དམིགས་འབད་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:7
+msgid "<b>Mo_use tracking mode</b>"
+msgstr "<b>མཱའུསི་ ཊེ་ཀིང་ཐབས་ལམ་</b>(_u)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:8
+msgid "<b>S_moothing</b>"
+msgstr "<b>ཧུམ་ཁྱུག་བཟོ་བ་</b>(_m)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:9
+msgid "<b>Zoomer placement</b>"
+msgstr "<b>རྒྱས་ཟུམ་འབད་མི་བཙུགས་བཞག་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:10
+msgid "<b>Zoomfactor</b>"
+msgstr "<b>རྒྱས་ཟུམ་ཆ་རྐྱེན་</b>"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:11
+msgid "<b>_Zoomer list</b>"
+msgstr "<b>རྒྱས་ཟུམ་འབད་མིའི་ཐོ་ཡིག་ </b>(_Z)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:12
+msgid "Bor_der size:"
+msgstr "མཐའ་མཚམས་ཀྱི་ཚད་:(_d)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:13
+msgid "Border c_olor:"
+msgstr "མཐའ་མཚམས་ཀྱི་ཚོས་གཞི་:(_o)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:14
+msgid "Border color"
+msgstr "མཐའ་མཚམས་ཀྱི་ཚོས་གཞི།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:15
+msgid "Border size"
+msgstr "མཐའ་མཚམས་ཀྱི་ཚད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:16
+msgid "C_entered"
+msgstr "དབུས་བསྒྲིགས།(_e)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:17
+msgid "C_ursor on/off"
+msgstr "འོད་རྟགས་ ཨཱོན་/ཨེཕ།(_u)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:18
+msgid "Cross-ha_ir size:"
+msgstr "ཀོརོསི་ཧེའར་གྱི་ཚད་:(_i)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:19
+msgid "Cross-hair c_lip on/off"
+msgstr "ཀོརོསི་ཧེའར་གྱི་འཛིན་ལྕགས་ ཨཱོན་/ཨོཕ།(_l)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:20
+msgid "Cross-hair colo_r:"
+msgstr "ཀོརོསི་ཧེའར་གྱི་ཚོས་གཞི་: (_r)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:21
+msgid "Cross-hair color in_verted"
+msgstr "ཀོརོསི་ཧེའར་གྱི་ཚོས་གཞི་ གནས་ལོག་འབད་ཡོདཔ།(_v)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:22
+msgid "Cross-hair o_n/off"
+msgstr "ཀོརོསི་ཧེའར་ ཨཱོན་/ཨོཕ།(_n)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:23
+msgid "Crosshair clip on/off"
+msgstr "ཀོརོསི་ཧེའར་གྱི་འཛིན་ལྕགས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:24
+msgid "Crosshair color"
+msgstr "ཀོརོསི་ཧེ་འར་ཚོས་གཞི།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:25
+msgid "Crosshair on/off"
+msgstr "ཀོརོསི་ཧེ་འར་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:26
+msgid "Crosshair size"
+msgstr "ཀོརོསི་ཧེ་འར་གྱི་ཚད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:27
+msgid "Cursor _size:"
+msgstr "འོད་རྟགས་ཀྱི་ཚད།(_s)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:28
+msgid "Cursor c_olor:"
+msgstr "འོད་རྟགས་ཚོས་གཞི་:(_o)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:29
+msgid "Cursor color"
+msgstr "འོད་རྟགས་ཚོས་གཞི།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:30
+msgid "Cursor magnification"
+msgstr "འོད་རྟགས་ཆེར་སྐྱེད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:31
+msgid "Cursor on/off"
+msgstr "འོད་རྟགས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:32
+msgid "Cursor size"
+msgstr "འོད་རྟགས་ཚད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:33
+msgid "Display screen source"
+msgstr "གསལ་གཞིའི་འབྱུང་ཁུངས་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:34
+msgid "Display screen target"
+msgstr "གསལ་གཞིའི་དམིགས་གཏད་ བཀྲམ་སྟོན་འབད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:35
+msgid "Invert crosshair color"
+msgstr "ཀོརོསི་ཧེའར་ཚོས་གཞི་ གནས་ལོག་འབད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:36
+msgid "Invert on/off"
+msgstr "ཨཱོན་/ཨོཕ་ གནས་ལོག་འབད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:37
+msgid "Lock zoom _factor"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ ལྡེ་མིག་རྐྱབས།(_f)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:38
+msgid "Lock zoom factor"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ ལྡེ་མིག་རྐྱབས།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:39
+msgid "Magnifier Preferences"
+msgstr "ཆེ་ཤེལ་གྱི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:40
+msgid "Magnifier settings"
+msgstr "ཆེ་ཤེལ་གྱི་སྒྲིག་སྟངས་ཚུ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:41
+msgid "Mouse tracking type"
+msgstr "མཱའུསི་ཊེ་ཀིང་གི་དབྱེ་བ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:42
+msgid "Panning on/off"
+msgstr "རྗེས་དམིགས་ ཨཱོན་/ཨོཕ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:44
+msgid "Set cursor separate from _magnification"
+msgstr "འོད་རྟགས་ཆེར་སྐྱེད་ལས་ སོ་སོ་གཞི་སྒྲིག་འབད།(_m)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:45
+msgid "Smoothing type"
+msgstr "ཧུམ་ཆ་བཟོ་བའི་དབྱེ་བ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:46
+msgid "Tar_get:"
+msgstr "དམིགས་གཏད་:(_g)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:47
+msgid "Zoom factor X"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ཨེགསི།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:48
+msgid "Zoom factor Y"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ཝའི།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:49
+msgid "Zoom factor _X:"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ཨེགསི་:(_X)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:50
+msgid "Zoom factor _Y:"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ཝའི་:(_Y)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:51
+msgid "Zoomer Options"
+msgstr "རྒྱས་ཟུམ་འབད་མིའི་གདམ་ཁ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:52
+msgid "Zoomer placement bottom"
+msgstr "རྒྱས་ཟུམ་བཙུགས་བཞག་ཨེབ་རྟ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:53
+msgid "Zoomer placement left"
+msgstr "རྒྱས་ཟུམ་བཙུགས་བཞག་གཡོན།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:54
+msgid "Zoomer placement right"
+msgstr "རྒྱས་ཟུམ་བཙུགས་བཞག་གཡས།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:55
+msgid "Zoomer placement top"
+msgstr "རྒྱས་ཟུམ་བཙུགས་བཞག་མགོ་ལུ།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:56
+msgid "Zoomers list"
+msgstr "རྒྱས་ཟུམ་འབད་མི་ཚུ་གི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:57
+msgid "_Add/Modify"
+msgstr "ཁ་སྐོང་རྐྱབས་/ལེགས་བཅོས་འབད།(_A)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:58
+msgid "_Auto"
+msgstr "རང་བཞིནགྱི།(_A)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:59
+msgid "_Bottom:"
+msgstr "མཇུག་:(_B)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:60
+msgid "_Invert"
+msgstr "གནས་ལོག(_I)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:61
+msgid "_Left:"
+msgstr "གཡོན་:(_L)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:62
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:87
+msgid "_None"
+msgstr "ཅི་མེད།(_N)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:63
+msgid "_Panning"
+msgstr "རྗེས་དམིགས།(_P)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:64
+msgid "_Remove"
+msgstr "རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:65
+msgid "_Right:"
+msgstr "གཡས་:(_R)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:66
+msgid "_Source:"
+msgstr "འབྱུང་ཁུངས་:(_S)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:67
+msgid "_Top:"
+msgstr "མགོ་:(_T)"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:68
+#: gnopi/magui.c:49
+msgid "bilinear"
+msgstr "བའི་ལི་ནིའར།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:69
+#: gnopi/magui.c:61
+msgid "centered"
+msgstr "དབུས་བསྒྲིགས།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:70
+#: gnopi/magui.c:48
+#: gnopi/magui.c:63
+msgid "none"
+msgstr "ཅི་མེད།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:71
+#: gnopi/magui.c:62
+msgid "proportional"
+msgstr "སྙོམས་ཚད་ཀྱི།"
+
+#: gnopi/gnopi_files/Magnifier_Settings/magnifier_settings.glade2.h:72
+#: gnopi/magui.c:60
+msgid "push"
+msgstr "འཕུལ།"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:2
+msgid "Expert"
+msgstr "མཁས་མཆོག"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:3
+msgid "Mode selected:"
+msgstr "ཐབས་ལམ་སེལ་འཐུ་འབད་ཡོད་:"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:4
+msgid "Presentation"
+msgstr "གསལ་སྟོན།"
+
+#: gnopi/gnopi_files/Presentation/presentation.glade2.h:5
+#: srcore/default.xml.in.h:19
+#: srcore/verbose.xml.in.h:19
+msgid "Verbose"
+msgstr "ཚད་བརྒལ།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:1
+msgid "<b>Horizontal flags</b>"
+msgstr "<b>ཐད་སྙོམས་ཟུར་རྟགས་</b>"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:2
+msgid "<b>Vertical flags</b>"
+msgstr "<b>ཀེར་ཕྲང་ཟུར་རྟགས་</b>"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:3
+msgid "Add all empty lines"
+msgstr "གྱལ་རིམ་སྟོངམ་ཆ་མཉམ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:4
+msgid "Add all spaces"
+msgstr "བར་སྟོང་ཆ་མཉམ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:5
+msgid "Add all spaces and empty lines"
+msgstr "བར་སྟོང་དང་ གྱལ་རིམ་སྟོངམ་ཆ་མཉམ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:6
+msgid "Add embedded empty lines"
+msgstr "གོམས་འདྲིས་ཚུད་པའི་ གྱལ་རིམ་སྟོངམ་ཚུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:7
+msgid "Add embedded spaces"
+msgstr "གོམས་འདྲིས་ཚུད་པའི་ བར་སྟོང་ཚུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:8
+msgid "Add leading empty lines"
+msgstr "སྔོན་བསྐྱོད་གྱལ་རིམ་སྟོངམ་ཚུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:9
+msgid "Add leading spaces"
+msgstr "སྔོན་བསྐྱོད་བར་སྟོང་ཚུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:10
+msgid "Add trailing empty lines"
+msgstr "རྒྱབ་ལུས་གྱལ་རིམ་སྟོངམ་ཚུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:11
+msgid "Add trailing spaces"
+msgstr "རྒྱབ་ལུས་བར་སྟོང་ཚུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:12
+msgid "All _horizontal"
+msgstr "ཆ་མཉམ་ཐད་སྙོམས།(_h)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:13
+msgid "All _vertical"
+msgstr "ཆ་མཉམ་ཀེར་ཕྲང་།(_v)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:14
+msgid "Count em_pty lines"
+msgstr "གྱལ་རིམ་སྟོངམ་ཚུ་ གྱངས་ཁ་རྐྱབས།(_p)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:15
+msgid "Count empty lines"
+msgstr "གྱལ་རིམ་སྟོངམ་ཚུ་ གྱངས་ཁ་རྐྱབས།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:16
+msgid "E_mbedded"
+msgstr "གོམས་འདྲིས་ཚུད་པའི།(_m)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:17
+msgid "Lea_ding"
+msgstr "སྔོན་བསྐྱོད།(_d)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:18
+msgid "Screen Review Preferences"
+msgstr "གསལ་གཞི་བསྐྱར་ཞིབ་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:19
+msgid "T_railing"
+msgstr "རྒྱབ་ལུས།(_r)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:20
+msgid "_All flags"
+msgstr "ཟུར་རྟགས་ཆ་མཉམ།(_A)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:21
+msgid "_Embedded"
+msgstr "གོམས་འདྲིས་ཚུད་པའི།(_E)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:22
+msgid "_Leading"
+msgstr "སྔོན་བསྐྱོད།(_L)"
+
+#: gnopi/gnopi_files/Screen_Review/screen_review.glade2.h:23
+msgid "_Trailing"
+msgstr "རྒྱབ་ལུས།(_T)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:4
+msgid "<b><></b>"
+msgstr "<b><></b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:5
+msgid "<b>Absolute Value</b>"
+msgstr "<b>ཡང་དག་བེ་ལུ་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:6
+msgid "<b>Driver</b>"
+msgstr "<b>འདྲེན་བྱེད་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:7
+msgid "<b>Properties</b>"
+msgstr "<b>རྒྱུ་དངོས་ཚུ་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:8
+msgid "<b>Punctuation</b>"
+msgstr "<b>ཡིག་རྟགས་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:9
+msgid "<b>Relative Values</b>"
+msgstr "<b>འབྲེལ་བའི་བེ་ལུསི་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:10
+msgid "<b>Text Echo</b>"
+msgstr "<b>ཚིག་ཡིག་བྲག་ཅ་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:11
+msgid "<b>Voice</b>"
+msgstr "<b>སྐད་</b>"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:12
+msgid "<b>_Dictionary</b>"
+msgstr "<b>ཚིག་མཛོད་</b>(_D)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:13
+msgid "<b>_Replacement:</b>"
+msgstr "<b>ཚབ་བཙུགས་</b>(_R)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:14
+msgid "<b>_Voice list</b>"
+msgstr "<b>སྐད་ཀྱི་ཐོ་ཡིག་</b>(_V)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:15
+msgid "<b>_Word:</b>"
+msgstr "<b>མིང་ཚིག་:</b>(_W)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:16
+msgid "A_ll"
+msgstr "ཆ་མཉམ།(_l)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:17
+msgid "Activate pitch"
+msgstr "སྟུག་ཚད་ཤུགས་ལྡན་བཟོ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:18
+msgid "Activate rate"
+msgstr "མགྱོགས་ཚད་ཤུགས་ལྡན་བཟོ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:19
+msgid "Activate volume"
+msgstr "སྐད་ཤུགས་ ཤུགས་ལྡན་བཟོ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:20
+msgid "Add / Modify Dictionary Entry"
+msgstr "ཚིག་མཛོད་ཐོ་བཀོད་ ཁ་སྐོང་རྐྱབས་/ལེགས་བཅོས་འབད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:21
+msgid "Add / Modify Voice"
+msgstr "སྐད་ཁ་སྐོང་རྐྱབས་/ལེགས་བཅོས་འབད།།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:22
+msgid "Add new item in voices list"
+msgstr "སྐད་ཀྱི་ཐོ་ཡིག་ནང་ རྣམ་གྲངས་གསརཔ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:23
+msgid "Add new word in dictionary"
+msgstr "ཚིག་མཛོད་ནང་ མིང་ཚིག་གསརཔ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:24
+msgid "Change for all voices the engine driver and the engine speaker with a selected driver and speaker"
+msgstr "སེལ་འཐུ་འབད་མི་ འདྲེན་བྱེད་ཅིག་དང་ སྒྲ་སྐྱེད་ཅིག་གི་ཐོག་ལས་ མ་འཕྲུལ་འདྲེན་བྱེད་དང་ མ་འཕྲུལ་སྒྲ་སྐྱེད་ཀྱི་ སྐད་ཆ་མཉམ་གྱི་དོན་ལུ་བསྒྱུར་བཅོས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:25
+msgid "Charac_ter"
+msgstr "ཡིག་འབྲུ།(_t)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:26
+msgid "Count sym_bols"
+msgstr "བརྡ་མཚོན་ཚུ་ གྱངས་ཁ་རྐྱབས།(_b)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:27
+msgid "Count symbols"
+msgstr "བརྡ་མཚོན་ཚུ་ ཁྱངས་ཁ་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:28
+msgid "Decrease pitch"
+msgstr "སྟུག་ཚད་ མར་ཕབ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:29
+msgid "Decrease rate"
+msgstr "མགྱོགས་ཚད་མར་ཕབ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:30
+msgid "Decrease volume"
+msgstr "སྐད་ཤུགས་མར་ཕབ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:31
+msgid "Dictionary"
+msgstr "ཚིག་མཛོད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:32
+msgid "Dictionary list"
+msgstr "ཚིག་མཛོད་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:33
+msgid "Do not speak text"
+msgstr "ཚིག་ཡིག་མ་སླབ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:34
+msgid "Edit A_bsolute..."
+msgstr "ཡང་དག་ཞུན་དག་རྐྱབས་...(_b)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:35
+msgid "Edit Absolute Voice Values"
+msgstr "ཡང་དག་སྐད་ཀྱི་བེ་ལུསི་ ཞུན་དག་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:36
+msgid "Edit R_elative..."
+msgstr "རི་ལེ་ཊིཔ་ཞུན་དག་རྐྱབས་...(_e)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:37
+msgid "Edit Relative Voice Values"
+msgstr "འབྲེལ་བའི་སྐད་ཀྱི་བེ་ལུསི་ ཞུན་དག་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:38
+msgid "Edit dictionary"
+msgstr "ཚིག་མཛོད་ཞུན་དག་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:39
+msgid "Edit parameter values absolutely"
+msgstr "ཚད་བཟུང་བེ་ལུསི་ཚུ་ ཡང་དག་སྦེ་ ཞུན་དག་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:40
+msgid "Edit parameter values relatively"
+msgstr "ཚད་བཟུང་བེ་ལུསི་ཚུ་ འབྲེལ་བའི་ཐོག་ལས་ ཞུན་དག་རྐྱབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:41
+msgid "Engine _driver:"
+msgstr "མ་འཕྲུལ་འདྲེན་བྱེད་:(_d)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:42
+msgid "Engine _speaker:"
+msgstr "མ་འཕྲུལ་སྒྲ་སྐྱེད་:(_s)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:43
+msgid "Engine driver"
+msgstr "མ་འཕྲུལ་འདྲེན་བྱེད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:44
+msgid "Engine speaker"
+msgstr "མ་འཕྲུལ་སྒྲ་སྐྱེད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:45
+msgid "Gnopernicus system voice"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ རིམ་ལུགས་སྐད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:46
+msgid "Hz"
+msgstr "ཨེཆ་ཛེཊི"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:47
+msgid "Ignore all punctuation"
+msgstr "ཡིག་རྟགས་ཆ་མཉམ་ སྣང་མེད་བཞག"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:48
+msgid "Increase pitch"
+msgstr "སྟུག་ཚད་ཡར་འཕར།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:49
+msgid "Increase rate"
+msgstr "མགྱོགས་ཚད་ཡར་འཕར།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:50
+msgid "Increase volume"
+msgstr "སྐད་ཤུགས་ཡར་འཕར།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:51
+msgid "Made pitch sensitive for changing"
+msgstr "བསྒྱུར་བཅོས་ཀྱི་དོན་ལུ་ སྟུག་ཚད་དྲན་ཚོར་ཅན་བཟོ་ཡི།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:52
+msgid "Made rate sensitive for changing"
+msgstr "བསྒྱུར་བཅོས་ཀྱི་དོན་ལུ་ མགྱོགས་ཚད་དྲན་ཚོར་ཅན་བཟོ་ཡི།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:53
+msgid "Made volume sensitive for changing"
+msgstr "བསྒྱུར་བཅོས་ཀྱི་དོན་ལུ་ སྐད་ཤུགས་དྲན་ཚོར་ཅན་བཟོ་ཡི།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:54
+msgid "Modify selected voice"
+msgstr "སེལ་འཐུ་འབད་མི་ སྐད་ལེགས་བཅོས་འབད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:55
+msgid "Modify word"
+msgstr "མིང་ཚིག་ལེགས་བཅོས་འབད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:56
+#: gnopi/spvoiceui.c:2010
+msgid "Pitch"
+msgstr "སྟུག་ཚད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:57
+#: gnopi/spvoiceui.c:2002
+msgid "Rate"
+msgstr "མགྱོགས་ཚད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:58
+msgid "Remove selected voice from voices list"
+msgstr "སྐད་ཀྱི་ཐོ་ཡིག་ནང་ལས་ སེལ་འཐུ་འབད་མི་སྐད་ རྩ་བསྐྲད་གཏང་།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:59
+msgid "Remove word from dictionary"
+msgstr "ཚིག་མཛོད་ནང་ལས་ མིང་ཚིག་རྩ་བསྐྲད་གཏང་།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:60
+msgid "Replecement"
+msgstr "ཚབ་བཙུགས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:61
+msgid "Sa_y all navigation keys"
+msgstr "འགྲུལ་བསྐྱོད་ལྡེ་མིག་ ཆ་མཉམ་སླབས།(_y)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:62
+msgid "Say all modi_fiers"
+msgstr "ལེགས་བཅོས་འབད་མི་ ཆ་མཉམ་སླབས།(_f)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:63
+msgid "Say all modifiers"
+msgstr "ལེགས་བཅོས་འབད་མི་ ཆ་མཉམ་སླབས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:64
+msgid "Say all navigation keys"
+msgstr "འགྲུལ་བསྐྱོད་ལྡེ་མིག་ ཆ་མཉམ་སླབ"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:65
+msgid "Say all s_paces"
+msgstr "བར་སྟོང་ཆ་མཉམ་སླབས།(_p)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:66
+msgid "Say all spaces"
+msgstr "བར་སྟོང་ ཆ་མཉམ་སླབས"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:67
+msgid "Say text as character"
+msgstr "ཚིག་ཡིག་ ཡིག་འབྲུ་སྦེ་སླབས"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:68
+msgid "Say text as word"
+msgstr "ཚིག་ཡིག་ མིང་ཚིག་སྦེ་སླབས"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:69
+msgid "Set voices and the voice parameters"
+msgstr "སྐད་དང་ སྐད་ཀྱི་ཚད་བཟུང་ཚུ་ གཞི་སྒྲིག་འབད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:70
+msgid "Show all punctuation"
+msgstr "ཡིག་རྟགས་ཆ་མཉམ་སྟོན།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:71
+msgid "Show most punctuation"
+msgstr "ཡིག་རྟགས་མང་ཤོས་སྟོན།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:72
+msgid "Show some punctuation"
+msgstr "ཡིག་རྟགས་ལ་ལོ་ཅིག་སྟོན།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:73
+msgid "Speech Preferences"
+msgstr "གསུང་བཤད་ཀྱི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:74
+msgid "Test selected voice"
+msgstr "སེལ་འཐུ་འབད་མི་སྐད་ བརྟག་ཞིབ་འབད།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:75
+msgid "Use dictionary"
+msgstr "ཚིག་མཛོད་ལག་ལེན་འཐབ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:76
+msgid "Voice _name:"
+msgstr "སྐད་ཀྱི་མིང་:(_n)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:77
+msgid "Voice list"
+msgstr "སྐད་ཀྱི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:78
+msgid "Voices"
+msgstr "སྐད་ཚུ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:79
+#: gnopi/spvoiceui.c:1994
+msgid "Volume"
+msgstr "སྐད་ཤུགས།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:80
+msgid "Word to replace"
+msgstr "ཚབ་བཙུགས་དགོ་པའི་མིང་ཚིག"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:81
+msgid "Word/Min"
+msgstr "མིང་ཚིག་/སྐར་མ།"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:82
+msgid "_Dictionary..."
+msgstr "ཚིག་མཛོད་...(_D)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:83
+msgid "_Force All Voices to Selected Driver and Speaker"
+msgstr "སྐད་ཆ་མཉམ་ སེལ་འཐུ་འབད་མི་ འདྲེན་བྱེད་དང་ སྒྲ་སྐྱེད་ལུ་ བང་ཅན་སྦེ་གཏང་།(_F)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:84
+msgid "_Ignore"
+msgstr "སྣང་མེད་བཞག(_I)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:86
+msgid "_Most"
+msgstr "མང་ཤོས།(_M)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:88
+msgid "_Pitch (Hz)"
+msgstr "སྟུག་ཚད། (ཨེཆ་ཛེཊི་)(_P)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:89
+msgid "_Pitch:"
+msgstr "སྟུག་ཚད་:(_P)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:90
+msgid "_Rate (words/min)"
+msgstr "མགྱོགས་ཚད། (མིང་ཚིག་/སྐར་མ)(_R)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:91
+msgid "_Rate:"
+msgstr "མགྱོགས་ཚད་:(_R)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:92
+msgid "_Some"
+msgstr "ལ་ལོ་ཅིག(_S)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:93
+msgid "_Test voice"
+msgstr "སྐད་བརྟག་ཞིབ་འབད།(_T)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:94
+msgid "_Use dictionary"
+msgstr "ཚིག་མཛོད་ལག་ལེན་འཐབ།(_U)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:95
+msgid "_Voices..."
+msgstr "སྐད་ཚུ་...(_V)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:97
+#, no-c-format
+msgid "_Volume (%)"
+msgstr "སྐད་ཤུགས། (%)(_V)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:98
+msgid "_Volume:"
+msgstr "སྐད་ཤུགས་:(_V)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:99
+msgid "_Word"
+msgstr "མིང་ཚིག(_W)"
+
+#: gnopi/gnopi_files/Speech_Settings/speech_settings.glade2.h:100
+msgid "words/min"
+msgstr "མིང་ཚིག་/སྐར་མ།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:2
+msgid "<b>_Commands list</b>"
+msgstr "<b>བརྡ་བཀོད་ཐོ་ཡིག་</b>(_C)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:3
+msgid "<b>_Layers list</b>"
+msgstr "<b>བང་རིམ་ཐོ་ཡིག་</b>(_L)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:4
+msgid "<b>_User defined list</b>"
+msgstr "<b>ལག་ལེན་པ་ངེས་འཛིན་འབད་བའི་ཐོ་ཡིག་</b>(_U)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:5
+msgid "Add Layer Key"
+msgstr "<b>བང་རིམ་ལྡེ་མིག་ཁ་སྐོང་རྐྱབས་</b>"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:6
+msgid "Add User Defined Key"
+msgstr "ལག་ལེན་པ་ངེས་འཛིན་འབད་བའི་ལྡེ་མིག་ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:7
+msgid "Add new item"
+msgstr "རྣམ་གྲངས་གསརཔ་ ཁ་སྐོང་རྐྱབས།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:8
+msgid "Alt modifier"
+msgstr "གདམ་ལྡེ་ལེགས་བཅོས་འབད་མི།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:9
+msgid "Command Mapping"
+msgstr "བརྡ་བཀོད་ས་ཁྲ་བཟོ་བ།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:10
+msgid "Commands List"
+msgstr "བརྡ་བཀོད་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:11
+msgid "Control modifier"
+msgstr "ཚད་འཛིན་ལེགས་བཅོས་འབད་མི།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:12
+msgid "Key number"
+msgstr "ལྡེ་མིག་ཨང་། "
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:13
+msgid "Keys list"
+msgstr "ལྡེ་མིག་ཐོ་ཡིག "
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:14
+msgid "Layer command list"
+msgstr "བང་རིམ་བརྡ་བཀོད་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:15
+msgid "Layer number"
+msgstr "བང་རིམ་ཨང་།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:16
+msgid "Layers"
+msgstr "བང་རིམ་ཚུ།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:17
+msgid "List of gnopernicus commands"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ བརྡ་བཀོད་ཚུ་གི་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:18
+msgid "Modify command for the selected item"
+msgstr "སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་ཚུ་གི་དོན་ལུ་ བརྡ་བཀོད་ལེགས་བཅོས་འབད།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:19
+msgid "Remove selected item"
+msgstr "སེལ་འཐུ་འབད་མི་རྣམ་གྲངས་ཚུ་ རྩ་བསྐྲད་གཏང་།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:20
+msgid "Shift modifier"
+msgstr "སོར་ལྡེ་ལེགས་བཅོས་འབད་མི།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:21
+msgid "User Defined"
+msgstr "ལག་ལེན་པ་ ངེས་འཛིན་འབད་ཡོདཔ།"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:22
+msgid "User defined commands list."
+msgstr "ལག་ལེན་པ་ ངེས་འཛིན་འབད་ཡོད་པའི་ བརྡ་བཀོད་ཐོ་ཡིག"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:23
+msgid "_Alt"
+msgstr "གདམ་ལྡེ།(_A)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:24
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:25
+msgid "_Key:"
+msgstr "ལྡེ་མིག་:(_K)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:26
+msgid "_Layer:"
+msgstr "བང་རིམ་:(_L)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:27
+msgid "_Modifier keys:"
+msgstr "ལེགས་བཅོས་འབད་མི་ལྡེ་མིག་ཚུ་:(_M)"
+
+#: gnopi/gnopi_files/User_Properties/user_properties.glade2.h:29
+msgid "_Shift"
+msgstr "སོར་ལྡེ།(_S)"
+
+#: gnopi/gnopi_files/about.glade2.h:1
+msgid "Screen Reader and Magnifier for the GNOME Desktop"
+msgstr "ཇི་ནོམ་ཌེཀསི་ཊོཔ་གི་དོན་ལུ་ གསལ་གཞི་ལྷག་མི་དང་ཆེ་ཤེལ།"
+
+#: gnopi/gnopi_files/about.glade2.h:2
+#: gnopi/gnopi_files/gnopi.glade2.h:1
+msgid ""
+"<b>Gnopernicus has detected that the assistive technology \n"
+"support is not enabled.</b>\n"
+msgstr ""
+"<b>ཇི་ནོ་པར་ནི་ཀཱསི་གིས་ ཕན་ཐབས་ཅན་གྱི་འཕྲུལ་རིག་ \n"
+"དེ་ ལྕོགས་མིན་སྦེ་ སྐྱོན་འཛིན་འབད་ནུག </b>\n"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:4
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:5
+#: srcore/srpres.c:810
+msgid "Alert"
+msgstr "དྲན་བརྡ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:6
+msgid "Braille device preferences"
+msgstr "འབུར་ཡིག་ཐབས་འཕྲུལ་གྱི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:7
+msgid "Braille monitor preferences"
+msgstr "འབུར་ཡིག་གསལ་གཞིའི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:8
+msgid "Close preferences"
+msgstr "དགའ་གདམ་ཚུ་ ཁ་བསྡམས།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:9
+msgid "Command mapping"
+msgstr "ས་ཁྲ་བཟོ་བའི་བརྡ་བཀོད་བྱིན།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:10
+msgid "Do you want to enable the assistive technology support?"
+msgstr "ཁྱོད་ཀྱིས་ཕན་ཐབས་ཅན་གྱི་འཕྲུལ་རིག་དེ་ ལྕོགས་ཅན་བཟོ་ནི་ཨིན་ན?"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:11
+msgid "Exit from gnopernicus"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ནང་ལས་ ཕྱིར་འཐོན་འབད།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:12
+msgid "Find on screen"
+msgstr "གསལ་གཞི་གུ་འཚོལ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:13
+msgid "Gnopernicus"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:14
+msgid "Gnopernicus usage help"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ ལག་ལེན་གྱི་གྲོགས་རམ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:15
+msgid "Iconify menu"
+msgstr "དཀར་ཆག་གི་ངོས་དཔར་བཟོ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:16
+msgid "Load default preferences"
+msgstr "སྔོན་སྒྲིག་དགའ་གདམ་ཚུ་ མངོན་གསལ་འབད།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:17
+msgid "Magnifier preferences"
+msgstr "ཆེ་ཤེལ་གྱི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:18
+msgid "Mouse preferences"
+msgstr "མཱའུསི་གི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:19
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:20
+msgid "Preferences..."
+msgstr "དགའ་གདམ་ཚུ།..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:21
+#: srcore/srspc.c:1035
+msgid "Question"
+msgstr "དྲི་བ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:22
+msgid "Role presentation"
+msgstr "ལས་འགན་གསལ་སྟོན།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:23
+msgid "Screen review"
+msgstr "གསལ་གཞི་བསྐྱར་ཞིབ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:24
+msgid "Speech preferences"
+msgstr "གསུང་བཤད་ཀྱི་དགའ་གདམ་ཚུ།"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:25
+msgid "Startup mode..."
+msgstr "འགོ་བཙུགས་ཐབས་ལམ་..."
+
+#: gnopi/gnopi_files/gnopi.glade2.h:26
+msgid ""
+"You will have to log out for the change to take effect.\n"
+"Do you want to log out now? "
+msgstr ""
+"བསྒྱུར་བཅོས་ཚུ་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ཕྱིར་བསྐྱོད་འབད་དགོ། \n"
+"ད་ལྟོ་རང་ ཕྱིར་བསྐྱོད་འབད་ནི་ཨིན་ན?"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:28
+msgid "_1 Speech"
+msgstr "༡ གསུང་བཤད།(_1)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:29
+msgid "_1 Startup Mode..."
+msgstr "༡ འགོ་བཙུགས་ཐབས་ལམ་...(_1)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:30
+msgid "_2 Braille"
+msgstr "༢ འབུར་ཡིག(_2)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:31
+msgid "_2 Preferences..."
+msgstr "༢ དགའ་གདམ་ཚུ་...(_2)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:32
+msgid "_3 Default Preferences..."
+msgstr "༣ སྔོན་སྒྲིག་དགའ་གདམ་ཚུ་...(_3)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:34
+msgid "_4 Minimize"
+msgstr "༤ ཆུང་ཀུ་བཟོ།(_4)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:35
+msgid "_4 Mouse"
+msgstr "༤ མཱའུསི།(_4)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:37
+msgid "_5 Help"
+msgstr "༥ གྲོགས་རམ།(_5)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:38
+msgid "_6 About"
+msgstr "༦ སྐོར་ལས།(_6)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:39
+msgid "_6 Command Mapping"
+msgstr "༦ བརྡ་བཀོད་ས་ཁྲ་བཟོ་བ།(_6)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:40
+msgid "_7 Presentation"
+msgstr "༧ གསལ་སྟོན།(_7)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:41
+msgid "_8 Screen Review"
+msgstr "༨ གསལ་གཞིའི་བསྐྱར་ཞིབ།(_8)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:42
+msgid "_9 Search"
+msgstr "༩ འཚོལ་ཞིབ།(_9)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:43
+msgid "_Don't Enable Support"
+msgstr "རྒྱབ་སྐྱོར་ལྕོགས་ཅན་མ་བཟོ།(_D)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:44
+msgid "_Enable Support"
+msgstr "རྒྱབ་སྐྱོར་ལྕོགས་ཅན་བཟོ།(_E)"
+
+#: gnopi/gnopi_files/gnopi.glade2.h:45
+msgid "_Quit"
+msgstr "སྤངས།(_Q)"
+
+#: gnopi/gnopiconf.c:411
+#: gnopi/gnopiconf.c:429
+#, c-format
+msgid "Failed to set value: %f."
+msgstr "བེ་ལུ་: %f གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/gnopiconf.c:735
+msgid "Failed to set value."
+msgstr "བེ་ལུ་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/gnopiui.c:73
+#: gnopi/gnopiui.c:87
+#: gnopi/gnopiui.c:99
+#: gnopi/gnopiui.c:105
+msgid "We could not load the interface!"
+msgstr "ངོས་འདྲ་བ་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: gnopi/magui.c:74
+msgid "default"
+msgstr "སྔོན་སྒྲིག"
+
+#: gnopi/magui.c:472
+msgid "Can NOT remove zoomer because multiple zoomers are not supported in this version."
+msgstr "རྒྱས་ཟུམ་རྩ་བསྐྲད་གཏང་མ་ཚུགས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ སྣ་མང་རྒྱས་ཟུམ་ཚུ་ལུ་ ཐོན་རིམ་འདི་ནང་ རྒྱབ་སྐྱོར་མི་འབད་བས།"
+
+#: gnopi/magui.c:673
+msgid "Zoomers"
+msgstr "རྒྱས་ཟུམ་འབད་མི།"
+
+#: gnopi/magui.c:1627
+#, c-format
+msgid "Zoomer Options (%s)"
+msgstr "རྒྱས་ཟུམ་འབད་མིའི་གདམ་ཁ།(%s)"
+
+#: gnopi/spconf.c:335
+msgid "Failed to set dictionary changes."
+msgstr "ཚིག་མཛོད་བསྒྱུར་བཅོས་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:343
+msgid "Failed to set removed voice value."
+msgstr "རྩ་བསྐྲད་བཏང་བའི་སྐད་ཀྱི་བེ་ལུ་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:353
+#, c-format
+msgid "Failed to set count: %s."
+msgstr "གྱངས་ཁ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:362
+#, c-format
+msgid "Failed to set Punctuation: %s."
+msgstr "ཡིག་རྟགས་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:371
+#, c-format
+msgid "Failed to set text echo value: %s."
+msgstr "ཚིག་ཡིག་བྲག་ཅའི་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:380
+#, c-format
+msgid "Failed to set modifiers value: %s."
+msgstr "ལེགས་བཅོས་འབད་མིའི་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:389
+#, c-format
+msgid "Failed to set cursors value: %s."
+msgstr "འོད་རྟགས་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:398
+#, c-format
+msgid "Failed to set spaces value: %s."
+msgstr "བར་སྟོང་གི་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:407
+#, c-format
+msgid "Failed to set dictionary value: %s."
+msgstr "ཚིག་མཛོད་ཀྱི་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:416
+#, c-format
+msgid "Failed to set testable voice %s."
+msgstr "བརྟག་ཞིབ་འབད་བཏུབ་པའི་བེ་ལུ་: %sགཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: gnopi/spconf.c:608
+#, c-format
+msgid "%s no name"
+msgstr "%s ལུ་ མིང་མིན་འདུག"
+
+#: gnopi/spdictui.c:79
+msgid "Invalid word or replacer!"
+msgstr "ནུས་མེད་མིང་ཚིག་གམ་ཚབ་མ།"
+
+#: gnopi/spdictui.c:85
+msgid "Word exists in dictionary!"
+msgstr "ཚིག་མཛོད་ནང་ མིང་ཚིག་འདུག"
+
+#: gnopi/spdictui.c:271
+#: gnopi/spdictui.c:324
+msgid "No selected word to modify!"
+msgstr "ལེགས་བཅོས་འབད་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་མི་ མིང་ཚིག་མིན་འདུག"
+
+#: gnopi/spdictui.c:298
+msgid "No selected word to remove!"
+msgstr "རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་མི་ མིང་ཚིག་མིན་འདུག"
+
+#: gnopi/spdictui.c:447
+msgid "Word"
+msgstr "མིང་ཚིག"
+
+#: gnopi/spdictui.c:456
+msgid "Replacer"
+msgstr "ཚབ་བྱེད།"
+
+#: gnopi/spvoiceui.c:32
+msgid "<all drivers>"
+msgstr "<འདྲེན་བྱེད་ཆ་མཉམ་>"
+
+#: gnopi/spvoiceui.c:33
+msgid "<all voices>"
+msgstr "<སྐད་ཆ་མཉམ་>"
+
+#: gnopi/spvoiceui.c:277
+msgid "Invalid voice!"
+msgstr "ནུས་མེད་སྐད།"
+
+#: gnopi/spvoiceui.c:1165
+msgid "Invalid driver or voice!"
+msgstr "ནུས་མེད་འདྲེན་བྱེད་ ཡང་ན་ སྐད།"
+
+#: gnopi/spvoiceui.c:1595
+msgid "No selected voice to modify!"
+msgstr "ལེགས་བཅོས་འབད་ནིའི་ སེལ་འཐུ་འབད་མི་ སྐད་མིན་འདུག"
+
+#: gnopi/spvoiceui.c:1654
+msgid "No selected voice to remove!"
+msgstr "རྩ་བསྐྲད་གཏང་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་མི་ སྐད་མིན་འདུག"
+
+#: gnopi/spvoiceui.c:1727
+msgid "No selected voice to test!"
+msgstr "བརྟག་ཞིབ་འབད་ནིའི་དོན་ལུ་ སེལ་འཐུ་འབད་མི་ སྐད་མིན་འདུག"
+
+#: gnopi/spvoiceui.c:1968
+msgid "Voice"
+msgstr "སྐད།"
+
+#: gnopi/spvoiceui.c:1977
+msgid "Driver"
+msgstr "འདྲེན་བྱེད།"
+
+#: gnopi/spvoiceui.c:1986
+msgid "Speaker"
+msgstr "སྒྲ་སྐྱེད།"
+
+#: speech/libsrs/srs-speech.c:289
+msgid "Alpha"
+msgstr "ཨཱལ་ཕ།"
+
+#: speech/libsrs/srs-speech.c:290
+msgid "Bravo"
+msgstr "བཱ་ར་བོ།"
+
+#: speech/libsrs/srs-speech.c:291
+msgid "Charlie"
+msgstr "ཅར་ལི།"
+
+#: speech/libsrs/srs-speech.c:292
+msgid "Delta"
+msgstr "ཌེལ་ཊ།"
+
+#: speech/libsrs/srs-speech.c:293
+msgid "Echo"
+msgstr "བྲག་ཅ།"
+
+#: speech/libsrs/srs-speech.c:294
+msgid "Foxtrot"
+msgstr "ཕོགསི་ཊོཊི།"
+
+#: speech/libsrs/srs-speech.c:295
+msgid "Golf"
+msgstr "རྒྱུག་རིལ།"
+
+#: speech/libsrs/srs-speech.c:296
+msgid "Hotel"
+msgstr "ཟ་ཁང་།"
+
+#: speech/libsrs/srs-speech.c:297
+msgid "India"
+msgstr "རྒྱ་གར།"
+
+#: speech/libsrs/srs-speech.c:298
+msgid "Juliet"
+msgstr "ཇུ་ལིཊི།"
+
+#: speech/libsrs/srs-speech.c:299
+msgid "Kilo"
+msgstr "ཀི་ལོ།"
+
+#: speech/libsrs/srs-speech.c:300
+msgid "Lima"
+msgstr "ལི་མ།"
+
+#: speech/libsrs/srs-speech.c:301
+msgid "Mike"
+msgstr "མའིཀ"
+
+#: speech/libsrs/srs-speech.c:302
+msgid "November"
+msgstr "སྤྱི་ཟླ་བཅུ་གཅིག་པ།"
+
+#: speech/libsrs/srs-speech.c:303
+msgid "Oscar"
+msgstr "ཨོསི་ཀར།"
+
+#: speech/libsrs/srs-speech.c:304
+msgid "Papa"
+msgstr "པ་པ།"
+
+#: speech/libsrs/srs-speech.c:305
+msgid "Quebec"
+msgstr "ཀུས་བེཀ"
+
+#: speech/libsrs/srs-speech.c:306
+msgid "Romeo"
+msgstr "རོ་མིའོ།"
+
+#: speech/libsrs/srs-speech.c:307
+msgid "Sierra"
+msgstr "སི་ར།"
+
+#: speech/libsrs/srs-speech.c:308
+msgid "Tango"
+msgstr "ཊེང་གོ།"
+
+#: speech/libsrs/srs-speech.c:309
+msgid "Uniform"
+msgstr "གཅིག་མཚུངས། "
+
+#: speech/libsrs/srs-speech.c:310
+msgid "Victor"
+msgstr "རྒྱལ་མི།"
+
+#: speech/libsrs/srs-speech.c:311
+msgid "Whiskey"
+msgstr "ཝིསི་ཀི།"
+
+#: speech/libsrs/srs-speech.c:312
+msgid "Xray"
+msgstr "གློག་དཔར།"
+
+#: speech/libsrs/srs-speech.c:313
+msgid "Yankee"
+msgstr "ཡང་ཀི།"
+
+#: speech/libsrs/srs-speech.c:314
+msgid "Zulu"
+msgstr "ཛུ་ལུ།"
+
+#: speech/libsrs/srs-speech.c:315
+#: srcore/srspc.c:1770
+msgid "space"
+msgstr "བར་སྟོང་།"
+
+#: speech/libsrs/srs-speech.c:316
+msgid "tab"
+msgstr "ཨེབ་ལྡེ།"
+
+#: speech/libsrs/srs-speech.c:317
+msgid "new line"
+msgstr "གྱལ་རིམ་གསརཔ།"
+
+#: speech/libsrs/srs-speech.c:318
+msgid "dash"
+msgstr "སྦྲེལ་རྟགས།"
+
+#: srconf/libsrconf/libsrconf.c:454
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "རིམ་སྒྲིག་འབྱུང་ཁུངས་: %sལུ་ འཛུལ་སྤྱོད་འབད་མ་ཚུགས། \n"
+
+#: srconf/libsrconf/libsrconf.c:467
+#, c-format
+msgid "Failed to add notify: %s"
+msgstr "བརྡ་བསྐུལ་བྱིན་ནི་: %s ཁ་སྐོང་རྐྱབས་མ་ཚུགས།"
+
+#: srconf/libsrconf/libsrconf.c:521
+msgid "Failed to remove directory."
+msgstr "སྣོད་ཐོ་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: srconf/libsrconf/libsrconf.c:865
+msgid "Failed to set configdata."
+msgstr "རིམ་སྒྲིག་གནད་སྡུད་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: srconf/libsrconf/libsrconf.c:939
+msgid "Failed set data."
+msgstr "གནད་སྡུད་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#. translators: a single whitespace or suitable delimiter between 'words', if appropriate
+#. translators: the letter ' ' (space), in parentheses.
+#: srcore/default.xml.in.h:3
+#: srcore/verbose.xml.in.h:3
+msgid "( )"
+msgstr "( )"
+
+#. translators: the letter 'C' for "checked", in parentheses.
+#: srcore/default.xml.in.h:5
+#: srcore/verbose.xml.in.h:5
+msgid "(C)"
+msgstr "(སི་)"
+
+#. translators: the letter 'E' for "expanded", in parentheses.
+#: srcore/default.xml.in.h:7
+#: srcore/verbose.xml.in.h:7
+msgid "(E)"
+msgstr "(ཨི་)"
+
+#. translators: the letter 'P' for "[button] pressed", in parentheses.
+#: srcore/default.xml.in.h:9
+#: srcore/verbose.xml.in.h:9
+msgid "(P)"
+msgstr "(པི་)"
+
+#. translators: the letter 'U', for "unavailable", in parentheses.
+#: srcore/default.xml.in.h:11
+#: srcore/verbose.xml.in.h:11
+msgid "(U)"
+msgstr "(ཡུ་)"
+
+#. translators: the letter 'c' for "collapsed", in parentheses.
+#: srcore/default.xml.in.h:13
+#: srcore/verbose.xml.in.h:13
+msgid "(c)"
+msgstr "(སི་)"
+
+#. translators: the letter 'm' for "minimized", in parentheses.
+#: srcore/default.xml.in.h:15
+#: srcore/verbose.xml.in.h:15
+msgid "(m)"
+msgstr "(ཨེམ)"
+
+#. translators: the letter 'n' for "not minimized", in parentheses.
+#: srcore/default.xml.in.h:17
+#: srcore/verbose.xml.in.h:17
+msgid "(n)"
+msgstr "(ཨེན)"
+
+#: srcore/default.xml.in.h:18
+#: srcore/verbose.xml.in.h:18
+msgid "Give maximum speech and braille output."
+msgstr "གསུང་བཤད་དང་ འབུར་ཡིག་གི་ཨའུཊི་པུཊི་ མང་མཐའ་བྱིན།"
+
+#. translators: 'keyboard accelerator'
+#: srcore/default.xml.in.h:21
+#: srcore/verbose.xml.in.h:21
+msgid "accelerator"
+msgstr "མགྱོགས་འཕྲུལ།"
+
+#: srcore/default.xml.in.h:22
+#: srcore/verbose.xml.in.h:22
+msgid "available"
+msgstr "འཐོབ་ཚུགསཔ།"
+
+#. translators: "checked" as in "checkbox is checked"
+#: srcore/default.xml.in.h:24
+#: srcore/verbose.xml.in.h:24
+msgid "checked"
+msgstr "ཞིབ་དཔྱད་འབད་ཡོདཔ།"
+
+#: srcore/default.xml.in.h:25
+#: srcore/verbose.xml.in.h:25
+msgid "closing tab"
+msgstr "ཨེབ་ལྡེ་ཁ་བསྡམ་དོ།"
+
+#: srcore/default.xml.in.h:26
+#: srcore/verbose.xml.in.h:26
+msgid "closing window"
+msgstr "སྒོ་སྒྲིག་ཁ་བསྡམ་དོ།"
+
+#: srcore/default.xml.in.h:27
+#: srcore/verbose.xml.in.h:27
+msgid "collapsed"
+msgstr "ཧྲམ་བཏང་ཡོདཔ།"
+
+#: srcore/default.xml.in.h:28
+#: srcore/verbose.xml.in.h:28
+msgid "column header"
+msgstr "ཀེར་ཐིག་གི་མགུ་རྒྱན།"
+
+#: srcore/default.xml.in.h:29
+#: srcore/verbose.xml.in.h:29
+msgid "create tab"
+msgstr "ཨེབ་ལྡེ་གསར་བསྐྲུན་འབད།"
+
+#: srcore/default.xml.in.h:30
+#: srcore/verbose.xml.in.h:30
+msgid "create window"
+msgstr "སྒོ་སྒྲིག་གསར་བསྐྲུན་འབད།"
+
+#: srcore/default.xml.in.h:31
+#: srcore/verbose.xml.in.h:31
+msgid "current value"
+msgstr "ད་ལྟོའི་བེ་ལུ།"
+
+#: srcore/default.xml.in.h:32
+#: srcore/srctrl.c:2669
+#: srcore/verbose.xml.in.h:32
+msgid "empty line"
+msgstr "གྱལ་རིམ་སྟོངམ།"
+
+#: srcore/default.xml.in.h:33
+#: srcore/verbose.xml.in.h:33
+msgid "expanded"
+msgstr "རྒྱ་བསྐྱེད་འབད་ཡོདཔ།"
+
+#: srcore/default.xml.in.h:34
+#: srcore/srctrl.c:2258
+#: srcore/srctrl.c:2409
+#: srcore/verbose.xml.in.h:34
+msgid "item"
+msgid_plural "items"
+msgstr[0] "རྣམ་གྲངས།"
+msgstr[1] "རྣམ་གྲངས་ཚུ།"
+
+#: srcore/default.xml.in.h:35
+#: srcore/verbose.xml.in.h:35
+msgid "items"
+msgstr "རྣམ་གྲངས་ཚུ།"
+
+#: srcore/default.xml.in.h:36
+#: srcore/verbose.xml.in.h:36
+msgid "level"
+msgstr "གནས་རིམ།"
+
+#: srcore/default.xml.in.h:37
+#: srcore/verbose.xml.in.h:37
+msgid "maximize window"
+msgstr "སྒོ་སྒྲིག་སྦོམ་བཟོ།"
+
+#: srcore/default.xml.in.h:38
+#: srcore/verbose.xml.in.h:38
+msgid "minimize window"
+msgstr "སྒོ་སྒྲིག་ཆུང་ཀུ་བཟོ།"
+
+#: srcore/default.xml.in.h:39
+#: srcore/verbose.xml.in.h:39
+msgid "minimized"
+msgstr "ཆུང་ཀུ་བཟོ་བཟོཝ།"
+
+#: srcore/default.xml.in.h:40
+#: srcore/verbose.xml.in.h:40
+msgid "no selection anymore"
+msgstr "དེ་ལས་ལྷག་སྟེ་ སེལ་འཐུ་མེད།"
+
+#: srcore/default.xml.in.h:41
+#: srcore/verbose.xml.in.h:41
+msgid "normal"
+msgstr "ཨ་རྟག་གི"
+
+#: srcore/default.xml.in.h:42
+#: srcore/verbose.xml.in.h:42
+msgid "pressed"
+msgstr "ཨེབ་ཡོདཔ།"
+
+#: srcore/default.xml.in.h:43
+#: srcore/verbose.xml.in.h:43
+msgid "rename window"
+msgstr "སྒོ་སྒྲིག་ལུ་ བསྐྱར་མིང་བཏགས།"
+
+#: srcore/default.xml.in.h:44
+#: srcore/verbose.xml.in.h:44
+msgid "restore window"
+msgstr "སྒོ་སྒྲིག་སོར་ཆུད་འབད།"
+
+#: srcore/default.xml.in.h:45
+#: srcore/verbose.xml.in.h:45
+msgid "row header"
+msgstr "གྲལ་ཐིག་མགུ་རྒྱན།"
+
+#. translators: 'keyboard shortcut'
+#: srcore/default.xml.in.h:47
+#: srcore/verbose.xml.in.h:47
+msgid "shortcut"
+msgstr "མགྱོགས་ཐབས།"
+
+#: srcore/default.xml.in.h:48
+#: srcore/verbose.xml.in.h:48
+msgid "show tool tip"
+msgstr "ལག་ཆས་ཕན་བསླབ་སྟོན།"
+
+#: srcore/default.xml.in.h:49
+#: srcore/verbose.xml.in.h:49
+msgid "switch tab"
+msgstr "ཨེབ་ལྡེ་སོར་བསྒྱུར་འབད།"
+
+#: srcore/default.xml.in.h:50
+#: srcore/verbose.xml.in.h:50
+msgid "switch to"
+msgstr "སོར་བསྒྱུར་འབད་ཡུལ།"
+
+#: srcore/default.xml.in.h:51
+#: srcore/verbose.xml.in.h:51
+msgid "switch to window"
+msgstr "སྒོ་སྒྲིག་ལུ་ སོར་བསྒྱུར་འབད།"
+
+#: srcore/default.xml.in.h:52
+#: srcore/verbose.xml.in.h:52
+msgid "titleize window"
+msgstr "སྒོ་སྒྲིག་ལུ་ མགོ་མིང་བཏགས།"
+
+#: srcore/default.xml.in.h:53
+#: srcore/verbose.xml.in.h:53
+msgid "unavailable"
+msgstr "འཐོབ་མི་ཚུགསཔ་།"
+
+#. translators: "checkbox is unchecked"
+#: srcore/default.xml.in.h:55
+#: srcore/verbose.xml.in.h:55
+msgid "unchecked"
+msgstr "ཞིབ་དཔྱད་མ་འབདཝ།"
+
+#: srcore/default.xml.in.h:56
+#: srcore/verbose.xml.in.h:56
+msgid "unpressed"
+msgstr "མ་ཨེབ།"
+
+#: srcore/srctrl.c:1012
+msgid "no parent"
+msgstr "རྩ་ལག་ མིན་འདུ"
+
+#: srcore/srctrl.c:1036
+msgid "no children"
+msgstr "ཆ་ལག་ཚུ་མིན་འདུ"
+
+#: srcore/srctrl.c:1069
+msgid "no next"
+msgstr "གཞན་མི་མིན་འདུག"
+
+#: srcore/srctrl.c:1185
+msgid "Cannot find next text!"
+msgstr "ཚིག་ཡིག་གཞན་མི་ འཚོལ་མ་ཐོབ།"
+
+#: srcore/srctrl.c:1196
+msgid "Cannot find next image!"
+msgstr "གཟུགས་བརྙན་གཞན་མི་ འཚོལ་མ་ཐོབ།"
+
+#: srcore/srctrl.c:1207
+msgid "Cannot find next attributes!"
+msgstr "ཁྱད་ཆོས་གཞན་མི་ འཚོལ་མ་ཐོབ།"
+
+#: srcore/srctrl.c:1296
+msgid "no previous"
+msgstr "ཧེ་མམ་མིན་འདུག"
+
+#: srcore/srctrl.c:1340
+msgid "added watch for current object"
+msgstr "ད་ལྟོའི་དངོས་པོའི་དོན་ལུ་ ཁ་སྐོང་བརྐྱབས་ཡོད་པའི་ཆུ་ཚོད།"
+
+#: srcore/srctrl.c:1341
+msgid "cannot add watch for current object"
+msgstr "ད་ལྟོའི་དངོས་པོའི་དོན་ལུ་ ཆུ་ཚོད་ཁ་སྐོང་བརྐྱབ་མི་ཚུགས།"
+
+#: srcore/srctrl.c:1366
+msgid "no caret"
+msgstr "ཀེ་རེཊི་ མིན་འདུག"
+
+#: srcore/srctrl.c:1387
+msgid "already on first"
+msgstr "ཧེ་མ་ལས་ དང་པམ་ལུ།"
+
+#: srcore/srctrl.c:1408
+msgid "already on last"
+msgstr "ཧེ་མ་ལས་ མཇུག་མམ་ལུ།"
+
+#: srcore/srctrl.c:1421
+msgid "now navigating in application"
+msgstr "ད་ལྟོ་གློག་རིམ་ནང་ འགྲུལ་བསྐྱོད་འབད་བའི་བསྒང་།"
+
+#: srcore/srctrl.c:1425
+msgid "now navigating in desktop"
+msgstr "ད་ལྟོ་ཌེཀསི་ཊོཔ་ནང་ འགྲུལ་བསྐྱོད་འབད་བའི་བསྒང་།"
+
+#: srcore/srctrl.c:1429
+msgid "now navigating in window"
+msgstr "ད་ལྟོ་སྒོ་སྒྲིག་ནང་ འགྲུལ་བསྐྱོད་འབད་བའི་བསྒང་།"
+
+#: srcore/srctrl.c:1522
+msgid "no focus"
+msgstr "ཆེད་དམིགས་མིན་འདུག"
+
+#: srcore/srctrl.c:1562
+msgid "no title"
+msgstr "མགོ་མིང་མིན་འདུག"
+
+#: srcore/srctrl.c:1583
+msgid "no menu bar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་མིན་འདུག"
+
+#: srcore/srctrl.c:1606
+msgid "no tool bar"
+msgstr "ལག་ཆས་ཕྲ་རིང་མིན་འདུག"
+
+#: srcore/srctrl.c:1630
+msgid "no status bar"
+msgstr "གནས་ཚད་ཕྲ་རིང་མིན་འདུག"
+
+#: srcore/srctrl.c:2214
+msgid "on"
+msgstr "ཨཱོན།"
+
+#: srcore/srctrl.c:2236
+#: srcore/srctrl.c:2387
+msgid "from a"
+msgstr "ཅིག་ནང་ལས།"
+
+#: srcore/srctrl.c:2238
+#: srcore/srctrl.c:2394
+msgid "with"
+msgstr "བཅས"
+
+#: srcore/srctrl.c:2269
+msgid "in a"
+msgstr "ཅིག་ནང་།"
+
+#: srcore/srctrl.c:2272
+msgid "named "
+msgstr "མིང་བཏགས་པ།"
+
+#: srcore/srctrl.c:2274
+msgid "with no name"
+msgstr "མིང་མེད་པའི་ཐོག་ལས།"
+
+#: srcore/srctrl.c:2288
+msgid "of application"
+msgstr "གློག་རིམ་གྱི།"
+
+#: srcore/srctrl.c:2375
+msgid "on a"
+msgstr "ཅིག་ལུ།"
+
+#: srcore/srctrl.c:2629
+msgid "first line"
+msgstr "གྱལ་རིམ་དང་པ།"
+
+#: srcore/srctrl.c:2636
+msgid "last line"
+msgstr "གྱལ་རིམ་མཇུག་མ།"
+
+#: srcore/srctrl.c:2644
+#: srcore/srctrl.c:2646
+msgid "[first line]"
+msgstr "[གྱལ་རིམ་དང་པ་]"
+
+#: srcore/srctrl.c:2651
+#: srcore/srctrl.c:2653
+msgid "[last line]"
+msgstr "[གྱལ་རིམ་མཇུག་མ་]"
+
+#: srcore/srctrl.c:2676
+#, c-format
+msgid "%d empty line"
+msgid_plural "%d empty lines"
+msgstr[0] "གྱལ་རིམ་སྟོངམ་%d།"
+msgstr[1] "གྱལ་རིམ་སྟོངམ་%d།"
+
+#: srcore/srctrl.c:2697
+#: srcore/srctrl.c:2699
+msgid "[empty line]"
+msgstr "[གྱལ་རིམ་སྟོངམ་]"
+
+#: srcore/srctrl.c:2704
+#, c-format
+msgid "[%d empty line]"
+msgid_plural "[%d empty lines]"
+msgstr[0] "[གྱལ་རིམ་སྟོངམ་%d]།"
+msgstr[1] "[གྱལ་རིམ་སྟོངམ་%d]།"
+
+#: srcore/srctrl.c:2786
+#: srcore/srctrl.c:2787
+#: srcore/srctrl.c:2795
+#: srcore/srctrl.c:2950
+#: srcore/srctrl.c:2951
+msgid "cannot make flat review for current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་གི་དོན་ལུ་ ཕེལེཊི་བསྐྱར་ཞིབ་འབད་མི་ཚུགས།"
+
+#: srcore/srctrl.c:3022
+msgid "flat review mode"
+msgstr "ཕེལེཊི་བསྐྱར་ཞིབ་ཐབས་ལམ།"
+
+#: srcore/srctrl.c:3038
+msgid "focus tracking mode"
+msgstr "ཊེ་ཀིང་ཐབས་ལམ་ ཆེད་དམིགས་འབད།"
+
+#: srcore/srctrl.c:3577
+#, c-format
+msgid "\"%s\" entry has invalid value at position %d."
+msgstr "ཐོ་བཀོད་\"%s\" དེ་ལུ་ གནས་ས་%dལུ་ ནུས་མེད་བེ་ལུ་འདུག"
+
+#: srcore/srctrl.c:3598
+#, c-format
+msgid "key \"%s\" has an invalid value at position %d."
+msgstr "ལྡེ་མིག་་\"%s\" དེ་ལུ་ གནས་ས་%dལུ་ ནུས་མེད་བེ་ལུ་ཅིག་འདུག"
+
+#: srcore/srctrl.c:3634
+msgid "Can not get key pad commands mapping from gconf."
+msgstr "ཇི་ཀཱོནཕ་ནང་ལས་ བརྡ་བཀོད་ཀྱི་ས་ཁྲ་བཟོ་ནིའི་ ཨང་ཡིག་ལྡེ་སྒྲོམ་ འཐོབ་མི་ཚུགས་པས།"
+
+#: srcore/srctrl.c:3645
+msgid "Can not get braille display commands mapping from gconf."
+msgstr "ཇི་ཀཱོནཕ་ནང་ལས་ བརྡ་བཀོད་ཀྱི་ས་ཁྲ་བཟོ་ནིའི་ འབུར་ཡིག་བཀྲམ་སྟོན་ འཐོབ་མི་ཚུགས་པས།"
+
+#: srcore/srctrl.c:3656
+msgid "Can not get user defined commands mapping from gconf."
+msgstr "ཇི་ཀཱོནཕ་ནང་ལས་ བརྡ་བཀོད་ཀྱི་ས་ཁྲ་བཟོ་ནིའི་ ལག་ལེན་པའི་ངེས་འཛིན་ འཐོབ་མི་ཚུགས་པས།"
+
+#: srcore/srctrl.c:3760
+msgid "no role available"
+msgstr "ལས་འགན་འཐོབ་མི་ཚུགས་པས།"
+
+#: srcore/srmain.c:70
+#: srcore/srmain.c:73
+msgid "No focus"
+msgstr "ཆེད་དམིགས་མིན་འདུག"
+
+#: srcore/srmain.c:76
+msgid "No accessible object is focused"
+msgstr "འཛུལ་སྤྱོད་འབད་ཚུགས་པའི་དངོས་པོ་ ཆེད་དམིགས་འབད་འབདཝ་མིན་འདུག"
+
+#: srcore/srmain.c:445
+msgid "unknown location"
+msgstr "མ་ཤེས་པའི་གནས་ཁོངས།"
+
+#: srcore/srmain.c:482
+msgid "no details"
+msgstr "རྒྱས་བཤད་མིན་འདུག"
+
+#: srcore/srmain.c:522
+msgid "layer"
+msgstr "བང་རིམ།"
+
+#: srcore/srmain.c:543
+msgid "back to layer"
+msgstr "བང་རིམ་ལུ་ལོག"
+
+#: srcore/srmain.c:909
+msgid "cursor on"
+msgstr "འོད་རྟགས་ཨཱོན།"
+
+#: srcore/srmain.c:909
+msgid "cursor off"
+msgstr "འོད་རྟགས་ཨོཕ།"
+
+#: srcore/srmain.c:927
+msgid "current cursor is"
+msgstr "ད་ལྟོའི་འོད་རྟགས་དེ།"
+
+#: srcore/srmain.c:945
+msgid "cursor size"
+msgstr "འོད་རྟགས་ཚད།"
+
+#: srcore/srmain.c:962
+msgid "cursor magnification on"
+msgstr "འོད་རྟགས་ཆེར་སྐྱེད་ཨཱོན།"
+
+#: srcore/srmain.c:963
+msgid "cursor magnification off"
+msgstr "འོད་རྟགས་ཆེར་སྐྱེད་ཨོཕ།"
+
+#: srcore/srmain.c:981
+msgid "cursor color"
+msgstr "འོད་རྟགས་ཚོས་གཞི།"
+
+#: srcore/srmain.c:998
+msgid "crosshair on"
+msgstr "ཀོརོསི་ཧེའར་ཨཱོན།"
+
+#: srcore/srmain.c:998
+msgid "crosshair off"
+msgstr "ཀོརོསི་ཧེའར་ཨོཕ།"
+
+#: srcore/srmain.c:1015
+msgid "crosshair clip on"
+msgstr "ཀོརོསི་ཧེའར་འཛིན་ལྕགས་ཨཱོན།"
+
+#: srcore/srmain.c:1016
+msgid "crosshair clip off"
+msgstr "ཀོརོསི་ཧེའར་འཛིན་ལྕགས་ཨོཕ།"
+
+#: srcore/srmain.c:1034
+msgid "crosshair size"
+msgstr "ཀོརོསི་ཧེའར་གྱི་ཚད།"
+
+#: srcore/srmain.c:1052
+msgid "crosshair color"
+msgstr "ཀོརོསི་ཧེའར་གྱི་ཚོས་གཞི།"
+
+#: srcore/srmain.c:1070
+msgid "zoomer placement left"
+msgstr "རྒྱས་ཟུམ་འབད་མི་ བཙུགས་བཞག་གཡོན་ལུ།"
+
+#: srcore/srmain.c:1088
+msgid "zoomer placement top"
+msgstr "རྒྱས་ཟུམ་འབད་མི་ བཙུགས་བཞག་མགོ་ལུ།"
+
+#: srcore/srmain.c:1106
+msgid "zoomer placement width"
+msgstr "རྒྱས་ཟུམ་འབད་མི་ བཙུགས་བཞག་རྒྱ་ཚད།"
+
+#: srcore/srmain.c:1124
+msgid "zoomer placement height"
+msgstr "རྒྱས་ཟུམ་འབད་མི་ བཙུགས་བཞག་མཐོ་ཚད།"
+
+#: srcore/srmain.c:1154
+msgid "magnifier target"
+msgstr "ཆེ་ཤེལ་གྱི་དམིགས་གཏད།"
+
+#: srcore/srmain.c:1172
+msgid "magnifier source"
+msgstr "ཆེ་ཤེལ་གྱི་འབྱུང་ཁུངས།"
+
+#: srcore/srmain.c:1190
+msgid "zoom factor x"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ ཨེགསི།"
+
+#: srcore/srmain.c:1208
+msgid "zoom factor y"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ ཝའི།"
+
+#: srcore/srmain.c:1225
+msgid "zoom factor locked"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ ལྡེ་མིག་བརྐྱབས་ནུག"
+
+#: srcore/srmain.c:1226
+msgid "zoom factor unlocked"
+msgstr "རྒྱས་ཟུམ་ཆ་རྐྱེན་ ལྡེ་མིག་ཕྱེ་ནུག"
+
+#: srcore/srmain.c:1243
+msgid "invert on"
+msgstr "གནས་ལོག་ཨཱོན།"
+
+#: srcore/srmain.c:1243
+msgid "invert off"
+msgstr "གནས་ལོག་ཨོཕ།"
+
+#: srcore/srmain.c:1261
+msgid "magnifier smoothing type"
+msgstr "ཆེ་ཤེལ་ཧུམ་ཆའི་དབྱེ་བ།"
+
+#: srcore/srmain.c:1284
+msgid "mouse tracking mode"
+msgstr "མཱའུསི་ཊེ་ཀིང་ཐབས་ལམ།"
+
+#: srcore/srmain.c:1306
+msgid "panning on"
+msgstr "རྗེས་སུ་དམིགས་པ་ཨཱོན།"
+
+#: srcore/srmain.c:1306
+msgid "panning off"
+msgstr "རྗེས་སུ་དམིགས་པ་ཨོཕ།"
+
+#: srcore/srmain.c:1678
+msgid "alt"
+msgstr "གདམ་ལྡེ།"
+
+#: srcore/srmain.c:1683
+msgid "control"
+msgstr "ཚད་འཛིན། "
+
+#: srcore/srmain.c:1688
+msgid "shift"
+msgstr "སོར་ལྡེ "
+
+#: srcore/srmain.c:1693
+msgid "caps lock"
+msgstr "ཚུགས་ལྡེ།"
+
+#: srcore/srmain.c:1697
+msgid "num lock"
+msgstr "ཨང་ལྡེ།"
+
+#: srcore/srmain.c:1705
+#: srcore/srmain.c:1749
+msgid "right"
+msgstr "གཡས།"
+
+#: srcore/srmain.c:1707
+#: srcore/srmain.c:1751
+msgid "left"
+msgstr "གཡོན།"
+
+#: srcore/srmain.c:1741
+msgid "home"
+msgstr "ཁྱིམ།"
+
+#: srcore/srmain.c:1743
+msgid "end"
+msgstr "མཇུག"
+
+#: srcore/srmain.c:1745
+msgid "page up"
+msgstr "ཤོག་ལེབ་ཡར།"
+
+#: srcore/srmain.c:1747
+msgid "page down"
+msgstr "ཤོག་ལེབ་མར།"
+
+#: srcore/srmain.c:1753
+msgid "down"
+msgstr "མར།"
+
+#: srcore/srmain.c:1755
+msgid "up"
+msgstr "ཡར།"
+
+#: srcore/srmain.c:1757
+msgid "backspace"
+msgstr "རྒྱབ་བཤུད་ལྡེ་མིག"
+
+#: srcore/srmain.c:1759
+msgid "delete"
+msgstr "བཏོན་གཏང་།"
+
+#: srcore/srmain.c:1761
+msgid "escape"
+msgstr "གྲོས་ཐར།"
+
+#: srcore/srmain.c:2280
+msgid "Welcome to Gnopernicus"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ལུ་ བྱོན་པ་ལེགས་སོ་ཡོད།"
+
+#: srcore/srmain.c:2384
+msgid "braille device can not be initialized"
+msgstr "འབུར་ཡིག་ཐབས་འཕྲུལ་ འགོ་འབྱེད་འབད་མི་ཚུགས།"
+
+#: srcore/srmain.c:2396
+msgid "Gnopernicus is now exiting. Have a nice day!"
+msgstr "ཇི་ནོ་པར་ནི་ཀཱསི་ ད་ལྟོ་ཕྱིར་ཐོན་འབད་དོ།  ཉིནམ་ལེགས་ཤོམ་ཅིག་འོང་བཅུག"
+
+#: srcore/srmain.c:2673
+msgid "srcore"
+msgstr "སར་ཀོར།"
+
+#: srcore/srpres.c:808
+msgid "UNK"
+msgstr "ཡུ་ཨེན་ཀེ།"
+
+#: srcore/srpres.c:808
+msgid "UNKNOWN"
+msgstr "མ་ཤེསཔ།"
+
+#: srcore/srpres.c:808
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: srcore/srpres.c:809
+msgid "???"
+msgstr "???"
+
+#: srcore/srpres.c:809
+msgid "INVALID"
+msgstr "ནུས་མེད།"
+
+#: srcore/srpres.c:809
+msgid "Invalid"
+msgstr "ནུས་མེད།"
+
+#: srcore/srpres.c:810
+msgid "ALR"
+msgstr "ཨེ་ཨེལ་ཨར།"
+
+#: srcore/srpres.c:810
+msgid "ALERT"
+msgstr "དྲན་བརྡ།"
+
+#: srcore/srpres.c:811
+msgid "CNV"
+msgstr "སི་ཨེན་ཝི།"
+
+#: srcore/srpres.c:811
+msgid "CANVAS"
+msgstr "འབྲི་གཞི།"
+
+#: srcore/srpres.c:811
+msgid "Canvas"
+msgstr "འབྲི་གཞི།"
+
+#: srcore/srpres.c:812
+msgid "CHK"
+msgstr "སི་ཨེཆ་ཀེ།"
+
+#: srcore/srpres.c:812
+msgid "CHECK_BOX"
+msgstr "ཞིབ་དཔྱད་ཐིག་སྒྲོམ།(_B)"
+
+#: srcore/srpres.c:812
+msgid "Check box"
+msgstr "ཞིབ་དཔྱད་ཐིག་སྒྲོམ།"
+
+#: srcore/srpres.c:813
+#: srcore/srpres.c:836
+#: srcore/srpres.c:846
+msgid "MIT"
+msgstr "ཨེམ་ཨའི་ཊི།"
+
+#: srcore/srpres.c:813
+#: srcore/srpres.c:836
+#: srcore/srpres.c:846
+msgid "MENU ITEM"
+msgstr "དཀར་ཆག་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:813
+msgid "Check Menu item"
+msgstr "དཀར་ཆག་རྣམ་གྲངས་ཞིབ་དཔྱད་འབད།"
+
+#: srcore/srpres.c:814
+msgid "CCH"
+msgstr "སི་སི་ཨེཆ།"
+
+#: srcore/srpres.c:814
+msgid "COLOR CHOOSER"
+msgstr "ཚོས་གཞི་འདེམས་བྱེད།"
+
+#: srcore/srpres.c:814
+msgid "Color chooser"
+msgstr "ཚོས་གཞི་འདེམས་བྱེད།"
+
+#: srcore/srpres.c:815
+msgid "CHD"
+msgstr "སི་ཨེཆ་ཌི།"
+
+#: srcore/srpres.c:815
+msgid "COLUMN HEADER"
+msgstr "ཀེར་ཐིག་མགུ་རྒྱན།"
+
+#: srcore/srpres.c:815
+msgid "Column header"
+msgstr "ཀེར་ཐིག་མགུ་རྒྱན།"
+
+#: srcore/srpres.c:816
+msgid "CBO"
+msgstr "སི་བི་ཨོ།"
+
+#: srcore/srpres.c:816
+msgid "COMBO BOX"
+msgstr "བརྟག་སྒྲོམ།"
+
+#: srcore/srpres.c:816
+msgid "Combo box"
+msgstr "བརྟག་སྒྲོམ།"
+
+#: srcore/srpres.c:817
+msgid "DIC"
+msgstr "ཌི་ཨའི་སི།"
+
+#: srcore/srpres.c:817
+msgid "DESKTOP ICON"
+msgstr "ཌེཀསི་ཊོཔ་ ངོས་དཔར།"
+
+#: srcore/srpres.c:817
+msgid "Desktop icon"
+msgstr "ཌེཀསི་ཊོཔ་ ངོས་དཔར།"
+
+#: srcore/srpres.c:818
+msgid "DFR"
+msgstr "ཌི་ཨེཕ་ཨར།"
+
+#: srcore/srpres.c:818
+msgid "DESKTOP FRAME"
+msgstr "ཌེཀསི་ཊོཔ་ གཞི་ཁྲམ།"
+
+#: srcore/srpres.c:818
+msgid "Desktop frame"
+msgstr "ཌེཀསི་ཊོཔ་ གཞི་ཁྲམ།"
+
+#: srcore/srpres.c:819
+msgid "DLG"
+msgstr "ཌི་ཨེལ་ཇི།"
+
+#: srcore/srpres.c:819
+msgid "DIALOG"
+msgstr "ཌའི་ལོག"
+
+#: srcore/srpres.c:819
+msgid "Dialog"
+msgstr "ཌའི་ལོག"
+
+#: srcore/srpres.c:820
+msgid "DIP"
+msgstr "ཌི་ཨའི་པི།"
+
+#: srcore/srpres.c:820
+msgid "DIRECTORY PANE"
+msgstr "སྣོད་ཐོའི་པེན།"
+
+#: srcore/srpres.c:820
+msgid "Directory pane"
+msgstr "སྣོད་ཐོའི་པེན།"
+
+#: srcore/srpres.c:821
+msgid "FCH"
+msgstr "ཨེཕ་སི་ཨེཆ།"
+
+#: srcore/srpres.c:821
+msgid "FILE CHOOSER"
+msgstr "ཡིག་སྣོད་འདེམས་བྱེད།"
+
+#: srcore/srpres.c:821
+msgid "File chooser"
+msgstr "ཡིག་སྣོད་འདེམས་བྱེད།"
+
+#: srcore/srpres.c:822
+msgid "FLR"
+msgstr "ཨེཕ་ཨེལ་ཨར།"
+
+#: srcore/srpres.c:822
+msgid "FILLER"
+msgstr "བཀང་བྱེད།"
+
+#: srcore/srpres.c:822
+msgid "Filler"
+msgstr "བཀང་བྱེད།"
+
+#: srcore/srpres.c:823
+msgid "FRM"
+msgstr "ཨེཕ་ཨར་ཨེམ།"
+
+#: srcore/srpres.c:823
+msgid "FRAME"
+msgstr "གཞི་ཁྲམ།"
+
+#: srcore/srpres.c:823
+msgid "Frame"
+msgstr "གཞི་ཁྲམ།"
+
+#: srcore/srpres.c:824
+msgid "GPN"
+msgstr "ཇི་པི་ཨེན།"
+
+#: srcore/srpres.c:824
+msgid "GLASS PANE"
+msgstr "ཤེལ་གྱི་པེན།"
+
+#: srcore/srpres.c:824
+msgid "Glass pane"
+msgstr "ཤེལ་གྱི་པེན།"
+
+#: srcore/srpres.c:825
+msgid "HTM"
+msgstr "ཨེཆ་ཊི་ཨེམ།"
+
+#: srcore/srpres.c:825
+msgid "HTML CONTAINER"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་འཛིན་སྣོད།"
+
+#: srcore/srpres.c:825
+msgid "H T M L container"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་འཛིན་སྣོད།"
+
+#: srcore/srpres.c:826
+#: srcore/srpres.c:831
+msgid "LNK"
+msgstr "ཨེལ་ཨེན་ཀེ།"
+
+#: srcore/srpres.c:826
+#: srcore/srpres.c:831
+msgid "LINK"
+msgstr "འབྲེལ་ལམ།"
+
+#: srcore/srpres.c:826
+#: srcore/srpres.c:831
+msgid "link"
+msgstr "འབྲེལ་ལམ།"
+
+#: srcore/srpres.c:827
+msgid "ICO"
+msgstr "ཨའི་སི་ཀོ།"
+
+#: srcore/srpres.c:827
+msgid "ICON"
+msgstr "ངོས་དཔར།"
+
+#: srcore/srpres.c:827
+msgid "Icon"
+msgstr "ངོས་དཔར།"
+
+#: srcore/srpres.c:828
+msgid "IFR"
+msgstr "ཨའི་ཨེཕ་ཨར།"
+
+#: srcore/srpres.c:828
+msgid "INTERNAL FRAME"
+msgstr "ནང་འཁོད་གཞི་ཁྲམ།"
+
+#: srcore/srpres.c:828
+msgid "Internal frame"
+msgstr "ནང་འཁོད་གཞི་ཁྲམ།"
+
+#: srcore/srpres.c:829
+msgid "LBL"
+msgstr "ཨེལ་བི་ཨེལ།"
+
+#: srcore/srpres.c:829
+msgid "LABEL"
+msgstr "ཁ་ཡིག"
+
+#: srcore/srpres.c:829
+msgid "Label"
+msgstr "ཁ་ཡིག"
+
+#: srcore/srpres.c:830
+msgid "LPN"
+msgstr "ཨེལ་པི་ཨེན།"
+
+#: srcore/srpres.c:830
+msgid "LAYERED PANE"
+msgstr "བང་བསྒྲིགས་པེན།"
+
+#: srcore/srpres.c:830
+msgid "Layered pane"
+msgstr "བང་བསྒྲིགས་པེན།"
+
+#: srcore/srpres.c:832
+msgid "LST"
+msgstr "ཨེལ་ཨེསི་ཊི།"
+
+#: srcore/srpres.c:832
+msgid "LIST"
+msgstr "ཐོ་ཡིག"
+
+#: srcore/srpres.c:832
+msgid "List"
+msgstr "ཐོ་ཡིག"
+
+#: srcore/srpres.c:833
+msgid "LIT"
+msgstr "ཨེལ་ཨའི་ཊི།"
+
+#: srcore/srpres.c:833
+msgid "LIST ITEM"
+msgstr "ཐོ་བཀོད་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:833
+msgid "List item"
+msgstr "ཐོ་བཀོད་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:834
+msgid "MNU"
+msgstr "ཨེམ་ཨེན་ཡུ།"
+
+#: srcore/srpres.c:834
+msgid "MENU"
+msgstr "དཀར་ཆག"
+
+#: srcore/srpres.c:834
+msgid "Menu"
+msgstr "དཀར་ཆག"
+
+#: srcore/srpres.c:835
+msgid "MBR"
+msgstr "ཨེམ་བི་ཨར།"
+
+#: srcore/srpres.c:835
+msgid "MENU BAR"
+msgstr "དཀར་ཆག་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:835
+msgid "Menu bar"
+msgstr "དཀར་ཆག་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:836
+msgid "Menu item"
+msgstr "དཀར་ཆག་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:837
+msgid "OPN"
+msgstr "ཨོ་པི་ཨེན།"
+
+#: srcore/srpres.c:837
+msgid "OPTION PANE"
+msgstr "གདམ་ཁའི་པེན།"
+
+#: srcore/srpres.c:837
+msgid "Option pane"
+msgstr "གདམ་ཁའི་པེན།"
+
+#: srcore/srpres.c:838
+msgid "PGT"
+msgstr "པི་ཇི་ཊི།"
+
+#: srcore/srpres.c:838
+msgid "PAGE TAB"
+msgstr "ཤོག་ལེབ་ཀྱི་ཨེབ་ལྡེ།"
+
+#: srcore/srpres.c:838
+msgid "Page tab"
+msgstr "ཤོག་ལེབ་ཀྱི་ཨེབ་ལྡེ།"
+
+#: srcore/srpres.c:839
+msgid "PTL"
+msgstr "པི་ཊི་ཨེལ།"
+
+#: srcore/srpres.c:839
+msgid "PAGE TAB LIST"
+msgstr "ཤོག་ལེབ་ཀྱི་ཨེབ་ལྡེའི་ཐོ་ཡིག"
+
+#: srcore/srpres.c:839
+msgid "Page tab list"
+msgstr "ཤོག་ལེབ་ཀྱི་ཨེབ་ལྡེའི་ཐོ་ཡིག"
+
+#: srcore/srpres.c:840
+msgid "PNL"
+msgstr "པི་ཨེན་ཨེལ།"
+
+#: srcore/srpres.c:840
+msgid "PANEL"
+msgstr "པེ་ནཱལ།"
+
+#: srcore/srpres.c:840
+msgid "Panel"
+msgstr "པེ་ནཱལ།"
+
+#: srcore/srpres.c:841
+msgid "PWD"
+msgstr "པི་ཌབ་ལུ་ཌི།"
+
+#: srcore/srpres.c:841
+msgid "PASSWORD TEXT"
+msgstr "ཆོག་ཡིག་ཚིག་ཡིག"
+
+#: srcore/srpres.c:841
+msgid "Password text"
+msgstr "ཆོག་ཡིག་ཚིག་ཡིག"
+
+#: srcore/srpres.c:842
+msgid "PMN"
+msgstr "པི་ཨེམ་ཨེན།"
+
+#: srcore/srpres.c:842
+msgid "POPUP MENU"
+msgstr "པོཔ་ཨཔ་ དཀར་ཆག"
+
+#: srcore/srpres.c:842
+msgid "Popup menu"
+msgstr "པོཔ་ཨཔ་ དཀར་ཆག"
+
+#: srcore/srpres.c:843
+msgid "PRG"
+msgstr "པི་ཨར་ཇི།"
+
+#: srcore/srpres.c:843
+msgid "PROGRESS BAR"
+msgstr "ཡར་འཕེལ་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:843
+msgid "Progress bar"
+msgstr "ཡར་འཕེལ་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:844
+msgid "PBT"
+msgstr "པི་བི་ཊི།"
+
+#: srcore/srpres.c:844
+msgid "PUSH BUTTON"
+msgstr "འཕུལ་རྟ།"
+
+#: srcore/srpres.c:844
+msgid "Push button"
+msgstr "འཕུལ་རྟ།"
+
+#: srcore/srpres.c:845
+msgid "RAD"
+msgstr "ཨར་ཨེ་ཌི།"
+
+#: srcore/srpres.c:845
+msgid "RADIO BUTTON"
+msgstr "རེ་ཌིའོ་ཨེབ་རྟ།"
+
+#: srcore/srpres.c:845
+msgid "Radio button"
+msgstr "རེ་ཌིའོ་་ཨེབ་རྟ།"
+
+#: srcore/srpres.c:846
+msgid "Radio Menu item"
+msgstr "རེ་ཌིའོ་་དཀར་ཆག་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:847
+msgid "RPN"
+msgstr "ཨར་པི་ཨེན།"
+
+#: srcore/srpres.c:847
+msgid "ROOT PANE"
+msgstr "རྩ་བའི་པེན།"
+
+#: srcore/srpres.c:847
+msgid "Root pane"
+msgstr "རྩ་བའི་པེན།"
+
+#: srcore/srpres.c:848
+msgid "RHD"
+msgstr "ཨར་ཨེཆ་ཌི།"
+
+#: srcore/srpres.c:848
+msgid "ROW HEADER"
+msgstr "གྲལ་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:848
+msgid "Row header"
+msgstr "གྲལ་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:849
+msgid "SCR"
+msgstr "ཨེསི་སི་ཨར།"
+
+#: srcore/srpres.c:849
+msgid "SCROLL BAR"
+msgstr "བཤུད་ཕྲ།"
+
+#: srcore/srpres.c:849
+msgid "Scroll bar"
+msgstr "བཤུད་ཕྲ།"
+
+#: srcore/srpres.c:850
+#: srcore/srpres.c:878
+msgid "SPN"
+msgstr "ཨེསི་པི་ཨེན།"
+
+#: srcore/srpres.c:850
+msgid "SCROLL PANE"
+msgstr "བཤུད་སྒྲིལ་པེན།"
+
+#: srcore/srpres.c:850
+msgid "Scroll pane"
+msgstr "བཤུད་སྒྲིལ་པེན།"
+
+#: srcore/srpres.c:851
+msgid "SEP"
+msgstr "ཨེསི་ཨི་པི།"
+
+#: srcore/srpres.c:851
+msgid "SEPARATOR"
+msgstr "དབྱེ་བྱེད།"
+
+#: srcore/srpres.c:851
+msgid "Separator"
+msgstr "དབྱེ་བྱེད།"
+
+#: srcore/srpres.c:852
+msgid "SLD"
+msgstr "ཨེསི་ཨེལ་ཌི།"
+
+#: srcore/srpres.c:852
+msgid "SLIDER"
+msgstr "གཡོ་བྱེད།"
+
+#: srcore/srpres.c:852
+msgid "Slider"
+msgstr "གཡོ་བྱེད།"
+
+#: srcore/srpres.c:853
+msgid "SPP"
+msgstr "ཨེསི་པི་པི།"
+
+#: srcore/srpres.c:853
+msgid "SPLIT PANE"
+msgstr "གཤག་འཕྲལ་པེན།"
+
+#: srcore/srpres.c:853
+msgid "Split pane"
+msgstr "གཤག་འཕྲལ་པེན།"
+
+#: srcore/srpres.c:854
+msgid "STA"
+msgstr "ཨེསི་ཊི་ཨེ།"
+
+#: srcore/srpres.c:854
+msgid "STATUS BAR"
+msgstr "གནས་ཚད་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:854
+msgid "Status bar"
+msgstr "གནས་ཚད་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:855
+msgid "TAB"
+msgstr "ཨེབ་ལྡེ།"
+
+#: srcore/srpres.c:855
+msgid "TABLE"
+msgstr "ཐིག་ཁྲམ།"
+
+#: srcore/srpres.c:855
+msgid "Table"
+msgstr "ཐིག་ཁྲམ།"
+
+#: srcore/srpres.c:856
+msgid "CEL"
+msgstr "སི་ཨི་ཨེལ།"
+
+#: srcore/srpres.c:856
+msgid "TABLE CELL"
+msgstr "ཐིག་ཁྲམ་ནང་ཐིག"
+
+#: srcore/srpres.c:856
+msgid "Table cell"
+msgstr "ཐིག་ཁྲམ་ནང་ཐིག"
+
+#: srcore/srpres.c:857
+#: srcore/srpres.c:882
+msgid "TCH"
+msgstr "ཊི་སི་ཨེཆ།"
+
+#: srcore/srpres.c:857
+msgid "TABLE COLUMN HEADER"
+msgstr "ཐིག་ཁྲམ་ཀེར་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:857
+msgid "Table column header"
+msgstr "ཐིག་ཁྲམ་ཀེར་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:858
+msgid "TRH"
+msgstr "ཊི་ཨར་ཨེཆ།"
+
+#: srcore/srpres.c:858
+msgid "TABLE ROW HEADER"
+msgstr "ཐིག་ཁྲམ་གྲལ་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:858
+msgid "Table row header"
+msgstr "ཐིག་ཁྲམ་གྲལ་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:859
+#: srcore/srpres.c:860
+msgid "TXT"
+msgstr "ཊི་ཨེགསི་ཊི།"
+
+#: srcore/srpres.c:859
+msgid "MULTI LINE TEXT"
+msgstr "སྣ་མང་འགྲེལ་ལམ་ ཚིག་ཡིག"
+
+#: srcore/srpres.c:859
+msgid "Multi Line Text"
+msgstr "སྣ་མང་འགྲེལ་ལམ་ ཚིག་ཡིག"
+
+#: srcore/srpres.c:860
+msgid "SINGLE LINE TEXT"
+msgstr "གྲལ་གཅིག་ཚིག་ཡིག"
+
+#: srcore/srpres.c:860
+msgid "Single Line Text"
+msgstr "གྲལ་གཅིག་ཚིག་ཡིག"
+
+#: srcore/srpres.c:861
+msgid "TOG"
+msgstr "ཊི་ཨོ་ཇི།"
+
+#: srcore/srpres.c:861
+msgid "TOGGLE BUTTON"
+msgstr "སོར་སྟོན་ཨེབ་རྟ།"
+
+#: srcore/srpres.c:861
+msgid "Toggle button"
+msgstr "སོར་སྟོན་ཨེབ་རྟ།"
+
+#: srcore/srpres.c:862
+msgid "TOL"
+msgstr "ཊི་ཨོ་ཨེལ།"
+
+#: srcore/srpres.c:862
+msgid "TOOL BAR"
+msgstr "ལག་ཆས་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:862
+msgid "Tool bar"
+msgstr "ལག་ཆས་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:863
+msgid "TIP"
+msgstr "ཊི་ཨའི་པི།"
+
+#: srcore/srpres.c:863
+msgid "TOOL TIP"
+msgstr "ལག་ཆས་ཕན་བསླབ།"
+
+#: srcore/srpres.c:863
+msgid "Tool tip"
+msgstr "ལག་ཆས་ཕན་བསླབ།"
+
+#: srcore/srpres.c:864
+msgid "TRE"
+msgstr "ཊི་ཨར་ཨི།"
+
+#: srcore/srpres.c:864
+msgid "TREE"
+msgstr "རྩ་འབྲེལ།"
+
+#: srcore/srpres.c:864
+msgid "Tree"
+msgstr "རྩ་འབྲེལ།"
+
+#: srcore/srpres.c:865
+msgid "TRI"
+msgstr "ཊི་ཨར་ཨའི།"
+
+#: srcore/srpres.c:865
+msgid "TREE ITEM"
+msgstr "རྩ་འབྲེལ་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:865
+msgid "Tree item"
+msgstr "རྩ་འབྲེལ་རྣམ་གྲངས།"
+
+#: srcore/srpres.c:866
+msgid "TRT"
+msgstr "ཊི་ཨར་ཊི།"
+
+#: srcore/srpres.c:866
+msgid "TREE TABLE"
+msgstr "རྩ་འབྲེལ་ཐིག་ཁྲམ།"
+
+#: srcore/srpres.c:866
+msgid "Tree table"
+msgstr "རྩ་འབྲེལ་ཐིག་ཁྲམ།"
+
+#: srcore/srpres.c:867
+msgid "VWP"
+msgstr "ཝི་ཌབ་ལུ་པི།"
+
+#: srcore/srpres.c:867
+msgid "VIEWPORT"
+msgstr "མཐོང་སྣང་འདྲེན་ལམ་།"
+
+#: srcore/srpres.c:867
+msgid "Viewport"
+msgstr "མཐོང་སྣང་འདྲེན་ལམ་།"
+
+#: srcore/srpres.c:868
+msgid "WND"
+msgstr "ཌབ་ལུ་ཨེན་ཌི།"
+
+#: srcore/srpres.c:868
+msgid "WINDOW"
+msgstr "སྒོ་སྒྲིག"
+
+#: srcore/srpres.c:868
+msgid "Window"
+msgstr "སྒོ་སྒྲིག"
+
+#: srcore/srpres.c:869
+msgid "ACC"
+msgstr "ཨེ་སི་སི།"
+
+#: srcore/srpres.c:869
+msgid "ACCELERATOR LABEL"
+msgstr "མགྱོགས་འཕྲུལ་ཁ་ཡིག"
+
+#: srcore/srpres.c:869
+msgid "Accelerator label"
+msgstr "མགྱོགས་འཕྲུལ་ཁ་ཡིག"
+
+#: srcore/srpres.c:870
+msgid "ANI"
+msgstr "ཨེ་ཨེན་ཨའི།"
+
+#: srcore/srpres.c:870
+msgid "ANIMATION"
+msgstr "བསྒུལ་བཟོ།"
+
+#: srcore/srpres.c:870
+msgid "Animation"
+msgstr "བསྒུལ་བཟོ།"
+
+#: srcore/srpres.c:871
+msgid "ARR"
+msgstr "ཨེ་ཨར་ཨར།"
+
+#: srcore/srpres.c:871
+msgid "ARROW"
+msgstr "མདའ་རྟགས།"
+
+#: srcore/srpres.c:871
+msgid "Arrow"
+msgstr "མདའ་རྟགས།"
+
+#: srcore/srpres.c:872
+msgid "CAL"
+msgstr "སི་ཨེ་ཨེལ།"
+
+#: srcore/srpres.c:872
+msgid "CALENDAR"
+msgstr "ཟླ་ཐོ།"
+
+#: srcore/srpres.c:872
+msgid "Calendar"
+msgstr "ཟླ་ཐོ།"
+
+#: srcore/srpres.c:873
+msgid "DAT"
+msgstr "ཌི་ཨེ་ཊི།"
+
+#: srcore/srpres.c:873
+msgid "DATE EDITOR"
+msgstr "ཚེས་གྲངས་ཞུན་དགཔ།"
+
+#: srcore/srpres.c:873
+msgid "Date editor"
+msgstr "ཚེས་གྲངས་ཞུན་དགཔ།"
+
+#: srcore/srpres.c:874
+msgid "DIL"
+msgstr "ཌི་ཨའི་ཨེལ།"
+
+#: srcore/srpres.c:874
+msgid "DIAL"
+msgstr "ཌ་ཡེལ།"
+
+#: srcore/srpres.c:874
+msgid "Dial"
+msgstr "ཌ་ཡེལ།"
+
+#: srcore/srpres.c:875
+msgid "DRW"
+msgstr "ཌི་ཨར་ཌབ་ལུ།"
+
+#: srcore/srpres.c:875
+msgid "DRAWING AREA"
+msgstr "རི་མོ་འབྲི་སའི་མངའ་ཁོངས།"
+
+#: srcore/srpres.c:875
+msgid "Drawing area"
+msgstr "རི་མོ་འབྲི་སའི་མངའ་ཁོངས།"
+
+#: srcore/srpres.c:876
+msgid "FNT"
+msgstr "ཨེཕ་ཨེན་ཊི།"
+
+#: srcore/srpres.c:876
+msgid "FONT CHOOSER"
+msgstr "ཡིག་གཟུགས་འདེམས་བྱེད།"
+
+#: srcore/srpres.c:876
+msgid "Font chooser"
+msgstr "ཡིག་གཟུགས་འདེམས་བྱེད།"
+
+#: srcore/srpres.c:877
+msgid "IMG"
+msgstr "ཨའི་ཨེམ་ཇི།"
+
+#: srcore/srpres.c:877
+msgid "IMAGE"
+msgstr "གཟུགས་བརྙན།"
+
+#: srcore/srpres.c:877
+msgid "Image"
+msgstr "གཟུགས་བརྙན།"
+
+#: srcore/srpres.c:878
+msgid "SPIN BUTTON"
+msgstr "བསྒྱིར་རྟ།"
+
+#: srcore/srpres.c:878
+msgid "Spin button"
+msgstr "བསྒྱིར་རྟ།"
+
+#: srcore/srpres.c:879
+msgid "TRM"
+msgstr "ཊི་ཨར་ཨེམ།"
+
+#: srcore/srpres.c:879
+msgid "TERMINAL"
+msgstr "ཊར་མི་ནཱལ།"
+
+#: srcore/srpres.c:879
+msgid "Terminal"
+msgstr "ཊར་མི་ནཱལ།"
+
+#: srcore/srpres.c:880
+msgid "EXT"
+msgstr "ཨི་ཨེགསི་ཊི།"
+
+#: srcore/srpres.c:880
+msgid "EXTENDED"
+msgstr "རྒྱ་བསྐྱེད་འབད་འབདཝ།"
+
+#: srcore/srpres.c:880
+msgid "Extended"
+msgstr "རྒྱ་བསྐྱེད་འབད་འབདཝ།"
+
+#: srcore/srpres.c:881
+msgid "TLI"
+msgstr "ཊི་ཨེལ་ཨའི།"
+
+#: srcore/srpres.c:881
+msgid "TABLE LINE"
+msgstr "ཐིག་ཁྲམ་གྱལ་རིམ།"
+
+#: srcore/srpres.c:881
+msgid "Table line"
+msgstr "ཐིག་ཁྲམ་གྱལ་རིམ།"
+
+#: srcore/srpres.c:882
+msgid "TABLE COLUMNS HEADER"
+msgstr "ཐིག་ཁྲམ་ཀེར་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:882
+msgid "Table columns header"
+msgstr "ཐིག་ཁྲམ་ཀེར་ཐིག་མགུ་ཡིག"
+
+#: srcore/srpres.c:883
+msgid "TIT"
+msgstr "ཊི་ཨའི་ཊི།"
+
+#: srcore/srpres.c:883
+msgid "TITLE BAR"
+msgstr "མགོ་མིང་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:883
+msgid "Title bar"
+msgstr "མགོ་མིང་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:884
+msgid "EDB"
+msgstr "ཨི་ཌི་བི།"
+
+#: srcore/srpres.c:884
+msgid "EDIT BAR"
+msgstr "ཞུན་དག་ཕྲ་རིང་།"
+
+#: srcore/srpres.c:884
+msgid "Edit bar"
+msgstr "ཞུན་དག་ཕྲ་རིང་།"
+
+#: srcore/srspc.c:439
+#, c-format
+msgid "Incorrect parameters for voice \"%s%s\""
+msgstr "སྐད་\"%s%s\"གི་དོན་ལུ་ བདེན་མེད་ཀྱི་ཚད་བཟུང།"
+
+#: srcore/srspc.c:484
+#, c-format
+msgid "failed to send to speech next string \"%s\""
+msgstr "ཡིག་རྒྱུན་གཞན་མི་་\"%s\"དེ་ གསུང་བཤད་ལུ་ གཏང་མ་ཚུགས།"
+
+#: srcore/srspc.c:550
+#, c-format
+msgid "could not create/modify voice \"%s\""
+msgstr "སྐད་\"%s\"བཟོ་མ་ཚུགས་/ལེགས་བཅོས་འབད་མ་ཚུགས།"
+
+#: srcore/srspc.c:710
+#, c-format
+msgid "voice \"%s\" will sound this way"
+msgstr "སྐད་\"%s\" གིས་ སྐད་འདི་བཟུམ་སྦེ་བརྐྱབ་འོང་།"
+
+#: srcore/srspc.c:715
+#, c-format
+msgid "could not test voice \"%s\""
+msgstr "སྐད་\"%s\"བརྟག་ཞིབ་འབད་མ་ཚུགས།"
+
+#: srcore/srspc.c:804
+#, c-format
+msgid "value not supported for speech count mode \"%s\""
+msgstr "གསུང་བཤད་གྱངས་ཁ་བརྐྱབ་ནིའི་ཐབས་ལམ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:840
+#, c-format
+msgid "value not supported for speech modifiers type \"%s\""
+msgstr "གསུང་བཤད་ལེགས་བཅོས་འབད་མི་དབྱེ་བ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:876
+#, c-format
+msgid "value not supported for speech cursors type \"%s\""
+msgstr "གསུང་བཤད་འོད་རྟགས་དབྱེ་བ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:912
+#, c-format
+msgid "value not supported for speech spaces type \"%s\""
+msgstr "གསུང་བཤད་བར་སྟོང་དབྱེ་བ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:948
+#, c-format
+msgid "value not supported for speech dictionary type \"%s\""
+msgstr "གསུང་བཤད་ཚིག་མཛོད་དབྱེ་བ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:985
+#, c-format
+msgid "value not supported for speech text echo type \"%s\""
+msgstr "གསུང་བཤད་ཚིག་ཡིག་བྲག་ཅའི་དབྱེ་བ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:1004
+msgid "Tilde"
+msgstr "ཊིལ་ཌི"
+
+#: srcore/srspc.c:1004
+msgid "Tildaes"
+msgstr "ཊིལ་ཌེསི"
+
+#: srcore/srspc.c:1005
+msgid "Exclamation"
+msgstr "ཚོར་རྟགས།"
+
+#: srcore/srspc.c:1005
+msgid "Exclamations"
+msgstr "ཚོར་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1006
+msgid "At"
+msgstr "ཨེཊི།"
+
+#: srcore/srspc.c:1006
+msgid "Ats"
+msgstr "ཨེཊིསི།"
+
+#: srcore/srspc.c:1007
+msgid "Hash"
+msgstr "དྲྭ་རྟགས། "
+
+#: srcore/srspc.c:1007
+msgid "Hashes"
+msgstr "དྲྭ་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1008
+msgid "Dollar"
+msgstr "ཌོ་ལར།"
+
+#: srcore/srspc.c:1008
+msgid "Dollars"
+msgstr "ཌོ་ལརསི།"
+
+#: srcore/srspc.c:1009
+msgid "Percent"
+msgstr "བརྒྱ་ཆ།"
+
+#: srcore/srspc.c:1009
+msgid "Percents"
+msgstr "བརྒྱ་ཆ་ཚུ།"
+
+#: srcore/srspc.c:1010
+msgid "Caret"
+msgstr "ཀེ་རེཊི།"
+
+#: srcore/srspc.c:1010
+msgid "Carets"
+msgstr "ཀེ་རེཊི་ཚུ།"
+
+#: srcore/srspc.c:1011
+msgid "And"
+msgstr "ཨེནཌི་།"
+
+#: srcore/srspc.c:1011
+msgid "Ands"
+msgstr "ཨེནཌིསི།"
+
+#: srcore/srspc.c:1012
+msgid "Asterisk"
+msgstr "སྐར་རྟགས།"
+
+#: srcore/srspc.c:1012
+msgid "Asterisks"
+msgstr "སྐར་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1013
+msgid "Left Paranthesis"
+msgstr "གཡོན་གྱི་གུག་ཤད།"
+
+#: srcore/srspc.c:1014
+msgid "Right Paranthesis"
+msgstr "གཡས་ཀྱི་གུག་ཤད།"
+
+#: srcore/srspc.c:1015
+msgid "Underscore"
+msgstr "གཤམ་ཐིག"
+
+#: srcore/srspc.c:1015
+msgid "Underscores"
+msgstr "གཤམ་ཐིག་ཚུ།"
+
+#: srcore/srspc.c:1016
+msgid "Plus"
+msgstr "བསྡོམས་རྟགས།"
+
+#: srcore/srspc.c:1016
+msgid "Pluses"
+msgstr "བསྡོམས་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1017
+msgid "Equal"
+msgstr "མཉམ་རྟགས།"
+
+#: srcore/srspc.c:1017
+msgid "Equals"
+msgstr "མཉམ་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1018
+msgid "Minus"
+msgstr "ཕབ་རྟགས།"
+
+#: srcore/srspc.c:1018
+msgid "Minuses"
+msgstr "ཕབ་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1019
+msgid "Quote"
+msgstr "འདྲེན་ཚིག།"
+
+#: srcore/srspc.c:1019
+msgid "Quotes"
+msgstr "འདྲེན་ཚིག་ཚུ།"
+
+#: srcore/srspc.c:1020
+msgid "Left Bracket"
+msgstr "གཡོན་གྱི་གུག་ཤད།"
+
+#: srcore/srspc.c:1020
+msgid "Left Brackets"
+msgstr "གཡོན་གྱི་གུག་ཤད་ཚུ།"
+
+#: srcore/srspc.c:1021
+msgid "Right Bracket"
+msgstr "གཡས་ཀྱི་གུག་ཤད།"
+
+#: srcore/srspc.c:1021
+msgid "Right Brackets"
+msgstr "གཡས་ཀྱི་གུག་ཤད་ཚུ།"
+
+#: srcore/srspc.c:1022
+msgid "Left Brace"
+msgstr "གཡོན་གྱི་གུག་ཤད། ({)"
+
+#: srcore/srspc.c:1022
+msgid "Left Braces"
+msgstr "གཡོན་གྱི་གུག་ཤད་ཚུ། ({)"
+
+#: srcore/srspc.c:1023
+msgid "Right Brace"
+msgstr "གཡས་ཀྱི་གུག་ཤད། (})"
+
+#: srcore/srspc.c:1023
+msgid "Right Braces"
+msgstr "གཡས་ཀྱི་གུག་ཤད། (})"
+
+#: srcore/srspc.c:1024
+msgid "Semicolon"
+msgstr "སེ་མི་ཀོ་ལཱོན། (;)"
+
+#: srcore/srspc.c:1024
+msgid "Semicolons"
+msgstr "སེ་མི་ཀོ་ལཱོན་ཚུ། (;)"
+
+#: srcore/srspc.c:1025
+msgid "Colon"
+msgstr "ཀོ་ལཱོན། (:)"
+
+#: srcore/srspc.c:1025
+msgid "Colons"
+msgstr "ཀོ་ལཱོན་ཚུ། (:)"
+
+#: srcore/srspc.c:1026
+msgid "Double quote"
+msgstr "ལུང་འདྲེན་གྱི་རྟགས་གཉིས་ཅན།"
+
+#: srcore/srspc.c:1026
+msgid "Double quotes"
+msgstr "ལུང་འདྲེན་གྱི་རྟགས་གཉིས་ཅན་ཚུ།"
+
+#: srcore/srspc.c:1027
+msgid "Apostrophe"
+msgstr "འབྲེལ་སྒྲའི་རྟགས།"
+
+#: srcore/srspc.c:1027
+msgid "Apostrophes"
+msgstr "འབྲེལ་སྒྲའི་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1028
+msgid "Back Slash"
+msgstr "ལོག་ཤད།"
+
+#: srcore/srspc.c:1028
+msgid "Back Slashes"
+msgstr "ལོག་ཤད་ཚུ།"
+
+#: srcore/srspc.c:1029
+msgid "Bar"
+msgstr "ཕྲ་རིང་།"
+
+#: srcore/srspc.c:1029
+msgid "Bars"
+msgstr "ཕྲ་རིང་ཚུ།"
+
+#: srcore/srspc.c:1030
+msgid "Greater"
+msgstr "སྦོམ་མི།"
+
+#: srcore/srspc.c:1030
+msgid "Greaters"
+msgstr "སྦོམ་མི་ཚུ།"
+
+#: srcore/srspc.c:1031
+msgid "Less"
+msgstr "ཉུང་མི།"
+
+#: srcore/srspc.c:1031
+msgid "Lesses"
+msgstr "ཉུང་མི་ཚུ།"
+
+#: srcore/srspc.c:1032
+msgid "Comma"
+msgstr "ལྷོད་རྟགས།"
+
+#: srcore/srspc.c:1032
+msgid "Commas"
+msgstr "ལྷོད་རྟགས་ཚུ།"
+
+#: srcore/srspc.c:1033
+msgid "Dot"
+msgstr "ཚག"
+
+#: srcore/srspc.c:1033
+msgid "Dots"
+msgstr "ཚག་ཚུ།"
+
+#: srcore/srspc.c:1034
+msgid "Slash"
+msgstr "གཡོ་ཤད།"
+
+#: srcore/srspc.c:1034
+msgid "Slashes"
+msgstr "གཡོ་ཤད་ཚུ།"
+
+#: srcore/srspc.c:1035
+msgid "Questions"
+msgstr "འདྲི་བ་ཚུ།"
+
+#: srcore/srspc.c:1109
+#, c-format
+msgid "value not supported for speech punctuation type \"%s\""
+msgstr "གསུང་བཤད་ཡིག་རྟགས་དབྱེ་བ་\"%s\"གི་དོན་ལུ་ བེ་ལུ་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+
+#: srcore/srspc.c:1375
+msgid "Unable to initialize hashtable"
+msgstr "དྲྭ་རྟགས་ཐིག་ཁྲམ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: srcore/srspc.c:1381
+msgid "Unable to load dictionary from gconf"
+msgstr "ཇི་ཀཱོནཕ་ནང་ལས་ ཚིག་མཛོད་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: srcore/srspc.c:1572
+msgid "speech initialization succeded"
+msgstr "གསུང་བཤད་འགོ་འབྱེད་མཐར་འཁྱོལ་གྲུབ།"
+
+#: srcore/srspc.c:1576
+msgid "speech initialization failed"
+msgstr "གསུང་བཤད་འགོ་འབྱེད་མཐར་འཁྱོལ་མ་གྲུབ།"
+
+#: srcore/srspc.c:1772
+msgid "enter"
+msgstr "བཙུགས།"
+
+#: srcore/srspc.c:1855
+#, c-format
+msgid "can not find \"%s\" voice. use default voice"
+msgstr "སྐད་\"%s\" འཚོལ་མ་ཐོབ། སྔོན་སྒྲིག་སྐད་ལག་ལེན་འཐབ།"
+
+#: srcore/srspc.c:1872
+msgid "voices pitch will be set to default value"
+msgstr "སྐད་ཀྱི་སྟུག་ཚད་ སྔོན་སྒྲིག་བེ་ལུ་ནང་ གཞི་སྒྲིག་འབད་འོང་།"
+
+#: srcore/srspc.c:1874
+msgid "voices pitch will be decreased"
+msgstr "སྐད་ཀྱི་སྟུག་ཚད་ མར་ཕབ་ནི་ཨིན།"
+
+#: srcore/srspc.c:1876
+msgid "voices pitch will be increased"
+msgstr "སྐད་ཀྱི་སྟུག་ཚད་ ཡར་སེང་ནི་ཨིན།"
+
+#: srcore/srspc.c:1920
+msgid "voices rate will be set to default value"
+msgstr "སྐད་ཀྱི་མགྱོགས་ཚད་ སྔོན་སྒྲིག་བེ་ལུ་གུ་ གཞི་སྒྲིག་འབད་ནི་ཨིན།"
+
+#: srcore/srspc.c:1922
+msgid "voices rate will be decreased"
+msgstr "སྐད་ཀྱི་མགྱོགས་ཚད་ མར་ཕབ་ནི་ཨིན།"
+
+#: srcore/srspc.c:1924
+msgid "voices rate will be increased"
+msgstr "སྐད་ཀྱི་མགྱོགས་ཚད་ ཡར་སེང་ནི་ཨིན།"
+
+#: srcore/srspc.c:1969
+msgid "voices volume will be set to default value"
+msgstr "སྐད་ཀྱི་ཤུགས་ཚད་ སྔོན་སྒྲིག་བེ་ལུ་གུ་ གཞི་སྒྲིག་འབད་ནི་ཨིན།"
+
+#: srcore/srspc.c:1971
+msgid "voices volume will be decreased"
+msgstr "སྐད་ཀྱི་ཤུགས་ཚད་ མར་ཕབ་ནི་ཨིན།"
+
+#: srcore/srspc.c:1973
+msgid "voices volume will be increased"
+msgstr "སྐད་ཀྱི་ཤུགས་ཚད་ ཡར་སེང་ནི་ཨིན།"
+
+#: srcore/srspc.c:2099
+#, c-format
+msgid "no support for speech key \"%s\""
+msgstr "གསུང་བཤད་ལྡེ་མིག་\"%s\"གི་དོན་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
+

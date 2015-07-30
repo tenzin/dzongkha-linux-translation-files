@@ -1,0 +1,571 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mcatalog.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-16 03:17+0000\n"
+"PO-Revision-Date: 2007-03-16 10:20+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../mcatalog.desktop.in.h:1
+msgid "Tool for cataloging films, books and music CDs"
+msgstr "ཐོ་གཞུང་ནང་བཀོད་གློག་བརྙན་ཚུ་གི་དོན་ལུ་ལག་ཆས་ ཀི་དེབ་དང་སྙན་ཆས་སི་ཌི་ཚུ་"
+
+#: ../mcatalog.desktop.in.h:2
+msgid "mCatalog"
+msgstr "ཨེམ་ཐོ་གཞུང་"
+
+#: ../mcatalog.schemas.in.h:1
+msgid "Default catalog"
+msgstr "སྔོན་སྒྲིག་ཐོ་གཞུང་"
+
+#: ../mcatalog.schemas.in.h:2
+msgid "Height of borrowers list"
+msgstr "བརྙ་མི་ཚུ་གི་ཐོ་ཡིག་གི་མཐོ་ཚད་"
+
+#: ../mcatalog.schemas.in.h:3
+msgid "Height of main window"
+msgstr "སྒོ་སྒྲིག་ངོ་མའི་མཐོ་ཚད་"
+
+#: ../mcatalog.schemas.in.h:4
+msgid "Save preview images in a cache"
+msgstr "འདྲ་མཛོད་གཅིག་ནང་སྔོན་ལྟའི་གཟུགས་བརྙན་ཚུ་སྲུང་"
+
+#: ../mcatalog.schemas.in.h:5
+msgid "Save preview images in a cache (faster rendering)"
+msgstr "འདྲ་མཛོད་(ལྷག་སྟོན་མགྱོགས་སུ་)གཅིག་ནང་  སྔོན་ལྟའི་གཟུགས་བརྙན་ཚུ་སྲུང་"
+
+#: ../mcatalog.schemas.in.h:6
+msgid "The active theme."
+msgstr "བརྗོད་དོན་ཤུགས་ལྡན།"
+
+#: ../mcatalog.schemas.in.h:7
+msgid "The default active catalog."
+msgstr "སྔོན་སྒྲིག་ཤུགས་ལྡན་གྱི་ཐོ་གཞུང་།"
+
+#: ../mcatalog.schemas.in.h:8
+msgid "The height of the borrowers list."
+msgstr "བརྙ་མི་ཚུ་ཐོ་ཡིག་ཚུ་གི་མཐོ་ཚད།"
+
+#: ../mcatalog.schemas.in.h:9
+msgid "The height of the main window."
+msgstr "སྒོ་སྒྲིག་ངོ་མའི་མཐོ་ཚད།"
+
+#: ../mcatalog.schemas.in.h:10
+msgid "The width of the catalog list."
+msgstr "ཐོ་གཞུང་ཐོ་ཡིག་གི་རྒྱ་ཚད།"
+
+#: ../mcatalog.schemas.in.h:11
+msgid "The width of the item list."
+msgstr "རྣམ་གྲངས་ཐོ་ཡིག་གི་རྒྱ་ཚད།"
+
+#: ../mcatalog.schemas.in.h:12
+msgid "The width of the main window."
+msgstr "སྒོ་སྒྲིག་ངོ་མའི་རྒྱ་ཚད།"
+
+#: ../mcatalog.schemas.in.h:13
+#: ../src/dialogs/PreferencesDialog.cs:33
+#: ../src/dialogs/PreferencesDialog.cs:49
+msgid "Theme"
+msgstr "བརྗོད་དོན་"
+
+#: ../mcatalog.schemas.in.h:14
+msgid "Width of catalog list"
+msgstr "ཐོ་གཞུང་ཐོ་ཡིག་གི་རྒྱ་ཚད་"
+
+#: ../mcatalog.schemas.in.h:15
+msgid "Width of item list"
+msgstr "རྣམ་གྲངས་ཐོ་ཡིག་གི་རྒྱ་ཚད་"
+
+#: ../mcatalog.schemas.in.h:16
+msgid "Width of the main window"
+msgstr "སྒོ་སྒྲིག་ངོ་མའི་རྒྱ་ཚད་"
+
+#: ../resources/mainwindow.glade.h:1
+msgid "<b>Borrowers</b>"
+msgstr "<b>བརྙ་མི་</b>"
+
+#: ../resources/mainwindow.glade.h:2
+msgid "<b>Catalog</b>"
+msgstr "<b>ཐོ་གཞུང་</b>"
+
+#: ../resources/mainwindow.glade.h:3
+msgid "<b>Collections</b>"
+msgstr "<b>བསྡུ་གསོག</b>"
+
+#: ../resources/mainwindow.glade.h:4
+msgid "<b>Comments: </b>"
+msgstr "<b>བསམ་བཀོད་ཚུ: </b>"
+
+#: ../resources/mainwindow.glade.h:5
+msgid "<b>Output</b>"
+msgstr "<b>ཨའུཊི་པུཊི</b>"
+
+#: ../resources/mainwindow.glade.h:6
+msgid "<b>Preview</b>"
+msgstr "<b>སྔོན་ལྟ</b>"
+
+#: ../resources/mainwindow.glade.h:7
+msgid "<b>Template</b>"
+msgstr "<b>ཊེམ་པེལེཊི</b>"
+
+#: ../resources/mainwindow.glade.h:8
+msgid "ASIN: "
+msgstr "ASIN: "
+
+#: ../resources/mainwindow.glade.h:9
+msgid "Actual view"
+msgstr "མཐོང་སྣང་ངོ་མ་"
+
+#: ../resources/mainwindow.glade.h:10
+msgid "Add a new SOMETHING..."
+msgstr "SOMETHING གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ..."
+
+#: ../resources/mainwindow.glade.h:11
+msgid "Add a new borrower"
+msgstr "བརྙ་མི་གསརཔ་གཅིག་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../resources/mainwindow.glade.h:12
+msgid "Add item"
+msgstr "རྣམ་གྲངས་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../resources/mainwindow.glade.h:13
+msgid "Artists: "
+msgstr "ཁྲབ་རྩེདཔ་ཚུ:"
+
+#: ../resources/mainwindow.glade.h:14
+msgid "Author: "
+msgstr "རྩོམ་པ་པོ:"
+
+#: ../resources/mainwindow.glade.h:15
+msgid "CairoShelf"
+msgstr "ཀའི་རོ་ཤེལཕ་"
+
+#: ../resources/mainwindow.glade.h:16
+msgid "Choose a template"
+msgstr "ཊེམ་པེལེཊི་ཅིག་གདམ་ཁ་བརྐྱབ་"
+
+#: ../resources/mainwindow.glade.h:17
+msgid "Choose the output file"
+msgstr "ཨུཊི་པུཊི་ཡིག་སྣོད་གདམ་ཁ་བརྐྱབ་"
+
+#: ../resources/mainwindow.glade.h:18
+msgid "Country: "
+msgstr "རྒྱལ་ཁབ:"
+
+#: ../resources/mainwindow.glade.h:19
+msgid "Date: "
+msgstr "ཚེས་གྲངས:"
+
+#: ../resources/mainwindow.glade.h:20
+msgid "Director: "
+msgstr "བཀོད་དཔོན:"
+
+#: ../resources/mainwindow.glade.h:21
+msgid "Distributor: "
+msgstr "བགོ་འགྲེམ་པ:"
+
+#: ../resources/mainwindow.glade.h:22
+#: ../src/ItemList.cs:267
+#: ../src/dialogs/AddAlbumDialog.cs:57
+#: ../src/dialogs/AddFilmDialog.cs:59
+msgid "Edit"
+msgstr "ཞུན་དག་འབད་"
+
+#: ../resources/mainwindow.glade.h:23
+msgid "Edit the item"
+msgstr "རྣམ་གྲངས་ཞུན་དག་འབད་"
+
+#: ../resources/mainwindow.glade.h:24
+#: ../src/dialogs/ExportDialog.cs:50
+msgid "Export"
+msgstr "ཕྱིར་འདྲེན་"
+
+#: ../resources/mainwindow.glade.h:25
+msgid "Export Catalog"
+msgstr "ཐོ་གཞུང་ཕྱིར་འདྲེན་འབད་"
+
+#: ../resources/mainwindow.glade.h:26
+msgid "Genre: "
+msgstr "རིགས:"
+
+#: ../resources/mainwindow.glade.h:27
+msgid "ISBN: "
+msgstr "ISBN: "
+
+#: ../resources/mainwindow.glade.h:28
+msgid "Label: "
+msgstr "ཁ་ཡིག:"
+
+#: ../resources/mainwindow.glade.h:29
+msgid "Language: "
+msgstr "སྐད་ཡིག:"
+
+#: ../resources/mainwindow.glade.h:30
+#: ../src/ItemList.cs:277
+#: ../src/Main.cs:435
+#: ../src/dialogs/LendItemDialog.cs:27
+msgid "Lend"
+msgstr "བྱིན་ནི་"
+
+#: ../resources/mainwindow.glade.h:31
+msgid "Lend the item to somebody"
+msgstr "ག་འབད་རུང་ཅིག་ལུ་རྣམ་གྲངས་འདི་བྱིན་"
+
+#: ../resources/mainwindow.glade.h:32
+msgid "List"
+msgstr "ཐོ་ཡིག་"
+
+#: ../resources/mainwindow.glade.h:33
+msgid "MCatalog"
+msgstr "ཨེམ་ཐོ་གཞུང་"
+
+#: ../resources/mainwindow.glade.h:34
+msgid "Medium: "
+msgstr "འབྲིིང་མ:"
+
+#: ../resources/mainwindow.glade.h:35
+msgid "Normal Size"
+msgstr "སྤྱིར་གཏང་ཚད་"
+
+#: ../resources/mainwindow.glade.h:36
+msgid "Original title: "
+msgstr "མགོ་མིང་ངོ་མ:"
+
+#: ../resources/mainwindow.glade.h:37
+msgid "Pages: "
+msgstr "ཤོག་ལེབ་ཚུ:"
+
+#: ../resources/mainwindow.glade.h:38
+msgid "Publisher: "
+msgstr "དཔེ་བསྐྲུན་པ:"
+
+#: ../resources/mainwindow.glade.h:39
+msgid "Rating: "
+msgstr "མང་ཉུང་ཚད:"
+
+#: ../resources/mainwindow.glade.h:40
+msgid "Remove item"
+msgstr "རྣམ་གྲངས་རྩ་བསྐྲད་གཏང་"
+
+#: ../resources/mainwindow.glade.h:41
+msgid "Remove the borrower"
+msgstr "བརྙ་མི་རྩ་བསྐྲད་གཏང་"
+
+#: ../resources/mainwindow.glade.h:42
+msgid "Runtime: "
+msgstr "རཱན་ཊའིམ:"
+
+#: ../resources/mainwindow.glade.h:43
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་འབད་"
+
+#: ../resources/mainwindow.glade.h:44
+msgid "Search: "
+msgstr "འཚོལ་ཞིབ་འབད:"
+
+#: ../resources/mainwindow.glade.h:45
+msgid "Select A File"
+msgstr "ཡིག་སྣོད་གཅིག་སེལ་འཐུ་འབད་"
+
+#: ../resources/mainwindow.glade.h:46
+msgid "Shelf"
+msgstr "ཤེལཕ་"
+
+#: ../resources/mainwindow.glade.h:47
+msgid "Starring: "
+msgstr "ཁྲ་ཅེམ་ཅེ:"
+
+#: ../resources/mainwindow.glade.h:48
+msgid "Style: "
+msgstr "བཟོ་རྣམ:"
+
+#: ../resources/mainwindow.glade.h:49
+msgid "The active catalog"
+msgstr "ཤུགས་ལྡན་ཐོ་གཞུང་"
+
+#: ../resources/mainwindow.glade.h:50
+msgid "The current search view"
+msgstr "ད་ལྟོའི་འཚོལ་ཞིབ་མཐོང་སྣང་"
+
+#: ../resources/mainwindow.glade.h:51
+msgid "These Widgets are for the Add Film Dialog"
+msgstr "ཝི་གེཊི་དེ་ཚུ་  གློག་བརྙན་ཌའི་ལོག་ཁ་སྐོང་གི་དོན་ལུ་ཨིན་"
+
+#: ../resources/mainwindow.glade.h:52
+msgid "These widgets are for Add Book Dialog"
+msgstr "ཝི་གེཊི་དེ་ཚུ་ཀི་དེབ་ཌའི་ལོག་ཁ་སྐོང་གི་དོན་ལུ་ཨིན་"
+
+#: ../resources/mainwindow.glade.h:53
+msgid "These widgets are for the Add Album Dialog"
+msgstr "ཝི་གེཊི་དེ་ཚུ་གླུ་མཛོད་ཌའི་ལོག་ཁ་སྐོང་གི་དོན་ལུ་ཨིན་"
+
+#: ../resources/mainwindow.glade.h:54
+msgid "Title: "
+msgstr "མགོ་མིང་:"
+
+#: ../resources/mainwindow.glade.h:55
+msgid "Tracks: "
+msgstr "གླུ་རིམ་ཚུ:"
+
+#: ../resources/mainwindow.glade.h:56
+msgid "What do you want to export?"
+msgstr "ཁྱོད་ཀྱིས་ག་ཅི་ཕྱིར་འདྲེན་འབད་ནི་སྨོ?"
+
+#: ../resources/mainwindow.glade.h:57
+msgid "Zoom"
+msgstr "རྒྱས་ཟུམ་"
+
+#: ../resources/mainwindow.glade.h:58
+msgid "Zoom In"
+msgstr "ཕྱིར་རྒྱས་"
+
+#: ../resources/mainwindow.glade.h:59
+msgid "Zoom Out"
+msgstr "ནང་ཟུམ་"
+
+#: ../resources/mainwindow.glade.h:60
+msgid "Zoom in"
+msgstr "ཕྱིར་རྒྱས་"
+
+#: ../resources/mainwindow.glade.h:61
+msgid "Zoom out"
+msgstr "ནང་ཟུམ་"
+
+#: ../src/Catalog.cs:302
+#, csharp-format
+msgid "Return {0}?"
+msgstr "{0}སླར་ལོག་འབད་ད་ག?"
+
+#: ../src/Database.cs:886
+#: ../src/Database.cs:905
+#: ../src/Database.cs:923
+msgid "Id"
+msgstr "ཨའི་ཌི་"
+
+#: ../src/Database.cs:887
+#: ../src/Database.cs:906
+#: ../src/Database.cs:924
+msgid "Image"
+msgstr "གཟུགས་བརྙན་"
+
+#: ../src/Database.cs:888
+#: ../src/Database.cs:907
+#: ../src/Database.cs:925
+msgid "Rating"
+msgstr "མང་ཉུང་ཚད་"
+
+#: ../src/Database.cs:889
+#: ../src/Database.cs:908
+#: ../src/Database.cs:926
+#: ../src/dialogs/SelectDialog.cs:66
+msgid "Title"
+msgstr "མགོ་མིང་"
+
+#: ../src/Database.cs:890
+#: ../src/Database.cs:909
+msgid "Original Title"
+msgstr "མགོ་མིང་ངོ་མ་"
+
+#: ../src/Database.cs:891
+#: ../src/dialogs/SelectDialog.cs:69
+msgid "Director"
+msgstr "བཀོད་ཁྱབ་"
+
+#: ../src/Database.cs:892
+msgid "Starring"
+msgstr "ཁྲ་ཅེམ་ཅེ་"
+
+#: ../src/Database.cs:893
+#: ../src/Database.cs:911
+#: ../src/Database.cs:929
+msgid "Date"
+msgstr "ཚེས་གྲངས་"
+
+#: ../src/Database.cs:894
+#: ../src/Database.cs:912
+msgid "Genre"
+msgstr "རིགས་"
+
+#: ../src/Database.cs:895
+#: ../src/Database.cs:934
+msgid "Runtime"
+msgstr "རཱན་ཊའིམ་"
+
+#: ../src/Database.cs:896
+#: ../src/Database.cs:916
+msgid "Country"
+msgstr "རྒྱལ་ཁབ་"
+
+#: ../src/Database.cs:897
+#: ../src/Database.cs:917
+msgid "Language"
+msgstr "སྐད་ཡིག་"
+
+#: ../src/Database.cs:898
+msgid "Distributor"
+msgstr "བགོ་འགྲེམ་པ་"
+
+#: ../src/Database.cs:899
+#: ../src/Database.cs:933
+msgid "Medium"
+msgstr "འབྲིང་མ་"
+
+#: ../src/Database.cs:900
+#: ../src/Database.cs:918
+#: ../src/Database.cs:935
+msgid "Comments"
+msgstr "བསམ་བཀོད་ཚུ་"
+
+#: ../src/Database.cs:910
+#: ../src/Database.cs:927
+#: ../src/dialogs/SelectDialog.cs:72
+msgid "Author"
+msgstr "རྩོམ་པ་པོ་"
+
+#: ../src/Database.cs:913
+msgid "Pages"
+msgstr "ཤོག་ལེབ་ཚུ་"
+
+#: ../src/Database.cs:914
+msgid "Publisher"
+msgstr "དཔེ་བསྐྲུན་པ་"
+
+#: ../src/Database.cs:915
+msgid "ISBN"
+msgstr "ISBN"
+
+#: ../src/Database.cs:928
+msgid "Label"
+msgstr "ཁ་ཡིག་"
+
+#: ../src/Database.cs:930
+msgid "Style"
+msgstr "བཟོ་རྣམ་"
+
+#: ../src/Database.cs:931
+msgid "ASIN"
+msgstr "ASIN"
+
+#: ../src/Database.cs:932
+msgid "Tracks"
+msgstr "གླུ་རིམ་ཚུ་"
+
+#: ../src/ItemList.cs:93
+msgid "Cover"
+msgstr "ཁེབས་"
+
+#: ../src/ItemList.cs:273
+#: ../src/Main.cs:432
+msgid "Return"
+msgstr "སླར་ལོག་"
+
+#: ../src/Main.cs:387
+#, csharp-format
+msgid "{0} borrower by {1}"
+msgstr "{0} གིས་བརྙ་མི་ {1}"
+
+#: ../src/Main.cs:518
+msgid "Remove the selected items?"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་རྣམ་གྲངས་ཚུ་རྩ་བསྐྲད་གཏང་ག?"
+
+#: ../src/TitleWidget.cs:55
+msgid "by"
+msgstr "གིས་"
+
+#: ../src/dialogs/AddAlbumDialog.cs:50
+msgid "Add a new Album"
+msgstr "གླུ་མཛོད་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/dialogs/AddBookDialog.cs:51
+msgid "Add a new book"
+msgstr "ཀི་དེབ་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/dialogs/AddBookDialog.cs:58
+msgid "Editing"
+msgstr "ཞུན་དག་འབད་དོ་"
+
+#: ../src/dialogs/AddDialog.cs:230
+msgid "You must write something to search."
+msgstr "འཚོལ་ཞིབ་ལུ་ཁྱོད་ཀྱིས་ག་ཅི་འབད་རུང་འབྲི་དགོ།"
+
+#: ../src/dialogs/AddDialog.cs:270
+msgid "No matches for your query"
+msgstr "ཁྱོད་རའི་འདྲི་དཔྱད་ཀྱི་དོན་ལུ་མཐུན་སྒྲིག་ཚུ་མེད་"
+
+#: ../src/dialogs/AddFilmDialog.cs:52
+msgid "Add a new film"
+msgstr "གློག་བརྙན་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/dialogs/CatalogPropertiesDialog.cs:40
+#, csharp-format
+msgid "{0} properties"
+msgstr "{0} རྒྱུ་དངོས་"
+
+#: ../src/dialogs/CatalogPropertiesDialog.cs:50
+msgid "Columns to show"
+msgstr "སྟོན་ནི་ཨིན་པའི་ཀེར་ཐིག་ཚུ་"
+
+#: ../src/dialogs/ExportDialog.cs:60
+#: ../src/dialogs/ExportDialog.cs:188
+msgid "Select Export Location"
+msgstr "ཕྱིར་འདྲེན་གནས་ཁོངས་སེལ་འཐུ་འབད་"
+
+#: ../src/dialogs/ExportDialog.cs:76
+#, csharp-format
+msgid "Export the whole {0} catalog"
+msgstr "{0}ཐོ་གཞུང་ཧྲིལ་བུ་ཕྱིར་འདྲེན་འབད་"
+
+#: ../src/dialogs/ExportDialog.cs:156
+msgid "Please Select A File To Export To First"
+msgstr "དང་པ་ལུ་ཕྱིར་འདྲེན་འབད་ནི་ལུ་ ཨེ་ཡིག་སྣོད་སེལ་འཐུ་འབད་"
+
+#: ../src/dialogs/ExportDialog.cs:167
+msgid "Catalog succesfully exported"
+msgstr "ཐོ་གཞུང་མཐར་འཁྱོལཝ་སྦེ་ཕྱིར་འདྲེན་འབད་ཡོདཔ་"
+
+#: ../src/dialogs/ExportDialog.cs:177
+msgid "Some error while exporting the catalog"
+msgstr "ཐོ་གཞུང་ཕྱིར་འདྲེན་འབདཝ་ད་འཛོལ་བ་ལ་ལོ་ཅིག་"
+
+#: ../src/dialogs/LendItemDialog.cs:49
+msgid "Borrower:"
+msgstr "བརྙ་མི:"
+
+#: ../src/dialogs/LendItemDialog.cs:133
+msgid "You must write the borrower name"
+msgstr "ཁྱོད་ཀྱིས་བརྙ་མི་ཚུ་གི་མིང་འབྲི་དགོ་"
+
+#: ../src/dialogs/PreferencesDialog.cs:19
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../src/dialogs/ProgressDialog.cs:37
+msgid "Wait, please"
+msgstr "བསྒུག་གནང་"
+
+#: ../src/dialogs/ProgressDialog.cs:43
+#, csharp-format
+msgid "Searching {0}...."
+msgstr "{0}འཚོལ་ཞིབ་འབད་དོ...."
+
+#: ../src/dialogs/SelectDialog.cs:52
+msgid "Select your choice"
+msgstr "ཁྱོད་རའི་གདམ་ཁ་སེལ་འཐུ་འབད་"
+
+#: ../src/dialogs/SelectDialog.cs:75
+msgid "Artists"
+msgstr "ཁྲབ་རྩེདཔ་"
+

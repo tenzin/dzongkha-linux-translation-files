@@ -1,0 +1,2749 @@
+# translation of gimp20-1.po to Dzongkha
+# translation of gimp.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# translator, 2006.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER., 2006.
+# Sonam Rinchen <somchen@druknet.bt>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp20-1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-10 19:59+0600\n"
+"PO-Revision-Date: 2006-05-11 16:37+0600\n"
+"Last-Translator: Sonam Rinchen <somchen@druknet.bt>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../app/app_procs.c:144
+msgid "(This console window will close in ten seconds)\n"
+msgstr "འ་ནི་མ་སྒྲོམ་སྒོ་སྒྲིག་གིས་ དུས་ཡུན་སྐར་ཆ་༡༠་གྱི་ནང་འཁོད་ ཁ་བསྡམ་ཨིན།\n"
+
+#: ../app/app_procs.c:239
+msgid ""
+"GIMP is not properly installed for the current user.\n"
+"User installation was skipped because the '--no-interface' flag was used.\n"
+"To perform user installation, run the GIMP without the '--no-interface' flag."
+msgstr ""
+"ཇི་ཨའི་ཨེམ་པི་འདི་་ད་ལྟོ་ལག་ལེན་འཐབ་པའི་སྒང་ཡིད་མི་ཚུ་གི་དོན་ལུ་ལེགས་ཤོམ་འབད་གཞི་བཙུགས་མ་འབད་"
+"བས།\n"
+"ངོས་འདྲ་བའི་ཟུར་རྟགས་དེ་ ལག་ལེན་མ་འཐབ་ལས་ གཞི་བཙུགས་ལག་ལེན་པ་དེ་ གོམ་འགྱོ་ཡར་སོང་ནུག.\n"
+"གཞི་བཙུགས་ལག་ལེན་པ་གི་ ལཱ་འགན་འགྲུབ་ནི་ལུ་ ཇི་ཨའི་ཨེམ་པི་དེ་་ངོས་འདྲ་བའི་ཟུར་རྟགས་མེད་པ་ གཡོག་བཀོལ།"
+
+#: ../app/app_procs.c:290
+#, c-format
+msgid ""
+"Unable to open a test swap file. To avoid data loss please check the "
+"location and permissions of the swap directory defined in your Preferences "
+"(currently \"%s\")."
+msgstr "བརྟག་ཞིབ་བརྗེ་སོར་ཡིག་སྣོད་དེ་ཁ་ཕྱེ་མི་ཚུགས། གནས་སྡུད་བརླག་སྟོར་ཟུར་ནི་ལུ་ཁྱོད་ཀྱི་དགའ་གདམ་ཚུ་(ད་ལྟོའི \"%s\").ནང་ངོས་འཛིན་འབད་ཡོད་པའི་བརྗེ་སོར་སྣོད་ཐོ་འདི་གི་གནང་བ་ཚུ་དང་གནས་ཁོངས་འདི་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: ../app/app_procs.c:349 ../app/core/gimppalette-import.c:441
+#, c-format
+msgid "Opening '%s' failed: %s"
+msgstr "ཁ་ཕྱེ་དོ'%s'འཐུས་ཤོར་བྱུང་ཡོདཔ།%s"
+
+#: ../app/batch.c:84 ../app/batch.c:101
+#, c-format
+msgid "The batch interpreter '%s' is not available, batch mode disabled."
+msgstr "རུ་ཚན་ཁ་སྒྱུར་མི'%s' འདེ་ཐོབ་ཚུགསཔ་མིན་འདུག་  རུ་ཚན་ཐབས་ལ་་ལྕོགས་མིན་བཟོ་ཡོདཔ།"
+
+#: ../app/main.c:211
+msgid ""
+"GIMP could not initialize the graphical user interface.\n"
+"Make sure a proper setup for your display environment exists."
+msgstr ""
+"ཇི་ཨའི་ཨེམ་པི་གིས་ ཚད་རིས་ལག་ལེན་འཐབ་མི་ ངོས་འདྲ་བ་འགོ་བྱེད་འབད་མི་ཚུགས།\n"
+"བཀྲམ་སྟོན་མཐའ་འཁོར་ཡོདཔ་ བཟོ་ནིའི་དོན་ལུ་ གཞི་སྒྲིག་ཚུལ་ལྡན་ཡོདཔ་ངེས་ཏིག་བཟོ།"
+
+#: ../app/main.c:222 ../app/widgets/gimptoolbox.c:559
+#: ../data/misc/gimp.desktop.in.in.h:3
+msgid "The GIMP"
+msgstr "ཇི་ཨིའ་ཨེམ་པི། "
+
+#.
+#. *  anything else starting with a '-' is an error.
+#.
+#: ../app/main.c:422
+#, c-format
+msgid ""
+"\n"
+"Invalid option \"%s\"\n"
+msgstr ""
+"\n"
+"ནུས་མེད་གདམ་ཁ་\"%s\"\n"
+
+#: ../app/main.c:501
+msgid "GIMP version"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ཐོན་རིམ།"
+
+#: ../app/main.c:509
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [option ... ] [file ... ]\n"
+"\n"
+msgstr ""
+"\n"
+"ལག་ལེན་: %s [གདམ་ཁ་ ... ] [ཡིག་སྣོད་ ... ]\n"
+"\n"
+
+#: ../app/main.c:511
+msgid "Options:\n"
+msgstr "འདམ་ཁ་ཚུ་:\n"
+
+#: ../app/main.c:512
+msgid "  -h, --help               Output this help.\n"
+msgstr "  -h, --help               འ་ནི་གྲོགས་རམ་འདི་ཨའུཊི་པུཊི་འབད། \n"
+
+#: ../app/main.c:513
+msgid "  -v, --version            Output version information.\n"
+msgstr "  -v, --version            ཨའུཊི་པུཊི་ཐོན་རིམ་བརྡ་དོན། \n"
+
+#: ../app/main.c:514
+msgid "  --verbose                Show startup messages.\n"
+msgstr "  --verbose                འགོ་བཙུགས་ཡོད་པའི་འཕྲིན་དོན་ཚུ་སྟོན། \n"
+
+#: ../app/main.c:515
+msgid ""
+"  --no-shm                 Do not use shared memory between GIMP and "
+"plugins.\n"
+msgstr "  --no-shm                 ཇི་ཨའི་ཨེམ་པི་དང་ པ་ལག་ཨིནསི་ གྱི་བར་ན་ རུབ་སྤྱོད་འབད་ཡོད་པའི་དྲན་ཚད་ལག་ལེན་མ་འཐབ། \n"
+
+#: ../app/main.c:516
+msgid "  --no-cpu-accel           Do not use special CPU accelerations.\n"
+msgstr "  --no-cpu-accel           དམིགས་བསལ་གྱི ་སི་པི་ཡུ ་མགྱོགས་བསྐྱོད་འབད་ནི་ཚུ་ལག་ལེན་མ་འཐབ། \n"
+
+#: ../app/main.c:517
+msgid ""
+"  -d, --no-data            Do not load brushes, gradients, palettes, "
+"patterns.\n"
+msgstr "  -d, --no-data            དཔེ་གཞི་ཚུ་ པེ་ལེཊི་ཚུ་ སྟེགས་རིས་ཚུ་དང་པྱིར་ཚུ་མངོན་གསལ་མ་འབད། \n"
+
+#: ../app/main.c:518
+msgid "  -f, --no-fonts           Do not load any fonts.\n"
+msgstr "  -f, --no-fonts           གང་རུང་གི་ཡིག་གཟུགས་ཚུ་མངོན་གསལ་མ་འབད། \n"
+
+#: ../app/main.c:519
+msgid "  -i, --no-interface       Run without a user interface.\n"
+msgstr "  -i, --no-interface       ངོས་འདྲ་བའི་ལག་ལེན་པ་མེད་པར་གཡོག་བཀོལ། \n"
+
+#: ../app/main.c:520
+msgid "  --display <display>      Use the designated X display.\n"
+msgstr "  --display <བཀྲམ་སྟོན་>      བཀོད་བསྒྲིག་འབད་ཡོད་པའི་ཨེཀསི་བཀྲམ་སྟོན་འདི་ལག་ལེན་འཐབ། \n"
+
+#: ../app/main.c:521
+msgid "  -s, --no-splash          Do not show the startup window.\n"
+msgstr "  -s, --no-splash          འགོ་བཙུགས་ནིའི་སྒོ་སྒྲིག་མ་སྟོན། \n"
+
+#: ../app/main.c:522
+msgid "  --session <name>         Use an alternate sessionrc file.\n"
+msgstr "  --session <མིང་>         སྤེལ་མའི་ལཱ་ཡུན་ཨཱར་སི་ཡིག་སྣོད་འདི་ལག་ལེན་འཐབ། \n"
+
+#: ../app/main.c:523
+msgid "  -g, --gimprc <gimprc>    Use an alternate gimprc file.\n"
+msgstr "  -g, --gimprc <gimprc>    ཇི་ཨའི་ཨེམ་པི་ཨཱར་སི་ཡིག་སྣོད་དེ་ལག་ལེན་འཐབ། \n"
+
+#: ../app/main.c:524
+msgid "  --system-gimprc <gimprc> Use an alternate system gimprc file.\n"
+msgstr "  --system-gimprc <gimprc>སྤེལ་མའི་རིམ་ལུགས་ཇི་ཨཡི་ཨེམ་པི་ཨཱར་སི་ཡིག་སྣོད་དེ་ལག་ལེན་འཐབ། \n"
+
+#: ../app/main.c:525
+msgid "  --dump-gimprc            Output a gimprc file with default settings.\n"
+msgstr "  --dump-gimprc           སྔོན་སྒྲིག་སྒྲིག་སྟངས་ཚུ་དང་ཅིག་ཁར་ཇི་ཨའི་ཨེམ་པི་ཨཱར་སི་ཡིག་སྣོད་ཨའུཊི་པུཊི་འབད། \n"
+
+#: ../app/main.c:526
+msgid ""
+"  -c, --console-messages   Display warnings to console instead of a dialog "
+"box.\n"
+msgstr "  -c, --མ་སྒྲོམ་-འཕྲིན་དོན་ཚུ་   ཌའི་ལོག་སྒྲོམ་གྱི་ཚབ་སྦེ་མ་སྒྲོམ་ལུ་ཉེན་བརྡ་ཚུ་བཀྲམ་སྟོན་འབད། \n"
+
+#: ../app/main.c:527
+msgid "  --debug-handlers         Enable non-fatal debugging signal handlers.\n"
+msgstr "  --debug-handlers         ཚབས་ཆེན་མ་ཡིན་པ་རྐྱེན་སེལ་འབད་ནིའི་བརྡ་རྟགས་ལེགས་སྐྱོང་པ་ཚུ་ལྕོགས་ཅན་བཟོ། \n"
+
+#: ../app/main.c:528
+msgid ""
+"  --stack-trace-mode <never | query | always>\n"
+"                           Debugging mode for fatal signals.\n"
+msgstr ""
+"  --བstack-trace-mode <ནམ་ཡང་ | འདྲི་དཔྱད་ | ཨ་རྟག་རང་>\n"
+"                           ཚབས་ཆེན་བརྡ་རྟགས་ཚུ་གི་དོན་ལུ་རྐྱེན་སེལ་འབད་ནིའི་ཐབས་ལམ། \n"
+
+#: ../app/main.c:530
+msgid ""
+"  --pdb-compat-mode <off | on | warn>\n"
+"                           Procedural Database compatibility mode.\n"
+msgstr ""
+"  --pdb-compat-mode <ཨོཕ་ | ཨཱོན་ | ཉེན་བརྡ་>\n"
+"                           བྱ་སྒོའི་ལམ་ལུགས་ཀྱི་གནད་སྡུད་གཞི་རྟེན་མཐུན་འགྱུར་ཐབས་ལམ། \n"
+
+#: ../app/main.c:532
+msgid ""
+"  --batch-interpreter <procedure>\n"
+"                           The procedure to process batch commands with.\n"
+msgstr ""
+"  --batch-interpreter <བྱ་སྒོའི་ལམ་ལུགས་>\n"
+"                           རུ་ཚན་བརྡ་བཀོད་ཚུ་དང་མཉམ་ལས་སྦྱོར་འབད་ནི་ལུ་བྱ་སྒོའི་ལམ་ལུགས། \n"
+
+#: ../app/main.c:534
+msgid "  -b, --batch <commands>   Process commands in batch mode.\n"
+msgstr "  -b, --batch <བརྡ་བཀོད་ཚུ་>   རུ་ཚན་ཐབས་ལམ་ནང་ལས་སྦྱོར་བརྡ་བཀོད་ཚུ། \n"
+
+#: ../app/sanity.c:194
+#, c-format
+msgid ""
+"The configured filename encoding cannot be converted to UTF-8: %s\n"
+"\n"
+"Please check the value of the environment variable G_FILENAME_ENCODING."
+msgstr ""
+"རིམ་སྒྲིག་་འབད་ཚར་མི་ཡིག་སྣོད་ཀྱི་མིང་ཨིན་ཀོ་ཌིང་དེ་ ཡུ་ཊི་ཨེཕི་-༨:%s\n"
+"\n"
+"ལུ་ངཞི་བསྒྱུར་འབད་མི་བཏུབ།མཐའ་འཁོར་འགྱུར་ཅན་གྱི་གནས་གོང་དེ་ཞིབ་དཔྱད་འབད་གནང་ ཇི_ཡིག་སྣོད་_ཨིན་ཀོ་"
+"ཌིང་།"
+
+#: ../app/sanity.c:213
+#, c-format
+msgid ""
+"The name of the directory holding the GIMP user configuration cannot be "
+"converted to UTF-8: %s\n"
+"\n"
+"Most probably your filesystem stores files in an encoding different from UTF-"
+"8 and you didn't tell GLib about this. Please set the environment variable "
+"G_FILENAME_ENCODING."
+msgstr ""
+"སྣོད་ཐོ་འདི་གི་མིང་ཇི་ཨའི་ཨེམ་པི་ལག་ལེན་པའི་རིམ་སྒྲིག་འཆང་མི་འདི་ UTF-8: %s ལུ་གཞི་བསྒྱུར་འབད་མི་བཏུབ། \n"
+"\n"
+"མང་ཆེ་ཤོས་ཅིག་ཁྱོད་ཀྱི་ཡིག་སྣོད་རིམ་ལུགས་ཀྱིས་ཡུ་ཊི་ཨེཕི་-8 ལས་སོ་སོ་ཨིན་མི་ ཨེན་ཀོ་ཌིང་ནང་གསོག་འཇོག་འབད་ཡོདཔ་ དང་ ཁྱོད་ཀྱིས་འདི་གི་སྐོར་ལས་ཇི་ཨེལ་ཨའི་བི་ལུ་མ་སླབ། མཐའ་འཁོར་འགྱུར་ཅན་ ཇི་ ཡིག་སྣོད་མིང་ ཨིན་ཀོ་ཌིང་འདི་གཞི་སྒྲིག་འབད་གནང་།"
+
+#. initialize the list of gimp brushes
+#: ../app/actions/actions.c:94 ../app/core/gimp.c:856
+#: ../app/dialogs/dialogs.c:138 ../app/dialogs/preferences-dialog.c:2297
+#: ../app/pdb/internal_procs.c:92
+msgid "Brushes"
+msgstr "པྱིར།"
+
+#: ../app/actions/actions.c:97 ../app/dialogs/dialogs.c:150
+msgid "Buffers"
+msgstr "གནད་ཁོངས།"
+
+#: ../app/actions/actions.c:100 ../app/dialogs/dialogs.c:163
+msgid "Channels"
+msgstr "རྒྱུ་ལམ།"
+
+#: ../app/actions/actions.c:103
+msgid "Colormap Editor"
+msgstr "ས་ཁྲ་ཚོས་གཞི་ཅན་ ཞུན་དག་པ།"
+
+#: ../app/actions/actions.c:106 ../app/pdb/internal_procs.c:101
+msgid "Context"
+msgstr "སྐབས་འབབ།"
+
+#: ../app/actions/actions.c:109
+msgid "Debug"
+msgstr "རྐྱེན་སེལ།"
+
+#: ../app/actions/actions.c:112
+msgid "Dialogs"
+msgstr "ཌའི་ལོགོ"
+
+#: ../app/actions/actions.c:115
+msgid "Dockable"
+msgstr "ཐོག་འབད་བཏུབ་མི།"
+
+#: ../app/actions/actions.c:118 ../app/dialogs/dialogs.c:152
+msgid "Document History"
+msgstr "ཡིག་ཆ་་སྔོན་རབས།"
+
+#: ../app/actions/actions.c:121 ../app/core/core-enums.c:1043
+#: ../app/core/core-enums.c:1073
+msgid "Drawable"
+msgstr "འབྲི་བཏུབ།"
+
+#: ../app/actions/actions.c:124 ../app/tools/tools-enums.c:144
+msgid "Edit"
+msgstr "ཞུན་དག"
+
+#: ../app/actions/actions.c:127 ../app/dialogs/dialogs.c:131
+msgid "Error Console"
+msgstr "མ་སྒྲོམ་ འཛོལ་བ།"
+
+#: ../app/actions/actions.c:130
+msgid "File"
+msgstr "ཡིག་སྣོད།"
+
+#. initialize the list of gimp fonts
+#: ../app/actions/actions.c:133 ../app/core/gimp.c:872
+#: ../app/dialogs/dialogs.c:146 ../app/dialogs/preferences-dialog.c:2313
+#: ../app/pdb/internal_procs.c:128
+msgid "Fonts"
+msgstr "ཡིག་གཟུགས།"
+
+#: ../app/actions/actions.c:136 ../app/dialogs/dialogs.c:205
+msgid "Gradient Editor"
+msgstr "སྟེགས་རིས་ ཞུན་དག་པ།"
+
+#. initialize the list of gimp gradients
+#: ../app/actions/actions.c:139 ../app/core/gimp.c:868
+#: ../app/dialogs/dialogs.c:142 ../app/dialogs/preferences-dialog.c:2309
+#: ../app/pdb/internal_procs.c:140
+msgid "Gradients"
+msgstr "སྟེགས་རིས།"
+
+#: ../app/actions/actions.c:142
+msgid "Help"
+msgstr "གྲོགས་རམ།"
+
+#: ../app/actions/actions.c:145 ../app/pdb/internal_procs.c:149
+#: ../app/tools/tools-enums.c:176
+msgid "Image"
+msgstr "གཟུགས་བརྙན།"
+
+#. list & grid views
+#: ../app/actions/actions.c:148 ../app/dialogs/dialogs.c:136
+msgid "Images"
+msgstr "གཟགས་བརྙན་ཚུ།"
+
+#: ../app/actions/actions.c:151 ../app/dialogs/dialogs.c:159
+msgid "Layers"
+msgstr "བང་རིམ།"
+
+#: ../app/actions/actions.c:154 ../app/dialogs/dialogs.c:209
+msgid "Palette Editor"
+msgstr "པེ་ལེཊི་ ཞུན་དག་པ།"
+
+#. initialize the list of gimp palettes
+#: ../app/actions/actions.c:157 ../app/core/gimp.c:864
+#: ../app/dialogs/dialogs.c:144 ../app/dialogs/preferences-dialog.c:2305
+#: ../app/pdb/internal_procs.c:170
+msgid "Palettes"
+msgstr "པེ་ལེཊི་ཚུ།"
+
+#. initialize the list of gimp patterns
+#: ../app/actions/actions.c:160 ../app/core/gimp.c:860
+#: ../app/dialogs/dialogs.c:140 ../app/dialogs/preferences-dialog.c:2301
+#: ../app/pdb/internal_procs.c:185
+msgid "Patterns"
+msgstr "དཔེ་གཞི་ཚུ།"
+
+#: ../app/actions/actions.c:163 ../app/dialogs/preferences-dialog.c:2317
+msgid "Plug-Ins"
+msgstr "པ་ལག་-ཨིནསི།"
+
+#: ../app/actions/actions.c:166 ../app/core/core-enums.c:1040
+#: ../app/core/gimpchannel.c:383
+msgid "Quick Mask"
+msgstr "འཕྲལ་མགྱོགས་ གདོང་ཁེབས།"
+
+#: ../app/actions/actions.c:169
+msgid "Select"
+msgstr "སེལ་འཐུ།"
+
+#. initialize the template list
+#: ../app/actions/actions.c:172 ../app/core/gimp.c:880
+#: ../app/dialogs/dialogs.c:154
+msgid "Templates"
+msgstr "ཊེམ་པེལེཊི།"
+
+#: ../app/actions/actions.c:175
+msgid "Text Editor"
+msgstr "ཚིག་ཡིག་ ཞུན་དག་པ།"
+
+#: ../app/actions/actions.c:178 ../app/dialogs/dialogs.c:123
+#: ../app/dialogs/preferences-dialog.c:1585
+#: ../app/dialogs/preferences-dialog.c:1588 ../app/gui/gui.c:410
+msgid "Tool Options"
+msgstr "ལག་ཆས་ འདམ་ཁ།"
+
+#: ../app/actions/actions.c:181 ../app/dialogs/dialogs.c:148
+msgid "Tools"
+msgstr "ལག་ཆས་ཚུ།"
+
+#: ../app/actions/actions.c:184 ../app/dialogs/dialogs.c:167
+#: ../app/pdb/internal_procs.c:176 ../app/tools/gimpvectortool.c:160
+msgid "Paths"
+msgstr "འགྲུལ་ལམ་ཚུ།"
+
+#: ../app/actions/actions.c:187
+msgid "View"
+msgstr "མཐོང་སྣང་།"
+
+#: ../app/actions/brushes-actions.c:43
+msgid "Brushes Menu"
+msgstr "དཀར་ཆག་དྭངས་བཟོ་་ འབདཝ་ཨིན།"
+
+#: ../app/actions/brushes-actions.c:47
+msgid "_New Brush"
+msgstr "པྱིར་གསརཔ།(_N)"
+
+#: ../app/actions/brushes-actions.c:48
+msgid "New brush"
+msgstr "པྱིར་གསརཔ།"
+
+#: ../app/actions/brushes-actions.c:53
+msgid "D_uplicate Brush"
+msgstr "པྱིར་རྫུན་མ།(_u)"
+
+#: ../app/actions/brushes-actions.c:54
+msgid "Duplicate brush"
+msgstr "པྱིར་འཛུན་མ།"
+
+#: ../app/actions/brushes-actions.c:59
+msgid "_Delete Brush"
+msgstr "པྱིར་བཏོན་གཏང་།(_D)ི"
+
+#: ../app/actions/brushes-actions.c:60
+msgid "Delete brush"
+msgstr "པྱིར་བཏོན་གཏང་།"
+
+#: ../app/actions/brushes-actions.c:65
+msgid "_Refresh Brushes"
+msgstr "པྱིར་ཡང་སེལ་འབད།(_R)"
+
+#: ../app/actions/brushes-actions.c:66
+msgid "Refresh brushes"
+msgstr "པྱིར་ཡང་སེལ་འབད།"
+
+#: ../app/actions/brushes-actions.c:74
+msgid "_Edit Brush..."
+msgstr "པྱིར་ཞུན་དག་འབད།(_E)"
+
+#: ../app/actions/brushes-actions.c:75
+msgid "Edit brush"
+msgstr "པྱིར་ཞུན་དག་འབད།"
+
+#: ../app/actions/buffers-actions.c:42
+msgid "Buffers Menu"
+msgstr "གནད་ཁོངས་དཀར་ཆ།"
+
+#: ../app/actions/buffers-actions.c:46
+msgid "_Paste Buffer"
+msgstr "གནད་ཁོངས་སྦྱར།(_P)"
+
+#: ../app/actions/buffers-actions.c:47
+msgid "Paste the selected buffer"
+msgstr "གནད་ཁོངས་སེལ་འཐུ་ འབད་ཚར་མི་ཚུ་སྦྱར་ད།"
+
+#: ../app/actions/buffers-actions.c:52
+msgid "Paste Buffer _Into"
+msgstr "དེ་ནང་ལུ་ གནད་ཁོངས་སྦྱར་ད།(_I)"
+
+#: ../app/actions/buffers-actions.c:53
+msgid "Paste the selected buffer into the selection"
+msgstr "གནད་ཁོངས་ སེལ་འཐུ་འབད་ཚར་མི་ཚུ་ སེལ་འཐུ་ནང་ལུ་སྦྱར་ད།"
+
+#: ../app/actions/buffers-actions.c:58
+msgid "Paste Buffer as _New"
+msgstr "གནད་ཁོངས་དེ་ གསརཔ་སྦེ་ སྦྱར་ད། (_N)"
+
+#: ../app/actions/buffers-actions.c:59
+msgid "Paste the selected buffer as new image"
+msgstr "སེལ་འཐུ་འབད་ཚར་མི་གནད་ཁོངས་དེ་ག ཟུགས་བརྙན་གསརཔ་སྦེ་སྦྱར་ད།"
+
+#: ../app/actions/buffers-actions.c:64
+msgid "_Delete Buffer"
+msgstr "གནད་ཁོངས་ བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/buffers-actions.c:65
+msgid "Delete the selected buffer"
+msgstr "སེལ་འཐུ་འབཐ་ཚར་མི་གནད་ཁོངས་དེ་ བཏོན་གཏང་།"
+
+#: ../app/actions/channels-actions.c:44
+msgid "Channels Menu"
+msgstr "རྒྱུ་ལམ་དཀར་ཆག"
+
+#: ../app/actions/channels-actions.c:48
+msgid "_Edit Channel Attributes..."
+msgstr "རྒྱུ་ལམ་གྱི་ཁྱད་ཆོས་ ཞུན་དག་འབད།(_E)"
+
+#: ../app/actions/channels-actions.c:49
+msgid "Edit channel attributes"
+msgstr "རྒྱུ་ལམ་གྱི་ཁྱད་ཆོས་ ཞུན་དག་འབད།"
+
+#: ../app/actions/channels-actions.c:54
+msgid "_New Channel..."
+msgstr "རྒྱུ་ལམ་གསརཔ།(_N)"
+
+#: ../app/actions/channels-actions.c:55
+msgid "New channel..."
+msgstr "རྒྱུ་ལམ་གསརཔ།"
+
+#: ../app/actions/channels-actions.c:60
+msgid "_New Channel"
+msgstr "རྒྱུ་ལམ་གསརཔ།"
+
+#: ../app/actions/channels-actions.c:61
+msgid "New channel with last values"
+msgstr "མཐའ་མཇུག་གི་གནས་གོང་གི་ཐོག་ལས་ རྒྱུ་ལམ་གསརཔ།"
+
+#: ../app/actions/channels-actions.c:66
+msgid "D_uplicate Channel"
+msgstr "རྒྱུ་ལམ་འཛུན་མ།(_u)"
+
+#: ../app/actions/channels-actions.c:67
+msgid "Duplicate channel"
+msgstr "རྒྱུ་ལམ་འཛུན་མ།"
+
+#: ../app/actions/channels-actions.c:72
+msgid "_Delete Channel"
+msgstr "རྒྱུ་ལམ་བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/channels-actions.c:73 ../app/core/core-enums.c:1091
+msgid "Delete channel"
+msgstr "རྒྱུ་ལམ་བཏོན་གཏང་།"
+
+#: ../app/actions/channels-actions.c:78
+msgid "_Raise Channel"
+msgstr "རྒྱུ་ལམ་ཆེར་བསྐྱེད་འབད།(_R)"
+
+#: ../app/actions/channels-actions.c:79
+msgid "Raise channel"
+msgstr "རྒྱ྄ུ་ལམ་ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/channels-actions.c:84
+msgid "Raise Channel to _Top"
+msgstr "རྒྱ྄ུ་ལམ་ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/channels-actions.c:85
+msgid "Raise channel to top"
+msgstr "རྒྱུ་ལམ་སྤྱི་ཏོག་གུར་ ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/channels-actions.c:90
+msgid "_Lower Channel"
+msgstr "འོག་གི་རྒྱུ་ལམ།(_L)"
+
+#: ../app/actions/channels-actions.c:91
+msgid "Lower channel"
+msgstr "འོག་གི་རྒྱུ་ལམ།"
+
+#: ../app/actions/channels-actions.c:96
+msgid "Lower Channel to _Bottom"
+msgstr "རྒྱུ་ལམ་དེ་ གཤམ་ལུ་མར་ཕབ་འབད།(_B)"
+
+#: ../app/actions/channels-actions.c:97
+msgid "Lower channel to bottom"
+msgstr "རྒྱུ་ལམ་དེ་གཤམ་ལུ་ མར་ཕབ་འབད།"
+
+#: ../app/actions/channels-actions.c:105
+msgid "Channel to Sele_ction"
+msgstr "སེལ་འཐུ་འབད་ནིའི་རྒྱ྄ུལམ།(_c)"
+
+#: ../app/actions/channels-actions.c:106
+msgid "Channel to selection"
+msgstr "སེལ་འཐུ་འབད་ནིའི་རྒྱ྄ུ་ལམ།"
+
+#: ../app/actions/channels-actions.c:111 ../app/actions/layers-actions.c:226
+#: ../app/actions/vectors-actions.c:173
+msgid "_Add to Selection"
+msgstr "སེལ་འཐུ་ལུ་ ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../app/actions/channels-actions.c:112 ../app/actions/vectors-actions.c:174
+msgid "Add"
+msgstr "ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/actions/channels-actions.c:117 ../app/actions/layers-actions.c:231
+#: ../app/actions/layers-actions.c:254 ../app/actions/vectors-actions.c:179
+msgid "_Subtract from Selection"
+msgstr "སེལ་འཐུ་ནང་ལས་ཕབ།(_S)"
+
+#: ../app/actions/channels-actions.c:118 ../app/actions/vectors-actions.c:180
+#: ../app/widgets/gimpwidgets-constructors.c:69
+#: ../app/widgets/gimpwidgets-constructors.c:102
+msgid "Subtract"
+msgstr "ཕབ།"
+
+#: ../app/actions/channels-actions.c:123 ../app/actions/layers-actions.c:236
+#: ../app/actions/layers-actions.c:259 ../app/actions/vectors-actions.c:185
+msgid "_Intersect with Selection"
+msgstr "སེལ་འཐུའི་ཐོག་ལས་ དུམ་བུར་བཅོད།"
+
+#: ../app/actions/channels-actions.c:124 ../app/actions/vectors-actions.c:186
+msgid "Intersect"
+msgstr "དུམ་བུར་བཅོད་པ།"
+
+#: ../app/actions/channels-commands.c:86
+#: ../app/actions/channels-commands.c:383
+msgid "Channel Attributes"
+msgstr "རྒྱུ་ལམ་ཁྱད་ཆོས།"
+
+#: ../app/actions/channels-commands.c:89
+msgid "Edit Channel Attributes"
+msgstr "རྒྱུ་ལམ་ཁྱད་ཆོས་ཚུ་ ཞུན་དག་རྐྱབས།"
+
+#: ../app/actions/channels-commands.c:91
+msgid "Edit Channel Color"
+msgstr "རྒྱུ་ལམ་ཚོས་གཞི་ ཞུན་དག་རྐྱབས།"
+
+#: ../app/actions/channels-commands.c:92
+#: ../app/actions/channels-commands.c:124
+msgid "Fill Opacity:"
+msgstr "དྭངས་སྒྲིབ་བཀང་:"
+
+#: ../app/actions/channels-commands.c:117
+#: ../app/actions/channels-commands.c:118
+#: ../app/actions/channels-commands.c:159
+#: ../app/actions/channels-commands.c:163
+#: ../app/widgets/gimpchanneltreeview.c:256
+msgid "New Channel"
+msgstr "རྒྱུ་ལམ་གསཔ།"
+
+#: ../app/actions/channels-commands.c:121
+msgid "New Channel Options"
+msgstr "རྒྱུ་ལམ་གསརཔ་ གི་འདམ་ཁ།"
+
+#: ../app/actions/channels-commands.c:123
+msgid "New Channel Color"
+msgstr "རྒྱུ་ལམ་གསརཔ་ གི་ཚོས་གཞི།"
+
+#: ../app/actions/channels-commands.c:246
+#, c-format
+msgid "%s Channel Copy"
+msgstr "%s རྒྱུ་ལམ་གྱི་ འདྲ་བཤ྄ས།"
+
+#: ../app/actions/channels-commands.c:311 ../app/core/gimpselection.c:595
+#: ../app/pdb/selection_cmds.c:921 ../app/pdb/selection_cmds.c:1045
+msgid "Channel to Selection"
+msgstr "སེལ་འཐུའི་རྒྱུ་ལམ།"
+
+#: ../app/actions/colormap-editor-actions.c:43
+msgid "Colormap Menu"
+msgstr "ས་ཁྲ་ཚོས་གཞི་ཅན་གྱི་ དཀར་ཆག"
+
+#: ../app/actions/colormap-editor-actions.c:47
+#: ../app/actions/palette-editor-actions.c:47
+msgid "_Edit Color..."
+msgstr "ཚོས་གཞི་ ཞུན་དག་རྐྱབས།(_E)"
+
+#: ../app/actions/colormap-editor-actions.c:48
+#: ../app/actions/palette-editor-actions.c:48
+msgid "Edit color"
+msgstr "ཚོས་གཞི་ ཞུན་དག་རྐྱབས།"
+
+#: ../app/actions/colormap-editor-actions.c:56
+msgid "_Add Color from FG"
+msgstr "ཨེཕི་ཇི་ནང་ལས་ ཚོས་གཞི་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../app/actions/colormap-editor-actions.c:57
+msgid "Add color from FG"
+msgstr "ཨེཕི་ཇི་ནང་ལས་ ཚོས་གཞི་ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/actions/colormap-editor-actions.c:62
+msgid "_Add Color from BG"
+msgstr "བི་ཇི་ནང་ལས་ ཚོས་གཞི་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../app/actions/colormap-editor-actions.c:63
+msgid "Add color from BG"
+msgstr "བི་ཇི་ནང་ལས་ ཚོས་གཞི་ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/actions/colormap-editor-commands.c:70
+#, c-format
+msgid "Edit colormap entry #%d"
+msgstr "ཚོས་གཞི་ས་ཁྲའི་་ཐོ་བཀོད#%dཞུན་དག་འབད།"
+
+#: ../app/actions/colormap-editor-commands.c:76
+msgid "Edit Colormap Entry"
+msgstr "ཚོས་གཞི་ས་ཁྲའི་ ཐོ་བཀོད་ཞུན་དག་འབད།"
+
+#: ../app/actions/context-actions.c:46
+msgid "_Context"
+msgstr "སྐབའབབ་(_C)"
+
+#: ../app/actions/context-actions.c:47 ../app/actions/layers-actions.c:53
+#: ../app/actions/plug-in-actions.c:64
+msgid "_Colors"
+msgstr "ཚོས་གཞི་ཚུ་(_C)"
+
+#: ../app/actions/context-actions.c:48 ../app/actions/layers-actions.c:59
+msgid "_Opacity"
+msgstr "དྭངསྒྲིབ།(_O)"
+
+#: ../app/actions/context-actions.c:49
+msgid "Paint _Mode"
+msgstr "ཚོན་གྱི་ཐབས་ལམ།(_M)"
+
+#: ../app/actions/context-actions.c:50
+msgid "_Tool"
+msgstr "ལག་ཆས།(_T)"
+
+#: ../app/actions/context-actions.c:51
+#: ../app/dialogs/preferences-dialog.c:1627
+msgid "_Brush"
+msgstr "པྱིར།(_B)"
+
+#: ../app/actions/context-actions.c:52 ../app/actions/plug-in-actions.c:78
+#: ../app/dialogs/preferences-dialog.c:1630
+msgid "_Pattern"
+msgstr "དཔེ་གཞི།(_P)"
+
+#: ../app/actions/context-actions.c:53
+msgid "_Palette"
+msgstr "པེ་ལེཊི།(_P)"
+
+#: ../app/actions/context-actions.c:54
+#: ../app/dialogs/palette-import-dialog.c:219
+#: ../app/dialogs/preferences-dialog.c:1633
+msgid "_Gradient"
+msgstr "སྟེགས་རིས།(_G)"
+
+#: ../app/actions/context-actions.c:55
+msgid "_Font"
+msgstr "ཡིག་གཟུགས།(_F)"
+
+#: ../app/actions/context-actions.c:57
+msgid "_Shape"
+msgstr "དབིྱབ།(_S)"
+
+#: ../app/actions/context-actions.c:58
+msgid "_Radius"
+msgstr "མཐའ་འཁོར།(_R)"
+
+#: ../app/actions/context-actions.c:59
+msgid "S_pikes"
+msgstr "ཨིསི་པ་ཡིག(_p)"
+
+#: ../app/actions/context-actions.c:60
+msgid "_Hardness"
+msgstr "ལཱ་ཁག་ཅན།(_H)"
+
+#: ../app/actions/context-actions.c:61
+msgid "_Aspect"
+msgstr "རྣམ་པ།(_A)"
+
+#: ../app/actions/context-actions.c:62
+msgid "A_ngle"
+msgstr "ཟུར་ཁུག(_n)"
+
+#: ../app/actions/context-actions.c:65
+msgid "_Default Colors"
+msgstr "ཚོས་གཞི་སྔོན་སྒྲིག་འབད།(_D)"
+
+#: ../app/actions/context-actions.c:70
+msgid "S_wap Colors"
+msgstr "ཚོས་གཞི་ས་ཝབ་འབད།(_S)།"
+
+#: ../app/actions/data-commands.c:79 ../app/core/gimpimage.c:1285
+#: ../app/core/gimppalette-import.c:219 ../app/core/gimppalette.c:523
+#: ../app/core/gimppalette.c:634 ../app/dialogs/palette-import-dialog.c:684
+#: ../app/pdb/image_cmds.c:3762
+msgid "Untitled"
+msgstr "མགོ་མིང་མེད་མི།"
+
+#: ../app/actions/data-commands.c:149
+msgid "Delete Object"
+msgstr "དངོས་པོ་བཏོན་གཏང་།"
+
+#: ../app/actions/data-commands.c:167
+#, c-format
+msgid "Are you sure you want to delete '%s' from the list and from disk?"
+msgstr "ཁྱོད་ཀྱིས་'%s'དེ་ཐོ་ཡིག་དང་ ཌིག་སི་ནང་ལས་བཏོན་གཏང་ནི་དེ་ ངེས་ཏིག་ཨིན་ན?"
+
+#: ../app/actions/dialogs-actions.c:38
+msgid "_Dialogs"
+msgstr "ཌའི་ལོག(_D)"
+
+#: ../app/actions/dialogs-actions.c:39
+msgid "Create New Doc_k"
+msgstr "ཌོཀ་གསརཔ་ གསར་སྐྲུན་འབད།"
+
+#: ../app/actions/dialogs-actions.c:42
+msgid "_Layers, Channels & Paths"
+msgstr "བང་རིམ རྒྱུ་ལམ་དང་འགྲུལ་ལམ།(_L)"
+
+#: ../app/actions/dialogs-actions.c:47
+msgid "_Brushes, Patterns & Gradients"
+msgstr "པྱིར་ དཔེ་གཞི་དང་སྟེགས་རིས།(_B)་་"
+
+#: ../app/actions/dialogs-actions.c:52
+msgid "_Misc. Stuff"
+msgstr "སྣ་ཚོགས་ཅ་ཆས།"
+
+#: ../app/actions/dialogs-actions.c:57
+msgid "Tool_box"
+msgstr "ལག་ཆས་སྒྲོམ།(_b)"
+
+#: ../app/actions/dialogs-actions.c:65
+msgid "Tool _Options"
+msgstr "ལག་ཆས་འདམ་ཁ།(_O)"
+
+#: ../app/actions/dialogs-actions.c:70
+msgid "_Device Status"
+msgstr "ཐབས་འཕྲུལ་ གནས་ཚད།(_D)"
+
+#: ../app/actions/dialogs-actions.c:75
+msgid "_Layers"
+msgstr "བང་རིམ།(_L)"
+
+#: ../app/actions/dialogs-actions.c:80
+msgid "_Channels"
+msgstr "རྒྱུ་ལམ་ཚུ།(_)"
+
+#: ../app/actions/dialogs-actions.c:85 ../app/tools/gimpvectortool.c:162
+msgid "_Paths"
+msgstr "འགྲུལ་ལམ།(_P)"
+
+#: ../app/actions/dialogs-actions.c:90
+msgid "Color_map"
+msgstr "ཚོས་གཞི་ས་ཁྲ།(_m)"
+
+#: ../app/actions/dialogs-actions.c:95
+msgid "Histogra_m"
+msgstr "ཧིསི་ཊོ་ག་རམ།(_m)"
+
+#: ../app/actions/dialogs-actions.c:100
+msgid "_Selection Editor"
+msgstr "སེལ་འཐུ ཞུན་དག་པ།(_S)"
+
+#: ../app/actions/dialogs-actions.c:105
+msgid "Na_vigation"
+msgstr "འགྲུལ་བསྐྱོདཔ།(_V)"
+
+#: ../app/actions/dialogs-actions.c:110
+msgid "Undo _History"
+msgstr "སྔོན་རབས་འབད་བཤོལ་ འབད།(_H)"
+
+#: ../app/actions/dialogs-actions.c:115
+msgid "Colo_rs"
+msgstr "ཚོད་གཞི་ཚུ།(_r)"
+
+#: ../app/actions/dialogs-actions.c:120
+msgid "_Brushes"
+msgstr "པྱིར་ཚུ།(_B)"
+
+#: ../app/actions/dialogs-actions.c:125
+msgid "P_atterns"
+msgstr "དཔེ་གཞི།(_a)"
+
+#: ../app/actions/dialogs-actions.c:130
+msgid "_Gradients"
+msgstr "སྟེགས་རིས།(_G)"
+
+#: ../app/actions/dialogs-actions.c:135
+msgid "Pal_ettes"
+msgstr "པེ་ལེཊི།"
+
+#: ../app/actions/dialogs-actions.c:140
+msgid "_Fonts"
+msgstr "ཡིག་གཟུགས།(_F)"
+
+#: ../app/actions/dialogs-actions.c:145
+msgid "B_uffers"
+msgstr "གནད་ཁོངས།(_B)"
+
+#: ../app/actions/dialogs-actions.c:150
+msgid "_Images"
+msgstr "གཟུགས་བརྙན།(_I)"
+
+#: ../app/actions/dialogs-actions.c:155
+msgid "Document Histor_y"
+msgstr "ཡིག་ཆ་སྔོན་རབས།(_Y)"
+
+#: ../app/actions/dialogs-actions.c:160
+msgid "_Templates"
+msgstr "ཊེམ་པེ་ལིཊི།(_T)"
+
+#: ../app/actions/dialogs-actions.c:165
+msgid "T_ools"
+msgstr "ལག་ཆས།(_o)"
+
+#: ../app/actions/dialogs-actions.c:170
+msgid "Error Co_nsole"
+msgstr "མ་སྒྲོམ་འཛོལ་བ།(_E)"
+
+#: ../app/actions/dialogs-actions.c:180
+msgid "_Preferences"
+msgstr "དགའ་འདམ་ཚུ།(_P)ུ།"
+
+#: ../app/actions/dialogs-actions.c:185
+msgid "_Module Manager"
+msgstr "ཚད་གཞི་འཛིན་སྐྱོང་པ།(_M)"
+
+#: ../app/actions/dialogs-actions.c:190
+msgid "_Tip of the Day"
+msgstr "གཟའ་གི་ཕན་བསླབ།(_T)"
+
+#: ../app/actions/dialogs-actions.c:195
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../app/actions/dockable-actions.c:49
+msgid "Dialogs Menu"
+msgstr "ཌའི་ལོག་གི་དཀར་ཆག"
+
+#: ../app/actions/dockable-actions.c:53
+msgid "_Add Tab"
+msgstr "མཆོང་ལྡེ་ཁ་སྐོང་རྐྱབས།(_A)"
+
+#: ../app/actions/dockable-actions.c:54
+msgid "_Preview Size"
+msgstr "ཚད་སྔོན་བལྟ།(_P)"
+
+#: ../app/actions/dockable-actions.c:55
+msgid "_Tab Style"
+msgstr "མཆོང་ལྡེ་བཟོ་རྣམ།(_T)"
+
+#: ../app/actions/dockable-actions.c:58
+msgid "_Close Tab"
+msgstr "མཆོང་ལྡེ་ཁ་བསྡམ།(_C)"
+
+#: ../app/actions/dockable-actions.c:63
+msgid "_Detach Tab"
+msgstr "མཆོང་ལྡེ་ཁ་ཕྱེ།"
+
+#: ../app/actions/dockable-actions.c:68
+msgid "M_ove to Screen..."
+msgstr "གསལ་གཞི་ལུ་ སྤོ་...(_o)"
+
+#: ../app/actions/dockable-actions.c:76
+msgid "_Show Image Selection"
+msgstr "གཟུགས་བརྙན་སེལ་འཐུ་ སྟོན།(_S)"
+
+#: ../app/actions/dockable-actions.c:82
+msgid "Auto _Follow Active Image"
+msgstr "རང་བཞིན་གྱིས་ ཤུགས་ལྡན་གཟུགས་བརྙན་གྱི་ རྗེས་སུ་འབྲངས།(_F)"
+
+#: ../app/actions/dockable-actions.c:101
+msgid "_Tiny"
+msgstr "ཕྲ་བ།(-T)"
+
+#: ../app/actions/dockable-actions.c:102
+msgid "E_xtra Small"
+msgstr "(_x)ཧ་ཅང་ཆུང་བ།(_x)"
+
+#: ../app/actions/dockable-actions.c:103
+msgid "_Small"
+msgstr "ཆུང་ཀུ།(_S)"
+
+#: ../app/actions/dockable-actions.c:104
+msgid "_Medium"
+msgstr "འབྲིང་མ།(_M)"
+
+#: ../app/actions/dockable-actions.c:105
+msgid "_Large"
+msgstr "ཆེ་བ།(_L)"
+
+#: ../app/actions/dockable-actions.c:106
+msgid "Ex_tra Large"
+msgstr "ཧ་ཅང་ཆེ་བ།(_E)"
+
+#: ../app/actions/dockable-actions.c:107
+msgid "_Huge"
+msgstr "ཤིན་ཏུ་ཆེ་བ།(_H)"
+
+#: ../app/actions/dockable-actions.c:108
+msgid "_Enormous"
+msgstr "ཧ་ཅང་ཆེ་བ།(_E)"
+
+#: ../app/actions/dockable-actions.c:109
+msgid "_Gigantic"
+msgstr "ཚད་བརྒལ་ཆེན་པོ།(_G)"
+
+#: ../app/actions/dockable-actions.c:114
+msgid "_Icon"
+msgstr "ངོས་དཔར།(_I)"
+
+#: ../app/actions/dockable-actions.c:115
+msgid "Current _Status"
+msgstr "ད་ལྟོའི་གནས་ཚད།(_s)"
+
+#: ../app/actions/dockable-actions.c:116
+msgid "_Text"
+msgstr "ཚིག་ཡིག(_T)"
+
+#: ../app/actions/dockable-actions.c:117
+msgid "I_con & Text"
+msgstr "ངོས་དཔར་དང་ཚིག་་ཡིག(_c)"
+
+#: ../app/actions/dockable-actions.c:118
+msgid "St_atus & Text"
+msgstr "གནས་ཚད་དང་ཚིག་ཡིག(_a)"
+
+#: ../app/actions/dockable-actions.c:127
+msgid "View as _List"
+msgstr "ཐོ་བཀོད་འབད་དེ་བལྟ།"
+
+#: ../app/actions/dockable-actions.c:132
+msgid "View as _Grid"
+msgstr "གིརིཌི་འབད་དེ་བལྟ།(_G)"
+
+#: ../app/actions/documents-actions.c:42
+msgid "Documents Menu"
+msgstr "ཡིག་ཆ་ཚུ་གི་དཀར་ག"
+
+#: ../app/actions/documents-actions.c:46
+msgid "_Open Image"
+msgstr "གཟུགས་བརྙན་ཁ་ཕྱེ།(_O)"
+
+#: ../app/actions/documents-actions.c:47
+msgid "Open the selected entry"
+msgstr "ཐོ་བཀོད་སེལ་འཐུ་འབད་ཚར་མི་ཚུ་ ཁ་ཕྱེ།"
+
+#: ../app/actions/documents-actions.c:52
+msgid "_Raise or Open Image"
+msgstr "ཆེར་བསྐྱེད་འབད་ ཡང་ན་གཟུགས་བརྙན་ ཁ་ཕྱེ།(_R)"
+
+#: ../app/actions/documents-actions.c:53
+msgid "Raise window if already open"
+msgstr "སྒོ་སྒྲིག་ ཧེ་མ་ལས་ཁ་ཕྱེ་དེ་ཡོད་པ་ཅིན་ ཆེར་བསྐྱོད་འབད།"
+
+#: ../app/actions/documents-actions.c:58
+msgid "File Open _Dialog"
+msgstr "ཡིགསྣོད་ཁ་ཕྱེ་ནི་གི་ ཌའི་ལོག(_D)"
+
+#: ../app/actions/documents-actions.c:59
+msgid "Open image dialog"
+msgstr "གཟུགས་བརྙན་ཌའི་ལོག་ ཁ་ཕྱེ།"
+
+#: ../app/actions/documents-actions.c:64
+msgid "Remove _Entry"
+msgstr "ཐོ་བཀོད་རྩ་བསྐྲད་བཏང་།(_E)"
+
+#: ../app/actions/documents-actions.c:65
+msgid "Remove the selected entry"
+msgstr "ཐོ་བཀོད་སེལ་འཐུ་འབད་ཚར་མི་ཚུ་ རྩ་བསྐྲད་བཏང་།"
+
+#: ../app/actions/documents-actions.c:70
+msgid "Recreate _Preview"
+msgstr "སྔོན་བལྟ་ ལོག་གསར་བསྐྲུན་འབད།(_P)"
+
+#: ../app/actions/documents-actions.c:71
+msgid "Recreate preview"
+msgstr "སྔོན་བལྟ་ ལོག་གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/documents-actions.c:76
+msgid "Reload _all Previews"
+msgstr "སྔོན་བལྟ་ཆ་མཉམ་ ལོག་མངོན་གསལ་འབད།(_a)"
+
+#: ../app/actions/documents-actions.c:77
+msgid "Reload all previews"
+msgstr "སྔོན་བལྟ་ཆ་མཉམ་ ལོག་མངོན་གསལ་འབད།"
+
+#: ../app/actions/documents-actions.c:82
+msgid "Remove Dangling E_ntries"
+msgstr "དཔྱངས་ཏེ་ཡོད་མི་ཐོ་བཀོད་ཚུ་ རྩ་བསྐྲད་བཏང་།(_E)"
+
+#: ../app/actions/documents-actions.c:83
+msgid "Remove dangling entries"
+msgstr "དཔྱངས་ཏེ་ཡོད་ཡོད་མི་ཐོ་བཀོད་ཚུ་ རྩ་བསྐྲད་བཏང་།"
+
+#: ../app/actions/documents-commands.c:251 ../app/actions/file-commands.c:170
+#: ../app/dialogs/file-open-dialog.c:198 ../app/dialogs/file-open-dialog.c:249
+#: ../app/dialogs/file-open-location-dialog.c:195
+#: ../app/display/gimpdisplayshell-dnd.c:334
+#: ../app/widgets/gimplayertreeview.c:804 ../app/widgets/gimptoolbox-dnd.c:125
+#, c-format
+msgid ""
+"Opening '%s' failed:\n"
+"\n"
+"%s"
+msgstr ""
+"ཁ་ཕྱེ་དོ '%s' འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"\n"
+"%s"
+
+#: ../app/actions/drawable-actions.c:45
+msgid "_Desaturate"
+msgstr "མཐའ་ཚད་བཤོལ་(_D)"
+
+#: ../app/actions/drawable-actions.c:50
+msgid "_Equalize"
+msgstr "འདྲ་མཉམ་བཟོ།(_E)"
+
+#: ../app/actions/drawable-actions.c:55
+msgid "In_vert"
+msgstr "འདྲེན་རྟགས་ནང་བཙུགས།(_v)"
+
+#: ../app/actions/drawable-actions.c:60
+msgid "_White Balance"
+msgstr "ལྷག་ལུས་དཀརཔོ།(_w)"
+
+#: ../app/actions/drawable-actions.c:65
+msgid "_Offset..."
+msgstr "པར་ལེན།(_o)"
+
+#: ../app/actions/drawable-actions.c:73 ../app/actions/vectors-actions.c:153
+msgid "_Linked"
+msgstr "འབྲེལ་མཐུད།(_l)"
+
+#: ../app/actions/drawable-actions.c:79 ../app/actions/vectors-actions.c:147
+msgid "_Visible"
+msgstr "མཐོང་ཚུགས་པའི།(_v)"
+
+#: ../app/actions/drawable-actions.c:88 ../app/actions/image-actions.c:141
+msgid "Flip _Horizontally"
+msgstr "ཐད་སྙོམས་སྦེ་ མྱུར་ལྷོག་འབད།(_H)"
+
+#: ../app/actions/drawable-actions.c:93 ../app/actions/image-actions.c:146
+msgid "Flip _Vertically"
+msgstr "ཀེར་ཕྲང་སྦེ་ མྱུར་ལྷོག་འབད།(_V)"
+
+#. please use the degree symbol in the translation
+#: ../app/actions/drawable-actions.c:101 ../app/actions/image-actions.c:155
+msgid "Rotate 90 degrees _CW"
+msgstr "ཌིག་རི་༩༠_སི་ཌབུལུ་ ཐོག་ལུ་བསྒྱིར།(_C)"
+
+#: ../app/actions/drawable-actions.c:106 ../app/actions/image-actions.c:160
+msgid "Rotate _180 degrees"
+msgstr "ཌིག་རི་༡༨༠ཐོག་ལུ་བསྒྱིར།(_1)"
+
+#: ../app/actions/drawable-actions.c:111 ../app/actions/image-actions.c:165
+msgid "Rotate 90 degrees CC_W"
+msgstr "ཌིག་རི་༩༠_སི་ཌབུལུ་ ཐོག་ལུ་བསྒྱིར།(_W)"
+
+#: ../app/actions/drawable-commands.c:58
+msgid "Desaturate operates only on RGB color layers."
+msgstr "མཐའ་ཚད་ཀྱིས ཨཱར་བི་ཇི་ ཚོད་གཞི་བང་རིམ་གུར་རྐྱངམ་ཅིག་ བཀོལ་སྤྱོད་འབད་འོང་།"
+
+#: ../app/actions/drawable-commands.c:76
+msgid "Equalize does not operate on indexed layers."
+msgstr "འདྲ་མཉམ་ཀྱིས་ ཟུར་སྦྲགས་བང་རིམ་གུར་ བཀོལ་སྤྱོད་ མི་འབད།"
+
+#: ../app/actions/drawable-commands.c:94
+msgid "Invert does not operate on indexed layers."
+msgstr "འདྲེན་རྟགས་ནང་བཙུགས་ཀྱིས་ ཟུར་སྦྲགས་བང་རིམ་གུར་ བཀོལ་སྤྱོད་མི་འབད།"
+
+#: ../app/actions/drawable-commands.c:114
+msgid "White Balance operates only on RGB color layers."
+msgstr "ལྷག་ལུས་དཀརཔོ་གིས་ ཨཱར་བི་ཇི་ བང་རིམ་གུར་རྐྱངམ་ཅིག་ བཀོལ་སྤྱོད་འབདཝ་ཨིན།"
+
+#: ../app/actions/edit-actions.c:61
+msgid "_Edit"
+msgstr "ཞུན་དག་འབད།(_E)"
+
+#: ../app/actions/edit-actions.c:62
+msgid "_Buffer"
+msgstr "གནད་ཁོངས།(_B)"
+
+#: ../app/actions/edit-actions.c:65 ../app/actions/edit-actions.c:230
+msgid "_Undo"
+msgstr "འབད་བཤོལ།(_U)"
+
+#: ../app/actions/edit-actions.c:66 ../app/dialogs/dialogs.c:183
+#: ../app/pdb/internal_procs.c:209
+msgid "Undo"
+msgstr "འབད་བཤོལ།"
+
+#: ../app/actions/edit-actions.c:71 ../app/actions/edit-actions.c:231
+msgid "_Redo"
+msgstr "ལོག་འབད།(_R)"
+
+#: ../app/actions/edit-actions.c:72
+msgid "Redo"
+msgstr "ལོག་འབད།"
+
+#: ../app/actions/edit-actions.c:77
+msgid "_Clear Undo History"
+msgstr "འབད་བཤོལ་ སྔོན་རབས་ བསལ།(_C)"
+
+#: ../app/actions/edit-actions.c:78
+msgid "Clear undo history..."
+msgstr "ལོ་རྒྱུས་འབད་བཤོལ་བསལ་..."
+
+#: ../app/actions/edit-actions.c:83
+msgid "Cu_t"
+msgstr "བཏོག།(_C)"
+
+#: ../app/actions/edit-actions.c:88
+msgid "_Copy"
+msgstr "འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#. GIMP_STOCK_COPY_VISIBLE,
+#: ../app/actions/edit-actions.c:93
+msgid "Copy _Visible"
+msgstr "མཐོང་ཚུགས་མི་འདྲ་བཤུས་རྐྱབས།(_V)"
+
+#: ../app/actions/edit-actions.c:98
+msgid "_Paste"
+msgstr "སྦྱར།(_P)"
+
+#: ../app/actions/edit-actions.c:103
+msgid "Paste _Into"
+msgstr "ནང་ལུ་སྦྱར།(_I)"
+
+#: ../app/actions/edit-actions.c:108
+msgid "Paste as _New"
+msgstr "གསརཔ་སྦེ་སྦྱར་(_N)"
+
+#: ../app/actions/edit-actions.c:113
+msgid "Cu_t Named..."
+msgstr "མིང་བཏགས་མི་ཚུ་བཏོག་གཏང་།(_t)"
+
+#: ../app/actions/edit-actions.c:118
+msgid "_Copy Named..."
+msgstr "མིང་བཏགས་མི་ཚུ་འདྲ་བཤུས་རྐྱབས།(_C)"
+
+#: ../app/actions/edit-actions.c:123
+msgid "_Paste Named..."
+msgstr "མིང་བཏགས་ཚར་མི་ཚུ་སྦྱར་ད།(_p)"
+
+#: ../app/actions/edit-actions.c:128
+msgid "Cl_ear"
+msgstr "བསལ།(_c)"
+
+#: ../app/actions/edit-actions.c:136
+msgid "Fill with _FG Color"
+msgstr "ཨེཕི་ཇི་ ཚོད་གཞི་དང་བཅས་ བཀང་།(_f)"
+
+#: ../app/actions/edit-actions.c:141
+msgid "Fill with B_G Color"
+msgstr "བི་ཇི་ ཚོད་གཞི་དང་བཅས་ བཀང་།(_G)"
+
+#: ../app/actions/edit-actions.c:146
+msgid "Fill with P_attern"
+msgstr "དཔེ་གཞི་དང་བཅས་བཀང་།(_P)"
+
+#: ../app/actions/edit-actions.c:214
+#, c-format
+msgid "_Undo %s"
+msgstr "འབད་བཤོལ%s(_U)"
+
+#: ../app/actions/edit-actions.c:219
+#, c-format
+msgid "_Redo %s"
+msgstr "ལོག་འབད་%s(_R)"
+
+#: ../app/actions/edit-commands.c:104
+msgid "Clear Undo History"
+msgstr "འབད་བཤོལ་ལོ་རྒྱུས་བསལ།"
+
+#: ../app/actions/edit-commands.c:122
+msgid "Really clear image's undo history?"
+msgstr "གཟུགས་བརྙན་གྱི་ འབད་བཤོལ་ལོ་རྒྱུས་ ཐད་རི་འབའ་རི་ བསལ་གཏང་ནི་ཨིན་ན?"
+
+#: ../app/actions/edit-commands.c:210
+msgid "Cut Named"
+msgstr "མིང་བཏགས་མི་ཚུ་ བཏོག་གཏང་།"
+
+#: ../app/actions/edit-commands.c:213 ../app/actions/edit-commands.c:233
+msgid "Enter a name for this buffer"
+msgstr "གནད་ཁོངས་འདི་ལུ་མིང་ཅིག་ ཐོ་བཀོད་འབད།"
+
+#: ../app/actions/edit-commands.c:230
+msgid "Copy Named"
+msgstr "མིང་བཏགས་ཚར་མི་ཚུ་འདྲ་བཤུས་རྐྱབས།"
+
+#: ../app/actions/edit-commands.c:337
+msgid "There is no active layer or channel to cut from."
+msgstr "དེ་ནང་ལས་ བཏོག་ནིའི་དོན་ལུ་ ཤུགས་ལྡན་བང་རིམ་ ཡང་ན་ རྒྱུ་ལམ་ མིན་འདུག"
+
+#: ../app/actions/edit-commands.c:349 ../app/actions/edit-commands.c:386
+msgid "(Unnamed Buffer)"
+msgstr "(མིང་མ་བཏགས་མི་ གནད་ཁོངས།)"
+
+#: ../app/actions/edit-commands.c:374
+msgid "There is no active layer or channel to copy from."
+msgstr "དེ་ནང་ལས་ འདྲ་བཤུས་རྐྱབས་ནིའི་དོན་ལུ་ ཤུགས་ལྡན་བང་རིམ་ ཡང་ན་ རྒྱུ་ལམ་ མིན་འདུག"
+
+#: ../app/actions/error-console-actions.c:40
+msgid "Error Console Menu"
+msgstr "འཛོལ་བའི་མ་སྒྲོམ་ དཀར་ཆག"
+
+#: ../app/actions/error-console-actions.c:44
+msgid "_Clear Errors"
+msgstr "འཛོལ་བ་བསལ་གཏང་།(_C)"
+
+#: ../app/actions/error-console-actions.c:45
+msgid "Clear errors"
+msgstr "འཛོལ་བ་བསལ་གཏང་།"
+
+#: ../app/actions/error-console-actions.c:53
+msgid "Save _All Errors to File..."
+msgstr "འཛོལ་བ་ཆ་མཉམ་ ཡིག་སྣོད་ནང་ལུ་ སྲུང་བཞག་འབད།(_A)"
+
+#: ../app/actions/error-console-actions.c:54
+msgid "Save all errors"
+msgstr "འཛོལ་བ་ཆ་མཉམ་སྲུང་བཞག་འབད།"
+
+#: ../app/actions/error-console-actions.c:59
+msgid "Save _Selection to File..."
+msgstr "སེལ་འཐུ་ ཡིག་སྣོད་ནང་ལུ་ སྲུང་བཞག་འབད།(_S)"
+
+#: ../app/actions/error-console-actions.c:60
+msgid "Save selection"
+msgstr "སེལ་འཐུ་སྲུང་བཞག་འབད།"
+
+#: ../app/actions/error-console-commands.c:69
+msgid "Cannot save. Nothing is selected."
+msgstr "སྲུང་བཞག་འབད་མི་ཚུགས། ག་ནི་ཡང་སེལ་འཐུ་མ་འབད་བས།"
+
+#: ../app/actions/error-console-commands.c:80
+msgid "Save Error Log to File"
+msgstr "འཛོལ་བའི་དྲན་དེབ་ ཡིག་སྣོད་ནང་ལུ་ སྲུང་བཞག་འབད།"
+
+#: ../app/actions/error-console-commands.c:132
+#, c-format
+msgid ""
+"Error writing file '%s':\n"
+"%s"
+msgstr ""
+"ཡིག་སྣོད་'%s'འབྲི་བའི་སྐབས་སུ་ འཛོལ་བ་འདུག:\n"
+"%s"
+
+#: ../app/actions/file-actions.c:61
+msgid "_File"
+msgstr "ཡིག་སྣོད།(_F)"
+
+#: ../app/actions/file-actions.c:62
+msgid "Open _Recent"
+msgstr "འཕྲལ་གྱི་དེ་ ཁ་ཕྱེ།"
+
+#: ../app/actions/file-actions.c:63
+msgid "_Acquire"
+msgstr "སྒྲུབ་ནི།(_A)"
+
+#: ../app/actions/file-actions.c:66 ../app/actions/file-actions.c:71
+msgid "_Open..."
+msgstr "ཁ་ཕྱེ།(_O)"
+
+#: ../app/actions/file-actions.c:76
+msgid "Op_en as Layer..."
+msgstr "བང་རིམ་སྦེ་ ཁ་ཕྱེ།(O)"
+
+#: ../app/actions/file-actions.c:81
+msgid "Open _Location..."
+msgstr "གནས་ཁོངས་ཁ་ཕྱེ།(_L)"
+
+#: ../app/actions/file-actions.c:86
+msgid "_Save"
+msgstr "སྲུང་བཞག་འབད།(_S)"
+
+#: ../app/actions/file-actions.c:91
+msgid "Save _as..."
+msgstr "སྦེ་སྲུངས་...(_a)"
+
+#: ../app/actions/file-actions.c:96
+msgid "Save a Cop_y..."
+msgstr "འདྲ་བཤུས་གཅིག་སྲུང་བཞག་འབད།(_y)"
+
+#: ../app/actions/file-actions.c:101
+msgid "Save as _Template..."
+msgstr "ཊེམ་པེལེཊི་སྦེ་་སྲུང་བཞག་འབད།(_T)"
+
+#: ../app/actions/file-actions.c:106
+msgid "Re_vert..."
+msgstr "རྒྱབ་ལོག་...(_v)"
+
+#: ../app/actions/file-actions.c:111
+msgid "_Quit"
+msgstr "སྤང་།(_Q)"
+
+#: ../app/actions/file-commands.c:215 ../app/dialogs/file-save-dialog.c:282
+#, c-format
+msgid ""
+"Saving '%s' failed:\n"
+"\n"
+"%s"
+msgstr ""
+"སྲུང་བཞག་འབད་དོ'%s'འཐུས་ཤོར་འབྱུང་ཡོདཔ:\n"
+":\n"
+"%s"
+
+#: ../app/actions/file-commands.c:238 ../app/dialogs/file-save-dialog.c:78
+msgid "Save Image"
+msgstr "གཟུགས་བརྙན་སྲུང་བཞག་འབད།"
+
+#: ../app/actions/file-commands.c:254
+msgid "Save a Copy of the Image"
+msgstr "གཟུགས་བརྙན་དེ་གི འདྲ་བཤུས་གཅིག་ སྲུང་བཞག་འབད།"
+
+#: ../app/actions/file-commands.c:265
+msgid "Create New Template"
+msgstr "ཊེམ་པེལེཊི་གསརཔ་ གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/file-commands.c:269
+msgid "Enter a name for this template"
+msgstr "ཊེམ་པེལེཊི་འདི་ལུ་ མིང་ཅིག་ ཐོ་བཀོད་འབད།"
+
+#: ../app/actions/file-commands.c:291
+msgid "Revert failed. No file name associated with this image."
+msgstr "རྒྱབ་ལོག་ མཐུས་ཤོར་འབྱུང་ནུག། གཟུགས་བརྙན་འདི་གི་ཐོག་ལས་ ཡིག་སྣོད་ཀྱི་མིང་ ག་ཡང་འབྲེལ་བ་མིན་འདུག"
+
+#: ../app/actions/file-commands.c:303
+msgid "Revert Image"
+msgstr "གཟུགས་བརྙན་ རྒྱབ་ལོག་འབད།"
+
+#: ../app/actions/file-commands.c:324
+#, c-format
+msgid "Revert '%s' to '%s'?"
+msgstr "'%s' དེ་'%s'ལུ་རྒྱབ་ལོག་ འབད་ནི་ཨིན་ན?"
+
+#: ../app/actions/file-commands.c:330
+msgid ""
+"By reverting the image to the state saved on disk, you will lose all "
+"changes, including all undo information."
+msgstr ""
+"གཟུགས་བརྙན་དེ་ ཌིག་སི་ནང་ གནས་ལུགས་སྲུང་བཞག་འབད་ཡོད་མི་གུར་ རྒྱབ་ལོག་འབད་བའི་ཐོག་ལས་ ཁྱོད་ཀྱིས་ "
+"འབད་བཤོལ་བརྡ་དོན་ཚུ་རྩིས་ཏེ་ བསྒྱུར་བཅོས་ཆ་མཉམ་ མེདཔ་འགྱོ་འོང་།"
+
+#: ../app/actions/file-commands.c:380
+msgid "Open Image as Layer"
+msgstr "གཟུགས་བརྙན་ བང་རིམ་སྦེ་ ཁ་ཕྱེ།"
+
+#: ../app/actions/file-commands.c:385 ../app/dialogs/file-open-dialog.c:74
+msgid "Open Image"
+msgstr "གཟུགས་ ཁ་ཕྱེ།"
+
+#: ../app/actions/file-commands.c:451
+msgid "(Unnamed Template)"
+msgstr "(མིང་བཏགས་མི་ ཊེམ་པེལེཊི།)"
+
+#: ../app/actions/file-commands.c:500
+#, c-format
+msgid ""
+"Reverting to '%s' failed:\n"
+"\n"
+"%s"
+msgstr ""
+"'%s ནང་ལུ་ རྒྱབ་ལོག་འབད་དོ། འཐུས་མོར་འབྱུང་ཚར་མི་:\n"
+":\n"
+"%s"
+
+#: ../app/actions/fonts-actions.c:44
+msgid "Fonts Menu"
+msgstr "ཡིག་གཟུགས་ དཀར་ཆག"
+
+#: ../app/actions/fonts-actions.c:48
+msgid "_Rescan Font List"
+msgstr "ཡིག་གཟུགས་ཀྱི་ ཐོ་ཡིག་ ལོག་ཞིབ་བལྟ་འབད།(_R)s"
+
+#: ../app/actions/fonts-actions.c:49
+msgid "Rescan font list"
+msgstr "ཡིག་གཟུགས་ཀྱི་ ཐོ་ཡིག་ ལོག་ཞིབ་བལྟ་འབད།"
+
+#: ../app/actions/gradient-editor-actions.c:46
+msgid "Gradient Editor Menu"
+msgstr "སྟེགས་རིས་་ཞུན་དག་པའི་དཀར་ཆག"
+
+#: ../app/actions/gradient-editor-actions.c:50
+msgid "_Load Left Color From"
+msgstr "དེ་ནང་ལས་ གཡོན་གྱི་ ཚོད་གཞི་ མངོན་གསལ་འབད།(_L)"
+
+#: ../app/actions/gradient-editor-actions.c:52
+msgid "_Save Left Color To"
+msgstr "་དེ་ལུ་ གཡོན་་གྱི་ཚོད་གཞི་ སྲུང་བཞག་འབད།(_s)"
+
+#: ../app/actions/gradient-editor-actions.c:55
+msgid "Load Right Color Fr_om"
+msgstr "དེ་ནང་ལས་་གཡས་ཀྱི་ཚོད་གཞི་ མངོན་གསལ་འབད།(o)"
+
+#: ../app/actions/gradient-editor-actions.c:57
+msgid "Sa_ve Right Color To"
+msgstr "དེ་ལུ་ གཡས་ཀྱི་ཚོད་གཞི་སྲུང་བཞག་འབད།(_v)"
+
+#: ../app/actions/gradient-editor-actions.c:63
+msgid "L_eft Endpoint's Color..."
+msgstr "གཡོན་གྱི་ མཐའ་རྩེ་གི་ ཚོད་གཞི་།(_e)"
+
+#: ../app/actions/gradient-editor-actions.c:68
+msgid "R_ight Endpoint's Color..."
+msgstr "གཡས་ཀྱི་ མཐའ་རྩི་གི་ ཚོད་གཞི།(_R)"
+
+#: ../app/actions/gradient-editor-actions.c:108
+msgid "Ble_nd Endpoints' Colors"
+msgstr "མཐའ་རྩེ་གི་ ཚོད་གཞི་མཉམ་སྡེབ་འབད།(_n)"
+
+#: ../app/actions/gradient-editor-actions.c:113
+msgid "Blend Endpoints' Opacit_y"
+msgstr "མཐའ་རྩེ་གི་ དྭངས་སྒྲིབ་ མཉམ་སྡེབ་འབད།(_y)"
+
+#: ../app/actions/gradient-editor-actions.c:143
+msgid "_Left Neighbor's Right Endpoint"
+msgstr "གཡོན་གྱི ཁྱིམ་མཚེས་ཀྱི་ མཐའ་ཚད་གཡསཔ།(_L)"
+
+#: ../app/actions/gradient-editor-actions.c:148
+msgid "_Right Endpoint"
+msgstr "མཐའ་ཚད་གཡསཔ།(_R)"
+
+#: ../app/actions/gradient-editor-actions.c:153
+#: ../app/actions/gradient-editor-actions.c:201
+msgid "_FG Color"
+msgstr "ཚོད་གཞི་ ཨེཕི་ཇི།(_F)"
+
+#: ../app/actions/gradient-editor-actions.c:158
+#: ../app/actions/gradient-editor-actions.c:206
+msgid "_BG Color"
+msgstr "ཚོད་གཞི་ བི་ཇི།(_B)"
+
+#: ../app/actions/gradient-editor-actions.c:191
+msgid "_Right Neighbor's Left Endpoint"
+msgstr "གཡས་ཀྱི་ཁྱིམ་ཚེས་ཀྱི་ མཐའ་ཚད་གཡོནམ།(_R)"
+
+#: ../app/actions/gradient-editor-actions.c:196
+msgid "_Left Endpoint"
+msgstr "མཐའ་ཚད་གཡོནམ།(_L)"
+
+#: ../app/actions/gradient-editor-actions.c:245
+msgid "_Linear"
+msgstr "ལའི་ནིར།(_L)"
+
+#: ../app/actions/gradient-editor-actions.c:250
+msgid "_Curved"
+msgstr "གུག་གུགཔ།(_c)"
+
+#: ../app/actions/gradient-editor-actions.c:255
+msgid "_Sinusoidal"
+msgstr "སའི་ནོ་སོའི་ཌལ།(_s)"
+
+#: ../app/actions/gradient-editor-actions.c:260
+msgid "Spherical (i_ncreasing)"
+msgstr "ཟླུམ་གཟུགས་་ཡར་སེང་འབད་དོ།(_i)"
+
+#: ../app/actions/gradient-editor-actions.c:265
+msgid "Spherical (_decreasing)"
+msgstr "ཟླུམ་གཟུགས མར་ཕབ་འབད་དོ།(_d)"
+
+#: ../app/actions/gradient-editor-actions.c:270
+#: ../app/actions/gradient-editor-actions.c:293
+msgid "(Varies)"
+msgstr "(འགྱུརཝ་ཨིན)"
+
+#: ../app/actions/gradient-editor-actions.c:278
+#: ../app/actions/image-actions.c:123
+msgid "_RGB"
+msgstr "ཨཱར་བི་ཇི།(_R)"
+
+#: ../app/actions/gradient-editor-actions.c:283
+msgid "HSV (_counter-clockwise hue)"
+msgstr "ཨེཆེ་ཨེསི་ཝི(གདོང་ལན-ཚོན་མདངས་གཡས་སྐོར།)(_c)"
+
+#: ../app/actions/gradient-editor-actions.c:288
+msgid "HSV (clockwise _hue)"
+msgstr "ཨེཆེ་ཨེསི་ཝི(ཚོན་མདངས་གཡས་སྐོར།)(_h)"
+
+#: ../app/actions/gradient-editor-actions.c:301
+msgid "Zoom In"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../app/actions/gradient-editor-actions.c:302
+#: ../app/actions/palette-editor-actions.c:78
+#: ../app/actions/view-actions.c:216 ../app/widgets/widgets-enums.c:353
+msgid "Zoom in"
+msgstr "ཕྱིར་རྒྱས།"
+
+#: ../app/actions/gradient-editor-actions.c:307
+msgid "Zoom Out"
+msgstr "ནང་བཟུམ།"
+
+#: ../app/actions/gradient-editor-actions.c:308
+#: ../app/actions/palette-editor-actions.c:84
+#: ../app/actions/view-actions.c:210 ../app/widgets/widgets-enums.c:354
+msgid "Zoom out"
+msgstr "ནང་བཟུམ།"
+
+#: ../app/actions/gradient-editor-actions.c:313
+msgid "Zoom All"
+msgstr "ཆ་མཉམ་ རྒྱས་བཟུམ་འབད།"
+
+#: ../app/actions/gradient-editor-actions.c:314
+#: ../app/actions/palette-editor-actions.c:90
+msgid "Zoom all"
+msgstr "ཆ་མཉམ་རྒྱས་བཟུམ་འབད།"
+
+#: ../app/actions/gradient-editor-actions.c:589
+msgid "_Blending Function for Segment"
+msgstr "ཆ་བགོས་གི་དོན་ལུ་ ལས་འགན་མཉམ་སྡེབ་འབད་དོ།(_B)"
+
+#: ../app/actions/gradient-editor-actions.c:591
+msgid "Coloring _Type for Segment"
+msgstr "ཆ་བགོས་ཀྱི་དོན་ལུ ཚོས་གཞི་གི་དབྱེ་བ།(_T)"
+
+#: ../app/actions/gradient-editor-actions.c:594
+msgid "_Flip Segment"
+msgstr "ཆ་བགོས མྱུར་ལྷོག་འབད།(_S)"
+
+#: ../app/actions/gradient-editor-actions.c:596
+msgid "_Replicate Segment..."
+msgstr "ཆ་བགོས་ངོ་འདྲ་བཟོ།(_R)"
+
+#: ../app/actions/gradient-editor-actions.c:598
+msgid "Split Segment at _Midpoint"
+msgstr "དབུས་རྩེ་ལུ ཆ་བགོས་གཤག(_M)"
+
+#: ../app/actions/gradient-editor-actions.c:600
+msgid "Split Segment _Uniformly..."
+msgstr "ཆ་བགོས གཅིག་མཚུངས་སྦེ་ཤག(_U)"
+
+#: ../app/actions/gradient-editor-actions.c:602
+msgid "_Delete Segment"
+msgstr "ཆ་བགོས བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/gradient-editor-actions.c:604
+msgid "Re-_center Segment's Midpoint"
+msgstr "ཆ་བགོས་ཀྱི་དབུས་རྩེ ལོག་དབུས་སྒྲིག་འབད།(_c)"
+
+#: ../app/actions/gradient-editor-actions.c:606
+msgid "Re-distribute _Handles in Segment"
+msgstr "ཆ་བགོས་ནང་ལུ་བཤེད་བཟུང་ཚུ་ ལོག་བགོ་བཀྲམ་འབད།(_H)"
+
+#: ../app/actions/gradient-editor-actions.c:611
+msgid "_Blending Function for Selection"
+msgstr "སེལ་འཐུའི་དོན་ལུ་ ལས་འགན་མཉམ་སྡེབ་འབད་དོ།(_B)"
+
+#: ../app/actions/gradient-editor-actions.c:613
+msgid "Coloring _Type for Selection"
+msgstr "སེལ་འཐུའི་དོན་ལུ ཚོས་གཞི་གི་དབྱེ་བ།(_T)"
+
+#: ../app/actions/gradient-editor-actions.c:616
+msgid "_Flip Selection"
+msgstr "སེལ་འཐུ མྱུར་ལྷོག་འབད།(_F)"
+
+#: ../app/actions/gradient-editor-actions.c:618
+msgid "_Replicate Selection..."
+msgstr "སེལ་འཐུ་ ངོ་འདྲ་བཟོ།(_R)"
+
+#: ../app/actions/gradient-editor-actions.c:620
+msgid "Split Segments at _Midpoints"
+msgstr "དབུས་རྩེ་ལུ ཆ་བགོས གཤག(_m)"
+
+#: ../app/actions/gradient-editor-actions.c:622
+msgid "Split Segments _Uniformly..."
+msgstr "ཆ་བགོས་ཚུ་ གཅིག་མཚུངས་སྦེ་གཤག(_U)"
+
+#: ../app/actions/gradient-editor-actions.c:624
+msgid "_Delete Selection"
+msgstr "སེལ་འཐུ་བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/gradient-editor-actions.c:626
+msgid "Re-_center Midpoints in Selection"
+msgstr "དབུས་རྩེ་ཚུ སེལ་འཐུའི་ནང་ལོག་དབུས་སྒྲིག་འབད།(_c)ྒྲིག་འབད།"
+
+#: ../app/actions/gradient-editor-actions.c:628
+msgid "Re-distribute _Handles in Selection"
+msgstr "སེལ་འཐུའི་ནང་ལུ བཤེད་བཟུང་ཚུ་ལོག་བགོ་བཀྲམ་འབད།(_H)་བཀྲམ་འབད།"
+
+#: ../app/actions/gradient-editor-commands.c:85
+msgid "Left Endpoint Color"
+msgstr "གཡོན་གྱི་ མཇུག་རྩེ་ཚོསགཞི།"
+
+#: ../app/actions/gradient-editor-commands.c:87
+msgid "Gradient Segment's Left Endpoint Color"
+msgstr "སྟེགས་རིས ཆ་བགོའི་གཡོན་གྱི མཇུག་རྩེ་ཚོས་གཞི།"
+
+#: ../app/actions/gradient-editor-commands.c:189
+msgid "Right Endpoint Color"
+msgstr "གཡས་ཀྱི་མཇུག་རྩེ་ ཚོས་གཞི།"
+
+#: ../app/actions/gradient-editor-commands.c:191
+msgid "Gradient Segment's Right Endpoint Color"
+msgstr "སྟེགས་རིས ཆ་བགོའི་གཡས་ཀྱི་ མཇུག་རྩེ་ཚོས་གཞི།"
+
+#: ../app/actions/gradient-editor-commands.c:358
+msgid "Replicate Segment"
+msgstr "ཆ་བགོས་ ངོ་འདྲ་བ་བཟོ།"
+
+#: ../app/actions/gradient-editor-commands.c:359
+msgid "Replicate Gradient Segment"
+msgstr "སྟེགས་རིས ཆ་བགོས་ངོ་འདྲ་བ་བཟོ།"
+
+#: ../app/actions/gradient-editor-commands.c:363
+msgid "Replicate Selection"
+msgstr "སེལ་འཐུ་ངོ་འདྲ་བ་བཟོ།"
+
+#: ../app/actions/gradient-editor-commands.c:364
+msgid "Replicate Gradient Selection"
+msgstr "སྟེགས་རིས་་སེལ་འཐུ་ངོ་འདྲ་བ་བཟོ།"
+
+#: ../app/actions/gradient-editor-commands.c:376
+msgid "Replicate"
+msgstr "ངོ་འདྲ་བཟོ།"
+
+#: ../app/actions/gradient-editor-commands.c:391
+msgid ""
+"Select the number of times\n"
+"to replicate the selected segment."
+msgstr ""
+"སེལ་འཐུ་འབད་ཚར་མི་ ཆ་བགོས་ ངོ་འདྲ་བ་བཟོ་ནིའི་དོན་ལུ་ ཨང་གི་ ལེན་ཐེངས་\n"
+"སེལ་འཐུ་འབད།ུ་འབད།"
+
+#: ../app/actions/gradient-editor-commands.c:394
+msgid ""
+"Select the number of times\n"
+"to replicate the selection."
+msgstr ""
+"སེལལ་འཐུ་ངོ་འདྲ་བ་བཟོ་ནིའི་དོན་ལུ་ ཨང་གྲངས་ཀྱི་ལེན་ཐེངས\n"
+"སེལ་འཐུ་འབད།"
+
+#: ../app/actions/gradient-editor-commands.c:452
+msgid "Split Segment Uniformly"
+msgstr "ཆ་བགོ་ གཅིག་མཚུངས་སྦེ་གཤག"
+
+#: ../app/actions/gradient-editor-commands.c:453
+msgid "Split Gradient Segment Uniformly"
+msgstr "སྟེགས་རིས་ཆ་བགོས་ གཅིག་མཚུངས་སྦེ་གཤག"
+
+#: ../app/actions/gradient-editor-commands.c:457
+msgid "Split Segments Uniformly"
+msgstr "ཆ་ོབགོས་ གཅིག་མཚུངས་སྦེ་གཤག"
+
+#: ../app/actions/gradient-editor-commands.c:458
+msgid "Split Gradient Segments Uniformly"
+msgstr "སྟེགས་རིས་ཆ་བགོས་ གཅིག་མཚུངས་སྦེ་གཤག"
+
+#: ../app/actions/gradient-editor-commands.c:470
+msgid "Split"
+msgstr "གཤག"
+
+#: ../app/actions/gradient-editor-commands.c:486
+msgid ""
+"Select the number of uniform parts\n"
+"in which to split the selected segment."
+msgstr ""
+" སེལ་འཐུ་འབད་ཚར་མི་ཆ་བགོས་གཤག་ནི་གི་དོན་ལུ གཅིག་མཚུངས་སྦེ་མི་ཡན་ལག་\n"
+"ཁ་གྲངས་སེལ་འཐུ་འབད།"
+
+#: ../app/actions/gradient-editor-commands.c:489
+msgid ""
+"Select the number of uniform parts\n"
+"in which to split the segments in the selection."
+msgstr ""
+"ཆ་བགོས་ཚུ་སེལ་འཐུ་ནང་ལུ་ གཤག་ནིའི་དོན་ལུ་ གཅིག་མཚུངས་སྦེ་མི་ཡན་ལག་\n"
+"ཁ་གྲངས་སེལ་འཐུ་འབད།"
+
+#: ../app/actions/gradients-actions.c:44
+msgid "Gradients Menu"
+msgstr "སྟེགལ་རིས དཀར་ཆག"
+
+#: ../app/actions/gradients-actions.c:48
+msgid "_New Gradient"
+msgstr "སྟེགས་རིས་གསརཔ།(_N)"
+
+#: ../app/actions/gradients-actions.c:49
+msgid "New gradient"
+msgstr "སྟེགས་རིས་གསརཔ།"
+
+#: ../app/actions/gradients-actions.c:54
+msgid "D_uplicate Gradient"
+msgstr "སྟེགས་རིས་འཛུན་མ།(_u)"
+
+#: ../app/actions/gradients-actions.c:55
+msgid "Duplicate gradient"
+msgstr "སྟེགས་རིས་འཛུན་མ།"
+
+#: ../app/actions/gradients-actions.c:60
+msgid "Save as _POV-Ray..."
+msgstr "པི་ཨོ་ཝི་-རེ་བཟུམ་སྦེ་སྲུང་བཞག་འབད།"
+
+#: ../app/actions/gradients-actions.c:61
+msgid "Save gradient as POV-Ray"
+msgstr "པི་ཧོ་ཝི་-རེ་བཟུམ་སྦེ་ སྟེགས་རིས་སྲུང་བཞག་འབད།"
+
+#: ../app/actions/gradients-actions.c:66
+msgid "_Delete Gradient..."
+msgstr "སྟེགས་རིས་བཏོན་གཏང་...(_D)"
+
+#: ../app/actions/gradients-actions.c:67
+msgid "Delete gradient"
+msgstr "སྟེགས་རིས་བཏོན་གཏང་།"
+
+#: ../app/actions/gradients-actions.c:72
+msgid "_Refresh Gradients"
+msgstr "སྟེགས་རིས་སེལ་འབད།(_R)"
+
+#: ../app/actions/gradients-actions.c:73
+msgid "Refresh gradients"
+msgstr "སྟེགས་རིས་སེལ་འབད།"
+
+#: ../app/actions/gradients-actions.c:81
+msgid "_Edit Gradient..."
+msgstr "སྟེགས་རིས་དག་འབད།(_E)"
+
+#: ../app/actions/gradients-actions.c:82
+msgid "Edit gradient"
+msgstr "སྟེགས་རིས་དག་འབད།"
+
+#: ../app/actions/gradients-commands.c:65
+#, c-format
+msgid "Save '%s' as POV-Ray"
+msgstr "'%s' དེ་ པི་ཨོ་ཝི་-རེ་སྦེ་སྲུང་བཞག་འབད།"
+
+#: ../app/actions/help-actions.c:38 ../app/actions/help-actions.c:41
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#: ../app/actions/help-actions.c:46
+msgid "_Context Help"
+msgstr "སྐབས་འབབ་གི་གྲོགས་རམ།(_C)"
+
+#: ../app/actions/image-actions.c:47
+msgid "Toolbox Menu"
+msgstr "ལག་ཆས་སྒྲོམ་གྱི་དཀར་ཆག"
+
+#: ../app/actions/image-actions.c:51 ../app/actions/image-actions.c:55
+msgid "Image Menu"
+msgstr "གཟུགས་བརྙན དཀར་ཆག"
+
+#: ../app/actions/image-actions.c:58
+msgid "_Xtns"
+msgstr "ཨེགསི་ཊེནསི།"
+
+#: ../app/actions/image-actions.c:59
+msgid "_Image"
+msgstr "གཟུགས་བརྙན།(_I)"
+
+#: ../app/actions/image-actions.c:60
+msgid "_Mode"
+msgstr "ཐབས་ལམ།(_M)"
+
+#: ../app/actions/image-actions.c:61 ../app/actions/layers-actions.c:57
+msgid "_Transform"
+msgstr "བཟོ་བསྒྱུར།(_T)"
+
+#: ../app/actions/image-actions.c:62
+msgid "_Guides"
+msgstr "འཁྱིད་མི།(_G)"
+
+#: ../app/actions/image-actions.c:65 ../app/actions/image-actions.c:70
+msgid "_New..."
+msgstr "གསརཔ།(_N)"
+
+#: ../app/actions/image-actions.c:75
+msgid "Can_vas Size..."
+msgstr "འབྲི་གཞི་གི་ ཚད།(_v)"
+
+#: ../app/actions/image-actions.c:80
+msgid "F_it Canvas to Layers"
+msgstr "འབྲི་གཞི་དེ་ བང་རིམ་ནང་ལུ་ཚུད་སྒྲིག་འབད།(_i)"
+
+#: ../app/actions/image-actions.c:85
+msgid "_Print Size..."
+msgstr "ཚད་དཔར་བསྐྲུན་འབད།(_P)"
+
+#: ../app/actions/image-actions.c:90
+msgid "_Scale Image..."
+msgstr "ཆ་ཚད་ཀྱི་གཟུགས་བརྙན།(_S)"
+
+#: ../app/actions/image-actions.c:95
+msgid "_Crop Image"
+msgstr "གཟུགས་བརྙན་བཏོག་བཅོས་འབད།(_C)"
+
+#: ../app/actions/image-actions.c:100
+msgid "_Duplicate"
+msgstr "འཛུན་མ།(_D)"
+
+#: ../app/actions/image-actions.c:105
+msgid "Merge Visible _Layers..."
+msgstr "མཐོང་ཚུགས་པའི་བང་རིམ་ཚུ མཉམ་བསྡོམས་འབད།(_L)"
+
+#: ../app/actions/image-actions.c:110 ../app/actions/layers-actions.c:138
+msgid "_Flatten Image"
+msgstr "གཟུགས་བརྙན་ལེབ་ཏ་བཟོ།(_F)"
+
+#: ../app/actions/image-actions.c:115
+msgid "Configure G_rid..."
+msgstr "གིརིཌི་རིམ་སྒྲིག་འབད།(_r)"
+
+#: ../app/actions/image-actions.c:128
+msgid "_Grayscale"
+msgstr "ཆ་ཚད་སྐྱ་ཐལ།(_G)"
+
+#: ../app/actions/image-actions.c:133
+msgid "_Indexed..."
+msgstr "ཟུར་སྦྲགས།(_I)"
+
+#: ../app/actions/image-commands.c:192
+msgid "Set Image Canvas Size"
+msgstr "གཟུགས་བརྙན་འབྲི་གཞི་གི་ཚད གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/image-commands.c:219 ../app/actions/image-commands.c:449
+msgid "Resizing..."
+msgstr "ཚད་བསྐྱར་བཟོ་..."
+
+#: ../app/actions/image-commands.c:242
+msgid "Set Image Print Resolution"
+msgstr "ཧུམ་ཆའི་དཔར་བསྐྲུན་གྱི་གཟུགས་བརྙན་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/image-commands.c:289
+msgid "Flipping..."
+msgstr " མྱུར་ལྷོག་འབད་དོ་..."
+
+#: ../app/actions/image-commands.c:310
+#: ../app/pdb/drawable_transform_cmds.c:1035
+#: ../app/pdb/drawable_transform_cmds.c:1193
+#: ../app/pdb/transform_tools_cmds.c:339 ../app/tools/gimprotatetool.c:159
+msgid "Rotating..."
+msgstr "བསྒྱིར་དོ་..."
+
+#: ../app/actions/image-commands.c:332 ../app/actions/layers-commands.c:535
+msgid "Cannot crop because the current selection is empty."
+msgstr "ད་ལྟོའི་སེལ་འཐུ་དེ་སྟོངམ་ཨིནམ་ལས བཏོག་བཅོས་འབད་མི་བཏུབ།"
+
+#: ../app/actions/image-commands.c:484
+msgid "Change Print Size"
+msgstr "དཔར་བསྐྲུན་གྱི་ཚད བསྒྱུར་བཅོས་འབད་ད།"
+
+#: ../app/actions/image-commands.c:508 ../app/core/gimpimage-scale.c:71
+#: ../app/dialogs/image-scale-dialog.c:91
+msgid "Scale Image"
+msgstr "གཟུགས་བརྙན་གྱི་ ཆ་ཚད་བསྐྱལ།"
+
+#: ../app/actions/image-commands.c:521 ../app/actions/layers-commands.c:959
+#: ../app/pdb/drawable_transform_cmds.c:1346
+#: ../app/pdb/drawable_transform_cmds.c:1503
+#: ../app/pdb/transform_tools_cmds.c:458 ../app/tools/gimpscaletool.c:153
+msgid "Scaling..."
+msgstr "ཚད་རྟགས་..."
+
+#: ../app/actions/images-actions.c:43
+msgid "Images Menu"
+msgstr "གཟུགས་བརྙན་གྱི་དཀར་ཆག"
+
+#: ../app/actions/images-actions.c:47
+msgid "_Raise Views"
+msgstr "མཐོང་སྣང་ཆེར་བསྐྱེད་འབད།(_R)"
+
+#: ../app/actions/images-actions.c:48
+msgid "Raise this image's displays"
+msgstr "གཟུགས་བརྙན་འདི་གི བཀྲམ་སྟོན་ཚུ་ ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/images-actions.c:53 ../app/actions/view-actions.c:68
+msgid "_New View"
+msgstr "མཐོང་སྣང་གསརཔ།(_N)"
+
+#: ../app/actions/images-actions.c:54
+msgid "Create a new display for this image"
+msgstr "གཟུགས་བརྙན་འདི་གི་དོན་ལུ བཀྲམ་སྟོན་གསརཔ གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/images-actions.c:59
+msgid "_Delete Image"
+msgstr "གཟུགས་བརྙན བཏོན་གཏང་།(_d)"
+
+#: ../app/actions/images-actions.c:60
+msgid "Delete this image"
+msgstr "གཟུགས་བརྙན་འདི བཏོན་གཏང་།"
+
+#: ../app/actions/layers-actions.c:48
+msgid "Layers Menu"
+msgstr "བང་རིམ་གྱི་དཀར་ཆག"
+
+#: ../app/actions/layers-actions.c:51
+msgid "_Layer"
+msgstr "བང་རིམ།(_L)"
+
+#: ../app/actions/layers-actions.c:52
+msgid "Stac_k"
+msgstr "བརྩེགས་ཕུང་།(_k)"
+
+#: ../app/actions/layers-actions.c:54 ../app/tools/gimplevelstool.c:665
+msgid "_Auto"
+msgstr "རང་བཞིན།(_A)"
+
+#: ../app/actions/layers-actions.c:55
+msgid "_Mask"
+msgstr "གདོང་ཁེབས།(_M)"
+
+#: ../app/actions/layers-actions.c:56
+msgid "Tr_ansparency"
+msgstr "དྭངས་གསལ་ཅན།(_a)"
+
+#: ../app/actions/layers-actions.c:58
+msgid "_Properties"
+msgstr "རྒྱུ་དངོས།(_P)"
+
+#: ../app/actions/layers-actions.c:60
+msgid "Layer _Mode"
+msgstr "བང་རིམ་གྱི་ཐབས་ལམ།(_M)"
+
+#: ../app/actions/layers-actions.c:63
+msgid "Te_xt Tool"
+msgstr "ཚིག་ཡིག ལག་ཆས།"
+
+#: ../app/actions/layers-actions.c:68
+msgid "_Edit Layer Attributes..."
+msgstr "བང་རིམ་གྱི ཁྱད་ཆོས་ཞུན་དག་རྐྱབས།(_E)"
+
+#: ../app/actions/layers-actions.c:69
+msgid "Edit layer attributes"
+msgstr "བང་རིམ་གྱི ཁྱད་ཆོས་ཞུན་དག་རྐྱབས།"
+
+#: ../app/actions/layers-actions.c:74
+msgid "_New Layer..."
+msgstr "བང་རིམ་གསརཔ།(_N)"
+
+#: ../app/actions/layers-actions.c:75
+msgid "New layer..."
+msgstr "བང་རིམ་གསརཔ།"
+
+#: ../app/actions/layers-actions.c:80
+msgid "_New Layer"
+msgstr "བང་རིམ་གསརཔ།(_N)"
+
+#: ../app/actions/layers-actions.c:81
+msgid "New layer with last values"
+msgstr "མཇུག་མམ་གྱི་ གནས་གོང་གི་ཐོག་ལས་ བག་རིམ་གསརཔ།"
+
+#: ../app/actions/layers-actions.c:86
+msgid "D_uplicate Layer"
+msgstr "བང་རིམ་འཛུན་མ།(_u)"
+
+#: ../app/actions/layers-actions.c:87
+msgid "Duplicate layer"
+msgstr "བང་རིམ་འཛུན་མ།"
+
+#: ../app/actions/layers-actions.c:92
+msgid "_Delete Layer"
+msgstr "བང་རིམ་བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/layers-actions.c:93 ../app/core/core-enums.c:1081
+msgid "Delete layer"
+msgstr "བང་རིམ་བཏོན་གཏང་།"
+
+#: ../app/actions/layers-actions.c:98
+msgid "_Raise Layer"
+msgstr "བང་རིམ་ཆེར་བསྐྱེད་འབད།(_R)"
+
+#: ../app/actions/layers-actions.c:99
+msgid "Raise layer"
+msgstr "བང་རིམ་ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/layers-actions.c:104
+msgid "Layer to _Top"
+msgstr "བང་རིམ་སྤྱི་ཏོག་ལུ་དཀོད།(_T)"
+
+#: ../app/actions/layers-actions.c:105
+msgid "Raise layer to top"
+msgstr "བང་རིམ་སྤྱི་ཏོག་ལུ ཆེར་བསྐྱེད་འབད།"
+
+#: ../app/actions/layers-actions.c:110
+msgid "_Lower Layer"
+msgstr "འོག་གི་བང་རིམ།"
+
+#: ../app/actions/layers-actions.c:111
+msgid "Lower layer"
+msgstr "འོག་གི་བང་རིམ།"
+
+#: ../app/actions/layers-actions.c:116
+msgid "Layer to _Bottom"
+msgstr "བང་རིམ་གཤམ་ལུ་བཀོད།(_B)"
+
+#: ../app/actions/layers-actions.c:117
+msgid "Lower layer to bottom"
+msgstr "བང་རིམ་གཤམ་ལུ་བཀོད།"
+
+#: ../app/actions/layers-actions.c:122
+msgid "_Anchor Layer"
+msgstr "ཨེན་ཀོར་གྱི་བང་རིམ།(_A)"
+
+#: ../app/actions/layers-actions.c:123
+msgid "Anchor floating layer"
+msgstr "ལྡིང་ཡོད་མི་ བང་རིམ་ཚུ་ཨེན་ཀོར་འབད།"
+
+#: ../app/actions/layers-actions.c:128
+msgid "Merge Do_wn"
+msgstr "མར་མཉམ་བསྡོམས་འབད།(_w)"
+
+#: ../app/actions/layers-actions.c:133
+msgid "Merge _Visible Layers..."
+msgstr "མཐོང་ཚུགས་པའི བང་རིམ་ཚུ་ མར་མཉམ་བསྡོམས་འབད།(_V)"
+
+#: ../app/actions/layers-actions.c:143
+msgid "_Discard Text Information"
+msgstr "ཚིག་ཡིག་གི་བརྡ་དོན བཏོན་བཀོག།(_D)"
+
+#: ../app/actions/layers-actions.c:148
+msgid "Layer B_oundary Size..."
+msgstr "མཐའ་མཚམས་ཚད་ཀྱི བང་རིམ།(_o)"
+
+#: ../app/actions/layers-actions.c:153
+msgid "Layer to _Image Size"
+msgstr "གཟུགས་བརྙན་ཚད་ལུ་བང་རིམ།(_I)"
+
+#: ../app/actions/layers-actions.c:158
+msgid "_Scale Layer..."
+msgstr "བང་རིམ་ ཆ་ཚད་བཀལ།(_S)"
+
+#: ../app/actions/layers-actions.c:163
+msgid "Cr_op Layer"
+msgstr "བང་རིམ་བཏོག་བཅོས་འབད།(_o)"
+
+#: ../app/actions/layers-actions.c:168
+msgid "Add La_yer Mask..."
+msgstr "བང་རིམ་གྱི གདོང་ཁེབས་ཁ་སྐོང་རྐྱབས།(_y)"
+
+#: ../app/actions/layers-actions.c:173
+msgid "Add Alpha C_hannel"
+msgstr "ཨཱལ་ཕའི་རྒྱུ་ལམ་ཁ་སྐོང་རྐྱབས།(_h)"
+
+#: ../app/actions/layers-actions.c:181
+msgid "Keep Transparency"
+msgstr "དྭངས་གསལ་ཅན་བཞག"
+
+#: ../app/actions/layers-actions.c:187
+msgid "Edit Layer Mask"
+msgstr "བང་རིམ་གདོང་ཁེབས་ཞུན་དག་རྐྱབས།"
+
+#: ../app/actions/layers-actions.c:193
+msgid "Show Layer Mask"
+msgstr "བང་རིམ་ གདོང་ཁེབས་ སྟོན།"
+
+#: ../app/actions/layers-actions.c:199
+msgid "Disable Layer Mask"
+msgstr "བང་རིམ་གདོང་ཁེབས་ལྕོགས་མིན་བཟོ།"
+
+#: ../app/actions/layers-actions.c:208
+msgid "Apply Layer _Mask"
+msgstr "བང་རིམ གདོང་ཁེབས་ འཇུག་སྤྱོད་འབད།(_M)"
+
+#: ../app/actions/layers-actions.c:213
+msgid "Delete Layer Mas_k"
+msgstr "བང་རིམ་གདོང་ཁེབས་ བཏོན་གཏང་།(_k)"
+
+#: ../app/actions/layers-actions.c:221
+msgid "_Mask to Selection"
+msgstr "སེལ་འཐུ་ལུ་གདོང་ཁེབས་རྐྱབས།(_M)"
+
+#: ../app/actions/layers-actions.c:244
+msgid "Al_pha to Selection"
+msgstr "སེལ་འཐུ་ལུ་ ཨལ་ཕ་འབད།(_P)"
+
+#: ../app/actions/layers-actions.c:249
+msgid "A_dd to Selection"
+msgstr "སེལ་འཐུ་ལུ་ཁ་སྐོང་རྐྱབས།(_d)"
+
+#: ../app/actions/layers-actions.c:267
+msgid "Select _Top Layer"
+msgstr "སྤི་ཏོག་གི་བང་རིམ སེལ་འཐུ་འབད།(_T)"
+
+#: ../app/actions/layers-actions.c:272
+msgid "Select _Bottom Layer"
+msgstr "གཤམ་གྱི་བང་རིམ སེལ་འཐུ་འབད།(_B)"
+
+#: ../app/actions/layers-actions.c:277
+msgid "Select _Previous Layer"
+msgstr "སེ་མའི་བང་རིམ སེལ་འཐུ་འབད།(_p)"
+
+#: ../app/actions/layers-actions.c:282
+msgid "Select _Next Layer"
+msgstr "ཤུལ་མམ་གྱི་བང་རིམ ཤསེལ་འཐུ་འབད།(_N)"
+
+#: ../app/actions/layers-actions.c:290
+msgid "Set Opacity"
+msgstr "དྭངས་སྒྲིབགཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/layers-commands.c:196
+msgid "Layer Attributes"
+msgstr "བང་རིམ་གྱི་ཁྱད་ཆོས།"
+
+#: ../app/actions/layers-commands.c:199
+msgid "Edit Layer Attributes"
+msgstr "བང་རིམ་གྱི་ཁྱད་ཆོས ཞུན་དག་འབད།"
+
+#: ../app/actions/layers-commands.c:232 ../app/actions/layers-commands.c:234
+#: ../app/actions/layers-commands.c:291 ../app/actions/layers-commands.c:295
+#: ../app/widgets/gimpdrawabletreeview.c:238
+#: ../app/widgets/gimplayertreeview.c:842
+msgid "New Layer"
+msgstr "བང་རིམ་གསརཔ།"
+
+#: ../app/actions/layers-commands.c:237
+msgid "Create a New Layer"
+msgstr "བང་རིམ་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/layers-commands.c:470
+msgid "Set Layer Boundary Size"
+msgstr "བང་རིམ་མཐའ་ཚད་ཀྱི་ཚད ཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/layers-commands.c:512 ../app/core/gimplayer.c:253
+msgid "Scale Layer"
+msgstr "ཆ་ཚད་བང་རིམ།"
+
+#: ../app/actions/layers-commands.c:545
+msgid "Crop Layer"
+msgstr "བང་རིམ་བཏོག་བཅོས་འབད།"
+
+#: ../app/actions/layers-commands.c:683
+msgid "Layer Mask to Selection"
+msgstr "སེལ་འཐུ་ལུ བང་རིམ་གདོང་ཁེབས།"
+
+#: ../app/actions/layers-commands.c:904 ../app/core/gimplayer.c:1065
+#: ../app/dialogs/layer-add-mask-dialog.c:62
+msgid "Add Layer Mask"
+msgstr "བང་རིམ་གདོང་ཁེབས ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/actions/layers-commands.c:975 ../app/actions/layers-commands.c:1007
+msgid "Invalid width or height. Both must be positive."
+msgstr "ནུས་མེད་ཀྱི་ རྒྱ་ཚད་ ཡང་ན མཐོ་ཚད་གཉིས་ཆ་རང་ ཡོད་ཆ་ཨིན་གོ"
+
+#: ../app/actions/palette-editor-actions.c:43
+msgid "Palette Editor Menu"
+msgstr "པེ་ལེཊི་གི་ ཞུན་དག་ དཀར་ཆག"
+
+#: ../app/actions/palette-editor-actions.c:53
+msgid "_Delete Color"
+msgstr "ཚོས་གཞི་བཏོན་གཏོང་།(_D)"
+
+#: ../app/actions/palette-editor-actions.c:54
+msgid "Delete color"
+msgstr "ཚོས་གཞི་བཏོན་གཏོང་།"
+
+#: ../app/actions/palette-editor-actions.c:62
+msgid "New Color from _FG"
+msgstr "ཨེཕི་ཇི་ནང་ལས་ཚོས་གཞི་གསརཔ།(_F)"
+
+#: ../app/actions/palette-editor-actions.c:63
+msgid "New color from FG"
+msgstr "ཨེཕི་ཇི་ནང་ལས་ཚོས་གཞི་གསརཔ།"
+
+#: ../app/actions/palette-editor-actions.c:68
+msgid "New Color from _BG"
+msgstr "བི་ཇི་ནང་ལས ཚོས་གཞི་ཞུན་གད་འབད།(_B)"
+
+#: ../app/actions/palette-editor-actions.c:69
+msgid "New color from BG"
+msgstr "བི་ཇི་ནང་ལས ཚོས་གཞི་གསརཔ།"
+
+#: ../app/actions/palette-editor-actions.c:77
+#: ../app/actions/view-actions.c:215
+msgid "Zoom _In"
+msgstr "ཕྱིར་རྒྱས།(_I)"
+
+#: ../app/actions/palette-editor-actions.c:83
+#: ../app/actions/view-actions.c:209
+msgid "Zoom _Out"
+msgstr "ནང་ཟུམ།(_O)"
+
+#: ../app/actions/palette-editor-actions.c:89
+msgid "Zoom _All"
+msgstr "ག་ར་རྒྱས་ཟུམ་འབད།(_A)"
+
+#: ../app/actions/palette-editor-commands.c:68
+msgid "Edit Palette Color"
+msgstr "པེ་ལིཊི་ཚོས་གཞི ཞུན་དག་འབད།"
+
+#: ../app/actions/palette-editor-commands.c:70
+msgid "Edit Color Palette Entry"
+msgstr "ཚོད་གཞི པེ་ལིཊི་གི ཐོ་བཀོད་ཞུན་དག་འབད།"
+
+#: ../app/actions/palettes-actions.c:44
+msgid "Palettes Menu"
+msgstr "པེ་ལིཊི་གི་དཀར་ཆག"
+
+#: ../app/actions/palettes-actions.c:48
+msgid "_New Palette"
+msgstr "པེ་ལིཊི་གསརཔ།(_N)"
+
+#: ../app/actions/palettes-actions.c:49
+msgid "New palette"
+msgstr "པེ་ལིཊི་གསརཔ།"
+
+#: ../app/actions/palettes-actions.c:54
+msgid "_Import Palette..."
+msgstr "པེ་ལིཊི་ནང་འདྲེན་འབད།(_I)"
+
+#: ../app/actions/palettes-actions.c:55
+msgid "Import palette"
+msgstr "པེ་ལིཊི་ནང་འདྲེན་འབད།"
+
+#: ../app/actions/palettes-actions.c:60
+msgid "D_uplicate Palette"
+msgstr "པེ་ལིཊི་འཛུན་མ།"
+
+#: ../app/actions/palettes-actions.c:61
+msgid "Duplicate palette"
+msgstr "པེ་ལིཊི་འཛུན་མ།"
+
+#: ../app/actions/palettes-actions.c:66
+msgid "_Merge Palettes..."
+msgstr "པེ་ལིཊི་མཉམ་བསྡོམས་འབད།(_M)"
+
+#: ../app/actions/palettes-actions.c:67
+msgid "Merge palettes"
+msgstr "པེ་ལིཊི་མཉམ་བསྡོམས་འབད།"
+
+#: ../app/actions/palettes-actions.c:72
+msgid "_Delete Palette"
+msgstr "པེ་ལིཊི བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/palettes-actions.c:73
+msgid "Delete palette"
+msgstr "པེ་ལིཊི བཏོན་གཏང་།"
+
+#: ../app/actions/palettes-actions.c:78
+msgid "_Refresh Palettes"
+msgstr "པེ་ལིཊི ཡང་སེལ་འབད།(_R)"
+
+#: ../app/actions/palettes-actions.c:79
+msgid "Refresh palettes"
+msgstr "པེ་ལིཊི ཡང་སེལ་འབད།"
+
+#: ../app/actions/palettes-actions.c:87
+msgid "_Edit Palette..."
+msgstr "པེ་ལིཊི་ཞུན་དག་འབད།(_E)"
+
+#: ../app/actions/palettes-actions.c:88
+msgid "Edit palette"
+msgstr "པེ་ལིཊི་ཞུན་དག་འབད།"
+
+#: ../app/actions/palettes-commands.c:72
+msgid "Merge Palette"
+msgstr "པེ་ལིཊི་ མཉམ་བསྡོམས་འབད།"
+
+#: ../app/actions/palettes-commands.c:76
+msgid "Enter a name for the merged palette"
+msgstr "མཉམ་བསྡོམས་འབད་ཚར་མི་ པེ་ལིཊི་གི་དོན་ལུ མིང་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: ../app/actions/patterns-actions.c:43
+msgid "Patterns Menu"
+msgstr "དཔེ་གཞ་གི་དཀར་ཆག"
+
+#: ../app/actions/patterns-actions.c:47
+msgid "_New Pattern"
+msgstr "དཔེ་གཞི་གསརཔ།(_N)"
+
+#: ../app/actions/patterns-actions.c:48
+msgid "New pattern"
+msgstr "དཔེ་གཞི་གསརཔ།"
+
+#: ../app/actions/patterns-actions.c:53
+msgid "D_uplicate Pattern"
+msgstr "དཔེ་གཞི་འཛུན་མ།"
+
+#: ../app/actions/patterns-actions.c:54
+msgid "Duplicate pattern"
+msgstr "དཔེ་གཞི་འཛུན་མ།"
+
+#: ../app/actions/patterns-actions.c:59
+msgid "_Delete Pattern..."
+msgstr "དཔེ་གཞི་བཏོན་གཏང་...(_D)"
+
+#: ../app/actions/patterns-actions.c:60
+msgid "Delete pattern"
+msgstr "དཔེ་གཞི་བཏོན་གཏང་།"
+
+#: ../app/actions/patterns-actions.c:65
+msgid "_Refresh Patterns"
+msgstr "དཔེ་གཞི་ཡང་སེལ་འབད།(_R)"
+
+#: ../app/actions/patterns-actions.c:66
+msgid "Refresh patterns"
+msgstr "དཔེ་གཞི་ཡང་སེལ་འབད།"
+
+#: ../app/actions/patterns-actions.c:74
+msgid "_Edit Pattern..."
+msgstr "དཔེ་གཞི་ ཞུན་དག་འའའབད།(_E)"
+
+#: ../app/actions/patterns-actions.c:75
+msgid "Edit pattern"
+msgstr "དཔེ་གཞི་ ཞུན་དག་འའའབད།"
+
+#: ../app/actions/plug-in-actions.c:62
+msgid "Filte_rs"
+msgstr "ཚགས་མ།(_r)"
+
+#: ../app/actions/plug-in-actions.c:63
+msgid "_Blur"
+msgstr "རབ་རིབ།(_B)"
+
+#: ../app/actions/plug-in-actions.c:65
+msgid "Ma_p"
+msgstr "ས་ཁྲ།(_p)"
+
+#: ../app/actions/plug-in-actions.c:66
+msgid "_Noise"
+msgstr "རྩུབས་སྒྲ།(_N)"
+
+#: ../app/actions/plug-in-actions.c:67
+msgid "Edge-De_tect"
+msgstr "མཐའ་ཟུར སྐྱོན་འཛིན་འབད་མི།(_t)"
+
+#: ../app/actions/plug-in-actions.c:68
+msgid "En_hance"
+msgstr "གོང་སྤེལ།(_h)"
+
+#: ../app/actions/plug-in-actions.c:69
+msgid "_Generic"
+msgstr "ཇེ་ནི་རིཀ།(_G)"
+
+#: ../app/actions/plug-in-actions.c:70
+msgid "Gla_ss Effects"
+msgstr "ཤེལ་གྱི་ནུས་པ་ཚུ་(_s)"
+
+#: ../app/actions/plug-in-actions.c:71
+msgid "_Light Effects"
+msgstr "འོད་ཀྱི་ནུས་པ་ཚུ་(_L)"
+
+#: ../app/actions/plug-in-actions.c:72
+msgid "_Distorts"
+msgstr "བཟོ་ཉེས་བཟོ་བ།(_D)"
+
+#: ../app/actions/plug-in-actions.c:73
+msgid "_Artistic"
+msgstr "མཛེས་ཆ་ཅན།(_A)"
+
+#: ../app/actions/plug-in-actions.c:74
+msgid "_Map"
+msgstr "ས་ཁྲ།(_M)"
+
+#: ../app/actions/plug-in-actions.c:75
+msgid "_Render"
+msgstr "རེན་ཌར(_R)"
+
+#: ../app/actions/plug-in-actions.c:76
+msgid "_Clouds"
+msgstr "ས་སྨུག(_C)"
+
+#: ../app/actions/plug-in-actions.c:77
+msgid "_Nature"
+msgstr "རང་བཞིན།(_N)"
+
+#: ../app/actions/plug-in-actions.c:79
+msgid "_Web"
+msgstr "ཝེབ།(_W)"
+
+#: ../app/actions/plug-in-actions.c:80
+msgid "An_imation"
+msgstr "བསྒུལ་བཟོ།(_i)"
+
+#: ../app/actions/plug-in-actions.c:81
+msgid "C_ombine"
+msgstr "མཉམ་མཐུད་འབདནི། (_o)"
+
+#: ../app/actions/plug-in-actions.c:82
+msgid "To_ys"
+msgstr "ལག་ཆས་ཚུ་(_y)"
+
+#: ../app/actions/plug-in-actions.c:85
+msgid "Reset all Filters..."
+msgstr "ཚགས་མ་ཚུ་ཆ་མཉམ་སླར་སྒྲིག་འབད་..."
+
+#: ../app/actions/plug-in-actions.c:93 ../app/actions/plug-in-actions.c:363
+msgid "Repeat Last"
+msgstr "མཇུག་མམ་ཡང་བསྐྱར་འབད།"
+
+#: ../app/actions/plug-in-actions.c:98 ../app/actions/plug-in-actions.c:365
+msgid "Re-Show Last"
+msgstr "མཇུག་མམ་ལོག་སྟོན།(_R)"
+
+#: ../app/actions/plug-in-actions.c:349
+#, c-format
+msgid "Re_peat \"%s\""
+msgstr "\"%s\"ཡང་བསྐྱར་འབད།(_p)"
+
+#: ../app/actions/plug-in-actions.c:350
+#, c-format
+msgid "R_e-show \"%s\""
+msgstr "\"%s\" ལོག་-སྟོན་(_e)"
+
+#: ../app/actions/plug-in-commands.c:193
+msgid "Reset all Filters"
+msgstr "ཚགས་མ་ཚུ་ ལོག་གཞི་སྒྲིག་འབད།"
+
+#: ../app/actions/plug-in-commands.c:207
+msgid "Do you really want to reset all filters to default values?"
+msgstr "ཁྱོད་ཀྱི ཚགས་མ་ག་ར་ ཐད་རི་འབའ་རི་ སྔོན་སྒྲིག་གནས་གོང་ནང་ལུ ལོག་གཞི་སྲིག་འབད་ནི་ཨིན་ན?་"
+
+#: ../app/actions/qmask-actions.c:42
+msgid "Quick Mask Menu"
+msgstr "གདོང་གེབས་ཀྱི བཀར་ཆག འཕྲལ་མགྱོགས་འབད།"
+
+#: ../app/actions/qmask-actions.c:46
+msgid "_Configure Color and Opacity..."
+msgstr "ཚོས་གཞི་དོ་ དྭང་སསྒྲིབ ལིམ་སྒྲིག་འབད།(_C)"
+
+#: ../app/actions/qmask-actions.c:54
+msgid "_Quick Mask Active"
+msgstr "འཕྲལ་མགྱོགས་གདོང་ཁེབས་ཤུགས་ལྡན་(_Q)"
+
+#: ../app/actions/qmask-actions.c:60
+msgid "Toggle _Quick Mask"
+msgstr "འཕྲལ་མགྱོགས་གདོང་ཁེབས སོར་སྟོན་འབད།(_Q)"
+
+#: ../app/actions/qmask-actions.c:70
+msgid "Mask _Selected Areas"
+msgstr "སེལ་འཐུ་འབད་ ཚར་མི མངའ་ཁོངས་ གདོང་ཁེབས་རྐྱབས།(_S)་"
+
+#: ../app/actions/qmask-actions.c:75
+msgid "Mask _Unselected Areas"
+msgstr "སེལ་འཐུ་འབད་ མ་ཚར་མི མངའ་ཁོངས་ གདོང་ཁེབས་རྐྱབས།(_U)"
+
+#: ../app/actions/qmask-commands.c:106
+msgid "Quick Mask Attributes"
+msgstr "འཕྲལ་མགྱོགས གདོང་ཁེབས་ཀྱི་ཁྱད་ཆོས།"
+
+#: ../app/actions/qmask-commands.c:109
+msgid "Edit Quick Mask Attributes"
+msgstr "འཕྲལ་མགྱོགས གདོང་ཁེབས་ཀྱི་ཁྱད་ཆོས་ཞུན་དག་འབད།"
+
+#: ../app/actions/qmask-commands.c:111
+msgid "Edit Quick Mask Color"
+msgstr "འཕྲལ་མགྱོགས གདོང་ཁེབས་ཀྱི་ཚོས་གཞི ཞུན་དག་འབད།"
+
+#: ../app/actions/qmask-commands.c:112
+msgid "Mask Opacity:"
+msgstr "གདོང་ཁེབས་དྭངས་སྒྲིབ་:"
+
+#: ../app/actions/select-actions.c:44
+msgid "Selection Editor Menu"
+msgstr "ཞུན་དག་པའི་དཀར་ཆག སེལ་འཐུ།"
+
+#: ../app/actions/select-actions.c:47
+msgid "_Select"
+msgstr "སེལ་འཐུ།(_S)"
+
+#: ../app/actions/select-actions.c:50
+msgid "_All"
+msgstr "ཆ་མཉམ།(_A)"
+
+#: ../app/actions/select-actions.c:51
+msgid "Select all"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད།"
+
+#: ../app/actions/select-actions.c:56
+msgid "_None"
+msgstr "ཅི་མེད།(_N)"
+
+#: ../app/actions/select-actions.c:57
+msgid "Select none"
+msgstr "ཅི་མེད་སེལ་འཐུ་འབད།"
+
+#: ../app/actions/select-actions.c:62
+msgid "_Invert"
+msgstr "འདྲེན་རྟགས་ནང་བཙུགས།(_I)"
+
+#: ../app/actions/select-actions.c:63
+msgid "Invert selection"
+msgstr "སེལ་འཐུ་ནང་བཙུགས་འབད།"
+
+#: ../app/actions/select-actions.c:68
+msgid "_Float"
+msgstr "ལྡིང་ནི།(_F)"
+
+#: ../app/actions/select-actions.c:73
+msgid "Fea_ther..."
+msgstr "བྱ་སྒྲོ།(_F)"
+
+#: ../app/actions/select-actions.c:78
+msgid "_Sharpen"
+msgstr "རྩེ་རྣོན་བཟོ་བ།(_S)"
+
+#: ../app/actions/select-actions.c:83
+msgid "S_hrink..."
+msgstr "བསྐུམ།(_h)"
+
+#: ../app/actions/select-actions.c:88
+msgid "_Grow..."
+msgstr "འཕེལ་བ།(_G)"
+
+#: ../app/actions/select-actions.c:93
+msgid "Bo_rder..."
+msgstr "མཐའ་མཚམས།(_B)"
+
+#: ../app/actions/select-actions.c:98
+msgid "Save to _Channel"
+msgstr "རྒྱུ་ལམ་ནང་ལུ སྲུང་བཞག་འབད།(_C)"
+
+#: ../app/actions/select-actions.c:99
+msgid "Save selection to channel"
+msgstr "སེལ་འཐུ རྒྱུ་ལམ་ནང་ལུ སྲུང་བཞག་འབད།"
+
+#: ../app/actions/select-actions.c:104
+msgid "_Stroke Selection..."
+msgstr "སེལ་འཐུ སི་ཊོ་རོག་འབད།(_S)"
+
+#: ../app/actions/select-actions.c:105
+msgid "Stroke selection..."
+msgstr "སེལ་འཐུ སི་ཊོ་རོག་འབད།"
+
+#: ../app/actions/select-actions.c:110
+msgid "_Stroke Selection"
+msgstr "སེལ་འཐུ སི་ཊོ་རོག་འབད།(_S)"
+
+#: ../app/actions/select-actions.c:111
+msgid "Stroke selection with last values"
+msgstr "མཇུག་མམ་གྱི གནས་གོང་གྱི་ཐོག་ལས སེལ་འཐུ་ སིཊོརོག་འབད།"
+
+#: ../app/actions/select-commands.c:136 ../app/core/gimpselection.c:201
+msgid "Feather Selection"
+msgstr "བྱ་སྒྲོ་སེལ་འཐུ།"
+
+#: ../app/actions/select-commands.c:140
+msgid "Feather selection by"
+msgstr "གིས བྱ་སྒྲོ་སེལ་འཐུ།"
+
+#: ../app/actions/select-commands.c:171 ../app/core/gimpselection.c:208
+msgid "Shrink Selection"
+msgstr "སེལ་འཐུ་བསྐུམ་བཞག་འབད།"
+
+#: ../app/actions/select-commands.c:175
+msgid "Shrink selection by"
+msgstr "གིས་ སེལ་འཐུ སྐུམ་བཞག"
+
+#: ../app/actions/select-commands.c:184
+msgid "Shrink from image border"
+msgstr "གཟུགས་བརྙན་ མཐའ་མཚམས་ལས བསྐུམ་བཞག་འབད།"
+
+#: ../app/actions/select-commands.c:205 ../app/core/gimpselection.c:207
+msgid "Grow Selection"
+msgstr "སེལ་འཐུ་ཡར་འཕེལ་གཏང་།"
+
+#: ../app/actions/select-commands.c:209
+msgid "Grow selection by"
+msgstr "གིས ཡར་འཕེལ་གཏང་།"
+
+#: ../app/actions/select-commands.c:228 ../app/core/gimpselection.c:206
+msgid "Border Selection"
+msgstr "མཐའ་མཚམས་སེལ་འཐུ།"
+
+#: ../app/actions/select-commands.c:232
+msgid "Border selection by"
+msgstr "གིས མཐའ་མཚམས་སེལ་འཐུ།"
+
+#: ../app/actions/select-commands.c:275 ../app/actions/select-commands.c:301
+#: ../app/actions/vectors-commands.c:365 ../app/actions/vectors-commands.c:392
+#: ../app/dialogs/stroke-dialog.c:275
+msgid "There is no active layer or channel to stroke to."
+msgstr "ཨིསི་ཊོརོག་འབད་ནིའི་དོན་ལུ ཤུགས་ལྡན་བང་རིམ ཡང་ན རྒྱུ་ལམ་མིན་འདུག"
+
+#: ../app/actions/select-commands.c:280 ../app/core/gimpselection.c:184
+msgid "Stroke Selection"
+msgstr "སེལ་འཐུ ཨིསི་ཊོ་རོག་འབད།"
+
+#: ../app/actions/templates-actions.c:42
+msgid "Templates Menu"
+msgstr "ཊེམ་པེལེཊི དཀར་ཆག"
+
+#: ../app/actions/templates-actions.c:46
+msgid "_Create Image from Template..."
+msgstr " ཊེམ་པེལེཊི་ལས་ གཟུགས་བརྙན གསར་བསྐྲུན་འབད།(_C)"
+
+#: ../app/actions/templates-actions.c:47
+msgid "Create a new image from the selected template"
+msgstr "སེལ་འཐུ་འབད་ཚར་མི ཊེམ་པེལེཊི་ལས གཟུགས་བརྙན་གསརཔ་ཅིག གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/templates-actions.c:52
+msgid "_New Template..."
+msgstr "ཊེམ་པེལེཊི་གསརཔ།(_N)"
+
+#: ../app/actions/templates-actions.c:53
+msgid "Create a new template"
+msgstr "ཊེམ་པེལེཊི་གསརཔ གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/templates-actions.c:58
+msgid "D_uplicate Template..."
+msgstr "ཊེམ་པེལེཊི་འཛུན་མ།(_u)"
+
+#: ../app/actions/templates-actions.c:59
+msgid "Duplicate the selected template"
+msgstr "སེལའཐུ་འབད་ཚར་མི ཊེམ་པེལེཊི་ འཛུན་མ་བཟོ།"
+
+#: ../app/actions/templates-actions.c:64
+msgid "_Edit Template..."
+msgstr "ཊེམ་པེལེཊི ཞུན་དག་འབད།(_E)"
+
+#: ../app/actions/templates-actions.c:65
+msgid "Edit the selected template"
+msgstr "སེལ་འཟཐུ་འབད་ཚར་མི ཊེམ་པེལེཊི་ ཞུན་དག་འབད།"
+
+#: ../app/actions/templates-actions.c:70
+msgid "_Delete Template"
+msgstr "ཊེམ་པེལེཊི་བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/templates-actions.c:71
+msgid "Delete the selected template"
+msgstr "སེལ་འཐུ་འབད་ཚར་མི་ཊེམ་པེལེཊི བཏོན་གཏང་།"
+
+#: ../app/actions/templates-commands.c:123
+msgid "New Template"
+msgstr "ཊེམ་པེལེཊི་གསརཔ།"
+
+#: ../app/actions/templates-commands.c:126
+msgid "Create a New Template"
+msgstr "ཊེམ་པེལེཊི་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: ../app/actions/templates-commands.c:185
+#: ../app/actions/templates-commands.c:188
+msgid "Edit Template"
+msgstr "ཊེམ་པེལེཊི་ཞུན་དག་འབད།"
+
+#: ../app/actions/templates-commands.c:224
+msgid "Delete Template"
+msgstr "ཊེམ་པེལེཊི་བཏོན་གཏང་།"
+
+#: ../app/actions/templates-commands.c:243
+#, c-format
+msgid "Are you sure you want to delete template '%s' from the list and from disk?"
+msgstr "ཁྱོད་ཀྱིས ཐོ་ཡིག་དང་ཌིགསི་ནང་ལས ཊེམ་པེལེཊི་'%s'བཏོན་གཏང་ནི་དེ ངེས་ཏི་ ཨིན་ན?"
+
+#: ../app/actions/text-editor-actions.c:44
+msgid "Open"
+msgstr "ཁ་ཕྱེ།"
+
+#: ../app/actions/text-editor-actions.c:45
+msgid "Load text from file"
+msgstr "ཡིག་སྣོད་ནང་ལས ཚིག་ཡིག མངོན་གསལ་འབད།"
+
+#: ../app/actions/text-editor-actions.c:50 ../app/core/gimp-edit.c:350
+msgid "Clear"
+msgstr "བསལ།"
+
+#: ../app/actions/text-editor-actions.c:51
+msgid "Clear all text"
+msgstr "ཚིག་ཡིག ཆ་མཉམ་བསལ།"
+
+#: ../app/actions/text-editor-actions.c:59
+msgid "LTR"
+msgstr "ཨེལི་ཊི་ཨཱར།"
+
+#: ../app/actions/text-editor-actions.c:60 ../app/text/text-enums.c:51
+msgid "From left to right"
+msgstr "གཡོན་ལས་གཡས་ལུ།"
+
+#: ../app/actions/text-editor-actions.c:65
+msgid "RTL"
+msgstr "ཨཱར་ཊི་ཨེལི།"
+
+#: ../app/actions/text-editor-actions.c:66 ../app/text/text-enums.c:52
+msgid "From right to left"
+msgstr "གཡས་ལས་གཡོན་ལུ།"
+
+#: ../app/actions/text-editor-commands.c:60
+msgid "Open Text File (UTF-8)"
+msgstr "ཚིག་ཡིག་གི ཡིག་སྣོད་ཁ་ཕྱེ།(ཡུ་ཊི་ཨེཕི-༨)"
+
+#: ../app/actions/text-editor-commands.c:132
+#: ../app/config/gimpconfig-utils.c:552 ../app/config/gimpscanner.c:92
+#: ../app/core/gimpbrush.c:396 ../app/core/gimpbrushgenerated.c:601
+#: ../app/core/gimpbrushpipe.c:338 ../app/core/gimpgradient-load.c:63
+#: ../app/core/gimppalette.c:360 ../app/core/gimppattern.c:328
+#: ../app/tools/gimpimagemaptool.c:608 ../app/xcf/xcf.c:291
+#, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr " %s་ལྷག་ནི་གི་དོན་ལུ  '%s'་ཁཕྱེ་མ་ཚུགས།"
+
+#: ../app/actions/tool-options-actions.c:56
+msgid "Tool Options Menu"
+msgstr "ལག་ཆས འདམ་ཁའི དཀར་ཆག"
+
+#: ../app/actions/tool-options-actions.c:60
+msgid "_Save Options to"
+msgstr "ལུ་གདམ་ཁ་ཚུ་སྲུང་བཞག་འབད་(_S)"
+
+#: ../app/actions/tool-options-actions.c:64
+msgid "_Restore Options from"
+msgstr "ལས་ གདམ་ཁ་ཚུ་སོར་ཆུད་འབད་(_R)"
+
+#: ../app/actions/tool-options-actions.c:68
+msgid "Re_name Saved Options"
+msgstr "སྲུང་བཞག་འབད་ཚར་མི འདམ་ཁ་ཚུ་ལུ ལོག་མིང་བཏགས།(_n)"
+
+#: ../app/actions/tool-options-actions.c:72
+msgid "_Delete Saved Options"
+msgstr "སེལ་འཐུ་འབད་ཚར་་མི འཐམ་ཁ་ཚུ བཏོན་གཏང་།(_D)"
+
+#: ../app/actions/tool-options-actions.c:76
+msgid "_New Entry..."
+msgstr "ཐོ་བཀོད་གསརཔ།(_N)"
+
+#: ../app/actions/tool-options-actions.c:81
+msgid "R_eset Tool Options"
+msgstr "ལག་ཆས་ཀྱི་འདམ་ཁ་ཚུ ལོག་གཞི་སྒྲིག་འབད།(_e)"
+
+#: ../app/actions/tool-options-actions.c:82
+msgid "Reset to default values"
+msgstr "སྔོན་སྒྲིག་གནས་གོང་ལ གཞི་སྒྲིག་འབད།"
+

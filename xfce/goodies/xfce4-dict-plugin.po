@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-dict-pludin.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-11 22:24+0100\n"
+"PO-Revision-Date: 2007-04-09 10:20+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/dict.c:387
+#: ../panel-plugin/dict.c:821
+msgid "Could not connect to server."
+msgstr "སར་བར་ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../panel-plugin/dict.c:394
+#: ../panel-plugin/dict.c:419
+#: ../panel-plugin/dict.c:843
+msgid "Unknown error while quering the server."
+msgstr "སར་བར་འདྲི་དཔྱད་འབདཝ་ད་འཛོལ་བ།"
+
+#: ../panel-plugin/dict.c:402
+msgid "Server not ready."
+msgstr "སར་བར་གྲ་སྒྲིག།"
+
+#: ../panel-plugin/dict.c:413
+#, c-format
+msgid "No matches could be found for \"%s\"."
+msgstr "\"%s\" དོན་ལུ་མཐུན་སྒྲིག་མ་ཐོབ།"
+
+#: ../panel-plugin/dict.c:424
+#, c-format
+msgid "%d definition(s) found."
+msgstr "%d ངེས་ཚིག་(ཚུ་) ཐོབ་ནུག།"
+
+#: ../panel-plugin/dict.c:541
+#, c-format
+msgid "Querying the server %s..."
+msgstr "སར་བར་ %sའདི་འདྲི་དཔྱད་འབད་དོ་..."
+
+#: ../panel-plugin/dict.c:594
+msgid "Invalid input."
+msgstr "ནུས་ཅན་མེད་པའི་ཨིན་པུཊི།"
+
+#: ../panel-plugin/dict.c:604
+msgid "Invalid non-UTF8 input."
+msgstr "ནུས་ཅན་མེད་པའི་ ཡུ་ཊི་ཨེཕ་ ༨་ མ་ཡིན་པའི་ཨིན་པུཊི།"
+
+#: ../panel-plugin/dict.c:665
+msgid "Browser could not be opened. Please check your preferences."
+msgstr "བརྡ་འཚོལ་པ་འདི་ཁ་ཕྱེ་མ་ཚུགས།  ཁྱོད་རའི་དགའ་གདམ་ཚུ་ཞིབ་དཔྱད་འབད།"
+
+#: ../panel-plugin/dict.c:838
+msgid "The server doesn't offer any databases."
+msgstr "སར་བར་གྱིས་གནས་སྡུད་གཞི་རྟེན་གང་རུང་ཡང་མི་བྱིན།"
+
+#: ../panel-plugin/dict.c:898
+msgid "You have chosen an invalid dictionary entry."
+msgstr "ཁྱོད་ཀྱིས་ནུས་ཅན་མེད་པའི་ཚིག་མཛོད་ཐོ་བཀོད་གཅིག་གདམ་ཁ་བརྐྱབ་ནུག།"
+
+#: ../panel-plugin/dict.c:975
+msgid "Properties"
+msgstr "རྒྱུ་དངོས་ཚུ་"
+
+#: ../panel-plugin/dict.c:991
+msgid "Dictionary plugin"
+msgstr "ཚིག་མཛོད་པ་ལག་ཨིན་"
+
+#. server address
+#: ../panel-plugin/dict.c:1008
+msgid "Server :"
+msgstr "སར་བར:"
+
+#. server port
+#: ../panel-plugin/dict.c:1020
+msgid "Server Port :"
+msgstr "སར་བར་འདྲེན་ལམ:"
+
+#. dictionary
+#: ../panel-plugin/dict.c:1028
+msgid "Dictionary :"
+msgstr "ཚིག་མཛོད:"
+
+#: ../panel-plugin/dict.c:1032
+msgid "* (use all)"
+msgstr "* (ཆ་མཉམ་ལག་ལེན་འཐབ་)"
+
+#: ../panel-plugin/dict.c:1034
+msgid "! (use all, stop after first match)"
+msgstr "! (ཆ་མཉམ་ལག་ལེན་འཐབ་, མཐུན་སྒྲིག་དང་པའི་ཤུལ་ལས་བཀག་)"
+
+#: ../panel-plugin/dict.c:1094
+msgid "Use a DICT server"
+msgstr "ཌི་ཨའི་སི་ཊི་སར་བར་གཅིག་ལག་ལེན་འཐབ་"
+
+#: ../panel-plugin/dict.c:1121
+msgid "dict.leo.org - German <-> English"
+msgstr "dict.leo.org - ཇར་མཱན་ <-> ཨིང་ལིཤ་"
+
+#: ../panel-plugin/dict.c:1129
+msgid "dict.leo.org - German <-> French"
+msgstr "dict.leo.org - ཇར་མཱན་ <-> ཕེརེནཆི།"
+
+#: ../panel-plugin/dict.c:1137
+msgid "dict.leo.org - German <-> Spanish"
+msgstr "dict.leo.org - ཇར་མཱན་ <-> སིཔེ་ནིཤི།"
+
+#: ../panel-plugin/dict.c:1144
+msgid "Use another website"
+msgstr "ཝེབ་ས་ཁོངས་གཞན་ཅིག་ལག་ལེན་འཐབ་"
+
+#: ../panel-plugin/dict.c:1152
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ:"
+
+#: ../panel-plugin/dict.c:1165
+msgid ""
+"Enter an URL to a web site which offer translation services.\n"
+"Use {word} as placeholder for the searched word."
+msgstr ""
+"སྐད་བསྒྱུར་ཞབས་ཏོག་བྱིན་མི་ཝེབ་ཀྱི་ས་ཁོངས་ལུ་ ཡུ་ཨར་ཨེལ་ཅིག་ཐོ་བཀོད་འབད། \n"
+"འཚོལ་ཞིབ་འབད་བའི་མིང་ཚིག་གི་དོན་ལུ་  {word} འདི་ས་གནས་འཛིན་མི་འབད་ལག་ལེན་འཐབ།"
+
+#: ../panel-plugin/dict.c:1171
+msgid "Use a web site"
+msgstr "ཝེབ་ས་ཁོངས་ལག་ལེན་འཐབ་"
+
+#: ../panel-plugin/dict.c:1192
+msgid "Show text field in the panel"
+msgstr "པེ་ནཱལ་ནང་ལུ་ཚིག་ཡིག་ས་སྒོ་སྟོན་"
+
+#: ../panel-plugin/dict.c:1195
+msgid "This option can only be used when the panel has a horizontal orientation."
+msgstr "པེ་ནཱལ་འདི་ལུ་ཐད་སྙོམས་ཕྱོགས་གཅིག་ཡོདཔ་ད་རྐྱངམ་ཅིག་  གདམ་ཁ་འདི་ལག་ལེན་འཐབ་བཏུབ།"
+
+#. panel entry size
+#: ../panel-plugin/dict.c:1201
+msgid "Text field size :"
+msgstr "ཚིག་ཡིག་ས་སྒོའི་ཚད:"
+
+#: ../panel-plugin/dict.c:1261
+#: ../panel-plugin/dict.c:1546
+msgid "Ready."
+msgstr "གྲ་སྒྲིག།"
+
+#: ../panel-plugin/dict.c:1299
+msgid "Text to search:"
+msgstr "འཚོལ་ཞིབ་འབད་ནིའི་ཚིག་ཡིག:"
+
+#: ../panel-plugin/dict.c:1400
+#: ../panel-plugin/dict.desktop.in.in.h:1
+msgid "A plugin to query a Dict server."
+msgstr "ཚིག་མཛོད་སར་བར་གཅིག་འདྲི་དཔྱད་འབད་ནི་ལུ་པ་ལག་ཨིན་གཅིག།"
+
+#: ../panel-plugin/dict.c:1404
+msgid "Developer"
+msgstr "བཟོ་མི་"
+
+#: ../panel-plugin/dict.c:1494
+msgid "Look up a word"
+msgstr "མིང་ཚིག་ལུ་བལྟ་"
+
+#: ../panel-plugin/dict.desktop.in.in.h:2
+msgid "Dict"
+msgstr "ཚི་གམཛོད་"
+

@@ -1,0 +1,257 @@
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/update/updates.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-29 05:11+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: updateName
+msgid "%S %S"
+msgstr "%S %S"
+
+#: updateFullName
+msgid "%S (%S)"
+msgstr "%S (%S)"
+
+#: updateType_major
+msgid "New Version"
+msgstr "ཐོན་རིམ་གསརཔ།"
+
+#: updateType_minor
+msgid "Security Update"
+msgstr "སྲུང་སྐྱོབ་དུས་མཐུན་བཟོ་ནི།"
+
+#: introType_minor
+msgid "An important Security Update for %S is available:"
+msgstr " %S དོན་ལུ་སྲུང་སྐྱོབ་དུས་མཐུན་བཟོ་ནི་གལ་ཅན་ཅིག:"
+
+#: introType_major
+msgid "A new version of %S is available:"
+msgstr " %S དེ་གི་ཐོན་རིམ་གསརཔ་ཅིག:"
+
+#: verificationError
+msgid "%S could not confirm the integrity of the update package."
+msgstr "%S དུས་མཐུན་བཟོ་ནི་ཐུམ་སྒྲིལ་གྱི་ཆིག་སྒྲིལ་དེ་ངེས་དཔྱད་འབད་མི་བཏུབ་པས།"
+
+#: errorsPageHeader
+msgid "Update Failed"
+msgstr "དུས་མཐུན་བཟོ་ནི་འཐུས་ཤོར་ཡོདཔ།"
+
+#: IAgreeLabel
+msgid "I Agree"
+msgstr "ང་ཁ་འཆམ།"
+
+#: IDoNotAgreeLabel
+msgid "I Disagree"
+msgstr "ང་ཁ་མི་འཆམ།"
+
+#: license404Error
+msgid "The license file could not be found. Please contact the distributor."
+msgstr "ཆོག་ཐམ་ཡིག་སྣོད་དེ་འཚོལ་མ་ཐོབ་ལས་བགོ་འགྲེམ་པ་དེ་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: downloadingLicense
+msgid "Downloading license text..."
+msgstr "ཆོག་ཐམ་ཚིག་ཡིག་ཕབ་ལེན་འབད་དོ..."
+
+#: statusSucceededFormat
+msgid "Installed on: %S"
+msgstr "%S ལུ་གཞི་བཙུགས་ཡོདཔ་: "
+
+#: statusFailed
+msgid "Install Failed"
+msgstr "གཞི་བཙུགས་འཐུས་ཤོར་ཡོདཔ།"
+
+#: pauseButtonPause
+msgid "Pause"
+msgstr "ཐེམ།"
+
+#: pauseButtonResume
+msgid "Resume"
+msgstr "བསྐྱར་ལོག"
+
+#: hideButtonLabel
+msgid "Hide"
+msgstr "གསང་།"
+
+#: progressFormatKBKB
+msgid "#1 of #2 KB"
+msgstr "#༢ ཀེ་བི་གི་  #༡"
+
+#: progressFormatKBMB
+msgid "#1 KB of #2 MB"
+msgstr "#༢ ཨེམ་བི་གི་ #༡ ཀེ་བི།"
+
+#: progressFormatMBMB
+msgid "#1 of #2 MB"
+msgstr "#༢ ཨེམ་བི་གི་ #༡"
+
+#: progressFormatUnknownKB
+msgid "#1 KB"
+msgstr "#༡ ཀེ་བི།"
+
+#: progressFormatUnknownMB
+msgid "#1 MB"
+msgstr "#༡ ཨེམ་བི།"
+
+#: pausedStatus
+msgid "%S downloaded so far"
+msgstr "%S ཕབ་ལེན་འབད་ཡོདཔ།"
+
+#: remain
+msgid "remain"
+msgstr "ལྷག་ལུས་ནི།"
+
+#: unknownFilesize
+msgid "unknown file size"
+msgstr "ཡིག་སྣོད་མ་ཤེས་པའི་ཚད།"
+
+#: rateFormatKBSec
+msgid "#1 KB/sec"
+msgstr "#ཀེ་བི་/སྐར་ཆག ༡"
+
+#: rateFormatMBSec
+msgid "#1 MB/sec"
+msgstr "#ཨེམ་བི་/སྐར་ཆག ༡"
+
+#: longTimeFormat
+msgid "#1:#2:#3"
+msgstr "#1:#2:#3"
+
+#: shortTimeFormat
+msgid "#2:#3"
+msgstr "#2:#3"
+
+#: rateFormat
+msgid "at #1"
+msgstr "at #1"
+
+#: progressFormat
+#: statusFormat
+msgid "#1#2"
+msgstr "#1#2"
+
+#: timeFormat
+msgid "; #1 #2"
+msgstr "; #1 #2"
+
+#: downloadingPrefix
+msgid "Downloading %S..."
+msgstr " %Sཕབ་ལེན་འབད་དོ..."
+
+#: pausedName
+msgid "Paused downloading %S"
+msgstr " %Sཕབ་ལེན་ཐེམ་ཡོདཔ།"
+
+#: restartButton
+msgid "Restart %S Now"
+msgstr " %S ད་ལྟོ་སླར་ལོག་འགོ་བཙུགས།"
+
+#: laterButton
+msgid "Later"
+msgstr "ཤུལ་ལས།"
+
+#: restartLaterTitle
+#: resumePausedAfterCloseTitle
+msgid "Software Update"
+msgstr "མཉེན་ཆས་དུས་མཐུན་བཟོ་ནི།"
+
+#: restartLaterMessage
+msgid "The update you just downloaded will be installed the next time you start %S."
+msgstr "ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་ཡོད་མི་དུས་མཐུན་བཟོ་ནི་དེ་ཤུལ་མ་ཁྱོད་ཀྱིས་ %S འགོ་བཙུགསཔ་ད་གཞི་བཙུགསཔ་ད་གཞི་བཙུགས་འབད་འོང་།"
+
+#: resumePausedAfterCloseMessage
+msgid "You have paused downloading this update. Do you want %S to download the update in the background while you continue to browse?"
+msgstr "ཁྱོད་ཀྱིས་དུས་མཐུན་བཟོ་ནི་འདི་ཕབ་ལེན་འབད་ནི་ཐེམ་ཡོདཔ། ཁྱོད་ཀྱིས་བརྡ་འཚོལ་ལུ་འཕྲོ་མཐུད་སྐབས་རྒྱབ་གཞི་ནང་དུས་མཐུན་བཟོ་ནི་དེ་%Sཕབ་ལེན་འབད་ནི་ཨིན་ན?"
+
+#: updateReadyToInstallHeader
+msgid "%S Ready to Install"
+msgstr "%S གཞི་བཙུགས་འབད་ནི་ལུ་གྲ་སྒྲིག"
+
+#: checker_error-200
+msgid "AUS: Update XML File Malformed (200)"
+msgstr "ཨེ་ཡུ་ཨེསི་: དུས་མཐུན་བཟོ་ནི་ ཨེགསི་ཨེམ་ཨེལ་ ཡིག་སྣོད་བཟོ་ཉེས་འགྱུར་བའི (༢༠༠)"
+
+#: checker_error-403
+msgid "AUS: Access Denied (403)"
+msgstr "ཨེ་ཡུ་ཨེསི་: འཛུལ་སྤྱོད་འབད་ནི་ཉན་མ་བཏུབ (༤༠༣)"
+
+#: checker_error-404
+msgid "AUS: Update XML File Not Found (404)"
+msgstr "ཨེ་ཡུ་ཨེསི་: དུས་མཐུན་བཟོ་ནི་ ཨེགསི་ཨེམ་ཨེལ་ ཡིག་སྣོད་འཚོལ་མ་ཐོབ (༤༠༤)"
+
+#: checker_error-500
+msgid "AUS: Internal Server Error (500)"
+msgstr "ཨེ་ཡུ་ཨེསི་:ཨིན་ཊར་ནེཊི་སར་བར་འཛོལ་བ་  (༥༠༠)"
+
+#: checker_error-2152398878
+msgid "AUS: Update Server Not Found (Check your internet connection or contact your Administrator)"
+msgstr "ཨེ་ཡུ་ཨེསི་: དུས་མཐུན་བཟོ་ནི་འཚོལ་མ་ཐོབ (ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་མཐུད་ལམ་ཞིབ་དཔྱད་འབད་ཡང་ན་བདག་སྐྱོང་པ་འབྲེལ་བ་འཐབ)"
+
+#: checker_error-2152398890
+msgid "Proxy Server Not Found (Check your internet connection or contact your Administrator)"
+msgstr "པོརོ་སི་སར་བར་འཚོལ་མ་ཐོབ(ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་མཐུད་ལམ་ཞིབ་དཔྱད་འབད་ཡང་ན་བདག་སྐྱོང་པ་འབྲེལ་བ་འཐབ)"
+
+#: checker_error-2152398861
+msgid "AUS: Connection Refused"
+msgstr "ཨེ་ཡུ་ཨེསི་: མཐུད་ལམ་ངོས་ལེན་མེདཔ།"
+
+#: checker_error-2152398920
+msgid "Proxy Server Connection Refused (Contact your Administrator)"
+msgstr "པོརོ་སི་སར་བར་མཐུད་ལམ་ངོས་ལེན་མེདཔ(ཁྱོད་རའི་བདག་སྐྱོང་པ་འབྲེལ་བ་འཐབ)"
+
+#: checker_error-2152398862
+msgid "AUS: Connection timed out"
+msgstr "ཨེ་ཡུ་ཨེསི་: མཐུད་ལམ་ངལ་མཚམས་འབྱུང་ཡོདཔ།"
+
+#: checker_error-2152398864
+msgid "Network is Offline (Go online)"
+msgstr "ཡོངས་འབྲེལ་དེ་ཨོཕ་ལ་ཡིན་མས(གློག་ཐོག་འགྱོ)"
+
+#: checker_error-2152398849
+msgid "Failed (Unknown Reason)"
+msgstr "འཐུས་ཤོར་ཡོདཔ།(རྒྱུ་མཚན་མ་ཤེསཔ)"
+
+#: checker_error-2152398868
+msgid "AUS: No data was received (Please try again)"
+msgstr "ཨེ་ཡུ་ཨེསི་: གནད་སྡུད་མ་ཐོབ་ཡོདཔ (ལོག་འབད་རྩོལ་བསྐྱེད་གནང་)"
+
+#: checker_error-2152398919
+msgid "AUS: Data transfer was interrupted (Please try again)"
+msgstr "ཨེ་ཡུ་ཨུསི་: གནད་སྡུད་གནས་སོར་དེ་བར་དཀྲོགས་ཡོདཔ (ལོག་འབད་རྩོལ་བསྐྱེད་གནང་)"
+
+#: checker_error-2152398867
+msgid "AUS: Port not allowed (Contact your Administrator)"
+msgstr "ཨེ་ཡུ་ཨེསི་: འདྲེུན་ལམ་འབད་མ་བཅུགཔ (ཁྱོད་རའི་བདག་སྐྱོང་པ་འབྲེལ་བ་འཐབ)"
+
+#: checker_error-verification_failed
+msgid "The integrity of the update could not be verified (Contact your Administrator)"
+msgstr "དུས་མཐུན་བཟོ་ནི་གི་ཆིག་སྒྲིལ་དེ་བལྟ་སྤྱོད་འབད་མི་བཏུབ་པས(ཁྱོད་རའི་བདག་སྐྱོང་པ་འབྲེལ་བ་འཐབ)"
+
+#: installSuccess
+msgid "The Update was successfully installed"
+msgstr "དུས་མཐུན་བཟོ་ནི་དེ་མཐར་འཁྱོལ་སྦེ་གཞི་བཙུགས་འབད་ཡོདཔ།"
+
+#: patchApplyFailure
+msgid "The Update could not be installed (Patch Apply Failed)"
+msgstr "དུས་མཐུན་བཟོ་ནི་དེ་གཞི་བཙུགས་འབད་མི་བཏུབ་པས།(ལྷེན་པ་འཇུག་སྤྱོད་འབད་ནི་འཐུས་ཤོར་ཡོདཔ)"
+
+#: updaterIOErrorTitle
+msgid "Software Update Failed"
+msgstr "མཉེན་ཆས་དུས་མཐུན་བཟོ་ནི་འཐུས་ཤོར་ཡོདཔ།"
+
+#: updaterIOErrorText
+msgid "One or more files could not be updated. Please make sure all other applications are closed and that you have permission to modify files, and then restart %S to try again."
+msgstr "ཡིག་སྣོད་ཚུ་གཅིག་ཡང་ལྷགཔ་དུས་མཐུན་བཟོ་མི་བཏུབ་ཨིན། གཞན་འཇུག་སྤྱོད་ཚུ་ཆ་མཉམ་ཁ་བསྡམས་ཡོད་ངེས་ཏིག་བཟོ་ནི་དང་་ཡིག་སྣོད་ཚུ་ལེགས་བཅོས་འབད་ནི་ལུ་གནང་བ་དང་ %S སླར་ལོག་འགོ་བཙུགས་ནི་ལུ་འབད་རྩོལ་བསྐྱེད།"
+

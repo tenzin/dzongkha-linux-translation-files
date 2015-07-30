@@ -1,0 +1,249 @@
+# extracted from dz-BT_orig/mail/chrome/navigator/navigator.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: navigator.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-20 15:06+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: nv_done
+msgid "Done"
+msgstr "འབད་ཚར་"
+
+#: nv_timeout
+msgid "Timed Out"
+msgstr "ངལ་མཚམས་"
+
+#: nv_stopped
+msgid "Stopped"
+msgstr "བཀག་ཡོདཔ་"
+
+#: openFile
+msgid "Open File"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་"
+
+#: uploadFile
+msgid "Upload File"
+msgstr "ཡིག་སྣོད་སྐྱེལ་བཙུགས་འབད་"
+
+#: droponhomebutton
+msgid "Drop a link or file to make it your home page"
+msgstr "ཁྱོད་རའི་ཁྱིམ་གྱི་ཤོག་ལེབ་སྦེ་བཟོ་ནི་ལུ་ འབྲེལ་ལམ་ ཡང་ན་ ཡིང་སྣོད་ཅིག་བཀལ་བཞག་"
+
+#: droponhometitle
+#: droponhomeokbutton
+msgid "Set Home Page"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ་གཞི་སྒྲིག་འབད་"
+
+#: droponhomemsg
+msgid "Do you want this document to be your new home page?"
+msgstr "ཡིག་ཆ་འདི་ ཁྱོད་ཀྱི་ཁྱིམ་གྱི་ཤོག་ལེབ་གསརཔ་སྦེ་ དགོ་ནི་ཨིན་ན?"
+
+#: jserror
+msgid "An error has occurred on this page. Double click here for details."
+msgstr "ཤོག་ལེབ་འདི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི། རྒྱས་བཤད་ཀྱི་དོན་ལུ་ ནཱ་ལུ་ཨེབ་གཏང་འབད།"
+
+#
+# localizable preference value
+#
+# all.js
+#
+# Localization Note: Cases of charset names must be preserved. If you're
+# adding charsets to your localized version, please refer to
+# intl/uconv/src/charsetalias.properties file for the list of canonical
+# charset names and use canonical names exactly as listed there.
+# Also, note that UTF-8 MUST be listed in intl.charsetmenu.browser.static.
+#: general.useragent.locale
+msgid "en-US"
+msgstr "ཨིང་ལིཤ་-ཡུ་ཨེསི་"
+
+# Localization Note: font.language.group controls the initial setting of the
+# language drop-down in the fonts pref panel. Set it to the value of one of the
+# menuitems in the "selectLangs" menulist in
+# /mail/components/preferences/fonts.xul
+#: font.language.group
+msgid "x-western"
+msgstr "ཨེགསི་-ནུབ་ཕྱོགས་ཀྱི་"
+
+# Localization Note: Add the code for your language at the front of this entry,
+# leaving "en-us, en" for fallback. It's recommended to use the same form, e.g.
+# "ja-jp, ja, en-us, en"
+#: intl.accept_languages
+msgid "en-us, en"
+msgstr "ཨིང་ལིཤ་-ཡུ་ཨེསི། ཨིང་ལིཤ་"
+
+#: intl.charsetmenu.browser.static
+msgid "ISO-8859-1, UTF-8"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡། ཡུ་ཊི་ཨེཕ་-༨།"
+
+#: intl.charsetmenu.browser.more1
+msgid "ISO-8859-1, ISO-8859-15, IBM850, x-mac-roman, windows-1252, ISO-8859-14, ISO-8859-7, x-mac-greek, windows-1253, x-mac-icelandic, ISO-8859-10, ISO-8859-3"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༥། ཨའི་བི་ཨེམ་༨༥༠། ཨེགསི་-མེཀ་-རོ་མཱན། ཝིན་ཌོསི་-༡༢༥༢། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༤། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༧། ཨེགསི་མེཀ་-གིརིཀ། ཝིན་ཌོསི་-༡༢༥༣། ཨེགསི་-མེཀ་-ཨའིསི་ལེན་ཌིཀ། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༠། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༣།"
+
+#: intl.charsetmenu.browser.more2
+msgid "ISO-8859-4, ISO-8859-13, windows-1257, IBM852, ISO-8859-2, x-mac-ce, windows-1250, x-mac-croatian, IBM855, ISO-8859-5, ISO-IR-111, KOI8-R, x-mac-cyrillic, windows-1251, IBM866, KOI8-U, x-mac-ukrainian, ISO-8859-16, x-mac-romanian"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༤། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༣། ཝིན་ཌོསི་-༡༢༥༧། ཨའི་བི་ཨེམ་༨༥༢། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༢། ཨེགསི་-མེཀ་-སི་ཨི། ཝིན་ཌོསི་-༡༢༥༠། ཨེགསི་-མེཀ་-ཀོརོ་ཤི་ཡཱན། ཨའི་བི་ཨེམ་༨༥༥། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༥། ཨའི་ཨེསི་ཨོ་-ཨའི་ཨར་-༡༡༡། ཀེ་ཨོ་ཨའི་༨-ཨར། ཨེགསི་-མེཀ་-སི་རི་ལིཀ། ཝིན་ཌོསི་-༡༢༥༡། ཨའི་བི་ཨེམ་༨༦༦། ཀེ་ཨོ་ཨའི་༨-ཡུ། ཨེགསུ་-མེཀ་-ཡུཀརི་ནི་ཡཱན། ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡༦། ཨེགསི་-མེཀ་-རོ་མ་ནི་ཡཱན།"
+
+#: intl.charsetmenu.browser.more3
+msgid "GB2312, x-gbk, gb18030, HZ-GB-2312, ISO-2022-CN, Big5, Big5-HKSCS, x-euc-tw, EUC-JP, ISO-2022-JP, Shift_JIS, EUC-KR, x-windows-949, x-johab, ISO-2022-KR"
+msgstr "ཇི་བི་༢༣༡༣། ཨེགསི་-ཇི་བི་ཀེ། ཇི་བི་༡༨༠༣༠། ཨེཆ་ཛེཌི་-ཇི་བི་-༢༣༡༢། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-སི་ཨེན། བི་ཨའི་ཇི་༥། བི་ཨའི་ཇི་་༥-ཨེཆ་ཀེ་ཨེསི་སི་ཨེསི་། ཨེགསི་-ཨི་ཡུ་སི་-ཊི་ཌབ་ལུ། ཨི་ཡུ་སི་-ཇེ་པི། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-ཇེ་པི། སོར་ལྡེ་_ཇེ་ཨའི་ཨེསི། ཨི་ཡུ་སི་-ཀེ་ཨར། ཨེགསི་-ཝིན་ཌོསི་-༩༤༩། ཨེགསི་-ཇོ་ཧབ། ཨའི་ཨེསི་ཨོ་-༢༠༢༢-ཀེ་ཨར།"
+
+#: intl.charsetmenu.browser.more4
+msgid "armscii-8, GEOSTD8, TIS-620, ISO-8859-11, windows-874, IBM857, ISO-8859-9, x-mac-turkish, windows-1254, x-viet-tcvn5712, VISCII, x-viet-vps, windows-1258, x-mac-devanagari, x-mac-gujarati, x-mac-gurmukhi"
+msgstr "ཨརམ་ཨེསི་སི་ཨའི་ཨའི་-༨། ཇི་ཨི་ཨོ་ཨེསི་ཊི་ཌི་༨། ཊི་ཨའི་ཨེསི་-༦༢༠། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༡༡། ཝིན་ཌོསི་-༨༧༤། ཨའི་བི་ཨེམ་༨༥༧། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༩། ཨེགསི་-མེཀ་-ཊར་ཀིཤ། ཝིན་ཌོསི་-༡༢༥༤། ཨེགསི་-ཝི་ཨའི་ཨི་ཊི་་-ཊི་སི་ཝི་ཨེན་༥༧༡༢། ཝི་ཨའི་ཨེསི་སི་ཨའི་ཨའི། ཨེགསི་-ཝི་ཨའི་ཨི་ཊི་-ཝི་པི་ཨེསི། ཝིན་ཌོསི་-༡༢༥༨། ཨེགསི་-མེཀ་-དེ་བ་ན་ག་རི། ཨེགསི་-མེཀ་-ག་ཇ་ར་ཏི། ཨེགསི་-མེཀ་-གུར་མུ་ཁི།"
+
+#: intl.charsetmenu.browser.more5
+msgid "ISO-8859-6, windows-1256, IBM864, x-mac-arabic, x-mac-farsi, ISO-8859-8-I, windows-1255, ISO-8859-8, IBM862, x-mac-hebrew"
+msgstr "ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༦། ཝིན་ཌོསི་-༡༢༥༦། ཨའི་བི་ཨེམ་༨༦༤། ཨེགསི་-མེཀ་-ཨ་ར་བིཀ། ཨེགསི་-མེཀ་-ཕར་སི། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༨-ཨའི། ཝིན་ཌོསི་-༡༢༥༥། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༨། ཨའི་བི་ཨེམ་༨༦༢། ཨེགསི་-མེཀ་-ཧེབིརིའུ།"
+
+# Localization Note: Do NOT change this entry.
+#: intl.charsetmenu.browser.unicode
+msgid "UTF-8, UTF-16, UTF-16LE, UTF-16BE, UTF-32LE, UTF-32BE, UTF-7"
+msgstr "ཡུ་ཊི་ཨེཕ་-༨། ཡུ་ཊི་ཨེཕ་-༡༦། ཡུ་ཊི་ཨེཕ་-༡༦ཨེལ་ཨི། ཡུ་ཊི་ཨེཕ་-༡༦བི་ཨི། ཡུ་ཊི་ཨེཕ་-༣༢ཨེལ་ཨི། ཡུ་ཊི་ཨེཕ་-༣༢བི་ཨི། ཡུ་ཊི་ཨེཕ་-༧།"
+
+#: intl.charset.default
+msgid "ISO-8859-1"
+msgstr "ཨའིཨེསི་ཨོ་-༨༨༥༩-༡།"
+
+#: intl.charset.detector
+msgid "_: intl.charset.detector\n"
+msgstr ""
+
+#: intl.charsetmenu.mailedit
+msgid "ISO-8859-1, ISO-8859-15, ISO-8859-6, armscii-8, geostd8, ISO-8859-13, ISO-8859-14, ISO-8859-2, GB2312, GB18030, Big5, KOI8-R, windows-1251, KOI8-U, ISO-8859-7, ISO-8859-8-I, windows-1255, ISO-2022-JP, EUC-KR, ISO-8859-10, ISO-8859-3, TIS-620, ISO-8859-9, UTF-8, VISCII"
+msgstr "ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༡། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༡༥། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༦། ཨེ་ཨར་ཨེམ་ཨེསི་ལི་ཨའི་ཨའི་-༨། ཇི་ཨི་ཨོ་ཨེསི་ཊི་ཌི་༨། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༡༣། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༡༤། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༢། ཇི་བི་༢༣༡༢། ཇི་བི་༡༨༠༣༠། བི་ཨའི་ཇི་༥། ཀེ་ཨོ་ཨའི་༨-ཨར། ཝིན་ཌོསི་-༡༢༥༡། ཀེ་ཨོ་ཨའི་༨-ཡུ། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༧། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༨-ཨའི། ཝིན་ཌོསི་-༡༢༥༥། ཨེའི་ཨེསི་ཨོ་-༢༠༢༢-ཇེ་པི། ཨི་ཡུ་སུ་-ཀེ་ཨར། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༡༠། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༣། ཊི་ཨའི་ཨེསི་-༦༢༠། ཨེའི་ཨེསི་ཨོ་-༨༨༥༩-༩། ཡི་ཊི་ཨེཕ་-༨། ཝི་ཨའི་ཨེསི་སི་ཨའི་ཨའི།"
+
+# valid collation options are: <empty string> or useCodePointOrder
+#: intl.collationOption
+msgid "_: intl.collationOption\n"
+msgstr ""
+
+#: wallet.Server
+msgid "http://www.mozilla.org/wallet/tables/"
+msgstr "http://www.mozilla.org/wallet/tables/"
+
+#: wallet.Samples
+msgid "http://www.mozilla.org/wallet/samples/"
+msgstr "http://www.mozilla.org/wallet/samples/"
+
+# valid intl.menuitems.appendedacceskeys are: true or false, <empty string> (missing or empty preference equals false)
+#: intl.menuitems.alwaysappendaccesskeys
+msgid "_: intl.menuitems.alwaysappendaccesskeys\n"
+msgstr ""
+
+# valid intl.menuitems.insertseparatorbeforeaccesskeys are: true or false, <empty string> (missing or empty preference equals false)
+# Localization Note: Use 'true' or 'false' to control the pref:theme to
+# show the English description or not
+# for example, in Japanese build, instead of showing English description
+# set the following value to false so it won't show up.
+#: intl.menuitems.insertseparatorbeforeaccesskeys
+#: showskinsdescription
+msgid "true"
+msgstr "བདེན་པ་"
+
+#: linkTargetLabel
+msgid "Link will open in:"
+msgstr "ནང་ལུ་ འབྲེལ་ལམ་ཁ་ཕྱེ་འོང་་:"
+
+#: linkHREFLabel
+msgid "Location:"
+msgstr "གནས་ཁོངས་:"
+
+#SessionHistory.js
+#: nothingAvailable
+msgid "(Nothing Available)"
+msgstr "(ག་ནི་ཡང་མི་འཐོབ་པས)"
+
+#navigator.js
+#: oldthemetitle
+msgid "Warning: incompatible theme"
+msgstr "ཉེད་བརྡ་: མཐུན་འགྱུར་མེད་པའི་བརྗོད་དོན།"
+
+#: oldTheme
+msgid "You have selected a theme which was designed for an earlier version of %brand% and is incompatible with your current %brand% version. Please check %brand% theme sites for an updated version of the theme. You can uninstall this theme by clicking \"OK\" button."
+msgstr "ཁྱོད་ཀྱིས་ཧེ་མའི་%brand%གི་ཐོན་རིམ་ཅིག་གི་དོན་ལུ་ བརྗོད་དོན་ཅིག་སེལ་འཐུ་འབད་ཡོདཔ་ལས་ དེ་ཁྱོད་ཀྱི་ད་ལྟོའི་%brand%དང་མཐུན་འགྱུར་མིན་འདུག། དུས་མཐུན་ཅན་གྱི་ བརྗོད་དོན་ཐོན་རིམ་ཅིག་གི་དོན་ལས་ %brand% གི་བརྗོན་དོན་ས་ཁོངས་ཚུ་ལུ་ ཞིབ་དཔྱད་འབད་གནང་། ཁྱོད་ཀྱིས་ \"བཏུབ\"་ ཨེབ་རྟ་གུ་ཨེབ་གཏང་འབད་བའི་ཐོག་ལས་ བརྗོད་དོན་འདི་བཙུགས་བཤོལ་འབད་བཏུབ།"
+
+#: noPopupControl
+msgid "can't control popups for this site"
+msgstr "ས་ཁོངས་འདི་དོན་ལུ་ པོཔ་ཨཔ་ཚུ་ ཚད་འཛིན་འབད་མི་ཚུགས།"
+
+#nsContextMenu.js (setWallpaper confirmation dialog)
+#: wallpaperConfirmTitle
+msgid "Set As Wallpaper"
+msgstr "གྱང་ཤོག་སྦེ་ གཞི་སྒྲིག་འབད།"
+
+#: wallpaperConfirmButton
+msgid "Set Wallpaper"
+msgstr "གྱང་ཤོག་གཞི་སྒྲིག་འབད།"
+
+#: wallpaperConfirmMsg
+msgid "Do you want to set this image as your desktop wallpaper?"
+msgstr "གཟུགས་བརྙན་འདི་ ཁྱོད་རའི་ཌེཀསི་ཊོཔ་གི་གྱང་ཤོག་སྦེ་ གཞི་སྒྲིག་འབད་ནི་ཨིན་ན?"
+
+# XXX - this sucks and should only be temporary.
+#: switchskins
+msgid "Theme changes will take effect when you restart %S."
+msgstr "བརྗོད་དོན་གྱི་བསྒྱུར་བཅོས་ཚུ་ %S ཁྱོད་ཀྱིས་ ལོག་འགོ་བཙུགསཔ་ད་ ནུས་ཤུགས་འཐོབ་འོང་།"
+
+#: switchskinstitle
+msgid "Apply Theme"
+msgstr "བརྗོད་དོན་འཇུག་སྤྱོད་འབད།"
+
+# menu_close labels
+#: tabs.closeTab
+msgid "Close Tab"
+msgstr "ཨེབ་ལྡེ་ཁ་བསྡམས་"
+
+#: tabs.close
+msgid "Close"
+msgstr "ཁ་བསྡམས་"
+
+#: tabs.closeWarningTitle
+msgid "Confirm close"
+msgstr "ཁ་བསྡམས་ནི་ལུ་ངེས་དཔྱད་འབད་"
+
+#: tabs.closeWarning
+msgid "This Navigator window has %S tabs open. Do you want to close it and all its tabs?"
+msgstr "འགྲུལ་བསྐྱོད་སྒོ་སྒྲིག་འདི་ལུ་ ཨེབ་ལྡེ་%Sཁ་ཕྱེ་སྟེ་འདུག། ཁྱོད་ཀྱིས་སྒོ་སྒྲིག་འདི་དང་ འདི་གི་ཨེབ་ལྡེ་ཆ་མཉམ་ ཁ་བསྡམ་ནི་ཨིན་ན?"
+
+#: tabs.closeButton
+msgid "Close all tabs"
+msgstr "ཨེབ་ལྡེ་ཆ་མཉམ་ཁ་བསྡམས་"
+
+#: tabs.closeWarningPromptMe
+msgid "Warn me when closing multiple tabs"
+msgstr "སྣ་མང་ཨེབ་ལྡེ་ཁ་བསྡམས་པའི་སྐབས་ ང་ལུ་ཉེན་བརྡ་འབད།"
+
+#: tabs.historyItem
+msgid "Group of Tabs"
+msgstr "ཨེབ་ལྡེའི་སྡེ་ཚན་"
+
+# urlbarBindings.xml
+# LOCALIZATION NOTE: This is for the location bar drop-down string:
+#   "Seach " + search_engine_name + " for " + user_input
+#   e.g. "Search Google for abc"
+# DO NOT change the %S order when translate, the first %S must be the search engine name.
+#: searchFor
+msgid "Search %S for \"%S\""
+msgstr "%Sའཚོལ་ཞིབ་འབད་ \"%S\"གི་དོན་ལུ།"
+
+# For JVM Configuration
+#: switchJVMTitle
+msgid "Select Java version"
+msgstr "ཇ་བ་ཐོན་རིམ་ སེལ་འཐུ་འབད།"
+
+#: switchJVMFailed
+msgid "Failed to select this version of java"
+msgstr "ཇ་བ་གི་ཐོན་རིམ་འདི་ སེལ་འཐུ་འབད་མ་ཚུགས། "
+

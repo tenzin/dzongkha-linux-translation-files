@@ -1,0 +1,110 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/addressbook/replicationProgress.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: replicationProgress.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-04 14:58+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#***** BEGIN LICENSE BLOCK *****
+#Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+#The contents of this file are subject to the Mozilla Public License Version
+#1.1 (the "License"); you may not use this file except in compliance with
+#the License. You may obtain a copy of the License at
+#http://www.mozilla.org/MPL/
+#
+#Software distributed under the License is distributed on an "AS IS" basis,
+#WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+#for the specific language governing rights and limitations under the
+#License.
+#
+#The Original Code is mozilla.
+#
+#The Initial Developer of the Original Code is
+# Srilatha Moturi <srilatha@netscape.com>.
+#Portions created by the Initial Developer are Copyright (C) 2002
+#the Initial Developer. All Rights Reserved.
+#
+#Contributor(s):
+#  Rajiv Dayal <rdayal@netscape.com>
+#  Seth Spitzer <sspitzer@netscape.com>
+#
+#Alternatively, the contents of this file may be used under the terms of
+#either the GNU General Public License Version 2 or later (the "GPL"), or
+#the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+#in which case the provisions of the GPL or the LGPL are applicable instead
+#of those above. If you wish to allow use of your version of this file only
+#under the terms of either the GPL or the LGPL, and not to allow others to
+#use your version of this file under the terms of the MPL, indicate your
+#decision by deleting the provisions above and replace them with the notice
+#and other provisions required by the GPL or the LGPL. If you do not delete
+#the provisions above, a recipient may use your version of this file under
+#the terms of any one of the MPL, the GPL or the LGPL.
+#
+#***** END LICENSE BLOCK *****
+#: replicationStarted
+msgid "Replication started..."
+msgstr "ངོ་འདྲ་བཟོ་ནི་འགོ་བཙུགས་ཡོད་་་་"
+
+#: changesStarted
+msgid "Started finding changes to replicate..."
+msgstr "ངོ་འདྲ་ལུ་ བསྒྱུར་བཅོས་ཚུ་འཚོལ་ནི་འགོ་བཙུགས་ཡོད།"
+
+#: replicationSucceeded
+msgid "Replication succeeded"
+msgstr "ངོ་འདྲ་བཟོ་ནི་མཐར་འཁྱོལ་བྱུང་ཡོད།"
+
+#: replicationFailed
+msgid "Replication failed"
+msgstr "ངོ་འདྲ་བཟོ་ནི་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+# LOCALIZATION NOTE
+# do not localize %S.  %S is the current entry number (an integer)
+#: currentCount
+msgid "Replicating directory entry: %S"
+msgstr "སྣོད་ཐོའི་ཐོ་བཀོད་ %Sགི་ངོ་འདྲ་བཟོ་དོ།"
+
+# LOCALIZATION NOTE
+# do not localize %S.  %S is the current address book name
+#: replicatingTitle
+msgid "Replicating %S"
+msgstr "%Sགི་ངོ་འདྲ་བཟོ་དོ།"
+
+#: replicationOfSameInProgress
+msgid "A replication of this directory is already in progress."
+msgstr "སྣོད་ཐོ་འདི་གི་ངོ་འདྲ་ཅིག་ ཧེ་མ་ལས་ར་ བཟོ་བའི་བསྒང་འདུག།"
+
+#: replicationOfOtherInProgress
+msgid "A replication of another directory is already in progress.  You can only replicate one directory at a time."
+msgstr "སྣོད་ཐོ་གཞན་ཅིག་གི་ངོ་འདྲ་ཅིག་ ཧེ་མ་ལས་ར་ བཟོ་བའི་སྒང་འདུག།"
+
+#: mustBeOnlineToReplicate
+msgid "You must be online to replicate a directory."
+msgstr "སྣོད་ཐོ་ཅིག་གི་ངོ་འདྲ་བཟོ་ནི་ལུ་ ཁྱོད་གློག་ལམ་ཐོག་ལུ་ཨིན་དགོ།"
+
+# LOCALIZATION NOTE
+# do not localize %S.  %S is the product name.
+#: replicationInProgress
+msgid "%S is currently in the process of replicating an address book.  Would you like to wait until the process has completed before quitting or quit now?"
+msgstr "%Sགིས་ད་ལྟོ་ ཁ་བྱང་ཀི་དེབ་ཅིག་གི་ ངོ་འདྲ་བཟོ་དོ། ཁྱོད་ཀྱིས་ མ་སྤངས་པའི་ཧེ་མ་ ལས་སྦྱོར་དེ་མཇུག་བསྡུ་བཅུག་ནི་ཨིན་ན་ ད་ལྟོ་ར་ སྤང་ནི་ཨིན་ན?"
+
+#: waitButton
+msgid "Wait"
+msgstr "བསྒུག་སྡོད་"
+
+#: quitButton
+msgid "Quit"
+msgstr "སྤངས་"
+

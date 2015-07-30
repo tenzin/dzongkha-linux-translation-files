@@ -1,0 +1,744 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/messengercompose/messengercompose.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: messengercompose.dtd.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-05 14:40+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# LOCALIZATION NOTE messengercompose.dtd Main UI for message composition
+#: msgComposeWindow.title
+msgid "Compose: (no subject)"
+msgstr "རྩོམས་:(དོན་ཚན་མིན་འདུག)"
+
+# File Menu
+#: fileMenu.label
+#: fileMenu.accesskey
+msgid "&File"
+msgstr "ཡིག་སྣོད་(&F)"
+
+#: newMenu.label
+#: newMenu.accesskey
+msgid "&New"
+msgstr "གསརཔ་(&N)"
+
+#: newMessage.label
+#: newMessage.accesskey
+msgid "&Message"
+msgstr "འཕྲིན་དོན་(&M)"
+
+#: newMessage.key
+msgid "M"
+msgstr "M"
+
+#: newMessageCmd2.key
+msgid "N"
+msgstr "N"
+
+#: newCard.label
+#: newCard.accesskey
+msgid "Address Book &Card..."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཤོག་བྱང་་་་(&C)"
+
+#: attachMenu.label
+#: attachMenu.accesskey
+msgid "A&ttach"
+msgstr "མཉམ་སྒྲག་འབད་(&t)"
+
+#: attachFileCmd.label
+#: attachFileCmd.accesskey
+msgid "&File(s)..."
+msgstr "ཡིག་སྣོད་་་(&F)"
+
+#: attachPageCmd.label
+#: attachPageCmd.accesskey
+msgid "&Web Page..."
+msgstr "ཝེབ་ཤོག་ལེབ་་་་(&W)"
+
+# LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard'
+#: attachVCardCmd.label
+#: attachVCardCmd.accesskey
+msgid "&Personal Card (vCard)"
+msgstr "རང་དོན་ཤོག་བྱང་(བརྙན་བྱང་)(&P)"
+
+#: closeCmd.label
+#: closeCmd.accesskey
+msgid "&Close"
+msgstr "ཁ་བསྡམས་(&C)"
+
+#: closeCmd.key
+msgid "W"
+msgstr "W"
+
+#: saveCmd.label
+#: saveCmd.accesskey
+msgid "&Save"
+msgstr "སྲུངས་(&S)"
+
+#: saveCmd.key
+#: accountManagerCmdUnix.accesskey
+msgid "S"
+msgstr "S"
+
+#: saveAsCmd.label
+#: saveAsCmd.accesskey
+msgid "Save &As"
+msgstr "དེསྦེ་སྲུངས་(&A)"
+
+#: saveAsFileCmd.label
+#: saveAsFileCmd.accesskey
+msgid "&File..."
+msgstr "ཡིག་སྣོད་་་་(&F)"
+
+#: saveAsDraftCmd.label
+#: saveAsDraftCmd.accesskey
+msgid "&Draft"
+msgstr "ཟིན་འབྲི་(&D)"
+
+#: saveAsTemplateCmd.label
+#: saveAsTemplateCmd.accesskey
+msgid "&Template"
+msgstr "ཊེམ་པེལེཊི་(&T)"
+
+#: offlineGoOfflineCmd.label
+#: offlineGoOfflineCmd.accesskey
+msgid "&Work Offline"
+msgstr "གློག་ལམ་ཐོག་ལུ་མེནམ་སྦེ་ལཱ་འབད་(&W)"
+
+#: sendNowCmd.label
+#: sendNowCmd.accesskey
+msgid "Sen&d Now"
+msgstr "ད་ལྟོ་ར་གཏང་(&d)"
+
+#: sendCmd.keycode
+#: sendLaterCmd.keycode
+msgid "VK_RETURN"
+msgstr "ཝི་ཀེ་-སླར་ལོག་"
+
+#: sendLaterCmd.label
+#: sendLaterCmd.accesskey
+msgid "Send &Later"
+msgstr "ཤུལ་ལས་གཏང་(&L)"
+
+#: printSetupCmd.label
+#: printSetupCmd.accesskey
+msgid "Page Set&up..."
+msgstr "ཤོག་ལེབ་གཞི་སྒྲིག་་་་(&u)"
+
+#: printCmd.label
+#: printCmd.accesskey
+msgid "&Print..."
+msgstr "དཔར་བསྐྲུན་་་(&P)"
+
+#: printCmd.key
+msgid "P"
+msgstr "P"
+
+#: quitApplicationCmdWin.label
+#: quitApplicationCmdWin.accesskey
+msgid "E&xit"
+msgstr "ཕྱིར་འཐོན་(&x)"
+
+#: quitApplicationCmd.label
+#: quitApplicationCmd.accesskey
+msgid "&Quit"
+msgstr "སྤངས་(&Q)"
+
+#: quitApplicationCmd.key
+msgid "Q"
+msgstr "Q"
+
+# Edit Menu
+#: editMenu.label
+#: editMenu.accesskey
+msgid "&Edit"
+msgstr "ཞུན་དག་(&E)"
+
+#: undoCmd.label
+#: undoCmd.accesskey
+#: undo.label
+#: undo.accesskey
+msgid "&Undo"
+msgstr "འབད་བཤོལ་(&U)"
+
+#: undoCmd.key
+msgid "Z"
+msgstr "Z"
+
+#: redoCmd.label
+#: redoCmd.accesskey
+msgid "&Redo"
+msgstr "ལོག་འབད་(&R)"
+
+#: redoCmd.key
+msgid "Y"
+msgstr "Y"
+
+#: cutCmd.label
+#: cutCmd.accesskey
+#: cut.label
+#: cut.accesskey
+msgid "Cu&t"
+msgstr "བཏོག་(&t)"
+
+#: cutCmd.key
+msgid "X"
+msgstr "X"
+
+#: copyCmd.label
+#: copyCmd.accesskey
+#: copy.label
+#: copy.accesskey
+msgid "&Copy"
+msgstr "འདྲ་བཤུས་(&C)"
+
+#: copyCmd.key
+msgid "C"
+msgstr "C"
+
+#: pasteCmd.label
+#: pasteCmd.accesskey
+#: paste.label
+#: paste.accesskey
+msgid "&Paste"
+msgstr "སྦྱར་(&P)"
+
+#: pasteCmd.key
+msgid "V"
+msgstr "V"
+
+#: editRewrapCmd.label
+#: editRewrapCmd.accesskey
+msgid "Re&wrap"
+msgstr "སླར་ལོག་མཚམས་བཟོ་(&w)"
+
+#: deleteCmd.label
+#: deleteCmd.accesskey
+#: delete.label
+#: delete.accesskey
+msgid "&Delete"
+msgstr "བཏོན་གཏང་(&D)"
+
+#: deleteCmd.key
+msgid "D"
+msgstr "D"
+
+#: selectAllCmd.label
+#: selectAllCmd.accesskey
+#: selectAll.label
+#: selectAll.accesskey
+msgid "Select &All"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད་(&A)"
+
+#: selectAllCmd.key
+msgid "A"
+msgstr "A"
+
+#: findCmd.label
+#: findCmd.accesskey
+msgid "&Find and Replace..."
+msgstr "འཚོལ་ཏེ་ཚབ་བཙུགས་་་་(&F)"
+
+#: findCmd.key
+msgid "F"
+msgstr "F"
+
+#: findAgainCmd.label
+#: findAgainCmd.accesskey
+msgid "Find A&gain"
+msgstr "ལོག་སྟེ་འཚོལ་(&g)"
+
+#: findAgainCmd.key
+#: findPrevCmd.key
+msgid "G"
+msgstr "G"
+
+#: findAgainCmd.key2
+#: findPrevCmd.key2
+msgid "VK_F3"
+msgstr "ཝི་ཀེ་ F3(_F)"
+
+#: findPrevCmd.label
+#: findPrevCmd.accesskey
+msgid "Find Pre&vious"
+msgstr "ཧེ་མམ་འཚོལ་(&v)"
+
+# View Menu
+#: viewMenu.label
+#: viewMenu.accesskey
+msgid "&View"
+msgstr "སྟོན་(&V)"
+
+#: viewToolbarsMenuNew.label
+#: viewToolbarsMenuNew.accesskey
+msgid "&Toolbars"
+msgstr "ལག་ཆས་ཕྲ་རིང་ཚུ་(&T)"
+
+#: showComposeToolbarCmd.label
+#: showComposeToolbarCmd.accesskey
+msgid "Mail T&oolbar"
+msgstr "ཡིག་འཕྲིན་གྱི་ལག་ཆས་ཕྲ་རིང་(&o)"
+
+#: showFormatToolbarCmd.label
+#: showFormatToolbarCmd.accesskey
+msgid "&Formatting Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་རྩ་སྒྲིག་འབད་དོ་(&F)"
+
+#: showTaskbarCmd.label
+#: showTaskbarCmd.accesskey
+msgid "&Status Bar"
+msgstr "གནས་ཚད་ཕྲ་རིང་(&S)"
+
+#: customizeToolbar.label
+#: customizeToolbar.accesskey
+msgid "&Customize..."
+msgstr "སྲོལ་སྒྲིག་འབད་་་་(&C)"
+
+#: addressSidebar.label
+#: addressSidebar.accesskey
+msgid "C&ontacts Sidebar"
+msgstr "འབྲེལ་སའི་ཟུར་ཁའི་ཕྲ་རིང་(&o)"
+
+# Format Menu
+#: formatMenu.label
+#: formatMenu.accesskey
+msgid "F&ormat"
+msgstr "རྩ་སྒྲིག་(&o)"
+
+# Options Menu
+#: optionsMenu.label
+#: optionsMenu.accesskey
+msgid "O&ptions"
+msgstr "གདམ་ཁ་ཚུ་(&p)"
+
+#: checkSpellingCmd.label
+#: checkSpellingCmd.accesskey
+msgid "C&heck Spelling..."
+msgstr "ཡིག་དཔྱད་འབད་དོ་་་(&h)"
+
+#: checkSpellingCmd.key
+msgid "K"
+msgstr "K"
+
+#: checkSpellingCmd.key2
+msgid "VK_F7"
+msgstr "ཝི་ཀེ་F7(_F)"
+
+#: enableInlineSpellChecker.label
+#: enableInlineSpellChecker.accesskey
+msgid "&Spell As You Type"
+msgstr "ཁྱོད་ཀྱིས་ཡིག་དཔར་རྐྱབ་ད་ ཡིག་སྡེབ་སླབས།(&S)"
+
+#: quoteCmd.label
+#: quoteCmd.accesskey
+msgid "&Quote Message"
+msgstr "འཕྲིན་དོན་ལུང་འདྲེན་འབད་(&Q)"
+
+# LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard'
+#: attachVCard.label
+#: attachVCard.accesskey
+msgid "Attach Personal Card (&vCard)"
+msgstr "རང་དོན་ཤོག་བྱང་མཉམ་སྦྲགས་འབད་(བརྙན་བྱང་)(&v)"
+
+#: returnReceiptMenu.label
+#: returnReceiptMenu.accesskey
+msgid "Re&turn Receipt"
+msgstr "འབྱོར་རྟགས་ལོག་གཏང་(&t)"
+
+#: outputFormatMenu.label
+#: outputFormatMenu.accesskey
+msgid "&Format"
+msgstr "རྩ་སྒྲིག(&F)"
+
+#: autoFormatCmd.label
+#: autoFormatCmd.accesskey
+msgid "&Auto-Detect"
+msgstr "རང་བཞིན་ངོས་འཛིན་(&A)"
+
+#: plainTextFormatCmd.label
+#: plainTextFormatCmd.accesskey
+msgid "&Plain Text Only"
+msgstr "ཡིག་རྐྱང་རྐྱངམ་གཅིག་(&P)"
+
+#: htmlFormatCmd.label
+#: htmlFormatCmd.accesskey
+msgid "&Rich Text (HTML) Only"
+msgstr "ཚིག་ཡིག་ཕྱུགཔོ་(ཨེཆ་ཊི་ཨེམ་ཨེལ་)རྐྱངམ་གཅིག (&R)"
+
+#: bothFormatCmd.label
+#: bothFormatCmd.accesskey
+msgid "Plain and Rich (HTM&L) Text"
+msgstr "ཡིག་རྐྱང་དང་ཚིག་ཡིག་ཕྱུགཔོ་(ཨེཆ་ཊི་ཨེམ་ཨེལ་)(&L)"
+
+#: priorityMenu.label
+#: priorityMenu.accesskey
+msgid "&Priority"
+msgstr "གཙོ་རིམ་(&P)"
+
+#: priorityButton.label
+msgid "Priority:"
+msgstr "གཙོ་རིམ་:"
+
+#: lowestPriorityCmd.label
+#: lowestPriorityCmd.accesskey
+msgid "&Lowest"
+msgstr "དམའ་ཤོས་(&L)"
+
+#: lowPriorityCmd.label
+#: lowPriorityCmd.accesskey
+msgid "L&ow"
+msgstr "དམའ་བ་(&o)"
+
+#: normalPriorityCmd.label
+#: normalPriorityCmd.accesskey
+msgid "&Normal"
+msgstr "སྤྱིར་བཏང་(&N)"
+
+#: highPriorityCmd.label
+#: highPriorityCmd.accesskey
+msgid "H&igh"
+msgstr "མཐོ་བ་(&i)"
+
+#: highestPriorityCmd.label
+#: highestPriorityCmd.accesskey
+msgid "&Highest"
+msgstr "མཐོ་ཤོས་(&H)"
+
+#: fileCarbonCopyCmd.label
+#: fileCarbonCopyCmd.accesskey
+msgid "Sen&d a Copy To"
+msgstr "ལུ་འདྲ་བཤུས་ཅིག་གཏང་(&d)"
+
+#: fileHereMenu.label
+msgid "File Here"
+msgstr "ནཱ་ལུ་ཡིག་སྣོད་ནང་བཙུགས་"
+
+# Tools Menu
+#: tasksMenu.label
+#: tasksMenu.accesskey
+msgid "&Tools"
+msgstr "ལག་ཆས་ཕྲ་རིང་(&T)"
+
+#: messengerCmd.label
+#: messengerCmd.accesskey
+msgid "&Mail &amp; Newsgroups"
+msgstr "&amp ཡིག་འཕྲིན་གཏང་། གནས་ཚུལ་སྡེ་ཚན་ཚུ་(&M)"
+
+#: messengerCmd.commandkey
+msgid "1"
+msgstr "༡"
+
+#: addressBookCmd.label
+#: addressBookCmd.accesskey
+msgid "&Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་(&A)"
+
+#: addressBookCmd.commandkey
+msgid "2"
+msgstr "༢"
+
+#: accountManagerCmd.label
+#: accountManagerCmd.accesskey
+msgid "A&ccount Settings..."
+msgstr "རྩིས་ཐོ་སྒྲིག་སྟངས་་་(&c)"
+
+#: preferencesCmd.label
+#: preferencesCmd.accesskey
+msgid "&Options..."
+msgstr "གདམ་ཁ་ཚུ་་་་(&O)"
+
+#: preferencesCmd.key
+msgid "O"
+msgstr "O"
+
+#: preferencesCmdUnix.label
+#: preferencesCmdUnix.accesskey
+msgid "Prefere&nces"
+msgstr "དགའ་གདམ་ཚུ་(&n)"
+
+# Mac OS X Window Menu
+#: minimizeWindow.key
+msgid "m"
+msgstr "m"
+
+#: minimizeWindow.label
+msgid "Minimize"
+msgstr "ཆུང་ཀུ་བཟོ་"
+
+#: bringAllToFront.label
+msgid "Bring All to Front"
+msgstr "ཆ་མཉམ་གདོང་ཁར་འབག་ཤོག་"
+
+#: zoomWindow.label
+msgid "Zoom"
+msgstr "རྒྱས་ཟུམ་སྦེ་"
+
+#: windowMenu.label
+msgid "Window"
+msgstr "སྒོ་སྒྲིག་"
+
+# Help Menu
+#: helpMenu.label
+#: helpMenu.accesskey
+msgid "&Help"
+msgstr "གྲོགས་རམ་(&H)"
+
+#: releaseCmd.label
+#: releaseCmd.accesskey
+msgid "&Release Notes"
+msgstr "དྲན་འཛིན་ཚུ་ འཛིན་གྲོལ་འབད་(&R)"
+
+#: hintsAndTips.label
+#: hintsAndTips.accesskey
+msgid "&brandShortName; &Help"
+msgstr "&brandShortName;གྲོགས་རམ་(&H)"
+
+#: hintsAndTipsMac.commandkey
+msgid "?"
+msgstr "?"
+
+#: aboutCmd.label
+#: aboutCmd.accesskey
+msgid "&About &brandShortName;"
+msgstr "&brandShortName; གི་སྐོར་ལས་(&A)"
+
+# Mail Toolbar
+#: sendButton.label
+msgid "Send"
+msgstr "གཏང་"
+
+#: quoteButton.label
+msgid "Quote"
+msgstr "ལུང་འདྲེན་འབད་"
+
+# Title for the address picker panel
+#: addressButton.label
+#: addressesSidebarTitle.label
+msgid "Contacts"
+msgstr "འབྲེལ་ཤ་ཚུ་"
+
+#: attachButton.label
+msgid "Attach"
+msgstr "མཉམ་སྦྲགས་འབད་"
+
+#: spellingButton.label
+msgid "Spelling"
+msgstr "ཡིག་སྡེབ་"
+
+#: saveButton.label
+msgid "Save"
+msgstr "སྲུངས་"
+
+#: throbberItem.title
+msgid "Activity Indicator"
+msgstr "བྱ་བའི་བརྡ་སྟོན་པ་"
+
+# Mail Toolbar Tooltips
+#: sendButton.tooltip
+msgid "Send this message now"
+msgstr "འཕྲིན་དོན་འདི་ ད་ལྟོ་ར་གཏང་"
+
+#: sendlaterButton.tooltip
+msgid "Send this message later"
+msgstr "འཕྲིན་དོན་འདི་ཤུལ་ལས་གཏང་"
+
+#: quoteButton.tooltip
+msgid "Quote the previous message"
+msgstr "ཧེ་མའི་འཕྲིན་དོན་ལུང་འདྲེན་འབད་"
+
+#: addressButton.tooltip
+msgid "Select a recipient from an Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཅིག་ནང་ལས་ ལེག་བཁན་ཅིག་ སེལ་འཐུ་འབད་"
+
+#: attachButton.tooltip
+msgid "Include an attachment"
+msgstr "མཉམ་སྦྲགས་ཅིག་གྲངས་སུ་བཙུགས་"
+
+#: saveButton.tooltip
+msgid "Save this message"
+msgstr "འཕྲིན་དོན་འདི་སྲུངས་"
+
+#: throbber.tooltip
+msgid "Go to the &vendorShortName; home page"
+msgstr "&vendorShortName; ལུ་འགྱོ། ཁྱིམ་གྱི་ཤོག་ལེབ་"
+
+#: cutButton.tooltip
+msgid "Cut"
+msgstr "བཏོག་"
+
+#: copyButton.tooltip
+msgid "Copy"
+msgstr "འདྲ་བཤུས་རྐྱབས་"
+
+#: pasteButton.tooltip
+msgid "Paste"
+msgstr "སྦྱར་"
+
+# Headers
+#: fromAddr.label
+#: fromAddr.accesskey
+msgid "F&rom:"
+msgstr "ལས་:(&r)"
+
+#: toAddr.label
+msgid "To:"
+msgstr "ལུ་:"
+
+#: ccAddr.label
+msgid "Cc:"
+msgstr "ཤོག་གནག་འདྲ་བཤུས་:"
+
+#: bccAddr.label
+msgid "Bcc:"
+msgstr "མཐོང་མེད་ཤོག་གནག་འདྲ་བཤུས་:"
+
+#: replyAddr.label
+msgid "Reply-To:"
+msgstr "ལན་གསལ་གཏང་ཡུལ་:"
+
+#: newsgroupsAddr.label
+msgid "Newsgroup:"
+msgstr "གནས་ཚུལ་སྡེ་ཚན་:"
+
+#: followupAddr.label
+msgid "Followup-To:"
+msgstr "ཤུལ་དཔྱད་འབད་ཡུལ་:"
+
+#: subject.label
+#: subject.accesskey
+msgid "&Subject:"
+msgstr "དོན་ཚན་:(&S)"
+
+#: attachments.label
+#: attachments.accesskey
+msgid "Atta&chments:"
+msgstr "མཉམ་སྦྲགས་ཚུ་:(&c)"
+
+# Format Toolbar, imported from editorAppShell.xul
+# LOCALIZATION NOTE formatToolbar. Don't change any of these Style Characters
+#: formatToolbar.boldChar
+msgid "B"
+msgstr "B"
+
+#: formatToolbar.italicChar
+msgid "I"
+msgstr "I"
+
+#: formatToolbar.underlineChar
+msgid "U"
+msgstr "U"
+
+#: SmileButton.tooltip
+msgid "Insert a smiley face"
+msgstr "སི་མའི་ལི་གདོང་ཅིག་བཙུགས་"
+
+#: smiley1Cmd.label
+msgid "Smile"
+msgstr "བགའ་འཛུམ་བཏོན་བཏོནམ་"
+
+#: smiley2Cmd.label
+msgid "Frown"
+msgstr "དཔྱལཝ་ཨོ་ཀྲོ་བསུམ་བསུམ་"
+
+#: smiley3Cmd.label
+msgid "Wink"
+msgstr "མིག་འཁྲིབ་བརྐྱབ་མི་"
+
+#: smiley4Cmd.label
+msgid "Tongue-out"
+msgstr "ལྕེ་བཏོན་བཏོནམ་"
+
+#: smiley5Cmd.label
+msgid "Laughing"
+msgstr "བགའ་མི་"
+
+#: smiley6Cmd.label
+msgid "Embarrassed"
+msgstr "ཙིགཔ་ཟ་ཟཝ་"
+
+#: smiley7Cmd.label
+msgid "Undecided"
+msgstr "ཐག་མ་བཅདཔ་"
+
+#: smiley8Cmd.label
+msgid "Surprise"
+msgstr "རྣམ་རྟོག་ལངས་ལངམ་"
+
+#: smiley9Cmd.label
+msgid "Kiss"
+msgstr "འི་བཀལ་མི་"
+
+#: smiley10Cmd.label
+msgid "Yell"
+msgstr "སྐད་ངན་རྐྱབ་མི་"
+
+#: smiley11Cmd.label
+msgid "Cool"
+msgstr "ཞི་བ་"
+
+#: smiley12Cmd.label
+msgid "Money-Mouth"
+msgstr "དངུལ་གྱི་ཁ་"
+
+#: smiley13Cmd.label
+msgid "Foot-in-Mouth"
+msgstr "རྐངམ་ཁ་ནང་"
+
+#: smiley14Cmd.label
+msgid "Innocent"
+msgstr "མནོ་སྐྱོན་མེདཔ་"
+
+#: smiley15Cmd.label
+msgid "Cry"
+msgstr "རྔུ་ནི་"
+
+#: smiley16Cmd.label
+msgid "Lips-are-Sealed"
+msgstr "ཁ་མཆུ་བཙུམས་པ་"
+
+# Message Pane Context Menu
+#: spellCheckNoSuggestions.label
+msgid "No Suggestions Found"
+msgstr "བསམ་འཆར་མ་ཐོབ་"
+
+#: spellCheckIgnoreWord.label
+#: spellCheckIgnoreWord.accesskey
+msgid "&Ignore Word"
+msgstr "མིང་ཚིག་སྣང་མེད་བཞག་(&I)"
+
+#: spellCheckAddToDictionary.label
+#: spellCheckAddToDictionary.accesskey
+msgid "Add to Dictio&nary"
+msgstr "ཚིག་མཛོད་ལུ་ཁ་སྐོང་རྐྱབས་(&n)"
+
+#: pasteQuote.label
+#: pasteQuote.accesskey
+msgid "Paste As &Quotation"
+msgstr "ལུང་་འདྲེན་སྦེ་སྦྱར་(&Q)"
+
+#: openAttachment.label
+#: openAttachment.accesskey
+msgid "&Open"
+msgstr "ཁ་ཕྱེ་(&O)"
+
+#: attachFile.label
+#: attachFile.accesskey
+msgid "Attach &File(s)..."
+msgstr "ཡིག་སྣོད་མཉམ་སྦྲགས་འབད་་་་(&F)"
+
+#: attachPage.label
+#: attachPage.accesskey
+msgid "Attach &Web Page..."
+msgstr "ཝེབ་ཤོག་ལེབ་མཉམ་སྦྲགས་འབད་་་་(&W)"
+

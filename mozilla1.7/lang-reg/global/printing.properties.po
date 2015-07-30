@@ -1,0 +1,237 @@
+# translation of printing.properties.po to
+# extracted from en-US_mozilla1.7.xpi:lang-reg/global/printing.properties
+# translator, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: printing.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-10 07:56\n"
+"PO-Revision-Date: 2006-03-09 19:05+0600\n"
+"Last-Translator: translator\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#Translated with MozillaTranslator version 5.03
+#Fri Feb 10 02:42:55 EST 2006
+#: NS_ERROR_UNEXPECTED
+msgid "There was an unexpected problem when printing."
+msgstr "དཔར་བསྐྲུན་འབད་བའི་སྐབས་རེ་བ་མེད་པའི་དཀའ་ངལ་གཅིག་འདུག"
+
+#: NS_ERROR_GFX_PRINTER_COLORSPACE_NOT_SUPPORTED
+msgid "There was a problem printing because the print job requires color capabilities that your printer does not support."
+msgstr "དཔར་བསྐྲུན་འབད་ནི་ལུ་དཀའ་ངལ་གཅིག་འདུག ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ དཔར་བསྐྲུན་འབད་ནིའི་ལས་གཡོག་ལུ་ཚོས་གཞིའི་ལྕོགས་གྲུབ་ ཁྱོད་ཀྱི་དཔར་འཕྲུལ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད་མི་ དགོས་མཁོ་འདུག"
+
+#: NS_ERROR_GFX_PRINTER_XPRINT_NO_XPRINT_SERVERS_FOUND
+msgid ""
+"There was a problem printing. No Xprint server(s) could be found.\n"
+"Check whether the XPSERVERLIST environment variable contains any valid Xprint servers.\n"
+"For further information see http\\://xprint.mozdev.org/ or http\\://www.mozilla.org/projects/xprint/"
+msgstr ""
+"དཔར་བསྐྲུན་འབད་ནི་ནང་དཀའ་ངལ་གཅིག་འདུག ཨེགསི་དཔར་བསྐྲུན་གྱི་སར་བར་(ཚུ)འཚོལ་མ་འཐོབ།\n"
+"XPSERVERLIST མཐའ་འཁོར་འགྱུར་ཅན་གྱི་ནང་ན་ནུས་ཅན་ཨེགསི་དཔར་བསྐྲུན་གྱི་སར་བར་ཡོད་མེད་ཞིབ་དཔྱད་འབད།\n"
+"བརྡ་དོན་ཐེབས་ཀྱི་དོན་ལུ་ http\\://xprint.mozdev.org/ ཡང་ན་ http\\://www.mozilla.org/projects/xprint/ ལུ་བལྟ།"
+
+#: noPrintFilename.alert
+msgid "You have selected \"Print To\\: File\", and the filename is empty\\!"
+msgstr "ཁྱོད་ཀྱིས་ \"Print To\\: File\" སེལ་འཐུ་འབད་ནུག འདི་ཡིག་སྣོད་མིང་དེ་སྟོངམ་ཨིན་པས\\!"
+
+#: NS_ERROR_GFX_PRINTER_PRINTER_IO_ERROR
+msgid "There was a problem printing. Printer I/O error."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་ I/O འཛོལ་བ།"
+
+#: NS_ERROR_GFX_PRINTER_XPRINT_BROKEN_XPRT
+msgid "A broken version of the X print server (Xprt) has been detected. Note that printing using this Xprt server may not work properly. Please contact the server vendor for a fixed version."
+msgstr "ཨེགསི་ དཔར་བསྐྲུན་སར་བར་(ཨེགསི་ པི་ཨར་ཊི)གི་རྒྱུན་ཆད་ཆད་པའི་ཐོན་རིམ་གཅིག་སྐྱོན་འཛིན་བྱུང་ཡོདཔ་ཨིན། འ་ནི་ཨེགསི་ པི་ཨར་ཊི་སར་བར་ལག་ལེན་འཐབ་སྟེ་དཔར་བསྐྲུན་འབད་མི་དེ་ལཱ་གཡོག་ཚུལ་ལྡན་སྦེ་མི་འབད་ནི་ཨིདམ་དྲན་དགོ གཏན་བཟོས་ཀྱི་ཐོན་རིམ་གྱི་དོན་ལུ་སར་བར་སིལ་ཚོང་པ་དང་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: NS_ERROR_GFX_PRINTER_CMD_NOT_FOUND
+msgid "There was a problem printing. The printer doesn't support a printing command."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་འདི་གིས་དཔར་བསྐྲུན་གྱི་བརྡ་བཀོད་ལུ་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: NS_ERROR_GFX_PRINTER_PRINTPREVIEW
+msgid "There must be at least one printer available to show Print Preview."
+msgstr "དཔར་བསྐྲུན་གྱི་སྔོན་ལྟ་སྟོན་ནིའི་དོན་ལས་ ཉུང་མཐའ་དཔར་འཕྲུལ་གཅིག་འཐོབ་ཚུགསཔ་སྦེ་དགོ"
+
+#: NS_ERROR_GFX_PRINTER_PRINT_WHILE_PREVIEW
+msgid "You cannot print while in print preview."
+msgstr "དཔར་བསྐྲུན་གྱི་སྔོན་ལྟ་ནང་ཡོད་པའི་སྐབས་ ཁྱོད་ཀྱིས་དཔར་བསྐྲུན་འབད་མི་བཏུབ།"
+
+#: NS_ERROR_GFX_PRINTER_ACCESS_DENIED
+msgid "There was a problem printing. Access to the printer was denied."
+msgstr "དཔར་བསྐྲུན་འབད་ནི་ནང་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་ནང་ལུ་འཛུལ་སྤྱོད་འབད་ནི་དེ་ཁ་བཟེད་མ་བཏུབ།"
+
+#: NS_ERROR_GFX_PRINTER_FILE_IO_ERROR
+msgid "There was an error writing the printing output file."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་ཨའུཊི་པུཊི་ཡིག་སྣོད་རྩོམ་སྒྲིག་འབད་ནི་ནང་འཛོལ་བ་གཅིག་འདུག"
+
+#: NS_ERROR_ABORT
+msgid "The print job was aborted, or canceled."
+msgstr "དཔར་བསྐྲུན་གྱི་ལས་གཡོག་དེ་བར་བཤོལ་ ཡང་ན་ཆ་མེད་གཏང་ནུག"
+
+#: NS_ERROR_GFX_PRINTER_OUT_OF_PAPER
+msgid "There was a problem printing. The printer is out of paper."
+msgstr "དཔར་བསྐྲུན་འབད་ནི་ནང་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་དེ་ནང་ཤོག་ཀུ་མིན་འདུག"
+
+#: NS_ERROR_GFX_PRINTER_PRINTER_NOT_READY
+msgid "There was a problem printing. The printer not ready."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་དེ་གྲ་སྒྲིག་མིན་འདུག"
+
+#: NS_ERROR_GFX_PRINTER_DOC_IS_BUSY_PP
+msgid ""
+"The browser cannot print preview right now.\n"
+"Please try again when the page has finished loading."
+msgstr ""
+"བརའུ་ཟར་དེ་གིས་སྔོན་ལྟ་ད་ལྟོ་རང་དཔར་བསྐྲུན་འབད་མི་ཚུགས།\n"
+"ཤོག་ལེབ་འདི་གིས་མངོན་གསལ་འབད་ཚར་བའི་སྐབས་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: NS_ERROR_GFX_PRINTER_PAPER_SIZE_NOT_SUPPORTED
+msgid "There was a problem printing because the paper size you specified is not supported by your printer."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཤོག་ཀུའི་ཚད་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་འདི་ཁྱོད་རའི་དཔར་འཕྲུལ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད།"
+
+#: NS_ERROR_OUT_OF_MEMORY
+msgid "There was a problem printing. There is not enough free memory to print."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་བསྐྲུན་འབད་ནིའི་དོན་ལུ་དྲན་ཚད་སྟོངམ་ལངམ་སྦེ་མིན་འདུག"
+
+#: fontsize
+msgid "10"
+msgstr "༡༠"
+
+#: PrintToFile
+msgid "Print To File"
+msgstr "ཡིག་སྣོད་ལུ་དཔར་བསྐྲུན་འབད།"
+
+#: NS_ERROR_GFX_NO_PRINTDIALOG_IN_TOOLKIT
+msgid ""
+"Either pluggable dialogs were not properly installed\n"
+"Or this GFX Toolkit no longer supports native Print Dialogs"
+msgstr ""
+"པ་ལག་འབད་བཏུབ་པའི་ཌའི་ལོག་གང་རུང་ཡང་ཚུལ་ལྡན་སྦེ་གཞི་བཙུགས་མ་འབད་བས།\n"
+"ཡང་ན་འ་ནི་ཆས་སྒྲོམ་འདི་གིས་རང་ཡུལ་གྱི་དཔར་བསྐྲུན་འབད་ནིའི་ཌའི་ལོག་ཚུ་ད་རྒྱབ་སྐྱོར་མི་འབད།"
+
+#: noprinter
+msgid "No printers available."
+msgstr "དཔར་འཕྲུལ་ཚུ་འཐོབ་ཚུགསཔ་མེད།"
+
+#: fileConfirm.exists
+msgid ""
+"%S already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"%S དེ་ཧེ་མ་ལས་རང་ཡོད།\n"
+"ཁྱོད་ཀྱིས་འདི་ཚབ་བཙུགས་ནི་ཨིན་ན?"
+
+#: NS_ERROR_GFX_PRINTER_ORIENTATION_NOT_SUPPORTED
+msgid "There was a problem printing because the page orientation you specified is not supported by your printer."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཤོག་ལེབ་ཀྱི་ཕྱོགས་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་དེ་ཁྱོད་རའི་དཔར་འཕྲུལ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད།"
+
+#: NS_ERROR_GFX_PRINTER_COULD_NOT_OPEN_FILE
+msgid "There was a problem printing. The output file could not be opened."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག ཨའུཊི་པུཊི་ཡིག་སྣོད་འདི་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: NS_ERROR_NOT_AVAILABLE
+msgid "Not available"
+msgstr "འཐོབ་ཚུགསཔ་མེད།"
+
+#: NS_ERROR_GFX_PRINTER_TOO_MANY_COPIES
+msgid "There was a problem printing because you requested too many copies."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ཁྱོད་ཀྱིས་འདྲ་བཤུས་ལེ་ཤ་ཞུ་བ་འབད་ནུག"
+
+#: fontname
+msgid "serif"
+msgstr "སེ་རིཕ"
+
+#: printpreview_error_dialog_title
+msgid "Print Preview Error"
+msgstr "དཔར་བསྐྲུན་གྱི་སྔོན་ལྟའི་འཛོལ་བ།"
+
+#: NS_ERROR_GFX_PRINTER_PLEX_NOT_SUPPORTED
+msgid "There was a problem printing because the plex mode you specified is not supported by your printer."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག ག་ཅི་སྦེ་ཟེར་བ་ཅིན་པེལེགསི་གི་ཐབས་ལམ་ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་འདི་ཁྱོད་རའི་དཔར་འཕྲུལ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད།"
+
+#: NS_ERROR_GFX_PRINTER_DRIVER_CONFIGURATION_ERROR
+msgid "There was a problem printing. The printer driver is not properly configured."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་གྱི་འདྲེན་བྱེད་དེ་ཚུལ་ལྡན་སྦེ་རིམ་སྒྲིག་མ་འབད་བས།"
+
+#: NS_ERROR_GFX_PRINTER_DOC_WAS_DESTORYED
+msgid ""
+"The page was replaced while you were trying to print.\n"
+"Please try again."
+msgstr ""
+"ཁྱོད་དཔར་བསྐྲུན་འབད་ནིའི་འབད་རྩོལ་བསྐྱེད་པའི་སྐབས་ ཤོག་ལེབ་འདི་ཚབ་བཙུགས་ནུག \n"
+"ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: NS_ERROR_GFX_PRINTER_ENDDOC
+msgid "Printing failed when completing the document."
+msgstr "ཡིག་ཆ་མཇུག་བསྡུ་བའི་སྐབས་དཔར་བསྐྲུན་འབད་ནི་འཐུས་ཤོར་བྱུང་ནུག"
+
+#: NS_ERROR_GFX_PRINTER_NO_PRINTER_AVAILABLE
+msgid "There was a problem printing. No printer could be found."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་འཚོལ་མ་འཐོབ།"
+
+#: NS_ERROR_NOT_IMPLEMENTED
+msgid "Some printing functionality is not implemented yet."
+msgstr "དཔར་བསྐྲུན་འབད་ནི་ལ་ལུ་ཅིག་ ལས་འགན་ལྟར་དུ་ད་ཚུན་བསྟར་སྤྱོད་མ་འབད་བས།"
+
+#: NS_ERROR_GFX_PRINTER_NAME_NOT_FOUND
+msgid "There was a problem printing. The printer could not be found."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་དེ་འཚོལ་མ་འཐོབ།"
+
+#: NS_ERROR_FAILURE
+msgid "An unknown error occurred while printing."
+msgstr "དཔར་བསྐྲུན་འབད་བའི་སྐབས་མ་ཤེས་པའི་འཛོལ་བ་གཅིག་བྱུང་ནུག"
+
+#: NS_ERROR_GFX_COULD_NOT_LOAD_PRINT_MODULE
+msgid "The requested print module cannot be loaded."
+msgstr "ཞུ་བ་འབད་འབད་བའི་དཔར་བསྐྲུན་གྱི་ཚད་གཞི་འདི་མངོན་གསལ་འབད་མི་བཏུབ།"
+
+#: NS_ERROR_GFX_PRINTER_STARTPAGE
+msgid "Printing failed when starting the page."
+msgstr "འ་ནི་ཤོག་ལེབ་འདི་འགོ་བཙུགས་པའི་སྐབས་དཔར་བསྐྲུན་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: NS_ERROR_GFX_NO_PRINTROMPTSERVICE
+msgid "The Printing Prompt Service is missing."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་ནུས་སྤེལ་གྱི་ཞབས་ཏོག་འདི་བརླག་སྟོར་ཞུགས་ནུག"
+
+#: NS_ERROR_GFX_PRINTER_STARTDOC
+msgid "Printing failed when starting the document."
+msgstr "ཡིག་ཆ་འགོ་བཙུགས་པའི་སྐབས་དཔར་བསྐྲུན་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: pageofpages
+msgid "%1$d of %2$d"
+msgstr "%1$d %2$d ལས།"
+
+#: NS_ERROR_GFX_PRINTER_CMD_FAILURE
+msgid "There was a problem printing. An instruction that was sent to the printer failed."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་ནང་ལུ་གཏང་མི་བསླབ་སྟོན་འདི་འཐུས་ཤོར་བྱུང་ནུག"
+
+#: pagenumber
+msgid "%1$d"
+msgstr "%1$d"
+
+#: print_error_dialog_title
+msgid "Printer Error"
+msgstr "དཔར་འཕྲུལ་གྱི་འཛོལ་བ།"
+
+#: NS_ERROR_GFX_PRINTER_DOC_IS_BUSY
+msgid "The browser cannot print the document while it is being loaded."
+msgstr "མངོན་གསལ་འབད་ཡོད་པའི་སྐབས་བརའུ་ཟར་གྱིས་ཡིག་ཆ་དཔར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: NS_ERROR_GFX_PRINTING_NOT_IMPLEMENTED
+msgid "Printing is not implemented."
+msgstr "དཔར་བསྐྲུན་འབད་ནི་འདི་བསྟར་སྤྱོད་མ་འབད།"
+
+#: NS_ERROR_GFX_PRINTER_INVALID_ATTRIBUTE
+msgid "There was a problem printing. Tried to set an invalid printer attribute."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་དཀའ་ངལ་གཅིག་འདུག དཔར་འཕྲུལ་གྱི་ཁྱད་ཆོས་ནུས་མེད་གཅིག་གཞི་སྒྲིག་འབད་ནིའི་འབད་རྩོལ་བསྐྱེད་ཅི།"
+
+#: NS_ERROR_GFX_PRINTER_ENDPAGE
+msgid "Printing failed when completing the page."
+msgstr "ཤོག་ལེབ་མཇུག་བསྡུ་བའི་སྐབས་དཔར་བསྐྲུན་འབད་ནི་འཐུས་ཤོར་བྱུང་ཡོད།"
+
+#: noPrintFilename.title
+msgid "Filename is missing"
+msgstr "ཡིག་སྣོད་མིང་བརླག་སྟོར་ཞུགས་ནུག"
+

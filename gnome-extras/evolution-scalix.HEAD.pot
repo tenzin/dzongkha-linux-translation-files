@@ -1,0 +1,708 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-scalix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-03 03:31+0100\n"
+"PO-Revision-Date: 2007-04-03 22:05+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzonglkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../addressbook/e-book-backend-scalix.c:427
+msgid "Loading..."
+msgstr "མངོན་གསལ་འབད་དོ་་་"
+
+#: ../addressbook/e-book-backend-scalix.c:429
+msgid "Searching..."
+msgstr "འཚོལ་ཞིབ་འབད་དོ་་་"
+
+#: ../camel/camel-scalix-command.c:525
+#: ../camel/camel-scalix-command.c:532
+#, c-format
+msgid "Failed sending command to IMAP server %s: %s"
+msgstr "ཨའི་ཨེམ་ཨེ་པི་སར་བར་ལུ་བརྡ་བཀོད་གཏང་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ %s: %s"
+
+#: ../camel/camel-scalix-command.c:634
+#, c-format
+msgid "Unexpected response from server %s: %s"
+msgstr "སར་བར་ལས་རེ་བ་མེད་པའི་ལན %s: %s"
+
+#: ../camel/camel-scalix-control-folder.c:187
+msgid "Could not retrieve free-busy information"
+msgstr "རང་དབང་ཁོམ་མེད་བརྡ་དོན་སླར་འདྲེན་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-scalix-control-folder.c:192
+msgid "Could not retrieve free-busy information: bad command"
+msgstr "རང་དབང་ཁོམ་མེད་པའི་བརྡ་དོན་ བྱ་ཉེས་བརྡ་བཀོད་སླར་འདྲེན་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-scalix-control-folder.c:251
+msgid "Could not store free-busy information"
+msgstr "རང་དབང་ཁོ་མེད་པའི་བརྡ་དོན་གསོག་འཇོག་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-scalix-control-folder.c:256
+msgid "Could not store free-busy information: bad command"
+msgstr "རང་དབང་ཁོ་མེད་པའི་བརྡ་དོན་ བརྡ་བཀོད་བྱ་ཉེས་གསོག་འཇོག་འབད་མ་ཚུགས།"
+
+#: ../camel/camel-scalix-engine.c:220
+#, c-format
+msgid "Unexpected greeting from IMAP server %s."
+msgstr "ཨའི་ཨེམ་ཨེ་པི་སར་བར་ལས་རེ་བ་མེད་པའི་ལེགས་སྨོན། %s."
+
+#: ../camel/camel-scalix-engine.c:413
+#, c-format
+msgid "Cannot select folder `%s': Invalid mailbox name"
+msgstr "སྣོད་འཛིན་སེལ་འཐུ་འབད་མ་ཚུགས `%s': ནུས་མེད་ཡིག་འཕྲིན་སྒྲོམ་གྱི་མིང་།"
+
+#: ../camel/camel-scalix-engine.c:419
+#, c-format
+msgid "Cannot select folder `%s': Bad command"
+msgstr "སྣོད་འཛིན་སེལ་འཐུ་འབད་མི་ཚུགས `%s': བརྡ་བཀོད་བྱ་་ཉེས།"
+
+#: ../camel/camel-scalix-engine.c:973
+msgid "Wrong password"
+msgstr "ཆོག་ཡིག་ཕྱི་འགྱུར།"
+
+#: ../camel/camel-scalix-engine.c:979
+msgid "New password does not follow password rules"
+msgstr "ཆོག་ཡིག་གསརཔ་གིས་ཆོག་ཡིག་ལམ་ལལུགས་ཚུ་རྗེས་སུ་མི་འབྲང་།"
+
+#: ../camel/camel-scalix-engine.c:1559
+#: ../camel/camel-scalix-engine.c:1598
+#: ../camel/camel-scalix-engine.c:1643
+#: ../camel/camel-scalix-engine.c:1699
+#, c-format
+msgid "Server %s unexpectedly disconnected: %s"
+msgstr "སར་བར་འདི་ %s རེ་བ་མེད་པར་མཐུད་ལམ་བཏོག་གཏང་ཡོདཔ། %s"
+
+#: ../camel/camel-scalix-engine.c:1560
+#: ../camel/camel-scalix-engine.c:1599
+#: ../camel/camel-scalix-engine.c:1644
+#: ../camel/camel-scalix-engine.c:1700
+#: ../camel/camel-scalix-store.c:1971
+#: ../camel/camel-scalix-utils.c:626
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../camel/camel-scalix-folder.c:110
+msgid "Enable mailing-list detection required for some filter and search folder rules"
+msgstr "སྣོད་འཛིན་ལམ་ལུགས་ཚུ་འཚོལ་ཞིབ་འབད་ནི་དང་ཚགས་མ་ལ་ལོ་གི་དོན་ལུ་ཡིག་འཕྲིན་གཏང་ནི་ཐོ་ཡིག་སྐྱོན་འཛིན་ནི་དགོ་མཁོ་ཡོདཔ།"
+
+#: ../camel/camel-scalix-folder.c:487
+#, c-format
+msgid "Cannot access folder `%s': %s"
+msgstr "སྣོད་འཛིན་འཛུལ་སྤྱོད་འབད་མི་ཚུགས `%s': %s"
+
+#: ../camel/camel-scalix-folder.c:557
+#, c-format
+msgid "Cannot sync flags to folder `%s': Unknown"
+msgstr "སྣོད་འཛིན་མ་ཤེསཔ་ལུ་ `%s':ཟུར་རྟགས་ཚུ་ མཉམ་འབྱུང་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:564
+#, c-format
+msgid "Cannot sync flags to folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་་ཉེས་སྣོད་འཛིན་ལུ་ `%s': ཟུར་རྟགས་ཚུ་མཉམ་འབྱུང་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:722
+#, c-format
+msgid "Cannot expunge folder `%s': Unknown"
+msgstr "མ་ཤེས་པའི་སྣོད་འཛིན་ `%s': རྩ་མེད་གཏང་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:727
+#, c-format
+msgid "Cannot expunge folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ཀཡི་སྣོད་འཛིན་ `%s': རྩ་མེད་གཏང་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1032
+msgid "User cancelled"
+msgstr "ལག་ལེན་པ་ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../camel/camel-scalix-folder.c:1038
+#, c-format
+msgid "Cannot get message %s: %s"
+msgstr "འཕྲིན་དོན་ཐོབ་མི་ཚུགས། %s: %s"
+
+#: ../camel/camel-scalix-folder.c:1071
+msgid "This message is not available in offline mode."
+msgstr "གློག་མེད་ཐོག་གི་ཐབས་ལམ་ནང་འཕྲིན་དོན་འདི་ཐོབ་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1131
+#, c-format
+msgid "Cannot get message %s from folder `%s': No such message"
+msgstr "སྣོད་འཛིན་ལས་ %s འཕྲིན་དོན་ཐོབ་མ་ཚུགས `%s': དེ་བཟུམ་མའི་འཕྲིན་དོན་མེད།"
+
+#: ../camel/camel-scalix-folder.c:1137
+#, c-format
+msgid "Cannot get message %s from folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་་ %s ཀྱི་སྣོད་འཛིན་ལས་`%s':འཕྲིན་དོན་ཐོབ་མ་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1354
+#, c-format
+msgid "Cannot append message to folder `%s': Unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་གི་སྣོད་འཛིན་ `%s': ལུ་འཕྲིན་དོན་མཇུག་བསྣོན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1388
+#, c-format
+msgid "Cannot append message to folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ཀྱི་ `%s': སྣོད་འཛིན་ལུ་འཕྲིན་དོན་མཇུག་བསྣོན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1426
+msgid "Moving message to trash folder"
+msgstr "ཕྱགས་ཧོད་སྣོད་འཛིན་ལུ་འཕྲིན་དོན་སྤོ་དོ།"
+
+#: ../camel/camel-scalix-folder.c:1434
+#: ../camel/camel-scalix-folder.c:1501
+#, c-format
+msgid "Error while moving message to trash: %s"
+msgstr "འཕྲིན་དོན་ཕྱགས་ཧོད་ལུ་སྤོ་བའི་སྐབས་འཛོལ་བ། %s"
+
+#: ../camel/camel-scalix-folder.c:1716
+#, c-format
+msgid "Cannot move messages from folder `%s' to folder `%s': Unknown"
+msgstr "མ་ཤེས་པའི་`%s' སྣོད་འཛིན་ལུ་ `%s': སྣོད་འཛིན་ལས་འཕྲིན་དོན་ཚུ་སྤོ་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1721
+#, c-format
+msgid "Cannot copy messages from folder `%s' to folder `%s': Unknown"
+msgstr "མ་ཤེས་པའི་ `%s' སྣོད་འཛིན་ལུ་ `%s': སྣོད་འཛིན་ལས་འཕྲིན་དོན་ཚུ་འདྲ་བཤུས་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1731
+#, c-format
+msgid "Cannot move messages from folder `%s' to folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ `%s' སྣོད་འཛིན་ལུ་ `%s': སྣོད་འཛིན་ལས་འཕྲིན་དོན་ཚུ་སྤོ་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-folder.c:1736
+#, c-format
+msgid "Cannot copy messages from folder `%s' to folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ `%s' སྣོད་འཛིན་ལུ་ `%s': སྣོད་འཛིན་ལས་འཕྲིན་དོན་ཚུ་འདྲ་བཤུས་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-journal.c:320
+msgid "Cannot append message in offline mode: cache unavailable"
+msgstr "འདྲ་མཛོད་ཐོབ་མ་ཚུགས་པའི་གློག་མེད་ཐོག་གི་ཐབས་ལམ་ནང་འཕྲིན་དོན་མཇུག་བསྣོན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-journal.c:336
+#, c-format
+msgid "Cannot append message in offline mode: %s"
+msgstr "གློག་མེད་ཐོག་གི་ཐབས་ལམ་ནང་འཕྲིན་དོན་མཇུག་བསྣོན་འབད་མི་ཚུགས། %s"
+
+#: ../camel/camel-scalix-provider.c:35
+msgid "Checking for new mail"
+msgstr "ཡིག་འཕྲིན་སགརཔ་གི་དོན་ལུ་ཞིབ་དཔྱད་འབད་དོ།"
+
+#: ../camel/camel-scalix-provider.c:38
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: ../camel/camel-scalix-provider.c:39
+msgid "_Apply filters to new messages in INBOX on this server"
+msgstr "སར་བར་འདི་གུ་ནང་སྒྲོམ་ནང་འཕྲིན་དོན་གསརཔ་ལུ་ཚགས་མ་ཚུ་འཇུག་སྤྱོད་འབད།(_A)"
+
+#: ../camel/camel-scalix-provider.c:40
+msgid "Check new messages for _Junk contents"
+msgstr "མཁོ་མེད་ནང་དོན་ཚུ་གི་དོན་ལུ་འཕྲིན་དོན་གསརཔ་ཚུ་ཞིབ་དཔྱད་འབད།(_J)"
+
+#: ../camel/camel-scalix-provider.c:41
+msgid "Only check for Junk messa_ges in the INBOX folder"
+msgstr "ནང་སྒྲོམ་སྣོད་འཛིན་འདི་ནང་མཁོ་མེད་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་རྐྱངམ་ཅིག་ཞིབ་དཔྱད་འབད།"
+
+#: ../camel/camel-scalix-provider.c:42
+msgid "Automatically synchroni_ze remote mail locally"
+msgstr "ཉེ་གནས་ལུ་ཐག་རིང་གི་ཡིག་འཕྲིན་རང་བཞིན་གྱིས་མཉམ་འབྱུང་བཟོ།(_z)"
+
+#: ../camel/camel-scalix-provider.c:49
+msgid "Scalix"
+msgstr "སི་ཀེ་ལིསི།"
+
+#: ../camel/camel-scalix-provider.c:51
+msgid "For accessing Scalix servers."
+msgstr "སི་ཀེ་ལིསི་སར་བར་ཚུ་འཛུལ་སྤྱོད་འབད་ནི་དོན་ལུ།"
+
+#: ../camel/camel-scalix-provider.c:66
+msgid "Password"
+msgstr "ཆོག་ཡིག"
+
+#: ../camel/camel-scalix-provider.c:68
+msgid "This option will connect to the IMAPv4rev1 server using a plaintext password."
+msgstr "ཚིག་ཡིག་རྐྱང་པོའི་ཆོག་ཡིག་ཅིག་ལག་ལེན་འཐབ་དེ་ཨའི་ཨེམ་ཨེ་པི་ཝི་༤་རིབ་༡་འདི་ལུ་གདམ་ཁ་འདི་མཐུད་ལམ་མཐུད་འོང་།"
+
+#: ../camel/camel-scalix-store.c:335
+#, c-format
+msgid "IMAP server %s"
+msgstr "ཨའི་ཨེམ་ཨེ་པི་སར་བར %s"
+
+#: ../camel/camel-scalix-store.c:337
+#, c-format
+msgid "IMAP service for %s on %s"
+msgstr "དོན་ལུ་ཨའི་ཨེམ་ཨེ་པི་ཞབས་ཏོག%s གུ་ %s"
+
+#: ../camel/camel-scalix-store.c:375
+#: ../camel/camel-scalix-store.c:390
+#, c-format
+msgid "Could not connect to %s: %s"
+msgstr "ལུ་མཐུད་ལམ་མཐུད་མ་ཚུགས %s: %s"
+
+#: ../camel/camel-scalix-store.c:376
+msgid "SSL unavailable"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ཐོབ་མ་ཚུགསཔ།"
+
+#: ../camel/camel-scalix-store.c:387
+msgid "Connection cancelled"
+msgstr "མཐུད་ལམ་ཆ་མེད་གཏང་ཡོདཔ།"
+
+#: ../camel/camel-scalix-store.c:424
+#: ../camel/camel-scalix-store.c:437
+#: ../camel/camel-scalix-store.c:453
+#, c-format
+msgid "Failed to connect to IMAP server %s in secure mode: %s"
+msgstr "མཐའ་བཙན་བཟོ་བའི་ཐབས་ལམ་ནང་ %s ཨའི་ཨེམ་ཨེ་པི་སར་བར་ལུ་མཐུད་ལམ་མཐུད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ %s"
+
+#: ../camel/camel-scalix-store.c:425
+msgid "SSL negotiations failed"
+msgstr "ཨེསི་ཨེསི་ཨེལ་གྲོས་སྒྲིག་ཚུ་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../camel/camel-scalix-store.c:438
+msgid "Unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ།"
+
+#: ../camel/camel-scalix-store.c:454
+msgid "SSL is not available in this build"
+msgstr "བཟོ་བརྩིགས་འདི་ནང་ཨེསི་ཨེསི་ཨེལ་ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../camel/camel-scalix-store.c:535
+#, c-format
+msgid "Cannot authenticate to IMAP server %s using the %s authentication mechanism"
+msgstr "བདེན་བཤད་ཐབས་རིག %s འདི་ལག་ལེན་འཐབ་དེ་ %s ཨའི་ཨེམ་ཨེ་པི་སར་བར་ལུ་བདེན་བཤད་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:586
+#, c-format
+msgid "%sPlease enter the IMAP password for %s on host %s"
+msgstr "%sདོན་ལུ་ཨའི་ཨེམ་ཨེ་པི་ཆོག་ཡིག་འདི་བཙུགས་གནང་ %s ཧོསིཊི་གུ་%s"
+
+#: ../camel/camel-scalix-store.c:655
+#, c-format
+msgid "Cannot authenticate to IMAP server %s using %s"
+msgstr "ཨའི་ཨེམ་ཨེ་པི་སར་བར་ལུ་ %s ལག་ལེན་འཐབ་དེ་ %sབདེན་བཤད་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:879
+#: ../camel/camel-scalix-store.c:1182
+msgid "Cannot create IMAP folders in offline mode."
+msgstr "གློག་མེད་ཐོག་གི་ཐབས་ལམ་ནང་ཨའི་ཨེམ་ཨེ་པི་སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:941
+#, c-format
+msgid "Cannot get folder `%s' on IMAP server %s: Unknown"
+msgstr "མ་ཤེས་པའི་ `%s' ཨའི་ཨེམ་ཨེ་པི་སར་བར་གུ་ %s: སྣོད་འཛིན་ཐོབ་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1057
+#: ../camel/camel-scalix-store.c:1177
+#: ../camel/camel-scalix-store.c:1449
+#, c-format
+msgid "\"%s\" is not a valid foldername"
+msgstr "\"%s\" འདི་ནུས་ཅན་གྱི་སྣོད་འཛིན་མིང་ཅིག་མེན།"
+
+#: ../camel/camel-scalix-store.c:1062
+msgid "Cannot create folders in offline mode."
+msgstr "གློག་མེད་ཐོག་ཐབས་ལམ་ནང་སྣོད་འཛིན་ཚུ་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1085
+msgid "Unkown folder type"
+msgstr "མ་ཤེས་པའི་སྣོད་འཛིན་དབྱེ་བ།"
+
+#: ../camel/camel-scalix-store.c:1127
+#: ../camel/camel-scalix-store.c:1234
+#, c-format
+msgid "Cannot create folder `%s': Invalid mailbox name"
+msgstr "ནུས་ཡིག་འཕྲིན་སྒྲོམ་མིང་ `%s': སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1133
+#: ../camel/camel-scalix-store.c:1240
+#, c-format
+msgid "Cannot create folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ `%s': ཀྱི་སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1274
+#, c-format
+msgid "Cannot delete folder `%s': Special folder"
+msgstr "དམིགས་གསལ་སྣོད་འཛིན་ `%s': སྣོད་འཛིན་བཏོན་གཏང་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1281
+msgid "Cannot delete IMAP folders in offline mode."
+msgstr "གློག་མེད་ཐོག་ཐབས་ལམ་ནང་ཨའི་ཨེམ་ཨེ་པི་སྣོད་འཛིན་ཚུ་བཏོན་གཏང་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1349
+#, c-format
+msgid "Cannot delete folder `%s': Invalid mailbox name"
+msgstr "ནུས་མེད་ཡིག་འཕྲིན་སྒྲོམ་གྱི་མིང་་ `%s': སྣོད་འཛིན་བཏོན་གཏང་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1354
+#, c-format
+msgid "Cannot delete folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ཀྱི་ `%s': སྣོད་འཛིན་བཏོན་གཏང་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1434
+#, c-format
+msgid "Cannot rename folder `%s' to `%s': Special folder"
+msgstr "དམིགས་བསལ་སྣོད་འཛིན་ `%s' ལུ་ `%s': སྣོད་འཛིན་བསྐྱར་མིང་བཏགས་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1441
+msgid "Cannot rename IMAP folders in offline mode."
+msgstr "གློག་མེད་ཐོག་ཐབས་ལམ་ནང་ཨའི་ཨེམ་ཨེ་པི་སྣོའ་ཛིན་བསྐྱར་མིང་བཏགས་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1513
+#, c-format
+msgid "Cannot rename folder `%s' to `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ `%s' ལུ་ `%s': སྣོད་འཛིན་བསྐྱར་མིང་བཏགས་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:1969
+#, c-format
+msgid "Cannot get %s information for pattern `%s' on IMAP server %s: %s"
+msgstr "དཔེ་གཞི་གི་དོན་ལུ་ %s བརྡ་དོན་ `%s' ཨའི་ཨེམ་ཨེ་པི་སར་བར་གུ་ཐོབ་མི་ཚུགས %s: %s"
+
+#: ../camel/camel-scalix-store.c:1971
+msgid "Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས།"
+
+#: ../camel/camel-scalix-store.c:2012
+msgid "Cannot subscribe to IMAP folders in offline mode."
+msgstr "གློག་ཐོག་མེད་པའི་ཐབས་ལམ་ནང་ཨའི་ཨེམ་ཨེ་པི་སྣོད་འཛིན་ལུ་མཁོ་མངགས་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:2067
+#, c-format
+msgid "Cannot subscribe to folder `%s': Invalid mailbox name"
+msgstr "ནུས་མེད་ཡིག་འཕྲིན་སྒྲོམ་མིང་ `%s': གི་སནོད་འཛིན་ལུ་མཁོ་མངགས་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:2072
+#, c-format
+msgid "Cannot subscribe to folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ `%s': ཀྱི་སྣོད་འཛིན་ལུ་མཁོ་མངགས་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:2098
+msgid "Cannot unsubscribe from IMAP folders in offline mode."
+msgstr "གློག་ཐོག་མེད་པའི་ཐབས་ལམ་ནང་ཨའི་ཨེམ་ཨེ་པི་སྣོད་འཛིན་ལས་མཁ་མངགས་མ་འབད་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:2151
+#, c-format
+msgid "Cannot unsubscribe from folder `%s': Invalid mailbox name"
+msgstr "ནུས་མེད་ཡིག་འཕྲིན་སྒྲོམ་མིང་གི་ `%s': སྣོད་འཛིན་ལས་མཁོ་མངགས་མ་འབད་བར་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:2156
+#, c-format
+msgid "Cannot unsubscribe from folder `%s': Bad command"
+msgstr "བརྡ་བཀོད་བྱ་ཉེས་ཀྱི་ `%s': སྣོད་འཛིན་ལས་མཁོ་མངགས་མ་འབད་བར་མི་ཚུགས།"
+
+#: ../camel/camel-scalix-store.c:2232
+#: ../camel/camel-scalix-store.c:2280
+#, c-format
+msgid "Internal Error %s"
+msgstr "ནང་འཁོད་ཀྱི་འཛོལ་བ། %s"
+
+#: ../camel/camel-scalix-store.c:2290
+#, c-format
+msgid "Server error %s"
+msgstr "སར་བར་འཛོལ་བ %s"
+
+#: ../camel/camel-scalix-summary.c:1457
+msgid "Scanning for changed messages"
+msgstr "བསྒྱུར་བཅོས་འབད་ཡོད་མི་འཕྲིན་དོན་ཚུ་གི་དོན་ལུ་ཞིབ་ལྟ་འབད་དོ།"
+
+#: ../camel/camel-scalix-summary.c:1482
+msgid "Fetching envelopes for new messages"
+msgstr "འཕྲིན་དོན་གསརཔ་ཚུ་གི་དོན་ལུ་ཡིག་ཤུབས་ཚུ་ལེན་དོ།"
+
+#: ../camel/camel-scalix-utils.c:368
+#, c-format
+msgid "Unexpected token in response from IMAP server %s: "
+msgstr "ཨའི་ཨེམ་ཨེ་པི་སར་བར་ལས་ལན་ནང་རེ་བ་མེད་པའི་ངོ་རྟགས %s: "
+
+#: ../camel/camel-scalix-utils.c:391
+msgid "No data"
+msgstr "གནས་སྡུད་མེདཔ།"
+
+#: ../camel/camel-scalix-utils.c:625
+#, c-format
+msgid "IMAP server %s unexpectedly disconnected: %s"
+msgstr "རེ་བ་མེད་པར་ %s ཨའི་ཨེམ་ཨེ་པི་སར་བར་གྱི་མཐུད་ལམ་བཏོག་ཡོདཔ %s"
+
+#: ../camel/camel-scalix-utils.c:822
+msgid "Public Folders"
+msgstr "མི་མང་གི་སྣོད་འཛིན་ཚུ།"
+
+#: ../camel/camel-scalix-utils.c:828
+msgid "Sent Items"
+msgstr "བཏང་ཡོད་པའི་རྣམ་གྲངས་ཚུ།"
+
+#: ../camel/camel-scalix-utils.c:832
+msgid "Drafts"
+msgstr "ཟིན་བྲིས་ཚུ།"
+
+#: ../camel/camel-scalix-utils.c:838
+msgid "Calendar"
+msgstr "ཟླ་ཐོ།"
+
+#: ../camel/camel-scalix-utils.c:846
+msgid "Contacts"
+msgstr "འབྲེལ་བ་འཐབ་ནི་ཚུ།"
+
+#: ../camel/camel-scalix-utils.c:855
+msgid "Inbox"
+msgstr "ནང་སྒྲོམ།"
+
+#: ../camel/camel-scalix-utils.c:859
+msgid "Deleted Items"
+msgstr "བཏོན་གཏང་ཡོད་པའི་རྣམ་གྲངས་ཚུ།"
+
+#: ../calendar/e-cal-backend-scalix.c:77
+#: ../calendar/e-cal-backend-scalix.c:1641
+#: ../calendar/e-cal-backend-scalix.c:1740
+msgid "Could not open Container"
+msgstr "འཛིན་སྣོད་ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: ../calendar/e-cal-backend-scalix.c:1634
+msgid "Connecting to server..."
+msgstr "སར་བར་ལུ་མཐུད་ལམ་མཐདུ་དོ་་་"
+
+#: ../calendar/e-cal-backend-scalix.c:1648
+msgid "Synchronizing ..."
+msgstr "མཉམ་འབྱུང་འབད་དོ་་་"
+
+#: ../calendar/e-cal-backend-scalix.c:1659
+msgid "Updating free-busy data ..."
+msgstr "རང་དབང་ཁོམ་མེད་གནས་སྡུད་དུས་མཐུད་བཟོ་དོ་་་"
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:1
+msgid "Change Password for Scalix server"
+msgstr "སི་ཀེ་ལིསི་སར་བར་གྱི་དོན་ལུ་ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད།"
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:2
+msgid "Open Scalix Rules Wizard webpage"
+msgstr "སི་ཀེ་ལིསི་ལམ་ལུགས་ཝི་ཛརཌི་ཝེབ་ཤོག་ལེབ་ཁ་ཕྱེ།"
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:3
+msgid "Scalix Change Password"
+msgstr "སི་ཀེ་ལིསི་ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད།"
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:4
+msgid "Scalix Rules"
+msgstr "སི་ཀེ་ལིསི་ལམ་ལུགས་ཚུ།"
+
+#: ../eplugin/com-scalix-menus.xml.in.h:1
+msgid "About Scalix"
+msgstr "སི་ཀེ་ལིསི་གི་སྐོར་ལས།"
+
+#: ../eplugin/com-scalix-menus.xml.in.h:2
+msgid "Information about the Scalix Connector"
+msgstr "སི་ཀེ་ལིསི་མཐུད་བྱེད་འདིའི་སྐོར་ལས་བརྡ་དོན།"
+
+#: ../eplugin/pw-dialog.glade.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Change Password</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད</span>"
+
+#: ../eplugin/pw-dialog.glade.h:2
+msgid "Change Password"
+msgstr "ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད།"
+
+#: ../eplugin/pw-dialog.glade.h:3
+msgid "Change _Password"
+msgstr "ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད།(_P)"
+
+#: ../eplugin/pw-dialog.glade.h:4
+msgid "New _Password:"
+msgstr "ཆོག་ཡིག་གསརཔ(_P)"
+
+#: ../eplugin/pw-dialog.glade.h:5
+msgid "_Confirm Password:"
+msgstr "ཆོག་ཡིག་ངེས་དཔྱད་འབད་ནི།(_C)"
+
+#: ../eplugin/pw-dialog.glade.h:6
+msgid "_Old Password:"
+msgstr "ཆོག་ཡིག་རྙིངམ།(_O)"
+
+#: ../eplugin/scalix-account-synch.c:493
+msgid "System"
+msgstr "རིམ་ལུགས།"
+
+#: ../eplugin/scalix-account-synch.c:692
+#, c-format
+msgid "Sychronizing %s..."
+msgstr "མཉམ་འབྱུང་འབད་དོ %s་་་"
+
+#: ../eplugin/scalix-account-synch.c:782
+msgid "Trying to connect to server"
+msgstr "སར་བར་ལུ་མཐུད་ལམ་མཐུད་ནི་འབད་རྩོལ་བསྐྱེད་དོ།"
+
+#: ../eplugin/scalix-account-synch.c:791
+msgid "Authentication failed. Check for correct hostname, username and password."
+msgstr "བདེན་བཤད་འཐུས་ཤོར་འབྱུང་ཡོདཔ། ཧོསིཊི་མིང་ངེས་བདེན་ ལག་ལེན་པའི་མིང་དང་ཆོག་ཡིག་གི་དོན་ལུ་ཞིབ་དཔྱད་འབད།"
+
+#: ../eplugin/scalix-account-synch.c:803
+msgid "Error while trying to connect to server."
+msgstr "སར་བར་ལུ་མཐུད་ལམ་མཐུད་ནི་འབད་རྩོལ་འབད་བའི་སྐབས་འཛོལ་བ།"
+
+#. Always check for minimal required server version
+#: ../eplugin/scalix-account-synch.c:808
+msgid "Checking version of Scalix server"
+msgstr "སི་ཀེ་ལིསི་སར་བར་གྱི་ཐོན་རིམ་ཞིབ་དཔྱད་འབད་དོ།"
+
+#: ../eplugin/scalix-account-synch.c:818
+msgid "Wrong version of Scalix server detected"
+msgstr "སི་ཀེ་ལིསི་སར་བར་སྐྱོན་འཛིན་འབྱུང་ཡོད་མི་གི་ཐོན་རིམ་ཕྱི་འགྱུར།"
+
+#: ../eplugin/scalix-account-synch.c:829
+msgid "Getting list of folders"
+msgstr "སྣོད་འཛིན་ཚུ་གི་ཐོ་ཡིག་ལེན་དོ།"
+
+#: ../eplugin/scalix-account-synch.c:837
+msgid "Could not obtain folder listening"
+msgstr "ཉན་ནི་སྣོད་འཛིན་ལེན་མ་ཚུགས།"
+
+#. Calendar
+#: ../eplugin/scalix-account-synch.c:843
+msgid "Loading calendar data..."
+msgstr "ཟླ་ཐོའི་གནས་སྡུད་མངོན་གསལ་འབད་དོ་་་"
+
+#. Contacts
+#: ../eplugin/scalix-account-synch.c:851
+msgid "Loading contacts..."
+msgstr "འབྲེལ་ས་ཚུ་མངོན་གསལ་འབད་དོ་་་"
+
+#: ../eplugin/scalix-account-synch.c:867
+msgid "Synchronizing additional data"
+msgstr "གནས་སྡུད་ཁ་སྐོང་་མཉམ་འབྱུང་འབད་དོ།"
+
+#: ../eplugin/scalix-account-synch.c:919
+msgid "Done loading"
+msgstr "མངོན་གསལ་འབད་ནི་འབད་ཚར་ཡོདཔ།"
+
+#: ../eplugin/scalix-account-synch.c:920
+msgid "Initial loading complete. Please click Forward."
+msgstr "འགོ་ཐོག་མངོན་གསལ་འབད་ནི་མཇུག་བསྡུ་ཡོདཔ། གདོང་བསྐྱོད་ཨེབ་གཏང་འབད་གནང་།"
+
+#: ../eplugin/scalix-change-password.c:187
+#, c-format
+msgid "<b>Could not change password:</b> %s"
+msgstr "<b>ཆོག་ཡིག་བསྒྱུར་བཅོས་འབད་མ་ཚུགས</b> %s"
+
+#: ../eplugin/scalix-change-password.c:221
+msgid "<b>The Scalix password was successfully changed</b>"
+msgstr "<b>སི་ཀེ་ལིསི་ཆོག་ཡིག་དེ་མཐར་འཁྱོལཔ་སྦེ་བསྒྱུར་བཅོས་འབད་ཡོདཔ།</b>"
+
+#: ../eplugin/scalix-change-password.c:235
+msgid "_OK"
+msgstr "བཏུབ།(_O)"
+
+#: ../eplugin/scalix-config.glade.h:1
+msgid "<span weight=\"bold\">Please select Scalix Account</span>"
+msgstr "<span weight=\"bold\">སི་ཀེ་ལིསི་རྩིས་ཐོ་སེལ་འཐུ་འབད་གནང་།</span>"
+
+#: ../eplugin/scalix-config.glade.h:2
+msgid "<span weight=\"bold\">Scalix Rules Wizard</span>"
+msgstr "<span weight=\"bold\">སི་ཀེ་ལིསི་ལམ་ལུགས་ཚུའི་ཝི་ཛརཌི</span>"
+
+#: ../eplugin/scalix-config.glade.h:3
+msgid "<span weight=\"bold\">Trash handling</span>"
+msgstr "<span weight=\"bold\">ཕྱགས་ཧོད་ལེགས་སྐྱོང་འཐབ་དོ</span>"
+
+#: ../eplugin/scalix-config.glade.h:4
+msgid "Font Properties"
+msgstr "ཡིག་གཟུགས་ཀྱི་རྒྱུ་དངོས་ཚུ།"
+
+#: ../eplugin/scalix-config.glade.h:5
+msgid ""
+"Move it to Deleted Items\n"
+"Mark it as deleted\n"
+"Delete it immediately"
+msgstr ""
+"འདི་བཏོན་གཏང་ཡོད་པའི་རྣམ་གྲངས་ཚུ་ལུ་སྤོ།\n"
+"བཏོན་གཏང་ཡོད་པའི་རྟགས་བཀོད།\n"
+"འདི་དེ་འཕྲལ་ལས་བཏོན་གཏང་།"
+
+#: ../eplugin/scalix-config.glade.h:8
+msgid "Select Scalix Account"
+msgstr "སི་ཀེ་ལིསི་རྩིས་ཐོ་སེལ་འཐུ་འབད།"
+
+#: ../eplugin/scalix-config.glade.h:9
+msgid "Url:"
+msgstr "ཡུ་ཨར་ཨེལ།"
+
+#: ../eplugin/scalix-config.glade.h:10
+msgid "When I delete a message:"
+msgstr "ང་གིས་འཕྲིན་དོན་ཅིག་བཏོན་གཏང་བའི་སྐབས།"
+
+#: ../eplugin/scalix-config-source.c:181
+msgid "Select a location"
+msgstr "གནས་ཁོངས་ཅིག་སེལ་འཐུ་འབད།"
+
+#: ../eplugin/scalix-config-source.c:275
+#: ../eplugin/scalix-config-source.c:366
+msgid "Toplevel"
+msgstr "ཆེ་རིམ།"
+
+#. Label
+#: ../eplugin/scalix-config-source.c:338
+msgid "_Location:"
+msgstr "གནས་ཁོངས།(_L)"
+
+#: ../eplugin/scalix-menus.c:131
+msgid "unkown version"
+msgstr "མ་ཤེས་པའི་ཐོན་རིམ།"
+
+#: ../eplugin/scalix-menus.c:134
+msgid ""
+"\n"
+"Server Version: "
+msgstr ""
+"\n"
+"སར་བར་ཐོན་རིམ།"
+
+#: ../eplugin/scalix-store-model.c:135
+#: ../eplugin/scalix-store-model.c:339
+msgid "Loading ..."
+msgstr "མངོན་གསལ་འབད་དོ་་་"
+
+#. Not sure if somebody wants to translate this
+#: ../eplugin/scalix-store-model.c:659
+msgid "Scalix Server"
+msgstr "སི་ཀེ་ལིསི་སར་བར།"
+
+#: ../eplugin/syncui.glade.h:1
+msgid "Connect"
+msgstr "མཐུད་ལམ་མཐུད།"
+
+#: ../eplugin/syncui.glade.h:2
+msgid "Password:"
+msgstr "ཆོག་ཡིག"
+
+#: ../eplugin/syncui.glade.h:3
+msgid "Starting up..."
+msgstr "འགོ་བཙུགས་དོ་་་"
+
+#: ../eplugin/syncui.glade.h:4
+msgid "Synchronizing with server"
+msgstr "སར་བར་དང་གཅིག་ཁར་མཉམ་འབྱུང་འབད་དོ།"
+
+#: ../eplugin/syncui.glade.h:5
+msgid "Waiting for user..."
+msgstr "ལག་ལེན་པ་ལུ་བསྒུག་དོ་་་"
+
+#: ../eplugin/syncui.glade.h:6
+msgid "We will now connect to the Scalix server to synchronize data with it. Please enter your password and press \"Connect\" to proceed."
+msgstr "ང་བཅས་ཀྱིས་ད་ལྟོ་འདི་དང་གཅིག་ཁར་གནས་སྡུད་མཉམ་འབྱུང་འབད་ནི་ལུ་སི་ཀེ་ལིསི་སར་བར་འདི་ལུ་མཐུད་ལམ་མཐུད་འོང་།  འཕྲོ་མཐུད་ནི་ལུ་ \"Connect\" ཨེབ་ནི་དང་ཁྱོད་རང་གི་ཆོག་ཡིག་བཙུགས་གནང་།"
+
+#: ../eplugin/syncui.glade.h:7
+msgid "We will now try to connect to the Scalix server to synchronize data with it. "
+msgstr "ང་བཅས་ཀྱིས་འདི་དང་གཅིག་ཁར་གནས་སྡུད་མཉམ་འབྱུང་འབད་ནི་ལུ་སི་ཀེ་ལིསི་སར་བར་འདི་ལུ་མཐུད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་འོང་།"
+
+#: ../libescalix/scalix-camel-session.c:100
+msgid "Could not obtain password!\n"
+msgstr "ཆོག་ཡིག་ལེན་མ་ཚུགས!\n"
+

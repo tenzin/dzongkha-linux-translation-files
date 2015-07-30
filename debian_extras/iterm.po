@@ -1,0 +1,53 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iterm.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-30 07:36+0100\n"
+"PO-Revision-Date: 2006-11-30 14:34+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../fbiterm.templates:1001
+msgid "Do you want /usr/bin/fbiterm to be installed SUID root?"
+msgstr "ཁྱོད་ཀྱིས་  /usr/bin/fbiterm  འདི་ SUID རྩ་བ་འབད་གཞི་བཙུགས་འབད་དགོ་ནི་ཨིན་ན?"
+
+#. Type: boolean
+#. Description
+#: ../fbiterm.templates:1001
+msgid "You have the option of installing the /usr/bin/fbiterm binary with the SUID bit set.  By setting 'SUID root', non-root users may run fbiterm directly."
+msgstr "ཁྱོད་ལུ་  /usr/bin/fbiterm ཟུང་ལྡན་འདི་ ཨེསི་ཡུ་ཨའི་ཌི་ བིཊི་ཆ་ཚན་དང་གཅིག་ཁར་ གཞི་བཙུགས་འབད་ནི་གི་ གདམ་ཁ་ཡོད།  'SUID root' གཞི་སྒྲིག་འབད་ཐོག་ རྩ་བ་མིན་པའི་ལག་ལེན་པ་ཚུ་  fbiterm ཐད་ཀར་དུ་གཡོག་བཀོལ་འོང་།"
+
+#. Type: boolean
+#. Description
+#: ../fbiterm.templates:1001
+msgid "This can open security concerns: fbiterm may contain undiscovered security flaws which malicious users may exploit if fbiterm is set SUID root."
+msgstr "འ་ནི་འདི་གིས་ སྲུང་སྐྱོབ་ཀྱི་ཚ་གྱང་ཚུ་ཁ་ཕྱེཝ་ཨིན་:  fbiterm འདི་ནང་ གསར་རྙེད་མ་འབད་བའི་ སྲུང་སྐྱོབ་ཀྱི་སྐྱོན་ ལག་ལེན་པ་ངན་སེམས་ཅན་འདི་ཚུ་གིས་  fbiterm འདི་ ཨེསི་ཡུ་ཨའི་ཌི་ རྩ་བ་སྦེ་གཞི་སྒྲིག་འབད་ཡོདཔ་ཨིན་པ་ཅིན་ ཉེས་བཀོལ་འབད་ནི་ཨིན་མི་ཚུ་འོང་།"
+
+#. Type: boolean
+#. Description
+#: ../fbiterm.templates:1001
+msgid "You should install fbiterm with SUID bit set unless you do not intend to use it regularly.  You may change this setting by running \"dpkg-reconfigure fbiterm\"."
+msgstr "ཁྱོད་ཀྱིས་ fbiterm འདི་ ཨེསི་ཡུ་ཨའི་ཌི་ བིཊི་དང་གཅིག་ཁར་ ཁྱོད་ཀྱིས་དུས་རྒྱུན་དུ་ལག་ལེན་འཐབ་ནིའི་རེ་བ་མ་བསྐྱེད་ཚུན་ གཞི་བཙུགས་འབད་དགོ། ཁྱོད་ཀྱིས་ འ་ནི་སྒྲིག་སྟངས་འདི་  \"dpkg-reconfigure fbiterm\" གཡོག་བཀོལ་ཐོག་ བསྒྱུར་བཅོས་འབད་ཚུགས།"
+

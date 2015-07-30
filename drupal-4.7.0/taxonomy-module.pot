@@ -1,0 +1,274 @@
+# LANGUAGE translation of Drupal (modules/taxonomy.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: taxonomy.module,v 1.275.2.8 2006/06/01 01:04:07 killes
+# sonam rinchen <somindruk@druknet.bt>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: taxonomy-module.pot\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-27 17:30+0530\n"
+"Last-Translator: sonam rinchen <somindruk@druknet.bt>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/taxonomy.module:65
+msgid "add vocabulary"
+msgstr "མིང་ཚིག་གི་ཐོ་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/taxonomy.module:71;134
+msgid "edit vocabulary"
+msgstr "མིང་ཚིག་གི་ཐོ་ཞུན་དག་རྐྱབས།"
+
+#: modules/taxonomy.module:77
+msgid "edit term"
+msgstr "ཐ་སྙད་ཞུན་དག་རྐྱབས།"
+
+#: modules/taxonomy.module:83
+msgid "taxonomy term"
+msgstr "དབྱེ་བསལ་བྱ་རིམ་གྱི་ཐ་སྙད།"
+
+#: modules/taxonomy.module:89
+msgid "autocomplete taxonomy"
+msgstr "རང་བཞིན་ཡོངས་བསྒྲུབས་དབྱེ་བསལ་བྱ་རིམ།"
+
+#: modules/taxonomy.module:97;135
+msgid "list terms"
+msgstr "ཐ་སྙད་ཚུ་ཐོ་བཀོད་འབད།"
+
+#: modules/taxonomy.module:109
+msgid "add term"
+msgstr "ཐ་སྙད་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/taxonomy.module:136
+msgid "add terms"
+msgstr "ཐ་སྙད་ཚུ་ཁ་སྐོང་རྐྱབས།"
+
+#: modules/taxonomy.module:140
+msgid "No categories available."
+msgstr "དབྱེ་རིམ་ཚུ་ཐོབ་མི་ཚུགས།"
+
+#: modules/taxonomy.module:172
+msgid "No terms available."
+msgstr "ཐ་སྙད་ཚུ་ཐོབ་མི་ཚུགས།"
+
+#: modules/taxonomy.module:190
+msgid "Vocabulary name"
+msgstr "མིང་ཚིག་གི་ཐོའི་མིང་།"
+
+#: modules/taxonomy.module:193
+msgid "The name for this vocabulary.  Example: \"Topic\"."
+msgstr "མིང་ཚིག་གི་ཐོ་འདི་གི་དོན་ལུ་མིང་། དཔེར་ན་: \"Topic\"."
+
+#: modules/taxonomy.module:199
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "མིང་ཚིག་གི་ཐོའི་འགྲེལ་བཤད། ཚད་གཞི་ཚུ་གིས་ལག་ལེན་འཐབ་ཚུགས།"
+
+#: modules/taxonomy.module:202
+msgid "Help text"
+msgstr "གྲོགས་རམ་ཚིག་ཡིག།"
+
+#: modules/taxonomy.module:205
+msgid "Instructions to present to the user when choosing a term."
+msgstr "ཐ་སྙད་གདམ་ཁ་བརྐྱབ་པའི་སྐབས་ལག་ལེན་པ་ལུ་སྤྲོད་ནིའི་བསླབ་སྟོན་ཚུ།"
+
+#: modules/taxonomy.module:208
+msgid "Types"
+msgstr "དབྱེ་བ་ཚུ།"
+
+#: modules/taxonomy.module:211
+msgid "A list of node types you want to associate with this vocabulary."
+msgstr "མིང་ཚིག་གི་ཐོ་འདི་དང་གཅིག་ཁར་ཁྱོད་ཀྱིས་འབྲེལ་བ་འབད་ནི་ཨིན་མི་ནོཌི་དབྱེ་བ་ཚུའི་ཐོ་ཡིག།"
+
+#: modules/taxonomy.module:215
+msgid "Hierarchy"
+msgstr "སྡེ་རིམ།"
+
+#: modules/taxonomy.module:217
+msgid "Single"
+msgstr "རྐྱང་པ།"
+
+#: modules/taxonomy.module:217
+msgid "Multiple"
+msgstr "སྣ་མང་།"
+
+#: modules/taxonomy.module:218
+msgid "Allows <a href=\"%help-url\">a tree-like hierarchy</a> between terms of this vocabulary."
+msgstr "མིང་ཚིག་ཐོ་ཡིག་འདི་གི་ཐ་སྙད་ཚུའི་བར་ན་<a href=\"%help-url\">སྡེ་རིམ་བཟུམ་-རྩ་འབྲེལ་</a> འབད་བཅུགཔ་ཨིན།"
+
+#: modules/taxonomy.module:221;375
+msgid "Related terms"
+msgstr "འབྲེལ་བ་ཡོད་པའི་ཐ་སྙད་ཚུ།"
+
+#: modules/taxonomy.module:223
+msgid "Allows <a href=\"%help-url\">related terms</a> in this vocabulary."
+msgstr "མིང་ཚིག་གི་ཐོ་འདི་ནང་ <a href=\"%help-url\">འབྲེལ་བ་ཡོད་པའི་ཐ་སྙད་ཚུ་</a> འབད་བཅུགཔ་ཨིན།"
+
+#: modules/taxonomy.module:226
+msgid "Free tagging"
+msgstr "རང་དབང་གི་ངོ་རྟགས་སྦྱར་ནི།"
+
+#: modules/taxonomy.module:228
+msgid "Content is categorized by typing terms instead of choosing from a list."
+msgstr "ནང་དོན་འདི་ ཐོ་ཡིག་ལས་གདམ་ཁ་བརྐྱབ་ནིའི་ཚབ་ལུ་ ཐ་སྙད་ཚུ་ཡིག་དཔར་བརྐྱབ་ཐོག་ལས་དབྱེ་རིམ་བཟོཝ་ཨིན།"
+
+#: modules/taxonomy.module:231
+msgid "Multiple select"
+msgstr "སྣ་མང་སེལ་འཐུ།"
+
+#: modules/taxonomy.module:233
+msgid "Allows nodes to have more than one term from this vocabulary (always true for free tagging)."
+msgstr "ནོཌོསི་ལུ་མིང་ཚིག་གི་ཐོ་འདི་ལས་ཐ་སྙད་གཅིག་ལས་ལྷག་སྟེ་བཞག་བཅུགཔ་ཨིན་  (རང་དབང་ངོ་རྟགས་སྦྱར་ནིའི་དོན་ལུ་ཨ་རྟག་རང་བདེན་)."
+
+#: modules/taxonomy.module:238
+msgid "If enabled, every node <strong>must</strong> have at least one term in this vocabulary."
+msgstr "ལྕོགས་ཅན་ཨིན་པ་ཅིན་ <strong>མིང་ཚིག་གི་ཐོ་འདི་ནང་</strong> ནོཌོ་རེ་རེ་ལུ་ཐ་སྙད་གཅིག་ཙམ་ངེས་པར་འོང་དགོ།"
+
+#: modules/taxonomy.module:243
+msgid "In listings, the heavier vocabularies will sink and the lighter vocabularies will be positioned nearer the top."
+msgstr "ཐོ་ཡིག་ཚུ་ནང་ ལྗིད་ཅན་མིང་ཚིག་གི་ཐོ་ཚུ་འཛུལ་ནི་དང་ལྗིད་ཡང་བའི་མིང་ཚིག་གི་ཐོ་ཚུ་མགོའི་སྦོ་ལོག་ཁར་བཞག་འོང་།"
+
+#: modules/taxonomy.module:272
+msgid "Created new vocabulary %name."
+msgstr "གསར་བསྐྲུན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་གསརཔ་%name."
+
+#: modules/taxonomy.module:275
+msgid "Updated vocabulary %name."
+msgstr "དུས་མཐུན་བཟོ་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ %name།"
+
+#: modules/taxonomy.module:335
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "ཁྱོད་ཀྱིས་མིང་ཚིག་གི་ཐོ་ %title རྩ་བསྐྲད་གཏང་ནི་འདི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/taxonomy.module:337
+msgid "Deleting a vocabulary will delete all the terms in it. This action cannot be undone."
+msgstr "མིང་ཚིག་གི་ཐོ་བཏོན་གཏང་ནི་འདི་གིས་དེ་ནང་ཐ་སྙད་ཚུ་ཆ་མཉམ་བཏོན་གཏང་འོང་། བྱ་བ་འདི་འབད་བཤོལ་འབད་མི་བཏུབ།"
+
+#: modules/taxonomy.module:344
+msgid "Deleted vocabulary %name."
+msgstr "བཏོན་གཏང་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་%name."
+
+#: modules/taxonomy.module:352
+msgid "Term name"
+msgstr "ཐ་སྙད་ཀྱི་མིང་།"
+
+#: modules/taxonomy.module:352
+msgid "The name for this term.  Example: \"Linux\"."
+msgstr "ཐ་སྙད་འདི་གི་དོན་ལུ་མིང་། དཔེར་ན་: \"Linux\""
+
+#: modules/taxonomy.module:354
+msgid "A description of the term."
+msgstr "ཐ་སྙད་ཀྱི་འགྲེལ་བཤད།"
+
+#: modules/taxonomy.module:367
+msgid "Parent term"
+msgstr "རྩ་ལག་ཐ་སྙད།"
+
+#: modules/taxonomy.module:370
+msgid "Parents"
+msgstr "རྩ་ལག་ཚུ།"
+
+#: modules/taxonomy.module:370
+msgid "Parent terms"
+msgstr "རྩ་ལག་ཐ་སྙད་ཚུ།"
+
+#: modules/taxonomy.module:378
+msgid "Synonyms"
+msgstr "མིང་གི་རྣམ་གྲངས་ཚུ།"
+
+#: modules/taxonomy.module:378
+msgid "<a href=\"%help-url\">Synonyms</a> of this term, one synonym per line."
+msgstr "<a href=\"%help-url\">ཐ་སྙད་འདི་གི་མིང་གི་རྣམ་གྲངས་ཚུ་</a> གྲལ་ཐིག་རེ་ལུ་མིང་གི་རྣམ་གྲངས་གཅིག།"
+
+#: modules/taxonomy.module:379
+msgid "In listings, the heavier terms will sink and the lighter terms will be positioned nearer the top."
+msgstr "ཐོ་ཡིག་ཚུ་ནང་ ལྗིད་ཅན་ཐ་སྙད་ཚུ་འཛུལ་ནི་དང་ལྗིད་ཡང་བའི་ཐ་སྙད་ཚུ་མཀོའི་སྦོ་ལོག་ཁར་བཞག་འོང་།"
+
+#: modules/taxonomy.module:411
+msgid "Created new term %term."
+msgstr "གསར་བསྐྲུན་འབད་ཡོད་པའི་ཐ་སྙད་གསརཔ་ %term."
+
+#: modules/taxonomy.module:414
+msgid "The term %term has been updated."
+msgstr "ཐ་སྙད་ %term འདི་དུས་མཐུན་བཟོ་ཡོདཔ།"
+
+#: modules/taxonomy.module:521
+msgid "Are you sure you want to delete the term %title?"
+msgstr "ཁྱོད་ཀྱིས་ཐ་སྙད་ %title བཏོན་གཏང་ནི་འདི་ངེས་ཏིག་ཨིན་ན?"
+
+#: modules/taxonomy.module:524
+msgid "Deleting a term will delete all its children if there are any. This action cannot be undone."
+msgstr "ཐ་སྙད་བཏོན་གཏང་ནི་འདི་གིས་ དེའི་ཆ་ལག་ཚུ་གང་རུང་ཡོད་པ་ཅིན་ཆ་མཉམ་བཏོན་གཏང་འོང་། བྱ་བ་འདི་འབད་བཤོལ་འབད་མི་བཏུབ།"
+
+#: modules/taxonomy.module:531
+msgid "Deleted term %name."
+msgstr "བཏོན་གཏང་ཡོད་པའི་ཐ་སྙད་ %name."
+
+#: modules/taxonomy.module:639
+msgid "A comma-separated list of terms describing this content.  Example: funny, bungee jumping, \"Company, Inc.\"."
+msgstr "ལྷོད་རྟགས་-ནང་དོན་འདི་འགྲེལ་བཤད་བརྐྱབ་ནིའི་ཐ་སྙད་ཚུ་གི་ཐོ་ཡིག་སོ་སོ་འཕྱལ་འཕྱལཝ། དཔེར་ན་: funny, bungee jumping, \"Company, Inc.\"."
+
+#: modules/taxonomy.module:710
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "%name མིང་ཚིག་གི་ཐོ་འདི་ཐབས་ལམ་འདི་བཟུམ་སྦེ་ལེགས་བཅོས་འབད་མི་བཏུབ།"
+
+#: modules/taxonomy.module:1147
+msgid "There are currently no posts in this category."
+msgstr "ད་ལྟོ་དབྱེ་རིམ་འདི་ནང་འགྲེམ་སྐྱེལ་ཚུ་མེད།"
+
+#: modules/taxonomy.module:1307
+msgid "The taxonomy module is one of the most popular features because users often want to create categories to organize content by type. It can automatically classify new content, which is very useful for organizing content on-the-fly. A simple example would be organizing a list of music reviews by musical genre."
+msgstr "དབྱེ་བསལ་བྱ་རིམ་ཚད་གཞི་འདི་ཡོངས་གྲགས་ཅན་གྱི་ཁྱད་རྣམ་ཚུ་ལས་གཅིག་ཨིན་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ལག་ལེན་པ་ཚུ་གིས་འཕྲལ་འཕྲལ་རང་ དབྱེ་བ་གི་ཐོག་ལས་ནང་དོན་འགོ་འདྲེན་འཐབ་ནི་ལུ་དབྱེ་རིམ་ཚུ་གསར་བསྐྲུན་འབད་དགོཔ་ཨིན། དེ་ནང་དོན་བར་འབྱུང་སྦེ་འགོ་འདྲེན་འཐབ་ནིའི་དོན་ལུ་ན་མེད་ས་མེད་ཕན་ཐོགས་ཅན་ཨིན་མི་ ནང་དོན་གསརཔ་རང་བཞིན་གྱིས་དབྱེ་བ་བཟོ་ཚུགས། དཔེར་བརྗོད་འཇམ་སམ་འདི་སྙན་ཆའི་རིགས་ཀྱི་ཐོག་ལས་སྙན་ཆའི་སྔོན་ལྟ་ཚུའི་ཐོ་ཡིག་འགོ་འདྲེན་འཐབ་ནི་འདི་ཨིནམ་འོང་།"
+
+#: modules/taxonomy.module:1308
+msgid "Taxonomy is also the study of classification. The taxonomy module allows you to define vocabularies (sets of categories) which are used to classify content. The module supports hierarchical classification and association between terms, allowing for truly flexible information retrieval and classification. The taxonomy module allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms) and taxonomies (controlled vocabularies where relationships are indicated hierarchically). To view and manage the terms of each vocabulary, click on the associated <em>list terms</em> link. To delete a vocabulary and all its terms, choose <em>edit vocabulary.</em>"
+msgstr "ཡང་དབྱེ་བསལ་བྱ་རིམ་འདི་དབྱེ་བ་བཟོ་ནིའི་སློབ་སྦྱོང་ཅིག་ཨིན། དབྱེ་བསལ་བྱ་རིམ་ཚད་གཞི་འདི་གིས་ཁྱོད་ལུ་ནང་དོན་དབྱེ་བ་བཟོ་ནི་ལུ་ལག་ལེན་འཐབ་མི་ མིང་ཚིག་གི་ཐོ་(དབྱེ་རིམ་ཚུའི་ཆ་ཚན་)ངེས་འཛིན་འབད་བཅུགཔ་ཨིན། ཚད་གཞི་འདི་གིས་ དབྱེ་བ་བཟོ་ནི་དང་ངེས་བདེན་སྦེ་བྱ་སྟབས་བདེ་ཏོག་ཏོ་གི་བརྡ་དོན་སླར་འདྲེན་གྱི་དོན་ལས་འབད་བཅུག་མི་ ཐ་སྙད་ཚུའི་བར་ན་ཚོགས་པ་དང་སྡེ་རིམ་གྱི་དབྱེ་བ་བཟོ་ནི་ལུ་རྒྱབ་བསྐྱོར་འབདཝ་ཨིན། དབྱེ་བསལ་བྱ་རིམ་ཚད་གཞི་འདི་གིས་(མཐུན་འབྲེལ་ཚུ་སྡེ་རིམ་སྦེ་བརྡ་སྟོན་ཡོད་མི་ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ཚུ་)དབྱེ་བསར་བྱ་རིམ་ཚུ་དང་ (ཐ་སྙད་ཚུའི་མཐུན་འབྲེལ་བརྡ་སྟོན་མི་ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ཚུ་)མངོན་བརྗོད་གསར་བསྐྲུན་འབད་ནི་གི་གོ་སྐབས་བྱིན་མི་དང་(ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ཚུ་)དབྱེ་བ་བཟོ་ནིའི་དོན་ལས་དབྱེ་རིམ་ཚུའི་སྣ་མང་ཐོ་ཡིག་ཚུ་འབད་བཅགཔ་ཨིན། མིང་ཚིག་གི་ཐོ་རེ་རེའི་ཐ་སྙད་ཚུ་འཛིན་སྐྱོང་དང་སྟོན་ནི་ལུ་ <em>འབྲེལ་བའི་ཐོ་ཡིག་ཐ་སྙད་ཚུའི་འབྲེལ་ལམ་གུ་ཨེབ་གཏང་།</em> མིང་ཚིག་གི་ཐོ་དང་དེའི་ཐ་སྙད་ཚུ་ཆ་མཉམ་བཏོན་གཏང་ནི་ལུ་ <em>མིང་ཚིག་གི་ཐོ་ཞུན་དག་རྐྱབས་ གདམ་ཁ་རྐྱབས།</em>"
+
+#: modules/taxonomy.module:1309
+msgid "A controlled vocabulary is a set of terms to use for describing content (known as descriptors in indexing lingo). Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to Slashdot's sections. For more complex implementations, you might create a hierarchical list of categories."
+msgstr "ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་འདི་(ཟུར་སྦྲགས་འབད་ནིའི་ཁ་སྐད་ནང་འགྲེལ་བཤད་པ་ཟེར་སླབ་མི་)ནང་དོན་ནང་འགྲེལ་བཤད་འབད་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་ནི་ལུ་ཐ་སྙད་ཚུ་གི་ཆ་ཚན་ཅིག་ཨིན། ཌུ་པཱལ་འདི་གིས་ཁྱོད་ལུ་(ཝེབ་དྲན་དེབ་ སྲུང་ ལ་སོགས་པའི་) ཐ་སྙད་འདི་ཚུ་ལས་གཅིག་ ཡང་ན་ ལེ་ཤ་ལག་ལེན་འཐབ་ཐོག་ལས་ ནང་དོན་གི་པིསི་རེ་རེ་འགྲེལ་བཤད་འབད་བཅུགཔ་ཨིན། འཇམ་སམ་སྦེ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ ཡང་ཅིན་ཁྱོད་ཀྱིས་གཡོ་ཤད་ཚག་ཚུའི་དབྱེ་ཚན་བཟུམ་སྦེ་ ཡན་ལག་དབྱེ་རིམ་མེད་པར་དབྱེ་རིམ་ཚུའི་ཆ་ཚན་གསར་བསྐྲུན་འབད། ཧེང་བཀལ་གོ་དཀའ་བ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ ཡང་ཅིན་ཁྱོད་ཀྱིས་དབྱེ་རིམ་ཚུའི་སྡེ་རིམ་གྱི་ཐོ་ཡིག་གསར་བསྐྲུན་འབད།"
+
+#: modules/taxonomy.module:1310
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>add a vocabulary at <a href=\"%admin-taxonomy-add-vocabulary\">administer &gt;&gt; categories &gt;&gt;  add vocabulary</a>.</li>\n"
+"<li>administer taxonomy at <a href=\"%admin-taxonomy\">administer &gt;&gt; categories</a>.</li>\n"
+"<li>restrict content access by category for specific users roles using the <a href=\"%external-http-drupal-org-project-taxonomy_access\">taxonomy access module</a>.</li>\n"
+"<li>build a custom view of your categories using the <a href=\"%external-http-drupal-org-project-taxonomy_browser\">taxonomy browser</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>ཁྱོད་ཀྱིས་</p>\n"
+"<ul>\n"
+"<li>མིང་ཚིག་གི་ཐོ་འདི་ <a href=\"%admin-taxonomy-add-vocabulary\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; དབྱེ་རིམ་ཚུའི་ &gt;&gt;  ཁ་སྐོང་མིང་ཚིག་གི་ཐོ་ལུ་ཁ་སྐོང་རྐྱབས།</a>.</li>\n"
+"<li>བདག་སྐྱོང་འཐབ་ནིའི་དབྱེ་བསལ་བྱ་རིམ་འདི་ <a href=\"%admin-taxonomy\">བདག་སྐྱོང་འཐབ་ནིའི་ &gt;&gt; དབྱེ་རིམ་ཚུ་ལུ་ཁ་སྐོང་རྐྱབས།</a>.</li>\n"
+"<li>དབྱེ་བསལ་བྱ་རིམ་འཛུལ་སྤྱོད་འབད་ནིའི་ཚད་གཞི་ལག་ལེན་འཐབ་ཐོག་ལས་ <a href=\"%external-http-drupal-org-project-taxonomy_access\">དམིགས་བསལ་ལག་ལེན་པའི་ཚུའི་ལས་འགན་ཚུའི་དོན་ལས་དབྱེ་རིམ་གྱི་ཐོག་ལས་ནང་དོན་འཛུལ་སྤྱོད་བཀག་དམ་འབད།</a>.</li>\n"
+"<li>དབྱེ་བསལ་བྱ་རིམ་གྱི་བརའུ་ཟར་ལག་ལེན་འཐབ་ཐོག་ལས་ <a href=\"%external-http-drupal-org-project-taxonomy_browser\">ཁྱོད་ཀྱི་དབྱེ་རིམ་ཚུ་གི་སྲོལ་སྒྲིག་མཐོང་སྣང་བཟོ།</a>.</li>\n"
+"</ul>\n"
+
+#: modules/taxonomy.module:1318
+msgid "For more information please read the configuration and customization handbook <a href=\"%taxonomy\">Taxonomy page</a>."
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་རིམ་སྒྲིག་དང་སྲོལ་སྒྲིག་འབད་ནིའི་ལག་དེབ་<a href=\"%taxonomy\">དབྱེ་བསལ་བྱ་རིམ་གྱི་ཤོག་ལེབ་ལྷག་གནང་།</a>."
+
+#: modules/taxonomy.module:1321
+msgid "Enables the categorization of content."
+msgstr "ནང་དོན་གྱི་དབྱེ་རིམ་བཟོ་ནི་འདི་ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: modules/taxonomy.module:1323
+msgid "<p>The taxonomy module allows you to classify content into categories and subcategories; it allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms), taxonomies (controlled vocabularies where relationships are indicated hierarchically), and free vocabularies where terms, or tags, are defined during content creation. To view and manage the terms of each vocabulary, click on the associated <em>list terms</em> link. To delete a vocabulary and all its terms, choose \"edit vocabulary\".</p>"
+msgstr "<p>དབྱེ་བསལ་བྱ་རིམ་འདི་གིས་ཁྱོད་ལུ་དབྱེ་རིམ་ཚུ་དང་ཡན་ལག་དབྱེ་རིམ་ཚུ་ནང་ལུ་ནང་དོན་དབྱེ་བ་བཟོ་བཅུགཔ་ཨིན། དེ་གིས་ ཐ་སྙད་ཚུ་ ཡང་ན་ ངོ་རྟགས་ཚུ་ནང་དོན་གསར་བསྐྲུན་གྱི་སྐབས་སུ་ངེས་འཛིན་འབད་ཡོད་མི་རང་དབང་གི་མིང་ཚིག་གི་ཐོ་དང་ དབྱེ་བསལ་བྱ་རིམ་ཚུ་ (མཐུན་འབྲེལ་ཚུ་སྡེ་རིམ་སྦེ་བརྡ་སྟོན་ཡོད་མི་ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ཚུ་) (ཐ་སྙད་ཚུ་གི་མཐུན་འབྲེལ་བརྡ་སྟོན་མི་ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ཚུ་)མངོན་བརྗོད་གསར་བསྐྲུན་འབད་ནི་གི་གོ་སྐབས་བྱིན་མི་དང་ (ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་ཚུ་)དབྱེ་བ་བཟོ་ནིའི་དོན་ལས་དབྱེ་རིམ་གྱི་སྣ་མང་ཐོ་ཡིག་ཚུ་འབད་བཅུགཔ་ཨིན། མིང་ཚིག་གི་ཐོ་རེ་རེའི་ཐ་སྙད་ཚུ་འཛིན་སྐྱོང་དང་སྟོན་ནི་ལུ་  <em>འབྲེལ་བའི་ཐོ་ཡིག་ཐ་སྙད་ཚུའི་འབྲེལ་ལམ་</em> ཨེབ་གཏང་། མིང་ཚིག་གི་ཐོ་དང་དེའི་ཐ་སྙད་ཚུ་ཆ་མཉམ་བཏོན་གཏང་ནི་ལུ་ \"edit vocabulary\" གདམ་ཁ་རྐྱབས།</p>"
+
+#: modules/taxonomy.module:1325
+msgid "<p>When you create a controlled vocabulary you are creating a set of terms to use for describing content (known as descriptors in indexing lingo).  Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to Slashdot.org's or Kuro5hin.org's sections. For more complex implementations, you might create a hierarchical list of categories.</p>"
+msgstr "<p>ཁྱོད་ཀྱིས་ཚད་འཛིན་འབད་ཡོད་པའི་མིང་ཚིག་གི་ཐོ་གསར་བསྐྲུན་འབདཝ་ད་ (ཟུར་སྦྲགས་འབད་ནིའི་ཁ་སྐད་ནང་འགྲེལ་བཤད་པ་ཟེར་སླབ་མི་) ནང་དོན་འགྲེལ་བཤད་བརྐྱབ་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་ནི་ལུ་ཁྱོད་ཀྱིས་ཐ་སྙད་ཚུ་གི་ཆ་ཚན་གསར་བསྐྲུན་འབདཝ་ཨིན། ཌུ་པཱལ་གྱིས་ཁྱོད་ལུ་ (ཝེབ་དྲན་དེབ་དང་སྲུང་ལ་སོགས་པའི་) ཐ་སྙད་ཚུ་གཅིག་ཡང་ན་ལེ་ཤ་ལག་ལེན་འཐབ་ཐོག་ལས་ ནང་དོན་གྱི་པིསི་རེ་རེ་འགྲེལ་བཤད་འབད་བཅུགཔ་ཨིན། འཇམ་སམ་སྦེ་ལག་ལེན་འཐབ་ནི་ལུ་ ཡང་ན་ཁྱོད་ཀྱིས་ Slashdot.org's ཡང་ན་ Kuro5hin.org's དབྱེ་ཚན་ཚུ་ཆ་འདྲཝ་སྦེ་ ཡན་ལག་དབྱེ་རིམ་ཚུ་མེད་པར་དབྱེ་རིམ་ཚུའི་ཆ་ཚན་གསར་བསྐྲུན་འབད། ཧེང་བཀལ་གོ་དཀའ་བ་ལག་ལེན་འཐབ་ནི་ལུ་ ཡང་ན་ཁྱོད་ཀྱིས་དབྱེ་རིམ་ཚུའི་སྡེ་རིམ་གྱི་ཐོ་ཡིག་གསར་བསྐྲུན་འབད།</p>"
+
+#: modules/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "བདག་སྐྱོང་འཐབ་ནིའི་དབྱེ་བསལ་བྱ་རིམ།"
+

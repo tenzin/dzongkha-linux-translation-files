@@ -1,0 +1,335 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is Mozilla Communicator client code, released
+# March 31, 1998.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998-1999
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Samir Gehani <sgehani@netscape.com>
+#   Daniel Veditz <dveditz@netscape.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/toolkit/chrome/global/xpinstall/xpinstall.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: xinstall.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-16 14:43+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# --------------------------------------------------------------------
+#   Install Actions
+# --------------------------------------------------------------------
+#: InstallFile
+msgid "Installing: %s"
+msgstr "%sགཞི་བཙུགས་འབད་དོ།"
+
+#: InstallSharedFile
+msgid "Installing Shared File: %s"
+msgstr "རུབ་སྤྱོད་ཡིག་སྣོད་:%s གཞི་བཙུགས་འབད་དོ་"
+
+#: ReplaceFile
+msgid "Replacing: %s"
+msgstr "%sཚབ་བཙུགས་དོ་"
+
+#: ReplaceSharedFile
+msgid "Replacing Shared File: %s"
+msgstr "རུབ་སྤྱོད་ཡིག་སྣོད་%sགི་ཚབ་བཙུགས་དོ་"
+
+#: SkipFile
+msgid "Skipping: %s"
+msgstr "%sགོམ་འགྱོ་དོ་"
+
+#: SkipSharedFile
+msgid "Skipping Shared File: %s"
+msgstr "རུབ་སྤྱོད་ཡིག་སྣོད་%sགོམ་འགྱོ་དོ་"
+
+#: DeleteFile
+msgid "Deleting file: %s"
+msgstr "ཡིག་སྣོད་%sབཏོན་གཏང་དོ་"
+
+#: DeleteComponent
+msgid "Deleting component: %s"
+msgstr "ཆ་ཤས་%sབཏོན་གཏང་དོ་"
+
+#: Execute
+msgid "Executing: %s"
+msgstr "%sལག་ལེན་འཐབ་དོ་"
+
+#: ExecuteWithArgs
+msgid "Executing: %s with argument: %s"
+msgstr "%sདེ་ སྒྲུབ་རྟགས་%sདང་གཅིག་ཁར་ ལག་ལེན་འཐབ་དོ་"
+
+#: CopyFile
+msgid "Copy File: %s to %s"
+msgstr "ཡིག་སྣོད་ %s ལས་ %s ལུ་ འདྲ་བཤུས་རྐྱབས་"
+
+#: ExecuteFile
+msgid "Execute File: %s"
+msgstr "ཡིག་སྣོད་%sལགལེན་འཐབ་"
+
+#: ExecuteFileWithArgs
+msgid "Execute File: %s with argument: %s"
+msgstr "ཡིག་སྣོད་%sདེ་ སྒྲུབ་རྟགས་%sགི་ཐོག་ལས་ ལག་ལེན་འཐབ་"
+
+#: MoveFile
+msgid "Move File: %s to %s"
+msgstr "ཡིག་སྣོད་%sལས་%sལུ་སྤོ་"
+
+#: RenameFile
+msgid "Rename File: %s to %s"
+msgstr "ཡིག་སྣོད་%sལས་%sལུ་ བསྐྱར་མིང་བཏགས།"
+
+#: CreateFolder
+msgid "Create Folder: %s"
+msgstr "སྣོད་འཛིན་%sགསརལ་བསྐྲུན་འབད་"
+
+#: RemoveFolder
+msgid "Remove Folder: %s"
+msgstr "སྣོད་འཛིན་%sརྩ་བསྐྲད་གཏང་"
+
+#: RenameFolder
+msgid "Rename Folder: %s to %s"
+msgstr "སྣོད་འཛིན་%sལས་%sལུ་བསྐྱར་མིང་བཏགས་"
+
+#: WindowsShortcut
+msgid "Windows Shortcut: %s"
+msgstr "སྒོ་སྒྲིག་གི་མགྱོགས་ཐབས་:%s་"
+
+#: MacAlias
+msgid "Mac Alias: %s"
+msgstr "མེཀ་གི་མིང་གཞན་: %s་"
+
+#: WindowsRegisterServer
+msgid "Windows Register Server: %s"
+msgstr "སྒོ་སྒྲིག་གི་ཐོ་འགོད་སར་བར་:%s་"
+
+#: UnknownFileOpCommand
+msgid "Unknown file operation command!"
+msgstr "མ་ཤེས་པའི་ཡིག་སྣོད་བཀོལ་སྤྱོད་བརྡ་བཀོད།"
+
+#: Patch
+msgid "Patching: %s"
+msgstr "%sལུ་ལྷན་པ་བཏབ་དོ་"
+
+#: Uninstall
+msgid "Uninstalling: %s"
+msgstr "%sགཞི་བཙུགས་བཤོལ་དོ་"
+
+#: RegSkin
+msgid "Register Skin: %s"
+msgstr "ཕྱི་ལྤགས་%sཐོ་འགོད་འབད་"
+
+#: RegLocale
+msgid "Register Locale: %s"
+msgstr "ལོ་ཀེལ་%sཐོ་འགོད་འབད་"
+
+#: RegContent
+msgid "Register Content: %s"
+msgstr "ནང་དོན་%sཐོ་འགོད་འབད་"
+
+#: RegPackage
+msgid "Register Package: %s"
+msgstr "ཐུམ་སྒྲིལ་%sཐོ་འགོད་འབད་"
+
+# --------------------------------------------------------------------
+#   Dialog Messages
+# --------------------------------------------------------------------
+#: ApplyNowSkin
+msgid "Use this theme"
+msgstr "བརྗོད་དོན་འདི་ལག་ལེན་འཐབ་"
+
+#: ApplyNowLocale
+msgid "Use this locale"
+msgstr "ལོ་ཀེལ་འདི་ལག་ལེན་འཐབ་"
+
+#: ConfirmSkin
+msgid "Install the theme \"%1$S\" from %2$S?"
+msgstr "བརྗོད་དོན་\"%1$S\"གཞི་བཙུགས་འབད་ནི་ཨིན་ན་ %2$Sནང་ལས།"
+
+#: ConfirmLocale
+msgid "Install the locale \"%1$S\" from %2$S?"
+msgstr "ལོ་ཀེལ་\"%1$S\"གཞི་བཙུགས་འབད་ནི་ཨིན་ན་ %2$Sནང་ལས།"
+
+#: OK
+msgid "Install"
+msgstr "གཞི་བཙུགས་འབད་"
+
+#: progress.queued
+msgid "Queued"
+msgstr "གྱལ་རིམ་བསྒྲིག་ཡོདཔ་"
+
+#: progress.downloading
+msgid "Downloading..."
+msgstr "ཕབ་ལེན་འབད་དོ་་་་"
+
+#: progress.downloaded
+msgid "Downloaded"
+msgstr "ཕབ་ལེན་འབད་ཡོད་"
+
+#: progress.installing
+msgid "Installing..."
+msgstr "གཞི་བཙུགས་འབད་དོ་་་་"
+
+#: Unsigned
+msgid "Unsigned"
+msgstr "མིང་རྟགས་མ་བཀོདཔ་"
+
+# --------------------------------------------------------------------
+#   Miscellaneous
+# --------------------------------------------------------------------
+#: ERROR
+msgid "ERROR"
+msgstr "འཛོལ་བ་"
+
+#: error0
+msgid "Success"
+msgstr "མཐར་འཁྱོལ་"
+
+#: error999
+msgid "Restart to complete"
+msgstr "མཇུག་བསྡུ་ནི་ལུ་ ལོག་འགོ་བཙུགས་"
+
+#: error-202
+msgid "Access denied"
+msgstr "འཛུལ་སྤྱོད་འབད་ནི་ལུ་ཉན་མ་བཏུབ།"
+
+#: error-203
+msgid ""
+"Unexpected installation error\n"
+"Review the Error Console log for more details."
+msgstr ""
+"རེ་བ་མེད་པའི་ གཞི་བཙུགས་འཛོལ་བ་\n"
+"ཁ་གསལ་གྱི་དོན་ལུ་ འཛོལ་བའི་མ་སྒྲོམ་དྲན་དེབ་དེ་བསྐྱར་ཞིབ་འབད།"
+
+#: error-204
+msgid "Install script not found"
+msgstr "གཞི་བཙུགས་ཀྱི་ཡིག་ཚུགས་ འཚོལ་མ་ཐོབ།"
+
+#: error-207
+msgid "Not a valid install package"
+msgstr "ནུས་ཅན་གྱི་གཞི་བཙུགས་ཐུམ་སྒྲིལ་ཅིག་མེན་པས།"
+
+#: error-208
+msgid "Invalid argument"
+msgstr "ནུས་མེད་སྒྲུབ་རྟགས་"
+
+#: error-210
+msgid "User cancelled"
+msgstr "ལག་ལེན་པ་ཆ་མེད་བཏང་ཡོད་"
+
+#: error-214
+msgid "Required file does not exist"
+msgstr "དགོ་མི་ཡིག་སྣོད་དེ་མིན་འདུག"
+
+#: error-215
+msgid "Read only"
+msgstr "ལྷག་ནི་ཙམ་"
+
+#: error-218
+msgid "AppleSingle extraction error"
+msgstr "ཨེ་པཱལ་སིང་གཱལ་ འཕྱིར་འདོན་གྱི་འཛོལ་བ་"
+
+#: error-219
+msgid "Invalid path"
+msgstr "ནུས་མེད་འགྲུལ་ལམ་"
+
+#: error-225
+msgid "EXTRACTION_FAILED"
+msgstr "ཕྱིར་འདོན་མ་བཏུབ་"
+
+#: error-227
+msgid "Cancelled"
+msgstr "ཆ་མེད་བཏང་ཡོད་"
+
+#: error-228
+msgid "Download error"
+msgstr "ཕབ་ལེན་གྱི་འཛོལ་བ་"
+
+#: error-229
+msgid "Script error"
+msgstr "ཡིག་ཚུགས་ཀྱི་འཛོལ་བ་"
+
+#: error-230
+msgid "Already exists"
+msgstr "ཧེ་མ་ལས་འདུག"
+
+#: error-235
+msgid "Out of space"
+msgstr "བར་སྟོང་གིས་བདའ་མི་ཟུན་པས།"
+
+#: error-239
+msgid "Chrome registration failed"
+msgstr "ཀོརོམ་ཐོ་འགོད་མ་བཏུབ།"
+
+#: error-240
+msgid "Unfinished install"
+msgstr "མཇུག་མ་བསྡུ་བའི་གཞི་བཙུགས་"
+
+#: error-260
+msgid "Signing could not be verified."
+msgstr "མིང་རྟགས་ཡོད་མི་དེ་ བདེན་སྦྱོར་འབད་མ་ཚུགས།"
+
+#: error-261
+msgid "Invalid file hash (possible download corruption)"
+msgstr "ནུས་མེད་ཡིག་སྣོད་ཨང་རྟགས་(ཕབ་ལེན་གྱི་ངན་ཅན་འོང་སྲིད)"
+
+#: error-262
+msgid "Unknown or invalid file hash type"
+msgstr "མ་ཤེས་པའམ་ ནུས་མེད་ཨང་རྟགས་ཀྱི་དབྱེ་བ་"
+
+#: error-299
+msgid "Out of memory"
+msgstr "དྲན་ཚད་ཀྱི་བདའ་མ་ཟུནམ་"
+
+# there are other error codes, either rare or obsolete,
+# that are not worth translating at this time.
+#: unknown.error
+msgid "Unexpected error %S"
+msgstr "རེ་བ་མེད་པའི་འཛོལ་བ་%S"
+
+#~ msgid ""
+#~ "Unexpected installation error\n"
+#~ "Review the JavaScript Console log for more details."
+#~ msgstr ""
+#~ "རེ་བ་མེད་པའི་་གཞི་བཙུགས་ཀྱི་འཛོལ་བ་\n"
+#~ "ཁ་གསལ་གྱི་དོན་ལུ་ ཇ་བ་སིཀིརཔཊི་མ་སྒྲོམ་དྲན་དེབ་ བསྐྱར་་ཞིབ་འབད་།"
+

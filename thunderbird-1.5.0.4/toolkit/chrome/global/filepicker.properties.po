@@ -1,0 +1,184 @@
+# extracted from dz-BT_orig/toolkit/chrome/global/filepicker.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: filepicker.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-10-30 16:04+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# LOCALIZATION NOTE FILE
+# --do not localize the extensions, only the titles
+#: allTitle
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ་"
+
+#: allFilter
+msgid "*"
+msgstr "*"
+
+#: htmlTitle
+msgid "HTML Files"
+msgstr "ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཡིག་སྣོད་ཚུ་"
+
+#: htmlFilter
+msgid "*.html; *.htm; *.shtml; *.xhtml"
+msgstr "*.html; *.htm; *.shtml; *.xhtml"
+
+#: textTitle
+msgid "Text Files"
+msgstr "ཚིག་ཡིག་ཡིག་སྣོད་ཚུ་"
+
+#: textFilter
+msgid "*.txt; *.text"
+msgstr "*.txt; *.text"
+
+#: imageTitle
+msgid "Image Files"
+msgstr "གཟུགས་བརྙན་ཡིག་སྣོད་ཚུ་"
+
+#: imageFilter
+msgid "*.jpg; *.jpeg; *.gif; *.png; *.bmp; *.xbm; *.ico"
+msgstr "*.jpg; *.jpeg; *.gif; *.png; *.bmp; *.xbm; *.ico"
+
+#: xmlTitle
+msgid "XML Files"
+msgstr "ཨེགསི་ཨེམ་ཨེལ་ ཡིག་སྣོད་ཚུ་"
+
+#: xmlFilter
+msgid "*.xml"
+msgstr "*.xml"
+
+#: xulTitle
+msgid "XUL Files"
+msgstr "ཨེགསི་ཡུ་ཨེལ་ ཡིག་སྣོད་ཚུ་"
+
+#: xulFilter
+msgid "*.xul"
+msgstr "*.xul"
+
+#: appsTitle
+msgid "Applications"
+msgstr "གློག་རིམ་ཚུ་"
+
+#: dirTextInputLabel
+#: promptNewDirMessage
+msgid "Directory name:"
+msgstr "སྣོད་ཐོའི་མིང་:"
+
+#: confirmTitle
+msgid "Confirm"
+msgstr "ངེས་དཔྱད་འབད་"
+
+#: confirmFileReplacing
+msgid ""
+"%S already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"%Sཧེ་མ་ལས་ར་འདུག།\n"
+"དེ་གི་ཚབ་མ་བཙུགས་ནི་ཨིན་ན?"
+
+#: openButtonLabel
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#: saveButtonLabel
+msgid "Save"
+msgstr "སྲུངས་"
+
+#: selectFolderButtonLabel
+msgid "Select"
+msgstr "སེལ་འཐུ་འབད་"
+
+#: noButtonLabel
+msgid "No"
+msgstr "མེན་"
+
+#: errorOpenFileDoesntExistTitle
+#: errorOpeningFileTitle
+msgid "Error opening %S"
+msgstr "%Sཁ་ཕྱེ་ནི་ལུ་འཛོལ་བ་"
+
+#: errorOpenFileDoesntExistMessage
+msgid "File %S doesn't exist"
+msgstr "ཡིག་སྣོད་%Sགནས་ཏེ་མིན་འདུག་"
+
+#: errorDirDoesntExistTitle
+msgid "Error accessing %S"
+msgstr "%Sལུ་འཛུལ་སྤྱོད་འབད་ནི་ལུ་འཛོལ་བ་"
+
+#: errorDirDoesntExistMessage
+msgid "Directory %S doesn't exist"
+msgstr "སྣོད་ཐོ་%Sགནས་ཏེ་མིན་འདུག"
+
+#: errorDirNotReadableMessage
+msgid "Directory %S is not readable or does not exist."
+msgstr "སྣོད་ཐོ་%Sདེ་ ལྷག་མ་བཏུབ་པའམ་ གནས་ཏེ་མིན་འདུག།"
+
+#: openWithoutPermissionMessage_file
+msgid "File %S is not readable"
+msgstr "ཡིག་སྣོད་%Sདེ་ལྷག་མི་བཏུབ་པས།"
+
+#: errorSavingFileTitle
+msgid "Error saving %S"
+msgstr "%Sབསྲུང་ནི་ལུ་འཛོལ་བ་"
+
+#: saveParentIsFileMessage
+msgid "%S is a file, can't save %S"
+msgstr "%Sདེ་ཡིག་སྣོད་ཅིག་ཨིན་པས། %Sབསྲུང་མི་ཚུགས།"
+
+#: saveParentDoesntExistMessage
+msgid "Path %S doesn't exist, can't save %S"
+msgstr "འགྲུལ་ལམ་%Sགནས་ཏེ་མིན་འདུག། %Sབསྲུང་མི་ཚུགས།"
+
+#: saveWithoutPermissionMessage_file
+msgid "File %S is not writable."
+msgstr "ཡིག་སྣོད་%Sདེ་ འབྲི་བཏུབ་མེན་པས།"
+
+#: saveWithoutPermissionMessage_dir
+msgid "Cannot create file. Directory %S is not writable."
+msgstr "ཡིག་སྣོད་གསར་བསྐྲུན་འབད་མི་ཚུགས། སྣོད་ཐོ་%Sདེ་འབྲི་བཏུབ་མེན་པས།"
+
+#: errorNewDirDoesExistTitle
+#: errorCreateNewDirTitle
+msgid "Error creating %S"
+msgstr "%Sགསར་བསྐྲུན་འབད་ནི་ལུ་འཛོལ་བ་"
+
+#: errorNewDirDoesExistMessage
+msgid "A file named %S already exists, directory cannot be created."
+msgstr "ཡིག་སྣོད་མིང་%Sབཏགས་མི་ཅིག་ ཧེ་མ་ལས་ར་འདུག། སྣོད་འཛིན་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: errorCreateNewDirMessage
+msgid "Directory %S could not be created"
+msgstr "སྣོད་ཐོ་%Sདེ་ གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: errorCreateNewDirIsFileMessage
+msgid "Directory cannot be created, %S is a file"
+msgstr "སྣོད་ཐོ་གསར་བསྐྲུན་འབད་མི་ཚུགས། %Sདེ་ཡིག་སྣོད་ཅིག་ཨིན།"
+
+#: errorCreateNewDirPermissionMessage
+msgid "Directory cannot be created, %S not writable"
+msgstr "སྣོད་ཐོ་གསར་བསྐྲུན་འབད་མི་ཚུགས། %Sདེ་འབྲི་བཏུབ་མེན་པས།"
+
+#: promptNewDirTitle
+msgid "Create new directory"
+msgstr "སྣོད་ཐོ་གསར་བསྐྲུན་འབད་"
+
+#: errorPathProblemTitle
+msgid "Unknown Error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+#: errorPathProblemMessage
+msgid "An unknown error occured (path %S)"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་ཅིག་བྱུང་ཡི། (འགྲུལ་ལམ་%S)"
+

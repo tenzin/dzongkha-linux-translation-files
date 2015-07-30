@@ -1,0 +1,157 @@
+# LANGUAGE translation of Drupal (modules/node/content_types.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content_types-inc.po\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-18 12:03+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: modules/node/content_types.inc:74
+msgid "Identification"
+msgstr "ངོ་རྟགས་"
+
+#: modules/node/content_types.inc:80
+msgid "The human-readable name of this content type. This text will be displayed as part of the list on the <em>create content</em> page. It is recommended that this name begins with a capital letter and consists only of letters, numbers, and <strong>spaces</strong>. This name must be unique to this content type."
+msgstr "ནང་དོན་དབྱེ་བ་འདི་གི་མི་གིས་ལྷག་ཚུགས་པའི་མིང་།  ཚིག་ཡིག་འདི་  ཐོ་ཡིག་གི་ཆ་ཤས་ཅིག་སྦེ་  <em>ནང་དོན་གསར་བསྐྲུན་འབད་</em>ཤོག་ལེབ་གུ་བཀྲམ་སྟོན་འབདཝ་ཨིན།  མིང་འདི་  ཚུགས་ཡིག་དང་  ཡིག་གུ་ཚུ་རྐྱངམ་ཅིག་གནས་ཏེ་ཡོདཔ་མི་  ཨང་གྲངས་ཚུ་དང་  <strong>བར་སྟོང་</strong>དང་ཅིག་ཁར་འགོ་བཙུག་བཏུབ་ཨིན་ཟེར་  འོས་སྦྱོར་འབད་ཡོདཔ།  མིང་འདི་ནང་དོན་དབྱེ་བ་འདི་ལུ་ མཐུན་མོང་མ་ཡིན་པ་ཅིག་དགོཔ་ཨིན།"
+
+#: modules/node/content_types.inc:91
+msgid "The machine-readable name of this content type. This text will be used for constructing the URL of the <em>create content</em> page for this content type. This name may consist of only of lowercase letters, numbers, and underscores. Dashes are not allowed. Underscores will be converted into dashes when constructing the URL of the <em>create content</em> page. This name must be unique to this content type."
+msgstr "ནང་དོན་དབྱེ་བའི་འཕྲུལ་ཆས་-ལྷག་བཏུབ།  ཚིག་ཡིག་འདི་  ནང་དོན་དབྱེ་བ་འདི་གི་དོན་ལུ་  <em>ནང་དོན་གསར་བསྐྲུན་འབད་</em>ཤོག་ལེབ་ཀྱི་ ཡུ་ཨར༌ཨེལ་བཟོ་བསྐྲུན་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཨིན།  མིང་དེ་ལུ་  མགྱོགས་ཡིག་གི་ཡིག་གུ་ཚུ་  ཨང་གྲངས་ཚུ་དང་  འོག་ཐིག་ཚུ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན།  སྦྲེལ་རྟགས་ཚུ་མི་ཆོག། <em>ནང་དོན་གསར་བསྐྲུན་འབད་</em>ཤོག་ལེབ་ཀྱི་ཡུ་ཨར་ཨེལ་འདི་བཟོ་བསྐྲུན་འབདཝ་ད་  འོག་ཐིག་ཚུ་སྦྲེལ་རྟགས་ཚུ་ནང་གཞི་བསྒྱུར་འབདཝ་ཨིན།  ནང་དོན་དབྱེ་བ་འདི་ལུ་  མིང་འདི་མཐུན་མོང་མ་ཡིན་པ་ཅིག་དགོཔ་ཨིན།"
+
+#: modules/node/content_types.inc:103
+msgid "The machine-readable name of this content type. This field cannot be modified for system-defined content types."
+msgstr "ནང་དོན་དབྱེ་བ་འདི་གི་  འཕྲུལ་ཆས་ལྷག་བཏུབ།  ངོས་འཛིན་འབད་ཡོད་པའི་རིམ་ལུགས་ཀྱི་ནང་དོན་དབྱེ་བ་ཚུ་  ས་སྒོ་དེ་གིས་ལེགས་བཅོས་འབད་མི་ཚུགས།  "
+
+#: modules/node/content_types.inc:111
+msgid "A brief description of this content type. This text will be displayed as part of the list on the <em>create content</em> page."
+msgstr "ནང་དོན་དབྱེ་བ་འདི་གི་  འགྲེལ་བཤད་རྒྱས་བཤད།  ཚིག་ཡིག་འདི་  ཐོ་ཡིག་གི་ཆ་ཤས་ཅིག་འབད་  <em>ནང་དོན་གསར་བསྐྲུན་འབད་</em>ཤོག་ལེབ་གུ་བཀྲམ་སྟོན་འབད་ནི་ཨིན།"
+
+#: modules/node/content_types.inc:116
+msgid "Submission form"
+msgstr "ཞུ་འབུལ་གྱི་འབྲི་ཤོག་"
+
+#: modules/node/content_types.inc:121
+msgid "Title field label"
+msgstr "མགོ་མིང་ས་སྒོའི་ཁ་ཡིག་"
+
+#: modules/node/content_types.inc:130
+msgid "This content type does not have a title field."
+msgstr "ནང་དོན་དབྱེ་བ་འདི་ལུ་  མགོ་མིང་ས་སྒོའི་མེད།"
+
+#: modules/node/content_types.inc:134
+msgid "Body field label"
+msgstr "མ་གཟུགས་ས་སྒོའི་ཁ་ཡིག་"
+
+#: modules/node/content_types.inc:137
+msgid "To omit the body field for this content type, remove any text and leave this field blank."
+msgstr "ནང་དོན་དབྱེ་བ་འདི་གི་དོན་ལུ་  མ་གཟུགས་ས་སྒོ་འདི་སྐྱུར་བཞག་ནིའི་དོན་ལུ་  ཚིག་ཡིག་གང་རུང་ཅིག་རྩ་བསྐྲད་གཏང་ནི་དང་  ས་སྒོ་འདི་སྟོངམ་སྦེ་བཞག་ད།"
+
+#: modules/node/content_types.inc:141
+msgid "Minimum number of words"
+msgstr "ཚིག་ཡིག་གི་ཨང་གྲངས་ཉུང་མཐའ་"
+
+#: modules/node/content_types.inc:144
+msgid "The minimum number of words for the body field to be considered valid for this content type. This can be useful to rule out submissions that do not meet the site's standards, such as short test posts."
+msgstr "མ་གཟུགས་སྒོ་འདི་  ནང་དོན་དབྱེ་བའི་དོན་ལུ་ནུས་ཅན་སྦེ་ཆ་འཇོག་འབད་ནིའི་དོན་ལུ་  ཚིག་ཡིག་གི་ཨང་གྲངས་ཉུང་མཐའ།  བརྟག་ཞིབ་གནས་བསྐྱོད་ཐུང་ཀུ་བཟུམ་མའི་  ས་ཁོངས་ཀྱི་ཚད་ལྡན་ཚུ་འཕྱེད་མ་ཚུགས་མི་  ཞུ་འབུལ་ཚུ་ཐག་གཅད་ནི་ལུ་  འདི་ཕན་ཐོག་ཅན་ཡོདཔ་ཨིན།"
+
+#: modules/node/content_types.inc:148
+msgid "Explanation or submission guidelines"
+msgstr "གསལ་བཤད་ཡང་ན་ཞུ་འབུལ་གྱི་ལམ་སྟོན་"
+
+#: modules/node/content_types.inc:150
+msgid "This text will be displayed at the top of the submission form for this content type. It is useful for helping or instructing your users."
+msgstr "ནང་དོན་དབྱེ་བ་གི་དོན་ལུ་  ཚིག་ཡིག་འདི་ཞུ་འབུལ་འབྲི་ཤོག་གི་མགོ་ལུ་བཀྲམ་སྟོན་འབདཝ་ཨིན།  འདི་གྲོགས་རམ་འབད་ནི་ཡང་ན་  ཁྱོད་རའི་ལག་ལེན་པ་ཚུ་ལུ་བསླབ་སྟོན་འབད་ནི་ལུ་ཕན་ཐོག་ཅན་ཡོད།"
+
+#: modules/node/content_types.inc:154
+msgid "Workflow"
+msgstr "ལཱ་གི་འབབ་རྒྱུན་"
+
+#: modules/node/content_types.inc:158
+msgid "Default options"
+msgstr "སྔོན་སྒྲིག་གི་གདམ་ཁ་ཚུ་"
+
+#: modules/node/content_types.inc:166
+msgid "Users with the <em>administer nodes</em> permission will be able to override these options."
+msgstr "<em>administer nodes</em>གནང་བ་དང་ཅིག་ཁར་ཡོད་པའི་ལག་ལེན་པ་ཚུ་གིས་  གདམ་ཁ་ཚུ་ཚབ་སྲུང་འབད་ཚུགས།"
+
+#: modules/node/content_types.inc:196
+msgid "Save content type"
+msgstr "ནང་དོན་དབྱེ་བ་འདི་སྲུང་"
+
+#: modules/node/content_types.inc:203;282
+msgid "Delete content type"
+msgstr "ནང་དོན་དབྱེ་བ་འདི་བཏོན་གཏང་"
+
+#: modules/node/content_types.inc:235
+msgid "The machine-readable name %type is already taken."
+msgstr "འཕྲུལ་ཆས་-ལྷག་བཏུབ་ཀྱི་མིང་ %type འདི་ཧེ་མ་ལས་རང་འབག་ནུག།"
+
+#: modules/node/content_types.inc:238
+msgid "The machine-readable name can only consist of lowercase letters, underscores, and numbers."
+msgstr "འཕྲུལ་ཆས་-ལྷག་བཏུབ་ཀྱི་མིང་འདི་  མགྱོགས་ཡིག་གི་ཡིག་གུ་ཚུ་  འོག་ཐིག་ཚུ་དང་ཨང་གྲངས་ཚུ་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན།"
+
+#: modules/node/content_types.inc:245
+msgid "The human-readable name %name is already taken."
+msgstr "མི་གིས་-ལྷག་བཏུབ་པའི་མིང་ %nameའདི་ ཧེ་མ་ལས་རང་འབག་ནུག།"
+
+#: modules/node/content_types.inc:323
+msgid "The content type %name has been reset to its default values."
+msgstr "ནང་དོན་དབྱེ་བ་ %name དེ་གིས་  དེའི་སྔོན་སྒྲིག་གནས་གོང་ཚུ་ལུ་སླར་སྒྲིག་འབད་ཡོད།"
+
+#: modules/node/content_types.inc:328
+msgid "The content type %name has been updated."
+msgstr "ནང་དོན་དབྱེ་བ་ %name འདི་དུས་མཐུན་བཟོ་ནུག།"
+
+#: modules/node/content_types.inc:331
+msgid "The content type %name has been added."
+msgstr "ནང་དོན་དབྱེ་བ་ %name འདི་ཁ་སྐོང་བརྐྱབ་ནུག།"
+
+#: modules/node/content_types.inc:332
+msgid "Added content type %name."
+msgstr "ནང་དོན་དབྱེ་བ་ %name འདི་ཁ་སྐོང་བརྐྱབ་ནུག།"
+
+#: modules/node/content_types.inc:381
+msgid "Are you sure you want to delete the content type %type?"
+msgstr "ཁྱོད་ཀྱིས་ ནང་དོན་དབྱེ་བ་ %type བཏོན་གཏང་ནི་འདི་ངེས་བདེན་ཨིན་ན?"
+
+#: modules/node/content_types.inc:386
+msgid "<strong>Warning:</strong> there %are currently %num_nodes %type %nodes on your site. %they may not be able to be displayed or edited correctly, once you have removed this content type."
+msgstr "<strong>ཉེན་བརྡ:</strong> ཁྱོད་རའི་ས་ཁོངས་ནང་  %are currently %num_nodes %type %nodes ཚུ་འདུག། %they ཁྱོད་ཀྱིས་ནང་དོན་དབྱེ་བ་འདི་ཚར་ཅིག་རྩ་བསྐྲད་གཏང་ཞིནམ་ལས་  བཀྲམ་སྟོན་འབད་ནི་དང་ཞུན་དག་འབད་མི་ཚུགས།"
+
+#: modules/node/content_types.inc:401
+msgid "The content type %name has been deleted."
+msgstr "ནང་དོན་དབྱེ་བ་ %name འདི་བཏོན་གཏང་ནུག།"
+
+#: modules/node/content_types.inc:402
+msgid "Deleted content type %name."
+msgstr "ནང་དོན་དབྱེ་བ་ %name འདི་བཏོན་གཏང་ནུག།"
+
+#: modules/node/content_types.inc:386
+msgid "is"
+msgid_plural "are"
+msgstr[0] "འདི་"
+msgstr[1] "ཚུ་"
+
+#: modules/node/content_types.inc:386
+msgid "node"
+msgid_plural "nodes"
+msgstr[0] "མཐུད་མཚམས་"
+msgstr[1] "མཐུད་མཚམས་ཚུ་"
+
+#: modules/node/content_types.inc:386
+msgid "It"
+msgid_plural "They"
+msgstr[0] "འདི་"
+msgstr[1] "དེ་ཚུ་"
+

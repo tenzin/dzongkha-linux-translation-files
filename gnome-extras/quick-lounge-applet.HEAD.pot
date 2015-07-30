@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: quick-lounge-applet.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-12 22:28+0100\n"
+"PO-Revision-Date: 2006-12-13 10:45+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/GNOME_QuickLoungeApplet_Factory.server.in.in.h:1
+msgid "Factory for the Quick Lounge applet"
+msgstr "འཕྲལ་མགྱོགས་ལོངག་ཨེཔ་ལེཊི་གི་དོན་ལུ་འཕྲུལ་ཁང་"
+
+#: ../src/GNOME_QuickLoungeApplet_Factory.server.in.in.h:2
+#: ../src/quick-lounge.c:165
+msgid "Launchers List"
+msgstr "གསར་བཙུགས་འབད་མིའི་ཐོ་ཡིག་"
+
+#: ../src/GNOME_QuickLoungeApplet_Factory.server.in.in.h:3
+msgid "Organize your favourite applications on the Panel"
+msgstr "ཁྱོད་རའི་དགའ་མི་གློག་རིམ་ཚུ་ པེ་ནཱལ་འདི་གུ་འགོ་འདྲེན་འཐབ་"
+
+#: ../src/GNOME_QuickLoungeApplet_Factory.server.in.in.h:4
+msgid "Quick Lounge Factory"
+msgstr "འཕྲེལ་མགྱོགས་ལོངག་འཕྲུལ་ཁང་"
+
+#: ../src/GNOME_QuickLoungeApplet.xml.h:1
+msgid "_About"
+msgstr "སྐོར་ལས་(_A)"
+
+#: ../src/GNOME_QuickLoungeApplet.xml.h:2
+msgid "_Help"
+msgstr "གྲོགས་རམ་(_H)"
+
+#: ../src/GNOME_QuickLoungeApplet.xml.h:3
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ་(_P)"
+
+#: ../src/dlg-pick-applications.c:103
+#: ../src/dlg-properties.c:175
+#, c-format
+msgid "Could not display help: %s"
+msgstr "གྲོགས་རམ་བཀྲམ་སྟོན་འབད་མི་ཚུགས་: %s"
+
+#: ../src/dlg-pick-applications.c:354
+msgid "Application"
+msgstr "གློག་རིམ་"
+
+#: ../src/dlg-pick-applications.c:378
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: ../src/dlg-properties.c:47
+msgid "Space"
+msgstr "བར་སྟོང་"
+
+#: ../src/file-utils.c:831
+msgid "Cannot find a terminal, using xterm, even if it may not work"
+msgstr "འདི་གིས་ལྱ མ་འབད་དེ་འབད་རུང་ ཨེགསི་ཊམ་ལག་ལེན་འཐབ་ཐོག་ ཊར་མི་ནཱལ་འཚོལ་མི་འཐོབ་"
+
+#: ../src/gtk-utils.c:130
+#: ../src/gtk-utils.c:212
+#: ../src/gtk-utils.c:309
+msgid "Quick Lounge"
+msgstr "འཕྲལ་མགྱོགས་ལོངག་"
+
+#: ../src/quick-box.c:1265
+msgid "Hide launchers menu"
+msgstr "གསར་བཙུགས་འབད་མིའི་དཀར་ཆག་སྦ་བཞག་"
+
+#: ../src/quick-box.c:1308
+#: ../src/quick-box.c:1348
+msgid "Show hidden launchers"
+msgstr "སྦ་བཞག་ཡོད་པའི་གསར་བཙུགས་འབད་མི་ཚུ་སྟོན་"
+
+#: ../src/quick-lounge.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../src/quick-lounge.glade.h:2
+msgid "<b>Launchers</b>"
+msgstr "<b>གསར་བཙུགས་འབད་མི་ཚུ་</b>"
+
+#: ../src/quick-lounge.glade.h:3
+msgid "<b>Size</b>"
+msgstr "<b>ཚད་</b>"
+
+#: ../src/quick-lounge.glade.h:4
+msgid "Add Existing Launcher"
+msgstr "ཡོད་བཞིན་པའི་གསར་བཙུགས་འབད་མི་ཁ་སྐོང་རྐྱབས་"
+
+#.
+#: ../src/quick-lounge.glade.h:5
+#: ../src/quick-lounge.c:933
+msgid "Add _Existing Launcher"
+msgstr "ཡོད་བཞིན་པའི་གསར་བཙུགས་འབད་མི་ཁ་སྐོང་རྐྱབས་(_E)"
+
+#.
+#: ../src/quick-lounge.glade.h:6
+#: ../src/quick-lounge.c:957
+msgid "Add _New Launcher"
+msgstr "གསར་བཙུགས་འབད་མི་གསརཔ་ཁ་སྐོང་རྐྱབས་(_N)"
+
+#.
+#: ../src/quick-lounge.glade.h:7
+#: ../src/quick-lounge.c:945
+msgid "Add _Space"
+msgstr "བར་སྟོང་ཁ་སྐོང་རྐྱབས་(_S)"
+
+#: ../src/quick-lounge.glade.h:8
+msgid "Always use one row"
+msgstr "ཨ་རྟག་རང་གྲལ་ཐིག་གཅིག་ལག་ལེན་འཐབ་"
+
+#: ../src/quick-lounge.glade.h:9
+msgid "Available applications:"
+msgstr "འཐོབ་ཚུགས་པའི་གློག་རིམ་ཚུ་:"
+
+#: ../src/quick-lounge.glade.h:10
+msgid "Collap_se All"
+msgstr "ཆ་མཉམ་ཧྲམ་(_s)"
+
+#: ../src/quick-lounge.glade.h:11
+msgid "E_xpand All"
+msgstr "ཆ་མཉམ་རྒྱ་འཕར་(_x)"
+
+#: ../src/quick-lounge.glade.h:12
+msgid "Launchers List Preferences"
+msgstr "གསར་བཙུགས་འབད་མིའི་ཐོ་ཡིག་དགའ་དགམ་ཚུ་"
+
+#: ../src/quick-lounge.glade.h:13
+msgid "Ma_ximum size:"
+msgstr "མང་མཐའ་ཚད་:(_x)"
+
+#: ../src/quick-lounge.glade.h:14
+msgid "_Minimum size:"
+msgstr "ཉུང་མཐའ་ཚད་:(_M)"
+
+#: ../src/quick-lounge.glade.h:15
+msgid "columns"
+msgstr "ཀེར་ཐིག་ཚུ་"
+
+#: ../src/quick-lounge.c:124
+msgid "Could not display help"
+msgstr "གྲོགས་རམ་བཀྲམ་སྟོན་འབད་མ་ཚུགས་"
+
+#: ../src/quick-lounge.c:147
+msgid "translator_credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>  (_c)"
+
+#: ../src/quick-lounge.c:168
+msgid "Organize your favorite applications on the Panel"
+msgstr "ཁྱོད་ཀྱི་དགའ་མི་གློག་རིམ་ཚུ་ པེ་ནཱལ་འདི་གུ་འགོ་འདྲེན་འཐབ་"
+
+#: ../src/quick-lounge.c:442
+#: ../src/quick-lounge.c:729
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "གྲོགས་རམ་བཀྲམ་སྟོན་འབདཝ་ད་ འཛོལ་བ་ཅིག་འདུག: %s"
+
+#: ../src/quick-lounge.c:539
+#, c-format
+msgid ""
+"Cannot save changes to launcher\n"
+"\n"
+"Details: %s"
+msgstr ""
+"བསྒྱུར་བཅོས་ཚུ་ གཤར་བཙུགས་འབད་མི་ལུ་སྲུང་བཞག་འབད་མི་ཚུགས་\n"
+"\n"
+"རྒྱས་བཤད་: %s"
+
+#: ../src/quick-lounge.c:559
+msgid "Launcher Properties"
+msgstr "གསར་བཙུགས་འབད་མིའི་རྒྱུ་དངོས་ཚུ་"
+
+#: ../src/quick-lounge.c:754
+msgid "Could not create the new launcher"
+msgstr "གསར་བཙུགས་འབད་མི་གསརཔ་འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས་"
+
+#: ../src/quick-lounge.c:782
+msgid "New Launcher"
+msgstr "གསར་བཙུགས་འབད་མི་གསརཔ་"
+
+#.
+#: ../src/quick-lounge.c:985
+msgid "_Move"
+msgstr "བཤུད་(_M)"
+
+#: ../src/quick-lounge.schemas.in.h:1
+msgid "Launchers order"
+msgstr "གསར་བཙུགས་འབད་མིའི་གོ་རིམ་"
+
+#: ../src/quick-lounge.schemas.in.h:2
+msgid "Location to load"
+msgstr "མངོན་གསལ་འབད་ནིའི་དོན་ལས་ གནས་ཁོངས་"
+
+#: ../src/quick-lounge.schemas.in.h:3
+msgid "Maximum number of columns to display"
+msgstr "བཀྲམ་སྟོན་ནི་གི་ཀེར་ཐིག་ཚུ་གི་གྲངས་མང་མཐའ་"
+
+#: ../src/quick-lounge.schemas.in.h:4
+msgid "Minimum number of columns to display"
+msgstr "བཀྲམ་སྟོན་འབད་ནི་གི་ཀར་ཐིག་ཚུ་གི་གྲངས་ཉུང་མཐའ་"
+
+#: ../src/quick-lounge.schemas.in.h:5
+msgid "Whether icons size follows the panel size"
+msgstr "ཡང་ཅིན་ངོས་དཔར་གྱི་ཚད་ཀྱིས་ པེ་ནཱལ་གྱི་ཚད་རྗེས་སུ་འབྲངམ་ཨིན་ན་"
+

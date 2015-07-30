@@ -1,0 +1,212 @@
+# extracted from dz-BT_orig/security/manager/chrome/pippki/pref-validation.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: prefs.validation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-17 15:58+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is mozilla.org code.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corp.
+# - Portions created by the Initial Developer are Copyright (C) 2001
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -   David P. Drinan (ddrinan@netscape.com)
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either the GNU General Public License Version 2 or later (the "GPL"), or
+# - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+#: pref.validation.title
+msgid "Validation"
+msgstr "ནུས་ཅན་བཟོ་བ་"
+
+#: validation.crl.caption
+msgid "CRL"
+msgstr "སི་ཨར་ཨེལ་"
+
+#: validation.crl.description
+msgid "Use the CRL Manager to manage the Certificate Revocation Lists (CRL) that are stored in your certificate database."
+msgstr "ཁྱོད་ཀྱི་ལག་ཁྱེར་གྱི་ གཞི་རྟེན་གནས་སྡུད་ནང་ གསོག་འཇོག་འབད་ཡོད་པའི་ ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་(སི་ཨར་ཨེལ་) འཛིན་སྐྱོང་འཐབ་ནི་ལུ་ སི་ཨར་ཨེལ་ འཛིན་སྐྱོང་པ་དེ་ལག་ལེན་འཐབ།"
+
+#: validation.managecrls.button
+msgid "Manage CRLs..."
+msgstr "སི་ཨར་ཨེལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་་་་"
+
+#: validation.managecrls.accesskey
+msgid "M"
+msgstr "M"
+
+#: validation.crlmanager.label
+msgid "Manage CRLs"
+msgstr "སི་ཨར་ཨེལ་ཚུ་ འཛིན་སྐྱོང་འཐབ་"
+
+#: validation.crlname.label
+msgid "Name"
+msgstr "མིང་"
+
+#: validation.crllastupdate.label
+msgid "Last Update"
+msgstr "ཧེ་མ་དུས་མཐུན་ཚེས་གྲངས་"
+
+#: validation.crlnextupdate.label
+msgid "Next Update"
+msgstr "ཤུལ་མའི་དུས་མཐུན་ཚེས་གྲངས་"
+
+#: validation.crlautoupdateenabled.label
+msgid "Auto Update"
+msgstr "རང་བཞིན་གྱིས་དུས་མཐུན་བཟོ་ནི་"
+
+#: validation.crlautoupdatestatus.label
+msgid "Auto Update Status"
+msgstr "རང་ཞིན་གྱིས་དུས་མཐུན་བཟོ་བའི་གནས་ཚད་"
+
+#: validation.deletecrl.label validation.deletecrl.accesskey
+msgid "&Delete"
+msgstr "བཏོན་གཏང་(&D)"
+
+#: validation.updatecrl.label validation.updatecrl.accesskey
+msgid "&Update"
+msgstr "དུས་མཐུན་བཟོ་(&U)"
+
+#: validation.advanced.label validation.advanced.accesskey
+msgid "&Settings"
+msgstr "སྒྲིག་སྟངས་(&S)"
+
+#: validation.crl.autoupdate.title
+msgid "Automatic CRL Update Preferences"
+msgstr "རང་བཞིན་གྱིས་ སི་ཨར་ཨེལ་དུས་མཐུན་བཟོ་ནིའི་་དགའ་གདམ་ཚུ་"
+
+#: validation.crl.autoupdate.enable.label
+msgid "Enable Automatic Update for this CRL"
+msgstr "སི་ཨར་ཨེལ་འདི་གི་དོན་ལུ་ རང་བཞིན་གྱི་དུས་མཐུན་བཟོ་ནི་ ལྕོགས་ཅན་བཟོ་"
+
+#: validation.crl.autoupdate.time.label1
+msgid "Update"
+msgstr "དུསམཐུན་བཟོ་"
+
+#: validation.crl.autoupdate.time.label2
+msgid "Day(s) before Next Update date"
+msgstr "ཤུལ་མའི་དུས་མཐུན་མ་རན་པའི་ཉིནམ་ གི་ཧེ་མར་"
+
+#: validation.crl.autoupdate.freq.label1
+msgid "Update every"
+msgstr "དུས་མཐུན་བཟོ་"
+
+#: validation.crl.autoupdate.freq.label2
+msgid "Day(s)"
+msgstr "ཉིན་རིམ་ཉིན་གྲངས་ རེ་ནང་"
+
+#: validation.crl.autoupdate.url.label
+msgid "CRL would be imported From:"
+msgstr "སི་ཨར་ཨེལ་དེ་ ནང་འདྲེན་འབད་ས་:"
+
+#: crl.import.status.title
+msgid "CRL Import Status"
+msgstr "སི་ཨར་ཨེལ་ ནང་འདྲེན་གནས་ཚད་"
+
+#: crl.import.success.message
+msgid "The Certificate Revocation List (CRL) was successfully imported."
+msgstr "ལག་ཁྱེར་ཆ་མེད་གཏང་བའི་ཐོ་ཡིག་(སི་ཨར་ཨེལ) དེ་ མཐར་འཁྱོལ་ཅིན་སྦེ་ ནང་འདྲེན་འབད་ཡི།"
+
+#: crl.issuer.label
+msgid "CRL Issued By:"
+msgstr "སི་ཨར་ཨེལ་སྤྲོད་མི་:"
+
+#: crl.issuer.org.label
+msgid "Organization: "
+msgstr "ལས་སྡེ་:"
+
+#: crl.issuer.orgunit.label
+msgid "Unit: "
+msgstr "སྡེ་ཕྲན་:"
+
+#: crl.import.nextupdate.label
+msgid "Next Update On: "
+msgstr "ཤུལ་མའི་དུས་མཐུན་ཚེས་གྲངས་:"
+
+#: crl.autoupdate.fail.cnt.label
+msgid "Previous Consecutive Update Failures: "
+msgstr "ཧེ་མ་དུས་མཐུན་བཟོ་ནིའི་འཐུས་ཤོར་རིམ་བྱུང་གྲངས་"
+
+#: crl.autoupdate.fail.reason.label
+msgid "Details of Last Update Failure: "
+msgstr "ཧེ་མ་དུས་མཐུན་བཟོ་སྐབས་ འཐུས་ཤོར་བྱུང་བའི་རྒྱས་བཤད་"
+
+#: edit.button
+msgid "Settings"
+msgstr "སྒྲིག་སྟངས་"
+
+#: validation.ocsp.caption
+msgid "OCSP"
+msgstr "ཨོ་སི་ཨེསི་པི་"
+
+#: validation.ocsp.description
+msgid "&brandShortName; can use Online Certificate Status Protocol (OCSP) to verify certificates. Set &brandShortName; to use OCSP as follows:"
+msgstr "&brandShortName; གིས་ ལག་ཁྱེར་བདེན་སྦྱོར་འབད་ནི་ལུ་ གློག་ཐོག་ལག་ཁྱེར་གནས་ཚད་གནས་སྤེལ་ལམ་ལུགས་ (ཨོ་སི་ཨེསི་པི་) ལག་ལེན་འཐབ་ཚུགས། ཨོ་སི་ཨེསི་པི་ གཤམ་གསལ་ལྟར་ ལག་ལེན་འཐབ་ནི་ལུ་ brandShortName; གཞི་སྒྲིག་འབད་:"
+
+#: disableOCSP.label disableOCSP.accesskey
+msgid "&Do not use OCSP for certificate validation"
+msgstr "ལག་ཁྱེར་ནུས་ལྡན་བཟོ་ནིའི་དོན་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་མ་འཐབ་(&D)"
+
+#: certOCSP.label certOCSP.accesskey
+msgid "&Use OCSP to validate only certificates that specify an OCSP service URL"
+msgstr "ཨོ་སི་ཨེསི་པི་དེ་ ཨོ་སི་ཨེསི་ཞབས་ཏོག་གི་ཡུ་ཨར་ཨེལ་ཅིག་ གསལ་བཀོད་འབད་མི་ ལག་ཁྱེར་ཚུ་གི་དོན་ལུ་རྐྱངམ་གཅིག་ ནུས་ལྡན་བཟོ་ནི་ལུ་ ལག་ལེན་འཐབ།"
+
+#: proxyOCSP.label proxyOCSP.accesskey
+msgid "Use &OCSP to validate all certificates using this URL and signer:"
+msgstr "ཡུ་ཨར་ཨེལ་འདི་དང་ མིང་རྟགས་བཀོད་མི་ ལག་ལེན་འཐབ་མི་ ལག་ཁྱེར་ཆ་མཉམ་ནུས་ལྡན་བཟོ་ནི་ལུ་ ཨོ་སི་ཨེསི་ ལག་ལེན་འཐབ་(&O)"
+
+#: serviceURL.label serviceURL.accesskey
+msgid "&Service URL:"
+msgstr "ཞབས་ཏོག་གི་ཡུ་ཨར་ཨེལ་:(&S)"
+
+#: signingCA.label signingCA.accesskey
+msgid "&Response Signer:"
+msgstr "ངོས་ལན་ལུ་མིང་རྟགས་བཀོད་མི་:(&R)"
+
+#~ msgid "Delete"
+#~ msgstr "བཏོན་གཏང་"
+#~ msgid "Do not use OCSP for certificate validation"
+#~ msgstr "ལག་ཁྱེར་ནུས་ཅན་བཟོའི་དནོ་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་མ་འཐབ་"
+#~ msgid "Use OCSP to validate only certificates that specify an OCSP service URL"
+#~ msgstr "ཨོ་སི་ཨེསི་པི་ ཞབས་ཏོག་གི་ ཡུ་ཨར་ཨེལ་ཅིག་ གསལ་བཀོད་འབད་མི་ ལག་ཁྱེར་ཚུ་རྐྱངམ་གཅིག་ ནུས་ཅན་བཟོ་ནིའི་དོན་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་"
+#~ msgid "Use OCSP to validate all certificates using this URL and signer:"
+#~ msgstr "ཡུ་ཨར་ཨེལ་འདི་དང་ མིང་རྟགས་བཀོད་མི་ ལག་ལེན་འཐབ་མི་ ལག་ཁྱེར་ཚུ་ག་ར་ ནུས་ཅན་བཟོ་ནིའི་དོན་ལུ་ ཨོ་སི་ཨེསི་པི་ ལག་ལེན་འཐབ་:"
+

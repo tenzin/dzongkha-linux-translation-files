@@ -1,0 +1,2460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright @ 2006 Free software foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Sonam Pelden , 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-power-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-12 03:43+0000\n"
+"PO-Revision-Date: 2008-09-25 12:19+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../applets/brightness/brightness-applet.c:106
+msgid "Power Manager Brightness Applet"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་པ་ དཀར་མདངས་ཨེཔ་ལེཊི"
+
+#: ../applets/brightness/brightness-applet.c:107
+msgid "Adjusts laptop panel brightness."
+msgstr "ལེཔ་ཊོཔ་པེ་ནཱལ་དཀར་མདངས་ བདེ་སྒྲིག་འབདཝ་ཨིན།"
+
+#: ../applets/brightness/brightness-applet.c:355
+#: ../applets/inhibit/inhibit-applet.c:338
+#, c-format
+msgid "Cannot connect to gnome-power-manager"
+msgstr "ཇི་ནོམ་ནུས་ཤུགས་འཛིན་སྐྱོང་པ་ལུ་མཐུད་མ་ཚུགས"
+
+#: ../applets/brightness/brightness-applet.c:357
+#, c-format
+msgid "Cannot get laptop panel brightness"
+msgstr "ལེཔ་ཊོཔ་པེ་ནཱལ་དཀར་མདངས་ ལེན་མི་ཚུགས་"
+
+#: ../applets/brightness/brightness-applet.c:359
+#, c-format
+msgid "LCD brightness : %d%%"
+msgstr "ཨེ་སི་ཌི་དཀར་མདངས་: %d%%"
+
+#: ../applets/brightness/brightness-applet.c:746
+#: ../applets/inhibit/inhibit-applet.c:406
+#: ../src/gpm-tray-icon.c:310
+msgid "Licensed under the GNU General Public License Version 2"
+msgstr "ཇི་ཨེན་ཡུ་ མི་མང་ཡོངས་ཁྱབ་ཀྱི་ཆོག་ཐམ་ཐོན་རིམ་གཉིས་པའི་ཐོག་ལས་ ཆོག་ཐམ་སྤྲོད་སྤྲོདཔ་ཨིན།"
+
+#: ../applets/brightness/brightness-applet.c:747
+#: ../applets/inhibit/inhibit-applet.c:407
+#: ../src/gpm-tray-icon.c:311
+msgid ""
+"Power Manager is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version."
+msgstr ""
+"པ་ཝར་མེ་ནེ་ཇར་དེ་ སྟོང་མར་ཐོབ་པའི་མཉེན་ཆས་ཅིག་ཨིནམ་ལས་ ཁྱོད་ཀྱིས་\n"
+" རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་ དཔེ་བསྐྲུན་འབད་མི་\n"
+" ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ ཐོན་རིམ་ ༢ ཡང་ན་ ཁྱོད་རའི་བློ་འདོད་བཞིན་དུ་ཤུལ་ལས་ཀྱི་ཐོན་རིམ་གང་རུང་གི་ ཁ་ཚིག་དང་འཁྲིལ་ཏེ་\n"
+"བསྐྱར་འགྲེམ་འབད་བ་ ཡང་ན་ ལེགས་བཅོས་འབད་ཆོག"
+
+#: ../applets/brightness/brightness-applet.c:751
+#: ../applets/inhibit/inhibit-applet.c:411
+#: ../src/gpm-tray-icon.c:315
+msgid ""
+"Power Manager is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details."
+msgstr ""
+"ནུས་ཤུགས་འཛིན་སྐྱོང་པ་འདི་ ཀུན་ལུ་ཕན་པའི་རེ་བ་བསྐྱེད་དེ་འགྲེམ་སྤེལ་འབདཝ་ཨིན། \n"
+"དེ་འབདཝ་དང་ ཉེན་ལེན་ག་ནི་ཡང་མེད་པའི་ནང་ལས་ ཐ་ན་སྐྱེལ་འདྲེན་\n"
+" ཡང་ན་ དམིགས་བསལ་དགོས་དོན་ཅིག་གི་དོན་ལུ་ ཚུད་སྒྲིག་ཡོད་མེད་ཀྱི་ཉེན་ལེན་ཙམ་ཡང་མེད། \n"
+"རྒྱས་བཤད་ཀྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་ལུ་བལྟཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་དོན་ལས་ རྒྱས་བཤད་མངམ་ལྟ་ད།"
+
+#: ../applets/brightness/brightness-applet.c:755
+#: ../applets/inhibit/inhibit-applet.c:415
+#: ../src/gpm-tray-icon.c:319
+msgid ""
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA\n"
+"02110-1301, USA."
+msgstr ""
+"ཁྱོད་ཀྱིས་ཇི་ཨེན་ཡུ་ ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་ཅིག་ ལས་རིམ་འདི་དང་གཅིག་ཁར་ཐོབ་ཐོབ་འོང་།\n"
+" གལ་སྲིད་མ་ཐོབ་ཅིན་ Free Software Foundation,\n"
+" Inc., 1 Franklin Street, Fifth Floor, Boston, MA\n"
+"02110-1301, USA.ལུ་ ཡི་གུ་གཏང་།"
+
+#: ../applets/brightness/brightness-applet.c:769
+msgid "Copyright © 2006 Benjamin Canou"
+msgstr "འདྲ་བཤུས་དབང་ཆ་ © ༢༠༠༦ བེན་ཇ་མི་ ཀེ་ནའུ་"
+
+#: ../applets/brightness/GNOME_BrightnessApplet.server.in.in.h:1
+msgid "Adjusts Laptop panel brightness"
+msgstr "ལེཔ་ཊོཔ་པེ་ནཱལ་དཀར་མདངས་ བདེ་སྒྲིག་འབདཝ་ཨིན"
+
+#: ../applets/brightness/GNOME_BrightnessApplet.server.in.in.h:2
+msgid "Brightness Applet"
+msgstr "དཀར་མདངས་ཨེཔ་ལེཊི"
+
+#: ../applets/brightness/GNOME_BrightnessApplet.server.in.in.h:3
+msgid "Brightness Applet Factory"
+msgstr " དཀར་མདངས་ཨེཔ་ལེཊི་གི་འཕྲུལ་ཁང་"
+
+#: ../applets/brightness/GNOME_BrightnessApplet.server.in.in.h:4
+msgid "Factory for Brightness Applet"
+msgstr " དཀར་མདངས་ཨེཔ་ལེཊི་གི་དོན་ལུ་འཕྲུལ་ཁང་"
+
+#: ../applets/inhibit/inhibit-applet.c:89
+msgid "Power Manager Inhibit Applet"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་པའི་ བར་ཆར་རྐྱབས་ནིའི་ཨེཔ་ལེཊི་"
+
+#: ../applets/inhibit/inhibit-applet.c:90
+msgid "Allows user to inhibit automatic power saving."
+msgstr "ལག་ལེན་པ་འདི་ལུ་ རང་བཞིན་གྱིས་ནུས་ཤུགས་སྲུང་བཞག་འབད་ནི་ བར་ཆར་རྐྱབས་བཅུགཔ་ཨིན།"
+
+#: ../applets/inhibit/inhibit-applet.c:341
+#, c-format
+msgid "Automatic sleep inhibited"
+msgstr "རང་བཞིན་གྱིས་ཉལ་ནི་ བར་ཆར་རྐྱབས་ཡོདཔ་"
+
+#: ../applets/inhibit/inhibit-applet.c:343
+#, c-format
+msgid "Automatic sleep enabled"
+msgstr "རང་བཞིན་གྱིས་ཉལ་ནི་ ལྕོགས་ཅན་བཟོ་ཡོདཔ་"
+
+#: ../applets/inhibit/inhibit-applet.c:371
+msgid "Manual inhibit"
+msgstr "ལག་དེབ་བར་ཆར་རྐྱབས་ནི་"
+
+#: ../applets/inhibit/inhibit-applet.c:429
+msgid "Copyright © 2006-2007 Richard Hughes"
+msgstr "འདྲ་བཤུས་དབང་ཆ་ © ༢༠༠༦-༢༠༠༧ རི་ཅརཌི་ཧགསི"
+
+#: ../applets/inhibit/GNOME_InhibitApplet.server.in.in.h:1
+msgid "Allows user to inhibit automatic power saving"
+msgstr "ལག་ལེན་པ་འདི་ལུ་ རང་བཞིན་གྱིས་ནུས་ཤུགས་སྲུང་བཞག་འབད་ནི་ བར་ཆར་རྐྱབས་བཅུགཔ་ཨིན"
+
+#: ../applets/inhibit/GNOME_InhibitApplet.server.in.in.h:2
+msgid "Factory for Inhibit Applet"
+msgstr "བར་ཆར་རྐྱབས་ནིའི་ཨེཔ་ལེཊི་གི་དོན་ལུ་འཕྲུལ་ཁང་"
+
+#: ../applets/inhibit/GNOME_InhibitApplet.server.in.in.h:3
+msgid "Inhibit Applet"
+msgstr "བར་ཆར་བརྐྱབ་ནིའི་ཨེཔ་ལིཊི"
+
+#: ../applets/inhibit/GNOME_InhibitApplet.server.in.in.h:4
+msgid "Inhibit Applet Factory"
+msgstr "བར་ཆར་བརྐྱབ་ནི་ཨེཔ་ལེཊི་གི་འཕྲུལ་ཁང"
+
+#. common descriptions of this program
+#: ../data/gnome-power-manager.desktop.in.in.h:1
+#: ../src/gpm-common.h:43
+msgid "Power Manager"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་པ།"
+
+#: ../data/gnome-power-manager.desktop.in.in.h:2
+msgid "Power management daemon"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོངས་པའི་ ཌེ་མཱོན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:1
+msgid "After resume, gnome-power-manager will suppress policy actions for a number of seconds to allow messages to settle and HAL to refresh. Commonly five seconds is enough while not being so long that the user gets confused."
+msgstr "བསྐྱར་ལོག་གི་ཤུལ་ལས་  སྐར་ཆ་གི་གྲངས་ལུ་འཕྲིན་དོན་གཞིས་ཆགས་བཅུག་ནི་དང་ ཨེཆ་ཨེ་ཨེལ་ཡང་སེལ་འབད་བཅུག་ནའི་དོན་ལུ་ ཇི་ནོམ་ - ནུས་ཤུགས་ - འཛིན་སྐྱོང་པ་གིས་ སྲིད་བྱུས་ཀྱི་བྱ་བ་མར་མནོན་འབད་འོང་། མཐུན་མོང་དུ་འབད་བ་ཅིན་ གནམ་མེད་ས་མེད་ཡུན་རིངམ་ད་ ལག་ལེན་པ་མགོ་འཐོམ་ནི་ཨིནམ་ལས་ སྐར་ཆ་ལྔ་གི་ལངམ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:2
+msgid "Allow Suspend and Hibernate in the menu"
+msgstr "དཀར་ཆག་གི་ནང་ལུ་འཕྲལ་བཀག་འབད་དེ་་གཉིད་ནང་བཙུགས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:3
+msgid "Allow backlight brightness adjustment"
+msgstr "རྒྱབ་འོད་ཀྱི་དཀར་མདངས་བདེ་སྒྲིག་འབད་བཅུག"
+
+#: ../data/gnome-power-manager.schemas.in.h:4
+msgid "Battery critical low action"
+msgstr "འཕྲུལ་ལྟོ་ཚབས་ཆེན་གྱིས་དམའ་བའི་བྱ་བ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:5
+msgid "Change the brightness automatically using the ambient light sensors"
+msgstr "དཀར་མདངས་འདི་  རང་བཞིན་གྱིས་ཨེམ་བིནཊི་འོད་ཚོར་འཕྲུལ་འདིང་ལག་ལེན་འཐབ་ཏེ་ བསྒྱུར་བཅོས་འབད"
+
+#: ../data/gnome-power-manager.schemas.in.h:6
+msgid "Check CPU load before sleeping"
+msgstr "གཉིད་མ་ཁུག་པའི་ཧེ་མ་ སི་པི་ཡུ་གི་མངོན་གསལ་འབད་ནི་ལུ་ ཞིབ་དཔྱད་འབད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:7
+msgid "Dim the screen after a period of inactivity when on AC power"
+msgstr "ཨེ་སི་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ལཱ་མེད་པའི་དུས་ཡུན་ཅིག་གི་ཤུལ་མ་ གསལ་གཞི་འདི་མདངས་གྲིབ་བཟོ་"
+
+#: ../data/gnome-power-manager.schemas.in.h:8
+msgid "Dim the screen after a period of inactivity when on battery power"
+msgstr "འཕྲུལ་ལྟོ་ནུསཤུགས་གུ་ཨིན་པའི་སྐབས་ ལཱ་མེད་ཀྱི་དུས་ཡུན་ཅིག་གི་ཤུལ་མ་ གསལ་གཞི་འདི་མདངས་གྲིབ་བཟོ་"
+
+#: ../data/gnome-power-manager.schemas.in.h:9
+msgid "Display options for the notification icon. Valid options are \"never\", \"critical\", \"charge\", \"present\" and \"always\"."
+msgstr "བརྡ་བསྐུལ་ངོས་དཔར་གྱི་དོན་ལུ་ ་གདམ་ཁ་ཚུ་བཀྲམ་སྟོན་འབད། ནུས་ཅན་གྱི་གདམ་ཁ་ཚུ་ \"never\", \"critical\", \"charge\", \"present\" དང་ \"always\"།"
+
+#: ../data/gnome-power-manager.schemas.in.h:10
+msgid "Hibernate button action"
+msgstr "ཨེབ་རྟའི་བྱ་བ་འདི་གཉིད་ནང་བཙུགས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:11
+msgid "Hibernate enabled"
+msgstr "གཉིད་ནང་བཙུགས་བཞག་ནི་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:12
+msgid "If DBUS inhibit requests should be ignored from other programs."
+msgstr "ཌི་བཱསི་བཀག་ཆའི་ཞུ་བ་ཚུ་ ལས་རིམ་གཞན་ཚུ་ནང་ལས་ སྣང་མེད་བཞག་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:13
+msgid "If DBUS inhibit requests should be ignored."
+msgstr "ཌི་བཱསི་བཀག་ཆའི་ཞུ་བ་ཚུ་ སྣང་མེད་བཞག་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:14
+msgid "If a notification message should be displayed after suspend or hibernate failed."
+msgstr "འཕྲལ་བཀག་ ཡང་ན་ གཉིད་ནང་བཙུགས་ནི་ འཐུས་ཤོར་་བྱུང་པའི་ཤུལ་ལུ་ བརྡ་བསྐུལ་འཕྲིན་དོན་ཅིག་ བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:15
+msgid "If a notification message should be displayed when the battery is fully charged."
+msgstr "འཕྲུལ་ལྟོ་འདི་ཤུགས་ཚད་གངམ་སྦེ་བླུགས་ཚར་བའི་སྐབས་ བརྡ་བསྐུལ་གྱི་འཕྲིན་དོན་ཅིག་ བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:16
+msgid "If a notification message should be displayed when the battery is getting low."
+msgstr "འཕྲུལ་ལྟོ་འདི་ཤུགས་ཚད་དམའ་དྲགས་འགྱོ་བའི་སྐབས་ བརྡ་བསྐུལ་འཕྲིན་དོན་ཅིག་ བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་པ་ཅིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:17
+msgid "If a notification message should be displayed when the profile data is guessed."
+msgstr "གསལ་སྡུད་གནད་སྡུད་འདི་ཕོག་ཚད་དཔག་ཡོད་པ་ཅིན་ བརྡ་བསྐུལ་གྱི་འཕྲིན་དོན་ཅིག་ བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:18
+msgid "If extra debugging messages should be used"
+msgstr "གལ་སྲིད་རྐྱེན་སེལ་འབད་བའི་བརྡ་འཕྲིན་ཐེབས་ལག་ལེན་འཐབ་དགོ་པ་ཅིན"
+
+#: ../data/gnome-power-manager.schemas.in.h:19
+msgid "If extra debugging messages should be used. Only turn this on for debugging."
+msgstr "གལ་སྲིད་རྐྱེན་སེལ་འབད་བའི་བརྡ་འཕྲིན་ཐེབས་ལག་ལེན་འཐབ་དགོ་པ་ཅིན།རྐྱེན་སེལ་འབད་ནི་གི་དོན་ལས་རྐྱངམ་ཅིག་འདི་བསྒྱིརཝ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:20
+msgid "If niced processes are considered, they can cause a frequency increment even though their absolute load percentage wouldn't trigger the scaling mechanism to switch up the frequency."
+msgstr "ལེགས་ཤོམ་བཟོ་ཡོད་པའི་ལས་སྦྱོར་ཚུ་ ཆ་འཇོག་འབད་ཡོདཔ་ཨིན་པ་ཅིན་ དེ་ཚུ་གིས་ ཁོང་གི་ཡང་དག་མངོན་གསལ་བརྒྱ་ཆ་འདི་ འབྱུང་ཐེངས་འདི་སོར་བསྒྱུར་འབད་ནིའི་དོན་ལས་ ཚད་འཇལ་ནིའི་ཐབས་རིག་འདི་འབྱུང་སག་ས་མ་བཟོ་འདི་འབད་རུང་ འབྱུང་ཐེངས་ཀྱི་ཡར་འཕར་ཅིག་འབད་བཅུགཔ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:21
+msgid "If preferences should be shown"
+msgstr "དགའ་གདམ་ཚུ་སྟོན་དགོཔ་ ཨིན་པ་ཅིན་"
+
+#: ../data/gnome-power-manager.schemas.in.h:22
+msgid "If sounds should be used"
+msgstr "སྒྲ་སྐད་ཚུ་ལག་ལེན་འཐབ་དགོཔ་ཨིན་པ་ཅིན་"
+
+#: ../data/gnome-power-manager.schemas.in.h:23
+msgid "If sounds should be used when the power is critically low, or inhibit requests have stopped the policy action."
+msgstr "ནུས་ཤུགས་འདི་ཚབས་ཆེན་སྦེ་དམའ་བའི་སྐབས་ལུ་ སྒྲ་སྐད་ཚུ་ལག་ལེན་འཐབ་དགོཔ་ཨིན་པ་ཅིན་ ཡང་ན་ བར་ཆར་བརྐྱབ་ནིའི་ཞུ་བ་གིས་ སྲིད་བྱུས་ཀྱི་བྱ་བ་འདི་བཀག་ཡོད་པ་ཅིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:24
+msgid "If the CPU load should be checked before doing the idle action."
+msgstr "ལས་མེད་ཀྱི་བྱ་བ་མ་བཟོ་བའི་ཧེ་མ་  སི་པི་ཡུ་མངོན་གསལ་དེལུ་ ཞིབ་དཔྱད་འབད་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:25
+msgid "If the Suspend and Hibernate options should be allowed in the notification area drop down menu."
+msgstr "འཕྲལ་བཀག་དང་གཉིད་ནང་བཙུགས་ནིའི་གདམ་ཁ་ཚུ་ བརྡ་བསྐུལ་མངའ་ཁོངས་ཀྱི་ གདམ་ཐོའི་དཀར་ཆག་ནང་ལུ་ཡོད་མི་ འབྱུང་ནི་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:26
+msgid "If the battery event should occur when the lid is shut and the power disconnected"
+msgstr "ཁ་ཏོག་བཅད་དེ་ གློག་ཤུགས་བཏོག་པའི་སྐབས་ འཕྲུལ་ལྟོའི་བྱུང་ལས་ འབྱུང་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:27
+msgid "If the battery lid close event should occur (for example 'Suspend when lid closed on battery') when the lid is previously shut and the AC power disconnected at a later time."
+msgstr "ཁ་ཏོག་ཧེ་མ་ལས་བཅད་དེ་ གློག་ཤུགས་ཀྱི་ཤུལ་ལསབཏོག་པའི་སྐབས་ འཕྲུལ་ལྟོའི་ཁ་ཏོག་བཅད་པའི་བྱུང་ལས་དེ་འབྱུང་དགོཔ་ཨིན་ན།(དཔེར་ན་ འཕྲུལ་ལྟོ་ལུ་ཁ་ཏོག་བཅད་པའི་སྐབས་འཕྲལ་བཀག་འབད་དོ་བཟུམ)"
+
+#: ../data/gnome-power-manager.schemas.in.h:28
+msgid "If the learnt profile should be used to calculate the time remaining"
+msgstr " གལ་སྲིད་ལྷབ་ཡོད་པའི་གནད་སྡུད་འདི་དུས་ཚོད་ལྷག་ལུས་རྩིས་སྟོན་ནི་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནི་ཨིན་པ་ཅིན"
+
+#: ../data/gnome-power-manager.schemas.in.h:29
+msgid "If the learnt profile should be used to calculate the time remaining. Only turn this off for debugging."
+msgstr "གལ་སྲིད་ལྷབ་ཡོད་པའི་གནད་སྡུད་འདི་དུས་ཚོད་ལྷག་ལུས་རྩིས་སྟོན་ནི་གི་དོན་ལས་ལག་ལེན་འཐབ་དགོ་པ་ཅིན།རྐྱེན་སེལ་འབད་ནི་གི་དོན་ལས་རྐྱངམ་ཅིག་ཨོཕ་རྐྱབས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:30
+msgid "If the low-power mode should be enabled when on AC"
+msgstr "གློག་ཤུགས་ཨེ་སི་གུ་ཡོད་པའི་སྐབས་ གློག་ཤུགས་དམའ་བའི་ཐབས་ལམ་དེ་ ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:31
+msgid "If the low-power mode should be enabled when on UPS"
+msgstr "གློག་བརྟན་འཕྲུལ་ཆས་(ཡུ་པི་ཨེསི་)་གུ་ཡོད་པའི་སྐབས་ གློག་ཤུགས་དམའ་བའི་ཐབས་ལམ་དེ་ ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:32
+msgid "If the low-power mode should be enabled when on battery"
+msgstr "འཕྲ྄ལ་ལྟོ་གུ་ཡོད་པའི་སྐབས་ གློག་ཤུགས་དམའ་བའི་ཐབས་ལམ་དེ་ ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:33
+msgid "If the screen brightness can be changed when switching between AC and battery power and by ambient light sensors."
+msgstr "གལ་སྲིདཨེ་སི་དང་འཕྲུལ་ལྟོ་ནུས་ཤུགས་ཀྱི་བར་ན་སོར་བསྒྱུར་འབད་བའི་སྐབས་ གསལ་གཞི་དཀར་མདངས་འདི་བསྒྱུར་བཅོས་འབད་དགོཔ་ཨིན་པ་ཅིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:34
+msgid "If the screen brightness should be changed automatically using the ambient light sensors."
+msgstr "གསལ་གཞི་གི་དཀར་མདངས་འདི་ ཨེམ་བིནཊི་འོད་ཚོར་འཕྲུལ་འདི་ལག་ལེན་འཐབ་ཐོག་ རང་བཞིན་གྱིས་བསྒྱུར་བཅོས་འབད་དགོཔ་ཨིན་པ་ཅིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:35
+msgid "If the screen brightness should be changed automatically using the ambient light sensors. Valid is 'none', 'light' and 'dark'"
+msgstr "གལ་སྲིད་གསལ་གཞི་གི་དཀར་མདངས་འདི་ ཨེམ་བིནཊི་འོད་ཚོར་འཕྲུལ་འདི་ལག་ལེན་འཐབ་ཐོག་ རང་བཞིན་གྱིས་བསྒྱུར་བཅོས་འབད་དགོཔ་ཨིན་པ་ཅིན།ནུས་ཅན་ 'ག་ཡང་མེན', 'འོད' དང 'གྲིབ་གནག'"
+
+#: ../data/gnome-power-manager.schemas.in.h:36
+msgid "If the screen should be dimmed to save power when the computer is idle when on AC power."
+msgstr "ཨེ་སི་གུ་འབདཝ་ད་ གློག་རིག་འདི་ལས་མེད་ཨིན་པའི་སྐབས་ ནུས་ཤུགས་སྲུང་བཞག་འབད་ནིའི་དོན་ལས་ གསལ་གཞི་འདི་མདངས་གྲིབ་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:37
+msgid "If the screen should be dimmed to save power when the computer is idle when on battery power."
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས་གུ་འབདཝ་ད་ གློག་རིག་འདི་ལས་མེད་ཨིན་པའི་སྐབས་  ནུས་ཤུགས་སྲུང་བཞག་འབད་ནིའི་དོན་ལས་ གསལ་གཞི་འདི་མདངས་གྲིབ་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:38
+msgid "If the screen should be reduced in brightness when the computer is on battery power."
+msgstr "གློག་རིག་དེ་ འཕྲུལ་ལྟོ་ནུས་ཤུགས་གུ་འབདཝ་ད་ གསལ་གཞི་འདི་མདངས་གྲིབ་བཟོ་དགོཔ་ཨིན་པ་ཅིན། "
+
+#: ../data/gnome-power-manager.schemas.in.h:39
+msgid "If the system low-power mode should be enabled when on AC power."
+msgstr "གློག་ཤུགས་ཨེ་སི་གུ་ཡོད་པའི་སྐབས་ རིམ་ལུགས་ཀྱི་གློག་ཤུགས་དམའ་བའི་ཐབས་ལམ་དེ་ ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:40
+msgid "If the system low-power mode should be enabled when on UPS power."
+msgstr "གློག་བརྟན་འཕྲུལ་ཆས་(ཡུ་པི་ཨེསི་)གུ་ཡོད་པའི་སྐབས་ རིམ་ལུགས་ཀྱི་གློག་ཤུགས་དམའ་བའི་ཐབས་ལམ་དེ་ ལྕོགས་ཅན་བཟོ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:41
+msgid "If the system low-power mode should be enabled when on laptop battery power."
+msgstr "འཕྲུལ་ལྟོ་གུ་ཡོད་པའི་སྐབས་ རིམ་ལུགས་ཀྱི་གློག་ཤུགས་དམའ་བའི་ཐབས་ལམ་དེ་ ལྕོགས་ཅན་བཟོ་དགོཔ་"
+
+#: ../data/gnome-power-manager.schemas.in.h:42
+msgid "If the user is authorized to hibernate the computer."
+msgstr "ལག་ལེན་པ་ལུ་་ གློག་རིག་འདི་གཉིད་ནང་བཙུགས་ནིའི་ དབང་ཆ་སྤྲོད་ཡོད་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:43
+msgid "If the user is authorized to suspend the computer."
+msgstr "ལག་ལེན་པ་ལུ་ ་གློག་རིག་འདི་འཕྲལ་བཀག་འབད་ནིའི་ དབང་ཚད་སྤྲོད་ཡོདཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:44
+msgid "If the user should be notified when the AC adapter is disconnected."
+msgstr "ཨེ་སི་མཐུན་བྱེད་འདི་རྩ་བསྐྲད་གཏང་པའི་སྐབས་ ལག་ལེན་པ་ལུ་ བརྡ་བསྐུལ་འབད་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:45
+msgid "If time based notifications should be used. If set to false, then the percentage change is used instead, which may fix a broken ACPI BIOS."
+msgstr "དུས་ཚོད་ལུ་བརྟེན་པའི་བརྡ་བསྐུལ་ལག་ལེན་འཐབ་དགོཔ་ཨིན་ན། རྫུན་མ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ དེ་ལས་ཚབ་ལུ་ བརྒྱ་ཆའི་བསྒྱུར་བཅོས་ལག་ལེན་འཐབ་ཨིན། དེ་ཡང་ རྒྱུན་ཆད་ཡོད་མི་ ཨེ་སི་པི་ཨའེ་ བ་ཡཱོསི་གི་དཀའ་ངལ་སེལ་ཚུགསཔ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:46
+msgid "If we should show the CPU frequency scaling in the UI"
+msgstr "ང་བཅས་ཀྱིས་ སི་པི་ཡུ་འབྱུང་ཐེངས་འདི་ ཡུ་ཨའི་འདི་ནང་་སྟོན་པ་ཅིན་"
+
+#: ../data/gnome-power-manager.schemas.in.h:47
+msgid "If we should show the CPU frequency scaling in the UI. Some people need to configure this for specific systems."
+msgstr "ང་བཅས་ཀྱིས་ སི་པི་ཡུ་འབྱུང་ཐེངས་འདི་ ཡུ་ཨའི་འདི་ནང་་སྟོན་པ་ཅིན། མི་ལ་ལུ་ཅིག་གིས་ འ་ནི་འདི་དམིགས་བསལ་རིམ་ལུགས་ཚུ་གི་དོན་ལུ་ རིམ་སྒྲིག་འབད་དགོ"
+
+#: ../data/gnome-power-manager.schemas.in.h:48
+msgid "If we should show the low capacity warning for a broken battery"
+msgstr "ང་བཅས་ཀྱིས་ ཆད་ཡོད་པའི་འཕྲུལ་ལྟོ་ཅིག་གི་དོནལུ་ གལ་སྲིད་སླར་དྲན་འབད་ཡོད་པའི་འཕྲུལ་ལྟོ་འདི་སྟོན་དགོ་པ་ཅིན"
+
+#: ../data/gnome-power-manager.schemas.in.h:49
+msgid "If we should show the low capacity warning for a broken battery."
+msgstr "ང་བཅས་ཀྱིས་ ཆད་ཡོད་པའི་འཕྲུལ་ལྟོ་ཅིག་གི་དོནལུ་ ནུས་ཚད་མ་ཤོས་ཉེན་བརྡ་སྟོན་དགོ་ཨིན་ན"
+
+#: ../data/gnome-power-manager.schemas.in.h:50
+msgid "If we should show the recalled battery warning for a broken battery"
+msgstr "ང་བཅས་ཀྱིས་ ཆད་ཡོད་པའི་འཕྲུལ་ལྟོ་ཅིག་གི་དོནལུ་ སླར་དྲན་འབད་ཡོད་པའི་འཕྲུལ་ལྟོ་འདི་སྟོན་དགོ་པ་ཅིན་"
+
+#: ../data/gnome-power-manager.schemas.in.h:51
+msgid "If we should show the recalled battery warning for a broken battery. Set this to false only if you know your battery is okay."
+msgstr "ང་བཅས་ཀྱིས་ ཆད་ཡོད་པའི་འཕྲུལ་ལྟོ་ཅིག་གི་དོན་ལུ་ སླར་དྲན་འབད་ཡོད་པའི་འཕྲུལ་ལྟོའི་ཉེན་བརྡ་འདི་ སྟོན་དགོཔ་ཨིན་པ་ཅིན། འ་ནི་འདི་ ཁྱོད་ཀྱིས་ཁྱོད་རའི་འཕྲུལ་ལྟོ་འདི་ བཏུབ་ཨིནམ་ཤེས་པ་ཅིན་རྐྱངམ་ཅིག་ རྫུན་མ་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:52
+msgid "If we should show the warning when we have a valid inhibit and configured to sleep on lid close"
+msgstr "ག་དེམ་ཅིག་སྦེ་ ང་བཅས་ལུ་ ནུས་ཅན་གྱི་ བར་ཆར་ཡོད་པའི་སྐབས་དང་ ལིཌི་ཁ་བསྡམ་གུ་ ཉལ་ནི་རིམ་སྒྲིག་འབད་ཡོད་པའི་སྐབས་  ཉེན་བརྡ་སྟོན་པ་ཅིན་ "
+
+#: ../data/gnome-power-manager.schemas.in.h:53
+msgid "If we should show the warning when we have a valid inhibit and configured to sleep on lid close."
+msgstr "ག་དེམ་ཅིག་སྦེ་ ང་བཅས་ལུ་ ནུས་ཅན་གྱི་ བར་ཆར་ཡོད་པའི་སྐབས་དང་ ལིཌི་ཁ་བསྡམ་གུ་ ཉལ་ནི་རིམ་སྒྲིག་འབད་ཡོད་པའི་སྐབས་  ཉེན་བརྡ་སྟོན་པ་ཅིན་ "
+
+#: ../data/gnome-power-manager.schemas.in.h:54
+msgid "Keyboard brightness when on AC"
+msgstr "ཨེ་སི་གུ་ཨིན་པའི་སྐབས་ ལྡེ་སྒྲོམ་དཀར་མདངས་"
+
+#: ../data/gnome-power-manager.schemas.in.h:55
+msgid "Keyboard brightness when on battery"
+msgstr "འཕྲུལ་ལྟོ་ལུ་ཨིན་པའི་སྐབས་ ལྡེ་སྒྲོམ་གྱི་དཀར་མདངས་"
+
+#: ../data/gnome-power-manager.schemas.in.h:56
+msgid "LCD brightness when on AC"
+msgstr "ཨེ་སི་གི་སྐབས་ལུ་ཨེལ་སི་ཌི་དཀར་མདངས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:57
+msgid "LCD brightness when on battery"
+msgstr "འཕྲུལ་ལྟོའི་སྐབས་ལུ་ཨེལ་སི་ཌི་གི་དཀར་མདངས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:58
+msgid "Laptop lid close action on battery"
+msgstr "འཕྲུལ་ལྟོ་གུ་ལེཔ་ཊོཔ་གི་ལིཌི་བྱ་བ་ཁ་བསྡམ་མི།"
+
+#: ../data/gnome-power-manager.schemas.in.h:59
+msgid "Laptop lid close action when on AC"
+msgstr "ཨེ་སི་གི་སྐབས་ལུ་ལེབ་ཊོབ་ལིཌི་བྱ་བ་ཁ་བསྡམ་མི།"
+
+#: ../data/gnome-power-manager.schemas.in.h:60
+msgid "Lock GNOME keyring on sleep"
+msgstr "གཉིད་གུ་ཇི་ནོམ་ལྡེ་འཁོར་་བསྡམ་བཞག"
+
+#: ../data/gnome-power-manager.schemas.in.h:61
+msgid "Lock screen on hibernate"
+msgstr "གཉིད་ནང་བཙུགས་བཞག་མི་གུ་གསལ་གཞི་བསྡམ་བཞག།"
+
+#: ../data/gnome-power-manager.schemas.in.h:62
+msgid "Lock screen on suspend"
+msgstr "འཕྲལ་བཀག་གུ་གསལ་གཞི་བསྡམ་བཞག"
+
+#: ../data/gnome-power-manager.schemas.in.h:63
+msgid "Lock screen when blanked"
+msgstr "སྟོངམ་འབད་ཡོད་པའི་སྐབས་ལུ་ གསལ་གཞི་བསྡམས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:64
+msgid "Method used to blank screen on AC"
+msgstr "བསྒྱུར་གློག་གུ་ གསལ་གཞི་སྟོངམ་བཟོ་ནི་ལུ་ ལག་ལེན་འཐབ་པའི་ཐབས་ལམ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:65
+msgid "Method used to blank screen on battery"
+msgstr "འཕྲུལ་ལྟོ་གུ་ གསལ་གཞི་སྟོངམ་བཟོ་ནི་ལུ་ ལག་ལེན་འཐབ་པའི་ཐབས་ལམ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:66
+msgid "Notify on a low power"
+msgstr "ནུས་ཤུགས་དམའ་བ་ཅིག་གུ་ བརྡ་བསྐུལ་འབད་"
+
+#: ../data/gnome-power-manager.schemas.in.h:67
+msgid "Notify on a sleep failure"
+msgstr "བསྒུག་ནི་འཐུས་ཤོར་མི་ཅིག་གུ བརྡ་བསྐུལ་འབད"
+
+#: ../data/gnome-power-manager.schemas.in.h:68
+msgid "Notify when AC adapter is disconnected"
+msgstr "ཨེ་སི་མཐུན་བྱེད་བཏོག་པའི་སྐབས་ལུ་ བརྡ་བསྐུལ་འབད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:69
+msgid "Notify when fully charged"
+msgstr "ཤུགས་ཚད་གངམ་བླུགས་པའི་སྐབས་ བརྡ་བསྐུལ་འབད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:70
+msgid "Notify when the profile data is guessed"
+msgstr "གསལ་སྡུད་གནད་སྡུད་་འདི་ཕོག་ཚོད་དཔག་པའིསྐབས་ལུ་བརྡ་བསྐུལ་འབད"
+
+#: ../data/gnome-power-manager.schemas.in.h:71
+msgid "Number of seconds to suppress policy after resume"
+msgstr "བསྐྱར་ལོག་གི་ཤུལ་མ་ སྲིད་བྱུས་མར་མནོན་གྱི་དོན་ལུ་ སྐར་ཆ་གི་གྲངས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:72
+msgid "Percentage action is taken"
+msgstr "བརྒྱ་ཆའི་བྱ་བ་འདི་འབག་ཡར་སོང་ནུག"
+
+#: ../data/gnome-power-manager.schemas.in.h:73
+msgid "Percentage considered critical"
+msgstr "བརྒྱ་ཆ་ཚབས་ཆེན་སྦེ་ ཆ་འཇོག་འབད་ནུག"
+
+#: ../data/gnome-power-manager.schemas.in.h:74
+msgid "Percentage considered low"
+msgstr "བརྒྱ་ཆ་དམའ་བ་སྦེ་ ཆ་འཇོག་འབད་ནུག"
+
+#: ../data/gnome-power-manager.schemas.in.h:75
+msgid "Power button action"
+msgstr "ཨེབ་རྟ་ནུས་ཤུགས་ཀྱི་བྱ་བ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:76
+msgid "Reduce the backlight brightness when on battery power"
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ རྒྱབ་འོད་ཀྱི་དཀར་མདངས་  མར་ཕབ་འབད་ "
+
+#: ../data/gnome-power-manager.schemas.in.h:77
+msgid "Sleep timeout computer when on AC"
+msgstr "ཨེ་སི་གི་སྐབས་ལུ་གློག་རིག་ངལ་མཚམས་བསྒུག་ནི།"
+
+#: ../data/gnome-power-manager.schemas.in.h:78
+msgid "Sleep timeout computer when on battery"
+msgstr "འཕྲུལ་ལྟོའི་སྐབས་སུ་གློག་རིག་ངལ་མཚམས་བསྒུག་ནི།"
+
+#: ../data/gnome-power-manager.schemas.in.h:79
+msgid "Sleep timeout display when on AC"
+msgstr "ཨེ་སི་གི་སྐབས་ལུ་ངལ་མཚམས་བསྒུག་ནི་འདི་བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:80
+msgid "Sleep timeout display when on battery"
+msgstr "འཕྲུལ་ལྟོའི་སྐབས་ལུ་ངལ་མཚམས་ཀྱི་བསྒུག་ནི་བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:81
+msgid "Suspend button action"
+msgstr "འཕྲལ་བཀག་གི་ཨེབ་རྟའི་བྱ་བ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:82
+msgid "Suspend enabled"
+msgstr "འཕྲལ་བཀག་ལྕོགས་ཅན་བཟོ་ཡོདཔ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:83
+msgid "The DPMS method used to blank the screen when on AC power. Possible values are \"default\", \"standby\", \"suspend\" and \"off\"."
+msgstr "བསྒྱུར་གློག་ནུས་ཤུགས་གུ་ གསལ་གཞི་སྟོངམ་བཟོ་ནི་ལུ་ ལག་ལེན་འཐབ་པའི་ ཌི་པི་ཨེམ་ཨེས་ཐབས་ལམ།  སྲིད་པའི་་བེ་ལུསི་ཚུ་  \"standby\", \"suspend\" and \"off\"ཚུ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:84
+msgid "The DPMS method used to blank the screen when on battery power. Possible values are \"default\", \"standby\", \"suspend\" and \"off\"."
+msgstr "འཕྲུལ་ལྟོ་གུ་ གསལ་གཞི་སྟོངམ་བཟོ་ནི་ལུ་ ལག་ལེན་འཐབ་པའི་ དི་པི་ཨེམ་ཨེསི་ཐབས་ལམ།  སྲིད་པའི་བེ་ལུསི་ཚུ་  \"default\", \"standby\", \"suspend\" and \"off\"ཚུ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:85
+msgid "The action to take when the UPS is critically low. Possible values are \"hibernate\", \"suspend\", \"shutdown\" and \"nothing\"."
+msgstr "ཡུ་པི་ཨེསི་དེ་ ཚབས་ཆེན་གྱི་དམའ་བ་ཨིན་པའི་སྐབས་ ངོས་ལེན་འབ་དགོཔ། ནུས་ཅན་གྱི་གནས་བེ་ལུསི་ཚུ་  \"hibernate\", \"suspend\", \"shutdown\" དང་ \"nothing\"."
+
+#: ../data/gnome-power-manager.schemas.in.h:86
+msgid "The action to take when the UPS is low. Possible values are \"hibernate\", \"suspend\", \"shutdown\" and \"nothing\"."
+msgstr "ཡུ་པི་ཨེསི་དེ་དམའ་བ་ཨིན་པའི་སྐབས་ འབད་དགོ་པའི་བྱ་བ། སྲིན་པའི་གནས་གོང་ཚུ་  \"hibernate\", \"suspend\", \"shutdown\" དང་ \"nothing\" ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:87
+msgid "The action to take when the battery is critically low. Possible values are \"hibernate\", \"suspend\", \"shutdown\" and \"nothing\"."
+msgstr "འཕྲུལ་ལྟོ་འདི་ཚབས་ཆེན་སྦེ་ དམའ་བ་ཨིན་པའི་སྐབས་ ངོས་ལེན་འབད་དགོཔ། སྲིན་པའི་བེ་ལུསི་ཚུ་  \"hibernate\", \"suspend\", \"shutdown\" and \"nothing\"."
+
+#: ../data/gnome-power-manager.schemas.in.h:88
+msgid "The action to take when the laptop lid is closed and the laptop is on AC power. Possible values are \"suspend\", \"hibernate\", \"blank\" and \"nothing\"."
+msgstr "ལེབ་ཊོཔ་གི་ཁ་ཏོག་ཁ་བཅད་ཡོདཔ་དང་ ཤེབ་ཊོཔ་ཨེ་སི་གློག་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ངོས་ལེན་འབད་དགོཔ། སྲིན་པའི་བེ་ལུསི་ཚུ་  \"suspend\", \"hibernate\", \"blank\" དང་\"nothing\"."
+
+#: ../data/gnome-power-manager.schemas.in.h:89
+msgid "The action to take when the laptop lid is closed and the laptop is on battery power. Possible values are \"suspend\", \"hibernate\", \"blank\", and \"nothing\"."
+msgstr "ལེབ་ཊོཔ་གི་ཁ་ཏོག་བཅད་ཡོདཔ་དང་ལེབ་ཊོཔ་དེ་ འཕྲུལ་ལྟོའི་གུ་ཨིན་པའི་སྐབས་ ངོས་ལེན་འབད་དགོཔ། སྲིད་པའི་བེ་ལུསི་ཚུ་ \"suspend\", \"hibernate\", \"blank\", དང་ \"nothing\"."
+
+#: ../data/gnome-power-manager.schemas.in.h:90
+msgid "The action to take when the system hibernate button is pressed. Possible values are \"suspend\", \"hibernate\", \"interactive\", \"shutdown\" and \"nothing\"."
+msgstr "རིམ་ལུགས་གཉིད་ནང་བཙུགས་ནིའི་ཨེབ་རྟ་དེ་མནན་པའི་སྐབས་ ངོས་ལེན་འབད་དགོཔ། སྲིད་པའི་བེ་ལུསི་ཚུ་ \"suspend\", \"hibernate\", \"interactive\", \"shutdown\" and \"nothing\""
+
+#: ../data/gnome-power-manager.schemas.in.h:91
+msgid "The action to take when the system power button is pressed. Possible values are \"suspend\", \"hibernate\", \"interactive\", \"shutdown\" and \"nothing\"."
+msgstr "རིམ་ལུགས་གློག་ཤུགས་ཨེབ་རྟ་དེ་མནན་པའི་སྐབས་ ངོས་ལེན་འབད་དགོཔ། སྲིད་པའི་བེ་ལུསི་ཚུ་ \"suspend\", \"hibernate\", \"interactive\", \"shutdown\" and \"nothing\""
+
+#: ../data/gnome-power-manager.schemas.in.h:92
+msgid "The action to take when the system suspend button is pressed. Possible values are \"suspend\", \"hibernate\", \"interactive\", \"shutdown\" and \"nothing\"."
+msgstr "རིམ་ལུགས་འཕྲལ་བཀག་ཨེབ་རྟ་དེ་མནན་པའི་སྐབས་ ངོས་ལེན་འབད་དགོཔ། སྲིད་པའི་བེ་ལུསི་ཚུ་ \"suspend\", \"hibernate\", \"interactive\", \"shutdown\" and \"nothing\""
+
+#: ../data/gnome-power-manager.schemas.in.h:93
+msgid "The amount of time in seconds before the display goes to sleep when the computer is on AC power."
+msgstr "གློག་རིག་འདི་ཨེ་སི་གུ་ཡོད་པའི་སྐབས་ བཀྲམ་སྟོན་དེ་གཉིད་ནང་མ་འཛུལ་བའི་ ཧེ་མའི་དུས་ཡུན་ སྐར་ཆའི་ནང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:94
+msgid "The amount of time in seconds the computer on AC power needs to be inactive before it goes to sleep."
+msgstr "གློག་རིག་འདི་གཉིད་ནང་མ་འཛུལ་བའི་ཧེ་མ་ ཨེ་སི་གུ་ཡོད་པའི་གློག་རིག་དེ་ ནུས་མེད་ཨིན་དགོ་པའི་དུས་ཡུན་ སྐར་ཆའི་ནང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:95
+msgid "The amount of time in seconds the computer on battery power needs to be inactive before it goes to sleep."
+msgstr "གློག་རིག་འདི་གཉིད་ནང་མ་འཛུལ་བའི་ཧེ་མ་ འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ་ཡོད་པའི་གློག་རིག་དེ་ ནུས་མེད་ཨིན་དགོ་པའི་དུས་ཡུན་ སྐར་ཆའི་ནང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:96
+msgid "The amount of time in seconds the computer on battery power needs to be inactive before the display goes to sleep."
+msgstr "གློག་རིག་འདི་གཉིད་ནང་མ་འཛུལ་བའི་ཧེ་མ་ འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ་ཡོད་པའི་གློག་རིག་དེ་ ནུས་མེད་ཨིན་དགོ་པའི་དུས་ཡུན་ སྐར་ཆའི་ནང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:97
+msgid "The amount the light sensors should contribute to the brightness"
+msgstr "འོད་ཀྱི་ཚོར་འཕྲུལ་ཡོངས་བསྡོམས་དཀར་མདངས་ལུ་ཕན་གྲོགས་འབད་དགོཔ"
+
+#: ../data/gnome-power-manager.schemas.in.h:98
+msgid "The amount the light sensors should contribute to the brightness."
+msgstr "ཡོངས་བསྡོམས་འོད་ཀྱི་ཚོར་འཕྲུལ་གྱིས་དཀར་མདངས་ལུ་ཕན་གྲོགས་འབད་དགོཔ"
+
+#: ../data/gnome-power-manager.schemas.in.h:99
+msgid "The brightness of the display when on AC power. Possible values are between 0 and 100."
+msgstr "ཨེ་སི་གུ་ཨིན་པའི་སྐབས་ བཀྲམ་སྟོན་གྱི་དཀར་མདངས། སྲིད་པའི་བེ་ལུསི་ཚུ་  ༠ དང་ ༡༠༠ གྱི་བར་ན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:100
+msgid "The brightness of the display when on battery power. Possible values are between 0 and 100."
+msgstr "འཕྲུལ་ལྟོགུ་ཨིན་པའི་སྐབས་ བཀྲམ་སྟོན་གྱི་དཀར་མདངས། སྲིད་པའི་བེ་ལུསི་ཚུ་  ༠ དང་ ༡༠༠ གྱི་བར་ན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:101
+msgid "The brightness of the keyboard when on AC power. Possible values are between 0 and 100."
+msgstr "ཨེ་སི་གུ་ཨིན་པའི་སྐབས་ ལྡེ་སྒྲོམ་གྱི་དཀར་མདངས། སྲིད་པའི་གནས་གོང་ཚུ་  ༠ དང་ ༡༠༠ གྱི་བར་ན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:102
+msgid "The brightness of the keyboard when on battery power. Possible values are between 0 and 100."
+msgstr "འཕྲུལ་ལྟོགུ་ཨིན་པའི་སྐབས་ ལྡེ་སྒྲོམ་གྱི་དཀར་མདངས། སྲིད་པའི་གནས་གོང་ཚུ་  ༠ དང་ ༡༠༠ གྱི་བར་ན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:103
+msgid "The brightness of the screen when idle"
+msgstr "ལས་མེད་སྐབས་ལུ་ གསལ་གཞིའི་དཀར་མདངས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:104
+msgid "The calibration of the light sensors so that the screen is bright enough"
+msgstr "ཚོར་འཕྲུལ་འོད་ཀྱི་ཚད་བཀལཝ་ལས་གསལ་གཞི་འདི་མདངས་ལངམ་སྦེ་འདུག"
+
+#: ../data/gnome-power-manager.schemas.in.h:105
+msgid "The calibration of the light sensors so that the screen is bright enough, in percent."
+msgstr "ཚོར་འཕྲུལ་ཚུ་གི་འོད་ཀྱི་ཚད་བཀལཝ་ལས་གསལ་གཞི་གི་མདངས་རྒྱ་ཆ་ནང་ལངམ་སྦེ་འདུག།"
+
+#: ../data/gnome-power-manager.schemas.in.h:106
+msgid "The cpufreq performance value to use when on AC power"
+msgstr "ཨེ་སི་གུ་ཨིན་པའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ སི་པི་ཡུ་ཕིརིཀ་ལཱ་ཤུགས་གནས་གོང་"
+
+#: ../data/gnome-power-manager.schemas.in.h:107
+msgid "The cpufreq performance value to use when on battery power"
+msgstr "འཕྲུལ་ལྟོ་གུ་ཨིན་པའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ སི་པི་ཡུ་ཕིརིཀ་ལཱ་ཤུགས་གནས་གོང་"
+
+#: ../data/gnome-power-manager.schemas.in.h:108
+msgid "The cpufreq performance value used to scale the processor when on AC power."
+msgstr "ཨེ་སི་ནུས་ཤུགས་ལུ་ཨིན་པའི་སྐབས་ ལས་སྦྱོར་འཕྲུལ་ཆས་འདི་ ཚད་འཇལ་ནིའི་དོན་ལས་ སི་པི་ཡུ་ཕིརིཀ་ལཱ་ཤུགས་གནས་གོང་ལག་ལེན་འཐབ་ཡོད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:109
+msgid "The cpufreq performance value used to scale the processor when on battery power."
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ལས་སྦྱོར་འཕྲུལ་ཆས་འདི་ཚད་འཇལ་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་ཡོད་མི་གི་ སི་པི་ཡུ་ཕིརིཀ་ལཱ་ཤུགས་གནས་གོང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:110
+msgid "The cpufreq policy to use when on AC power"
+msgstr "ཨེ་སི་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ སི་པི་ཡུ་ནི་རིཀ་སྲིད་བྱུས་"
+
+#: ../data/gnome-power-manager.schemas.in.h:111
+msgid "The cpufreq policy to use when on battery power"
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ སི་པི་ཡུ་ཕིརིཀ་སྲིད་བྱུས་"
+
+#: ../data/gnome-power-manager.schemas.in.h:112
+msgid "The cpufreq policy used to scale the processor when on AC power. Possible values are ondemand, conservative, powersave, userspace, performance, nothing."
+msgstr "ཨེ་སི་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ལས་སྦྱོར་འཕྲུལ་ཆས་འདི་ཚད་འཇལ་ནིའི་དོན་ལས་ ལག་ལེན་འཐབ་ནི་གི་ སི་པི་ཡུ་ཕིརིཀ་སྲིད་བྱུས། སྲིད་པའི་གནས་གོང་ཚུ་ མཁོ་འདོད་གུ་ རྙིང་ཞེན་ཅན་ པ་ཝར་སེཕ་ ལག་ལེན་པའི་བར་སྟོང་ ལཱ་ཤུགས་ཚུ་ག་ནི་ཡང་མེད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:113
+msgid "The cpufreq policy used to scale the processor when on battery power. Possible values are ondemand, conservative, powersave, userspace, performance, nothing."
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས་གུ་ཨིན་པའི་སྐབས་ ལས་སྦྱོར་འཕྲུལ་ཆས་འདི་ཚད་འཇལ་ནིའི་དོན་ལས་ ལག་ལེན་འཐབ་ནི་གི་ སི་པི་ཡུ་ཕིརིཀ་སྲིད་བྱུས། སྲིད་པའི་གནས་གོང་ཚུ་ མཁོ་འདོད་གུ་ རྙིང་ཞེན་ཅན་ པ་ཝར་སེཕ་ ལག་ལེན་པའི་བར་སྟོང་ ལཱ་ཤུགས་ ག་ནི་ཡང་མེད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:114
+msgid "The default amount of time to dim the screen after idle"
+msgstr "ལས་མེད་པའི་ཤུལ་ལུ་གསལ་གཞི་མདངས་གྲིབ་ཀྱི་དོན་ལུ་སྔོན་སྒྲིག་ཡོངས་བསྡོམས་ཀྱི་དུས་ཚོད"
+
+#: ../data/gnome-power-manager.schemas.in.h:115
+msgid "The default amount of time to dim the screen after idle."
+msgstr "ལས་མེད་ཤུལ་ལུ་གསལ་གཞི་མདངས་གྲིབ་ཀྱི་དོན་ལུ་སྔོན་སྒྲིག་ཡོངས་བསྡོམས་ཀྱི་དུས་ཚོད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:116
+msgid "The default configuration version."
+msgstr "སྔོན་སྒྲིག་རིམ་སྒྲིག་ཐོན་རིམ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:117
+msgid "The default graph type to show in the statistics window"
+msgstr "ཚད་རྩིས་སྒོ་སྒྲིག་འདི་ནང་སྟོན་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་ཚད་ཁྲམ་དབྱེ་བ་"
+
+#: ../data/gnome-power-manager.schemas.in.h:118
+msgid "The default graph type to show in the statistics window."
+msgstr "ཚད་རྩིས་སྒོ་སྒྲིག་འདི་ནང་སྟོན་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་ཚད་ཁྲམ་དབྱེ་བ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:119
+msgid "The device name for the v4l device used as a brightness sensor backup"
+msgstr "v4lཐབས་འཕྲུལ་གི་དོན་ལུ་ཐབས་འཕྲུལ་གྱི་མིང་དཀར་མདངས་ཚོར་འཕྲུལ་རྒྱབ་རྟེན་བཟུམ་སྦེ་ལག་ལེན་ཡོདཔ"
+
+#: ../data/gnome-power-manager.schemas.in.h:120
+msgid "The device name for the v4l device used as a brightness sensor backup. A value of 'default' uses the first discovered sensor, or devices can be specified, e.g. '/dev/video0'"
+msgstr "v4lཐབས་འཕྲུལ་གི་དོན་ལུ་ཐབས་འཕྲུལ་གྱི་མིང་དཀར་མདངས་ཚོར་འཕྲུལ་རྒྱབ་རྟེན་བཟུམ་སྦེ་ལག་ལེན་ཡོདཔ'default' གི་བེ་ལུ་དང་པ་གསར་བརྙེས་ཚོར་འཕྲུལ་འདི་ལག་ལེན་འཐབ་ཨིན ཡང་ན་ཐབས་འཕྲུལ་འདི་དམིགས་གསལ་འབད་བཏུབ e.g. '/dev/video0'"
+
+#: ../data/gnome-power-manager.schemas.in.h:121
+msgid "The interval the ambient light sensors should be polled"
+msgstr "བར་མཚམས་ཨེམ་བིནཊི་འོད་ཀྱི་ཚོར་འཕྲུལ་འདི་པུལིཌི་འབད་དགོ"
+
+#: ../data/gnome-power-manager.schemas.in.h:122
+msgid "The interval the ambient light sensors should be polled in seconds."
+msgstr "བར་མཚམས་ཨེམ་བིནཊི་འོད་ཀྱི་ཚོར་འཕྲུལ་ཚུ་འདི་སྐར་ཆ་ཚུ་ནང་པུལིཌི་འབད་དགོ"
+
+#: ../data/gnome-power-manager.schemas.in.h:123
+msgid "The invalid timeout for power actions"
+msgstr "ནུས་ཤུགས་བྱ་བ་ཚུ་གི་དོན་ལུ་ ནུས་མེད་ངལ་མཚམས་"
+
+#: ../data/gnome-power-manager.schemas.in.h:124
+msgid "The invalid timeout in ms for power actions. Set this longer if you get 'battery critical' messages when you unplug."
+msgstr "ནུས་ཤུགས་བྱ་བ་ཚུ་གི་དོན་ལུ་ ཨེམ་ཨེསི་ནང་ནུས་མེད་ངལ་མཚམས། ཁྱོད་ཀྱིས་མ་བཙུགས་པའི་སྐབས་ 'འཕྲུལ་ལྟོ་ཚབས་ཆེན་'འཕྲིན་དོན་འཐོབ་པ་ཅིན་ འ་ནི་འདི་རིངམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../data/gnome-power-manager.schemas.in.h:125
+msgid "The maximum duration of time displayed on the x-axis of the graph."
+msgstr "ཚད་རིས་ཀྱི་ཨེགསི་ཚད་ཐིག་གུ་ བཀྲམ་སྟོན་འབད་མི་ཆུ་ཚོད་ཀྱི་ དུས་ཡུན་མང་མཐའ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:126
+msgid "The maximum time displayed on the graph"
+msgstr "ཚད་རིས་གུ་བཀྲམ་སྟོནའ་བད་མི་ ཆུ་ཚོད་མང་མཐའ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:127
+msgid "The percentage of the battery when it is considered critical. Only valid when use_time_for_policy is false."
+msgstr "འཕྲུལ་ལྟོ་ཚབས་ཆེན་སྦེ་ ཆ་འཇོག་འབད་བའི་སྐབས་ འཕྲུལ་ལྟོའི་བརྒྱ་ཆ། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་_ལག་ལེན་འཐབ་ཟེར་མི་ རྫུན་མ་ཅིན་པའི་སྐབས་ལུ་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:128
+msgid "The percentage of the battery when it is considered low. Only valid when use_time_for_policy is false."
+msgstr "འཕྲུལ་ལྟོ་དམའ་བ་སྦེ་ ཆ་འཇོག་འབད་བའི་སྐབས་ འཕྲུལ་ལྟོའི་བརྒྱ་ཆ། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་་_ལག་ལེན་འཐབ་ཟེར་མི་ རྫུན་མ་ཨིན་པའི་སྐབས་ལུ་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:129
+msgid "The percentage of the battery when the critical action is performed. Only valid when use_time_for_policy is false."
+msgstr "འཕྲུལ་ལྟོ་ཚབས་ཆེན་གྱི་བྱ་བ་བརྩམས་པའི་སྐབས་ འཕྲུལ་ལྟོའི་བརྒྱ་ཆ། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་་ལེན་_ལག་ལེན་འཐབ་ཟེར་མི་ རྫུན་མ་ཅིན་པའི་སྐབས་ལུ་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:130
+msgid "The time remaining in seconds of the battery when critical action is taken. Only valid when use_time_for_policy is true."
+msgstr "ཚབ་ཆེན་གྱི་ངོས་ལེན་འབད་བའི་སྐབས་ འཕྲུལ་ལྟོ་གི་དུས་ཡུན་ལྷག་ལུས་ སྐར་ཆའི་ནང་། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་_ ལག་ལེན་འཐབ་ཟེར་མི་ བདེན་པ་ཨིན་པ་ཅིག་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:131
+msgid "The time remaining in seconds of the battery when it is considered critical. Only valid when use_time_for_policy is true."
+msgstr "འཕྲུལ་ཚབ་ཆེན་སྦེ་ ཆ་འཇོག་འབད་བའི་སྐབས་ འཕྲུལ་ལྟོ་གི་དུས་ཡུན་ལྷག་ལུས་ སྐར་ཆའི་ནང་། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་_ ལག་ལེན་འཐབ་ཟེར་མི་ བདེན་པ་ཨིན་པ་ཅིག་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:132
+msgid "The time remaining in seconds of the battery when it is considered low. Only valid when use_time_for_policy is true."
+msgstr "འཕྲུལ་ལྟོ་དམའ་བ་སྦེ་ ཆ་འཇོག་འབད་བའི་སྐབས་ དུས་ཡུན་ལྷག་ལུས་ སྐར་ཆའི་ནང་། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་_ ལག་ལེན་འཐབ་ཟེར་མི་ བདེན་པ་ཨིན་པ་ཅིག་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:133
+msgid "The time remaining when action is taken"
+msgstr "བྱ་བ་འདི་ལག་ལེན་འཐབ་པའི་བསྒང་ དུས་ཡུན་ལྷག་ལུས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:134
+msgid "The time remaining when critical"
+msgstr "ཚབ་ཆེན་གྱི་བསྒང་ དུས་ཡུན་ལྷག་ལུས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:135
+msgid "The time remaining when low"
+msgstr "དམའ་ཤོས་ཀྱི་སྐབས་ལུ་ དུས་ཡུན་ལྷག་ལུས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:136
+msgid "The type of sleeping that should be performed when the computer is inactive. Possible values are \"hibernate\", \"suspend\" and \"nothing\"."
+msgstr "གློག་རིག་དེ་ཤུགས་མེད་ཨིན་པའི་བསྒང་ ལག་ལེན་འཐབ་དགོ་པའི་ ཉལ་ནི་གི་དབྱེ་བ། སྲིད་པའི་བེ་ལུསི་ཚུ་ \"hibernate\", \"suspend\" དང་ \"nothing\""
+
+#: ../data/gnome-power-manager.schemas.in.h:137
+msgid "The version of the installed version of the schema. Do not edit this value, it is used so that configure changes between versions can be detected."
+msgstr "ལས་འཆར་གྱི་གཞི་བཙུགས་འབད་ཡོད་པའི་ཐོན་རིམ་གྱི་ཐོན་རིམ།འ་ནི་བེ་ལུ་འདི་ཞུན་དག་མ་འབད འ་ནི་འདི་དེ་སྦེ་ལག་ལེན་འཐབ་མི་འདི ཐོན་རིམ་ཚུ་གི་ནང་ན་བསྒྱུར་བཅོས་ཚུ་སྐྱོན་འཛིན་ཡོདཔ་ད་རིམ་སྒྲིག་འབད་ནི་ལུ་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:138
+msgid "This is the laptop panel screen brightness used when the session is idle. Only valid when use_time_for_policy is true."
+msgstr "ལཱ་ཡུན་འདི་ལས་མེད་ཀྱི་སྐབས་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ལེབ་ཊོཔ་པེ་ནཱལ་གྱི་གསལ་གཞི་དཀར་མདངས་འདི་ཨིན། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་_ ལག་ལེན་འཐབ་ཟེར་མི་ བདེན་པ་ཨིན་པ་ཅིག་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:139
+msgid "UPS critical low action"
+msgstr "ཡུ་པི་ཨེསི་ཚབས་ཆེན་གྱི་ བྱ་བ་དམའ་ཤོས།"
+
+#: ../data/gnome-power-manager.schemas.in.h:140
+msgid "UPS low power action"
+msgstr "ཡུ་པི་ཨེསི་ནུས་ཤུགས་དམའ་བའི་བྱ་བ་"
+
+#: ../data/gnome-power-manager.schemas.in.h:141
+msgid "Use gnome-screensaver lock setting"
+msgstr "ཇི་ནོམ་གསལ་གཞི་ཉན་སྲུང་གི་ལྡེ་མིག་མའི་གཞི་སྒྲིག་ལག་ལེན་འཐབ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:142
+msgid "When to show the notification icon"
+msgstr "བརྡ་བསྐུལ་གྱི་ངོས་དཔར་ནམ་སྟོན་ནི་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:143
+msgid "Whether NetworkManager should be connected and disconnected on sleep."
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པ་འདི་ བསྒུག་པའི་སྐབས་ མཐུད་ནི་དང་མཐུད་ལམ་བཏོག་ནི་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:144
+msgid "Whether NetworkManager should disconnect before suspending or hibernating and connect on resume."
+msgstr "ཡོངས་འབྲེལ་འཛིན་སྐྱོང་པ་གིས་ འཕྲལ་བཀག་ཡང་ན་གཉིད་ནང་མ་བཙུགས་པའི་ཧེ་མ་ མཐུད་ལམ་བཏོག་ཞིནམ་ལས་ བསྐྱར་ལོག་ལུ་མཐུད་དགོཔ་ཨིན་ན་མེན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:145
+msgid "Whether or not niced processes should be considered on processor load calculation"
+msgstr "ལེགས་ཤོམ་བཟོ་ཡོད་པའི་ལས་སྦྱོར་འདི་ ལས་སྦྱོར་འཕྲུལ་ཆས་མངོན་གསལ་འབད་ནིའི་རྩིས་སྟོན་གུ་ ཆ་འཇོག་འབད་ནི་ཨིན་ན་མེན་ན་"
+
+#: ../data/gnome-power-manager.schemas.in.h:146
+msgid "Whether the GNOME keyring is locked before the computer enters hibernate. This means the keyring will have to be unlocked on resume."
+msgstr "ཇི་ནོམ་ལྡེ་འཁོར་འདི་གློག་རིག་གཉིད་ནང་མ་བཙུགས་པའི་ཧེ་མ་བསྡམ་ནི་ཨིན་ན།  འདི་འབད་བ་ཅིན་ ཁྱོད་ཀྱི་བསྐྱར་ལོག་གུ་ལྡེ་འཁོར་་གི་ལྡེ་མིག་ཕྱེ་དགོ། "
+
+#: ../data/gnome-power-manager.schemas.in.h:147
+msgid "Whether the GNOME keyring is locked before the computer enters suspend. This means the keyring will have to be unlocked on resume."
+msgstr "ཇི་ནོམ་ལྡེ་འཁོར་འདི་གློག་རིག་ འཕྲལ་བཀག་མ་འབད་བའི་ཧེ་མ་ བསྡམ་ནི་ཨིན་ན།  འདི་འབད་བ་ཅིན་ ཁྱོད་ཀྱི་བསྐྱར་ལོག་གུ་ལྡེ་འཁོར་་གི་ལྡེ་མིག་ཕྱེ་དགོ། "
+
+#: ../data/gnome-power-manager.schemas.in.h:148
+msgid "Whether the screen is locked when the computer wakes up from a hibernate. Only used if lock_use_screensaver_settings is false."
+msgstr "གློག་རིག་འདི་གཉིད་ནང་ལས་ལྷོངམ་ད་ གསལ་གཞི་བསྡམ་བཞག་དགོཔ་ཨིན་ན། གལ་སྲིད་ལྡེ་མིག་_ལག་ལེན་_གསལ་གཞི་ཉན་སྲུང་_གཞི་སྒྲིག་ཚུ་ རྫུན་མ་ཨིན་པ་ཅིན་རྐྱངམ་གཅིག་ ལག་ལེན་འཐབ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:149
+msgid "Whether the screen is locked when the computer wakes up from a suspend. Only used if lock_use_screensaver_settings is false."
+msgstr "གློག་རིག་འདི་འཕྲལ་བཀག་ལས་ལྷོང་པའི་སྐབས ་གསལ་གཞི་བསྡམ་བཞག་དགོཔ་ཨིན་ན། གལ་སྲིདལྡེ་མིག་_ལག་ལེན་_གསལ་གཞི་ཉན་སྲུང་_གཞི་སྒྲིག་ཚུ་ རྫུན་མ་ཨིན་པ་ཅིན་རྐྱངམ་གཅིག་་ལག་ལེན་འཐབ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:150
+msgid "Whether the screen is locked when the screen is turned off. Only used if lock_use_screensaver_settings is false."
+msgstr "གསལ་གཞི་འདི་ཊཱན་ཨོཕ་འབད་བའི་སྐབས་ གསལ་གཞི་འདི་བསྡམ་དགོཔ་ཨིན་ན། གལ་སྲིད་ལྡེ་མིག་ལག་ལེན་གྱི་_གསལ་གཞི་ཉན་སྲུང་  གཞི་སྒྲིག་འདི་_རྫུན་མ་ཨིན་པ་ཅིན་_རྐྱངམ་གཅིག་་ལག་ལེན་འཐབ།"
+
+#: ../data/gnome-power-manager.schemas.in.h:151
+msgid "Whether to hibernate, suspend or do nothing when inactive"
+msgstr "ཤུགས་མེད་པའི་བསྒང་ གཉིད་ནང་བཙུགས་ནི་ལུ་ འཕྲལ་བཀག་ཡང་ན་ག་ནི་ཡང་མེདཔ་སྦེ་རུང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:152
+msgid "Whether to use the screen lock setting of gnome-screensaver to decide if the screen is locked after a hibernate, suspend or blank screen."
+msgstr "གསལ་གཞི་གཉིད་ནང་བཙུགས་པམ་ འཕྲལ་བཏག་འབད་བ་ ཡང་ན་ སྟོངམ་བཞག་ཞིནམ་ལས་ གལ་སྲིད་གསལ་གཞི་འདི་བསྡམ་བཞག་ནི་ལུ་ གྲོས་ཐག་བཅད་ནིའི་དོན་ལུ་ ཇི་ནོམ་གྱི་གསལ་གཞི་ཉེན་སྲུང་གི་གསལ་གཞི་ལྡེ་མིག་གི་གཞི་སྒྲིག་ ལག་ལེན་འཐབ་དགོཔ་ཨིན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:153
+msgid "Whether to use time-based notifications"
+msgstr "ཆུ་ཚོད་གཞི་རྟེན་གྱི་བརྡ་བསྐུལ་ ལག་ལེན་འཐབ་རུང་མ་འཐབ་རུང་།"
+
+#: ../data/gnome-power-manager.schemas.in.h:154
+msgid "Whether we should show the axis labels in the statistics window"
+msgstr "ང་བཅས་ཀྱིས་འབྱུང་ལས་འདི་ ཚད་རྩིས་ཀྱི་ཝིན་ཌོ་ནང་སྟོན་ནི་ཨིན་ན་མེན་ན"
+
+#: ../data/gnome-power-manager.schemas.in.h:155
+msgid "Whether we should show the axis labels in the statistics window."
+msgstr "ང་བཅས་ཀྱིས་འབྱུང་ལས་འདི་ ཚད་རྩིས་ཀྱི་ཝིན་ཌོ་ནང་སྟོན་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:156
+msgid "Whether we should show the events in the statistics window"
+msgstr "ང་བཅས་ཀྱིས་འབྱུང་ལས་འདི་ ཚད་རྩིས་ཀྱི་སྒོ་སྒྲིག་ནང་སྟོན་ནི་ཨིན་ན་མེན་ན་"
+
+#: ../data/gnome-power-manager.schemas.in.h:157
+msgid "Whether we should show the events in the statistics window."
+msgstr "ང་བཅས་ཀྱིས་འབྱུང་ལས་འདི་ ཚད་རྩིས་ཀྱི་སྒོ་སྒྲིག་ནང་སྟོན་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../data/gnome-power-manager.schemas.in.h:158
+msgid "Whether we should smooth the data in the graph"
+msgstr "ཚད་ཁྲམ་ནང་ང་བཅས་ཀྱི་གནད་སྡུད་ཚུ་ཧུམ་ཁྱུག་ཁྱུག་བཟོ་དགོཔ་ཨིན་ན"
+
+#: ../data/gnome-power-manager.schemas.in.h:159
+msgid "Whether we should smooth the data in the graph."
+msgstr "ཚད་ཁྲམ་ནང་ང་བཅས་ཀྱིས་གདན་སྡུད་ཚུ་ཧུམ་ཁྱུག་ཁྱུག་བཟོ་དགོཔ་ཨིན་ན"
+
+#: ../data/gnome-power-preferences.desktop.in.in.h:1
+msgid "Configure power management"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་རིམ་སྒྲིག་འབད།"
+
+#: ../data/gnome-power-preferences.desktop.in.in.h:2
+msgid "Power Management"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་།"
+
+#: ../data/gnome-power-statistics.desktop.in.in.h:1
+msgid "Observe power management"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་ཞིབ་རྟོག་འབད་"
+
+#: ../data/gnome-power-statistics.desktop.in.in.h:2
+msgid "Power Statistics"
+msgstr "ནུས་ཤུགས་ཚད་རྩིས་"
+
+#: ../data/gpm-feedback-widget.glade.h:1
+msgid "Brightness"
+msgstr "དཀར་མདངས།"
+
+#: ../data/gpm-graph.glade.h:1
+msgid "Add related _events"
+msgstr "འབྲེལ་བ་ཡོད་པའི་བྱུང་ལས་ཚུ་ཁ་སྐོང་རྐྱབས(_e)"
+
+#: ../data/gpm-graph.glade.h:2
+msgid "Cell Voltage"
+msgstr "ནང་ཐིག་གློག་ཤུགས་ཚད"
+
+#: ../data/gpm-graph.glade.h:3
+msgid "Graph type:"
+msgstr "ཚད་ཁྲམ་དབྱེ་བ་:"
+
+#: ../data/gpm-graph.glade.h:4
+msgid "Power History"
+msgstr "ནུས་ཤུགས་ཀྱི་ལོ་རྒྱུས།"
+
+#: ../data/gpm-graph.glade.h:5
+#: ../src/gpm-info.c:296
+#: ../src/gpm-info.c:305
+#: ../src/gpm-info.c:314
+#: ../src/gpm-info.c:323
+msgid "Time since startup"
+msgstr "དུས་ཚོད་འགོ་བཙུགས་ལས་ཚུར"
+
+#: ../data/gpm-inhibit-test.glade.h:1
+msgid "Application:"
+msgstr "གློག་རིམ་:"
+
+#: ../data/gpm-inhibit-test.glade.h:2
+msgid "Burning DVD, titled \"My Photos\""
+msgstr "ཌི་བི་ཌི་བཙུགས་སྤྱོད་འབད་དོ། མགོ་མིང་  \"ངེད་ཀྱི་པར་\""
+
+#: ../data/gpm-inhibit-test.glade.h:3
+msgid "Inhibit"
+msgstr "བཀག་ཆ་འབད།"
+
+#: ../data/gpm-inhibit-test.glade.h:4
+msgid "Inhibit Tester"
+msgstr "བརྟག་འཕྲུལ་བཀག་ཆ་འབད།"
+
+#: ../data/gpm-inhibit-test.glade.h:5
+msgid "Reason:"
+msgstr "རྒྱུ་མཚན།"
+
+#: ../data/gpm-inhibit-test.glade.h:6
+msgid "UnInhibit"
+msgstr "བཀག་ཆ་བཤོལ།"
+
+#: ../data/gpm-inhibit-test.glade.h:7
+msgid "Vendor Acme Foo"
+msgstr "བཙོང་མི་ཨེཀ་མི་ཕུ།"
+
+#: ../data/gpm-prefs.glade.h:1
+msgid "<b>Actions</b>"
+msgstr "<b>བྱ་བ་ཚུ</b>"
+
+#: ../data/gpm-prefs.glade.h:2
+msgid "<b>Display</b>"
+msgstr "<b>བཀྲམ་སྟོན</b>"
+
+#: ../data/gpm-prefs.glade.h:3
+msgid "<b>Extras</b>"
+msgstr "<b>ཐེབས་ཚུ་</b>"
+
+#: ../data/gpm-prefs.glade.h:4
+msgid "<b>Notification Area</b>"
+msgstr "<b>བརྡ་བསྐུལ་ཀྱི་མངའ་ཁོངས</b>"
+
+#: ../data/gpm-prefs.glade.h:5
+msgid "Always sleep when the lid is _closed"
+msgstr "ལིཌི་འདི་ཁ་བསྡམ་ཡོད་པའི་སྐབས་ ཨ་རྟག་རང་གཉིད་ནང་བཞག་ (_c)"
+
+#: ../data/gpm-prefs.glade.h:6
+msgid "Computer sp_eed policy:"
+msgstr "གློག་རིག་མགྱོགས་ཚད་སྲིད་བྱུས་:(_e)"
+
+#: ../data/gpm-prefs.glade.h:7
+msgid "Di_m display when idle"
+msgstr "ལས་མེད་ཀྱི་སྐབས་ལུ་ མདངས་གྲིབ་བཀྲམ་སྟོན་འབད་(_M)"
+
+#: ../data/gpm-prefs.glade.h:8
+msgid "Enable UPS discharge _alarm"
+msgstr "ཡུ་པི་ཨེསི་བཏོན་གཏང་ནིའི་འཇིགས་བརྡ་ ལྕོགས་ཅན་བཟོ་ (_a)"
+
+#: ../data/gpm-prefs.glade.h:9
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../data/gpm-prefs.glade.h:10
+msgid "Make _default"
+msgstr "སྔོན་སྒྲིག་བཟོ་ (_d)"
+
+#: ../data/gpm-prefs.glade.h:11
+msgid "On AC Power"
+msgstr "ཨེ་སི་ནུས་ཤུགས་གུ་"
+
+#: ../data/gpm-prefs.glade.h:12
+msgid "On Battery Power"
+msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ་"
+
+#: ../data/gpm-prefs.glade.h:13
+msgid "On UPS Power"
+msgstr "ཡུ་པི་ཨེསི་གི་ནུས་ཤུགས་གུ་"
+
+#: ../data/gpm-prefs.glade.h:14
+msgid "Only display an icon when a battery is p_resent"
+msgstr "འཕྲུལ་ལྟོ་འདི་ཡོད་པའི་སྐབས་རྐྱངམ་ཅིག་ ངོས་དཔར་ཅིག་བཀྲམ་སྟོན་འབད་ (_r)"
+
+#: ../data/gpm-prefs.glade.h:15
+msgid "Only display an icon when charging or _discharging"
+msgstr "ནུས་ཤུགས་བླུགས་པའི་བསྒང་དང་ནུས་ཤུགས་བཏོན་གཏང་པའི་བསྒང་རྐྱངམ་ཅིག་ བཀྲམ་སྟོན་འབད་ (_d)"
+
+#: ../data/gpm-prefs.glade.h:16
+msgid "Power Management Preferences"
+msgstr "ནུས་ཤུགས་འཛིན་སྐྱོང་གི་དགའ་གདམ་ཚུ།"
+
+#: ../data/gpm-prefs.glade.h:17
+msgid "Put _display to sleep when inactive for:"
+msgstr "དོན་ལུ་ ཤུགས་མེད་སྦེ་སྡོད་པའི་སྐབས་ བཀྲམ་སྟོན་འདི་གཉིད་ནང་བཙུགས་ (_d)"
+
+#: ../data/gpm-prefs.glade.h:18
+msgid "Put computer to _sleep when inactive for:"
+msgstr "དོན་ལུ་ ཤུགས་མེད་སྦེ་སྡོད་པའི་སྐབས་ གློག་རིག་འདི་གཉིད་ནང་བཙུགས་ (_s)"
+
+#: ../data/gpm-prefs.glade.h:19
+msgid "Set display _brightness to:"
+msgstr "བཀྲམ་སྟོན་ཆ་ཚན་འདི་ དཀར་མདངས་ལུ:(_b)"
+
+#: ../data/gpm-prefs.glade.h:20
+msgid "Turn on keyboard light when light level is low"
+msgstr "འོད་ཀྱི་གནས་ཚད་འདི་དམའ་སྦེ་ཡོདཔ་ད་ཝལྡེ་སྒྲོམ་གྱི་འོད་ལུ་བསྒྱིར"
+
+#: ../data/gpm-prefs.glade.h:21
+msgid "Use _ambient light to adjust LCD brightness"
+msgstr "ཨེལ་སི་ཌི་དཀར་མདངས་བདེ་སྒྲིག་འབད་ནིའི་དོན་ལས་ ཨེམ་བིནཊི་འོད་ལག་ལེན་འཐབ་ (_a)"
+
+#: ../data/gpm-prefs.glade.h:22
+msgid "Use _sound to notify in event of an error"
+msgstr "འཛོལ་བ་ཅིག་གི་ འབྱུང་ལས་ནང་བརྡ་བསྐུལ་འབད་ནིའི་དོན་ལས་ སྒྲ་སྐད་ལག་ལེན་འཐབ་ (_s)"
+
+#: ../data/gpm-prefs.glade.h:23
+msgid "When UPS power is _critically low:"
+msgstr "ཡུ་པི་ཨེསི་གི་ནུས་ཤུགས་ཚབས་ཆེན་སྦེ་དམའ་བའི་སྐབས་:(_c)"
+
+#: ../data/gpm-prefs.glade.h:24
+msgid "When UPS power is l_ow:"
+msgstr "ཡུ་པི་ཨེསི་གི་ནུས་ཤུགས་དམའ་བའི་སྐབས།:(_o)"
+
+#: ../data/gpm-prefs.glade.h:25
+msgid "When battery po_wer is critically low:"
+msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་འདི་ ཚབས་ཆེན་སྦེ་དམའ་བའི་སྐབས་:(_w)"
+
+#: ../data/gpm-prefs.glade.h:26
+msgid "When laptop lid is cl_osed:"
+msgstr "ལེབ་ཊོཔ་གི་ལིཌི་འདི་ཁ་བསྡམས་ཏེ་ཡོད་པའི་སྐབས་:(_o)"
+
+#: ../data/gpm-prefs.glade.h:27
+msgid "When the _suspend button is pressed:"
+msgstr "འཕྲལ་བཀག་ཨེབ་རྟ་འདི་ ཨེབ་ཡོད་པའི་སྐབས་:(_s)"
+
+#: ../data/gpm-prefs.glade.h:28
+msgid "When the power _button is pressed:"
+msgstr "ནུས་ཤུགས་ཨེབ་རྟ་འདི་ ཨེབ་ཡོད་པའི་སྐབས་:(_b)"
+
+#: ../data/gpm-prefs.glade.h:29
+msgid "_Always display an icon"
+msgstr "ཨ་རྟག་རང་ངོས་དཔར་བཀྲམ་སྟོན་འབད་ (_A)"
+
+#: ../data/gpm-prefs.glade.h:30
+msgid "_Never display an icon"
+msgstr "ནམ་ཡང་ ངོས་དཔར་བཀྲམ་སྟོན་མ་འབད་ (_N)"
+
+#: ../data/gpm-prefs.glade.h:31
+msgid "_Only display an icon when battery power is critically low"
+msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་འདི་ ཚབས་ཆེན་འབད་དམའ་བའི་སྐབས་རྐྱངམ་ཅིག་ ངོས་དཔར་ཅིག་བཀྲམ་སྟོན་འབད་ (_O)"
+
+#: ../data/gpm-prefs.glade.h:32
+msgid "_Reduce backlight brightness"
+msgstr "རྒྱབ་འོད་ཀྱི་ དཀར་མདངས་ མར་ཕབ་འབད་ "
+
+#: ../src/gpm-control.c:279
+#, c-format
+msgid "The message was not sent due to DBUS security rules"
+msgstr "ཌི་བི་ཡུ་ཨེསི་ སྲུང་སྐྱོབ་ལམ་ལུགས་ཚུ་ལུ་བརྟེན་ཏེ་ ཕྲིན་དོན་དེ་ མ་བཏང་མས་ "
+
+#: ../src/gpm-control.c:282
+#, c-format
+msgid "General failure: %s"
+msgstr "སྤྱིར་བཏང་  འཐུས་ཤོར་: %s"
+
+#: ../src/gpm-common.c:242
+#, c-format
+msgid "Unknown time"
+msgstr "མ་ཤེས་པའི་དུས་ཡུན།"
+
+#: ../src/gpm-common.c:247
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "སྐར་མ་ %i"
+msgstr[1] "སྐར་མ་ %i"
+
+#: ../src/gpm-common.c:258
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "ཆུ་ཚོད %i"
+msgstr[1] "ཆུ་ཚོད་ %i"
+
+#. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
+#. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#: ../src/gpm-common.c:264
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: ../src/gpm-common.c:265
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ཆུ་ཚོད་"
+msgstr[1] "ཆུ་ཚོད་"
+
+#: ../src/gpm-common.c:266
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "སྐར་མ་"
+msgstr[1] "སྐར་མ་"
+
+#: ../src/gpm-common.h:44
+msgid "Power Manager for the GNOME desktop"
+msgstr "ཇི་ནོམ་ཌེཀསི་ཊོཔ་གི་དོན་ལུ་ནུས་ཤུགས་ཀྱི་འཛིན་སྐྱོང་།"
+
+#. only enable this if discharging on UPS
+#: ../src/gpm-engine.c:283
+msgid "Computer is running on backup power\n"
+msgstr "གློག་རིག་འདི་རྒྱབ་ཐག་ནུས་ཤུགས་གུ་གཡོག་བཀོལ་དོ།\n"
+
+#: ../src/gpm-engine.c:286
+msgid "Computer is running on AC power\n"
+msgstr "གློག་རིག་ནུས་ཤུགས་འདི་ཨེ་སི་གུ་གཡོག་བཀོལ་དོ།\n"
+
+#: ../src/gpm-engine.c:289
+msgid "Computer is running on battery power\n"
+msgstr "གློག་རིག་འདི་འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ་གཡོག་བཀོལ་དོ།\n"
+
+#: ../src/gpm-engine.c:307
+msgid "Battery discharge time is currently unknown\n"
+msgstr "འཕྲུལ་ལྟོ་ བཏོན་ནིའི་དུས་ཚོད་ ད་ལྟོ་ མི་ཤེས་པས\n"
+
+#: ../src/gpm-engine.c:309
+msgid "Battery charge time is currently unknown\n"
+msgstr "འཕྲུལ་ལྟོ་ བཙུགས་ནིའི་དུས་ཚོད་ ད་ལྟོ་ མི་ཤེས་པས\n"
+
+#: ../src/gpm-engine.c:313
+msgid "Battery discharge time is estimated\n"
+msgstr "འཕྲལ་བཀག་གི་སྐབས་ལུ་ འཕྲུལ་ལྟོའི་ཤུགས་ཚད་བཏོན་བཏང་ཡོདཔ\n"
+
+#: ../src/gpm-engine.c:315
+msgid "Battery charge time is estimated\n"
+msgstr "འཕྲལ་བཀག་གི་སྐབས་ལུ་ འཕྲུལ་ལྟོའི་ཤུགས་ཚད་བླུག་ཡོདཔ\n"
+
+#. show a AC icon
+#: ../src/gpm-engine.c:610
+msgid "Unable to get data..."
+msgstr "གནད་སྡུད་འཐོབ་མ་ཚུགས..."
+
+#. Translators: This is %i hours
+#: ../src/gpm-graph-widget.c:485
+#, c-format
+msgid "%ih"
+msgstr "%ih"
+
+#. Translators: This is %i hours %02i minutes
+#: ../src/gpm-graph-widget.c:488
+#, c-format
+msgid "%ih%02i"
+msgstr "%ih%02i"
+
+#. Translators: This is %2i minutes
+#: ../src/gpm-graph-widget.c:493
+#, c-format
+msgid "%2im"
+msgstr "%2im"
+
+#. Translators: This is %2i minutes %02i seconds
+#: ../src/gpm-graph-widget.c:496
+#, c-format
+msgid "%2im%02i"
+msgstr "%2im%02i"
+
+#. Translators: This is %2i seconds
+#: ../src/gpm-graph-widget.c:500
+#, c-format
+msgid "%2is"
+msgstr "%2is"
+
+#. Translators: This is %i Percentage
+#: ../src/gpm-graph-widget.c:504
+#, c-format
+msgid "%i%%"
+msgstr "%i%%"
+
+#. Translators: This is %.1f Watts
+#: ../src/gpm-graph-widget.c:507
+#, c-format
+msgid "%.1fW"
+msgstr "%.1fW"
+
+#. Translators: This is %.1f Volts
+#: ../src/gpm-graph-widget.c:510
+#, c-format
+msgid "%.1fV"
+msgstr "%.1fV"
+
+#: ../src/gpm-info.c:122
+#, c-format
+msgid "Reason: %s"
+msgstr "རྒྱུ་མཚན་ %s"
+
+#: ../src/gpm-info.c:202
+msgid "On AC"
+msgstr "ཨེ་སི་གུ།"
+
+#: ../src/gpm-info.c:206
+msgid "On battery"
+msgstr "འཕྲུལ་ལྟོ་གུ།"
+
+#: ../src/gpm-info.c:210
+msgid "Session powersave"
+msgstr "ལཱ་ཡུན་ཤུགས་ལྡན་སྲུང་"
+
+#: ../src/gpm-info.c:214
+msgid "Session idle"
+msgstr "ལཱ་ཡུན་ལས་མེད་"
+
+#: ../src/gpm-info.c:218
+msgid "Session active"
+msgstr "ལཱ་ཡུན་ཤུགས་ལྡན་"
+
+#. Translators: translate ONLY the string part after the |
+#: ../src/gpm-info.c:223
+msgid "label shown on graph|Suspend"
+msgstr "ཁ་ཡིག་ཚད་ཁྲམ་|འཕྲལ་བཀག་གུ་སྟོན་ཡོད་མི"
+
+#. Translators: translate ONLY the string part after the |
+#: ../src/gpm-info.c:228
+msgid "label shown on graph|Resume"
+msgstr "ཁ་ཡིག་ཚད་ཁྲམ་|བསྐྱར་ལོག་གུར་སྟོན་ཡོད་མི"
+
+#. Translators: translate ONLY the string part after the |
+#: ../src/gpm-info.c:233
+msgid "label shown on graph|Hibernate"
+msgstr "ཁ་ཡིག་ཚད་ཁརམ་|གཉིད་ནང་བཙུག་ནི་སྟོན་ཡོད་མི"
+
+#: ../src/gpm-info.c:237
+msgid "Lid closed"
+msgstr "ལིཌི་ཁ་བསྡམ་ནུག"
+
+#: ../src/gpm-info.c:241
+msgid "Lid opened"
+msgstr "ལིཌི་ཁ་ཕྱེ་ནུག"
+
+#: ../src/gpm-info.c:245
+msgid "Notification"
+msgstr "བརྡ་བསྐུལ།"
+
+#: ../src/gpm-info.c:250
+msgid "DPMS On"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ ཨཱོན་"
+
+#: ../src/gpm-info.c:254
+msgid "DPMS Standby"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ རྒྱབ་ཐག་"
+
+#: ../src/gpm-info.c:258
+msgid "DPMS Suspend"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ འཕྲལ་བཀག"
+
+#: ../src/gpm-info.c:262
+msgid "DPMS Off"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ ཨོཕ་"
+
+#: ../src/gpm-info.c:297
+#: ../src/gpm-info.c:298
+msgid "Power"
+msgstr "ནུས་ཤུགས་"
+
+#: ../src/gpm-info.c:306
+msgid "Estimated time"
+msgstr "ཕོག་ཚོད་ཅན་གྱི་དུས་ཚོད"
+
+#: ../src/gpm-info.c:307
+msgid "Time"
+msgstr "དུས་ཡུན།"
+
+#: ../src/gpm-info.c:315
+#: ../src/gpm-info.c:332
+#: ../src/gpm-info.c:349
+#: ../src/gpm-info.c:367
+#: ../src/gpm-info.c:384
+msgid "Battery percentage"
+msgstr "འཕྲུལ་ལྟོ་གི་རྒྱ་ཆ"
+
+#: ../src/gpm-info.c:316
+msgid "Percentage"
+msgstr "རྒྱ་ཆ"
+
+#: ../src/gpm-info.c:324
+msgid "Battery Voltage"
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས"
+
+#: ../src/gpm-info.c:325
+msgid "Voltage"
+msgstr "གློག་ཤུགས"
+
+#: ../src/gpm-info.c:333
+#: ../src/gpm-info.c:368
+msgid "Accuracy of reading"
+msgstr "ལྷག་ནིའི་འཕྲུལ་མེད"
+
+#: ../src/gpm-info.c:334
+#: ../src/gpm-info.c:351
+#: ../src/gpm-info.c:369
+#: ../src/gpm-info.c:386
+msgid "Valid data"
+msgstr "ནུས་ཅན་གྱི་གདན་སྡུད"
+
+#: ../src/gpm-info.c:335
+#: ../src/gpm-info.c:352
+#: ../src/gpm-info.c:370
+#: ../src/gpm-info.c:387
+msgid "No data"
+msgstr "གནད་སྡུད་མེད"
+
+#: ../src/gpm-info.c:339
+#: ../src/gpm-info.c:357
+#: ../src/gpm-info.c:374
+#: ../src/gpm-info.c:392
+msgid "Start point"
+msgstr "འགོ་བཙུགས་ ས་ "
+
+#: ../src/gpm-info.c:343
+#: ../src/gpm-info.c:361
+#: ../src/gpm-info.c:378
+#: ../src/gpm-info.c:396
+msgid "Stop point"
+msgstr "མཇུག་བསྡུ་ས་ "
+
+#: ../src/gpm-info.c:350
+#: ../src/gpm-info.c:385
+msgid "Average time elapsed"
+msgstr "ཆ་སྙོམས་དུས་ཚོད་སོང་བ"
+
+#: ../src/gpm-info.c:353
+#: ../src/gpm-info.c:388
+msgid "Extrapolated data"
+msgstr "ཕོག་ཚད་དཔག་ཡོད་པའི་ གནས་སྡུད་ "
+
+#: ../src/gpm-info.c:680
+msgid "AC adapter inserted"
+msgstr "ཨེ་སི་མཐུན་བྱེད་བཙུགས་ཡོད།"
+
+#: ../src/gpm-info.c:683
+msgid "AC adapter removed"
+msgstr "ཨེ་སི་མཐུན་བྱེད་རྩ་བསྐྲད་བཏང་ཡོད།"
+
+#: ../src/gpm-info.c:703
+msgid "The laptop lid has been closed"
+msgstr "ལེབ་ཊོཔ་གི་ཁ་ཏོག་བཅད་ནུག"
+
+#: ../src/gpm-info.c:709
+msgid "The laptop lid has been re-opened"
+msgstr "ལེབ་ཊོཔ་གི་ཁ་ཏོག་ ལོག་ཁ་ཕྱེ་ནུག"
+
+#: ../src/gpm-info.c:731
+msgid "idle mode ended"
+msgstr "ལས་མེད་ཐབས་ལམ་མཇུག་བསྡུ་ཡོད།"
+
+#: ../src/gpm-info.c:733
+msgid "idle mode started"
+msgstr "ལས་མེད་ཐབས་ལམ་འགོ་བཙུགས་ཅི།"
+
+#: ../src/gpm-info.c:735
+msgid "powersave mode started"
+msgstr "ལས་མེད་ཐབས་ལམ་འགོ་བཙུགས་ཡོདཔ"
+
+#: ../src/gpm-info.c:754
+msgid "dpms on"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ ཨཱོན་"
+
+#: ../src/gpm-info.c:756
+msgid "dpms standby"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ རྒྱབ་ཐག་"
+
+#: ../src/gpm-info.c:758
+msgid "dpms suspend"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་འཕྲལ་བཀག"
+
+#: ../src/gpm-info.c:760
+msgid "dpms off"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ཨོཕ་"
+
+#: ../src/gpm-info.c:777
+msgid "Resuming computer"
+msgstr "གློག་རིག་བསྐྱར་ལོག"
+
+#: ../src/gpm-info.c:793
+msgid "Hibernate Problem"
+msgstr "དཀའ་ངལ་གཉིད་ནང་བཙུགས་ནི།"
+
+#: ../src/gpm-info.c:795
+msgid "Suspend Problem"
+msgstr "དཀའ་ངལ་འཕྲལ་བཀག"
+
+#. Translators: first %s is an application name, second %s is the reason
+#: ../src/gpm-inhibit.c:373
+#, c-format
+msgid "%s has stopped the suspend from taking place: %s."
+msgstr "གིས་ %s འབྱུང་ཉེན་ལས་་ བཀག་ནུག : %s."
+
+#. Translators: first %s is an application name, second %s is the reason
+#: ../src/gpm-inhibit.c:378
+#, c-format
+msgid "%s has stopped the hibernate from taking place: %s."
+msgstr "%s གིས་ གཉིད་ནང་བཙུགས་ནི་ བཀག་བཞག་ནུག: %s."
+
+#. Translators: first %s is an application name, second %s is the reason
+#: ../src/gpm-inhibit.c:383
+#, c-format
+msgid "%s has stopped the policy action from taking place: %s."
+msgstr " %s གིས་ སྲིད་བྱུས་ཀྱི་བྱ་བ་ བཀག་བཞག་ནུག་ : %s."
+
+#. Translators: first %s is an application name, second %s is the reason
+#: ../src/gpm-inhibit.c:388
+#, c-format
+msgid "%s has stopped the reboot from taking place: %s."
+msgstr "%s གིས  རི་བུཊི་ འབད་ནི་བཀག་བཞག་ནུག་: %s."
+
+#. Translators: first %s is an application name, second %s is the reason
+#: ../src/gpm-inhibit.c:393
+#, c-format
+msgid "%s has stopped the shutdown from taking place: %s."
+msgstr " %s གིས་ སྒོ་བསྡམ་ནི་བཀག་བཞག་ནུག་ : %s."
+
+#. Translators: first %s is an application name, second %s is the reason
+#: ../src/gpm-inhibit.c:398
+#, c-format
+msgid "%s has stopped the timeout action from taking place: %s."
+msgstr " %s གིས་ ངལ་མཚམས་བྱ་བ་ བཀག་བཞག་ནུག་ : %s."
+
+#: ../src/gpm-inhibit.c:406
+#: ../src/gpm-inhibit.c:421
+#, c-format
+msgid "Multiple applications have stopped the suspend from taking place."
+msgstr "སྣ་མང་གློག་རིམ་གྱིས་ འཕྲལ་བཀག་འབད་ནི་ བཀག་བཞག་ནུག། "
+
+#: ../src/gpm-inhibit.c:409
+#, c-format
+msgid "Multiple applications have stopped the hibernate from taking place."
+msgstr "སྣ་མང་གློག་རིམ་གྱིས་ གཉིད་ནང་བཙུགས་ནི་བཀག་བཞག་ནུག། "
+
+#: ../src/gpm-inhibit.c:412
+#, c-format
+msgid "Multiple applications have stopped the policy action from taking place."
+msgstr "སྣ་མང་གློག་རིམ་གྱིས་ སྲིད་བྱུས་ཀྱི་བྱ་བ་འབད་ནི་ བཀག་བཞག་ནུག། "
+
+#: ../src/gpm-inhibit.c:415
+#, c-format
+msgid "Multiple applications have stopped the reboot from taking place."
+msgstr "སྣ་མང་གློག་རིམ་གྱིས་ རི་བུཊི་ འབད་ནི་ བཀག་བཞག་ནུག། "
+
+#: ../src/gpm-inhibit.c:418
+#, c-format
+msgid "Multiple applications have stopped the shutdown from taking place."
+msgstr "སྣ་མང་གློག་རིམ་གྱིས་ སྒོ་བསྡམ་ནི་བཀག་བཞག་ནུག། "
+
+#: ../src/gpm-main.c:137
+msgid "Do not daemonize"
+msgstr "ཌེ་མཱོནའིཛི་མ་འབད།"
+
+#: ../src/gpm-main.c:139
+#: ../src/gpm-prefs.c:107
+#: ../src/gpm-statistics.c:105
+msgid "Show extra debugging information"
+msgstr "བརྡ་དོན་ཐེབས་རྐྱེན་སེལ་འབད་མི་འདི་སྟོན།"
+
+#: ../src/gpm-main.c:141
+msgid "Show version of installed program and exit"
+msgstr "ཐོན་རིམ་གཞི་བཙུགས་འབད་ཡོད་པའི་ལས་རིམ་དང་ཕྱིར་ཐོན་སྟོན"
+
+#: ../src/gpm-main.c:143
+msgid "Exit after a small delay (for debugging)"
+msgstr "ཕྱིར་འགྱངས་ཆུང་ཀུ་ཅིག་གི་ཤུལ་མ་ ཕྱིར་ཐོན་འབད་ (རྐྱེན་སེལ་འབད་ནིའི་དོན་ལུ་)"
+
+#: ../src/gpm-main.c:145
+msgid "Exit after the manager has loaded (for debugging)"
+msgstr "འཛིན་སྐྱོང་པ་ མངོན་གསལ་འབད་ཚར་བའི་ཤུལ་མ་ ཕྱིར་ཐོན་འབད (རྐྱེན་སེལ་འབད་ནིའི་དོན་ལུ་)"
+
+#: ../src/gpm-main.c:147
+msgid "Debug specific files, e.g. power"
+msgstr "དམིགས་བསལ་ཡིག་སྣོད་ཚུ་རྐྱེན་སེལ་འབད་ དཔེར་ན་ ནུས་ཤུགས་"
+
+#: ../src/gpm-main.c:151
+msgid "GNOME Power Manager"
+msgstr "ཇི་ནོམ་ནུས་ཤུགས་འཛིན་སྐྱོང་པ།"
+
+#: ../src/gpm-manager.c:185
+#, c-format
+msgid "Request to suspend"
+msgstr "འཕྲལ་བཀག་འབད་ནི་ལུ་ ཞུ་བ་འབད།"
+
+#: ../src/gpm-manager.c:188
+#, c-format
+msgid "Request to hibernate"
+msgstr "གཉིད་ནང་བཙུག་ནི་ ལུ་ཞུ་བ་འབད།"
+
+#: ../src/gpm-manager.c:191
+#, c-format
+msgid "Request to do policy action"
+msgstr "སྲུད་བྱུས་ཀྱི་བྱ་བ་འབད་ནི་ལུ་ ཞུ་བ་ "
+
+#: ../src/gpm-manager.c:194
+#, c-format
+msgid "Request to reboot"
+msgstr "ལུ་ཞུ་བ་འབད།"
+
+#: ../src/gpm-manager.c:197
+#, c-format
+msgid "Request to shutdown"
+msgstr "སྒོ་བསྡམ་ནི་ལུ་ ཞུ་བ་འབད་ "
+
+#: ../src/gpm-manager.c:200
+#, c-format
+msgid "Request to do timeout action"
+msgstr "ངལ་མཚམས་ བྱ་བ་འབད་ནི་ལུ་ ཞུ་བ་ "
+
+#. I want this translated
+#: ../src/gpm-manager.c:211
+msgid "Perform action anyway"
+msgstr "བྱ་བ་གང་རུང་སྦེ་ལཱ་འགན་གྲུབ་"
+
+#: ../src/gpm-manager.c:331
+#: ../src/gpm-manager.c:357
+#: ../src/gpm-manager.c:391
+#: ../src/gpm-manager.c:417
+#: ../src/gpm-manager.c:457
+msgid "Action forbidden"
+msgstr "བྱ་བ་མ་ཆོགཔ"
+
+#: ../src/gpm-manager.c:332
+#: ../src/gpm-manager.c:392
+#: ../src/gpm-manager.c:458
+msgid "Policy timeout is not valid. Please wait a few seconds and try again."
+msgstr "སྲིད་བྱུས་ཀྱི་དུས་ཚོད་འདི་ནུས་མེད་ཨིན་པས།སྐར་ཆ་ཨ་རྩིས་སྒུག་ཏེ་འབད་རྩོལ་བསྐྱེད་གནང་"
+
+#: ../src/gpm-manager.c:344
+#: ../src/gpm-manager.c:404
+msgid "Action disallowed"
+msgstr "བྱ་བ་འབད་མ་བཅུག"
+
+#: ../src/gpm-manager.c:345
+msgid "Suspend support has been disabled. Contact your administrator for more details."
+msgstr "འཕྲལ་བཀག་རྒྱབ་སྐྱོར་འདི་ལྕོགས་མིན་བཟོ་ཡོདཔ།རྒྱས་བཤད་ཀྱི་དོན་ལུ་ཁྱོད་རའི་བདག་སྐྱོང་པ་དང་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: ../src/gpm-manager.c:358
+msgid "Suspend is not available on this computer."
+msgstr "འ་ནི་གློག་རིག་འདི་ནང་འཕྲལ་བཀག་འབད་བཞག་ནི་མིན་འདུག།"
+
+#: ../src/gpm-manager.c:371
+#: ../src/gpm-manager.c:790
+msgid "Suspending computer."
+msgstr "གློག་རིག་ འཕྲལ་བཀག་འབད་དོ།"
+
+#: ../src/gpm-manager.c:405
+msgid "Hibernate support has been disabled. Contact your administrator for more details."
+msgstr "གཉིད་ནང་བཙུག་ནིའི་རྒྱབ་སྐྱོར་འདི་ལྕོགས་མིན་བཟོ་ཡོདཔ།རྒྱས་བཤད་ཀྱི་དོན་ལུ་ཁྱོད་རའི་བདག་སྐྱོང་པ་འབྲེལ་བ་འཐབ་གནང་།"
+
+#: ../src/gpm-manager.c:418
+msgid "Hibernate is not available on this computer."
+msgstr "གཉིད་ནང་བཙུག་ནི་འདི་འ་ནི་གློག་རིག་ནང་འཐོབ་མི་ཚུགས།"
+
+#: ../src/gpm-manager.c:431
+#: ../src/gpm-manager.c:805
+msgid "Hibernating computer."
+msgstr "གློག་རིག་ གཉིད་ནང་བཙུགས་དོ།"
+
+#: ../src/gpm-manager.c:479
+msgid "Doing nothing."
+msgstr "ག་ནི་ཡང་མ་འབད་"
+
+#: ../src/gpm-manager.c:492
+msgid "Shutting down computer."
+msgstr "གློག་རིག་ སྒོ་བསྡམ་དོ།"
+
+#: ../src/gpm-manager.c:497
+msgid "GNOME interactive logout."
+msgstr "ཇི་ནོམ་ཕན་ཚུན་འབྲེལ་བའི་  ཕྱིར་བསྐྱོད།"
+
+#: ../src/gpm-manager.c:790
+#: ../src/gpm-manager.c:805
+msgid "System idle."
+msgstr "རིམ་ལུགས་ ལས་མེད།"
+
+#: ../src/gpm-manager.c:882
+msgid "Power Information"
+msgstr "ནུས་ཤུགས་ཀྱི་བརྡ་དོན།"
+
+#: ../src/gpm-manager.c:899
+msgid "The power button has been pressed."
+msgstr "གློག་རྟ་ཨེབ་ནུག། "
+
+#: ../src/gpm-manager.c:911
+msgid "The suspend button has been pressed."
+msgstr "འཕྲལ་བཀག་གི་ ཨེབ་རྟ་དེ་ཨེབ་ནུག།"
+
+#: ../src/gpm-manager.c:923
+msgid "The hibernate button has been pressed."
+msgstr "གཉིད་ནང་ བཙུགས་ནིའི་ཨེབ་རྟ་དེ་མནམ་ནུག།"
+
+#: ../src/gpm-manager.c:954
+msgid "The lid has been closed on ac power."
+msgstr "ཨེ་སི་གློག་ཤུགས་གུ་ ཁ་ཏོག་བཅད་ནུག།"
+
+#: ../src/gpm-manager.c:984
+msgid "The lid has been closed on battery power."
+msgstr "གློག་རིག་འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ་ ཁ་ཏོག་བཅད་ནུག།"
+
+#: ../src/gpm-manager.c:1073
+msgid "The lid has been closed, and the ac adapter removed (and gconf is okay)."
+msgstr "ཁ་ཏོག་བཅད་ནུག  ཨེ་སི་མཐུན་བྱེད་རྩ་བསྐྲད་བཏང་ནུག  (ཇི་ཀཱོནཕི་བཏུབ་པས)"
+
+#: ../src/gpm-manager.c:1096
+msgid "Battery is critically low."
+msgstr "འཕྲུལ་ལྟོ་ ཚབས་ཆེན་སྦེ་ དམའ་བ་ཨིན་པས།"
+
+#: ../src/gpm-manager.c:1186
+#: ../src/gpm-manager.c:1201
+msgid "User clicked on tray"
+msgstr "ལག་ལེན་པ་གིས་ ཤོག་སྣོད་གུ་ ཨེབ་གཏང་འབད་ནུག"
+
+#: ../src/gpm-manager.c:1411
+msgid "Laptop battery low"
+msgstr "ལེབ་ཊོཔ་གི་འཕྲུལ་ལྟོ་དམའ་བ།"
+
+#: ../src/gpm-manager.c:1413
+#, c-format
+msgid "You have approximately <b>%s</b> of remaining battery life (%d%%)"
+msgstr "ཁྱོད་ལུ་འཕྲུལ་ལྟོའི་ཚེ་ལྷག་ལུས་ལས་ <b>%s</b>ཧ་ལམ་(%d%%)ཡོད། "
+
+#: ../src/gpm-manager.c:1416
+msgid "UPS low"
+msgstr "དམའ་བའིཡུ་པི་ཨེསི"
+
+#: ../src/gpm-manager.c:1418
+#, c-format
+msgid "You have approximately <b>%s</b> of remaining UPS backup power (%d%%)"
+msgstr "ཡུ་པི་ཨེསི་རྒའབ་ཐག་ནུས་ཤུགས་ཀྱི་ལྷག་ལུས་<b>%s</b>་ཧ་ལམ་(%d%%ཡོད། "
+
+#: ../src/gpm-manager.c:1421
+#: ../src/gpm-manager.c:1521
+msgid "Mouse battery low"
+msgstr "དམའ་བའི་མའུསི་འཕྲུལ་ལྟོ"
+
+#: ../src/gpm-manager.c:1422
+#, c-format
+msgid "The wireless mouse attached to this computer is low in power (%d%%)"
+msgstr "་གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་ཡོད་མི་ ཐབས་འཕྲུལ་འདི་ལུ་ ནུས་ཤུགས་དམའ་བ་(%d%%). "
+
+#: ../src/gpm-manager.c:1424
+#: ../src/gpm-manager.c:1526
+msgid "Keyboard battery low"
+msgstr "དམའ་བའི་ལྡེ་སྒྲོམ་འཕྲུལ་ལྟོ"
+
+#: ../src/gpm-manager.c:1425
+#, c-format
+msgid "The wireless keyboard attached to this computer is low in power (%d%%)"
+msgstr "གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་འབད་ཡོད་པའི་རླུང་འཕྲིན་ལྡེ་སྒྲོམ་འདི་ནུས་ཤུགས་དམའ་བ་འདུག(%d%%)"
+
+#: ../src/gpm-manager.c:1427
+#: ../src/gpm-manager.c:1531
+msgid "PDA battery low"
+msgstr "དམའ་བའི་པི་ཌི་ཨེ་འཕྲུལ་ལྟོ"
+
+#: ../src/gpm-manager.c:1428
+#, c-format
+msgid "The PDA attached to this computer is low in power (%d%%)"
+msgstr "གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་ཡོད་མི་ ནུས་ཤུགས་དམའ་བ་(%d%%)"
+
+#: ../src/gpm-manager.c:1430
+#: ../src/gpm-manager.c:1536
+msgid "Cell phone battery low"
+msgstr "སེལ་ཕཱོན་ འཕྲུལ་ལྟོ་ དམའ་བས་ "
+
+#: ../src/gpm-manager.c:1431
+#, c-format
+msgid "The cell phone attached to this computer is low in power (%d%%)"
+msgstr "་གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་ཡོད་མི་ སེལ་ཕཱོན་དེ་ལུ་ ནུས་ཤུགས་དམའ་བ་( %d%%). "
+
+#: ../src/gpm-manager.c:1458
+msgid "a short time"
+msgstr "དུས་ཚོད་ཐུང་ཀུ་ཅིག་ནང་"
+
+#: ../src/gpm-manager.c:1481
+#: ../src/gpm-manager.c:1567
+msgid "Laptop battery critically low"
+msgstr "ཚབས་ཆེན་དམའ་བའི་ལེཔ་ཊོཔ་གི་འཕྲུལ་ལྟོ་"
+
+#: ../src/gpm-manager.c:1494
+#, c-format
+msgid "Plug in your AC adapter to avoid losing data."
+msgstr "གནད་སྡུད་བྱང་སྟོར་ཤོར་་ནི་ཟུར་ནི་གི་དོན་ལས་ཁྱོད་རའི་ཨེ་སི་མཐུན་བྱེད་ནང་པ་ལག་ཨིན།"
+
+#: ../src/gpm-manager.c:1497
+#, c-format
+msgid "This computer will suspend in %s if the AC is not connected."
+msgstr "གློག་རིག་འདི་གིས་%sནང་འཕྲལ་བཀག་འབད་འོང་ གལ་སྲིད་ཨེ་སི་འདི་མཐུད་མེད་པ་ཅིན"
+
+#: ../src/gpm-manager.c:1500
+#, c-format
+msgid "This computer will hibernate in %s if the AC is not connected."
+msgstr "གློག་རིག་འདི་གིས་%s ནང་གཉིད་ནང་བཙུག་འོང་ གལ་སྲིད་ཨེ་སི་འདི་མཐུད་མེད་པ་ཅིན།"
+
+#: ../src/gpm-manager.c:1503
+#, c-format
+msgid "This computer will shutdown in %s if the AC is not connected."
+msgstr "གློག་རིག་འདི་%sནང་ཁ་བསྡམ་འོང་ གལ་སྲིད་ཨེ་སི་འདི་མཐུད་མེད་པ་ཅིན།"
+
+#: ../src/gpm-manager.c:1506
+#, c-format
+msgid "You have approximately <b>%s</b> of remaining battery life (%d%%). %s"
+msgstr "ཁྱོད་ལུ་འཕྲུལ་ལྟོའི་ཚེ་ལྷག་ལུས་ལས་ <b>%s</b>ཧ་ལམ་(%d%%)%s ཡོད།  "
+
+#: ../src/gpm-manager.c:1514
+#: ../src/gpm-manager.c:1599
+msgid "UPS critically low"
+msgstr "ཚབས་ཆེན་དམའ་བའི་ཡུ་པི་ཨེསི"
+
+#: ../src/gpm-manager.c:1516
+#, c-format
+msgid "You have approximately <b>%s</b> of remaining UPS power (%d%%). Restore AC power to your computer to avoid losing data."
+msgstr "ཡུ་པི་ཨེསི་ནུས་ཤུགས་ཀྱི་ལྷག་ལུས་<b>%s</b>ཁྱོད་ལུ་ཧ་ལམ་(%d%%ཡོད། གནད་སྡུད་བྱང་སྟོར་ཤོར་མི་བཅུག་ནའི་དོན་ལུ་ ཁྱོད་རའི་གློག་རིག་ལུ་ ཨེ་སི་ནུས་ཤུགས་སོར་ཆུད་འབད།"
+
+#: ../src/gpm-manager.c:1522
+#, c-format
+msgid "The wireless mouse attached to this computer is very low in power (%d%%). This device will soon stop functioning if not charged."
+msgstr "གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་ཡོད་མི་ རླུང་འཕྲིན་མའུསི་འདི་ལུ་ ནུས་ཤུགས་དམའ་བ་(%d%%). ནུས་ཤུགས་མ་བླུག་པ་ཅིན་ ཐབས་འཕྲུལ་འདི་གིས་ མགྱོགས་པ་རང་་ ལཱ་འབད་མི་བཏུབ་འོང་།"
+
+#: ../src/gpm-manager.c:1527
+#, c-format
+msgid "The wireless keyboard attached to this computer is very low in power (%d%%). This device will soon stop functioning if not charged."
+msgstr "གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་ཡོད་མི་ རླུང་འཕྲིན་གརྩོ་བོ་འདི་ལུ་ ནུས་ཤུགས་དམའ་བ་(%d%%). ནུས་ཤུགས་མ་བླུག་པ་ཅིན་ ཐབས་འཕྲུལ་འདི་གིས་ མགྱོགས་པ་རང་་ ལཱ་འབད་མི་བཏུབ་འོང་།"
+
+#: ../src/gpm-manager.c:1532
+#, c-format
+msgid "The PDA attached to this computer is very low in power (%d%%). This device will soon stop functioning if not charged."
+msgstr "གློག་རིག་འདི་ལུ་མཉམ་སྦྲགས་ཡོད་མི་ པི་ཌི་ཨེ་་འདི་ལུ་ ནུས་ཤུགས་དམའ་བ་(%d%%). ནུས་ཤུགས་མ་བླུག་པ་ཅིན་ ཐབས་འཕྲུལ་འདི་གིས་ མགྱོགས་པ་རང་ ལཱ་འབད་མི་བཏུབ་འོང་།"
+
+#: ../src/gpm-manager.c:1537
+#, c-format
+msgid "Your cell phone is very low in power (%d%%). This device will soon stop functioning if not charged."
+msgstr "ཁྱོད་ཀྱི་ སེལ་ཕཱོན་འདི་ གནམ་མེད་ས་མེད་ འཕྲུལ་ལྟོ་དམའ་བས་ (%d%%)།  ནུས་ཤུགས་མ་བླུག་པ་ཅིན་ ཐབས་འཕྲུལ་འདི་གིས་ མགྱོགས་པ་རང་ ལཱ་འབད་མི་བཏུབ་འོང་།"
+
+#: ../src/gpm-manager.c:1574
+msgid "The battery is below the critical level and this computer will <b>power-off</b> when the battery becomes completely empty."
+msgstr "འཕྲུལ་ལྟོ་འདི་ཚབས་ཆེན་གནས་རིམ་གྱི་འོག་ལུ་ཡོདཔ་ལས་   འཕྲུལ་ལྟོ་འདི་རྩ་བ་ལས་སྟོངམ་འཐོན་པའི་བསྒང་  འ་ནི་གློག་རིག་འདི་<b>ནུས་ཤུགས་ཨོཕ་</b>འགྱོ་འོང་།"
+
+#: ../src/gpm-manager.c:1579
+msgid "The battery is below the critical level and this computer is about to suspend.<br><b>NOTE:</b> A small amount of power is required to keep your computer in a suspended state."
+msgstr "འཕྲུལ་ལྟོ་འདི་ ཚབས་ཆེན་གནས་རིམ་གྱི་འོག་ལུ་ཡོདཔ་དང་ འ་ནི་གློག་རིག་འདི་འཕྲལ་བཀག་འགྱོ་ནི་འབད་དོ།<br><b>འདྲན་འཛིན:</b> ཁྱོད་རའི་གློག་རིག་འདི་ འཕྲལ་བཀག་གི་གནས་ལུགས་ནང་བཞག་ནའི་དོན་ལུ་ ནུས་ཤུགས་ བསྡོམ་གྱི་ཆུང་ཀུ་ཅིག་དགོས་མཁོ་ཡོད།"
+
+#: ../src/gpm-manager.c:1585
+msgid "The battery is below the critical level and this computer is about to hibernate."
+msgstr "འཕྲིལ་ལྟོ་འདི་ཚབས་ཆེན་གནས་རིམ་གྱི་འོག་ལུ་ཡོདཔ་དང་ འ་ནི་གློག་རིག་འདི་གཉིད་ནང་བཙུགས་ནི་འབད་དོ"
+
+#: ../src/gpm-manager.c:1589
+msgid "The battery is below the critical level and this computer is about to shutdown."
+msgstr "འཕྲུལ་ལྟོ་འདི་ཚབས་ཆེན་གྱི་གནས་རིམ་འོག་ལུ་ཡོདཔ་དང་ འ་ནི་གལོག་རིག་འདི་སྒོ་བསྡམ་ནི་འབད་དོ།"
+
+#: ../src/gpm-manager.c:1606
+msgid "The UPS is below the critical level and this computer will <b>power-off</b> when the UPS becomes completely empty."
+msgstr "ཡུ་པི་ཨེསི་འདི་ཚབས་ཆེན་གནས་རིམ་གྱི་ཐོག་ལུ་ཡོདཔ་དང་ ཡུ་པི་ཨེསི་འདི་རྩ་བ་ལས་སྟོངམ་འཐོནམ་ད་ གློག་རིག་འདི་<b>ནུས་ཤུགས་ཨོཕ</b>འགྱོ་འོང་།"
+
+#: ../src/gpm-manager.c:1611
+msgid "The UPS is below the critical level and this computer is about to hibernate."
+msgstr "ཡུ་པི་ཨེསི་འདི་ ཚབས་ཆེན་གནས་རིམ་གྱི་ཐོག་ལུ་ཡོདཔ་ལས་ གློག་རིག་འདི་གཉིད་ནང་འཛུལ་ནི་འབད་དོ།"
+
+#: ../src/gpm-manager.c:1615
+msgid "The UPS is below the critical level and this computer is about to shutdown."
+msgstr "ཡུ་པི་ཨེསི་འདི་ ཚབས་ཆེན་གནས་རིམ་གྱི་ཐོག་ལུ་ཡོདཔ་ལས་ གློག་རིག་འདི་སྒོ་བསྡམ་ནི་འབད་དོ།"
+
+#: ../src/gpm-manager.c:1721
+msgid "Install problem!"
+msgstr "དཀའ་ངལ་གཞི་བཙུགས་འབད!"
+
+#: ../src/gpm-manager.c:1722
+msgid ""
+"The configuration defaults for GNOME Power Manager have not been installed correctly.\n"
+"Please contact your computer administrator."
+msgstr ""
+"ཇི་ནོམ་གློག་ཤུགས་འཛིན་སྐྱོང་པ་གི་དོན་ལས་སྔོན་སྒྲིག་རིམ་སྒྲིག་ཚུ་ངེས་བདེན་སྦེ་གཞི་བཙུགས་མ་འབད་བས།\n"
+"ཁྱོད་རའི་གློག་རིག་གི་བདག་སྐྱོང་པ་དང་འབྲེལ་བ་འཐབ་གནང་"
+
+#. save in state
+#: ../src/gpm-notify.c:364
+msgid "Battery may be recalled"
+msgstr "འཕྲུལ་ལྟོ་འདི་སླར་དྲན་འབད་བཏུབ་འོང་"
+
+#: ../src/gpm-notify.c:365
+#, c-format
+msgid ""
+"The battery in your computer may have been recalled by %s and you may be at risk.\n"
+"\n"
+"For more information visit the %s battery recall website."
+msgstr ""
+"ཁྱོད་ཀྱི་གློག་རིག་ནང་གི་འཕྲུལ་ལྟོ་འདི་  %s གིས་སླར་དྲན་འབད་ཡོདཔ་འོང་ དེ་ལས་འདི་ཉེན་ཁ་ཡོདཔ་འོང་།\n"
+"\n"
+"བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་  %s འཕྲུལ་ལྟོ་སླར་དྲན་ཝེབ་ས་ཁོངས་ལུ་བལྟ་སྤྱོད་འབད།"
+
+#: ../src/gpm-notify.c:380
+msgid "Visit recall website"
+msgstr "སླར་དྲན་ཝེབ་ས་ཁོངས་ བལྟ་སྤྱོད་འབད་"
+
+#: ../src/gpm-notify.c:386
+#: ../src/gpm-notify.c:420
+#: ../src/gpm-notify.c:454
+#: ../src/gpm-notify.c:485
+#: ../src/gpm-notify.c:515
+#: ../src/gpm-notify.c:545
+#: ../src/gpm-notify.c:581
+msgid "Do not show me this again"
+msgstr "འ་ནི་འདི་ང་ལུ་ལོག་མ་སྟོན་"
+
+#: ../src/gpm-notify.c:406
+msgid "Battery may be broken"
+msgstr "ཡངན་ཅིན་ འཕྲུལ་ལྟོ་ དཀྲུམ་ཡོདཔ་འོང་ "
+
+#: ../src/gpm-notify.c:407
+#, c-format
+msgid "Your battery has a very low capacity (%i%%), which means that it may be old or broken."
+msgstr "ཁྱོད་རའི་འཕྲུལ་ལྟོ་འདི་ལུ་ཤོང་ཚད་གནམ་མེད་ས་མེད་དམའ་དྲག་ཡོདཔ་ལས་(%i%%) འདི་ཡང་ཅིན་རྙིངམ་ཡང་ན་ཆགས་འགྱོ་འོང་།"
+
+#: ../src/gpm-notify.c:439
+msgid "Sleep warning"
+msgstr "ཉལ་ནི་ ཉེན་བརྡ་ "
+
+#: ../src/gpm-notify.c:440
+#, c-format
+msgid ""
+"Your laptop will not sleep if you shut the lid as a running program has prevented this.\n"
+"Some laptops can overheat if they do not sleep when the lid is closed."
+msgstr ""
+"གཡོག་བཀོལ་བའི་བསྒང་ཡོད་པའི་ལས་རིམ་ཅིག་གིས་ སྔོན་བཀག་འབད་དེ་ཡོདཔ་ལས་ ལིཌི་ཁ་བསྡམ་པ་ཅིན་  ཁྱོད་ཀྱི་ ལེབ་ཊོཔ་དེ་ བསྒུག་དེ་མི་སྡོད། \n"
+"ལིཌི་ཁ་བསྡམས་པའི་སྐབས་ གཉིད་མ་ལོག་མ་ཅིན་ ལེབ་ཊོཔ་ལ་ལོ་ཅིག་ གནམ་མེན་ས་མེད་ ཚ་དྲགས་འགྱོ་འོང་། "
+
+#: ../src/gpm-notify.c:473
+msgid "Battery Charged"
+msgstr "འཕྲུལ་ལྟོ་ནུས་ཤུགས་བླུག་པ།"
+
+#: ../src/gpm-notify.c:474
+msgid "Your laptop battery is now fully charged"
+msgstr "ད་ལྟོ་ ཁྱོད་ཀྱི་ལེཔ་ཊོཔ་གི་འཕྲུལ་ལྟོ་འདི་ཆ་ཚང་སྦེ་ནུས་ཤུགས་བླུག་ནུག"
+
+#: ../src/gpm-notify.c:503
+msgid "Battery Discharging"
+msgstr "འཕྲུལ་ལྟོ་་འཐོན་འགྱོ་དོ།"
+
+#: ../src/gpm-notify.c:504
+msgid "The AC power has been unplugged. The system is now using battery power."
+msgstr "ཨེ་སི་གི་ནུས་ཤུགས་འདི་བཏོན་གཏང་་ནུག ད་ལྟོ་གི་རིམ་ལུགས་འདི་གིས་ འཕྲུལ་ལྟོའི་ནུས་ཤུགས་ལག་ལེན་འཐབ་དོ།"
+
+#: ../src/gpm-notify.c:533
+msgid "UPS Discharging"
+msgstr "ཡུ་པི་སི་འཐོན་འགྱོ་དོ"
+
+#: ../src/gpm-notify.c:534
+msgid "The AC power has been unplugged. The system is now using backup power."
+msgstr "ཨེ་སི་གི་ནུས་ཤུགས་འདི་བཏོན་གཏང་ནུག ད་ལྟོ་རིམ་ལུགས་འདི་གིས་ རྒྱབ་ཐག་ནུས་ཤུགས་ལག་ལེན་འཐབ་དོ།"
+
+#: ../src/gpm-notify.c:564
+msgid "Sleep Problem"
+msgstr "དཀའ་ངལ་བསྒུག"
+
+#: ../src/gpm-notify.c:566
+msgid ""
+"Your computer failed to hibernate.\n"
+"Check the help file for common problems."
+msgstr ""
+"ཁྱོད་ཀྱི་གློག་རིག་གཉིད་ནང་བཙུག་ནི་གི་འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"མཐུན་མོང་དཀའ་་ངལ་ཚུ་གི་དོན་ལུ་ གྲོག་རམ་ཡིག་སྣོད་འདི་ཞིབ་དཔྱད་འབད།"
+
+#: ../src/gpm-notify.c:569
+msgid ""
+"Your computer failed to suspend.\n"
+"Check the help file for common problems."
+msgstr ""
+"ཁྱོད་ཀྱི་གློག་རིག་འདི་ འཕྲལ་བཀག་འབད་ནི་ ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ།\n"
+"མཐུན་མོང་དཀའ་་ངལ་ཚུ་གི་དོན་ལུ་ གྲོག་རམ་ཡིག་སྣོད་འདི་ཞིབ་དཔྱད་འབད།"
+
+#: ../src/gpm-notify.c:594
+msgid "Visit quirk website"
+msgstr "སླར་དྲན་ ཝེབ་ས་ཁོངས་ བལྟ་སྤྱོད་འབད་"
+
+#: ../src/gpm-cell-array.c:976
+#, c-format
+msgid ""
+"%s fully charged (%i%%)\n"
+"Provides %s battery runtime\n"
+msgstr ""
+"%s ནུས་ཤུགས་གངམ་བླུགས་ཡོད་ (%i%%)\n"
+"འཕྲུལ་ལྟོ་གི་རཱན་ཊའིམ་བཀྲམ་འོང་%s \n"
+
+#: ../src/gpm-cell-array.c:980
+#, c-format
+msgid "%s fully charged (%i%%)\n"
+msgstr "%s ནུས་ཤུགས་གངམ་བླུགས་ཡོད་ (%i%%)\n"
+
+#: ../src/gpm-cell-array.c:988
+#, c-format
+msgid "%s %s remaining (%i%%)\n"
+msgstr "%s %s ལྷག་ལུས་ (%i%%)\n"
+
+#. don't display "Unknown remaining"
+#: ../src/gpm-cell-array.c:993
+#, c-format
+msgid "%s discharging (%i%%)\n"
+msgstr "%s བཏོན་གཏང་དོ་ (%i%%)\n"
+
+#: ../src/gpm-cell-array.c:1005
+#, c-format
+msgid ""
+"%s %s until charged (%i%%)\n"
+"Provides %s battery runtime\n"
+msgstr ""
+"%s %s ད་ཚུན་ནུས་ཤུགས་བླུགས་ཡོད་ (%i%%)\n"
+"%s འཕྲུལ་ལྟོ་རཱན་ཊའིམ་བཀྲམ་སྟོན་འབད\n"
+
+#: ../src/gpm-cell-array.c:1012
+#, c-format
+msgid "%s %s until charged (%i%%)\n"
+msgstr "%s %s ད་ཚུན་ནུས་ཤུགས་བླུགས་ཡོད་ (%i%%)\n"
+
+#. don't display "Unknown remaining"
+#: ../src/gpm-cell-array.c:1017
+#, c-format
+msgid "%s charging (%i%%)\n"
+msgstr "%s ནུས་ཤུགས་བླུགས་དོ་ (%i%%)\n"
+
+#: ../src/gpm-cell-array.c:1024
+msgid "Battery state could not be read at this time\n"
+msgstr "འཕྲུལ་ལྟོ་གི་གནས་ལུགས་འདི་འ་ནི་དུས་ཚོད་ནང་ལྷག་མི་ཚུགས་པས\n"
+
+#: ../src/gpm-cell.c:506
+#, c-format
+msgid "<b>Product:</b> %s\n"
+msgstr "<b>ཐོན་སྐྱེད་:</b> %s\n"
+
+#: ../src/gpm-cell.c:509
+msgid "<b>Status:</b> Missing\n"
+msgstr "<b>གནས་ཚད་:</b> བརླག་སྟོར་\n"
+
+#: ../src/gpm-cell.c:511
+msgid "<b>Status:</b> Charged\n"
+msgstr "<b>གནས་ཚད་:</b> ཤུགས་ཚད་བླུག་ཡོདཔ་\n"
+
+#: ../src/gpm-cell.c:513
+msgid "<b>Status:</b> Charging\n"
+msgstr "<b>གནས་ཚད་:</b> ཤུགས་ཚད་བླུག་པཟའི་བསྒང་\n"
+
+#: ../src/gpm-cell.c:515
+msgid "<b>Status:</b> Discharging\n"
+msgstr "<b>གནས་ཚད་:</b>ཤུགས་ཚད་བཏོན་པའི་བསྒང་་\n"
+
+#: ../src/gpm-cell.c:518
+#, c-format
+msgid "<b>Percentage charge:</b> %i%%\n"
+msgstr "<b>རྒྱ་ཆ་ཤུགས་ཚད:</b> %i%%\n"
+
+#: ../src/gpm-cell.c:523
+msgid "Vendor:"
+msgstr "སིལ་ཚོང་པ:"
+
+#: ../src/gpm-cell.c:528
+msgid "Lithium ion"
+msgstr "ལི་ཐི་ཡམ་ཨའེ་ཨོ་ཨེན།"
+
+#: ../src/gpm-cell.c:530
+msgid "Lead acid"
+msgstr "ལིཌི་ཨེ་སིཌི།"
+
+#: ../src/gpm-cell.c:532
+msgid "Lithium polymer"
+msgstr "ལི་ཐི་ཡམ་པོ་ལི་མར་"
+
+#: ../src/gpm-cell.c:534
+msgid "Nickel metal hydride"
+msgstr "ནིཀ་ཀེལ་མེ་ཊལ་ཧའི་ཌརའིཌི་"
+
+#: ../src/gpm-cell.c:541
+msgid "Technology:"
+msgstr "འཕྲུལ་རིག་:"
+
+#: ../src/gpm-cell.c:545
+msgid "Serial number:"
+msgstr "ཨང་རིམ་:"
+
+#: ../src/gpm-cell.c:549
+msgid "Model:"
+msgstr "དཔེ་:"
+
+#: ../src/gpm-cell.c:555
+msgid "Charge time:"
+msgstr "ཤུགས་ཚད་ཀྱི་དུས་ཚོད་:"
+
+#: ../src/gpm-cell.c:562
+msgid "Discharge time:"
+msgstr "ནུས་ཤུགས་འཐོན་འགྱོ་ནིའི་དུས་ཚོད:"
+
+#: ../src/gpm-cell.c:568
+msgid "Excellent"
+msgstr "ཡང་དག"
+
+#: ../src/gpm-cell.c:570
+msgid "Good"
+msgstr "ལེགས་ཤོམ།"
+
+#: ../src/gpm-cell.c:572
+msgid "Fair"
+msgstr "རན་པ།"
+
+#: ../src/gpm-cell.c:574
+msgid "Poor"
+msgstr "བྱང་ཉེས།"
+
+#: ../src/gpm-cell.c:577
+msgid "Capacity:"
+msgstr "ནུས་ཚད:"
+
+#: ../src/gpm-cell.c:583
+#: ../src/gpm-cell.c:606
+msgid "Current charge:"
+msgstr "ད་ལྟོའི་ཤུགས་ཚད་:"
+
+#: ../src/gpm-cell.c:589
+msgid "Last full charge:"
+msgstr "མཇུག་གི་ཤུགས་ཚད་ཧྲིལ་བུ་:"
+
+#: ../src/gpm-cell.c:594
+#: ../src/gpm-cell.c:611
+msgid "Design charge:"
+msgstr "ཤུགས་ཚད་བཀོད་སྒྲིག་འབད་:"
+
+#: ../src/gpm-cell.c:599
+msgid "Charge rate:"
+msgstr "ཤུགས་ཚད་ཀྱི་ཚད:"
+
+#: ../src/gpm-cell-unit.c:247
+msgid "Laptop batteries"
+msgstr "ལེབ་ཊོཔ་གི་འཕྲུལ་ལྟོ་ཚུ"
+
+#: ../src/gpm-cell-unit.c:249
+msgid "UPSs"
+msgstr "ཡུ་པི་ཨེསི་ཨེསི"
+
+#: ../src/gpm-cell-unit.c:251
+msgid "Wireless mice"
+msgstr "ཐག་མེད་མཱའིསི"
+
+#: ../src/gpm-cell-unit.c:253
+msgid "Wireless keyboards"
+msgstr "ཐག་མེད་ལྡེ་སྒྲོམ་ཚུ"
+
+#: ../src/gpm-cell-unit.c:255
+msgid "PDAs"
+msgstr "པི་ཌི་ཨེ་ཨེསི"
+
+#: ../src/gpm-cell-unit.c:257
+msgid "Cell phones"
+msgstr "སེལ་ཕཱོནསི་ "
+
+#: ../src/gpm-cell-unit.c:259
+#: ../src/gpm-cell-unit.c:275
+#: ../src/gpm-statistics-core.c:739
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../src/gpm-cell-unit.c:263
+msgid "Laptop battery"
+msgstr "ལེབ་ཊོཔ་གི་འཕྲུལ་ལྟོ།"
+
+#: ../src/gpm-cell-unit.c:265
+msgid "UPS"
+msgstr "ཡུ་པི་ཨེསི།"
+
+#: ../src/gpm-cell-unit.c:267
+msgid "Wireless mouse"
+msgstr "ཐག་མེད་མཱའུསི།"
+
+#: ../src/gpm-cell-unit.c:269
+msgid "Wireless keyboard"
+msgstr "ཐག་མེད་ལྡེ་སྒྲོམ།"
+
+#: ../src/gpm-cell-unit.c:271
+msgid "PDA"
+msgstr "པི་ཌི་ཨེ"
+
+#: ../src/gpm-cell-unit.c:273
+msgid "Cell phone"
+msgstr "སེལ་ཕཱོན་ "
+
+#: ../src/gpm-prefs.c:111
+#: ../test/gpm-inhibit-test.c:186
+msgid "GNOME Power Preferences"
+msgstr "ཇི་ནོམ་ནུས་ཤུགས་ཀྱི་དགའ་གདམ་ཚུ།"
+
+#. The text that should appear in the action combo boxes
+#: ../src/gpm-prefs-core.c:82
+#: ../src/gpm-statistics-core.c:95
+msgid "Ask me"
+msgstr "ང་ལུ་འདྲི།"
+
+#: ../src/gpm-prefs-core.c:83
+#: ../src/gpm-statistics-core.c:96
+msgid "Suspend"
+msgstr "འཕྲལ་བཀག"
+
+#: ../src/gpm-prefs-core.c:84
+#: ../src/gpm-statistics-core.c:97
+msgid "Shutdown"
+msgstr "སྒོ་བསྡམས།"
+
+#: ../src/gpm-prefs-core.c:85
+#: ../src/gpm-statistics-core.c:98
+msgid "Hibernate"
+msgstr "གཉིད་ནང་བཙུགས་ནི།"
+
+#: ../src/gpm-prefs-core.c:86
+#: ../src/gpm-statistics-core.c:99
+msgid "Blank screen"
+msgstr "གསལ་གཞི་སྟོངམ།"
+
+#. The text that should appear in the processor combo box
+#: ../src/gpm-prefs-core.c:87
+#: ../src/gpm-prefs-core.c:90
+#: ../src/gpm-statistics-core.c:100
+msgid "Do nothing"
+msgstr "ག་ནི་ཡང་མ་སྦེ།"
+
+#: ../src/gpm-prefs-core.c:91
+msgid "Based on processor load"
+msgstr "ལས་སྦཡོར་འབད་ནིའི་འགན་ལྗིད་དང་གཞི་བཞག་སྟེ་"
+
+#: ../src/gpm-prefs-core.c:92
+msgid "Automatic power saving"
+msgstr "རང་བཞིན་གྱི་ནུས་ཤུགས་སྲུང་བཞག་འབད་ནི་"
+
+#: ../src/gpm-prefs-core.c:93
+msgid "Maximum power saving"
+msgstr "མང་མཐའ་ནུས་ཤུགས་སྲུང་བཞག་འབད་ནི་"
+
+#: ../src/gpm-prefs-core.c:94
+msgid "Always maximum speed"
+msgstr "ཨ་རྟག་རང་མང་མཐའ་མགྱོགས་ཚད་"
+
+#: ../src/gpm-prefs-core.c:287
+msgid "Never"
+msgstr "ནམ་ཡང་།"
+
+#: ../src/gpm-statistics.c:109
+msgid "GNOME Power Statistics"
+msgstr "ཇི་ནོམ་ནུས་ཤུགས་ཚད་རྩིས་"
+
+#: ../src/gpm-statistics-core.c:60
+msgid "Charge history"
+msgstr "ཤུགས་ཚད་ཀྱི་ ལོ་རྒྱུས་ "
+
+#: ../src/gpm-statistics-core.c:61
+msgid "Power history"
+msgstr "ནུས་ཤུགས་ཀྱི་ལོ་རྒྱུས་ "
+
+#: ../src/gpm-statistics-core.c:62
+msgid "Voltage history"
+msgstr "གློག་ཤུགས་ཚད་ཀྱི་ལོ་རྒྱུས་"
+
+#: ../src/gpm-statistics-core.c:63
+msgid "Estimated time history"
+msgstr "ཕོག་ཚོད་ཅན་གྱི་ དུས་ཚོད་ལོ་རྒྱུས།"
+
+#: ../src/gpm-statistics-core.c:64
+msgid "Charge time profile"
+msgstr "ཤུགས་ཚད་ཀྱི་དུས་ཚོད་"
+
+#: ../src/gpm-statistics-core.c:65
+msgid "Discharge time profile"
+msgstr "འཐོན་འགྱོ་ནིའི་དུས་ཚོད་ཀྱི་ གསལ་སྡུད་ "
+
+#: ../src/gpm-statistics-core.c:66
+msgid "Charge time accuracy profile"
+msgstr "ཤུགས་ཚད་ ཆུ་ཚོད་ འཁྲུལ་མེད་ གསལ་སྡུད་ "
+
+#: ../src/gpm-statistics-core.c:67
+msgid "Discharge time accuracy profile"
+msgstr "ནུས་ཤུགས་འཐོན་འགྱོ་ནིའི་ དུས་ཚོད་ ངེས་མེད་ཀྱི་ གནས་སྡུད་ "
+
+#: ../src/gpm-statistics-core.c:810
+msgid "Could not connect to GNOME Power Manager."
+msgstr "ཇི་ནོམ་ནུས་ཤུགས་འཛིན་སྐྱོང་པ་ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../src/gpm-srv-screensaver.c:111
+msgid "Display DPMS activated"
+msgstr "ཌི་པི་ཨེམ་ཨེསི་ཤུགས་ལྡན་བཟོ་ཡོད་མི་ བཀྲམ་སྟོན་འབད་"
+
+#: ../src/gpm-srv-screensaver.c:131
+msgid "On battery power"
+msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ།"
+
+#: ../src/gpm-srv-screensaver.c:151
+msgid "Laptop lid is closed"
+msgstr "ལེབ་ཊོཔ་གི་ཁ་ཏོག་བཅད་ནུག"
+
+#: ../src/gpm-tray-icon.c:215
+msgid "Device information"
+msgstr "ཐབས་འཕྲུལ་གྱི་བརྡ་དོན"
+
+#: ../src/gpm-tray-icon.c:324
+msgid "translator-credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>"
+
+#: ../src/gpm-tray-icon.c:340
+msgid "GNOME Power Manager Website"
+msgstr "ཇི་ནོམ་གློག་ཤུགས་འཛིན་སྐྱོང་པའི་ཝེབ་སའིཊི"
+
+#. Preferences
+#: ../src/gpm-tray-icon.c:445
+msgid "_Preferences"
+msgstr "དགའ་གདམ་ཚུ།(_p)"
+
+#. Statistics
+#: ../src/gpm-tray-icon.c:453
+msgid "Power _History"
+msgstr "ནུས་ཤུགས་ཀྱི་ལོ་རྒྱུས་ (_H)"
+
+#. Help
+#: ../src/gpm-tray-icon.c:465
+#: ../applets/brightness/GNOME_BrightnessApplet.xml.h:2
+#: ../applets/inhibit/GNOME_InhibitApplet.xml.h:2
+msgid "_Help"
+msgstr "གྲོགས་རམ།(_H)"
+
+#. About
+#: ../src/gpm-tray-icon.c:473
+#: ../applets/brightness/GNOME_BrightnessApplet.xml.h:1
+#: ../applets/inhibit/GNOME_InhibitApplet.xml.h:1
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../src/gpm-tray-icon.c:587
+msgid "_Suspend"
+msgstr "འཕྲལ་བཀག(_S)"
+
+#: ../src/gpm-tray-icon.c:597
+msgid "Hi_bernate"
+msgstr "གཉིད་ནང་བཙུགས་ནི།(_B)"
+
+#~ msgid ""
+#~ "If the laptop should be configured as if it is using a permanent external "
+#~ "monitor"
+#~ msgstr ""
+#~ "གལ་སྲིད་ལེཔ་ཊོཔ་འདི་ རྟག་བརྟན་ཕྱིའི་ལྟ་རྟོག་པ་ཅིག་ལག་ལེན་འཐབ་དོ་ བཟུམ་སྦེ་རིམ་སྒྲིག་འབད་དགོ་"
+#~ msgid ""
+#~ "If the laptop should be configured disable both dimming actions and DPMS "
+#~ "when using a dock or external monitor. Most laptop and desktop users "
+#~ "should select FALSE here."
+#~ msgstr ""
+#~ "ལེཔ་ཊོཔ་འདི་ མདངས་གྲིབ་བཟོ་ནིའི་བྱ་བ་ཚུ་འབད་མི་བཅུག་ནིའི་དོན་ལས་དང་ཌི་པི་ཨེམ་ཨེསི་ཨོཕ་ རིམ་སྒྲིག་"
+#~ "འབད་དགོཔ་དང་ དེ་ཚུ་གིས་ ཌོཀ་ཡང་ན་ཕྱིའི་ལྟ་རྟོག་པ་ལག་ལེན་འཐབ་ཨིན་པ་ཅིན། ལེཔ་ཊོཔ་དང་ཌེཀསི་ཊོཔ་"
+#~ "ལག་ལེན་པ་་མང་ཤོས་ཀྱིས་ ནཱ་ལུ་རྫུན་མ་སེལ་འཐུ་འབད་དགོ"
+#~ msgid "Dim display _brightness by:"
+#~ msgstr "མདངས་གྲིབ་བཀྲམ་སྟོན་ དཀར་མདངས་ཀྱིས:(_b)"
+#~ msgid "%s because %s"
+#~ msgstr "%sལུ་བརྟེན་ཏེ་%s།"
+#~ msgid "Charge Void"
+#~ msgstr "སྟོངམ་ནུས་ཤུགས་བླུག"
+#~ msgid "Discharge Void"
+#~ msgstr "སྟོངམ་ནུས་ཤུགས་བཏོན་གཏང་"
+#~ msgid "Battery may be invalid"
+#~ msgstr "འཕྲུལ་ལྟོ་འདི་ནུས་མེད་ཨིནམ་འོང་"
+#~ msgid "Power Preferences"
+#~ msgstr "ནུས་ཤུགས་དགའ་གདམ་ཚུ།"
+#~ msgid "Profiled Charge Time"
+#~ msgstr "གསལ་སྡུད་ཤུས་ཚད་ཀྱི་དུས་ཚོད"
+#~ msgid "Profiled Charge Accuracy"
+#~ msgstr "འཁྲུལ་མེད་ཤུགས་ཚད་ཀྱི་གསལ་སྡུད"
+#~ msgid "Profiled Discharge Time"
+#~ msgstr "གསལ་སྡུད་འབད་ཡོད་པའི་ཤུགས་ཚད་འཐོན་ནི་གི་དུས་ཚོད"
+#~ msgid "Profiled Discharge Accuracy"
+#~ msgstr "འཁྲུལ་མེད་གསལ་སྡུད་འབད་ཡོད་པའི་ཤུགས་ཚད་འཐོན་ནི"
+#~ msgid "Power Inhibit Test"
+#~ msgstr "ནུས་ཤུགས་བཀག་ཆའི་བརྟག་ཞིབ།"
+#~ msgid "Run only the interactive tests"
+#~ msgstr "ཕན་ཚུན་འབྲེལ་ལྡན་བརྟག་ཞིབ་ཚུ་རྐྱངམ་ཅིག་ལུ་གཡོག་བཀོལ"
+#~ msgid "Run only the automatic tests"
+#~ msgstr "རང་བཞིན་གྱི་བརྟག་ཞིབ་རྐྱངམ་ཅིག་ལུ་གཡོག་བཀོལ"
+#~ msgid "Run all available tests"
+#~ msgstr "འཐོབ་ཚུགས་པའི་བརྟག་ཞིབ་ཆ་མཉམ་ལུ་གཡོག་བཀོལ"
+#~ msgid "Change the brightness to a preset level on AC state change"
+#~ msgstr ""
+#~ "དཀར་མདངས་འདི་ ཨེ་སི་གནས་ལུགས་བསྒྱུར་བཅོས་གུའི་ སྔར་སྒྲིག་གནས་རིམ་ཅིག་ལུ་ བསྒྱུར་བཅོས་འབད་"
+#~ msgid "Whether we should show the legend in the statistics window"
+#~ msgstr "ང་བཅས་ཀྱི་གཏམ་རྒྱུད་དེ་ ཚད་རྩིས་ཀྱི་སྒོ་སྒྲིག་འདི་ནང་ སྟོན་ནི་ཨིན་ན་མེན་ན་"
+#~ msgid "Whether we should show the legend in the statistics window."
+#~ msgstr "ང་བཅས་ཀྱིས་གཏམ་རྒྱུད་དེ་ ཚད་རྩིས་སྒོ་སྒྲིག་འདི་ནང་ སྟོན་ནི་ཨིན་ན་མེན་ན།"
+#~ msgid "Add _axis labels"
+#~ msgstr "ཚད་ཐིག་ཁ་ཡིག་ཚུ་ཁ་སྐོང་བརྐྱབས(_a)"
+#~ msgid "Add lege_nd"
+#~ msgstr "གཏམ་རྒྱུད་ཁ་སྐོང་རྐྱབས(_n)"
+#~ msgid "Device:"
+#~ msgstr "ཐབས་འཕྲུལ་:"
+#~ msgid "Charging"
+#~ msgstr "ནུས་ཤུགས་བླུག་དོ།"
+#~ msgid "Discharging"
+#~ msgstr "ནུས་ཤུགས་འཐོན་འགྱོ་ནི།"
+#~ msgid "%iW"
+#~ msgstr "%iW"
+#~ msgid "%iV"
+#~ msgstr "%iV"
+#~ msgid "user clicked hibernate from tray menu"
+#~ msgstr "ལག་ལེན་པ་གིས་ ཤོག་སྣོད་དཀར་ཆག་ནང་ལས་ གཉིད་ནང་བཙུགས་ནི་ལུ་ ཨེབ་གཏང་འབད་ནུག"
+#~ msgid "Unknown caption"
+#~ msgstr "མ་ཤེས་པའི་དཔར་བཤད"
+#~ msgid "Time remaining"
+#~ msgstr "དུས་ཡུན་ལྷག་ལུས།"
+#~ msgid "Resume"
+#~ msgstr "བསྐྱར་ལོག།"
+#~ msgid "Notify on a HAL error"
+#~ msgstr "ཨེཆ་ཨེ་ཨེལ་འཛོལ་བའི་སྐབས་ལུ་ བརྡ་བསྐུལ་འབད།"
+#~ msgid "Percentage considered very low"
+#~ msgstr "བརྒྱ་ཆ་ཧ་ཅང་གི་དམའ་བ་སྦེ་ ཆ་འཇོག་འབད་ནུག"
+#~ msgid "The damping factor for the rate"
+#~ msgstr "མགྱོགས་ཚད་ཉམས་པའི་ཆ་རྐྱེན།"
+#~ msgid ""
+#~ "The percentage of the battery when it is considered very low. Only valid "
+#~ "when use_time_for_policy is false."
+#~ msgstr ""
+#~ "འཕྲུལ་ལྟོ་དེ་ ཧ་ཅང་དམའ་བ་སྦེ་ ཆ་འཇོག་འབད་བའི་སྐབས་ འཕྲུལ་ལྟོའི་བརྒྱ་ཆ། སྲིད་བྱུས་_དོན་ལུ་_ཆུ་ཚོད་"
+#~ "_ལག་ལེན་འཐབ་ཟེར་མི་ རྫུན་མ་ཅིན་པའི་སྐབས་ལུ་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+#~ msgid ""
+#~ "The time remaining in seconds of the battery when it is considered very "
+#~ "low. Only valid when use_time_for_policy is true."
+#~ msgstr ""
+#~ "འཕྲུལ་ལྟོ་ཧ་ཅང་དམའ་བ་སྦེ་ ཆ་འཇོག་འབད་བའི་སྐབས་ དུས་ཡུན་ལྷག་ལུས་ སྐར་ཆའི་ནང་། སྲིད་བྱུས་_དོན་ལུ་"
+#~ "_ཆུ་ཚོད་_ ལག་ལེན་འཐབ་ཟེར་མི་ བདེན་པ་ཨིན་པ་ཅིག་རྐྱངམ་གཅིག་ ནུས་ཅན་ཨིན།"
+#~ msgid "The time remaining when very low"
+#~ msgstr "ཧ་ཅང་གི་དམའ་བའི་བསྒང་ དུས་ཡུན་ལྷག་ལུས།"
+#~ msgid ""
+#~ "The value of the damping factor used when calculating the exponentially "
+#~ "weighted average of the rate. Increasing this value will increase the "
+#~ "damping effect of the rate calculations, which makes the time remaining "
+#~ "more accurate, but the graphs less responsive."
+#~ msgstr ""
+#~ "མགྱོགས་ཚད་བསྒྱུར་གྲངས་ཀྱི་ལྗིད་ཚད་ཆ་སྙོམས་འདི་ རྩིས་སྟོན་པའི་བསྒང་ ཆ་རྐྱེན་ནུས་པ་ཉམས་མི་གི་གནས་གོང་"
+#~ "འདི་ ལག་ལེན་འཐབ་ཨིན། འ་ནི་གནས་གོང་ཡར་འཕར་འགྱོ་མི་འདི་གིས་ དུས་ཡུན་ལྷག་ལུས་ཧེང་བཀལ་ཀྲིག་ཀྲི་"
+#~ "བཟོ་ནི་དང་ དེ་འབདཝ་ད་ཚད་ཁྲམ་འདི་ལན་ཉུང་བཟོ་མི་ལུ་ མགྱོགས་ཚད་རྩིས་ཀྱིས་ ཆ་རྐྱེན་ཉམས་མི་འདི་གོང་"
+#~ "ཡར་འཕར་བཏངམ་ཨིན།"
+#~ msgid "the DBUS method Suspend() was invoked"
+#~ msgstr "ཌི་བཱསི་ཐབས་ལམ་འཕྲལ་བཀག་()དེ་  ལས་བཀོལ་འབད་ཡི།"
+#~ msgid "the DBUS method Hibernate() was invoked"
+#~ msgstr "ཌི་བཱསི་ཐབས་ལམ་གཉིད་ནང་བཙུགས་()དེ་  ལས་བཀོལ་འབད་ཡི།"
+#~ msgid "the DBUS method Shutdown() was invoked"
+#~ msgstr "ཌི་བཱསི་ཐབས་ལམ་འཕྲལ་བཀག་()དེ་  ལས་ཀཝབཀོལ་འབད་ཡི།"
+#~ msgid "Rebooting computer"
+#~ msgstr "གློག་རིག་ལོག་འགོ་བཙུགས་དོ།"
+#~ msgid "the DBUS method Reboot() was invoked"
+#~ msgstr "ཌི་བཱསི་ཐབས་ལམ་ སླར་འགོ་བཙུགས་()དེ་ལས་བཀོལ་འབད་ཡི།"
+#~ msgid "Your system is running on backup power!"
+#~ msgstr "ཁྱོད་ཀྱི་རིམ་ལུགས་འདི་ ནས་ཤུགས་རྒྱབ་ཐག་གུ་ གཡོག་བཀོལ་དོ་!"
+#~ msgid "Suspend failure"
+#~ msgstr "འཐུས་ཤོར་འཕྲལ་བཀག་འབད་"
+#~ msgid "Your computer did not appear to resume correctly from suspend."
+#~ msgstr "ཁྱོད་ཀྱི་གློག་རིག་འདི་ འཕྲལ་བཀག་ལས་ ངེས་བདེན་སྦེ་ བསྐྱར་ལོག་འབད་ནིའི་དོན་ལས་ མ་འབྱུང་པས་"
+#~ msgid "Your computer did not appear to resume correctly from hibernate."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱི་གློག་རིག་འདི་ གཉིད་ནང་བཙུགས་ནི་ལས་ ངེས་བདེན་སྦེ་བསྐྱར་ལོག་འབད་ནིའི་དོན་ལས་ མ་འབྱུང་པས།"
+#~ msgid "This may be a driver or hardware problem."
+#~ msgstr "འ་ནི་འདི་ འདྲེན་བྱེད་ཡང་ན་སྲ་ཆས་ཅིག་གི་དཀའ་ངལ་འོང་།"
+#~ msgid "Check the GNOME Power Manager manual for common problems."
+#~ msgstr ""
+#~ "མཐུན་མོང་གི་དཀའ་ངལ་ཚུ་གི་དོན་ལུ་ ཇི་ནོམ་ནུས་ཤུགས་འཛིན་སྐྱོང་པ་གི་ལག་དེབ་འདི་ ཞིབ་དཔྱད་འབད།"
+#~ msgid "Product:"
+#~ msgstr "ཐོན་སྐྱེད:"
+#~ msgid "Status:"
+#~ msgstr "གནས་ཚད:"
+#~ msgid "Missing"
+#~ msgstr "བརླག་སྟོར་ཞུགས་པ།"
+#~ msgid "Remaining time:"
+#~ msgstr "དུས་ཡུན་ལྷག་ལུས་:"
+#~ msgid "Charge rate (smoothed):"
+#~ msgstr "ཤུགས་ཚད་ཀྱི་ཚད་ (ཧུམ་ཁྱུག་བཟོས་པ་):"
+#~ msgid "Recalculating information..."
+#~ msgstr "བརྡ་དོན་ལོག་རྩིས་སྟོན་འབད་དོ་..."
+#~ msgid "Perhaps the program is not running or you are using an old version?"
+#~ msgstr ""
+#~ "ཡང་ཅིན་ལས་རིམ་འདི་ ལཱ་མི་འབདཝ་འོང་ ཡང་ན་ཁྱོད་ཀྱིས་ཐོན་རིམ་རྙིངམོ་ཅིག་ལག་ལེན་འཐབ་དོ་འོང་?"
+#~ msgid "HAL failed to %s. Check the help file for common problems."
+#~ msgstr ""
+#~ "%s ལུ་ཨེཆ་ཨེ་ཨེལ་ འཐུས་ཤོར་བྱུང་ཡོདཔ། མཐུན་མོང་དཀའ་ངལ་ཚུ་གི་དོན་ལུ་ གྲོགས་རམ་ཡིག་སྣོད་འདི་ཞིབ་"
+#~ "དཔྱད་འབད།"
+#~ msgid "hibernate"
+#~ msgstr "གཉིད་ནང་བཙུགས་ནི།"
+#~ msgid "suspend"
+#~ msgstr "འཕརལ་བཀག"
+#~ msgid "Power Critically Low"
+#~ msgstr "ནུས་ཤུགས་ཚབས་ཆེན་སྦེ་དམའ་བ།"
+#~ msgid "Power Very Low"
+#~ msgstr "ནུས་ཤུགས་ཧ་ཅང་གིས་དམའ་བ།"
+#~ msgid "ups"
+#~ msgstr "གློག་བརྟན་འཕྲུལ་ཆས།"
+#~ msgid "mouse"
+#~ msgstr "མཱའུསི།"
+#~ msgid "keyboard"
+#~ msgstr "ལྡེ་སྒྲོམ།"
+#~ msgid "pda"
+#~ msgstr "པི་ཌི་ཨེ།"
+#~ msgid "unknown"
+#~ msgstr "མ་ཤེསཔ།"
+
+#, fuzzy
+#~ msgid "<b>Running on AC power</b>"
+#~ msgstr "ཨེ་སི་གུ་གཡོག་བཀོལ་བའི་བསྒང་།"
+
+#, fuzzy
+#~ msgid "<b>Running on Battery Power</b>"
+#~ msgstr "འཕྲུལ་ལྟོ་གུ་གཡོག་བཀོལ་བའི་བསྒང་།"
+
+#, fuzzy
+#~ msgid "<b>Running on UPS</b>"
+#~ msgstr "ཡུ་པི་ཨེསི་གུ་གཡོག་བཀོལ་བའི་བསྒང་།"
+
+#, fuzzy
+#~ msgid "Actions"
+#~ msgstr "<b>བྱ་བ་ཚུ</b>"
+#~ msgid "Sleep _type when inactive:"
+#~ msgstr "ཤུགས་མེད་ཀྱི་སྐབས་ལུ་ཉལ་ནི་གི་དབྱེ་བ།(_t)"
+#~ msgid "LCD dim"
+#~ msgstr "ཨེལ་སི་ཌི་མདངས་གྲིབ།"
+#~ msgid "LCD resume"
+#~ msgstr "ཨེལ་སི་ཌི་བསྐྱར་ལོག།"
+#~ msgid "Unknown event!"
+#~ msgstr "བྱུང་ལས་མ་ཤེསཔ!"
+#~ msgid "Screen resume"
+#~ msgstr "གསལ་གཞི་བསྐྱར་ལོག"
+#~ msgid "Screen dim"
+#~ msgstr "གསལ་གཞི་གྲིབ།"
+#~ msgid "the system state is idle"
+#~ msgstr "རིམ་ལུགས་ཀྱི་གནས་ལུགས་ ལས་མེད་ཨིན་པས།"
+#~ msgid "Check network utilization before sleeping"
+#~ msgstr "གཉིད་མ་ཁུག་པའི་ཧེ་མ་ ཡོངས་འབྲེལ་གྱི་བེད་སྤྱོད་ལུ་ ཞིབ་དཔྱད་འབད།"
+#~ msgid ""
+#~ "If network utilization should be checked before doing the idle action."
+#~ msgstr "ལས་མེད་ཀྱི་བྱ་བ་ མ་བཟོ་བའི་ཧེ་མར་ ཡོངས་འབྲེལ་གྱིལག་ལེན་ ཞིབ་དཔྱད་འབད་དགོཔ་ཨིན་ན།"
+#~ msgid "<b>Event log</b>"
+#~ msgstr "<b>བྱུང་ལས་དྲན་དེབ།</b>"
+#~ msgid "<b>Laptop batteries</b>"
+#~ msgstr "<b>ལེབ་ཊོཔ་གི་འཕྲུལ་ལྟོ་ཚུ་</b>"
+#~ msgid "<b>UPS</b>"
+#~ msgstr "<b>ཡུ་པི་ཨེསི</b>"
+#~ msgid "<b>Wireless devices</b>"
+#~ msgstr "<b>ཐག་མེད་ཐབས་འཕྲུལ་ཚུ་</b>"
+#~ msgid ""
+#~ "Device type: Laptop battery (1)\n"
+#~ "Technology: Lithium ION"
+#~ msgstr ""
+#~ "ཐབས་འཕྲུལ་གྱི་དབྱེ་བ་: ལེབ་ཏོཔ་འཕྲུལ་ལྟོ  (༡)\n"
+#~ "འཕྲུལ་རིག་: ལི་ཐི་ཡམ། ཨའི་ཨོ་ཨེན།"
+#~ msgid "Event Log"
+#~ msgstr "བྱུང་ལས་དྲན་དེབ།"
+#~ msgid "Last full: 22022mWh"
+#~ msgstr "མཐའ་མཇུག་གངམ་:༢༢༠༢༢ mWh"
+#~ msgid ""
+#~ "This shows how the battery charge and discharge rate varies over time."
+#~ msgstr ""
+#~ "འདི་གིས་ འཕྲུལ་ལྟོའི་ནུས་ཤུགས་བླུག་ནི་དང་ ནུས་ཤུགས་བཏོན་གཏང་ནིའི་ཚད་ཀྱི་འགྱུར་བ་ཚུ་སྟོནམ་ཨིན།"
+#~ msgid "This shows how the battery percentage charge varies over time."
+#~ msgstr "འདི་གིས་ ཡུན་རིང་ནང་འཕྲུལ་ལྟོའི་ནུས་ཤུགས་ཀྱི་བརྒྱ་ཆའི་ཚད་ཀྱི་འགྱུར་བ་སྟོནམ་ཨིན།"
+#~ msgid ""
+#~ "This shows how the remaining time until charged or discharged varies over "
+#~ "time."
+#~ msgstr ""
+#~ "འདི་གིས་ ཡུན་རིང་ནང་ འཕྲུལ་ལྟོའི་ནུས་ཤུགས་བླུགས་པའམ་ བཏོན་མ་བཏང་ཚུན་ཚོད་ཀྱི་བར་ན་ དུས་ཚོད་ལྷག་"
+#~ "ལུས་ཀྱི་འགྱུར་བ་སྟོནམ་ཨིན།"
+#~ msgid "<b>Brightness</b>"
+#~ msgstr "<b>དཀར་མདངས</b>"
+#~ msgid "Prefer power savings over performance"
+#~ msgstr "ལཱ་གི་གྲུབ་འབྲས་ལས་ གློག་ཤུགས་གསོག་འཇོག་འབད་ནི་ལུ་དགའ།"
+#~ msgid "Orientation"
+#~ msgstr "ཕྱོགས།"
+#~ msgid "The orientation of the tray."
+#~ msgstr "ཕྱོགས་ཀྱི་ཤོག་སྣོད།"
+#~ msgid "Event"
+#~ msgstr "བྱུང་ལས།"
+#~ msgid "Description"
+#~ msgstr "འགྲེལ་བཤད།"
+#~ msgid "DPMS blanking screen"
+#~ msgstr "ཌི་པི་ཨེམ་ཨེསི་གིས་ གསལ་གཞི་སྟོངམ་བཟོ་དོ།"
+#~ msgid "Turning LCD panel back on"
+#~ msgstr "ཨེལ་སི་ཌི་པེ་ནཱལ་ ལོག་རྒྱབ་ལུ་བསྒྱིར་དོ།"
+#~ msgid "laptop lid re-opened"
+#~ msgstr "ལེབ་ཊོཔ་ག་ཁ་ཏོག་ ལོག་ཁ་ཕྱེ་ནུག"
+#~ msgid "<b>Vendor:</b> %s\n"
+#~ msgstr "<b>ཚོང་པ་</b>%s\n"
+#~ msgid "<b>Model:</b> %s\n"
+#~ msgstr "<b>དཔེ་:</b> %s\n"
+#~ msgid "<b>Capacity:</b> %i%% (%s)\n"
+#~ msgstr "<b>ཤོམ་ཚད་:</b> %i%% (%s)\n"
+#~ msgid "<b>Last full charge:</b> %.1f %s\n"
+#~ msgstr "<b>མཐའ་འཇུག་གི་ཤུགས་ཚད་གངམ་:</b> %.1f %s\n"
+#~ msgid "charging"
+#~ msgstr "ནུས་ཤུགས་བླུག་དོ།"
+#~ msgid "Make the computer go to sleep"
+#~ msgstr "གློག་རིག་འདི་བསྒུག་ནི་ལུ་བཟོ།"
+#~ msgid "_Information"
+#~ msgstr "བརྡ་དོན།(_i)"
+#~ msgid "Interactive"
+#~ msgstr "ཕན་ཚུན་འབྲེལ་བ།"
+#~ msgid ""
+#~ "Whether we should check network utilization before doing the idle action."
+#~ msgstr ""
+#~ "ལས་མེད་ཀྱི་བྱ་བ་འདི་མ་འབད་བའི་ཧེ་མ་ལས་ ང་བཅས་ཚུ་གིས་ཡོངས་འབྲེལ་བེད་སྤྱོད་འབད་དགོ་ག་མི་དགོ་ག་"
+#~ "ཞིབ་དཔྱད་འབད་དགོ།"
+#~ msgid "<b>Laptop Battery Bay (2)</b>"
+#~ msgstr "<b>ལེབ་ཊོཔ་འཕྲུལ་ལྟོའི་ཚོན་མདངས (2)</b>"
+#~ msgid ""
+#~ "This shows you detailed information about all the batteries you have "
+#~ "installed in your system."
+#~ msgstr ""
+#~ "འ་ནི་འདི་གིས་ ཁྱོད་རའི་རིམ་ལུགས་ནང་ ཁྱོད་རང་གི་འཕྲུལ་ལྟོ་ཚུ་ཆ་མཉམ་གཞི་བཙུགས་ཡོད་པའི་སྐོར་ལས་ བརྡ་"
+#~ "དོན་རྒྱས་བཤད་འབད་སྟོནམ་ཨིན།"
+#~ msgid "Critical action"
+#~ msgstr "བྱ་བ་ཚབས་ཆེན།"
+

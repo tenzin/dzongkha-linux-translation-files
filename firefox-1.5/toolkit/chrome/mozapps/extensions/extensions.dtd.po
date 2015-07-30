@@ -1,0 +1,182 @@
+# extracted from dz-BT_orig/toolkit/chrome/mozapps/extensions/extensions.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: extensions.dtd.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-30 12:19+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: extensions.title
+msgid "Extensions"
+msgstr "རྒྱ་བསྐྱེད་ཚུ།"
+
+#: cmd.info.commandKey
+msgid "i"
+msgstr "i"
+
+#: cmd.options.commandKey
+msgid ","
+msgstr ","
+
+#: cmd.close.commandKey
+msgid "w"
+msgstr "w"
+
+# Command Bar items
+#: cmd.uninstall.label
+#: cmd.uninstall.accesskey
+msgid "Un&install"
+msgstr "གཞི་བཙུགས་བཤོལ།(&i)"
+
+#: cmd.uninstall.tooltip
+msgid "Uninstalls the selected Extension"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་རྒྱ་བསྐྱེད་དེ་ གཞི་བཙུགས་བཤོལཝ་ཨིན།"
+
+#: cmd.update.label
+#: cmd.update.accesskey
+msgid "Find &Updates"
+msgstr "དུས་མཐུན་ཚུ་འཚོལ།(&U)"
+
+#: cmd.update.tooltip
+msgid "Finds Updates to your Extensions"
+msgstr "ཁྱོད་རའི་རྒྱ་བསྐྱེད་ཚུ་ནང་ལུ་ དུས་མཐུན་ཚུ་འཚོལཝ་ཨིན།"
+
+#: cmd.useTheme.label
+#: cmd.useTheme.accesskey
+msgid "Use &Theme"
+msgstr "བརྗོད་དོན་ལག་ལེན་འཐབ།(&T)"
+
+#: cmd.useTheme.tooltip
+msgid "Changes &brandShortName;'s Theme"
+msgstr "&brandShortName;གི་བརྗོད་དོན་དེ་སོརཝ་ཨིན།"
+
+# the following command bar items are used by thunderbird only
+#: cmd.install.label
+#: cmd.install.accesskey
+msgid "I&nstall"
+msgstr "གཞི་བཙུགས།(&n)"
+
+#: cmd.install.tooltip
+msgid "Install an Extension"
+msgstr "རྒྱ་བསྐྱེད་ཅིག་གཞི་བཙུགས་འབད།"
+
+# Context Menu Options: Extension
+#: cmd.options.label
+#: cmd.options.accesskey
+msgid "&Options"
+msgstr "གདམ་ཁ་ཚུ།(&O)"
+
+#: cmd.options.tooltip
+msgid "Set Options for the selected Extension"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་  རྒྱ་བསྐྱེད་ཀྱི་དོན་ལུ་ གདམ་ཁ་ཚུ་ གཞི་སྒྲིག་འབད།"
+
+#: cmd.optionsUnix.label
+#: cmd.optionsUnix.accesskey
+msgid "P&references"
+msgstr "དགའ་གདམ་ཚུ།(&r)"
+
+#: cmd.optionsUnix.tooltip
+msgid "Edit Preferences for the selected Extension"
+msgstr "སེལ་འཐུ་གྲུབ་ཡོད་པའི་ རྒྱ་བསྐྱེད་ཀྱི་དོན་ལུ་  དགའ་གདམ་ཚུ་  ཞུན་དག་རྐྱབས།"
+
+#: cmd.homepage.label
+#: cmd.homepage.accesskey
+msgid "Visit &Home Page"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ་ལུ་ལྟ་སྤྱོད་འབད།(&H)"
+
+#: cmd.about.label
+#: cmd.about.accesskey
+msgid "&About this Extension"
+msgstr "འ་ནཱི རྒྱ་བསྐྱེད་ཀྱི་སྐོར་ལས།(&A)"
+
+#: cmd.updateAddon.label
+#: cmd.updateAddon.accesskey
+msgid "&Find Update"
+msgstr "དུས་མཐུན་འཚོལ།(&F)"
+
+#: cmd.enable.label
+#: cmd.enable.accesskey
+msgid "&Enable"
+msgstr "ལྕོགས་ཅན་བཟོ།(&E)"
+
+#: cmd.disable.label
+#: cmd.disable.accesskey
+msgid "&Disable"
+msgstr "ལྕོགས་མིན་བཟོ།(&D)"
+
+#: cmd.moveToTop.label
+#: cmd.moveToTop.accesskey
+msgid "Move to &Top"
+msgstr "མགོ་ལུ་སྤོ།(&T)"
+
+#: cmd.moveUp.label
+#: cmd.moveUp.accesskey
+msgid "Move U&p"
+msgstr "ཡར་སྤོ(&p)"
+
+#: cmd.moveDn.label
+#: cmd.moveDn.accesskey
+msgid "Move Do&wn"
+msgstr "མར་སྤོ།&w"
+
+#: cmd.showFolder.label
+#: cmd.showFolder.accesskey
+msgid "Show Item &Contents..."
+msgstr "རྣམ་གྲངས་ཀྱི་ནང་དོན་ཚུ་སྟོན..."
+
+# Extension Items
+#: options.tooltip
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#: optionsUnix.tooltip
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ།"
+
+#: about.tooltip
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: homepage.tooltip
+msgid "Home Page"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ།"
+
+#: installNow.label
+msgid "Update Now"
+msgstr "ད་ལྟོ་ར་དུས་མཐུན་བཟོ།"
+
+#: getMoreExtensions.label
+msgid "Get More Extensions"
+msgstr "རྒྱ་བསྐྱེད་ཧེང་བཀལ་ལེན།"
+
+#: getMoreExtensions.tooltip
+msgid "Get More Extensions from addons.mozilla.org"
+msgstr "addons.mozilla.org ལས་རྒྱ་བསྐྱེད་ཧེང་བཀལ་ལེན།"
+
+#: getMoreThemes.label
+msgid "Get More Themes"
+msgstr "བརྗོད་དོན་ཧེང་བཀལ་ལེན།"
+
+#: getMoreThemes.tooltip
+msgid "Get More Themes from addons.mozilla.org"
+msgstr "addons.mozilla.org ལས་བརྗོད་དོན་ཧེང་བཀལ་ལེན།"
+
+#: previewNoThemeSelected.label
+msgid "No Theme Selected"
+msgstr "བརྗོད་དོན་སེལ་འཐུ་འབད་འབདཝ་མིན་འདུག།"
+
+#: previewNoPreviewImage.label
+msgid "This Theme does not have a Preview Image"
+msgstr "འ་ནཱི་བརྗོད་དོན་དེ་ལུ་  སྔོན་ལྟའི་གཟུགས་བརྙན་ཅིག་མིན་འདུག"
+

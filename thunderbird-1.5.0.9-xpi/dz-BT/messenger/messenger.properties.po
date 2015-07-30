@@ -1,0 +1,905 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Seth Spitzer <sspitzer@netscape.com>
+#   Lorenzo Colitti <lorenzo@colitti.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/messenger/messenger.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: messenger.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-13 11:22+0600\n"
+"PO-Revision-Date: 2007-05-15 16:27+0530\n"
+"Last-Translator: Jurmey Rabgay <pemai_jurmey@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Bookmarks: 171,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#
+# The following are used by the messenger application
+#
+#: renameAccount
+msgid "Rename Account..."
+msgstr "རྩིས་ཐོ་ལུ་བསྐྱར་མིང་བཏགས་་་"
+
+#: renameNewsAccount
+msgid "Rename News Account..."
+msgstr "གནས་ཚུལ་རྩིས་ཐོ་ལུ་བསྐྱར་མིང་བཏགས་་་་"
+
+#: renameFolder
+msgid "Rename Folder..."
+msgstr "སྣོད་འཛིན་ལུ་བསྐྱར་མིང་བཏགས་་་་"
+
+#: compactFolder
+msgid "Compact This Folder"
+msgstr "སྣོད་འཛིན་འདི་སྲབ་ཆུང་བཟོ་"
+
+#: removeAccount
+msgid "Delete Account..."
+msgstr "རྩིས་ཐོ་བཏོན་གཏང་་་་"
+
+#: removeNewsAccount
+msgid "Delete News Account..."
+msgstr "གནས་ཚུལ་རྩི་ཐོ་བཏོན་གཏང་་་་"
+
+#: removeFolder
+msgid "Delete Folder"
+msgstr "སྣོད་འཛིན་བཏོན་གཏང་"
+
+#: newFolderMenuItem
+msgid "Folder..."
+msgstr "སྣོད་འཛིན་་་་"
+
+#: newSubfolderMenuItem
+msgid "Subfolder..."
+msgstr "ཡན་ལག་སྣོད་འཛིན་་་་"
+
+#: newFolder
+msgid "New Folder..."
+msgstr "སྣོད་འཛིན་གསརཔ་་་་"
+
+#: newSubfolder
+msgid "New Subfolder..."
+msgstr "ཡན་ལག་སྣོད་འཛིན་གསརཔ་་་་"
+
+#: folderProperties
+msgid "Folder Properties"
+msgstr "སྣོད་འཛིན་གྱི་རྒྱུ་དངོས་ཚུ་"
+
+#: getNextNMessages
+msgid "Get Next %S News Messages"
+msgstr "ཤུལ་མའི་%Sགི་གནས་ཚུལ་འཕྲིན་དོན་ཚུ་ལེན།"
+
+#: advanceNextPrompt
+msgid "Advance to next unread message in %S?"
+msgstr " %Sནང་ལུ་ མ་ལྷག་པའི་འཕྲིན་དོན་ཤུལ་མམ་ལུ་ ཡར་བསྐྱོད་འབད་ནི་ཨིན་ན?"
+
+#: titleNewsPreHost
+msgid "on"
+msgstr "ལུ་"
+
+#: titleMailPreHost
+msgid "for"
+msgstr "དོན་ལུ་"
+
+#: replyToSender
+msgid "Reply to Sender"
+msgstr "གཏང་མི་ལུ་ལན་གསལ་གཏང་།"
+
+#: reply
+msgid "Reply"
+msgstr "ལན་གསལ་"
+
+#: EMLFiles
+msgid "Mail Files"
+msgstr "ཡིག་འཕྲིན་ཡིག་སྣོད་ཚུ་"
+
+#: OpenEMLFiles
+msgid "Open Message"
+msgstr "འཕྲིན་དོན་ཁ་ཕྱེ་"
+
+# LOCALIZATION NOTES(defaultSaveMessageAsFileName): Do not translate ".eml"
+# in the line below.  Also, the complete file name should 8.3
+#: defaultSaveMessageAsFileName
+msgid "message.eml"
+msgstr "འཕྲིན་དོན་.eml"
+
+#: SaveMailAs
+msgid "Save Message As"
+msgstr "འཕྲིན་དོན་དེ་སྦེ་སྲུངས་"
+
+#: SaveAttachment
+msgid "Save Attachment"
+msgstr "མཉམ་སྦྲགས་སྲུངས་"
+
+#: SaveAllAttachments
+msgid "Save All Attachments"
+msgstr "མཉམ་སྦྲགས་ཆ་མཉམ་སྲུངས་"
+
+#: LoadingMessageToPrint
+msgid "Loading message to print..."
+msgstr "དཔར་བསྐྲུན་འབད་ནིའི་འཕྲིན་དོན་མངོན་གསལ་འབད་དོ་་་"
+
+#: MessageLoaded
+msgid "Message loaded..."
+msgstr "འཕྲིན་དོན་མངོན་གསལ་འབད་ཡི་་་་"
+
+#: PrintingMessage
+msgid "Printing message..."
+msgstr "འཕྲིན་དོན་དཔར་བསྐྲུན་འབད་དོ་་་་"
+
+#: PrintPreviewMessage
+msgid "Print Previewing message..."
+msgstr "སྔོན་ལྟའི་འཕྲིན་དོན་དཔར་བསྐྲུན་འབད་དོ་་་་་"
+
+#: PrintingCard
+msgid "Printing card..."
+msgstr "ཤོག་བྱང་དཔར་བསྐྲུན་འབད་དོ་་་"
+
+#: PrintPreviewCard
+msgid "Print Previewing card..."
+msgstr "སྔོན་ལྟའི་ཤོག་བྱང་དཔར་བསྐྲུན་འབད་་་་"
+
+#: PrintingAddrBook
+msgid "Printing AddressBook..."
+msgstr "ཁ་བྱང་ཀི་དེབ་དཔར་བསྐྲུན་འབད་དོ་་་"
+
+#: PrintPreviewAddrBook
+msgid "Print Previewing AddressBook..."
+msgstr "སྔོན་ལྟའི་ཁ་བྱང་ཀི་དེབ་ དཔར་བསྐྲུན་འབད་་་་"
+
+#: PrintingComplete
+msgid "Done."
+msgstr "འབད་ཚར་"
+
+#: PreviewTitle
+msgid "%S - %S"
+msgstr "%S - %S"
+
+#: LoadingMailMsgForPrint
+msgid "(Loading content for Printing)"
+msgstr "(དཔར་བསྐྲུན་གྱི་དོན་ལུ་ ནང་དོན་མངོན་གསལ་འབད་དོ)"
+
+#: LoadingMailMsgForPrintPreview
+msgid "(Loading content for Print Preview)"
+msgstr "(དཔར་བསྐྲུན་སྔོན་ལྟའི་དོན་ལུ་ ནང་དོན་མངོན་གསལ་འབད་དོ)"
+
+#: saveAttachmentFailed
+msgid "Unable to save the attachment. Please check your file name and try again later."
+msgstr "མཉམ་སྦྱར་བསྲུང་མ་ཚུགས། ཁྱོད་རའི་ཡིག་སྣོད་མིང་ ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ཤུལ་ལས་ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: saveMessageFailed
+msgid "Unable to save the message. Please check your file name and try again later."
+msgstr "འཕྲིན་དོན་བསྲུང་མ་ཚུགས། ཁྱོད་རའི་ཡིག་སྣོད་མིང་ ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ཤུལ་ལས་ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: notDownloaded
+msgid "(Not Downloaded)"
+msgstr "(མངོན་གསལ་མ་འབད་བས)"
+
+#: fileExists
+msgid "%S already exists. Do you want to replace it?"
+msgstr "%Sཧེ་མ་ལས་ར་འདུག། དེ་གི་ཚབ་མ་བཙུགས་ནི་ཨིན་ན?"
+
+#: downloadingNewsgroups
+msgid "Downloading Newsgroups for Offline Use"
+msgstr "གློག་ཐོག་མེན་པའི་ལག་ལེན་གྱི་དོན་ལུ་ གནས་ཚུལ་སྡེ་ཚན་ཚུ་ ཕབ་ལེན་འབད་དོ།"
+
+#: downloadingMail
+msgid "Downloading Mail for Offline Use"
+msgstr "གློག་ཐོག་མེན་པའི་ལག་ལེན་གྱི་དོན་ལུ་ ཡིག་འཕྲིན་ཕབ་ལེན་འབད་དོ།"
+
+#: sendingUnsent
+msgid "Sending Unsent Messages"
+msgstr "མ་བཏང་པར་ཡོད་མི་ འཕྲིན་དོན་ཚུ་གཏང་དོ།"
+
+#: folderExists
+msgid "A folder with that name already exists. Please enter a different name."
+msgstr "མིང་དེ་འབད་མི་ སྣོད་འཛིན་ཅིག་ཧེ་མ་ལས་ར་འདུག། མིང་སོ་སོ་ཅིག་བཙུགས་གནང་།"
+
+#: folderCreationFailed
+msgid "The folder could not be created because the folder name you specified contains an unrecognized character. Please enter a different name and try again."
+msgstr "སྣོད་འཛིན་དེ་གསར་བསྐྲུན་འབད་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་ སྣོད་འཛིན་གྱི་མིང་དེ་ནང་ ངོས་འཛིན་འབད་མ་ཚུགས་པའི་ཡིག་འབྲུ་ཅིག་འདུག། མིང་སོ་སོ་ཅིག་བཙུགས་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: compactingFolder
+msgid "Compacting folder %S..."
+msgstr "སྣོད་འཛིན་%Sསྲབ་ཆུང་བཟོ་དོ་་་"
+
+#: compactingDone
+msgid "Done compacting folders"
+msgstr "སྣོད་འཛིན་སྲབ་ཆུང་བཟོ་ནི་འབད་ཚར་"
+
+#: autoCompactAllFolders
+msgid "Do you wish to compact all local and offline folders to save disk space?"
+msgstr "ཌིཀསི་ནང་ བར་སྟོང་བཟོ་ནིའི་དོན་ལུ་ ཉེ་གནས་ཀྱི་སྣོད་འཛིན་དང་ གློག་ཐོག་མེན་པའི་སྣོད་འཛིན་ཆ་མཉམ་ར་ སྲབ་ཆུང་བཟོ་ནི་ཨིན་ན?"
+
+#: confirmFolderDeletionForFilter
+msgid "Deleting the folder '%S' will disable its associated filter(s). Are you sure you want to delete the folder?"
+msgstr "སྣོད་འཛིན་དེ་བཏོན་གཏང་པ་ཅིན་ དེ་དང་འབྲེལ་བའི་ཚགས་མ་ཚུ་ ལྕོགས་མིན་བཟོ་འོང་། ཁྱོད་ཀྱིས་སྣོད་འཛིན་དེ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: alertFilterChanged
+msgid "Filters associated with this folder will be updated."
+msgstr "སྣོད་འཛིན་འདི་དང་འབྲེལ་བ་ཡོད་པའི་ཚགས་མ་ཚུ་ དུས་མཐུན་བཟོ་ནི་ཨིན།"
+
+#: filterDisabled
+msgid "The folder '%S' could not be found, so filter(s) associated with this folder will be disabled. Verify that the folder exists, and that filters point to a valid destination folder."
+msgstr "སྣོད་འཛིན་'%S'དེ་འཚོལ་མ་ཐོབ། དེ་གིས་སྦེ་ སྣོད་འཛིན་འདི་དང་འབྲེལ་བ་ཡོད་པའི་ཚགས་མ་ཚུ་ ལྕོགས་མིན་བཟོ་ནི་ཨིན། སྣོད་འཛིན་ཚུ་ཡོདཔ་དང་ ཚགས་མ་ཚུ་གིས་ ནུས་ཅན་གྱི་འགྲོ་ཡུལ་སྣོད་འཛིན་ཅིག་ལུ་ རྩེ་དཔག་པའི་བདེན་སྦྱོར་འབད།"
+
+#: filterFolderDeniedLocked
+msgid "The messages could not be filtered to folder '%S' because another operation is in progress."
+msgstr "འཕྲིན་དོན་ཚུ་སྣོད་འཛིན་'%S'ལུ་ བཙགས་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ བཀོལ་སྤྱོད་གཞན་མི་ཅིག་ ལཱ་འབད་བའི་བསྒང་འདུག།"
+
+#: parsingFolderFailed
+msgid "Unable to open the folder %S because it is in use by some other operation. Please wait for that operation to finish and then select the folder again."
+msgstr "་སྣོད་འཛིན་%Sཁ་ཕྱེ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་བཀོལ་སྤྱོད་གཞན་མི་ཅིག་གིས་ ལག་ལེན་འཐབ་བའི་བསྒང་འདུག།"
+
+#: deletingMsgsFailed
+msgid "Unable to delete messages in folder %S because it is in use by some other operation. Please wait for that operation to finish and then try again."
+msgstr "་སྣོད་འཛིན་%Sནང་གི་འཕྲིན་དོན་ཚུ་ བཏོན་གཏང་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་བཀོལ་སྤྱོད་གཞན་མི་ཅིག་གིས་ ལག་ལེན་འཐབ་བའི་བསྒང་འདུག། བཀོལ་སྤྱོད་དེ་རྫོགས་རྫོགས་ བསྒུག་སྡོད་ཞིནམ་ལས་ དེ་ལས་ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: alertFilterCheckbox
+msgid "Do not warn me again."
+msgstr "ང་ལུ་ལོག་སྟེ་ ཉེན་བརྡ་མ་འབད།"
+
+#: compactFolderDeniedLock
+msgid "The folder '%S' cannot be compacted because another operation is in progress. Please try again later."
+msgstr "་སྣོད་འཛིན་%Sདེ་ སྲབ་ཆུང་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ བཀོལ་སྤྱོད་གཞན་མི་ཅིག་གིས་ ལག་ལེན་འཐབ་བའི་བསྒང་འདུག། ཤུལ་ལས་ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: compactFolderWriteFailed
+msgid "The folder '%S' could not be compacted because writing to folder failed. Verify that you have enough disk space, and that you have write privileges to the file system, then try again."
+msgstr "་སྣོད་འཛིན་%Sདེ་ སྲབ་ཆུང་བཟོ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ སྣོད་འཛིན་ལུ་་ཡི་གུ་འབྲི་མ་བཏུབ། ཁྱོད་ཀྱི་ཌིཀསི་གུ་ བར་སྟོང་ལངམ་ཡོད་པའི་ཁར་ ཁྱོད་ཀྱིས་ཡིག་སྣོད་རིམ་ལུགས་དེ་ལུ་ ཡི་གུ་འབྲི་ནིའི་ཁེ་དབང་ཡོད་པའི་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: filterFolderWriteFailed
+msgid "The messages could not be filtered to folder '%S' because writing to folder failed. Verify that you have enough disk space, and that you have write privileges to the file system, then try again."
+msgstr "འཕྲིན་དོན་ཚུ་ སྣོད་འཛིན་'%S'ལུ་ བཙགས་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ སྣོད་འཛིན་ལུ་ཡི་གུ་འབྲི་མ་བཏུབ། ཁྱོད་ཀྱི་ཌིཀསི་གུ་ བར་སྟོང་ལངམ་ཡོད་པའི་ཁར་ ཁྱོད་ཀྱིས་ཡིག་སྣོད་རིམ་ལུགས་དེ་ལུ་ ཡི་གུ་འབྲི་ནིའི་ཁེ་དབང་ཡོད་པའི་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: copyMsgWriteFailed
+msgid "The messages could not be moved or copied to folder '%S' because writing to folder failed. To gain disk space, from the File menu, first choose Empty Trash, and then choose Compact Folders, and then try again."
+msgstr "འཕྲིན་དོན་ཚུ་ སྣོད་འཛིན་'%S'ལུ་ སྤོ་ནིའམ་འདྲ་བཤུས་བརྐྱབ་མ་ཚུགས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ སྣོད་འཛིན་ལུ་ཡི་གུ་འབྲི་མ་བཏུབ། ཁྱོད་ཀྱི་ཌིཀསི་གུ་ བར་སྟོང་ལངམ་ཡོད་པའི་ཁར་ ཁྱོད་ཀྱིས་ཡིག་སྣོད་རིམ་ལུགས་དེ་ལུ་ ཡི་གུ་འབྲི་ནིའི་ཁེ་དབང་ཡོད་པའི་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: cantMoveMsgWOBodyOffline
+msgid "While working offline, you cannot move or copy messages that were not downloaded for offline use. From the Mail window, open the File menu, choose Offline, then choose Work Online, and then try again."
+msgstr "གློག་ཐོག་མེན་སྦེ་ ལཱ་འབད་བའི་སྐབས་ གློག་ཐོག་མེན་པའི་ལག་ལེན་གྱི་དོན་ལུ་ ཕབ་ལེན་མ་འབད་མི་ འཕྲིན་དོན་ཚུ་ སྤོ་ནི་དང་འདྲ་བཤུས་བརྐྱབ་ནི་ཚུ་མི་བཏུབ། ཡིག་འཕྲིན་སྒོ་སྒྲིག་ནང་ལས་ སྣོད་འཛིན་དཀར་ཆག་ཁ་ཕྱེ་སྟེ་ གློག་ཐོག་མེན་པའི་ གདམ་ཁ་བརྐྱབས་ཏེ་ གློག་ཐོག་ལུ་ལཱ་འབད་ ཟེར་མི་གདམ་ཁ་བརྐྱབས་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: operationFailedFolderBusy
+msgid "The operation failed because an other operation is using the folder. Please wait for that operation to finish and then try again."
+msgstr "བཀོལ་སྤྱོད་འདི་འབད་མ་བཏུབ། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ སྣོད་འཛིན་དེ་ བཀོལ་སྤྱོད་གཞན་ཅིག་གིས་ ལག་ལེན་འཐབ་པའི་བསྒང་འདུག། བཀོལ་སྤྱོད་དེ་རྫོགས་རྫོགས་བསྒུག་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: folderRenameFailed
+msgid "The folder could not be renamed. Perhaps the folder is being reparsed, or the new name is not a valid folder name."
+msgstr "སྣོད་འཛིན་འདི་ལུ་ བསྐྱར་མིང་བཏགས་མ་ཚུགས། སྣོད་འཛིན་འདི་ལུ་ ལོག་སྟེ་མིང་དཔྱད་འབད་དོ་ཡོདཔ་འོང་ནི་དང་ ཡང་ཅིན་ མིང་གསརཔ་དེ་ སྣོད་འཛིན་གྱི་ནུས་ཅན་མིང་ཅིག་ མེནམ་འོང་ནི་མས།"
+
+# LOCALIZATION NOTES(verboseFolderFormat): %1$S is folder name, %2$S is server name
+#: verboseFolderFormat
+msgid "%1$S on %2$S"
+msgstr "%2$S གུ་ %1$S"
+
+# LOCALIZATION NOTES(filterFolderTruncateFailed): %1$S is replaced by the folder name, %2$S is replaced by the brandShortName
+#: filterFolderTruncateFailed
+msgid "There was an error truncating the Inbox after filtering a message to folder '%1$S'. You may need to shutdown %2$S and delete INBOX.msf."
+msgstr "འཕྲིན་དོན་ཅིག་ སྣོད་འཛིན་'%1$S' ལུ་ བཙགས་བཏང་པའི་ཤུལ་ལུ་ ནང་སྒྲོམ་དེ་ ཆུང་ཀུ་བཟོ་མ་བཏུབ། ཁྱོད་ཀྱིས་%2$S སྒོ་བསྡམས་ཞིནམ་ལས་ INBOX.msf བཏོན་གཏང་དགོཔ་འོང་།"
+
+#: mailboxTooLarge
+msgid "The folder %S is full, and can't hold any more messages. To make room for more messages, delete any old or unwanted mail and compact the folder."
+msgstr "སྣོད་འཛིན་%Sདེ་གང་ཡོདཔ་ལས་ འཕྲིན་དོན་དེ་ལས་མངམ་མི་ཤོམ་པས། འཕྲིན་དོན་མངམ་ཤོམ་ནིའི་དོན་ལུ་ ཡིག་འཕྲིན་རྙིངམ་ ཡང་ན་ མ་དགོཔ་ཚུ་བཏོན་བཏང་ཞིནམ་ལས་ སྣོད་འཛིན་དེ་སྲབ་ཆུང་བཟོ།"
+
+#: defaultServerTag
+msgid "(Default)"
+msgstr "(སྔོན་སྒྲིག)"
+
+#: useDefaultServer
+msgid "Use default server"
+msgstr "སྔོན་སྒྲིག་སར་བར་ལག་ལེན་འཐབ་"
+
+# Used in the SMTP Account Settings panel when a server value has no properties
+#: smtpServerList-NotSpecified
+msgid "<not specified>"
+msgstr "<གསལ་བཀོད་མ་འབདཝ་>"
+
+# defaults for labels prefs listed in mailnews.js
+#: smtpServer-SecureConnection-Type-0 mailnews.labels.description.0
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: smtpServer-SecureConnection-Type-1
+msgid "TLS (if available)"
+msgstr "ཊི་ཨེལ་ཨེསི་(ཡོད་པ་ཅིན་)"
+
+#: smtpServer-SecureConnection-Type-2
+msgid "TLS"
+msgstr "ཊི་ཨེལ་ཨེསི་"
+
+#: smtpServer-SecureConnection-Type-3
+msgid "SSL"
+msgstr "ཨེསི་ཨེསི་ཨེལ་"
+
+#: smtpServers-confirmServerDeletionTitle
+msgid "Delete Server"
+msgstr "སར་བར་བཏོན་གཏང་"
+
+#: smtpServers-confirmServerDeletion
+msgid ""
+"Are you sure you want to delete the server: \n"
+" %S?"
+msgstr ""
+"ཁྱོད་ཀྱིས་སར་བར་ %Sབཏོན་གཏང་ནི་ \n"
+"ངེས་གཏན་ཨིན་ན?"
+
+# LOCALIZATION NOTES(serverType-nntp): Do not translate "NNTP" in the line below
+#: serverType-nntp
+msgid "News Server (NNTP)"
+msgstr "གནས་ཚུལ་སར་བར(NNTP)"
+
+# LOCALIZATION NOTES(serverType-pop3): Do not translate "POP" in the line below
+#: serverType-pop3
+msgid "POP Mail Server"
+msgstr "POP ཡིག་འཕྲིན་སར་བར་"
+
+# LOCALIZATION NOTES(serverType-imap): Do not translate "IMAP" in the line below
+#: serverType-imap
+msgid "IMAP Mail Server"
+msgstr "IMAP ཡིག་འཕྲིན་སར་བར་"
+
+#: serverType-none
+msgid "Local Mail Store"
+msgstr "ཉེ་གནས་ཡིག་འཕྲིན་མཛོག་ཁང་"
+
+#: sizeColumnTooltip
+msgid "Click to sort by size"
+msgstr "ཚད་ཀྱི་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: sizeColumnHeader
+msgid "Size"
+msgstr "ཚད་"
+
+#: linesColumnTooltip
+msgid "Click to sort by lines"
+msgstr "གྱལ་རིམ་ཐོག་ལས་ དབྱེ་སེལ་འབད་ནི་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: linesColumnHeader
+msgid "Lines"
+msgstr "གྱལ་རིམ་"
+
+# status feedback stuff
+#: documentDone
+msgid "_: documentDone\n"
+msgstr "_: documentDone\n"
+
+#: documentLoading
+msgid "Loading Message..."
+msgstr "འཕྲིན་དོན་མངོན་གསལ་འབད་དོ་་་"
+
+#: unreadMsgStatus
+msgid "Unread: %S"
+msgstr "མ་ལྷགཔ་:%S"
+
+#: totalMsgStatus
+msgid "Total: %S"
+msgstr "བསྡོམས་: %S"
+
+# localized folder names
+#: localFolders
+msgid "Local Folders"
+msgstr "ཉེ་གནས་སྣོད་འཛིན་ཚུ་"
+
+# LOCALIZATION NOTES (inboxFolderName): OK to translate all foldernames, bugzilla #57440 & bugzilla #23625 fixed
+#: inboxFolderName
+msgid "Inbox"
+msgstr "ནང་སྒྲོམ་"
+
+#: trashFolderName
+msgid "Trash"
+msgstr "ཕྱགས་ཧོད་"
+
+#: sentFolderName
+msgid "Sent"
+msgstr "བཏང་ཡོདཔ་"
+
+#: draftsFolderName
+msgid "Drafts"
+msgstr "ཟིན་འབྲི་"
+
+#: templatesFolderName
+msgid "Templates"
+msgstr "ཊེམ་པེལེཊི་"
+
+#: unsentFolderName
+msgid "Unsent"
+msgstr "མ་བཏངམ་"
+
+# for junk status picker in search and mail views
+#: junkFolderName junk
+msgid "Junk"
+msgstr "མཁོ་མེད་"
+
+# Error message for special folder deletion on imap accounts
+# LOCALIZATION NOTES (specialFolderDeletionErr): Do not translate "IMAP" in the line below
+#: specialFolderDeletionErr
+msgid "Deletion of special folder %S is not allowed for IMAP accounts."
+msgstr "IMAP རྩིས་ཐོ་ཚུ་ནང་ དམིགས་བསལ་སྣོད་འཛིན་%Sདེ་བཏོན་གཏང་མི་ཆོག།"
+
+#: specialFolderDeletionErrTitle
+msgid "Special Folder Deletion"
+msgstr "དམིགས་བསལ་སྣོད་འཛིན་བཏོན་གཏང་བ་"
+
+# "Normal" priority is often blank,
+# depending on the consumers of these strings
+#: priorityLowest
+msgid "Lowest"
+msgstr "དམའ་ཤོས་"
+
+#: priorityLow
+msgid "Low"
+msgstr "དམའ་བ་"
+
+#: priorityNormal
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་"
+
+#: priorityHigh
+msgid "High"
+msgstr "མཐོ་བ་"
+
+#: priorityHighest
+msgid "Highest"
+msgstr "མཐོ་ཤོས་"
+
+# Group by date thread pane titles
+#: today
+msgid "Today"
+msgstr "ད་རིས་"
+
+#: yesterday
+msgid "Yesterday"
+msgstr "ཁ་རྩང་"
+
+#: lastWeek
+msgid "Last Week"
+msgstr "བདུན་ཕྲག་ཧེ་མམ་"
+
+#: twoWeeksAgo
+msgid "Two Weeks Ago"
+msgstr "བདུན་ཕྲག་གཉིས་ཀྱི་ཧེ་མ་"
+
+#: older
+msgid "Old Mail"
+msgstr "ཡིག་འཕྲིན་རྙིངམ་"
+
+# Grouped By Label
+#: unlabeledMessages
+msgid "Unlabeled Messages"
+msgstr "ཁ་ཡིག་མ་བཏགས་པའི་འཕྲིན་དོན་ཚུ་"
+
+# Grouped by status
+#: messagesWithNoStatus
+msgid "No Status"
+msgstr "གནས་ཚད་མིན་འདུག་"
+
+# Grouped by priority
+#: noPriority
+msgid "No Priority"
+msgstr "གཙོ་རིམ་མིན་འདུག་"
+
+#: mailnews.labels.description.1
+msgid "Important"
+msgstr "གན་ཅན་"
+
+#: mailnews.labels.description.2
+msgid "Work"
+msgstr "ལཱ་"
+
+#: mailnews.labels.description.3
+msgid "Personal"
+msgstr "རང་དོན་"
+
+#: mailnews.labels.description.4
+msgid "To Do"
+msgstr "འབད་དགོཔ་"
+
+#: mailnews.labels.description.5
+msgid "Later"
+msgstr "ཤུལ་ལས་"
+
+# Format definition for label menu text.  This is necessary in order to
+# get the access key to be the on the first character of the menu text
+# instead of after the menu text.  The access keys for each of the label
+# items have been set to be the number preceeding '%S' listed below.
+#
+# '%S' is the prefs defined above, mailnews.labels.description.X.
+#   ie: 0 None
+#       1 Important
+#       2 Work
+#       3 Personal
+#       4 To Do
+#       5 Later
+#: labelMenuItemFormat0
+msgid "0 %S"
+msgstr " %S༠་"
+
+#: labelMenuItemFormat1
+msgid "1 %S"
+msgstr " %S༡་"
+
+#: labelMenuItemFormat2
+msgid "2 %S"
+msgstr " %S༢་"
+
+#: labelMenuItemFormat3
+msgid "3 %S"
+msgstr " %S༣་"
+
+#: labelMenuItemFormat4
+msgid "4 %S"
+msgstr " %S༤་"
+
+#: labelMenuItemFormat5
+msgid "5 %S"
+msgstr " %S༥་"
+
+#: replied
+msgid "Replied"
+msgstr "ལན་གསལ་བཏང་ཡོདཔ་"
+
+#: forwarded
+msgid "Forwarded"
+msgstr "གདོང་བསྐྱོད་འབད་ཡོདཔ་"
+
+#: new
+msgid "New"
+msgstr "གསརཔ་"
+
+#: read
+msgid "Read"
+msgstr "ལྷག་"
+
+#: flagged
+msgid "Flagged"
+msgstr "ཟུར་རྟགས་བཀལ་ཡོདཔ་"
+
+# for the has attachment picker in search and mail views
+#: hasAttachments
+msgid "Has Attachments"
+msgstr "མཉམ་སྦྲགས་འདུག་"
+
+# mailnews.js
+#: mailnews.send_default_charset mailnews.view_default_charset
+msgid "ISO-8859-1"
+msgstr "ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡"
+
+# generate display names in last first order
+# valid mail.addr_book.displayName.lastnamefirst are: true or false
+# valid mail.addr_book.show_phonetic_fields are: true or false
+#: mail.addr_book.displayName.lastnamefirst mail.addr_book.show_phonetic_fields
+msgid "false"
+msgstr "རྫུན་མ་"
+
+# the format for "mail.addr_book.quicksearchquery.format" is:
+# @V == the escaped value typed in the quick search bar in the addressbook
+#
+# note, changing this might require a change to SearchNameOrEmail.label
+# in messenger.dtd
+#
+# LOCALIZATION NOTES - please add phonetic names as below when "mail.addr_book.show_phonetic_fields" is true
+# "?(or(PrimaryEmail,c,@V)(DisplayName,c,@V)(FirstName,c,@V)(LastName,c,@V)(PhoneticFirstName,c,@V)(PhoneticLastName,c,@V))"
+#
+#: mail.addr_book.quicksearchquery.format
+msgid "?(or(PrimaryEmail,c,@V)(DisplayName,c,@V)(FirstName,c,@V)(LastName,c,@V))"
+msgstr "?(ཡང་ན་(གཞི་རིམ་གློག་འཕྲིན་,c,@V)(བཀྲམ་སྟོན་མིང་,c,@V)(འགོ་མིང་,c,@V)(མཇུག་མིང་,c,@V"
+
+# valid format options are:
+# 1: yyyy/mm/dd
+# 2: yyyy/dd/mm
+# 3: mm/dd/yyyy
+# 4: mm/yyyy/dd
+# 5: dd/mm/yyyy
+# 6: dd/yyyy/mm
+#
+# 0: auto-detect the current locale format
+#    a separator has to be either '/', '-', '.' and the year in Chistian year
+#    otherwise mm/dd/yyyy (option 3) is used
+#
+#: mailnews.search_date_format
+msgid "0"
+msgstr "0"
+
+# separator for search date (e.g. "/", "-"), or empty when search_date_format is zero
+#: mailnews.search_date_separator
+msgid "_: mailnews.search_date_separator\n"
+msgstr "_: mailnews.search_date_separator\n"
+
+# offline msg
+#: nocachedbodybody
+msgid "The body of this message has not been downloaded from the server for reading offline. To read this message, you must reconnect to the network, choose Offline from the File menu and then select Work Online.In the future, you can select which messages or folders to read offline. To do this, choose Offline from the file menu and then select Synchronize. You can adjust the Disk Space preference to prevent the downloading of large messages."
+msgstr "འཕྲིན་དོན་འདི་གི་མ་གཟུགས་དེ་ གློག་ཐོག་མེནམ་སྦེ་ ལྷག་ནིའི་དོན་ལུ་ སར་བར་ནང་ལས་ ཕབ་ལེན་མ་འབད་བས། འཕྲིན་དོན་འདི་ལྷག་ནི་ལུ་ ཁྱོད་ཀྱིས་ཡོངས་འབྲེལ་ལུ་ ལོག་མཐུད་ཞིནམ་ལས་ ཡིག་སྣོད་དཀར་ཆག་ནང་ལས་ གློག་ཐོག་མེནམ་ གདམ་ཁ་བརྐྱབས་ཞིནམ་ལས་ གློག་ཐོག་ལུ་ལཱ་འབད་ ཟེར་མི་སེལ་འཐུ་འབད། ཤུལ་ལས་ཁྱོད་ཀྱིས་ འཕྲིན་དོན་དང་སྣོད་འཛིན་ག་དང་ག་ཚུ་ གློག་ཐོག་མེནམ་སྦེ་ ལྷག་ནི་ཨིན་ན་ྶེལ་འཐུ་འབད་བཏུབ། འདི་འབད་གི་དོན་ལུ་ ཡིག་སྣོད་དཀར་ཆག་ནང་ལས་ གློག་ཐོག་མེནམ་ གདམ་ཁ་བརྐྱབས་ཞིནམ་ལས་ མཉམ་འབྱུང་སེལ་འཐུ་འབད། འཕྲིན་དོན་རིངམ་དེ་ཚུ་ ཕབ་ལེན་འབད་མ་བཅུག་པར་བཀག་ནི་ལུ་ ཌིཀསི་བར་སྟོང་གི་གདམ་ཁ་ བདེ་སྒྲིག་འབད་བཏུབ།"
+
+# accountCentral
+#: mailnews.account_central_page.url
+msgid "chrome://messenger/content/msgAccountCentral.xul"
+msgstr "ཀོརོམ་://messenger/content/msgAccountCentral.xul"
+
+# LOCALIZATION NOTES(acctCentralTitleFormat): %1$S is brand, %2$S is account type, %3$S is account name
+#: acctCentralTitleFormat
+msgid "%1$S %2$S - %3$S"
+msgstr "%1$S %2$S - %3$S"
+
+#: mailAcctType
+msgid "Mail"
+msgstr "ཡིག་འཕྲིན་"
+
+#: newsAcctType
+msgid "News"
+msgstr "གནས་ཚུལ་"
+
+# LOCALIZATION NOTES(nocachedbodytitle): Do not translate "<TITLE>" or "</TITLE>" in the line below
+#: nocachedbodytitle
+msgid "<TITLE>Go Online to View This Message</TITLE>\n"
+msgstr "<TITLE>འཕྲིན་དོན་འདི་བལྟ་ནི་ལུ་ གློག་ཐོག་ལུ་འགྱོ་</TITLE>\n"
+
+# mailWindowOverlay.js
+#: confirmUnsubscribeTitle
+msgid "Confirm Unsubscribe"
+msgstr "མཁོ་མངགས་བཤོལ་ནི་ལུ་ ངེས་དཔྱད་འབད་"
+
+#: confirmUnsubscribeText
+msgid "Are you sure you want to unsubscribe from %S?"
+msgstr "ཁྱོད་ཀྱིས་%Sནང་ལས་ མཁོ་མངགས་བཤོལ་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: cannotHaveTwoFilterRulesDialogs
+msgid "Filter Rules Dialog"
+msgstr "ཚགས་མའི་ལམ་ལུགས་ཀྱི་ཌའི་ལོག་"
+
+#: cannotHaveTwoFilterRulesText
+msgid "The filter cannot be created because the Filter Rules dialog is already in use. Please close the dialog and try again."
+msgstr "ཚགས་མ་བཟོ་མི་ཚུགས་པས། ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཚགས་མའི་ལམ་ལུགས་ཀྱི་ཌའི་ལོག་དེ་ ཧེ་མ་ལས་ར་ ལག་ལེན་འཐབ་སྟེ་འདུག། ཌའི་ལོག་དེ་ ཁ་བསྡམས་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+# msgHdrViewOverlay.js
+#: openLabel
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#: openLabelAccesskey
+msgid "O"
+msgstr "O"
+
+#: saveLabel
+msgid "Save As..."
+msgstr "དེ་སྦེ་སྲུངས་་་་"
+
+#: saveLabelAccesskey
+msgid "A"
+msgstr "A"
+
+#: detachLabel
+msgid "Detach..."
+msgstr "ཁ་འཕྱལ་"
+
+#: detachLabelAccesskey
+msgid "D"
+msgstr "D"
+
+#: deleteLabel
+msgid "Delete"
+msgstr "བཏོན་གཏང་"
+
+#: deleteLabelAccesskey
+msgid "E"
+msgstr "E"
+
+#: deleteAttachments
+msgid ""
+"The following attachments will be permanently deleted from this message:\n"
+"%S\n"
+"This action cannot be undone. Do you wish to continue?"
+msgstr ""
+"འོག་གི་མཉམ་སྦྲགས་ཚུ་ འཕྲིན་དོན་%S\n"
+"འདི་ནང་ལས་ རྟག་བརྟན་སྦེ་ བཏོན་གཏང་འོང་།\n"
+"བྱ་བ་འདི་ འབད་བཤོལ་འབད་མི་བཏུབ། འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: detachAttachments
+msgid ""
+"The following attachments have been successfully saved and will now be permanently deleted from this message:\n"
+"%S\n"
+"This action cannot be undone. Do you wish to continue?"
+msgstr ""
+"འོག་གི་མཉམ་སྦྲགས་ཚུ་ མཐར་འཁྱོལ་སྦེ་བསྲུངས་ཡོདཔ་ད་ འཕྲིན་དོན་%Sའདི་ནང་ལས་\n"
+" རྟག་བརྟན་སྦེ་ བཏོན་གཏང་ནི་ཨིན། \n"
+"བྱ་བ་འདི་འབད་བཤོལ་འབད་མི་བཏུབ། འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: deleteAttachmentFailure
+msgid "Failed to delete the selected attachments."
+msgstr "སེལ་འཐུ་འབད་མི་ མཉམསྦྲགས་ཚུ་ བཏོན་གཏང་མ་ཚུགས།"
+
+# LOCALIZATION NOTES(attachmentDeletePrefix): Do not translate until foreign language attachment names are fixed
+#: attachmentDeletePrefix
+msgid "Deleted: %S"
+msgstr " %Sབཏོན་བཏང་ཡི་"
+
+# This is the format for prepending accesskeys to the
+# each of the attachments in the file|attachments menu:
+#   ie: 1 file.txt
+#       2 another file.txt
+#: attachmentDisplayNameFormat
+msgid "%S %S"
+msgstr "%S %S"
+
+# Connection Error Messages
+#: 101
+msgid "Unknown Error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+#: 102
+msgid "Failed to connect to server %S."
+msgstr "སར་བར་%Sལུ་མཐུད་མ་ཚུགས།"
+
+#: 103
+msgid "Could not connect to server %S; the connection was refused."
+msgstr "སར་བར་%Sལུ་མཐུད་མ་ཚུགས། མཐུད་ལམ་ལུ་ཉན་མ་བཏུབ།"
+
+#: 104
+msgid "Connection to server %S timed out."
+msgstr "སར་བར་%Sལུ་ མཐུད་ལམ་གྱི་ངལ་མཚམས།"
+
+#: recipientSearchCriteria
+msgid "Subject or Recipient contains:"
+msgstr "དོན་ཚན་ ཡང་ན་ ཐོབ་མཁན་ནང་ཡོདཔ་:"
+
+#: senderSearchCriteria
+msgid "Subject or Sender contains:"
+msgstr "དོན་ཚན་ ཡང་ན་ གཏང་མི་ནང་ཡོདཔ་:"
+
+# LOCALIZATION NOTES(biffNotification): %1$S is the number of new messages
+#: biffNotification_message
+msgid "has %1$S new message"
+msgstr "འཕྲིན་དོན་གསརཔ་%1$Sའདུག། "
+
+#: biffNotification_messages
+msgid "has %1$S new messages"
+msgstr "འཕྲིན་དོན་གསརཔ་%1$Sའདུག། "
+
+# For the Quota tab in the mail folder properties dialog
+#: quotaUsedFree
+msgid "%S of %S KB used"
+msgstr "ཀེ་བི་ %S ལས་ %S ལག་ལེན་འཐབ་ནུག།"
+
+#: quotaPercentUsed
+msgid "%S%% full"
+msgstr "%S%% གང་ཡོདཔ་"
+
+# for message views
+# for checking if the user really wants to open lots of messages
+# for checking if the user really wants to delete the adaptive filter training set
+#: confirmViewDeleteTitle openWindowWarningTitle confirmResetJunkTrainingTitle
+msgid "Confirm"
+msgstr "ངེས་དཔྱད་འབད་"
+
+#: confirmViewDeleteMessage
+msgid "Are you sure you want to delete this view?"
+msgstr "ཁྱོད་ཀྱིས་མཐོང་སྣང་འདི་ བཏོན་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+# for virtual folders
+#: confirmSavedSearchDeleteMessage
+msgid "Are you sure you want to delete this saved search?"
+msgstr "ཁྱོད་ཀྱིས་བསྲུངས་ཏེ་ཡོད་མི་འཚོལ་ཞིབ་འདི་ བཏོན་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+# # @name ENTER_PASSWORD_PROMPT
+# # @loc None
+# LOCALIZATION NOTE (passwordPrompt): Do not translate the word %S below.
+# Place the word "%S" in your translation where the email address
+# or the username should appear
+#: passwordPrompt
+msgid "Enter your password for %1$S on %2$S:"
+msgstr " %1$Sགི་དོན་ལུ་%2$Sགུ་ཁྱོད་རའི་ཆོག་ཡིག་བཙུགས།"
+
+# # @name ENTER_PASSWORD_PROMPT_TITLE
+# # @loc None
+#: passwordTitle
+msgid "Mail Server Password Required"
+msgstr "ཡིག་འཕྲིན་སར་བར་གྱི་ཆོག་ཡིག་དགོ་པས།"
+
+#: openWindowWarningText
+msgid "Opening %S messages may be slow.  Continue?"
+msgstr "འཕྲིན་དོན་%Sཁཕྱེ་ནི་དེ་ འགྲོས་ཀྱིས་སྦེ་འོང་། འཕྲོ་མཐུད་ནི་ཨིན་ན?"
+
+#: confirmResetJunkTrainingText
+msgid "Are you sure you want to reset the adaptive filter training data?"
+msgstr "ཁྱོད་ཀྱིས་མཐུན་བསྒྱུར་ཅན་གྱི་ཚགས་མའི་སྦྱོང་བརྡར་གནས་སྡུད་དེ་ སླར་གཞི་འབད་ནི་ ངེས་གཏན་ཨིན་ན།"
+
+# for the virtual folder list dialog title
+# %S is the name of the saved search folder
+#: editVirtualFolderPropertiesTitle
+msgid "Edit Saved Search Properties for %S"
+msgstr "%Sགི་དོན་ལུ་ བསྲུངས་ཏེ་ཡོད་པའི་འཚོལ་ཞིབ་ཀྱི་རྒྱུ་དངོས་ཚུ་ ཞུན་དག་རྐྱབས།"
+
+# alert to inform the user to choose one or more folders to search for a saved search folder
+#: alertNoSearchFoldersSelected
+msgid "You must choose at least one folder to search for the saved search folder."
+msgstr "བསྲུངས་ཏེ་ཡོད་པའི་འཚོལ་ཞིབ་སྣོད་འཛིན་དེ་ འཚོལ་ཞིབ་འབད་ནི་ལུ་ ཁྱོད་ཀྱིས་ཉུང་མཐའ་ལུ་ སྣོད་འཛིན་གཅིག་ གདམ་ཁ་བརྐྱབ་དགོ།"
+
+# These two are displayed in the message and folder pane windows
+# LOCALIZATION NOTES(????ByteAbbreviation): Do not translate %d below, it is the size of the message/folder
+#: kiloByteAbbreviation
+msgid "%dKB"
+msgstr "ཀེ་བི་%d"
+
+#: megaByteAbbreviation
+msgid "%dMB"
+msgstr "ཨེམ་བི་%d"
+
+# Warnings to alert users about phishing urls
+#: confirmPhishingTitle
+msgid "Email Scam Alert"
+msgstr "གློག་འཕྲིན་གཡོ་སྒྱུའི་དྲན་བརྡ་"
+
+# LOCALIZATION NOTE %1$S is the brand name, %2$S is the host name of the url being visited
+#: confirmPhishingUrl1
+msgid "%1$S thinks this site is suspicious! It may be trying to impersonate the web page you want to visit. Most legitimate sites use names instead of numbers. Are you sure you want to visit %2$S?"
+msgstr "%1$S གིས་ ས་ཁོངས་འདི་ དོགས་པ་ཅན་སྦེ་ འཆརཝ་ཨིན་པས། འདི་གིས་ཁྱོད་ཀྱི་ལྟ་སྤྱོད་འབད་དགོ་མནོ་མི་ ཝེབ་ཤོག་ལེབ་དེ་ ཨིན་རྫུས་བཏབ་དོ་ཡོདཔ་འོང་ནི་མས། ཁྲིམས་མཐུན་ས་ཁོངས་མང་ཤོས་ཅིག་གིས་ ཨང་གྲངས་ཀྱི་ཚབ་ལུ་ མིང་གསལ་ལག་ལེན་འཐབ་ཨིན། ཁྱོད་ཀྱིས་%2$Sལུ་ལྟ་སྤྱོད་འབད་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: confirmPhishingUrl2
+msgid "%1$S thinks this site is suspicious! It may be trying to impersonate the web page you want to visit. Are you sure you want to visit %2$S?"
+msgstr "%1$S གིས་ ས་ཁོངས་འདི་ དོགས་པ་ཅན་སྦེ་ འཆརཝ་ཨིན་པས། འདི་གིས་ཁྱོད་ཀྱི་ལྟ་སྤྱོད་འབད་དགོ་མནོ་མི་ ཝེབ་ཤོག་ལེབ་དེ་ ཨིན་རྫུས་བཏབ་དོ་ཡོདཔ་འོང་ནི་མས། ཁྱོད་ཀྱིས་%2$Sལུ་ལྟ་སྤྱོད་འབད་ནི་ངེས་གཏན་ཨིན་ན?"
+
+# Check for Updates
+#: updatesItem_default updatesItem_defaultFallback
+msgid "Check for Updates..."
+msgstr "དུས་མཐུན་གྱི་"
+
+#: updatesItem_downloading
+msgid "Downloading %S..."
+msgstr "%Sཕབ་ལེན་འབད་དོ་་་་"
+
+#: updatesItem_downloadingFallback
+msgid "Downloading Update..."
+msgstr "དུས་མཐུན་ཕབ་ལེན་འབད་དོ་་་་"
+
+#: updatesItem_resume
+msgid "Resume Downloading %S..."
+msgstr " %Sཕབ་ལེན་འབད་ནི་ བསྐྱར་ལོག་འབད་་་་"
+
+#: updatesItem_resumeFallback
+msgid "Resume Downloading Update..."
+msgstr "དུས་མཐུན་ཕབ་ལེན་འབད་ནི་ བསྐྱར་ལོག་འབད་་་"
+
+#: updatesItem_pending updatesItem_pendingFallback
+msgid "Apply Downloaded Update Now..."
+msgstr "ཕབ་ལེན་འབད་ཡོད་པའི་དུས་མཐུན་ཚུ་ ད་ལྟོ་ར་འཇུག་སྤྱོད་འབད།"
+

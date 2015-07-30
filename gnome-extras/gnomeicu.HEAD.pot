@@ -1,0 +1,4375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeicu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-22 03:20+0000\n"
+"PO-Revision-Date: 2007-02-26 06:07+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../GnomeICU.desktop.in.h:1
+msgid "Communicate with your friends"
+msgstr "ཁྱོད་རའི་ཆ་རོགས་ཚུ་དང་གཅིག་ཁར་རྒྱུད་འབྲེལ་བ་འཐབ།"
+
+#: ../GnomeICU.desktop.in.h:2
+#: ../src/gnomeicu.c:622
+msgid "GnomeICU ICQ Instant Messenger"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཨའི་སི་ཀིའུ་འཕྲལ་མྱུར་འཕྲིན་སྐྱེལ་པ།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.server.in.in.h:1
+msgid "An applet to control the GNOME Internet Communication Utility."
+msgstr "ཇི་ནོམ་ཨིན་ཊར་ནེཊི་རྒྱུད་འབྲེལ་སྤྱོད་ཆས་འདི་ཚད་འཛིན་འཐབ་ནིའི་ཨེཔ་ལེཊི་ཅིག"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.server.in.in.h:2
+#: ../sounds/GnomeICU.soundlist.in.h:4
+#: ../src/gnomeicu.c:636
+#: ../src/prefs.c:123
+#: ../ui/main.glade.h:3
+msgid "GnomeICU"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.server.in.in.h:3
+msgid "GnomeICU Applet Factory"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:1
+msgid "About..."
+msgstr "སྐོར་ལས་་་"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:2
+#: ../gnomeicu-applet/applet.c:443
+#: ../src/gtkfunc.c:1007
+#: ../src/tray.c:193
+#: ../src/util.c:742
+#: ../ui/prefs.glade.h:11
+msgid "Away"
+msgstr "ཕྱི་ཁ།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:3
+#: ../gnomeicu-applet/applet.c:451
+#: ../src/gtkfunc.c:1039
+#: ../src/tray.c:225
+#: ../src/util.c:750
+#: ../ui/prefs.glade.h:20
+msgid "Do Not Disturb"
+msgstr "མ་དཀྲོགས།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:4
+#: ../gnomeicu-applet/applet.c:447
+#: ../src/util.c:746
+#: ../ui/prefs.glade.h:26
+msgid "Free For Chat"
+msgstr "ཁ་སླབ་ནི་དོན་ལུ་རང་དབང་ཡོད།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:5
+#: ../gnomeicu-applet/applet.c:453
+#: ../src/gtkfunc.c:1047
+#: ../src/tray.c:233
+#: ../src/util.c:752
+#: ../ui/prefs.glade.h:30
+msgid "Invisible"
+msgstr "མཐོང་མ་ཚུགསཔ།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:6
+#: ../gnomeicu-applet/applet.c:445
+#: ../src/gtkfunc.c:1015
+#: ../src/tray.c:201
+#: ../src/util.c:744
+#: ../ui/prefs.glade.h:31
+msgid "Not Available"
+msgstr "ཐོབ་མ་ཚུགསཔ།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:7
+#: ../gnomeicu-applet/applet.c:449
+#: ../src/gtkfunc.c:1031
+#: ../src/tray.c:217
+#: ../src/util.c:748
+#: ../ui/prefs.glade.h:32
+msgid "Occupied"
+msgstr "དལ་ཁོམ་མེདཔ།"
+
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:8
+#: ../gnomeicu-applet/applet.c:439
+#: ../src/gtkfunc.c:1059
+#: ../src/personal_info.c:221
+#: ../src/tray.c:245
+#: ../src/util.c:736
+#: ../ui/prefs.glade.h:33
+msgid "Offline"
+msgstr "གློག་ལམ་མེདཔ།"
+
+#. <submenu name="Status Menu" _label="Status">
+#: ../gnomeicu-applet/GNOME_GnomeICUApplet.xml.h:10
+#: ../gnomeicu-applet/applet.c:441
+#: ../src/gtkfunc.c:999
+#: ../src/tray.c:185
+#: ../src/util.c:740
+#: ../ui/main.glade.h:8
+#: ../ui/prefs.glade.h:34
+msgid "Online"
+msgstr "གློག་ལམ་ཐོག་ལུ།"
+
+#. Translator credits
+#: ../gnomeicu-applet/applet.c:196
+#: ../src/gnomeicu.c:807
+msgid "translator_credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོ་བསྟོད་ཚུ།(_c)"
+
+#: ../gnomeicu-applet/applet.c:214
+msgid "GnomeICU Applet is designed to be used with GnomeICU: a small, fast and functional ICQ/AIM instant messaging program, specifically designed for GNOME."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་་ཨེཔ་ལེཊི་འདི་ ཇི་ནོམ་དོན་ལུ་དམིགས་བསལ་སྦེ་བཀོད་སྒྲིག་འབད་ཡོད་མི་ཨེ་ཨའི་ཨེམ་སྐབས་དོན་འཕྲིན་གཏོང་ལས་རིམ་/ཨའི་སི་ཀིའུ་ལས་འགན་དང་ཆུང་ཀུ་མགྱོགས་དྲག་ ཇི་ནོམ་ཨའི་སི་ཡུ་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་ནི་ཨིན་མི་ལུ་བཀོད་སྒྲིག་འབད་ཡོདཔ་ཨིན།"
+
+#: ../gnomeicu-applet/applet.c:244
+#, c-format
+msgid ""
+"%s\n"
+"%d users online\n"
+"%d new messages"
+msgstr ""
+"%s\n"
+"%d ལག་ལེན་པའི་གློག་ལམ་ཐོག་ལུ།\n"
+"%d འཕྲིན་དོན་གསརཔ་ཚུ།"
+
+#: ../gnomeicu-applet/applet.c:249
+#, c-format
+msgid ""
+"%s\n"
+"%d users online"
+msgstr ""
+"%s\n"
+"%d ལག་ལེན་པའི་གློག་ལམ་ཐོག་ལུ།"
+
+#: ../gnomeicu-applet/applet.c:455
+msgid "GnomeICU not running"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་གཡོག་བཀོལ་མེདཔ།"
+
+#: ../gnomeicu.schemas.in.h:1
+msgid "Enable highlighting of wrongly spelled messages"
+msgstr "འཕྲིན་དོན་ཚུའི་སྡེབ་ཕྱི་འགྱུར་གྱི་གཙོ་དམིགས་བཀལ་ནི་ལྕོགས་ཅན་བཟོ།"
+
+#: ../gnomeicu.schemas.in.h:2
+msgid "Enter sends message, control-enter inputs new line"
+msgstr "འཕྲིན་དོན་ཚུ་གཏང་མི་ ཨིན་པུཊིསི་གྱལ་གསརཔ་བཙུགས་ཚད་འཛིན་བཙུགས།"
+
+#: ../gnomeicu.schemas.in.h:3
+msgid "GnomeICU Data Folder"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་གནས་སྡུད་སྣོད་འཛིན།"
+
+#: ../gnomeicu.schemas.in.h:4
+msgid "GnomeICU Download folder"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཕབ་ལེན་སྣོད་འཛིན།"
+
+#: ../gnomeicu.schemas.in.h:5
+msgid "GnomeICU Version"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཐོན་རིམ།"
+
+#: ../gnomeicu.schemas.in.h:6
+msgid "GnomeICU contact list filename"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་འབྲེལ་བ་འཐབ་ནི་ཐོ་ཡིག་ཡིག་སྣོད་མིང་།"
+
+#: ../gnomeicu.schemas.in.h:7
+msgid "GnomeICU main window X coordinate"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཨེགསི་ཆ་སྙོམ་པའི་ཝིནཌོ་གཙོ་བོ།"
+
+#: ../gnomeicu.schemas.in.h:8
+msgid "GnomeICU main window X coordinate, used upon startup. It can be overridden by command line options. The value 0 means automatic position."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཨེགསི་ཆ་སྙོམ་པའི་ཝིནཌོ་གཙོ་བོ་ འགོ་བཙུགས་ནི་ནང་ལག་ལེན་འཐབ་ཡོདཔ། འདི་ཡང་བརྡ་བཀོད་གྱལ་གདམ་ཁ་ཚུ་གིས་མེདཔ་གཏང་བཏུབ་ཨིན། གནས་གོང་༠་ ཨིན་པ་ཅིན་རང་བཞིན་གནས་ས་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:9
+msgid "GnomeICU main window Y"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝའི་ཝིནཌོ་གཙོ་བོ།"
+
+#: ../gnomeicu.schemas.in.h:10
+msgid "GnomeICU main window Y coordinate, used upon startup. It can be overridden by command line options. The value 0 means automatic position"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝའི་ཆ་སྙོམ་པའི་ཝིནཌོ་གཙོ་བོ་འགོ་བཙུགས་ནི་ལུ་ལག་ལེན་འཐབ་ཡོདཔ། འདི་ཡང་བརྡ་བཀོད་གྱལ་གདམ་ཁ་ཚུ་གིས་མེདཔ་གཏང་བཏུབ་ཨིན། གནས་གོང་༠་ ཨིན་པ་ཅིན་རང་བཞིན་གནས་ས་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:11
+msgid "GnomeICU main window height"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་མཐོ་ཚད་གཙོ་བོ།"
+
+#: ../gnomeicu.schemas.in.h:12
+msgid "GnomeICU main window height, used upon startup. It can be overridden by command line options."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་གཙོ་བོའི་མཐོ་ཚད་ འགོ་བཙུགས་ནི་ལུ་ལག་ལེན་འཐབ་ཡོདཔ། འདི་ཡང་བརྡ་བཀོད་གྱལ་གདམ་ཁ་ཚུ་གིས་མེདཔ་གཏང་བཏུབ་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:13
+msgid "GnomeICU main window width"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་རྒྱ་ཚད་གཙོ་བོ།"
+
+#: ../gnomeicu.schemas.in.h:14
+msgid "GnomeICU main window width, used upon startup. It can be overridden by command line options."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་གཙོ་བོའི་རྒྱ་ཚད་ འགོ་བཙུགས་ནི་ལུ་ལག་ལེན་འཐབ་ཡོདཔ། འདི་ཡང་བརྡ་བཀོད་གྱལ་གདམ་ཁ་ཚུ་གིས་མེདཔ་གཏང་བཏུབ་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:15
+msgid "ICQ Server"
+msgstr "ཨའི་སི་ཀིའུ་སར་བར།"
+
+#: ../gnomeicu.schemas.in.h:16
+msgid "ICQ server name"
+msgstr "ཨའི་སི་ཀིའུ་སར་བར་མིང་།"
+
+#: ../gnomeicu.schemas.in.h:17
+msgid "ICQ server port"
+msgstr "ཨའི་སི་ཀིའུ་སར་བར་འདྲེན་ལམ།"
+
+#: ../gnomeicu.schemas.in.h:18
+msgid "Print out ICQ SNAC packets for debugging"
+msgstr "རྐྱེན་སེལ་འབད་ནི་དོན་ལུ་ཨའི་སི་ཀིའུ་ཨེསི་ཨེན་ཨེ་སི་འཕྲིན་ཚན་ཚུ་དཔར་བསྐྲུན་འབད།"
+
+#: ../gnomeicu.schemas.in.h:19
+msgid "Print out TCP packet for file transfer debugging"
+msgstr "ཡིག་སྣོད་གནས་སོར་རྐྱེན་སེལ་འབད་ནི་དོན་ལུ་ཊི་སི་པི་འཕྲིན་ཚན་དཔར་བསྐྲུན་འབད།"
+
+#: ../gnomeicu.schemas.in.h:20
+msgid "Server port"
+msgstr "སར་བར་འདྲེན་ལམ།"
+
+#: ../gnomeicu.schemas.in.h:21
+msgid "The GnomeICU data folder is where the relevant files for GnomeICU are stored, including contact lists and history"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་གནས་སྡུད་སྣོད་འཛིན་འདི་འབྲེལ་བ་འཐབ་ནིའི་ཐོ་ཡིག་ཚུ་དང་ལོ་རྒྱུས་ཚུ་གྲངས་སུ་རྩིས་ ཇི་ནོམ་ཨའི་སི་ཡུ་དོན་ལུ་གསོག་འཇོག་འབད་ཡོད་མི་འབྲེལ་བའི་ཡིག་སྣོད་ཚུ་ཡོད་མི་ཅིག་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:22
+msgid "The GnomeICU download folder is where the received files from your contacts are stored"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཕབ་ལེན་སྣོད་འཛིན་འདི་ཁྱོད་ཀྱི་འབྲེལ་བ་འཐབ་ནི་ཚུ་གསོག་འཇོག་འབད་ཡོད་མི་ཡིག་སྣོད་ཐོབ་ཡོད་མི་ཚུ་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:23
+msgid "The file where your contacts information for all your accounts is stored"
+msgstr "ཁྱོད་ཀྱི་རྩིས་ཐོ་ཚུ་གསོག་འཇོག་འབད་ཡོད་མི་ཆ་མཉམ་གྱི་དོན་ལུ་ཁྱོད་ཀྱི་འབྲེལ་སའི་བརྡ་དོན་ཡོད་སའི་ཡིག་སྣོད་འདི་ཨིན།"
+
+#: ../gnomeicu.schemas.in.h:24
+msgid "When this key is set to \"true\", the enter key sends a message and control-enter puts a newline into the buffer. When it is set to false, control-enter sends a message and enter inputs a new line. Shift-enter has the same behavior as control-enter."
+msgstr "ལྡེ་མིག་འདི་\"true\"ལུ་གཞི་སྒྲིག་འབད་ཡོད་པའི་སྐབས་ ལྡེ་མིག་བཙུགས་ནི་དེ་གིས་འཕྲིན་དོན་ཅིག་གཏངམ་དང་ཚད་འཛིན་བཙུགས་ཀྱིས་གནད་ཁོངས་ནང་ན་གྱལ་གསརཔ་ཅིག་བཙུགསཔ་ཨིན། རྫུན་མ་ལུ་གཞི་སྒྲིག་འབད་ཡོད་པའི་སྐབས་ ཚད་འཛིན་བཙུགས་ནི་གིས་འཕྲིན་དོན་ཅིག་གཏངམ་དང་ཨིན་པུཊིསི་གྱལ་གསརཔ་ཅིག་བཙུགསཔ་ཨིན། སོར་ལྡེ་བཙུགས་ནི་ལུ་ཡང་ཚད་འཛིན་བཙུགས་ནི་བཟུམ་མའི་སྤྱོད་ལམ་ཅོག་འཐདཔ་ཡོདཔ་ཨིན།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:1
+msgid "Authorization notification received"
+msgstr "དབང་སྤྲོད་བརྡ་བསྐུལ་ཐོབ་ཡོདཔ།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:2
+msgid "Authorization request received"
+msgstr "དབང་སྤྲོད་ཞུ་བ་ཐོབ་ཡོདཔ།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:3
+msgid "Contact List Received"
+msgstr "འབྲེལ་བ་འཐབ་ནི་ཐོ་ཡིག་ཐོབ་ཡོདཔ།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:5
+msgid "Incoming File"
+msgstr "ནང་འབྱོར་ཡིག་སྣོད།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:6
+msgid "Incoming message received"
+msgstr "ནང་འབྱོར་འཕྲིན་དོན་ཐོབ་ཡོདཔ།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:7
+msgid "Notify of being added to foreign contact list"
+msgstr "ཕྱི་རྒྱལ་འབྲེལ་བ་འཐབ་ནིའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་འབད་ཡོད་མི་གི་བརྡ་བསྐུལ་འབད།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:8
+msgid "URL received"
+msgstr "ཡུ་ཨར་ཨེལ་ཐོབ་ཡོདཔ།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:9
+msgid "User logged off"
+msgstr "ལག་ལེན་པའི་ནང་བསྐྱོད་ཨོཕ་ཡོདཔ།"
+
+#: ../sounds/GnomeICU.soundlist.in.h:10
+msgid "User logged on"
+msgstr "ལག་ལེན་པའི་ནང་བསྐྱོད་ཨཱོན་འབད་ཡོདཔ།"
+
+#: ../src/auth.c:68
+#, c-format
+msgid "User %s (%s) needs authorization. GnomeICU is going to send an authorization message to your friend."
+msgstr "ལག་ལེན་པ་ལུ་ %s (%s)དབང་སྤྲོད་དགོཔ།   ཇི་ནོམ་ཨའི་སི་ཡུ་འདི་གིས་ཁྱོད་ཀྱི་ཆ་རོགས་ལུ་དབང་སྤྲོད་འཕྲིན་དོན་ཅིག་གཏང་ནི་ཨིན།"
+
+#: ../src/auth.c:74
+msgid "Request Authorization"
+msgstr "ཞུ་བ་དབང་སྤྲོད་ནི།"
+
+#: ../src/auth.c:79
+#, c-format
+msgid "Request Authorization from %s (%s)"
+msgstr "ལས་ཞུ་བ་དབང་སྤྲོད་ནི། %s (%s)"
+
+#: ../src/auth.c:87
+#, c-format
+msgid "Please authorize my request and add me to your Contact List. %s (%s)."
+msgstr "ང་གི་ཞུ་བ་འདི་དབང་སྤྲོད་དེ་ང་ཁྱོད་ཀྱི་འབྲེལ་བ་འཐབ་ནིའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་གནང་། %s (%s)."
+
+#: ../src/auth.c:129
+msgid "You can not ask authorization while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་དབང་སྤྲོད་ནིའི་དྲི་མི་བཏུབ།"
+
+#: ../src/auth.c:184
+#, c-format
+msgid "User %s (%s) is requesting authorization. Do you want to grant the authorization so he/she can add you?"
+msgstr "ལག་ལེན་པ་གིས་ %s (%s) དབང་སྤྲོད་ཞུ་བ་འབད་དོ།  ཁོ་/མོ་གིས་ཁྱོད་ཁ་སྐོང་བརྐྱབ་ཚུགསཔ་ལས་ཁྱོད་ཀྱིས་དབང་སྤྲོད་བྱིན་ནི་ཨིན་ན?"
+
+#: ../src/auth.c:189
+msgid "Received Authorization Request"
+msgstr "དབང་སྤྲོད་ཞུ་བ་ཐོབ་ཡོདཔ།"
+
+#: ../src/auth.c:194
+#, c-format
+msgid "Authorization request from %s"
+msgstr "ལས་དབང་སྤྲོད་ཞུ་བ། %s"
+
+#: ../src/auth.c:276
+msgid "You can not grant authorization while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་དབང་སྤྲོད་བྱིན་མི་བཏུབ་ཨིན།"
+
+#: ../src/auth.c:289
+msgid "You can not deny authorization while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་དབང་སྤྲོད་མ་ཉན་པར་མི་བཏུབ་ཨིན།"
+
+#: ../src/auth.c:303
+#: ../src/gtkfunc.c:113
+#: ../src/gtkfunc.c:157
+#: ../src/search.c:287
+msgid "You can not add a contact while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་འབྲེལ་ས་ཅིག་ཁ་སྐོང་བརྐྱབ་མི་བཏུབ་ཨིན།"
+
+#: ../src/changeinfo.c:131
+msgid "Hidden"
+msgstr "གསང་།"
+
+#: ../src/changeinfo.c:142
+msgid "Email"
+msgstr "གློག་འཕྲིན།"
+
+#: ../src/changeinfo.c:378
+msgid "An email address can't be empty."
+msgstr "གློག་འཕྲིན་ཁ་བྱང་ཅིག་སྟོངམ་མི་བཏུབ།"
+
+#: ../src/changeinfo.c:469
+msgid "You can not update your information while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ཁྱོད་རའི་བརྡ་དོན་དུས་མཐུན་བཟོ་མི་བཏུབ་ཨིན།"
+
+#: ../src/changeinfo.c:483
+msgid "You can not save your informations while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ཁྱོད་རའི་བརྡ་དོན་ཚུ་སྲུང་བཞག་འབད་མི་བཏུབ་ཨིན།"
+
+#: ../src/changeinfo.c:551
+msgid "New e-mail address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་གསརཔ།"
+
+#: ../src/changeinfo.c:725
+#: ../src/changeinfo.c:947
+#: ../src/personal_info.c:285
+#: ../src/search.c:370
+#: ../ui/user_info.glade.h:39
+msgid "Male"
+msgstr "ཕོ།"
+
+#: ../src/changeinfo.c:727
+#: ../src/changeinfo.c:949
+#: ../src/personal_info.c:287
+#: ../src/search.c:368
+#: ../ui/user_info.glade.h:23
+msgid "Female"
+msgstr "མོ།"
+
+#: ../src/changeinfo.c:951
+#: ../src/changeinfo.c:956
+#: ../src/msg.c:287
+#: ../src/personal_info.c:289
+#: ../src/personal_info.c:294
+#: ../src/util.c:270
+#: ../src/util.c:327
+#: ../src/util.c:383
+#: ../src/util.c:447
+#: ../src/util.c:460
+#: ../src/util.c:493
+#: ../src/util.c:518
+#: ../src/util.c:754
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../src/changenick.c:43
+msgid "Rename User"
+msgstr "ལག་ལེན་པའི་བསྐྱར་མིང་བཏགས།"
+
+#: ../src/changenick.c:47
+#: ../src/group_popup.c:102
+msgid "_Rename"
+msgstr "བསྐྱར་མིང་བཏགས།(_R)"
+
+#: ../src/changenick.c:57
+#, c-format
+msgid "_Enter a new nickname for %s (%s):"
+msgstr "དོན་ལུ་སྐྱོན་མིང་གསརཔ་ཅིག་བཙུགས།(_E) %s (%s):"
+
+#: ../src/changenick.c:97
+#: ../src/group_popup.c:150
+msgid "You can not change a nickname while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་སྐྱོན་མིང་བསྒྱུར་བཅོས་འབད་མི་བཏུབ།"
+
+#: ../src/cl_migrate.c:39
+msgid ""
+"Starting with ICQ protocol version 8. ICQ server now supports server side contacts list.\n"
+"\n"
+"GnomeICU is about to send your contacts list to the server."
+msgstr ""
+"ཨའི་སི་ཀིའུ་གནད་སྤེལ་ལམ་ལུགས་ཐོན་རིམ་༨.ཨའི་སི་ཀིའུ་སར་བར་གྱིས་འགོ་བཙུགས་མི་གིས་ད་ལྟོ་སར་བར་ས་ཁོངས་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།\n"
+"\n"
+"ཇི་ནོམ་ཨའི་སི་ཡུ་འདི་གིས་ཁྱོད་ཀྱི་འབྲེལ་འཐབ་སའི་ཐོ་ཡིག་འདི་སར་བར་འདི་ལུ་གཏང་ནི་འབདཝ་ཅིན་ཨིན།"
+
+#: ../src/cl_migrate.c:43
+msgid ""
+"Starting with ICQ protocol version 8. ICQ server now supports server side contacts list.\n"
+"\n"
+"GnomeICU is about to send your contacts list to the server.\n"
+"\n"
+"\n"
+"\n"
+"Warning: you have an existing server contacts list, GnomeICU will add your local users to this list. This will likely create duplicate contacts."
+msgstr ""
+"ཨའི་སི་ཀིའུ་གནད་སྤེལ་ལམ་ལུགས་ཐོན་རིམ་༨.ཨའི་སི་ཀིའུ་དང་གཅིག་ཁར་འགོ་བཙུགས་མི་གིས་ད་ལྟོ་སར་བར་ས་ཁོངས་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་རྒྱབ་སྐྱོར་འབདཝ་ཨིན།\n"
+"\n"
+"ཇི་ནོམ་ཨའི་སི་ཡུ་འདི་གིས་ཁྱོདཀྱི་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་འདི་སར་བར་ལུ་གཏང་ནི་འབདཝ་ཅིན་ཨིན།\n"
+"\n"
+"\n"
+"\n"
+"ཉེན་བརྡ་ ཁྱོད་ལུ་ཡོད་བཞིན་པའི་སར་བར་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་ཅིག་ཡོདཔ་ལས་ ཇི་ནོམ་ཨའི་སི་ཡུ་གིས་ཁྱོད་ཀྱི་ཉེ་གནས་ལག་ལེན་པ་ཚུ་ཐོ་ཡིག་འདི་ལུ་ཁ་སྐོང་བརྐྱབ་འོང་། འདི་གིས་འབྲེལ་བ་འཐབ་ས་རྫུན་མ་བཟུམ་སྦེ་གསར་བསྐྲུན་འབད་འོང་།"
+
+#: ../src/cl_migrate.c:59
+msgid "You can not migrate your contact list while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ཁོད་རའི་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་གནས་སྤོ་མི་ཚུགས།"
+
+#: ../src/detach.c:97
+#, c-format
+msgid "%s status"
+msgstr "%s གནས་ཚད།"
+
+#: ../src/dirbrowser.c:280
+msgid "Ok"
+msgstr "བཏུབ།"
+
+#: ../src/dirbrowser.c:288
+#: ../src/filexferdlg.c:254
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་།"
+
+#: ../src/events.c:222
+#: ../src/personal_info.c:190
+#: ../src/personal_info.c:191
+msgid "N/A"
+msgstr "ཨེན་/ཨེ།"
+
+#. </kludge>
+#: ../src/filexfer.c:547
+#, c-format
+msgid ""
+"File transfer:\n"
+"Completed transfer of %s from %s."
+msgstr ""
+"ཡིག་སྣོད་གནས་སོར\n"
+"གི་མཇུག་བསྡུ་ཡོད་མི་གནས་སོར %s ལས %s."
+
+#: ../src/filexfer.c:554
+#, c-format
+msgid ""
+"File transfer:\n"
+"Completed transfer of %s to %s."
+msgstr ""
+"ཡིག་སྣོད་གནས་སོར།\n"
+"གི་གནས་སོར་མཇུག་བསྡུ་ཡོདཔ %s ལུ %s."
+
+#: ../src/filexfer.c:558
+#, c-format
+msgid "File transfer completed: %s"
+msgstr "ཡིག་སྣོད་གནས་སོར་འབད་ནི་མཇུག་བསྡུ་ཡོདཔ། %s"
+
+#: ../src/filexfer.c:566
+#, c-format
+msgid "File transfer refused: %s"
+msgstr "ཡིག་སྣོད་གནས་སོར་འབད་ནི་ངོས་ལེན་མ་འབད་བར་ཡོདཔ། %s"
+
+#: ../src/filexfer.c:571
+#, c-format
+msgid "File transfer terminated: %s"
+msgstr "ཡིག་སྣོད་གནས་སོར་འབད་ནི་རྩ་གྲོལ་གཏང་ཡོདཔ། %s"
+
+#: ../src/filexferdlg.c:42
+#: ../src/filexferdlg.c:390
+msgid "File Transfer"
+msgstr "ཡིག་སྣོད་གནས་སོར།"
+
+#: ../src/filexferdlg.c:50
+msgid "Current File:"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད།"
+
+#: ../src/filexferdlg.c:74
+msgid "Local File Name:"
+msgstr "ཉེ་གནས་ཡིག་སྣོད་མིང་།"
+
+#: ../src/filexferdlg.c:88
+msgid "Current File"
+msgstr "ད་ལྟོའི་ཡིག་སྣོད།"
+
+#: ../src/filexferdlg.c:99
+#: ../src/filexferdlg.c:182
+#: ../src/gtkfunc.c:283
+msgid "Size:"
+msgstr "ཚད།"
+
+#: ../src/filexferdlg.c:117
+#: ../src/filexferdlg.c:200
+msgid "Completed:"
+msgstr "མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../src/filexferdlg.c:132
+#: ../src/filexferdlg.c:215
+msgid "Time Left:"
+msgstr "དུས་ཚོད་ལུས་མི།"
+
+#: ../src/filexferdlg.c:147
+#: ../src/filexferdlg.c:230
+msgid "Speed:"
+msgstr "མགྱོགས་ཚད།"
+
+#: ../src/filexferdlg.c:171
+msgid "Batch"
+msgstr "རུ་ཚན།"
+
+#: ../src/filexferdlg.c:387
+msgid "Select destination folder"
+msgstr "འགྲོ་ཡུལ་སྣོད་འཛིན་སེལ་འཐུ་འབད།"
+
+#: ../src/flash.c:57
+msgid "GnomeICU: Msgs"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་འཕྲིན་དོན་ཚུ།"
+
+#: ../src/gnomeicu-client.c:83
+msgid "UIN must be a number.\n"
+msgstr "ཡུ་ཨའི་ཨེན་འདི་ཨང་ཨིནམ་འོང་།\n"
+
+#: ../src/gnomeicu-client.c:88
+msgid "Unable to connect to running GnomeICU client.\n"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཞབས་ཏོག་སྤྱོད་མི་གཡོག་བཀོལ་མི་ལུ་མཐུད་ལམ་མཐུད་མི་ཚུགསཔ།\n"
+
+#: ../src/gnomeicu-client.c:169
+msgid ""
+"Usage: gnomeicu-client [-u YourUIN] command [DestinationUIN] [Data]\n"
+"\n"
+msgstr ""
+"བེད་སྤྱོད་ ཇི་ནོམ་ཨའི་སི་ཡུ་ཞབས་ཏོག་སྤྱོད་མི་ [-u YourUIN] བརྡ་བཀོད་ [DestinationUIN] [Data]\n"
+"\n"
+
+#: ../src/gnomeicu-client.c:170
+msgid "Commands are as follows:\n"
+msgstr "བརྡ་བཀོད་ཚུ་འོག་གི་བཟུམ་ཨིན།\n"
+
+#: ../src/gnomeicu-client.c:171
+msgid "show all contact list entries"
+msgstr "འབྲེལ་བའི་ཐོ་ཡིག་ཐོ་བཀོད་ཚུ་ཆ་མཉམ་སྟོན།"
+
+#: ../src/gnomeicu-client.c:172
+msgid "show online contact list entries"
+msgstr "གློག་ཐོག་ལུ་འབྲེལ་བའི་ཐོ་ཡིག་ཐོ་བཀོད་ཚུ་ཆ་མཉམ་སྟོན།"
+
+#: ../src/gnomeicu-client.c:173
+msgid "show number of incoming messages"
+msgstr "ནང་འབྱོར་འཕྲིན་དོན་ཚུའི་ཨང་སྟོན།"
+
+#: ../src/gnomeicu-client.c:174
+msgid "what IcuKrell ask GnomeICU"
+msgstr "ཨའི་སི་ཡུ་ཀེརལ་ལེལ་གྱིས་ཇི་ནོམ་ཨའི་སི་ཡུ་ལུ་ག་ཅི་དྲི་ཡི།"
+
+#: ../src/gnomeicu-client.c:175
+msgid "read message"
+msgstr "འཕྲིན་དོན་ལྷག"
+
+#: ../src/gnomeicu-client.c:176
+msgid "get GnomeICU status"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་གནས་ཚད་ལེན།"
+
+#: ../src/gnomeicu-client.c:177
+msgid "close GnomeICU"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཁ་བསྡམ།"
+
+#: ../src/gnomeicu-client.c:178
+msgid "hide GnomeICU main window"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་གཙོ་བོ་སྦ།"
+
+#: ../src/gnomeicu-client.c:179
+msgid "show GnomeICU main window"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་གཙོ་བོ་སྟོན།"
+
+#: ../src/gnomeicu-client.c:180
+msgid "show|hide GnomeICU main window"
+msgstr "སྦ་ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་གཙོ་བོ་སྟོན།"
+
+#: ../src/gnomeicu-client.c:181
+msgid "popup GnomeICU useradd dialog"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་ལག་ལེན་པ་ཁ་སྐོང་ཌའི་ལོག"
+
+#: ../src/gnomeicu-client.c:182
+msgid "popup GnomeICU preferences dialog"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་དགའ་གདམ་ཚའི་ཌའི་ལོག"
+
+#: ../src/gnomeicu-client.c:183
+msgid "popup GnomeICU user info dialog"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་ལག་ལེན་པའི་བརྡ་དོན་ཌའི་ལོག"
+
+#: ../src/gnomeicu-client.c:184
+msgid "popup GnomeICU ignore list"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་སྣང་མེད་ཐོ་ཡིག"
+
+#: ../src/gnomeicu-client.c:185
+msgid "popup GnomeICU visible list"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་མཐོང་ཚུགས་པའི་ཐོ་ཡིག"
+
+#: ../src/gnomeicu-client.c:186
+msgid "popup GnomeICU invisible list"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་མཐོང་མ་ཚུགས་པའི་ཐོ་ཡིག"
+
+#: ../src/gnomeicu-client.c:187
+msgid "popup GnomeICU notify list"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་བརྡ་བསྐུལ་ཐོ་ཡིག"
+
+#: ../src/gnomeicu-client.c:188
+msgid "set away message"
+msgstr "ཕྱི་ཁ་གཞི་སྒྲིག་འཕྲིན་དོན།"
+
+#: ../src/gnomeicu-client.c:189
+msgid "add user with UIN to the list"
+msgstr "ཐོ་ཡིག་འདི་ལུ་ལག་ལེན་པ་དང་གཅིག་ཁར་ཡུ་ཨའི་ཨེན་ཁ་སྐོང་བརྐྱབ།"
+
+#. onlinelist
+#: ../src/gnomeicu-client.c:191
+msgid "send message to UIN"
+msgstr "ཡུ་ཨའི་ཨེན་ལུ་འཕྲིན་དོན་གཏང་།"
+
+#: ../src/gnomeicu-client.c:193
+msgid "set status: online offline away na invisible freechat occupied dnd"
+msgstr "གནས་ཚད་ གློག་ཐོག་ལུ་་གློག་ཐོག་མེདཔ་ ཕྱི་ཁ་དང་མཐོང་མ་ཚུགས་པའི་རང་དབང་ཁ་སླབ་ དལ་ཁོམ་མེདཔ་ཌི་ཨེན་ཌི་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gnomeicu-client.c:195
+msgid "set status without asking the reason: online offline away na invisible freechat occupied dnd"
+msgstr "གནས་ཚད་རྒྱུ་མཚན་དྲི་བ་མེདཔ་སྦེ་ གློག་ཐོག་ལུ་ གློག་ཐོག་མེདཔ་ ཕྱི་ཁ་ ཨེན་ཨེ་ མཐོང་མ་ཚུགས་པའི་རང་དབང་ཁ་སླབ་དལ་ཁོམ་མེདཔ་ཌི་ཨེན་ཌི་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gnomeicu-client.c:196
+msgid "popup GnomeICU current event window"
+msgstr "པོཔ་ཨཔ་ཇི་ནོམ་ཨའི་སི་ཡུ་ད་ལྟོའི་འབྱུང་ལས་ཝིནཌོ།"
+
+#: ../src/gnomeicu.c:155
+#, c-format
+msgid "Cannot listen to socket, port %u\n"
+msgstr "སོ་ཀེཊི་ འདྲེན་ལམ་ལུ་ཉན་མི་ཚུགས་པས་ %u\n"
+
+#: ../src/gnomeicu.c:460
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "ནུས་མེད་ཐིག་རྩིས་ཡིག་རྒྱུན།\"%s\"\n"
+
+#: ../src/gnomeicu.c:530
+#: ../src/gnomeicu.c:568
+msgid "Set IP address to send to ICQ"
+msgstr "ཨའི་པི་ཁ་བྱང་ཨའི་སི་ཀིའུ་ལུ་གཏང་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../src/gnomeicu.c:531
+msgid "<IP>"
+msgstr "<IP>"
+
+#: ../src/gnomeicu.c:538
+#: ../src/gnomeicu.c:576
+msgid "Initial status"
+msgstr "འགོ་འབྱེད་འབད་ནི་གནས་ཚད།"
+
+#: ../src/gnomeicu.c:539
+msgid "<STATUS>"
+msgstr "<གནས་ཚད།>"
+
+#: ../src/gnomeicu.c:546
+#: ../src/gnomeicu.c:584
+msgid "X geometry specification (see \"X\" man page)"
+msgstr "ཨེགསི་ཐིག་རྩིས་གསལ་བཀོད་ (མའན་ཤོག་ལེབ་ \"X\"བལྟ )"
+
+#: ../src/gnomeicu.c:547
+msgid "<WIDTH>x<HEIGHT>+<X>+<Y>"
+msgstr "<རྒྱ་ཚད་>x<མཐོ་ཚད་>+<ཨེགསི་>+<ཝའི།>"
+
+#: ../src/gnomeicu.c:554
+#: ../src/gnomeicu.c:592
+msgid "Hide the GnomeICU main window upon startup"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཝིནཌོ་གཙོ་བོ་འགོ་བཙུགས་འདི་སྦ་བཞག"
+
+#: ../src/gnomeicu.c:569
+msgid "IP"
+msgstr "ཨའི་པི།"
+
+#: ../src/gnomeicu.c:577
+msgid "STATUS"
+msgstr "གནས་ཚད།"
+
+#: ../src/gnomeicu.c:585
+msgid "WIDTHxHEIGHT+X+Y"
+msgstr "རྒྱ་ཚད་xམཐོ་ཚད་+ཨེགསི་+ཝའི།"
+
+#: ../src/gnomeicu.c:821
+msgid "GnomeICU is a small, fast and functional clone of Mirabilis' ICQ program, specifically designed for GNOME."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་འདི་ཇི་ནོམ་གྱི་དོན་ལུ་གསལ་བཀོད་སྦེ་བཀོད་སྒྲིག་འབད་ཡོད་མི་མི་ར་བི་ལིསི་ ཨའི་སི་ཀིའུ་ལས་རིམ་གྱི་ལས་འགན་ངོ་འདྲ་དང་མགྱོགས་དྲག་ཐུང་ཀུ་ཅིག་ཅིག་ཨིན།"
+
+#: ../src/gnomeicu.c:826
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "ལས་རིམ་འདི་མཉེན་ཆས་རང་དབང་ཨིནམ་ལས་ཁྱོད་ཀྱིས་འདི་ལོག་བགོ་བཀྲམ་བཏུབ་དང་/མཉེན་ཆས་རང་དབང་གཞི་ཚོགས་ འབད་རུང་ཆོག་ཐམ་འདིའི་ཐོན་རིམ་༢་ ཡང་ན་(ཁྱོད་རའི་གདམ་ཁ་ལུ་)ཤུལ་མམ་གྱི་ཐོན་རིམ་གང་རུང་གིས་དཔེ་བསྐྲུན་འབད་ཡོད་མི་བཟུམ་ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་གི་ཆོག་ཐམ་གྱི་དོན་ཚིག་འདིའི་འོག་ལུ་ལེགས་བཅོས་འབད་བཏུབ་ཨིན།"
+
+#: ../src/group_popup.c:41
+msgid "Re_name Group..."
+msgstr "སྡེ་ཚན་བསྐྱར་མིང་བཏགས།(_n)་་་"
+
+#: ../src/group_popup.c:50
+msgid "Re_move Group"
+msgstr "སྡེ་ཚན་རྩ་བསྐྲད་གཏང་།(_m)"
+
+#: ../src/group_popup.c:98
+msgid "Rename Group"
+msgstr "སྡེ་ཚན་བསྐྱར་མིང་བཏགས།"
+
+#: ../src/group_popup.c:112
+#, c-format
+msgid "_Enter a new name for for group %s:"
+msgstr "སྡེ་ཚན་དོན་ལུ་དོན་ལུ་མིང་གསརཔ་ཅིག་བཙུགས།(_E) %s:"
+
+#: ../src/groups.c:96
+msgid "ERROR"
+msgstr "འཛོལ་བ།"
+
+#: ../src/grpmgr.c:165
+msgid "You can not create a group while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་སྡེ་ཚན་གསར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../src/grpmgr.c:221
+msgid "Cannot delete the last remaining group."
+msgstr "མཇུག་ལུས་མི་སྡེ་ཚན་འདི་བཏོན་གཏང་མི་ཚུགས།"
+
+#: ../src/grpmgr.c:234
+msgid "Cannot delete non-empty group."
+msgstr "སྡེ་ཚན་སྟོངམ་མེདན་མི་བཏོན་གཏང་མི་ཚུགས།"
+
+#: ../src/grpmgr.c:241
+msgid "You can not remove a group while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་སྡེ་ཚན་ཅིག་རྩ་བསྐྲད་གཏང་མི་ཚུགས།"
+
+#: ../src/grpmgr.c:278
+#: ../src/grpmgr.c:366
+msgid "You can not rename a group while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་སྡེ་ཚན་བསྐྱར་མིང་བཏགས་མི་ཚུགས།"
+
+#: ../src/gtkfunc.c:85
+#, c-format
+msgid "%s has added you to her list"
+msgstr "%s གིས་ཁྱོད་མོ་གི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:90
+#, c-format
+msgid "%s has added you to his list"
+msgstr "%s གིས་ཁྱོད་ཁོ་གི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:94
+#, c-format
+msgid "%s has added you to his/her list"
+msgstr "%s གིས་ཁྱོད་ཁོ་/མོ་གི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:104
+msgid "Add User"
+msgstr "ལག་ལེན་པ་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../src/gtkfunc.c:119
+msgid "Pick a Group"
+msgstr "སྡེ་ཚན་ཅིག་འཐུ།"
+
+#: ../src/gtkfunc.c:134
+msgid "Pick a group for this user:"
+msgstr "ལག་ལེན་པའི་འདིའི་དོན་ལུ་སྡེ་ཚན་ཅིག་འཐུ།"
+
+#: ../src/gtkfunc.c:188
+#, c-format
+msgid "You are authorized to add %s to your list"
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ནིའི་ %s དབང་སྤྲོད་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:194
+#, c-format
+msgid "You are NOT authorized to add %s to your list"
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ནིའི་ %s དབང་སྤྲོད་མེདཔ།"
+
+#: ../src/gtkfunc.c:247
+msgid "File transfer timed out."
+msgstr "ཡིག་སྣོད་གནས་སོར་འབད་ནི་དུས་སྒྲིགས་ཕྱི་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:254
+msgid "File Offer"
+msgstr "ཡིག་སྣོད་འབུལ་བ།"
+
+#: ../src/gtkfunc.c:272
+#, c-format
+msgid "Accept file from %s?\n"
+msgstr "ལས་ཡིག་སྣོད་དང་ལེན་འབད། %s?\n"
+
+#: ../src/gtkfunc.c:291
+msgid "Name:"
+msgstr "མིང་།"
+
+#: ../src/gtkfunc.c:305
+msgid ""
+"\n"
+"Reason:"
+msgstr ""
+"\n"
+"རྒྱུ་མཚན།"
+
+#: ../src/gtkfunc.c:390
+#, c-format
+msgid "Received URL from %s:"
+msgstr "ལས་ཡུ་ཨར་ཨེལ་ཐོབ་ཡོདཔ། %s:"
+
+#: ../src/gtkfunc.c:392
+msgid "Received URL"
+msgstr "ཐོབ་ཡོད་མི་ཡུ་ཨར་ཨེལ།"
+
+#: ../src/gtkfunc.c:446
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ།"
+
+#: ../src/gtkfunc.c:454
+msgid "Description:"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../src/gtkfunc.c:562
+msgid "Send URL"
+msgstr "ཡུ་ཨར་ཨེལ་གཏང་།"
+
+#: ../src/gtkfunc.c:576
+#, c-format
+msgid "Send URL to: %s"
+msgstr "ལུ་ཡུ་ཨར་ཨེལ་གཏང་།: %s"
+
+#: ../src/gtkfunc.c:590
+msgid "_URL:"
+msgstr "ཡུ་ཨར་ཨེལ།(_U)"
+
+#: ../src/gtkfunc.c:598
+msgid "_Description:"
+msgstr "འགྲེལ་བཤད།(_D)"
+
+#: ../src/gtkfunc.c:632
+#: ../src/sendcontact.c:30
+#: ../ui/message.glade.h:6
+msgid "_Send"
+msgstr "གཏང་།(_S)"
+
+#: ../src/gtkfunc.c:1023
+#: ../src/tray.c:209
+msgid "Free for Chat"
+msgstr "ཁ་སླབ་ནི་དོན་ལུ་རང་དབང་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:1099
+msgid "You can not answer a authorization request while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་དབང་སྤྲོད་ཞུ་བ་ཅིག་ལན་བརྐྱབ་མི་བཏུབ་ཨིན།"
+
+#: ../src/gtkfunc.c:1123
+msgid "You can not send an URL while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཡུ་ཨར་ཨེལ་ཅིག་གཏང་མི་བཏུབ་ཨིན།"
+
+#: ../src/gtkfunc.c:1153
+msgid "Received Files"
+msgstr "ཐོབ་ཡོད་མི་ཡིག་སྣོད་ཚུ།"
+
+#: ../src/gtkfunc.c:1166
+msgid "The following files have been successfully retrieved."
+msgstr "འོག་གི་ཡིག་སྣོད་ཚུ་མཐར་འཁྱོལཝ་སྦེ་སླར་འདྲེན་འབད་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:1185
+msgid "Open File"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ།"
+
+#: ../src/gtkfunc.c:1189
+msgid "Delete"
+msgstr "བཏོན་གཏང་།"
+
+#: ../src/gtkfunc.c:1271
+msgid "DELETED"
+msgstr "བཏོན་གཏང་ཡོདཔ།"
+
+#: ../src/gtkfunc.c:1351
+msgid "GnomeICU Error"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་འཛོལ་བ།"
+
+#: ../src/history.c:105
+#: ../src/history.c:150
+#: ../src/history.c:485
+#, c-format
+msgid "%c"
+msgstr "%c"
+
+#: ../src/history.c:110
+#: ../src/history.c:153
+msgid "Received"
+msgstr "ཐོབ་ཡོད་མི།"
+
+#: ../src/history.c:110
+#: ../src/history.c:153
+msgid "Sent"
+msgstr "བཏང་ཡོད།"
+
+#: ../src/history.c:263
+msgid "No message history available."
+msgstr "འཕྲིན་དོན་ལོ་རྒྱས་ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../src/history.c:278
+#, c-format
+msgid "Message History: %s"
+msgstr "འཕྲིན་དོན་ལོ་རྒྱུས། %s"
+
+#: ../src/history.c:351
+msgid "Clear all stored history?"
+msgstr "གསོག་འཇོད་འབད་ཡོད་མི་ལོ་རྒྱུས་ཆ་མཉམ་བསལ་ནི་ཨིན་ན?"
+
+#: ../src/history.c:428
+msgid "No more occurrences found."
+msgstr "འབྱུང་བ་ཚུ་ཧེང་བཀལ་འཚོལ་མ་ཐོབ།"
+
+#: ../src/history.c:491
+msgid "Received at"
+msgstr "ལུ་ཐོབ་ཡོདཔ།"
+
+#: ../src/history.c:491
+msgid "Sent at"
+msgstr "ལུ་བཏང་ཡོད།"
+
+#: ../src/history.c:532
+msgid "Your history is now being converted to the new format, this will happen only once."
+msgstr "ཁྱོད་ཀྱི་ལོ་རྒྱུས་འདི་ད་ལྟོ་རྩ་སྒྲིག་གསརཔ་ཡོད་མི་ འདི་ཡང་ཚར་གཅིག་རྐྱངམ་ཅིག་འབྱུང་མི་ལུ་གཞི་བསྒྱུར་འབད་ཡོདཔ་ཨིན།"
+
+#: ../src/ignore.c:47
+msgid "Ignore List"
+msgstr "ཐོ་ཡིག་སྣང་མེད་བཞག"
+
+#: ../src/ignore.c:48
+msgid ""
+"Drag the users you wish to add to your\n"
+"ignore list into this window.\n"
+msgstr ""
+"ལག་ལེན་པ་ཚུ་ཁྱོད་ཀྱི་སྣང་མེད་ཐོ་ཡིག་ལུ་་ཁ་སྐོང་འབད་དགོ་མནོ་མི་\n"
+"ཝིནཌོ་ནང་ན་འདྲུད་འབག\n"
+
+#: ../src/invisible.c:44
+msgid "Invisible List"
+msgstr "མཐོང་མ་ཚུགས་པའི་ཐོ་ཡིག"
+
+#: ../src/invisible.c:45
+msgid ""
+"Drag the users you wish to add to your\n"
+"invisible list into this window\n"
+msgstr ""
+"ལག་ལེན་པ་ཚུ་ཁྱོད་ཀྱི་མཐོང་མ་ཚུགས་པའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ནི་མནོ་མི་\n"
+"ཝིནཌོ་ནང་ན་འདྲུད་འབག\n"
+
+#: ../src/listwindow.c:261
+#: ../src/search.c:148
+msgid "UIN"
+msgstr "ཡུ་ཨའི་ཨེན།"
+
+#. create the nickname column
+#: ../src/listwindow.c:268
+#: ../src/search.c:155
+#: ../ui/message.glade.h:3
+msgid "Nickname"
+msgstr "སྐྱོན་མིང་།"
+
+#: ../src/listwindow.c:440
+#: ../src/listwindow.c:509
+msgid "You can not request user information while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ལག་ལེན་པའི་བརྡ་དོན་ཞུ་བ་འབད་མི་ཚུགས།"
+
+#: ../src/msg.c:273
+#, c-format
+msgid "%X"
+msgstr "%X"
+
+#: ../src/msg.c:547
+msgid "You can not send messages while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་འཕྲིན་དོན་གཏང་མི་ཚུགས།"
+
+#: ../src/msg.c:582
+msgid "You can not send messages over 450 characters to offline contacts. Your message was not sent."
+msgstr "ཁྱོད་ཀྱིས་གློག་མེད་ཐོག་ལུའི་འབྲེལ་བ་འཐབ་ནི་ཚུ་ལུ་ཡིག་འབྲུ་༤༥༠་ལས་ལྷག་པའི་འཕྲིན་དོན་ཚུ་གཏང་མི་ཚུགས། ཁྱོད་ཀྱི་འཕྲིན་དོན་དེ་མ་གཏང་པར་ཡོདཔ།"
+
+#: ../src/notify.c:40
+msgid "Online Notify List"
+msgstr "གློག་ཐོག་བརྡ་བསྐུལ་ཐོ་ཡིག"
+
+#: ../src/notify.c:41
+msgid ""
+"Drag the users you wish to add to your\n"
+"notify list into this window"
+msgstr ""
+"ལག་ལེན་པ་ཚུ་ཁྱོད་ཀྱི་བརྡ་བསྐུལ་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ནི་\n"
+"མནོ་མི་ཝིནཌོ་འདི་ནང་ན་འདྲུད་འབག"
+
+#: ../src/personal_info.c:83
+msgid "E-mail"
+msgstr "གློག་འཕྲིན།"
+
+#: ../src/personal_info.c:95
+#: ../ui/user_info.glade.h:33
+msgid "Interests"
+msgstr "དང་འདོད་ཚུ།"
+
+#: ../src/personal_info.c:100
+#: ../src/personal_info.c:115
+#: ../src/personal_info.c:130
+msgid "Desc."
+msgstr "མར་འབབ་"
+
+#: ../src/personal_info.c:110
+#: ../src/personal_info.c:125
+msgid "Affiliation"
+msgstr "འབྲེལ་གཏོགས།"
+
+#: ../src/personal_info.c:172
+#, c-format
+msgid "User Info for %s"
+msgstr "དོན་ལུ་ལག་ལེན་པའི་བརྡ་དོན། %s"
+
+#: ../src/personal_info.c:253
+#, c-format
+msgid "%d minutes"
+msgstr "%d སྐར་མ་ཚུ།"
+
+#: ../src/personal_info.c:255
+#, c-format
+msgid "%d hours %d minutes"
+msgstr "%d ཆུ་ཚོད་ཚུ་ %d སྐར་མ་ཚུ།"
+
+#: ../src/personal_info.c:259
+#, c-format
+msgid "%d days %d hours %d minutes"
+msgstr "%d ཉིནམ་ཚུ་ %d ཆུ་ཚོད་ཚུ་ %d སྐར་མ་ཚུ།"
+
+#: ../src/personal_info.c:280
+msgid "Never"
+msgstr "ནམ་ཡང་།"
+
+#: ../src/personal_info.c:282
+msgid "Now"
+msgstr "ད་ལྟོ།"
+
+#: ../src/personal_info.c:312
+msgid "Required"
+msgstr "དགོས་མཁོ་ཡོདཔ།"
+
+#: ../src/personal_info.c:314
+msgid "Not required"
+msgstr "དགོས་མཁོ་མེདཔ།"
+
+#: ../src/personal_info.c:516
+msgid "You can not update user information while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་འོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ལག་ལེན་པའི་བརྡ་དོན་དུས་མཐུན་བཟོ་མི་ཚུགས།"
+
+#: ../src/prefs.c:124
+msgid "ICQ"
+msgstr "ཨའི་སི་ཀིའུ།"
+
+#: ../src/prefs.c:159
+#, c-format
+msgid ""
+"You have reached this dialog because we detected you do not have a proper configuration key installed for GnomeICU. The possible cause is that you forgot to install the configuration keys from gnomeicu.schemas. Please contact your package maintainer about that, or you can contact us directly at gnomeicu-support@lists.sourceforge.net\n"
+"\n"
+"The configuration key in question is: %s\n"
+"\n"
+"The program will now close..."
+msgstr ""
+"ཁྱོད་ཌའི་ལོག་འདི་ཁར་ལྷོད་མི་དེ་ང་བཅས་ཀྱིས་ཁྱོད་ཇི་ནོམ་ཨའི་སི་ཡུ་དོན་ལུ་ཚུལ་ལྡན་རིམ་སྒྲིག་ལྡེ་མིག་ཅིག་གཞི་བཙུགས་མེདཔ་ལས་སྐྱོན་འཛིན་འབད་ཡོདཔ་ཨིན། སྲིད་པའི་རྒྱ་རྐྱེན་དེ་ཡང་་ཁྱོད་ཀྱིས་ཇི་ནོམ་ཨའི་སི་ཡུ་.ལས་འཆར་ཚུ་ལས་རིམ་སྒྲིག་ལྡེ་མིག་ཚུ་གཞི་བཙུགས་འབད་ནི་བརྗེད་ཡོདཔ་ཨིན་མས། དེའི་སྐོར་ལས་ཁྱོད་རའི་ཐུམ་སྒྲིལ་རྒྱུན་སྐྱོང་པ་ལུ་འབྲེལ་བ་འཐབ་ཡང་ན་ ཁྱོད་རང་ང་བཕཅས་ལུ་ཐད་ཀར་དུ་ gnomeicu-support@lists.sourceforge.netའབྲེལ་བ་འཐབ་གནང་།\n"
+"\n"
+"དྲི་བ་ནང་རིམ་སྒྲིག་ལྡེ་མིག་འདི་ %s\n"
+"\n"
+"ལས་རིམ་འདི་ཁ་བསྡམ་འོང་།་་་"
+
+#: ../src/prefs_ui.c:201
+#, c-format
+msgid "%s is not a valid character set for conversion to and from UTF-8 so it was reset with your previous setting"
+msgstr "%s འདི་ཁྱོད་ཀྱི་ཧེ་མམ་གྱི་སྒྲིག་སྟངས་དང་གཅིག་ཁར་སླར་སྒྲིག་འབད་ཡོད་མི་ ཡུ་ཊི་ཨེཕ་-༨་ དང་གཞི་བསྒྱུར་དོན་ལུ་ཡིག་འབྲུ་གཞི་སྒྲིག་ནུས་ཅན་ཅིག་མེན།"
+
+#: ../src/prefs_ui.c:251
+msgid "Theme"
+msgstr "བརྡཇོད་དོན།"
+
+#: ../src/prefs_ui.c:417
+msgid "Receive message"
+msgstr "འཕྲིན་དོན་ལེན།"
+
+#: ../src/prefs_ui.c:418
+msgid "Receive URL"
+msgstr "ཡུ་ཨར་ཨེལ་ལེན།"
+
+#: ../src/prefs_ui.c:419
+msgid "File request"
+msgstr "ཡིག་སྣོད་ཞུ་བ།"
+
+#: ../src/prefs_ui.c:420
+msgid "User online"
+msgstr "ལག་ལེན་པའི་གློག་ཐོག་ལུ་ཡོདཔ།"
+
+#: ../src/prefs_ui.c:421
+msgid "User offline"
+msgstr "ལག་ལེན་པ་གློག་ཐོག་མེདཔ།"
+
+#: ../src/prefs_ui.c:422
+msgid "Authorized/Rejected by user"
+msgstr "དབང་སྤྲོད་ཡོདཔ་/ལག་ལེན་པ་གིས་དང་ལེན་སྤངས་ཡོདཔ།"
+
+#: ../src/prefs_ui.c:423
+msgid "Authorization request"
+msgstr "དབང་སྤྲོད་ཞུ་བ།"
+
+#: ../src/prefs_ui.c:424
+msgid "Added to user's list"
+msgstr "ལག་ལེན་པའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་འབད་ཡོདཔ།"
+
+#: ../src/prefs_ui.c:425
+msgid "Contact list received"
+msgstr "འབྲེལ་བ་འཐབ་ནིའི་ཐོ་ཡིག་ཐོབ་ཡོདཔ།"
+
+#: ../src/prefs_ui.c:453
+msgid "Event"
+msgstr "འབྱུང་ལས།"
+
+#: ../src/prefs_ui.c:460
+msgid "Program to Execute"
+msgstr "ལག་ལེན་ཐབ་ནི་ལས་རིམ།"
+
+#: ../src/response.c:81
+#, c-format
+msgid "%s is online"
+msgstr "%s འདི་གློག་ཐོག་ལུ་ཡོདཔ།"
+
+#: ../src/response.c:367
+#, c-format
+msgid ""
+"User asked for authorization:\n"
+"%s"
+msgstr ""
+"ལག་ལེན་པ་གིས་དབང་སྤྲོད་ནི་དོན་ལུ་དྲི་ཡོདཔ།\n"
+"%s"
+
+#: ../src/response.c:409
+#, c-format
+msgid "User %s is Away:"
+msgstr "ལག་ལེན་པ་འདི་ %s ཕྱི་ཁ་ཨིན།"
+
+#: ../src/response.c:412
+#, c-format
+msgid "User %s is Not Available:"
+msgstr "ལག་ལེན་པ་འདི་ %s ཐོབ་མ་ཚུགསཔ།"
+
+#: ../src/response.c:415
+#, c-format
+msgid "User %s cannot be disturbed:"
+msgstr "ལག་ལེན་པ་འདི་ %s དཀྲོགས་མིཚུགསཔ།"
+
+#: ../src/response.c:418
+#, c-format
+msgid "User %s is Occupied:"
+msgstr "ལག་ལེན་པ་འདི་ %s དལ་ཁོམ་མེདཔ།"
+
+#: ../src/response.c:421
+#, c-format
+msgid "User %s is Free for Chat:"
+msgstr "ལག་ལེན་པ་འདི་ %s ཁ་སླབ་ནི་དོན་ལུ་རང་དབང་ཡོདཔ།"
+
+#: ../src/response.c:424
+msgid "User is in an unknown mode:"
+msgstr "ལག་ལེན་པ་འདི་མ་ཤེས་པའི་ཐབས་ལམ་ཅིག་ནང་ཨིན།"
+
+#: ../src/response.c:427
+#, c-format
+msgid "Away Message: %s"
+msgstr "ཕྱི་ཁའི་འཕྲིན་དོན། %s"
+
+#: ../src/response.c:448
+msgid "Away Message"
+msgstr "ཕྱི་ཁའི་འཕྲིན་དོན།"
+
+#: ../src/response.c:569
+#, c-format
+msgid "%s (%s) has granted you authorization to add him to your contact list%s%s"
+msgstr "%s (%s) གིས་ཁོ་ཁྱོད་ཀྱིས་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ནིའི་དབང་སྤྲོད་བྱིན་ཡོདཔ།%s%s"
+
+#: ../src/response.c:574
+#, c-format
+msgid "%s (%s) has denied you authorization to add him to your contact list%s%s"
+msgstr "%s (%s) གིས་ཁོ་ཁྱོད་ཀྱི་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་ནིའི་དབང་སྤྲོད་ཉན་མ་བཏུབ་ཨིན་མས།%s%s"
+
+#: ../src/rtf-reader.c:663
+msgid "Claims to be unicode but is not, trying current locale instead\n"
+msgstr "ཡུ་ནི་ཀོཌི་སྦེ་ཐོབ་རྩིས་འབདཝ་ཨིན་རུང་མེན་ ཚབ་མ་ད་ལྟོའི་ཉེ་གནས་འབད་རྩོལ་བསྐྱེད་དོ།\n"
+
+#. create the first-name column
+#: ../src/search.c:162
+msgid "First Name"
+msgstr "མིང་དང་པམ།"
+
+#. create the last-name column
+#: ../src/search.c:169
+msgid "Last Name"
+msgstr "མཇུག་གི་མིང་།"
+
+#. create the e-mail column
+#: ../src/search.c:176
+msgid "E-Mail"
+msgstr "གློག་འཕྲིན།"
+
+#: ../src/search.c:232
+msgid "You can not search for people while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་མི་མང་གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་མ་ཚུགས།"
+
+#: ../src/search.c:309
+msgid "The selected user is already in your contact list."
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ལག་ལེན་པ་འདི་ཧེ་མ་ལས་ཁྱོད་ཀྱི་འབྲེལ་བ་འཐབ་ནི་ཐོ་ཡིག་ནང་ཡོདཔ།"
+
+#: ../src/search.c:397
+msgid "Search complete"
+msgstr "འཚོལ་ཞིབ་མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../src/search.c:401
+msgid "Too many matches"
+msgstr "མཐུན་སྒྲིག་གནམ་མེད་ས་མེད་ཡོདཔ།"
+
+#: ../src/search.c:405
+msgid "No matches found"
+msgstr "མཐུན་སྒྲིག་ཚུ་ཐོབ་ཚུགསཔ་མེད།"
+
+#: ../src/sendcontact.c:24
+#, c-format
+msgid ""
+"Drag the users you wish to send\n"
+"to %s to this window, and then click the\n"
+"\"Send\" button below."
+msgstr ""
+"ལག་ལེན་པ་ཚུ་ཁྱོད་ཀྱིས་གཏང་དགོ་མནོ་མི་\n"
+" %s ཝིནཌོ་འདི་ལུ་འདྲུད་འབད་  དང་དེ་ལས་འོག་གི་\n"
+"\"Send\" ཨེབ་རྟ་འདི་ཨེབ་གཏང་འབད།"
+
+#: ../src/sendcontact.c:29
+msgid "Send Contact List"
+msgstr "འབྲེལ་བ་འཐབ་ནི་ཐོ་ཡིག་གཏང་།"
+
+#: ../src/sendcontact.c:46
+#, c-format
+msgid ""
+"The following contact list was sent by %s.\n"
+"Please remove the users you don't want to add\n"
+" and then click the \"Add\" button below."
+msgstr ""
+"འོག་གི་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་འདི་ %sགིས་བཏང་ཡོདཔ།\n"
+"ཁྱོད་ཀྱིས་ཁ་སྐོང་བརྐྱབ་དགོ་མ་མནོ་མི་ལག་ལེན་པ་ཚུ་རྩ་བསྐྲད་གཏང་འབད་\n"
+" དེ་ལས་འོག་གི་ \"Add\" ཨེབ་རྟ་འདི་ཨེབ་གཏང་འབད།"
+
+#: ../src/sendcontact.c:50
+msgid "Received Contact List"
+msgstr "འབྲེལ་བ་འཐབ་ནི་ཐོ་ཡིག་ཐོབ་ཡོདཔ།"
+
+#: ../src/sendcontact.c:81
+msgid "Add to group"
+msgstr "སྡེ་ཚན་ལུ་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../src/sendcontact.c:86
+msgid "These contacts will be added to group:"
+msgstr "འབྲེལ་བ་འཐབ་ནི་དེ་ཚུ་སྡེ་ཚན་ལུ་ཁ་སྐོང་བརྐྱབས་འོང་།"
+
+#: ../src/sendcontact.c:145
+msgid "You can not send contacts while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་འབྲེལ་བ་འཐབ་ནི་ཚུ་གཏང་མི་ཚུགས།"
+
+#: ../src/showlist.c:403
+msgid "Waiting for authorization"
+msgstr "དབང་སྤྲོད་དོན་ལུ་བསྒུག་དོ།"
+
+#: ../src/showlist.c:405
+msgid "Not in list"
+msgstr "ཐོ་ཡིག་ནང་མེདཔ།"
+
+#: ../src/showlist.c:432
+msgid "Unknown Group Name"
+msgstr "སྡེ་ཚན་མིང་མ་ཤེསཔ།"
+
+#: ../src/tcp.c:1462
+#, c-format
+msgid "Unable to connect to %s."
+msgstr "ལུ་མཐུད་མ་ཚུགསཔ། %s."
+
+#: ../src/tray.c:94
+#, c-format
+msgid "Next message from %s"
+msgstr "ལས་ཤུལ་མམ་གྱི་འཕྲིན་དོན། %s"
+
+#: ../src/user_popup.c:65
+msgid "_Message..."
+msgstr "འཕྲིན་དོན།(_M)་་་"
+
+#: ../src/user_popup.c:74
+msgid "_URL..."
+msgstr "ཡུ་ཨར་ཨེལ།(_U)་་་"
+
+#: ../src/user_popup.c:82
+msgid "_Contact List..."
+msgstr "ཐབྲེལ་བ་འཐབ་ནི་ཐོ་ཡིག(_C)་་་"
+
+#: ../src/user_popup.c:93
+msgid "Send _File..."
+msgstr "ཡིག་སྣོད་གཏང་།(_F)་་་"
+
+#. user info
+#: ../src/user_popup.c:107
+#: ../ui/auth.glade.h:2
+msgid "User _Info"
+msgstr "ལག་ལེན་པའི་བརྡ་དོན།(_I)"
+
+#: ../src/user_popup.c:121
+msgid "_Read Away Message"
+msgstr "ཕྱི་ཁའི་འཕྲིན་དོན་ལྷག(_R)"
+
+#: ../src/user_popup.c:124
+msgid "_Read Not Available Message"
+msgstr "ཐོབ་མ་ཚུགས་པའི་འཕྲིན་དོན་ལྷག(_R)"
+
+#: ../src/user_popup.c:127
+msgid "_Read Occupied Message"
+msgstr "དལ་ཁོམ་མེད་པའི་འཕྲིན་དོན་ལྷག(_R)"
+
+#: ../src/user_popup.c:130
+msgid "_Read Do Not Disturb Message"
+msgstr "མ་དཀྲོགས་འཕྲིན་དོན་ལྷག(_R)"
+
+#: ../src/user_popup.c:133
+msgid "_Read Message for Unknown Status"
+msgstr "མ་ཤེས་པའི་གནས་ཚད་དོན་ལུ་འཕྲིན་དོན་ལྷག(_R)"
+
+#. history
+#: ../src/user_popup.c:146
+#: ../ui/message.glade.h:5
+msgid "_History"
+msgstr "ལོ་རྒྱུས།(_H)"
+
+#. On ignore list...
+#: ../src/user_popup.c:157
+msgid "On _Ignore List"
+msgstr "སྣང་མེད་ཐོ་ཡིག་གུ།(_I)"
+
+#. On visible list...
+#: ../src/user_popup.c:168
+msgid "On _Visible List"
+msgstr "མཐོང་ཚུགས་པའི་ཐོ་ཡིག་གུ།(_V)"
+
+#. On invisible list...
+#: ../src/user_popup.c:179
+msgid "On Invi_sible List"
+msgstr "མཐོང་མ་ཚུགས་པའི་ཐོ་ཡིག་གུ།(_s)"
+
+#. On online notify list...
+#: ../src/user_popup.c:190
+msgid "On _Notify List"
+msgstr "བརྡ་བསྐུལ་ཐོ་ཡིག་གུ།(_N)"
+
+#. End Lists Menu
+#: ../src/user_popup.c:201
+msgid "_Lists"
+msgstr "ཐོ་ཡིག་ཚུ།(_L)"
+
+#. Detach/Attach user
+#: ../src/user_popup.c:212
+msgid "Show _Shortcut"
+msgstr "མགྱོགས་ཐབས་སྟོན།(_S)"
+
+#: ../src/user_popup.c:250
+msgid "_Add to Group"
+msgstr "སྡེ་ཚན་ལུ་ཁ་སྐོང་བརྐྱབ།(_A)"
+
+#: ../src/user_popup.c:277
+msgid "_New Group..."
+msgstr "སྡེ་ཚན་གསརཔ།(_N)་་་"
+
+#: ../src/user_popup.c:282
+msgid "Change to _Group"
+msgstr "སྡེ་ཚན་ལུ་བསྒྱུར།(_G)"
+
+#: ../src/user_popup.c:298
+msgid "Re-request a_uthorization"
+msgstr "ཡང་བསྐྱར་ཞུ་བ་དབང་སྤྲོད།(_u)"
+
+#: ../src/user_popup.c:308
+msgid "Re_name User..."
+msgstr "ལག་ལེན་པ་བསྐྱར་མིང་བཏགས།(_n)་་་"
+
+#: ../src/user_popup.c:316
+msgid "Re_move User"
+msgstr "ལག་ལེན་པ་རྩ་བསྐྲད་གཏང་།(_m)"
+
+#: ../src/user_popup.c:429
+#, c-format
+msgid "Send File to %s:"
+msgstr "ལུ་ཡིག་སྣོད་གཏང་། %s:"
+
+#: ../src/user_popup.c:545
+msgid "You can not retrieve away messages while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ཕྱི་ཁའི་འཕྲིན་དོན་ཚུ་སླར་འདྲེན་འབད་མི་ཚུགས།"
+
+#: ../src/user_popup.c:571
+msgid "You can not add a user to a list while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ལག་ལེན་པ་ཅིག་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་མི་ཚུགས།"
+
+#: ../src/user_popup.c:589
+msgid "You can not authorize a contact while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་འཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་འབྲེལ་བ་འཐབ་ནི་ཅིག་དབང་སྤྲོད་མི་ཚུགས།"
+
+#: ../src/user_popup.c:622
+msgid "_Remove"
+msgstr "རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: ../src/user_popup.c:642
+#, c-format
+msgid "Are you sure you wish to remove %s from your contact list?"
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་འབྲེལ་སའི་ཐོ་ཡིག་ལས་%s རྩ་བསྐྲད་གཏང་ནི་རེ་སྨོན་ངེས་གཏན་ཨིན་ན?"
+
+#: ../src/user_popup.c:644
+msgid "Remove User?"
+msgstr "ལག་ལེན་པ་རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/user_popup.c:656
+msgid "Remove User's _History file"
+msgstr "ལག་ལེན་པའི་ལོ་རྒྱུས་ཡིག་སྣོད་རྩ་བསྐྲད་གཏང་།(_H)"
+
+#: ../src/user_popup.c:700
+msgid "You can not change a list while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་ཐོ་ཡིག་ཅིག་བསྒྱུར་མི་ཚུགས།"
+
+#: ../src/user_popup.c:764
+msgid "Send Files..."
+msgstr "ཡིག་སྣོད་ཚུ་གཏང་།་་་"
+
+#: ../src/user_popup.c:857
+msgid "You can not remove a contact while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་སྐབས་ཁྱོད་ཀྱིས་འབྲེལ་ས་ཅིག་རྩ་བསྐྲད་གཏང་མི་ཚུགས།"
+
+#: ../src/user_popup.c:897
+msgid "You can not change the group of a user while disconnected."
+msgstr "མཐུད་ལམ་བཏོག་ཡོད་པའི་ཁྱོད་ཀྱིས་ལག་ལེན་པ་གི་སྡེ་ཚན་འདི་བསྒྱུར་མི་ཚུགས།"
+
+#: ../src/userserver.c:207
+msgid ""
+"No messages available.\n"
+"\n"
+msgstr ""
+"འཕྲིན་དོན་ཚུ་ཐོབ་ཚུགསཔ་མེད།\n"
+"\n"
+
+#: ../src/util.c:27
+msgid "Afghanistan"
+msgstr "ཨཕ་ག་ནིསི་ཊཱན།"
+
+#: ../src/util.c:28
+msgid "Albania"
+msgstr "ཨཱལ་བ་ནི་ཡ།"
+
+#: ../src/util.c:29
+msgid "Algeria"
+msgstr "ཨཱལ་ཛི་རི་ཡ།"
+
+#: ../src/util.c:30
+msgid "American Samoa"
+msgstr "ཨ་མི་རི་ཀཱན་ ས་མའོ།"
+
+#: ../src/util.c:31
+msgid "Andorra"
+msgstr "ཨེན་ཌོ་ར།"
+
+#: ../src/util.c:32
+msgid "Angola"
+msgstr "ཨེང་གོ་ལ།"
+
+#: ../src/util.c:33
+msgid "Anguilla"
+msgstr "ཨེང་གུའི་ལ།"
+
+#: ../src/util.c:34
+msgid "Antigua"
+msgstr "ཨེན་ཊི་གུ་འ།"
+
+#: ../src/util.c:35
+msgid "Argentina"
+msgstr "ཨར་ཇེན་ཊི་ན།"
+
+#: ../src/util.c:36
+msgid "Armenia"
+msgstr "ཨར་མི་ནི་ཡ།"
+
+#: ../src/util.c:37
+msgid "Aruba"
+msgstr "ཨ་རུ་བ།"
+
+#: ../src/util.c:38
+msgid "Ascension Island"
+msgstr "ཡར་བསྐྱོད་ཨའི་ལེནཌི།"
+
+#: ../src/util.c:39
+msgid "Australia"
+msgstr "ཨཱསི་ཊ་ལི་ཡ།"
+
+#: ../src/util.c:40
+msgid "Australian Antarctic Territory"
+msgstr "ཨཱསི་ཊ་ལི་ཡན་ཨན་ཊར་ཊིཀ་མངའ་ཁོངས།"
+
+#: ../src/util.c:41
+msgid "Austria"
+msgstr "ཨཱསི་ཊིར་ཡ།"
+
+#: ../src/util.c:42
+msgid "Azerbaijan"
+msgstr "ཨ་ཛར་བའི་ཇཱན།"
+
+#: ../src/util.c:43
+msgid "Bahamas"
+msgstr "བ་ཧ་མཱསི།"
+
+#: ../src/util.c:44
+msgid "Bahrain"
+msgstr "བཱ་རེན།"
+
+#: ../src/util.c:45
+msgid "Bangladesh"
+msgstr "བང་ལ་དེཤི།"
+
+#: ../src/util.c:46
+msgid "Barbados"
+msgstr "བར་བ་ཌོསི།"
+
+#: ../src/util.c:47
+msgid "Barbuda"
+msgstr "བར་བུ་ཌ།"
+
+#: ../src/util.c:48
+msgid "Belarus"
+msgstr "བི་ལ་རཱསི།"
+
+#: ../src/util.c:49
+msgid "Belgium"
+msgstr "བེལ་ཇི་ཡམ།"
+
+#: ../src/util.c:50
+msgid "Belize"
+msgstr "བེ་ལིཛི།"
+
+#: ../src/util.c:51
+msgid "Benin"
+msgstr "བེ་ནིན།"
+
+#: ../src/util.c:52
+msgid "Bermuda"
+msgstr "བར་མུ་ད།"
+
+#: ../src/util.c:53
+msgid "Bhutan"
+msgstr "འབྲུག"
+
+#: ../src/util.c:54
+msgid "Bolivia"
+msgstr "བོ་ལི་བི་ཡ།"
+
+#: ../src/util.c:55
+msgid "Bosnia and Herzegovina"
+msgstr "བོསི་ནི་ཡ་དང་ ཧར་ཛི་གོ་ཝི་ན།"
+
+#: ../src/util.c:56
+msgid "Botswana"
+msgstr "བཱོཊསི་ཝ་ན།"
+
+#: ../src/util.c:57
+msgid "Brazil"
+msgstr "བ་ར་ཛིལ།"
+
+#: ../src/util.c:58
+msgid "British Virgin Islands"
+msgstr "བིརི་ཊིཤི་ བར་ཇིན་ ཨའི་ལེནཌསི།"
+
+#: ../src/util.c:59
+msgid "Brunei"
+msgstr "བུརི་ན་ཡེ།"
+
+#: ../src/util.c:60
+msgid "Bulgaria"
+msgstr "བཱལ་ག་རི་ཡ།"
+
+#: ../src/util.c:61
+msgid "Burkina Faso"
+msgstr "བུར་ཀི་ན་ ཕ་སོ།"
+
+#: ../src/util.c:62
+msgid "Burundi"
+msgstr "བུ་རུན་ཌཡེ།"
+
+#: ../src/util.c:63
+msgid "Cambodia"
+msgstr "ཀམ་བོ་ཌི་ཡ།"
+
+#: ../src/util.c:64
+msgid "Cameroon"
+msgstr "ཀེ་མི་རཱོན།"
+
+#: ../src/util.c:65
+msgid "Canada"
+msgstr "ཀེ་ན་ཌ།"
+
+#: ../src/util.c:66
+msgid "Cape Verde Islands"
+msgstr "ཀེཔ་ བར་དི་ ཨའི་ལེནཌསི།"
+
+#: ../src/util.c:67
+msgid "Cayman Islands"
+msgstr "ཀེ་མན་ ཨའི་ལེནཌསི།"
+
+#: ../src/util.c:68
+msgid "Central African Republic"
+msgstr "དབུས་ ཨཕ་རི་ཀཱན་ རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:69
+msgid "Chad"
+msgstr "ཆཌི།"
+
+#: ../src/util.c:70
+msgid "Chile"
+msgstr "ཅི་ལི།"
+
+#: ../src/util.c:71
+msgid "China"
+msgstr "རྒྱ་ནག"
+
+#: ../src/util.c:72
+msgid "Christmas Island"
+msgstr "ཀིརིསིཊི་མཱསི།"
+
+#: ../src/util.c:73
+msgid "Cocos-Keeling Islands"
+msgstr "ཀོ་ཀོསི་ ཀི་ལིང་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:74
+msgid "Colombia"
+msgstr "ཀོ་ལོམ་བི་ཡ།"
+
+#: ../src/util.c:75
+msgid "Comoros"
+msgstr "ཀོ་མོ་རཱོསི།"
+
+#: ../src/util.c:76
+msgid "Congo"
+msgstr "ཀོང་གོ།"
+
+#: ../src/util.c:77
+msgid "Cook Islands"
+msgstr "ཀུཀ་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:78
+msgid "Costa Rica"
+msgstr "ཀཱོསི་ཊ་རི་ཀ།"
+
+#: ../src/util.c:79
+msgid "Croatia"
+msgstr "ཀོརོ་ཤི་ཡ།"
+
+#: ../src/util.c:80
+msgid "Cuba"
+msgstr "ཀུས་བ།"
+
+#: ../src/util.c:81
+msgid "Cyprus"
+msgstr "སའི་པརཱསི།"
+
+#: ../src/util.c:82
+msgid "Czech Republic"
+msgstr "ཅེཛི་རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:83
+msgid "Dem. Rep. of the Congo"
+msgstr "ཀོང་གོ་གི་མི་སེར་དམངས་གཙོའི་རྒྱལ་ཁབ།"
+
+#: ../src/util.c:84
+msgid "Denmark"
+msgstr "ཌེན་མཱརཀ།"
+
+#: ../src/util.c:85
+msgid "Diego Garcia"
+msgstr "ཌའི་གོ་ གར་སི་ཡ།"
+
+#: ../src/util.c:86
+msgid "Djibouti"
+msgstr "ཇི་བའོ་ཊི།"
+
+#: ../src/util.c:87
+msgid "Dominica"
+msgstr "ཌོ་མི་ནི་ཀ།"
+
+#: ../src/util.c:88
+msgid "Dominican Republic"
+msgstr "ཌོ་མི་ནི་ཀཱན་རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:89
+msgid "Ecuador"
+msgstr "ཨི་ཀུཡེ་ཌོར།"
+
+#: ../src/util.c:90
+msgid "Egypt"
+msgstr "ཨི་ཇིབཊི།"
+
+#: ../src/util.c:91
+msgid "El Salvador"
+msgstr "ཨེལ་ སཱལ་བེ་ཌོར།"
+
+#: ../src/util.c:92
+msgid "Equatorial Guinea"
+msgstr "ཨི་ཀུཡེ་ཊོ་རི་ཡཱལ་་གི་ནི།"
+
+#: ../src/util.c:93
+msgid "Eritrea"
+msgstr "ཨི་རི་ཊི།"
+
+#: ../src/util.c:94
+msgid "Estonia"
+msgstr "ཨིསི་ཊོ་ནི་ཡ།"
+
+#: ../src/util.c:95
+msgid "Ethiopia"
+msgstr "ཨི་ཐོ་པི་ཡ།"
+
+#: ../src/util.c:96
+msgid "F.Y.R.O.M. (Former Yugoslav Republic of Macedonia)"
+msgstr "ཨེཕ་.ཝའི་.ཨར་.ཨོ་.ཨེམ་(མེཀས་ཌོ་ནི་ཡ་གི་ཡོ་གོ་སི་ལེབ་མདང་གཙོ་བགྲེསཔ།)"
+
+#: ../src/util.c:97
+msgid "Faeroe Islands"
+msgstr "ཕེ་རོའི་ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:98
+msgid "Falkland Islands"
+msgstr "ཕཱལཀ་ལེནཌི་ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:99
+msgid "Fiji Islands"
+msgstr "ཕི་ཇི་ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:100
+msgid "Finland"
+msgstr "ཕིན་ལེནཌི།"
+
+#: ../src/util.c:101
+msgid "France"
+msgstr "ཕརཱནསི།"
+
+#: ../src/util.c:102
+msgid "French Antilles"
+msgstr "ཕིརེནཆི་ཨེན་ཊ་ལིསི།"
+
+#: ../src/util.c:103
+msgid "French Guiana"
+msgstr "ཕེརེནཆི་གུའི་ན།"
+
+#: ../src/util.c:104
+msgid "French Polynesia"
+msgstr "ཕེརེནཆི་པོ་ལི་ནི་སི་ཡ།"
+
+#: ../src/util.c:105
+msgid "Gabon"
+msgstr "གེ་བཱོན།"
+
+#: ../src/util.c:106
+msgid "Gambia"
+msgstr "གམ་བོ་ནི་ཡ།"
+
+#: ../src/util.c:107
+msgid "Georgia"
+msgstr "ཇོའོར་ཇི་ཡ།"
+
+#: ../src/util.c:108
+msgid "Germany"
+msgstr "ཇར་མ་ནི།"
+
+#: ../src/util.c:109
+msgid "Ghana"
+msgstr "གྷ་ན།"
+
+#: ../src/util.c:110
+msgid "Gibraltar"
+msgstr "ཇིབ་རཱལ་ཊར།"
+
+#: ../src/util.c:111
+msgid "Greece"
+msgstr "གིརིསི།"
+
+#: ../src/util.c:112
+msgid "Greenland"
+msgstr "གིརིན་ལེནཌི།"
+
+#: ../src/util.c:113
+msgid "Grenada"
+msgstr "གི་རི་ན་ཌ།"
+
+#: ../src/util.c:114
+msgid "Guadeloupe"
+msgstr "གུ་འ་དི་ལོཔ།"
+
+#: ../src/util.c:115
+msgid "Guam"
+msgstr "གུའམ།"
+
+#: ../src/util.c:116
+msgid "Guantanamo Bay"
+msgstr "གའུ་ཊ་ན་མོ་ བེ།"
+
+#: ../src/util.c:117
+msgid "Guatemala"
+msgstr "གའུ་ཏི་མ་ལ།"
+
+#: ../src/util.c:118
+msgid "Guinea"
+msgstr "གུ་ནི།"
+
+#: ../src/util.c:119
+msgid "Guinea-Bissau"
+msgstr "གི་ནི་བི་སའོ།"
+
+#: ../src/util.c:120
+msgid "Guyana"
+msgstr "གུ་ཡ་ན།"
+
+#: ../src/util.c:121
+msgid "Haiti"
+msgstr "ཧའི་ཏི།"
+
+#: ../src/util.c:122
+msgid "Honduras"
+msgstr "ཧཱོན་ཌུ་རཱསི།"
+
+#: ../src/util.c:123
+msgid "Hong Kong"
+msgstr "ཧོང་ཀོང་།"
+
+#: ../src/util.c:124
+msgid "Hungary"
+msgstr "ཧང་ག་རི།"
+
+#: ../src/util.c:125
+msgid "INMARSAT (Atlantic-East)"
+msgstr "ཨིན་མཱར་སེཊི་(ཤར་ཕྱོགས་-ཨེཊི་ལེན་ཊིཀ་)"
+
+#: ../src/util.c:126
+msgid "INMARSAT (Atlantic-West)"
+msgstr "ཨིན་མཱར་སེཊི་(ནུབ་ཕྱོགས་-ཨེཊི་ལེན་ཊིཀ)"
+
+#: ../src/util.c:127
+msgid "INMARSAT (Indian)"
+msgstr "ཨིན་མཱར་སེཊི་(རྒྱ་གར་་གྱི་)"
+
+#: ../src/util.c:128
+msgid "INMARSAT (Pacific)"
+msgstr "ཨིན་མཱར་སེཊི་(པེ་སི་ཕིག)"
+
+#: ../src/util.c:129
+msgid "INMARSAT"
+msgstr "ཨིན་མཱར་སེཊི།"
+
+#: ../src/util.c:130
+msgid "Iceland"
+msgstr "ཨའིསི་ལེནཌི།"
+
+#: ../src/util.c:131
+msgid "India"
+msgstr "རྒྱ་གར།"
+
+#: ../src/util.c:132
+msgid "Indonesia"
+msgstr "ཨིན་ཌོ་ནེ་ཤི་ཡ།"
+
+#: ../src/util.c:133
+msgid "International Freephone Service"
+msgstr "རྒྱལ་སྤྱི་ཕིརི་ཕོན་ཞབས་ཏོག"
+
+#: ../src/util.c:134
+msgid "Iran"
+msgstr "ཨི་རཱན།"
+
+#: ../src/util.c:135
+msgid "Iraq"
+msgstr "ཨི་རཀ།"
+
+#: ../src/util.c:136
+msgid "Ireland"
+msgstr "ཨའི་རི་ལེནཌི།"
+
+#: ../src/util.c:137
+msgid "Israel"
+msgstr "ཨིཛི་རེལ།"
+
+#: ../src/util.c:138
+msgid "Italy"
+msgstr "ཨི་ཊ་ལི།"
+
+#: ../src/util.c:139
+msgid "Ivory Coast"
+msgstr "ཨའི་ཝོརི་ ཀོསིཊི།"
+
+#: ../src/util.c:140
+msgid "Jamaica"
+msgstr "ཇ་མའི་ཀ།"
+
+#: ../src/util.c:141
+msgid "Japan"
+msgstr "ཇ་པཱན།"
+
+#: ../src/util.c:142
+msgid "Jordan"
+msgstr "ཇོར་ཌན"
+
+#: ../src/util.c:143
+msgid "Kazakhstan"
+msgstr "ཀ་ཛཀསི་ཏཱན།"
+
+#: ../src/util.c:144
+msgid "Kenya"
+msgstr "ཀེན་ཡ།"
+
+#: ../src/util.c:145
+msgid "Kiribati Republic"
+msgstr "ཀི་རི་བི་ཏི་་རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:146
+msgid "Korea (North)"
+msgstr "ཀོ་རི་ཡ(བྱང་ཕྱོགས།)"
+
+#: ../src/util.c:147
+msgid "Korea (Republic of)"
+msgstr "ཀོ་རི་ཡ(གི་རི་པཔ་ལིཀ།)"
+
+#: ../src/util.c:148
+msgid "Kuwait"
+msgstr "ཀི་ཝེཊི།"
+
+#: ../src/util.c:149
+msgid "Kyrgyz Republic"
+msgstr "ཀར་གིཛི་ཏཱན་རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:150
+msgid "Laos"
+msgstr "ལའོསི།"
+
+#: ../src/util.c:151
+msgid "Latvia"
+msgstr "ལེཊི་བི་ཡ།"
+
+#: ../src/util.c:152
+msgid "Lebanon"
+msgstr "ལེ་བ་ནཱོན།"
+
+#: ../src/util.c:153
+msgid "Lesotho"
+msgstr "ལི་སོ་ཐོ།"
+
+#: ../src/util.c:154
+msgid "Liberia"
+msgstr "ལི་བི་རི་ཡ།"
+
+#: ../src/util.c:155
+msgid "Libya"
+msgstr "ལི་བི་ཡ།"
+
+#: ../src/util.c:156
+msgid "Liechtenstein"
+msgstr "ལིཆི་ཊེནསི་ཊིན།"
+
+#: ../src/util.c:157
+msgid "Lithuania"
+msgstr "ལི་ཐུ་ནི་ཡ།"
+
+#: ../src/util.c:158
+msgid "Luxembourg"
+msgstr "ལག་ཟེམ་བཱརག"
+
+#: ../src/util.c:159
+msgid "Macau"
+msgstr "མ་ཀའུ།"
+
+#: ../src/util.c:160
+msgid "Madagascar"
+msgstr "མ་ད་གཱསི་ཀར།"
+
+#: ../src/util.c:161
+msgid "Malawi"
+msgstr "མ་ལ་ཝི།"
+
+#: ../src/util.c:162
+msgid "Malaysia"
+msgstr "མ་ལེ་ཤི་ཡ།"
+
+#: ../src/util.c:163
+msgid "Maldives"
+msgstr "མེལ་ཌིབསི།"
+
+#: ../src/util.c:164
+msgid "Mali"
+msgstr "མ་ལི།"
+
+#: ../src/util.c:165
+msgid "Malta"
+msgstr "མལ་ཊ།"
+
+#: ../src/util.c:166
+msgid "Marshall Islands"
+msgstr "མར་ཤལ་ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:167
+msgid "Martinique"
+msgstr "མར་ཊི་ནིཀ།"
+
+#: ../src/util.c:168
+msgid "Mauritania"
+msgstr "མའུ་རི་ཊ་ནི་ཡ།"
+
+#: ../src/util.c:169
+msgid "Mauritius"
+msgstr "མའུ་རི་ཤི་ཡཱསི།"
+
+#: ../src/util.c:170
+msgid "Mayotte Island"
+msgstr "མ་ཡོ་ཊི་ཨའི་ལེནཌི།"
+
+#: ../src/util.c:171
+msgid "Mexico"
+msgstr "མེག་སི་ཀོ།"
+
+#: ../src/util.c:172
+msgid "Micronesia, Federated States of"
+msgstr "གི་སྤྱི་མཐུན་ཡོད་པའི་མངའ་སྡེ་ མེཀརོ་ནི་སི་ཡ།"
+
+#: ../src/util.c:173
+msgid "Moldova"
+msgstr "མཱོལ་ཌོ་བ།"
+
+#: ../src/util.c:174
+msgid "Monaco"
+msgstr "མོ་ན་ཀོ།"
+
+#: ../src/util.c:175
+msgid "Mongolia"
+msgstr "མངོ་གོ་ལི་ཡ།"
+
+#: ../src/util.c:176
+msgid "Montserrat"
+msgstr "མཱོནཊི་སི་རེ་ཊི།"
+
+#: ../src/util.c:177
+msgid "Morocco"
+msgstr "མོ་རོཀ་ཀོ།"
+
+#: ../src/util.c:178
+msgid "Mozambique"
+msgstr "མོ་ཛམ་བིཀ།"
+
+#: ../src/util.c:179
+msgid "Myanmar"
+msgstr "མི་ཡཱན་མར།"
+
+#: ../src/util.c:180
+msgid "Namibia"
+msgstr "ནམ་བི་ཡ།"
+
+#: ../src/util.c:181
+msgid "Nauru"
+msgstr "ནའུ་རུ།"
+
+#: ../src/util.c:182
+msgid "Nepal"
+msgstr "ནེ་པཱལ།"
+
+#: ../src/util.c:183
+msgid "Netherlands Antilles"
+msgstr "ནེ་དར་ལེནཌིསི་ཨེན་ཊི་ལེསི།"
+
+#: ../src/util.c:184
+msgid "Netherlands"
+msgstr "ནེ་དར་ལེནཌིསི།"
+
+#: ../src/util.c:185
+msgid "Nevis"
+msgstr "ནེ་བེསི།"
+
+#: ../src/util.c:186
+msgid "New Caledonia"
+msgstr "ནིའུ་ ཀེ་ལི་ཌོ་ནི་ཡ།"
+
+#: ../src/util.c:187
+msgid "New Zealand"
+msgstr "ནིའུ་ཛི་ལེནཌི།"
+
+#: ../src/util.c:188
+msgid "Nicaragua"
+msgstr "ནི་ཀ་ར་གུ་ཝ།"
+
+#: ../src/util.c:189
+msgid "Niger"
+msgstr "ནའི་ཇར།"
+
+#: ../src/util.c:190
+msgid "Nigeria"
+msgstr "ནའི་ཇི་རི་ཡ།"
+
+#: ../src/util.c:191
+msgid "Niue"
+msgstr "ནིའུ།"
+
+#: ../src/util.c:192
+msgid "Norfolk Island"
+msgstr "ནོར་ཕཱོལཀ་ཨའི་ལེནཌི།"
+
+#: ../src/util.c:193
+msgid "Norway"
+msgstr "ནོར་ཝེ།"
+
+#: ../src/util.c:194
+msgid "Oman"
+msgstr "ཨོ་མཱན།"
+
+#: ../src/util.c:195
+msgid "Pakistan"
+msgstr "པ་ཀིསི་ཏཱན།"
+
+#: ../src/util.c:196
+msgid "Palau"
+msgstr "པ་ལའུ།"
+
+#: ../src/util.c:197
+msgid "Panama"
+msgstr "པ་ན་མ།"
+
+#: ../src/util.c:198
+msgid "Papua New Guinea"
+msgstr "པ་པུའུ་ནིའུ་གུ་ནི།"
+
+#: ../src/util.c:199
+msgid "Paraguay"
+msgstr "པ་ར་གུ་ཡེ།"
+
+#: ../src/util.c:200
+msgid "Peru"
+msgstr "པེ་རུ།"
+
+#: ../src/util.c:201
+msgid "Philippines"
+msgstr "ཕི་ལི་པིནསི།"
+
+#: ../src/util.c:202
+msgid "Poland"
+msgstr "པོ་ལེནཌི།"
+
+#: ../src/util.c:203
+msgid "Portugal"
+msgstr "པོར་ཊུ་གཱལ།"
+
+#: ../src/util.c:204
+msgid "Puerto Rico"
+msgstr "པུར་ཊོ་ རི་ཀོ།"
+
+#: ../src/util.c:205
+msgid "Qatar"
+msgstr "ཀ་ཊར།"
+
+#: ../src/util.c:206
+msgid "Reunion Island"
+msgstr "སླར་བསྡོམ་ཨའི་ལེནཌི།"
+
+#: ../src/util.c:207
+msgid "Romania"
+msgstr "རོ་མ་ནི་ཡ།"
+
+#: ../src/util.c:208
+msgid "Rota Island"
+msgstr "རོ་ཊ་ཨའི་ལེནཌི།"
+
+#: ../src/util.c:209
+msgid "Russia"
+msgstr "ར་ཤི་ཡ།"
+
+#: ../src/util.c:210
+msgid "Rwanda"
+msgstr "ར་ཝན་ཌ།"
+
+#: ../src/util.c:211
+msgid "Saint Lucia"
+msgstr "སེནཊི་ལུ་སི་ཡ།"
+
+#: ../src/util.c:212
+msgid "Saipan Island"
+msgstr "སའི་པན་ཨའི་ལེནཌི།"
+
+#: ../src/util.c:213
+msgid "San Marino"
+msgstr "སེན་ མེ་རི་ནོ།"
+
+#: ../src/util.c:214
+msgid "Sao Tome and Principe"
+msgstr "སའོ་ ཊོམ་ དང་ པིརིན་སིཔ།"
+
+#: ../src/util.c:215
+msgid "Saudi Arabia"
+msgstr "སའུ་དི་ ཨ་ར་བི་ཡ།"
+
+#: ../src/util.c:216
+msgid "Senegal Republic"
+msgstr "སི་ནི་གཱལ་ རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:217
+msgid "Seychelle Islands"
+msgstr "སི་ཅི་ལེསི་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:218
+msgid "Sierra Leone"
+msgstr "སི་ར་ ལིའོན།"
+
+#: ../src/util.c:219
+msgid "Singapore"
+msgstr "སིང་ག་པོར།"
+
+#: ../src/util.c:220
+msgid "Slovak Republic"
+msgstr "སོལོ་བཱཀ་ རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:221
+msgid "Slovenia"
+msgstr "སོལོ་བ་ཀི་ཡ།"
+
+#: ../src/util.c:222
+msgid "Solomon Islands"
+msgstr "སོ་ལོ་མཱོན་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:223
+msgid "Somalia"
+msgstr "སོ་མ་ལི་ཡ།"
+
+#: ../src/util.c:224
+msgid "South Africa"
+msgstr "ལྷོ་ཨཕ་རི་ཀ།"
+
+#: ../src/util.c:225
+msgid "Spain"
+msgstr "སིཔེན།"
+
+#: ../src/util.c:226
+msgid "Sri Lanka"
+msgstr "སི་རི་ལང་ཀ།"
+
+#: ../src/util.c:227
+msgid "St. Helena"
+msgstr "སེནཊི་ ཧེ་ལི་ན།"
+
+#: ../src/util.c:228
+msgid "St. Kitts"
+msgstr "སེནཊི་ ཀིཊིསི། "
+
+#: ../src/util.c:229
+msgid "St. Pierre and Miquelon"
+msgstr "སེནཊི་ པེ་རི་དང་ མི་ཀུསི་ལཱོན།"
+
+#: ../src/util.c:230
+msgid "St. Vincent and the Grenadines"
+msgstr "སེནཊི་ བིན་སེནཊི་ དང་ གིརི་ན་ཌའིནསི།"
+
+#: ../src/util.c:231
+msgid "Sudan"
+msgstr "སུ་དཱན།"
+
+#: ../src/util.c:232
+msgid "Suriname"
+msgstr "སུ་རི་ནེམ།"
+
+#: ../src/util.c:233
+msgid "Swaziland"
+msgstr "ས་ཝ་ཛིའི་ལེནཌི།"
+
+#: ../src/util.c:234
+msgid "Sweden"
+msgstr "སུའི་ཌེན།"
+
+#: ../src/util.c:235
+msgid "Switzerland"
+msgstr "སུའིཊི་ཛར་ལེནཌི།"
+
+#: ../src/util.c:236
+msgid "Syria"
+msgstr "སི་རི་ཡ།"
+
+#: ../src/util.c:237
+msgid "Taiwan, Republic of China"
+msgstr "ཏ་ཡེ་ཝཱན་ རྒྱ་ནག་གི་རི་པཔ་ལིཀ།"
+
+#: ../src/util.c:238
+msgid "Tajikistan"
+msgstr "ཏ་ཇི་ཀིསི་ཏཱན།"
+
+#: ../src/util.c:239
+msgid "Tanzania"
+msgstr "ཏཱན་ཛ་ནི་ཡ།"
+
+#: ../src/util.c:240
+msgid "Thailand"
+msgstr "ཐཱའི་ལེནཌི།"
+
+#: ../src/util.c:241
+msgid "Tinian Island"
+msgstr "ཊི་ནི་ཡཱན་ ཨའི་ལེནཌི།"
+
+#: ../src/util.c:242
+msgid "Togo"
+msgstr "ཊོ་གོ།"
+
+#: ../src/util.c:243
+msgid "Tokelau"
+msgstr "ཊོ་ཀི་ལའོ།"
+
+#: ../src/util.c:244
+msgid "Tonga"
+msgstr "ཊོང་ག"
+
+#: ../src/util.c:245
+msgid "Trinidad and Tobago"
+msgstr "ཊི་ནི་ཌཱཌི་ དང་ ཊོ་བ་གོ།"
+
+#: ../src/util.c:246
+msgid "Tunisia"
+msgstr "ཊུ་ནི་སི་ཡ།"
+
+#: ../src/util.c:247
+msgid "Turkey"
+msgstr "ཊར་ཀི།"
+
+#: ../src/util.c:248
+msgid "Turkmenistan"
+msgstr "ཊརཀ་མི་ནིསི་ཏཱན།"
+
+#: ../src/util.c:249
+msgid "Turks and Caicos Islands"
+msgstr "ཊརཀསི་ དང་ ཀའི་ཀོསི་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:250
+msgid "Tuvalu"
+msgstr "ཊུ་བ་ལུ།"
+
+#: ../src/util.c:251
+msgid "USA"
+msgstr "ཡུ་ཨེསི་ཨེ།"
+
+#: ../src/util.c:252
+msgid "Uganda"
+msgstr "ཡུ་གེན་ཌ།"
+
+#: ../src/util.c:253
+msgid "Ukraine"
+msgstr "ཡུ་ཀེརན།"
+
+#: ../src/util.c:254
+msgid "United Arab Emirates"
+msgstr "ཡུ་ནའི་ཊེཊ་ ཨ་རབ་ ཨི་མི་རེཊིསི།"
+
+#: ../src/util.c:255
+msgid "United Kingdom"
+msgstr "ཡུ་ནའི་ཊེཊ་ ཀིང་ཌོམ།"
+
+#: ../src/util.c:256
+msgid "United States Virgin Islands"
+msgstr "ཡུ་ནའི་ཊེཊ་ སིཊེཊིསི་ ཝར་ཇིན་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:257
+msgid "Uruguay"
+msgstr "ཡུ་རུ་གེ།"
+
+#: ../src/util.c:258
+msgid "Uzbekistan"
+msgstr "ཨུཛ་བེ་ཀིསི་ཏཱན།"
+
+#: ../src/util.c:259
+msgid "Vanuatu"
+msgstr "བ་ནུའ་ཊུ།"
+
+#: ../src/util.c:260
+msgid "Vatican City"
+msgstr "བ་ཊི་ཀཱན་ གྲོང་སྡེ།"
+
+#: ../src/util.c:261
+msgid "Venezuela"
+msgstr "བེ་ནི་ཛུས་ལ།"
+
+#: ../src/util.c:262
+msgid "Vietnam"
+msgstr "ཝེཊི་ནེམ།"
+
+#: ../src/util.c:263
+msgid "Wallis and Futuna Islands"
+msgstr "ཝ་ལིསི་ དང་ ཕུ་ཊུ་ན་ ཨའི་ལེནཌིསི།"
+
+#: ../src/util.c:264
+msgid "Western Samoa"
+msgstr "ནུབ་ཕྱོགས་ས་མོའ།"
+
+#: ../src/util.c:265
+msgid "Yemen"
+msgstr "ཡེ་མེན།"
+
+#: ../src/util.c:266
+msgid "Yugoslavia"
+msgstr "ཡུ་གོ་སི་ལ་ཝི་ཡ།"
+
+#: ../src/util.c:267
+msgid "Zambia"
+msgstr "ཛམ་བི་ཡ།"
+
+#: ../src/util.c:268
+msgid "Zimbabwe"
+msgstr "ཛིམ་བབ་ཝི།"
+
+#: ../src/util.c:269
+#: ../src/util.c:446
+msgid "Not entered"
+msgstr "བཙུགས་མེདཔ།"
+
+#. { N_("UTC+1300 (Tonga)"), 1300 }, Unused
+#: ../src/util.c:277
+msgid "UTC+1200 (Fiji)"
+msgstr "ཡུ་ཊི་སི་+༡༢༠༠ (ཕི་ཇི།)"
+
+#: ../src/util.c:278
+msgid "UTC+1130"
+msgstr "ཡུ་ཊི་སི་+༡༡༣༠"
+
+#: ../src/util.c:279
+msgid "UTC+1100 (Solomon Islands)"
+msgstr "ཡུ་ཊི་སི་+༡༡༠༠ (སོ་ལོ་མཱོན་ཨའི་ལེནཌིསི།)"
+
+#: ../src/util.c:280
+msgid "UTC+1030"
+msgstr "ཡུ་ཊི་སི་+༡༠༣༠"
+
+#: ../src/util.c:281
+msgid "UTC+1000 (Guam)"
+msgstr "ཡུ་ཊི་སི་+༡༠༠༠(གུའམ།)"
+
+#: ../src/util.c:282
+msgid "UTC+0930"
+msgstr "ཡུ་ཊི་སི་+༠༩༣༠"
+
+#: ../src/util.c:283
+msgid "UTC+0900 (Japan)"
+msgstr "ཡུ་ཊི་སི་+༠༩༠༠ (ཇ་པཱན།)"
+
+#: ../src/util.c:284
+msgid "UTC+0830"
+msgstr "ཡུ་ཊི་སི་+༠༨༣༠"
+
+#: ../src/util.c:285
+msgid "UTC+0800 (China/Taiwan)"
+msgstr "ཡུ་ཊི་སི་+༠༨༠༠ (རྒྱ་ནག་/ཏ་ཡེ་ཝཱན།)"
+
+#: ../src/util.c:286
+msgid "UTC+0730"
+msgstr "ཡུ་ཊི་སི་+༠༧༣༠"
+
+#: ../src/util.c:287
+msgid "UTC+0700 (Cambodia)"
+msgstr "ཡུ་ཊི་སི་+༠༧༠༠ (ཀམ་བོ་ཌི་ཡ།)"
+
+#: ../src/util.c:288
+msgid "UTC+0630"
+msgstr "ཡུ་ཊི་སི+༠༦༣༠"
+
+#: ../src/util.c:289
+msgid "UTC+0600 (Bangladesh)"
+msgstr "ཡུ་ཏི་སི་+༠༦༠༠ (བང་ལ་དེཤི།)"
+
+#: ../src/util.c:290
+msgid "UTC+0530"
+msgstr "ཡུ་ཊི་སི་+༠༥༣༠"
+
+#: ../src/util.c:291
+msgid "UTC+0500 (Turkmenistan)"
+msgstr "ཡུ་ཊི་སི་+༠༥༠༠ (ཊརཀ་མི་ནི་སི་ཏཱན།)"
+
+#: ../src/util.c:292
+msgid "UTC+0430"
+msgstr "ཡུ་ཊི་སི་+༠༤༣༠"
+
+#: ../src/util.c:293
+msgid "UTC+0400 (Yemen/Oman/Armenia)"
+msgstr "ཡུ་ཊི་སི་+༠༤༠༠ (ཡེ་མེན/ཨོ་མཱན/ཨར་མི་ནི་ཡ།)"
+
+#: ../src/util.c:294
+msgid "UTC+0330"
+msgstr "ཡུ་ཊི་སི་+༠༣༣༠"
+
+#: ../src/util.c:295
+msgid "UTC+0300 (Eastern African)"
+msgstr "ཡུ་ཊི་སི་+༠༣༠༠ (ཤར་ཕྱོགས་ཨཕ་རི་ཀཱན།)"
+
+#: ../src/util.c:296
+msgid "UTC+0230"
+msgstr "ཡུ་ཊི་སི་+༠༢༣༠"
+
+#: ../src/util.c:297
+msgid "UTC+0200 (Eastern European)"
+msgstr "ཡུ་ཊི་སི་+༠༢༠༠ (ཤར་ཕྱོགས་ཡུ་རོ་པི་ཡཱན)"
+
+#: ../src/util.c:298
+msgid "UTC+0130"
+msgstr "ཡུ་ཊི་སི་+༠༡༣༠"
+
+#: ../src/util.c:299
+msgid "UTC+0100 (Middle European)"
+msgstr "ཡུ་ཊི་སི་+༠༡༠༠ (ཡུ་རོ་པི་ཡཱན་བར་མ།)"
+
+#: ../src/util.c:300
+msgid "UTC+0030"
+msgstr "ཡུ་ཊི་སི་+༠༠༣༠"
+
+#: ../src/util.c:301
+msgid "UTC"
+msgstr "ཡུ་ཊི་སི།"
+
+#: ../src/util.c:302
+msgid "UTC-0030"
+msgstr "ཡུ་ཊི་སི་-༠༠༣༠"
+
+#: ../src/util.c:303
+msgid "UTC-0100"
+msgstr "ཡུ་ཊི་སི་-༠༡༠༠"
+
+#: ../src/util.c:304
+msgid "UTC-0130"
+msgstr "ཡུ་ཊི་སི་-༠༡༣༠"
+
+#: ../src/util.c:305
+msgid "UTC-0200 (Central African)"
+msgstr "ཡུ་ཊི་སི་-༠༢༠༠(དབུས་ཨཕ་རི་ཀཱན།)"
+
+#: ../src/util.c:306
+msgid "UTC-0230"
+msgstr "ཡི་ཊི་སི་-༠༢༣༠"
+
+#: ../src/util.c:307
+msgid "UTC-0300 (Brazil)"
+msgstr "ཡུ་ཊི་སི་-༠༣༠༠(བ་ར་ཛིལ་)"
+
+#: ../src/util.c:308
+msgid "UTC-0330"
+msgstr "ཡུ་ཊི་སི་-༠༣༣༠"
+
+#: ../src/util.c:309
+msgid "UTC-0400 (Atlantic)"
+msgstr "ཡུ་ཊི་སི་-༠༤༠༠་(ཨེཊི་ལེན་ཊིཀ)"
+
+#: ../src/util.c:310
+msgid "UTC-0430"
+msgstr "ཡུ་ཊི་སི་-༠༤༣༠"
+
+#: ../src/util.c:311
+msgid "UTC-0500 (Eastern)"
+msgstr "ཡུ་ཊི་སི་-༠༥༠༠(ཤར་ཕྱོགས།)"
+
+#: ../src/util.c:312
+msgid "UTC-0530"
+msgstr "ཡུ་ཊི་སི་-༠༥༣༠"
+
+#: ../src/util.c:313
+msgid "UTC-0600 (Central)"
+msgstr "ཡུ་ཊི་སི་-༠༦༠༠(དབུས།)"
+
+#: ../src/util.c:314
+msgid "UTC-0630"
+msgstr "ཡུ་ཊི་སི་-༠༦༣༠"
+
+#: ../src/util.c:315
+msgid "UTC-0700 (Mountain)"
+msgstr "ཡུ་ཊི་སི་-༠༧༠༠(མའུ་ཏཱན།)"
+
+#: ../src/util.c:316
+msgid "UTC-0730"
+msgstr "ཡུ་ཊི་སི་-༠༧༣༠"
+
+#: ../src/util.c:317
+msgid "UTC-0800 (Pacific)"
+msgstr "ཡུ་ཊི་སི་-༠༨༠༠(པེ་སི་ཕིག)"
+
+#: ../src/util.c:318
+msgid "UTC-0830"
+msgstr "ཡུ་ཊི་སི་-༠༨༣༠"
+
+#: ../src/util.c:319
+msgid "UTC-0900 (Alaska)"
+msgstr "ཡུ་ཊི་སི་-༠༩༠༠(ཨ་ལ་སི་ཀ།)"
+
+#: ../src/util.c:320
+msgid "UTC-0930"
+msgstr "ཡུ་ཊི་སི་-༠༩༣༠"
+
+#: ../src/util.c:321
+msgid "UTC-1000 (Hawaii/Aleutian Islands)"
+msgstr "ཡུ་ཊི་སི་-༡༠༠༠(ཧཱ་ཝའི་/ཨེ་ལུ་ཊི་ཡཱན་ཨའི་ལེནཌསི།)"
+
+#: ../src/util.c:322
+msgid "UTC-1030"
+msgstr "ཡུ་ཊི་སི་-༡༠༣༠"
+
+#: ../src/util.c:323
+msgid "UTC-1100 (American Samoa)"
+msgstr "ཡུ་ཊི་སི་-༡༡༠༠(ཨ་མི་རི་ཀཱན་ ས་མོ་འ།)"
+
+#: ../src/util.c:324
+msgid "UTC-1130"
+msgstr "ཡུ་ཊི་སི་-༡༡༣༠"
+
+#: ../src/util.c:325
+msgid "UTC-1200"
+msgstr "ཡུ་ཊི་སི་-༡༢༠༠"
+
+#: ../src/util.c:326
+msgid "UTC-1230"
+msgstr "ཡུ་ཊི་སི་-༡༢༣༠"
+
+#: ../src/util.c:332
+msgid "Art"
+msgstr "རི་མོ།"
+
+#: ../src/util.c:333
+msgid "Cars"
+msgstr "ཀཱརསི།"
+
+#: ../src/util.c:334
+msgid "Celebrity Fans"
+msgstr "སི་ལི་བིརི་ཊི་ ཕེནསི།"
+
+#: ../src/util.c:335
+msgid "Collections"
+msgstr "བསྡུ་གསོག"
+
+#: ../src/util.c:336
+#: ../src/util.c:469
+msgid "Computers"
+msgstr "གློག་རིག་ཚུ།"
+
+#: ../src/util.c:337
+msgid "Culture & Literature"
+msgstr "ལམ་སྲོལ་ དང་ རྩོམ་རིག"
+
+#: ../src/util.c:338
+msgid "Fitness"
+msgstr "བདེ་ཁམས།"
+
+#: ../src/util.c:339
+msgid "Games"
+msgstr "རྩེདམོ་ཚུ།"
+
+#: ../src/util.c:340
+msgid "Hobbies"
+msgstr "སྤྲོ་ལས་ཚུ།"
+
+#: ../src/util.c:341
+#: ../src/util.c:477
+msgid "ICQ - Providing Help"
+msgstr "ཨའི་སི་ཀིའུ་གྲོགས་རམ་བྱིན་དོ།"
+
+#: ../src/util.c:342
+#: ../ui/user_info.glade.h:34
+msgid "Internet"
+msgstr "ཨིན་ཊར་ནེཊི།"
+
+#: ../src/util.c:343
+msgid "Lifestyle"
+msgstr "འཚོ་བའི་གནས་སྟངས།"
+
+#: ../src/util.c:344
+msgid "Movies/TV"
+msgstr "གློག་བརྙན་ཚུ་/རྒྱང་མཐོང་།"
+
+#: ../src/util.c:345
+msgid "Music"
+msgstr "སྙན་ཆ།"
+
+#: ../src/util.c:346
+msgid "Outdoor Activities"
+msgstr "ཕྱི་ཁ་ཁི་ལཱ་ཚུ།"
+
+#: ../src/util.c:347
+msgid "Parenting"
+msgstr "རྩ་ལག་འབད་དོ།"
+
+#: ../src/util.c:348
+msgid "Pets/Animals"
+msgstr "གཅེས་པའི་/སེམས་ཅན་ཚུ།"
+
+#: ../src/util.c:349
+msgid "Religion"
+msgstr "ཚོས་ལུགས།"
+
+#: ../src/util.c:350
+msgid "Science/Technology"
+msgstr "ཚན་རིག་/འཕྲུལ་རིག"
+
+#: ../src/util.c:351
+msgid "Skills"
+msgstr "རིག་རྩལ་ཚུ།"
+
+#: ../src/util.c:352
+#: ../src/util.c:488
+msgid "Sports"
+msgstr "རྩེད་རིགས་ཚུ།"
+
+#: ../src/util.c:353
+msgid "Web Design"
+msgstr "ཝེབ་བཀོད་སྒྲིག"
+
+#: ../src/util.c:354
+msgid "Nature and Environment"
+msgstr "རང་བཞིན་དང་མཐའ་འཁོར།"
+
+#: ../src/util.c:355
+msgid "News & Media"
+msgstr "གནས་ཚུལ་བརྡ་བརྒྱུད།(&M)"
+
+#: ../src/util.c:356
+#: ../src/util.c:474
+msgid "Government"
+msgstr "གཞུང་།"
+
+#: ../src/util.c:357
+msgid "Business & Economy"
+msgstr "ཚོང་འབྲེལ་ དཔལ་འབྱོར།།(&E)"
+
+#: ../src/util.c:358
+msgid "Mystics"
+msgstr "ལྷ་སྒོམ་མི་ཚུ།"
+
+#: ../src/util.c:359
+msgid "Travel"
+msgstr "ལམ་འགྲུལ།"
+
+#: ../src/util.c:360
+msgid "Astronomy"
+msgstr "གནམ་རིག"
+
+#: ../src/util.c:361
+msgid "Space"
+msgstr "བར་སྟོང་།"
+
+#: ../src/util.c:362
+msgid "Clothing"
+msgstr "གྱོན་ཆས།"
+
+#: ../src/util.c:363
+msgid "Parties"
+msgstr "ཚོགས་པ་ཚུ།"
+
+#: ../src/util.c:364
+msgid "Women"
+msgstr "ཨམ་སྲུ་ཚུ།"
+
+#: ../src/util.c:365
+msgid "Social science"
+msgstr "མི་སྡེའི་ཚན་རིག"
+
+#: ../src/util.c:366
+msgid "60's"
+msgstr "་་"
+
+#: ../src/util.c:367
+msgid "70's"
+msgstr "༧༠་ཨེསི།"
+
+#: ../src/util.c:368
+msgid "80's"
+msgstr "༨༠་ཨེསི།"
+
+#: ../src/util.c:369
+msgid "50's"
+msgstr "༥༠་ཨེསི།"
+
+#: ../src/util.c:370
+msgid "Finance and Corporate"
+msgstr "དངུལ་རྩིས་དང་ལས་ཁང་།"
+
+#: ../src/util.c:371
+msgid "Entertainment"
+msgstr "ཐུགས་སྤྲོའི་ལས་རིམ།"
+
+#: ../src/util.c:372
+msgid "Consumer Electronics"
+msgstr "སྤྱོད་ཟད་ཀྱི་གློག་ཆས་ཚུ།"
+
+#: ../src/util.c:373
+msgid "Retail Stores"
+msgstr "སིལ་ཚོང་གསོག་འཇོག་ཚུ།"
+
+#: ../src/util.c:374
+msgid "Health and Beauty"
+msgstr "གཟུགས་ཁམས་དང་མཛེས་ཆ།"
+
+#: ../src/util.c:375
+msgid "Media"
+msgstr "བརྡ་བརྒྱུད།"
+
+#: ../src/util.c:376
+msgid "Household Products"
+msgstr "ཁྱིམ་ནང་གི་་ཐོན་སྐྱེད་ཚུ།"
+
+#: ../src/util.c:377
+msgid "Mail Order Catalog"
+msgstr "ཡིག་འཕྲིན་གོ་རིམ་ཐོ་གཞུང་།"
+
+#: ../src/util.c:378
+msgid "Business Services"
+msgstr "ཚོང་འབྲེལ་ཞབས་ཏོག་ཚུ།"
+
+#: ../src/util.c:379
+msgid "Audio and Visual"
+msgstr "རྣར་ཉན་དང་མཐོང་ཆས།"
+
+#: ../src/util.c:380
+msgid "Sporting and Athletic"
+msgstr "རྩེད་རིགས་དང་ལུས་རྩལ་ཅན།"
+
+#: ../src/util.c:381
+msgid "Publishing"
+msgstr "དཔར་བསྐྲུན་འབད་དོ།"
+
+#: ../src/util.c:382
+msgid "Home Automation"
+msgstr "ཁྱིམ་འཕྲུལ་སྤྱོད།"
+
+#: ../src/util.c:388
+msgid "Arabic"
+msgstr "ཨ་ར་བིཀ།"
+
+#: ../src/util.c:389
+msgid "Bhojpuri"
+msgstr "བོཇི་པུརི།"
+
+#: ../src/util.c:390
+msgid "Bulgarian"
+msgstr "བུལ་ག་རི་ཡཱན།"
+
+#: ../src/util.c:391
+msgid "Burmese"
+msgstr "བར་མིསི།"
+
+#: ../src/util.c:392
+msgid "Cantonese"
+msgstr "ཀེན་ཊོ་ནིསི།"
+
+#: ../src/util.c:393
+msgid "Catalan"
+msgstr "ཀེ་ཊ་ལཱན།"
+
+#: ../src/util.c:394
+msgid "Chinese"
+msgstr "རྒྱ་ནག་གི།"
+
+#: ../src/util.c:395
+msgid "Croatian"
+msgstr "ཀོརོ་ཤི་ཡཱན།"
+
+#: ../src/util.c:396
+msgid "Czech"
+msgstr "ཅེཛི།"
+
+#: ../src/util.c:397
+msgid "Danish"
+msgstr "ཌེ་ནིཤ།"
+
+#: ../src/util.c:398
+msgid "Dutch"
+msgstr "ཌཆ།"
+
+#: ../src/util.c:399
+msgid "English"
+msgstr "ཨིང་ལིཤ།"
+
+#: ../src/util.c:400
+msgid "Esperanto"
+msgstr "ཨིསི་པེ་རེན་ཊོ།"
+
+#: ../src/util.c:401
+msgid "Estonian"
+msgstr "ཨིསི་ཊོ་ནི་ཡ།"
+
+#: ../src/util.c:402
+msgid "Farci"
+msgstr "ཕར་སི།"
+
+#: ../src/util.c:403
+msgid "Finnish"
+msgstr "ཕིན་ནིཤ།"
+
+#: ../src/util.c:404
+msgid "French"
+msgstr "ཕིརེནཆ།"
+
+#: ../src/util.c:405
+msgid "Gaelic"
+msgstr "གེ་ལིཀ།"
+
+#: ../src/util.c:406
+msgid "German"
+msgstr "ཇར་མཱན།"
+
+#: ../src/util.c:407
+msgid "Greek"
+msgstr "གི་རིཀ།"
+
+#: ../src/util.c:408
+msgid "Hebrew"
+msgstr "ཧེབ་བིརིའུ།"
+
+#: ../src/util.c:409
+msgid "Hindi"
+msgstr "ཧིན་དི།"
+
+#: ../src/util.c:410
+msgid "Hungarian"
+msgstr "ཧང་ག་རི་ཡཱན།"
+
+#: ../src/util.c:411
+msgid "Icelandic"
+msgstr "ཨའིསི་ལེནཌིཀ།"
+
+#: ../src/util.c:412
+msgid "Indonesian"
+msgstr "ཨིན་ཌོ་ནེ་ཤི་ཡ།"
+
+#: ../src/util.c:413
+msgid "Italian"
+msgstr "ཨི་ཊ་ལི་ཡཱན།"
+
+#: ../src/util.c:414
+msgid "Japanese"
+msgstr "ཇ་པ་ནིསི།"
+
+#: ../src/util.c:415
+msgid "Khmer"
+msgstr "ཁེ་མར།"
+
+#: ../src/util.c:416
+msgid "Korean"
+msgstr "ཀོ་རི་ཡཱན།"
+
+#: ../src/util.c:417
+msgid "Lao"
+msgstr "ལའོ།"
+
+#: ../src/util.c:418
+msgid "Latvian"
+msgstr "ལེཊི་བི་ཡཱན།"
+
+#: ../src/util.c:419
+msgid "Lithuanian"
+msgstr "ལི་ཐུ་འ་ནི་ཡཱན།"
+
+#: ../src/util.c:420
+msgid "Malay"
+msgstr "མ་ལེ།"
+
+#: ../src/util.c:421
+msgid "Norwegian"
+msgstr "ནོར་ཝེ་ཇི་ཡཱན།"
+
+#: ../src/util.c:422
+msgid "Polish"
+msgstr "པོ་ལིཤ།"
+
+#: ../src/util.c:423
+msgid "Portuguese"
+msgstr "མ་ལེ།"
+
+#: ../src/util.c:424
+msgid "Romanian"
+msgstr "རོ་མ་ནི་ཡཱན།"
+
+#: ../src/util.c:425
+msgid "Russian"
+msgstr "ར་ཤི་ཡཱན།"
+
+#: ../src/util.c:426
+msgid "Serbo-Croatian"
+msgstr "སིར་བོ་-ཀོརོ་ཤི་ཡཱན།"
+
+#: ../src/util.c:427
+msgid "Slovak"
+msgstr "སོལོ་བཱཀ།"
+
+#: ../src/util.c:428
+msgid "Slovenian"
+msgstr "སོལོ་བི་ནི་ཡཱན།"
+
+#: ../src/util.c:429
+msgid "Somali"
+msgstr "སོ་མ་ལི།"
+
+#: ../src/util.c:430
+msgid "Spanish"
+msgstr "སིཔེ་ནིཤི།"
+
+#: ../src/util.c:431
+msgid "Swahili"
+msgstr "ས་ཝ་ཧ་ལི།"
+
+#: ../src/util.c:432
+msgid "Swedish"
+msgstr "སའི་ཌིཤི།"
+
+#: ../src/util.c:433
+msgid "Tagalog"
+msgstr "ཏ་ག་ལོག"
+
+#: ../src/util.c:434
+msgid "Tatar"
+msgstr "ཏ་ཏར།"
+
+#: ../src/util.c:435
+msgid "Thai"
+msgstr "ཐཱའི།"
+
+#: ../src/util.c:436
+msgid "Turkish"
+msgstr "ཊར་ཀིཤ།"
+
+#: ../src/util.c:437
+msgid "Ukrainian"
+msgstr "ཡུཀ་རའི་ནི་ཡཱན།"
+
+#: ../src/util.c:438
+msgid "Urdu"
+msgstr "ཨུར་དུ།"
+
+#: ../src/util.c:439
+msgid "Vietnamese"
+msgstr "ཝེཊི་ན་མིསི།"
+
+#: ../src/util.c:440
+msgid "Yiddish"
+msgstr "ཡིད་དིཤ།"
+
+#: ../src/util.c:441
+msgid "Yoruba"
+msgstr "ཡོ་རུ་བ།"
+
+#: ../src/util.c:442
+msgid "Afrikaans"
+msgstr "ཨཕ་རི་ཀཱནསི།"
+
+#: ../src/util.c:443
+msgid "Bosnian"
+msgstr "བོསི་ནི་ཡཱན།"
+
+#: ../src/util.c:444
+msgid "Persian"
+msgstr "པར་ཤི་ཡཱན།"
+
+#: ../src/util.c:445
+msgid "Albanian"
+msgstr "ཨཱལ་བཱ་ནི་ཡཱན།"
+
+#: ../src/util.c:452
+msgid "Elementary School"
+msgstr "གཞི་རིམ་གྱི་སློབ་གྲྭ།"
+
+#: ../src/util.c:453
+msgid "High School"
+msgstr "སློབ་གྲྭ་ཆེ་བ།"
+
+#: ../src/util.c:454
+msgid "College"
+msgstr "མཐོ་རིམ་སློབ་གྲྭ།"
+
+#: ../src/util.c:455
+msgid "University"
+msgstr "གཙུག་ལག་སློབ་གྲྭ།"
+
+#: ../src/util.c:456
+#: ../src/util.c:482
+msgid "Military"
+msgstr "དམག་སྡེ།"
+
+#: ../src/util.c:457
+msgid "Past Work Place"
+msgstr "འདས་པའི་ལཱ་འབད་སའི་ས་སྒོ།"
+
+#: ../src/util.c:458
+msgid "Past Organization"
+msgstr "འདས་པའི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:459
+#: ../src/util.c:517
+msgid "Other"
+msgstr "གཞན།"
+
+#: ../src/util.c:465
+msgid "Academic"
+msgstr "སློབ་རིག་གི།"
+
+#: ../src/util.c:466
+msgid "Administrative"
+msgstr "བདག་སྐྱོང་།"
+
+#: ../src/util.c:467
+msgid "Art/Entertainment"
+msgstr "སྒྱུ་རྩལ/ཐུགས་སྤྲོའི་ལས་རིམ།"
+
+#: ../src/util.c:468
+msgid "College Student"
+msgstr "མཐོ་རིམ་སློབ་གྲྭའི་སློབ་ཕྲུག"
+
+#: ../src/util.c:470
+msgid "Community & Social"
+msgstr "མི་སྡེ་ མི་སྡེ།(&S)"
+
+#: ../src/util.c:471
+msgid "Education"
+msgstr "ཤེས་རིག"
+
+#: ../src/util.c:472
+msgid "Engineering"
+msgstr "བཟོ་འཆར་བརྩམ་ནི།"
+
+#: ../src/util.c:473
+msgid "Financial Services"
+msgstr "དངུལ་རྩིས་ཞབས་ཏོག་ཚུ།"
+
+#: ../src/util.c:475
+msgid "High School Student"
+msgstr "སློབ་གྲྭ་ཆེ་བའི་སློབ་ཕྲུག"
+
+#: ../src/util.c:476
+#: ../ui/user_info.glade.h:28
+msgid "Home"
+msgstr "ཁྱིམ།"
+
+#: ../src/util.c:478
+msgid "Law"
+msgstr "ལཱ།"
+
+#: ../src/util.c:479
+msgid "Managerial"
+msgstr "འཛིན་སྐྱོང་དང་འབྲེལ་བའི།"
+
+#: ../src/util.c:480
+msgid "Manufacturing"
+msgstr "བཟོ་བསྐྲུན་འབད་དོ།"
+
+#: ../src/util.c:481
+msgid "Medical/Health"
+msgstr "གསོ་བའི/གཟུགས་ཁམས།"
+
+#: ../src/util.c:483
+msgid "Non-Government Organization"
+msgstr "གཞུང་མིན་ཚོགས་སྡེ།"
+
+#: ../src/util.c:484
+msgid "Professional"
+msgstr "ཁྱད་ལས།"
+
+#: ../src/util.c:485
+msgid "Retail"
+msgstr "སིལ་ཚོང་།"
+
+#: ../src/util.c:486
+msgid "Retired"
+msgstr "དགོངས་ཞུ་འབད་ཡོདཔ།"
+
+#: ../src/util.c:487
+msgid "Science & Research"
+msgstr "ཚན་རིག་ ཞིབ་འཚོལ།(&R)"
+
+#: ../src/util.c:489
+msgid "Technical"
+msgstr "ཐབས་རིག"
+
+#: ../src/util.c:490
+msgid "University Student"
+msgstr "གཙུག་ལག་གི་སློབ་ཕྲུག"
+
+#: ../src/util.c:491
+msgid "Web Building"
+msgstr "ཝེབ་བཟོ་བརྩིགས་འབད་དོ།"
+
+#: ../src/util.c:492
+msgid "Other Services"
+msgstr "གཞན་ཞབས་ཏོག་ཚུ།"
+
+#: ../src/util.c:498
+msgid "Alumni Org."
+msgstr "སློབ་ཕྲུག་བགྲེས་པའི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:499
+msgid "Charity Org."
+msgstr "སྦྱིན་པའི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:500
+msgid "Club/Social Org."
+msgstr "ཚོགས་ཕྲན/མི་སྡེའི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:501
+msgid "Community Org."
+msgstr "མི་སྡེའི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:502
+msgid "Cultural Org."
+msgstr "ལམ་སྲོལ་གྱི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:503
+msgid "Fan Clubs"
+msgstr "སྤྲོ་བ་ཡོད་མི་ཚོགས་ཕྲན་ཚུ།"
+
+#: ../src/util.c:504
+msgid "Fraternity/Sorority"
+msgstr "མཐུན་ཚོགས/སོ་རོ་རི་ཊི།"
+
+#: ../src/util.c:505
+msgid "Hobbyists Org."
+msgstr "སྤྲོ་ལཱ་འབད་མི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:506
+msgid "International Org."
+msgstr "རྒྱལ་སྤྱི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:507
+msgid "Nature and Environment Org."
+msgstr "རང་བཞིན་དང་མཐའ་འཁོར་ཚོགས་སྡེ།"
+
+#: ../src/util.c:508
+msgid "Professional Org."
+msgstr "ཁྱད་རིག་ལཱ་གི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:509
+msgid "Scientific/Technical Org."
+msgstr "ཚན་རིག་གི་/ཐབས་རིག་གི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:510
+msgid "Self Improvement Group"
+msgstr "རང་ཉིད་ལེགས་བཟོ་སྡེ་ཚན།"
+
+#: ../src/util.c:511
+msgid "Spiritual/Religious Org."
+msgstr "སེམས་ཁམས་ཀྱི/ཆོས་སེམས་ཅན་གྱི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:512
+msgid "Sports Org."
+msgstr "རྩེད་རིགས་ཚུའི་ཚོགས་སྡེ།"
+
+#: ../src/util.c:513
+msgid "Support Org."
+msgstr "རྒྱབ་སྐྱོར་ཚོགས་སྡེ།"
+
+#: ../src/util.c:514
+msgid "Trade and Business Org."
+msgstr "ཉོ་ཚོང་དང་ཚོང་འབྲེལ་ཚོགས་སྡེ།"
+
+#: ../src/util.c:515
+msgid "Union"
+msgstr "འདུས་ཚོགས།"
+
+#: ../src/util.c:516
+msgid "Voluntary Org."
+msgstr "ཁས་བླང་ཚོགས་སྡེ།"
+
+#: ../src/util.c:1011
+msgid "Web Message"
+msgstr "ཝེབ་འཕྲིན་དོན།"
+
+#: ../src/util.c:1158
+#, c-format
+msgid ""
+"Unable to load Glade user interface file: %s.\n"
+"Make sure the file is accessible."
+msgstr ""
+"གེལེཌི་ལག་ལེན་པའི་ངོས་འདྲ་བའི་ཡིག་སྣོད་མངོན་གསལ་འབད་མི་ཚུགསཔ། %s.\n"
+"ཡིག་སྣོད་འདི་འཛུལ་སྤྲོད་འབད་བཏུབ་ངེས་གཏན་བཟོ།"
+
+#: ../src/v7base.c:677
+msgid "Invalid SNAC header."
+msgstr "ནུས་མེད་ཨེསི་ཨེན་ཨེ་སི་མགོ་ཡིག"
+
+#: ../src/v7base.c:679
+msgid "Server rate limit exceeded"
+msgstr "སར་བར་མགྱོགས་ཚད་ཀྱི་ཚད་ལྷག་ཡོདཔ།"
+
+#: ../src/v7base.c:681
+msgid "Client rate limit exceeded"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་མགྱོགས་ཚད་ཀྱི་ཚད་ལྷག་ཡོདཔ།"
+
+#: ../src/v7base.c:683
+msgid "Recipient is not logged in"
+msgstr "ཐོབ་མཁན་འདི་ནང་བསྐྱོད་འབད་མེད།"
+
+#: ../src/v7base.c:685
+msgid "Requested service unavailable"
+msgstr "ཞུ་བའི་ཞབས་ཏོག་ཐོབ་མ་ཚུགསཔ།"
+
+#: ../src/v7base.c:687
+msgid "Requested service not defined"
+msgstr "ཞུ་བའི་ཞབས་ཏོག་ངེས་འཛིན་འབད་མེདཔ།"
+
+#: ../src/v7base.c:689
+msgid "You sent obsolete SNAC"
+msgstr "ཁྱོད་ཀྱིས་ཕན་མེད་ཨེསི་ཨེན་ཨེ་སི་བཏང་ཡོདཔ།"
+
+#: ../src/v7base.c:691
+msgid "Not supported by server"
+msgstr "སར་བར་གྱིས་རྒྱབ་སྐྱོར་འབད་མེདཔ།"
+
+#: ../src/v7base.c:693
+msgid "Not supported by client"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གིས་རྒྱབ་སྐྱོར་འབད་མེདཔ།"
+
+#: ../src/v7base.c:695
+msgid "Refused by client"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གིས་ངོས་ལེན་མ་འབད་བར་ཡོདཔ།"
+
+#: ../src/v7base.c:697
+msgid "Reply too big"
+msgstr "ལེན་སེལ་གནམ་མེད་ས་མེད་སྦོམ།"
+
+#: ../src/v7base.c:699
+msgid "Responses lost"
+msgstr "ལན་ཚུ་བརླག་སྟོར་ཞུགས་ཡོདཔ།"
+
+#: ../src/v7base.c:701
+msgid "Request denied"
+msgstr "ཞུ་བ་ངོས་ལེན་མ་འབད་བར་ཡོདཔ།"
+
+#: ../src/v7base.c:703
+msgid "Incorrect SNAC format"
+msgstr "བདེན་མེད་ཨེསི་ཨེན་ཨེ་སི་རྩ་སྒྲིག"
+
+#: ../src/v7base.c:705
+msgid "Insufficient rights"
+msgstr "ཐོབ་དབང་མ་ལངམ།"
+
+#: ../src/v7base.c:707
+msgid "In local permit/deny (recipient blocked)"
+msgstr "ཉེ་གནས་ཆོག་པ་/ངོས་ལེན་མི་འབད་ནི་ནང་(ཐོབ་མཁན་བཀག་ཡོདཔ།)"
+
+#: ../src/v7base.c:709
+msgid "Sender too evil"
+msgstr "གཏང་མི་གནམ་མེད་ས་མེད་གནོད་འབྲས་ཅན་ཨིན་མས།"
+
+#: ../src/v7base.c:711
+msgid "Receiver too evil"
+msgstr "ཐོབ་མི་གནམ་མེད་ས་མེད་གནོད་འབྲས་ཅན་ཨིན་མས།"
+
+#: ../src/v7base.c:713
+msgid "User temporarily unavailable"
+msgstr "ལག་ལེན་པ་གནས་སྐབས་ཅིག་ཐོབ་མ་ཚུགསཔ།"
+
+#: ../src/v7base.c:715
+msgid "No match"
+msgstr "མཐུན་སྒྲིག་མེད།"
+
+#: ../src/v7base.c:717
+msgid "List overflow"
+msgstr "ཐོ་ཡིག་ལུད་སོང་་བ།"
+
+#: ../src/v7base.c:719
+msgid "Request ambiguous"
+msgstr "ཞུ་བ་ངེས་མེད།"
+
+#: ../src/v7base.c:721
+msgid "Server queue full"
+msgstr "སར་བར་གྱལ་གངམ།"
+
+#: ../src/v7base.c:723
+msgid "Not while on AOL"
+msgstr "ཨེ་ཨོ་ཨེལ་གུ་ཨིན་པའི་སྐབས་མེདཔ།"
+
+#: ../src/v7base.c:726
+msgid "Unknown error\n"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་\n"
+
+#: ../src/v7login.c:68
+#, c-format
+msgid ""
+"Cannot resolve address of ICQ login server (%s):\n"
+"%s"
+msgstr ""
+"ཨའི་སི་ཀིའུ་ནག་བསྐྱོད་སར་བར་གྱི་ཁ་བྱང་ཧུམ་ཆ་འབད་མི་ཚུགསཔ། (%s):\n"
+"%s"
+
+#: ../src/v7login.c:255
+#, c-format
+msgid "Unknown TLV on login type: %d\n"
+msgstr "ནང་བསྐྱོད་དབྱེ་བ་གུ་མ་ཤེས་པའི་ཊི་ཨེལ་ཝི། %d\n"
+
+#: ../src/v7login.c:267
+msgid "No UIN in login message"
+msgstr "ནང་བསྐྱོད་འཕྲིན་དོན་ནང་ཡུ་ཨའི་ཨེན་མེད།"
+
+#: ../src/v7login.c:270
+msgid "No Server Address in login message"
+msgstr "ནང་བསྐྱོད་འཕྲིན་དོན་ནང་སར་བར་ཁ་བྱང་མེད།"
+
+#: ../src/v7login.c:273
+msgid "No cookie in login message"
+msgstr "ནང་བསྐྱོད་འཕྲིན་དོན་ནང་ཀུ་ཀི་མེད།"
+
+#: ../src/v7login.c:281
+#, c-format
+msgid "Can't parse server name returned by server (%s)\n"
+msgstr "སར་བར་གྱིས་སླར་ལོག་ཡོད་མི་སར་བར་མིང་མིང་དཔྱད་འབད་མི་ཚུགསཔ། (%s)\n"
+
+#: ../src/v7login.c:311
+#, c-format
+msgid ""
+"Error %x on connection:\n"
+" Too many clients from the same IP address"
+msgstr ""
+"མཐུད་ལམ་གུ་ %x འཛོལ་བ།\n"
+" ཨའི་པི་ཁ་བྱང་ཅོག་འཐདཔ་ལས་ཞབས་ཏོག་སྤྱོད་མི་གནམ་མེད་ས་མེད་ཡོདཔ།"
+
+#: ../src/v7login.c:315
+#, c-format
+msgid "Error %x on connection: Rate exceeded"
+msgstr "མཐུད་ལམ་གུ་ %x འཛོལ་བ་ མགྱོགས་ཚད་ལྷག་ཡོདཔ།"
+
+#: ../src/v7login.c:319
+#, c-format
+msgid "Error %x on connection: please try again"
+msgstr "མཐུད་ལམ་གུ་ %x འཛོལ་བ་ ལོག་འབད་རྩེལ་བསྐྱེད་གནང་།"
+
+#: ../src/v7login.c:325
+#, c-format
+msgid "Error %x on connection: Unknown"
+msgstr "མཐུད་ལམ་མ་ཤེསཔ་གུ་ %x འཛོ་ལབ།"
+
+#: ../src/v7login.c:339
+#, c-format
+msgid ""
+"Unknown error\n"
+" %s"
+msgstr ""
+"མ་ཤེས་པའི་འཛོལ་བ།\n"
+" %s"
+
+#: ../src/v7login.c:358
+msgid "Very very bizarre error when connecting.\n"
+msgstr "མཐུད་ལམ་མཐུད་པའི་སྐབས་གནམ་མེད་ས་མེད་གནམ་མེད་ས་མེད་བི་ཛ་རི་འཛོལ་བ།\n"
+
+#: ../src/v7login.c:413
+#: ../src/v7newuser.c:259
+msgid "Something very abnormal happened\n"
+msgstr "ག་ཅི་ཨིན་ན་ཅིག་གནམ་མེད་ས་མེད་ཨ་རྟག་དང་མ་འདྲཝ་ཅིག་འབད་ནུག\n"
+
+#: ../src/v7newuser.c:106
+#, c-format
+msgid ""
+"Can't connect to server\n"
+"Creating new user failed\n"
+" Error: %s (%d)"
+msgstr ""
+"སར་བར་ལུ་མཐུད་མ་ཚུགསཔ་\n"
+"ལག་ལེན་པ་གསརཔ་གསར་བསྐྲུན་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ་\n"
+"འཛོལ་བ %s (%d)"
+
+#: ../src/v7newuser.c:141
+msgid ""
+"Can't connect to server\n"
+" Adding new user failed"
+msgstr ""
+"སར་བར་ལུ་མཐུད་མ་ཚུགསཔ\n"
+" ལག་ལེན་པ་གསརཔ་ཁ་སྐོང་བརྐྱབ་ནི་འཐུས་ཤོར་འབྱུང་ཡོདཔ།"
+
+#: ../src/v7newuser.c:248
+#, c-format
+msgid ""
+"The ICQ server does not allow you to create a new user\n"
+"Exiting GnomeICU\n"
+"%s"
+msgstr ""
+"ཨའི་སི་ཀིའུ་སར་བར་གྱིས་ཁྱོད་ལུ་ལག་ལེན་པའི་ཕྱིར་ཐོན་ཇི་ནོམ་ཨའི་སི་ཡུ་ཅིག་\n"
+"གསར་བསྐྲུན་འབད་མི་བཅུག་པས།\n"
+"%s"
+
+#: ../src/v7newuser.c:255
+msgid "Bizzare things happened, we dont have the right snac!\n"
+msgstr "བི་ཛ་རི་ལ་ཤ་འབྱུང་་ཡོདཔ་ལས་ ང་བཅས་ལུ་ངེས་བདེན་ཨེསི་ཨེན་ཨེ་སི་མེད!\n"
+
+#: ../src/v7recv.c:200
+msgid "Server forced disconnect."
+msgstr "སར་བར་བང་བཙོང་ཡོད་མི་མཐུད་ལམ་བཏོག་ནི།"
+
+#: ../src/v7recv.c:209
+#, c-format
+msgid "New unknown channel: %d"
+msgstr "མ་ཤེས་པའི་རྒྱུན་ལམ་གསརཔ། %d"
+
+#: ../src/v7recv.c:434
+msgid "Unknown packet on login on main server\n"
+msgstr "སར་བར་གཙོ་བོ་གུ་ནང་བསྐྱོད་གུ་མ་ཤེས་པའི་འཕྲིན་ཚན།\n"
+
+#: ../src/v7recv.c:656
+#, c-format
+msgid "MSGLEN TOO LONG: %d > %d\n"
+msgstr "ཨེམ་ཨེསི་ཇི་ཨེལ་ཨི་ཨེན་གནམ་མེད་ས་མེད་རིངམ། %d > %d\n"
+
+#: ../src/v7recv.c:771
+#, c-format
+msgid "Special message type not handled, type: %x, text: %s\n"
+msgstr "དམིགས་བསལ་འཕྲིན་དོན་དབྱེ་བ་ལེགས་སྐྱོང་འཐབ་མེདཔ་ ཚིག་ཡིག་ %x, དབྱེ་བ། %s\n"
+
+#: ../src/v7recv.c:2271
+msgid "You are sending messages too fast, your last message has been dropped, please wait 10 seconds and resend. If you continue sending messages at that speed, you will be disconnected by the server. Please give it a break."
+msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་ཚུ་གནམ་མེད་ས་མེད་མགྱོགས་དྲག་སྦེ་གཏངམ་ལས་ ཁྱོད་ཀྱི་མཇུག་གི་འཕྲིན་དོན་དེ་བཀོག་བཞག་ཡོདཔ་ སྐར་ཆག་༡༠་བསྒུག་འབད་ལོག་གཏང་གནང་། ཁྱོད་ཀྱིས་འཕྲིན་དོན་དེ་མགྱོགས་ཚད་དེ་ཁར་རང་འཕྲོ་མཐུད་གཏང་པ་ཅིན་ སར་བར་གྱིས་ཁྱོད་མཐུད་ལམ་བཏོག་གཏང་འོང་། མཚམས་ཅིག་བྱིན་གནང་།"
+
+#: ../src/v7send.c:229
+msgid "Cannot remove main input watcher!"
+msgstr "ཨིན་པུཊི་བལྟ་ཞིབ་འབད་མི་གཙོ་བོ་རྩ་བསྐྲད་གཏང་མ་ཚུགས།!"
+
+#: ../src/v7send.c:235
+msgid "Cannot remove main error watcher"
+msgstr "བལྟ་ཞིབ་འཛོལ་བ་གཙོ་བོ་རྩ་བསྐྲད་གཏང་མ་ཚུགས།"
+
+#: ../src/v7send.c:271
+msgid "Cannot remove other input watcher!"
+msgstr "གཞན་ཨིན་པུཊི་བལྟ་ཞིབ་འབད་མི་རྩ་བསྐྲད་གཏང་མ་ཚུགསཔ།!"
+
+#: ../src/v7send.c:276
+msgid "Cannot remove other error watcher!"
+msgstr "གཞན་བལྟ་ཞིབ་འབད་འཛོ་ལབ་རྩ་བསྐྲད་གཏང་མ་ཚུགསཔ།!"
+
+#: ../src/visible.c:48
+msgid "Visible List"
+msgstr "མཐོང་ཚུགས་པའི་ཐོ་ཡིག"
+
+#: ../src/visible.c:49
+msgid ""
+"Drag the users you wish to add to your\n"
+"visible list into this window\n"
+msgstr ""
+"ལག་ལེན་པ་ཚུ་ཁྱོད་ཀྱིས་མནོ་མི་མཐོང་ཚུགས་པའི་ཐོ་ཡིག་ལུ་\n"
+"ཝིནཌོ་འདི་ནང་ན་འདྲུད་འབག\n"
+
+#: ../ui/addcontact.glade.h:1
+msgid "<span weight=\"bold\">Contact Information</span>"
+msgstr "<span weight=\"bold\">འབྲེལ་བ་འཐབ་ནི་བརྡ་དོན</span>"
+
+#: ../ui/addcontact.glade.h:2
+msgid "<span weight=\"bold\">Search Results</span>"
+msgstr "<span weight=\"bold\">འགྲུབ་འབྲས་ཚུ་འཚོལ་ཞིབ་འབད།</span>"
+
+#: ../ui/addcontact.glade.h:3
+msgid "Add Contact"
+msgstr "འབྲེལ་ས་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../ui/addcontact.glade.h:4
+msgid "Add to _group:"
+msgstr "སྡེ་ཚན་ལུ་ཁ་སྐོང་བརྐྱབ།(_g)"
+
+#: ../ui/addcontact.glade.h:5
+msgid "_E-Mail Address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་།(_E)"
+
+#: ../ui/addcontact.glade.h:6
+#: ../ui/user_info.glade.h:77
+msgid "_First Name:"
+msgstr "མིང་དང་པམ།(_F)"
+
+#: ../ui/addcontact.glade.h:7
+#: ../ui/user_info.glade.h:80
+msgid "_ICQ Number:"
+msgstr "ཨའི་སི་ཀིའུ་ཨང་།(_I)"
+
+#: ../ui/addcontact.glade.h:8
+#: ../ui/user_info.glade.h:81
+msgid "_Last Name:"
+msgstr "མཇུག་མིང་།(_L)"
+
+#: ../ui/addcontact.glade.h:9
+#: ../ui/user_info.glade.h:82
+msgid "_Nickname:"
+msgstr "སྐྱོན་མིང་།(_N)"
+
+#: ../ui/auth.glade.h:1
+msgid "Add to Group:"
+msgstr "སྡེ་ཚན་ལུ་ཁ་སྐོང་བརྐྱབ།"
+
+#: ../ui/auth.glade.h:3
+msgid "_Add User"
+msgstr "རང་བཞིན་ལག་ལེན་པ།(_A)"
+
+#: ../ui/auth.glade.h:4
+msgid "_Decline"
+msgstr "ཁ་མི་བཟེད་ནི།(_D)"
+
+#: ../ui/auth.glade.h:5
+msgid "_Grant Authorization"
+msgstr "དབང་སྤྲོད་བྱིན་ཡོདཔ།(_G)"
+
+#: ../ui/auto_respond.glade.h:1
+msgid "<b>Enter your auto respond message in the area below or select one of the predefined message from the list.</b>"
+msgstr "<b>འོག་གི་མངའ་ཁོངོས་ནང་ཁྱོད་རང་གི་རང་བཞིན་ལན་འཕྲིན་དོན་བཙུགས་ཡང་ན་ཐོ་ཡིག་ལས་སྔ་སྒོང་ངེས་འཛིན་འབད་ཡོད་མི་འཕྲིན་དོན་གྱི་གཅིག་སེལ་འཐུ་འབད།</b>"
+
+#: ../ui/auto_respond.glade.h:2
+msgid "Auto Respond Message"
+msgstr "རང་བཞིན་ལན་བཀོད་འཕྲིན་དོན།"
+
+#: ../ui/auto_respond.glade.h:3
+msgid "Predefined Message List:"
+msgstr "སྔོ་སྒོང་ངེས་འཛིན་འབད་ཡོད་པའི་འཕྲིན་དོན་ཐོ་ཡིག"
+
+#: ../ui/filexfer.glade.h:1
+msgid "<span weight=\"bold\">Files</span>"
+msgstr "<span weight=\"bold\">ཡིག་སྣོད་ཚུ།</span>"
+
+#: ../ui/filexfer.glade.h:2
+msgid "<span weight=\"bold\">Reason</span>"
+msgstr "<span weight=\"bold\">རྒྱུ་མཚན།</span>"
+
+#: ../ui/filexfer.glade.h:3
+msgid "Add files..."
+msgstr "ཡིག་སྣོད་ཚུ་ཁ་སྐོང་བརྐྱབ་་་"
+
+#: ../ui/filexfer.glade.h:4
+msgid "Remove files"
+msgstr "ཡིག་སྣོད་ཚུ་རྩ་བསྐྲད་གཏང་།"
+
+#: ../ui/filexfer.glade.h:5
+msgid "Send Files"
+msgstr "ཡིག་སྣོད་ཚུ་གཏང་།"
+
+#: ../ui/grpmgr.glade.h:1
+#: ../ui/history.glade.h:1
+#: ../ui/user_info.glade.h:1
+#: ../ui/welcome.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: ../ui/grpmgr.glade.h:2
+msgid "Manage Groups"
+msgstr "སྡེ་ཚན་ཚུ་འཛིན་སྐྱོང་འབད།"
+
+#: ../ui/grpmgr.glade.h:3
+msgid "Re_name"
+msgstr "བསྐྱར་མིང་བཏགས།(_n)"
+
+#: ../ui/grpmgr.glade.h:4
+msgid "Type a group name to add a new group, or select a group from the list below to delete or rename."
+msgstr "སྡེ་ཚན་གསརཔ་ཅིག་ཁ་སྐོང་བརྐྱབ་ནི་ལུ་སྡེ་ཚན་མིང་ཅིག་ཡིག་དཔར་བརྐྱབ་ཡང་ན་འོག་གི་ཐོ་ཡིག་ལས་སྡེ་ཚན་ཅིག་བཏོན་གཏང་རུང་ཡང་ན་བསྐྱར་མིང་བཏགས་ནི་སེལ་འཐུ་འབད།"
+
+#: ../ui/history.glade.h:2
+msgid "C_lear"
+msgstr "བསལ།(_l)"
+
+#: ../ui/history.glade.h:3
+msgid "Message History"
+msgstr "འཕྲིན་དོན་ལོ་རྒྱུས།"
+
+#: ../ui/listwindow.glade.h:1
+msgid "User's _Info"
+msgstr "ལག་ལེན་པའི་བརྡ་དོན།(_I)"
+
+#: ../ui/listwindow.glade.h:2
+msgid "_Remove User"
+msgstr "ལག་ལེན་པ་རྩ་བསྐྲད་གཏང་།(_R)"
+
+#: ../ui/main.glade.h:1
+msgid "All Contacts"
+msgstr "འབྲེལ་བ་འཐབ་ནི་ཚུ་ཆ་མཉམ།"
+
+#: ../ui/main.glade.h:2
+msgid "Change Account _Info..."
+msgstr "རྩིས་ཐོ་བརྡ་དོན་བསྒྱུར་བཅོས་འབད།(_I)་་་"
+
+#: ../ui/main.glade.h:4
+msgid "GnomeICU _Home..."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ཁྱིམ།(_H)་་་"
+
+#: ../ui/main.glade.h:5
+msgid "GnomeICU _Updates..."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་དུས་མཐུན་བཟོ་ནི་ཚུ།(_U)་་་"
+
+#: ../ui/main.glade.h:6
+msgid "Invi_sible List..."
+msgstr "མཐོང་ཚུགས་པའི་ཐོ་ཡིག(_s)་་༌"
+
+#: ../ui/main.glade.h:7
+msgid "Manage _Groups..."
+msgstr "སྡེ་ཚན་ཚུ་འཛིན་སྐྱོང་འབད།(_G)་་་"
+
+#: ../ui/main.glade.h:9
+msgid "_Account"
+msgstr "རྩིས་ཐོ།(_A)"
+
+#: ../ui/main.glade.h:10
+msgid "_Add Contact..."
+msgstr "འབྲེལ་བ་འཐབ་ནི་ཁ་སྐོང་བརྐྱབ།(_A)་་་"
+
+#: ../ui/main.glade.h:11
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ།(_C)"
+
+#: ../ui/main.glade.h:12
+msgid "_Ignore List..."
+msgstr "ཐོ་ཡིག་སྣང་མེད་བཞག(_I)་་་"
+
+#: ../ui/main.glade.h:13
+msgid "_Online Notify List..."
+msgstr "གློག་ཐོག་བརྡ་བསྐུལ་ཐོ་ཡིག(_O)་་་"
+
+#: ../ui/main.glade.h:14
+msgid "_Tools"
+msgstr "ལག་ཆས་ཚུ།(_T)"
+
+#: ../ui/main.glade.h:15
+msgid "_Visible List..."
+msgstr "མཐོང་ཚུགས་པའི་ཐོ་ཡིག(_V)་་་"
+
+#: ../ui/message.glade.h:1
+msgid "Chat _mode"
+msgstr "ཁ་སླབ་ཐབས་ལམ།(_m)"
+
+#: ../ui/message.glade.h:2
+msgid "Message"
+msgstr "འཕྲིན་དོན།"
+
+#: ../ui/message.glade.h:4
+msgid "_Don't close on send"
+msgstr "གཏང་ནི་གུ་ཁ་བསྡམ།(_D)"
+
+#: ../ui/prefs.glade.h:1
+msgid "<b>GnomeICU Emoticon Themes</b>"
+msgstr "<b>ཇི་ནོམ་ཨའི་སི་ཡུ་གདོང་ཚབ་བརྗོད་དོན་ཚུ།</b>"
+
+#: ../ui/prefs.glade.h:2
+msgid "<b>GnomeICU Icon Themes</b>"
+msgstr "<b>ཇི་ནོམ་ཨའི་སི་ཡུ་ངོས་དཔར་བརྗོད་དོན་ཚུ།</b>"
+
+#: ../ui/prefs.glade.h:3
+msgid "<span weight=\"bold\">Colors</span>"
+msgstr "<span weight=\"bold\">ཚོས་གཞི་ཚུ།</span>"
+
+#: ../ui/prefs.glade.h:4
+msgid "<span weight=\"bold\">File transfers</span>"
+msgstr "<span weight=\"bold\">ཡིག་སྣོད་གནས་སོར་གཏངམ་ཨིན།</span>"
+
+#: ../ui/prefs.glade.h:5
+msgid "<span weight=\"bold\">Run Program on Events</span>"
+msgstr "<span weight=\"bold\">འབྱུང་ལས་ཚུ་གུ་ལས་རིམ་གཡོག་བསྐུལ།</span>"
+
+#: ../ui/prefs.glade.h:6
+msgid "<span weight=\"bold\">Sounds</span>"
+msgstr "<span weight=\"bold\">སྒྲ་སྐད་ཚུ།</span>"
+
+#: ../ui/prefs.glade.h:7
+msgid "Auto Away"
+msgstr "རང་བཞིན་ཕྱི་ཁ།"
+
+#: ../ui/prefs.glade.h:8
+msgid "Automatically accept file transfers"
+msgstr "རང་བཞིན་གྱིས་ཡིག་སྣོད་གནས་སོར་ཚུ་ངོས་ལེན་འབད།"
+
+#: ../ui/prefs.glade.h:9
+msgid "Automatically popup message windows"
+msgstr "རང་བཞིན་གྱིས་པོཔ་ཨཔ་འཕྲིན་དོན་ཝིནཌོསི།"
+
+#: ../ui/prefs.glade.h:10
+msgid "Automatically reconnect on forced disconnection"
+msgstr "རང་བཞིན་གྱིས་བང་བཙོང་མཐུད་ལམ་བཏོག་ཡོད་མི་གུ་སླར་མཐུད་ལམ་མཐུདཔ།"
+
+#: ../ui/prefs.glade.h:12
+msgid "Away Message:"
+msgstr "ཕྱི་ཁའི་འཕྲིན་དོན།"
+
+#: ../ui/prefs.glade.h:13
+msgid ""
+"Character set to use when no encoding\n"
+"information is provided with a message:"
+msgstr ""
+"ཨིན་ཀོ་ཌིང་མེད་པའི་སྐབས་ཡིིག་འབྲུ་གཞི་སྒྲིག་ལག་ལེན་འཐབ་བཏུབ\n"
+"བརྡ་དོན་འདི་འཕྲིན་དོན་ཅིག་དང་གཅིག་ཁར་བྲིན་ཡོདཔ།"
+
+#: ../ui/prefs.glade.h:15
+msgid "Connect to server on startup"
+msgstr "འགོ་བཙུགས་གུ་སར་བར་ལུ་མཐུད་ལམ་མཐུད།"
+
+#: ../ui/prefs.glade.h:16
+msgid "Connections"
+msgstr "མཐུད་ལམ་ཚུ།"
+
+#: ../ui/prefs.glade.h:17
+msgid "Control-Enter"
+msgstr "ཚཐ་འཛིན་བཙུགས།"
+
+#: ../ui/prefs.glade.h:18
+msgid "Default Downloads Folder"
+msgstr "སྔོན་སྒྲིག་ཕབ་ལེན་ཚུའི་སྣོད་འཛིན།"
+
+#: ../ui/prefs.glade.h:19
+msgid "Disable sounds when away"
+msgstr "ཕྱི་ཁའི་སྐབས་སྒྲ་སྐད་ཚུ་ལྕོགས་མིན་བཟོ།"
+
+#: ../ui/prefs.glade.h:21
+msgid "Do not close message window when sending a message"
+msgstr "འཕྲིན་དོན་ཅིག་གཏང་བའི་སྐབས་འཕྲིན་དོན་ཝིནཌོ་ཁ་མ་བསྡམ།"
+
+#: ../ui/prefs.glade.h:22
+msgid "Downloads folder: "
+msgstr "སྣོད་འཛིན་ཕབ་ལེན་འབདཝ་ཨིན།"
+
+#: ../ui/prefs.glade.h:23
+msgid "Enable beeps"
+msgstr "བརྡ་སྐད་བཏོན་ནི་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../ui/prefs.glade.h:24
+msgid "Enable sounds"
+msgstr "སྒྲ་སྐད་ཚུ་ལྕོགས་ཅན་བཟོ།"
+
+#: ../ui/prefs.glade.h:25
+msgid "Enter"
+msgstr "བཙུགས།"
+
+#: ../ui/prefs.glade.h:27
+msgid "GnomeICU Preferences"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་དགའ་གདམ་ཚུ།"
+
+#: ../ui/prefs.glade.h:28
+msgid "Go To GNOME Sound Preferences"
+msgstr "ཇི་ནོམ་སྒྲ་སྐད་དགའ་གདམ་ཚུ་ལུ་འགྱོ།"
+
+#: ../ui/prefs.glade.h:29
+msgid "Highlight misspelled words"
+msgstr "སྡེབ་འཛོལ་བའི་མིང་ཚིག་ཚུ་གཙོ་དམིགས་བཀལ།"
+
+#: ../ui/prefs.glade.h:35
+msgid "Pick a color"
+msgstr "ཚོས་གཞི་ཅིག་འཐུ།"
+
+#: ../ui/prefs.glade.h:36
+msgid "Set as default"
+msgstr "སྔོན་སྒྲིག་བཟུམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../ui/prefs.glade.h:37
+msgid "Sounds/Events"
+msgstr "སྒྲ་སྐད་ཚུ/འབྱུང་ལས་ཚུ།"
+
+#: ../ui/prefs.glade.h:38
+msgid "Status"
+msgstr "གནས་ཚད།"
+
+#: ../ui/prefs.glade.h:39
+msgid "Themes"
+msgstr "བརྗོད་དོན་ཚུ།"
+
+#: ../ui/prefs.glade.h:40
+msgid "To send a mesage press (the other one inserts a new line):"
+msgstr "འཕྲིན་དོན་ཅིག་གཏང་ནི་ལུ་(གྱལ་གསརཔ་ཅིག་བཙུགས་མི་གཞན་གཅིག་)ཨེབ།"
+
+#: ../ui/prefs.glade.h:41
+msgid "User Interface"
+msgstr "ལག་ལེན་པའི་ངོས་འདྲ་བ།"
+
+#: ../ui/prefs.glade.h:42
+msgid "after"
+msgstr "ཤུལ་མ།"
+
+#: ../ui/prefs.glade.h:43
+msgid "icq preferences"
+msgstr "ཨའི་སི་ཀིའུ་དགའ་གདམ་ཚུ།"
+
+#: ../ui/prefs.glade.h:44
+msgid "minutes"
+msgstr "སྐར་མ་ཚུ།"
+
+#: ../ui/user_info.glade.h:2
+msgid "<big><b>Passwords do not match!!!</b></big>"
+msgstr "<big><b>ཆོག་ཡིག་མཐུན་སྒྲིག་མི་འབད་བས!!!</b></big>"
+
+#: ../ui/user_info.glade.h:3
+msgid "<span weight=\"bold\">About</span>"
+msgstr "<span weight=\"bold\">སྐོར་ལས།</span>"
+
+#: ../ui/user_info.glade.h:4
+msgid "<span weight=\"bold\">Organizations</span>"
+msgstr "<span weight=\"bold\">ཚོགས་སྡེ།</span>"
+
+#: ../ui/user_info.glade.h:5
+msgid "<span weight=\"bold\">Past Affiliations</span>"
+msgstr "<span weight=\"bold\">འདས་པའི་འབྲེལ་གཏོགས་ཚུ།</span>"
+
+#: ../ui/user_info.glade.h:6
+msgid "<span weight=\"bold\">Personal Interests</span>"
+msgstr "<span weight=\"bold\">རང་དོན་སྤྲོ་བ་ཚུ།</span>"
+
+#: ../ui/user_info.glade.h:7
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: ../ui/user_info.glade.h:8
+msgid "Affiliations"
+msgstr "འབྲེལ་གཏོགས་ཚུ།"
+
+#: ../ui/user_info.glade.h:9
+msgid "Age:"
+msgstr "ལོ།"
+
+#: ../ui/user_info.glade.h:10
+msgid "Auth:"
+msgstr "དབང་སྤྲོད།"
+
+#: ../ui/user_info.glade.h:11
+msgid "Authorization _required"
+msgstr "དབང་སྤྲོད་དགོས་མཁོ་ཡོདཔ།"
+
+#: ../ui/user_info.glade.h:12
+msgid "Birthday:"
+msgstr "སྐྱེ་བའི་ཉིནམ།"
+
+#: ../ui/user_info.glade.h:13
+msgid "C_ellular:"
+msgstr "སིལ་ལུ་ལར།(_e)"
+
+#: ../ui/user_info.glade.h:14
+msgid "C_ountry:"
+msgstr "རྒྱལ་ཁབ།(_o)"
+
+#: ../ui/user_info.glade.h:15
+msgid "Cellular:"
+msgstr "སིལ་ལུ་ལར།"
+
+#: ../ui/user_info.glade.h:16
+msgid "City:"
+msgstr "གྲོང་སྡེ།"
+
+#: ../ui/user_info.glade.h:17
+msgid "Company:"
+msgstr "ཚོང་སྡེ།"
+
+#: ../ui/user_info.glade.h:18
+msgid "Confirm Password:"
+msgstr "ཆོག་ཡིག་ངེས་དཔྱད་འབད་ནི།"
+
+#: ../ui/user_info.glade.h:19
+msgid "Country:"
+msgstr "རྒྱལ་ཁབ།"
+
+#: ../ui/user_info.glade.h:20
+msgid "Department:"
+msgstr "ལས་ཁུངས།"
+
+#: ../ui/user_info.glade.h:21
+msgid "E-mail Address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: ../ui/user_info.glade.h:22
+msgid "Fax:"
+msgstr "དཔར་འཕྲིན།"
+
+#: ../ui/user_info.glade.h:24
+msgid "First Name:"
+msgstr "མིང་དང་པམ།"
+
+#: ../ui/user_info.glade.h:25
+msgid "Gender:"
+msgstr "ཕོ་མོའི་དབྱེ་བ།"
+
+#: ../ui/user_info.glade.h:26
+msgid "General"
+msgstr "ཡོངས་ཁྱབ།"
+
+#: ../ui/user_info.glade.h:27
+msgid "H_ide E-mail"
+msgstr "གློག་འཕྲིན་སྦ།(_i)"
+
+#: ../ui/user_info.glade.h:29
+msgid "Home Page:"
+msgstr "ཁྱིམ་ཤོག་ལེབ།"
+
+#: ../ui/user_info.glade.h:30
+msgid "ICQ Number:"
+msgstr "ཨའི་སི་ཀིའུ་ཨང་།"
+
+#: ../ui/user_info.glade.h:31
+msgid "IP:"
+msgstr "ཨའི་པི།"
+
+#: ../ui/user_info.glade.h:32
+msgid "Idle for:"
+msgstr "དོན་ལུ་ལས་མེད།"
+
+#: ../ui/user_info.glade.h:35
+msgid "Languages"
+msgstr "སྐད་ཡིག་ཚུ།"
+
+#: ../ui/user_info.glade.h:36
+msgid "Languages:"
+msgstr "སྐད་ཡིག་ཚུ།"
+
+#: ../ui/user_info.glade.h:37
+msgid "Last Name:"
+msgstr "མཇུག་གི་མིང་།"
+
+#: ../ui/user_info.glade.h:38
+msgid "Last Seen:"
+msgstr "མཇུག་མཐོང་མཐོངམ།"
+
+#: ../ui/user_info.glade.h:40
+msgid "Member since:"
+msgstr "ལས་ཚུར་འཐུས་མི།"
+
+#: ../ui/user_info.glade.h:41
+msgid "My Information"
+msgstr "ང་གི་བརྡ་དོན།"
+
+#: ../ui/user_info.glade.h:42
+msgid "My status will be visible on the Web"
+msgstr "ང་གི་གནས་ཚད་འདི་ཝེབ་གུ་མཐོང་ཚུགས་འོང་།"
+
+#: ../ui/user_info.glade.h:43
+msgid "New Password:"
+msgstr "ཆོག་ཡིག་གསརཔ།"
+
+#: ../ui/user_info.glade.h:44
+msgid "Nickname:"
+msgstr "སྐྱོན་མིང་།"
+
+#: ../ui/user_info.glade.h:45
+msgid "Not selected"
+msgstr "སེལ་འཐུ་འབད་མེདཔ།"
+
+#: ../ui/user_info.glade.h:46
+msgid "Not specified"
+msgstr "གསལ་བཀོད་འབད་མེདཔ།"
+
+#: ../ui/user_info.glade.h:47
+msgid "Occupation:"
+msgstr "ལཱ་གཡོག"
+
+#: ../ui/user_info.glade.h:48
+msgid "Online since:"
+msgstr "ལས་ཚུར་གློག་ཐོག་ལུ།"
+
+#: ../ui/user_info.glade.h:49
+msgid "Online status visible on _websites"
+msgstr "ཝེབ་ས་ཁོངས་ཚུ་གུ་མཐོང་ཚུགས་པའི་གློག་ཐོག་གི་གནས་ཚད།"
+
+#: ../ui/user_info.glade.h:50
+msgid "Other E-mail Addresses:"
+msgstr "གཞན་གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: ../ui/user_info.glade.h:51
+msgid ""
+"Other users require authorization\n"
+" to add me to their contact list"
+msgstr ""
+"ང་ཁོང་གི་འབྲེལ་བ་འཐབ་སའི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་འབད་ནི་ལུ་།\n"
+"གཞན་ལག་ལེན་པ་ཚུ་དབང་སྤྲོད་དགོས་མཁོ་ཡོདཔ།"
+
+#: ../ui/user_info.glade.h:53
+msgid "Password"
+msgstr "ཆོག་ཡིག"
+
+#: ../ui/user_info.glade.h:54
+msgid "Phone:"
+msgstr "བརྒྱུད་འཕྲིན།"
+
+#: ../ui/user_info.glade.h:55
+msgid "Port:"
+msgstr "འདྲེན་ལམ།"
+
+#: ../ui/user_info.glade.h:56
+msgid "Pos_ition:"
+msgstr "གནས་ས།(_i)"
+
+#: ../ui/user_info.glade.h:57
+msgid "Position:"
+msgstr "གནས་ས།"
+
+#: ../ui/user_info.glade.h:58
+msgid "Privacy"
+msgstr "སྒེར་གཙང་།"
+
+#: ../ui/user_info.glade.h:59
+msgid "Protocol Version:"
+msgstr "གནད་སྤེལ་ལམ་ལུགས་ཐོན་རིམ།"
+
+#: ../ui/user_info.glade.h:60
+msgid "S_tate:"
+msgstr "མངའ་སྡེ།(_t)"
+
+#: ../ui/user_info.glade.h:61
+msgid "State:"
+msgstr "མངའ་སྡེ།"
+
+#: ../ui/user_info.glade.h:62
+msgid "Status:"
+msgstr "གནས་ཚད།"
+
+#: ../ui/user_info.glade.h:63
+msgid "Street:"
+msgstr "ཁྲོམ་སྡོ།"
+
+#: ../ui/user_info.glade.h:64
+msgid "T_ime Zone:"
+msgstr "དུས་ཚོད་གླིང་སྡེ།(_i)"
+
+#: ../ui/user_info.glade.h:65
+msgid "Time Zone:"
+msgstr "དུས་ཚོད་གླིང་སྡེ།"
+
+#: ../ui/user_info.glade.h:66
+msgid "User Info"
+msgstr "ལག་ལེན་པའི་བརྡ་དོན།"
+
+#: ../ui/user_info.glade.h:67
+msgid "Work"
+msgstr "ལཱ་གཡོག"
+
+#: ../ui/user_info.glade.h:68
+msgid "You can change your ICQ account password here by putting it in the New Password and Confirm Password field."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རང་གི་ཨའི་སི་ཀིའུ་རྩིས་ཐོ་ཆོག་ཡིག་འདི་ཆོག་ཡིག་གསརཔ་འདི་ནང་བཙུགས་དེ་གིས་དང་ཆོག་ཡིག་ས་སྒོ་ངེས་དཔྱད་འབད་དེ་བསྒྱུར་བཅོས་འབད་བཏུབ།"
+
+#: ../ui/user_info.glade.h:69
+msgid "Zip:"
+msgstr "གནས་ཡུལ།"
+
+#: ../ui/user_info.glade.h:70
+msgid "_Age:"
+msgstr "ལོ།(_A)"
+
+#: ../ui/user_info.glade.h:71
+msgid "_Birthday:"
+msgstr "སྐྱེ་བའི་ཉིནམ།(_B)"
+
+#: ../ui/user_info.glade.h:72
+msgid "_City:"
+msgstr "གྲོང་སྡེ།(_C)"
+
+#: ../ui/user_info.glade.h:73
+msgid "_Company:"
+msgstr "ཚོང་སྡེ།(_C)"
+
+#: ../ui/user_info.glade.h:74
+msgid "_Department:"
+msgstr "ལས་ཁུངས།(_D)"
+
+#: ../ui/user_info.glade.h:75
+msgid "_E-mail Address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་།(_E)"
+
+#: ../ui/user_info.glade.h:76
+msgid "_Fax:"
+msgstr "དཔར་འཕྲིན།(_F)"
+
+#: ../ui/user_info.glade.h:78
+msgid "_Gender:"
+msgstr "ཕོ་མོའི་དབྱེ་བ།(_G)"
+
+#: ../ui/user_info.glade.h:79
+msgid "_Home Page:"
+msgstr "ཁྱིམ་ཤོག་ལེབ།(_H)"
+
+#: ../ui/user_info.glade.h:83
+msgid "_Occupation:"
+msgstr "ལཱ་གཡོག(_O)"
+
+#: ../ui/user_info.glade.h:84
+msgid "_Other E-mail Addresses:"
+msgstr "གཞན་གློག་འཕྲིན་ཁ་བྱང་།(_O)"
+
+#: ../ui/user_info.glade.h:85
+msgid "_Phone:"
+msgstr "བརྒྱུད་འཕྲིན།(_P)"
+
+#: ../ui/user_info.glade.h:86
+msgid "_Street:"
+msgstr "ཁྲོམ་ཡུལ།(_S)"
+
+#: ../ui/user_info.glade.h:87
+msgid "_Web site:"
+msgstr "ཝེབ་གནས་ཁོངས།(_W)"
+
+#: ../ui/user_info.glade.h:88
+msgid "_Zip:"
+msgstr "གནས་ཡུལ།(_Z)"
+
+#: ../ui/welcome.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../ui/welcome.glade.h:3
+msgid "<b>Create New UIN</b>"
+msgstr "<b>ཡུ་ཨའི་ཨེན་གསརཔ་གསར་བསྐྲུན་འབད།</b>"
+
+#: ../ui/welcome.glade.h:4
+msgid ""
+"<b>Incorrect UIN or Password.</b>\n"
+"\n"
+"The UIN or password is incorrect. Click OK to restart the process, or click Retrieve to have your password e-mailed to you."
+msgstr ""
+"<b>བདེན་མེད་ཡུ་ཨའུ་ཨེན་ཡང་ན་ཆོག་ཡིག</b>\n"
+"\n"
+"ཡུ་ཨའི་ཨེན་ཡང་ན་ཆོག་ཡིག་འདི་བདེན་མེད་ཨིན། ལས་སྦྱོར་འདི་ལོག་འགོ་བཙུགས་ནི་ལུ་ བཏུབ་ཨེབ་ཡང་ན་ཁྱོད་རའི་ཆོག་ཡིག་གློག་འཕྲིན་ཁྱོད་རང་ལུ་འོང་ནི་དོན་ལུ་རྒྱབ་ལོག་ཨེབ་གཏང་འབད།"
+
+#: ../ui/welcome.glade.h:7
+msgid "<b>Use Existing UIN</b>"
+msgstr "<b>ཡོད་བཞིན་པའི་ཡུ་ཨའི་ཨེན་ལག་ལེན་འཐབ།</b>"
+
+#: ../ui/welcome.glade.h:8
+msgid ""
+"Before you can use this program, you\n"
+"must provide some information. You \n"
+"will normally not need to do this again."
+msgstr ""
+"ཁྱོད་ཀྱིས་ལས་རིམ་འདི་ལག་ལེན་འཐབ་པའི་ཧེ་མ་ ཁྱོད་ལུ་\n"
+"བརྡ་དོན་ལ་ལོ་བྱིན་དགོཔ།  ཁྱོད་སྤྱིར་བཏང་གིས་ \n"
+"ལོག་འབད་མི་དགོཔ་ཨིན།"
+
+#: ../ui/welcome.glade.h:11
+msgid "Choose setup"
+msgstr "གཞི་སྒྲིག་གདམ།"
+
+#: ../ui/welcome.glade.h:12
+msgid "Confirm:"
+msgstr "ངེས་དཔྱད་འབད་ནི།"
+
+#: ../ui/welcome.glade.h:13
+msgid "Congratulations! Your account has been activated for use with GnomeICU."
+msgstr "ལེགས་སོ!ཁྱོད་ཀྱི་རྩིས་ཐོ་དེ་ཇི་ནོམ་ཨའི་སི་ཡུ་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་ནི་དོན་ལུ་ཤུགས་ལྡན་བཟོ་ཡོདཔ།"
+
+#: ../ui/welcome.glade.h:14
+msgid "Connecting"
+msgstr "མཐུད་ལམ་མཐུད་དོ།"
+
+#: ../ui/welcome.glade.h:15
+msgid "Create New"
+msgstr "གསརཔ་གསར་བསྐྲུན་འབད།"
+
+#: ../ui/welcome.glade.h:16
+msgid "Create _New ICQ Account"
+msgstr "ཨའི་སི་ཀིའུ་རྩི་ས་ཐོ་གསརཔ་གསར་བསྐྲུན་འབད།(_N)"
+
+#: ../ui/welcome.glade.h:17
+msgid "Error"
+msgstr "འཛོལ་བ།"
+
+#: ../ui/welcome.glade.h:18
+msgid "Failure!"
+msgstr "འཐུས་ཤོར་!"
+
+#: ../ui/welcome.glade.h:19
+msgid "Finished"
+msgstr "མཇུག་བསྡུ་ཡོདཔ།"
+
+#: ../ui/welcome.glade.h:20
+msgid "GnomeICU Account Setup"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་རྩིས་ཐོ་གཞི་སྒྲིག"
+
+#: ../ui/welcome.glade.h:21
+msgid ""
+"GnomeICU setup is finished! If you created\n"
+"a new account, don't forget to edit your user\n"
+"information so that others can identify you.\n"
+"\n"
+"Click \"Apply\" button to start GnomeICU."
+msgstr ""
+"ཇི་ནོམ་ཨའི་སི་ཡུ་གཞི་སྒྲིག་མཇུག་བསྡུ་ཡོདཔ! ཁྱོད་ཀྱིས་རྩིས་ཐོ་གསརཔ་ཅིག་\n"
+"གསར་བསྐྲུན་འབད་ཡོད་པ་ཅིན་ གཞན་ཚུ་གིས་ཁྱོད་ངོས་འཛིན་འབད་ཚུགས་ནི་དོན་ལུ་ཁྱོད་རའི་\n"
+"ལག་ལེན་པ་ཞུན་དག་འབད་ནི་མ་བརྗེད།\n"
+"\n"
+"ཇི་ནོམ་ཨའི་སི་ཡུ་འགོ་བཙུགས་ནི་དོན་ལུ་ \"Apply\"ཨེབ་རྟ་ཨེབ་གཏང་འབད། "
+
+#: ../ui/welcome.glade.h:26
+msgid "Login"
+msgstr "ནང་བསྐྱོད་འབད་ནི།"
+
+#: ../ui/welcome.glade.h:27
+msgid "Login to ICQ"
+msgstr "ཨའི་སི་ཀིའུ་ལུ་ནང་བསྐྱོད་འབད་ནི།"
+
+#: ../ui/welcome.glade.h:28
+msgid "Password:"
+msgstr "ཆོག་ཡིག"
+
+#: ../ui/welcome.glade.h:29
+msgid "Please enter a password for your new ICQ account."
+msgstr "ཁྱོད་ཀྱི་ཨའི་སི་ཀིའུ་རྩིས་ཐོ་གསརཔ་གི་དོན་ལུ་ཆོག་ཡིག་ཅིག་བཙུགས་གནང་།"
+
+#: ../ui/welcome.glade.h:30
+msgid "Please enter your UIN (ICQ number) and password."
+msgstr "ཁྱོད་ཀྱི་ཡུ་ཨའི་ཨེན་(ཨའི་སི་ཀིའུ་ཨང་)དང་ཆོག་ཡིག་བཙུགས་གནང་།"
+
+#: ../ui/welcome.glade.h:31
+msgid "Register with ICQ"
+msgstr "ཨའི་སི་ཀིའུ་དང་གཅིག་ཁར་ཐོ་འགོད་འབད།"
+
+#: ../ui/welcome.glade.h:32
+msgid "Select this if you already have an ICQ account which you'd like to use with GnomeICU."
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་བཏུབ་པའི་ཨའི་སི་ཡུ་རྩིས་ཐོ་ཅིག་ཧེ་མ་ལས་ཡོད་པ་ཅིན་འདི་སེལ་འཐུ་འབད།"
+
+#: ../ui/welcome.glade.h:33
+msgid "Success!"
+msgstr "མཐར་འཁྱོལ!"
+
+#: ../ui/welcome.glade.h:34
+msgid "The ICQ server is being contacted, please wait..."
+msgstr "ཨའི་སི་ཀིའུ་སར་བར་འདི་འབྲེལ་བ་འཐབ་ཡོདཔ་ལས་ བསྒུག་གནང་་་"
+
+#: ../ui/welcome.glade.h:35
+msgid "The UIN or password you have specified is incorrect. Try again, or enter a password and create a new account below."
+msgstr "ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་ཡོད་མི་ཡུ་ཨའི་ཨེན་ཡང་ན་ཆོག་ཡིག་འདི་བདེན་མེད་ཨིནམ། ལོག་འབད་བརྩོལ་བསྐྱོད་་ཡང་ན་ ཆོག་ཡིག་ཅིག་བཙུགས་འབད་འོག་ལུ་རྩིས་ཐོ་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད།"
+
+#: ../ui/welcome.glade.h:36
+msgid "There is a problem activating your account. You can go back and try again, or visit http://gnomeicu.sourceforge.net to find more information."
+msgstr "ཁྱོད་ཀྱི་རྩིས་ཐོ་ཤུགས་ལྡན་བཟོ་བའི་སྐབས་དངའ་ངལ་ཅིག་འབྱུང་ཡོདཔ་ལས་ ཁྱོད་རང་ལོག་སོང་འབད་འབད་རྩོལ་བསྐྱེད་ ཡང་ན་བརྡ་དོན་ཧེང་བཀེལ་འཚོལ་ནི་དོན་ལུ་ http://gnomeicu.sourceforge.net བལྟ་གནང་།"
+
+#: ../ui/welcome.glade.h:37
+msgid "This will create a new ICQ account. If you've never used ICQ before, pick this option."
+msgstr "འདི་གིས་ཨའི་སི་ཀིའུ་རྩིས་ཐོ་གསརཔ་ཅིག་གསར་བསྐྲུན་འབད་འོང་། ཁྱོད་རང་ཧེ་མ་ཨའི་སི་ཀིའུ་་ལག་ལེན་ནམ་ཡང་མ་འཐབ་པ་ཅིན་ གདམ་ཁ་འདི་འཐུ།"
+
+#: ../ui/welcome.glade.h:38
+msgid "UIN:"
+msgstr "ཡུ་ཨའི་ཨེན།"
+
+#: ../ui/welcome.glade.h:39
+msgid "Welcome to GnomeICU!"
+msgstr "ཇི་ནོམ་ཨའི་སི་ཡུ་ལུ་བྱོན་པ་ལེགས་སོ!"
+
+#: ../ui/welcome.glade.h:40
+msgid "_Confirm Password:"
+msgstr "ཆོག་ཡིག་ངེས་དཔྱད་འབད་ནི།(_C)"
+
+#: ../ui/welcome.glade.h:41
+msgid "_Existing ICQ User"
+msgstr "ཡོད་བཞིན་པའི་ཨའི་སི་ཀིའུ་ལག་ལེན་པ།(_E)"
+
+#: ../ui/welcome.glade.h:42
+msgid "_Password:"
+msgstr "ཆོག་ཡིག(_P)"
+
+#: ../ui/welcome.glade.h:43
+msgid "_Retrieve"
+msgstr "སླར་འདྲེན།(_R)"
+
+#: ../ui/welcome.glade.h:44
+msgid "_UIN:"
+msgstr "ཡུ་ཨའི་ཨེན།(_U)"
+

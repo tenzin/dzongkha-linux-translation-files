@@ -1,0 +1,1229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnetwork.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-26 08:54+0100\n"
+"PO-Revision-Date: 2007-06-28 10:33+0530\n"
+"Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/libgnetwork.schemas.in.h:1
+msgid "Authenticate HTTP Proxy Connections"
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོརོ་སི་མཐུད་ལམ་ཚུ་ བདེན་བཤད་འབད་"
+
+#: ../data/libgnetwork.schemas.in.h:2
+msgid "Enables proxy settings when accessing HTTP over the internet."
+msgstr "ཨེཆ་ཊི་ཊི་པི་འདི་ ཨིན་ཊར་ནེཊི་གུ་ལས་འཛུལ་སྤྱོད་འབད་བའི་སྐབས་ པོརོ་སི་སྒྲིག་སྟངས་ལྕོགས་ཅན་བཟོཝ་ཨིན།"
+
+#: ../data/libgnetwork.schemas.in.h:3
+msgid "FTP Proxy Port"
+msgstr "ཨེཕ་ཊི་པི་ པོརོ་སི་འདྲེན་ལམ་"
+
+#: ../data/libgnetwork.schemas.in.h:4
+msgid "HTTP Proxy Location"
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོརོ་སི་གནས་ཁོངས་"
+
+#: ../data/libgnetwork.schemas.in.h:5
+msgid "HTTP Proxy Port"
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོ་རོ་སི་འདྲེན་ལམ་"
+
+#: ../data/libgnetwork.schemas.in.h:6
+msgid "HTTP Proxy User Name"
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོ་རོ་སི་ ལག་ལེན་པའི་མིང་"
+
+#: ../data/libgnetwork.schemas.in.h:7
+msgid "If true, then connections to the proxy server require authentication. The username/password defined by /system/http_proxy/authentication_user and /system/http_proxy/authentication_password."
+msgstr "བདེན་པ་ཨིནཔ་ཅིན་ པོརོ་སི་སར་བར་འདི་ལུའི་མཐུད་ལས་ཚུ་ལུ་ བདེན་བཤད་དགོཔ་ཨིན། ལག་ལེན་པའི་མིང་/ཆོག་ཡིག་  /system/http_proxy/authentication_user དང་ /system/http_proxy/authentication_password གིས་ངེས་འཛིན་འབད་ཡོད་མི་འདི།"
+
+#: ../data/libgnetwork.schemas.in.h:8
+msgid "Proxy host name"
+msgstr "པོརོ་སི་ཧོསིཊི་ནེམ་"
+
+#: ../data/libgnetwork.schemas.in.h:9
+msgid "Proxy port"
+msgstr "པོརོ་སི་འདྲེན་ལམ་"
+
+#: ../data/libgnetwork.schemas.in.h:10
+msgid "SOCKS Proxy Host Name"
+msgstr "སོཀསི་པོརོ་སི་ཧོསིཊི་ནེམ་"
+
+#: ../data/libgnetwork.schemas.in.h:11
+msgid "SOCKS Version"
+msgstr "སོཀསི་ཐོན་རིམ་"
+
+#: ../data/libgnetwork.schemas.in.h:12
+msgid "SSL Proxy Host Name"
+msgstr "ཨེསི་ཨེསི་ཨེལ་པོརོ་སི་ཧོསིཊི་ནེམ་"
+
+#: ../data/libgnetwork.schemas.in.h:13
+msgid "SSL Proxy Port"
+msgstr "ཨེསི་ཨེསི་ཨེལ་པོརོ་སི་འདྲེན་ལམ་"
+
+#: ../data/libgnetwork.schemas.in.h:14
+msgid "The SOCKS proxy version used by /system/proxy/socks_host."
+msgstr "སོཀསི་པོརོ་སི་ཐོན་རིམ་  /system/proxy/socks_host གིས་ལག་ལེན་འཐབ་ཡོད་མི།"
+
+#: ../data/libgnetwork.schemas.in.h:15
+msgid "The location of the FTP proxy server."
+msgstr "ཨེཕ་ཊི་པི་པོརོ་སི་སར་བར་འདི་གི་གནས་ཁོངས།"
+
+#: ../data/libgnetwork.schemas.in.h:16
+msgid "The location of the proxy server to use for HTTP connections."
+msgstr "ཨེཆ་ཊི་ཊི་པི་མཐུད་ལམ་ཚུ་གི་དོན་ལུ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ པོརོ་སི་སར་བར་འདི་གི་གནས་ཁོངས་"
+
+#: ../data/libgnetwork.schemas.in.h:17
+msgid "The location of the proxy server which handles encrypted connections."
+msgstr "གསང་བཟོ་མཐུད་ལམ་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ པོརོ་སི་སར་བར་འདི་གི་གནས་ཁོངས།"
+
+#: ../data/libgnetwork.schemas.in.h:18
+msgid "The location of the proxy server which handles non-HTTP and non-SSL connections."
+msgstr "ཨེཆ་ཊི་ཊི་པི་མེན་མི་དང་ ཨེསི་ཨེསི་ཨེལ་མེན་མི་ མཐུད་ལམ་ཚུ་ལེགས་སྐྱོང་འཐབ་མི་ པོརོ་སི་སར་བར་འདི་གི་གནས་ཁོངས།"
+
+#: ../data/libgnetwork.schemas.in.h:19
+msgid "The password to use when authenticating with the HTTP proxy server."
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོརོ་སི་སར་བར་འདི་དང་གཅིག་ཁར་བདེན་བཤད་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ཆོག་ཡིག"
+
+#: ../data/libgnetwork.schemas.in.h:20
+msgid "The port on the proxy server defined by /system/http_proxy/host."
+msgstr "པོརོ་སི་སར་བར་འདི་གུའི་འདྲེན་ལམ་  /system/http_proxy/host གིས་ངེས་འཛིན་འབད་ཡོད་མི།"
+
+#: ../data/libgnetwork.schemas.in.h:21
+msgid "The port on the proxy server defined by /system/proxy/ftp_host."
+msgstr "པོརོ་སི་སར་བར་འདི་གུའི་འདྲེན་ལམ་  /system/proxy/ftp_hostགིས་ངེས་འཛིན་འབད་ཡོད་མི།"
+
+#: ../data/libgnetwork.schemas.in.h:22
+msgid "The port on the proxy server defined by /system/proxy/socks_host."
+msgstr "པོརོ་སི་སར་བར་འདི་གུའི་འདྲེན་ལམ་ /system/proxy/socks_host གིས་ངེས་འཛིན་འབད་ཡོད་མི།"
+
+#: ../data/libgnetwork.schemas.in.h:23
+msgid "The port on the proxy server defined by /system/proxy/ssl_host."
+msgstr "པོརོ་སི་སར་བར་འདི་གུའི་འདྲེན་ལམ་ /system/proxy/ssl_host གིས་ངེས་འཛིན་འབད་ཡོད་མི།"
+
+#: ../data/libgnetwork.schemas.in.h:24
+msgid "The username to use when authenticating with the HTTP proxy server."
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོརོ་སི་སར་བར་འདི་དང་གཅིག་ཁར་བདེན་བཤད་འབདབའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ ལག་ལེན་པའི་མིང་།"
+
+#: ../data/libgnetwork.schemas.in.h:25
+msgid "Use a proxy when accessing HTTP"
+msgstr "ཨེཆ་ཊི་ཊི་པི་འཛུལ་སྤྱོད་འབད་བའི་སྐབས་ པོརོ་སི་ཅིག་ལག་ལེན་འཐབ་"
+
+#: ../data/libgnetwork.schemas.in.h:26
+msgid "http proxy password"
+msgstr "ཨེཆ་ཊི་ཊི་པི་པོརོ་སི་ཆོག་ཡིག་"
+
+#: ../libgnetwork/gnetwork-connection.c:94
+msgid "Connection Type"
+msgstr "མཐུད་ལམ་འབྱེ་བ་"
+
+#: ../libgnetwork/gnetwork-connection.c:95
+msgid "The type of connection represented by the implementing object."
+msgstr "བསྟར་སྤྱོད་འབད་ནིའི་དངོས་པོ་འདི་གིས་ བརྡ་མཚོན་འབད་མི་མཐུད་ལམ་འདི་གི་དབྱེ་བ།"
+
+#: ../libgnetwork/gnetwork-connection.c:103
+msgid "Connection Status"
+msgstr "མཐུད་ལམ་གནས་ཚད་"
+
+#: ../libgnetwork/gnetwork-connection.c:104
+msgid "The status of this connection."
+msgstr "འ་ནི་མཐུད་ལམ་འདི་གི་གནས་ཚད།"
+
+#: ../libgnetwork/gnetwork-connection.c:110
+#: ../libgnetwork/gnetwork-datagram.c:102
+#: ../libgnetwork/gnetwork-interfaces.c:724
+#: ../libgnetwork/gnetwork-server.c:90
+#: ../libgnetwork/gnetwork-socket.c:364
+msgid "Bytes Received"
+msgstr "བཱའིཊིསི་འཐོབ་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-connection.c:111
+msgid "The number of bytes received through this connection."
+msgstr "འ་ནི་མཐུད་ལམ་བརྒྱུད་དེ་འཐོབ་ཡོད་པའི་བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-connection.c:115
+#: ../libgnetwork/gnetwork-datagram.c:107
+#: ../libgnetwork/gnetwork-interfaces.c:740
+#: ../libgnetwork/gnetwork-server.c:97
+#: ../libgnetwork/gnetwork-socket.c:369
+msgid "Bytes Sent"
+msgstr "བཱའིཊིསི་བཏང་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-connection.c:116
+msgid "The number of bytes sent through this connection."
+msgstr "འ་ནི་མཐུད་ལམ་བརྒྱུད་དེ་བཏང་ཡོད་པའི་བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-connection.c:120
+#: ../libgnetwork/gnetwork-data-socket.c:372
+#: ../libgnetwork/gnetwork-datagram.c:112
+msgid "Buffer Size"
+msgstr "གནད་ཁོངས་ཚད་"
+
+#: ../libgnetwork/gnetwork-connection.c:121
+#: ../libgnetwork/gnetwork-datagram.c:113
+msgid "The maximum size in bytes of outgoing and incoming data packets."
+msgstr "ཕྱིར་བསྐྱོད་དང་ནང་འབྱོར་གནད་སྡུད་འཕྲིན་ཚན་གི་ བཱའིཊིསི་ནང་མང་མཐའ་ཚད།"
+
+#: ../libgnetwork/gnetwork-connection.c:331
+msgid "There was an error inside the networking library."
+msgstr "ཡོངས་འབྲེལ་བཟོ་བའི་ དཔེ་མཛོད་ནང་ལུ་ འཛོལ་བ་ཅིག་འདུག།"
+
+#: ../libgnetwork/gnetwork-connection.c:334
+msgid "The service will not let you connect."
+msgstr "ཞབས་ཏོག་གིས་ཁྱོད་ལུ་མཐུད་མི་བཅུག"
+
+#: ../libgnetwork/gnetwork-connection.c:337
+msgid "The service may be down, or you may have been disconnected from the network."
+msgstr "ཞབས་ཏོག་འདི་མར་ཉམས་ཡར་སོངམ་འོང་ ཡང་ན་ ཁྱོད་ཀྱིས་ཡོང་འབྲེལ་ལས་མཐུད་ལམ་བཏོག་གཏང་དགོཔ་འོང་།"
+
+#: ../libgnetwork/gnetwork-connection.c:340
+msgid "The service could not be contacted."
+msgstr "ཞབས་ཏོག་འདི་མཐུད་མི་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-connection.c:343
+msgid "Your computer or firewall is configured to prevent access to the service."
+msgstr "ཁྱོད་ཀྱི་གློག་རིག་ཡང་ན་སྐྱོབ་གྱང་འདི་ ཞབས་ཏོག་འདི་ལུ་འཛུལ་སྤྱོད་སྔོན་བཀད་འབད་ནིའི་དོན་ལས་ རིམ་སྒྲིག་འབད་ཡོད།"
+
+#: ../libgnetwork/gnetwork-data-socket.c:366
+msgid "Data Socket Direction"
+msgstr "གནད་སྡུད་སོ་ཀེཊི་ཁ་ཕྱོགས་"
+
+#: ../libgnetwork/gnetwork-data-socket.c:367
+msgid "The direction of this socket."
+msgstr "འ་ནི་སོ་ཀེཊི་འདི་གི་ཁ་ཕྱོགས།"
+
+#: ../libgnetwork/gnetwork-data-socket.c:373
+msgid "The buffer size to use."
+msgstr "ལག་ལེན་འཐབ་ནི་གི་གནད་ཁོངས་ཚད།"
+
+#: ../libgnetwork/gnetwork-data-socket.c:379
+msgid "Raw Data"
+msgstr "རགས་པ་གནད་སྡུད་"
+
+#: ../libgnetwork/gnetwork-data-socket.c:380
+msgid "The raw data in question."
+msgstr "རགས་པ་གནད་སྡུད་དྲི་བ་ནང་།"
+
+#: ../libgnetwork/gnetwork-datagram.c:94
+msgid "Datagram Status"
+msgstr "ཌེ་ཊ་ག་རམ་གནས་ཚད་"
+
+#: ../libgnetwork/gnetwork-datagram.c:95
+msgid "The status of this datagram socket."
+msgstr "འ་ནི་ཌེ་ཊ་ག་རམ་སོ་ཀེཊི་གི་གནས་ཚད།"
+
+#: ../libgnetwork/gnetwork-datagram.c:103
+msgid "The number of bytes received through this datagram socket."
+msgstr "འ་ནི་ཌེ་ཊ་ག་རམ་སོ་ཀེཊི་བརྒྱུད་དེ་འཐོབ་ཡོད་པའི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-datagram.c:108
+msgid "The number of bytes sent through this datagram socket."
+msgstr "འ་ནི་ཌེ་ཊ་ག་རམ་སོ་ཀེཊི་བརྒྱུད་དེ་བཏང་ཡོད་པའི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-dns.c:567
+msgid "The host could not be found. The name might be misspelled, or it may not exist."
+msgstr "ཧོསཊི་འདི་འཚོལ་མ་འཐོབ། མིང་འདི་སྡེབ་འཛོལ་བ་འོང་ ཡང་ན་འདི་མེདཔ་འོང་།"
+
+#: ../libgnetwork/gnetwork-dns.c:569
+msgid "The DNS lookup server could not be contacted. The network may be down, or the DNS server may be broken."
+msgstr "ཌི་ཨེན་ཨེསི་བལྟ་བ་སར་བར་འདི་འབྲེལ་བ་འཐབ་མ་ཚུགས། ཡོངས་འབྲེལ་འདི་མར་ཉམས་འགྱོ་འགྱོཝ་འོང་ ཡང་ན་ ཌི་ཨེན་ཨེསི་སར་བར་འདི་ཆད་སོངམ་འོང་།"
+
+#: ../libgnetwork/gnetwork-dns.c:572
+msgid "The DNS lookup server is too busy to respond right now, try connecting again in a few minutes."
+msgstr "ཌི་ཨེན་ཨེསི་བལྟ་བ་སར་བར་འདི་ ད་ལྟོ་ལན་བཀོད་འབད་ནི་ལུ་ ཁོམ་མེདཔ་འོང་ སྐར་མ་དག་པ་ཅིག་གི་རྒྱབ་ལས་ལོག་མཐུད་ནི་འབད་རྩོལ་བསྐྱེད།"
+
+#: ../libgnetwork/gnetwork-dns.c:575
+msgid "There is a problem with your networking library, please verify that a thread implementation is installed, and GLib is configured to use it."
+msgstr "ཁྱོད་ཀྱི་ཡོངས་འབྲེལ་བཟོ་ནིའི་དཔེ་མཛོད་དང་གཅིག་ཁར་དཀའ་ངལ་ཅིག་འདུག་ ཐེ་རེཌི་བསྟར་སྤྱོད་འདི་གཞི་བཙུགས་འབད་ཡོདཔ་ཨིནམ་དང་ ཇི་ལིབ་འདི་ ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ རིམ་སྒྲིག་འབད་ཡོདཔ་ཨིནམ་ བདེན་སྦྱོར་འབད།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:681
+msgid "Interface Update Mode"
+msgstr "ངོས་འདྲ་བ་ དུས་མཐུན་ཐབས་ལམ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:682
+msgid "If/How to update this interface's data counters."
+msgstr "ཨིནཔ་ཅིན་/ འ་ནི་ངོས་འདྲ་བ་གི་གནད་སྡུད་གདོང་ལེན་ཚུ་ག་དེ་འབད་དུས་མཐུན་བཟོ་ནི་ཨིན་ན།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:688
+msgid "Update Time"
+msgstr "དུས་མཐུན་བཟོ་བའི་དུས་ཚོད་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:689
+msgid "The amount of time (in milliseconds) between updates if the update-mode is TIMEOUT."
+msgstr "དུས་མཐུན་བཟོ་ནིའི་-ཐབས་ལམ་འདི་ ངལ་མཚམས་ལུས་ཡོདཔ་ཨིན་པ་ཅིན་ དུས་མཐུན་བཟོ་ནི་ཚུ་གི་བར་ན་གི་ དཆུ་ཚོད་ཀྱི་བསྡོམས་(མི་ལི་སྐར་ཆ་ནང་)།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:695
+msgid "Interface Index"
+msgstr "ངོས་འདྲ་བའི་ཟུར་ཐོ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:696
+msgid "The index of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་ཟུར་ཐོ།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:700
+msgid "Interface Name"
+msgstr "ངོས་འདྲ་བའི་མིང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:701
+msgid "The name of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་མིང་།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:704
+msgid "Interface Type"
+msgstr "ངོས་འདྲ་བའི་དབྱེ་བ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:705
+msgid "The type of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་དབྱེ་བ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:710
+msgid "Interface Flags"
+msgstr "ངོས་འདྲ་བའི་ཟུར་རྟགས་ཚུ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:711
+msgid "Bitwise flags describing various features of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བའི་ཁྱད་ཆོས་འདྲ་མིན་སྣ་ཚོགས་ཚུ་འགྲེལ་བཤད་རྐྱབས་མི་བིཊི་དང་འཁྲིལ་ཟུར་རྟགས་ཚུ།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:717
+msgid "Interface Protocols"
+msgstr "ངོས་འདྲ་བའི་གནད་སྤེལ་ལམ་ལུགས་ཚུ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:718
+msgid "Bitwise flags describing protocols supported on this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་ལུ་རྒྱབ་སྐྱོར་འབད་ཡོད་མི་གནད་སྤེལ་ལམ་ལུགས་ཚུ་ འགྲེལ་བཤད་རྐྱབས་མི་བིཊི་དང་འཁྲིལ་ཟུར་རྟགས་ཚུ།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:725
+msgid "The number of bytes received by this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གིས་འཐོབ་ཡོད་མི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:729
+msgid "Packets Received"
+msgstr "འཕྲིན་ཚན་འཐོབ་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:730
+msgid "The number of packets received by this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གིས་འཐོབ་ཡོད་མི་འཕྲིན་ཚན་འདི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:734
+msgid "Errors Received"
+msgstr "འཛོལ་བ་འཐོབ་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:735
+msgid "The number of errors received by this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གིས་འཐོབ་ཡོད་པའི་འཛོལ་བ་འདི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:741
+msgid "The number of bytes sent through this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་བརྒྱུད་དེ་བཏང་ཡོད་པའི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:745
+msgid "Packets Sent"
+msgstr "འཕྲིན་ཚན་བཏང་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:746
+msgid "The number of packets sent through this interface."
+msgstr "འ་ནུ་ངོས་འདྲ་བ་འདི་བརྒྱུད་དེ་ བཏང་ཡོད་པའི་འཕྲིན་ཚན་གྱི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:750
+msgid "Errors Sent"
+msgstr "འཛོལ་བ་ཚུ་བཏང་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:751
+msgid "The number of errors sent through this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་བརྒྱུད་དེ་བཏང་ཡོད་པའི་ འཛོལ་བ་ཚུ་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:756
+msgid "Collisions"
+msgstr "གདོང་ཐུག་ཚུ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:757
+msgid "The number of packet collisions which have occurred on this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གུ་འབྱུང་ཡོད་མི་ འཕྲིན་ཚན་གདོང་ཐུག་ཚུ་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:762
+msgid "IPv4 Address"
+msgstr "ཨའི་པི་ཝི་༤ ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:763
+msgid "The IPv4 address of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་ ཨའི་པི་ཝི་༤ ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:767
+msgid "IPv4 Netmask"
+msgstr "ཨའི་པི་ཝི་༤ ནེཊི་མཱསིཀ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:768
+msgid "The IPv4 netmask of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་ ཨའི་པི་ཝི་༤ ནེཊི་མཱསིཀ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:772
+msgid "IPv4 Destination"
+msgstr "ཨའི་པི་ཝི་༤ འགྲོ་ཡུལ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:773
+msgid "The IPv4 address of this interface's destination."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་འགྲོ་ཡུལ་གྱི་ ཨའི་པི་ཝི་༤ ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:778
+msgid "IPv4 Broadcast"
+msgstr "ཨའི་པི་ཝི་༤ རྒྱང་བསྒྲགས་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:779
+msgid "The IPv4 broadcast address of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་ ཨའི་པི་ཝི་༤ རྒྱང་བསྒྲགས་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:785
+msgid "IPv6 Address"
+msgstr "ཨའི་པི་ཝི་༦ ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:786
+msgid "The IPv6 address of this interface."
+msgstr "ཨའི་པི་ཝི་༦ རྒྱང་བསྒྲགས་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:790
+msgid "IPv6 Netmask"
+msgstr "ཨའི་པི་ཝི་༦ ནེཊི་མཱསིཀ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:791
+msgid "The IPv6 netmask of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་ ཨའི་པི་ཝི་༦ ནེཊི་མཱསིཀ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:795
+msgid "IPv6 Destination"
+msgstr "ཨའི་པི་ཝི་༦ འགྲོ་ཡུལ་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:796
+msgid "The IPv6 address of this interface's destination."
+msgstr "འ་ནི་ངོས་འདྲ་བ་གི་འགྲོ་ཡུལ་འདི་གི་ཨའི་པི་ཝི་༦ ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:802
+msgid "Hardware Address"
+msgstr "སྲ་ཆས་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:803
+msgid "The hardware address of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་སྲ་ཆས་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:807
+msgid "Hardware Broadcast Address"
+msgstr "སྲ་ཆས་རྒྱང་བསྒྲགས་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:808
+msgid "The hardware broadcast address of this interface."
+msgstr "འ་ནི་ངོས་འདྲ་བ་འདི་གི་ སྲ་ཆས་རྒྱང་བསྒྲགས་ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-interfaces.c:812
+msgid "Hardware Destination Address"
+msgstr "སྲ་ཆས་འགྲོ་ཡུལ་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-interfaces.c:813
+msgid "The hardware address of this interface's destination."
+msgstr "འ་ནི་ངོས་འདྲ་བའི་འགྲོ་ཡུལ་གྱི་ སྲ་ཆས་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:160
+#, c-format
+msgid "Could not join the multicast group at \"%s\"."
+msgstr "སྣ་མང་རྒྱང་བསྒྲགས་སྡེ་ཚན་འདི་  \"%s\" ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:251
+#, c-format
+msgid "Could not leave the multicast group at \"%s\"."
+msgstr "སྣ་མང་རྒྱང་བསྒྲགས་སྡེ་ཚན་འདི་  \"%s\" ལུ་བཞག་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:310
+#: ../libgnetwork/gnetwork-ip-multicast.c:425
+msgid "The multicast packet lifetime for the IP multicast socket could not be set."
+msgstr "ཨའི་པི་སྣ་མང་རྒྱང་བསྒྲགས་སོ་ཀེཊི་འདི་གི་དོན་ལུ་ སྣ་མང་རྒྱང་བསྒྲགས་འཕྲིན་ཚན་ཚེ་ཡུན་འདི་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:345
+msgid "Could not enable speed enhancements for the IP multicast socket."
+msgstr "ཨའི་པི་སྣ་མང་རྒྱང་བསྒྲགས་སོ་ཀེཊི་འདི་གི་དོན་ལུ་ མགྱོགས་ཚད་གོང་སྤེལ་འདི་ ལྕོགས་ཅན་བཟོ་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:516
+#: ../libgnetwork/gnetwork-udp-datagram.c:1134
+msgid "Time-To-Live"
+msgstr "བཞག་ནི་གི་དུས་ཚོད་"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:517
+msgid "The distance multicast messages sent through this datagram should travel."
+msgstr "འ་ནི་ཌེ་ཊ་ག་རམ་བརྒྱུད་དེ་བཏང་ཡོད་པའི་ གྱང་ཚད་སྣ་མང་རྒྱང་བསྒྲགས་འཕྲིན་དོན་ཚུ་ ལམ་འགྲུལ་འབད་དགོ"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:525
+msgid "Multicast Groups"
+msgstr "སྣ་མང་རྒྱང་བསྒྲགས་སྡེ་ཚན་ཚུ་"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:526
+msgid "A value array of the IP addresses of groups this socket has joined to when open."
+msgstr "ཁ་ཕྱེ་ཡོད་པའི་སྐབས་ འ་ནི་སོ་ཀེཊི་གིས་མཐུད་ཡོད་པའི་ སྡེ་ཚན་ཚུ་གི་ ཨའི་པི་ཁ་བྱང་འདི་གི་ གནས་གོང་ཨེ་རེ།"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:529
+msgid "Group IP Address"
+msgstr "སྡེ་ཚན་ཨའི་པི་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-ip-multicast.c:530
+msgid "A group this socket has joined when open."
+msgstr "ཁ་ཕྱེ་ཡོད་པའི་སྐབས་ འ་ནི་སོ་ཀེཊི་གིས་མཐུད་ཡོད་པའི་ སྡེ་ཚན།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:309
+#, c-format
+msgid "The file at \"%s\" is not a local networking server."
+msgstr "\"%s\" ལུའི་ཡིག་སྣོད་འདི་ ཉེ་གནས་ཡོངས་འབྲེལ་བཟོ་ནིའི་སར་བར།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:316
+#, c-format
+msgid "The credentials given to the local server at \"%s\" are not valid."
+msgstr " \"%s\" ལུའི་ཉེ་གནས་སར་བར་འདི་ལུ་བྱིན་ཡོད་པའི་ངོ་སྤྲོད་འདི་ཚུ་ནུས་ལྡན་མེན་པས།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:322
+#, c-format
+msgid "The local networking server at \"%s\" closed the connection."
+msgstr " \"%s\" ལུའི་ ཉེ་གནས་ཡོངས་འབྲེལ་བཟོ་ནིའི་སར་བར་འདི་གིས་ མཐུད་ལམ་ཁ་བསྡམ་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:328
+#: ../libgnetwork/gnetwork-local-data-socket.c:672
+#, c-format
+msgid "The file \"%s\" could not be used as a local socket because an error occurred inside the GNetwork library."
+msgstr "ཡིག་སྣོད་ \"%s\" འདི་ ཉེ་གནས་སོ་ཀེཊི་འབད་ལག་ལེན་འཐབ་མི་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་ དཔེ་མཛོད་ནང་ན་ལུ་ འཛོལ་བ་ཅིག་འབྱུང་ཡོད།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:397
+#, c-format
+msgid "There was an error reading data from the local socket \"%s\"."
+msgstr "ཉེ་གནས་སོ་ཀེཊི་ \"%s\" འདི་ལས་ གནད་སྡུད་ལྷག་པའི་སྐབས་ འཛོལ་བ་ཅིག་འདུག"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:592
+#, c-format
+msgid "There was an error sending data to the local socket at \"%s\"."
+msgstr " \"%s\" ལུའི་ཉེ་གནས་སོ་ཀེཊི་འདི་ལུ་ གནད་སྡུད་གཏང་པའི་སྐབས་ འཛོལ་བ་ཅིག་འདུག"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:717
+#: ../libgnetwork/gnetwork-unix-connection.c:132
+#: ../libgnetwork/gnetwork-unix-connection.c:378
+#: ../libgnetwork/gnetwork-unix-connection.c:458
+#: ../libgnetwork/gnetwork-unix-connection.c:476
+#: ../libgnetwork/gnetwork-unix-connection.c:490
+#, c-format
+msgid "The file \"%s\" could not be used as a connection because an error occurred inside the GNetwork library."
+msgstr "ཡིག་སྣོད་ \"%s\" འདི་ མཐུད་ལམ་ཅིག་སྦེ་ལག་ལེན་འཐབ་མི་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་ དཔེ་མཛོད་ནང་ན་ལུ་ ་འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1076
+msgid "Authentication Flags"
+msgstr "བདེན་བཤད་འབད་ནིའི་ཟུར་རྟགས་ཚུ་"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1077
+msgid "The types of authentication to perform on this socket."
+msgstr "འ་ནི་སོ་ཀེཊི་འདི་གུ་ལཱ་འགན་འགྲུབ་ནིའི་དོན་ལས་ བདེན་བཤད་འབད་ནིའི་དབྱེ་བ་ཚུ།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1083
+msgid "Credentials"
+msgstr "ངོ་སྤྲོད་ཚུ་"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1084
+msgid "The credentials structure to use when authenticating this connection (sent to local servers for outgoing sockets, used to verify clients for incoming sockets)."
+msgstr "འ་ནི་མཐུད་ལམ་འདི་བདེན་བཤད་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནི་གི་ ངོ་སྤྲོད་ཀྱི་གཞི་བཀོད་( ཕྱིར་བསྐྱོད་སོ་ཀེཊི་ཚུ་གི་དོན་ལུ་ ཉེ་གནས་སར་བར་ཚུ་ལུ་བཏང་  ནང་འབྱོར་སོ་ཀེཊི་ཚུ་གི་དོན་ལུ་ ཞབས་ཏོག་སྤྱོད་མི་ཚུ་བདེན་སྦྱོར་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཡོདཔ)།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1092
+#: ../libgnetwork/gnetwork-unix-connection.c:758
+#: ../libgnetwork/gnetwork-unix-server.c:596
+msgid "Filename"
+msgstr "ཡིག་སྣོད་མིང་"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1093
+msgid "The filename of the socket."
+msgstr "སོ་ཀེཊི་འདི་གི་ཡིག་སྣོད་མིང་།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1096
+#: ../libgnetwork/gnetwork-local-data-socket.c:1119
+#: ../libgnetwork/gnetwork-tcp-connection.c:1390
+#: ../libgnetwork/gnetwork-udp-datagram.c:1130
+#: ../libgnetwork/gnetwork-unix-connection.c:764
+msgid "Socket File Descriptor"
+msgstr "སོ་ཀེཊི་ཡིག་སྣོད་འགྲེལ་བཤད་པ་"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1097
+msgid "The socket file descriptor. Useful mainly for GNetworkLocalServer and subclasses."
+msgstr "སོ་ཀེཊི་ཡིག་སྣོད་འགྲེལ་བཤདཔ། གཙོ་བོ་རང་ ཇི་ཡོངས་འབྲེལ་ཉེ་གནས་སར་བར་དང་ ཡན་ལག་དབྱེ་རིགས་ཚུ་གི་དོན་ལུ་ཕན་ཐོགས་ཅན་ཨིན།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1104
+msgid "Local Socket Credentials"
+msgstr "ཉེ་གནས་སོ་ཀེཊི་ངོ་སྤྲོད་ཚུ་"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1105
+msgid "Credentials structure sent to the server or received from a client."
+msgstr "སར་བར་ལུ་བཏང་ཡོད་མི་ ཡང་ན་ ཞབས་ཏོག་སྤྱོད་མི་ཅིག་ལས་འཐོབ་ཡོད་པའི་ ངོ་སྤྲོད་ཀྱི་གཞི་བཀོད།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1111
+msgid "Socket Descriptors"
+msgstr "སོ་ཀེཊི་འགྲེལ་བཤདཔ་ཚུ་"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1112
+msgid "A value array of open socket file descriptors, used to allow clients access to files over a networking socket on Unix."
+msgstr "ཨོ་པཱན་སོ་ཀེཊི་ཡིག་སྣོད་འགྲེལ་བཤདཔ་ཚུ་གི་གནས་གོང་ཨེ་རེ་ ཡུ་ནིགསི་གུ་ ཡོངས་འབྲེལ་བཟོ་ནིའི་སོ་ཀེཊི་ཅིག་གུ་ལས་ ཡིག་སྣོད་ཚུ་ལུ་ ཞབས་ཏོག་སྤྱོད་མི་ཚུ་ འཛུལ་སྤྱོད་འབད་བཅུག་ནིའི་དོན་ལས་ལག་ལེན་འཐབ་ཡོད་མི།"
+
+#: ../libgnetwork/gnetwork-local-data-socket.c:1120
+msgid "An open file descriptor."
+msgstr "ཨོ་པཱན་ཡིག་སྣོད་འགྲེལ་བཤདཔ།"
+
+#: ../libgnetwork/gnetwork-object.c:358
+msgid "Main Context"
+msgstr "སྐབས་དོན་གཙོ་བོ་"
+
+#: ../libgnetwork/gnetwork-object.c:359
+msgid "The GMainContext this object is associated with."
+msgstr "ཇི་མེན་ཀོན་ཊེསིཊི་  འ་ནི་དངོས་པོ་འདི་འབྲེལ་བ་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-server-socket.c:371
+msgid "Sockets"
+msgstr "སོ་ཀེཊིསི་"
+
+#: ../libgnetwork/gnetwork-server-socket.c:372
+msgid "A value array containing the incoming sockets created by this server."
+msgstr "འ་ནི་སར་བར་གྱིས་གསར་བསྐྲུན་འབད་ཡོད་པའི་ ནང་འབྱོར་སོ་ཀེཊི་ཚུ་ཡོད་མི་ གནས་གོང་ཨེ་རེ།"
+
+#: ../libgnetwork/gnetwork-server-socket.c:376
+msgid "Socket."
+msgstr "སོ་ཀེཊི།"
+
+#: ../libgnetwork/gnetwork-server-socket.c:377
+msgid "An incoming socket object used by this server."
+msgstr "འ་ནི་སར་བར་གྱིས་ལག་ལེན་འཐབ་ཡོད་པའི་ ནང་འབྱོར་སོ་ཀེཏི་དངོས་པོ།"
+
+#: ../libgnetwork/gnetwork-server-socket.c:383
+msgid "Maximum Sockets"
+msgstr "མང་མཐའ་སོ་ཀེཊིསི་"
+
+#: ../libgnetwork/gnetwork-server-socket.c:384
+msgid "The maximum number of incoming sockets which can be created by this object."
+msgstr "འ་ནི་དངོས་པོ་གིས་གསར་བསྐྲུན་འབད་བཏུབ་མི་ ནང་འབྱོར་སོ་ཀེཊི་ཚུ་གི་མང་མཐའ་གྲངས།"
+
+#: ../libgnetwork/gnetwork-server-socket.c:388
+msgid "Close Sockets"
+msgstr "སོ་ཀེཊི་ཚུ་ཁ་བསྡམ་"
+
+#: ../libgnetwork/gnetwork-server-socket.c:389
+msgid "Whether or not to close incoming sockets when the server is closed."
+msgstr "སར་བར་འདི་ཁ་བསྡམ་ཡོད་པའི་སྐབས་ ནང་འབྱོར་སོ་ཀེཊི་ཚུ་ ཁ་བསྡམ་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../libgnetwork/gnetwork-server.c:83
+msgid "Server Status"
+msgstr "སར་བར་གནས་ཚད་"
+
+#: ../libgnetwork/gnetwork-server.c:84
+msgid "The status of this server."
+msgstr "འ་ནི་སར་བར་འདི་གི་གནས་ཚད།"
+
+#: ../libgnetwork/gnetwork-server.c:91
+msgid "The number of bytes received through this server."
+msgstr "འ་ནི་སར་བར་བརྒྱུད་དེ་འཐོབ་ཡོད་པའི་ བཱའིཏིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-server.c:98
+msgid "The number of bytes sent through this server."
+msgstr "འ་ནི་སར་བར་བརྒྱུད་དེ་བཏང་ཡོད་པའི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-server.c:104
+msgid "Maximum Incoming Connections"
+msgstr "མང་མཐའ་ནང་འབྱོར་མཐུད་ལམ་ཚུ་"
+
+#: ../libgnetwork/gnetwork-server.c:105
+msgid "The maximum number of incoming connections to allow, or %0, if all connections should be allowed."
+msgstr "འབད་ཆོག་པའི་ནང་འབྱོར་མཐུད་ལམ་གྱི་མང་མཐའ་གྲངས་ཡང་ན་ %0 ག་དེམ་ཅིག་འབད་མཐུད་ལམ་ཚུ་ཆ་མཉམ་འབད་བཅུག་དོག་པ་ཅིན།"
+
+#: ../libgnetwork/gnetwork-server.c:112
+msgid "Close Children"
+msgstr "ཆ་ལག་ཚུ་ཁ་བསྡམ་"
+
+#: ../libgnetwork/gnetwork-server.c:113
+msgid "Whether or not to close currently open connections when the server is closed."
+msgstr "སར་བར་འདི་ཁ་བསྡམ་ཡོད་པའི་སྐབས་ ད་ལྟོའི་ཨོ་པཱན་མཐུད་ལམ་ཚུ་ ཁ་བསྡམ་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../libgnetwork/gnetwork-server.c:119
+msgid "Connections"
+msgstr "མཐུད་ལམ་ཚུ་"
+
+#: ../libgnetwork/gnetwork-server.c:120
+msgid "A value array of the currently open connections."
+msgstr "ད་ལྟོའི་ཨོ་པཱན་མཐུད་ལམ་ཚུ་གི་གནས་གོང་ཨེ་རེ།"
+
+#: ../libgnetwork/gnetwork-server.c:122
+msgid "An Open Connection"
+msgstr "ཨོ་པཱན་མཐུད་ལམ་"
+
+#: ../libgnetwork/gnetwork-server.c:123
+msgid "A single currently-open connection."
+msgstr "རྐྱང་པ་ད་ལྟོའི་-ཨོ་པཱན་མཐུད་ལམ།"
+
+#: ../libgnetwork/gnetwork-server.c:304
+msgid "You cannot start a new service because an error occurred inside the GNetwork library."
+msgstr "ཁྱོད་ཀྱིས་ ཞབས་ཏོག་གསརཔ་ཅིག་འགོ་བཙུགས་མི་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་དཔེ་མཛོད་ཀྱི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-server.c:308
+msgid "You cannot start a new service because the maximum number of incoming connections has been reached."
+msgstr "ཁྱོད་ཀྱིས་ ཞབས་ཏོག་གསརཔ་ཅིག་འགོ་བཙུགས་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ནང་འབྱོར་མཐུད་ལམ་ཚུ་གི་མང་མཐའ་གྲངས་འདི་ ལྷོད་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-server.c:312
+msgid "You cannot start a new service because you do not have permission to create one."
+msgstr "ཁྱོད་ཀྱིས་ ཞབས་ཏོག་གསརཔ་ཅིག་འགོ་བཙུགས་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཁྱོད་ལུ་གཅིག་གསར་བསྐྲུན་འབད་ནི་གི་གནང་བ་མིན་འདུག"
+
+#: ../libgnetwork/gnetwork-server.c:315
+msgid "You cannot start a new service because your computer is out of memory for networking purposes."
+msgstr "ཁྱོད་ཀྱིས་ ཞབས་ཏོག་གསརཔ་ཅིག་འགོ་བཙུགས་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་གློག་རིག་འདི་ ཡོངས་འབྲེལ་བཟོ་ནིའི་དགོས་དོན་ཚུ་གི་དོན་ལུ་ དྲན་ཚད་ཀྱིས་བདའ་མ་ཟུནམ་ཨིན་པས།"
+
+#: ../libgnetwork/gnetwork-server.c:319
+msgid "You cannot start a new service because there are too many applications open."
+msgstr "ཁྱོད་ཀྱིས་ ཞབས་ཏོག་གསརཔ་ཅིག་འགོ་བཙུགས་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ འདི་ནང་ གློག་རིམ་ལེ་ཤ་ཁ་ཕྱེ་སྟེ་འདུག"
+
+#: ../libgnetwork/gnetwork-server.c:322
+msgid "You cannot start a new service because there is service being used already."
+msgstr "ཁྱོད་ཀྱིས་ ཞབས་ཏོག་གསརཔ་ཅིག་འགོ་བཙུགས་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ འདི་ནང་ ཞབས་ཏོག་འདི་ ཧེ་མ་ལས་རང་ལག་ལེན་འཐབ་སྟེ་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-socket.c:357
+msgid "Socket State"
+msgstr "སོ་ཀེཊི་གནས་ལུགས་"
+
+#: ../libgnetwork/gnetwork-socket.c:358
+msgid "The state of this socket (writable only by subclasses)."
+msgstr "འ་ནི་སོ་ཀེཊི་འདི་གི་གནས་ལུགས་ (ཡན་ལག་དབྱེ་རིགས་གིས་རྐྱངམ་ཅིག་འབྲི་བཏུབ་མི)།"
+
+#: ../libgnetwork/gnetwork-socket.c:365
+msgid "The number of bytes received through this socket."
+msgstr "འ་ནི་སོ་ཀེཊེ་བརྒྱུད་དེ་འཐོབ་ཡོད་མི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-socket.c:370
+msgid "The number of bytes sent through this socket."
+msgstr "འ་ནི་སོ་ཀེཊི་བརྒྱུད་དེ་བཏང་ཡོད་ཡོད་མི་ བཱའིཊིསི་གི་གྲངས།"
+
+#: ../libgnetwork/gnetwork-socket.c:376
+msgid "Error"
+msgstr "འཛོལ་བ་"
+
+#: ../libgnetwork/gnetwork-socket.c:377
+msgid "The error which occurred (used in the \"error\" signal)."
+msgstr "འཛོལ་བ་འབྱུང་ཡོད་མི་འདི་ (\"error\" བརྡ་རྟགས་འདི་ནང་ལག་ལེན་འཐབ་ཡོད་མི་འདི་)"
+
+#: ../libgnetwork/gnetwork-socket.c:381
+msgid "Error Flags"
+msgstr "འཛོལ་བའི་ཟུར་རྟགས་ཚུ་"
+
+#: ../libgnetwork/gnetwork-socket.c:382
+msgid "The severity of an error (used in the \"error\" signal)."
+msgstr "འཛོལ་བ་ཅིག་གི་འཚུབ་ཆ་ (\"error\" བརྡ་རྟགས་འདི་ནང་ལག་ལེན་འཐབ་ཡོད་མི་)"
+
+#: ../libgnetwork/gnetwork-ssl.c:532
+msgid "The connection did not provide a certificate."
+msgstr "མཐུད་ལམ་འདི་གིས་ ལག་ཁྱེར་ཅིག་མ་བྱིན་པས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:535
+msgid "The data received was not a valid certificate."
+msgstr "གནད་སྡུད་འཐོབ་ཡོད་མི་འདི་ ནུས་ལྡན་ལག་ཁྱེར་ཅིག་མེན་པས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:538
+msgid "The certificate is corrupt."
+msgstr "ལག་ཁྱེར་འདི་ངན་ཅན་ཨིན་པས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:541
+msgid "The certificate has been revoked, it is most likely a fraud."
+msgstr "ལག་ཁྱེར་འདི་ཆ་མེད་གཏང་གྲུབ་ཡོད་ འདི་མགུ་སྐོར་བཟུམ་ཅིག་ཨིན་པས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:544
+msgid "The certificate has not been signed by a trusted authority."
+msgstr "ལག་ཁྱེར་འདི་ བློ་གཏད་ཅན་གྱི་དབང་འཛིན་གྱིས་ མིང་རྟགས་མ་བཀོད་པས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:547
+msgid "The certificate is not an X.509 certificate."
+msgstr "ལག་ཁྱེར་འདི་ ཨེགསི་.༥༠༩ ལག་ཁྱེར་མེན་པས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:552
+msgid "The certificate could not be parsed."
+msgstr "ལག་ཁྱེར་འདི་མིང་དཔྱད་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-ssl.c:564
+#, c-format
+msgid "The certificate expired on %x, at %X."
+msgstr "ལག་ཁྱེར་འདི་ %x གུ་  %X ལུ་དུས་ཡོལ་ཡོདཔ།"
+
+#: ../libgnetwork/gnetwork-ssl.c:568
+#, c-format
+msgid "The certificate expired on %A, at %X."
+msgstr "ལག་ཁྱེར་འདི་ %A གུ་  %X ལུ་དུས་ཡོལ་ཡོདཔ།"
+
+#: ../libgnetwork/gnetwork-ssl.c:572
+#, c-format
+msgid "The certificate expired today at %X."
+msgstr "ལག་ཁྱེར་འདི་ ད་རེས་  %X ལུ་དུས་ཡོལ་ཡོདཔ།"
+
+#: ../libgnetwork/gnetwork-ssl.c:613
+msgid "The certificate has expired"
+msgstr "ལག་འདི་དུས་ཡོལ་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-ssl.c:627
+#, c-format
+msgid "The certificate is not usable until %x, at %X."
+msgstr "ལག་ཁྱེར་འདི་   %Xལུ་ %x ཚུན་ ལག་ལེན་འཐབ་མ་བཏུབ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-ssl.c:631
+#, c-format
+msgid "The certificate is not usable until %A, at %X."
+msgstr "ལག་ཁྱེར་འདི་  %A ཚུན་  %X ལུ་ལག་ལེན་འཐབ་མ་བཏུབ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-ssl.c:635
+#, c-format
+msgid "The certificate is not usable until %X."
+msgstr "ལག་ཁྱེར་འདི་  %X ཚུན་ལག་ལེན་འཐབ་མི་བཏུབ།"
+
+#: ../libgnetwork/gnetwork-ssl.c:676
+msgid "The certificate is not usable yet."
+msgstr "ལག་ཁྱེར་འདི་ད་ཚུན་ལག་ལེན་འཐབ་མི་བཏུབ།"
+
+#: ../libgnetwork/gnetwork-ssl.c:681
+msgid "The certificate is for a different host."
+msgstr "ལག་ཁྱེར་འདི་ ཧོསཊི་སོ་སོ་ཅིག་གི་དོན་ལུ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-ssl.c:1165
+msgid "There was no error. If you see this message, it is a bug."
+msgstr "འདི་ནང་འཛོལ་བ་ཅིག་འདུག  ཁྱོད་ཀྱི་འ་ནི་འཕྲིན་དོན་འདི་མཐོང་པ་ཅིན་ འདི་རྐྱེན་ཨིན།"
+
+#: ../libgnetwork/gnetwork-ssl.c:1168
+#: ../libgnetwork/gnetwork-ssl.c:1171
+msgid "The SSL operation did not complete, try again."
+msgstr "ཨེསི་ཨེསི་ཨེལ་བཀོལ་སྤྱོད་འདི་མཇུག་མ་བསྡུ་ ལོག་འབད་རྩོལ་བསྐྱེད།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:176
+#, c-format
+msgid "The connection to %s could not be completed because the server refused to allow it."
+msgstr " %s ལུའི་མཐུད་ལམ་འདི་མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ སར་བར་འདི་གིས་ འདི་འབད་བཅུག་ནི་ལུ་ངོས་ལེན་མ་འབད་བས།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:182
+#, c-format
+msgid "The connection to %s took too long to complete. The server may be down, your network connection may be down, or your network connection may be improperly configured."
+msgstr " %s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་ནིའི་དོན་ལས་རིང་དྲགས་པས། སར་བར་འདི་མར་ཉམས་འགྱོ་འགྱོཝ་འོང་ ཁྱོད་ཀྱི་ཡོངས་འབྲེལ་མཐུད་ལམ་འདི་མར་ཉམས་འགྱོ་འགྱོཝ་འོང་ ཡང་ན་ ཁྱོད་ཀྱི་ཡོངས་འབྲེལ་མཐུད་ལམ་འདི་ ཚུལ་ལྡན་མིནམ་སྦེ་རིམ་སྒྲིག་འབད་འབདཝ་འོང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:189
+#, c-format
+msgid "The network that %s is on could not be reached. Your network connection may be down or improperly configured."
+msgstr "ཡོངས་འབྲེལ་  %s ཨཱོན་ཨིན་པས་ ལྷོད་མི་ཚུགས། ཁྱོད་ཀྱིས་ཡོངས་འབྲེལ་མཐུད་ལམ་འདི་ མར་ཉམས་འགྱོ་འགྱོཝ་འོང་ ཡང་ན་ ཚུལ་ལྡན་མིནམ་སྦེ་རིམ་སྒྲིག་འབད་འབདཝ་འོང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:196
+#, c-format
+msgid "You cannot connect to %s, because your computer or firewall is configured to prevent it."
+msgstr "ཁྱོད་ཀྱིས་ %s ལུ་མཐུད་མི་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཁྱོད་ཀྱི་གློག་རིག་ཡང་ན་སྐྱོབ་གྱང་འདི་ སྔོན་བཀག་འབད་ནིའི་དོན་ལས་ རིམ་སྒྲིག་འབད་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:202
+#, c-format
+msgid "The connection to %s could not be completed because an  error occurred inside the GNetwork library."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་ དཔེ་མཛོད་འདི་གི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:658
+#: ../libgnetwork/gnetwork-tcp-connection.c:718
+#: ../libgnetwork/gnetwork-tcp-connection.c:734
+#: ../libgnetwork/gnetwork-tcp-connection.c:748
+#, c-format
+msgid "The connection to %s could not be completed because an error occurred inside the GNetwork library."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་ དཔེ་མཛོད་འདི་གི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1354
+msgid "TCP/IP Connection Status"
+msgstr "ཊི་སི་པི་/ཨའི་པི་མཐུད་ལམ་གནས་ཚད་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1355
+msgid "The current status of the TCP/IP connection."
+msgstr "ཊི་སི་པི་/ཨའི་པི་མཐུད་ལམ་འདི་གི་ ད་ལྟོའི་གནས་ཚད།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1362
+msgid "Proxy Type"
+msgstr "པོརོ་སི་དབྱེ་བ་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1363
+msgid "The type of proxy to use, depending on the protocol."
+msgstr "ལག་འཐབ་ནི་གི་པོརོ་སིའི་དབྱེ་བ་ གནད་སྤེལ་ལམ་ལུགས་འདི་དང་འཁྲིལ་ཏེ།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1368
+msgid "Address"
+msgstr "ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1369
+msgid "The hostname or IP address to connect to."
+msgstr "ལུ་མཐུད་ནིའི་དོན་ལས་ ཧོསཊི་ནེམ་ཡང་ན་ཨའི་པི་ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1372
+msgid "IP Address"
+msgstr "ཨའི་པི་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1373
+msgid "The IP address to connect to."
+msgstr "ལུ་མཐུད་ནིའི་དོན་ལས་ ཨའི་པི་ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1376
+msgid "Port Number"
+msgstr "འདྲེན་ལམ་ཨང་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1377
+msgid "The port number to connect to."
+msgstr "ལུ་མཐུད་ནིའི་དོན་ལས་ འདྲེན་ལམ་ཨང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1380
+msgid "Local Address"
+msgstr "ཉེ་གནས་ཁ་བྱང་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1381
+msgid "The IP address of this computer."
+msgstr "འ་ནི་གློག་རིག་གི་ཨའི་པི་ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1385
+msgid "Local Port Number"
+msgstr "ཉེ་གནས་འདྲེན་ལམ་ཨང་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1386
+msgid "The local port number we are connected through."
+msgstr "ང་བཅས་ཚུ་མཐུད་དེ་ཡོད་མི་ ཉེ་གནས་འདྲེན་ལམ་ཨང་།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1391
+#: ../libgnetwork/gnetwork-udp-datagram.c:1131
+msgid "The socket file descriptor."
+msgstr "སོ་ཀེཊི་ཡིག་སྣོད་འགྲེལ་བཤདཔ།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1396
+msgid "SSL Enabled"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ལྕོགས་ཅན་བཟོ་ཡོདཔ་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1397
+msgid "Whether or not SSL will be used with this connection."
+msgstr "ཨེསི་ཨེསི་ཨེལ་འདི་ འ་ནི་མཐུད་ལམ་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1402
+msgid "Authentication Type"
+msgstr "བདེན་བཤད་འབད་ནིའི་དབྱེ་བ་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1403
+msgid "What type of SSL authentication should be performed with this connection."
+msgstr "འ་ནི་མཐུད་ལམ་དང་གཅིག་ཁར་ ཨེསི་ཨེསི་ཨེལ་བདེན་བཤད་འབད་ནིའི་དབྱེ་བ་ག་ཅི་བཟུམ་ཅིག་ ལཱ་འགན་གྲུབ་དགོཔ་ཨིན་ན།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1410
+msgid "Certificate Authorities File"
+msgstr "ལག་ཁྱེར་དབང་འཛིན་པའི་ཡིག་སྣོད་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1411
+msgid "The path to a file which contains the X.509 certificates of trusted signers."
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ཚུ་ལུ་ བགོ་བཀྲམ་འབད་ནི་གི་ བློ་གཏད་ཅན་གྱི་མིང་རྟགས་བཀོད་མིའི་ ཨེགསི་.༥༠༩ ལག་ཁྱེར་ཚུ་ཡོད་མི་ ཡིག་སྣོད་ཅིག་ལུ་འགྲུལ་ལམ།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1416
+msgid "Certificate File"
+msgstr "ལག་ཁྱེར་ཡིག་སྣོད་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1417
+msgid "The path to a file which contains X.509 certificates to distribute to clients."
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ཚུ་ལུ་ བགོ་བཀྲམ་འབད་ནི་གི་ ཨེགསི་.༥༠༩ ལག་ཁྱེར་ཚུ་ཡོད་མི་ ཡིག་སྣོད་ཅིག་ལུ་འགྲུལ་ལམ།"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1421
+msgid "Key File"
+msgstr "ལྡེ་མིག་ཡིག་སྣོད་"
+
+#: ../libgnetwork/gnetwork-tcp-connection.c:1422
+msgid "The path to a file which contains X.509 keys to distribute to clients."
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ཚུ་ལུ་ བགོ་བཀྲམ་འབད་ནི་གི་ ཨེགསི་.༥༠༩ ཡོད་མི་ ཡིག་སྣོད་ཅིག་ལུ་འགྲུལ་ལམ།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:585
+#, c-format
+msgid "The proxy service at %s could not connect to %s."
+msgstr " %s ལུའི་ པོརོ་སི་ཞབས་ཏོག་འདི་  %s ལུ་མཐུད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1539
+#, c-format
+msgid "The connection to %s could not be completed because the GNetwork library has a bug in it."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་དཔེ་མཛོད་འདི་ལུ་ རྐྱེན་ཅིག་འདུག"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1545
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s is not running."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་ལཱ་མི་འབད་བས།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1549
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s did not respond to our requests for a connection."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་གིས་ ང་བཅས་ཀྱི་མཐུད་ལམ་ཅིག་གི་དོན་ལུ་ཞུ་བ་འདི་ལུ་ ལེན་བཀོད་འབད་མ་བཏུབ།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1553
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s could not be reached. Your network connection may be down or misconfigured."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་ ལྷོད་མ་ཚུགས། ཁྱོད་ཀྱི་ཡོངས་འབྲེལ་མཐུད་ལམ་འདི་ མར་ཉམས་འགྱོ་འགྱོཝ་འོང་ ཡང་ན་རིམ་སྒྲིག་ཕྱི་འགྱུར་འབད་འབདཝ་འོང་།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1557
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s is blocked by a firewall."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་ སྐྱོབ་གྱང་ཅིག་གིས་ བཀག་ཡོད།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1563
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s stopped the connection attempt."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་གིས་ མཐུད་ལམ་དཔའ་བཅའ་མི་འདི་བཀག་ཡོད།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1570
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s could not verify our user name and password."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་ ང་བཅས་ཀྱི་མིང་དང་ཆོག་ཡིག་གིས་བདེན་སྦྱོར་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1582
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s could not verify our user name. The Identity Service on this computer is not running or is misconfigured."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་ ང་བཅས་ཀྱི་ཀྱི་ལག་ལེན་པའི་མིང་གིས་ བདེན་སྦྱོར་འབད་མ་ཚུགས། འ་ནི་གློག་རིམ་གུའི་ངོ་རྟགས་ཞབས་ཏོག་འདི་ གཡོག་མི་བཀོལ་བས་ ཡང་ན་ འདི་རིམ་སྒྲིག་ཕྱི་འགྱུར་འབད་འབདཝ་འོང་།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1588
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s does not allow the requested type of connection."
+msgstr "%s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ %s ལུའི་པོརོ་སི་ཞབས་ཏོག་འདི་གིས་ ཞུ་བ་འབད་ཡོད་པའི་མཐུད་ལམ་གྱི་དབྱེ་བ་འདི་འབད་མི་བཅུག་པས།"
+
+#: ../libgnetwork/gnetwork-tcp-proxy.c:1599
+#, c-format
+msgid "The connection to %s could not be completed because the proxy service at %s is throwing a tantrum right now."
+msgstr " %s ལུའི་མཐུད་ལམ་འདི་ མཇུག་བསྡུ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་  %s ལུའི་པོརོ་སི་སར་བར་འདི་གིས་ ད་ལྟོ་རང་ཊིརེན་ཊརམ་ཅིག་བཀོག་དེས།"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:403
+#: ../libgnetwork/gnetwork-tcp-server.c:441
+#, c-format
+msgid "The service could not be started because there is already another service using port %d."
+msgstr "ཞབས་ཏོག་འདི་འགོ་བཙུགས་མི་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ འདི་ནང་ ཧེ་མ་ལས་རང་ འདྲེན་ལམ་ %d ལག་ལེན་འཐབ་མི་ཞབས་ཏོག་གཞན་མི་ཅིག་འདུག"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:408
+#, c-format
+msgid "You do not have permission to offer a service on port %d. Ports below 1024 can only be used as services by the root user."
+msgstr "ཁྱོད་ལུ་ འདྲེན་ལམ་ %d ལུ་་ཞབས་ཏོག་ཅིག་བྱིན་ནི་གི་གནང་བ་མིན་འདུག  ༡༠༢༤ གི་འོག་གི་འདྲེན་ལམ་ཚུ་ རྩ་བ་ལག་ལེན་པ་གིས་ ཞབས་ཏོག་འབད་མི་བཟུམ་སྦེ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ་བཏུབ།"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:745
+#: ../libgnetwork/gnetwork-udp-datagram.c:1112
+msgid "Local Interface"
+msgstr "ཉེ་གནས་ངོས་འདར་བ་"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:746
+msgid "The name of the interface to allow connections to (e.g. \"eth0\")."
+msgstr "ལེ་མཐུད་བཅུག་ནིའི་དོན་ལས་ ངོས་འདྲ་བ་འདི་གི་མིང་(དཔེར་བརྗོད་  \"eth0\")"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:750
+msgid "Interface Information"
+msgstr "ངོས་འདྲ་བའི་བརྡ་དོན་"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:751
+msgid "The hostname or IP address of the interface to allow connections to."
+msgstr "ལུ་མཐུད་བཅུག་ནིའི་དོན་ལས་ ངོས་འདྲ་བ་འདི་གི་ ཧོསཊི་ནེམ་ཡང་ན་ ཨའི་པི་ཁ་བྱང་།"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:756
+#: ../libgnetwork/gnetwork-udp-datagram.c:1124
+msgid "Local Port"
+msgstr "ཉེ་གནས་འདྲེན་ལམ་"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:757
+msgid "The port number to allow connections to."
+msgstr "ལུ་མཐུད་བཅུག་ནིའི་དོན་ལས་ འདྲེན་ལམ་ཨང་།"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:761
+msgid "Performs Reverse DNS Lookups"
+msgstr "རིམ་ལོག་ཌི་ཨེན་ཨེསི་བལྟ་བ་ཚུ་ ལཱ་འགན་གྲུབ་ཨིན་"
+
+#: ../libgnetwork/gnetwork-tcp-server.c:762
+msgid "Whether or not to perform reverse lookups on incoming connections."
+msgstr "ནང་འབྱོར་མཐུད་ལམ་ཚུ་ལུ་ རིམ་ལོག་བལྟ་བ་ཚུ་ ལཱ་འགན་གྲུབ་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:256
+msgid "An error occurred inside the GNetwork library while reading data from the socket."
+msgstr "སོ་ཀེཊི་འདི་ལས་ གནད་སྡུད་ལྷག་པའི་སྐབས་ ཇི་ཡོངས་འབྲེལ་འདི་གི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:334
+msgid "An error occurred inside the GNetwork library while sending data through the socket."
+msgstr "སོ་ཀེཊི་འདི་བརྒྱུད་དེ་ གནད་སྡུད་གཏང་པའི་སྐབས་ ཇི་ཡོངས་འབྲེལ་འདི་གི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:429
+#: ../libgnetwork/gnetwork-udp-datagram.c:678
+#, c-format
+msgid "The socket on port %u could not be opened because an error occurred inside the GNetwork library."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཊི་འདི་ ཁ་ཕྱེ་མ་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་དཔེ་མཛོད་འདི་གི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:436
+#: ../libgnetwork/gnetwork-udp-datagram.c:685
+msgid "The socket could not be opened because an error occurred inside the GNetwork library."
+msgstr "སོ་ཀེཊི་འདི་ཁ་ཕྱེ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཇི་ཡོངས་འབྲེལ་དཔེ་མཛོད་འདི་གི་ནང་ན་ འཛོལ་བ་ཅིག་འབྱུང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:464
+#: ../libgnetwork/gnetwork-udp-datagram.c:486
+#, c-format
+msgid "The socket on port %u could not be made asynchronous."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཊི་འདི་ གནད་སྡུད་རྒྱུན་སྤེལ་ བཟོ་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:470
+#: ../libgnetwork/gnetwork-udp-datagram.c:492
+msgid "The socket could not be made asynchronous."
+msgstr "སོ་ཀེཊི་འདི་ གནད་སྡུད་རྒྱུན་སྤེལ་ བཟོ་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:511
+#, c-format
+msgid "The socket on port %u could not be set to allow use by other applications."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཊི་འདི་ གློག་རིམ་གཞན་མི་ཚུ་གིས་ལག་ལེན་འཐབ་ནི་ལུ་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:518
+msgid "The socket could not be set to allow use by other applications."
+msgstr "སོ་ཀེཊི་འདི་ གློག་རིམ་གཞན་མི་ཚུ་གིས་ལག་ལེན་འཐབ་བཅུག་ནི་ལུ་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:538
+#: ../libgnetwork/gnetwork-udp-datagram.c:977
+#, c-format
+msgid "The socket on port %u could not be set to allow broadcasting."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཏི་འདི་ རྒྱང་བསྒྲགས་འབད་ཆོག་མི་ལུ་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:545
+#: ../libgnetwork/gnetwork-udp-datagram.c:984
+msgid "The socket could not be set to allow broadcasting."
+msgstr "སོ་ཀེཊི་འདི་ རྒྱང་བསྒྲགས་འབད་ཆོག་མི་ལུ་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:562
+#: ../libgnetwork/gnetwork-udp-datagram.c:586
+#, c-format
+msgid "The time-to-live property for the socket on port %u could not be changed."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཊི་འདི་གི་དོན་ལུ་ བཞག་ནིའི་དུས་ཚོན་འདི་ བསྒྱུར་བཅོས་འབད་མཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:568
+#: ../libgnetwork/gnetwork-udp-datagram.c:592
+msgid "The time-to-live property for the socket could not be changed."
+msgstr "སོ་ཀེཊི་གི་དོན་ལུ་ བཞག་ནི་གི་དུས་ཚོད་རྒྱུ་དངོས་འདི་བསྒྱུར་བཅོས་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:662
+#, c-format
+msgid "The socket on port %u could not be opened because another socket is using that port."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཊི་འདི་ ཁ་ཕྱེ་ཙ་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ འ་ནི་འདྲེན་ལམ་འདི་སོ་ཀེཊི་གཞན་མི་ཅིག་གིས་ལག་ལེན་འཐབ་ཨིན་པས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:671
+#, c-format
+msgid "The socket on port %u could not be opened because ports under 1024 can only be opened by the root user."
+msgstr "འདྲེན་ལམ་ %u གུའི་སོ་ཀེཊི་འདི་ ཁ་ཕྱེ་མ་བཏུབ་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ༡༠༢༤ གི་འོག་གི་འདྲེན་ལམ་ཚུ་ རྩ་བ་ལག་ལེན་པ་ཚུ་གིས་རྐྱངམ་ཅིག་ ཁ་ཕྱེ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:942
+#, c-format
+msgid "The packet lifetime for the socket on port %u could not be set."
+msgstr "འདྲེན་ལམ་ %u གུའི་ སོཀེཊི་འདི་གི་དོན་ལུ་ འཕྲིན་ཚན་ཚེ་རུན་འདི་ གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:949
+msgid "The packet lifetime could not be set."
+msgstr "འཕྲིན་ཚན་ཚེ་ཡུན་འདི་གཞི་སྒྲིག་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1107
+msgid "Allow Broadcasting"
+msgstr "རྒྱང་བསྒྲགས་འབད་ནི་འབད་བཅུག་"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1108
+msgid "Whether or not to allow broadcasting through this datagram."
+msgstr "འ་ནི་ཌེ་ཊ་ག་རམ་བརྒྱུད་དེ་ རྒྱང་བསྒྲགས་འབད་བཅུག་ནི་ཨིན་ན་མེན་ན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1113
+msgid "The name of the interface to bind to (e.g. \"eth0\")."
+msgstr "ལེ་བསྡམ་ནིའི་དོན་ལས་ ངོས་འདྲ་བ་འདི་གི་མིང་་(དཔེར་བརྗོད་  \"eth0\")"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1118
+msgid "Local Interface Information"
+msgstr "ཉེ་གནས་ངོས་འདྲ་བའི་བརྡ་དོན་"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1119
+msgid "Information about the interface this socket is bound to."
+msgstr "ལུ་འ་ནི་སོ་ཀེཊི་འདི་ གནས་ཡོད་པའི་ ངོས་འདྲ་བ་འདི་གི་སྐར་ལས་བརྡ་དོན།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1125
+msgid "The local port to bind to."
+msgstr "ལུ་བསྡམ་ནིའི་དོན་ལས་ ཉེ་གནས་འདྲེན་ལམ།"
+
+#: ../libgnetwork/gnetwork-udp-datagram.c:1135
+msgid "The distance messages sent through this datagram should travel."
+msgstr "འ་ནི་ཌེ་ཊ་ག་རམ་འདི་བརྒྱུད་དེ་བཏང་ཡོད་མི་ གྱང་ཚད་འཕྲིན་དོན་ཚུ་ ལམ་འགྲུལ་འབད་དགོ"
+
+#: ../libgnetwork/gnetwork-unix-connection.c:126
+#, c-format
+msgid "The file \"%s\" could not be used as a connection because the service refused to allow it, or it is not a service."
+msgstr "ཡིག་སྣོད་ \"%s\" འདི་ མཐུད་ལམ་ཅིག་སྦེ་ལག་ལེན་འཐབ་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཞབས་ཏོག་གིས་ འདི་འབད་བཅུག་ནི་ལུ་ངོས་ལེན་མ་འབད་བས་ ཡང་ན་ འདི་ཞབས་ཏོག་ཅིག་མེནམ་འོང་།"
+
+#: ../libgnetwork/gnetwork-unix-connection.c:750
+msgid "UNIX/IP Connection Status"
+msgstr "ཡུ་ནིགསི་/ཨའི་པི་ མཐུད་ལམ་གནས་ཚད་"
+
+#: ../libgnetwork/gnetwork-unix-connection.c:751
+msgid "The current status of the UNIX connection."
+msgstr "ཡུ་ནིགསི་མཐུད་ལམ་འདི་གི་ ད་ལྟོའི་གནས་ཚད།"
+
+#: ../libgnetwork/gnetwork-unix-connection.c:759
+msgid "The filename of the UNIX socket in question."
+msgstr "ཡུ་ནིགསི་སོ་ཀེཊི་འདི་གི་ཡིག་སྣོད་མིང་འདི་ དྲི་བ་ནང་།"
+
+#: ../libgnetwork/gnetwork-unix-connection.c:765
+msgid "The socket file descriptor. For use by GNetworkUnixServer."
+msgstr "སོ་ཀེཊི་ཡིག་སྣོད་འགྲེལ་བཤདཔ། ཇི་ཡོངས་འབྲེལ་ཡུ་ནིགསི་སར་བར་གྱི་ལག་ལེན་དོན་ལུ།"
+
+#: ../libgnetwork/gnetwork-unix-server.c:332
+#: ../libgnetwork/gnetwork-unix-server.c:347
+#, c-format
+msgid "The Unix service could not be started because the file \"%s\" already exists."
+msgstr "ཡུ་ནིགསི་ཞབས་ཏོག་འདི་ འགོ་བཙུགས་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཡིག་སྣོད་ \"%s\" འདི་ཧེ་མ་ལས་རང་ཡོདཔ་ཨིན།"
+
+#: ../libgnetwork/gnetwork-unix-server.c:337
+#, c-format
+msgid "The Unix service could not be started because the file \"%s\" is protected."
+msgstr "ཡུ་ནིགསི་ཞབས་ཏོག་འདི་ འགོ་བཙུགས་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཡིག་སྣོད་ \"%s\" འདི་ཉེན་སྐྱོབ་འབད་ཡོད།"
+
+#: ../libgnetwork/gnetwork-unix-server.c:342
+#, c-format
+msgid "The Unix service could not be started because the file \"%s\" could not be created."
+msgstr "ཡུ་ནིགསི་ཞབས་ཏོག་འདི་ འགོ་བཙུགས་མ་ཚུགས་ ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཡིག་སྣོད་ \"%s\" འདི་གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ../libgnetwork/gnetwork-unix-server.c:597
+msgid "The socket filename."
+msgstr "སོ་ཀེཊི་ཡིག་སྣོད་མིང་།"
+
+#: ../tests/gnetwork-demo.c:118
+msgid "Closing Connection...\n"
+msgstr "མཐུད་ལམ་ཁ་བསྡམ་དོ་...\n"
+
+#: ../tests/gnetwork-demo.c:121
+msgid "Connection Closed.\n"
+msgstr "མཐུད་ལམ་ཁ་བསྡམ་ཡོདཔ།\n"
+
+#: ../tests/gnetwork-demo.c:125
+msgid "Finding Host...\n"
+msgstr "ཧོསཊི་འཚོལ་དོ་...\n"
+
+#: ../tests/gnetwork-demo.c:128
+msgid "Opening Connection...\n"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ་དོ་...\n"
+
+#: ../tests/gnetwork-demo.c:131
+msgid "Traversing Proxy Server...\n"
+msgstr "པོརོ་སི་སར་བར་ཀྱོག་འགྲུལ་འབད་དོ་...\n"
+
+#: ../tests/gnetwork-demo.c:134
+msgid "Authenticating SSL...\n"
+msgstr "ཨེསི་ཨེསི་ཨེལ་ བདེན་བཤད་འབད་དོ་...\n"
+
+#: ../tests/gnetwork-demo.c:137
+msgid "Connection Open...\n"
+msgstr "མཐུད་ལམ་ཁ་ཕྱེ་...\n"
+
+#: ../tests/gnetwork-demo.c:251
+msgid "Send"
+msgstr "གཏང་"
+
+#: ../tests/gnetwork-demo.c:322
+msgid "GNetwork Library Demonstration"
+msgstr "ཇི་ཡོངས་འབྲེལ་ དཔེ་མཛོད་འགྲེམས་སྟོན་"
+
+#: ../tests/gnetwork-demo.c:338
+msgid "Address:"
+msgstr "ཁ་བྱང་:"
+
+#: ../tests/gnetwork-demo.c:346
+msgid "Port:"
+msgstr "འདྲེན་ལམ་:"
+
+#: ../tests/gnetwork-demo.c:354
+msgid "_Connect"
+msgstr "མཐུད་(_C)"
+

@@ -1,0 +1,1183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alsa-utils\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-20 15:10+0600\n"
+"PO-Revision-Date: 2007-05-21 14:07+0530\n"
+"Last-Translator: Dawa pemo <spicydaws_pem@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: n plurals=2;plural=n(!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../aplay/aplay.c:128
+msgid "raw data"
+msgstr "གནས་སྡུད་རགས་པ་"
+
+#: ../aplay/aplay.c:129
+msgid "VOC"
+msgstr "བི་ཨོ་སི་"
+
+#. FIXME: can WAV handle exactly 2GB or less than it?
+#: ../aplay/aplay.c:131
+msgid "WAVE"
+msgstr "ཝེབ་"
+
+#: ../aplay/aplay.c:132
+msgid "Sparc Audio"
+msgstr "སི་པརགསི་ རྣར་ཉན་"
+
+#: ../aplay/aplay.c:153
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... [FILE]...\n"
+"\n"
+"-h, --help              help\n"
+"    --version           print current version\n"
+"-l, --list-devices      list all soundcards and digital audio devices\n"
+"-L, --list-pcms         list all PCMs defined\n"
+"-D, --device=NAME       select PCM by name\n"
+"-q, --quiet             quiet mode\n"
+"-t, --file-type TYPE    file type (voc, wav, raw or au)\n"
+"-c, --channels=#        channels\n"
+"-f, --format=FORMAT     sample format (case insensitive)\n"
+"-r, --rate=#            sample rate\n"
+"-d, --duration=#        interrupt after # seconds\n"
+"-s, --sleep-min=#       min ticks to sleep\n"
+"-M, --mmap              mmap stream\n"
+"-N, --nonblock          nonblocking mode\n"
+"-F, --period-time=#     distance between interrupts is # microseconds\n"
+"-B, --buffer-time=#     buffer duration is # microseconds\n"
+"    --period-size=#     distance between interrupts is # frames\n"
+"    --buffer-size=#     buffer duration is # frames\n"
+"-A, --avail-min=#       min available space for wakeup is # microseconds\n"
+"-R, --start-delay=#     delay for automatic PCM start is # microseconds \n"
+"                        (relative to buffer size if <= 0)\n"
+"-T, --stop-delay=#      delay for automatic PCM stop is # microseconds from xrun\n"
+"-v, --verbose           show PCM structure and setup (accumulative)\n"
+"-I, --separate-channels one file for each channel\n"
+msgstr ""
+"བདེ་སྤྱོད་: %s [གདམ་ཁ་ཚུ]... [ཡིག་སྣོད་]...\n"
+"\n"
+"-h, --help              གྲོགས་རམ་\n"
+"--version           ད་ལྟོའི་ཐོན་རིམ་དཔར་བསྐྲུན་འབད་\n"
+"-list-devices      སྒྲ་བྱངཆ་མཉམ་་དང་  ཌི་ཇི་ཊཱལ་རྣར་ཉན་ཐབས་ཕྲུལ་ཚུ་ཐོ་བཀོད་འབད་-L, --list-pcms         པི་སི་ཨེམ་ ངེས་འཛིན་འབད་ཚར་མི་ཚུ་ཐོ་བཀོད་འབད་\n"
+"-D,--device=NAME     པི་སི་ཨེམ་ མིང་གི་ཐོག་ལས་སེལ་ཐུ་འབད་\n"
+"M-q, --qu               ཐབས་ལམ་ཙག་ཏོག་ཏོ་\n"
+" -t, --file-type TYPE    ཡིག་སྣོད་ཀྱི་དབྱེ་བ་(voc, wav, raw or au)\n"
+"-c, --channels=#        རྒྱུ་ལམ་ཚུ་\n"
+"-f, --format=FORMAT    དཔེ་ཚད་རྩ་སྒྲིག་ (གནད་དོན་ཚོར་མིན་ཅན་)\n"
+"-r, --rate=#            དཔེ་ཚད་ཀྱི་གོང་ཚད་\n"
+"-d, --duration=#        སྐར་ཆ་ # གི་ཤུལ་ལས་བར་དཀྲོགས་འབད་\n"
+"-s, --sleep-min=#       སྐར་ཆ་་བསྒུག་ནི་འབད་དོ\n"
+"-buffer-size=#     buffer duration is # frames\n"
+"-M, --mmap              ཨེམ་ས་ཁྲའི་རྒྱུན་རིམ་\n"
+"-N, --nonblock          བཀག་མ་བཞག་མི་ཐབས་ལམ་\n"
+"-F, --period-time=#     # མེཀོརོ་སྐར་ཆ་དེ་བར་སྐྲོགས་་ཚུ་གི་བར་ན་གི་རྒྱང་ཚད་ཨིན་\n"
+"-B, --buffer-time=#      # མེཀརོ་སྐར་ཆ་དེ་ གནད་ཁོང་དུས་ཡུན་ཨིན་\n"
+" --period-size=#      # གཞི་ཁྲམ་ཚུ་ བར་སྐྲོགས་ཀྱི་བར་ན་གི་རྒྱང་ཚད་ཨིན་\n"
+"   --buffer-size=#     # གཞི་ཁྲམ་ཚུ་གནད་ཁོང་གི་དུས་ཡུན་ཨིན་\n"
+"-A, --avail-min=#      གཉིད་ཚོར་བཅུག་ནིའི་དོན་ལུ་ ཐོབ་ཚུགས་པའི་བར་སྟོང་ཉུང་མཐའ་དེ་  # མེཀརོ་སྐར་ཆ་ཚུ་ཨིན\n"
+"-R, --start-delay=#    རང་བཞིན་གྱིས་ པི་སི་ཨེམ་འགོ་བཙུགས་ཀྱི་དོན་ལུ་ ཕྱིར་འགྱངས་འདི་ # མེཀརོ་སྐར་ཆ་ཚུ་ཨིན། \n"
+"                                  ( <= 0) ཨིན་པ་ཅིན་ གནད་ཁོངས་ཚད་གཞི་ལུ་འབྲེལ་བ་ཡོདཔ་ཨིན།\n"
+"-T, --stop-delay=#     རང་བཞིན་གྱིས་ པི་སི་ཨེམ་མཇུག་བསྡུ་་གི་དོན་ལུ་ཕྱིར་འགྱངས་འདི་  ཨེགསི་རཱན་ནང་གི་ #མེཀརོ་སྐར་ཆ་ཚུ་ཨིན།\n"
+"-v, --verbose            པི་སི་ཨེམ་གཞི་བཀོད་དང་ གཞི་སྒྲིག་སྟོན་ (སྤུང་གསོག་)\n"
+"-I, --separate-རྒྱུ་ལམ་རེ་རེ་གི་དོན་ལུ་  ཡིག་སྣོད་རེ་རྒྱུ་ལམ་སྦེ་བཟོཝ་ཨིན། \n"
+
+#: ../aplay/aplay.c:180
+#: ../speaker-test/speaker-test.c:725
+#, c-format
+msgid "Recognized sample formats are:"
+msgstr "ངོས་འཛིན་འབད་བའི་དཔེ་ཚད་རྩ་སྒྲིག་ཚུ:"
+
+#: ../aplay/aplay.c:186
+#, c-format
+msgid ""
+"\n"
+"Some of these may not be available on selected hardware\n"
+msgstr ""
+"\n"
+"འདི་ཚུ་ནང་ལས་ལ་ལུ་ཅིག་སེལ་ཐུ་འབད་ཡོད་པའི་སྲ་ཆས་ནང་མེདཔ་འོང་\n"
+
+#: ../aplay/aplay.c:187
+#, c-format
+msgid "The availabled format shortcuts are:\n"
+msgstr "རྩ་སྒྲིག་མགྱོགས་ཐབས་ཡོད་མི་ཚུ་:\n"
+
+#: ../aplay/aplay.c:188
+#, c-format
+msgid "-f cd (16 bit little endian, 44100, stereo)\n"
+msgstr "-ཨེཕ་ སིཌི་ (༡༦ ཨེན་ཌི་ཡེན་ཆུང་ཀུ་ཅིག་ཨིན་མས་, ༤༤༡༠༠, གླུ་སྒྲོམ་)\n"
+
+#: ../aplay/aplay.c:189
+#, c-format
+msgid "-f cdr (16 bit big endian, 44100, stereo)\n"
+msgstr "-ཨེཕ་ སི་ཌི་ཨར་ (༡༦་ ཨེན་ཌི་ཡེན་སྦོམ་སུ་ཅིག་ཨིན་མས་, ༤༤༡༠༠, གླུ་སྒྲོམ་)\n"
+
+#: ../aplay/aplay.c:190
+#, c-format
+msgid "-f dat (16 bit little endian, 48000, stereo)\n"
+msgstr "-ཨེཕ་ ཌེཊ (༡༦་ ཨེན་ཌི་ཡེན་ཆུང་སུ་ཅིག་ཨིན་མས་, ༤༨༠༠༠, གླུ་སྒྲོམ་)\n"
+
+#: ../aplay/aplay.c:200
+#, c-format
+msgid "snd_names_list error: %s"
+msgstr "གཏང་_མིང་ཚུ་_འཛོལ་བ་ཐོ་བཀོད་འབད་: %s"
+
+#: ../aplay/aplay.c:222
+msgid "no soundcards found..."
+msgstr "སྒྲ་བྱང་ཐོབ་མ་ཚུགས་..."
+
+#: ../aplay/aplay.c:225
+#, c-format
+msgid "**** List of %s Hardware Devices ****\n"
+msgstr "****  %s སྲ་ཆས་ ཐབས་འཕྲུལ་ ཐོ་བཀོད་ཚུ་ཨིན་ ****\n"
+
+#: ../aplay/aplay.c:254
+#, c-format
+msgid "card %i: %s [%s], device %i: %s [%s]\n"
+msgstr "ཤོག་བྱང་ %i: %s [%s], ཐབས་འཕྲུལ་ %i: %s [%s]\n"
+
+#: ../aplay/aplay.c:260
+#, c-format
+msgid "  Subdevices: %i/%i\n"
+msgstr "ཡན་ལག་ཐབས་འཕྲུལལཚུ་: %i/%i\n"
+
+#: ../aplay/aplay.c:267
+#, c-format
+msgid "  Subdevice #%i: %s\n"
+msgstr "ཡན་ལག་ཐབས་འཕྲུལ་ #%i: %s\n"
+
+#: ../aplay/aplay.c:295
+#, c-format
+msgid "PCM list:\n"
+msgstr "པི་སི་ཨེམ་ཐོ་བཀོད་:\n"
+
+#: ../aplay/aplay.c:310
+#, c-format
+msgid "Aborted by signal %s...\n"
+msgstr "བརྡ་རྟགས་ཀྱིས་བར་བཤོལ་འབད་འབདཝ་ཨིན་ %s...\n"
+
+#: ../aplay/aplay.c:394
+msgid "command should be named either arecord or aplay"
+msgstr "བརྡ་བཀོད་དེ་ ཨེ་སྒྲ་བཟུང་ ཡང་ན་ ཨེ་བཏང་ནི་སྦེ་ མིང་བཏགས་དགོཔ་ཨིན།"
+
+#: ../aplay/aplay.c:436
+#, c-format
+msgid "unrecognized file format %s"
+msgstr "ངོས་འཛིན་མ་འབད་བའི་ཡིག་སྣོད་རྩ་སྒྲིག་ %s"
+
+#: ../aplay/aplay.c:443
+#, c-format
+msgid "value %i for channels is invalid"
+msgstr "རྒྱུ་ལམ་ཚུ་གི་དོན་ལུ་ གནས་གོང་%i དེ་ནུས་མེད་ཨིན་མས་"
+
+#: ../aplay/aplay.c:462
+#, c-format
+msgid "wrong extended format '%s'"
+msgstr "རྒྱ་བསྐྱེད་འབད་འབད་བའི་རྩ་སྒྲིག་ཕྱི་འགྱུར་ '%s'"
+
+#: ../aplay/aplay.c:473
+#, c-format
+msgid "bad speed value %i"
+msgstr "མགྱོགས་ཚད་ཀྱི་གནས་གོང་བྱང་ཉེས་%i"
+
+#: ../aplay/aplay.c:529
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལས་ `%s --གྲོགས་རམ་' ལུ་འབད་རྩོལ་བསྐྱེད་\n"
+
+#: ../aplay/aplay.c:550
+#, c-format
+msgid "audio open error: %s"
+msgstr "རྣར་ཉན་ཁ་ཕྱེ་ནི་ལུ་འཛོལ་བ་ : %s"
+
+#: ../aplay/aplay.c:555
+#, c-format
+msgid "info error: %s"
+msgstr "བརྡ་དོན་འཛོལ་བ་: %s"
+
+#: ../aplay/aplay.c:562
+#, c-format
+msgid "nonblock setting error: %s"
+msgstr "འགག་ཚན་མེད་པའི་སྒྲིག་སྟངས་ལུ་འཛོལ་བ་ : %s"
+
+#: ../aplay/aplay.c:572
+#: ../aplay/aplay.c:678
+#: ../aplay/aplay.c:1029
+msgid "not enough memory"
+msgstr "དྲན་ཚད་ལངམ་འབད་མིན་ནུག་"
+
+#: ../aplay/aplay.c:668
+#, c-format
+msgid "read error (called from line %i)"
+msgstr "འཛོལ་བ་ལྷག་ (གྱལ་རིམ་ %i ནང་ལས་བོད་བརྡ་གཏང་ཡོདཔ་)"
+
+#: ../aplay/aplay.c:726
+#, c-format
+msgid "unknown length of 'fmt ' chunk (read %u, should be %u at least)"
+msgstr " 'ཨེཕ་ཨེམ་ཊི་' དྲ་དུམ་གི་མ་ཤེས་པའི་རིང་ཚད་(%u ལྷག་ནིའི་དོན་ལུ་, ཉུང་མཐའ་ལུ་ %u སྦེ་དགོཔ་ཨིན་ )"
+
+#: ../aplay/aplay.c:734
+msgid "can't play not PCM-coded WAVE-files"
+msgstr "པི་སི་ཨེམ་-རྟགས་བཀོད་ཡོད་པའི་ ཝེབ་-ཡིག་སྣོད་ཚུ་ མེན་མི་འདི་གཏང་མི་ཚུགས་པས་"
+
+#: ../aplay/aplay.c:738
+#, c-format
+msgid "can't play WAVE-files with %d tracks"
+msgstr "གླུ་རིམ་ %d དང་གཅིག་ཁར་ཡོད་མི་ ཝེབ་-ཡིག་སྣོད་ཚུ་གཏང་མི་ཚུགས་པས་"
+
+#: ../aplay/aplay.c:746
+#: ../aplay/aplay.c:843
+#, c-format
+msgid "Warning: format is changed to U8\n"
+msgstr "ཉེན་བརྡ: རྩ་སྒྲིག་འདི་ U8 ལུ་བསྒྱུར་བཅོས་འབད་ཡི་ \n"
+
+#: ../aplay/aplay.c:752
+#, c-format
+msgid "Warning: format is changed to S16_LE\n"
+msgstr "ཉེན་བརྡ་: རྩ་སྒྲིག་འདི་ S16_LE ལུ་བསྒྱུར་བཅོས་འབད་ཡི་\n"
+
+#: ../aplay/aplay.c:760
+#, c-format
+msgid "Warning: format is changed to S24_3LE\n"
+msgstr "ཉེན་བརྡ་: རྩ་སྒྲིག་འདི་ S24_3LE ལུ་བསྒྱུར་བཅོས་འབད་ཡི་\n"
+
+#: ../aplay/aplay.c:766
+#, c-format
+msgid "Warning: format is changed to S24_LE\n"
+msgstr "ཉེན་བརྡ:   རྩ་སྒྲིག་འདི་S24_LE ལུ་བསྒྱུར་བཅོས་འབད་ཡི་\n"
+
+#: ../aplay/aplay.c:770
+#, c-format
+msgid " can't play WAVE-files with sample %d bits in %d bytes wide (%d channels)"
+msgstr " ཝེབ་-ཡིག་སྣོད་  དཔེ་ཚད་ %d བིཊསི་ ནང་ %d བཱའིཊིསི་ རྒྱ་ཅན་ (%d རྒྱུ་ལམ་ཚུ་)དང་གཅིག་ཁར་ཡོད་མི་དེ་གཏང་མི་བཏུབ་པས་"
+
+#: ../aplay/aplay.c:779
+#, c-format
+msgid " can't play WAVE-files with sample %d bits wide"
+msgstr "དཔེ་ཚད་ %d བིཊིསི་རྒྱ་ཅན་དང་གཅིག་ཁར་ཡོད་མི་ ཡིག་སྣོད་ཚུ་གཏང་མི་བཏུབ་པས་"
+
+#: ../aplay/aplay.c:837
+#, c-format
+msgid "Warning: format is changed to MU_LAW\n"
+msgstr "ཉེན་བརྡ་: རྩ་སྒྲིག་འདི་ MU_LAW ལུ་བསྒྱུར་བཅོས་འབད་ཡི་\n"
+
+#: ../aplay/aplay.c:849
+#, c-format
+msgid "Warning: format is changed to S16_BE\n"
+msgstr "ཉེན་བརྡ་:  རྩ་སྒྲིག་འདི་ S16_BE ལུ་བསྒྱུར་བཅོས་འབད་ཡི་\n"
+
+#: ../aplay/aplay.c:862
+#: ../aplay/aplay.c:1498
+#: ../aplay/aplay.c:1505
+#: ../aplay/aplay.c:2021
+#: ../aplay/aplay.c:2033
+msgid "read error"
+msgstr "འཛོལ་བ་ལྷག་"
+
+#: ../aplay/aplay.c:882
+msgid "Broken configuration for this PCM: no configurations available"
+msgstr "པི་སི་ཨེམ་འདི་གི་དོན་ལུ་རིམ་སྒྲིག་ཆད་པ་: རིམ་སྒྲིག་ལངམ་སྦེ་མིན་ནུག་"
+
+#: ../aplay/aplay.c:899
+msgid "Access type not available"
+msgstr "འཛུལ་སྤྱོད་ཀྱི་དབྱེ་བ་འཐོབ་མ་ཚུགས་"
+
+#: ../aplay/aplay.c:904
+msgid "Sample format non available"
+msgstr "དཔེ་ཚད་རྩ་སྒྲིག་ ལངམ་སྦེ་མིན་འདུག་"
+
+#: ../aplay/aplay.c:909
+msgid "Channels count non available"
+msgstr "རྒྱུ་ལམ་ཚུ་གི་ཁ་གྱང་ལངམ་སྦེ་མིན་འདུག་"
+
+#: ../aplay/aplay.c:924
+#, c-format
+msgid "Warning: rate is not accurate (requested = %iHz, got = %iHz)\n"
+msgstr "ཉན་བརྡ་: མགྱོགས་ཚད་ཀྲིག་ཀྲི་མིན་འདུག་ (ཞུ་བ་འབད་ཡི་)= %iHz, got = %iHz)\n"
+
+#: ../aplay/aplay.c:930
+#, c-format
+msgid "         please, try the plug plugin %s\n"
+msgstr "%s པ་ལག་ཨིན་ བཙུགས་ནིའི་དོན་ལུ་འབད་རྩོལ་བསྐྱེད་གནང་\n"
+
+#: ../aplay/aplay.c:965
+msgid "Unable to install hw params:"
+msgstr "ཨེཆ་ཌབ་ལུ་ པཱརམ་ཚུ་གཞི་བཙུགས་འབད་མ་ཚུགས་:"
+
+#: ../aplay/aplay.c:972
+#, c-format
+msgid "Can't use period equal to buffer size (%lu == %lu)"
+msgstr "གནད་ཁོང་གི་ཚད་(%lu == %lu)དང་མཉམ་པ་སྦེ་ཡོད་མི་དུས་ཡུན་ལག་ལེན་འཐབ་མི་བཏུབ་པས་"
+
+#: ../aplay/aplay.c:979
+msgid "Unable to obtain xfer align\n"
+msgstr "ཨེགསི་ཕར་ ཕྲང་སྒྲིག་འཐོབ་མ་ཚུགས་\n"
+
+#: ../aplay/aplay.c:1016
+msgid "unable to install sw params:"
+msgstr "ཨེས་ཌབ་ལུ་ པ་རམ་ཚུ་གཞི་བཙུགས་འབད་མ་ཚུགས་:"
+
+#: ../aplay/aplay.c:1055
+#, c-format
+msgid "status error: %s"
+msgstr "གནས་ཚད་འཛོལ་བ་: %s"
+
+#: ../aplay/aplay.c:1063
+#, c-format
+msgid "%s!!! (at least %.3f ms long)\n"
+msgstr "%s!!! (ཉུང་མཐའ་ལུ་ %.3f ms རིངམ་དགོ་)\n"
+
+#: ../aplay/aplay.c:1064
+msgid "underrun"
+msgstr "གཡོག་བཀོལ་ཉུང་བ་"
+
+#: ../aplay/aplay.c:1064
+msgid "overrun"
+msgstr "གཡོག་བཀོལ་དྲག་པ་"
+
+#: ../aplay/aplay.c:1067
+#, c-format
+msgid "Status:\n"
+msgstr "གནས་ཚད་:\n"
+
+#: ../aplay/aplay.c:1071
+#, c-format
+msgid "xrun: prepare error: %s"
+msgstr "ཨེགསི་རཱན་: གྲ་སྒྲིག་འབད་ནི་ལུ་འཛོལ་བ་: %s"
+
+#: ../aplay/aplay.c:1077
+#, c-format
+msgid "Status(DRAINING):\n"
+msgstr "གནས་ཚད་(བཙགས་གཏང་):\n"
+
+#: ../aplay/aplay.c:1081
+#, c-format
+msgid "capture stream format change? attempting recover...\n"
+msgstr "རྒྱུན་རིམ་རྩ་སྒྲིག་བསྒྱུར་བཅོས་འབད་ནི་ལུ་འཛིན་བཟུང་འབད་ག་?  སླར་གསོ་འབད་བལྟ་དོ་...\n"
+
+#: ../aplay/aplay.c:1083
+#, c-format
+msgid "xrun(DRAINING): prepare error: %s"
+msgstr "ཨེགསི་རཱན་(བཙགས་གཏང་དོ་): འཛོལ་བ་གྲ་སྒྲིག་འབད་: %s"
+
+#: ../aplay/aplay.c:1090
+#, c-format
+msgid "Status(R/W):\n"
+msgstr "གནས་ཚད་(R/W):\n"
+
+#: ../aplay/aplay.c:1093
+#, c-format
+msgid "read/write error, state = %s"
+msgstr "འཛོལ་བ་ལྷག་/འབྲི་, གནས་ལུགས = %s"
+
+#: ../aplay/aplay.c:1103
+#, c-format
+msgid "Suspended. Trying resume. "
+msgstr "འཕྲལ་བཀག་འབད་ཡོད་  བསྐྱར་ལོག་འབད་རྩོལ་བསྐྱེད་དོ་"
+
+#: ../aplay/aplay.c:1108
+#, c-format
+msgid "Failed. Restarting stream. "
+msgstr "རྒྱུན་རིམ་ལོག་འགོ་བཙུགས་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ཡི་"
+
+#: ../aplay/aplay.c:1110
+#, c-format
+msgid "suspend: prepare error: %s"
+msgstr "འཕྲལ་བཀག: འཛོལ་བ་གྲ་སྒྲིག་འབད་: %s"
+
+#: ../aplay/aplay.c:1115
+#, c-format
+msgid "Done.\n"
+msgstr "འབད་ཚར་ཡི་\n"
+
+#: ../aplay/aplay.c:1194
+#, c-format
+msgid "Unsupported bit size %d.\n"
+msgstr "རྒྱབ་སྐྱོར་མ་འབད་བའི་ བིཊི་ ཚད་%d.\n"
+
+#: ../aplay/aplay.c:1230
+#, c-format
+msgid " !clip  "
+msgstr " !བཏོག་"
+
+#: ../aplay/aplay.c:1235
+#, c-format
+msgid "Max peak (%li samples): 0x%08x "
+msgstr "མང་མཐའི་མཐར་ཐུག་ (%li དཔེ་ཚད་ཚུ་): 0x%08x "
+
+#: ../aplay/aplay.c:1268
+#, c-format
+msgid "write error: %s"
+msgstr " %s འཛོལ་བ་འབྲི་:"
+
+#: ../aplay/aplay.c:1310
+#, c-format
+msgid "writev error: %s"
+msgstr "v འཛོལ་བ་འབྲི་: %s"
+
+#: ../aplay/aplay.c:1349
+#, c-format
+msgid "read error: %s"
+msgstr "འཛོལ་བ་ལྷག་: %s"
+
+#: ../aplay/aplay.c:1388
+#, c-format
+msgid "readv error: %s"
+msgstr "v འཛོལ་བ་ལྷག་: %s"
+
+#: ../aplay/aplay.c:1436
+msgid "can't allocate buffer for silence"
+msgstr "ཁུ་སིམ་སིམ་འབད་བཞག་ནིའི་དོན་ལུ་གནད་ཁོང་སྤྲོད་མི་ཚུགས་པས་"
+
+#. to stderr
+#: ../aplay/aplay.c:1445
+#: ../aplay/aplay.c:1673
+#: ../aplay/aplay.c:1678
+#: ../aplay/aplay.c:1725
+#: ../aplay/aplay.c:1734
+#: ../aplay/aplay.c:1741
+#: ../aplay/aplay.c:1751
+#: ../aplay/aplay.c:1757
+#: ../aplay/aplay.c:1825
+#: ../aplay/aplay.c:1855
+#: ../aplay/aplay.c:1869
+msgid "write error"
+msgstr "འཛོལ་བ་འབྲི་"
+
+#: ../aplay/aplay.c:1459
+#, c-format
+msgid "voc_pcm_flush - silence error"
+msgstr "ཝི་ཨོ་སི་ པི་སི་ཨེམ་བཤལ་གཏང་ནི་   འཛོལ་བ་ཁུ་སིམ་སིམ་སྦེ་བཞག་"
+
+#: ../aplay/aplay.c:1465
+msgid "voc_pcm_flush error"
+msgstr "ཝི་ཨོ་སི་ པི་སི་ཨེམ་ འཛོལ་བ་བཤལ་གཏང་"
+
+#: ../aplay/aplay.c:1489
+msgid "malloc error"
+msgstr "མེ་ལོཀ་ འཛོལ་བ་"
+
+#: ../aplay/aplay.c:1493
+#, c-format
+msgid "Playing Creative Labs Channel file '%s'...\n"
+msgstr "གསར་རྩལ་ཅན་གྱི་ ལེབསི ་རྒྱུ་ལམ་གི་ཡིག་སྣོད་ '%s'...གཏང་དོ་\n"
+
+#. /dev/dsp can't it
+#: ../aplay/aplay.c:1561
+#: ../aplay/aplay.c:1653
+msgid "can't play packed .voc files"
+msgstr "ལྟེམ་ལྟེམ་གང་སྟེ་ཡོད་པའི་ བི་ཨོ་སི་ ཡིག་སྣོད་ཚུ་གཏང་མི་བཏུབ་པས་"
+
+#: ../aplay/aplay.c:1613
+#, c-format
+msgid "can't play loops; %s isn't seekable\n"
+msgstr "འཕྲལ་བཀོལ་གཏང་མི་ཚུགས་པས་; %s འཚོལ་མ་འཐོབ་མི་ཨིན་མས་\n"
+
+#: ../aplay/aplay.c:1662
+#, c-format
+msgid "unknown blocktype %d. terminate."
+msgstr "མ་ཤེས་པའི་སྡེབ་ཚན་ %d. རྩ་གྲོལ་གཏང་."
+
+#: ../aplay/aplay.c:1792
+#, c-format
+msgid "Wave doesn't support %s format..."
+msgstr "ཝེབ་གིས་ %s རྩ་སྒྲིག་རྒྱབ་སྐྱོར་མི་འབད་བས་"
+
+#: ../aplay/aplay.c:1849
+#, c-format
+msgid "Sparc Audio doesn't support %s format..."
+msgstr "སིཔརགསི་རྣར་ཉན་གིས་ %s རྩ་སྒྲིག་རྒྱབ་སྐྱོར་མི་འབད་བས་..."
+
+#: ../aplay/aplay.c:1930
+msgid "Playing"
+msgstr "གཏང་དོ་"
+
+#: ../aplay/aplay.c:1930
+msgid "Recording"
+msgstr "སྒྲ་བཟུང་དོ་"
+
+#: ../aplay/aplay.c:1934
+#, c-format
+msgid "Rate %d Hz, "
+msgstr "མགྱོགས་ཚད་ %d Hz, "
+
+#: ../aplay/aplay.c:1936
+#, c-format
+msgid "Mono"
+msgstr "མོ་ནོ་"
+
+#: ../aplay/aplay.c:1938
+#, c-format
+msgid "Stereo"
+msgstr "གླུ་སྒྲོམ་"
+
+#: ../aplay/aplay.c:1940
+#, c-format
+msgid "Channels %i"
+msgstr "  %i རྒྱུ་ལམ་ཚུ་"
+
+#: ../aplay/aplay.c:2295
+#: ../aplay/aplay.c:2348
+#, c-format
+msgid "You need to specify %d files"
+msgstr "ཁྱོད་ཀྱིས་ %d ཡིག་སྣོད་ཚུ་གསལ་བཀོད་འབད་དགོ་པས་"
+
+#: ../seq/aconnect/aconnect.c:49
+#, c-format
+msgid "aconnect - ALSA sequencer connection manager\n"
+msgstr "aconnect - ཨཱལ་ས་ འབྱུང་རིམ་པའི་མཐུད་ལམ་འཛིན་སྐྱོང་པ་\n"
+
+#: ../seq/aconnect/aconnect.c:50
+#, c-format
+msgid "Copyright (C) 1999-2000 Takashi Iwai\n"
+msgstr "འདྲ་བཤུས་དབང་ཆ་ (C) ༡༩༩༩_༢༠༠༠ Takashi Iwai\n"
+
+#: ../seq/aconnect/aconnect.c:51
+#, c-format
+msgid "Usage:\n"
+msgstr "བདེ་སྤྱོད་:\n"
+
+#: ../seq/aconnect/aconnect.c:52
+#, c-format
+msgid " * Connection/disconnection between two ports\n"
+msgstr " * མཐུད་ལམ་/འདྲེན་ལམ་གཉིས་ཀྱི་བར་ན་འབྲེལ་མེད་\n"
+
+#: ../seq/aconnect/aconnect.c:53
+#, c-format
+msgid "   aconnect [-options] sender receiver\n"
+msgstr "a མཐུད་ལམ་ [-options] གཏང་མི་ འཐོབ་མི་\n"
+
+#: ../seq/aconnect/aconnect.c:54
+#, c-format
+msgid "     sender, receiver = client:port pair\n"
+msgstr "   གཏང་མི་, འཐོབ་མི་ = ཞབས་ཏོག་སྤྱོད་མི་:འདྲེན་ལམ་ ཟུང་\n"
+
+#: ../seq/aconnect/aconnect.c:55
+#, c-format
+msgid "     -d,--disconnect     disconnect\n"
+msgstr "     -d,--disconnect     མཐུད་བཏོག་\n"
+
+#: ../seq/aconnect/aconnect.c:56
+#, c-format
+msgid "     -e,--exclusive      exclusive connection\n"
+msgstr "-e,--exclusive      གྲང་སུ་མ་བརྩི་བའི་མཐུད་ལམ་་\n"
+
+#: ../seq/aconnect/aconnect.c:57
+#, c-format
+msgid "     -r,--real #         convert real-time-stamp on queue\n"
+msgstr "-r,--real #        དུས་ཚོད་ངོ་མའི་རྟགས་ཚན་་དེ་གྲལ་རིམ་གུ་གཞི་བསྒྱུར་འབད་ \n"
+
+#: ../seq/aconnect/aconnect.c:58
+#, c-format
+msgid "     -t,--tick #         convert tick-time-stamp on queue\n"
+msgstr "-t,--tick #         \n"
+
+#: ../seq/aconnect/aconnect.c:59
+#, c-format
+msgid " * List connected ports (no subscription action)\n"
+msgstr "* མཐུད་ཡོད་པའི་འདྲེན་ལམ་ཚུ་ཐོ་བཀོད་འབད་ (མཁོ་མངགས་ཀྱི་བྱ་བ་མིན་འདུག་)\n"
+
+#: ../seq/aconnect/aconnect.c:60
+#, c-format
+msgid "   aconnect -i|-o [-options]\n"
+msgstr "a མཐུད་ལམ་ -i|-o [-options]\n"
+
+#: ../seq/aconnect/aconnect.c:61
+#, c-format
+msgid "     -i,--input          list input (readable) ports\n"
+msgstr "   -i,--inpu         ཨིན་པུཊི་ ཐོ་བཀོད་འབད་  (ལྷབ་ཚུགས་པའི་) འདྲེན་ལམ་ཚུ་\n"
+
+#: ../seq/aconnect/aconnect.c:62
+#, c-format
+msgid "     -o,--output         list output (writable) ports\n"
+msgstr "-o,--output          ཨའུཊི་པུཊི་ཐོ་བཀོད་འབད་ (འབྲི་བཏུབ་པའི་) འདྲན་ལམ་\n"
+
+#: ../seq/aconnect/aconnect.c:63
+#, c-format
+msgid "     -l,--list           list current connections of each port\n"
+msgstr "  -l,--list            འདྲེན་ལམ་རེ་རེའི་དོན་ལུ་ད་ལྟོའི་མཐུད་ལམ་ཚུ་ཐོ་བཀོད་འབད་\n"
+
+#: ../seq/aconnect/aconnect.c:64
+#, c-format
+msgid " * Remove all exported connections\n"
+msgstr "*  ཕྱིར་འདྲེན་འབད་འབད་བའི་མཐུད་ལམ་ཆ་མཉམ་་རྩ་བསྐྲད་གཏང་\n"
+
+#: ../seq/aconnect/aconnect.c:65
+#, c-format
+msgid "     -x, --removeall\n"
+msgstr "     -x, --ཆ་མཉམ་རྩ་བསྐྲད་བཏང་\n"
+
+#: ../seq/aconnect/aconnect.c:132
+msgid "Connecting To"
+msgstr "མཐུད་དོ་"
+
+#: ../seq/aconnect/aconnect.c:133
+msgid "Connected From"
+msgstr "མཐུད་ཡོད་"
+
+#: ../seq/aconnect/aconnect.c:169
+#, c-format
+msgid "client %d: '%s' [type=%s]\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་ %d: '%s' [type=%s]\n"
+
+#: ../seq/aconnect/aconnect.c:173
+msgid "user"
+msgstr "ལག་ལེན་པ་"
+
+#: ../seq/aconnect/aconnect.c:173
+msgid "kernel"
+msgstr "ཀར་ནེལ་"
+
+#: ../seq/aconnect/aconnect.c:326
+#, c-format
+msgid "can't open sequencer\n"
+msgstr "འབྱུང་རིམ་བཀེད་མི་ཁ་ཕྱེ་མི་བཏུབ་པས་\n"
+
+#: ../seq/aconnect/aconnect.c:354
+#, c-format
+msgid "can't get client id\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གི་ ཨའི་ཌི་འཐོབ་མ་ཚུགས་\n"
+
+#: ../seq/aconnect/aconnect.c:361
+#, c-format
+msgid "can't set client info\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མི་གི་བརྡ་དོན་ གཞི་སྒྲིག་འབད་མ་ཚུགས་\n"
+
+#: ../seq/aconnect/aconnect.c:368
+#, c-format
+msgid "invalid sender address %s\n"
+msgstr "གཏང་མིའི་ཁ་བྱང་ནུས་མེད་ %s\n"
+
+#: ../seq/aconnect/aconnect.c:373
+#: ../seq/aseqnet/aseqnet.c:289
+#, c-format
+msgid "invalid destination address %s\n"
+msgstr "འགྱོ་སའི་་ཁ་བྱང་ནུས་མེད་ %s\n"
+
+#: ../seq/aconnect/aconnect.c:387
+#, c-format
+msgid "No subscription is found\n"
+msgstr "མཁོ་མངགས་འཚོལ་མ་འཐོབ་\n"
+
+#: ../seq/aconnect/aconnect.c:392
+#, c-format
+msgid "Disconnection failed (%s)\n"
+msgstr "མཐུད་ལམ་བཏོག་གཏང་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ཡི་ (%s)\n"
+
+#: ../seq/aconnect/aconnect.c:398
+#, c-format
+msgid "Connection is already subscribed\n"
+msgstr "མཐུད་ལམ་འདི་ཧེ་མ་ལས་རང་མཁོ་མངགས་འབད་ནུག་\n"
+
+#: ../seq/aconnect/aconnect.c:403
+#, c-format
+msgid "Connection failed (%s)\n"
+msgstr "མཐུད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག་ (%s)\n"
+
+#: ../seq/aseqnet/aseqnet.c:163
+#, c-format
+msgid "aseqnet - network client/server on ALSA sequencer\n"
+msgstr "aseqnet - ཡོངས་འབྲེལ་ཞབས་ཏོག་སྤྱོད་མི་་/ཨཱལ་ས་འབྱུང་རིམ་བཀོད་མི་གུ་ལུ་ཡོད་མི་ སར་བར་\n"
+
+#: ../seq/aseqnet/aseqnet.c:164
+#, c-format
+msgid "  Copyright (C) 1999 Takashi Iwai\n"
+msgstr "འདྲ་བཤུས་དབང་ཆ་ (C) 1999 Takashi Iwai\n"
+
+#: ../seq/aseqnet/aseqnet.c:165
+#, c-format
+msgid "usage:\n"
+msgstr "བདེ་སྤྱོད་:\n"
+
+#: ../seq/aseqnet/aseqnet.c:166
+#, c-format
+msgid "  server mode: aseqnet [-options]\n"
+msgstr "སར་བར་ཐབས་ལམ་: aseqnet [-options]\n"
+
+#: ../seq/aseqnet/aseqnet.c:167
+#, c-format
+msgid "  client mode: aseqnet [-options] server_host\n"
+msgstr "ཞབས་ཏོག་སྤྱོད་མིའི་ཐབས་ལམ་: aseqnet [-options] སར་བར་_ཧོསཊི་\n"
+
+#: ../seq/aseqnet/aseqnet.c:168
+#, c-format
+msgid "options:\n"
+msgstr "གདམ་ཁ་ཚུ་:\n"
+
+#: ../seq/aseqnet/aseqnet.c:169
+#, c-format
+msgid "  -p,--port # : sepcify TCP port (digit or service name)\n"
+msgstr "-p,--port # : ཊི་སི་པི་ འདྲེན་ལམ་གསལ་བཀོད་འབད་ (ཨང་ཡིག་ ཡང་ན་ཞབས་ཏོག་གི་མིང་)\n"
+
+#: ../seq/aseqnet/aseqnet.c:170
+#, c-format
+msgid "  -s,--source addr : read from given addr (client:port)\n"
+msgstr "  -s,--source addr : འབྱིན་འདི་ཡོད་པའི་ཁ་བྱང་ནང་ལས་ལྷག་  (ཞབས་ཏོག་སྤྱོད་མི་:འདྲེན་ལམ་)\n"
+
+#: ../seq/aseqnet/aseqnet.c:171
+#, c-format
+msgid "  -d,--dest addr : write to given addr (client:port)\n"
+msgstr "-d,--dest addr : write to given addr (client:port)\n"
+
+#: ../seq/aseqnet/aseqnet.c:172
+#, c-format
+msgid "  -v, --verbose : print verbose messages\n"
+msgstr "-v, --verbose : བརྡ་དོན་ལེ་ཤ་ཡོད་པའི་འཕྲིན་དོན་ཚུ་དཔར་བསྐྲུན་འབད་\n"
+
+#: ../seq/aseqnet/aseqnet.c:173
+#, c-format
+msgid "  -i, --info : print certain received events\n"
+msgstr " -i, --info : འཐོབ་སྟེ་ཡོད་པའི་འབྱུང་ལས་ངེས་ཅན་ཚུ་དཔར་བསྐྲུན་འབད་\n"
+
+#: ../seq/aseqnet/aseqnet.c:187
+#, c-format
+msgid "can't malloc\n"
+msgstr "མེ་ལོགས་་འབད་མི་ཚིགས་པས་\n"
+
+#: ../seq/aseqnet/aseqnet.c:212
+#, c-format
+msgid "closing files..\n"
+msgstr "ཡིག་སྣོད་ཁ་བསྡམས་དོ་..\n"
+
+#: ../seq/aseqnet/aseqnet.c:271
+#, c-format
+msgid "sequencer opened: %d:%d\n"
+msgstr "འབྱུང་རིམ་བཀོད་མི་ ཁ་ཕྱེ་ཡི་: %d:%d\n"
+
+#: ../seq/aseqnet/aseqnet.c:278
+#, c-format
+msgid "invalid source address %s\n"
+msgstr "ནུས་མེད་ཁ་བྱང་འབྱུང་ས་  %s\n"
+
+#: ../seq/aseqnet/aseqnet.c:308
+#, c-format
+msgid "service '%s' is not found in /etc/services\n"
+msgstr "ཞབས་ཏོག་ '%s'འདི་ /ལ་སོགས་པ་ཚུ་/ཞབས་ཏོག་ཚུ་ ནང་འཐོབ་མ་ཚུགས་\n"
+
+#: ../seq/aseqnet/aseqnet.c:376
+#, c-format
+msgid "too many connections!\n"
+msgstr "མཐུད་ལམ་ལེ་ཤ་འདུག་!\n"
+
+#: ../seq/aseqnet/aseqnet.c:387
+#, c-format
+msgid "accepted[%d]\n"
+msgstr "དང་ལེན་འབད་ཡི་[%d]\n"
+
+#: ../seq/aseqnet/aseqnet.c:410
+#, c-format
+msgid "can't get address %s\n"
+msgstr "ཁ་བྱང་འཐོབ་མ་ཚུགས %s\n"
+
+#: ../seq/aseqnet/aseqnet.c:421
+#, c-format
+msgid "ok.. connected\n"
+msgstr "བཏུབ་.. མཐུད་ཚར་ཡི་\n"
+
+#: ../seq/aseqnet/aseqnet.c:517
+#, c-format
+msgid "Channel %2d: Control event : %5d\n"
+msgstr "རྒྱུ་ལམ་ %2d: ཚད་འཛིན་འབྱུང་ལས་ : %5d\n"
+
+#: ../seq/aseqnet/aseqnet.c:521
+#, c-format
+msgid "Channel %2d: Pitchbender   : %5d\n"
+msgstr "རྒྱུ་ལམ་ %2d: སྟུག་ཚད་འགུག་བྱེད་   : %5d\n"
+
+#: ../seq/aseqnet/aseqnet.c:525
+#, c-format
+msgid "Channel %2d: Note On event : %5d\n"
+msgstr "རྒྱུ་ལམ་ %2d: འབྱུང་ལས་གུ་དྲན་འཛིན་འབད་ : %5d\n"
+
+#: ../seq/aseqnet/aseqnet.c:529
+#, c-format
+msgid "Channel %2d: Note Off event: %5d\n"
+msgstr "རྒྱུ་ལམ་ %2d: འབྱུང་ལས་ནང་ལས་དྲན་འཛིན་ཡལ་བ་: %5d\n"
+
+#: ../seq/aseqnet/aseqnet.c:584
+#, c-format
+msgid "disconnected\n"
+msgstr "མཐུད་ལམ་བཏོག་གཏང་ཡི་\n"
+
+#: ../speaker-test/speaker-test.c:87
+msgid "Front Left"
+msgstr "གདོང་ གཡོན་"
+
+#: ../speaker-test/speaker-test.c:88
+msgid "Front Right"
+msgstr "གདོང་གཡས་"
+
+#: ../speaker-test/speaker-test.c:89
+msgid "Rear Left"
+msgstr "རྒྱབ་ གཡོན་"
+
+#: ../speaker-test/speaker-test.c:90
+msgid "Rear Right"
+msgstr "རྒྱབ་ གཡས་"
+
+#: ../speaker-test/speaker-test.c:91
+msgid "Center"
+msgstr "དབུས་"
+
+#: ../speaker-test/speaker-test.c:92
+msgid "LFE"
+msgstr "ཨེལ་ཨེཕ་ཨི་"
+
+#: ../speaker-test/speaker-test.c:93
+msgid "Side Left"
+msgstr "གཡོན་ཟུར་"
+
+#: ../speaker-test/speaker-test.c:94
+msgid "Side Right"
+msgstr "གཡས་ཟུར་"
+
+#: ../speaker-test/speaker-test.c:95
+msgid "Channel 9"
+msgstr "རྒྱུ་ལམ་ ༩"
+
+#: ../speaker-test/speaker-test.c:96
+msgid "Channel 10"
+msgstr "རྒྱུ་ལམ་  ༡༠"
+
+#: ../speaker-test/speaker-test.c:97
+msgid "Channel 11"
+msgstr "རྒྱུ་ལམ་  ༡༡"
+
+#: ../speaker-test/speaker-test.c:98
+msgid "Channel 12"
+msgstr "རྒྱུ་ལམ་  ༡༢"
+
+#: ../speaker-test/speaker-test.c:99
+msgid "Channel 13"
+msgstr "རྒྱུ་ལམ་  ༡༣"
+
+#: ../speaker-test/speaker-test.c:100
+msgid "Channel 14"
+msgstr "རྒྱུ་ལམ་  ༡༤"
+
+#: ../speaker-test/speaker-test.c:101
+msgid "Channel 15"
+msgstr "རྒྱུ་ལམ་   ༡༥"
+
+#: ../speaker-test/speaker-test.c:102
+msgid "Channel 16"
+msgstr "རྒྱུ་ལམ་  ༡༦"
+
+#: ../speaker-test/speaker-test.c:279
+#, c-format
+msgid "Broken configuration for playback: no configurations available: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལས་རིམ་སྒྲིག་ཆད་པ་: རིམ་སྒྲིག་ཚུ་འཐོབ་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:286
+#, c-format
+msgid "Access type not available for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་འཛུལ་སྤྱོད་འབད་ནིའི་དབྱེ་བ་མིན་ནུག་: %s\n"
+
+#: ../speaker-test/speaker-test.c:293
+#, c-format
+msgid "Sample format not available for playback: %s\n"
+msgstr "%s གླུ་གཞས་གཏང་ནིའི་དོན་ལས་ དཔེ་ཚད་རྩ་སྒྲིག་མིན་འདུག་:\n"
+
+#: ../speaker-test/speaker-test.c:300
+#, c-format
+msgid "Channels count (%i) not available for playbacks: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནི་ཚུ་གི་་དོན་ལས་ རྒྱུ་ལམ་ཚུ་གི་གྱང་ཁ་(%i)འཐོབ་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:308
+#, c-format
+msgid "Rate %iHz not available for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལས་ མགྱོགས་ཚད་%iHz འདི་འཚོལ་མ་འཐོབ་: %s\n"
+
+#: ../speaker-test/speaker-test.c:313
+#, c-format
+msgid "Rate doesn't match (requested %iHz, get %iHz, err %d)\n"
+msgstr "མགྱོགས་ཚད་མཐུན་སྒྲིག་མི་འབད་བས་(་ཞུ་བའབད་ཡི་ %iHz, get %iHz, err %d)\n"
+
+#: ../speaker-test/speaker-test.c:317
+#, c-format
+msgid "Rate set to %iHz (requested %iHz)\n"
+msgstr "མགྱོགས་ཚད་ %iH ལུ་གཞི་སྒྲིག་འབད་ཡི་ (ཞུ་བ་འབད་ཡི་ %iHz)\n"
+
+#: ../speaker-test/speaker-test.c:323
+#, c-format
+msgid "Buffer size range from %lu to %lu\n"
+msgstr "གནད་ཁོང་གི་ཚད་འདི་ %lu ལས་%luལུ་ཁྱབ་ཚད་འབདཝ་ཨིན་་\n"
+
+#: ../speaker-test/speaker-test.c:324
+#, c-format
+msgid "Period size range from %lu to %lu\n"
+msgstr "དུས་ཚད་ཀྱི་ཁྱབ་ཚད་ %lu ལས་ %lu ཚུན་ཚོད་\n"
+
+#: ../speaker-test/speaker-test.c:326
+#, c-format
+msgid "Requested period time %u us\n"
+msgstr "ཉན་ཞུ་འབད་ཡོད་པའི་དུས་ཡུན་ཆུ་ཚོད་ %u us\n"
+
+#: ../speaker-test/speaker-test.c:329
+#, c-format
+msgid "Unable to set period time %u us for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལས་ དུས་ཡུན་ཆུ་ཚོད་ %u གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:335
+#, c-format
+msgid "Requested buffer time %u us\n"
+msgstr " %u usའདི་ ཞུ་བ་འབད་ཡོད་པའི་གནད་ཁོང་དུས་ཚོད་\n"
+
+#: ../speaker-test/speaker-test.c:338
+#, c-format
+msgid "Unable to set buffer time %u us for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ གནད་ཁོང་ཆུ་ཚོད་%u us གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:347
+#, c-format
+msgid "Using max buffer size %lu\n"
+msgstr "མང་མཐའི་གནད་ཁོང་གི་ཚད་ལག་ལེན་འཐབ་དོ་ %lu\n"
+
+#: ../speaker-test/speaker-test.c:350
+#, c-format
+msgid "Unable to set buffer size %lu for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ གནད་ཁོང་ཚད་ %lu གཞི་སྒྲིག་འབད་མ་ཚུགས: %s\n"
+
+#: ../speaker-test/speaker-test.c:356
+#, c-format
+msgid "Periods = %u\n"
+msgstr "དུས་ཡུན་ = %u\n"
+
+#: ../speaker-test/speaker-test.c:359
+#, c-format
+msgid "Unable to set nperiods %u for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལས་ ཨེན དུས་ཡུན་%u གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:366
+#, c-format
+msgid "was set period_size = %lu\n"
+msgstr "གཞི་སྒྲིག་འབད་ཡོད་པའི་དུས་ཚད་= %lu (_S)\n"
+
+#: ../speaker-test/speaker-test.c:367
+#, c-format
+msgid "was set buffer_size = %lu\n"
+msgstr "གཞི་སྒྲིག་འབད་ཡོད་པའི་གནད་ཁོངས་ཚད་ %lu (_S)\n"
+
+#: ../speaker-test/speaker-test.c:369
+#, c-format
+msgid "buffer to small, could not use\n"
+msgstr "གནད་ཁོངས་ལས་ཆུང་ཀུ་ལུ་ལགལེན་འཐབ་མ་བཏུབ་ use\n"
+
+#: ../speaker-test/speaker-test.c:376
+#, c-format
+msgid "Unable to set hw params for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ ཨེཆ་ཌབ་ལུ་ པཱ་རམ་ཚུ་གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:389
+#, c-format
+msgid "Unable to determine current swparams for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལས་ད་ལྟོའི་ ཨེསི་ཌབ་ལུ་ པ་རམ་ཚུ་གཏན་འབེབས་བཟོ་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:396
+#, c-format
+msgid "Unable to set start threshold mode for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལས་ ཐེརེཤ་ཧཱོལ་ ཐབས་ལམ་འགོ་བཙུགས་གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:403
+#, c-format
+msgid "Unable to set avail min for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ འཐོབ་ཚུགས་པའི་སྐར་ཆ་གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:410
+#, c-format
+msgid "Unable to set transfer align for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ གནས་སོར་ཕྲང་སྒྲིག་གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:417
+#, c-format
+msgid "Unable to set sw params for playback: %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་དོན་ལུ་ ཨེསི་ཌབ་ལུ་ པ་རམ་ཚུ་གཞི་སྒྲིག་འབད་མ་ཚུགས་: %s\n"
+
+#: ../speaker-test/speaker-test.c:432
+#, c-format
+msgid "Can't recovery from underrun, prepare failed: %s\n"
+msgstr "གཡོག་བཀོལ་ཉུང་བ་ལས་སླར་གསོ་འབད་མ་ཚུགས་, གྲ་སྒྲིག་འཐུས་ཤོར་འབྱུང་ཡོདཔ་: %s\n"
+
+#: ../speaker-test/speaker-test.c:443
+#, c-format
+msgid "Can't recovery from suspend, prepare failed: %s\n"
+msgstr "འཕྲལ་བཀག་འབད་ནི་ལས་སླར་གསོ་འབད་མི་ཚུགས་, གྲ་སྒྲིག་འབད་ནི་འཐུས་ཤོར་འབྱུང་ཡོད་: %s\n"
+
+#: ../speaker-test/speaker-test.c:517
+#: ../speaker-test/speaker-test.c:911
+#, c-format
+msgid "No enough memory\n"
+msgstr "དྲན་ཚད་ལངམ་སྦེ་མིན་འདུག་\n"
+
+#: ../speaker-test/speaker-test.c:522
+#, c-format
+msgid "Cannot open WAV file %s\n"
+msgstr "ཌབ་ལུ་ཨེ་ཝི་ཡིག་སྣོད་ཁ་ཕྱེ་མི་བཏུབ་པས་ %s\n"
+
+#: ../speaker-test/speaker-test.c:526
+#: ../speaker-test/speaker-test.c:555
+#, c-format
+msgid "Invalid WAV file %s\n"
+msgstr "ནུས་མེད་ ཌབ་ལུ་ཨེ་ཝི་ ཡིག་སྣོད་ %s\n"
+
+#: ../speaker-test/speaker-test.c:531
+#, c-format
+msgid "Not a WAV file: %s\n"
+msgstr "ཌབ་ལུ་ཨེ་ཝི་ ཡིག་སྣོད་མེན་: %s\n"
+
+#: ../speaker-test/speaker-test.c:535
+#, c-format
+msgid "Unsupported WAV format %d for %s\n"
+msgstr "རྒྱབ་སྐྱོར་མེད་པའི་  ཝེབ་ རྩ་སྒྲིག་ %d for %s\n"
+
+#: ../speaker-test/speaker-test.c:540
+#, c-format
+msgid "%s is not a mono stream (%d channels)\n"
+msgstr "%s འདི་རྒྱུན་རིམ་རྐྱང་པ་མེན་ (%d རྒྱུན་ལམ་ཚུ་)\n"
+
+#: ../speaker-test/speaker-test.c:545
+#, c-format
+msgid "Sample rate doesn't match (%d) for %s\n"
+msgstr "(%d) དེ་%s གི་དོན་ལུ་ དཔེ་ཚད་དེ་མཐུན་སྒྲིག་མིན་འདུག་\n"
+
+#: ../speaker-test/speaker-test.c:550
+#, c-format
+msgid "Unsupported sample format bits %d for %s\n"
+msgstr "རྒྱབ་སྐྱོར་མེད་པའི་དཔེ་ཚད་རྩ་སྒྲིག་བིཊིསི་ %d  %sགི་དོན་ལུ་\n"
+
+#: ../speaker-test/speaker-test.c:600
+#, c-format
+msgid "Undefined channel %d\n"
+msgstr "ངེས་འཛིན་མ་འབད་བའི་རྒྱུ་ལམ་%d\n"
+
+#: ../speaker-test/speaker-test.c:651
+#, c-format
+msgid "Write error: %d,%s\n"
+msgstr "འཛོལ་བ་འབྲིས་: %d,%s\n"
+
+#: ../speaker-test/speaker-test.c:653
+#, c-format
+msgid "xrun_recovery failed: %d,%s\n"
+msgstr "ཨེགསི་རཱན་_སླར་གསོ་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ཡི་: %d,%s\n"
+
+#: ../speaker-test/speaker-test.c:708
+#, c-format
+msgid ""
+"Usage: speaker-test [OPTION]... \n"
+"-h,--help\thelp\n"
+"-D,--device\tplayback device\n"
+"-r,--rate\tstream rate in Hz\n"
+"-c,--channels\tcount of channels in stream\n"
+"-f,--frequency\tsine wave frequency in Hz\n"
+"-F,--format\tsample format\n"
+"-b,--buffer\tring buffer size in us\n"
+"-p,--period\tperiod size in us\n"
+"-P,--nperiods\tnumber of periods\n"
+"-t,--test\tpink=use pink noise, sine=use sine wave, wav=WAV file\n"
+"-l,--nloops\tspecify number of loops to test, 0 = infinite\n"
+"-s,--speaker\tsingle speaker test. Values 1=Left, 2=right, etc\n"
+"-w,--wavfile\tUse the given WAV file as a test sound\n"
+"-W,--wavdir\tSpecify the directory containing WAV files\n"
+"\n"
+msgstr ""
+"བེད་སྤྱོད་: སྒྲ་སྤར་-བརྟག་ཞིབ་ [OPTION]... \n"
+"-h,--help\t གྲོགས་རམ་\n"
+"-D,--device\t གླུ་གཞས་གཏང་ནིའི་ཐབས་འཕྲུལ་\n"
+"-r,--rate\t Hz ནང་ལུ་ རྒྱུན་རིམ་མགྱོགས་ཚད་ \n"
+"c,--channels\t རྒྱུན་རིམ་ནང་ལུ་རྒྱུ་ལམ་ཚུ་གི་ ་གྱངས་ཁ་\n"
+"-f,--frequency\t ནང་ལུ ་་སིན་ ཡར་སེང་འབྱུང་ཐེངས་\n"
+"-F,--format\t དཔེ་ཚད་རྩ་སྒྲིག་\n"
+"-b,--buffer\t  us ནང་ལུ་གནད་ཁོངས་ཚད་སྒོར་ཐིག་བརྐྱབ་\n"
+"-p,--period\t us ནང་ལུ་དུས་ཚད་\n"
+"P,--nperiods\t དུས་ཡུན་ཚུ་གི་གྱང་ཁ་\n"
+"-t,--test\t པིང་=པིང་སྒྲ་ལག་ལེན་འཐབ་  སིན་=སིན་ཝེབ་ལག་ལེན་འཐབ་ ཝེབ་=ཝེབ་ཡིག་སྣོད་\n"
+"-l,--nloops\t བརྟག་དཔྱད་འབད་ནིའི་དོན་ལུ་ ལུང་ཐག་གི་གྱངས་ཁ་ གསལ་བཀོད་འབད་ ༠ = ཚད་མེདཔ་\n"
+"-s,--speaker\tསྒྲ་སྤར་རྟག་ཞིབ་རྐྱང་པ་. གནས་གོང་ཚུ་ ༡=གཡོན་, ༢=གཡས་, ལ་སོགས་པ་\n"
+"-w,--wavfile\t བྱིན་ཡོད་པའི་ ཝེབ་ཡིིག་སྣོད་ཚུ་སྒྲ་སྐད་བརྟག་ཞིབ་བཟུམ་སྦེ་ལག་ལེན་འཐབ་\n"
+"-W,--wavdir\tཝེབ་ཡིག་སྣོད་ཚུ་ཡོད་པའི་སྣོད་ཐོ་དེ་གསལ་བཀོད་འབད་\n"
+"\n"
+
+#: ../speaker-test/speaker-test.c:820
+#, c-format
+msgid "Invalid number of periods %d\n"
+msgstr "ནུས་མེད་དུས་ཡུན་གྱི་གྱང་ཁ་%d\n"
+
+#: ../speaker-test/speaker-test.c:834
+#: ../speaker-test/speaker-test.c:838
+#, c-format
+msgid "Invalid test type %s\n"
+msgstr "ནིས་མེད་རྟག་ཞིབ་གི་དབྱེ་བ་%s\n"
+
+#: ../speaker-test/speaker-test.c:850
+#, c-format
+msgid "Invalid parameter for -s option.\n"
+msgstr " -s གདམ་ཁ་གི་དོན་ལུ་ནུས་མེད་ཚད་ཟུང་\n"
+
+#: ../speaker-test/speaker-test.c:861
+#, c-format
+msgid "Unknown option '%c'\n"
+msgstr "མ་ཤེས་པའི་གདམ་ཁ་  '%c'\n"
+
+#. fixed format
+#: ../speaker-test/speaker-test.c:875
+#, c-format
+msgid "Playback device is %s\n"
+msgstr "གླུ་གཞས་གཏང་ནིའི་ཐབས་འཕྲུལ་འདི་ %s ཨིན\n"
+
+#: ../speaker-test/speaker-test.c:876
+#, c-format
+msgid "Stream parameters are %iHz, %s, %i channels\n"
+msgstr " རྒྱུན་རིམ་ཚད་ཟུང་ཚུ་   %iHz, %s, %i རྒྱུ་ལལམ་ཚུ་ཨིན་\n"
+
+#: ../speaker-test/speaker-test.c:879
+#, c-format
+msgid "Using 16 octaves of pink noise\n"
+msgstr "རྩུབས་་སྒྲ་ཤ་ཁ་འབད་མི ་བརྒྱད་ལྡན་༡༦་འདི་ལག་ལེན་འཐབ་དོ་\n"
+
+#: ../speaker-test/speaker-test.c:882
+#, c-format
+msgid "Sine wave rate is %.4fHz\n"
+msgstr "སིན་ ཝེབ་གི་ མགྱོགས་ཚད་འདི་%.4fHz ཨིན་\n"
+
+#: ../speaker-test/speaker-test.c:885
+#, c-format
+msgid "WAV file(s)\n"
+msgstr "ཌབ་ལུ་ཨེ་ཝི་ ཡིག་སྣོད་(s)\n"
+
+#: ../speaker-test/speaker-test.c:891
+#, c-format
+msgid "Playback open error: %d,%s\n"
+msgstr "གླུ་གཞས་གཏང་ནི་ལུ་འཛོལ་བ་: %d,%s\n"
+
+#: ../speaker-test/speaker-test.c:896
+#, c-format
+msgid "Setting of hwparams failed: %s\n"
+msgstr "ཨེཆ་ཌབ་ལུ་ པ་རམ་ཚུ་གཞི་སྒྲིག་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག་: %s\n"
+
+#: ../speaker-test/speaker-test.c:901
+#, c-format
+msgid "Setting of swparams failed: %s\n"
+msgstr "ཨེསི་ཌབ་ལུ་ པ་རམ་ཚུ་གཞི་སྒྲིག་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག་: %s\n"
+
+#: ../speaker-test/speaker-test.c:942
+#: ../speaker-test/speaker-test.c:964
+#, c-format
+msgid "Transfer failed: %s\n"
+msgstr "གནས་སོར་གཏང་ནི་ལུ་ཐུས་ཤོར་འབྱུང་ཡི་: %s\n"
+
+#: ../speaker-test/speaker-test.c:952
+#, c-format
+msgid "Time per period = %lf\n"
+msgstr "དུས་ཡུན་རེ་ལུ་ཆུ་ཚོད་= %lf\n"
+

@@ -1,0 +1,1677 @@
+# translation of gimp20-std-plug-ins-2.po to Dzongkha
+# translation of gimp-plug-ins.HEAD-1.po to Dzongkha
+# translation of gimp-plug-ins.HEAD.po to Dzongkha
+# This file is distributed under the same license as the PACKAGE package.
+# Jurmey Rabgay <jurmeyti@hotmail.com>
+# Yanka <yanang_ka@yahoo.com>
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Dorji Tashi <dorjee_doss@hotmail.com>, 2006.
+# Sonam Rinchen <somchen@druknet.bt>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp20-std-plug-ins-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-10 20:02+0600\n"
+"PO-Revision-Date: 2006-05-11 12:06+0600\n"
+"Last-Translator: Dorji Tashi <dorjee_doss@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: ../plug-ins/common/CML_explorer.c:1373 ../plug-ins/maze/maze_face.c:277
+msgid "Seed:"
+msgstr "སོན་:"
+
+#: ../plug-ins/common/CML_explorer.c:1386
+msgid "Switch to \"From seed\" with the last seed"
+msgstr "མཇུག་མམ་སོན་གྱི་ཐོག་ལས་  \"From seed\"ལུ་སོར་བསྒྱུར་འབད།"
+
+#: ../plug-ins/common/CML_explorer.c:1398
+msgid ""
+"\"Fix seed\" button is an alias of me.\n"
+"The same seed produces the same image, if (1) the widths of images are same "
+"(this is the reason why image on drawable is different from preview), and "
+"(2) all mutation rates equal to zero."
+msgstr ""
+"\"Fix seed\"ཨེབ་རྟ་འདི་ང་གི་མིང་གཞན་ཨིན།\n"
+"སོན་གཅིག་པ་འདི་གིས་གཟུགས་བརྙན་གཅིག་པ་བཟོ་སྟོན་འབདཝ་ཨིན་ (༡)རྒྱ་ཚད་ཚུ་གི་གཟུགས་བརྙན་འདི་གཅིག་པ་"
+"ཨིན་པ་ཅིན་(ཞིབ་ལྟ་ལས་འབྲི་བཏུབ་མི་གུ་གི་གཟུགས་བརྙན་འདི་ག་ཅི་སྦེ་སོ་སོ་ཨིན་ན་འ་ནི་འདི་རྒྱུ་མཚན་ཨིནམ་) "
+"དང་ (༢)རིམ་འགྱུར་གི་གོང་ཚད་ཆ་མཉམ་ཀླད་ཀོར་ལུ་མཉམ་པ་ཨིན།"
+
+#: ../plug-ins/common/CML_explorer.c:1406
+msgid "O_thers"
+msgstr "གཞན་ཚུ་(_t)"
+
+#: ../plug-ins/common/CML_explorer.c:1421
+msgid "Copy Settings"
+msgstr "གཞི་སྒྲིག་ཚུ་འདྲ་བཤུས་རྐྱབས།"
+
+#: ../plug-ins/common/CML_explorer.c:1440
+msgid "Source channel:"
+msgstr "འབྱུང་ཁུངས་རྒྱུ་ལམ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1455
+#: ../plug-ins/common/CML_explorer.c:1503
+msgid "Destination channel:"
+msgstr "འགྲོ་ཡུལ་རྒྱུ་ལམ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1459
+msgid "Copy parameters"
+msgstr "ཚད་བཟུང་ཚུ་ འདྲ་བཤུས་རྐྱབས།"
+
+#: ../plug-ins/common/CML_explorer.c:1468
+msgid "Selective Load Settings"
+msgstr "སེལ་འཐུ་འབད་བཏུབ་པའི་མངོན་གསལ་གཞི་སྒྲིག་ཚུ།"
+
+#: ../plug-ins/common/CML_explorer.c:1488
+msgid "Source channel in file:"
+msgstr "ཡིག་སྣོད་ནང་འབྱུང་ཁུངས་རྒྱུ་ལམ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1509
+msgid "_Misc Ops."
+msgstr "ཨེམ་ཨའི་ཨེསི་སི་གདམ་ཁ་ཚུ་(_M)"
+
+#: ../plug-ins/common/CML_explorer.c:1558
+msgid "Function type:"
+msgstr "ལས་འགན་གྱི་དབྱེ་བ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1574
+msgid "Composition:"
+msgstr "རྩོམ་བྲིས་:"
+
+#: ../plug-ins/common/CML_explorer.c:1588
+msgid "Misc arrange:"
+msgstr "ཨེམ་ཧའི་ཨེསི་སི་བདེ་ཞིབ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1592
+msgid "Use cyclic range"
+msgstr "བསྐྱར་འཁོར་བའི་ཁྱབ་ཚད་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/common/CML_explorer.c:1602
+msgid "Mod. rate:"
+msgstr "མོཌི་མགྱོགས་ཚད་:"
+
+#: ../plug-ins/common/CML_explorer.c:1611
+msgid "Env. sensitivity:"
+msgstr "ཨི་ཨེན་ཝི་དྲན་ཚོར་:"
+
+#: ../plug-ins/common/CML_explorer.c:1620
+msgid "Diffusion dist.:"
+msgstr "ཁྱབ་གདལ་གྱང་ཚད་:"
+
+#: ../plug-ins/common/CML_explorer.c:1629
+msgid "# of subranges:"
+msgstr "ཡན་ལག་ཁྱབ་ཚད་ཀྱི་#:"
+
+#: ../plug-ins/common/CML_explorer.c:1638
+msgid "P(ower factor):"
+msgstr "(ནུས་ཤུགས་ཆ་རྐྱེན་):"
+
+#: ../plug-ins/common/CML_explorer.c:1647
+msgid "Parameter k:"
+msgstr "ཚད་བཟུང་ ཀེ:"
+
+#: ../plug-ins/common/CML_explorer.c:1656
+msgid "Range low:"
+msgstr "ཁྱབ་ཚད་ བམའ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1665
+msgid "Range high:"
+msgstr "ཁྱབ་ཚད་ མཐོ་:"
+
+#: ../plug-ins/common/CML_explorer.c:1677
+msgid "Plot a graph of the settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་གི་ ཚད་ཁྲམ་ཅིག་བྲིས།"
+
+#: ../plug-ins/common/CML_explorer.c:1722
+msgid "Ch. sensitivity:"
+msgstr "སི་ཨེཆ་ དྲན་ཚོར་:"
+
+#: ../plug-ins/common/CML_explorer.c:1732
+msgid "Mutation rate:"
+msgstr "རིམ་འགྱུར་གྱི་མགྱོགས་ཚད་:"
+
+#: ../plug-ins/common/CML_explorer.c:1742
+msgid "Mutation dist.:"
+msgstr "རིམ་འགྱུར་གྱི་རིང་ཚད་:"
+
+#: ../plug-ins/common/CML_explorer.c:1819
+msgid "Graph of the current settings"
+msgstr "ད་ལྟོའི་སྒྲིག་སྟངས་ཚུ་གི་ཚད་ཁྲམ།"
+
+#: ../plug-ins/common/CML_explorer.c:1889
+msgid "Warning: the source and the destination are the same channel."
+msgstr "ཉེན་བརྡ་:འབྱུང་ཁུངས་འདི་དང་འགྲོ་ཡུལ་འདི་རྒྱུ་ལམ་གཅིག་པ་ཨིན་མས།"
+
+#: ../plug-ins/common/CML_explorer.c:1948
+msgid "Save Parameters to"
+msgstr "ལུ་ཚད་བཟུང་ཚུ་སྲུངས་བཞག་འབད།"
+
+#: ../plug-ins/common/CML_explorer.c:2056
+#: ../plug-ins/common/channel_mixer.c:1052
+#, c-format
+msgid "Parameters were saved to '%s'"
+msgstr "ཚད་བཟུང་ཚུ་ '%s'ལུ་སྲུངས་བཞག་འབད་ནུག"
+
+#: ../plug-ins/common/CML_explorer.c:2077
+msgid "CML Explorer: Overwrite File?"
+msgstr "སི་ཨེམ་ཨེལ་ཐབས་འཚོལ་མི་:ཡིག་སྣོད་ཚབ་སྲུང་འབད?"
+
+#: ../plug-ins/common/CML_explorer.c:2091
+#: ../plug-ins/common/channel_mixer.c:1083
+#, c-format
+msgid ""
+"File '%s' exists.\n"
+"Overwrite it?"
+msgstr ""
+"ཡིག་སྣོད་ '%s' ཡོད།\n"
+"འདི་ཚབ་སྲུང་འབད?"
+
+#: ../plug-ins/common/CML_explorer.c:2140
+msgid "Load Parameters from"
+msgstr "ནང་ལས་ཚད་བཟུང་ཚུ་ན་གསལ་འབད།"
+
+#: ../plug-ins/common/CML_explorer.c:2142
+msgid "Selective Load from"
+msgstr "ནང་ལས་ སེལ་འཐུ་ཅན་གྱི་མངོན་གསལ།"
+
+#: ../plug-ins/common/CML_explorer.c:2238
+msgid "Error: it's not CML parameter file."
+msgstr "འཛོལ་བ་:འདི་སི་ཨེམ་ཨེལ་ཚད་བཟུང་ཡིག་སྣོད་མེན་བས།"
+
+#: ../plug-ins/common/CML_explorer.c:2245
+#, c-format
+msgid "Warning: '%s' is an old format file."
+msgstr "ཉེན་བརྡ་: '%s'འདི་རྩ་སྒྲིག་ཡིག་སྣོད་རྙིངམ་ཨིན་མས།"
+
+#: ../plug-ins/common/CML_explorer.c:2248
+#, c-format
+msgid "Warning: '%s' is a parameter file for newer CML_explorer than me."
+msgstr "ཉེན་བརྡ་: '%s' འདི་ང་ལས་སི་ཨེམ་ཨེལ་ཐབས་འཚོལ་མི་གསརཔ་གི་དོན་ལུ་ཚད་བཟུང་ཡིག་སྣོད་ཨིན།(_e)"
+
+#: ../plug-ins/common/CML_explorer.c:2311
+msgid "Error: failed to load parameters"
+msgstr "འཛོལ་བ་: ཚད་བཟུང་ཚུ་མངོན་གསལ་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ནུག"
+
+#: ../plug-ins/common/aa.c:94
+msgid "ASCII art"
+msgstr "ཨེ་ཨེསི་སི་ཨའི་ཨའི་ རི་མོ།"
+
+#. Create the actual window.
+#: ../plug-ins/common/aa.c:345
+msgid "Save as Text"
+msgstr "ཚིག་ཡིག་སྦེ་སྲུངས།"
+
+#: ../plug-ins/common/aa.c:360
+msgid "_Format:"
+msgstr "རྩ་སྒྲིག་:(_F)"
+
+#: ../plug-ins/common/align_layers.c:135
+msgid "Align _Visible Layers..."
+msgstr "མཐོང་ཚུགས་པའི་བང་རིམ་ཚུ་ཕྲང་...(_V)"
+
+#: ../plug-ins/common/align_layers.c:173
+msgid "There are not enough layers to align."
+msgstr "ཕྲང་ནི་ལུ་བང་རིམ་ཚུ་ལངམ་སྦེ་མིན་འདུག"
+
+#: ../plug-ins/common/align_layers.c:399
+msgid "Align Visible Layers"
+msgstr "མཐོང་ཚུགས་པའི་བང་རིམ་ཚུ་ཕྲང་།"
+
+#: ../plug-ins/common/align_layers.c:417 ../plug-ins/common/align_layers.c:448
+msgid "Collect"
+msgstr "བསྡུ་ལེན།"
+
+#: ../plug-ins/common/align_layers.c:418
+msgid "Fill (left to right)"
+msgstr "བཀང་ (གཡོན་ལས་གཡས་ཚུན་)"
+
+#: ../plug-ins/common/align_layers.c:419
+msgid "Fill (right to left)"
+msgstr "བཀང་(གཡས་ལས་གཡོན་ཚུན་)"
+
+#. "snap to grid" checkbutton at bottom of style frame
+#: ../plug-ins/common/align_layers.c:420 ../plug-ins/common/align_layers.c:451
+#: ../plug-ins/gfig/gfig-dialog.c:495
+msgid "Snap to grid"
+msgstr "གིརིཌི་ལུ་པར་བཏབ།"
+
+#: ../plug-ins/common/align_layers.c:429
+msgid "_Horizontal style:"
+msgstr "ཐད་སྙོམས་བཟོ་རྣམ་:(_H)"
+
+#: ../plug-ins/common/align_layers.c:433
+msgid "Left edge"
+msgstr "གཡོན་གྱི་མཐའམ།"
+
+#: ../plug-ins/common/align_layers.c:434 ../plug-ins/common/align_layers.c:464
+#: ../plug-ins/gflare/gflare.c:2641
+msgid "Center"
+msgstr "དབུས།"
+
+#: ../plug-ins/common/align_layers.c:435
+msgid "Right edge"
+msgstr "གཡས་ཀྱི་མཐའམ།"
+
+#: ../plug-ins/common/align_layers.c:444
+msgid "Ho_rizontal base:"
+msgstr "ཐད་སྙོམས་གཞི་རྟེན་:(_r)"
+
+#: ../plug-ins/common/align_layers.c:449
+msgid "Fill (top to bottom)"
+msgstr "བཀང་(མགོ་ལས་མཇུག་ཚུན་)"
+
+#: ../plug-ins/common/align_layers.c:450
+msgid "Fill (bottom to top)"
+msgstr "བཀང་(མཇུག་ལས་མགོ་ཚུན་)"
+
+#: ../plug-ins/common/align_layers.c:460
+msgid "_Vertical style:"
+msgstr "ཀེར་ཕྲང་བཟོ་རྣམ་:(_V)"
+
+#: ../plug-ins/common/align_layers.c:463
+msgid "Top edge"
+msgstr "མགོའི་མཐའམ།"
+
+#: ../plug-ins/common/align_layers.c:465
+msgid "Bottom edge"
+msgstr "མཇུག་གི་མཐའམ།"
+
+#: ../plug-ins/common/align_layers.c:474
+msgid "Ver_tical base:"
+msgstr "ཀེར་ཕྲང་གཞི་རྟེན་:(_t)"
+
+#: ../plug-ins/common/align_layers.c:478
+msgid "_Grid size:"
+msgstr "གིརིཌི་ཚད་:(_G)"
+
+#: ../plug-ins/common/align_layers.c:487
+msgid "_Ignore the bottom layer even if visible"
+msgstr "མཇུག་གི་བང་རིམ་འདི་མཐོང་ཚུགས་རུང་སྣང་མེད་སྦེ་བཞག་(_I)"
+
+#: ../plug-ins/common/align_layers.c:497
+msgid "_Use the (invisible) bottom layer as the base"
+msgstr "མཐོང་མ་ཚུགས་མི་མཆུག་གི་བང་རིམ་འདི་གཞི་རྟེན་སྦེ་ལག་ལེན་འཐབ་(_U)"
+
+#: ../plug-ins/common/animationplay.c:181
+msgid "_Playback..."
+msgstr "གླུ་གཞས་གཏང་ནི་...(_P)"
+
+#: ../plug-ins/common/animationplay.c:413
+msgid "Animation Playback:"
+msgstr "བསྒུལ་བཟོ་གླུ་གཞས་གཏང་ནི་:"
+
+#: ../plug-ins/common/animationplay.c:431
+msgid "Playback:"
+msgstr "གླུ་གཞས་གཏང་ནི:"
+
+#: ../plug-ins/common/animationplay.c:457
+msgid "Play/Stop"
+msgstr "གླུ་གཞས་གཏང་/བཀག"
+
+#: ../plug-ins/common/animationplay.c:463
+msgid "Rewind"
+msgstr "ལོག་བསྒྱིར།"
+
+#: ../plug-ins/common/animationplay.c:469
+msgid "Step"
+msgstr "རིམ་པ།"
+
+#: ../plug-ins/common/animationplay.c:1138
+#, c-format
+msgid "Frame %d of %d"
+msgstr " %d གྱི་གཞི་ཁྲམ་ %d"
+
+#: ../plug-ins/common/animoptimize.c:140
+msgid "Optimize (for _GIF)"
+msgstr "ཇི་ཨའི་ཨེཕ་གི་དོན་ལུ་ལེགས་ལྡན་བཟོ་(_G)"
+
+#: ../plug-ins/common/animoptimize.c:158
+msgid "_Optimize (Difference)"
+msgstr "ལེགས་ལྡན་བཟོ་(སོ་སོ་)(_O)"
+
+#: ../plug-ins/common/animoptimize.c:175
+msgid "_UnOptimize"
+msgstr "གང་དྲག་བཟོ་ནི་བཤོལ།(_U)"
+
+#: ../plug-ins/common/animoptimize.c:198
+msgid "_Remove Backdrop"
+msgstr "རྒྱབ་གཞི་རྩ་བསྐྲད་གཏང་(_R)"
+
+#: ../plug-ins/common/animoptimize.c:214
+msgid "_Find Backdrop"
+msgstr "རྒྱབ་གཞི་འཚོལ་(_F)"
+
+#: ../plug-ins/common/animoptimize.c:429
+msgid "UnOptimizing Animation..."
+msgstr "གང་དྲག་བཟོ་ནི་ལས་བཤོལ་ནིའི་བསྒུལ་བཟོ་..."
+
+#: ../plug-ins/common/animoptimize.c:432
+msgid "Removing Animation Background..."
+msgstr "བསྒུལ་བཟོའི་་རྒྱབ་གཞི་རྩ་བསྐྲད་གཏང་དོ..."
+
+#: ../plug-ins/common/animoptimize.c:435
+msgid "Finding Animation Background..."
+msgstr "བསྒུལ་བཟོའི་རྒྱབ་གཞི་འཚོལ་དོ..."
+
+#: ../plug-ins/common/animoptimize.c:439
+msgid "Optimizing Animation..."
+msgstr "བསྒུལ་བཟོ་གང་དྲག་བཟོ་དོ..."
+
+#: ../plug-ins/common/apply_lens.c:112
+msgid "Apply _Lens..."
+msgstr "དྭངས་ཤེལ་འཇུག་སྤྱོད་འབད་...(_L)"
+
+#: ../plug-ins/common/apply_lens.c:179
+msgid "Applying lens..."
+msgstr "དྭངས་ཤེལ་འཇུག་སྤྱོད་འབད་དོ..."
+
+#: ../plug-ins/common/apply_lens.c:391
+msgid "Lens Effect"
+msgstr "དྭངས་ཤེལ་གྱི་ནུས་པ།"
+
+#: ../plug-ins/common/apply_lens.c:417
+msgid "_Keep original surroundings"
+msgstr "ཉེ་འཁོར་ངོ་མ་བཞག་(_K)"
+
+#: ../plug-ins/common/apply_lens.c:432
+msgid "_Set surroundings to index 0"
+msgstr "ཟུར་ཐོ་ ༠ ལུ་ཉེ་འཁོར་གཞི་སྒྲིག་འབད་(_S)"
+
+#: ../plug-ins/common/apply_lens.c:433
+msgid "_Set surroundings to background color"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་ལུ་ཉེ་འཁོར་གཞི་སྒྲིག་འབད་(_S)"
+
+#: ../plug-ins/common/apply_lens.c:448
+msgid "_Make surroundings transparent"
+msgstr "ཉེ་འཁོར་དྭངས་གསལ་ཅན་བཟོ་(_M)"
+
+#: ../plug-ins/common/apply_lens.c:465
+msgid "_Lens refraction index:"
+msgstr "དྭངས་ཤལ་འཁྱོག་འཕྲོ་ཟུར་ཐོ་:(_L)"
+
+#: ../plug-ins/common/autocrop.c:85
+msgid "_Autocrop Image"
+msgstr "རང་བཞིན་བཏོག་བཅོས་གཟུགས་བརྙན་(_A)"
+
+#: ../plug-ins/common/autocrop.c:99
+msgid "_Autocrop Layer"
+msgstr "རང་བཞིན་བཏོག་བཅོས་བང་རིམ་(_A)"
+
+#: ../plug-ins/common/autocrop.c:146
+msgid "Cropping..."
+msgstr "བཏོག་བཅོས་འབད་དོ..."
+
+#: ../plug-ins/common/autostretch_hsv.c:80
+msgid "Stretch _HSV"
+msgstr "ཨེཆ་ཨེསི་ཝི་བསྣར་(_H)"
+
+#: ../plug-ins/common/autostretch_hsv.c:116
+msgid "Auto-Stretching HSV..."
+msgstr "རང་བཞིན་གྱིས་བསྣར་ནི་ཨེཆ་ཨེསི་ཝི་..."
+
+#: ../plug-ins/common/autostretch_hsv.c:192
+msgid "autostretch_hsv: cmap was NULL!  Quitting...\n"
+msgstr "རང་བཞིན་གྱིས་བསྣར་མི་ཨེཆ་ཨེསི་ཝི་:(_h)སི་མེཔ་འདི་སྟོང་ཆ་ཨིན་མས་! སྤང་དོ་...\n"
+
+#: ../plug-ins/common/blinds.c:124
+msgid "_Blinds..."
+msgstr "མིག་ཞརཝ་ཚུ་...(_B)"
+
+#: ../plug-ins/common/blinds.c:191
+msgid "Adding Blinds..."
+msgstr "མིག་ཞརཝ་ཚུ་ཁ་སྐོང་འབད་དོ..."
+
+#: ../plug-ins/common/blinds.c:229
+msgid "Blinds"
+msgstr "མིག་ཞརཝ་ཚུ།"
+
+#. Orientation toggle box
+#: ../plug-ins/common/blinds.c:255 ../plug-ins/common/ripple.c:535
+msgid "Orientation"
+msgstr "ཕྱོགས།"
+
+#: ../plug-ins/common/blinds.c:259 ../plug-ins/common/ripple.c:539
+#: ../plug-ins/common/tileit.c:418 ../plug-ins/pagecurl/pagecurl.c:530
+msgid "_Horizontal"
+msgstr "ཐད་སྙོམས་(_H)"
+
+#: ../plug-ins/common/blinds.c:260 ../plug-ins/common/ripple.c:540
+#: ../plug-ins/common/tileit.c:428 ../plug-ins/pagecurl/pagecurl.c:529
+msgid "_Vertical"
+msgstr "ཀེར་ཕྲང་(_V)"
+
+#: ../plug-ins/common/blinds.c:277 ../plug-ins/common/fractaltrace.c:733
+#: ../plug-ins/common/papertile.c:358
+msgid "_Transparent"
+msgstr "དྭངས་གསལ་ཅན་(_T)"
+
+#: ../plug-ins/common/blinds.c:303
+msgid "_Displacement:"
+msgstr "གནས་སྤང་:(_D)"
+
+#: ../plug-ins/common/blinds.c:315
+msgid "_Number of segments:"
+msgstr "དུམ་བུ་ཚུ་གི་གྲངས་:(_N)"
+
+#: ../plug-ins/common/blur.c:147
+msgid "_Blur"
+msgstr "རབ་རིབ་(_B)"
+
+#: ../plug-ins/common/blur.c:191 ../plug-ins/common/unsharp.c:432
+msgid "Blurring..."
+msgstr "རབ་རིབ་སྟོན་དོ..."
+
+#: ../plug-ins/common/borderaverage.c:101
+msgid "_Border Average..."
+msgstr "མཐའ་མཚམས་ཆ་སྙོམས་...(_B)"
+
+#: ../plug-ins/common/borderaverage.c:168
+msgid "Border Average..."
+msgstr "མཐའ་མཚམས་ཆ་སྙོམས་..."
+
+#: ../plug-ins/common/borderaverage.c:348
+msgid "Borderaverage"
+msgstr "མཐའ་མཚམས་ཆ་སྙོམས།"
+
+#: ../plug-ins/common/borderaverage.c:362
+msgid "Border Size"
+msgstr "མཐའ་མཚམས་ཀྱི་ཚད།"
+
+#: ../plug-ins/common/borderaverage.c:370
+msgid "_Thickness:"
+msgstr "སྟུག་ཚད་:(_T)"
+
+#: ../plug-ins/common/borderaverage.c:413
+msgid "_Bucket size:"
+msgstr "དོབ་ཀྱི་ཚད་:(_B)"
+
+#: ../plug-ins/common/bumpmap.c:343
+msgid "_Bump Map..."
+msgstr "འབུར་འབུར་ས་ཁྲ་...(_B)"
+
+#: ../plug-ins/common/bumpmap.c:492
+msgid "Bump-mapping..."
+msgstr "འབུར་འབུར་ས-ཁྲ་བཟོ་ནི་..."
+
+#: ../plug-ins/common/bumpmap.c:836
+msgid "Bump Map"
+msgstr "འབུར་འབུར་ས་ཁྲ།"
+
+#: ../plug-ins/common/bumpmap.c:895
+msgid "_Bump map:"
+msgstr "འབུར་འབུར་ས་ཁྲ་:(_B)"
+
+#: ../plug-ins/common/bumpmap.c:907
+msgid "_Map type:"
+msgstr "ས་ཁྲ་གི་དབྱེ་བ་:(_M)"
+
+#. Compensate darkening
+#: ../plug-ins/common/bumpmap.c:912
+msgid "Co_mpensate for darkening"
+msgstr "གྲིབ་གནག་འབད་ནིའི་དོན་ལུ་རྒུད་འཐུས་འབད་(_m)"
+
+#. Invert bumpmap
+#: ../plug-ins/common/bumpmap.c:926
+msgid "I_nvert bumpmap"
+msgstr "འབུར་འབུར་ས་ཁྲ་གནས་ལོག་འབད་(_n)"
+
+#. Tile bumpmap
+#: ../plug-ins/common/bumpmap.c:940
+msgid "_Tile bumpmap"
+msgstr "ཊ་ཡིལ་འབུར་འབུར་ས་ཁྲ་(_T)"
+
+#: ../plug-ins/common/bumpmap.c:955 ../plug-ins/common/emboss.c:485
+msgid "_Azimuth:"
+msgstr "ཕྱོགས་ཀྱི་ཆ་ཚད་:(_A)"
+
+#: ../plug-ins/common/bumpmap.c:967
+msgid "_Elevation:"
+msgstr "མཐོ་སྒང་:(_E)"
+
+#: ../plug-ins/common/bumpmap.c:993 ../plug-ins/common/postscript.c:3146
+msgid "_X offset:"
+msgstr "ཨེཀསི་པར་ལེན་:(_X)"
+
+#: ../plug-ins/common/bumpmap.c:996 ../plug-ins/common/bumpmap.c:1010
+msgid ""
+"The offset can be adjusted by dragging the preview using the middle mouse "
+"button."
+msgstr "པར་ལེན་འདི་མཱའུསི་ཨེབ་རྟ་བར་མ་ལག་ལེན་འཐབ་སྟེ་ཟིབ་ལྟ་འདི་འདྲུད་པའི་ཐོག་ལས་བདེ་སྒྲིག་འབད་ཚུགས།"
+
+#: ../plug-ins/common/bumpmap.c:1007 ../plug-ins/common/postscript.c:3155
+msgid "_Y offset:"
+msgstr "ཝའི་ པར་ལེན་:(_Y)"
+
+#: ../plug-ins/common/bumpmap.c:1021
+msgid "_Waterlevel:"
+msgstr "ཆུ་ཚད་:(_W)"
+
+#: ../plug-ins/common/bumpmap.c:1033
+msgid "A_mbient:"
+msgstr "ཨེམ་བིནཊི་:(_m)"
+
+#: ../plug-ins/common/c_astretch.c:78
+msgid "_Stretch Contrast"
+msgstr "ཚོན་མདངས་བསྣར་(_S)"
+
+#: ../plug-ins/common/c_astretch.c:112
+msgid "Auto-Stretching Contrast..."
+msgstr "རང་བཞིན་གྱིས་-བསྣར་ནིའི་ཚོན་མདངས..."
+
+#: ../plug-ins/common/c_astretch.c:152
+msgid "c_astretch: cmap was NULL!  Quitting...\n"
+msgstr "ཀེས་ཊེརེཆ་:(_a) སི་མེཔ་འདི་སྟོང་ཆ་ཨིན་མས! སྤང་དོ་...\n"
+
+#: ../plug-ins/common/cartoon.c:147
+msgid "Ca_rtoon..."
+msgstr "པར་རིས་གློག་བརྙན་...(_r)"
+
+#: ../plug-ins/common/cartoon.c:229 ../plug-ins/common/dog.c:247
+#: ../plug-ins/common/gauss.c:431 ../plug-ins/common/neon.c:221
+#: ../plug-ins/common/photocopy.c:241 ../plug-ins/common/sel_gauss.c:204
+#: ../plug-ins/common/softglow.c:220 ../plug-ins/gflare/gflare.c:972
+#: ../plug-ins/sgi/sgi.c:528 ../plug-ins/xjt/xjt.c:1673
+msgid "Cannot operate on indexed color images."
+msgstr "ཟུར་སྦྲགས་འབད་ཡོད་པའི་ཚོས་གཞི་གཟུགས་བརྙན་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
+
+#: ../plug-ins/common/cartoon.c:808
+msgid "Cartoon"
+msgstr "པར་རིས་གློག་བརྙན།"
+
+#: ../plug-ins/common/cartoon.c:838 ../plug-ins/common/photocopy.c:867
+msgid "_Mask radius:"
+msgstr "གདོང་ཁེབས་མཐའ་འཁོར་:(_M)"
+
+#: ../plug-ins/common/cartoon.c:852
+msgid "_Percent black:"
+msgstr "བརྒྱ་ཆ་གནགཔོ་:(_P)"
+
+#: ../plug-ins/common/ccanalyze.c:110
+msgid "Colorcube A_nalysis..."
+msgstr "ཚོས་གཞི་ཤོ་དབྱིབས་དཔྱད་ཞིབ་...(_n)"
+
+#: ../plug-ins/common/ccanalyze.c:200
+msgid "Colorcube Analysis..."
+msgstr "ཚོས་གཞི་ཤོ་དབྱིབས་དཔྱད་ཞིབ་..."
+
+#: ../plug-ins/common/ccanalyze.c:358
+msgid "Colorcube Analysis"
+msgstr "ཚོས་གཞི་ཤོ་དབྱིབས་དཔྱད་ཞིབ།"
+
+#. output results
+#: ../plug-ins/common/ccanalyze.c:384
+#: ../plug-ins/imagemap/imap_cmd_guides.c:233
+#, c-format
+msgid "Image dimensions: %d x %d"
+msgstr "གཟུགས་བརྙན་རྒྱ་འཁོན་: %d × %d"
+
+#: ../plug-ins/common/ccanalyze.c:387
+msgid "No colors"
+msgstr "ཚོས་གཞི་ཚུ་མིན་འདུག།"
+
+#: ../plug-ins/common/ccanalyze.c:389
+msgid "Only one unique color"
+msgstr "མཐུན་མོང་མ་ཡིན་པའི་ཚོས་གཞི་གཅིག་རྐྱངམ་ཅིག"
+
+#: ../plug-ins/common/ccanalyze.c:391
+#, c-format
+msgid "Number of unique colors: %d"
+msgstr "མཐུན་མོང་མ་ཡིན་པའི་ཚོས་གཞི་ཚུ་གི་གྲངས་: %d"
+
+#: ../plug-ins/common/ccanalyze.c:394
+#, c-format
+msgid "Uncompressed size: %s"
+msgstr "ཨེབ་བཙུགས་མ་འབད་བའི་ཚད་: %s"
+
+#: ../plug-ins/common/ccanalyze.c:401
+#, c-format
+msgid "Filename: %s"
+msgstr "ཡིག་སྣོད་མིང་: %s"
+
+#: ../plug-ins/common/ccanalyze.c:402
+#, c-format
+msgid "Compressed size: %s"
+msgstr "ཨེབ་བཙུགས་འབད་ཡོད་པའི་ཚད་: %s"
+
+#: ../plug-ins/common/ccanalyze.c:403
+#, c-format
+msgid "Compression ratio (approx.): %d to 1"
+msgstr "ཨེབ་བཙུགས་དཔྱ་ཚད་(ཧ་ལམ་): ༡ ལུ་ %d"
+
+#: ../plug-ins/common/channel_mixer.c:197
+msgid "Channel Mi_xer..."
+msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ་...(_x)"
+
+#: ../plug-ins/common/channel_mixer.c:485
+msgid "Channel Mixer"
+msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ།"
+
+#: ../plug-ins/common/channel_mixer.c:514
+msgid "O_utput channel:"
+msgstr "ཨའུཊི་པུཊི་རྒྱུ་ལམ་:(_u)"
+
+#: ../plug-ins/common/channel_mixer.c:568 ../plug-ins/common/diffraction.c:498
+#: ../plug-ins/common/diffraction.c:536 ../plug-ins/common/diffraction.c:574
+#: ../plug-ins/common/exchange.c:397 ../plug-ins/common/noisify.c:526
+#: ../plug-ins/common/noisify.c:533
+msgid "_Red:"
+msgstr "དམརཔོ་:(_R)"
+
+#: ../plug-ins/common/channel_mixer.c:586 ../plug-ins/common/diffraction.c:507
+#: ../plug-ins/common/diffraction.c:545 ../plug-ins/common/diffraction.c:583
+#: ../plug-ins/common/exchange.c:457 ../plug-ins/common/noisify.c:527
+#: ../plug-ins/common/noisify.c:534
+msgid "_Green:"
+msgstr "ལྗང་ཁུ་:(_G)"
+
+#: ../plug-ins/common/channel_mixer.c:605 ../plug-ins/common/diffraction.c:516
+#: ../plug-ins/common/diffraction.c:554 ../plug-ins/common/diffraction.c:592
+#: ../plug-ins/common/exchange.c:519 ../plug-ins/common/noisify.c:528
+#: ../plug-ins/common/noisify.c:535
+msgid "_Blue:"
+msgstr "ཧོནམ་:(_B)"
+
+#. The monochrome toggle
+#: ../plug-ins/common/channel_mixer.c:616
+msgid "_Monochrome"
+msgstr "མོ་ནོ་ཀོརོམ་(_M)"
+
+#: ../plug-ins/common/channel_mixer.c:628
+msgid "Preserve _luminosity"
+msgstr "འོད་ཤུགས་ཉམས་སྲུང་འབད་(_l)"
+
+#: ../plug-ins/common/channel_mixer.c:857
+msgid "Load Channel Mixer Settings"
+msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ་གཞི་སྒྲིག་ཚུ་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/common/channel_mixer.c:989
+msgid "Save Channel Mixer Settings"
+msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ་གཞི་སྒྲིག་ཚུ་སྲུངས།"
+
+#: ../plug-ins/common/channel_mixer.c:1068
+msgid "Channel Mixer File Operation Warning"
+msgstr "རྒྱུ་ལམ་སྦྱོར་འཕྲུལ་ཡིག་སྣོད་བཀོལ་སྤྱོད་ཉེན་བརྡ།"
+
+#: ../plug-ins/common/checkerboard.c:93
+msgid "_Checkerboard..."
+msgstr "ཅེ་ཀར་དཔེ་གཞོང་...(_C)"
+
+#: ../plug-ins/common/checkerboard.c:161
+msgid "Adding Checkerboard..."
+msgstr "ཅེ་ཀར་དཔེ་གཞོང་ཁ་སྐོང་རྐྱབས་དོ..."
+
+#: ../plug-ins/common/checkerboard.c:310
+msgid "Checkerboard"
+msgstr "ཅེ་ཀར་དཔེ་གཞོང་།"
+
+#: ../plug-ins/common/checkerboard.c:332
+msgid "_Psychobilly"
+msgstr "(_P)"
+
+#: ../plug-ins/common/checkerboard.c:365 ../plug-ins/common/papertile.c:287
+#: ../plug-ins/gimpressionist/sizemap.c:487
+msgid "_Size:"
+msgstr "ཚད་:(_S)"
+
+#: ../plug-ins/common/color_enhance.c:80
+msgid "_Color Enhance"
+msgstr "ཚོས་གཞི་གོང་སྤེལ་(_C)"
+
+#: ../plug-ins/common/color_enhance.c:115
+msgid "Color Enhance..."
+msgstr "ཚོས་གཞི་གོང་སྤེལ་..."
+
+#: ../plug-ins/common/colorify.c:110
+msgid "_Colorify..."
+msgstr "ཚོས་གཞི་གཏང་ནི་...(_C)"
+
+#: ../plug-ins/common/colorify.c:171
+msgid "Colorifying..."
+msgstr "ཚོས་གཞི་དང་ལྡནམ་སྦེ་བཟོ་དོ..."
+
+#: ../plug-ins/common/colorify.c:258
+msgid "Colorify"
+msgstr "ཚོས་གཞི་གཏང་ནི།"
+
+#: ../plug-ins/common/colorify.c:285
+msgid "Custom Color:"
+msgstr "ཚོས་གཞི་སྲོལ་སྒྲིག་འབད:"
+
+#: ../plug-ins/common/colorify.c:290
+msgid "Colorify Custom Color"
+msgstr "སྲོལ་སྒྲིག་ཚོས་གཞི་ཚོས་གཞི་གཏང་།"
+
+#: ../plug-ins/common/colortoalpha.c:104
+msgid "Color to _Alpha..."
+msgstr "ཨཱལ་ཕ་ལུ་ཚོས་གཞི་...(_A)"
+
+#: ../plug-ins/common/colortoalpha.c:187
+msgid "Removing color..."
+msgstr "ཚོས་གཞི་རྩ་བསྐྲད་གཏང་དོ..."
+
+#: ../plug-ins/common/colortoalpha.c:380
+msgid "Color to Alpha"
+msgstr "ཨཱལ་ཕ་ལུ་ཚོས་གཞི།"
+
+#: ../plug-ins/common/colortoalpha.c:405 ../plug-ins/common/mapcolor.c:424
+#: ../plug-ins/gfli/gfli.c:835 ../plug-ins/gfli/gfli.c:898
+msgid "From:"
+msgstr "ལས་:"
+
+#: ../plug-ins/common/colortoalpha.c:409
+msgid "Color to Alpha Color Picker"
+msgstr "ཨཱལ་ཕ་ཚོས་གཞི་འཐུ་མི་ལུ་ཚོས་གཞི།"
+
+#: ../plug-ins/common/colortoalpha.c:423
+msgid "to alpha"
+msgstr "ཨཱལ་ཕ་ལུ།"
+
+#: ../plug-ins/common/compose.c:127 ../plug-ins/common/decompose.c:130
+#: ../plug-ins/common/raw.c:953
+msgid "RGB"
+msgstr "ཨར་ཇི་བི།"
+
+#: ../plug-ins/common/compose.c:137 ../plug-ins/common/decompose.c:135
+#: ../plug-ins/common/raw.c:954
+msgid "RGBA"
+msgstr "ཨར་ཇི་བི་ཨེ།"
+
+#: ../plug-ins/common/compose.c:141
+msgid "Alpha:"
+msgstr "ཨཱལ་ཕ་:"
+
+#: ../plug-ins/common/compose.c:147 ../plug-ins/common/decompose.c:140
+msgid "HSV"
+msgstr "ཨེཆ་ཨེསི་ཝི།"
+
+#. Gray: Circle: Spinbutton 1
+#: ../plug-ins/common/compose.c:148 ../plug-ins/rcm/rcm_dialog.c:470
+msgid "Hue:"
+msgstr "ཚོན་མདངས:"
+
+#. Gray: Circle: Spinbutton 2
+#: ../plug-ins/common/compose.c:149 ../plug-ins/print/gimp_color_window.c:364
+#: ../plug-ins/rcm/rcm_dialog.c:497
+msgid "Saturation:"
+msgstr "མཐའ་ཚད།"
+
+#: ../plug-ins/common/compose.c:150
+msgid "Value:"
+msgstr "གནས་གོང་:"
+
+#: ../plug-ins/common/compose.c:154 ../plug-ins/common/decompose.c:146
+msgid "CMY"
+msgstr "སི་ཝའི་ཨེམ།"
+
+#: ../plug-ins/common/compose.c:155 ../plug-ins/common/compose.c:162
+#: ../plug-ins/common/fp.c:231 ../plug-ins/print/gimp_color_window.c:307
+msgid "Cyan:"
+msgstr "སྔོ་ལྗང་:"
+
+#: ../plug-ins/common/compose.c:156 ../plug-ins/common/compose.c:163
+#: ../plug-ins/common/fp.c:233 ../plug-ins/print/gimp_color_window.c:326
+msgid "Magenta:"
+msgstr "དམར་སྨུག་:"
+
+#: ../plug-ins/common/compose.c:157 ../plug-ins/common/compose.c:164
+#: ../plug-ins/common/fp.c:232 ../plug-ins/print/gimp_color_window.c:345
+msgid "Yellow:"
+msgstr "སེརཔོ་:"
+
+#: ../plug-ins/common/compose.c:161 ../plug-ins/common/decompose.c:152
+msgid "CMYK"
+msgstr "སི་ཨེམ་ཝའི་ཀེ།"
+
+#: ../plug-ins/common/compose.c:165
+msgid "Black:"
+msgstr "གནགཔོ་:"
+
+#: ../plug-ins/common/compose.c:168 ../plug-ins/common/decompose.c:161
+msgid "LAB"
+msgstr "བརྟག་དཔྱད་ཁང་།"
+
+#: ../plug-ins/common/compose.c:176
+msgid "Luma_y470:"
+msgstr "ལུ་མེ་༤༧༠:(_y)"
+
+#: ../plug-ins/common/compose.c:177
+msgid "Blueness_cb470:"
+msgstr "ཧོནམ་གྱི་མདངས་ཅན་ སི་བི་༤༧༠:(_c)"
+
+#: ../plug-ins/common/compose.c:178
+msgid "Redness_cr470:"
+msgstr "དམར་པོའི་མདངས་ཅན་ སི་ཨར་༤༧༠:(_c)"
+
+#: ../plug-ins/common/compose.c:183
+msgid "Luma_y709:"
+msgstr "ལུ་མེ་ ༧༠༩:(_y)"
+
+#: ../plug-ins/common/compose.c:184
+msgid "Blueness_cb709:"
+msgstr "ཧོནམ་གྱི་མདངས་ཅན་ སི་བི་༧༠༩:(_c)"
+
+#: ../plug-ins/common/compose.c:185
+msgid "Redness_cr709:"
+msgstr "དམར་པོའི་མདངས་ཅན་ སི་ཨར་༧༠༩:(_c)"
+
+#: ../plug-ins/common/compose.c:190
+msgid "Luma_y470f:"
+msgstr "ལུ་མེ་ ༤༧༠ ཨེཕ་:(_y)"
+
+#: ../plug-ins/common/compose.c:191
+msgid "Blueness_cb470f:"
+msgstr "ཧོནམ་གྱི་མདངས་ཅན་ སི་བི་༤༧༠ ཨེཕ་:(_c)"
+
+#: ../plug-ins/common/compose.c:192
+msgid "Redness_cr470f:"
+msgstr "དམར་མདངས་ཅན་ སི་ཨར་༤༧༠ ཨེཕ་:(_c)"
+
+#: ../plug-ins/common/compose.c:197
+msgid "Luma_y709f:"
+msgstr "ལུ་མེ་ ༧༠༩ ཨེཕ་:(_y)"
+
+#: ../plug-ins/common/compose.c:198
+msgid "Blueness_cb709f:"
+msgstr "ཧོནམ་གྱི་མདངས་ཅན་ སི་བི་༧༠༩ ཨེཕ་:(_c)"
+
+#: ../plug-ins/common/compose.c:199
+msgid "Redness_cr709f:"
+msgstr "དམར་མདངས་ཅན་ སི་ཨར་༧༠༩ ཨེཕ་:(_c)"
+
+#: ../plug-ins/common/compose.c:294
+msgid "C_ompose..."
+msgstr "བརྩམ་ནི་...(_o)"
+
+#: ../plug-ins/common/compose.c:360
+#, c-format
+msgid "Could not get layers for image %d"
+msgstr "གཟུགས་བརྙན་ %d གི་དོན་ལུ་བང་རིམ་ཚུ་ཐོབ་མ་ཚུགས།"
+
+#: ../plug-ins/common/compose.c:411
+msgid "Composing..."
+msgstr "བརྩམ་དོ..."
+
+#: ../plug-ins/common/compose.c:480
+msgid "Drawables have different size"
+msgstr "འབྲི་བཏུབ་མི་ཚུ་ལུ་ཚད་སོ་སོ་ཡོད།"
+
+#: ../plug-ins/common/compose.c:497
+msgid "Images have different size"
+msgstr "གཟུགས་བརྙན་ཚུ་ལུ་ཚད་སོ་སོ་ཡོད།"
+
+#: ../plug-ins/common/compose.c:511
+msgid "Error in getting layer IDs"
+msgstr "བང་རིམ་ཨའི་ཌི་ཨེས་ཐོབ་ནི་ལུ་འཛོལ་བ།"
+
+#: ../plug-ins/common/compose.c:528
+#, c-format
+msgid "Image is not a gray image (bpp=%d)"
+msgstr "གཟུགས་བརྙན་འདི་སྐྱ་ཐལ་གཟུགས་བརྙན་(bpp=%d)མེན་བས།"
+
+#: ../plug-ins/common/compose.c:1103
+msgid "Compose"
+msgstr "བརྩམ་ནི།"
+
+#. The left frame keeps the compose type toggles
+#: ../plug-ins/common/compose.c:1119
+msgid "Compose Channels"
+msgstr "རྒྱུ་ལམ་ཚུ་བརྩམ་ནི།"
+
+#. The right frame keeps the selection menues for images.
+#. Because the labels within this frame will change when a toggle
+#. in the left frame is changed, fill in the right part first.
+#. Otherwise it can occur, that a non-existing label might be changed.
+#: ../plug-ins/common/compose.c:1130
+msgid "Channel Representations"
+msgstr "རྒྱུ་ལམ་ཁྱད་ཚབ་ཚུ།"
+
+#: ../plug-ins/common/compressor.c:153
+msgid "gzip archive"
+msgstr "ཇི་ཛིཔ་ཡིག་མཛོད།"
+
+#: ../plug-ins/common/compressor.c:174
+msgid "bzip archive"
+msgstr "བི་ཛིཔ་ཡིག་མཛོད།"
+
+#: ../plug-ins/common/compressor.c:367
+msgid "No sensible extension, saving as compressed XCF."
+msgstr "དྲན་ཤེས་ལྡན་པའི་རྒྱ་བསྐྱེད་མིན་འདུག་ ཨེཀསི་སི་ཨེཕ་ ཨེབ་བཙུགས་འབད་ཡོདཔ་སྦེ་སྲུངས་བཞག་འབད་དོ།"
+
+#: ../plug-ins/common/compressor.c:508
+msgid "No sensible extension, attempting to load with file magic."
+msgstr "དྲན་ཤེས་ལྡན་པའི་རྒྱ་བསྐྱེད་མིན་འདུག་ ཡིག་སྣོད་མིག་འཕྲུལ་མཉམ་མངོན་གསལ་འབད་ནི་ལུ་དཔའ་བཅམ་དོ།"
+
+#: ../plug-ins/common/convmatrix.c:87
+msgid "Gr_ey"
+msgstr "སྐྱ་ཐལ་(_e)"
+
+#: ../plug-ins/common/convmatrix.c:88
+msgid "Re_d"
+msgstr "དམརཔོ་(_d)"
+
+#: ../plug-ins/common/convmatrix.c:89 ../plug-ins/common/newsprint.c:360
+msgid "_Green"
+msgstr "ཧོནམ་(_G)"
+
+#: ../plug-ins/common/convmatrix.c:90 ../plug-ins/common/newsprint.c:368
+msgid "_Blue"
+msgstr "ལྗང་ཁུ་(_B)"
+
+#: ../plug-ins/common/convmatrix.c:91
+msgid "_Alpha"
+msgstr "ཨཱལ་ཕ་(_A)"
+
+#: ../plug-ins/common/convmatrix.c:96
+msgid "E_xtend"
+msgstr "རྒྱ་བསྐྱེད་(_x)"
+
+#: ../plug-ins/common/convmatrix.c:97 ../plug-ins/common/displace.c:394
+#: ../plug-ins/common/edge.c:716 ../plug-ins/common/ripple.c:560
+msgid "_Wrap"
+msgstr "ལོག་མཚམས་(_W)"
+
+#: ../plug-ins/common/convmatrix.c:98
+msgid "Cro_p"
+msgstr "བཏོག་བཅོས།(_p)"
+
+#: ../plug-ins/common/convmatrix.c:195
+msgid "_Convolution Matrix..."
+msgstr "གཅུས་སྒྲིམ་མེ་ཊིཀསི་...(_C)"
+
+#: ../plug-ins/common/convmatrix.c:229
+msgid "Convolution Matrix does not work on layers smaller than 3 pixels."
+msgstr "པིག་སེལ་ ༣་ལས་ཆུང་མི་བང་རིམ་ཚུ་ལུ་གཅུས་རིམ་མེ་ཊིཀསི་གིས་ལཱ་འབད་མི་བཏུབ།"
+
+#: ../plug-ins/common/convmatrix.c:302
+msgid "Applying convolution"
+msgstr "གཅུས་སྒྲིམ་འཇུག་སྤྱོད་འབད་དོ།"
+
+#: ../plug-ins/common/convmatrix.c:877
+msgid "Convolution Matrix"
+msgstr "གཅུས་སྒྲིམ་མེ་ཊིཀསི།"
+
+#: ../plug-ins/common/convmatrix.c:902
+msgid "Matrix"
+msgstr "མེ་ཊིཀསི།"
+
+#: ../plug-ins/common/convmatrix.c:936
+msgid "D_ivisor:"
+msgstr "བགོ་བྱེད་:(_i)"
+
+#: ../plug-ins/common/convmatrix.c:957 ../plug-ins/common/depthmerge.c:748
+#: ../plug-ins/common/raw.c:972
+msgid "O_ffset:"
+msgstr "པར་ལེན་:(_f)"
+
+#: ../plug-ins/common/convmatrix.c:983
+msgid "A_utomatic"
+msgstr "རང་བཞིན་གྱི་(_u)"
+
+#: ../plug-ins/common/convmatrix.c:992
+msgid "A_lpha-weighting"
+msgstr "ཨཱལ་ཕ་-ལྗིད་ཚད་འཇལ་ནི་(_l)"
+
+#: ../plug-ins/common/convmatrix.c:1008
+msgid "Border"
+msgstr "མཐའ་མཚམས།"
+
+#: ../plug-ins/common/convmatrix.c:1032
+msgid "Channels"
+msgstr "རྒྱུ་ལམ་ཚུ།"
+
+#: ../plug-ins/common/csource.c:108
+msgid "C source code"
+msgstr "སི་ འབྱུང་ཁུངས་ཨང་རྟགས།"
+
+#: ../plug-ins/common/csource.c:635
+msgid "Save as C-Source"
+msgstr "སི་ འབྱུང་ཁུངས་སྦེ་སྲུངས་(_S)"
+
+#: ../plug-ins/common/csource.c:659
+msgid "_Prefixed name:"
+msgstr "སྔོན་ཚིག་འབད་ཡོད་པའི་མིང་:(_P)"
+
+#: ../plug-ins/common/csource.c:668
+msgid "Co_mment:"
+msgstr "བསམ་བཀོད་:(_m)"
+
+#. Use Comment
+#.
+#: ../plug-ins/common/csource.c:675
+msgid "_Save comment to file"
+msgstr "ཡིག་སྣོད་ལུ་བསམ་བཀོད་སྲུངས་(_S)"
+
+#. GLib types
+#.
+#: ../plug-ins/common/csource.c:687
+msgid "_Use GLib types (guint8*)"
+msgstr "ཇི་ལིབ་དབྱེ་བ་ཚུ་ (guint8*)ལག་ལེན་འཐབ་(_U)"
+
+#. Use Macros
+#.
+#: ../plug-ins/common/csource.c:699
+msgid "Us_e macros instead of struct"
+msgstr "སི་ཊཀ་གི་ཚབ་ལུ་མེཀ་ཀོརོསི་ལག་ལེན་འཐབ་(_e)"
+
+#. Use RLE
+#.
+#: ../plug-ins/common/csource.c:711
+msgid "Use _1 byte Run-Length-Encoding"
+msgstr "(_༡)བའིཊི་གཡོག་བཀོལ་-རིང་ཚད་-ཨིན་ཀོ་ཌིང་ ལག་ལེན་འཐབ།"
+
+#. Alpha
+#.
+#: ../plug-ins/common/csource.c:723
+msgid "Sa_ve alpha channel (RGBA/RGB)"
+msgstr "ཨཱལ་ཕ་རྒྱུ་ལམ་(ཨར་ཇི་བི་ཨེ་/ཨར་ཇི་བི་)སྲུངས་(_v)"
+
+#: ../plug-ins/common/csource.c:741 ../plug-ins/common/sparkle.c:427
+msgid "Op_acity:"
+msgstr "དྭངས་སྒྲིབ་:(_a)"
+
+#: ../plug-ins/common/cubism.c:156
+msgid "_Cubism..."
+msgstr "རྡོག་གཟུགས་རི་མོ་...(_C)"
+
+#: ../plug-ins/common/cubism.c:269
+msgid "Cubism"
+msgstr "རྡོག་གཟུགས་རི་མོ།"
+
+#: ../plug-ins/common/cubism.c:298
+msgid "_Tile size:"
+msgstr "ཊ་ཡིལ་གྱི་ཚད་:(_T)"
+
+#: ../plug-ins/common/cubism.c:311
+msgid "T_ile saturation:"
+msgstr "ཊ་ཡིལ་མཐའ་ཚད་:(_i)"
+
+#: ../plug-ins/common/cubism.c:322
+msgid "_Use background color"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་ལག་ལེན་འཐབ།"
+
+#: ../plug-ins/common/cubism.c:412
+msgid "Cubistic Transformation..."
+msgstr "རྡོག་གཟུགས་རི་མོ་ཅན་གྱི་བཟོ་བསྒྱུར..."
+
+#: ../plug-ins/common/curve_bend.c:567
+msgid "_Curve Bend..."
+msgstr "གུག་གུགཔ་བཀུག་...(_C)"
+
+#: ../plug-ins/common/curve_bend.c:703
+msgid "Can operate on layers only (but was called on channel or mask)."
+msgstr ""
+"བང་རིམ་ཚུ་ལུ་རྐྱངམ་གཅིག་བཀོལ་སྤྱོད་འབད་བཏུབ་ (དེ་འབདཝ་ད་རྒྱུ་ལམ་ ཡང་ཅིན་ གདོང་ཁེབས་ལུ་བོད་བརྡ་འབད་"
+"ནུག་)"
+
+#: ../plug-ins/common/curve_bend.c:721
+msgid "Cannot operate on layers with masks."
+msgstr "གདོང་ཁེབས་ཚུ་དང་མཉམ་བང་རིམ་ཚུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
+
+#: ../plug-ins/common/curve_bend.c:736
+msgid "Cannot operate on empty selections."
+msgstr "སེལ་འཐུ་སྟོངམ་ཚུ་ལུ་བཀོལ་སྤྱོད་འབད་མི་བཏུབ།"
+
+#. Possibly retrieve data from a previous run
+#. The shell and main vbox
+#: ../plug-ins/common/curve_bend.c:1239
+msgid "Curve Bend"
+msgstr "གུག་གུགཔ་བཀུག"
+
+#. Preview area, top of column
+#: ../plug-ins/common/curve_bend.c:1268
+#: ../plug-ins/gimpressionist/orientmap.c:567
+#: ../plug-ins/gimpressionist/sizemap.c:437
+msgid "Preview"
+msgstr "སྔོན་ལྟ།"
+
+#. The preview button
+#: ../plug-ins/common/curve_bend.c:1297
+msgid "_Preview once"
+msgstr "ཚར་གཅིག་ཞིབ་ལྟ་འབད་ (_P)"
+
+#. The preview toggle
+#: ../plug-ins/common/curve_bend.c:1306
+msgid "Automatic pre_view"
+msgstr "རང་བཞིན་གྱི་ཞིབ་ལྟ་(_v)"
+
+#. Options area, bottom of column
+#. the vertical box and its toggle buttons
+#. Options section
+#: ../plug-ins/common/curve_bend.c:1316 ../plug-ins/common/mosaic.c:529
+#: ../plug-ins/common/ripple.c:501 ../plug-ins/gfig/gfig-dialog.c:1209
+msgid "Options"
+msgstr "གདམ་ཁ་ཚུ།"
+
+#. Rotate spinbutton
+#: ../plug-ins/common/curve_bend.c:1330
+msgid "Rotat_e:"
+msgstr "བསྒྱིར་:(_e)"
+
+#. The smoothing toggle
+#: ../plug-ins/common/curve_bend.c:1348
+msgid "Smoo_thing"
+msgstr "ཧུམ་ཆ་བཟོ་བ་(_t)"
+
+#. The antialiasing toggle
+#: ../plug-ins/common/curve_bend.c:1358 ../plug-ins/common/gqbist.c:821
+#: ../plug-ins/common/mosaic.c:535 ../plug-ins/common/ripple.c:510
+msgid "_Antialiasing"
+msgstr "ཨེན་ཊི་ཨེ་ལའིསིང་(_A)"
+
+#. The work_on_copy toggle
+#: ../plug-ins/common/curve_bend.c:1368
+msgid "Work on cop_y"
+msgstr "འདྲ་བཤུས་གུ་ལུ་ལཱ་འབད་(_y)"
+
+#. The curves graph
+#: ../plug-ins/common/curve_bend.c:1378
+msgid "Modify Curves"
+msgstr "གུག་གུགཔ་ཚུ་ལེགས་བཅོས་བཟོ།"
+
+#: ../plug-ins/common/curve_bend.c:1406
+msgid "Curve for Border"
+msgstr "མཐའ་མཚམས་ཀྱི་དོན་ལུ་གུག་གུགཔ།"
+
+#: ../plug-ins/common/curve_bend.c:1410
+msgid "_Upper"
+msgstr "ཡར་གྱི་(_U)"
+
+#: ../plug-ins/common/curve_bend.c:1411
+msgid "_Lower"
+msgstr "མར་གྱི་(_L)"
+
+#: ../plug-ins/common/curve_bend.c:1421
+msgid "Curve Type"
+msgstr "གུག་གུགཔ་གི་དབྱེ་བ།"
+
+#: ../plug-ins/common/curve_bend.c:1425
+msgid "Smoot_h"
+msgstr "ཧུམ་ཆ་(_h)"
+
+#: ../plug-ins/common/curve_bend.c:1426
+msgid "_Free"
+msgstr "དལཝ་(_F)"
+
+#. The Copy button
+#: ../plug-ins/common/curve_bend.c:1441
+msgid "_Copy"
+msgstr "འདྲ་བཤུས་(_C)"
+
+#: ../plug-ins/common/curve_bend.c:1446
+msgid "Copy the active curve to the other border"
+msgstr "གཞན་མི་མཐའ་མཚམས་འདི་ལུ་ཤུགས་ལྡན་གུག་གུགཔ་འདྲ་བཤུས་རྐྱབས།"
+
+#. The CopyInv button
+#: ../plug-ins/common/curve_bend.c:1453
+msgid "_Mirror"
+msgstr "ངོ་འཆར་(_M)"
+
+#: ../plug-ins/common/curve_bend.c:1458
+msgid "Mirror the active curve to the other border"
+msgstr "མཐའ་མཚམས་གཞན་མི་འདི་ལུ་ཤུགས་ལྡན་གུག་གུགཔ་གི་ངོ་འཆར་བཟོ།"
+
+#. The Swap button
+#: ../plug-ins/common/curve_bend.c:1466
+msgid "S_wap"
+msgstr "བརྗེ་སོར་(_W)"
+
+#: ../plug-ins/common/curve_bend.c:1471
+msgid "Swap the two curves"
+msgstr "གུག་གུགཔ་གཉིས་བརྗེ་སོར་འབད།"
+
+#: ../plug-ins/common/curve_bend.c:1483
+msgid "Reset the active curve"
+msgstr "ཤུགས་ལྡན་གུག་གུགཔ་འདི་སླར་སྒྲིག་འབད།"
+
+#: ../plug-ins/common/curve_bend.c:1500
+msgid "Load the curves from a file"
+msgstr "ཡིག་སྣོད་ལས་གུག་གུགཔ་ཚུ་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/common/curve_bend.c:1512
+msgid "Save the curves to a file"
+msgstr "ཡིག་སྣོད་ལུ་གུག་གུགཔ་ཚུ་སྲུངས།"
+
+#: ../plug-ins/common/curve_bend.c:2047
+msgid "Load Curve Points from file"
+msgstr "ཡིག་སྣོད་ལས་ གུག་གུགཔ་གི་ས་ཚིགས་ཚུ་མངོན་གསལ་འབད།"
+
+#: ../plug-ins/common/curve_bend.c:2074
+msgid "Save Curve Points to file"
+msgstr "ཡིག་སྣོད་ལུ་ གུག་གུགཔ་གི་ས་ཚིགས་ཚུ་སྲུངས་བཞག་འབད།"
+
+#: ../plug-ins/common/curve_bend.c:2941
+msgid "Curve Bend..."
+msgstr "གུག་གུགཔ་བཀུག་..."
+
+#: ../plug-ins/common/decompose.c:130 ../plug-ins/common/decompose.c:133
+#: ../plug-ins/common/decompose.c:135
+msgid "red"
+msgstr "དམརཔོ།"
+
+#: ../plug-ins/common/decompose.c:131 ../plug-ins/common/decompose.c:134
+#: ../plug-ins/common/decompose.c:136
+msgid "green"
+msgstr "ཧོནམ།"
+
+#: ../plug-ins/common/decompose.c:132 ../plug-ins/common/decompose.c:137
+#: ../plug-ins/common/decompose.c:139
+msgid "blue"
+msgstr "ལྗང་ཁུ།"
+
+#: ../plug-ins/common/decompose.c:138 ../plug-ins/common/decompose.c:159
+msgid "alpha"
+msgstr "ཨཱལ་ཕ།"
+
+#: ../plug-ins/common/decompose.c:140 ../plug-ins/common/decompose.c:143
+msgid "hue"
+msgstr "ཚོན་མདངས།"
+
+#: ../plug-ins/common/decompose.c:141 ../plug-ins/common/decompose.c:144
+msgid "saturation"
+msgstr "མཐའ་ཚད།"
+
+#: ../plug-ins/common/decompose.c:142 ../plug-ins/common/decompose.c:145
+msgid "value"
+msgstr "གནས་གོང་།"
+
+#: ../plug-ins/common/decompose.c:146 ../plug-ins/common/decompose.c:149
+msgid "cyan"
+msgstr "སྔོ་ལྗང་།"
+
+#: ../plug-ins/common/decompose.c:147 ../plug-ins/common/decompose.c:150
+msgid "magenta"
+msgstr "དམར་སྨུག"
+
+#: ../plug-ins/common/decompose.c:148 ../plug-ins/common/decompose.c:151
+msgid "yellow"
+msgstr "སེརཔོ།"
+
+#: ../plug-ins/common/decompose.c:149
+msgid "Cyan"
+msgstr "སྔོ་ལྗང་།"
+
+#: ../plug-ins/common/decompose.c:150
+msgid "Magenta"
+msgstr "དམར་སྨུག"
+
+#: ../plug-ins/common/decompose.c:151
+msgid "Yellow"
+msgstr "སེརཔོ་"
+
+#: ../plug-ins/common/decompose.c:152 ../plug-ins/common/decompose.c:156
+msgid "cyan_k"
+msgstr "སྔོ་ལྗང་་ཀེ(_k)"
+
+#: ../plug-ins/common/decompose.c:153 ../plug-ins/common/decompose.c:157
+msgid "magenta_k"
+msgstr "དམར་སྨུག་ ཀེ(_k)"
+
+#: ../plug-ins/common/decompose.c:154 ../plug-ins/common/decompose.c:158
+msgid "yellow_k"
+msgstr "སེརཔོ་(_k)"
+
+#: ../plug-ins/common/decompose.c:155
+msgid "black"
+msgstr "གནགཔོ་-k"
+
+#: ../plug-ins/common/decompose.c:156
+msgid "Cyan_K"
+msgstr "སྔོ་ལྗང་(_K)"
+
+#: ../plug-ins/common/decompose.c:157
+msgid "Magenta_K"
+msgstr "དམར་སྨུག་(_K)"
+
+#: ../plug-ins/common/decompose.c:158
+msgid "Yellow_K"
+msgstr "སེརཔོ་(_K)"
+
+#: ../plug-ins/common/decompose.c:159
+msgid "Alpha"
+msgstr "ཨཱལ་ཕ།"
+
+#: ../plug-ins/common/decompose.c:166
+msgid "luma_y470"
+msgstr "ལུ་མ་ ཝའི་༤༧༠(_y)"
+
+#: ../plug-ins/common/decompose.c:167
+msgid "blueness_cb470"
+msgstr "ཧོནམ་མདངས་ཅན་ སི་བི་༤༧༠(_c)"
+
+#: ../plug-ins/common/decompose.c:168
+msgid "redness_cr470"
+msgstr "དམར་མདངས་ཅན་ སི་ཨར་༤༧༠(_c)"
+
+#: ../plug-ins/common/decompose.c:170
+msgid "luma_y709"
+msgstr "ལུ་མ་-ཝའི་༧༠༩(_y)"
+
+#: ../plug-ins/common/decompose.c:171
+msgid "blueness_cb709"
+msgstr "ཧོནམ་གྱི་མདངས་ཅན་ སི་བི་༧༠༩(_c)"
+
+#: ../plug-ins/common/decompose.c:172
+msgid "redness_cr709"
+msgstr "དམར་མདངས་ཅན་ སི་ཨར་༧༠༩(_c)"
+
+#: ../plug-ins/common/decompose.c:174
+msgid "luma_y470f"
+msgstr "ལུ་མ་ ཝའི་༤༧༠ ཨེཕ།(_y)"
+
+#: ../plug-ins/common/decompose.c:175
+msgid "blueness_cb470f"
+msgstr "ཧོནམ་མདངས་ཅན་ སི་བི་༤༧༠ ཨེཕ།(_c)"
+
+#: ../plug-ins/common/decompose.c:176
+msgid "redness_cr470f"
+msgstr "དམར་མདངས་ཅན་ སི་ཨར་༤༧༠ ཨེཕ།(_c)"
+
+#: ../plug-ins/common/decompose.c:178
+msgid "luma_y709f"
+msgstr "ལུ་མ་ ཝའི་༧༠༩ ཨེཕ།(_y)"
+
+#: ../plug-ins/common/decompose.c:179
+msgid "blueness_cb709f"
+msgstr "ཧོནམ་མདངས་ཅན་ སི་བི་༧༠༩ ཨེཕ།(_c)"
+
+#: ../plug-ins/common/decompose.c:180
+msgid "redness_cr709f"
+msgstr "དམར་མདངས་ཅན་ སི་ཨར་༧༠༩ ཨེཕ།(_c)"
+
+#: ../plug-ins/common/decompose.c:245
+msgid "_Decompose..."
+msgstr "སོ་སོ་འཕྱལ་...(_D)"
+
+#: ../plug-ins/common/decompose.c:330
+msgid "Decomposing..."
+msgstr "སོ་སོ་འཕྱལ་དོ..."
+
+#: ../plug-ins/common/decompose.c:1199
+msgid "Decompose"
+msgstr "སོ་སོ་འཕྱལ།"
+
+#. parameter settings
+#: ../plug-ins/common/decompose.c:1215
+msgid "Extract Channels"
+msgstr "རྒྱུ་ལམ་ཚུ་ཕྱིར་འདོན་འབད།"
+
+#: ../plug-ins/common/decompose.c:1243
+msgid "Decompose to _layers"
+msgstr "བང་རིམ་ལུ་སོ་སོ་འཕྱལ་(_l)"
+
+#: ../plug-ins/common/deinterlace.c:99
+msgid "_Deinterlace..."
+msgstr "ལྷས་བཤོལ་འབད་...(_D)"
+
+#: ../plug-ins/common/deinterlace.c:156
+msgid "Deinterlace..."
+msgstr "ལྷས་བཤོལ་འབད་..."
+
+#: ../plug-ins/common/deinterlace.c:324
+msgid "Deinterlace"
+msgstr "ལྷས་བཤོལ་འབད།"
+
+#: ../plug-ins/common/deinterlace.c:349
+msgid "Keep o_dd fields"
+msgstr "ཡ་ཅན་ས་སྒོ་ཚུ་བཞག་(_d)"
+
+#: ../plug-ins/common/deinterlace.c:350
+msgid "Keep _even fields"
+msgstr "ཆ་ཅན་ས་སྒོ་ཚུ་བཞག་(_e)"
+
+#: ../plug-ins/common/depthmerge.c:192
+msgid "_Depth Merge..."
+msgstr "གཏིང་ཚད་མཉམ་བསྡོམས་འབད་ནི་...(_D)"
+
+#: ../plug-ins/common/depthmerge.c:382
+msgid "Depth-merging..."
+msgstr "གཏིང་ཚད་-མཉམ་བསྡོམས་འབད་ནི་..."
+
+#: ../plug-ins/common/depthmerge.c:631
+msgid "Depth Merge"
+msgstr "གཏིང་ཚད་མཉམ་བསྡོམས་འབད་ནི།"
+
+#: ../plug-ins/common/depthmerge.c:676
+msgid "Source 1:"
+msgstr "འབྱུང་ཁུངས་ ༡:"
+
+#: ../plug-ins/common/depthmerge.c:691 ../plug-ins/common/depthmerge.c:721
+msgid "Depth map:"
+msgstr "གཏིང་ཚད་ས་ཁྲ་:"
+
+#: ../plug-ins/common/depthmerge.c:706
+msgid "Source 2:"
+msgstr "འབྱུང་ཁུངས་ ༢:"
+
+#: ../plug-ins/common/depthmerge.c:738
+msgid "O_verlap:"
+msgstr "མཐའ་མནོན་ནི་:(_v)"
+
+#: ../plug-ins/common/depthmerge.c:758
+msgid "Sc_ale 1:"
+msgstr "ཚད་ཤིང་ ༡:(_a)"
+
+#: ../plug-ins/common/depthmerge.c:768
+msgid "Sca_le 2:"
+msgstr "ཚད་ཤིང་ ༢:(_l)"
+
+#: ../plug-ins/common/despeckle.c:177
+msgid "Des_peckle..."
+msgstr "སྐྱོན་མེད་བཟོ་...(_p)"
+
+#: ../plug-ins/common/despeckle.c:418 ../plug-ins/common/despeckle.c:640
+msgid "Despeckle"
+msgstr "སྐྱོན་མེད་བཟོ།"
+
+#.
+#. * Filter type controls...
+#.
+#: ../plug-ins/common/despeckle.c:444
+#: ../plug-ins/gimpressionist/orientmap.c:616
+msgid "Type"
+msgstr "དབྱེ་བ་།"
+
+#. parameter settings
+#: ../plug-ins/common/despeckle.c:454
+msgid "Median"
+msgstr "གུང་ཐིག"
+
+#: ../plug-ins/common/despeckle.c:460
+msgid "_Adaptive"
+msgstr "མཐུན་ཅན་(_A)"
+
+#: ../plug-ins/common/despeckle.c:470
+msgid "R_ecursive"
+msgstr "ལོག་རིམ་(_e)"
+
+#: ../plug-ins/common/despeckle.c:494 ../plug-ins/common/neon.c:727
+#: ../plug-ins/common/nlfilt.c:1083 ../plug-ins/common/nova.c:359
+#: ../plug-ins/common/unsharp.c:665 ../plug-ins/common/whirlpinch.c:588
+#: ../plug-ins/gflare/gflare.c:2686 ../plug-ins/imagemap/imap_circle.c:278
+msgid "_Radius:"
+msgstr "མཐའ་འཁོར་:(_R)"
+
+#: ../plug-ins/common/despeckle.c:510
+msgid "_Black level:"
+msgstr "གནས་གོང་གནགཔོ་:(_B)"
+
+#: ../plug-ins/common/despeckle.c:526
+msgid "_White level:"
+msgstr "གནས་གོང་དཀརཔོ་:(_W)"
+
+#: ../plug-ins/common/destripe.c:113
+msgid "Des_tripe..."
+msgstr "ཐིག་རིས་ནར་མོ་མེདཔ་...(_t)"
+
+#: ../plug-ins/common/destripe.c:276
+msgid "Destriping..."
+msgstr "ཐིག་རིས་ནར་མོ་བཟོ་དོ..."
+
+#: ../plug-ins/common/destripe.c:442
+msgid "Destripe"
+msgstr "ཐིག་རིས་ནར་མོ་མེདཔ།"
+
+#: ../plug-ins/common/destripe.c:469 ../plug-ins/common/gtm.c:578
+#: ../plug-ins/common/postscript.c:2967 ../plug-ins/common/postscript.c:3128
+#: ../plug-ins/common/raw.c:985 ../plug-ins/common/smooth_palette.c:429
+#: ../plug-ins/common/tile.c:417 ../plug-ins/imagemap/imap_cmd_guides.c:167
+#: ../plug-ins/imagemap/imap_rectangle.c:403
+msgid "_Width:"
+msgstr "རྒྱ་ཚད་:(_W)"
+
+#: ../plug-ins/common/destripe.c:480
+msgid "Create _histogram"
+msgstr "ཧིས་ཊོ་ག་རམ་གསར་བསྐྲུན་འབད་(_h)"
+
+#: ../plug-ins/common/dicom.c:134
+msgid "DICOM image"
+msgstr "ཌི་ཨའི་སི་ཨོ་ཨེམ་ གཟུགས་བརྙན།"
+
+#: ../plug-ins/common/dicom.c:159
+msgid "Digital Imaging and Communications in Medicine image"
+msgstr "ཌི་ཇི་ཊཱལ་གཟུགས་བརྙན་འབད་ནི་དང་སྨན་གྱི་གཟུགས་བརྙན་ནང་བརྡ་དོན་ཚུ།"
+
+#: ../plug-ins/common/dicom.c:318
+#, c-format
+msgid "'%s' is not a DICOM file."
+msgstr "'%s' འདི་ཌི་ཨའི་སི་ཨོ་ཨེམ་ ཡིག་སྣོད་མེན།"
+
+#: ../plug-ins/common/diffraction.c:177
+msgid "_Diffraction Patterns..."
+msgstr "འཁྱོག་འཕྲོ་དཔེ་གཞི་ཚུ་...(_D)"
+
+#: ../plug-ins/common/diffraction.c:334
+msgid "Creating diffraction pattern..."
+msgstr "འཁྱོག་འཕྲོའི་དཔེ་གཞི་གསར་བསྐྲུན་འབད་དོ..."
+
+#: ../plug-ins/common/diffraction.c:438
+msgid "Diffraction Patterns"
+msgstr "འཁྱོག་འཕྲོ་དཔེ་གཞི་ཚུ།"
+
+#: ../plug-ins/common/diffraction.c:524
+msgid "Frequencies"
+msgstr "འབྱུང་ཐེངས་ཚུ།"
+
+#: ../plug-ins/common/diffraction.c:562
+msgid "Contours"
+msgstr "བུར་གཞོང་ཚུ།"
+
+#: ../plug-ins/common/diffraction.c:600
+msgid "Sharp edges"
+msgstr "རྣོ་ཅན་གྱི་མཐའམ་ཚུ།"
+
+#: ../plug-ins/common/diffraction.c:612 ../plug-ins/common/softglow.c:673
+#: ../plug-ins/flame/flame.c:1037
+msgid "_Brightness:"
+msgstr "དཀར་མདངས་:(_B)"
+
+#: ../plug-ins/common/diffraction.c:621
+msgid "Sc_attering:"
+msgstr "ཁ་ཐོར་དོ་:(_a)"
+
+#: ../plug-ins/common/diffraction.c:630
+msgid "Po_larization:"
+msgstr "ཕྱོགས་གཅིག་ཏུ་འདུ་ཐབས་:(_l)"
+
+#: ../plug-ins/common/diffraction.c:638
+msgid "Other options"
+msgstr "གདམ་ཁ་གཞན་མི་ཚུ།"
+
+#: ../plug-ins/common/displace.c:154
+msgid "_Displace..."
+msgstr "གནས་སྤང་...(_D)"
+
+#: ../plug-ins/common/displace.c:231
+msgid "Displacing..."
+msgstr "གནས་སྤང་དོ..."
+
+#: ../plug-ins/common/displace.c:268
+msgid "Displace"
+msgstr "གནས་སྤང་།"
+
+#. X options
+#: ../plug-ins/common/displace.c:297
+msgid "_X displacement:"
+msgstr "ཨེཀསི་ གནས་སྤང་:(_X)"
+
+#. Y Options
+#: ../plug-ins/common/displace.c:344
+msgid "_Y displacement:"
+msgstr "ཝའི་ གནས་སྤང་:(_Y)"
+
+#: ../plug-ins/common/displace.c:390
+msgid "On Edges:"
+msgstr "མཐའ་མའི་གུར:"
+
+#: ../plug-ins/common/displace.c:396 ../plug-ins/common/edge.c:729
+#: ../plug-ins/common/ripple.c:561 ../plug-ins/common/waves.c:274
+msgid "_Smear"
+msgstr "བྱུག་པ་(_S)"
+
+#: ../plug-ins/common/displace.c:398 ../plug-ins/common/edge.c:742
+#: ../plug-ins/common/fractaltrace.c:735 ../plug-ins/common/newsprint.c:405
+#: ../plug-ins/common/ripple.c:562
+msgid "_Black"
+msgstr "གནགཔོ་(_B)"
+
+#: ../plug-ins/common/dog.c:139
+msgid "Difference of Gaussians..."
+msgstr "གོ་ཤི་ཡཱནསི་གི་ཁྱད་པར་..."
+
+#: ../plug-ins/common/dog.c:227 ../plug-ins/common/dog.c:274
+msgid "DoG Edge Detect"
+msgstr "ཌི་ཨོ་ཇི་མཐའམ་སྐྱོན་འཛིན་ནི།"
+
+#: ../plug-ins/common/dog.c:295
+msgid "Smoothing parameters"
+msgstr "ཚད་བཟུང་ཚུ་ཧུམ་ཁྱུག་ཁྱུག"
+
+#: ../plug-ins/common/dog.c:309
+msgid "_Radius 1:"
+msgstr "མཐའ་འཁོར་ ༡:(_R)"
+
+#: ../plug-ins/common/dog.c:313
+msgid "R_adius 2:"
+msgstr "མཐའ་འཁོར་ ༢:(_a)"
+
+#: ../plug-ins/common/dog.c:325 ../plug-ins/common/normalize.c:88
+msgid "_Normalize"
+msgstr "སྤྱིར་བཏང་བཟོ་བ་(_N)"
+
+#: ../plug-ins/common/dog.c:336 ../plug-ins/gimpressionist/paper.c:149
+msgid "_Invert"
+msgstr "གནས་ལོག་འབད་(_I)"
+
+#: ../plug-ins/common/edge.c:162
+msgid "_Edge..."
+msgstr "མཐའམ་...(_E)"
+
+#: ../plug-ins/common/edge.c:234
+msgid "Edge Detection..."
+msgstr "མཐའམ་གི་སྐྱོན་འཛིན..."
+
+#: ../plug-ins/common/edge.c:648
+msgid "Edge Detection"
+msgstr "མཐའམ་སྐྱོན་འཛིན།"
+
+#: ../plug-ins/common/edge.c:675
+msgid "Sobel"
+msgstr "སོ་བེལ།"
+
+#: ../plug-ins/common/edge.c:676
+msgid "Prewitt"
+msgstr "པིརི་ཝིཊི།"
+
+#: ../plug-ins/common/edge.c:677 ../plug-ins/common/sinus.c:897
+msgid "Gradient"
+msgstr "སྟེགས་རིས།"
+
+#: ../plug-ins/common/edge.c:678
+msgid "Roberts"
+msgstr "རོ་བཱརཊས།"
+

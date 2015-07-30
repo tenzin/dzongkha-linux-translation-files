@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alleyoop.head.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-07 03:44+0000\n"
+"PO-Revision-Date: 2007-02-09 16:17+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/alleyoop.c:172
+msgid "Run Executable..."
+msgstr "ལག་ལེན་འཐབ་བཏུབ་གཡོག་བཀོལ..."
+
+#: ../src/alleyoop.c:186
+msgid ""
+"Enter the path to an executable and\n"
+"any arguments you wish to pass to it."
+msgstr ""
+"ལག་ལེན་འཐབ་བཏུབ་མི་ལུ་འགྲུལ་ལམ་འདི་དང་ \n"
+"ཁྱོད་ཀྱིས་སྒྲུབ་རྟགས་གང་རུང་བརྩི་སྤྲོད་དགོ་མནོཝ་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: ../src/alleyoop.c:287
+#, c-format
+msgid "Could not load `%s': %s"
+msgstr "`%s'མངོན་གསལ་འབད་མ་ཚུགས: %s"
+
+#: ../src/alleyoop.c:315
+msgid "Load Valgrind log..."
+msgstr "བཱལ་གིརིནཌི་དྲན་དེབ་མངོན་གསལ་འབད..."
+
+#: ../src/alleyoop.c:353
+#, c-format
+msgid ""
+"Could not save to `%s': %s\n"
+"Overwrite?"
+msgstr ""
+"`%s'ལུ་སྲུང་མ་ཚུགས: %s\n"
+"ཚབ་སྲུང་འབད་ག?"
+
+#: ../src/alleyoop.c:368
+#, c-format
+msgid "Could not save to `%s': %s"
+msgstr "`%s'ལུ་སྲུང་མ་ཚུགས: %s"
+
+#: ../src/alleyoop.c:414
+msgid "Save Valgrind log..."
+msgstr "བཱལ་གིརིནཌི་དྲན་དེབ་སྲུང་..."
+
+#. This string should be replaced with the name of the translator
+#: ../src/alleyoop.c:542
+msgid "Jeffrey Stedfast"
+msgstr "ཇེཕ་པིརི་སི་ཊིཌ་ཕསཊི་"
+
+#: ../src/alleyoop.c:552
+msgid "Alleyoop is a Valgrind front-end for the GNOME environment."
+msgstr "ཨེ་ལི་ཡོཔ་འདི་ ཇི་ནོམ་མཁའ་འཁོར་གྱི་དོན་ལུ་བཱལ་གིརིནཌི་གདོང་ཁའི་མཇུག་ཨིན།"
+
+#: ../src/alleyoop.c:564
+msgid "_Run"
+msgstr "གཡོག་བཀོལ། (_R)"
+
+#: ../src/alleyoop.c:566
+msgid "_Kill"
+msgstr "གསད། (_K)"
+
+#: ../src/alleyoop.c:586
+msgid "Suppressions"
+msgstr "མར་མནོན་འབད་ནི་"
+
+#: ../src/alleyoop.c:586
+msgid "View/Edit Suppressions"
+msgstr "མར་མནོན་མཐོང་སྣང་/ཞུན་དག་འབད་"
+
+#: ../src/alleyoop.c:617
+msgid "Tool"
+msgstr "ལག་ཆས་"
+
+#: ../src/alleyoop.c:632
+msgid "Run"
+msgstr "གཡོག་བཀོལ་"
+
+#: ../src/alleyoop.c:632
+msgid "Run Program"
+msgstr "ལས་རིམ་གཡོག་བཀོལ་"
+
+#: ../src/alleyoop.c:637
+msgid "Kill"
+msgstr "གསད་"
+
+#: ../src/alleyoop.c:637
+msgid "Kill Program"
+msgstr "ལས་རིམ་གསད་"
+
+#: ../src/alleyoop.c:640
+msgid "Open Log File"
+msgstr "དྲན་དེབ་ཡིག་སྣོད་ཁ་ཕྱེ་"
+
+#: ../src/alleyoop.c:642
+msgid "Save Log File"
+msgstr "དྲན་དེབ་ཡིག་སྣོད་སྲུང་"
+
+#: ../src/main.c:164
+msgid "Display help and quit"
+msgstr "གྲོགས་རམ་བཀྲམ་སྟོན་འབད་ནི་དང་སྤང་"
+
+#: ../src/main.c:165
+msgid "Display version and quit"
+msgstr "ཐོན་རིམ་བཀྲམ་སྟོན་འབད་ནི་དང་སྤང་"
+
+#: ../src/main.c:166
+msgid "Add <dir> to the list of directories to search for source files"
+msgstr "བྱུང་ཁུངས་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་ནི་ལུ་  <dir> ཁ་བྱང་ཐོ་དེབ་ཀྱི་ཐོ་ཡིག་ལུ་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/main.c:167
+msgid "Recursively add <dir> and all subdirectories to the list of directories to search for source files"
+msgstr "བྱུང་ཁུངས་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་འཚོལ་ཞིབ་འབད་ནི་ལུ་  ཁ་བྱང་ཐོ་དེབ་ཀྱི་ཐོ་ཡིག་ལུ་<dir> དང་ཡན་ལག་ཁ་བྱང་ཐོ་དེབ་ཆ་མཉམ་ལོག་རིམ་སྦེ་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/main.c:168
+msgid "Specify the default Valgrind tool to use"
+msgstr "ལག་ལེན་འཐབ་ནི་ལུ་  སྔོན་སྒྲིག་བཱལ་གིརིནཌི་ལག་ཆས་འདི་གསལ་བཀོད་འབད་"
+
+#: ../src/main.c:205
+msgid "Alleyoop"
+msgstr "ཨེ་ལི་ཡོཔ་"
+
+#: ../src/prefs.c:154
+msgid "Alleyoop Preferences"
+msgstr "ཨེ་ལི་ཡོཔ་དགའ་གདམ་ཚུ་"
+
+#: ../src/prefs.c:163
+msgid "Editor:"
+msgstr "ཞུན་དགཔ:"
+
+#: ../src/prefs.c:180
+msgid "Preview"
+msgstr "སྔོན་ལྟ་"
+
+#: ../src/prefs.c:193
+msgid "lines above and below the target line."
+msgstr "དམིགས་གཏད་གྲལ་ཐིག་གི་ལྟག་ལུ་དང་འོག་གི་གྲལ་ཐིག།"
+
+#: ../src/process.c:52
+#, c-format
+msgid "Failed to create pipe to '%s': %s"
+msgstr "'%s'ལུ་རྒྱུད་དུང་གསར་བསྐྲུན་འབད་མ་ཚུགས: %s"
+
+#: ../src/process.c:107
+#, c-format
+msgid "Failed to create child process '%s': %s"
+msgstr "'%s'ཆ་ལག་ལས་སྦྱོར་གསར་བསྐྲུན་འབད་མ་ཚུགས: %s"
+
+#: ../src/vgcachegrindprefs.c:194
+#, c-format
+msgid ""
+"Invalid syntax in settings '%s'.\n"
+"Please enter a value of the form \"<integer>,<integer>,<integer>\"."
+msgstr ""
+"'%s'སྒྲིག་སྟངས་ཚུ་ནང་ ནུས་ཅན་མེད་པའི་ཚིག་སྦྱོར།\n"
+"\"<integer>,<integer>,<integer>\"རྣམ་པའི་གནས་གོང་ཅིག་ཐོ་བཀོད་འབད།"
+
+#: ../src/vgcachegrindprefs.c:231
+msgid "Override default settings"
+msgstr "སྔོན་སྒྲིག་སྒྲིག་སྟངས་ཚུ་ཚབ་བཙུགས་"
+
+#: ../src/vgcachegrindprefs.c:241
+msgid "Enter <size>,<assoc>,<line_size>:"
+msgstr "<size>,<assoc>,<line_size>ཐོ་བཀོད་འབད:"
+
+#: ../src/vgcachegrindprefs.c:275
+msgid "Cachegrind"
+msgstr "ཀེ་ཆི་གིརིནཌི་"
+
+#: ../src/vgdefaultview.c:180
+msgid "Error contains"
+msgstr "འཛོལ་བ་ཡོདཔ་"
+
+#: ../src/vgdefaultview.c:181
+msgid "Function contains"
+msgstr "ལས་འགན་ཡོདཔ་"
+
+#: ../src/vgdefaultview.c:182
+msgid "Object contains"
+msgstr "དངོས་པོ་ཡོདཔ་"
+
+#: ../src/vgdefaultview.c:183
+msgid "Source filename contains"
+msgstr "བྱུང་ཁུངས་ཡིག་སྣོད་མིང་ཡོདཔ་"
+
+#: ../src/vgdefaultview.c:220
+#, c-format
+msgid "Invalid regular expression: '%s': %s"
+msgstr "ནུས་ཅན་མེད་པའི་དུས་རྒྱུན་གསལ་བརྗོད: '%s': %s"
+
+#. FIXME: we should really get this title from somewhere else?
+#: ../src/vgdefaultview.c:701
+msgid "Valgrind Suppression Rules"
+msgstr "བཱལ་གིརིནཌི་མར་མནོན་ནིའི་ལམ་ལུགས་ཚུ་"
+
+#. FIXME: we should really get this title from somewhere else?
+#: ../src/vgdefaultview.c:1042
+#: ../src/vgrule-list.c:131
+msgid "Valgrind Suppression"
+msgstr "བཱལ་གིརིནཌི་མར་མནོན་ནི་"
+
+#: ../src/vgdefaultview.c:1216
+msgid "Cu_t"
+msgstr "བཏོག། (_t)"
+
+#: ../src/vgdefaultview.c:1217
+msgid "_Copy"
+msgstr "འདྲ་བཤུས། (_C)"
+
+#: ../src/vgdefaultview.c:1218
+msgid "_Paste"
+msgstr "སྦྱར། (_P)"
+
+#: ../src/vgdefaultview.c:1220
+msgid "Suppress"
+msgstr "མར་མནོན་"
+
+#: ../src/vgdefaultview.c:1222
+msgid "Edit in GNU/Emacs"
+msgstr "ཇི་ཨེན་ཡུ་/ཨི་མེཀསི་ནང་ཞུན་དག་འབད་"
+
+#: ../src/vgdefaultview.c:1223
+msgid "Edit in XEmacs"
+msgstr "ཨེགསི་ཨི་མེཀསི་ནང་ཞུན་དག་འབད་"
+
+#: ../src/vgdefaultview.c:1224
+msgid "Edit in GVim"
+msgstr "ཇི་བིམ་ནང་ཞུན་དག་འབད་"
+
+#: ../src/vgdefaultview.c:1225
+msgid "Edit in Custom Editor"
+msgstr "སྲོལ་སྒྲིག་ཞུན་དགཔ་ནང་ཞུན་དག་འབད་"
+
+#: ../src/vggeneralprefs.c:165
+msgid "General"
+msgstr "ཡོངས་ཁྱབ་"
+
+#: ../src/vggeneralprefs.c:171
+msgid "Demangle c++ symbol names"
+msgstr "ཌི་མེན་གཱལ་ སི་++ བརྡ་མཚོན་པའི་མིང་ཚུ་"
+
+#: ../src/vggeneralprefs.c:179
+msgid "Show"
+msgstr "སྟོན་"
+
+#: ../src/vggeneralprefs.c:191
+msgid "callers in stack trace"
+msgstr "བརྩེགས་བཤུལ་ནང་འབོ་མི་"
+
+#: ../src/vggeneralprefs.c:198
+msgid "Stop showing errors if there are too many"
+msgstr "ལེ་ཤ་ཡོད་པ་ཅིན་འཛོལ་བ་ཚུ་མ་སྟོན་"
+
+#: ../src/vggeneralprefs.c:207
+msgid "Round malloc sizes to next word"
+msgstr "ཤུལ་མའི་མིང་ཚིག་ལུ་སྒོར་སྒོརམ་མེ་ལོཀ་ཚད་ཚུ་"
+
+#: ../src/vggeneralprefs.c:216
+msgid "Trace any child processes forked off by the program being debugged"
+msgstr "རྐྱེན་སེལ་འབད་ཡོད་པའི་ལས་རིམ་གྱིས་ཁ་སྤེལ་ཡོད་པའི་ཆ་ལག་ལས་སྦྱོར་གང་རུང་བཤུལ་འཚོལ་"
+
+#: ../src/vggeneralprefs.c:224
+msgid "Track open file descriptors"
+msgstr "རྗེས་འཚོལ་ཁ་ཕྱེའི་ཡིག་སྣོད་འགྲེལ་བཤད་པ་ཚུ་"
+
+#: ../src/vggeneralprefs.c:232
+msgid "Add time stamps to log messages"
+msgstr "འཕྲིན་དོན་ཚུ་དྲན་དེབ་ལུ་ དུས་བཀོད་ཚུ་ཁ་སྐོང་བརྐྱབ་"
+
+#: ../src/vggeneralprefs.c:240
+msgid "Call __libc_freeres() at exit before checking for memory leaks"
+msgstr "དྲན་ཚད་གསང་བ་མ་ཤོར་ནིའི་དོན་ལུ་ཞིབ་དཔྱད་མ་འབད་བའི་ཧེ་མ་  __ཨེལ་ཨའི་བི་སི་ཕིརི་རེསི་ཀཱལ། (_f)"
+
+#: ../src/vggeneralprefs.c:248
+msgid "Suppressions File:"
+msgstr "མར་མནོན་ཡིག་སྣོད:"
+
+#: ../src/vggeneralprefs.c:266
+msgid "Choose Valgrind Suppressions File..."
+msgstr "བཱལ་གིརིནཌི་མར་མནོན་པའི་ཡིག་སྣོད་གདམ་ཁ་བརྐྱབ..."
+
+#: ../src/vghelgrindprefs.c:162
+msgid "Helgrind"
+msgstr "ཧེལ་གིརིནཌི་"
+
+#: ../src/vghelgrindprefs.c:167
+msgid "Assume thread stacks are used privately"
+msgstr "ཐེ་རེཌི་འབད་ནིའི་བརྩེགས་ཕུང་ཚུ་གསང་བའི་ཐོག་ལས་ལག་ལེན་འཐབ་ཨིན་ཟེར་མནོ་དགོ་"
+
+#: ../src/vghelgrindprefs.c:176
+msgid "Show location of last word access on error:"
+msgstr "མཇུག་གི་མིང་ཚིང་འཛུལ་སྤྱོད་ཀྱི་གནས་ཁོངས་འདི་འཛོལ་བའི་གུ་སྟོན:"
+
+#: ../src/vgmemcheckprefs.c:186
+msgid "Memcheck"
+msgstr "མེམ་ཞིབ་དཔྱད་"
+
+#: ../src/vgmemcheckprefs.c:191
+msgid "Memory leaks"
+msgstr "དྲན་ཚད་གསང་བ་ཤོར་ནི་ཚུ་"
+
+#: ../src/vgmemcheckprefs.c:196
+msgid "Leak check:"
+msgstr "གསང་བཤོར་ཞིབ་དཔྱད:"
+
+#: ../src/vgmemcheckprefs.c:207
+msgid "Show reachable blocks in leak check"
+msgstr "གསང་བཤོར་ཞིབ་དཔྱད་ནང་བདའ་ཟུན་པའི་སྡེབ་ཚན་ཚུ་སྟོན་"
+
+#: ../src/vgmemcheckprefs.c:215
+msgid "Leak resolution:"
+msgstr "ཧུམ་ཆ་གསང་བཤོར:"
+
+#: ../src/vgmemcheckprefs.c:233
+msgid "Keep up to"
+msgstr "འཕྲོ་མཐུད་ད་"
+
+#: ../src/vgmemcheckprefs.c:245
+msgid "bytes in the queue after being free()'d"
+msgstr "རང་དབང་()'dཐོབ་པའི་ཤུལ་ལུ་  བཱའིཊིསི་མི་གྲལ་ནང་བཙུགས་"
+
+#: ../src/vgmemcheckprefs.c:252
+msgid "Work around bugs generated by gcc 2.96"
+msgstr "gcc 2.96གིས་བཟོ་བཏོན་འབད་བའི་རྐྱེན་གྱི་མཐའ་འཁོར་ལཱ་འབད་"
+
+#: ../src/vgmemcheckprefs.c:260
+msgid "Ignore errors produced by inline strlen() calls"
+msgstr "གྱལ་རིམ་ནང་ སི་ཊར་ལིན་ () བཀོད་རྒྱ་ཚུ་གིས་བཟོ་སྟོན་འབད་ཡོད་པའི་འཛོལ་བ་ཚུ་སྣང་མེད་བཞག་"
+
+#: ../src/vgrule-editor.c:130
+msgid "Function"
+msgstr "ལས་འགན་"
+
+#: ../src/vgrule-editor.c:135
+msgid "Shared Object"
+msgstr "རུབ་སྤྱོད་འབད་ཡོད་པའི་དངོས་པོ་"
+
+#: ../src/vgrule-editor.c:194
+msgid "Grow"
+msgstr "ཡར་བསྐྱེད་"
+
+#: ../src/vgrule-editor.c:198
+msgid "Shrink"
+msgstr "བསྐུམ་"
+
+#: ../src/vgrule-editor.c:224
+msgid "Rule name:"
+msgstr "མིང་ལམ་ལུགས:"
+
+#: ../src/vgrule-editor.c:234
+msgid "Suppress messages of type:"
+msgstr "དབྱེ་བའི་འཕྲིན་དོན་ཚུ་མར་མནོན་འབད:"
+
+#: ../src/vgrule-editor.c:244
+msgid "Suppress when using:"
+msgstr "ལག་ལེན་འཐབ་པའི་བསྒང་མར་མནོན་འབད:"
+
+#: ../src/vgrule-editor.c:257
+msgid "System call:"
+msgstr "རིམ་ལུགས་བཀོད་རྒྱ:"
+
+#: ../src/vgrule-editor.c:268
+msgid "Call chain:"
+msgstr "ཀཱལ་རྒྱུན་ཐག:"
+
+#: ../src/vgrule-editor.c:526
+#: ../src/vgrule-editor.c:541
+#, c-format
+msgid "Error saving to suppression file `%s': %s"
+msgstr "`%s'མར་མནོན་ཡིག་སྣོད་ལུ་སྲུང་བཞག་འབདཝ་ད་འཛོལ་བ: %s"
+
+#: ../src/vgrule-list.c:173
+#: ../src/vgrule-list.c:242
+msgid "You have forgotten to name your suppression rule."
+msgstr "ཁྱོད་ཀྱིས་ཁྱོད་རའི་མར་མནོན་ལམ་ལུགས་མིང་བཏགས་ནི་ལུ་བརྗེད་ཡོདཔ།"
+
+#: ../src/vgrule-list.c:402
+msgid "_Edit"
+msgstr "ཞུན་དག། (_E)"
+
+#: ../src/vgrule-list.c:647
+#, c-format
+msgid "Cannot save suppression rules: %s"
+msgstr "མར་མནོན་ལམ་ལུགས་ཚུ་སྲུང་མ་ཚུགས: %s"
+
+#: ../src/vgrule-list.c:649
+msgid "You have not set a suppressions file in your settings."
+msgstr "ཁྱོད་ཀྱིས་མར་མནོན་ཡིག་སྣོད་ཚུ་ ཁྱོད་རའི་སྒྲིག་སྟངས་ཚུ་ནང་གཞི་སྒྲིག་མ་འབད་བས།"
+

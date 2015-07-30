@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-scan.HEAD.dz.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-17 04:53+0100\n"
+"PO-Revision-Date: 2007-06-21 11:58+0530\n"
+"Last-Translator: yumkee lhamo <yumkeyl08@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: n plurals=2;plural=n(!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+
+#: ../lib/gnome-scan-acquisition-dialog.c:87
+#: ../lib/gnome-scan-acquisition-dialog.c:117
+msgid "Acquisition"
+msgstr "ཉོ་སྒྲུབ་"
+
+#. secondary text
+#: ../lib/gnome-scan-acquisition-dialog.c:122
+msgid "The software now acquire and process images according to the settings."
+msgstr "ད་འབདན་མཉེན་ཆས་འདི་གིས་སྒྲིག་སྟངས་དང་འཁྲིལ་ཏེ་གཟུགས་བརྙན་ཚུ་འཐོབ་པ་དང་ལས་སྦྱོར་འབད་ཨིན།"
+
+#: ../lib/gnome-scan-acquisition-dialog.c:137
+#: ../lib/gnome-scan-job.c:366
+msgid "Waiting for device"
+msgstr "ཐབས་འཕྲུལ་གྱི་དོན་ལུ་བསྒུག་སྡོད་དོ་"
+
+#: ../lib/gnome-scan-dialog.c:226
+msgid "Scan"
+msgstr "ཞིབ་ལྟ་འབད་ནི་"
+
+#. General
+#: ../lib/gnome-scan-dialog.c:275
+msgid "_General"
+msgstr "ཡོངས་ཁྱབ་(_G)"
+
+#. Preview
+#: ../lib/gnome-scan-dialog.c:283
+msgid "Pre_view"
+msgstr "སྔོན་ལྟ་(_v)"
+
+#. Advanced
+#: ../lib/gnome-scan-dialog.c:292
+msgid "_Advanced"
+msgstr "མཐོ་རིམ་(_A)"
+
+#. Processing
+#. label = gtk_label_new_with_mnemonic (_("P_rocessing"));
+#. priv->processing_box = gtk_vbox_new (FALSE, 6);
+#.
+#. scrolled = gtk_scrolled_window_new (NULL, NULL);
+#. gtk_container_set_border_width (GTK_CONTAINER (scrolled), 12);
+#. gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolled),
+#. GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
+#. gtk_scrolled_window_add_with_viewport (GTK_SCROLLED_WINDOW (scrolled),
+#. priv->processing_box);
+#.
+#. gtk_notebook_insert_page (GTK_NOTEBOOK (priv->notebook),
+#. scrolled, label,
+#. PAGE_PROCESSING);
+#. Sink
+#: ../lib/gnome-scan-dialog.c:315
+msgid "_Output"
+msgstr "ཨའུཊི་པུཊི་(_O)"
+
+#: ../lib/gnome-scan-dialog.c:490
+msgid "Unable to detect scanners !"
+msgstr "པར་ལེན་འཕྲུལ་ཆས་ཚུ་སྐྱོན་འཛིན་འབད་མི་ཚུགས་!"
+
+#: ../lib/gnome-scan-dialog.c:491
+msgid "No drivers has been found."
+msgstr "འདྲེན་བྱེད་ཚུ་འཚོལ་མ་ཐོབ།"
+
+#: ../lib/gnome-scan-dialog.c:497
+#: ../lib/gnome-scan-dialog.c:877
+msgid "No device found !"
+msgstr "ཐབས་འཕྲུལ་འཚོལ་མ་ཐོབ་ཡ་  "
+
+#: ../lib/gnome-scan-dialog.c:498
+msgid "Ensure your device is plugged, powered, supported and configured.The dialog will run until you plug a scanner or cancel."
+msgstr "ཁྱོད་རའི་ཐབས་འཕྲུལ་འདི་ བཙུགས་ཡོདཔ་ ནུས་ཤུགས་ཡོདཔ་ རྒྱབ་སྐྱོར་ཡོདཔ་ དང་ རིམ་སྒྲིག་འབད་ཡོདཔ་ངེས་གཏན་བཟོ། ཁྱོད་ཀྱིས་ཞིབ་ལྟ་གཅིག་མ་བཙུགས་ཚུན་ ཡང་ན ཆ་མེད་མ་གཏང་ཚུན་ ཌའི་ལོག་འདི་གཡོག་བཀོལ་སྡོད་འོང་།"
+
+#: ../lib/gnome-scan-dialog.c:637
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../lib/gnome-scan-dialog.c:878
+msgid "Ensure your device is plugged, powered, supported and configured."
+msgstr "ཁྱོད་རའི་ཐབས་འཕྲུལ་འདི་ བཙུགས་ཡོདཔ་ ནུས་ཤུགས་ཡོདཔ་ རྒྱབ་སྐྱོར་ཡོདཔ་ དང་ རིམ་སྒྲིག་འབད་ཡོདཔ་ངེས་གཏན་བཟོ།"
+
+#: ../lib/gnome-scan-dialog.c:911
+msgid "Scanner"
+msgstr "པར་ལེན་འཕྲུལ་ཆས་"
+
+#: ../lib/gnome-scan-dialog.c:918
+msgid "Status"
+msgstr "གནས་ཚད་"
+
+#: ../lib/gnome-scan-dialog.c:1338
+msgid "Acquiring Preview"
+msgstr "སྔོན་སྟོན་འཐོབ་དོ་"
+
+#: ../lib/gnome-scan-dialog.c:1343
+msgid "The software preview acquisition and processing."
+msgstr "མཉེན་ཆས་འདི་གིས་ཐོབ་པ་དང་ལས་སྦྱོར་བ་ཚུ་སྔོན་ལྟ་འབདཝ་ཨིན།"
+
+#: ../lib/gnome-scan-dialog.c:1353
+msgid "Inactive"
+msgstr "ཤུགས་མེད་"
+
+#: ../lib/gnome-scan-init.c:41
+msgid "_Scan"
+msgstr "ཞིབ་ལྟ་འབད་ནི་"
+
+#: ../lib/gnome-scan-job.c:319
+msgid "Configuring"
+msgstr "རིམ་སྒྲིག་འབད་དོ་"
+
+#: ../lib/gnome-scan-job.c:354
+msgid "Job completed"
+msgstr "ལས་གཡོག་མཇུག་བསྡུ་ཡོདཔ་"
+
+#: ../lib/gnome-scan-job.c:372
+msgid "Acquiring from scanner"
+msgstr "པར་ལེན་འཕྲུལ་ཆས་ལས་འཐོབ་དོ་"
+
+#: ../lib/gnome-scan-job.c:390
+msgid "Outputing page"
+msgstr "ཨའུཊི་པུ་ཊིང་ཤོག་ལེབ་"
+
+#: ../lib/gnome-scanner.c:271
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../lib/gnome-scanner.c:272
+msgid "Ready"
+msgstr "གྲ་སྒྲིག་"
+
+#: ../lib/gnome-scanner.c:273
+msgid "Busy"
+msgstr "ཁོམ་མེད་"
+
+#: ../lib/gnome-scan-paper-size-widget.c:74
+#, c-format
+msgid "%.0f x %.0f mm"
+msgstr "%.0f x %.0f mm"
+
+#: ../lib/gnome-scan-paper-size-widget.c:129
+msgid "Manual"
+msgstr "ལག་ཐོག་"
+
+#. groups
+#: ../lib/gnome-scan-param-specs.c:62
+msgid "Scan options"
+msgstr "ཞིབ་ལྟ་འབད་ནིའི་གདམ་ཁ་ཚུ་"
+
+#: ../lib/gnome-scan-param-specs.c:63
+msgid "Format"
+msgstr "རྩ་སྒྲིག་"
+
+#: ../lib/gnome-scan-param-specs.c:64
+msgid "Output options"
+msgstr "ཨའུཊི་པུ་ཊི་གི་གདམ་ཁ་ཚུ་"
+
+#: ../lib/gnome-scan-param-specs.c:65
+#: ../plugins/gsfile-filenames-widget.c:107
+msgid "Preview"
+msgstr "སྔོན་ལྟ་"
+
+#: ../lib/gnome-scan-param-specs.c:66
+msgid "Hidden"
+msgstr "གསང་བ་"
+
+#: ../lib/gnome-scan-param-widget.c:104
+msgid "px"
+msgstr "པི་ཨེགསི་"
+
+#: ../lib/gnome-scan-param-widget.c:107
+msgid "bit"
+msgstr "བི་ཊི་"
+
+#: ../lib/gnome-scan-param-widget.c:110
+msgid "mm"
+msgstr "ཨེམ་ཨེམ་"
+
+#: ../lib/gnome-scan-param-widget.c:113
+msgid "dpi"
+msgstr "ཌི་པི་ཨཱེ་"
+
+#: ../lib/gnome-scan-param-widget.c:116
+msgid "%"
+msgstr "%"
+
+#: ../lib/gnome-scan-param-widget.c:119
+msgid "ms"
+msgstr "མི་ལི་སྐར་ཆ་"
+
+#: ../lib/gnome-scan-preview-plugins.c:223
+msgid "Select all"
+msgstr "ཆ་མཉམ་སེལ་འཐུ་འབད་"
+
+#: ../plugins/gsane-meta-param.c:262
+msgid "Scan Area"
+msgstr "ཞིབ་ལྟ་འབད་ནི་མངའ་ཁོངས་"
+
+#: ../plugins/gsane-meta-param.c:263
+msgid "Region of the scan window actually acquired"
+msgstr "ཐོབས་ཡོད་པའི་ཞིབ་ལྟའི་སྒོ་སྒྲིག་གི་མངའ་ཁོངས་"
+
+#. PAPER SIZE
+#: ../plugins/gsane-meta-param.c:278
+msgid "Paper Size"
+msgstr "ཤོག་ལེབ་ཀྱི་ཚད་"
+
+#: ../plugins/gsane-meta-param.c:279
+msgid "Document paper size."
+msgstr "ཡིག་ཆའི་ཤོག་ལེབ་ཀྱི་ཚད།"
+
+#. ORIENTATION
+#: ../plugins/gsane-meta-param.c:291
+msgid "Page Orientation"
+msgstr "ཤོག་ལེབ་ཀྱི་ཕྱོགས་"
+
+#: ../plugins/gsane-meta-param.c:291
+msgid "Page orientation"
+msgstr "ཤོག་ལེབ་ཀྱི་ཕྱོགས་"
+
+#. SANE 2 well known source option value
+#: ../plugins/gsane-meta-param.c:403
+msgid "Flatbed"
+msgstr "ཕེ་ལེཊི་བཱེཊི་"
+
+#: ../plugins/gsane-meta-param.c:404
+msgid "Automatic Document Feeder"
+msgstr "རང་བཞིན་ཡིག་ཆའི་ཤོག་ཀུ་བཙུགས་ནི་"
+
+#: ../plugins/gsane-meta-param.c:405
+msgid "Transparency Adapter"
+msgstr "དྭངས་གསལ་ཅན་གྱི་མཐུན་བྱེད་"
+
+#: ../plugins/gsfile-filenames-widget.c:114
+msgid "Filename"
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་"
+
+#: ../plugins/gsfile-filenames-widget.c:172
+msgid "Select files"
+msgstr "ཡིག་སྣོད་ཚུ་སེལ་འཐུ་འབད་"
+
+#: ../plugins/gsfile-filenames-widget.c:185
+msgid "Supported formats"
+msgstr "རྒྱབ་སྐྱོར་འབད་ཡོད་པའི་རྩ་སྒྲིག་ཚུ་"
+
+#: ../plugins/gsfile-scanner.c:73
+#: ../src/flegita-sink.c:79
+msgid "PNG picture"
+msgstr "པི་ཨེན་ཇི་པར་"
+
+#: ../plugins/gsfile-scanner.c:91
+msgid "JPEG picture"
+msgstr "ཇེ་པི་ཨི་ཇི་པར་"
+
+#: ../plugins/gsfile-scanner.c:96
+#: ../plugins/gsfile-scanner.c:136
+msgid "Files"
+msgstr "ཡིག་སྣོད་ཚུ་"
+
+#: ../plugins/gsfile-scanner.c:97
+msgid "Files to import."
+msgstr "ནང་འདྲེན་འབད་ནིའི་ཡིག་སྣོད་ཚུ།"
+
+#: ../plugins/gsfile-scanner.c:136
+#, c-format
+msgid "Files (%i)"
+msgstr "ཡིག་སྣོད་ཚུ་(%i)"
+
+#: ../plugins/gsfile-scanner.c:137
+msgid "Import from files."
+msgstr "ཡིག་སྣོད་ཚུ་ལས་ནང་འདྲེན་འབད།"
+
+#. directory
+#: ../src/flegita-output-filename-widget.c:79
+msgid "Select directory"
+msgstr "སྣོད་ཐོ་སེལ་འཐུ་འབད་"
+
+#: ../src/flegita-output-filename-widget.c:89
+msgid "Scanned image"
+msgstr "ཞིབ་ལྟ་འབད་ཡོད་པའི་གཟུགས་བརྙན་"
+
+#: ../src/flegita-sink.c:56
+msgid "PNG Options"
+msgstr "པི་ཨེན་ཇི་གི་གདམ་ཁ་ཚུ་"
+
+#: ../src/flegita-sink.c:84
+msgid "File"
+msgstr "ཡིག་སྣོད་"
+
+#: ../src/flegita-sink.c:85
+msgid "Output filename"
+msgstr "ཨའུཊི་པུཊི་གི་ཡིག་སྣོད་ཀྱི་མིང་་"
+
+#: ../src/flegita-sink.c:105
+msgid "PNG Compression Level"
+msgstr "པི་ཨེན་ཇི་ ཨེབ་བཙུགས་པའི་གནས་རིམ་"
+
+#: ../src/flegita-sink.c:143
+msgid "Write scanned image to file"
+msgstr "ཡིག་སྣོད་འང་ཞིབ་ལྟ་འབད་ཡོད་པའི་གཟུགས་བརྙན་བྲིས་་"
+

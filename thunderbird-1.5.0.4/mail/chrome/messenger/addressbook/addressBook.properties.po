@@ -1,0 +1,407 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Paul Hangas <hangas@netscape.com>
+#   Alec Flett <alecf@netscape.com>
+#   Seth Spitzer <sspitzer@netscape.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/mail/chrome/messenger/addressbook/addressBook.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: addressBook.properties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-04 14:46+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#
+# The following are used by the Mailing list dialog
+#
+#: emptyListName
+msgid "You must enter a list name."
+msgstr "ཁྱོད་ཀྱིས་ཐོ་ཡིག་གི་མིང་ཅིག་ ངེས་པར་བཙུགས་དགོ།"
+
+#: lastFirstFormat
+msgid "%S, %S"
+msgstr "%S, %S"
+
+#: firstLastFormat
+msgid "%S %S"
+msgstr "%S %S"
+
+#: newCardTitle
+msgid "New Card"
+msgstr "ཤོག་བྱང་གསརཔ་"
+
+# %S will be the card's display name
+#: newCardTitleWithDisplayName
+msgid "New Card for %S"
+msgstr " %Sགི་དོན་ལུ་ཤོག་བྱང་གསརཔ་"
+
+#: editCardTitle
+msgid "Edit Card"
+msgstr "ཤོག་བྱང་ཞུན་དག་རྐྱབས་"
+
+# %S will be the card's display name
+#: editCardTitleWithDisplayName
+msgid "Edit Card for %S"
+msgstr "%Sགི་དོན་ལུ་ཤོག་བྱང་ཞུན་དག་རྐྱབས་"
+
+# don't translate vCard
+#: editVCardTitle
+msgid "Edit vCard"
+msgstr "བརྙན་བྱང་ཞུན་དག་རྐྱབས་"
+
+# %S will be the card's display name, don't translate vCard
+#: editVCardTitleWithDisplayName
+msgid "Edit vCard for %S"
+msgstr "%Sགི་དོན་ལུ་བརྙན་བྱང་ཞུན་དག་རྐྱབས་"
+
+#: viewCardTitle
+msgid "Card for %S"
+msgstr "%Sགི་དོན་ལུ་ཤོག་བྱང་"
+
+#: viewListTitle
+msgid "Mailing List: %S"
+msgstr "ཡིག་འཕྲིན་ཐོ་ཡིག་:%S"
+
+#: mailListNameExistsTitle
+msgid "Mailing List Already Exists"
+msgstr "ཡིག་འཕྲིན་ཐོ་ཡིག་ཧེ་མ་ལས་ར་འདུག"
+
+#: mailListNameExistsMessage
+msgid "A Mailing List with that name already exists. Please choose a different name."
+msgstr "མིང་དེ་ཡོད་མི་ ཡིག་འཕྲིན་ཐོ་ཡིག་ཅིག་ ཧེ་མ་ལས་ར་འདུག། མིང་སོ་སོ་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+# used in the addressbook
+#: cannotDeleteTitle
+msgid "Delete Failed"
+msgstr "བཏོན་བཏང་མ་བཏུབ་"
+
+#: confirmDeleteMailingListTitle
+msgid "Delete Mailing List"
+msgstr "ཡིངག་འཕྲིན་ཐོ་ཡིག་བཏོན་གཏང་"
+
+#: confirmDeleteAddressbookTitle
+msgid "Delete Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་བཏོན་གཏང་"
+
+#: confirmDeleteAddressbook
+msgid "Are you sure you want to delete the selected address book?"
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཁ་བྱང་ཀི་དེབ་དེ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: confirmDeleteCollectionAddressbook
+msgid "If this address book is deleted, %S will no longer collect addresses. Are you sure you want to delete the selected address book?"
+msgstr "ཁ་བྱང་ཀི་དེབ་འདི་བཏོན་བཏང་པ་ཅིན་ དེ་ལས་ཕར་%Sདེ་གིས་ཁ་བྱང་ཚུ་ བསྡུ་ལེན་མི་འབད། ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཁ་བྱང་ཀི་དེབ་དེ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: confirmDeleteMailingList
+msgid "Are you sure you want to delete the selected mailing list?"
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཡིག་འཕྲིན་ཐོ་ཡིག་དེ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: confirmDeleteListsAndCards
+msgid "Are you sure you want to delete the selected cards and mailing lists?"
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཤོག་བྱང་དང་ཡིག་འཕྲིན་ཐོ་ཡིག་ཚུ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: confirmDeleteMailingLists
+msgid "Are you sure you want to delete the selected mailing lists?"
+msgstr "ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཡིག་འཕྲིན་ཐོ་ཡིག་ཚུ་ བཏོན་གཏང་ནི་ངེས་གཏན་ཨིན་ན?"
+
+#: propertyPrimaryEmail
+msgid "Email"
+msgstr "གློག་འཕྲིན་"
+
+#: propertyListName
+msgid "List Name"
+msgstr "ཐོ་ཡིག་གི་མིང་"
+
+#: propertySecondaryEmail
+msgid "Additional Email"
+msgstr "གློག་འཕྲིན་ཁ་སྐོང་"
+
+#: propertyScreenName
+msgid "Screen Name"
+msgstr "གསལ་གཞིའི་མིང་"
+
+#: propertyNickname
+msgid "Nickname"
+msgstr "སྐྱོན་མིང་"
+
+#: propertyDisplayName
+msgid "Display Name"
+msgstr "མིང་བཀྲམ་སྟོན་འབད་"
+
+#: propertyWork
+#: headingWork
+msgid "Work"
+msgstr "ལཱ་ས་"
+
+#: propertyHome
+#: headingHome
+msgid "Home"
+msgstr "ཁྱིམ་ནང་"
+
+#: propertyFax
+msgid "Fax"
+msgstr "དཔར་འཕྲིན་"
+
+#: propertyCellular
+msgid "Mobile"
+msgstr "འགྲུལ་འཕྲིན་"
+
+#: propertyPager
+msgid "Pager"
+msgstr "བརྡ་འཕྲུལ་"
+
+#: propertyCustom1
+msgid "Custom 1"
+msgstr "སྲོལ་སྒྲིག་༡།"
+
+#: propertyCustom2
+msgid "Custom 2"
+msgstr "སྲོལ་སྒྲིག་༢།"
+
+#: propertyCustom3
+msgid "Custom 3"
+msgstr "སྲོལ་སྒྲིག་༣།"
+
+#: propertyCustom4
+msgid "Custom 4"
+msgstr "སྲོལ་སྒྲིག་༤།"
+
+## LOCALIZATION NOTE (cityAndStateAndZip):
+## %1$S is city, %2$S is state, %3$S is zip
+#: cityAndStateAndZip
+msgid "%1$S, %2$S %3$S"
+msgstr "%1$S, %2$S %3$S"
+
+## LOCALIZATION NOTE (cityAndStateNoZip):
+## %1$S is city, %2$S is state
+#: cityAndStateNoZip
+msgid "%1$S, %2$S"
+msgstr "%1$S, %2$S"
+
+## LOCALIZATION NOTE (cityOrStateAndZip):
+## %1$S is city or state, %2$S is zip
+#: cityOrStateAndZip
+msgid "%1$S %2$S"
+msgstr "%1$S %2$S"
+
+#: cityStateSeparator
+msgid ","
+msgstr ","
+
+#: stateZipSeparator
+msgid "_: stateZipSeparator\n"
+msgstr ""
+
+#: prefixTo
+msgid "To"
+msgstr "གཏང་ཡུལ་"
+
+#: prefixCc
+msgid "Cc"
+msgstr "ཤོག་གནག་འདྲ་བཤུས་"
+
+#: prefixBcc
+msgid "Bcc"
+msgstr "མཐོང་མེད་ཤོག་གནག་འདྲ་བཤུས་"
+
+#: emptyEmailCard
+msgid "Please remove the following cards with no email address :"
+msgstr "གཤམ་གསལ་གྱི་གློག་འཕྲིན་ཁ་བྱང་མེད་མི་ ཤོག་བྱང་དེ་ཚུ་རྩ་བསྐྲད་གཏང་།"
+
+#: addressBook
+msgid "Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་"
+
+# mailnews.js
+#: ldap_2.servers.pab.description
+msgid "Personal Address Book"
+msgstr "རང་དོན་ཁ་བྱང་ཀི་དེབ་"
+
+#: ldap_2.servers.history.description
+msgid "Collected Addresses"
+msgstr "བསྡུ་ལེན་འབད་ཡོད་པའི་ཁ་བྱང་ཚུ་"
+
+# status bar stuff
+## LOCALIZATION NOTE (totalCardStatus):
+## %1$S is address book name, %2$S is card count
+#: totalCardStatus
+msgid "Total Cards in %1$S: %2$S"
+msgstr " %1$Sནང་:ཤོག་བྱང་ཡོངས་བསྡོམས་%2$S།"
+
+## LOCALIZATION NOTE (matchesFound):  do not localize %S
+#: noMatchFound
+msgid "No matches found"
+msgstr "མཐུན་སྒྲིག་ཡོདཔ་མ་ཐོབ།"
+
+#: matchFound
+msgid "1 match found"
+msgstr "མཐུན་སྒྲིག་ཡོདཔ་༡ཐོབ་ཅི་"
+
+#: matchesFound
+msgid "%S matches found"
+msgstr "མཐུན་སྒྲིག་ཡོདཔ་%Sཐོབ་ཅི།"
+
+#: cardsCopied
+msgid "%S cards copied"
+msgstr "ཤོག་བྱང་ འདྲ བཤུས་བརྐྱབས་ཅི།"
+
+#: cardCopied
+msgid "1 card copied"
+msgstr "ཤོག་བྱང་ ༡ འདྲ་བཤུས་བརྐྱབས་ཅི།"
+
+# LDAP directory stuff
+#: directoriesListItemNone
+msgid "None"
+msgstr "ཅི་མེད་"
+
+#: invalidName
+msgid "Please enter a valid Name."
+msgstr "ནུས་ཅན་མིང་ཅིག་བཙུགས་གནང་།"
+
+#: invalidHostname
+msgid "Please enter a valid Hostname."
+msgstr "ནུས་ཅན་གྱི་ཧོསིཊི་ནེམ་ཅིག་བཙུགས་གནང་།"
+
+#: invalidPortNumber
+msgid "Please enter a valid Port Number."
+msgstr "ནུས་ཅན་གྱི་འདྲེན་ལམ་ཨང་ཅིག་བཙུགས་གནང་།"
+
+#: invalidResults
+msgid "Please enter a valid number in the results field."
+msgstr "གྲུབ་འབྲས་ས་སྒོ་ནང་ ནུས་ཅན་གྱི་ཨང་ཅིག་བཙུགས་གནང་།"
+
+# For importing / exporting
+#: ExportAddressBookTitle
+msgid "Export Address Book"
+msgstr "ཁ་བྱང་ཀེ་དེབ་ཕྱིར་ཚོང་འཐབ།"
+
+#: LDIFFiles
+msgid "LDIF (*.ldi,*.ldif)"
+msgstr "ཨེལ་ཌི་ཨའི་ཨེཕ་ (*.ldi,*.ldif)"
+
+#: CSVFiles
+msgid "Comma Separated (*.csv)"
+msgstr "ལྷོད་རྟགས་ཀྱིས་སོ་སོ་འཕྱལ་མི་(*.csv)"
+
+#: TABFiles
+msgid "Tab Delimited (*.tab,*.txt)"
+msgstr "ཨེབ་ལྡེའི་དབྱེ་རྟགས་ཅན་(*.tab,*.txt)"
+
+#: failedToExportTitle
+msgid "Export Failed"
+msgstr "ཕྱིར་ཚོང་འཐབ་མ་བཏུབ་"
+
+#: failedToExportMessageNoDeviceSpace
+msgid "Failed to export addressbook, no space left on device."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཕྱིར་ཚོང་འཐབ་མ་བཏུབ། ཐབས་འཕྲུལ་གུ་བར་སྟོང་ལྷག་ལུས་མིན་འདུག།"
+
+#: failedToExportMessageFileAccessDenied
+msgid "Failed to export addressbook, file access denied."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཕྱིར་ཚོང་འཐབ་མ་བཏུབ། ཡིག་སྣོད་ཀྱི་འཛུལ་སྤྱོད་ལུ་ ཁས་ལེན་འབད་མ་བཏུབ།"
+
+# For getting authDN for replication using dlg box
+#: AuthDlgTitle
+msgid "Address Book LDAP Replication"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཀྱི་ ཨེལ་ཌི་ཨེ་པི་ངོ་འདྲ།"
+
+#: AuthDlgDesc
+msgid "To access the directory server, enter your user name and password."
+msgstr "སྣོད་ཐོ་ལུ་འཛུལ་སྤྱོད་འབད་ནི་ལུ་ ཁྱོད་རའི་ལག་ལེན་པའི་མིང་དང་ ཆོག་ཡིག་བཙུགས།"
+
+# LOCALIZATION NOTE(joinMeInThisChat)
+# use + for spaces
+#: joinMeInThisChat
+msgid "Join+me+in+this+Chat."
+msgstr "Join+me+in+this+Chat.ཡིག་ཐོག་ཁ་སླབ་+འདི་+ནང་+ངེད་ཀྱི་+གྲངས་སུ་འཛུལ།"
+
+# For printing
+#: headingCardFor
+msgid "Card for"
+msgstr "ལུ་ཤོག་བྱང་"
+
+#: headingOther
+msgid "Other"
+msgstr "གཞན་"
+
+#: headingPhone
+msgid "Phone"
+msgstr "བརྒྱུད་འཕྲིན་"
+
+#: headingDescription
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: headingAddresses
+msgid "Addresses"
+msgstr "ཁ་བྱང་ཚུ་"
+
+# For address books
+#: newAddressBookTitle
+msgid "New Address Book"
+msgstr "ཁ་བྱང་ཀི་དེབ་གསརཔ་"
+
+#: renameAddressBookTitle
+msgid "Address Book Properties"
+msgstr "རྒྱུ་དངོས་ཚུ་གི་དོ་ནལུ་ཁ་བྱང་ཀི་དེབ་"
+
+# For corrupt .mab files
+#: corruptMabFileTitle
+msgid "Corrupt Address Book File"
+msgstr "ངན་ཅན་གྱུར་ཡོད་པའི་ ཁ་བྱང་ཀི་དེབ་ཀྱི་ཡིག་སྣོད་"
+
+#: corruptMabFileAlert
+msgid "One of your address book files (%1$S file) could not be read. A new %2$S file will be created and a backup of the old file, called %3$S, will be created in the same directory."
+msgstr "ཁྱོད་ཀྱི་ཁ་བྱང་ཀི་དེབ་ཀྱི་གྲས་ལས་ (ཡིགང་སྣོད་%1$S) དེ་ལྷག་མ་ཚུགས། ཡིག་སྣོད་གསརཔ་%2$S ཅིག་ གསར་བསྐྲུན་འབད་ནི་དང་  ཡིག་སྣོད་རྙིང་པའི་རྒྱབ་ཐག་%3$Sཟེར་མི་ཅིག་ སྣོད་ཐོ་དེ་ནང་ར་ གསར་བསྐྲུན་འབད་ནི་ཨིན།"
+
+# For locked .mab files
+#: lockedMabFileTitle
+msgid "Unable to Load Address Book File"
+msgstr "ཁ་བྱང་ཀི་དེབ་ཡིག་སྣོད་ མངོན་གསལ་འབད་མ་ཚུགས། "
+
+#: lockedMabFileAlert
+msgid "Unable to load address book file %S. It may be read-only, or locked by another application. Please try again later."
+msgstr "ཁ་བྱང་ཀི་དེབ་ཡིག་སྣོད་ མངོན་གསལ་འབད་མ་ཚུགས། འདི་ལྷག་ནི་ཙམ་ཅིག་འོང་ནི་དང་ ཡང་ན་ གློག་རིམ་གཞན་ཅིག་གིས་ ལྡེ་མིག་བརྐྱབས་ཏེ་ཡོདཔ་འོང་ནི་མས། ཤུལ་ལས་ལོག་སྟེ་ འབད་རྩོལ་བསྐྱེད་གནང་།"
+

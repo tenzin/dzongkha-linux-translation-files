@@ -1,0 +1,924 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bug-buddy.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-24 06:13+0100\n"
+"PO-Revision-Date: 2006-03-20 13:17-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: src/bug-buddy.c:59
+msgid "Submit bug report"
+msgstr "རྐྱེན་གྱི་སྙན་ཞུ་ཕུལ།"
+
+#: src/bug-buddy.c:60
+msgid "Only send report to yourself"
+msgstr "སྙན་ཞུ་ཁྱོད་རང་རྐྱངམ་ཅིག་ལུ་གཏང་།"
+
+#: src/bug-buddy.c:61
+msgid "Save report to file"
+msgstr "སྙན་ཞུ་ཡིག་སྣོད་ནང་སྲུངས།"
+
+#: src/bug-buddy.c:66
+msgid "crashed application"
+msgstr "བརྡབས་འཁྲུག་བྱུང་མི་ གློག་རིམ།"
+
+#: src/bug-buddy.c:67
+msgid "core file"
+msgstr "ནང་སྙིང་ཡིག་སྣོད།"
+
+#: src/bug-buddy.c:68
+msgid "nothing"
+msgstr "ག་ནི་ཡང་མེདཔ།"
+
+#: src/bug-buddy.c:79
+msgid "Name of contact"
+msgstr "འབྲེལ་སའི་མིང་།"
+
+#: src/bug-buddy.c:79
+msgid "NAME"
+msgstr "མིང་།"
+
+#: src/bug-buddy.c:80
+msgid "Email address of contact"
+msgstr "འབྲེལ་སའི་གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: src/bug-buddy.c:80
+msgid "EMAIL"
+msgstr "གློག་འཕྲིན།"
+
+#: src/bug-buddy.c:81
+msgid "Package containing the program"
+msgstr "ལས་རིམ་ཡོད་པའི་ཐུམ་སྒྲིལ།"
+
+#: src/bug-buddy.c:81
+msgid "PACKAGE"
+msgstr "ཐུམ་སྒྲིལ།"
+
+#: src/bug-buddy.c:82
+msgid "Version of the package"
+msgstr "ཐུམ་སྒྲིལ་གྱི་ཐོན་རིམ།"
+
+#: src/bug-buddy.c:82
+msgid "VERSION"
+msgstr "ཐོན་རིམ།"
+
+#: src/bug-buddy.c:83
+msgid "File name of crashed program"
+msgstr "བརྡབས་འཁྲུག་བྱུང་མི་ལས་རིམ་གྱི་ ཡིག་སྣོད་མིང་།"
+
+#: src/bug-buddy.c:83
+#: src/bug-buddy.c:85
+#: src/bug-buddy.c:86
+msgid "FILE"
+msgstr "ཡིག་སྣོད།"
+
+#: src/bug-buddy.c:84
+msgid "PID of crashed program"
+msgstr "བརྡབས་འཁྲུག་བྱུང་མི་ལས་རིམ་གྱི་ པི་ཨའི་ཌི།"
+
+#: src/bug-buddy.c:84
+msgid "PID"
+msgstr "པི་ཨའི་ཌི།"
+
+#: src/bug-buddy.c:85
+msgid "Core file from program"
+msgstr "ལས་རིམ་ནང་ལས་ ནང་སྙིང་ཡིག་སྣོད།"
+
+#: src/bug-buddy.c:86
+msgid "Text file to include in the report"
+msgstr "སྙན་ཞུའི་གྲངས་སུ་བཙུགས་ནིའི་ ཚིག་ཡིག་ཡིག་སྣོད།"
+
+#: src/bug-buddy.c:87
+msgid "PID of the program to kill after the report"
+msgstr "སྙན་ཞུ་འབད་བའི་ཤུལ་ལུ་ གསད་ནིའི་ལས་རིམ་གྱི་ པི་ཨའི་ཌི།"
+
+#: src/bug-buddy.c:87
+msgid "KILL"
+msgstr "གསད།"
+
+#: src/bug-buddy.c:123
+#, c-format
+msgid "Could not find widget named %s at %s"
+msgstr "%s ལུ་ %s འབད་མི་ ཝི་གེཊི་འཚོལ་མ་ཐོབ།"
+
+#: src/bug-buddy.c:234
+msgid ""
+"gdb has not finished getting the debugging information.\n"
+"Kill the gdb process (the stack trace will be incomplete)?"
+msgstr ""
+"ཇི་ཌི་བི་གིས་ རྐྱེན་སེལ་གྱི་བརྡ་དོན་ལེན་ནི་ མ་རྫོགས་པས།.\n"
+"ཇི་ཌི་བི་ ལས་སྦྱོར་གསད་ནི་ཨིན་ན? (བརྩེགས་བཤུལ་ཆ་མི་ཚང་)"
+
+#: src/bug-buddy.c:245
+#: src/gdb-buddy.c:113
+msgid "gdb has already exited"
+msgstr "ཇི་ཌི་བི་ ཧེ་མ་ལས་ ཕྱིར་ཐོན་ཡར་སོང་ནུག"
+
+#: src/bug-buddy.c:274
+msgid "Save Backtrace"
+msgstr "རྒྱབ་འཚོལ་སྲུངས།"
+
+#: src/bug-buddy.c:290
+msgid "Please wait while Bug Buddy saves the stack trace..."
+msgstr "བཱག་བ་ཌི་གིས་ བརྩེགས་བཤུལ་སྲུང་བའི་རིང་ བསྒུག་སྡོད་གནང་།..."
+
+#: src/bug-buddy.c:294
+#, c-format
+msgid ""
+"The stack trace was not saved in %s:\n"
+"\n"
+"%s\n"
+"\n"
+"Please try again, maybe with a different file name."
+msgstr ""
+"བརྩེགས་བཤུལ་དེ་%sནང་ མ་བསྲུངས་པས།:\n"
+"\n"
+"%s\n"
+"\n"
+"ཡིག་སྣོད་ཀྱི་མིང་ སོ་སོ་ཅིག་གི་ཐོག་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: src/bug-buddy.c:380
+msgid "_Start Mailer"
+msgstr "སྦྲག་སྣོད་འགོ་བཙུགས།(_S)"
+
+#: src/bug-buddy.c:384
+msgid "_Send Report"
+msgstr "སྙན་ཞུ་གཏང་།(_S)"
+
+#: src/bug-buddy.c:412
+msgid "Hide Debugging Options"
+msgstr "རྐྱེན་སེལ་གྱི་གདམ་ཁ་ སྦ་བཞག"
+
+#: src/bug-buddy.c:413
+msgid "Show Debugging Options"
+msgstr "རྐྱེན་སེལ་གྱི་གདམ་ཁ་སྟོན།"
+
+#: src/bug-buddy.c:526
+msgid ""
+"$GNOME_CRASHED_APPNAME is deprecated.\n"
+"Please use the --appname command line argument instead."
+msgstr ""
+"$GNOME_CRASHED_APPNAME དེ་ངོས་ལན་མིན་འདུག.\n"
+"དེ་གི་ཚབ་ལུ་ --appname བཀོད་ལམ་སྒྲུབ་རྟགས་ ལག་ལེན་འཐབ་གནང་།"
+
+#: src/bug-buddy.c:540
+msgid ""
+"$GNOME_CRASHED_PID is deprecated.\n"
+"Please use the --pid command line argument instead."
+msgstr ""
+"$GNOME_CRASHED_PID དེ་ངོས་ལན་མིན་འདུག.\n"
+"དེ་གི་ཚབ་ལུ་ --pid བཀོད་ལམ་སྒྲུབ་རྟགས་ ལག་ལེན་འཐབ་གནང་།"
+
+#: src/bug-buddy.c:550
+msgid ""
+"To debug a process, the application name is also required.\n"
+"Please also supply an --appname command line argument."
+msgstr ""
+"ལས་སྦྱོར་ཅིག་ རྐྱེན་སེལ་འབད་ནི་ལུ་ གློག་རིམ་གྱི་མིང་དེ་ཡང་དགོ.\n"
+"--appname བཀོད་ལམ་སྒྲུབ་རྟགས་ཅིག་ཡང་ བཀྲམ་སྤེལ་འབད་གནང་།"
+
+#: src/bug-buddy.c:695
+#, c-format
+msgid ""
+"Bug Buddy could not load its user interface file (%s).\n"
+"Please make sure Bug Buddy was installed correctly."
+msgstr ""
+"བཱག་བ་ཌི་གིས་ དེ་གི་ལག་ལེན་པའི་ ངོས་འདྲ་བའི་ཡིག་སྣོད་(%s).མངོན་གསལ་འབད་མ་ཚུགས།.\n"
+"བཱག་བ་ཌི་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ་གནང་།"
+
+#: src/bug-buddy.c:719
+msgid ""
+"Bug Buddy could not update its bug information.\n"
+"The old one will be used."
+msgstr ""
+"བཱག་བ་ཌི་གིས་ དེ་རང་གི་ རྐྱེན་གྱི་བརྡ་དོན་ དུས་མཐུན་བཟོ་མ་ཚུགས།\n"
+"རྙིངམ་དེ་རང་ ལག་ལེན་འཐབ་ནི་ཨིན།"
+
+#: src/bug-buddy.desktop.in.in.h:1
+#: src/bug-buddy-core.desktop.in.in.h:1
+msgid "Bug Report Tool"
+msgstr "རྐྱེན་གྱི་སྙན་ཞུའི་ལག་ཆས།"
+
+#: src/bug-buddy.desktop.in.in.h:2
+#: src/bug-buddy-core.desktop.in.in.h:2
+msgid "Report a bug in GNOME-based applications"
+msgstr "ཇི་ནོམ་ལུ་བརྟེན་པའི་གློག་རིམ་ནང་ རྐྱེན་ཅིག་སྙན་ཞུ་འབད།"
+
+#: src/bug-buddy.glade.h:1
+msgid ""
+"\n"
+"Welcome to Bug Buddy, a bug reporting tool for GNOME. It will step you through the process of submitting a bug report.\n"
+"\n"
+"Please, select the kind of problem you want to report and press the \"Forward\" button:\n"
+msgstr ""
+"\n"
+"ཇི་ནོམ་གྱི་དོན་ལུ་ རྐྱེན་གྱི་སྙན་ཞུའི་ལག་ཆས་ཅིག་ཨིན་མི་ བཱག་བ་ཌི་ལུ་ བྱོན་པ་ལེགས་སོ་ཡོད། དེ་གིས་ཁྱོད་ལུ་ རྐྱེན་གྱི་སྙན་ཞུ་བཙུགས་ནིའི་ ལས་སྦྱོར་ལུ་ ཕན་ཐོགས་ཡོད།.\n"
+"\n"
+"ཁྱོད་ཀྱིས་སྙན་ཞུ་འབད་དགོ་མནོ་མི་ དཀའ་ངལ་དེ་ སེལ་ཞིནམ་ལས་ \"Forward\" ཨེབ་རྟ་ལུ་ཨེབ་གནང་།\n"
+
+#: src/bug-buddy.glade.h:6
+msgid "*"
+msgstr "*"
+
+#: src/bug-buddy.glade.h:7
+msgid "<span size=\"xx-large\">Bug Buddy</span>"
+msgstr "<span size=\"xx-large\">བཱག་བ་ཌི་</span>"
+
+#: src/bug-buddy.glade.h:8
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Bug Buddy update</span>\n"
+"\n"
+"The bug information that is stored on your system is outdated. Choosing \"Update\" will update it. Choosing \"Don't update\" will force the bug reporting to use old data.\n"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">བཱག་བ་ཌི་དུས་མཐུན་</span>\n"
+"\n"
+"ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་ བསགས་ཏེ་ཡོད་མི་ རྐྱེན་གྱི་བརྡ་དོན་དེ་ དུས་ཡོལ་ཐལ་སོང་ནུག \"Update\" ཟེར་མི་ གདམ་ཁ་བརྐྱབ་པ་ཅིན་ དུས་མཐུན་བཟོ་ཚུགས། \"Don't update\" ཟེར་མི་ གདམ་ཁ་བརྐྱབ་པ་ཅིན་ རྐྱེན་གྱི་སྙན་ཞུ་དེ་ལུ་ གནད་སྡུད་རྙིངམ་ ལག་ལེན་འཐབ་བཅུགཔ་ཨིན།.\n"
+
+#: src/bug-buddy.glade.h:12
+msgid "Advanced"
+msgstr "མཐོ་རིམ་ཅན།"
+
+#: src/bug-buddy.glade.h:13
+msgid "Assbarn Phenomenon"
+msgstr "ཨཱསི་བཱརན་ གོ་དཀའི་གནད་དོན།"
+
+#: src/bug-buddy.glade.h:14
+msgid "Binary file:"
+msgstr "བའི་ན་རི་ཡིག་སྣོད:"
+
+#: src/bug-buddy.glade.h:15
+#: src/united-states-of-bug-buddy.c:253
+msgid "Bug Buddy"
+msgstr "བཱག་བ་ཌི།"
+
+#: src/bug-buddy.glade.h:16
+msgid ""
+"Bug Buddy can send debugging information with your bug report.\n"
+"The correct options should have been selected for you automatically."
+msgstr ""
+"བཱག་བ་ཌི་གིས་ ཁྱོད་ཀྱི་རྐྱེན་གྱི་སྙན་ཞུ་དང་ཅིག་ཁར་ རྐྱེན་སེལ་གྱི་བརྡ་དོན་ཚུ་གཏང་ཚུགས།.\n"
+"ཁྱོད་ཀྱི་དོན་ལུ་ གདམ་ཁ་ངེས་བདེན་དེ་ རང་བཞིན་གྱིས་ སེལ་འཐུ་འབད་འབདཝ་འོང་།"
+
+#: src/bug-buddy.glade.h:18
+msgid "Bug Buddy is now collecting information on your crash to submit to a bug tracking system. This is an automated process, and may take a few minutes. When it is done, you can press 'Show Debugging Details' to see the information or press 'Forward' to move to the next step in the process."
+msgstr "བཱག་བ་ཌི་གིས་ རྐྱེན་ངོས་འཛིན་རིམ་ལུགས་ལུ་ གཏང་ནིའི་དོན་ལུ་ བརྡབས་འཁྲུག་བྱུང་མིའི་སྐོར་ལས་ བརྡ་དོན་བསྡུ་ལེན་འབད་དོ། འདི་རང་བཞིན་གྱི་ ལས་སྦྱོར་ཅིག་ཨིནམ་ལས་ སྐར་མ་དག་པ་ཅིག་འགོར་འོང་། འདི་འབད་ཚརཝ་ད་ བརྡ་དོན་བལྟ་ནིའི་དོན་ལུ་ ཁྱོད་ཀྱིས་ ‘རྐྱེན་སེལ་ རྒྱས་བཤད་ སྟོན’ ཟེར་མི་ལུ་ཨེབ་དགོ ཡང་ཅིན་ ལས་སྦྱོར་གཞན་མི་ནང་ འགྱོ་ནིའི་དོན་ལུ་ ‘གདོང་བསྐྱོད’ ཟེར་མི་ལུ་ཨེབ་དགོ"
+
+#: src/bug-buddy.glade.h:19
+msgid ""
+"Bug Buddy uses email to submit the bug reports.\n"
+"Please choose how you would like Bug Buddy to send email."
+msgstr "བཱག་བ་ཌི་གིས་ བཱག་གི་སྙན་ཞུ་ བཙུགས་ནིའི་དོན་ལུ་ གློག་འཕྲིན་ལག་ལེན་འཐབ་ཨིན། བཱག་བ་ཌི་གིས་ གློག་འཕྲིན་ག་དེ་སྦེ་ གཏང་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས།"
+
+#: src/bug-buddy.glade.h:21
+msgid "Cc:"
+msgstr "སི་སི:"
+
+#: src/bug-buddy.glade.h:22
+msgid "Core file"
+msgstr "ནང་སྙིང་ཡིག་སྣོད།"
+
+#: src/bug-buddy.glade.h:23
+msgid "D_ebug a crashed or running application (experts only)"
+msgstr "བརྡབས་འཁྲུག་བྱུང་་མིའམ་ གཡོག་བཀོལ་བའི་བསྒང་གི་ གློག་རིམ་་ཅིག་ རྐྱེན་སེལ་འབད། (མཁས་མཆོག་རྐྱངམ་ཅིག)(_e)"
+
+#: src/bug-buddy.glade.h:24
+msgid "Debug"
+msgstr "རྐྱེན་སེལ་འབད།"
+
+#: src/bug-buddy.glade.h:25
+#: src/bugzilla.c:748
+#: src/bugzilla.c:823
+#: src/bugzilla.c:854
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: src/bug-buddy.glade.h:26
+msgid "Downloading files"
+msgstr "ཡིག་སྣོད་ཕབ་ལེན་འབད་དོ།"
+
+#: src/bug-buddy.glade.h:27
+msgid "Email:"
+msgstr "གློག་འཕྲིན:"
+
+#: src/bug-buddy.glade.h:28
+msgid "Include a text file"
+msgstr "ཚིག་ཡིག་ཡིག་སྣོད་ཅིག་ གྲངས་སུ་བཙུགས།"
+
+#: src/bug-buddy.glade.h:29
+msgid "Just s_ave to a file so I can submit a bug report manually"
+msgstr "ཡིག་སྣོད་ཅིག་ནང་ སྲུང་བཞག་ཙམ་ཅིག་འབད། དེ་ལས་ང་གིས་ རྐྱེན་གྱི་སྙན་ཞུ་ཅིག་ ལག་ཐོག་ལས་བཙུགས་ཚུགས།(_a)"
+
+#: src/bug-buddy.glade.h:30
+msgid "Name:"
+msgstr "མིང་:"
+
+#: src/bug-buddy.glade.h:31
+msgid "Path of sendmail:"
+msgstr "སེནཌི་མེལ་གྱི་འགྲུལ་ལམ:"
+
+#: src/bug-buddy.glade.h:32
+msgid "Please choose a component, version, and severity level."
+msgstr "ཆ་ཤས་དང་ ཐོན་རིམ་ འཚུབ་ཆའི་གནས་རིམ་ གདམ་ཁ་རྐྱབས།"
+
+#: src/bug-buddy.glade.h:33
+msgid ""
+"Please make any final corrections to the bug report.\n"
+"Notice that it will be shown at http://bugzilla.gnome.org\n"
+"It will include your name, e-mail address, and maybe\n"
+"some information about how the application crashed. If the\n"
+"document you were working on contained sensitive information,\n"
+"you may not want to submit this bug report"
+msgstr ""
+"རྐྱེན་གྱི་སྙན་ཞུ་ལུ་ མཐའ་མཇུག་གི་ ནོར་བཅོས་རེ་ཡོད་པ་ཅིན་འབད།.\n"
+"འདི http://bugzilla.gnome.org ནང་ སྟོནམ་ཨིན།.\n"
+"དེ་ནང་ཁྱོད་ཀྱི་མིང་དང་ གློག་འཕྲིན་ཁ་བྱང་ དེ་ལས་ ཁྱོད་ཀྱི་གློག་རིམ་དེ་ ག་དེ་སྦེ་ བརྡབས་འཁྲུག་བྱུང་་སོངཔ་ཨིན་ན་གི་ བརྡ་དོན་དུམ་གྲ་ཅིག་སྟོན་འོང་།\n"
+" གལ་སྲིད་ ཁྱོད་ཀྱིས་ལཱ་འབད་བའི་བསྒང་ཡོད་མི་ ཡིག་ཆ་\n"
+" དེ་ནང་ ཉེན་ཅན་གྱི་བརྡ་དོན་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱིས་རྐྱེན་གྱིསྙན་ཞུ་འདི་ བཙུགས་དགོ་མི་མནོཝ་འོང་།"
+
+#: src/bug-buddy.glade.h:39
+msgid "Please make your bug report in English, if possible."
+msgstr "འབད་ཚུགས་པ་ཅིན་ ཁྱོད་ཀྱི་རྐྱེན་གྱི་སྙན་ཞུ་དེ་ ཨིང་ལིཤ་ནང་བཟོ་གནང་།"
+
+#: src/bug-buddy.glade.h:40
+msgid "Please select the product or application for the bug you wish to report."
+msgstr "ཁྱོད་ཀྱིས་སྙན་ཞུ་འབད་དགོ་མནོ་མི་ ཐོན་འབྲས་སམ་གློག་རིམ་སེལ་འཐུ་འབད་གནང་།"
+
+#: src/bug-buddy.glade.h:41
+msgid ""
+"Please take a minute to see if your bug is one of the most frequently reported bugs.\n"
+"If the bug is already reported, please do not report it again."
+msgstr ""
+"ཁྱོད་ཀྱི་རྐྱེན་དེ་ འཕྲལ་འཕྲལ་རང་ སྙན་ཞུ་འབད་མི་ རྐྱེན་གྱི་གྲས་ལས་གཅིག་ ཨིན་ན་མེན་བལྟ།.\n"
+"གལ་སྲིད་ ཧེ་མ་ལས་རང་ སྙན་ཞུ་འབད་འབདཝ་ཨིན་པ་ཅིན་ ལོག་སྟེ་སྙན་ཞུ་ འབད་མ་གནང་།"
+
+#: src/bug-buddy.glade.h:43
+msgid ""
+"Please wait while Bug Buddy updates its list\n"
+"of products for the bug tracking systems."
+msgstr ""
+"བཱག་བ་ཌི་གིས་ རྐྱེན་ངོས་འཛིན་རིམ་ལུགས་ཀྱི་དོན་ལས་ དེ་གི་ཐོ་ཡིག་\n"
+"དུས་མཐུན་བཟོ་བའི་རིང་ལུ་ བསྒུག་སྡོད་གནང་།"
+
+#: src/bug-buddy.glade.h:45
+msgid "Process ID:"
+msgstr "ལས་སྦྱོར་གྱི་ཨའི་ཌི:"
+
+#: src/bug-buddy.glade.h:46
+msgid "Save in:"
+msgstr "སྲུང་ས་:"
+
+#: src/bug-buddy.glade.h:47
+msgid "Save the report to..."
+msgstr "སྙན་ཞུ་དེ་སྲུང་ས་…."
+
+#: src/bug-buddy.glade.h:48
+msgid "Saving: "
+msgstr "སྲུང་དོ:"
+
+#: src/bug-buddy.glade.h:49
+msgid "Sendmail Settings"
+msgstr "སེནཌི་མེལ་ སྒྲིག་སྟངས།"
+
+#: src/bug-buddy.glade.h:50
+msgid "Severity:"
+msgstr "འཚུབ་ཆ:"
+
+#: src/bug-buddy.glade.h:51
+msgid "Show _Applications"
+msgstr "གློག་རིམ་སྟོན།(_A)"
+
+#: src/bug-buddy.glade.h:52
+msgid "Show _Debugging Details"
+msgstr "རྐྱེན་སེལ་གྱི་ རྒྱས་བཤད་སྟོན།(_D)"
+
+#: src/bug-buddy.glade.h:53
+msgid "Show _Products"
+msgstr "ཐོན་འབྲས་སྟོན།(_P)"
+
+#: src/bug-buddy.glade.h:54
+msgid "Show most frequent bugs in:"
+msgstr "འཕྲལ་འཕྲལ་རང་བྱུང་མི་རྐྱེན་ཚུ་ འདི་ནང་སྟོན:"
+
+#: src/bug-buddy.glade.h:55
+msgid "Simple"
+msgstr "འཇམ་སམ།"
+
+#: src/bug-buddy.glade.h:56
+msgid "Start"
+msgstr "འགོ་བཙུགས།"
+
+#: src/bug-buddy.glade.h:57
+msgid "Stop"
+msgstr "བཀག"
+
+#: src/bug-buddy.glade.h:58
+msgid "Submit another bug"
+msgstr "རྐྱེན་གཞན་མི་ཅིག་ཕུལ།"
+
+#: src/bug-buddy.glade.h:59
+msgid "Summary"
+msgstr "བཅུད་དོན།"
+
+#: src/bug-buddy.glade.h:60
+msgid "The _application does not function correctly"
+msgstr "གློག་རིམ་དེ་ ངེས་བདེན་སྦེ་ ལཱ་མི་འབད་བས།(_a)"
+
+#: src/bug-buddy.glade.h:61
+msgid "The _documentation is wrong"
+msgstr "ཡིག་ཆ་དེ་ ཕྱི་འགྱུར་ཨིན་པས།(_d)"
+
+#: src/bug-buddy.glade.h:62
+msgid "The _translation is wrong"
+msgstr "སྐད་བསྒྱུར་དེ་ ཕྱི་འགྱུར་ཨིན་པས།(_t)"
+
+#: src/bug-buddy.glade.h:63
+msgid "To:"
+msgstr "ལུ:"
+
+#: src/bug-buddy.glade.h:64
+msgid "Use _sendmail directly"
+msgstr "འཕྲིན་གཏང་ཐད་ཀར་དུ་ ལག་ལེན་འཐབ།(_s)"
+
+#: src/bug-buddy.glade.h:65
+msgid "Version:"
+msgstr "ཐོན་རིམ:"
+
+#: src/bug-buddy.glade.h:66
+msgid "_Don't update"
+msgstr "དུས་མཐུན་མ་བཟོ།(_D)"
+
+#: src/bug-buddy.glade.h:67
+msgid "_Request a missing feature"
+msgstr "བརླག་སྟོར་ཞུགས་མི་ རྣམ་པ་ཅིག་ཞུ་བ་འབད།(_R)"
+
+#: src/bug-buddy.glade.h:68
+msgid "_Update"
+msgstr "དུས་མཐུན་བཟོ།(_U)"
+
+#: src/bug-buddy.glade.h:69
+msgid "component"
+msgstr "ཆ་ཤས།"
+
+#: src/bug-buddy.glade.h:70
+msgid "desc"
+msgstr "མར་འབབ།"
+
+#: src/bug-buddy.glade.h:71
+msgid "email info"
+msgstr "གློག་འཕྲིན་གྱི་བརྡ་དོན།"
+
+#: src/bug-buddy.glade.h:72
+msgid "finished"
+msgstr "རྫོགས་སོ་ནུག"
+
+#: src/bug-buddy.glade.h:73
+msgid "gdb"
+msgstr "ཇི་ཌི་བི།"
+
+#: src/bug-buddy.glade.h:74
+msgid "intro"
+msgstr "འགོ་བརྗོད།"
+
+#: src/bug-buddy.glade.h:75
+msgid "mail config"
+msgstr "འཕྲིན་ཡིག་རིམ་་སྒྲིག"
+
+#: src/bug-buddy.glade.h:76
+msgid "mostfreq"
+msgstr "ལན་གྲངས་མང་ཤོས་བྱུང་མི།"
+
+#: src/bug-buddy.glade.h:77
+msgid "product"
+msgstr "ཐོན་འབྲས།"
+
+#: src/bugzilla.c:280
+#, c-format
+msgid "%d of %d"
+msgstr "%d གི་ %d"
+
+#: src/bugzilla.c:722
+msgid "ID"
+msgstr "ཨའི་ཌི།"
+
+#: src/bugzilla.c:736
+#: src/bugzilla.c:805
+msgid "Product"
+msgstr "ཐོན་འབྲས།"
+
+#: src/bugzilla.c:742
+#: src/bugzilla.c:848
+msgid "Component"
+msgstr "ཆ་ཤས།"
+
+#: src/bugzilla.c:899
+#, c-format
+msgid ""
+"Bug Buddy could not open '%s'.\n"
+"Please make sure Bug Buddy was installed correctly.\n"
+"\n"
+"Bug Buddy will now quit."
+msgstr ""
+"བཱག་བ་ཌི་གིས་'%s'ཁ་ཕྱེ་མ་ཚུགས།\n"
+"བཱག་བ་ཌི་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད།\n"
+"\n"
+"ད་ བཱག་བ་ཌི་གིས་ སྤང་བཞག་འོང་།"
+
+#: src/bugzilla.c:937
+msgid ""
+"Bug Buddy could not find any information on where to submit bugs.\n"
+"\n"
+"Please make sure Bug Buddy was installed correctly.\n"
+"\n"
+"Bug Buddy will now quit."
+msgstr ""
+"བཱག་བ་ཌི་གིས་ རྐྱེན་ག་ཏེ་ལུ་ བཙུགས་ནི་ཨིན་ན་ བརྡ་དོན་ག་ནི་ཡང་ ཐོབ་མ་ཚུགས།\n"
+"\n"
+"བཱག་བ་ཌི་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་གནང་།\n"
+"\n"
+"ད་ བཱག་བ་ཌི་གིས་ སྤང་བཞག་འོང་།"
+
+#: src/bugzilla.c:1021
+#, c-format
+msgid "Couldn't load icon for %s"
+msgstr "%s གི་དོན་ལས་ ངོས་དཔར་མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: src/cell-renderer-uri.c:151
+msgid "URI"
+msgstr "ཡུ་ཨར་ཨའི།"
+
+#: src/cell-renderer-uri.c:152
+msgid "URI to show when clicked."
+msgstr "ཨེབ་གཏང་འབདཝ་ད་ འཐོན་དགོ་པའི་ ཡུ་ཨར་ཨའི།"
+
+#: src/cell-renderer-uri.c:159
+msgid "Visited"
+msgstr "བལྟ་སྤྱོད་འབད་ཡོདཔ།"
+
+#: src/cell-renderer-uri.c:160
+msgid "If the URI has been visited before."
+msgstr "ཡུ་ཨར་ཨའི་དེ་ ཧེ་མ་བལྟ་སྤྱོད་འབད་འབདཝ་ཨིན་པ་ཅིན།"
+
+#: src/gdb-buddy.c:84
+#, c-format
+msgid "Obtaining stack trace... (%d)"
+msgstr "བརྩེགས་བཤུལ་ (%d) ལེན་དོ།…"
+
+#: src/gdb-buddy.c:160
+#, c-format
+msgid ""
+"Unable to process core file with gdb:\n"
+"'%s'"
+msgstr ""
+"ཇི་ཌི་བི་ཐོག་ལས་ ནང་རྙིང་ཡིག་སྣོད་ ལས་སྦྱོར་འབད་མ་ཚུགས།:\n"
+"'%s'"
+
+#: src/gdb-buddy.c:185
+#, c-format
+msgid ""
+"GDB was unable to determine which binary created\n"
+"'%s'"
+msgstr ""
+"བའི་ན་རི་གིས་ གསར་བསྐྲུན་འབད་མི་དེ་ ཇི་ཌི་བི་གིས་ ངོས་འཛིན་འབད་མ་ཚུགས།\n"
+"'%s'"
+
+#: src/gdb-buddy.c:215
+msgid "Error on read... aborting"
+msgstr "ལྷག་ནི་ལུ་ འཛོལ་བ་… བར་བཤོལ་འབད་དོ།"
+
+#: src/gdb-buddy.c:263
+msgid "Both a binary file and PID are required to debug."
+msgstr "རྐྱེན་སེལ་འབད་ནིའི་དོན་ལུ་ བའི་ན་རི་ཡིག་སྣོད་ཅིག་དང་ པི་ཨའི་ཌི་ གཉིས་ཆ་རང་དགོཔ་འདུག"
+
+#: src/gdb-buddy.c:284
+msgid "The binary file could not be found. Try using an absolute path."
+msgstr "བིའི་ན་རི་ཡིག་སྣོད་ འཐོབ་མ་ཚུགས། འགྲུལ་ལམ་ཡང་དག་ཅིག་ ལག་ལེན་འཐབ།"
+
+#: src/gdb-buddy.c:294
+msgid ""
+"GDB could not be found on your system.\n"
+"Debugging information will not be obtained."
+msgstr ""
+"ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་ ཇི་ཌི་བི་ འཐོབ་མ་ཚུགས།\n"
+"རྐྱེན་སེལ་གྱི་བརྡ་དོན་ འཐོབ་མི་ཚུགས།"
+
+#: src/gdb-buddy.c:302
+msgid ""
+"Could not find the gdb-cmd file.\n"
+"Please try reinstalling Bug Buddy."
+msgstr ""
+"gdb-cmd ཡིག་སྣོད་ འཚོལ་མ་འཐོབ།\n"
+"བཱག་བ་ཌི་ ལོག་སྟེ་གཞི་བཙུགས་འབད་གནང་།"
+
+#: src/gdb-buddy.c:310
+#, c-format
+msgid ""
+"There was an error running gdb:\n"
+"\n"
+"%s"
+msgstr ""
+"ཇི་ཌི་བི་ གཡོག་བཀོལ་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག\n"
+"\n"
+"%s"
+
+#: src/save-buddy.c:83
+#, c-format
+msgid "Could not read symbolic link information for %s"
+msgstr "%sགི་དོན་ལུ་ བརྡ་མཚོན་འབྲེལ་ལམ་གྱི་ བརྡ་དོན་ལྷག་མ་ཚུགས།"
+
+#: src/save-buddy.c:125
+msgid "The file has too many symbolic links."
+msgstr "ཡིག་སྣོད་དེ་ལུ་ བརྡ་མཚོན་འབྲེལ་ལམ་ མང་དྲགས་པས།"
+
+#: src/save-buddy.c:268
+msgid "Main loop isn't running!"
+msgstr "འཕྲལ་བཀོལ་ངོ་མ་ ལཱ་མི་འབད་བས།"
+
+#: src/save-buddy.c:284
+#, c-format
+msgid "Error setting up sigchld handler: %s"
+msgstr "sigchld handler: %sསྒྲིག་སྟངས་ལུ་འཛོལ་བ།"
+
+#: src/save-buddy.c:387
+msgid "Invalid filename."
+msgstr "ནུས་མེད་ཡིག་སྣོད་ཀྱི་མིང་།"
+
+#: src/save-buddy.c:412
+#, c-format
+msgid ""
+"There already exists a file name '%s'.\n"
+"\n"
+"Do you wish to overwrite this file?"
+msgstr ""
+"་ཡིག་སྣོད་མིང་'%s'འབད་མི་ཅིག་ ཧེ་མ་ལས་རང་འདུག\n"
+"\n"
+"ཁྱོད་ཀྱིས་ ཡིག་སྣོད་འདི་ ཚབ་སྲུང་འབད་ནི་ཨིན་ན?"
+
+#: src/save-buddy.c:417
+msgid "_Overwrite"
+msgstr "ཚབ་སྲུངས།(_O)"
+
+#: src/save-buddy.c:516
+msgid "Could not create a backup file."
+msgstr "རྒྱབ་ཐག་ཡིག་སྣོད་ཅིག་ བཟོ་མ་ཚུགས།"
+
+#: src/united-states-of-bug-buddy.c:56
+msgid "Welcome to Bug Buddy"
+msgstr "བཱག་བ་ཌི་ལུ་ བྱོན་པ་ལེགས་སོ་ཡོད།"
+
+#: src/united-states-of-bug-buddy.c:57
+msgid "Collecting debug info"
+msgstr "རྐྱེན་སེལ་གྱི་བརྡ་དོན་ བསྡུ་ལེན་འབད་དོ།"
+
+#: src/united-states-of-bug-buddy.c:58
+msgid "Select a Product or Application"
+msgstr "ཐོན་འབྲས་སམ་ གློག་རིམ་ཅིག་ སེལ་འཐུ་འབད།"
+
+#: src/united-states-of-bug-buddy.c:59
+msgid "Select a Component"
+msgstr "ཆ་ཤས་ཅིག་སེལ་འཐུ་འབད།"
+
+#: src/united-states-of-bug-buddy.c:60
+msgid "Frequently Reported Bugs"
+msgstr "འཕྲལ་འཕྲལ་རང་ སྙན་ཞུ་འབད་མི་རྐྱེན་ཚུ།"
+
+#: src/united-states-of-bug-buddy.c:61
+msgid "Bug Description"
+msgstr "རྐྱེན་གྱི་འགྲེལ་བཤད།"
+
+#: src/united-states-of-bug-buddy.c:62
+msgid "Mail Configuration"
+msgstr "འཕྲིན་ཡིག་རིམ་སྒྲིག"
+
+#: src/united-states-of-bug-buddy.c:63
+msgid "Confirmation"
+msgstr "རིམ་སྒྲིག"
+
+#: src/united-states-of-bug-buddy.c:64
+msgid "Finished!"
+msgstr "རྫོགས་སོ་ནུག"
+
+#. Translators should localize the following string
+#. * which will give them credit in the About box.
+#. * E.g. "Fulano de Tal <fulano@detal.com>"
+#.
+#: src/united-states-of-bug-buddy.c:243
+msgid "translator_credits-PLEASE_ADD_YOURSELF_HERE"
+msgstr "བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ ལས་འགུལ་མཉམ་འབྲེལ་པ་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt> ལུ་ འབྲེལ་བ་འཐབ"
+
+#: src/united-states-of-bug-buddy.c:257
+msgid "The graphical bug reporting tool for GNOME."
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ ཚད་རིས་ཀྱི་རྐྱེན་ སྙན་ཞུའི་ལག་ཆས།"
+
+#: src/united-states-of-bug-buddy.c:274
+msgid "The lame Bug Buddy web page"
+msgstr "ལེམ་བཱག་བ་ཌི་གི་ ཝེབ་ ཤོག་ལེབ།"
+
+#: src/united-states-of-bug-buddy.c:419
+msgid "Please enter your name."
+msgstr "ཁྱོད་རའི་མིང་བཙུགས་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:428
+msgid "Please enter a valid email address."
+msgstr "ནུས་ཅན་གྱི་ གློག་འཕྲིན་ཁ་བྱང་ཅིག་ བཙུགས་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:437
+#, c-format
+msgid ""
+"'%s' doesn't seem to exist.\n"
+"\n"
+"Please check the path to sendmail again."
+msgstr ""
+"'%s' མེདཔ་བཟུམ་ཅིག་འདུག.\n"
+"\n"
+"སེནཌི་མེལ་གྱི་འགྲུལ་ལམ་ ལོག་སྟེ་ཞིབ་དཔྱད་འབད་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:461
+msgid "Please enter a valid email command."
+msgstr "ནུས་ཅན་གྱི་ གློག་འཕྲིན་བརྡ་བཀོད་ཅིག་ བཙུགས་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:537
+msgid "The specified file does not exist."
+msgstr "གསལ་བཀོད་འབད་མི་ ཡིག་སྣོད་དེ་མིན་འདུག"
+
+#: src/united-states-of-bug-buddy.c:543
+#, c-format
+msgid "File is of type: %s"
+msgstr "ཡིག་སྣོད་དེ་གི་དབྱེ་བ་%sཨིན་མས།"
+
+#: src/united-states-of-bug-buddy.c:547
+#, c-format
+msgid ""
+"'%s' is a %s file.\n"
+"\n"
+"Bug Buddy can only submit plaintext (text/*) files."
+msgstr ""
+"'%s' དེ་%s གི་ཡིག་སྣོད་ཨིན།\n"
+"\n"
+"བཱག་བ་ཌི་གིས་ ཡིག་རྐྱང་ (ཚིག་ཡིག་/*)གི་ ཡིག་སྣོད་རྐྱངམ་ཅིག་ བཙུགས་ཚུགས།"
+
+#: src/united-states-of-bug-buddy.c:560
+msgid "You must include a comprehensible subject line in your bug report."
+msgstr "ཁྱོད་ཀྱིས་ ཁྱོད་རའི་རྐྱེན་གྱི་སྙན་ཞུ་ནང་ གོ་བ་གསལ་བའི་ དོན་ཚན་འབྲེལ་ལམ་ཅིག་བཀོད་དགོ"
+
+#: src/united-states-of-bug-buddy.c:569
+msgid "You must include a comprehensible description in your bug report."
+msgstr "ཁྱོད་ཀྱིས་ ཁྱོད་རའི་རྐྱེན་གྱི་སྙན་ཞུ་ནང་ གོ་བ་གསལ་བའི་ འགྲེལ་བཤད་ཅིག་བཀོད་དགོ"
+
+#: src/united-states-of-bug-buddy.c:616
+msgid "Please wait while Bug Buddy saves your bug report..."
+msgstr "བཱག་བ་ཌི་གིས་ ཁྱོད་ཀྱི་རྐྱེན་གྱི་སྙན་ཞུ་ སྲུང་བའི་རིང་ལུ་ བསྒུག་སྡོད་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:620
+#, c-format
+msgid ""
+"The bug report was not saved in %s:\n"
+"\n"
+"%s\n"
+"\n"
+"Please try again, maybe with a different file name."
+msgstr ""
+"རྐྱེན་གྱི་སྙན་ཞུ་དེ་%sནང་ མ་བསྲུངས་པས།་:\n"
+"\n"
+"%s\n"
+"\n"
+"ཡིག་སྣོད་ཀྱི་མིང་ སོ་སོ་ཅིག་གི་ཐོག་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:628
+#, c-format
+msgid "Your bug report was saved in %s"
+msgstr "ཁྱོད་ཀྱི་རྐྱེན་གྱི་སྙན་ཞུ་དེ་%sནང་ བསྲུངས་བཞག་ནུག"
+
+#: src/united-states-of-bug-buddy.c:636
+msgid "Please wait while Bug Buddy submits your bug report..."
+msgstr "བཱག་བ་ཌི་གིས་ ཁྱོད་ཀྱི་རྐྱེན་གྱི་སྙན་ཞུ་ཕུལ་བའི་རིང་་ལུ བསྒུག་སྡོད་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:640
+#, c-format
+msgid ""
+"There was an error submitting the bug report:\n"
+"\n"
+"%s"
+msgstr ""
+"རྐྱེན་གྱི་སྙན་ཞུ་ བཙུགས་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག:\n"
+"\n"
+"%s"
+
+#: src/united-states-of-bug-buddy.c:647
+#, c-format
+msgid ""
+"Your bug report has been submitted to:\n"
+"\n"
+"        <%s>\n"
+"\n"
+"Bug reporting is an important part of making Free Software. Thank you for helping."
+msgstr ""
+"ཁྱོད་ཀྱི་རྐྱེན་གྱི་སྙན་ཞུ་དེ་...ལུ་ཕུལ་ནུག\n"
+"\n"
+"        <%s>\n"
+"\n"
+"སྟོང་མར་ཐོབ་པའི་ མཉེན་ཆས་བཟོ་ནིའི་དོན་ལས་ རྐྱེན་གྱི་སྙན་ཞུ་འབད་ནི་དེ་ ཡན་ལག་གལ་ཅན་ཅིག་ཨིན། ཁྱོད་ཀྱིས་གྲོགས་རམ་འབད་མི་ལུ་ བཀྲིན་ཆེ།"
+
+#: src/united-states-of-bug-buddy.c:885
+msgid "Please, select the core file or running application to debug."
+msgstr "རྐྱེན་སེལ་འབད་ནིའི་དོན་ལུ་ ནང་སྙིང་ཡིག་སྣོད་ནམ་ ལཱ་བཀོལ་བའི་བསྒང་གི་ གློག་རིམ་དེ་ སེལ་འཐུ་འབད་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:895
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Notice that the software you are running (%s) is older than six months.\n"
+"You may want to consider upgrading to a newer version of %s system"
+msgstr ""
+"%s\n"
+"\n"
+"ཁྱོད་ཀྱིས་གཡོག་བཀོལ་བའི་བསྒང་གི་ མཉེན་ཆས་(%s)དེ་ ཟླཝ་དྲུག་ལས་ལྷག་སོང་ནུག\n"
+"ཁྱོད་ཀྱིས་ རིམ་ལུགས་ཐོན་རིམ་གསརཔ་%sཅིག་ལུ་ ཡར་སེང་འབད་དགོཔ་འོང་།"
+
+#: src/united-states-of-bug-buddy.c:965
+msgid "Please choose a product for your bug report."
+msgstr "ཁྱོད་རའི་རྐྱེན་གྱི་སྙན་ཞུའི་དོན་ལུ་ ཐོན་འབྲས་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:969
+#, c-format
+msgid "Please choose a component, version, and severity level for product %s"
+msgstr "ཐོན་འབྲས་%sགི་དོན་ལུ་ ཆ་ཤས་དང་ ཐོན་རིམ་ འཚུབ་ཆའི་གནས་རིམ་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:978
+msgid "Please choose an application for your bug report."
+msgstr "ཁྱོད་རའི་ རྐྱེན་གྱི་སྙན་ཞུའི་དོན་ལུ་ གློག་རིམ་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:982
+#, c-format
+msgid "Please choose a component, version, and severity level for application %s"
+msgstr "གློག་རིམ་་%sགི་དོན་ལུ་ ཆ་ཤས་དང་ ཐོན་རིམ་ འཚུབ་ཆའི་གནས་རིམ་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་།"
+
+#: src/united-states-of-bug-buddy.c:996
+msgid "This Application has bug information, but Bug Buddy doesn't know about it. Please choose another application."
+msgstr "གློག་རིམ་འདི་ལུ་ རྐྱེན་གྱི་བརྡ་དོན་འདུག དེ་འབདཝ་ད་ བཱག་བ་ཌི་གིས་ དེ་གི་སྐོར་ལས་ མི་ཤེས་པས། གློག་རིམ་གཞན་ཅིག་ གདམ་ཁ་བརྐྱབ་གནང་་།"
+
+#: src/united-states-of-bug-buddy.c:1037
+msgid "You must specify a component for your bug report."
+msgstr "ཁྱོད་ཀྱིས་ ཁྱོད་རའི་རྐྱེན་གྱི་སྙན་ཞུའི་དོན་ལུ་ ཆ་ཤས་ཅིག་ གསལ་བཀོད་འབད་དགོ"
+
+#: bug-buddy.schemas.in.h:1
+msgid "Bug reporter name"
+msgstr "རྐྱེན་གྱི་སྙན་ཞུ་འབད་མིའི་མིང་།"
+
+#: bug-buddy.schemas.in.h:2
+msgid "Email Address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: bug-buddy.schemas.in.h:3
+msgid "Email Address for submiting bug reports to GNOME Bugzilla. This address will be used for correspondence regarding the bug you are submitting. If you already have a GNOME Bugzilla account, please use it as your Email Address."
+msgstr "ཇི་ནོམ་ བཱག་ཛིལ་ལ་ལུ་ རྐྱེན་གྱི་སྙན་ཞུ་ ཕུལ་ནིའི་དོན་ལུ་ གློག་འཕྲིན་ཁ་བྱང་། ཁ་བྱང་འདི་ ཁྱོད་ཀྱིས་སྙན་ཞུ་ཕུལ་མི་ རྐྱེན་གྱི་སྐོར་ལས་ ཡིག་འགྲུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནི་ཨིན། ཁྱོད་ལུ་ཧེ་མ་ལས་རང་ ཇི་ནོམ་ བཱག་ཛིལ་ལ་གི་ རྩིས་ཐོ་ཅིག་ཡོད་པ་ཅིན་ དེ་ཁྱོད་རའི་ གློག་འཕྲིན་ཁ་བྱང་སྦེ་ ལག་ལེན་འཐབ་གནང་།"
+
+#: bug-buddy.schemas.in.h:4
+msgid "File to save bug reports"
+msgstr "རྐྱེན་གྱི་སྙན་ཞུ་ བསྲུང་སའི་ཡིག་སྣོད།"
+
+#: bug-buddy.schemas.in.h:5
+msgid "File where you want to save your bug report in order to submit it later."
+msgstr "ཤུལ་ལས་ཕུལ་ནིའི་དོན་ལུ་ ཁྱོད་རའི་རྐྱེན་གྱི་སྙན་ཞུ་ བསྲུང་སའི་ཡིག་སྣོད།"
+
+#: bug-buddy.schemas.in.h:6
+msgid "Last time Bug Buddy checked for updates"
+msgstr "བཱག་བ༌ཌི་ དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ མཐའ་མཇུག་ཞིབ་དཔྱད་འབད་བའི་དུས་ཚོད།"
+
+#: bug-buddy.schemas.in.h:7
+msgid "Path in your local filesystem where sendmail or equivalent is located."
+msgstr "ཁྱོད་ཀྱི་ཉེ་གནས་རིམ་ལུགས་ནང་ སེནཌི་མེལ་ ཡང་ཅིན་ འདྲ་མཉམ་གནས་སའི་འགྲུལ་ལམ།"
+
+#: bug-buddy.schemas.in.h:8
+msgid "Path to sendmail like mailer program"
+msgstr "སེནཌི་མེལ་བཟུམ་མའི་སྦྲག་སྣོད་ལུ་འགྲུལ་ལམ།"
+
+#: bug-buddy.schemas.in.h:9
+msgid "Real name of user reporting the bug."
+msgstr "རྐྱེན་གྱི་་སྙན་ཞུ་འབད་མི་ ལག་ལེན་པའི་ མིང་ངོ་མ།"
+
+#: bug-buddy.schemas.in.h:10
+msgid "This is the last time (UNIX timestamp) when Bug Buddy checked for updates of Bugzilla information."
+msgstr "བཱག་ཛིལ་ལའི་བརྡ་དོན་ དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ མཐའ་མཇུག་ བཱག་བ་ཌི་ ཞིབ་དཔྱད་འབད་བའི་ དུས་ཚོད་འདི་ཨིན། (ཡུ་ནིགསི་དུས་བཀོད་)།"
+
+#: bug-buddy.schemas.in.h:11
+msgid "Use sendmail for submitting bug reports to GNOME Bugzilla. Right now, this is the only supported method."
+msgstr "ཇི་ནོམ་ བཱག་ཛིལ་ལ་ལུ་ རྐྱེན་གྱི་སྙན་ཞུ་ ཕུལ་ནིའི་དོན་ལུ་ འཕྲིན་གཏང་ལག་ལེན་འཐབ། ད་ལྟོ་སྐབས་སུ་འབབ་པ་ རྒྱབ་སྐྱོར་ཡོད་པའི་ཐབས་ལམ་ འདི་རྐྱངམ་ཅིག་ཨིན།"
+
+#: bug-buddy.schemas.in.h:12
+msgid "Use sendmail to send bug reports"
+msgstr "རྐྱེན་གྱི་སྙན་ཞུ་ གཏང་ནིའི་དོན་ལུ་ སེནཌི་མེལ་ལག་ལེན་འཐབ།"
+

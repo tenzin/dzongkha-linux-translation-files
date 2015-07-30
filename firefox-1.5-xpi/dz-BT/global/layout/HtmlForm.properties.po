@@ -1,0 +1,87 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/dom/chrome/layout/HtmlForm.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: layout/HtmlForm.properties.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-18 14:52+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Reset
+msgid "Reset"
+msgstr "སླར་སྒྲིག"
+
+#: Submit
+msgid "Submit Query"
+msgstr "འདྲི་དཔྱད་འདི་ཕུལ་ད།"
+
+#: Browse
+msgid "Browse..."
+msgstr "བརྡ་འཚོལ་..."
+
+#: FileUpload
+msgid "File Upload"
+msgstr "ཡིག་སྣོད་འདི་སྐྱེལ་བཙུགས།"
+
+#: IsIndexPrompt
+msgid "This is a searchable index. Enter search keywords:"
+msgstr "འདི་འཚོལ་བཏུབ་པའི་ཟུར་ཐོ་ཨིན།  འཚོལ་ཞིབ་ཀྱི་གཙོ་ཚིག་ཚུ་ཐོ་བཀོད་འབད :"
+
+#: ForgotPostWarning
+msgid "Form contains enctype=%S, but does not contain method=post.  Submitting normally with method=GET and no enctype instead."
+msgstr "འབྲི་ཤོག་དེ་གིས་  enctype=%Sའདི་གནས་དེ་ཡོདཔ་ཨིན་  དེ་འབདཝ་ད་ method=postའདི་མེད།  སྤྱིར་གཏང་གི་ method=GET དང་བཅས་ཕུལ་ནི་དང་  enctype འདི་མེན།"
+
+#: ForgotFileEnctypeWarning
+msgid "Form contains a file input, but is missing method=POST and enctype=multipart/form-data on the form.  The file will not be sent."
+msgstr "འབྲི་ཤོག་གུ་ ཡིག་སྣོད་ཨིན་པུཊི་ཅིག་གནས་དེ་ཡོད་  དེ་འབདཝ་ད་  method=POST དང་  enctype=multipart/form-data དེ་ཚུ་  འབྲི་ཤོག་གུ་བརླག་སྟོར་ཞུགས་ཡོད།  ཡིག་སྣོད་འདི་མི་གཏང་།"
+
+# LOCALIZATION NOTE (DefaultFormSubject): %S will be replaced with brandShortName
+#: DefaultFormSubject
+msgid "Form Post from %S"
+msgstr "%S ལས་འབྲི་ཤོག་གི་གནས་བསྐྱོད།"
+

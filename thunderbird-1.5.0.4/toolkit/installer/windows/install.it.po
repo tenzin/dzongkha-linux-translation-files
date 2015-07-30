@@ -1,0 +1,521 @@
+# extracted from 
+msgid ""
+msgstr ""
+"Project-Id-Version: install.it.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-11-08 09:54+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# converted from pseudo-properties .it file
+# section: [General]
+#: FONTNAME
+msgid "MS Sans Serif"
+msgstr "ཨེམ་ཨེསི་ སཱནསི་ སེ་རིཕ་"
+
+#: FONTSIZE
+msgid "8"
+msgstr "༨"
+
+#: CHARSET
+msgid "0"
+msgstr "༠"
+
+#Here is a partial list CHAR_SETS
+#  ANSI_CHARSET = 0
+#  DEFAULT_CHARSET = 1
+#  SYMBOL_CHARSET = 2
+#  SHIFTJIS_CHARSET = 128
+#  GB2312_CHARSET = 134
+#  HANGEUL_CHARSET = 129
+#  CHINESEBIG5_CHARSET = 136
+#  OEM_CHARSET 255
+#: WELCOMETITLEFONTNAME
+msgid "Trebuchet MS Bold"
+msgstr "ཊེ་བུ་ཅེཊི་ ཨེམ་ཨེསི་རྒྱགས་པ།"
+
+#: WELCOMETITLEFONTSIZE
+msgid "14"
+msgstr "༡༢"
+
+#The title text "Welcome to Mozilla Thunderbird" is too large to fit on the screen with a 14 pt
+#font. For now, use a 12 pt font to prevent the text from getting clipped because it is too big.
+#: WELCOMETITLEFONTSIZE_THUNDERBIRD
+msgid "12"
+msgstr "༡༢"
+
+#: WELCOMETITLEFONTWEIGHT
+msgid "700"
+msgstr "༧༠༠"
+
+#Here is a partial list font weight
+#  FW_NORMAL = 400
+#  FW_BOLD = 700
+#: OK_
+msgid "&OK"
+msgstr "བཏུབ་(&O)"
+
+#: OK
+msgid "OK"
+msgstr "བཏུབ་"
+
+#: CANCEL
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: CANCEL_
+msgid "&Cancel"
+msgstr "ཆ་མེད་(&C)"
+
+#: NEXT_
+msgid "&Next >"
+msgstr "ཤུལ་མམ་>(&N)"
+
+#: BACK_
+msgid "< &Back"
+msgstr "< རྒྱབ་ལོག་(&B)"
+
+#: IGNORE_
+msgid "&Ignore"
+msgstr "སྣང་མེད་བཞག་(&I)"
+
+#: PROXY_MESSAGE
+msgid "To configure a Proxy server for this download, click the Connection... button."
+msgstr "ཕབ་ལེན་འདི་གི་དོན་ལུ་ པོརོག་སི་སར་བར་ཅིག་ རིམ་སྒྲིག་འབད་ནི་ལུ་ མཐུད་ལམ་་་་ཨེབ་རྟ་གུ་ཨེབགཏང་འབད།"
+
+#: PROXY_BUTTON
+msgid "&Connection..."
+msgstr "མཐུད་ལམ་་་(&C)"
+
+#: PROXYSETTINGS
+msgid "Proxy Settings:"
+msgstr "པོརོག་སི་སྒྲིག་སྟངས་:"
+
+#: PROXYSETTINGS_
+msgid "&Proxy Settings"
+msgstr "པོརོག་སི་སྒྲིག་སྟངས་(&P)"
+
+#: SERVER
+msgid "Server:"
+msgstr "སར་བར་:"
+
+#: PORT
+msgid "Port:"
+msgstr "འདྲེན་ལམ་:"
+
+#: USERID
+msgid "User id:"
+msgstr "ལག་ལེན་པའི་ཨའི་ཌི་:"
+
+#: PASSWORD
+msgid "Password:"
+msgstr "ཆོག་ཡིག་:"
+
+#: SELECTDIRECTORY
+#: DLGBROWSETITLE
+msgid "Select a directory"
+msgstr "སྣོད་ཐོ་ཅིག་སེལ་འཐུ་འབད་"
+
+#: DIRECTORIES_
+msgid "&Directories:"
+msgstr "སྣོད་ཐོ་ཚུ་:(&D)"
+
+#: DRIVES_
+msgid "Dri&ves:"
+msgstr "འདྲེན་འཕྲུལ་ཚུ་:(&v)"
+
+#: STATUS
+msgid "Remaining:"
+msgstr "ལྷག་ལུས་:"
+
+#: FILE
+msgid "File:"
+msgstr "ཡིང་སྣོད་:"
+
+#: URL
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ་:"
+
+#: TO
+msgid "To Path:"
+msgstr "འདྲེན་ལམ་ལུ་:"
+
+#: ACCEPT_
+msgid "&Accept"
+msgstr "དང་ལེན་འབད་(&A)"
+
+#: DECLINE_
+msgid "&Decline"
+msgstr "ཁག་མ་བཟེད་(&D)"
+
+#: PROGRAMFOLDER_
+msgid "&Program Folder:"
+msgstr "ལས་རིམ་སྣོད་འཛིན་:(&P)"
+
+#: EXISTINGFOLDERS_
+msgid "E&xisting Folders:"
+msgstr "ཡོད་བཞིན་པའི་སྣོད་འཛིན་ཚུ་:(&x)"
+
+#: SETUPMESSAGE
+msgid "Setup has finished copying files to your computer.  Before you can use $ProductNameInternal$, you must restart Windows or your computer. Choose one of the following options and click OK to finish setup."
+msgstr "གཞི་སྒྲིག་གིས་ ཡིག་སྣོད་ཚུ་ ཁྱོད་ཀྱི་གློག་རིག་ལུ་ འདྲ་བཤུས་བརྐྱབ་ནི་མཇུག་བསྡུ་ཡི། ཁྱོད་ཀྱིས་$ProductNameInternal$ ལག་ལེན་མ་འཐབ་པའི་ཧེ་མ་ ཝིན་ཌོསི་ ཡང་ན་ ཁྱོད་རའི་གློག་རིག་ ལོག་སྟེ་འགོ་བཙུགས་དགོ། གཞི་སྒྲིག་མཇུག་བསྡུ་ནི་ལུ་ འོག་གི་གདམ་ཁ་གཅིག་ གདམ་ཁ་བརྐྱབས་ཏེ་ བཏུབ་ གུ་ཨེབ་གཏང་འབད།"
+
+#: RESTART
+msgid "Restart"
+msgstr "ལོག་སྟེ་འགོ་བཙུགས་"
+
+#: YESRESTART
+msgid "Yes, I want to restart my computer now."
+msgstr "ཨིན། ངེད་ཀྱི་གློག་རིག་འདི་ ད་ལྟོ་ར་ ལོག་སྟེ་འགོ་བཙུགས་ནི་ཨིན།"
+
+#: NORESTART
+msgid "No, I will restart my computer later."
+msgstr "མེན། ངེད་ཀྱི་གློག་རིག་འདི་ ཤུལ་ལས་ལོག་སྟེ་འགོ་བཙུགས་ནི་ཨིན།"
+
+#: ADDITIONALCOMPONENTS_
+msgid "&Additional Components:"
+msgstr "ཆ་ཤས་ཁ་སྐོང་ཚུ་:(&A)"
+
+#: DESCRIPTION
+msgid "Description"
+msgstr "འགྲེལ་བཤད་"
+
+#: TOTALDOWNLOADSIZE
+msgid "Total download size:"
+msgstr "ཕབ་ལེན་ཀྱི་ཚད་བསྡོམས་:"
+
+#: SPACEAVAILABLE
+msgid "Space Available:"
+msgstr "བར་སྟོང་ཡོད་པ་:"
+
+#: COMPONENTS_
+msgid "C&omponents:"
+msgstr "ཆ་ཤས་ཚུ་:(&o)"
+
+#: BROWSEINFO
+msgid "Choose a Folder to install $ProductName$ into:"
+msgstr "$ProductName$ གཞི་བཙུགས་འབད་སའི་ སྣོད་འཛིན་ཅིག་ གདམ་ཁ་རྐྱབས་:"
+
+#: DESTINATIONDIRECTORY
+msgid "Install Folder"
+msgstr "སྣོད་འཛིན་གཞི་བཙུགས་འབད་"
+
+#: BROWSE_
+msgid "B&rowse..."
+msgstr "བརྡ་འཚོལ་་་་(&r)"
+
+#: DOWNLOADSIZE
+msgid "Download Size: %u KB"
+msgstr "ཕབ་ལེན་གྱི་ཚན་:ཀེ་བི་%u།"
+
+#: CURRENTSETTINGS
+msgid "Current Settings:"
+msgstr "ད་ལྟོའི་སྒྲིག་སྟངས་:"
+
+#: INSTALLFOLDER
+msgid "...to the following location:"
+msgstr "འོག་གི་གནས་ཁོངས་ལུ་:"
+
+#: ADDTLCOMPWRAPPER
+msgid "- %s"
+msgstr "- %s"
+
+#: PRIMCOMPOTHERS
+msgid "%s, and:"
+msgstr "%s, དང་:"
+
+#: PRIMCOMPNOOTHERS
+msgid "%s"
+msgstr "%s"
+
+#: INSTALL_
+msgid "&Install"
+msgstr "གཞི་བཙུགས་འབད་(&I)"
+
+#: DELETE_
+msgid "&Delete"
+msgstr "བཏོན་གཏང་(&D)"
+
+#: CONTINUE_
+msgid "&Continue"
+msgstr "འཕྲོ་མཐུད་(&C)"
+
+#: SKIP_
+msgid "&Skip"
+msgstr "གོམ་འགྱོ་(&S)"
+
+#: README
+msgid "Re&ad Me"
+msgstr "ང་ལྷག་(&a)"
+
+#: PAUSE_
+msgid "&Pause"
+msgstr "ཐེམ་(&P)"
+
+#: RESUME_
+msgid "&Resume"
+msgstr "བསྐྱར་ལོག་(&R)"
+
+#: CHECKED
+msgid "Checked"
+msgstr "ཞིབ་དཔྱད་འབད་ཡི།"
+
+#: UNCHECKED
+msgid "Unchecked"
+msgstr "ཞིབ་དཔྱད་མ་འབདཝ་"
+
+#: EXTRACTING
+msgid "Extracting..."
+msgstr "ཕྱིར་འོན་འབད་དོ་་་"
+
+# section: [Messages]
+#: ERROR_DIALOG_CREATE
+msgid "Could not create %s dialog."
+msgstr "ཌའི་ལོག་%sགསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ERROR_FAILED
+msgid "%s failed."
+msgstr "%sམ་བཏུབ་"
+
+#: ERROR_FILE_NOT_FOUND
+msgid "File not found: %s"
+msgstr "ཡིག་སྣོད་མ་ཐོབ་:( %s)"
+
+#: ERROR_GET_SYSTEM_DIRECTORY_FAILED
+msgid "GetSystemDirectory() failed."
+msgstr "GetSystemDirectory() མ་བཏུབ།"
+
+#: ERROR_GET_WINDOWS_DIRECTORY_FAILED
+msgid "GetWindowsDirectory() failed."
+msgstr "GetWindowsDirectory() མ་བཏུབ་"
+
+#: DLGQUITTITLE
+msgid "Exit Setup"
+msgstr "གཞི་སྒྲིག་ཕྱིར་འཐོན་འབད་"
+
+#: DLGQUITMSG
+msgid "You have not finished installing $ProductName$. If you exit Setup now, $ProductName$ will not be installed. Are you sure you want to cancel Setup?"
+msgstr "ཁྱོད་ཀྱིས་$ProductName$ གཞི་བཙུགས་འབད་ནི་ མཇུག་མ་བསྡུ་བས། ཁྱོད་ཀྱིས་ད་ལྟོ་ ཕྱིར་འཐོན་འབད་བ་ཅིན་ $ProductName$ གཞི་བཙུགས་མི་འབད། ཁྱོད་ཀྱིས་གཞི་སྒྲིག་ཆ་མེད་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: DLG_REBOOT_TITLE
+msgid "Restarting Windows"
+msgstr "ཝིན་ཌོསི་ལོག་སྟེ་འགོ་བཙུགས་དོ་"
+
+#: ERROR_GETPROCADDRESS
+msgid "GetProcAddress() of %s failed."
+msgstr "%sགི་GetProcAddress() མ་བཏུབ།"
+
+#: ERROR_WRITEPRIVATEPROFILESTRING
+msgid "WritePrivateProfileString() failed for file %s"
+msgstr "ཡིག་སྣོད་%sགི་དོན་ལུ་ WritePrivateProfileString() མ་བཏུབ།"
+
+#: MSG_RETRIEVE_CONFIGINI
+msgid "Please wait while Setup retrieves its configuration script from the web..."
+msgstr "གཞི་སྒྲིག་གིས་ ཝེབ་ནང་ལས་ དེ་གི་རིམ་སྒྲིག་ཡིག་ཚུགས་ སླར་འདྲེན་འབད་བའི་རིང་ལུ་ བསྒུག་སྟེ་སྡོད་གནང་།"
+
+#: ERROR_CREATE_TEMP_DIR
+msgid "Setup was unable to create the TEMP directory: %s"
+msgstr "གཞི་སྒྲིག་གིས་ གནས་སྐབས་སྣོད་ཐོ་:%s གསར་བསྐྲུན་འབད་མ་ཚུགས།"
+
+#: ERROR_DETERMINING_DISK_SPACE
+msgid "Could not determine available disk space for: %s"
+msgstr "%sགི་དོན་ལུ་ ཌིཀསི་གི་བར་སྟོང་ ག་དེ་ཅིག་ཡོད་ག་ ངེས་འཛིན་འབད་མ་ཚུགས།"
+
+#: DLG_DISK_SPACE_CHECK_TITLE
+msgid "Disk space check"
+msgstr "ཌིཀསི་གི་བར་སྟོང་ཞིབ་དཔྱད་"
+
+#: DLG_DISK_SPACE_CHECK_CRUTIAL_MSG
+msgid "Setup has detected insufficient disk space to continue with installation on %s for the path: %sRequired: %sAvailable: %sClick Retry if more disk space has been made available, or click Cancel to cancel Setup."
+msgstr "གཞི་སྒྲིག་གིས་འགྲུལ་ལམ་ཀྱི་དོན་ལུ་ %sགུ་གཞི་བཙུགས་འཕྲོ་མཐུད་ནིའི་དོན་ལུ་ ཌིཀསི་ནང་བར་སྟོང་ལངམ་མེད་པའི་ངོས་འཛིན་བྱུང་ནུག་: དགོཔ་%s། ཡོདཔ་%s།  %s ཌིཀསི་ནང་བར་སྟོང་ཐེབ་བཟོ་ཡོད་པ་ཅིན་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་ གུ་ཨེབ་གཏང་འབད་ ཡང་ན་ གཞི་སྒྲིག་ཆ་མེད་གཏང་ནི་ལུ་ ཆ་མེད་གཏང་གུ་ ཨེབ་གཏང་འབད།"
+
+#: DLG_DISK_SPACE_CHECK_MSG
+msgid "Setup has detected insufficient disk space to continue with installation process on %s for the path: %sRequired: %sAvailable: %sClick OK to go back and choose a different destination path."
+msgstr "གཞི་སྒྲིག་གིས་ འགྲུལ་ལམ་གྱི་དོན་ལུ་ %s གུ་ གཞི་བཙུགས་འབད་ལས་སྦྱོར་འཕྲོ་མཐུད་ནི་ལུ་ ཌིཀསི་ནང་བར་སྟོང་ལངམ་མེད་པའི་ ངོས་འཛིན་བྱུང་ནུག་: དགོཔ་%s: ཡོདཔ་%s་: %s རྒྱབ་ཁར་ལོག་སྟེ་ འགྲོ་ཡུལ་འགྲུལ་ལམ་སོ་སོ་ཅིག་ གདམ་ཁ་བརྐྱབ་ནི་ལུ་ བཏུབ་ གི་ཨེབ་གཏང་འབད།"
+
+#: ERROR_CREATE_DIRECTORY
+msgid "Could not create folder: %sMake sure you have access to create the folder."
+msgstr "སྣོད་འཛིན་:%s གསར་བསྐྲུན་འབད་མ་ཚུགས། ཁྱོད་ལུ་སྣོད་འཛིན་གསར་བསྐྲུན་འབད་ནིའི་ འཛུལ་སྤྱོད་ཡོདཔ་ ངེས་གཏན་བཟོ།"
+
+#: ERROR_MESSAGE_TITLE
+msgid "$ProductNameInternal$ Setup Error"
+msgstr "$ProductNameInternal$ གཞི་སྒྲིག་གི་འཛོལ་བ།"
+
+#: STR_FILE_NUMBER
+msgid "File count:"
+msgstr "ཡིག་སྣོད་ཀྱི་གྱངས་ཁ།"
+
+#: STR_FILENAME
+msgid "Filename:"
+msgstr "ཡིག་སྣོད་ཀྱི་མིང་:"
+
+#: MSG_SMARTUPDATE_START
+msgid "Preparing Install, please wait..."
+msgstr "གཞི་བཙུགས་ཀྱི་གྲ་སྒྲིག་འབད་དོ་ བསྒུག་སྡོད་གནང་་་་"
+
+#: MSG_CONFIGURING
+msgid "Configuring %s, please wait..."
+msgstr "%sརིམ་སྒྲིག་འབད་དོ་ བསྒུག་སྡོད་གནང་་་་"
+
+#: ERROR_XPI_INSTALL
+msgid "Error occurred during installation"
+msgstr "གཞི་བཙུགས་འབད་བའི་སྐབས་ལུ་ འཛོལ་བ་བྱུང་ཡི།"
+
+#: ERROR_SETUP_REQUIREMENT
+msgid "$ProductName$ can only run on Windows 95 or newer. Setup will now exit."
+msgstr "$ProductName$ གིས་ ཝིན་ཌོསི་༩༥ ཡང་ན་ དེ་ལས་གསར་མི་ལུ་རྐྱངམ་གཅིག་ལུ་ ལཱ་འབད་བཏུབ། གཞི་སྒྲིག་དེ་་ད་ལྟོ་ཕྱིར་འཐོན་འགྱོ་འོང་།"
+
+#: DLG_EXTRACTING_TITLE
+msgid "$ProductName$ Setup - Install Progress"
+msgstr "$ProductName$ གཞི་སྒྲིག་ - གཞི་བཙུགས་ཡར་འཕེལ་འགྱོ་དོ།"
+
+#: STR_PROCESSINGFILE
+msgid "Preparing file: %s"
+msgstr "ཡིག་སྣོད་:%s གྲ་སྒྲིག་འབད་དོ་"
+
+#: STR_INSTALLING
+msgid "Currently installing %s"
+msgstr "ད་ལྟོ་%sགཞིབཙུགས་འབད་དོ་"
+
+#: STR_COPYINGFILE
+msgid "Copying file: %s"
+msgstr "ཡིག་སྣོད་:%s འདྲ་བཤུས་རྐྱབ་དོ་་་"
+
+#: MB_WARNING_STR
+msgid "Warning"
+msgstr "ཉེན་བརྡ་"
+
+#: MB_MESSAGE_STR
+msgid "Message"
+msgstr "འཕྲིན་དོན་"
+
+#: MB_ATTENTION_STR
+msgid "Attention"
+msgstr "དྲན་བཏོན་"
+
+#: MSG_CREATE_DIRECTORY
+msgid "The following directory does not exist:%sWould you like to create it?"
+msgstr "འོག་གི་སྣོད་ཐོའི་ནང་ %s མིན་འདུག། ཁྱོད་ཀྱིས་འདི་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན?"
+
+#: STR_CREATE_DIRECTORY
+msgid "Create Directory?"
+msgstr "སྣོད་ཐོ་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན?"
+
+#: ERROR_PROGRAM_FOLDER_NAME
+msgid "Invalid Program folder name entered."
+msgstr "ནུས་མེད་ལས་རིམ་སྣོད་འཛིན་གྱི་མིང་བཙུགས་ནུག།"
+
+#: CB_DEFAULT
+msgid "Default"
+msgstr "སྔོན་སྒྲིག་"
+
+#: ERROR_DESTINATION_PATH
+msgid "Invalid path entered."
+msgstr "ནུས་མེད་འགྲུལ་ལམ་བཙུགས་ནུག།"
+
+#: STR_SETUP_TYPE
+msgid "Setup Type:"
+msgstr "གཞི་སྒྲིགི་གི་དབྱེ་བ་:"
+
+#: STR_SELECTED_COMPONENTS
+msgid "Selected Components:"
+msgstr "སེལ་འཐུ་འབད་མི་ཆ་ཤས་ཚུ་:"
+
+#: STR_DESTINATION_DIRECTORY
+msgid "Destination Directory:"
+msgstr "འགྲོ་ཡུལ་སྣོད་ཐོ་"
+
+#: STR_PROGRAM_FOLDER
+msgid "Program Folder:"
+msgstr "ལས་རིམ་སྣོད་འཛིན་:"
+
+#: STR_DELETING_DESTINATION_DIR
+msgid "Deleting destination directory to be able to upgrade, please wait..."
+msgstr "ཡར་བསྐྱེད་འབད་ཚུགས་པའི་དོན་ལུ་ འགྲོ་ཡུལ་སྣོད་ཐོ་བཏོན་གཏང་དོ། བསྒུག་སྡོད་གནང་།"
+
+#: STR_SETUP
+msgid "Setup"
+msgstr "གཞི་སྒྲིག་"
+
+#: STR_DOWNLOAD_SITE
+msgid "Download Site:"
+msgstr "ཕབ་ལེན་ས་ཁོངས་:"
+
+#: STR_SAVE_INSTALLER_FILES
+msgid "Save downloaded and Setup program files to:"
+msgstr "ཕབ་ལེན་འབད་འབདཝ་དང་ གཞི་སྒྲིག་ལས་རིམ་ཡིག་སྣོད་ཚུ་ འདི་ནང་སྲུངས་:"
+
+#: MSG_INIT_SETUP
+msgid "Initializing Setup, please wait..."
+msgstr "གཞི་སྒྲིག་འགོ་འབྱེད་འབད་དོ། བསྒུག་སྡོེད་གནང་་་་"
+
+#: STR_MESSAGEBOX_TITLE
+msgid "%s Setup"
+msgstr "%sགཞི་སྒྲིག་"
+
+#: ERROR_GETVERSION
+msgid "GetVersionEx() failed!"
+msgstr "GetVersionEx()མ་བཏུབ!"
+
+#: DLG_USAGE_TITLE
+msgid "Usage"
+msgstr "ལག་ལེན་འཐབ་པ་"
+
+#: STATUS_EXTRACTING
+msgid "Extracting %s"
+msgstr "%sཕྱིར་འདོན་འབད་དོ་"
+
+#: STATUS_LAUNCHING_SETUP
+msgid "Launching Setup..."
+msgstr "གཞི་སྒྲིག་གསར་བཙུགས་འབད་དོ་་་་"
+
+#: ERROR_FILE_WRITE
+msgid "Unable to write file %s"
+msgstr "ཡིག་སྣོད་%sའབྲི་མ་ཚུགས།"
+
+#: TITLE
+msgid "Installation"
+msgstr "གཞི་བཙུགས་"
+
+#: ERROR_OUT_OF_MEMORY
+msgid "Out of memory!"
+msgstr "དྲན་ཚད་ཀྱིས་བདའ་མ་ཟུནམ་"
+
+#: ERROR_DLL_LOAD
+msgid "Could not load %s"
+msgstr "%sམངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ERROR_STRING_LOAD
+msgid "Could not load string resource ID %d"
+msgstr "ཡིག་རྒྱུན་ཐོན་ཁུངས་ཨའི་ཌི་%d མངོན་གསལ་འབད་མ་ཚུགས།"
+
+#: ERROR_STRING_NULL
+msgid "Null pointer encountered."
+msgstr "དཔག་བྱེད་གཅིག་ཡང་གདོང་ཐུག་བརྐྱབ་ནི་མིན་འདུག།"
+
+#: ERROR_GLOBALALLOC
+msgid "Memory allocation error."
+msgstr "དྲན་ཚད་སྐལ་སྤྲོད་ལུ་འཛོལ་བ་"
+
+#: MSG_FORCE_QUIT_PROCESS
+msgid "Setup has detected that %s (%s) is still running.  Click OK to quit %s and proceed with installation. Alternatively, use the Windows Task Manager to quit %s, and then click OK to continue with installation."
+msgstr "གཞི་སྒྲིག་གིས་ %s (%s)དེ་ ལཱ་འབད་དེ་ར་ཡོད་པའི་ངོས་འཛིན་བྱུང་ནུག། %sསྤང་ནི་ལུ་ བཏུབ་ གུ་ཨེབ་གཏང་འབད་དེ་ གཞི་བཙུགས་འབད་ནི་འཕྲོ་མཐུད། ཐབས་གཞན་ཡང་ ཝིན་ཌོསི་ལས་ཀའི་འཛིན་སྐྱོང་པ་ལག་ལེན་འཐབ་སྟེ་ %sསྤང་ཞིནམ་ལས་ གཞི་བཙུགས་འཕྲོ་མཐུད་ནི་ལུ་ བཏུབ་གུ་ཨེབ་གཏང་འབད།"
+
+#: MSG_FORCE_QUIT_PROCESS_FAILED
+msgid "Setup will now exit. Setup could not continue because %s (%s) is still running. Try manually quitting %s using Windows Task Manager, and then run Setup again."
+msgstr "གཞི་སྒྲིག་དེ་་ད་ལྟོ་ཕྱིར་འཐོན་འགྱོ་འོང་། %s (%s)དེ་ལཱ་འབད་དེ་ར་ཡོདཔ་ལས་ གཞི་སྒྲིག་འཕྲོ་མཐུད་མ་ཚུགས། ལག་ཐོག་ལས་ ཝིན་ཌོསི་ལས་ཀའི་འཛིན་སྐྱོང་པ་ལག་ལེན་འཐབ་སྟེ་ %sསྤང་ཞིནམ་ལས་ ལོག་སྟེ་ར་ གཞི་སྒྲིག་གཡོག་བཀོལ།"
+
+#: ERROR_PATH_WITHIN_WINDIR
+msgid "$ProductName$ cannot be installed into a folder that is inside the Windows folder. Please choose a different folder."
+msgstr "$ProductName$འདི་ ཝིན་ཌོསི་གི་སྣོད་འཛིན་ནང་ན་ཡོད་པའི་ སྣོད་འཛིན་ཅིག་ནང་ གཞི་བཙུགས་འབད་མི་ཚུགས། སྣོད་འཛིན་སོ་སོ་ཅིག་ གདམ་ཁ་རྐྱབས།"
+

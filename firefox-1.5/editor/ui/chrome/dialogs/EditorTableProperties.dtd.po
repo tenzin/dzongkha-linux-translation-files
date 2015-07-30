@@ -1,0 +1,306 @@
+# extracted from dz-BT_orig/editor/ui/chrome/dialogs/EditorTableProperties.dtd
+msgid ""
+msgstr ""
+"Project-Id-Version: EditorTableProperties\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-21 21:37+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is Mozilla Communicator client code, released
+# - March 31, 1998.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corporation.
+# - Portions created by the Initial Developer are Copyright (C) 1998-1999
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s):
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either of the GNU General Public License Version 2 or later (the "GPL"),
+# - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the GPL or the LGPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+#: tableWindow.title
+msgid "Table Properties"
+msgstr "ཐིག་ཁྲམ་གྱི་རྒྱུ་དངོས་ཚུ།"
+
+#: applyButton.label
+#: applyButton.accesskey
+msgid "&Apply"
+msgstr "འཇུག་སྤྱོད་འབད།(&A)"
+
+#: closeButton.label
+msgid "Close"
+msgstr "ཁ་བསྡམས།"
+
+#: tableTab.label
+msgid "Table"
+msgstr "ཐིག་ཁྲམ།"
+
+#: cellTab.label
+msgid "Cells"
+msgstr "ནང་ཐིག་ཚུ།"
+
+#: tableRows.label
+#: tableRows.accessKey
+msgid "&Rows:"
+msgstr "གྲལཐིག་ཚུ:(&R)"
+
+#: tableColumns.label
+#: tableColumns.accessKey
+msgid "&Columns:"
+msgstr "ཀེར་ཐིག་ཚུ:(&C)"
+
+#: tableHeight.label
+#: tableHeight.accessKey
+msgid "Hei&ght:"
+msgstr "མཐོ་ཚད:(&g)"
+
+#: tableWidth.label
+#: tableWidth.accessKey
+msgid "&Width:"
+msgstr "རྒྱ་ཚད:(&W)"
+
+#: tableBorderSpacing.label
+msgid "Borders and Spacing"
+msgstr "མཐའ་མཚམས་ཚུ་དང་བར་སྟོང་བཞག་ཐངས།"
+
+#: tableBorderWidth.label
+#: tableBorderWidth.accessKey
+msgid "&Border:"
+msgstr "མཐའ་མཚམས:(&B)"
+
+#: tableSpacing.label
+#: tableSpacing.accessKey
+msgid "&Spacing:"
+msgstr "བར་སྟོང་བཞག་ཐངས:(&S)"
+
+#: tablePadding.label
+#: tablePadding.accessKey
+msgid "&Padding:"
+msgstr "བར་ཤབས:(&P)"
+
+#: tablePxBetwCells.label
+msgid "pixels between cells"
+msgstr "ནང་ཐིག་ཚུའི་བར་ན་པིག་སེལ་ཚུ།"
+
+#: tablePxBetwBrdrCellContent.label
+msgid "pixels between cell border and content"
+msgstr "ནང་ཐིག་མཐའ་མཚམས་དང་ནང་དོན་བར་ན་པིག་སེལ་ཚུ།"
+
+#: tableAlignment.label
+#: tableAlignment.accessKey
+msgid "&Table Alignment:"
+msgstr "ཐིག་ཁྲམ་ཕྲང་སྒྲིག:(&T)"
+
+#: tableCaption.label
+#: tableCaption.accessKey
+msgid "Captio&n:"
+msgstr "དཔར་བཤད:(&n)"
+
+#: tableCaptionAbove.label
+msgid "Above Table"
+msgstr "ཐིག་ཁྲམ་གྱི་ལྟག་ལུ།"
+
+#: tableCaptionBelow.label
+msgid "Below Table"
+msgstr "ཐིག་ཁྲམ་གྱི་འོག་ལུ།"
+
+#: tableCaptionLeft.label
+msgid "Left of Table"
+msgstr "ཐིག་ཁྲམ་གྱི་གཡོན།"
+
+#: tableCaptionRight.label
+msgid "Right of table"
+msgstr "ཐིག་ཁྲམ་གྱི་གཡས།"
+
+#: tableCaptionNone.label
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: tableInheritColor.label
+msgid "(Let page color show through)"
+msgstr "(ཤོག་ལེབ་ཚོས་གཞི་བརྒྱུད་དེ་སྟོན་བཅུག)"
+
+#: cellPercent.label
+msgid "percent of table"
+msgstr "ཐིག་ཁྲམ་གྱི་བརྒྱ་ཆ།"
+
+#: cellSelection.label
+msgid "Selection"
+msgstr "སེལ་འཐུ།"
+
+#: cellSelectCell.label
+msgid "Cell"
+msgstr "ནང་ཐིག"
+
+#: cellSelectRow.label
+msgid "Row"
+msgstr "གྲལ་ཐིག"
+
+#: cellSelectColumn.label
+msgid "Column"
+msgstr "ཀེར་ཐིག"
+
+#: cellSelectNext.label
+#: cellSelectNext.accessKey
+msgid "&Next"
+msgstr "ཤེལ་མམ།(&N)"
+
+#: cellSelectPrevious.label
+#: cellSelectPrevious.accessKey
+msgid "&Previous"
+msgstr "ཧེ་མ།(&P)"
+
+#: cellApplyBeforeMove.label
+msgid "Apply changes before changing selection"
+msgstr "སེལ་འཐུ་བསྒྱུར་བཅོས་འབད་བའི་ཧེ་མ་བསྒྱུར་བཅོས་ཚུ་འཇུག་སྤྱོད་འབད།"
+
+#: cellKeepCurrentData.label
+msgid "Keep current settings"
+msgstr "ད་ལྟོའི་སྒྲིག་སྟངས་ཚུ་བཞག"
+
+# LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap)
+#: applyBeforeChange1.label
+msgid "Current changes will be applied"
+msgstr "ད་ལྟོའི་བསྒྱུར་བཅོས་ཚུ་འཇུག་སྤྱོད་འབད་འོང་།"
+
+#: applyBeforeChange2.label
+msgid "before changing the selection."
+msgstr "སེལ་འཐུ་དེ་བསྒྱུར་བཅོས་འབད་བའི་ཧེ་མ།"
+
+#: cellRowSpan.label
+msgid "Row Span:"
+msgstr "གྲལ་ཚད:"
+
+#: cellColSpan.label
+msgid "Column Span:"
+msgstr "ཀེར་ཐིག་འཕར་ཚད:"
+
+#: cellContentAlignment.label
+msgid "Content Alignment"
+msgstr "ནང་དོན་ཕྲང་སྒྲིག"
+
+#: cellHorizontal.label
+#: cellHorizontal.accessKey
+msgid "Hori&zontal:"
+msgstr "ཐད་སྙོམས:(&z)"
+
+#: cellVertical.label
+#: cellVertical.accessKey
+msgid "&Vertical:"
+msgstr "ཀེར་ཕྲང་:(&V)"
+
+#: cellStyle.label
+#: cellStyle.accessKey
+msgid "&Cell Style:"
+msgstr "ནང་ཐིག་བཟོ་རྣམ:(&C)"
+
+#: cellNormal.label
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་།"
+
+#: cellHeader.label
+msgid "Header"
+msgstr "མགོ་ཡིག"
+
+#: cellTextWrap.label
+#: cellTextWrap.accessKey
+msgid "&Text Wrap:"
+msgstr "ཚིག་ཡིག་ལོག་མཚམས་བཟོ་ནི:(&T)"
+
+#: cellWrap.label
+msgid "Wrap"
+msgstr "ལོག་མཚམས།"
+
+#: cellNoWrap.label
+msgid "Don't wrap"
+msgstr "ལོག་མཚམས་མ་བཟོ།"
+
+#: cellAlignTop.label
+msgid "Top"
+msgstr "མགོ།"
+
+#: cellAlignMiddle.label
+msgid "Middle"
+msgstr "བར་མ།"
+
+#: cellAlignBottom.label
+msgid "Bottom"
+msgstr "གཤམ།"
+
+#: cellAlignJustify.label
+msgid "Justify"
+msgstr "ལྟེམས་བཅོས་འབད་ནི།"
+
+#: cellAlignAtChar.label
+msgid "At Character:"
+msgstr "ཡིག་འབྲུ་ལུ:"
+
+#: cellInheritColor.label
+msgid "(Let table color show through)"
+msgstr "(ཐིག་ཁྲམ་ཚོས་གཞི་བརྒྱུད་དེ་སྟོན་བཅུག)"
+
+#: cellUseCheckboxHelp.label
+msgid "Use checkboxes to determine which properties are applied to all selected cells"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ནང་ཐིག་ཚུ་ཆ་མཉམ་ལུ་འཇུག་སྤྱོད་འབད་མི་རྒྱུ་དངོས་ཚུ་གཏན་འབེབས་བཟོ་ནི་ལུ་ཞིབ་དཔྱད་སྒྲོམ་ཚུ་ལག་ལེན་འཐབ།"
+
+# Used in both Table and Cell panels
+#: size.label
+msgid "Size"
+msgstr "ཚད།"
+
+#: pixels.label
+msgid "pixels"
+msgstr "པིག་སེལ་ཚུ།"
+
+#: backgroundColor.label
+#: backgroundColor.accessKey
+msgid "&Background Color:"
+msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི:(&B)"
+
+#: AlignLeft.label
+msgid "Left"
+msgstr "གཡོན།"
+
+#: AlignCenter.label
+msgid "Center"
+msgstr "དབུས།"
+
+#: AlignRight.label
+msgid "Right"
+msgstr "གཡས།"
+

@@ -1,0 +1,64 @@
+# LANGUAGE translation of Drupal (includes/unicode.inc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: unicode.inc,v 1.17 2006/03/13 21:44:49 unconed
+# yangka <yanang_ka@hotmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unicode\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-09-29 03:50+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: includes/unicode.inc:34
+msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"%url\">PHP PCRE documentation</a> for more information."
+msgstr "ཁྱོད་ཀྱི་པི་ཨེཆ་པི་གཞི་བཙུགས་ནང་གི་པི་སི་ཨར་ཨི་འདི་དུས་མཐུན་བཟོ་ཡོདཔ། འདི་གིས་ཡུ་ནི་ཀོཌི་ཚིག་ཡིག་ལགེས་སྐྱོང་འབད་བའི་སྐབས་དཀའ་ངལ་ཚུ་རྒྱུ་རྐྱེན་བྱུང་འོང་། ཁྱོད་ཀྱིས་པི་ཨེཆ་པི་ ༤་༣་༣ ཡང་ན་མཐོ་མི་གཡོག་བཀོལ་བ་ཅིན་ཁྱོད་ཀྱིས་པི་ཨེཆ་པི་གིས་བཀྲམ་སྤེལ་འབད་ཡོད་མི་པི་སི་ཨར་ཨི་དཔེར་མཛོད་འདི་ལག་ལེན་འཐབ་ཨིནམ་ངེས་ཏིག་དགོ། བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་ <a href=\"%url\">པི་ཨེཆ་པི་ པི་སི་ཨར་ཨི་ཡིག་ཆ་་ལུ་</a> གཞི་བསྟུན་འབད་གནང་།"
+
+#: includes/unicode.inc:47
+msgid "Multibyte string function overloading in PHP is active and must be disabled. Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "སྣ་མང་བཱའིཊི་ཡིག་རྒྱུན་ལས་འགན་ལས་སྣ་མང་དྲགས་འབད་ནི་པི་ཨེཆ་པི་ནང་ཤུགས་ལྡན་དང་ལྕོགས་མིན་བཟོ་དགོཔ་ཨིན། ini <em>mbstring.func_overload</em> སྒྲིག་སྟངས་ནང་ཞིབ་དཔྱད་འབད།  བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་<a href=\"%url\">པི་ཨེཆ་པི་ཨེམ་བི་ཡིག་རྒྱུན་ཡིག་ཆ་ནང་</a>གཞི་བསྟུན་འབད་གནང་།"
+
+#: includes/unicode.inc:53
+msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.encoding_translation</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "སྣ་མང་བཱའིཊི་ཡིག་རྒྱུན་ཨིན་པུཊི་གཞི་བསྒྱུར་པི་ཨེཆ་པི་འདི་སིགས་ལྡན་དང་ལྕོགས་མིན་བཟོ་དགོཔ་ཨིན།  ini <em>mbstring.encoding_translation</em> སྒྲིག་སྟངས་ནང་པི་ཨེཆ་པི་འདི་ཞིབ་དཔྱད་འབད། བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་ <a href=\"%url\">པི་ཨེཆ་པི་ཨེམ་བི་ཡིག་རྒྱུན་ཡིག་ཆ་ནང་གཞི་བསྟུན་འབད་གནང་།</a> "
+
+#: includes/unicode.inc:59
+msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_input</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "སྣ་མང་བཱའིཊི་ཡིག་རྒྱུན་ཨིན་པུཊི་གཞི་བསྒྱུར་པི་ཨེཆ་པི་ནང་ཤུགས་ལྡན་ཨིནམ་དང་ལྕོགས་མིན་བཟོ་དགོཔ་ཨིན།  ini <em>mbstring.http_input</em> སྒྲིག་སྟངས་ནང་ཞིབ་དཔྱད་འབད།  བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་ <a href=\"%url\">པི་ཨེཆ་པི་ཨེམ་བི་ཡིག་རྒྱུན་ཡིག་ཆ་</a> གཞི་བསྟུན་འབད་གནང་།"
+
+#: includes/unicode.inc:65
+msgid "Multibyte string output conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_output</em> setting. Please refer to the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr "སྣ་མང་བཱའིཊི་ཡིག་རྒྱུན་ཨའུཊི་པུ་ཊི་གཞི་བསྒྱུར་པི་ཨེཆ་པི་ནང་འདི་ཤུགས་ལྡན་ཨིནམ་དང་ལྕོགས་མིན་བཟོ་དགོཔ་ཨིན། ini <em>mbstring.http_output</em> ནང་གི་པི་ཨེཆ་པི་འདི་ཞིབ་དཔྱད་འབད། བརྡ་དོན་ཧེང་བཀེལ་དོན་ལུ་ <a href=\"%url\">པི་ཨེཆ་པི་ཨེམ་བི་ཡིག་རྒྱུན་ཡིག་ཆ་ལུ་ </a>གཞི་བསྟུན་འབད་གནང་།"
+
+#: includes/unicode.inc:81
+msgid "Standard PHP: operations on Unicode strings are emulated on a best-effort basis. Install the <a href=\"%url\">PHP mbstring extension</a> for improved Unicode support."
+msgstr "ཚད་ལྡན་པི་ཨེཆ་པི་: ཡུ་ནི་ཀོཌི་ཡིག་རྒྱུན་ཚུ་གུ་བཀོལ་སྤྱོད་ཚུ་བརྩོན་ཤུགས་དྲགས་ཤོས་གཞི་རྩ་ཅིག་གུ་ནུས་པ་བསྐྱེད་ཡོདཔ་ཨིན།  ཡུ་ནི་ཀོཌི་རྒྱབ་སྐྱོར་དོན་ལུ་ <a href=\"%url\">པི་ཨེཆ་པི་ཨེམ་བི་ཡིག་རྒྱུན་རྒྱ་བསྐྱེད་</a> གཞི་བཙུགས་ཡབད།"
+
+#: includes/unicode.inc:82
+msgid "Multi-byte: operations on Unicode strings are supported through the <a href=\"%url\">PHP mbstring extension</a>."
+msgstr "སྣ་མང་-བཱའིཊི: ཡུ་ནི་ཀོཌི་ཡིག་རྒྱུན་ཚུ་གུ་བཀོལ་སྤྱོད་ཚུ་ <a href=\"%url\">པི་ཨེཆ་པི་ཨེམ་བི་ཡིག་རྒྱུན་རྒྱ་བསྐྱེད་</a>བརྒྱུད་དེ་རྒྱབ་སྐྱོར་འབད་ཡོདཔ་ཨིན།"
+
+#: includes/unicode.inc:83
+msgid "Invalid: the current configuration is incompatible with Drupal."
+msgstr "ནུས་མེད: ད་ལྟོའི་རིམ་སྒྲིག་འདི་ཌུ་པཱལ་དང་གཅིག་ཁར་མཐུན་འགྱུར་ཅན་མེདཔ།"
+
+#: includes/unicode.inc:84
+msgid "String handling method"
+msgstr "ཡིག་རྒྱུན་ལགས་སྐྱོང་ཐབས་ལམ།"
+
+#: includes/unicode.inc:131
+msgid "Could not convert XML encoding '%s' to UTF-8."
+msgstr " XML ཨིན་ཀོ་ཌིང་འདི་ '%s'  UTF-8་ལུ་གཞི་བསྒྱུར་འབད་མི་བཏུབ།"
+
+#: includes/unicode.inc:164
+msgid "Unsupported encoding '%s'. Please install iconv, GNU recode or mbstring for PHP."
+msgstr "རྒྱབ་སྐྱོར་མེད་པའི་ཨིན་ཀོ་ཌིང་'%s'། པི་ཨེཆ་པི་དོན་ལུ་ངོས་དཔར་ཝི་ ཇི་ཨེན་ཡུ་སླར་ཨང་རྟགས་ཡང་ན་ཨེམ་བི་ཡིག་རྒྱུན་གཞི་བཙུགས་གནང་།"
+

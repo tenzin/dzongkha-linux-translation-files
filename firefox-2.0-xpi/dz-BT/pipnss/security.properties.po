@@ -1,0 +1,116 @@
+#
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Sean Cotter <cotter@netscape.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/security/manager/chrome/pipnss/security.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: Securities.prpperties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 12:27+0600\n"
+"PO-Revision-Date: 2007-01-17 12:37+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Title
+msgid "Security Warning"
+msgstr "སྲུང་སྐྱོབ་ཀྱི་ཉེན་བརྡ་"
+
+#: MixedContentMessage
+msgid "You have requested an encrypted page that contains some unencrypted information. Information that you see or enter on this page could easily be read by a third party."
+msgstr "ཁྱོད་ཀྱིས་གསང་བ་མ་བཟོ་བའི་བརྡ་དོན་དུམ་གྲ་ཅིག་ཡོད་པའི་ གསང་བཟོས་ཤོག་ལེབ་ཅིག་གི་ཞུ་བ་འབད་ནུག། ཁྱོད་ཀྱིས་ཤོག་ལེབ་འདི་ལུ་བལྟ་མིའམ་ བཙུགས་མི་བརྡ་དོན་ཚུ་ རྩ་བོ་གསུམ་པ་ཅིག་གིས་ འཇམ་ཏོང་ཏོ་སྦེ་ལྷག་ཚུགས།"
+
+#: LeaveSecureMessage
+msgid "You are about to leave an encrypted page. Information you send or receive from now on could easily be read by a third party."
+msgstr "ཁྱོད་ཀྱིས་གསང་བཟོས་ཤོག་ལེབ་ཅིག་ལས་ འཐོན་འགྱོ་ནི་འབད་དོ། ད་ལས་ཕར་ ཁྱོད་ཀྱིས་གཏང་མིའམ་ ཐོབ་མི་བརྡ་དོན་ཚུ་ རྩ་བོ་གསུམ་ཅིག་གིས་ འཇམ་ཏོང་ཏོ་སྦེ་ལྷག་ཚུགས།"
+
+#: EnterSecureMessage
+msgid "You have requested an encrypted page. The web site has identified itself correctly, and information you see or enter on this page can't easily be read by a third party."
+msgstr "ཁྱོད་ཀྱིས་གསང་བཟོས་ཤོག་ལེབ་ཅིག་གི་ ཞུ་བ་འབད་ནུག། ཝེབ་ས་ཁོངས་ཀྱིས་ འདི་ཚུལ་མཐུན་སྦེ་ངོས་འཛིན་འབད་ཡོདཔ་ལས་ ཁྱོད་ཀྱིས་ཤོག་ལེབ་འདི་གུ་ བལྟ་མིའམ་བཙུགས་མི་བརྡ་དོན་ཚུ་ རྩ་བོ་གསུམ་པ་ཅིག་གིས་ འཇཤ་ཏོང་ཏོ་སྦེ་ ལྷགས་མི་ཚུགས།"
+
+#: WeakSecureMessage
+msgid "You have requested a page that uses low-grade encryption. The web site has identified itself correctly, but information you see or enter on this page could be read by a third party."
+msgstr "ཁྱོད་ཀྱིས་གསང་བཟོ་སྡེ་རིམ་ཆུང་བ་ ལག་ལེན་འཐབ་མི་ ཤོག་ལེབ་ཅིག་གི་ ཞུ་བ་འབད་ནུག། ཝེབ་ས་ཁོངས་ཀྱིས་ འདི་ཚུལ་མཐུན་སྦེ་ ངོས་འཛིན་འབད་ཡོད་རུང་ ཁྱོད་ཀྱིས་ཤོག་ལེབ་འདི་གུ་ བལྟ་མིའམ་བཙུགས་མི་བརྡ་དོན་ཚུ་ རྩ བོ་གསུམ་པ་ཅིག་གིས་ལྷག་ཚུགས།"
+
+#: PostToInsecureFromSecureMessage
+msgid "Although this page is encrypted, the information you have entered is to be sent over an unencrypted connection and could easily be read by a third party.##Are you sure you want to continue sending this information?##"
+msgstr "ཤོག་ལེབ་འདི་གསང་བཟོས་ཨིན་རུང་ ཁྱོད་ཀྱིས་བཙུགས་མི་བརྡ་དོན་དེ་ གསང་བ་མེན་པའི་མཐུད་ལམ་ཅིག་གི་ཐོག་ལས་ གཏང་ནི་ཨིནམ་ལས་ རྩོ་བོ་གསུམ་པ་ཅིག་གིས་ འཇམ་ཏོང་ཏོ་སྦེ་ལྷག་ཚུགས། ##ཁྱོད་ཀྱིས་བརྡ་དོན་འདི་འཕྲོ་མཐུད་ནི་ ངེས་གཏན་ཨིན་ན?##"
+
+#: PostToInsecureFromInsecureMessage
+msgid "The information you have entered is to be sent over an unencrypted connection and could easily be read by a third party.##Are you sure you want to continue sending this information?##"
+msgstr "ཁྱོད་ཀྱིས་བཙུགས་མི་བརྡ་དོན་དེ་ གསང་བ་མེན་པའི་མཐུད་ལམ་ཅིག་གི་ཐོག་ལས་ གཏང་ནི་ཨིནམ་ལས་ རྩོ་བོ་གསུམ་པ་ཅིག་གིས་ འཇམ་ཏོང་ཏོ་སྦེ་ལྷག་ཚུགས། ##ཁྱོད་ཀྱིས་བརྡ་དོན་འདི་འཕྲོ་མཐུད་དེ་ གཏང་ནི་ངེས་གཏན་ཨིན་ན?##"
+
+#: MixedContentShowAgain
+msgid "Alert me whenever I'm about to view an encrypted page that contains some unencrypted information."
+msgstr "ང་གིས་གསང་བ་མེན་པའི་བརྡ་དོན་ཡོད་མི་ གསང་བཟོས་ཤོག་ལེབ་ཅིག་ ལྷག་ནི་འབདཝ་ཨིན་ན་མེན་ ང་ལུ་དྲན་བརྡ་འབད་གནང་།"
+
+#: LeaveSecureShowAgain
+msgid "Alert me whenever I leave an encrypted page for one that isn't encrypted."
+msgstr "ང་གིས་ནམ་རང་འབད་རུང་ གསང་བཟོས་མེན་པའི་ཤོག་ལེབ་ཅིག་གི་དོན་ལུ་ གསང་བཟོས་ཤོལ་ལེབ་ཅིག་བཞག་པའི་སྐབས་ ང་ལུ་དྲན་བརྡ་འབད་གནང་།"
+
+#: EnterSecureShowAgain
+msgid "Alert me whenever I am about to view an encrypted page."
+msgstr "ང་གིས་གསང་བཟོས་ཤོག་ལེབ་ཅིག་ བལྟ་ནི་འབད་བའི་སྐབས་ ང་ལུ་དྲནཡབརྡ་འབད་གནང་།"
+
+#: WeakSecureShowAgain
+msgid "Alert me whenever I am about to view a page that uses low-grade encryption."
+msgstr "ང་གིས་ནམ་རང་འབད་རུང་ གསང་བཟོ་སྡེ་རིམ་ཆུང་བ་ ལག་ལེན་འཐབ་མི་ཤོག་ལེབ་ཅིག་ བལྟ་ནི་འབད་བའི་སྐབས་ ང་ལུ་དྲན་བརྡ་འབད་གནང་།"
+
+#: PostToInsecureFromInsecureShowAgain
+msgid "Alert me whenever I submit information that's not encrypted."
+msgstr "ང་གིས་ནམ་རང་འདབ་རུང་ གསང་བཟོས་མེན་པའི་བརྡ་དོན་ བཙུགས་པའི་སྐབས་ ང་ལུ་དྲན་བརྡ་འབད་གནང་།"
+
+#: SecurityButtonTooltipText
+msgid "Displays security information about the current page"
+msgstr "ད་ལྟོའི་ཤོག་ལེབ་སྐོར་ལས་ སྲུང་སྐྱོབ་ཀྱི་བརྡ་དོན་ བཀྲམ་སྟོན་འབདཝ་ཨིན།"
+
+#: SecurityButtonMixedContentTooltipText
+msgid "Warning: Contains unauthenticated content"
+msgstr "ཉེན་བརྡ་:བདེན་བཤད་མ་འབད་བའི་ནང་དོན་འདུག།"
+
+#: Continue
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་"
+

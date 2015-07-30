@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomesu.HEAD.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-13 22:09+0100\n"
+"PO-Revision-Date: 2006-12-15 11:01+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/gnomesu-auth-dialog.c:111
+msgid "Password needed"
+msgstr "ཆོག་ཡིག་དགོཔ་ཨིན་"
+
+#: ../src/gnomesu-auth-dialog.c:164
+msgid "Command:"
+msgstr "བརྡ་བཀོད་:"
+
+#: ../src/gnomesu-auth-dialog.c:214
+msgid "C_ontinue"
+msgstr "འཕྲོ་མཐུད་(_o)"
+
+#: ../src/gnomesu-auth-dialog.c:364
+msgid "Administrator (root) privilege is required."
+msgstr "བདག་སྐྱོང་པའི་(རྩ་བ་)ཁེ་དབང་འདི་དགོས་མཁོ་ཡོདཔ་ཨིན་"
+
+#: ../src/gnomesu-auth-dialog.c:365
+msgid "Please enter the root password to continue."
+msgstr "འཕྲོ་མཐུད་ནིའི་དོན་ལས་ རྩ་བ་ཆོག་ཡིག་འདི་ཐོ་བཀོད་གནང་།"
+
+#: ../src/gnomesu-auth-dialog.c:414
+msgid "_Password:"
+msgstr "ཆོག་ཡིག་:(_P)"
+
+#: ../src/gnomesu-auth-dialog.c:439
+msgid "Please wait, verifying password..."
+msgstr "བསྒུག་གནང་  ཆོག་ཡིག་བདེན་སྦྱོར་འབད་དོ་"
+
+#: ../src/gnomesu-auth-dialog.c:447
+msgid "Incorrect password, please try again."
+msgstr "བདེན་མེད་ཆོག་ཡིག་ ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../src/gnomesu-auth-dialog.c:454
+msgid "Incorrect password, please try again. You have one more chance."
+msgstr "བདེན་མེད་ཆོག་ཡིག་ ལོག་འབད་རྩོལ་བསྐྱེད་གནང་། ཁྱོད་ལུ་གོ་སྐབས་གཅིག་ཡོད།"
+
+#: ../src/libgnomesu.c:182
+msgid "No services for libgnomesu are available.\n"
+msgstr "ལིབ་ཇི་ནོམ་སིའུ་གི་དོན་ལུ་ ཞབས་ཏོག་ཚུ་འཐོབ་ཚུགསཔ་མེད།\n"
+
+#: ../src/services/pam.c:192
+#: ../src/services/su.c:185
+#, c-format
+msgid "Please enter %s's password and click Continue."
+msgstr " %s གི་ཆོག་ཡིག་ཐོ་བཀོད་འབད་ཞིནམ་ལས་ འཕྲོ་མཐུད་ཨེབ་གཏང་འབད་གནང་།"
+
+#: ../src/services/pam.c:194
+#: ../src/services/su.c:187
+msgid "The requested action needs further authentication."
+msgstr "ཞུ་བ་འབད་ཡོད་པའི་བྱ་བ་འདི་ལུ་ བདེན་བཤད་ཐེབས་དགོཔ་ཨིན།"
+
+#: ../src/services/pam.c:200
+#: ../src/services/su.c:193
+#, c-format
+msgid "%s's _password:"
+msgstr "%s གི་ཆོག་ཡིག་:(_p)"
+
+#: ../src/services/pam.c:229
+#: ../src/services/su.c:222
+#, c-format
+msgid "User '%s' doesn't exist."
+msgstr "ལག་ལེན་པ་ '%s' འདི་མེད་"
+
+#: ../src/services/pam.c:234
+#: ../src/services/su.c:226
+msgid "An unknown error occured while authenticating."
+msgstr "བདེན་བཤད་འབད་བའི་སྐབས་ མ་ཤེས་པའི་འཛོལ་བ་ཅིག་འབྱུང་ཡོད།"
+
+#: ../src/services/pam.c:238
+#: ../src/services/su.c:230
+msgid "You do not have permission to authenticate."
+msgstr "ཁྱོད་ལུ་བདེན་བཤད་འབད་ནིའི་དོན་ལས་གནང་བ་མེད།"
+
+#: ../src/services/pam.c:242
+msgid "Unable to initialize the PAM authentication system."
+msgstr "པི་ཨེ་ཨེམ་བདེན་བཤད་འབད་ནིའི་རིམ་ལུགས་འདི་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+
+#: ../su-backend/closeout.c:71
+#: ../su-backend/closeout.c:73
+msgid "write error"
+msgstr "འབྲི་ནིའི་འཛོལ་བ་"
+
+#: ../su-backend/version-etc.c:38
+#, c-format
+msgid "Written by %s.\n"
+msgstr "%s གིས་བྲིས་ཡོད།\n"
+
+#: ../su-backend/version-etc.c:39
+msgid ""
+"\n"
+"Copyright (C) 1999 Free Software Foundation, Inc.\n"
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"\n"
+"འདྲ་བཤུས་དབང་ཆ་ (C) ༡༩༩༩ བར་སྟོང་མཉེན་ཆས་གཞི་ཚོགས་ ཨའི་ཨེན་སི་\n"
+"འ་ནི་འདི་བར་སྟོང་མཉེན་ཆས་ཨིན་ འདྲ་བཤུས་རྐྱབས་ནིའི་གནས་སྟངས་ཚུ་གི་དོན་ལུ་ འབྱུང་ཁུངས་འདི་བལྟ། འདི་ནང་ལུ་\n"
+"ཉེན་ལེན་མེད་  ཡང་ན་ ཚོང་འབྲེལ་ ཡང་ན་ བྱེ་བྲག་གི་དགོས་དོན་ཅིག་གི་དོན་ལུ་ ཚུད་སྒྲིག་ལུ་ཡང་མེད།\n"
+
+#: ../tools/gnomesu.c:40
+msgid "Pass the command to execute as one single string."
+msgstr "ཡིག་རྒྱུན་རྐྱང་པ་ཅིག་སྦེ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ བརྡ་བཀོད་འདི་ རྩིས་སྤྲོད་འབད་"
+
+#: ../tools/gnomesu.c:41
+msgid "COMMAND"
+msgstr "བརྡ་བཀོད་"
+
+#: ../tools/gnomesu.c:44
+msgid "Run as this user instead of as root."
+msgstr "རྩ་བ་གི་ཚབ་ལུ་ འ་ནི་ལག་ལེན་པ་སྦེ་གཡོག་བཀོལ།"
+
+#: ../tools/gnomesu.c:45
+msgid "USERNAME"
+msgstr "ལག་་ལེན་པའི་མིང་"
+
+#: ../tools/gnomesu.c:65
+msgid "GNOME SuperUser"
+msgstr "ཆི་ནོམ་ལག་ལེན་པ་གཙོ་བོ་"
+

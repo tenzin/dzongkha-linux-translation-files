@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-webcal.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-02 03:13+0000\n"
+"PO-Revision-Date: 2007-03-01 15:49+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../evolution-webcal.schemas.in.in.h:1
+msgid "How to handle webcal URLs"
+msgstr "ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་འཐབ་ཐངས།"
+
+#: ../evolution-webcal.schemas.in.in.h:2
+msgid "Run program in terminal"
+msgstr "ལས་རིམ་ཊར་མི་ནཱལ་ནང་ གཡོག་བཀོལ།"
+
+#: ../evolution-webcal.schemas.in.in.h:3
+msgid "Set to true to have a program specified in command handle webcal URLs"
+msgstr "ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་གི་བརྡ་བཀོད་ནང་ གསལ་བཀོད་འབད་མི་ ལས་རིམ་ཅིག་འཐོབ་ནིའི་དོན་ལུ་ བདེན་པ་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../evolution-webcal.schemas.in.in.h:4
+msgid "True if the program to handle this URL should be run in a terminal"
+msgstr "བདེན་པ་ཨིན་པ་ཅིན་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་གི་ལས་རིམ་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ ལག་ལེན་འཐབ་དགོ"
+
+#: ../evolution-webcal.schemas.in.in.h:5
+msgid "URL handler for webcal uris"
+msgstr "ཝེབ་ཀཱལ་ ཡུ་ཨར་ཨའི་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་ ཡུ་ཨར་ཨེལ།"
+
+#: ../src/evolution-webcal-main.c:54
+#, c-format
+msgid "There was an error parsing the calendar, \"%s\". Please verify that it is a valid calendar, and try again."
+msgstr "ཟླ་ཐོ་ \"%s\"མིང་དཔྱད་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག ནུས་ཅན་ཟླ་ཐོ་ཅིག་ཨིན་པའི་ བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: ../src/evolution-webcal-main.c:59
+msgid "Error Parsing Calendar"
+msgstr "ཟླ་ཐོ་མིང་དཔྱད་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/evolution-webcal-main.c:127
+#, c-format
+msgid "Access to the calendar, \"%s\", is forbidden."
+msgstr "ཟླ་ཐོ་\"%s\"ལུ་ འཛུལ་སྤྱོད་འབད་ནི་དེ་ མ་ཆོགཔ་ཨིན།"
+
+#: ../src/evolution-webcal-main.c:132
+#, c-format
+msgid "The calendar, \"%s\", was not found on the server."
+msgstr "ཟླ་ཐོ་\"%s\"དེ་ སར་བར་ནང་ འཚོལ་མ་ཐོབ།"
+
+#: ../src/evolution-webcal-main.c:137
+#, c-format
+msgid "There was an internal server error while trying to load \"%s\"."
+msgstr "\"%s\"མངོན་གསལ་འབད་བའི་སྐབས་ ནང་འཁོད་ཀྱི་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
+
+#: ../src/evolution-webcal-main.c:142
+#, c-format
+msgid "There was an error loading the calendar, \"%s\"."
+msgstr "ཟླ་ཐོ་\"%s\"མངོན་གསལ་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
+
+#: ../src/evolution-webcal-main.c:147
+msgid "Error Loading Calendar"
+msgstr "ཟླ་ཐོ་མངོན་གསལ་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: ../src/evolution-webcal-main.c:178
+#, c-format
+msgid "The URI \"%s\" is invalid."
+msgstr "ཡུ་ཨར་ཨེལ་\"%s\" ནུས་མེད་ཨིན་པས།"
+
+#: ../src/evolution-webcal-main.c:179
+msgid "Invalid URI Specified"
+msgstr "ནུས་མེད་ཀྱི་ ཡུ་ཨར་ཨེལ་ གསལ་བཀོད་འབད་ནུག"
+
+#: ../src/evolution-webcal-main.c:227
+msgid "No URI Specified"
+msgstr "ཡུ་ཨར་ཨེལ་ གསལ་བཀོད་མ་འབད་བས།"
+
+#: ../src/evolution-webcal-main.c:228
+msgid "No URI to load was specified. You need to pass the URI of the calendar to subscribe to, as an argument on the command line."
+msgstr "མངོན་གསལ་འབད་ནིའི་ ཡུ་ཨར་ཨེལ་ གསལ་བཀོད་མ་འབད་བས། ཁྱོད་ཀྱིས་ བཀོད་ལམ་ནང་ སྒྲུབ་རྟགས་ཅིག་སྦེ་ མཁོ་མངགས་འབད་ནི་ལུ་ ཟླ་ཐོ་གི་ ཡུ་ཨར་ཨེལ་དེ་ སྤྲོད་དགོཔ་ཡོད།"
+
+#: ../src/evolution-webcal-main.c:250
+msgid "- Evolution webcal: URI Handler"
+msgstr "- ཨི་བོ་ལུ་ཤན་ ཝེབ་ཀཱལ་: ཡུ་ཨར་ཨའི་་ ལེགས་སྐྱོང་པ་"
+
+#: ../src/evolution-webcal-notify.c:272
+#, c-format
+msgid "No events or tasks were found in the calendar \"%s\"."
+msgstr "ཟླ་ཐོ་\"%s\"ནང་ལུ་ ལཱ་དང་བྱ་བ་ ག་ནི་ཡང་མ་ཐོབ།"
+
+#: ../src/evolution-webcal-notify.c:275
+msgid "<b>No Tasks or Events Found</b>"
+msgstr "<b>ལཱ་དང་བྱ་བ་ ག་ནི་ཡང་མ་ཐོབ།</b>"
+
+#: ../src/evolution-webcal-notify.c:331
+#, c-format
+msgid "You are already subscribed to the calendar \"%s\". Please subscribe to another calendar."
+msgstr "ཁྱོད་ཧེ་མ་ལས་རང་ ཟླ་ཐོ་\"%s\"ལུ་ མཁོ་མངགས་འབད་དེ་འདུག ཟླ་ཐོ་གཞན་མི་ཅིག་ལུ་ མཁོ་མངགས་འབད་གནང་།"
+
+#: ../src/evolution-webcal-notify.c:334
+msgid "<b>Already Subscribed</b>"
+msgstr "<b>མཁོ་མངགས་འབད་དེ་འདུག</b>"
+
+#: ../src/evolution-webcal-notify.c:359
+msgid "Subscribe to Calendar"
+msgstr "ཟླ་ཐོ་ལུ་ མཁོ་མངགས་འབད།"
+
+#: ../src/evolution-webcal-notify.c:404
+msgid "_Subscribe"
+msgstr "མཁོ་མངགས་འབད། (_S)"
+
+#. Description
+#: ../src/evolution-webcal-notify.c:443
+msgid "No Description"
+msgstr "འགྲེལ་བཤད་མིན་འདུག"
+
+#. Refresh entry label
+#: ../src/evolution-webcal-notify.c:461
+msgid "_Refresh Every:"
+msgstr "ཆ་མཉམ་ཡང་སེལ་འབད་: (_R)"
+
+#. Color picker label
+#: ../src/evolution-webcal-notify.c:467
+msgid "C_olor:"
+msgstr "ཚོས་གཞི་: (_o)"
+
+#: ../src/evolution-webcal-notify.c:496
+msgid "Days"
+msgstr "གཟའ"
+
+#: ../src/evolution-webcal-notify.c:500
+msgid "Hours"
+msgstr "ཆུ་ཚོད།"
+
+#: ../src/evolution-webcal-notify.c:504
+msgid "Minutes"
+msgstr "སྐར་མ།"
+
+#: ../src/evolution-webcal-notify.c:508
+msgid "Weeks"
+msgstr "བདུན་ཕྲག"
+

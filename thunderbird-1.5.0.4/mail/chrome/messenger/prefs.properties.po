@@ -1,0 +1,190 @@
+# extracted from dz-BT_orig/mail/chrome/messenger/prefs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: prefs.properties.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-01 09:47+0600\n"
+"PO-Revision-Date: 2006-09-15 17:04+0530\n"
+"Last-Translator: Mindu Dorji\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#
+# The following are used by the Account Wizard
+#
+#: enterAccountName
+msgid "Please enter a name for this account."
+msgstr "རྩིས་ཐོ་འདི་གི་དོན་ལུ་ མིང་ཅིག་བཙུགས་གནང་།"
+
+#: enterUserName
+msgid "Please enter a username."
+msgstr "ལག་ལེན་པའི་མིང་ཅིག་བཙུགས་གནང་།"
+
+#: enterName
+msgid "Please enter your name."
+msgstr "ཁྱོད་རའི་མིང་བཙུགས་གནང་།"
+
+# when the wizard already has a domain (Should we say something different?)
+#: enterValidEmail
+#: enterValidEmailPrefix
+msgid "Please enter a valid email address."
+msgstr "ནུས་ཅན་གློག་འཕྲིན་ཁ་བྱང་ཅིག་བཙུགས་གནང་།"
+
+#: accountExists
+msgid "A mail or newsgroup account with the same user name and server name already exists. Click Back and enter a different server name, or click Cancel."
+msgstr "ལག་ལེན་པའི་མིང་དང་ སར་བར་གྱི་མིང་ ཅོག་གཅིགཔ་འབད་མི་ ཡིག་འཕྲིན་་ཡང་ན་ གནས་ཚུལ་སྡེ་ཚན་ཅིག་ ཧེ་མ་ལས་ར་འདུག། རྒྱབ་བསྐྱོད་འབད་ཞིནམ་ལས་ སར་བར་གྱི་མིང་སོ་སོ་ཅིག་བཙུགས་ ཡང་ན་ ཆ་མེད་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: modifiedAccountExists
+msgid "An account with that user name and server name already exists. Please enter a different user name and/or server name."
+msgstr "ལག་ལེན་པའི་མིང་དང་ སར་བར་གྱི་མིང་ དེ་བཟུམ་འབད་མི་ རྩིས་ཐོ་ཅིག་ ཧེ་མ་ལས་ར་འདུག། ལག་ལེན་པའི་མིང་དང་/ཡང་ན་ སར་བར་གྱི་མིང་སོ་སོ་ཅིག་གཙུགས་གནང་།"
+
+#: userNameChanged
+msgid "Your User Name has been updated. You may also need to update your Email Address and/or User Name associated with this account."
+msgstr "ཁྱོད་ཀྱི་ལག་ལེན་པའི་མིང་དེ་ དུས་མཐུན་བཟོ་ཡི། ཁྱོད་ཀྱིས་རྩིས་ཐོ་འདི་དང་འབྲེལ་བའི་ ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་དང་/ཡང་ན་ ལག་ལེན་པའི་མིང་དེ་ཡང་ དུས་མཐུན་བཟོ་དགོཔ་འོང་།"
+
+#: serverNameChanged
+msgid "The server name setting has changed. Please verify that any folders used by filters exist on the new server."
+msgstr "སར་བར་མིང་གི་སྒྲིག་སྟངས་སོར་ད་ཡི། སར་བར་གསརཔ་དེ་གུ་ ཚགས་མ་ཚུ་གིས་ལག་ལེན་འཐབ་མི་ སྣོད་འཛིན་ཚུ་ལུ་ བདེན་སྦྱོར་འབད།"
+
+# if the user chooses to cancel the wizard when no accounts are there throw a message
+# LOCALIZATION NOTE (cancelWizard)
+# do not localize "\n\n"
+#: cancelWizard
+msgid ""
+"Are you sure you want to exit the Account Wizard?\n"
+"\n"
+"If you exit, any information you have entered will be lost and the account will not be created."
+msgstr ""
+"ཁྱོད་ཀྱིས་རྩིས་ཐོའི་ཝི་ཛརཌི་ ཕྱིར་འཐོན་འབད་ནི་ ངེས་གཏན་ཨིན་ན?\n"
+"\n"
+"ཁྱོད་ཀྱིས་ཕྱིར་འཐོན་འབད་བ་ཅིན་ ཁྱོད་ཀྱིས་བཙུགས་མི་བརྡ་དོན་ཚུ་ བརླག་སྟོར་ཞུགས་ནི་དང་ རྩིས་ཐོ་དེ་ གསར་བསྐྲུན་མི་འབད།"
+
+#: accountWizard
+msgid "Account Wizard"
+msgstr "རྩིས་ཐོའི་ཝི་ཛརཌི་"
+
+#: WizardExit
+msgid "Exit"
+msgstr "འཕྱིར་འཐོན་"
+
+#: WizardContinue
+msgid "Cancel"
+msgstr "ཆ་མེད་"
+
+#: enterValidHostname
+msgid "Please enter a valid hostname."
+msgstr "ནུས་ཅན་གྱི་ཧོསཊི་ནེམ་ཅིག་བཙུགས་གནང་།"
+
+#: failedRemoveAccount
+msgid "Failed to remove this account."
+msgstr "རྩིས་ཐོ་འདི་ རྩ་བསྐྲད་བཏང་མ་ཚུགས།"
+
+#: failedDuplicateAccount
+msgid "Failed to duplicate this account."
+msgstr "རྩིས་ཐོ་འདི་གི་ ངོ་འདྲ་བཟོ་མ་ཚུགས།"
+
+#LOCALIZATION NOTE: confirmRemoveAccount: %S is the account pretty name
+#: confirmRemoveAccount
+msgid "Are you sure you want to remove the account \"%S\"?"
+msgstr "ཁྱོད་ཀྱིས་རྩིས་ཐོ་\"%S\"དེ་ རྩ་བསྐྲད་གཏང་ནི་ ངེས་གཏན་ཨིན་ན?"
+
+#: confirmRemoveAccountTitle
+msgid "Remove Account"
+msgstr "རྩིས་ཐོ་རྩ་བསྐྲད་གཏང་"
+
+#LOCALIZATION NOTE: accountName: %1$S is server name, %2$S is user name
+#: accountName
+msgid "%1$S - %2$S"
+msgstr "%1$S - %2$S"
+
+#: confirmDeferAccount
+msgid "If you store this account's new mail in a different account's Inbox, you will no longer be able to access already downloaded e-mail for this account. If you have mail in this account, please copy it to another account first. If you have filters that filter mail into this account, you should disable them or change the destination folder. If any accounts have special folders in this account (Sent, Drafts, Templates), you should change them to be in another account. Do you still want to store this account's e-mail in a different account?"
+msgstr "ཁྱོད་ཀྱིས་རྩིས་ཐོ་འདི་གི་ ཡིག་འཕྲིན་གསརཔ་ཚུ་ རྩིས་ཐོ་སོ་སོ་ཅི་གི་ནང་སྒྲོམ་ཅིག་ནང་ གསོག་འཇོག་འབད་བ་ཅིན་ རྩིས་ཐོ་འདི་གི་དོན་ལུ་ ཧེ་མ་ལས་ཕབ་ལེན་འབད་དེ་ཡོད་མི་ གློག་འཕྲིན་ཚུ་ལུ་ ཁྱོད་ཀྱིས་འཛུལ་སྤྱོད་འབད་མི་ཚུགས། རྩིས་ཐོ་འདི་ནང་ ཡིག་འཕྲིན་ཡོད་པ་ཅིན་ དང་པ་ར་ རྩིས་ཐོ་གཞན་ཅིག་ནང་འདྲ་བཤུས་རྐྱབས། རྩིས་ཐོ་འདི་ནང་ ཡིག་འཕྲིན་བཙུགས་ཏེ་གཏང་མི་ ཚགས་མ་ཚུ་ཡོད་པ་ཅིན་ དེ་ཚུ་ལྕོགས་མིན་བཟོ་དགོ་ ཡང་ན་ འགྲོ་ཡུལ་སྣོད་འཛིན་སོར་དགོ། རྩིས་ཐོ་འདི་ནང་ རྩིས་ཐོ་གང་རུང་གི་དམིགས་བསལ་སྣོད་འཛིན་(བཏང་ཡོདཔ་ ཟིན་འབྲི་ ཊེམ་པེལེཊི་) ཚུ་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱིས་རྩིས་ཐོ་གཞན་ཅིག་ནང་སོར་དགོ། ཁྱོད་ཀྱིས་ད་རུང་ཡང་ རྩིས་ཐོ་འདི་གི་གློག་འཕྲིན་དེ་ རྩིས་ཐོ་སོ་སོ་ཅིག་ནང་ གསོག་འཇོག་འབད་ནི་ཨིན་ན?"
+
+#: confirmDeferAccountTitle
+msgid "Defer Account?"
+msgstr "རྩིས་ཐོ་ཕར་འགྱངས་འབད་ནི་ཨིན་ན?"
+
+#: directoryUsedByOtherServer
+msgid "This directory is already used by another server. Please pick a different directory."
+msgstr "སྣོད་ཐོ་འདི་ ཧེ་མ་ལས་ར་ སར་བར་གཞན་ཅིག་གིས་ ལག་ལེན་འཐབ་སྟེ་འདུག། སྣོད་འཛིན་སོ་སོ་ཅིག་སེལ་གནང་།"
+
+#Provide default example values for sample email address
+#: exampleEmailUserName
+msgid "user"
+msgstr "ལག་ལེན་པ་"
+
+#: exampleEmailDomain
+msgid "example.net"
+msgstr "example.net"
+
+#: emailFieldText
+msgid "Email Address:"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་:"
+
+#LOCALIZATION NOTE: defaultEmailText: %1$S is user name, %2$S is domain
+#: defaultEmailText
+msgid "Enter your email address. This is the address others will use to send email to you (for example, \"%1$S@%2$S\")."
+msgstr "ཁྱོད་རའི་གློག་འཕྲིན་ཁ་བྱང་བཙུགས། འདི་མི་གཞན་གྱིས་ ཁྱོད་ལུ་གློག་འཕྲིན་གཏང་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཁ་བྱང་ཨིན། (དེ་ཡང་དཔེར་ན་\"%1$S@%2$S\")"
+
+#LOCALIZATION NOTE: customizedEmailText: %1$S is provider, %2$S is email username, %3$S is sample email, %4$S is sample username
+#: customizedEmailText
+msgid "Enter your %1$S %2$S (for example, if your %1$S email address is \"%3$S\", your %2$S is \"%4$S\")."
+msgstr "ཁྱོད་རའི་%1$S %2$Sབཙུགས། (དཔེར་ན་ཁྱོད་ཀྱི་%1$Sགི་གློག་འཕྲིན་ཁ་བྱང་དེ་\"%3$S\"ཨིན་པ་ཅིན་ ཁྱོད་ཀྱི་ %2$S དེ་\"%4$S\"ཨིན་)"
+
+# account manager stuff
+#: prefPanel-server
+msgid "Server Settings"
+msgstr "སརབར་གྱི་སྒྲིག་སྟངས་"
+
+#: prefPanel-copies
+msgid "Copies & Folders"
+msgstr "འདྲ་བཤུས་དང་སྣོད་འཛིན་ཚུ་"
+
+#: prefPanel-offline-and-diskspace
+msgid "Offline & Disk Space"
+msgstr "གློག་ཐོག་མེན་པའི་ ཌིཀསི་ཀི་བར་སྟོང་"
+
+#: prefPanel-diskspace
+msgid "Disk Space"
+msgstr "ཌིཀསི་གི་བར་སྟོང་"
+
+#: prefPanel-addressing
+msgid "Composition & Addressing"
+msgstr "རྩོམ་འབྲི་དང་ཁ་བྱང་བཀོད་པ་"
+
+#: prefPanel-advanced
+msgid "Advanced"
+msgstr "མཐོ་རིམ་ཅན་"
+
+## LOCALIZATION NOTE (prefPanel-smtp): Don't translate "SMTP"
+#: prefPanel-smtp
+msgid "Outgoing Server (SMTP)"
+msgstr "ཕྱིར་བསྐྱོད་སར་བར་(SMTP)"
+
+# account manager multiple identity support
+#LOCALIZATION NOTE: accountName: %1$S
+#: identity-list-title
+msgid "Identities for %1$S"
+msgstr "%1$Sགི་དོན་ལུ་ངོ་རྟགས་ཚུ་"
+
+#: identity-edit-req
+msgid "You must specify a valid email address for this identity."
+msgstr "ཁྱོད་ཀྱིས་ངོ་རྟགས་འདི་གི་དོན་ལུ་ ནུས་ཅན་གློག་འཕྲིན་ཁ་བྱང་ཅིག་ གསལ་བཀོད་འབད་དགོ།"
+
+#: identity-edit-req-title
+msgid "Error Creating Identity"
+msgstr "ངོ་རྟགས་གསར་བསྐྲུན་འབད་ནི་ལུ་འཛོལ་བ།"
+
+#: choosefile
+msgid "Choose a file"
+msgstr "ཡིག་སྣོད་ཅིག་གདམ་ཁ་རྐྱབས།"
+

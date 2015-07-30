@@ -1,0 +1,159 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is mozilla.org code.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corporation.
+# Portions created by the Initial Developer are Copyright (C) 1998
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either of the GNU General Public License Version 2 or later (the "GPL"),
+# or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/dom/chrome/appstrings.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: appstrings.properties.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-16 11:10+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: malformedURI
+msgid "The URL is not valid and cannot be loaded."
+msgstr "ཡུ་ཨར་ཨེལ་འདི་ནུས་ཅན་མེནམ་ལས་མངོན་གསལ་འབད་མི་ཚུགས་པས།"
+
+#: fileNotFound
+msgid "The file %S cannot be found. Please check the location and try again."
+msgstr " ཡིག་སྣོད་ %S འདི་འཐོབ་མི་ཚུགས་པས།  གནས་ཁོངས་འདི་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་  ལོག་སྟེ་རང་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: dnsNotFound
+msgid "%S could not be found. Please check the name and try again."
+msgstr "ཡིག་སྣོད་ %S འདི་འཐོབ་མི་ཚུགས་པས།  མིང་འདི་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་  ལོག་སྟེ་རང་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: protocolNotFound
+msgid "%S is not a registered protocol."
+msgstr "%S འདི་  ཐོ་འགོད་འབད་ཡོད་པའི་ གནད་སྤེལ་ལམ་ལུགས་ཅིག་མེན་པས།"
+
+#: connectionFailure
+msgid "The connection was refused when attempting to contact %S."
+msgstr "%S ལུ་འབྲེལ་བ་འཐབ་ནི་ལུ་དཔའ་བཅམ་ད་ མཐུད་ལམ་འདི་མ་བཏུབ།"
+
+#: netInterrupt
+msgid "The connection to %S has terminated unexpectedly. Some data may have been transferred."
+msgstr "%Sལུ་མཐུད་ལམ་འདི་  རེ་བ་མེད་པར་རྩ་གྲོལ་གཏང་ནུག   གནད་སྡུད་ལ་ལོ་ཅིག་གནས་སོར་གཏང་ཡོདཔ་འོང་།"
+
+#: netTimeout
+msgid "The operation timed out when attempting to contact %S."
+msgstr "%Sལུ་འབྲེལ་བ་འཐབ་ནི་དཔའ་བཅམ་ད་  བཀོལ་སྤྱོད་འདི་ངལ་མཚམས་རན་ནུག"
+
+#: redirectLoop
+msgid "Redirection limit for this URL exceeded.  Unable to load the requested page.  This may be caused by cookies that are blocked."
+msgstr "ཡུ་ཨར་ཨེལ་འདི་གི་དོན་ལུ་  སླར་ལོག་བཅད་མཚམས་ལས་ལྷག་སོང་ནུག  ཞུ་བ་འབད་ཡོད་པའི་ཤོག་ལེབ་འདི་མངོན་གསལ་འབད་མ་ཚུགས།  དེ་ཡང་  འགགས་ཏེ་ཡོད་པའི་ཀུ་ཀིསི་ཚུ་གིས་རྐྱེན་བརྐྱབ་བརྐྱབ་འོང་ནི་མས།"
+
+#: repost
+msgid "The page you are trying to view contains POSTDATA that has expired from cache. If you resend the data, any action the form carried out (such as a search or online purchase) will be repeated. To resend the data, click OK. Otherwise, click Cancel."
+msgstr "ཁྱོད་ཀྱིས་སྟོན་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་མི་ཤོག་ལེབ་དེ་གིས་  འདྲ་མཛོད་ལས་དུས་ཡོལ་ཐལ་སོང་པའི་  འདས་པའི་གནད་སྡུད་འདི་གནས་དེ་ཡོདཔ་ཨིན།  ཁྱོད་ཀྱིས་གནད་སྡུད་འདི་སླར་གཏང་པ་ཅིན་  འབྲི་ཤོག་དེ་གིས་ཧེ་མ་འབད་ཡོད་པའི་(འཚོལ་ཞིབ་འབད་ནི་ ཡང་ན་  གློག་ཐོག་ཉོ་ཚོང་)འདི་ཚུ་ཡང་བསྐྱར་འབད་འོང་། གནད་སྡུད་འདི་སླར་གཏང་འབད་ནི་ལུ་  བཏུབ་འདི་ཨེབ་གཏང་འབད།  དེ་མེན་པ་ཅིན་  ཆ་མེད་གཏང་འདི་ཨེབ་གཏང་འབད།"
+
+#: repostConfirm
+msgid "The page you are trying to view contains POSTDATA. If you resend the data, any action the form carried out (such as a search or online purchase) will be repeated. To resend the data, click OK. Otherwise, click Cancel."
+msgstr "ཁྱོད་ཀྱིས་སྟོན་ནི་ཨིན་པའི་ཤོག་ལེབ་དེ་གིས་  འདས་པའི་གནད་སྡུད་འདི་གནས་དེ་ཡོདཔ་ཨིན།  ཁྱོད་ཀྱིས་གནད་སྡུད་འདི་སླར་གཏང་པ་ཅིན་  འབྲི་ཤོག་དེ་གིས་ཧེ་མ་འབད་ཡོད་པའི་  (འཚོལ་ཞིབ་འབད་ནི་  ཡང་ན་  གློག་ཐོག་ཉོ་ཚོང་བཟུམ་) ཡང་བསྐྱར་འབད་འོང་།  གནད་སྡུད་འདི་སླར་གཏང་འབད་ནི་ལུ་  བཏུབ་འདི་ཨེབ་གཏང་འབད།  དེ་མེན་པ་ཅིན་  ཆ་མེད་གཏང་འདི་ཨེབ་གཏང་འབད།"
+
+#: unknownSocketType
+msgid "This document cannot be displayed unless you install the Personal Security Manager (PSM). Download and install PSM and try again, or contact your system administrator."
+msgstr "ཁྱོད་ཀྱིས་ རང་དོན་སྲུང་སྐྱོབ་འཛིན་སྐྱོང་པ་(པི་ཨེསི་ཨེམ་)འདི་  གཞི་བཙུགས་མ་འབད་ཚུན་ཚོད་  ཡིག་ཆ་འདི་བཀྲམ་སྟོན་འབད་མི་བཏུབ།  ཕབ་ལེན་འབད་ནི་དང་  པི་ཨེསི་ཨེམ་འདི་གཞི་བཙུགས་ཞིནམ་ལས་ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་  ཡང་ན་  ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་ལུ་འབྲེལ་བ་འཐབ།"
+
+#: netReset
+msgid "The document contains no data."
+msgstr "ཡིག་ཆ་དེ་ལུ་གནད་སྡུད་མེད།"
+
+#: netOffline
+msgid "This document cannot be displayed while offline. To go online, uncheck Work Offline from the File menu."
+msgstr "ཨོཕ་ལ་ཡིན་ཨིནམ་ད་  ཡིག་ཆ་འདི་བཀྲམ་སྟོན་འབད་མི་བཏུབ།  གློག་ཐོག་འགྱོ་ནི་ལུ་  ཡིག་སྣོད་དཀར་ཆག་ལས་  ཨོཕ་ལ་ཡན་ལཱ་འདི་ཞིབ་དཔྱད་འབད་བཤོལ་ད།"
+
+#: isprinting
+msgid "The document cannot change while Printing or in Print Preview."
+msgstr "དཔར་བསྐྲུན་འབདཝ་ད་ ཡང་ན་  དཔར་བསྐྲུན་སྔོན་ལྟ་འབདཝ་ད་  ཡིག་ཆ་འདི་བསྒྱུར་བཅོས་འབད་མི་བཏུབ།"
+
+#: deniedPortAccess
+msgid "Access to the port number given has been disabled for security reasons."
+msgstr "འདྲེན་ལམ་ཨང་གྲངས་ལུ་འཛུལ་སྤྱོད་འབད་ནི་གྲ་སྒྲིག་འདི་  སྲུང་སྐྱོབ་རྒྱུ་མཚན་ཚུ་གི་དོན་ལུ་  ལྕོགས་མེད་བཟོ་ཡོད།"
+
+#: proxyResolveFailure
+msgid "The proxy server you have configured could not be found. Please check your proxy settings and try again."
+msgstr "ཁྱོད་ཀྱིས་ རིམ་སྒྲིག་འབད་ཡོད་པའི་  པོརོ་སི་སར་བར་འདི་འཐོབ་མ་ཚུགས་པས།  ཁྱོད་རའི་པོརོ་སི་སྒྲིག་སྟངས་ཚུ་ཞིབ་དཔྱད་འབད་ཞིནས་ལས་  ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: proxyConnectFailure
+msgid "The connection was refused when attempting to contact the proxy server you have configured. Please check your proxy settings and try again."
+msgstr "ཁྱོད་ཀྱིས་རིམ་སྒྲིག་འབད་ཡོད་པའི་  པོརོ་སི་སར་བར་འདི་ལུ་འབྲེལ་བ་འཐབ་ནི་ལུ་དཔའ་བཅམ་ད་  མཐུད་ལམ་འདི་མ་བཏུབ།  ཁྱོད་རའི་པོརོ་སི་སྒྲིག་སྟངས་འདི་ཚུ་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་ ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་གནང་།"
+
+#: externalProtocolTitle
+msgid "External Protocol Request"
+msgstr "ཕྱིའི་གནད་སྤེལ་ལམ་ལུགས་ཀྱི་ཞུ་བ།"
+
+#: externalProtocolPrompt
+msgid ""
+"An external application must be launched to handle %1$S: links. Requested link:\n"
+"\n"
+"\n"
+"%2$S\n"
+"Application: %3$S\n"
+"\n"
+"\n"
+"If you were not expecting this request it may be an attempt to exploit a weakness in that other program. Cancel this request unless you are sure it is not malicious.\n"
+msgstr ""
+"ཕྱིའི་འཇུག་སྤྱོད་འདི་   %1$S: links. Requested link:\n"
+" ལེགས་སྐྱོང་འཐབ་ནི་དོན་ལུ་གསར་བཙུགས་འབད་དགོ།\n"
+"\n"
+"%2$S\n"
+"འཇུག་སྤྱོད་: %3$S\n"
+"\n"
+"\n"
+"ཁྱོད་ཀྱིས་ ཞུ་བ་འདི་རེ་བ་བསྐྱེད་ནི་མེན་པ་ཅིན་  ལས་རིམ་གཞན་མི་ནང་གི་  སྐྱོན་ཅིག་སློང་ནི་ལུ་དཔའ་བཅམ་དོ་ཡོདཔ་འོང་།  གནོད་སེམས་ཅན་འབད་ཁྱོད་ཀྱིས་ཐག་བཅད་དེ་མ་ཏོག་  ཞུ་བ་འདི་ཆ་མེད་གཏང་།\n"
+
+#LOCALIZATION NOTE (externalProtocolUnknown): The following string is shown if the application name can't be determined
+#: externalProtocolUnknown
+msgid "<Unknown>"
+msgstr "<མ་ཤེསཔ།>"
+
+#: externalProtocolChkMsg
+msgid "Remember my choice for all links of this type."
+msgstr "འདི་བཟུམ་མའི་དབྱེ་བ་གི་འབྲེལ་ལམ་ཆ་མཉམ་གྱི་དོན་ལུ་  ངེའི་གདམ་ཁ་འདི་སེམས་ཁར་བཞག"
+
+#: externalProtocolLaunchBtn
+msgid "Launch application"
+msgstr "འཇུག་སྤྱོད་འདི་གསར་བཙུགས་འབད།"
+

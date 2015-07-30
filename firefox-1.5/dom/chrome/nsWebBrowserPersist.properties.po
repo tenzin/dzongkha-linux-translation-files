@@ -1,0 +1,153 @@
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is Mozilla Progress Dialog.
+#
+# The Initial Developer of the Original Code is
+# Netscape Communications Corp.
+# Portions created by the Initial Developer are Copyright (C) 2002
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#   Bill Law  <law@netscape.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+# extracted from dz-BT_orig/dom/chrome/nsWebBrowserPersist.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: nsWebBrowserPersist.properties.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-10 11:33+0600\n"
+"PO-Revision-Date: 2006-08-21 16:25+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Translate Toolkit 0.9.1\n"
+"X-Accelerator-Marker: &\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: readError
+msgid ""
+"%S could not be saved, because the source file could not be read.\n"
+"\n"
+"Try again later, or contact the server administrator."
+msgstr ""
+"%S འདི་སྲུང་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  འབྱུང་ཁུངས་ཀྱི་ཡིག་སྣོད་འདི་ལྷག་མ་ཚུགས། \n"
+"\n"
+"ཤུལ་ལས་འབད་རྩོལ་བསྐྱེད་  ཡང་ན་  སར་བར་བདག་སྐྱོང་པ་ལུ་འབྲེལ་བ་འཐབ། "
+
+#: writeError
+msgid ""
+"%S could not be saved, because an unknown error occurred.\n"
+"\n"
+"Try saving to a different location."
+msgstr ""
+"%S འདི་སྲུང་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  མ་ཤེས་པའི་འཛོལ་བ་འདི་འབྱུང་ནུག\n"
+"\n"
+"གནས་ཁོངས་སོ་སོ་ཅིག་ནང་སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད།"
+
+#: launchError
+msgid ""
+"%S could not be opened, because an unknown error occurred.\n"
+"\n"
+"Try saving to disk first and then opening the file."
+msgstr ""
+"%S འདི་ཁ་ཕྱེ་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  མ་ཤེས་པའི་འཛོལ་བ་འདི་འབྱུང་ཡོད། \n"
+"\n"
+"དང་པ་རང་ཌིཀསི་ལུ་སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ནི་དང་  དེ་ལས་  ཡིག་སྣོད་འདི་ཁ་ཕྱེ་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད།"
+
+#: diskFull
+msgid ""
+"There is not enough room on the disk to save %S.\n"
+"\n"
+"Remove unnecessary files from the disk and try again, or try saving in a different location."
+msgstr ""
+" %Sའདི་སྲུང་ནི་གི་དོན་ལུ་  ཌིཀསི་གུ་ཁང་མིག་ལངམ་མིན་འདུག\n"
+"\n"
+"ཌིཀསི་ལས་ཉེར་མཁོ་མེད་པའི་ཡིག་སྣོད་ཚུ་རྩ་བསྐྲད་གཏང་ཞིནམ་ལས་  ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་ད་  ཡང་ན་  གནས་ཁོངས་སོ་སོ་ཅིག་གི་ནང་ལུ་སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད།"
+
+#: readOnly
+msgid ""
+"%S could not be saved, because the disk, folder, or file is write-protected.\n"
+"\n"
+"Write-enable the disk and try again, or try saving in a different location."
+msgstr ""
+"%S འདི་སྲུང་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  ཌིཀསི་ སྣོད་འཛིན་ཡང་ན་ ཡིག་སྣོད་འདི་  འབྲི་མ་བཏུབ།\n"
+"\n"
+"ཌིཀསི་འདི་འབྲི་ནི་ལུ་ལྕོགས་ཅན་བཟོ་ཞིནམ་ལས་ ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་ད་   ཡང་ན་  གནས་ཁོངས་སོ་སོ་ཅིག་གི་ནང་ལུ་སྲུངས་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད། "
+
+#: accessError
+msgid ""
+"%S could not be saved, because you cannot change the contents of that folder.\n"
+"\n"
+"Change the folder properties and try again, or try saving in a different location."
+msgstr ""
+"%Sའདི་སྲུང་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་   སྣོད་འཛིན་དེ་གི་ནང་དོན་ཚུ་  ཁྱོད་ཀྱིས་བསྒྱུར་བཅོས་འབད་མི་བཏུབ། \n"
+"\n"
+"སྣོད་འཛིན་གྱི་རྒྱུ་དངོས་འདི་བསྒྱུར་བཅོས་འབད་ཞིནམ་ལས་  ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་ད་  ཡང་ན་གནས་ཁོངས་སོ་སོ་ཅིག་གི་ནང་ལུ་ སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད།"
+
+#: helperAppNotFound
+msgid "%S could not be opened, because the associated helper application does not exist. Change the association in your preferences."
+msgstr "%S འདི་ཁ་ཕྱེ་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  འབྲེལ་བའི་ལས་རོགསཔ་གི་འཇུག་སྤྱོད་འདི་གནས་དེ་མིན་འདུག  ཁྱོད་རའི་དགའ་གདམ་ཚུ་གི་ནང་ལུ་  ཚོགས་པ་འདི་བསྒྱུར་བཅོས་འབད།"
+
+#: noMemory
+msgid ""
+"There is not sufficient memory to complete the action you requested.\n"
+"\n"
+"Quit some applications and try again."
+msgstr ""
+"ཁྱོད་ཀྱིས་ཞུ་བ་འབད་ཡོད་པའི་བྱ་བ་འདི་  མཇུགས་བསྡུ་ནི་ལུ་  དྲན་ཚད་ལངམ་འབད་མིན་འདུག\n"
+"\n"
+"འཇུག་སྤྱོད་ཚུ་སྤང་ཞིནམ་ལས་ལོག་འདི་རང་འབད་རྩོལ་བསྐྱེད་ད།"
+
+#: title
+msgid "Downloading %S"
+msgstr "%Sའདི་ཕབ་ལེན་འབད་དོ།"
+
+#: fileAlreadyExistsError
+msgid ""
+"%S could not be saved, because a file already exists with the same name as the '_files' directory.\n"
+"\n"
+"Try saving to a different location."
+msgstr ""
+"%S འདི་སྲུང་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་ ཡིག་སྣོད་དེ་  མིང་གཅིག་པ་ '_files'སྣོད་ཐོ་སྦེ་  ཧེ་མ་ལས་རང་ གནས་དེ་འདུག\n"
+"\n"
+"གནས་ཁོངས་སོ་སོ་ཅིག་ལུ་སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད།"
+
+#: fileNameTooLongError
+msgid ""
+"%S could not be saved, because the file name was too long.\n"
+"\n"
+"Try saving with a shorter file name."
+msgstr ""
+"%S སྲུང་མ་ཚུགས་  ག་ཅི་འབད་ཟེར་བ་ཅིན་  ཡིག་སྣོད་ཀྱི་མིན་འདི་སྣ་མེད་ས་མེད་རིངམ་ཨིན་མས། \n"
+"\n"
+"ཡིག་སྣོད་མིང་ཐུང་མི་དང་ཅིག་ཁར་སྲུང་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་ད།"
+

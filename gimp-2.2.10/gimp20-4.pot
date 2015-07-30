@@ -1,0 +1,2748 @@
+# translation of gimp.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# translator, 2006.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER., 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-10 19:59+0600\n"
+"PO-Revision-Date: 2006-05-10 19:49-0500\n"
+"Last-Translator: kinley tshering <gasepkuenden2k3@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: KBabel 1.10.2\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../app/tools/gimpairbrushtool.c:57
+msgid "_Airbrush"
+msgstr "ཨེར་བརཤི། (_A)"
+
+#: ../app/tools/gimpairbrushtool.c:123
+#: ../app/tools/gimpconvolvetool.c:211
+#: ../app/tools/gimpsmudgetool.c:123
+msgid "Rate:"
+msgstr "བསྒྱིར།"
+
+#: ../app/tools/gimpairbrushtool.c:129
+msgid "Pressure:"
+msgstr "གཡེབ་ཤུགས།"
+
+#: ../app/tools/gimpblendoptions.c:246
+msgid "Offset:"
+msgstr "པར་ལེན།"
+
+#: ../app/tools/gimpblendoptions.c:255
+#: ../app/widgets/gimpbrusheditor.c:145
+msgid "Shape:"
+msgstr "དབྱིབས།"
+
+#: ../app/tools/gimpblendoptions.c:261
+#: ../app/tools/gimppaintoptions-gui.c:419
+msgid "Repeat:"
+msgstr "ཡང་བསྐྱར།"
+
+#: ../app/tools/gimpblendoptions.c:279
+msgid "Adaptive supersampling"
+msgstr "ཨེ་ཌེཔ་ཊིབ་ དཔེ་གཞི་ཡང་དག་སཏོན་དོ།"
+
+#: ../app/tools/gimpblendoptions.c:297
+msgid "Max Depth:"
+msgstr "གཏིང་ཚད་ མཐོ་ཤོས།:"
+
+#: ../app/tools/gimpblendoptions.c:304
+#: ../app/tools/gimpbucketfilloptions.c:295
+#: ../app/tools/gimpmagnifyoptions.c:226
+#: ../app/tools/gimpselectionoptions.c:466
+msgid "Threshold:"
+msgstr "ཐེརེཤ་ཧཱོལ།"
+
+#: ../app/tools/gimpblendtool.c:102
+msgid "Fill with a color gradient"
+msgstr "སྟེགས་རིས་ ཚོས་གཞི་ཅན་གྱི་ཐོག་ལས་ བཀང་།"
+
+#: ../app/tools/gimpblendtool.c:103
+msgid "Blen_d"
+msgstr "མཉམ་སྡེབ།(_d)"
+
+#: ../app/tools/gimpblendtool.c:191
+msgid "Blend: Invalid for indexed images."
+msgstr "ཟུར་སྦྲགས་ གཟུགས་བརྙན་གྱི་དོན་ལུ་ ནུས་མེད་ མཉམ་སྡེབ་འབད།"
+
+#. initialize the statusbar display
+#: ../app/tools/gimpblendtool.c:209
+#: ../app/tools/gimpblendtool.c:308
+msgid "Blend: "
+msgstr "མཉམ་སྡེབ།"
+
+#: ../app/tools/gimpbrightnesscontrasttool.c:86
+msgid "Adjust brightness and contrast"
+msgstr "དཀར་མདངས་དང་ ཚོན་མདངས བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpbrightnesscontrasttool.c:87
+msgid "B_rightness-Contrast..."
+msgstr "དཀར་མདངས་དང་ཚོན་མདངས།(_r)"
+
+#: ../app/tools/gimpbrightnesscontrasttool.c:138
+msgid "Adjust Brightness and Contrast"
+msgstr "དཀར་མདངས་དང་ ཚོན་མདངས བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpbrightnesscontrasttool.c:181
+msgid "Brightness-Contrast does not operate on indexed layers."
+msgstr "དཀར་མདངས-ཚོན་མདངས་ ཟུར་སྦྲགས་ བང་རིམ་གུར་ བཀོལ་སྤྱོད་མི་འབད།"
+
+#: ../app/tools/gimpbrightnesscontrasttool.c:236
+msgid "_Brightness:"
+msgstr "དཀར་མདངས། (_B)"
+
+#: ../app/tools/gimpbrightnesscontrasttool.c:251
+msgid "Con_trast:"
+msgstr "མཚོན་མདངས། (_t)"
+
+#: ../app/tools/gimpbucketfilloptions.c:129
+msgid "Allow completely transparent regions to be filled"
+msgstr "རྩ་བ་ལས་ དྭངས་གསལ་ཅན་སྦཻ་ཡོད་མི་ ས་ཁོངས་ བཀང་བཅུག"
+
+#: ../app/tools/gimpbucketfilloptions.c:135
+msgid "Base filled area on all visible layers"
+msgstr "མཐོང་ཚུགས་པའི་ བང་རིམ་ཆ་མཉམ་གུར་ གཞི་རྟེན་བཀང་ཚ་མི་ མངའ་ཁོངས།"
+
+#: ../app/tools/gimpbucketfilloptions.c:141
+#: ../app/tools/gimpselectionoptions.c:161
+msgid "Maximum color difference"
+msgstr "ཚོས་གཞི་མང་མཐའ་གྱི་ ཁྱད་པར།"
+
+#. fill type
+#: ../app/tools/gimpbucketfilloptions.c:238
+#, c-format
+msgid "Fill Type  %s"
+msgstr "%s་ བཀང་ནིའི་ དབྱེ་བ།"
+
+#. fill selection
+#: ../app/tools/gimpbucketfilloptions.c:250
+#, c-format
+msgid "Affected Area  %s"
+msgstr "གནོད་སྐྱོན་བྱུང་ཡོད་པའི་ མངའ་ཁོངས།%s"
+
+#: ../app/tools/gimpbucketfilloptions.c:254
+msgid "Fill whole selection"
+msgstr "སེལ་འཐུ་ཧྲིལ་བུམ་ བཀང་།"
+
+#: ../app/tools/gimpbucketfilloptions.c:255
+msgid "Fill similar colors"
+msgstr "ཚོས་གཞི་ ཆ་འདྲཝ་སྦེ་ཡོད་མི་གིས་ བཀང་།"
+
+#: ../app/tools/gimpbucketfilloptions.c:261
+#: ../app/tools/gimpselectionoptions.c:438
+msgid "Finding Similar Colors"
+msgstr "ཚོས་གཞི་ ཆ་འདྲཝ་ འཚོལ་ཞིབ་འབད་དོ།"
+
+#: ../app/tools/gimpbucketfilloptions.c:277
+msgid "Fill transparent areas"
+msgstr "དྭངས་གསལ་ཅན་གྱི་ མངའ་ཁོངས་ བཀང་།"
+
+#: ../app/tools/gimpbucketfilloptions.c:283
+#: ../app/tools/gimpcolorpickeroptions.c:179
+#: ../app/tools/gimpselectionoptions.c:454
+#: ../app/tools/gimpselectionoptions.c:502
+msgid "Sample merged"
+msgstr "དཔེ་ཚད་མཉམ་བསྡོམ་འབད་ཡོདཔ།"
+
+#: ../app/tools/gimpbucketfilltool.c:92
+msgid "Fill with a color or pattern"
+msgstr "ཚོས་གཞི་ ཡང་ན་ དཔེ་གཞི་གིས་ཐོག་ལས་ བཀང་།"
+
+#: ../app/tools/gimpbucketfilltool.c:93
+msgid "_Bucket Fill"
+msgstr "བ་ཀེཊི་ བཀང་།(_B)"
+
+#: ../app/tools/gimpbycolorselecttool.c:82
+msgid "Select By Color"
+msgstr "ཚོས་གཞི་གི་སྦེ་སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpbycolorselecttool.c:83
+msgid "Select regions by color"
+msgstr "ཚོས་གཞི་གིས་སྦེ་ ས་ཁོངས་སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpbycolorselecttool.c:84
+msgid "_By Color Select"
+msgstr "ཚོས་གཞི་སེལ་འཐུ་གུས་སྦེ། (_B)"
+
+#: ../app/tools/gimpclonetool.c:90
+msgid "Paint using Patterns or Image Regions"
+msgstr "ལག་ལེན་འཐབ་ནིའི་ ཚོན་གྱི་དཔེ་གཞི་ ཡང་ན་ གཟུགས་བརྙན་གྱི་ ས་ཁོངས།"
+
+#: ../app/tools/gimpclonetool.c:91
+msgid "_Clone"
+msgstr "ངོ་འདྲ། (_C)"
+
+#: ../app/tools/gimpclonetool.c:288
+msgid "Source"
+msgstr "འབྱུང་ཁུངས།"
+
+#: ../app/tools/gimpclonetool.c:297
+msgid "Alignment"
+msgstr "ཕྲང་སྒྲིག"
+
+#: ../app/tools/gimpcolorbalancetool.c:97
+msgid "Adjust color balance"
+msgstr "ཚོས་གཞི་ ཚད་སྙོམས་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpcolorbalancetool.c:98
+msgid "Color _Balance..."
+msgstr "ཚོས་གཞི་ ཚད་སྙོམས། (_B)"
+
+#: ../app/tools/gimpcolorbalancetool.c:149
+msgid "Adjust Color Balance"
+msgstr "ཚོས་གཞི་ ཚད་སྙོམས་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpcolorbalancetool.c:193
+msgid "Color balance operates only on RGB color layers."
+msgstr "ཚོས་གཞི་ཚད་སྙོམས་གིས་ ཨཱར་བི་ཇི་ ཚོས་གཞི་ བང་རིམ་གུར་རྐྱངམ་ཅིག་བཀོལ་སྤྱོད་འབད་འོང་།"
+
+#: ../app/tools/gimpcolorbalancetool.c:276
+msgid "Select Range to Modify"
+msgstr "ལེགས་བཅོས་འབད་ནིའི་དོན་ལུ་ ཁྱབ་ཚད་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpcolorbalancetool.c:284
+msgid "Modify Selected Range's Color Levels"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ ཁྱབ་ཚད་ཚོས་གཞིའི་གནས་རིམ་ཚུ་ལེགས་བཅོས་འབད།"
+
+#: ../app/tools/gimpcolorbalancetool.c:301
+msgid "Cyan"
+msgstr "སྔོ་ལྗངས།"
+
+#: ../app/tools/gimpcolorbalancetool.c:308
+msgid "Magenta"
+msgstr "དམར་སྨུག།"
+
+#: ../app/tools/gimpcolorbalancetool.c:315
+msgid "Yellow"
+msgstr "སེརཔོ།"
+
+#: ../app/tools/gimpcolorbalancetool.c:325
+msgid "R_eset range"
+msgstr "ཁྱབ་ཚད་སླར་སྒྲིག་འབད།(_e)"
+
+#: ../app/tools/gimpcolorbalancetool.c:334
+msgid "Preserve _luminosity"
+msgstr "འོད་ཤུགས་ ཉམས་སྲུང་འབད།(_l)"
+
+#: ../app/tools/gimpcolorizetool.c:97
+msgid "Colorize the image"
+msgstr "གཟུགས་བརྙན་ ཚོན་གཏང་།"
+
+#: ../app/tools/gimpcolorizetool.c:98
+msgid "Colori_ze..."
+msgstr "ཚོན་གཏང་།(_z)"
+
+#: ../app/tools/gimpcolorizetool.c:152
+msgid "Colorize the Image"
+msgstr "གཟུགས་བརྙན་ ཚོན་གཏང་།"
+
+#: ../app/tools/gimpcolorizetool.c:195
+msgid "Colorize operates only on RGB color layers."
+msgstr "ཚོན་གཏང་ནི་དེ་ ཨཱར་བི་ཇི་ ཚོས་གཞི་བང་རིམ་གུར་ རྐྱངམ་ཅིག་ བཀོལ་སྤྱོད་འབདཝ་ཨིན།"
+
+#: ../app/tools/gimpcolorizetool.c:235
+msgid "Select Color"
+msgstr "ཚོས་གཞི་སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpcolorizetool.c:253
+#: ../app/tools/gimphuesaturationtool.c:361
+msgid "_Hue:"
+msgstr "ཚོན་མདངས།()H)"
+
+#: ../app/tools/gimpcolorizetool.c:267
+#: ../app/tools/gimphuesaturationtool.c:389
+msgid "_Saturation:"
+msgstr "མཐའ་ཚད།(_S)"
+
+#: ../app/tools/gimpcolorizetool.c:281
+#: ../app/tools/gimphuesaturationtool.c:375
+msgid "_Lightness:"
+msgstr "འོད།(_L)"
+
+#: ../app/tools/gimpcoloroptions.c:184
+msgid "Sample average"
+msgstr "དཔེ་ཚད་ ཆ་སྙོམས།"
+
+#: ../app/tools/gimpcoloroptions.c:194
+#: ../app/tools/gimpselectionoptions.c:416
+#: ../app/widgets/gimpbrusheditor.c:153
+msgid "Radius:"
+msgstr "མཐའ་འཁོར།"
+
+#. the pick FG/BG frame
+#: ../app/tools/gimpcolorpickeroptions.c:184
+#, c-format
+msgid "Pick Mode  %s"
+msgstr "ཐབས་ལམ་ %s་ འཐུ།"
+
+#. the add to palette toggle
+#: ../app/tools/gimpcolorpickeroptions.c:193
+#, c-format
+msgid "Add to palette  %s"
+msgstr "%s་ པེ་ལིཊི་ལུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/tools/gimpcolorpickertool.c:99
+msgid "Color Picker"
+msgstr "ཚོན་འཐུ་མི།"
+
+#: ../app/tools/gimpcolorpickertool.c:100
+msgid "Pick colors from the image"
+msgstr "ཚོན་ཚུ་ གཟུགས་བརྙན་ནང་ལས་འཐུ།"
+
+#: ../app/tools/gimpcolorpickertool.c:101
+msgid "C_olor Picker"
+msgstr "ཚོན་འཐུ་མི།(_o)"
+
+#. tool->gdisp->shell
+#: ../app/tools/gimpcolorpickertool.c:343
+msgid "Color Picker Information"
+msgstr "ཚོན་འཐུ་མིའི་ བརྡ་དོན།"
+
+#: ../app/tools/gimpconvolvetool.c:71
+msgid "Blur or Sharpen"
+msgstr "རབ་རིབ་ཡང་ན རྣོ་ཅན།"
+
+#: ../app/tools/gimpconvolvetool.c:72
+msgid "Con_volve"
+msgstr "དཀྱི་ནི།(_v)"
+
+#. the type radio box
+#: ../app/tools/gimpconvolvetool.c:193
+#, c-format
+msgid "Convolve Type  %s"
+msgstr "%s་དཀྱི་ནི་གི་ དབྱེ་བ།"
+
+#. tool toggle
+#: ../app/tools/gimpcropoptions.c:188
+#: ../app/tools/gimpmagnifyoptions.c:208
+#: ../app/tools/gimpmoveoptions.c:217
+#, c-format
+msgid "Tool Toggle  %s"
+msgstr "%s་ལག་ཆས་ སོར་སྟོན།"
+
+#: ../app/tools/gimpcropoptions.c:200
+msgid "Current layer only"
+msgstr "ད་ལྟོའི་བང་རིམ་ རྐྱངམ་ཅིག"
+
+#. enlarge toggle
+#: ../app/tools/gimpcropoptions.c:205
+#, c-format
+msgid "Allow enlarging  %s"
+msgstr "%s ཆར་བསྐྱེད་འབད་བཅུག"
+
+#. layer toggle
+#: ../app/tools/gimpcropoptions.c:215
+#, c-format
+msgid "Keep aspect ratio  %s"
+msgstr "རྣམ་པ་དཔྱ་ཚད་%s བཞག"
+
+#: ../app/tools/gimpcroptool.c:164
+msgid "Crop & Resize"
+msgstr "བཏོག་བཅོས་དང ཚད་བསྐྱར་བཟོ་ནི།"
+
+#: ../app/tools/gimpcroptool.c:165
+msgid "Crop or Resize an image"
+msgstr "བཏོག་བཅོས་ཡང་ན་ གཟུགས་བརྙན་ ཚད་བསྐྱར་བཟོ་ནི།"
+
+#: ../app/tools/gimpcroptool.c:166
+msgid "_Crop & Resize"
+msgstr "བཏོག་བཅོས་དང ཚད་བསྐྱར་བཟོ་ནི།(_C)"
+
+#. initialize the statusbar display
+#: ../app/tools/gimpcroptool.c:499
+#: ../app/tools/gimpcroptool.c:983
+msgid "Crop: "
+msgstr "བཏོག་བཅོས།:"
+
+#: ../app/tools/gimpcroptool.c:1010
+msgid "Crop & Resize Information"
+msgstr "བཏོག་བཅོས་འབད་བཞིནམ་ལས་་བརྡ་དོན་གྱི་ཚད་བསྐྱར་བཟོ་འབད།"
+
+#: ../app/tools/gimpcroptool.c:1029
+msgid "Origin X:"
+msgstr "ཨེགསི་ འགོ་ཐོག་ཐོག་བྱུང་ས།:"
+
+#: ../app/tools/gimpcroptool.c:1033
+msgid "Origin Y:"
+msgstr "ཝའི་ འགོ་ཐོག་བྱུང་ས།:"
+
+#: ../app/tools/gimpcroptool.c:1071
+#: ../app/widgets/gimpbrusheditor.c:194
+msgid "Aspect ratio:"
+msgstr "རྣམ་པའི་ དཔྱ་ཚད།"
+
+#: ../app/tools/gimpcroptool.c:1082
+msgid "From selection"
+msgstr "སེལ་འཐུ་་ནང་ལས།"
+
+#: ../app/tools/gimpcroptool.c:1090
+msgid "Auto shrink"
+msgstr "རང་བཞིན་གྱིས་བཀུམ། "
+
+#: ../app/tools/gimpcurvestool.c:142
+msgid "Adjust color curves"
+msgstr "ཚོས་གཞི་ གུག་གུགཔ་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpcurvestool.c:143
+msgid "_Curves..."
+msgstr "གུག་གུགཔ།(_C)"
+
+#: ../app/tools/gimpcurvestool.c:202
+msgid "Adjust Color Curves"
+msgstr "ཚོས་གཞི་ གུག་གུགཔ་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpcurvestool.c:204
+msgid "Load Curves"
+msgstr "གུག་གུགཔ་ མངོན་གསལ་འབད།"
+
+#: ../app/tools/gimpcurvestool.c:205
+msgid "Load curves settings from file"
+msgstr "ཡིག་སྣོད་ནང་ལས་ གུག་གུགཔ་གི་ སྒྲིག་སྟངས་ མངོན་གསལ་འབད།"
+
+#: ../app/tools/gimpcurvestool.c:206
+msgid "Save Curves"
+msgstr "གུག་གུགཔ་ སྲུང་བཟག་འབད།"
+
+#: ../app/tools/gimpcurvestool.c:207
+msgid "Save curves settings to file"
+msgstr "གུག་གུགཔ་གི་ སྒྲིག་སྟངས་ཚུ་ ཡིག་སྣོད་ནང་ལུ་ སྲུང་བཟག་འབད།"
+
+#: ../app/tools/gimpcurvestool.c:283
+msgid "Curves for indexed layers cannot be adjusted."
+msgstr "ཟུར་སྦྲགས་བང་རིམ་གི་དོན་ལུ་ གུག་གུགཔ་ བདེ་སྒྲིག་འབད་མི་བཏུབ།"
+
+#: ../app/tools/gimpcurvestool.c:479
+#: ../app/tools/gimplevelstool.c:415
+#: ../app/widgets/gimphistogrameditor.c:161
+msgid "Channel:"
+msgstr "རྒྱུ་ལམ།"
+
+#: ../app/tools/gimpcurvestool.c:494
+#: ../app/tools/gimplevelstool.c:430
+msgid "R_eset channel"
+msgstr "རྒྱུ་ལམ་ སླར་སྒྲིག་འབད།(_e)"
+
+#. Horizontal button box for load / save
+#: ../app/tools/gimpcurvestool.c:596
+#: ../app/tools/gimplevelstool.c:640
+msgid "All Channels"
+msgstr "རྒྱུ་ལམ་ཆ་མཉམ།"
+
+#. The radio box for selecting the curve type
+#: ../app/tools/gimpcurvestool.c:614
+msgid "Curve Type"
+msgstr "གུག་གུགཔ་གི་དབྱེ་བ།"
+
+#: ../app/tools/gimpdodgeburntool.c:71
+msgid "Dodge or Burn strokes"
+msgstr "གཟུར་ཐབས་ ཡང་ན་ སི་ཊོག་ བཙུགས་སྤྱོད་འབད།"
+
+#: ../app/tools/gimpdodgeburntool.c:72
+msgid "Dod_geBurn"
+msgstr "གཟུར་ཐབས་ བཙུགས་སྤྱོད།(_g)"
+
+#. the type (dodge or burn)
+#: ../app/tools/gimpdodgeburntool.c:192
+#, c-format
+msgid "Type  %s"
+msgstr "དབྱེ་བ།%s"
+
+#: ../app/tools/gimpdodgeburntool.c:204
+msgid "Mode"
+msgstr "ཐབས་ལམ།"
+
+#: ../app/tools/gimpdodgeburntool.c:216
+msgid "Exposure:"
+msgstr "མདངས་ཕོག"
+
+#: ../app/tools/gimpeditselectiontool.c:262
+#: ../app/tools/gimpeditselectiontool.c:1203
+msgid "Move Floating Selection"
+msgstr "འཕུར་ལྡིང་སེལ་འཐུ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpeditselectiontool.c:464
+#: ../app/tools/gimpeditselectiontool.c:732
+msgid "Move: "
+msgstr "སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpellipseselecttool.c:72
+msgid "Select elliptical regions"
+msgstr "སྒོང་དབྱིབས་ཅན་གྱི་ ས་ཁོངས་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpellipseselecttool.c:73
+msgid "_Ellipse Select"
+msgstr "སྒོང་དབྱིབས སེལ་འཐུ།(_E)"
+
+#: ../app/tools/gimperasertool.c:71
+msgid "Erase to background or transparency"
+msgstr "རྒྱབ་གཞི་ ཡང་ན་ དྭངས་གསལ་ཅན་་ལུ་ ཀྲེག་གཏང་།"
+
+#: ../app/tools/gimperasertool.c:72
+msgid "_Eraser"
+msgstr "ཀྲེག་བྱེད།(_E)"
+
+#. the anti_erase toggle
+#: ../app/tools/gimperasertool.c:185
+#, c-format
+msgid "Anti erase  %s"
+msgstr "%s  ཨེན་ཊི་ ཀྲེག་གཏང་ནི།"
+
+#: ../app/tools/gimpflipoptions.c:161
+#: ../app/tools/gimpmoveoptions.c:211
+#: ../app/tools/gimptransformoptions.c:323
+msgid "Affect:"
+msgstr "གནོད་སྐྱོན།"
+
+#. tool toggle
+#: ../app/tools/gimpflipoptions.c:167
+#, c-format
+msgid "Flip Type  %s"
+msgstr "%s མྱུར་ལྷོག་གི་དབྱེ་བ།"
+
+#: ../app/tools/gimpfliptool.c:83
+msgid "Flip the layer or selection"
+msgstr "བང་རིམ་ ཡང་ན་ སེལ་འཐུ་ མྱུར་ལྷོག་འབད།"
+
+#: ../app/tools/gimpfliptool.c:84
+msgid "_Flip"
+msgstr "མྱུར་ལྷོག(_F)"
+
+#: ../app/tools/gimpfreeselecttool.c:97
+msgid "Select hand-drawn regions"
+msgstr "ལག་འབྲི་གི་ས་ཁོངས་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpfreeselecttool.c:98
+msgid "_Free Select"
+msgstr "རང་དགར་ སེལ་འཐུ།(_F)"
+
+#: ../app/tools/gimpfuzzyselecttool.c:98
+msgid "Select contiguous regions"
+msgstr "ཉེ་འདབས་ཀྱི་ ས་ཁོངས་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpfuzzyselecttool.c:99
+msgid "Fu_zzy Select"
+msgstr "ཕུ་ཛི་ སེལ་འཐུ།(_z)"
+
+#: ../app/tools/gimphistogramoptions.c:151
+msgid "Histogram Scale"
+msgstr "ཧིསི་ཊོ་ག་རམར་ ཆ་ཚད།"
+
+#: ../app/tools/gimphuesaturationtool.c:111
+msgid "Adjust hue and saturation"
+msgstr "མཚོན་མདངས་དང་ མཐའ་ཚད་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimphuesaturationtool.c:112
+msgid "Hue-_Saturation..."
+msgstr "མཚོན་མདངས་་ མཐའ་ཚད།(_S)"
+
+#: ../app/tools/gimphuesaturationtool.c:166
+msgid "Adjust hue / lightness / saturation"
+msgstr "མཚོན་མདངས་/འོདཅན།/ མཐའ་ཚད་ཚུ་བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimphuesaturationtool.c:210
+msgid "Hue-Saturation operates only on RGB color layers."
+msgstr "མཚོན་མདངས་ མཐའ་ཚད་ཀྱིས་ ཨཱར་བི་ཇི་ བང་རིམ་ཚོས་གཞི་གུར་རྐྱངམ་ཅིག་ བཀོལ་སྤྱོད་འབད་ཨིན།"
+
+#: ../app/tools/gimphuesaturationtool.c:263
+msgid "M_aster"
+msgstr "ཨམ།(_a)"
+
+#: ../app/tools/gimphuesaturationtool.c:264
+msgid "_R"
+msgstr "ཨཱར།(_R)"
+
+#: ../app/tools/gimphuesaturationtool.c:265
+msgid "_Y"
+msgstr "ཝཡི།(_Y)"
+
+#: ../app/tools/gimphuesaturationtool.c:266
+msgid "_G"
+msgstr "ཇི།(_G)"
+
+#: ../app/tools/gimphuesaturationtool.c:267
+msgid "_C"
+msgstr "སི།(_C)"
+
+#: ../app/tools/gimphuesaturationtool.c:268
+msgid "_B"
+msgstr "བི།(_B)"
+
+#: ../app/tools/gimphuesaturationtool.c:269
+msgid "_M"
+msgstr "ཨེམ།(_M)"
+
+#: ../app/tools/gimphuesaturationtool.c:272
+msgid "Select Primary Color to Modify"
+msgstr "བདེ་སྒྲིག་འབད་ནིའི་དོན་་ལུ་ གཞི་རིམ་ཚོས་གཞི་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimphuesaturationtool.c:300
+msgid "Modify all colors"
+msgstr "ཚོས་གཞི་ཚུ་ཆ་མཉམ་ ལེགས་བཅོས་འབད།"
+
+#: ../app/tools/gimphuesaturationtool.c:343
+msgid "Modify Selected Color"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ ཚོས་གཞི་འདི་ ལེགས་བཅོས་འབད།"
+
+#: ../app/tools/gimphuesaturationtool.c:405
+msgid "R_eset color"
+msgstr "ཚོས་གཞི་སླར་སྒྲིག་འབད།(_e)"
+
+#: ../app/tools/gimpimagemaptool.c:259
+#: ../app/widgets/gimpthumbbox.c:354
+msgid "_Preview"
+msgstr "སྔོན་བལྟ།(_P)"
+
+#: ../app/tools/gimpimagemaptool.c:292
+msgid "Quick Load"
+msgstr "མངོན་གསལ་ འཕྲལ་མགྱོགས།"
+
+#: ../app/tools/gimpimagemaptool.c:322
+msgid "Quick Save"
+msgstr "འཕྲལ་མགྱོགས་ སྲུང་བཞག"
+
+#. adjust sliders
+#: ../app/tools/gimpinkoptions-gui.c:59
+msgid "Adjustment"
+msgstr "བདེ་སྒྲིག་འབད་ནི།"
+
+#: ../app/tools/gimpinkoptions-gui.c:71
+#: ../app/tools/gimpinkoptions-gui.c:96
+#: ../app/tools/gimptextoptions.c:426
+msgid "Size:"
+msgstr "ཚད།"
+
+#: ../app/tools/gimpinkoptions-gui.c:79
+#: ../app/tools/gimpmeasuretool.c:891
+#: ../app/tools/gimprotatetool.c:169
+#: ../app/widgets/gimpbrusheditor.c:207
+msgid "Angle:"
+msgstr "ཟུར་ཁུག"
+
+#. sens sliders
+#: ../app/tools/gimpinkoptions-gui.c:84
+msgid "Sensitivity"
+msgstr "དྲན་ཚོར།"
+
+#: ../app/tools/gimpinkoptions-gui.c:103
+msgid "Tilt:"
+msgstr "གཡོ་བ།"
+
+#: ../app/tools/gimpinkoptions-gui.c:110
+msgid "Speed:"
+msgstr "མྒྱོགས་ཚད།"
+
+#: ../app/tools/gimpinkoptions-gui.c:121
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#. Blob shape widget
+#: ../app/tools/gimpinkoptions-gui.c:151
+msgid "Shape"
+msgstr "དབྱིབས།"
+
+#: ../app/tools/gimpinktool.c:63
+msgid "Draw in ink"
+msgstr "སྣག་རྩི་གི་སྦེ་བྲིས།"
+
+#: ../app/tools/gimpinktool.c:64
+msgid "In_k"
+msgstr "སྣག་རྩི།(_k)"
+
+#: ../app/tools/gimpiscissorstool.c:277
+msgid "Scissors"
+msgstr "གྱིམ་རྩེ།"
+
+#: ../app/tools/gimpiscissorstool.c:278
+msgid "Select shapes from image"
+msgstr "གཟུགས་བརྙན་ནང་ལས་ དབྱིབས་སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpiscissorstool.c:279
+msgid "Intelligent _Scissors"
+msgstr "གྱིམ་རྩེ་ རིག་རྩལ་ཅན།(_S)"
+
+#: ../app/tools/gimplevelstool.c:161
+msgid "Adjust color levels"
+msgstr "ཚོས་གཞི་ ཚད་སྙོམས་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimplevelstool.c:162
+msgid "_Levels..."
+msgstr "ཚད་སྙོམས།(_L)"
+
+#: ../app/tools/gimplevelstool.c:220
+msgid "Adjust Color Levels"
+msgstr "ཚོས་གཞི་ ཚད་སྙོམས་ འདཻ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimplevelstool.c:222
+msgid "Load Levels"
+msgstr "ཚད་སྙོམས་ མངོན་གསལ་འབད།"
+
+#: ../app/tools/gimplevelstool.c:223
+msgid "Load levels settings from file"
+msgstr "ཡིག་སྣོད་ནང་ལས་ ཚད་སྙོམས་སྒྲིག་སྟངས་ མངོན་གསལ་འབད།"
+
+#: ../app/tools/gimplevelstool.c:224
+msgid "Save Levels"
+msgstr "ཚད་སྙོམས་ སྲུང་བཞག་འབད།"
+
+#: ../app/tools/gimplevelstool.c:225
+msgid "Save levels settings to file"
+msgstr "ཚད་སྙོམས་སྒྲིག་སྟངས་ ཡིག་སྣོད་ལུ་ སྲུང་བཞག་འབད།"
+
+#: ../app/tools/gimplevelstool.c:285
+msgid "Levels for indexed layers cannot be adjusted."
+msgstr "ཟུར་སྦྲགས་བང་རིམ་གྱི་དོན་ལུ་ ཚད་སྙོམས་ཚུ་ བདེ་སྒྲིག་འབད་མི་བཏུབ།"
+
+#: ../app/tools/gimplevelstool.c:355
+msgid "Pick black point"
+msgstr "ཡིག་ཚད་གནགཔོ་ འཐུ།"
+
+#: ../app/tools/gimplevelstool.c:359
+msgid "Pick gray point"
+msgstr "ཡིག་ཚད་སྐྱ་ཐལ་ འཐུ།"
+
+#: ../app/tools/gimplevelstool.c:363
+msgid "Pick white point"
+msgstr "ཡིག་ཚད་དཀརཔོ་ འཐུ།"
+
+#. Input levels frame
+#: ../app/tools/gimplevelstool.c:445
+msgid "Input Levels"
+msgstr "ཨིན་པུཊི་གི་ ཚད་སྙོམས།"
+
+#: ../app/tools/gimplevelstool.c:539
+msgid "Gamma"
+msgstr "ག་མ།"
+
+#. Output levels frame
+#: ../app/tools/gimplevelstool.c:569
+msgid "Output Levels"
+msgstr "ཨའུཊི་པུཊི་གི་ ཚད་སྙོམས།"
+
+#: ../app/tools/gimplevelstool.c:667
+msgid "Adjust levels automatically"
+msgstr "ཚད་སྙོམས་ཚུ་ རང་བཞིན་གྱིས་ བདེ་སྒྲིག་འབད།"
+
+#: ../app/tools/gimpmagnifyoptions.c:203
+msgid "Auto-resize window"
+msgstr "རང་བཞིན་གྱི་ ཚད་བསྐྱར་བཟོ་འབད་བཏུབ་མི་ སྒོ་སྒྲིག"
+
+#: ../app/tools/gimpmagnifytool.c:95
+msgid "Magnify"
+msgstr "ཐཆེར་བསྐྱེད།"
+
+#: ../app/tools/gimpmagnifytool.c:96
+msgid "Zoom in & out"
+msgstr "ཕྱིར་རྒྱས་དང ནང་ཟུམ།"
+
+#: ../app/tools/gimpmagnifytool.c:97
+msgid "M_agnify"
+msgstr "ཆེར་བསྐྱེད།(_a)"
+
+#: ../app/tools/gimpmeasureoptions.c:157
+msgid "Use info window"
+msgstr "བརྡ་དོན་སྒོ་སྒྲིག་ ལག་ལེན་འཐབ།"
+
+#: ../app/tools/gimpmeasuretool.c:118
+msgid "Measure"
+msgstr "འཇལ་ནི།"
+
+#: ../app/tools/gimpmeasuretool.c:119
+msgid "Measure distances and angles"
+msgstr "གྱང་ཚད་དང་ ཟུར་ཁུག་ཚུ་ འཇལ།"
+
+#: ../app/tools/gimpmeasuretool.c:120
+msgid "_Measure"
+msgstr "འཇལ་ནི།(_M)"
+
+#: ../app/tools/gimpmeasuretool.c:264
+msgid "Add Guides"
+msgstr "ལམ་སྟོན་པ་ ཁ་སྐོང་རྐྱབས།"
+
+#. tool->gdisp->shell
+#: ../app/tools/gimpmeasuretool.c:847
+msgid "Measure Distances and Angles"
+msgstr "གྱང་ཚད་དང་ ཟུར་ཁུག་ཚུ་ འཇལ།"
+
+#: ../app/tools/gimpmeasuretool.c:865
+msgid "Distance:"
+msgstr "གྱང་ཚད།"
+
+#: ../app/tools/gimpmoveoptions.c:171
+msgid "Pick a layer or guide"
+msgstr "བང་རིམ་ ཡང་ན ལམ་སྟོན་པ་ འཐུ། "
+
+#: ../app/tools/gimpmoveoptions.c:172
+msgid "Move the current layer"
+msgstr "ད་ལྟོའི་བང་རིམ་ སཔོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpmoveoptions.c:176
+msgid "Move selection"
+msgstr "སེལ་འཐུ་སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpmoveoptions.c:180
+msgid "Pick a path"
+msgstr "འགྲུལ་ལམ་ཅིག་ འཐུ།"
+
+#: ../app/tools/gimpmoveoptions.c:181
+msgid "Move the current path"
+msgstr "ད་ལྟོའི་འགྲུལ་ལམ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpmovetool.c:117
+msgid "Move layers & selections"
+msgstr "བང་རིམ་དང་ སེལ་འཐུ་ཚུ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpmovetool.c:118
+msgid "_Move"
+msgstr "སྤོ་བཤུད་འབད།(_M)"
+
+#: ../app/tools/gimpmovetool.c:298
+#: ../app/tools/gimpmovetool.c:576
+msgid "Move Guide: "
+msgstr "ལམ་སྟོན་པ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpmovetool.c:570
+msgid "Cancel Guide"
+msgstr "ལམ་སྟོན་པ་ ཆ་མེད་གཏང་།"
+
+#: ../app/tools/gimpmovetool.c:576
+msgid "Add Guide: "
+msgstr "ལམ་སྟོན་པ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/tools/gimppaintbrushtool.c:52
+msgid "Paint fuzzy brush strokes"
+msgstr "ཕུ་ཛི་པྱིར་སི་ཊོག་ ཙོན་གཏང་།"
+
+#: ../app/tools/gimppaintbrushtool.c:53
+msgid "_Paintbrush"
+msgstr "ཚོན་གཏང་ནིའི་པྱིར།(_P)"
+
+#: ../app/tools/gimppaintoptions-gui.c:103
+#: ../app/widgets/gimpbrushselect.c:201
+#: ../app/widgets/gimplayertreeview.c:332
+msgid "Opacity:"
+msgstr "དྭངས་སྒྲིབ།"
+
+#: ../app/tools/gimppaintoptions-gui.c:108
+#: ../app/tools/gimpselectionoptions.c:374
+#: ../app/widgets/gimpbrushselect.c:218
+#: ../app/widgets/gimplayertreeview.c:325
+msgid "Mode:"
+msgstr "ཐབས་ལམ།"
+
+#: ../app/tools/gimppaintoptions-gui.c:126
+msgid "Brush:"
+msgstr "པྱིར།"
+
+#: ../app/tools/gimppaintoptions-gui.c:135
+#: ../app/tools/gimppaintoptions-gui.c:395
+msgid "Gradient:"
+msgstr "སྟེགས་རིས།"
+
+#: ../app/tools/gimppaintoptions-gui.c:177
+msgid "Hard edge"
+msgstr "མཐའམ་སྲ་བ།"
+
+#: ../app/tools/gimppaintoptions-gui.c:216
+msgid "Pressure sensitivity"
+msgstr "གཡེབ་ཤུགས་ དྲན་ཚོར།"
+
+#: ../app/tools/gimppaintoptions-gui.c:236
+msgid "Opacity"
+msgstr "དྭངས་སྒྲིབ།"
+
+#: ../app/tools/gimppaintoptions-gui.c:250
+msgid "Hardness"
+msgstr "སྲ་བ།"
+
+#: ../app/tools/gimppaintoptions-gui.c:261
+msgid "Rate"
+msgstr "གོང་ཚད།"
+
+#: ../app/tools/gimppaintoptions-gui.c:274
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../app/tools/gimppaintoptions-gui.c:313
+msgid "Fade out"
+msgstr "ཉམས་ནི།"
+
+#: ../app/tools/gimppaintoptions-gui.c:333
+#: ../app/tools/gimppaintoptions-gui.c:404
+msgid "Length:"
+msgstr "རིང་ཚད།"
+
+#: ../app/tools/gimppaintoptions-gui.c:368
+msgid "Use color from gradient"
+msgstr "སྟེགས་རིས་ནང་ལས་ ཚོས་གཞི་ ལག་ལེན་འཐབ།"
+
+#: ../app/tools/gimppenciltool.c:52
+msgid "Paint hard edged pixels"
+msgstr "མཐའམ་སྲ་བའི པིག་སེལ་ ཚོན་གཏང་།"
+
+#: ../app/tools/gimppenciltool.c:53
+msgid "Pe_ncil"
+msgstr "ཞ་མྱུག(_n)"
+
+#: ../app/tools/gimpperspectivetool.c:81
+msgid "Perspective"
+msgstr "སྣང་ཚུལ།"
+
+#: ../app/tools/gimpperspectivetool.c:82
+msgid "Change perspective of the layer or selection"
+msgstr "བང་རིམ་ ཡང་ན་ སེལ་འཐུའི་ སྣང་ཚུལ་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/tools/gimpperspectivetool.c:83
+msgid "_Perspective"
+msgstr "སྣང་ཚུལ།(_P)"
+
+#: ../app/tools/gimpperspectivetool.c:140
+msgid "Perspective Transform Information"
+msgstr "སྣང་ཚུལ་གྱི་ བཟོ་བསྒྱུར་ བརྡ་དོན།"
+
+#: ../app/tools/gimpperspectivetool.c:149
+msgid "Matrix:"
+msgstr "མེ་ཊིགསི།"
+
+#: ../app/tools/gimpposterizetool.c:79
+msgid "Reduce image to a fixed number of colors"
+msgstr "གཟུགས་བརྙན་དེ ཚོས་གཞི་གི་གྱངས་ཁ་ གཏན་བཟོས་ཅིག་ལུ་ མར་ཕབ་འབད།"
+
+#: ../app/tools/gimpposterizetool.c:80
+msgid "_Posterize..."
+msgstr "པོསིཊརཡིཛི།(_P)"
+
+#: ../app/tools/gimpposterizetool.c:131
+msgid "Posterize (Reduce Number of Colors)"
+msgstr "པོསིཊརཡིཛི (ཚོས་གཞི་གི་གྱངས་ཁ་  མར་ཕབ་འབད་ཡོདཔ།)"
+
+#: ../app/tools/gimpposterizetool.c:173
+msgid "Posterize does not operate on indexed layers."
+msgstr "པོསིཊརཡིཛི་གིས་ ཟུར་སྦྲགས་བང་རིམ་གུར་ བཀོལ་སྤྱོད་མི་འབད།"
+
+#: ../app/tools/gimpposterizetool.c:223
+msgid "Posterize _levels:"
+msgstr "པོསིཊརཡིཛི་ ཚད་སྙོམས།(_l)"
+
+#: ../app/tools/gimprectselecttool.c:97
+msgid "Select rectangular regions"
+msgstr "གྲུ་བཞི་ནར་མོའི་ ས་ཁོངས་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimprectselecttool.c:98
+msgid "_Rect Select"
+msgstr "གྲུ་བཞི་ནར་མོ་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimprectselecttool.c:226
+msgid "Selection: ADD"
+msgstr "སེལ་འཐུ།: ཨེ་ཌི་ཌི།"
+
+#: ../app/tools/gimprectselecttool.c:229
+msgid "Selection: SUBTRACT"
+msgstr "སེལ་འཐུ།:ཕབ།"
+
+#: ../app/tools/gimprectselecttool.c:232
+msgid "Selection: INTERSECT"
+msgstr "སེལ་འཐུ།དུམ་བུར་བཅད།"
+
+#: ../app/tools/gimprectselecttool.c:235
+msgid "Selection: REPLACE"
+msgstr "སེལ་འཐུ།:ཚབ་བཙུངས།"
+
+#: ../app/tools/gimprectselecttool.c:414
+msgid "Selection: "
+msgstr "སེལ་འཐུ།"
+
+#: ../app/tools/gimprotatetool.c:98
+msgid "Rotate the layer or selection"
+msgstr "བང་རིམ་ ཡང་ན་ སེལ་འཐུ་དེ་ བསྒྱིར།"
+
+#: ../app/tools/gimprotatetool.c:99
+msgid "_Rotate"
+msgstr "བསྒྱིར།(_R)"
+
+#: ../app/tools/gimprotatetool.c:158
+msgid "Rotation Information"
+msgstr "བསྒྱིར་བའི་ བརྡ་དོན།"
+
+#: ../app/tools/gimprotatetool.c:185
+msgid "Center X:"
+msgstr "དབུས་ ཨེགསི།"
+
+#: ../app/tools/gimprotatetool.c:190
+msgid "Center Y:"
+msgstr "དབུས་ ཝཡི།"
+
+#: ../app/tools/gimpscaletool.c:91
+msgid "Scale"
+msgstr "ཆ་ཚད།"
+
+#: ../app/tools/gimpscaletool.c:92
+msgid "Scale the layer or selection"
+msgstr "བང་རིམ་ ཡང་ན་ སེལ་འཐུ་ ཆ་ཚད་འཇལ།"
+
+#: ../app/tools/gimpscaletool.c:93
+msgid "_Scale"
+msgstr "ཆ་ཚད།(_S)"
+
+#: ../app/tools/gimpscaletool.c:152
+msgid "Scaling information"
+msgstr "བརྡ་དོན་ཚད་འཇལ་དོ།"
+
+#: ../app/tools/gimpscaletool.c:163
+msgid "Original Width:"
+msgstr "རྒྱ་ཚད་ངོ་མ།"
+
+#: ../app/tools/gimpscaletool.c:170
+msgid "Current width:"
+msgstr "ད་ལྟོའི་ རྒྱ་ཚད།"
+
+#: ../app/tools/gimpscaletool.c:174
+msgid "Current height:"
+msgstr "ད་ལྟོའི་ མཐོ་ཚད།"
+
+#: ../app/tools/gimpscaletool.c:189
+msgid "Scale ratio X:"
+msgstr "ཆ་ཚད་ དཔྱ་ཚད་ ཨེགསི།"
+
+#: ../app/tools/gimpscaletool.c:192
+msgid "Scale ratio Y:"
+msgstr "ཆ་ཚད་ དཔྱ་ཚད་ ཝཡི།"
+
+#: ../app/tools/gimpscaletool.c:196
+msgid "Aspect Ratio:"
+msgstr "རྣམ་པའི་ དཔྱ་ཚད།"
+
+#: ../app/tools/gimpselectionoptions.c:136
+msgid "Smooth edges"
+msgstr "ཧུམ་ཁྱུག་ཁྱུ་གི་མཐའ་ཟུར།"
+
+#: ../app/tools/gimpselectionoptions.c:150
+msgid "Allow completely transparent regions to be selected"
+msgstr "རྩ་བ་ལས་ དྭངས་གསལ་ཅན་གྱི་ ས་ཁོངས་ཚུ་ སེལ་འཐུ་འབད་བཅུག"
+
+#: ../app/tools/gimpselectionoptions.c:156
+msgid "Base selection on all visible layers"
+msgstr "མཐོང་ཚུགས་པའི་བང་རིམ་ ཆ་མཉམ་གུར་ གཞི་རྟེན་སེལ་འཐུ།"
+
+#: ../app/tools/gimpselectionoptions.c:171
+msgid "Use all visible layers when shrinking the selection"
+msgstr "སེལ་འཐུ་ བཀུམ་འགྱོཝ་བའི་སྐབས་ལུ་ མཐོང་ཚུགས་པའི་ བང་རིམ་མཉམ་ ལག་ལེན་འཐབ།"
+
+#: ../app/tools/gimpselectionoptions.c:382
+#: ../app/tools/gimptextoptions.c:447
+msgid "Antialiasing"
+msgstr "ཨེན་ཊི་ཨེ་ལའི་སིང་།"
+
+#: ../app/tools/gimpselectionoptions.c:399
+msgid "Feather edges"
+msgstr "བྱ་སྒྲོའི་ མཐའ་ཟུར།"
+
+#: ../app/tools/gimpselectionoptions.c:425
+msgid "Show interactive boundary"
+msgstr "ཕན་ཚུན་ ཤུགས་ལྡན་ མཐའ་མཚམས་སྟོན།"
+
+#: ../app/tools/gimpselectionoptions.c:448
+msgid "Select transparent areas"
+msgstr "དྭངས་གསལ་ཅན་གྱི་ མངའ་ཁོངས་ཚུ་ སེལ་འཐུ་འབད།"
+
+#: ../app/tools/gimpselectionoptions.c:488
+msgid "Auto shrink selection"
+msgstr "རང་བཞིན་གྱི་ བཀུམ་འགྱོ་མི་ སེལ་འཐུ། "
+
+#: ../app/tools/gimpsheartool.c:98
+msgid "Shear"
+msgstr "གཏུབ།"
+
+#: ../app/tools/gimpsheartool.c:99
+msgid "Shear the layer or selection"
+msgstr "བང་རིམ་ ཡང་ན་ སེལ་འཐུ་ གཏུབ།"
+
+#: ../app/tools/gimpsheartool.c:100
+msgid "S_hear"
+msgstr "གཏུབ།(_h)"
+
+#: ../app/tools/gimpsheartool.c:157
+msgid "Shearing Information"
+msgstr "གཏུབ་ནིའི་ བརྡ་དོན།"
+
+#: ../app/tools/gimpsheartool.c:167
+msgid "Shear magnitude X:"
+msgstr "བོངས་ཚད་ ཨེགསི་ གཏུབ།"
+
+#: ../app/tools/gimpsheartool.c:174
+msgid "Shear magnitude Y:"
+msgstr "བོངས་ཚད་ ཝཡི་ གཏུབ།"
+
+#: ../app/tools/gimpsmudgetool.c:55
+msgid "Smudge image"
+msgstr "གཟུགས་བརྙན་ རབ་རིབ།"
+
+#: ../app/tools/gimpsmudgetool.c:56
+msgid "_Smudge"
+msgstr "རབ་རིབ།(_S)"
+
+#: ../app/tools/gimptextoptions.c:146
+msgid "Hinting alters the font outline to produce a crisp bitmap at small sizes"
+msgstr "བརྡ་མཚོན་སྟོན་ིམི་དེ་གིས ཀི་རིབསི བིཊི་མེཔ་ཚུ་ ཚད་ཆུང་ཀུ་སྦེ་བཟོ་སྟོན་འབད་ནིའི་དོན་ལུ་ ཡིག་གཟུགས་ཀྱི མཐའ་ཐིག་བསྒྱུརཝ་ཨིན།"
+
+#: ../app/tools/gimptextoptions.c:153
+msgid "If available, hints from the font are used but you may prefer to always use the automatic hinter"
+msgstr "ལངམ་སྦེ་ཡོད་པ་ཅིན་ ཡིག་གཟུགས་ནང་གི་ བརྡ་ཚོན་ཚུ་ ལག་ལེན་འཐབ་ཨིན་ དེ་འབདཝ་ད་ ཁྱོད་ཀྱིས་ ཨ་རྟག་རང་ རང་བཞིན་གྱི་ བརྡ་ཚོན་ ལག་ལེན་འཐབ་ནི་དེ་རང་ དགའ་འོང་།"
+
+#: ../app/tools/gimptextoptions.c:178
+msgid "Indentation of the first line"
+msgstr "གྲལ་ཐིག་དང་པམ་གི་ འགོ་ཚག་བཀལ་བ།"
+
+#: ../app/tools/gimptextoptions.c:183
+msgid "Modify line spacing"
+msgstr "གྲལ་ཐིག་བར་སྟོང་བཞག་ཐངས་ལེགས་བཅོས་འབད་དོ།"
+
+#: ../app/tools/gimptextoptions.c:419
+msgid "Font:"
+msgstr "ཡིག་གཟུགས།"
+
+#: ../app/tools/gimptextoptions.c:431
+msgid "Hinting"
+msgstr "བརྡ་མཚོན།"
+
+#: ../app/tools/gimptextoptions.c:438
+msgid "Force auto-hinter"
+msgstr "བབང་ཅན་སྦེ་ རང་བཞིན་གྱི་ བརྡ་ཚོན་སྟོན་བཅུག"
+
+#: ../app/tools/gimptextoptions.c:453
+msgid "Text Color"
+msgstr "ཚིག་ཡིག་ ཚོས་གཞི།"
+
+#: ../app/tools/gimptextoptions.c:458
+msgid "Color:"
+msgstr "ཚོས་གཞི།"
+
+#: ../app/tools/gimptextoptions.c:463
+msgid "Justify:"
+msgstr "ལྟེམས་བཅོས་འབད།"
+
+#: ../app/tools/gimptextoptions.c:469
+msgid "Indent:"
+msgstr "འགོ་མཚམས།:"
+
+#: ../app/tools/gimptextoptions.c:475
+msgid ""
+"Line\n"
+"spacing:"
+msgstr ""
+"གྲལ་ཐིག་\n"
+"བར་སྟོང་གབཏོན་དོ།:"
+
+#: ../app/tools/gimptextoptions.c:478
+msgid "Create path from text"
+msgstr "ཚིག་ཡིག་ནང་ལས་འགྲུལ་ལམགསར་བསྐྲུན་འབད།"
+
+#: ../app/tools/gimptexttool.c:145
+msgid "Add text to the image"
+msgstr "གཟུགས་བརྙན་ལུ་ ཚིག་ཡིག་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/tools/gimptexttool.c:146
+msgid "Te_xt"
+msgstr "ཚིག་ིཡིག(_x)"
+
+#: ../app/tools/gimptexttool.c:744
+msgid "GIMP Text Editor"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ཚིག་ཡིག་ ཞུན་དག་པ།/"
+
+#: ../app/tools/gimptexttool.c:854
+#: ../app/tools/gimptexttool.c:857
+msgid "Confirm Text Editing"
+msgstr "ཚིག་ཡིག་ ཞུན་དག་འབད་ནི་དེ ངེས་གཏན་བཟོ།"
+
+#: ../app/tools/gimptexttool.c:878
+msgid ""
+"The layer you selected is a text layer but it has been modified using other tools. Editing the layer with the text tool will discard these modifications.\n"
+"\n"
+"You can edit the layer or create a new text layer from its text attributes."
+msgstr ""
+"ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་བང་རིམ་དེ ཚིག་ཡིག་བང་རིམ་ཨིན་ དེ་འབདཝ་ད་ འ་ནི་དེ་ ལག་ཆས་གཞན་ ལག་ལེན་འཐབ་པའི ཐོག་ལས་ ལེགས་བཅོས་འབད་འབདཝ་ཨིན། ཚིག་ཡིག་ལག་ཆས་ཀྱི་ཐོག་ལས་ བང་རིམ་ཞུན་དག་འབད་མི་དེ་གིས ལེགས་བཅོས་ བཏོན་བཀོག་འོང་།\n"
+"\n"
+" ཁྱོད་ཀྱིས་བང་རིམ་ཞུན་དག་འབད་ནི་དང་ ཡང་ན་ ཚིག་ཡིག་གི་ཁྱད་ཆོས་འདི་ནང་ལས་ ཚིིིག་ཡིག་གི་བང་རིམ་ གསརཔ་ གསར་བསྐྲུན་འབད་གོ"
+
+#: ../app/tools/gimpthresholdtool.c:93
+msgid "Reduce image to two colors using a threshold"
+msgstr "ཐེརེཤ་ཧཱོལ་ ལག་ལེན་འཐབ་པའི་ཐོག་ལས་ གཟུགས་བརྙན་དེ་ ཚོས་གཞི་གཉིས་ལུ་ མར་ཕབ་འབད།"
+
+#: ../app/tools/gimpthresholdtool.c:94
+msgid "_Threshold..."
+msgstr "ཐེརེཤ་ཧཱོལ།(_T) "
+
+#: ../app/tools/gimpthresholdtool.c:148
+msgid "Apply Threshold"
+msgstr "ཐེརེཤ་ཧཱོལ་ འཇུག་སྤྱོད་འབད།"
+
+#: ../app/tools/gimpthresholdtool.c:199
+msgid "Threshold does not operate on indexed layers."
+msgstr "ཐེརེཤ་ཧཱོལ་གྱིས་ ཟུར་སྦྲགས་བང་རིམ་གུར་ བཀོལ་སྤྱོད་འབད་ནི་མེད།"
+
+#: ../app/tools/gimptransformoptions.c:329
+msgid "Transform Direction"
+msgstr "ཁ་ཕྱོགས་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/tools/gimptransformoptions.c:338
+msgid "Interpolation:"
+msgstr "བསྐྱར་བསྣོན། "
+
+#: ../app/tools/gimptransformoptions.c:348
+msgid "Supersampling"
+msgstr "དཔེ་ཚད་ ཡང་དག་སྟོན་དོ།"
+
+#. the clip resulting image toggle button
+#: ../app/tools/gimptransformoptions.c:353
+msgid "Clip result"
+msgstr "གྲུབ་འབྲས་ བཏབ་བཞག"
+
+#: ../app/tools/gimptransformoptions.c:367
+msgid "Preview:"
+msgstr "སྔོན་བལྟ།"
+
+#. the constraints frame
+#: ../app/tools/gimptransformoptions.c:413
+msgid "Constraints"
+msgstr "བར་ཆད།"
+
+#: ../app/tools/gimptransformoptions.c:425
+#, c-format
+msgid "15 degrees  %s"
+msgstr "%s་ ཁུག་ཟུར་༡༥།"
+
+#: ../app/tools/gimptransformoptions.c:445
+#, c-format
+msgid "Keep height  %s"
+msgstr "མཐོ་ཚད་ %s་བཞག"
+
+#: ../app/tools/gimptransformoptions.c:447
+#, c-format
+msgid "Keep width  %s"
+msgstr "རྒྱ་ཚད་%s་ བཞག"
+
+#: ../app/tools/gimptransformoptions.c:449
+#, c-format
+msgid "Keep aspect  %s"
+msgstr "རྣམ་པ་%s་ བཞག"
+
+#: ../app/tools/gimptransformtool.c:253
+msgid "Transforming..."
+msgstr "བཟོ་བསྒྱུར་འབད་དོ།..."
+
+#: ../app/tools/gimpvectoroptions.c:113
+msgid "Restrict editing to polygons"
+msgstr "ཟུར་ལྔ་མ་ཚུ་ རྐྱངམ་ཅིག་ཞུན་དག་འབད།"
+
+#: ../app/tools/gimpvectoroptions.c:177
+msgid "Edit Mode"
+msgstr "ཐབས་ལམ་ཞུན་དག་འབད།"
+
+#: ../app/tools/gimpvectoroptions.c:182
+msgid "Polygonal"
+msgstr "ཟུར་ལང་མ།"
+
+#: ../app/tools/gimpvectoroptions.c:186
+#, c-format
+msgid ""
+"Path to Selection\n"
+"%s  Add\n"
+"%s  Subtract\n"
+"%s  Intersect"
+msgstr ""
+"སེལ་འཐུ་ལུ་\n"
+" འགྲུལ་ལམ། %s བསྡོམས།\n"
+"%s ཕབ།\n"
+"%s དུམ་བུར་གཅོད་པ།"
+
+#: ../app/tools/gimpvectoroptions.c:196
+msgid "Create selection from path"
+msgstr "འགྲུལ་ལམ་ནང་ལས་སེལ་འཐུ་གསར་བསྐྲུན་འབད།"
+
+#: ../app/tools/gimpvectoroptions.c:207
+msgid "Stroke path"
+msgstr "སིཊོཀ་འགྲུལ་ལམ།"
+
+#: ../app/tools/gimpvectortool.c:161
+msgid "Create and edit paths"
+msgstr "འགྲུལ་ལམ་ཚུ་ གསར་བསྐྲུན་དང་ ཞུན་དག་འབད།"
+
+#: ../app/tools/gimpvectortool.c:363
+msgid "Add Stroke"
+msgstr "སི་ཊོག་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/tools/gimpvectortool.c:381
+msgid "Add Anchor"
+msgstr "ཨེན་ཀོར་ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/tools/gimpvectortool.c:404
+msgid "Insert Anchor"
+msgstr "ཨེན་ཀོར་ ནང་ན་བཙུགས།"
+
+#: ../app/tools/gimpvectortool.c:433
+msgid "Drag Handle"
+msgstr "བཤེད་བཟུང་ འདྲུད།"
+
+#: ../app/tools/gimpvectortool.c:462
+msgid "Drag Anchor"
+msgstr "ཨེན་ཀོར་འདྲུད།"
+
+#: ../app/tools/gimpvectortool.c:479
+msgid "Drag Anchors"
+msgstr "ཨེན་ཀོར་འདྲུད།"
+
+#: ../app/tools/gimpvectortool.c:499
+msgid "Drag Curve"
+msgstr "གུག་གུགཔ་འདྲུད།"
+
+#: ../app/tools/gimpvectortool.c:527
+msgid "Connect Strokes"
+msgstr "སི་ཊོག་ མཐུད།"
+
+#: ../app/tools/gimpvectortool.c:557
+msgid "Drag Path"
+msgstr "འགྲུལ་ལམ་ འདྲུད།"
+
+#: ../app/tools/gimpvectortool.c:567
+msgid "Convert Edge"
+msgstr "མཐའ་ཟུར་ གཞི་བསྒྱུར་འབད།"
+
+#: ../app/tools/gimpvectortool.c:597
+msgid "Delete Anchor"
+msgstr "ཨེན་ཀོར་ བཏོན་གཏང་།"
+
+#: ../app/tools/gimpvectortool.c:619
+msgid "Delete Segment"
+msgstr "ཆ་བགོས་བཏོན་གཏང་།"
+
+#: ../app/tools/gimpvectortool.c:831
+msgid "Move Anchors"
+msgstr "ཨེན་ཀོར་ སྤོ་བཤུད་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1196
+msgid "Click to pick path to edit."
+msgstr "ཞུན་དག་ལུ་ འགྲུལ་ལམ་འཐུ་ནི་དོན་ལས་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1199
+msgid "Click to create a new path."
+msgstr "འགྲུལ་ལམ་ གསརཔ་གསར་བསྐྲུན་འབད་དིའི་དོན་ལས་ ཨེབ་གཏང་་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1202
+msgid "Click to create a new component of the path."
+msgstr "འགྲུལ་ལམ་གྱི་ ཆ་ཤས་གསརཔ་ གསར་བསྐྲུན་འབད་ནི་དོན་ལས་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1205
+msgid "Click to create a new anchor. (try SHIFT)"
+msgstr "ཨེན་ཀོར་གསརཔ་ གསར་བསྐྲུན་འབད་ནི་དོན་ལས་ ཨེབ་གཏང་འབད།( སོར་ལྡེ་ལུ་འབད་རྩོལ་བསྐྱེད)"
+
+#: ../app/tools/gimpvectortool.c:1208
+msgid "Click-Drag to move the anchor around."
+msgstr "ཨེན་ཀོར་དེ་ མཐའ་སྐོར་ཏེ་ སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ འདྲུད་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1211
+#: ../app/tools/gimpvectortool.c:1218
+msgid "Click-Drag to move the anchors around."
+msgstr "ཨེན་ཀོར་ཚུ་ མཐའ་སྐོར་ཏེ་ སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ འདྲུད་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1214
+msgid "Click-Drag to move the handle around. (try SHIFT)"
+msgstr "བཤད་བཟུང་དེ་ མཐའ་སྐོར་ཏེ་ སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ ཨེབ་སྟེ་འདྲུད།(སོར་ལྡེ་ འབད་རྩོལ་བསྐྱེད)"
+
+#: ../app/tools/gimpvectortool.c:1220
+msgid "Click-Drag to change the shape of the curve. (SHIFT: symmetrical)"
+msgstr "གུག་གུགཔ་གི་ དབྱིབས་ བསྒྱུར་བཅོས་འབད་ནིའི་དོན་ལུ་  ཨེབ་སྟེ་འདྲུད་(སོར་ལྡེ་ མཛེས་སྙོམས་ )"
+
+#: ../app/tools/gimpvectortool.c:1224
+msgid "Click-Drag to move the component around. (try SHIFT)"
+msgstr "ཆ་ཤས་ མཐའ་སྐོར་ཏེ་ སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ ཨེབ་སྟེ་འདྲུད། (སོར་ལྡེ་ འབད་རྩོལ་བསྐྱེད)"
+
+#: ../app/tools/gimpvectortool.c:1228
+msgid "Click-Drag to move the path around."
+msgstr "འགྲུལ་ལམ་མཐའ་སྐོར་ཏེ་ སྤོ་བཤུད་འབད་ནིའི་དོན་ལུ་ ཨེབ་སྟཻ་འདྲུད།"
+
+#: ../app/tools/gimpvectortool.c:1231
+msgid "Click to insert an anchor on the path. (try SHIFT)"
+msgstr "འགྲུལ་ལམ་གུར་ ཨེན་ཀོར་ནང་ན་ བཙུགས་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།(སོར་ལྡེ་ འབད་རྩོལ་བསྐྱེད)"
+
+#: ../app/tools/gimpvectortool.c:1234
+msgid "Click to delete this anchor."
+msgstr "ཨེན་ཀོར་དེ་ བཏོན་གཏང་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1237
+msgid "Click to connect this anchor with the selected endpoint."
+msgstr "ཨེན་ཀོར་དེ་ སེལ་འཐུ་འབད་ཡོད་མི་ མཐའ་རྩེ་དང་ོིག་ཁར་མཐུད་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1241
+msgid "Click to open up the path."
+msgstr "འགྲུལ་ལམ་ཁ་ཕྱེ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1244
+msgid "Click to make this node angular."
+msgstr "མཐུད་མཚམས་དེ་ཟུར་ཁུག་སྦེ་བཟོ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/tools/gimpvectortool.c:1761
+msgid "Delete Anchors"
+msgstr "ཨེན་ཀོར་ བཏོན་གཏང་།"
+
+#: ../app/tools/gimpvectortool.c:1928
+msgid "There is no active layer or channel to stroke to"
+msgstr "དེ་ལུ་ སི་ཊོག་འབད་ནིའི་དོན་ལུ་ ཕི་ནང་ལུ་ ཤུགས་ལྡན་བང་རིམ་ ཡང་ན་ རྒྱུ་ལམ་མེད།"
+
+#: ../app/vectors/gimpvectors.c:229
+msgid "Path"
+msgstr "འགྲུལ་ལམ།"
+
+#: ../app/vectors/gimpvectors.c:230
+msgid "Rename Path"
+msgstr "འགྲུལ་ལམ་ བསྐྱར་མིང་བཏགས།"
+
+#: ../app/vectors/gimpvectors.c:231
+#: ../app/vectors/gimpvectors.c:356
+msgid "Move Path"
+msgstr "འགྲུལ་ལམ་ སྤོ་བཤུད་འབད།"
+
+#: ../app/vectors/gimpvectors.c:232
+msgid "Scale Path"
+msgstr "འགྲུལ་ལམ་ ཆ་ཚད་འཇལ།"
+
+#: ../app/vectors/gimpvectors.c:233
+msgid "Resize Path"
+msgstr "འགྲུལ་ལམ་ ཚད་བསྐྱར་བཟོ།"
+
+#: ../app/vectors/gimpvectors.c:234
+#: ../app/vectors/gimpvectors.c:447
+msgid "Flip Path"
+msgstr "འགྲུལ་ལམ་ མྱུར་ལྷོད་འབད།"
+
+#: ../app/vectors/gimpvectors.c:235
+#: ../app/vectors/gimpvectors.c:491
+msgid "Rotate Path"
+msgstr "འགྲུལ་ལམ་ བསྒྱིར།"
+
+#: ../app/vectors/gimpvectors.c:236
+#: ../app/vectors/gimpvectors.c:522
+msgid "Transform Path"
+msgstr "འགྲུལ་ལམ་ བཟོ་བསྒྱུར་འབད།"
+
+#: ../app/vectors/gimpvectors.c:551
+msgid "Cannot stroke empty path."
+msgstr "རྒྱུ་ལམ་སྟོངམ་ སིཊོཀ་འབད་མི་བཏུབ།"
+
+#: ../app/vectors/gimpvectors-import.c:287
+msgid "Import Paths"
+msgstr "འགྲུལ་ལམ་ ནང་འདྲེན་འབད།"
+
+#: ../app/vectors/gimpvectors-import.c:298
+msgid "Imported Path"
+msgstr "ནང་འདྲིན་འབད་ཡོད་མི་ འགྲུལ་ལམ།"
+
+#: ../app/vectors/gimpvectors-import.c:324
+#, c-format
+msgid "No paths found in '%s'"
+msgstr "'%s' ནང་ལུ་ གྲུལ་ལམ་འཚོལ་མ་ཐོབ།"
+
+#: ../app/vectors/gimpvectors-import.c:327
+msgid "No paths found in the buffer"
+msgstr "གནད་ཁོངས་ནང་ལུ་ འགྲུལ་ལམ་ འཚོལ་མ་ཐོབ།"
+
+#: ../app/vectors/gimpvectors-import.c:337
+#, c-format
+msgid "Failed to import paths from '%s': %s"
+msgstr "'%s': %s ནང་ལས་འགྲུལ་ལམ་ ནང་འྡྲེན་འབད་ནི་ལུ་ འཐུས་ཤོར་འབྱུང་ནུག"
+
+#: ../app/widgets/gimpactiongroup.c:803
+#, c-format
+msgid "RGBA (%0.3f, %0.3f, %0.3f, %0.3f)"
+msgstr "ཨཱར་ཇི་བི་ཨེ (%0.3f, %0.3f, %0.3f, %0.3f)"
+
+#: ../app/widgets/gimpactionview.c:354
+#: ../app/widgets/gimpcontrollereditor.c:374
+msgid "Action"
+msgstr "བྱ་བ།"
+
+#: ../app/widgets/gimpactionview.c:383
+msgid "Shortcut"
+msgstr "མགྱོགས་ཐབས།"
+
+#: ../app/widgets/gimpactionview.c:405
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../app/widgets/gimpactionview.c:545
+#: ../app/widgets/gimpactionview.c:738
+msgid "Changing shortcut failed."
+msgstr "མགྱོགས་ཐབས་ བསྒྱུར་བཅོས་ འཐུས་ཤོར་འབྱུང་ནུག"
+
+#: ../app/widgets/gimpactionview.c:585
+msgid "Conflicting Shortcuts"
+msgstr "མི་མཐུན་པའི་ མགྱོགས་ཐབས།"
+
+#: ../app/widgets/gimpactionview.c:591
+msgid "_Reassign shortcut"
+msgstr "མགྱོགས་ཐབས་ ཡང་བསྐྱར་འགན་སྤྲོད་འབད།(_R)"
+
+#: ../app/widgets/gimpactionview.c:602
+#, c-format
+msgid "Shortcut \"%s\" is already taken by \"%s\" from the \"%s\" group."
+msgstr "མགྱོགས་ཐབས་\"%s\" དེ་\"%s\" སྡེ་ཚན་ནང་ལས་ ་\"%s\"གིས་ཧེ་མ་ལས་རང་ སྦག་ཡར་སོང་ཡི།"
+
+#: ../app/widgets/gimpactionview.c:606
+#, c-format
+msgid "Reassigning the shortcut will cause it to be removed from \"%s\"."
+msgstr "མགྱོགས་ཐབས་ཡང་བསྐྱར་འགན་སྤྲོད་འབད་མི་དེ་གིས  \"%s\".ནང་ལས་རྩ་བསྐྲད་གཏང་བཅུག་འོང་།"
+
+#: ../app/widgets/gimpactionview.c:673
+msgid "Removing shortcut failed."
+msgstr "མགྱོགས་ཐབས་ རྩ་བསྐྲད་གཏང་ནི་དེ་ འཐུས་ཤོར་འབྱུང་ནུག"
+
+#: ../app/widgets/gimpactionview.c:678
+msgid "Invalid shortcut."
+msgstr "ནུས་མེད་ མགྱོགས་ཐབས།"
+
+#: ../app/widgets/gimpbrusheditor.c:168
+msgid "Spikes:"
+msgstr "གཟེར།"
+
+#: ../app/widgets/gimpbrusheditor.c:181
+msgid "Hardness:"
+msgstr "སྲ་བ།"
+
+#: ../app/widgets/gimpbrusheditor.c:220
+#: ../app/widgets/gimpbrushfactoryview.c:114
+msgid "Spacing:"
+msgstr "བར་སྟོང་གཏོན་དོ།"
+
+#: ../app/widgets/gimpbrusheditor.c:223
+#: ../app/widgets/gimpbrushfactoryview.c:117
+msgid "Percentage of width of brush"
+msgstr "པྱིར་གྱི་རྒྱ་ཚད་ཀྱི་ བརྒྱ་ཆ།"
+
+#: ../app/widgets/gimpbufferview.c:165
+#: ../app/widgets/gimpbufferview.c:246
+#: ../app/widgets/gimpcontainergridview.c:206
+#: ../app/widgets/gimpcontainergridview.c:657
+#: ../app/widgets/gimphistogrameditor.c:147
+#: ../app/widgets/gimphistogrameditor.c:359
+msgid "(None)"
+msgstr "(ཅི་མེད།)"
+
+#: ../app/widgets/gimpcellrendereraccel.c:234
+#: ../app/widgets/gimpcellrendereraccel.c:459
+msgid "Type a new accelerator, or press Backspace to clear"
+msgstr "མགྱོགས་འཕྲུལ་གསརཔ་ ཡིག་དཔར་རྐྱབས་ ཡང་ན་ བསལ་ནིའི་དོན་ལུ་རྒྱབ་བཤུད་"
+
+#: ../app/widgets/gimpcellrendereraccel.c:462
+msgid "Type a new accelerator"
+msgstr "མགྱོགས་འཕྲུལ་གསརཔ་ ཡིག་དཔར་རྐྱབས།"
+
+#: ../app/widgets/gimpchanneltreeview.c:151
+msgid "Reorder Channel"
+msgstr "རྒྱུ་ལམ་གྱི་ གོ་རིམ་སླར་སྒྲིགས།"
+
+#: ../app/widgets/gimpchanneltreeview.c:261
+msgid "Empty Channel"
+msgstr "རྒྱུ་ལམ་སྟོངམ།"
+
+#: ../app/widgets/gimpclipboard.c:283
+msgid "Clipboard"
+msgstr "འཛིན་པང་།"
+
+#: ../app/widgets/gimpcolordialog.c:169
+msgid "Add the current color to the color history"
+msgstr "ད་ལྟོའི་ཚོས་གཞི་ སྔོན་རབས་་ཚོས་གཞི་ལུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:177
+msgid "Available Filters"
+msgstr "ཚགས་མ་ འཐོབ་ཆོག་ཆོག"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:204
+msgid "Add the selected filter to the list of active filters."
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ ཚགས་མ་ཚུ་ ཤུགས་ལྡན་ཚགས་མ་གི་ཐོ་ཡིག་ནང་ལུ་ ཁ་སྐོང་རྐྱབས།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:221
+msgid "Remove the selected filter from the list of active filters."
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ ཚགས་མ་ཚུ་ ཤུགས་ལྡན་ཚགས་མ་གི་ཐོ་ཡིག་ནང་ལས་ རྩ་བསྐྲད་གཏང་།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:235
+msgid "Move the selected filter up"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ ཚགས་མ་ ཡར་སྤོ།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:244
+msgid "Move the selected filter down"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ ཚགས་མ་ མར་སྤོ།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:289
+msgid "Active Filters"
+msgstr "ཤུགས་ལྡན་ ཚགས་མ།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:322
+msgid "Reset the selected filter to default values"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ ཚགས་མ་ སྔོན་སྒྲིག་གི་གནས་གོང་ནང་ལུ་ སླར་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:543
+#, c-format
+msgid "Configure selected filter: %s"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ ཚགས་མ་ %sདེ་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:550
+msgid "No filter selected"
+msgstr "ཚགས་མ་ སེལ་འཐུ་འབད་དེ་མེད།"
+
+#: ../app/widgets/gimpcolordisplayeditor.c:554
+msgid "Configure selected filter"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ ཚགས་མ་ རིམ་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimpcolorframe.c:240
+msgid "Index:"
+msgstr "ཟུར་སྦྲགས།"
+
+#: ../app/widgets/gimpcolorframe.c:244
+#: ../app/widgets/gimpcolorframe.c:265
+msgid "Red:"
+msgstr "དམར་པོ།"
+
+#: ../app/widgets/gimpcolorframe.c:245
+#: ../app/widgets/gimpcolorframe.c:266
+msgid "Green:"
+msgstr "ལྗང་ཁུ།"
+
+#: ../app/widgets/gimpcolorframe.c:246
+#: ../app/widgets/gimpcolorframe.c:267
+msgid "Blue:"
+msgstr "ཧོནམ།"
+
+#: ../app/widgets/gimpcolorframe.c:256
+#: ../app/widgets/gimpcolorframe.c:287
+msgid "Value:"
+msgstr "གནས་གོང་།"
+
+#: ../app/widgets/gimpcolorframe.c:275
+msgid "Hex:"
+msgstr "ཧེགསི།"
+
+#: ../app/widgets/gimpcolorframe.c:285
+msgid "Hue:"
+msgstr "ཚོན་མདངས།"
+
+#: ../app/widgets/gimpcolorframe.c:286
+msgid "Sat.:"
+msgstr "ཉི།"
+
+#: ../app/widgets/gimpcolorframe.c:303
+msgid "Cyan:"
+msgstr "སྔོ་ལྗངས།"
+
+#: ../app/widgets/gimpcolorframe.c:304
+msgid "Magenta:"
+msgstr "དམར་སྨུག།"
+
+#: ../app/widgets/gimpcolorframe.c:305
+msgid "Yellow:"
+msgstr "སེར་པོ།"
+
+#: ../app/widgets/gimpcolorframe.c:306
+msgid "Black:"
+msgstr "གནགཔོ།"
+
+#: ../app/widgets/gimpcolorframe.c:320
+msgid "Alpha:"
+msgstr "ཨཱལ་ཕ།"
+
+#: ../app/widgets/gimpcolormapeditor.c:247
+msgid "Color index:"
+msgstr "ཚོས་གཞི་ཟུར་སྦྲགས།"
+
+#: ../app/widgets/gimpcolormapeditor.c:258
+msgid "HTML notation:"
+msgstr "ཨེཆི་ཊི་ཨེམ་ཨེལི་གི རྟགས།"
+
+#: ../app/widgets/gimpcontainerpopup.c:502
+msgid "Smaller Previews"
+msgstr "སྔོན་བལྟ་ ཆུང་ཀུ"
+
+#: ../app/widgets/gimpcontainerpopup.c:507
+msgid "Larger Previews"
+msgstr "སྔོན་བལྟ་ཆེ་བ།"
+
+#: ../app/widgets/gimpcontrollereditor.c:210
+msgid "Dump events from this controller"
+msgstr "ཚད་འཛིན་པ་འདི་ནང་ལས་ བྱུང་ལས་ཚུ་ བཀོག་གཏང་།"
+
+#: ../app/widgets/gimpcontrollereditor.c:215
+msgid "Enable this controller"
+msgstr "ཚད་འཛིན་པ་འདི་ ལྕོགས་ཅན་བཟོ།"
+
+#: ../app/widgets/gimpcontrollereditor.c:236
+msgid "Name:"
+msgstr "མིང་།"
+
+#: ../app/widgets/gimpcontrollereditor.c:369
+msgid "Event"
+msgstr "བྱུང་ལས།"
+
+#: ../app/widgets/gimpcontrollereditor.c:550
+msgid "Select Controller Event Action"
+msgstr "ཚད་འཛིན་བྱུང་ལས་ཀྱི་བྱ་བ་ སེལ་འཐུ་འབད།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:69
+msgid "Key Up (Shift + Control + Alt)"
+msgstr "ལྡེ་མིག་ཡར།(སོར་ལྡེ། + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:72
+msgid "Key Up (Control + Alt)"
+msgstr "ལྡེ་མིག་ཡར།(ཚད་འཛིན་ + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:75
+msgid "Key Up (Shift + Alt)"
+msgstr "ལྡེ་མིག་ཡར།(སོར་ལྡེ།+ གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:78
+msgid "Key Up (Shift + Control)"
+msgstr "ལྡེ་མིག་ཡར།(སོར་ལྡེ། + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:81
+msgid "Key Up (Alt)"
+msgstr "ལྡེ་མིག་ཡར།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:84
+msgid "Key Up (Control)"
+msgstr "ལྡེ་མིག་ཡར།(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:87
+msgid "Key Up (Shift)"
+msgstr "ལྡེ་མིག་ཡར། (སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:90
+msgid "Key Up"
+msgstr "ལྡེ་མིག་ཡར།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:94
+msgid "Key Down (Shift + Control + Alt)"
+msgstr "ལྡེ་མིག་མར།(གདམ་ལྡེ + ཚད་འཛིན + གདམ་ལྡེ)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:97
+msgid "Key Down (Control + Alt)"
+msgstr "ལྡེ་མིག་མར།(ཚད་འཛིན + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:100
+msgid "Key Down (Shift + Alt)"
+msgstr "ལྡེ་མིག་མར།(སོར་ལྡེ། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:103
+msgid "Key Down (Shift + Control)"
+msgstr "ལྡེ་མིག་མར།(སོར་ལྡེ + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:106
+msgid "Key Down (Alt)"
+msgstr "ལྡེ་མིག་མར།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:109
+msgid "Key Down (Control)"
+msgstr "ལྡེ་མིག(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:112
+msgid "Key Down (Shift)"
+msgstr "ལྡེ་མིག་མར།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:115
+msgid "Key Down"
+msgstr "ལྡེ་མིག་མར།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:119
+msgid "Key Left (Shift + Control + Alt)"
+msgstr "ལྡེ་མིག་གཡོན།(སོ་ལྡེ་ + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:122
+msgid "Key Left (Control + Alt)"
+msgstr "ལྡེ་མིག་གཡོན།(ཚད་འཛིན་ + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:125
+msgid "Key Left (Shift + Alt)"
+msgstr "ལྡེ་མིག་གཡོན།(སོར་ལྡེ + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:128
+msgid "Key Left (Shift + Control)"
+msgstr "ལྡེ་མིག་གཡོན།(སོར་ལྡེ། + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:131
+msgid "Key Left (Alt)"
+msgstr "ལྡེ་མིག་གཡོན།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:134
+msgid "Key Left (Control)"
+msgstr "ལྡེ་མིག་གཡོན།(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:137
+msgid "Key Left (Shift)"
+msgstr "ལྡེ་མིག་གཡོན།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:140
+msgid "Key Left"
+msgstr "ལྡེ་མིག་གཡོན།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:144
+msgid "Key Right (Shift + Control + Alt)"
+msgstr "ལྡེ་མིག་གཡས།(སོར་ལྡེ། + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:147
+msgid "Key Right (Control + Alt)"
+msgstr "ལྡེ་མིག་གཡས།(ཚད་འཛིན་ + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:150
+msgid "Key Right (Shift + Alt)"
+msgstr "ལྡེ་མིག་གཡས།(སོར་ལྡེ། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:153
+msgid "Key Right (Shift + Control)"
+msgstr "ལྡེ་མིག་གཡས། (སོར་ལྡེ། + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:156
+msgid "Key Right (Alt)"
+msgstr "ལྡེ་མིག་གཡས།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:159
+msgid "Key Right (Control)"
+msgstr "ལྡེ་མིག་གཡས། (ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:162
+msgid "Key Right (Shift)"
+msgstr "ལྡེ་མིག་གཡས།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:165
+msgid "Key Right"
+msgstr "ལྡེ་མིག་གཡས།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:207
+msgid "Keyboard"
+msgstr "ལྡེ་སྒྲོམ།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:230
+msgid "Keyboard Events"
+msgstr "ལྡེ་སྒྲོམ་ བྱུང་ལས།"
+
+#: ../app/widgets/gimpcontrollerkeyboard.c:231
+#: ../app/widgets/gimpcontrollerwheel.c:230
+msgid "Ready"
+msgstr "གྲ་སྒྲིག།"
+
+#: ../app/widgets/gimpcontrollerwheel.c:68
+msgid "Scroll Up (Shift + Control + Alt)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:71
+msgid "Scroll Up (Control + Alt)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།(ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:74
+msgid "Scroll Up (Shift + Alt)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད། (སོར་ལྡེ། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:77
+msgid "Scroll Up (Shift + Control)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ། + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:80
+msgid "Scroll Up (Alt)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:83
+msgid "Scroll Up (Control)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:86
+msgid "Scroll Up (Shift)"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:89
+msgid "Scroll Up"
+msgstr "ཡར་བཤུད་སྒྲིལ་འབད།"
+
+#: ../app/widgets/gimpcontrollerwheel.c:93
+msgid "Scroll Down (Shift + Control + Alt)"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ། + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:96
+msgid "Scroll Down (Control + Alt)"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།(ཚད་འཚིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:99
+msgid "Scroll Down (Shift + Alt)"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:102
+msgid "Scroll Down (Shift + Control)"
+msgstr "བཤུད་སྒྲིལ་མར། (སོར་ལྡེ། + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:105
+msgid "Scroll Down (Alt)"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:108
+msgid "Scroll Down (Control)"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:111
+msgid "Scroll Down (Shift)"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:114
+msgid "Scroll Down"
+msgstr "མར་བཤུད་སྒྲིལ་འབད།"
+
+#: ../app/widgets/gimpcontrollerwheel.c:118
+msgid "Scroll Left (Shift + Control + Alt)"
+msgstr "བཤུད་སྒྲིལ་གཡོན་དུ་འབད།(སོར་ལྡེ། + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:121
+msgid "Scroll Left (Control + Alt)"
+msgstr "གཡོན་དུབཤུད་སྒྲིལ་འབད།(ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:124
+msgid "Scroll Left (Shift + Alt)"
+msgstr "གཡོན་དུ་ བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:127
+msgid "Scroll Left (Shift + Control)"
+msgstr "བཤུད་སྒྲིལ་གཡོན།(སོར་ལྡེ། + ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:130
+msgid "Scroll Left (Alt)"
+msgstr "གཡོན་དུ བཤུད་སྒྲིལ་འབད།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:133
+msgid "Scroll Left (Control)"
+msgstr "གཡོན་དུ བཤུད་སྒྲིལ་འབད།(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:136
+msgid "Scroll Left (Shift)"
+msgstr "གཡོན་དུ བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:139
+msgid "Scroll Left"
+msgstr "གཡོན་དུ་ བཤུད་སྒྲིལ་འབད།"
+
+#: ../app/widgets/gimpcontrollerwheel.c:143
+msgid "Scroll Right (Shift + Control + Alt)"
+msgstr "གཡས་སུབཤུད་སྒྲིལ་འབད། (སོར་ལྡེ། + ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:146
+msgid "Scroll Right (Control + Alt)"
+msgstr "གཡས་སུ་ བཤུད་སྒྲིལ་འབད།(ཚད་འཛིན། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:149
+msgid "Scroll Right (Shift + Alt)"
+msgstr "གཡས་སུ་ བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ། + གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:152
+msgid "Scroll Right (Shift + Control)"
+msgstr "གཡས་བཤུད་སྒྲིལ་འབད། (སོར་ལྡེ།+ ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:155
+msgid "Scroll Right (Alt)"
+msgstr "གཡས་སུ་ བཤུད་སྒྲིལ་འབད།(གདམ་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:158
+msgid "Scroll Right (Control)"
+msgstr "གཡས་སུ་ བཤུད་སྒྲིལ་འབད།(ཚད་འཛིན།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:161
+msgid "Scroll Right (Shift)"
+msgstr "གཡས་སུ་ བཤུད་སྒྲིལ་འབད།(སོར་ལྡེ།)"
+
+#: ../app/widgets/gimpcontrollerwheel.c:164
+msgid "Scroll Right"
+msgstr "གཡས་ཕྱོགས་སུ་ བཤུད་སྒྲིལ་འབད།"
+
+#: ../app/widgets/gimpcontrollerwheel.c:206
+msgid "Mouse Wheel"
+msgstr "མའུསི་འཁོར་ལོ།"
+
+#: ../app/widgets/gimpcontrollerwheel.c:229
+msgid "Mouse Wheel Events"
+msgstr "མའུསི་འཁོར་ལོའི་ བྱུང་ལས།"
+
+#: ../app/widgets/gimpdataeditor.c:205
+msgid "Save"
+msgstr "སྲུང་།"
+
+#: ../app/widgets/gimpdataeditor.c:213
+msgid "Revert"
+msgstr "རྒྱབ་ལོག།"
+
+#: ../app/widgets/gimpdevicestatus.c:281
+msgid "Save device status"
+msgstr "ཐབསའཕྲུལ་གྱི་གནས་ཚད་ སྲུང་བཞག་འབད།"
+
+#: ../app/widgets/gimpdevicestatus.c:385
+#, c-format
+msgid "Foreground: %d, %d, %d"
+msgstr "གདོང་གཞི་ %d, %d, %d"
+
+#: ../app/widgets/gimpdevicestatus.c:390
+#, c-format
+msgid "Background: %d, %d, %d"
+msgstr "རགྱབ་གཞི་%d, %d, %d"
+
+#: ../app/widgets/gimpdock.c:348
+#: ../app/widgets/gimpdock.c:359
+msgid "Close all tabs?"
+msgstr "མཆོང་ལྡེ་་ཆ་མཉམ་ ཁ་བསྡམས་ནི་ཨིན་ན?"
+
+#: ../app/widgets/gimpdock.c:354
+msgid "Close all Tabs"
+msgstr "མཆོང་ལྡེ་་ཆ་མཉམ་ ཁ་བསྡམས།"
+
+#: ../app/widgets/gimpdock.c:361
+#, c-format
+msgid "This window has %d tabs open. Closing the window will also close all its tabs."
+msgstr "སྒོ་སྒྲིག་འདི་ལུ་ མཆོང་ལྡེ་%d ཁ་ཕྱེ་སྟཻ་འདུག སྒོ་སྒྲིག་ཁ་བསྡམས་མི་དེ་གིས་ མཆོང་ལྡེ་ཚུ་ཡང་ ཆ་མཉམ་ཁ་བསྡམས་ཨིན།"
+
+#: ../app/widgets/gimpdock.c:474
+msgid "You can drop dockable dialogs here."
+msgstr "ཁྱོད་ཀྱིས་ ཌོག་འབད་བཏུབ་པའི་ ཌའི་ལོག་ཚུ་ ནཱ་ལུ་བཞག"
+
+#: ../app/widgets/gimpdockable.c:210
+msgid "Close this Tab"
+msgstr "མཆོང་ལྡེ་འདི་ཁ་བསྡམ།"
+
+#: ../app/widgets/gimperrorconsole.c:235
+#: ../app/widgets/gimperrordialog.c:252
+#, c-format
+msgid "%s Message"
+msgstr "%sའཕྲིན་དོན།"
+
+#: ../app/widgets/gimperrordialog.c:229
+msgid "Too many error messages!"
+msgstr "འཛོལ་བ་ལེ་ཤ་ཡོད་པའི་ འཕྲིན་དོན!"
+
+#: ../app/widgets/gimperrordialog.c:230
+msgid "Messages are redirected to stderr."
+msgstr "འཕྲིན་དོན་ཚུ་ ཨིསི་ཊི་ཌི་ཨི་ཨཱར་ཨཱར་ལུ་ ལོག་གཏང་ཡོད།"
+
+#: ../app/widgets/gimpfiledialog.c:304
+msgid "Automatically Detected"
+msgstr "རང་བཞིན་གྱིས་ སྐྱོན་་འཛིན་བྱུང་ཡོདཔ།"
+
+#: ../app/widgets/gimpfiledialog.c:310
+msgid "By Extension"
+msgstr "རྒྱ་བསྐྱེད་ཀྱི་སྦེ་"
+
+#: ../app/widgets/gimpfiledialog.c:469
+msgid "All Files"
+msgstr "ཡིག་སྣོད་ཆ་མཉམ།"
+
+#: ../app/widgets/gimpfiledialog.c:608
+#, c-format
+msgid "Select File _Type (%s)"
+msgstr "ཡིག་སནོད་ཀྱི་དབྱེ་བ་(%s)་སེལ་འཐུ་འབད།(_T)"
+
+#: ../app/widgets/gimpfileprocview.c:234
+msgid "File Type"
+msgstr "ཡིག་སྣོད་ཀྱི་དབྱེ་བ།"
+
+#: ../app/widgets/gimpfileprocview.c:253
+msgid "Extensions"
+msgstr "རྒྱ་བསྐྱེད།"
+
+#: ../app/widgets/gimpgradienteditor.c:362
+msgid "Instant update"
+msgstr "འཕྲལ་མྱུར་ དུས་མཐུན་བཟོ།"
+
+#: ../app/widgets/gimpgradienteditor.c:619
+#, c-format
+msgid "Zoom factor: %d:1"
+msgstr "རྒྱས་ཟུམ་་ཆ་རྐྱེན: %d:1"
+
+#: ../app/widgets/gimpgradienteditor.c:622
+#, c-format
+msgid "Displaying [%0.6f, %0.6f]"
+msgstr "[%0.6f, %0.6f] བཀྲམ་སྟོན་འབད་དོ།"
+
+#: ../app/widgets/gimpgradienteditor.c:814
+#, c-format
+msgid "Position: %0.6f"
+msgstr "གནས་ས %0.6f"
+
+#: ../app/widgets/gimpgradienteditor.c:816
+#, c-format
+msgid "RGB (%0.3f, %0.3f, %0.3f)"
+msgstr "ཨཱར་ཇི་བི་(%0.3f, %0.3f, %0.3f)"
+
+#: ../app/widgets/gimpgradienteditor.c:819
+#, c-format
+msgid "HSV (%0.3f, %0.3f, %0.3f)"
+msgstr "ཨིཆི་ཨེསི་ཝི་ (%0.3f, %0.3f, %0.3f)"
+
+#: ../app/widgets/gimpgradienteditor.c:821
+#, c-format
+msgid "Intensity: %0.3f    Opacity: %0.3f"
+msgstr "དྲག་ཤུགས།:%0.3f   དྭངས་སྒྲིབ།: %0.3f"
+
+#: ../app/widgets/gimpgradienteditor.c:854
+#: ../app/widgets/gimpgradienteditor.c:889
+#, c-format
+msgid "RGB (%d, %d, %d)"
+msgstr "ཨཱར་ཇི་བི་(%d, %d, %d)"
+
+#: ../app/widgets/gimpgradienteditor.c:862
+msgid "Foreground color set to:"
+msgstr "གདོང་གཞི་ཚོས་གཞི་ དེ་ལུ་ གཞི་སྒྲིག་འའབད།"
+
+#: ../app/widgets/gimpgradienteditor.c:894
+#, c-format
+msgid "(%0.3f, %0.3f, %0.3f)"
+msgstr "(%0.3f, %0.3f, %0.3f)"
+
+#: ../app/widgets/gimpgradienteditor.c:898
+msgid "Background color set to:"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་ དེ་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimpgradienteditor.c:1101
+#: ../app/widgets/gimpgradienteditor.c:1167
+#, c-format
+msgid "%s%sDrag: move & compress"
+msgstr "%s%s དེ་ འདྲུད་ནི་དང  སྤོ་ནི་ དེ་ལས་ གཡེབ་བཙུགས་འབད།"
+
+#: ../app/widgets/gimpgradienteditor.c:1107
+msgid "Drag: move"
+msgstr "འདྲུད་ སྤོ།"
+
+#: ../app/widgets/gimpgradienteditor.c:1114
+#: ../app/widgets/gimpgradienteditor.c:1128
+#: ../app/widgets/gimpgradienteditor.c:1142
+#: ../app/widgets/gimpgradienteditor.c:1164
+#, c-format
+msgid "%s%sClick: extend selection"
+msgstr "%s%sདེ ཨེབ་གཏང་འབད་དེ་ སེལ་འཐུ་རྒྱ་བསྐྱེད་འབད།"
+
+#: ../app/widgets/gimpgradienteditor.c:1120
+#: ../app/widgets/gimpgradienteditor.c:1134
+msgid "Click: select"
+msgstr "སེལ་འཐུ་ཨེབ་གཏང་འབད།"
+
+#: ../app/widgets/gimpgradienteditor.c:1148
+#: ../app/widgets/gimpgradienteditor.c:1172
+msgid "Click: select    Drag: move"
+msgstr "སེལ་འཐུ། འདྲུད། སྤོ། དེ་ཚུ་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/widgets/gimpgradienteditor.c:1394
+#: ../app/widgets/gimpgradienteditor.c:1402
+#, c-format
+msgid "Handle position: %0.6f"
+msgstr "གནས་ས་: %0.6f ལེགས་སྐྱོང་འཐབ།"
+
+#: ../app/widgets/gimpgradienteditor.c:1419
+#, c-format
+msgid "Distance: %0.6f"
+msgstr "གྱང་ཚད་ %0.6f"
+
+#: ../app/widgets/gimpgrideditor.c:219
+msgid "Line _Style:"
+msgstr "གྲལ་ཐིག་གི་བཟོ་རྣམ།:(_S)"
+
+#: ../app/widgets/gimpgrideditor.c:223
+msgid "Change grid foreground color"
+msgstr "གིརིཊི་གི གདོང་གཞི་ ཚོས་གཞི་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/widgets/gimpgrideditor.c:228
+msgid "_Foreground color:"
+msgstr "གདོང་གཞི་ ཚོས་གཞི།(_F)"
+
+#: ../app/widgets/gimpgrideditor.c:232
+msgid "Change grid background color"
+msgstr "གི་རིཊི་གི་ རྒྱབ་གཞི་ཚོས་གཞི་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/widgets/gimpgrideditor.c:237
+msgid "_Background color:"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི།(_B)"
+
+#: ../app/widgets/gimpgrideditor.c:242
+msgid "Spacing"
+msgstr "བར་སྟོང་གཏོན་དོ།"
+
+#: ../app/widgets/gimpgrideditor.c:263
+#: ../app/widgets/gimpgrideditor.c:295
+msgid "Width"
+msgstr "རྒྱ་ཚད།"
+
+#: ../app/widgets/gimpgrideditor.c:265
+#: ../app/widgets/gimpgrideditor.c:297
+msgid "Height"
+msgstr "མཐོ་ཚད།"
+
+#: ../app/widgets/gimphelp.c:187
+msgid "Help browser not found"
+msgstr "གྲོགས་རམ་འབད་མི་ བརའུ་ཟར་འཚོལ་མ་ཐོབ།"
+
+#: ../app/widgets/gimphelp.c:188
+msgid "Could not find GIMP help browser."
+msgstr "གྲོགས་རམ་འབད་མི་ ཇི་ཨའི་ཨེམ་པི་ བརའུ་ཟར་ འཚོལ་མི་འཐོབ་པས།"
+
+#: ../app/widgets/gimphelp.c:189
+msgid "The GIMP help browser plug-in appears to be missing from your installation."
+msgstr "གྲོགས་རམ་འབད་མི་ ཇི་ཨའི་ཨེམ་པི་ བརའུ་ཟར་ པ་ལག་ཨིན་དེ ཁྱོད་རའི་ གཞི་བཙུགས་ཀྱི་ནང་ལས་ བརླག་སྟོར་ཞུགས་ནུག "
+
+#: ../app/widgets/gimphelp.c:213
+msgid "Help browser doesn't start"
+msgstr "གྲོགས་རམ་འབད་མི་ བརའུ་ཟར་ འགོ་བཙུགས་མི་བཏུབ།"
+
+#: ../app/widgets/gimphelp.c:214
+msgid "Could not start the GIMP help browser plug-in."
+msgstr "གྲོགས་རམ་འབད་མི་ ཇི་ཨའི་ཨེམ་པི་ བརའུ་ཟར་ པ་ལག་ཨིན་དེ འགོ་བཙུགས་མི་བཏུབ།"
+
+#: ../app/widgets/gimphelp.c:240
+msgid "Use _web browser instead"
+msgstr "ཚབ་ལུ་ ཝེབ་ བརའུ་ཟར་ ལག་ལེན་འཐབ།(_w)"
+
+#: ../app/widgets/gimphistogrameditor.c:134
+msgid "Mean:"
+msgstr "སེར་སྣ་ཅན།"
+
+#: ../app/widgets/gimphistogrameditor.c:135
+msgid "Std Dev:"
+msgstr "ཨེསི་ཊི་ཌི་ ཌི་ཨི་ཝི།:"
+
+#: ../app/widgets/gimphistogrameditor.c:136
+msgid "Median:"
+msgstr "གུང་ཐིག"
+
+#: ../app/widgets/gimphistogrameditor.c:137
+msgid "Pixels:"
+msgstr "པིག་སེལསི།"
+
+#: ../app/widgets/gimphistogrameditor.c:138
+msgid "Count:"
+msgstr "གྱངས་ཁ་རྐྱབས།"
+
+#: ../app/widgets/gimphistogrameditor.c:139
+msgid "Percentile:"
+msgstr "རྒྱ་ཆ་བཟོ།"
+
+#: ../app/widgets/gimpimagedock.c:203
+msgid "Auto"
+msgstr "རང་བཞིན།"
+
+#: ../app/widgets/gimpimagedock.c:214
+msgid "When enabled the dialog automatically follows the image you are working on."
+msgstr "ལྕོགས་ཅན་བཟོ་ཚར་བཞིནམ་ལས་ ཌའི་ལོག་གིས་ ཁྱོད་ལཱ་འབད་བའི་སྒང་ཡོད་མི་ལུ་ རང་བཞིན་གྱིས་ རྗེས་སུ་འབྲངམ་ཨིན།"
+
+#: ../app/widgets/gimpitemtreeview.c:996
+msgid "Set Item Exclusive Visible"
+msgstr "གྲངས་སུ་མ་བཙུགས་མི་ རྣམ་གྲངས་་མཐོང་ཚུགསཔ་སྦེ་ གཞི་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimpitemtreeview.c:1004
+msgid "Set Item Exclusive Linked"
+msgstr "གྲངས་སུ་མ་བཙུགས་མི་ རྣམ་གྲངས་ འབྲེལ་མཐུད་ཅན་སྦེ གཞི་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimplayertreeview.c:252
+msgid "Reorder Layer"
+msgstr "བང་རིམ་གྱི་ གོ་རིམ་སླར་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimplayertreeview.c:313
+msgid "Keep transparency"
+msgstr "དྭངས་གསལ་བཞག"
+
+#: ../app/widgets/gimplayertreeview.c:848
+msgid "Empty Layer"
+msgstr "བང་རིམ་སྟོངམ།"
+
+#: ../app/widgets/gimpmessagebox.c:462
+#, c-format
+msgid "Message repeated %d times."
+msgstr "འཕྲིན་དོན་ ཐེངས་%d ཡང་བསྐྱར་འབད་ཡི།"
+
+#: ../app/widgets/gimpmessagebox.c:464
+msgid "Message repeated once."
+msgstr "འཕྲིན་དོན་ ཐེངས་གཅིག་ ཡང་བསྐྱར་འབད་ཡི།"
+
+#: ../app/widgets/gimppaletteeditor.c:258
+#: ../app/widgets/gimppaletteeditor.c:999
+msgid "Undefined"
+msgstr "ངེས་འཛིན་མ་འབད་མི།"
+
+#: ../app/widgets/gimppaletteeditor.c:266
+msgid "Columns:"
+msgstr "ཀེར་ཐིག།"
+
+#: ../app/widgets/gimppropwidgets.c:1537
+#, c-format
+msgid "This text input field is limited to %d characters."
+msgstr "%d་ཡིག་འབྲུ་ཚུ་ལུ་ ཡིག་ཚིག་ ཨིན་པུཊི་ ས་སྒོ་འདི་ཚད་ཅིག་རང་ཨིན།"
+
+#: ../app/widgets/gimpselectiondata.c:319
+#, c-format
+msgid ""
+"The filename '%s' couldn't be converted to a valid URI:\n"
+"\n"
+"%s"
+msgstr ""
+"'%s'ཟེར་མི་ཡིག་སྣོད་དེ་ ནུས་ཅན་ ཡུ་ཨཱར་ཨའི་\n"
+"\n"
+"%s ལལུ་གཞི་བསྒྱུར་འབད་མི་བཏུབ།"
+
+#: ../app/widgets/gimpselectiondata.c:323
+msgid "Invalid UTF-8"
+msgstr "ཤུས་མེད ཡུ་ཊི་ཨེཕི-༨"
+
+#: ../app/widgets/gimpsizebox.c:456
+#, c-format
+msgid "%d x %d dpi"
+msgstr "%d x %d ཌི་པི་ཨའི།"
+
+#: ../app/widgets/gimpsizebox.c:458
+#, c-format
+msgid "%d dpi"
+msgstr "%d ཌི་པི་ཨའི།"
+
+#: ../app/widgets/gimpstrokeeditor.c:198
+msgid "Line Width:"
+msgstr "གྲལ་ཐིག་གི རྒྱ་ཚད།:"
+
+#: ../app/widgets/gimpstrokeeditor.c:209
+msgid "_Line Style"
+msgstr "གྲལ་ཐིག་གི་ བཟོ་རྣམ།(_L)"
+
+#: ../app/widgets/gimpstrokeeditor.c:228
+msgid "_Cap style:"
+msgstr "ཀེབ་ བཟོ་རྣམ།(_C)"
+
+#: ../app/widgets/gimpstrokeeditor.c:234
+msgid "_Join style:"
+msgstr "མཟོ་རྣམ་ མཐུད།(_J)"
+
+#: ../app/widgets/gimpstrokeeditor.c:239
+msgid "_Miter limit:"
+msgstr "མཐུད་བྱེད་ཀྱི་ ཚད།(_M)"
+
+#: ../app/widgets/gimpstrokeeditor.c:246
+msgid "Dash pattern:"
+msgstr "དཔེ་གཞི་སྦྲེལ་རྟགས་བཀལ།"
+
+#: ../app/widgets/gimpstrokeeditor.c:288
+msgid "Dash preset:"
+msgstr "སྦྲེལ་རྟགས་ སྔར་སྒྲིག་།:"
+
+#: ../app/widgets/gimpstrokeeditor.c:300
+msgid "_Antialiasing"
+msgstr "ཨེན་ཊི་ཨེ་ལའི་སིང་།(_A)"
+
+#: ../app/widgets/gimptemplateeditor.c:255
+#, c-format
+msgid "%p"
+msgstr "%p"
+
+#: ../app/widgets/gimptemplateeditor.c:330
+msgid "_Advanced Options"
+msgstr "མཐོ་རིམ་གྱི་ འདམ་ཁ།(_A)"
+
+#: ../app/widgets/gimptemplateeditor.c:437
+msgid "Color_space:"
+msgstr "ཚོས་གཞི་ བར་སྟོང་།:(_s)"
+
+#: ../app/widgets/gimptemplateeditor.c:445
+msgid "_Fill with:"
+msgstr "གཅིག་ཁར་ བཀང་།(_F)"
+
+#: ../app/widgets/gimptemplateeditor.c:455
+msgid "Comme_nt:"
+msgstr "བསམ་བཀོད།(_n)"
+
+#: ../app/widgets/gimptemplateeditor.c:565
+msgid "_Name:"
+msgstr "མིང་།(_N)"
+
+#: ../app/widgets/gimptemplateeditor.c:576
+msgid "_Icon:"
+msgstr "ངོས་དཔར། (_I)"
+
+#: ../app/widgets/gimptemplateeditor.c:699
+#, c-format
+msgid "%d x %d dpi, %s"
+msgstr "%d x %d dpi, %s"
+
+#: ../app/widgets/gimptemplateeditor.c:701
+#, c-format
+msgid "%d dpi, %s"
+msgstr "%d dpi, %s"
+
+#: ../app/widgets/gimpthumbbox.c:337
+#, c-format
+msgid ""
+"Click to update preview\n"
+"%s  Click to force update even if preview is up-to-date"
+msgstr ""
+"སྔོན་བལྟ་\n"
+" དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད། སྔོན་བལྟ་དེ་ དུས་མཐུན་ཡོད་དེ་འབད་རུང་ བང་ཅན་དུས་མཐུན་བཟོ་ནི་ལུ་ ཨེབ་གཏང་ %sའབད།"
+
+#: ../app/widgets/gimpthumbbox.c:407
+#: ../app/widgets/gimpthumbbox.c:477
+msgid "No selection"
+msgstr "སེལ་འཐུ་མེད།"
+
+#: ../app/widgets/gimpthumbbox.c:602
+#: ../app/widgets/gimpthumbbox.c:626
+#, c-format
+msgid "Thumbnail %d of %d"
+msgstr "%dགི་ མཐེབ་གཟེར %d"
+
+#: ../app/widgets/gimpthumbbox.c:733
+#: ../app/widgets/gimpthumbbox.c:743
+msgid "Creating Preview ..."
+msgstr "སྔོན་བལྟ་ གསར་བསྐྲུན་འབད་དོ།..."
+
+#: ../app/widgets/gimptoolbox-color-area.c:135
+msgid "Change Foreground Color"
+msgstr "གདོང་གཞི་ ཚོས་གཞི་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/widgets/gimptoolbox-color-area.c:140
+msgid "Change Background Color"
+msgstr "རྒྱབ་གཞི་ཚོས་གཞི་ བསྒྱུར་བཅོས་འབད།"
+
+#: ../app/widgets/gimptoolbox-image-area.c:90
+msgid ""
+"The active image.\n"
+"Click to open the Image Dialog."
+msgstr ""
+"ཤུགས་ལྡན་གཟུགས་བརྙན་\n"
+"གཟུགས་བརྙན་ ཌའི་ལོག་ཁ་ཕྱེ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/widgets/gimptoolbox-indicator-area.c:143
+msgid ""
+"The active brush.\n"
+"Click to open the Brush Dialog."
+msgstr ""
+"ཤུགས་ལྡན་པྱིར་\n"
+" པྱིར་གྱི་ཌའི་ལོག་ཁ་ཕྱེ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/widgets/gimptoolbox-indicator-area.c:174
+msgid ""
+"The active pattern.\n"
+"Click to open the Pattern Dialog."
+msgstr ""
+"ཤུགས་ལྡན་ དཔེ་གཞི་\n"
+"དཔེ་གཞི་ཌའི་ལོག་ཁ་ཕྱཻ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/widgets/gimptoolbox-indicator-area.c:205
+msgid ""
+"The active gradient.\n"
+"Click to open the Gradient Dialog."
+msgstr ""
+"ཤུགས་ལྡན་སྟེགས་རིས་\n"
+"སྟེགས་རིས་ ཌའི་ལོག་ཁ་ཕྱཻ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
+
+#: ../app/widgets/gimptoolbox.c:854
+msgid "Foreground & background colors.  The black and white squares reset colors.  The arrows swap colors. Double click to open the color selection dialog."
+msgstr "གདོང་གཞི་དང་ རྒྱབ་གཞི་ཚོས་གཞི་ཚུ། གནགཔོ་དང་དཀརཔོ་གི་གྲུ་བཞི་སྦེ་ཡོད་མི་གིས་ ཚོས་གཞི་སླར་སྒྲིག་འབདཝ་ཨིན། མདའ་རྟགས་དེ་གིས་ ཚོས་གཞི་ཚུ་ བརྗེ་སོར་འབདཝ་ཨིན།ཚོས་གཞི་ སེལ་འཐུ་ ཌའི་ལོག་ ཁ་ཕྱེ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་ལོག་བལྟབ་འབདཝ་ཨིན།"
+
+#: ../app/widgets/gimptooloptionseditor.c:185
+msgid "Save options to..."
+msgstr "དེ་ལུ་ འདམ་ཁ་ཚུ་ སྲུང་བཞག་འབད།"
+
+#: ../app/widgets/gimptooloptionseditor.c:193
+msgid "Restore options from..."
+msgstr "དེ་ནང་ལས་ འདམ་ཁ་སོར་ཆུད་འབད།"
+
+#: ../app/widgets/gimptooloptionseditor.c:201
+msgid "Delete saved options..."
+msgstr "སྲུང་བཞག་འབད་ཡོད་མི་འདམ་ཁ་ བཏོན་གཏང་།"
+
+#: ../app/widgets/gimpuimanager.c:495
+msgid "Your GIMP installation is incomplete:"
+msgstr "ཁྱོད་ཀྱི་ ཇི་ཨའི་ཨེམ་པི་ གཞི་བཙུགས་འབད་མི་དེ་ ཆ་མ་ཚང་པས།"
+
+#: ../app/widgets/gimpuimanager.c:497
+msgid "Plase make sure the menu XML files are correctly installed."
+msgstr "དཀར་ཆག་ གསི་ཨེམ་ཨེལ་ ཡིག་སྣོད་ཚུ་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་དགོཔ་ ངེས་བདེན་བཟོ་གནང་།ནང་།་"
+
+#: ../app/widgets/gimpundoeditor.c:255
+msgid "[ Base Image ]"
+msgstr "[གཞི་རྟེན གཟུགས་བརྙན]"
+
+#: ../app/widgets/gimpvectorstreeview.c:151
+msgid "Reorder path"
+msgstr "འགྲུལ་ལམ་གྱི་ འགོ་རིམ་ སླར་སྒྲིག་འབད།"
+
+#: ../app/widgets/gimpvectorstreeview.c:289
+msgid "Empty Path"
+msgstr "འགྲུལ་ལམ་སྟོངམ།"
+
+#: ../app/widgets/gimpviewablebox.c:75
+msgid "Open the brush selection dialog"
+msgstr "པྱིར་སེལ་འཐུ་འབད་མི་ ཌའི་ལོག་ ཁ་ཕྱེ།"
+
+#: ../app/widgets/gimpviewablebox.c:115
+msgid "Open the pattern selection dialog"
+msgstr "དཔེ་གཞི་སེལ་འཐུ་འབད་མི་ ཌའི་ལོག་ ཁ་ཕྱེ།"
+
+#: ../app/widgets/gimpviewablebox.c:155
+msgid "Open the gradient selection dialog"
+msgstr "སྟེགས་རིས་ སེལ་འཐུ་འབད་མི་ ཌའི་ལོག་ ཁ་ཕྱེ།"
+
+#: ../app/widgets/gimpviewablebox.c:167
+msgid "Reverse"
+msgstr "རིམ་ལོག།"
+
+#: ../app/widgets/gimpviewablebox.c:210
+msgid "Open the palette selection dialog"
+msgstr "པེ་ལེཊི་ སེལ་འཐུ་འབད་མི་ ཌའི་ལོག་ ཁ་ཕྱེ།"
+
+#: ../app/widgets/gimpviewablebox.c:250
+msgid "Open the font selection dialog"
+msgstr "ཡིག་གཟུགས་ སེལ་འཐུ་འབད་མི་ ཌའི་ལོག་ ཁ་ཕྱེ།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:50
+#: ../app/widgets/gimpwidgets-constructors.c:85
+msgid "Normal"
+msgstr "སྤྱིར་བཏང་།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:51
+#: ../app/widgets/gimpwidgets-constructors.c:86
+msgid "Dissolve"
+msgstr "བགོ་ཡོདཔ།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:52
+msgid "Behind"
+msgstr "རྒྱབ་ཁར།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:53
+msgid "Color erase"
+msgstr "ཚོས་གཞི་ཀྲེག་གཏང་།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:55
+#: ../app/widgets/gimpwidgets-constructors.c:88
+msgid "Multiply"
+msgstr "དགུ་མཐའ་རྐྱབས།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:56
+#: ../app/widgets/gimpwidgets-constructors.c:89
+msgid "Divide"
+msgstr "བགོ"
+
+#: ../app/widgets/gimpwidgets-constructors.c:57
+#: ../app/widgets/gimpwidgets-constructors.c:90
+msgid "Screen"
+msgstr "གསལ་གཞི།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:58
+#: ../app/widgets/gimpwidgets-constructors.c:91
+msgid "Overlay"
+msgstr "སྤུར་ཁེབས།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:62
+#: ../app/widgets/gimpwidgets-constructors.c:95
+msgid "Hard light"
+msgstr "སྲ་འོད་།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:63
+#: ../app/widgets/gimpwidgets-constructors.c:96
+msgid "Soft light"
+msgstr "འཇམ་འོད།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:64
+#: ../app/widgets/gimpwidgets-constructors.c:97
+msgid "Grain extract"
+msgstr "ཚགས་ཕྱིར་འདོན་འབད།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:65
+#: ../app/widgets/gimpwidgets-constructors.c:98
+msgid "Grain merge"
+msgstr "ཚགས་མཉམ་བསྡོམས་འབད།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:67
+#: ../app/widgets/gimpwidgets-constructors.c:100
+msgid "Difference"
+msgstr "ཁྱད་པར།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:68
+#: ../app/widgets/gimpwidgets-constructors.c:101
+msgid "Addition"
+msgstr "བསྡོམས།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:70
+#: ../app/widgets/gimpwidgets-constructors.c:103
+msgid "Darken only"
+msgstr "གྲིབ་ནག་ཙམ།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:71
+#: ../app/widgets/gimpwidgets-constructors.c:104
+msgid "Lighten only"
+msgstr "འོད་བསལ་བ ཙམ།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:73
+#: ../app/widgets/gimpwidgets-constructors.c:106
+msgid "Hue"
+msgstr "ཚོན་དངས།"
+
+#: ../app/widgets/gimpwidgets-constructors.c:74
+#: ../app/widgets/gimpwidgets-constructors.c:107
+msgid "Saturation"
+msgstr "མཐའ་ཚད།"
+
+#. The format string which is used to display modifier names
+#. *  <Shift>, <Ctrl> and <Alt>
+#.
+#: ../app/widgets/gimpwidgets-utils.c:391
+#, c-format
+msgid "<%s>"
+msgstr "<%s>"
+
+#: ../app/widgets/gimpwidgets-utils.c:796
+#, c-format
+msgid "Invalid UTF-8 data in file '%s'."
+msgstr "ཡིག་སྣོད་ '%s'.ནང་ལུ་ ནུས་མེད་ ཡུ་ཊི་ཨེཕི་-༨ གནད་སྡུད།"
+
+#: ../app/widgets/widgets-enums.c:23
+msgid "Foreground"
+msgstr "གདོང་གཞི།"
+
+#: ../app/widgets/widgets-enums.c:53
+msgid "Portrait"
+msgstr "ཡར་ཕྲང་།"
+
+#: ../app/widgets/widgets-enums.c:54
+msgid "Landscape"
+msgstr "ཀེ་ཀེ།"
+
+#: ../app/widgets/widgets-enums.c:113
+msgid "Pixel values"
+msgstr "པིག་སེལསི་གི་གནས་གོང་།"
+
+#: ../app/widgets/widgets-enums.c:115
+msgid "HSV"
+msgstr "ཨེཆི་ཨེསི་ཝི།"
+
+#: ../app/widgets/widgets-enums.c:116
+msgid "CMYK"
+msgstr "སི་ཨེམ་ཝའི་ཀེ"
+
+#: ../app/widgets/widgets-enums.c:171
+msgid "Black & white"
+msgstr "གནགཔོ་དང་ དཀརཔོ།"
+
+#: ../app/widgets/widgets-enums.c:172
+msgid "Fancy"
+msgstr "ཁྲ་ལེ་མ་ལི།"
+
+#: ../app/widgets/widgets-enums.c:199
+msgid "GIMP help browser"
+msgstr "གྲོགས་རམ་འབད་མི་ ཇིས་ཨའི་ཨེམ་ིཔ་ བརའུ་ཟར།"
+
+#: ../app/widgets/widgets-enums.c:200
+msgid "Web browser"
+msgstr "ཝེབ་ བརའུ་ཟར།"
+
+#: ../app/widgets/widgets-enums.c:228
+msgid "Logarithmic"
+msgstr "མཉམ་གྲངས།"
+
+#: ../app/widgets/widgets-enums.c:261
+msgid "Icon"
+msgstr "ངོས་དཔར།"
+
+#: ../app/widgets/widgets-enums.c:262
+msgid "Current status"
+msgstr "ད་ལྟོའི་ གནས་ཚད།"
+
+#: ../app/widgets/widgets-enums.c:264
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../app/widgets/widgets-enums.c:265
+msgid "Icon & text"
+msgstr "ངོས་དཔར་དང་ ཚིག་ཡིག"
+
+#: ../app/widgets/widgets-enums.c:266
+msgid "Icon & desc"
+msgstr "ངོས་དཔར་དང མར་འབབ།"
+
+#: ../app/widgets/widgets-enums.c:267
+msgid "Status & text"
+msgstr "གནས་ཚད་དང་ ཚིག་ཡིག"
+
+#: ../app/widgets/widgets-enums.c:268
+msgid "Status & desc"
+msgstr "གནས་ཚད་དང མར་འབབ།"
+
+#: ../app/widgets/widgets-enums.c:295
+msgid "View as list"
+msgstr "ཐོ་ཡིག་སྦེ་སྟོན།"
+
+#: ../app/widgets/widgets-enums.c:296
+msgid "View as grid"
+msgstr "གིརིཌི སྦེ་སྟོན།"
+
+#: ../app/widgets/widgets-enums.c:324
+msgid "Normal window"
+msgstr "སྤྱིར་བཏང་སྒོ་སྒྲིག"
+
+#: ../app/widgets/widgets-enums.c:325
+msgid "Utility window"
+msgstr "སྤྱོད་ཆས་ སྒོ་སྒྲིག"
+
+#: ../app/widgets/widgets-enums.c:326
+msgid "Keep above"
+msgstr "ལྟག་ལུ་ བཞག"
+
+#: ../app/xcf/xcf-load.c:297
+msgid ""
+"XCF warning: version 0 of XCF file format\n"
+"did not save indexed colormaps correctly.\n"
+"Substituting grayscale map."
+msgstr ""
+"ཨེགསི་སི་ཨེཕི་་ཡིག་སྣོད་རྩ་སྒྲིག་\n"
+"གི་ ཨེགསི་སི་ཨེཕི་ ཉེན་བརྡ་ཐོན་རིམ་༠་དེ་གིས ཟུར་སྦྲགས་ཚོས་གཞི་ཅན་གྱི་ ས་ཁྲ་ ངེས་བདེན་སྦེ་ སྲུང་བཞག་མ་འབད་བས།\n"
+"གེརེ་སིཀེལ་གྱི་ས་ཁྲ་ ཚབ་མ་བཙུགས་དོ།"
+
+#: ../app/xcf/xcf-read.c:107
+msgid "Invalid UTF-8 string in XCF file"
+msgstr "ཨེག་སི་ཨེཕི་ ཡིག་སྣོད་ནང་ལུ་ ནུས་མེད་ཀྱི་ ཡུ་ཊི་ཨེཕི་-༨།"
+
+#: ../app/xcf/xcf-save.c:157
+#: ../app/xcf/xcf-save.c:167
+#: ../app/xcf/xcf-save.c:177
+#: ../app/xcf/xcf-save.c:187
+#: ../app/xcf/xcf-save.c:211
+#: ../app/xcf/xcf.c:342
+#, c-format
+msgid "Error saving XCF file: %s"
+msgstr "ཨེག་སི་ཨེཕི་ ཡིག་སྣོད་%s སྲུང་བཞག་འབད་ནི་ལུ་ འཛོལ་བ་འདུག"
+
+#: ../app/xcf/xcf-write.c:86
+#, c-format
+msgid "Error writing XCF: %s"
+msgstr "ཨེག་སི་་ཨེཕི་  %s འབྲི་ནི་ལུ་ འཛོལ་བ་འདུག"
+
+#: ../app/xcf/xcf-seek.c:44
+#: ../app/xcf/xcf-seek.c:61
+#: ../app/xcf/xcf-seek.c:72
+#, c-format
+msgid "Could not seek in XCF file: %s"
+msgstr "ཨེག་སི་ཨེཕི་ ཡིག་སྣོད་%sནང་ལུ་ འཚོལ་མ་འཐོབ།"
+
+#: ../app/xcf/xcf.c:86
+#: ../app/xcf/xcf.c:143
+msgid "GIMP XCF image"
+msgstr "ཇི་ཨའི་ཨེམ་པི་ ཨེགསི་ཨེཕི་ གཟུགས་བརྙན།"
+
+#: ../app/xcf/xcf.c:282
+#, c-format
+msgid "XCF error: unsupported XCF file version %d encountered"
+msgstr "ཨེག་སི་ཨེཕི་ འཛོལ་བ། རྒྱབ་སྐྱོར་མེད་པའི་ཨེག་སི་ཨེཕི་ ཡིག་སྣོད་ ཐོན་རིམ་%d ཕྱད་ཅི།"
+
+#: ../data/misc/gimp.desktop.in.in.h:1
+msgid "Create and edit images or photographs"
+msgstr "གཟུགས་བརྙན་ཚུ་ཡང་ན་དཔར་ཚུ་གསར་བསྐྲུན་འབདབཞིནམ་ལས་ཞུན་དག་འབད།"
+
+#: ../data/misc/gimp.desktop.in.in.h:2
+msgid "Image Editor"
+msgstr "གཟུགས་བརྙན་ ཞུན་དག་པ།"
+

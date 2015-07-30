@@ -1,0 +1,753 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwget.head.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-02 04:36+0100\n"
+"PO-Revision-Date: 2006-11-02 02:33+0530\n"
+"Last-Translator: Jurmey Rabgay <jur_gay@yahoo.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/GNOME_Gwget.server.in.in.h:1
+msgid "gwget application"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་ གློག་རིམ་"
+
+#: ../data/GNOME_Gwget.server.in.in.h:2
+msgid "gwget automation factory"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་ འཕྲུལ་སྤྱོད་འཕྲུལ་ཁང་"
+
+#: ../data/about.glade.h:1
+msgid "About Gwget"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་གི་སྐོར་ལས་"
+
+#: ../data/about.glade.h:2
+msgid "GNU GPL Version 2"
+msgstr "ཇི་ཨེན་ཡུ་ ཇི་པི་ཨེལ་ འཐོན་རིམ་ ༢"
+
+#: ../data/about.glade.h:3
+msgid "Gwget: Download Manager for GNOME"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་: ཇི་ནོམ་གྱི་དོན་ལུ་ འཛིན་སྐྱོང་པ་ཕབ་ལེན་འབད་"
+
+#: ../data/about.glade.h:4
+#: ../src/main_window_cb.c:193
+msgid "translator-credits"
+msgstr "སྐད་སྒྱུར་པ་-ངོ་བསྟོད་"
+
+#: ../data/gwget.glade.h:1
+#: ../data/preferences.glade.h:2
+msgid "    "
+msgstr "    "
+
+#: ../data/gwget.glade.h:2
+msgid "<span weight=\"bold\">Download:</span>"
+msgstr "<span weight=\"bold\">ཕབ་ལེན་:</span>"
+
+#: ../data/gwget.glade.h:3
+msgid "<span weight=\"bold\">Properties</span>"
+msgstr "<span weight=\"bold\">རྒྱུ་དངོས་ཚུ་</span>"
+
+#: ../data/gwget.glade.h:4
+#: ../src/main_window.c:796
+#: ../src/main_window_cb.c:619
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང་"
+
+#: ../data/gwget.glade.h:5
+msgid "Cancel download"
+msgstr "ཕབ་ལེན་ཆ་མེད་གཏང་"
+
+#: ../data/gwget.glade.h:6
+msgid "Cancel the download"
+msgstr "ཕབ་ལེན་འདི་ཆ་མེད་གཏང་"
+
+#: ../data/gwget.glade.h:7
+msgid "Continue"
+msgstr "འཕྲོ་མཐུད་"
+
+#: ../data/gwget.glade.h:8
+msgid "Continue with the download"
+msgstr "ཕབ་ལེན་འཕྲོ་མཐུད་དེ་འབད་"
+
+#: ../data/gwget.glade.h:9
+#: ../src/main_window_cb.c:140
+#: ../src/main_window_cb.c:626
+#: ../src/main_window_cb.c:731
+msgid "Gwget - Download Manager"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་- འཛིན་སྐྱོང་པ་ཕབ་ལེན་འབད་"
+
+#: ../data/gwget.glade.h:10
+msgid "Information"
+msgstr "བརྡ་དོན་"
+
+#: ../data/gwget.glade.h:11
+msgid "Local Directory:"
+msgstr "ཉེ་གནས་ཀྱི་སྣོད་ཐོ་:"
+
+#: ../data/gwget.glade.h:12
+msgid "Local File:"
+msgstr "ཉེ་གནས་ཀྱི་ཡིག་སྣོད་:"
+
+#: ../data/gwget.glade.h:13
+msgid "Multimedia files (Videos and images)"
+msgstr "སྣ་མང་བརྡ་ལམ་གྱི་ཡིག་སྣོད་ཚུ་(ཝི་ཌིའོ་དང་གཟུགས་བརྙན་ཚུ་)"
+
+#: ../data/gwget.glade.h:14
+msgid "New download"
+msgstr "ཕབ་ལེན་གསརཔ་"
+
+#: ../data/gwget.glade.h:15
+msgid "Open"
+msgstr "ཁ་ཕྱེ་"
+
+#: ../data/gwget.glade.h:16
+msgid "Open directory"
+msgstr "སྣོད་ཐོ་ཁ་ཕྱེ་"
+
+#: ../data/gwget.glade.h:17
+msgid "Open the target directory"
+msgstr "དམིགས་གཏད་སྣོད་ཐོ་ ཁ་ཕྱེ་"
+
+#: ../data/gwget.glade.h:18
+msgid "Pause"
+msgstr "ཐེམ་"
+
+#: ../data/gwget.glade.h:19
+msgid "Pause all"
+msgstr "ཆ་མཉམ་ཐེམས་"
+
+#: ../data/gwget.glade.h:20
+msgid "Pause all downloads"
+msgstr "ཕབ་ལེན་ཚུ་ཆ་མཉམ་ ཐེམས་"
+
+#: ../data/gwget.glade.h:21
+msgid "Pause download"
+msgstr "ཕབ་ལེན་ཐེམས་"
+
+#: ../data/gwget.glade.h:22
+msgid "Pause the download"
+msgstr "ཕབ་ལེན་འདི་ཐེམས་"
+
+#: ../data/gwget.glade.h:23
+msgid "Properties"
+msgstr "རྒྱུ་དངོས་ཚུ་"
+
+#: ../data/gwget.glade.h:24
+#: ../data/preferences.glade.h:21
+msgid "Recursive"
+msgstr "ལོག་རིམ་"
+
+#: ../data/gwget.glade.h:25
+msgid "Recursive options"
+msgstr "ལོག་རིམ་གདམ་ཁ་ཚུ་"
+
+#: ../data/gwget.glade.h:26
+#: ../src/main_window_cb.c:713
+msgid "Remove all"
+msgstr "ཆ་མཉམ་རྩ་བསྐྲད་གཏང་"
+
+#: ../data/gwget.glade.h:27
+#: ../src/main_window_cb.c:649
+msgid "Remove completed"
+msgstr "མཇུག་བསྡུ་ཡོད་མི་འདི་ རྩ་བསྐྲད་གཏང་"
+
+#: ../data/gwget.glade.h:28
+msgid "Remove from List"
+msgstr "ཐོ་ཡིག་ནང་ལས་ རྩ་བསྐྲད་གཏང་"
+
+#: ../data/gwget.glade.h:29
+msgid "Remove from list"
+msgstr "ཐོ་ཡིག་ནང་ལས་ རྩ་བསྐྲད་གཏང་"
+
+#: ../data/gwget.glade.h:30
+#: ../src/main_window_cb.c:681
+msgid "Remove inactive"
+msgstr "ཤུགས་མེད་རྩ་བསྐྲད་གཏང་"
+
+#: ../data/gwget.glade.h:31
+msgid "Resume all"
+msgstr "ཆ་མཉམ་ བསྐྱར་ལོག་འབད་"
+
+#: ../data/gwget.glade.h:32
+msgid "Resume all downloads"
+msgstr "ཕབ་ལེན་ཚུ་ཆ་མཉམ་ བསྐྱར་ལོག་འབད་"
+
+#: ../data/gwget.glade.h:33
+msgid "Stat_usbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་(_u)"
+
+#: ../data/gwget.glade.h:34
+msgid "Stop and delete downloaded file"
+msgstr "བཀག་ཞིནམ་ལས་ ཕབ་ལེན་འབད་ཡོད་པའི་ཡིག་སྣོད་འདི་ བཏོན་གཏང་"
+
+#: ../data/gwget.glade.h:35
+msgid "The index file only"
+msgstr "ཟུར་ཐོའི་ཡིག་སྣོད་རྐྱངམ་ཅིག་"
+
+#: ../data/gwget.glade.h:36
+msgid "This site (mirror)"
+msgstr "ས་ཁོངས་(ངོ་འཆར་)འདི་"
+
+#: ../data/gwget.glade.h:37
+#: ../data/newdownload.glade.h:4
+msgid "URL:"
+msgstr "ཡུ་ཨར་ཨེལ་: "
+
+#: ../data/gwget.glade.h:38
+msgid "_Download"
+msgstr "ཕབ་ལེན་(_D)"
+
+#: ../data/gwget.glade.h:39
+msgid "_New"
+msgstr "གསརཔ་(_N)"
+
+#: ../data/gwget.glade.h:40
+msgid "_Toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་(_T)"
+
+#: ../data/gwget.schemas.in.h:1
+msgid "Ask where to save each new download"
+msgstr "ཕབ་ལེན་གསརཔ་ཚུ་རེ་བཞིན་དུ་ ག་སྟེ་སྲུང་ནི་ཨིན་ན་དྲིས་"
+
+#: ../data/gwget.schemas.in.h:2
+msgid "Convert Links"
+msgstr "འབྲེལ་ལམ་ཚུ་གཞི་བསྒྱུར་འབད་"
+
+#: ../data/gwget.schemas.in.h:3
+msgid "Convert to relative links in recursive mode."
+msgstr "ལོག་རིམ་ཐབས་ལམ་ནང་གི་འབྲེལ་བའི་འབྲེལ་ལམ་ལུ་ གཞི་བསྒྱུར་འབད་"
+
+#: ../data/gwget.schemas.in.h:4
+msgid "Default Download Directory"
+msgstr "སྔོན་སྒྲིག་ཕབ་ལེན་གྱི་སྣོད་ཐོ་"
+
+#: ../data/gwget.schemas.in.h:5
+msgid "Download Page Requisites"
+msgstr "མཁོ་འདོད་ཀྱི་ཤོག་ལེབ་ མངོན་གསལ་འབད་"
+
+#: ../data/gwget.schemas.in.h:6
+msgid "Follow relative links"
+msgstr "འབྲེལ་བའི་འབྲེལ་ལམ་ ཤུལ་དཔྱད་འབད་"
+
+#: ../data/gwget.schemas.in.h:7
+msgid "If true, always ask for a destination folder when starting a new download. If false, always save in the default directory without asking the user."
+msgstr "བདེན་པ་ཅིན་ ཕབ་ལེན་གསརཔ་ཅིག་འགོ་བཙུགསཔ་ད་ ཨ་རྟག་ར་འགྲོ་ཡུལ་སྣོད་འཛིན་ཅིག་ལུ་འདྲི། མ་བདེན་པ་ཅིན་ ལག་ལེན་པ་ལུ་མ་འདྲི་བར་ ཨ་རྟག་ར་ སྔོན་སྒྲིག་སྣོད་ཐོ་ནང་ལུ་སྲུངས།"
+
+#: ../data/gwget.schemas.in.h:8
+msgid "Limit maximum speed"
+msgstr "མགྱོགས་ཚད་མང་མཐའི་ཚད་"
+
+#: ../data/gwget.schemas.in.h:9
+msgid "Limit number of simultaneous downloads"
+msgstr "མཉམ་འབྱུང་ཕབ་ལེན་གྱི་ཨང་གྲངས་ཚད་"
+
+#: ../data/gwget.schemas.in.h:10
+msgid "Maximum depth in recursive mode"
+msgstr "ལོག་རིམ་ཐབས་ལམ་ནང་ གཏིང་ཚད་མང་མཐའ་"
+
+#: ../data/gwget.schemas.in.h:11
+msgid "Maximum number of simultaneous downloads"
+msgstr "མཉམ་འབྱུང་ཕབ་ལེན་གྱི་ཨང་གྲངས་མང་མཐའ་"
+
+#: ../data/gwget.schemas.in.h:12
+msgid "Maximum speed limit"
+msgstr "མགྱོགས་ཚད་མང་མཐའ་"
+
+#: ../data/gwget.schemas.in.h:13
+msgid "Number of downloads"
+msgstr "ཕབ་ལེན་གྱི་གྲངས་"
+
+#: ../data/gwget.schemas.in.h:14
+msgid "Number of retries"
+msgstr "སླར་རྩོལ་གྱི་མང་ཉུང་"
+
+#: ../data/gwget.schemas.in.h:15
+msgid "Open the file after download"
+msgstr "ཕབ་ལེན་གྱི་ཤུལ་ལས་ ཡིག་སྣོད་ཁ་ཕྱེ་"
+
+#: ../data/gwget.schemas.in.h:16
+msgid "Resume downloads at startup"
+msgstr "འགོ་བཙུག་སྐབས་ ཕབ་ལེན་བསྐྱར་ལོག་འབད་"
+
+#: ../data/gwget.schemas.in.h:17
+msgid "View download speed column"
+msgstr "ཕབ་ལེན་མགྱོགས་ཚད་ཀེར་ཐིག་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:18
+msgid "View elapsed time column"
+msgstr "ཐལ་ཡོད་པའི་ཆུ་ཚོད་ཀེར་ཐིག་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:19
+msgid "View percentage column"
+msgstr "བརྒྱ་ཆའི་ཀེར་ཐིག་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:20
+msgid "View remaining time column"
+msgstr "ལྷག་ལུས་ཆུ་ཚོད་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:21
+msgid "View statusbar"
+msgstr "གནས་ཚད་ཕྲ་རིང་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:22
+msgid "View toolbar"
+msgstr "ལག་ཆས་ཕྲ་རིང་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:23
+msgid "View total size column"
+msgstr "ཀེར་ཐིག་ཚད་བསྡོམ་ སྟོན་"
+
+#: ../data/gwget.schemas.in.h:24
+msgid "Whether to display the statusbar."
+msgstr "གནས་ཚད་ཕྲ་རིང་ ཀྲམ་སྟོན་འབད་ནི་དང་མི་འབད་ནི་ཨིན་ན་"
+
+#: ../data/gwget.schemas.in.h:25
+msgid "Whether to display the toolbar."
+msgstr "ལག་ཆས་ཕྲ་རིང་ བཀྲམ་སྟོན་འབད་ནི་དང་མི་འབད་ནི་ཨིན་ན་"
+
+#: ../data/newdownload.glade.h:1
+msgid "<span weight=\"bold\">New Download</span>"
+msgstr "<span weight=\"bold\">ཕབ་ལེན་གསརཔ་</span>"
+
+#: ../data/newdownload.glade.h:2
+msgid "New Download"
+msgstr "ཕབ་ལེན་གསརཔ་"
+
+#: ../data/newdownload.glade.h:3
+msgid "Save in:"
+msgstr "ནང་ལུ་སྲུངས་:"
+
+#: ../data/preferences.glade.h:1
+msgid "   "
+msgstr "   "
+
+#: ../data/preferences.glade.h:3
+msgid "<span weight=\"bold\">Behavior</span>"
+msgstr "<span weight=\"bold\">བྱ་སྤྱོད་</span>"
+
+#: ../data/preferences.glade.h:4
+msgid "<span weight=\"bold\">Column List</span>"
+msgstr "<span weight=\"bold\">ཀེར་ཐིག་ཐོ་ཡིག་</span>"
+
+#: ../data/preferences.glade.h:5
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">ཡོངས་ཁྱབ་</span>"
+
+#: ../data/preferences.glade.h:6
+msgid "<span weight=\"bold\">Links</span>"
+msgstr "<span weight=\"bold\">འབྲེལ་ལམ་</span>"
+
+#: ../data/preferences.glade.h:7
+msgid "<span weight=\"bold\">Proxy Configuration</span>"
+msgstr "<span weight=\"bold\">པོརོག་སི་རིམ་སྒྲིག་</span>"
+
+#: ../data/preferences.glade.h:8
+msgid "Column List"
+msgstr "ཀེར་ཐིག་ཐོ་ཡིག་"
+
+#: ../data/preferences.glade.h:9
+msgid "Default _GNOME network settings"
+msgstr "སྔོན་སྒྲིག་ ཇི་ནོམ་ ཡོངས་འབྲེལ་སྒྲིག་སྟངས་ཚུ་(_G)"
+
+#: ../data/preferences.glade.h:10
+msgid "Direct _Internet connection"
+msgstr "ཐད་ཀར་གྱི་ཨིན་༌ཊར་ནེཊི་མཐུད་ལམ་(_I)"
+
+#: ../data/preferences.glade.h:11
+msgid "Do_wnload Speed"
+msgstr "མགྱོགས་ཚད་ ཕབ་ལེན་འབད་(_w)"
+
+#: ../data/preferences.glade.h:12
+msgid "Don't _create directories"
+msgstr "སྣོད་ཐོ་གསར་བསྐྲུན་མ་འབད་(_c)"
+
+#: ../data/preferences.glade.h:13
+msgid "Follow _relative links only"
+msgstr "འབྲེལ་བའི་འབྲེལ་ལམ་ཚུ་རྐྱངམ་ཅིག་ ཤུལ་དཔྱད་འབད་(_r)"
+
+#: ../data/preferences.glade.h:14
+msgid "General"
+msgstr "ཡོངས་ཁྱབ་"
+
+#: ../data/preferences.glade.h:15
+msgid "Limit _number of simultaneous download to:"
+msgstr "དེ་ལུ་ མཉམ་འབྱུང་ཕབ་ལེན་གྱི་ཨང་གྲངས་ཚད་:(_n)"
+
+#: ../data/preferences.glade.h:16
+msgid "Network"
+msgstr "ཡོངས་འབྲེལ་"
+
+#: ../data/preferences.glade.h:17
+msgid "P_ort:"
+msgstr "འདྲེན་ལམ་:(_o)"
+
+#: ../data/preferences.glade.h:18
+msgid "Password:"
+msgstr "ཆོག་ཡིག་:"
+
+#: ../data/preferences.glade.h:19
+msgid "Preferences"
+msgstr "དགའ་གདམ་ཚུ་"
+
+#: ../data/preferences.glade.h:20
+msgid "Pro_xy:"
+msgstr "པོརོག་སི་:(_x)"
+
+#: ../data/preferences.glade.h:22
+msgid "Remaining _Time"
+msgstr "ཆུ་ཚོད་ལྷག་ལུས་(_T)"
+
+#: ../data/preferences.glade.h:23
+msgid "Sa_ve in:"
+msgstr "ནང་ལུ་སྲུངས་:(_v)"
+
+#: ../data/preferences.glade.h:24
+msgid "Total _Size"
+msgstr "ཚད་བསྡོམས་(_S)"
+
+#: ../data/preferences.glade.h:25
+msgid "_Ask where to save for each download"
+msgstr "ཕབ་ལེན་རེ་རེ་ ག་སྟེ་ལུ་སྲུང་བཞག་འབད་ནི་ཨིན་ན་དྲིས་(_A)"
+
+#: ../data/preferences.glade.h:26
+msgid "_Continue downloads on startup"
+msgstr "འགོ་བཙུག་གུ་ལུ་ ཕབ་ལེན་འཕྲོ་མཐུད་དེ་འབད་(_C)"
+
+#: ../data/preferences.glade.h:27
+msgid "_Convert links"
+msgstr "འབྲེལ་ལམ་གཞི་བསྒྱུར་འབད་(_C)"
+
+#: ../data/preferences.glade.h:28
+msgid "_Current Size"
+msgstr "ད་ལྟོའི་ཚད་(_C)"
+
+#: ../data/preferences.glade.h:29
+msgid "_Download page requisites"
+msgstr "མཁོ་འདོད་ཤོག་ལེབ་ ཕབ་ལེན་འབད་(_D)"
+
+#: ../data/preferences.glade.h:30
+msgid "_Elapsed Time"
+msgstr "ཐལ་སོང་བའི་ཆུ་ཚོད་(_E)"
+
+#: ../data/preferences.glade.h:31
+msgid "_Limit download speed to:"
+msgstr "དེ་ལུ་ ཕབ་ལེན་མགྱོགས་ཚད་:(_L)"
+
+#: ../data/preferences.glade.h:32
+msgid "_Manual proxy configuration"
+msgstr "ལག་དེབ་པོརོག་སི་རིམ་སྒྲིག་(_M)"
+
+#: ../data/preferences.glade.h:33
+msgid "_Maximum depth level:"
+msgstr "གཏིང་ཚད་གནས་རིམ་མང་མཐ་:(_M)"
+
+#: ../data/preferences.glade.h:34
+msgid "_Number of retries:"
+msgstr "སླར་རྩོལ་གྱངས་ཁ་:(_N)"
+
+#: ../data/preferences.glade.h:35
+msgid "_Open files automatically after download"
+msgstr "ཕབ་ལེན་གྱི་ཤུལ་ལས་ ཡིག་སྣོད་ཚུ་རང་བཞིན་གྱིས་ ཁ་ཕྱེཝ་ཨིན་(_O)"
+
+#: ../data/preferences.glade.h:36
+msgid "_Percentage"
+msgstr "བརྒྱ་ཆ་(_P)"
+
+#: ../data/preferences.glade.h:37
+msgid "_Proxy requires authentication"
+msgstr "པོརོག་སི་ལུ་བདེན་བཤད་དགོཔ་ཨིན་(_P)"
+
+#: ../data/preferences.glade.h:38
+msgid "_User:"
+msgstr "ལག་ལེན་པ་:(_U)"
+
+#: ../data/preferences.glade.h:39
+msgid "files"
+msgstr "ཡིག་སྣོད་ཚུ་"
+
+#: ../data/preferences.glade.h:40
+msgid "kB/sec"
+msgstr "ཀེ་བི་/སྐར་ཆ་"
+
+#: ../epiphany-extension/gwget.xml.in.in.h:1
+msgid "Forward downloads to GWGet"
+msgstr "ཕབ་ལེན་འདི་ ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་ལུ་ གདོང་བསྐྱོད་འབད་"
+
+#: ../epiphany-extension/gwget.xml.in.in.h:2
+msgid "GWGet"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་"
+
+#: ../src/custom-cell-renderer-progressbar.c:36
+msgid "Unknown"
+msgstr "མ་ཤེསཔ་"
+
+#: ../src/custom-cell-renderer-progressbar.c:99
+msgid "Failed"
+msgstr "འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#: ../src/eggtrayicon.c:145
+msgid "Orientation"
+msgstr "ཁ་ཕྱོགས་"
+
+#: ../src/eggtrayicon.c:146
+msgid "The orientation of the tray."
+msgstr "ཤོག་སྣོད་ཀྱི་ཁ་ཕྱོགས།"
+
+#: ../src/eggtrayicon.c:483
+msgid "Notification"
+msgstr "བརྡ་བསྐུལ་"
+
+#: ../src/gwget_data.c:195
+msgid "stalled"
+msgstr "གཞི་བཙུགས་འབད་ཡོདཔ་"
+
+#: ../src/gwget_data.c:229
+msgid "Waiting"
+msgstr "བསྒུག་དོ་"
+
+#: ../src/gwget_data.c:231
+msgid "Not Started"
+msgstr "འགོ་མ་བཙུགས་"
+
+#: ../src/gwget_data.c:233
+msgid "Not Running"
+msgstr "གཡོག་མ་བཀོལ་"
+
+#: ../src/gwget_data.c:235
+msgid "Not Connected"
+msgstr "མ་མཐུད་"
+
+#: ../src/gwget_data.c:237
+msgid "Connected"
+msgstr "མཐུད་ཡོདཔ་"
+
+#: ../src/gwget_data.c:239
+msgid "Retrieving"
+msgstr "སླར་འདྲེན་འབད་དོ་"
+
+#: ../src/gwget_data.c:241
+msgid "Completed"
+msgstr "མཇུག་བསྡུ་ཡོདཔ་"
+
+#: ../src/gwget_data.c:245
+#, c-format
+msgid ""
+"Download Completed\n"
+"(%s)"
+msgstr ""
+"ཕབ་ལེན་མཇུག་བསྡུ་ཡོདཔ་\n"
+"(%s)"
+
+#: ../src/gwget_data.c:252
+msgid "Error"
+msgstr "འཛོལ་བ་"
+
+#: ../src/gwget_data.c:693
+msgid "Unable to add this download"
+msgstr "ཕབ་ལེན་འདི་ ཁ་སྐོང་བརྐྱབ་མ་ཚུགས་"
+
+#: ../src/gwget_data.c:694
+msgid "This download is already added"
+msgstr "ཕབ་ལེན་འདི་ ཧེ་མ་ལས་ཁ་སྐོང་བརྐྱབས་ཡོདཔ་"
+
+#: ../src/gwget_data.c:742
+#: ../src/main_window_cb.c:110
+#: ../src/main_window_cb.c:1143
+#: ../src/main_window_cb.c:1162
+msgid "Error opening file"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་བའི་ཚེ་ འཛོལ་བ་"
+
+#: ../src/gwget_data.c:742
+#: ../src/main_window_cb.c:110
+#: ../src/main_window_cb.c:1143
+msgid "Couldn't open the file"
+msgstr "ཡིག་སྣོད་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../src/gwget_data.c:780
+msgid "Download Complete"
+msgstr "མཇུག་བསྡུཝ་འབད་ ཕབ་ལེན་འབད་"
+
+#: ../src/main.c:230
+#: ../src/main_window_cb.c:188
+msgid "Gwget"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་"
+
+#: ../src/main.c:249
+msgid "Gwget Download Manager"
+msgstr "ཇི་ཌབ་ལུ་ཇི་ཨི་ཊི་ ཕབ་ལེན་འཛིན་སྐྱོང་པ་"
+
+#: ../src/main_window.c:433
+msgid "File Name"
+msgstr "ཡིག་སྣོད་མིང་"
+
+#: ../src/main_window.c:441
+msgid "State"
+msgstr "གནས་ལུགས་"
+
+#: ../src/main_window.c:453
+msgid "Current Size"
+msgstr "ད་ལྟོའི་ཚད་"
+
+#: ../src/main_window.c:465
+msgid "Total Size"
+msgstr "ཚད་བསྡོམས་"
+
+#: ../src/main_window.c:476
+#: ../src/main_window.c:482
+msgid "Percentage"
+msgstr "བརྒྱ་ཆ་"
+
+#: ../src/main_window.c:489
+msgid "Elapsed Time"
+msgstr "ཐལ་སོང་བའི་ཆུ་ཚོད་"
+
+#: ../src/main_window.c:500
+msgid "Remaining Time"
+msgstr "ཆུ་ཚོད་ལྷག་ལུས་"
+
+#: ../src/main_window.c:511
+msgid "Speed"
+msgstr "མགྱོགས་ཚད་"
+
+#: ../src/main_window.c:558
+msgid "Error starting the download"
+msgstr "ཕབ་ལེན་འགོ་བཙུགཔ་ད་ འཛོལ་བ་"
+
+#: ../src/main_window.c:558
+msgid "There was an unexpected error starting the download"
+msgstr "ཕབ་ལེན་འབདཝ་ད་ རེ་བ་མེད་པའི་འཛོལ་བ་ཅིག་བྱུང་ནུག་"
+
+#: ../src/main_window.c:795
+msgid "Cancel current downloads?"
+msgstr "ད་ལྟོའི་ཕབ་ལེན་འདི་ ཆ་མེད་གཏང་ནི་ཨིན་ན་?"
+
+#: ../src/main_window.c:796
+msgid "There is at least one active download left. Really cancel all running transfers?"
+msgstr "ཤུགས་ལྡན་གྱི་ཕབ་ལེན་ཅིག་འདི་ ད་ལྟོ་ཡང་ཡོདཔ་ཨིན། གཡོག་བཀོལ་གནས་སོར་ཚུ་ཆ་མཉམ་ ཐད་རི་འབའ་རི་ཆ་མེད་གཏང་ནི་ཨིན་ན་?"
+
+#: ../src/main_window_cb.c:101
+msgid "Error in download"
+msgstr "ཕབ་ལེན་ནང་ལུ་འཛོལ་བ་"
+
+#: ../src/main_window_cb.c:191
+msgid "Download Manager for GNOME."
+msgstr "ཇི་ནོམ་གྱི་དོན་ལུ་ འཛིན་སྐྱོང་པ་ཕབ་ལེན་འབད།"
+
+#: ../src/main_window_cb.c:562
+#: ../src/new_window.c:139
+msgid "Select Folder"
+msgstr "སྣོད་འཛིན་ སེལ་འཐུ་འབད་"
+
+#: ../src/main_window_cb.c:618
+#, c-format
+msgid ""
+"Really cancel current download?\n"
+"(URL: %s)"
+msgstr ""
+"ད་ལྟོའི་ཕབ་ལེན་འདི་ ཐད་རི་འབའ་རི་ཆ་མེད་གཏང་ན་?\n"
+"(URL: %s)"
+
+#: ../src/main_window_cb.c:619
+msgid "Cancel download?"
+msgstr "ཕབ་ལེན་འདི་ཆ་མེད་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/main_window_cb.c:649
+msgid "Really remove completed downloads from the list?"
+msgstr "མཇུག་བསྡུ་ཡོད་པའི་ཕབ་ལེན་ཚུ་ ཐོ་ཡིག་ནང་ལས་ ཐད་རི་འབའ་རི་རྩ་བསྐྲད་གཏང་ན་?"
+
+#: ../src/main_window_cb.c:649
+msgid "Remove"
+msgstr "རྩ་བསྐྲད་"
+
+#: ../src/main_window_cb.c:681
+msgid "Really remove inactive downloads from the list?"
+msgstr "ཤུགས་མེད་ཕབ་ལེན་ཚུ་ ཐད་རི་འབའ་རི་ ཐོ་ཡིག་ནང་ལས་ རྩ་བསྐྲད་གཏང་ན་?"
+
+#: ../src/main_window_cb.c:713
+msgid "Really remove all downloads from the list?"
+msgstr "ཐོ་ཡིག་ནང་ལས་ ཕབ་ལེན་ཆ་མཉམ་ར་ རྩ་བསྐྲད་གཏང་ན་?"
+
+#: ../src/main_window_cb.c:1095
+msgid "New download speed limit will apply only to new or restarted downloads"
+msgstr "ཕབ་ལེན་མགྱོགས་ཚད་གསརཔ་འདི་གསརཔ་ ཡངན་ སླར་འགོ་བཙུགས་ཡོད་པའི་ཕབ་ལེན་རྐྱངམ་ཅིག་ལུ་ འཇུག་སྤྱོད་འབད་འོང་།"
+
+#: ../src/main_window_cb.c:1111
+#, c-format
+msgid "Remove %s ?"
+msgstr " %s འདི་རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན་?"
+
+#: ../src/main_window_cb.c:1112
+msgid "Really remove this download from the list?"
+msgstr "ཐོ་ཡིག་ནང་ལས་ཐད་རི་འབའ་རི་ ཕབ་ལེན་འདི་རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?"
+
+#: ../src/main_window_cb.c:1112
+msgid "Remove download"
+msgstr "ཕབ་ལེན་འདི་རྩ་བསྐྲད་གཏང་"
+
+#: ../src/main_window_cb.c:1162
+msgid "Couldn't open the folder"
+msgstr "སྣོད་འཛིན་ཁ་ཕྱེ་མ་ཚུགས་"
+
+#: ../src/systray.c:151
+msgid "Nothing"
+msgstr "ག་ནི་ཡང་མེདཔ་"
+
+#: ../src/systray.c:158
+msgid "Downloads"
+msgstr "ཕབ་ལེན་ཚུ་"
+
+#: ../src/wget-log.c:123
+msgid "Socket error"
+msgstr "སོ་ཀེཊི་གི་འཛོལ་བ་"
+
+#: ../src/wget-log.c:125
+msgid "Connection refused\n"
+msgstr "མཐུད་ལམ་ངོས་ལེན་འབད་མ་བཏུབ་ \n"
+
+#: ../src/wget-log.c:127
+msgid "No route to host"
+msgstr "ཧོསཊི་ལུ་འགྲུལ་ལམ་མེད་"
+
+#: ../src/wget-log.c:129
+msgid "Connection refused when downloading URL:\n"
+msgstr "ཡུ་ཨརཨེལ་མངོན་གསལ་འབད་བའི་བསྒང་ལུ་ མཐུད་ལམ་ངོས་ལེན་འབད་མ་བཏུབ་: \n"
+
+#: ../src/wget-log.c:131
+msgid "Host not found\n"
+msgstr "ཧོསཊི་མ་མཐོང་\n"
+
+#: ../src/wget-log.c:133
+msgid "Unsupported protocol - you need wget >= 1.7 for https:\n"
+msgstr "རྒྱབ་སྐྱོར་མ་འབད་བའི་གནས་སྤེལ་ལམ་ལུགས་- ཁྱོད་ལུ་ ཌབ་ལུ་ཇི་ཨི་ཊི་དགོཔ་ཨིན་ >= ༡་༧  ཨེཅ་ཊི་ཊི་པི་ལུ་: \n"
+
+#: ../src/wget-log.c:136
+msgid "Refusing to truncate existing file"
+msgstr "ཡོད་བཞིན་པའི་ཡིག་སྣོད་ ཆུང་ཀུ་བཟོ་ནི་ལུ་ངོས་ལེན་མི་འབད་ནི་"
+
+#: ../src/wget-log.c:138
+msgid "Unknown error"
+msgstr "མ་ཤེས་པའི་འཛོལ་བ་"
+
+#: ../src/wget-log.c:149
+#: ../src/wget-log.c:155
+msgid "File not found"
+msgstr "ཡིག་སྣོད་མ་ཐོབ་"
+
+#: ../src/wget-log.c:162
+msgid "Can't continue download, existing local file conflicts with remote file"
+msgstr "ཕབ་ལེན་འདི་འཕྲོ་མཐུད་མི་ཚུགས་པས་ ཡོད་བཞིན་པའི་ཉེ་གནས་ཡིག་སྣོད་འདི་ ཐག་རིང་གི་ཡིག་སྣོད་དང་མི་མཐུན་ནི་"
+
+#: ../src/wget-log.c:221
+msgid "Can't write to target directory"
+msgstr "དམིགས་གཏད་སྣོད་ཐོ་ལུ་ འབྲི་མི་བཏུབ་"
+

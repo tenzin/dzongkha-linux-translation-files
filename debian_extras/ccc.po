@@ -1,0 +1,113 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ccc.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-21 18:48+0100\n"
+"PO-Revision-Date: 2006-11-27 16:10+0530\n"
+"Last-Translator: norbu <nor_den@hotmail.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; pluran=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Would you like to run the ccc installer now?"
+msgstr "ཁྱོད་ཀྱིས་ སི་སི་སི་ གཞི་བཙུགས་པ་འདི་ད་ལྟོ་ གཡོག་བཀོལ་ནི་ཨིན་ན་?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "This is the Compaq ccc installer package, it does not actually contain ccc. You will need to go download ccc by hand. Once you have downloaded it you can proceed and tell the installer which directory you put it in."
+msgstr "འ་ནི་འདི་ ཀམ་པེཀ་གཞི་བཙུགས་པ་ཐུམ་སྒྲིལ་ཅིག་ཨིན་ འདི་ནང་སི་སི་སི་མེད། ཁྱོད་ཀྱིས་ སྐོར་ཐེངས་ཐོག་ ཕབ་ལེན་སི་སི་སི་ ལུ་འགྱོ་དགོ། ཁྱོད་ཀྱིས་ཚར་གཅིག་ འདི་ཕབ་ལེན་འབད་ཚར་ཞིནམ་ལས་ ཁྱོད་ཀྱྀས་འཕྲོ་མཐུད་ཞིནམ་ལས་ གཞི་བཙུགས་པ་ལུ་ ཁྱོད་ཀྱིས་སྣོད་ཐོ་ག་འདི་བཙུགས་ཅི་ག་སླབ་ཚུགས།"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Location of the downloaded Compaq ccc file:"
+msgstr "ཕབ་ལེན་འབད་ཡོད་པའི་ཀམ་པེཀ་ སི་སི་སི་ཡིག་སྣོད་འདི་གི་གནས་ཁོངས་:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Please visit one of the Compaq FORTRAN, C or C++ Alpha Linux Compiler web pages now, all of which are linked from ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html , and if you agree to their terms and conditions, then download the Red Hat RPM of ccc. The file should be named ${filename}.crypt.  You then need to decrypt it by running:"
+msgstr "ཀམ་པེཀ་ ཕོར་ཊེན་ འདི་ཚུ་ལས་གཅིག་ སི་ ཡང་ན་སི་++ ཨཱལ་ཕ་་ལི་ནགསི་ཕྱོགས་སྒྲིག་འབད་མི་ཝེབ་ཤོག་ལེབ་ཚུ་ད་ལྟོ་   ftp://ftp.compaq.com/pub/products/linuxdevtools/latest/downloads.html ལས་འབྲེལ་མཐུད་འབད་ཡོད་མི་ཆ་མཉམ་  བལྟ་སྤྱོད་འབད་གནང་ དེ་ལས་ཁྱོད་ཀྱིས་འདི་ཚུ་གི་ཐ་སྙད་དང་གནས་སྟངས་ཚུ་ལུ་ཁ་བཟེད་བ་ཅིན་ སི་སི་སི་གི་ རེཌི་ཧེཊི་ ཨར་པི་ཨེམ་འདི་ཕབ་ལེན་འབད། ཡིག་སྣོད་འདི་  ${filename}.crypt སྦེ་མིང་བཏགས་དགོ། ཁྱོད་ཀྱིས་དེ་ལས་ གཡོག་བཀོལ་བའི་ཐོག་ གསང་བཤོལ་འབད་དགོ:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "and supply the password provided by Compaq.  Once you have the RPM file, enter the directory you put it in (full absolute path please). Also make sure that permissions on the file allow it to be read."
+msgstr "ཀམ་པེཀ་གིས་བྱིན་ཡོད་མི་ ཆོག་ཡིག་འདི་བཀྲམ་སྤེལ་འབད། ཁྱོད་ལུ་ཚར་ཅིག་ ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་ཡོད་ཞིནམ་ལས་ ཁྱོད་ཀྱིས་བཙུགས་མི་སྣོད་ཐོ་འདི་ཐོ་བཀོད་འབད་(ཡང་དག་འགྲུལ་ལམ་ཆ་ཚང་)། ཡིག་སྣོད་གུའི་གནང་བ་འདི་གིས་ འདི་ལྷག་ཆོགཔ་ཨིནམ་ངེས་ཏིག་བཟོ།"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Delete RPM file once it is installed?"
+msgstr "ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་ཚར་ཅིག་གཞི་བཙུགས་འབད་ཞིནམ་ལས་ བཏོན་གཏང་ནི་ཨིན་ན་?"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Please choose whether the RPM file should be deleted once it has been installed."
+msgstr "ཡང་ཅིན་ ཨར་པི་ཨེམ་ཡིག་སྣོད་འདི་ ཚར་ཅིག་གཞི་བཙུགས་འབད་ཚར་ཞིནམ་ལས་་བཏོན་གཏང་ནི་ཨིན་ན་ གདམ་ཁ་རྐྱབས་གནང་།"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Downloaded Compaq ccc file not found"
+msgstr "ཕབ་ལེན་འབད་ཡོད་པའི་ཀམ་པེཀ་སི་སི་སི་ཡིག་སྣོད་ མ་འཐོབ།"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "The file ${filename} does not exist, or it is corrupt. You may have downloaded the wrong file, or put it in the wrong location."
+msgstr "ཡིག་སྣོད་ ${filename} འདི་མེད་ ཡང་ན་འདི་གན་ཅན་འོང་། ཁྱོད་ཀྱིས་ཡིག་སྣོད་ཕྱི་འགྱུར་འདི་ཕབ་ལེན་འབད་འབདཝ་འོང་ ཡང་ན་ གནས་ཁོངས་ཕྱི་འགྱུར་ནང་བཙུགས་བཙུགསཔ་འོང་།"
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "If the file you downloaded has a different name, the filename may have changed since this installer was last updated. You can still try to use the installer; just rename the file you downloaded to ${filename} . Note that if you do this, there is no guarantee the installer will work. You may need to get a more recent version of this installer from Debian's \"unstable\" distribution."
+msgstr "ཁྱོད་ཀྱིས་ཕབ་ལེན་འབད་མི་ཡིག་སྣོད་འདི་ལུ་ མིང་སོ་སོ་ཅིག་ཡོདཔ་ཨིན་པ་ཅིན་ ཡིག་སྣོད་མིང་འདི་ འ་ནི་གཞི་བཙུགས་པ་འདི་མཇུག་ལུ་དུས་མཐུན་བཟོ་ཡོད་མི་ལས་ཚུར་ བསྒྱུར་བཅོས་འབད་ཡོདཔ་འོང་། ཁྱོད་ད་ལྟོ་ཡང་གཞི་བཙུགས་པ་འདི་ལག་ལེན་འཐབ་ནི་འབད་རྩོལ་བསྐྱེད་བཏུབ་ ཁྱོད་ཀྱིས་ ${filename} ལུ་ཕབ་ལེན་འབད་མི་ཡིག་སྣོད་འདི་ བསྐྱར་མིང་བཏགས། ཁྱོད་ཀྱིས་འ་ནི་འབད་བ་ཅིན་ གཞི་བཙུགས་པ་འདི་གིས་ལཱ་འབད་ནིའི་ཉེན་ལེན་ག་ནི་ཡང་མེདཔ་དྲན། ཁྱོད་ཀྱིས་ ཌེ་བི་ཡཱན་གི་ \"unstable\" བགོ་འགྲེམ་པ་ལས་ འ་ནི་གཞི་བཙུགས་ཀྱི་འཕྲལ་གྱི་ཐོན་རིམ་ཧེང་བཀལ་ལེན་དགོཔ་འོང་།"
+
+#. Type: note
+#. Description
+#: ../templates:5001
+msgid "Compaq ccc installer failed"
+msgstr "ཀམ་པེཀ་སི་སི་སི་ གཞི་བཙུགས་པ་འཐུས་ཤོར་འབྱུང་ཡོདཔ་"
+
+#. Type: note
+#. Description
+#: ../templates:5001
+msgid "You are running in non-interactive mode, and the Compaq ccc installer needs to prompt you to download a file for it to install, and cannot. The installation of this package has been aborted. Please re-install it in interactive mode."
+msgstr "ཁྱོད་ཀྱིས་ཕན་ཚུན་འབྲེལ་ལྡན་མེན་པའི་ཐབས་ལམ་ནང་གཡོག་བཀོལ་བའི་བསྒང་ཨིན་པས་ ཀམ་པེཀ་སི་སི་སི་གཞི་བཙུགས་པ་འདི་ གཞི་བཙུགས་འབད་ནིའི་དོན་ལུ་ ཡིག་སྣོད་ཅིག་ཕབ་ལེན་འབད་ནིའི་ལས་ ནུས་སྤེལ་འབད་དགོ། འ་ནི་ཐུམ་སྒྲིལ་གྱི་གཞི་བཙུགས་འདི་ བར་བཤོལ་འབད་ཡོད། འདི་ཕན་ཚུན་འབྲེལ་ལྡན་ཐབས་ལམ་ནང་ལོག་གཞི་བཙུགས་འབད་གནང་།"
+
+#. Type: note
+#. Description
+#: ../templates:6001
+msgid "Compaq ccc install delayed"
+msgstr "ཀམ་པེཀ་སི་སི་སི་གཞི་བཙུགས་ཕྱིར་འགྱངས་འབད་ཡོདཔ་"
+
+#. Type: note
+#. Description
+#: ../templates:6001
+msgid "You have opted not to run the Compaq ccc installer at this time. If you decide to run it later you can do so by running \"dpkg-reconfigure ccc\"."
+msgstr "ཁྱོད་ཀྱིས་ དུས་ཚོད་འདི་ལུ་ ཀམ་པེཀ་སི་སི་སི་གཞི་བཙུགས་པ་འདི་གཡོག་མི་བཀོལ་ནི་ལུ་གདམ་ནུག། ཁྱོད་ཀྱིས་འདི་ཤུལ་ལས་གཡོག་བཀོལ་ནི་གི་གྲོས་ཐག་བཅད་པ་ཅིན་ འདི་ \"dpkg-reconfigure ccc\" གཡོག་བཀོལ་ཐོག་འབད།"
+

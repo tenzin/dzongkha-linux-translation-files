@@ -1,0 +1,464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gconf-editor.HEAD.dz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-24 06:49+0100\n"
+"PO-Revision-Date: 2006-03-20 13:21-0500\n"
+"Last-Translator: \n"
+"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: data/gconf-editor.desktop.in.in.h:1
+#: src/gconf-editor-window.c:844
+#: src/gconf-editor-window.c:1313
+msgid "Configuration Editor"
+msgstr "རིམ་སྒྲིག་ཞུན་དགཔ།"
+
+#: data/gconf-editor.desktop.in.in.h:2
+msgid "Directly edit your entire configuration database"
+msgstr "ཐད་ཀར་དུ་ ཁྱོད་རའི་རིམ་སྒྲིག་གནད་སྡུད་ཡོངས་རྫོགས་ ཞུན་དག་རྐྱབས།"
+
+#: data/gconf-editor.schemas.in.h:1
+msgid "Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།"
+
+#: data/gconf-editor.schemas.in.h:2
+msgid "gconf-editor folder bookmarks"
+msgstr "ཇི་ཀཱོནཕ་ཞུན་དག་པའི་ སྣོད་འཛིན་དེབ་རྟགས།"
+
+#: src/gconf-bookmarks-dialog.c:207
+msgid "Edit Bookmarks"
+msgstr "དེབ་རྟགས་ཞུན་དག་རྐྱབས།"
+
+#: src/gconf-editor-window.c:361
+#, c-format
+msgid "Couldn't display help: %s"
+msgstr "གྲོགས་རམ་:%sབཀྲམ་སྟོན་འབད་མ་ཚུགས།"
+
+#: src/gconf-editor-window.c:395
+msgid "translator_credits"
+msgstr "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
+
+#: src/gconf-editor-window.c:400
+msgid "An editor for the GConf configuration system."
+msgstr "ཇི་ཀཱོནཕ་ རིམ་སྒྲིག་རིམ་ལུགས་ཀྱི་ ཞུན་དགཔ་ཅིག།"
+
+#: src/gconf-editor-window.c:427
+#, c-format
+msgid ""
+"Couldn't unset key. Error was:\n"
+"%s"
+msgstr ""
+"ལྡེ་མིག་སྒྲིག་བཤོལ་འབད་མ་ཚུགས། འཛོལ་བ་དེ།\n"
+"%s"
+
+#: src/gconf-editor-window.c:452
+#, c-format
+msgid ""
+"Could not create key. The error is:\n"
+"%s"
+msgstr ""
+"ལྡེ་མིག་གསར་བསྐྲུན་འབད་མ་ཚུགས། འཛོལ་བ་དེ་།\n"
+"%s"
+
+#: src/gconf-editor-window.c:534
+#, c-format
+msgid ""
+"Could not change key value. Error message:\n"
+"%s"
+msgstr ""
+"ལྡེ་མིག་གི་བེ་ལུ་ བསྒྱུར་བཅོས་འབད་མ་ཚུགས། འཕྲིན་དོན་འཛོལ་བ་ཨིན་པས།\n"
+"%s"
+
+#: src/gconf-editor-window.c:566
+msgid "Currently pairs and schemas can't be edited. This will be changed in a later version."
+msgstr "ད་ལྟོ་ཟུང་དང་ ལས་འཆར་ཚུ་ ཞུན་དག་འབད་མི་ཚུགས། འདི་ཤུལ་མའི་ཐོན་རིམ་ནང་ བསྒྱུར་བཅོས་འབད་ནི་ཨིན།"
+
+#: src/gconf-editor-window.c:670
+#: src/gconf-editor-window.c:705
+#, c-format
+msgid ""
+"Could not sync value. Error was:\n"
+"%s"
+msgstr ""
+"བེ་ལུ་མཉམ་འབྱུང་ འབད་མ་ཚུགས། འཛོལ་བ་དེ།\n"
+"%s"
+
+#: src/gconf-editor-window.c:711
+msgid "_File"
+msgstr "ཡིག་སྣོད (_F)།"
+
+#: src/gconf-editor-window.c:712
+msgid "_Edit"
+msgstr "ཞུན་དག།  (_E)།"
+
+#: src/gconf-editor-window.c:713
+msgid "_Search"
+msgstr "འཚོལ་ཞིབ།  (_S)།"
+
+#: src/gconf-editor-window.c:714
+msgid "_Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ།  (_B)།"
+
+#: src/gconf-editor-window.c:715
+msgid "_Help"
+msgstr "གྲོགས་རམ།  (_H)།"
+
+#: src/gconf-editor-window.c:717
+msgid "New _Settings Window"
+msgstr "གཞི་སྒྲིག་གསར་པའི་སྒོ་སྒྲིག།  (_S)།"
+
+#: src/gconf-editor-window.c:718
+msgid "Open a new Configuration Editor window editing current settings"
+msgstr "ད་ལྟོའི་གཞི་སྒྲིག་ ཞུན་དག་འབད་མི་ རིམ་སྒྲིག་ཞུན་དག་པའི་ སྒོ་སྒྲིག་གསརཔ་ཅིག་ཁ་ཕྱེ།"
+
+#: src/gconf-editor-window.c:720
+msgid "New _Defaults Window"
+msgstr "སྔོན་སྒྲིག་གསར་པའི་སྒོ་སྒྲིག།  (_D)།"
+
+#: src/gconf-editor-window.c:721
+msgid "Open a new Configuration Editor window editing system default settings"
+msgstr "རིམ་ལུགས་སྔོན་སྒྲིག་གི་ གཞི་སྒྲིག་ཞུན་དག་འབད་ནིའི་ རིམ་སྒྲིག་ཞུན་དག་པའི་ སྒོ་སྒྲིག་གསརཔ་ཅིག་ཁ་ཕྱེ།"
+
+#: src/gconf-editor-window.c:723
+msgid "New _Mandatory Window"
+msgstr "ངེས་མཁོའི་སྒོ་སྒྲིག་གསརཔ།  (_M)"
+
+#: src/gconf-editor-window.c:724
+msgid "Open a new Configuration Editor window editing system mandatory settings"
+msgstr "རིམ་ལུགས་ངེས་མཁོའི་གཞི་སྒྲིག་ཞུན་དག་གི་ རིམ་སྒྲིག་ཞུན་དག་པའི་ སྒོ་སྒྲིག་གསརཔཅིག་ཁ་ཕྱེ།"
+
+#: src/gconf-editor-window.c:726
+msgid "_Close Window"
+msgstr "སྒོ་སྒྲིག་ཁ་བསྡམས།  (_C)།"
+
+#: src/gconf-editor-window.c:726
+msgid "Close this window"
+msgstr "སྒོ་སྒྲིག་འདི་ཁ་བསྡམས།"
+
+#: src/gconf-editor-window.c:728
+msgid "_Quit"
+msgstr "སྤངས་།  (_Q)།"
+
+#: src/gconf-editor-window.c:728
+msgid "Quit the Configuration Editor"
+msgstr "རིམ་སྒྲིག་ཞུན་དགཔ་སྤངས་།"
+
+#: src/gconf-editor-window.c:731
+msgid "_Copy Key Name"
+msgstr "ལྡེ་མིག་གི་མིང་ འདྲ་བཤུས་རྐྱབས།  (_C)།"
+
+#: src/gconf-editor-window.c:731
+msgid "Copy the name of the selected key"
+msgstr "སེལ་འཐུ་འབད་མི་ ལྡེ་མིག་དེ་གི་མིང་ འདྲ་བཤུས་རྐྱབས།"
+
+#: src/gconf-editor-window.c:733
+msgid "_Find..."
+msgstr "འཚོལ།  (_F)།"
+
+#: src/gconf-editor-window.c:733
+msgid "Find patterns in keys and values"
+msgstr "ལྡེ་མིག་དང་ བེ་ལུསི་ཚུ་ནང་ དཔེ་གཞི་འཚོལ།"
+
+#: src/gconf-editor-window.c:735
+msgid "_List Recent Keys"
+msgstr "འཕྲལ་གྱི་ལྡེ་མིག་ཚུ་ ཐོ་བཀོད་འབད།  (_L)།"
+
+#: src/gconf-editor-window.c:735
+msgid "Show recently modified keys"
+msgstr "འཕྲལ་ཁམས་ ལེགས་བཅོས་འབད་མི་ ལྡེ་མིག་ཚུ་སྟོན།"
+
+#: src/gconf-editor-window.c:738
+msgid "_Add Bookmark"
+msgstr "དེབ་རྟགས་ཁ་སྐོང་རྐྱབས། (_A)"
+
+#: src/gconf-editor-window.c:738
+msgid "Add a bookmark to the selected directory"
+msgstr "སེལ་འཐུ་འབད་མི་ སྣོད་ཐོ་ལུ་ དེབ་རྟགས་ཅིག་ ཁ་སྐོང་རྐྱབས།"
+
+#: src/gconf-editor-window.c:740
+msgid "_Edit Bookmarks"
+msgstr "དེབ་རྟགས་ཚུ་ ཞུན་དག་རྐྱབས། (_E)"
+
+#: src/gconf-editor-window.c:740
+msgid "Edit the bookmarks"
+msgstr "དེབ་རྟགས་དེ་ཚུ་ ཞུན་དག་རྐྱབས།"
+
+#: src/gconf-editor-window.c:743
+msgid "_Contents"
+msgstr "ནང་དོན་ཚུ། (_C)"
+
+#: src/gconf-editor-window.c:743
+msgid "Open the help contents for the Configuration Editor"
+msgstr "རིམ་སྒྲིག་ཞུན་དག་པའི་དོན་ལུ་ གྲོགས་རམ་ནང་དོན་ཚུ་ཁ་ཕྱེ།"
+
+#: src/gconf-editor-window.c:745
+msgid "_About"
+msgstr "སྐོར་ལས། (_A)"
+
+#: src/gconf-editor-window.c:745
+msgid "Show the about dialog for the Configuration Editor"
+msgstr "རིམ་སྒྲིགཞུན་དག་པའི་དོན་ལུ་ སྐོར་ལས་ཀྱི་ཌའི་ལོག་སྟོན།"
+
+#: src/gconf-editor-window.c:748
+msgid "_New Key..."
+msgstr "ལྡེ་མིག་གསརཔ་... (_N)"
+
+#: src/gconf-editor-window.c:748
+msgid "Create a new key"
+msgstr "ལྡེ་མིག་གསརཔ་ཅིག་ གསར་བསྐྲུན་འབད།"
+
+#: src/gconf-editor-window.c:750
+msgid "_Edit Key..."
+msgstr "ལྡེ་མིག་ཞུན་དག་རྐྱབས་...(_E)"
+
+#: src/gconf-editor-window.c:750
+msgid "Edit the selected key"
+msgstr "སེལ་འཐུ་འབད་མི་ ལྡེ་མིག་ཞུན་དག་རྐྱབས།"
+
+#: src/gconf-editor-window.c:752
+msgid "_Unset Key..."
+msgstr "ལྡེ་མིག་སྒྲིག་བཤོལ་འབད་... (_U)"
+
+#: src/gconf-editor-window.c:752
+msgid "Unset the selected key"
+msgstr "སེལ་འཐུ་འབད་མི་ལྡེ་མིག་ སྒྲིག་བཤོལ་འབད།"
+
+#: src/gconf-editor-window.c:754
+msgid "Set as _Default"
+msgstr "སྔོན་སྒྲིག་བཟུམ་སྦེ་ གཞི་སྒྲིག་འབད། (_D)"
+
+#: src/gconf-editor-window.c:754
+msgid "Set the selected key to be the default"
+msgstr "སེལ་འཐུ་འབད་མི་ལྡེ་མིག་ ལྔོན་སྒྲིག་སྦེ་ གཞི་སྒྲིག་འབད།"
+
+#: src/gconf-editor-window.c:756
+msgid "Set as _Mandatory"
+msgstr "ངེས་མཁོ་སྦེ་ གཞི་སྒྲིག་འབད། (_M)"
+
+#: src/gconf-editor-window.c:756
+msgid "Set the selected key to the mandatory"
+msgstr "སེལ་འཐུ་འབད་མི་ལྡེ་མིག་དེ་ ངོས་མཁོ་ལུ་གཞི་སྒྲིག་འབད།"
+
+#: src/gconf-editor-window.c:838
+msgid "Configuration Editor (Default Settings)"
+msgstr "རིམ་སྒྲིག་ཞུན་དགཔ། (སྔོན་སྒྲིག་གཞི་སྒྲིག)"
+
+#: src/gconf-editor-window.c:841
+msgid "Configuration Editor (Mandatory Settings)"
+msgstr "རིམ་སྒྲིག་ཞུན་དགཔ། (ངེས་མཁོའི་གཞི་སྒྲིག་ཚུ་)"
+
+#: src/gconf-editor-window.c:1048
+#: src/gconf-editor-window.c:1049
+#: src/gconf-editor-window.c:1050
+#: src/gconf-editor-window.c:1051
+#: src/gconf-editor-window.c:1080
+#: src/gconf-editor-window.c:1088
+#: src/gconf-editor-window.c:1097
+#: src/gconf-editor-window.c:1632
+#: src/gconf-editor-window.c:1644
+#: src/gconf-editor-window.c:1656
+#: src/gconf-editor-window.c:1671
+msgid "(None)"
+msgstr "ཅི་མེད།"
+
+#: src/gconf-editor-window.c:1263
+#: src/gconf-editor-window.c:1278
+#, c-format
+msgid ""
+"Cannot create GConf engine. Error was:\n"
+"%s"
+msgstr ""
+"ཇི་ཀཱོནཕ་ མ་འཕྲུལ་གསར་བསྐྲུན་འབད་མ་ཚུགས། འཛོལ་བ་:\n"
+"%s"
+
+#: src/gconf-editor-window.c:1307
+msgid "Configuration Editor (Defaults settings)"
+msgstr "རིམ་སྒྲིག་ཞུན་དགཔ། (སྔོན་སྒྲིག་གཞི་སྒྲིག་ཚུ)"
+
+#: src/gconf-editor-window.c:1310
+msgid "Configuration Editor (Mandatory settings)"
+msgstr "རིམ་སྒྲིག་ཞུན་དགཔ། (ངེས་མཁོའི་གཞི་སྒྲིག་ཚུ)"
+
+#: src/gconf-editor-window.c:1375
+msgid "Type"
+msgstr "དབྱེ་བ།"
+
+#: src/gconf-editor-window.c:1376
+msgid "The Configuration Editor window type."
+msgstr "རིམ་སྒྲིག་ཞུན་དག་པའི་ སྒོ་སྒྲིག་གི་དབྱེ་བ།"
+
+#: src/gconf-editor-window.c:1529
+msgid "Name"
+msgstr "མིང་།"
+
+#: src/gconf-editor-window.c:1552
+msgid "Value"
+msgstr "བེ་ལུ།"
+
+#: src/gconf-editor-window.c:1579
+msgid "Key Documentation"
+msgstr "ལྡེ་མིག་ཡིག་ཐོག་ལུ་བཀོད་པ།"
+
+#: src/gconf-editor-window.c:1608
+#: src/gconf-key-editor.c:627
+msgid "This key is not writable"
+msgstr "ལྡེ་མིག་འདི་ འབྲི་མ་བཏུབ་ཨིན་པས།"
+
+#: src/gconf-editor-window.c:1621
+msgid "This key has no schema"
+msgstr "ལྡེ་མིག་འདི་ལུ་ ལས་འཆར་མིན་འདུག།"
+
+#: src/gconf-editor-window.c:1626
+msgid "Key name:"
+msgstr "ལྡེ་མིག་གི་མིང་:"
+
+#: src/gconf-editor-window.c:1639
+msgid "Key owner:"
+msgstr "ལྡེ་མིག་གི་བདག་པོ་:"
+
+#: src/gconf-editor-window.c:1651
+msgid "Short description:"
+msgstr "འགྲེལ་བཤད་ཐུང་ཀུ་:"
+
+#: src/gconf-editor-window.c:1664
+msgid "Long description:"
+msgstr "འགྲེལ་བཤད་རིངམ་:"
+
+#: src/gconf-key-editor.c:106
+msgid "T_rue"
+msgstr "བདེན་པ། (_r)"
+
+#: src/gconf-key-editor.c:109
+#: src/gconf-key-editor.c:267
+#: src/gconf-key-editor.c:372
+#: src/gconf-key-editor.c:658
+msgid "_False"
+msgstr "རྫུན་པ། (_F)"
+
+#: src/gconf-key-editor.c:145
+#: src/gconf-key-editor.c:177
+msgid "Integer"
+msgstr "ཧྲིལ་ཨང་།"
+
+#: src/gconf-key-editor.c:147
+#: src/gconf-key-editor.c:179
+msgid "Boolean"
+msgstr "བུ་ལིན།"
+
+#: src/gconf-key-editor.c:149
+#: src/gconf-key-editor.c:181
+msgid "String"
+msgstr "ཡིག་རྒྱུན།"
+
+#: src/gconf-key-editor.c:151
+msgid "Float"
+msgstr "ལྡིང་བ།"
+
+#: src/gconf-key-editor.c:153
+msgid "List"
+msgstr "ཐོ་ཡིག།"
+
+#: src/gconf-key-editor.c:242
+msgid "Add New List Entry"
+msgstr "ཐོ་ཡིག་གི་ཐོ་བཀོད་གསརཔ་ ཁ་སྐོང་རྐྱབས།"
+
+#: src/gconf-key-editor.c:258
+msgid "_New list value:"
+msgstr "ཐོ་ཡིག་གི་བེ་ལུ་གསརཔ་: (_N)"
+
+#: src/gconf-key-editor.c:344
+msgid "Edit List Entry"
+msgstr "ཐོ་ཡིག་གི་ཐོ་བཀོད་ ཞུན་དག་རྐྱབས།"
+
+#: src/gconf-key-editor.c:360
+msgid "_Edit list value:"
+msgstr "ཐོ་ཡིག་གི་བེ་ལུ་ ཞུན་དག་རྐྱབས་:(_E)"
+
+#: src/gconf-key-editor.c:581
+msgid "Path:"
+msgstr "འགྲུལ་ལམ་:"
+
+#: src/gconf-key-editor.c:592
+msgid "_Name:"
+msgstr "མིང་:(_N)"
+
+#: src/gconf-key-editor.c:604
+msgid "_Type:"
+msgstr "དབྱེ་བ་:(_T)"
+
+#: src/gconf-key-editor.c:639
+#: src/gconf-key-editor.c:657
+#: src/gconf-key-editor.c:676
+#: src/gconf-key-editor.c:693
+msgid "_Value:"
+msgstr "བེ་ལུ་:(_V)"
+
+#: src/gconf-key-editor.c:716
+msgid "List _type:"
+msgstr "ཐོ་ཡིག་དབྱེ་བ་:(_t)"
+
+#: src/gconf-key-editor.c:724
+msgid "_Values:"
+msgstr "བེ་ལུསི་:(_V)"
+
+#: src/gconf-key-editor.c:826
+msgid "New Key"
+msgstr "ལྡེ་མིག་གསརཔ།"
+
+#: src/gconf-key-editor.c:830
+msgid "Edit Key"
+msgstr "ལྡེ་མིག་ཞུན་དག་རྐྱབས།"
+
+#: src/gconf-search-dialog.c:59
+msgid "Pattern not found"
+msgstr "དཔེ་གཞི་ཐོབ་མ་ཚུགས།"
+
+#: src/gconf-search-dialog.c:141
+msgid "Find"
+msgstr "འཚོལ།"
+
+#: src/gconf-search-dialog.c:143
+msgid "_Search for: "
+msgstr "དོན་ལུ་ འཚོལ་ཞིབ་འབད་:(_S)"
+
+#: src/gconf-search-dialog.c:164
+msgid "Search also in key _names"
+msgstr "ལྡེ་མིག་གི་མིང་ཚུ་ནང་ཡང་ འཚོལ་ཞིབ་འབད། (_n)"
+
+#: src/gconf-search-dialog.c:167
+msgid "Search also in key _values"
+msgstr "ལྡེ་མིག་གི་བེ་ལུསི་ཚུ་ནང་ཡང་ འཚོལ་ཞིབ་འབད། (_v)"
+
+#: src/gedit-output-window.c:350
+msgid "Close the output window"
+msgstr "ཨའུཊི་པུཊི་ སྒོ་སྒྲིག་ཁ་བསྡམས།"
+
+#: src/gedit-output-window.c:388
+msgid "Copy selected lines"
+msgstr "སེལ་འཐུ་འབད་མི་གྱལ་རིམ་ཚུ་ འདྲ་བཤུས་རྐྱབས།"
+
+#: src/gedit-output-window.c:408
+msgid "Clear the output window"
+msgstr "ཨའུཊི་པུཊི་ སྒོ་སྒྲིག་བསལ།"
+
+#: src/gedit-output-window.c:448
+msgid "Output Lines"
+msgstr "ཨའུཊི་པུཊི་ གྱལ་རིམ་ཚུ།"
+
+#: src/main.c:40
+#, c-format
+msgid "Invalid key \"%s\": %s"
+msgstr "ནུས་མེད་ལྡེ་མིག་ \"%s\": %s"
+
